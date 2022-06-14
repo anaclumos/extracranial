@@ -1,6 +1,6 @@
 ---
 slug: long-blog-post
-title: Long Blog Post
+title: 긴 블로그 글
 authors: anaclumos
 tags: [hello, docusaurus]
 ---
