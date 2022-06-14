@@ -1,2 +1,3 @@
-# www
-me on the web
+# cho.sh
+
+- Traveling the web, in search of the source of truth
