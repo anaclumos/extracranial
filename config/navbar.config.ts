@@ -7,7 +7,7 @@ const navbar = {
   items: [
     {
       type: 'doc',
-      docId: 'intro',
+      docId: 'hey',
       position: 'left',
       label: 'Research Notes',
     },
