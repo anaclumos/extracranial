@@ -4,6 +4,7 @@
 
 ## TODO
 
-- [ ] locally host KaTeX and Fonts (Pretendard and TossFace)
+- [x] locally host KaTeX and Fonts (Pretendard and TossFace)
 - [ ] Update Homepage to include dynamically generated content (GitHub activity, etc.)
-- [ ] Change `var(--ifm-heading-color)` from black to something else
+- [x] Change `var(--ifm-heading-color)` from black to something else
+  - `wontfix`
