@@ -16,7 +16,6 @@
     "build:config": "tsc -p tsconfig-config.json",
     "lint": "eslint --cache \"**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,json,md,mdx}\"",
-    "prepare": "husky install",
     "i18n": "mkdir -p i18n/ko/docusaurus-plugin-content-blog && cp -r -n blog/** i18n/ko/docusaurus-plugin-content-blog"
   },
   "dependencies": {
