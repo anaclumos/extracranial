@@ -11,7 +11,7 @@ const navbar = {
       position: 'left',
       label: 'Research Notes',
     },
-    { to: '/blog', label: 'Blog', position: 'left' },
+    { to: '/blog/archive', label: 'Blog', position: 'left' },
     {
       type: 'localeDropdown',
       position: 'right',
