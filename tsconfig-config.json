@@ -1,0 +1,7 @@
+{
+  "include": ["./*.config.ts", "config/"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}

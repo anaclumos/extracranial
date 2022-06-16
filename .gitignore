@@ -1,6 +1,8 @@
 /docs/assets
 /docs/journals
 /docs/pages
+*.config.js
+*.stylesheet.js
 
 # Dependencies
 /node_modules
