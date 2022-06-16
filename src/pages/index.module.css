@@ -33,6 +33,10 @@
   display: inline-block;
 }
 
+[data-theme='dark'] .intro::after {
+  background: #fff;
+}
+
 @keyframes cursor-blink {
   0% {
     opacity: 0;
