@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "cho.sh",
+    "description": "The title in the navbar"
+  },
+  "item.label.Research Notes": {
+    "message": "Research Notes",
+    "description": "Navbar item with label Research Notes"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}
