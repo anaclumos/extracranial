@@ -54,6 +54,11 @@ const config: Config = {
         autoCollapseCategories: true,
       },
     },
+    blog: {
+      archive: {
+        description: 'These are all posts on cho.sh.',
+      },
+    },
   },
 }
 
