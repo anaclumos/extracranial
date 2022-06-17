@@ -230,14 +230,85 @@
     "message": "사이드바 열기",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "¶ Sunghyun": {
-    "message": "¶ 조성현"
+  "Sunghyun": {
+    "message": "조성현"
   },
-  "Sunghyun Profile Image": {
-    "message": "조성현 프로필 이미지",
-    "description": "Sunghyun Profile Image on Main Page"
+  " is a ": {
+    "message": "은 "
   },
-  "is a Computer Scientist and a Software Engineer based in Los Angeles 🇺🇸 and Seoul 🇰🇷 . He began his studies in Computer Science 💻 at the USC, and usually work on Next-gen Web 🕸 Technologies. He currently works at a Unicorn 🦄 company Karrot 🥕, researching Secure Sandboxing Models for Mini-Apps 📱.": {
-    "message": "은 🇺🇸 로스앤젤레스와 🇰🇷 서울에서 활동하는 컴퓨터 과학자 그리고 소프트웨어 엔지니어입니다. USC에서 컴퓨터 과학 💻 공부를 시작하였으며, 주로 차세대 웹 🕸 기술을 연구합니다. 현재는 당근 🥕 에서 미니 앱 📱 을 위한 안전한 샌드박스 환경을 연구하고 있습니다."
+  "Computer Scientist": {
+    "message": "컴퓨터 과학자"
+  },
+  " based in ": {
+    "message": "입니다. 주로 "
+  },
+  "LA": {
+    "message": "LA"
+  },
+  " and ": {
+    "message": " 그리고 "
+  },
+  "Seoul": {
+    "message": "서울"
+  },
+  ". He currently works at a ": {
+    "message": "에서 활동합니다. 현재는 "
+  },
+  "Unicorn": {
+    "message": "유니콘"
+  },
+  " company ": {
+    "message": " 기업 "
+  },
+  "Karrot": {
+    "message": "당근"
+  },
+  ", researching secure sandboxing model for ": {
+    "message": "에서 "
+  },
+  "Mini-Apps": {
+    "message": "미니 앱"
+  },
+  ". He usually works on next-gen ": {
+    "message": "을 위한 안전한 샌드박스 모델을 연구하고 있습니다. 주로 차세대 "
+  },
+  "Web Technologies": {
+    "message": "웹 기술"
+  },
+  ", while his interest spans across variety of fields like ": {
+    "message": "을 연구하지만, 그 외에도 "
+  },
+  "Computer Graphics": {
+    "message": "컴퓨터 그래픽스"
+  },
+  ", ": {
+    "message": ", "
+  },
+  "Medical AI": {
+    "message": "의료 인공지능"
+  },
+  "Fusion Energies": {
+    "message": "핵융합 에너지"
+  },
+  ", and ": {
+    "message": ", 그리고 "
+  },
+  "Space Terraformings": {
+    "message": "우주 테라포밍"
+  },
+  ". When he is not coding, he enjoys learning ": {
+    "message": " 등에 관심이 많습니다. 코딩하지 않을 때는, 주로 "
+  },
+  "Modern History": {
+    "message": "근현대사"
+  },
+  "Economics": {
+    "message": "경제학"
+  },
+  ". ": {
+    "message": " 공부를 즐겨합니다. "
+  },
+  "Get in touch.": {
+    "message": "연락하기."
   }
 }
