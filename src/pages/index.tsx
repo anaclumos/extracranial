@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import EmojiReplaceableText from '../components/EmojiReplaceableText'
-import Profile from '../../static/img/profile.jpg'
 import Translate, { translate } from '@docusaurus/Translate'
-
 import createGlobe from 'cobe'
-import { useEffect, useRef } from 'react'
+import Profile from '../../static/img/profile.jpg'
+import { Coordinate } from '../util/coordinate'
+import { globePathDrawer } from '../util/globePathDrawer'
+
+const seoul: Coordinate = { location: [37.5665, 126.978], size: 0.05 }
+const la: Coordinate = { location: [34.0522, 241.7563], size: 0.05 }
+
 function Globe() {
   const canvasRef = useRef()
 
@@ -29,10 +33,7 @@ function Globe() {
       glowColor: [1, 1, 1],
       scale: 1,
       offset: [0, 0],
-      markers: [
-        { location: [37.5665, 126.978], size: 0.05 },
-        { location: [34.0522, -118.2437], size: 0.05 },
-      ],
+      markers: globePathDrawer(seoul, la, 64, 0.01),
       onRender: (state) => {
         state.phi = rotation
         rotation += 0.005
