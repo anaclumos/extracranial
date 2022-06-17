@@ -17,7 +17,7 @@ const HomepageHeader = () => {
         <EmojiReplaceableText text='LA' emoji='🇺🇸' />
         {' and '}
         <EmojiReplaceableText text='Seoul' emoji='🇰🇷' />
-        {'. He currently works at a'}
+        {'. He currently works at a '}
         <EmojiReplaceableText text='Unicorn' emoji='🦄' />
         {' company '}
         <EmojiReplaceableText text='Karrot' emoji='🥕' />
