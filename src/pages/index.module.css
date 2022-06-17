@@ -1,13 +1,6 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .intro {
   padding: 4rem 2rem;
-  position: relative;
   font-weight: normal;
-  overflow: hidden;
   font-size: 2.5rem;
   line-height: 1.5;
   max-width: 1200px;
@@ -18,9 +11,10 @@
 
 /* image inline, make it circular */
 .intro img {
-  width: 2rem;
-  height: auto;
+  height: 1.15em;
   border-radius: 50%;
+  display: inline-block;
+  vertical-align: text-bottom;
 }
 
 .intro::after {
@@ -56,7 +50,6 @@
   .intro img {
     width: 1.2rem;
     height: auto;
-    border-radius: 50%;
     margin: 0 0.5rem;
   }
 
@@ -66,4 +59,12 @@
     margin: 0 0.5rem;
     vertical-align: text-bottom;
   }
+}
+
+.email {
+  color: #aaa;
+}
+
+[data-theme='dark'] .email {
+  color: #555;
 }
