@@ -7,7 +7,7 @@ import Profile from '../../static/img/profile.jpg'
 import Translate, { translate } from '@docusaurus/Translate'
 
 const HomepageHeader = () => {
-  const delayInSeconds = 3
+  const delayInSeconds = 1
 
   return (
     <header>
@@ -62,12 +62,12 @@ const HomepageHeader = () => {
         />
         <Translate>{'. He usually works on next-gen '}</Translate>
         <EmojiReplaceableText
-          text={translate({ message: 'Web Technologies' })}
+          text={translate({ message: 'Web' })}
           emoji='🕸'
           emojiByDefault='emoji'
           countdown={delayInSeconds * 8}
         />
-        <Translate>{', while his interest spans across variety of fields like '}</Translate>
+        <Translate>{' Technologies, while his interest spans across variety of fields like '}</Translate>
         <EmojiReplaceableText
           text={translate({ message: 'Computer Graphics' })}
           emoji='👾'
