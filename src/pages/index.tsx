@@ -4,26 +4,40 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import Translate, { translate } from '@docusaurus/Translate'
+import EmojiReplaceableText from '../components/EmojiReplaceableText'
 
-function HomepageHeader() {
+const HomepageHeader = () => {
   return (
     <header>
       <h1 className={clsx(styles.intro)}>
-        <Translate>¶ Sunghyun</Translate>
-        <span>
-          <img
-            src='https://github.com/anaclumos.png'
-            alt={translate({
-              message: 'Sunghyun Profile Image',
-              description: 'Sunghyun Profile Image on Main Page',
-            })}
-          />
-        </span>
-        <Translate>
-          is a Computer Scientist and a Software Engineer based in Los Angeles 🇺🇸 and Seoul 🇰🇷 . He began his studies in
-          Computer Science 💻 at the USC, and usually work on Next-gen Web 🕸 Technologies. He currently works at a
-          Unicorn 🦄 company Karrot 🥕, researching Secure Sandboxing Models for Mini-Apps 📱.
-        </Translate>
+        <EmojiReplaceableText text='Sunghyun' photoSrc='https://github.com/anaclumos.png' />
+        {' is a '}
+        <EmojiReplaceableText text='Computer' emoji='💻' />
+        {' Scientist based in '}
+        <EmojiReplaceableText text='LA' emoji='🇺🇸' />
+        {' and '}
+        <EmojiReplaceableText text='Seoul' emoji='🇰🇷' />
+        {'. He currently works at a'}
+        <EmojiReplaceableText text='Unicorn' emoji='🦄' />
+        {' company '}
+        <EmojiReplaceableText text='Karrot' emoji='🥕' />
+        {', researching Secure Sandboxing Models for '}
+        <EmojiReplaceableText text='Mini-Apps' emoji='📱' />
+        {'. He usually works on Next-gen '}
+        <EmojiReplaceableText text='Web' emoji='🕸' />
+        {' Technologies, while his interest spans across variety of fields like '}
+        <EmojiReplaceableText text='Computer Graphics' emoji='👾' />
+        {', '}
+        <EmojiReplaceableText text='Medical AI' emoji='💊' />
+        {', '}
+        <EmojiReplaceableText text='Fusion Energies ' emoji='☢️' />
+        {', and '}
+        <EmojiReplaceableText text='Space Terraformings' emoji='🚀' />
+        {'. When he is not coding, he enjoys learning '}
+        <EmojiReplaceableText text='Modern History' emoji='📜' />
+        {' and '}
+        <EmojiReplaceableText text='Economics' emoji='🏦' />
+        {'.'}
       </h1>
     </header>
   )
