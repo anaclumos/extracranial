@@ -21,7 +21,7 @@ const EmojiReplaceableText = (props: Props) => {
 
   useTimeout(() => {
     if (countdown) {
-      setShowEmoji(emojiByDefault !== 'emoji')
+      setShowEmoji(false)
     }
   }, countdown * 1000)
 
