@@ -3,40 +3,39 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import EmojiReplaceableText from '../components/EmojiReplaceableText'
+import Profile from '../../static/img/profile.jpg'
 
 const HomepageHeader = () => {
-  const delayInSeconds = 3
-
   return (
     <header>
       <h1 className={styles.intro}>
-        <EmojiReplaceableText text='Sunghyun' photoSrc='https://github.com/anaclumos.png' emojiByDefault='emoji' />
+        <EmojiReplaceableText text='Sunghyun' photo={Profile} emojiByDefault='emoji' />
         {' is a '}
-        <EmojiReplaceableText text='Computer Scientist' emoji='🧑🏻‍💻' countdown={delayInSeconds * 13} />
+        <EmojiReplaceableText text='Computer Scientist' emoji='🧑🏻‍💻' />
         {' based in '}
-        <EmojiReplaceableText text='LA' emoji='🇺🇸' countdown={delayInSeconds * 12} />
+        <EmojiReplaceableText text='LA' emoji='🇺🇸' />
         {' and '}
-        <EmojiReplaceableText text='Seoul' emoji='🇰🇷' countdown={delayInSeconds * 11} />
+        <EmojiReplaceableText text='Seoul' emoji='🇰🇷' />
         {'. He currently works at a '}
-        <EmojiReplaceableText text='Unicorn' emoji='🦄' countdown={delayInSeconds * 10} />
+        <EmojiReplaceableText text='Unicorn' emoji='🦄' />
         {' company '}
-        <EmojiReplaceableText text='Karrot' emoji='🥕' countdown={delayInSeconds * 9} />
+        <EmojiReplaceableText text='Karrot' emoji='🥕' />
         {', researching secure sandboxing model for '}
-        <EmojiReplaceableText text='Mini-Apps' emoji='📱' countdown={delayInSeconds * 8} />
+        <EmojiReplaceableText text='Mini-Apps' emoji='📱' />
         {'. He usually works on next-gen '}
-        <EmojiReplaceableText text='Web Technologies' emoji='🕸' countdown={delayInSeconds * 7} />
+        <EmojiReplaceableText text='Web Technologies' emoji='🕸' />
         {', while his interest spans across variety of fields like '}
-        <EmojiReplaceableText text='Computer Graphics' emoji='👾' countdown={delayInSeconds * 6} />
+        <EmojiReplaceableText text='Computer Graphics' emoji='👾' />
         {', '}
-        <EmojiReplaceableText text='Medical AI' emoji='💊' countdown={delayInSeconds * 5} />
+        <EmojiReplaceableText text='Medical AI' emoji='💊' />
         {', '}
-        <EmojiReplaceableText text='Fusion Energies' emoji='☢️' countdown={delayInSeconds * 4} />
+        <EmojiReplaceableText text='Fusion Energies' emoji='☢️' />
         {', and '}
-        <EmojiReplaceableText text='Space Terraformings' emoji='🚀' countdown={delayInSeconds * 3} />
+        <EmojiReplaceableText text='Space Terraformings' emoji='🚀' />
         {'. When he is not coding, he enjoys learning '}
-        <EmojiReplaceableText text='Modern History' emoji='📰' countdown={delayInSeconds * 2} />
+        <EmojiReplaceableText text='Modern History' emoji='📰' />
         {' and '}
-        <EmojiReplaceableText text='Economics' emoji='🏦' countdown={delayInSeconds * 1} />
+        <EmojiReplaceableText text='Economics' emoji='🏦' />
         {'. '}
         <a href='https://mailhide.io/e/IXndXpED' target='_blank' rel='noopener noreferrer' className={styles.email}>
           Get in touch.
