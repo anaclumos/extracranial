@@ -88,3 +88,7 @@
   aspect-ratio: 1;
   max-width: '100%';
 }
+
+.nowrap {
+  white-space: nowrap;
+}
