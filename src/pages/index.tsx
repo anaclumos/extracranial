@@ -30,7 +30,7 @@ function Globe() {
       mapBrightness: 6,
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [250 / 256, 94 / 256, 0 / 256],
-      glowColor: [0.7, 0.7, 0.7],
+      glowColor: [0.5, 0.5, 0.5],
       scale: 1,
       offset: [0, 0],
       markers: globePathDrawer(seoul, la, 64, 0.01),
@@ -86,9 +86,10 @@ const HeroText = () => {
           <Translate>{' and '}</Translate>
           <EmojiReplaceableText text={translate({ message: 'Economics' })} emoji='🏦' emojiByDefault='emoji' />
           <Translate>{'. '}</Translate>
-          <br />
           <a href='https://mailhide.io/e/IXndXpED' target='_blank' rel='noopener noreferrer' className={styles.email}>
-            <Translate>Get in touch.</Translate>
+            <span className={styles.nowrap}>
+              <Translate>Get in touch.</Translate>
+            </span>
           </a>
         </h1>
       </header>
