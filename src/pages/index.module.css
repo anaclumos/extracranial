@@ -15,6 +15,7 @@
   border-radius: 50%;
   display: inline-block;
   vertical-align: text-bottom;
+  margin: 0 0.5rem 0 0;
 }
 
 .intro::after {
@@ -48,9 +49,9 @@
   }
 
   .intro img {
-    width: 1.2rem;
+    width: 1.5rem;
     height: auto;
-    margin: 0 0.5rem;
+    margin: 0 0.25rem 0 0;
   }
 
   .intro::after {
