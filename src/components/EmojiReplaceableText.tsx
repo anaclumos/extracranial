@@ -6,11 +6,12 @@ type Props = {
   text: string
   emoji?: string
   photoSrc?: string
+  emojiByDefault?: 'emoji' | 'text'
 }
 
 const EmojiReplaceableText = (props: Props) => {
-  const { text, emoji, photoSrc } = props
-  const [showEmoji, setShowEmoji] = React.useState(false)
+  const { text, emoji, photoSrc, emojiByDefault } = props
+  const [showEmoji, setShowEmoji] = React.useState(emojiByDefault === 'emoji')
   const handleClick = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
     e.preventDefault()
     setShowEmoji(!showEmoji)

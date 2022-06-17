@@ -1,19 +1,17 @@
 import React from 'react'
-import clsx from 'clsx'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
-import Translate, { translate } from '@docusaurus/Translate'
 import EmojiReplaceableText from '../components/EmojiReplaceableText'
 
 const HomepageHeader = () => {
   return (
     <header>
-      <h1 className={clsx(styles.intro)}>
-        <EmojiReplaceableText text='Sunghyun' photoSrc='https://github.com/anaclumos.png' />
+      <h1 className={styles.intro}>
+        <EmojiReplaceableText text='Sunghyun' photoSrc='https://github.com/anaclumos.png' emojiByDefault='emoji' />
         {' is a '}
-        <EmojiReplaceableText text='Computer' emoji='💻' />
-        {' Scientist based in '}
+        <EmojiReplaceableText text='Computer Scientist' emoji='🧑🏻‍💻' />
+        {' based in '}
         <EmojiReplaceableText text='LA' emoji='🇺🇸' />
         {' and '}
         <EmojiReplaceableText text='Seoul' emoji='🇰🇷' />
@@ -21,23 +19,26 @@ const HomepageHeader = () => {
         <EmojiReplaceableText text='Unicorn' emoji='🦄' />
         {' company '}
         <EmojiReplaceableText text='Karrot' emoji='🥕' />
-        {', researching Secure Sandboxing Models for '}
+        {', researching secure sandboxing model for '}
         <EmojiReplaceableText text='Mini-Apps' emoji='📱' />
-        {'. He usually works on Next-gen '}
-        <EmojiReplaceableText text='Web' emoji='🕸' />
-        {' Technologies, while his interest spans across variety of fields like '}
+        {'. He usually works on next-gen '}
+        <EmojiReplaceableText text='Web Technologies' emoji='🕸' />
+        {', while his interest spans across variety of fields like '}
         <EmojiReplaceableText text='Computer Graphics' emoji='👾' />
         {', '}
         <EmojiReplaceableText text='Medical AI' emoji='💊' />
         {', '}
-        <EmojiReplaceableText text='Fusion Energies ' emoji='☢️' />
+        <EmojiReplaceableText text='Fusion Energies' emoji='☢️' />
         {', and '}
         <EmojiReplaceableText text='Space Terraformings' emoji='🚀' />
         {'. When he is not coding, he enjoys learning '}
-        <EmojiReplaceableText text='Modern History' emoji='📜' />
+        <EmojiReplaceableText text='Modern History' emoji='📰' />
         {' and '}
         <EmojiReplaceableText text='Economics' emoji='🏦' />
-        {'.'}
+        {'. '}
+        <a href='https://mailhide.io/e/IXndXpED' target='_blank' rel='noopener noreferrer' className={styles.email}>
+          Get in touch.
+        </a>
       </h1>
     </header>
   )

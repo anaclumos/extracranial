@@ -1,11 +1,5 @@
 .emojiReplaceableText {
-  font-weight: 500;
-  color: #fe8741;
-}
-
-[data-theme='dark'] .emojiReplaceableText {
-  font-weight: 500;
-  color: #e5732f;
+  color: var(--ifm-color-primary);
 }
 
 .emojiReplaceableText:hover {
