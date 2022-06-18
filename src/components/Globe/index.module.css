@@ -1,0 +1,8 @@
+.globe {
+  width: 600px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+  aspect-ratio: 1;
+  max-width: '100%';
+}

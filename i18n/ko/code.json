@@ -236,13 +236,13 @@
   " is a ": {
     "message": "은 "
   },
-  "Computer Scientist": {
+  "computer scientist": {
     "message": "컴퓨터 과학자"
   },
   " based in ": {
     "message": "입니다. 주로 "
   },
-  "LA": {
+  "Los Angeles": {
     "message": "LA"
   },
   " and ": {
@@ -254,7 +254,7 @@
   ". He currently works at a ": {
     "message": "에서 활동합니다. 현재는 "
   },
-  "Unicorn": {
+  "unicorn": {
     "message": "유니콘"
   },
   " company ": {
@@ -266,47 +266,47 @@
   ", researching secure sandboxing model for ": {
     "message": "에서 "
   },
-  "Mini-Apps": {
+  "mini-apps": {
     "message": "미니 앱"
   },
   ". He usually works on next-gen ": {
     "message": "을 위한 안전한 샌드박스 모델을 연구하고 있습니다. 주로 차세대 "
   },
-  "Web": {
+  "web": {
     "message": "웹"
   },
-  " Technologies, while his interest spans across variety of fields like ": {
+  " technologies, while his interest spans across variety of fields like ": {
     "message": " 기술을 연구하지만, 그 외에도  "
   },
-  "Computer Graphics": {
+  "computer graphics": {
     "message": "컴퓨터 그래픽스"
   },
   ", ": {
     "message": ", "
   },
-  "Medical AI": {
+  "medical AI": {
     "message": "의료 인공지능"
   },
-  "Fusion Energies": {
+  "fusion energies": {
     "message": "핵융합 에너지"
   },
   ", and ": {
     "message": ", 그리고 "
   },
-  "Space Terraformings": {
+  "space terraformings": {
     "message": "우주 테라포밍"
   },
   ". When he is not coding, he enjoys learning ": {
     "message": " 등의 다양한 분야에 관심이 많습니다. 코딩을 하지 않을 때는 주로 "
   },
-  "Modern History": {
+  "modern history": {
     "message": "근현대사"
   },
-  "Economics": {
+  "economics": {
     "message": "경제학"
   },
   ". ": {
-    "message": " 공부를 즐겨합니다. "
+    "message": "에 대해 배우는 것을 좋아합니다. "
   },
   "Get in touch.": {
     "message": "연락하기."
