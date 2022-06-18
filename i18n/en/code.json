@@ -237,8 +237,8 @@
     "message": "Sunghyun Profile Image",
     "description": "Sunghyun Profile Image on Main Page"
   },
-  "is a Computer Scientist and a Software Engineer based in Los Angeles 🇺🇸 and Seoul 🇰🇷 . He began his studies in Computer Science 💻 at the USC, and usually work on Next-gen Web 🕸 Technologies. He currently works at a Unicorn 🦄 company Karrot 🥕, researching Secure Sandboxing Models for Mini-Apps 📱.": {
-    "message": "is a Computer Scientist and a Software Engineer based in Los Angeles 🇺🇸 and Seoul 🇰🇷 . He began his studies in Computer Science 💻 at the USC, and usually work on Next-gen Web 🕸 Technologies. He currently works at a Unicorn 🦄 company Karrot 🥕, researching Secure Sandboxing Models for Mini-Apps 📱."
+  "is a computer scientist and a Software Engineer based in Los Angeles 🇺🇸 and Seoul 🇰🇷 . He began his studies in Computer Science 💻 at the USC, and usually work on Next-gen web 🕸 Technologies. He currently works at a unicorn 🦄 company Karrot 🥕, researching Secure Sandboxing Models for mini-apps 📱.": {
+    "message": "is a computer scientist and a Software Engineer based in Los Angeles 🇺🇸 and Seoul 🇰🇷 . He began his studies in Computer Science 💻 at the USC, and usually work on Next-gen web 🕸 Technologies. He currently works at a unicorn 🦄 company Karrot 🥕, researching Secure Sandboxing Models for mini-apps 📱."
   },
   "Sunghyun": {
     "message": "Sunghyun"
@@ -246,14 +246,14 @@
   " is a ": {
     "message": " is a "
   },
-  "Computer Scientist": {
-    "message": "Computer Scientist"
+  "computer scientist": {
+    "message": "computer scientist"
   },
   " based in ": {
     "message": " based in "
   },
-  "LA": {
-    "message": "LA"
+  "Los Angeles": {
+    "message": "Los Angeles"
   },
   " and ": {
     "message": " and "
@@ -264,8 +264,8 @@
   ". He currently works at a ": {
     "message": ". He currently works at a "
   },
-  "Unicorn": {
-    "message": "Unicorn"
+  "unicorn": {
+    "message": "unicorn"
   },
   " company ": {
     "message": " company "
@@ -276,44 +276,44 @@
   ", researching secure sandboxing model for ": {
     "message": ", researching secure sandboxing model for "
   },
-  "Mini-Apps": {
-    "message": "Mini-Apps"
+  "mini-apps": {
+    "message": "mini-apps"
   },
   ". He usually works on next-gen ": {
     "message": ". He usually works on next-gen "
   },
-  "Web": {
-    "message": "Web"
+  "web": {
+    "message": "web"
   },
-  " Technologies, while his interest spans across variety of fields like ": {
-    "message": " Technologies, while his interest spans across variety of fields like "
+  " technologies, while his interest spans across variety of fields like ": {
+    "message": " technologies, while his interest spans across variety of fields like "
   },
-  "Computer Graphics": {
-    "message": "Computer Graphics"
+  "computer graphics": {
+    "message": "computer graphics"
   },
   ", ": {
     "message": ", "
   },
-  "Medical AI": {
-    "message": "Medical AI"
+  "medical AI": {
+    "message": "medical AI"
   },
-  "Fusion Energies": {
-    "message": "Fusion Energies"
+  "fusion energies": {
+    "message": "fusion energies"
   },
   ", and ": {
     "message": ", and "
   },
-  "Space Terraformings": {
-    "message": "Space Terraformings"
+  "space terraformings": {
+    "message": "space terraformings"
   },
   ". When he is not coding, he enjoys learning ": {
     "message": ". When he is not coding, he enjoys learning "
   },
-  "Modern History": {
-    "message": "Modern History"
+  "modern history": {
+    "message": "modern history"
   },
-  "Economics": {
-    "message": "Economics"
+  "economics": {
+    "message": "economics"
   },
   ". ": {
     "message": ". "
