@@ -32,7 +32,11 @@ const HeroText = () => {
           <Translate>{' technologies, while his interest spans across variety of fields like '}</Translate>
           <EmojiReplaceableText text={translate({ message: 'computer graphics' })} emoji='👾' emojiByDefault='emoji' />
           <Translate>{', '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'medical AI' })} emoji='💊' emojiByDefault='emoji' />
+          <EmojiReplaceableText
+            text={translate({ message: 'artificial intelligences in medicine' })}
+            emoji='💊'
+            emojiByDefault='emoji'
+          />
           <Translate>{', '}</Translate>
           <EmojiReplaceableText text={translate({ message: 'fusion energies' })} emoji='☢️' emojiByDefault='emoji' />
           <Translate>{', and '}</Translate>
