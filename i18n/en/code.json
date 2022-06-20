@@ -313,5 +313,26 @@
   },
   "Get in touch.": {
     "message": "Get in touch."
+  },
+  "Google Latest Articles Instead": {
+    "message": "Google Latest Articles Instead"
+  },
+  "Old post ahead!": {
+    "message": "Old post ahead!"
+  },
+  "I wrote this post more than": {
+    "message": "I wrote this post more than"
+  },
+  "years ago.": {
+    "message": "years ago."
+  },
+  "That's enough time for things to change.": {
+    "message": "That's enough time for things to change."
+  },
+  "I might not agree with this post anymore.": {
+    "message": "I might not agree with this post anymore."
+  },
+  "year ago.": {
+    "message": "year ago."
   }
 }
