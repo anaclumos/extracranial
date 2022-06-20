@@ -1,24 +1,24 @@
 * {
-  --primary-color-50: #fde9e4;
-  --primary-color-100: #ffccb3;
-  --primary-color-200: #ffac82;
-  --primary-color-300: #ff8c4d;
-  --primary-color-400: #fd731e;
-  --primary-color-500: #fa5e00;
-  --primary-color-600: #f05700;
-  --primary-color-700: #e25000;
-  --primary-color-800: #d54800;
-  --primary-color-900: #bc3b00;
+  --primary-color-50: #e5f2fd;
+  --primary-color-100: #c1defa;
+  --primary-color-200: #9ccaf7;
+  --primary-color-300: #79b5f2;
+  --primary-color-400: #64a5f0;
+  --primary-color-500: #5596ec;
+  --primary-color-600: #5088de;
+  --primary-color-700: #4976ca;
+  --primary-color-800: #4365b8;
+  --primary-color-900: #384897;
 }
 
 :root {
-  --ifm-color-primary: var(--primary-color-500);
-  --ifm-color-primary-dark: var(--primary-color-600);
-  --ifm-color-primary-darker: var(--primary-color-700);
-  --ifm-color-primary-darkest: var(--primary-color-800);
-  --ifm-color-primary-light: var(--primary-color-300);
-  --ifm-color-primary-lighter: var(--primary-color-200);
-  --ifm-color-primary-lightest: var(--primary-color-100);
+  --ifm-color-primary: var(--primary-color-600);
+  --ifm-color-primary-dark: var(--primary-color-700);
+  --ifm-color-primary-darker: var(--primary-color-800);
+  --ifm-color-primary-darkest: var(--primary-color-900);
+  --ifm-color-primary-light: var(--primary-color-500);
+  --ifm-color-primary-lighter: var(--primary-color-400);
+  --ifm-color-primary-lightest: var(--primary-color-300);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
