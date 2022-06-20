@@ -1,5 +1,4 @@
 import React from 'react'
-import Translate from '@docusaurus/Translate'
 import styles from './EmojiReplaceableText.module.css'
 import { useTimeout } from '../util/useTimeout'
 
@@ -7,12 +6,13 @@ type Props = {
   text: string
   emoji?: string
   photo?: string
+  photoAlt?: string
   emojiByDefault?: 'emoji' | 'text'
   countdown?: number
 }
 
 const EmojiReplaceableText = (props: Props) => {
-  const { text, emoji, photo, emojiByDefault, countdown } = props
+  const { text, emoji, photo, emojiByDefault, countdown, photoAlt } = props
   const [showEmoji, setShowEmoji] = React.useState(emojiByDefault === 'emoji')
   const handleClick = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
     e.preventDefault()
@@ -30,9 +30,9 @@ const EmojiReplaceableText = (props: Props) => {
       {showEmoji ? (
         emoji === undefined ? (
           photo === undefined ? (
-            <Translate>{text}</Translate>
+            text
           ) : (
-            <img src={photo} />
+            <img src={photo} alt={photoAlt} width='1.15rem' height='1.15rem' />
           )
         ) : (
           <span className={styles.emoji}>{emoji}</span>

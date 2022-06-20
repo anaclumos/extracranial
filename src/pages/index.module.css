@@ -23,6 +23,7 @@
 /* image inline, make it circular */
 .intro img {
   height: 1.15em;
+  width: 1.15em;
   border-radius: 50%;
   display: inline-block;
   vertical-align: text-bottom;
