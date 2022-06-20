@@ -8,8 +8,6 @@ import Profile from '../../static/img/profile.jpg'
 import { Globe } from '../components/Globe'
 
 const HeroText = () => {
-  const delayInSeconds = 1
-
   return (
     <>
       <header>

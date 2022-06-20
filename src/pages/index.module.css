@@ -22,36 +22,16 @@
 
 /* image inline, make it circular */
 .intro img {
-  height: 1.15em;
-  width: 1.15em;
+  height: 2rem;
+  width: 2rem;
   border-radius: 50%;
   display: inline-block;
-  vertical-align: text-bottom;
+  vertical-align: middle;
   margin: 0 0.5rem 0 0;
-}
-
-.intro::after {
-  content: '';
-  width: 0.1rem;
-  height: 2.5rem;
-  margin: 0.2rem 0.5rem;
-  background: #000;
-  display: inline-block;
-  vertical-align: text-bottom;
 }
 
 [data-theme='dark'] .intro::after {
   background: #fff;
-}
-
-@keyframes cursor-blink {
-  0% {
-    opacity: 0;
-  }
-}
-
-.intro::after {
-  animation: cursor-blink 1.5s steps(2) infinite;
 }
 
 @media screen and (max-width: 996px) {
@@ -61,16 +41,7 @@
   }
 
   .intro img {
-    width: 1.5rem;
-    height: auto;
     margin: 0 0.25rem 0 0;
-  }
-
-  .intro::after {
-    width: 0.05rem;
-    height: 1.8rem;
-    margin: 0 0.5rem;
-    vertical-align: text-bottom;
   }
 }
 
