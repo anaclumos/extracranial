@@ -8,3 +8,9 @@
 - [ ] Update Homepage to include dynamically generated content (GitHub activity, etc.)
 - [x] Change `var(--ifm-heading-color)` from black to something else
   - `wontfix`
+- [ ] Add guestbook (might just go with utterances)
+- [ ] Add newsletter integration
+  - potential candidate: Revue, used by Lee Rob. Unsure if it has integration built in.
+- [ ] Add comment system
+- [ ] Migrate blog posts
+- [ ] Migrate docs posts
