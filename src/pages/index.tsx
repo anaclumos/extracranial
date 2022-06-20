@@ -14,7 +14,12 @@ const HeroText = () => {
     <>
       <header>
         <h1 className={styles.intro}>
-          <EmojiReplaceableText text={translate({ message: 'Sunghyun' })} photo={Profile} emojiByDefault='emoji' />
+          <EmojiReplaceableText
+            text={translate({ message: 'Sunghyun' })}
+            photo={Profile}
+            photoAlt={translate({ message: 'Sunghyun Profile Image' })}
+            emojiByDefault='emoji'
+          />
           <Translate>{' is a '}</Translate>
           <EmojiReplaceableText text={translate({ message: 'computer scientist' })} emoji='🧑🏻‍💻' emojiByDefault='emoji' />
           <Translate>{' based in '}</Translate>

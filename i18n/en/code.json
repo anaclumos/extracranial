@@ -230,15 +230,8 @@
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "¶ Sunghyun": {
-    "message": "¶ Sunghyun"
-  },
   "Sunghyun Profile Image": {
-    "message": "Sunghyun Profile Image",
-    "description": "Sunghyun Profile Image on Main Page"
-  },
-  "is a computer scientist and a Software Engineer based in Los Angeles 🇺🇸 and Seoul 🇰🇷 . He began his studies in Computer Science 💻 at the USC, and usually work on Next-gen web 🕸 Technologies. He currently works at a unicorn 🦄 company Karrot 🥕, researching Secure Sandboxing Models for mini-apps 📱.": {
-    "message": "is a computer scientist and a Software Engineer based in Los Angeles 🇺🇸 and Seoul 🇰🇷 . He began his studies in Computer Science 💻 at the USC, and usually work on Next-gen web 🕸 Technologies. He currently works at a unicorn 🦄 company Karrot 🥕, researching Secure Sandboxing Models for mini-apps 📱."
+    "message": "Sunghyun Profile Image"
   },
   "Sunghyun": {
     "message": "Sunghyun"

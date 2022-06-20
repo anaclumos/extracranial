@@ -11,12 +11,12 @@
     "message": "My Notes.",
     "description": "The generated-index page description for category Journals in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Pages": {
-    "message": "Pages",
-    "description": "The label for category Pages in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Notes": {
+    "message": "Notes",
+    "description": "The label for category Notes in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Pages.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.Notes.link.generated-index.description": {
     "message": "My Notes.",
-    "description": "The generated-index page description for category Pages in sidebar tutorialSidebar"
+    "description": "The generated-index page description for category Notes in sidebar tutorialSidebar"
   }
 }
