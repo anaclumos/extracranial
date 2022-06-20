@@ -16,7 +16,8 @@
     "build:config": "tsc -p tsconfig-config.json",
     "lint": "eslint --cache \"**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,json,md,mdx}\"",
-    "i18n": "mkdir -p i18n/ko/docusaurus-plugin-content-blog && cp -r -n blog/** i18n/ko/docusaurus-plugin-content-blog"
+    "i18n": "mkdir -p i18n/ko/docusaurus-plugin-content-blog && cp -r -n blog/** i18n/ko/docusaurus-plugin-content-blog",
+    "new-post": "ts-node new-post.ts"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.21",
@@ -30,7 +31,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rehype-katex": "^5.0.0",
-    "remark-math": "^3.0.1"
+    "remark-math": "^3.0.1",
+    "ts-node": "^10.8.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.0.0-beta.21",
