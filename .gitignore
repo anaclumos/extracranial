@@ -1,6 +1,6 @@
 /docs/assets
 /docs/journals
-/docs/pages
+/docs/notes
 *.config.js
 *.stylesheet.js
 
