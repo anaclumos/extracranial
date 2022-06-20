@@ -15,7 +15,7 @@ const index = () => {
         reactionsEnabled='1'
         emitMetadata='0'
         inputPosition='top'
-        theme='preferred_color_scheme'
+        theme='https://raw.githubusercontent.com/anaclumos/www/main/src/components/Giscus/theme.css'
         lang='en'
       />
     </div>
