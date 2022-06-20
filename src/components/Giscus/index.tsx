@@ -3,26 +3,26 @@ import Giscus from '@giscus/react'
 import styles from './index.module.css'
 
 const index = () => {
-  // get current url path
-  const path = window.location.pathname
+  if (typeof window !== 'undefined') {
+    const path = window.location.pathname
+    if (path === '/blog') return null
+  }
   return (
-    path !== '/blog' && (
-      <div className={styles.giscus}>
-        <Giscus
-          id='comments'
-          repo='anaclumos/www-comments'
-          repoId='R_kgDOHh2XAw'
-          category='General'
-          categoryId='DIC_kwDOHh2XA84CPxJo'
-          mapping='pathname'
-          reactionsEnabled='1'
-          emitMetadata='0'
-          inputPosition='top'
-          theme='preferred_color_scheme'
-          lang='en'
-        />
-      </div>
-    )
+    <div className={styles.giscus}>
+      <Giscus
+        id='comments'
+        repo='anaclumos/www-comments'
+        repoId='R_kgDOHh2XAw'
+        category='General'
+        categoryId='DIC_kwDOHh2XA84CPxJo'
+        mapping='pathname'
+        reactionsEnabled='1'
+        emitMetadata='0'
+        inputPosition='top'
+        theme='preferred_color_scheme'
+        lang='en'
+      />
+    </div>
   )
 }
 
