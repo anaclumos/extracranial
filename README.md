@@ -1,6 +1,6 @@
 # cho.sh
 
-- Traveling the web, in search of the source of truth
+- traveling the www, in search of the truth
 
 ## TODO
 
