@@ -11,7 +11,8 @@ const navbar = {
       position: 'left',
       label: 'Research Notes',
     },
-    { to: '/blog/archive', label: 'Blog', position: 'left' },
+    { to: '/blog', label: 'Blog', position: 'left' },
+    { to: '/blog/archive', label: 'Archive', position: 'left' },
     {
       href: 'https://github.com/anaclumos',
       position: 'right',
