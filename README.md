@@ -11,7 +11,7 @@
 - [ ] Add guestbook (might just go with utterances)
 - [ ] Add newsletter integration
   - potential candidate: Revue, used by Lee Rob. Unsure if it has integration built in.
-- [ ] Add comment system
+- [x] Add comment system
 - [ ] Add Search System
 - [ ] Migrate blog posts
 - [ ] Migrate docs posts
