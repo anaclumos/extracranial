@@ -1,0 +1,8 @@
+.hr {
+  border: 4px solid #aaa;
+  border-radius: 2px;
+}
+
+[data-theme='dark'] .hr {
+  border: 4px solid #555;
+}

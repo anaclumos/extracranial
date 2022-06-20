@@ -21,6 +21,13 @@ section {
     -system-ui, sans-serif, 'Apple Color Emoji';
 }
 
+@media screen and (min-width: 996px) {
+  .navbar__inner {
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+}
+
 pre,
 code {
   font-family: 'Jetbrains Mono', monospace;
