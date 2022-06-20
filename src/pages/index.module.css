@@ -6,7 +6,7 @@
 }
 
 [data-theme='dark'] .mainContainer {
-  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.2) 0, #000 30rem),
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.2) 0, #1b1b1d 30rem),
     fixed repeating-radial-gradient(circle at 50% 40rem, #050505 0, #000 40px);
 }
 

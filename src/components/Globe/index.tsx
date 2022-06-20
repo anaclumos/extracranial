@@ -16,7 +16,7 @@ export const Globe = () => {
       width: 1200,
       height: 1200,
       phi: 0,
-      theta: 0,
+      theta: 0.2,
       dark: 1,
       diffuse: 0.2,
       mapSamples: 16000,
