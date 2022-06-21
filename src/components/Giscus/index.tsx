@@ -5,7 +5,7 @@ import styles from './index.module.css'
 const index = () => {
   if (typeof window !== 'undefined') {
     const path = window.location.pathname
-    if (path === '/blog') return null
+    if (path === '/blog' || path === '/blog/') return null
   }
   return (
     <div className={styles.giscus}>
