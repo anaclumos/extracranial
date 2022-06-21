@@ -7,8 +7,13 @@
         "id": "277837d068d1aa64",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "journals/2022-06-20.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2022-06-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2022-06-20.md"
+              }
             }
           }
         ]
@@ -100,8 +108,8 @@
   },
   "active": "277837d068d1aa64",
   "lastOpenFiles": [
-    "hey.md",
     "journals/2022-06-20.md",
+    "hey.md",
     "templates/journal.md"
   ]
 }
