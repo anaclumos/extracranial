@@ -8,6 +8,7 @@ This section will consist of notes in English and/or Korean unless I randomly de
 ## Basic Rules for Note-taking
 This PKM will *not* follow outliner UX. I believe in the potential of freeform text that flows. Also, I plan on constructing a PKM closer to Britannica rather than Wikipedia — make each note like a case study entry rather than an encyclopedia entry upfront.
 
+- ASAP: As Short As Possible.
 - Keep the note Loosely folder-ed.
 	- For personal use-case, I'd suggest simply putting the entire folder into one 
 	- assets, books, journals, notes...
