@@ -10,9 +10,7 @@ function Year({ year, posts }) {
       <ul>
         {posts.map((post) => (
           <li key={post.metadata.date}>
-            <Link to={post.metadata.permalink}>
-              {post.metadata.formattedDate} - {post.metadata.title}
-            </Link>
+            <Link to={post.metadata.permalink}>{post.metadata.title}</Link>
           </li>
         ))}
       </ul>

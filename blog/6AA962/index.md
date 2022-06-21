@@ -1,8 +1,7 @@
 ---
-title: Locking your Mac with Command+L
-date_published: 2019-11-09T08:00:00.000Z
-date_updated: 2022-04-18T10:22:29.000Z
-excerpt: Walkthrough of using Command+L to lock your Mac.
+title: 'Locking your Mac with Command+L'
+date: 2019-11-09
+excerpt: 'Walkthrough of using Command+L to lock your Mac.'
 ---
 
 The only thing I missed about my Windows computer was locking the screen since I was so used to locking my computer with **⊞Win+L**. Mac offered an alternative called the **Hot Corner**. But it never was so intuitive and fast as pressing **⊞Win+L**. However, Mac now supports locking the computer by pressing **⌘Command+L** from macOS Mojave.
@@ -20,6 +19,6 @@ This method works in almost every case. Sometimes, the app will have **⌘Comman
 
 - If some app uses **⌘Command+L** as their default shortcuts, you can set them to some other random shortcuts, clearing the path for the **Lock Screen** shortcut.
 
-![](images/2021/06/image-3.png)
+![](images/image-3.png)
 
 - You can now click the Touch ID button from macOS Big Sur to lock your Mac.
