@@ -9,16 +9,7 @@ Let's create a calendar with JavaScript but without any external library. This p
 
 ## Show me the code first.
 
-[
-
-GitHub - anaclumos/calendar.js: Vanilla JS Calendar
-
-Vanilla JS Calendar. Contribute to anaclumos/calendar.js development by creating an account on GitHub.
-
-![](https://github.com/fluidicon.png)GitHubanaclumos
-
-![](https://opengraph.githubassets.com/19f9aa54fe996de1699555bdfce7a7b0926d5664050fccc46a354b3619474ee7/anaclumos/calendar.js)
-](https://github.com/anaclumos/calendar.js)
+[GitHub - anaclumos/calendar.js: Vanilla JS Calendar](https://github.com/anaclumos/calendar.js)
 
 ## Show me the demo first.
 
