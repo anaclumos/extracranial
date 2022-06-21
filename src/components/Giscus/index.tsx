@@ -3,10 +3,6 @@ import Giscus from '@giscus/react'
 import g from './giscus.module.css'
 
 const index = () => {
-  if (typeof window !== 'undefined') {
-    const path = window.location.pathname
-    if (path === '/blog' || path === '/blog/') return null
-  }
   return (
     <div className={g.giscus}>
       <Giscus
