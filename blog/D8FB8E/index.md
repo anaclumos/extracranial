@@ -6,10 +6,10 @@ excerpt: 'So if I make a new incarnation of ⚡️🧠, what would I do?'
 
 After a few years of technical writing, I felt limitations on writing platforms that hindered me from writing the best-class articles. Technological knowledge is dynamic and intertwined in that none of the current formats – academic papers, lecture videos, code examples, or straightforward posts – can best represent the knowledge. I have examined and observed some attempts that addressed this issue, namely, stuff called the **second brain** or **digital gardens**, but none of them seemed to correctly solve the problem. Therefore, I have distilled my inconveniences into this huge mega-post and imagined **_what I would've done if I had created the new incarnations of digital brains._**
 
-✏️
-
+:::note
 **Update 2022/06/12**
 Since this post, I have extensively studied non-linear PKM software, such as [Roam](https://roamresearch.com/), [Obsidian](https://obsidian.md/), [Logseq](https://logseq.com/), and [Foam](https://foambubble.github.io/foam/). I acknowledge that I misunderstood the concept of manual linking; that PKM software performs a fuzzy search to intelligently identify linked and unlinked references. I found some PKM software with automatic linkings, such as [Saga](https://saga.so) or [Weavit](https://www.weavit.ai/). But none of them worked how I expected. Manual linking helps refine the database. So, even if I make a Next-gen digital brain, I will not remove the linking process.
+:::
 
 ## TL;DR
 
@@ -45,7 +45,21 @@ Since this post, I have extensively studied non-linear PKM software, such as [Ro
 
 ## Interactive Contents & Animations
 
-![](images/Screen-Recording-2022-05-07-at-10.49.10-PM.gif)[Victor Dibia](http://victordibia.com). Seems like using MDX.![](images/Screen-Recording-2022-05-08-at-10.02.47-PM.gif)[아빠는 개발자](https://bluewings.github.io/). Confirmed using MDX.![](images/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)[pomb.us](pomb.us). Reacts to user scroll.![](images/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)[qubit.donghwi.dev](qubit.donghwi.dev). This isn't a blog; it's a webapp that demonstrates key concepts of Quantum Computers. But still interesting.
+![](images/Screen-Recording-2022-05-07-at-10.49.10-PM.gif)
+
+[Victor Dibia](http://victordibia.com). Seems like using MDX.
+
+![](images/Screen-Recording-2022-05-08-at-10.02.47-PM.gif)
+
+[아빠는 개발자](https://bluewings.github.io/). Confirmed using MDX.
+
+![](images/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)
+
+[pomb.us](https://pomb.us). Reacts to user scroll.
+
+![](images/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)
+
+[qubit.donghwi.dev](https://qubit.donghwi.dev). This isn't a blog; it's a webapp that demonstrates key concepts of Quantum Computers. But still interesting.
 
 ## Unorganized System. Instead, Automatic Graphing.
 
@@ -53,16 +67,8 @@ Since this post, I have extensively studied non-linear PKM software, such as [Ro
 - Necessarily tagging posts and organizing posts into subdirectories resembles organizing your computer.
 - However, you wouldn't want to do this if you have thousands of posts; also the border gets loose. What if the post has two properties? What becomes the primary tag and what becomes the secondary tag?
 
-[
-
-Students who grew up with search engines might change STEM education forever
-
-Professors are struggling to teach Gen Z
-
-![](https://cdn.vox-cdn.com/uploads/chorus_asset/file/7395351/android-chrome-192x192.0.png)The VergeMonica Chin
-
-![](https://cdn.vox-cdn.com/thumbor/zOr23q1TOD2gN3-14wyc_TnuGIU=/0x147:2048x1219/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22864733/VRG_ILLO_4756_Student_Professor_Folders_Lede.jpg)
-](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z)Notable trends. Gen Z's don't organize folders anymore!
+- [Students who grew up with search engines might change STEM education forever](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z)
+- Notable trends. Gen Z's don't organize folders anymore!
 
 - Recent trends, I would say, are dumping everything into a mega folder and searching up things whenever needed.
 - I also used to organize folders a lot more, but recently as searches like Spotlight and Alfred improve, I don't see the need to manage them all by hand, considering I always pull up those search commands to open a file.
@@ -73,16 +79,7 @@ Professors are struggling to teach Gen Z
 
 - Therefore creating a cluster of posts, not classified by me, but bots and algorithms.
 
-[
-
-Related Posts for WordPress
-
-Display related posts without slowing down your website! Link all your existing content with only 1 click, get related posts for all your posts today!
-
-![](https://s.w.orgimages/wmark.png)WordPress.orgDoritoe
-
-![](https://ps.w.org/related-posts-for-wp/assets/banner-772x250.jpg?rev=1189616)
-](https://wordpress.org/plugins/related-posts-for-wp/)WordPress also has this plugin. "Automatically link posts to each other"
+  - [Display related posts without slowing down your website! Link all your existing content with only 1 click, get related posts for all your posts today!](https://wordpress.org/plugins/related-posts-for-wp/)WordPress also has this plugin. "Automatically link posts to each other"
 
 - This is similar to backlinking, which most so-called digital brains such as [Obsidian](https://obsidian.md/) and [Dendron](https://www.dendron.so/) are doing.
 
@@ -108,16 +105,7 @@ Display related posts without slowing down your website! Link all your existing 
 - GitHub wrote an awesome [post](https://github.blog/2021-06-22-framework-building-open-graph-images/) on how to implement this feature.
 - I also tried to implement this on top of Ghost CMS, which, I gave up after figuring out the Ghost Core Engine should support this. However, I have created a [fork](https://github.com/vercel/og-image/compare/main...anaclumos:main) that I can extend later on. [http://og-image.cho.sh/](http://og-image.cho.sh/)
 
-[
-
-GitHub - anaclumos/cho-sh-og-image: Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc
-
-Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc - GitHub - anaclumos/cho-sh-og-image: Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc
-
-![](https://github.com/fluidicon.png)GitHubanaclumos
-
-![](https://opengraph.githubassets.com/8ed27d2e434418aaacc28a3494b0c908ed699c93ea5f9771fd54d5f04cd6046e/anaclumos/cho-sh-og-image)
-](https://github.com/anaclumos/cho-sh-og-image)
+[GitHub - anaclumos/cho-sh-og-image: Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc](https://github.com/anaclumos/cho-sh-og-image)
 
 # #3 Multilanguage
 
@@ -132,27 +120,15 @@ Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc
 - Also, I can get contributions from GitHub.
 
 While supporting multilanguage and translations, I want to put some 3D WebGL globe graphics. Remember [infrastructure.aws](https://infrastructure.aws) in 2019? It used to show an awesome 3D graphic of AWS's global network.
-[
 
-AWS Edge Cloud Continuum
+- After some research, the same website has moved here!
+- [AWS Edge Cloud Continuum](https://apps.kaonadn.net/5181491956940800/index.html)
 
-The AWS Global infrastructure is built around Regions and Availability Zones (AZs). AWS Regions provide multiple, physically separated and isolated Availability Zones which are connected with low latency, high throughput, and highly redundant networking.
-
-![](https://a0.awsstatic.com/libra-cssimages/site/touch-icon-ipad-144-smile.png)Amazon Web Services, Inc.
-
-![](https://a0.awsstatic.com/libra-cssimages/logos/aws_logo_smile_1200x630.png)
-](https://apps.kaonadn.net/5181491956940800/index.html)After some research, the same website has moved here!
 I kinda want this back too. Meanwhile, this looks nice:
-[
 
-GitHub - shuding/cobe: 5kB WebGL globe lib.
+- [GitHub - shuding/cobe: 5kB WebGL globe lib.](https://github.com/shuding/cobe)
 
-5kB WebGL globe lib. Contribute to shuding/cobe development by creating an account on GitHub.
-
-![](https://github.com/fluidicon.png)GitHubshuding
-
-![](https://repository-images.githubusercontent.com/429536908/62a4e686-8613-4b45-b7bb-fa35b558ae8e)
-](https://github.com/shuding/cobe)Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
+Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 
 ## Fonts and Emoji
 
@@ -205,7 +181,7 @@ GitHub - shuding/cobe: 5kB WebGL globe lib.
 ## Footnotes
 
 - A nice addition. But not necessary.
-- If I ever have to make a footnote system, I want to make it hoverable, which [namu.wiki](namu.wiki) did a great job. I do not want to make it jump down to the bottom and put a cringy ↩️ icon to link back.
+- If I ever have to make a footnote system, I want to make it hoverable, which [namu.wiki](https://namu.wiki) did a great job. I do not want to make it jump down to the bottom and put a cringy ↩️ icon to link back.
 
 ## ToC
 
@@ -215,13 +191,6 @@ GitHub - shuding/cobe: 5kB WebGL globe lib.
 
 - Will go with Giscus.
 
-[
+This also looks cool for MD/MDX
 
-A powerful, flexible, Markdown-based authoring framework
-
-From personal blogs to massive documentation sites, Markdoc is a content authoring system that grows with you.
-
-![](https://markdoc.io/favicon.ico)A powerful, flexible, Markdown-based authoring framework
-
-![](https://markdoc.ioimages/share.png)
-](https://markdoc.io/)This also looks cool for MD/MDX
+- [A powerful, flexible, Markdown-based authoring framework](https://markdoc.io/)
