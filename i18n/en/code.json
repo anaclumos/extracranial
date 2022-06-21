@@ -8,15 +8,15 @@
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "HTTP Error 451 — Unavailable For Legal Reasons",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
+    "message": "Your nation prohibits the access to this content. Enable onion protocol, load up your VPN, connect to the Tor network, open your Web3 wallet, send me some bitcoin, purchase and donate NFTs, then try again.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "message": "Just kidding. It's 404.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
