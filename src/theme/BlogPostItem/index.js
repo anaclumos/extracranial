@@ -8,7 +8,6 @@ export default function BlogPostItemWrapper(props) {
     <>
       <OldPostNotice {...props} />
       <BlogPostItem {...props} />
-      <hr className={styles.hr} />
       <Giscus />
     </>
   )
