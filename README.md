@@ -10,6 +10,7 @@
 - [x] Add comment system
 - [ ] Migrate blog posts
 - [ ] Migrate docs posts
+- [ ] Migrate from Logseq to Obsidian
 - [ ] Make the globe spin
 - [ ] Add search system
 
