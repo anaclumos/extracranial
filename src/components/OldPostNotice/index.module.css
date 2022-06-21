@@ -51,6 +51,7 @@
   box-shadow: var(--ifm-alert-shadow);
   padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
   color: var(--ifm-alert-foreground-color);
+  margin-bottom: 1rem;
 }
 
 .iconspan {
