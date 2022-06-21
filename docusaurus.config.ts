@@ -4,7 +4,6 @@ import blog = require('./config/blog.config')
 import theme = require('./config/theme.config')
 import katexStylesheet = require('./config/katex.stylesheet')
 import navbar = require('./config/navbar.config')
-import footer = require('./config/footer.config')
 
 import type { Config } from '@docusaurus/types'
 
@@ -39,7 +38,6 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: navbar,
-    footer: footer,
     prism: {
       theme: darkCodeTheme,
       darkTheme: darkCodeTheme,
