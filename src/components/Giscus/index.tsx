@@ -1,6 +1,6 @@
 import React from 'react'
 import Giscus from '@giscus/react'
-import styles from './index.module.css'
+import g from './giscus.module.css'
 
 const index = () => {
   if (typeof window !== 'undefined') {
@@ -8,7 +8,7 @@ const index = () => {
     if (path === '/blog' || path === '/blog/') return null
   }
   return (
-    <div className={styles.giscus}>
+    <div className={g.giscus}>
       <Giscus
         id='comments'
         repo='anaclumos/www-comments'
