@@ -32,11 +32,11 @@
   text-decoration: none;
 }
 
-.admonition {
-  margin-bottom: 1em;
-}
-
-.alert {
+.old {
+  --ifm-alert-background-color: var(--ifm-color-danger-contrast-background);
+  --ifm-alert-background-color-highlight: rgba(250, 56, 62, 0.15);
+  --ifm-alert-foreground-color: var(--ifm-color-danger-contrast-foreground);
+  --ifm-alert-border-color: var(--ifm-color-danger-dark);
   --ifm-code-background: var(--ifm-alert-background-color-highlight);
   --ifm-link-color: var(--ifm-alert-foreground-color);
   --ifm-link-hover-color: var(--ifm-alert-foreground-color);
@@ -50,14 +50,13 @@
   border-radius: var(--ifm-alert-border-radius);
   box-shadow: var(--ifm-alert-shadow);
   padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
-}
-.alert--danger {
-  --ifm-alert-background-color: var(--ifm-color-danger-contrast-background);
-  --ifm-alert-background-color-highlight: rgba(250, 56, 62, 0.15);
-  --ifm-alert-foreground-color: var(--ifm-color-danger-contrast-foreground);
-  --ifm-alert-border-color: var(--ifm-color-danger-dark);
-}
-.alert,
-.alert .close {
   color: var(--ifm-alert-foreground-color);
+}
+
+.iconspan {
+  margin-right: 0.5rem;
+}
+
+.icon {
+  fill: var(--ifm-alert-foreground-color);
 }
