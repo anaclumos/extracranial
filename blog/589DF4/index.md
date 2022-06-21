@@ -1,8 +1,7 @@
 ---
-title: Downloading hundreds of icons using The Noun Project API
-date_published: 2020-10-30T07:00:00.000Z
-date_updated: 2022-04-18T04:50:37.000Z
-excerpt: Don't download them one by one!
+title: 'Downloading hundreds of icons using The Noun Project API'
+date: 2020-10-30
+excerpt: "Don't download them one by one!"
 ---
 
 Recently I came across The Noun Project's API. With the combination of the `download` function I created in the [past](https://blog.chosunghyun.com/kr-backup-with-rss/), you could download hundreds of icons within seconds.

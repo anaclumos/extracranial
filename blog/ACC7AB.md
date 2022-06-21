@@ -1,8 +1,7 @@
 ---
-title: Fixing permissions for keys when they are too open
-date_published: 2022-04-18T10:30:00.000Z
-date_updated: 2022-04-18T10:50:24.000Z
-excerpt: Walkthrough of closing up permissions when they are too open.
+title: 'Fixing permissions for keys when they are too open'
+date: 2022-04-18
+excerpt: 'Walkthrough of closing up permissions when they are too open.'
 ---
 
 ## When you have...
