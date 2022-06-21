@@ -1,8 +1,7 @@
 ---
-title: Creating Next-gen Digital Brains
-date_published: 2022-05-14T09:00:00.000Z
-date_updated: 2022-06-12T21:14:41.000Z
-excerpt: So if I make a new incarnation of ⚡️🧠, what would I do?
+title: 'Creating Next-gen Digital Brains'
+date: 2022-05-14
+excerpt: 'So if I make a new incarnation of ⚡️🧠, what would I do?'
 ---
 
 After a few years of technical writing, I felt limitations on writing platforms that hindered me from writing the best-class articles. Technological knowledge is dynamic and intertwined in that none of the current formats – academic papers, lecture videos, code examples, or straightforward posts – can best represent the knowledge. I have examined and observed some attempts that addressed this issue, namely, stuff called the **second brain** or **digital gardens**, but none of them seemed to correctly solve the problem. Therefore, I have distilled my inconveniences into this huge mega-post and imagined **_what I would've done if I had created the new incarnations of digital brains._**
@@ -42,11 +41,11 @@ Since this post, I have extensively studied non-linear PKM software, such as [Ro
 - Practical knowledge does not exist in simple posts (though they might be straightforward). Create a knowledge bundle that interconnects GitHub Repository, Codes, GitHub README, and other posts in the same brain network.
 - Examine how [Victor](https://victordibia.com/blog/alpha-code/)'s post has rich metadata for the paper, dataset, demo, and post. This is what I see as **interconnected entities**.
 
-![](/images/2022/05/image-5.png)
+![](images/image-5.png)
 
 ## Interactive Contents & Animations
 
-![](/images/2022/05/Screen-Recording-2022-05-07-at-10.49.10-PM.gif)[Victor Dibia](http://victordibia.com). Seems like using MDX.![](/images/2022/05/Screen-Recording-2022-05-08-at-10.02.47-PM.gif)[아빠는 개발자](https://bluewings.github.io/). Confirmed using MDX.![](/images/2022/05/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)[pomb.us](pomb.us). Reacts to user scroll.![](/images/2022/05/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)[qubit.donghwi.dev](qubit.donghwi.dev). This isn't a blog; it's a webapp that demonstrates key concepts of Quantum Computers. But still interesting.
+![](images/Screen-Recording-2022-05-07-at-10.49.10-PM.gif)[Victor Dibia](http://victordibia.com). Seems like using MDX.![](images/Screen-Recording-2022-05-08-at-10.02.47-PM.gif)[아빠는 개발자](https://bluewings.github.io/). Confirmed using MDX.![](images/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)[pomb.us](pomb.us). Reacts to user scroll.![](images/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)[qubit.donghwi.dev](qubit.donghwi.dev). This isn't a blog; it's a webapp that demonstrates key concepts of Quantum Computers. But still interesting.
 
 ## Unorganized System. Instead, Automatic Graphing.
 
@@ -70,7 +69,7 @@ Professors are struggling to teach Gen Z
 - You don't need to manually organize all of the files when algorithms can read all the texts and organize them for you!
 - Use algorithmic inspections to analyze how the posts may interrelate with each other properly.
 
-![](/images/2022/05/image-8.png)[Velog](https://velog.io), the Korean version of [dev.to](https://dev.to), links relevant posts for every post.
+![](images/image-8.png)[Velog](https://velog.io), the Korean version of [dev.to](https://dev.to), links relevant posts for every post.
 
 - Therefore creating a cluster of posts, not classified by me, but bots and algorithms.
 
@@ -80,14 +79,14 @@ Related Posts for WordPress
 
 Display related posts without slowing down your website! Link all your existing content with only 1 click, get related posts for all your posts today!
 
-![](https://s.w.org/images/wmark.png)WordPress.orgDoritoe
+![](https://s.w.orgimages/wmark.png)WordPress.orgDoritoe
 
 ![](https://ps.w.org/related-posts-for-wp/assets/banner-772x250.jpg?rev=1189616)
 ](https://wordpress.org/plugins/related-posts-for-wp/)WordPress also has this plugin. "Automatically link posts to each other"
 
 - This is similar to backlinking, which most so-called digital brains such as [Obsidian](https://obsidian.md/) and [Dendron](https://www.dendron.so/) are doing.
 
-![](/images/2022/05/image-9.png)Example of backlinking from Dendron
+![](images/image-9.png)Example of backlinking from Dendron
 
 - I agree with the importance of interlinking knowledge crumbles, but I can't entirely agree with the method they are taking.
 - Manually linking posts are inconsistent and troublesome; it can only be done on a massive communal scale, like Wikipedia.
@@ -103,7 +102,7 @@ Display related posts without slowing down your website! Link all your existing 
 
 - For example, GitHub creates automatic open graph images with their metadata.
 
-![](/images/2022/05/image-10.png)Example open graph image from GitHub
+![](images/image-10.png)Example open graph image from GitHub
 
 - There are quite some services using this technique.
 - GitHub wrote an awesome [post](https://github.blog/2021-06-22-framework-building-open-graph-images/) on how to implement this feature.
@@ -139,9 +138,9 @@ AWS Edge Cloud Continuum
 
 The AWS Global infrastructure is built around Regions and Availability Zones (AZs). AWS Regions provide multiple, physically separated and isolated Availability Zones which are connected with low latency, high throughput, and highly redundant networking.
 
-![](https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png)Amazon Web Services, Inc.
+![](https://a0.awsstatic.com/libra-cssimages/site/touch-icon-ipad-144-smile.png)Amazon Web Services, Inc.
 
-![](https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png)
+![](https://a0.awsstatic.com/libra-cssimages/logos/aws_logo_smile_1200x630.png)
 ](https://apps.kaonadn.net/5181491956940800/index.html)After some research, the same website has moved here!
 I kinda want this back too. Meanwhile, this looks nice:
 [
@@ -167,7 +166,7 @@ GitHub - shuding/cobe: 5kB WebGL globe lib.
 - However, I am exploring other options.
 - I liked [TossFace](https://toss.im/tossface)'s bold attempt to infuse Korean values into the Japan-based emoji system for emoji. (lol, but they canceled it.)
 
-![](/images/2022/05/IMG_1136.PNG)
+![](images/IMG_1136.PNG)
 
 - Honestly, I kinda want this back. They can use Unicode [Private Use Area](https://en.wikipedia.org/wiki/Private_Use_Areas#:~:text=In%20Unicode%2C%20a%20Private%20Use,characters%20by%20the%20Unicode%20Consortium.). But Toss is too lazy to do that considering they still didn't make the WOFF version Webfont.
 - So I might use [Twemoji](https://twemoji.twitter.com/).
@@ -193,7 +192,7 @@ GitHub - shuding/cobe: 5kB WebGL globe lib.
 - cho.sh/🧠/e5732f/en
 - Also found that Twitter doesn't support Unicode URLs.
 
-![](/images/2022/05/image-11.png)
+![](images/image-11.png)
 
 # #5 Miscellany
 
@@ -201,7 +200,7 @@ GitHub - shuding/cobe: 5kB WebGL globe lib.
 
 - There should be a method to penalize old posts; they should exist in the database, but wouldn't appear as much on the data chain. i.e., put a lifespan or "valid until" for posts.
 
-![](/images/2022/05/image-6.png)[홍민희 블로그](https://blog.hongminhee.org/2011/10/06/steve-jobs/)![](/images/2022/05/image-7.png)[Kat Huang](https://www.katmh.com/girl-in-stem)
+![](images/image-6.png)[홍민희 블로그](https://blog.hongminhee.org/2011/10/06/steve-jobs/)![](images/image-7.png)[Kat Huang](https://www.katmh.com/girl-in-stem)
 
 ## Footnotes
 
@@ -224,5 +223,5 @@ From personal blogs to massive documentation sites, Markdoc is a content authori
 
 ![](https://markdoc.io/favicon.ico)A powerful, flexible, Markdown-based authoring framework
 
-![](https://markdoc.io/images/share.png)
+![](https://markdoc.ioimages/share.png)
 ](https://markdoc.io/)This also looks cool for MD/MDX

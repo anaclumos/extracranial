@@ -1,8 +1,7 @@
 ---
-title: Building a payment system for school festivals
-date_published: 2022-04-11T00:00:00.000Z
-date_updated: 2022-04-18T02:14:32.000Z
-excerpt: This is a story of how my team built a payment system, MinsaPay, for our school festival.
+title: 'Building a payment system for school festivals'
+date: 2022-04-11
+excerpt: 'This is a story of how my team built a payment system, MinsaPay, for our school festival.'
 ---
 
 ![Building a payment system for school festivals](images/optimized-minsapay-banner-1.JPG)

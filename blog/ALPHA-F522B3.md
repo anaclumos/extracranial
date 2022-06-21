@@ -1,9 +1,8 @@
 ---
-title: Creating a Calendar with JavaScript Date Object
-date_published: 1970-01-01T00:00:00.000Z
-date_updated: 2022-04-09T20:46:52.000Z
+title: 'Creating a Calendar with JavaScript Date Object'
+date: 1970-01-06
 draft: true
-excerpt: Let's create a Calendar with JavaScript Date Object that supports navigating months and highlighting certain days.
+excerpt: "Let's create a Calendar with JavaScript Date Object that supports navigating months and highlighting certain days."
 ---
 
 Let's create a calendar with JavaScript but without any external library. This project is based on my previous internship at [Woowa Bros, a unicorn food-delivery startup in Seoul](https://www.bloomberg.com/profile/company/0962533D:KS).
@@ -23,13 +22,7 @@ Vanilla JS Calendar. Contribute to anaclumos/calendar.js development by creating
 
 ## Show me the demo first.
 
-[
-
-JavaScript Calendar
-
-![](__GHOST_URL__/favicon.ico)
-
-](http://demo.cho.sh/calendar.js/)
+- [JavaScript Calendar](http://demo.cho.sh/calendar.js/)
 
 ## Goals
 

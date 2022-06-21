@@ -58,7 +58,7 @@ const index = (props: Props) => {
                 ></path>
               </svg>
             </span>
-            <Translate>Old post ahead!</Translate>
+            <Translate>OLD POST AHEAD!</Translate>
           </h5>
         </div>
         <div>

@@ -1,8 +1,7 @@
 ---
-title: The Computer Latency Calendar
-date_published: 2022-04-19T09:02:24.000Z
-date_updated: 2022-04-19T23:00:58.000Z
-excerpt: Imagine how Apple's M1 chip feels a 2-second API response.
+title: 'The Computer Latency Calendar'
+date: 2022-04-19
+excerpt: "Imagine how Apple's M1 chip feels a 2-second API response."
 ---
 
 I recently saw this [Gist](https://gist.github.com/hellerbarde/2843375) and [Interactive Page](https://colin-scott.github.io/personal_website/research/interactive_latency.html), so I thought it would be cool to update it for the 2020s. This can serve as a visualization of how fast a modern computer is.
