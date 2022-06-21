@@ -1,8 +1,7 @@
 ---
-title: My Keyboard Shortcuts Setup as of May 2022
-date_published: 2022-05-07T22:00:00.000Z
-date_updated: 2022-05-28T15:42:42.000Z
-excerpt: I made the so-called Hyper Key.
+title: 'My Keyboard Shortcuts Setup as of May 2022'
+date: 2022-05-07
+excerpt: 'I made the so-called Hyper Key.'
 ---
 
 ## Path for Karabiner Advanced Settings

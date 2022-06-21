@@ -1,8 +1,7 @@
 ---
-title: When TSC suddenly errors with 'cannot find module.'
-date_published: 2021-01-16T08:00:00.000Z
-date_updated: 2022-04-18T04:48:10.000Z
-excerpt: The problem came from auto-flattened folder structures.
+title: "When TSC suddenly errors with 'cannot find module.'"
+date: 2021-01-16
+excerpt: 'The problem came from auto-flattened folder structures.'
 ---
 
 ## TLDR

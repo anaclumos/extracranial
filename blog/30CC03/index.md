@@ -1,19 +1,18 @@
 ---
-title: Storing sensitive data in iOS Apps
-date_published: 2022-04-26T02:00:00.000Z
-date_updated: 2022-04-26T22:55:02.000Z
-excerpt: TL;DR: You can't.
+title: 'Storing sensitive data in iOS Apps'
+date: 2022-04-26
+excerpt: "TL;DR: You can't."
 ---
 
 ## One way that doesn't work: Using environment variables
 
 - If you click the app name from the top bar in Xcode, you can `edit scheme`.
 
-![](/images/2022/04/image-3.png)
+![](images/image-3.png)
 
 - You can try settings values at Run → Arguments → Environment Variables and access them through `ProcessInfo.processInfo.environment["KEY"]`.
 
-![](/images/2022/04/image-4.png)
+![](images/image-4.png)
 
 - However, this didn't work for me. Refer to this problem on Stack Overflow.
 
