@@ -1,6 +1,6 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
+  "livePreview": false,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "showUnsupportedFiles": false,
