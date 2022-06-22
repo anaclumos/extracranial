@@ -9,7 +9,6 @@ const getUrlPercentEncoding = (text) => {
 }
 
 export default function BlogPostItemWrapper(props) {
-  console.log(props)
   return (
     <>
       <Head>
