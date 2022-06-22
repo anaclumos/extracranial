@@ -1,5 +1,5 @@
 ---
-title: "Hacker News"
+title: "HackerNews"
 slug: "hackernews"
 ---
 
