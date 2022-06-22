@@ -1,6 +1,6 @@
 ---
-title: "Sandboxing in JavaScript"
-slug: "sandboxing-in-js"
+title: "Sandbox in JS"
+slug: "sandbox-in-js"
 ---
 
 [Sandbox \(computer security\) - Wikipedia](https://en.wikipedia.org/wiki/Sandbox\_\(computer\_security\))
