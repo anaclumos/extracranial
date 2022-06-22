@@ -22,12 +22,11 @@
 
 /* image inline, make it circular */
 .intro img {
-  height: 2rem;
-  width: 2rem;
+  height: 1.5em;
+  width: 1.5em;
   border-radius: 50%;
   display: inline-block;
   vertical-align: middle;
-  margin: 0 0.5rem 0 0;
 }
 
 [data-theme='dark'] .intro::after {
@@ -38,10 +37,6 @@
   .intro {
     padding: 2rem;
     font-size: 1.5rem;
-  }
-
-  .intro img {
-    margin: 0 0.25rem 0 0;
   }
 }
 
