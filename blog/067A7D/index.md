@@ -1,5 +1,5 @@
 ---
-title: 'My Keyboard Shortcuts Setup as of May 2022'
+title: 'My Shortcuts Setup'
 date: 2022-05-07
 excerpt: 'I made the so-called Hyper Key.'
 ---
