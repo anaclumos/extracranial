@@ -25,7 +25,7 @@ slug: "brane"
 -   Employ Cross-Origin Isolation where needed.
 
 ## Demo Plan
-### Terminology:
+### Terminology
 - **Host**: The main thread app
 - **Guest**: Untrusted, third-party app that should be containerized.
 
