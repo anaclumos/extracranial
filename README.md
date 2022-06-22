@@ -13,6 +13,7 @@
 - [ ] Migrate from Logseq to Obsidian
 - [ ] Make the globe spin
 - [ ] Add search system
+- [ ] Add `evergreen` option for YAML
 
 ## LATER
 
