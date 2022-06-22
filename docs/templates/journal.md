@@ -6,4 +6,4 @@ draft: true
 
 ## Today's [Pragmatic Engineer](../notes/Pragmatic%20Engineer.md)
 
-## Today's [Hacker News](../notes/Hacker%20News.md)
+## Today's [HackerNews](../notes/HackerNews.md)
