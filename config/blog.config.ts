@@ -3,7 +3,7 @@ const katex = require('rehype-katex')
 
 const blog = {
   showReadingTime: false,
-  blogSidebarCount: 'ALL',
+  blogSidebarCount: 10,
   remarkPlugins: [math],
   rehypePlugins: [katex],
 }

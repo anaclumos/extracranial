@@ -1,9 +1,9 @@
-# Hey 👋🏼
+# Hey 👋🏻
 ## Intro
 
-This is my research note. I have extensively studied the topic of PKM and envisioned an online _source of truth_ that strongly integrated my projects and research. Here, you will find books I'm reading, articles I'm analyzing, and topics that grasped my interest.
+This is my research note. I have extensively studied the topic of PKM and envisioned an online _source of truth_ that firmly integrated my projects and research. Here, you will find books I'm reading, articles I'm analyzing, and topics that grasped my interest.
 
-This section will consist of notes in English and/or Korean unless I randomly decide to learn a new language. I do not intend to translate the notes, considering the scale.
+This section will consist of English and Korean notes unless I randomly decide to learn a new language. I do not intend to translate the notes, considering the scale.
 
 ## Basic Rules for Note-taking
 This PKM will *not* follow outliner UX. I believe in the potential of freeform text that flows. Also, I plan on constructing a PKM closer to Britannica rather than Wikipedia — make each note like a case study entry rather than an encyclopedia entry upfront.
@@ -23,4 +23,4 @@ This PKM will *not* follow outliner UX. I believe in the potential of freeform t
 - More to be added
 
 ## Always ask...
-> What does it look like to move from mindless consumption to mindful creation? — Forte, Tiago, *Building a Second Brain*
+> What does moving from mindless consumption to mindful creation look like? — Forte, Tiago, *Building a Second Brain*
