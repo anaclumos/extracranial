@@ -6,7 +6,7 @@ excerpt: 'So if I make a new incarnation of ⚡️🧠, what would I do?'
 
 After a few years of technical writing, I felt limitations on writing platforms that hindered me from writing the best-class articles. Technological knowledge is dynamic and intertwined in that none of the current formats – academic papers, lecture videos, code examples, or straightforward posts – can best represent the knowledge. I have examined and observed some attempts that addressed this issue, namely, stuff called the **second brain** or **digital gardens**, but none of them seemed to correctly solve the problem. Therefore, I have distilled my inconveniences into this huge mega-post and imagined **_what I would've done if I had created the new incarnations of digital brains._**
 
-:::note
+:::info
 **Update 2022/06/12**
 Since this post, I have extensively studied non-linear PKM software, such as [Roam](https://roamresearch.com/), [Obsidian](https://obsidian.md/), [Logseq](https://logseq.com/), and [Foam](https://foambubble.github.io/foam/). I acknowledge that I misunderstood the concept of manual linking; that PKM software performs a fuzzy search to intelligently identify linked and unlinked references. I found some PKM software with automatic linkings, such as [Saga](https://saga.so) or [Weavit](https://www.weavit.ai/). But none of them worked how I expected. Manual linking helps refine the database. So, even if I make a Next-gen digital brain, I will not remove the linking process.
 :::
