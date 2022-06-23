@@ -16,6 +16,7 @@
 - [ ] Make the globe spin
 - [ ] Add search system
 - [ ] Add `evergreen` option for YAML
+- [ ] Add og:image for main
 
 ## LATER
 
