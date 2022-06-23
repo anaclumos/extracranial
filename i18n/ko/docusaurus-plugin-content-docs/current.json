@@ -8,7 +8,7 @@
     "description": "The label for category Journals in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Journals.link.generated-index.description": {
-    "message": "노트",
+    "message": "",
     "description": "The generated-index page description for category Journals in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Pages": {
