@@ -3,7 +3,7 @@ title: "Sandbox"
 slug: "/E6DB5B"
 ---
 
-## `sandbox` attribute in `<iframe>`
+## sandbox attribute in iframe
 
 -   treat the content as being from a unique origin
 -   block form submission
