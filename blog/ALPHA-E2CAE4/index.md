@@ -1,6 +1,6 @@
 ---
 title: '우아한테크캠프 3기 후기'
-published: 2021-05-21
+date: 2021-05-21
 draft: true
 ---
 
