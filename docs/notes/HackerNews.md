@@ -1,6 +1,6 @@
 ---
 title: "HackerNews"
-slug: "hackernews"
+slug: "FA003B"
 ---
 
 - https://news.ycombinator.com/

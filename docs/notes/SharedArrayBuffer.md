@@ -1,6 +1,6 @@
 ---
 title: "SharedArrayBuffer in JS"
-slug: "sharedarraybuffer-in-js"
+slug: "58CA40"
 ---
 
 - [SharedArrayBuffer - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/SharedArrayBuffer)
