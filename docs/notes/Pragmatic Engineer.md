@@ -1,6 +1,6 @@
 ---
 title: "Pragmatic Engineer"
-slug: "pragmatic-engineer"
+slug: "630E34"
 ---
 
 - https://newsletter.pragmaticengineer.com/
