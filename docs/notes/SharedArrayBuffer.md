@@ -1,5 +1,5 @@
 ---
-title: "SharedArrayBuffer in JS"
+title: "SharedArrayBuffer"
 slug: "/58CA40"
 ---
 
