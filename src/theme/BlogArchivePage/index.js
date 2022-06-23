@@ -6,7 +6,20 @@ import Layout from '@theme/Layout'
 function Year({ year, posts }) {
   return (
     <>
-      <h3>{year}</h3>
+      <h3>
+        {year} — {posts.length}{' '}
+        {posts.length > 1
+          ? translate({
+              id: 'blog.archive.posts',
+              message: 'posts',
+              description: 'Number of posts in the archive: plural',
+            })
+          : translate({
+              id: 'blog.archive.post',
+              message: 'post',
+              description: 'Number of posts in the archive: singular',
+            })}
+      </h3>
       <ul>
         {posts.map((post) => (
           <li key={post.metadata.date}>

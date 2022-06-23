@@ -11,10 +11,10 @@ const colorHexGenerator = () => {
 
 const content = `
 ---
-title: Untitled
+title: "Untitled"
+draft: true
 # keywords: []
 # image: https://cho.sh/
-# draft: true
 ---
 `
 

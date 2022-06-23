@@ -334,5 +334,25 @@
   },
   "year ago.": {
     "message": "year ago."
+  },
+  "blog.archive.posts": {
+    "message": "posts",
+    "description": "Number of posts in the archive: plural"
+  },
+  "blog.archive.post": {
+    "message": "post",
+    "description": "Number of posts in the archive: singular"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "New version available",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "Refresh",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of PWA reload popup"
   }
 }
