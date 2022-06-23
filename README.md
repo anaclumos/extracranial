@@ -8,7 +8,9 @@
 - [x] Change `var(--ifm-heading-color)` from black to something else
   - `wontfix`
 - [x] Add comment system
-- [ ] Migrate blog posts
+- [x] Migrate blog posts
+  - [ ] Translate Korean to English (you can find them with mark `draft: true` in /blog)
+  - [ ] Translate English to Korean (look for any post in english in /i18n)
 - [ ] Migrate docs posts
 - [ ] Migrate from Logseq to Obsidian
 - [ ] Make the globe spin
