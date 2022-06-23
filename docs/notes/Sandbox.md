@@ -1,5 +1,5 @@
 ---
-title: "Sandbox in JS"
+title: "Sandbox"
 slug: "/E6DB5B"
 ---
 
