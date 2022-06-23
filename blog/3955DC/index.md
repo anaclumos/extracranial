@@ -1,6 +1,6 @@
 ---
 title: 'MinsaPay: A School Festival Payment System'
-date: 2022-04-11
+date: 2019-10-10
 excerpt: 'This is a story of how my team built a payment system, MinsaPay, for our school festival.'
 ---
 
@@ -120,8 +120,7 @@ Due to exceeding the database free tier, the server went down for 13 minutes and
 - MinsaPay Web App: [minsapay.com](https://www.minsapay.com) (Currently Unavailable)
 - MinsaPay Codebase: [minsapay/server](https://github.com/minsapay/server)
 - MinsaPay Payment Log: [minsapay/transaction-data-2019](https://github.com/minsapay/transaction-data-2019)
-
-MinsaPay in action. I used MinsaPay to purchase an $8 t-shirt. It is even compatible with Internet Explorer—wow!
+- [MinsaPay in action](https://youtu.be/H5H5Eqmu0zo). I used MinsaPay to purchase an $8 t-shirt. It is even compatible with Internet Explorer—wow!
 
 ### 1\. MinsaPay
 
