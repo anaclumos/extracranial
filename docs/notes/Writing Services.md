@@ -4,12 +4,13 @@ slug: '/872B83'
 ---
 
 ## Second Brain
-- [Roam Research – A note-taking tool for networked thought.](https://roamresearch.com/)
-- [Obsidian. A second brain, for you, forever.](https://obsidian.md/)
+- [Roam Research: A note-taking tool for networked thought.](https://roamresearch.com/)
+- [Obsidian: A second brain, for you, forever.](https://obsidian.md/)
 - [Logseq: A privacy-first, open-source knowledge base](https://logseq.com/)
-- [Dendron. Knowledge Management. Redefined.](https://www.dendron.so/)
+- [Dendron: Knowledge Management. Redefined.](https://www.dendron.so/)
 - [Scrintal: A hybrid note-taking & mind mapping whiteboard](https://www.scrintal.com/)
-- [Heptabase. A note-taking tool for visual learning.](https://heptabase.com/)
+- [Heptabase: A note-taking tool for visual learning.](https://heptabase.com/)
+
 ## For Team
 - [Saga | Make sense of your knowledge](https://saga.so/)
 - [Clarity — The DAO Contribution Platform](https://www.clarity.so/)- [Saga | Make sense of your knowledge](https://saga.so/)
@@ -21,7 +22,7 @@ slug: '/872B83'
 - [DEV Community 👩‍💻👨‍💻](https://dev.to/)
 - [Hashnode - Blogging community for developers, and people in tech](https://hashnode.com/)
 - [TISTORY](https://www.tistory.com/)
-- [네이버 블로그](https://blog.naver.com)
+- [Naver Blog](https://blog.naver.com)
 - [velog](https://velog.io/)
 
 ## Self-hosting Vendors
