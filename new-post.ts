@@ -21,7 +21,7 @@ title: Untitled
 const filePrefix = `${process.cwd()}/blog/`
 
 const generatePostFile = () => {
-  const fileName = `${colorHexGenerator()}.mdx`
+  const fileName = `${colorHexGenerator()}.md`
   const filePath = `${filePrefix}${fileName}`
   const file = createWriteStream(filePath)
   file.write(content)
