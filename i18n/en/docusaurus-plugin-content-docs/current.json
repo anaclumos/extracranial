@@ -18,5 +18,9 @@
   "sidebar.tutorialSidebar.category.Notes.link.generated-index.description": {
     "message": "My Notes.",
     "description": "The generated-index page description for category Notes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.templates": {
+    "message": "templates",
+    "description": "The label for category templates in sidebar tutorialSidebar"
   }
 }
