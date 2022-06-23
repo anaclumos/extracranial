@@ -1,5 +1,5 @@
 ---
-title: '점자만으로 동영상 만들기'
+title: 'Watch your favorite music video right from your terminal'
 date: 2021-07-05
 draft: true
 ---
