@@ -3,22 +3,25 @@ import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
 import Layout from '@theme/Layout'
+
+const translate = {
+  singular: translate({
+    id: 'blog.archive.posts',
+    message: 'posts',
+    description: 'Number of posts in the archive: plural',
+  }),
+  plural: translate({
+    id: 'blog.archive.post',
+    message: 'post',
+    description: 'Number of posts in the archive: singular',
+  }),
+}
+
 function Year({ year, posts }) {
   return (
     <>
       <h3>
-        {year} — {posts.length}{' '}
-        {posts.length > 1
-          ? translate({
-              id: 'blog.archive.posts',
-              message: 'posts',
-              description: 'Number of posts in the archive: plural',
-            })
-          : translate({
-              id: 'blog.archive.post',
-              message: 'post',
-              description: 'Number of posts in the archive: singular',
-            })}
+        {year} — {posts.length} {posts.length > 1 ? translate.plural : translate.singular}
       </h3>
       <ul>
         {posts.map((post) => (

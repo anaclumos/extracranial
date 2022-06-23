@@ -336,23 +336,23 @@
     "message": "저는 이 글에 더 이상 동의하지 않을지도 모릅니다."
   },
   "blog.archive.posts": {
-    "message": "posts",
+    "message": "개의 글",
     "description": "Number of posts in the archive: plural"
   },
   "blog.archive.post": {
-    "message": "post",
+    "message": "개의 글",
     "description": "Number of posts in the archive: singular"
   },
   "theme.PwaReloadPopup.info": {
-    "message": "New version available",
+    "message": "업데이트가 있습니다.",
     "description": "The text for PWA reload popup"
   },
   "theme.PwaReloadPopup.refreshButtonText": {
-    "message": "Refresh",
+    "message": "새로고침",
     "description": "The text for PWA reload button"
   },
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "닫기",
     "description": "The ARIA label for close button of PWA reload popup"
   }
 }
