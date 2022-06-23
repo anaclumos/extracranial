@@ -70,11 +70,6 @@ const config: Config = {
           },
           {
             tagName: 'meta',
-            name: 'theme-color',
-            content: '#5597ec',
-          },
-          {
-            tagName: 'meta',
             name: 'apple-mobile-web-app-capable',
             content: 'yes',
           },
