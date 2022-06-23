@@ -19,6 +19,8 @@ nav,
 section {
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, system-ui,
     -system-ui, sans-serif, 'Apple Color Emoji';
+  word-wrap: break-word;
+  word-break: keep-all;
 }
 
 @media screen and (min-width: 996px) {
