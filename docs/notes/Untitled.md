@@ -1,5 +1,7 @@
 ---
-title: "template"
+title: "ShadowRealm"
 slug: "C0269E"
 draft: true
 ---
+
+- [tc39/proposal-shadowrealm: ECMAScript Proposal, specs, and reference implementation for Realms](https://github.com/tc39/proposal-shadowrealm)
