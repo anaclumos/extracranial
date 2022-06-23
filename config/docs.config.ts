@@ -3,7 +3,7 @@ const katex = require('rehype-katex')
 
 const docs = {
   sidebarPath: require.resolve('./sidebars.js'),
-  routeBasePath: '/research-notes',
+  routeBasePath: '/research',
   breadcrumbs: true,
   sidebarCollapsed: false,
   sidebarCollapsible: true,
