@@ -337,7 +337,7 @@ def render(self):
     + "\nauthors: "
     + postAuthors
     + "\npublished: "
-    + postPublished
+    + postPubli5hed
     + "\nid: "
     + postID
     + "\n---\n"
