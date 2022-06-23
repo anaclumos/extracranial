@@ -1,6 +1,6 @@
 ---
 title: "Hey 👋🏻"
-slug: "/000000"
+slug: "/hey"
 ---
 
 ## Intro
