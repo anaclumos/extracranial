@@ -32,7 +32,7 @@ const EmojiReplaceableText = (props: Props) => {
           photo === undefined ? (
             text
           ) : (
-            <img src={photo} alt={photoAlt} width='1.5em' height='1.5em' />
+            <img src={photo} alt={photoAlt} width='38px' height='38px' />
           )
         ) : (
           <span className={styles.emoji}>{emoji}</span>
