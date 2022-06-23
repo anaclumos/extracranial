@@ -1,6 +1,6 @@
 ---
 title: '점자만으로 동영상 만들기'
-published: 2021-07-05
+date: 2021-07-05
 draft: true
 ---
 

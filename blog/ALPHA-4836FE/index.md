@@ -1,6 +1,6 @@
 ---
 title: '배달의민족 프론트엔드 개발자가 일하는 방법 part 2 q&a'
-published: 2020-07-21
+date: 2020-07-21
 draft: true
 ---
 
