@@ -1,5 +1,5 @@
 ---
 title: 'template'
-slug: '/ffffff'
+slug: '/FFFFFF'
 draft: true
 ---
