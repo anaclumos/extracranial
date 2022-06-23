@@ -22,8 +22,8 @@
 
 /* image inline, make it circular */
 .intro img {
-  height: 1.5em;
-  width: 1.5em;
+  height: 38px;
+  width: 38px;
   border-radius: 50%;
   display: inline-block;
   vertical-align: middle;
@@ -44,6 +44,10 @@
   .intro {
     padding: 1rem 1rem 0 1rem;
     font-size: 1.5rem;
+  }
+  .intro img {
+    height: 28px;
+    width: 28px;
   }
 }
 
