@@ -1,6 +1,6 @@
 ---
 title: "Sandbox in JS"
-slug: "E6DB5B"
+slug: "/E6DB5B"
 ---
 
 ## `sandbox` attribute in `<iframe>`
