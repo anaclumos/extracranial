@@ -1,6 +1,6 @@
 ---
 title: "Brane Project"
-slug: "8C41D2"
+slug: "/8C41D2"
 ---
 
 - [Brane Project](https://github.com/braneproject)
