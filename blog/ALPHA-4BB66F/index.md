@@ -1,6 +1,6 @@
 ---
 title: '유튜브 댓글에서 한국인 찾기 파트 1'
-published: 2020-05-11
+date: 2020-05-11
 draft: true
 ---
 

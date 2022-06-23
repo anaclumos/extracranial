@@ -1,6 +1,6 @@
 ---
 title: '취향저격 meme 추천 시스템 개발기'
-published: 2021-02-16
+date: 2021-02-16
 draft: true
 ---
 

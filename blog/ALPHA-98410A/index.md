@@ -1,6 +1,6 @@
 ---
 title: '당근 인턴 일주일 후기'
-published: 2022-05-27
+date: 2022-05-27
 draft: true
 ---
 
