@@ -1,27 +1,20 @@
 import React from 'react'
 import Link from '@docusaurus/Link'
-import { translate } from '@docusaurus/Translate'
+import Translate, { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
 import Layout from '@theme/Layout'
 
-const translate = {
-  singular: translate({
-    id: 'blog.archive.posts',
-    message: 'posts',
-    description: 'Number of posts in the archive: plural',
-  }),
-  plural: translate({
-    id: 'blog.archive.post',
-    message: 'post',
-    description: 'Number of posts in the archive: singular',
-  }),
+const t = {
+  singular: <Translate id='blog.archive.post' />,
+  plural: <Translate id='blog.archive.posts' />,
 }
 
 function Year({ year, posts }) {
   return (
     <>
       <h3>
-        {year} — {posts.length} {posts.length > 1 ? translate.plural : translate.singular}
+        {year} — {posts.length}
+        {posts.length > 1 ? t.plural : t.singular}
       </h3>
       <ul>
         {posts.map((post) => (
