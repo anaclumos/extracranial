@@ -1,4 +1,8 @@
-# Hey 👋🏻
+---
+title: "Hey 👋🏻"
+slug: "/000000"
+---
+
 ## Intro
 
 This is my research note. I have extensively studied the topic of PKM and envisioned an online _source of truth_ that firmly integrated my projects and research. Here, you will find books I'm reading, articles I'm analyzing, and topics that grasped my interest.

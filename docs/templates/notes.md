@@ -1,5 +1,5 @@
 ---
-title: "template"
-slug: "template-note"
+title: 'template'
+slug: '/ffffff'
 draft: true
 ---
