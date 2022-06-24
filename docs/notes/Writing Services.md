@@ -11,6 +11,18 @@ slug: '/872B83'
 - [Scrintal: A hybrid note-taking & mind mapping whiteboard](https://www.scrintal.com/)
 - [Heptabase: A note-taking tool for visual learning.](https://heptabase.com/)
 
+- Readwise
+- Instapaper
+- Pocket
+- Matter
+- Zapier
+- Miro
+- Workflowy
+- Braintoss
+- Dynalist
+
+방법론 - GTD, Zettelkasten, Kanban, Agile, Lean Method,
+
 ## For Team
 - [Saga | Make sense of your knowledge](https://saga.so/)
 - [Clarity — The DAO Contribution Platform](https://www.clarity.so/)- [Saga | Make sense of your knowledge](https://saga.so/)
