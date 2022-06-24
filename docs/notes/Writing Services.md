@@ -16,18 +16,19 @@ slug: '/872B83'
 - Pocket
 - Matter
 - Zapier
-- Miro
 - Workflowy
 - Braintoss
 - Dynalist
 
-방법론 - GTD, Zettelkasten, Kanban, Agile, Lean Method,
+## Methodologies
+GTD, Zettelkasten, Kanban, Agile, Lean Method
 
 ## For Team
 - [Saga | Make sense of your knowledge](https://saga.so/)
 - [Clarity — The DAO Contribution Platform](https://www.clarity.so/)- [Saga | Make sense of your knowledge](https://saga.so/)
 - [Notion – One workspace. Every team.](https://www.notion.so/)
 - [Craft - The Future of Documents](https://www.craft.do/)
+- Miro
 
 ## Blogging Services
 - [Medium – Where good ideas find you.](https://medium.com/)
