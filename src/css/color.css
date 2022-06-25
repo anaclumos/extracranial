@@ -12,9 +12,9 @@
 }
 
 :root {
-  --ifm-color-primary: var(--primary-color-600);
-  --ifm-color-primary-dark: var(--primary-color-700);
-  --ifm-color-primary-darker: var(--primary-color-800);
+  --ifm-color-primary: var(--primary-color-700);
+  --ifm-color-primary-dark: var(--primary-color-800);
+  --ifm-color-primary-darker: var(--primary-color-900);
   --ifm-color-primary-darkest: var(--primary-color-900);
   --ifm-color-primary-light: var(--primary-color-500);
   --ifm-color-primary-lighter: var(--primary-color-400);
