@@ -1,4 +1,3 @@
-from concurrent.futures import process
 import shutil
 import os
 
@@ -40,7 +39,7 @@ for file in os.listdir(SOURCE_DIR):
         print("Unknown file type: " + file_path)
 
 
-def process_english(dir, to_index, to_delete):
+def process_language(dir, to_index, to_delete):
     for file in os.listdir(dir):
         file_path = os.path.join(dir, file)
         if os.path.isfile(file_path):
@@ -54,8 +53,8 @@ def process_english(dir, to_index, to_delete):
                 os.remove(file_location)
                 print("Deleted " + file_location)
         elif os.path.isdir(file_path):
-            process_english(file_path, to_index, to_delete)
+            process_language(file_path, to_index, to_delete)
 
 
-process_english(EN_DIR, "en", "ko")
-process_english(KO_DIR, "ko", "en")
+process_language(EN_DIR, "en", "ko")
+process_language(KO_DIR, "ko", "en")
