@@ -13,8 +13,6 @@ const content = `
 ---
 title: "Untitled"
 draft: true
-# keywords: []
-# image: https://cho.sh/
 ---
 `
 
