@@ -44,14 +44,13 @@ def process_english(dir, to_index, to_delete):
     for file in os.listdir(dir):
         file_path = os.path.join(dir, file)
         if os.path.isfile(file_path):
-            if file.startswith(to_index) and file.endswith(".md"):
-                os.rename(file_path, file_path.replace(to_index, "index"))
-            elif file.startswith(to_index) and file.endswith(".mdx"):
-                os.rename(file_path, file_path.replace(to_index, "index"))
-            elif file.startswith(to_delete) and file.endswith(".md"):
-                os.unlink(file_path)
-            elif file.startswith(to_delete) and file.endswith(".mdx"):
-                os.unlink(file_path)
+            file_location = os.path.join(dir, file)
+            if file.startswith(to_index) and (file.endswith(".md") or file.endswith(".mdx")):
+                os.rename(file_location, file_location.replace(
+                    to_index + ".md", "index.md").replace(to_index + ".mdx", "index.mdx"))
+            elif file.startswith(to_delete) and (file.endswith(".md") or file.endswith(".mdx")):
+                print("Deleting: " + file_location)
+                os.remove(file_location)
         elif os.path.isdir(file_path):
             process_english(file_path, to_index, to_delete)
 
