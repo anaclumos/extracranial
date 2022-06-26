@@ -1,8 +1,8 @@
 docs/.obsidian
 *.config.js
 *.stylesheet.js
-./blog
-./i18n/ko/docusaurus-plugin-content-blog
+blog
+i18n/ko/docusaurus-plugin-content-blog
 
 # Dependencies
 /node_modules
