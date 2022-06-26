@@ -1,5 +1,5 @@
 ---
-title: 'Creating a Calendar with JavaScript Date Object'
+title: 'Creating Calendar with JavaScript Date Object'
 date: 1970-01-06
 draft: true
 excerpt: "Let's create a Calendar with JavaScript Date Object that supports navigating months and highlighting certain days."

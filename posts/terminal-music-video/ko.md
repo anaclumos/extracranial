@@ -1,5 +1,5 @@
 ---
-title: '점자만으로 동영상 만들기'
+title: 'Watch your favorite music video right from your terminal'
 date: 2021-07-05
 draft: true
 slug: '/AF848F'
@@ -18,17 +18,7 @@ slug: '/AF848F'
 - Python Standard Library (sys, os, pathlib) — 파일을 읽고 쓰기 위해 사용됨
 - ffmpeg (optional) — 동영상을 편집하기 위해 사용됨
 
-[
-
-anaclumos/video-in-dots
-
-Tools: Video to Braille Subtitles. Contribute to anaclumos/video-in-dots development by creating an account on GitHub.
-
-![점자만으로 동영상 만들기](images/favicon.svg)GitHubanaclumos
-
-![점자만으로 동영상 만들기](images/video-in-dots)
-
-](https://github.com/anaclumos/video-in-dots)
+- [anaclumos/video-in-dots](https://github.com/anaclumos/video-in-dots)
 
 ---
 
@@ -296,17 +286,7 @@ Dithering은 더 넓은 컬러 스펙트럼에서 더 낮은 컬러 스펙트럼
 
 일단 이렇게 마무리된 프로젝트이다. 코드를 통해서 동영상을 분석하고 제어하는 프로젝트는 꾸준히 진행할 생각이다. 과거에 업로드했던 관련 글을 올리며 글을 마무리한다.
 
-[
-
-동영상 압축과 유체이탈
-
-영상 압축의 원리와 동영상 유체이탈의 원인에 대해서 알아봅니다.
-
-![점자만으로 동영상 만들기](images/favicon.png)Sunghyun ChoSunghyun Cho
-
-![점자만으로 동영상 만들기](images/Ghosting-1.png)
-
-](https://blog.chosunghyun.com/kr-video-ghosting/)
+- [동영상 압축과 유체이탈](https://blog.chosunghyun.com/kr-video-ghosting/)
 
 ### 완성본
 
