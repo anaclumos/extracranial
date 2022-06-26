@@ -13,7 +13,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "build:plugin": "yarn workspace plugin-blog-index build",
-    "build:config": "tsc -p tsconfig-config.json",
+    "build:config": "tsc -p tsconfig-config.json && yarn pack-post",
     "lint": "eslint --cache \"**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,json,md,mdx}\"",
     "i18n": "mkdir -p i18n/ko/docusaurus-plugin-content-blog && cp -r -n blog/** i18n/ko/docusaurus-plugin-content-blog",
