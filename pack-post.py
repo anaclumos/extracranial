@@ -48,9 +48,11 @@ def process_english(dir, to_index, to_delete):
             if file.startswith(to_index) and (file.endswith(".md") or file.endswith(".mdx")):
                 os.rename(file_location, file_location.replace(
                     to_index + ".md", "index.md").replace(to_index + ".mdx", "index.mdx"))
+                print("Renamed " + file_location + " to " + file_location.replace(
+                    to_index + ".md", "index.md").replace(to_index + ".mdx", "index.mdx"))
             elif file.startswith(to_delete) and (file.endswith(".md") or file.endswith(".mdx")):
-                print("Deleting: " + file_location)
                 os.remove(file_location)
+                print("Deleted " + file_location)
         elif os.path.isdir(file_path):
             process_english(file_path, to_index, to_delete)
 
