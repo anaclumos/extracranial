@@ -31,7 +31,7 @@ export const Globe = () => {
       width: width * 2,
       height: width * 2,
       phi: 0,
-      theta: (35 * Math.PI) / 180,
+      theta: (23.5 * Math.PI) / 180,
       dark: 1,
       diffuse: 0.2,
       mapSamples: 24000,
