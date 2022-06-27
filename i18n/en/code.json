@@ -12,11 +12,11 @@
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "Your nation prohibits the access to this content. Enable onion protocol, load up your VPN, connect to the Tor network, open your Web3 wallet, send me some bitcoin, purchase and donate NFTs, then try again.",
+    "message": "Your government prohibits access to this content. So please load up your VPN, enable the onion protocol, and connect to the Tor network. Then open your Web3 wallet, purchase some NFTs and send those to me alongside some bitcoins, then try again.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Just kidding. It's 404.",
+    "message": "JK. It's just 404.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
