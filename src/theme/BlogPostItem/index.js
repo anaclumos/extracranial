@@ -1,7 +1,7 @@
 import React from 'react'
 import BlogPostItem from '@theme-original/BlogPostItem'
 import Giscus from '../../components/Giscus'
-import OldPostNotice from '../../components/OldPostNotice'
+import PostNotice from '../../components/PostNotice'
 import Head from '@docusaurus/Head'
 
 const getUrlPercentEncoding = (text) => {
@@ -26,7 +26,7 @@ export default function BlogPostItemWrapper(props) {
           }
         />
       </Head>
-      <OldPostNotice {...props} />
+      <PostNotice {...props} />
       <BlogPostItem {...props} />
       <Giscus />
     </>
