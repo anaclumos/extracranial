@@ -10,6 +10,7 @@ slug: '/93AA11'
 For this system, I worked on implementing the [PARA](PARA.md) system with [Docusaurus](https://docusaurus.io/) and [Obsidian](https://obsidian.md/). It is working fairly well, but I still question the feasibility of Obsidian as a Second Brain framework (which should do more than just a note-taking app.)
 
 ## Potential Tools
+
 - [Graph Data Platform | Graph Database Management System | Neo4j](https://neo4j.com/)
 - [ConvertKit: The creator marketing platform](https://convertkit.com/)
 
@@ -40,7 +41,7 @@ For this system, I worked on implementing the [PARA](PARA.md) system with [Docus
 - [https://io-oi.me/wiki](https://io-oi.me/wiki)
 - [花园漫步 To The Garden](https://tothegarden.vercel.app/page/%E8%8A%B1%E5%9B%AD%E6%BC%AB%E6%AD%A5%20to%20the%20Garden)
 - [Logseq](https://zhangxueshan246.github.io/#/)
-- [logseq使用经验分享](https://xutuan.vercel.app/#/page/logseq%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
+- [logseq 使用经验分享](https://xutuan.vercel.app/#/page/logseq%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
 - [构建我的被动收入](https://www.bmpi.dev/)
 - [README](https://logseq.abosen.top/#/page/README)
 
@@ -53,6 +54,7 @@ For this system, I worked on implementing the [PARA](PARA.md) system with [Docus
 - [younho9 Blog](https://www.notion.so/younho9-Blog-9ed630c8603541bab20662b4854a891f)
 
 ## Fast Websites
+
 - [Telmo Goncalves](https://telmo.is/)
 - [Edy Kim](https://edykim.com/)
 - [Lee Robinson – Developer, writer, creator.](https://leerob.io/)
