@@ -1,0 +1,16 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": false,
+  "promptDelete": false,
+  "spellcheck": true,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "attachmentFolderPath": "assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "notes",
+  "tabSize": 4
+}
