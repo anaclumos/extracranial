@@ -4,6 +4,6 @@ date: 2020-04-08
 slug: '/440E43'
 ---
 
-:::tip Work In Progress
+:::info Work In Progress
 This document is a work in progress. Come back later, or try other languages.
 :::
