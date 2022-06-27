@@ -1,7 +1,6 @@
 ---
 title: 'YCLF 주간 사용자 1000명 🎉'
 date: 2020-08-01
-draft: true
 slug: '/06BDA3'
 ---
 

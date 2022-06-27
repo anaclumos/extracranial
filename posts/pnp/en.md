@@ -1,7 +1,6 @@
 ---
 title: 'P vs. NP problem'
 date: 2022-04-28
-excerpt: 'Poly-time Solvable versus Nondeterministic Polynomial Time'
 slug: '/4DAB36'
 ---
 

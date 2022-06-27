@@ -1,6 +1,5 @@
 ---
 title: "When TSC suddenly errors with 'cannot find module.'"
-excerpt: 'The problem came from auto-flattened folder structures.'
 date: 2021-01-16
 slug: '/ACB2F1'
 ---

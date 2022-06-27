@@ -1,7 +1,6 @@
 ---
 title: 'Migrating a Node.js app from AWS Elastic Beanstalk to Heroku'
 date: 2018-10-28
-excerpt: 'Heroku holds some advantages over AWS Elastic Beanstalk. This article gives a solution to migrate an AWS Elastic Beanstalk app to Heroku.'
 slug: '/C855D4'
 ---
 

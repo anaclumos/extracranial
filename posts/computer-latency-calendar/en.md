@@ -1,7 +1,6 @@
 ---
 title: 'The Computer Latency Calendar'
 date: 2022-04-19
-excerpt: "Imagine how Apple's M1 chip feels a 2-second API response."
 slug: '/DDA06F'
 ---
 

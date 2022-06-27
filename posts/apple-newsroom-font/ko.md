@@ -1,7 +1,6 @@
 ---
 title: 'Apple Newsroom 서체 따라하기'
 date: 2020-04-15
-draft: true
 slug: '/1C362F'
 ---
 

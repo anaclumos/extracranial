@@ -1,17 +1,8 @@
 ---
 title: 'Ghost 테마를 Github Actions로 자동 배포하는 방법'
 date: 2019-11-16
-draft: true
 slug: '/0F1FE2'
 ---
-
-# ghost-테마를-github-actions로-자동-배포하는-방법
-
-## Summary
-
-Ghost 테마를 GitHub Actions를 이용해 자동 배포하는 방법을 알아봅니다.
-
-## Content
 
 이 블로그는 [Ghost Content Management System](https://github.com/TryGhost/Ghost)을 AWS에 호스팅하여 사용한다. Ghost CMS는 **헤드리스**하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 존재하지만 프론트엔드(헤드)는 내가 원하는 대로 제작할 수 있다는 것이다. 하지만 Ghost 2까지는 다음과 같이 그 '헤드'를 Deploy하는 과정이 무척 번거로웠다.
 

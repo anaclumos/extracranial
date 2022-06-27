@@ -1,7 +1,6 @@
 ---
-title: 'Trying out Tailwind CSS with Next.js'
+title: 'Tailwind CSS 톺아보기'
 date: 2021-07-14
-draft: true
 slug: '/4B15E0'
 ---
 
@@ -21,17 +20,7 @@ slug: '/4B15E0'
 
 ## 원본 자료
 
-[
-
-Documentation - Tailwind CSS
-
-Documentation for the Tailwind CSS framework.
-
-![](https://tailwindcss.com/apple-touch-icon.png)Tailwind CSS
-
-![](https://tailwindcss.com/_next/static/media/twitter-large-card.85c0ff9e455da585949ff0aa50981857.jpg)
-
-](https://tailwindcss.com/docs/)
+[Documentation - Tailwind CSS](https://tailwindcss.com/docs/)
 
 ### #0 프로젝트 설정
 
