@@ -17,7 +17,7 @@ const HeroText = () => {
         <meta name='description' content={siteConfig.tagline} />
         <meta property='og:title' content={siteConfig.title} />
         <meta property='og:description' content={siteConfig.tagline} />
-        <meta property='og:image' content={`/img/ogimage.png`} />
+        <meta property='og:image' content={`/img/optimized-ogimage.png`} />
         <link rel='icon' href='img/favicon.png' />
       </Head>
       <header>
