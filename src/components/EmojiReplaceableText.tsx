@@ -18,12 +18,6 @@ const EmojiReplaceableText = (props: Props) => {
     setShowEmoji(!showEmoji)
   }
 
-  useTimeout(() => {
-    if (countdown) {
-      setShowEmoji(false)
-    }
-  }, countdown * 1000)
-
   return (
     <span onClick={handleClick} className={styles.emojiReplaceableText}>
       {showEmoji ? (
