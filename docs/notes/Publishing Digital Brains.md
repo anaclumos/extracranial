@@ -3,10 +3,6 @@ title: 'Publishing Digital Brains'
 slug: '/93AA11'
 ---
 
-## Idea
-
-> _It’s hard to write notes that are worth developing over time. These principles help: ① Evergreen notes should be atomic ② Evergreen notes should be concept-oriented ③ Evergreen notes should be densely linked ④ Prefer associative ontologies to hierarchical taxonomies ⑤ Write notes for yourself by default, disregarding audience. This concept is of course enormously indebted to the notion of a Zettelkasten. See Similarities and differences between evergreen note-writing and Zettelkasten. _ - [Evergreen notes](https://notes.andymatuschak.org/Evergreen\_notes)
-
 ## Potential Tools
 - [Graph Data Platform | Graph Database Management System | Neo4j](https://neo4j.com/)
 - [ConvertKit: The creator marketing platform](https://convertkit.com/)
@@ -17,9 +13,9 @@ slug: '/93AA11'
 
 ## Roam References
 
-- _Create beautifully tended Digital Gardens from your RoamResearch graph Publish your notes as a static site in a few simple steps_ - [Roam Garden | Roam Garden](https://roam.garden/)
-- _These notes are a first attempt at a Digital Garden and as such are a little wild and untamed. There's no central index or table of contents; you explore by going deeper and deeper down the rabbit hole._ - [About these notes](https://matt.roam.garden/)
-- _👋 I'm Vlad Sitalo - the creator of Roam Garden. I like to build things and at times I wonder about:_ - [Garden Terrace](https://vlad.roam.garden/)
+- _Create beautifully tended Digital Gardens from your RoamResearch graph. Publish your notes as a static site in a few simple steps_ - [Roam Garden | Roam Garden](https://roam.garden/)
+- _These notes are the first attempt at a Digital Garden and, as such, are a little wild and untamed. There's no central index or table of contents; you explore by going deeper and deeper down the rabbit hole._ - [About these notes](https://matt.roam.garden/)
+- _👋 I'm Vlad Sitalo - the creator of Roam Garden. I like to build things, and at times, I wonder about:_ - [Garden Terrace](https://vlad.roam.garden/)
 
 ## Obsidian References
 
