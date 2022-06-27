@@ -16,91 +16,100 @@ slug: '/E0C34F'
 
 - 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 프로젝트를 생성한다.
 
-  npx create-snowpack-app gif-converter --template @snowpack/app-template-react
+```bash
+npx create-snowpack-app gif-converter --template @snowpack/app-template-react
+```
 
 - 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 CDN을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)
 
-  npm install @ffmpeg/ffmpeg @ffmpeg/core
+```bash
+npm install @ffmpeg/ffmpeg @ffmpeg/core
+```
 
 - 그 다음 `snowpack`을 설치한다.
 
-  npm install snowpack --save-dev
+```bash
+npm install snowpack --save-dev
+```
 
 - 다음 명령어로 테스트 가능하다. snowpack을 위 문장으로 설치하는 대신 `npm i -g snowpack`으로 글로벌하게 설치했다면 `snowpack dev`를 하면 된다.
 
-  npm start
+```bash
+npm start
+```
 
 - src/App.jsx
 
-  import React, { useState, useEffect } from 'react';
-  import './App.css';
+```jsx
+import React, { useState, useEffect } from 'react'
+import './App.css'
 
-  import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg';
-  const ffmpeg = createFFmpeg({ log: true });
+import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg'
+const ffmpeg = createFFmpeg({ log: true })
 
-  function App() {
-  const [ready, setReady] = useState(false);
-  const [video, setVideo] = useState();
-  const [gif, setGif] = useState();
+function App() {
+  const [ready, setReady] = useState(false)
+  const [video, setVideo] = useState()
+  const [gif, setGif] = useState()
 
   const load = async () => {
-  await ffmpeg.load();
-  setReady(true);
-  };
-
-  useEffect(() => {
-  load();
-  }, []); // blank [] makes it run once.
-
-  const convertToGif = async () => {
-  // Write the file to memory
-  ffmpeg.FS('writeFile', 'test.mp4', await fetchFile(video));
-
-      // Run the FFMpeg command
-      await ffmpeg.run(
-        '-i', // input flag
-        'test.mp4', // video source input
-        '-t', // time flag
-        '2.5', // for 2.5 seconds
-        '-ss', // starting secont flag
-        '2.0', // offset for 2 seconds
-        '-f', // file
-        'gif', // encode as gif file
-        'out.gif', // write file to out.gif
-      );
-
-      // Read the result
-      const data = ffmpeg.FS('readFile', 'out.gif');
-
-      // Create a URL
-      const url = URL.createObjectURL(
-        new Blob([data.buffer], { type: 'image/gif' }),
-      );
-      setGif(url);
-
-  };
-
-  return ready ? (
-  <div className="App">
-  {video && (
-  <video controls width="250" src={URL.createObjectURL(video)}></video>
-  )}
-  <input type="file" onChange={(e) => setVideo(e.target.files?.item(0))} />
-  <h3>Result</h3>
-  <button onClick={convertToGif}>Convert</button>
-  {gif && <img src={gif} width="250" />}
-  </div>
-  ) : (
-  <p>Loading...</p>
-  );
+    await ffmpeg.load()
+    setReady(true)
   }
 
-  export default App;
+  useEffect(() => {
+    load()
+  }, []) // blank [] makes it run once.
+
+  const convertToGif = async () => {
+    // Write the file to memory
+    ffmpeg.FS('writeFile', 'test.mp4', await fetchFile(video))
+
+    // Run the FFMpeg command
+    await ffmpeg.run(
+      '-i', // input flag
+      'test.mp4', // video source input
+      '-t', // time flag
+      '2.5', // for 2.5 seconds
+      '-ss', // starting secont flag
+      '2.0', // offset for 2 seconds
+      '-f', // file
+      'gif', // encode as gif file
+      'out.gif' // write file to out.gif
+    )
+
+    // Read the result
+    const data = ffmpeg.FS('readFile', 'out.gif')
+
+    // Create a URL
+    const url = URL.createObjectURL(new Blob([data.buffer], { type: 'image/gif' }))
+    setGif(url)
+  }
+
+  return ready ? (
+    <div className='App'>
+      {video && <video controls width='250' src={URL.createObjectURL(video)}></video>}
+      <input type='file' onChange={(e) => setVideo(e.target.files?.item(0))} />
+      <h3>Result</h3>
+      <button onClick={convertToGif}>Convert</button>
+      {gif && <img src={gif} width='250' />}
+    </div>
+  ) : (
+    <p>Loading...</p>
+  )
+}
+
+export default App
+```
 
 - FFMpeg는 in-memory file system을 사용한다.
 - 다음과 같은 형태의 JS 문법을 사용하여 `gif`가 JS 기준 false(null, undefined, false...)가 아닐 때만 렌더링되도록 만들 수 있다.
 
-  {gif && <img src={gif} width="250" />}
+```jsx
+{
+  gif && <img src={gif} width='250' />
+}
+```
 
 ## GitHub Pages에 Snowpack App 호스팅 및 시행착오
 
@@ -110,27 +119,35 @@ slug: '/E0C34F'
 - 그 다음 `touch docs/.nojekyll`해보았다. 작동하지 않았다. (나중에 알게 됐지만 이게 해결책이었다. GitHub Pages가 Environment 탭에서는 Deploy 되었다고 나타나는데 반해 실제로는 업데이트되지 않아서 이게 해결책이 아닌 줄 알았다.)
 - 또 다음과 같이 `snowpack.config.js`에서 `baseUrl`을 변경해주었다. (이것도 필요한 해결책이었다. 나의 GitHub Pages는 subdirectory에 호스팅하기 때문에 이와 같은 옵션이 필요하다. [참고 링크 1](https://github.com/snowpackjs/snowpack/discussions/848), [참고 링크 2](https://github.com/snowpackjs/snowpack/discussions/1377))
 
-  buildOptions: {
+```js
+buildOptions: {
   baseUrl: '/ffmpeg-wasm-gif-converter-study/',
-  },
+},
+```
 
 - Production 폴더의 `_dist_` 디렉토리의 이름을 `static`으로 변경했다. 이는 snowpack.config.js에서 다음 코드를 변경함으로써 가능하다. (실제로는 불필요한 변경이었다.)
 
-  mount: {
+```js
+mount: {
   public: '/',
   src: '/static',
-  },
+},
+```
 
 - 이는 또한 public/index.html에서 src를 변경해주었다. 위의 Discussion Post들을 볼 때 여기를 `%PUBLIC_URL%`으로 해야하는 것 같은데, 일단 ./static/index.js을 사용했다. 이를 통해서 index.html은 로딩되었다.
 
-  <script type="module" src="./static/index.js"></script>
+```html
+<script type="module" src="./static/index.js"></script>
+```
 
 - 하지만 여전히 `_snowpack_` 폴더 내부의 파일이나 `web_modules` 폴더 내의 결과물은 404 Not Found 상태였다.
 - 이때부터 GitHub Pages가 `_` 폴더를 인식하지 못한다는 것을 알게 되었다.
 - 약간의 조사를 해 보니 GitHub Pages에 기본으로 포함된 Jekyll 전처리 기능 때문이라는 것을 알게 되었다. [참고 링크](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)
 - 때문에 다시 `.nojekyll` 파일을 추가해보았다. `npm run build` 명령어를 다시 수정해 다음 명령어를 추가했다. 이를 통해 프로젝트를 build할 때마다 자동으로 `.nojekyll` 파일이 추가되도록 만들었다.
 
-  ... && touch docs/.nojekyll
+```bash
+... && touch docs/.nojekyll
+```
 
 - 여전히 문제가 발생했다. 조사를 해보니 GitHub Pages가 Environment 탭에서는 Deploy 되었다고 나오는데 실제로는 업데이트되는데 시간이 더 걸리는 문제인 것 같았다. [참고 링크](https://stackoverflow.com/questions/47356997/pushed-nojekyll-file-to-github-pages-no-effect)
 - 웹앱의 `title`도 바꿔봤는데 Production 웹사이트에서는 변경되지 않는 것을 볼 때 업데이트에 약간의 시간이 걸리는 것이라고 판단했다.
