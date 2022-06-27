@@ -11,8 +11,12 @@
     "message": "Notes",
     "description": "The label for category Notes in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.templates": {
-    "message": "templates",
-    "description": "The label for category templates in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Readings": {
+    "message": "Readings",
+    "description": "The label for category Readings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Templates": {
+    "message": "Templates",
+    "description": "The label for category Templates in sidebar tutorialSidebar"
   }
 }

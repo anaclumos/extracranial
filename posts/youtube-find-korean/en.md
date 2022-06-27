@@ -4,6 +4,6 @@ date: 2020-05-11
 slug: '/4BB66F'
 ---
 
-:::info Work In Progress
-This document is a work in progress. Come back later, or try other languages.
-:::
+import WIP from '@site/src/components/WIP'
+
+<WIP />

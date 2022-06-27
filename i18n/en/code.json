@@ -320,20 +320,14 @@
   "Old Post Ahead!": {
     "message": "Old Post Ahead!"
   },
-  "I wrote this post more than": {
-    "message": "I wrote this post more than"
-  },
-  "years ago.": {
-    "message": "years ago."
+  "I wrote this post more than ": {
+    "message": "I wrote this post more than "
   },
   "That's enough time for things to change.": {
     "message": "That's enough time for things to change."
   },
   "I might not agree with this post anymore.": {
     "message": "I might not agree with this post anymore."
-  },
-  "year ago.": {
-    "message": "year ago."
   },
   "blog.archive.posts": {
     "message": " posts"
@@ -355,5 +349,23 @@
   },
   "blog.archive.yearsuffix": {
     "message": ""
+  },
+  " year ago.": {
+    "message": " year ago."
+  },
+  " years ago.": {
+    "message": " years ago."
+  },
+  "Work in Progress": {
+    "message": "Work in Progress"
+  },
+  "This is a work in progress. Please check back later.": {
+    "message": "This is a work in progress. Please check back later."
+  },
+  "Usually, this is because I am translating this post to other languages.": {
+    "message": "Usually, this is because I am translating this post to other languages."
+  },
+  "Try looking for this post in other languages, if you are multilingual.": {
+    "message": "Try looking for this post in other languages, if you are multilingual."
   }
 }
