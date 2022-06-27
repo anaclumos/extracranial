@@ -1,7 +1,13 @@
 ---
-title: 'Publishing Digital Brains'
+title: 'Publishing Digital Brains on WWW'
 slug: '/93AA11'
 ---
+
+## Idea
+
+> How can I tightly integrate [Writing Services](Writing%20Services.md) and Digital Brain Publishing System?
+
+For this system, I worked on implementing the [PARA](PARA.md) system with [Docusaurus](https://docusaurus.io/) and [Obsidian](https://obsidian.md/). It is working fairly well, but I still question the feasibility of Obsidian as a Second Brain framework (which should do more than just a note-taking app.)
 
 ## Potential Tools
 - [Graph Data Platform | Graph Database Management System | Neo4j](https://neo4j.com/)
