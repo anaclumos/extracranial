@@ -5,6 +5,6 @@ slug: '/{{date:YYYY-MM-DD}}'
 draft: true
 ---
 
-## Today's [Pragmatic Engineer](../notes/Pragmatic%20Engineer.md)
+## Today's [Pragmatic Engineer](../Notes/Pragmatic%20Engineer.md)
 
-## Today's [HackerNews](../notes/HackerNews.md)
+## Today's [HackerNews](../Notes/HackerNews.md)
