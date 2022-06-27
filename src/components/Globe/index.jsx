@@ -31,15 +31,15 @@ export const Globe = () => {
       width: width * 2,
       height: width * 2,
       phi: 0,
-      theta: 0.235,
+      theta: (23.5 * Math.PI) / 180,
       dark: 1,
       diffuse: 0.2,
-      mapSamples: 16000,
+      mapSamples: 24000,
       mapBrightness: 6,
       baseColor: [0.3, 0.3, 0.3],
-      markerColor: [85 / 256, 151 / 256, 236 / 256],
+      markerColor: [73 / 256, 118 / 256, 202 / 256],
       glowColor: [0.5, 0.5, 0.5],
-      markers: globePathDrawer(seoul, losangeles, 64, 0.01),
+      markers: [seoul, losangeles],
       onRender: (state) => {
         state.phi = phi + r.get()
         phi += 0.005
