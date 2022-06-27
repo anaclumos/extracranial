@@ -4,4 +4,6 @@ date: 2022-05-14
 slug: '/D8FB8E'
 ---
 
-WIP
+:::tip Work In Progress
+This document is a work in progress. Come back later, or try other languages.
+:::

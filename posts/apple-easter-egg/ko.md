@@ -4,4 +4,6 @@ date: 2020-01-20
 slug: '/4512BD'
 ---
 
-WIP
+:::tip Work In Progress
+This document is a work in progress. Come back later, or try other languages.
+:::

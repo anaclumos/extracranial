@@ -4,4 +4,6 @@ date: 2020-07-21
 slug: '/4836FE'
 ---
 
-WIP
+:::tip Work In Progress
+This document is a work in progress. Come back later, or try other languages.
+:::
