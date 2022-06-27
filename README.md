@@ -9,19 +9,19 @@
   - `wontfix`
 - [x] Add comment system
 - [x] Migrate blog posts
-  - [ ] Translate Korean to English (you can find them with mark `draft: true` in /blog)
-  - [ ] Translate English to Korean (look for any post in english in /i18n)
+  - [ ] Translate Korean to English
+  - [ ] Translate English to Korean
 - [x] Migrate docs posts
 - [x] Migrate from Logseq to Obsidian
 - [x] Make the globe spin
 - [ ] Add search system
-- [ ] Add `evergreen` option for YAML
-- [ ] Add og:image for main
+- [ ] Add an `evergreen` option for YAML
+- [x] Add `og:image` for main
 
 ## LATER
 
 - [ ] Add guestbook (might just go with utterances)
 - [ ] Add newsletter integration
-  - potential candidate: Revue, used by Lee Rob. Unsure if it has integration built in.
+  - potential candidate: Revue, used by Lee Rob. Unsure if it has integration built-in.
 - [ ] Update Homepage to include dynamically generated content (GitHub activity, etc.)
   - will be a separate page, i.e. `dashboard`
