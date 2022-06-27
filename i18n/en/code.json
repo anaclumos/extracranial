@@ -336,12 +336,10 @@
     "message": "year ago."
   },
   "blog.archive.posts": {
-    "message": " posts",
-    "description": "Number of posts in the archive: plural"
+    "message": " posts"
   },
   "blog.archive.post": {
-    "message": " post",
-    "description": "Number of posts in the archive: singular"
+    "message": " post"
   },
   "theme.PwaReloadPopup.info": {
     "message": "New version available",
@@ -354,5 +352,8 @@
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
     "message": "Close",
     "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "blog.archive.yearsuffix": {
+    "message": ""
   }
 }
