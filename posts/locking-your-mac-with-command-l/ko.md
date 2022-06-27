@@ -1,7 +1,6 @@
 ---
 title: 'Mac을 Command+L로 잠그는 방법'
 date: 2019-11-09
-excerpt: 'Mac에서 Command+L로 화면을 잠그는 방법을 알아봅니다.'
 slug: '/6AA962'
 ---
 

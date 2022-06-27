@@ -2,7 +2,6 @@
 title: '당근 인턴 일주일 후기'
 date: 2022-05-27
 slug: '/98410A'
-draft: true
 ---
 
 ![당근 인턴 일주일 후기](images/optimized-hero.png)
@@ -13,17 +12,7 @@ draft: true
 
 ### 어디서부터 시작하는가
 
-[
-
-당근마켓 팀
-
-이웃과 더 가까워지는 따뜻한 동네를 만들어요.
-
-![당근 인턴 일주일 후기](images/icon-512x512.png?v=7dcc39f261bfd67ba48775b30250e407)
-
-![당근 인턴 일주일 후기](images/7dae7f01-9827-4baa-b02a-6ad76f0aa9a3_photo_03.png)
-
-](https://team.daangn.com/)
+- [당근마켓 팀](https://team.daangn.com/)
 
 모든 시작은 당근마켓 팀 리크루팅 사이트입니다. 일전에 다른 분의 면접 리뷰에서도 느낀 것이지만, **인재의 발굴**에 엄청난 에너지를 쏟고 있다는 느낌을 많이 받았습니다. 구인 웹사이트를 깔끔하게 운영하면서 지원자들이 궁금해할 만한 내용들을 빠짐없이 기재해두었고, 무엇보다 JD(Job Description)를 구체적이고 명확하게 적었습니다. 면접을 본 기업 중 JD는 대외비이기 때문에 공개하기 어렵다고 한 기업도 있었기에 더욱 지원자를 세세하게 배려한다는 느낌을 받았습니다.
 
@@ -102,17 +91,7 @@ JD에서 언급된 바와 같이 면접은 1시간 30분으로 예정되었습�
 - 이와 동시에 회원가입과 결제 연결도 필요 없다. WeChat ID와 WeChat Pay가 자동으로 연결되어 있기 때문에 사용자의 플로우를 방해하는 어떤 Road Block도 없다.
 - 중국에서는 이미 미니앱으로 앱 생태계가 평정이 되었고, Line, Snap도 이런 트렌드를 준비 중이며 Apple 또한 나름의 미니앱인 App Clips를 출시하였다.
 
-[
-
-10\. 위챗의 절대반지, 미니 프로그램 #01
-
-샤오청쉬, 이름은 미니한데 파장 효과는 어마무지 맥스 | <위챗의 ‘SUPER’한 7가지 기능들> 개인적으로 생각하기에 웨이신을 슈퍼앱으로 만든 진정한 탈 메신저급 주요 기능은 다음과 같다. 1. 소셜(SNS) 기능, 모멘트(朋友圈, Moment) 2. 위챗 공식 계정(公众号, Official Accounts, 공중하오) 3. 위챗 페이(微信支付, WechatPay), 큐알코드(二维码) 및 위치기반 서비스 적
-
-![당근 인턴 일주일 후기](images/icon152.png)brunch고인물C
-
-![당근 인턴 일주일 후기](images/OoFHV6c5B0WqH9_RI6ItXM29FSc.png)
-
-](https://brunch.co.kr/@cbinsight/23)
+[10\. 위챗의 절대반지, 미니 프로그램 #01](https://brunch.co.kr/@cbinsight/23)
 
 미니 앱이 더 궁금하시다면 이 글을 참고해보세요!
 
@@ -137,29 +116,9 @@ JD에서 언급된 바와 같이 면접은 1시간 30분으로 예정되었습�
 
 혹여나 위의 질문들에 대해서 답이 궁금하신 분들은 아래 글들을 살펴보시면 답을 아실 수 있습니다.
 
-[
+[How to build a plugin system on the web and also sleep well at night](https://www.figma.com/blog/how-we-built-the-figma-plugin-system/)
 
-How to build a plugin system on the web and also sleep well at night
-
-The solution we found helps us run Figma plugins in a safe way — i.e. not eval(UNTRUSTED_CODE).
-
-![당근 인턴 일주일 후기](images/icon-192.png)FigmaRudi ChenSoftware Engineer, Figma
-
-![당근 인턴 일주일 후기](images/70e74a9fae7202ca51ab221135971777eec1ca8a-4240x2000.png?w=1200&q=70&fit=max&auto=format)
-
-](https://www.figma.com/blog/how-we-built-the-figma-plugin-system/)
-
-OG:description의 "우리가 찾은 피그마 플러그인(외부 코드)을 안전하게 구동시키는 방법. i.e. 단순 실행이 아닙니다."
-
-[
-
-WorkerDOM: JavaScript Concurrency and the DOM
-
-![당근 인턴 일주일 후기](images/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png)Speaker Deck
-
-![당근 인턴 일주일 후기](images/slide_0.jpg?10603856)
-
-](https://speakerdeck.com/cramforce/workerdom-javascript-concurrency-and-the-dom)
+[WorkerDOM: JavaScript Concurrency and the DOM](https://speakerdeck.com/cramforce/workerdom-javascript-concurrency-and-the-dom)
 
 ## 당근에서 신기했던 점들
 
@@ -185,17 +144,7 @@ WorkerDOM: JavaScript Concurrency and the DOM
 
 인턴에게도 어떠한 제한이 없습니다. 당근마켓의 서버 코드를 열람해볼 수 있고, 지역광고의 매출액 규모를 확인해볼 수 있으며, 당근 투자사들과의 회의록도 열람할 수 있습니다. 아마 이 내용을 보고 리드 헤이스팅스의 **규칙 없음** 책을 많이 떠올리실 것 같은데요. **네가 반년 뒤에 해고될 가능성이 50% 정도 되니 전세 계약을 미루는 것이 어떻겠느냐**까지 투명하게 공개하는 넷플릭스와 기업 문화가 비슷했습니다.
 
-[
-
-Netflix Jobs
-
-즐거움을 추구하는 것은 우정을 나누는 것처럼 우리 모두가 지닌 기본적인 욕구입니다. 우리는 상호작용을 통해 서로 공감대를 형성해 나갑니다. 넷플릭스는 엔터테인먼트 콘텐츠를 통해 함께 웃고, ...
-
-![당근 인턴 일주일 후기](images/favicon.ico)
-
-![당근 인턴 일주일 후기](images/Web-7406.jpg)
-
-](https://jobs.netflix.com/culture?lang=%ED%95%9C%EA%B5%AD%EC%96%B4)
+[Netflix Jobs](https://jobs.netflix.com/culture?lang=%ED%95%9C%EA%B5%AD%EC%96%B4)
 
 기업 주가 70% 빠진 것은 일단 넘어가자구요.
 
@@ -213,28 +162,10 @@ Netflix Jobs
 
 저는 앞으로 미니앱 표준을 위한 샌드박싱 작업을 진행하게 됩니다. 간략하게 말하면 웹 안의 웹을 만드는 작업이며 미니앱 환경을 위한 기반 작업을 하는 일입니다. 나름 다양한 기술적 & 제품적 욕심이 생겼는데 인턴을 잘 마무리하고 또 한 번 재미있는 글을 작성할 수 있었으면 좋겠습니다.
 
-[
-
-당근미니 플레이그라운드
-
-![당근 인턴 일주일 후기](images/favicon-YYB2MEFT.png)당근미니 베타 로고
-
-![당근 인턴 일주일 후기](images/playground-logo-beta-OWWRCEAP.svg)
-
-](https://playground.karrotmini.dev/)
+[당근미니 플레이그라운드](https://playground.karrotmini.dev/)
 
 당근미니 팀에
 
-[
-
-Brane Project
-
-Brane Project has 9 repositories available. Follow their code on GitHub.
-
-![당근 인턴 일주일 후기](images/fluidicon.png)GitHub
-
-![당근 인턴 일주일 후기](images/89457287?s=280&v=4)
-
-](https://github.com/braneproject)
+[Brane Project](https://github.com/braneproject)
 
 많은 관심 부탁드려요!

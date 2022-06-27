@@ -1,7 +1,6 @@
 ---
 title: 'Sending Notifications on Chrome Extension'
 date: 2020-05-29
-excerpt: 'Send notifications on Chrome Extension that open up a link when clicked.'
 slug: '/D1B35D'
 ---
 

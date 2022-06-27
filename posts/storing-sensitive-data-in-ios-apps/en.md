@@ -1,7 +1,6 @@
 ---
 title: 'Storing sensitive data in iOS Apps'
 date: 2022-04-26
-excerpt: "TL;DR: You can't."
 slug: '/30CC03'
 ---
 

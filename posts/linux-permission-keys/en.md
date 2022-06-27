@@ -1,7 +1,6 @@
 ---
 title: 'Linux Permissions for Keys'
 date: 2022-04-18
-excerpt: 'Walkthrough of closing up permissions when they are too open.'
 slug: '/ACC7AB'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'GitHub Pages에 React 앱 띄우기'
 date: 2020-10-05
-excerpt: 'GitHub Pages에 React 앱을 자동 배포해보자!'
 slug: '/01460C'
 ---
 

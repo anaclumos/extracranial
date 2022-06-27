@@ -1,7 +1,6 @@
 ---
 title: '유튜브 댓글에서 한국인 찾기 파트 1'
 date: 2020-05-11
-draft: true
 slug: '/4BB66F'
 ---
 
@@ -15,17 +14,7 @@ slug: '/4BB66F'
 
 YouTube는 언어를 기준으로 댓글을 보는 기능이 없다. 이 글은 그 불편함을 조금이나마 해소하기 위해 개발한 "YouTube 댓글 언어 필터"의 알파, 베타, 그리고 정식 출시 버전까지의 개발 이야기를 담았다.
 
-[
-
-anaclumos/youtube-comment-language-filter
-
-YouTube Comment Language Filter . Contribute to anaclumos/youtube-comment-language-filter development by creating an account on GitHub.
-
-![유튜브 댓글에서 한국인 찾기: 파트 1](images/favicon.svg)GitHubanaclumos
-
-![유튜브 댓글에서 한국인 찾기: 파트 1](images/c5038000-7910-11ea-84b7-f1845b4c9091)
-
-](https://github.com/anaclumos/youtube-comment-language-filter)
+[anaclumos/youtube-comment-language-filter](https://github.com/anaclumos/youtube-comment-language-filter)
 
 - [Chrome 계열 설치 링크](https://chrome.google.com/webstore/detail/youtube-comment-language/pliobnchkbenbollnjaaojhbjkjgfkni) (Chrome, Brave, Naver Whale, Microsoft Edge)
 - [Firefox 계열 설치 링크](https://addons.mozilla.org/firefox/addon/yclf/)

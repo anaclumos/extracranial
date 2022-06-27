@@ -1,7 +1,6 @@
 ---
 title: 'Opening external links in a new tab by default on Ghost'
 date: 2019-11-07
-excerpt: 'Ghost opens external links on the same page and increases the bounce rate. This post gives a solution to open external links in a new tab by default in Ghost.'
 slug: '/A11B23'
 ---
 
