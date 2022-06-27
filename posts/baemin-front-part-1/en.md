@@ -4,6 +4,6 @@ date: 2020-07-20
 slug: '/02B616'
 ---
 
-:::tip Work In Progress
+:::info Work In Progress
 This document is a work in progress. Come back later, or try other languages.
 :::
