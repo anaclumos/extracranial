@@ -4,6 +4,6 @@ date: 2021-01-16
 slug: '/ACB2F1'
 ---
 
-:::info Work In Progress
-This document is a work in progress. Come back later, or try other languages.
-:::
+import WIP from '@site/src/components/WIP'
+
+<WIP />

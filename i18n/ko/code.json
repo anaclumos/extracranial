@@ -320,14 +320,8 @@
   "Old Post Ahead!": {
     "message": "오래된 글입니다."
   },
-  "I wrote this post more than": {
+  "I wrote this post more than ": {
     "message": "이 글이 작성된지 "
-  },
-  " year ago.": {
-    "message": "년 이상이 흘렀습니다."
-  },
-  " years ago.": {
-    "message": "년 이상이 흘렀습니다."
   },
   "That's enough time for things to change.": {
     "message": "새로운 일들이 일어나기 충분한 시간입니다."
@@ -357,5 +351,23 @@
   },
   "blog.archive.yearsuffix": {
     "message": "년"
+  },
+  " year ago.": {
+    "message": "년 이상이 흘렀습니다."
+  },
+  " years ago.": {
+    "message": "년 이상이 흘렀습니다."
+  },
+  "Work in Progress": {
+    "message": "작업 중입니다."
+  },
+  "This is a work in progress. Please check back later.": {
+    "message": "이 글은 현재 작업 중입니다. 나중에 다시 확인해 주시기 바랍니다."
+  },
+  "Usually, this is because I am translating this post to other languages.": {
+    "message": "대부분의 경우, 이 글은 다른 언어로 먼저 작성되었으며 제가 번역 중임을 뜻합니다."
+  },
+  "Try looking for this post in other languages, if you are multilingual.": {
+    "message": "여러 언어를 구사하신다면 이 글을 다른 언어로 먼저 찾아보시기 바랍니다."
   }
 }
