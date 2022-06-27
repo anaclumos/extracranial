@@ -6,10 +6,19 @@ import EmojiReplaceableText from '../components/EmojiReplaceableText'
 import Translate, { translate } from '@docusaurus/Translate'
 import Profile from '../../static/img/profile.jpg'
 import { Globe } from '../components/Globe'
+import Head from '@docusaurus/Head'
 
 const HeroText = () => {
+  const { siteConfig } = useDocusaurusContext()
   return (
     <>
+      <Head>
+        <title>{siteConfig.title}</title>
+        <meta name='description' content={siteConfig.tagline} />
+        <meta property='og:title' content={siteConfig.title} />
+        <meta property='og:description' content={siteConfig.tagline} />
+        <link rel='icon' href='img/favicon.png' />
+      </Head>
       <header>
         <h1 className={styles.intro}>
           <EmojiReplaceableText
