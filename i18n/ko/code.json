@@ -354,5 +354,8 @@
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
     "message": "닫기",
     "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "blog.archive.yearsuffix": {
+    "message": "년"
   }
 }
