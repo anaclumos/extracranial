@@ -1,0 +1,32 @@
+.searchGoogleButton {
+  /* bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: #9ca3af;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.searchGoogleButton:hover {
+  background-color: rgb(255, 237, 186);
+  text-decoration: none;
+}
+
+[data-theme='dark'] .searchGoogleButton {
+  background-color: rgb(118, 96, 35);
+  color: #ffffff;
+  border-color: #9ca3af;
+  box-shadow: 0 1px 3px 0 rgba(20, 20, 0, 0.1), 0 1px 2px 0 rgba(20, 20, 0, 0.06);
+}
+
+[data-theme='dark'] .searchGoogleButton:hover {
+  background-color: rgb(85, 69, 25);
+  text-decoration: none;
+}
