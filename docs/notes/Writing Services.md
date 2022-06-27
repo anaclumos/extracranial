@@ -10,7 +10,6 @@ slug: '/872B83'
 - [Dendron: Knowledge Management. Redefined.](https://www.dendron.so/)
 - [Scrintal: A hybrid note-taking & mind mapping whiteboard](https://www.scrintal.com/)
 - [Heptabase: A note-taking tool for visual learning.](https://heptabase.com/)
-
 - Readwise
 - Instapaper
 - Pocket
