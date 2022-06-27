@@ -1,7 +1,6 @@
 ---
 title: 'Hey 👋🏻'
 slug: '/hey'
-id: Hey
 ---
 
 ## Intro
