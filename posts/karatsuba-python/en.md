@@ -1,7 +1,6 @@
 ---
 title: 'Implementing Karatsuba Algorithm in Python'
 date: 2020-10-17
-excerpt: 'Walkthrough of Implement the Karatsuba Algorithm without using any multiply operators. But why would you do this?'
 slug: '/383A01'
 ---
 

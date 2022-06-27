@@ -1,7 +1,6 @@
 ---
 title: 'html 텍스트 위에 덧말 강조점 쓰기'
 date: 2021-05-04
-draft: true
 slug: '/7257B8'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: '우아한테크캠프 3기 후기'
 date: 2021-05-21
-draft: true
 slug: 'E2CAE4'
 ---
 
@@ -183,15 +182,7 @@ async function addActivityLogToActivityLogList() {
 
 조언을 바탕으로 3번째 프로젝트부터는 이런 개발 패턴에 많은 신경을 썼다. 3번째 프로젝트 중 일부분을 뽑아 미니 프로젝트를 한 적이 있는데 아마 무슨 느낌인지 짐작할 수 있을 것 같다.
 
-[
-
-바닐라 JS로 달력 만들기
-
-Vanilla JS Date와 CSS Display Grid를 사용해 달력을 그려보자
-
-![우아한테크캠프 3기 후기](images/favicon.png)Sunghyun ChoSunghyun Cho
-
-](https://blog.chosunghyun.com/kr-vanilla-js-calendar/)
+[바닐라 JS로 달력 만들기](https://blog.chosunghyun.com/kr-vanilla-js-calendar/)
 
 ### 🛷 더닝 크루거 썰매장
 
@@ -269,29 +260,7 @@ JS 아는거 없 다 구 요. 전 그냥 말 하 는 감 자 라구요. 아시�
 
 프론트엔드 개발자의 디자인 정신, 이 부분에 있어서는 같이 캠프생이었던 [jhaemin](https://github.com/jhaemin)님께 정말 많은 영향을 받았다. 자신만의 확고한 디자인 체계로 사용성 좋은 웹앱을 뚝딱 만드시는 것을 보며 많이 배우게 되었다. 내가 정말 충격을 받았던 사이트 2개를 직접 본다면 무슨 말인지 알게 될 것이다.
 
-[
-
-woowa-techcamp-2020/market-6
-
-A monorepo for sign up and sign in of https://ceo.baemin.com implemented with TypeScript on both server side(Node.js) and client side(vanilla). It is packed with all the features required by the gu...
-
-![우아한테크캠프 3기 후기](images/favicon.svg)GitHubwoowa-techcamp-2020
-
-![우아한테크캠프 3기 후기](images/market-6)
-
-](https://github.com/woowa-techcamp-2020/market-6)
-
-[
-
-woowa-techcamp-2020/todo-14
-
-A kanban-style To Do web application which provides an extremely smooth, performant Drag and Drop along with an elaborately refined design including a trending Dark Mode, based on the event-driven ...
-
-![우아한테크캠프 3기 후기](images/favicon.svg)GitHubwoowa-techcamp-2020
-
-![우아한테크캠프 3기 후기](images/todo-14)
-
-](https://github.com/woowa-techcamp-2020/todo-14)
+- [woowa-techcamp-2020/market-6](https://github.com/woowa-techcamp-2020/market-6) -[woowa-techcamp-2020/todo-14](https://github.com/woowa-techcamp-2020/todo-14)
 
 영향을 많이 받아 나도 3번째 뱅크샐러드 프로젝트부터 디자인을 개선해보았다. 이렇게 디자인을 온전히 수정했다 ↓
 

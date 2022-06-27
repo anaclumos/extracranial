@@ -1,7 +1,6 @@
 ---
 title: "Apple's Easter Egg"
 date: 2020-01-20
-excerpt: "Let's decode Apple's 2019 easter egg."
 slug: '/4512BD'
 ---
 

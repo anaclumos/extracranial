@@ -1,7 +1,6 @@
 ---
 title: '배달의민족 프론트엔드 개발자가 일하는 방법 part 1 발표'
 date: 2020-07-20
-draft: true
 slug: '/02B616'
 ---
 
@@ -80,14 +79,4 @@ slug: '/02B616'
 
 # ↓ Part 2
 
-[
-
-배달의민족 프론트엔드 개발자가 일하는 방법 (Part 2: Q&A)
-
-2020년 7월 20일 우아한형제들 김민태 개발자님께서 발표해주신 내용 전부를 그대로 받아 적어 정리하였다.
-
-![배달의민족 프론트엔드 개발자가 일하는 방법 (Part 1: 발표)](images/favicon.ico)Sunghyun ChoSunghyun Cho
-
-![배달의민족 프론트엔드 개발자가 일하는 방법 (Part 1: 발표)](images/min-baemin.002.png)
-
-](https://blog.chosunghyun.com/kr-how-woowabros-front-devs-work-part-2/)
+- [배달의민족 프론트엔드 개발자가 일하는 방법 (Part 2: Q&A)](https://blog.chosunghyun.com/kr-how-woowabros-front-devs-work-part-2/)

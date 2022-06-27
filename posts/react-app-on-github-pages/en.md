@@ -1,7 +1,6 @@
 ---
 title: 'React App on GitHub Pages'
 date: 2020-10-05
-excerpt: 'Proof of Concept: You can automatically post a React App on GitHub Pages.'
 slug: '/01460C'
 ---
 

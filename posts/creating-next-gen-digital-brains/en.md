@@ -1,7 +1,6 @@
 ---
 title: 'Creating Next-gen Digital Brains'
 date: 2022-05-14
-excerpt: 'So if I make a new incarnation of ⚡️🧠, what would I do?'
 slug: '/D8FB8E'
 ---
 
