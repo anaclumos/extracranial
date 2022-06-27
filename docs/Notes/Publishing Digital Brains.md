@@ -1,5 +1,5 @@
 ---
-title: 'Publishing Digital Brains on WWW'
+title: 'Publishing Digital Brains'
 slug: '/93AA11'
 ---
 
