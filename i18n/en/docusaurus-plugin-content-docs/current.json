@@ -7,17 +7,9 @@
     "message": "Journals",
     "description": "The label for category Journals in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Journals.link.generated-index.description": {
-    "message": "",
-    "description": "The generated-index page description for category Journals in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Notes": {
     "message": "Notes",
     "description": "The label for category Notes in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Notes.link.generated-index.description": {
-    "message": "",
-    "description": "The generated-index page description for category Notes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.templates": {
     "message": "templates",
