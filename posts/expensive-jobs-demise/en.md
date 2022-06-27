@@ -18,20 +18,15 @@ Usually, an expensive labor value takes place when the demand for the work is ve
 However, the supply always stagnates. Why?
 
 - Supply velocity remains slow. Because:
-
-- Skillful doctors and lawyers need extended training.
-- These "prestigious" institutions can only output dozens of jobs per year.
-
+  - Skillful doctors and lawyers need extended training.
+  - These "prestigious" institutions can only output dozens of jobs per year.
 - But we cannot pump out more supply. Why?
-
-- We lack secondary sources for such collection (i.e., people who can study for ten years are not abundant).
-- A forceful increase will entail societal backlash (i.e., unprofessional workers)
-
+  - We lack secondary sources for such collection (i.e., people who can study for ten years are not abundant).
+  - A forceful increase will entail societal backlash (i.e., unprofessional workers)
 - Such scarcely created suppliers work very slow
-- How many patients can a doctor see in a day?
-
-- There are complaints about Factory-style medical facilities, like conveyor belts.
-- How long does it take for a single lawsuit to resolve?
+  - How many patients can a doctor see in a day?
+    - There are complaints about Factory-style medical facilities, like conveyor belts.
+  - How long does it take for a single lawsuit to resolve?
 
 In the end, supply always falls behind demand.
 
