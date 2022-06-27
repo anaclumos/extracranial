@@ -1,6 +1,6 @@
 ---
-title: "HackerNews"
-slug: "/FA003B"
+title: 'HackerNews'
+slug: '/FA003B'
 ---
 
-- https://news.ycombinator.com/
+- [Hacker News](https://news.ycombinator.com/)
