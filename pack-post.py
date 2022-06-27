@@ -44,14 +44,15 @@ def process_language(dir, to_index, to_delete):
         file_path = os.path.join(dir, file)
         if os.path.isfile(file_path):
             file_location = os.path.join(dir, file)
+            file_location_last_two = "/".join(file_location.split("/")[-2:])
             if file.startswith(to_index) and (file.endswith(".md") or file.endswith(".mdx")):
                 os.rename(file_location, file_location.replace(
                     to_index + ".md", "index.md").replace(to_index + ".mdx", "index.mdx"))
-                print("Renamed " + file_location + " to " + file_location.replace(
+                print("Renamed " + file_location_last_two + " to " + file_location_last_two.replace(
                     to_index + ".md", "index.md").replace(to_index + ".mdx", "index.mdx"))
             elif file.startswith(to_delete) and (file.endswith(".md") or file.endswith(".mdx")):
                 os.remove(file_location)
-                print("Deleted " + file_location)
+                print("Deleted " + file_location_last_two)
         elif os.path.isdir(file_path):
             process_language(file_path, to_index, to_delete)
 
