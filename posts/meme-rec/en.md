@@ -4,6 +4,6 @@ date: 2021-02-16
 slug: '/7BF6C2'
 ---
 
-:::tip Work In Progress
+:::info Work In Progress
 This document is a work in progress. Come back later, or try other languages.
 :::

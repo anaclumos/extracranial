@@ -4,7 +4,7 @@ date: 2020-11-14
 slug: '/F522B3'
 ---
 
-:::tip Work In Progress
+:::info Work In Progress
 This document is a work in progress. Come back later, or try other languages.
 :::
 
