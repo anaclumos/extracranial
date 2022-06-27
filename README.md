@@ -11,9 +11,9 @@
 - [x] Migrate blog posts
   - [ ] Translate Korean to English (you can find them with mark `draft: true` in /blog)
   - [ ] Translate English to Korean (look for any post in english in /i18n)
-- [ ] Migrate docs posts
-- [ ] Migrate from Logseq to Obsidian
-- [ ] Make the globe spin
+- [x] Migrate docs posts
+- [x] Migrate from Logseq to Obsidian
+- [x] Make the globe spin
 - [ ] Add search system
 - [ ] Add `evergreen` option for YAML
 - [ ] Add og:image for main
