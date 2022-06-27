@@ -4,6 +4,6 @@ date: 2020-10-17
 slug: '/383A01'
 ---
 
-:::tip Work In Progress
+:::info Work In Progress
 This document is a work in progress. Come back later, or try other languages.
 :::

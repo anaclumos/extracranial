@@ -4,6 +4,6 @@ date: 2022-04-18
 slug: '/ACC7AB'
 ---
 
-:::tip Work In Progress
+:::info Work In Progress
 This document is a work in progress. Come back later, or try other languages.
 :::
