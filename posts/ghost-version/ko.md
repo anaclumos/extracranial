@@ -4,4 +4,6 @@ date: 2020-07-11
 slug: '/2A4AA1'
 ---
 
-WIP
+:::tip Work In Progress
+This document is a work in progress. Come back later, or try other languages.
+:::

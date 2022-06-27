@@ -4,4 +4,6 @@ date: 2020-04-21
 slug: '/21E029'
 ---
 
-WIP
+:::tip Work In Progress
+This document is a work in progress. Come back later, or try other languages.
+:::
