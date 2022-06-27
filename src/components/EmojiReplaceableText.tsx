@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './EmojiReplaceableText.module.css'
-import { useTimeout } from '../util/useTimeout'
 
 type Props = {
   text: string
