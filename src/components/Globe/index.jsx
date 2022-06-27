@@ -37,7 +37,7 @@ export const Globe = () => {
       mapSamples: 24000,
       mapBrightness: 6,
       baseColor: [0.3, 0.3, 0.3],
-      markerColor: [73 / 256, 118 / 256, 202 / 256],
+      markerColor: [121 / 256, 181 / 256, 242 / 256],
       glowColor: [0.5, 0.5, 0.5],
       markers: [seoul, losangeles],
       onRender: (state) => {
