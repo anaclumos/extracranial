@@ -9,11 +9,14 @@ const t = {
   plural: <Translate id='blog.archive.posts' />,
 }
 
+const yearSuffix = <Translate id='blog.archive.yearsuffix' />
+
 function Year({ year, posts }) {
   return (
     <>
       <h3>
-        {year} — {posts.length}
+        {year}
+        {yearSuffix} — {posts.length}
         {posts.length > 1 ? t.plural : t.singular}
       </h3>
       <ul>
