@@ -1,7 +1,6 @@
 ---
 title: 'MinsaPay: A School Festival Payment System'
 date: 2019-10-10
-excerpt: 'This is a story of how my team built a payment system, MinsaPay, for our school festival.'
 slug: '/3955DC'
 ---
 

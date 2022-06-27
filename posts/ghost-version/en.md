@@ -1,7 +1,6 @@
 ---
 title: "Finding out Ghost's version with JS"
 date: 2020-07-11
-excerpt: 'Using meta tags, you can extract the version string of a ghost blog and play with it.'
 slug: '/2A4AA1'
 ---
 

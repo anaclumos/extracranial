@@ -1,7 +1,6 @@
 ---
 title: 'Snowpack으로 WASM 시작하기'
 date: 2020-11-27
-draft: true
 slug: '/E0C34F'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'Setting different fonts by language in CSS'
 date: 2019-11-08
-excerpt: 'Sometimes, we need to set different fonts for different languages. This article provides a simple method to set the Unicode range for other languages.'
 slug: '/37A187'
 ---
 

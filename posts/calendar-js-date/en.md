@@ -1,10 +1,10 @@
 ---
 title: 'Creating Calendar with JavaScript Date Object'
-date: 1970-01-06
-draft: true
-excerpt: "Let's create a Calendar with JavaScript Date Object that supports navigating months and highlighting certain days."
+date: 2020-11-14
 slug: '/F522B3'
 ---
+
+WIP
 
 Let's create a calendar with JavaScript but without any external library. This project is based on my previous internship at [Woowa Bros, a unicorn food-delivery startup in Seoul](https://www.bloomberg.com/profile/company/0962533D:KS).
 

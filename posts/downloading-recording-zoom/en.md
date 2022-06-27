@@ -1,7 +1,6 @@
 ---
 title: 'Downloading Any Recordings from Zoom'
 date: 2022-04-06
-excerpt: 'Walkthrough of how to download any video on Zoom and what Zoom HQ told me after reporting this security bypass.'
 slug: '/90675E'
 ---
 

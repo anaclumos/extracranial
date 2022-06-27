@@ -1,7 +1,6 @@
 ---
 title: 'Downloading hundreds of icons using The Noun Project API'
 date: 2020-10-30
-excerpt: "Don't download them one by one!"
 slug: '/589DF4'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'Displaying the exact published date and time on Ghost'
 date: 2020-04-26
-excerpt: 'Walkthrough of showing the exact timing of your post with Moment.js syntax.'
 slug: '/522AED'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'Watch your favorite music video right from your terminal'
 date: 2021-07-05
-draft: true
 slug: '/AF848F'
 ---
 
@@ -95,17 +94,7 @@ slug: '/AF848F'
 
 간단한 [유틸 코드](https://github.com/anaclumos/tools-image-to-braille)를 작성해보았다. 이 코드의 경우 위의 로직을 이용해서 이미지를 리사이징한 뒤 점자로 변환하고 색을 입혀 `terminal`에 점자 배열을 `print`한다. `Terminal`에 `print`되는 글자의 색은 `\033[38;2;{};{};{}m{}\033[38;2;255;255;255m".format(r, g, b chr(output))` 의 형태로 입힐 수 있는데, 더 궁금한 경우 [ANSI Color Escape Code](https://en.wikipedia.org/wiki/ANSI_escape_code)를 알아보면 된다. 직접 실행해보고 싶다면 다음 저장소의 파일을 실행해 보자:
 
-[
-
-anaclumos/tools-image-to-braille
-
-Convert image to brailles. For internal use only. Use it at your own risk. - anaclumos/tools-image-to-braille
-
-![점자만으로 동영상 만들기](images/favicon.svg)GitHubanaclumos
-
-![점자만으로 동영상 만들기](images/tools-image-to-braille)
-
-](https://github.com/anaclumos/tools-image-to-braille)
+[anaclumos/tools-image-to-braille](https://github.com/anaclumos/tools-image-to-braille)
 
 **주의!** 이 코드의 경우 1600만 색상의 ANSI True Color라는 색상 프로필을 사용하는데, macOS에 내장된 terminal.app에서는 True Color 1600만 색상을 지원하지 않고 256개의 색상만 지원한다. 때문에 True Color을 지원하는 iTerm이나 VS Code 내장 터미널을 사용해서 실행하자.
 

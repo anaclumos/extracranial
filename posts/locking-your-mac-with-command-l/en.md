@@ -1,7 +1,6 @@
 ---
 title: 'Locking your Mac with Command+L'
 date: 2019-11-09
-excerpt: 'Walkthrough of using Command+L to lock your Mac.'
 slug: '/6AA962'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'Finding the size of the directory in Python'
 date: 2020-04-18
-excerpt: 'Get Directory Size in Python in Human Readable Format.'
 slug: '/615491'
 ---
 

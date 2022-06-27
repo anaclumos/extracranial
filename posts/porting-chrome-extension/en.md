@@ -1,7 +1,6 @@
 ---
 title: 'Porting a Chrome Extension to Firefox Add-on'
 date: 2020-04-08
-excerpt: 'While Chrome and Firefox are two different browsers, it is possible to transplant a Chrome extension to a Firefox Add-on.'
 slug: '/440E43'
 ---
 

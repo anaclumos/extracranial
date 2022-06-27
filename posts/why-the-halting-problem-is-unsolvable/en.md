@@ -1,7 +1,6 @@
 ---
 title: 'Why the halting problem is unsolvable'
 date: 2022-05-11
-excerpt: 'Use proof-by-contradiction to draw that no such algorithm can exist.'
 slug: 'FFD937'
 ---
 

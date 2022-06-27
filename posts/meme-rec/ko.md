@@ -1,7 +1,6 @@
 ---
 title: '취향저격 meme 추천 시스템 개발기'
 date: 2021-02-16
-draft: true
 slug: '/7BF6C2'
 ---
 
