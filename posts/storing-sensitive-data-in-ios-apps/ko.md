@@ -4,4 +4,6 @@ date: 2022-04-26
 slug: '/30CC03'
 ---
 
-WIP
+:::tip Work In Progress
+This document is a work in progress. Come back later, or try other languages.
+:::
