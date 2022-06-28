@@ -17,10 +17,6 @@ slug: '/90675E'
 
 ```js
 // This code is under MIT License.
-// Simple explanation: the author of this code, Sunghyun Cho, is not responsible
-// of any legal troubles that may follow upon using this code; you use it at
-// your own risk. However, please note that this statement is for simple
-// understanding. Legal effect is limited to the original MIT License text.
 
 let video = document.querySelector('video').src
 let download = document.createElement('a')
