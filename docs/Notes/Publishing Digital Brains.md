@@ -49,17 +49,14 @@ For this system, I worked on implementing the [PARA](PARA.md) system with [Docus
 
 - [Victor Dibia](https://victordibia.com/)
 - [Tania Rascia](https://www.taniarascia.com/)
+- [Edy Kim](https://edykim.com/)
 - [GitHub - maximevaillancourt/digital-garden-jekyll-template: Start your own digital garden using this Jekyll template 🌱](https://github.com/maximevaillancourt/digital-garden-jekyll-template)
 - [Deokhaeng Lee's Digital Brain](https://www.notion.so/Deokhaeng-Lee-s-Digital-Brain-128b8f5e65684c77838889a8df3ad8ec)
 - [younho9 Blog](https://www.notion.so/younho9-Blog-9ed630c8603541bab20662b4854a891f)
 
-## Fast Websites
+## Fast Websites (SPA based)
 
 - [Telmo Goncalves](https://telmo.is/)
-- [Edy Kim](https://edykim.com/)
 - [Lee Robinson – Developer, writer, creator.](https://leerob.io/)
 - [Timo Lins – Code · Design · Film](https://timo.sh/)
 
-## Good Designs
-
-- [새로운 HR의 시작, flex](https://flex.team/)
