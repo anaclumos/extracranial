@@ -59,16 +59,16 @@ Python의 Feedparser라는 모듈을 통해 RSS 피드를 복사한다.
 ```python
 # -*- coding: utf-8 -*-
 import feedparser
-
 class RSSReader:
 origin = ""
 feed = ""
 
-    def __init__(self, URL):
+
+def __init__(self, URL):
     self.origin = URL
     self.feed = feedparser.parse(URL)
 
-    def parse(self):
+def parse(self):
     return self.feed.entries
 ```
 
@@ -129,7 +129,7 @@ RSSReader는 RSS 피드를 불러와 `entries` 항목을 넘기는데 사용된�
 'Expect-CT': 'max-age=604800, '
 'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 'Server': 'cloudflare',
-'Set-Cookie': '\_\_cfduid=??????; '
+'Set-Cookie': '__cfduid=??????; '
 'expires=Wed, 20-May-20 12:21:18 GMT; path=/; '
 'domain=.chosunghyun.com; HttpOnly; SameSite=Lax; '
 'Secure',
@@ -158,99 +158,99 @@ RSSReader는 RSS 피드를 불러와 `entries` 항목을 넘기는데 사용된�
 
 ```json
 {'author': 'S Cho',
-    'author_detail': {'name': 'S Cho'},
-    'authors': [{'name': 'S Cho'}],
-    'content': [{'base': 'https://blog.chosunghyun.com/rss/',
-    'language': None,
-    'type': 'text/html',
-    'value': '<figure class="kg-card '
-    'kg-embed-card"><iframe width="480" '
-    'height="270" '
-    'src="https://www.youtube.com/embed/ZA3MV2V--TU?feature=oembed" '
-    'frameborder="0" allow="accelerometer; '
-    'autoplay; encrypted-media; gyroscope; '
-    'picture-in-picture" '
-    'allowfullscreen></iframe></figure><p>I '
-    'recently found this:</p><figure '
-    'class="kg-card kg-image-card"><img '
-    'src="https://blog.chosunghyun.com/content/images/2020/01/min-Apple-Ad-Easter-Egg-White.png" '
-    'class="kg-image"></figure><pre><code '
-    'class="language-YAML">Error 09102019\n'
-    '\n'
-    'This is just a thought. But it might be '
-    'nice to have some sort\n'
-    'of easter egg message in here for the '
-    'hard core Apple fans that\n'
-    'will stop the video.\n'
-    '\n'
-    '01010011 01101111 00100000 01111001 '
-    '01101111 01110101\n'
-    '00100000 01110100 01101111 01101111 '
-    '01101011 00100000\n'
-    '01110100 01101000 01100101 00100000 '
-    '01110100 01101001\n'
-    '01101101 01100101 00100000 01110100 '
-    '01101111 00100000\n'
-    '01110100 01110010 01100001 01101110 '
-    '01110011 01101100\n'
-    '01100001 01110100 01100101 00100000 '
-    '01110100 01101000\n'
-    '01101001 01110011 00111111 00100000\n'
-    '\n'
-    '01010111 01100101 00100000 01101100 '
-    '01101111 01110110\n'
-    '01100101 00100000 01111001 01101111 '
-    '01110101 00101110</code></pre><p>So I '
-    'made a short script.</p><pre><code '
-    'class="language-Python">egg = \'\'\'\n'
-    '01010011 01101111 00100000 01111001 '
-    '01101111 01110101\n'
-    '00100000 01110100 01101111 01101111 '
-    '01101011 00100000\n'
-    '01110100 01101000 01100101 00100000 '
-    '01110100 01101001\n'
-    '01101101 01100101 00100000 01110100 '
-    '01101111 00100000\n'
-    '01110100 01110010 01100001 01101110 '
-    '01110011 01101100\n'
-    '01100001 01110100 01100101 00100000 '
-    '01110100 01101000\n'
-    '01101001 01110011 00111111 00100000\n'
-    '\n'
-    '01010111 01100101 00100000 01101100 '
-    '01101111 01110110\n'
-    '01100101 00100000 01111001 01101111 '
-    '01110101 00101110\n'
-    "'''.split()\n"
-    '\n'
-    'for e in egg:\n'
-    '    print(chr(int(e,2)), end="")\n'
-    'print()</code></pre><p>It '
-    'said...</p><blockquote>So you took the '
-    'time to translate this?<br>We love '
-    'you.</blockquote>'}],
-    'guidislink': False,
-    'id': '5e248cd5c54b0440a0c1b004',
-    'link': 'https://blog.chosunghyun.com/apples-easter-egg/',
-    'links': [{'href': 'https://blog.chosunghyun.com/apples-easter-egg/',
-    'rel': 'alternate',
-    'type': 'text/html'}],
-    'published': 'Sun, 19 Jan 2020 17:00:00 GMT',
-    'published_parsed': time.struct_time(tm_year=2020, tm_mon=1, tm_mday=19, tm_hour=17, tm_min=0, tm_sec=0, tm_wday=6, tm_yday=19, tm_isdst=0),
-    'summary': "Let's decode Apple's 2019 easter egg.",
-    'summary_detail': {'base': 'https://blog.chosunghyun.com/rss/',
-    'language': None,
-    'type': 'text/html',
-    'value': "Let's decode Apple's 2019 easter "
-    'egg.'},
-    'tags': [{'label': None, 'scheme': None, 'term': 'English'},
-    {'label': None, 'scheme': None, 'term': 'Code'},
-    {'label': None, 'scheme': None, 'term': 'Apple'}],
-    'title': "Apple's Easter Egg",
-    'title_detail': {'base': 'https://blog.chosunghyun.com/rss/',
-    'language': None,
-    'type': 'text/plain',
-    'value': "Apple's Easter Egg"}},
+              'author_detail': {'name': 'S Cho'},
+              'authors': [{'name': 'S Cho'}],
+              'content': [{'base': 'https://blog.chosunghyun.com/rss/',
+                           'language': None,
+                           'type': 'text/html',
+                           'value': '<figure class="kg-card '
+                                    'kg-embed-card"><iframe width="480" '
+                                    'height="270" '
+                                    'src="https://www.youtube.com/embed/ZA3MV2V--TU?feature=oembed" '
+                                    'frameborder="0" allow="accelerometer; '
+                                    'autoplay; encrypted-media; gyroscope; '
+                                    'picture-in-picture" '
+                                    'allowfullscreen></iframe></figure><p>I '
+                                    'recently found this:</p><figure '
+                                    'class="kg-card kg-image-card"><img '
+                                    'src="https://blog.chosunghyun.com/content/images/2020/01/min-Apple-Ad-Easter-Egg-White.png" '
+                                    'class="kg-image"></figure><pre><code '
+                                    'class="language-YAML">Error 09102019\n'
+                                    '\n'
+                                    'This is just a thought. But it might be '
+                                    'nice to have some sort\n'
+                                    'of easter egg message in here for the '
+                                    'hard core Apple fans that\n'
+                                    'will stop the video.\n'
+                                    '\n'
+                                    '01010011 01101111 00100000 01111001 '
+                                    '01101111 01110101\n'
+                                    '00100000 01110100 01101111 01101111 '
+                                    '01101011 00100000\n'
+                                    '01110100 01101000 01100101 00100000 '
+                                    '01110100 01101001\n'
+                                    '01101101 01100101 00100000 01110100 '
+                                    '01101111 00100000\n'
+                                    '01110100 01110010 01100001 01101110 '
+                                    '01110011 01101100\n'
+                                    '01100001 01110100 01100101 00100000 '
+                                    '01110100 01101000\n'
+                                    '01101001 01110011 00111111 00100000\n'
+                                    '\n'
+                                    '01010111 01100101 00100000 01101100 '
+                                    '01101111 01110110\n'
+                                    '01100101 00100000 01111001 01101111 '
+                                    '01110101 00101110</code></pre><p>So I '
+                                    'made a short script.</p><pre><code '
+                                    'class="language-Python">egg = \'\'\'\n'
+                                    '01010011 01101111 00100000 01111001 '
+                                    '01101111 01110101\n'
+                                    '00100000 01110100 01101111 01101111 '
+                                    '01101011 00100000\n'
+                                    '01110100 01101000 01100101 00100000 '
+                                    '01110100 01101001\n'
+                                    '01101101 01100101 00100000 01110100 '
+                                    '01101111 00100000\n'
+                                    '01110100 01110010 01100001 01101110 '
+                                    '01110011 01101100\n'
+                                    '01100001 01110100 01100101 00100000 '
+                                    '01110100 01101000\n'
+                                    '01101001 01110011 00111111 00100000\n'
+                                    '\n'
+                                    '01010111 01100101 00100000 01101100 '
+                                    '01101111 01110110\n'
+                                    '01100101 00100000 01111001 01101111 '
+                                    '01110101 00101110\n'
+                                    "'''.split()\n"
+                                    '\n'
+                                    'for e in egg:\n'
+                                    '    print(chr(int(e,2)), end="")\n'
+                                    'print()</code></pre><p>It '
+                                    'said...</p><blockquote>So you took the '
+                                    'time to translate this?<br>We love '
+                                    'you.</blockquote>'}],
+              'guidislink': False,
+              'id': '5e248cd5c54b0440a0c1b004',
+              'link': 'https://blog.chosunghyun.com/apples-easter-egg/',
+              'links': [{'href': 'https://blog.chosunghyun.com/apples-easter-egg/',
+                         'rel': 'alternate',
+                         'type': 'text/html'}],
+              'published': 'Sun, 19 Jan 2020 17:00:00 GMT',
+              'published_parsed': time.struct_time(tm_year=2020, tm_mon=1, tm_mday=19, tm_hour=17, tm_min=0, tm_sec=0, tm_wday=6, tm_yday=19, tm_isdst=0),
+              'summary': "Let's decode Apple's 2019 easter egg.",
+              'summary_detail': {'base': 'https://blog.chosunghyun.com/rss/',
+                                 'language': None,
+                                 'type': 'text/html',
+                                 'value': "Let's decode Apple's 2019 easter "
+                                          'egg.'},
+              'tags': [{'label': None, 'scheme': None, 'term': 'English'},
+                       {'label': None, 'scheme': None, 'term': 'Code'},
+                       {'label': None, 'scheme': None, 'term': 'Apple'}],
+              'title': "Apple's Easter Egg",
+              'title_detail': {'base': 'https://blog.chosunghyun.com/rss/',
+                               'language': None,
+                               'type': 'text/plain',
+                               'value': "Apple's Easter Egg"}},
 ```
 
 ### 2\. RSS 데이터로 Markdown 파일 만들기
@@ -351,32 +351,31 @@ def render(self):
 
 Tags를 `self.getValueListOfDictList(self.rawData.tags, "term")` 같은 코드를 통해서 넣는 이유는 Ghost에서 다음과 같은 형식으로 태그가 지정되어 있기 때문이다. 이는 Gatsby나 Wordpress 등도 마찬가지이다.
 
-```
+```json
 'tags': [{'label': None, 'scheme': None, 'term': 'English'},
-    {'label': None, 'scheme': None, 'term': 'Code'},
-    {'label': None, 'scheme': None, 'term': 'Apple'}],
+     {'label': None, 'scheme': None, 'term': 'Code'},
+     {'label': None, 'scheme': None, 'term': 'Apple'}],
 ```
 
-```
+```python
 def getValueListOfDictList(self, dicList, targetkey):
     arr = []
     for dic in dicList:
-    for key, value in dic.items():
-    if key == targetkey:
-    arr.append(value)
+        for key, value in dic.items():
+            if key == targetkey:
+                arr.append(value)
     return arr
 ```
 
 이와 같은 방식으로 `tags`에서 `term` 항목만 꺼내 Front Matter에 추가한다. 그렇게 되면 실행했을 때 다음과 같은 Jekyll Style Front Matter가 완성된다.
 
-```
+```yaml
 ---
-
 layout: post
 title: Apple's Easter Egg
 tags: ['English', 'Code', 'Apple']
 url: https://blog.chosunghyun.com/apples-easter-egg/
-authors: [{'name': 'S Cho'}]
+authors: [{ 'name': 'S Cho' }]
 published: Sun, 19 Jan 2020 17:00:00 GMT
 id: /_ Some Post ID _/
 ---
@@ -390,25 +389,21 @@ Front Matter는 GitHub에서 이렇게 렌더링되어 보인다.
 
 RSS 데이터의 Summary 항목과 Content 항목을 `renderedData`에 추가한다.
 
-```
-self.renderedData += (
-"\n\n# " + postTitle + "\n\n## Summary\n\n"
-)
+```python
+self.renderedData += "\n\n# " + postTitle + "\n\n## Summary\n\n"
 
 try:
-self.renderedData += self.rawData.summary
+    self.renderedData += self.rawData.summary
 except AttributeError:
-self.renderedData += "RSS summary does not exist."
+    self.renderedData += "RSS summary does not exist."
 
 self.renderedData += "\n\n## Content\n\n"
 
 try:
-for el in self.getValueListOfDictList(
-self.rawData.content, "value"
-):
-self.renderedData += "\n" + str(el)
+    for el in self.getValueListOfDictList(self.rawData.content, "value"):
+        self.renderedData += "\n" + str(el)
 except AttributeError:
-self.renderedData += "RSS content does not exist."
+    self.renderedData += "RSS content does not exist."
 ```
 
 한 가지 신기했던 점은 Ghost와 Wordpress 기반 블로그들은 RSS의 Summary와 Content를 모두 지원하는 반면 Jekyll-based GitHub Pages나 Tistory는 RSS Summary에 모든 글의 내용을 집어넣는다는 점이다. (...) Ghost는 기본적으로 글의 Excerpt를 설정할 수 있는 기능을 제공하는데, 이 Excerpt 값이 RSS Summary로 사용된다.
@@ -422,23 +417,29 @@ self.renderedData += "RSS content does not exist."
 ```
 soup = bs(self.renderedData, features="html.parser")
 for img in soup.findAll("img"):
-for imgsrc in ["src", "data-src"]:
-try:
-remoteFile = img[imgsrc]
-break
-except KeyError:
-continue
-if self.isDomain(remoteFile) != True:
-print("remoteFile", remoteFile, "is not a domain.")
-remoteFile = self.blogDomain + "/" + remoteFile
-print("Fixing it to", remoteFile)
-print(
-'Trying to download "' + remoteFile + '" and save it at "' + self.directory + '/images"'
-)
-self.download(remoteFile, self.directory + "/images")
-img["src"] = "images/" + remoteFile.split("/")[-1]
-img["srcset"] = ""
-print(img["src"])
+
+    for imgsrc in ["src", "data-src"]:
+        try:
+            remoteFile = img[imgsrc]
+            break
+        except KeyError:
+            continue
+
+    if self.isDomain(remoteFile) != True:
+        print("remoteFile", remoteFile, "is not a domain.")
+        remoteFile = self.blogDomain + "/" + remoteFile
+        print("Fixing it to", remoteFile)
+    print(
+        'Trying to download "'
+        + remoteFile
+        + '" and save it at "'
+        + self.directory
+        + '/images"'
+    )
+    self.download(remoteFile, self.directory + "/images")
+    img["src"] = "images/" + remoteFile.split("/")[-1]
+    img["srcset"] = ""
+    print(img["src"])
 self.renderedData = str(soup)
 return self.renderedData
 ```
@@ -451,41 +452,39 @@ return self.renderedData
 4.  기존의 `img src`를 `images` 폴더의 상대 경로로 변경한다.
 5.  `srcset` attribute를 가지고 있다면 이를 제거한다 (Gatsby 대응)
 
-```
+```python
 def download(self, url, pathname):
-if not os.path.isdir(pathname):
-os.makedirs(pathname)
-response = requests.get(url, stream=True)
-file_size = int(response.headers.get("Content-Length", 0))
-filename = os.path.join(pathname, url.split("/")[-1])
-if filename.find("?") > 0:
-filename = filename.split("?")[0]
-progress = tqdm(
-response.iter_content(256),
-f"Downloading {filename}",
-total=file_size,
-unit="B",
-unit_scale=True,
-unit_divisor=1024,
-)
-with open(filename, "wb") as f:
-for data in progress:
-f.write(data)
-progress.update(len(data))
+    if not os.path.isdir(pathname):
+        os.makedirs(pathname)
+    response = requests.get(url, stream=True)
+    file_size = int(response.headers.get("Content-Length", 0))
+    filename = os.path.join(pathname, url.split("/")[-1])
+    if filename.find("?") > 0:
+        filename = filename.split("?")[0]
+    progress = tqdm(
+        response.iter_content(256),
+        f"Downloading {filename}",
+        total=file_size,
+        unit="B",
+        unit_scale=True,
+        unit_divisor=1024,
+    )
+    with open(filename, "wb") as f:
+        for data in progress:
+            f.write(data)
+            progress.update(len(data))
 ```
 
 한 가지 문제점은 이미지의 주소들이 일관적이지 않다는 것이다. 어느 사이트는 `<img src = "https://example.png/images/example.png">`와 같이 전체 도메인을 적는 반면 어느 사이트는 `<img src = "/images/example.png">` 같이 서브디렉토리부터 적는다. 어느 곳은 `<img src = "example.png">`인 곳도 있었다. 최대한 많은 경우에 대응하기 위해 도메인을 감지하는 함수 `isDomain()`을 만들었다. 다른 라이브러리는 `.png`와 같은 파일 확장자를 `.com`과 같은 Top Level Domain으로 인식했기에 몇 가지 예외 처리를 추가했다.
 
-```
+```python
 def isDomain(self, string):
-if string.startswith("https://") or string.startswith(
-"http://"
-):
-return True
-elif string.startswith("/"):
-return False
-else:
-return validators.domain(string.split("/")[0])
+    if string.startswith("https://") or string.startswith("http://"):
+        return True
+    elif string.startswith("/"):
+        return False
+    else:
+        return validators.domain(string.split("/")[0])
 ```
 
 만약 `<img src = "/images/example.png">`와 같이 직접 접근 가능한 도메인이 아닌 경우 앞에 도메인 이름을 붙이도록 지정했다. 이 때 아까 지정해둔 `self.blogDomain`이 사용된다.
