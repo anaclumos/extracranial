@@ -7,16 +7,16 @@
     "message": "일지",
     "description": "The label for category Journals in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Journals.link.generated-index.description": {
-    "message": "",
-    "description": "The generated-index page description for category Journals in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Pages": {
-    "message": "페이지",
-    "description": "The label for category Pages in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Pages.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.Notes": {
     "message": "노트",
-    "description": "The generated-index page description for category Pages in sidebar tutorialSidebar"
+    "description": "The label for category Notes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Readings": {
+    "message": "독서록",
+    "description": "The label for category Readings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Templates": {
+    "message": "템플릿",
+    "description": "The label for category Templates in sidebar tutorialSidebar"
   }
 }
