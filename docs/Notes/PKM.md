@@ -1,7 +1,7 @@
 ---
-title: 'PKM'
+title: 'Personal Knowledge Management'
 slug: '/E9DD55'
-aliases: ["Personal Knowledge Management"]
+aliases: ["PKM"]
 ---
 
 WIP
