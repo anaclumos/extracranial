@@ -1,5 +1,5 @@
 ---
-title: 'Watch your favorite music video right from your terminal'
+title: '점자로 보는 뮤직 비디오'
 date: 2021-07-05
 slug: '/AF848F'
 ---
