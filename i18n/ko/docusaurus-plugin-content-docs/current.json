@@ -12,7 +12,7 @@
     "description": "The label for category Notes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Readings": {
-    "message": "독서록",
+    "message": "독서",
     "description": "The label for category Readings in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Templates": {
