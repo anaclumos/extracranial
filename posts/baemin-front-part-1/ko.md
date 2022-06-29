@@ -76,7 +76,3 @@ slug: '/02B616'
 ### Application vs Document
 
 둘의 가장 큰 차이점은 변화의 상태이다. 상태를 관리해야 하면 애플리케이션. 상태가 없으면 단순한 문서.
-
-# ↓ Part 2
-
-- [배달의민족 프론트엔드 개발자가 일하는 방법 (Part 2: Q&A)](https://blog.chosunghyun.com/kr-how-woowabros-front-devs-work-part-2/)

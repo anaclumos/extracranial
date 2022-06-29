@@ -5,7 +5,6 @@ slug: '/4512BD'
 ---
 
 I recently found this:
-![](https://blog.chosunghyun.com/content/images/2020/01/min-Apple-Ad-Easter-Egg-White.png)
 
 ```
 This is just a thought. But it might be nice to have some sort
