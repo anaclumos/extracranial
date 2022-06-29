@@ -8,3 +8,9 @@ draft: true
 ## Today's [Pragmatic Engineer](../Notes/Pragmatic%20Engineer.md)
 
 ## Today's [HackerNews](../Notes/HackerNews.md)
+
+## Work Notes
+
+## Interesting Websites
+
+## Personal Notes
