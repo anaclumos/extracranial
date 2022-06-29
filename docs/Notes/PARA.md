@@ -12,4 +12,4 @@ PARA is a second-brain framework designed by Tiago Forte.
 | Resources | Topics that hold extended interest      | Research, Studies, Hobbies, etc.                 |
 | Archive   | Literally Archiving                     | Past or Expired Projects, Areas, Resources, etc. |
 
-I plan on implementing PARA on this digital brain.
+I plan on implementing PARA on this [digital brain](Digital%20Brain.md).
