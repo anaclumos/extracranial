@@ -14,9 +14,9 @@
 - [x] Migrate docs posts
 - [x] Migrate from Logseq to Obsidian
 - [x] Make the globe spin
+- [x] Add `og:image` for main
 - [ ] Add search system
 - [ ] Add an `evergreen` option for YAML
-- [x] Add `og:image` for main
 
 ## LATER
 
