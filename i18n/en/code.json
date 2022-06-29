@@ -44,7 +44,7 @@
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "These are all posts on cho.sh.",
+    "message": "All posts that I wrote.",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.post.readingTime.plurals": {
