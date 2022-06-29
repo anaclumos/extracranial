@@ -8,11 +8,11 @@
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "HTTP Error 451 — Unavailable For Legal Reasons",
+    "message": "HTTP 451: Unavailable For Legal Reasons",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "Your government prohibits access to this content. So please load up your VPN, enable the onion protocol, and connect to the Tor network. Then open your Web3 wallet, purchase some NFTs and send those to me alongside some bitcoins, then try again.",
+    "message": "Your government ████████ access ██ ████ censored. Please ████ up ████ VPN, ██████ the onion ████████, and ████████ to the Tor ███████. To ██████ censorship, you can ████ send me ████ NFTs. Then try again.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
