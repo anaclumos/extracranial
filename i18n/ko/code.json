@@ -28,7 +28,7 @@
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "cho.sh의 모든 글입니다.",
+    "message": "제가 쓴 모든 글들입니다.",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
