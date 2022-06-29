@@ -18,6 +18,7 @@
   margin: 0 auto;
   word-wrap: break-word;
   word-break: keep-all;
+  user-select: none;
 }
 
 /* image inline, make it circular */
