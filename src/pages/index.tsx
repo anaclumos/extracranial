@@ -17,8 +17,8 @@ const HeroText = () => {
         <meta name='description' content={siteConfig.tagline} />
         <meta property='og:title' content={siteConfig.title} />
         <meta property='og:description' content={siteConfig.tagline} />
-        <meta property='og:image' content='/img/ogimage.png' />
-        <link rel='icon' href='img/favicon.png' />
+        <meta property='og:image' content='https://cho.sh/img/ogimage.png' />
+        <link rel='icon' href='https://cho.sh/img/favicon.png' />
       </Head>
       <header>
         <h1 className={styles.intro}>
