@@ -20,11 +20,14 @@ const sidebarProcessor = (items) => {
 }
 
 const docs = {
+  path: 'docs',
   sidebarPath: require.resolve('./sidebars.js'),
   routeBasePath: '/research',
   breadcrumbs: true,
-  sidebarCollapsed: false,
+  sidebarCollapsed: true,
   sidebarCollapsible: true,
+  showLastUpdateAuthor: true,
+  showLastUpdateTime: true,
   remarkPlugins: [math],
   rehypePlugins: [katex],
   async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
