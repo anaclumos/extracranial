@@ -7,6 +7,8 @@ SOURCE_DIR = "./posts"
 
 # first, remove all files in the target directory
 
+DEBUG = False
+
 
 def remove_dir(dir):
     if not os.path.isdir(dir):
@@ -49,10 +51,10 @@ def process_language(dir, to_index, to_delete):
                 os.rename(file_location, file_location.replace(
                     to_index + ".md", "index.md").replace(to_index + ".mdx", "index.mdx"))
                 print("Renamed " + file_location_last_two + " to " + file_location_last_two.replace(
-                    to_index + ".md", "index.md").replace(to_index + ".mdx", "index.mdx"))
+                    to_index + ".md", "index.md").replace(to_index + ".mdx", "index.mdx")) if DEBUG else None
             elif file.startswith(to_delete) and (file.endswith(".md") or file.endswith(".mdx")):
                 os.remove(file_location)
-                print("Deleted " + file_location_last_two)
+                print("Deleted " + file_location_last_two) if DEBUG else None
         elif os.path.isdir(file_path):
             process_language(file_path, to_index, to_delete)
 
