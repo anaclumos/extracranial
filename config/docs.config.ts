@@ -26,7 +26,7 @@ const docs = {
   breadcrumbs: true,
   sidebarCollapsed: true,
   sidebarCollapsible: true,
-  showLastUpdateAuthor: true,
+  showLastUpdateAuthor: false,
   showLastUpdateTime: true,
   remarkPlugins: [math],
   rehypePlugins: [katex],
