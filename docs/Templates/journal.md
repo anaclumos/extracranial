@@ -11,6 +11,6 @@ draft: true
 
 ## Work Notes
 
-## Interesting Websites
+## Interesting Webs
 
 ## Personal Notes
