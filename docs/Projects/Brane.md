@@ -1,9 +1,9 @@
 ---
-title: 'Brane Project'
+title: 'Project Brane'
 slug: '/8C41D2'
 ---
 
-- [Brane Project](https://github.com/braneproject)
+- [Project Brane](https://github.com/braneproject)
   - Brane is an experimental project that aims to build a secure, convenient third-party app environment based on web technologies.
   - Brane's idea loosely follows the Progressive Web App and MiniApp Standardization White Paper.
 
