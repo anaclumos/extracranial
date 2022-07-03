@@ -7,7 +7,7 @@ slug: '/93AA11'
 
 > How can I tightly integrate [Writing Services](Writing%20Services.md) and [Digital Brain](Digital%20Brain.md) Publishing System?
 
-For this system, I worked on implementing the [PARA](PARA.md) system with [Docusaurus](https://docusaurus.io/) and [Obsidian](https://obsidian.md/). It is working fairly well, but I still question the feasibility of Obsidian as a Second Brain framework (which should do more than just a note-taking app.)
+For this system, I worked on implementing the [PARA](PARA.md) system with [Docusaurus](https://docusaurus.io/) and [Obsidian](https://obsidian.md/). It is working reasonably well, but I still question the feasibility of Obsidian as a Second Brain framework (which should do more than just a note-taking app.)
 
 ## Potential Tools
 
@@ -26,10 +26,11 @@ For this system, I worked on implementing the [PARA](PARA.md) system with [Docus
 
 ## Obsidian References
 
-- [Welcome! - Joschua's Garden](https://joschuasgarden.com/50+Slipbox/Welcome!)
+- [Welcome! - Joshua's Garden](https://joschuasgarden.com/50+Slipbox/Welcome!)
 - [welcome - mister chad](https://mister-chad.com/welcome)
 - [About these notes](https://notes.andymatuschak.org/About_these_notes)
 - [📌 Landing Page - JT's Digital Garden](https://notes.gnotract.com/00+%F0%9F%A4%AF+Meta/%F0%9F%93%8C+Landing+Page)
+- _Younho9 Notes - The Digital Garden My small collection of imperfect notes, essays, and ideas is growing slowly over time._ - [Younho9 Notes | My small collection of imperfect notes](https://notes.younho9.com/).
 
 ## Logseq References
 
@@ -53,6 +54,7 @@ For this system, I worked on implementing the [PARA](PARA.md) system with [Docus
 - [GitHub - maximevaillancourt/digital-garden-jekyll-template: Start your own digital garden using this Jekyll template 🌱](https://github.com/maximevaillancourt/digital-garden-jekyll-template)
 - [Deokhaeng Lee's Digital Brain](https://www.notion.so/Deokhaeng-Lee-s-Digital-Brain-128b8f5e65684c77838889a8df3ad8ec)
 - [younho9 Blog](https://www.notion.so/younho9-Blog-9ed630c8603541bab20662b4854a891f)
+	- Not surprisingly, the dev behind this website moved his digital garden to [here](https://notes.younho9.com/) Splendid website, made with VuePress.
 
 ## Fast Websites (SPA based)
 
