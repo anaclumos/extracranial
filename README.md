@@ -15,6 +15,7 @@
 - [x] Add `og:image` for main
 - [ ] Add search system --- IP
 - [ ] Add an `evergreen` option for YAML
+- [ ] External Link Icon for External Links
 
 ## LATER
 
