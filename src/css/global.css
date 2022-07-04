@@ -42,3 +42,13 @@ code {
 img {
   border-radius: 0.5rem;
 }
+
+details {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.5rem 0;
+}
+
+summary {
+  font-weight: bold;
+}

@@ -14,13 +14,16 @@ Since this post, I have extensively studied non-linear PKM software, such as [Ro
 Well, you're now watching my next-gen digital brain! For the past two weeks, I have worked on the [WWW project](https://github.com/anaclumos/www) that built this website. It checks off almost all of the marks detailed in this post!
 :::
 
-## TL;DR
+<details>
+<summary>TL;DR</summary>
 
 - Create an **aesthetic**-**interactive**-**automatic** pile of **code**-**image**-**repo**-**text** that **organizes**-**presents**-**pitches** itself.
 - There is **no** manual tagging, linking, or image processing, etc., etc.
 - You just throw a random knowledge; creating a **knowledge mesh network**.
 - The **algorithm** operates everything. It will be contained, processed, organized, and distributed all around the world in **different languages**.
 - You don't **tend** knowledge. The algorithm penalizes outdated content (you can mark the post as **evergreen** to avoid this.)
+
+</details>
 
 # So what's the issue?
 
