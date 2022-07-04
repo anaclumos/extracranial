@@ -7,8 +7,8 @@
     "message": "연구 노트",
     "description": "Navbar item with label Research Notes"
   },
-  "item.label.Blog": {
+  "item.label.Archive": {
     "message": "블로그",
-    "description": "Navbar item with label Blog"
+    "description": "Navbar item with label Archive"
   }
 }
