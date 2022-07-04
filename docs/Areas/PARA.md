@@ -13,4 +13,4 @@ slug: '/B4364B'
 | Resources | Topics that hold extended interest      | Research, Studies, Hobbies, etc.                 |
 | Archive   | Literally Archiving                     | Past or Expired Projects, Areas, Resources, etc. |
 
-I plan on implementing PARA on this [Digital Brain](../Resources/Digital%20Brain.md).
+I plan on implementing PARA on this [Digital Brain](Digital%20Brain.md).
