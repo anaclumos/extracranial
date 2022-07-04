@@ -8,6 +8,8 @@
 * {
   --font-family-sans-serif: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard,
     system-ui, -system-ui, sans-serif, 'Apple Color Emoji';
+  word-wrap: break-word;
+  word-break: keep-all;
 }
 
 h1,
@@ -23,8 +25,6 @@ header,
 nav,
 section {
   font-family: var(--font-family-sans-serif);
-  word-wrap: break-word;
-  word-break: keep-all;
 }
 
 @media screen and (min-width: 996px) {
