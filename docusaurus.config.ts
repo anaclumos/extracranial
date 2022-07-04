@@ -6,7 +6,7 @@ import katexStylesheet = require('./config/katex.stylesheet')
 import navbar = require('./config/navbar.config')
 
 import type { Config } from '@docusaurus/types'
-import ga = require('./config/ga.config')
+import analytics = require('./config/ga.config')
 
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
@@ -28,7 +28,8 @@ const config: Config = {
         docs: docs,
         blog: blog,
         theme: theme,
-        gtag: ga,
+        googleAnalytics: analytics.ua,
+        gtag: analytics.ga4,
       },
     ],
   ],
