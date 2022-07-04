@@ -70,6 +70,7 @@ figure[data-theme='dark'] {
 
 img {
   margin: 0 auto;
+  border-radius: 0.5rem;
 }
 
 figure > * {
