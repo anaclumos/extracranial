@@ -18,5 +18,25 @@
   "sidebar.tutorialSidebar.category.Templates": {
     "message": "Templates",
     "description": "The label for category Templates in sidebar tutorialSidebar"
+  },
+  "sidebar.sidebar.category.Journals": {
+    "message": "Journals",
+    "description": "The label for category Journals in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Projects": {
+    "message": "Projects",
+    "description": "The label for category Projects in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Areas": {
+    "message": "Areas",
+    "description": "The label for category Areas in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Resources": {
+    "message": "Resources",
+    "description": "The label for category Resources in sidebar sidebar"
+  },
+  "sidebar.sidebar.link.Archive": {
+    "message": "Archive",
+    "description": "The label for link Archive in sidebar sidebar, linking to /blog/archive"
   }
 }

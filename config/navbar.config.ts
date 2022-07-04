@@ -19,6 +19,12 @@ const navbar = {
       'aria-label': 'GitHub repository',
     },
     {
+      href: 'https://linkedin.com/in/anaclumos',
+      position: 'right',
+      className: 'header-linkedin-link',
+      'aria-label': 'LinkedIn Account',
+    },
+    {
       href: 'https://twitter.com/anaclumos',
       position: 'right',
       className: 'header-twitter-link',
