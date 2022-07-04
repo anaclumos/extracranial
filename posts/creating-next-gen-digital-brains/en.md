@@ -47,27 +47,53 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 - Practical knowledge does not exist in simple posts (though they might be straightforward). Create a knowledge bundle that interconnects GitHub Repository, Codes, GitHub README, and other posts in the same brain network.
 - Examine how [Victor](https://victordibia.com/blog/alpha-code/)'s post has rich metadata for the paper, dataset, demo, and post. This is what I see as **interconnected entities**.
 
-![](images/image-5.png)
-
 ## Interactive Contents & Animations
+
+<figure>
 
 ![](images/Screen-Recording-2022-05-07-at-10.49.10-PM.gif)
 
+<figcaption>
+
 [Victor Dibia](http://victordibia.com). Seems like using MDX.
 
-![](images/Screen-Recording-2022-05-08-at-10.02.47-PM.gif)
+</figcaption>
+</figure>
+
+<figure>
+
+![아빠는 개발자](images/Screen-Recording-2022-05-08-at-10.02.47-PM.gif)
+
+<figcaption>
 
 [아빠는 개발자](https://bluewings.github.io/). Confirmed using MDX.
 
-![](images/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)
+</figcaption>
+</figure>
+
+<figure>
+
+![pomb.us](images/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)
+
+<figcaption>
 
 [pomb.us](https://pomb.us). Reacts to user scroll.
 
-![](images/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)
+</figcaption>
+</figure>
+
+<figure>
+
+![qubit.donghwi.dev](images/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)
+
+<figcaption>
 
 [qubit.donghwi.dev](https://qubit.donghwi.dev). This isn't a blog; it's a webapp that demonstrates key concepts of Quantum Computers. But still interesting.
 
-## Unorganized System. Instead, Automatic Graphing.
+</figcaption>
+</figure>
+
+## Unorganized Graphing.
 
 - Trust me, manually fiddling with tag sucks.
 - Necessarily tagging posts and organizing posts into subdirectories resembles organizing your computer.
@@ -81,15 +107,33 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 - You don't need to manually organize all of the files when algorithms can read all the texts and organize them for you!
 - Use algorithmic inspections to analyze how the posts may interrelate with each other properly.
 
-![](images/image-8.png)[Velog](https://velog.io), the Korean version of [dev.to](https://dev.to), links relevant posts for every post.
+<figure>
+
+![Velog](images/image-8.png)
+
+<figcaption>
+
+[Velog](https://velog.io), the Korean version of [dev.to](https://dev.to), links relevant posts for every post.
+
+</figcaption>
+</figure>
 
 - Therefore creating a cluster of posts, not classified by me, but bots and algorithms.
 
-  - [Display related posts without slowing down your website! Link all your existing content with only 1 click, get related posts for all your posts today!](https://wordpress.org/plugins/related-posts-for-wp/)WordPress also has this plugin. "Automatically link posts to each other"
+  - [Display related posts without slowing down your website! Link all your existing content with only 1 click, get related posts for all your posts today!](https://wordpress.org/plugins/related-posts-for-wp/) WordPress also has this plugin. "Automatically link posts to each other"
 
 - This is similar to backlinking, which most so-called digital brains such as [Obsidian](https://obsidian.md/) and [Dendron](https://www.dendron.so/) are doing.
 
-![](images/image-9.png)Example of backlinking from Dendron
+<figure>
+
+![Example of backlinking from Dendron](images/image-9.png)
+
+<figcaption>
+
+Example of backlinking from Dendron
+
+</figcaption>
+</figure>
 
 - I agree with the importance of interlinking knowledge crumbles, but I can't entirely agree with the method they are taking.
 - Manually linking posts are inconsistent and troublesome; it can only be done on a massive communal scale, like Wikipedia.
@@ -105,7 +149,16 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 
 - For example, GitHub creates automatic open graph images with their metadata.
 
-![](images/image-10.png)Example open graph image from GitHub
+<figure>
+
+![Example open graph image from GitHub](images/image-10.png)
+
+<figcaption>
+
+Example open graph image from GitHub
+
+</figcaption>
+</figure>
 
 - There are quite some services using this technique.
 - GitHub wrote an awesome [post](https://github.blog/2021-06-22-framework-building-open-graph-images/) on how to implement this feature.
@@ -172,9 +225,17 @@ Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 - Some candidates I am thinking of:
 - cho.sh/♥/e5732f/ko
 - cho.sh/🧠/e5732f/en
-- Also found that Twitter doesn't support Unicode URLs.
 
-![](images/image-11.png)
+<figure>
+
+![Twitter doesn't support Unicode URLs](images/image-11.png)
+
+<figcaption>
+
+Also found that Twitter doesn't support Unicode URLs.
+
+</figcaption>
+</figure>
 
 # #5 Miscellany
 
@@ -182,7 +243,27 @@ Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 
 - There should be a method to penalize old posts; they should exist in the database, but wouldn't appear as much on the data chain. i.e., put a lifespan or "valid until" for posts.
 
-![](images/image-6.png)[홍민희 블로그](https://blog.hongminhee.org/2011/10/06/steve-jobs/)![](images/image-7.png)[Kat Huang](https://www.katmh.com/girl-in-stem)
+<figure>
+
+![홍민희 블로그](images/image-6.png)
+
+<figcaption>
+
+[홍민희 블로그](https://blog.hongminhee.org/2011/10/06/steve-jobs/)
+
+</figcaption>
+</figure>
+
+<figure>
+
+![Kat Huang](images/image-7.png)
+
+<figcaption>
+
+[Kat Huang](https://www.katmh.com/girl-in-stem)
+
+</figcaption>
+</figure>
 
 ## Footnotes
 
