@@ -34,3 +34,11 @@ pre,
 code {
   font-family: 'Jetbrains Mono', monospace;
 }
+
+#divider {
+  border: 0.5px solid var(--ifm-color-emphasis-200);
+}
+
+img {
+  border-radius: 0.5rem;
+}

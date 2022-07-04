@@ -1,13 +1,27 @@
 const math = require('remark-math')
 const katex = require('rehype-katex')
 
+const sidebarDivider = {
+  type: 'html',
+  value: '<hr id="divider" />',
+}
+
 const sidebarProcessor = (items) => {
-  const result = items.map((item) => {
+  const preferredOrder = ['Hey', 'Journals', 'Projects', 'Areas', 'Resources', 'Archive']
+  const orderedItems = []
+  preferredOrder.forEach((item) => {
+    const itemToAdd = items.find((i) => i.label === item || i.id === item)
+    if (itemToAdd) {
+      orderedItems.push(itemToAdd)
+    }
+    if (item === 'Journals') {
+      orderedItems.push(sidebarDivider)
+    }
+  })
+  const result = orderedItems.map((item) => {
     if (item.type === 'category') {
-      // set collapsible and collapsed to true
       item.collapsible = true
       item.collapsed = true
-      // if label is 'Journals', reverse the order of items
       if (item.label === 'Journals') {
         item.items = item.items.sort().reverse()
       } else {
@@ -18,7 +32,6 @@ const sidebarProcessor = (items) => {
   })
   return result
 }
-
 const docs = {
   path: 'docs',
   sidebarPath: require.resolve('./sidebars.js'),
