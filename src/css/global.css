@@ -5,6 +5,11 @@
 @import url('./logo.css');
 @import url('./color.css');
 
+* {
+  --font-family-sans-serif: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard,
+    system-ui, -system-ui, sans-serif, 'Apple Color Emoji';
+}
+
 h1,
 h2,
 h3,
@@ -17,8 +22,7 @@ footer,
 header,
 nav,
 section {
-  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, system-ui,
-    -system-ui, sans-serif, 'Apple Color Emoji';
+  font-family: var(--font-family-sans-serif);
   word-wrap: break-word;
   word-break: keep-all;
 }
@@ -39,16 +43,39 @@ code {
   border: 0.5px solid var(--ifm-color-emphasis-200);
 }
 
-img {
-  border-radius: 0.5rem;
-}
-
 details {
-  border: 1px solid var(--ifm-color-emphasis-200);
+  border: thin solid var(--ifm-color-emphasis-200);
   border-radius: 0.5rem;
   padding: 0.5rem 0.5rem 0;
 }
 
 summary {
   font-weight: bold;
+}
+
+figure {
+  display: flex;
+  flex-flow: column;
+  border: thin solid var(--ifm-color-emphasis-200);
+  background-color: var(--ifm-color-emphasis-200);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+img {
+  margin: 0 auto;
+}
+
+figure > * {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  text-align: center;
+  margin: 0 auto;
+}
+
+figcaption > * {
+  margin: 0 0 0.5rem 0;
 }
