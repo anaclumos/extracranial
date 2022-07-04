@@ -72,9 +72,16 @@ img {
   border-radius: 0.5rem;
 }
 
-figure > * {
+figure > p {
   margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+figure > p > * {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 figcaption {
