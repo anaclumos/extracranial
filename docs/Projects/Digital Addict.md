@@ -1,6 +1,7 @@
 ---
 title: '디지털 중독입니다만 소프트웨어가 좋은걸요'
 slug: '/4AA0F0'
+draft: true
 ---
 
 import WIP from '@site/src/components/WIP'
