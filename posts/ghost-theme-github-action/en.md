@@ -6,4 +6,4 @@ slug: '/0F1FE2'
 
 import WIP from '@site/src/components/WIP'
 
-<WIP />
+<WIP state="translating" />
