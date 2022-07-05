@@ -5,6 +5,10 @@ slug: '/{{date:YYYY-MM-DD}}'
 draft: true
 ---
 
+import WIP from '@site/src/components/WIP'
+
+<WIP state="translating" />
+
 ## Today's [Pragmatic Engineer](../Resources/Pragmatic%20Engineer.md)
 
 ## Today's [HackerNews](../Resources/HackerNews.md)
