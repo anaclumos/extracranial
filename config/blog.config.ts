@@ -10,6 +10,14 @@ const blog = {
   blogSidebarTitle: 'Updates',
   remarkPlugins: [math],
   rehypePlugins: [katex],
+  editUrl: ({ locale, blogDirPath, blogPath }) => {
+    if (blogPath.endsWith('.mdx')) {
+      return `https://github.com/anaclumos/www/tree/main/posts/${blogPath.replace('/index.mdx', '')}/${locale}.mdx`
+    }
+    if (blogPath.endsWith('.md')) {
+      return `https://github.com/anaclumos/www/tree/main/posts/${blogPath.replace('/index.md', '')}/${locale}.md`
+    }
+  },
 }
 
 export = blog
