@@ -4,4 +4,6 @@ ISBN13: 978-1982167387
 slug: '/6AE59D'
 ---
 
-WIP
+import WIP from '@site/src/components/WIP'
+
+<WIP />

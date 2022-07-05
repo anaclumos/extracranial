@@ -1,7 +1,9 @@
 ---
 title: 'Personal Knowledge Management'
 slug: '/E9DD55'
-aliases: ["PKM"]
+aliases: ['PKM']
 ---
 
-WIP
+import WIP from '@site/src/components/WIP'
+
+<WIP />
