@@ -3,11 +3,12 @@ title: 'Project Brane'
 slug: '/8C41D2'
 ---
 
-- [Project Brane](https://github.com/braneproject)
-  - Brane is an experimental project that aims to build a secure, convenient third-party app environment based on web technologies.
-  - Brane's idea loosely follows the Progressive Web App and MiniApp Standardization White Paper.
+- [GitHub](https://github.com/braneproject)
 
-## Distributed development model that third-parties can participate
+Brane is an experimental project that aims to build a secure, convenient third-party app environment based on web technologies.
+Brane's idea loosely follows the Progressive Web App and MiniApp Standardization White Paper.
+
+## Distributed dev model that third parties participates
 
 - No distributed development model correctly executes third-party code even if they use WebView.
 - PWAs possess critical weakness compared to Native Apps; it fails to deliver a coherent experience on a native platform.
@@ -15,7 +16,7 @@ slug: '/8C41D2'
 - It may be worthwhile to implement the Mini App white paper. However, the white paper compromised the security model and diverged from the web standard. The Mini App white paper aims at significantly different goals.
 - Parties that create browsers do not own these limitations; Brane aims to democratize these privileges from mega-corporates creating browsers to Super App developers, who are much smaller in scale.
 
-## Brane Minimum Viable Product
+## Brane MVP
 
 - Forced Shutdown and Preloading.
   - Prerequisite: Sandbox Environment.
