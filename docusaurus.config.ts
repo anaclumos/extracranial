@@ -5,7 +5,6 @@ import blog = require('./config/blog.config')
 import theme = require('./config/theme.config')
 import katexStylesheet = require('./config/katex.stylesheet')
 import navbar = require('./config/navbar.config')
-import analytics = require('./config/ga.config')
 import pwaOptions = require('./config/pwa.config')
 
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
@@ -28,8 +27,6 @@ const config: Config = {
         docs: docs,
         blog: blog,
         theme: theme,
-        googleAnalytics: analytics.ua,
-        gtag: analytics.ga4,
       },
     ],
   ],
