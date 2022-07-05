@@ -41,6 +41,7 @@ const docs = {
   sidebarCollapsible: true,
   showLastUpdateAuthor: false,
   showLastUpdateTime: true,
+  editUrl: 'https://github.com/anaclumos/www/edit/main/',
   remarkPlugins: [math],
   rehypePlugins: [katex],
   async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
