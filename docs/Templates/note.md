@@ -6,4 +6,4 @@ draft: true
 
 import WIP from '@site/src/components/WIP'
 
-<WIP state="translating" />
+<WIP />
