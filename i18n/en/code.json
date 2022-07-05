@@ -362,10 +362,10 @@
   "This is a work in progress. Please check back later.": {
     "message": "This is a work in progress. Please check back later."
   },
-  "Usually, this is because I am translating this post to other languages.": {
-    "message": "Usually, this is because I am translating this post to other languages."
+  "I wrote this post in another language first and was translating it to other languages.": {
+    "message": "I wrote this post in another language first and was translating it to other languages."
   },
-  "Try looking for this post in other languages, if you are multilingual.": {
-    "message": "Try looking for this post in other languages, if you are multilingual."
+  "Therefore, if you speak different languages, look for this post in that language.": {
+    "message": "Therefore, if you speak different languages, look for this post in that language."
   }
 }
