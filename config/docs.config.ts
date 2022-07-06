@@ -40,7 +40,7 @@ const docs = {
   sidebarCollapsed: true,
   sidebarCollapsible: true,
   showLastUpdateAuthor: false,
-  showLastUpdateTime: true,
+  showLastUpdateTime: false,
   editUrl: 'https://github.com/anaclumos/www/edit/main/',
   remarkPlugins: [math],
   rehypePlugins: [katex],
