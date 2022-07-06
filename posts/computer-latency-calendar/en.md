@@ -8,9 +8,9 @@ I recently saw this [Gist](https://gist.github.com/hellerbarde/2843375) and [Int
 
 ## How to read this calendar
 
-Imagine 1 CPU cycle took 1 second. Compared to that, Apple's M1 chip has a CPU cycle of 0.25 ns approx. That's 4,000,000,000 times difference. Now, imagine how M1 would feel one second in real life.
+Imagine 1 CPU cycle took 1 second. Compared to that, A modern 4.0 GHz CPU has a CPU cycle of 0.25 ns approx. That's 4,000,000,000 times difference. Now, imagine how that CPU would feel one second in real life.
 
-| Action                                    | Physical Time | M1 Time      |
+| Action                                    | Physical Time | CPU Time     |
 | ----------------------------------------- | ------------- | ------------ |
 | 1 CPU Cycle                               | 0.25ns        | 1 second     |
 | L1 cache reference                        | 1ns           | 4 seconds    |
