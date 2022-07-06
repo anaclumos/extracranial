@@ -1,5 +1,7 @@
 # Project WWW — which became [cho.sh](https://cho.sh)
 
+![GitHub deployments](https://img.shields.io/github/deployments/anaclumos/www/production?label=vercel&logo=vercel&logoColor=white&style=for-the-badge)
+
 I am Sunghyun Cho, traveling the world wide web. This repo is my interpretation of a second brain on the web. I wrote a [post](https://cho.sh/blog/D8FB8E) imagining such creation before making this website. It would be entertaining for you to compare how similar and different I built this project from my imagination.
 
 I never expected this project to end up on such a consequential scale. This project started as a test flight on investigating how Docusaurus could handle "multiplex" data, which surprised me with its capability. Then I started adding a bunch of features from a post where I initially imagined what I would've done if I had created a Digital Brain. Now that it is stable and performant, I hereby open-source this project. I hope anyone around the 🌐 will gain from this.
