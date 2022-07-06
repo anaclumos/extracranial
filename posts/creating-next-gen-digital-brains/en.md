@@ -218,6 +218,8 @@ Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 
 ## Nameless routes
 
+### [Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)
+
 - I really don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. What if I need to update the title and want to update the URL Structure?
 - Changing URL structure affects SEO, so to maintain the SEO I would need to stick to the original domain even after changing the entity title. But then the title and URL would be inconsistent.
 - Therefore, I would give the entity a UID that would be a hash for each interconnected entity. Maybe the randomized hash UID could be a color hex that could be the [theme color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color) for the entity?
