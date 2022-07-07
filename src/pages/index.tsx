@@ -19,6 +19,7 @@ const HeroText = () => {
         <meta property='og:description' content={siteConfig.tagline} />
         <meta property='og:image' content='https://cho.sh/img/ogimage.png' />
         <link rel='icon' href='https://cho.sh/img/favicon.png' />
+        <meta name='naver-site-verification' content='15b31306fd3391cd0bf411b1d49160aa02dd3cad' />
       </Head>
       <header>
         <h1 className={styles.intro}>
