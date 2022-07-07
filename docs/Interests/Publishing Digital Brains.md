@@ -5,7 +5,7 @@ slug: '/93AA11'
 
 ## Idea
 
-> How can I tightly integrate [Writing Services](Writing%20Services.md) and Digital Brain?
+> How can I tightly integrate [Tools for Thought](Tools%20for%20Thought.md) and Digital Brain?
 
 For this system, I worked on implementing the [PARA](PARA.md) system with [Docusaurus](https://docusaurus.io/) and [Obsidian](https://obsidian.md/). It is working reasonably well, but I still question the feasibility of Obsidian as a Second Brain framework (which should do more than just a note-taking app.)
 

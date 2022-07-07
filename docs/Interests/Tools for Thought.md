@@ -1,5 +1,5 @@
 ---
-title: 'Writing Services'
+title: 'Tools for Thought'
 slug: '/872B83'
 ---
 
@@ -11,19 +11,16 @@ slug: '/872B83'
 - [Scrintal: A hybrid note-taking & mind mapping whiteboard](https://www.scrintal.com/): Whiteboard-like service.
 - [Heptabase: A note-taking tool for visual learning.](https://heptabase.com/): Whiteboard-like service.
 - [Mem: The self-organizing workspace](https://get.mem.ai/)
-- [A simpler way to organize your work - WorkFlowy](https://workflowy.com/): Outliner.
-
-## Memorizing
+- [A more straightforward way to organize your work - WorkFlowy](https://workflowy.com/): Outliner.
+- [Heyday - AI-powered Research Assistant](https://heyday.xyz/) Search engine, but from your browsing history.
+- [Typed - Your Second Brain](https://typed.do/features) Some all-in-one Notion + Google Docs + Gmail + Task manager app.
+- [Weavit](https://www.weavit.ai/) Take small chunks of notes. Weavit automatically interlinks them.
 - [Readwise](https://readwise.io/): Specialized in memorizing emails and ebooks.
 - [Dynalist](https://dynalist.io/): outlining app.
 - [Braintoss - Don't forget a thing! - GTD Capture tool - Mail to self](https://braintoss.com/)
-
-## Archiving & Reading
 - Instapaper
 - Pocket
-- _Matter pulls everything you want to read into one beautiful place. With powerful tools, curation, seamless audio, and more, we're building a reader for today's internet._ - [Matter](https://hq.getmatter.app/)
-
-## For Team
+- _Matter pulls everything you want to read into one beautiful place. We're building a reader for today's internet with powerful tools, curation, seamless audio, and more._ - [Matter](https://hq.getmatter.app/)
 - [Saga | Make sense of your knowledge](https://saga.so/)
 - [Clarity — The DAO Contribution Platform](https://www.clarity.so/)- [Saga | Make sense of your knowledge](https://saga.so/)
 - [Notion – One workspace. Every team.](https://www.notion.so/)
@@ -32,7 +29,7 @@ slug: '/872B83'
 - Miro
 - [mmhmm | Everything video for everywhere teams](https://www.mmhmm.app/home)
 
-## Blogging Services
+## Classic Blogging Services
 
 - [Medium – Where good ideas find you.](https://medium.com/)
 - [DEV Community 👩‍💻👨‍💻](https://dev.to/)
@@ -49,3 +46,9 @@ slug: '/872B83'
 - [The Fastest Frontend for the Headless Web | Gatsby](https://www.gatsbyjs.com/)
 - [Next.js by Vercel - The React Framework](https://nextjs.org/)
 - [Build optimized websites quickly, focus on your content | Docusaurus](https://docusaurus.io/)
+
+One radical idea that uses classic blogging services is a Second Brain...
+- Write everything as small chunks of notes (Posts.)
+- Let Algolia Web indexing do all of the interlinkings.
+- You *search* this custom Algolia indices to pull up whatever you want to think "interlinkedly."
+- Basically, just give up linking things.
