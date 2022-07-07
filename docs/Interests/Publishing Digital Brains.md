@@ -5,7 +5,7 @@ slug: '/93AA11'
 
 ## Idea
 
-> How can I tightly integrate [Writing Services](Writing%20Services.md) and [Digital Brain](Digital%20Brain.md)?
+> How can I tightly integrate [Writing Services](Writing%20Services.md) and Digital Brain?
 
 For this system, I worked on implementing the [PARA](PARA.md) system with [Docusaurus](https://docusaurus.io/) and [Obsidian](https://obsidian.md/). It is working reasonably well, but I still question the feasibility of Obsidian as a Second Brain framework (which should do more than just a note-taking app.)
 
@@ -54,11 +54,10 @@ For this system, I worked on implementing the [PARA](PARA.md) system with [Docus
 - [GitHub - maximevaillancourt/digital-garden-jekyll-template: Start your own digital garden using this Jekyll template 🌱](https://github.com/maximevaillancourt/digital-garden-jekyll-template)
 - [Deokhaeng Lee's Digital Brain](https://www.notion.so/Deokhaeng-Lee-s-Digital-Brain-128b8f5e65684c77838889a8df3ad8ec)
 - [younho9 Blog](https://www.notion.so/younho9-Blog-9ed630c8603541bab20662b4854a891f)
-	- Not surprisingly, the dev behind this website moved his digital garden to [here](https://notes.younho9.com/) Splendid website, made with VuePress.
+  - Not surprisingly, the dev behind this website moved his digital garden to [here](https://notes.younho9.com/) Splendid website, made with VuePress.
 
 ## Fast Websites (SPA based)
 
 - [Telmo Goncalves](https://telmo.is/)
 - [Lee Robinson – Developer, writer, creator.](https://leerob.io/)
 - [Timo Lins – Code · Design · Film](https://timo.sh/)
-
