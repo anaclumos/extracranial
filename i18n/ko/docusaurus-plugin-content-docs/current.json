@@ -1,23 +1,7 @@
 {
   "version.label": {
-    "message": "다음",
+    "message": "Next",
     "description": "The label for version current"
-  },
-  "sidebar.tutorialSidebar.category.Journals": {
-    "message": "일지",
-    "description": "The label for category Journals in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Notes": {
-    "message": "노트",
-    "description": "The label for category Notes in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Readings": {
-    "message": "독서",
-    "description": "The label for category Readings in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Templates": {
-    "message": "템플릿",
-    "description": "The label for category Templates in sidebar tutorialSidebar"
   },
   "sidebar.sidebar.category.Journals": {
     "message": "일지",
@@ -27,16 +11,16 @@
     "message": "프로젝트",
     "description": "The label for category Projects in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Areas": {
-    "message": "관심사",
-    "description": "The label for category Areas in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Resources": {
-    "message": "리소스",
-    "description": "The label for category Resources in sidebar sidebar"
-  },
   "sidebar.sidebar.link.Archive": {
     "message": "비활성",
     "description": "The label for link Archive in sidebar sidebar, linking to /blog/archive"
+  },
+  "sidebar.sidebar.category.Readings": {
+    "message": "독서록",
+    "description": "The label for category Readings in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Interests": {
+    "message": "관심사",
+    "description": "The label for category Interests in sidebar sidebar"
   }
 }

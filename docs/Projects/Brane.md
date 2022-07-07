@@ -8,7 +8,7 @@ slug: '/8C41D2'
 Brane is an experimental project that aims to build a secure, convenient third-party app environment based on web technologies.
 Brane's idea loosely follows the Progressive Web App and MiniApp Standardization White Paper.
 
-## Distributed dev model that third parties participates
+## Distributed dev model that third parties participate
 
 - No distributed development model correctly executes third-party code even if they use WebView.
 - PWAs possess critical weakness compared to Native Apps; it fails to deliver a coherent experience on a native platform.

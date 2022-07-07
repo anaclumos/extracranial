@@ -1,5 +1,5 @@
 ---
-title: 'HackerNews'
+title: 'Hacker News'
 slug: '/FA003B'
 ---
 
