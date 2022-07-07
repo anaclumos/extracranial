@@ -6,32 +6,33 @@ slug: '/872B83'
 TODO: Convert this page into a more in-depth case study.
 
 ## Second Brain
-- [Roam Research: A note-taking tool for networked thought.](https://roamresearch.com/)
-- [Obsidian: A second brain, for you, forever.](https://obsidian.md/)
-- [Logseq: A privacy-first, open-source knowledge base](https://logseq.com/)
-- [Dendron: Knowledge Management. Redefined.](https://www.dendron.so/)
-- [Scrintal: A hybrid note-taking & mind mapping whiteboard](https://www.scrintal.com/): Whiteboard-like service.
-- [Heptabase: A note-taking tool for visual learning.](https://heptabase.com/): Whiteboard-like service.
-- [Mem: The self-organizing workspace](https://get.mem.ai/)
-- [A more straightforward way to organize your work - WorkFlowy](https://workflowy.com/): Outliner.
-- [Heyday - AI-powered Research Assistant](https://heyday.xyz/) Search engine, but from your browsing history.
-- [Typed - Your Second Brain](https://typed.do/features) Some all-in-one Notion + Google Docs + Gmail + Task manager app.
-- [Weavit](https://www.weavit.ai/) Take small chunks of notes. Weavit automatically interlinks them.
+- [Roam Research](https://roamresearch.com/): A note-taking tool for networked thought.
+- [Obsidian](https://obsidian.md/): A second brain, for you, forever.
+- [Logseq](https://logseq.com/): A privacy-first, open-source knowledge base
+- [Dendron](https://www.dendron.so/): Nonlinear PKM with directories.
+- [Scrintal](https://www.scrintal.com/): A hybrid note-taking & mind mapping whiteboard
+- [Heptabase](https://heptabase.com/): A note-taking tool for visual learning
+- [Mem](https://get.mem.ai/): Zettlekasten-like short-note service.
+- [WorkFlowy](https://workflowy.com/): Outliner.
+- [Heyday](https://heyday.xyz/) Search engine, but from your browsing history.
+- [Typed](https://typed.do/features) Some all-in-one Notion + Google Docs + Gmail + Task manager app.
+- [Weavit](https://www.weavit.ai/): Take small chunks of notes. Weavit automatically interlinks them.
 - [Readwise](https://readwise.io/): Specialized in memorizing emails and ebooks.
-- [Dynalist](https://dynalist.io/): outlining app.
-- [Braintoss - Don't forget a thing! - GTD Capture tool - Mail to self](https://braintoss.com/)
-- Instapaper
-- Pocket
-- _Matter pulls everything you want to read into one beautiful place. We're building a reader for today's internet with powerful tools, curation, seamless audio, and more._ - [Matter](https://hq.getmatter.app/)
-- [Saga | Make sense of your knowledge](https://saga.so/)
-- [Clarity — The DAO Contribution Platform](https://www.clarity.so/)- [Saga | Make sense of your knowledge](https://saga.so/)
-- [Notion – One workspace. Every team.](https://www.notion.so/)
-- [Craft - The Future of Documents](https://www.craft.do/)
--  _Meet the evolution of docs. Simple. Familiar. But built to adapt to your team’s needs. Coda brings all your words, data, and teamwork into one powerful doc._ - [Coda | Everything evolves, the evolution of documents.](https://coda.io/)
-- Miro
-- [mmhmm | Everything video for everywhere teams](https://www.mmhmm.app/home)
-- [Zotero | Your personal research assistant](https://www.zotero.org/) Research assistant, classifying sources and research information. People say it is good for annotating on PDFs.
-- [Scrivener | Literature & Latte](https://www.literatureandlatte.com/scrivener/overview) Scrivener is the go-to app for writers of all kinds, used every day by best-selling novelists, screenwriters, non-fiction writers, students, academics, lawyers, journalists, translators and more. Scrivener won't tell you how to write—it simply provides everything you need to start writing and keep writing
+- [Dynalist](https://dynalist.io/): Outlining app.
+- [Braintoss](https://braintoss.com/): GTD Capture tool. Mail to self.
+- [Instapaper](https://www.instapaper.com/): Save Anything. Read Anywhere.
+- [Pocket](https://getpocket.com/en/): Save interesting stories. Read them whenever.
+- [Matter](https://hq.getmatter.app/): Matter pulls everything you want to read into one place.
+- [Saga](https://saga.so/): Make sense of your knowledge.
+- [Clarity](https://www.clarity.so/): The DAO Contribution Platform.
+- [Notion](https://www.notion.so/): Hybrid workspace, batteries like databasing included.
+- [Saga](https://saga.so/): Notion-like service, but more focus on automatic information linkings.
+- [Craft](https://www.craft.do/): Notion-like service, but more focus on supporting native platforms.
+- [Coda](https://coda.io/): Notetaking service for teams.
+- [Miro](https://miro.com/): Visual thinking for teams.
+- [mmhmm](https://www.mmhmm.app/home): Collaborative video workspace for teams
+- [Zotero](https://www.zotero.org/): Research assistant. People say it is good for annotating PDFs.
+- [Scrivener | Literature & Latte](https://www.literatureandlatte.com/scrivener/overview) Writing app for writers.
 
 ## Classic Blogging Services
 
