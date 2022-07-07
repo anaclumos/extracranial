@@ -16,25 +16,24 @@ import styles from './styles.module.css'
 export default function BlogPostItem(props) {
   const { withBaseUrl } = useBaseUrlUtils()
   const { children, frontMatter, assets, metadata, truncated, isBlogPostPage = false } = props
-  const { date, formattedDate, permalink, tags, readingTime, title, editUrl, authors } = metadata
+  const { date, formattedDate, permalink, tags, title, editUrl, authors, description } = metadata
   const image = assets.image ?? frontMatter.image
   const truncatedPost = !isBlogPostPage && truncated
   const tagsExists = tags.length > 0
   const TitleHeading = isBlogPostPage ? 'h1' : 'h2'
-
   return (
     <>
       <Head>
-        <title>{props.frontMatter.title}</title>
-        <meta name='description' content={props.frontMatter.description} />
-        <meta property='og:title' content={props.frontMatter.title} />
-        <meta property='og:description' content={props.frontMatter.description} />
+        <title>{title}</title>
+        <meta name='description' content={description} />
+        <meta property='og:title' content={title} />
+        <meta property='og:description' content={description} />
         <meta
           property='og:image'
           content={
-            props.frontMatter.image ??
+            image ??
             `https://og-image.cho.sh/**${encodeURIComponent(
-              props.frontMatter.title
+              props.metadata.title
             )}**.png?theme=%235597ec&md=1&fontSize=100px&images=https%3A%2F%2Fcho.sh%2Fimg%2Ffavicon.png`
           }
         />
