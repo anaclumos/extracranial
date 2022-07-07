@@ -14,8 +14,8 @@ TODO: Convert this page into a more in-depth case study.
 - [Heptabase](https://heptabase.com/): A note-taking tool for visual learning
 - [Mem](https://get.mem.ai/): Zettlekasten-like short-note service.
 - [WorkFlowy](https://workflowy.com/): Outliner.
-- [Heyday](https://heyday.xyz/) Search engine, but from your browsing history.
-- [Typed](https://typed.do/features) Some all-in-one Notion + Google Docs + Gmail + Task manager app.
+- [Heyday](https://heyday.xyz/): Search engine, but from your browsing history.
+- [Typed](https://typed.do/features): Some all-in-one Notion + Google Docs + Gmail + Task manager app.
 - [Weavit](https://www.weavit.ai/): Take small chunks of notes. Weavit automatically interlinks them.
 - [Readwise](https://readwise.io/): Specialized in memorizing emails and ebooks.
 - [Dynalist](https://dynalist.io/): Outlining app.
