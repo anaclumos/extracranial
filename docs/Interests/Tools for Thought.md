@@ -3,6 +3,8 @@ title: 'Tools for Thought'
 slug: '/872B83'
 ---
 
+TODO: Convert this page into a more in-depth case study.
+
 ## Second Brain
 - [Roam Research: A note-taking tool for networked thought.](https://roamresearch.com/)
 - [Obsidian: A second brain, for you, forever.](https://obsidian.md/)
@@ -28,6 +30,8 @@ slug: '/872B83'
 -  _Meet the evolution of docs. Simple. Familiar. But built to adapt to your team’s needs. Coda brings all your words, data, and teamwork into one powerful doc._ - [Coda | Everything evolves, the evolution of documents.](https://coda.io/)
 - Miro
 - [mmhmm | Everything video for everywhere teams](https://www.mmhmm.app/home)
+- [Zotero | Your personal research assistant](https://www.zotero.org/) Research assistant, classifying sources and research information. People say it is good for annotating on PDFs.
+- [Scrivener | Literature & Latte](https://www.literatureandlatte.com/scrivener/overview) Scrivener is the go-to app for writers of all kinds, used every day by best-selling novelists, screenwriters, non-fiction writers, students, academics, lawyers, journalists, translators and more. Scrivener won't tell you how to write—it simply provides everything you need to start writing and keep writing
 
 ## Classic Blogging Services
 
