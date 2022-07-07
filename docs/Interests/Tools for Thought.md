@@ -33,27 +33,27 @@ TODO: Convert this page into a more in-depth case study.
 - [Zotero](https://www.zotero.org/): Research assistant. People say it is good for annotating PDFs.
 - [Scrivener](https://www.literatureandlatte.com/scrivener/overview): Writing app for writers.
 
-## Classic Blogging Services
+## Classic Blogs
 
 - [Medium](https://medium.com/): Writing platform.
 - [Mirror](https://mirror.xyz/): Medium on Web3.
 - [DEV.to](https://dev.to/): Medium but for Devs.
 - [Hashnode](https://hashnode.com/): Medium but for even more Devs.
-- [velog](https://velog.io/): DEV.to for Korean Devs.
+- [Velog](https://velog.io/): DEV.to for Korean Devs.
 - [Tistory](https://www.tistory.com/): Medium for Korea (Please don't use it)
 - [Naver Blog](https://blog.naver.com): Medium for Korea (Please don't use it)
 
-## Self-hosting Vendors
+## Self-hostable, for Devs
 
-- [Blog Tool, Publishing Platform, and CMS | WordPress.org](https://wordpress.org/)
-- [Ghost: Turn your audience into a business](https://ghost.org/)
-- [GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.](https://pages.github.com/)
-- [The Fastest Frontend for the Headless Web | Gatsby](https://www.gatsbyjs.com/)
-- [Next.js by Vercel - The React Framework](https://nextjs.org/)
-- [Build optimized websites quickly, focus on your content | Docusaurus](https://docusaurus.io/)
+- [WordPress](https://wordpress.org/)
+- [Ghost](https://ghost.org/)
+- [GitHub Pages](https://pages.github.com/)
+- [Gatsby JS](https://www.gatsbyjs.com/)
+- [Next JS](https://nextjs.org/)
+- [Docusaurus](https://docusaurus.io/)
 
-One radical idea that uses classic blogging services is a Second Brain...
+## One radical idea...
 - Write everything as small chunks of notes (Posts.)
-- Let Algolia Web indexing do all of the interlinkings.
-- You *search* this custom Algolia indices to pull up whatever you want to think "interlinkedly."
-- Basically, just give up linking things.
+- Let web indexing do all of the interlinkings.
+- You *search* this custom search engine indices to pull up whatever you want to think "interlinkedly."
+- Basically, give up linking things.
