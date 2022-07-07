@@ -23,7 +23,6 @@ TODO: Convert this page into a more in-depth case study.
 - [Instapaper](https://www.instapaper.com/): Save Anything. Read Anywhere.
 - [Pocket](https://getpocket.com/en/): Save interesting stories. Read them whenever.
 - [Matter](https://hq.getmatter.app/): Matter pulls everything you want to read into one place.
-- [Saga](https://saga.so/): Make sense of your knowledge.
 - [Clarity](https://www.clarity.so/): The DAO Contribution Platform.
 - [Notion](https://www.notion.so/): Hybrid workspace, batteries like databasing included.
 - [Saga](https://saga.so/): Notion-like service, but more focus on automatic information linkings.
@@ -32,16 +31,17 @@ TODO: Convert this page into a more in-depth case study.
 - [Miro](https://miro.com/): Visual thinking for teams.
 - [mmhmm](https://www.mmhmm.app/home): Collaborative video workspace for teams
 - [Zotero](https://www.zotero.org/): Research assistant. People say it is good for annotating PDFs.
-- [Scrivener | Literature & Latte](https://www.literatureandlatte.com/scrivener/overview) Writing app for writers.
+- [Scrivener](https://www.literatureandlatte.com/scrivener/overview): Writing app for writers.
 
 ## Classic Blogging Services
 
-- [Medium – Where good ideas find you.](https://medium.com/)
-- [DEV Community 👩‍💻👨‍💻](https://dev.to/)
-- [Hashnode - Blogging community for developers, and people in tech](https://hashnode.com/)
-- [TISTORY](https://www.tistory.com/)
-- [Naver Blog](https://blog.naver.com)
-- [velog](https://velog.io/)
+- [Medium](https://medium.com/): Writing platform.
+- [Mirror](https://mirror.xyz/): Medium on Web3.
+- [DEV.to](https://dev.to/): Medium but for Devs.
+- [Hashnode](https://hashnode.com/): Medium but for even more Devs.
+- [velog](https://velog.io/): DEV.to for Korean Devs.
+- [Tistory](https://www.tistory.com/): Medium for Korea (Please don't use it)
+- [Naver Blog](https://blog.naver.com): Medium for Korea (Please don't use it)
 
 ## Self-hosting Vendors
 
