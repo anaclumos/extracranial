@@ -26,6 +26,3 @@ for language in languages:
     with open("./posts/" + title + "/" + language + ".md", "w") as file:
         file.write(frontmatter)
         file.close()
-
-# open the folder in the editor
-os.system("code ./posts/" + title)
