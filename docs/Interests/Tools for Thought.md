@@ -43,7 +43,7 @@ TODO: Convert this page into a more in-depth case study.
 - [Tistory](https://www.tistory.com/): Medium for Korea (Please don't use it)
 - [Naver Blog](https://blog.naver.com): Medium for Korea (Please don't use it)
 
-## Self-hostable, for Devs
+## Self-hostable Platforms
 
 - [WordPress](https://wordpress.org/)
 - [Ghost](https://ghost.org/)
