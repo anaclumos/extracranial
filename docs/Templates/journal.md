@@ -9,9 +9,9 @@ import WIP from '@site/src/components/WIP'
 
 <WIP />
 
-## Today's [Pragmatic Engineer](../Resources/Pragmatic%20Engineer.md)
+## Today's [Pragmatic Engineer](../Interests/Pragmatic%20Engineer.md)
 
-## Today's [HackerNews](../Resources/HackerNews.md)
+## Today's [Hacker News](../Interests/Hacker%20News.md)
 
 ## Work Notes
 

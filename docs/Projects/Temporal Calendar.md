@@ -1,7 +1,6 @@
 ---
-title: 'Creating Calendar with JavaScript Temporal API'
+title: 'Project Temporals Calendar'
 slug: '/FABE84'
-draft: true
 ---
 
 import WIP from '@site/src/components/WIP'

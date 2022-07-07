@@ -1,5 +1,5 @@
 ---
-title: 'P vs. NP'
+title: 'P vs NP'
 slug: '/A9E773'
 ---
 

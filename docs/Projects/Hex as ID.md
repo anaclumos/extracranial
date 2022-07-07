@@ -1,5 +1,5 @@
 ---
-title: 'Hex as ID'
+title: 'Project Hex as ID'
 slug: '/0A964E'
 ---
 
@@ -9,6 +9,9 @@ slug: '/0A964E'
 - Nonetheless, it seems very unlikely.
 - Let's try mathematical and computational approaches to verify this.
 
-## Mathematical Approach
+import WIP from '@site/src/components/WIP'
 
-## Computational Approach
+<WIP />
+
+## Resource
+[Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)
