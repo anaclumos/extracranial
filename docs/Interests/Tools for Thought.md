@@ -32,6 +32,7 @@ TODO: Convert this page into a more in-depth case study.
 - [mmhmm](https://www.mmhmm.app/home): Collaborative video workspace for teams
 - [Zotero](https://www.zotero.org/): Research assistant. People say it is good for annotating PDFs.
 - [Scrivener](https://www.literatureandlatte.com/scrivener/overview): Writing app for writers.
+- [myReach](https://myreach.io/features/): Note-taking app with lots of features.
 
 ## Classic Blogs
 
