@@ -131,7 +131,7 @@
     "message": "Version: {versionLabel}"
   },
   "theme.common.editThisPage": {
-    "message": "Improve this page on GitHub",
+    "message": "Improve Page on GitHub",
     "description": "The link label to edit the current page"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
