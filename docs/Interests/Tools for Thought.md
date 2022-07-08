@@ -17,7 +17,7 @@ If you have more specific needs, then feel free to *roam* the list below... I am
 - [Roam Research](https://roamresearch.com/): A note-taking tool for networked thought.
 - [Logseq](https://logseq.com/): Open-source alternative to Roam.
 - [Obsidian](https://obsidian.md/): Highly customizable (sometimes, too customizable) note-taking tool.
-- [Dendron](https://www.dendron.so/): Nonlinear PKM with directories.
+- [Dendron](https://www.dendron.so/): Nonlinear [PKM](PKM.md) with directories.
 - [Scrintal](https://www.scrintal.com/): A hybrid note-taking & mind mapping whiteboard
 - [Heptabase](https://heptabase.com/): A note-taking tool for visual learning
 - [Mem](https://get.mem.ai/): Zettlekasten-like short-note service.
