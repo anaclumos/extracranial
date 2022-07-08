@@ -1,5 +1,5 @@
 ---
-title: 'Project Brane'
+title: 'Brane'
 slug: '/8C41D2'
 ---
 
