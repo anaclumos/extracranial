@@ -3,4 +3,6 @@ title: 'ACSM'
 slug: '/188726'
 ---
 
-_An ACSM file is a message file served by the Adobe Content Server to Adobe Digital Editions, a program used to manage and read eBooks and other digital publications. It contains data used to activate and download an eBook. It does not include the eBook itself._ - [ACSM File Extension - What is a .acsm file, and how do I open it?](https://fileinfo.com/extension/acsm#:~:text=An%20ACSM%20file%20is%20a,not%20contain%20the%20eBook%20itself.)
+_An ACSM file is a message file served by the Adobe Content Server to Adobe Digital Editions, a program used to manage and read eBooks and other digital publications. It contains data used to activate and download an eBook. It does not include the eBook itself._
+
+I am keeping my eyes on [BentonEdmondson/knock: Convert ACSM files to PDFs/EPUBs with one command on Linux](https://github.com/BentonEdmondson/knock).
