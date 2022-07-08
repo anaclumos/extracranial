@@ -6,8 +6,8 @@
 @import url('./color.css');
 
 * {
-  --font-family-sans-serif: 'IBM Plex Sans', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
-    Pretendard, system-ui, -system-ui, sans-serif, 'Apple Color Emoji';
+  --font-family-sans-serif: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard,
+    system-ui, -system-ui, sans-serif, 'Apple Color Emoji';
   word-wrap: break-word;
   word-break: keep-all;
 }
@@ -23,7 +23,32 @@ aside,
 footer,
 header,
 nav,
-section {
+section,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+dt,
+fieldset,
+form,
+legend,
+li,
+main,
+ol,
+p,
+pre,
+ul,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+button,
+input,
+textarea {
   font-family: var(--font-family-sans-serif);
 }
 
