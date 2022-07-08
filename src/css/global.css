@@ -6,8 +6,8 @@
 @import url('./color.css');
 
 * {
-  --font-family-sans-serif: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard,
-    system-ui, -system-ui, sans-serif, 'Apple Color Emoji';
+  --font-family-sans-serif: 'IBM Plex Sans', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    Pretendard, system-ui, -system-ui, sans-serif, 'Apple Color Emoji';
   word-wrap: break-word;
   word-break: keep-all;
 }
