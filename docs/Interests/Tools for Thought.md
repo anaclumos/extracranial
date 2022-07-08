@@ -5,10 +5,18 @@ slug: '/872B83'
 
 TODO: Convert this page into a more in-depth case study.
 
+## My take
+- If you don't know what you want, start from [Logseq](https://logseq.com/).
+	- It's simple, fast, local, completely free, and open-source.
+- If you know what you want, go with [Obsidian](https://obsidian.md/).
+	- It's highly customizable and free for local use.
+
+If you have more specific needs, then feel free to *roam* the list below... I am keeping my eyes on Visual Thinking tools.
+
 ## Second Brain
 - [Roam Research](https://roamresearch.com/): A note-taking tool for networked thought.
-- [Obsidian](https://obsidian.md/): A second brain, for you, forever.
-- [Logseq](https://logseq.com/): A privacy-first, open-source knowledge base
+- [Logseq](https://logseq.com/): Open-source alternative to Roam.
+- [Obsidian](https://obsidian.md/): Highly customizable (sometimes, too customizable) note-taking tool.
 - [Dendron](https://www.dendron.so/): Nonlinear PKM with directories.
 - [Scrintal](https://www.scrintal.com/): A hybrid note-taking & mind mapping whiteboard
 - [Heptabase](https://heptabase.com/): A note-taking tool for visual learning
