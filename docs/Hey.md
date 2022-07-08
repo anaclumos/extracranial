@@ -25,7 +25,7 @@ If you want internationalized content, check out my [blog section](https://cho.s
 
 > What does moving from mindless consumption to mindful creation look like? — [Building a Second Brain](Readings/Building%20a%20Second%20Brain.md)
 
-> _It’s hard to write notes that are worth developing over time. These principles help: ① Evergreen notes should be atomic ② Evergreen notes should be concept-oriented ③ Evergreen notes should be densely linked ④ Prefer associative ontologies to hierarchical taxonomies ⑤ Write notes for yourself by default, disregarding audience. This concept is enormously indebted to the notion of a Zettelkasten. See Similarities and differences between evergreen note-writing and Zettelkasten. _ - [Andy Matuschak](https://notes.andymatuschak.org/Evergreen_notes)
+> _It’s hard to write notes that are worth developing over time. These principles help: ① [Evergreen](Interests/Evergreen.md) notes should be atomic ② [Evergreen](Interests/Evergreen.md) notes should be concept-oriented ③ [Evergreen](Interests/Evergreen.md) notes should be densely linked ④ Prefer associative ontologies to hierarchical taxonomies ⑤ Write notes for yourself by default, disregarding audience. This concept is enormously indebted to the notion of a Zettelkasten. See Similarities and differences between [evergreen](Interests/Evergreen.md) note-writing and Zettelkasten. _ - [Andy Matuschak](https://notes.andymatuschak.org/Evergreen_notes)
 
 ## Basic Rules for Note-taking
 
