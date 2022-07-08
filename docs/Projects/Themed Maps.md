@@ -1,5 +1,5 @@
 ---
-title: 'Project Themed Maps'
+title: 'Themed Maps'
 slug: '/620B13'
 ---
 

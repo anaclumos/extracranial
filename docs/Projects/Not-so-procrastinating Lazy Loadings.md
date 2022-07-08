@@ -1,5 +1,5 @@
 ---
-title: 'Project Not-so-procrastinating Lazy Loadings'
+title: 'Not-So-Procrastinating Lazy Loadings'
 slug: '/9E64CE'
 ---
 

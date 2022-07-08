@@ -1,5 +1,5 @@
 ---
-title: 'Project OG Image as a Service'
+title: 'OG:Image-aaS'
 slug: '/2531E5'
 ---
 
