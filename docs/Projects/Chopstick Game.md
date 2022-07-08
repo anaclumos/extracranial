@@ -1,5 +1,5 @@
 ---
-title: 'Project Chopstick Game'
+title: 'Chopstick Game'
 slug: '/C4AC97'
 ---
 

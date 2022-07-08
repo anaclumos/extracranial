@@ -1,5 +1,5 @@
 ---
-title: 'Project Software enthusiast addicted to electronics'
+title: "Software Enthusiast's Electronics Addictions"
 slug: '/4AA0F0'
 ---
 

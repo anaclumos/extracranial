@@ -1,5 +1,5 @@
 ---
-title: 'Project Timebelt'
+title: 'Timebelt'
 slug: '/FABE84'
 ---
 
