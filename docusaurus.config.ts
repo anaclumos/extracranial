@@ -14,7 +14,7 @@ const config: Config = {
   tagline: 'I am Sunghyun Cho, traveling the WWW.',
   url: 'https://cho.sh',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'anaclumos',
