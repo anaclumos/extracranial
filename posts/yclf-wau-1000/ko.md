@@ -1,5 +1,5 @@
 ---
-title: 'YCLF 주간 사용자 1000명 🎉'
+title: 'YCLF 주간 사용자 1000명'
 date: 2020-08-01
 slug: '/06BDA3'
 ---

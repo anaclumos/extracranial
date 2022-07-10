@@ -3,15 +3,33 @@ import Link from '@docusaurus/Link'
 import Translate, { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
 import Layout from '@theme/Layout'
+import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
 
 const t = {
-  singular: <Translate id='blog.archive.post' />,
-  plural: <Translate id='blog.archive.posts' />,
+  singular: translate({
+    id: 'theme.blog.archive.post',
+    message: ' post',
+    description: 'The singular name of a blog post',
+  }),
+  plural: translate({
+    id: 'theme.blog.archive.posts',
+    message: ' posts',
+    description: 'The plural name of a blog post',
+  }),
 }
 
-const yearSuffix = <Translate id='blog.archive.yearsuffix' />
+const yearSuffix = translate({
+  id: 'theme.blog.archive.yearsuffix',
+  message: '',
+  description: 'The suffix of a year in a blog archive',
+})
 
-function Year({ year, posts }) {
+type YearProp = {
+  year: string
+  posts: ArchiveBlogPost[]
+}
+
+function Year({ year, posts }: YearProp) {
   return (
     <>
       <h3>
@@ -29,7 +47,8 @@ function Year({ year, posts }) {
     </>
   )
 }
-function YearsSection({ years }) {
+
+function YearsSection({ years }: { years: YearProp[] }) {
   return (
     <section className='margin-vert--lg'>
       <div className='container'>
@@ -44,18 +63,21 @@ function YearsSection({ years }) {
     </section>
   )
 }
-function listPostsByYears(blogPosts) {
+
+function listPostsByYears(blogPosts: readonly ArchiveBlogPost[]): YearProp[] {
   const postsByYear = blogPosts.reduceRight((posts, post) => {
-    const year = post.metadata.date.split('-')[0]
+    const year = post.metadata.date.split('-')[0]!
     const yearPosts = posts.get(year) ?? []
     return posts.set(year, [post, ...yearPosts])
-  }, new Map())
+  }, new Map<string, ArchiveBlogPost[]>())
+
   return Array.from(postsByYear, ([year, posts]) => ({
     year,
     posts,
   }))
 }
-export default function BlogArchive({ archive }) {
+
+export default function BlogArchive({ archive }: Props): JSX.Element {
   const title = translate({
     id: 'theme.blog.archive.title',
     message: 'Archive',
@@ -63,7 +85,7 @@ export default function BlogArchive({ archive }) {
   })
   const description = translate({
     id: 'theme.blog.archive.description',
-    message: 'Archive',
+    message: 'All posts that I wrote.',
     description: 'The page & hero description of the blog archive page',
   })
   const years = listPostsByYears(archive.blogPosts)
