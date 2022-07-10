@@ -35,6 +35,8 @@ def replace_wikilinks(file, all_files):
         lines = f.readlines()
     with open(file, 'w') as f:
         for line in lines:
+            line = line.replace(
+                "[[{{date:YYYY-MM-DD}}]]", "date:YYYY-MM-DD")j
             while "[[" in line:
                 # get the text between the [[ and ]]
                 wikilink = line.split("[[")[1].split("]]")[0]
