@@ -4,6 +4,7 @@ import Translate, { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
 import Layout from '@theme/Layout'
 import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
+import styles from './styles.module.css'
 
 const t = {
   singular: translate({
@@ -37,7 +38,7 @@ function Year({ year, posts }: YearProp) {
         {yearSuffix} — {posts.length}
         {posts.length > 1 ? t.plural : t.singular}
       </h3>
-      <ul>
+      <ul className={styles.list}>
         {posts.map((post) => (
           <li key={post.metadata.date}>
             <Link to={post.metadata.permalink}>{post.metadata.title}</Link>
