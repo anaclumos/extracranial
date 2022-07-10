@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75.1'
+title: 'Grind 75.1 Two Sum'
 slug: '/322CE5'
 ---
 
