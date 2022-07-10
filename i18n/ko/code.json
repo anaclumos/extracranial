@@ -329,11 +329,11 @@
   "I might not agree with this post anymore.": {
     "message": "저는 이 글에 더 이상 동의하지 않을지도 모릅니다."
   },
-  "blog.archive.posts": {
+  "theme.blog.archive.posts": {
     "message": "개의 글",
     "description": "Number of posts in the archive: plural"
   },
-  "blog.archive.post": {
+  "theme.blog.archive.post": {
     "message": "개의 글",
     "description": "Number of posts in the archive: singular"
   },
@@ -349,14 +349,14 @@
     "message": "닫기",
     "description": "The ARIA label for close button of PWA reload popup"
   },
-  "blog.archive.yearsuffix": {
+  "theme.blog.archive.yearsuffix": {
     "message": "년"
   },
   " year ago.": {
-    "message": "년 이상이 흘렀습니다."
+    "message": " 년이 지났습니다."
   },
   " years ago.": {
-    "message": "년 이상이 흘렀습니다."
+    "message": " 년이 지났습니다."
   },
   "Work in Progress": {
     "message": "작업 중입니다."

@@ -1,8 +1,12 @@
 import React from 'react'
 import DocItem from '@theme-original/DocItem'
+import type DocItemType from '@theme/DocItem'
+import type { WrapperProps } from '@docusaurus/types'
 import Head from '@docusaurus/Head'
 
-export default function DocItemWrapper(props) {
+type Props = WrapperProps<typeof DocItemType>
+
+export default function DocItemWrapper(props: Props): JSX.Element {
   const title = props.content.metadata.title
   const description = props.content.metadata.description
   return (

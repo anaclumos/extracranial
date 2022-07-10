@@ -6,11 +6,7 @@ import PostNotice from './PostNotice.module.css'
 const title = translate({ message: 'Old Post Ahead!' })
 
 type Props = {
-  frontMatter: any
-  assets: any
   metadata: any
-  isBlogPostPage: any
-  children: any
 }
 
 const bulletOneFront = translate({
