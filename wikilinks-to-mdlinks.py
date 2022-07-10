@@ -35,13 +35,12 @@ def replace_wikilinks(file, all_files):
         lines = f.readlines()
     with open(file, 'w') as f:
         for line in lines:
-            # if the line contains [[something]], search the term in the all_files list, and replace it with [something](found link)
-            if "[[" in line:
+            while "[[" in line:
                 # get the text between the [[ and ]]
                 wikilink = line.split("[[")[1].split("]]")[0]
                 # now, search for the wikilink in the all_files list
                 for searchfile in all_files:
-                    if wikilink in searchfile:
+                    if wikilink.lower() in searchfile.lower():
                         # if found, replace the wikilink with the link
                         import urllib.parse
                         searchfile = urllib.parse.quote(searchfile)
