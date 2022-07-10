@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Journals/2022-07-10.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true,
             "source": true
           }
@@ -117,14 +117,14 @@
   "active": "ef387d75fb44d920",
   "lastOpenFiles": [
     "Journals/2022-07-10.md",
+    "Journals/2022-06-20.md",
+    "Projects/Timebelt.md",
+    "Interests/Capital Driven User Growth.md",
+    "Projects/Hex as ID.md",
+    "Interests/PARA.md",
     "Journals/2022-07-09.md",
     "Journals/2022-07-08.md",
     "Journals/2022-07-07.md",
-    "Interests/Atomics.md",
-    "Interests/ACSM.md",
-    "Interests/PKM.md",
-    "Interests/WorkerDOM.md",
-    "Interests/Sandbox.md",
-    "Interests/ShadowRealm.md"
+    "Interests/Atomics.md"
   ]
 }
