@@ -1,5 +1,5 @@
 ---
-title: 'Chrome Extension을 Firefox Add-on으로 변환하기'
+title: '크롬 익스텐션을 파이어폭스로 옮기기'
 date: 2020-04-08
 slug: '/440E43'
 ---
