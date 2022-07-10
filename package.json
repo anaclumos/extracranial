@@ -10,7 +10,7 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "yarn build:config && docusaurus deploy",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear && rm -rf **/*.config.js && rm -rf **/*.stylesheet.js && rm -rf blog && rm -rf i18n/ko/docusaurus-plugin-content-blog",
+    "clear": "docusaurus clear && rm -rf **/*.config.js && rm -rf **/*.stylesheet.js && rm -rf blog && rm -rf docs && rm -rf i18n/ko/docusaurus-plugin-content-blog",
     "clean": "yarn clear",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
