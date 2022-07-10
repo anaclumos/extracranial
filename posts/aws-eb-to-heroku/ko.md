@@ -1,5 +1,5 @@
 ---
-title: 'Node.js 앱을 AWS Elastic Beanstalk에서 Heroku로 옮기는 방법'
+title: 'Node.js 앱을 AWS EB에서 Heroku로 옮기기'
 date: 2018-10-28
 slug: '/C855D4'
 ---
