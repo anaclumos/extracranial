@@ -51,3 +51,9 @@ class Solution:
 ## Results
 - Runtime: 60 ms, faster than 97.16% of Python3 online submissions for Two Sum.
 - Memory Usage: 15.4 MB, less than 14.24% of Python3 online submissions for Two Sum.
+
+## Other Answers Online
+- Sort first, $O(n \log n)$
+- For all elements, $O(n)$
+	- Perform binary search $O(\log n)$
+- In total: $O(n \log n)$
