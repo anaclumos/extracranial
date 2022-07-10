@@ -43,8 +43,8 @@ def replace_wikilinks(file, all_files):
                 for searchfile in all_files:
                     if wikilink in searchfile:
                         # if found, replace the wikilink with the link
-                        # encode URI
-                        searchfile = searchfile.replace(" ", "%20")
+                        import urllib.parse
+                        searchfile = urllib.parse.quote(searchfile)
                         # count the number of slashes in the file
                         num_slashes = file.count("/")
                         # add "../" for each slash

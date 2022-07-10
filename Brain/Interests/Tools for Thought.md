@@ -6,18 +6,20 @@ slug: '/872B83'
 TODO: Convert this page into a more in-depth case study.
 
 ## My take
-- If you don't know what you want, start from [Logseq](https://logseq.com/).
-	- It's simple, fast, local, completely free, and open-source.
-- If you know what you want, go with [Obsidian](https://obsidian.md/).
-	- It's highly customizable and free for local use.
 
-If you have more specific needs, then feel free to *roam* the list below... I am keeping my eyes on Visual Thinking tools.
+- If you don't know what you want, start from [Logseq](https://logseq.com/).
+  - It's simple, fast, local, completely free, and open-source.
+- If you know what you want, go with [Obsidian](https://obsidian.md/).
+  - It's highly customizable and free for local use.
+
+If you have more specific needs, then feel free to _roam_ the list below... I am keeping my eyes on Visual Thinking tools.
 
 ## Second Brain
+
 - [Roam Research](https://roamresearch.com/): A note-taking tool for networked thought.
 - [Logseq](https://logseq.com/): Open-source alternative to Roam.
 - [Obsidian](https://obsidian.md/): Highly customizable (sometimes, too customizable) note-taking tool.
-- [Dendron](https://www.dendron.so/): Nonlinear [PKM](PKM.md) with directories.
+- [Dendron](https://www.dendron.so/): Nonlinear [[PKM]] with directories.
 - [Scrintal](https://www.scrintal.com/): A hybrid note-taking & mind mapping whiteboard
 - [Heptabase](https://heptabase.com/): A note-taking tool for visual learning
 - [Mem](https://get.mem.ai/): Zettlekasten-like short-note service.
@@ -62,7 +64,8 @@ If you have more specific needs, then feel free to *roam* the list below... I am
 - [Docusaurus](https://docusaurus.io/)
 
 ## One radical idea...
+
 - Write everything as small chunks of notes (Posts.)
 - Let web indexing do all of the interlinkings.
-- You *search* this custom search engine indices to pull up whatever you want to think "interlinkedly."
+- You _search_ this custom search engine indices to pull up whatever you want to think "interlinkedly."
 - Basically, give up linking things.

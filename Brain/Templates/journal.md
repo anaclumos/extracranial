@@ -9,9 +9,11 @@ import WIP from '@site/src/components/WIP'
 
 <WIP />
 
-## Today's [Pragmatic Engineer](../Interests/Pragmatic%20Engineer.md)
+## Today's [[Pragmatic Engineer]]
 
-## Today's [Hacker News](../Interests/Hacker%20News.md)
+## [[Grind 75]]
+
+## Today's [[Hacker News]]
 
 ## Work Notes
 
