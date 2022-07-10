@@ -3,8 +3,8 @@ title: 'PARA Architecture'
 slug: '/B4364B'
 ---
 
-- PARA is a second-brain framework, mentioned in [Building a Second Brain](../Readings/Building%20a%20Second%20Brain.md)
-- Often used with [CODE](CODE.md)
+- PARA is a second-brain framework, mentioned in [[Building a Second Brain]]
+- Often used with [[CODE]]
 
 | Type      | Detail                                  | Examples                                         |
 | --------- | --------------------------------------- | ------------------------------------------------ |
@@ -12,4 +12,3 @@ slug: '/B4364B'
 | Areas     | Tasks that require continuous attention | Life, Relationships, etc.                        |
 | Resources | Topics that hold extended interest      | Research, Studies, Hobbies, etc.                 |
 | Archive   | Archiving                               | Past or Expired Projects, Areas, Resources, etc. |
-

@@ -19,7 +19,7 @@ Brane's idea loosely follows the Progressive Web App and MiniApp Standardization
 ## Brane MVP
 
 - Forced Shutdown and Preloading.
-  - Prerequisite: [Sandbox](../Interests/Sandbox.md) Environment.
+  - Prerequisite: [[Sandbox]] Environment.
   - Demonstrate preloading with Web-view-based Mini App.
   - Demonstrate Forced Shutdown even when Mini App does not respond.
 - Basic Multitasking.
