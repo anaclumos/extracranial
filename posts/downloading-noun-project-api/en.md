@@ -1,5 +1,5 @@
 ---
-title: 'Downloading hundreds of icons using The Noun Project API'
+title: 'Batch Downloading Icons with TheNounProject API'
 date: 2020-10-30
 slug: '/589DF4'
 ---
