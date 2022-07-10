@@ -4,11 +4,11 @@ slug: '/D518B0'
 ---
 
 - Grind 75 is a collection of coding test practice sets. It aims to cover all of the major topics in programming exams in 8 weeks.
-- [Link](https://www.techinterviewhandbook.org/grind75)
 - Will use [[Python]] (main language) and [[C++]] (supplementary language)
+- [Link](https://www.techinterviewhandbook.org/grind75)
 
 ## Week 1
-- [ ] [Two Sum](https://leetcode.com/problems/two-sum) [[Grind 75.1]]
+- [ ] [[Grind 75.1 Two Sum]]
 - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
