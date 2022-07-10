@@ -1,5 +1,5 @@
 ---
-title: 'The Noun Project API로 아이콘 수백 개 단숨에 다운로드하기'
+title: 'API로 아이콘 수천개 내려받기'
 date: 2020-10-30
 slug: '/589DF4'
 ---

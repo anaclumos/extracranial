@@ -1,5 +1,5 @@
 ---
-title: 'Ghost 테마를 Github Actions로 자동 배포하는 방법'
+title: 'Ghost 테마를 자동 배포하는 방법'
 date: 2019-11-16
 slug: '/0F1FE2'
 ---
