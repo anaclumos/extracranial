@@ -1,5 +1,5 @@
 ---
-title: 'How Woowahan Brothers FE Devs Work: Part 2'
+title: 'How Woowa Bros FE Devs Work: Part 2'
 date: 2020-07-21
 slug: '/4836FE'
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'My Internship at Woowahan Brothers'
+title: 'My Internship at Woowa Bros'
 date: 2021-05-21
 slug: 'E2CAE4'
 ---

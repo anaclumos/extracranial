@@ -1,5 +1,5 @@
 ---
-title: 'Migrating a Node.js app from AWS Elastic Beanstalk to Heroku'
+title: 'Migrating Node.js apps from AWS EB to Heroku'
 date: 2018-10-28
 slug: '/C855D4'
 ---
