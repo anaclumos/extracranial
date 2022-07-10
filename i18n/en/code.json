@@ -329,10 +329,10 @@
   "I might not agree with this post anymore.": {
     "message": "I might not agree with this post anymore."
   },
-  "blog.archive.posts": {
+  "theme.blog.archive.posts": {
     "message": " posts"
   },
-  "blog.archive.post": {
+  "theme.blog.archive.post": {
     "message": " post"
   },
   "theme.PwaReloadPopup.info": {
@@ -347,7 +347,7 @@
     "message": "Close",
     "description": "The ARIA label for close button of PWA reload popup"
   },
-  "blog.archive.yearsuffix": {
+  "theme.blog.archive.yearsuffix": {
     "message": ""
   },
   " year ago.": {
