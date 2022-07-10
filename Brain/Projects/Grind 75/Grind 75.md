@@ -9,7 +9,7 @@ slug: '/D518B0'
 
 ## Week 1
 - [x] [[Grind 75.1 Two Sum]]
-- [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+- [x] [[Grind 75.2 Valid Parentheses]]
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
