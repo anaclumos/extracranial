@@ -38,6 +38,7 @@ def replace_wikilinks(file, all_files):
             line = line.replace(
                 "[[{{date:YYYY-MM-DD}}]]", "date:YYYY-MM-DD")
             while "[[" in line:
+                print(line)
                 # get the text between the [[ and ]]
                 wikilink = line.split("[[")[1].split("]]")[0]
                 # now, search for the wikilink in the all_files list
@@ -56,6 +57,10 @@ def replace_wikilinks(file, all_files):
                         print("Replaced [[" + wikilink + "]] with [" +
                               wikilink + "](" + searchfile + ")") if DEBUG else None
                         break
+                # if the wikilink was not found, just remove the [[ and ]]
+                if wikilink not in searchfile:
+                    line = line.replace("[[", "")
+                    line = line.replace("]]", "")
             f.write(line)
 
 

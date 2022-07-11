@@ -7,15 +7,16 @@ import WIP from '@site/src/components/WIP'
 
 <WIP />
 
-
 ## Think this way
-- Fascinating science behind nuclear physics and the wrath of atomic weapons are *separate*.
+
+- Fascinating science behind nuclear physics and the wrath of atomic weapons are _separate_.
 - Similarly, elegant information technology and the erosion of human consciousness by digital addiction are irrelevant.
 
 ## Outline
+
 - 나는 컴퓨터과학이 연 지식의 새로운 지평에 경이로움을 느끼면서도
 - 그것을 악용하여 인류의 집중력을 갉아먹는 도구들에 환멸감을 느끼며
-- 그것을 알면서도 디지털 기기들에  중독되는 내가 싫다
+- 그것을 알면서도 디지털 기기들에 중독되는 내가 싫다
 - Mindless digital consumption
 - How do you convert that momentum into digital creations?
 - How do you get the fruit out of fast internet media
