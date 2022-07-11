@@ -19,8 +19,8 @@
     "message": "독서록",
     "description": "The label for category Readings in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Interests": {
-    "message": "관심사",
-    "description": "The label for category Interests in sidebar sidebar"
+  "sidebar.sidebar.category.Research": {
+    "message": "연구",
+    "description": "The label for category Research in sidebar sidebar"
   }
 }
