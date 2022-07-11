@@ -25,7 +25,7 @@ If you have more specific needs, then feel free to _roam_ the list below... I am
 - [Mem](https://get.mem.ai/): Zettlekasten-like short-note service.
 - [WorkFlowy](https://workflowy.com/): Outliner.
 - [Heyday](https://heyday.xyz/): Search engine, but from your browsing history.
-- [Typed](https://typed.do/features): Some all-in-one Notion + Google Docs + Gmail + Task manager app.
+- [Typed](https://typed.do/features): Some all-in-one [[Notion]] + Google Docs + Gmail + Task manager app.
 - [Weavit](https://www.weavit.ai/): Take small chunks of notes. Weavit automatically interlinks them.
 - [Readwise](https://readwise.io/): Specialized in memorizing emails and ebooks.
 - [Dynalist](https://dynalist.io/): Outlining app.
