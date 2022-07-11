@@ -7,7 +7,7 @@ const sidebarDivider = {
 }
 
 const sidebarProcessor = (items) => {
-  const preferredOrder = ['Hey', 'Journals', 'Projects', 'Interests', 'Readings', 'Archive']
+  const preferredOrder = ['Hey', 'Journals', 'Projects', 'Research', 'Readings', 'Archive']
   const orderedItems = []
   preferredOrder.forEach((item) => {
     const itemToAdd = items.find((i) => i.label === item || i.id === item)
