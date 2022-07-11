@@ -14,4 +14,8 @@ import WIP from '@site/src/components/WIP'
 ## Fixed
 
 - Doesn't show `editUrl` when there are no tags.
-  - Fixed & Contributed & Merged [fix\(theme\): show blog post edit link even when no tag & not truncated by anaclumos · Pull Request #7727 · facebook/docusaurus](https://github.com/facebook/docusaurus/pull/7727)
+  - Fixed & Contributed & Merged
+  - [fix\(theme\): show blog post edit link even when no tag & not truncated by anaclumos · Pull Request #7727 · facebook/docusaurus](https://github.com/facebook/docusaurus/pull/7727)
+- Algolia Korean Translations
+	- Fixed & Contributed
+	- [chore\(theme-translations\): complete ko translations by anaclumos · Pull Request #7762 · facebook/docusaurus](https://github.com/facebook/docusaurus/pull/7762)
