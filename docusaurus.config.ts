@@ -32,6 +32,15 @@ const config: Config = {
   ],
   stylesheets: [katexStylesheet],
   themeConfig: {
+    algolia: {
+      appId: 'YYIGMBHSI6',
+      apiKey: '4f28c78c43e91f6f922d20140434977f',
+      indexName: 'cho',
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
+      debug: false,
+    },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
