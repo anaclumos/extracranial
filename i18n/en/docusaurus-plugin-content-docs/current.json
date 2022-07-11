@@ -19,8 +19,8 @@
     "message": "Readings",
     "description": "The label for category Readings in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Interests": {
-    "message": "Interests",
-    "description": "The label for category Interests in sidebar sidebar"
+  "sidebar.sidebar.category.Research": {
+    "message": "Research",
+    "description": "The label for category Research in sidebar sidebar"
   }
 }

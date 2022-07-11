@@ -1,7 +1,6 @@
 ---
-title: 'template'
-slug: '/FFFFFF'
-draft: true
+title: 'Web Worker'
+slug: '/E540BB'
 ---
 
 import WIP from '@site/src/components/WIP'
