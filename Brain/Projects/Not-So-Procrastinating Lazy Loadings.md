@@ -7,5 +7,5 @@ import WIP from '@site/src/components/WIP'
 
 <WIP />
 
-- `img loading=lazy` 
+- `img loading=lazy`
 - If network idles for a given timespan, starts preloading lazy data

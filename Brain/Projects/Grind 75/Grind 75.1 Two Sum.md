@@ -6,13 +6,15 @@ slug: '/322CE5'
 Solved at: [[2022-07-10]]
 
 ## Question
+
 - [Two Sum - LeetCode](https://leetcode.com/problems/two-sum/)
 
-Given an array of integers `nums` and an integer `target`, return _indices of the two numbers such that they add up to `target`_.
-You may assume that each input would have **_exactly_ one solution**, and you may not use the _same_ element twice.
+Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
+You may assume that each input would have ***exactly* one solution**, and you may not use the *same* element twice.
 You can return the answer in any order.
 
 ## Solution
+
 So the first obvious answer is to iterate twice.
 This finishes calculations in $O(n^2)$ time.
 
@@ -38,10 +40,10 @@ I used [[Python Dictionary]] to store complementing values. [[Python Dictionary]
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        
+
         # map for complementing elements: complementary-idx
         complementing_map = {}
-        
+
         for idx, val in enumerate(nums):
             if val in complementing_map:
                 return [complementing_map[val], idx]
@@ -49,11 +51,13 @@ class Solution:
 ```
 
 ## Results
+
 - Runtime: 60 ms, faster than 97.16% of Python3 online submissions for Two Sum.
 - Memory Usage: 15.4 MB, less than 14.24% of Python3 online submissions for Two Sum.
 
 ## Other Answers Online
+
 - Sort first, $O(n \log n)$
 - For all elements, $O(n)$
-	- Perform binary search $O(\log n)$
+  - Perform binary search $O(\log n)$
 - In total: $O(n \log n)$
