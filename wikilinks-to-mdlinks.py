@@ -38,7 +38,8 @@ def replace_wikilinks(file, all_files):
             line = line.replace(
                 "[[{{date:YYYY-MM-DD}}]]", "date:YYYY-MM-DD")
             while "[[" in line:
-                print(line)
+                print()
+                print(line.rstrip("\n"))
                 # get the text between the [[ and ]]
                 wikilink = line.split("[[")[1].split("]]")[0]
                 # now, search for the wikilink in the all_files list
@@ -54,7 +55,7 @@ def replace_wikilinks(file, all_files):
                             (num_slashes - 1) + searchfile
                         line = line.replace(
                             "[[" + wikilink + "]]", "[" + wikilink + "](" + searchfile + ")")
-                        print("Replaced [[" + wikilink + "]] with [" +
+                        print("→ Replaced [[" + wikilink + "]] with [" +
                               wikilink + "](" + searchfile + ")") if DEBUG else None
                         break
                 # if the wikilink was not found, just remove the [[ and ]]
