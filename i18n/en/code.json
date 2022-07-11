@@ -330,10 +330,12 @@
     "message": "I might not agree with this post anymore."
   },
   "theme.blog.archive.posts": {
-    "message": " posts"
+    "message": " posts",
+    "description": "The plural name of a blog post"
   },
   "theme.blog.archive.post": {
-    "message": " post"
+    "message": " post",
+    "description": "The singular name of a blog post"
   },
   "theme.PwaReloadPopup.info": {
     "message": "New version available",
@@ -348,7 +350,8 @@
     "description": "The ARIA label for close button of PWA reload popup"
   },
   "theme.blog.archive.yearsuffix": {
-    "message": ""
+    "message": "",
+    "description": "The suffix of a year in a blog archive"
   },
   " year ago.": {
     "message": " year ago."
@@ -367,5 +370,25 @@
   },
   "Therefore, if you speak different languages, look for this post in that language.": {
     "message": "Therefore, if you speak different languages, look for this post in that language."
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "caution",
+    "description": "The default label used for the Caution admonition (:::caution)"
   }
 }
