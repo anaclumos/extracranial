@@ -452,7 +452,7 @@
     "description": "The text for the report missing results text in the search modal"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
-    "message": "다른 추천 검색어: ",
+    "message": "다른 추천 검색어",
     "description": "The text for the suggested query in the search modal"
   },
   "theme.SearchModal.placeholder": {
