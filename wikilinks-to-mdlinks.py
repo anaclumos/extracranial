@@ -2,7 +2,7 @@ import shutil
 import os
 SOURCE_DIR = './Brain'
 DESTINATION_DIR = './docs'
-DEBUG = True
+DEBUG = False
 
 # first, remove all files in the target directory
 if os.path.isdir(DESTINATION_DIR):
@@ -38,8 +38,8 @@ def replace_wikilinks(file, all_files):
             line = line.replace(
                 "[[{{date:YYYY-MM-DD}}]]", "date:YYYY-MM-DD")
             while "[[" in line:
-                print()
-                print(line.rstrip("\n"))
+                print() if DEBUG else None
+                print(line.rstrip("\n")) if DEBUG else None
                 # get the text between the [[ and ]]
                 wikilink = line.split("[[")[1].split("]]")[0]
                 # now, search for the wikilink in the all_files list

@@ -22,5 +22,13 @@
   "sidebar.sidebar.category.Research": {
     "message": "연구",
     "description": "The label for category Research in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Grind 75": {
+    "message": "Grind 75",
+    "description": "The label for category Grind 75 in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Python": {
+    "message": "Python",
+    "description": "The label for category Python in sidebar sidebar"
   }
 }
