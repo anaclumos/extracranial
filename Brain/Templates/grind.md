@@ -1,6 +1,6 @@
 ---
 title: 'Grind 75.0'
-slug: '/FFFFFF'
+slug: '/EEEEEE'
 draft: true
 ---
 
