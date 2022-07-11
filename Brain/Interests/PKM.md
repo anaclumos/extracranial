@@ -1,7 +1,7 @@
 ---
-title: 'Personal Knowledge Management'
+title: 'Personal Knowledge Management
 slug: '/E9DD55'
-aliases: ['PKM']
+aliases: ['Personal Knowledge Management]
 ---
 
 - Usually, Nonlinear, spider-web-like notes

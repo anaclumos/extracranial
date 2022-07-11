@@ -35,8 +35,8 @@ If you have more specific needs, then feel free to _roam_ the list below... I am
 - [Matter](https://hq.getmatter.app/): Matter pulls everything you want to read into one place.
 - [Clarity](https://www.clarity.so/): The DAO Contribution Platform.
 - [Notion](https://www.notion.so/): Hybrid workspace, batteries like databasing included.
-- [Saga](https://saga.so/): Notion-like service, but more focus on automatic information linkings.
-- [Craft](https://www.craft.do/): Notion-like service, but more focus on supporting native platforms.
+- [Saga](https://saga.so/): [[Notion]]-like service, but more focus on automatic information linkings.
+- [Craft](https://www.craft.do/): [[Notion]]-like service, but more focus on supporting native platforms.
 - [Coda](https://coda.io/): Notetaking service for teams.
 - [Miro](https://miro.com/): Visual thinking for teams.
 - [mmhmm](https://www.mmhmm.app/home): Collaborative video workspace for teams
