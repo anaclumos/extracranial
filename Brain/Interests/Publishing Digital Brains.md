@@ -46,7 +46,7 @@ For this system, I worked on implementing the [[PARA]] system with [Docusaurus](
 - [构建我的被动收入](https://www.bmpi.dev/)
 - [README](https://logseq.abosen.top/#/page/README)
 
-## Functional Websites
+## Functional Web & [[Notion]]
 
 - [Victor Dibia](https://victordibia.com/)
 - [Tania Rascia](https://www.taniarascia.com/)
