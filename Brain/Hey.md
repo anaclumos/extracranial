@@ -50,4 +50,4 @@ This [[PKM]] will _not_ follow outliner UX. I believe in the potential of freefo
 - This website fetches contents from my [Obsidian](https://obsidian.md) vault into a heavily customized [TS](https://www.typescriptlang.org/) [Docusaurus](https://docusaurus.io) on [React](https://reactjs.org).
 - Open-sourced! [anaclumos/www: Traveling the world wide web, searching for the truth.](https://github.com/anaclumos/www)
 - It uses Vercel for frontend building and Cloudflare for caching and distributing.
-- I used several [[PKM]]s, notably Roam, Logseq, Notion, and Craft. I am also a contributor to Logseq. I am currently using Obsidian, but I might switch to a new one soon.
+- I used several [[PKM]]s, notably Roam, Logseq, [[Notion]], and Craft. I am also a contributor to Logseq. I am currently using Obsidian, but I might switch to a new one soon.
