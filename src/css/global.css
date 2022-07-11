@@ -89,18 +89,13 @@ figure {
 img {
   margin: 0 auto;
   border-radius: 0.5rem;
+  max-height: 25rem;
+  width: auto;
 }
 
 figure > p {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  width: 100%;
-}
-
-figure > p > * {
-  margin: 0;
-  padding: 0;
-  width: 100%;
 }
 
 figcaption {
