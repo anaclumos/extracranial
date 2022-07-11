@@ -15,6 +15,7 @@ Some things that I currently don't like about [[Obsidian]]:
 - Encapsulate Markdown File to Folder
   - `Brane.md` → `Brane/Brane.md`
   - For Foldering Purposes
+- List view for Daily Notes like [[Roam]] and [[Logseq]]
 
 import WIP from '@site/src/components/WIP'
 
