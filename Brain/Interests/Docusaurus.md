@@ -1,10 +1,7 @@
 ---
-title: 'template'
-slug: '/FFFFFF'
-draft: true
+title: 'Docusaurus'
+slug: '/816CC8'
 ---
-
-[[Branes]]
 
 import WIP from '@site/src/components/WIP'
 
