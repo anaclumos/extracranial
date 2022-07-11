@@ -504,7 +504,7 @@
     "description": "The title for the empty results page"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "\"{query}\"에 대한 검색 결과",
+    "message": "\"{query}\" 검색 결과",
     "description": "The title for the existing results page"
   },
   "theme.SearchPage.fetchingNewResults": {
