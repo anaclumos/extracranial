@@ -44,7 +44,7 @@ def replace_wikilinks(file, all_files):
                 wikilink = line.split("[[")[1].split("]]")[0]
                 # now, search for the wikilink in the all_files list
                 for searchfile in all_files:
-                    if wikilink.lower() in searchfile.lower():
+                    if wikilink.lower() == searchfile.split("/")[-1].replace(".md", "").replace(".mdx", "").lower():
                         # if found, replace the wikilink with the link
                         import urllib.parse
                         searchfile = urllib.parse.quote(searchfile)
