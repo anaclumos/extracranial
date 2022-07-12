@@ -17,20 +17,19 @@ If you seek internationalized content, check out my [blog](https://cho.sh/blog/a
 노트는 한국어와 영어로 작성할 것이며 노트를 번역할 계획은 없습니다.
 국제화된 콘텐츠를 찾으신다면 [블로그](https://cho.sh/ko/blog/archive)를 확인해 보시기 바랍니다.
 
-- Keep the note loosely folder-ed.
-- Do not make a data pile.
-	- ASAP: As Short As Possible.
-	- Rewrite and compress.
-	- [[Building a Second Brain|BASB]] recommends compressing 50x.
+- Avoid deep folder structures.
+- Avoid data pile
+	- Rewrite & Compress.
+	- [[Building a Second Brain|BASB]] recommends compressing 50×.
 - Inliner (Freeform Text)
-	- Opposite of Outliner.
-	- Write paragraphs, but write each sentence one line.
-	- Markdown will convert it into a flowing paragraph.
+	- Opposite of Outliner
+	- Write one sentence per line without bullets
+	- Markdown will convert it into a freeform paragraph text.
 	- [Just like this very page.](https://raw.githubusercontent.com/anaclumos/www/main/Brain/Hey.md)
 
 ## Tech Stacks
 
 I use [[Obsidian]] for taking notes.
-I compile those notes and pipeline them into a heavily customized [[TS]] [[Docusaurus]] on [[React]].
-It uses [[Vercel]] for frontend building and Cloudflare for caching and distributing.
-Finally, it is open-sourced on [GitHub](https://github.com/anaclumos/www), so take a look.
+I pipeline those notes into a heavily customized [[TS]] [[Docusaurus]] with custom [[React]] components.
+I use [[Vercel]] for deploying and [[Cloudflare]] for caching and distributing.
+Finally, I open-sourced it on [GitHub](https://github.com/anaclumos/www), so take a look.
