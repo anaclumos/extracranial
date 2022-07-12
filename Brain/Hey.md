@@ -1,5 +1,5 @@
 ---
-title: 'Hey.'
+title: 'Hey'
 slug: '/hey'
 ---
 
