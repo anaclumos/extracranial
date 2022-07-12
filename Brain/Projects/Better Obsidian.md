@@ -33,4 +33,9 @@ slug: '/9E4E7C'
 
 import WIP from '@site/src/components/WIP'
 
+### Anonymized Images
+
+- Not `Pasted Image YYYY`
+- Not `Original Name Whatsoever`
+
 <WIP />
