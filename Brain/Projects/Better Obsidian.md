@@ -19,6 +19,7 @@ Some things that I currently don't like about [[Obsidian]]:
 - Auto Delete Empty Files (literally empty, or templated but empty)
 - Format Markdown
 - MDX Support?
+- Prettier for Code Blocks
 
 import WIP from '@site/src/components/WIP'
 
