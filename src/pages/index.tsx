@@ -14,57 +14,147 @@ const HeroText = () => {
     <>
       <Head>
         <title>{siteConfig.title}</title>
-        <meta name='description' content={siteConfig.tagline} />
-        <meta property='og:title' content={siteConfig.title} />
-        <meta property='og:description' content={siteConfig.tagline} />
-        <meta property='og:image' content='https://cho.sh/img/ogimage.png' />
-        <link rel='icon' href='https://cho.sh/img/favicon.png' />
-        <meta name='naver-site-verification' content='15b31306fd3391cd0bf411b1d49160aa02dd3cad' />
+        <meta
+          name="description"
+          content={siteConfig.tagline}
+        />
+        <meta
+          property="og:title"
+          content={siteConfig.title}
+        />
+        <meta
+          property="og:description"
+          content={siteConfig.tagline}
+        />
+        <meta
+          property="og:image"
+          content="https://cho.sh/img/ogimage.png"
+        />
+        <link
+          rel="icon"
+          href="https://cho.sh/img/favicon.png"
+        />
+        <meta
+          name="naver-site-verification"
+          content="15b31306fd3391cd0bf411b1d49160aa02dd3cad"
+        />
       </Head>
       <header>
         <h1 className={styles.intro}>
           <EmojiReplaceableText
             text={translate({ message: 'Sunghyun' })}
             photo={Profile}
-            photoAlt={translate({ message: 'Sunghyun Profile Image' })}
-            emojiByDefault='emoji'
+            photoAlt={translate({
+              message: 'Sunghyun Profile Image',
+            })}
+            emojiByDefault="emoji"
           />
           <Translate>{' is a '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'computer scientist' })} emoji='🧑🏻‍💻' emojiByDefault='emoji' />
-          <Translate>{' based in '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'Los Angeles' })} emoji='🇺🇸' emojiByDefault='emoji' />
-          <Translate>{' and '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'Seoul' })} emoji='🇰🇷' emojiByDefault='emoji' />
-          <Translate>{'. He currently works at a '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'unicorn' })} emoji='🦄' emojiByDefault='emoji' />
-          <Translate>{' company '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'Karrot' })} emoji='🥕' emojiByDefault='emoji' />
-          <Translate>{', researching secure sandboxing model for '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'mini-apps' })} emoji='📱' emojiByDefault='emoji' />
-          <Translate>{'. He usually works on next-gen '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'web' })} emoji='🕸' emojiByDefault='emoji' />
-          <Translate>{' technologies, while his interest spans across variety of fields like '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'computer graphics' })} emoji='👾' emojiByDefault='emoji' />
-          <Translate>{', '}</Translate>
           <EmojiReplaceableText
-            text={translate({ message: 'artificial intelligences in medicine' })}
-            emoji='💊'
-            emojiByDefault='emoji'
+            text={translate({
+              message: 'computer scientist',
+            })}
+            emoji="🧑🏻‍💻"
+            emojiByDefault="emoji"
+          />
+          <Translate>{' based in '}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'Los Angeles' })}
+            emoji="🇺🇸"
+            emojiByDefault="emoji"
+          />
+          <Translate>{' and '}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'Seoul' })}
+            emoji="🇰🇷"
+            emojiByDefault="emoji"
+          />
+          <Translate>
+            {'. He currently works at a '}
+          </Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'unicorn' })}
+            emoji="🦄"
+            emojiByDefault="emoji"
+          />
+          <Translate>{' company '}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'Karrot' })}
+            emoji="🥕"
+            emojiByDefault="emoji"
+          />
+          <Translate>
+            {', researching secure sandboxing model for '}
+          </Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'mini-apps' })}
+            emoji="📱"
+            emojiByDefault="emoji"
+          />
+          <Translate>
+            {'. He usually works on next-gen '}
+          </Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'web' })}
+            emoji="🕸"
+            emojiByDefault="emoji"
+          />
+          <Translate>
+            {
+              ' technologies, while his interest spans across variety of fields like '
+            }
+          </Translate>
+          <EmojiReplaceableText
+            text={translate({
+              message: 'computer graphics',
+            })}
+            emoji="👾"
+            emojiByDefault="emoji"
           />
           <Translate>{', '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'fusion energies' })} emoji='☢️' emojiByDefault='emoji' />
+          <EmojiReplaceableText
+            text={translate({
+              message:
+                'artificial intelligences in medicine',
+            })}
+            emoji="💊"
+            emojiByDefault="emoji"
+          />
+          <Translate>{', '}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'fusion energies' })}
+            emoji="☢️"
+            emojiByDefault="emoji"
+          />
           <Translate>{', and '}</Translate>
           <EmojiReplaceableText
-            text={translate({ message: 'space terraformings' })}
-            emoji='🚀'
-            emojiByDefault='emoji'
+            text={translate({
+              message: 'space terraformings',
+            })}
+            emoji="🚀"
+            emojiByDefault="emoji"
           />
-          <Translate>{'. When he is not coding, he enjoys learning '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'modern history' })} emoji='🗞' emojiByDefault='emoji' />
+          <Translate>
+            {'. When he is not coding, he enjoys learning '}
+          </Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'modern history' })}
+            emoji="🗞"
+            emojiByDefault="emoji"
+          />
           <Translate>{' and '}</Translate>
-          <EmojiReplaceableText text={translate({ message: 'economics' })} emoji='🏦' emojiByDefault='emoji' />
+          <EmojiReplaceableText
+            text={translate({ message: 'economics' })}
+            emoji="🏦"
+            emojiByDefault="emoji"
+          />
           <Translate>{'. '}</Translate>
-          <a href='https://mailhide.io/e/IXndXpED' target='_blank' rel='noopener noreferrer' className={styles.email}>
+          <a
+            href="https://mailhide.io/e/IXndXpED"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.email}
+          >
             <span className={styles.nowrap}>
               <Translate>Get in touch.</Translate>
             </span>
@@ -78,7 +168,10 @@ const HeroText = () => {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout title={`${siteConfig.title}`} description={siteConfig.tagline}>
+    <Layout
+      title={`${siteConfig.title}`}
+      description={siteConfig.tagline}
+    >
       <main className={styles.mainContainer}>
         <HeroText />
         <Globe />
