@@ -5,9 +5,9 @@ slug: '/9E4E7C'
 
 Some things that I currently don't like about [[Obsidian]]:
 
-- Aliases should have consistency with normal links.
+- Aliases should have consistency with standard links.
   - `Personal Knowledge Management` and `PKM` should act the same.
-  - Not in some weird format like `PKM|Personal Knowledge Management`.
+  - Not in some weird format like `PKM|Personal Knowledge Management.`
 - Advanced Templating
   - run functions like `getRandomHex()` when creating new posts
 - Exclude URLs in unlinked mentions
@@ -17,6 +17,8 @@ Some things that I currently don't like about [[Obsidian]]:
   - For Foldering Purposes
 - List view for Daily Notes like [[Roam]] and [[Logseq]]
 - Auto Delete Empty Files (literally empty, or templated but empty)
+- Format Markdown
+- MDX Support?
 
 import WIP from '@site/src/components/WIP'
 
