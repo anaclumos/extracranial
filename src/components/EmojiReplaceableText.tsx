@@ -11,21 +11,40 @@ type Props = {
 }
 
 const EmojiReplaceableText = (props: Props) => {
-  const { text, emoji, photo, emojiByDefault, countdown, photoAlt } = props
-  const [showEmoji, setShowEmoji] = React.useState(emojiByDefault === 'emoji')
-  const handleClick = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
+  const {
+    text,
+    emoji,
+    photo,
+    emojiByDefault,
+    countdown,
+    photoAlt,
+  } = props
+  const [showEmoji, setShowEmoji] = React.useState(
+    emojiByDefault === 'emoji'
+  )
+  const handleClick = (
+    e: React.MouseEvent<HTMLSpanElement, MouseEvent>
+  ) => {
     e.preventDefault()
     setShowEmoji(!showEmoji)
   }
 
   return (
-    <span onClick={handleClick} className={styles.emojiReplaceableText}>
+    <span
+      onClick={handleClick}
+      className={styles.emojiReplaceableText}
+    >
       {showEmoji ? (
         emoji === undefined ? (
           photo === undefined ? (
             text
           ) : (
-            <img src={photo} alt={photoAlt} width='38px' height='38px' />
+            <img
+              src={photo}
+              alt={photoAlt}
+              width="38px"
+              height="38px"
+            />
           )
         ) : (
           <span className={styles.emoji}>{emoji}</span>

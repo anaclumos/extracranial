@@ -7,10 +7,19 @@ const sidebarDivider = {
 }
 
 const sidebarProcessor = (items) => {
-  const preferredOrder = ['Hey', 'Journals', 'Projects', 'Research', 'Readings', 'Archive']
+  const preferredOrder = [
+    'Hey',
+    'Journals',
+    'Projects',
+    'Research',
+    'Readings',
+    'Archive',
+  ]
   const orderedItems = []
   preferredOrder.forEach((item) => {
-    const itemToAdd = items.find((i) => i.label === item || i.id === item)
+    const itemToAdd = items.find(
+      (i) => i.label === item || i.id === item
+    )
     if (itemToAdd) {
       orderedItems.push(itemToAdd)
     }
@@ -25,7 +34,9 @@ const sidebarProcessor = (items) => {
       if (item.label === 'Journals') {
         item.items = item.items.sort().reverse()
       } else {
-        item.items = item.items.sort(() => Math.random() - 0.5)
+        item.items = item.items.sort(
+          () => Math.random() - 0.5
+        )
       }
     }
     return item
@@ -46,8 +57,13 @@ const docs = {
   },
   remarkPlugins: [math],
   rehypePlugins: [katex],
-  async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
-    const sidebarItems = await defaultSidebarItemsGenerator(args)
+  async sidebarItemsGenerator({
+    defaultSidebarItemsGenerator,
+    ...args
+  }) {
+    const sidebarItems = await defaultSidebarItemsGenerator(
+      args
+    )
     return sidebarProcessor(sidebarItems)
   },
 }

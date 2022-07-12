@@ -11,7 +11,10 @@ const blog = {
   remarkPlugins: [math],
   rehypePlugins: [katex],
   editUrl: ({ locale, blogDirPath, blogPath }) => {
-    return `https://github.com/anaclumos/www/tree/main/posts/${blogPath.replace('/index.md', '')}/${locale}.md`
+    return `https://github.com/anaclumos/www/tree/main/posts/${blogPath.replace(
+      '/index.md',
+      ''
+    )}/${locale}.md`
   },
 }
 

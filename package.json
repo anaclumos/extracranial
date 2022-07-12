@@ -10,7 +10,7 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "yarn build:config && docusaurus deploy",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear && rm -rf **/*.config.js && rm -rf **/*.stylesheet.js && rm -rf blog && rm -rf docs && rm -rf i18n/ko/docusaurus-plugin-content-blog",
+    "clear": "docusaurus clear && rm -rf **/*.config.js && rm -rf **/*.stylesheet.js && rm -rf blog && rm -rf docs && rm -rf i18n/ko/docusaurus-plugin-content-blog && yarn format",
     "clean": "yarn clear",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
@@ -44,6 +44,15 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.0.0-beta.22",
     "@tsconfig/docusaurus": "^1.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   },
   "browserslist": {
@@ -57,5 +66,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/anaclumos/www.git",
+  "author": "Sunghyun Cho <mail@chosunghyun.com>"
 }

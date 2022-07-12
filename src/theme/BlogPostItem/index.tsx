@@ -10,7 +10,9 @@ type Props = WrapperProps<typeof BlogPostItemType>
 // import PostNotice from '@site/src/components/PostNotice'
 // import { useBlogPost } from '@docusaurus/theme-common/src/contexts/blogPost'
 
-export default function BlogPostItemWrapper(props: Props): JSX.Element {
+export default function BlogPostItemWrapper(
+  props: Props
+): JSX.Element {
   // const { metadata } = useBlogPost()
   return (
     <>
