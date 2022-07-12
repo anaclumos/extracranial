@@ -22,7 +22,7 @@ If you seek internationalized content, check out my [blog](https://cho.sh/blog/a
 	- ASAP: As Short As Possible.
 	- Rewrite and compress.
 	- [[Building a Second Brain|BASB]] recommends compressing 50x.
-- Inliner UX (Freeform Text)
+- Inliner (Freeform Text)
 	- Opposite of Outliner.
 	- Write paragraphs, but write each sentence one line.
 	- Markdown will convert it into a flowing paragraph.
