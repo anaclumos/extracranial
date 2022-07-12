@@ -428,7 +428,7 @@
     "description": "The ARIA label for the up arrow in the search modal"
   },
   "theme.SearchModal.footer.searchByText": {
-    "message": "Search by",
+    "message": "검색 제공",
     "description": "The text for the search by label in the search modal"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
