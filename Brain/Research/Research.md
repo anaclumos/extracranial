@@ -5,11 +5,11 @@ slug: '/5AF385'
 
 ## Naming Convention
 
-| Type                  | Convention        | Example                         |
-| --------------------- | ----------------- | ------------------------------- |
-| Concept               | Singular Noun     | *[[Worker]]* (not *Workers*.)   |
-| Collection of Concept | Plural Noun       | *[[Tools for Thought]]*         |
-| Action                | *Verb*-ing Plural | *[[Publishing Digital Brains]]* |
+| Type                    | Convention        | Example                         |
+| ----------------------- | ----------------- | ------------------------------- |
+| Concepts                | Singular Noun     | *[[Worker]]* (not *Workers*.)   |
+| Collections of Concepts | Plural Noun       | *[[Tools for Thought]]*         |
+| Actions                 | *Verb*-ing Plural | *[[Publishing Digital Brains]]* |
 
 ## Nomenclature
 
