@@ -56,9 +56,9 @@ def replace_wikilinks(file, all_files):
                         display_text = wikilink.split(
                             "|")[1] if "|" in wikilink else wikilink
                         line = line.replace(
-                            "[[" + display_text + "]]", "[" + wikilink + "](" + searchfile + ")")
+                            "[[" + wikilink + "]]", "[" + display_text + "](" + searchfile + ")")
                         print("→ Replaced [[" + wikilink + "]] with [" +
-                              wikilink + "](" + searchfile + ")") if DEBUG else None
+                              display_text + "](" + searchfile + ")") if DEBUG else None
                         break
                 # if the wikilink was not found, just remove the [[ and ]]
                 if wikilink not in searchfile:
