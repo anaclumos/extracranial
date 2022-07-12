@@ -1,5 +1,5 @@
 ---
-title: 'JS'
+title: 'JavaScript'
 slug: '/F5B88C'
 aliases: ['JavaScript', '자바스크립트']
 ---
