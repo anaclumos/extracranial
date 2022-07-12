@@ -98,6 +98,11 @@ figure > p {
   padding: 0;
 }
 
+p > img {
+  display: block;
+  margin: 0 auto;
+}
+
 figcaption {
   text-align: center;
   margin: 0 auto;
