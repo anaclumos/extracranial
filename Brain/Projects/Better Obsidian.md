@@ -3,23 +3,33 @@ title: 'Better Obsidian'
 slug: '/9E4E7C'
 ---
 
-Some things that I currently don't like about [[Obsidian]]:
+## Extension Ideas for [[Obsidian]]
 
-- Aliases should have consistency with standard links.
-  - `Personal Knowledge Management` and `PKM` should act the same.
-  - Not in some weird format like `PKM|Personal Knowledge Management.`
-- Advanced Templating
-  - run functions like `getRandomHex()` when creating new posts
-- Exclude URLs in unlinked mentions
-  - See [Exclude backlink mentions in link markup from suggested backlinks - Feature archive - Obsidian Forum](https://forum.obsidian.md/t/exclude-backlink-mentions-in-link-markup-from-suggested-backlinks/7092).
-- Encapsulate Markdown File to Folder
+### Aliases Link Consistency with Standard links
+- `Personal Knowledge Management` and `PKM` should act the same.
+- Not in some weird format like `PKM|Personal Knowledge Management.`
+- At least convert one to another.
+
+### Functional Templating
+- Run functions like `getRandomHex()` when creating new posts
+
+### Exclude URLs in Unlinked Mentions
+  - See [Obsidian Forum 7092](https://forum.obsidian.md/t/exclude-backlink-mentions-in-link-markup-from-suggested-backlinks/7092).
+
+### Encapsulate File to Folder
   - `Brane.md` → `Brane/Brane.md`
-  - For Foldering Purposes
-- List view for Daily Notes like [[Roam]] and [[Logseq]]
-- Auto Delete Empty Files (literally empty, or templated but empty)
-- Format Markdown
-- MDX Support?
-- Prettier for Code Blocks
+  - For Foldering Purposes.
+
+### Review Page for Daily Notes
+- List view for Daily Notes like [[Roam]] and [[Logseq]].
+
+### Auto Delete Empty Files
+
+### Lint Supports
+
+### MDX Supports
+
+### Prettier for Code Blocks
 
 import WIP from '@site/src/components/WIP'
 
