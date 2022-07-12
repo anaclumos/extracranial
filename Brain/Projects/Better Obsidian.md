@@ -16,6 +16,7 @@ Some things that I currently don't like about [[Obsidian]]:
   - `Brane.md` → `Brane/Brane.md`
   - For Foldering Purposes
 - List view for Daily Notes like [[Roam]] and [[Logseq]]
+- Auto Delete Empty Files (literally empty, or templated but empty)
 
 import WIP from '@site/src/components/WIP'
 
