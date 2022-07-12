@@ -1,6 +1,7 @@
 ---
 title: 'SharedArrayBuffer'
 slug: '/58CA40'
+aliases: ['SAB']
 ---
 
 - [SharedArrayBuffer - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)
