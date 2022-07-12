@@ -6,21 +6,26 @@ slug: '/9E4E7C'
 ## Extension Ideas for [[Obsidian]]
 
 ### Aliases Link Consistency with Standard links
+
 - `Personal Knowledge Management` and `PKM` should act the same.
 - Not in some weird format like `PKM|Personal Knowledge Management.`
 - At least convert one to another.
 
 ### Functional Templating
+
 - Run functions like `getRandomHex()` when creating new posts
 
 ### Exclude URLs in Unlinked Mentions
-  - See [Obsidian Forum 7092](https://forum.obsidian.md/t/exclude-backlink-mentions-in-link-markup-from-suggested-backlinks/7092).
+
+- See [Obsidian Forum 7092](https://forum.obsidian.md/t/exclude-backlink-mentions-in-link-markup-from-suggested-backlinks/7092).
 
 ### Encapsulate File to Folder
-  - `Brane.md` → `Brane/Brane.md`
-  - For Foldering Purposes.
+
+- `Brane.md` → `Brane/Brane.md`
+- For Foldering Purposes.
 
 ### Review Page for Daily Notes
+
 - List view for Daily Notes like [[Roam]] and [[Logseq]].
 
 ### Auto Delete Empty Files
