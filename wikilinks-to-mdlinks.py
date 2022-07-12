@@ -53,8 +53,10 @@ def replace_wikilinks(file, all_files):
                         # add "../" for each slash
                         searchfile = "./" + "../" * \
                             (num_slashes - 1) + searchfile
+                        display_text = wikilink.split(
+                            "|")[1] if "|" in wikilink else wikilink
                         line = line.replace(
-                            "[[" + wikilink + "]]", "[" + wikilink + "](" + searchfile + ")")
+                            "[[" + display_text + "]]", "[" + wikilink + "](" + searchfile + ")")
                         print("→ Replaced [[" + wikilink + "]] with [" +
                               wikilink + "](" + searchfile + ")") if DEBUG else None
                         break
