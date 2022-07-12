@@ -14,7 +14,10 @@ HTML 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. �
 
 ```html
 <script type="text/javascript">
-  console.log('%cHi there!', 'color:darkorange; font-size:20px; font-weight: bold;')
+  console.log(
+    '%cHi there!',
+    'color:darkorange; font-size:20px; font-weight: bold;'
+  )
   console.log(
     'Seems like you are trying to analyze my website — which is great! Meanwhile, if you have any questions regarding my website, please feel free to ask me at mail@chosunghyun.com !'
   )
@@ -30,7 +33,21 @@ HTML 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. �
 
 ```js
 if (window.console != undefined) {
-  setTimeout(console.log.bind(console, '%cTISTORY', 'font:8em Arial;color:#EC6521;font-weight:bold'), 0)
-  setTimeout(console.log.bind(console, '%c  나를 표현하는 블로그', 'font:2em sans-serif;color:#333;'), 0)
+  setTimeout(
+    console.log.bind(
+      console,
+      '%cTISTORY',
+      'font:8em Arial;color:#EC6521;font-weight:bold'
+    ),
+    0
+  )
+  setTimeout(
+    console.log.bind(
+      console,
+      '%c  나를 표현하는 블로그',
+      'font:2em sans-serif;color:#333;'
+    ),
+    0
+  )
 }
 ```

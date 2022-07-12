@@ -7,17 +7,22 @@ type Props = {
 }
 
 const title = translate({ message: 'Work in Progress' })
-const first = translate({ message: 'This is a work in progress. Please check back later.' })
+const first = translate({
+  message:
+    'This is a work in progress. Please check back later.',
+})
 const second = translate({
-  message: 'I wrote this post in another language first and was translating it to other languages.',
+  message:
+    'I wrote this post in another language first and was translating it to other languages.',
 })
 const third = translate({
-  message: 'Therefore, if you speak different languages, look for this post in that language.',
+  message:
+    'Therefore, if you speak different languages, look for this post in that language.',
 })
 
 const index = (props: Props) => {
   return (
-    <Admonition type='info' title={title} icon='💬'>
+    <Admonition type="info" title={title} icon="💬">
       <ul>
         <li> {first} </li>
         {props.state === 'translating' && (

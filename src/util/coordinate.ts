@@ -1,1 +1,4 @@
-export type Coordinate = { location: [number, number]; size: number }
+export type Coordinate = {
+  location: [number, number]
+  size: number
+}
