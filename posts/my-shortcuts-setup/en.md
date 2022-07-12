@@ -10,6 +10,10 @@ slug: '/067A7D'
 ~/.config/karabiner/assets/complex_modifications/keyboard.json
 ```
 
+:::tip
+See https://github.com/anaclumos/karabiner.json/ for more up-to-date configs.
+:::
+
 `keyboard.json`
 
 ```json
