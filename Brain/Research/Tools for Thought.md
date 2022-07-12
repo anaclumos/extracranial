@@ -8,11 +8,11 @@ TODO: Convert this page into a more in-depth case study.
 ## My take
 
 - If you don't know what you want, start from [Logseq](https://logseq.com/).
-  - It's simple, fast, local, completely free, and open-source.
+  - It's simple, fast, local, accessible, and open-source.
 - If you know what you want, go with [Obsidian](https://obsidian.md/).
   - It's highly customizable and free for local use.
 
-If you have more specific needs, then feel free to _roam_ the list below... I am keeping my eyes on Visual Thinking tools.
+If you have more specific needs, feel free to _roam_ the list below... I am keeping my eyes on Visual Thinking tools.
 
 ## Second Brain
 
