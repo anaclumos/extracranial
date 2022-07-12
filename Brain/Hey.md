@@ -17,15 +17,12 @@ If you seek internationalized content, check out my [blog](https://cho.sh/blog/a
 노트는 한국어와 영어로 작성할 것이며 노트를 번역할 계획은 없습니다.
 국제화된 콘텐츠를 찾으신다면 [블로그](https://cho.sh/ko/blog/archive)를 확인해 보시기 바랍니다.
 
-This [[PKM]] will _not_ follow outliner UX.
-I believe in the potential of freeform text.
-
 - Keep the note loosely folder-ed.
 - Do not make a data pile.
 	- ASAP: As Short As Possible.
 	- Rewrite and compress.
 	- [[Building a Second Brain|BASB]] recommends compressing 50x.
-- Inliner UX.
+- Inliner UX (Freeform Text)
 	- Opposite of Outliner.
 	- Write paragraphs, but write each sentence one line.
 	- Markdown will convert it into a flowing paragraph.
