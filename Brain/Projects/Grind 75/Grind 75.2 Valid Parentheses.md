@@ -49,8 +49,13 @@ class Solution:
 
 ## Results
 
-- Runtime: 67 ms, faster than 11.18% of Python3 online submissions for Valid Parentheses.
-- Memory Usage: 13.9 MB, less than 24.23% of Python3 online submissions for Valid Parentheses.
+### Runtime
+
+- 67 ms, faster than 11.18% of Python3 online submissions for Valid Parentheses.
+
+### Memory Usage
+
+- 13.9 MB, less than 24.23% of Python3 online submissions for Valid Parentheses.
 
 ## Other Answers Online
 
