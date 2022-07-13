@@ -5,4 +5,4 @@ slug: '/6AE59D'
 aliases: ['BASB']
 ---
 
-Moved to [cho.sh/blog/6AE59D](https://cho.sh/blog/6AE59D).
+- [Permanently Moved](https://cho.sh/blog/6AE59D).
