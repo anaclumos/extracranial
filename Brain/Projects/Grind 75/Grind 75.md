@@ -11,8 +11,8 @@ slug: '/D518B0'
 
 - [x] [[Grind 75.1 Two Sum]]
 - [x] [[Grind 75.2 Valid Parentheses]]
-- [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- [x] [[Grind 75.3 Merge Two Sorted Lists]]
+- [x] [[Grind 75.4 Best Time to Buy and Sell Stock]]
 - [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 - [ ] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
 - [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
