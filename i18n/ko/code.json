@@ -147,7 +147,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "GitHub에서 문서 개선",
+    "message": "GitHub에서 편집",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
