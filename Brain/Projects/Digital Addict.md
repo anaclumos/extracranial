@@ -3,22 +3,24 @@ title: "Software Enthusiast's Electronics Addictions"
 slug: '/4AA0F0'
 ---
 
+## Outline
+
+I aspire to the new horizon of knowledge that Computer Science brings.
+However, I also despise the malicious use of that technology that preys upon human consciousness and infects human health.
+I also find myself addicted to digital media, knowing the very fact.
+
+I had difficulty consciously separating _I like software_ and _I like software by all means._
+Think this way:
+The fascinating science behind nuclear physics and the wrath of atomic weapons are _separate_.
+Similarly, information technology and the decaying consciousness of digital addictions are irrelevant.
+
+As a Software Enthusiast, I had difficulty overcoming this because it was technically impossible to separate myself from the internet physically.
+I always require internet access for my work and projects.
+The lure and attraction are always in reach.
+The question became:
+
+> Would there be a way to get the most out of the groundbreaking knowledge repository of the internet _without_ getting overwhelmed by fast-paced, attention-grabbing media, shortening my interest span, or succumbing to the radicalized uncivil data?
+
 import WIP from '@site/src/components/WIP'
 
 <WIP />
-
-## Think this way
-
-- Fascinating science behind nuclear physics and the wrath of atomic weapons are _separate_.
-- Similarly, elegant information technology and the erosion of human consciousness by digital addiction are irrelevant.
-
-## Outline
-
-- 나는 컴퓨터과학이 연 지식의 새로운 지평에 경이로움을 느끼면서도
-- 그것을 악용하여 인류의 집중력을 갉아먹는 도구들에 환멸감을 느끼며
-- 그것을 알면서도 디지털 기기들에 중독되는 내가 싫다
-- Mindless digital consumption
-- How do you convert that momentum into digital creations?
-- How do you get the fruit out of fast internet media
-- without getting overwhelmed by social media / shortening my interest span?
-- "소프트웨어가 좋다" vs "소프트웨어가 백해무익하다"라는 두 개념을 정신적으로 분리하는데 어려움을 느꼈다.
