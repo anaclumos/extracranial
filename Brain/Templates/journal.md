@@ -9,6 +9,8 @@ import WIP from '@site/src/components/WIP'
 
 <WIP />
 
+%%
+
 ## Today's [[Pragmatic Engineer]]
 
 ## [[Grind 75]]
@@ -20,3 +22,5 @@ import WIP from '@site/src/components/WIP'
 ## Interesting Webs
 
 ## Personal Notes
+
+%%
