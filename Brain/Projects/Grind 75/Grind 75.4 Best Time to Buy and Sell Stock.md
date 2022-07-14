@@ -45,5 +45,3 @@ I had to get a hint to keep the minimum value so far.
 ### Memory Usage
 
 - 25 MB, less than 37.97% of Python3 online submissions for Best Time to Buy and Sell Stock.
-
-## Other Answers Online
