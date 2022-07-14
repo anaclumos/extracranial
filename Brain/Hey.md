@@ -5,7 +5,7 @@ slug: '/hey'
 
 > What does moving from mindless consumption to mindful creation look like? — [[Building a Second Brain]]
 
-Welcome to my research note.
+Welcome to my [[research]] note.
 I extensively studied [[PKM]]s and envisioned a _single source of truth_ that integrated my projects and research.
 You will find my most up-to-date interests here.
 I write in English and Korean and don't plan to translate the notes.
