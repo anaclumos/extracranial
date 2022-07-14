@@ -3,7 +3,7 @@ title: 'Atomics'
 slug: '/D7EA90'
 ---
 
-- Atomics synchronizes memory between Web Workers with `SharedArrayBuffer`.
+- Atomics synchronizes memory between Web Workers with [[SharedArrayBuffer]].
 - Thread-safe.
 - No need for data copy between threads.
 - Can communicate without event loops. Much faster.
