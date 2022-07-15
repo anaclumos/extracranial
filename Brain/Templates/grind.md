@@ -5,7 +5,6 @@ draft: true
 ---
 
 Solved at: [[{{date:YYYY-MM-DD}}]]
-%%
 
 ## Question
 
@@ -16,5 +15,3 @@ Solved at: [[{{date:YYYY-MM-DD}}]]
 ## Results
 
 ## Other Answers Online
-
-%%
