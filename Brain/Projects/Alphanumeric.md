@@ -1,5 +1,5 @@
 ---
-title: 'Project Hex as ID'
+title: 'Alphanumeric'
 slug: '/0A964E'
 ---
 
