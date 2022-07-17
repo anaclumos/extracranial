@@ -28,9 +28,9 @@ for root, dirs, files in os.walk(DESTINATION_DIR):
         all_files.append(os.path.join(root, file))
 
 
-def replace_wikilinks(file, all_files):
+def replace_wikilinks(file, all_files, counter):
     if not file.endswith(".md"):
-        return
+        return counter
     with open(file, 'r') as f:
         lines = f.readlines()
     with open(file, 'w') as f:
@@ -59,13 +59,18 @@ def replace_wikilinks(file, all_files):
                             "[[" + wikilink + "]]", "[" + display_text + "](" + searchfile + ")")
                         print("→ Replaced [[" + wikilink + "]] with [" +
                               display_text + "](" + searchfile + ")") if DEBUG else None
+                        counter += 1
                         break
                 # if the wikilink was not found, just remove the [[ and ]]
                 if wikilink not in searchfile:
                     line = line.replace("[[", "")
                     line = line.replace("]]", "")
             f.write(line)
+    return counter
 
 
-for file in all_files:
-    replace_wikilinks(file, all_files)
+if __name__ == "__main__":
+    COUNTER = 0
+    for file in all_files:
+        COUNTER = replace_wikilinks(file, all_files, COUNTER)
+    print("Replaced " + str(COUNTER) + " wikilinks.")
