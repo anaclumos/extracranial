@@ -15,13 +15,14 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "build:plugin": "yarn workspace plugin-blog-index build",
-    "build:config": "tsc -p tsconfig-config.json && yarn pack-post && yarn wikilinks-to-mdlinks",
+    "build:config": "tsc -p tsconfig-config.json && yarn pack-post && yarn wikilinks-to-mdlinks && yarn img-alt-to-figcaption",
     "lint": "eslint --cache \"**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,json,md,mdx}\"",
     "ko": "yarn start --locale ko",
     "new-post": "python3 new-post.py",
     "pack-post": "python3 pack-post.py",
-    "wikilinks-to-mdlinks": "python3 wikilinks-to-mdlinks.py"
+    "wikilinks-to-mdlinks": "python3 wikilinks-to-mdlinks.py",
+    "img-alt-to-figcaption": "python3 img-alt-to-figcaption.py"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-rc.1",

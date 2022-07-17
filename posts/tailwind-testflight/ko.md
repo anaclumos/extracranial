@@ -198,13 +198,10 @@ export default chatbubble
 
 ### 2\. Case Study Card
 
-![](https://blog.chosunghyun.com/content/images/2021/07/image-7.png)
+![위와 같이 Responsive하게 동작함](https://blog.chosunghyun.com/content/images/2021/07/image-7.png)
 
-위와 같이 Responsive하게 동작함
 
-![](https://blog.chosunghyun.com/content/images/2021/07/image-6.png)
-
-<https://design.cho.sh/tailwind-docs/case-study-card>. Random Cat Image from [CatAAS.com](https://blog.chosunghyun.com/kr-tailwind-css-docs-basic-study/CatAAS.com)
+![Random Cat Image from CatAAS.com](https://blog.chosunghyun.com/content/images/2021/07/image-6.png)
 
 ```ts
 import Image from 'next/image'
