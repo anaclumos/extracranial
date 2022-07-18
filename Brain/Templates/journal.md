@@ -15,8 +15,8 @@ import WIP from '@site/src/components/WIP'
 
 ## Today's [[Hacker News]]
 
-## Work Notes
-
 ## Interesting Webs
 
-## Personal Notes
+## Work Research
+
+## Personal Research
