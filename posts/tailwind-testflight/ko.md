@@ -200,7 +200,6 @@ export default chatbubble
 
 ![위와 같이 Responsive하게 동작함](https://blog.chosunghyun.com/content/images/2021/07/image-7.png)
 
-
 ![Random Cat Image from CatAAS.com](https://blog.chosunghyun.com/content/images/2021/07/image-6.png)
 
 ```ts
