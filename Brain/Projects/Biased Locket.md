@@ -11,11 +11,11 @@ slug: '/177B14'
 ## How would it be [[Fiercely Overpriced]]?
 
 - Free
-  - for 1 bias
+  - for one bias
   - shuffled per hour
   - differently sized widgets
 - Paid
-  - for 2 or more biases
+  - for two or more biases
   - to shuffle widget on tap (already seen possible with [Soor](https://soor.app/))
   - to change shuffle frequency
 - Possible expansions
