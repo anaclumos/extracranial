@@ -19,3 +19,4 @@ import WIP from '@site/src/components/WIP'
 - Algolia Korean Translations
   - Fixed & Contributed & Merged
   - [chore\(theme-translations\): complete ko translations by anaclumos · Pull Request #7762 · facebook/docusaurus](https://github.com/facebook/docusaurus/pull/7762)
+- Render `Figcaption` with `img alt` tags on [[2022-07-18]] [Commit](https://github.com/anaclumos/www/commit/cefd8c5b46b2a5c2df2a52e176a97d233387c14b)
