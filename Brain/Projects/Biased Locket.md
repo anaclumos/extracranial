@@ -1,7 +1,10 @@
 ---
-title: 'Biased Locket (Tentative)'
+title: 'Biased Locket'
 slug: '/177B14'
 ---
+
+- Other Potential Names
+  - CrushCrash — Frame Your Crush
 
 ## Definition
 
