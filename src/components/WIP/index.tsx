@@ -8,8 +8,7 @@ type Props = {
 
 const title = translate({ message: 'Work in Progress' })
 const first = translate({
-  message:
-    'This is a work in progress. Please check back later.',
+  message: 'Work in Progress. Check back later.',
 })
 const second = translate({
   message:
