@@ -36,13 +36,13 @@ slug: '/9E4E7C'
 
 ### Prettier for Code Blocks
 
-import WIP from '@site/src/components/WIP'
-
 ### Anonymized Images
 
 - Not `Pasted Image YYYY`
 - Not `Original Name Whatsoever`
 
 ### Auto Plural-Singular Linker
+
+import WIP from '@site/src/components/WIP'
 
 <WIP />
