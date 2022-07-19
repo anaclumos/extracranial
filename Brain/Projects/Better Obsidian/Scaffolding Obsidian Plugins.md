@@ -14,6 +14,8 @@ slug: '/DAF673'
 
 [[Better Obsidian]] 문서를 보면 알 수 있듯이 별별 아이디어들을 다 쌓아뒀는데 오늘 저녁에 적당히 끝낼 수 있을만한 작업이 뭐가 있을까 고민하다가 *Review Page for Daily Notes*를 선택했다. Logseq를 쓸 당시 굉장히 유용하게 썼었는데 옵시디언에는 비슷한 기능이 없어서 아쉬웠다.
 
+## 시작
+
 일단 옵시디언에서 제공하는 템플릿을 복제해서 저장소를 만들었다.
 
 - [anaclumos/daily-notes-review-for-obsidian: Roam-like Review page for Daily Notes on Obsidian](https://github.com/anaclumos/daily-notes-review-for-obsidian)
@@ -56,6 +58,8 @@ slug: '/DAF673'
 ![[Pasted image 20220719214527.png]]
 
 - [등록할 수 있는 아이콘 리스트](https://forum.obsidian.md/t/list-of-available-icons-for-component-seticon/16332/4)
+
+## Ribbon 등록
 
 우선 이와 같이 기본 코드를 작성했다.
 
@@ -117,6 +121,150 @@ export default class CustomPlugin extends Plugin {
 왼쪽 리본 버튼을 누르면 다음과 같이 옵시디언 안내 문구가 나타난다.
 
 ![[Pasted image 20220719220437.png]]
+
+Advanced Tables의 컴파일된 JS를 보면서 리버스 엔지니어링 하고 있었는데 오픈소스였다.
+살짝 억울했다.
+
+- [tgrosinger/advanced-tables-obsidian: Improved table navigation, formatting, and manipulation in Obsidian.md](https://github.com/tgrosinger/advanced-tables-obsidian)
+
+## Leaf 구성
+
+아무튼 다음과 같은 코드로 우측에 렌더링된 페이지를 띄우는데 성공했다.
+
+```ts
+import { CustomSettings } from 'main'
+import {
+  Editor,
+  ItemView,
+  MarkdownView,
+  Notice,
+  WorkspaceLeaf,
+} from 'obsidian'
+
+export const ReviewDailyNotesViewType = 'review-daily-notes'
+
+export class ReviewDailyNotesView extends ItemView {
+  private readonly settings: CustomSettings
+
+  constructor(
+    leaf: WorkspaceLeaf,
+    settings: CustomSettings
+  ) {
+    super(leaf)
+    this.settings = settings
+  }
+
+  public getViewType(): string {
+    return 'Review Daily Notes'
+  }
+
+  public getDisplayText(): string {
+    return ReviewDailyNotesViewType
+  }
+
+  public getIcon(): string {
+    return 'calendar-with-checkmark'
+  }
+
+  public load(): void {
+    super.load()
+    this.draw()
+  }
+
+  private readonly draw = (): void => {
+    const container = this.containerEl.children[1]
+    const rootEl = document.createElement('div')
+    const navHeader = rootEl.createDiv({
+      cls: 'nav-header',
+    })
+    navHeader.createDiv({
+      cls: 'nav-header-title',
+    }).textContent = 'Review Daily Notes'
+    container.empty()
+    container.appendChild(rootEl)
+  }
+}
+```
+
+![[Pasted image 20220719223820.png]]
+
+## 옵시디언 안의 파일 접근
+
+옵시디언 API 문서를 읽다 다음과 같이 파일 구조가 정의됨을 알 수 있었다.
+
+```ts
+/**
+ * @public
+ */
+export class TFile extends TAbstractFile {
+  /**
+   * @public
+   */
+  stat: FileStats
+  /**
+   * @public
+   */
+  basename: string
+  /**
+   * @public
+   */
+  extension: string
+}
+```
+
+참고로 옵시디언은 Chromium이기 때문에 다음과 같이 Dev Console을 열 수 있다.
+
+![[Pasted image 20220719225604.png]]
+
+옵시디언 API 문서를 더 읽었다.
+다음과 같은 방식으로 내부 파일들에 접근할 수 있다.
+
+```ts
+const files = this.app.vault.getFiles()
+console.log(files)
+```
+
+![[Pasted image 20220719225900.png]]
+
+즉 다음과 같이 Daily Notes만 분리할 수 있다.
+
+```ts
+public loadDailyNotes(): TFile[] {
+	const { dailyNotesFolder } = this.settings;
+	const files = this.app.vault.getFiles();
+	const dailyNotes = files.filter(
+		(file) =>
+			file.path.startsWith(dailyNotesFolder) &&
+			file.path.endsWith(".md")
+	);
+	console.log(dailyNotes);
+	return dailyNotes;
+}
+```
+
+더 나아가 Daily Notes를 정렬할 수 있다.
+
+```ts
+dailyNotes.sort((a, b) => {
+  const aDate = new Date(
+    a.path.substring(dailyNotesFolder.length + 1)
+  )
+  const bDate = new Date(
+    b.path.substring(dailyNotesFolder.length + 1)
+  )
+  return aDate.getTime() - bDate.getTime()
+})
+```
+
+![[Pasted image 20220719230101.png]]
+
+그렇게 해서 페이지를 추출하면 다음과 같이 List View를 만들 수 있다.
+
+![[Pasted image 20220719231900.png]]
+
+일단 오늘([[2022-07-19]])은 밤이 늦었으니 내일 계속하도록 한다. 3시간 41분 했다.
+
+![[Pasted image 20220719232028.png]]
 
 import WIP from '@site/src/components/WIP'
 
