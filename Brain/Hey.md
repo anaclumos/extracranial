@@ -31,5 +31,5 @@ If you seek internationalized content, check out my [blog](https://cho.sh/blog/a
 
 I use [[Obsidian]] for taking notes.
 I pipeline those notes into a heavily customized [[TS]] [[Docusaurus]] with custom [[React]] components.
-I use [[Cloudflare]] Pages for deploying (SSR,) and [[Cloudflare]] CDN for caching and distributing.
+I use [[Cloudflare]] Pages for deploying (SSR) and [[Cloudflare]] CDN for caching and distributing.
 Finally, I open-sourced it on [GitHub](https://github.com/anaclumos/www), so take a look.
