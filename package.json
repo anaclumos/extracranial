@@ -1,7 +1,6 @@
 {
   "name": "cho-sh",
   "version": "1.0.0",
-  "private": false,
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
@@ -70,5 +69,6 @@
   },
   "main": "index.js",
   "repository": "https://github.com/anaclumos/www.git",
-  "author": "Sunghyun Cho <mail@chosunghyun.com>"
+  "author": "Sunghyun Cho <mail@chosunghyun.com>",
+  "packageManager": "yarn@3.2.2"
 }
