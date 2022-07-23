@@ -4,9 +4,23 @@ import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import EmojiReplaceableText from '../components/EmojiReplaceableText'
 import Translate, { translate } from '@docusaurus/Translate'
-import Profile from '../../static/img/profile.jpg'
 import { Globe } from '../components/Globe'
 import Head from '@docusaurus/Head'
+
+import Profile from '../../static/img/profile.jpg'
+import AlienMonsterEmoji from '../../static/fonts/emoji/alien-monster.png'
+import BankEmoji from '../../static/fonts/emoji/bank.png'
+import KoreaEmoji from '../../static/fonts/emoji/korea.png'
+import USEmoji from '../../static/fonts/emoji/us.png'
+import NewspaperEmoji from '../../static/fonts/emoji/newspaper.png'
+import PillEmoji from '../../static/fonts/emoji/pill.png'
+import RadioactiveEmoji from '../../static/fonts/emoji/radioactive.png'
+import RocketEmoji from '../../static/fonts/emoji/rocket.png'
+import TechnologistEmoji from '../../static/fonts/emoji/technologist.png'
+import WebEmoji from '../../static/fonts/emoji/web.png'
+import UnicornEmoji from '../../static/fonts/emoji/unicorn.png'
+import CarrotEmoji from '../../static/fonts/emoji/carrot.png'
+import MobilePhoneEmoji from '../../static/fonts/emoji/mobile-phone.png'
 
 const HeroText = () => {
   const { siteConfig } = useDocusaurusContext()
@@ -45,59 +59,81 @@ const HeroText = () => {
             text={translate({ message: 'Sunghyun' })}
             photo={Profile}
             photoAlt={translate({
-              message: 'Sunghyun Profile Image',
+              message: 'Sunghyun',
             })}
-            emojiByDefault="emoji"
+            showByDefault="emoji"
+            border={true}
           />
           <Translate>{' is a '}</Translate>
           <EmojiReplaceableText
             text={translate({
               message: 'computer scientist',
             })}
-            emoji="🧑🏻‍💻"
-            emojiByDefault="emoji"
+            photo={TechnologistEmoji}
+            photoAlt={translate({
+              message: '🧑🏻‍💻',
+            })}
+            showByDefault="emoji"
           />
           <Translate>{' based in '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Los Angeles' })}
-            emoji="🇺🇸"
-            emojiByDefault="emoji"
+            photo={USEmoji}
+            photoAlt={translate({
+              message: '🇺🇸',
+            })}
+            showByDefault="emoji"
           />
           <Translate>{' and '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Seoul' })}
-            emoji="🇰🇷"
-            emojiByDefault="emoji"
+            photo={KoreaEmoji}
+            photoAlt={translate({
+              message: '🇰🇷',
+            })}
+            showByDefault="emoji"
           />
           <Translate>
             {'. He currently works at a '}
           </Translate>
           <EmojiReplaceableText
             text={translate({ message: 'unicorn' })}
-            emoji="🦄"
-            emojiByDefault="emoji"
+            photo={UnicornEmoji}
+            photoAlt={translate({
+              message: '🦄',
+            })}
+            showByDefault="emoji"
           />
           <Translate>{' company '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Karrot' })}
-            emoji="🥕"
-            emojiByDefault="emoji"
+            photo={CarrotEmoji}
+            photoAlt={translate({
+              message: '🥕',
+            })}
+            showByDefault="emoji"
           />
           <Translate>
             {', researching secure sandboxing model for '}
           </Translate>
           <EmojiReplaceableText
             text={translate({ message: 'mini-apps' })}
-            emoji="📱"
-            emojiByDefault="emoji"
+            photo={MobilePhoneEmoji}
+            photoAlt={translate({
+              message: '📱',
+            })}
+            showByDefault="emoji"
           />
           <Translate>
             {'. He usually works on next-gen '}
           </Translate>
           <EmojiReplaceableText
             text={translate({ message: 'web' })}
-            emoji="🕸"
-            emojiByDefault="emoji"
+            photo={WebEmoji}
+            photoAlt={translate({
+              message: '🕸',
+            })}
+            showByDefault="emoji"
           />
           <Translate>
             {
@@ -108,45 +144,62 @@ const HeroText = () => {
             text={translate({
               message: 'computer graphics',
             })}
-            emoji="👾"
-            emojiByDefault="emoji"
+            photo={AlienMonsterEmoji}
+            photoAlt={translate({
+              message: '👾',
+            })}
+            showByDefault="emoji"
           />
           <Translate>{', '}</Translate>
           <EmojiReplaceableText
             text={translate({
-              message:
-                'artificial intelligences in medicine',
+              message: 'AI in medicine',
             })}
-            emoji="💊"
-            emojiByDefault="emoji"
+            photo={PillEmoji}
+            photoAlt={translate({
+              message: '☢',
+            })}
+            showByDefault="emoji"
           />
           <Translate>{', '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'fusion energies' })}
-            emoji="☢️"
-            emojiByDefault="emoji"
+            photo={RadioactiveEmoji}
+            photoAlt={translate({
+              message: '☢',
+            })}
+            showByDefault="emoji"
           />
           <Translate>{', and '}</Translate>
           <EmojiReplaceableText
             text={translate({
               message: 'space terraformings',
             })}
-            emoji="🚀"
-            emojiByDefault="emoji"
+            photo={RocketEmoji}
+            photoAlt={translate({
+              message: '🚀',
+            })}
+            showByDefault="emoji"
           />
           <Translate>
             {'. When he is not coding, he enjoys learning '}
           </Translate>
           <EmojiReplaceableText
             text={translate({ message: 'modern history' })}
-            emoji="🗞"
-            emojiByDefault="emoji"
+            photo={NewspaperEmoji}
+            photoAlt={translate({
+              message: '📰',
+            })}
+            showByDefault="emoji"
           />
           <Translate>{' and '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'economics' })}
-            emoji="🏦"
-            emojiByDefault="emoji"
+            photo={BankEmoji}
+            photoAlt={translate({
+              message: '💰',
+            })}
+            showByDefault="emoji"
           />
           <Translate>{'. '}</Translate>
           <a
