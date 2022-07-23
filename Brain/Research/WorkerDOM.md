@@ -3,7 +3,7 @@ title: 'WorkerDOM'
 slug: '/5E71CF'
 ---
 
-Google's take on providing DOM access to [[Worker]] Threads.
+[[Google]]'s take on providing DOM access to [[Worker]] Threads.
 [[Brane]] will follow WorkerDOM's core model.
 WorkerDOM doesn't use [[SharedArrayBuffer]], most likely to Spectre.
 
