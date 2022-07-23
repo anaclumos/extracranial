@@ -6,8 +6,9 @@ type Props = {
   emoji?: string
   photo?: string
   photoAlt?: string
-  emojiByDefault?: 'emoji' | 'text'
+  showByDefault?: 'emoji' | 'text'
   countdown?: number
+  border?: boolean
 }
 
 const EmojiReplaceableText = (props: Props) => {
@@ -15,12 +16,12 @@ const EmojiReplaceableText = (props: Props) => {
     text,
     emoji,
     photo,
-    emojiByDefault,
-    countdown,
+    showByDefault,
+    border,
     photoAlt,
   } = props
   const [showEmoji, setShowEmoji] = React.useState(
-    emojiByDefault === 'emoji'
+    showByDefault === 'emoji'
   )
   const handleClick = (
     e: React.MouseEvent<HTMLSpanElement, MouseEvent>
@@ -38,8 +39,17 @@ const EmojiReplaceableText = (props: Props) => {
         emoji === undefined ? (
           photo === undefined ? (
             text
+          ) : border === true ? (
+            <img
+              className={styles.border}
+              src={photo}
+              alt={photoAlt}
+              width="38px"
+              height="38px"
+            />
           ) : (
             <img
+              className={styles.notRounded}
               src={photo}
               alt={photoAlt}
               width="38px"
