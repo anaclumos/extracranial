@@ -271,5 +271,90 @@ dailyNotes.sort((a, b) => {
 일주일 만에 다시 진행해본다.
 우선 옵시디안으로 개발하는 것은 HMR — Hot Module Reload가 안 되는 듯 하다.
 매번 익스텐션을 삭제하고 다시 설치해야 한다.
+수정: `yarn package` 이후 옵시디언 개발자 메뉴에서 새로고침하면 된다.
+
+### React 전환
 
 일단 위 예시처럼 `document.createElement` 할 수 없으니 템플릿화 할 수 있는 방법을 알아본다.
+
+약간의 시간 투자를 하여 다음과 같이 React로 전환하였다.
+
+![[Pasted image 20220726204531.png]]
+
+```tsx
+async onOpen() {
+  const root = createRoot(this.containerEl.children[1])
+  root.render(
+    <React.StrictMode>
+      <ListView files={this.loadDailyNotes()} />
+    </React.StrictMode>
+  )
+}
+```
+
+### MD 렌더링
+
+옵시디언 API 문서를 찾아보다가 다음과 같은 부분을 찾았다.
+
+```ts
+export class MarkdownPreviewView
+  extends MarkdownRenderer
+  implements MarkdownSubView, MarkdownPreviewEvents
+{
+  /**
+   * @public
+   */
+  containerEl: HTMLElement
+  /**
+   * @public
+   */
+  get(): string
+  /**
+   * @public
+   */
+  set(data: string, clear: boolean): void
+  /**
+   * @public
+   */
+  clear(): void
+  /**
+   * @public
+   */
+  rerender(full?: boolean): void
+  /**
+   * @public
+   */
+  getScroll(): number
+  /**
+   * @public
+   */
+  applyScroll(scroll: number): void
+}
+```
+
+근데 여기서 인자로 받는 것은 `HTMLElement`이니까 변환기를 찾아야 한다.
+
+```ts
+export abstract class MarkdownRenderer
+  extends MarkdownRenderChild
+  implements MarkdownPreviewEvents, HoverParent
+{
+  /** @public */
+  hoverPopover: HoverPopover
+
+  /**
+   * Renders markdown string to an HTML element.
+   * @param markdown - The markdown source code
+   * @param el - The element to append to
+   * @param sourcePath - The normalized path of this markdown file, used to resolve relative internal links
+   * @param component - A parent component to manage the lifecycle of the rendered child components, if any
+   * @public
+   */
+  static renderMarkdown(
+    markdown: string,
+    el: HTMLElement,
+    sourcePath: string,
+    component: Component
+  ): Promise<void>
+}
+```
