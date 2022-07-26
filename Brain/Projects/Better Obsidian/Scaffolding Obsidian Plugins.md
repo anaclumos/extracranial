@@ -272,4 +272,4 @@ dailyNotes.sort((a, b) => {
 우선 옵시디안으로 개발하는 것은 HMR — Hot Module Reload가 안 되는 듯 하다.
 매번 익스텐션을 삭제하고 다시 설치해야 한다.
 
-일단 위 예시처럼 매번
+일단 위 예시처럼 `document.createElement` 할 수 없으니 템플릿화 할 수 있는 방법을 알아본다.

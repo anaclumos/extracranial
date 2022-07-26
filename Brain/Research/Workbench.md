@@ -9,8 +9,8 @@ import WIP from '@site/src/components/WIP'
 
 ## Priority
 
-1. Tim's version management system
-2. Brew
+1. [asdf](https://asdf-vm.com/)
+2. [brew](https://brew.sh)
 3. Disk Image Install
 4. App Store Install
 
