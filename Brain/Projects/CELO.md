@@ -1,10 +1,17 @@
 ---
-title: 'Biased Locket'
+title: 'CELO'
 slug: '/177B14'
 ---
 
+- Celebrity Locket
 - Other Potential Names
   - CrushCrash — Frame Your Crush
+
+프로덕트는 그보다... 뭔가 원초적이고 단일적이고 수평확장 가능한 하나의 목표를 바라볼 때 탄생한다.
+
+> 세상 모든 홈마들의 Raw 파일을 한 곳에 모으겠다.
+
+그것의 Consumer-side Product가 CELO.
 
 ## Definition
 
