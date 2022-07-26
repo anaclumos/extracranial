@@ -333,28 +333,7 @@ export class MarkdownPreviewView
 ```
 
 근데 여기서 인자로 받는 것은 `HTMLElement`이니까 변환기를 찾아야 한다.
-
-```ts
-export abstract class MarkdownRenderer
-  extends MarkdownRenderChild
-  implements MarkdownPreviewEvents, HoverParent
-{
-  /** @public */
-  hoverPopover: HoverPopover
-
-  /**
-   * Renders markdown string to an HTML element.
-   * @param markdown - The markdown source code
-   * @param el - The element to append to
-   * @param sourcePath - The normalized path of this markdown file, used to resolve relative internal links
-   * @param component - A parent component to manage the lifecycle of the rendered child components, if any
-   * @public
-   */
-  static renderMarkdown(
-    markdown: string,
-    el: HTMLElement,
-    sourcePath: string,
-    component: Component
-  ): Promise<void>
-}
-```
+옵시디언의 API 문서가 자료가 전혀 없이 `obsidian.d.ts`를 API 문서라고 부르고 있는 상태라 이해에 어려움이 있다.
+Discord 서버에 물어보았다.
+일단 답변이 올 때까지 오늘은 여기까지 하겠다.
+리액트로 
