@@ -3,7 +3,7 @@ title: 'Tools for Thought'
 slug: '/872B83'
 ---
 
-TODO: Convert this page into a more in-depth case study.
+[[TODO]]: Convert this page into a more in-depth case study.
 
 ## My take
 
