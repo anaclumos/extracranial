@@ -10,8 +10,15 @@ slug: '/009C77'
 - Uses
   - PencilKit
   - Atomic Notes System
-- Can refer notes
+- Notes can refer to notes (like Hepta)
 - Can view relation graphs
+
+## Problem
+
+- After using Zettlekasten for a while, taking notes as document files kinda suck.
+- I want to take notes with my iPad.
+
+## Reference
 
 - [[2022-07-26]]
 
