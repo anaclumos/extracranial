@@ -7,14 +7,14 @@ slug: '/D518B0'
 - Will use [[Python]] (main language) and [[C++]] (supplementary language)
 - [Link](https://www.techinterviewhandbook.org/grind75)
 
-## Week 1
+## Stage 1
 
 - [x] [[Grind 75.1 Two Sum]]
 - [x] [[Grind 75.2 Valid Parentheses]]
 - [x] [[Grind 75.3 Merge Two Sorted Lists]]
 - [x] [[Grind 75.4 Best Time to Buy and Sell Stock]]
-- [ ] [[Grind 75.5 Valid Palindrome]]
-- [ ] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
+- [x] [[Grind 75.5 Valid Palindrome]]
+- [x] [[Grind 75.6 Invert Binary Tree]]
 - [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 - [ ] [Binary Search](https://leetcode.com/problems/binary-search)
 - [ ] [Flood Fill](https://leetcode.com/problems/flood-fill)
@@ -23,7 +23,7 @@ slug: '/D518B0'
 - [ ] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)
 - [ ] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
 
-## Week 2
+## Stage 2
 
 - [ ] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
 - [ ] [First Bad Version](https://leetcode.com/problems/first-bad-version)
@@ -38,7 +38,7 @@ slug: '/D518B0'
 - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
 - [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
 
-## Week 3
+## Stage 3
 
 - [ ] [Insert Interval](https://leetcode.com/problems/insert-interval)
 - [ ] [01 Matrix](https://leetcode.com/problems/01-matrix)
@@ -49,7 +49,7 @@ slug: '/D518B0'
 - [ ] [Clone Graph](https://leetcode.com/problems/clone-graph)
 - [ ] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
 
-## Week 4
+## Stage 4
 
 - [ ] [Course Schedule](https://leetcode.com/problems/course-schedule)
 - [ ] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)
@@ -60,7 +60,7 @@ slug: '/D518B0'
 - [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands)
 - [ ] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 
-## Week 5
+## Stage 5
 
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)
 - [ ] [Combination Sum](https://leetcode.com/problems/combination-sum)
@@ -71,7 +71,7 @@ slug: '/D518B0'
 - [ ] [Accounts Merge](https://leetcode.com/problems/accounts-merge)
 - [ ] [Sort Colors](https://leetcode.com/problems/sort-colors)
 
-## Week 6
+## Stage 6
 
 - [ ] [Word Break](https://leetcode.com/problems/word-break)
 - [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum)
@@ -83,7 +83,7 @@ slug: '/D518B0'
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths)
 - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 
-## Week 7
+## Stage 7
 
 - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 - [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
@@ -93,7 +93,7 @@ slug: '/D518B0'
 - [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler)
 - [ ] [LRU Cache](https://leetcode.com/problems/lru-cache)
 
-## Week 8
+## Stage 8
 
 - [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)
 - [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)
