@@ -147,5 +147,3 @@ TypeScript의 장점을 활용하여 type 구조를 미리 정의했습니다.
 - Static TypeScript Next를 활용하는 방법에 대해서 잘 알게 된 것 같습니다.
 - Favicon, Metadata, SEO 등에 신경을 쓰지 못한 것은 조금 아쉽지만 검색이나 SNS 유입이 필요하지 않아 따로 추가하지는 않을 것 같습니다.
 - 주말 동안 갈아넣으니까 완성되긴 하는구나...라는 생각을 했습니다 😉
-
-![취향저격 meme 추천 시스템 개발기](images/final-540.gif)
