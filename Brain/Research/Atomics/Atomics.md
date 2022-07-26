@@ -14,6 +14,10 @@ slug: '/D7EA90'
 - Atomics confirms the correctness of operation when multiple threads are sharing the data.
 - Use `wait()` and `notify()` for waiting a certain condition (blocking constructs.)
 
+## `wait()`
+
+## `store()`
+
 ```js
 // from MDN
 const sab = new SharedArrayBuffer(1024)
