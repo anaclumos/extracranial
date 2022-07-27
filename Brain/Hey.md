@@ -3,7 +3,7 @@ title: 'Hey'
 slug: '/hey'
 ---
 
-> What does moving from mindless consumption to mindful creation look like? — [[Building a Second Brain]]
+> What does moving from mindless consumption to mindful creation look like? — [[Building a Second Brain|BASB]]
 
 Welcome to my [[research]] note.
 I extensively studied [[PKM]]s and envisioned a _single source of truth_ that integrated my projects and research.
