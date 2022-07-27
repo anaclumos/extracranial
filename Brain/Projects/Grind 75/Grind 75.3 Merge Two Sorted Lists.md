@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75.3 Merge Two Sorted Lists'
+title: 'Grind 75.3 Merge Two Sorted Lists'
 slug: '/5F2988'
 ---
 
@@ -7,11 +7,11 @@ Solved at: [[2022-07-13]]
 
 ## Question
 
-You are given the heads of two sorted linked lists `list1` and `list2`.
+You are given the heads of two sorted linked lists `list1` and `list2`.
 
-Merge the two lists in a one **sorted** list. The list should be made by splicing together the nodes of the first two lists.
+Merge the two lists in a one **sorted** list. The list should be made by splicing together the nodes of the first two lists.
 
-Return *the head of the merged linked list*.
+Return _the head of the merged linked list_.
 
 ## Solution
 

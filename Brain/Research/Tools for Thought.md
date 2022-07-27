@@ -30,7 +30,7 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 - [Readwise](https://readwise.io/): Specialized in memorizing emails and ebooks.
 - [Dynalist](https://dynalist.io/): Outlining app.
 - [Braintoss](https://braintoss.com/): GTD Capture tool. Mail to self.
-- [Instapaper](https://www.instapaper.com/): Save Anything. Read Anywhere.
+- [Instapaper](https://www.instapaper.com/): Save Anything. Read Anywhere.
 - [Pocket](https://getpocket.com/en/): Save interesting stories. Read them whenever.
 - [Matter](https://hq.getmatter.app/): Matter pulls everything you want to read into one place.
 - [Clarity](https://www.clarity.so/): The DAO Contribution Platform.

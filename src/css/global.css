@@ -110,7 +110,6 @@ p > img {
 figcaption {
   text-align: center;
   margin: 0 auto;
-  font-style: italic;
 }
 
 figcaption > * {

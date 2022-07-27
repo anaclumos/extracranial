@@ -76,7 +76,7 @@ balenaSound를 디플로이하는 가장 간단한 방법은 balena CLI를 사�
 
 ![라즈베리 파이로 스마트 오디오 시스템 만들기](images/min-balena-cli-check-version-and-login.png)
 
-마지막으로 터미널에서 balenaSound가 설치되어 있는 폴더로 이동한다. 그다음 `balena push (앱 이름)`을 입력한다. 이 글의 경우 앱 이름을 *Raspeaker*로 등록했으니 `balena push Raspeaker`을 입력했다.  앱 이름이 기억나지 않는 경우 [dashboard.balena-cloud.com/apps](https://dashboard.balena-cloud.com/apps)에서 확인할 수 있다. 대시보드에 접속했을 때 가장 크게 나타나는 이름이 앱 이름이다.
+마지막으로 터미널에서 balenaSound가 설치되어 있는 폴더로 이동한다. 그다음 `balena push (앱 이름)`을 입력한다. 이 글의 경우 앱 이름을 *Raspeaker*로 등록했으니 `balena push Raspeaker`을 입력했다. 앱 이름이 기억나지 않는 경우 [dashboard.balena-cloud.com/apps](https://dashboard.balena-cloud.com/apps)에서 확인할 수 있다. 대시보드에 접속했을 때 가장 크게 나타나는 이름이 앱 이름이다.
 
 ![라즈베리 파이로 스마트 오디오 시스템 만들기](images/min-balenacloud-check-app-name.png)
 

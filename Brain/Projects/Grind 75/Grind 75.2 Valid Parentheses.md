@@ -9,7 +9,7 @@ Solved at: [[2022-07-10]]
 
 - [Valid Parentheses - LeetCode](https://leetcode.com/problems/valid-parentheses/)
 
-Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
 An input string is valid if:
 
@@ -51,11 +51,11 @@ class Solution:
 
 ### Runtime
 
-- 67 ms, faster than 11.18% of Python3 online submissions for Valid Parentheses.
+- 67 ms, faster than 11.18% of Python3 online submissions for Valid Parentheses.
 
 ### Memory Usage
 
-- 13.9 MB, less than 24.23% of Python3 online submissions for Valid Parentheses.
+- 13.9 MB, less than 24.23% of Python3 online submissions for Valid Parentheses.
 
 ## Other Answers Online
 
