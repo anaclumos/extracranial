@@ -1,6 +1,6 @@
 import os
 
-targets = ["./docs/", "./blog/"]
+targets = ["./docs/", "./blog/", "./i18n/"]
 COUNTER = 0
 
 all_md_files = []
