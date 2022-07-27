@@ -8,9 +8,9 @@ slug: '/01460C'
 
 ## 요점
 
-- GitHub에는 `docs` 폴더를 자동으로 랜딩 페이지처럼 만들어주는 [기능](https://pages.github.com/)이 있다.
-- Create-React-App은 완성본을 `build` 폴더에 저장한다.
-- 앱을 빌드할 때마다 자동으로 `/build` 폴더에서 `/docs` 폴더로 내용물을 옮긴다면 마치 CI/CD를 구축한 효과를 얻을 수 있을 것이다.
+- GitHub에는 `docs` 폴더를 자동으로 랜딩 페이지처럼 만들어주는 [기능](https://pages.github.com/)이 있다.
+- Create-React-App은 완성본을 `build` 폴더에 저장한다.
+- 앱을 빌드할 때마다 자동으로 `/build` 폴더에서 `/docs` 폴더로 내용물을 옮긴다면 마치 CI/CD를 구축한 효과를 얻을 수 있을 것이다.
 
 ## 구현
 
@@ -23,7 +23,7 @@ slug: '/01460C'
 },
 ```
 
-`yarn build` 명령을 통해 `docs` 폴더 안의 앱을 최신 빌드로 업데이트 할 수 있다.
+`yarn build` 명령을 통해 `docs` 폴더 안의 앱을 최신 빌드로 업데이트 할 수 있다.
 
 ## 결과
 
@@ -31,4 +31,4 @@ slug: '/01460C'
 
 ### Updated Nov 19, 2020
 
-- 만약 빌드된 웹앱의 폴더나 파일에 `_` 가 들어간다면 루트 `index.html` 옆에 `.nojekyll` 파일을 추가해줘야 한다. 업데이트에 약간 시간이 걸리니 최소 10분을 기다려 보자. [Reference](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)
+- 만약 빌드된 웹앱의 폴더나 파일에 `_` 가 들어간다면 루트 `index.html` 옆에 `.nojekyll` 파일을 추가해줘야 한다. 업데이트에 약간 시간이 걸리니 최소 10분을 기다려 보자. [Reference](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)

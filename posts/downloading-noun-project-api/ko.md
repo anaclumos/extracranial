@@ -6,7 +6,7 @@ slug: '/589DF4'
 
 ## Beware
 
-이 도구를 사용하여 타인의 지적 재산권을 침해하지 마십시오. 이 코드와 The Noun Project API가 자신의 사용 용도에 적합한지 확인한 후에 사용하십시오. 또한 라이선스와 API 문서를 꼼꼼하게 검토하십시오. The Noun Project에서 허가하지 않는 사용 용도들은 [여기](https://api.thenounproject.com/getting_started.html#unacceptable-uses)에서 확인하실 수 있습니다. 또한 이 글과 이 글의 모든 코드는 MIT 라이선스임을 알려드립니다.
+이 도구를 사용하여 타인의 지적 재산권을 침해하지 마십시오. 이 코드와 The Noun Project API가 자신의 사용 용도에 적합한지 확인한 후에 사용하십시오. 또한 라이선스와 API 문서를 꼼꼼하게 검토하십시오. The Noun Project에서 허가하지 않는 사용 용도들은 [여기](https://api.thenounproject.com/getting_started.html#unacceptable-uses)에서 확인하실 수 있습니다. 또한 이 글과 이 글의 모든 코드는 MIT 라이선스임을 알려드립니다.
 
 ## 라이브러리 불러오기
 
@@ -17,9 +17,9 @@ from tqdm import tqdm
 from requests_oauthlib import OAuth1
 ```
 
-이 라이브러리들이 없다면 `pip3 download` 하여 사용하면 된다.
+이 라이브러리들이 없다면 `pip3 download` 하여 사용하면 된다.
 
-## `download` 함수
+## `download` 함수
 
 ```python
 def download(url, pathname):
@@ -44,7 +44,7 @@ def download(url, pathname):
             progress.update(len(data))
 ```
 
-이 코드는 URL의 데이터를 불러와 `pathname`에 저장하는 역할을 한다.
+이 코드는 URL의 데이터를 불러와 `pathname`에 저장하는 역할을 한다.
 
 ## The Noun Project API
 
@@ -73,7 +73,7 @@ for iteration in range(DOWNLOAD_ITERATION):
         download(icon["preview_url"], SAVE_LOCATION)
 ```
 
-보다 세부적인 기능은 이 [문서](https://api.thenounproject.com/documentation.html)를 참고하면 된다. API Key와 API Secret은 [여기](https://thenounproject.com/developers/apps/)에서 App을 등록하면 발급할 수 있다.
+보다 세부적인 기능은 이 [문서](https://api.thenounproject.com/documentation.html)를 참고하면 된다. API Key와 API Secret은 [여기](https://thenounproject.com/developers/apps/)에서 App을 등록하면 발급할 수 있다.
 
 ## 결과
 
