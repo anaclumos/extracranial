@@ -10,7 +10,7 @@ slug: '/E6DB5B'
 - block script execution
 - disable APIs
 - prevent links from targeting other browsing contexts
-- prevent content from using plugins (through `<embed>,` `<object>,` `<applet>,` or other)
+- prevent content from using plugins (through `<embed>,` `<object>,` `<applet>,` or other)
 - prevent the content from navigating its top-level browsing context
 - block automatically triggered features (such as automatically playing a video or automatically focusing a form control)
 

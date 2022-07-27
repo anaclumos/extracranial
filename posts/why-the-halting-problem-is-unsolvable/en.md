@@ -34,6 +34,6 @@ bool unknown(input i) {
 ```
 
 - Will `unknown(unknown)` halt? What should `doesItHalt({unknown, unknown})` return?
-- Let us suppose it will return `true`. Then, it means that `doesItHalt({unknown, unknown})`  returned `false` because `invertHalt(b)` would've hung otherwise. Therefore, this contradicts our supposition that `doesItHalt({unknown, unknown})` returns `true`.
+- Let us suppose it will return `true`. Then, it means that `doesItHalt({unknown, unknown})` returned `false` because `invertHalt(b)` would've hung otherwise. Therefore, this contradicts our supposition that `doesItHalt({unknown, unknown})` returns `true`.
 - Let us suppose it will return `false`. Then, it means that `doesItHalt({unknown, unknown})` would return `true` because `invertHalt` wouldn't hang otherwise. Therefore, this contradicts our supposition that `doesItHalt({unknown, unknown})` returns `false`.
 - Therefore, `unknown` cannot hang nor halt; therefore, no such `doesItHalt` can exist.
