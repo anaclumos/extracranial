@@ -1,5 +1,5 @@
 ---
-title: 'Displaying the exact published date and time on Ghost'
+title: 'Displaying exact datetimes on Ghost'
 date: 2020-04-26
 slug: '/522AED'
 ---
