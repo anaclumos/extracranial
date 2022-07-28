@@ -64,6 +64,18 @@ To set `crossOriginIsolated` to true, we need two headers.
 - [[Cross-Origin-Opener-Policy]]: `same-origin`
 - [[Cross-Origin-Embedder-Policy]]: `require-corp`
 
+Tim already built a super easy toolkit that sets both headers to the desired values.
+Then we only need to
+
+- `npx serve-isolated .`
+- [braneproject/serve-isolated: Serve static contents under the `crossOriginIsolated` mode.](https://github.com/braneproject/serve-isolated)
+
+![[Pasted image 20220728163149.png]]
+
+This is so cool.
+
+![[Pasted image 20220728163239.png]]
+
 import WIP from '@site/src/components/WIP'
 
 <WIP />
