@@ -28,8 +28,15 @@ if __name__ == "__main__":
                     alt_text = line.split("![")[1].split("]")[0]
                     filename = line.split("(")[1].split(")")[0]
                     if alt_text.endswith(".png") or alt_text.endswith(".jpg") or alt_text.endswith(".jpeg"):
-                        continue
-                    line = f'''
+                        line = f'''
+<figure>
+
+{line}
+
+</figure>
+'''
+                    else:
+                        line = f'''
 <figure>
 
 {line}
