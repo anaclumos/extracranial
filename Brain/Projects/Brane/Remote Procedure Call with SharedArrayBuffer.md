@@ -45,6 +45,7 @@ slug: '/C3CCC9'
 postMessage('Worker is ready!')
 
 onmessage = function (e) {
+  console.log('WORKER.onMessage:', e.data)
   postMessage(`I am a worker. Hello, ${e.data}.`)
 }
 ```
