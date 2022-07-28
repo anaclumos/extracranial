@@ -27,6 +27,8 @@ if __name__ == "__main__":
                 if line.startswith("![") and "]" in line and "(" in line and line.endswith(")\n"):
                     alt_text = line.split("![")[1].split("]")[0]
                     filename = line.split("(")[1].split(")")[0]
+                    if alt_text.endswith(".png") or alt_text.endswith(".jpg") or alt_text.endswith(".jpeg"):
+                        continue
                     line = f'''
 <figure>
 
