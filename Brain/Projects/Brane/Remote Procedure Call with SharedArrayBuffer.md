@@ -50,7 +50,14 @@ onmessage = function (e) {
 }
 ```
 
-The type of `e` is `MessageEvent`. [MessageEvent - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent).
+The type of `e` is `MessageEvent`.
+[MessageEvent - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent).
+
+## Synchronous Call from Main
+
+To enable [[SharedArrayBuffer]], we need a secure context `crossOriginIsolated`.
+
+![By default, `crossOriginIsolated` is false.](../../Assets/Pasted%20image%2020220728154049.png)
 
 import WIP from '@site/src/components/WIP'
 
