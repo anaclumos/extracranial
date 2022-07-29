@@ -168,13 +168,52 @@ function heartbeat() {
 }
 ```
 
-- Sends [[SharedArrayBuffer|SAB]] when the _Send SAB to Worker_ button is clicked.
+- Sends [[SharedArrayBuffer|SAB]] when clicking the _Send SAB to Worker_ button.
   - `[0]` is set to zero, so the heartbeat function waits.
 - If _Increment_ button is clicked, [[SharedArrayBuffer|SAB]] `[0]` is no longer 0.
   - We then notify any function waiting at `[0]`.
 - `heart` starts beating, incrementing [[SharedArrayBuffer|SAB]] `[0]`.
 
 ![[Pasted image 20220728173011.png]]
+
+## Remote Procedure Call
+
+- See [Remote procedure call - Wikipedia](https://en.m.wikipedia.org/wiki/Remote_procedure_call)
+- _RPC is a [request–response](https://en.m.wikipedia.org/wiki/Request%E2%80%93response 'Request–response') protocol. An RPC is initiated by the *client*, which sends a request message to a known remote *server* to execute a specified procedure with supplied parameters. The remote server sends a response to the client, and the application continues its process. While the server is processing the call, the client is blocked (it waits until the server has finished processing before resuming execution) unless the client sends an asynchronous request to the server, such as an [XMLHttpRequest](https://en.m.wikipedia.org/wiki/XMLHttpRequest 'XMLHttpRequest')._
+
+Note that
+
+- `main` only `notify()`.
+- `main` never `wait()`.
+- `worker` will yield to `wait()`.
+
+### Code Snippets I might use later
+
+```js
+function rpc({ func, args }) {
+  const sab = new SharedArrayBuffer(1024)
+  const message = {
+    sharedArrayBuffer: sab,
+    func,
+    args,
+  }
+  const int32 = new Int32Array(sab)
+  Atomics.store(int32, 0, Status.READY)
+  worker.postMessage(message)
+}
+```
+
+```js
+onmessage = function (e) {
+  console.log('WORKER.onMessage:', e.data)
+  const sab = e.data?.sharedArrayBuffer
+  const int32 = new Int32Array(sab)
+  const status = Atomics.load(int32, 0)
+  if (status !== Status.READY) {
+    return
+  }
+}
+```
 
 import WIP from '@site/src/components/WIP'
 
