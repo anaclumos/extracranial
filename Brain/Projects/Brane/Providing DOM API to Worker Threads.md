@@ -310,7 +310,3 @@ console.log(
 
 // This all happens synchronously in multi-thread.
 ```
-
-import WIP from '@site/src/components/WIP'
-
-<WIP />
