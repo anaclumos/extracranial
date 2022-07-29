@@ -215,6 +215,132 @@ onmessage = function (e) {
 }
 ```
 
+## Result
+
+- [anaclumos/worker-rpc: PoC: Synchronous DOM API access from Worker Threads](https://github.com/anaclumos/worker-rpc)
+
+![[Pasted image 20220729175358.png]]
+
+Voila! I have created a synchronous polyfill layer for `window.prompt` and `window.innerHeight` functions inside a worker.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./status.js"></script>
+    <title>Worker RPC/title>
+    <script>
+      console.log('crossOriginIsolated', crossOriginIsolated)
+      const Status = {
+        UNINITIALISED: 0,
+        READY: 1,
+        COMPLETED: 2,
+        ERROR: 3,
+      }
+      const worker = new Worker('worker.js')
+      worker.onmessage = function (e) {
+        const message = e.data
+        if (message?.func === 'prompt') {
+          const sab = message?.sharedArrayBuffer
+          const int32 = new Int32Array(sab)
+          const ans = prompt(message?.msg)
+          if (ans) {
+            const enc = new TextEncoder()
+            const buf = enc.encode(ans)
+            int32.set(buf, 0)
+            Atomics.notify(int32, 0, 1)
+          }
+        } else if (message?.func === 'windowInnerWidth') {
+          const sab = message?.sharedArrayBuffer
+          const int32 = new Int32Array(sab)
+          int32.set([window.innerWidth], 0)
+          Atomics.notify(int32, 0, 1)
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Worker RPC Demo</h1>
+    <button onclick="console.log('hello')">Console Log</button>
+    <button onclick="console.log('main thread:', window.innerWidth)">
+      Console Log Window Inner Width
+    </button>
+  </body>
+</html>
+```
+
+```js
+const Status = {
+  UNINITIALISED: 0,
+  READY: 1,
+  COMPLETED: 2,
+  ERROR: 3,
+}
+
+function sleep(ms) {
+  const end = Date.now() + ms
+  while (Date.now() < end) {}
+  return Date.now()
+}
+
+// polyfill layer for Worker.Prompt
+function prompt(msg) {
+  const sab = new SharedArrayBuffer(1024)
+  const int32 = new Int32Array(sab)
+  Atomics.store(int32, 0, Status.READY)
+  postMessage({
+    sharedArrayBuffer: sab,
+    func: 'prompt',
+    msg: msg,
+  })
+
+  // Waiting
+  Atomics.wait(int32, 0, Status.READY)
+
+  // Waiting complete, get the result
+  const ab = new ArrayBuffer(sab.byteLength)
+  const view = new Uint8Array(ab)
+  view.set(new Uint8Array(sab))
+  const decoder = new TextDecoder()
+  const string = decoder.decode(view)
+  console.log('WORKER recieved result:', string)
+}
+
+const window = {
+  get innerWidth() {
+    const sab = new SharedArrayBuffer(4)
+    const int32 = new Int32Array(sab)
+    Atomics.store(int32, 0, Status.READY)
+    postMessage({
+      sharedArrayBuffer: sab,
+      func: 'windowInnerWidth',
+    })
+    Atomics.wait(int32, 0, Status.READY)
+    const innerWidth = Atomics.load(int32, 0)
+    return innerWidth
+  },
+}
+
+// Therefore we can...
+
+sleep(5000)
+
+prompt('hello!')
+
+sleep(2000)
+
+console.log('worker thread:', window.innerWidth)
+
+console.log(
+  'this should go after printing worker window.innerWidth (sync access)'
+)
+
+// This all happens synchronously in multi-thread.
+```
+
 import WIP from '@site/src/components/WIP'
 
 <WIP />
