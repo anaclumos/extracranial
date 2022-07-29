@@ -2,7 +2,7 @@ import shutil
 import os
 SOURCE_DIR = './Brain'
 DESTINATION_DIR = './docs'
-DEBUG = True
+DEBUG = False
 
 # first, remove all files in the target directory
 if os.path.isdir(DESTINATION_DIR):
