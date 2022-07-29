@@ -3,7 +3,7 @@ title: 'Atomics'
 slug: '/D7EA90'
 ---
 
-- [[SharedArrayBuffer]]를 이용해 Worker 사이 메모리를 동기화하기 위해 사용됨.
+- [[SharedArrayBuffer]]를 이용해 [[Worker]] 사이 메모리를 동기화하기 위해 사용됨.
 - Thread-safe.
 - Thread 사이 데이터를 복사하지 않아도 됨.
 - 이벤트 루프 없이 통신 가능. 빠름.

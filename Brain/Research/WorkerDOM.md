@@ -1,6 +1,7 @@
 ---
 title: 'WorkerDOM'
 slug: '/5E71CF'
+aliases: ['워커돔']
 ---
 
 [[Google]]'s take on providing DOM access to [[Worker]] Threads.
