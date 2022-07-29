@@ -1,13 +1,11 @@
 ---
-title: 'Remote Procedure Call with SharedArrayBuffer'
+title: 'PoC: Providing DOM API to Worker Threads'
 slug: '/C3CCC9'
 ---
 
 ## Objective
 
-- Call a function in the worker thread and retrieve data from the main thread.
-- Call a function in the main thread and retrieve data from the worker thread.
-- Both _synchronously_.
+- Provide _synchronous_ DOM API Access to Worker Threads
 
 ## Start
 
@@ -187,35 +185,7 @@ Note that
 - `main` never `wait()`.
 - `worker` will yield to `wait()`.
 
-### Code Snippets I might use later
-
-```js
-function rpc({ func, args }) {
-  const sab = new SharedArrayBuffer(1024)
-  const message = {
-    sharedArrayBuffer: sab,
-    func,
-    args,
-  }
-  const int32 = new Int32Array(sab)
-  Atomics.store(int32, 0, Status.READY)
-  worker.postMessage(message)
-}
-```
-
-```js
-onmessage = function (e) {
-  console.log('WORKER.onMessage:', e.data)
-  const sab = e.data?.sharedArrayBuffer
-  const int32 = new Int32Array(sab)
-  const status = Atomics.load(int32, 0)
-  if (status !== Status.READY) {
-    return
-  }
-}
-```
-
-## Result
+## Complete
 
 - [anaclumos/worker-rpc: PoC: Synchronous DOM API access from Worker Threads](https://github.com/anaclumos/worker-rpc)
 
