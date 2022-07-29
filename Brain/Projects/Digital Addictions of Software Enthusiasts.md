@@ -32,3 +32,8 @@ The question became:
 import WIP from '@site/src/components/WIP'
 
 <WIP />
+
+## Reference
+
+- [Attention Settings](https://attentionsettings.com/)
+- [The Anti-Smartphone Revolution - YouTube](https://www.youtube.com/watch?v=02mIRnPJm6g)
