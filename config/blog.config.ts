@@ -6,8 +6,8 @@ const blog = {
   blogTitle: 'cho.sh',
   blogDescription: 'I am Sunghyun Cho, traveling the WWW.',
   postsPerPage: 'ALL',
-  blogSidebarCount: 20,
-  blogSidebarTitle: 'Recent Posts',
+  blogSidebarCount: 'ALL',
+  blogSidebarTitle: 'Recent',
   remarkPlugins: [math],
   rehypePlugins: [katex],
   editUrl: ({ locale, blogDirPath, blogPath }) => {
