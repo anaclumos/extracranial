@@ -1,5 +1,5 @@
 ---
-title: 'Intracranials'
+title: 'Intracranial'
 slug: '/009C77'
 ---
 
@@ -12,6 +12,7 @@ slug: '/009C77'
   - Atomic Notes System
 - Notes can refer to notes (like Hepta)
 - Can view relation graphs
+- Gesture Recognition: draw a certain shape to tag/link notes
 
 ## Problem
 
