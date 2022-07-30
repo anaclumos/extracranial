@@ -30,5 +30,13 @@
   "sidebar.sidebar.category.Python": {
     "message": "Python",
     "description": "The label for category Python in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Better Obsidian": {
+    "message": "Better Obsidian",
+    "description": "The label for category Better Obsidian in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Brane": {
+    "message": "Brane",
+    "description": "The label for category Brane in sidebar sidebar"
   }
 }
