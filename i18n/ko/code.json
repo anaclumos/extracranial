@@ -284,7 +284,7 @@
   ", ": {
     "message": ", "
   },
-  "artificial intelligences in medicine": {
+  "AI in medicine": {
     "message": "의료 인공지능"
   },
   "fusion energies": {
@@ -310,9 +310,6 @@
   },
   "Get in touch.": {
     "message": "연락하기."
-  },
-  "Sunghyun Profile Image": {
-    "message": "조성현 프로필 이미지"
   },
   "Google Latest Articles Instead": {
     "message": "Google에서 새로운 자료 찾아보기"
@@ -393,134 +390,169 @@
   },
   "theme.SearchBar.label": {
     "message": "검색",
-    "description": "The label for the search bar"
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchBar.seeAll": {
-    "message": "{count}개의 결과 확인하기",
-    "description": "The text for the See All button in the search bar"
+    "message": "{count}개의 결과 확인하기"
   },
   "theme.SearchModal.errorScreen.helpText": {
     "message": "인터넷 연결을 다시 확인하시기 바랍니다.",
-    "description": "The text for the error screen in the search modal"
+    "description": "The help text for error screen of search modal"
   },
   "theme.SearchModal.errorScreen.titleText": {
     "message": "결과를 불러올 수 없음",
-    "description": "The title for the error screen in the search modal"
+    "description": "The title for error screen of search modal"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
     "message": "Esc 키",
-    "description": "The ARIA label for the close button in the search modal"
+    "description": "The ARIA label for the Escape key button that close the modal"
   },
   "theme.SearchModal.footer.closeText": {
     "message": "로 종료",
-    "description": "The text for the close button in the search modal"
+    "description": "The explanatory text of the action for Escape key"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
     "message": "화살표 아래 키",
-    "description": "The ARIA label for the down arrow in the search modal"
+    "description": "The ARIA label for the Arrow down key button that makes the navigation"
   },
   "theme.SearchModal.footer.navigateText": {
     "message": "로 이동",
-    "description": "The text for the navigate button in the search modal"
+    "description": "The explanatory text of the action for the Arrow up and Arrow down key"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
     "message": "화살표 위 키",
-    "description": "The ARIA label for the up arrow in the search modal"
+    "description": "The ARIA label for the Arrow up key button that makes the navigation"
   },
   "theme.SearchModal.footer.searchByText": {
     "message": "검색 제공",
-    "description": "The text for the search by label in the search modal"
+    "description": "The text explain that the search is making by Algolia"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
     "message": "엔터 키",
-    "description": "The ARIA label for the select button in the search modal"
+    "description": "The ARIA label for the Enter key button that makes the selection"
   },
   "theme.SearchModal.footer.selectText": {
     "message": "로 선택",
-    "description": "The text for the select button in the search modal"
+    "description": "The explanatory text of the action for the enter key"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
     "message": "검색 결과 없음",
-    "description": "The text for the no results screen in the search modal"
+    "description": "The text explains that there are no results for the following search"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
     "message": "알려주시기 바랍니다.",
-    "description": "The text for the report missing results link in the search modal"
+    "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
     "message": "검색 결과가 없는 것이 오류라고 생각되십니까?",
-    "description": "The text for the report missing results text in the search modal"
+    "description": "The text for the question where the user thinks there are missing results"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
     "message": "다른 추천 검색어",
-    "description": "The text for the suggested query in the search modal"
+    "description": "The text for the suggested query when no results are found for the following search"
   },
   "theme.SearchModal.placeholder": {
     "message": "문서 검색",
-    "description": "The placeholder text for the search bar"
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
     "message": "취소",
-    "description": "The text for the cancel button in the search box"
+    "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.searchBox.resetButtonTitle": {
     "message": "검색어 초기화",
-    "description": "The title for the reset button in the search box"
+    "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
     "message": "즐겨찾기",
-    "description": "The title for the favorite searches section in the start screen"
+    "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
     "message": "최근 검색어 없음",
-    "description": "The text for the no recent searches section in the start screen"
+    "description": "The text when no recent searches"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
     "message": "최근",
-    "description": "The title for the recent searches section in the start screen"
+    "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
     "message": "이 검색어를 즐겨찾기에서 삭제",
-    "description": "The title for the remove favorite search button in the start screen"
+    "description": "The label for remove favorite search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
     "message": "이 검색어를 최근 검색어에서 삭제",
-    "description": "The title for the remove recent search button in the start screen"
+    "description": "The label for remove recent search button"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
     "message": "이 검색어를 저장",
-    "description": "The title for the save recent search button in the start screen"
+    "description": "The label for save recent search button"
   },
   "theme.SearchPage.algoliaLabel": {
     "message": "Algolia로 검색",
-    "description": "The label for the Algolia search engine"
+    "description": "The ARIA label for Algolia mention"
   },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "{count}개의 문서를 찾았습니다.",
-    "description": "The text for the number of documents found"
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.emptyResultsTitle": {
     "message": "문서를 검색합니다.",
-    "description": "The title for the empty results page"
+    "description": "The search page title for empty query"
   },
   "theme.SearchPage.existingResultsTitle": {
     "message": "\"{query}\" 검색 결과",
-    "description": "The title for the existing results page"
+    "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.fetchingNewResults": {
     "message": "새로운 검색 결과를 불러오는 중입니다.",
-    "description": "The text for the fetching new results message"
+    "description": "The paragraph for fetching new search results"
   },
   "theme.SearchPage.inputLabel": {
     "message": "검색",
-    "description": "The label for the search input"
+    "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.inputPlaceholder": {
     "message": "검색어를 입력하세요.",
-    "description": "The placeholder text for the search input"
+    "description": "The placeholder for search page input"
   },
   "theme.SearchPage.noResultsText": {
     "message": "검색 결과가 없습니다.",
-    "description": "The text for the no results message"
+    "description": "The paragraph for empty search result"
+  },
+  "🧑🏻‍💻": {
+    "message": "🧑🏻‍💻"
+  },
+  "🇺🇸": {
+    "message": "🇺🇸"
+  },
+  "🇰🇷": {
+    "message": "🇰🇷"
+  },
+  "🦄": {
+    "message": "🦄"
+  },
+  "🥕": {
+    "message": "🥕"
+  },
+  "📱": {
+    "message": "📱"
+  },
+  "🕸": {
+    "message": "🕸"
+  },
+  "👾": {
+    "message": "👾"
+  },
+  "☢": {
+    "message": "☢"
+  },
+  "🚀": {
+    "message": "🚀"
+  },
+  "📰": {
+    "message": "📰"
+  },
+  "💰": {
+    "message": "💰"
   }
 }
