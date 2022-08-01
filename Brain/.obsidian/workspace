@@ -7,8 +7,10 @@
         "id": "eac856f6877de92a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "image",
+          "state": {
+            "file": "Assets/1F98FE.jpeg"
+          }
         }
       }
     ],
@@ -73,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Assets/1F98FE.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Assets/1F98FE.jpeg"
+              }
             }
           },
           {
@@ -115,17 +120,17 @@
     "width": 450.5,
     "collapsed": true
   },
-  "active": "eac856f6877de92a",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
-    "Journals/2022-08-01.md",
+    "Assets/2971DF.jpeg",
     "Research/서울 프로.md",
+    "Journals/2022-08-01.md",
     "Seoul Pro.md",
     "Projects/Themed Maps.md",
     "Journals/2022-07-31.md",
     "Projects/Intracranial.md",
     "Projects/Autosave Everything.md",
     "Projects/Alphanumeric.md",
-    "Projects/Quoridor Game.md",
-    "Journals/2022-07-29.md"
+    "Projects/Quoridor Game.md"
   ]
 }
