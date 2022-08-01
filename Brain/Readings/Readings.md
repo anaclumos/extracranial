@@ -10,7 +10,7 @@ This is a meta-page that collects my to-read lists.
 [[TODO]]
 
 - [x] [[Building a Second Brain]]
-- [ ] [[일본 과학기술 총력전]]
+- [x] [[일본 과학기술 총력전]]
 - [ ] 지구 끝의 온실
 - [ ] MAKE
 - [ ] Zero to One

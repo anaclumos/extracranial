@@ -3,5 +3,6 @@
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "monospaceFontFamily": "SF Mono",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "translucency": false
 }
