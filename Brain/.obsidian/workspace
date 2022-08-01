@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7e9c9ea4481a9e69",
+        "id": "eac856f6877de92a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Journals/2022-08-01.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-08-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-08-01.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,7 +115,7 @@
     "width": 450.5,
     "collapsed": true
   },
-  "active": "7e9c9ea4481a9e69",
+  "active": "eac856f6877de92a",
   "lastOpenFiles": [
     "Journals/2022-08-01.md",
     "Research/서울 프로.md",
