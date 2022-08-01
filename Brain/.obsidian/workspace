@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "650ff9ec82d804b9",
+        "id": "4cf0eafe28043381",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,17 +115,17 @@
     "width": 450.5,
     "collapsed": true
   },
-  "active": "650ff9ec82d804b9",
+  "active": "4cf0eafe28043381",
   "lastOpenFiles": [
-    "Research/서울 프로.md",
-    "Journals/2022-08-01.md",
     "Assets/1F98FE.jpeg",
-    "Assets/2971DF.jpeg",
-    "Seoul Pro.md",
-    "Projects/Themed Maps.md",
-    "Journals/2022-07-31.md",
-    "Projects/Intracranial.md",
-    "Projects/Autosave Everything.md",
-    "Projects/Alphanumeric.md"
+    "Journals/2022-07-06.md",
+    "Journals/2022-07-07.md",
+    "Journals/2022-07-08.md",
+    "Journals/2022-07-09.md",
+    "Journals/2022-07-10.md",
+    "Journals/2022-07-11.md",
+    "Journals/2022-07-12.md",
+    "Journals/2022-07-13.md",
+    "Journals/2022-07-14.md"
   ]
 }
