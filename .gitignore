@@ -2,7 +2,7 @@
 *.stylesheet.js
 blog
 docs
-Brain/.obsidian
+Brain/.obsidian/plugins
 i18n/ko/docusaurus-plugin-content-blog
 
 # Dependencies
@@ -230,7 +230,8 @@ dist
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
