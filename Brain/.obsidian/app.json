@@ -1,0 +1,17 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": false,
+  "promptDelete": false,
+  "spellcheck": true,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "attachmentFolderPath": "Assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Interests",
+  "tabSize": 4,
+  "alwaysUpdateLinks": true
+}
