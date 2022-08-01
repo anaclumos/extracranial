@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "603dc146013b6bcd",
+        "id": "7e9c9ea4481a9e69",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/서울 프로.md",
-            "mode": "preview",
+            "file": "Journals/2022-08-01.md",
+            "mode": "source",
             "backlinks": true,
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/서울 프로.md",
+                "file": "Journals/2022-08-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/서울 프로.md"
+                "file": "Journals/2022-08-01.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 450.5,
     "collapsed": true
   },
-  "active": "603dc146013b6bcd",
+  "active": "7e9c9ea4481a9e69",
   "lastOpenFiles": [
-    "Seoul Pro.md",
     "Journals/2022-08-01.md",
+    "Research/서울 프로.md",
+    "Seoul Pro.md",
     "Projects/Themed Maps.md",
     "Journals/2022-07-31.md",
     "Projects/Intracranial.md",
     "Projects/Autosave Everything.md",
     "Projects/Alphanumeric.md",
     "Projects/Quoridor Game.md",
-    "Journals/2022-07-29.md",
-    "Research/PARA.md"
+    "Journals/2022-07-29.md"
   ]
 }
