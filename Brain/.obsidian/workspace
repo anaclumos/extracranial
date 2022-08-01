@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "4cf0eafe28043381",
+        "id": "b0bc682775f00e89",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Hey.md",
-            "mode": "preview",
+            "file": "Readings/일본 과학기술 총력전.md",
+            "mode": "source",
             "backlinks": true,
             "source": true
           }
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301
+    "width": 236.00130462646484
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hey.md",
+                "file": "Readings/일본 과학기술 총력전.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hey.md"
+                "file": "Readings/일본 과학기술 총력전.md"
               }
             }
           },
@@ -116,24 +116,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 450.5,
+    "width": 236.833251953125,
     "collapsed": true
   },
-  "active": "4cf0eafe28043381",
+  "active": "b0bc682775f00e89",
   "lastOpenFiles": [
+    "Readings/Readings.md",
+    "Journals/2022-08-02.md",
     "Journals/2022-08-01.md",
-    "Assets/1F98FE.jpeg",
-    "Journals/2022-07-06.md",
-    "Journals/2022-07-07.md",
-    "Journals/2022-07-08.md",
-    "Journals/2022-07-09.md",
-    "Journals/2022-07-10.md",
-    "Journals/2022-07-11.md",
-    "Journals/2022-07-12.md",
-    "Journals/2022-07-13.md"
+    "Readings/일본 과학기술 총력전.md",
+    "Assets/Pasted image 20220801181647.png",
+    "Assets/Pasted image 20220802002444.png",
+    "Assets/Pasted image 20220627154527.png",
+    "Hey.md",
+    "Readings/지구 끝의 온실.md",
+    "Journals/2022-07-25.md"
   ]
 }
