@@ -4,10 +4,6 @@ date: 2020-11-14
 slug: '/F522B3'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP state="translating" />
-
 Let's create a calendar with JavaScript but without any external library. This project is based on my previous internship at [Woowa Bros, a unicorn food-delivery startup in Seoul](https://www.bloomberg.com/profile/company/0962533D:KS).
 
 ## Show me the code first.
@@ -162,3 +158,7 @@ I made a function that would process these four dates when inputted a specific D
     }
 
 `calendar.js`
+
+import WIP from '@site/src/components/WIP'
+
+<WIP />
