@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/Swift.md",
+            "file": "Journals/2022-08-04.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Swift.md",
+                "file": "Journals/2022-08-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Swift.md"
+                "file": "Journals/2022-08-04.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 236.833251953125,
     "collapsed": true
   },
-  "active": "aa73c60d583d3db3",
+  "active": "2c5b5d793561a0f0",
   "lastOpenFiles": [
-    "Research/SwiftUI.md",
     "Journals/2022-08-03.md",
+    "Journals/2022-08-04.md",
+    "Projects/Better Aldehyde.md",
+    "Research/SwiftUI.md",
+    "Assets/Pasted image 20220803235118.png",
+    "Assets/Pasted image 20220803210537.png",
+    "Assets/Pasted image 20220803235242.png",
+    "Research/Swift.md",
     "Projects/Intracranial.md",
-    "Templates/display-flex.md",
-    "Templates/note.md",
-    "Templates/journal.md",
-    "Hey.md",
-    "Projects/iiframe.md",
-    "Research/Worker.md",
-    "web workers.md"
+    "Templates/display-flex.md"
   ]
 }
