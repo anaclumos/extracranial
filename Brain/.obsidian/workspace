@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "39901668f01d7332",
+        "id": "27ff7d436d45c2dc",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -123,17 +123,17 @@
     "width": 236.833251953125,
     "collapsed": true
   },
-  "active": "39901668f01d7332",
+  "active": "27ff7d436d45c2dc",
   "lastOpenFiles": [
+    "Projects/iiframe.md",
+    "Research/Worker.md",
+    "web workers.md",
+    "Journals/2022-08-03.md",
     "Assets/Pasted image 20220803112830.png",
     "Assets/Pasted image 20220803145329.png",
     "Assets/Pasted image 20220703211022.png",
-    "Journals/2022-08-03.md",
     "Journals/2022-08-01.md",
     "Journals/2022-08-02.md",
-    "Assets/Pasted image 20220706002554.png",
-    "Assets/165F8C.jpeg",
-    "Readings/일본 과학기술 총력전.md",
-    "Assets/Pasted image 20220728170918.png"
+    "Assets/Pasted image 20220706002554.png"
   ]
 }
