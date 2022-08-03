@@ -55,10 +55,7 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 
 ![pomb.us. Reacts to user scroll.](images/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)
 
-
 ![qubit.donghwi.dev. This isn't a blog; it's a web app that demonstrates key concepts of Quantum Computers. But still interesting.](images/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)
-
-
 
 ## Unorganized Graphing.
 
@@ -74,7 +71,6 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 - You don't need to manually organize all of the files when algorithms can read all the texts and organize them for you!
 - Use algorithmic inspections to analyze how the posts may interrelate with each other properly.
 
-
 ![Velog.io, the Korean version of dev.to, links relevant posts for every post.](images/image-8.png)
 
 - Therefore, creating a cluster of posts, not classified by me, but bots and algorithms.
@@ -84,7 +80,6 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 - This is similar to backlinking, which most so-called digital brains such as [Obsidian](https://obsidian.md/) and [Dendron](https://www.dendron.so/) are doing.
 
 ![Example of backlinking from Dendron](images/image-9.png)
-
 
 - I agree with the importance of interlinking knowledge crumbles, but I can't entirely agree with their method.
 - Manually linking posts are inconsistent and troublesome; it can only be done on a massive communal scale, like Wikipedia.
@@ -99,7 +94,6 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 ## Automatic Open Graph Image Insertion
 
 - For example, GitHub creates automatic open graph images with their metadata.
-
 
 ![Example open graph image from GitHub](images/image-10.png)
 
@@ -137,11 +131,9 @@ Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 - I want to go with the standard SF Pro series with a powerful new font Pretendard.
 
 ```css
-font-family:
-  ui-sans-serif, -apple-system, BlinkMacSystemFont,
-  'Apple SD Gothic Neo', Pretendard, system-ui
-  -system-ui, sans-serif, 'Apple Color Emoji';
-
+font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont,
+  'Apple SD Gothic Neo', Pretendard, system-ui -system-ui,
+  sans-serif, 'Apple Color Emoji';
 ```
 
 - However, I am exploring other options.
@@ -167,6 +159,7 @@ font-family:
 ### [Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)
 
 I don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. What if I need to update the title and want to update the URL Structure?
+
 - Changing URL structure affects SEO, so I would need to stick to the original domain even after changing the entity title to maintain the SEO. But then the title and URL would be inconsistent.
 - Therefore, I would give the entity a UID that would be a hash for each interconnected entity. Maybe the randomized hash UID could be a color hex that could be the [theme color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color) for the entity?
 - Emoji routes seem cool, aye? I would also need Web Share API since Chrome doesn't support copying Unicode URLs.
@@ -174,16 +167,13 @@ I don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. Wha
 - cho.sh/♥/e5732f/ko
 - cho.sh/🧠/e5732f/en
 
-
 ![Also found that Twitter doesn't support Unicode URLs.](images/image-11.png)
-
 
 # #5 Miscellany
 
 ## Headline for Outdated Posts
 
 - There should be a method to penalize old posts; they should exist in the database but wouldn't appear as much on the data chain. i.e., put a lifespan or "valid until" for posts.
-
 
 ![홍민희 블로그](images/image-6.png)
 ![Kat Huang](images/image-7.png)
