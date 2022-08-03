@@ -21,7 +21,7 @@ This book gives one methodology for such a problem.
 
 ## Functions
 
-A second brain can do:
+A second brain can:
 
 - Detail ideas.
 - Interrelate ideas.
