@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-08-03.md",
-            "mode": "source",
+            "file": "Swift.md",
+            "mode": "preview",
             "backlinks": true,
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-08-03.md",
+                "file": "Swift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-08-03.md"
+                "file": "Swift.md"
               }
             }
           },
@@ -127,13 +127,13 @@
   "lastOpenFiles": [
     "Research/SwiftUI.md",
     "Journals/2022-08-03.md",
+    "Projects/Intracranial.md",
     "Templates/display-flex.md",
     "Templates/note.md",
     "Templates/journal.md",
     "Hey.md",
     "Projects/iiframe.md",
     "Research/Worker.md",
-    "web workers.md",
-    "Assets/Pasted image 20220803112830.png"
+    "web workers.md"
   ]
 }
