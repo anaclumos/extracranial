@@ -8,7 +8,7 @@ slug: '/2EAC56'
 ## Notes
 
 ```bash
-brew install swiftlint
+brew reinstall --cask swiftformat-for-xcode
 ```
 
 import WIP from '@site/src/components/WIP'
