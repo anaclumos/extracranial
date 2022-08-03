@@ -49,49 +49,16 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 
 ## Interactive Contents & Animations
 
-<figure>
+![victordibia.com. Seems like using MDX.](images/Screen-Recording-2022-05-07-at-10.49.10-PM.gif)
 
-![](images/Screen-Recording-2022-05-07-at-10.49.10-PM.gif)
+![bluewings.github.io. Confirmed using MDX.](images/Screen-Recording-2022-05-08-at-10.02.47-PM.gif)
 
-<figcaption>
+![pomb.us. Reacts to user scroll.](images/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)
 
-[Victor Dibia](http://victordibia.com). Seems like using MDX.
 
-</figcaption>
-</figure>
+![qubit.donghwi.dev. This isn't a blog; it's a web app that demonstrates key concepts of Quantum Computers. But still interesting.](images/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)
 
-<figure>
 
-![아빠는 개발자](images/Screen-Recording-2022-05-08-at-10.02.47-PM.gif)
-
-<figcaption>
-
-[아빠는 개발자](https://bluewings.github.io/). Confirmed using MDX.
-
-</figcaption>
-</figure>
-
-<figure>
-
-![pomb.us](images/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)
-
-<figcaption>
-
-[pomb.us](https://pomb.us). Reacts to user scroll.
-
-</figcaption>
-</figure>
-
-<figure>
-
-![qubit.donghwi.dev](images/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)
-
-<figcaption>
-
-[qubit.donghwi.dev](https://qubit.donghwi.dev). This isn't a blog; it's a webapp that demonstrates key concepts of Quantum Computers. But still interesting.
-
-</figcaption>
-</figure>
 
 ## Unorganized Graphing.
 
@@ -107,35 +74,19 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 - You don't need to manually organize all of the files when algorithms can read all the texts and organize them for you!
 - Use algorithmic inspections to analyze how the posts may interrelate with each other properly.
 
-<figure>
 
-![Velog](images/image-8.png)
+![Velog.io, the Korean version of dev.to, links relevant posts for every post.](images/image-8.png)
 
-<figcaption>
+- Therefore, creating a cluster of posts, not classified by me, but bots and algorithms.
 
-[Velog](https://velog.io), the Korean version of [dev.to](https://dev.to), links relevant posts for every post.
-
-</figcaption>
-</figure>
-
-- Therefore creating a cluster of posts, not classified by me, but bots and algorithms.
-
-  - [Display related posts without slowing down your website! Link all your existing content with only 1 click, get related posts for all your posts today!](https://wordpress.org/plugins/related-posts-for-wp/) WordPress also has this plugin. "Automatically link posts to each other"
+  - [Display related posts without slowing down your website! Link all your existing content with only one click, and get related posts for all your posts today!](https://wordpress.org/plugins/related-posts-for-wp/) WordPress also has this plugin. "Automatically link posts to each other"
 
 - This is similar to backlinking, which most so-called digital brains such as [Obsidian](https://obsidian.md/) and [Dendron](https://www.dendron.so/) are doing.
 
-<figure>
-
 ![Example of backlinking from Dendron](images/image-9.png)
 
-<figcaption>
 
-Example of backlinking from Dendron
-
-</figcaption>
-</figure>
-
-- I agree with the importance of interlinking knowledge crumbles, but I can't entirely agree with the method they are taking.
+- I agree with the importance of interlinking knowledge crumbles, but I can't entirely agree with their method.
 - Manually linking posts are inconsistent and troublesome; it can only be done on a massive communal scale, like Wikipedia.
 - You cannot apply the same logic to individual digital brain systems.
 
@@ -149,20 +100,12 @@ Example of backlinking from Dendron
 
 - For example, GitHub creates automatic open graph images with their metadata.
 
-<figure>
 
 ![Example open graph image from GitHub](images/image-10.png)
 
-<figcaption>
-
-Example open graph image from GitHub
-
-</figcaption>
-</figure>
-
 - There are quite some services using this technique.
-- GitHub wrote an awesome [post](https://github.blog/2021-06-22-framework-building-open-graph-images/) on how to implement this feature.
-- I also tried to implement this on top of Ghost CMS, which, I gave up after figuring out the Ghost Core Engine should support this. However, I have created a [fork](https://github.com/vercel/og-image/compare/main...anaclumos:main) that I can extend later on. [http://og-image.cho.sh/](http://og-image.cho.sh/)
+- GitHub wrote an excellent [post](https://github.blog/2021-06-22-framework-building-open-graph-images/) on implementing this feature.
+- I also tried to implement this on top of Ghost CMS, which I gave up after figuring out the Ghost Core Engine should support this. However, I have created a [fork](https://github.com/vercel/og-image/compare/main...anaclumos:main) that I can extend later. [http://og-image.cho.sh/](http://og-image.cho.sh/)
 
 [GitHub - anaclumos/cho-sh-og-image: Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc](https://github.com/anaclumos/cho-sh-og-image)
 
@@ -175,7 +118,7 @@ Example open graph image from GitHub
 
 ## Translations
 
-- At this point, I might just go write one English post and let Google Translate do the heavy lifting.
+- At this point, I might write one English post and let Google Translate do the heavy lifting.
 - Also, I can get contributions from GitHub.
 
 While supporting multilanguage and translations, I want to put some 3D WebGL globe graphics. Remember [infrastructure.aws](https://infrastructure.aws) in 2019? It used to show an awesome 3D graphic of AWS's global network.
@@ -183,9 +126,9 @@ While supporting multilanguage and translations, I want to put some 3D WebGL glo
 - After some research, the same website has moved here!
 - [AWS Edge Cloud Continuum](https://apps.kaonadn.net/5181491956940800/index.html)
 
-I kinda want this back too. Meanwhile, this looks nice:
+I kind of want this back too. Meanwhile, this looks nice:
 
-- [GitHub - shuding/cobe: 5kB WebGL globe lib.](https://github.com/shuding/cobe)
+- [GitHub - shuding/code: 5kB WebGL globe lib.](https://github.com/shuding/cobe)
 
 Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 
@@ -193,17 +136,20 @@ Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 
 - I want to go with the standard SF Pro series with a powerful new font Pretendard.
 
-  font-family:
+```css
+font-family:
   ui-sans-serif, -apple-system, BlinkMacSystemFont,
   'Apple SD Gothic Neo', Pretendard, system-ui
   -system-ui, sans-serif, 'Apple Color Emoji';
+
+```
 
 - However, I am exploring other options.
 - I liked [TossFace](https://toss.im/tossface)'s bold attempt to infuse Korean values into the Japan-based emoji system for emoji. (lol, but they canceled it.)
 
 ![](images/IMG_1136.PNG)
 
-- Honestly, I kinda want this back. They can use Unicode [Private Use Area](https://en.wikipedia.org/wiki/Private_Use_Areas#:~:text=In%20Unicode%2C%20a%20Private%20Use,characters%20by%20the%20Unicode%20Consortium.). But Toss is too lazy to do that considering they still didn't make the WOFF version Webfont.
+- Honestly, I want this back. They can use Unicode [Private Use Area](https://en.wikipedia.org/wiki/Private_Use_Areas#:~:text=In%20Unicode%2C%20a%20Private%20Use,characters%20by%20the%20Unicode%20Consortium.). But Toss is too lazy to do that considering they still didn't make the WOFF version Webfont.
 - So I might use [Twemoji](https://twemoji.twitter.com/).
 - Update, I submitted a formal request to Toss to bring these **Korean Emojis** back.
 
@@ -213,63 +159,38 @@ Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 
 ## URL Structures
 
-- Does URL Structure matter for SEO? I don't really think so if the exhaustive domain list is provided through sitemap.xml.
-- For SEO purposes, (although I still doubt the effectiveness) automatically inserting the URLified titles at the end might help (like Notion)
+- Does URL Structure matter for SEO? I don't think so if the exhaustive domain list is provided through sitemap.xml.
+- For SEO purposes (although I still doubt the effectiveness), automatically inserting the URLified titles at the end might help (like Notion)
 
 ## Nameless routes
 
 ### [Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)
 
-- I really don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. What if I need to update the title and want to update the URL Structure?
-- Changing URL structure affects SEO, so to maintain the SEO I would need to stick to the original domain even after changing the entity title. But then the title and URL would be inconsistent.
+I don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. What if I need to update the title and want to update the URL Structure?
+- Changing URL structure affects SEO, so I would need to stick to the original domain even after changing the entity title to maintain the SEO. But then the title and URL would be inconsistent.
 - Therefore, I would give the entity a UID that would be a hash for each interconnected entity. Maybe the randomized hash UID could be a color hex that could be the [theme color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color) for the entity?
-- Emoji routes seem cool, aye? Would also need Web Share API for this, since Chrome doesn't support copying Unicode URLs.
+- Emoji routes seem cool, aye? I would also need Web Share API since Chrome doesn't support copying Unicode URLs.
 - Some candidates I am thinking of:
 - cho.sh/♥/e5732f/ko
 - cho.sh/🧠/e5732f/en
 
-<figure>
 
-![Twitter doesn't support Unicode URLs](images/image-11.png)
+![Also found that Twitter doesn't support Unicode URLs.](images/image-11.png)
 
-<figcaption>
-
-Also found that Twitter doesn't support Unicode URLs.
-
-</figcaption>
-</figure>
 
 # #5 Miscellany
 
 ## Headline for Outdated Posts
 
-- There should be a method to penalize old posts; they should exist in the database, but wouldn't appear as much on the data chain. i.e., put a lifespan or "valid until" for posts.
+- There should be a method to penalize old posts; they should exist in the database but wouldn't appear as much on the data chain. i.e., put a lifespan or "valid until" for posts.
 
-<figure>
 
 ![홍민희 블로그](images/image-6.png)
-
-<figcaption>
-
-[홍민희 블로그](https://blog.hongminhee.org/2011/10/06/steve-jobs/)
-
-</figcaption>
-</figure>
-
-<figure>
-
 ![Kat Huang](images/image-7.png)
-
-<figcaption>
-
-[Kat Huang](https://www.katmh.com/girl-in-stem)
-
-</figcaption>
-</figure>
 
 ## Footnotes
 
-- A nice addition. But not necessary.
+- An excellent addition. But not necessary.
 - If I ever have to make a footnote system, I want to make it hoverable, which [namu.wiki](https://namu.wiki) did a great job. I do not want to make it jump down to the bottom and put a cringy ↩️ icon to link back.
 
 ## ToC
