@@ -8,11 +8,13 @@ slug: '/177B14'
 - Other Potential Names
   - CrushCrash — Frame Your Crush
 
-프로덕트는 그보다... 뭔가 원초적이고 단일적이고 수평확장 가능한 하나의 목표를 바라볼 때 탄생한다.
+## Motto
+
+프로덕트는 그보다... 원초적이고 단일적이고 수평확장 가능한 하나의 목표를 바라볼 때 탄생한다.
 
 > 세상 모든 홈마들의 Raw 파일을 한 곳에 모으겠다.
 
-그것의 Consumer-side Product가 CELO.
+그것의 Consumer-side Product가 CELLO
 
 ## Definition
 
@@ -37,11 +39,11 @@ slug: '/177B14'
 
 - [[Cloudflare]] for serving high-res images
 - Possibly [[Deno Deploy]]
+- [[SwiftUI]]
 
 ## Things to consider
 
 - Avoid local confinement, as seen in most [[K-Pop Apps]].
-- CrushCrash?
 - Let's go agile, mainly with emails
 - Show some level of kindness:
   - Invite codes? Invite networks?
