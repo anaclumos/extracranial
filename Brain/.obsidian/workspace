@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Timebelt.md",
+            "file": "Projects/CELLO/CELLO.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.00130462646484,
-    "collapsed": true
+    "width": 236.00130462646484
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Timebelt.md",
+                "file": "Projects/CELLO/CELLO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Timebelt.md"
+                "file": "Projects/CELLO/CELLO.md"
               }
             }
           },
@@ -121,11 +120,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.833251953125,
-    "collapsed": true
+    "width": 236.833251953125
   },
-  "active": "2c5b5d793561a0f0",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
+    "Projects/CELLO/ULLO.md",
+    "Projects/Timebelt.md",
     "Research/Hacker News.md",
     "Research/WorkerDOM.md",
     "Research/SwiftUI.md",
@@ -133,8 +133,6 @@
     "Journals/2022-08-04.md",
     "Projects/CELLO/CELLO.md",
     "Research/SharedArrayBuffer.md",
-    "ULLO.md",
-    "Journals/2022-08-03.md",
-    "Projects/Better Aldehyde.md"
+    "Journals/2022-08-03.md"
   ]
 }
