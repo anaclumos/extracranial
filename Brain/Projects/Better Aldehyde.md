@@ -8,7 +8,7 @@ slug: '/84776A'
 Aldehyde is the codename for this very website.
 Try figuring out why.
 
-## Some stuffs to improve
+## Some stuff to improve
 
 - Graphing & Backlinking Support
 
