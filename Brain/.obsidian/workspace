@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-08-04.md",
-            "mode": "preview",
+            "file": "Projects/Timebelt.md",
+            "mode": "source",
             "backlinks": true,
             "source": true
           }
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.00130462646484
+    "width": 236.00130462646484,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-08-04.md",
+                "file": "Projects/Timebelt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-08-04.md"
+                "file": "Projects/Timebelt.md"
               }
             }
           },
@@ -125,15 +126,15 @@
   },
   "active": "2c5b5d793561a0f0",
   "lastOpenFiles": [
-    "Journals/2022-08-03.md",
-    "Journals/2022-08-04.md",
-    "Projects/Better Aldehyde.md",
+    "Research/Hacker News.md",
+    "Research/WorkerDOM.md",
     "Research/SwiftUI.md",
-    "Assets/Pasted image 20220803235118.png",
-    "Assets/Pasted image 20220803210537.png",
-    "Assets/Pasted image 20220803235242.png",
     "Research/Swift.md",
-    "Projects/Intracranial.md",
-    "Templates/display-flex.md"
+    "Journals/2022-08-04.md",
+    "Projects/CELLO/CELLO.md",
+    "Research/SharedArrayBuffer.md",
+    "ULLO.md",
+    "Journals/2022-08-03.md",
+    "Projects/Better Aldehyde.md"
   ]
 }
