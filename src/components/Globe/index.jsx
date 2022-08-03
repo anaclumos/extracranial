@@ -1,7 +1,6 @@
 import createGlobe from 'cobe'
 import React from 'react'
 import { useEffect, useRef } from 'react'
-import { globePathDrawer } from '../../util/globePathDrawer'
 import styles from './index.module.css'
 import { useSpring } from 'react-spring'
 const seoul = { location: [37.5665, 126.978], size: 0.05 }
