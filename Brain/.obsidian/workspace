@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6e407822262fe170",
+        "id": "2f00cc92b13c229c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Journals/2022-08-02.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-08-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-08-02.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,17 +115,17 @@
     "width": 236.833251953125,
     "collapsed": true
   },
-  "active": "6e407822262fe170",
+  "active": "2f00cc92b13c229c",
   "lastOpenFiles": [
+    "Journals/2022-08-03.md",
+    "Assets/Pasted image 20220706002554.png",
+    "Assets/165F8C.jpeg",
+    "Journals/2022-08-02.md",
+    "Journals/2022-08-01.md",
     "Readings/일본 과학기술 총력전.md",
     "Assets/Pasted image 20220728170918.png",
     "Assets/Pasted image 20220728173011.png",
     "Assets/Pasted image 20220729175358.png",
-    "Assets/Pasted image 20220801181647.png",
-    "Assets/1F98FE.jpeg",
-    "Assets/9E21DD.gif",
-    "Assets/2971DF.jpeg",
-    "Assets/D4C125.gif",
-    "Journals/2022-08-02.md"
+    "Assets/Pasted image 20220801181647.png"
   ]
 }
