@@ -71,7 +71,7 @@ const HeroText = () => {
             })}
             photo={TechnologistEmoji}
             photoAlt={translate({
-              message: '🧑🏻‍💻',
+              message: '👨🏻‍💻',
             })}
             showByDefault="emoji"
           />
