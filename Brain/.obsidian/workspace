@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2c5b5d793561a0f0",
+        "id": "866765ceb0919be5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/CELLO/CELLO.md",
+            "file": "Journals/2022-08-04.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/CELLO/CELLO.md",
+                "file": "Journals/2022-08-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/CELLO/CELLO.md"
+                "file": "Journals/2022-08-04.md"
               }
             }
           },
@@ -122,17 +122,17 @@
     "direction": "horizontal",
     "width": 236.833251953125
   },
-  "active": "aa73c60d583d3db3",
+  "active": "866765ceb0919be5",
   "lastOpenFiles": [
+    "Journals/2022-08-03.md",
+    "Journals/2022-08-02.md",
+    "Journals/2022-08-01.md",
+    "Journals/2022-08-04.md",
+    "Research/Optimistic Nihilism.md",
+    "Untitled.md",
+    "Projects/CELLO/CELLO.md",
     "Projects/CELLO/ULLO.md",
     "Projects/Timebelt.md",
-    "Research/Hacker News.md",
-    "Research/WorkerDOM.md",
-    "Research/SwiftUI.md",
-    "Research/Swift.md",
-    "Journals/2022-08-04.md",
-    "Projects/CELLO/CELLO.md",
-    "Research/SharedArrayBuffer.md",
-    "Journals/2022-08-03.md"
+    "Research/Hacker News.md"
   ]
 }
