@@ -1,6 +1,6 @@
 ---
-title: 'Hey'
-slug: '/hey'
+title: 'Hey 👋🏻'
+slug: '/'
 ---
 
 > What does moving from mindless consumption to mindful creation look like? — [[Building a Second Brain|BASB]]
