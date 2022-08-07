@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-08-04.md",
+            "file": "Journals/2022-08-07.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-08-04.md",
+                "file": "Journals/2022-08-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-08-04.md"
+                "file": "Journals/2022-08-07.md"
               }
             }
           },
@@ -124,15 +124,15 @@
   },
   "active": "bbc00744747d3804",
   "lastOpenFiles": [
-    "Hey.md",
     "Journals/2022-08-04.md",
+    "Journals/2022-08-07.md",
+    "Hey.md",
     "Readings/지구 끝의 온실.md",
     "Assets/Pasted image 20220804181751.png",
     "Journals/2022-08-03.md",
     "Journals/2022-08-02.md",
     "Journals/2022-08-01.md",
     "Research/Optimistic Nihilism.md",
-    "Untitled.md",
-    "Projects/CELLO/CELLO.md"
+    "Untitled.md"
   ]
 }
