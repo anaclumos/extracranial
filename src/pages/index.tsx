@@ -114,7 +114,7 @@ const HeroText = () => {
             showByDefault="emoji"
           />
           <Translate>
-            {', researching secure sandboxing model for '}
+            {', researching secure sandboxing models for '}
           </Translate>
           <EmojiReplaceableText
             text={translate({ message: 'mini-apps' })}
@@ -137,7 +137,7 @@ const HeroText = () => {
           />
           <Translate>
             {
-              ' technologies, while his interest spans across variety of fields like '
+              ' technologies, while his interest spans various fields like '
             }
           </Translate>
           <EmojiReplaceableText
@@ -182,7 +182,7 @@ const HeroText = () => {
             showByDefault="emoji"
           />
           <Translate>
-            {'. When he is not coding, he enjoys learning '}
+            {'. When he is not coding, he enjoys studying '}
           </Translate>
           <EmojiReplaceableText
             text={translate({ message: 'modern history' })}
