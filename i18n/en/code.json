@@ -263,8 +263,8 @@
   "Karrot": {
     "message": "Karrot"
   },
-  ", researching secure sandboxing model for ": {
-    "message": ", researching secure sandboxing model for "
+  ", researching secure sandboxing models for ": {
+    "message": ", researching secure sandboxing models for "
   },
   "mini-apps": {
     "message": "mini-apps"
@@ -275,8 +275,8 @@
   "web": {
     "message": "web"
   },
-  " technologies, while his interest spans across variety of fields like ": {
-    "message": " technologies, while his interest spans across variety of fields like "
+  " technologies, while his interest spans various fields like ": {
+    "message": " technologies, while his interest spans various fields like "
   },
   "computer graphics": {
     "message": "computer graphics"
@@ -293,8 +293,8 @@
   "space terraformings": {
     "message": "space terraformings"
   },
-  ". When he is not coding, he enjoys learning ": {
-    "message": ". When he is not coding, he enjoys learning "
+  ". When he is not coding, he enjoys studying ": {
+    "message": ". When he is not coding, he enjoys studying "
   },
   "modern history": {
     "message": "modern history"
