@@ -7,8 +7,13 @@
         "id": "c3bc7ff96a533131",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-08-10.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-08-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-08-10.md"
+              }
             }
           },
           {
@@ -116,15 +124,15 @@
   },
   "active": "c3bc7ff96a533131",
   "lastOpenFiles": [
+    "Templates/youtube.md",
+    "Research/Optimistic Nihilism.md",
     "Journals/2022-08-09.md",
+    "Journals/2022-08-10.md",
     "Journals/2022-08-07.md",
     "Journals/2022-08-04.md",
     "Journals/2022-08-03.md",
     "Hey.md",
     "Readings/지구 끝의 온실.md",
-    "Assets/Pasted image 20220804181751.png",
-    "Journals/2022-08-02.md",
-    "Journals/2022-08-01.md",
-    "Research/Optimistic Nihilism.md"
+    "Assets/Pasted image 20220804181751.png"
   ]
 }
