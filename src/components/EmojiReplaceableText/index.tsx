@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './EmojiReplaceableText.module.css'
+import styles from './index.module.css'
 
 type Props = {
   text: string
