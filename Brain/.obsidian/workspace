@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "af39e6e7b92a3f3c",
+        "id": "930b8af6bd7d7096",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/SwiftUI.md",
+            "file": "Projects/CalliFontia.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/SwiftUI.md",
+                "file": "Projects/CalliFontia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/SwiftUI.md"
+                "file": "Projects/CalliFontia.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "af39e6e7b92a3f3c",
+  "active": "930b8af6bd7d7096",
   "lastOpenFiles": [
-    "Research/Swift.md",
+    "Journals/2022-08-11.md",
+    "Projects/CalliFontia.md",
     "Journals/2022-08-10.md",
+    "Research/SwiftUI.md",
+    "Research/Swift.md",
     "Projects/Old Fashioned Camera.md",
     "Projects/OGIaaS.md",
     "Journals/2022-08-09.md",
     "Assets/Pasted image 20220728163239.png",
-    "Assets/Pasted image 20220728173011.png",
-    "Assets/Pasted image 20220729175358.png",
-    "Assets/Pasted image 20220803112747.png",
-    "Assets/Pasted image 20220803145329.png"
+    "Assets/Pasted image 20220728173011.png"
   ]
 }
