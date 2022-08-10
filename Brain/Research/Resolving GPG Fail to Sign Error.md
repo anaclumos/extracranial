@@ -32,6 +32,8 @@ git config --global commit.gpgsign true
 git log --show-signature -1
 ```
 
+Make sure you didn't delete `~.gnupg`.
+
 ## Reference
 
 - [gpg failed to sign the data fatal: failed to write commit object \[Git 2.10.0\] - Stack Overflow](https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0)
