@@ -7,8 +7,13 @@
         "id": "af39e6e7b92a3f3c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Research/SwiftUI.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Research/SwiftUI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Research/SwiftUI.md"
+              }
             }
           },
           {
@@ -117,15 +125,15 @@
   },
   "active": "af39e6e7b92a3f3c",
   "lastOpenFiles": [
+    "Research/Swift.md",
+    "Journals/2022-08-10.md",
     "Projects/Old Fashioned Camera.md",
     "Projects/OGIaaS.md",
-    "Journals/2022-08-10.md",
     "Journals/2022-08-09.md",
     "Assets/Pasted image 20220728163239.png",
     "Assets/Pasted image 20220728173011.png",
     "Assets/Pasted image 20220729175358.png",
     "Assets/Pasted image 20220803112747.png",
-    "Assets/Pasted image 20220803145329.png",
-    "Assets/Pasted image 20220803210537.png"
+    "Assets/Pasted image 20220803145329.png"
   ]
 }
