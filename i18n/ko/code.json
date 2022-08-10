@@ -357,16 +357,16 @@
     "message": " 년이 지났습니다."
   },
   "Work in Progress": {
-    "message": "작업 중입니다."
+    "message": "Work in Progress"
   },
   "Work in Progress. Check back later.": {
-    "message": "현재 작업 중입니다. 나중에 다시 확인해 주시기 바랍니다."
+    "message": "작업 중입니다. 나중에 다시 확인해 주시기 바랍니다."
   },
-  "I wrote this post in another language first and was translating it to other languages.": {
+  "I wrote this post in another language. I did not translate it to other languages yet.": {
     "message": "이 글은 다른 언어로 먼저 작성되었으며 현재 번역 중입니다."
   },
-  "Therefore, if you speak different languages, look for this post in that language.": {
-    "message": "여러 언어를 구사하신다면 이 글을 다른 언어로 먼저 찾아보시기 바랍니다."
+  "If you speak different languages, look for this post in that language.": {
+    "message": "여러 언어를 구사하시면 이 글을 다른 언어로 먼저 찾아보시기 바랍니다."
   },
   "theme.admonition.note": {
     "message": "노트",

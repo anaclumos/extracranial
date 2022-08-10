@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "26515a130e307820",
+        "id": "af39e6e7b92a3f3c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/Old Fashioned Camera.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Old Fashioned Camera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/Old Fashioned Camera.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,10 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "26515a130e307820",
+  "active": "af39e6e7b92a3f3c",
   "lastOpenFiles": [
-    "Projects/OGIaaS.md",
     "Projects/Old Fashioned Camera.md",
+    "Projects/OGIaaS.md",
     "Journals/2022-08-10.md",
     "Journals/2022-08-09.md",
     "Assets/Pasted image 20220728163239.png",
