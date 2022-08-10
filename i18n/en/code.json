@@ -359,11 +359,11 @@
   "Work in Progress. Check back later.": {
     "message": "Work in Progress. Check back later."
   },
-  "I wrote this post in another language first and was translating it to other languages.": {
-    "message": "I wrote this post in another language first and was translating it to other languages."
+  "I wrote this post in another language. I did not translate it to other languages yet.": {
+    "message": "I wrote this post in another language. I did not translate it to other languages yet."
   },
-  "Therefore, if you speak different languages, look for this post in that language.": {
-    "message": "Therefore, if you speak different languages, look for this post in that language."
+  "If you speak different languages, look for this post in that language.": {
+    "message": "If you speak different languages, look for this post in that language."
   },
   "theme.admonition.note": {
     "message": "note",
