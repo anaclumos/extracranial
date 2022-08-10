@@ -43,6 +43,12 @@ struct LandmarkRow_Previews: PreviewProvider {
 }
 ```
 
+`Text()`에 대해 다음과 같이 디자인 가능.
+
+```swift
+Text("Turtle Rock").font(.title)
+```
+
 import WIP from '@site/src/components/WIP'
 
 <WIP />
