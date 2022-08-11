@@ -53,8 +53,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,8 +120,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "af5fec2f175721bb",
+  "active": "b0532267a312ac26",
   "lastOpenFiles": [
+    "Ignore 2022/baemin-intern-review/en.md",
     "creating-next-gen-digital-brains/en.md",
     "karrot-intern-week/ko.md",
     "downloading-noun-project-api/en.md",
