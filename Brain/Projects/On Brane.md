@@ -41,6 +41,9 @@ import Admonition from '@theme/Admonition'
 
 ## 배경 1. 많은 미니앱을 위해
 
+앞서 언급한 BAT의 경우 웹에서 영감을 받은 듯한
+[독자적인 언어와 브라우저](https://web.dev/mini-app-markup-styling-and-scripting/)를
+개발하여 그 내부를 자신들의 마음대로 뜯어고쳤다.
 중화권의 BAT의 경우 독자 규격을 사용하고,
 그 3사의 비즈니스 파워가 상당하기 때문에 타사 개발자들에게 여러가지 요구를 할 수 있다.
 하지만 대부분의 (소위) 슈퍼앱들은 서비스가 강력하기는 해도,
@@ -120,10 +123,6 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 즉 DOM 자체를 JavaScript로 구현하여 원하는 부분만 교체하면
 미니앱스러운 경험을 제공할 수 있다.
 
-## 배경 4. 얼음 땡
+## 배경 4. 얼음 ❄ 땡
 
 **Shim**을 통해
-
-앞서 언급한 BAT의 경우 웹에서 영감을 받은 듯한
-[독자적인 언어와 브라우저](https://web.dev/mini-app-markup-styling-and-scripting/)를
-개발하여 그 내부를 자신들의 마음대로 뜯어고쳤다.
