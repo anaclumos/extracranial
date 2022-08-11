@@ -4,6 +4,7 @@ slug: '/A370F3'
 ---
 
 import Admonition from '@theme/Admonition'
+import DisplayFlex from '@site/src/components/DisplayFlex'
 
 # 브레인에 대하여
 
@@ -69,6 +70,14 @@ import Admonition from '@theme/Admonition'
 예를 들어 스타벅스 웹, 앱, 미니앱에서 위치 정보를 요구하는 경우를 살펴보자.
 어떤 권한 요구 창을 승인하고 어떤 권한 요구 창을 거절할 것 같은가?
 
+<DisplayFlex>
+
+![스타벅스 웹앱](../Assets/starbucks-web.png)
+![스타벅스 미니앱](../Assets/starbucks-miniapp.png)
+![스타벅스 앱](../Assets/starbucks-app.png)
+
+</DisplayFlex>
+
 보다 더 많은 맥락이 주어지는 오른쪽으로 갈수록 승인할 사용자가 많을 것이다.
 때문에 표준 미니앱은 최소한 가운데만큼의 맥락을 제공할 수 있어야 한다.
 
@@ -90,6 +99,12 @@ navigator.geolocation.getCurrentPosition()
 웹뷰를 그대로 사용해서 (iOS의 경우 WKWebView) 미니앱을 구동하는 경우
 저렇게 위치 권한 요구 창이 그대로 나타나게 된다.
 이 문제는 현재 당근마켓에 구현된 **당근미니**에도 발생한다.
+
+<DisplayFlex>
+
+![오히려 알 수 없는 URL이 나타나서 거부감을 일으킬 수 있다.](../Assets/karrot-status-quo.png)
+
+</DisplayFlex>
 
 그렇다면 여기서 문제를 어떻게 해결해야 할까?
 새로운 브라우저를 만들어야 할까?
@@ -116,6 +131,13 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 > 컴퓨터 프로그래밍에서 심(shim)은 API 호출을 투명하게 가로채고 전달된 인수를 변경하거나, 작업 자체를 처리하거나, 다른 곳으로 작업을 리디렉션하는 라이브러리입니다. (In computer programming, a shim is a library that transparently intercepts API calls and changes the arguments passed, handles the operation itself, or redirects the operation elsewhere.) — [Shim \(computing\) - Wikipedia](<https://en.wikipedia.org/wiki/Shim_(computing)>)
 
 고양이가 위치 권한을 달라고 요구하는 데모 웹사이트를 만들어보았다.
+
+<DisplayFlex>
+
+![기본 동작](../Assets/vanilla.png)
+![강제로 변경한 동작](../Assets/shimmed.png)
+
+</DisplayFlex>
 
 - [anaclumos/poc-geolocation-dialog: Geolocation Shimming Demo](https://github.com/anaclumos/poc-geolocation-dialog)
 
