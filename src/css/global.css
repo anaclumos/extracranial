@@ -16,7 +16,6 @@
     'ss06' 1;
   word-wrap: break-word;
   word-break: keep-all;
-  --ifm-container-width-xl: 1600px;
 }
 
 h1,
