@@ -152,7 +152,8 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 
 - 브라우저 안의 JavaScript은 Single-Threaded하다.
 - 하지만 Web Worker라는 별도의 장치를 통해 Multi-Thread 연산을 처리할 수 있다.
-- </Admonition>
+
+</Admonition>
 
 그렇다면 Web Worker에서 `iframe`을 구동한다면 미니앱이 멈추어도 슈퍼앱은 멈추지 않을 것이다.
 
