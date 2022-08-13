@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "484d8080a5412295",
+        "id": "fd76cb3d37bc28e3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/On Brane.md",
+            "file": "Readings/경제 개발의 길목에서.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/On Brane.md",
+                "file": "Readings/경제 개발의 길목에서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/On Brane.md"
+                "file": "Readings/경제 개발의 길목에서.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "484d8080a5412295",
+  "active": "fd76cb3d37bc28e3",
   "lastOpenFiles": [
+    "Readings/일본 과학기술 총력전.md",
+    "Readings/지구 끝의 온실.md",
+    "Readings/경제 개발의 길목에서.md",
+    "Journals/2022-08-13.md",
+    "Journals/2022-08-12.md",
     "Projects/On Brane.md",
     "Hey.md",
     "Journals/2022-08-11.md",
     "Research/Resolving GPG Fail to Sign Error.md",
-    "Projects/CalliFontia.md",
-    "Journals/2022-08-10.md",
-    "Research/SwiftUI.md",
-    "Research/Swift.md",
-    "Projects/Old Fashioned Camera.md",
-    "Projects/OGIaaS.md"
+    "Projects/CalliFontia.md"
   ]
 }
