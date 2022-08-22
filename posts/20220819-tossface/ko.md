@@ -5,6 +5,8 @@ description: '사라진 토스페이스를 PUA 영역으로 되돌리기'
 slug: '/92B47B'
 ---
 
+- [tossface.cho.sh](https://tossface.cho.sh)
+
 :::info
 우선 @sudosubin 님을 비롯하여 빠르게 응답해주시고, PUA 요청 반영에 힘써주신 토스페이스 팀에게 감사 인사를 드립니다.
 :::
@@ -48,6 +50,8 @@ PUA U+E10A부터 U+E117 영역은 일반적인 키보드로 입력할 수도 없
 Hacker News에 공유했습니다.
 
 ## 끝마치며
+
+- [tossface.cho.sh](https://tossface.cho.sh)
 
 개강 전에 주말 동안 짧게 진행한 재미있는 프로젝트였습니다.
 
