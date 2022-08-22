@@ -94,37 +94,6 @@ const HeroText = () => {
             showByDefault="emoji"
           />
           <Translate>
-            {'. He currently works at a '}
-          </Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'unicorn' })}
-            photo={UnicornEmoji}
-            photoAlt={translate({
-              message: '🦄',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{' company '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'Karrot' })}
-            photo={CarrotEmoji}
-            photoAlt={translate({
-              message: '🥕',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>
-            {', researching secure sandboxing models for '}
-          </Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'mini-apps' })}
-            photo={MobilePhoneEmoji}
-            photoAlt={translate({
-              message: '📱',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>
             {'. He usually works on next-gen '}
           </Translate>
           <EmojiReplaceableText
