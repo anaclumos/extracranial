@@ -5,6 +5,8 @@ description: 'A Korean Unicorn Once Replaced All Japanese Emojis with Korean One
 slug: '/92B47B'
 ---
 
+- [tossface.cho.sh](https://tossface.cho.sh)
+
 :::info
 Thanks, @sudosubin, and the Tossface team, for your consideration for reviving Korean emojis with Unicode PUA tech!
 :::
@@ -51,6 +53,8 @@ After creating the website, it now looked like a Museum of Korean Culture,
 so I added some text in English and shared it publicly.
 
 ## Postmortem
+
+- [tossface.cho.sh](https://tossface.cho.sh)
 
 It was a fast and fun project before the beginning of class.
 
