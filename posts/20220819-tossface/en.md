@@ -16,7 +16,7 @@ Tossface initially included a series of intentionally divergent emoji designs,
 replacing culturally specific Japanese emojis with designs representing related Korean concepts
 and outdated technologies with contemporary technologies.
 
-![Tossface's first release. Toss: "Right Now, The Right Us (Hinting Modern & Korean Values)"](tossface-original.png)
+![Tossface's first release. Toss: "Right Now, The Right Us (Hinting Modern & Korean Values)"](tossface.png)
 
 - [Why can't I just welcome Tossface?](https://www-jiwon-me.translate.goog/tossface/?_x_tr_sl=ko&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
 
