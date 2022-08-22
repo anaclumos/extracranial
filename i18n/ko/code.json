@@ -251,26 +251,8 @@
   "Seoul": {
     "message": "서울"
   },
-  ". He currently works at a ": {
-    "message": "에서 활동합니다. 현재는 "
-  },
-  "unicorn": {
-    "message": "유니콘"
-  },
-  " company ": {
-    "message": " 기업 "
-  },
-  "Karrot": {
-    "message": "당근"
-  },
-  ", researching secure sandboxing models for ": {
-    "message": "에서 "
-  },
-  "mini-apps": {
-    "message": "미니 앱"
-  },
   ". He usually works on next-gen ": {
-    "message": "을 위한 안전한 샌드박스 모델을 연구하고 있습니다. 주로 차세대 "
+    "message": "에서 활동합니다. 주로 차세대 "
   },
   "web": {
     "message": "웹"
@@ -519,23 +501,11 @@
     "message": "검색 결과가 없습니다.",
     "description": "The paragraph for empty search result"
   },
-  "🧑🏻‍💻": {
-    "message": "🧑🏻‍💻"
-  },
   "🇺🇸": {
     "message": "🇺🇸"
   },
   "🇰🇷": {
     "message": "🇰🇷"
-  },
-  "🦄": {
-    "message": "🦄"
-  },
-  "🥕": {
-    "message": "🥕"
-  },
-  "📱": {
-    "message": "📱"
   },
   "🕸": {
     "message": "🕸"
@@ -554,5 +524,8 @@
   },
   "💰": {
     "message": "💰"
+  },
+  "👨🏻‍💻": {
+    "message": "👨🏻‍💻"
   }
 }
