@@ -1,53 +1,57 @@
 ---
-title: '대한민국 이모지 되찾기'
+title: "Reviving 'Korean' Emojis"
 date: 2022-08-19
-description: '사라진 토스페이스를 PUA 영역으로 되돌리기'
+description: 'A Korean Unicorn Once Replaced All Japanese Emojis with Korean Ones. They are now back.'
 slug: '/92B47B'
-draft: true
 ---
 
 :::info
-우선 @sudosubin 님을 비롯하여 빠르게 응답해주시고, PUA 요청 반영에 힘써주신 토스페이스 팀에게 감사 인사를 드립니다!
+Thanks, @sudosubin, and the Tossface team, for your consideration for reviving Korean emojis with Unicode PUA tech!
 :::
 
-토스페이스는 대한민국의 (거의) 데카콘 기업 비바 리퍼블리카가 제작한 이모지 폰트 페이스입니다.
-토스페이스는 이모지를 마음대로 변경했다는 독특한 시도를 통해서 많은 구설수에 올랐습니다.
-일본풍이 짙게 섞여있는 이모지를 한국식으로, 또 오래된 기술을 현대 기술의 모습으로 재해석한 것이었습니다.
+Tossface is an emoji font face a Korean (almost) Decacorn company, Viva Republica, created.
+Tossface initially included a series of intentionally divergent emoji designs,
+replacing culturally specific Japanese emojis with designs representing related Korean concepts
+and outdated technologies with contemporary technologies.
 
-![토스페이스의 처음 모습](./tossface-original.png)
+![Tossface's first release. Toss: "Right Now, The Right Us (Hinting Modern & Korean Values)"](./tossface-original.png)
 
-- [토스페이스를 마냥 환영할 수 없는 이유](https://www.jiwon.me/tossface/)
-- [토스 '이모지', "제멋대로 만들었다" 논란 이유는? - 지구인사이드](https://g9inside.com/?p=9259)
+- [Why can't I just welcome Tossface?](https://www-jiwon-me.translate.goog/tossface/?_x_tr_sl=ko&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
 
-곧 토스페이스는 유니코드의 표의를 훼손했다는 거친 항의에 기존의 창의적인 시도를 엎어야 했습니다.
-하지만 유니코드에는 토스 팀이 처음에 고려하지 못했던 숨겨진 비밀이 있습니다.
-바로 Private Use Area 라고 불리는 비사용 영역(U+E000-F8FF, U+F0000-FFFFD, U+100000-10FFFD)입니다.
-이 영역에는 미래에도 어떤 표준 이모지도 배정되지 않으며, 기업체들이 자유롭게 사용할 수 있습니다.
+Unfortunately, these replacements caused backlash from multiple stakeholders,
+and Viva Republica had to remove the emojis.
 
-깔끔하고 정갈한 톤앤매너로 한국적이고 시대적인 멋을 잘 표현한 토스페이스의 글자들이 이대로 사라지는 것이 아쉬웠습니다.
-그래서 공식적인 채널로 비바 리퍼블리카에 이를 제안했습니다.
+However, there is a hidden secret in Unicode;
+There is a unused, hidden area from U+E000-F8FF, U+F0000-FFFFD, U+100000-10FFFD, which is known as Unicode Private Use Area.
+This area will remain unassigned for standard emojis, and companies can use it at their own will.
+
+Regrettably, those letters with Korean and contemporary style in a clean and neat tone and manners disappeared into history.
+Therefore, I have proposed returning the emojis using a standard technology known as Unicode Private Area.
 
 ![@toss/tossface/issues/4](./issue.png)
 
-그로부터 약 세달 뒤, 토스페이스 팀에서 토스페이스 v1.3에 PUA U+E10A부터 U+E117 영역에 기존의 "색다른" 이모지들을 재배포했다는 연락을 받았습니다.
+After about three months, Viva Republica accepted the request.
+They redistributed those emojis in Tossface v1.3, from PUA U+E10A to U+E117.
 
-## 근데 어떻게 타이핑하지?
+## But how shall I type?
 
-하지만 이 영역은 쉽게 타이핑할 수 없는 영역입니다.
-PUA U+E10A부터 U+E117 영역은 일반적인 키보드로 입력할 수도 없으며 이모지 키보드에도 나타나지 않습니다.
-글리프가 존재해도 글리프를 사용하기 어려운 아이러니한 상황이 생겼습니다.
+However, these emojis remained uncharted in the Unicode standard.
+PUA U+E10A to U+E117 cannot be inputted with the standard keyboard, nor does it appear on the emoji chart.
+Ironic that we finally got the glyphs back but can't type.
 
-그래서 간단하게 글자를 확인하고 클릭하여 복사할 수 있는 웹사이트를 만들고 싶었습니다.
-저는 이를 [Microproject](https://cho.sh/research/A46FA5)라고 부릅니다.
-새로운 기술을 시도해보기 안성맞춤입니다.
-원래는 새로 출시된 Astro를 사용해보고 싶었으나, 아직 플랫폼이 성숙하지 않아 레퍼런스를 찾기 어려운 오류들이 반복되어,
-빠르게 제작할 수 있는 Next + Vercel + Tailwind를 사용했습니다.
+So I have created a small website where you can check the glyphs and copy them.
+I call these [Microprojects](https://cho.sh/research/A46FA5).
+They're perfect for trying out new technologies;
+I wanted to try Astro, but it kept giving me unrecognizable errors primarily because the platform was still in an early stage,
+so I used Next.js, Vercel, and Tailwind.
 
-## 만들다보니 대한민국 문화 홍보관
+## Now, it somehow became a Museum of Korean Culture
 
-만들고 나니 얼추 대한민국 문화 홍보관처럼 사용할 수 있을 것 같아 간단한 안내 문구들을 추가하여 영문으로 맥락을 설명한 후,
-Hacker News에 공유했습니다.
+After creating the website, it now looked like a Museum of Korean Culture,
+so I added some text in English and shared it publicly.
 
-## 끝마치며
+## Postmortem
 
-개강 전에 짧게 진행한 재미있는 프로젝트였습니다.
+It was a fast and fun project before the beginning of class.
+
+![tossface.cho.sh](./screenshot.png)
