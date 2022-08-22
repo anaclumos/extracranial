@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0e1024e120686158",
+        "id": "c9ed5a405016bd59",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Prodraft",
+                "query": "font feature",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -115,8 +116,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "0e1024e120686158",
+  "active": "c9ed5a405016bd59",
   "lastOpenFiles": [
+    "Journals/2022-08-01.md",
+    "Journals/2022-08-21.md",
     "Projects/TossFace Playground.md",
     "Journals/2022-08-18.md",
     "Research/Microproject.md",
@@ -124,8 +127,6 @@
     "Journals/2022-08-12.md",
     "Journals/2022-08-13.md",
     "Journals/2022-08-11.md",
-    "Journals/2022-08-10.md",
-    "Readings/경제 개발의 길목에서.md",
-    "Readings/일본 과학기술 총력전.md"
+    "Journals/2022-08-10.md"
   ]
 }
