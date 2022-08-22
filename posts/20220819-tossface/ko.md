@@ -15,7 +15,7 @@ slug: '/92B47B'
 토스페이스는 이모지를 마음대로 변경했다는 독특한 시도를 통해서 많은 구설수에 올랐습니다.
 일본풍이 짙게 섞여있는 이모지를 한국식으로, 또 오래된 기술을 현대 기술의 모습으로 재해석한 것이었습니다.
 
-![토스페이스의 처음 모습](./tossface-original.png)
+![토스페이스의 처음 모습](tossface-original.png)
 
 - [토스페이스를 마냥 환영할 수 없는 이유](https://www.jiwon.me/tossface/)
 - [토스 '이모지', "제멋대로 만들었다" 논란 이유는? - 지구인사이드](https://g9inside.com/?p=9259)
@@ -28,7 +28,7 @@ slug: '/92B47B'
 깔끔하고 정갈한 톤앤매너로 한국적이고 시대적인 멋을 잘 표현한 토스페이스의 글자들이 이대로 사라지는 것이 아쉬웠습니다.
 그래서 공식적인 채널로 비바 리퍼블리카에 이를 제안했습니다.
 
-![@toss/tossface/issues/4](./issue.png)
+![@toss/tossface/issues/4](issue.png)
 
 그로부터 약 세달 뒤, 토스페이스 팀에서 토스페이스 v1.3에 PUA U+E10A부터 U+E117 영역에 기존의 "색다른" 이모지들을 재배포했다는 연락을 받았습니다.
 
@@ -55,4 +55,4 @@ Hacker News에 공유했습니다.
 
 개강 전에 주말 동안 짧게 진행한 재미있는 프로젝트였습니다.
 
-![tossface.cho.sh](./screenshot.png)
+![tossface.cho.sh](screenshot.png)
