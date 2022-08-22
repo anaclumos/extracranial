@@ -38,5 +38,9 @@
   "sidebar.sidebar.category.Brane": {
     "message": "Brane",
     "description": "The label for category Brane in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.CELLO": {
+    "message": "CELLO",
+    "description": "The label for category CELLO in sidebar sidebar"
   }
 }

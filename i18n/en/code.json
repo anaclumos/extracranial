@@ -251,24 +251,6 @@
   "Seoul": {
     "message": "Seoul"
   },
-  ". He currently works at a ": {
-    "message": ". He currently works at a "
-  },
-  "unicorn": {
-    "message": "unicorn"
-  },
-  " company ": {
-    "message": " company "
-  },
-  "Karrot": {
-    "message": "Karrot"
-  },
-  ", researching secure sandboxing models for ": {
-    "message": ", researching secure sandboxing models for "
-  },
-  "mini-apps": {
-    "message": "mini-apps"
-  },
   ". He usually works on next-gen ": {
     "message": ". He usually works on next-gen "
   },
@@ -385,23 +367,11 @@
     "message": "caution",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "🧑🏻‍💻": {
-    "message": "🧑🏻‍💻"
-  },
   "🇺🇸": {
     "message": "🇺🇸"
   },
   "🇰🇷": {
     "message": "🇰🇷"
-  },
-  "🦄": {
-    "message": "🦄"
-  },
-  "🥕": {
-    "message": "🥕"
-  },
-  "📱": {
-    "message": "📱"
   },
   "🕸": {
     "message": "🕸"
@@ -554,5 +524,8 @@
   "theme.SearchModal.placeholder": {
     "message": "Search docs",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "👨🏻‍💻": {
+    "message": "👨🏻‍💻"
   }
 }
