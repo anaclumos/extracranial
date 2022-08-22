@@ -18,6 +18,7 @@
     "lint": "eslint --cache \"**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,json,md,mdx}\"",
     "ko": "yarn start --locale ko",
+    "dev": "yarn start",
     "new-post": "python3 new-post.py",
     "pack-post": "python3 pack-post.py",
     "wikilinks-to-mdlinks": "python3 wikilinks-to-mdlinks.py",
