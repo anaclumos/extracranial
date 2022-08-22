@@ -6,7 +6,7 @@ const blog = {
   blogTitle: 'cho.sh',
   blogDescription: 'I am Sunghyun Cho, traveling the WWW.',
   postsPerPage: 'ALL',
-  blogSidebarCount: 'ALL',
+  blogSidebarCount: 10,
   blogSidebarTitle: 'Recent',
   remarkPlugins: [math],
   rehypePlugins: [katex],
