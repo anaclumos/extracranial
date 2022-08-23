@@ -17,7 +17,7 @@
     "build:config": "tsc -p tsconfig-config.json && yarn pack-post && yarn wikilinks-to-mdlinks && yarn img-alt-to-figcaption",
     "lint": "eslint --cache \"**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,json,md,mdx}\"",
-    "hex": "python3 replace-hexmark.py",
+    "hex": "python3 remove-hexmark.py",
     "ko": "yarn start --locale ko",
     "dev": "yarn start",
     "new-post": "python3 new-post.py",
