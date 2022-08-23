@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5bde71454a4a3222",
+        "id": "4d0081e15ad538fe",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Academics/310 Android/Extracting String in Android.md",
+            "file": "Projects/Apple Earth.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/310 Android/Extracting String in Android.md",
+                "file": "Projects/Apple Earth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academics/310 Android/Extracting String in Android.md"
+                "file": "Projects/Apple Earth.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5bde71454a4a3222",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
-    "Academics/353 Internetworking/353 Internetworking.md",
-    "Academics/310 Android/Extracting String in Android.md",
-    "Templates/note.md",
-    "Academics/310 Android/310 Android.md",
+    "Journals/2022-08-23.md",
+    "Research/Tools for Thought.md",
+    "Projects/TossFace Playground.md",
+    "Journals/2022-08-18.md",
+    "Journals/2022-08-22.md",
+    "Journals/2022-08-21.md",
+    "Journals/2022-08-11.md",
     "Untitled.md",
-    "Academics/Academics.md",
-    "Academics/380 Game Engine/380 Game Engine.md",
-    "Academics/356 Computer Systems/356 Computer Systems.md",
-    "Hey.md",
-    "Journals/2022-08-23.md"
+    "Academics/310 Android/Extracting String in Android.md",
+    "Academics/353 Internetworking/353 Internetworking.md"
   ]
 }
