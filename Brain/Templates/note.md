@@ -1,6 +1,6 @@
 ---
-title: 'template'
-slug: '/FFFFFF'
+title: '{{title}}'
+slug: '/{{hex}}'
 draft: true
 ---
 

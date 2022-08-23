@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c9ed5a405016bd59",
+        "id": "5bde71454a4a3222",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Academics/310 Android/Extracting String in Android.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "font feature",
+                "query": "status",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -74,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Academics/310 Android/Extracting String in Android.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Academics/310 Android/Extracting String in Android.md"
+              }
             }
           },
           {
@@ -116,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "c9ed5a405016bd59",
+  "active": "5bde71454a4a3222",
   "lastOpenFiles": [
-    "Journals/2022-08-01.md",
-    "Journals/2022-08-21.md",
-    "Projects/TossFace Playground.md",
-    "Journals/2022-08-18.md",
-    "Research/Microproject.md",
-    "Projects/Cube.md",
-    "Journals/2022-08-12.md",
-    "Journals/2022-08-13.md",
-    "Journals/2022-08-11.md",
-    "Journals/2022-08-10.md"
+    "Academics/353 Internetworking/353 Internetworking.md",
+    "Academics/310 Android/Extracting String in Android.md",
+    "Templates/note.md",
+    "Academics/310 Android/310 Android.md",
+    "Untitled.md",
+    "Academics/Academics.md",
+    "Academics/380 Game Engine/380 Game Engine.md",
+    "Academics/356 Computer Systems/356 Computer Systems.md",
+    "Hey.md",
+    "Journals/2022-08-23.md"
   ]
 }
