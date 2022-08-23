@@ -21,16 +21,17 @@ if __name__ == "__main__":
                     all_md_files.append(os.path.join(root, file))
     print("Found " + str(len(all_md_files)) + " .md and .mdx files.")
 
-
-for md_file in all_md_files:
-    # ignore files with Template in the name
-    if "Template" in md_file:
-        continue
-    # Replace all {{hex}} with a random hex number
-    with open(md_file, 'r') as f:
-        lines = f.readlines()
-    with open(md_file, 'w') as f:
-        for line in lines:
-            line = line.replace("{{hex}}", getHex())
-            f.write(line)
-        COUNTER += 1
+    for md_file in all_md_files:
+        # ignore files with Template in the name
+        if "Template" in md_file:
+            continue
+        # Replace all {{hex}} with a random hex number
+        with open(md_file, 'r') as f:
+            lines = f.readlines()
+        with open(md_file, 'w') as f:
+            for line in lines:
+                if "{{hex}}" in line:
+                    line = line.replace("{{hex}}", getHex())
+                    COUNTER += 1
+                f.write(line)
+    print("Replaced " + str(COUNTER) + " hex marks.")
