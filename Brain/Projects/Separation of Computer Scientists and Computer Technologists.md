@@ -3,7 +3,14 @@ title: 'Separation of Computer Scientists and Computer Technologists'
 slug: '/E203C9'
 ---
 
-- Add 
+## Science is not Technology and vice versa
+
+- Technology was not developed based on science, nor was science studied for technical applications.
+- Even before the principle of leverage was dynamically proven, the lever was used, and even before the iron-making technology was proved to be a chemical reduction reaction, the steel-making technology existed.
+- Science and technology were formed in the 18th century, and until then, science and technology were separate.
+- Technology has been passed on in apprenticeship classes without scientifically theorizing it.
+- **Science ≠ Technology.**
+  - But they both can help each other.
 
 ## The grand question
 
