@@ -14,6 +14,6 @@ The file `strings.xml` is located at `res/values/strings.xml`.
 
 Then refer to the saved text like below.
 
-```
+```xml
 android:text="@string/message"
 ```
