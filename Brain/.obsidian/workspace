@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4d0081e15ad538fe",
+        "id": "06823a7547e3b7f0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Apple Earth.md",
+            "file": "Academics/380/Delta Time.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Apple Earth.md",
+                "file": "Academics/380/Delta Time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Apple Earth.md"
+                "file": "Academics/380/Delta Time.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "aa73c60d583d3db3",
+  "active": "06823a7547e3b7f0",
   "lastOpenFiles": [
+    "Academics/380/380.md",
+    "Academics/380/Delta Time.md",
     "Journals/2022-08-23.md",
+    "Academics/310/310.md",
+    "Academics/356/356.md",
+    "Academics/353/353.md",
+    "Academics/Academics.md",
+    "Projects/Apple Earth.md",
     "Research/Tools for Thought.md",
-    "Projects/TossFace Playground.md",
-    "Journals/2022-08-18.md",
-    "Journals/2022-08-22.md",
-    "Journals/2022-08-21.md",
-    "Journals/2022-08-11.md",
-    "Untitled.md",
-    "Academics/310 Android/Extracting String in Android.md",
-    "Academics/353 Internetworking/353 Internetworking.md"
+    "Projects/TossFace Playground.md"
   ]
 }
