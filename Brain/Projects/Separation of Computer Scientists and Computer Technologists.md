@@ -3,6 +3,8 @@ title: 'Separation of Computer Scientists and Computer Technologists'
 slug: '/E203C9'
 ---
 
+- Add 
+
 ## The grand question
 
 > Do you need a college degree in Software Engineering?
