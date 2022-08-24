@@ -1,7 +1,6 @@
 ---
 title: 'Grind 75.0'
-slug: '/EEEEEE'
-draft: true
+slug: '{{hex}}'
 ---
 
 Solved at: [[{{date:YYYY-MM-DD}}]]
