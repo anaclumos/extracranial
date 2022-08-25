@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Academics/356/356.md",
+            "file": "Academics/380/380 Lab 0.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/356/356.md",
+                "file": "Academics/380/380 Lab 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academics/356/356.md"
+                "file": "Academics/380/380 Lab 0.md"
               }
             }
           },
@@ -125,15 +125,15 @@
   },
   "active": "fa18379f22d097ed",
   "lastOpenFiles": [
-    "Academics/356/356 Official SSH Server.md",
     "Journals/2022-08-25.md",
-    "Academics/356/356 Lab 0 Hello Lab.md",
+    "Academics/380/380 Lab 0.md",
+    "Academics/380/380.md",
+    "Academics/380/380 Xcode Startup.md",
     "Academics/356/356.md",
+    "Academics/356/356 Official SSH Server.md",
+    "Academics/356/356 Lab 0 Hello Lab.md",
     "Academics/356/Untitled.md",
     "Templates/journal.md",
-    "Templates/note.md",
-    "Journals/2022-08-24.md",
-    "Academics/310/Extracting String in Android.md",
-    "Academics/353/353.md"
+    "Templates/note.md"
   ]
 }
