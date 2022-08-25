@@ -5,6 +5,8 @@ description: '사라진 토스페이스를 PUA 영역으로 되돌리기'
 slug: '/92B47B'
 ---
 
+![tossface.cho.sh](screenshot.png)
+
 - [tossface.cho.sh](https://tossface.cho.sh)
 
 :::info
@@ -54,5 +56,3 @@ Hacker News에 공유했습니다.
 - [tossface.cho.sh](https://tossface.cho.sh)
 
 개강 전에 주말 동안 짧게 진행한 재미있는 프로젝트였습니다.
-
-![tossface.cho.sh](screenshot.png)
