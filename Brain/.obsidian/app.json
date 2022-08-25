@@ -10,8 +10,8 @@
   "showLineNumber": true,
   "strictLineBreaks": true,
   "attachmentFolderPath": "Assets",
-  "newFileLocation": "folder",
-  "newFileFolderPath": "Interests",
+  "newFileLocation": "current",
+  "newFileFolderPath": "",
   "tabSize": 4,
   "alwaysUpdateLinks": true
 }
