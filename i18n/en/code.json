@@ -12,7 +12,7 @@
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "Your government ████ ████ access ██ ████ censored. Please ████ up ████ VPN, ████ ██ the onion ████ ████, and ████████ to the Tor ████ ███. To ██████ censorship, you can ████ send me ██ ██ NFTs. Then try again.",
+    "message": "Your government restricts access to this content. So please load up your VPN or use the Onion protocol with Tor. To bypass this censorship, you must send me 10 ETH. Then try again.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
