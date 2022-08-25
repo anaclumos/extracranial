@@ -17,12 +17,8 @@ def remove_dir(dir):
     # delete all files in the directory
     for file in os.listdir(dir):
         file_path = os.path.join(dir, file)
-        if os.path.isfile(file_path):
-            os.unlink(file_path)
-        elif os.path.isdir(file_path):
+        if os.path.isdir(file_path):
             shutil.rmtree(file_path)
-    # delete the directory
-    os.rmdir(dir)
 
 
 remove_dir(KO_DIR)

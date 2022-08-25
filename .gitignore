@@ -3,7 +3,7 @@
 blog
 docs
 Brain/.obsidian/plugins
-i18n/ko/docusaurus-plugin-content-blog
+i18n/ko/docusaurus-plugin-content-blog/*/*
 
 # Dependencies
 /node_modules
