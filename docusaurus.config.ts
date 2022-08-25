@@ -10,7 +10,7 @@ import pwaOptions = require('./config/pwa.config')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 const config: Config = {
-  title: 'cho.sh',
+  title: 'Sunghyun Cho',
   tagline: 'I am Sunghyun Cho, traveling the WWW.',
   url: 'https://cho.sh',
   baseUrl: '/',
