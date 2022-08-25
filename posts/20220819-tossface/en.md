@@ -13,6 +13,8 @@ slug: '/92B47B'
 Thanks, @sudosubin, and the Tossface team, for your consideration for reviving Korean emojis with Unicode PUA tech!
 :::
 
+## Background
+
 Tossface is an emoji font face a Korean (almost) Decacorn company, Viva Republica, created.
 Tossface initially included a series of intentionally divergent emoji designs,
 replacing culturally specific Japanese emojis with designs representing related Korean concepts
@@ -24,6 +26,8 @@ and outdated technologies with contemporary technologies.
 
 Unfortunately, these replacements caused backlash from multiple stakeholders,
 and Viva Republica had to remove the emojis.
+
+## Unicode Private Use Area
 
 However, there is a hidden secret in Unicode;
 There is a unused, hidden area from U+E000-F8FF, U+F0000-FFFFD, U+100000-10FFFD, which is known as Unicode Private Use Area.
