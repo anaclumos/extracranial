@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Academics/310/Extracting String in Android.md",
+            "file": "Academics/356/356.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/310/Extracting String in Android.md",
+                "file": "Academics/356/356.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academics/310/Extracting String in Android.md"
+                "file": "Academics/356/356.md"
               }
             }
           },
@@ -125,15 +125,15 @@
   },
   "active": "fa18379f22d097ed",
   "lastOpenFiles": [
+    "Academics/356/356 Official SSH Server.md",
+    "Journals/2022-08-25.md",
+    "Academics/356/356 Lab 0 Hello Lab.md",
     "Academics/356/356.md",
-    "Academics/353/353.md",
-    "Academics/310/Extracting String in Android.md",
-    "Assets/Pasted image 20220706002554.png",
-    "Assets/Pasted image 20220712015427.png",
-    "Assets/starbucks-miniapp.png",
-    "Assets/karrot-status-quo.png",
+    "Academics/356/Untitled.md",
+    "Templates/journal.md",
+    "Templates/note.md",
     "Journals/2022-08-24.md",
-    "Projects/Separation of Computer Scientists and Computer Technologists.md",
-    "Readings/일본 과학기술 총력전.md"
+    "Academics/310/Extracting String in Android.md",
+    "Academics/353/353.md"
   ]
 }
