@@ -3,11 +3,11 @@ const katex = require('rehype-katex')
 
 const blog = {
   showReadingTime: false,
-  blogTitle: 'cho.sh',
+  blogTitle: 'Sunghyun Cho',
   blogDescription: 'I am Sunghyun Cho, traveling the WWW.',
   postsPerPage: 10,
   blogSidebarCount: 10,
-  blogSidebarTitle: 'Recent',
+  blogSidebarTitle: 'Recent Posts',
   remarkPlugins: [math],
   rehypePlugins: [katex],
   editUrl: ({ locale, blogDirPath, blogPath }) => {

@@ -1,6 +1,6 @@
 {
-  "name": "cho.sh",
-  "short_name": "cho.sh",
+  "name": "Sunghyun Cho",
+  "short_name": "Sunghyun Cho",
   "display": "standalone",
   "scope": "./",
   "start_url": "./index.html",
