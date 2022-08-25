@@ -42,5 +42,17 @@
   "sidebar.sidebar.category.CELLO": {
     "message": "CELLO",
     "description": "The label for category CELLO in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Academics": {
+    "message": "학업",
+    "description": "The label for category Academics in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.ITP 380: Game Engine Programming": {
+    "message": "ITP 380: Game Engine Programming",
+    "description": "The label for category ITP 380: Game Engine Programming in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.CSCI 310: Android": {
+    "message": "CSCI 310: Android",
+    "description": "The label for category CSCI 310: Android in sidebar sidebar"
   }
 }

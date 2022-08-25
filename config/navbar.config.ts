@@ -1,7 +1,7 @@
 const navbar = {
-  title: 'cho.sh',
+  title: 'Sunghyun Cho',
   logo: {
-    alt: 'cho.sh logo',
+    alt: 'Sunghyun Cho Logo',
     src: 'img/favicon.png',
   },
   items: [
