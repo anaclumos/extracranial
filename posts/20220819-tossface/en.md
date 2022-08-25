@@ -5,6 +5,8 @@ description: 'A Korean Unicorn Once Replaced All Japanese Emojis with Korean One
 slug: '/92B47B'
 ---
 
+![tossface.cho.sh](screenshot.png)
+
 - [tossface.cho.sh](https://tossface.cho.sh)
 
 :::info
@@ -57,5 +59,3 @@ so I added some text in English and shared it publicly.
 - [tossface.cho.sh](https://tossface.cho.sh)
 
 It was a fast and fun project before the beginning of school!
-
-![tossface.cho.sh](screenshot.png)
