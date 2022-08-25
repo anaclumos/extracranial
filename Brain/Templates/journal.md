@@ -15,6 +15,6 @@ import WIP from '@site/src/components/WIP'
 
 ## Interesting Webs
 
-## Work Research
+## Academic Research
 
 ## Personal Research
