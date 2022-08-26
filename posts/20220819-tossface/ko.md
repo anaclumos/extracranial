@@ -56,6 +56,8 @@ PUA U+E10A부터 U+E117 영역은 일반적인 키보드로 입력할 수도 없
 만들고 나니 얼추 대한민국 문화 홍보관처럼 사용할 수 있을 것 같아 간단한 안내 문구들을 추가하여 영문으로 맥락을 설명한 후,
 Hacker News에 공유했습니다.
 
+![국가별 접속자 통계](nationality-breakdown.png)
+
 ## 끝마치며
 
 - [tossface.cho.sh](https://tossface.cho.sh)
