@@ -58,7 +58,7 @@ so I used Next.js, Vercel, and Tailwind.
 After creating the website, it now looked like a Museum of Korean Culture,
 so I added some text in English and shared it publicly.
 
-![Nationality Break Down](nationality-breakdown.png)
+![Nationality Break Down](nationality-breakdown.jpg)
 
 ## Postmortem
 
