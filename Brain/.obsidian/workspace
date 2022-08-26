@@ -125,15 +125,15 @@
   },
   "active": "8fb9309280ff24bc",
   "lastOpenFiles": [
-    "Academics/380/FPS.md",
+    "Academics/380/Graphics Engine Process.md",
     "Academics/380/380 Lab 1.md",
-    "Academics/380/380 Xcode Startup.md",
     "Academics/380/Back Buffer.md",
+    "Academics/380/380 Xcode Startup.md",
     "Academics/380/Delta Time.md",
-    "Academics/380/Graphic Renderer.md",
+    "Academics/380/FPS.md",
     "Academics/380/Graphic Window.md",
-    "Templates/note.md",
-    "Journals/2022-08-25.md",
-    "Research/Resolving GPG Fail to Sign Error.md"
+    "Academics/380/Graphic Renderer.md",
+    "Academics/380/Graphic Engine Process.md",
+    "Academics/380/380.md"
   ]
 }
