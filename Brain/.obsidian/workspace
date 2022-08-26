@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8fb9309280ff24bc",
+        "id": "a2cef0e67ddb1d78",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Academics/380/380 Lab 1.md",
-            "mode": "preview",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/380/380 Lab 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Academics/380/380 Lab 1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,10 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "8fb9309280ff24bc",
+  "active": "a2cef0e67ddb1d78",
   "lastOpenFiles": [
-    "Academics/380/Graphics Engine Process.md",
     "Academics/380/380 Lab 1.md",
+    "Academics/380/Graphics Engine Process.md",
     "Academics/380/Back Buffer.md",
     "Academics/380/380 Xcode Startup.md",
     "Academics/380/Delta Time.md",
