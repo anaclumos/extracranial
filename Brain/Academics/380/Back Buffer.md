@@ -1,6 +1,6 @@
 ---
-title: '380 Lab 0'
-slug: '/A62D51'
+title: 'Back Buffer'
+slug: '/6B5F02'
 ---
 
 import WIP from '@site/src/components/WIP'
