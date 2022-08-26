@@ -54,5 +54,9 @@
   "sidebar.sidebar.category.CSCI 310: Android": {
     "message": "CSCI 310: Android",
     "description": "The label for category CSCI 310: Android in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.CSCI 356: Computer Systems": {
+    "message": "CSCI 356: Computer Systems",
+    "description": "The label for category CSCI 356: Computer Systems in sidebar sidebar"
   }
 }
