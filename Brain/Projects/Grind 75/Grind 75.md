@@ -87,7 +87,7 @@ slug: '/D518B0'
 
 - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 - [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
-- [ ] [Word Search](https://leetcode.com/problems/word-search)
+- [ ] [[Grind 75 Word Search]]
 - [ ] [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)
 - [ ] [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees)
 - [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler)
