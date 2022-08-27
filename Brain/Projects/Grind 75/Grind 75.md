@@ -7,6 +7,10 @@ slug: '/D518B0'
 - Will use [[Python]] (main language) and [[C++]] (supplementary language)
 - [Link](https://www.techinterviewhandbook.org/grind75)
 
+## Additional
+
+- [[1448. Count Good Nodes in Binary Tree]]
+
 ## Stage 1
 
 - [x] [[Grind 75.1 Two Sum]]
