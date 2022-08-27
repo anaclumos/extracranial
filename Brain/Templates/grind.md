@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75.0'
+title: 'Leetcode {{title}}'
 slug: '{{hex}}'
 ---
 
