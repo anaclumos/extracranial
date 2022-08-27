@@ -10,6 +10,7 @@ slug: '/D518B0'
 ## Additional
 
 - [[1448. Count Good Nodes in Binary Tree]]
+- [[2. Add Two Numbers]]
 
 ## Stage 1
 
