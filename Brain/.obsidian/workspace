@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ad86cd5f837427d2",
+        "id": "ba7f237446575ecb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Grind 75/Grind 75.md",
+            "file": "Projects/Grind 75/2. Add Two Numbers.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Grind 75/Grind 75.md",
+                "file": "Projects/Grind 75/2. Add Two Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Grind 75/Grind 75.md"
+                "file": "Projects/Grind 75/2. Add Two Numbers.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "ad86cd5f837427d2",
+  "active": "ba7f237446575ecb",
   "lastOpenFiles": [
     "Projects/Grind 75/1448. Count Good Nodes in Binary Tree.md",
-    "Projects/Grind 75/Grind 75.md",
+    "Projects/Grind 75/Grind 75.6 Invert Binary Tree.md",
     "Templates/grind.md",
+    "Projects/Grind 75/2. Add Two Numbers.md",
+    "Projects/Grind 75/Grind 75.md",
     "Journals/2022-08-27.md",
     "Projects/Grind 75/Grind 75 Word Search.md",
     "Projects/Grind 75/Grind 75.2 Valid Parentheses.md",
     "Journals/2022-08-26.md",
-    "Academics/380/380 Lab 1.md",
-    "Academics/380/Graphics Engine Process.md",
-    "Academics/380/Back Buffer.md"
+    "Academics/380/380 Lab 1.md"
   ]
 }
