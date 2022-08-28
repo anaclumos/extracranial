@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b52d79c70a872be3",
+        "id": "496f520689ed4f69",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Journals/2022-08-28.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-08-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-08-28.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "b52d79c70a872be3",
+  "active": "496f520689ed4f69",
   "lastOpenFiles": [
-    "Projects/사회과부도.md",
-    "Journals/2022-08-28.md",
-    "Projects/Grind 75/199. Binary Tree Right Side View.md",
-    "Projects/Grind 75/Grind 75.md",
-    "Journals/2022-08-27.md",
-    "Journals/2022-08-26.md",
-    "Journals/2022-08-25.md",
-    "Journals/2022-08-24.md",
+    "Journals/2022-08-02.md",
+    "Journals/2022-08-03.md",
+    "Journals/2022-08-04.md",
+    "Journals/2022-08-07.md",
+    "Journals/2022-08-09.md",
+    "Journals/2022-08-10.md",
+    "Journals/2022-08-11.md",
+    "Journals/2022-08-18.md",
     "Journals/2022-08-23.md",
-    "Journals/2022-08-18.md"
+    "Journals/2022-08-24.md"
   ]
 }
