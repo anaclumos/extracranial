@@ -46,7 +46,7 @@ const HeroText = () => {
         />
         <link
           rel="icon"
-          href="https://cho.sh/img/favicon.png"
+          href="https://cho.sh/img/favicon.svg"
         />
         <meta
           name="naver-site-verification"
