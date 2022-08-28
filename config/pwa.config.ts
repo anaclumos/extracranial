@@ -9,7 +9,7 @@ const pwaOptions = {
     {
       tagName: 'link',
       rel: 'icon',
-      href: '/img/favicon.svg',
+      href: '/img/favicon.ico',
     },
     {
       tagName: 'link',
@@ -24,18 +24,18 @@ const pwaOptions = {
     {
       tagName: 'link',
       rel: 'apple-touch-icon',
-      href: '/img/favicon.svg',
+      href: '/img/favicon.ico',
     },
     {
       tagName: 'link',
       rel: 'mask-icon',
-      href: '/img/favicon.svg',
+      href: '/img/favicon.ico',
       color: '#5597ec',
     },
     {
       tagName: 'meta',
       name: 'msapplication-TileImage',
-      content: '/img/favicon.svg',
+      content: '/img/favicon.ico',
     },
     {
       tagName: 'meta',
