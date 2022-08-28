@@ -16,7 +16,7 @@ const config: Config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'anaclumos',
   projectName: 'www',
   i18n: i18n,
