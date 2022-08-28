@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "496f520689ed4f69",
+        "id": "708a07e0f05db7c8",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,8 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "496f520689ed4f69",
+  "active": "708a07e0f05db7c8",
   "lastOpenFiles": [
+    "Projects/사회과부도.md",
+    "Journals/2022-08-28.md",
     "Journals/2022-08-02.md",
     "Journals/2022-08-03.md",
     "Journals/2022-08-04.md",
@@ -124,8 +126,6 @@
     "Journals/2022-08-09.md",
     "Journals/2022-08-10.md",
     "Journals/2022-08-11.md",
-    "Journals/2022-08-18.md",
-    "Journals/2022-08-23.md",
-    "Journals/2022-08-24.md"
+    "Journals/2022-08-18.md"
   ]
 }
