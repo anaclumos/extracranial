@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ef94c06508124a63",
+        "id": "54ce082feb3c8081",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -123,8 +123,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "ef94c06508124a63",
+  "active": "54ce082feb3c8081",
   "lastOpenFiles": [
+    "Academics/353/GDB Commands.md",
+    "Academics/353/Clock Skew Detected.md",
     "Academics/353/353.md",
     "Academics/353/353 Lab 1.md",
     "Journals/2022-08-29.md",
@@ -132,8 +134,6 @@
     "Projects/조선왕조실록.md",
     "Projects/Grind 75/1448. Count Good Nodes in Binary Tree.md",
     "Research/P vs NP.md",
-    "Templates/journal.md",
-    "Projects/Better Docusaurus.md",
-    "Research/Workbench.md"
+    "Templates/journal.md"
   ]
 }

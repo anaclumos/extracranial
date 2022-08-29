@@ -78,5 +78,17 @@
       "modifiers": ["Mod", "Shift"],
       "key": "R"
     }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": ["Alt"],
+      "key": "Backspace"
+    }
+  ],
+  "editor:follow-link": [
+    {
+      "modifiers": ["Alt"],
+      "key": "Enter"
+    }
   ]
 }
