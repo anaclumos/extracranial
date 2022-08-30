@@ -7,8 +7,13 @@
         "id": "50ab87c19ae382ad",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/TossFace Playground.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -74,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/TossFace Playground.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/TossFace Playground.md"
+              }
             }
           },
           {
@@ -118,11 +126,11 @@
   },
   "active": "50ab87c19ae382ad",
   "lastOpenFiles": [
+    "Journals/2022-08-29.md",
     "Readings/Readings.md",
     "Journals/2022-08-25.md",
     "Research/TODO.md",
     "Projects/On Brane.md",
-    "Journals/2022-08-29.md",
     "Academics/353/Clock Skew Detected.md",
     "Academics/353/GDB Commands.md",
     "Academics/353/353.md",
