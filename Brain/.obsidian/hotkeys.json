@@ -79,12 +79,7 @@
       "key": "R"
     }
   ],
-  "app:delete-file": [
-    {
-      "modifiers": ["Alt"],
-      "key": "Backspace"
-    }
-  ],
+  "app:delete-file": [],
   "editor:follow-link": [
     {
       "modifiers": ["Alt"],
