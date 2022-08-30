@@ -7,11 +7,18 @@ slug: '/D518B0'
 - Will use [[Python]] (main language) and [[C++]] (supplementary language)
 - [Link](https://www.techinterviewhandbook.org/grind75)
 
+## Data Structures
+
+- [[QuickSelect]]
+- [[Trie]]
+
 ## Additional
 
 - [[1448 Count Good Nodes in Binary Tree]]
 - [[2 Add Two Numbers]]
 - [[199 Binary Tree Right Side View]]
+- [[1046 Last Stone Weight]]
+- [[215 Kth Largest Element in an Array]]
 
 ## Stage 1
 
