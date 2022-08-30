@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/TossFace Playground.md",
+            "file": "Projects/Grind 75/Grind 75.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -58,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/TossFace Playground.md",
+                "file": "Projects/Grind 75/Grind 75.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/TossFace Playground.md"
+                "file": "Projects/Grind 75/Grind 75.md"
               }
             }
           },
@@ -126,15 +125,15 @@
   },
   "active": "50ab87c19ae382ad",
   "lastOpenFiles": [
-    "Journals/2022-08-29.md",
-    "Readings/Readings.md",
-    "Journals/2022-08-25.md",
-    "Research/TODO.md",
-    "Projects/On Brane.md",
-    "Academics/353/Clock Skew Detected.md",
-    "Academics/353/GDB Commands.md",
-    "Academics/353/353.md",
-    "Academics/353/353 Lab 1.md",
-    "Journals/2022-08-28.md"
+    "Projects/Grind 75/Grind 75.3 Merge Two Sorted Lists.md",
+    "Projects/Grind 75/Grind 75.2 Valid Parentheses.md",
+    "Projects/Grind 75/Grind 75.1 Two Sum.md",
+    "Projects/Grind 75/Grind 75.md",
+    "Projects/Grind 75/1448 Count Good Nodes in Binary Tree.md",
+    "Projects/Grind 75/199 Binary Tree Right Side View.md",
+    "Projects/Grind 75/2 Add Two Numbers.md",
+    "Journals/2022-08-26.md",
+    "Projects/TossFace Playground.md",
+    "Journals/2022-08-29.md"
   ]
 }
