@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5a32c1dc664ec057",
+        "id": "f37cac5de41a2e82",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-08-31.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-08-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-08-31.md"
+              }
             }
           },
           {
@@ -115,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5a32c1dc664ec057",
+  "active": "f37cac5de41a2e82",
   "lastOpenFiles": [
+    "Journals/2022-08-30.md",
+    "Projects/Grind 75/215 Kth Largest Element in an Array.md",
+    "Journals/2022-08-31.md",
     "Research/InterviewKit.md",
     "Research/C++.md",
-    "Journals/2022-08-30.md",
     "Projects/Grind 75/Trie.md",
     "Projects/Grind 75/Grind 75.md",
-    "Projects/Grind 75/215 Kth Largest Element in an Array.md",
     "Projects/Grind 75/QuickSelect.md",
     "Research/React.md",
-    "Journals/215 Kth Largest Element in an Array.md",
-    "Projects/Grind 75/1046 Last Stone Weight.md"
+    "Journals/215 Kth Largest Element in an Array.md"
   ]
 }
