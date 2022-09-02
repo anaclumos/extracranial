@@ -75,5 +75,5 @@
   "main": "index.js",
   "repository": "https://github.com/anaclumos/www.git",
   "author": "Sunghyun Cho <mail@chosunghyun.com>",
-  "packageManager": "yarn@3.2.2"
+  "packageManager": "yarn@3.2.3"
 }
