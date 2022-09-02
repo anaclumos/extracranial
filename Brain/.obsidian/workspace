@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "61c105d24dcc9ec6",
+        "id": "a7c9b2c91346de25",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "61c105d24dcc9ec6",
+  "active": "a7c9b2c91346de25",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Journals/2022-09-02.md",
+    "Journals/2022-08-30.md",
     "Journals/2022-09-01.md",
     "Journals/2022-08-31.md",
-    "Journals/2022-08-30.md",
+    "2022-09-01.md",
+    "Research/Workbench.md",
+    "Untitled.md",
     "Projects/Grind 75/215 Kth Largest Element in an Array.md",
     "Research/InterviewKit.md",
-    "Research/C++.md",
-    "Projects/Grind 75/Trie.md",
-    "Projects/Grind 75/Grind 75.md",
-    "Projects/Grind 75/QuickSelect.md"
+    "Research/C++.md"
   ]
 }
