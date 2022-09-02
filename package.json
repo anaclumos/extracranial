@@ -26,10 +26,10 @@
     "img-alt-to-figcaption": "python3 img-alt-to-figcaption.py"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.1",
-    "@docusaurus/plugin-google-gtag": "^2.0.1",
-    "@docusaurus/plugin-pwa": "^2.0.1",
-    "@docusaurus/preset-classic": "^2.0.1",
+    "@docusaurus/core": "^2.1.0",
+    "@docusaurus/plugin-google-gtag": "^2.1.0",
+    "@docusaurus/plugin-pwa": "^2.1.0",
+    "@docusaurus/preset-classic": "^2.1.0",
     "@giscus/react": "^2.2.0",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
@@ -44,7 +44,7 @@
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.0.1",
+    "@docusaurus/module-type-aliases": "^2.1.0",
     "@tsconfig/docusaurus": "^1.0.6",
     "@types/node": "^18.7.14",
     "@typescript-eslint/eslint-plugin": "^5.36.0",
