@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f37cac5de41a2e82",
+        "id": "61c105d24dcc9ec6",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Journals/2022-08-31.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-08-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-08-31.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f37cac5de41a2e82",
+  "active": "61c105d24dcc9ec6",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Journals/2022-09-01.md",
+    "Journals/2022-08-31.md",
     "Journals/2022-08-30.md",
     "Projects/Grind 75/215 Kth Largest Element in an Array.md",
-    "Journals/2022-08-31.md",
     "Research/InterviewKit.md",
     "Research/C++.md",
     "Projects/Grind 75/Trie.md",
     "Projects/Grind 75/Grind 75.md",
-    "Projects/Grind 75/QuickSelect.md",
-    "Research/React.md",
-    "Journals/215 Kth Largest Element in an Array.md"
+    "Projects/Grind 75/QuickSelect.md"
   ]
 }

@@ -52,7 +52,7 @@ const docs = {
   sidebarCollapsed: true,
   sidebarCollapsible: true,
   showLastUpdateAuthor: false,
-  showLastUpdateTime: false,
+  showLastUpdateTime: true,
   editUrl: ({ docPath }) => {
     return `https://github.com/anaclumos/www/tree/main/Brain/${docPath}`
   },
