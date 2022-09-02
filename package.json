@@ -2,6 +2,9 @@
   "name": "cho-sh",
   "version": "1.0.0",
   "license": "MIT",
+  "installConfig": {
+    "pnp": true
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "yarn build:config && docusaurus start",
@@ -14,24 +17,26 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "build:plugin": "yarn workspace plugin-blog-index build",
-    "build:config": "tsc -p tsconfig-config.json && yarn pack-post && yarn wikilinks-to-mdlinks && yarn img-alt-to-figcaption",
+    "build:config": "yarn pnpify tsc -p tsconfig-config.json && yarn pack-post && yarn wikilinks-to-mdlinks && yarn img-alt-to-figcaption",
     "lint": "eslint --cache \"**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,json,md,mdx}\"",
-    "hex": "python3 remove-hexmark.py",
     "ko": "yarn start --locale ko",
     "dev": "yarn start",
-    "new-post": "python3 new-post.py",
-    "pack-post": "python3 pack-post.py",
-    "wikilinks-to-mdlinks": "python3 wikilinks-to-mdlinks.py",
-    "img-alt-to-figcaption": "python3 img-alt-to-figcaption.py"
+    "hex": "python3 tools/remove-hexmark.py",
+    "new-post": "python3 tools/new-post.py",
+    "pack-post": "python3 tools/pack-post.py",
+    "wikilinks-to-mdlinks": "python3 tools/wikilinks-to-mdlinks.py",
+    "img-alt-to-figcaption": "python3 tools/img-alt-to-figcaption.py"
   },
   "dependencies": {
     "@docusaurus/core": "^2.1.0",
     "@docusaurus/plugin-google-gtag": "^2.1.0",
     "@docusaurus/plugin-pwa": "^2.1.0",
     "@docusaurus/preset-classic": "^2.1.0",
+    "@docusaurus/types": "^2.1.0",
     "@giscus/react": "^2.2.0",
     "@mdx-js/react": "^1.6.22",
+    "@yarnpkg/pnpify": "^3.1.5",
     "clsx": "^1.2.1",
     "cobe": "^0.6.0",
     "hast-util-is-element": "^1.1.0",
