@@ -7,8 +7,13 @@
         "id": "d832b20723b80be1",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-09-03.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -53,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -74,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-09-03.md"
+              }
             }
           },
           {
@@ -118,15 +125,15 @@
   },
   "active": "d832b20723b80be1",
   "lastOpenFiles": [
+    "Journals/2022-09-02.md",
+    "Projects/Grind 75/Grind 75.md",
+    "Journals/2022-09-03.md",
+    "Research/Prompt Engineering.md",
+    "Journals/2022-07-28.md",
     "Projects/Brane/Brane.md",
     "Journals/2022-07-06.md",
-    "Journals/2022-09-02.md",
     "Projects/On Brane/On Brane.md",
     "Research/CBOR.md",
-    "Journals/2022-08-30.md",
-    "Journals/2022-09-01.md",
-    "Journals/2022-08-31.md",
-    "2022-09-01.md",
-    "Research/Workbench.md"
+    "Journals/2022-08-30.md"
   ]
 }
