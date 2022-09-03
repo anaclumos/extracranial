@@ -9,8 +9,8 @@ slug: '/D518B0'
 
 ## Data Structures
 
-- [[QuickSelect]]
-- [[Trie]]
+- [[QuickSelect]] [[TODO]]
+- [[Trie]] [[TODO]]
 
 ## Additional
 
@@ -18,7 +18,7 @@ slug: '/D518B0'
 - [[2 Add Two Numbers]]
 - [[199 Binary Tree Right Side View]]
 - [[1046 Last Stone Weight]]
-- [[215 Kth Largest Element in an Array]]
+- [[215 Kth Largest Element in an Array]] [[TODO]]
 
 ## Stage 1
 
