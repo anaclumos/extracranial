@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ec7e5059d9f0f156",
+        "id": "a66b664b5f3645a6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Academics/380/Monolithic (Pure Hierarchy) Model.md",
+            "file": "Academics/380/Forward Declaration.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/380/Monolithic (Pure Hierarchy) Model.md",
+                "file": "Academics/380/Forward Declaration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academics/380/Monolithic (Pure Hierarchy) Model.md"
+                "file": "Academics/380/Forward Declaration.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "ec7e5059d9f0f156",
+  "active": "a66b664b5f3645a6",
   "lastOpenFiles": [
-    "Journals/2022-09-03.md",
-    "Academics/380/Pure Component Model.md",
-    "Academics/380/Monolithic (Pure Hierarchy) Model.md",
     "Academics/380/380.md",
-    "Academics/380/380 Xcode Startup.md",
-    "Academics/380/Delta Time.md",
-    "Academics/380/Graphics Engine Process.md",
-    "Academics/380/Graphic Window.md",
-    "Academics/380/Graphic Renderer.md",
-    "Academics/380/FPS.md"
+    "Journals/2022-09-03.md",
+    "Research/Prompt Engineering.md",
+    "Journals/2022-08-10.md",
+    "Research/SharedArrayBuffer.md",
+    "Projects/Better Aldehyde.md",
+    "Projects/Grind 75/Trie.md",
+    "Journals/2022-05-30.md",
+    "Research/MessagePack.md",
+    "Journals/2022-08-26.md"
   ]
 }
