@@ -7,10 +7,11 @@ slug: '/E0B48F'
 
 - Not `#include`ing in header files.
 - Example: `class Ship* ship;`.
-- Instead, telling the compiler *hey, I promise, there will be this class definition!*
+- Instead, telling the compiler _hey, I promise, there will be this class definition!_
 - This only works when referring to a pointer or reference
-	- When there is no need to construct
+  - When there is no need to construct
 - Calling function requires `#include`.
+- Virtual functions are irrelevant with a forward declaration.
 
 ## Benefits
 
