@@ -7,8 +7,13 @@
         "id": "ec7e5059d9f0f156",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-09-03.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-09-03.md"
+              }
             }
           },
           {
@@ -117,15 +125,15 @@
   },
   "active": "ec7e5059d9f0f156",
   "lastOpenFiles": [
-    "Journals/2022-09-03.md",
-    "Journals/2022-09-02.md",
-    "Projects/Grind 75/Grind 75.md",
-    "Research/Prompt Engineering.md",
-    "Journals/2022-07-28.md",
-    "Projects/Brane/Brane.md",
-    "Journals/2022-07-06.md",
-    "Projects/On Brane/On Brane.md",
-    "Research/CBOR.md",
-    "Journals/2022-08-30.md"
+    "Academics/380/Pure Component Model.md",
+    "Academics/380/Monolithic (Pure Hierarchy) Model.md",
+    "Academics/380/380.md",
+    "Academics/380/380 Xcode Startup.md",
+    "Academics/380/Delta Time.md",
+    "Academics/380/Graphics Engine Process.md",
+    "Academics/380/Graphic Window.md",
+    "Academics/380/Graphic Renderer.md",
+    "Academics/380/FPS.md",
+    "Academics/380/Back Buffer.md"
   ]
 }
