@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3072cd9f2400f622",
+        "id": "ede1c9617d346fa6",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Academics/380/SDL.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/380/SDL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Academics/380/SDL.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,10 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "3072cd9f2400f622",
+  "active": "ede1c9617d346fa6",
   "lastOpenFiles": [
-    "Academics/380/380.md",
     "Academics/380/SDL.md",
+    "Academics/380/380.md",
     "Journals/2022-09-03.md",
     "Academics/380/Delta Time.md",
     "Academics/380/Forward Declaration.md",
