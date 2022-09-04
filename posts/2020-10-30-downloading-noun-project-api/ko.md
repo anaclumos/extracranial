@@ -1,6 +1,7 @@
 ---
 title: 'API로 아이콘 수천개 내려받기'
 date: 2020-10-30
+authors: anaclumos
 slug: '/589DF4'
 ---
 

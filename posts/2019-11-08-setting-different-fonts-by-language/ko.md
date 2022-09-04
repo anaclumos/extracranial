@@ -1,6 +1,7 @@
 ---
 title: 'CSS에서 언어마다 다른 글씨체를 설정하는 방법'
 date: 2019-11-08
+authors: anaclumos
 slug: '/37A187'
 ---
 

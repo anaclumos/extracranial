@@ -1,6 +1,7 @@
 ---
 title: 'Creating Next-gen Digital Brains'
 date: 2022-05-14
+authors: anaclumos
 slug: '/D8FB8E'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 'Opening external links in a new tab by default on Ghost'
 date: 2019-11-07
+authors: anaclumos
 slug: '/A11B23'
 ---
 

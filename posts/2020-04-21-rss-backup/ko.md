@@ -1,6 +1,7 @@
 ---
 title: 'RSS로 블로그를 한 번에 백업하자'
 date: 2020-04-21
+authors: anaclumos
 slug: '/21E029'
 ---
 

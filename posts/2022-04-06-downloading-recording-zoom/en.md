@@ -1,6 +1,7 @@
 ---
 title: 'Downloading Any Recordings from Zoom'
 date: 2022-04-06
+authors: anaclumos
 slug: '/90675E'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 'iOS 앱에서 비밀 저장하기'
 date: 2022-04-26
+authors: anaclumos
 slug: '/30CC03'
 ---
 

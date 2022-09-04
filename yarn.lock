@@ -2100,7 +2100,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/theme-common@npm:2.1.0":
+"@docusaurus/theme-common@npm:2.1.0, @docusaurus/theme-common@npm:^2.1.0":
   version: 2.1.0
   resolution: "@docusaurus/theme-common@npm:2.1.0"
   dependencies:
@@ -4741,6 +4741,7 @@ __metadata:
     "@docusaurus/plugin-google-gtag": ^2.1.0
     "@docusaurus/plugin-pwa": ^2.1.0
     "@docusaurus/preset-classic": ^2.1.0
+    "@docusaurus/theme-common": ^2.1.0
     "@docusaurus/types": ^2.1.0
     "@giscus/react": ^2.2.0
     "@mdx-js/react": ^1.6.22

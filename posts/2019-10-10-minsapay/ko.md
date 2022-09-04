@@ -1,6 +1,7 @@
 ---
 title: '민사고 간편결제 제작기'
 date: 2019-10-10
+authors: anaclumos
 slug: '/3955DC'
 ---
 

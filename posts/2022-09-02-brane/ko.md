@@ -1,6 +1,7 @@
 ---
 title: '웹 표준 미니앱의 어려움'
 description: '당근마켓 인턴 기간 내내 함께 했던 브레인이라는 것의 기술적인 배경과 진척도에 대해'
+authors: anaclumos
 slug: '/A370F3'
 draft: true
 ---

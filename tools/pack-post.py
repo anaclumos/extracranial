@@ -39,7 +39,9 @@ remove_dir(EN_DIR)
 
 for file in os.listdir(NEW_SOURCE_DIR):
     file_path = os.path.join(NEW_SOURCE_DIR, file)
-    if os.path.isfile(file_path):
+    if file.endswith(".yml"):
+        continue
+    elif os.path.isfile(file_path):
         shutil.copy(file_path, KO_DIR)
         shutil.copy(file_path, EN_DIR)
     elif os.path.isdir(file_path):

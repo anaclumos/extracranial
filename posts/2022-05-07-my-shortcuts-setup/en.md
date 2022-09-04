@@ -1,6 +1,7 @@
 ---
 title: 'My Shortcuts Setup'
 date: 2022-05-07
+authors: anaclumos
 slug: '/067A7D'
 ---
 
