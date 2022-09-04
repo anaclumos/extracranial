@@ -10,6 +10,7 @@ const blog = {
   blogSidebarTitle: 'Recent Posts',
   remarkPlugins: [math],
   rehypePlugins: [katex],
+  authorsMapPath: 'authors.yml',
   editUrl: ({ locale, blogDirPath, blogPath }) => {
     return `https://github.com/anaclumos/www/tree/main/posts/${blogPath.replace(
       '/index.md',
