@@ -7,8 +7,13 @@
         "id": "3072cd9f2400f622",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Academics/380/SDL.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Academics/380/SDL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Academics/380/SDL.md"
+              }
             }
           },
           {
@@ -117,15 +125,15 @@
   },
   "active": "3072cd9f2400f622",
   "lastOpenFiles": [
+    "Academics/380/380.md",
+    "Academics/380/SDL.md",
+    "Journals/2022-09-03.md",
     "Academics/380/Delta Time.md",
     "Academics/380/Forward Declaration.md",
-    "Academics/380/380.md",
-    "Journals/2022-09-03.md",
     "Research/Prompt Engineering.md",
     "Journals/2022-08-10.md",
     "Research/SharedArrayBuffer.md",
     "Projects/Better Aldehyde.md",
-    "Projects/Grind 75/Trie.md",
-    "Journals/2022-05-30.md"
+    "Projects/Grind 75/Trie.md"
   ]
 }
