@@ -39,9 +39,7 @@ remove_dir(EN_DIR)
 
 for file in os.listdir(NEW_SOURCE_DIR):
     file_path = os.path.join(NEW_SOURCE_DIR, file)
-    if file.endswith(".yml"):
-        continue
-    elif os.path.isfile(file_path):
+    if os.path.isfile(file_path):
         shutil.copy(file_path, KO_DIR)
         shutil.copy(file_path, EN_DIR)
     elif os.path.isdir(file_path):
@@ -49,6 +47,11 @@ for file in os.listdir(NEW_SOURCE_DIR):
         shutil.copytree(file_path, os.path.join(EN_DIR, file))
     else:
         print("Unknown file type: " + file_path)
+
+# copy config/english.yml to EN_DIR/authors.yml
+shutil.copy("./config/english.yml", EN_DIR + "/authors.yml")
+# copy config/korean.yml to KO_DIR/authors.yml
+shutil.copy("./config/korean.yml", KO_DIR + "/authors.yml")
 
 
 def process_language(dir, to_index, to_delete):
