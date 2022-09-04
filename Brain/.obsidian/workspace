@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ede1c9617d346fa6",
+        "id": "5f8dfa99a2c40076",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "ede1c9617d346fa6",
+  "active": "5f8dfa99a2c40076",
   "lastOpenFiles": [
+    "Projects/Intracranial.md",
+    "Journals/2022-09-03.md",
     "Academics/380/SDL.md",
     "Academics/380/380.md",
-    "Journals/2022-09-03.md",
     "Academics/380/Delta Time.md",
     "Academics/380/Forward Declaration.md",
     "Research/Prompt Engineering.md",
     "Journals/2022-08-10.md",
     "Research/SharedArrayBuffer.md",
-    "Projects/Better Aldehyde.md",
-    "Projects/Grind 75/Trie.md"
+    "Projects/Better Aldehyde.md"
   ]
 }
