@@ -1,6 +1,7 @@
 ---
 title: '라즈베리 파이로 스마트 오디오 시스템 만들기'
 date: 2020-04-08
+authors: anaclumos
 slug: '/1789C6'
 ---
 

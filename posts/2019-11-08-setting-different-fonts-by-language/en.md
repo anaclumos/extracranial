@@ -1,6 +1,7 @@
 ---
 title: 'Setting different fonts by language in CSS'
 date: 2019-11-08
+authors: anaclumos
 slug: '/37A187'
 ---
 

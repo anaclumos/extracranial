@@ -1,6 +1,7 @@
 ---
 title: 'Why the halting problem is unsolvable'
 date: 2022-05-11
+authors: anaclumos
 slug: 'FFD937'
 ---
 

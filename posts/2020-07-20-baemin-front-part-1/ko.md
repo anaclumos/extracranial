@@ -1,6 +1,7 @@
 ---
 title: '배달의민족 프론트엔드 개발자가 일하는 방법 발표'
 date: 2020-07-20
+authors: anaclumos
 slug: '/02B616'
 ---
 

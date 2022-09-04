@@ -1,6 +1,7 @@
 ---
 title: 'Starting WASM with Snowpack'
 date: 2020-11-27
+authors: anaclumos
 slug: '/E0C34F'
 ---
 

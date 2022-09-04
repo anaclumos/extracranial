@@ -1,6 +1,7 @@
 ---
 title: 'Mapping keys to set different input languages on macOS'
 date: 2022-03-07
+authors: anaclumos
 slug: '/903D31'
 ---
 

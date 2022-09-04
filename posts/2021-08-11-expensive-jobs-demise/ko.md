@@ -1,6 +1,7 @@
 ---
 title: 'AI는 고가 노동부터 점령한다'
 date: 2021-08-11
+authors: anaclumos
 slug: '/0FF73F'
 ---
 

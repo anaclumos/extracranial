@@ -1,6 +1,7 @@
 ---
 title: 'MinsaPay: A School Festival Payment System'
 date: 2019-10-10
+authors: anaclumos
 slug: '/3955DC'
 ---
 

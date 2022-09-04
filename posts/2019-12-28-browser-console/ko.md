@@ -1,6 +1,7 @@
 ---
 title: '브라우저 콘솔에 경고 문구 띄우는 방법'
 date: 2019-12-28
+authors: anaclumos
 slug: '/2CF6F4'
 ---
 
