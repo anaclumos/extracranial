@@ -1,6 +1,7 @@
 ---
 title: 'P vs. NP problem'
 date: 2022-04-28
+authors: anaclumos
 slug: '/4DAB36'
 ---
 

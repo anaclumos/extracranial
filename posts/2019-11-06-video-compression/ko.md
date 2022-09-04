@@ -1,6 +1,7 @@
 ---
 title: '동영상 압축과 유체이탈'
 date: 2019-11-06
+authors: anaclumos
 slug: '/6B6D29'
 ---
 

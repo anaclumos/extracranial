@@ -1,6 +1,7 @@
 ---
 title: '유튜브 댓글에서 한국인 찾기'
 date: 2020-05-11
+authors: anaclumos
 slug: '/4BB66F'
 ---
 

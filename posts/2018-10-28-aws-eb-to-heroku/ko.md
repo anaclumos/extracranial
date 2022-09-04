@@ -1,6 +1,7 @@
 ---
 title: 'Node.js 앱을 AWS EB에서 Heroku로 옮기기'
 date: 2018-10-28
+authors: anaclumos
 slug: '/C855D4'
 ---
 

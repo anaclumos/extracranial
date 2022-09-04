@@ -1,6 +1,7 @@
 ---
 title: 'Mac을 Command+L로 잠그는 방법'
 date: 2019-11-09
+authors: anaclumos
 slug: '/6AA962'
 ---
 

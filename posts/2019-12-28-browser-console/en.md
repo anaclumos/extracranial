@@ -1,6 +1,7 @@
 ---
 title: 'Warning in Browser Consoles'
 date: 2019-12-28
+authors: anaclumos
 slug: '/2CF6F4'
 ---
 
