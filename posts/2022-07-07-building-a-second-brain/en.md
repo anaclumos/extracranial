@@ -1,6 +1,6 @@
 ---
 title: 'Readings: Building a Second Brain'
-date: '2022-07-07'
+date: 2022-07-07
 slug: '/6AE59D'
 ---
 
