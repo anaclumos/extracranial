@@ -1,6 +1,7 @@
 ---
 title: 'YCLF 주간 사용자 1000명'
 date: 2020-08-01
+authors: anaclumos
 slug: '/06BDA3'
 ---
 

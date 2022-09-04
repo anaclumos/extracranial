@@ -1,6 +1,7 @@
 ---
 title: '배달의민족 프론트엔드 개발자가 일하는 방법 Q&A'
 date: 2020-07-21
+authors: anaclumos
 slug: '/4836FE'
 ---
 

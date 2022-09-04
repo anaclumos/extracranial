@@ -1,6 +1,7 @@
 ---
 title: '내 단축키 설정'
 date: 2022-05-07
+authors: anaclumos
 slug: '/067A7D'
 ---
 

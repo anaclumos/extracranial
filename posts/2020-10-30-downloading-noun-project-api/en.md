@@ -1,6 +1,7 @@
 ---
 title: 'Download Icons with The Noun Project API'
 date: 2020-10-30
+authors: anaclumos
 slug: '/589DF4'
 ---
 

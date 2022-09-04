@@ -1,6 +1,7 @@
 ---
 title: 'React App on GitHub Pages'
 date: 2020-10-05
+authors: anaclumos
 slug: '/01460C'
 ---
 

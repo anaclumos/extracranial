@@ -1,6 +1,7 @@
 ---
 title: '취향저격 meme 추천 시스템 개발기'
 date: 2021-02-16
+authors: anaclumos
 slug: '/7BF6C2'
 ---
 

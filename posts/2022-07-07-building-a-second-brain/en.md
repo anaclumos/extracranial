@@ -1,6 +1,7 @@
 ---
 title: 'Readings: Building a Second Brain'
 date: 2022-07-07
+authors: anaclumos
 slug: '/6AE59D'
 ---
 

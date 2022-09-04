@@ -1,6 +1,7 @@
 ---
 title: 'AI replaces expensive jobs first'
 date: 2021-08-11
+authors: anaclumos
 slug: '/0FF73F'
 ---
 

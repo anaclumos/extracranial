@@ -1,6 +1,7 @@
 ---
 title: 'Sending Notifications on Chrome Extension'
 date: 2020-05-29
+authors: anaclumos
 slug: '/D1B35D'
 ---
 
