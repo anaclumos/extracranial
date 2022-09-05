@@ -30,7 +30,7 @@ slug: '/D518B0'
 - [x] [[125 Valid Palindrome]]
 - [x] [[226 Invert Binary Tree]]
 - [x] [[242 Valid Anagram]]
-- [ ] [[704 Binary Search]]
+- [x] [[704 Binary Search]]
 - [ ] [Flood Fill](https://leetcode.com/problems/flood-fill)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
 - [ ] [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
