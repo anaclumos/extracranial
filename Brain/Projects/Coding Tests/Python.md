@@ -1,0 +1,49 @@
+---
+title: 'Python'
+slug: '/692460'
+---
+
+import WIP from '@site/src/components/WIP'
+
+<WIP />
+
+:::tip
+Special thanks to [Ishu Agrawal](https://github.com/ishuagrawal)
+:::
+
+## Heap
+
+> Heaps are complete binary trees where the value of each node must be no greater than (or less than) the value of its child nodes.
+
+![[Pasted image 20220904230841.png]]
+
+- Python **only** supports Min Heaps
+- `import heapq`
+- `heapq.heapify(arr)`
+- `heapq.heappop(arr)`
+- `heapq.heappush(arr, x)`
+- `heapq.nsmallest(k, arr, key=func)` returns a list with the `k` smallest elements in the iterable `arr` based on a comparator function `func`
+  - Runtime: $O(N \log k)$
+- `heapq.nlargest(k, arr, key=func)`returns a list with the `k` largest elements in the iterable `arr` based on a comparator function `func`
+  - Runtime: $O(N \log k)$
+
+| Operation     | Runtime     |
+| ------------- | ----------- |
+| Find min/max  | $O(1)$      |
+| Search        | $O(n)$      |
+| Insert        | $O(\log n)$ |
+| Remove        | $O(\log n)$ |
+| Heapify Array | $O(n)$      |
+
+## List Offsetting
+
+You can offset with [[Python]]'s `enumerate` function with list splitting.
+
+```python
+enumerate(nums[offset::])
+```
+
+## Dictionary
+
+- [[Python]] Dictionary is a hash map.
+- Lookup time: $O(n)$ worst when there are many collisions.
