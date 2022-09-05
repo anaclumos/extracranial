@@ -43,7 +43,7 @@ class Solution:
         return image
 ```
 
-I did BFS, but it seems possible to do this in recursion too.
+I did [[BFS]], but it seems possible to do this in recursion too.
 
 ## Results
 
