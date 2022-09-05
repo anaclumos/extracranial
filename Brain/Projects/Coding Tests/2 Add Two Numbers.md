@@ -1,5 +1,5 @@
 ---
-title: 'Leetcode 2. Add Two Numbers'
+title: '#2 Add Two Numbers'
 slug: 'E3498A'
 ---
 
