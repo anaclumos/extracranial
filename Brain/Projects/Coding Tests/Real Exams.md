@@ -13,7 +13,7 @@ slug: '/75CB18'
   - 1 SQL Problem
 - [BlackRock](https://www.blackrock.com/us/individual)
   - 1 stack
-  - 1 BFS
+  - 1 [[BFS]]
 
 ## For 2022
 
@@ -32,7 +32,7 @@ slug: '/75CB18'
 - Twitch
   - [[get-a-job-done]] Data Parsing
 - Bloomberg
-  - BFS
+  - [[BFS]]
 
 import WIP from '@site/src/components/WIP'
 
