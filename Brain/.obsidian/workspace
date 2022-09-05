@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5f8dfa99a2c40076",
+        "id": "abfd0c204b52715f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/Coding Tests/Python.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Ligature",
+                "query": "heapq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Coding Tests/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Coding Tests/Python.md"
+              }
             }
           },
           {
@@ -112,19 +120,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 415.5,
+    "collapsed": true
   },
-  "active": "aa73c60d583d3db3",
+  "active": "abfd0c204b52715f",
   "lastOpenFiles": [
-    "Journals/2022-08-01.md",
+    "Projects/Coding Tests/Coding Tests.md",
     "Journals/2022-09-04.md",
-    "Projects/Intracranial.md",
-    "Journals/2022-09-03.md",
-    "Academics/380/SDL.md",
-    "Academics/380/380.md",
-    "Academics/380/Delta Time.md",
-    "Academics/380/Forward Declaration.md",
-    "Research/Prompt Engineering.md",
-    "Journals/2022-08-10.md"
+    "Projects/Coding Tests/Grind 75 Word Search.md",
+    "Projects/Coding Tests/2 Add Two Numbers.md",
+    "Projects/Coding Tests/Python.md",
+    "Research/Atomics.md",
+    "Research/Python/Python Dictionary.md",
+    "Projects/Coding Tests/1046 Last Stone Weight.md",
+    "Journals/2022-08-01.md",
+    "Projects/Intracranial.md"
   ]
 }

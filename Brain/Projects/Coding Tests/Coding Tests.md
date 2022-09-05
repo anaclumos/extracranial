@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75'
+title: 'Coding Tests'
 slug: '/D518B0'
 ---
 
