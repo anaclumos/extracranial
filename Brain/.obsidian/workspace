@@ -7,8 +7,13 @@
         "id": "5f8dfa99a2c40076",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-08-01.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,8 +41,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "On Brane",
-                "matchingCase": true,
+                "query": "Ligature",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -53,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -73,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-08-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-08-01.md"
+              }
             }
           },
           {
@@ -117,6 +126,7 @@
   },
   "active": "5f8dfa99a2c40076",
   "lastOpenFiles": [
+    "Journals/2022-09-04.md",
     "Projects/Intracranial.md",
     "Journals/2022-09-03.md",
     "Academics/380/SDL.md",
@@ -125,7 +135,6 @@
     "Academics/380/Forward Declaration.md",
     "Research/Prompt Engineering.md",
     "Journals/2022-08-10.md",
-    "Research/SharedArrayBuffer.md",
-    "Projects/Better Aldehyde.md"
+    "Research/SharedArrayBuffer.md"
   ]
 }
