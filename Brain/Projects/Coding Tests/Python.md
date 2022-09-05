@@ -47,3 +47,7 @@ enumerate(nums[offset::])
 
 - [[Python]] Dictionary is a hash map.
 - Lookup time: $O(n)$ worst when there are many collisions.
+
+## Alphanumeric Testing
+
+- `c.isalnum()`

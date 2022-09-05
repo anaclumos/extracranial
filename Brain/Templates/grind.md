@@ -1,5 +1,5 @@
 ---
-title: 'Leetcode {{title}}'
+title: '#{{title}}'
 slug: '{{hex}}'
 ---
 
@@ -9,8 +9,18 @@ Solved at: [[{{date:YYYY-MM-DD}}]]
 
 ## Solution
 
+```python
+
+```
+
 ## Improved
 
+```python
+
+```
+
 ## Results
+
+## Complexity Analysis
 
 ## Other Answers Online

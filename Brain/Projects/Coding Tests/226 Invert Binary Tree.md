@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75.6 Invert Binary Tree'
+title: '#226 Invert Binary Tree'
 slug: '/5E3636'
 ---
 

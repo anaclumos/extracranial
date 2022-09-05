@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75.2 Valid Parentheses'
+title: '#20 Valid Parentheses'
 slug: '/F5650C'
 ---
 

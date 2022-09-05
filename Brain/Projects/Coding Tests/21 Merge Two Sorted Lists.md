@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75.3 Merge Two Sorted Lists'
+title: '#21 Merge Two Sorted Lists'
 slug: '/5F2988'
 ---
 
