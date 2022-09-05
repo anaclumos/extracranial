@@ -7,13 +7,8 @@
         "id": "5f8dfa99a2c40076",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Journals/2022-08-01.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -58,8 +53,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-08-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-08-01.md"
-              }
+              "state": {}
             }
           },
           {
@@ -121,11 +112,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5,
-    "collapsed": true
+    "width": 415.5
   },
-  "active": "5f8dfa99a2c40076",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
+    "Journals/2022-08-01.md",
     "Journals/2022-09-04.md",
     "Projects/Intracranial.md",
     "Journals/2022-09-03.md",
@@ -134,7 +125,6 @@
     "Academics/380/Delta Time.md",
     "Academics/380/Forward Declaration.md",
     "Research/Prompt Engineering.md",
-    "Journals/2022-08-10.md",
-    "Research/SharedArrayBuffer.md"
+    "Journals/2022-08-10.md"
   ]
 }
