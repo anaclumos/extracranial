@@ -1,6 +1,6 @@
 ---
 title: 'binary search'
-slug: '/{{hex}}'
+slug: '/9F6CB6'
 ---
 
 import WIP from '@site/src/components/WIP'
