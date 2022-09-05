@@ -1,6 +1,6 @@
 ---
 title: '#704 Binary Search'
-slug: '{{hex}}'
+slug: '3A1093'
 ---
 
 Solved at: [[2022-09-04]]
@@ -28,18 +28,21 @@ class Solution:
             return self._search(nums, target, mid+1, end)
         else:
             return -1
-    
+
     def search(self, nums: List[int], target: int) -> int:
         return self._search(nums, target, 0, len(nums)-1)
 ```
 
 - [[binary search]]
+
 ## Results
 
 ### Runtime
+
 - 542 ms, faster than 6.00% of Python3 online submissions for Binary Search.
 
 ### Memory Usage
+
 - 15.5 MB, less than 73.17% of Python3 online submissions for Binary Search.
 
 ## Complexity Analysis
