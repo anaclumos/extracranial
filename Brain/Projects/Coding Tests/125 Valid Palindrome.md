@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75.5 Valid Palindrome'
+title: '#125 Valid Palindrome'
 slug: '/646F3A'
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Leetcode 1046 Last Stone Weight'
+title: '#1046 Last Stone Weight'
 slug: 'F74684'
 ---
 

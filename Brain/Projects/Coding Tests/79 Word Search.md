@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75 Word Search'
+title: '#79 Word Search'
 slug: 'B950DD'
 ---
 

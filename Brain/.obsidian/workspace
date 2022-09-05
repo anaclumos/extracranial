@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Coding Tests/Python.md",
+            "file": "Projects/Coding Tests/Real Exams.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Coding Tests/Python.md",
+                "file": "Projects/Coding Tests/Real Exams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Coding Tests/Python.md"
+                "file": "Projects/Coding Tests/Real Exams.md"
               }
             }
           },
@@ -126,14 +126,14 @@
   "active": "abfd0c204b52715f",
   "lastOpenFiles": [
     "Projects/Coding Tests/Coding Tests.md",
+    "Projects/Coding Tests/Trie.md",
+    "Projects/Coding Tests/242 Valid Anagram.md",
     "Journals/2022-09-04.md",
-    "Projects/Coding Tests/Grind 75 Word Search.md",
-    "Projects/Coding Tests/2 Add Two Numbers.md",
+    "Templates/grind.md",
+    "Projects/Coding Tests/199 Binary Tree Right Side View.md",
     "Projects/Coding Tests/Python.md",
-    "Research/Atomics.md",
-    "Research/Python/Python Dictionary.md",
     "Projects/Coding Tests/1046 Last Stone Weight.md",
-    "Journals/2022-08-01.md",
-    "Projects/Intracranial.md"
+    "Projects/Coding Tests/226 Invert Binary Tree.md",
+    "Projects/Coding Tests/125 Valid Palindrome.md"
   ]
 }
