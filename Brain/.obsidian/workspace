@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "abfd0c204b52715f",
+        "id": "69d845f3fc217e05",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Coding Tests/Coding Tests.md",
+            "file": "Projects/Coding Tests/733 Flood Fill.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Coding Tests/Coding Tests.md",
+                "file": "Projects/Coding Tests/733 Flood Fill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Coding Tests/Coding Tests.md"
+                "file": "Projects/Coding Tests/733 Flood Fill.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "abfd0c204b52715f",
+  "active": "69d845f3fc217e05",
   "lastOpenFiles": [
+    "Projects/Coding Tests/Python.md",
+    "Projects/Coding Tests/733 Flood Fill.md",
+    "Projects/Coding Tests/Coding Tests.md",
     "Journals/2022-09-05.md",
     "Journals/2022-09-04.md",
     "Projects/Coding Tests/binary search.md",
     "Projects/Coding Tests/704 Binary Search.md",
-    "Projects/Coding Tests/Coding Tests.md",
     "Projects/Coding Tests/Real Exams.md",
     "Projects/Coding Tests/get-a-job-done.md",
-    "Projects/Coding Tests/optimized simulation.md",
-    "Projects/Coding Tests/mathematic coding.md",
-    "Projects/Coding Tests/BFS.md"
+    "Projects/Coding Tests/optimized simulation.md"
   ]
 }
