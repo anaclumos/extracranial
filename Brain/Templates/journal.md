@@ -9,7 +9,7 @@ import WIP from '@site/src/components/WIP'
 
 <WIP />
 
-## [[Grind 75]]
+## [[Coding Tests]]
 
 ## Today's [[Hacker News]]
 
