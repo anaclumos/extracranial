@@ -55,5 +55,5 @@ enumerate(nums[offset::])
 ## Making 2d Arrays
 
 - using `visited = [[False] * len(image[0])] * len(image)` **will not work**
-	- the rows will share the same memory and change in one will reflect on the others
+  - the rows will share the same memory and change in one will reflect on the others
 - use `arr = [[0 for i in range(cols)] for j in range(rows)]`
