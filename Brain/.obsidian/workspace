@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6a97e37fa75a5662",
+        "id": "3e33b8a3bb178dd0",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Journals/2022-09-05.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-09-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-09-05.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,13 +115,13 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "6a97e37fa75a5662",
+  "active": "3e33b8a3bb178dd0",
   "lastOpenFiles": [
+    "Journals/2022-09-05.md",
     "Projects/Coding Tests/53 Maximum Subarray.md",
     "Projects/Coding Tests/Coding Tests.md",
     "Projects/Coding Tests/BFS.md",
     "Projects/Coding Tests/704 Binary Search.md",
-    "Journals/2022-09-05.md",
     "Projects/Coding Tests/optimized simulation.md",
     "Research/Optimistic Nihilism.md",
     "Projects/Coding Tests/733 Flood Fill.md",
