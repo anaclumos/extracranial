@@ -3,7 +3,7 @@ title: 'Coding Tests'
 slug: '/D518B0'
 ---
 
-- Grind 75 is a collection of coding test practice sets. It aims to cover all of the major topics in programming exams in 8 weeks.
+- Leetcode Grind 75 is a collection of coding test practice sets. It aims to cover all major topics in programming exams in 8 weeks.
 - Will use [[Python]] (main language) and [[C++]] (supplementary language)
 - [Link](https://www.techinterviewhandbook.org/grind75)
 
@@ -19,16 +19,17 @@ slug: '/D518B0'
 - [[199 Binary Tree Right Side View]]
 - [[1046 Last Stone Weight]]
 - [[215 Kth Largest Element in an Array]] [[TODO]]
+- [[79 Word Search]]
 
 ## Stage 1
 
-- [x] [[Grind 75.1 Two Sum]]
-- [x] [[Grind 75.2 Valid Parentheses]]
-- [x] [[Grind 75.3 Merge Two Sorted Lists]]
-- [x] [[Grind 75.4 Best Time to Buy and Sell Stock]]
-- [x] [[Grind 75.5 Valid Palindrome]]
-- [x] [[Grind 75.6 Invert Binary Tree]]
-- [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
+- [x] [[1 Two Sum]]
+- [x] [[20 Valid Parentheses]]
+- [x] [[21 Merge Two Sorted Lists]]
+- [x] [[121 Best Time to Buy and Sell Stock]]
+- [x] [[125 Valid Palindrome]]
+- [x] [[226 Invert Binary Tree]]
+- [ ] [[242 Valid Anagram]]
 - [ ] [Binary Search](https://leetcode.com/problems/binary-search)
 - [ ] [Flood Fill](https://leetcode.com/problems/flood-fill)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
@@ -100,7 +101,7 @@ slug: '/D518B0'
 
 - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 - [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
-- [ ] [[Grind 75 Word Search]]
+- [ ] [[79 Word Search]]
 - [ ] [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)
 - [ ] [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees)
 - [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler)

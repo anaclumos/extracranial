@@ -1,5 +1,5 @@
 ---
-title: 'Grind 75.4 Best Time to Buy and Sell Stock'
+title: '#121 Best Time to Buy and Sell Stock'
 slug: '/22C295'
 ---
 
