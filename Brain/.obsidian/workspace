@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3e33b8a3bb178dd0",
+        "id": "403dc2fd34ca5ec3",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/Coding Tests/53 Maximum Subarray.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Coding Tests/53 Maximum Subarray.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/Coding Tests/53 Maximum Subarray.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,7 +115,7 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "3e33b8a3bb178dd0",
+  "active": "403dc2fd34ca5ec3",
   "lastOpenFiles": [
     "Journals/2022-09-05.md",
     "Projects/Coding Tests/53 Maximum Subarray.md",
