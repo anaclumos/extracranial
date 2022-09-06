@@ -1,5 +1,5 @@
 ---
-title: 'Watch your favorite music video right from your terminal'
+title: 'Music Videos in Terminals'
 date: 2021-07-05
 authors: anaclumos
 slug: '/AF848F'

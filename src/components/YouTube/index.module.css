@@ -1,9 +1,10 @@
 .youtube {
   width: 100%;
-  max-width: 40rem;
+  max-height: 25rem;
   aspect-ratio: 16/9;
-  margin: 0 auto;
+  margin: 1rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 0.5rem;
 }
