@@ -1,5 +1,5 @@
 .displayFlex {
   display: flex;
-  justify-content: space-around;
+  overflow: scroll;
   gap: 1rem;
 }
