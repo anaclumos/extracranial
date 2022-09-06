@@ -99,6 +99,10 @@ img {
   width: auto;
 }
 
+figure > p {
+  margin: 0;
+}
+
 figure > p > img {
   display: block;
   margin: 0 auto;
