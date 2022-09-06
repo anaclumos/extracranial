@@ -95,6 +95,7 @@ figure {
 img {
   margin: 0 auto;
   border-radius: 0.5rem;
+  border: 2px solid var(--ifm-color-emphasis-200);
   max-height: 25rem;
   width: auto;
 }
@@ -114,4 +115,8 @@ figcaption {
   margin: 0.5rem auto;
   font-size: 0.8rem;
   color: var(--ifm-color-emphasis-700);
+}
+
+hr {
+  border: 1px solid var(--ifm-color-emphasis-200);
 }
