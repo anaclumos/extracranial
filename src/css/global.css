@@ -99,15 +99,11 @@ img {
   width: auto;
 }
 
-figure > p {
+figure > p > img {
+  display: block;
   margin: 0 auto;
   padding: 0;
   border: 2px solid var(--ifm-color-emphasis-200);
-}
-
-p > img {
-  display: block;
-  margin: 0 auto;
 }
 
 figcaption {
