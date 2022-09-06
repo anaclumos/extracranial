@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "403dc2fd34ca5ec3",
+        "id": "58cc314925df933a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-09-03.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-09-03.md"
+              }
             }
           },
           {
@@ -115,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "403dc2fd34ca5ec3",
+  "active": "58cc314925df933a",
   "lastOpenFiles": [
+    "Journals/2022-08-30.md",
+    "Journals/2022-08-29.md",
+    "Journals/2022-08-28.md",
+    "Journals/2022-08-27.md",
+    "Journals/2022-08-26.md",
+    "Journals/2022-09-03.md",
+    "Journals/2022-09-04.md",
     "Journals/2022-09-05.md",
-    "Projects/Coding Tests/53 Maximum Subarray.md",
-    "Projects/Coding Tests/Coding Tests.md",
-    "Projects/Coding Tests/BFS.md",
-    "Projects/Coding Tests/704 Binary Search.md",
-    "Projects/Coding Tests/optimized simulation.md",
-    "Research/Optimistic Nihilism.md",
-    "Projects/Coding Tests/733 Flood Fill.md",
-    "Projects/Coding Tests/Python.md",
-    "Journals/2022-09-04.md"
+    "Journals/2022-09-06.md",
+    "Research/InterviewKit.md"
   ]
 }
