@@ -49,7 +49,7 @@ const EmojiReplaceableText = (props: Props) => {
             />
           ) : (
             <img
-              className={styles.notRounded}
+              className={styles.emoji}
               src={photo}
               alt={photoAlt}
               width="38px"
