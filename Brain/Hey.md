@@ -25,11 +25,11 @@ If you seek internationalized content, check out my [blog](https://cho.sh/blog/a
   - Opposite of Outliner
   - Write one sentence per line without bullets. See [[2022-06-21]].
   - Markdown will convert it into a freeform paragraph text.
-  - [Just like this very page.](https://raw.githubusercontent.com/anaclumos/www/main/Brain/Hey.md)
+  - [Just like this very page.](https://raw.githubusercontent.com/anaclumos/extracranial/main/Brain/Hey.md)
 
 ## Tech Stacks
 
 I use [[Obsidian]] for taking notes.
 I pipeline those notes into a heavily customized [[TS]] [[Docusaurus]] with custom [[React]] components.
 I use [[Vercel]] for deploying (SSR) and [[Cloudflare]] CDN for caching and distributing.
-Finally, I open-sourced it on [GitHub](https://github.com/anaclumos/www), so take a look.
+Finally, I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial), so take a look.

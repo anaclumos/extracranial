@@ -18,7 +18,7 @@ const config: Config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
   organizationName: 'anaclumos',
-  projectName: 'www',
+  projectName: 'extracranial',
   i18n: i18n,
   presets: [
     [

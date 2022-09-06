@@ -12,7 +12,7 @@ Since this post, I have extensively studied non-linear PKM software, such as [Ro
 :::
 
 :::tip **Update 2022-07-01**
-Well, you're now watching my next-gen digital brain! For the past two weeks, I have worked on the [WWW project](https://github.com/anaclumos/www) that built this website. It checks off almost all of the marks detailed in this post!
+Well, you're now watching my next-gen digital brain! For the past two weeks, I have worked on the [WWW project](https://github.com/anaclumos/extracranial) that built this website. It checks off almost all of the marks detailed in this post!
 :::
 
 <details>
