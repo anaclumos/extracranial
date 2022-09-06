@@ -7,7 +7,7 @@ const index = () => {
     <div className={g.giscus}>
       <Giscus
         id="comments"
-        repo="anaclumos/www-comments"
+        repo="anaclumos/extracranial-comments"
         repoId="R_kgDOHh2XAw"
         category="General"
         categoryId="DIC_kwDOHh2XA84CPxJo"
