@@ -7,8 +7,13 @@
         "id": "a840305eba2c48eb",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/Coding Tests/Real Exams.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Coding Tests/Real Exams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Coding Tests/Real Exams.md"
+              }
             }
           },
           {
@@ -117,15 +125,15 @@
   },
   "active": "a840305eba2c48eb",
   "lastOpenFiles": [
+    "Journals/2022-09-07.md",
+    "Projects/Coding Tests/simulation.md",
+    "Projects/Coding Tests/Real Exams.md",
     "Academics/380/380 Xcode Startup.md",
     "Academics/380/380.md",
     "Academics/356/356.md",
     "Academics/353/353.md",
     "Academics/310/310.md",
     "Journals/2022-09-06.md",
-    "Hey.md",
-    "Untitled.md",
-    "Research/Tesla Release Model.md",
-    "Projects/Coding Tests/121 Best Time to Buy and Sell Stock.md"
+    "Hey.md"
   ]
 }
