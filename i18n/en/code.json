@@ -12,7 +12,7 @@
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "Your government restricts access to this content. So please load up your VPN or use the Onion protocol with Tor. To bypass this censorship, you must send me 10 ETH. Then try again.",
+    "message": "Our server recognized that your government restricts access to this content. I can create a secure tunnel for you; load up your VPN or use the Onion protocol with Tor. To bypass this censorship, you must send me 10 ETH @ 0xCC441Db84Bf28ea2740e2778c662FA4B515ACcd6. Then try again.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
