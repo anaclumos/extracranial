@@ -7,8 +7,8 @@ slug: '/75CB18'
 
 ### CodeSignal ([HRT](https://www.hudsonrivertrading.com/), [Databricks](https://www.databricks.com/))
 
-    - 2 [[simulation]]s
-    - 2 [[optimized simulation]]s
+- 2 [[simulation]]s
+- 2 [[optimized simulation]]s
 
 ### [IMC](https://www.imc.com/us/)
 
