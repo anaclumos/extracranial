@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "de3f48d4633733cb",
+        "id": "d1dc84a63d9a21be",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "de3f48d4633733cb",
+  "active": "d1dc84a63d9a21be",
   "lastOpenFiles": [
-    "Projects/Coding Tests/Real Exams.md",
+    "Readings/Readings.md",
     "Journals/2022-09-07.md",
+    "Projects/Coding Tests/Real Exams.md",
     "Projects/Coding Tests/simulation.md",
     "Academics/380/380 Xcode Startup.md",
     "Academics/380/380.md",
     "Academics/356/356.md",
     "Academics/353/353.md",
     "Academics/310/310.md",
-    "Journals/2022-09-06.md",
-    "Hey.md"
+    "Journals/2022-09-06.md"
   ]
 }
