@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bc076cfa7f2d352c",
+        "id": "8af91f238bbfc48a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Academics/380/380.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Academics/380/380.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Academics/380/380.md"
+              }
             }
           },
           {
@@ -115,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "bc076cfa7f2d352c",
+  "active": "8af91f238bbfc48a",
   "lastOpenFiles": [
+    "Academics/356/356.md",
+    "Academics/353/353.md",
+    "Academics/310/310.md",
     "Journals/2022-09-06.md",
     "Hey.md",
     "Untitled.md",
     "Research/Tesla Release Model.md",
     "Projects/Coding Tests/121 Best Time to Buy and Sell Stock.md",
     "Projects/Coding Tests/1046 Last Stone Weight.md",
-    "Journals/2022-09-03.md",
-    "Journals/2022-08-30.md",
-    "Journals/2022-08-29.md",
-    "Journals/2022-08-28.md"
+    "Journals/2022-09-03.md"
   ]
 }
