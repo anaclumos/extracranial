@@ -7,8 +7,13 @@
         "id": "d1dc84a63d9a21be",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/Coding Tests/Real Exams.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Coding Tests/Real Exams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Coding Tests/Real Exams.md"
+              }
             }
           },
           {
@@ -117,8 +125,8 @@
   },
   "active": "d1dc84a63d9a21be",
   "lastOpenFiles": [
-    "Readings/Readings.md",
     "Journals/2022-09-07.md",
+    "Readings/Readings.md",
     "Projects/Coding Tests/Real Exams.md",
     "Projects/Coding Tests/simulation.md",
     "Academics/380/380 Xcode Startup.md",
