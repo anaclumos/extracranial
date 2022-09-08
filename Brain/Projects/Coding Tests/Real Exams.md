@@ -5,6 +5,11 @@ slug: '/75CB18'
 
 ## For 2023
 
+### [Valkyrie Trading](https://www.valkyrietrading.com/)
+
+- 1 binary tree construction & [[binary search]] traversal
+- 1 [[simulation]]
+
 ### CodeSignal ([HRT](https://www.hudsonrivertrading.com/), [Databricks](https://www.databricks.com/))
 
 - 2 [[simulation]]s
