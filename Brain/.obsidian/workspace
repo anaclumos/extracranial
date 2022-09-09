@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f179b0f8364cd55f",
+        "id": "eb5be5c15d648819",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/PEOPLE/PEOPLE.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/PEOPLE/PEOPLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/PEOPLE/PEOPLE.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,11 +115,11 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f179b0f8364cd55f",
+  "active": "eb5be5c15d648819",
   "lastOpenFiles": [
+    "Projects/PEOPLE/PEOPLE.md",
     "Journals/2022-09-08.md",
     "Projects/PEOPLE/A480C6.md",
-    "Projects/PEOPLE/PEOPLE.md",
     "Projects/Old Fashioned Camera.md",
     "Projects/CalliFontia.md",
     "Projects/Someday/OGIaaS.md",
