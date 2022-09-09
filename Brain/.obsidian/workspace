@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Old Fashioned Camera.md",
+            "file": "Projects/PEOPLE/A480C6.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Old Fashioned Camera.md",
+                "file": "Projects/PEOPLE/A480C6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Old Fashioned Camera.md"
+                "file": "Projects/PEOPLE/A480C6.md"
               }
             }
           },
@@ -125,6 +125,8 @@
   },
   "active": "840ee1eb0482405d",
   "lastOpenFiles": [
+    "Projects/PEOPLE/PEOPLE.md",
+    "Projects/Old Fashioned Camera.md",
     "Projects/CalliFontia.md",
     "Projects/Someday/OGIaaS.md",
     "Projects/Someday/Alphanumeric.md",
@@ -132,8 +134,6 @@
     "Projects/Done/Separation of Computer Scientists and Computer Technologists.md",
     "Projects/Someday/Cube.md",
     "Projects/Someday/Better Aldehyde.md",
-    "Projects/Someday/Better Docusaurus.md",
-    "Projects/Someday/Better Obsidian/Developing Review Notes for Obsidian.md",
-    "Projects/PEOPLE/A480C6.md"
+    "Projects/Someday/Better Docusaurus.md"
   ]
 }
