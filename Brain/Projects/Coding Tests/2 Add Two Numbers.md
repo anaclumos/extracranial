@@ -7,7 +7,7 @@ Solved at: [[2022-08-27]]
 
 ## Question
 
-You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order**, and each node contains a single digit. Add the two numbers and return the sum as a linked list.
+You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order**, and each node contains a single digit. Add the two numbers and return the sum as a linked list.
 
 You may assume the two numbers do not contain any leading zero except the number 0 itself.
 
@@ -50,8 +50,8 @@ class Solution:
 
 ### Runtime
 
-113 ms, faster than 43.74% of Python3 online submissions for Add Two Numbers.
+113 ms, faster than 43.74% of Python3 online submissions for Add Two Numbers.
 
 ### Memory Usage
 
-13.9 MB, less than 44.03% of Python3 online submissions for Add Two Numbers.
+13.9 MB, less than 44.03% of Python3 online submissions for Add Two Numbers.

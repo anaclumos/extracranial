@@ -7,7 +7,7 @@ Solved at: [[2022-08-27]]
 
 ## Question
 
-Given the `root` of a binary tree, imagine yourself standing on the **right side** of it, and return *the values of the nodes you can see ordered from top to bottom*.
+Given the `root` of a binary tree, imagine yourself standing on the **right side** of it, and return _the values of the nodes you can see ordered from top to bottom_.
 
 ## Solution
 
@@ -40,8 +40,8 @@ class Solution:
 
 ### Runtime
 
-50 ms, faster than 56.24% of Python3 online submissions for Binary Tree Right Side View.
+50 ms, faster than 56.24% of Python3 online submissions for Binary Tree Right Side View.
 
 ### Memory Usage
 
-13.9 MB, less than 70.69% of Python3 online submissions for Binary Tree Right Side View.
+13.9 MB, less than 70.69% of Python3 online submissions for Binary Tree Right Side View.
