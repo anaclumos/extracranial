@@ -7,9 +7,9 @@ Solved at: [[2022-08-27]]
 
 ## Question
 
-Given a binary tree `root`, a node *X* in the tree is named **good** if in the path from the root to *X* there are no nodes with a value *greater than* X.
+Given a binary tree `root`, a node _X_ in the tree is named **good** if in the path from the root to _X_ there are no nodes with a value _greater than_ X.
 
-Return the number of **good** nodes in the binary tree.
+Return the number of **good** nodes in the binary tree.
 
 ## Solution
 
@@ -34,8 +34,8 @@ class Solution:
 
 ### Runtime
 
-436 ms, faster than 36.72% of Python3 online submissions for Count Good Nodes in Binary Tree.
+436 ms, faster than 36.72% of Python3 online submissions for Count Good Nodes in Binary Tree.
 
 ### Memory Usage
 
-32.6 MB, less than 45.65% of Python3 online submissions for Count Good Nodes in Binary Tree.
+32.6 MB, less than 45.65% of Python3 online submissions for Count Good Nodes in Binary Tree.

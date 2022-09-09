@@ -15,9 +15,9 @@ slug: '/D518B0'
 ## Additional
 
 - [[1448 Count Good Nodes in Binary Tree]]
-- [[2 Add Two Numbers]]
-- [[199 Binary Tree Right Side View]]
-- [[1046 Last Stone Weight]]
+- [[2 Add Two Numbers]]
+- [[199 Binary Tree Right Side View]]
+- [[1046 Last Stone Weight]]
 - [[215 Kth Largest Element in an Array]] [[TODO]]
 - [[79 Word Search]]
 
@@ -30,7 +30,7 @@ slug: '/D518B0'
 - [x] [[125 Valid Palindrome]]
 - [x] [[226 Invert Binary Tree]]
 - [x] [[242 Valid Anagram]]
-- [x] [[704 Binary Search]]
+- [x] [[704 Binary Search]]
 - [x] [[733 Flood Fill]]
 - [ ] [[53 Maximum Subarray]]
 - [ ] [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)

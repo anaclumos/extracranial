@@ -13,7 +13,7 @@ Special thanks to [Ishu Agrawal](https://github.com/ishuagrawal)
 
 ## Heap
 
-> Heaps are complete binary trees where the value of each node must be no greater than (or less than) the value of its child nodes.
+> Heaps are complete binary trees where the value of each node must be no greater than (or less than) the value of its child nodes.
 
 ![[Pasted image 20220904230841.png]]
 

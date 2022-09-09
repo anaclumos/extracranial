@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "840ee1eb0482405d",
+        "id": "f179b0f8364cd55f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/PEOPLE/A480C6.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/PEOPLE/A480C6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/PEOPLE/A480C6.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,8 +115,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "840ee1eb0482405d",
+  "active": "f179b0f8364cd55f",
   "lastOpenFiles": [
+    "Projects/PEOPLE/A480C6.md",
     "Projects/PEOPLE/PEOPLE.md",
     "Projects/Old Fashioned Camera.md",
     "Projects/CalliFontia.md",
@@ -133,7 +126,6 @@
     "Projects/Someday/Quoridor Game.md",
     "Projects/Done/Separation of Computer Scientists and Computer Technologists.md",
     "Projects/Someday/Cube.md",
-    "Projects/Someday/Better Aldehyde.md",
-    "Projects/Someday/Better Docusaurus.md"
+    "Projects/Someday/Better Aldehyde.md"
   ]
 }

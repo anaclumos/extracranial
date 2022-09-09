@@ -7,9 +7,9 @@ Solved at: [[2022-09-04]]
 
 ## Question
 
-Given an array of integers `nums` sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.
+Given an array of integers `nums` sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.
 
-You must write an algorithm with `O(log n)` runtime complexity.
+You must write an algorithm with `O(log n)` runtime complexity.
 
 ## Solution
 
@@ -39,11 +39,11 @@ class Solution:
 
 ### Runtime
 
-- 542 ms, faster than 6.00% of Python3 online submissions for Binary Search.
+- 542 ms, faster than 6.00% of Python3 online submissions for Binary Search.
 
 ### Memory Usage
 
-- 15.5 MB, less than 73.17% of Python3 online submissions for Binary Search.
+- 15.5 MB, less than 73.17% of Python3 online submissions for Binary Search.
 
 ## Complexity Analysis
 

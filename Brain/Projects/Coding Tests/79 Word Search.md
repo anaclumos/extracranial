@@ -7,7 +7,7 @@ Solved at: [[2022-08-26]]
 
 ## Question
 
-Given an `m x n` grid of characters `board` and a string `word`, return `true` *if* `word` *exists in the grid*.
+Given an `m x n` grid of characters `board` and a string `word`, return `true` _if_ `word` _exists in the grid_.
 
 The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
 
@@ -99,8 +99,8 @@ for i in range(rows):
 
 ### Runtime
 
-- 1978 ms, faster than 96.41% of Python3 online submissions for Word Search.
+- 1978 ms, faster than 96.41% of Python3 online submissions for Word Search.
 
 ### Memory Usage
 
-- 14.1 MB, less than 12.63% of Python3 online submissions for Word Search.
+- 14.1 MB, less than 12.63% of Python3 online submissions for Word Search.
