@@ -55,7 +55,7 @@ The type of `e` is `MessageEvent`.
 
 To enable [[SharedArrayBuffer]], we need a secure context `crossOriginIsolated`.
 
-![By default, `crossOriginIsolated` is false.](../../Assets/Pasted%20image%2020220728154049.png)
+![By default, `crossOriginIsolated` is false.](Pasted%20image%2020220728154049.png)
 
 To set `crossOriginIsolated` to true, we need two headers.
 
