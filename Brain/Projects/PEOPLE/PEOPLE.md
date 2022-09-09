@@ -8,8 +8,11 @@ import WIP from '@site/src/components/WIP'
 
 Project PEOPLE is a mass-scale interview project.
 It aims to interview at least 10K people, either online or offline.
-No information will be provided on any individuals,
-except for their occupation.
+No information will be provided on any individuals except for their occupation.
+
+:::tip
+I randomize the list to prevent anyone on the top from getting all the attention 😉
+:::
 
 <Shuffle>
 
