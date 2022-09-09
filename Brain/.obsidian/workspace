@@ -7,8 +7,13 @@
         "id": "67a920c519677c7a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/PEOPLE/PEOPLE.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -57,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234
+    "width": 234,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -73,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/PEOPLE/PEOPLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/PEOPLE/PEOPLE.md"
+              }
             }
           },
           {
@@ -117,15 +126,15 @@
   },
   "active": "67a920c519677c7a",
   "lastOpenFiles": [
+    "Projects/PEOPLE/A480C6.md",
+    "Projects/PEOPLE/PEOPLE.md",
+    "Journals/2022-09-08.md",
     "Projects/PEOPLE/1B5A5B.md",
     "Projects/PEOPLE/88B488.md",
     "Projects/PEOPLE/392196.md",
-    "Projects/PEOPLE/PEOPLE.md",
     "Templates/person.md",
     "Projects/Alphanumeric.md",
-    "Journals/2022-09-08.md",
     "Templates/journal.md",
-    "Templates/note.md",
-    "Projects/Timebelt.md"
+    "Templates/note.md"
   ]
 }
