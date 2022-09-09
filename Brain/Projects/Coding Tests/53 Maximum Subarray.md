@@ -7,9 +7,9 @@ Solved at: [[2022-09-05]]
 
 ## Question
 
-Given an integer array `nums`, find the contiguous subarray (containing at least one number) with the largest sum and return *its sum*.
+Given an integer array `nums`, find the contiguous subarray (containing at least one number) with the largest sum and return _its sum_.
 
-A **subarray** is a **contiguous** part of an array.
+A **subarray** is a **contiguous** part of an array.
 
 ## Solution
 
@@ -34,11 +34,11 @@ class Solution:
 
 ### Runtime
 
-- 1192 ms, faster than 42.26% of Python3 online submissions for Maximum Subarray.
+- 1192 ms, faster than 42.26% of Python3 online submissions for Maximum Subarray.
 
 ### Memory Usage
 
-- 27.7 MB, less than 97.93% of Python3 online submissions for Maximum Subarray.
+- 27.7 MB, less than 97.93% of Python3 online submissions for Maximum Subarray.
 
 ## Complexity Analysis
 
