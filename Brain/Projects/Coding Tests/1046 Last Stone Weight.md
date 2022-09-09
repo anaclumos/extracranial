@@ -7,16 +7,16 @@ Solved at: [[2022-08-30]]
 
 ## Question
 
-You are given an array of integers `stones` where `stones[i]` is the weight of the `ith` stone.
+You are given an array of integers `stones` where `stones[i]` is the weight of the `ith` stone.
 
-We are playing a game with the stones. On each turn, we choose the **heaviest two stones** and smash them together. Suppose the heaviest two stones have weights `x` and `y` with `x <= y`. The result of this smash is:
+We are playing a game with the stones. On each turn, we choose the **heaviest two stones** and smash them together. Suppose the heaviest two stones have weights `x` and `y` with `x <= y`. The result of this smash is:
 
-- If `x == y`, both stones are destroyed, and
-- If `x != y`, the stone of weight `x` is destroyed, and the stone of weight `y` has new weight `y - x`.
+- If `x == y`, both stones are destroyed, and
+- If `x != y`, the stone of weight `x` is destroyed, and the stone of weight `y` has new weight `y - x`.
 
-At the end of the game, there is **at most one** stone left.
+At the end of the game, there is **at most one** stone left.
 
-Return *the weight of the last remaining stone*. If there are no stones left, return `0`.
+Return _the weight of the last remaining stone_. If there are no stones left, return `0`.
 
 ## Solution
 
@@ -62,8 +62,8 @@ class Solution:
 
 ### Runtime
 
-75 ms, faster than 5.53% of Python3 online submissions for Last Stone Weight.
+75 ms, faster than 5.53% of Python3 online submissions for Last Stone Weight.
 
 ### Memory Usage
 
-14 MB, less than 14.37% of Python3 online submissions for Last Stone Weight.
+14 MB, less than 14.37% of Python3 online submissions for Last Stone Weight.

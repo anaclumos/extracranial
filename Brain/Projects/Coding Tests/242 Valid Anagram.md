@@ -7,9 +7,9 @@ Solved at: [[2022-09-04]]
 
 ## Question
 
-Given two strings `s` and `t`, return `true` *if* `t` *is an anagram of* `s`*, and* `false` *otherwise*.
+Given two strings `s` and `t`, return `true` _if_ `t` _is an anagram of_ `s`_, and_ `false` _otherwise_.
 
-An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
 ## Solution
 
@@ -23,11 +23,11 @@ class Solution:
 
 ### Runtime
 
-- 129 ms, faster than 6.44% of Python3 online submissions for Valid Anagram.
+- 129 ms, faster than 6.44% of Python3 online submissions for Valid Anagram.
 
 ### Memory Usage
 
-- 15.1 MB, less than 11.95% of Python3 online submissions for Valid Anagram.
+- 15.1 MB, less than 11.95% of Python3 online submissions for Valid Anagram.
 
 ## Complexity Analysis
 
