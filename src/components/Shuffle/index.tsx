@@ -13,7 +13,11 @@ const Index = (props: Props) => {
   const shuffledChildren = React.Children.toArray(
     children
   ).sort(() => 0.5 - Math.random())
-  return <>{shuffledChildren}</>
+  return React.cloneElement(
+    props.children as React.ReactElement,
+    props.children.props,
+    shuffledChildren
+  )
 }
 
 export default Index
