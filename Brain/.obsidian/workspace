@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Quoridor Game.md",
+            "file": "Projects/Old Fashioned Camera.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Quoridor Game.md",
+                "file": "Projects/Old Fashioned Camera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Quoridor Game.md"
+                "file": "Projects/Old Fashioned Camera.md"
               }
             }
           },
@@ -125,15 +125,15 @@
   },
   "active": "840ee1eb0482405d",
   "lastOpenFiles": [
-    "Projects/PEOPLE/A480C6.md",
-    "Projects/PEOPLE/392196.md",
-    "Projects/PEOPLE/PEOPLE.md",
-    "Journals/2022-09-08.md",
-    "Research/InterviewKit.md",
-    "Projects/PEOPLE/1B5A5B.md",
-    "Projects/PEOPLE/88B488.md",
-    "Templates/person.md",
-    "Projects/Alphanumeric.md",
-    "Templates/journal.md"
+    "Projects/CalliFontia.md",
+    "Projects/Someday/OGIaaS.md",
+    "Projects/Someday/Alphanumeric.md",
+    "Projects/Someday/Quoridor Game.md",
+    "Projects/Done/Separation of Computer Scientists and Computer Technologists.md",
+    "Projects/Someday/Cube.md",
+    "Projects/Someday/Better Aldehyde.md",
+    "Projects/Someday/Better Docusaurus.md",
+    "Projects/Someday/Better Obsidian/Developing Review Notes for Obsidian.md",
+    "Projects/PEOPLE/A480C6.md"
   ]
 }
