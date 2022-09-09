@@ -7,8 +7,13 @@
         "id": "f179b0f8364cd55f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/PEOPLE/PEOPLE.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/PEOPLE/PEOPLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/PEOPLE/PEOPLE.md"
+              }
             }
           },
           {
@@ -117,6 +125,7 @@
   },
   "active": "f179b0f8364cd55f",
   "lastOpenFiles": [
+    "Journals/2022-09-08.md",
     "Projects/PEOPLE/A480C6.md",
     "Projects/PEOPLE/PEOPLE.md",
     "Projects/Old Fashioned Camera.md",
@@ -125,7 +134,6 @@
     "Projects/Someday/Alphanumeric.md",
     "Projects/Someday/Quoridor Game.md",
     "Projects/Done/Separation of Computer Scientists and Computer Technologists.md",
-    "Projects/Someday/Cube.md",
-    "Projects/Someday/Better Aldehyde.md"
+    "Projects/Someday/Cube.md"
   ]
 }
