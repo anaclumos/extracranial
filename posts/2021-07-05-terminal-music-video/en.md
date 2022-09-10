@@ -149,7 +149,7 @@ You can use iTerm2 or VS Code's integrated terminal to see the full color.
 
 ---
 
-## Converting any video into a series of images
+## 3. Converting any video into a series of images
 
 I planned to experiment with different dimensions with the same image, so I wanted to cache the images physically.
 I decided to use Python OpenCV to do this.
