@@ -5,6 +5,16 @@ slug: '/75CB18'
 
 ## For 2023
 
+### [Akuna Capital C++](https://akunacapital.com/)
+
+- 10 multiple choice questions
+  - required a deep understanding of C++ recent specs
+- 1 [[greedy]] palindrome substring search
+- 1 adjacency list construction and tree search.
+  - Time limit was very strict, and I wasn't able to finish it
+- 1 [[optimized simulation]] using bitwise operations
+  - Time limit was very strict, and I wasn't able to finish it
+
 ### [Valkyrie Trading](https://www.valkyrietrading.com/)
 
 - 1 binary tree construction & [[binary search]] traversal
