@@ -8,8 +8,6 @@ slug: '/AF848F'
 import YouTube from '@site/src/components/YouTube'
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-![Butter on CC](images/butter-on-cc.png)
-
 OK — I admit.
 The title is slightly misleading.
 You are reading a technical post about converting any video into an ASCII Art text stream that one _can_ play on the terminal.

@@ -8,8 +8,6 @@ slug: '/AF848F'
 import YouTube from '@site/src/components/YouTube'
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-![Butter를 자막에서](images/butter-on-cc.png)
-
 이 글의 목표는 동영상을 점자 패턴 스트림 (Braille Pattern Stream, ⠨⠎⠢⠨⠀⠙⠗⠓⠾⠀⠠⠪⠓⠪⠐⠕⠢)으로 변환하는 방법을 설명하는 것이다.
 점묘화로 만드는 동영상이나 아스키 아트로 만드는 동영상이라고 생각해도 좋을 것이다 (물론 점자는 ASCII가 아닌 Unicode이다.)
 아직 점자 동영상이 무슨 뜻인지 모르겠다면 완성본을 먼저 보자.
