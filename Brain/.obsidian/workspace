@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eb5be5c15d648819",
+        "id": "37883956d79d2928",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/Coding Tests/Coding Tests.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Coding Tests/Coding Tests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Coding Tests/Coding Tests.md"
+              }
             }
           },
           {
@@ -115,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "eb5be5c15d648819",
+  "active": "37883956d79d2928",
   "lastOpenFiles": [
-    "Projects/PEOPLE/PEOPLE.md",
-    "Journals/2022-09-08.md",
-    "Projects/PEOPLE/A480C6.md",
-    "Projects/Old Fashioned Camera.md",
-    "Projects/CalliFontia.md",
-    "Projects/Someday/OGIaaS.md",
-    "Projects/Someday/Alphanumeric.md",
-    "Projects/Someday/Quoridor Game.md",
-    "Projects/Done/Separation of Computer Scientists and Computer Technologists.md",
-    "Projects/Someday/Cube.md"
+    "Journals/2022-08-25.md",
+    "Academics/Academics.md",
+    "Journals/2022-08-23.md",
+    "Projects/Coding Tests/1 Two Sum.md",
+    "Journals/2022-09-09.md",
+    "Readings/경제 개발의 길목에서.md",
+    "Readings/Readings.md",
+    "Projects/Someday/Someday.md",
+    "Projects/Someday/사회과부도.md",
+    "Projects/PEOPLE/PEOPLE.md"
   ]
 }

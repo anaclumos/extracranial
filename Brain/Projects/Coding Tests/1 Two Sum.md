@@ -33,7 +33,7 @@ However, this gives a timeout.
 
 ## Improved
 
-I used [[Python Dictionary]] to store complementing values. [[Python Dictionary]] will have $O(1)$ access time for most cases. This solution will run in $O(n)$ time.
+I used [[Python]] Dictionary to store complementing values. [[Python]] Dictionary will have $O(1)$ access time for most cases. This solution will run in $O(n)$ time.
 
 - One caveat: depending on the hash function, it can go as bad as $O(n^2)$.
 
