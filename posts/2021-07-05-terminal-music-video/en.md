@@ -326,14 +326,11 @@ They use 256 colors, but the third image has more details and gradients.
 Like this, we can adequately locate pixels to represent the image properly.
 
 Dithering is also used in GIF image conversion, so most GIF images show many dotted patterns.
-
 Digital artifacts are also related to ditherings.
 You lose some details when you convert an image to a lower color depth.
 If the dithering happens multiple times, you will get a picture with many artifacts.
 (Of course, digital artifacts have a lot of other causes.
 See [dithering and color banding](https://en.wikipedia.org/wiki/Colour_banding) for more information.)
-
-<YouTube id="JR4KHfqw-oE" />
 
 Monochrome conversion also requires dithering because we are compressing the 16M color space into two colors.
 We can do this with the PIL library mentioned above.
