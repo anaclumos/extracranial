@@ -348,7 +348,7 @@ Can you perceive the difference, especially from 1:33?
 
 ---
 
-## Finalizing
+## Results
 
 I completed the project and uploaded the video to YouTube.
 I aim to study computer graphics and image processing more further.
