@@ -108,14 +108,14 @@ def resize(image: Image.Image, width: int, height: int) -> Image.Image:
 
 이건 사진으로 보는 것이 이해하기가 더 편하다. 왼쪽과 같이 6 × 6 이미지가 있을 경우 너비를 2픽셀, 높이를 3픽셀마다 잘라 2 × 3 이미지로 만든 뒤 이를 점자로 변환한다.
 
-![왼쪽 → 오른쪽 (2021/10/24 업데이트: 우측 하단 점자에 오류가 있습니다.)](images/optimized-braille.001.png)
+![왼쪽 → 오른쪽](images/braille.001.png)
 
 점자 변환 알고리즘의 핵심은 어떻게 픽셀 배열에 해당하는 점자를 정확하게 찾느냐는 것이다.
 가장 단순하게 모든 픽셀 배열 조합을 점자와 매핑해놓는 방법도 있다.
 특히나 2 × 3의 점자는 26개의 조합 밖에 없기 때문이다.
 하지만 유니코드가 점자 규격이 제정될 때 점자가 어떻게 배치되었는지를 이해하면 더 간단하게 나타낼 수 있다.
 
-![참고: Braille Patterns 위키백과, 유니코드 테이블.](images/optimized-braille.002-1.png)
+![참고: Braille Patterns 위키백과, 유니코드 테이블.](images/braille.002.png)
 
 간단한 [유틸 코드](https://github.com/anaclumos/tools-image-to-braille)를 작성해보았다.
 이 코드의 경우 위의 로직을 이용해서 이미지를 리사이징한 뒤 점자로 변환하고 색을 입혀 `terminal`에 점자 배열을 `print`한다.
@@ -316,7 +316,7 @@ resized_image_bw = resized_image.convert("1")  # apply dithering
 
 일단 이렇게 마무리된 프로젝트이다. 코드를 통해서 동영상을 분석하고 제어하는 프로젝트는 꾸준히 진행할 생각이다. 과거에 업로드했던 관련 글을 올리며 글을 마무리한다.
 
-- [동영상 압축과 유체이탈](https://blog.chosunghyun.com/kr-video-ghosting/)
+- [동영상 압축과 유체이탈](https://cho.sh/ko/blog/6B6D29)
 
 ### Butter
 
