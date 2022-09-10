@@ -36,7 +36,7 @@ const isOldPost = (date: string) => {
   const postDate = new Date(date)
   if (
     now.getTime() - postDate.getTime() >
-    365 * 24 * 60 * 60 * 1000
+    365 * 24 * 60 * 60 * 1000 * 2
   ) {
     return true
   }
