@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e13ee26e77463822",
+        "id": "cb137b7229cda096",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -123,10 +123,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "e13ee26e77463822",
+  "active": "cb137b7229cda096",
   "lastOpenFiles": [
-    "Research/Tools for Thought.md",
     "Journals/2022-09-10.md",
+    "Research/Tools for Thought.md",
     "Projects/Coding Tests/Real Exams.md",
     "Projects/Coding Tests/greedy.md",
     "Projects/Coding Tests/Coding Tests.md",
