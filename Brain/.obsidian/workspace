@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9776563c940620ab",
+        "id": "059d2c63786115b7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/Coding Tests/Real Exams.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Coding Tests/Real Exams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Coding Tests/Real Exams.md"
+              }
             }
           },
           {
@@ -115,8 +123,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "9776563c940620ab",
+  "active": "059d2c63786115b7",
   "lastOpenFiles": [
+    "Journals/2022-09-11.md",
     "Journals/2022-09-10.md",
     "Research/Tools for Thought.md",
     "Projects/Coding Tests/Real Exams.md",
@@ -125,7 +134,6 @@
     "Journals/2022-09-09.md",
     "Journals/2022-08-25.md",
     "Academics/Academics.md",
-    "Journals/2022-08-23.md",
-    "Projects/Coding Tests/1 Two Sum.md"
+    "Journals/2022-08-23.md"
   ]
 }
