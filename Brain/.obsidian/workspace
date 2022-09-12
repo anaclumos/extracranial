@@ -7,8 +7,13 @@
         "id": "af29ece540f15189",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Academics/380/Code Quality.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Academics/380/Code Quality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Academics/380/Code Quality.md"
+              }
             }
           },
           {
@@ -117,15 +125,15 @@
   },
   "active": "af29ece540f15189",
   "lastOpenFiles": [
+    "Journals/2022-09-12.md",
     "Journals/2022-09-11.md",
-    "Projects/Off The Record.md",
-    "Projects/Coding Tests/Real Exams.md",
-    "Journals/2022-09-10.md",
-    "Research/Tools for Thought.md",
-    "Projects/Coding Tests/greedy.md",
-    "Projects/Coding Tests/Coding Tests.md",
-    "Journals/2022-09-09.md",
-    "Journals/2022-08-25.md",
-    "Academics/Academics.md"
+    "Templates/display-flex.md",
+    "Templates/grind.md",
+    "Templates/journal.md",
+    "Templates/note.md",
+    "Templates/person.md",
+    "Templates/youtube.md",
+    "Academics/380/Code Quality.md",
+    "Journals/Code Qualit«y.md"
   ]
 }

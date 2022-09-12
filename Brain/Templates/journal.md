@@ -1,9 +1,10 @@
 ---
-title: '{{date:YYYY-MM-DD}}'
 date: '{{date:YYYY-MM-DD}}'
 slug: '/{{date:YYYY-MM-DD}}'
 draft: true
 ---
+
+# {{date:YYYY-MM-DD}}
 
 import WIP from '@site/src/components/WIP'
 

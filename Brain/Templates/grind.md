@@ -1,7 +1,8 @@
 ---
-title: '#{{title}}'
 slug: '{{hex}}'
 ---
+
+# #{{title}}
 
 Solved at: [[{{date:YYYY-MM-DD}}]]
 
