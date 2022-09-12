@@ -5,7 +5,7 @@ slug: '/46ED3F'
 # Code Quality
 
 - Your deltaTime calculation is incorrect.
-- You have basic type and/or pointer member variables that are uninitialized at the construction time of the class. You should initialize these either at the declaration or in the constructor. Note that it's a good practice to do this even if you are later setting them to something else in Initialize.
+- You have basic type and pointer member variables that are uninitialized at the construction time of the class. You should initialize these either at the declaration or in the constructor. Note that it's a good practice to do this even if you are later setting them to something else in Initialize.
 - You have an unused function.
 - You can simplify the logic of your Rects by directly passing in the dimensions as parameters.
 - Make sure to check if your window and renderer were made! (use a nullptr check)
