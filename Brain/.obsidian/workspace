@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5354113384dcbf87",
+        "id": "af29ece540f15189",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/Off The Record.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Off The Record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/Off The Record.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,9 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5354113384dcbf87",
+  "active": "af29ece540f15189",
   "lastOpenFiles": [
     "Journals/2022-09-11.md",
+    "Projects/Off The Record.md",
     "Projects/Coding Tests/Real Exams.md",
     "Journals/2022-09-10.md",
     "Research/Tools for Thought.md",
@@ -133,7 +126,6 @@
     "Projects/Coding Tests/Coding Tests.md",
     "Journals/2022-09-09.md",
     "Journals/2022-08-25.md",
-    "Academics/Academics.md",
-    "Journals/2022-08-23.md"
+    "Academics/Academics.md"
   ]
 }
