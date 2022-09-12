@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Academics/380/Code Quality.md",
+            "file": "Journals/2022-09-12.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,8 +41,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "heapq",
-                "matchingCase": false,
+                "query": "issue",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/380/Code Quality.md",
+                "file": "Journals/2022-09-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academics/380/Code Quality.md"
+                "file": "Journals/2022-09-12.md"
               }
             }
           },
@@ -125,6 +125,8 @@
   },
   "active": "af29ece540f15189",
   "lastOpenFiles": [
+    "Research/Ticket Bounty Model.md",
+    "Journals/2022-08-11.md",
     "Journals/2022-09-12.md",
     "Journals/2022-09-11.md",
     "Templates/display-flex.md",
@@ -132,8 +134,6 @@
     "Templates/journal.md",
     "Templates/note.md",
     "Templates/person.md",
-    "Templates/youtube.md",
-    "Academics/380/Code Quality.md",
-    "Journals/Code Qualit«y.md"
+    "Templates/youtube.md"
   ]
 }
