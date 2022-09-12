@@ -5,6 +5,12 @@ slug: '/75CB18'
 
 ## For 2023
 
+### [Akuna Capital Python](https://akunacapital.com/)
+
+- 1 [[optimized simulation]]
+- 1 text compression & [[optimized simulation]]
+- 1 which seemed greedy (I didn't have the time to solve it)
+
 ### [Akuna Capital C++](https://akunacapital.com/)
 
 - 10 multiple choice questions
