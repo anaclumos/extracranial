@@ -3,6 +3,7 @@
 @import url('./logo.css');
 @import url('./color.css');
 @import url('./font.css');
+@import url('./supplementary-font.css');
 
 
 @media screen and (min-width: 996px) {
