@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "39ceeaec9a7ac2a5",
+        "id": "2f7353292985ba77",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Research/Ignoring $ for Copy-Pasting Online Resources.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -79,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Ignoring $ for Copy-Pasting Online Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Research/Ignoring $ for Copy-Pasting Online Resources.md"
-              }
+              "state": {}
             }
           },
           {
@@ -124,11 +116,11 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "39ceeaec9a7ac2a5",
+  "active": "2f7353292985ba77",
   "lastOpenFiles": [
+    "Research/Ignoring $ for Copy-Pasting Online Resources.md",
     "Templates/grind.md",
     "Journals/2022-09-12.md",
-    "Research/Ignoring $ for Copy-Pasting Online Resources.md",
     "Journals/2022-09-11.md",
     "Research/NaaS Model.md",
     "Research/Ticket Bounty Model.md",
