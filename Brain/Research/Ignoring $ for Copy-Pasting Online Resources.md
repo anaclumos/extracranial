@@ -12,4 +12,4 @@ alias "$"=""
 
 Add this to your `.bashrc` or `.zshrc`. Restart Terminal.
 
-![[Pasted image 20220912225142.png]]
+![[Pasted image 20220913001354.png]]
