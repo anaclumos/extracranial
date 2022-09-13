@@ -1,8 +1,7 @@
 ---
+title: Person #{{title}}
 slug: '/{{title}}'
 ---
-
-# Person #{{title}}
 
 - Interviewed at: [[{{date:YYYY-MM-DD}}]]
 - Currently works at
