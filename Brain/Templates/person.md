@@ -1,5 +1,5 @@
 ---
-title: Person #{{title}}
+title: 'Person #{{title}}'
 slug: '/{{title}}'
 ---
 
