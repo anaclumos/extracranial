@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ba0fce404b580176",
+        "id": "660370dd6c7fb308",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/PEOPLE/PEOPLE.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/PEOPLE/PEOPLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/PEOPLE/PEOPLE.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "ba0fce404b580176",
+  "active": "660370dd6c7fb308",
   "lastOpenFiles": [
-    "Journals/2022-09-13.md",
-    "Projects/PEOPLE/CC8297.md",
-    "Projects/PEOPLE/PEOPLE.md",
     "Templates/person.md",
+    "Projects/PEOPLE/392196.md",
+    "Projects/PEOPLE/A480C6.md",
+    "Projects/PEOPLE/PEOPLE.md",
+    "Projects/PEOPLE/CC8297.md",
+    "Journals/2022-09-13.md",
     "Research/InterviewKit.md",
     "Research/ACSM.md",
     "Research/Ignoring $ for Copy-Pasting Online Resources.md",
-    "Journals/2022-09-12.md",
-    "Assets/Pasted image 20220913001354.png",
-    "Journals/2022-05-27.md"
+    "Journals/2022-09-12.md"
   ]
 }
