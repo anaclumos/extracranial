@@ -1,5 +1,5 @@
 ---
-slug: '/{{hex}}'
+slug: '/558CF5'
 ---
 
 # Ignoring $ for Copy-Pasting Online Resources
