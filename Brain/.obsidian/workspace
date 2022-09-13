@@ -7,8 +7,13 @@
         "id": "2f7353292985ba77",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Research/Ignoring $ for Copy-Pasting Online Resources.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -53,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -74,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Research/Ignoring $ for Copy-Pasting Online Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Research/Ignoring $ for Copy-Pasting Online Resources.md"
+              }
             }
           },
           {
@@ -118,15 +125,15 @@
   },
   "active": "2f7353292985ba77",
   "lastOpenFiles": [
+    "Journals/2022-09-12.md",
+    "Journals/2022-05-27.md",
     "Research/Ignoring $ for Copy-Pasting Online Resources.md",
     "Templates/grind.md",
-    "Journals/2022-09-12.md",
     "Journals/2022-09-11.md",
     "Research/NaaS Model.md",
     "Research/Ticket Bounty Model.md",
     "Journals/2022-08-11.md",
     "Templates/display-flex.md",
-    "Templates/journal.md",
-    "Templates/note.md"
+    "Templates/journal.md"
   ]
 }
