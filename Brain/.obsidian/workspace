@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "dc9cc8a53211868a",
+        "id": "ba0fce404b580176",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/PEOPLE/CC8297.md",
+            "file": "Projects/PEOPLE/PEOPLE.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/PEOPLE/CC8297.md",
+                "file": "Projects/PEOPLE/PEOPLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/PEOPLE/CC8297.md"
+                "file": "Projects/PEOPLE/PEOPLE.md"
               }
             }
           },
@@ -123,12 +123,12 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "dc9cc8a53211868a",
+  "active": "ba0fce404b580176",
   "lastOpenFiles": [
-    "Projects/PEOPLE/PEOPLE.md",
     "Journals/2022-09-13.md",
-    "Templates/person.md",
     "Projects/PEOPLE/CC8297.md",
+    "Projects/PEOPLE/PEOPLE.md",
+    "Templates/person.md",
     "Research/InterviewKit.md",
     "Research/ACSM.md",
     "Research/Ignoring $ for Copy-Pasting Online Resources.md",
