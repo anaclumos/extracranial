@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "issue",
+                "query": "/{{hex}}",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,6 +126,7 @@
   },
   "active": "39ceeaec9a7ac2a5",
   "lastOpenFiles": [
+    "Templates/grind.md",
     "Journals/2022-09-12.md",
     "Research/Ignoring $ for Copy-Pasting Online Resources.md",
     "Journals/2022-09-11.md",
@@ -132,7 +134,6 @@
     "Research/Ticket Bounty Model.md",
     "Journals/2022-08-11.md",
     "Templates/display-flex.md",
-    "Templates/grind.md",
     "Templates/journal.md",
     "Templates/note.md"
   ]
