@@ -17,3 +17,7 @@
   border-radius: 0;
   border: none;
 }
+
+.allyText {
+  display: none;
+}

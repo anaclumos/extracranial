@@ -40,21 +40,31 @@ const EmojiReplaceableText = (props: Props) => {
           photo === undefined ? (
             text
           ) : border === true ? (
-            <img
-              className={styles.border}
-              src={photo}
-              alt={photoAlt}
-              width="38px"
-              height="38px"
-            />
+            <>
+              <img
+                className={styles.border}
+                src={photo}
+                alt={photoAlt}
+                width="38px"
+                height="38px"
+              />
+              <span className={styles.allyText}>
+                {text}
+              </span>
+            </>
           ) : (
-            <img
-              className={styles.emoji}
-              src={photo}
-              alt={photoAlt}
-              width="38px"
-              height="38px"
-            />
+            <>
+              <img
+                className={styles.emoji}
+                src={photo}
+                alt={photoAlt}
+                width="38px"
+                height="38px"
+              />
+              <span className={styles.allyText}>
+                {text}
+              </span>
+            </>
           )
         ) : (
           <span className={styles.emoji}>{emoji}</span>
