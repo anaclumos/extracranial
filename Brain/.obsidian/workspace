@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "bd7b79a8d3ba9206",
+        "id": "46c00696fba27df3",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "bd7b79a8d3ba9206",
+  "active": "46c00696fba27df3",
   "lastOpenFiles": [
     "Research/Ignoring $ for Copy-Pasting Online Resources.md",
     "Journals/2022-09-12.md",
+    "Journals/2022-09-13.md",
+    "Assets/Pasted image 20220913001354.png",
     "Journals/2022-05-27.md",
     "Templates/grind.md",
     "Journals/2022-09-11.md",
     "Research/NaaS Model.md",
     "Research/Ticket Bounty Model.md",
-    "Journals/2022-08-11.md",
-    "Templates/display-flex.md",
-    "Templates/journal.md"
+    "Journals/2022-08-11.md"
   ]
 }
