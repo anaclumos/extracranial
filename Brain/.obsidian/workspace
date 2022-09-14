@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "34983ec099f15bc6",
+        "id": "a16eb70c905a3d31",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,11 +115,11 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "34983ec099f15bc6",
+  "active": "a16eb70c905a3d31",
   "lastOpenFiles": [
+    "Journals/2022-09-14.md",
     "Projects/PEOPLE/E7CFC5.md",
     "Projects/PEOPLE/PEOPLE.md",
-    "Journals/2022-09-14.md",
     "Journals/2022-09-13.md",
     "Projects/PEOPLE/5DBDAE.md",
     "Templates/display-flex.md",
