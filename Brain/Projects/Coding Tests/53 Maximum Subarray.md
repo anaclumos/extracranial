@@ -1,6 +1,6 @@
 ---
 title: '#53 Maximum Subarray'
-slug: 'A06B20'
+slug: '/A06B20'
 ---
 
 Solved at: [[2022-09-05]]

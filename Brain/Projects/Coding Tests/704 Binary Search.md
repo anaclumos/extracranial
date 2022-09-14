@@ -1,6 +1,6 @@
 ---
 title: '#704 Binary Search'
-slug: '3A1093'
+slug: '/3A1093'
 ---
 
 Solved at: [[2022-09-04]]
