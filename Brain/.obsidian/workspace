@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8bbec2230ab341a7",
+        "id": "acff353242172b42",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/PEOPLE/5DBDAE.md",
+            "file": "Journals/2022-09-13.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/PEOPLE/5DBDAE.md",
+                "file": "Journals/2022-09-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/PEOPLE/5DBDAE.md"
+                "file": "Journals/2022-09-13.md"
               }
             }
           },
@@ -124,11 +124,11 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "8bbec2230ab341a7",
+  "active": "acff353242172b42",
   "lastOpenFiles": [
+    "Projects/PEOPLE/5DBDAE.md",
     "Journals/2022-09-13.md",
     "Projects/PEOPLE/PEOPLE.md",
-    "Projects/PEOPLE/5DBDAE.md",
     "Templates/display-flex.md",
     "Templates/grind.md",
     "Templates/note.md",
