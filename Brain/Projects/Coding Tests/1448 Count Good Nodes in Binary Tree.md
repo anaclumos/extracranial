@@ -1,6 +1,6 @@
 ---
 title: '#1448 Count Good Nodes in Binary Tree'
-slug: '2103F2'
+slug: '/2103F2'
 ---
 
 Solved at: [[2022-08-27]]
