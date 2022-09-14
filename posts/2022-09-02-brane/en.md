@@ -1,9 +1,8 @@
 ---
 title: 'The Web Standard Mini App Problem'
-description: 'I worked as a full-time Mini-App researcher intern at Karrot. This is what I found.'
+description: 'I worked as a full-time Mini App researcher intern at Karrot. This is what I found.'
 authors: anaclumos
 slug: '/A370F3'
-draft: true
 ---
 
 import Admonition from '@theme/Admonition'
@@ -11,13 +10,19 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 # The Web Standard Mini App Problem
 
-I worked as a full-time Mini-App researcher intern at Karrot.
+I worked as a full-time Mini App researcher intern at Karrot.
 This is what I found and learned from it.
 
 ## 0. Mini Apps
 
 **Mini Apps** are a collection of third-party services that runs on top of a native **Super App**.
-You can think like Facebook Games on a Facebook App, developed and maintained by a third-party developer.
+
+:::tip
+Imagine the Shopify app hosting thousands of small shopping mall web apps.
+You sign in once, and you can access all the apps.
+No need to log in, no need to download, no need to update; it goes beyond of Shop Pay, which simply provides a payment gateway.
+There can be a Game Super App that hosts thousands of mini games; a Shopping Super App that hosts thousands of mini shopping malls; a Social Super App that hosts thousands of mini social networks; and so on.
+:::
 
 In the Chinese markets, the so-called BAT (Baidu, Alibaba, and Tencent) have already dominated the market.
 WeChat, the 1st player in the market, already has a Mini App ecosystem of 400M daily active users and 900M monthly active users.
@@ -28,23 +33,22 @@ App Store and Play Store are simply a gateway for downloading WeChat.
 
 Of course, international businesspeople reacted to replicate this outside of China.
 Snap tries to create [Snap Mini](https://developers.snap.com/en-US/minis),
-and Line tries to implement [Line Mini App](https://developers.line.biz/en/services/line-mini-app/).
-
-Karrot, a Korean Unicorn company having 60% of Korean citizen as their user base, also wants to replicate this on the Korean market.
-More information on the Mini App system is out of scope of this post; please refer to Google's in-depth review on Mini Apps.
+and Line tries to implement [Line Mini App](https://developers.line.biz/en/services/line-Mini App/).
+Karrot, a Korean Unicorn company having 60% of Korean citizen as their user base, also wants to become a Super App and create a Mini App environment.
+More information on the Mini App system is out of scope of this post; please refer to [Google's in-depth review](https://web.dev/Mini Apps/) on Mini Apps.
 
 <Admonition type="note" title="So far" icon="💡">
 
-- Karrot wants to make a Mini App environment.
 - Mini App is easy to make (web-like developer experience) while having powerful business effects (app-like user experience).
-- Karrot thinks Mini App as the moonshot for overtaking Kakao — the omnipotent Korean app that every Korean uses.
+- Karrot wants their internal and external partners to provide service through the Mini App inside the Karrot App.
+- Karrot thinks all Super Apps will want to make a Mini App System, and there will be repeated work and fragmented developer experience if all the Super App make their own Mini App system.
 - **Goal**. Figure out a Mini App Model that will succeed in Korea, Japan, United States, United Kingdom, etc (Karrot's business regions)
 
 </Admonition>
 
 ## Background 1. For an abundunt Mini App ecosystem
 
-The previously mentioned BAT have created [their proprietary languages and browsers](https://web.dev/mini-app-markup-styling-and-scripting/)를
+The previously mentioned BAT have created [their proprietary languages and browsers](https://web.dev/Mini App-markup-styling-and-scripting/)를
 which are seemingly inspired by the web.
 Those three companies possess immense platform power;
 they can ask whatever they want to the developers.
@@ -58,7 +62,10 @@ Tell me; why is PWA still stagnating?
 Therefore, a **standard Mini App** should follow the web standard.
 Developers should deploy their web app as Mini App with little to no change.
 
-## 배경 2. 예쁘게 보여주기 위해
+## Background 2. for a beautiful and consisten interface
+
+import WIP from '@site/src/components/WIP'
+<WIP state="translating" />
 
 예쁘게 보여주는 것은 상당히 중요하다.
 특히 권한을 요구하는 화면은 더욱 그렇다.
@@ -153,7 +160,7 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 **새로고침, 즐겨찾기, 이전 페이지, 창닫기의 위치가 변하지 않듯이**
 여러 미니앱에 있어서도 동일한 경험을 주어야 한다.
 이는 내가 번역한
-[미니앱 문서](https://web.dev/mini-app-about/#the-user-experience)에도 언급되어 있다.
+[미니앱 문서](https://web.dev/Mini App-about/#the-user-experience)에도 언급되어 있다.
 이를 위해서는 공통 컴포넌트의 일부를 우리가 주입해야 한다.
 
 ## 배경 5. 빠른 경험을 위해
@@ -247,20 +254,18 @@ GitHub에서 멀쩡해보이는 코드도 NPM에서는 공격 코드가 삽입�
 결과적으로 어떤 형태로든 슈퍼앱의 입장에서는
 미니앱 제작사의 패키지를 직접 받아서
 검수를 하고 다른 코드로 바꿔치지 못하도록 스스로 호스팅해야 한다.
-앱스토어를 운영한다고 생각하면 좋겠다.
-(더 정확하게는 Chrome Extension Store를 운영하는 것에 더 가깝겠다.)
 
 ![근데 이건 이미 개발이 거의 완료되어 별도로 붙일만한 말이 없다.](karrot-mini.png)
 
-## Conclusion
+## 결론
 
-위 모든 문제를 다 해결하면 **제대로 된** 미니앱 플랫폼을 구축할 수 있다.
+위 모든 문제를 다 해결하면 **제대로 된** 미니앱 환경을 구축할 수 있다.
 다만 이제 보면 알 수 있듯이 문제의 난이도가 모두 상당하다.
 특히 나는 인턴 기간 동안 2번과 3번 문제에 집중했지만
-워낙 깊은 영역으로 파고들다 보니 관련 키워드를 검색해도 이미 읽어본 사이트 10개만 나오는 등
-어려움이 많았다.
+워낙 깊은 영역으로 파고들다 보니 관련 키워드를 검색해도
+이미 본 사이트 몇 개만 나오는 등 어려움이 많았다.
 
-I envision a Mini App platform that is
-① international unbound, ② extensible, ③ web standard interoperable, ④ and maximizing its value for both creator and users,
-without being confined in a specific cultural region like China.
-However it seems unlikely to see it in a near future due to its innate technological difficulties.
+중화권과 같이 특수한 환경에 고립되지 않고
+① 국제적으로 자유롭고 ② 확장성 있으며 ③ 웹 표준과 상호 호환되고 ④ 제작자와 사용자의 가치를 극대화하는
+미니앱 환경이 존재하길 바란다.
+다만 기술적 어려움으로 빠른 시일 내에는 만나기 어려울 듯 하다.
