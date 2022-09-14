@@ -3,7 +3,6 @@ title: '웹 표준 미니앱의 어려움'
 description: '당근마켓 인턴 기간 내내 함께 했던 브레인이라는 것의 기술적인 배경과 진척도에 대해'
 authors: anaclumos
 slug: '/A370F3'
-draft: true
 ---
 
 import Admonition from '@theme/Admonition'
@@ -32,14 +31,15 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 Snap은 [Snap Mini](https://developers.snap.com/en-US/minis)라는 프로그램을 개발 중이고,
 Line은 [Line Mini App](https://developers.line.biz/en/services/line-mini-app/)을 만들고 있다.
 당근마켓도 미니앱을 위한 환경을 구축하려고 한다.
-미니앱이 무엇인지, 그 파급력이 무엇인지는 Google의 미니앱 문서를 전부 번역해두었다.
+미니앱이 무엇인지, 그 파급력이 무엇인지는 [Google의 미니앱 문서](https://web.dev/mini-apps/)를 전부 번역해두었다. (PR 대기 중)
 여기서 이야기하기에는 내용이 과하게 길어질테니 해당 문서를 참고하기 바란다.
 
 <Admonition type="note" title="여기까지 정리" icon="💡">
 
-- 당근마켓은 내부/외부의 팀이 당근마켓을 통해 유저에게 서비스를 제공하기를 바란다. 따라서 당근마켓은 슈퍼앱으로서 일종의 미니앱 환경을 만들고 싶어한다.
 - 미니앱은 쉽고 빠른 개발(웹과 유사한 개발 경험)로 최대 비즈니스 효과(모바일 앱 경험)를 제공한다.
-- 당근마켓은 모든 슈퍼앱이 미니앱 환경을 원할것이라고 생각한다.
+- 당근마켓은 내부, 외부의 팀이 당근마켓의 미니앱을 통해 유저에게 서비스를 제공하기를 바란다.
+- 따라서 당근마켓은 슈퍼앱으로서 일종의 미니앱 환경을 만들고 싶어한다.
+- 당근마켓은 모든 슈퍼앱이 미니앱 환경을 원할 것이라고 생각하고, 모든 슈퍼앱이 미니앱 환경을 만든다면 개발자 경험과 사용자 경험이 파편화될 것이라고 생각한다.
 - **목표**. 한국, 일본, 미국, 영국 등에서 성공할 수 있는 미니앱 모델을 만들어라.
 
 </Admonition>
