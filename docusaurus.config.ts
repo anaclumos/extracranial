@@ -13,6 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config: Config = {
   title: 'Sunghyun Cho',
   tagline: 'I am Sunghyun Cho, traveling the WWW.',
+  titleDelimiter: '@',
   url: 'https://cho.sh',
   baseUrl: '/',
   onBrokenLinks: 'warn',
