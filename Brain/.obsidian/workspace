@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "941960a7b15da218",
+        "id": "8bbec2230ab341a7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templates/display-flex.md",
+            "file": "Projects/PEOPLE/5DBDAE.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234
+    "width": 234,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/display-flex.md",
+                "file": "Projects/PEOPLE/5DBDAE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/display-flex.md"
+                "file": "Projects/PEOPLE/5DBDAE.md"
               }
             }
           },
@@ -123,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "941960a7b15da218",
+  "active": "8bbec2230ab341a7",
   "lastOpenFiles": [
+    "Journals/2022-09-13.md",
+    "Projects/PEOPLE/PEOPLE.md",
+    "Projects/PEOPLE/5DBDAE.md",
+    "Templates/display-flex.md",
     "Templates/grind.md",
     "Templates/note.md",
     "Templates/journal.md",
-    "Templates/display-flex.md",
-    "Journals/2022-09-13.md",
     "Projects/Coding Tests/Trie.md",
     "Projects/Coding Tests/simulation.md",
-    "Projects/Coding Tests/Real Exams.md",
-    "Projects/Coding Tests/QuickSelect.md",
-    "Projects/Coding Tests/optimized simulation.md"
+    "Projects/Coding Tests/Real Exams.md"
   ]
 }

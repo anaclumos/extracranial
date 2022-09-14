@@ -1,7 +1,7 @@
 {
   "theme": "system",
-  "interfaceFontFamily": "SF Mono",
-  "textFontFamily": "SF Mono",
+  "interfaceFontFamily": "",
+  "textFontFamily": "Dank Mono",
   "monospaceFontFamily": "Dank Mono",
   "cssTheme": "Minimal",
   "translucency": false,
