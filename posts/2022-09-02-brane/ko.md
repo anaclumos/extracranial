@@ -13,7 +13,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 당근마켓에서 R&D 엔지니어 인턴으로 재직하면서 일한 **웹 표준 미니앱**의 기술적인 배경과 현 진척도에 대해 이야기해보려고 한다.
 
 :::tip
-[당근미니 콘솔](https://console.karrotmini.com/getting-started)을 통해서 지금 바로 미니앱을 만들어볼 수 있다.
+[당근미니 콘솔](https://console.karrotmini.com/getting-started?utm_source=cho.sh&utm_medium=cho.sh&utm_campaign=cho.sh&utm_content=cho.sh&utm_term=cho.sh)을 통해서 지금 바로 미니앱을 만들어볼 수 있다.
 :::
 
 ## 배경 0. 미니앱
@@ -268,7 +268,3 @@ GitHub에서 멀쩡해보이는 코드도 NPM에서는 공격 코드가 삽입�
 ① 국제적으로 자유롭고 ② 확장성 있으며 ③ 웹 표준과 상호 호환되고 ④ 제작자와 사용자의 가치를 극대화하는
 미니앱 환경이 존재하길 바란다.
 다만 기술적 어려움으로 빠른 시일 내에는 만나기 어려울 듯 하다.
-
-:::tip
-[당근미니 콘솔](https://console.karrotmini.com/getting-started)을 통해서 지금 바로 미니앱을 만들어볼 수 있다.
-:::
