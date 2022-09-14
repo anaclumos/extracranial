@@ -1,6 +1,6 @@
 ---
 title: '#215 Kth Largest Element in an Array'
-slug: '5B0F1E'
+slug: '/5B0F1E'
 ---
 
 Solved at: [[2022-08-30]]

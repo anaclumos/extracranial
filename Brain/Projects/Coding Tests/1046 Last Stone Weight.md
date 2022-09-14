@@ -1,6 +1,6 @@
 ---
 title: '#1046 Last Stone Weight'
-slug: 'F74684'
+slug: '/F74684'
 ---
 
 Solved at: [[2022-08-30]]

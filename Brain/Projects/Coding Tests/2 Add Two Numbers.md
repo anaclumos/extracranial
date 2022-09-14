@@ -1,6 +1,6 @@
 ---
 title: '#2 Add Two Numbers'
-slug: 'E3498A'
+slug: '/E3498A'
 ---
 
 Solved at: [[2022-08-27]]

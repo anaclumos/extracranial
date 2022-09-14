@@ -1,6 +1,6 @@
 ---
 title: '#733 Flood Fill'
-slug: '18ED1C'
+slug: '/18ED1C'
 ---
 
 Solved at: [[2022-09-05]]

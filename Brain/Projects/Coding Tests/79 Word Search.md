@@ -1,6 +1,6 @@
 ---
 title: '#79 Word Search'
-slug: 'B950DD'
+slug: '/B950DD'
 ---
 
 Solved at: [[2022-08-26]]

@@ -1,6 +1,6 @@
 ---
 title: '#199 Binary Tree Right Side View'
-slug: '3AEAEA'
+slug: '/3AEAEA'
 ---
 
 Solved at: [[2022-08-27]]
