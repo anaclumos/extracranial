@@ -1,5 +1,6 @@
 ---
 slug: '/{{hex}}'
+draft: true
 ---
 
 # {{title}}
