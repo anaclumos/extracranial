@@ -31,7 +31,7 @@ if __name__ == "__main__":
         with open(md_file, 'w') as f:
             for line in lines:
                 if "{{hex}}" in line:
-                    line = line.replace("{{hex}}", getHex())
+                    line = line.replace("{{hex}}", "/" + getHex())
                     COUNTER += 1
                 f.write(line)
     print("Replaced " + str(COUNTER) + " hex marks.")
