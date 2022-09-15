@@ -12,6 +12,12 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 당근마켓에서 R&D 엔지니어 인턴으로 재직하면서 일한 **웹 표준 미니앱**의 기술적인 배경과 현 진척도에 대해 이야기해보려고 한다.
 
+:::tip
+[당근미니 콘솔](https://console.karrotmini.com)을 통해 웹 표준 미니앱을 만들고 배포할 수 있다.
+아직은 오픈 예정!
+누구보다 빠르게 써보고 싶다면 들어가서 Waitlist에 이름을 올려두자.
+:::
+
 ## 배경 0. 미니앱
 
 미니앱은 슈퍼앱 위에서 구동되는 제3사 서비스들의 집합이다.
