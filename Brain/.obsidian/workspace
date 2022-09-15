@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "427f14de57a9e715",
+        "id": "9ee9291efb13f458",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,8 +115,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "427f14de57a9e715",
+  "active": "9ee9291efb13f458",
   "lastOpenFiles": [
+    "Journals/2022-09-15.md",
     "Journals/2022-09-14.md",
     "Projects/PEOPLE/E7CFC5.md",
     "Projects/PEOPLE/PEOPLE.md",
@@ -125,7 +126,6 @@
     "Templates/display-flex.md",
     "Templates/grind.md",
     "Templates/note.md",
-    "Templates/journal.md",
-    "Projects/Coding Tests/Trie.md"
+    "Templates/journal.md"
   ]
 }
