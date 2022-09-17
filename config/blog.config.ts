@@ -8,6 +8,7 @@ const blog = {
   postsPerPage: 10,
   blogSidebarCount: 10,
   blogSidebarTitle: 'Recent Posts',
+  routeBasePath: '/w',
   remarkPlugins: [math],
   rehypePlugins: [katex],
   authorsMapPath: 'authors.yml',
