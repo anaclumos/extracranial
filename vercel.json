@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/research/:path(.*)",
+      "destination": "/r/:path",
+      "permanent": true
+    },
+    {
+      "source": "blog/:path(.*)",
+      "destination": "w/:path",
+      "permanent": true
+    }
+  ]
+}

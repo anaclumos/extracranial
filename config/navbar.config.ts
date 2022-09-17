@@ -12,7 +12,7 @@ const navbar = {
       label: 'Research Notes',
     },
     {
-      to: '/blog/archive',
+      to: '/w/archive',
       label: 'Blog',
       position: 'left',
     },

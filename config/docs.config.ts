@@ -47,7 +47,7 @@ const sidebarProcessor = (items) => {
 const docs = {
   path: 'docs',
   sidebarPath: require.resolve('./sidebars.js'),
-  routeBasePath: '/research',
+  routeBasePath: '/r',
   breadcrumbs: true,
   sidebarCollapsed: true,
   sidebarCollapsible: true,
