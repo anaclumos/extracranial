@@ -18,7 +18,7 @@ const sidebars = {
     {
       type: 'link',
       label: 'Archive',
-      href: '/blog/archive',
+      href: '/w/archive',
     },
   ],
 }
