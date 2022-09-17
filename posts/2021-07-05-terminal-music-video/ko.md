@@ -314,7 +314,7 @@ resized_image_bw = resized_image.convert("1")  # apply dithering
 
 일단 이렇게 마무리된 프로젝트이다. 코드를 통해서 동영상을 분석하고 제어하는 프로젝트는 꾸준히 진행할 생각이다. 과거에 업로드했던 관련 글을 올리며 글을 마무리한다.
 
-- [동영상 압축과 유체이탈](https://cho.sh/ko/blog/6B6D29)
+- [동영상 압축과 유체이탈](https://cho.sh/ko/w//6B6D29)
 
 ### Butter
 
