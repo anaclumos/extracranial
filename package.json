@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^2.1.0",
+    "@docusaurus/plugin-client-redirects": "^2.1.0",
     "@docusaurus/plugin-google-gtag": "^2.1.0",
     "@docusaurus/plugin-pwa": "^2.1.0",
     "@docusaurus/preset-classic": "^2.1.0",
