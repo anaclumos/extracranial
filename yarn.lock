@@ -1837,6 +1837,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@docusaurus/plugin-client-redirects@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@docusaurus/plugin-client-redirects@npm:2.1.0"
+  dependencies:
+    "@docusaurus/core": 2.1.0
+    "@docusaurus/logger": 2.1.0
+    "@docusaurus/utils": 2.1.0
+    "@docusaurus/utils-common": 2.1.0
+    "@docusaurus/utils-validation": 2.1.0
+    eta: ^1.12.3
+    fs-extra: ^10.1.0
+    lodash: ^4.17.21
+    tslib: ^2.4.0
+  peerDependencies:
+    react: ^16.8.4 || ^17.0.0
+    react-dom: ^16.8.4 || ^17.0.0
+  checksum: 22fb5be28379b92799e596942a4cefc99aeaa036da7d2ca1895439c0470db79d25130daddfc1220d796a16137e6a4adc3e786e5d234a4c329c2be72c6c41f41e
+  languageName: node
+  linkType: hard
+
 "@docusaurus/plugin-content-blog@npm:2.1.0":
   version: 2.1.0
   resolution: "@docusaurus/plugin-content-blog@npm:2.1.0"
@@ -4467,6 +4487,7 @@ __metadata:
   dependencies:
     "@docusaurus/core": ^2.1.0
     "@docusaurus/module-type-aliases": ^2.1.0
+    "@docusaurus/plugin-client-redirects": ^2.1.0
     "@docusaurus/plugin-google-gtag": ^2.1.0
     "@docusaurus/plugin-pwa": ^2.1.0
     "@docusaurus/preset-classic": ^2.1.0
