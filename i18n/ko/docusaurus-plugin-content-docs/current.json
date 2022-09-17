@@ -13,7 +13,7 @@
   },
   "sidebar.sidebar.link.Archive": {
     "message": "비활성",
-    "description": "The label for link Archive in sidebar sidebar, linking to /blog/archive"
+    "description": "The label for link Archive in sidebar sidebar, linking to /w/archive"
   },
   "sidebar.sidebar.category.Readings": {
     "message": "독서록",
