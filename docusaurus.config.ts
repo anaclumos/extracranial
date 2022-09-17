@@ -33,6 +33,23 @@ const config: Config = {
         gtag: analytics.ga4,
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects(existingPath) {
+          if (
+            existingPath.includes('/blog') ||
+            existingPath.includes('/research')
+          ) {
+            return [
+              existingPath.replace('/blog/', '/w/'),
+              existingPath.replace('/research/', '/r/'),
+            ]
+          }
+          return undefined
+        },
+      },
+    ],
   ],
   stylesheets: [katexStylesheet],
   themeConfig: {
