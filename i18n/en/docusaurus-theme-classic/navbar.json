@@ -7,8 +7,8 @@
     "message": "Research Notes",
     "description": "Navbar item with label Research Notes"
   },
-  "item.label.Blog": {
-    "message": "Blog",
-    "description": "Navbar item with label Blog"
+  "item.label.Articles": {
+    "message": "Articles",
+    "description": "Navbar item with label Articles"
   }
 }
