@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1cfbba6da6256a05",
+        "id": "63c75a75c54d9d96",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Journals/2022-09-18.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -41,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "draft",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,8 +53,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-09-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-09-18.md"
-              }
+              "state": {}
             }
           },
           {
@@ -124,8 +115,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "1cfbba6da6256a05",
+  "active": "63c75a75c54d9d96",
   "lastOpenFiles": [
+    "Journals/2022-09-18.md",
     "Academics/310/310.md",
     "Journals/2022-09-17.md",
     "Templates/grind.md",
@@ -134,7 +126,6 @@
     "Academics/310/Componentizing Views.md",
     "Academics/310/Extracting String in Android.md",
     "Academics/310/Centering.md",
-    "Academics/310/Android Equivalent of Div.md",
-    "Journals/2022-09-14.md"
+    "Academics/310/Android Equivalent of Div.md"
   ]
 }
