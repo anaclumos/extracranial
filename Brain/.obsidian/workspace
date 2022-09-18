@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "9ee9291efb13f458",
+        "id": "eb98afef2518e5c5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/Redirects.md",
-            "mode": "preview",
+            "file": "Journals/2022-09-17.md",
+            "mode": "source",
             "backlinks": true,
             "source": true
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "draft",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Redirects.md",
+                "file": "Journals/2022-09-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Redirects.md"
+                "file": "Journals/2022-09-17.md"
               }
             }
           },
@@ -123,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "9ee9291efb13f458",
+  "active": "eb98afef2518e5c5",
   "lastOpenFiles": [
+    "Academics/310/310.md",
     "Journals/2022-09-17.md",
-    "Journals/2022-09-15.md",
+    "Research/Redirects.md",
+    "Academics/310/Adding Space.md",
+    "Academics/310/Componentizing Views.md",
+    "Academics/310/Extracting String in Android.md",
+    "Academics/310/Centering.md",
+    "Academics/310/Android Equivalent of Div.md",
     "Journals/2022-09-14.md",
-    "Projects/PEOPLE/E7CFC5.md",
-    "Projects/PEOPLE/PEOPLE.md",
-    "Journals/2022-09-13.md",
-    "Projects/PEOPLE/5DBDAE.md",
-    "Templates/display-flex.md",
-    "Templates/grind.md",
-    "Templates/note.md"
+    "Journals/2022-09-13.md"
   ]
 }
