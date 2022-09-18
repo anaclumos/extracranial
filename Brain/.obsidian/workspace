@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "63c75a75c54d9d96",
+        "id": "da56eda6ccfe7d0f",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,8 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "63c75a75c54d9d96",
+  "active": "da56eda6ccfe7d0f",
   "lastOpenFiles": [
+    "Academics/353/HTTP.md",
+    "Academics/353/353.md",
     "Journals/2022-09-18.md",
     "Academics/310/310.md",
     "Journals/2022-09-17.md",
@@ -124,8 +126,6 @@
     "Academics/310/Adding Space.md",
     "Research/Redirects.md",
     "Academics/310/Componentizing Views.md",
-    "Academics/310/Extracting String in Android.md",
-    "Academics/310/Centering.md",
-    "Academics/310/Android Equivalent of Div.md"
+    "Academics/310/Extracting String in Android.md"
   ]
 }
