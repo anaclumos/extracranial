@@ -1,6 +1,5 @@
 ---
 slug: '/93024C'
-draft: true
 ---
 
 # Redirects
