@@ -11,9 +11,7 @@ slug: 'E2CAE4'
 
 **우아한테크캠프**는 **배달의민족**을 운영하는 테크 유니콘 기업 **우아한형제들**에서 여름 동안 인턴으로 근무하며 실무와 가까운 개발 및 프로그래밍 공부를 하는 프로그래머 양성 과정이다. 선발 인원은 30명이며 경쟁률은 대략 43대 1이다.
 
-![우아한테크캠프 3기 후기](images/office-7-2.jpeg)
-
-신발은 출입금지 — 일명 **스시바 라운지**. 전망이 좋아 선착순이다.
+![신발은 출입금지 — 일명 **스시바 라운지**. 전망이 좋아 선착순이다.](images/office-7-2.jpeg)
 
 ## 🔋 선발 과정
 
@@ -26,9 +24,7 @@ slug: 'E2CAE4'
 - 교과 과정 이외에 나만의 프로그래밍 학습 방법이 있다면 서술해주세요.
 - 협업의 과정에서 어려움을 겪었던 경험과 그 어려움을 극복하기 위해 어떠한 노력을 했는지 서술해주세요.
 
-![우아한테크캠프 3기 후기](images/image-1.png)
-
-2020년 3기 모집 배너
+![2020년 3기 모집 배너](images/image-1.png)
 
 ### 1차 코딩 테스트
 
@@ -51,9 +47,7 @@ slug: 'E2CAE4'
 - 2차 코딩 테스트 통과자 90명 (3배수)
 - 면접 통과 및 최종 합격자 30명
 
-![우아한테크캠프 3기 후기](images/office-2-4.jpeg)
-
-우아한형제들 면접실의 모습. 원래는 여기에서 면접을 보았어야 했는데 코로나19의 확산으로 Google Meet을 통해 진행되었다.
+![우아한형제들 면접실의 모습. 원래는 여기에서 면접을 보았어야 했는데 코로나19의 확산으로 Google Meet을 통해 진행되었다.](images/office-2-4.jpeg)
 
 ## 🏫 교육 과정
 
@@ -64,12 +58,9 @@ slug: 'E2CAE4'
 - [우리 팀 GitHub](https://github.com/woowa-techcamp-2020/anaclumos-yuda1124-sooojungee-learn-node)
 - [내 블로그 글](https://blog.chosunghyun.com/kr-http-server-without-http-node-module/)
 
-![우아한테크캠프 3기 후기](images/luther-3.jpeg)
-
-![우아한테크캠프 3기 후기](images/luther-2.jpeg)
-
-![우아한테크캠프 3기 후기](images/luther-1.jpeg)
-
+![](images/luther-3.jpeg)
+![](images/luther-2.jpeg)
+![](images/luther-1.jpeg)
 OT가 이루어진 **작은집**. 잠실에 위치해 있다.
 
 1.  로그인을 구현하는 프로젝트를 수행하는 **배민상회 프로젝트** (기간 1주)

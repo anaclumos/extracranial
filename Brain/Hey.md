@@ -16,7 +16,7 @@ If you seek internationalized content, check out my [blog](https://cho.sh/w/arch
 하나의 절대적 원천을 오랜 기간 염원해 왔습니다.
 여기에서 제 최근 관심거리들을 찾아보실 수 있습니다.
 노트는 한국어와 영어로 작성할 것이며 노트를 번역할 계획은 없습니다.
-국제화된 콘텐츠를 찾으신다면 [블로그](https://cho.sh/ko/w/archive)를 확인하시기 바랍니다.
+국제화된 콘텐츠를 찾으신다면 [아티클](https://cho.sh/ko/w/archive)을 확인하시기 바랍니다.
 
 - Avoid deep folder structures.
 - Avoid data pile
