@@ -13,7 +13,7 @@ const navbar = {
     },
     {
       to: '/w/archive',
-      label: 'Blog',
+      label: 'Articles',
       position: 'left',
     },
     {
