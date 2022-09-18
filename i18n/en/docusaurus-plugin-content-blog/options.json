@@ -1,11 +1,11 @@
 {
   "title": {
-    "message": "Blog",
-    "description": "The title for the blog used in SEO"
+    "message": "Articles",
+    "description": "The title for the Articles used in SEO"
   },
   "description": {
-    "message": "Blog",
-    "description": "The description for the blog used in SEO"
+    "message": "Articles",
+    "description": "The description for the Articles used in SEO"
   },
   "sidebar.title": {
     "message": "Recent Posts",
