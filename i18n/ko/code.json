@@ -48,7 +48,7 @@
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "블로그 목록 페이지 이동",
+    "message": "아티클 목록 페이지 이동",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
@@ -60,7 +60,7 @@
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "블로그 글 페이지 이동",
+    "message": "아티클 글 페이지 이동",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
@@ -179,7 +179,7 @@
     "description": "The label alongside a tag list"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "블로그 최근 글 이동",
+    "message": "아티클 최근 글 이동",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
@@ -527,5 +527,9 @@
   },
   "👨🏻‍💻": {
     "message": "👨🏻‍💻"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "태그",
+    "description": "The title of the tag list page"
   }
 }
