@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-09-17.md",
+            "file": "Academics/310/310.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-09-17.md",
+                "file": "Academics/310/310.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-09-17.md"
+                "file": "Academics/310/310.md"
               }
             }
           },
@@ -126,15 +126,15 @@
   },
   "active": "eb98afef2518e5c5",
   "lastOpenFiles": [
-    "Academics/310/310.md",
     "Journals/2022-09-17.md",
-    "Research/Redirects.md",
+    "Templates/grind.md",
     "Academics/310/Adding Space.md",
+    "Academics/310/310.md",
+    "Research/Redirects.md",
     "Academics/310/Componentizing Views.md",
     "Academics/310/Extracting String in Android.md",
     "Academics/310/Centering.md",
     "Academics/310/Android Equivalent of Div.md",
-    "Journals/2022-09-14.md",
-    "Journals/2022-09-13.md"
+    "Journals/2022-09-14.md"
   ]
 }
