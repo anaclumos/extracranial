@@ -23,22 +23,6 @@
     "message": "연구",
     "description": "The label for category Research in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Grind 75": {
-    "message": "Grind 75",
-    "description": "The label for category Grind 75 in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Python": {
-    "message": "Python",
-    "description": "The label for category Python in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Better Obsidian": {
-    "message": "Better Obsidian",
-    "description": "The label for category Better Obsidian in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Brane": {
-    "message": "Brane",
-    "description": "The label for category Brane in sidebar sidebar"
-  },
   "sidebar.sidebar.category.CELLO": {
     "message": "CELLO",
     "description": "The label for category CELLO in sidebar sidebar"
@@ -47,16 +31,44 @@
     "message": "학업",
     "description": "The label for category Academics in sidebar sidebar"
   },
-  "sidebar.sidebar.category.ITP 380: Game Engine Programming": {
-    "message": "ITP 380: Game Engine Programming",
-    "description": "The label for category ITP 380: Game Engine Programming in sidebar sidebar"
+  "sidebar.sidebar.category.Someday": {
+    "message": "Someday",
+    "description": "The label for category Someday in sidebar sidebar"
   },
-  "sidebar.sidebar.category.CSCI 310: Android": {
-    "message": "CSCI 310: Android",
-    "description": "The label for category CSCI 310: Android in sidebar sidebar"
+  "sidebar.sidebar.category.Coding Tests": {
+    "message": "Coding Tests",
+    "description": "The label for category Coding Tests in sidebar sidebar"
   },
-  "sidebar.sidebar.category.CSCI 356: Computer Systems": {
-    "message": "CSCI 356: Computer Systems",
-    "description": "The label for category CSCI 356: Computer Systems in sidebar sidebar"
+  "sidebar.sidebar.category.Project PEOPLE": {
+    "message": "Project PEOPLE",
+    "description": "The label for category Project PEOPLE in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Done": {
+    "message": "Done",
+    "description": "The label for category Done in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Computer Systems": {
+    "message": "Computer Systems",
+    "description": "The label for category Computer Systems in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Internetworking": {
+    "message": "Internetworking",
+    "description": "The label for category Internetworking in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Graphics Engine Programming": {
+    "message": "Graphics Engine Programming",
+    "description": "The label for category Graphics Engine Programming in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Android Programming": {
+    "message": "Android Programming",
+    "description": "The label for category Android Programming in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Better Obsidian": {
+    "message": "Better Obsidian",
+    "description": "The label for category Better Obsidian in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Brane": {
+    "message": "Brane",
+    "description": "The label for category Brane in sidebar sidebar"
   }
 }
