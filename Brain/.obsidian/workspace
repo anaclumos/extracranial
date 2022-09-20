@@ -7,8 +7,13 @@
         "id": "da56eda6ccfe7d0f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Research/How is WASM cross-platform when ASM is not?.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Research/How is WASM cross-platform when ASM is not?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Research/How is WASM cross-platform when ASM is not?.md"
+              }
             }
           },
           {
@@ -115,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "da56eda6ccfe7d0f",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
+    "Journals/2022-09-20.md",
+    "Journals/2022-09-19.md",
+    "Journals/2022-09-18.md",
     "Academics/353/HTTP.md",
     "Academics/353/353.md",
-    "Journals/2022-09-18.md",
     "Academics/310/310.md",
     "Journals/2022-09-17.md",
     "Templates/grind.md",
     "Academics/310/Adding Space.md",
-    "Research/Redirects.md",
-    "Academics/310/Componentizing Views.md",
-    "Academics/310/Extracting String in Android.md"
+    "Research/Redirects.md"
   ]
 }
