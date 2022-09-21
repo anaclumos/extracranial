@@ -5,6 +5,11 @@ slug: '/75CB18'
 
 ## For 2023
 
+### [Akuna Capital — "Front Runner"](https://akunacapital.com/)
+
+- 1 [[optimized simulation]]
+- Passed 5/8 test cases
+
 ### [DRW](https://drw.com/)
 
 - 2 [[optimized simulations]]
