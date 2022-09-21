@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5ab8763caf9cab15",
+        "id": "22ba876dfe74f460",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/Coding Tests/Real Exams.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "2d arr",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Coding Tests/Real Exams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Coding Tests/Real Exams.md"
+              }
             }
           },
           {
@@ -115,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5ab8763caf9cab15",
+  "active": "22ba876dfe74f460",
   "lastOpenFiles": [
+    "Journals/2022-09-21.md",
+    "Projects/Coding Tests/Coding Tests.md",
+    "Projects/Coding Tests/Python.md",
     "Journals/2022-09-20.md",
     "Research/How is WASM cross-platform when ASM is not.md",
     "Journals/2022-09-19.md",
     "Journals/2022-09-18.md",
     "Academics/353/HTTP.md",
     "Academics/353/353.md",
-    "Academics/310/310.md",
-    "Journals/2022-09-17.md",
-    "Templates/grind.md",
-    "Academics/310/Adding Space.md"
+    "Academics/310/310.md"
   ]
 }
