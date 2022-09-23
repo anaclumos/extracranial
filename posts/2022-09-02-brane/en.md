@@ -31,9 +31,9 @@ For Chinese users, the App Store and the Play Store are like Internet Explorer.
 Just as IE only exists to download Chrome, so the App Store and the Play Store are simply gateways for downloading WeChat.
 
 Of course, international businesspeople have reacted by replicating this outside of China.
-Snap tried to create [Snap Mini](https://developers.snap.com/en-US/minis), and Line tried to implement [Line Mini Apps](https://developers.line.biz/en/services/line-Mini App/).
+Snap tried to create [Snap Mini](https://developers.snap.com/en-US/minis), and Line tried to implement [Line Mini Apps](https://developers.line.biz/en/services/line-mini-app/).
 Karrot, a Korean Unicorn company that has 60% of Korean citizens as their user base, also wants to become a Super App and create a Mini App environment.
-Offering more information on the Mini App system is out of the scope of this post; please refer to [Google's in-depth review](https://web.dev/Mini Apps/) on Mini Apps.
+Offering more information on the Mini App system is out of the scope of this post; please refer to [Google's in-depth review](https://web.dev/mini-apps/) on Mini Apps.
 
 <Admonition type="note" title="So far" icon="💡">
 - A Mini App is easy to make (web-like developer experience) while having powerful business effects (app-like user experience).
