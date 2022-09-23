@@ -1,0 +1,27 @@
+.tableOfContents {
+  max-height: calc(
+    100vh - (var(--ifm-navbar-height) + 2rem)
+  );
+  overflow-y: auto;
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 1rem);
+  opacity: var(--unhovered-transparency);
+  border: none;
+}
+
+.tableOfContents:hover {
+  opacity: 1;
+}
+
+.tableOfContents {
+  transition: opacity 0.2s ease-in-out;
+}
+@media (max-width: 996px) {
+  .tableOfContents {
+    display: none;
+  }
+
+  .docItemContainer {
+    padding: 0 0.3rem;
+  }
+}
