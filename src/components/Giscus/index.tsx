@@ -19,7 +19,7 @@ const index = () => {
         emitMetadata="0"
         inputPosition="top"
         strict="1"
-        theme="https://raw.githubusercontent.com/anaclumos/extracranial/main/src/css/giscus.css"
+        theme="https://cho.sh/css/giscus.css"
         lang={i18n.currentLocale}
       />
     </div>
