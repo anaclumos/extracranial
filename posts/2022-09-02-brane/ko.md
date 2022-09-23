@@ -132,7 +132,7 @@ navigator.geolocation.getCurrentPosition()
 
 </DisplayFlex>
 
-## 해결책 1: 어차피 누가 누군지 모른다.
+## 해결책 1. 어차피 누가 누군지 모른다.
 
 99.99%의 웹앱의 경우 그냥 권한이 필요한 곳에 `getCurrentPosition()`할 뿐이지
 그것이 진짜 브라우저에서 실행되는건지는 관심이 아니다.
@@ -186,8 +186,12 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 `iframe` 안에 미니앱을 담아두고
 외부에서는 슈퍼앱의 웹뷰가 서로 다른 데이터를 처리하고
 `prefetch`하는 방식을 생각할 수 있다.
+이 과정에서 iframe 내부의 코드가 외부로 공격 코드를 주입하는 것 등을 막기 위해 `crossOriginIsolated`와
+`Cross-Origin-Opener-Policy`, `Cross-Origin-Embedder-Policy` 헤더 설정이 필요할 것이다.
 
-## 문제 2. 얼음 ❄ 땡
+## 문제 2. 결빙 문제는 어떻게 해결하셨나 🥶?
+
+![얼어붙은 미니앱을 강제종료하는 슈퍼앱](icing.gif)
 
 하지만 여기서 또다른 문제가 발생한다.
 `iframe`은 단일 쓰레드에서 동작한다.
@@ -218,7 +222,7 @@ DOM API와 똑같이 생긴 가짜 DOM을 Worker 안에 내려주고,
 이게 적합한 작업인지 검사할 수 있다면,
 원천적으로 어뷰징을 차단할 수 있다.
 
-## 해결책 3: 미션 임파서블을 찍는다
+## 해결책 3. 미션 임파서블을 찍는다
 
 ![미션 임파서블 4에서 이단 헌트는 테러리스트 두 팀 사이에서 서로 상대방인 척 연기하며 적절하게 유리한 방향으로 교섭을 진행한다.](dom-mission-impossible.png)
 
@@ -230,7 +234,34 @@ BuilderIO 사에서 써드파티 라이브러리 코드를 Worker에 분리할 �
 Partytown은 [Event Prevent Default](https://partytown.builder.io/trade-offs#events-cannot-prevent-default)를 할 수 없다.
 하지만 본질적으로, **미션 임파서블 모델**을 사용해서 가운데에서 적절하게 써드파티 코드를 격리하는 것이 가능하다는 것이다.
 
-## 문제 4: 오프라인 환경에서는 접속이 불가능하다
+## 문제 3.5 동기적 데이터 교환이 불가능하다.
+
+Web Worker 안과 밖은 동기적으로 데이터 교환이 불가능하다.
+동기적 데이터 교환은 상당히 많은 곳에 필요하다.
+예를 들어, 단순한 애니메이션을 그리거나 지도를 표시할 때도
+동기적으로 화면의 픽셀 데이터를 받아와서 다음 프레임을 그려야 한다.
+하지만 Worker 내부에서는 동기적 DOM API를 사용할 수 없으니
+모든 애니메이션 코드가 동작하지 않을 것이다.
+
+## 해결책 3.5 동기적으로 만들면 되지!
+
+기본적으로 비동기적으로 동작하는 JavaScript를 동기적으로 만든다는 뜻은,
+내가 어떤 함수를 호출했을 때
+그 함수의 결과값이 계산되는 동안
+나머지 모든 연산이 정지된 채로 가만히 있는다는 뜻이다.
+기본적으로 JavaScript는 유저 인터랙션이 필수적인 브라우저를 위해 설계되었으므로
+비동기적으로 동작한다.
+
+하지만 여기서 2가지 방법을 사용해서 동기적으로 만들 수 있다.
+
+1. Synchronous XMLHttpRequest
+   - 동기적인 XMLHttpRequest를 가짜로 하나 보내두면 그 결과값이 반환될 때까지 다른 JavaScript 연산을 정지시킬 수 있다. 하지만 Deprecated된 방법이고 약간의 편법에 가까운 내용이다. [Synchronous and asynchronous requests - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests#synchronous_request)
+2. SharedArrayBuffer and Atomics
+   - SharedArrayBuffer는 Web Worker와 Main Thread 사이에서 데이터를 교환할 수 있는 메모리 공간이다. Atomics는 이런 연산을 Thread-Safe하게 만들 수 있게 SharedArrayBuffer에 접근하는 교통 정리를 도와주도록 설계되었다. 하지만 동시에, Atomics를 활용하여 연산을 동기적으로 정지시키는 것도 가능하다.
+
+미니앱의 경우에는 Web Worker를 이미 사용하므로 SharedArrayBuffer와 Atomics를 사용하는 것이 더 적합하다고 판단했다.
+
+## 문제 4. 오프라인 환경에서는 접속이 불가능하다
 
 기존의 웹 환경에서는 오프라인 환경에서 접속이 불가능하다.
 예를 들어 계산기 미니앱이 존재하면,
