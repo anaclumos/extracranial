@@ -208,7 +208,7 @@ Web Workers do not have synchronous data transfer by default.
 Synchronous data transfer is essential for many places; for example, drawing animations or displaying a map on the screen requires it because we need to calculate the pixels on the screen to render the next frame.
 However, since we do not have synchronous DOM APIs inside of Workers, all of the animation codes will not respond.
 
-## 🤝 Problem 3.5. Then Make It Synchronous!
+## 🤝 Solution 3.5. Then Make It Synchronous!
 
 JavaScript was meant to be asynchronous from the beginning due to user interactions.
 That is why we have the notorious triumvirate: callbacks, promise, async/await.
