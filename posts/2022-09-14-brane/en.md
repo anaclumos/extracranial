@@ -154,7 +154,7 @@ If we advance this methodology and implement the Document Object Model in JavaSc
 
 A Mini App is all about a consistent experience.
 It's akin to universal components like Refresh, Favorite, or Close buttons not changing in browsers when you navigate different websites.
-For more information on consistent experiences, please refer to Google's [Mini-App User Experiences](https://web.dev/mini-app-about/#the-user-experience) document.
+For more information on consistent experiences, please refer to Google's [Mini App User Experiences](https://web.dev/mini-app-about/#the-user-experience) document.
 Of course, this consistency will require us to inject standard components.
 
 ## ⚡️ 5. For Snappy Experiences
@@ -166,7 +166,7 @@ This procedure will also require implementing `crossOriginIsolated`, `Cross-Orig
 
 ## 🥶 Problem 2. How'd You Solve the Icing Problem?
 
-![Super App force-quitting frozen Mini-App](icing.gif)
+![Super App force-quitting frozen Mini App](icing.gif)
 
 There's another problem here: The `iframe` works on a single thread, so when the Mini App freezes, the entire Super App will also freeze, including the quit button.
 
@@ -236,6 +236,7 @@ Although we can use progressive web apps to cache the website offline, it also r
 ## 📦 Solution 4. Pack it up!
 
 ![Source: web.dev/web-bundles](Pasted%20image%2020220902223114.png)
+
 There is also a solution.
 Google is already experimenting with [WebBundle](https://github.com/google/webbundle), based on the CBOR file format.
 WebBundle contains all the necessary files for the web, including HTML, CSS, JS, and images, into one file.
