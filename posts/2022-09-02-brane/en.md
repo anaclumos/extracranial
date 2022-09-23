@@ -24,6 +24,19 @@ No need to log in, no need to download, no need to update; it goes beyond Shop P
 There could be a Game Super App that hosts thousands of mini-games, a Shopping Super App that hosts thousands of mini-shopping malls, a Social Super App that hosts thousands of mini-social networks, and so on.
 :::
 
+How is this different from the status quo?
+You can get the best of both worlds;
+deploy it as an app (gets the best retention and metrics) with making a web (simple JavaScript development)
+
+At the same time, you can use Super App's complete account and wallet information (no need to sign up or bother to enter data)
+
+Therefore,
+
+- it is faster than making an app
+- it reaches more demographic than making a web
+- it can target more user base than making an app
+- it guarantees unparalleled reachability, retention, and payment conversions.
+
 The so-called BAT (Baidu, Alibaba, and Tencent) is already dominating the Chinese market.
 WeChat, the first player in the market, already has a Mini App ecosystem of 400 million active daily users and 900 million active monthly users.
 Apple and Google are struggling to maintain their platform power in the Chinese market because of these Mini Apps.
