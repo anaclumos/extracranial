@@ -50,10 +50,12 @@ Karrot, a Korean Unicorn company that has 60% of Korean citizens as their user b
 Offering more information on the Mini App system is out of the scope of this post; please refer to [Google's in-depth review](https://web.dev/mini-apps/) on Mini Apps.
 
 <Admonition type="note" title="So far" icon="💡">
+
 - A Mini App is easy to make (web-like developer experience) while having powerful business effects (app-like user experience).
 - Karrot wants its internal and external partners to provide service through the Mini App within the Karrot App.
 - Karrot thinks that all Super Apps will want to make Mini App Systems and that there will be repeated work and fragmented developer experience if all the Super Apps make their own Mini App systems.
 - **Goal**. Figure out a Mini App Model that will succeed in Korea, Japan, United States, United Kingdom, and so on. (Karrot's business regions)
+
 </Admonition>
 
 ## 🔥 1. For Thriving Mini App Ecosystems
