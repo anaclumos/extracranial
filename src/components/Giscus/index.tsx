@@ -1,8 +1,11 @@
 import React from 'react'
 import Giscus from '@giscus/react'
 import g from './giscus.module.css'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 const index = () => {
+  const { i18n } = useDocusaurusContext()
+
   return (
     <div className={g.giscus}>
       <Giscus
@@ -16,7 +19,7 @@ const index = () => {
         emitMetadata="0"
         inputPosition="top"
         theme="preferred_color_scheme"
-        lang="en"
+        lang={i18n.currentLocale}
       />
     </div>
   )
