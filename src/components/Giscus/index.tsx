@@ -18,7 +18,7 @@ const index = () => {
         reactionsEnabled="1"
         emitMetadata="0"
         inputPosition="top"
-        strict="1"
+        strict="0"
         theme="https://cho.sh/css/giscus.css"
         lang={i18n.currentLocale}
       />
