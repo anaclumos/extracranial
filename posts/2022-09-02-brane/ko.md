@@ -197,7 +197,7 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 
 ## 🕸 해결책 2. 웹에서 멀티쓰레드
 
-<Admonition type="tip" title="JavaScript은 Single-Threaded하지 않나?" icon="🤔">
+<Admonition type="info" title="JavaScript은 Single-Threaded하지 않나?" icon="🤔">
 
 반은 맞고 반은 틀리다.
 

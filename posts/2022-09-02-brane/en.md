@@ -169,7 +169,7 @@ There's another problem here: The `iframe` works on a single thread, so when the
 
 ## 🕸 Solution 2. Multi-threaded Web
 
-<Admonition type="tip" title="Isn't JavaScript Single-Threaded?" icon="🤔">
+<Admonition type="info" title="Isn't JavaScript Single-Threaded?" icon="🤔">
 
 Correct and wrong.
 
