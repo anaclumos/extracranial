@@ -17,7 +17,7 @@ This is what I found and learned from it.
 
 **Mini Apps** are a collection of third-party services that run on top of a native **Super App**.
 
-:::tip
+:::info
 Imagine the Shopify app hosting thousands of small shopping mall web apps.
 You sign in once, and you can access all the apps.
 No need to log in, no need to download, no need to update; it goes beyond Shop Pay, which simply provides a payment gateway.
