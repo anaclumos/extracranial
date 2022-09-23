@@ -31,7 +31,7 @@ A second brain can:
 
 ## Methodology
 
-- Author suggests [CODE](https://cho.sh/research/D6FDF3) procedure.
+- Author suggests [CODE](/r/D6FDF3) procedure.
 
 ### Capture
 
@@ -48,13 +48,13 @@ A second brain can:
 - Do not over-organize.
 - You don't need a sophisticated structure for sophisticated work.
   - For example, tagging takes too much effort.
-- Author suggests [PARA](https://cho.sh/research/B4364B). Refer to the note.
+- Author suggests [PARA](/r/B4364B). Refer to the note.
 
 Organizing was similar to Data Structures in Computer Science.
 If you sort too less, it costs too much to search.
 If you optimize too much for search, sorting takes too long.
 It would be best if you had a middle ground.
-I am skeptical on [PARA](https://cho.sh/research/B4364B).
+I am skeptical on [PARA](/r/B4364B).
 Area and Resource feel redundant.
 I simplified it into Projects, Research, and Readings.
 The author claimed that classifying such things as Readings and Quotes as their own is like organizing food ingredients by their color.

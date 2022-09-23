@@ -352,7 +352,7 @@ Can you perceive the difference, especially from 1:33?
 
 I completed the project and uploaded the video to YouTube.
 I aim to study computer graphics and image processing more further.
-If you are interested in this topic, please check out my previous post: [How Video Compression Works](https://cho.sh/blog/6B6D29)
+If you are interested in this topic, please check out my previous post: [How Video Compression Works](/w/6B6D29)
 
 ### Butter
 

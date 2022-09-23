@@ -7,4 +7,4 @@ slug: '/92B47B'
 
 ## Now Complete
 
-- [Permanently Moved](https://cho.sh/blog/92B47B).
+- [Permanently Moved](/w/92B47B).

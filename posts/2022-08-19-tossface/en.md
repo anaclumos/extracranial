@@ -49,7 +49,7 @@ PUA U+E10A to U+E117 cannot be inputted with the standard keyboard, nor does it 
 Ironic that we finally got the glyphs back but can't type.
 
 So I have created a small website where you can check the glyphs and copy them.
-I call these [Microprojects](https://cho.sh/research/A46FA5).
+I call these [Microprojects](/r/A46FA5).
 They're perfect for trying out new technologies;
 I wanted to try Astro, but it kept giving me unrecognizable errors primarily because the platform was still in an early stage,
 so I used Next.js, Vercel, and Tailwind.
