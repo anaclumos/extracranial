@@ -83,7 +83,7 @@ Which one do you think you will grant? Which one will you decline?
 <DisplayFlex>
 
 ![StarBucks Web](starbucks-web.png)
-![StarBucks Mini-App](starbucks-miniapp.png)
+![StarBucks Mini App](starbucks-miniapp.png)
 ![StarBucks App](starbucks-app.png)
 
 </DisplayFlex>
