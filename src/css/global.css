@@ -42,7 +42,7 @@ figure {
 img {
   margin: 0 auto;
   border-radius: 0.5rem;
-  max-height: 25rem;
+  max-height: 30rem;
   width: auto;
 }
 
@@ -66,4 +66,10 @@ figcaption {
 
 hr {
   border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+table {
+  display: table;
+  margin: auto;
+  min-width: 80%;
 }

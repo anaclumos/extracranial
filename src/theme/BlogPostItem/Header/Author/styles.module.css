@@ -1,0 +1,19 @@
+.author {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  margin: auto;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.link:hover {
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+}
+
+.authorSubtitle {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-500);
+}
