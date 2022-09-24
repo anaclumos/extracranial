@@ -1,16 +1,23 @@
 import createGlobe from 'cobe'
+import { Marker } from 'cobe'
 import React from 'react'
 import { useEffect, useRef } from 'react'
 import styles from './index.module.css'
 import { useSpring } from 'react-spring'
-const seoul = { location: [37.5665, 126.978], size: 0.05 }
-const losangeles = {
+
+const seoul: Marker = {
+  location: [37.5665, 126.978],
+  size: 0.05,
+}
+const losangeles: Marker = {
   location: [34.0522, 241.7563],
   size: 0.05,
 }
 
+const markers: Marker[] = [seoul, losangeles]
+
 export const Globe = () => {
-  const canvasRef = useRef()
+  const canvasRef = useRef(null)
   const pointerInteracting = useRef(null)
   const pointerInteractionMovement = useRef(0)
   const [{ r }, api] = useSpring(() => ({
@@ -22,6 +29,9 @@ export const Globe = () => {
       precision: 0.001,
     },
   }))
+  if (!canvasRef) {
+    return null
+  }
   useEffect(() => {
     let phi = 0
     let width = 0
@@ -43,7 +53,7 @@ export const Globe = () => {
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [121 / 256, 181 / 256, 242 / 256],
       glowColor: [0.5, 0.5, 0.5],
-      markers: [seoul, losangeles],
+      markers: markers,
       onRender: (state) => {
         state.phi = phi + r.get()
         phi += 0.005
