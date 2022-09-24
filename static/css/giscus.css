@@ -3,6 +3,9 @@
  * https://github.com/primer/primitives/blob/main/LICENSE
  */
 
+@import url('../fonts/Pretendard/pretendard-subset.css');
+@import url('../fonts/JetbrainsMono/jetbrainsmono.css');
+
 * {
   --font-family-sans-serif: ui-sans-serif, -apple-system,
     BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard,
