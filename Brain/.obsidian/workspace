@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ced8fae28f702d90",
+        "id": "398422e53ad3ca9d",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,8 +115,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "ced8fae28f702d90",
+  "active": "398422e53ad3ca9d",
   "lastOpenFiles": [
+    "Journals/2022-09-23.md",
     "Journals/2022-09-22.md",
     "Hey.md",
     "Academics/380/Undefined symbol vtable.md",
@@ -125,7 +126,6 @@
     "Projects/Coding Tests/Real Exams.md",
     "Journals/2022-09-21.md",
     "Journals/2022-09-20.md",
-    "Projects/Coding Tests/Python.md",
-    "Research/How is WASM cross-platform when ASM is not.md"
+    "Projects/Coding Tests/Python.md"
   ]
 }
