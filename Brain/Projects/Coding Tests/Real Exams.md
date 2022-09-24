@@ -9,6 +9,11 @@ import WIP from '@site/src/components/WIP'
 
 ## For 2023
 
+### [Grammarly](https://grammarly.com/)
+
+- 1 [[simulation]]
+- 2 [[optimized simulation]]
+
 ### [Duolingo](https://www.duolingo.com/)
 
 - 1 multiple maps problem (simple data analysis & processing)
