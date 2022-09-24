@@ -3,7 +3,21 @@ title: 'Real Exams'
 slug: '/75CB18'
 ---
 
+import WIP from '@site/src/components/WIP'
+
+<WIP />
+
 ## For 2023
+
+### [Duolingo](https://www.duolingo.com/)
+
+- 1 multiple maps problem (simple data analysis & processing)
+- 1 path reduction problem (didn't have enough time)
+
+### [LinkedIn](https://www.linkedin.com/)
+
+- 1 [[optimized simulation]]
+- 1 [[mathematic coding]]
 
 ### [Akuna Capital — "Front Runner"](https://akunacapital.com/)
 
@@ -19,7 +33,7 @@ slug: '/75CB18'
 
 - 1 [[optimized simulation]]
 - 1 text compression & [[optimized simulation]]
-- 1 which seemed greedy (I didn't have the time to solve it)
+- 1, which seemed greedy (I didn't have the time to solve it)
 
 ### [Akuna Capital C++](https://akunacapital.com/)
 
@@ -85,7 +99,3 @@ slug: '/75CB18'
 ### Bloomberg
 
 - [[BFS]]
-
-import WIP from '@site/src/components/WIP'
-
-<WIP />

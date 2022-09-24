@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "398422e53ad3ca9d",
+        "id": "bf29b95bc656e394",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "398422e53ad3ca9d",
+  "active": "bf29b95bc656e394",
   "lastOpenFiles": [
+    "Projects/Coding Tests/Real Exams.md",
+    "Journals/2022-09-24.md",
     "Journals/2022-09-23.md",
     "Journals/2022-09-22.md",
     "Hey.md",
     "Academics/380/Undefined symbol vtable.md",
     "Projects/Coding Tests/Coding Tests.md",
     "Projects/Coding Tests/Real Interviews.md",
-    "Projects/Coding Tests/Real Exams.md",
     "Journals/2022-09-21.md",
-    "Journals/2022-09-20.md",
-    "Projects/Coding Tests/Python.md"
+    "Journals/2022-09-20.md"
   ]
 }
