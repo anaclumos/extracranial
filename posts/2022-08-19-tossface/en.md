@@ -6,12 +6,19 @@ authors: anaclumos
 slug: '/92B47B'
 ---
 
-![tossface.cho.sh](screenshot.png)
+<figure>
 
-- [tossface.cho.sh](https://tossface.cho.sh)
+![ALT: tossface.cho.sh](screenshot.png)
+
+<figcaption>
+
+[tossface.cho.sh](https://tossface.cho.sh)
+
+</figcaption>
+</figure>
 
 :::info
-Thanks, @sudosubin, and the Tossface team, for your consideration for reviving Korean emojis with Unicode PUA tech!
+I would like to thank @sudosubin and the Tossface team for reviving Korean emojis with Unicode PUA!
 :::
 
 ## Background
@@ -59,7 +66,7 @@ so I used Next.js, Vercel, and Tailwind.
 After creating the website, it now looked like a Museum of Korean Culture,
 so I added some text in English and shared it publicly.
 
-![Nationality Break Down](nationality-breakdown.jpg)
+![Page View Nationality Break Down](nationality-breakdown.jpg)
 
 ## Postmortem
 
