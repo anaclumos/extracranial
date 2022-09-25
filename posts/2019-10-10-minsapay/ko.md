@@ -111,7 +111,7 @@ slug: '/3955DC'
 
 나중에 기록을 보며 10시 17분 55초에 결제가 멈춰서 10시 31분 10초에 결제가 다시 되기 시작했다는 것을 알게 되었다. 이전에는 분당 결제가 평균 10회, 많게는 30회도 일어난 반면 복구 직후에는 한동안 결제 빈도가 낮았다는 점이 당연하면서도 흥미롭게 다가왔다. 이 기록이 궁금하다면 [여기](https://github.com/minsapay/transaction-data-2019/blob/master/transactions.csv#L1548)를 보기 바란다.
 
-![](images/optimized-minsapay-transaction-records.png)
+![해당 결제 기록](images/optimized-minsapay-transaction-records.png)
 
 ## Results
 
