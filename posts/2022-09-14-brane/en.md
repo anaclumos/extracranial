@@ -91,7 +91,7 @@ Which one do you think you will grant? Which one will you decline?
 Most users will likely grant our request as we go to the right, given more details.
 A standard Mini App should at least provide the context level of the middle screenshot.
 
-## 📨 For Prettier Web Standard Permission Requests
+## 📨 For Prettier Permission Requests
 
 The geolocation permission requests mentioned above display whenever JavaScript calls the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 It's not magic — executing the following code will prompt the permission request.
