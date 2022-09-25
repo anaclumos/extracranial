@@ -3,7 +3,7 @@ title: '#235 Lowest Common Ancestor of a Binary Search Tree'
 slug: '/AEDE1B'
 ---
 
-Solved at: [[2022-09-25]]
+Solved at: [[2022-09-25]]. Took **17m 09s**
 
 ## Question
 
