@@ -3,9 +3,9 @@
     "message": "Sunghyun Cho",
     "description": "The title in the navbar"
   },
-  "item.label.Research Notes": {
-    "message": "Research Notes",
-    "description": "Navbar item with label Research Notes"
+  "item.label.Research": {
+    "message": "Research",
+    "description": "Navbar item with label Research"
   },
   "item.label.Articles": {
     "message": "Articles",

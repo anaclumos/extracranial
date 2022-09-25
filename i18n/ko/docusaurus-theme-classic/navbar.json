@@ -3,9 +3,9 @@
     "message": "조성현",
     "description": "The title in the navbar"
   },
-  "item.label.Research Notes": {
-    "message": "연구 노트",
-    "description": "Navbar item with label Research Notes"
+  "item.label.Research": {
+    "message": "연구",
+    "description": "Navbar item with label Research"
   },
   "item.label.Articles": {
     "message": "아티클",
