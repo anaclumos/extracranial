@@ -1,5 +1,5 @@
 ---
-title: '{{title}}'
+title: '#{{title}}'
 slug: '{{hex}}'
 draft: true
 ---
