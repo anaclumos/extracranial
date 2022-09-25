@@ -13,15 +13,20 @@
 }
 
 * {
-  --unhovered-transparency: 20%;
+  --unhovered-transparency: 10%;
   --padding: 1rem;
   --border-radius: 0.5rem;
-  --ifm-toc-padding-horizontal: 0.2rem;
-  --ifm-container-width-xl: 1440px;
+  --ifm-toc-padding-horizontal: 0.5rem;
+  --ifm-container-width: 1920px;
+  --ifm-container-width-xl: 1600px;
   --ifm-container-width-lg: 1200px;
   --ifm-container-width-md: 992px;
   --ifm-container-width-sm: 768px;
   --ifm-container-width-xs: 576px;
+}
+
+.table-of-contents {
+  font-size: 1rem;
 }
 
 #divider {
