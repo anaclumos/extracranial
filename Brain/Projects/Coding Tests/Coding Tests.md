@@ -40,7 +40,7 @@ slug: '/D518B0'
 - [x] [[704 Binary Search]]
 - [x] [[733 Flood Fill]]
 - [x] [[53 Maximum Subarray]]
-- [ ] [[235 Lowest Common Ancestor of a Binary Search Tree]]
+- [x] [[235 Lowest Common Ancestor of a Binary Search Tree]]
 - [ ] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)
 - [ ] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
 
