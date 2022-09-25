@@ -58,7 +58,7 @@ Offering more information on the Mini App system is out of the scope of this pos
 
 </Admonition>
 
-## 🔥 For Thriving Mini App Ecosystems
+## 🔥 For Thriving Ecosystems
 
 The previously mentioned BAT have created [their proprietary languages and browsers](https://web.dev/mini-app-markup-styling-and-scripting/), seemingly inspired by the web.
 These three companies possess immense platform power; they can ask whatever they want from the developers.
@@ -68,7 +68,7 @@ If you have other thoughts, why is PWA still stagnating?
 Therefore, a **standard Mini App** should follow the web standard.
 Developers should deploy their web app as a Mini App with little to no change.
 
-## 😻 For Beautiful and Consistent Interfaces
+## 😻 For Beautiful Interfaces
 
 Having a pretty design is much more important than you think.
 This statement is especially true for permission request screens.
