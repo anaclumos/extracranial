@@ -12,7 +12,7 @@ Given a binary tree, determine if it is height-balanced.
 
 For this problem, a height-balanced binary tree is defined as:
 
-> a binary tree in which the left and right subtrees of _every_ node differ in height by no more than 1.
+> a binary tree in which the left and right subtrees of *every* node differ in height by no more than 1.
 
 ## Solution
 
@@ -24,14 +24,14 @@ For this problem, a height-balanced binary tree is defined as:
 #         self.left = left
 #         self.right = right
 class Solution:
-    
+
     def getHeight(self, node):
         if node == None:
             return 0
         l = node.left
         r = node.right
         return max(self.getHeight(l), self.getHeight(r)) + 1
-    
+
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         if root == None:
             return True
@@ -46,16 +46,21 @@ class Solution:
 ## Results
 
 ### Runtime
+
 - 123 ms, faster than 14.05% of Python3 online submissions for Balanced Binary Tree.
 
 ### Memory Usage
+
 - 18.6 MB, less than 90.53% of Python3 online submissions for Balanced Binary Tree.
 
 ## Complexity Analysis
 
-### Time 
-- $O(n \log n)$ because, worst case we might need to travel all nodes while counting their height with $O(n)$
+### Time
+
+- $O(n \log n)$ because worst case, we might need to travel all nodes while counting their height with $O(n)$
+
 ### Space
+
 - $O(n)$ because we require a stack to contain all nodes, worst case.
 
 ## Other Answers Online
