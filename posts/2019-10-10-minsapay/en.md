@@ -47,7 +47,7 @@ The student council still wanted to continue the project. I thought they would o
 
 When I was designing the system, the primary issue was **payment authorization**. The passcode shouldn't be shared with the merchant, while the system could correctly authorize and process the order. The users can only use the deposited money in their accounts. This authorization should happen in real-time. But I couldn't think of a way to nail the real-time authorization with Google Forms. So I asked for more technical details from one student council member. The idea was as follows:
 
-#### Abstract of a Google-Form-Powered Payment System
+Abstract of a Google-Form-Powered Payment System
 
 - Create one Google Form per user. (We have about 400 users in total.)
 - Create QR codes with links to the Google Form. (So it's 400 QR codes in total.)
@@ -60,7 +60,7 @@ When I was designing the system, the primary issue was **payment authorization**
 
 So the idea was to use the Google Form's unique address as a password. Since the merchants are supposed to use incognito mode, there should be a safety layer to protect the user's Google Form address (in theory). They will need to make a deferred payment after the festival. But as a developer, this approach had multiple problems:
 
-#### Potential Problems I found
+### Potential Problems I found
 
 - How are we going to manage all 400 Google Forms?
 - Intended or not, people will lose their wristbands. In that case, we will need to note the owner of the wristband in every Google form to calculate the spending. Can we deliver those QR codes to the correct owner if we do?
@@ -76,7 +76,7 @@ It could work in an ideal situation. But it will accompany a great deal of confu
 
 Fortunately, I met a friend with the same intent—our vision and idea about the project aligned. I explained my previous concept, and we talked to each other and co-developed the actual product. We also met at a cafe several times. I set up and managed the DNS and created the front-end side. Below are the things we thought about while making the product.
 
-#### Details that my team considered
+### Details that my team considered
 
 - We won't be able to use any payment gateway or third-party payment service since we are not officially registered, and we will use it for a single day. Some students don't own smartphones, so we won't be able to use Toss or KakaoPay (Both are well-known P2P payment services in South Korea, just like Venmo). Therefore, there cannot be any devices on the client-side. We would need to install computers on the merchant's side.
 - It is impossible to build a completely automated system. Especially in dealing with cash, we would need some help from the student council and the Department of Finances and Information. Trusted members from the committee will manually count and deposit the money.

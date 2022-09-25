@@ -72,7 +72,7 @@ slug: '/7BF6C2'
     https://smile.cho.sh/question/[id]
     https://smile.cho.sh/video/[id]
 
-#### 예시:
+### 예시:
 
 - [https://smile.cho.sh/question/1](https://smile.cho.sh/question/1)
 - [https://smile.cho.sh/video/1](https://smile.cho.sh/video/1)

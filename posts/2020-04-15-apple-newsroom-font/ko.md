@@ -97,13 +97,9 @@ GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두�
 
 ## 결론
 
-![alt](images/min-SF-demo.png)
+![Apple 제품에서 San Francisco, Apple 산돌고딕 네오, 그리고 SF Mono가 사용될 때](images/min-SF-demo.png)
 
-Apple 제품에서 San Francisco, Apple 산돌고딕 네오, 그리고 SF Mono가 사용될 때
-
-![alt](images/min-Non-SF-demo.png)
-
-비 Apple 제품에서 Inter, Spoqa Han Sans, 그리고 Consolas가 사용될 때. 이 이미지는 MacBook에서 서체만 수정하여 찍은 스크린샷이다.
+![비 Apple 제품에서 Inter, Spoqa Han Sans, 그리고 Consolas가 사용될 때. 이 이미지는 MacBook에서 서체만 수정하여 찍은 스크린샷이다.](images/min-Non-SF-demo.png)
 
 약간의 자간 차이와 글자 두께 차이가 존재한다. SF 폰트들이 대체로 글자가 더 촘촘하며 얇다. 하지만 Apple 제품에서는 @2x 등의 HiDPI 화면이 흔한데 반해 비 Apple 제품에는 HiDPI가 드물기 때문에 두껍고 넓은 폰트는 가독성을 높여주는 장점으로 작용할 것 같았다. 또한 전반적인 느낌이 매우 비슷하다고 생각이 들기 때문에 만족스럽다. 아마 당분간은 이 규칙을 그대로 사용할 것 같다.
 

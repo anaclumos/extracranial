@@ -78,6 +78,6 @@ for iteration in range(DOWNLOAD_ITERATION):
 
 ## 결과
 
-![](images/icons.png)
+![테스트를 해보았을 때 아이콘 5,000개 정도까지는 가뿐하게 다운로드할 수 있었다.](images/icons.png)
 
-테스트를 해보았을 때 아이콘 5,000개 정도까지는 가뿐하게 다운로드할 수 있었다. 다만 The Noun Project API는 API 호출 횟수에 제한이 있으니 이를 염두에 두고 활용하면 좋을 것 같다.
+다만 The Noun Project API는 API 호출 횟수에 제한이 있으니 이를 염두에 두고 활용하면 좋을 것 같다.

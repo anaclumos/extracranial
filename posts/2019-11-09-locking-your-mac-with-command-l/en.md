@@ -11,15 +11,28 @@ The only thing I missed about my Windows computer was locking the screen since I
 
 1. Go to System Preferences.
 
-![](images/Settings.png) 2. Go to **Keyboard → Shortcuts → App Shortcuts** and press **+** at the bottom.
-![](images/KeyboardSettings.png) 3. On your Menu Bar, press the ** Apple Logo**. Check the name of **^Control+⌘Command+Q**. It is responsible for locking your Mac. Remember the name of the menu.
-![](images/MenuBar.png) 4. Go back to the Preference app. Select **All Applications** at Application Setting. Next, enter the Menu Title you have just checked. This title will vary according to your macOS Language Preference. Finally, enter **⌘Command+L** at Keyboard Shortcut. You can enter it here if you want to lock your Mac with Keyboard Shortcut other than **⌘Command+L**. Press Add if you are finished.
-![](images/AddCommandL.png) 5. Now you can see that the same **Lock Screen** option at your menu bar will show the Keyboard Shortcut you just changed.
-![](images/MenuBarAfter.png)
+![Go to System Preferences.](images/Settings.png)
+
+2. Go to **Keyboard → Shortcuts → App Shortcuts** and press **+** at the bottom.
+
+![Keyboard → Shortcuts → App Shortcuts](images/KeyboardSettings.png)
+
+3. On your Menu Bar, press the ** Apple Logo**. Check the name of **^Control+⌘Command+Q**. It is responsible for locking your Mac. Remember the name of the menu.
+
+![Menu Bar](images/MenuBar.png)
+
+4. Go back to the Preference app. Select **All Applications** at Application Setting. Next, enter the Menu Title you have just checked. This title will vary according to your macOS Language Preference. Finally, enter **⌘Command+L** at Keyboard Shortcut. You can enter it here if you want to lock your Mac with Keyboard Shortcut other than **⌘Command+L**. Press Add if you are finished.
+
+![All Applications](images/AddCommandL.png)
+
+5. Now you can see that the same **Lock Screen** option at your menu bar will show the Keyboard Shortcut you just changed.
+
+![Menu Bar After](images/MenuBarAfter.png)
+
 This method works in almost every case. Sometimes, the app will have **⌘Command+L** as its Keyboard Shortcut. One example is the System Preferences app that uses the **⌘Command+L** as going to the Lobby of System Preferences. I have never seen any other cases where **⌘Command+L** doesn't work as expected.
 
 - If some app uses **⌘Command+L** as their default shortcuts, you can set them to some other random shortcuts, clearing the path for the **Lock Screen** shortcut.
 
-![](images/image-3.png)
+![Shortcuts Setting](images/image-3.png)
 
 - You can now click the Touch ID button from macOS Big Sur to lock your Mac.
