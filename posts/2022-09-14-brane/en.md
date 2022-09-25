@@ -14,7 +14,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 I worked as a full-time Mini App researcher intern at Karrot (Korean Unicorn Company 🇰🇷🦄).
 This is what I found and learned from it.
 
-## 📱 0. Mini Apps
+## 📱 Mini Apps
 
 **Mini Apps** are a collection of third-party services that run on top of a native **Super App**.
 
@@ -58,7 +58,7 @@ Offering more information on the Mini App system is out of the scope of this pos
 
 </Admonition>
 
-## 🔥 1. For Thriving Mini App Ecosystems
+## 🔥 For Thriving Mini App Ecosystems
 
 The previously mentioned BAT have created [their proprietary languages and browsers](https://web.dev/mini-app-markup-styling-and-scripting/), seemingly inspired by the web.
 These three companies possess immense platform power; they can ask whatever they want from the developers.
@@ -68,7 +68,7 @@ If you have other thoughts, why is PWA still stagnating?
 Therefore, a **standard Mini App** should follow the web standard.
 Developers should deploy their web app as a Mini App with little to no change.
 
-## 😻 2. For Beautiful and Consistent Interfaces
+## 😻 For Beautiful and Consistent Interfaces
 
 Having a pretty design is much more important than you think.
 This statement is especially true for permission request screens.
@@ -91,7 +91,7 @@ Which one do you think you will grant? Which one will you decline?
 Most users will likely grant our request as we go to the right, given more details.
 A standard Mini App should at least provide the context level of the middle screenshot.
 
-## 📨 3. For Prettier Web Standard Permission Requests
+## 📨 For Prettier Web Standard Permission Requests
 
 The geolocation permission requests mentioned above display whenever JavaScript calls the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 It's not magic — executing the following code will prompt the permission request.
@@ -102,7 +102,7 @@ navigator.geolocation.getCurrentPosition()
 
 Based on backgrounds 1 and 2, we would need to provide a more persuasive and prettier permission request when we execute the above code, based on the Web Standards.
 
-## 🌐 Issue 1. But Isn't That the Browser's Job?
+## 🌐 But Isn't That the Browser's Job?
 
 Yes, displaying such a request screen falls under the browser's responsibility.
 Therefore, we will meet the above permission request if we call the Geolocation API inside a Web View (specifically, WKWebView for iOS).
@@ -115,7 +115,7 @@ So, how can we solve this? Do we plan on making a new browser?
 
 </DisplayFlex>
 
-## 🎭 Fix 1. We don't care who's who
+## 🎭 We don't care who's who
 
 For web apps, 99.99% don't care who's who.
 They call the function wherever they need it.
@@ -150,27 +150,27 @@ I have created a demo website where a cat gif asks for location permission.
 
 If we advance this methodology and implement the Document Object Model in JavaScript, we can inject all behaviors that are deemed suitable for Mini Apps.
 
-## 🗿 4. For Consistent Experiences
+## 🗿 For Consistent Experiences
 
 A Mini App is all about a consistent experience.
 It's akin to universal components like Refresh, Favorite, or Close buttons not changing in browsers when you navigate different websites.
 For more information on consistent experiences, please refer to Google's [Mini App User Experiences](https://web.dev/mini-app-about/#the-user-experience) document.
 Of course, this consistency will require us to inject standard components.
 
-## ⚡️ 5. For Snappy Experiences
+## ⚡️ For Snappy Experiences
 
 Opening and closing different Mini Apps should at least be faster than websites, if not faster than their app versions.
 For this, we would need prefetching policies for Mini Apps.
 We also want data persistency when opening and closing apps so we can contain the Mini App inside an `iframe` and delegate the managing to the Super App's web view.
 This procedure will also require implementing `crossOriginIsolated`, `Cross-Origin-Opener-Policy`, and `Cross-Origin-Embedder-Policy` headers so that the codes inside the iframes will not have access to data outside.
 
-## 🥶 Issue 2. How'd You Solve the Icing Problem?
+## 🥶 How'd You Solve the Icing Problem?
 
 ![Super App force-quitting frozen Mini App](icing.gif)
 
 There's another problem here: The `iframe` works on a single thread, so when the Mini App freezes, the entire Super App will also freeze, including the quit button.
 
-## 🕸 Fix 2. Multi-threaded Web
+## 🕸 Multi-threaded Web
 
 <Admonition type="info" title="Isn't JavaScript Single-Threaded?" icon="🤔">
 
@@ -183,14 +183,14 @@ Correct and wrong.
 
 Then, if we run our `iframe` inside the web worker, the Super App will effectively solve the icing problem.
 
-## 🧑‍🔧 Issue 3. Web Workers Do Not Provide DOM APIs
+## 🧑‍🔧 Web Workers Do Not Provide DOM APIs
 
 Web workers do not have access to DOM APIs.
 However, just like our shimming the Geolocation API, the DOM API is also an Object Model written in JavaScript.
 Therefore, we would effectively solve this problem if we could provide the fake DOM API inside the web worker and mirror the manipulations to the real DOM.
 Also, we can police the manipulations between the two DOM APIs by verifying if this operation is permitted or not.
 
-## 👻 Fix 3. Mission Impossible 4 Ghost Protocol
+## 👻 Mission Impossible 4 Ghost Protocol
 
 ![In the film Mission Impossible 4, the protagonist, Ethan, acts like each other in between two terrorist groups, negotiating them in Ethan's favor.](dom-mission-impossible.png)
 
@@ -202,13 +202,13 @@ Therefore, WorkerDOM cannot make synchronous data transfers (elaborated later).
 Partytown cannot [Event Prevent Default](https://partytown.builder.io/trade-offs#events-cannot-prevent-default).
 But fundamentally, we can use this Mission Impossible model to isolate and quarantine third-party codes.
 
-## 💽 Issue 3.5. No Synchronous Data Exchange
+## 💽 No Synchronous Data Exchange
 
 Web Workers do not have synchronous data transfer by default.
 Synchronous data transfer is essential for many places; for example, drawing animations or displaying a map on the screen requires it because we need to calculate the pixels on the screen to render the next frame.
 However, since we do not have synchronous DOM APIs inside of Workers, all of the animation codes will not respond.
 
-## 🤝 Fix 3.5. Then Make It Synchronous!
+## 🤝 Then Make It Synchronous!
 
 JavaScript was meant to be asynchronous from the beginning due to user interactions.
 That is why we have the notorious triumvirate: callbacks, promise, async/await.
@@ -226,14 +226,14 @@ We can make this synchronous using the following two methods.
       At the same time, it means we can pause the Worker thread, harnessing the power of Atomics.
       Mini Apps already use Web Workers, so using SharedArrayBuffer and Atomics seems more suitable.
 
-## ✂️ Issue 4. Oops, You Got Disconnected
+## ✂️ Oops, You Got Disconnected
 
 We cannot access the regular web environment offline.
 For example, if we have a calculator Mini App, we expect it to work without network access.
 This condition also tightly relates to initial loading speeds.
 Although we can use progressive web apps to cache the website offline, it also requires plenty of initial network requests to cache it, deeming it inefficient.
 
-## 📦 Fix 4. Pack it up!
+## 📦 Pack it up!
 
 ![Source: web.dev/web-bundles](Pasted%20image%2020220902223114.png)
 
@@ -244,7 +244,7 @@ WebBundle is already enabled in Chrome, and Google is experimenting with this te
 But sadly, Google's hidden goal is to disarm and bypass URL-based adblocking technologies.
 [Related Thread](https://news.ycombinator.com/item?id=24274968).
 
-## 🦠 Issue 5. What if it gets malicious code?
+## 🦠 What if it gets malicious code?
 
 A perfectly fine code on GitHub can suddenly become an attacking code in NPM.
 For example, UAParser.js, a popular library marking 40M+ monthly downloads, once got hacked and distributed malicious codes.
