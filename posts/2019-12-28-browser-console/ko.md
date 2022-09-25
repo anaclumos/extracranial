@@ -7,9 +7,7 @@ slug: '/2CF6F4'
 
 페이스북에서 개발자 콘솔을 열면 무시무시한 메시지가 나타난다.
 
-![Facebook Console Warning Message](images/Facebook-Warning.png)
-
-대충 이런 느낌적인 느낌느낌
+![대충 이런 느낌적인 느낌느낌](images/Facebook-Warning.png)
 
 HTML 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. 특정 텍스트를 강조하고 싶다면 다음과 같이 CSS를 정의해주는 것도 가능하다.
 

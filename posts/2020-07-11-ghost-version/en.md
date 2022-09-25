@@ -11,7 +11,9 @@ So, this blog runs on [Ghost](https://github.com/TryGhost/Ghost). At the footer 
 
 Every Ghost blog includes a tag like the following for SEO and statistical reasons unless you manually disabled it.
 
-    <meta name="generator" content="Ghost 3.13">
+```html
+<meta name="generator" content="Ghost 3.13" />
+```
 
 That `content` thing was what I wanted to use. Extract that value with JS.
 

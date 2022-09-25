@@ -59,18 +59,20 @@ Python의 Feedparser라는 모듈을 통해 RSS 피드를 복사한다.
 
 ```python
 # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import feedparser
+
+
 class RSSReader:
-origin = ""
-feed = ""
+    origin = ""
+    feed = ""
 
+    def __init__(self, URL):
+        self.origin = URL
+        self.feed = feedparser.parse(URL)
 
-def __init__(self, URL):
-    self.origin = URL
-    self.feed = feedparser.parse(URL)
-
-def parse(self):
-    return self.feed.entries
+    def parse(self):
+        return self.feed.entries
 ```
 
 RSSReader는 RSS 피드를 불러와 `entries` 항목을 넘기는데 사용된다.
@@ -83,74 +85,7 @@ RSSReader는 RSS 피드를 불러와 `entries` 항목을 넘기는데 사용된�
 `parse()`의 `self.feed`의 구조
 
 ```json
-{'bozo': 0,
-'encoding': 'utf-8',
-'entries': [ /* too long */ ],
-'etag': 'W/"189f1-uakKRnfLpQAFpayEExoSd/9ijMs"',
-'feed': {'generator': 'Ghost 3.13',
-'generator_detail': {'name': 'Ghost 3.13'},
-'image': {'href': 'https://blog.chosunghyun.com/favicon.png',
-'link': 'https://blog.chosunghyun.com/',
-'links': [{'href': 'https://blog.chosunghyun.com/',
-'rel': 'alternate',
-'type': 'text/html'}],
-'title': 'Sunghyun Cho',
-'title_detail': {'base': 'https://blog.chosunghyun.com/rss/',
-'language': None,
-'type': 'text/plain',
-'value': 'Sunghyun Cho'}},
-'link': 'https://blog.chosunghyun.com/',
-'links': [{'href': 'https://blog.chosunghyun.com/',
-'rel': 'alternate',
-'type': 'text/html'},
-{'href': 'https://blog.chosunghyun.com/rss/',
-'rel': 'self',
-'type': 'application/rss+xml'}],
-'subtitle': "Sunghyun Cho's Blog",
-'subtitle_detail': {'base': 'https://blog.chosunghyun.com/rss/',
-'language': None,
-'type': 'text/html',
-'value': "Sunghyun Cho's Blog"},
-'title': 'Sunghyun Cho',
-'title_detail': {'base': 'https://blog.chosunghyun.com/rss/',
-'language': None,
-'type': 'text/plain',
-'value': 'Sunghyun Cho'},
-'ttl': '60',
-'updated': 'Sat, 18 Apr 2020 00:00:00 GMT',
-'updated_parsed': time.struct_time(tm_year=2020, tm_mon=4, tm_mday=18, tm_hour=5, tm_min=19, tm_sec=48, tm_wday=5, tm_yday=109, tm_isdst=0)},
-'headers': {'CF-Cache-Status': 'DYNAMIC',
-'CF-RAY': '??????',
-'Cache-Control': 'public, max-age=0',
-'Connection': 'close',
-'Content-Encoding': 'gzip',
-'Content-Type': 'text/xml; charset=utf-8',
-'Date': 'Mon, 20 Apr 2020 12:00:00 GMT',
-'ETag': 'W/"189f1-uakKRnfLpQAFpayEExoSd/9ijMs"',
-'Expect-CT': 'max-age=604800, '
-'report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-'Server': 'cloudflare',
-'Set-Cookie': '__cfduid=??????; '
-'expires=Wed, 20-May-20 12:21:18 GMT; path=/; '
-'domain=.chosunghyun.com; HttpOnly; SameSite=Lax; '
-'Secure',
-'Strict-Transport-Security': 'max-age=63072000; '
-'includeSubDomains; preload',
-'Transfer-Encoding': 'chunked',
-'Vary': 'Accept-Encoding',
-'X-Content-Type-Options': 'nosniff',
-'X-Frame-Options': 'SAMEORIGIN',
-'X-Powered-By': 'Express',
-'alt-svc': 'h3-27=":443"; ma=86400, h3-25=":443"; ma=86400, '
-'h3-24=":443"; ma=86400, h3-23=":443"; ma=86400',
-'cf-request-id': '??????'},
-'href': 'https://blog.chosunghyun.com/rss/',
-'namespaces': {'': 'http://www.w3.org/2005/Atom',
-'content': 'http://purl.org/rss/1.0/modules/content/',
-'dc': 'http://purl.org/dc/elements/1.1/',
-'media': 'http://search.yahoo.com/mrss/'},
-'status': 200,
-'version': 'rss20'}
+
 ```
 
 이 중 `entries` 에는 RSS 피드의 글들이 `list`의 형식으로 들어있다. 다음 예시는 [이 글](https://blog.chosunghyun.com/apples-easter-egg/)의 RSS이다.
@@ -158,100 +93,73 @@ RSSReader는 RSS 피드를 불러와 `entries` 항목을 넘기는데 사용된�
 `parse()`의 `self.feed.entries`의 구조
 
 ```json
-{'author': 'S Cho',
-              'author_detail': {'name': 'S Cho'},
-              'authors': [{'name': 'S Cho'}],
-              'content': [{'base': 'https://blog.chosunghyun.com/rss/',
-                           'language': None,
-                           'type': 'text/html',
-                           'value': '<figure class="kg-card '
-                                    'kg-embed-card"><iframe width="480" '
-                                    'height="270" '
-                                    'src="https://www.youtube.com/embed/ZA3MV2V--TU?feature=oembed" '
-                                    'frameborder="0" allow="accelerometer; '
-                                    'autoplay; encrypted-media; gyroscope; '
-                                    'picture-in-picture" '
-                                    'allowfullscreen></iframe></figure><p>I '
-                                    'recently found this:</p><figure '
-                                    'class="kg-card kg-image-card"><img '
-                                    'src="https://blog.chosunghyun.com/content/images/2020/01/min-Apple-Ad-Easter-Egg-White.png" '
-                                    'class="kg-image"></figure><pre><code '
-                                    'class="language-YAML">Error 09102019\n'
-                                    '\n'
-                                    'This is just a thought. But it might be '
-                                    'nice to have some sort\n'
-                                    'of easter egg message in here for the '
-                                    'hard core Apple fans that\n'
-                                    'will stop the video.\n'
-                                    '\n'
-                                    '01010011 01101111 00100000 01111001 '
-                                    '01101111 01110101\n'
-                                    '00100000 01110100 01101111 01101111 '
-                                    '01101011 00100000\n'
-                                    '01110100 01101000 01100101 00100000 '
-                                    '01110100 01101001\n'
-                                    '01101101 01100101 00100000 01110100 '
-                                    '01101111 00100000\n'
-                                    '01110100 01110010 01100001 01101110 '
-                                    '01110011 01101100\n'
-                                    '01100001 01110100 01100101 00100000 '
-                                    '01110100 01101000\n'
-                                    '01101001 01110011 00111111 00100000\n'
-                                    '\n'
-                                    '01010111 01100101 00100000 01101100 '
-                                    '01101111 01110110\n'
-                                    '01100101 00100000 01111001 01101111 '
-                                    '01110101 00101110</code></pre><p>So I '
-                                    'made a short script.</p><pre><code '
-                                    'class="language-Python">egg = \'\'\'\n'
-                                    '01010011 01101111 00100000 01111001 '
-                                    '01101111 01110101\n'
-                                    '00100000 01110100 01101111 01101111 '
-                                    '01101011 00100000\n'
-                                    '01110100 01101000 01100101 00100000 '
-                                    '01110100 01101001\n'
-                                    '01101101 01100101 00100000 01110100 '
-                                    '01101111 00100000\n'
-                                    '01110100 01110010 01100001 01101110 '
-                                    '01110011 01101100\n'
-                                    '01100001 01110100 01100101 00100000 '
-                                    '01110100 01101000\n'
-                                    '01101001 01110011 00111111 00100000\n'
-                                    '\n'
-                                    '01010111 01100101 00100000 01101100 '
-                                    '01101111 01110110\n'
-                                    '01100101 00100000 01111001 01101111 '
-                                    '01110101 00101110\n'
-                                    "'''.split()\n"
-                                    '\n'
-                                    'for e in egg:\n'
-                                    '    print(chr(int(e,2)), end="")\n'
-                                    'print()</code></pre><p>It '
-                                    'said...</p><blockquote>So you took the '
-                                    'time to translate this?<br>We love '
-                                    'you.</blockquote>'}],
-              'guidislink': False,
-              'id': '5e248cd5c54b0440a0c1b004',
-              'link': 'https://blog.chosunghyun.com/apples-easter-egg/',
-              'links': [{'href': 'https://blog.chosunghyun.com/apples-easter-egg/',
-                         'rel': 'alternate',
-                         'type': 'text/html'}],
-              'published': 'Sun, 19 Jan 2020 17:00:00 GMT',
-              'published_parsed': time.struct_time(tm_year=2020, tm_mon=1, tm_mday=19, tm_hour=17, tm_min=0, tm_sec=0, tm_wday=6, tm_yday=19, tm_isdst=0),
-              'summary': "Let's decode Apple's 2019 easter egg.",
-              'summary_detail': {'base': 'https://blog.chosunghyun.com/rss/',
-                                 'language': None,
-                                 'type': 'text/html',
-                                 'value': "Let's decode Apple's 2019 easter "
-                                          'egg.'},
-              'tags': [{'label': None, 'scheme': None, 'term': 'English'},
-                       {'label': None, 'scheme': None, 'term': 'Code'},
-                       {'label': None, 'scheme': None, 'term': 'Apple'}],
-              'title': "Apple's Easter Egg",
-              'title_detail': {'base': 'https://blog.chosunghyun.com/rss/',
-                               'language': None,
-                               'type': 'text/plain',
-                               'value': "Apple's Easter Egg"}},
+// 일부 생략
+{
+  "bozo": 0,
+  "encoding": "utf-8",
+  "entries": [],
+  "feed": {
+    "generator": "Ghost 3.13",
+    "generator_detail": {
+      "name": "Ghost 3.13"
+    },
+    "image": {
+      "href": "https://blog.chosunghyun.com/favicon.png",
+      "link": "https://blog.chosunghyun.com/",
+      "links": [
+        {
+          "href": "https://blog.chosunghyun.com/",
+          "rel": "alternate",
+          "type": "text/html"
+        }
+      ],
+      "title": "Sunghyun Cho",
+      "title_detail": {
+        "base": "https://blog.chosunghyun.com/rss/",
+        "language": "None",
+        "type": "text/plain",
+        "value": "Sunghyun Cho"
+      }
+    },
+    "link": "https://blog.chosunghyun.com/",
+    "links": [
+      {
+        "href": "https://blog.chosunghyun.com/",
+        "rel": "alternate",
+        "type": "text/html"
+      },
+      {
+        "href": "https://blog.chosunghyun.com/rss/",
+        "rel": "self",
+        "type": "application/rss+xml"
+      }
+    ],
+    "subtitle": "Sunghyun Cho's Blog",
+    "subtitle_detail": {
+      "base": "https://blog.chosunghyun.com/rss/",
+      "language": "None",
+      "type": "text/html",
+      "value": "Sunghyun Cho;s Blog"
+    },
+    "title": "Sunghyun Cho",
+    "title_detail": {
+      "base": "https://blog.chosunghyun.com/rss/",
+      "language": "None",
+      "type": "text/plain",
+      "value": "Sunghyun Cho"
+    },
+    "ttl": "60",
+    "href": "https://blog.chosunghyun.com/rss/",
+    "namespaces": {
+      "": "http://www.w3.org/2005/Atom",
+      "content": "http://purl.org/rss/1.0/modules/content/",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "media": "http://search.yahoo.com/mrss/",
+      "status": 200,
+      "version": "rss20"
+    }
+  }
+}
 ```
 
 ### 2\. RSS 데이터로 Markdown 파일 만들기
@@ -297,51 +205,51 @@ class MDCreator:
 ```python
 def render(self):
     try:
-    postTitle = str(self.rawData.title)
+        postTitle = str(self.rawData.title)
     except AttributeError:
-    postTitle = "Post Title Unknown"
-    print("Post Title does not exist")
+        postTitle = "Post Title Unknown"
+        print("Post Title does not exist")
     try:
-    postTags = str(
-    self.getValueListOfDictList(self.rawData.tags, "term")
-    )
+        postTags = str(
+            self.getValueListOfDictList(self.rawData.tags, "term")
+        )
     except AttributeError:
-    postTags = "Post Tags Unknown"
-    print("Post Tags does not exist")
+        postTags = "Post Tags Unknown"
+        print("Post Tags does not exist")
     try:
-    postLink = "Post Link Unknown"
-    postLink = str(self.rawData.link)
+        postLink = "Post Link Unknown"
+        postLink = str(self.rawData.link)
     except AttributeError:
-    print("Post Link does not exist")
+        print("Post Link does not exist")
     try:
-    postID = str(self.rawData.id)
+        postID = str(self.rawData.id)
     except AttributeError:
-    postID = "Post ID unknown"
-    print("Post ID does not exist")
+        postID = "Post ID unknown"
+        print("Post ID does not exist")
     try:
-    postAuthors = str(self.rawData.authors)
+        postAuthors = str(self.rawData.authors)
     except AttributeError:
-    postAuthors = "Authors Unknown"
-    print("Authors does not exist")
+        postAuthors = "Authors Unknown"
+        print("Authors does not exist")
     try:
-    postPublished = str(self.rawData.published)
+        postPublished = str(self.rawData.published)
     except AttributeError:
-    postPublished = "Published Date unknown"
-    print("Published Date does not exist")
+        postPublished = "Published Date unknown"
+        print("Published Date does not exist")
     self.renderedData = (
-    "---\nlayout: post\ntitle: "
-    + postTitle
-    + "\ntags: "
-    + postTags
-    + "\nurl: "
-    + postLink
-    + "\nauthors: "
-    + postAuthors
-    + "\npublished: "
-    + postPubli5hed
-    + "\nid: "
-    + postID
-    + "\n---\n"
+        "---\nlayout: post\ntitle: "
+        + postTitle
+        + "\ntags: "
+        + postTags
+        + "\nurl: "
+        + postLink
+        + "\nauthors: "
+        + postAuthors
+        + "\npublished: "
+        + postPublished
+        + "\nid: "
+        + postID
+        + "\n---\n"
     )
 ```
 
@@ -415,7 +323,7 @@ except AttributeError:
 
 [PythonCode](https://www.thepythoncode.com/)의 [How to Download All Images from a Web Page in Python](https://www.thepythoncode.com/article/download-web-page-images-python)을 참고하였다.
 
-```
+```python
 soup = bs(self.renderedData, features="html.parser")
 for img in soup.findAll("img"):
 

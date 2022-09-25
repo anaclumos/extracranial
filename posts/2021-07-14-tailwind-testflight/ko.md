@@ -5,8 +5,6 @@ authors: anaclumos
 slug: '/4B15E0'
 ---
 
-![Tailwind CSS 톺아보기](https://blog.chosunghyun.com/content/images/size/w2000/2021/07/user-email-form-1.png)
-
 ## 프로젝트 목표
 
 - Tailwind CSS를 임의의 TypeScript Next 프로젝트에 적용
@@ -82,7 +80,7 @@ yarn tailwindcss init -p
 
 - 사용하지 않은 Style 코드에 대한 삭제 옵션 추가
 
-```json
+```js
 module.exports = {
   purge: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -97,7 +95,6 @@ module.exports = {
   },
   plugins: [],
 }
-
 ```
 
 - 최종적으로 Tailwind CSS를 `pages/_app.tsx`에 추가
@@ -197,10 +194,6 @@ export default chatbubble
 
 ### 2\. Case Study Card
 
-![위와 같이 Responsive하게 동작함](https://blog.chosunghyun.com/content/images/2021/07/image-7.png)
-
-![Random Cat Image from CatAAS.com](https://blog.chosunghyun.com/content/images/2021/07/image-6.png)
-
 ```ts
 import Image from 'next/image'
 
@@ -253,8 +246,6 @@ export default CaseStudyCard
 - 나머지는 위와 유사
 
 ### 3\. User Email Form
-
-<https://design.cho.sh/tailwind-docs/user-email-form>
 
 ```ts
 const UserEmailForm = () => {
