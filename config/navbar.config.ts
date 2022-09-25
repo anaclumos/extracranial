@@ -9,7 +9,7 @@ const navbar = {
       type: 'doc',
       docId: 'Hey',
       position: 'left',
-      label: 'Research Notes',
+      label: 'Research',
     },
     {
       to: '/w/archive',
