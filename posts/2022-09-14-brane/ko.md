@@ -104,7 +104,7 @@ Line은 [Line Mini App](https://developers.line.biz/en/services/line-mini-app/)�
 보다 더 많은 맥락이 주어지는 오른쪽으로 갈수록 승인할 사용자가 많을 것이다.
 때문에 표준 미니앱은 최소한 가운데만큼의 맥락을 제공할 수 있어야 한다.
 
-## 📨 웹 표준 권한 요구 창을 예쁘게 보여주기 위해
+## 📨 예쁜 권한 요구 창을 위해
 
 앞서 이야기한 예시를 이어보자면 위치 정보 권한 요구 창은 [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)가 불릴 때 발생한다.
 별거 없다.
