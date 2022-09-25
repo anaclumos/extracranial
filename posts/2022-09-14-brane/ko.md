@@ -17,7 +17,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 누구보다 빠르게 써보고 싶다면 들어가서 Waitlist에 이름을 올려두자.
 :::
 
-## 📱 0. 미니앱
+## 📱 미니앱
 
 미니앱은 슈퍼앱 위에서 구동되는 제3사 서비스들의 집합이다.
 
@@ -63,7 +63,7 @@ Line은 [Line Mini App](https://developers.line.biz/en/services/line-mini-app/)�
 
 </Admonition>
 
-## 🔥 1. 많은 미니앱을 위해
+## 🔥 많은 미니앱을 위해
 
 앞서 언급한 BAT의 경우 웹에서 영감을 받은 듯한
 [독자적인 언어와 브라우저](https://web.dev/mini-app-markup-styling-and-scripting/)를
@@ -80,7 +80,7 @@ Line은 [Line Mini App](https://developers.line.biz/en/services/line-mini-app/)�
 이를 위해 표준 미니앱은 웹 표준을 준수해야 한다.
 어떤 웹앱일지라도 약간의 수정을 통해 미니앱으로나 웹앱으로나 코드 변경 없이 동작할 수 있도록 해야한다.
 
-## 😻 2. 예쁘게 보여주기 위해
+## 😻 예쁘게 보여주기 위해
 
 예쁘게 보여주는 것은 상당히 중요하다.
 특히 권한을 요구하는 화면은 더욱 그렇다.
@@ -104,7 +104,7 @@ Line은 [Line Mini App](https://developers.line.biz/en/services/line-mini-app/)�
 보다 더 많은 맥락이 주어지는 오른쪽으로 갈수록 승인할 사용자가 많을 것이다.
 때문에 표준 미니앱은 최소한 가운데만큼의 맥락을 제공할 수 있어야 한다.
 
-## 📨 3. 웹 표준 권한 요구 창을 예쁘게 보여주기 위해
+## 📨 웹 표준 권한 요구 창을 예쁘게 보여주기 위해
 
 앞서 이야기한 예시를 이어보자면 위치 정보 권한 요구 창은 [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)가 불릴 때 발생한다.
 별거 없다.
@@ -116,7 +116,7 @@ navigator.geolocation.getCurrentPosition()
 
 배경 1과 배경 2에 근거해, 위 코드가 실행되었을 시 (웹 표준 방식으로 위치 정보를 요청 시) **사용자를 설득할 수 있는 배경 정보와 디자인을 갖춘 권한 요구창**이 나타나야 한다.
 
-## 🌐 문제 1. 하지만 그것은 브라우저의 영역인데?
+## 🌐 하지만 그것은 브라우저의 영역인데?
 
 저렇게 알림창을 띄우는 것은 브라우저의 영역이다. 때문에,
 웹뷰를 그대로 사용해서 (iOS의 경우 WKWebView) 미니앱을 구동하는 경우
@@ -131,7 +131,7 @@ navigator.geolocation.getCurrentPosition()
 
 </DisplayFlex>
 
-## 🎭 해결책 1. 어차피 누가 누군지 모른다.
+## 🎭 어차피 누가 누군지 모른다
 
 99.99%의 웹앱의 경우 그냥 권한이 필요한 곳에 `getCurrentPosition()`할 뿐이지
 그것이 진짜 브라우저에서 실행되는건지는 관심이 아니다.
@@ -167,7 +167,7 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 즉 DOM 자체를 JavaScript로 구현하여 원하는 부분만 교체하면
 미니앱스러운 경험을 제공할 수 있다.
 
-## 🗿 4. 일관적인 경험을 위해
+## 🗿 일관적인 경험을 위해
 
 미니앱은 일관적인 경험을 주는 것이 중요하다.
 마치 브라우저를 사용할 때
@@ -177,7 +177,7 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 [미니앱 문서](https://web.dev/mini-app-about/#the-user-experience)에도 언급되어 있다.
 이를 위해서는 공통 컴포넌트의 일부를 우리가 주입해야 한다.
 
-## ⚡️ 5. 빠른 경험을 위해
+## ⚡️ 빠른 경험을 위해
 
 서로 다른 미니앱을 열고 닫을 때 빠르게 앱을 열고 닫기 위해
 앱의 데이터를 `prefetch` 해올 수 있다.
@@ -188,7 +188,7 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 이 과정에서 iframe 내부의 코드가 외부로 공격 코드를 주입하는 것 등을 막기 위해 `crossOriginIsolated`와
 `Cross-Origin-Opener-Policy`, `Cross-Origin-Embedder-Policy` 헤더 설정이 필요할 것이다.
 
-## 🥶 문제 2. 결빙 문제는 어떻게 해결하셨나?
+## 🥶 결빙 문제는 어떻게 해결하셨나?
 
 ![얼어붙은 미니앱을 강제종료하는 슈퍼앱](icing.gif)
 
@@ -196,7 +196,7 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 `iframe`은 단일 쓰레드에서 동작한다.
 즉, 미니앱이 멈추면 슈퍼앱의 종료 버튼 또한 먹통이 된다.
 
-## 🕸 해결책 2. 웹에서 멀티쓰레드
+## 🕸 웹에서 멀티쓰레드
 
 <Admonition type="info" title="JavaScript은 Single-Threaded하지 않나?" icon="🤔">
 
@@ -210,7 +210,7 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 그렇다면 Web Worker에서 `iframe`을 구동한다면
 미니앱이 멈추어도 슈퍼앱은 멈추지 않을 것이다.
 
-## 🧑‍🔧 문제 3. Web Worker 안에는 DOM API가 없다
+## 🧑‍🔧 Web Worker 안에는 DOM API가 없다
 
 Web Worker 안에서는 DOM API를 접근할 방법이 없다.
 DOM API라는 것도 결국 말 그대로 JavaScript 기반의 Object Model이기 때문에
@@ -221,7 +221,7 @@ DOM API와 똑같이 생긴 가짜 DOM을 Worker 안에 내려주고,
 이게 적합한 작업인지 검사할 수 있다면,
 원천적으로 어뷰징을 차단할 수 있다.
 
-## 👻 해결책 3. 미션 임파서블을 찍는다
+## 👻 미션 임파서블을 찍는다
 
 ![미션 임파서블 4에서 이단 헌트는 테러리스트 두 팀 사이에서 서로 상대방인 척 연기하며 적절하게 유리한 방향으로 교섭을 진행한다.](dom-mission-impossible.png)
 
@@ -233,7 +233,7 @@ BuilderIO 사에서 써드파티 라이브러리 코드를 Worker에 분리할 �
 Partytown은 [Event Prevent Default](https://partytown.builder.io/trade-offs#events-cannot-prevent-default)를 할 수 없다.
 하지만 본질적으로, **미션 임파서블 모델**을 사용해서 가운데에서 적절하게 써드파티 코드를 격리하는 것이 가능하다는 것이다.
 
-## 💽 문제 3.5. 동기적 데이터 교환이 불가능하다.
+## 💽 동기적 데이터 교환이 불가능하다
 
 Web Worker 안과 밖은 동기적으로 데이터 교환이 불가능하다.
 동기적 데이터 교환은 상당히 많은 곳에 필요하다.
@@ -242,7 +242,7 @@ Web Worker 안과 밖은 동기적으로 데이터 교환이 불가능하다.
 하지만 Worker 내부에서는 동기적 DOM API를 사용할 수 없으니
 모든 애니메이션 코드가 동작하지 않을 것이다.
 
-## 🤝 해결책 3.5. 동기적으로 만들면 되지!
+## 🤝 동기적으로 만들면 되지!
 
 기본적으로 JavaScript는 사용자 반응이 필수적인 브라우저를 위해 설계되었으므로 비동기적으로 동작한다.
 그래서 웹 개발자들을 떨게 만드는 노답 삼형제(Callbacks, Promise, Async/Await)가 있는 것이 아닌가.
@@ -260,7 +260,7 @@ Web Worker 안과 밖은 동기적으로 데이터 교환이 불가능하다.
 
 미니앱의 경우에는 Web Worker를 이미 사용하므로 SharedArrayBuffer와 Atomics를 사용하는 것이 더 적합하다고 판단했다.
 
-## ✂️ 문제 4. 오프라인 환경에서는 접속이 불가능하다
+## ✂️ 오프라인 환경에서는 접속이 불가능하다
 
 기존의 웹 환경에서는 오프라인 환경에서 접속이 불가능하다.
 예를 들어 계산기 미니앱이 존재하면,
@@ -270,7 +270,7 @@ Progressive Web App을 활용하여 오프라인에서 사용할 수 있지만,
 PWA 또한 초기에 수많은 네트워크 요청을 보내서
 웹페이지를 저장해야한다는 점에서 여전히 비효율적이다.
 
-## 📦 해결책 4. 묶어서 한 번에 보낸다
+## 📦 묶어서 한 번에 보낸다
 
 ![출처: web.dev/web-bundles](Pasted%20image%2020220902223114.png)
 
@@ -287,7 +287,7 @@ Google에서 실험적으로 다양하게 연구하고 있는 기능이다.
 URL 기반의 광고 차단 기술을 무력화하기 위한 목적이지만.
 [관련 글타래](https://news.ycombinator.com/item?id=24274968)
 
-## 🦠 문제 5. 악성 코드로 바뀌면 어쩌지?
+## 🦠 악성 코드로 바뀌면 어쩌지?
 
 GitHub에서 멀쩡해보이는 코드도 NPM에서는 공격 코드가 삽입된 채로 존재할 수 있다.
 실제로 월간 4천만번 이상 다운로드되는 UAParser.js 라는 라이브러리의 NPM 저장소가 해킹되어
