@@ -18,7 +18,7 @@ export default function BlogLayout(
           <BlogSidebar sidebar={sidebar} />
           <main
             className={clsx('col', {
-              'col--8': hasSidebar,
+              'col--6': hasSidebar,
               'col--9 col--offset-1': !hasSidebar,
             })}
             itemScope
@@ -26,7 +26,7 @@ export default function BlogLayout(
           >
             {children}
           </main>
-          {toc && <div className="col col--2">{toc}</div>}
+          {toc && <div className="col col--3">{toc}</div>}
         </div>
       </div>
     </Layout>

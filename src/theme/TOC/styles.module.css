@@ -6,7 +6,9 @@
   position: sticky;
   top: calc(var(--ifm-navbar-height) + 1rem);
   opacity: var(--unhovered-transparency);
-  border: none;
+  background-color: var(--ifm-menu-color-background-active);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
 }
 
 .tableOfContents:hover {

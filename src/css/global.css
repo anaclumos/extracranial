@@ -13,7 +13,15 @@
 }
 
 * {
-  --unhovered-transparency: 15%;
+  --unhovered-transparency: 30%;
+  --padding: 1rem;
+  --border-radius: 0.5rem;
+  --ifm-toc-padding-horizontal: 0.2rem;
+  --ifm-container-width-xl: 1440px;
+  --ifm-container-width-lg: 1200px;
+  --ifm-container-width-md: 992px;
+  --ifm-container-width-sm: 768px;
+  --ifm-container-width-xs: 576px;
 }
 
 #divider {
