@@ -5,7 +5,7 @@ authors: anaclumos
 slug: '/3955DC'
 ---
 
-![Building a payment system for school festivals](images/optimized-minsapay-banner-1.JPG)
+![ALT: Hero Image. Building a payment system for school festivals](images/optimized-minsapay-banner-1.JPG)
 
 MinsaPay is a payment system that was built for the Minjok Summer Festival. It works like a prepaid tap-to-pay card. Every source and piece of anonymized transaction data is available on GitHub.
 
@@ -25,9 +25,7 @@ My high school, Korean Minjok Leadership Academy (KMLA), had a summer festival l
 
 Because there were a lot of products being sold, it was hard to use regular paper money (a subsequent analysis by the MinsaPay team confirmed that the total volume of payments reached more than $4,000). So our student council created proprietary money called the **Minjok Festival Notes**. The student council had a dedicated student department act as a bank to publish the notes and monitor the currency's flow. Also, the Minjok Festival Notes acted as festival memorabilia since each year's design was unique.
 
-![Building a payment system for school festivals](images/optimized-minsapay-cash.jpeg)
-
-The Minjok Festival Note design for 2018 had photos of the KMLA student council members at the center of the bill. The yellow one was worth approximately $5.00, the green one was worth $1.00, and the red one was worth 50 cents.
+![The Minjok Festival Note design for 2018 had photos of the KMLA student council members at the center of the bill. The yellow one was worth approximately $5.00, the green one was worth $1.00, and the red one was worth 50 cents.](images/optimized-minsapay-cash.jpeg)
 
 **But there were problems.** First, it was not eco-friendly. Thousands of notes were printed and disposed of annually for just a single day. It was a waste of resources. The water party mentioned above was problematic as well. The student council made Minjok Festival Notes out of nothing special, just ordinary paper. That made the notes extremely vulnerable to water, and students lost a lot of money after the water party. Eventually, the KMLA students sought a way to resolve all of these issues.
 
@@ -94,9 +92,7 @@ We disagreed on two problems.
 
 We chose web and RFID, conceding one for each. I agreed to use RFID after learning that using a camera to read bar codes wasn't that fast or efficient.
 
-![Building a payment system for school festivals](images/optimized-minsapay-mockup-mobile-1.png)
-
-Main Home, Admin Page, and Balance Check Page of the product.
+![Main Home, Admin Page, and Balance Check Page of the product.](images/optimized-minsapay-mockup-mobile-1.png)
 
 ## And it happened
 
@@ -104,17 +100,13 @@ Remember that one of the concerns was about the server going down?
 On the festival day, senior students had to self-study at school. Then at one moment, I found my phone had several missed calls. **The server went down.** I rushed to the festival and sat in a corner, gasping and trying to find the reason. Finally, I realized the server was intact, but the database was not responding.  
 It was an absurd problem. (Well, no problem is absurd, per se, but we couldn't hide our disappointment after figuring out the reason.) We thought the free plan would be more than enough when we constructed our database. However, the payment requests surged and exceeded the database free tier. So we purchased a $9.99 plan, and the database went back to work. It was one of the most nerve-wracking events I ever had.
 
-![Building a payment system for school festivals](images/payment.png)
-
-The moment of upgrading the database plan. $10 can cause such chaos!
+![The moment of upgrading the database plan. $10 can cause such chaos!](images/payment.png)
 
 While the server was down, each booth made a spreadsheet and wrote down who needed to pay how much. Afterward, we settled the problem by opening a new booth for making deferred payments.
 
 The payment log showed that the server went down right after 10:17:55 AM and returned at 10:31:10 AM. It was evident yet intriguing that the payments made per minute were around 10 to 30 before the crash but went down to almost zero right after restoring the server. If you are interested, please look [here](https://github.com/minsapay/transaction-data-2019/blob/master/transactions.csv#L1548).
 
-![Building a payment system for school festivals](images/optimized-minsapay-transaction-records.png)
-
-Due to exceeding the database free tier, the server went down for 13 minutes and 15 seconds after payment #1546.
+![Due to exceeding the database free tier, the server went down for 13 minutes and 15 seconds after payment #1546.](images/optimized-minsapay-transaction-records.png)
 
 ## Results
 
@@ -161,6 +153,4 @@ Lastly, I want to thank everyone who made MinsaPay possible.
 
 Thank you!
 
-![Building a payment system for school festivals](images/optimized-after.png)
-
-👋
+![👋](images/optimized-after.png)

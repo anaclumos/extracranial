@@ -7,13 +7,9 @@ slug: '/7BF6C2'
 
 ## 배경
 
-![취향저격 meme 추천 시스템 개발기](images/optimized-final-720.png)
-
 최근 경쟁률이 매우 높은 (합격률 5% 내외) 교내 기술창업 동아리를 지원하는데 다음과 같은 질문이 있었습니다.
 
-![취향저격 meme 추천 시스템 개발기](images/lossy-lavalab-2.png)
-
-여기서 meme이란 '웃음을 유발하는 짧은 동영상'과 같은 뜻입니다.
+![여기서 meme이란 '웃음을 유발하는 짧은 동영상'과 같은 뜻입니다.](images/lossy-lavalab-2.png)
 
 반드시 들어가고 싶었던 동아리였기에 많은 고민이 들었습니다. 사람마다 관심사와 웃음 코드가 다르며 특정 그룹에게는 웃긴 내용이 다른 그룹에게는 불쾌한 내용으로 다가갈 수 있기 때문입니다.
 
@@ -21,9 +17,9 @@ slug: '/7BF6C2'
 
 ## 🎬 시스템 기획하기
 
-우선 제가 재밌게 본 동영상들을 리스트업했습니다. (틱톡, 트위터, 인스타그램 대신 유튜브를 사용해도 상관 없을 것이라 판단했습니다.) 단톡방에서 `youtu` 키워드로 검색해서 제가 웃기다고 생각한 동영상들을 쉽게 찾을 수 있었습니다.
+우선 제가 재밌게 본 동영상들을 리스트업했습니다. (틱톡, 트위터, 인스타그램 대신 유튜브를 사용해도 상관 없을 것이라 판단했습니다.)
 
-![취향저격 meme 추천 시스템 개발기](images/lossy-katalk-square-1.JPEG)
+![단톡방에서 youtu 키워드로 검색해서 제가 웃기다고 생각한 동영상들을 쉽게 찾을 수 있었습니다.](images/lossy-katalk-square-1.JPEG)
 
 이후 Notion 페이지에서 카테고리별로 분류했습니다. 음악, 영화, 게임, 코딩, 일반적 Meme으로 나눌 수 있었습니다.
 
@@ -45,9 +41,8 @@ slug: '/7BF6C2'
   - 저는 시나리오 트리를 활용해 질문과 답변이 서로 정확하게 들어맞도록 만들어 저와 대화하는 듯한 경험을 주기 위해 노력했습니다.
   - 또한 결과적으로 이 시스템은 "동아리 지원서에 첨부될" 목적입니다.
   - 아무리 재미있는 영상을 추천해준다고 하더라도 제 이름을 기억하지 못하고 영상만 기억하게 된다면 본말이 전도된 것입니다.
-  - 그 과정에서 나는 이 동아리에 꼭 들어가고 싶다!!!라는 느낌을 뿜뿜하게 주고 싶었습니다.
 
-![취향저격 meme 추천 시스템 개발기](images/lossy-directing.png)
+![그 과정에서 나는 이 동아리에 꼭 들어가고 싶다!!!라는 느낌을 뿜뿜하게 주고 싶었습니다.](images/lossy-directing.png)
 
 ## 🥞 기술 스택 결정하기
 
@@ -69,8 +64,10 @@ slug: '/7BF6C2'
 
 각 질문과 동영상은 다음과 같은 URI 구조를 가집니다.
 
-    https://smile.cho.sh/question/[id]
-    https://smile.cho.sh/video/[id]
+```bash
+https://smile.cho.sh/question/[id]
+https://smile.cho.sh/video/[id]
+```
 
 ### 예시:
 
@@ -81,26 +78,28 @@ slug: '/7BF6C2'
 
 TypeScript의 장점을 활용하여 type 구조를 미리 정의했습니다.
 
-    export type Question = {
-      id: number
-      contents: string[]
-      answers: Answer[]
-    }
+```ts
+export type Question = {
+  id: number
+  contents: string[]
+  answers: Answer[]
+}
 
-    export type Answer = {
-    id: number
-    content: string
-    result: number | null
-    nextQuestion: number | null
-    }
+export type Answer = {
+  id: number
+  content: string
+  result: number | null
+  nextQuestion: number | null
+}
 
-    export type Video = {
-    id: number
-    title: string
-    uploader: string
-    desc: string
-    youtubeId: string
-    }
+export type Video = {
+  id: number
+  title: string
+  uploader: string
+  desc: string
+  youtubeId: string
+}
+```
 
 `type Answer`에서 `result`와 `nextQuestion`은 둘 중 한 쪽만 값을 가질 수 있습니다. 이를 바탕으로 링크를 생성합니다. 이렇게 2가지로 별도의 필드를 통해 `question`과 `video`를 혼동하는 실수를 방지할 수 있었습니다. 또한 데이터를 작성할 때 기본값을 `0`으로 두어 의도치 않은 `null` 오류를 방지하고자 했습니다. 그 흔적은 [/question/0](https://smile.cho.sh/question/0)에서 확인하실 수 있습니다.
 
@@ -108,22 +107,28 @@ TypeScript의 장점을 활용하여 type 구조를 미리 정의했습니다.
 
 예를 들어 `/question/[id]`에 해당하는 페이지들은 다음 코드를 통해 빌드 타임에 정적으로 생성됩니다.
 
-    export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = questionData.map((question) => ({
+```ts
+export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = questionData.map((question) => ({
     params: { id: question.id.toString() },
-    }))
-    return { paths, fallback: false }
-    }
+  }))
+  return { paths, fallback: false }
+}
 
-    export const getStaticProps: GetStaticProps = async ({ params }) => {
-    try {
+export const getStaticProps: GetStaticProps = async ({
+  params,
+}) => {
+  try {
     const id = params?.id
-    const item = questionData.find((data) => data.id === Number(id))
+    const item = questionData.find(
+      (data) => data.id === Number(id)
+    )
     return { props: { item } }
-    } catch (err) {
+  } catch (err) {
     return { props: { errors: err.message } }
-    }
-    }
+  }
+}
+```
 
 여기서 `getStaticPaths`는 정적으로 생성되어야 할 페이지들의 `path`들의 리스트를 정해주며, `getStaticProps`는 `path`와 일치하는 질문 데이터를 검색해서 React App에 `props` 형태로 전달합니다. 이를 통해 모든 질문과 동영상 페이지를 정적으로 미리 생성해둘 수 있습니다. 더 나아가 `next/link`의 `<Link>`까지 조합하여 활용한다면 페이지들을 `prefetch`해올 수 있기 때문에 인터랙션을 초고속으로 만들 수 있습니다. (말 그대로, 브라우저 패비콘에서 로딩 도는 것도 보이지 않습니다!)
 
@@ -131,9 +136,16 @@ TypeScript의 장점을 활용하여 type 구조를 미리 정의했습니다.
 
 다시 말해서 인트로 페이지와 엔딩 페이지를 만들고, 빼먹은 디테일을 추가하는 일입니다. 예를 들어 특수한 경우를 위해 다른 형태의 View를 처리하는 작업을 했습니다. 사용자가 모든 질문에 대해서 잘 모른다고 답할 경우 다음과 같은 결과를 보여줍니다. 다른 뷰들은 동영상을 바로 `embed`하는데 반해 이 경우에만 버튼의 형태로 보여주었습니다.
 
-![취향저격 meme 추천 시스템 개발기](images/lossy-fallback.png)
+<figure>
+
+![ALT: Fallback Video](images/lossy-fallback.png)
+
+<figcaption>
 
 무슨 영상인지는 [직접 확인해보세요](https://smile.cho.sh/video/999)!
+
+</figcaption>
+</figure>
 
 ## ✨ 결과
 
