@@ -7,8 +7,13 @@
         "id": "ef1d3cb430243567",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-09-25.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-09-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-09-25.md"
+              }
             }
           },
           {
@@ -117,15 +125,15 @@
   },
   "active": "ef1d3cb430243567",
   "lastOpenFiles": [
+    "Journals/2022-09-24.md",
+    "Journals/2022-09-25.md",
     "Projects/Coding Tests/Real Exams.md",
     "Projects/Coding Tests/simulation.md",
-    "Journals/2022-09-24.md",
     "Journals/2022-09-23.md",
     "Journals/2022-09-22.md",
     "Hey.md",
     "Academics/380/Undefined symbol vtable.md",
     "Projects/Coding Tests/Coding Tests.md",
-    "Projects/Coding Tests/Real Interviews.md",
-    "Journals/2022-09-21.md"
+    "Projects/Coding Tests/Real Interviews.md"
   ]
 }
