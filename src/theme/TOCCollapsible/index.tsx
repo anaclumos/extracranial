@@ -1,11 +1,14 @@
-import React from 'react';
-import clsx from 'clsx';
-import {useCollapsible, Collapsible} from '@docusaurus/theme-common';
-import TOCItems from '@theme/TOCItems';
-import CollapseButton from '@theme/TOCCollapsible/CollapseButton';
-import type {Props} from '@theme/TOCCollapsible';
+import React from 'react'
+import clsx from 'clsx'
+import {
+  useCollapsible,
+  Collapsible,
+} from '@docusaurus/theme-common'
+import TOCItems from '@theme/TOCItems'
+import CollapseButton from '@theme/TOCCollapsible/CollapseButton'
+import type { Props } from '@theme/TOCCollapsible'
 
-import styles from './styles.module.css';
+import styles from './styles.module.css'
 
 export default function TOCCollapsible({
   toc,
@@ -13,21 +16,26 @@ export default function TOCCollapsible({
   minHeadingLevel,
   maxHeadingLevel,
 }: Props): JSX.Element {
-  const {collapsed, toggleCollapsed} = useCollapsible({
+  const { collapsed, toggleCollapsed } = useCollapsible({
     initialState: true,
-  });
+  })
   return (
     <div
       className={clsx(
         styles.tocCollapsible,
         !collapsed && styles.tocCollapsibleExpanded,
-        className,
-      )}>
-      <CollapseButton collapsed={collapsed} onClick={toggleCollapsed} />
+        className
+      )}
+    >
+      <CollapseButton
+        collapsed={collapsed}
+        onClick={toggleCollapsed}
+      />
       <Collapsible
         lazy
         className={styles.tocCollapsibleContent}
-        collapsed={collapsed}>
+        collapsed={collapsed}
+      >
         <TOCItems
           toc={toc}
           minHeadingLevel={minHeadingLevel}
@@ -35,5 +43,5 @@ export default function TOCCollapsible({
         />
       </Collapsible>
     </div>
-  );
+  )
 }
