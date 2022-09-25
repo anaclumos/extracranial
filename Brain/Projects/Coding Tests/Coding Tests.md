@@ -27,6 +27,7 @@ slug: '/D518B0'
 - [[1046 Last Stone Weight]]
 - [[215 Kth Largest Element in an Array]] [[TODO]]
 - [[79 Word Search]]
+- [[1290 Convert Binary Number in a Linked List to Integer]]
 
 ## Stage 1
 
