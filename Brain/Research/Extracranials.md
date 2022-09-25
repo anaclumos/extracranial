@@ -1,0 +1,65 @@
+---
+title: 'Extracranials'
+slug: '/93AA11'
+---
+
+## Definition
+
+**Extracranial**. Situated or occurring outside the cranium.
+
+Extracranial is my term for an organized knowledge base **on the web** that aims to aid the creator's brain function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use [Docusaurus](https://docusaurus.io/) and [Obsidian](https://obsidian.md/). It is working reasonably well.
+
+## State-of-the-art References
+
+### [Younho9 Notes](https://notes.younho9.com/) by [younho9 (Younho Choo)](https://github.com/younho9)
+
+![[Pasted image 20220925130955.png]]
+![[Pasted image 20220925131542.png]]
+
+### [기억보다 기록을](https://kyounghwan01.github.io) by [Kyounghwan01 (kyounghwan Noh)](https://github.com/Kyounghwan01)
+
+![[Pasted image 20220925131410.png]]
+
+### [Andy Matuschak](https://notes.andymatuschak.org/About_these_notes)
+
+## Potential Tools
+
+- [Graph Data Platform | Graph Database Management System | Neo4j](https://neo4j.com/)
+- [ConvertKit: The creator marketing platform](https://convertkit.com/)
+
+## Functional Web
+
+- [Victor Dibia](https://victordibia.com/)
+- [Tania Rascia](https://www.taniarascia.com/)
+- [Edy Kim](https://edykim.com/)
+
+## Fast Websites (SPA based)
+
+- [Telmo Goncalves](https://telmo.is/)
+- [Lee Robinson – Developer, writer, creator.](https://leerob.io/)
+- [Timo Lins – Code · Design · Film](https://timo.sh/)
+
+## Built with Market Softwares
+
+- [Joshua's Garden](https://joschuasgarden.com/50+Slipbox/Welcome!)
+- [Mister Chad](https://mister-chad.com/welcome)
+- [JT's Digital Garden](https://notes.gnotract.com/00+%F0%9F%A4%AF+Meta/%F0%9F%93%8C+Landing+Page)
+- [docs.logseq.com](https://docs.logseq.com/)
+- [note.xuanwo.io](https://note.xuanwo.io/)
+- [pengx17.github.io](https://pengx17.github.io/knowledge-garden)
+- [whatiknown.strrl.dev](https://whatiknown.strrl.dev/)
+- [io-oi.me/wiki](https://io-oi.me/wiki)
+- [To The Garden](https://tothegarden.vercel.app/page/%E8%8A%B1%E5%9B%AD%E6%BC%AB%E6%AD%A5%20to%20the%20Garden)
+- [zhangxueshan246.github.io](https://zhangxueshan246.github.io/#/)
+- [xutuan.vercel.app](https://xutuan.vercel.app/#/page/logseq%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
+- [bmpi.dev](https://www.bmpi.dev/)
+- [logseq.abosen.top](https://logseq.abosen.top/#/page/README)
+
+## References
+
+- [Support Roam-like Linking for Docs Folder · Issue #7618 · facebook/docusaurus](https://github.com/facebook/docusaurus/issues/7618)
+- _Create beautifully tended Digital Gardens from your RoamResearch graph. Publish your notes as a static site in a few simple steps_ - [Roam Garden | Roam Garden](https://roam.garden/)
+  - _These notes are the first attempt at a Digital Garden and, as such, are a little wild and untamed. There's no central index or table of contents; you explore by going deeper and deeper down the rabbit hole._ - [About these notes](https://matt.roam.garden/)
+  - _👋 I'm Vlad Sitalo - the creator of Roam Garden. I like to build things, and at times, I wonder about:_ - [Garden Terrace](https://vlad.roam.garden/)
+- [GitHub - maximevaillancourt/digital-garden-jekyll-template: Start your own digital garden using this Jekyll template 🌱](https://github.com/maximevaillancourt/digital-garden-jekyll-template)
+- _GitHub Action Logseq Publish_ - [Logseq Publish · Actions · GitHub Marketplace](https://github.com/marketplace/actions/logseq-publish)
