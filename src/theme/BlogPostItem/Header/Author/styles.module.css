@@ -5,7 +5,7 @@
   border-radius: 0.5rem;
   width: fit-content;
   margin: auto;
-  background-color: var(--ifm-background-surface-color);
+  background-color: var(--ifm-menu-color-background-active);
 }
 
 .link:hover {
@@ -15,5 +15,5 @@
 
 .authorSubtitle {
   font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-500);
+  color: var(--ifm-color-emphasis-700);
 }
