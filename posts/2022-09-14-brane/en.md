@@ -183,14 +183,14 @@ Correct and wrong.
 
 Then, if we run our `iframe` inside the web worker, the Super App will effectively solve the icing problem.
 
-## 🧑‍🔧 Web Workers Do Not Provide DOM APIs
+## 🧑‍🔧 No DOM APIs in Workers
 
 Web workers do not have access to DOM APIs.
 However, just like our shimming the Geolocation API, the DOM API is also an Object Model written in JavaScript.
 Therefore, we would effectively solve this problem if we could provide the fake DOM API inside the web worker and mirror the manipulations to the real DOM.
 Also, we can police the manipulations between the two DOM APIs by verifying if this operation is permitted or not.
 
-## 👻 Mission Impossible 4 Ghost Protocol
+## 👻 Mission Impossible
 
 ![In the film Mission Impossible 4, the protagonist, Ethan, acts like each other in between two terrorist groups, negotiating them in Ethan's favor.](dom-mission-impossible.png)
 
@@ -202,7 +202,7 @@ Therefore, WorkerDOM cannot make synchronous data transfers (elaborated later).
 Partytown cannot [Event Prevent Default](https://partytown.builder.io/trade-offs#events-cannot-prevent-default).
 But fundamentally, we can use this Mission Impossible model to isolate and quarantine third-party codes.
 
-## 💽 No Synchronous Data Exchange
+## 💽 No Synchronous Data Transfer
 
 Web Workers do not have synchronous data transfer by default.
 Synchronous data transfer is essential for many places; for example, drawing animations or displaying a map on the screen requires it because we need to calculate the pixels on the screen to render the next frame.
