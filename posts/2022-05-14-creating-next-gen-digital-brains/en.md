@@ -140,7 +140,7 @@ font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont,
 - However, I am exploring other options.
 - I liked [TossFace](https://toss.im/tossface)'s bold attempt to infuse Korean values into the Japan-based emoji system for emoji. (lol, but they canceled it.)
 
-![](images/IMG_1136.PNG)
+![Tossface Original Emojis](images/IMG_1136.PNG)
 
 - Honestly, I want this back. They can use Unicode [Private Use Area](https://en.wikipedia.org/wiki/Private_Use_Areas#:~:text=In%20Unicode%2C%20a%20Private%20Use,characters%20by%20the%20Unicode%20Consortium.). But Toss is too lazy to do that considering they still didn't make the WOFF version Webfont.
 - So I might use [Twemoji](https://twemoji.twitter.com/).

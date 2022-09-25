@@ -138,7 +138,7 @@ This code block will be the baseline for our calendar generation. We will pass i
 `calendar.js`
 Now, we need four different Date objects for displaying the calendar. We could've used fewer objects, but it is up to the implementation. I think reducing date objects here would cause a minimal performance increase but spike the understandability of the code, so using four objects seems like a fair middle ground.
 
-#### Four Date objects we need
+### Four Date objects we need
 
 - **The last day of last month**: needed to highlight last month's weekend and display the correct date for last month's row.
 - **The first day of this month**: needed to highlight this month's weekend and figure out how many days of last month we need to render.

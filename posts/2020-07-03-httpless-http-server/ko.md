@@ -69,6 +69,6 @@ server.listen(8080)
 
 ## 결과
 
-![alt](images/screenshot.png)
+![완성](images/screenshot.png)
 
 `http` 프로토콜에서 명시된 모든 헤더들을 구현하진 않았지만 프로젝트의 요구 조건에는 부합한다!

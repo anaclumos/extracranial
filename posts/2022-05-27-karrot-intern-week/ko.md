@@ -130,7 +130,7 @@ JD에서 언급된 바와 같이 면접은 1시간 30분으로 예정되었습�
 
 ## 당근에서 신기했던 점들
 
-![](images/onboarding.jpeg)
+![온보딩](images/onboarding.jpeg)
 
 ### 인턴 너 혹시... 뭐 돼?
 

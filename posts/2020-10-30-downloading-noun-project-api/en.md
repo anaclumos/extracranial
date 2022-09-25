@@ -80,5 +80,5 @@ For more advanced uses, please visit this [docs](https://api.thenounproject.com/
 
 ## Result
 
-![](https://blog.chosunghyun.com/content/images/2020/10/icons.png)
-I have run some benchmarks and found that downloading ~5k icons shouldn't be a problem. However, The Noun Project's API has a call limit so beware of that.
+![I have run some benchmarks and found that downloading ~5k icons shouldn't be a problem.](image/icons.png)
+However, The Noun Project's API has a call limit so beware of that.

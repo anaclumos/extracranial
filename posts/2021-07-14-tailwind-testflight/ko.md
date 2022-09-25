@@ -117,8 +117,6 @@ export default App
 
 ### 1\. Chat Bubble
 
-![](https://blog.chosunghyun.com/content/images/2021/07/image-3.png)
-
 [https://design.cho.sh/tailwind-docs/chatbubble](http://design.cho.sh/tailwind-docs/chatbubble)
 
 ```ts
@@ -154,7 +152,7 @@ const chatbubble = () => (
 export default chatbubble
 ```
 
-#### [원본 코드](https://tailwindcss.com/docs/utility-first)와 변경점
+### [원본 코드](https://tailwindcss.com/docs/utility-first)와 변경점
 
 - `class` 대신 `className` 사용 (React)
 - `next/image` 사용. `next/image`는 여전히 HTML `<img>`를 생성하지만 이미지 최적화 등에서 강점을 지님. 다만 Tailwind 자체의 `h-12`, `w-12` 등의 `className`이 지원되지 않아 Wrapper Div가 필요함.
@@ -177,7 +175,7 @@ export default chatbubble
 
 - `border-2`로 2px 테두리 추가
 
-#### 키워드 분석
+### 키워드 분석
 
 - `flex`: display flex
 - `h-screen`: 컴포넌트 높이를 화면에 맞춰줌 ( `height: 100vh;` )
@@ -244,19 +242,17 @@ const CaseStudyCard = () => (
 export default CaseStudyCard
 ```
 
-#### [원본 코드](https://tailwindcss.com/docs/responsive-design)와 변경점
+### [원본 코드](https://tailwindcss.com/docs/responsive-design)와 변경점
 
 - 위와 동일
 - `next/image`에서 `layout='fill'`과 `objectFit='cover'`을 동시에 사용하면 상위 컴포넌트에 가득 차도록 확대되며( `layout='fill'` ) 사진을 stretch하지 않고 넘치는 부분을 잘라낸다 ( `objectFit='cover'` )
 
-#### 키워드 분석
+### 키워드 분석
 
 - `md:flex`: 미디어쿼리로 `@media (min-width: 768px)`가 넘어가는 순간 display: flex가 적용됨.
 - 나머지는 위와 유사
 
 ### 3\. User Email Form
-
-![](https://blog.chosunghyun.com/content/images/2021/07/user-email-form.png)
 
 <https://design.cho.sh/tailwind-docs/user-email-form>
 
@@ -301,14 +297,14 @@ const UserEmailForm = () => {
 export default UserEmailForm
 ```
 
-#### [원본 코드](https://tailwindcss.com/docs/hover-focus-and-other-states)와 변경점
+### [원본 코드](https://tailwindcss.com/docs/hover-focus-and-other-states)와 변경점
 
 - 위와 동일
 - Hover & Focus 디자인 변화
 - Transition & Transform 사용
 - [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind) 사용
 
-#### 키워드 분석
+### 키워드 분석
 
 - `cursor-pointer`
 - `motion-reduce:transform-none`: 사용자의 디바이스가 Reduce Motion으로 설정된 경우 Transform 동작들을 실행하지 않음
