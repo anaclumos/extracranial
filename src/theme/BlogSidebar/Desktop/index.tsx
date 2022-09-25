@@ -10,7 +10,7 @@ export default function BlogSidebarDesktop({
   sidebar,
 }: Props): JSX.Element {
   return (
-    <aside className="col col--2">
+    <aside className="col col--3">
       <nav
         className={clsx(styles.sidebar, 'thin-scrollbar')}
         aria-label={translate({

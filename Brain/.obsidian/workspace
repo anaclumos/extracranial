@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf29b95bc656e394",
+        "id": "ef1d3cb430243567",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Projects/Coding Tests/Real Exams.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Coding Tests/Real Exams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/Coding Tests/Real Exams.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,10 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "bf29b95bc656e394",
+  "active": "ef1d3cb430243567",
   "lastOpenFiles": [
-    "Projects/Coding Tests/simulation.md",
     "Projects/Coding Tests/Real Exams.md",
+    "Projects/Coding Tests/simulation.md",
     "Journals/2022-09-24.md",
     "Journals/2022-09-23.md",
     "Journals/2022-09-22.md",

@@ -62,7 +62,7 @@ function YearsSection({ years }: { years: YearProp[] }) {
           {years.reverse().map((_props, idx) => (
             <div
               key={idx}
-              className="col col--4 margin-vert--lg"
+              className="col col--4 margin-vert--md"
             >
               <Year {..._props} />
             </div>
