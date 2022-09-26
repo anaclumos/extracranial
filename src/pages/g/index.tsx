@@ -25,13 +25,12 @@ const GraphView = () => {
     <div className={styles.graphView}>
       <BrowserOnly>
         {() => {
-          const {
-            ForceGraph3D,
-          } = require('react-force-graph')
+          const ForceGraph3D = require('react-force-graph-3d')
           return (
             <ForceGraph3D
               graphData={gData}
               backgroundColor="#1b1b1d"
+              showNavInfo={false}
             />
           )
         }}
