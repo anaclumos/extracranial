@@ -8,11 +8,11 @@ Solved at: [[2022-09-25]]
 
 ## Question
 
-Given `head` which is a reference node to a singly-linked list. The value of each node in the linked list is either `0` or `1`. The linked list holds the binary representation of a number.
+Given `head` which is a reference node to a singly-linked list. The value of each node in the linked list is either `0` or `1`. The linked list holds the binary representation of a number.
 
-Return the *decimal value* of the number in the linked list.
+Return the _decimal value_ of the number in the linked list.
 
-The **most significant bit** is at the head of the linked list.
+The **most significant bit** is at the head of the linked list.
 
 ## Solution
 
@@ -36,13 +36,13 @@ class Solution:
 
 ### Runtime
 
-- 60 ms, faster than 28.54% of Python3 online submissions for Convert Binary Number in a Linked List to Integer.
+- 60 ms, faster than 28.54% of Python3 online submissions for Convert Binary Number in a Linked List to Integer.
 
 ### Memory Usage
 
-- 13.9 MB, less than 9.10% of Python3 online submissions for Convert Binary Number in a Linked List to Integer.
+- 13.9 MB, less than 9.10% of Python3 online submissions for Convert Binary Number in a Linked List to Integer.
 
 ## Complexity Analysis
 
-- Time complexity: $O(n)$
-- Space complexity: $O(1)$
+- Time complexity: $O(n)$
+- Space complexity: $O(1)$
