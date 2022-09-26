@@ -106,15 +106,15 @@ table {
 .task-list-item {
   display: flex;
   align-items: center;
-  margin: 0.5rem;
+  margin: 1rem 0;
 }
 
 input[type='checkbox'] {
   position: relative;
   -webkit-appearance: none;
   outline: none;
-  width: var(--ios-style-checkbox-width);
-  height: var(--ios-style-checkbox-height);
+  min-width: var(--ios-style-checkbox-width);
+  min-height: var(--ios-style-checkbox-height);
   border-color: var(--primary-color-200);
   background-color: var(--ifm-menu-color-background-active);
   border-radius: calc(var(--ios-style-checkbox-height) / 2);
@@ -126,6 +126,7 @@ input[type='checkbox']:after {
   content: '';
   position: absolute;
   background: transparent;
+  background-color: var(--ifm-color-emphasis-100);
   top: var(--ios-style-checkbox-border-width);
   left: var(--ios-style-checkbox-border-width);
   height: calc(
@@ -160,9 +161,10 @@ input[type='checkbox']:checked {
 }
 
 input[type='checkbox']:checked:after {
-  top: 0;
+  top: calc(var(--ios-style-checkbox-border-width) / 8);
   left: calc(
     var(--ios-style-checkbox-width) -
-      var(--ios-style-checkbox-height)
+      var(--ios-style-checkbox-height) +
+      var(--ios-style-checkbox-border-width) / 4
   );
 }
