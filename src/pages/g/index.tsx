@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
-import { ForceGraph3D } from 'react-force-graph'
 import styles from './index.module.css'
+import BrowserOnly from '@docusaurus/BrowserOnly'
 
 const GraphView = () => {
+  if (typeof window === 'undefined') {
+    return null
+  }
+
   const N = 300
   const gData = {
     nodes: [...Array.from(Array(N).keys())].map((i) => ({
@@ -22,10 +26,19 @@ const GraphView = () => {
     <div className={styles.graphView}>
       <div className={styles.graphView__title}>
         <h1>Graph View</h1>
-        <ForceGraph3D
-          graphData={gData}
-          backgroundColor="#1b1b1d"
-        />
+        <BrowserOnly>
+          {() => {
+            const {
+              ForceGraph3D,
+            } = require('react-force-graph')
+            return (
+              <ForceGraph3D
+                graphData={gData}
+                backgroundColor="#1b1b1d"
+              />
+            )
+          }}
+        </BrowserOnly>
       </div>
     </div>
   )
