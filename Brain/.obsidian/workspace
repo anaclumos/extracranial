@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1aa1eae1cbe6b4ab",
+        "id": "5299fcbc9005515d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Academics/356/Inspecting Assembly.md",
+            "file": "Journals/2022-09-25.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/356/Inspecting Assembly.md",
+                "file": "Journals/2022-09-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academics/356/Inspecting Assembly.md"
+                "file": "Journals/2022-09-25.md"
               }
             }
           },
@@ -124,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "1aa1eae1cbe6b4ab",
+  "active": "5299fcbc9005515d",
   "lastOpenFiles": [
-    "Academics/356/Inspecting Assembly.md",
+    "Research/Extracranials.md",
     "Journals/2022-09-25.md",
+    "Academics/356/Inspecting Assembly.md",
     "Academics/353/GDB Commands.md",
     "Academics/356/356.md",
     "Academics/356/356 Official SSH Server.md",
     "Hey.md",
     "Projects/Coding Tests/1290 Convert Binary Number in a Linked List to Integer.md",
     "Projects/Coding Tests/Coding Tests.md",
-    "Research/Extracranials.md",
     "Journals/2022-07-02.md"
   ]
 }
