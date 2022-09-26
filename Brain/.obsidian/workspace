@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f74ef36685c607ca",
+        "id": "1aa1eae1cbe6b4ab",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234
+    "width": 234,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -123,11 +124,11 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f74ef36685c607ca",
+  "active": "1aa1eae1cbe6b4ab",
   "lastOpenFiles": [
+    "Academics/356/Inspecting Assembly.md",
     "Journals/2022-09-25.md",
     "Academics/353/GDB Commands.md",
-    "Academics/356/Inspecting Assembly.md",
     "Academics/356/356.md",
     "Academics/356/356 Official SSH Server.md",
     "Hey.md",
