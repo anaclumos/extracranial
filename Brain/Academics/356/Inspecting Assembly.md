@@ -14,6 +14,9 @@ slug: '/A6DBE3'
 | `run 1 (phase number)` | run with input                                                                                  |
 | `x/x $register`        | prints register in hex                                                                          |
 | `x/s $register`        | prints register in string                                                                       |
+| `si`                   | step instruction                                                                                |
+| `ni`                   | next instruction                                                                                |
+| `finish`               | finishes current steps and go to next instruction                                               |
 | `x/d $register`        | prints register in digit                                                                        |
 | `break main`           | sets a breakpoint at the start of the main function.                                            |
 | `run`                  | restarts the program when stopped in mid-execution.                                             |
