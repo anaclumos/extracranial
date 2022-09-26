@@ -25,12 +25,20 @@ const GraphView = () => {
     <div className={styles.graphView}>
       <BrowserOnly>
         {() => {
-          const ForceGraph3D = require('react-force-graph-3d')
+          const {
+            ForceGraph3D,
+          } = require('react-force-graph')
           return (
             <ForceGraph3D
               graphData={gData}
               backgroundColor="#1b1b1d"
               showNavInfo={false}
+              nodeAutoColorBy="group"
+              linkDirectionalParticles={1}
+              linkDirectionalParticleWidth={1}
+              linkDirectionalParticleSpeed={0.01}
+              linkDirectionalParticleColor={'#fff'}
+              linkDirectionalParticleResolution={16}
             />
           )
         }}
