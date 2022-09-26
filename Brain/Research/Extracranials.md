@@ -24,7 +24,10 @@ Extracranial is my term for an organized knowledge base **on the web** that aims
 
 ## Potential Tools
 
-- [Graph Data Platform | Graph Database Management System | Neo4j](https://neo4j.com/)
+- [Using React with D3.js](https://wattenberger.com/blog/react-and-d3)
+- [Speeding up force simulations with spirals](https://wattenberger.com/blog/spirals)
+- [Scaling SVG Elements](https://wattenberger.com/guide/scaling-svg)
+- [Use the d3 force](https://wattenberger.com/blog/d3-force)
 - [ConvertKit: The creator marketing platform](https://convertkit.com/)
 
 ## Functional Web
