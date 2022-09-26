@@ -1,5 +1,5 @@
 ---
-title: '#215 Kth Largest Element in an Array'
+title: '0215 Kth Largest Element in an Array'
 slug: '/5B0F1E'
 ---
 

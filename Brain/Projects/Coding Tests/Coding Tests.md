@@ -22,27 +22,27 @@ slug: '/D518B0'
 ## Additional
 
 - [[1448 Count Good Nodes in Binary Tree]]
-- [[2 Add Two Numbers]]
-- [[199 Binary Tree Right Side View]]
+- [[0002 Add Two Numbers]]
+- [[0199 Binary Tree Right Side View]]
 - [[1046 Last Stone Weight]]
-- [[215 Kth Largest Element in an Array]] [[TODO]]
-- [[79 Word Search]]
-- [[1290 Convert Binary Number in a Linked List to Integer]]
+- [[0215 Kth Largest Element in an Array]] [[TODO]]
+- [[0079 Word Search]]
+- [[1290 Convert Binary Number in a Linked List to Integer]]
 
 ## Stage 1
 
-- [x] [[1 Two Sum]]
-- [x] [[20 Valid Parentheses]]
-- [x] [[21 Merge Two Sorted Lists]]
-- [x] [[121 Best Time to Buy and Sell Stock]]
-- [x] [[125 Valid Palindrome]]
-- [x] [[226 Invert Binary Tree]]
-- [x] [[242 Valid Anagram]]
-- [x] [[704 Binary Search]]
-- [x] [[733 Flood Fill]]
-- [x] [[53 Maximum Subarray]]
-- [x] [[235 Lowest Common Ancestor of a Binary Search Tree]]
-- [x] [[110 Balanced Binary Tree]]
+- [x] [[0001 Two Sum]]
+- [x] [[0020 Valid Parentheses]]
+- [x] [[0021 Merge Two Sorted Lists]]
+- [x] [[0121 Best Time to Buy and Sell Stock]]
+- [x] [[0125 Valid Palindrome]]
+- [x] [[0226 Invert Binary Tree]]
+- [x] [[0242 Valid Anagram]]
+- [x] [[0704 Binary Search]]
+- [x] [[0733 Flood Fill]]
+- [x] [[0053 Maximum Subarray]]
+- [x] [[0235 LCA of a Binary Search Tree]]
+- [x] [[0110 Balanced Binary Tree]]
 - [ ] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
 
 ## Stage 2
@@ -109,7 +109,7 @@ slug: '/D518B0'
 
 - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 - [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
-- [ ] [[79 Word Search]]
+- [ ] [[0079 Word Search]]
 - [ ] [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)
 - [ ] [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees)
 - [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler)

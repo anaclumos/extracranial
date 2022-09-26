@@ -1,5 +1,5 @@
 ---
-title: '#199 Binary Tree Right Side View'
+title: '0199 Binary Tree Right Side View'
 slug: '/3AEAEA'
 ---
 

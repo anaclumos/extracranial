@@ -10,7 +10,7 @@ slug: '/A51A6A'
   - it runs cross-platform
   - it runs isolated
   - it runs on browsers
-- But how is WASM *fast* and cross-platform simultaneously?
+- But how is WASM _fast_ and cross-platform simultaneously?
   - Does it pack multiple precompiled binary executables for multiple CPU vendors, like Apple's Universal Binary?
   - But then whenever a new type of CPU gets announced, they wouldn't be able to run existing WASMs
 - WebAssembly's runtime environments (RE) are low-level virtual stack machines (akin to JVM or Flash VM)

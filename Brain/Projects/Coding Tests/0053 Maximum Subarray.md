@@ -1,5 +1,5 @@
 ---
-title: '#53 Maximum Subarray'
+title: '0053 Maximum Subarray'
 slug: '/A06B20'
 ---
 

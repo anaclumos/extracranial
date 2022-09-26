@@ -1,5 +1,5 @@
 ---
-title: '#235 Lowest Common Ancestor of a Binary Search Tree'
+title: '0235 LCA of a Binary Search Tree'
 slug: '/AEDE1B'
 ---
 
@@ -9,7 +9,7 @@ Solved at: [[2022-09-25]]. Took **17m 09s**
 
 Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.
 
-According to the [definition of LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes `p` and `q` as the lowest node in `T` that has both `p` and `q` as descendants (where we allow **a node to be a descendant of itself**).”
+According to the[definition of LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes`p`and`q`as the lowest node in`T`that has both`p`and`q`as descendants (where we allow**a node to be a descendant of itself**).”
 
 ## Solution
 
@@ -89,11 +89,11 @@ I misunderstood LCA as being the minimum in value.
 
 ### Runtime
 
-- 89 ms, faster than 86.27% of Python3 online submissions for Lowest Common Ancestor of a Binary Search Tree.
+- 89 ms, faster than86.27%ofPython3online submissions forLowest Common Ancestor of a Binary Search Tree.
 
 ### Memory Usage
 
-- 18.9 MB, less than 23.33% of Python3 online submissions for Lowest Common Ancestor of a Binary Search Tree.
+- 18.9 MB, less than23.33%ofPython3online submissions forLowest Common Ancestor of a Binary Search Tree.
 
 ## Improvements
 
