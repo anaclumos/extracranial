@@ -25,3 +25,4 @@ slug: '/A6DBE3'
 | `list`                 | prints surrounding code.                                                                        |
 | `cont`                 | continues execution from the current location.                                                  |
 | `quit`                 | quits `gdb`                                                                                     |
+| `"%d %[^\n]"`          | integer + string                                                                                |
