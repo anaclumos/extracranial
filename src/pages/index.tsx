@@ -18,9 +18,6 @@ import RadioactiveEmoji from '../../static/fonts/emoji/radioactive.png'
 import RocketEmoji from '../../static/fonts/emoji/rocket.png'
 import TechnologistEmoji from '../../static/fonts/emoji/technologist.png'
 import WebEmoji from '../../static/fonts/emoji/web.png'
-import UnicornEmoji from '../../static/fonts/emoji/unicorn.png'
-import CarrotEmoji from '../../static/fonts/emoji/carrot.png'
-import MobilePhoneEmoji from '../../static/fonts/emoji/mobile-phone.png'
 
 const HeroText = () => {
   const { siteConfig } = useDocusaurusContext()
