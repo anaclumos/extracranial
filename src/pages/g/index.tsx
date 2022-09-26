@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
@@ -21,25 +21,21 @@ const GraphView = () => {
         target: Math.round(Math.random() * (id - 1)),
       })),
   }
-
   return (
     <div className={styles.graphView}>
-      <div className={styles.graphView__title}>
-        <h1>Graph View</h1>
-        <BrowserOnly>
-          {() => {
-            const {
-              ForceGraph3D,
-            } = require('react-force-graph')
-            return (
-              <ForceGraph3D
-                graphData={gData}
-                backgroundColor="#1b1b1d"
-              />
-            )
-          }}
-        </BrowserOnly>
-      </div>
+      <BrowserOnly>
+        {() => {
+          const {
+            ForceGraph3D,
+          } = require('react-force-graph')
+          return (
+            <ForceGraph3D
+              graphData={gData}
+              backgroundColor="#1b1b1d"
+            />
+          )
+        }}
+      </BrowserOnly>
     </div>
   )
 }
@@ -48,7 +44,7 @@ export default function Graph(): JSX.Element {
   const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title="Hippocampal Neuron Graph"
       description={siteConfig.tagline}
     >
       <main className={styles.mainContainer}>
