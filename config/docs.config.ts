@@ -1,11 +1,6 @@
 const math = require('remark-math')
 const katex = require('rehype-katex')
 
-const sidebarDivider = {
-  type: 'html',
-  value: '<hr id="divider" />',
-}
-
 const sidebarProcessor = (items) => {
   const preferredOrder = [
     'Hey',
@@ -23,9 +18,6 @@ const sidebarProcessor = (items) => {
     )
     if (itemToAdd) {
       orderedItems.push(itemToAdd)
-    }
-    if (item === 'Journals') {
-      orderedItems.push(sidebarDivider)
     }
   })
   const result = orderedItems.map((item) => {
