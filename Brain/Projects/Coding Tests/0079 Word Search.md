@@ -1,5 +1,5 @@
 ---
-title: '#79 Word Search'
+title: '0079 Word Search'
 slug: '/B950DD'
 ---
 

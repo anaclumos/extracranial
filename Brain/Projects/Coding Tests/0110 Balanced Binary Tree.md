@@ -1,5 +1,5 @@
 ---
-title: '#110 Balanced Binary Tree'
+title: '0110 Balanced Binary Tree'
 slug: '/908740'
 draft: true
 ---
@@ -12,7 +12,7 @@ Given a binary tree, determine if it is height-balanced.
 
 For this problem, a height-balanced binary tree is defined as:
 
-> a binary tree in which the left and right subtrees of *every* node differ in height by no more than 1.
+> a binary tree in which the left and right subtrees of _every_ node differ in height by no more than 1.
 
 ## Solution
 
@@ -47,11 +47,11 @@ class Solution:
 
 ### Runtime
 
-- 123 ms, faster than 14.05% of Python3 online submissions for Balanced Binary Tree.
+- 123 ms, faster than14.05%ofPython3online submissions forBalanced Binary Tree.
 
 ### Memory Usage
 
-- 18.6 MB, less than 90.53% of Python3 online submissions for Balanced Binary Tree.
+- 18.6 MB, less than90.53%ofPython3online submissions forBalanced Binary Tree.
 
 ## Complexity Analysis
 
