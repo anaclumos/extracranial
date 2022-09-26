@@ -94,7 +94,7 @@ figcaption {
 }
 
 hr {
-  border: 1px solid var(--ifm-menu-color-background-active);
+  border: 1px solid var(--ifm-color-emphasis-200);
 }
 
 table {
