@@ -1,7 +1,6 @@
 ---
 title: '0110 Balanced Binary Tree'
 slug: '/908740'
-draft: true
 ---
 
 Solved at: [[2022-09-25]]

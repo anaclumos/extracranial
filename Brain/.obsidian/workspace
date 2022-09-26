@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Coding Tests/Coding Tests.md",
+            "file": "Journals/2022-09-26.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "draft: true",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Coding Tests/Coding Tests.md",
+                "file": "Journals/2022-09-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Coding Tests/Coding Tests.md"
+                "file": "Journals/2022-09-26.md"
               }
             }
           },
@@ -125,15 +126,15 @@
   },
   "active": "b03ba90e2d393afc",
   "lastOpenFiles": [
+    "Projects/Coding Tests/0110 Balanced Binary Tree.md",
+    "Journals/2022-09-25.md",
+    "Journals/2022-09-26.md",
     "Projects/Coding Tests/1290 Convert Binary Number in a Linked List to Integer.md",
+    "Projects/Coding Tests/Coding Tests.md",
     "Projects/Coding Tests/0733 Flood Fill.md",
     "Projects/Coding Tests/0704 Binary Search.md",
     "Projects/Coding Tests/0235 LCA of a Binary Search Tree.md",
     "Projects/Coding Tests/0242 Valid Anagram.md",
-    "Projects/Coding Tests/0226 Invert Binary Tree.md",
-    "Projects/Coding Tests/0215 Kth Largest Element in an Array.md",
-    "Projects/Coding Tests/0199 Binary Tree Right Side View.md",
-    "Projects/Coding Tests/0125 Valid Palindrome.md",
-    "Projects/Coding Tests/0121 Best Time to Buy and Sell Stock.md"
+    "Projects/Coding Tests/0226 Invert Binary Tree.md"
   ]
 }
