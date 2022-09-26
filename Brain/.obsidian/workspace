@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "5299fcbc9005515d",
+        "id": "b03ba90e2d393afc",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -116,7 +116,7 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5299fcbc9005515d",
+  "active": "b03ba90e2d393afc",
   "lastOpenFiles": [
     "Journals/2022-09-25.md",
     "Research/Extracranials.md",
