@@ -9,6 +9,11 @@ import WIP from '@site/src/components/WIP'
 
 ## For 2023
 
+### [PathAI](https://www.pathai.com/)
+
+- 1 [[simulation]] that had bunch of edge cases (solved 9/10)
+- 1 [[optimized simulation]]
+
 ### [Grammarly](https://grammarly.com/)
 
 - 1 [[simulation]]
@@ -16,7 +21,7 @@ import WIP from '@site/src/components/WIP'
 
 ### [Duolingo](https://www.duolingo.com/)
 
-- 1 multiple maps problem (simple data analysis & processing)
+- 1 multiple map problem (simple data analysis & processing)
 - 1 path reduction problem (didn't have enough time)
 
 ### [LinkedIn](https://www.linkedin.com/)
@@ -46,9 +51,9 @@ import WIP from '@site/src/components/WIP'
   - required a deep understanding of C++ recent specs
 - 1 [[greedy]] palindrome substring search
 - 1 adjacency list construction and tree search.
-  - Time limit was very strict, and I wasn't able to finish it
+  - Time limit was stringent, and I wasn't able to finish it
 - 1 [[optimized simulation]] using bitwise operations
-  - Time limit was very strict, and I wasn't able to finish it
+  - Time limit was stringent, and I wasn't able to finish it
 
 ### [Valkyrie Trading](https://www.valkyrietrading.com/)
 

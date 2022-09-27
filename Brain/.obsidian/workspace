@@ -7,13 +7,8 @@
         "id": "f50c4d0e35f6d510",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Academics/356/Inspecting Assembly.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -79,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/356/Inspecting Assembly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Academics/356/Inspecting Assembly.md"
-              }
+              "state": {}
             }
           },
           {
@@ -126,6 +118,7 @@
   },
   "active": "f50c4d0e35f6d510",
   "lastOpenFiles": [
+    "Projects/Coding Tests/Real Exams.md",
     "Journals/2022-09-26.md",
     "Projects/Coding Tests/0110 Balanced Binary Tree.md",
     "Journals/2022-09-25.md",
@@ -134,7 +127,6 @@
     "Projects/Coding Tests/0733 Flood Fill.md",
     "Projects/Coding Tests/0704 Binary Search.md",
     "Projects/Coding Tests/0235 LCA of a Binary Search Tree.md",
-    "Projects/Coding Tests/0242 Valid Anagram.md",
-    "Projects/Coding Tests/0226 Invert Binary Tree.md"
+    "Projects/Coding Tests/0242 Valid Anagram.md"
   ]
 }
