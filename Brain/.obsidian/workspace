@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "f50c4d0e35f6d510",
+        "id": "686e56a8885961ac",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -116,7 +116,7 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f50c4d0e35f6d510",
+  "active": "686e56a8885961ac",
   "lastOpenFiles": [
     "Projects/Coding Tests/Real Exams.md",
     "Journals/2022-09-26.md",
