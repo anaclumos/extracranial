@@ -531,5 +531,21 @@
   "theme.tags.tagsPageTitle": {
     "message": "태그",
     "description": "The title of the tag list page"
+  },
+  "theme.blog.post.loading.views": {
+    "message": "불러오는 중...",
+    "description": "The blog post view count is loading"
+  },
+  "theme.blog.post.no.views": {
+    "message": "알 수 없음",
+    "description": "The blog post has no views"
+  },
+  "theme.blog.post.view": {
+    "message": "1번 읽음",
+    "description": "The blog post has 1 view"
+  },
+  "theme.blog.post.views": {
+    "message": "{viewCount}번 읽음",
+    "description": "The blog post has multiple views"
   }
 }
