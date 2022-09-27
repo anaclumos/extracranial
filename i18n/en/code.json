@@ -531,5 +531,21 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "theme.blog.post.loading.views": {
+    "message": "Loading...",
+    "description": "The blog post view count is loading"
+  },
+  "theme.blog.post.no.views": {
+    "message": "Unknown",
+    "description": "The blog post has no views"
+  },
+  "theme.blog.post.view": {
+    "message": "Read 1 Time",
+    "description": "The blog post has 1 view"
+  },
+  "theme.blog.post.views": {
+    "message": "Read {viewCount} Times",
+    "description": "The blog post has multiple views"
   }
 }
