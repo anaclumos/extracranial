@@ -2,3 +2,7 @@
   font-size: 0.9rem;
   text-align: center;
 }
+
+.viewCount {
+  color: var(--ifm-font-color-base);
+}

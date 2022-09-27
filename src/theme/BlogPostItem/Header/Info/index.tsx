@@ -81,6 +81,38 @@ async function getViewCount(path: string) {
   return viewCount
 }
 
+const getViewString = (viewCount: number) => {
+  if (viewCount === -1) {
+    return translate({
+      id: 'theme.blog.post.loading.views',
+      message: 'Loading...',
+      description: 'The blog post view count is loading',
+    })
+  }
+  if (viewCount === 0) {
+    return translate({
+      id: 'theme.blog.post.no.views',
+      message: 'Unknown Views',
+      description: 'The blog post has no views',
+    })
+  } else if (viewCount === 1) {
+    return translate({
+      id: 'theme.blog.post.view',
+      message: '1 view',
+      description: 'The blog post has 1 view',
+    })
+  } else {
+    return translate(
+      {
+        id: 'theme.blog.post.views',
+        message: '{viewCount} views',
+        description: 'The blog post has multiple views',
+      },
+      { viewCount }
+    )
+  }
+}
+
 export default function BlogPostItemHeaderInfo({
   className,
 }: Props): JSX.Element {
@@ -88,7 +120,7 @@ export default function BlogPostItemHeaderInfo({
   const { date, formattedDate, readingTime, permalink } =
     metadata
 
-  const [viewCount, setViewCount] = React.useState(0)
+  const [viewCount, setViewCount] = React.useState(-1)
   React.useEffect(() => {
     getViewCount(permalink).then((viewcount) => {
       if (typeof viewcount === 'number')
@@ -114,7 +146,14 @@ export default function BlogPostItemHeaderInfo({
       {typeof viewCount !== 'undefined' && (
         <>
           <Spacer />
-          <span>{viewCount.toLocaleString()} Views</span>
+          <a
+            href={'https://simpleanalytics.com/cho.sh'}
+            target="_blank"
+            rel="noreferrer noopener"
+            className={styles.viewCount}
+          >
+            <span>{getViewString(viewCount)}</span>
+          </a>
         </>
       )}
     </div>
