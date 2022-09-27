@@ -48,9 +48,7 @@ export default function BlogPostItemHeaderAuthor({
             itemType="https://schema.org/Person"
           >
             <div className="avatar__name">
-              <MaybeLink href={link} itemProp="url">
-                <span itemProp="name">{name}</span>
-              </MaybeLink>
+              <span itemProp="name">{name}</span>
             </div>
             {title && (
               <small
