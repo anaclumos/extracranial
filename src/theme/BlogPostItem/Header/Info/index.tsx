@@ -52,14 +52,49 @@ function Date({
 }
 
 function Spacer() {
-  return <>{' · '}</>
+  return <>{' • '}</>
+}
+async function getViewCount(path: string) {
+  const viewCountPath = path.split('?')[0]
+  const viewCountKey = viewCountPath.split('/').slice(-1)[0]
+  let viewCount: Number = 0
+  if (
+    viewCountKey.length === 6 &&
+    /^[a-fA-F0-9]+$/.test(viewCountKey)
+  ) {
+    await fetch(
+      `https://simpleanalytics.com/cho.sh.json?version=5&info=false&fields=pages&pages=*${viewCountKey}*`
+    ).then((response) =>
+      response
+        .json()
+        .then((data) => data.pages)
+        .then((pages) => {
+          // console.log(pages)
+          pages.forEach((page) => {
+            console.log(page)
+            viewCount += page.pageviews
+          })
+        })
+    )
+  }
+  console.log(viewCount)
+  return viewCount
 }
 
 export default function BlogPostItemHeaderInfo({
   className,
 }: Props): JSX.Element {
   const { metadata } = useBlogPost()
-  const { date, formattedDate, readingTime } = metadata
+  const { date, formattedDate, readingTime, permalink } =
+    metadata
+
+  const [viewCount, setViewCount] = React.useState(0)
+  React.useEffect(() => {
+    getViewCount(permalink).then((viewcount) => {
+      if (typeof viewcount === 'number')
+        setViewCount(viewcount)
+    })
+  }, [permalink])
 
   return (
     <div
@@ -74,6 +109,12 @@ export default function BlogPostItemHeaderInfo({
         <>
           <Spacer />
           <ReadingTime readingTime={readingTime} />
+        </>
+      )}
+      {typeof viewCount !== 'undefined' && (
+        <>
+          <Spacer />
+          <span>{viewCount.toLocaleString()} Views</span>
         </>
       )}
     </div>
