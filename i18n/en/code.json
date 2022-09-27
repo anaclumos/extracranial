@@ -541,11 +541,11 @@
     "description": "The blog post has no views"
   },
   "theme.blog.post.view": {
-    "message": "Read 1 Time",
+    "message": "Read",
     "description": "The blog post has 1 view"
   },
   "theme.blog.post.views": {
-    "message": "Read {viewCount} Times",
+    "message": "Reads",
     "description": "The blog post has multiple views"
   }
 }

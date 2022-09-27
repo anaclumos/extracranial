@@ -81,7 +81,10 @@ async function getViewCount(path: string) {
   return viewCount
 }
 
-const getViewString = (viewCount: number) => {
+const getViewString = (
+  viewCount: number,
+  locale: string
+) => {
   if (viewCount === -1) {
     return translate({
       id: 'theme.blog.post.loading.views',
@@ -96,19 +99,22 @@ const getViewString = (viewCount: number) => {
       description: 'The blog post has no views',
     })
   } else if (viewCount === 1) {
-    return translate({
-      id: 'theme.blog.post.view',
-      message: '1 view',
-      description: 'The blog post has 1 view',
-    })
+    return (
+      viewCount.toLocaleString(locale) +
+      translate({
+        id: 'theme.blog.post.view',
+        message: 'view',
+        description: 'The blog post has 1 view',
+      })
+    )
   } else {
-    return translate(
-      {
+    return (
+      viewCount.toLocaleString(locale) +
+      translate({
         id: 'theme.blog.post.views',
-        message: '{viewCount} views',
+        message: 'views',
         description: 'The blog post has multiple views',
-      },
-      { viewCount }
+      })
     )
   }
 }
@@ -117,8 +123,13 @@ export default function BlogPostItemHeaderInfo({
   className,
 }: Props): JSX.Element {
   const { metadata } = useBlogPost()
-  const { date, formattedDate, readingTime, permalink } =
-    metadata
+  const {
+    date,
+    formattedDate,
+    readingTime,
+    permalink,
+    locale,
+  } = metadata
 
   const [viewCount, setViewCount] = React.useState(-1)
   React.useEffect(() => {
@@ -152,7 +163,7 @@ export default function BlogPostItemHeaderInfo({
             rel="noreferrer noopener"
             className={styles.viewCount}
           >
-            <span>{getViewString(viewCount)}</span>
+            <span>{getViewString(viewCount, locale)}</span>
           </a>
         </>
       )}
