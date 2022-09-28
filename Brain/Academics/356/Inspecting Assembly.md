@@ -26,3 +26,4 @@ slug: '/A6DBE3'
 | `cont`                 | continues execution from the current location.                                                  |
 | `quit`                 | quits `gdb`                                                                                     |
 | `"%d %[^\n]"`          | integer + string                                                                                |
+| `layout regs`          | layout all registers                                                                            |
