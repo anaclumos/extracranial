@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1cc9d57f18f56c43",
+        "id": "4bbb3ff968ea287c",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -116,8 +116,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "1cc9d57f18f56c43",
+  "active": "4bbb3ff968ea287c",
   "lastOpenFiles": [
+    "Academics/356/Inspecting Assembly.md",
     "Journals/2022-09-27.md",
     "Journals/2022-09-26.md",
     "Projects/Coding Tests/Real Exams.md",
@@ -126,7 +127,6 @@
     "Projects/Coding Tests/1290 Convert Binary Number in a Linked List to Integer.md",
     "Projects/Coding Tests/Coding Tests.md",
     "Projects/Coding Tests/0733 Flood Fill.md",
-    "Projects/Coding Tests/0704 Binary Search.md",
-    "Projects/Coding Tests/0235 LCA of a Binary Search Tree.md"
+    "Projects/Coding Tests/0704 Binary Search.md"
   ]
 }
