@@ -1,10 +1,10 @@
 .tableOfContents {
   max-height: calc(
-    100vh - (var(--ifm-navbar-height) + 2rem)
+    100vh - (var(--ifm-navbar-height) + 4rem)
   );
   overflow-y: auto;
   position: sticky;
-  top: calc(var(--ifm-navbar-height) + 1rem);
+  top: calc(var(--ifm-navbar-height) + 2rem);
   opacity: var(--unhovered-transparency);
   padding: var(--padding);
   border-radius: var(--border-radius);

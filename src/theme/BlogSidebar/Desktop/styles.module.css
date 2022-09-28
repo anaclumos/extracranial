@@ -1,6 +1,6 @@
 .sidebar {
   max-height: calc(
-    100vh - (var(--ifm-navbar-height) + 2rem)
+    100vh - (var(--ifm-navbar-height) + 4rem)
   );
   overflow-y: auto;
   position: sticky;
@@ -9,7 +9,7 @@
   padding: var(--padding);
   border-radius: var(--border-radius);
   text-align: end;
-  padding: 1.6rem 3rem 1.6rem 1rem;
+  padding: 1.5rem 2rem 1.5rem 1.5rem;
 }
 
 .sidebar:hover {
