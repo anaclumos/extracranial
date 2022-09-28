@@ -13,7 +13,7 @@
 }
 
 * {
-  --unhovered-transparency: 10%;
+  --unhovered-transparency: 80%;
   --padding: 1rem;
   --border-radius: 0.5rem;
   --ifm-toc-padding-horizontal: 0.5rem;
@@ -64,8 +64,7 @@ figure {
   flex-flow: column;
   border-radius: 0.5rem;
   overflow: hidden;
-  margin: 1rem 0;
-  margin: auto;
+  margin: 1rem auto;
 }
 
 img {
@@ -99,7 +98,7 @@ hr {
 
 table {
   display: table;
-  margin: auto;
+  margin: 1rem auto;
   min-width: 80%;
 }
 
