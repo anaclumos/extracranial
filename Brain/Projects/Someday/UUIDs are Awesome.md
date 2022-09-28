@@ -1,5 +1,5 @@
 ---
-title: 'Alphanumeric'
+title: 'UUIDs Are Awesome'
 slug: '/0A964E'
 ---
 
