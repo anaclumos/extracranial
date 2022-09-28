@@ -6,17 +6,16 @@
   position: sticky;
   top: calc(var(--ifm-navbar-height) + 1rem);
   opacity: var(--unhovered-transparency);
-  background-color: var(--ifm-menu-color-background-active);
   padding: var(--padding);
   border-radius: var(--border-radius);
 }
 
 .tableOfContents:hover {
-  opacity: 1;
+  background-color: var(--ifm-menu-color-background-active);
 }
 
 .tableOfContents {
-  transition: opacity 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 @media (max-width: 996px) {
   .tableOfContents {

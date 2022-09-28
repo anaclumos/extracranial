@@ -13,7 +13,7 @@
 }
 
 * {
-  --unhovered-transparency: 80%;
+  --unhovered-transparency: 100%;
   --padding: 1rem;
   --border-radius: 0.5rem;
   --ifm-toc-padding-horizontal: 0.5rem;
