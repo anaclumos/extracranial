@@ -4,3 +4,7 @@ date: 2020-04-26
 authors: anaclumos
 slug: '/522AED'
 ---
+
+import WIP from '@site/src/components/WIP'
+
+<WIP state="translating" />
