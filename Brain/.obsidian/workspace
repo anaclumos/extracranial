@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "686e56a8885961ac",
+        "id": "1cc9d57f18f56c43",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -116,17 +116,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "686e56a8885961ac",
+  "active": "1cc9d57f18f56c43",
   "lastOpenFiles": [
-    "Projects/Coding Tests/Real Exams.md",
+    "Journals/2022-09-27.md",
     "Journals/2022-09-26.md",
+    "Projects/Coding Tests/Real Exams.md",
     "Projects/Coding Tests/0110 Balanced Binary Tree.md",
     "Journals/2022-09-25.md",
     "Projects/Coding Tests/1290 Convert Binary Number in a Linked List to Integer.md",
     "Projects/Coding Tests/Coding Tests.md",
     "Projects/Coding Tests/0733 Flood Fill.md",
     "Projects/Coding Tests/0704 Binary Search.md",
-    "Projects/Coding Tests/0235 LCA of a Binary Search Tree.md",
-    "Projects/Coding Tests/0242 Valid Anagram.md"
+    "Projects/Coding Tests/0235 LCA of a Binary Search Tree.md"
   ]
 }
