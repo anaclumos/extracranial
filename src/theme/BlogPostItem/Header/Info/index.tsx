@@ -8,6 +8,8 @@ import type { Props } from '@theme/BlogPostItem/Header/Info'
 
 import styles from './styles.module.css'
 
+import { previousAnalyticsData } from '@site/static/previous'
+
 // Very simple pluralization: probably good enough for now
 function useReadingTimePlural() {
   const { selectMessage } = usePluralForm()
@@ -69,15 +71,13 @@ async function getViewCount(path: string) {
         .json()
         .then((data) => data.pages)
         .then((pages) => {
-          // console.log(pages)
           pages.forEach((page) => {
-            console.log(page)
             viewCount += page.pageviews
           })
         })
     )
   }
-  console.log(viewCount)
+  viewCount += previousAnalyticsData[viewCountKey] || 0
   return viewCount
 }
 
