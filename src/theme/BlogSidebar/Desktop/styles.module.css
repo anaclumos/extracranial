@@ -8,6 +8,8 @@
   opacity: var(--unhovered-transparency);
   padding: var(--padding);
   border-radius: var(--border-radius);
+  text-align: end;
+  padding: 1.6rem 3rem 1.6rem 1rem;
 }
 
 .sidebar:hover {
