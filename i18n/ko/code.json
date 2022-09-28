@@ -541,11 +541,11 @@
     "description": "The blog post has no views"
   },
   "theme.blog.post.view": {
-    "message": "번 읽음",
+    "message": "번 열람",
     "description": "The blog post has 1 view"
   },
   "theme.blog.post.views": {
-    "message": "번 읽음",
+    "message": "번 열람",
     "description": "The blog post has multiple views"
   }
 }
