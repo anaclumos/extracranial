@@ -293,6 +293,7 @@ main .gsc-loading-image {
   background-image: url('https://github.githubassets.com/images/mona-loading-dark.gif');
 }
 
-.giscus > .gsc-upvote-button {
+.gsc-upvote-button,
+.gsc-social-reaction-summary-item {
   display: none;
 }
