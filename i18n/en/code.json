@@ -44,7 +44,7 @@
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "All posts that I wrote.",
+    "message": "These are all the posts that I have written. Please take your time and look around.",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.post.readingTime.plurals": {
