@@ -82,7 +82,7 @@ const config: Config = {
   },
   scripts: [
     {
-      src: 'https://scripts.simpleanalyticscdn.com/latest.js',
+      src: 'https://sa.cho.sh/latest.js',
       async: true,
       defer: true,
     },
