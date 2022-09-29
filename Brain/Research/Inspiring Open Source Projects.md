@@ -1,6 +1,5 @@
 ---
 slug: '/7442D2'
-draft: true
 ---
 
 # Inspiring Open Source Projects
