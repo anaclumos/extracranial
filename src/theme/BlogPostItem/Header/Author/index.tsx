@@ -47,7 +47,12 @@ export default function BlogPostItemHeaderAuthor({
             itemScope
             itemType="https://schema.org/Person"
           >
-            <div className="avatar__name">
+            <div
+              className={clsx(
+                'avatar__name',
+                styles.authorName
+              )}
+            >
               <span itemProp="name">{name}</span>
             </div>
             {title && (
