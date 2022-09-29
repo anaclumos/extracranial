@@ -20,7 +20,21 @@ Extracranial is my term for an organized knowledge base **on the web** that aims
 
 ![[Pasted image 20220925131410.png]]
 
+### [Everything I know](https://wiki.nikiv.dev/) by [nikitavoloboev (Nikita)](https://github.com/nikitavoloboev)
+
+![[Pasted image 20220928232755.png]]
+
+## Notables
+
+### [TSEI.JP | tseijp](https://tsei.jp/)
+
+- Implements 3d graphic
+
+![[Assets/1664434133.png]]
+
 ### [Andy Matuschak](https://notes.andymatuschak.org/About_these_notes)
+
+- sliding panes
 
 ## Potential Tools
 
