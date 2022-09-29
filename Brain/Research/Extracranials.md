@@ -30,7 +30,7 @@ Extracranial is my term for an organized knowledge base **on the web** that aims
 
 - Implements 3d graphic
 
-![[Assets/1664434133.png]]
+![[1664434133.png]]
 
 ### [Andy Matuschak](https://notes.andymatuschak.org/About_these_notes)
 
