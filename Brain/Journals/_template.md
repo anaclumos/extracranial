@@ -10,6 +10,8 @@ import WIP from '@site/src/components/WIP'
 
 <WIP />
 
+{{caret}}
+
 ## [[Coding Tests]]
 
 ## Today's [[Hacker News]]
@@ -19,3 +21,5 @@ import WIP from '@site/src/components/WIP'
 ## Academic Research
 
 ## Personal Research
+
+{{caret}}

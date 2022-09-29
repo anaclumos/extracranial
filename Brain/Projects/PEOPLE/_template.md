@@ -4,7 +4,7 @@ slug: '/{{title}}'
 ---
 
 - Interviewed at: [[{{date:YYYY-MM-DD}}]]
-- Currently works at
+- Currently works at {{caret}}
 
 import Admonition from '@theme/Admonition'
 

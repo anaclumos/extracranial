@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "7993edf3f335786d",
+        "id": "e918ef1c1f70c9d9",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,9 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "7993edf3f335786d",
+  "active": "e918ef1c1f70c9d9",
   "lastOpenFiles": [
     "Journals/2022-09-28.md",
+    "Research/Extracranials.md",
     "Research/초상권 vs 저작권.md",
     "Projects/Someday/UUIDs are Awesome.md",
     "Academics/356/Inspecting Assembly.md",
@@ -125,7 +126,6 @@
     "Journals/2022-09-26.md",
     "Projects/Coding Tests/Real Exams.md",
     "Projects/Coding Tests/0110 Balanced Binary Tree.md",
-    "Journals/2022-09-25.md",
-    "Projects/Coding Tests/1290 Convert Binary Number in a Linked List to Integer.md"
+    "Journals/2022-09-25.md"
   ]
 }
