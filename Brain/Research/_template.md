@@ -1,5 +1,5 @@
 ---
-slug: '/7442D2'
+slug: '{{hex}}'
 draft: true
 ---
 
