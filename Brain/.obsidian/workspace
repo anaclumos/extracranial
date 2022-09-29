@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e918ef1c1f70c9d9",
+        "id": "f758f3f678bf24d3",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "draft: true",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "e918ef1c1f70c9d9",
+  "active": "f758f3f678bf24d3",
   "lastOpenFiles": [
+    "Research/Inspiring Open Source Projects.md",
+    "Journals/2022-09-29.md",
+    "Research/Ticket Bounty Model.md",
+    "Research/TODO.md",
+    "Research/Transient.md",
+    "Research/SharedArrayBuffer.md",
+    "Research/Sandbox.md",
     "Journals/2022-09-28.md",
     "Research/Extracranials.md",
-    "Research/초상권 vs 저작권.md",
-    "Projects/Someday/UUIDs are Awesome.md",
-    "Academics/356/Inspecting Assembly.md",
-    "Journals/2022-09-27.md",
-    "Journals/2022-09-26.md",
-    "Projects/Coding Tests/Real Exams.md",
-    "Projects/Coding Tests/0110 Balanced Binary Tree.md",
-    "Journals/2022-09-25.md"
+    "Research/초상권 vs 저작권.md"
   ]
 }

@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     for md_file in all_md_files:
         # ignore files with Template in the name
-        if "Template" in md_file:
+        if "template" in md_file.lower():
             continue
         # Replace all {{hex}} with a random hex number
         with open(md_file, 'r') as f:
