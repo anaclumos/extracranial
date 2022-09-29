@@ -30,7 +30,7 @@ If you seek internationalized content, check out my [articles](/w/archive).
 
 ## Tech Stacks
 
-I use [[Obsidian]] for taking notes.
+I use [[Obsidian]] and [[Nota]] for taking notes.
 I pipeline those notes into a heavily customized [[TS]] [[Docusaurus]] with custom [[React]] components.
 I use [[Vercel]] for deploying (SSR) and [[Cloudflare]] CDN for caching and distributing.
 Finally, I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial), so take a look.
