@@ -1,12 +1,14 @@
 ---
 title: '#{{title}}'
-slug: '{{hex}}'
+slug: '/554627'
 draft: true
 ---
 
 Solved at: [[{{date:YYYY-MM-DD}}]]
 
 ## Question
+
+{{caret}}
 
 ## Solution
 
