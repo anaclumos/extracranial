@@ -17,3 +17,7 @@
   font-size: 0.8rem;
   color: var(--ifm-color-emphasis-700);
 }
+
+.authorName {
+  font-family: var(--font-family-sans-serif);
+}
