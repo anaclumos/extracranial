@@ -86,6 +86,11 @@ const config: Config = {
       async: true,
       defer: true,
     },
+    {
+      src: 'src="https://plausible.io/js/plausible.js',
+      defer: true,
+      'data-domain': 'cho.sh',
+    },
   ],
   plugins: [['@docusaurus/plugin-pwa', pwaOptions]],
 }
