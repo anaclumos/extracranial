@@ -87,7 +87,7 @@ const config: Config = {
       defer: true,
     },
     {
-      src: 'src="https://plausible.io/js/plausible.js',
+      src: 'https://plausible.io/js/plausible.js',
       defer: true,
       'data-domain': 'cho.sh',
     },
