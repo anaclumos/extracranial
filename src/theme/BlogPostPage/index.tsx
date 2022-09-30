@@ -27,6 +27,13 @@ export default function BlogPostPageWrapper(
           )}**.png?theme=%235597ec&md=1&fontSize=100px&images=https%3A%2F%2Fcho.sh%2Fimg%2Ffavicon.png`}
         />
       </Head>
+      <noscript>
+        <img
+          src="https://sa.cho.sh/noscript.gif"
+          alt=""
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </noscript>
       <BlogPostPage {...props} />
     </>
   )
