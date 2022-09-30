@@ -49,6 +49,7 @@ Extracranial is my term for an organized knowledge base **on the web** that aims
 - [Victor Dibia](https://victordibia.com/)
 - [Tania Rascia](https://www.taniarascia.com/)
 - [Edy Kim](https://edykim.com/)
+- [Chris Welch](https://chriswelch.co/)
 
 ## Fast Websites (SPA based)
 
