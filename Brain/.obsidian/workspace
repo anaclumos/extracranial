@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "12e6e56dcada7f61",
+        "id": "532898abd195448c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-09-30.md",
+            "file": "Research/Prompt Engineering.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-09-30.md",
+                "file": "Research/Prompt Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-09-30.md"
+                "file": "Research/Prompt Engineering.md"
               }
             }
           },
@@ -124,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "12e6e56dcada7f61",
+  "active": "532898abd195448c",
   "lastOpenFiles": [
+    "Journals/2022-09-30.md",
+    "Research/Prompt Engineering.md",
+    "Research/Metaverse.md",
     "Research/NextJS.md",
     "Research/Tools for Thought.md",
-    "Journals/2022-09-30.md",
     "Research/Extracranials.md",
     "Research/Dynamic Island.md",
     "Projects/Coding Tests/_template.md",
     "Research/Worker.md",
-    "Journals/2022-08-25.md",
-    "Research/원숭이와 꽃신.md",
-    "Research/PARA.md"
+    "Journals/2022-08-25.md"
   ]
 }
