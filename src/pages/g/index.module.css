@@ -1,3 +1,7 @@
 .graphView {
   font-family: var(--font-family-sans-serif) !important;
 }
+
+.mainContainer {
+  overflow: hidden;
+}
