@@ -1,8 +1,8 @@
 {
   "theme": "obsidian",
-  "interfaceFontFamily": "",
-  "textFontFamily": "Dank Mono",
-  "monospaceFontFamily": "Dank Mono",
+  "interfaceFontFamily": "SF Mono",
+  "textFontFamily": "SF Mono",
+  "monospaceFontFamily": "Dank Mono,SF Mono",
   "cssTheme": "Minimal",
   "translucency": false,
   "baseFontSize": 16
