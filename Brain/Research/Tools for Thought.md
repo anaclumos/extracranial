@@ -65,7 +65,7 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 - [Ghost](https://ghost.org/)
 - [GitHub Pages](https://pages.github.com/)
 - [Gatsby JS](https://www.gatsbyjs.com/)
-- [Next JS](https://nextjs.org/)
+- [[NextJS]]
 - [Docusaurus](https://docusaurus.io/)
 
 ## One radical idea...
