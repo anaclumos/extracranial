@@ -17,9 +17,12 @@ const losangeles: Marker = {
 const markers: Marker[] = [seoul, losangeles]
 
 export const Globe = () => {
-  const canvasRef = useRef(null)
-  const pointerInteracting = useRef(null)
+  const canvasRef = useRef<HTMLCanvasElement | null>(null)
+  const pointerInteracting = useRef<number | null>(null)
   const pointerInteractionMovement = useRef(0)
+  if (!canvasRef) {
+    return null
+  }
   const [{ r }, api] = useSpring(() => ({
     r: 0,
     config: {
@@ -29,9 +32,6 @@ export const Globe = () => {
       precision: 0.001,
     },
   }))
-  if (!canvasRef) {
-    return null
-  }
   useEffect(() => {
     let phi = 0
     let width = 0
