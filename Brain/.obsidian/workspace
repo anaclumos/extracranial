@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6039545a449c8bc3",
+        "id": "12e6e56dcada7f61",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-09-30.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "draft: true",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -73,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-09-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-09-30.md"
+              }
             }
           },
           {
@@ -115,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "6039545a449c8bc3",
+  "active": "12e6e56dcada7f61",
   "lastOpenFiles": [
-    "Journals/2022-09-29.md",
-    "Readings/The Chinese Typewriter.md",
-    "Research/Inspiring Open Source Projects.md",
-    "Hey.md",
-    "Research/Ticket Bounty Model.md",
-    "Research/TODO.md",
-    "Research/Transient.md",
-    "Research/SharedArrayBuffer.md",
-    "Research/Sandbox.md",
-    "Journals/2022-09-28.md"
+    "Research/Extracranials.md",
+    "Journals/2022-09-30.md",
+    "Research/Dynamic Island.md",
+    "Projects/Coding Tests/_template.md",
+    "Research/NextJS.md",
+    "Research/Worker.md",
+    "Journals/2022-08-25.md",
+    "Research/원숭이와 꽃신.md",
+    "Research/PARA.md",
+    "Projects/Coding Tests/Real Interviews.md"
   ]
 }
