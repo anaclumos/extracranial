@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d97aaf40205ba712",
+        "id": "6039545a449c8bc3",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "d97aaf40205ba712",
+  "active": "6039545a449c8bc3",
   "lastOpenFiles": [
-    "Hey.md",
     "Journals/2022-09-29.md",
+    "Readings/The Chinese Typewriter.md",
     "Research/Inspiring Open Source Projects.md",
+    "Hey.md",
     "Research/Ticket Bounty Model.md",
     "Research/TODO.md",
     "Research/Transient.md",
     "Research/SharedArrayBuffer.md",
     "Research/Sandbox.md",
-    "Journals/2022-09-28.md",
-    "Research/Extracranials.md"
+    "Journals/2022-09-28.md"
   ]
 }
