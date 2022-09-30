@@ -1,6 +1,13 @@
 ---
 slug: '/BDC45C'
-aliases: ['Next.js']
+aliases:
+  [
+    'Next.js',
+    'Next.ts',
+    'TypeScript Next',
+    'JavaScript Next',
+    'Next JS',
+  ]
 ---
 
 # NextJS
