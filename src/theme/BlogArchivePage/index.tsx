@@ -8,6 +8,7 @@ import type {
   Props,
 } from '@theme/BlogArchivePage'
 import styles from './styles.module.css'
+import clsx from 'clsx'
 
 const t = {
   singular: translate({
@@ -57,7 +58,7 @@ function Year({ year, posts }: YearProp) {
 function YearsSection({ years }: { years: YearProp[] }) {
   return (
     <section className="margin-vert--lg">
-      <div className="container">
+      <div className={clsx('container', styles.container)}>
         <div className="row">
           {years.reverse().map((_props, idx) => (
             <div
@@ -115,7 +116,12 @@ export default function BlogArchive({
       />
       <Layout>
         <header className="hero hero--primary">
-          <div className="container">
+          <div
+            className={clsx(
+              'container',
+              styles.heroContainer
+            )}
+          >
             <h1 className="hero__title">{title}</h1>
             <p className="hero__subtitle">{description}</p>
           </div>
