@@ -8,17 +8,10 @@
   opacity: var(--unhovered-transparency);
   padding: var(--padding);
   border-radius: var(--border-radius);
-  filter: grayscale(100%);
-}
-
-.tableOfContents:hover {
-  background-color: var(--ifm-menu-color-background-active);
-  filter: none;
 }
 
 .tableOfContents {
-  transition: background-color 0.2s ease-in-out filter 0.2s
-    ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 @media (max-width: 996px) {
   .tableOfContents {
