@@ -1,5 +1,30 @@
 .list {
   list-style: disc;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   margin: 0;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+.heroContainer {
+  max-width: 80%;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .heroContainer {
+    max-width: 90%;
+  }
 }
