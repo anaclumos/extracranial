@@ -28,6 +28,8 @@
   --ios-style-checkbox-enabled-color: var(
     --primary-color-500
   );
+  --ifm-toc-padding-vertical: 0.25rem;
+  --ifm-toc-padding-horizontal: 0.25rem;
   --ios-style-checkbox-enabled-border-color: var(
     --primary-color-200
   );
@@ -38,6 +40,23 @@
     --ifm-menu-color-background-active
   );
   --ios-style-checkbox-border-width: 0.1rem;
+}
+
+.table-of-contents__link--active {
+  filter: none !important;
+}
+
+.table-of-contents__link {
+  filter: grayscale(100%);
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  transition: filter 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
+}
+
+.table-of-contents__link:hover {
+  filter: none;
+  background-color: var(--ifm-menu-color-background-active);
 }
 
 .table-of-contents {
