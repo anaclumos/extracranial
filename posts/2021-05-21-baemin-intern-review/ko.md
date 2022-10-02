@@ -199,7 +199,7 @@ OT가 이루어진 **작은집**. 잠실에 위치해 있다.
 </figcaption>
 </figure>
 
-### 👨‍💻 그래서 도대체 좋은 코드가 뭔데? (진짜 초보자의 관점에서)
+### 👨‍💻 도대체 (초보자에게) 좋은 코드가 뭔데?
 
 ```js
 // 우측 사이드바 활동 내역 로드
@@ -256,7 +256,7 @@ async function addActivityLogToActivityLogList() {
 
 우아한테크캠프에서 더닝 크루거의 썰매장을 경험한 것 같다. 나는 자바스크립트를 자유자재로 다룰 정도는 아니었기에 정말 열심히 따라가야 했다.
 
-### 🌎 인터넷 시대에 아는 것이란 도대체 무엇인가?
+### 🌎 인터넷 시대에 아는 것이란?
 
 또 검색이 존재하는 시대에 **아는 것이란 도대체 무엇인가**에 대한 고민도 많이 하게 되었다. 이 부분에 대해 프로그래밍에 한정한다면 약간의 답을 찾은 것 같다. GSPH라는 개념인데, Googling Session Per Hour의 약자이다. Googling Session이란 5분 이상의 깊은 검색 작업을 의미한다. 예를 들어 자바스크립트 속성 함수 이름이 기억이 나지 않아 검색을 2분 만에 마쳤다면 Googling Session에 해당하지 않지만 OAuth가 잘 생각나지 않아 10분간 도큐먼트를 봐야 한다면 Googling Session에 해당한다.
 
@@ -338,86 +338,85 @@ async function addActivityLogToActivityLogList() {
 <details>
 <summary>📚 더 많은 자료들</summary>
 
-### 우아한형제들 공식 자료
+- 우아한형제들 공식 자료
 
-- [우아한테크캠프 3기 모집 안내](https://woowabros.github.io/devrel/2020/04/13/techcamp3.html)
-- [우아한테크캠프 3기 7월의 일기](https://woowabros.github.io/devrel/2020/08/14/tecmpcamp_july_1.html)
-- [우아한테크캠프 3기 7월의 회고](https://woowabros.github.io/devrel/2020/08/19/techcamp_july_2.html)
-- [우아한테크캠프 3기 8월의 일기](https://woowabros.github.io/devrel/2020/09/08/techcampaugust.html)
-- [우아한테크캠프 3기 8월의 회고](https://woowabros.github.io/devrel/2020/09/14/techcamp3blog.html)
+  - [우아한테크캠프 3기 모집 안내](https://woowabros.github.io/devrel/2020/04/13/techcamp3.html)
+  - [우아한테크캠프 3기 7월의 일기](https://woowabros.github.io/devrel/2020/08/14/tecmpcamp_july_1.html)
+  - [우아한테크캠프 3기 7월의 회고](https://woowabros.github.io/devrel/2020/08/19/techcamp_july_2.html)
+  - [우아한테크캠프 3기 8월의 일기](https://woowabros.github.io/devrel/2020/09/08/techcampaugust.html)
+  - [우아한테크캠프 3기 8월의 회고](https://woowabros.github.io/devrel/2020/09/14/techcamp3blog.html)
 
-### 7월의 기록들
+- 7월의 기록들
 
-- [(우아한테크캠프 3기) 캠프의 반환점을 돌며](https://zoomkoding.github.io/%ED%9A%8C%EA%B3%A0/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84/2020/07/26/woowa-tech-camp-mid-term.html)
-- [2020 우아한 테크캠프(3기) 7월 후기](https://velog.io/@blair/%EC%9A%B0%EC%95%84%ED%95%9C-%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84-7%EC%9B%94-%ED%9B%84%EA%B8%B0)
-- [\[우아한테크캠프 3기\] 2번째 페어프로그래밍 종료 및 회고 👀](https://haerang94.tistory.com/10)
-- [기본은 중요했다.](https://quail-han.tistory.com/20)
-- [나는 찐-개발자인가 (우아한테크캠프 3기 4주차 회고)](https://younho9.dev/am-i-real-developer)
-- [당신이 우아한테크캠프에 도전해야 하는 3가지 이유](https://www.notion.so/3-2da3c0db345c4512bd3d6f277c595d9e)
-- [두번째 프로젝트 - Todo List 개발기](https://yuda1124.github.io/woowa-todolist/)
-- [우아한 테크 캠프로 성장하기](https://www.notion.so/99af27fb380b4b1bbe751f90f48c293a)
-- [우아한테크캠프에 오기까지 그리고 지난 4주의 회고](https://www.notion.so/4-b766aaa13f954cb09ad1adde5ac1ecc2)
-- [좋은 동료는 무엇인가?](https://changicho.tistory.com/25)
-- [주니어 개발자가 느낀 '나에게 있어 부족한, 그래서 갖춰야 할' 현업능력](https://velog.io/@tnk2u/%EC%A3%BC%EB%8B%88%EC%96%B4-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%EC%84%B1%EC%88%99%ED%95%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90)
+  - [(우아한테크캠프 3기) 캠프의 반환점을 돌며](https://zoomkoding.github.io/%ED%9A%8C%EA%B3%A0/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84/2020/07/26/woowa-tech-camp-mid-term.html)
+  - [2020 우아한 테크캠프(3기) 7월 후기](https://velog.io/@blair/%EC%9A%B0%EC%95%84%ED%95%9C-%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84-7%EC%9B%94-%ED%9B%84%EA%B8%B0)
+  - [\[우아한테크캠프 3기\] 2번째 페어프로그래밍 종료 및 회고 👀](https://haerang94.tistory.com/10)
+  - [기본은 중요했다.](https://quail-han.tistory.com/20)
+  - [나는 찐-개발자인가 (우아한테크캠프 3기 4주차 회고)](https://younho9.dev/am-i-real-developer)
+  - [당신이 우아한테크캠프에 도전해야 하는 3가지 이유](https://www.notion.so/3-2da3c0db345c4512bd3d6f277c595d9e)
+  - [두번째 프로젝트 - Todo List 개발기](https://yuda1124.github.io/woowa-todolist/)
+  - [우아한 테크 캠프로 성장하기](https://www.notion.so/99af27fb380b4b1bbe751f90f48c293a)
+  - [우아한테크캠프에 오기까지 그리고 지난 4주의 회고](https://www.notion.so/4-b766aaa13f954cb09ad1adde5ac1ecc2)
+  - [좋은 동료는 무엇인가?](https://changicho.tistory.com/25)
+  - [주니어 개발자가 느낀 '나에게 있어 부족한, 그래서 갖춰야 할' 현업능력](https://velog.io/@tnk2u/%EC%A3%BC%EB%8B%88%EC%96%B4-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%EC%84%B1%EC%88%99%ED%95%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90)
 
-### 8월의 기록들
+- 8월의 기록들
 
-- [(우아한테크캠프 3기) 캠프를 마치며](https://zoomkoding.github.io/%ED%9A%8C%EA%B3%A0/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84/2020/10/05/woowa-tech-camp-final.html)
-- [Frontend Designer](https://blog.jhaemin.com/frontend-designer#kor)
-- [나는 비로소 성장했습니다. (우아한테크캠프 3기)](https://changicho.tistory.com/28)
-- [도착지는 하나지만, 가는 길은 하나가 아니다.](https://quail-han.tistory.com/21)
-- [마음의 소리 (우테캠 3기를 마치며)](https://www.notion.so/3-b08da2dc608645f7aac55a484c68b946)
-- [우테캠 매일의 짧은 기록](https://www.notion.so/e6c39818e2ac4577a3dfc2f4fef0d1ad)
-- [친절과 불친절 사이 - 우아한 테크 캠프 전체 회고](https://velog.io/@naamoonoo/%EC%B9%9C%EC%A0%88%EA%B3%BC-%EB%B6%88%EC%B9%9C%EC%A0%88-%EC%82%AC%EC%9D%B4)
+  - [(우아한테크캠프 3기) 캠프를 마치며](https://zoomkoding.github.io/%ED%9A%8C%EA%B3%A0/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84/2020/10/05/woowa-tech-camp-final.html)
+  - [Frontend Designer](https://blog.jhaemin.com/frontend-designer#kor)
+  - [나는 비로소 성장했습니다. (우아한테크캠프 3기)](https://changicho.tistory.com/28)
+  - [도착지는 하나지만, 가는 길은 하나가 아니다.](https://quail-han.tistory.com/21)
+  - [마음의 소리 (우테캠 3기를 마치며)](https://www.notion.so/3-b08da2dc608645f7aac55a484c68b946)
+  - [우테캠 매일의 짧은 기록](https://www.notion.so/e6c39818e2ac4577a3dfc2f4fef0d1ad)
+  - [친절과 불친절 사이 - 우아한 테크 캠프 전체 회고](https://velog.io/@naamoonoo/%EC%B9%9C%EC%A0%88%EA%B3%BC-%EB%B6%88%EC%B9%9C%EC%A0%88-%EC%82%AC%EC%9D%B4)
 
-### 기술 관련
+- 기술 관련
 
-- [우아한 테크캠프 3기 스터디 블로그](https://woowa-techcamp-2020.github.io/practice-interview/)
-- [CI 붙이기 위해 GitHub Organization에 권한 요청하기](https://github.com/woowa-techcamp-2020/market-3/wiki/CI-%EB%B6%99%EC%9D%B4%EA%B8%B0-%EC%9C%84%ED%95%B4-GitHub-Organization%EC%97%90-%EA%B6%8C%ED%95%9C-%EC%9A%94%EC%B2%AD%ED%95%98%EA%B8%B0)
-- [Context API, LifeCycle API, Component Docs, Component, Design Pattern, Redux](https://github.com/changicho/TIL/tree/master/frontend/react)
-- [Getting started to import...](https://www.notion.so/Getting-started-to-import-2a74cd0530df414888aa35d03c54c936#a8cb4fc856e2457e82ec7e5a7b478779)
-- [Git 단축키 허니팁](https://github.com/woowa-techcamp-2020/todo-13/wiki/Git-%EB%8B%A8%EC%B6%95%ED%82%A4-%ED%97%88%EB%8B%88%ED%8C%81)
-- [Github Actions + CodeDeploy + EC2 자동배포하기](https://www.notion.so/Github-Actions-CodeDeploy-EC2-6d74884a83ef47babce65b47dc130a1a)
-- [Image Lazy Loading](https://github.com/woowa-techcamp-2020/bmart-10/wiki/Image-Lazy-Loading)
-- [Iterm 호출](https://www.notion.so/Iterm-a8bd15b995124f0eb94182eb03f35f0b)
-- [React 애플리케이션 아키텍처 - 아무도 알려주지 않아서 혼자서 삽질했다.](https://www.slideshare.net/byungdaesohn/react-76078368)
-- [TIL_20200715](https://www.notion.so/TIL_20200715-84bbe0a9dd2d4664b5a1a36b10c5b1b8)
-- [TIL_20200802(Postman과 이별하기)](https://www.notion.so/TIL_20200802-Postman-5a2692ff78c74368a4e382ecf3ccef5e)
-- [TIL_20200816](https://www.notion.so/TIL_20200816-eea7c20e22444afa8e3578955de9d1d2)
-- [TIL_20200817](https://www.notion.so/TIL_20200817-22d0cea752a64974b8f3eda7ac40e6a5)
-- [TIL_20200824](https://www.notion.so/TIL_20200824-fca07160d5404208b1c3977677173593)
-- [VS Code에서 생산성을 향상해보자](https://www.notion.so/VS-Code-576294cd06784db0a5e5f092429d02fb)
-- [VSCode에서 alias IntelliSense 적용시키기](https://www.notion.so/VSCode-alias-IntelliSense-5133854c58ba470d98abaad06333407c)
-- [VanilaJS로 달력 구현하기.](https://github.com/woowa-techcamp-2020/hkb-9/wiki/%EB%8B%AC%EB%A0%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0)
-- [Webpack으로 boilerplate 만들기 - 1 (webpack, babel 설정하기)](https://haerang94.tistory.com/m/5?category=791931)
-- [\[NPM\] semantic versioning](https://github.com/eunjung-jenny/deep_dive/blob/master/semantic%20versioning.md)
-- [cookie parser](https://github.com/woowa-techcamp-2020/market-9/wiki/cookie-parser)
-- [express.json() vs express.urlencoded()](<https://github.com/woowa-techcamp-2020/market-9/wiki/express.json()-vs-express.urlencoded()>)
-- [heroku mysql 연동해서 webpack + express 프로젝트 배포해보기 (heroku mysql연동편)](https://haerang94.tistory.com/8?category=791931)
-- [mouse event만으로 투두리스트(todo list) 만들기 (feat. 이벤트 위임)](https://changicho.tistory.com/23)
-- [mouse 이벤트로 drag and drop 구현하기](https://github.com/woowa-techcamp-2020/todo-1/wiki/mouse-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%A1%9C-drag-and-drop-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
-- [woowahan-ORM A very light promise-based Node.js ORM for MySQL](https://github.com/woowa-techcamp-2020/woowahan-orm)
-- [기술면접대비](https://docs.google.com/spreadsheets/d/1kLRKDLHAX5mu0XwxgdAmSbp7NCmbwEqGpPxZWya4gyY/edit#gid=0)
-- [기술문서 : GraphQL](https://github.com/woowa-techcamp-2020/bmart-3/wiki/%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C-:-GraphQL)
-- [드래그 앤 드롭 애니메이션](https://github.com/woowa-techcamp-2020/todo-14/blob/main/doc/Drag-and-Drop-with-Animation.md)
-- [리액트 따라하려다 바짓가랑이 찢어진 이야기](https://github.com/naamoonoo/wtc/blob/master/wooact/doc/%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%94%B0%EB%9D%BC%ED%95%98%EB%A0%A4%EB%8B%A4%20%EB%B0%94%EC%A7%93%EA%B0%80%EB%9E%91%EC%9D%B4%20%EC%B0%A2%EC%96%B4%EC%A7%84%20%EC%9D%B4%EC%95%BC%EA%B8%B0%20695f40ce352e4f279ac026b4a6c17947.md)
-- [리액트는 어떻게 작동할까 - Diffing](https://www.notion.so/Diffing-3f98bc8be2d448fc8013f53ea595e647)
-- [마우스 이벤트를 이용한 Drag & Drop 구현기](https://www.notion.so/Drag-Drop-5267f4f650a3407e998fa9b0a2bd67da)
-- [배민상회 카테고리 메뉴 어설픈 개선(?) 후기](https://www.notion.so/399b82afc08a487b8b69e0358c20f1a8)
-- [안녕, Passport](https://parkjihwanjay.github.io/third-post/)
-- [오토바이는 어떻게 날아왔을까?](https://github.com/naamoonoo/wtc/tree/master/animation-css)
-- [커스텀 엘리먼트(Custom Elements)](https://www.notion.so/Custom-Elements-c8d32964bec6453e9ef6161513671ff8)
-- [쿠팡 카테고리 메뉴 어설픈 개선(?) 후기](https://www.notion.so/5b0b0aa4804041d2bbc5dbb79f398d5f)
-- [프로젝트 깃허브 페이지에 배포하기](https://www.notion.so/ae3b7117ad8b4b70968ba0f428b70e51)
-- [프론트엔드 개발환경 설정하기](https://github.com/woowa-techcamp-2020/todo-9/wiki/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
+  - [우아한 테크캠프 3기 스터디 블로그](https://woowa-techcamp-2020.github.io/practice-interview/)
+  - [CI 붙이기 위해 GitHub Organization에 권한 요청하기](https://github.com/woowa-techcamp-2020/market-3/wiki/CI-%EB%B6%99%EC%9D%B4%EA%B8%B0-%EC%9C%84%ED%95%B4-GitHub-Organization%EC%97%90-%EA%B6%8C%ED%95%9C-%EC%9A%94%EC%B2%AD%ED%95%98%EA%B8%B0)
+  - [Context API, LifeCycle API, Component Docs, Component, Design Pattern, Redux](https://github.com/changicho/TIL/tree/master/frontend/react)
+  - [Getting started to import...](https://www.notion.so/Getting-started-to-import-2a74cd0530df414888aa35d03c54c936#a8cb4fc856e2457e82ec7e5a7b478779)
+  - [Git 단축키 허니팁](https://github.com/woowa-techcamp-2020/todo-13/wiki/Git-%EB%8B%A8%EC%B6%95%ED%82%A4-%ED%97%88%EB%8B%88%ED%8C%81)
+  - [Github Actions + CodeDeploy + EC2 자동배포하기](https://www.notion.so/Github-Actions-CodeDeploy-EC2-6d74884a83ef47babce65b47dc130a1a)
+  - [Image Lazy Loading](https://github.com/woowa-techcamp-2020/bmart-10/wiki/Image-Lazy-Loading)
+  - [Iterm 호출](https://www.notion.so/Iterm-a8bd15b995124f0eb94182eb03f35f0b)
+  - [React 애플리케이션 아키텍처 - 아무도 알려주지 않아서 혼자서 삽질했다.](https://www.slideshare.net/byungdaesohn/react-76078368)
+  - [TIL_20200715](https://www.notion.so/TIL_20200715-84bbe0a9dd2d4664b5a1a36b10c5b1b8)
+  - [TIL_20200802(Postman과 이별하기)](https://www.notion.so/TIL_20200802-Postman-5a2692ff78c74368a4e382ecf3ccef5e)
+  - [TIL_20200816](https://www.notion.so/TIL_20200816-eea7c20e22444afa8e3578955de9d1d2)
+  - [TIL_20200817](https://www.notion.so/TIL_20200817-22d0cea752a64974b8f3eda7ac40e6a5)
+  - [TIL_20200824](https://www.notion.so/TIL_20200824-fca07160d5404208b1c3977677173593)
+  - [VS Code에서 생산성을 향상해보자](https://www.notion.so/VS-Code-576294cd06784db0a5e5f092429d02fb)
+  - [VSCode에서 alias IntelliSense 적용시키기](https://www.notion.so/VSCode-alias-IntelliSense-5133854c58ba470d98abaad06333407c)
+  - [VanilaJS로 달력 구현하기.](https://github.com/woowa-techcamp-2020/hkb-9/wiki/%EB%8B%AC%EB%A0%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+  - [Webpack으로 boilerplate 만들기 - 1 (webpack, babel 설정하기)](https://haerang94.tistory.com/m/5?category=791931)
+  - [\[NPM\] semantic versioning](https://github.com/eunjung-jenny/deep_dive/blob/master/semantic%20versioning.md)
+  - [cookie parser](https://github.com/woowa-techcamp-2020/market-9/wiki/cookie-parser)
+  - [express.json() vs express.urlencoded()](<https://github.com/woowa-techcamp-2020/market-9/wiki/express.json()-vs-express.urlencoded()>)
+  - [heroku mysql 연동해서 webpack + express 프로젝트 배포해보기 (heroku mysql연동편)](https://haerang94.tistory.com/8?category=791931)
+  - [mouse event만으로 투두리스트(todo list) 만들기 (feat. 이벤트 위임)](https://changicho.tistory.com/23)
+  - [mouse 이벤트로 drag and drop 구현하기](https://github.com/woowa-techcamp-2020/todo-1/wiki/mouse-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%A1%9C-drag-and-drop-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+  - [woowahan-ORM A very light promise-based Node.js ORM for MySQL](https://github.com/woowa-techcamp-2020/woowahan-orm)
+  - [기술면접대비](https://docs.google.com/spreadsheets/d/1kLRKDLHAX5mu0XwxgdAmSbp7NCmbwEqGpPxZWya4gyY/edit#gid=0)
+  - [기술문서 : GraphQL](https://github.com/woowa-techcamp-2020/bmart-3/wiki/%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C-:-GraphQL)
+  - [드래그 앤 드롭 애니메이션](https://github.com/woowa-techcamp-2020/todo-14/blob/main/doc/Drag-and-Drop-with-Animation.md)
+  - [리액트 따라하려다 바짓가랑이 찢어진 이야기](https://github.com/naamoonoo/wtc/blob/master/wooact/doc/%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%94%B0%EB%9D%BC%ED%95%98%EB%A0%A4%EB%8B%A4%20%EB%B0%94%EC%A7%93%EA%B0%80%EB%9E%91%EC%9D%B4%20%EC%B0%A2%EC%96%B4%EC%A7%84%20%EC%9D%B4%EC%95%BC%EA%B8%B0%20695f40ce352e4f279ac026b4a6c17947.md)
+  - [리액트는 어떻게 작동할까 - Diffing](https://www.notion.so/Diffing-3f98bc8be2d448fc8013f53ea595e647)
+  - [마우스 이벤트를 이용한 Drag & Drop 구현기](https://www.notion.so/Drag-Drop-5267f4f650a3407e998fa9b0a2bd67da)
+  - [배민상회 카테고리 메뉴 어설픈 개선(?) 후기](https://www.notion.so/399b82afc08a487b8b69e0358c20f1a8)
+  - [안녕, Passport](https://parkjihwanjay.github.io/third-post/)
+  - [오토바이는 어떻게 날아왔을까?](https://github.com/naamoonoo/wtc/tree/master/animation-css)
+  - [커스텀 엘리먼트(Custom Elements)](https://www.notion.so/Custom-Elements-c8d32964bec6453e9ef6161513671ff8)
+  - [쿠팡 카테고리 메뉴 어설픈 개선(?) 후기](https://www.notion.so/5b0b0aa4804041d2bbc5dbb79f398d5f)
+  - [프로젝트 깃허브 페이지에 배포하기](https://www.notion.so/ae3b7117ad8b4b70968ba0f428b70e51)
+  - [프론트엔드 개발환경 설정하기](https://github.com/woowa-techcamp-2020/todo-9/wiki/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
 
-## 이미지 소스
-
-- 더닝 크루거 효과
-- 미란다 (시트콤)
-- MBC 무한도전
-- StarCraft II: Legacy of the Void Opening Cinematic
-
-![끝!](images/hero.JPG)
+- 이미지 소스
+  - 더닝 크루거 효과
+  - 미란다 (시트콤)
+  - MBC 무한도전
+  - StarCraft II: Legacy of the Void Opening Cinematic
 
 </details>
+
+![끝!](images/hero.JPG)
