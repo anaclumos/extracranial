@@ -5,8 +5,8 @@
 
 > ex·tra·cra·ni·al (ek-strə-ˈkrā-nē-əl): situated or occurring outside the brain enclosure 🧠
 
-This is my personal Wikipedia! It aims to document *everything* I know. I wrote a [post](https://cho.sh/blog/D8FB8E) imagining such a creation before making this website. It would be entertaining for you to compare how similar and different I built this project from my imagination.
-in 
+This is my personal Wikipedia! It aims to document _everything_ I know. I wrote a [post](https://cho.sh/blog/D8FB8E) imagining such a creation before making this website. It would be entertaining for you to compare how similar and different I built this project from my imagination.
+in
 I never expected this project to end up on such a consequential scale. This project started as a test flight on investigating how Docusaurus could handle "multiplex" data, which surprised me with its capability. Then I started adding a bunch of features from a post where I initially imagined what I would've done if I had created a Digital Brain. Now that it is stable and performant, I hereby open-source this project. I hope anyone around the 🌐 will gain from this.
 
 > **Note**<br/>
