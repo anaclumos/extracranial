@@ -7,8 +7,13 @@
         "id": "4f135690647d6f4e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-10-02.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-10-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-10-02.md"
+              }
             }
           },
           {
@@ -117,15 +125,15 @@
   },
   "active": "4f135690647d6f4e",
   "lastOpenFiles": [
-    "Journals/2022-10-01.md",
     "Journals/2022-09-30.md",
+    "Journals/2022-10-02.md",
+    "Journals/2022-10-01.md",
     "Research/Lingua Franca.md",
     "Research/Prompt Engineering.md",
     "Research/Metaverse.md",
     "Research/NextJS.md",
     "Research/Tools for Thought.md",
     "Research/Extracranials.md",
-    "Research/Dynamic Island.md",
-    "Projects/Coding Tests/_template.md"
+    "Research/Dynamic Island.md"
   ]
 }
