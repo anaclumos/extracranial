@@ -35,21 +35,19 @@ export default function BlogSidebarDesktop({
           )}
         >
           {sidebar.items.map((item) => (
-            <li
-              key={item.permalink}
-              className={styles.sidebarItem}
+            <Link
+              isNavLink
+              to={item.permalink}
+              className={styles.sidebarItemLink}
+              activeClassName={styles.sidebarItemLinkActive}
             >
-              <Link
-                isNavLink
-                to={item.permalink}
-                className={styles.sidebarItemLink}
-                activeClassName={
-                  styles.sidebarItemLinkActive
-                }
+              <li
+                key={item.permalink}
+                className={styles.sidebarItem}
               >
                 {item.title}
-              </Link>
-            </li>
+              </li>
+            </Link>
           ))}
         </ul>
       </nav>
