@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "652e6884a0fd43e6",
+        "id": "4f135690647d6f4e",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,8 +115,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "652e6884a0fd43e6",
+  "active": "4f135690647d6f4e",
   "lastOpenFiles": [
+    "Journals/2022-10-01.md",
     "Journals/2022-09-30.md",
     "Research/Lingua Franca.md",
     "Research/Prompt Engineering.md",
@@ -125,7 +126,6 @@
     "Research/Tools for Thought.md",
     "Research/Extracranials.md",
     "Research/Dynamic Island.md",
-    "Projects/Coding Tests/_template.md",
-    "Research/Worker.md"
+    "Projects/Coding Tests/_template.md"
   ]
 }
