@@ -533,7 +533,7 @@
     "description": "The title of the tag list page"
   },
   "theme.blog.post.loading.views": {
-    "message": "불러오는 중...",
+    "message": "집계 중...",
     "description": "The blog post view count is loading"
   },
   "theme.blog.post.no.views": {
