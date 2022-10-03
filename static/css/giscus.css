@@ -13,13 +13,9 @@
   --font-family-monospace: ui-monospace, 'SF Mono',
     SFMono-Regular, 'Jetbrains Mono', Menlo, Consolas,
     monospace;
-  font-feature-settings: 'calt', 'case', 'ccmp', 'dlig',
-    'liga', 'lnum', 'onum', 'pnum', 'tnum', 'salt', 'zero',
-    'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07',
-    'ss08', 'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
-    'cv01', 'cv02', 'cv03', 'cv04', 'cv05', 'cv06', 'cv07',
-    'cv08', 'cv09', 'cv10', 'cv11', 'cv12', 'cv13', 'cv14',
-    'cv15', 'cv16';
+  font-feature-settings: 'rlig' 1, 'calt' 1, 'ss01' 1,
+    'ss02' 1, 'ss03' 1, 'ss04' 1, 'ss05' 1, 'ss06' 1,
+    'ss08' 1, 'zero' 1;
   word-wrap: break-word;
   word-break: keep-all;
 }
