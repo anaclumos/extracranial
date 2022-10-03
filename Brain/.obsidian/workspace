@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-10-03.md",
+            "file": "Projects/sem.sh.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-03.md",
+                "file": "Projects/sem.sh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-03.md"
+                "file": "Projects/sem.sh.md"
               }
             }
           },
@@ -125,8 +125,8 @@
   },
   "active": "4f135690647d6f4e",
   "lastOpenFiles": [
-    "Journals/Ideas are worthless.md",
     "Journals/2022-10-03.md",
+    "Journals/Ideas are worthless.md",
     "Projects/sem.sh.md",
     "Projects/CalliFontia.md",
     "Projects/Off The Record.md",
