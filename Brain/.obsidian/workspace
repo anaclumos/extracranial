@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Off The Record.md",
+            "file": "Projects/sem.sh.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Off The Record.md",
+                "file": "Projects/sem.sh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Off The Record.md"
+                "file": "Projects/sem.sh.md"
               }
             }
           },
@@ -125,15 +125,15 @@
   },
   "active": "4f135690647d6f4e",
   "lastOpenFiles": [
+    "Journals/2022-10-03.md",
+    "Projects/sem.sh.md",
+    "Projects/CalliFontia.md",
+    "Projects/Off The Record.md",
     "Journals/2022-10-02.md",
     "Journals/2022-09-30.md",
     "Journals/2022-10-01.md",
     "Research/Lingua Franca.md",
     "Research/Prompt Engineering.md",
-    "Research/Metaverse.md",
-    "Research/NextJS.md",
-    "Research/Tools for Thought.md",
-    "Research/Extracranials.md",
-    "Research/Dynamic Island.md"
+    "Research/Metaverse.md"
   ]
 }
