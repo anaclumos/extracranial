@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "4f135690647d6f4e",
+        "id": "87d87ac48c0e33bd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Projects/sem.sh.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true,
             "source": true
           }
@@ -123,11 +123,11 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "4f135690647d6f4e",
+  "active": "87d87ac48c0e33bd",
   "lastOpenFiles": [
     "Journals/2022-10-03.md",
-    "Journals/Ideas are worthless.md",
     "Projects/sem.sh.md",
+    "Journals/Ideas are worthless.md",
     "Projects/CalliFontia.md",
     "Projects/Off The Record.md",
     "Journals/2022-10-02.md",

@@ -27,3 +27,9 @@ slug: '/BB0A88'
   - Free versions can only access up to 2 weeks of data
 - [The DevOps Intelligence Platform - Codacy | Codacy](https://www.codacy.com/)
   - ![[Pasted image 20221003150852.png]]
+- [sourcerer.io](https://sourcerer.io) shut down couple years ago
+  - [sourcerer.io로 GitHub, GitLab 프로필 만들기](https://neurowhai.tistory.com/316)
+  - Archived Images from [NeuroWhAI (NeuroWhAI)](https://github.com/neurowhai). Thank you.
+  - ![[Pasted image 20221003151628.png]]
+  - ![[Pasted image 20221003151639.png]]
+  - ![[Pasted image 20221003151648.png]]
