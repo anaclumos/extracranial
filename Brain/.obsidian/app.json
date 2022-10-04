@@ -10,8 +10,8 @@
   "showLineNumber": true,
   "strictLineBreaks": true,
   "attachmentFolderPath": "Assets",
-  "newFileLocation": "current",
-  "newFileFolderPath": "",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Research",
   "tabSize": 4,
   "alwaysUpdateLinks": true,
   "readableLineLength": false

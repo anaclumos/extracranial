@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/Try Removing.md",
+            "file": "Research/Try Removing.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -58,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/Try Removing.md",
+                "file": "Research/Try Removing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/Try Removing.md"
+                "file": "Research/Try Removing.md"
               }
             }
           },
@@ -124,7 +123,7 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "0f3755d226456f1d",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
     "Journals/2022-10-04.md",
     "Academics/353/Linux Commands.md",
