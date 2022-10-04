@@ -4,6 +4,8 @@ slug: '/D2DFA4'
 
 # Letter to Mr. Matt Rickard on 2022-10-03
 
+- Written: [[2022-10-03]]
+
 Dear Mr. Rickard,
 
 Awesome article. I want to give one good example of Screenshots-as-an-API.
