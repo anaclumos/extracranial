@@ -3,7 +3,7 @@
     {
       "source": "/today",
       "destination": "/{{ now | date: '%Y-%m-%d' }}",
-      "status": 302
+      "permanent": false
     },
     {
       "source": "/research/:path(.*)",
