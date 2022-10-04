@@ -3,8 +3,7 @@
 [![GitHub deployments](https://img.shields.io/github/deployments/anaclumos/extracranial/production?color=%23000000&label=deploy&logo=Vercel&logoColor=white&style=for-the-badge)](https://vercel.com/anaclumos/extracranial)
 [![](https://img.shields.io/badge/dynamic/json?color=%23FF4F64&logoColor=white&label=view%20count&&logo=simple%20analytics&&style=for-the-badge&query=pageviews&url=https%3A%2F%2Fsimpleanalytics.com%2Fcho.sh.json%3Fversion%3D5%26fields%3Dpageviews%26timezone%3DAmerica%2FLos_Angeles%26start%3D2020-01-01%26end%3Dyesterday%26info%3Dfalse)](https://simpleanalytics.com/cho.sh)
 
-> ex·tra·cra·ni·al (ek-strə-ˈkrā-nē-əl): situated or occurring outside the cerebral enclosure 📚🎓
-> (의학) 두개(頭蓋) 밖의.
+> [ek-strə-ˈkrā-nē-əl] situated or occurring outside the cerebral enclosure 📚🎓 [의학] 두개(頭蓋) 밖의.
 
 This is my personal Wikipedia! It aims to document _everything_ I know. I wrote a [post](https://cho.sh/blog/D8FB8E) imagining such a creation before making this website. It would be entertaining for you to compare how similar and different I built this project from my imagination.
 in
