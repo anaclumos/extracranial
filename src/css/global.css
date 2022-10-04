@@ -16,7 +16,6 @@
   --unhovered-transparency: 100%;
   --padding: 1rem;
   --border-radius: 0.5rem;
-  --ifm-toc-padding-horizontal: 0.5rem;
   --ifm-container-width: 1920px;
   --ifm-container-width-xl: 1600px;
   --ifm-container-width-lg: 1200px;
@@ -29,7 +28,7 @@
     --primary-color-500
   );
   --ifm-toc-padding-vertical: 0.25rem;
-  --ifm-toc-padding-horizontal: 0.25rem;
+  --ifm-toc-padding-horizontal: 0.75rem;
   --ios-style-checkbox-enabled-border-color: var(
     --primary-color-200
   );
@@ -40,6 +39,8 @@
     --ifm-menu-color-background-active
   );
   --ios-style-checkbox-border-width: 0.1rem;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.05rem;
 }
 
 .table-of-contents__link--active {
