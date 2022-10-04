@@ -11,7 +11,6 @@ const getMostRecentJournalLink = () => {
       'Journals',
       file + '.md'
     )
-    console.log(filePath)
     if (fs.existsSync(filePath)) {
       return `/r/${file}`
     }
