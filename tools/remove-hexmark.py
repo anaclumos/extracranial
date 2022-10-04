@@ -19,7 +19,7 @@ if __name__ == "__main__":
             for file in files:
                 if file.endswith(".md") or file.endswith(".mdx"):
                     all_md_files.append(os.path.join(root, file))
-    print("Found " + str(len(all_md_files)) + " .md and .mdx files.")
+    print("Found " + str(len(all_md_files)) + " MD and MDX files.")
 
     for md_file in all_md_files:
         # ignore files with Template in the name

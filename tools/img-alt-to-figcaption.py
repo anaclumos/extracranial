@@ -14,7 +14,7 @@ if __name__ == "__main__":
                 if file.endswith(".md") or file.endswith(".mdx"):
                     all_md_files.append(os.path.join(root, file))
 
-    print("Found " + str(len(all_md_files)) + " .md and .mdx files.")
+    print("Found " + str(len(all_md_files)) + " MD and MDX files.")
 
     # replace ![alt text](file.ext) with
     # <figure><img alt="alt text" src="file.ext"><figcaption>alt text</figcaption></figure>
