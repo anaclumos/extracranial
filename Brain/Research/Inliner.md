@@ -89,7 +89,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 </DisplayFlex>
 
-This is a personal preference, but I think Inliner looks much more welcoming to read.
+This is a personal preference, but Inliner looks much more _welcoming to read_ for me.
 
 ## References
 
