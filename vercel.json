@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "from": "/today",
-      "to": "/{{ now | date: '%Y-%m-%d' }}",
+      "source": "/today",
+      "destination": "/{{ now | date: '%Y-%m-%d' }}",
       "status": 302
     },
     {
