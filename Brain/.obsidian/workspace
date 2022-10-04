@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7eb28ce3b1197bde",
+        "id": "0f3755d226456f1d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md",
+            "file": "Journals/Try Removing.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "draft: true",
+                "query": "remove file",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md",
+                "file": "Journals/Try Removing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md"
+                "file": "Journals/Try Removing.md"
               }
             }
           },
@@ -123,9 +124,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "7eb28ce3b1197bde",
+  "active": "0f3755d226456f1d",
   "lastOpenFiles": [
     "Journals/2022-10-04.md",
+    "Academics/353/Linux Commands.md",
     "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md",
     "Journals/2022-10-03.md",
     "Projects/SEIYL.md",
@@ -133,7 +135,6 @@
     "Projects/Markdown Emails.md",
     "Research/Inliner.md",
     "Readings/Building a Second Brain.md",
-    "Assets/D4C125.gif",
-    "Assets/E45BFC.png"
+    "Assets/D4C125.gif"
   ]
 }
