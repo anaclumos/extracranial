@@ -6,7 +6,7 @@ slug: '/EE1ECD'
 
 ## Definition
 
-Inliner is an abstract methodology for writing an article.
+Inliner is a mental model or an abstract methodology for organizing data and writing articles.
 It originates from the outliner, where every text is a bullet point.
 Unlike the Outliner, the Inliner aims to separate the editing and reading experience by utilizing Markdown's strict line change mode.
 When editing, each sentence shows as a line for more accessible organization and editing.
