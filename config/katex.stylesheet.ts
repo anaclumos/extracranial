@@ -3,4 +3,4 @@ const katex = {
   type: 'text/css',
 }
 
-export = katex
+export default katex

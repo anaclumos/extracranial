@@ -66,4 +66,4 @@ const navbar = {
   ],
 }
 
-export = navbar
+export default navbar

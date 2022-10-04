@@ -6,4 +6,4 @@ const footer: Footer = {
   links: [],
 }
 
-export = footer
+export default footer
