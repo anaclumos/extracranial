@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "from": "/today",
+      "to": "/{{ now | date: '%Y-%m-%d' }}",
+      "status": 302
+    },
+    {
       "source": "/research/:path(.*)",
       "destination": "/r/:path",
       "permanent": true
