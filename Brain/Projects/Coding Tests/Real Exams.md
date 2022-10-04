@@ -11,7 +11,7 @@ import WIP from '@site/src/components/WIP'
 
 ### [PathAI](https://www.pathai.com/)
 
-- 1 [[simulation]] that had bunch of edge cases (solved 9/10)
+- 1 [[simulation]] that had a bunch of edge cases (solved 9/10)
 - 1 [[optimized simulation]]
 
 ### [Grammarly](https://grammarly.com/)
