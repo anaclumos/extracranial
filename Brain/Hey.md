@@ -22,11 +22,7 @@ If you seek internationalized content, check out my [articles](/w/archive).
 - Avoid data pile
   - Rewrite & Compress.
   - [[Building a Second Brain|BASB]] recommends compressing 50×.
-- Inliner (Freeform Text)
-  - Opposite of Outliner
-  - Write one sentence per line without bullets. See [[2022-06-21]].
-  - Markdown will convert it into a freeform paragraph text.
-  - [Just like this very page.](https://raw.githubusercontent.com/anaclumos/extracranial/main/Brain/Hey.md)
+- [[Inliner]]
 
 ## Tech Stacks
 
