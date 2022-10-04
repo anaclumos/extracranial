@@ -8,9 +8,9 @@ slug: '/EE1ECD'
 
 Inliner is a mental model or an abstract methodology for organizing data and writing articles.
 It originates from the outliner, where every text is a bullet point.
-Unlike the Outliner, the Inliner aims to separate the editing and reading experience by utilizing Markdown's strict line change mode.
+Unlike the Outliner, the Inliner aims to separate the editing and reading experience by utilizing [[Markdown]]'s strict line change mode.
 When editing, each sentence shows as a line for more accessible organization and editing.
-However, Markdown will automatically convert them into flowing text, making the reading experience more natural and immersive.
+However, [[Markdown]] will automatically convert them into flowing text, making the reading experience more natural and immersive.
 
 Apart from the paragraph, it also utilizes headers.
 Each sub-header and text will become inclusive of the super-header containing all.
