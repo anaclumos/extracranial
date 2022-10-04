@@ -24,7 +24,8 @@ const bulletTwo = translate({
 })
 
 const bulletThree = translate({
-  message: 'I might not agree with this post anymore.',
+  message:
+    'Possibly, I may not endorse the content anymore.',
 })
 
 const translateCallToAction = translate({
