@@ -35,3 +35,7 @@ Hope we can keep in touch.
 
 Best Regards,
 Sunghyun Cho
+
+## Follow-up
+
+- Got a positive response!
