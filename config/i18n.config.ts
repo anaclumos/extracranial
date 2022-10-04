@@ -14,4 +14,4 @@ const i18n: I18nConfig = {
   },
 }
 
-export = i18n
+export default i18n

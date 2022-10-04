@@ -1,5 +1,4 @@
-const math = require('remark-math')
-const katex = require('rehype-katex')
+import latex from './latex.config'
 
 const blog = {
   showReadingTime: false,
@@ -9,8 +8,8 @@ const blog = {
   blogSidebarCount: 10,
   blogSidebarTitle: 'Recent Posts',
   routeBasePath: '/w',
-  remarkPlugins: [math],
-  rehypePlugins: [katex],
+  remarkPlugins: [latex.math],
+  rehypePlugins: [latex.katex],
   authorsMapPath: 'authors.yml',
   editUrl: ({ locale, blogDirPath, blogPath }) => {
     return `https://github.com/anaclumos/extracranial/tree/main/posts/${blogPath.replace(
@@ -20,4 +19,4 @@ const blog = {
   },
 }
 
-export = blog
+export default blog

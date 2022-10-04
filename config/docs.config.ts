@@ -1,5 +1,4 @@
-const math = require('remark-math')
-const katex = require('rehype-katex')
+import latex from './latex.config'
 
 const sidebarProcessor = (items) => {
   const preferredOrder = [
@@ -48,8 +47,8 @@ const docs = {
   editUrl: ({ docPath }) => {
     return `https://github.com/anaclumos/extracranial/tree/main/Brain/${docPath}`
   },
-  remarkPlugins: [math],
-  rehypePlugins: [katex],
+  remarkPlugins: [latex.math],
+  rehypePlugins: [latex.katex],
   async sidebarItemsGenerator({
     defaultSidebarItemsGenerator,
     ...args
@@ -61,4 +60,4 @@ const docs = {
   },
 }
 
-export = docs
+export default docs
