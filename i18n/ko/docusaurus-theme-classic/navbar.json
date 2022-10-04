@@ -10,5 +10,9 @@
   "item.label.Articles": {
     "message": "열람실",
     "description": "Navbar item with label Articles"
+  },
+  "item.label.Today": {
+    "message": "오늘",
+    "description": "Navbar item with label Today"
   }
 }

@@ -1,3 +1,24 @@
+import fs from 'fs'
+import path from 'path'
+const getMostRecentJournalLink = () => {
+  const today = new Date()
+  while (true) {
+    const file = today.toISOString().split('T')[0]
+    const filePath = path.join(
+      __dirname,
+      '..',
+      'Brain',
+      'Journals',
+      file + '.md'
+    )
+    console.log(filePath)
+    if (fs.existsSync(filePath)) {
+      return `/r/${file}`
+    }
+    today.setDate(today.getDate() - 1)
+  }
+}
+
 const navbar = {
   title: 'Sunghyun Cho',
   logo: {
@@ -14,6 +35,11 @@ const navbar = {
     {
       to: '/w/archive',
       label: 'Articles',
+      position: 'left',
+    },
+    {
+      to: getMostRecentJournalLink(),
+      label: 'Today',
       position: 'left',
     },
     {

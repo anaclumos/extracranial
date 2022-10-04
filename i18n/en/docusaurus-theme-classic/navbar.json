@@ -10,5 +10,9 @@
   "item.label.Articles": {
     "message": "Articles",
     "description": "Navbar item with label Articles"
+  },
+  "item.label.Today": {
+    "message": "Today",
+    "description": "Navbar item with label Today"
   }
 }
