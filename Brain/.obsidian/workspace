@@ -4,12 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a01e43e7b8cfe97e",
+        "id": "0f4a802f4e761aa7",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Assets/F9FF01.png"
+            "file": "Readings/Readings.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
           }
         }
       }
@@ -75,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/F9FF01.png",
+                "file": "Readings/Readings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assets/F9FF01.png"
+                "file": "Readings/Readings.md"
               }
             }
           },
@@ -120,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "aa73c60d583d3db3",
+  "active": "0f4a802f4e761aa7",
   "lastOpenFiles": [
+    "Readings/Building a Second Brain.md",
+    "Assets/D4C125.gif",
+    "Assets/E45BFC.png",
+    "Assets/F9FF01.png",
     "Research/Inliner.md",
     "Journals/2022-10-04.md",
-    "Assets/F9FF01.png",
     "Assets/Pasted image 20221003151648.png",
     "Assets/069CA2.png",
     "Assets/Pasted image 20221003151639.png",
-    "Assets/Pasted image 20221004002443.png",
-    "Assets/Pasted image 20221004003548.png",
-    "Journals/2022-10-03.md",
-    "Journals/2022-06-21.md"
+    "Assets/Pasted image 20221004002443.png"
   ]
 }
