@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "196c44d0884bcf04",
+        "id": "a01e43e7b8cfe97e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md",
+            "file": "Research/Inliner.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md",
+                "file": "Research/Inliner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md"
+                "file": "Research/Inliner.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "aa73c60d583d3db3",
+  "active": "a01e43e7b8cfe97e",
   "lastOpenFiles": [
+    "Journals/2022-10-04.md",
+    "Assets/Pasted image 20221003151639.png",
+    "Assets/Pasted image 20221003151648.png",
+    "Assets/Pasted image 20221004002443.png",
+    "Assets/Pasted image 20221004003548.png",
+    "Research/Inliner.md",
     "Journals/2022-10-03.md",
-    "Projects/Alter.md",
-    "Research/IRS.md",
-    "Templates/note.md",
-    "Research/_template.md",
-    "Projects/Coding Tests/_template.md",
-    "Journals/_template.md",
-    "Templates/grind.md",
-    "Templates/journal.md",
-    "Research/Naver.md"
+    "Journals/2022-06-21.md",
+    "Hey.md",
+    "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md"
   ]
 }
