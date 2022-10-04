@@ -11,7 +11,7 @@
     "serve": "docusaurus serve",
     "clear": "docusaurus clear && rm -rf blog && rm -rf docs && rm -f '*.config.js'",
     "clean": "yarn clear",
-    "compile": "swc $PWD/**/*.ts -d $PWD/.swc",
+    "compile": "swc docusaurus.config.ts -o docusaurus.config.js && swc config/*.ts -d config/",
     "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko",
     "write-heading-ids": "docusaurus write-heading-ids",
     "build:plugin": "yarn workspace plugin-blog-index build",

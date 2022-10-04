@@ -1,4 +1,5 @@
 *.config.js
+*.js.map
 *.stylesheet.js
 blog
 docs
