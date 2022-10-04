@@ -14,7 +14,7 @@
   "sourceMaps": true,
   "exclude": "node_modules/**",
   "module": {
-    "type": "es6",
+    "type": "commonjs",
     "strict": false,
     "strictMode": true,
     "lazy": false,
