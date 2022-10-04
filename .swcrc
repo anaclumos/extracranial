@@ -12,7 +12,6 @@
   },
   "minify": true,
   "sourceMaps": true,
-  "exclude": "node_modules/**",
   "module": {
     "type": "commonjs",
     "strict": false,

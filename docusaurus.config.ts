@@ -22,6 +22,23 @@ const config: Config = {
   organizationName: 'anaclumos',
   projectName: 'extracranial',
   i18n: i18n,
+  webpack: {
+    jsLoader: (isServer) => ({
+      loader: require.resolve('swc-loader'),
+      options: {
+        jsc: {
+          parser: {
+            syntax: 'typescript',
+            tsx: true,
+          },
+          target: 'es2017',
+        },
+        module: {
+          type: isServer ? 'commonjs' : 'es6',
+        },
+      },
+    }),
+  },
   presets: [
     [
       'classic',
