@@ -95,4 +95,4 @@ const config: Config = {
   plugins: [['@docusaurus/plugin-pwa', pwaOptions]],
 }
 
-export default config
+module.exports = config
