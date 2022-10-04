@@ -11,5 +11,13 @@
     "externalHelpers": false
   },
   "minify": true,
-  "exclude": "node_modules/**"
+  "sourceMaps": true,
+  "exclude": "node_modules/**",
+  "module": {
+    "type": "es6",
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  }
 }

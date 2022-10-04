@@ -45,4 +45,4 @@ const pwaOptions = {
   ],
 }
 
-export = pwaOptions
+export default pwaOptions
