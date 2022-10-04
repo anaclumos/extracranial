@@ -84,8 +84,8 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 
-![Inliner](../Assets/Pasted image 20221004004020.png)
-![Outliner](../Assets/Pasted image 20221004004015.png)
+![Inliner](../Assets/069CA2.png)
+![Outliner](../Assets/F9FF01.png)
 
 </DisplayFlex>
 

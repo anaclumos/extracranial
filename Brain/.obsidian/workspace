@@ -7,12 +7,9 @@
         "id": "a01e43e7b8cfe97e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Research/Inliner.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
+            "file": "Assets/F9FF01.png"
           }
         }
       }
@@ -78,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Inliner.md",
+                "file": "Assets/F9FF01.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Inliner.md"
+                "file": "Assets/F9FF01.png"
               }
             }
           },
@@ -123,17 +120,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "a01e43e7b8cfe97e",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
+    "Research/Inliner.md",
     "Journals/2022-10-04.md",
-    "Assets/Pasted image 20221003151639.png",
+    "Assets/F9FF01.png",
     "Assets/Pasted image 20221003151648.png",
+    "Assets/069CA2.png",
+    "Assets/Pasted image 20221003151639.png",
     "Assets/Pasted image 20221004002443.png",
     "Assets/Pasted image 20221004003548.png",
-    "Research/Inliner.md",
     "Journals/2022-10-03.md",
-    "Journals/2022-06-21.md",
-    "Hey.md",
-    "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md"
+    "Journals/2022-06-21.md"
   ]
 }
