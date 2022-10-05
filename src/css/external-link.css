@@ -10,9 +10,9 @@ article a[href^="https://"]::after
   display: inline-block;
   mask-repeat: no-repeat;
   mask-position: center;
-  margin-right: 0.3em;
-  margin-bottom: 0.2em;
-  margin-left: 0.3em;
+  margin-right: 0.25em;
+  margin-bottom: 0.25em;
+  margin-left: 0.25em;
 }
 
 article a[href^="https://cho.sh"]::after
@@ -31,7 +31,7 @@ article a[href^="https://github.com"]::after
   display: inline-block;
   mask-repeat: no-repeat;
   mask-position: center;
-  margin-right: 0.3em;
-  margin-bottom: 0.2em;
-  margin-left: 0.3em;
+  margin-right: 0.25em;
+  margin-bottom: 0.25em;
+  margin-left: 0.25em;
 }
