@@ -10,12 +10,28 @@ article a[href^="https://"]::after
   display: inline-block;
   mask-repeat: no-repeat;
   mask-position: center;
-  margin-right: 0.24em;
-  margin-bottom: 0.24em;
-  margin-left: 0.24em;
+  margin-right: 0.3em;
+  margin-bottom: 0.2em;
+  margin-left: 0.3em;
 }
 
 article a[href^="https://cho.sh"]::after
 {
   display: none !important;
+}
+
+article a[href^="https://github.com"]::after
+{
+  content: '';
+  background-color: var(--ifm-link-color);
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  mask-image: url('./github.svg');
+  display: inline-block;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  margin-right: 0.3em;
+  margin-bottom: 0.2em;
+  margin-left: 0.3em;
 }
