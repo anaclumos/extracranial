@@ -13,6 +13,12 @@ import Shuffle from '@site/src/components/Shuffle'
 ## Reader Mode
 
 - We desperately need a reader mode for markdown emails!
-- Idea from the following individuals. Thank you.
-  <Shuffle> - [junhoyeo (Junho Yeo)](https://github.com/junhoyeo/) - [stevejkang (Steve Juneyoung Kang)](https://github.com/stevejkang)
-  </Shuffle>
+
+## Idea collaborated with
+
+<Shuffle>
+- [junhoyeo (Junho Yeo)](https://github.com/junhoyeo/)
+- [stevejkang (Steve Juneyoung Kang)](https://github.com/stevejkang)
+</Shuffle>
+
+Thanks!
