@@ -17,8 +17,10 @@ import Shuffle from '@site/src/components/Shuffle'
 ## Idea collaborated with
 
 <Shuffle>
+
 - [junhoyeo (Junho Yeo)](https://github.com/junhoyeo/)
 - [stevejkang (Steve Juneyoung Kang)](https://github.com/stevejkang)
+
 </Shuffle>
 
 Thanks!
