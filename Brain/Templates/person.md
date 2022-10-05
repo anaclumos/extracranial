@@ -1,6 +1,7 @@
 ---
 title: 'Person #{{title}}'
 slug: '/{{title}}'
+draft: true
 ---
 
 - Interviewed at: [[{{date:YYYY-MM-DD}}]]
