@@ -38,6 +38,6 @@ Hope we can keep in touch.
 Best Regards,
 Sunghyun Cho
 
-## Follow-up on [[2022-10-04]]]
+## Follow-up on [[2022-10-04]]
 
 - Got a positive response!
