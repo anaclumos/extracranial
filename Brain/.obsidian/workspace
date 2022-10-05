@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Markdown Emails.md",
+            "file": "Journals/2022-10-04.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Markdown Emails.md",
+                "file": "Journals/2022-10-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Markdown Emails.md"
+                "file": "Journals/2022-10-04.md"
               }
             }
           },
@@ -125,9 +125,9 @@
   },
   "active": "5991bfeae7a5e5ad",
   "lastOpenFiles": [
-    "Journals/2022-10-04.md",
     "Projects/PEOPLE/PEOPLE.md",
     "Projects/Markdown Emails.md",
+    "Journals/2022-10-04.md",
     "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md",
     "Research/Try Removing.md",
     "Academics/353/Linux Commands.md",
