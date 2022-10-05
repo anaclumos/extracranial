@@ -13,11 +13,9 @@ const Index = (props: Props) => {
   const shuffledChildren = React.Children.toArray(
     children
   ).sort(() => 0.5 - Math.random())
-  return React.cloneElement(
-    props.children as React.ReactElement,
-    props.children.props,
-    shuffledChildren
-  )
+  // this supposes that we only use unordered lists
+  // I mean... if we shuffle something, they wouldn't have any 'order' right?
+  return <ul>{shuffledChildren}</ul>
 }
 
 export default Index
