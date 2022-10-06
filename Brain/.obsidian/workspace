@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c6376b1b2e9ffd1d",
+        "id": "0b699ed4606dddf8",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -115,8 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "c6376b1b2e9ffd1d",
+  "active": "0b699ed4606dddf8",
   "lastOpenFiles": [
+    "Journals/2022-10-06.md",
+    "Journals/2022-10-05.md",
     "Journals/2022-10-04.md",
     "Projects/PEOPLE/PEOPLE.md",
     "Projects/Markdown Emails.md",
@@ -124,8 +126,6 @@
     "Research/Try Removing.md",
     "Academics/353/Linux Commands.md",
     "Journals/2022-10-03.md",
-    "Projects/SEIYL.md",
-    "Research/Markdown.md",
-    "Research/Inliner.md"
+    "Projects/SEIYL.md"
   ]
 }
