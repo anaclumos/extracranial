@@ -7,8 +7,13 @@
         "id": "0b699ed4606dddf8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Research/월급만큼 중요한 것은 자존급이다.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Research/월급만큼 중요한 것은 자존급이다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Research/월급만큼 중요한 것은 자존급이다.md"
+              }
             }
           },
           {
@@ -117,6 +125,8 @@
   },
   "active": "0b699ed4606dddf8",
   "lastOpenFiles": [
+    "Research/고통에는 순응이 아니라 감작이 나타난다.md",
+    "Research/월급만큼 중요한 것은 자존급이다.md",
     "Journals/2022-10-06.md",
     "Journals/2022-10-05.md",
     "Journals/2022-10-04.md",
@@ -124,8 +134,6 @@
     "Projects/Markdown Emails.md",
     "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md",
     "Research/Try Removing.md",
-    "Academics/353/Linux Commands.md",
-    "Journals/2022-10-03.md",
-    "Projects/SEIYL.md"
+    "Academics/353/Linux Commands.md"
   ]
 }
