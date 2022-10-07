@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "913f5ef1131788fb",
+        "id": "752af8bab7d18fe0",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Research/Research.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Research/Research.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,8 +115,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "913f5ef1131788fb",
+  "active": "752af8bab7d18fe0",
   "lastOpenFiles": [
+    "Research/Research.md",
     "Research/Prompt Engineering.md",
     "Research/PKM.md",
     "Research/Logseq.md",
@@ -133,7 +126,6 @@
     "Research/FIRE.md",
     "Research/epub.md",
     "Research/CBOR.md",
-    "Research/Backlink.md",
-    "Research/Apple.md"
+    "Research/Backlink.md"
   ]
 }
