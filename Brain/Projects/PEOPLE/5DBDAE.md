@@ -16,12 +16,12 @@ Electrical engineering questions, like logic designs and semiconductor units.
 I create functional simulation models for semiconductors. For fabless labs, you have to write semiconductor software before getting your hands on the fabricated chips from the factory. I write software to simulate semiconductors that helps program semiconductors without semiconductors.
 
 **Recommendations.**
-Meet a lot of people.
+Meet a lot of [[people]].
 
 import Admonition from '@theme/Admonition'
 
 <Admonition type="info" title="I love my job because..." icon="💙">
 Marvell has a great culture and personal space respect.
-A lot of people are international.
+A lot of [[people]] are international.
 People help out a lot.
 </Admonition>

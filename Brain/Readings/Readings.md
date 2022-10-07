@@ -26,7 +26,7 @@ This is a meta-page that collects my to-read lists.
 
 ## Stopped
 
-- [x] 지구 끝의 온실
+- [x] [[지구 끝의 온실]]
 
 ## References
 
