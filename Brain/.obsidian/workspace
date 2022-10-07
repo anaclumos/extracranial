@@ -7,7 +7,7 @@
         "id": "82172470f397ec0a",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -117,15 +117,15 @@
   },
   "active": "82172470f397ec0a",
   "lastOpenFiles": [
-    "Research/월급만큼 중요한 것은 자존급이다.md",
-    "Journals/2022-10-06.md",
-    "Research/Untitled.md",
-    "Research/고통에는 순응이 아니라 감작이 나타난다.md",
-    "Journals/2022-10-05.md",
-    "Journals/2022-10-04.md",
-    "Projects/PEOPLE/PEOPLE.md",
-    "Projects/Markdown Emails.md",
-    "Projects/Done/Letter to Mr. Matt Rickard on 2022-10-03.md",
-    "Research/Try Removing.md"
+    "Projects/Coding Tests/1290 Convert Binary Number in a Linked List to Integer.md",
+    "Projects/Coding Tests/simulation.md",
+    "Journals/2022-07-20.md",
+    "Projects/CELLO/CELLO.md",
+    "Journals/2022-09-13.md",
+    "Journals/2022-07-09.md",
+    "Research/Apple.md",
+    "Academics/380/SDL.md",
+    "Journals/2022-07-25.md",
+    "Academics/380/Graphics Engine Process.md"
   ]
 }

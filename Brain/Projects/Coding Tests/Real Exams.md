@@ -100,7 +100,7 @@ import WIP from '@site/src/components/WIP'
 
 ### Sezzle
 
-- [[get-a-job-done]] SQL, React, Python
+- [[get-a-job-done]] SQL, React, [[Python]]
 
 ### Twitch
 
