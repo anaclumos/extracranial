@@ -7,7 +7,7 @@ slug: '/51BF0E'
 - Examples
   - Manipulating SQL
   - Coding React
-  - Building Python Data Parser
+  - Building [[Python]] Data Parser
 
 import WIP from '@site/src/components/WIP'
 

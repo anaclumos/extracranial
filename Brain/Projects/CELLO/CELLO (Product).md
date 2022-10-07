@@ -14,7 +14,7 @@ slug: '/177B14'
 
 > 세상 모든 홈마들의 Raw 파일을 한 곳에 모으겠다.
 
-그것의 Consumer-side Product가 CELLO
+그것의 Consumer-side Product가 [[CELLO]]
 
 ## Definition
 
