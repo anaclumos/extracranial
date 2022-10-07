@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "82172470f397ec0a",
+        "id": "fbdb0c7c8672beda",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Research/월급만큼 중요한 것은 자존급이다.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Research/월급만큼 중요한 것은 자존급이다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Research/월급만큼 중요한 것은 자존급이다.md"
+              }
             }
           },
           {
@@ -115,8 +123,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "82172470f397ec0a",
+  "active": "fbdb0c7c8672beda",
   "lastOpenFiles": [
+    "Journals/2022-10-06.md",
     "Projects/Coding Tests/1290 Convert Binary Number in a Linked List to Integer.md",
     "Projects/Coding Tests/simulation.md",
     "Journals/2022-07-20.md",
@@ -125,7 +134,6 @@
     "Journals/2022-07-09.md",
     "Research/Apple.md",
     "Academics/380/SDL.md",
-    "Journals/2022-07-25.md",
-    "Academics/380/Graphics Engine Process.md"
+    "Journals/2022-07-25.md"
   ]
 }
