@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0c6dc695aeaa0968",
+        "id": "82172470f397ec0a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Research/월급만큼 중요한 것은 자존급이다.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/월급만큼 중요한 것은 자존급이다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Research/월급만큼 중요한 것은 자존급이다.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,11 +115,11 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "0c6dc695aeaa0968",
+  "active": "82172470f397ec0a",
   "lastOpenFiles": [
+    "Research/월급만큼 중요한 것은 자존급이다.md",
     "Journals/2022-10-06.md",
     "Research/Untitled.md",
-    "Research/월급만큼 중요한 것은 자존급이다.md",
     "Research/고통에는 순응이 아니라 감작이 나타난다.md",
     "Journals/2022-10-05.md",
     "Journals/2022-10-04.md",
