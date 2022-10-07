@@ -1,6 +1,7 @@
 ---
 title: '초상권 vs 저작권'
 slug: '/46AF52'
+lang: 'ko'
 ---
 
 ### ['저작권 vs 초상권'...선수-팬 사이 온라인 설전](https://n.news.naver.com/sports/kfootball/article/311/0001459883)
