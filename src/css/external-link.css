@@ -110,7 +110,7 @@ article a[href^="https://www.snapchat.com"]::after,
 article a[href^="https://developers.snapchat.com"]::after,
 article a[href^="https://www.snap.com"]::after,
 article a[href^="https://developers.snap.com"]::after,
-article a[href^="https://newsroom.snap.com"]::after,
+article a[href^="https://newsroom.snap.com"]::after
 {
   mask-image: url('../../static/icons/snapchat.svg');
 }
@@ -149,7 +149,7 @@ article a[href^="https://www.naver.com"]::after,
 article a[href^="https://news.naver.com"]::after,
 article a[href^="https://developers.naver.com"]::after,
 article a[href^="https://www.navercorp.com"]::after,
-article a[href^="https://www.naverlabs.com"]::after
+article a[href^="https://www.naverlabs.com"]::after,
 article a[href^="https://www.ncloud.com"]::after
 {
   mask-image: url('../../static/icons/naver.svg');
