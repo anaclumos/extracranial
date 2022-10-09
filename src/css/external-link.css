@@ -34,6 +34,7 @@ article a[href^="https://cho.sh"]::before
 article a[href^="https://www.apple.com"]::before,
 article a[href^="https://developer.apple.com"]
 {
+  content: '\00a0';
   mask-image: url('../../static/icons/apple.svg');
 }
 
