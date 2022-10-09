@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-10-07.md",
-            "mode": "source",
+            "file": "Journals/2022-10-08.md",
+            "mode": "preview",
             "backlinks": true,
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-07.md",
+                "file": "Journals/2022-10-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-07.md"
+                "file": "Journals/2022-10-08.md"
               }
             }
           },
@@ -125,6 +125,8 @@
   },
   "active": "752af8bab7d18fe0",
   "lastOpenFiles": [
+    "Journals/2022-10-07.md",
+    "Journals/2022-10-08.md",
     "Research/Research.md",
     "Research/Prompt Engineering.md",
     "Research/PKM.md",
@@ -132,8 +134,6 @@
     "Research/Inspiring Open Source Projects.md",
     "Research/Hacker News.md",
     "Research/FIRE.md",
-    "Research/epub.md",
-    "Research/CBOR.md",
-    "Research/Backlink.md"
+    "Research/epub.md"
   ]
 }
