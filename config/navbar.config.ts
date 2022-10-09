@@ -44,19 +44,19 @@ const navbar = {
     {
       href: 'https://github.com/anaclumos',
       position: 'right',
-      className: 'header-github-link',
+      className: 'navbar-github-link',
       'aria-label': 'GitHub repository',
     },
     {
       href: 'https://linkedin.com/in/anaclumos',
       position: 'right',
-      className: 'header-linkedin-link',
+      className: 'navbar-linkedin-link',
       'aria-label': 'LinkedIn Account',
     },
     {
       href: 'https://twitter.com/anaclumos',
       position: 'right',
-      className: 'header-twitter-link',
+      className: 'navbar-twitter-link',
       'aria-label': 'Twitter Account',
     },
     {
