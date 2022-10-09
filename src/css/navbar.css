@@ -1,0 +1,56 @@
+.navbar-github-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  transition: opacity 0.2s ease-in-out;
+  background: url(../../static/icons/github.svg) no-repeat
+    center;
+}
+
+.navbar-github-link:hover::before {
+  opacity: 0.6;
+}
+
+[data-theme='dark'] .navbar-github-link::before {
+  background: url(../../static/icons/github-dark.svg)
+    no-repeat center;
+}
+
+.navbar-twitter-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  transition: opacity 0.2s ease-in-out;
+  background: url(../../static/icons/twitter.svg) no-repeat
+    center;
+}
+
+.navbar-twitter-link:hover::before {
+  opacity: 0.6;
+}
+
+[data-theme='dark'] .navbar-twitter-link::before {
+  background: url(../../static/icons/twitter-dark.svg)
+    no-repeat center;
+}
+
+.navbar-linkedin-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  transition: opacity 0.2s ease-in-out;
+  background: url(../../static/icons/linkedin.svg) no-repeat
+    center;
+}
+
+.navbar-linkedin-link:hover::before {
+  opacity: 0.6;
+}
+
+[data-theme='dark'] .navbar-linkedin-link::before {
+  background: url(../../static/icons/linkedin-dark.svg)
+    no-repeat center;
+}
