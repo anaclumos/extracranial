@@ -8,6 +8,7 @@ article a[href^="https://"]::after
   margin-right: 0.2em;
   display: inline-block;
   vertical-align: text-bottom;
+  mask-repeat: no-repeat;
   mask-image: url('../../static/icons/external-link.svg');
 }
 
@@ -23,7 +24,7 @@ article a[href^="https://developer.apple.com"]
 }
 
 article a[href^="https://www.facebook.com"]::after,
-article a[href^="https://developers.facebook.com"]
+article a[href^="https://developers.facebook.com"]::after
 {
   mask-image: url('../../static/icons/facebook.svg');
 }
@@ -77,7 +78,7 @@ article a[href^="https://en.wikipedia.org"]::after
 }
 
 article a[href^="https://developer.mozilla.org"]::after,
-article a[href^="https://blog.mozilla.org"]::after
+article a[href^="https://blog.mozilla.org"]::after,
 article a[href^="https://www.mozilla.org"]::after
 {
   mask-image: url('../../static/icons/mozilla.svg');
