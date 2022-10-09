@@ -1,18 +1,18 @@
-article a[href^="http"]::after,
+article a {
+  white-space: nowrap;
+}
+
 article a[href^="https://"]::after
 {
   content: '';
   background-color: var(--ifm-link-color);
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-  mask-image: url('./external-link-icon.svg');
+  width: 1.15em;
+  height: 1.15em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
   display: inline-block;
-  mask-repeat: no-repeat;
-  mask-position: center;
-  margin-right: 0.25em;
-  margin-bottom: 0.25em;
-  margin-left: 0.25em;
+  vertical-align: text-bottom;
+  mask-image: url('../../static/icons/external-link.svg');
 }
 
 article a[href^="https://cho.sh"]::after
@@ -20,18 +20,139 @@ article a[href^="https://cho.sh"]::after
   display: none !important;
 }
 
+article a[href^="https://www.apple.com"]::after,
+article a[href^="https://developer.apple.com"]
+{
+  mask-image: url('../../static/icons/apple.svg');
+}
+
+article a[href^="https://www.facebook.com"]::after
+{
+  mask-image: url('../../static/icons/facebook.svg');
+}
+
 article a[href^="https://github.com"]::after
 {
-  content: '';
-  background-color: var(--ifm-link-color);
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-  mask-image: url('./github.svg');
-  display: inline-block;
-  mask-repeat: no-repeat;
-  mask-position: center;
-  margin-right: 0.25em;
-  margin-bottom: 0.25em;
-  margin-left: 0.25em;
+  mask-image: url('../../static/icons/github.svg');
+}
+
+article a[href^="https://twitter.com"]::after
+{
+  mask-image: url('../../static/icons/twitter.svg');
+}
+
+article a[href^="https://www.youtube.com"]::after
+{
+  mask-image: url('../../static/icons/youtube.svg');
+}
+
+article a[href^="https://www.linkedin.com"]::after
+{
+  mask-image: url('../../static/icons/linkedin.svg');
+}
+
+article a[href^="https://www.instagram.com"]::after
+{
+  mask-image: url('../../static/icons/instagram.svg');
+}
+
+article a[href^="https://www.reddit.com"]::after
+{
+  mask-image: url('../../static/icons/reddit.svg');
+}
+
+article a[href^="https://www.pinterest.com"]::after
+{
+  mask-image: url('../../static/icons/pinterest.svg');
+}
+
+article a[href^="https://en.wikipedia.org"]::after
+{
+  mask-image: url('../../static/icons/wikipedia.svg');
+}
+
+article a[href^="https://developer.mozilla.org"]::after
+{
+  mask-image: url('../../static/icons/mozilla.svg');
+}
+
+article a[href^="https://archive.org"]::after
+{
+  mask-image: url('../../static/icons/internetarchive.svg');
+}
+
+article a[href^="https://www.ibm.com"]::after
+{
+  mask-image: url('../../static/icons/ibm.svg');
+}
+
+article a[href^="https://repl.it"]::after
+{
+  mask-image: url('../../static/icons/replit.svg');
+}
+
+article a[href^="https://www.snapchat.com"]::after,
+article a[href^="https://developers.snapchat.com"]::after,
+article a[href^="https://www.snap.com"]::after,
+article a[href^="https://developers.snap.com"]::after
+{
+  mask-image: url('../../static/icons/snapchat.svg');
+}
+
+article a[href^="https://www.w3.org"]::after
+{
+  mask-image: url('../../static/icons/w3c.svg');
+}
+
+article a[href^="https://line.me"]::after,
+article a[href^="https://developers.line.biz"]::after
+{
+  mask-image: url('../../static/icons/line.svg');
+}
+
+article a[href^="https://developers.kakao.com"]::after,
+article a[href^="https://www.kakaocorp.com/"]::after
+{
+  mask-image: url('../../static/icons/kakaotalk.svg');
+}
+
+article a[href^="https://www.amazon.com"]::after
+{
+  mask-image: url('../../static/icons/amazon.svg');
+}
+
+article a[href^="https://aws.amazon.com"]::after
+{
+  mask-image: url('../../static/icons/aws.svg');
+}
+
+article a[href^="https://www.microsoft.com"]::after
+{
+  mask-image: url('../../static/icons/microsoft.svg');
+}
+
+article a[href^="https://www.google.com"]::after,
+article a[href^="https://developers.google.com"]::after
+{
+  mask-image: url('../../static/icons/google.svg');
+}
+
+article a[href^="https://azure.microsoft.com"]::after
+{
+  mask-image: url('../../static/icons/azure.svg');
+}
+
+/* chrome */
+article a[href^="https://chrome.google.com"]::after,
+article a[href^="https://developer.chrome.com"]::after,
+article a[href^="https://www.chromium.org"]::after,
+article a[href^="https://web.dev"]::after
+{
+  mask-image: url('../../static/icons/chrome.svg');
+}
+
+article a[href^="https://news.ycombinator.com"]::after,
+article a[href^="https://www.ycombinator.com"]::after
+{
+  mask-image: url('../../static/icons/ycombinator.svg');
 }
