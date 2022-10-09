@@ -2,184 +2,225 @@ article a[href^="https://"]::after
 {
   content: '';
   background-color: var(--ifm-link-color);
-  width: 1.15em;
-  height: 1.15em;
-  margin-left: 0.2em;
-  margin-right: 0.2em;
+  width: 1em;
+  height: 1em;
+  margin-bottom: 0.05em;
+  margin-left: 0.2rem;
   display: inline-block;
   vertical-align: text-bottom;
   mask-repeat: no-repeat;
   mask-image: url('../../static/icons/external-link.svg');
 }
 
-article a[href^="https://cho.sh"]::after
+article a[href^="https://"]::before
+{
+  background-color: var(--ifm-link-color);
+  width: 1em;
+  height: 1em;
+  margin-bottom: 0.1em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  display: inline-block;
+  vertical-align: text-bottom;
+  mask-repeat: no-repeat;
+  mask-image: none;
+}
+
+article a[href^="https://cho.sh"]::before
 {
   display: none !important;
 }
 
-article a[href^="https://www.apple.com"]::after,
+article a[href^="https://www.apple.com"]::before,
 article a[href^="https://developer.apple.com"]
 {
+  content: '';
   mask-image: url('../../static/icons/apple.svg');
 }
 
-article a[href^="https://www.facebook.com"]::after,
-article a[href^="https://developers.facebook.com"]::after
+article a[href^="https://www.facebook.com"]::before,
+article a[href^="https://developers.facebook.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/facebook.svg');
 }
 
-article a[href^="https://github.com"]::after,
-article a[href^="https://docs.github.com"]::after,
-article a[href^="https://github.blog"]::after
+article a[href^="https://github.com"]::before,
+article a[href^="https://docs.github.com"]::before,
+article a[href^="https://github.blog"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/github.svg');
 }
 
-article a[href^="https://twitter.com"]::after,
-article a[href^="https://developer.twitter.com"]::after,
-article a[href^="https://blog.twitter.com"]::after
+article a[href^="https://twitter.com"]::before,
+article a[href^="https://developer.twitter.com"]::before,
+article a[href^="https://blog.twitter.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/twitter.svg');
 }
 
-article a[href^="https://www.youtube.com"]::after
+article a[href^="https://www.youtube.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/youtube.svg');
 }
 
-article a[href^="https://www.linkedin.com"]::after,
-article a[href^="https://developer.linkedin.com"]::after
+article a[href^="https://www.linkedin.com"]::before,
+article a[href^="https://developer.linkedin.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/linkedin.svg');
 }
 
-article a[href^="https://www.instagram.com"]::after,
-article a[href^="https://developers.instagram.com"]::after
+article a[href^="https://www.instagram.com"]::before,
+article a[href^="https://developers.instagram.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/instagram.svg');
 }
 
-article a[href^="https://www.reddit.com"]::after
+article a[href^="https://www.reddit.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/reddit.svg');
 }
 
-article a[href^="https://www.pinterest.com"]::after,
-article a[href^="https://developers.pinterest.com"]::after,
-article a[href^="https://newsroom.pinterest.com"]::after
+article a[href^="https://www.pinterest.com"]::before,
+article a[href^="https://developers.pinterest.com"]::before,
+article a[href^="https://newsroom.pinterest.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/pinterest.svg');
 }
 
-article a[href^="https://en.wikipedia.org"]::after
+article a[href^="https://en.wikipedia.org"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/wikipedia.svg');
 }
 
-article a[href^="https://developer.mozilla.org"]::after,
-article a[href^="https://blog.mozilla.org"]::after,
-article a[href^="https://www.mozilla.org"]::after
+article a[href^="https://developer.mozilla.org"]::before,
+article a[href^="https://blog.mozilla.org"]::before,
+article a[href^="https://www.mozilla.org"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/mozilla.svg');
 }
 
-article a[href^="https://archive.org"]::after,
-article a[href^="https://web.archive.org"]::after
+article a[href^="https://archive.org"]::before,
+article a[href^="https://web.archive.org"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/internetarchive.svg');
 }
 
-article a[href^="https://www.ibm.com"]::after,
-article a[href^="https://developer.ibm.com"]::after,
-article a[href^="https://newsroom.ibm.com"]::after
+article a[href^="https://www.ibm.com"]::before,
+article a[href^="https://developer.ibm.com"]::before,
+article a[href^="https://newsroom.ibm.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/ibm.svg');
 }
 
-article a[href^="https://repl.it"]::after,
-article a[href^="https://blog.repl.it"]::after
+article a[href^="https://repl.it"]::before,
+article a[href^="https://blog.replit.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/replit.svg');
 }
 
-article a[href^="https://www.snapchat.com"]::after,
-article a[href^="https://developers.snapchat.com"]::after,
-article a[href^="https://www.snap.com"]::after,
-article a[href^="https://developers.snap.com"]::after,
-article a[href^="https://newsroom.snap.com"]::after
+article a[href^="https://www.snapchat.com"]::before,
+article a[href^="https://developers.snapchat.com"]::before,
+article a[href^="https://www.snap.com"]::before,
+article a[href^="https://developers.snap.com"]::before,
+article a[href^="https://newsroom.snap.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/snapchat.svg');
 }
 
-article a[href^="https://www.w3.org"]::after
+article a[href^="https://www.w3.org"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/w3c.svg');
 }
 
-article a[href^="https://line.me"]::after,
-article a[href^="https://developers.line.biz"]::after,
-article a[href^="https://linecorp.com"]::after
+article a[href^="https://line.me"]::before,
+article a[href^="https://developers.line.biz"]::before,
+article a[href^="https://linecorp.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/line.svg');
 }
 
-article a[href^="https://developers.kakao.com"]::after,
-article a[href^="https://www.kakaocorp.com/"]::after
+article a[href^="https://developers.kakao.com"]::before,
+article a[href^="https://www.kakaocorp.com/"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/kakaotalk.svg');
 }
 
-article a[href^="https://www.amazon.com"]::after,
-article a[href^="https://developer.amazon.com"]::after,
-article a[href^="https://www.aboutamazon.com"]::after
+article a[href^="https://www.amazon.com"]::before,
+article a[href^="https://developer.amazon.com"]::before,
+article a[href^="https://www.aboutamazon.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/amazon.svg');
 }
 
-article a[href^="https://aws.amazon.com"]::after
+article a[href^="https://aws.amazon.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/aws.svg');
 }
 
-article a[href^="https://www.naver.com"]::after,
-article a[href^="https://news.naver.com"]::after,
-article a[href^="https://developers.naver.com"]::after,
-article a[href^="https://www.navercorp.com"]::after,
-article a[href^="https://www.naverlabs.com"]::after,
-article a[href^="https://www.ncloud.com"]::after
+article a[href^="https://www.naver.com"]::before,
+article a[href^="https://news.naver.com"]::before,
+article a[href^="https://developers.naver.com"]::before,
+article a[href^="https://www.navercorp.com"]::before,
+article a[href^="https://www.naverlabs.com"]::before,
+article a[href^="https://www.ncloud.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/naver.svg');
 }
 
-article a[href^="https://www.microsoft.com"]::after,
-article a[href^="https://developer.microsoft.com"]::after,
-article a[href^="https://news.microsoft.com"]::after
+article a[href^="https://www.microsoft.com"]::before,
+article a[href^="https://developer.microsoft.com"]::before,
+article a[href^="https://news.microsoft.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/microsoft.svg');
 }
 
-article a[href^="https://www.google.com"]::after,
-article a[href^="https://developers.google.com"]::after
+article a[href^="https://www.google.com"]::before,
+article a[href^="https://developers.google.com"]::before,
+article a[href^="https://developers.googleblog.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/google.svg');
 }
 
-article a[href^="https://azure.microsoft.com"]::after
+article a[href^="https://azure.microsoft.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/azure.svg');
 }
 
-article a[href^="https://chrome.google.com"]::after,
-article a[href^="https://developer.chrome.com"]::after,
-article a[href^="https://www.chromium.org"]::after,
-article a[href^="https://web.dev"]::after
+article a[href^="https://chrome.google.com"]::before,
+article a[href^="https://developer.chrome.com"]::before,
+article a[href^="https://www.chromium.org"]::before,
+article a[href^="https://web.dev"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/chrome.svg');
 }
 
-article a[href^="https://news.ycombinator.com"]::after,
-article a[href^="https://www.ycombinator.com"]::after
+article a[href^="https://news.ycombinator.com"]::before,
+article a[href^="https://www.ycombinator.com"]::before
 {
+  content: '';
   mask-image: url('../../static/icons/ycombinator.svg');
 }

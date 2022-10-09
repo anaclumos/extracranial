@@ -1,3 +1,7 @@
+.editThisPage::before {
+  display: none !important;
+}
+
 .editThisPage::after {
   display: none !important;
 }

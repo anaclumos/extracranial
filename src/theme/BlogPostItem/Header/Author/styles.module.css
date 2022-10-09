@@ -22,6 +22,10 @@
   font-family: var(--font-family-sans-serif);
 }
 
+.link::before {
+  display: none !important;
+}
+
 .link::after {
   display: none !important;
 }
