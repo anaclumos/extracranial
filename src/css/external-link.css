@@ -1,7 +1,3 @@
-article a {
-  white-space: nowrap;
-}
-
 article a[href^="https://"]::after
 {
   content: '';
