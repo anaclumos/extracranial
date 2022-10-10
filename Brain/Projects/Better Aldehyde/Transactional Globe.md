@@ -18,6 +18,8 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 </DisplayFlex>
 
+Map those into the globe on the main page:
+
 ![[Pasted image 20221010141610.png]]
 
 - We might need to recreate the Globe ([COBE](https://cobejs.vercel.app/) does not support this.)

@@ -7,6 +7,6 @@ slug: '/2531E5'
 
 - Encrypt and sign query strings.
 
-import WIP from '@site/src/components/WIP'
+## Found...
 
-<WIP />
+- [vercel/satori: Enlightened library to convert HTML and CSS to SVG](https://github.com/vercel/satori)
