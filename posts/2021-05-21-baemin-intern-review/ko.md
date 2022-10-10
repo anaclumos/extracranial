@@ -47,7 +47,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 ### 면접
 
-코로나19로 인해 온라인으로 30분간 진행되었으며 개발자 채용 면접이 아니기에 기술적으로 깊은 내용을 물어보기보다는 프로그래머로서의 기본기를 잘 갖추고 있는지, 우테캠에서 배울 준비가 되었는지, 좋은 캠프 멤버로 활동할 수 있을지에 대한 부분을 주로 물어보신다는 느낌을 받았다. 특히 나의 경우 지원서에 이 기술 블로그를 언급했는데, 그중 [글 하나](https://cho.sh/ko/w/4BB66F)에 대한 상세한 정보를 물어보셨다.
+코로나19로 인해 온라인으로 30분간 진행되었으며 개발자 채용 면접이 아니기에 기술적으로 깊은 내용을 물어보기보다는 프로그래머로서의 기본기를 잘 갖추고 있는지, 우테캠에서 배울 준비가 되었는지, 좋은 캠프 멤버로 활동할 수 있을지에 대한 부분을 주로 물어보신다는 느낌을 받았다. 특히 나의 경우 지원서에 이 기술 블로그를 언급했는데, 그중 [글 하나](/ko/w/4BB66F)에 대한 상세한 정보를 물어보셨다.
 
 ### 경쟁률
 
@@ -67,7 +67,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - 미니 프로젝트: Express, HTTP 없이 웹 서버 구현하기.
 - 공부 키워드: Node.js, JS OOP, 비동기 프로그래밍, 비동기 카페, HTTP 명세, HTTP 기초.
 - [우리 팀 GitHub](https://github.com/woowa-techcamp-2020/anaclumos-yuda1124-sooojungee-learn-node)
-- [내 블로그 글](https://cho.sh/ko/w/940821)
+- [내 블로그 글](/ko/w/940821)
 
 <figure>
 
@@ -244,7 +244,7 @@ async function addActivityLogToActivityLogList() {
 
 조언을 바탕으로 3번째 프로젝트부터는 이런 개발 패턴에 많은 신경을 썼다. 3번째 프로젝트 중 일부분을 뽑아 미니 프로젝트를 한 적이 있는데 아마 무슨 느낌인지 짐작할 수 있을 것 같다.
 
-- [바닐라 JS로 달력 만들기 @](https://cho.sh/ko/w/F522B3)
+- [바닐라 JS로 달력 만들기 @](/ko/w/F522B3)
 
 ### 🛷 더닝 크루거 썰매장
 
@@ -312,7 +312,8 @@ async function addActivityLogToActivityLogList() {
 
 프론트엔드 개발자의 디자인 정신, 이 부분에 있어서는 같이 캠프생이었던 [jhaemin](https://github.com/jhaemin)님께 정말 많은 영향을 받았다. 자신만의 확고한 디자인 체계로 사용성 좋은 웹앱을 뚝딱 만드시는 것을 보며 많이 배우게 되었다. 내가 정말 충격을 받았던 사이트 2개를 직접 본다면 무슨 말인지 알게 될 것이다.
 
-- [woowa-techcamp-2020/market-6](https://github.com/woowa-techcamp-2020/market-6) -[woowa-techcamp-2020/todo-14](https://github.com/woowa-techcamp-2020/todo-14)
+- [woowa-techcamp-2020/market-6](https://github.com/woowa-techcamp-2020/market-6)
+- [woowa-techcamp-2020/todo-14](https://github.com/woowa-techcamp-2020/todo-14)
 
 영향을 많이 받아 나도 3번째 뱅크샐러드 프로젝트부터 디자인을 개선해보았다. 이렇게 디자인을 온전히 수정했다 ↓
 
@@ -329,7 +330,7 @@ async function addActivityLogToActivityLogList() {
 ## 🎬 기타 및 결론
 
 - Git과 GitHub으로 심화된 협업을 처음 해봤다. 1인 개발을 할 때는 git의 `branch` `checkout` 기능을 제대로 활용할 일이 많지 않다. Git 협업에 있어서는 GSPH<3으로 정말 잘 배운 것 같다.
-- 중간 중간 강의들이 정말 좋았다. 매주 수요일마다 있던 강의들에서 배민 서비스의 개발과 운영에 대한 흥미로운 점들이 보였다. 특히 [김민태 개발자님의 강의](https://cho.sh/ko/w/02B616)가 정말 인상적이었다.
+- 중간 중간 강의들이 정말 좋았다. 매주 수요일마다 있던 강의들에서 배민 서비스의 개발과 운영에 대한 흥미로운 점들이 보였다. 특히 [김민태 개발자님의 강의](/ko/w/02B616)가 정말 인상적이었다.
 - 회사 생활을 간접 경험해볼 수 있어서 정말 좋았다. 21살에 회사 생활을 경험해볼 수 있다니!
 - 친절하게 알려주는 형 누나들이 이해심이 정말 깊었다. 나를 배려해준다는 것이 느껴졌었다. 중간 중간 레크리레이션 활동도 많았는데, 코로나19 때문에 레크리레이션 활동이 축소된 것이 아쉬웠다.
 - 정말 소중한 경험이었고 새로운 가르침을 많이 얻었다. 내가 기본기가 조금 더 출중했다면 훨씬 더 깊은 내용까지 공부할 수 있었을텐데, 그러지 못해 아쉬움이 약간 남는다. 앞으로의 여정에 있어 정말 좋은 자산이 된 것 같다.
