@@ -1,6 +1,6 @@
 ---
 title: '#{{title}}'
-slug: '{{hex}}'
+slug: '/{{hex}}'
 draft: true
 ---
 

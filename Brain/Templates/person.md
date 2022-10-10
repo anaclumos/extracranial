@@ -1,6 +1,6 @@
 ---
 title: 'Person #{{title}}'
-slug: '/{{title}}'
+slug: '{{title}}'
 draft: true
 ---
 
