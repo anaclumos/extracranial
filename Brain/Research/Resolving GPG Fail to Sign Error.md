@@ -17,6 +17,14 @@ Then...
 brew upgrade gnupg
 brew link --overwrite gnupg
 brew install pinentry-mac
+which pinentry-mac
+```
+
+Put the path into `gpg-agent.conf` file.
+If there is no gpg-agent.conf file found in ~/.gnupg/ directory, create one.
+
+```bash
+touch ~/.gnupg/gpg-agent.conf
 ```
 
 ```bash
