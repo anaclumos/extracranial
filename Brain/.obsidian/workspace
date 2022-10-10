@@ -7,8 +7,13 @@
         "id": "5ac14aa67b4c4449",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Projects/Better Aldehyde/Transactional Globe.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "서울 프로",
+                "query": "display",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -73,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Better Aldehyde/Transactional Globe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Better Aldehyde/Transactional Globe.md"
+              }
             }
           },
           {
@@ -117,15 +126,15 @@
   },
   "active": "5ac14aa67b4c4449",
   "lastOpenFiles": [
-    "Journals/2022-10-08.md",
-    "Journals/2022-10-07.md",
-    "Research/Research.md",
-    "Research/Prompt Engineering.md",
-    "Research/PKM.md",
-    "Research/Logseq.md",
-    "Research/Inspiring Open Source Projects.md",
-    "Research/Hacker News.md",
-    "Research/FIRE.md",
-    "Research/epub.md"
+    "Journals/2022-10-10.md",
+    "Academics/310/Adding Space.md",
+    "Projects/Better Aldehyde/Transactional Globe.md",
+    "Templates/person.md",
+    "Templates/note.md",
+    "Templates/journal.md",
+    "Templates/grind.md",
+    "Templates/youtube.md",
+    "Templates/display-flex.md",
+    "Projects/Better Aldehyde/Better Aldehyde.md"
   ]
 }
