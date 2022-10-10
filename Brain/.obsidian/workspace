@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5ac14aa67b4c4449",
+        "id": "bd251ee6efb88fe5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Better Aldehyde/Transactional Globe.md",
+            "file": "Journals/2022-10-10.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Better Aldehyde/Transactional Globe.md",
+                "file": "Journals/2022-10-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Better Aldehyde/Transactional Globe.md"
+                "file": "Journals/2022-10-10.md"
               }
             }
           },
@@ -124,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5ac14aa67b4c4449",
+  "active": "bd251ee6efb88fe5",
   "lastOpenFiles": [
     "Journals/2022-10-10.md",
-    "Academics/310/Adding Space.md",
+    "Projects/Someday/OGIaaS.md",
     "Projects/Better Aldehyde/Transactional Globe.md",
+    "Academics/310/Adding Space.md",
     "Templates/person.md",
     "Templates/note.md",
     "Templates/journal.md",
     "Templates/grind.md",
     "Templates/youtube.md",
-    "Templates/display-flex.md",
-    "Projects/Better Aldehyde/Better Aldehyde.md"
+    "Templates/display-flex.md"
   ]
 }
