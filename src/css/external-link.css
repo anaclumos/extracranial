@@ -106,7 +106,8 @@ article a[href^="https://en.wikipedia.org"]::before
 
 article a[href^="https://developer.mozilla.org"]::before,
 article a[href^="https://blog.mozilla.org"]::before,
-article a[href^="https://www.mozilla.org"]::before
+article a[href^="https://www.mozilla.org"]::before,
+article a[href^="https://hacks.mozilla.org"]::before
 {
   content: '\00a0\00a0\00a0';
   mask-image: url('../../static/icons/mozilla.svg');
