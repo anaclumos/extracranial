@@ -147,6 +147,7 @@ I have created a demo website where a cat gif asks for location permission.
 </DisplayFlex>
 
 - [anaclumos/poc-geolocation-dialog: Geolocation Shimming Demo](https://github.com/anaclumos/poc-geolocation-dialog)
+- [Geolocation Shimming Demo](https://poc-geolocation-dialog.vercel.app/)
 
 If we advance this methodology and implement the Document Object Model in JavaScript, we can inject all behaviors that are deemed suitable for Mini Apps.
 
