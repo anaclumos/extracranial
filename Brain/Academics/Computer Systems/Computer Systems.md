@@ -5,5 +5,4 @@ slug: '/BF9369'
 
 ## Logistics
 
-- [[356 Official SSH Server]]
 - [[Inspecting Assembly]]

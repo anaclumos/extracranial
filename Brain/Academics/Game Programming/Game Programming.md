@@ -1,5 +1,5 @@
 ---
-title: 'Graphics Engine Programming'
+title: 'Game Programming'
 slug: '/D6B2AF'
 ---
 
