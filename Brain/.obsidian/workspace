@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/Super App and Democracy.md",
+            "file": "Journals/2022-10-11.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Super App and Democracy.md",
+                "file": "Journals/2022-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Super App and Democracy.md"
+                "file": "Journals/2022-10-11.md"
               }
             }
           },
@@ -126,6 +126,7 @@
   },
   "active": "4e1fdb10e081f2e6",
   "lastOpenFiles": [
+    "Research/Super App and Democracy.md",
     "Journals/2022-10-11.md",
     "Research/Satori.md",
     "Journals/2022-10-10.md",
@@ -134,7 +135,6 @@
     "Research/Infinite Canvas.md",
     "Research/ActivityPub.md",
     "Research/Screenshots-as-an-API.md",
-    "Research/HN.md",
-    "Research/Hacker News.md"
+    "Research/HN.md"
   ]
 }
