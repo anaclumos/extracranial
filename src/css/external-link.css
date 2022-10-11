@@ -15,7 +15,7 @@ article a[href^="https://"]::after
   background-color: var(--ifm-link-color);
   width: 1em;
   height: 1em;
-  margin-bottom: 0.025em;
+  margin-bottom: 0.025rem;
   margin-left: 0.1rem;
   margin-right: 0.1rem;
   display: inline-block;
