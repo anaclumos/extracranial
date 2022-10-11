@@ -304,7 +304,7 @@ async function addActivityLogToActivityLogList() {
 
 ![옆동네 N사 C재단의 B캠프가 터진 날](images/optimized-somewhere-1.png)
 
-### ⚡️ 시너지 × 시너지 = 시너지<sup>3</sup>
+### ⚡️ 시너지 x 시너지 = 시너지<sup>3</sup>
 
 **그럼에도 불구하고** 최고의 장점은 다른 우아한테크캠프생 분들을 만난 점이라고 생각한다. 최고의 복지는 훌륭한 동료들이라는 말이 무슨 느낌인지 살짝 이해한 것 같았다. 가장 대표적으로 [jhaemin](https://github.com/jhaemin)님을 이야기해보고 싶다.
 

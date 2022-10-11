@@ -57,7 +57,7 @@ slug: '/4836FE'
 
 **서비스에 사용하는 기술을 전환한다는 것은 달리는 차의 바퀴를 바꾸는 것이다.** 조금씩 바꾸며 괜찮은지 지속적으로 확인해야 한다. 또 팀에 있는 개발자의 수, 실력, 성향에 따라서 매우 다르다.
 
-- [우아한, WoowahanJS – 우아한형제들 기술 블로그](https://woowabros.github.io/tools/2016/09/07/woowahan-js.html)
+- [우아한, WoowahanJS - 우아한형제들 기술 블로그](https://woowabros.github.io/tools/2016/09/07/woowahan-js.html)
 - [https://github.com/woowabros/WoowahanJS](https://github.com/woowabros/WoowahanJS)
 
 ---

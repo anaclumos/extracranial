@@ -47,4 +47,4 @@ One little tip: make sure you don't include any unnecessary files `.DS_Store` or
 
 ## Update
 
-- It seems that you don't necessarily need a Firefox manifest ID. Therefore – submit the Chrome version, and 99% will work (If you didn't get any warning on the [Firefox Extension Test website](https://www.extensiontest.com/)).
+- It seems that you don't necessarily need a Firefox manifest ID. Therefore - submit the Chrome version, and 99% will work (If you didn't get any warning on the [Firefox Extension Test website](https://www.extensiontest.com/)).

@@ -90,7 +90,7 @@ const html = (s, ...args) =>
   s.map((ss, i) => `${ss}${args[i] || ''}`).join('')
 ```
 
-to be added – screenshot of highlighting
+to be added - screenshot of highlighting
 
 ## `calendar.js`
 
