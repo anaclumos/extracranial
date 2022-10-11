@@ -21,7 +21,7 @@ If you seek internationalized content, check out my [articles](/w/archive).
 - Avoid deep folder structures.
 - Avoid data pile
   - Rewrite & Compress.
-  - [[Building a Second Brain|BASB]] recommends compressing 50×.
+  - [[Building a Second Brain|BASB]] recommends compressing 50x.
 - [[Inliner]]
 
 ## Tech Stacks

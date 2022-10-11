@@ -9,7 +9,7 @@ slug: '/B0B79F'
 
 ## [Andy Matuschak](https://notes.andymatuschak.org/Evergreen_notes)
 
-- It’s hard to write notes that are worth developing over time. These principles help:
+- It's hard to write notes that are worth developing over time. These principles help:
 
 1. [Evergreen notes should be atomic](https://notes.andymatuschak.org/z4Rrmh17vMBbauEGnFPTZSK3UmdsGExLRfZz1)
 1. [Evergreen notes should be concept-oriented](https://notes.andymatuschak.org/z6bci25mVUBNFdVWSrQNKr6u7AZ1jFzfTVbMF)

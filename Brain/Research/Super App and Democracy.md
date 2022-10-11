@@ -6,18 +6,18 @@ slug: '/8794DD'
 
 > 데이터의 중앙집권화는 反민주적인가?
 
-## [Why an ‘everything app’ is bad news for liberal democracies and free markets](https://www.nitinpai.in/2022/10/10/why-an-everything-app-is-bad-news-for-liberal-democracies-and-free-markets)
+## [Why an 'everything app' is bad news for liberal democracies and free markets](https://www.nitinpai.in/2022/10/10/why-an-everything-app-is-bad-news-for-liberal-democracies-and-free-markets)
 
 - _Many technology entrepreneurs dream of an "Everything App", a smartphone application that will deliver everything to everyone on the planet._
 - _Elon Musk has become the latest investor [to declare an ambition](https://www.bloomberg.com/news/articles/2022-10-04/musk-says-buying-twitter-speeds-up-creating-an-everything-app) to build such a super-app wanting to emulate the success of WeChat, a Chinese super-app._
 - _The Everything app presents massive risks to personal, economic, and political freedom._
-- _As [John Gruber of Daring Fireball](https://daringfireball.net/2022/10/everything) says, “It’s no coincidence at all that WeChat is the only “everything app” anyone can cite, and it comes from China, an authoritarian regime._
-- _It doesn’t benefit users that WeChat dominates all aspects of digital life . It helps the authoritarian Chinese Communist Party._
-- _The user is socially locked into a ‘private’ company for performing any or all socio-economic functions._
+- _As [John Gruber of Daring Fireball](https://daringfireball.net/2022/10/everything) says, “It's no coincidence at all that WeChat is the only “everything app” anyone can cite, and it comes from China, an authoritarian regime._
+- _It doesn't benefit users that WeChat dominates all aspects of digital life . It helps the authoritarian Chinese Communist Party._
+- _The user is socially locked into a 'private' company for performing any or all socio-economic functions._
 - _Public policy must act to prevent firms and apps from acquiring socioeconomic dominance in the first place_
   - Nurture a competitive market.
   - Promote open public digital infrastructure with interoperability.
-- _At a deeper level, Musk’s desire to emulate the Chinese model alerts us to the danger of the interests of Big Tech increasingly diverging from those of liberal democracies._
+- _At a deeper level, Musk's desire to emulate the Chinese model alerts us to the danger of the interests of Big Tech increasingly diverging from those of liberal democracies._
 - _Preserving our freedom may indeed be their most important corporate social responsibility._
 
 ## [선진국엔 왜 주민등록증과 주민등록번호가 없을까?](https://www.youtube.com/watch?v=sJH5a_FxsAQ)

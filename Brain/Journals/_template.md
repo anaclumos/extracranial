@@ -6,10 +6,6 @@ draft: true
 
 # {{date:YYYY-MM-DD}}
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
-
 {{caret}}
 
 ## [[Coding Tests]]
