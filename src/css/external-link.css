@@ -1,4 +1,4 @@
-article a[href^="https://"]::before
+article a[href^="http"]::before
 {
   background-color: var(--ifm-link-color);
   width: 1.25em;
@@ -9,9 +9,9 @@ article a[href^="https://"]::before
   mask-repeat: no-repeat;
   mask-image: none;
 }
-article a[href^="https://"]::after
+article a[href^="http"]::after
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   background-color: var(--ifm-link-color);
   width: 1em;
   height: 1em;
@@ -24,207 +24,183 @@ article a[href^="https://"]::after
   mask-image: url('../../static/icons/external-link.svg');
 }
 
-article a[href^="https://cho.sh"]::before
+article a[href*="cho.sh"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   display: none !important;
 }
 
-article a[href^="https://www.apple.com"]::before,
-article a[href^="https://developer.apple.com"]::before
+article a[href*="apple.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/apple.svg');
 }
 
-article a[href^="https://www.facebook.com"]::before,
-article a[href^="https://developers.facebook.com"]::before
+article a[href*="facebook.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/facebook.svg');
 }
 
-article a[href^="https://github.com"]::before,
-article a[href^="https://docs.github.com"]::before,
-article a[href^="https://github.blog"]::before,
-article a[href^="https://githubstatus.com"]::before,
-article a[href^="https://raw.githubusercontent.com"]::before,
-article a[href^="https://gist.github.com"]::before
+article a[href*="github.com"]::before,
+article a[href*="github.io"]::before,
+article a[href*="githubusercontent.com"]::before,
+article a[href*="githubassets.com"]::before,
+article a[href*="githubapp.com"]::before,
+article a[href*="githubstatus.com"]::before,
+article a[href*="github.blog"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/github.svg');
 }
 
-article a[href^="https://twitter.com"]::before,
-article a[href^="https://developer.twitter.com"]::before,
-article a[href^="https://blog.twitter.com"]::before
+article a[href*="twitter.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/twitter.svg');
 }
 
-article a[href^="https://www.youtube.com"]::before
+article a[href*="youtube.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/youtube.svg');
 }
 
-article a[href^="https://www.linkedin.com"]::before,
-article a[href^="https://developer.linkedin.com"]::before
+article a[href*="linkedin.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/linkedin.svg');
 }
 
-article a[href^="https://www.instagram.com"]::before,
-article a[href^="https://developers.instagram.com"]::before
+article a[href*="instagram.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/instagram.svg');
 }
 
-article a[href^="https://www.reddit.com"]::before
+article a[href*="reddit.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/reddit.svg');
 }
 
-article a[href^="https://www.pinterest.com"]::before,
-article a[href^="https://developers.pinterest.com"]::before,
-article a[href^="https://newsroom.pinterest.com"]::before
+article a[href*="pinterest.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/pinterest.svg');
 }
 
-article a[href^="https://en.wikipedia.org"]::before
+article a[href*="wikipedia.org"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/wikipedia.svg');
 }
 
-article a[href^="https://developer.mozilla.org"]::before,
-article a[href^="https://blog.mozilla.org"]::before,
-article a[href^="https://www.mozilla.org"]::before,
-article a[href^="https://hacks.mozilla.org"]::before
+article a[href*="mozilla.org"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/mozilla.svg');
 }
 
-article a[href^="https://archive.org"]::before,
-article a[href^="https://web.archive.org"]::before
+article a[href*="archive.org"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/internetarchive.svg');
 }
 
-article a[href^="https://www.ibm.com"]::before,
-article a[href^="https://developer.ibm.com"]::before,
-article a[href^="https://newsroom.ibm.com"]::before
+article a[href*="ibm.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/ibm.svg');
 }
 
-article a[href^="https://repl.it"]::before,
-article a[href^="https://blog.replit.com"]::before
+article a[href*="repl.it"]::before,
+article a[href*="replit.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/replit.svg');
 }
 
-article a[href^="https://www.snapchat.com"]::before,
-article a[href^="https://developers.snapchat.com"]::before,
-article a[href^="https://www.snap.com"]::before,
-article a[href^="https://developers.snap.com"]::before,
-article a[href^="https://newsroom.snap.com"]::before
+article a[href*="snapchat.com"]::before,
+article a[href*="snap.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/snapchat.svg');
 }
 
-article a[href^="https://www.w3.org"]::before
+article a[href*="w3.org"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/w3c.svg');
 }
 
-article a[href^="https://line.me"]::before,
-article a[href^="https://developers.line.biz"]::before,
-article a[href^="https://linecorp.com"]::before
+article a[href*="line.me"]::before,
+article a[href*="line.biz"]::before,
+article a[href*="linecorp.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/line.svg');
 }
 
-article a[href^="https://developers.kakao.com"]::before,
-article a[href^="https://www.kakaocorp.com/"]::before
+article a[href*="kakao.com"]::before,
+article a[href*="kakaocorp.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/kakaotalk.svg');
 }
 
-article a[href^="https://www.amazon.com"]::before,
-article a[href^="https://developer.amazon.com"]::before,
-article a[href^="https://www.aboutamazon.com"]::before
+article a[href*="amazon.com"]::before,
+article a[href*="aboutamazon.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/amazon.svg');
 }
 
-article a[href^="https://aws.amazon.com"]::before
+article a[href*="aws.amazon.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/aws.svg');
 }
 
-article a[href^="https://www.naver.com"]::before,
-article a[href^="https://news.naver.com"]::before,
-article a[href^="https://developers.naver.com"]::before,
-article a[href^="https://www.navercorp.com"]::before,
-article a[href^="https://www.naverlabs.com"]::before,
-article a[href^="https://www.ncloud.com"]::before
+article a[href*="naver.com"]::before,
+article a[href*="navercorp.com"]::before,
+article a[href*="naverlabs.com"]::before,
+article a[href*="ncloud.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/naver.svg');
 }
 
-article a[href^="https://www.microsoft.com"]::before,
-article a[href^="https://developer.microsoft.com"]::before,
-article a[href^="https://news.microsoft.com"]::before,
-article a[href^="https://docs.microsoft.com"]::before
+article a[href*="microsoft.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/microsoft.svg');
 }
 
-article a[href^="https://www.google.com"]::before,
-article a[href^="https://developers.google.com"]::before,
-article a[href^="https://developers.googleblog.com"]::before
+article a[href*="google.com"]::before,
+article a[href*="googleblog.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/google.svg');
 }
 
-article a[href^="https://azure.microsoft.com"]::before
+article a[href*="azure.microsoft.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/azure.svg');
 }
 
-article a[href^="https://chrome.google.com"]::before,
-article a[href^="https://developer.chrome.com"]::before,
-article a[href^="https://www.chromium.org"]::before,
-article a[href^="https://web.dev"]::before
+article a[href*="chrome.google.com"]::before,
+article a[href*="chrome.com"]::before,
+article a[href*="chromium.org"]::before,
+article a[href*="web.dev"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/chrome.svg');
 }
 
-article a[href^="https://news.ycombinator.com"]::before,
-article a[href^="https://www.ycombinator.com"]::before
+article a[href*="ycombinator.com"]::before
 {
-  content: '\00a0\00a0\00a0';
+  content: '\00a0';
   mask-image: url('../../static/icons/ycombinator.svg');
 }
