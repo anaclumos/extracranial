@@ -4,6 +4,7 @@ slug: '/45FE18'
 ---
 
 - [Debugging Programs with GDB](https://www.cs.rochester.edu/u/nelson/courses/csc_173/review/gdb.html)
+- [[Inspecting Assembly]]
 
 | Command      | Description                                                                                     |
 | ------------ | ----------------------------------------------------------------------------------------------- |

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bd251ee6efb88fe5",
+        "id": "6cd5d4c6e476cbfd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-10-10.md",
+            "file": "Academics/Internetworking/Internetworking.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -58,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-10.md",
+                "file": "Academics/Internetworking/Internetworking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-10.md"
+                "file": "Academics/Internetworking/Internetworking.md"
               }
             }
           },
@@ -124,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "bd251ee6efb88fe5",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
-    "Journals/2022-10-10.md",
-    "Projects/Someday/OGIaaS.md",
-    "Projects/Better Aldehyde/Transactional Globe.md",
-    "Academics/310/Adding Space.md",
-    "Templates/person.md",
-    "Templates/note.md",
-    "Templates/journal.md",
-    "Templates/grind.md",
-    "Templates/youtube.md",
-    "Templates/display-flex.md"
+    "Academics/Internetworking/Linux Commands.md",
+    "Academics/Internetworking/HTTP.md",
+    "Academics/Internetworking/GDB Commands.md",
+    "Academics/Internetworking/Clock Skew Detected.md",
+    "Academics/Internetworking/Internetworking.md",
+    "Academics/Computer Systems/Computer Systems.md",
+    "Academics/Computer Systems/356 Official SSH Server.md",
+    "Academics/Computer Systems/Inspecting Assembly.md",
+    "Academics/Android/Extracting String in Android.md",
+    "Academics/Game Programming/Monolithic (Pure Hierarchy) Model.md"
   ]
 }

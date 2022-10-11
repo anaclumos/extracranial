@@ -1,5 +1,5 @@
 ---
-title: '380 Xcode Startup'
+title: 'Xcode Startup'
 slug: '/2E53E2'
 ---
 
