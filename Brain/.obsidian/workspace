@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f7cb107cdaf5fc5e",
+        "id": "a7c406667e3d4ffe",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -123,10 +123,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f7cb107cdaf5fc5e",
+  "active": "a7c406667e3d4ffe",
   "lastOpenFiles": [
-    "Projects/Someday/OGIaaS.md",
     "Journals/2022-10-11.md",
+    "Projects/Someday/OGIaaS.md",
     "Journals/2022-10-10.md",
     "Research/ACSM.md",
     "Research/Infinite Canvas.md",
