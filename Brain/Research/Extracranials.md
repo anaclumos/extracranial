@@ -54,8 +54,8 @@ Extracranial is my term for an organized knowledge base **on the web** that aims
 ## Fast Websites (SPA based)
 
 - [Telmo Goncalves](https://telmo.is/)
-- [Lee Robinson – Developer, writer, creator.](https://leerob.io/)
-- [Timo Lins – Code · Design · Film](https://timo.sh/)
+- [Lee Robinson - Developer, writer, creator.](https://leerob.io/)
+- [Timo Lins - Code · Design · Film](https://timo.sh/)
 
 ## Built with Market Softwares
 
