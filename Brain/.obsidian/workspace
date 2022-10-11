@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "draft",
+                "query": "WIP",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +124,7 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "4e1fdb10e081f2e6",
+  "active": "b9b3d1724f39de07",
   "lastOpenFiles": [
     "Research/Super App and Democracy.md",
     "Journals/2022-10-11.md",

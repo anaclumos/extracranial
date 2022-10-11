@@ -115,7 +115,7 @@ HTTP request sent, awaiting response...
   X-Vercel-Cache: MISS
   X-Vercel-Id: sfo1:sfo1::nz7g7-1663441985797-738c480529df
 Length: 11916 (12K) [text/html]
-Saving to: ‘archive’
+Saving to: 'archive'
 ```
 
 - Note the `HTTP/1.1 308 Permanent Redirect`.
