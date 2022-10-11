@@ -4,7 +4,6 @@ article a[href^="https://"]::before
   width: 1.25em;
   height: 1.25em;
   margin-right: 0.25em;
-  margin-left: 0.25em;
   display: inline-block;
   vertical-align: text-bottom;
   mask-repeat: no-repeat;
@@ -16,9 +15,9 @@ article a[href^="https://"]::after
   background-color: var(--ifm-link-color);
   width: 1em;
   height: 1em;
-  margin-bottom: 0.05em;
-  margin-left: 0.15em;
-  margin-right: 0.15em;
+  margin-bottom: 0.025em;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
   display: inline-block;
   vertical-align: text-bottom;
   mask-repeat: no-repeat;
