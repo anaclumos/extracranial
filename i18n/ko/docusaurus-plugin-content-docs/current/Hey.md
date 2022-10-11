@@ -22,6 +22,9 @@ slug: '/'
 ## 사용 기술
 
 저는 [Obsidian](/r/4AAFB1)과 [Nota](/r/CA3C27)를 이용해 생각을 기록합니다.
-그 기록들을 (제 입맛대로 만든 React Component들이 잔뜩 첨가된) 개인화된 [TS](/r/134F92) [Docusaurus](/r/816CC8)로 연동합니다.
-이후 [Vercel](/r/E42038)을 이용해 SSR을 진행하고 [Cloudflare](/r/3144DB) CDN으로 정보를 캐싱하고 분산합니다.
-마지막으로 [GitHub](https://github.com/anaclumos/extracranial)에 open source로 공개되어 있으니 확인해보세요!
+그 기록들을 (제 입맛대로 만든 React Component들이 잔뜩 첨가된)
+개인화된 [TS](/r/134F92) [Docusaurus](/r/816CC8)로 연동합니다.
+이후 [Vercel](/r/E42038)을 이용해 서버사이드 렌더링을 하고
+[Cloudflare](/r/3144DB) CDN으로 정보를 캐싱하고 분산합니다.
+마지막으로 [GitHub](https://github.com/anaclumos/extracranial)에
+공개되어 있으니 확인해보세요!
