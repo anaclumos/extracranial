@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-10-11.md",
+            "file": "Research/Satori.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-11.md",
+                "file": "Research/Satori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-11.md"
+                "file": "Research/Satori.md"
               }
             }
           },
@@ -126,8 +126,8 @@
   },
   "active": "b041304b82e348d9",
   "lastOpenFiles": [
-    "Research/Satori.md",
     "Journals/2022-10-11.md",
+    "Research/Satori.md",
     "Research/Super App and Democracy.md",
     "Journals/2022-10-10.md",
     "Research/FPS.md",

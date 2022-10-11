@@ -12,11 +12,7 @@ slug: '/1E9E39'
 
 - _This approach is 5x faster than existing solutions by using Vercel Edge Functions, WebAssembly, and a brand new core library for converting HTML/CSS into SVGs._
 - _We released [og-image.vercel.app](https://og-image.vercel.app/) four years ago to enable developers to dynamically generate [open graph](https://ogp.me/) (OG) images by taking a screenshot of an HTML page inside of a Serverless Function_
-
-Indeed, I also used this for a while. [anaclumos/cho-sh-og-image: Open Graph Image as a Service](https://github.com/anaclumos/cho-sh-og-image). Related:
-
-- [[OGIaaS]]
-- [Support Unicode PUA Emojis #161](https://github.com/vercel/satori/pull/161)
+- Indeed, I also used this for a while. [anaclumos/cho-sh-og-image: Open Graph Image as a Service](https://github.com/anaclumos/cho-sh-og-image). [[OGIaaS]]
 
 ### Problems
 
@@ -26,13 +22,13 @@ Indeed, I also used this for a while. [anaclumos/cho-sh-og-image: Open Graph Ima
 
 * _Large: Chromium has continued growing in the past four years. Today, it's [too large to fit in a Serverless Function](https://github.com/vercel/og-image/issues/148)_
 
-### Meet `@vercel/og`
+### @vercel/og
 
 - Easy: No headless browser is needed. Using Vercel OG, you can define your images using HTML and CSS and automatically generate dynamic images from the generated SVGs
 - Affordable: Vercel Edge Functions are ~160x cheaper than running Chromium in a Serverless Function. Further, generated images can be cached and stored at the Edge
 - Fast: Vercel OG (500KB) is 100x more lightweight than Chromium + Puppeteer (50MB). 5x faster in P99 TTFB (4.96s → 0.99s) and 5.3x faster in P90 (4s → 0.75s).
 
-### Functionalities
+### Features
 
 - Basic CSS layout, styling, and typography.
 - Works with any framework or frontend application
