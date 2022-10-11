@@ -33,9 +33,9 @@ input[type='checkbox'] {
   outline: none;
   min-width: var(--ios-style-checkbox-width);
   min-height: var(--ios-style-checkbox-height);
-  border: var(--ifm-color-gray-800) solid
+  border: var(--ifm-color-gray-300) solid
     var(--ios-style-checkbox-border-width);
-  background-color: var(--ifm-color-gray-900);
+  background-color: var(--ifm-color-gray-100);
   border-radius: calc(var(--ios-style-checkbox-height) / 2);
   box-shadow: inset -20px 0 0 0 var(--ifm-menu-color-background-active);
   margin: auto 0.5em auto 0;
@@ -67,6 +67,8 @@ input[type='checkbox']:after {
     background-color: var(
       --ifm-menu-color-background-active
     );
+    border: var(--ifm-color-gray-800) solid
+      var(--ios-style-checkbox-border-width);
   }
   input[type='checkbox']:after {
     background-color: var(--ifm-menu-color);
