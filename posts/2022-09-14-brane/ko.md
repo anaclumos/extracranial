@@ -162,6 +162,7 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 </DisplayFlex>
 
 - [anaclumos/poc-geolocation-dialog: Geolocation Shimming Demo](https://github.com/anaclumos/poc-geolocation-dialog)
+- [Geolocation Shimming Demo](https://poc-geolocation-dialog.vercel.app/)
 
 즉, 이를 조금 더 고도화해서 아예 `document`,
 즉 DOM 자체를 JavaScript로 구현하여 원하는 부분만 교체하면
