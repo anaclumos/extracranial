@@ -2,7 +2,7 @@
 slug: '/A51A6A'
 ---
 
-# How is [[WebAssembly|WASM]] cross-platform when ASM is not?
+# How is WebAssembly cross-platform when Assembly is not?
 
 ## My understanding
 
@@ -12,7 +12,7 @@ slug: '/A51A6A'
   - it runs on browsers
 - But how is [[WebAssembly|WASM]] _fast_ and cross-platform simultaneously?
   - Does it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?
-  - But then whenever a new type of CPU gets announced, they wouldn't be able to run existing WASMs
+  - But then, whenever a new type of CPU gets announced, they wouldn't be able to run existing WASMs
 - [[WebAssembly]]'s runtime environments (RE) are low-level virtual stack machines (akin to JVM or Flash VM)
 - Seems like [[WebAssembly|WASM]] is closer to intermediate Java Byte Code instead of the genuinely low-level [[Assembly]].
   - But then, why is it faster?
