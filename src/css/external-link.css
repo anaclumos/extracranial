@@ -1,5 +1,4 @@
-article a[href^="http"]::before
-{
+article a[href^='http']::before {
   background-color: var(--ifm-link-color);
   width: 1.25em;
   height: 1.25em;
@@ -9,8 +8,7 @@ article a[href^="http"]::before
   mask-repeat: no-repeat;
   mask-image: none;
 }
-article a[href^="http"]::after
-{
+article a[href^='http']::after {
   content: '\00a0';
   background-color: var(--ifm-link-color);
   width: 1em;
@@ -24,184 +22,170 @@ article a[href^="http"]::after
   mask-image: url('../../static/icons/external-link.svg');
 }
 
-article a[href*="cho.sh"]::before
-{
+article a[href*='cho.sh']::before {
   content: '\00a0';
   display: none !important;
 }
 
-article a[href*="apple.com"]::before
-{
+article a[href*='apple.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/apple.svg');
 }
 
-article a[href*="facebook.com"]::before
-{
+article a[href*='facebook.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/facebook.svg');
 }
 
-article a[href*="github.com"]::before,
-article a[href*="github.io"]::before,
-article a[href*="githubusercontent.com"]::before,
-article a[href*="githubassets.com"]::before,
-article a[href*="githubapp.com"]::before,
-article a[href*="githubstatus.com"]::before,
-article a[href*="github.blog"]::before
-{
+article a[href*='github.com']::before,
+article a[href*='github.io']::before,
+article a[href*='githubusercontent.com']::before,
+article a[href*='githubassets.com']::before,
+article a[href*='githubapp.com']::before,
+article a[href*='githubstatus.com']::before,
+article a[href*='github.blog']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/github.svg');
 }
 
-article a[href*="twitter.com"]::before
-{
+article a[href*='twitter.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/twitter.svg');
 }
 
-article a[href*="youtube.com"]::before,
-article a[href*="youtu.be"]::before
-{
+article a[href*='youtube.com']::before,
+article a[href*='youtu.be']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/youtube.svg');
 }
 
-article a[href*="linkedin.com"]::before
-{
+article a[href*='linkedin.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/linkedin.svg');
 }
 
-article a[href*="instagram.com"]::before
-{
+article a[href*='instagram.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/instagram.svg');
 }
 
-article a[href*="reddit.com"]::before
-{
+article a[href*='reddit.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/reddit.svg');
 }
 
-article a[href*="pinterest.com"]::before
-{
+article a[href*='pinterest.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/pinterest.svg');
 }
 
-article a[href*="wikipedia.org"]::before
-{
+article a[href*='wikipedia.org']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/wikipedia.svg');
 }
 
-article a[href*="mozilla.org"]::before
-{
+article a[href*='mozilla.org']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/mozilla.svg');
 }
 
-article a[href*="archive.org"]::before
-{
+article a[href*='archive.org']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/internetarchive.svg');
 }
 
-article a[href*="ibm.com"]::before
-{
+article a[href*='ibm.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/ibm.svg');
 }
 
-article a[href*="repl.it"]::before,
-article a[href*="replit.com"]::before
-{
+article a[href*='repl.it']::before,
+article a[href*='replit.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/replit.svg');
 }
 
-article a[href*="snapchat.com"]::before,
-article a[href*="snap.com"]::before
-{
+article a[href*='snapchat.com']::before,
+article a[href*='snap.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/snapchat.svg');
 }
 
-article a[href*="w3.org"]::before
-{
+article a[href*='w3.org']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/w3c.svg');
 }
 
-article a[href*="line.me"]::before,
-article a[href*="line.biz"]::before,
-article a[href*="linecorp.com"]::before
-{
+article a[href*='line.me']::before,
+article a[href*='line.biz']::before,
+article a[href*='linecorp.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/line.svg');
 }
 
-article a[href*="kakao.com"]::before,
-article a[href*="kakaocorp.com"]::before
-{
+article a[href*='kakao.com']::before,
+article a[href*='kakaocorp.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/kakaotalk.svg');
 }
 
-article a[href*="amazon.com"]::before,
-article a[href*="aboutamazon.com"]::before
-{
+article a[href*='amazon.com']::before,
+article a[href*='aboutamazon.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/amazon.svg');
 }
 
-article a[href*="aws.amazon.com"]::before
-{
+article a[href*='aws.amazon.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/aws.svg');
 }
 
-article a[href*="naver.com"]::before,
-article a[href*="navercorp.com"]::before,
-article a[href*="naverlabs.com"]::before,
-article a[href*="ncloud.com"]::before
-{
+article a[href*='naver.com']::before,
+article a[href*='navercorp.com']::before,
+article a[href*='naverlabs.com']::before,
+article a[href*='ncloud.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/naver.svg');
 }
 
-article a[href*="microsoft.com"]::before
-{
+article a[href*='microsoft.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/microsoft.svg');
 }
 
-article a[href*="google.com"]::before,
-article a[href*="googleblog.com"]::before
-{
+article a[href*='google.com']::before,
+article a[href*='googleblog.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/google.svg');
 }
 
-article a[href*="azure.microsoft.com"]::before
-{
+article a[href*='azure.microsoft.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/azure.svg');
 }
 
-article a[href*="chrome.google.com"]::before,
-article a[href*="chrome.com"]::before,
-article a[href*="chromium.org"]::before,
-article a[href*="web.dev"]::before
-{
+article a[href*='chrome.google.com']::before,
+article a[href*='chrome.com']::before,
+article a[href*='chromium.org']::before,
+article a[href*='web.dev']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/chrome.svg');
 }
 
-article a[href*="ycombinator.com"]::before
-{
+article a[href*='ycombinator.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/ycombinator.svg');
+}
+
+article a[href*='vercel.com']::before,
+article a[href*='vercel.app']::before,
+article a[href*='vercel.sh']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/vercel.svg');
+}
+
+article a[href*='swift.org']::before,
+article a[href*='swift.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/swift.svg');
 }
