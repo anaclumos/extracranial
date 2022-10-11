@@ -7,8 +7,13 @@
         "id": "d9918ad8d3870e52",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-10-11.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -53,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -74,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-10-11.md"
+              }
             }
           },
           {
@@ -119,14 +126,14 @@
   "active": "d9918ad8d3870e52",
   "lastOpenFiles": [
     "Journals/2022-10-10.md",
+    "Journals/2022-10-11.md",
+    "Research/ACSM.md",
     "Research/Infinite Canvas.md",
     "Projects/Someday/Intracranial.md",
     "Research/Tools I will use one day.md",
     "Research/Screenshots-as-an-API.md",
     "Journals/2022-07-26.md",
     "Research/_template.md",
-    "Journals/2022-10-03.md",
-    "Academics/Internetworking/Linux Commands.md",
-    "Academics/Internetworking/HTTP.md"
+    "Journals/2022-10-03.md"
   ]
 }
