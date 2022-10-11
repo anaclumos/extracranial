@@ -2,7 +2,7 @@
 slug: '/A51A6A'
 ---
 
-# How is WebAssembly cross-platform when Assembly is not?
+# How is WebAssembly cross-platform?
 
 ## My understanding
 
