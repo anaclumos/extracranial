@@ -1,5 +1,8 @@
 {
     "schedule": "daily",
     "aggressiveCompression": true,
-    "compressWiki": true
+    "compressWiki": true,
+    "ignoredFiles": [
+        "*.svg"
+    ]
 }
