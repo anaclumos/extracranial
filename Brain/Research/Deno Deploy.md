@@ -9,7 +9,7 @@ slug: '/66D559'
 - Instant deployments
 - Located in [34 regions](https://deno.com/deploy/docs/regions) worldwide
 - Zero config, zero maintenance
-- [[TS|TypeScript]], Wasm, ES Modules
+- [[TS|TypeScript]], [[WebAssembly|Wasm]], ES Modules
 
 import WIP from '@site/src/components/WIP'
 

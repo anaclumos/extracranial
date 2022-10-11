@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/Satori.md",
+            "file": "Journals/2022-10-11.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -58,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Satori.md",
+                "file": "Journals/2022-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Satori.md"
+                "file": "Journals/2022-10-11.md"
               }
             }
           },
@@ -126,15 +125,15 @@
   },
   "active": "b041304b82e348d9",
   "lastOpenFiles": [
+    "Journals/2022-07-11.md",
     "Journals/2022-10-11.md",
-    "Research/Satori.md",
-    "Research/Super App and Democracy.md",
-    "Journals/2022-10-10.md",
-    "Research/FPS.md",
-    "Research/Firefox.md",
-    "Research/Infinite Canvas.md",
-    "Research/ActivityPub.md",
-    "Research/Screenshots-as-an-API.md",
-    "Research/HN.md"
+    "Research/Worker.md",
+    "Journals/2022-08-03.md",
+    "Research/Assembly.md",
+    "Academics/Computer Systems/Inspecting Assembly.md",
+    "Research/WebAssembly.md",
+    "Research/How is WASM cross-platform when ASM is not.md",
+    "Research/Vercel.md",
+    "Research/Satori.md"
   ]
 }
