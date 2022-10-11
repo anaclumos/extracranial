@@ -4,9 +4,16 @@ slug: '/1E9E39'
 
 # Satori
 
-- Opened a PR: [Add Unicode Private Area Support #161](https://github.com/vercel/satori/pull/161)
+<figure>
 
-![[Pasted image 20221010232130.png]]
+![ALT: Add Unicode Private Area Support #161 Merged](../Assets/CD80BA.png)
+
+<figcaption>
+
+Merged! [Add Unicode Private Area Support #161](https://github.com/vercel/satori/pull/161)
+
+</figcaption>
+</figure>
 
 ## [Introducing OG Image Generation: Fast, dynamic social card images at the Edge - Vercel](https://vercel.com/blog/introducing-vercel-og-image-generation-fast-dynamic-social-card-images)
 
