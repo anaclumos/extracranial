@@ -19,7 +19,7 @@ That `content` thing was what I wanted to use. Extract that value with JS.
 
     document.getElementsByName("generator")[0].content;
 
-Of course, if you made some other HTML tag with a name `generator` before this generator, this wouldn't work. But you really shouldn't do that – `generator` tags should only be used by automatic software and aren't supposed to be edited. So either leave this tag as-is or remove it altogether.
+Of course, if you made some other HTML tag with a name `generator` before this generator, this wouldn't work. But you really shouldn't do that - `generator` tags should only be used by automatic software and aren't supposed to be edited. So either leave this tag as-is or remove it altogether.
 
 # Displaying the extracted Ghost version
 
