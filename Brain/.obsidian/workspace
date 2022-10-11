@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4d8169bf12b00443",
+        "id": "8e37f391ed5d0f8f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/How is WASM cross-platform when ASM is not.md",
+            "file": "Journals/2022-10-11.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/How is WASM cross-platform when ASM is not.md",
+                "file": "Journals/2022-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/How is WASM cross-platform when ASM is not.md"
+                "file": "Journals/2022-10-11.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "4d8169bf12b00443",
+  "active": "8e37f391ed5d0f8f",
   "lastOpenFiles": [
+    "Research/Super App and Democracy.md",
     "Journals/2022-10-11.md",
+    "Research/How is WASM cross-platform when ASM is not.md",
     "Journals/2022-07-11.md",
     "Research/Worker.md",
     "Journals/2022-08-03.md",
     "Research/Assembly.md",
     "Academics/Computer Systems/Inspecting Assembly.md",
     "Research/WebAssembly.md",
-    "Research/How is WASM cross-platform when ASM is not.md",
-    "Research/Vercel.md",
-    "Research/Satori.md"
+    "Research/Vercel.md"
   ]
 }
