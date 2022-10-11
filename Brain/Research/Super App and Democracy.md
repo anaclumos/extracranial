@@ -2,7 +2,7 @@
 slug: '/8794DD'
 ---
 
-# Super-App and Democracy
+# Super App and Democracy
 
 > 데이터의 중앙집권화는 反민주적인가?
 
