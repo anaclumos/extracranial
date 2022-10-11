@@ -10,6 +10,7 @@ slug: '/009C77'
 - Uses
   - PencilKit
   - Atomic Notes System
+  - [[Infinite Canvas]]
 - Notes can refer to notes (like Hepta)
 - Can view relation graphs
 - Gesture Recognition: draw a certain shape to tag/link notes

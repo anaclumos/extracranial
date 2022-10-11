@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Academics/Internetworking/Internetworking.md",
+            "file": "Journals/2022-10-10.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "display",
+                "query": "draft",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academics/Internetworking/Internetworking.md",
+                "file": "Journals/2022-10-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academics/Internetworking/Internetworking.md"
+                "file": "Journals/2022-10-10.md"
               }
             }
           },
@@ -123,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "aa73c60d583d3db3",
+  "active": "6cd5d4c6e476cbfd",
   "lastOpenFiles": [
+    "Research/Infinite Canvas.md",
+    "Journals/2022-10-10.md",
+    "Projects/Someday/Intracranial.md",
+    "Research/Tools I will use one day.md",
+    "Research/Screenshots-as-an-API.md",
+    "Journals/2022-07-26.md",
+    "Research/_template.md",
+    "Journals/2022-10-03.md",
     "Academics/Internetworking/Linux Commands.md",
-    "Academics/Internetworking/HTTP.md",
-    "Academics/Internetworking/GDB Commands.md",
-    "Academics/Internetworking/Clock Skew Detected.md",
-    "Academics/Internetworking/Internetworking.md",
-    "Academics/Computer Systems/Computer Systems.md",
-    "Academics/Computer Systems/356 Official SSH Server.md",
-    "Academics/Computer Systems/Inspecting Assembly.md",
-    "Academics/Android/Extracting String in Android.md",
-    "Academics/Game Programming/Monolithic (Pure Hierarchy) Model.md"
+    "Academics/Internetworking/HTTP.md"
   ]
 }
