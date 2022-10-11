@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b041304b82e348d9",
+        "id": "4d8169bf12b00443",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Journals/2022-10-11.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-10-11.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,10 +115,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "b041304b82e348d9",
+  "active": "4d8169bf12b00443",
   "lastOpenFiles": [
-    "Journals/2022-07-11.md",
     "Journals/2022-10-11.md",
+    "Journals/2022-07-11.md",
     "Research/Worker.md",
     "Journals/2022-08-03.md",
     "Research/Assembly.md",

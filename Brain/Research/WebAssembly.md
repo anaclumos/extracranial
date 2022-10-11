@@ -1,6 +1,6 @@
 ---
-slug: '{{hex}}'
-aliases: ["WASM"]
+slug: '/60C4E1'
+aliases: ['WASM']
 ---
 
 # WebAssembly
