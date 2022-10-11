@@ -1,5 +1,5 @@
 ---
-slug: '{{hex}}'
+slug: '/FF8AAA'
 ---
 
 # Assembly
