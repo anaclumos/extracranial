@@ -102,11 +102,13 @@ const config: Config = {
       src: 'https://sa.cho.sh/latest.js',
       async: true,
       defer: true,
+      SameSite: 'None',
     },
     {
       src: 'https://plausible.io/js/plausible.js',
       defer: true,
       'data-domain': 'cho.sh',
+      SameSite: 'None',
     },
   ],
   plugins: [['@docusaurus/plugin-pwa', pwaOptions]],
