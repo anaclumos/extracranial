@@ -18,9 +18,18 @@
   --ios-style-checkbox-border-width: 0.1rem;
 }
 
+.task-list-item {
+  display: inline-block !important;
+  text-align: left;
+  vertical-align: middle;
+  margin: 1rem 0;
+  width: 100%;
+}
+
 input[type='checkbox'] {
   position: relative;
   -webkit-appearance: none;
+  appearance: none;
   outline: none;
   min-width: var(--ios-style-checkbox-width);
   min-height: var(--ios-style-checkbox-height);
@@ -29,7 +38,8 @@ input[type='checkbox'] {
   background-color: var(--ifm-color-gray-900);
   border-radius: calc(var(--ios-style-checkbox-height) / 2);
   box-shadow: inset -20px 0 0 0 var(--ifm-menu-color-background-active);
-  margin: 0 1rem 0 0;
+  margin: auto 0.5em auto 0;
+  vertical-align: middle;
 }
 
 input[type='checkbox']:after {
