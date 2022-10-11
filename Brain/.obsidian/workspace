@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8e37f391ed5d0f8f",
+        "id": "f32fb56eb02e6fa8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-10-11.md",
+            "file": "Research/Super App and Democracy.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-11.md",
+                "file": "Research/Super App and Democracy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-11.md"
+                "file": "Research/Super App and Democracy.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "8e37f391ed5d0f8f",
+  "active": "f32fb56eb02e6fa8",
   "lastOpenFiles": [
-    "Research/Super App and Democracy.md",
     "Journals/2022-10-11.md",
-    "Research/How is WASM cross-platform when ASM is not.md",
-    "Journals/2022-07-11.md",
-    "Research/Worker.md",
-    "Journals/2022-08-03.md",
-    "Research/Assembly.md",
-    "Academics/Computer Systems/Inspecting Assembly.md",
-    "Research/WebAssembly.md",
-    "Research/Vercel.md"
+    "Journals/2022-10-02.md",
+    "Journals/2022-10-03.md",
+    "Journals/2022-10-04.md",
+    "Journals/2022-10-06.md",
+    "Journals/2022-10-07.md",
+    "Journals/2022-10-08.md",
+    "Journals/2022-10-10.md",
+    "Research/Super App and Democracy.md",
+    "Research/How is WASM cross-platform when ASM is not.md"
   ]
 }
