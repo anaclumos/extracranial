@@ -6,6 +6,8 @@ slug: '/8794DD'
 
 > 데이터의 중앙집권화는 反민주적인가?
 
+> [Elon Musk: "Buying Twitter is an accelerant to creating X, the everything app"](https://twitter.com/elonmusk/status/1577428272056389633)
+
 ## [Why an 'everything app' is bad news for liberal democracies and free markets](https://www.nitinpai.in/2022/10/10/why-an-everything-app-is-bad-news-for-liberal-democracies-and-free-markets)
 
 - _Many technology entrepreneurs dream of an "Everything App", a smartphone application that will deliver everything to everyone on the planet._
