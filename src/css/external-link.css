@@ -60,7 +60,8 @@ article a[href*="twitter.com"]::before
   mask-image: url('../../static/icons/twitter.svg');
 }
 
-article a[href*="youtube.com"]::before
+article a[href*="youtube.com"]::before,
+article a[href*="youtu.be"]::before
 {
   content: '\00a0';
   mask-image: url('../../static/icons/youtube.svg');
