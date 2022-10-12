@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "fb62b82b9c9c334e",
+        "id": "5e787b4278998d21",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-10-11.md",
-            "mode": "source",
+            "file": "Research/How is WASM cross-platform.md",
+            "mode": "preview",
             "backlinks": true,
             "source": true
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "WIP",
+                "query": "Extracrani",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-11.md",
+                "file": "Research/How is WASM cross-platform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-11.md"
+                "file": "Research/How is WASM cross-platform.md"
               }
             }
           },
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "fb62b82b9c9c334e",
+  "active": "5e787b4278998d21",
   "lastOpenFiles": [
     "Journals/2022-10-12.md",
+    "Assets/Pasted image 20221012123856.png",
+    "Research/How is WASM cross-platform.md",
+    "Research/Turing Machine.md",
+    "Research/Atomics.md",
+    "Research/Extracranial.md",
+    "Journals/2022-05-27.md",
     "Journals/2022-10-11.md",
     "Readings/Atomic Habits.md",
-    "Readings/Readings.md",
-    "Assets/7F65A5.jpeg",
-    "Projects/Dynamic Island on the Web.md",
-    "Journals/2022-10-10.md",
-    "Projects/Done/Letter to the Heptabase Team on 2022-10-11.md",
-    "Research/Dynamic Island.md",
-    "Research/Infinite Canvas.md"
+    "Readings/Readings.md"
   ]
 }
