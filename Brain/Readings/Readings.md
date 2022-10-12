@@ -13,7 +13,8 @@ This is a meta-page that collects my to-read lists.
 
 ## Reading
 
-- [ ] Atomic Habits
+- [ ] [[Atomic Habits]]
+- [ ] [[The Chinese Typewriter]]
 
 ## To-read
 
