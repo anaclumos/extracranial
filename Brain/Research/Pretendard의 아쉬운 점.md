@@ -7,8 +7,8 @@ lang: 'ko'
 
 ## 한글과 영문의 크기 격차
 
-Pretendard를 자세하게 확인해보면, 알파벳 글자의 크기가 살짝 더 크다.
-즉, Pretendard의 알파벳을 94% 정도로 축소하여야 맞다.
+Pretendard를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.
+즉, Pretendard의 한글을 94% 정도로 축소하여야 맞다.
 이는 유사한 폰트 Interop에서는 반영되어 있는 사항이다.
 
 - [jhaemin/Interop: The Interop font family](https://github.com/jhaemin/Interop)
