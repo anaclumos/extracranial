@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "2d8e5e882243a2a2",
+        "id": "7da987cbe9bcb00d",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "2d8e5e882243a2a2",
+  "active": "7da987cbe9bcb00d",
   "lastOpenFiles": [
-    "Research/Grammarly.md",
+    "Research/iOS Style Toggle in CSS.md",
     "Journals/2022-10-12.md",
+    "Research/Y Combinator.md",
+    "Research/Grammarly.md",
     "Research/Cross-Origin-Opener-Policy.md",
     "Research/How is WASM cross-platform.md",
     "Research/Extracranial.md",
     "Assets/Pasted image 20221012123856.png",
     "Research/Turing Machine.md",
-    "Research/Atomics.md",
-    "Journals/2022-05-27.md",
-    "Journals/2022-10-11.md"
+    "Research/Atomics.md"
   ]
 }
