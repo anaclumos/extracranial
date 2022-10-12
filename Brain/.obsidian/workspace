@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5e787b4278998d21",
+        "id": "5251bd52ea93ef6e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/Extracranial.md",
+            "file": "Research/How is WASM cross-platform.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Extracranial.md",
+                "file": "Research/How is WASM cross-platform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Extracranial.md"
+                "file": "Research/How is WASM cross-platform.md"
               }
             }
           },
@@ -123,14 +123,14 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5e787b4278998d21",
+  "active": "5251bd52ea93ef6e",
   "lastOpenFiles": [
     "Journals/2022-10-12.md",
+    "Research/Extracranial.md",
     "Research/How is WASM cross-platform.md",
     "Assets/Pasted image 20221012123856.png",
     "Research/Turing Machine.md",
     "Research/Atomics.md",
-    "Research/Extracranial.md",
     "Journals/2022-05-27.md",
     "Journals/2022-10-11.md",
     "Readings/Atomic Habits.md",
