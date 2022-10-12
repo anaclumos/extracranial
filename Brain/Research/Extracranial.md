@@ -1,5 +1,5 @@
 ---
-title: 'Extracranials'
+title: 'Extracranial'
 slug: '/93AA11'
 ---
 
