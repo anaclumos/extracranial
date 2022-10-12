@@ -4,7 +4,6 @@
 @import url('./color.css');
 @import url('./font.css');
 @import url('./supplementary-font.css');
-@import url('./toggle.css');
 @import url('./external-link.css');
 
 @media screen and (min-width: 996px) {
@@ -103,10 +102,4 @@ table {
   display: table;
   margin: 1rem auto;
   min-width: 80%;
-}
-
-.task-list-item {
-  display: flex;
-  align-items: center;
-  margin: 1rem 0;
 }
