@@ -878,5 +878,5 @@ import WIP from '@site/src/components/WIP'
 
 ## References
 
-1. [https://en.wikipedia.org/wiki/Software_developer](https://en.wikipedia.org/wiki/Software_developer)
+1. [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
 2. [How is WebAssembly cross-platform when Assembly is not? - Stack Overflow](https://stackoverflow.com/questions/73790881/how-is-webassembly-cross-platform-when-assembly-is-not)
