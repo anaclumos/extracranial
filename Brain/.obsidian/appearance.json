@@ -2,7 +2,7 @@
   "theme": "obsidian",
   "interfaceFontFamily": "SF Mono",
   "textFontFamily": "SF Mono",
-  "monospaceFontFamily": "Dank Mono,SF Mono",
+  "monospaceFontFamily": "SF Mono",
   "cssTheme": "Minimal",
   "translucency": false,
   "baseFontSize": 16

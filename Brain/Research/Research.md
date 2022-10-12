@@ -9,7 +9,7 @@ slug: '/5AF385'
 | ------------------------ | ----------------- | ----------------------------- |
 | Concepts                 | Singular Noun     | _[[Worker]]_ (not _Workers_.) |
 | Collections of a Concept | Plural Noun       | _[[Tools for Thought]]_       |
-| Actions                  | _Verb_-ing Plural | _[[Extracranials]]_           |
+| Actions                  | _Verb_-ing Plural | _[[Extracranial]]_            |
 
 ## Nomenclature
 
