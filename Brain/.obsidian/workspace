@@ -4,12 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3db4943e5ca5e947",
+        "id": "fb62b82b9c9c334e",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Assets/7F65A5.jpeg"
+            "file": "Journals/2022-10-11.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
           }
         }
       }
@@ -75,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/7F65A5.jpeg",
+                "file": "Journals/2022-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assets/7F65A5.jpeg"
+                "file": "Journals/2022-10-11.md"
               }
             }
           },
@@ -120,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "aa73c60d583d3db3",
+  "active": "fb62b82b9c9c334e",
   "lastOpenFiles": [
-    "Projects/Dynamic Island on the Web.md",
     "Journals/2022-10-12.md",
     "Journals/2022-10-11.md",
+    "Readings/Atomic Habits.md",
+    "Readings/Readings.md",
+    "Assets/7F65A5.jpeg",
+    "Projects/Dynamic Island on the Web.md",
     "Journals/2022-10-10.md",
     "Projects/Done/Letter to the Heptabase Team on 2022-10-11.md",
     "Research/Dynamic Island.md",
-    "Research/Infinite Canvas.md",
-    "Journals/2022-10-08.md",
-    "Research/Handwriting Tools for Thoughts.md",
-    "Research/Slow Down Your Brain Clock Cycle.md"
+    "Research/Infinite Canvas.md"
   ]
 }
