@@ -1,8 +1,8 @@
 {
   "theme": "obsidian",
-  "interfaceFontFamily": "SF Mono",
-  "textFontFamily": "SF Mono",
-  "monospaceFontFamily": "SF Mono",
+  "interfaceFontFamily": "Iosevka",
+  "textFontFamily": "Iosevka",
+  "monospaceFontFamily": "Iosevka",
   "cssTheme": "Minimal",
   "translucency": false,
   "baseFontSize": 16
