@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Projects/Someday/UUIDs are Awesome.md",
+            "file": "Journals/2022-10-12.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "<WIP",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Someday/UUIDs are Awesome.md",
+                "file": "Journals/2022-10-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Someday/UUIDs are Awesome.md"
+                "file": "Journals/2022-10-12.md"
               }
             }
           },
@@ -126,6 +126,7 @@
   },
   "active": "e620ce38925e91e8",
   "lastOpenFiles": [
+    "Projects/Someday/UUIDs are Awesome.md",
     "Research/CBOR.md",
     "Research/MessagePack.md",
     "Templates/journal.md",
@@ -134,7 +135,6 @@
     "Projects/Coding Tests/greedy.md",
     "Research/Markdown.md",
     "Research/Handwriting Tools for Thoughts.md",
-    "Research/Handwriting Grammarly.md",
-    "Projects/Someday/Digital Addictions of Software Enthusiasts.md"
+    "Research/Handwriting Grammarly.md"
   ]
 }
