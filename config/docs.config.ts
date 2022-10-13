@@ -7,7 +7,6 @@ const sidebarProcessor = (items) => {
     'Projects',
     'Research',
     'Readings',
-    'Archive',
   ]
   const orderedItems = []
   preferredOrder.forEach((item) => {
