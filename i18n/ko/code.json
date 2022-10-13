@@ -547,5 +547,8 @@
   "theme.blog.post.views": {
     "message": "번 열람",
     "description": "The blog post has multiple views"
+  },
+  "Or dive down the rabbit hole.": {
+    "message": "또는 토끼굴에 뛰어들기."
   }
 }
