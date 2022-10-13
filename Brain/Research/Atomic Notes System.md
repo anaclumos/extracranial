@@ -1,6 +1,6 @@
 ---
 slug: '/E1F385'
-aliases: ["Zettelkasten"]
+aliases: ['Zettelkasten']
 ---
 
 # Atomic Notes System

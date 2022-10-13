@@ -16,4 +16,3 @@ It should be `Format File`, not `SwiftFormat > Format File`.
 :::
 
 ![[Pasted image 20220803235118.png]]
-

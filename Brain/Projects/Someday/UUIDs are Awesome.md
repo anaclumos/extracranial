@@ -10,4 +10,5 @@ slug: '/0A964E'
 - Let's try mathematical and computational approaches to verify this.
 
 ## Resource
+
 - [Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)

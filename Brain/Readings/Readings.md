@@ -32,4 +32,3 @@ This is a meta-page that collects my to-read lists.
 ## References
 
 - [The Best Books Apps and Products of 2022 | Product Hunt](https://www.producthunt.com/topics/books?order=most-upvoted)
-
