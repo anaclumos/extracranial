@@ -7,8 +7,13 @@
         "id": "b0ba2e35a2c8b336",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Research/Linker Service.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Research/Linker Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Research/Linker Service.md"
+              }
             }
           },
           {
@@ -117,15 +125,15 @@
   },
   "active": "b0ba2e35a2c8b336",
   "lastOpenFiles": [
+    "Journals/2022-10-13.md",
+    "Journals/2022-10-12.md",
     "Hey.md",
     "Research/Game Programming.md",
     "Research/How is WASM cross-platform.md",
     "Journals/2022-08-25.md",
-    "Journals/2022-10-12.md",
     "Research/Cosmic Noises of Life.md",
     "Assets/Pasted image 20221010141055.png",
     "Assets/Pasted image 20221010141610.png",
-    "Assets/Pasted image 20221010232130.png",
-    "Assets/Pasted image 20221012124224.png"
+    "Assets/Pasted image 20221010232130.png"
   ]
 }
