@@ -3,6 +3,4 @@ title: 'Docusaurus'
 slug: '/816CC8'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
+> Docusaurus is **a tool designed to make it easy for teams to publish documentation websites without worrying about the infrastructure and design details**. [Introducing Docusaurus | Docusaurus](https://docusaurus.io/blog/2017/12/14/introducing-docusaurus#:~:text=Docusaurus%20is%20a%20tool%20designed,the%20infrastructure%20and%20design%20details.)

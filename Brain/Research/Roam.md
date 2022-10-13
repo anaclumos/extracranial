@@ -3,6 +3,4 @@ title: 'Roam Research'
 slug: '/B88D74'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
+> A note-taking tool for networked thought. [Roam Research](https://roamresearch.com/)

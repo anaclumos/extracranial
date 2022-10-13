@@ -7,6 +7,4 @@ slug: '/82E962'
 - Typically, following the question as-is results in time-outs.
 - Therefore, you must figure out how to cut down redundant operations and mathematic optimizations.
 
-import WIP from '@site/src/components/WIP'
 
-<WIP />

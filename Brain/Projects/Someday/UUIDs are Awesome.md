@@ -9,10 +9,5 @@ slug: '/0A964E'
 - Nonetheless, it seems very unlikely.
 - Let's try mathematical and computational approaches to verify this.
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
-
 ## Resource
-
-[Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)
+- [Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)

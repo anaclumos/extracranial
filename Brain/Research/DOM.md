@@ -3,6 +3,4 @@ title: 'DOM'
 slug: '/87C3D3'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
+> The **Document Object Model** (**DOM**) is a [cross-platform](https://en.wikipedia.org/wiki/Cross-platform 'Cross-platform') and [language-independent](https://en.wikipedia.org/wiki/Language-independent_specification 'Language-independent specification') interface that treats an [XML](https://en.wikipedia.org/wiki/XML 'XML') or [HTML](https://en.wikipedia.org/wiki/HTML 'HTML') document as a [tree structure](https://en.wikipedia.org/wiki/Tree_structure 'Tree structure') wherein each [node](<https://en.wikipedia.org/wiki/Node_(computer_science)> 'Node (computer science)') is an [object](<https://en.wikipedia.org/wiki/Object_(computer_science)> 'Object (computer science)') representing a part of the document. The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree; with them, one can change a document's structure, style, or content. Nodes can have [event handlers](https://en.wikipedia.org/wiki/Event_handler 'Event handler') attached to them. Once an event is triggered, the event handlers get executed. [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)

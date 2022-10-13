@@ -1,5 +1,5 @@
 ---
-title: 'Android Programming'
+title: 'Android'
 slug: '/061F3C'
 ---
 
@@ -9,6 +9,3 @@ slug: '/061F3C'
 - [[Adding Space]]
 - [[Componentizing Views]]
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

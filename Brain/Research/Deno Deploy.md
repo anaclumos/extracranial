@@ -11,6 +11,3 @@ slug: '/66D559'
 - Zero config, zero maintenance
 - [[TS|TypeScript]], [[WebAssembly|Wasm]], ES Modules
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

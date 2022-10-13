@@ -12,7 +12,3 @@ slug: '/D6B2AF'
 - [[Monolithic (Pure Hierarchy) Model]]
 - [[Forward Declaration]]
 - [[SDL]]
-
-import WIP from '@site/src/components/WIP'
-
-<WIP />

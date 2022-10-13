@@ -3,9 +3,6 @@ title: 'Not-So-Procrastinating Lazy Loading'
 slug: '/9E64CE'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
 
 - `img loading=lazy`
-- If network idles for a given timespan, starts preloading lazy data
+- If the network idles for a given timespan, it starts preloading lazy data

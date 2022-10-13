@@ -9,6 +9,3 @@ slug: '/51BF0E'
   - Coding React
   - Building [[Python]] Data Parser
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

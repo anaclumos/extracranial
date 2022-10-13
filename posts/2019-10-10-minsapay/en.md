@@ -27,7 +27,7 @@ Because there were a lot of products being sold, it was hard to use regular pape
 
 ![The Minjok Festival Note design for 2018 had photos of the KMLA student council members at the center of the bill. The yellow one was worth approximately $5.00, the green one was worth $1.00, and the red one was worth 50 cents.](images/optimized-minsapay-cash.jpeg)
 
-**But there were problems.** First, it was not eco-friendly. Thousands of notes were printed and disposed of annually for just a single day. It was a waste of resources. The water party mentioned above was problematic as well. The student council made Minjok Festival Notes out of nothing special, just ordinary paper. That made the notes extremely vulnerable to water, and students lost a lot of money after the water party. Eventually, the KMLA students sought a way to resolve all of these issues.
+**But there were problems**. First, it was not eco-friendly. Thousands of notes were printed and disposed of annually for just a single day. It was a waste of resources. The water party mentioned above was problematic as well. The student council made Minjok Festival Notes out of nothing special, just ordinary paper. That made the notes extremely vulnerable to water, and students lost a lot of money after the water party. Eventually, the KMLA students sought a way to resolve all of these issues.
 
 ## Idea
 
@@ -106,7 +106,7 @@ We chose web and RFID, conceding one for each. I agreed to use RFID after learni
 ## And it happened
 
 Remember that one of the concerns was about the server going down?  
-On the festival day, senior students had to self-study at school. Then at one moment, I found my phone had several missed calls. **The server went down.** I rushed to the festival and sat in a corner, gasping and trying to find the reason. Finally, I realized the server was intact, but the database was not responding.  
+On the festival day, senior students had to self-study at school. Then at one moment, I found my phone had several missed calls. **The server went down**. I rushed to the festival and sat in a corner, gasping and trying to find the reason. Finally, I realized the server was intact, but the database was not responding.  
 It was an absurd problem. (Well, no problem is absurd, per se, but we couldn't hide our disappointment after figuring out the reason.) We thought the free plan would be more than enough when we constructed our database. However, the payment requests surged and exceeded the database free tier. So we purchased a $9.99 plan, and the database went back to work. It was one of the most nerve-wracking events I ever had.
 
 ![The moment of upgrading the database plan. $10 can cause such chaos!](images/payment.png)

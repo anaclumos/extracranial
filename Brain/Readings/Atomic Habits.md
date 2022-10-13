@@ -1,9 +1,22 @@
 ---
 slug: '/9CB71B'
+lang: 'ko'
 ---
 
 # Atomic Habits
 
-import WIP from '@site/src/components/WIP'
+**16 페이지**.
+저자는 하루 1%씩 성장하면 1년이면 37.78배에 도달한다고 한다.
+놀라운 숫자이지만, 나는 그보다 경제 성장 모델을 적용해야 한다고 본다.
+예를 들어 1년에 7% 성장하면 엄청난 것이다.
+1년에 12% 성장하면 경이로운 것이다.
 
-<WIP />
+**19페이지**.
+관계. 생산성. 지식의 승수.
+스트레스. 악념. 분노의 승수.
+
+**21페이지**.
+Plateau of _latent potential_.
+
+**23페이지**.
+Forget the goals. Focus on the system.

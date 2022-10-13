@@ -14,7 +14,3 @@ The purpose is not to generate revenue by itself but to examine and get enough d
 **Examples**.
 A book recommendation web app but _you need to pay to use it_.
 [[Metadata as a Service]] could also be one example.
-
-import WIP from '@site/src/components/WIP'
-
-<WIP />
