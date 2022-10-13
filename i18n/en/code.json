@@ -547,5 +547,8 @@
   "theme.blog.post.views": {
     "message": " views",
     "description": "The blog post has multiple views"
+  },
+  "Or dive down the rabbit hole.": {
+    "message": "Or dive down the rabbit hole."
   }
 }
