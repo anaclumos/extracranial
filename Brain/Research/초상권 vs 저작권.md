@@ -14,4 +14,3 @@ lang: 'ko'
 import YouTube from '@site/src/components/YouTube'
 
 <YouTube id="Enxx-xEQLss"/>
-

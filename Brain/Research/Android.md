@@ -8,4 +8,3 @@ slug: '/061F3C'
 - [[Centering]]
 - [[Adding Space]]
 - [[Componentizing Views]]
-

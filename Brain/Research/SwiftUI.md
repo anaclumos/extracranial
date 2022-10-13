@@ -48,5 +48,3 @@ struct LandmarkRow_Previews: PreviewProvider {
 ```swift
 Text("Turtle Rock").font(.title)
 ```
-
-

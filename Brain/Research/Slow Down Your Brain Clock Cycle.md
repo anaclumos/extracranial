@@ -7,4 +7,3 @@ slug: '/DE5A56'
 > In the fast-paced TikTok-like media, we don't want our brain wire to go haywire
 
 - We must slow down our brain clock cycle so that we can **think**.
-

@@ -8,4 +8,3 @@ slug: '/51BF0E'
   - Manipulating SQL
   - Coding React
   - Building [[Python]] Data Parser
-
