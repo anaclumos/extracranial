@@ -15,7 +15,7 @@ slug: '/9E4E7C'
   - See [Obsidian Forum 7092](https://forum.obsidian.md/t/exclude-backlink-mentions-in-link-markup-from-suggested-backlinks/7092).
 - Encapsulate File to Folder `Topic.md` → `Topic/Topic.md`
 - Review Page for Daily Notes
-  - List view for Daily Notes like [[Roam]] and [[Logseq]].
+  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].
 - Auto Delete Empty Files
 - Lint Supports
 - MDX Supports

@@ -1,6 +1,0 @@
----
-slug: '{{hex}}'
----
-
-# Linker Service
-
