@@ -8,7 +8,7 @@ import Shuffle from '@site/src/components/Shuffle'
 
 - You write an email in [[Markdown]]
 - Before sending, select one CSS
-- Then... it would send as a beautiful and clean HTML email!
+- Then... it would send as a beautiful and clean [[HTML]] email!
 
 ## Reader Mode
 
