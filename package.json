@@ -16,6 +16,7 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "build:plugin": "yarn workspace plugin-blog-index build",
     "build:config": "yarn clear && yarn pack-post && yarn wikilinks-to-mdlinks && yarn img-alt-to-figcaption && yarn compile",
+    "refresh": "yarn build:config",
     "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx}'",
     "ko": "yarn start --locale ko",
     "dev": "yarn start",
