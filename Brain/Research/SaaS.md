@@ -9,6 +9,4 @@ We expect we could attain [[FIRE]] through [[SaaS]].
 
 - [Stripe Payments JavaScript Course](https://fireship.io/courses/stripe-js/)
 
-import WIP from '@site/src/components/WIP'
 
-<WIP />

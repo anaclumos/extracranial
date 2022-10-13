@@ -11,6 +11,3 @@ WorkerDOM doesn't use [[SharedArrayBuffer]], most likely to Spectre.
 - [Brane WorkerDOM Demos](https://brane.vercel.app/)
 - [ampproject/worker-dom: The same DOM API and Frameworks you know, but in a Web Worker.](https://github.com/ampproject/worker-dom/)
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

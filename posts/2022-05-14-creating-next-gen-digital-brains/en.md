@@ -108,7 +108,7 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 
 ## Proper multilanguage support
 
-- **Automatic Langauge Detection.** The baseline is to reduce the workload, that I write random things, and the algorithm will automatically organize corresponding data.
+- **Automatic Langauge Detection**. The baseline is to reduce the workload, that I write random things, and the algorithm will automatically organize corresponding data.
 - **[hreflang](https://developers.google.com/search/docs/advanced/crawling/localized-versions) tags and [HTTP content negotiations](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation)**. I found none of the services which use this trick properly (outside of megacorporate i18n products)
 
 ## Translations

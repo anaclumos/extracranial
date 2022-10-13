@@ -4,6 +4,5 @@ slug: '/FF8AAA'
 
 # Assembly
 
-import WIP from '@site/src/components/WIP'
+ > Assembly is any low-level programming language with a firm correspondence between the instructions in the language and the architecture's machine code instructions. [Assembly language](https://en.wikipedia.org/wiki/Assembly_language).
 
-<WIP />

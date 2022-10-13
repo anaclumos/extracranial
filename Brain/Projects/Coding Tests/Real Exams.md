@@ -3,11 +3,12 @@ title: 'Real Exams'
 slug: '/75CB18'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
-
 ## For 2023
+
+### [PayPal](https://www.paypal.com)
+
+- 1 [[simulation]]
+- 1 [[optimized simulation]] (prefix array)
 
 ### [PathAI](https://www.pathai.com/)
 

@@ -3,6 +3,4 @@ title: 'Realm Shim'
 slug: '/B648C6'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
+> [[Shim]] implementation of the [Realm API Proposal](https://github.com/tc39/proposal-realms/#ecmascript-spec-proposal-for-realms-api) ([[ShadowRealm]])

@@ -8,6 +8,3 @@ slug: '/DE5A56'
 
 - We must slow down our brain clock cycle so that we can **think**.
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

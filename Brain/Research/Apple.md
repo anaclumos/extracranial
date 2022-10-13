@@ -3,8 +3,6 @@ title: 'Apple'
 slug: '/B44343'
 ---
 
-> 
-
-import WIP from '@site/src/components/WIP'
-
-<WIP />
+- [Apple](https://apple.com)
+- [Apple Developer](https://developer.apple.com)
+- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]]

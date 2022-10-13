@@ -8,6 +8,3 @@ How would it be [[fiercely overpriced]]?
 Free for `command s`-ing every 1 minute.
 Paid for customizing autosave intervals or setting different shortcuts for each app.
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

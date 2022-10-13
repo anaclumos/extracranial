@@ -13,6 +13,6 @@ slug: '/5AF385'
 
 ## Nomenclature
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
+- [[Extracranial]]
+	- An organized knowledge base on the web that aims to aid the creator's brain function while acting as a searchable Wikipedia.
+	- Usually

@@ -3,10 +3,6 @@ title: 'Python'
 slug: '/692460'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
-
 :::tip
 Special thanks to [Ishu Agrawal](https://github.com/ishuagrawal)
 :::
