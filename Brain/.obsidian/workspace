@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/Hacker News.md",
+            "file": "Journals/2022-10-13.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Hacker News.md",
+                "file": "Journals/2022-10-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Hacker News.md"
+                "file": "Journals/2022-10-13.md"
               }
             }
           },
@@ -125,6 +125,7 @@
   },
   "active": "35493835280106fb",
   "lastOpenFiles": [
+    "Research/Hacker News.md",
     "Research/Jumpsite.md",
     "Research/Daily Dev.md",
     "Research/Mood.surf.md",
@@ -133,7 +134,6 @@
     "Research/Are.na.md",
     "Assets/Pasted image 20221013005758.png",
     "Journals/2022-10-13.md",
-    "Research/social network.md",
-    "Research/We become what we do.md"
+    "Research/social network.md"
   ]
 }
