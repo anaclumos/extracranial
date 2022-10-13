@@ -250,8 +250,7 @@ const HeroText = () => {
             <span className={styles.nowrap}>
               <Translate>Get in touch.</Translate>
             </span>
-          </a>
-          {' '}
+          </a>{' '}
           <Link className={styles.email} href="/r">
             <span>
               <Translate>

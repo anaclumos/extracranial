@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9228de36eb763fa9",
+        "id": "b0ba2e35a2c8b336",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Hey.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hey.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,8 +115,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "9228de36eb763fa9",
+  "active": "b0ba2e35a2c8b336",
   "lastOpenFiles": [
+    "Hey.md",
     "Research/Game Programming.md",
     "Research/How is WASM cross-platform.md",
     "Journals/2022-08-25.md",
@@ -133,7 +126,6 @@
     "Assets/Pasted image 20221010141055.png",
     "Assets/Pasted image 20221010141610.png",
     "Assets/Pasted image 20221010232130.png",
-    "Assets/Pasted image 20221012124224.png",
-    "Assets/Pasted image 20221012124422.png"
+    "Assets/Pasted image 20221012124224.png"
   ]
 }
