@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-10-13.md",
-            "mode": "source",
+            "file": "Research/Stories Behind Satori.md",
+            "mode": "preview",
             "backlinks": true,
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-13.md",
+                "file": "Research/Stories Behind Satori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-13.md"
+                "file": "Research/Stories Behind Satori.md"
               }
             }
           },
@@ -125,15 +125,15 @@
   },
   "active": "dd092a5385b3b358",
   "lastOpenFiles": [
-    "Research/PNG.md",
-    "Research/Stories Behind Satori.md",
-    "Projects/Someday/Brane/Providing DOM API to Worker Threads.md",
     "Journals/2022-10-13.md",
-    "Research/JSX.md",
-    "Research/Satori.md",
-    "Research/Web Worker.md",
-    "Research/CSS.md",
-    "Research/HTML.md",
-    "Research/SVG.md"
+    "Research/WebAssembly.md",
+    "Research/How is WASM cross-platform.md",
+    "Research/Stories Behind Satori.md",
+    "Research/PNG.md",
+    "Research/CJK.md",
+    "Research/Web Browser.md",
+    "Research/Canvas (HTML5).md",
+    "Research/Emoji.md",
+    "Research/HTML.md"
   ]
 }
