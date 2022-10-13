@@ -4,10 +4,8 @@ slug: '/2FFA86'
 
 # Personal Training Corpus
 
--
-
-**Example**. [Joe Rogan interviews Steve Jobs @ podcast. ai](https://podcast.ai/).
-This is a fictional interview by having AI learn about thousands of Joe Rogan's podcasts and thousands of Steve Jobs' speeches.
+- **Example**. [Joe Rogan interviews Steve Jobs @ podcast. ai](https://podcast.ai/).
+  This is a fictional interview by having AI learn about thousands of Joe Rogan's podcasts and thousands of Steve Jobs' speeches.
 
 > Our personal training data corpus might be the most important thing we produce. Content that helps machines capture our unique style, tone, and essence. Those who create the most will have the best data set to train a model in their likeness. — [A Personal Training Corpus](https://matt-rickard.ghost.io/personal-data-training-corpus/)
 
