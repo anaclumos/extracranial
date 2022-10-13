@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "35493835280106fb",
+        "id": "dd092a5385b3b358",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -123,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "35493835280106fb",
+  "active": "dd092a5385b3b358",
   "lastOpenFiles": [
-    "Research/Hacker News.md",
-    "Research/Jumpsite.md",
-    "Research/Daily Dev.md",
-    "Research/Mood.surf.md",
-    "Assets/Pasted image 20221013004218.png",
-    "Research/Surfit.md",
-    "Research/Are.na.md",
-    "Assets/Pasted image 20221013005758.png",
+    "Research/PNG.md",
+    "Research/Stories Behind Satori.md",
+    "Projects/Someday/Brane/Providing DOM API to Worker Threads.md",
     "Journals/2022-10-13.md",
-    "Research/social network.md"
+    "Research/JSX.md",
+    "Research/Satori.md",
+    "Research/Web Worker.md",
+    "Research/CSS.md",
+    "Research/HTML.md",
+    "Research/SVG.md"
   ]
 }
