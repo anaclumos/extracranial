@@ -11,18 +11,48 @@ Extracranial is my term for an organized knowledge base on the web that aims to 
 
 ## State-of-the-art References
 
+### [The Lab Notes](https://alexanderobenauer.com/labnotes/000/) by [Alexander Obenauer](https://twitter.com/alexobenauer)
+
+Seems like using [[Svelte]]
+
+<details>
+<summary>Images</summary>
+
+![[Pasted image 20221013120518.png]]
+![[Pasted image 20221013120525.png]]
+![[Pasted image 20221013120530.png]]
+![[Pasted image 20221013120747.png]]
+![[Pasted image 20221013120810.png]]
+
+</details>
+
 ### [Younho9 Notes](https://notes.younho9.com/) by [younho9 (Younho Choo)](https://github.com/younho9)
+
+<details>
+<summary>Images</summary>
 
 ![[Pasted image 20220925130955.png]]
 ![[Pasted image 20220925131542.png]]
 
+</details>
+
 ### [기억보다 기록을](https://kyounghwan01.github.io) by [Kyounghwan01 (kyounghwan Noh)](https://github.com/Kyounghwan01)
+
+<details>
+<summary>Images</summary>
 
 ![[Pasted image 20220925131410.png]]
 
+</details>
+
 ### [Everything I know](https://wiki.nikiv.dev/) by [nikitavoloboev (Nikita)](https://github.com/nikitavoloboev)
 
+<details>
+<summary>Images</summary>
+
 ![[Pasted image 20220928232755.png]]
+
+</details>
 
 ## Notables
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/Stories Behind Satori.md",
+            "file": "Research/Extracranial.md",
             "mode": "preview",
             "backlinks": true,
             "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Stories Behind Satori.md",
+                "file": "Research/Extracranial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Stories Behind Satori.md"
+                "file": "Research/Extracranial.md"
               }
             }
           },
@@ -125,15 +125,15 @@
   },
   "active": "dd092a5385b3b358",
   "lastOpenFiles": [
+    "Research/Svelte.md",
+    "Research/Extracranial.md",
+    "Research/Untitled.md",
     "Journals/2022-10-13.md",
+    "Research/Either be best-in-class or the most efficient.md",
+    "Research/Venture Capital.md",
     "Research/WebAssembly.md",
     "Research/How is WASM cross-platform.md",
     "Research/Stories Behind Satori.md",
-    "Research/PNG.md",
-    "Research/CJK.md",
-    "Research/Web Browser.md",
-    "Research/Canvas (HTML5).md",
-    "Research/Emoji.md",
-    "Research/HTML.md"
+    "Research/PNG.md"
   ]
 }
