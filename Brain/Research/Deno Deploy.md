@@ -10,4 +10,3 @@ slug: '/66D559'
 - Located in [34 regions](https://deno.com/deploy/docs/regions) worldwide
 - Zero config, zero maintenance
 - [[TS|TypeScript]], [[WebAssembly|Wasm]], ES Modules
-

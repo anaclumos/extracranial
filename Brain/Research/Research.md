@@ -14,5 +14,5 @@ slug: '/5AF385'
 ## Nomenclature
 
 - [[Extracranial]]
-	- An organized knowledge base on the web that aims to aid the creator's brain function while acting as a searchable Wikipedia.
-	- Usually
+  - An organized knowledge base on the web that aims to aid the creator's brain function while acting as a searchable Wikipedia.
+  - Usually
