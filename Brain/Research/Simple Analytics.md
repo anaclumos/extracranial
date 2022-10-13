@@ -1,5 +1,5 @@
 ---
-slug: '{{hex}}'
+slug: '/6999BD'
 ---
 
 # Simple Analytics

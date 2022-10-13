@@ -1,5 +1,5 @@
 ---
-slug: '{{hex}}'
+slug: '/2862B4'
 ---
 
 # Cosmic Noises of Life

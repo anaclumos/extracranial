@@ -1,5 +1,5 @@
 ---
-slug: '{{hex}}'
+slug: '/7230C5'
 ---
 
 # Plausible Analytics

@@ -1,5 +1,5 @@
 ---
-slug: '{{hex}}'
+slug: '/41024A'
 ---
 
 # Apple Silicon
