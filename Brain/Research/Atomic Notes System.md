@@ -1,5 +1,5 @@
 ---
-slug: '{{hex}}'
+slug: '/E1F385'
 aliases: ["Zettelkasten"]
 ---
 

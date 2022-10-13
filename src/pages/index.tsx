@@ -18,6 +18,7 @@ import RadioactiveEmoji from '../../static/fonts/emoji/radioactive.png'
 import RocketEmoji from '../../static/fonts/emoji/rocket.png'
 import TechnologistEmoji from '../../static/fonts/emoji/technologist.png'
 import WebEmoji from '../../static/fonts/emoji/web.png'
+import Link from '@docusaurus/Link'
 
 const HeroText = () => {
   const { siteConfig } = useDocusaurusContext()
@@ -250,6 +251,14 @@ const HeroText = () => {
               <Translate>Get in touch.</Translate>
             </span>
           </a>
+          {' '}
+          <Link className={styles.email} href="/r">
+            <span>
+              <Translate>
+                Or dive down the rabbit hole.
+              </Translate>
+            </span>
+          </Link>
         </h1>
       </header>
     </>
