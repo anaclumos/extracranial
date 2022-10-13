@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f1de221a2092c2be",
+        "id": "9228de36eb763fa9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research/Cosmic Noises of Life.md",
+            "file": "Research/Game Programming.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "380",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Cosmic Noises of Life.md",
+                "file": "Research/Game Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Cosmic Noises of Life.md"
+                "file": "Research/Game Programming.md"
               }
             }
           },
@@ -123,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f1de221a2092c2be",
+  "active": "9228de36eb763fa9",
   "lastOpenFiles": [
+    "Research/How is WASM cross-platform.md",
+    "Journals/2022-08-25.md",
     "Journals/2022-10-12.md",
+    "Research/Cosmic Noises of Life.md",
     "Assets/Pasted image 20221010141055.png",
     "Assets/Pasted image 20221010141610.png",
     "Assets/Pasted image 20221010232130.png",
     "Assets/Pasted image 20221012124224.png",
     "Assets/Pasted image 20221012124422.png",
-    "Assets/F9FF01.png",
-    "Assets/1F98FE.jpeg",
-    "Assets/7F65A5.jpeg",
-    "Assets/9E21DD.gif"
+    "Assets/F9FF01.png"
   ]
 }
