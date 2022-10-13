@@ -4,7 +4,6 @@ slug: '/3134AC'
 ---
 
 import Shuffle from '@site/src/components/Shuffle'
-import WIP from '@site/src/components/WIP'
 
 Project PEOPLE is a mass-scale interview project.
 It aims to interview at least 1K people, either online or offline.
@@ -27,4 +26,3 @@ Try refreshing the page!
 
 </Shuffle>
 
-<WIP />

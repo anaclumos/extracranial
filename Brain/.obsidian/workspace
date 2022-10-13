@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7da987cbe9bcb00d",
+        "id": "e620ce38925e91e8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journals/2022-10-12.md",
+            "file": "Projects/Someday/UUIDs are Awesome.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Extracrani",
+                "query": "<WIP",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-12.md",
+                "file": "Projects/Someday/UUIDs are Awesome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-12.md"
+                "file": "Projects/Someday/UUIDs are Awesome.md"
               }
             }
           },
@@ -123,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "7da987cbe9bcb00d",
+  "active": "e620ce38925e91e8",
   "lastOpenFiles": [
-    "Research/Grammarly.md",
-    "Journals/2022-10-12.md",
-    "Research/Jetbrains Fleet.md",
-    "Research/Visual Studio Code.md",
-    "Research/Google Analytics.md",
-    "Research/GA.md",
-    "Research/Personal Training Corpus.md",
-    "Projects/Done/Letter to Mr. Alexander Obenauer on 2022-10-12.md",
-    "Research/iOS Style Toggle in CSS.md",
-    "Research/Y Combinator.md"
+    "Research/CBOR.md",
+    "Research/MessagePack.md",
+    "Templates/journal.md",
+    "Projects/Someday/Metadata as a Service.md",
+    "Research/K-Pop Apps.md",
+    "Projects/Coding Tests/greedy.md",
+    "Research/Markdown.md",
+    "Research/Handwriting Tools for Thoughts.md",
+    "Research/Handwriting Grammarly.md",
+    "Projects/Someday/Digital Addictions of Software Enthusiasts.md"
   ]
 }

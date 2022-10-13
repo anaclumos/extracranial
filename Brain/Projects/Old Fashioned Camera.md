@@ -8,6 +8,4 @@ slug: '/C46EC1'
 - 백엔드와 프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임
 - 하지만 정기구독 모델을 사용하기에는 힘들어보임.
 
-import WIP from '@site/src/components/WIP'
 
-<WIP />

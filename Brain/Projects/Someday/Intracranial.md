@@ -9,7 +9,7 @@ slug: '/009C77'
 - Aim to implement Zettlekasten
 - Uses
   - PencilKit
-  - Atomic Notes System
+  - [[Atomic Notes System]]
   - [[Infinite Canvas]]
 - Notes can refer to notes (like Hepta)
 - Can view relation graphs
@@ -20,10 +20,18 @@ slug: '/009C77'
 - After using Zettlekasten for a while, taking notes as document files kinda suck.
 - I want to take notes with my iPad.
 
+## Prodrafts
+- I was using [Prodrafts](https://apps.apple.com/us/app/prodrafts/id1545810067), but it has limits:
+  - 👍 Infinite canvas
+  - 👍 Native PencilKit support
+  - 👍 [[Apple]]-ish design language
+  - 👎 Unable to construct Zettlekasten
+    - 👎 No graphing
+    - 👎 No backlinking
+    - 👎 No referencing
+  - 👎 Poor i18n support (initially targeted for Chinese users.)
+    - 👎 Significant portion is untranslated
+
 ## Reference
 
 - [[2022-07-26]]
-
-import WIP from '@site/src/components/WIP'
-
-<WIP />

@@ -49,6 +49,4 @@ struct LandmarkRow_Previews: PreviewProvider {
 Text("Turtle Rock").font(.title)
 ```
 
-import WIP from '@site/src/components/WIP'
 
-<WIP />

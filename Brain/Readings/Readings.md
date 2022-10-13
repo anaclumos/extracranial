@@ -33,6 +33,3 @@ This is a meta-page that collects my to-read lists.
 
 - [The Best Books Apps and Products of 2022 | Product Hunt](https://www.producthunt.com/topics/books?order=most-upvoted)
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

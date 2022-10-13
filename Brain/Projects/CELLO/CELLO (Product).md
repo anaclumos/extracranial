@@ -53,6 +53,3 @@ slug: '/177B14'
   - Eerily, people go crazy when there is an invite system...
   - 홈마 회원가입 시점에 업로드 = 저작권 사용 동의
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

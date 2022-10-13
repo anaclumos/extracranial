@@ -24,6 +24,3 @@ slug: '/7442D2'
 - [zulip/zulip: Zulip server and web app—powerful open source team chat](https://github.com/zulip/zulip)
 - [reactioncommerce/reaction: Mailchimp Open Commerce is an API-first, headless commerce platform built using Node.js, React, GraphQL. Deployed via Docker and Kubernetes.](https://github.com/reactioncommerce/reaction/)
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

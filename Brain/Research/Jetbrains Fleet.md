@@ -4,8 +4,6 @@ slug: '/CCC9CB'
 
 # Jetbrains Fleet
 
-- potential alternative to [[Visual Studio Code]]
+> Light weight multi-purpose IDE, with support for collaboration and remote workflows by Jetbrains. [JetBrains](https://en.wikipedia.org/wiki/JetBrains)
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
+- a potential alternative to [[Visual Studio Code]]

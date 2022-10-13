@@ -4,6 +4,6 @@ slug: '/F0156A'
 
 # Leetcode
 
-import WIP from '@site/src/components/WIP'
+> [LeetCode](https://leetcode.com/)
 
-<WIP />
+- [[Coding Tests]]

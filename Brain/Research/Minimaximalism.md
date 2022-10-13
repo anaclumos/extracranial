@@ -8,6 +8,3 @@ I embraced a new mental trend: remove all, leaving a few essential tools only.
 But those few tools should be the best of the best.
 Related to [minimax](https://en.wikipedia.org/wiki/Minimax) agents.
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

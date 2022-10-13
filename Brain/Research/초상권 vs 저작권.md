@@ -15,6 +15,3 @@ import YouTube from '@site/src/components/YouTube'
 
 <YouTube id="Enxx-xEQLss"/>
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

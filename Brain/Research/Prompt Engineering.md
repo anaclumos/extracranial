@@ -9,4 +9,5 @@ slug: '/6246E7'
 - [DreamFusion: Text-to-3D using 2D Diffusion](https://dreamfusion3d.github.io/)
 - [Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/)
 
-It has now come to my mind that [[Metaverse]] can actually be attained within years with Prompt Engineering.
+- It has now come to my mind that [[Metaverse]] can actually be attained within years with Prompt Engineering.
+- [[Personal Training Corpus]]

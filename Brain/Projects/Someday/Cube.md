@@ -8,6 +8,3 @@ slug: '/A0720E'
 - [[SwiftUI]]
 - [[FIRE Engine]]
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

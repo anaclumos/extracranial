@@ -8,6 +8,3 @@ slug: '/598CA9'
   - conducting a bare metal [[simulation]] takes too long
   - but when you figure out an underlying math formula, it can be calculated extremely fast, typically $O(1)$ to $O(n)$.
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />

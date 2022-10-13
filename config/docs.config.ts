@@ -5,7 +5,6 @@ const sidebarProcessor = (items) => {
     'Hey',
     'Journals',
     'Projects',
-    'Academics',
     'Research',
     'Readings',
     'Archive',

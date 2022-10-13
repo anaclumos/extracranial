@@ -51,7 +51,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 점자의 기본적인 역할은 **경계선**과 **형체**를 구분할 수 있도록 도와주는 것이다.
 이미지를 흑백의 형태로 변환한 뒤 1비트 흑백 이미지로 변환한다.
-여기서 중요한 점은 자막은 대개 시스템 기본값이 하얀색이기 때문에 우리의 1비트 흑백 이미지에서는 **밝은 픽셀이 1이 되어야 한다는 것이다.**
+여기서 중요한 점은 자막은 대개 시스템 기본값이 하얀색이기 때문에 우리의 1비트 흑백 이미지에서는 **밝은 픽셀이 1이 되어야 한다는 것이다**.
 
 ![우측 3개의 이미지에서 볼 수 있듯이, 그 사이의 Gray 없이 #000000 검정과 #FFFFFF 하양만으로 경계선과 형체를 만들어낼 수 있다. DemonDeLuxe (Dominique Toussaint), CC BY-SA 3.0, via Wikimedia Commons.](images/Dithering_algorithms.png)
 

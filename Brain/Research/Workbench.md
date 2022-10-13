@@ -3,10 +3,6 @@ title: 'Workbench'
 slug: '/D74DBC'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
-
 ## Priority
 
 1. [asdf](https://asdf-vm.com/)

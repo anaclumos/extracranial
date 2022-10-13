@@ -10,6 +10,4 @@ I am still experimenting with it.
 
 > Love Child Between Notion and Obsidian
 
-import WIP from '@site/src/components/WIP'
 
-<WIP />
