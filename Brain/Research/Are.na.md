@@ -4,6 +4,8 @@ slug: '/3F44BF'
 
 # Are.na
 
+![[Pasted image 20221013004704.png]]
+
 - [Are.na](https://www.are.na/)
 
 They say:
