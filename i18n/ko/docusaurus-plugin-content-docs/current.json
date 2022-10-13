@@ -27,10 +27,6 @@
     "message": "CELLO",
     "description": "The label for category CELLO in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Academics": {
-    "message": "학업",
-    "description": "The label for category Academics in sidebar sidebar"
-  },
   "sidebar.sidebar.category.Someday": {
     "message": "Someday",
     "description": "The label for category Someday in sidebar sidebar"
@@ -47,22 +43,6 @@
     "message": "Done",
     "description": "The label for category Done in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Computer Systems": {
-    "message": "Computer Systems",
-    "description": "The label for category Computer Systems in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Internetworking": {
-    "message": "Internetworking",
-    "description": "The label for category Internetworking in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Graphics Engine Programming": {
-    "message": "Graphics Engine Programming",
-    "description": "The label for category Graphics Engine Programming in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Android Programming": {
-    "message": "Android Programming",
-    "description": "The label for category Android Programming in sidebar sidebar"
-  },
   "sidebar.sidebar.category.Better Obsidian": {
     "message": "Better Obsidian",
     "description": "The label for category Better Obsidian in sidebar sidebar"
@@ -70,5 +50,9 @@
   "sidebar.sidebar.category.Brane": {
     "message": "Brane",
     "description": "The label for category Brane in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Better Aldehyde": {
+    "message": "Better Aldehyde",
+    "description": "The label for category Better Aldehyde in sidebar sidebar"
   }
 }

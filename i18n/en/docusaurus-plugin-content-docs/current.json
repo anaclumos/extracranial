@@ -35,10 +35,6 @@
     "message": "CELLO",
     "description": "The label for category CELLO in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Academics": {
-    "message": "Academics",
-    "description": "The label for category Academics in sidebar sidebar"
-  },
   "sidebar.sidebar.category.Done": {
     "message": "Done",
     "description": "The label for category Done in sidebar sidebar"
@@ -55,20 +51,8 @@
     "message": "Project PEOPLE",
     "description": "The label for category Project PEOPLE in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Android Programming": {
-    "message": "Android Programming",
-    "description": "The label for category Android Programming in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Graphics Engine Programming": {
-    "message": "Graphics Engine Programming",
-    "description": "The label for category Graphics Engine Programming in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Computer Systems": {
-    "message": "Computer Systems",
-    "description": "The label for category Computer Systems in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Internetworking": {
-    "message": "Internetworking",
-    "description": "The label for category Internetworking in sidebar sidebar"
+  "sidebar.sidebar.category.Better Aldehyde": {
+    "message": "Better Aldehyde",
+    "description": "The label for category Better Aldehyde in sidebar sidebar"
   }
 }
