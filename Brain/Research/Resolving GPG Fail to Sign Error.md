@@ -1,5 +1,4 @@
 ---
-title: 'Resolving GPG Fail to Sign Error'
 slug: '/43A592'
 ---
 

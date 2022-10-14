@@ -1,5 +1,4 @@
 ---
-title: 'Linux Commands'
 slug: '/B4C444'
 ---
 

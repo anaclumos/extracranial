@@ -2,8 +2,6 @@
 slug: '/25BA57'
 ---
 
-# Letter to Mr. Alexander Obenauer on 2022-10-12
-
 Dear Mr. Obenauer,
 
 I am Sunghyun Cho. I am a current CS university student at USC.

@@ -1,5 +1,4 @@
 ---
-title: 'Google'
 slug: '/E4EE68'
 ---
 

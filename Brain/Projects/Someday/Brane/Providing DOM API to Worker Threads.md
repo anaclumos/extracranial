@@ -1,5 +1,4 @@
 ---
-title: 'PoC: Providing DOM API to Worker Threads'
 slug: '/C3CCC9'
 ---
 

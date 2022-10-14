@@ -1,5 +1,4 @@
 ---
-title: 'Logseq'
 slug: '/476FB1'
 ---
 

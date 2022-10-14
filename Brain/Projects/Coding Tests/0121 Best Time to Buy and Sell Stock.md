@@ -1,5 +1,4 @@
 ---
-title: '0121 Best Time to Buy and Sell Stock'
 slug: '/22C295'
 ---
 

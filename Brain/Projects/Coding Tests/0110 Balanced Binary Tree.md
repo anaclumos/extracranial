@@ -1,5 +1,4 @@
 ---
-title: '0110 Balanced Binary Tree'
 slug: '/908740'
 ---
 

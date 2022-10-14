@@ -1,5 +1,4 @@
 ---
-title: 'Microproject'
 slug: '/A46FA5'
 ---
 

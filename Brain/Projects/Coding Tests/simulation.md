@@ -1,5 +1,4 @@
 ---
-title: 'Simulation'
 slug: '/5C9D52'
 ---
 

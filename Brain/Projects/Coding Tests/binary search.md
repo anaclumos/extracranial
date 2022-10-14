@@ -1,5 +1,4 @@
 ---
-title: 'binary search'
 slug: '/9F6CB6'
 ---
 

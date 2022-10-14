@@ -2,8 +2,6 @@
 slug: '/EE1ECD'
 ---
 
-# Inliner
-
 ## Definition
 
 Inliner is a mental model or an abstract methodology for organizing data and writing articles.

@@ -1,5 +1,4 @@
 ---
-title: 'Digital Addictions of Software Enthusiasts'
 slug: '/4AA0F0'
 ---
 

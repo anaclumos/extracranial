@@ -3,8 +3,6 @@ slug: '/3A9FCD'
 lang: 'ko'
 ---
 
-# Pretendard의 아쉬운 점
-
 ## 한글과 영문의 크기 격차
 
 Pretendard를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.

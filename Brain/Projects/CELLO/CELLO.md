@@ -1,5 +1,4 @@
 ---
-title: 'CELLO'
 slug: '/1D64EA'
 ---
 

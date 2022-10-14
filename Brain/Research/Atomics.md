@@ -1,5 +1,4 @@
 ---
-title: 'Atomics'
 slug: '/D7EA90'
 ---
 

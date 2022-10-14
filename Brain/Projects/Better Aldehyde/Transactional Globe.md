@@ -2,8 +2,6 @@
 slug: '/B80EAF'
 ---
 
-# Transactional Globe
-
 ## Idea
 
 So I have this network graph.

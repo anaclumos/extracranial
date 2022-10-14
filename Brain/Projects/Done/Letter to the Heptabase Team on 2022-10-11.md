@@ -2,8 +2,6 @@
 slug: '/24D60B'
 ---
 
-# Letter to the Heptabase Team on 2022-10-11
-
 > On Heptabase and its Developer Ecosystem
 
 Dear Mr. Chan,

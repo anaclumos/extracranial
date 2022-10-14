@@ -1,5 +1,4 @@
 ---
-title: '#242 Valid Anagram'
 slug: '/C1FF2B'
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: 'SwiftUI'
 slug: '/F65967'
 ---
 

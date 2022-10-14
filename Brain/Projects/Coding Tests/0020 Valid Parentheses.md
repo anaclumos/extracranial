@@ -1,5 +1,4 @@
 ---
-title: '0020 Valid Parentheses'
 slug: '/F5650C'
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: 'Cross Origin Embedder Policy'
 slug: '/D189D6'
 ---
 

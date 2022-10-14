@@ -1,5 +1,4 @@
 ---
-title: 'Extracting String in Android'
 slug: '/8CFE3A'
 ---
 

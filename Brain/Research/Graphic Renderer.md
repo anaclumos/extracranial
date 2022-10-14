@@ -1,5 +1,4 @@
 ---
-title: 'Graphic Renderer'
 slug: '/17ACA0'
 ---
 

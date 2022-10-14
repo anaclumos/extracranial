@@ -1,5 +1,4 @@
 ---
-title: 'Personal Knowledge Management'
 slug: '/E9DD55'
 aliases: ['Personal Knowledge Management']
 ---
@@ -16,12 +15,12 @@ aliases: ['Personal Knowledge Management']
 
 - Digital Brain is a digitally implemented Second Brain.
 
-| Second Brain                                                            | Digital Garden                                                                      |
-| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| Project-oriented                                                        | Knowledge-oriented                                                                  |
-| Notes are in Britannica Style                                           | Notes are in Wikipedia Style                                                        |
-| Allows foldering                                                        | Prohibits foldering                                                                 |
-| Allows archiving                                                        | Prohibits archiving                                                                 |
-| Focuses on managing different projects that grow into a creative garage | Focuses on creating and tending [[Evergreen]] posts that grow into a knowledge base |
+| Second Brain                                                            | Digital Garden                                                                            |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Project-oriented                                                        | Knowledge-oriented                                                                        |
+| Notes are in Britannica Style                                           | Notes are in Wikipedia Style                                                              |
+| Allows foldering                                                        | Prohibits foldering                                                                       |
+| Allows archiving                                                        | Prohibits archiving                                                                       |
+| Focuses on managing different projects that grow into a creative garage | Focuses on creating and tending [[Evergreen Notes]] posts that grow into a knowledge base |
 
 Check [[Tools for Thought]] for PKM tools in the market.

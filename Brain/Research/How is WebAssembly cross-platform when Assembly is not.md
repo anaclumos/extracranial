@@ -2,8 +2,6 @@
 slug: '/A51A6A'
 ---
 
-# How is WebAssembly cross-platform when Assembly is platform-dependent?
-
 :::warning
 
 This is **non-supervised independent research**.

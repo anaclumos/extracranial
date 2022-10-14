@@ -1,5 +1,4 @@
 ---
-title: 'Computer Systems'
 slug: '/BF9369'
 ---
 

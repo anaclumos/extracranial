@@ -1,5 +1,4 @@
 ---
-title: '#704 Binary Search'
 slug: '/3A1093'
 ---
 

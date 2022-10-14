@@ -1,5 +1,4 @@
 ---
-title: 'Simple DirectMedia Layer'
 slug: '/2C69DB'
 aliases: ['SDL']
 ---

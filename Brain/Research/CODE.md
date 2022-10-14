@@ -1,5 +1,4 @@
 ---
-title: 'CODE Procedure'
 slug: '/D6FDF3'
 ---
 

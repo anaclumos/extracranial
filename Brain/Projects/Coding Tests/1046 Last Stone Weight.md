@@ -1,5 +1,4 @@
 ---
-title: '#1046 Last Stone Weight'
 slug: '/F74684'
 ---
 

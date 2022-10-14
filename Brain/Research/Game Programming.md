@@ -1,5 +1,4 @@
 ---
-title: 'Game Programming'
 slug: '/D6B2AF'
 ---
 
@@ -10,4 +9,4 @@ slug: '/D6B2AF'
 - [[Graphics Engine Process]]
 - [[Monolithic (Pure Hierarchy) Model]]
 - [[Forward Declaration]]
-- [[SDL]]
+- [[Simple DirectMedia Layer]]

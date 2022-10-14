@@ -2,8 +2,6 @@
 slug: '/A6DBE3'
 ---
 
-# Inspecting Assembly
-
 - [[Assembly]]
 
 | Command                | Description                                                                                     |

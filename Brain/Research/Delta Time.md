@@ -1,5 +1,4 @@
 ---
-title: 'Delta Time'
 slug: '/AD18E8'
 ---
 

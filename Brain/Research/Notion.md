@@ -1,5 +1,4 @@
 ---
-title: 'Notion'
 slug: '/679DEB'
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: 'CELLO (Product)'
 slug: '/177B14'
 ---
 

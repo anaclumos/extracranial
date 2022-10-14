@@ -1,5 +1,4 @@
 ---
-title: 'Quoridor Game'
 slug: '/37D058'
 ---
 

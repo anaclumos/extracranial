@@ -1,5 +1,4 @@
 ---
-title: 'QuickSelect'
 slug: '/30AD9A'
 ---
 

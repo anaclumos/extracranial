@@ -1,5 +1,4 @@
 ---
-title: 'ShadowRealm'
 slug: '/C0269E'
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: 'React'
 slug: '/18043C'
 ---
 

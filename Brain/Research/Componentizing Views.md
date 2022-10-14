@@ -2,8 +2,6 @@
 slug: '/70CD97'
 ---
 
-# Componentizing Views
-
 ```xml
 <!-- import panel -->
 <include

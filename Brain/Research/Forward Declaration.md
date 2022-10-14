@@ -1,5 +1,4 @@
 ---
-title: 'Forward Declaration'
 slug: '/E0B48F'
 ---
 

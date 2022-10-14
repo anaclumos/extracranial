@@ -1,5 +1,4 @@
 ---
-title: '0235 LCA of a Binary Search Tree'
 slug: '/AEDE1B'
 ---
 

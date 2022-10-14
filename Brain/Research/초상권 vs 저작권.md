@@ -1,5 +1,4 @@
 ---
-title: '초상권 vs 저작권'
 slug: '/46AF52'
 lang: 'ko'
 ---

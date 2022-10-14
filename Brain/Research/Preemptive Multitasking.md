@@ -1,5 +1,4 @@
 ---
-title: 'Preemptive Multitasking'
 slug: '/FDC9F5'
 ---
 

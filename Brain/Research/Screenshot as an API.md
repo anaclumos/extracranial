@@ -2,8 +2,6 @@
 slug: '/8B4F7C'
 ---
 
-# Screenshots-as-an-API
-
 - [[Letter to Mr. Matt Rickard on 2022-10-03]]
 
 ## References

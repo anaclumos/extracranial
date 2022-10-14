@@ -1,5 +1,4 @@
 ---
-title: 'Person #88B488'
 slug: '/88B488'
 ---
 

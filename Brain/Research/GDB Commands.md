@@ -1,5 +1,4 @@
 ---
-title: 'GDB Commands'
 slug: '/45FE18'
 ---
 

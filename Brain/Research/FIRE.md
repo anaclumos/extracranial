@@ -1,5 +1,4 @@
 ---
-title: 'FIRE'
 slug: '/CABA29'
 ---
 

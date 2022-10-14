@@ -1,5 +1,4 @@
 ---
-title: 'CBOR'
 slug: '/0A756A'
 ---
 

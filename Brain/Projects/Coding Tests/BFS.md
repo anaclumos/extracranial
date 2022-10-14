@@ -1,5 +1,4 @@
 ---
-title: 'BFS'
 slug: '/3580AE'
 ---
 

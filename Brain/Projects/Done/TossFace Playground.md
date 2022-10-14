@@ -1,5 +1,4 @@
 ---
-title: 'Tossface Playground'
 slug: '/92B47B'
 ---
 

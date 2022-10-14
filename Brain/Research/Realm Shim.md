@@ -1,5 +1,4 @@
 ---
-title: 'Realm Shim'
 slug: '/B648C6'
 ---
 

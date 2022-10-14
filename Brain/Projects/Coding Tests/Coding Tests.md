@@ -1,5 +1,4 @@
 ---
-title: 'Coding Tests'
 slug: '/D518B0'
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: '0125 Valid Palindrome'
 slug: '/646F3A'
 ---
 

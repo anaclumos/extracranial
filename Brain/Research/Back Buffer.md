@@ -1,5 +1,4 @@
 ---
-title: 'Back Buffer'
 slug: '/6B5F02'
 ---
 

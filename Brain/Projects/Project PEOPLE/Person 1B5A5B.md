@@ -1,5 +1,4 @@
 ---
-title: 'Person #1B5A5B'
 slug: '/1B5A5B'
 ---
 

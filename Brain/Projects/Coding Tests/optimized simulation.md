@@ -1,5 +1,4 @@
 ---
-title: 'Optimized Simulation'
 slug: '/82E962'
 ---
 
