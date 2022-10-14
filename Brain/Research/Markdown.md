@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/23EF1A'
 ---
 

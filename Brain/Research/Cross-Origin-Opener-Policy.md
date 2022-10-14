@@ -1,4 +1,5 @@
 ---
+lang: 'ko'
 slug: '/70114A'
 aliases: ['COOP']
 ---

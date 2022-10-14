@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/DBC9AD'
 aliases: ['canvas', '캔버스']
 ---

@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/1E10E6'
 aliases: ['emojis']
 ---

@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/E9DD55'
 aliases: ['Personal Knowledge Management']
 ---

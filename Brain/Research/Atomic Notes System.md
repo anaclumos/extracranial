@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/E1F385'
 aliases: ['Zettelkasten']
 ---

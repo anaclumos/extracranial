@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/6FA776'
 aliases: ['browser', 'browsers', 'web browsers']
 ---

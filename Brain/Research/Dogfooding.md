@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/75289D'
 aliases: ['dogfood', 'dogfooded', 'dogfooder']
 ---

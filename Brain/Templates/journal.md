@@ -1,5 +1,6 @@
 ---
 date: '{{date:YYYY-MM-DD}}'
+lang: 'en'
 slug: '/{{date:YYYY-MM-DD}}'
 draft: true
 ---
@@ -9,4 +10,3 @@ draft: true
 ## [[Coding Tests]]
 
 ## [[Hacker News|HN]]
-

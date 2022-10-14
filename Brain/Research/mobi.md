@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/CF51C3'
 ---
 

@@ -1,6 +1,6 @@
 ---
-slug: '/3A9FCD'
 lang: 'ko'
+slug: '/3A9FCD'
 ---
 
 ## 한글과 영문의 크기 격차

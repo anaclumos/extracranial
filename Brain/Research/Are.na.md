@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/3F44BF'
 ---
 

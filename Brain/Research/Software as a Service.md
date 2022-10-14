@@ -1,6 +1,7 @@
 ---
+lang: 'en'
 slug: '/B30D00'
-aliases: ["SaaS"]
+aliases: ['SaaS']
 ---
 
 We expect we could attain [[FIRE]] through [[Software as a Service]].

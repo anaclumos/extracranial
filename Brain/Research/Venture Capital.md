@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/87E9AE'
 aliases: ['VC']
 ---
