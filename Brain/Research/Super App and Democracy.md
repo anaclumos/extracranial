@@ -5,7 +5,7 @@ slug: '/8794DD'
 
 > Is the centralization of data anti-democratic?
 
-> ["Buying Twitter is an accelerant to creating X, the everything app"](https://twitter.com/elonmusk/status/1577428272056389633)
+> [Buying Twitter is an accelerant to creating X, the everything app](https://twitter.com/elonmusk/status/1577428272056389633)
 
 ## [Why an everything app is a bad news for liberal democracies and free markets](https://www.nitinpai.in/2022/10/10/why-an-everything-app-is-bad-news-for-liberal-democracies-and-free-markets)
 
