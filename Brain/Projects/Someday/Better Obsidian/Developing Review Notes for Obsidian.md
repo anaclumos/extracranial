@@ -1,4 +1,5 @@
 ---
+lang: 'ko'
 slug: '/DAF673'
 ---
 

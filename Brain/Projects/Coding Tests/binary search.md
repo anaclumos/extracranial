@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/9F6CB6'
 ---
 

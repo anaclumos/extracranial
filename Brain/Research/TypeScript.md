@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/134F92'
 aliases: ['TS', '타입스크립트']
 ---

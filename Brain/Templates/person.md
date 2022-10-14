@@ -1,5 +1,5 @@
 ---
-title: 'Person #{{title}}'
+lang: 'en'
 slug: '{{title}}'
 draft: true
 ---

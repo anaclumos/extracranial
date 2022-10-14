@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/A31691'
 aliases: ['Frames Per Second']
 ---

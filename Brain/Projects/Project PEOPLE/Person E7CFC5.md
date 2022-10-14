@@ -1,5 +1,6 @@
 ---
 title: 'Person #E7CFC5'
+lang: 'en'
 slug: '/E7CFC5'
 ---
 

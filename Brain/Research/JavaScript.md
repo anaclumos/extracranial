@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/F5B88C'
 aliases: ['JS', '자바스크립트']
 ---

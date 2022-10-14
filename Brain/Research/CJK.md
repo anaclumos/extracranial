@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/F13C58'
 aliases: ['한중일']
 ---
