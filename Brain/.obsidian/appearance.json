@@ -1,9 +1,10 @@
 {
-  "theme": "obsidian",
+  "theme": "system",
   "interfaceFontFamily": "Iosevka",
   "textFontFamily": "Iosevka",
   "monospaceFontFamily": "Iosevka",
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "translucency": false,
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "accentColor": ""
 }
