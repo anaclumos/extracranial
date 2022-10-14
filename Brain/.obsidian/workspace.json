@@ -11,8 +11,13 @@
             "id": "3bb29b1475cdb9c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-13.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-10-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-10-13.md"
+              }
             }
           },
           {
@@ -128,15 +136,15 @@
   },
   "active": "3bb29b1475cdb9c6",
   "lastOpenFiles": [
+    "Research/Cross-platform AirDrop.md",
+    "Journals/2022-10-13.md",
+    "Research/Tools for Thought.md",
+    "Research/FIRE Engine.md",
+    "Research/FIRE.md",
     "Research/Nation as a Service.md",
     "Projects/Project PEOPLE/Project PEOPLE.md",
     "Projects/Project PEOPLE/Person 1B5A5B.md",
     "Projects/Project PEOPLE/Person 5DBDAE.md",
-    "Projects/Project PEOPLE/Person 88B488.md",
-    "Projects/Project PEOPLE/Person A480C6.md",
-    "Projects/Project PEOPLE/Person CC8297.md",
-    "Projects/Project PEOPLE/Person E7CFC5.md",
-    "Projects/Project PEOPLE/Person 392196.md",
-    "Journals/2022-10-13.md"
+    "Projects/Project PEOPLE/Person 88B488.md"
   ]
 }

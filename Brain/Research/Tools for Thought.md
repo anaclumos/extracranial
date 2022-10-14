@@ -37,7 +37,7 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 - [Notion](https://www.notion.so/): Hybrid workspace, batteries like databasing included.
 - [Saga](https://saga.so/): [[Notion]]-like service, but more focus on automatic information linkings.
 - [Craft](https://www.craft.do/): [[Notion]]-like service, but more focus on supporting native platforms.
-- [Coda](https://coda.io/): Note taking service for teams.
+- [Coda](https://coda.io/): Note-taking service for teams.
 - [Miro](https://miro.com/): Visual thinking for teams.
 - [mmhmm](https://www.mmhmm.app/home): Collaborative video workspace for teams
 - [Zotero](https://www.zotero.org/): Research assistant. People say it is good for annotating PDFs.
@@ -48,6 +48,7 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 - [zadam/trilium](https://github.com/zadam/trilium): [[Obsidian]]-like note-taking service.
 - [Standard Notes | End-To-End Encrypted Notes App](https://standardnotes.com/) Standard Notes is an end-to-end encrypted note-taking app for digitalists and professionals. Capture your notes, files, and life's work all in one secure place
 - [Napkin - Collect ideas, see connections, be inspired.](https://www.napkin.one/) It's like Liner (collecting data from the internet) and Heptabase (Visual thinking). But it also uses AI to extract keywords and show relevant data.
+- [Visible – Make information useful](https://visible.page/) All in one, just like Standard Notes
 
 ## Classic Blogs
 
