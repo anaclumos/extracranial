@@ -6,16 +6,9 @@ draft: true
 
 # {{date:YYYY-MM-DD}}
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
+## Personal Research
 
 ## [[Coding Tests]]
 
-## Today's [[Hacker News]]
+## [[Hacker News|HN]]
 
-## Interesting Webs
-
-## Academic Research
-
-## Personal Research
