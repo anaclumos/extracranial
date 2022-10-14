@@ -1,5 +1,4 @@
 ---
-title: 'Intracranial'
 slug: '/009C77'
 ---
 

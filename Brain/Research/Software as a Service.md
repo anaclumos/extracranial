@@ -1,9 +1,9 @@
 ---
-title: 'Software as a Service'
 slug: '/B30D00'
+aliases: ["SaaS"]
 ---
 
-We expect we could attain [[FIRE]] through [[SaaS]].
+We expect we could attain [[FIRE]] through [[Software as a Service]].
 
 ## References
 

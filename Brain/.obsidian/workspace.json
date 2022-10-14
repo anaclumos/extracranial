@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9a2c063336c6cfe9",
+        "id": "fc0fea44ffbde83d",
         "type": "tabs",
         "children": [
           {
-            "id": "a88682599c7239b1",
+            "id": "0e56ab244822b742",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/퍼블리시티권.md",
+                "file": "Projects/Project PEOPLE/Project PEOPLE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/퍼블리시티권.md",
+                "file": "Projects/Project PEOPLE/Project PEOPLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/퍼블리시티권.md"
+                "file": "Projects/Project PEOPLE/Project PEOPLE.md"
               }
             }
           },
@@ -135,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a88682599c7239b1",
+  "active": "0e56ab244822b742",
   "lastOpenFiles": [
-    "Projects/Someday/조선왕조실록.md",
-    "Projects/Coding Tests/_template.md",
-    "Projects/PEOPLE/_template.md",
+    "Projects/Project PEOPLE/Person 1B5A5B.md",
+    "Projects/Project PEOPLE/Person 5DBDAE.md",
+    "Projects/Project PEOPLE/Person 88B488.md",
+    "Projects/Project PEOPLE/Person A480C6.md",
+    "Projects/Project PEOPLE/Person CC8297.md",
+    "Projects/Project PEOPLE/Person E7CFC5.md",
+    "Projects/Project PEOPLE/Person 392196.md",
     "Journals/2022-10-13.md",
-    "Templates/journal.md",
-    "Research/Workbench.md",
-    "Journals/2022-10-06.md",
-    "Projects/Markdown Emails.md",
-    "Projects/Someday/Brane/Providing DOM API to Worker Threads.md",
-    "Projects/Someday/Cube.md"
+    "Research/Either be the best-in-class or the most efficient.md",
+    "Research/How is WebAssembly cross-platform when Assembly is not.md"
   ]
 }

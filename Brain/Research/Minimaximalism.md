@@ -1,5 +1,4 @@
 ---
-title: 'Minimaximalism'
 slug: '/5B5595'
 ---
 

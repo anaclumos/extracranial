@@ -1,5 +1,4 @@
 ---
-title: 'Pragmatic Engineer'
 slug: '/630E34'
 ---
 

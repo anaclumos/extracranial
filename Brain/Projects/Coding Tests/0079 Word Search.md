@@ -1,5 +1,4 @@
 ---
-title: '0079 Word Search'
 slug: '/B950DD'
 ---
 

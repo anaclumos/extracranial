@@ -1,5 +1,4 @@
 ---
-title: 'DOM'
 slug: '/87C3D3'
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: '#1290 Convert Binary Number in a Linked List to Integer'
 slug: '/291111'
 ---
 

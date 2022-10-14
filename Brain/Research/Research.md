@@ -1,5 +1,4 @@
 ---
-title: 'Research'
 slug: '/5AF385'
 ---
 

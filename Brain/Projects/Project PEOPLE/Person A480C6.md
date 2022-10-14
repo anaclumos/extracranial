@@ -1,5 +1,4 @@
 ---
-title: 'Person #A480C6'
 slug: '/A480C6'
 ---
 
@@ -14,7 +13,7 @@ slug: '/A480C6'
 - _[[Apple]] Silicon Team_ isn't necessarily a hardware team
   - Ex) Chip Design Inspection Software
 - **DRI**. Direct Response Individual.
-  - [[People]] can take responsibility, regardless of their level and position.
+  - [[Project PEOPLE]] can take responsibility, regardless of their level and position.
 - One downside: [[Apple]] is a very secretive company.
   - Every permission is on a _need-to-know_ basis.
   - Siloed Culture.

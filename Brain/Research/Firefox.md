@@ -2,8 +2,6 @@
 slug: '/9B00D1'
 ---
 
-# Firefox
-
 ## [Improving Firefox responsiveness on macOS - Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2022/10/improving-firefox-responsiveness-on-macos/)
 
 - _This improvement was achieved via a slight change in how locking is implemented within Firefox's memory allocator._

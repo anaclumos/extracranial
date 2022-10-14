@@ -1,5 +1,4 @@
 ---
-title: 'Sandbox'
 slug: '/E6DB5B'
 ---
 

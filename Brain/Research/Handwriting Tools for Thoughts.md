@@ -2,8 +2,6 @@
 slug: '/9CFFE3'
 ---
 
-# Handwriting Tools for Thoughts
-
 - A specific [[Tools for Thought]] with handwriting.
   - Benefit: handwritings [[Slow down your brain clock cycle]]
 - We might need [[Handwriting Grammarly]]

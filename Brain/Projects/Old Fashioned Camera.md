@@ -1,5 +1,4 @@
 ---
-title: 'Old Fashioned Camera'
 slug: '/C46EC1'
 ---
 

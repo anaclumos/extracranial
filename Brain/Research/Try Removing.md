@@ -2,8 +2,6 @@
 slug: '/ADB1EA'
 ---
 
-# Try Removing
-
 > _Try removing something but don't freak out if you cannot._
 
 ## Terminal freaked out

@@ -1,5 +1,4 @@
 ---
-title: 'Cooperative Multitasking'
 slug: '/A916B8'
 ---
 

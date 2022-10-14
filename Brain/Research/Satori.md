@@ -2,8 +2,6 @@
 slug: '/1E9E39'
 ---
 
-# Satori
-
 <figure>
 
 ![ALT: Add Unicode Private Area Support #161 Merged](../Assets/CD80BA.png)
@@ -19,7 +17,7 @@ Merged! [Add Unicode Private Area Support #161](https://github.com/vercel/satori
 
 - _This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/CSS into SVGs._
 - _We released [og-image.vercel.app](https://og-image.vercel.app/) four years ago to enable developers to dynamically generate [open graph](https://ogp.me/) (OG) images by taking a screenshot of an [[HTML]] page inside of a Serverless Function_
-- Indeed, I also used this for a while. [anaclumos/cho-sh-og-image: Open Graph Image as a Service](https://github.com/anaclumos/cho-sh-og-image). [[OGIaaS]]
+- Indeed, I also used this for a while. [anaclumos/cho-sh-og-image: Open Graph Image as a Service](https://github.com/anaclumos/cho-sh-og-image). [[Open Graph Image as a Service]]
 
 ### Problems
 

@@ -1,5 +1,4 @@
 ---
-title: 'Tesla Release Model'
 slug: '/C85882'
 ---
 

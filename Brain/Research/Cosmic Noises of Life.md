@@ -2,8 +2,6 @@
 slug: '/2862B4'
 ---
 
-# Cosmic Noises of Life
-
 ![Source: European Space Agency](../Assets/BAC983.png)
 
 Regardless of the continuous **noises** of life, there are certain things reassured periodically in life.

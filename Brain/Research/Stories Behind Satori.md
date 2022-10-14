@@ -2,8 +2,6 @@
 slug: '/5CC699'
 ---
 
-# Stories Behind Satori
-
 > by [Shu](https://twitter.com/shuding_/status/1579607964549513217)
 
 The potential candidates for Satori included:

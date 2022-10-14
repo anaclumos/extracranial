@@ -1,5 +1,4 @@
 ---
-title: 'MessagePack'
 slug: '/319EA4'
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: 'Real Exams'
 slug: '/75CB18'
 ---
 

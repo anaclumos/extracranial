@@ -2,8 +2,6 @@
 slug: '/8481ED'
 ---
 
-# Grammarly
-
 - Company
 - Proofreading Service
 - I've been a user since 2016 😃

@@ -1,5 +1,4 @@
 ---
-title: 'Internetworking'
 slug: '/6605BD'
 ---
 

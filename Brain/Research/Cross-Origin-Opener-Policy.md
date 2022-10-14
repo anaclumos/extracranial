@@ -1,5 +1,4 @@
 ---
-title: 'Cross Origin Opener Policy'
 slug: '/70114A'
 aliases: ['COOP']
 ---

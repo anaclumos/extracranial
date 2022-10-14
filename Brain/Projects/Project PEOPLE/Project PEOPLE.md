@@ -1,5 +1,4 @@
 ---
-title: 'Project PEOPLE'
 slug: '/3134AC'
 ---
 
@@ -16,12 +15,12 @@ Try refreshing the page!
 
 <Shuffle>
 
-- [[1B5A5B]]
-- [[88B488]]
-- [[392196]]
-- [[A480C6]]
-- [[CC8297]]
-- [[5DBDAE]]
-- [[E7CFC5]]
+- [[Person 1B5A5B]]
+- [[Person 88B488]]
+- [[Person 392196]]
+- [[Person A480C6]]
+- [[Person CC8297]]
+- [[Person 5DBDAE]]
+- [[Person E7CFC5]]
 
 </Shuffle>

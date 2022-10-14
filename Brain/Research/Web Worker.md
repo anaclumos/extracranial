@@ -1,5 +1,4 @@
 ---
-title: 'Web Worker'
 slug: '/E540BB'
 aliases: ['Web Workers']
 ---

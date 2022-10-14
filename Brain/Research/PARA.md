@@ -1,5 +1,4 @@
 ---
-title: 'PARA Architecture'
 slug: '/B4364B'
 ---
 

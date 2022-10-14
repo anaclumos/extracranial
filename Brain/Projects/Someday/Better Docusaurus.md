@@ -1,5 +1,4 @@
 ---
-title: 'Better Docusaurus'
 slug: '/A54F58'
 ---
 

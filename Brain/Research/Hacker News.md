@@ -1,5 +1,4 @@
 ---
-title: 'Hacker News'
 slug: '/FA003B'
 aliases: ['HN']
 ---

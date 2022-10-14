@@ -1,5 +1,4 @@
 ---
-title: 'Cube'
 slug: '/A0720E'
 ---
 

@@ -2,7 +2,5 @@
 slug: '/41024A'
 ---
 
-# Apple Silicon
-
 - Chips made by [[Apple]]
-- [[A480C6]]
+- [[Person A480C6]]

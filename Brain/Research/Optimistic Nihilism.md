@@ -1,5 +1,4 @@
 ---
-title: 'Optimistic Nihilism'
 slug: '/E0FFE6'
 ---
 

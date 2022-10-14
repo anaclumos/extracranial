@@ -1,5 +1,4 @@
 ---
-title: 'Not-So-Procrastinating Lazy Loading'
 slug: '/9E64CE'
 ---
 

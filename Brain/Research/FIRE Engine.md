@@ -1,11 +1,10 @@
 ---
-title: 'FIRE Engine'
 slug: '/9847E1'
 ---
 
 ## Definition
 
-- [[SaaS]] that drives revenue streams for [[FIRE]]
+- [[Software as a Service]] that drives revenue streams for [[FIRE]]
 
 ## Reference
 
@@ -17,7 +16,7 @@ slug: '/9847E1'
 - Success in the world of indie developers is an outlier business
 - Only around 5% of the products we analyzed generate a monthly revenue exceeding $8,333 (around $100K/year), which is not that hard to earn as a software engineer in a full-time job.
 
-## Payment Infra for [[SaaS]]
+## Payment Infra for [[Software as a Service]]
 
 - [Stripe Payments JavaScript Course](https://fireship.io/courses/stripe-js/)
 - _Stripe Atlas is a powerful, safe, easy-to-use platform for forming a company. By removing lengthy paperwork, legal complexity, and numerous fees, Stripe Atlas helps you launch your startup from anywhere in the world._ - [Stripe Atlas | Incorporate your startup in Delaware: C corp or LLC](https://stripe.com/atlas)

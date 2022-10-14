@@ -2,8 +2,6 @@
 slug: '/34A4BD'
 ---
 
-# Our tools also shape us
-
 > While we shape our tools, it is true that **our tools also shape us**. [Linking Your Thinking](https://www.youtube.com/channel/UC85D7ERwhke7wVqskV_DZUA).
 
 - [[We become what we do]]

@@ -1,5 +1,4 @@
 ---
-title: 'Pure Component Model'
 slug: '/59C7E5'
 ---
 

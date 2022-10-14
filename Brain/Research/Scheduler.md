@@ -1,5 +1,4 @@
 ---
-title: 'Scheduler'
 slug: '/F4B66B'
 aliases: ['스케줄러', 'Schedulers']
 ---

@@ -1,5 +1,4 @@
 ---
-title: 'DOM Reflow'
 slug: '/0F6587'
 ---
 

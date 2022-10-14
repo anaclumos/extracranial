@@ -1,5 +1,4 @@
 ---
-title: 'K-Pop Apps'
 slug: '/D0EE4C'
 ---
 

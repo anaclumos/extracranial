@@ -1,5 +1,4 @@
 ---
-title: 'C++'
 slug: '/CCFB5B'
 ---
 

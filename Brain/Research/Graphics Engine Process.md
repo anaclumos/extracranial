@@ -1,5 +1,4 @@
 ---
-title: 'Graphics Engine Process'
 slug: '/BA4019'
 ---
 

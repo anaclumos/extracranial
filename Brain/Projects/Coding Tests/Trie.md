@@ -1,5 +1,4 @@
 ---
-title: 'Trie'
 slug: '/CBF360'
 ---
 

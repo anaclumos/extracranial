@@ -1,5 +1,4 @@
 ---
-title: '0001 Two Sum'
 slug: '/322CE5'
 ---
 

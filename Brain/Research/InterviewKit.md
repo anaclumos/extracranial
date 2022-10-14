@@ -1,5 +1,4 @@
 ---
-title: 'InterviewKit'
 slug: '/D22464'
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: 'Apple Earth'
 slug: '/23E22A'
 ---
 

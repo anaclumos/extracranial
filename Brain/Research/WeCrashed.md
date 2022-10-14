@@ -1,5 +1,4 @@
 ---
-title: 'WeCrashed'
 slug: '/8FF07A'
 ---
 
