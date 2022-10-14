@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "152777820365f7b6",
+        "id": "6a9c3eab5658848b",
         "type": "tabs",
         "children": [
           {
-            "id": "3bb29b1475cdb9c6",
+            "id": "fdf45a1f40363d8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-13.md",
+                "file": "Journals/2022-10-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-13.md",
+                "file": "Journals/2022-10-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-13.md"
+                "file": "Journals/2022-10-14.md"
               }
             }
           },
@@ -134,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "3bb29b1475cdb9c6",
+  "active": "fdf45a1f40363d8e",
   "lastOpenFiles": [
-    "Research/Cross-platform AirDrop.md",
     "Journals/2022-10-13.md",
+    "Journals/2022-10-14.md",
+    "Research/Cross-platform AirDrop.md",
     "Research/Tools for Thought.md",
     "Research/FIRE Engine.md",
     "Research/FIRE.md",
     "Research/Nation as a Service.md",
     "Projects/Project PEOPLE/Project PEOPLE.md",
     "Projects/Project PEOPLE/Person 1B5A5B.md",
-    "Projects/Project PEOPLE/Person 5DBDAE.md",
-    "Projects/Project PEOPLE/Person 88B488.md"
+    "Projects/Project PEOPLE/Person 5DBDAE.md"
   ]
 }
