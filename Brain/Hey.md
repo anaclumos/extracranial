@@ -1,5 +1,6 @@
 ---
 title: 'Hey 👋🏻'
+lang: 'en'
 slug: '/'
 ---
 

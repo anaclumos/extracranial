@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/E540BB'
 aliases: ['Web Workers']
 ---

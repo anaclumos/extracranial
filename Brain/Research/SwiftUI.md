@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/F65967'
 ---
 
@@ -6,12 +7,10 @@ slug: '/F65967'
 
 [SwiftUI Overview - Xcode - Apple Developer](https://developer.apple.com/xcode/swiftui/)
 
-- SwiftUI App은 App Protocol을 준수.
-- Structure의 Body는 1개 혹은 더 많은 Scene을 Return.
-- `@main`으로 진입점을 표시.
-- 확실히 declarative하니까 편하다
-
-아래와 같이 시작 가능
+- SwiftUI App abides the App Protocol.
+- Structure의 Body returns 1 or more scenes.
+- `@main` marks the entry point of the app.
+- I like how it is declarative
 
 ```swift
 import SwiftUI
@@ -41,8 +40,6 @@ struct LandmarkRow_Previews: PreviewProvider {
     }
 }
 ```
-
-`Text()`에 대해 다음과 같이 디자인 가능.
 
 ```swift
 Text("Turtle Rock").font(.title)

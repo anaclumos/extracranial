@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/B0B79F'
 ---
 

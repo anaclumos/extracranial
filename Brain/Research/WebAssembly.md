@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/60C4E1'
 aliases: ['WASM']
 ---

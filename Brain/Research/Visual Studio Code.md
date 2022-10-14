@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/1565C7'
 aliases: ['VSC', 'VS Code']
 ---

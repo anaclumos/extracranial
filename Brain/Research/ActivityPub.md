@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/E6F15C'
 ---
 

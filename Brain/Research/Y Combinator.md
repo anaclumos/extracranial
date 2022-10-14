@@ -1,4 +1,5 @@
 ---
+lang: 'en'
 slug: '/A92E53'
 aliases: ['YC']
 ---
