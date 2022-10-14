@@ -1,9 +1,6 @@
 ---
-title: 'Monolithic (Pure Hierarchy) Model'
 slug: '/E99A6B'
 ---
-
-# Monolithic Model
 
 ```
 PhysicsObject → StuffedAnimal

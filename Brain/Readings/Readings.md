@@ -1,5 +1,4 @@
 ---
-title: 'Readings'
 slug: '/A8D05E'
 ---
 
@@ -14,7 +13,7 @@ This is a meta-page that collects my to-read lists.
 ## Reading
 
 - [ ] [[Atomic Habits]]
-- [ ] [[The Chinese Typewriter]]
+- [ ] [[한자 타자기]]
 
 ## To-read
 

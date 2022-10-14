@@ -1,5 +1,4 @@
 ---
-title: 'Obsidian'
 slug: '/4AAFB1'
 ---
 

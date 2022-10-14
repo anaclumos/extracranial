@@ -1,5 +1,4 @@
 ---
-title: 'Greedy'
 slug: '/30A9A1'
 ---
 

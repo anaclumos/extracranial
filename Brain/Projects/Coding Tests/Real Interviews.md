@@ -2,8 +2,6 @@
 slug: '/654898'
 ---
 
-# Real Interviews
-
 ## For 2023
 
 - [Palantir](https://www.palantir.com/)

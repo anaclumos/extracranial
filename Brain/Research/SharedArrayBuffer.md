@@ -1,5 +1,4 @@
 ---
-title: 'SharedArrayBuffer'
 slug: '/58CA40'
 aliases: ['SAB']
 ---

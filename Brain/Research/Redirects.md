@@ -2,8 +2,6 @@
 slug: '/93024C'
 ---
 
-# Redirects
-
 ## Redirects in Vercel
 
 ```json

@@ -1,5 +1,4 @@
 ---
-title: 'Universal Basic Income for Scholars'
 slug: '/AFFEFA'
 ---
 

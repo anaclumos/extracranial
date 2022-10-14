@@ -1,5 +1,4 @@
 ---
-title: 'Off The Record'
 slug: '/9C24C1'
 ---
 

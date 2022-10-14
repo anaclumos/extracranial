@@ -2,8 +2,6 @@
 slug: '/BB0A88'
 ---
 
-# sem.sh
-
 > The project name originates from the Pure Korean word meaning numerics and statistics — Sem (셈)
 > 프로젝트의 어원은 통계와 대수학을 칭하는 순우리말 명칭인 "셈"에서 유래했습니다.
 

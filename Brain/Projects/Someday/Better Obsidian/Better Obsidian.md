@@ -1,5 +1,4 @@
 ---
-title: 'Better Obsidian'
 slug: '/9E4E7C'
 ---
 

@@ -2,8 +2,6 @@
 slug: '/1F7327'
 ---
 
-# Either be best-in-class or the most efficient
-
 > Either be best-in-class or the most efficient. Anything in between gets squeezed out.
 
 - Software

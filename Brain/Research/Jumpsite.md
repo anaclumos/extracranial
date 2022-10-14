@@ -2,8 +2,6 @@
 slug: '/58407C'
 ---
 
-# Jumpsite
-
 Jumpsite Service, or Web Linking Network Service, is a collective term for a [[social network]] service mainly consisting of links to outside content.
 
 ## [[Hacker News]]

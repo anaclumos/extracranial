@@ -1,5 +1,4 @@
 ---
-title: '#733 Flood Fill'
 slug: '/18ED1C'
 ---
 

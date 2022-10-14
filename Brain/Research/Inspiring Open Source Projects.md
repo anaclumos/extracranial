@@ -2,8 +2,6 @@
 slug: '/7442D2'
 ---
 
-# Inspiring Open Source Projects
-
 - [plausible/analytics: Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.](https://github.com/plausible/analytics)
 - [jitsucom/jitsu: Jitsu is an open-source Segment alternative. Fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days](https://github.com/jitsucom/jitsu)
 - [meilisearch/meilisearch: A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.](https://github.com/meilisearch/meilisearch)

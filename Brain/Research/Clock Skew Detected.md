@@ -1,5 +1,4 @@
 ---
-title: 'Clock Skew Detected'
 slug: '/6BA2C4'
 ---
 

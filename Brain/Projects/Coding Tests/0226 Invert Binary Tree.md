@@ -1,5 +1,4 @@
 ---
-title: '0226 Invert Binary Tree'
 slug: '/5E3636'
 ---
 

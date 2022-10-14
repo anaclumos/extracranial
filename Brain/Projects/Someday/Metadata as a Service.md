@@ -1,5 +1,4 @@
 ---
-title: 'Metadata-aaS'
 slug: '/22EAF0'
 ---
 

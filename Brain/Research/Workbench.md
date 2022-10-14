@@ -1,5 +1,4 @@
 ---
-title: 'Workbench'
 slug: '/D74DBC'
 ---
 

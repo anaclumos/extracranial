@@ -1,5 +1,4 @@
 ---
-title: 'Python'
 slug: '/692460'
 ---
 

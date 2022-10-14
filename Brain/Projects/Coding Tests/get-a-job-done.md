@@ -1,5 +1,4 @@
 ---
-title: 'Get-a-Job-Done'
 slug: '/51BF0E'
 ---
 

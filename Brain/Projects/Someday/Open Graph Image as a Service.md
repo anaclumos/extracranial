@@ -1,5 +1,4 @@
 ---
-title: 'OG:Image-aaS'
 slug: '/2531E5'
 ---
 

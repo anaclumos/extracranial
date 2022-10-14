@@ -2,9 +2,7 @@
 slug: '/8794DD'
 ---
 
-# Super App and Democracy
-
-> 데이터의 중앙집권화는 反민주적인가? Is the centralization of data anti-democratic?
+> Is the centralization of data anti-democratic?
 
 > ["Buying Twitter is an accelerant to creating X, the everything app"](https://twitter.com/elonmusk/status/1577428272056389633)
 

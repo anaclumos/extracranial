@@ -1,5 +1,4 @@
 ---
-title: 'Autosave Everything'
 slug: '/AC45A4'
 ---
 

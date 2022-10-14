@@ -1,5 +1,4 @@
 ---
-title: 'Developing Review Notes for Obsidian'
 slug: '/DAF673'
 ---
 

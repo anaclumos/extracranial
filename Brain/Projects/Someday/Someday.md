@@ -1,5 +1,4 @@
 ---
-title: 'Someday'
 slug: '/9631EB'
 ---
 

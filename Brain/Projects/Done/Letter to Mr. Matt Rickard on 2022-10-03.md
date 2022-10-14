@@ -2,8 +2,6 @@
 slug: '/D2DFA4'
 ---
 
-# Letter to Mr. Matt Rickard on 2022-10-03
-
 - Written: [[2022-10-03]]
 
 Dear Mr. Rickard,

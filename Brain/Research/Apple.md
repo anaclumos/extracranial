@@ -1,5 +1,4 @@
 ---
-title: 'Apple'
 slug: '/B44343'
 ---
 

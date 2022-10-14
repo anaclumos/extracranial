@@ -1,5 +1,4 @@
 ---
-title: 'Blitzscaling'
 slug: '/885578'
 ---
 

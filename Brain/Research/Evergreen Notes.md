@@ -1,9 +1,8 @@
 ---
-title: 'Evergreen Notes'
 slug: '/B0B79F'
 ---
 
-- Antonym: [[Transient]]
+- Antonym: [[Transient Notes]]
 - A knowledge that doesn't change.
 - For example, a theory, concept, idea, or experience.
 

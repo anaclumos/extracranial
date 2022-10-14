@@ -1,5 +1,4 @@
 ---
-title: '0021 Merge Two Sorted Lists'
 slug: '/5F2988'
 ---
 

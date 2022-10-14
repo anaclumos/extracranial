@@ -1,5 +1,4 @@
 ---
-title: 'CalliFontia'
 slug: '/3B14B7'
 ---
 

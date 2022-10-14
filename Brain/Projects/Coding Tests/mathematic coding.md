@@ -1,5 +1,4 @@
 ---
-title: 'Mathematic Coding'
 slug: '/598CA9'
 ---
 

@@ -2,8 +2,6 @@
 slug: '/46ED3F'
 ---
 
-# Code Quality
-
 - Your deltaTime calculation is incorrect.
 - You have basic type and pointer member variables that are uninitialized at the construction time of the class. You should initialize these either at the declaration or in the constructor. Note that it's a good practice to do this even if you are later setting them to something else in Initialize.
 - You have an unused function.

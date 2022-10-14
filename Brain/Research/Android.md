@@ -1,5 +1,4 @@
 ---
-title: 'Android'
 slug: '/061F3C'
 ---
 

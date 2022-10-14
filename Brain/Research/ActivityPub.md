@@ -2,8 +2,6 @@
 slug: '/E6F15C'
 ---
 
-# ActivityPub
-
 - Decentralized Social Media Protocol.
 
 ## [ActivityPub Rocks!](https://activitypub.rocks/)

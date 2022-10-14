@@ -1,5 +1,4 @@
 ---
-title: 'Swift'
 slug: '/2EAC56'
 ---
 

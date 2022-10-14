@@ -1,5 +1,4 @@
 ---
-title: 'Better Hacker News'
 slug: '/B7BEDA'
 ---
 

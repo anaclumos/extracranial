@@ -1,5 +1,4 @@
 ---
-title: 'Vercel'
 slug: '/E42038'
 ---
 

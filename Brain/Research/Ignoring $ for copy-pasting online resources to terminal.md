@@ -2,8 +2,6 @@
 slug: '/558CF5'
 ---
 
-# Ignoring $ for Copy-Pasting Online Resources
-
 I was extremely surprised and glad that this worked.
 
 ```bash

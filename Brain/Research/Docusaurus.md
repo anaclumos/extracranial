@@ -1,5 +1,4 @@
 ---
-title: 'Docusaurus'
 slug: '/816CC8'
 ---
 

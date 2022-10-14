@@ -1,5 +1,4 @@
 ---
-title: 'Brane'
 slug: '/8C41D2'
 ---
 

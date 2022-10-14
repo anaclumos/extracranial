@@ -1,5 +1,4 @@
 ---
-title: 'WorkerDOM'
 slug: '/5E71CF'
 aliases: ['워커돔']
 ---

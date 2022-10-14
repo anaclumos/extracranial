@@ -1,5 +1,4 @@
 ---
-title: 'Prompt Engineering'
 slug: '/6246E7'
 ---
 
