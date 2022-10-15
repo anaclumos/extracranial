@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "10cad265391edfc5",
+        "id": "323dee8b8e34bd49",
         "type": "tabs",
         "children": [
           {
-            "id": "fcfc1850a7247516",
+            "id": "9ddb185f3b8e81ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-14.md",
+                "file": "Projects/Dynamic Island on the Web.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-14.md",
+                "file": "Projects/Dynamic Island on the Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-14.md"
+                "file": "Projects/Dynamic Island on the Web.md"
               }
             }
           },
@@ -135,17 +135,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "fcfc1850a7247516",
+  "active": "9ddb185f3b8e81ee",
   "lastOpenFiles": [
-    "Research/Toss Product Sans.md",
+    "Journals/2022-10-15.md",
     "Journals/2022-10-14.md",
+    "Research/Toss Product Sans.md",
     "Research/San Francisco.md",
     "Research/Brunch violates Apple's Terms with SF.md",
     "Research/Web Typography.md",
     "Research/Apple.md",
     "Journals/2022-06-21.md",
     "Research/Firefox.md",
-    "Projects/Project PEOPLE/Person A480C6.md",
-    "Research/SwiftUI.md"
+    "Projects/Project PEOPLE/Person A480C6.md"
   ]
 }
