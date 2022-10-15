@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74143f0700131405",
+        "id": "1296640ea927f82a",
         "type": "tabs",
         "children": [
           {
-            "id": "6cb2427628c2fdd9",
+            "id": "709fdb64a9fbdd6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 353.5,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -134,17 +135,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "6cb2427628c2fdd9",
+  "active": "709fdb64a9fbdd6c",
   "lastOpenFiles": [
-    "Assets/0593F3.jpeg",
-    "Assets/45E559.jpeg",
+    "Research/San Francisco.md",
+    "Research/Toss Product Sans.md",
     "Journals/2022-10-14.md",
-    "Journals/2022-10-13.md",
-    "Research/BIMI.md",
-    "Research/Linear README.md",
-    "Research/Linear.md",
-    "Research/Jira.md",
-    "Research/Height.md",
-    "Research/Karrot.md"
+    "Research/Emoji.md",
+    "Projects/Done/TossFace Playground.md",
+    "Research/Tossface.md",
+    "Research/Toss.md",
+    "Research/Super App.md",
+    "Research/Financial Technology.md",
+    "Research/Font.md"
   ]
 }
