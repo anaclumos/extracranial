@@ -207,3 +207,9 @@ article a[href*='stackexchange.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/stackexchange.svg');
 }
+
+article a[href*='webkit.org']::before,
+article a[href*='webkit.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/safari.svg');
+}
