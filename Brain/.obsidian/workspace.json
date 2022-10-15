@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Super App and Democracy.md",
+                "file": "Journals/2022-10-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 353.5
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Super App and Democracy.md",
+                "file": "Journals/2022-10-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Super App and Democracy.md"
+                "file": "Journals/2022-10-14.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "6e0faa2a92e2c768",
   "lastOpenFiles": [
+    "Research/Linear README.md",
     "Journals/2022-10-14.md",
-    "Journals/2022-10-13.md",
-    "Research/Cross-platform AirDrop.md",
-    "Research/Tools for Thought.md",
-    "Research/FIRE Engine.md",
-    "Research/FIRE.md",
-    "Research/Nation as a Service.md",
-    "Projects/Project PEOPLE/Project PEOPLE.md",
-    "Projects/Project PEOPLE/Person 1B5A5B.md",
-    "Projects/Project PEOPLE/Person 5DBDAE.md"
+    "Research/Linear.md",
+    "Research/Jira.md",
+    "Research/Height.md",
+    "Research/Karrot.md",
+    "Research/Untitled.md",
+    "Projects/The New Era of macOS Applications.md",
+    "Projects/Separation of Computer Scientists and Computer Technologists.md",
+    "Projects/sem.sh.md"
   ]
 }
