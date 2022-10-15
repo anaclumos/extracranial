@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "521e035071f8a965",
+        "id": "74143f0700131405",
         "type": "tabs",
         "children": [
           {
-            "id": "6e0faa2a92e2c768",
+            "id": "6cb2427628c2fdd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -134,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "6e0faa2a92e2c768",
+  "active": "6cb2427628c2fdd9",
   "lastOpenFiles": [
-    "Research/Linear README.md",
+    "Assets/0593F3.jpeg",
+    "Assets/45E559.jpeg",
     "Journals/2022-10-14.md",
+    "Journals/2022-10-13.md",
+    "Research/BIMI.md",
+    "Research/Linear README.md",
     "Research/Linear.md",
     "Research/Jira.md",
     "Research/Height.md",
-    "Research/Karrot.md",
-    "Research/Untitled.md",
-    "Projects/The New Era of macOS Applications.md",
-    "Projects/Separation of Computer Scientists and Computer Technologists.md",
-    "Projects/sem.sh.md"
+    "Research/Karrot.md"
   ]
 }
