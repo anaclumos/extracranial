@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-16.md",
+                "file": "Research/Linear.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "draft: true",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-16.md",
+                "file": "Research/Linear.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-16.md"
+                "file": "Research/Linear.md"
               }
             }
           },
@@ -134,14 +135,14 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e80f6969b52be7b5",
+  "active": "b9b3d1724f39de07",
   "lastOpenFiles": [
+    "Journals/2022-10-14.md",
     "Journals/2022-10-15.md",
     "Journals/2022-10-16.md",
     "Projects/Dynamic Island on the Web.md",
     "Assets/AA04D0.mp4",
     "Research/2022-10-16.md",
-    "Journals/2022-10-14.md",
     "Hey.md",
     "Templates/person.md",
     "Research/Framer Motion.md",
