@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9ae6c8253727687c",
+        "id": "fcdcbd4d4ffb7a0a",
         "type": "tabs",
         "children": [
           {
-            "id": "9d20ce16f5a719a3",
+            "id": "a7846a22325ce144",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-15.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-10-15.md"
-              }
+              "state": {}
             }
           },
           {
@@ -134,17 +126,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9d20ce16f5a719a3",
+  "active": "a7846a22325ce144",
   "lastOpenFiles": [
-    "Research/WebAssembly.md",
     "Journals/2022-10-15.md",
+    "Research/Guestbook.md",
+    "Research/WebAssembly.md",
     "Research/3D Globe on the Web.md",
     "Projects/Better Aldehyde/Transactional Globe.md",
     "3d.md",
     "Research/Brunch violates Apple Terms with SF.md",
     "Projects/Dynamic Island on the Web.md",
     "Journals/2022-10-14.md",
-    "Research/Toss Product Sans.md",
-    "Research/San Francisco.md"
+    "Research/Toss Product Sans.md"
   ]
 }
