@@ -9,6 +9,21 @@ slug: '/B21605'
 
 ![[0C4D2A.jpg]]
 
+```ts
+export type DynamicIslandState = {
+  State:
+    | 'default'
+    | 'separated'
+    | 'expanded'
+    | 'xlarge'
+    | 'ultra'
+}
+```
+
+## Stack
+
+- [[Framer Motion]] seems appropriate.
+
 ## Rough Idea
 
 ![[7F65A5.jpeg]]

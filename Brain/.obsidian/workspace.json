@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fcdcbd4d4ffb7a0a",
+        "id": "e954495528b1baf6",
         "type": "tabs",
         "children": [
           {
-            "id": "a7846a22325ce144",
+            "id": "17651085e1971d1c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Assets/0C4D2A.jpg"
+                "file": "Projects/Dynamic Island on the Web.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/0C4D2A.jpg",
+                "file": "Projects/Dynamic Island on the Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assets/0C4D2A.jpg"
+                "file": "Projects/Dynamic Island on the Web.md"
               }
             }
           },
@@ -131,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a7846a22325ce144",
+  "active": "17651085e1971d1c",
   "lastOpenFiles": [
-    "Journals/2022-10-15.md",
+    "Research/Framer Motion.md",
     "Projects/Dynamic Island on the Web.md",
+    "Research/Dynamic Island.md",
+    "Assets/0C4D2A.jpg",
+    "Journals/2022-10-15.md",
     "Research/Guestbook.md",
     "Research/WebAssembly.md",
     "Research/3D Globe on the Web.md",
     "Projects/Better Aldehyde/Transactional Globe.md",
-    "3d.md",
-    "Research/Brunch violates Apple Terms with SF.md",
-    "Journals/2022-10-14.md",
-    "Research/Toss Product Sans.md"
+    "3d.md"
   ]
 }
