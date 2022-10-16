@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0bd941a0b5b957c9",
+        "id": "198a68ddb4daace8",
         "type": "tabs",
         "children": [
           {
-            "id": "95f367751a08fd36",
+            "id": "e80f6969b52be7b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/2022-10-16.md",
+                "file": "Journals/2022-10-16.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/2022-10-16.md",
+                "file": "Journals/2022-10-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/2022-10-16.md"
+                "file": "Journals/2022-10-16.md"
               }
             }
           },
@@ -134,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "95f367751a08fd36",
+  "active": "e80f6969b52be7b5",
   "lastOpenFiles": [
     "Journals/2022-10-15.md",
-    "Journals/2022-10-14.md",
+    "Journals/2022-10-16.md",
     "Research/2022-10-16.md",
+    "Journals/2022-10-14.md",
     "Hey.md",
     "Templates/person.md",
     "Projects/Dynamic Island on the Web.md",
     "Assets/AA04D0.mp4",
     "Research/Framer Motion.md",
-    "Research/Dynamic Island.md",
-    "Assets/0C4D2A.jpg"
+    "Research/Dynamic Island.md"
   ]
 }
