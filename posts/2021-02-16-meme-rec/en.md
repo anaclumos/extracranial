@@ -30,6 +30,7 @@ I've since broken it down by category on the Notion page. For example, it could 
 As I envisioned the selection-based recommendation test, there seemed to be two approaches. One is a system that gives weight to each answer to a question, calculates a final score, and recommends results. The other is to set up the entire scenario tree and recommend results according to the combination of options. The popular MBTI results analysis uses the first score-based recommendation system. However, I used the second scenario tree-based recommendation system. Here's why:
 
 The **score flag system** was too complex to configure.
+
 - MBTI has a simple score flag. Since there are only four flags: `E/I`, `N/S`, `T/F`, and `J/P`, it is relatively convenient to manage the score status.
 - I immediately had five categories: Music, Movies, Games, Coding, and General, and each type had various subcategories, so it wasn't easy to pinpoint the flags.
 - For example, I cannot recommend LoL meme videos simply because the game flag score is high. Because you may not know the rules of the LoL, or you may not empathize with the laughter. In other words, to fix this, you need to either add a roll score flag or set a separate "favorite game" flag.
@@ -37,12 +38,14 @@ The **score flag system** was too complex to configure.
 - However, the design difficulty rises higher than the technical difficulty. Above all, I felt it was tough to elaborately plan which score range should be recommended for each flag. In other words, it is difficult to make a perfectly-fit meme recommendation based on the score.
 
 I wanted to make **checking all endings** possible.
+
 - In a choice-based game, you may want to see a different ending by changing only one final decision (especially these meme recommendations that are not just MBTI).
 - But score-based systems usually require the test to be restarted from scratch and more engineering to add optional 'undo' actions.
 - If you use the scenario tree base, this part becomes more convenient. This is because I need to navigate to the Parent Node.
 - As will be described later, in my case, because I used Next Link, just going back in the browser becomes the undo action.
 
 I wanted to include a **curated choice vocabulary** rather than a typical optional vocabulary.
+
 - In a score-based system, you only ask questions and answers in a general form. That is, you cannot ask follow-up questions.
 - I tried to use the Scenario Tree to make the question and the answer exactly fit each other, giving you an everyday experience.
 - Also, as a result, this system is intended to be "attached to the club application".
