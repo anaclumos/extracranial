@@ -8,16 +8,16 @@ slug: '/'
 > This is everything I know!
 
 Welcome to my [[research]] note.
-I extensively studied [[PKM]]s and envisioned a _single source of truth_ that integrated my projects and research.
+I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research.
 You will find my most up-to-date interests here.
 I write in English and Korean and don't plan to translate the notes.
 If you seek internationalized content, check out my [articles](/w/archive).
 
-- Avoid deep folder structures.
+- Avoid deep folder structures
 - Avoid data pile
-  - Rewrite & Compress.
+  - Rewrite & Compress
   - [[Building a Second Brain|BASB]] recommends compressing 50x
-- [[Inliner]]
+- Use [[Inliner]]
 
 ## Tech Stacks
 
