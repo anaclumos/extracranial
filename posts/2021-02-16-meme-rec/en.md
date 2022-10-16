@@ -1,5 +1,5 @@
 ---
-title: 'Meme Rec App for a LavaLab Interview'
+title: 'Building a Meme Rec App for a Club Interview'
 date: 2021-02-16
 authors: anaclumos
 slug: '/7BF6C2'
