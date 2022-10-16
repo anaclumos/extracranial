@@ -11,8 +11,10 @@
             "id": "a7846a22325ce144",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Assets/0C4D2A.jpg"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Assets/0C4D2A.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Assets/0C4D2A.jpg"
+              }
             }
           },
           {
@@ -129,13 +134,13 @@
   "active": "a7846a22325ce144",
   "lastOpenFiles": [
     "Journals/2022-10-15.md",
+    "Projects/Dynamic Island on the Web.md",
     "Research/Guestbook.md",
     "Research/WebAssembly.md",
     "Research/3D Globe on the Web.md",
     "Projects/Better Aldehyde/Transactional Globe.md",
     "3d.md",
     "Research/Brunch violates Apple Terms with SF.md",
-    "Projects/Dynamic Island on the Web.md",
     "Journals/2022-10-14.md",
     "Research/Toss Product Sans.md"
   ]
