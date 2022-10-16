@@ -1,7 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/BF4D58'
 ---
 
 - Multipurpose Guestbook API could be fun
-
