@@ -4,21 +4,21 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "... for multiple CPU vendors, like [[**Apple**]]'s Universal Binary?\n",
         "서울 프로": "본 목적은 Pretendard와 비슷하게 [[**Apple**]]의 [[San Francisco",
         "Screenshot as an API": "... from photos in the latest [[**Apple**]] iOS 16 update.\n",
-        "Firefox": "... the thread pools used by [[**Apple**]]'s libraries_\n",
+        "Firefox": "- _Enter [`os_unfair_lock`](https://developer.apple.com/documentation/os/os_unfair_lock), [[**Apple**]]'s official replacement for `OSSpinLock`. If ...",
         "San Francisco": "- Font by [[**Apple**]]\n",
         "Apple Silicon": "- Chips made by [[**Apple**]]\n",
         "Google": "... information technology companies, alongside Amazon, [[**Apple**]], Meta, and Microsoft. [Google](https://en.wikipedia.org/wiki/Google)\n",
-        "CalliFontia": "- [[**Apple**]] Neural Engine 적극 활용, 기기 ...",
+        "CalliFontia": "- [[**Apple**]] Pencil Handwriting → Font\n",
         "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[**Apple**]] Music have a market penetration ...",
-        "Person A480C6": "[[**Apple**]] also has a sound responsibility ...",
-        "Person CC8297": "[[**Apple**]] truly respects its employees, and ...",
+        "Person A480C6": "- Currently works at [[**Apple**]], [[**Apple**",
+        "Person CC8297": "- Currently works at [[**Apple**]] as a mechanical engineer.\n",
         "Intracranial": "  - 👍 [[**Apple**]]-ish design language\n",
         "Apple Earth": "... Earth app but with Smoo-ooth [[**Apple**]] Maps and iOS Widget Supports\n",
         "2022-10-13": "... 31% of teens own an [[**Apple**]] Watch: [Taking Stock With Teens® ...",
         "2022-06-21": "However, [[**Apple**]] Feedback Assistant is not a ...",
         "2022-06-10": "  - [[**Apple**]] has [implemented pointer authentication](https://support.apple.com/guide/security/operating-system-integrity-sec8b776536b/1/web/1#sec0167b469d) on ...",
         "2022-06-20": "Note that this is not [[**Apple**]] Passkey. This is the Privacy ...",
-        "2022-07-18": "... feels good. Especially writing with [[**Apple**]] Pencil.\n"
+        "2022-07-18": "- [[**Apple**]] seems (pretty much) always right...\n"
     },
     "pasted image 20220803235118.png": {
         "Swift": "![[**Pasted image 20220803235118.png**]]\n"
@@ -28,43 +28,43 @@ export const backlinks = {
         "Apple": "- Creator of [[**Swift**]], [[**Swift**UI"
     },
     "super app": {
-        "Super App and Democracy": "... that WeChat is the only “[[**Super App**|everything app]]” anyone can cite, and it ...",
+        "Super App and Democracy": "... technology entrepreneurs dream of an \"[[**Super App**|Everything App]]\", a smartphone application that will ...",
         "Toss": "... say _the most innovative_ Financial [[**Super App**]] I've ever seen in Korea ..."
     },
     "vercel": {
-        "Satori": "... top of the core engine, [[**Vercel**]] OG can be used inside ...",
+        "Satori": "... than existing solutions by using [[**Vercel**]] Edge Functions, [[WebAssembly",
         "Stories Behind Satori": "The [[**Vercel**]] team [[Dogfooding|dogfooded",
         "2022-08-28": "... both used Cloudflare Pages and [[**Vercel**]] and concluded that [[**Vercel**",
         "2022-07-10": "- [[**Vercel**]] hid the compilation process with ...",
         "2022-06-22": "Deno envisions a [[**Vercel**]]-like experience for the backend (FaaS.)\n",
-        "2022-09-30": "### [[**Vercel**]] [[NextJS",
+        "2022-09-30": "- [[**Vercel**]] [Serving millions of users on ...",
         "2022-10-10": "...  - I just love [[**Vercel**]]... they _know_ stuff.\n"
     },
     "webassembly": {
-        "Satori": "... used inside Edge environments through [[**WebAssembly**]] to create social card images ...",
-        "How is WebAssembly cross-platform when Assembly is not": "... What is the relationship between [[**WebAssembly**]] and [[Assembly",
+        "Satori": "... by using Vercel Edge Functions, [[**WebAssembly**]], and a brand new core ...",
+        "How is WebAssembly cross-platform when Assembly is not": "[[**WebAssembly**]] is a novel way of ...",
         "Deno Deploy": "- TypeScript, [[**WebAssembly**|Wasm]], ES Modules\n",
-        "Stories Behind Satori": "Using a [[**WebAssembly**|WASM]]-based approach also unlocked the possibility ...",
+        "Stories Behind Satori": "Converting it into [[**WebAssembly**|WASM]] will also benefit by targeting ...",
         "2022-06-14": "- [[**WebAssembly**|WASM]]과는 당장은 무관하다.\n",
         "2022-10-14": "- [[**WebAssembly**]]\n",
         "2022-10-15": "- [[**WebAssembly**]]: [paradust7/minetest-wasm: Experimental Minetest build for ..."
     },
     "html": {
-        "Satori": "... can define your images using [[**HTML**]] and [[CSS",
+        "Satori": "... new core library for converting [[**HTML**]]/[[CSS",
         "Tailwind": "... websites without ever leaving your [[**HTML**]]. A utility-first [[CSS",
         "CSS": "... a markup language such as [[**HTML**]] or XML (including XML dialects ...",
         "DOM": "... that treats an XML or [[**HTML**]] document as a tree structure ...",
         "JavaScript": "... the World Wide Web, alongside [[**HTML**]] and CSS. As of 2022, ...",
         "JSX": "... is similar in appearance to [[**HTML**]]. React components are typically written ...",
-        "Stories Behind Satori": "Given that SVG and [[**HTML**]] + [[CSS",
+        "Stories Behind Satori": "... two, being fast and dev-friendly ([[**HTML**]]/[[CSS",
         "Markdown Email Client": "... as a beautiful and clean [[**HTML**]] email!\n",
         "2022-06-12": "... client-side JavaScript converts a static [[**HTML**]] web page, delivered either through ..."
     },
     "css": {
-        "Satori": "- Tailwind [[**CSS**]] with the `tw` prop\n",
+        "Satori": "... new core library for converting HTML/[[**CSS**]] into SVGs._\n",
         "Tailwind": "... leaving your HTML. A utility-first [[**CSS**]] framework packed with classes like ...",
         "Font Features": "- [[**CSS**]] property to enhance legibilities of ...",
-        "Stories Behind Satori": "... syntax with JSX and simple [[**CSS**]], Shu used [RazrFalcon/resvg](https://github.com/RazrFalcon/resvg) and [yisibl/resvg-js](https://github.com/yisibl/resvg-js) ...",
+        "Stories Behind Satori": "... two, being fast and dev-friendly (HTML/[[**CSS**]])\n",
         "Markdown Email Client": "- Before sending, select one [[**CSS**]]\n"
     },
     "open graph image as a service": {
@@ -88,20 +88,20 @@ export const backlinks = {
         "Atomics": "- SharedArrayBuffer를 이용해 [[**Web Worker**]] 사이 메모리를 동기화하기 위해 사용됨.\n",
         "Stories Behind Satori": "... will also benefit by targeting [[**Web Worker**|**Web Worker**s]].\n",
         "iiframe": "... containerizes an embedded web inside [[**Web Worker**|**Web Worker**s]].\n",
-        "2022-07-25": "- [ ] Unfreeze the [[**Web Worker**]] thread with `Atomic.notify()`.\n",
+        "2022-07-25": "- [x] Inside [[**Web Worker**]] Thread `MutationTransfer.ts`, create a `transferSync` ...",
         "2022-07-11": "Give this object to a [[**Web Worker**]] which includes third-party codes.\n",
-        "2022-07-21": "  - Unfreeze the [[**Web Worker**]] thread with `Atomic.notify()`.\n",
+        "2022-07-21": "- Inside [[**Web Worker**]] Thread `MutationTransfer.ts`, create a `transferSync` ...",
         "2022-08-03": "... specializes in containerizing iframes in [[**Web Worker**|**Web Worker**s]].\n",
-        "2022-07-19": "  - [[**Web Worker**]] Thread에 Atomic Notify를 한다\n",
-        "2022-06-22": "Preferably, WorkerDOM and [[**Web Worker**]] API will already have a ..."
+        "2022-07-19": "[[**Web Worker**]] Thread에서 나타난 `AnimationFrame.ts`은 `requestAnimationFrame`에 관련된 ...",
+        "2022-06-22": "... be an _arbiter_ between the [[**Web Worker**]] thread and the iframe.\n"
     },
     "stories behind satori": {
         "Satori": "- [[**Stories Behind Satori**]]\n",
         "2022-10-13": "  - [x] [[**Stories Behind Satori**]]\n"
     },
     "assembly": {
-        "How is WebAssembly cross-platform when Assembly is not": "... It is a specific purpose [[**assembly**]].\n",
-        "Inspecting Assembly": "...    | prints [[**assembly**]] codes     ..."
+        "How is WebAssembly cross-platform when Assembly is not": "[[**Assembly**]] is a straightforward way of ...",
+        "Inspecting Assembly": "- [[**Assembly**]]\n"
     },
     "turing machine": {
         "How is WebAssembly cross-platform when Assembly is not": "It follows how [[**Turing Machine**]]s would work in the real ..."
@@ -113,7 +113,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "![[**Pasted image 20221012124422.png**]]\n"
     },
     "toss": {
-        "Tossface": "- [[**Toss**]] once withdrew the emojis, but ...",
+        "Tossface": "- Emoji Font by [[**Toss**]]\n",
         "Toss Product Sans": "- Font by [[**Toss**]].\n"
     },
     "tossface playground": {
@@ -132,19 +132,46 @@ export const backlinks = {
     },
     "fire": {
         "Software as a Service": "We expect we could attain [[**FIRE**]] through [[Software as a Service",
-        "Fiercely Overpriced": "... real-world Software as a Service [[**FIRE**]] will work out.\n",
+        "Fiercely Overpriced": "To attain [[**FIRE**]], we have previously explored that ...",
         "FIRE Engine": "... that drives revenue streams for [[**FIRE**]]\n"
     },
     "software as a service": {
         "Software as a Service": "... we could attain FIRE through [[**Software as a Service**]].\n",
-        "Fiercely Overpriced": "... out on how the real-world [[**Software as a Service**]] [[FIRE",
-        "FIRE Engine": "## Payment Infra for [[**Software as a Service**]]\n",
+        "Fiercely Overpriced": "... we have previously explored that [[**Software as a Service**]] would be one way to ...",
+        "FIRE Engine": "- [[**Software as a Service**]] that drives revenue streams for ...",
         "2022-09-18": "- [[**Software as a Service**]] businesses with network effects are ...",
         "2022-09-29": "... https://t.co/BGR54GVVRK It's an open-source link-shortener [[**Software as a Service**]] with built-in analytics + free ...",
-        "2022-07-07": "... in the Tools for Thought [[**Software as a Service**]] market.\n"
+        "2022-07-07": "... Notes on Tools for Thought [[**Software as a Service**]]\n"
     },
     "venture capital": {
         "Either be the best-in-class or the most efficient": "- [[**Venture Capital**|VC]]\n"
+    },
+    "atomic notes system": {
+        "Andy Matuschak": "... a new vision of online [[**Atomic Notes System**|Zettelkasten]].\n",
+        "Intracranial": "  - [[**Atomic Notes System**]]\n"
+    },
+    "sliding panes": {
+        "Andy Matuschak": "Introduced novel concepts, such as [[**Sliding Panes**]], [[Backlink|links to this note"
+    },
+    "backlink": {
+        "Andy Matuschak": "... concepts, such as Sliding Panes, [[**Backlink**|links to this note]], and [[Atomic Notes System",
+        "Backlinking for Aldehyde": "- [[**Backlink**]]\n",
+        "Better Docusaurus": "- Docusaurus should have [[**Backlink**]] support\n"
+    },
+    "andy matuschak": {
+        "Andy Matuschak": "... the Atomic Notes System|Zettelkasten technique. **[[**Andy Matuschak**]] advanced ideas in Ahrens’ book ...",
+        "Extracranial": "### [[**Andy Matuschak**]]\n",
+        "Evergreen Notes": "## [[**Andy Matuschak**]]\n",
+        "Sliding Panes": "... it was first introduced by [[**Andy Matuschak**]], at least his version made ...",
+        "2022-10-17": "Heavily inspired by [[**Andy Matuschak**]].\n",
+        "2022-06-26": "- Would love to dissect [[**Andy Matuschak**]]'s work...\n"
+    },
+    "evergreen notes": {
+        "Andy Matuschak": "... by introducing the concept of “[[**evergreen notes**]]”**. Instead of just having a ...",
+        "PKM": "... Focuses on creating and tending [[**Evergreen Notes**]] posts that grow into a ...",
+        "Transient Notes": "- Antonym: [[**Evergreen Notes**]]\n",
+        "2022-07-01": "... Focuses on creating and tending [[**Evergreen Notes**]] posts that grow into a ...",
+        "2022-05-29": "- [[**Evergreen Notes**]] vs [[Transient Notes"
     },
     "simple analytics": {
         "Google Analytics": "- Alternative: [[**Simple Analytics**]], [[Plausible Analytics"
@@ -158,8 +185,8 @@ export const backlinks = {
         "Research": "...     | _[[**Tools for Thought**]]_      ...",
         "Handwriting Tools for Thoughts": "- A specific [[**Tools for Thought**]] with handwriting.\n",
         "2022-10-13": "... [Visible – Make information useful](https://visible.page/): [[**Tools for Thought**]]\n",
-        "2022-07-18": "- Obsidian-like [[**Tools for Thought**]]\n",
-        "2022-07-07": "... a repeated paradigm in the [[**Tools for Thought**]] [[Software as a Service"
+        "2022-07-18": "... Using an iPad as a [[**Tools for Thought**]] feels good. Especially writing with ...",
+        "2022-07-07": "## Personal Notes on [[**Tools for Thought**]] [[Software as a Service"
     },
     "svelte": {
         "Extracranial": "Seems like using [[**Svelte**]]\n"
@@ -207,14 +234,14 @@ export const backlinks = {
         "2022-10-11": "- [[**Satori**]]\n"
     },
     "pretendard": {
-        "서울 프로": "다만 [[**Pretendard**]] 또한 몇 가지 아쉬운 점을 ...",
+        "서울 프로": "본 목적은 [[**Pretendard**]]와 비슷하게 [[Apple",
         "Font Features": "- San Francisco, Inter, and [[**Pretendard**]] has awesome support.\n",
-        "Pretendard의 아쉬운 점": "[[**Pretendard**]]가 이 문제를 어떻게 해결하는지 모른다.\n"
+        "Pretendard의 아쉬운 점": "[[**Pretendard**]]를 자세하게 확인해보면, 한글 글자의 크기가 ..."
     },
     "san francisco": {
-        "서울 프로": "이름 또한 [[**San Francisco**|SF Pro]]에서 유래하였다.\n",
+        "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[**San Francisco**]] 폰트와 유사한 오픈 소스 글씨체를 ...",
         "Font Features": "- [[**San Francisco**]], [[Inter",
-        "Pretendard": "... it is bizarrely similar to [[**San Francisco**]]\n",
+        "Pretendard": "... should've put it as Cross-platform _[[**San Francisco**]]_ alternative\n",
         "Inter": "- bizarrely similar to [[**San Francisco**]], but it now has it's ...",
         "Toss Product Sans": "- Looks bizarrely similar to [[**San Francisco**]]\n",
         "2022-08-01": "... the neatness and readability of [[**San Francisco**|SF Pro]] and the uniqueness of IBM ..."
@@ -244,7 +271,7 @@ export const backlinks = {
     },
     "svg": {
         "CSS": "... (including XML dialects such as [[**SVG**]], MathML, or XHTML). CSS is ...",
-        "Stories Behind Satori": "... and [yisibl/resvg-js](https://github.com/yisibl/resvg-js) to convert the [[**SVG**]] image to [[PNG"
+        "Stories Behind Satori": "- [[**SVG**]]-based solutions were the perfect balance ..."
     },
     "monolithic (pure hierarchy) model": {
         "Pure Component Model": "- Alternative approach to [[**Monolithic (Pure Hierarchy) Model**]]\n",
@@ -294,7 +321,7 @@ export const backlinks = {
     "intracranial": {
         "Infinite Canvas": "- [[**Intracranial**]]\n",
         "Handwriting Tools for Thoughts": "- [[**Intracranial**]]\n",
-        "2022-07-26": "... Will add this note to [[**Intracranial**]].\n"
+        "2022-07-26": "### [[**Intracranial**]]\n"
     },
     "swiftui": {
         "Apple": "- Creator of Swift, [[**SwiftUI**]], [[Apple Silicon",
@@ -330,20 +357,20 @@ export const backlinks = {
         "2022-07-18": "- [[**Obsidian**]]-like [[Tools for Thought"
     },
     "letter to mr. matt rickard on 2022-10-03": {
-        "Screenshot as an API": "... a reply like the following. [[**Letter to Mr. Matt Rickard on 2022-10-03**]]\n",
+        "Screenshot as an API": "- [[**Letter to Mr. Matt Rickard on 2022-10-03**]]\n",
         "2022-10-04": "- [[**Letter to Mr. Matt Rickard on 2022-10-03**]]\n"
     },
     "ocr": {
-        "Screenshot as an API": "  - Enterprise-grade [[**OCR**]] for [[PDF"
+        "Screenshot as an API": "...    - text ([[**OCR**]])\n"
     },
     "prompt engineering": {
         "Screenshot as an API": "... Stable Diffusion and DALL-E (text-to-image) [[**Prompt Engineering**]]\n",
         "Metaverse": "... be attained within years with [[**Prompt Engineering**]].\n",
         "2022-09-03": "- [[**Prompt Engineering**]]\n",
-        "2022-09-30": "  - [[**Prompt Engineering**]]\n"
+        "2022-09-30": "- [Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/) [[**Prompt Engineering**]]\n"
     },
     "pdf": {
-        "Screenshot as an API": "...  - Enterprise-grade OCR for [[**PDF**]] documents still doesn't exist in ...",
+        "Screenshot as an API": "... - No need to understand [[**PDF**]] data format\n",
         "2022-06-05": "- _Convert ACSM files to [[**PDF**]]/EPUBs with one command on Linux ..."
     },
     "naver": {
@@ -384,22 +411,16 @@ export const backlinks = {
     "pkm": {
         "PKM": "| [[**PKM**]]      ...",
         "Tools for Thought": "- [Dendron](https://www.dendron.so/): Nonlinear [[**PKM**]] with directories.\n",
-        "2022-07-01": "... system, which does more than [[**PKM**]]. To be exact, [[**PKM**",
+        "2022-07-01": "... _Second Brain_, _Digital Garden_, and [[**PKM**]] are used interchangeably, they are ...",
         "2022-06-12": "- Current [[**PKM**]] software tries to make Wikipedia-like ..."
     },
     "para": {
         "PKM": "| [[**PARA**]]      ...",
         "CODE": "- Often used with [[**PARA**]].\n",
-        "2022-07-01": "... like the CODE Procedure in [[**PARA**]] architecture as a project management ...",
+        "2022-07-01": "| [[**PARA**]]      ...",
         "2022-06-26": "- [[**PARA**]]\n",
         "2022-07-03": "- Partially implemented [[**PARA**]] on this brain.\n",
         "2022-07-06": "- [[**PARA**]]... might be worse than I ..."
-    },
-    "evergreen notes": {
-        "PKM": "... Focuses on creating and tending [[**Evergreen Notes**]] posts that grow into a ...",
-        "Transient Notes": "- Antonym: [[**Evergreen Notes**]]\n",
-        "2022-07-01": "... Focuses on creating and tending [[**Evergreen Notes**]] posts that grow into a ...",
-        "2022-05-29": "- [[**Evergreen Notes**]] vs [[Transient Notes"
     },
     "messagepack": {
         "CBOR": "... Compact Data Exchange Format like [[**MessagePack**]].\n",
@@ -429,7 +450,7 @@ export const backlinks = {
         "2022-09-10": "## Today's [[**Hacker News**]]\n",
         "2022-10-10": "## Today's [[**Hacker News**]]\n",
         "2022-07-26": "## Today's [[**Hacker News**]]\n",
-        "2022-09-05": "... from the original discussion on [[**Hacker News**|HN]] was to use [ImprovMX](https://improvmx.com) as ...",
+        "2022-09-05": "## Today's [[**Hacker News**]]\n",
         "2022-10-15": "## [[**Hacker News**|HN]]\n"
     },
     "pasted image 20221013004141.png": {
@@ -460,7 +481,7 @@ export const backlinks = {
         "Pretendard의 아쉬운 점": "![[**Pasted image 20220801181647.png**]]\n"
     },
     "cjk": {
-        "Pretendard의 아쉬운 점": "일반적으로 알려지지 않은 사항이지만, [[**CJK**|한중일]]의 한문은 모두 조금씩 다르다.\n",
+        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans [[**CJK**]] KR Black은 Inter Extra Bold와 ...",
         "Stories Behind Satori": "... a specific subset of the [[**CJK**]] library and rendering things on ..."
     },
     "9e21dd.gif": {
@@ -480,7 +501,7 @@ export const backlinks = {
         "2022-05-29": "- Evergreen Notes vs [[**Transient Notes**]]\n"
     },
     "markdown": {
-        "Inliner": "However, [[**Markdown**]] will automatically convert them into ...",
+        "Inliner": "... and reading experience by utilizing [[**Markdown**]]'s strict line change mode.\n",
         "Markdown Email Client": "... You write an email in [[**Markdown**]]\n",
         "2022-07-09": "... plugin for converting wikilinks to [[**markdown**]] links. For example, this is ..."
     },
@@ -503,27 +524,27 @@ export const backlinks = {
     "brane": {
         "WorkerDOM": "[[**Brane**]] will follow WorkerDOM's core model.\n",
         "iiframe": "- Successor to [[**Brane**]].\n",
-        "2022-07-11": "... API for every third-party app, [[**Brane**]] should **_abstract_** this process.\n",
+        "2022-07-11": "## [[**Brane**]] Notes\n",
         "2022-07-05": "... never been done before, i.e., [[**Brane**]]\n",
         "2022-08-03": "[[**Brane**]] is a vast project that ...",
-        "2022-06-14": "- [[**Brane**]] DOM의 재구현이 의미가 있는지 실험하고, ...",
-        "2022-06-22": "Since [[**Brane**]] implements an _arbiter_, which spans ...",
+        "2022-06-14": "## [[**Brane**]]\n",
+        "2022-06-22": "## [[**Brane**]] Project Demo Spec\n",
         "2022-06-26": "## [[**Brane**]] Notes\n",
-        "2022-07-12": "[[**Brane**]]'s previous demo goals were:\n",
-        "2022-07-06": "### [[**Brane**]] [[WorkerDOM"
+        "2022-07-12": "On 2022-07-11, I analyzed that [[**Brane**]] is harder than it seems.\n",
+        "2022-07-06": "### [[**Brane**]]\n"
     },
     "sharedarraybuffer": {
         "WorkerDOM": "WorkerDOM doesn't use [[**SharedArrayBuffer**]], most likely to Spectre.\n",
         "Atomics": "- [[**SharedArrayBuffer**]]를 이용해 [[Web Worker",
-        "Providing DOM API to Worker Threads": "- `heart` starts beating, incrementing [[**SharedArrayBuffer**|SAB]] `[0]`.\n",
-        "2022-07-25": "... the data into the received [[**SharedArrayBuffer**]].\n",
-        "2022-07-11": "... codec to share data on [[**SharedArrayBuffer**]].\n",
-        "2022-07-21": "... the data into the received [[**SharedArrayBuffer**]].\n",
+        "Providing DOM API to Worker Threads": "To enable [[**SharedArrayBuffer**]], we need a secure context ...",
+        "2022-07-25": "- [x] Allocate a [[**SharedArrayBuffer**]] inside `transferSync`.\n",
+        "2022-07-11": "... but is internally made with [[**SharedArrayBuffer**]].\n",
+        "2022-07-21": "  - Allocate a [[**SharedArrayBuffer**]] inside `transferSync`.\n",
         "2022-08-03": "... happens synchronously using Atomics and [[**SharedArrayBuffer**]].\n",
         "2022-06-27": "... Learn more about Atomics and [[**SharedArrayBuffer**]]\n",
-        "2022-07-19": "  - 받은 [[**SharedArrayBuffer**|SAB]]에 데이터를 채운다\n",
+        "2022-07-19": "... - Web Worker Thread `transferSync`에서 [[**SharedArrayBuffer**|SAB]]를 하나 할당한다\n",
         "2022-06-22": "...  - WorkerDOM will harness [[**SharedArrayBuffer**]].\n",
-        "2022-06-26": "... WorkerDOM's data transfer layer with [[**SharedArrayBuffer**]] + Shim Core DOM APIs.\n",
+        "2022-06-26": "- Explore [[**SharedArrayBuffer**]], Atomic, and [[WorkerDOM",
         "2022-07-12": "...   - This involves [[**SharedArrayBuffer**|SAB]]\n"
     },
     "web typography": {
@@ -533,7 +554,7 @@ export const backlinks = {
         "San Francisco": "- Although [[**Brunch violates Apple Terms with SF**]]\n"
     },
     "extracranial": {
-        "Research": "- [[**Extracranial**]]\n",
+        "Research": "...  | _Verb_-ing Plural | _[[**Extracranial**]]_      ...",
         "2022-10-13": "- [[**Extracranial**]]\n",
         "2022-09-28": "- [[**Extracranial**]]\n",
         "2022-06-14": "- [[**Extracranial**]]\n",
@@ -558,7 +579,7 @@ export const backlinks = {
     },
     "delta time": {
         "Game Programming": "- [[**Delta Time**]]\n",
-        "Graphics Engine Process": "...    - If [[**Delta Time**]] is bigger than Max [[**Delta ..."
+        "Graphics Engine Process": "...    - Calculate [[**Delta Time**]]\n"
     },
     "graphics engine process": {
         "Game Programming": "- [[**Graphics Engine Process**]]\n"
@@ -571,7 +592,7 @@ export const backlinks = {
     },
     "cooperative multitasking": {
         "Preemptive Multitasking": "Antonym of [[**Cooperative Multitasking**]].\n",
-        "2022-07-11": "... of the above to attain [[**cooperative multitasking**]].\n"
+        "2022-07-11": "We aim to build [[**cooperative multitasking**]].\n"
     },
     "2022-07-14": {
         "Fiercely Overpriced": "An idea suggested on [[**2022-07-14**]] that all inventions should be ...",
@@ -585,14 +606,14 @@ export const backlinks = {
     },
     "todo": {
         "Tools for Thought": "[[**TODO**]]: Convert this page into a ...",
-        "Coding Tests": "... Largest Element in an Array [[**TODO**]]\n",
+        "Coding Tests": "- QuickSelect [[**TODO**]]\n",
         "0215 Kth Largest Element in an Array": "[[**TODO**]]\n",
         "2022-10-12": "## [[**TODO**]]\n",
         "2022-10-16": "## [[**TODO**]]\n",
         "2022-10-13": "## [[**TODO**]]\n"
     },
     "notion": {
-        "Tools for Thought": "- [Craft](https://www.craft.do/): [[**Notion**]]-like service, but more focus on ...",
+        "Tools for Thought": "- [Typed](https://typed.do/features): Some all-in-one [[**Notion**]] + Google Docs + Gmail ...",
         "2022-07-10": "- [[**Notion**]] opened a new paradigm for ...",
         "2022-07-07": "I think even [[**Notion**]] is too complicated for personal ..."
     },
@@ -601,7 +622,7 @@ export const backlinks = {
         "Deno Deploy": "- Deploy [[**JavaScript**]] Globally\n",
         "TypeScript": "- Typed [[**JavaScript**]].\n",
         "Separation of Computer Scientists and Computer Technologists": "... to make a cool-looking Single-Page-App [[**JavaScript**]] e-commerce website...\n",
-        "2022-07-11": "Blocking in [[**JavaScript**]] can be done in two ...",
+        "2022-07-11": "First, make a giant [[**JavaScript**]] object.\n",
         "2022-07-01": "... This will reduce 10kb in [[**JavaScript**]].\n",
         "2022-07-20": "- [[**JavaScript**]] → [[TypeScript",
         "2022-06-20": "... in an API environment where [[**JavaScript**]] can't be rendered or a ...",
@@ -609,7 +630,7 @@ export const backlinks = {
         "2022-07-18": "- No trackers, no [[**JavaScript**]], no stylesheets. Just your words\n",
         "2022-06-12": "... a technique in which client-side [[**JavaScript**]] converts a static [[HTML",
         "2022-07-12": "1. Demo [[**JavaScript**]] animation works as expected.\n",
-        "2022-07-06": "... Bundle, transpile, install and run [[**JavaScript**]] & [[TypeScript"
+        "2022-07-06": "... Bun is a fast all-in-one [[**JavaScript**]] runtime\n"
     },
     "nextjs": {
         "Tools for Thought": "- [[**NextJS**]]\n",
@@ -627,7 +648,7 @@ export const backlinks = {
         "2022-10-10": "... AC's & DIT's - Cinematography.com](https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454). [[**FPS**]].\n"
     },
     "back buffer": {
-        "Graphics Engine Process": "...   - Present the [[**Back Buffer**]]\n"
+        "Graphics Engine Process": "    - [[**Back Buffer**]] is filled in Update Game ..."
     },
     "slow down your brain clock cycle": {
         "Handwriting Tools for Thoughts": "  - Benefit: handwritings [[**Slow down your brain clock cycle**]]\n",
@@ -694,6 +715,9 @@ export const backlinks = {
     "jira": {
         "Linear": "... tracking service, like Height, or [[**Jira**]]\n"
     },
+    "pasted image 20221017030140.png": {
+        "Sliding Panes": "![[**Pasted image 20221017030140.png**]]\n"
+    },
     "cbor": {
         "MessagePack": "... Compact Data Exchange Format like [[**CBOR**]].\n",
         "2022-07-11": "Candidates include MessagePack and [[**CBOR**]].\n"
@@ -732,7 +756,7 @@ export const backlinks = {
         "2022-07-26": "... convert this into a full-blown [[**FIRE Engine**]].\n"
     },
     "project people": {
-        "Separation of Computer Scientists and Computer Technologists": "- [[**Project PEOPLE**]] in the academic fields support ...",
+        "Separation of Computer Scientists and Computer Technologists": "- [[**Project PEOPLE**]] always ask if you need ...",
         "Person A480C6": "  - [[**Project PEOPLE**]] can take responsibility, regardless of ...",
         "Person 5DBDAE": "Meet a lot of [[**Project PEOPLE**]].\n",
         "2022-07-05": "- Some [[**Project PEOPLE**]] asked why it is _computer ...",
@@ -785,7 +809,7 @@ export const backlinks = {
     },
     "cloudflare": {
         "CELLO (Product)": "- [[**Cloudflare**]] for serving high-res images\n",
-        "2022-08-28": "... **Key Strengths of Vercel over [[**Cloudflare**]] Pages**. Vercel builds faster (~3m) ...",
+        "2022-08-28": "- I both used [[**Cloudflare**]] Pages and [[Vercel",
         "2022-06-20": "[[**Cloudflare**]]: [Private Access Tokens: eliminating CAPTCHAs ..."
     },
     "deno deploy": {
@@ -810,7 +834,7 @@ export const backlinks = {
         "get-a-job-done": "  - Building [[**Python**]] Data Parser\n",
         "0001 Two Sum": "I used [[**Python**]] Dictionary to store complementing values. ...",
         "Coding Tests": "- Will use [[**Python**]] (main language) and [[C++",
-        "Python": "- [[**Python**]] Dictionary is a hash map.\n",
+        "Python": "You can offset with [[**Python**]]'s `enumerate` function with list splitting.\n",
         "1046 Last Stone Weight": "- Space: $O(1)$ in [[**Python**]]\n",
         "Real Exams": "- get-a-job-done SQL, React, [[**Python**]]\n"
     },
@@ -894,7 +918,7 @@ export const backlinks = {
         "Coding Tests": "- [[**0215 Kth Largest Element in an Array**]] [[TODO"
     },
     "0079 word search": {
-        "Coding Tests": "- [ ] [[**0079 Word Search**]]\n"
+        "Coding Tests": "- [[**0079 Word Search**]]\n"
     },
     "1290 convert binary number in a linked list to integer": {
         "Coding Tests": "- [[**1290 Convert Binary Number in a Linked List to Integer**]]\n",
@@ -973,7 +997,7 @@ export const backlinks = {
     },
     "simulation": {
         "optimized simulation": "... you have to conduct a [[**simulation**]] according to the provided conditions.\n",
-        "Real Exams": "- 2 [[**simulation**]]s\n",
+        "Real Exams": "- 1 [[**simulation**]]\n",
         "mathematic coding": "... - conducting a bare metal [[**simulation**]] takes too long\n"
     },
     "2022-09-05": {
@@ -985,11 +1009,11 @@ export const backlinks = {
     },
     "bfs": {
         "0733 Flood Fill": "I did [[**BFS**]], but it seems possible to ...",
-        "Real Exams": "- [[**BFS**]]\n",
+        "Real Exams": "- 1 [[**BFS**]]\n",
         "Real Interviews": "...   - 1 conditional [[**BFS**]] problem\n"
     },
     "optimized simulation": {
-        "Real Exams": "- 1 [[**optimized simulation**]]\n",
+        "Real Exams": "- 1 [[**optimized simulation**]] (prefix array)\n",
         "simulation": "... are time-space restrictions, look into [[**optimized simulation**]]s.\n",
         "2022-09-05": "- [[**optimized simulation**]]\n"
     },
@@ -1001,10 +1025,10 @@ export const backlinks = {
         "Real Exams": "- 2 [[**optimized simulations**]]\n"
     },
     "greedy": {
-        "Real Exams": "- 1 [[**greedy**]] palindrome substring search\n"
+        "Real Exams": "- 1 [[**greedy**]]\n"
     },
     "get-a-job-done": {
-        "Real Exams": "- [[**get-a-job-done**]] Data Parsing\n",
+        "Real Exams": "- [[**get-a-job-done**]] SQL, React, [[Python",
         "2022-09-05": "- [[**get-a-job-done**]]\n"
     },
     "2022-07-13": {
@@ -1012,21 +1036,22 @@ export const backlinks = {
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[**2022-07-13**]]\n"
     },
     "leetcode": {
-        "Real Interviews": "  - 1 [[**Leetcode**]] Hard level question\n"
+        "Real Interviews": "  - 3 [[**Leetcode**]] Easy to Medium Problem\n"
     },
     "2022-08-26": {
         "0079 Word Search": "Solved at: [[**2022-08-26**]]\n"
     },
-    "backlinking": {
-        "Better Aldehyde": "- [[**Backlinking**]]\n"
+    "2022-10-17": {
+        "Backlinking for Aldehyde": "... Note** feature is complete on [[**2022-10-17**]].\n"
     },
-    "backlink": {
-        "Backlinking": "- [[**Backlink**]]\n",
-        "Better Docusaurus": "- Docusaurus should have [[**Backlink**]] support\n"
+    "20cab2.png": {
+        "Backlinking for Aldehyde": "![[**20CAB2.png**]]\n",
+        "2022-10-16": "![[**20CAB2.png**]]\n",
+        "2022-10-17": "![[**20CAB2.png**]]\n"
     },
-    "pasted image 20221016175942.png": {
-        "Backlinking": "![[**Pasted image 20221016175942.png**]]\n",
-        "2022-10-16": "![[**Pasted image 20221016175942.png**]]\n"
+    "backlinking for aldehyde": {
+        "Better Aldehyde": "- [[**Backlinking for Aldehyde**]]\n",
+        "2022-10-17": "### [[**Backlinking for Aldehyde**]]\n"
     },
     "pasted image 20221010141050.png": {
         "Transactional Globe": "![[**Pasted image 20221010141050.png**]]\n"
@@ -1041,7 +1066,7 @@ export const backlinks = {
         "Transactional Globe": "![[**Pasted image 20221010141610.png**]]\n"
     },
     "2022-10-12": {
-        "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Reply on [[**2022-10-12**]]\n"
+        "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Update on [[**2022-10-12**]]\n"
     },
     "2022-10-03": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "- Written: [[**2022-10-03**]]\n"
@@ -1089,9 +1114,6 @@ export const backlinks = {
     "2022-09-14": {
         "Person E7CFC5": "- Interviewed at: [[**2022-09-14**]]\n"
     },
-    "atomic notes system": {
-        "Intracranial": "  - [[**Atomic Notes System**]]\n"
-    },
     "infinite canvas": {
         "Intracranial": "  - [[**Infinite Canvas**]]\n",
         "2022-10-10": "- [[**Infinite Canvas**]]\n"
@@ -1111,15 +1133,15 @@ export const backlinks = {
     "workerdom": {
         "iiframe": "- Does not extend [[**WorkerDOM**]].\n",
         "2022-10-02": "... Got an email from the [[**WorkerDOM**]] team that the project will ...",
-        "2022-07-11": "... unofficial implementation of `getClientBoundingRect` in [[**WorkerDOM**]] with `Element.prototype.getClientBoundingRect()`.\n",
-        "2022-08-03": "... milestone in implementing synchronicity inside [[**WorkerDOM**]], but now I finally realize ...",
-        "2022-06-14": "- [[**WorkerDOM**]]과 JSDOM은 각자의 한계가 뚜렷하다.\n",
+        "2022-07-11": "Currently, [[**WorkerDOM**]] only has asynchronous data channels.\n",
+        "2022-08-03": "... fooling `getBoundingClientRect()` on top of [[**WorkerDOM**]].\n",
+        "2022-06-14": "...  - 이 세부 전략으로 [[**WorkerDOM**]]을 쓸 수도 있고, 고쳐서 쓸 ...",
         "2022-06-27": "- Confirm [[**WorkerDOM**]]'s Binary DOM Manipulation channel.\n",
         "2022-07-19": "오늘은 반드시 [[**WorkerDOM**]] [[Scheduler",
-        "2022-06-22": "Preferably, [[**WorkerDOM**]] and [[Web Worker",
-        "2022-06-26": "- Investigate how [[**WorkerDOM**]] terminates an application. This is ...",
+        "2022-06-22": "Google's [[**WorkerDOM**]] has no event algorithm.\n",
+        "2022-06-26": "- Explore SharedArrayBuffer, Atomic, and [[**WorkerDOM**]]'s Binary DOM manipulation.\n",
         "2022-07-12": "### Scheduler|Schedulers in [[**WorkerDOM**]]\n",
-        "2022-07-06": "... posted here: _PoC that two [[**WorkerDOM**]] upgraded threads don't block each ..."
+        "2022-07-06": "### Brane [[**WorkerDOM**]] Non-blocking Example\n"
     },
     "cross-origin-opener-policy": {
         "Providing DOM API to Worker Threads": "- [[**Cross-Origin-Opener-Policy**]]: `same-origin`\n"
@@ -1144,12 +1166,12 @@ export const backlinks = {
     },
     "sandbox": {
         "Brane": "  - Prerequisite: [[**Sandbox**]] Environment.\n",
-        "2022-06-22": "... investigate how deep isolation iframe [[**Sandbox**]] provides.\n",
+        "2022-06-22": "- Use [[**Sandbox**]] for the outer side.\n",
         "2022-06-26": "... not explore ShadowRealm and `iframe` [[**Sandbox**]] for now.\n",
         "2022-08-01": "... running something like the QuickJS [[**sandbox**]] inside WebAssembly can provide a ..."
     },
     "2022-07-19": {
-        "Developing Review Notes for Obsidian": "일단 오늘([[**2022-07-19**]])은 밤이 늦었으니 내일 계속하도록 한다. ...",
+        "Developing Review Notes for Obsidian": "[[**2022-07-19**]] 저녁에 적당히 공허한 느낌이 들어 ...",
         "2022-07-21": "See [[**2022-07-19**]].\n"
     },
     "better obsidian": {
@@ -1224,15 +1246,15 @@ export const backlinks = {
         "2022-07-11": "![[**Pasted image 20220711014245.png**]]\n"
     },
     "scheduler": {
-        "2022-07-11": "... hard part is transports and [[**Scheduler**|schedulers]].\n",
-        "2022-07-19": "2022-07-11에 확인한 2가지 [[**Scheduler**|스케줄러]]를 확인한다.\n",
+        "2022-07-11": "Brane requires explicit **[[**Scheduler**|schedulers]]** and **abstractions** to overcome these ...",
+        "2022-07-19": "오늘은 반드시 WorkerDOM [[**Scheduler**]]를 잡아내자.\n",
         "2022-07-12": "### [[**Scheduler**|**Scheduler**s]] in [[WorkerDOM"
     },
     "dom reflow": {
         "2022-07-11": "... could only be found after [[**DOM Reflow**]].\n"
     },
     "atomics": {
-        "2022-07-11": "To automatically use [[**Atomics**]] API for every third-party app, ...",
+        "2022-07-11": "2. **[[**Atomics**]] API**. Use `wait()` and `notify()` ...",
         "2022-08-03": "This happens synchronously using [[**Atomics**]] and [[SharedArrayBuffer",
         "2022-06-27": "- Learn more about [[**Atomics**]] and [[SharedArrayBuffer"
     },
@@ -1320,6 +1342,12 @@ export const backlinks = {
     "readings": {
         "2022-09-07": "- [[**Readings**]]\n"
     },
+    "pasted image 20221017025802.png": {
+        "2022-10-17": "![[**Pasted image 20221017025802.png**]]\n"
+    },
+    "wikilink": {
+        "2022-10-17": "... This is necessary because I use `[[**wikilink**]]` for interlinking, which Docusaurus does not ..."
+    },
     "sem.sh": {
         "2022-10-03": "- [[**sem.sh**]]\n"
     },
@@ -1378,7 +1406,7 @@ export const backlinks = {
         "2022-08-03": "![[**Pasted image 20220803112747.png**]]\n"
     },
     "iiframe": {
-        "2022-08-03": "One straightforward use case [[**iiframe**]] — improved iframe — that ..."
+        "2022-08-03": "### [[**iiframe**]]\n"
     },
     "academics": {
         "2022-08-23": "- Added Bunch of [[**Academics**]]\n"
