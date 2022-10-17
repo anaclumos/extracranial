@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   padding: 1rem 1rem 0 1rem;
-  margin-top: 2rem;
+  margin-top: var(--ifm-spacing-vertical);
   border-radius: var(--ifm-pagination-nav-border-radius);
   border: 1px solid var(--ifm-color-emphasis-300);
 }
@@ -19,7 +19,7 @@
   gap: 0.5rem;
   grid-template-columns: repeat(
     auto-fill,
-    minmax(300px, 1fr)
+    minmax(250px, 1fr)
   );
 }
 
