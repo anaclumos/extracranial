@@ -46,6 +46,7 @@ if __name__ == "__main__":
                 mentioned_file = line.split("[[")[1].split("]]")[0]
                 source = mentioned_file.split("|")[0]
                 alias = mentioned_file.split("|")[-1]
+                line = line.replace("*", "")
                 # replace source with **source**
                 # and source|alias with **alias**
                 first_mentioned_sentence = line.replace(
