@@ -556,7 +556,7 @@
     "description": "The title of the backlink section"
   },
   "backlink.noBacklink": {
-    "message": "아직 아무 것도 없네요...",
+    "message": "아직 아무것도 없네요...",
     "description": "The message when there is no backlink"
   }
 }
