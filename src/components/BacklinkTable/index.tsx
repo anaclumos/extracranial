@@ -11,17 +11,13 @@ type Props = {
 }
 
 const processBacklinkItem = (text: string) => {
-  let splittedText =
-    text
-      .trim()
-      .replace(
-        /(\*\*|__)(.*?)\1/g,
-        `<b class=${styles.mentionedString}>$2</b>`
-      )
-      .replace('\n', '') + '…'
-  if (!splittedText.startsWith('- ')) {
-    splittedText = '…' + splittedText
-  }
+  let splittedText = text
+    .trim()
+    .replace(
+      /(\*\*|__)(.*?)\1/g,
+      `<b class=${styles.mentionedString}>$2</b>`
+    )
+    .replace('\n', '')
   return (
     <pre
       className={styles.backlinkItemText}
