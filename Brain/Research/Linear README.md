@@ -5,7 +5,7 @@ slug: '/888590'
 
 - [README - A story of magic](https://linear.app/readme)
 
-![[07207F.png]]
+![[2B301F.png]]
 
 ## The Past _(how we got here)_
 

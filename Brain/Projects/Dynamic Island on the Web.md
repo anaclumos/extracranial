@@ -7,7 +7,7 @@ slug: '/B21605'
 
 ## Different Sizes
 
-![[0C4D2A.jpg]]
+![[837555.jpg]]
 ![[AA04D0.gif]]
 
 ```ts
@@ -27,7 +27,7 @@ export type DynamicIslandState = {
 
 ## Rough Idea
 
-![[7F65A5.jpeg]]
+![[126979.jpeg]]
 
 ## Resources
 

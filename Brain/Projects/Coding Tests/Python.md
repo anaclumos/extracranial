@@ -11,7 +11,7 @@ Special thanks to [Ishu Agrawal](https://github.com/ishuagrawal)
 
 > Heaps are complete binary trees where the value of each node must be no greater than (or less than) the value of its child nodes.
 
-![[0A2036.png]]
+![[EC7EEF.png]]
 
 - Python **only** supports Min Heaps
 - `import heapq`
