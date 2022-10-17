@@ -80,7 +80,18 @@ article a[href*='pinterest.com']::before {
   mask-image: url('../../static/icons/pinterest.svg');
 }
 
-article a[href*='wikipedia.org']::before {
+article a[href*='wikipedia.org']::before,
+article a[href*='wikimedia.org']::before,
+article a[href*='wiktionary.org']::before,
+article a[href*='wikibooks.org']::before,
+article a[href*='wikinews.org']::before,
+article a[href*='wikiquote.org']::before,
+article a[href*='wikisource.org']::before,
+article a[href*='wikiversity.org']::before,
+article a[href*='wikivoyage.org']::before,
+article a[href*='wikidata.org']::before,
+article a[href*='wikimediafoundation.org']::before,
+article a[href*='wikispecies.org']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/wikipedia.svg');
 }
