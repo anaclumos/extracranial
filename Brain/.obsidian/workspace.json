@@ -11,8 +11,13 @@
             "id": "a2847f2d20166418",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-16.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-10-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-10-16.md"
+              }
             }
           },
           {
