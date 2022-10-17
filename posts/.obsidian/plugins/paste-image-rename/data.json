@@ -1,0 +1,9 @@
+{
+  "imageNamePattern": "{{hex}}",
+  "dupNumberAtStart": false,
+  "dupNumberDelimiter": "-",
+  "autoRename": false,
+  "handleAllAttachments": false,
+  "excludeExtensionPattern": "",
+  "disableRenameNotice": false
+}

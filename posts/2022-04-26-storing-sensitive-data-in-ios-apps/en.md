@@ -9,11 +9,11 @@ slug: '/30CC03'
 
 - If you click the app name from the top bar in Xcode, you can `edit scheme`.
 
-![edit scheme](images/image-3.png)
+![edit scheme](78CCD8.png)
 
 - You can try settings values at Run → Arguments → Environment Variables and access them through `ProcessInfo.processInfo.environment["KEY"]`.
 
-![ProcessInfo.processInfo.environment["KEY"]](images/image-4.png)
+![ProcessInfo.processInfo.environment["KEY"]](9F79FB.png)
 
 - However, this didn't work for me. Refer to this problem on Stack Overflow.
 

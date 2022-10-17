@@ -7,7 +7,7 @@ slug: 'E2CAE4'
 
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-![ALT: 우아한테크캠프 3기 후기](images/hero.JPG)
+![ALT: 우아한테크캠프 3기 후기](976A54.jpg)
 
 2020년 8월에 마무리하고 2021년에 후기를 쓰는 것이 너무 늦은 감이 있지만 지금 [4기 선발](https://www.woowahan.com/#/recruit/techcamp)이 진행 중인 마당에 지금이라도 올리지 않으면 평생 올리지 않을 것 같은 생각이 들어 지금이라도 후기를 마무리 지어 올려 본다. 인터넷에 공개된 대부분의 정보는 간단하게만 짚고 넘어가고 **내가 지원할 때 궁금했던 점** 위주로 작성해 보겠다.
 
@@ -15,7 +15,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <figure>
 
-![ALT: 신발은 출입금지 — 일명 **스시바 라운지**. 전망이 좋아 선착순이다.](images/office-7-2.jpeg)
+![ALT: 신발은 출입금지 — 일명 **스시바 라운지**. 전망이 좋아 선착순이다.](77D98C.jpeg)
 
 <figcaption>
 
@@ -35,7 +35,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - 교과 과정 이외에 나만의 프로그래밍 학습 방법이 있다면 서술해주세요.
 - 협업의 과정에서 어려움을 겪었던 경험과 그 어려움을 극복하기 위해 어떠한 노력을 했는지 서술해주세요.
 
-![2020년 3기 모집 배너](images/image-1.png)
+![2020년 3기 모집 배너](913C48.png)
 
 ### 1차 코딩 테스트
 
@@ -58,7 +58,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - 2차 코딩 테스트 통과자 90명 (3배수)
 - 면접 통과 및 최종 합격자 30명
 
-![우아한형제들 면접실의 모습. 원래는 여기에서 면접을 보았어야 했는데 코로나19의 확산으로 Google Meet을 통해 진행되었다.](images/office-2-4.jpeg)
+![우아한형제들 면접실의 모습. 원래는 여기에서 면접을 보았어야 했는데 코로나19의 확산으로 Google Meet을 통해 진행되었다.](98526C.jpeg)
 
 ## 🏫 교육 과정
 
@@ -73,9 +73,9 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 
-![ALT: 루터회관 3](images/luther-3.jpeg)
-![ALT: 루터회관 2](images/luther-2.jpeg)
-![ALT: 루터회관 1](images/luther-1.jpeg)
+![ALT: 루터회관 3](F63DD7.jpeg)
+![ALT: 루터회관 2](B25CF2.jpeg)
+![ALT: 루터회관 1](7CE6C6.jpeg)
 
 </DisplayFlex>
 
@@ -99,15 +99,15 @@ OT가 이루어진 **작은집**. 잠실에 위치해 있다.
 
 <DisplayFlex>
 
-![ALT: 오피스](images/office-6-1.jpeg)
-![ALT: 오피스](images/office-3-1.jpeg)
+![ALT: 오피스](8F3A1D.jpeg)
+![ALT: 오피스](A98162.jpeg)
 
 </DisplayFlex>
 
 <DisplayFlex>
 
-![ALT: 오피스](images/office-1.jpeg)
-![ALT: 오피스](images/IMG_4357.jpeg)
+![ALT: 오피스](A1A228.jpeg)
+![ALT: 오피스](93DAB3.jpeg)
 
 </DisplayFlex>
 
@@ -131,8 +131,8 @@ OT가 이루어진 **작은집**. 잠실에 위치해 있다.
 
 <DisplayFlex>
 
-![ALT: Cafe](images/cafe.jpeg)
-![ALT: Cafe View](images/cafe-view.jpeg)
+![ALT: Cafe](33F15F.jpeg)
+![ALT: Cafe View](6ABC19.jpeg)
 
 </DisplayFlex>
 
@@ -156,7 +156,7 @@ OT가 이루어진 **작은집**. 잠실에 위치해 있다.
 
 <figure>
 
-![ALT: 페어 프로그래밍](images/work-2.jpeg)
+![ALT: 페어 프로그래밍](FB8860.jpeg)
 
 <figcaption>
 
@@ -175,7 +175,7 @@ OT가 이루어진 **작은집**. 잠실에 위치해 있다.
 - 공부 키워드: React Hooks, AWS VPC, React Router, React Context API, React useReducer, AWS IAM, AWS S3, React Test Codes (Jest, Enzyme, ...), Elastic Search, Logstash, Kibana, ELK.
 - [우리 팀 GitHub](https://github.com/woowa-techcamp-2020/bmart-4)
 
-![4번째 프로젝트 도중 사회적거리두기 2단계 격상으로 리모트로 진행하게 됐다.](images/work.png)
+![4번째 프로젝트 도중 사회적거리두기 2단계 격상으로 리모트로 진행하게 됐다.](F49613.png)
 
 ---
 
@@ -187,8 +187,8 @@ OT가 이루어진 **작은집**. 잠실에 위치해 있다.
 
 <DisplayFlex>
 
-![ALT: MacBook](images/gadget-4-1.jpeg)
-![ALT: Monitor](images/gadget-3.jpeg)
+![ALT: MacBook](AB082E.jpeg)
+![ALT: Monitor](CA28E2.jpeg)
 
 </DisplayFlex>
 
@@ -250,7 +250,7 @@ async function addActivityLogToActivityLogList() {
 
 약간 클리셰이기는 하지만, **우매함의 봉우리**를 직접 경험할 수 있었다. 물론 내가 모든 것을 온전히 알고 있다는 생각은 한 적 없지만 자바스크립트로 이런 저런 프로젝트를 해본 경험이 있으니 "물론 노력해야겠지만, **어느 정도는 수월하게 따라갈 수도 있지 않을까?"**라고 감히 생각했었다.
 
-![JS 아는거 없 다 구 요. 전 그냥 말 하 는 감 자 라구요. 아시겠어요?](images/potato-1.jpg)
+![JS 아는거 없 다 구 요. 전 그냥 말 하 는 감 자 라구요. 아시겠어요?](6B271D.jpg)
 
 당연하게도 우아한테크캠프는 엄청 어려웠다. 원래 커리큘럼의 목표는 각 프로젝트마다 제약 조건을 건 뒤 그 제약 조건으로 인한 아쉬움을 다음 프로젝트에서 해결하는 것이었다. 예를 들어 Passport를 사용하지 않고 인증을 구현해본 뒤 그다음 프로젝트에서 Passport를 사용하여 그 갈증을 해소하는 것이다. 하지만 반대로 이야기하면 이 과정이 1~2주마다 일어나기 때문에 이전 기술을 겨우 파악했을 때쯤 다음 기술로 곧바로 넘어가서 가파른 러닝 커브를 다시 경험해야 한다는 의미기도 했다.
 
@@ -260,7 +260,7 @@ async function addActivityLogToActivityLogList() {
 
 또 검색이 존재하는 시대에 **아는 것이란 도대체 무엇인가**에 대한 고민도 많이 하게 되었다. 이 부분에 대해 프로그래밍에 한정한다면 약간의 답을 찾은 것 같다. GSPH라는 개념인데, Googling Session Per Hour의 약자이다. Googling Session이란 5분 이상의 깊은 검색 작업을 의미한다. 예를 들어 자바스크립트 속성 함수 이름이 기억이 나지 않아 검색을 2분 만에 마쳤다면 Googling Session에 해당하지 않지만 OAuth가 잘 생각나지 않아 10분간 도큐먼트를 봐야 한다면 Googling Session에 해당한다.
 
-![검색해봐... 근데 매번?](images/image-3.png)
+![검색해봐... 근데 매번?](12A854.png)
 
 어느 작업을 할 때 1시간에 Googling Session이 (대략) 3회 이하라면 그 개념을 안다고 할 수 있는 것 같다. 즉 작업을 할 때 중간중간 짧은 검색을 하는 것은 그 개념을 모른다는 뜻으로 직결되지 않는다. 하지만 작업의 모든 디테일을 일일이 다 찾아봐야 한다면 아직은 공부가 더 필요하다는 뜻이다.
 
@@ -268,7 +268,7 @@ async function addActivityLogToActivityLogList() {
 
 프레임워크와 라이브러리를 외계인의 기술처럼 대하는 경우가 종종 있다. 물론 잘 알려진 프레임워크와 라이브러리는 검증된 효율적인 코드들의 집합이지만, **다가갈 수 없는 에일리언 테크놀로지**라고 생각해버리고 **모든 고민을 라이브러리에 위임하는 접근 방식**은 조금 위험할 수 있다.
 
-![npm i를 하는 개발자의 모습이다](images/optimized-probe.gif)
+![npm i를 하는 개발자의 모습이다](2B2DBB.gif)
 
 특히 웹 라이브러리들의 기반 기술은 우리도 쓸 수 있는 Plain JavaScript이다. 무작정 외부 라이브러리에 의존하는 것이 아니라 그 라이브러리가 어떻게 동작하는지, 잠재적인 위험 요소는 무엇이 있는지를 알고 써야 한다는 점이 캠프 내내 지속적으로 강조되었다. 즉 부득이한 경우 비슷한 형태로 라이브러리를 구현 가능할 정도로 세심하게 공부해야 한다.
 
@@ -286,7 +286,7 @@ async function addActivityLogToActivityLogList() {
 
 마지막 B마트 서비스를 제작할 때 배민의 B마트 자료가 엄청나게 많이 필요한 일이 있었다. 사진 칸에 넣을 사진이 있어야 앱 느낌이 날 테니 말이다. [예전의 경험](http://localhost:3000/ko/w/21E029)을 살려 배민 서버에 있는 이미지 리소스를 (관계자 님의 허락을 받고) 긁었다.
 
-![배민 B마트 이미지 서버에서 슬쩍한 사진](images/image-2.png)
+![배민 B마트 이미지 서버에서 슬쩍한 사진](D7B4B2.png)
 
 엄밀하게 말하면 이미지들은 CDN 오픈웹에 존재하는 형태이기 때문에 **배민 서버 해킹**은 아니다. 문제는 이 엔드 포인트들과 뒤의 이미지 주솟값이 알 수 없게 **숨겨져 있다**는 것이다.
 
@@ -296,13 +296,13 @@ async function addActivityLogToActivityLogList() {
 
 단순하게 B마트 웹뷰를 띄워서 CSS 셀렉터를 쓰는 얕은 수준의 크롤링도 아니었고 우테캠이라고 리소스 서버 내부 자료를 공유 받은 것도 아니어서 꽤나 노력이 들어갔다. 간단하게만 공유하자면 iOS 배민 앱 통신을 감청해서 엔드 포인트와 이미지 주소를 알아냈고 약간의 CTF를 통해서 이미지 주소 리스트를 알아낼 수 있었다. 해당 이미지 서버에 있는 이미지와 아이콘, 효과음 등을 1,000건 정도 긁어서 다른 우테캠 캠프생 분들이 쓸 수 있도록 프라이빗 저장소에 공유했다.
 
-![크롤링된 모습](images/optimized-crawl.png)
+![크롤링된 모습](682A16.png)
 
 ### 🏢 소용돌이 기업야사
 
 우리나라 기업들의 비하인드스토리를 중간중간 들을 수 있었다. 모 게임 기업에서는 아이템이 수십만 개씩 양산되기에 RDB를 잘 쓰지 않고 바이너리 덤프를 사용한다는 이야기, 누군가 게임 DB 필드를 조작해 몇억 원짜리 아이템을 복제한 사건이 발생해 이후부터 DB 접근 권한 관리가 매우 철저해졌다는 이야기, 모 숙박 업체에서 개발자들이 모든 회원들의 개인 정보를 열람할 수 있어서 한동안 개발자들이 마음대로 연예인 회원 정보를 열람했었다는 이야기, 모 검색 업체 의장이 "경쟁 업체보다 1초 빠르게 만들어"라고 지시했었다는 이야기... 기업 생태계에 관심이 많은 나에게는 정말 재미있는 이야기였다.
 
-![옆동네 N사 C재단의 B캠프가 터진 날](images/optimized-somewhere-1.png)
+![옆동네 N사 C재단의 B캠프가 터진 날](C7EE19.png)
 
 ### ⚡️ 시너지 x 시너지 = 시너지<sup>3</sup>
 
@@ -317,9 +317,9 @@ async function addActivityLogToActivityLogList() {
 
 영향을 많이 받아 나도 3번째 뱅크샐러드 프로젝트부터 디자인을 개선해보았다. 이렇게 디자인을 온전히 수정했다 ↓
 
-![샘플로 주어진 가계부 디자인 시안. 이 시안은 시작점일 뿐, 여기에서 창의력을 발휘하는 것은 온전히 캠프생들의 몫이다.](images/------.png)
+![샘플로 주어진 가계부 디자인 시안. 이 시안은 시작점일 뿐, 여기에서 창의력을 발휘하는 것은 온전히 캠프생들의 몫이다.](31E2FF.png)
 
-![디자인이 생각보다 재미있는 일이라는 것을 알게 됐다 (나름 만족)](images/image-4.png)
+![디자인이 생각보다 재미있는 일이라는 것을 알게 됐다 (나름 만족)](E524D3.png)
 
 내가 느끼기에 내 디자인의 장점은 ① 화면 요소를 3열로 나누어 배치해서 와이드 스크린의 장점을 적극 활용한다는 점과 ② 우측의 활동 내역 창이 독립적으로 동작하기 때문에 자유롭게 달력, 통계, 결제 수단 관리로 이동해도 우측창의 내용이 유지된다는 점이다. 슬랙이랑 비슷한 느낌?
 
@@ -420,4 +420,4 @@ async function addActivityLogToActivityLogList() {
 
 </details>
 
-![끝!](images/hero.JPG)
+![끝!](976A54.jpg)

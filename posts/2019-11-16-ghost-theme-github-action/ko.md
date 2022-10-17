@@ -27,7 +27,7 @@ Ghost 테마 업로드 및 적용을 GitHub Action에게 맡겨 보자.
 
 GitHub Action에게 테마를 업로드할 권한을 주기 위해 `Ghost API URL`과 `Ghost Admin API Key`가 필요하다. Ghost Admin → Settings → Integration에 접속하여 Custom Integrations을 하나 추가한다. 기능을 명확하게 나타내도록 이름은 Deploy Theme으로 설정해주자.
 
-![Ghost Admin Integrations Panel Image](images/SettingsIntegration.png)
+![Ghost Admin Integrations Panel Image](DE2F19.png)
 
 GitHub Actions 통합을 끝낸 상태에서 스크린샷을 찍었기에 이미 Deploy Theme Integration이 추가되어 있다.
 
@@ -37,7 +37,7 @@ GitHub Actions 통합을 끝낸 상태에서 스크린샷을 찍었기에 이미
 
 GitHub Secrets는 GitHub Repository → Settings → Secrets에서 설정할 수 있다.
 
-![GitHub Repository Secrets Panel Image](images/GitHubSecrets.png)
+![GitHub Repository Secrets Panel Image](D7F03D.png)
 
 Secrets 이름은 가급적 그대로 설정하는 것을 추천한다.
 
@@ -67,7 +67,7 @@ jobs:
 
 이제 모든 준비는 끝났다. 새로운 Commit을 Push한 뒤 GitHub Actions에 접속해보자. 다음과 같이 테마가 Deploy된다.
 
-![GitHub Actions Deploy Theme Image](images/GitHubActions.png)
+![GitHub Actions Deploy Theme Image](F0D14A.png)
 
 Ghost Admin에 들어가면 방금 삭제했던 테마 파일이 다시 나타나있을 것이다. GitHub Actions가 새로이 Deploy한 테마 파일이다. 그 테마를 활성화해주자.
 

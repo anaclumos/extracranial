@@ -13,7 +13,7 @@ Please let me know if you find any errors!
 
 Recently, I applied for an on-campus technology start-up club, which has a very competitive rate (with a pass rate of around 5%), and I had the following question.
 
-![Here, a meme means a short video that makes you laugh.](images/lossy-lavalab-2.png)
+![Here, a meme means a short video that makes you laugh.](E08CF2.png)
 
 It was a club I had always wanted to join, so I had a lot of trouble. This is because everyone has different interests; what is funny to one group can be offensive to another.
 
@@ -23,7 +23,7 @@ Then, I thought, "What if I could create a service that recommends memes based o
 
 First of all, I have listed the videos that I enjoyed watching. (I thought it would be okay to use YouTube instead of TikTok, Twitter, and Instagram.)
 
-![I could easily find the videos I thought were funny by searching for the keyword `youtu` in a group chat room.](images/lossy-katalk-square-1.JPEG)
+![I could easily find the videos I thought were funny by searching for the keyword `youtu` in a group chat room.](949544.jpeg)
 
 I've since broken it down by category on the Notion page. For example, it could be divided into Music, Movies, Games, Coding, and General memes.
 
@@ -51,7 +51,7 @@ I wanted to include a **curated choice vocabulary** rather than a typical option
 - Also, as a result, this system is intended to be "attached to the club application".
 - Even if you recommend a funny video, if you can't remember my name and only remember the Video, it serves no purpose!
 
-![In the process, I wanted to give the feeling that I want to join this club!!!](images/lossy-directing.png)
+![In the process, I wanted to give the feeling that I want to join this club!!!](FC67D9.png)
 
 ## 🥞 Choosing the Stack
 
@@ -146,7 +146,7 @@ In other words, creating the intro and ending pages and adding the missing detai
 
 <figure>
 
-![ALT: Fallback Video](images/lossy-fallback.png)
+![ALT: Fallback Video](BE3DA7.png)
 
 <figcaption>
 

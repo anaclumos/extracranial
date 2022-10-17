@@ -63,7 +63,7 @@ We can use these pure black and white colors to represent the raised and lowered
 Therefore, we convert an image into a BW image and again convert that into a 1-bit depth image.
 One detail we should note is that subtitles are usually white, so we want the white pixel in the monochrome image to represent 1, the raised dot in braille.
 
-![As you can see in the right three images, you can represent any image with border and shape with pure black and white. DemonDeLuxe (Dominique Toussaint), CC BY-SA 3.0, via Wikimedia Commons.](images/Dithering_algorithms.png)
+![As you can see in the right three images, you can represent any image with border and shape with pure black and white. DemonDeLuxe (Dominique Toussaint), CC BY-SA 3.0, via Wikimedia Commons.](9F37F9.png)
 
 The leftmost image has 256 shades of gray, and the right three images have only two shades of gray, represented in different monochrome conversion algorithms.
 I used the Floyd-Steinberg dithering algorithm in this project.
@@ -127,13 +127,13 @@ Seeing the image will help you better understand.
 For example, let's say we have the left image (6 by 6).
 We would cut the image into two-by-three pieces and converted each piece into a braille character.
 
-![Left → Right](images/braille.001.png)
+![Left → Right](9F5DCD.png)
 
 The key here is to find the correct braille character to represent the two-by-three piece.
 A straightforward approach is to map all the two-by-three pieces into an array, especially since two-by-three braille characters only have 64 different combinations.
 But we can do better by understanding how Unicode assigns the character codes.
 
-![Note: Braille Patterns from Wikipedia and Unicode Tables](images/braille.003.png)
+![Note: Braille Patterns from Wikipedia and Unicode Tables](58DD72.png)
 
 To convert a two-by-three piece into a braille character, I made a simple [util function](https://github.com/anaclumos/tools-image-to-braille).
 This code uses the above logic to resize the image, convert it into braille characters, and color them on the terminal.
@@ -159,7 +159,7 @@ I decided to use Python OpenCV to do this.
 1. Create a directory to store the images.
 1. Loop through the video frames.
 
-![An example screenshot. I didn't use GPU acceleration, so it took about 19 minutes. I could've optimized this, but this function runs only once for any video, so I didn't bother.](images/optimized-save-to-frames-1.png)
+![An example screenshot. I didn't use GPU acceleration, so it took about 19 minutes. I could've optimized this, but this function runs only once for any video, so I didn't bother.](7B31B6.png)
 
 ---
 
@@ -180,7 +180,7 @@ The first line is the sequence number, and the second is the time range in the `
 Lastly, the third line is the subtitle itself.
 I chose SubRip because it supported colored subtitles.
 
-![It turned out that SubRip's text stylings are non-standard. Source: en.wikipedia.org](images/optimized-SubRip.png)
+![It turned out that SubRip's text stylings are non-standard. Source: en.wikipedia.org](825897.png)
 
 I made several SubRip files with different colors, but YouTube won't recognize the color; it turned out SubRip's color styling is nonstandard.
 
@@ -188,8 +188,8 @@ I made several SubRip files with different colors, but YouTube won't recognize t
 
 <DisplayFlex>
 
-![No style info (markup) is recognized in SubRip.](images/optimized-youtube-subrip.png)
-![Simple markups are supported in SAMI.](images/optimized-youtube-sami.png)
+![No style info (markup) is recognized in SubRip.](D676F4.png)
+![Simple markups are supported in SAMI.](84D026.png)
 
 </DisplayFlex>
 
@@ -235,7 +235,7 @@ Looking closely, you can also see how multi-language subtitles are handled in on
 
 ## 5. Compressing the text files
 
-![You would never imagine _compressing_ a _text_ file...](images/optimized-file-too-big.png)
+![You would never imagine _compressing_ a _text_ file...](6E854E.png)
 
 I finally got my hands on the SAMI file to discover that the file was over **70MB**.
 I couldn't find any official size limit for YouTube subtitles, but empirically, I discovered the file size limit was around 10MB.
@@ -313,14 +313,14 @@ It seemed like a problem with how mobile devices handle braille characters.
 For example, a _flat_ braille character appeared as a circle on computers but as an empty space on mobile devices.
 (Maybe legibility issues?) I needed extra modifications to resolve this issue: dithering.
 
-![Mobile devices show space instead of an empty circle. On the left, you can see almost no details, but on the right, you can see more gradients and details. The right one is the dithered version. Dithering especially shines when you have a black background or color gradients.](images/optimized-dithering.png)
+![Mobile devices show space instead of an empty circle. On the left, you can see almost no details, but on the right, you can see more gradients and details. The right one is the dithered version. Dithering especially shines when you have a black background or color gradients.](B41D3A.png)
 
-![The original image from the video. BTS Jimin](images/optimized-bts.png)
+![The original image from the video. BTS Jimin](15976A.png)
 
 Dithering is a technique to compensate for image quality loss when converting an image to a lower color depth by adding noise to the picture.
 Let me explain it with an example from [Wikipedia](https://en.wikipedia.org/wiki/Dither):
 
-![The first image uses 16M colors, and the second and third use 256 colors. Dithered images use compressed color space, but you can feel the details and gradients. Image from en.wikipedia.org](images/optimized-dithering-example.png)
+![The first image uses 16M colors, and the second and third use 256 colors. Dithered images use compressed color space, but you can feel the details and gradients. Image from en.wikipedia.org](576E13.png)
 
 Can you see the difference between the second and third images?
 They use 256 colors, but the third image has more details and gradients.
