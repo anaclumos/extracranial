@@ -43,7 +43,7 @@ if __name__ == "__main__":
                 uid = line.split("slug: ")[1].strip().replace(
                     "/", "").replace("'", "").replace('"', "")
                 filename_uid_map[filename] = uid
-            if "[[" in line and "]]" in line:
+            while "[[" in line and "]]" in line:
                 file_count += 1
                 mentioned_file = line.split("[[")[1].split("]]")[0]
                 source = mentioned_file.split("|")[0]
@@ -61,12 +61,13 @@ if __name__ == "__main__":
                     :words_to_keep]
                 first_mentioned_sentence = " ".join(before) + \
                     "[[" + center + "]]" + " ".join(after)
-
                 if source not in backlink_map:
                     backlink_map[source] = {}
                 if source not in backlink_map[source]:
                     backlink_map[source][filename] = first_mentioned_sentence
                     mention_count += 1
+                line = line.replace(
+                    "[[" + mentioned_file + "]]", mentioned_file)
 
     import json
     with open("./src/components/BacklinkTable/backlinks.ts", "w") as f:

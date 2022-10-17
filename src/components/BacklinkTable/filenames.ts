@@ -31,7 +31,7 @@ export const filenames = {
     "WebAssembly": "60C4E1",
     "초상권 vs 저작권": "46AF52",
     "Microproject": "A46FA5",
-    "Tailwind": "{{hex}}",
+    "Tailwind": "A331BF",
     "ShadowRealm": "C0269E",
     "PNG": "C53294",
     "서울 프로": "FA1204",

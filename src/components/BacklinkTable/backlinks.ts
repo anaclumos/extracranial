@@ -5,6 +5,7 @@ export const backlinks = {
         "서울 프로": "본 목적은 Pretendard와 비슷하게 [[**Apple**]]의 [[San Francisco",
         "Screenshot as an API": " - You can copy objects from photos in the latest [[**Apple**]] iOS 16 update.\n",
         "Firefox": "it from spawning additional threads in the thread pools used by [[**Apple**]]'s libraries_\n",
+        "San Francisco": "- Font by [[**Apple**]]\n",
         "Apple Silicon": "- Chips made by [[**Apple**]]\n",
         "Google": "one of the Big Five American information technology companies, alongside Amazon, [[**Apple**]], Meta, and Microsoft. [Google](https://en.wikipedia.org/wiki/Google)\n",
         "CalliFontia": "- [[**Apple**]] Neural Engine 적극 활용, 기기 자체에서 폰트 추론하기\n",
@@ -17,7 +18,7 @@ export const backlinks = {
         "2022-06-21": "However, [[**Apple**]] Feedback Assistant is not a developer Q&A platform.\n",
         "2022-06-10": "  - [[**Apple**]] has [implemented pointer authentication](https://support.apple.com/guide/security/operating-system-integrity-sec8b776536b/1/web/1#sec0167b469d) on all of its custom ARM-based silicon",
         "2022-06-20": "Note that this is not [[**Apple**]] Passkey. This is the Privacy Pass standard. [[**Apple**",
-        "2022-07-18": "- [[**Apple**]] seems (pretty much) always right...\n"
+        "2022-07-18": "iPad as a Tools for Thought feels good. Especially writing with [[**Apple**]] Pencil.\n"
     },
     "Pasted image 20220803235118.png": {
         "Swift": "![[**Pasted image 20220803235118.png**]]\n"
@@ -31,31 +32,46 @@ export const backlinks = {
         "Toss": "- I'd say _the most innovative_ Financial [[**Super App**]] I've ever seen in Korea and U.S.\n"
     },
     "Vercel": {
-        "Satori": "- Fast: [[**Vercel**]] OG (500KB) is 100x more lightweight than Chromium + Puppeteer (50MB).",
+        "Satori": "and Web Worker|Web Workers. Building on top of the core engine, [[**Vercel**]] OG can be used inside Edge environments through [[WebAssembly",
         "Stories Behind Satori": "The [[**Vercel**]] team [[Dogfooding|dogfooded",
+        "2022-08-28": "- I both used Cloudflare Pages and [[**Vercel**]] and concluded that [[**Vercel**",
         "2022-07-10": "- [[**Vercel**]] hid the compilation process with its proprietary `vercel dev` command.\n",
         "2022-06-22": "Deno envisions a [[**Vercel**]]-like experience for the backend (FaaS.)\n",
         "2022-09-30": "### [[**Vercel**]] [[NextJS",
         "2022-10-10": "  - I just love [[**Vercel**]]... they _know_ stuff.\n"
     },
+    "WebAssembly": {
+        "Satori": "core engine, Vercel OG can be used inside Edge environments through [[**WebAssembly**]] to create social card images easily.\n",
+        "How is WebAssembly cross-platform when Assembly is not": "- What is the relationship between [[**WebAssembly**]] and [[Assembly",
+        "Deno Deploy": "- TypeScript|TypeScript, [[**WebAssembly**|Wasm]], ES Modules\n",
+        "Stories Behind Satori": "Using a [[**WebAssembly**|WASM]]-based approach also unlocked the possibility of running it on edge. [Introducing",
+        "2022-06-14": "- [[**WebAssembly**|WASM]]과는 당장은 무관하다.\n",
+        "2022-10-14": "- [[**WebAssembly**]]\n",
+        "2022-10-15": "- [[**WebAssembly**]]: [paradust7/minetest-wasm: Experimental Minetest build for **WebAssembly**/Emscripten](https://github.com/paradust7/minetest-wasm)\n"
+    },
     "HTML": {
-        "Satori": "in a Serverless Function and taking a screenshot of the given [[**HTML**]] page with Puppeteer. Setting up these tools was hard to implement",
+        "Satori": "is needed. Using Vercel OG, you can define your images using [[**HTML**]] and [[CSS",
         "Tailwind": "> Rapidly build modern websites without ever leaving your [[**HTML**]]. A utility-first [[CSS",
         "CSS": "presentation of a document written in a markup language such as [[**HTML**]] or XML (including XML dialects such as [[SVG",
         "DOM": "is a cross-platform and language-independent interface that treats an XML or [[**HTML**]] document as a tree structure wherein each node is an object",
         "JavaScript": "one of the core technologies of the World Wide Web, alongside [[**HTML**]] and CSS. As of 2022, 98% of websites use JavaScript on",
         "JSX": "syntax familiar to many developers. It is similar in appearance to [[**HTML**]]. React components are typically written using JSX, although they do not",
-        "Markdown Email Client": "- Then... it sends as a beautiful and clean [[**HTML**]] email!\n"
+        "Stories Behind Satori": "Given that SVG and [[**HTML**]] + [[CSS",
+        "Markdown Email Client": "- Then... it sends as a beautiful and clean [[**HTML**]] email!\n",
+        "2022-06-12": "rehydration is a technique in which client-side JavaScript|JavaScript converts a static [[**HTML**]] web page, delivered either through static hosting or server-side rendering, into"
+    },
+    "CSS": {
+        "Satori": "- Tailwind [[**CSS**]] with the `tw` prop\n",
+        "Tailwind": "Rapidly build modern websites without ever leaving your HTML. A utility-first [[**CSS**]] framework packed with classes like flex, pt-4, text-center, and rotate-90 that",
+        "Font Features": "- [[**CSS**]] property to enhance legibilities of a [[Font",
+        "Stories Behind Satori": "After simplifying the syntax with JSX and simple [[**CSS**]], Shu used [RazrFalcon/resvg](https://github.com/RazrFalcon/resvg) and [yisibl/resvg-js](https://github.com/yisibl/resvg-js) to convert the [[SVG",
+        "Markdown Email Client": "- Before sending, select one [[**CSS**]]\n"
     },
     "Open Graph Image as a Service": {
         "Satori": "this for a while. [anaclumos/cho-sh-og-image: **Open Graph Image as a Service**](https://github.com/anaclumos/cho-sh-og-image). [[**Open Graph Image as a Service**]]\n",
         "2022-07-10": "longer make any improvements in `og-image.cho.sh`, and invest those time in [[**Open Graph Image as a Service**]].\n",
+        "2022-07-18": "- Fiercely Overpriced for [[**Open Graph Image as a Service**]] could be public-key-encrypting query strings.\n",
         "2022-10-10": "- [[**Open Graph Image as a Service**]]\n"
-    },
-    "CSS": {
-        "Satori": "- Basic [[**CSS**]] layout, styling, and typography.\n",
-        "Font Features": "- [[**CSS**]] property to enhance legibilities of a [[Font",
-        "Markdown Email Client": "- Before sending, select one [[**CSS**]]\n"
     },
     "Emoji": {
         "Satori": "- Font and [[**Emoji**]] Subsets from Google Fonts and other CDNs\n",
@@ -67,26 +83,24 @@ export const backlinks = {
     },
     "Web Worker": {
         "Satori": "core engine, [Satori](https://github.com/vercel/satori), can be used in modern browsers, Node.js, and [[**Web Worker**|**Web Worker**s]]. Building on top of the core engine, [[Vercel",
+        "WorkerDOM": "Google's take on providing DOM access to [[**Web Worker**]] Threads.\n",
         "Research": "   | Singular Noun     | _[[**Web Worker**]]_ (not _Workers_.) |\n",
+        "Atomics": "- SharedArrayBuffer를 이용해 [[**Web Worker**]] 사이 메모리를 동기화하기 위해 사용됨.\n",
+        "Stories Behind Satori": "Converting it into WebAssembly|WASM will also benefit by targeting [[**Web Worker**|**Web Worker**s]].\n",
         "iiframe": "- Improved `iframe` that containerizes an embedded web inside [[**Web Worker**|**Web Worker**s]].\n",
         "2022-07-25": "- [ ] Unfreeze the [[**Web Worker**]] thread with `Atomic.notify()`.\n",
         "2022-07-11": "Give this object to a [[**Web Worker**]] which includes third-party codes.\n",
         "2022-07-21": "  - Unfreeze the [[**Web Worker**]] thread with `Atomic.notify()`.\n",
-        "2022-07-19": "  - [[**Web Worker**]] Thread에 Atomic Notify를 한다\n"
+        "2022-08-03": "iiframe — improved iframe — that specializes in containerizing iframes in [[**Web Worker**|**Web Worker**s]].\n",
+        "2022-07-19": "  - [[**Web Worker**]] Thread에 Atomic Notify를 한다\n",
+        "2022-06-22": "Preferably, WorkerDOM and [[**Web Worker**]] API will already have a _non-blocking operation_ feature.\n"
     },
     "Stories Behind Satori": {
         "Satori": "- [[**Stories Behind Satori**]]\n",
         "2022-10-13": "  - [x] [[**Stories Behind Satori**]]\n"
     },
-    "WebAssembly": {
-        "How is WebAssembly cross-platform when Assembly is not": "- What is the relationship between [[**WebAssembly**]] and [[Assembly",
-        "Stories Behind Satori": "Using a [[**WebAssembly**|WASM]]-based approach also unlocked the possibility of running it on edge. [Introducing",
-        "2022-06-14": "- [[**WebAssembly**|WASM]]과는 당장은 무관하다.\n",
-        "2022-10-14": "- [[**WebAssembly**]]\n",
-        "2022-10-15": "- [[**WebAssembly**]]: [paradust7/minetest-wasm: Experimental Minetest build for **WebAssembly**/Emscripten](https://github.com/paradust7/minetest-wasm)\n"
-    },
     "Assembly": {
-        "How is WebAssembly cross-platform when Assembly is not": "[[**Assembly**]] is a straightforward way of describing machines to execute instructions.\n",
+        "How is WebAssembly cross-platform when Assembly is not": "- What is the relationship between Web**Assembly** and [[**Assembly**]]?\n",
         "Inspecting Assembly": "- [[**Assembly**]]\n"
     },
     "Turing Machine": {
@@ -103,7 +117,8 @@ export const backlinks = {
         "Inspecting Assembly": "         | prints [[**assembly**]] codes          "
     },
     "Toss": {
-        "Tossface": "- [[**Toss**]] once withdrew the emojis, but I submitted a request to put"
+        "Tossface": "- [[**Toss**]] once withdrew the emojis, but I submitted a request to put",
+        "Toss Product Sans": "- Font by [[**Toss**]].\n"
     },
     "TossFace Playground": {
         "Tossface": "- [[**TossFace Playground**]]\n",
@@ -121,7 +136,11 @@ export const backlinks = {
     },
     "FIRE": {
         "Software as a Service": "We expect we could attain [[**FIRE**]] through [[Software as a Service",
-        "Fiercely Overpriced": "To attain [[**FIRE**]], we have previously explored that [[Software as a Service"
+        "Fiercely Overpriced": "enough data out on how the real-world Software as a Service [[**FIRE**]] will work out.\n",
+        "FIRE Engine": "- Software as a Service that drives revenue streams for [[**FIRE**]]\n"
+    },
+    "Software as a Service": {
+        "Software as a Service": "We expect we could attain FIRE through [[**Software as a Service**]].\n"
     },
     "Venture Capital": {
         "Either be the best-in-class or the most efficient": "- [[**Venture Capital**|VC]]\n"
@@ -129,13 +148,16 @@ export const backlinks = {
     "Simple Analytics": {
         "Google Analytics": "- Alternative: [[**Simple Analytics**]], [[Plausible Analytics"
     },
+    "Plausible Analytics": {
+        "Google Analytics": "- Alternative: Simple Analytics, [[**Plausible Analytics**]]\n"
+    },
     "Tools for Thought": {
         "Extracranial": "function while acting as a searchable Wikipedia. It usually tightly integrates [[**Tools for Thought**]] and Online platforms. For this system, I use [Docusaurus](https://docusaurus.io/) and [Obsidian](https://obsidian.md/).",
         "PKM": "Check [[**Tools for Thought**]] for PKM tools in the market.\n",
         "Research": "Concept | Plural Noun       | _[[**Tools for Thought**]]_           |\n",
         "Handwriting Tools for Thoughts": "- A specific [[**Tools for Thought**]] with handwriting.\n",
         "2022-10-13": "- [Visible – Make information useful](https://visible.page/): [[**Tools for Thought**]]\n",
-        "2022-07-18": "- Using an iPad as a [[**Tools for Thought**]] feels good. Especially writing with [[Apple",
+        "2022-07-18": "- Obsidian-like [[**Tools for Thought**]]\n",
         "2022-07-07": "I see a repeated paradigm in the [[**Tools for Thought**]] [[Software as a Service"
     },
     "Svelte": {
@@ -174,7 +196,9 @@ export const backlinks = {
     "TypeScript": {
         "Svelte": "runtime, i.e., in the browser. The compiler itself is written in [[**TypeScript**]]. Its source code is licensed under MIT License and hosted on",
         "Deno Deploy": "- [[**TypeScript**|**TypeScript**]], [[WebAssembly|Wasm",
-        "2022-09-30": "### [[**TypeScript**]] Dynamic Types with String Interpolations\n"
+        "2022-07-20": "- JavaScript|JavaScript → [[**TypeScript**|**TypeScript**]]\n",
+        "2022-09-30": "### [[**TypeScript**]] Dynamic Types with String Interpolations\n",
+        "2022-07-06": "- Bundle, transpile, install and run JavaScript|JavaScript & [[**TypeScript**|**TypeScript**]] projects — all in Bun. Bun is a new JavaScript|JavaScript runtime"
     },
     "Satori": {
         "WebAssembly": "- [[**Satori**]]\n",
@@ -183,7 +207,7 @@ export const backlinks = {
     "San Francisco": {
         "서울 프로": "이름 또한 [[**San Francisco**|SF Pro]]에서 유래하였다.\n",
         "Font Features": "- [[**San Francisco**]], [[Inter",
-        "Pretendard": "  - He should've put it as Cross-platform _[[**San Francisco**]]_ alternative\n",
+        "Pretendard": "- Just like Toss Product Sans it is bizarrely similar to [[**San Francisco**]]\n",
         "Inter": "- bizarrely similar to [[**San Francisco**]], but it now has it's own style\n",
         "Toss Product Sans": "- Looks bizarrely similar to [[**San Francisco**]]\n",
         "2022-08-01": "it a lot — it combines the neatness and readability of [[**San Francisco**|SF Pro]] and the uniqueness of IBM Plex Sans.\n"
@@ -194,12 +218,29 @@ export const backlinks = {
     "Pasted image 20221014231601.png": {
         "Font Features": "![[**Pasted image 20221014231601.png**]]\n"
     },
+    "Font": {
+        "Font Features": "- CSS property to enhance legibilities of a [[**Font**]].\n",
+        "Pretendard": "- [[**Font**]] by [orioncactus (Kil Hyung-jin)](https://github.com/orioncactus)\n",
+        "Inter": "- [[**Font**]] by [rsms](https://rsms.me/)\n",
+        "San Francisco": "- [[**Font**]] by [[Apple",
+        "Toss Product Sans": "- [[**Font**]] by [[Toss"
+    },
+    "Inter": {
+        "Font Features": "- San Francisco, [[**Inter**]], and [[Pretendard"
+    },
+    "Pretendard": {
+        "Font Features": "- San Francisco, Inter, and [[**Pretendard**]] has awesome support.\n"
+    },
     "Pasted image 20221014232128.png": {
         "Font Features": "![[**Pasted image 20221014232128.png**]]\n"
     },
     "Pasted image 20221013004704.png": {
         "Are.na": "![[**Pasted image 20221013004704.png**]]\n",
         "Jumpsite": "![[**Pasted image 20221013004704.png**]]\n"
+    },
+    "SVG": {
+        "CSS": "language such as HTML or XML (including XML dialects such as [[**SVG**]], MathML, or XHTML). CSS is a cornerstone technology of the World",
+        "Stories Behind Satori": "and simple CSS, Shu used [RazrFalcon/resvg](https://github.com/RazrFalcon/resvg) and [yisibl/resvg-js](https://github.com/yisibl/resvg-js) to convert the [[**SVG**]] image to [[PNG"
     },
     "Monolithic (Pure Hierarchy) Model": {
         "Pure Component Model": "- Alternative approach to [[**Monolithic (Pure Hierarchy) Model**]]\n",
@@ -221,12 +262,6 @@ export const backlinks = {
     },
     "HTTP": {
         "Internetworking": "- [[**HTTP**]]\n"
-    },
-    "Font": {
-        "Pretendard": "- [[**Font**]] by [orioncactus (Kil Hyung-jin)](https://github.com/orioncactus)\n",
-        "Inter": "- [[**Font**]] by [rsms](https://rsms.me/)\n",
-        "San Francisco": "- [[**Font**]] by [[Apple",
-        "Toss Product Sans": "- [[**Font**]] by [[Toss"
     },
     "Toss Product Sans": {
         "Pretendard": "- Just like [[**Toss Product Sans**]] it is bizarrely similar to [[San Francisco",
@@ -256,6 +291,16 @@ export const backlinks = {
         "Infinite Canvas": "- [[**Intracranial**]]\n",
         "Handwriting Tools for Thoughts": "- [[**Intracranial**]]\n",
         "2022-07-26": "- Will add this note to [[**Intracranial**]].\n"
+    },
+    "SwiftUI": {
+        "Apple": "- Creator of Swift, [[**SwiftUI**]], [[Apple Silicon",
+        "ULLO": "- PoC of [[**SwiftUI**]] Photo Widget App\n",
+        "CELLO (Product)": "- [[**SwiftUI**]]\n",
+        "Cube": "- [[**SwiftUI**]]\n",
+        "2022-08-04": "### Explored [[**SwiftUI**]].\n"
+    },
+    "Apple Silicon": {
+        "Apple": "- Creator of Swift, SwiftUI, [[**Apple Silicon**]]\n"
     },
     "Pasted image 20221013004357.png": {
         "Surfit": "![[**Pasted image 20221013004357.png**]]\n",
@@ -294,13 +339,23 @@ export const backlinks = {
         "2022-09-30": "  - [[**Prompt Engineering**]]\n"
     },
     "PDF": {
-        "Screenshot as an API": "- The \"killer app\" for [[**PDF**]] was tax returns - the [[IRS"
+        "Screenshot as an API": "  - Enterprise-grade OCR for [[**PDF**]] documents still doesn't exist in 2022, albeit having state-of-the-art computer vision",
+        "2022-06-05": "- _Convert ACSM files to [[**PDF**]]/EPUBs with one command on Linux \\(and macOS very soon\\). This software"
     },
     "Naver": {
         "Screenshot as an API": "  - Related to when [[**Naver**]] Vibe attempted to steal other music players' market cap with Screenshot"
     },
+    "IRS": {
+        "Screenshot as an API": "- The \"killer app\" for PDF was tax returns - the [[**IRS**]] adopted PDF in 1996 because of a rumored frustration with the"
+    },
     "epub": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[**epub**]], [[mobi"
+    },
+    "mobi": {
+        "Screenshot as an API": "  - Slow page loads. Better alternatives: epub, [[**mobi**]] for texts. For generic use cases, [[DjVu"
+    },
+    "DjVu": {
+        "Screenshot as an API": "loads. Better alternatives: epub, mobi for texts. For generic use cases, [[**DjVu**]].\n"
     },
     "Transactional Globe": {
         "3D Globe on the Web": "- [[**Transactional Globe**]]\n",
@@ -310,6 +365,14 @@ export const backlinks = {
     "GDPR": {
         "Simple Analytics": "- [[**GDPR**]], [[PECR",
         "Plausible Analytics": "lightweight and open-source web analytics. No cookies and fully compliant with [[**GDPR**]], [[CCPA"
+    },
+    "PECR": {
+        "Simple Analytics": "- GDPR, [[**PECR**]], [[CCPA",
+        "Plausible Analytics": "web analytics. No cookies and fully compliant with GDPR, CCPA, and [[**PECR**]]. Made and hosted in the EU, powered by European-owned cloud infrastructure"
+    },
+    "CCPA": {
+        "Simple Analytics": "- GDPR, PECR, [[**CCPA**]] Compliant\n",
+        "Plausible Analytics": "and open-source web analytics. No cookies and fully compliant with GDPR, [[**CCPA**]], and [[PECR"
     },
     "2022-07-01": {
         "PKM": "- On [[**2022-07-01**]], I noted that PKM is for building a personal knowledge base."
@@ -351,6 +414,7 @@ export const backlinks = {
         "2022-06-21": "## Today's [[**Hacker News**]]\n",
         "2022-09-29": "## Today's [[**Hacker News**]]\n",
         "2022-09-09": "## Today's [[**Hacker News**]]\n",
+        "2022-07-09": "wikilinks to markdown links. For example, this is a wikilink to [[**Hacker News**]].\n",
         "2022-06-22": "## Today's [[**Hacker News**]]\n",
         "2022-07-18": "## Today's [[**Hacker News**]]\n",
         "2022-08-01": "## Today's [[**Hacker News**]]\n",
@@ -389,7 +453,8 @@ export const backlinks = {
         "Pretendard의 아쉬운 점": "![[**Pasted image 20220801181647.png**]]\n"
     },
     "CJK": {
-        "Pretendard의 아쉬운 점": "일반적으로 알려지지 않은 사항이지만, [[**CJK**|한중일]]의 한문은 모두 조금씩 다르다.\n"
+        "Pretendard의 아쉬운 점": "일반적으로 알려지지 않은 사항이지만, [[**CJK**|한중일]]의 한문은 모두 조금씩 다르다.\n",
+        "Stories Behind Satori": "added Google Font's `?text=` API, containing a specific subset of the [[**CJK**]] library and rendering things on the fly.\n"
     },
     "9E21DD.gif": {
         "Pretendard의 아쉬운 점": "![[**9E21DD.gif**]]\n"
@@ -400,8 +465,12 @@ export const backlinks = {
     "Financial Technology": {
         "Toss": "- [[**Financial Technology**]] Unicorn of Korea.\n"
     },
+    "Tossface": {
+        "Toss": "- Creators of Toss Product Sans and [[**Tossface**]]\n"
+    },
     "Transient Notes": {
-        "Evergreen Notes": "- Antonym: [[**Transient Notes**]]\n"
+        "Evergreen Notes": "- Antonym: [[**Transient Notes**]]\n",
+        "2022-05-29": "- Evergreen Notes vs [[**Transient Notes**]]\n"
     },
     "Markdown": {
         "Inliner": "However, [[**Markdown**]] will automatically convert them into flowing text, making the reading experience",
@@ -426,7 +495,8 @@ export const backlinks = {
     "Brane": {
         "WorkerDOM": "[[**Brane**]] will follow WorkerDOM's core model.\n",
         "iiframe": "- Successor to [[**Brane**]].\n",
-        "2022-07-11": "[[**Brane**]] should use either of the above to attain [[cooperative multitasking",
+        "2022-07-11": "To automatically use Atomics API for every third-party app, [[**Brane**]] should **_abstract_** this process.\n",
+        "2022-07-05": "business. I do PoCs that have never been done before, i.e., [[**Brane**]]\n",
         "2022-08-03": "[[**Brane**]] is a vast project that a single intern can't finish.\n",
         "2022-06-14": "- [[**Brane**]] DOM의 재구현이 의미가 있는지 실험하고, 유의미한 전략인지 확인하는 것이 목표이다.\n",
         "2022-06-22": "Since [[**Brane**]] implements an _arbiter_, which spans more than just a DOM...\n",
@@ -441,8 +511,11 @@ export const backlinks = {
         "2022-07-25": "- [ ] Pass the data into the received [[**SharedArrayBuffer**]].\n",
         "2022-07-11": "We will need a codec to share data on [[**SharedArrayBuffer**]].\n",
         "2022-07-21": "  - Pass the data into the received [[**SharedArrayBuffer**]].\n",
+        "2022-08-03": "This happens synchronously using Atomics and [[**SharedArrayBuffer**]].\n",
+        "2022-06-27": "- Learn more about Atomics and [[**SharedArrayBuffer**]]\n",
         "2022-07-19": "  - 받은 [[**SharedArrayBuffer**|SAB]]에 데이터를 채운다\n",
-        "2022-06-26": "- Explore [[**SharedArrayBuffer**]], Atomic, and [[WorkerDOM",
+        "2022-06-22": "  - WorkerDOM will harness [[**SharedArrayBuffer**]].\n",
+        "2022-06-26": "- **Objective**: Swap WorkerDOM's data transfer layer with [[**SharedArrayBuffer**]] + Shim Core DOM APIs.\n",
         "2022-07-12": "   - This involves [[**SharedArrayBuffer**|SAB]]\n"
     },
     "Web Typography": {
@@ -494,12 +567,6 @@ export const backlinks = {
         "Fiercely Overpriced": "An idea suggested on [[**2022-07-14**]] that all inventions should be _fiercely overpriced_.\n",
         "0125 Valid Palindrome": "Solved at: [[**2022-07-14**]] and [[2022-07-26"
     },
-    "Software as a Service": {
-        "Fiercely Overpriced": "to examine and get enough data out on how the real-world [[**Software as a Service**]] [[FIRE",
-        "FIRE Engine": "## Payment Infra for [[**Software as a Service**]]\n",
-        "2022-09-18": "- [[**Software as a Service**]] businesses with network effects are rare, but when they work, they",
-        "2022-09-29": "Tey: \"Introducing my new side project: https://t.co/BGR54GVVRK It's an open-source link-shortener [[**Software as a Service**]] with built-in analytics + free custom domains 🚀 Built with ▲"
-    },
     "Metadata as a Service": {
         "Fiercely Overpriced": "[[**Metadata as a Service**]] could also be one example.\n"
     },
@@ -508,6 +575,7 @@ export const backlinks = {
     },
     "TODO": {
         "Tools for Thought": "[[**TODO**]]: Convert this page into a more in-depth case study.\n",
+        "Coding Tests": "- 0215 Kth Largest Element in an Array [[**TODO**]]\n",
         "0215 Kth Largest Element in an Array": "[[**TODO**]]\n",
         "2022-10-12": "## [[**TODO**]]\n",
         "2022-10-16": "## [[**TODO**]]\n",
@@ -527,13 +595,15 @@ export const backlinks = {
         "2022-07-01": "- This will reduce 10kb in [[**JavaScript**|**JavaScript**]].\n",
         "2022-07-20": "- [[**JavaScript**|**JavaScript**]] → [[TypeScript|TypeScript",
         "2022-06-20": "are increasingly API-driven. CAPTCHAs cannot work in an API environment where [[**JavaScript**|**JavaScript**]] can't be rendered or a WebView can't be called.\n",
+        "2022-06-22": "Then, Brane should cover very partial [[**JavaScript**]] APIs.\n",
         "2022-07-18": "- No trackers, no [[**JavaScript**|javascript]], no stylesheets. Just your words\n",
         "2022-06-12": "web development, hydration or rehydration is a technique in which client-side [[**JavaScript**|**JavaScript**]] converts a static [[HTML",
         "2022-07-12": "1. Demo [[**JavaScript**]] animation works as expected.\n",
         "2022-07-06": "- Bundle, transpile, install and run [[**JavaScript**|**JavaScript**]] & [[TypeScript|TypeScript"
     },
     "NextJS": {
-        "Tools for Thought": "- [[**NextJS**]]\n"
+        "Tools for Thought": "- [[**NextJS**]]\n",
+        "2022-09-30": "### Vercel [[**NextJS**]] Conf Interactions\n"
     },
     "Graphic Window": {
         "Graphics Engine Process": "  - Create a [[**Graphic Window**]]\n"
@@ -574,9 +644,17 @@ export const backlinks = {
     "Shim": {
         "Realm Shim": "> [[**Shim**]] implementation of the [Realm API Proposal](https://github.com/tc39/proposal-realms/#ecmascript-spec-proposal-for-realms-api) ([[ShadowRealm"
     },
+    "ShadowRealm": {
+        "Realm Shim": "> Shim implementation of the [Realm API Proposal](https://github.com/tc39/proposal-realms/#ecmascript-spec-proposal-for-realms-api) ([[**ShadowRealm**]])\n",
+        "2022-06-26": "- Let's not explore [[**ShadowRealm**]] and `iframe` [[Sandbox"
+    },
     "Grammarly": {
         "Handwriting Grammarly": "- [[**Grammarly**]] for [[Handwriting Tools for Thoughts",
         "2022-10-12": "- [x] Reply to [[**Grammarly**]] Recruiter\n"
+    },
+    "Handwriting Tools for Thoughts": {
+        "Handwriting Grammarly": "- Grammarly for [[**Handwriting Tools for Thoughts**]]\n",
+        "2022-10-12": "- [[**Handwriting Tools for Thoughts**]]\n"
     },
     "Building a Second Brain": {
         "PARA": "- PARA is a second-brain framework, mentioned in [[**Building a Second Brain**]]\n",
@@ -602,8 +680,12 @@ export const backlinks = {
     "Height": {
         "Linear": "- An issue tracking service, like [[**Height**]], or [[Jira"
     },
+    "Jira": {
+        "Linear": "- An issue tracking service, like Height, or [[**Jira**]]\n"
+    },
     "CBOR": {
-        "MessagePack": "- Compact Data Exchange Format like [[**CBOR**]].\n"
+        "MessagePack": "- Compact Data Exchange Format like [[**CBOR**]].\n",
+        "2022-07-11": "Candidates include MessagePack and [[**CBOR**]].\n"
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[**Canvas (HTML5)**|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs.\n"
@@ -611,11 +693,14 @@ export const backlinks = {
     "Web Browser": {
         "Stories Behind Satori": "- [[**Web Browser**]]-based solutions were too slow\n"
     },
-    "SVG": {
-        "Stories Behind Satori": "the elements' positions through a layout engine and convert them into [[**SVG**]] markups.\n"
-    },
     "JSX": {
         "Stories Behind Satori": "After simplifying the syntax with [[**JSX**]] and simple [[CSS"
+    },
+    "PNG": {
+        "Stories Behind Satori": "Shu used [RazrFalcon/resvg](https://github.com/RazrFalcon/resvg) and [yisibl/resvg-js](https://github.com/yisibl/resvg-js) to convert the SVG image to [[**PNG**]].\n"
+    },
+    "Dogfooding": {
+        "Stories Behind Satori": "The Vercel team [[**Dogfooding**|dogfooded]] this for a while.\n"
     },
     "Pure Component Model": {
         "Monolithic (Pure Hierarchy) Model": "- Solution [[**Pure Component Model**]]\n",
@@ -640,6 +725,7 @@ export const backlinks = {
         "Person A480C6": "  - [[**Project PEOPLE**]] can take responsibility, regardless of their level and position.\n",
         "Person 5DBDAE": "Meet a lot of [[**Project PEOPLE**]].\n",
         "2022-07-05": "- Some [[**Project PEOPLE**]] asked why it is _computer scientist_ instead of _software engineer_... And",
+        "2022-07-10": "- Notion opened a new paradigm for low-code websites. [[**Project PEOPLE**]] now create personal websites, event RSVPs, blogs, databases, and much more,",
         "2022-09-08": "- [[**Project PEOPLE**]]\n",
         "2022-09-14": "- [[**Project PEOPLE**]]\n"
     },
@@ -684,12 +770,6 @@ export const backlinks = {
         "ULLO": "- Unsplash [[**CELLO**]]\n",
         "CELLO (Product)": "그것의 Consumer-side Product가 [[**CELLO**]]\n",
         "2022-08-10": "- [[**CELLO**]]\n"
-    },
-    "SwiftUI": {
-        "ULLO": "- PoC of [[**SwiftUI**]] Photo Widget App\n",
-        "CELLO (Product)": "- [[**SwiftUI**]]\n",
-        "Cube": "- [[**SwiftUI**]]\n",
-        "2022-08-04": "### Explored [[**SwiftUI**]].\n"
     },
     "Cloudflare": {
         "CELLO (Product)": "- [[**Cloudflare**]] for serving high-res images\n",
@@ -772,6 +852,9 @@ export const backlinks = {
         "Coding Tests": "- [[**Real Interviews**]]\n",
         "2022-09-22": "- [[**Real Interviews**]]\n",
         "2022-09-30": "- [[**Real Interviews**]]\n"
+    },
+    "C++": {
+        "Coding Tests": "- Will use Python (main language) and [[**C++**]] (supplementary language)\n"
     },
     "QuickSelect": {
         "Coding Tests": "- [[**QuickSelect**]] [[TODO",
@@ -856,6 +939,7 @@ export const backlinks = {
     },
     "2022-07-26": {
         "0226 Invert Binary Tree": "Solved at: [[**2022-07-26**]]\n",
+        "0125 Valid Palindrome": "Solved at: 2022-07-14 and [[**2022-07-26**]]\n",
         "Intracranial": "- [[**2022-07-26**]]\n",
         "Developing Review Notes for Obsidian": "## [[**2022-07-26**]]\n"
     },
@@ -1023,6 +1107,7 @@ export const backlinks = {
         "2022-07-19": "오늘은 반드시 [[**WorkerDOM**]] [[Scheduler",
         "2022-06-22": "Preferably, [[**WorkerDOM**]] and [[Web Worker",
         "2022-06-26": "- Investigate how [[**WorkerDOM**]] terminates an application. This is a Web Spec.\n",
+        "2022-07-12": "### Scheduler|Schedulers in [[**WorkerDOM**]]\n",
         "2022-07-06": "the Technical Proof of Concept and posted here: _PoC that two [[**WorkerDOM**]] upgraded threads don't block each other_ - [Two Roots](https://brane.vercel.app/two-roots-with-infinite-loop/)\n"
     },
     "Cross-Origin-Opener-Policy": {
@@ -1048,7 +1133,8 @@ export const backlinks = {
     },
     "Sandbox": {
         "Brane": "  - Prerequisite: [[**Sandbox**]] Environment.\n",
-        "2022-06-22": "Then, the next step is to investigate how deep isolation iframe [[**Sandbox**]] provides.\n"
+        "2022-06-22": "Then, the next step is to investigate how deep isolation iframe [[**Sandbox**]] provides.\n",
+        "2022-06-26": "- Let's not explore ShadowRealm and `iframe` [[**Sandbox**]] for now.\n"
     },
     "2022-07-19": {
         "Developing Review Notes for Obsidian": "일단 오늘([[**2022-07-19**]])은 밤이 늦었으니 내일 계속하도록 한다. 3시간 41분 했다.\n",
@@ -1087,6 +1173,9 @@ export const backlinks = {
     "Pasted image 20220726204531.png": {
         "Developing Review Notes for Obsidian": "![[**Pasted image 20220726204531.png**]]\n"
     },
+    "Logseq": {
+        "Better Obsidian": " - List view for Daily Notes like Roam Research and [[**Logseq**]].\n"
+    },
     "Internetworking": {
         "2022-08-28": "- [[**Internetworking**]]\n",
         "2022-08-29": "- [[**Internetworking**]]\n"
@@ -1124,10 +1213,14 @@ export const backlinks = {
     },
     "Scheduler": {
         "2022-07-11": "- The hard part is transports and [[**Scheduler**|schedulers]].\n",
+        "2022-07-19": "2022-07-11에 확인한 2가지 [[**Scheduler**|스케줄러]]를 확인한다.\n",
         "2022-07-12": "### [[**Scheduler**|**Scheduler**s]] in [[WorkerDOM"
     },
+    "DOM Reflow": {
+        "2022-07-11": "because it depends on values that could only be found after [[**DOM Reflow**]].\n"
+    },
     "cooperative multitasking": {
-        "2022-07-11": "We aim to build [[**cooperative multitasking**]].\n"
+        "2022-07-11": "Brane should use either of the above to attain [[**cooperative multitasking**]].\n"
     },
     "preemptive multitasking": {
         "2022-07-11": "However, a guest app should look as [[**preemptive multitasking**]] as if blocking APIs blocks a thread.\n"
@@ -1150,9 +1243,6 @@ export const backlinks = {
         "2022-10-16": "### [[**Dynamic Island on the Web**]]\n",
         "2022-10-15": "- [[**Dynamic Island on the Web**]]\n"
     },
-    "Handwriting Tools for Thoughts": {
-        "2022-10-12": "- [[**Handwriting Tools for Thoughts**]]\n"
-    },
     "Letter to Mr. Alexander Obenauer on 2022-10-12": {
         "2022-10-12": "- [[**Letter to Mr. Alexander Obenauer on 2022-10-12**]]\n"
     },
@@ -1161,6 +1251,9 @@ export const backlinks = {
     },
     "Jetbrains Fleet": {
         "2022-10-12": "- [[**Jetbrains Fleet**]] is [[GA"
+    },
+    "GA": {
+        "2022-10-12": "- Jetbrains Fleet is [[**GA**]]: [Introducing the Fleet Public Preview](https://blog.jetbrains.com/fleet/2022/10/introducing-the-fleet-public-preview)\n"
     },
     "iOS Style Toggle in CSS": {
         "2022-10-12": "  - [x] Archived [[**iOS Style Toggle in CSS**]]\n"
@@ -1355,9 +1448,6 @@ export const backlinks = {
     },
     "356 Official SSH Server": {
         "2022-08-25": "- [[**356 Official SSH Server**]]\n"
-    },
-    "ShadowRealm": {
-        "2022-06-26": "- Let's not explore [[**ShadowRealm**]] and `iframe` [[Sandbox"
     },
     "sandbox": {
         "2022-08-01": "- Maybe running something like the QuickJS [[**sandbox**]] inside WebAssembly can provide a more secure way to access selective"
