@@ -3,8 +3,8 @@
   height: 100%;
   padding: 1rem 1rem 0 1rem;
   margin-top: 2rem;
-  border-radius: var(--border-radius);
-  border: 2px solid var(--ifm-menu-color-background-active);
+  border-radius: var(--ifm-pagination-nav-border-radius);
+  border: 1px solid var(--ifm-color-emphasis-300);
 }
 
 .backlinkTitle {
