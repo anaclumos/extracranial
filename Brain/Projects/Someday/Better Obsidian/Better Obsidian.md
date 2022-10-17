@@ -5,12 +5,6 @@ slug: '/9E4E7C'
 
 ## Extension Ideas for [[Obsidian]]
 
-- Aliases Link Consistency with Standard links
-  - `Personal Knowledge Management` and `PKM` should act the same.
-  - Not in some weird format like `PKM|Personal Knowledge Management.`
-  - At least convert one to another.
-- Functional Templating
-  - Run functions like `getRandomHex()` when creating new posts
 - Exclude URLs in Unlinked Mentions
   - See [Obsidian Forum 7092](https://forum.obsidian.md/t/exclude-backlink-mentions-in-link-markup-from-suggested-backlinks/7092).
 - Encapsulate File to Folder `Topic.md` → `Topic/Topic.md`
@@ -24,3 +18,15 @@ slug: '/9E4E7C'
   - Not `Pasted Image YYYY`
   - Not `Original Name Whatsoever`
 - Auto Plural-Singular Linker
+
+### Done
+
+- Functional Templating (Done on [[2022-10-17]])
+  - Run functions like `getRandomhex()` when creating new posts or pasting attachments
+
+### Discarded
+
+- Aliases Link Consistency with Standard links
+  - `Personal Knowledge Management` and `PKM` should act the same.
+  - Not in some weird format like `PKM|Personal Knowledge Management.`
+  - At least convert one to another.
