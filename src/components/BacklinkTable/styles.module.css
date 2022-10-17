@@ -50,3 +50,9 @@
 .mentionedString {
   color: var(--ifm-color-emphasis-900);
 }
+
+.noBacklink {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--ifm-color-emphasis-200);
+}

@@ -928,6 +928,10 @@ export const backlinks = {
         "Backlinking": "- [[**Backlink**]]\n",
         "Better Docusaurus": "- Docusaurus should have [[**Backlink**]] support\n"
     },
+    "Pasted image 20221016175942.png": {
+        "Backlinking": "![[**Pasted image 20221016175942.png**]]\n",
+        "2022-10-16": "![[**Pasted image 20221016175942.png**]]\n"
+    },
     "Pasted image 20221010141050.png": {
         "Transactional Globe": "![[**Pasted image 20221010141050.png**]]\n"
     },
@@ -1145,7 +1149,7 @@ export const backlinks = {
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[**Dynamic Island on the Web**]]\n",
-        "2022-10-16": "- [[**Dynamic Island on the Web**]]\n",
+        "2022-10-16": "### [[**Dynamic Island on the Web**]]\n",
         "2022-10-15": "- [[**Dynamic Island on the Web**]]\n"
     },
     "Handwriting Tools for Thoughts": {
@@ -1188,11 +1192,15 @@ export const backlinks = {
     "Tesla Release Model": {
         "2022-09-06": "- [[**Tesla Release Model**]]\n"
     },
-    "Kakao": {
-        "2022-10-16": "- [[**Kakao**]]\n"
+    "Better Aldehyde": {
+        "2022-10-16": "### [[**Better Aldehyde**]]\n",
+        "2022-07-12": "- [[**Better Aldehyde**]]\n"
     },
     "AA04D0.gif": {
         "2022-10-16": "![[**AA04D0.gif**]]\n"
+    },
+    "Kakao": {
+        "2022-10-16": "### [[**Kakao**]]\n"
     },
     "Pragmatic Engineer": {
         "2022-07-14": "## Today's [[**Pragmatic Engineer**]]\n",
@@ -1401,9 +1409,6 @@ export const backlinks = {
     },
     "Firefox": {
         "2022-10-10": "responsiveness on macOS - Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2022/10/improving-firefox-responsiveness-on-macos/) [[**Firefox**]]\n"
-    },
-    "Better Aldehyde": {
-        "2022-07-12": "- [[**Better Aldehyde**]]\n"
     },
     "2971DF.jpeg": {
         "2022-07-12": "![[**2971DF.jpeg**]]\n"

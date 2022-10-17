@@ -11,10 +11,6 @@
     "message": "프로젝트",
     "description": "The label for category Projects in sidebar sidebar"
   },
-  "sidebar.sidebar.link.Archive": {
-    "message": "비활성",
-    "description": "The label for link Archive in sidebar sidebar, linking to /w/archive"
-  },
   "sidebar.sidebar.category.Readings": {
     "message": "독서록",
     "description": "The label for category Readings in sidebar sidebar"

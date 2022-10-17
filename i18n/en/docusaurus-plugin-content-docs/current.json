@@ -11,10 +11,6 @@
     "message": "Projects",
     "description": "The label for category Projects in sidebar sidebar"
   },
-  "sidebar.sidebar.link.Archive": {
-    "message": "Archive",
-    "description": "The label for link Archive in sidebar sidebar, linking to /w/archive"
-  },
   "sidebar.sidebar.category.Readings": {
     "message": "Readings",
     "description": "The label for category Readings in sidebar sidebar"
