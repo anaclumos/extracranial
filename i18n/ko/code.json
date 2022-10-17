@@ -552,7 +552,7 @@
     "message": "또는 토끼굴에 뛰어들기."
   },
   "backlink.title": {
-    "message": "이 노트를 언급된 노트들",
+    "message": "이 문서를 언급한 문서들",
     "description": "The title of the backlink section"
   },
   "backlink.noBacklink": {
