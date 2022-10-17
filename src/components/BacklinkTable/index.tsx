@@ -64,7 +64,16 @@ const Backlink = (props: Props) => {
                 </Link>
               )
             }
-          )) || <p>No links to this note</p>}
+          )) || (
+          <p className={styles.noBacklink}>
+            {translate({
+              id: 'backlink.noBacklink',
+              message: 'Nothing here yet...',
+              description:
+                'The message when there is no backlink',
+            })}
+          </p>
+        )}
       </div>
     </div>
   )

@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "33d434d75111e202",
+        "id": "0a35c7531cd2135e",
         "type": "tabs",
         "children": [
           {
-            "id": "68ec2e82ca98dc8f",
+            "id": "a2847f2d20166418",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-16.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-10-16.md"
-              }
+              "state": {}
             }
           },
           {
@@ -134,11 +126,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "68ec2e82ca98dc8f",
+  "active": "a2847f2d20166418",
   "lastOpenFiles": [
+    "Journals/2022-10-16.md",
     "Projects/Better Aldehyde/Better Aldehyde.md",
     "Projects/Better Aldehyde/Backlinking.md",
-    "Journals/2022-10-16.md",
     "Journals/2022-10-04.md",
     "Research/Inliner.md",
     "Hey.md",

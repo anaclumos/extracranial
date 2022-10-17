@@ -550,5 +550,13 @@
   },
   "Or dive down the rabbit hole.": {
     "message": "Or dive down the rabbit hole."
+  },
+  "backlink.title": {
+    "message": "Links to This Note",
+    "description": "The title of the backlink section"
+  },
+  "backlink.noBacklink": {
+    "message": "Nothing here yet...",
+    "description": "The message when there is no backlink"
   }
 }
