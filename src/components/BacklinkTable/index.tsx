@@ -50,7 +50,7 @@ const Backlink = (props: Props) => {
               .replace('.md', '')
             return (
               <Link
-                to={filenames[backlinkTitle]}
+                to={filenames[backlinkTitle.toLowerCase()]}
                 className={styles.backlinkItemLink}
               >
                 <div className={styles.backlinkItem}>
