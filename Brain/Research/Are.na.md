@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/3F44BF'
 ---
 
-![[Pasted image 20221013004704.png]]
+![[0C0026.png]]
 
 - [Are.na](https://www.are.na/)
 

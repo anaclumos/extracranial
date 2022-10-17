@@ -20,7 +20,7 @@ I tried this in 2019.
 Using a 10-year-old iPhone 3GS running iOS6 as my primary phone, I untethered myself from the internet.
 I only used limited capabilities like phone calls, messages, music, and reminders.
 
-![[Pasted image 20220713171801.png]]
+![[0550C5.png]]
 
 However, I cannot do this anymore.
 As a software engineer and computer scientist, I always require internet access for my work and projects.

@@ -30,4 +30,4 @@ slug: '/172E82'
 </LinearLayout>
 ```
 
-![[Pasted image 20220917153155.png]]
+![[094016.png]]

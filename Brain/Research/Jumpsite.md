@@ -7,20 +7,20 @@ Jumpsite Service, or Web Linking Network Service, is a collective term for a [[s
 
 ## [[Hacker News]]
 
-![[Pasted image 20221013004141.png]]
+![[010040.png]]
 
 ## [[Daily Dev]]
 
-![[Pasted image 20221013004218.png]]
+![[049040.png]]
 
 ## [[Surfit]]
 
-![[Pasted image 20221013004357.png]]
+![[0500A8.png]]
 
 ## [[Are.na]]
 
-![[Pasted image 20221013004704.png]]
+![[0C0026.png]]
 
 ## [[Mood.surf]]
 
-![[Pasted image 20221013005758.png]]
+![[0E0040.png]]

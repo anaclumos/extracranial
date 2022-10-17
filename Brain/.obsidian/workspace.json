@@ -4,33 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7a33478c8da56fde",
+        "id": "dc6a975766315795",
         "type": "tabs",
         "children": [
           {
-            "id": "1fb0d98416ab02a1",
+            "id": "0939669cfa64010d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-17.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e08c88e0d38b000e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Projects.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -99,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-10-17.md"
-              }
+              "state": {}
             }
           },
           {
@@ -147,17 +126,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1fb0d98416ab02a1",
+  "active": "0939669cfa64010d",
   "lastOpenFiles": [
-    "Research/Vannevar Bush.md",
-    "Research/Memex.md",
-    "Journals/2022-10-17.md",
-    "Projects/Projects.md",
+    "Assets/0D50A5.png",
+    "Assets/0B50F4.png",
+    "Assets/0A6052.png",
+    "Assets/D4C125.gif",
+    "Research/Untitled.md",
+    "Assets/013057.png",
     "Assets/87640C.png",
-    "Projects/Dynamic Island on the Web.md",
-    "Journals/2022-10-16.md",
-    "Journals/2022-10-15.md",
-    "Journals/2022-10-14.md",
-    "Journals/2022-10-13.md"
+    "Assets/F9FF01.png",
+    "Assets/E45BFC.png",
+    "Assets/09C040.png"
   ]
 }

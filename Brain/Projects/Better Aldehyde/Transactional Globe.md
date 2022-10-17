@@ -11,15 +11,15 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 
-![[Pasted image 20221010141050.png]]
-![[Pasted image 20221010141055.png]]
-![[Pasted image 20221010141100.png]]
+![[0C90F8.png]]
+![[06D096.png]]
+![[0730FD.png]]
 
 </DisplayFlex>
 
 Map those into the globe on the main page:
 
-![[Pasted image 20221010141610.png]]
+![[0B50F4.png]]
 
 - We might need to recreate the Globe ([COBE](https://cobejs.vercel.app/) does not support this.)
 - Can I automatically update the graph?
