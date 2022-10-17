@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/A8D05E'
 ---
 
-This is a meta-page that collects my to-read lists.
+This is a [[Metapage|meta-page]] that collects my to-read lists.
 
 ## Complete
 
