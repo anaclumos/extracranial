@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6369d39d1716d900",
+        "id": "53b1abccee925205",
         "type": "tabs",
         "children": [
           {
-            "id": "8b43feab51f79fe4",
+            "id": "98b3880931f3a29c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Journals/2022-10-17.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "db66f885a4524eb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-17.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "bb43bbc2be51eb17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/Backlink.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Backlink.md",
+                "file": "Journals/2022-10-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Backlink.md"
+                "file": "Journals/2022-10-17.md"
               }
             }
           },
@@ -161,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "bb43bbc2be51eb17",
+  "active": "98b3880931f3a29c",
   "lastOpenFiles": [
+    "Research/SendGrid.md",
+    "Projects/Done/Letter to Mr. Alexander Obenauer on 2022-10-12.md",
     "Journals/2022-10-17.md",
+    "Research/Primary-Recency Effect.md",
+    "Research/Backlink.md",
     "Journals/2022-10-16.md",
     "Assets/34D9C3.png",
     "Assets/Pasted image 20221017030140.png",
     "Research/Andy Matuschak.md",
-    "Research/Evergreen Notes.md",
-    "Research/Atomic Notes System.md",
-    "Projects/Someday/Intracranial.md",
-    "Journals/2022-06-26.md",
-    "Research/Backlink.md"
+    "Research/Evergreen Notes.md"
   ]
 }
