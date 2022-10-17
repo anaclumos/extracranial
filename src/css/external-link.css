@@ -17,8 +17,6 @@ article a[href^='http']::after {
   width: 1.25em;
   height: 1.25em;
   margin-bottom: 0.15em;
-  margin-left: 0.1em;
-  margin-right: 0.2em;
   display: inline-block;
   vertical-align: middle !important;
   mask-repeat: no-repeat;
