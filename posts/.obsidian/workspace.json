@@ -1,23 +1,18 @@
 {
   "main": {
-    "id": "2993533c7e40d307",
+    "id": "7449e6eaf5fd563a",
     "type": "split",
     "children": [
       {
-        "id": "346bca4482be4735",
+        "id": "d3c98c1257d25696",
         "type": "tabs",
         "children": [
           {
-            "id": "64901b64bc994efa",
+            "id": "4489c798489c651c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-07-06.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -26,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7403db17d0484814",
+    "id": "d7ad2cee94a3092e",
     "type": "split",
     "children": [
       {
-        "id": "bc96f4531524c994",
+        "id": "3f966f826f3a04d8",
         "type": "tabs",
         "children": [
           {
-            "id": "aa73c60d583d3db3",
+            "id": "e8d041a3fa1bbbc1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,13 +39,13 @@
             }
           },
           {
-            "id": "b9b3d1724f39de07",
+            "id": "42bce3a99f9624d1",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "draft: true",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -59,7 +54,7 @@
             }
           },
           {
-            "id": "8a1cbdbe60bd7d71",
+            "id": "724b6e3814c630ea",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -70,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 300
   },
   "right": {
-    "id": "1bb7f4a449135cb3",
+    "id": "a8fd6a6ac2e52122",
     "type": "split",
     "children": [
       {
-        "id": "9c29e4577df9a66b",
+        "id": "16b6c54b22d41b7d",
         "type": "tabs",
         "children": [
           {
-            "id": "3d8fcfa116cdddff",
+            "id": "2835149722719413",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-07-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,53 +92,45 @@
             }
           },
           {
-            "id": "59bace770cf9ea54",
+            "id": "2346d560ef5aeceb",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "outgoing-link",
               "state": {
-                "file": "Journals/2022-07-06.md"
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "349901b993d3fba4",
+            "id": "9dfad8d7b9a097b1",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           },
           {
-            "id": "5de072701500b87e",
+            "id": "ae8e1cb3a96c5d86",
             "type": "leaf",
             "state": {
-              "type": "Review Daily Notes",
+              "type": "outline",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 415.5,
+    "width": 300,
     "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "64901b64bc994efa",
-  "lastOpenFiles": [
-    "Journals/2022-07-07.md",
-    "Journals/2022-07-08.md",
-    "Journals/2022-10-17.md",
-    "Journals/2022-07-06.md",
-    "Research/Inliner.md",
-    "Journals/2022-07-12.md",
-    "Journals/2022-07-11.md",
-    "Journals/2022-07-10.md",
-    "Journals/2022-07-09.md",
-    "Journals/2022-07-05.md"
-  ]
+  "active": "4489c798489c651c",
+  "lastOpenFiles": []
 }
