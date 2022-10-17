@@ -206,6 +206,11 @@ export const backlinks = {
         "WebAssembly": "- [[**Satori**]]\n",
         "2022-10-11": "- [[**Satori**]]\n"
     },
+    "pretendard": {
+        "서울 프로": "다만 [[**Pretendard**]] 또한 몇 가지 아쉬운 점을 유지하고 있다.\n",
+        "Font Features": "- San Francisco, Inter, and [[**Pretendard**]] has awesome support.\n",
+        "Pretendard의 아쉬운 점": "[[**Pretendard**]]가 이 문제를 어떻게 해결하는지 모른다.\n"
+    },
     "san francisco": {
         "서울 프로": "이름 또한 [[**San Francisco**|SF Pro]]에서 유래하였다.\n",
         "Font Features": "- [[**San Francisco**]], [[Inter",
@@ -229,9 +234,6 @@ export const backlinks = {
     },
     "inter": {
         "Font Features": "- San Francisco, [[**Inter**]], and [[Pretendard"
-    },
-    "pretendard": {
-        "Font Features": "- San Francisco, Inter, and [[**Pretendard**]] has awesome support.\n"
     },
     "pasted image 20221014232128.png": {
         "Font Features": "![[**Pasted image 20221014232128.png**]]\n"

@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0a35c7531cd2135e",
+        "id": "6369d39d1716d900",
         "type": "tabs",
         "children": [
           {
-            "id": "a2847f2d20166418",
+            "id": "8b43feab51f79fe4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/CSS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3f8f26709551abf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/Pretendard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Pretendard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Research/Pretendard.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,17 +126,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "3f8f26709551abf8",
+  "active": "8b43feab51f79fe4",
   "lastOpenFiles": [
+    "Research/CSS.md",
+    "Assets/Pasted image 20221016212909.png",
+    "Research/Pragmatic Engineer.md",
+    "Research/Pretendard.md",
     "Research/Toss.md",
     "Journals/2022-10-16.md",
-    "Research/CSS.md",
     "Research/mobi.md",
     "Research/Web Browser.md",
     "Research/DOM Reflow.md",
-    "Research/Code Quality.md",
-    "Projects/Someday/Metadata as a Service.md",
-    "Projects/Coding Tests/0215 Kth Largest Element in an Array.md",
-    "Research/Simple DirectMedia Layer.md"
+    "Research/Code Quality.md"
   ]
 }
