@@ -65,8 +65,8 @@ export default function DocItemLayout({
             <DocItemContent>{children}</DocItemContent>
             <DocItemFooter />
           </article>
-          <Backlink documentTitle={title} />
           <DocItemPaginator />
+          <Backlink documentTitle={title} />
         </div>
       </div>
       {docTOC.desktop && (
