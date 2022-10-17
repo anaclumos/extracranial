@@ -8,7 +8,7 @@ slug: '/A6DBE3'
 | Command                | Description                                                                                     |
 | ---------------------- | ----------------------------------------------------------------------------------------------- |
 | `gdb executable`       | starts executable                                                                               |
-| `layout asm`           | prints assembly codes                                                                           |
+| `layout asm`           | prints [[assembly]] codes                                                                           |
 | CTRL+L                 | reformats terminal                                                                              |
 | `b function_name`      | sets a breakpoint at function_name                                                              |
 | `b *0x555555555712`    | sets a breakpoint at specified address                                                          |
