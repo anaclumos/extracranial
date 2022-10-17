@@ -5,6 +5,8 @@ import styles from './styles.module.css'
 import { backlinks } from './backlinks'
 import { filenames } from './filenames'
 import { translate } from '@docusaurus/Translate'
+// @ts-ignore
+import { useDoc } from '@docusaurus/theme-common/internal'
 
 type Props = {
   documentTitle: string
@@ -28,6 +30,17 @@ const processBacklinkItem = (text: string) => {
 
 const Backlink = (props: Props) => {
   const { documentTitle } = props
+  const { frontMatter } = useDoc()
+  const { aliases } = frontMatter
+
+  const backlinkItems =
+    backlinks[documentTitle.toLowerCase()]
+  if (aliases)
+    for (const alias of aliases) {
+      if (backlinks[alias]) {
+        backlinkItems.push(...backlinks[alias])
+      }
+    }
 
   return (
     <div className={styles.backlink}>
@@ -39,30 +52,28 @@ const Backlink = (props: Props) => {
         })}
       </h2>
       <div className={styles.backlinkList}>
-        {(backlinks[documentTitle] &&
-          Object.keys(backlinks[documentTitle]).map(
-            (backlink) => {
-              const backlinkTitle = backlink
-                .split('/')
-                .pop()
-                .replace('.md', '')
-              return (
-                <Link
-                  to={filenames[backlinkTitle]}
-                  className={styles.backlinkItemLink}
-                >
-                  <div className={styles.backlinkItem}>
-                    <h3 className={styles.mentioner}>
-                      {backlinkTitle}
-                    </h3>
-                    {processBacklinkItem(
-                      backlinks[documentTitle][backlink]
-                    )}
-                  </div>
-                </Link>
-              )
-            }
-          )) || (
+        {(backlinkItems &&
+          Object.keys(backlinkItems).map((backlink) => {
+            const backlinkTitle = backlink
+              .split('/')
+              .pop()
+              .replace('.md', '')
+            return (
+              <Link
+                to={filenames[backlinkTitle]}
+                className={styles.backlinkItemLink}
+              >
+                <div className={styles.backlinkItem}>
+                  <h3 className={styles.mentioner}>
+                    {backlinkTitle}
+                  </h3>
+                  {processBacklinkItem(
+                    backlinkItems[backlink]
+                  )}
+                </div>
+              </Link>
+            )
+          })) || (
           <p className={styles.noBacklink}>
             {translate({
               id: 'backlink.noBacklink',

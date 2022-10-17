@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/mobi.md",
-                "mode": "preview",
+                "file": "Research/Pretendard.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/mobi.md",
+                "file": "Research/Pretendard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/mobi.md"
+                "file": "Research/Pretendard.md"
               }
             }
           },
@@ -150,6 +150,8 @@
   },
   "active": "3f8f26709551abf8",
   "lastOpenFiles": [
+    "Research/Toss.md",
+    "Journals/2022-10-16.md",
     "Research/CSS.md",
     "Research/mobi.md",
     "Research/Web Browser.md",
@@ -157,8 +159,6 @@
     "Research/Code Quality.md",
     "Projects/Someday/Metadata as a Service.md",
     "Projects/Coding Tests/0215 Kth Largest Element in an Array.md",
-    "Research/Simple DirectMedia Layer.md",
-    "Journals/2022-07-03.md",
-    "Research/PDF.md"
+    "Research/Simple DirectMedia Layer.md"
   ]
 }
