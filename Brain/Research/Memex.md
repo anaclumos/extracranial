@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/D8A76E'
 ---
 
-![Vannevar Bush](../Assets/Pasted image 20221017151237.png)
+![Vannevar Bush](../Assets/87640C.png)
 
 > Consider a future device … in which an individual stores all his books, records, and communications, which is mechanized so that it may be consulted with exceeding speed and flexibility. It is an enlarged intimate supplement to his memory. [As We May Think - The Atlantic](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
 
