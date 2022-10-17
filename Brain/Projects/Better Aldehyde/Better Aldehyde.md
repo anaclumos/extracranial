@@ -10,5 +10,8 @@ Try figuring out why.
 
 ## Stuffs to improve
 
-- [[Backlinking]]
 - [[Transactional Globe]]
+
+## Done
+
+- [[Backlinking]]
