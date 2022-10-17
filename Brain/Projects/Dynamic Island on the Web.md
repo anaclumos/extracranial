@@ -8,6 +8,7 @@ slug: '/B21605'
 ## Different Sizes
 
 ![[0C4D2A.jpg]]
+![[AA04D0.gif]]
 
 ```ts
 export type DynamicIslandState = {
