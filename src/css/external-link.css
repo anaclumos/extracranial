@@ -4,7 +4,7 @@ article a[href^='http']::before {
   height: 1.25em;
   margin-left: 0.1em;
   margin-right: 0.25em;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.2em;
   display: inline-block;
   vertical-align: middle !important;
   mask-repeat: no-repeat;
