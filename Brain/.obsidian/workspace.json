@@ -32,22 +32,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "b3a6f929d379b3b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-17.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,17 +147,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "b3a6f929d379b3b3",
+  "active": "1fb0d98416ab02a1",
   "lastOpenFiles": [
+    "Research/Vannevar Bush.md",
+    "Research/Memex.md",
+    "Journals/2022-10-17.md",
+    "Projects/Projects.md",
+    "Assets/87640C.png",
     "Projects/Dynamic Island on the Web.md",
     "Journals/2022-10-16.md",
-    "Journals/2022-10-17.md",
     "Journals/2022-10-15.md",
     "Journals/2022-10-14.md",
-    "Journals/2022-10-13.md",
-    "Journals/2022-10-12.md",
-    "Journals/2022-10-11.md",
-    "Journals/2022-10-10.md",
-    "Journals/2022-10-08.md"
+    "Journals/2022-10-13.md"
   ]
 }
