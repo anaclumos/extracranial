@@ -11,8 +11,13 @@
             "id": "68ec2e82ca98dc8f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-16.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-10-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-10-16.md"
+              }
             }
           },
           {
@@ -128,15 +136,15 @@
   },
   "active": "68ec2e82ca98dc8f",
   "lastOpenFiles": [
+    "Projects/Better Aldehyde/Better Aldehyde.md",
+    "Projects/Better Aldehyde/Backlinking.md",
+    "Journals/2022-10-16.md",
     "Journals/2022-10-04.md",
     "Research/Inliner.md",
     "Hey.md",
-    "Journals/2022-10-16.md",
     "Research/Kakao.md",
     "Journals/2022-10-14.md",
     "Journals/2022-10-15.md",
-    "Projects/Dynamic Island on the Web.md",
-    "Assets/AA04D0.mp4",
-    "Research/2022-10-16.md"
+    "Projects/Dynamic Island on the Web.md"
   ]
 }
