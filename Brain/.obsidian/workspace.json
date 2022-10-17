@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Andy Matuschak.md",
+                "file": "Journals/2022-10-17.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Andy Matuschak.md",
+                "file": "Journals/2022-10-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Andy Matuschak.md"
+                "file": "Journals/2022-10-17.md"
               }
             }
           },
@@ -190,8 +190,8 @@
   },
   "active": "3c23f196a50d743d",
   "lastOpenFiles": [
-    "Research/Evergreen Notes.md",
     "Research/Andy Matuschak.md",
+    "Research/Evergreen Notes.md",
     "Research/Atomic Notes System.md",
     "Projects/Someday/Intracranial.md",
     "Journals/2022-10-17.md",
