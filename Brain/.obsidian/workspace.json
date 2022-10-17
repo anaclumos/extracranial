@@ -11,11 +11,69 @@
             "id": "8b43feab51f79fe4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "db66f885a4524eb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bb43bbc2be51eb17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b82c1e3676ee4cfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3c23f196a50d743d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/Andy Matuschak.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -61,7 +119,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Research/Andy Matuschak.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Research/Andy Matuschak.md"
+              }
             }
           },
           {
@@ -126,17 +188,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8b43feab51f79fe4",
+  "active": "3c23f196a50d743d",
   "lastOpenFiles": [
-    "Research/CSS.md",
-    "Assets/Pasted image 20221016212909.png",
-    "Research/Pragmatic Engineer.md",
-    "Research/Pretendard.md",
-    "Research/Toss.md",
-    "Journals/2022-10-16.md",
-    "Research/mobi.md",
-    "Research/Web Browser.md",
-    "Research/DOM Reflow.md",
-    "Research/Code Quality.md"
+    "Research/Evergreen Notes.md",
+    "Research/Andy Matuschak.md",
+    "Research/Atomic Notes System.md",
+    "Projects/Someday/Intracranial.md",
+    "Journals/2022-10-17.md",
+    "Journals/2022-06-26.md",
+    "Research/Backlink.md",
+    "Research/Sliding Panes.md",
+    "Research/Extracranial.md",
+    "Projects/Better Aldehyde/Backlinking for Aldehyde.md"
   ]
 }
