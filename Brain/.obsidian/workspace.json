@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-16.md",
-                "mode": "preview",
+                "file": "Journals/2022-10-17.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-16.md",
+                "file": "Journals/2022-10-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-16.md"
+                "file": "Journals/2022-10-17.md"
               }
             }
           },
@@ -163,6 +163,7 @@
   },
   "active": "bb43bbc2be51eb17",
   "lastOpenFiles": [
+    "Journals/2022-10-16.md",
     "Journals/2022-10-17.md",
     "Assets/34D9C3.png",
     "Assets/Pasted image 20221017030140.png",
@@ -171,7 +172,6 @@
     "Research/Atomic Notes System.md",
     "Projects/Someday/Intracranial.md",
     "Journals/2022-06-26.md",
-    "Research/Backlink.md",
-    "Research/Sliding Panes.md"
+    "Research/Backlink.md"
   ]
 }
