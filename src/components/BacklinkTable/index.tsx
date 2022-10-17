@@ -5,8 +5,6 @@ import styles from './styles.module.css'
 import { backlinks } from './backlinks'
 import { filenames } from './filenames'
 import { translate } from '@docusaurus/Translate'
-// @ts-ignore
-import { useDoc } from '@docusaurus/theme-common/internal'
 
 type Props = {
   documentTitle: string
@@ -30,17 +28,9 @@ const processBacklinkItem = (text: string) => {
 
 const Backlink = (props: Props) => {
   const { documentTitle } = props
-  const { frontMatter } = useDoc()
-  const { aliases } = frontMatter
 
   const backlinkItems =
     backlinks[documentTitle.toLowerCase()]
-  if (aliases)
-    for (const alias of aliases) {
-      if (backlinks[alias]) {
-        backlinkItems.push(...backlinks[alias])
-      }
-    }
 
   return (
     <div className={styles.backlink}>
