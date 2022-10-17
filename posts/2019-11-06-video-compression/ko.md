@@ -5,7 +5,7 @@ authors: anaclumos
 slug: '/6B6D29'
 ---
 
-![수학에 너무 심취한 한석원 선생님... 그만 자신을 인수분해 하고 마는데...!](images/Ghosting.png)
+![수학에 너무 심취한 한석원 선생님... 그만 자신을 인수분해 하고 마는데...!](715FD6.png)
 
 이 글에서는 동영상 압축의 원리에 대해서 알아보고 위와 같은 현상이 왜 일어나는지에 대해 다뤄보려 한다.
 
@@ -45,7 +45,7 @@ slug: '/6B6D29'
 
 동영상도 마찬가지이다. 많은 동영상은 앞뒤 프레임이 비슷하기 때문에 동영상도 프레임 전후의 관계로 정보를 표현하거나 아예 생략할 수 있다. 이를 통해 시간상의 중복성(Temporal Redundancy)을 줄일 수 있다.
 
-![한 분만 고르세요.](images/Ideal-Principal.png)
+![한 분만 고르세요.](D04B1D.png)
 
 ### #1. 기준이 되는 `I-Frame`
 
@@ -55,7 +55,7 @@ I-Frame(Intra-coded picture)은 사진이라고 봐도 무방하다. I-Frame 내
 
 각각의 I-Frame 사이에서는 P-Frame(Predicted Pictures)을 삽입한다. P-Frame에는 이전 화면과의 변화량이 표현되어 있다. 현재 프레임이 앞 프레임과 공통점이 있을 경우 앞 프레임의 정보를 가져와 사용하는 것이다. 그림을 보면 이해가 좀 편하다.
 
-![Copyright: Blender Foundation 2006. Netherlands Media Art Institute. www.elephantsdream.org](images/Elephantsdream_vectorstill04.png)
+![Copyright: Blender Foundation 2006. Netherlands Media Art Institute. www.elephantsdream.org](7F7A32.png)
 
 화살표로 표현된 것이 변화량을 나타내는 Motion Vector이다. 이 외에도 P-Frame에는 예측 보정을 위한 변환값들이 포함되어 있다. P-Frame에도 새로운 이미지 정보가 포함되는 경우가 있다. P-Frame은 I-Frame의 절반 정도의 크기만 사용한다. 물론 실제 동영상 인코딩에서는 모든 픽셀 정보를 비교하는 대신 여러 블록 단위로 쪼개서 비교한다. 이를 매크로블록(Macroblock)이라고 하며, 최신 영상 코덱인 HEVC에서는 코딩 트리 유닛(Coding Tree Unit)이라고 부른다.
 

@@ -50,13 +50,13 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 
 ## Interactive Contents & Animations
 
-![victordibia.com. Seems like using MDX.](images/Screen-Recording-2022-05-07-at-10.49.10-PM.gif)
+![victordibia.com. Seems like using MDX.](B717F8.gif)
 
-![bluewings.github.io. Confirmed using MDX.](images/Screen-Recording-2022-05-08-at-10.02.47-PM.gif)
+![bluewings.github.io. Confirmed using MDX.](FB685B.gif)
 
-![pomb.us. Reacts to user scroll.](images/Screen-Recording-2022-05-08-at-10.04.50-PM.gif)
+![pomb.us. Reacts to user scroll.](8F78C9.gif)
 
-![qubit.donghwi.dev. This isn't a blog; it's a web app that demonstrates key concepts of Quantum Computers. But still interesting.](images/Screen-Recording-2022-05-08-at-10.08.33-PM.gif)
+![qubit.donghwi.dev. This isn't a blog; it's a web app that demonstrates key concepts of Quantum Computers. But still interesting.](ED77BD.gif)
 
 ## Unorganized Graphing.
 
@@ -72,7 +72,7 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 - You don't need to manually organize all of the files when algorithms can read all the texts and organize them for you!
 - Use algorithmic inspections to analyze how the posts may interrelate with each other properly.
 
-![Velog.io, the Korean version of dev.to, links relevant posts for every post.](images/image-8.png)
+![Velog.io, the Korean version of dev.to, links relevant posts for every post.](8E5E49.png)
 
 - Therefore, creating a cluster of posts, not classified by me, but bots and algorithms.
 
@@ -80,7 +80,7 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 
 - This is similar to backlinking, which most so-called digital brains such as [Obsidian](https://obsidian.md/) and [Dendron](https://www.dendron.so/) are doing.
 
-![Example of backlinking from Dendron](images/image-9.png)
+![Example of backlinking from Dendron](D9987E.png)
 
 - I agree with the importance of interlinking knowledge crumbles, but I can't entirely agree with their method.
 - Manually linking posts are inconsistent and troublesome; it can only be done on a massive communal scale, like Wikipedia.
@@ -96,7 +96,7 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 
 - For example, GitHub creates automatic open graph images with their metadata.
 
-![Example open graph image from GitHub](images/image-10.png)
+![Example open graph image from GitHub](7D9CF1.png)
 
 - There are quite some services using this technique.
 - GitHub wrote an excellent [post](https://github.blog/2021-06-22-framework-building-open-graph-images/) on implementing this feature.
@@ -140,7 +140,7 @@ font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont,
 - However, I am exploring other options.
 - I liked [TossFace](https://toss.im/tossface)'s bold attempt to infuse Korean values into the Japan-based emoji system for emoji. (lol, but they canceled it.)
 
-![Tossface Original Emojis](images/IMG_1136.PNG)
+![Tossface Original Emojis](9DF9E8.png)
 
 - Honestly, I want this back. They can use Unicode [Private Use Area](https://en.wikipedia.org/wiki/Private_Use_Areas#:~:text=In%20Unicode%2C%20a%20Private%20Use,characters%20by%20the%20Unicode%20Consortium.). But Toss is too lazy to do that considering they still didn't make the WOFF version Webfont.
 - So I might use [Twemoji](https://twemoji.twitter.com/).
@@ -168,7 +168,7 @@ I don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. Wha
 - cho.sh/♥/e5732f/ko
 - cho.sh/🧠/e5732f/en
 
-![Also found that Twitter doesn't support Unicode URLs.](images/image-11.png)
+![Also found that Twitter doesn't support Unicode URLs.](E14405.png)
 
 # #5 Miscellany
 
@@ -176,8 +176,8 @@ I don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. Wha
 
 - There should be a method to penalize old posts; they should exist in the database but wouldn't appear as much on the data chain. i.e., put a lifespan or "valid until" for posts.
 
-![홍민희 블로그](images/image-6.png)
-![Kat Huang](images/image-7.png)
+![홍민희 블로그](AEFFCB.png)
+![Kat Huang](85AF78.png)
 
 ## Footnotes
 

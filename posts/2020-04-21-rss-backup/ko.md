@@ -290,7 +290,7 @@ id: /_ Some Post ID _/
 ---
 ```
 
-![Jekyll Style Front Matter on GitHub](images/min-jekyll-style-front-matter.png)
+![Jekyll Style Front Matter on GitHub](9B416C.png)
 
 Front Matter는 GitHub에서 이렇게 렌더링되어 보인다.
 
@@ -402,11 +402,11 @@ def isDomain(self, string):
 
 이 블로그를 백업해보았다. 이 블로그는 Self-hosted [Ghost](https://ghost.org) 블로그이다. `main.py`만 실행하면 쭉 백업이 진행된다.
 
-![백업된 글들이다. 폴더 이름은 글의 제목으로 설정된다.](images/min-rss-posts-backed-up.png)
+![백업된 글들이다. 폴더 이름은 글의 제목으로 설정된다.](E3B274.png)
 
-![GitHub 상에 백업된 글의 모습이다. 사진 또한 블로그 서버 대신 폴더에 직접 저장하여 보여주는 것이다.](images/min-favorite-css-text-backed-up.png)
+![GitHub 상에 백업된 글의 모습이다. 사진 또한 블로그 서버 대신 폴더에 직접 저장하여 보여주는 것이다.](E98816.png)
 
-![폴더에는 글에 사용된 사진들이 저장된다.](images/min-favorite-css-images-backed-up.png.png)
+![폴더에는 글에 사용된 사진들이 저장된다.](C55153.png)
 
 테스트해본 바로 다음 서비스들이 지원된다. 글의 양식이나 배열이 조금 다를 수 있지만 **백업**의 목적은 충분히 달성한다.
 

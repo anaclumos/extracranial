@@ -8,7 +8,7 @@ slug: '/92B47B'
 
 <figure>
 
-![ALT: tossface.cho.sh](screenshot.png)
+![ALT: tossface.cho.sh](25AAC2.png)
 
 <figcaption>
 
@@ -28,7 +28,7 @@ Tossface initially included a series of intentionally divergent emoji designs,
 replacing culturally specific Japanese emojis with designs representing related Korean concepts
 and outdated technologies with contemporary technologies.
 
-![Tossface's first release. Toss: "Right Now, The Right Us (Hinting Modern & Korean Values)"](tossface.png)
+![Tossface's first release. Toss: "Right Now, The Right Us (Hinting Modern & Korean Values)"](9A9620.png)
 
 - [Why can't I just welcome Tossface?](https://www-jiwon-me.translate.goog/tossface/?_x_tr_sl=ko&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
 
@@ -44,7 +44,7 @@ This area will remain unassigned for standard emojis, and companies can use it a
 Regrettably, those letters with Korean and contemporary style in a clean and neat tone and manners disappeared into history.
 Therefore, I have proposed returning the emojis using a standard technology known as Unicode Private Area.
 
-![@toss/tossface/issues/4](issue.png)
+![@toss/tossface/issues/4](5CE956.png)
 
 After about three months, Viva Republica accepted the request.
 They redistributed those emojis in Tossface v1.3, from PUA U+E10A to U+E117.
@@ -66,7 +66,7 @@ so I used Next.js, Vercel, and Tailwind.
 After creating the website, it now looked like a Museum of Korean Culture,
 so I added some text in English and shared it publicly.
 
-![Page View Nationality Break Down](nationality-breakdown.jpg)
+![Page View Nationality Break Down](10F5AA.jpg)
 
 ## Postmortem
 
