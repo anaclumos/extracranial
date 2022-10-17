@@ -1,5 +1,4 @@
 export const filenames = {
-    "Hey": "",
     "Swift": "2EAC56",
     "SwiftUI": "F65967",
     "Backlink": "05F4CF",
@@ -32,6 +31,7 @@ export const filenames = {
     "WebAssembly": "60C4E1",
     "초상권 vs 저작권": "46AF52",
     "Microproject": "A46FA5",
+    "Tailwind": "{{hex}}",
     "ShadowRealm": "C0269E",
     "PNG": "C53294",
     "서울 프로": "FA1204",
@@ -380,9 +380,5 @@ export const filenames = {
     "한자 타자기": "FCE414",
     "Building a Second Brain": "6AE59D",
     "경제 개발의 길목에서": "0F686C",
-    "지구 끝의 온실": "192269",
-    "grind": "{{hex}}",
-    "note": "{{hex}}",
-    "journal": "{{date:YYYY-MM-DD}}",
-    "person": "{{title}}"
+    "지구 끝의 온실": "192269"
 }

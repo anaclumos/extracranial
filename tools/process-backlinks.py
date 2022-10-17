@@ -16,7 +16,19 @@ if __name__ == "__main__":
         exit(1)
     for root, dirs, files in os.walk(target_directory):
         for file in files:
-            if file.endswith(".md"):
+            if file.endswith(".md") or file.endswith(".mdx"):
+
+                if "templates" in root.lower():
+                    continue
+                if "templates" in file.lower():
+                    continue
+                add = True
+                for dir in dirs:
+                    if "templates" in dir.lower():
+                        add = False
+                if not add:
+                    continue
+                all_md_files.append(os.path.join(root, file))
                 all_md_files.append(os.path.join(root, file))
 
     print("Found " + str(len(all_md_files)) + " MD files.")

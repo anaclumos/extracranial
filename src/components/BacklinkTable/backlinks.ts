@@ -1,42 +1,4 @@
 export const backlinks = {
-    "research": {
-        "Hey": "Welcome to my [[**research**]] note.\n"
-    },
-    "Building a Second Brain": {
-        "Hey": "  - [[**Building a Second Brain**|BASB]] recommends compressing 50x\n",
-        "PARA": "- PARA is a second-brain framework, mentioned in [[**Building a Second Brain**]]\n",
-        "CODE": "- The CODE Procedure is a second-brain building procedure introduced in [[**Building a Second Brain**]].\n",
-        "2022-07-01": "## [[**Building a Second Brain**]]\n",
-        "2022-06-14": "- _[[**Building a Second Brain**]]: A Proven Method to Organize Your Digital Life and Unlock Your",
-        "Readings": "- [x] [[**Building a Second Brain**]]\n"
-    },
-    "Inliner": {
-        "Hey": "- Use [[**Inliner**]]\n",
-        "2022-10-04": "- [[**Inliner**]]\n"
-    },
-    "Obsidian": {
-        "Hey": "I use [[**Obsidian**]] for taking notes.\n",
-        "Our tools also shape us": "  - [[**Obsidian**]] makes you a connector + writer\n",
-        "Nota": "Awesome alternative to [[**Obsidian**]].\n",
-        "Tools for Thought": "- [zadam/trilium](https://github.com/zadam/trilium): [[**Obsidian**]]-like note-taking service.\n",
-        "Better Obsidian": "## Extension Ideas for [[**Obsidian**]]\n",
-        "2022-10-13": "- [[**Obsidian**]] is now out of beta\n",
-        "2022-07-18": "- [[**Obsidian**]]-like [[Tools for Thought"
-    },
-    "TypeScript": {
-        "Hey": "I pipeline those notes into a heavily customized [[**TypeScript**]] [[Docusaurus",
-        "Deno Deploy": "- [[**TypeScript**|**TypeScript**]], [[WebAssembly|Wasm",
-        "2022-09-30": "### [[**TypeScript**]] Dynamic Types with String Interpolations\n"
-    },
-    "Vercel": {
-        "Hey": "I use [[**Vercel**]] for deploying, caching and distributing.\n",
-        "Satori": "- Fast: [[**Vercel**]] OG (500KB) is 100x more lightweight than Chromium + Puppeteer (50MB).",
-        "Stories Behind Satori": "The [[**Vercel**]] team [[Dogfooding|dogfooded",
-        "2022-07-10": "- [[**Vercel**]] hid the compilation process with its proprietary `vercel dev` command.\n",
-        "2022-06-22": "Deno envisions a [[**Vercel**]]-like experience for the backend (FaaS.)\n",
-        "2022-09-30": "### [[**Vercel**]] [[NextJS",
-        "2022-10-10": "  - I just love [[**Vercel**]]... they _know_ stuff.\n"
-    },
     "Apple": {
         "Swift": "- Programming Language for [[**Apple**]] platforms\n",
         "How is WebAssembly cross-platform when Assembly is not": "it pack multiple precompiled binary executables for multiple CPU vendors, like [[**Apple**]]'s Universal Binary?\n",
@@ -68,8 +30,17 @@ export const backlinks = {
         "Super App and Democracy": "says, “It's no coincidence at all that WeChat is the only “[[**Super App**|everything app]]” anyone can cite, and it comes from China, an authoritarian regime._\n",
         "Toss": "- I'd say _the most innovative_ Financial [[**Super App**]] I've ever seen in Korea and U.S.\n"
     },
+    "Vercel": {
+        "Satori": "- Fast: [[**Vercel**]] OG (500KB) is 100x more lightweight than Chromium + Puppeteer (50MB).",
+        "Stories Behind Satori": "The [[**Vercel**]] team [[Dogfooding|dogfooded",
+        "2022-07-10": "- [[**Vercel**]] hid the compilation process with its proprietary `vercel dev` command.\n",
+        "2022-06-22": "Deno envisions a [[**Vercel**]]-like experience for the backend (FaaS.)\n",
+        "2022-09-30": "### [[**Vercel**]] [[NextJS",
+        "2022-10-10": "  - I just love [[**Vercel**]]... they _know_ stuff.\n"
+    },
     "HTML": {
         "Satori": "in a Serverless Function and taking a screenshot of the given [[**HTML**]] page with Puppeteer. Setting up these tools was hard to implement",
+        "Tailwind": "> Rapidly build modern websites without ever leaving your [[**HTML**]]. A utility-first [[CSS",
         "CSS": "presentation of a document written in a markup language such as [[**HTML**]] or XML (including XML dialects such as [[SVG",
         "DOM": "is a cross-platform and language-independent interface that treats an XML or [[**HTML**]] document as a tree structure wherein each node is an object",
         "JavaScript": "one of the core technologies of the World Wide Web, alongside [[**HTML**]] and CSS. As of 2022, 98% of websites use JavaScript on",
@@ -81,10 +52,18 @@ export const backlinks = {
         "2022-07-10": "longer make any improvements in `og-image.cho.sh`, and invest those time in [[**Open Graph Image as a Service**]].\n",
         "2022-10-10": "- [[**Open Graph Image as a Service**]]\n"
     },
+    "CSS": {
+        "Satori": "- Basic [[**CSS**]] layout, styling, and typography.\n",
+        "Font Features": "- [[**CSS**]] property to enhance legibilities of a [[Font",
+        "Markdown Email Client": "- Before sending, select one [[**CSS**]]\n"
+    },
     "Emoji": {
         "Satori": "- Font and [[**Emoji**]] Subsets from Google Fonts and other CDNs\n",
         "Stories Behind Satori": "The same applies to [[**Emoji**|emojis]].\n",
         "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[**Emoji**|**Emoji**s]]. [유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포"
+    },
+    "Tailwind": {
+        "Satori": "- [[**Tailwind**]] [[CSS"
     },
     "Web Worker": {
         "Satori": "core engine, [Satori](https://github.com/vercel/satori), can be used in modern browsers, Node.js, and [[**Web Worker**|**Web Worker**s]]. Building on top of the core engine, [[Vercel",
@@ -118,6 +97,10 @@ export const backlinks = {
     },
     "Pasted image 20221012124422.png": {
         "How is WebAssembly cross-platform when Assembly is not": "![[**Pasted image 20221012124422.png**]]\n"
+    },
+    "assembly": {
+        "How is WebAssembly cross-platform when Assembly is not": "- It is a specific purpose [[**assembly**]].\n",
+        "Inspecting Assembly": "         | prints [[**assembly**]] codes          "
     },
     "Toss": {
         "Tossface": "- [[**Toss**]] once withdrew the emojis, but I submitted a request to put"
@@ -188,6 +171,11 @@ export const backlinks = {
     "E45BFC.png": {
         "Extracranial": "![[**E45BFC.png**]]\n"
     },
+    "TypeScript": {
+        "Svelte": "runtime, i.e., in the browser. The compiler itself is written in [[**TypeScript**]]. Its source code is licensed under MIT License and hosted on",
+        "Deno Deploy": "- [[**TypeScript**|**TypeScript**]], [[WebAssembly|Wasm",
+        "2022-09-30": "### [[**TypeScript**]] Dynamic Types with String Interpolations\n"
+    },
     "Satori": {
         "WebAssembly": "- [[**Satori**]]\n",
         "2022-10-11": "- [[**Satori**]]\n"
@@ -205,10 +193,6 @@ export const backlinks = {
     },
     "Pasted image 20221014231601.png": {
         "Font Features": "![[**Pasted image 20221014231601.png**]]\n"
-    },
-    "CSS": {
-        "Font Features": "- [[**CSS**]] property to enhance legibilities of a [[Font",
-        "Markdown Email Client": "- Before sending, select one [[**CSS**]]\n"
     },
     "Pasted image 20221014232128.png": {
         "Font Features": "![[**Pasted image 20221014232128.png**]]\n"
@@ -287,6 +271,14 @@ export const backlinks = {
     "Roam Research": {
         "Our tools also shape us": "  - [[**Roam Research**]] makes you a connector + databaser\n",
         "Better Obsidian": "  - List view for Daily Notes like [[**Roam Research**]] and [[Logseq"
+    },
+    "Obsidian": {
+        "Our tools also shape us": "  - [[**Obsidian**]] makes you a connector + writer\n",
+        "Nota": "Awesome alternative to [[**Obsidian**]].\n",
+        "Tools for Thought": "- [zadam/trilium](https://github.com/zadam/trilium): [[**Obsidian**]]-like note-taking service.\n",
+        "Better Obsidian": "## Extension Ideas for [[**Obsidian**]]\n",
+        "2022-10-13": "- [[**Obsidian**]] is now out of beta\n",
+        "2022-07-18": "- [[**Obsidian**]]-like [[Tools for Thought"
     },
     "Letter to Mr. Matt Rickard on 2022-10-03": {
         "Screenshot as an API": "- I wrote a reply like the following. [[**Letter to Mr. Matt Rickard on 2022-10-03**]]\n",
@@ -367,8 +359,7 @@ export const backlinks = {
         "2022-10-10": "## Today's [[**Hacker News**]]\n",
         "2022-07-26": "## Today's [[**Hacker News**]]\n",
         "2022-09-05": "- An excellent recommendation from the original discussion on [[**Hacker News**|HN]] was to use [ImprovMX](https://improvmx.com) as an outgoing email server.\n",
-        "2022-10-15": "## [[**Hacker News**|HN]]\n",
-        "journal": "## [[**Hacker News**|HN]]\n"
+        "2022-10-15": "## [[**Hacker News**|HN]]\n"
     },
     "Pasted image 20221013004141.png": {
         "Jumpsite": "![[**Pasted image 20221013004141.png**]]\n",
@@ -519,8 +510,8 @@ export const backlinks = {
         "Tools for Thought": "[[**TODO**]]: Convert this page into a more in-depth case study.\n",
         "0215 Kth Largest Element in an Array": "[[**TODO**]]\n",
         "2022-10-12": "## [[**TODO**]]\n",
-        "2022-10-13": "## [[**TODO**]]\n",
-        "2022-10-15": "## [[**TODO**]]\n"
+        "2022-10-16": "## [[**TODO**]]\n",
+        "2022-10-13": "## [[**TODO**]]\n"
     },
     "Notion": {
         "Tools for Thought": "- [Craft](https://www.craft.do/): [[**Notion**]]-like service, but more focus on supporting native platforms.\n",
@@ -586,6 +577,13 @@ export const backlinks = {
     "Grammarly": {
         "Handwriting Grammarly": "- [[**Grammarly**]] for [[Handwriting Tools for Thoughts",
         "2022-10-12": "- [x] Reply to [[**Grammarly**]] Recruiter\n"
+    },
+    "Building a Second Brain": {
+        "PARA": "- PARA is a second-brain framework, mentioned in [[**Building a Second Brain**]]\n",
+        "CODE": "- The CODE Procedure is a second-brain building procedure introduced in [[**Building a Second Brain**]].\n",
+        "2022-07-01": "## [[**Building a Second Brain**]]\n",
+        "2022-06-14": "- _[[**Building a Second Brain**]]: A Proven Method to Organize Your Digital Life and Unlock Your",
+        "Readings": "- [x] [[**Building a Second Brain**]]\n"
     },
     "CODE": {
         "PARA": "- Often used with [[**CODE**]]\n"
@@ -695,7 +693,7 @@ export const backlinks = {
     },
     "Cloudflare": {
         "CELLO (Product)": "- [[**Cloudflare**]] for serving high-res images\n",
-        "2022-08-28": "- I both used [[**Cloudflare**]] Pages and [[Vercel",
+        "2022-08-28": "- **Key Strengths of Vercel over [[**Cloudflare**]] Pages**. Vercel builds faster (~3m) than [[**Cloudflare**",
         "2022-06-20": "[[**Cloudflare**]]: [Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open"
     },
     "Deno Deploy": {
@@ -753,8 +751,7 @@ export const backlinks = {
         "2022-07-02": "- Let's start from [[**Coding Tests**]] starting next week.\n",
         "2022-09-21": "## [[**Coding Tests**]]\n",
         "2022-09-05": "## [[**Coding Tests**]]\n",
-        "2022-10-15": "## [[**Coding Tests**]]\n",
-        "journal": "## [[**Coding Tests**]]\n"
+        "2022-10-15": "## [[**Coding Tests**]]\n"
     },
     "2022-09-04": {
         "0242 Valid Anagram": "Solved at: [[**2022-09-04**]]\n",
@@ -890,7 +887,8 @@ export const backlinks = {
     },
     "BFS": {
         "0733 Flood Fill": "I did [[**BFS**]], but it seems possible to do this in recursion too.\n",
-        "Real Exams": "- [[**BFS**]]\n"
+        "Real Exams": "- [[**BFS**]]\n",
+        "Real Interviews": "    - 1 conditional [[**BFS**]] problem\n"
     },
     "optimized simulation": {
         "Real Exams": "- 1 [[**optimized simulation**]]\n",
@@ -1202,6 +1200,14 @@ export const backlinks = {
     "Kakao": {
         "2022-10-16": "### [[**Kakao**]]\n"
     },
+    "How is WebAssembly cross-platform when Assembly is not": {
+        "2022-10-16": "- [ ] Finalize [[**How is WebAssembly cross-platform when Assembly is not**]]\n",
+        "2022-09-20": "- [[**How is WebAssembly cross-platform when Assembly is not**]]\n"
+    },
+    "Markdown Email Client": {
+        "2022-10-16": "- [ ] Review [MailPilot](https://www.mailpilot.app/) [[**Markdown Email Client**]]\n",
+        "2022-10-04": "- [[**Markdown Email Client**]]\n"
+    },
     "Pragmatic Engineer": {
         "2022-07-14": "## Today's [[**Pragmatic Engineer**]]\n",
         "2022-06-21": "## Today's [[**Pragmatic Engineer**]]\n"
@@ -1287,6 +1293,9 @@ export const backlinks = {
     "Someday": {
         "2022-09-09": "- [[**Someday**]]\n"
     },
+    "Typescript": {
+        "2022-09-09": "- It's a **stand-alone [[**Typescript**]]+Rust/WASM library** with its own React-like run-time. If you're familiar with React,"
+    },
     "Optimistic Nihilism": {
         "2022-08-10": "- [[**Optimistic Nihilism**]]\n",
         "2022-08-04": "### [[**Optimistic Nihilism**]]\n"
@@ -1359,19 +1368,14 @@ export const backlinks = {
     "서울 프로": {
         "2022-08-01": "- [[**서울 프로**]]\n"
     },
-    "Markdown Email Client": {
-        "2022-10-04": "- [[**Markdown Email Client**]]\n",
-        "2022-10-15": "- [ ] Review [MailPilot](https://www.mailpilot.app/) [[**Markdown Email Client**]]\n"
+    "Inliner": {
+        "2022-10-04": "- [[**Inliner**]]\n"
     },
     "Search Engine Indexing Your Life": {
         "2022-10-04": "- [[**Search Engine Indexing Your Life**]]\n"
     },
     "Try Removing": {
         "2022-10-04": "- [[**Try Removing**]]\n"
-    },
-    "How is WebAssembly cross-platform when Assembly is not": {
-        "2022-09-20": "- [[**How is WebAssembly cross-platform when Assembly is not**]]\n",
-        "2022-10-15": "- [ ] Finalize [[**How is WebAssembly cross-platform when Assembly is not**]]\n"
     },
     "Lingua Franca": {
         "2022-09-30": "- [[**Lingua Franca**]]\n"
@@ -1442,9 +1446,5 @@ export const backlinks = {
     },
     "2022-09-29": {
         "한자 타자기": "- Started reading [[**2022-09-29**]]\n"
-    },
-    "{{date:YYYY-MM-DD}}": {
-        "grind": "Solved at: [[**{{date:YYYY-MM-DD}}**]]\n",
-        "person": "- Interviewed at: [[**{{date:YYYY-MM-DD}}**]]\n"
     }
 }
