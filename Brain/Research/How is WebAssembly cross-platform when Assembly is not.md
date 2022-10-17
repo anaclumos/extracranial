@@ -50,7 +50,7 @@ After running the following command, we can get the WASM version of the function
 emcc add.c -o index.html
 ```
 
-![[Pasted image 20221012124224.png]]
+![[057041.png]]
 
 We can now create a local server to test this example.
 
@@ -72,7 +72,7 @@ We can now create a local server to test this example.
 
 And we can confirm that it is working as expected.
 
-![[Pasted image 20221012124422.png]]
+![[06F0AA.png]]
 
 ## The binary codes of WASM
 

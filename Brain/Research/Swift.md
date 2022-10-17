@@ -15,4 +15,4 @@ brew reinstall --cask swiftformat-for-xcode
 It should be `Format File`, not `SwiftFormat > Format File`.
 :::
 
-![[Pasted image 20220803235118.png]]
+![[03F094.png]]

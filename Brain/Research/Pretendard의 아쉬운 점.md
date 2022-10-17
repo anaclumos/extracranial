@@ -13,7 +13,7 @@ slug: '/3A9FCD'
 
 ## Font Family의 Font Weight 매칭 문제
 
-![[Pasted image 20220801181647.png]]
+![[045030.png]]
 
 [[Pretendard]]에서는 위와 같이 Semibold와 Extrabold 굵기를 지원한다.
 자세하게 보면 Noto Sans [[CJK]] KR Black은 Inter Extra Bold와 무게가 비슷하다.

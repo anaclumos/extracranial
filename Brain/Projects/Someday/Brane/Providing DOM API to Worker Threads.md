@@ -68,13 +68,13 @@ Then we only need to
 - `npx serve-isolated .`
 - [braneproject/serve-isolated: Serve static contents under the `crossOriginIsolated` mode.](https://github.com/braneproject/serve-isolated)
 
-![[Pasted image 20220728163149.png]]
+![[01B0AD.png]]
 
 This is so cool.
 
-![[Pasted image 20220728163239.png]]
+![[0BE08A.png]]
 
-![[Pasted image 20220728170918.png]]
+![[036000.png]]
 
 ## Save Point 1
 
@@ -172,7 +172,7 @@ function heartbeat() {
   - We then notify any function waiting at `[0]`.
 - `heart` starts beating, incrementing [[SharedArrayBuffer|SAB]] `[0]`.
 
-![[Pasted image 20220728173011.png]]
+![[0E3030.png]]
 
 ## Remote Procedure Call
 
@@ -189,7 +189,7 @@ Note that
 
 - [anaclumos/worker-rpc: PoC: Synchronous DOM API access from Worker Threads](https://github.com/anaclumos/worker-rpc)
 
-![[Pasted image 20220729175358.png]]
+![[0420C9.png]]
 
 Voila! I have created a synchronous polyfill layer for `window.prompt` and `window.innerHeight` functions inside a worker.
 

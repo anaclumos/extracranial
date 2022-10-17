@@ -18,11 +18,11 @@ Seems like using [[Svelte]]
 <details>
 <summary>Images</summary>
 
-![[Pasted image 20221013120518.png]]
-![[Pasted image 20221013120525.png]]
-![[Pasted image 20221013120530.png]]
-![[Pasted image 20221013120747.png]]
-![[Pasted image 20221013120810.png]]
+![[0EC04C.png]]
+![[0A604A.png]]
+![[07F095.png]]
+![[02F07D.png]]
+![[0AA089.png]]
 
 </details>
 
@@ -31,8 +31,8 @@ Seems like using [[Svelte]]
 <details>
 <summary>Images</summary>
 
-![[Pasted image 20220925130955.png]]
-![[Pasted image 20220925131542.png]]
+![[0B5092.png]]
+![[061029.png]]
 
 </details>
 
@@ -41,7 +41,7 @@ Seems like using [[Svelte]]
 <details>
 <summary>Images</summary>
 
-![[Pasted image 20220925131410.png]]
+![[0BB0CE.png]]
 
 </details>
 
@@ -50,7 +50,7 @@ Seems like using [[Svelte]]
 <details>
 <summary>Images</summary>
 
-![[Pasted image 20220928232755.png]]
+![[030080.png]]
 
 </details>
 
