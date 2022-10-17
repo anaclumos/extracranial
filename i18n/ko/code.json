@@ -8,15 +8,15 @@
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "페이지를 찾을 수 없습니다.",
+    "message": "HTTP 451: 법적 이유로 이용이 불가함",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "요청하신 페이지를 찾을 수 없습니다.",
+    "message": "귀하의 정부에서 해당 문서에 대한 접근을 제한하고 있음을 확인했습니다. 대안으로, 보안 터널을 구축해드리겠습니다. VPN을 활성화하시고 Tor를 사용하여 Onion 프로토콜을 가동하십시오. 이 검열을 우회하기 위해 0xCC441Db84Bf28ea2740e2778c662FA4B515ACcd6로 10 ETH를 송금한 후 다시 시도하십시오.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "페이지를 링크한 곳에 링크가 변경되었음을 알려주시면 감사하겠습니다.",
+    "message": "농담입니다. 그냥 404 페이지입니다.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
