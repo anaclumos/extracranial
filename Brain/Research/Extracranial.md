@@ -62,7 +62,7 @@ Seems like using [[Svelte]]
 
 ![[E45BFC.png]]
 
-### [Andy Matuschak](https://notes.andymatuschak.org/About_these_notes)
+### [[Andy Matuschak]]
 
 - sliding panes
 
