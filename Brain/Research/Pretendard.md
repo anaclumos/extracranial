@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8AE8DF'
+aliases: ["프리텐다드"]
 ---
 
 - [[Font]] by [orioncactus (Kil Hyung-jin)](https://github.com/orioncactus)
