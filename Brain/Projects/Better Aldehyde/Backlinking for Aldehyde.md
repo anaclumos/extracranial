@@ -7,4 +7,4 @@ slug: '/B1DFF3'
 - [[Backlink]]
 - **Links to This Note** feature is complete on [[2022-10-17]].
 
-![[20CAB2.png]]
+![[013033.png]]

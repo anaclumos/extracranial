@@ -55,7 +55,7 @@ slug: '/DAF673'
 
 이렇게 하면 다음과 같이 옵시디언이 플러그인을 인식한다.
 
-![[Pasted image 20220719214527.png]]
+![[013057.png]]
 
 - [등록할 수 있는 아이콘 리스트](https://forum.obsidian.md/t/list-of-available-icons-for-component-seticon/16332/4)
 
@@ -120,7 +120,7 @@ export default class CustomPlugin extends Plugin {
 
 왼쪽 리본 버튼을 누르면 다음과 같이 옵시디언 안내 문구가 나타난다.
 
-![[Pasted image 20220719220437.png]]
+![[0580A4.png]]
 
 Advanced Tables의 컴파일된 JS를 보면서 리버스 엔지니어링 하고 있었는데 오픈소스였다.
 살짝 억울했다.
@@ -186,7 +186,7 @@ export class ReviewDailyNotesView extends ItemView {
 }
 ```
 
-![[Pasted image 20220719223820.png]]
+![[0410A0.png]]
 
 ## 옵시디언 안의 파일 접근
 
@@ -214,7 +214,7 @@ export class TFile extends TAbstractFile {
 
 참고로 옵시디언은 Chromium이기 때문에 다음과 같이 Dev Console을 열 수 있다.
 
-![[Pasted image 20220719225604.png]]
+![[0A30F6.png]]
 
 옵시디언 API 문서를 더 읽었다.
 다음과 같은 방식으로 내부 파일들에 접근할 수 있다.
@@ -224,7 +224,7 @@ const files = this.app.vault.getFiles()
 console.log(files)
 ```
 
-![[Pasted image 20220719225900.png]]
+![[06401E.png]]
 
 즉 다음과 같이 Daily Notes만 분리할 수 있다.
 
@@ -256,15 +256,15 @@ dailyNotes.sort((a, b) => {
 })
 ```
 
-![[Pasted image 20220719230101.png]]
+![[08A0BE.png]]
 
 그렇게 해서 페이지를 추출하면 다음과 같이 List View를 만들 수 있다.
 
-![[Pasted image 20220719231900.png]]
+![[04A080.png]]
 
 일단 오늘([[2022-07-19]])은 밤이 늦었으니 내일 계속하도록 한다. 3시간 41분 했다.
 
-![[Pasted image 20220719232028.png]]
+![[0FE0B9.png]]
 
 ## [[2022-07-26]]
 
@@ -279,7 +279,7 @@ dailyNotes.sort((a, b) => {
 
 약간의 시간 투자를 하여 다음과 같이 React로 전환하였다.
 
-![[Pasted image 20220726204531.png]]
+![[0E90DF.png]]
 
 ```tsx
 async onOpen() {
