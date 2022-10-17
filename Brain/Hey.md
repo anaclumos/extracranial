@@ -12,11 +12,7 @@ slug: '/'
 Welcome to my [[research]] note.
 I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research.
 
-If you are familiar with such concepts, this website is also called:
-
-- [Memex](https://en.wikipedia.org/wiki/Memex)
-- [Personal Knowledge Base](https://en.wikipedia.org/wiki/Personal_knowledge_base)
-- [Digital Garden](https://joelhooks.com/digital-garden)
+If you are familiar with such concepts, this place is also a [[Memex]].
 
 You will find my most up-to-date interests here.
 I write in English and Korean and don't plan to translate the notes.
@@ -34,5 +30,5 @@ If you seek internationalized content, check out my [articles](/w/archive).
 
 I use [[Obsidian]] for taking notes.
 I pipeline those notes into a heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.
-I use [[Vercel]] for deploying, caching and distributing.
+I use [[Vercel]] for deploying, caching, and distributing.
 Finally, I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial), so take a look.
