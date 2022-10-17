@@ -59,12 +59,12 @@ if __name__ == "__main__":
                 before = " ".join(before_original.split(" ")[
                     -words_to_keep:])
                 if before_original != before:
-                    before = "…" + before
+                    before = "… " + before
                 center = first_mentioned_sentence.split("[[")[1].split("]]")[0]
                 after_original = first_mentioned_sentence.split("]]")[1]
                 after = " ".join(after_original.split(" ")[:words_to_keep])
                 if after_original != after:
-                    after = after + "…"
+                    after = after + " …"
                 first_mentioned_sentence = before + \
                     "[[" + center + "]]" + after
                 if source not in backlink_map:
