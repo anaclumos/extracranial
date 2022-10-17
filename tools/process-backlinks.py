@@ -67,10 +67,11 @@ if __name__ == "__main__":
                     after = after + " …"
                 first_mentioned_sentence = before + \
                     "[[" + center + "]]" + after
-                if source not in backlink_map:
-                    backlink_map[source] = {}
-                if source not in backlink_map[source]:
-                    backlink_map[source][filename] = first_mentioned_sentence
+                sourcelower = source.lower()
+                if sourcelower not in backlink_map:
+                    backlink_map[sourcelower] = {}
+                if sourcelower not in backlink_map[sourcelower]:
+                    backlink_map[sourcelower][filename] = first_mentioned_sentence
                     mention_count += 1
                 line = line.replace(
                     "[[" + mentioned_file + "]]", mentioned_file)
