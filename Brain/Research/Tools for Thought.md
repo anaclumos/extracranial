@@ -44,7 +44,7 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 - [Scrivener](https://www.literatureandlatte.com/scrivener/overview): Writing app for writers.
 - [myReach](https://myreach.io/features/): Note-taking app with lots of features.
 - [prose.sh](https://prose.sh/): a blog platform for hackers in terminal
-- [Bear Blog](https://bearblog.dev/): No trackers, no [[JavaScript|javascript]], no stylesheets blog for hackers
+- [Bear Blog](https://bearblog.dev/): No trackers, no [[JavaScript]], no stylesheets blog for hackers
 - [zadam/trilium](https://github.com/zadam/trilium): [[Obsidian]]-like note-taking service.
 - [Standard Notes | End-To-End Encrypted Notes App](https://standardnotes.com/) Standard Notes is an end-to-end encrypted note-taking app for digitalists and professionals. Capture your notes, files, and life's work all in one secure place
 - [Napkin - Collect ideas, see connections, be inspired.](https://www.napkin.one/) It's like Liner (collecting data from the internet) and Heptabase (Visual thinking). But it also uses AI to extract keywords and show relevant data.
