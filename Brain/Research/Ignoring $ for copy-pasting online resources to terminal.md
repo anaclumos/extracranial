@@ -11,4 +11,4 @@ alias "$"=""
 
 Add this to your `.bashrc` or `.zshrc`. Restart Terminal.
 
-![[0550C9.png]]
+![[FC87FE.png]]

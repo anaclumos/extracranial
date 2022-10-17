@@ -4,6 +4,6 @@ slug: '/FA003B'
 aliases: ['HN']
 ---
 
-![[010040.png]]
+![[AF8C23.png]]
 
 - [Hacker News](https://news.ycombinator.com/)
