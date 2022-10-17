@@ -1,0 +1,52 @@
+.backlink {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1rem 0 1rem;
+  margin-top: 2rem;
+  border-radius: var(--border-radius);
+  border: 2px solid var(--ifm-menu-color-background-active);
+}
+
+.backlinkTitle {
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  font-size: 1rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.backlinkList {
+  margin: 1rem 0;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  );
+}
+
+.mentioner {
+  font-size: 1rem;
+}
+
+.backlinkItem {
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.backlinkItem:hover {
+  background-color: var(--ifm-menu-color-background-active);
+}
+
+.backlinkItemLink:hover {
+  text-decoration: none;
+}
+
+.backlinkItemText {
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.mentionedString {
+  color: var(--ifm-color-emphasis-900);
+}
