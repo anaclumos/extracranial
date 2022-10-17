@@ -13,7 +13,7 @@ slug: '/3A9FCD'
 
 ## Font Family의 Font Weight 매칭 문제
 
-![[045030.png]]
+![[BD6DAB.png]]
 
 [[Pretendard]]에서는 위와 같이 Semibold와 Extrabold 굵기를 지원한다.
 자세하게 보면 Noto Sans [[CJK]] KR Black은 Inter Extra Bold와 무게가 비슷하다.
@@ -29,7 +29,7 @@ Interop의 경우는 아예 처리하지 않은 문제이다.
 
 일반적으로 알려지지 않은 사항이지만, [[CJK|한중일]]의 한문은 모두 조금씩 다르다.
 
-![[9E21DD.gif]]
+![[EF6FE0.gif]]
 
 허나 한국 한문은 자주 사용되지 않는다는 이유로 일본 한문을 그대로 가져오는 경우가 빈번하다.
 이를 한국 한문 → 일본 한문 → 중국 한문 순으로 Fallback 처리하려 했다.
