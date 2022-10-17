@@ -54,13 +54,19 @@ if __name__ == "__main__":
                     source, "**" + source + "**").replace(source + "|" + alias, "**" + alias + "**")
                 # only leave 12 words before and after the first mention
                 words_to_keep = 12
-                before = first_mentioned_sentence.split(
-                    "[[")[0].split(" ")[-words_to_keep:]
+                before_original = first_mentioned_sentence.split(
+                    "[[")[0]
+                before = " ".join(before_original.split(" ")[
+                    -words_to_keep:])
+                if before_original != before:
+                    before = "…" + before
                 center = first_mentioned_sentence.split("[[")[1].split("]]")[0]
-                after = first_mentioned_sentence.split("]]")[1].split(" ")[
-                    :words_to_keep]
-                first_mentioned_sentence = " ".join(before) + \
-                    "[[" + center + "]]" + " ".join(after)
+                after_original = first_mentioned_sentence.split("]]")[1]
+                after = " ".join(after_original.split(" ")[:words_to_keep])
+                if after_original != after:
+                    after = after + "…"
+                first_mentioned_sentence = before + \
+                    "[[" + center + "]]" + after
                 if source not in backlink_map:
                     backlink_map[source] = {}
                 if source not in backlink_map[source]:
