@@ -4,18 +4,16 @@
   "switcher",
   "graph",
   "backlink",
+  "outgoing-link",
+  "tag-pane",
   "page-preview",
   "daily-notes",
   "templates",
   "note-composer",
   "command-palette",
-  "slash-command",
   "editor-status",
   "starred",
-  "markdown-importer",
-  "random-note",
   "outline",
   "word-count",
-  "file-recovery",
-  "sync"
+  "file-recovery"
 ]

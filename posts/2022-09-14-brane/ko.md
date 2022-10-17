@@ -95,9 +95,9 @@ Line은 [Line Mini App](https://developers.line.biz/en/services/line-mini-app/)�
 
 <DisplayFlex>
 
-![스타벅스 웹앱](starbucks-web.png)
-![스타벅스 미니앱](starbucks-miniapp.png)
-![스타벅스 앱](starbucks-app.png)
+![스타벅스 웹앱](F2E628.png)
+![스타벅스 미니앱](436C60.png)
+![스타벅스 앱](83C3AF.png)
 
 </DisplayFlex>
 
@@ -127,7 +127,7 @@ navigator.geolocation.getCurrentPosition()
 
 <DisplayFlex>
 
-![오히려 알 수 없는 URL이 나타나서 거부감을 일으킬 수 있다.](karrot-status-quo.png)
+![오히려 알 수 없는 URL이 나타나서 거부감을 일으킬 수 있다.](338106.png)
 
 </DisplayFlex>
 
@@ -156,8 +156,8 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 
 <DisplayFlex>
 
-![기본 동작](vanilla.png)
-![강제로 변경한 동작](shimmed.png)
+![기본 동작](19E9E9.png)
+![강제로 변경한 동작](E8303F.png)
 
 </DisplayFlex>
 
@@ -191,7 +191,7 @@ JavaScript는 `navigator`의 진위를 검사하지 않기에 원하는 동작�
 
 ## 🥶 결빙 문제는 어떻게 해결하셨나?
 
-![얼어붙은 미니앱을 강제종료하는 슈퍼앱](icing.gif)
+![얼어붙은 미니앱을 강제종료하는 슈퍼앱](37A817.gif)
 
 하지만 여기서 또다른 문제가 발생한다.
 `iframe`은 단일 쓰레드에서 동작한다.
@@ -224,7 +224,7 @@ DOM API와 똑같이 생긴 가짜 DOM을 Worker 안에 내려주고,
 
 ## 👻 미션 임파서블을 찍는다
 
-![미션 임파서블 4에서 이단 헌트는 테러리스트 두 팀 사이에서 서로 상대방인 척 연기하며 적절하게 유리한 방향으로 교섭을 진행한다.](dom-mission-impossible.png)
+![미션 임파서블 4에서 이단 헌트는 테러리스트 두 팀 사이에서 서로 상대방인 척 연기하며 적절하게 유리한 방향으로 교섭을 진행한다.](9B6073.png)
 
 다행히도 비슷한 연구가 선행되어 있다.
 Google 사에서 AMP에 사용할 목적으로 [WorkerDOM](https://github.com/ampproject/worker-dom)이라는 것을 만들었고,
@@ -273,7 +273,7 @@ PWA 또한 초기에 수많은 네트워크 요청을 보내서
 
 ## 📦 묶어서 한 번에 보낸다
 
-![출처: web.dev/web-bundles](Pasted%20image%2020220902223114.png)
+![출처: web.dev/web-bundles](1561C2.png)
 
 이 또한 하나의 해결책이 있다.
 Google에서 [[CBOR]] 형식에 기반한
@@ -295,13 +295,13 @@ GitHub에서 멀쩡해보이는 코드도 NPM에서는 공격 코드가 삽입�
 악성 코드가 삽입되어 배포된 적 있다.
 [사고 기록](https://github.com/advisories/GHSA-pjwm-rvh2-c87w)
 
-![이렇게 수많은 기업들이 사용할 정도로 믿음직스러워 보이는 라이브러리도 방심하면 악성 코드가 된다.](Pasted%20image%2020220902224536.png)
+![이렇게 수많은 기업들이 사용할 정도로 믿음직스러워 보이는 라이브러리도 방심하면 악성 코드가 된다.](D6AC53.png)
 
 결과적으로 어떤 형태로든 슈퍼앱의 입장에서는
 미니앱 제작사의 패키지를 직접 받아서
 검수를 하고 다른 코드로 바꿔치지 못하도록 스스로 호스팅해야 한다.
 
-![근데 이건 이미 개발이 거의 완료되어 별도로 붙일만한 말이 없다.](karrot-mini.png)
+![근데 이건 이미 개발이 거의 완료되어 별도로 붙일만한 말이 없다.](D2C5B9.png)
 
 ## 😊 결론
 

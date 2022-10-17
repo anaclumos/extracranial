@@ -1,23 +1,18 @@
 {
   "main": {
-    "id": "2993533c7e40d307",
+    "id": "8d62658ea486fa6a",
     "type": "split",
     "children": [
       {
-        "id": "b59eb74ea61b7a9f",
+        "id": "06e07d03d8e3e939",
         "type": "tabs",
         "children": [
           {
-            "id": "db1808a1bd3f2a29",
+            "id": "545c353bd8131bd6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-17.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -26,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7403db17d0484814",
+    "id": "4664b4f71c38e87d",
     "type": "split",
     "children": [
       {
-        "id": "bc96f4531524c994",
+        "id": "1b0f6bbfb711b49d",
         "type": "tabs",
         "children": [
           {
-            "id": "aa73c60d583d3db3",
+            "id": "43a04c2d3b5e2dc5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,13 +39,13 @@
             }
           },
           {
-            "id": "b9b3d1724f39de07",
+            "id": "e1b1c33b6ddc8d68",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "draft: true",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -59,7 +54,7 @@
             }
           },
           {
-            "id": "8a1cbdbe60bd7d71",
+            "id": "a4e906a4e4d7c0df",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -70,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 300
   },
   "right": {
-    "id": "1bb7f4a449135cb3",
+    "id": "4bb86c29bdc699b4",
     "type": "split",
     "children": [
       {
-        "id": "9c29e4577df9a66b",
+        "id": "062ab9f4becdea52",
         "type": "tabs",
         "children": [
           {
-            "id": "3d8fcfa116cdddff",
+            "id": "5ab409fdea80ec51",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,53 +92,49 @@
             }
           },
           {
-            "id": "59bace770cf9ea54",
+            "id": "997af636cf052bc5",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "outgoing-link",
               "state": {
-                "file": "Journals/2022-10-17.md"
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "349901b993d3fba4",
+            "id": "2a9a935414c4bbbc",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           },
           {
-            "id": "5de072701500b87e",
+            "id": "3f39d0e94afdee65",
             "type": "leaf",
             "state": {
-              "type": "Review Daily Notes",
+              "type": "outline",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 415.5,
+    "width": 300,
     "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "db1808a1bd3f2a29",
+  "active": "43a04c2d3b5e2dc5",
   "lastOpenFiles": [
-    "Journals/2022-10-17.md",
-    "Projects/Someday/Better Obsidian/Better Obsidian.md",
-    "Research/Untitled.md",
-    "Assets/54F5D2.png",
-    "Assets/64C474.png",
-    "Assets/770154.png",
-    "Assets/D4C125.gif",
-    "Assets/73DAA4.png",
-    "Assets/87640C.png",
-    "Assets/F9FF01.png"
+    "2021-05-21-baemin-intern-review/images/31E2FF.png",
+    "Untitled.md",
+    "------.png"
   ]
 }

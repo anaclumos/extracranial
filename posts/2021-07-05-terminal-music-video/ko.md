@@ -53,7 +53,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 이미지를 흑백의 형태로 변환한 뒤 1비트 흑백 이미지로 변환한다.
 여기서 중요한 점은 자막은 대개 시스템 기본값이 하얀색이기 때문에 우리의 1비트 흑백 이미지에서는 **밝은 픽셀이 1이 되어야 한다는 것이다**.
 
-![우측 3개의 이미지에서 볼 수 있듯이, 그 사이의 Gray 없이 #000000 검정과 #FFFFFF 하양만으로 경계선과 형체를 만들어낼 수 있다. DemonDeLuxe (Dominique Toussaint), CC BY-SA 3.0, via Wikimedia Commons.](images/Dithering_algorithms.png)
+![우측 3개의 이미지에서 볼 수 있듯이, 그 사이의 Gray 없이 #000000 검정과 #FFFFFF 하양만으로 경계선과 형체를 만들어낼 수 있다. DemonDeLuxe (Dominique Toussaint), CC BY-SA 3.0, via Wikimedia Commons.](9F37F9.png)
 
 제일 왼쪽의 의미지는 256단계의 grayscale 이미지이고,
 나머지 3개의 이미지는 각기 다른 알고리즘으로 나타낸 모노크롬 이미지이다.
@@ -106,14 +106,14 @@ def resize(image: Image.Image, width: int, height: int) -> Image.Image:
 
 이건 사진으로 보는 것이 이해하기가 더 편하다. 왼쪽과 같이 6 x 6 이미지가 있을 경우 너비를 2픽셀, 높이를 3픽셀마다 잘라 2 x 3 이미지로 만든 뒤 이를 점자로 변환한다.
 
-![왼쪽 → 오른쪽](images/braille.001.png)
+![왼쪽 → 오른쪽](9F5DCD.png)
 
 점자 변환 알고리즘의 핵심은 어떻게 픽셀 배열에 해당하는 점자를 정확하게 찾느냐는 것이다.
 가장 단순하게 모든 픽셀 배열 조합을 점자와 매핑해놓는 방법도 있다.
 특히나 2 x 3의 점자는 26개의 조합 밖에 없기 때문이다.
 하지만 유니코드가 점자 규격이 제정될 때 점자가 어떻게 배치되었는지를 이해하면 더 간단하게 나타낼 수 있다.
 
-![참고: Braille Patterns 위키백과, 유니코드 테이블.](images/braille.002.png)
+![참고: Braille Patterns 위키백과, 유니코드 테이블.](A3F3F9.png)
 
 간단한 [유틸 코드](https://github.com/anaclumos/tools-image-to-braille)를 작성해보았다.
 이 코드의 경우 위의 로직을 이용해서 이미지를 리사이징한 뒤 점자로 변환하고 색을 입혀 `terminal`에 점자 배열을 `print`한다.
@@ -136,7 +136,7 @@ def resize(image: Image.Image, width: int, height: int) -> Image.Image:
 3.  프레임 이미지 파일이 저장될 폴더 생성
 4.  각 프레임을 저장.
 
-![위와 같은 모습으로 처리된다. GPU 가속을 사용하지 않기에 19분 15초로 상당히 오래 시간이 소요된다.](images/optimized-save-to-frames-1.png)
+![위와 같은 모습으로 처리된다. GPU 가속을 사용하지 않기에 19분 15초로 상당히 오래 시간이 소요된다.](7B31B6.png)
 
 ---
 
@@ -154,7 +154,7 @@ SubRip caption file.
 가장 위에 `Sequence` 번호, `Start --> End` 타임 스탬프 ( `HH:mm:ss,SSS` ), 그리고 자막 텍스트로 이루어져 있다.
 처음에 SubRip을 선택한 이유는 단순히 텍스트 색상을 지원하기 때문이었다.
 
-![SubRip 파일의 Text Styling에 분명 Yes라고 나와있었는데 이는 비공식적인 스타일링 문법이었다. 출처: en.wikipedia.org](images/optimized-SubRip.png)
+![SubRip 파일의 Text Styling에 분명 Yes라고 나와있었는데 이는 비공식적인 스타일링 문법이었다. 출처: en.wikipedia.org](825897.png)
 
 파일을 제작한 후 YouTube에 업로드하려 했는데 색상이 전혀 나오지 않는 것을 보고 이것이 비공식적 옵션이라는 것을 알게 되었다.
 
@@ -162,8 +162,8 @@ SubRip caption file.
 
 <DisplayFlex>
 
-![No style info (markup) is recognized in SubRip.](images/optimized-youtube-subrip.png)
-![Simple markups are supported in SAMI.](images/optimized-youtube-sami.png)
+![No style info (markup) is recognized in SubRip.](D676F4.png)
+![Simple markups are supported in SAMI.](84D026.png)
 
 </DisplayFlex>
 
@@ -208,7 +208,7 @@ HTML과 같은 구조를 사용한다. 자세하게 보면 **다중 언어 자�
 
 ## 5\. 텍스트 스트림을 특정 크기 이하로 압축
 
-![점자만으로 동영상 만들기](images/optimized-file-too-big.png)
+![점자만으로 동영상 만들기](6E854E.png)
 
 이렇게 SAMI 파일을 완성하고 나니 **70MB가 넘는** 파일이 생성되었다. YouTube에도 자막이 업로드되지 않았다. (YouTube에서 공식적으로 밝힌 자막 최대 크기에 대해서는 찾을 수 없었다. 하지만 나중에 경험적으로 알게된 사실로 그 용량 제한이 10MB인 것 같았다.) 유튜브에 업로드하기 위해선 용량 절감이 필요했다.
 
@@ -280,14 +280,14 @@ class video_config:
 
 이렇게 완성된 파일을 YouTube에 업로드했는데, 어딘가 어색한 부분이 있었다. 이는 모바일 기기에서 점자를 다루는 방법이 다른 문제인 것 같았다. 컴퓨터에서는 점자의 한 점에 색상이 색칠되지 않아도 빈 원이 그려져 있는 반면, **모바일에서는 점자가 칠해져 있지 않다면 그냥 빈 공간으로 표현된다**. 아마 모바일의 가독성 때문에 이런 처리가 되는 것 같았다. 이를 해결하기 위해서는 **디더링 처리**가 필요하다.
 
-![모바일 기기에서 점자가 비어있는 칸은 완전한 공백으로 나타난다. 왼쪽에서는 거의 아무런 디테일이 보이지 않지만, 디더링 처리가 된 우측에서 훨씬 많은 디테일이 보인다. 이는 특히 검은 배경이 많거나 Color Gradation이 많은 화면에서 디더링의 효과가 두드러진다.](images/optimized-dithering.png)
+![모바일 기기에서 점자가 비어있는 칸은 완전한 공백으로 나타난다. 왼쪽에서는 거의 아무런 디테일이 보이지 않지만, 디더링 처리가 된 우측에서 훨씬 많은 디테일이 보인다. 이는 특히 검은 배경이 많거나 Color Gradation이 많은 화면에서 디더링의 효과가 두드러진다.](B41D3A.png)
 
-![뮤직 비디오의 원본 장면이다. BTS 지민.](images/optimized-bts.png)
+![뮤직 비디오의 원본 장면이다. BTS 지민.](15976A.png)
 
 Dithering은 더 넓은 컬러 스펙트럼에서 더 낮은 컬러 스펙트럼으로 변환할 때 화질 저하를 보상하는 기법이다.
 이 또한 [Wikipedia의 예시](https://en.wikipedia.org/wiki/Dither)를 살펴보자.
 
-![1번 사진은 16백만 색상을, 2번과 3번 사진은 256색상을 사용한다. 디더링 처리된 이미지는 압축된 색 영역을 사용하지만 디테일이 느껴진다. 이미지 출처: en.wikipedia.org](images/optimized-dithering-example.png)
+![1번 사진은 16백만 색상을, 2번과 3번 사진은 256색상을 사용한다. 디더링 처리된 이미지는 압축된 색 영역을 사용하지만 디테일이 느껴진다. 이미지 출처: en.wikipedia.org](576E13.png)
 
 2번 이미지와 3번 이미지의 디테일 차이가 느껴지는가? 둘 다 압축된 256색을 사용하지만 3번 이미지가 훨씬 디테일이 느껴진다.
 이와 같이 낮아진 색 스펙트럼에서도 픽셀의 배치를 적절히 활용하여 이미지의 디테일을 살릴 수 있다.

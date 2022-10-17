@@ -82,9 +82,9 @@ Which one do you think you will grant? Which one will you decline?
 
 <DisplayFlex>
 
-![Web](starbucks-web.png)
-![Mini App](starbucks-miniapp.png)
-![App](starbucks-app.png)
+![Web](F2E628.png)
+![Mini App](436C60.png)
+![App](83C3AF.png)
 
 </DisplayFlex>
 
@@ -111,7 +111,7 @@ So, how can we solve this? Do we plan on making a new browser?
 
 <DisplayFlex>
 
-![Even worse, an unknown URL can urge people to deny such a request.](karrot-status-quo.png)
+![Even worse, an unknown URL can urge people to deny such a request.](338106.png)
 
 </DisplayFlex>
 
@@ -141,8 +141,8 @@ I have created a demo website where a cat gif asks for location permission.
 
 <DisplayFlex>
 
-![Default behavior](vanilla.png)
-![Injected behavior](shimmed.png)
+![Default behavior](19E9E9.png)
+![Injected behavior](E8303F.png)
 
 </DisplayFlex>
 
@@ -167,7 +167,7 @@ This procedure will also require implementing `crossOriginIsolated`, `Cross-Orig
 
 ## 🥶 How'd You Solve the Icing Problem?
 
-![Super App force-quitting frozen Mini App](icing.gif)
+![Super App force-quitting frozen Mini App](37A817.gif)
 
 There's another problem here: The `iframe` works on a single thread, so when the Mini App freezes, the entire Super App will also freeze, including the quit button.
 
@@ -193,7 +193,7 @@ Also, we can police the manipulations between the two DOM APIs by verifying if t
 
 ## 👻 Mission Impossible
 
-![In the film Mission Impossible 4, the protagonist, Ethan, acts like each other in between two terrorist groups, negotiating them in Ethan's favor.](dom-mission-impossible.png)
+![In the film Mission Impossible 4, the protagonist, Ethan, acts like each other in between two terrorist groups, negotiating them in Ethan's favor.](9B6073.png)
 
 Luckily, there is previous research conducted.
 Google created [WorkerDOM](https://github.com/ampproject/worker-dom) for their Accelerated Mobile Pages, and BuilderIO created [Partytown](https://github.com/BuilderIO/partytown) to separate 3rd-party codes from web workers.
@@ -236,7 +236,7 @@ Although we can use progressive web apps to cache the website offline, it also r
 
 ## 📦 Pack it up!
 
-![Source: web.dev/web-bundles](Pasted%20image%2020220902223114.png)
+![Source: web.dev/web-bundles](1561C2.png)
 
 There is also a solution.
 Google is already experimenting with [WebBundle](https://github.com/google/webbundle), based on the CBOR file format.
@@ -251,7 +251,7 @@ A perfectly fine code on GitHub can suddenly become an attacking code in NPM.
 For example, UAParser.js, a popular library marking 40M+ monthly downloads, once got hacked and distributed malicious codes.
 [Accident Records](https://github.com/advisories/GHSA-pjwm-rvh2-c87w).
 
-![Such a trustful library with big names can suddenly hit you back.](Pasted%20image%2020220902224536.png)
+![Such a trustful library with big names can suddenly hit you back.](D6AC53.png)
 
 Essential in any way, the Super App provider should get the package from Mini App providers, audit them, and host by themselves so that others cannot swap out codes.
 However, there is very little to say because this part of the system is developed almost wholly.
