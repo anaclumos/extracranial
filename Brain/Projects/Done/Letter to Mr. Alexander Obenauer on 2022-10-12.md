@@ -38,3 +38,7 @@ Is there any good platform you would recommend?
 
 Best Regards,  
 Sunghyun Cho
+
+## Reply on [[2022-10-17]]
+
+- [[SendGrid]]
