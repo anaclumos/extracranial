@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-17.md",
+                "file": "Research/Wikiversity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-17.md",
+                "file": "Research/Wikiversity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-17.md"
+                "file": "Research/Wikiversity.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "98b3880931f3a29c",
   "lastOpenFiles": [
+    "Journals/2022-10-17.md",
+    "Research/Cantankerous.md",
+    "Research/Untitled.md",
     "Research/SendGrid.md",
     "Projects/Done/Letter to Mr. Alexander Obenauer on 2022-10-12.md",
-    "Journals/2022-10-17.md",
     "Research/Primary-Recency Effect.md",
     "Research/Backlink.md",
     "Journals/2022-10-16.md",
     "Assets/34D9C3.png",
-    "Assets/Pasted image 20221017030140.png",
-    "Research/Andy Matuschak.md",
-    "Research/Evergreen Notes.md"
+    "Assets/Pasted image 20221017030140.png"
   ]
 }
