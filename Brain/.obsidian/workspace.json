@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-18.md",
+                "file": "Memex/As We May Think.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-18.md",
+                "file": "Memex/As We May Think.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-18.md"
+                "file": "Memex/As We May Think.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "48fa8310955390df",
   "lastOpenFiles": [
-    "Journals/2022-10-17.md",
     "Memex/Memex.md",
+    "Memex/Vannevar Bush.md",
+    "Memex/Extracranial.md",
+    "Journals/2022-10-18.md",
+    "Memex/Internetworking.md",
+    "Memex/Handling files in Unix.md",
+    "Journals/2022-10-17.md",
     "Memex/Y Combinator.md",
     "Memex/Git.md",
-    "Memex/DOM Reflow.md",
-    "Memex/Dogfooding.md",
-    "Memex/Docusaurus.md",
-    "Memex/Docker.md",
-    "Memex/Daily Dev.md",
-    "Memex/Atomic Notes.md"
+    "Memex/DOM Reflow.md"
   ]
 }
