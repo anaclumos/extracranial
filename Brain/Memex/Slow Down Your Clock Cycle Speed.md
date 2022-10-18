@@ -7,4 +7,4 @@ slug: '/DE5A56'
 
 > Where do compelling creative breakthroughs come from? How can you be even more creative when the resistance is growing all around you? Rok Sanda
 
-- We must slow down our brain clock cycle so that we can **think**.
+- We must slow down our brain clock cycle so we can **think**.

@@ -5,9 +5,9 @@ slug: '/D6B2AF'
 
 ## Notes
 
-- [[code quality]]
+- [[Code Quality for Game Programming]]
 - [[Delta Time]]
 - [[Graphics Engine Process]]
-- [[Monolithic (Pure Hierarchy) Model]]
+- [[Monolithic Model]]
 - [[Forward Declaration]]
 - [[Simple DirectMedia Layer]]

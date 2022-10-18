@@ -4,7 +4,7 @@ slug: '/9CFFE3'
 ---
 
 - A specific [[Tools for Thought]] with handwriting.
-  - Benefit: handwritings [[Slow down your brain clock cycle]]
+  - Benefit: handwritings [[Slow Down Your Clock Cycle Speed]]
 - We might need [[Handwriting Grammarly]]
 - Maybe we can use [The Image Map element - HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map)?
 - [[Intracranial]]
