@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "69db1ccaab7578dc",
+        "id": "d7cae087b22894d2",
         "type": "tabs",
         "children": [
           {
-            "id": "8768d47fb88bec76",
+            "id": "48fa8310955390df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-17.md",
+                "file": "Journals/2022-10-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-17.md",
+                "file": "Journals/2022-10-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-17.md"
+                "file": "Journals/2022-10-18.md"
               }
             }
           },
@@ -134,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8768d47fb88bec76",
+  "active": "48fa8310955390df",
   "lastOpenFiles": [
-    "Assets/5FB7C1.png",
+    "Research/How to Build Software like an SRE.md",
+    "Research/Kubernetes.md",
+    "Research/docker.md",
+    "Research/git.md",
+    "Projects/Someday/Brane/Providing DOM API to Worker Threads.md",
+    "Research/Remote Procedure Call.md",
+    "Journals/2022-10-18.md",
     "Journals/2022-10-17.md",
-    "Journals/2022-07-06.md",
-    "Journals/2022-07-07.md",
-    "Journals/2022-07-08.md",
-    "Research/Inliner.md",
-    "Journals/2022-07-12.md",
-    "Journals/2022-07-11.md",
-    "Journals/2022-07-10.md",
-    "Journals/2022-07-09.md"
+    "Research/Screenplay.md",
+    "Journals/2022-10-16.md"
   ]
 }
