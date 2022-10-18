@@ -13,3 +13,5 @@ slug: '/6605BD'
 - [[ancestors of c]]
 - [[g++]]
 - [[dijkstra]]
+- [[socket]]
+- [[ip]]

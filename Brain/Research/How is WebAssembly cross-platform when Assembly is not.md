@@ -15,7 +15,7 @@ please feel free to submit a PR or send me an [email](https://mailhide.io/e/IXnd
 :::
 
 [[WebAssembly]] is a novel way of operating computer instructions at a lower level.
-[[Assembly]] is a straightforward way of describing machines to execute instructions.
+[[assembly]] is a straightforward way of describing machines to execute instructions.
 It follows how [[Turing Machine]]s would work in the real world.
 
 ## WASM example
@@ -851,15 +851,15 @@ Now, let's inspect the binary codes of the WASM.
 
 ## 🚜 Drafting 🚧
 
-- [[WebAssembly]] is like [[Assembly]], except that
+- [[WebAssembly]] is like [[assembly]], except that
   - it runs cross-platform
   - it runs isolated
   - it runs on browsers
 - But how is [[WebAssembly|WASM]] _fast_ and cross-platform simultaneously?
-  - Does it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?
+  - Does it pack multiple precompiled binary executables for multiple CPU vendors, like [[apple]]'s Universal Binary?
   - But then, whenever a new type of CPU gets announced, they wouldn't be able to run existing WASMs
 - [[WebAssembly]]'s runtime environments (RE) are low-level virtual stack machines (akin to JVM or Flash VM)
-- Seems like [[WebAssembly|WASM]] is closer to intermediate Java Byte Code instead of the genuinely low-level [[Assembly]].
+- Seems like [[WebAssembly|WASM]] is closer to intermediate Java Byte Code instead of the genuinely low-level [[assembly]].
   - But then, why is it faster?
   - JS Interpreter can skip the parsing
   - It can ship in a much more compact file format
@@ -867,7 +867,7 @@ Now, let's inspect the binary codes of the WASM.
 - WASM defines its own \_CPU standards and [[assembly]]: [WebAssembly Core Specification](https://webassembly.github.io/spec/core/bikeshed/).
 - To run [[WebAssembly|WASM]], the browser must still compile the [[WebAssembly|WASM]] code into ASM code when executing; in that way, it is **much** slower than [[WebAssembly|WASM]].
 - However, [[WebAssembly|WASM]] is designed similarly to ASM. Therefore, compiling [[WebAssembly|WASM]] to ASM targeting x86, ARM, and RISC-V, is comparably easy, and existing compilers emitting ASM can also emit [[WebAssembly|WASM]] with a reasonable modification.
-- What is the relationship between [[WebAssembly]] and [[Assembly]]?
+- What is the relationship between [[WebAssembly]] and [[assembly]]?
 - It is a specific purpose [[assembly]].
 - It's designed with a specific abstract machine that would be expensive to implement in hardware.
 

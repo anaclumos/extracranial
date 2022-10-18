@@ -5,9 +5,9 @@ slug: '/D6B2AF'
 
 ## Notes
 
-- [[Code Quality]]
-- [[Delta Time]]
+- [[code quality]]
+- [[delta time]]
 - [[Graphics Engine Process]]
 - [[Monolithic (Pure Hierarchy) Model]]
-- [[Forward Declaration]]
+- [[forward declaration]]
 - [[Simple DirectMedia Layer]]

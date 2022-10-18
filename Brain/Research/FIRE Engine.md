@@ -5,7 +5,7 @@ slug: '/9847E1'
 
 ## Definition
 
-- [[Software as a Service]] that drives revenue streams for [[FIRE]]
+- [[Software as a Service]] that drives revenue streams for [[fire]]
 
 ## Reference
 

@@ -12,15 +12,15 @@ The general process of a graphics engine follows:
   - Process Input
     - Save state for current inputs
   - Update Game State
-    - Calculate [[Delta Time]]
+    - Calculate [[delta time]]
     - Limit Updating Frequency to 16ms, which yields 60 [[FPS]].
-      - If [[Delta Time]] is less than 16ms, wait for a while.
-    - If [[Delta Time]] is bigger than Max [[Delta Time]], usually twice the [[Delta Time]], cap the [[Delta Time]] to Max [[Delta Time]]
+      - If [[delta time]] is less than 16ms, wait for a while.
+    - If [[delta time]] is bigger than Max [[delta time]], usually twice the [[delta time]], cap the [[delta time]] to Max [[delta time]]
     - Game logic goes here.
   - Generate Output
-    - [[Back Buffer]] is filled in Update Game State.
-    - Clear the [[Back Buffer]]
-    - Present the [[Back Buffer]]
+    - [[back buffer]] is filled in Update Game State.
+    - Clear the [[back buffer]]
+    - Present the [[back buffer]]
 - Shutdown
   - Destroy the renderer
   - Destroy the window

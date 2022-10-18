@@ -18,10 +18,10 @@ slug: '/177B14'
 
 ## Definition
 
-- [[FIRE Engine]]
+- [[fire engine]]
 - Photo Widget App that shuffles your bias on iPhone's home screen.
 
-## How would it be [[Fiercely Overpriced]]?
+## How would it be [[fiercely overpriced]]?
 
 - Free
   - for one bias
@@ -37,8 +37,8 @@ slug: '/177B14'
 
 ## Tentative Tech Stacks
 
-- [[Cloudflare]] for serving high-res images
-- Possibly [[Deno Deploy]]
+- [[cloudflare]] for serving high-res images
+- Possibly [[deno deploy]]
 - [[SwiftUI]]
 
 ## Things to consider
