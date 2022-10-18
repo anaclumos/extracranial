@@ -1,0 +1,17 @@
+.graphView {
+  font-family: var(--font-family-sans-serif) !important;
+  background-color: var(--ifm-background-color);
+}
+
+.mainContainer {
+  overflow: hidden;
+  background-color: var(--ifm-background-color);
+}
+
+.node {
+  font-size: 12px;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  user-select: none;
+}
