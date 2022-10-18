@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "346bca4482be4735",
+        "id": "69db1ccaab7578dc",
         "type": "tabs",
         "children": [
           {
-            "id": "64901b64bc994efa",
+            "id": "8768d47fb88bec76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-07-06.md",
+                "file": "Journals/2022-10-17.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-07-06.md",
+                "file": "Journals/2022-10-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-07-06.md"
+                "file": "Journals/2022-10-17.md"
               }
             }
           },
@@ -134,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "64901b64bc994efa",
+  "active": "8768d47fb88bec76",
   "lastOpenFiles": [
-    "Journals/2022-07-07.md",
-    "Journals/2022-07-08.md",
+    "Assets/5FB7C1.png",
     "Journals/2022-10-17.md",
     "Journals/2022-07-06.md",
+    "Journals/2022-07-07.md",
+    "Journals/2022-07-08.md",
     "Research/Inliner.md",
     "Journals/2022-07-12.md",
     "Journals/2022-07-11.md",
     "Journals/2022-07-10.md",
-    "Journals/2022-07-09.md",
-    "Journals/2022-07-05.md"
+    "Journals/2022-07-09.md"
   ]
 }
