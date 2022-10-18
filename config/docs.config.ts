@@ -5,7 +5,7 @@ const sidebarProcessor = (items) => {
     'Hey',
     'Journals',
     'Projects',
-    'Research',
+    'Memex',
     'Readings',
   ]
   const orderedItems = []
