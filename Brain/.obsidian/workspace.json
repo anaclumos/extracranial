@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-18.md",
+                "file": "Memex/Internetworking.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-18.md",
+                "file": "Memex/Internetworking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-18.md"
+                "file": "Memex/Internetworking.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "df22a29c1761f394",
   "lastOpenFiles": [
-    "Memex/Deadlock.md",
+    "Memex/DNS.md",
     "Memex/Internetworking.md",
-    "Memex/Mutex.md",
-    "Memex/Atomics (JavaScript).md",
-    "Memex/Atomicity.md",
-    "Memex/Joining Thread.md",
-    "Journals/2022-10-18.md",
-    "Memex/IP Spoofing.md",
-    "Memex/Packet Sniffing.md",
-    "Memex/DoS Attack.md"
+    "Memex/POP3 vs IMAP.md",
+    "Memex/SMTP.md",
+    "Memex/Cookie.md",
+    "Memex/HTTP.md",
+    "Memex/Redirect.md",
+    "Memex/Internet Protocol Stack.md",
+    "Memex/Deadlock.md",
+    "Journals/2022-10-18.md"
   ]
 }
