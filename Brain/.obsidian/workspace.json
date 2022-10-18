@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/tcp vs udp.md",
+                "file": "master socket.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/tcp vs udp.md",
+                "file": "master socket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/tcp vs udp.md"
+                "file": "master socket.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "48fa8310955390df",
   "lastOpenFiles": [
-    "Memex/internetworking.md",
-    "Memex/tcp vs udp.md",
-    "Memex/handling files in unix.md",
-    "Memex/file descriptor.md",
-    "Memex/port.md",
-    "Memex/socket.md",
+    "Research/internetworking.md",
     "Journals/2022-10-18.md",
     "Journals/2022-10-17.md",
-    "Memex/fps.md",
-    "Memex/forward declaration.md"
+    "Research/Andy Matuschak.md",
+    "Research/Ancestors of C.md",
+    "Research/adding space.md",
+    "Research/ActivityPub.md",
+    "Research/3d Globe on the Web.md",
+    "master socket.md",
+    "Research/tcp vs udp.md"
   ]
 }
