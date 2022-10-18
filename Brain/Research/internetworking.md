@@ -10,7 +10,7 @@ slug: '/6605BD'
 - [[clock skew detected]]
 - [[http]]
 - [[makefile]]
-- [[ancestors of c]]
+- [[Ancestors of C]]
 - [[g++]]
 - [[dijkstra]]
 - [[socket]]
@@ -19,3 +19,4 @@ slug: '/6605BD'
 - [[handling files in unix]]
 - [[file descriptor]]
 - [[tcp vs udp]]
+- [[master socket]]
