@@ -14,7 +14,7 @@ import DocBreadcrumbs from '@theme/DocBreadcrumbs'
 import type { Props } from '@theme/DocItem/Layout'
 
 import styles from './styles.module.css'
-import Backlink from '@site/src/components/BacklinkTable'
+import Backlink from '@site/src/components/Backlink'
 
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
