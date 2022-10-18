@@ -11,8 +11,13 @@
             "id": "48fa8310955390df",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Internetworking.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Memex/Internetworking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Memex/Internetworking.md"
+              }
             }
           },
           {
@@ -126,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "aa73c60d583d3db3",
+  "active": "48fa8310955390df",
   "lastOpenFiles": [
+    "Memex/Packet Switching vs Circuit Switching.md",
+    "Memex/Internetworking.md",
+    "Memex/Packet Loss.md",
+    "Memex/Probability Of Queueing (Internetworking).md",
+    "Journals/2022-10-18.md",
+    "Memex/Research.md",
     "Memex/SVG (File Format).md",
     "Memex/Swift.md",
     "Memex/Svelte.md",
-    "Memex/Slow Down Your Clock Cycle Speed.md",
-    "Memex/PNG (File Format).md",
-    "Memex/PECR.md",
-    "Memex/MOBI (File Format).md",
-    "Memex/Frames Per Second.md",
-    "Memex/EPUB (File Format).md",
-    "Memex/Emojis.md"
+    "Memex/Slow Down Your Clock Cycle Speed.md"
   ]
 }
