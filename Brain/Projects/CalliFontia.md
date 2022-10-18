@@ -3,7 +3,7 @@ lang: 'ko'
 slug: '/3B14B7'
 ---
 
-- [[apple]] Pencil Handwriting → Font
+- [[Apple]] Pencil Handwriting → Font
 
 ## 기존 Pain Point
 
@@ -20,13 +20,13 @@ slug: '/3B14B7'
 - 영문 폰트 핵심으로
 - 아이패드와 애플펜슬만으로 쉽고 빠르게
 - PencilKit 적극 활용
-- [[apple]] Neural Engine 적극 활용, 기기 자체에서 폰트 추론하기
+- [[Apple]] Neural Engine 적극 활용, 기기 자체에서 폰트 추론하기
 - Project 기반 (like Procreate)
 - 추출 전 미리보기 (텍스트 쳐보기) 가능
-- 추출 전 여러가지 [[font features|Font Feature]]을 켜고 끄며 미리보기 대조 가능
+- 추출 전 여러가지 [[Font Feature|Font Feature]]을 켜고 끄며 미리보기 대조 가능
 - 추출 후 프로젝트는 Freeze되며 수정할 수 없음. 대신 다운로드 무제한 가능
 
-## [[fiercely overpriced]]
+## [[Fiercely Overpriced]]
 
 - 비영리 라이센스 $9.99
 - 영리 라이센스 $99.99

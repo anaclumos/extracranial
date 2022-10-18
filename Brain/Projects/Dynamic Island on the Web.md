@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/B21605'
 ---
 
-- [[dynamic island]] on the Web
+- [[Dynamic Island]] on the Web
 
 ## Different Sizes
 
