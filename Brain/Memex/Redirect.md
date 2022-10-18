@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/93024C'
 ---
 
-## Redirects in Vercel
+## Redirect in Vercel
 
 ```json
 {
