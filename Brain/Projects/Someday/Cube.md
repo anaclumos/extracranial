@@ -7,4 +7,4 @@ slug: '/A0720E'
 
 - Feature: Twitter-to-Instagram-Card Mode?
 - [[SwiftUI]]
-- [[fire engine]]
+- [[FIRE Engine]]

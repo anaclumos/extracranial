@@ -5,11 +5,11 @@ slug: '/009C77'
 
 ## Definition
 
-- [[fire engine]]
+- [[FIRE Engine]]
 - Aim to implement Zettlekasten
 - Uses
   - PencilKit
-  - [[atomic notes]]
+  - [[Atomic Notes]]
   - [[Infinite Canvas]]
 - Notes can refer to notes (like Hepta)
 - Can view relation graphs
@@ -25,7 +25,7 @@ slug: '/009C77'
 - I was using [Prodrafts](https://apps.apple.com/us/app/prodrafts/id1545810067), but it has limits:
   - 👍 Infinite canvas
   - 👍 Native PencilKit support
-  - 👍 [[apple]]-ish design language
+  - 👍 [[Apple]]-ish design language
   - 👎 Unable to construct Zettlekasten
     - 👎 No graphing
     - 👎 No backlinking

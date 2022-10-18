@@ -11,7 +11,7 @@ slug: '/D518B0'
 ## Leetcode 75
 
 - Leetcode Grind 75 is a collection of coding test practice sets. It aims to cover all major topics in programming exams in 8 weeks.
-- Will use [[Python]] (main language) and [[c++]] (supplementary language)
+- Will use [[Python]] (main language) and [[C++]] (supplementary language)
 - [Link](https://www.techinterviewhandbook.org/grind75)
 
 ## Data Structures
