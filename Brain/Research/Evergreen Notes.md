@@ -7,7 +7,7 @@ slug: '/B0B79F'
 - A knowledge that doesn't change.
 - For example, a theory, concept, idea, or experience.
 
-## [[Andy Matuschak]]
+## [[andy matuschak]]
 
 - It's hard to write notes that are worth developing over time. These principles help:
 

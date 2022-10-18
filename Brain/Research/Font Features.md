@@ -9,7 +9,7 @@ aliases:
 
 ![[4FA1C6.png]]
 
-- [[CSS]] property to enhance legibilities of a [[Font]].
+- [[css]] property to enhance legibilities of a [[font]].
 - [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.
 
 ![[22EB14.png]]

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/2531E5'
 ---
 
-## How would it be [[Fiercely Overpriced]]?
+## How would it be [[fiercely overpriced]]?
 
 - Encrypt and sign query strings.
 

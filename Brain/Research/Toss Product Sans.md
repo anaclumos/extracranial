@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/5C159C'
 ---
 
-- [[Font]] by [[Toss]].
+- [[font]] by [[Toss]].
 - Looks bizarrely similar to [[San Francisco]]
 
 ## Usage
@@ -17,5 +17,5 @@ slug: '/5C159C'
 }
 ```
 
-- I figured it did not support [[Font Features]].
+- I figured it did not support [[font features]].
 - Also, Toss Employee once told me not to use it 😔

@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/E1F385'
-aliases: ['Zettelkasten']
+aliases: ['zettelkasten']
 ---
 
 - [Evergreen notes should be atomic](https://notes.andymatuschak.org/z4Rrmh17vMBbauEGnFPTZSK3UmdsGExLRfZz1)

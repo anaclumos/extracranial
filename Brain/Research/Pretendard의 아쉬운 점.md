@@ -16,18 +16,18 @@ slug: '/3A9FCD'
 ![[BD6DAB.png]]
 
 [[Pretendard]]에서는 위와 같이 Semibold와 Extrabold 굵기를 지원한다.
-자세하게 보면 Noto Sans [[CJK]] KR Black은 Inter Extra Bold와 무게가 비슷하다.
+자세하게 보면 Noto Sans [[cjk]] KR Black은 Inter Extra Bold와 무게가 비슷하다.
 즉 스케일이 반대로 되어 있다. Extra Bold에서 Black을 생성했어야 한다.
 다만 한글의 경우 영문과 달리 2D로 정보가 전개돼 weight를 늘리면 가독성을 해칠 수 있음을 고려해야 한다.
 그럴 경우 Noto의 Black에 맞추어 Inter을 Scale Down하는 방법을 고려할 수 있다.
 
-## [[CJK|한중일]]의 한문 문제
+## [[cjk|한중일]]의 한문 문제
 
 이는 자세하게 확인하지 못했으나 서울 프로를 개발할 때 알아보고 고려하려고 했던 문제이다.
 [[Pretendard]]가 이 문제를 어떻게 해결하는지 모른다.
 Interop의 경우는 아예 처리하지 않은 문제이다.
 
-일반적으로 알려지지 않은 사항이지만, [[CJK|한중일]]의 한문은 모두 조금씩 다르다.
+일반적으로 알려지지 않은 사항이지만, [[cjk|한중일]]의 한문은 모두 조금씩 다르다.
 
 ![[EF6FE0.gif]]
 

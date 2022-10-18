@@ -23,7 +23,7 @@ slug: '/8B4F7C'
   - Universally available, easily copyable
     - Images aren't the most efficient encoding method for text.
     - But they can be the simplest for humans
-    - You can copy objects from photos in the latest [[Apple]] iOS 16 update.
+    - You can copy objects from photos in the latest [[apple]] iOS 16 update.
 - Permissionless.
   - Many applications won't allow you to export data.
   - Screenshots are always available.
@@ -43,7 +43,7 @@ slug: '/8B4F7C'
 - Things that lack:
   - Enterprise-grade [[OCR]] for [[PDF]] documents still doesn't exist in 2022, albeit having state-of-the-art computer vision techniques.
   - Interactive and web-enabled forms. Sometimes it saves without the data filled in
-  - Slow page loads. Better alternatives: [[epub]], [[mobi]] for texts. For generic use cases, [[DjVu]].
+  - Slow page loads. Better alternatives: [[epub]], [[mobi]] for texts. For generic use cases, [[djvu]].
 
 ## References
 

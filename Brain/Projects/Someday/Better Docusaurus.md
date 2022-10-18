@@ -3,9 +3,9 @@ lang: 'en'
 slug: '/A54F58'
 ---
 
-Some things that I currently don't like about [[Docusaurus]]:
+Some things that I currently don't like about [[docusaurus]]:
 
-- Docusaurus should have [[Backlink]] support
+- Docusaurus should have [[backlink]] support
 
 ## Fixed
 
