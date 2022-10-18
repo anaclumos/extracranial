@@ -900,7 +900,8 @@ export const backlinks = {
         "2022-07-21": "![[**17CFA2.png**]]\n"
     },
     "Quoridor Game": {
-        "2022-07-31": "- [[**Quoridor Game**]]\n"
+        "2022-07-31": "- [[**Quoridor Game**]]\n",
+        "2022-10-18": "- [[**Quoridor Game**]]\n"
     },
     "Tesla Release Models": {
         "2022-09-06": "- [[**Tesla Release Models**]]\n"
@@ -1092,6 +1093,10 @@ export const backlinks = {
     },
     "Canary Trap": {
         "2022-10-18": "- [[**Canary Trap**]]\n"
+    },
+    "고통에는 순응이 아니라 감작이 나타난다": {
+        "2022-10-18": "- [[**고통에는 순응이 아니라 감작이 나타난다**]]\n",
+        "월급만큼 중요한 것은 자존급이다": "게다가 [[**고통에는 순응이 아니라 감작이 나타난다**]].\n"
     },
     "HTMX": {
         "2022-10-18": "- [[**HTMX**]]\n",
@@ -1694,9 +1699,6 @@ export const backlinks = {
     },
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[**EF6FE0.gif**]]\n"
-    },
-    "고통에는 순응이 아니라 감작이 나타난다": {
-        "월급만큼 중요한 것은 자존급이다": "게다가 [[**고통에는 순응이 아니라 감작이 나타난다**]].\n"
     },
     "Financial Technology": {
         "Toss": "- [[**Financial Technology**|FinTech]] Unicorn of Korea.\n"
