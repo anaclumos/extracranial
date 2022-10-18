@@ -65,7 +65,7 @@ I-Frame과 P-Frame 사이에는 B-Frame(Bidirectionally Predicted Pictures)을 �
 
 B-Frame도 P-Frame처럼 Motion Vector와 예측 보정을 위한 변환값들을 사용한다. B-Frame은 I-Frame과 P-Frame을 참조하지만 HEVC 및 VVC 등의 최신 영상 코덱에서는 B-Frame도 다른 B-Frame을 참조할 수 있다.
 
-![이런 형태를 띄게 된다. Copyright: Cmglee, CC BY-SA 4.0.](images/IBBPBB_inter_frame_group_of_pictures.svg)
+![이런 형태를 띄게 된다. Copyright: Cmglee, CC BY-SA 4.0.](FBEE20.svg)
 
 ---
 
