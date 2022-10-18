@@ -3,7 +3,7 @@ lang: 'ko'
 slug: '/3B14B7'
 ---
 
-- [[Apple]] Pencil Handwriting → Font
+- [[Apple]] Pencil Handwriting → [[Font]]
 
 ## 기존 Pain Point
 
