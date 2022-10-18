@@ -54,14 +54,6 @@ Seems like using [[Svelte]]
 
 </details>
 
-## Notables
-
-### [TSEI.JP | tseijp](https://tsei.jp/)
-
-- Implements 3d graphic
-
-![[E45BFC.png]]
-
 ### [[Andy Matuschak]]
 
 - sliding panes
@@ -74,9 +66,8 @@ Seems like using [[Svelte]]
 - [Use the d3 force](https://wattenberger.com/blog/d3-force)
 - [ConvertKit: The creator marketing platform](https://convertkit.com/)
 
-## Functional Web
+## [[Interactive Articles]]
 
-- [Victor Dibia](https://victordibia.com/)
 - [Tania Rascia](https://www.taniarascia.com/)
 - [Edy Kim](https://edykim.com/)
 - [Chris Welch](https://chriswelch.co/)
