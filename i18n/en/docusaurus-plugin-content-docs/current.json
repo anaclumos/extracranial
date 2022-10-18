@@ -15,10 +15,6 @@
     "message": "Readings",
     "description": "The label for category Readings in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Research": {
-    "message": "Research",
-    "description": "The label for category Research in sidebar sidebar"
-  },
   "sidebar.sidebar.category.Brane": {
     "message": "Brane",
     "description": "The label for category Brane in sidebar sidebar"
@@ -50,5 +46,9 @@
   "sidebar.sidebar.category.Better Aldehyde": {
     "message": "Better Aldehyde",
     "description": "The label for category Better Aldehyde in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Memex": {
+    "message": "Memex",
+    "description": "The label for category Memex in sidebar sidebar"
   }
 }
