@@ -9,3 +9,7 @@ slug: '/6605BD'
 - [[GDB Commands]]
 - [[Clock Skew Detected]]
 - [[HTTP]]
+- [[Makefile]]
+- [[Ancestors of C]]
+- [[g++]]
+- [[Dijkstra]]
