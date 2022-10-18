@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-18.md",
+                "file": "Journals/2022-10-17.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-18.md",
+                "file": "Journals/2022-10-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-18.md"
+                "file": "Journals/2022-10-17.md"
               }
             }
           },
@@ -137,15 +137,15 @@
   },
   "active": "df22a29c1761f394",
   "lastOpenFiles": [
+    "Journals/2022-10-16.md",
+    "Journals/2022-10-17.md",
+    "Journals/2022-10-18.md",
+    "Memex/Preservation of Data.md",
     "Memex/Interactive Articles.md",
     "Memex/Jetbrains.md",
     "Memex/Jetbrains Fleet.md",
-    "Memex/Preservation of Data.md",
     "Memex/IP.md",
     "Memex/Extracranial.md",
-    "Memex/Individual Case Study.md",
-    "Journals/2022-10-18.md",
-    "Assets/E45BFC.png",
-    "Memex/Copilot.md"
+    "Memex/Individual Case Study.md"
   ]
 }
