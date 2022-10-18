@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d7cae087b22894d2",
+        "id": "e56491daa166647c",
         "type": "tabs",
         "children": [
           {
-            "id": "48fa8310955390df",
+            "id": "df22a29c1761f394",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Internetworking.md",
+                "file": "Journals/2022-10-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Internetworking.md",
+                "file": "Journals/2022-10-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Internetworking.md"
+                "file": "Journals/2022-10-18.md"
               }
             }
           },
@@ -134,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "48fa8310955390df",
+  "active": "df22a29c1761f394",
   "lastOpenFiles": [
-    "Memex/Internet Protocol Stack.md",
-    "Journals/2022-10-18.md",
+    "Memex/Deadlock.md",
     "Memex/Internetworking.md",
-    "Memex/Canary Trap.md",
-    "Memex/Brunch.md",
-    "Memex/Brunch violates SF terms of use.md",
-    "Memex/webfont.md",
-    "Memex/Font.md",
-    "Memex/Grotesque.md",
-    "Memex/Akzidenz.md"
+    "Memex/Mutex.md",
+    "Memex/Atomics (JavaScript).md",
+    "Memex/Atomicity.md",
+    "Memex/Joining Thread.md",
+    "Journals/2022-10-18.md",
+    "Memex/IP Spoofing.md",
+    "Memex/Packet Sniffing.md",
+    "Memex/DoS Attack.md"
   ]
 }
