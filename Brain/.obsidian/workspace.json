@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Internetworking.md",
+                "file": "Memex/Sources of Packet Delay.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Internetworking.md",
+                "file": "Memex/Sources of Packet Delay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Internetworking.md"
+                "file": "Memex/Sources of Packet Delay.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "df22a29c1761f394",
   "lastOpenFiles": [
-    "Memex/DNS.md",
+    "Memex/P2P.md",
     "Memex/Internetworking.md",
+    "Memex/DNS.md",
     "Memex/POP3 vs IMAP.md",
     "Memex/SMTP.md",
     "Memex/Cookie.md",
     "Memex/HTTP.md",
     "Memex/Redirect.md",
     "Memex/Internet Protocol Stack.md",
-    "Memex/Deadlock.md",
-    "Journals/2022-10-18.md"
+    "Memex/Deadlock.md"
   ]
 }

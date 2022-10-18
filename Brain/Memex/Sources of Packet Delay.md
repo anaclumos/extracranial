@@ -3,9 +3,7 @@ lang: 'en'
 slug: '/2EEEE4'
 ---
 
-$$
-d_{nodal} = d_{processing} + d_{queueing\:delay} + d_{transmission\:delay} + d_{propagation\:delay}
-$$
+$d_{nodal}$ is the sum of:
 
 - $d_{processing}$ is the time checking for bit errors. Typically finishes in milliseconds.
 - $d_{queueing\:delay}$ is the time waiting in the memory if the router is busy transmitting something else.
