@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-18.md",
+                "file": "Research/Internetworking.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-18.md",
+                "file": "Research/Internetworking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-18.md"
+                "file": "Research/Internetworking.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "48fa8310955390df",
   "lastOpenFiles": [
-    "Research/How to Build Software like an SRE.md",
-    "Research/Kubernetes.md",
-    "Research/docker.md",
-    "Research/git.md",
-    "Projects/Someday/Brane/Providing DOM API to Worker Threads.md",
-    "Research/Remote Procedure Call.md",
+    "Research/Dijkstra.md",
+    "Research/Internetworking.md",
+    "Research/g++.md",
+    "Research/Ancestors of C.md",
     "Journals/2022-10-18.md",
     "Journals/2022-10-17.md",
-    "Research/Screenplay.md",
-    "Journals/2022-10-16.md"
+    "Research/Makefile.md",
+    "Research/HTTP.md",
+    "Research/How to Build Software like an SRE.md",
+    "Research/Kubernetes.md"
   ]
 }
