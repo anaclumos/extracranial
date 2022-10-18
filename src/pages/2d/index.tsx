@@ -1,11 +1,10 @@
 import React from 'react'
+import { filenames } from '@site/src/data/filenames'
+import { backlinks } from '@site/src/data/backlinks'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import BrowserOnly from '@docusaurus/BrowserOnly'
-import { filenames } from '@site/src/data/filenames'
-import { backlinks } from '@site/src/data/backlinks'
-import THREE from 'three'
 
 type Node = {
   nodeLabel: string
@@ -81,10 +80,10 @@ const GraphView = () => {
       <BrowserOnly>
         {() => {
           const {
-            ForceGraph3D,
+            ForceGraph2D,
           } = require('react-force-graph')
           return (
-            <ForceGraph3D
+            <ForceGraph2D
               graphData={gData}
               nodeLabel={(node) => `${node.nodeLabel}`}
               linkColor={() => '#aaa'}

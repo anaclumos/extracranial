@@ -41,7 +41,7 @@ if __name__ == "__main__":
             if line.startswith("slug: "):
                 uid = line.split("slug: ")[1].strip().replace(
                     "/", "").replace("'", "").replace('"', "")
-                filename_uid_map[filename.lower()] = uid
+                filename_uid_map[filename] = uid
             while "[[" in line and "]]" in line:
                 mentioned_file = line.split("[[")[1].split("]]")[0]
                 source = mentioned_file.split("|")[0]
@@ -66,23 +66,22 @@ if __name__ == "__main__":
                     after = after + " ..."
                 first_mentioned_sentence = before + \
                     "[[" + center + "]]" + after
-                sourcelower = source.lower()
-                if sourcelower not in backlink_map:
-                    backlink_map[sourcelower] = {}
-                if filename not in backlink_map[sourcelower]:
-                    backlink_map[sourcelower][filename] = first_mentioned_sentence
+                if source not in backlink_map:
+                    backlink_map[source] = {}
+                if filename not in backlink_map[source]:
+                    backlink_map[source][filename] = first_mentioned_sentence
                     mention_count += 1
                 line = line.replace(
                     "[[" + mentioned_file + "]]", mentioned_file)
 
     import json
-    with open("./src/components/BacklinkTable/backlinks.ts", "w") as f:
+    with open("./src/data/backlinks.ts", "w") as f:
         f.write("export const backlinks = " + json.dumps(backlink_map,
                 indent=4, ensure_ascii=False).encode('utf8').decode())
 
         print("Wrote " + str(len(backlink_map)) + " files with " +
               str(mention_count) + " mentions to backlinks.ts.")
-    with open("./src/components/BacklinkTable/filenames.ts", "w") as f:
+    with open("./src/data/filenames.ts", "w") as f:
         f.write("export const filenames = " + json.dumps(filename_uid_map,
                 indent=4, ensure_ascii=False).encode('utf8').decode())
         print("Wrote " + str(len(filename_uid_map)) +

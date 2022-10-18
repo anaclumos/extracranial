@@ -2,8 +2,8 @@ import React from 'react'
 import Link from '@docusaurus/Link'
 import styles from './styles.module.css'
 
-import { backlinks } from './backlinks'
-import { filenames } from './filenames'
+import { backlinks } from '../../data/backlinks'
+import { filenames } from '../../data/filenames'
 import { translate } from '@docusaurus/Translate'
 
 type Props = {
