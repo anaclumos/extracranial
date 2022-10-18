@@ -14,5 +14,17 @@
   "item.label.Today": {
     "message": "Today",
     "description": "Navbar item with label Today"
+  },
+  "item.label.Graph": {
+    "message": "Graph",
+    "description": "Navbar item with label Graph"
+  },
+  "item.label.2D (Experimental)": {
+    "message": "2D (Experimental)",
+    "description": "Navbar item with label 2D (Experimental)"
+  },
+  "item.label.3D (Experimental)": {
+    "message": "3D (Experimental)",
+    "description": "Navbar item with label 3D (Experimental)"
   }
 }
