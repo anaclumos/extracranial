@@ -136,15 +136,15 @@
   },
   "active": "48fa8310955390df",
   "lastOpenFiles": [
-    "Memex/Packet Switching vs Circuit Switching.md",
+    "Memex/Throughput.md",
     "Memex/Internetworking.md",
+    "Memex/Queueing in Internetworking and Congestions.md",
+    "Memex/Sources of Packet Delay.md",
+    "Journals/2022-10-18.md",
+    "Memex/Space in LaTeX.md",
+    "Memex/Packet Switching vs Circuit Switching.md",
     "Memex/Packet Loss.md",
     "Memex/Probability Of Queueing (Internetworking).md",
-    "Journals/2022-10-18.md",
-    "Memex/Research.md",
-    "Memex/SVG (File Format).md",
-    "Memex/Swift.md",
-    "Memex/Svelte.md",
-    "Memex/Slow Down Your Clock Cycle Speed.md"
+    "Memex/Research.md"
   ]
 }
