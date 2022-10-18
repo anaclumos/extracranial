@@ -1,7 +1,6 @@
 ---
 lang: 'en'
 slug: '/43E68B'
-draft: true
 ---
 
 ## Constant Bit Rate
