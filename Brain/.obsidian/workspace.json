@@ -11,13 +11,8 @@
             "id": "48fa8310955390df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-18.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-10-18.md"
-              }
+              "state": {}
             }
           },
           {
@@ -134,17 +126,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "48fa8310955390df",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
-    "Memex/yarn silent install.md",
-    "Memex/Endianness.md",
-    "Hey.md",
-    "Memex/Internetworking.md",
-    "Memex/Packet Loss.md",
-    "Journals/2022-10-18.md",
-    "Journals/2022-10-17.md",
-    "Memex/Apple Silicon.md",
-    "Memex/As We May Think.md",
-    "Memex/Memex.md"
+    "Memex/SVG (File Format).md",
+    "Memex/Swift.md",
+    "Memex/Svelte.md",
+    "Memex/Slow Down Your Clock Cycle Speed.md",
+    "Memex/PNG (File Format).md",
+    "Memex/PECR.md",
+    "Memex/MOBI (File Format).md",
+    "Memex/Frames Per Second.md",
+    "Memex/EPUB (File Format).md",
+    "Memex/Emojis.md"
   ]
 }
