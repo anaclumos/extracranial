@@ -65,7 +65,7 @@ async function getViewCount(path: string) {
     /^[a-fA-F0-9]+$/.test(viewCountKey)
   ) {
     await fetch(
-      `https://simpleanalytics.com/cho.sh.json?version=5&info=false&fields=pages&pages=*${viewCountKey}*`
+      `https://simpleanalytics.com/cho.sh.json?version=5&info=false&start=2022-06-01&fields=pages&pages=*${viewCountKey}*`
     ).then((response) =>
       response
         .json()
