@@ -4,7 +4,7 @@ slug: '/2F562A'
 aliases: ['토스페이스']
 ---
 
-- Emoji Font by [[Toss]]
+- Emoji [[Font]] by [[Toss]]
 - Introduced several divergent designs, overwriting Japanese cultural images with Korean equivalents and outdated symbols with modern ones.
 - [[Toss]] once withdrew the emojis, but I submitted a request to put them back on Unicode PUA.
 - [[TossFace Playground]]
