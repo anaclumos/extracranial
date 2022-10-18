@@ -3,5 +3,5 @@ lang: 'en'
 slug: '/EC03AB'
 ---
 
-- [[internet protocol]]
-- [[intellectual property]]
+- Internet Protocol
+- Intellectual Property

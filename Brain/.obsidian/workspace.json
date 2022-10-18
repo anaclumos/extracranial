@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Internetworking.md",
-                "mode": "source",
+                "file": "Memex/Brunch.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Internetworking.md",
+                "file": "Memex/Brunch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Internetworking.md"
+                "file": "Memex/Brunch.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "48fa8310955390df",
   "lastOpenFiles": [
-    "Memex/Throughput.md",
-    "Memex/Internetworking.md",
-    "Memex/Queueing in Internetworking and Congestions.md",
-    "Memex/Sources of Packet Delay.md",
+    "Memex/Brunch violates SF terms of use.md",
+    "Memex/webfont.md",
+    "Memex/Font.md",
+    "Memex/Grotesque.md",
+    "Memex/Akzidenz.md",
     "Journals/2022-10-18.md",
-    "Memex/Space in LaTeX.md",
-    "Memex/Packet Switching vs Circuit Switching.md",
-    "Memex/Packet Loss.md",
-    "Memex/Probability Of Queueing (Internetworking).md",
-    "Memex/Research.md"
+    "Memex/Internet Protocol Stack.md",
+    "Memex/internet protocol.md",
+    "Memex/IP.md",
+    "Memex/Internetworking.md"
   ]
 }
