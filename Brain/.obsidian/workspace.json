@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "master socket.md",
+                "file": "Journals/2022-10-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "master socket.md",
+                "file": "Journals/2022-10-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "master socket.md"
+                "file": "Journals/2022-10-18.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "48fa8310955390df",
   "lastOpenFiles": [
-    "Research/internetworking.md",
-    "Journals/2022-10-18.md",
     "Journals/2022-10-17.md",
-    "Research/Andy Matuschak.md",
-    "Research/Ancestors of C.md",
-    "Research/adding space.md",
-    "Research/ActivityPub.md",
-    "Research/3d Globe on the Web.md",
-    "master socket.md",
-    "Research/tcp vs udp.md"
+    "Memex/Memex.md",
+    "Memex/Y Combinator.md",
+    "Memex/Git.md",
+    "Memex/DOM Reflow.md",
+    "Memex/Dogfooding.md",
+    "Memex/Docusaurus.md",
+    "Memex/Docker.md",
+    "Memex/Daily Dev.md",
+    "Memex/Atomic Notes.md"
   ]
 }
