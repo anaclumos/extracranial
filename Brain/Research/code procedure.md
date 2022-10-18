@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/D6FDF3'
 ---
 
-- The CODE Procedure is a second-brain building procedure introduced in [[Building a Second Brain]].
+- The CODE Procedure is a second-brain-building procedure introduced in [[Building a Second Brain]].
 - Often used with [[PARA]].
 
 | Term     | Meaning                |

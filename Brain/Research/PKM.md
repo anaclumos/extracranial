@@ -22,6 +22,6 @@ aliases: ['Personal Knowledge Management']
 | Notes are in Britannica Style                                           | Notes are in Wikipedia Style                                                              |
 | Allows foldering                                                        | Prohibits foldering                                                                       |
 | Allows archiving                                                        | Prohibits archiving                                                                       |
-| Focuses on managing different projects that grow into a creative garage | Focuses on creating and tending [[Evergreen Notes]] posts that grow into a knowledge base |
+| Focuses on managing different projects that grow into a creative garage | Focuses on creating and tending [[evergreen notes]] posts that grow into a knowledge base |
 
 Check [[Tools for Thought]] for PKM tools in the market.

@@ -4,7 +4,7 @@ slug: '/B4364B'
 ---
 
 - PARA is a second-brain framework, mentioned in [[Building a Second Brain]]
-- Often used with [[CODE]]
+- Often used with [[code procedure]]
 
 | Type      | Detail                                  | Examples                                         |
 | --------- | --------------------------------------- | ------------------------------------------------ |

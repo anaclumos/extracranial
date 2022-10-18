@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/2EAC56'
 ---
 
-- Programming Language for [[Apple]] platforms
+- Programming Language for [[apple]] platforms
 
 ## Notes
 

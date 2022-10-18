@@ -9,7 +9,7 @@ Jumpsite Service, or Web Linking Network Service, is a collective term for a [[s
 
 ![[AF8C23.png]]
 
-## [[Daily Dev]]
+## [[daily dev]]
 
 ![[3F7CB9.png]]
 
@@ -17,7 +17,7 @@ Jumpsite Service, or Web Linking Network Service, is a collective term for a [[s
 
 ![[C1FA76.png]]
 
-## [[Are.na]]
+## [[are.na]]
 
 ![[D2D06E.png]]
 

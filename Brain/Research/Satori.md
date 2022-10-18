@@ -16,7 +16,7 @@ Merged! [Add Unicode Private Area Support #161](https://github.com/vercel/satori
 
 ## [Introducing OG Image Generation: Fast, dynamic social card images at the Edge - Vercel](https://vercel.com/blog/introducing-vercel-og-image-generation-fast-dynamic-social-card-images)
 
-- _This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs._
+- _This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[css]] into SVGs._
 - _We released [og-image.vercel.app](https://og-image.vercel.app/) four years ago to enable developers to dynamically generate [open graph](https://ogp.me/) (OG) images by taking a screenshot of an [[HTML]] page inside of a Serverless Function_
 - Indeed, I also used this for a while. [anaclumos/cho-sh-og-image: Open Graph Image as a Service](https://github.com/anaclumos/cho-sh-og-image). [[Open Graph Image as a Service]]
 
@@ -30,16 +30,16 @@ Merged! [Add Unicode Private Area Support #161](https://github.com/vercel/satori
 
 ### @vercel/og
 
-- Easy: No headless browser is needed. Using [[Vercel]] OG, you can define your images using [[HTML]] and [[CSS]] and automatically generate dynamic images from the generated SVGs
+- Easy: No headless browser is needed. Using [[Vercel]] OG, you can define your images using [[HTML]] and [[css]] and automatically generate dynamic images from the generated SVGs
 - Affordable: [[Vercel]] Edge Functions are ~160x cheaper than running Chromium in a Serverless Function. Further, generated images can be cached and stored at the Edge
 - Fast: [[Vercel]] OG (500KB) is 100x more lightweight than Chromium + Puppeteer (50MB). 5x faster in P99 TTFB (4.96s → 0.99s) and 5.3x faster in P90 (4s → 0.75s).
 
 ### Features
 
-- Basic [[CSS]] layout, styling, and typography.
+- Basic [[css]] layout, styling, and typography.
 - Works with any framework or frontend application
-- Font and [[Emoji]] Subsets from Google Fonts and other CDNs
-- [[Tailwind]] [[CSS]] with the `tw` prop
+- Font and [[emoji]] Subsets from Google Fonts and other CDNs
+- [[Tailwind]] [[css]] with the `tw` prop
 - Handles Cache automatically
 
 ### Engine
