@@ -9,7 +9,7 @@ slug: '/'
 > This is my personal [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia).
 > This is everything I know!
 
-Welcome to my [[research]] note.
+Welcome to my [[Research]] note.
 I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research.
 
 If you are familiar with such concepts, this place is also a [[Memex]].

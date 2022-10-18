@@ -15,3 +15,7 @@ slug: '/6605BD'
 - [[dijkstra]]
 - [[socket]]
 - [[ip]]
+- [[port]]
+- [[handling files in unix]]
+- [[file descriptor]]
+- [[tcp vs udp]]
