@@ -533,7 +533,7 @@
     "description": "The title of the tag list page"
   },
   "theme.blog.post.loading.views": {
-    "message": "counting...",
+    "message": "Counting...",
     "description": "The blog post view count is loading"
   },
   "theme.blog.post.no.views": {
