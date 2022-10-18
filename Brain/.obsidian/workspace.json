@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Checksum.md",
+                "file": "Memex/Multiplexing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Checksum.md",
+                "file": "Memex/Multiplexing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Checksum.md"
+                "file": "Memex/Multiplexing.md"
               }
             }
           },
@@ -136,15 +137,15 @@
   },
   "active": "df22a29c1761f394",
   "lastOpenFiles": [
+    "Memex/CBR vs VBR.md",
+    "Memex/Sources of Packet Delay.md",
+    "Memex/Throughput.md",
+    "Journals/2022-10-18.md",
     "Memex/Internetworking.md",
     "Memex/Multiplexing.md",
     "Memex/Endianness.md",
     "Memex/DASH Protocol.md",
-    "Memex/CBR vs VBR.md",
     "Memex/P2P.md",
-    "Journals/2022-10-18.md",
-    "Memex/Sources of Packet Delay.md",
-    "Memex/DNS.md",
-    "Memex/POP3 vs IMAP.md"
+    "Memex/DNS.md"
   ]
 }
