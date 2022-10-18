@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Brunch.md",
-                "mode": "preview",
+                "file": "Memex/Internetworking.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Brunch.md",
+                "file": "Memex/Internetworking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Brunch.md"
+                "file": "Memex/Internetworking.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "48fa8310955390df",
   "lastOpenFiles": [
+    "Memex/Internet Protocol Stack.md",
+    "Journals/2022-10-18.md",
+    "Memex/Internetworking.md",
+    "Memex/Canary Trap.md",
+    "Memex/Brunch.md",
     "Memex/Brunch violates SF terms of use.md",
     "Memex/webfont.md",
     "Memex/Font.md",
     "Memex/Grotesque.md",
-    "Memex/Akzidenz.md",
-    "Journals/2022-10-18.md",
-    "Memex/Internet Protocol Stack.md",
-    "Memex/internet protocol.md",
-    "Memex/IP.md",
-    "Memex/Internetworking.md"
+    "Memex/Akzidenz.md"
   ]
 }
