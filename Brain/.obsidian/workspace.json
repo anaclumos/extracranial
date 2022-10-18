@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Multiplexing.md",
+                "file": "Journals/2022-10-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Multiplexing.md",
+                "file": "Journals/2022-10-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Multiplexing.md"
+                "file": "Journals/2022-10-18.md"
               }
             }
           },
@@ -137,15 +137,15 @@
   },
   "active": "df22a29c1761f394",
   "lastOpenFiles": [
+    "Memex/Master Socket.md",
+    "Journals/2022-10-18.md",
+    "Memex/Multiplexing.md",
     "Memex/CBR vs VBR.md",
     "Memex/Sources of Packet Delay.md",
     "Memex/Throughput.md",
-    "Journals/2022-10-18.md",
     "Memex/Internetworking.md",
-    "Memex/Multiplexing.md",
     "Memex/Endianness.md",
     "Memex/DASH Protocol.md",
-    "Memex/P2P.md",
-    "Memex/DNS.md"
+    "Memex/P2P.md"
   ]
 }
