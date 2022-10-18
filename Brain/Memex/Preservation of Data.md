@@ -1,7 +1,6 @@
 ---
 lang: 'en'
 slug: '/F0576B'
-draft: true
 aliases: ['archive', 'archivism']
 ---
 
