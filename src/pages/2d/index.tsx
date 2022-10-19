@@ -19,7 +19,6 @@ const processBacklinksToGraph = (backlinks) => {
   const nodes: Node[] = []
   const links: { source: string; target: string }[] = []
   for (const key in backlinks) {
-    // if it ends with .png or .jpg or .jpeg, or .gif or .svg, then it's an image
     if (
       key.endsWith('.png') ||
       key.endsWith('.jpg') ||
@@ -85,10 +84,21 @@ const GraphView = () => {
           return (
             <ForceGraph2D
               graphData={gData}
-              nodeLabel={(node) => `${node.nodeLabel}`}
-              linkColor={() => '#aaa'}
-              linkOpacity={1}
+              nodeLabel={(node) => {
+                return node.nodeLabel
+              }}
+              linkDirectionalParticles={2}
+              linkDirectionalParticleWidth={1}
+              linkDirectionalParticleSpeed={0.01}
+              nodeColor={() => '#aaa'}
+              linkDirectionalParticleColor={() => '#64a5f0'}
+              linkColor={() => '#4976ca'}
+              linkOpacity={0.5}
+              linkWidth={0.2}
               showNavInfo={false}
+              onNodeClick={(node) => {
+                window.location.href = '/r/' + node.id
+              }}
             />
           )
         }}
