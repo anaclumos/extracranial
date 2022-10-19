@@ -6,6 +6,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly'
 import { filenames } from '@site/src/data/filenames'
 import { backlinks } from '@site/src/data/backlinks'
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass'
+import Head from '@docusaurus/Head'
 
 type Node = {
   nodeLabel: string
@@ -141,6 +142,27 @@ export default function Graph(): JSX.Element {
       title="Hippocampal Neuron Graph"
       description={siteConfig.tagline}
     >
+      <Head>
+        <title>{'Hippocampal Neuron Graph'}</title>
+        <meta
+          name="description"
+          content={siteConfig.tagline}
+        />
+        <meta
+          property="og:title"
+          content={'Hippocampal Neuron Graph'}
+        />
+        <meta
+          property="og:description"
+          content={siteConfig.tagline}
+        />
+        <meta
+          property="og:image"
+          content={`https://og-image.cho.sh/**${encodeURIComponent(
+            'Hippocampal Neuron Graph'
+          )}**.png?theme=%235597ec&md=1&fontSize=100px&images=https%3A%2F%2Fcho.sh%2Fimg%2Ffavicon.png`}
+        />
+      </Head>
       <main className={styles.mainContainer}>
         <GraphView />
       </main>
