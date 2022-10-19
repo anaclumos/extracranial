@@ -48,6 +48,7 @@
     "rehype-katex": "^5.0.0",
     "remark-math": "^3.0.1",
     "swc-loader": "^0.2.3",
+    "three": "^0.145.0",
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
