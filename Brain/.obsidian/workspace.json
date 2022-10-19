@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/FinTech and Justice.md",
+                "file": "Journals/2022-10-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/FinTech and Justice.md",
+                "file": "Journals/2022-10-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/FinTech and Justice.md"
+                "file": "Journals/2022-10-18.md"
               }
             }
           },
@@ -137,8 +137,8 @@
   },
   "active": "071494c9150d3d2a",
   "lastOpenFiles": [
-    "Journals/2022-10-18.md",
     "Memex/FinTech and Justice.md",
+    "Journals/2022-10-18.md",
     "Memex/Nuclear Fission Energy.md",
     "Memex/Extracranial.md",
     "Journals/2022-10-17.md",
