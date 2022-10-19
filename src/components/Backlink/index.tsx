@@ -2,8 +2,8 @@ import React from 'react'
 import Link from '@docusaurus/Link'
 import styles from './styles.module.css'
 
-import { backlinks } from '../../data/backlinks'
-import { filenames } from '../../data/filenames'
+import { backlinks } from '@site/src/data/backlinks'
+import { filenames } from '@site/src/data/filenames'
 import { translate } from '@docusaurus/Translate'
 
 type Props = {
@@ -29,8 +29,7 @@ const processBacklinkItem = (text: string) => {
 const Backlink = (props: Props) => {
   const { documentTitle } = props
 
-  const backlinkItems =
-    backlinks[documentTitle.toLowerCase()]
+  const backlinkItems = backlinks[documentTitle]
 
   return (
     <div className={styles.backlink}>
@@ -50,7 +49,7 @@ const Backlink = (props: Props) => {
               .replace('.md', '')
             return (
               <Link
-                to={filenames[backlinkTitle.toLowerCase()]}
+                to={filenames[backlinkTitle]}
                 className={styles.backlinkItemLink}
               >
                 <div className={styles.backlinkItem}>
