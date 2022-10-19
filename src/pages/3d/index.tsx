@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import { filenames } from '@site/src/data/filenames'
 import { backlinks } from '@site/src/data/backlinks'
-import THREE from 'three'
+import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass'
 
 type Node = {
   nodeLabel: string
@@ -83,15 +83,51 @@ const GraphView = () => {
           const {
             ForceGraph3D,
           } = require('react-force-graph')
-          return (
-            <ForceGraph3D
-              graphData={gData}
-              nodeLabel={(node) => `${node.nodeLabel}`}
-              linkColor={() => '#aaa'}
-              linkOpacity={1}
-              showNavInfo={false}
-            />
-          )
+
+          const distance = 1400
+
+          const FocusGraph = () => {
+            const fgRef = useRef<any>()
+
+            useEffect(() => {
+              const bloomPass = new UnrealBloomPass()
+              bloomPass.strength = 3
+              bloomPass.radius = 1
+              bloomPass.threshold = 0.1
+              fgRef.current
+                .postProcessingComposer()
+                .addPass(bloomPass)
+            }, [])
+
+            return (
+              <ForceGraph3D
+                ref={fgRef}
+                graphData={gData}
+                nodeLabel={`nodeLabel`}
+                nodeAutoColorBy="group"
+                linkDirectionalParticles={2}
+                linkDirectionalParticleWidth={1}
+                linkDirectionalParticleSpeed={0.01}
+                nodeColor={(node) => {
+                  // id can be two type
+                  // 1. hex sRGB color
+                  // 2. date (YYYY-MM-DD)
+                  // if it's a date, then return a color #fff
+                  if (node.id?.length === 10) {
+                    return '#fff'
+                  }
+                  return `#${node.id}`
+                }}
+                linkColor={() => '#4976ca'}
+                linkOpacity={0.5}
+                linkWidth={0.2}
+                onNodeClick={(node) => {
+                  window.location.href = '/r/' + node.id
+                }}
+              />
+            )
+          }
+          return <FocusGraph />
         }}
       </BrowserOnly>
     </div>
