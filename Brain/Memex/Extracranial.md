@@ -66,6 +66,10 @@ Seems like using [[Svelte]]
 - [Use the d3 force](https://wattenberger.com/blog/d3-force)
 - [ConvertKit: The creator marketing platform](https://convertkit.com/)
 
+## Interesting Blogs
+
+- [flurries of latent creativity](https://blog.singleton.io/)
+
 ## [[Interactive Articles]]
 
 - [Tania Rascia](https://www.taniarascia.com/)
