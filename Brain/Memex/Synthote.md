@@ -7,6 +7,7 @@ slug: '/9A0D39'
 - Synthetic Anecdotes
 - Coined by [[Stephan Ango]]
 - Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?
+- [[Copilot]] is already doing it for codes
 
 ### [Photoshop for text — Stephan Ango](https://stephanango.com/photoshop-for-text)
 
