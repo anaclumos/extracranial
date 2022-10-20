@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bd5be519d43a9ebe",
+        "id": "f97d29430c4d4464",
         "type": "tabs",
         "children": [
           {
-            "id": "f56f29a2b95d4cb2",
+            "id": "59507076ec35fecd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -127,15 +127,15 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f56f29a2b95d4cb2",
+  "active": "59507076ec35fecd",
   "lastOpenFiles": [
+    "Journals/2022-10-19.md",
     "Memex/Buttondown.md",
     "Memex/Personal Training Corpus.md",
     "Memex/Prompt Engineering.md",
     "Memex/Stephan Ango.md",
     "Memex/Synthote.md",
     "Memex/Synthography.md",
-    "Journals/2022-10-19.md",
     "Memex/Reimagining Emails.md",
     "Projects/Markdown Email Client.md",
     "Memex/Newsletter Network.md"
