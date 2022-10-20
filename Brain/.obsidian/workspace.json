@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2ebc1c7cf1fc502f",
+        "id": "b84ab4ca377b4c4e",
         "type": "tabs",
         "children": [
           {
-            "id": "d3bc3e0e5eff218b",
+            "id": "0d1b0bec5a62d3f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-20.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a9807d091138460e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Project PEOPLE/Letter to Mr. Stephan Ango on 2022-10-19.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "65f61ff2628f750d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Project PEOPLE/Letter to the Heptabase Team on 2022-10-11.md",
+                "file": "Projects/FFMpeg for iPad.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Project PEOPLE/Letter to Mr. Stephan Ango on 2022-10-19.md",
+                "file": "Projects/FFMpeg for iPad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Project PEOPLE/Letter to Mr. Stephan Ango on 2022-10-19.md"
+                "file": "Projects/FFMpeg for iPad.md"
               }
             }
           },
@@ -161,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a9807d091138460e",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
-    "Projects/Project PEOPLE/Letter to Mr. Matt Rickard on 2022-10-03.md",
-    "Projects/Project PEOPLE/Letter to Mr. Alexander Obenauer on 2022-10-12.md",
-    "Projects/Project PEOPLE/Letter to Mr. Stephan Ango on 2022-10-19.md",
+    "Memex/FFMpeg.md",
+    "Memex/Remux.md",
+    "Memex/Untitled.md",
+    "Projects/FFMpeg for iPad.md",
     "Journals/2022-10-20.md",
-    "Projects/nopilot.yaml.md",
-    "Journals/2022-10-19.md",
-    "Journals/2022-10-18.md",
-    "Journals/2022-10-17.md",
-    "Journals/2022-10-16.md",
-    "Memex/Stephan Ango.md"
+    "Memex/Is DevOps Overrated.md",
+    "Journals/2022-06-26.md",
+    "Memex/Tailscale.md",
+    "Journals/2022-10-13.md",
+    "Memex/AI replaces expensive jobs first.md"
   ]
 }
