@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-19.md",
+                "file": "Memex/Playing Sounds in SDL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-19.md",
+                "file": "Memex/Playing Sounds in SDL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-19.md"
+                "file": "Memex/Playing Sounds in SDL.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "d3bc3e0e5eff218b",
   "lastOpenFiles": [
-    "Memex/Vannevar Bush.md",
     "Journals/2022-10-19.md",
+    "Memex/Playing Sounds in SDL.md",
+    "Memex/Vannevar Bush.md",
     "Memex/Three Column Design.md",
     "Memex/Copilot.md",
     "Memex/Synthote.md",
     "Memex/Buttondown.md",
     "Memex/Personal Training Corpus.md",
     "Memex/Prompt Engineering.md",
-    "Memex/Stephan Ango.md",
-    "Memex/Synthography.md"
+    "Memex/Stephan Ango.md"
   ]
 }
