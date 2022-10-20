@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/9A0D39'
 ---
 
-- Just like what we call "synthography" for synthetic imagery
+- Just like what we call [[Synthography]] for synthetic imagery
 - Synthetic Anecdotes
 - Coined by [[Stephan Ango]]
 - Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?
