@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f97d29430c4d4464",
+        "id": "2ebc1c7cf1fc502f",
         "type": "tabs",
         "children": [
           {
-            "id": "59507076ec35fecd",
+            "id": "d3bc3e0e5eff218b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Synthote.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Memex/Synthote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Memex/Synthote.md"
+              }
             }
           },
           {
@@ -127,17 +135,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "59507076ec35fecd",
+  "active": "d3bc3e0e5eff218b",
   "lastOpenFiles": [
+    "Memex/Copilot.md",
+    "Memex/Synthote.md",
     "Journals/2022-10-19.md",
     "Memex/Buttondown.md",
     "Memex/Personal Training Corpus.md",
     "Memex/Prompt Engineering.md",
     "Memex/Stephan Ango.md",
-    "Memex/Synthote.md",
     "Memex/Synthography.md",
     "Memex/Reimagining Emails.md",
-    "Projects/Markdown Email Client.md",
-    "Memex/Newsletter Network.md"
+    "Projects/Markdown Email Client.md"
   ]
 }
