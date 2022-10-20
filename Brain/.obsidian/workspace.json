@@ -4,76 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d7ee078595ebd46e",
+        "id": "bd5be519d43a9ebe",
         "type": "tabs",
         "children": [
           {
-            "id": "071494c9150d3d2a",
+            "id": "f56f29a2b95d4cb2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Stephan Ango.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "65e0c70c11922624",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Synthote.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "800a30a2c5a48ea6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Prompt Engineering.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "670bc70f352d0cb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Personal Training Corpus.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "31c190c50603358a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Buttondown.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Synthote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Memex/Synthote.md"
-              }
+              "state": {}
             }
           },
           {
@@ -188,17 +127,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "65e0c70c11922624",
+  "active": "f56f29a2b95d4cb2",
   "lastOpenFiles": [
+    "Memex/Buttondown.md",
     "Memex/Personal Training Corpus.md",
     "Memex/Prompt Engineering.md",
-    "Memex/Synthote.md",
     "Memex/Stephan Ango.md",
+    "Memex/Synthote.md",
+    "Memex/Synthography.md",
     "Journals/2022-10-19.md",
     "Memex/Reimagining Emails.md",
     "Projects/Markdown Email Client.md",
-    "Memex/Buttondown.md",
-    "Memex/Newsletter Network.md",
-    "Memex/Alexander Obenauer.md"
+    "Memex/Newsletter Network.md"
   ]
 }
