@@ -464,5 +464,6 @@ export const filenames = {
     "Plausible Analytics": "7230C5",
     "DoS Attack": "850F83",
     "Linear README": "888590",
+    "Playing Sounds in SDL": "4DC268",
     "FIRE": "CABA29"
 }
