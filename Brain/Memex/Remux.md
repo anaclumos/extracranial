@@ -1,7 +1,6 @@
 ---
 lang: 'en'
 slug: '/B73A90'
-draft: true
 ---
 
 - Remux means swapping the container without touching the content itself.
