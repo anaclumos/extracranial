@@ -122,6 +122,7 @@ const GraphView = () => {
                 linkColor={() => '#4976ca'}
                 linkOpacity={0.5}
                 linkWidth={0.2}
+                showNavInfo={false}
                 onNodeClick={(node) => {
                   window.location.href = '/r/' + node.id
                 }}

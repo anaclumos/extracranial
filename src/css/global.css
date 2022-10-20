@@ -5,6 +5,7 @@
 @import url('./font.css');
 @import url('./supplementary-font.css');
 @import url('./external-link.css');
+@import url('./graph.css');
 
 @media screen and (min-width: 996px) {
   .navbar__inner {
