@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,15 +136,15 @@
   },
   "active": "d3bc3e0e5eff218b",
   "lastOpenFiles": [
-    "Memex/Three Column Design.md",
+    "Memex/Vannevar Bush.md",
     "Journals/2022-10-19.md",
+    "Memex/Three Column Design.md",
     "Memex/Copilot.md",
     "Memex/Synthote.md",
     "Memex/Buttondown.md",
     "Memex/Personal Training Corpus.md",
     "Memex/Prompt Engineering.md",
     "Memex/Stephan Ango.md",
-    "Memex/Synthography.md",
-    "Memex/Reimagining Emails.md"
+    "Memex/Synthography.md"
   ]
 }
