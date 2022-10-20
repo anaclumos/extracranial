@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/FFMpeg for iPad.md",
+                "file": "Journals/2022-10-20.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e9dcf6899cd2639c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Memex is more than a Memex.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/FFMpeg for iPad.md",
+                "file": "Memex/Memex is more than a Memex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/FFMpeg for iPad.md"
+                "file": "Memex/Memex is more than a Memex.md"
               }
             }
           },
@@ -134,17 +148,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "aa73c60d583d3db3",
+  "active": "e9dcf6899cd2639c",
   "lastOpenFiles": [
+    "Journals/2022-10-20.md",
+    "Memex/Memex is more than a Memex.md",
+    "Memex/Our tools also shape us.md",
     "Memex/FFMpeg.md",
     "Memex/Remux.md",
     "Memex/Untitled.md",
     "Projects/FFMpeg for iPad.md",
-    "Journals/2022-10-20.md",
     "Memex/Is DevOps Overrated.md",
     "Journals/2022-06-26.md",
-    "Memex/Tailscale.md",
-    "Journals/2022-10-13.md",
-    "Memex/AI replaces expensive jobs first.md"
+    "Memex/Tailscale.md"
   ]
 }
