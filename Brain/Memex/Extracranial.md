@@ -11,6 +11,16 @@ Extracranial is my term for an organized knowledge base on the web that aims to 
 
 ## State-of-the-art References
 
+### [Stephan Ango](https://stephanango.com)
+
+<details>
+<summary>Images</summary>
+
+![[EB6370.png]]
+![[C82B1C.png]]
+
+</details>
+
 ### [The Lab Notes](https://alexanderobenauer.com/labnotes/000/) by [Alexander Obenauer](https://twitter.com/alexobenauer)
 
 Seems like using [[Svelte]]
