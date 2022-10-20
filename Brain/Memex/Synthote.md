@@ -6,7 +6,7 @@ slug: '/9A0D39'
 - Just like what we call "synthography" for synthetic imagery
 - Synthetic Anecdotes
 - Coined by [[Stephan Ango]]
-- [[Prompt Engineering]]
+- Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?
 
 ### [Photoshop for text — Stephan Ango](https://stephanango.com/photoshop-for-text)
 
