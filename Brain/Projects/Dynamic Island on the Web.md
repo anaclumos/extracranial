@@ -5,21 +5,17 @@ slug: '/B21605'
 
 - [[Dynamic Island]] on the Web
 
-## Different Sizes
+## [[2022-10-20]]
 
-![[837555.jpg]]
+I finally got the knack for how to animate and accelerate things.
+All I need to do now is to pack them with an API-style JSON payload.
+That way, anyone can put whatever data they want...
+
+![[E91526.gif]]
+
+## [[2022-10-16]]
+
 ![[AA04D0.gif]]
-
-```ts
-export type DynamicIslandState = {
-  State:
-    | 'default'
-    | 'separated'
-    | 'expanded'
-    | 'xlarge'
-    | 'ultra'
-}
-```
 
 ## Stack
 
@@ -29,7 +25,11 @@ export type DynamicIslandState = {
 
 ![[126979.jpeg]]
 
+## Different Sizes
+
+![[837555.jpg]]
+
 ## Resources
 
-- [jhaemin/dynamic-island: A web implementation of the Dymanic Island](https://github.com/jhaemin/dynamic-island)
+- [jhaemin/dynamic-island: A web implementation of the Dynamic Island](https://github.com/jhaemin/dynamic-island)
 - [Live Activities - System experiences - Components - Human Interface Guidelines - Design - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/components/system-experiences/live-activities)
