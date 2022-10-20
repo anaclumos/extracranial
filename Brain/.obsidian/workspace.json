@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Memex is more than a Memex.md",
+                "file": "Memex/Remux.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Memex is more than a Memex.md",
+                "file": "Memex/Remux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Memex is more than a Memex.md"
+                "file": "Memex/Remux.md"
               }
             }
           },
@@ -150,8 +150,8 @@
   },
   "active": "e9dcf6899cd2639c",
   "lastOpenFiles": [
-    "Journals/2022-10-20.md",
     "Memex/Memex is more than a Memex.md",
+    "Journals/2022-10-20.md",
     "Memex/Our tools also shape us.md",
     "Memex/FFMpeg.md",
     "Memex/Remux.md",
