@@ -68,6 +68,7 @@ export const backlinks = {
         "Firefox": "- _Enter [`os_unfair_lock`](https://developer.apple.com/documentation/os/os_unfair_lock), [[**Apple**]]'s official replacement for `OSSpinLock`. If ...",
         "Brunch violates SF terms of use": "... Korean writing service Brunch violates [[**Apple**]]'s Terms of Use by using ...",
         "San Francisco": "- Font by [[**Apple**]]\n",
+        "Horizontally Stacked Interface": "## [[**Apple**]] Concierge App for Genius Bars\n",
         "Google": "... information technology companies, alongside Amazon, [[**Apple**]], Meta, and Microsoft. [Google](https://en.wikipedia.org/wiki/Google)\n"
     },
     "Font": {
@@ -258,7 +259,7 @@ export const backlinks = {
         "0215 Kth Largest Element in an Array": "[[**TODO**]]\n",
         "2022-10-12": "## [[**TODO**]]\n",
         "2022-10-13": "## [[**TODO**]]\n",
-        "2022-10-18": "## [[**TODO**]]\n",
+        "2022-10-19": "## [[**TODO**]]\n",
         "Tools for Thought": "[[**TODO**]]: Convert this page into a ..."
     },
     "Trie": {
@@ -449,7 +450,13 @@ export const backlinks = {
     },
     "SendGrid": {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[**SendGrid**]]\n",
-        "2022-10-17": "- [[**SendGrid**]]\n"
+        "2022-10-17": "- [[**SendGrid**]]\n",
+        "Newsletter Network": "- Alexander Obenauer [[**SendGrid**]]\n"
+    },
+    "Newsletter Network": {
+        "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[**Newsletter Network**]]\n",
+        "2022-10-19": "- [[**Newsletter Network**]]\n",
+        "Reimagining Emails": "- [[**Newsletter Network**]]\n"
     },
     "Emojis": {
         "TossFace Playground": "... Redistribution of Korean and Futuristic [[**Emojis**|**Emojis**]]. [유니코드 Private Use Area를 이용해 ...",
@@ -525,6 +532,7 @@ export const backlinks = {
         "2022-06-21": "## Today's [[**Hacker News**]]\n",
         "2022-10-18": "## [[**Hacker News**|HN]]\n",
         "2022-09-29": "## Today's [[**Hacker News**]]\n",
+        "2022-10-19": "## [[**Hacker News**|HN]]\n",
         "2022-09-09": "## Today's [[**Hacker News**]]\n",
         "2022-07-09": "... this is a wikilink to [[**Hacker News**]].\n",
         "2022-06-22": "## Today's [[**Hacker News**]]\n",
@@ -536,6 +544,7 @@ export const backlinks = {
         "2022-07-26": "## Today's [[**Hacker News**]]\n",
         "2022-09-05": "## Today's [[**Hacker News**]]\n",
         "2022-10-15": "## [[**Hacker News**|HN]]\n",
+        "Emails and Decentralized Protocols": "... from the original discussion on [[**Hacker News**|HN]] was to use [ImprovMX](https://improvmx.com) as ...",
         "Jumpsite": "## [[**Hacker News**]]\n"
     },
     "418938.jpeg": {
@@ -684,6 +693,8 @@ export const backlinks = {
         "Better Obsidian": "## Extension Ideas for [[**Obsidian**]]\n",
         "2022-10-13": "- [[**Obsidian**]] is now out of beta\n",
         "2022-07-18": "- [[**Obsidian**]]-like [[Tools for Thought",
+        "Stephan Ango": "- Currently works at [[**Obsidian**]]\n",
+        "Obsidian Ava": "... Early Stage Synthography tool for [[**Obsidian**]]\n",
         "Our tools also shape us": "  - [[**Obsidian**]] makes you a connector + ...",
         "Nota": "Awesome alternative to [[**Obsidian**]].\n",
         "Tools for Thought": "- [zadam/trilium](https://github.com/zadam/trilium): [[**Obsidian**]]-like note-taking service.\n"
@@ -827,7 +838,7 @@ export const backlinks = {
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[**Dynamic Island on the Web**]]\n",
         "2022-10-16": "### [[**Dynamic Island on the Web**]]\n",
-        "2022-10-18": "- [[**Dynamic Island on the Web**]]\n",
+        "2022-10-19": "- [[**Dynamic Island on the Web**]]\n",
         "2022-10-15": "- [[**Dynamic Island on the Web**]]\n"
     },
     "Handwriting Tools for Thoughts": {
@@ -841,10 +852,12 @@ export const backlinks = {
     },
     "Letter to Mr. Alexander Obenauer on 2022-10-12": {
         "2022-10-12": "- [[**Letter to Mr. Alexander Obenauer on 2022-10-12**]]\n",
-        "2022-10-17": "### [[**Letter to Mr. Alexander Obenauer on 2022-10-12**]]\n"
+        "2022-10-17": "### [[**Letter to Mr. Alexander Obenauer on 2022-10-12**]]\n",
+        "Newsletter Network": "- Mentioned in [[**Letter to Mr. Alexander Obenauer on 2022-10-12**]]\n"
     },
     "Personal Training Corpus": {
         "2022-10-12": "- [[**Personal Training Corpus**]]\n",
+        "Synthote": "... Relates to Prompt Engineering and [[**Personal Training Corpus**]]?\n",
         "Prompt Engineering": "- [[**Personal Training Corpus**]]\n"
     },
     "Cosmic noises of life": {
@@ -853,7 +866,8 @@ export const backlinks = {
     "Better Hacker News": {
         "2022-10-12": "- [[**Better Hacker News**]]\n",
         "2022-07-12": "- [[**Better Hacker News**]]\n",
-        "Handwriting Tools for Thoughts": "- [[**Better Hacker News**]]\n"
+        "Handwriting Tools for Thoughts": "- [[**Better Hacker News**]]\n",
+        "Horizontally Stacked Interface": "  - [[**Better Hacker News**]]?\n"
     },
     "Jetbrains Fleet": {
         "2022-10-12": "- [[**Jetbrains Fleet**]] is [[GA"
@@ -979,7 +993,8 @@ export const backlinks = {
         "2022-10-17": "- [[**Wikiversity**]]\n"
     },
     "Now Page": {
-        "2022-10-17": "- [[**Now Page**]]\n"
+        "2022-10-17": "- [[**Now Page**]]\n",
+        "Stephan Ango": "- [[**Now Page**]]: [What I'm doing now — ..."
     },
     "GeoCheatCode": {
         "2022-10-17": "- [[**GeoCheatCode**]]\n"
@@ -1019,6 +1034,9 @@ export const backlinks = {
     "Prompt Engineering": {
         "2022-09-03": "- [[**Prompt Engineering**]]\n",
         "2022-09-30": "- [Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/) [[**Prompt Engineering**]]\n",
+        "Synthography": "- Needs [[**Prompt Engineering**]]\n",
+        "Synthote": "- Relates to [[**Prompt Engineering**]] and [[Personal Training Corpus",
+        "Obsidian Ava": "- [[**Prompt Engineering**]]\n",
         "Screenshot as an API": "... Stable Diffusion and DALL-E (text-to-image) [[**Prompt Engineering**]]\n",
         "Metaverse": "... be attained within years with [[**Prompt Engineering**]].\n"
     },
@@ -1044,6 +1062,7 @@ export const backlinks = {
     },
     "Extracranial": {
         "2022-10-13": "- [[**Extracranial**]]\n",
+        "2022-10-18": "- [[**Extracranial**]]\n",
         "2022-09-28": "- [[**Extracranial**]]\n",
         "2022-06-14": "- [[**Extracranial**]]\n",
         "2022-05-28": "- [[**Extracranial**]]\n",
@@ -1109,7 +1128,8 @@ export const backlinks = {
         "2022-10-18": "- [[**How to Build Software like an SRE**]]\n"
     },
     "Copilot": {
-        "2022-10-18": "- [[**Copilot**]]\n"
+        "2022-10-18": "- [[**Copilot**]]\n",
+        "Synthote": "- [[**Copilot**]] is already doing it for ..."
     },
     "Interactive Articles": {
         "2022-10-18": "- [[**Interactive Articles**]]\n",
@@ -1118,16 +1138,11 @@ export const backlinks = {
     "Preservation of Data": {
         "2022-10-18": "- [[**Preservation of Data**]]\n"
     },
-    "Projects": {
-        "2022-10-18": "## Ongoing [[**Projects**]]\n"
+    "Nuclear Fission Energy": {
+        "2022-10-18": "- [[**Nuclear Fission Energy**]]\n"
     },
-    "How is WebAssembly cross-platform when Assembly is not": {
-        "2022-10-18": "- [[**How is WebAssembly cross-platform when Assembly is not**]]\n",
-        "2022-09-20": "- [[**How is WebAssembly cross-platform when Assembly is not**]]\n"
-    },
-    "Markdown Email Client": {
-        "2022-10-18": "- [ ] Review [MailPilot](https://www.mailpilot.app/) [[**Markdown Email Client**]]\n",
-        "2022-10-04": "- [[**Markdown Email Client**]]\n"
+    "FinTech and Justice": {
+        "2022-10-18": "- [[**FinTech and Justice**]]\n"
     },
     "ACSM (File Format)": {
         "2022-06-05": "- _Convert [[**ACSM (File Format)**]] files to [[PDF (File Format)"
@@ -1188,6 +1203,61 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "[[**WebAssembly**]] is a novel way of ...",
         "Deno Deploy": "- TypeScript, [[**WebAssembly**|Wasm]], ES Modules\n",
         "Stories Behind Satori": "Converting it into [[**WebAssembly**|WASM]] will also benefit by targeting ..."
+    },
+    "Synthote": {
+        "2022-10-19": "- [[**Synthote**]]\n",
+        "Stephan Ango": "- Coined the term [[**Synthote**]]\n",
+        "Reimagining Emails": "- Potential links to [[**Synthote**]]?\n"
+    },
+    "Synthography": {
+        "2022-10-19": "- [[**Synthography**]]\n",
+        "Synthote": "... Just like what we call [[**Synthography**]] for synthetic imagery\n",
+        "Obsidian Ava": "- Early Stage [[**Synthography**]] tool for [[Obsidian"
+    },
+    "Obsidian Ava": {
+        "2022-10-19": "- [[**Obsidian Ava**]]\n",
+        "Synthote": "... to see community efforts like [[**Obsidian Ava**]] driving in this direction.\n"
+    },
+    "Stephan Ango": {
+        "2022-10-19": "- [[**Stephan Ango**]]\n",
+        "Synthote": "- Coined by [[**Stephan Ango**]]\n",
+        "Now Page": "### [[**Stephan Ango**]]\n",
+        "Newsletter Network": "- [[**Stephan Ango**]] uses [[Buttondown"
+    },
+    "Emails and Decentralized Protocols": {
+        "2022-10-19": "- [[**Emails and Decentralized Protocols**]]\n",
+        "2022-09-05": "- [[**Emails and Decentralized Protocols**]]\n",
+        "Reimagining Emails": "- [[**Emails and Decentralized Protocols**]]\n"
+    },
+    "Buttondown": {
+        "2022-10-19": "- [[**Buttondown**]]\n",
+        "Newsletter Network": "- Stephan Ango uses [[**Buttondown**]]\n"
+    },
+    "Reimagining Emails": {
+        "2022-10-19": "- [[**Reimagining Emails**]]\n",
+        "Emails and Decentralized Protocols": "... Obenauer: My career began with [[**Reimagining Emails**]] and finding ways to build ...",
+        "Alexander Obenauer": "- Interested in [[**Reimagining Emails**]]\n"
+    },
+    "Rewrite it in Rust": {
+        "2022-10-19": "- [[**Rewrite it in Rust**]]\n"
+    },
+    "Horizontally Stacked Interface": {
+        "2022-10-19": "- [[**Horizontally Stacked Interface**]]\n"
+    },
+    "Starlink": {
+        "2022-10-19": "- [[**Starlink**]]\n"
+    },
+    "Projects": {
+        "2022-10-19": "## Ongoing [[**Projects**]]\n"
+    },
+    "How is WebAssembly cross-platform when Assembly is not": {
+        "2022-10-19": "- [[**How is WebAssembly cross-platform when Assembly is not**]]\n",
+        "2022-09-20": "- [[**How is WebAssembly cross-platform when Assembly is not**]]\n"
+    },
+    "Markdown Email Client": {
+        "2022-10-19": "- [ ] Review [MailPilot](https://www.mailpilot.app/) [[**Markdown Email Client**]]\n",
+        "2022-10-04": "- [[**Markdown Email Client**]]\n",
+        "Reimagining Emails": "- [[**Markdown Email Client**]]\n"
     },
     "Someday": {
         "2022-09-09": "- [[**Someday**]]\n"
@@ -1392,6 +1462,11 @@ export const backlinks = {
         "SwiftUI": "- Declarative Framework made with [[**Swift**]]\n",
         "Apple": "- Creator of [[**Swift**]], [[**Swift**UI"
     },
+    "Alexander Obenauer": {
+        "Emails and Decentralized Protocols": "- [[**Alexander Obenauer**]]: My career began with [[Reimagining ...",
+        "Newsletter Network": "- [[**Alexander Obenauer**]] [[SendGrid",
+        "Reimagining Emails": "## [[**Alexander Obenauer**]]\n"
+    },
     "Super App": {
         "Super App and Democracy": "... technology entrepreneurs dream of an \"[[**Super App**|Everything App]]\", a smartphone application that will ...",
         "Toss": "... say _the most innovative_ Financial [[**Super App**]] I've ever seen in Korea ..."
@@ -1429,13 +1504,20 @@ export const backlinks = {
         "Either be the best-in-class or the most efficient": "- [[**Venture Capital**|VC]]\n"
     },
     "Sliding Panes": {
-        "Andy Matuschak": "Introduced novel concepts, such as [[**Sliding Panes**]], [[Backlink|links to this note"
+        "Andy Matuschak": "Introduced novel concepts, such as [[**Sliding Panes**]], [[Backlink|links to this note",
+        "Horizontally Stacked Interface": "- [[**Sliding Panes**]]: Have multiple-scrollable columns.\n"
     },
     "Simple Analytics": {
         "Google Analytics": "- Alternative: [[**Simple Analytics**]], [[Plausible Analytics"
     },
     "Plausible Analytics": {
         "Google Analytics": "- Alternative: Simple Analytics, [[**Plausible Analytics**]]\n"
+    },
+    "EB6370.png": {
+        "Extracranial": "![[**EB6370.png**]]\n"
+    },
+    "C82B1C.png": {
+        "Extracranial": "![[**C82B1C.png**]]\n"
     },
     "Svelte": {
         "Extracranial": "Seems like using [[**Svelte**]]\n"
@@ -1466,6 +1548,9 @@ export const backlinks = {
     },
     "DA4882.png": {
         "Extracranial": "![[**DA4882.png**]]\n"
+    },
+    "extracranial": {
+        "Stephan Ango": "- [[**extracranial**]] @ [Stephan Ango](https://stephanango.com/)\n"
     },
     "Pretendard": {
         "서울 프로": "본 목적은 [[**Pretendard**]]와 비슷하게 [[Apple",
@@ -1586,7 +1671,8 @@ export const backlinks = {
         "Internetworking": "- [[**Cookie**]]\n"
     },
     "SMTP": {
-        "Internetworking": "- [[**SMTP**]]\n"
+        "Internetworking": "- [[**SMTP**]]\n",
+        "Reimagining Emails": "- [[**SMTP**]]\n"
     },
     "POP3 vs IMAP": {
         "Internetworking": "- [[**POP3 vs IMAP**]]\n"
@@ -1611,6 +1697,13 @@ export const backlinks = {
     },
     "Extracting string in Android": {
         "Android": "- [[**Extracting string in Android**]]\n"
+    },
+    "Financial Technology": {
+        "FinTech and Justice": "- Does [[**Financial Technology**|FinTech]] increase Justice in this world?\n",
+        "Toss": "- [[**Financial Technology**|FinTech]] Unicorn of Korea.\n"
+    },
+    "6982B6.png": {
+        "Now Page": "![[**6982B6.png**]]\n"
     },
     "Apple Silicon (CPU)": {
         "Apple": "- Creator of Swift, SwiftUI, [[**Apple Silicon (CPU)**]]\n"
@@ -1699,9 +1792,6 @@ export const backlinks = {
     },
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[**EF6FE0.gif**]]\n"
-    },
-    "Financial Technology": {
-        "Toss": "- [[**Financial Technology**|FinTech]] Unicorn of Korea.\n"
     },
     "Tossface": {
         "Toss": "... of Toss Product Sans and [[**Tossface**]]\n"
@@ -1793,6 +1883,12 @@ export const backlinks = {
     "Handwriting Grammarly": {
         "Handwriting Tools for Thoughts": "- We might need [[**Handwriting Grammarly**]]\n"
     },
+    "Three Column Design": {
+        "Horizontally Stacked Interface": "- [[**Three Column Design**]]: Discord-Like Interface.\n"
+    },
+    "8121DD.png": {
+        "Horizontally Stacked Interface": "![[**8121DD.png**]]\n"
+    },
     "Shim": {
         "Realm Shim": "> [[**Shim**]] implementation of the [Realm API ..."
     },
@@ -1822,6 +1918,15 @@ export const backlinks = {
     },
     "AE63DD.png": {
         "Sliding Panes": "![[**AE63DD.png**]]\n"
+    },
+    "A7416A.png": {
+        "Three Column Design": "![[**A7416A.png**]]\n"
+    },
+    "3CF24C.png": {
+        "Three Column Design": "![[**3CF24C.png**]]\n"
+    },
+    "6BD54D.png": {
+        "Three Column Design": "![[**6BD54D.png**]]\n"
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[**Canvas (HTML5)**|Canvas]]-based solutions lacked dynamic behaviors (e.g., ..."
