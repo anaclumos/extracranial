@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-19.md",
+                "file": "Projects/Project PEOPLE/Letter to the Heptabase Team on 2022-10-11.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-19.md",
+                "file": "Projects/Project PEOPLE/Letter to the Heptabase Team on 2022-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-19.md"
+                "file": "Projects/Project PEOPLE/Letter to the Heptabase Team on 2022-10-11.md"
               }
             }
           },
@@ -148,17 +148,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "65f61ff2628f750d",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
-    "Memex/Letter to Mr. Stephan Ango on 2022-10-19.md",
-    "Journals/2022-10-19.md",
     "Journals/2022-10-20.md",
-    "Memex/Stephan Ango.md",
-    "Projects/Dynamic Island on the Web.md",
+    "Projects/nopilot.yaml.md",
+    "Journals/2022-10-19.md",
     "Journals/2022-10-18.md",
     "Journals/2022-10-17.md",
     "Journals/2022-10-16.md",
-    "Journals/2022-10-15.md",
-    "Assets/AA04D0.gif"
+    "Projects/Project PEOPLE/Letter to Mr. Stephan Ango on 2022-10-19.md",
+    "Memex/Stephan Ango.md",
+    "Projects/Dynamic Island on the Web.md",
+    "Journals/2022-10-15.md"
   ]
 }
