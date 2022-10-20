@@ -1204,6 +1204,9 @@ export const backlinks = {
         "Deno Deploy": "- TypeScript, [[**WebAssembly**|Wasm]], ES Modules\n",
         "Stories Behind Satori": "Converting it into [[**WebAssembly**|WASM]] will also benefit by targeting ..."
     },
+    "Playing Sounds in SDL": {
+        "2022-10-19": "- [[**Playing Sounds in SDL**]]\n"
+    },
     "Synthote": {
         "2022-10-19": "- [[**Synthote**]]\n",
         "Stephan Ango": "- Coined the term [[**Synthote**]]\n",
@@ -1848,7 +1851,8 @@ export const backlinks = {
         "Game Programming": "- [[**Forward Declaration**]]\n"
     },
     "Simple DirectMedia Layer": {
-        "Game Programming": "- [[**Simple DirectMedia Layer**]]\n"
+        "Game Programming": "- [[**Simple DirectMedia Layer**]]\n",
+        "Playing Sounds in SDL": "- [[**Simple DirectMedia Layer**|SDL]]\n"
     },
     "Metadata as a Service": {
         "Fiercely Overpriced": "[[**Metadata as a Service**]] could also be one example.\n"
