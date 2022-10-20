@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Synthote.md",
+                "file": "Journals/2022-10-19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Synthote.md",
+                "file": "Journals/2022-10-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Synthote.md"
+                "file": "Journals/2022-10-19.md"
               }
             }
           },
@@ -137,15 +137,15 @@
   },
   "active": "d3bc3e0e5eff218b",
   "lastOpenFiles": [
+    "Memex/Three Column Design.md",
+    "Journals/2022-10-19.md",
     "Memex/Copilot.md",
     "Memex/Synthote.md",
-    "Journals/2022-10-19.md",
     "Memex/Buttondown.md",
     "Memex/Personal Training Corpus.md",
     "Memex/Prompt Engineering.md",
     "Memex/Stephan Ango.md",
     "Memex/Synthography.md",
-    "Memex/Reimagining Emails.md",
-    "Projects/Markdown Email Client.md"
+    "Memex/Reimagining Emails.md"
   ]
 }
