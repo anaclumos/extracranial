@@ -19,6 +19,6 @@ slug: '/B26538'
 - You don't have to `postfix` + `dovecot` in 2022.
 - An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use [ImprovMX](https://improvmx.com) as an outgoing email server.
 
-### Others
+## Others
 
 - [[Alexander Obenauer]]: My career began with [[Reimagining Emails]] and finding ways to build that vision on top of the existing email protocols.
