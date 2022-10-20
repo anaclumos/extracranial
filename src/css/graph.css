@@ -1,5 +1,18 @@
 .scene-tooltip {
   font-family: var(--font-family-sans-serif) !important;
+  background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
-  border-radius: 0.5rem !important;
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+}
+
+.scene-tooltip:empty {
+  display: none;
+}
+
+.graph-tooltip {
+  font-family: var(--font-family-sans-serif) !important;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: var(--border-radius);
 }

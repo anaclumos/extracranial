@@ -54,3 +54,8 @@
   background: url(../../static/icons/linkedin-dark.svg)
     no-repeat center;
 }
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background: none;
+}
