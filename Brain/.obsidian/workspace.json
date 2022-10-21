@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8c0f9e86fcce385d",
+        "id": "5f0770aaae9c07f9",
         "type": "tabs",
         "children": [
           {
-            "id": "ef066a2f9a97811c",
+            "id": "a2006a118918f37e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Setting different images for Light & Dark mode.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Setting different images for Light & Dark mode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Memex/Setting different images for Light & Dark mode.md"
-              }
+              "state": {}
             }
           },
           {
@@ -134,8 +126,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "ef066a2f9a97811c",
+  "active": "a2006a118918f37e",
   "lastOpenFiles": [
+    "Memex/Setting different images for Light & Dark mode.md",
     "Journals/2022-10-21.md",
     "Memex/Redirecting READMEs.md",
     "Memex/Curve Fitting for Charts.md",
@@ -143,7 +136,6 @@
     "Memex/Lesser-Known Tricks.md",
     "Memex/How does File Alias work.md",
     "Memex/벌금과 물가.md",
-    "Memex/Setting different images for Light & Dark mode.md",
     "Memex/Symlink.md",
     "Memex/Ignoring $ for copy-pasting online resources to terminal.md"
   ]
