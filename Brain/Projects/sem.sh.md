@@ -14,7 +14,7 @@ slug: '/BB0A88'
 - Your data, your own (no paywall if self-hosted)
 - terminal program gets all the data (the .sh name)
 - JSON API
-- GitHub Profile Widget
+- [[GitHub]] Profile Widget
 - Code Style Analytics (`PascalCase`, `snake_case`, ... )
 - Idle time, Typing time, Googling Time measurer, etc
 
