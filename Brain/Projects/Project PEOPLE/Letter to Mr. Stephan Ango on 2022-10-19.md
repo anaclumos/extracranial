@@ -40,7 +40,7 @@ Thank you for your feedback!
 My website is already open-source here: [https://github.com/anaclumos/extracranial](https://github.com/anaclumos/extracranial).
 
 I have some personal Python scripts that convert Obsidian MD files to Docusaurus MD files since they have slightly different specs.
-Namely, Docusaurus does not support `[[wikilinks]]` and `![[image-wikilinks]]`.
+Namely, Docusaurus does not support `wikilinks` and `image-wikilinks`.
 It also lacks any backlinking support and graph visualization.
 I've been contributing to Docusaurus & talking with Docusaurus core devs, and these features will not come soon because it involves a pretty significant revamp or underlying link management system. [https://github.com/anaclumos/extracranial/tree/main/tools](https://github.com/anaclumos/extracranial/tree/main/tools)
 
