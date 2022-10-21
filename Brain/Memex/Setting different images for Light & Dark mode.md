@@ -8,8 +8,8 @@ slug: '/519D85'
 - Using `#gh-dark-mode-only` for [[GitHub]]
 
 ```
-![Thumbnail](/thumbnail.svg#gh-light-mode-only)
-![Thumbnail](/thumbnail-white.svg#gh-dark-mode-only)
+![Thumbnail.png](/thumbnail.svg#gh-light-mode-only)
+![Thumbnail.png](/thumbnail-white.svg#gh-dark-mode-only)
 ```
 
 - This does not scale and does not work outside of [[GitHub]]
