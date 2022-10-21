@@ -10,18 +10,32 @@ type Props = {
   documentTitle: string
 }
 
-const processBacklinkItem = (text: string) => {
+const processBacklinkItem = (
+  text: string,
+  title: string
+) => {
+  // replace title with <b>title</b>
   let splittedText = text
     .trim()
-    .replace(
-      /(\*\*|__)(.*?)\1/g,
-      `<b class=${styles.mentionedString}>$2</b>`
+    .split(title)
+    .filter((item) => item !== '')
+  splittedText = splittedText.map((item, index) => {
+    if (index === splittedText.length - 1) {
+      return item
+    }
+    return (
+      item +
+      `<b
+      class="${styles.highlight}"
+    >${title}</b>`
     )
-    .replace('\n', '')
+  })
   return (
     <pre
       className={styles.backlinkItemText}
-      dangerouslySetInnerHTML={{ __html: splittedText }}
+      dangerouslySetInnerHTML={{
+        __html: splittedText.join(''),
+      }}
     />
   )
 }
@@ -57,7 +71,8 @@ const Backlink = (props: Props) => {
                     {backlinkTitle}
                   </h3>
                   {processBacklinkItem(
-                    backlinkItems[backlink]
+                    backlinkItems[backlink],
+                    documentTitle
                   )}
                 </div>
               </Link>
