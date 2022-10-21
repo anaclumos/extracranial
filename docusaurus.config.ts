@@ -108,6 +108,20 @@ const config: Config = {
       defer: true,
       'data-domain': 'cho.sh',
     },
+    {
+      src: 'https://microanalytics.io/js/script.js',
+      async: true,
+      defer: true,
+      'data-host': 'https://microanalytics.io',
+      'data-dnt': 'false',
+      id: 'ZwSg9rf6GA',
+    },
+    {
+      src: 'https://cdn.usefathom.com/script.js',
+      'data-spa': 'auto',
+      'data-site': 'PKKWNZOG',
+      defer: true,
+    },
   ],
   plugins: [['@docusaurus/plugin-pwa', pwaOptions]],
 }
