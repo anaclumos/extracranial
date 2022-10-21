@@ -11,8 +11,13 @@
             "id": "a2006a118918f37e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Palantir.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Memex/Palantir.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Memex/Palantir.md"
+              }
             }
           },
           {
@@ -128,15 +136,15 @@
   },
   "active": "a2006a118918f37e",
   "lastOpenFiles": [
-    "Memex/Setting different images for Light & Dark mode.md",
+    "Memex/Palantir Gotham.md",
+    "Memex/Palantir.md",
+    "Memex/Palantir Apollo.md",
+    "Memex/Palantir Foundry.md",
     "Journals/2022-10-21.md",
+    "Memex/Setting different images for Light & Dark mode.md",
     "Memex/Redirecting READMEs.md",
     "Memex/Curve Fitting for Charts.md",
     "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
-    "Memex/Lesser-Known Tricks.md",
-    "Memex/How does File Alias work.md",
-    "Memex/벌금과 물가.md",
-    "Memex/Symlink.md",
-    "Memex/Ignoring $ for copy-pasting online resources to terminal.md"
+    "Memex/Lesser-Known Tricks.md"
   ]
 }
