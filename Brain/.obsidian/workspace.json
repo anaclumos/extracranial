@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "714979bc608490de",
+        "id": "2d379e4315828af1",
         "type": "tabs",
         "children": [
           {
-            "id": "89315cf8d9a657eb",
+            "id": "f360139c8ad9d198",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-20.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "95ec9b9268444cc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-20.md",
-                "mode": "source",
+                "file": "Journals/2022-10-21.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "email",
+                "query": "draft: true",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-20.md",
+                "file": "Journals/2022-10-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-20.md"
+                "file": "Journals/2022-10-21.md"
               }
             }
           },
@@ -148,17 +135,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "95ec9b9268444cc6",
+  "active": "f360139c8ad9d198",
   "lastOpenFiles": [
-    "Projects/Project PEOPLE/Letter to Mr. Stephan Ango on 2022-10-19.md",
-    "Journals/2022-10-20.md",
-    "Memex/Inspecting Assembly.md",
-    "Memex/Remux.md",
-    "Memex/Memex is more than a Memex.md",
-    "Memex/Our tools also shape us.md",
-    "Memex/FFMpeg.md",
-    "Memex/Untitled.md",
-    "Projects/FFMpeg for iPad.md",
-    "Memex/Is DevOps Overrated.md"
+    "Memex/Lesser-Known Tricks.md",
+    "Journals/2022-10-21.md",
+    "Memex/How does File Alias work.md",
+    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
+    "Memex/벌금과 물가.md",
+    "Memex/Setting different images for Light & Dark mode.md",
+    "Memex/Redirecting READMEs.md",
+    "Memex/Symlink.md",
+    "Memex/Ignoring $ for copy-pasting online resources to terminal.md",
+    "Memex/GitHub.md"
   ]
 }
