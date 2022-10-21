@@ -46,7 +46,7 @@
 .backlinkItemText {
   font-size: 0.8rem;
   white-space: pre-wrap;
-  color: var(--ifm-color-emphasis-400);
+  color: var(--ifm-color-emphasis-500);
   margin: 0;
 }
 
@@ -57,5 +57,5 @@
 .noBacklink {
   font-size: 0.8rem;
   padding: 1rem 0.5rem 0 0.5rem;
-  color: var(--ifm-color-emphasis-400);
+  color: var(--ifm-color-emphasis-500);
 }
