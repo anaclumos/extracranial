@@ -4,29 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "2d379e4315828af1",
+        "id": "c03134cd7cc30372",
         "type": "tabs",
         "children": [
           {
-            "id": "f360139c8ad9d198",
+            "id": "514ad8addfa0e114",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Journals/2022-10-21.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "e4a2e358d2ccb0f5",
+            "id": "aad8d5df0e146559",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
+                "file": "Memex/Curve Fitting for Charts.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -80,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
+                "file": "Memex/Curve Fitting for Charts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Adding a Verified Mark on Apple Mail & Gmail.md"
+                "file": "Memex/Curve Fitting for Charts.md"
               }
             }
           },
@@ -149,17 +148,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e4a2e358d2ccb0f5",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
     "Journals/2022-10-21.md",
+    "Memex/Curve Fitting for Charts.md",
+    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
     "Memex/Lesser-Known Tricks.md",
     "Memex/How does File Alias work.md",
-    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
     "Memex/벌금과 물가.md",
     "Memex/Setting different images for Light & Dark mode.md",
     "Memex/Redirecting READMEs.md",
     "Memex/Symlink.md",
-    "Memex/Ignoring $ for copy-pasting online resources to terminal.md",
-    "Memex/GitHub.md"
+    "Memex/Ignoring $ for copy-pasting online resources to terminal.md"
   ]
 }
