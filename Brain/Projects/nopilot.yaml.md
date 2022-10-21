@@ -6,7 +6,7 @@ slug: '/F9F706'
 What if we could make a human-readable file that declines machine learning (a.k.a. [[Copilot]] use)?
 Just like robots.txt, but for [[Copilot]]
 
-```
+```yaml
 sourcemap: /source.map.js
 robots.txt: /robots.txt
 license: MIT
@@ -35,7 +35,7 @@ ai:
 
 ### Equivalent JSON
 
-```
+```json
 {
   "ai": [
     {
