@@ -5,7 +5,7 @@ slug: '/CB6043'
 
 - Use a S/MIME certificate to sign an email
 
-![[IMG_0127.jpeg]]
-![[IMG_1751.jpeg]]
-![[IMG_1743.png]]
-![[IMG_1746.png]]
+![[7A151F.jpeg]]
+![[48FEB4.jpeg]]
+![[BDC6C0.png]]
+![[DEC72A.png]]
