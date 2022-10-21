@@ -1,7 +1,6 @@
 ---
 lang: 'en'
 slug: '/CD9B1D'
-draft: true
 ---
 
 > Palantir Apollo is the operating system for continuous delivery and deployment across all environments. Their SaaS is one of five offerings authorized for Mission Critical National Security Systems (IL5) by the U.S. Department of Defense. [Palantir Technologies](https://en.wikipedia.org/wiki/Palantir_Technologies)
