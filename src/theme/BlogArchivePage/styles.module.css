@@ -28,3 +28,9 @@
     max-width: 90%;
   }
 }
+
+.heroTitle {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}

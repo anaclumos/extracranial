@@ -122,8 +122,9 @@ export default function BlogArchive({
               styles.heroContainer
             )}
           >
-            <h1 className="hero__title">{title}</h1>
-            <p className="hero__subtitle">{description}</p>
+            <h1 className={clsx(styles.heroTitle)}>
+              {title}
+            </h1>
           </div>
         </header>
         <main>
