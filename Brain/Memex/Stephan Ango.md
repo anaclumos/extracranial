@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/6A9784'
+aliases: ['kepano']
 ---
 
 - Currently works at [[Obsidian]]
