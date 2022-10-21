@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e153c48c4e87865b",
+        "id": "d2dcc0af5a03738a",
         "type": "tabs",
         "children": [
           {
-            "id": "89d35298e629474c",
+            "id": "ae8f3a4ecab64dfd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "4fee0caf4953b716",
+            "id": "8df6ec8ff6efe7c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-08-04.md",
+                "file": "Memex/3D File Format.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "8cb502dc414d4d12",
+            "id": "382518043fd691ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-21.md",
+                "file": "Memex/Things.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-21.md",
+                "file": "Memex/Things.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-21.md"
+                "file": "Memex/Things.md"
               }
             }
           },
@@ -162,17 +161,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8cb502dc414d4d12",
+  "active": "382518043fd691ec",
   "lastOpenFiles": [
-    "Memex/Tools I will use one day.md",
-    "Journals/2022-08-04.md",
-    "Memex/Venture Capital.md",
-    "Memex/Stories Behind Satori.md",
-    "Memex/Jetbrains Fleet.md",
-    "Readings/Atomic Habits.md",
-    "Journals/2022-10-07.md",
-    "Journals/2022-07-02.md",
+    "Memex/3D File Format.md",
     "Journals/2022-10-21.md",
-    "Projects/nopilot.yaml.md"
+    "Memex/Things.md",
+    "Memex/glTF.md",
+    "Memex/USDZ.md",
+    "Hey.md",
+    "Journals/2022-08-04.md",
+    "Memex/Tools I will use one day.md",
+    "Memex/Venture Capital.md",
+    "Memex/Stories Behind Satori.md"
   ]
 }
