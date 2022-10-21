@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Palantir Apollo.md",
+                "file": "Journals/2022-10-21.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "54939b83c5598e8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/nopilot.yaml.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Palantir Apollo.md",
+                "file": "Projects/nopilot.yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Palantir Apollo.md"
+                "file": "Projects/nopilot.yaml.md"
               }
             }
           },
@@ -134,17 +148,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a2006a118918f37e",
+  "active": "54939b83c5598e8d",
   "lastOpenFiles": [
+    "Journals/2022-10-21.md",
+    "Projects/nopilot.yaml.md",
+    "Memex/Palantir Apollo.md",
     "Memex/Palantir.md",
     "Memex/Palantir Foundry.md",
     "Memex/Palantir Gotham.md",
-    "Memex/Palantir Apollo.md",
-    "Journals/2022-10-21.md",
     "Memex/Setting different images for Light & Dark mode.md",
     "Memex/Redirecting READMEs.md",
     "Memex/Curve Fitting for Charts.md",
-    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
-    "Memex/Lesser-Known Tricks.md"
+    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md"
   ]
 }
