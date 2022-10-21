@@ -56,28 +56,32 @@ const Backlink = (props: Props) => {
       </h2>
       <div className={styles.backlinkList}>
         {(backlinkItems &&
-          Object.keys(backlinkItems).map((backlink) => {
-            const backlinkTitle = backlink
-              .split('/')
-              .pop()
-              .replace('.md', '')
-            return (
-              <Link
-                to={filenames[backlinkTitle]}
-                className={styles.backlinkItemLink}
-              >
-                <div className={styles.backlinkItem}>
-                  <h3 className={styles.mentioner}>
-                    {backlinkTitle}
-                  </h3>
-                  {processBacklinkItem(
-                    backlinkItems[backlink],
-                    documentTitle
-                  )}
-                </div>
-              </Link>
-            )
-          })) || (
+          Object.keys(backlinkItems)
+            // sort by filename, reversed
+            .sort()
+            .reverse()
+            .map((backlink) => {
+              const backlinkTitle = backlink
+                .split('/')
+                .pop()
+                .replace('.md', '')
+              return (
+                <Link
+                  to={filenames[backlinkTitle]}
+                  className={styles.backlinkItemLink}
+                >
+                  <div className={styles.backlinkItem}>
+                    <h3 className={styles.mentioner}>
+                      {backlinkTitle}
+                    </h3>
+                    {processBacklinkItem(
+                      backlinkItems[backlink],
+                      documentTitle
+                    )}
+                  </div>
+                </Link>
+              )
+            })) || (
           <p className={styles.noBacklink}>
             {translate({
               id: 'backlink.noBacklink',
