@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c03134cd7cc30372",
+        "id": "8c0f9e86fcce385d",
         "type": "tabs",
         "children": [
           {
-            "id": "514ad8addfa0e114",
+            "id": "ef066a2f9a97811c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-21.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "aad8d5df0e146559",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Curve Fitting for Charts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Curve Fitting for Charts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Memex/Curve Fitting for Charts.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,7 +126,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "aa73c60d583d3db3",
+  "active": "ef066a2f9a97811c",
   "lastOpenFiles": [
     "Journals/2022-10-21.md",
     "Memex/Curve Fitting for Charts.md",
