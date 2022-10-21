@@ -28,3 +28,6 @@ slug: '/A6DBE3'
 | `quit`                 | quits `gdb`                                                                                     |
 | `"%d %[^\n]"`          | integer + string                                                                                |
 | `layout regs`          | layout all registers                                                                            |
+| `disas function`       | jump to that function                                                                           |
+| `x/1gx $rsp`           | print word from $rsp                                                                            |
+| `x/32xb $rsp`          | print 32 bytes from memory address inside $rsp                                                  |
