@@ -49,8 +49,7 @@ if __name__ == "__main__":
                 line = line.replace("*", "")
                 # replace source with **source**
                 # and source|alias with **alias**
-                first_mentioned_sentence = line.replace(
-                    source, "**" + source + "**").replace(source + "|" + alias, "**" + alias + "**")
+                first_mentioned_sentence = line
                 # only leave 12 words before and after the first mention
                 words_to_keep = 6
                 before_original = first_mentioned_sentence.split(
