@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Palantir.md",
+                "file": "Memex/Palantir Apollo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Palantir.md",
+                "file": "Memex/Palantir Apollo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Palantir.md"
+                "file": "Memex/Palantir Apollo.md"
               }
             }
           },
@@ -136,10 +136,10 @@
   },
   "active": "a2006a118918f37e",
   "lastOpenFiles": [
-    "Memex/Palantir Gotham.md",
     "Memex/Palantir.md",
-    "Memex/Palantir Apollo.md",
     "Memex/Palantir Foundry.md",
+    "Memex/Palantir Gotham.md",
+    "Memex/Palantir Apollo.md",
     "Journals/2022-10-21.md",
     "Memex/Setting different images for Light & Dark mode.md",
     "Memex/Redirecting READMEs.md",
