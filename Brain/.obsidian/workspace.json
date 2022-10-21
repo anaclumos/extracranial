@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5f0770aaae9c07f9",
+        "id": "e153c48c4e87865b",
         "type": "tabs",
         "children": [
           {
-            "id": "a2006a118918f37e",
+            "id": "89d35298e629474c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "54939b83c5598e8d",
+            "id": "4fee0caf4953b716",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/nopilot.yaml.md",
+                "file": "Journals/2022-08-04.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8cb502dc414d4d12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-21.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "draft: true",
+                "query": "Potential",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/nopilot.yaml.md",
+                "file": "Journals/2022-10-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/nopilot.yaml.md"
+                "file": "Journals/2022-10-21.md"
               }
             }
           },
@@ -148,17 +162,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "54939b83c5598e8d",
+  "active": "8cb502dc414d4d12",
   "lastOpenFiles": [
+    "Memex/Tools I will use one day.md",
+    "Journals/2022-08-04.md",
+    "Memex/Venture Capital.md",
+    "Memex/Stories Behind Satori.md",
+    "Memex/Jetbrains Fleet.md",
+    "Readings/Atomic Habits.md",
+    "Journals/2022-10-07.md",
+    "Journals/2022-07-02.md",
     "Journals/2022-10-21.md",
-    "Projects/nopilot.yaml.md",
-    "Memex/Palantir Apollo.md",
-    "Memex/Palantir.md",
-    "Memex/Palantir Foundry.md",
-    "Memex/Palantir Gotham.md",
-    "Memex/Setting different images for Light & Dark mode.md",
-    "Memex/Redirecting READMEs.md",
-    "Memex/Curve Fitting for Charts.md",
-    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md"
+    "Projects/nopilot.yaml.md"
   ]
 }
