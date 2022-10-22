@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-22.md",
+                "file": "Projects/nopilot.yaml.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-22.md",
+                "file": "Projects/nopilot.yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-22.md"
+                "file": "Projects/nopilot.yaml.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "1db7cc3046c2ccd0",
   "lastOpenFiles": [
-    "Journals/2022-10-21.md",
+    "Memex/Copilot.md",
+    "Memex/이루다.md",
+    "Projects/nopilot.yaml.md",
     "Journals/2022-10-22.md",
+    "Journals/2022-10-21.md",
     "Memex/Things.md",
     "Memex/Stephan Ango.md",
     "Memex/Synthote.md",
     "Memex/Reimagining Emails.md",
-    "Projects/Dynamic Island on the Web.md",
-    "Memex/3D File Format.md",
-    "Memex/glTF.md",
-    "Memex/USDZ.md"
+    "Projects/Dynamic Island on the Web.md"
   ]
 }
