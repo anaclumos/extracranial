@@ -71,9 +71,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "1f13abe3a8230c76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Everyprompt.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Potential",
+                "query": "draft: true",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +132,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-23.md",
+                "file": "Memex/Everyprompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-23.md"
+                "file": "Memex/Everyprompt.md"
               }
             }
           },
@@ -187,17 +201,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "88e7ea4878c65484",
+  "active": "b9b3d1724f39de07",
   "lastOpenFiles": [
+    "Memex/Photoshop for Text.md",
+    "Memex/Everyprompt.md",
+    "Journals/2022-10-23.md",
     "Memex/Matt Rickard.md",
     "Memex/Personal Training Corpus.md",
     "Journals/2022-09-25.md",
     "Journals/2022-07-05.md",
     "Journals/2022-09-20.md",
-    "Journals/2022-10-23.md",
     "Journals/2022-10-07.md",
-    "Journals/2022-09-18.md",
-    "Memex/Screenshot as an API.md",
-    "Memex/Programmable Web.md"
+    "Journals/2022-09-18.md"
   ]
 }
