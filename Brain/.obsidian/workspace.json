@@ -13,14 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/nopilot.yaml.md",
+                "file": "Journals/2022-10-23.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "998aff2da21ab99e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-08-01.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "07d62070751c5f38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-09-18.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e6681f0a1f12866d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-09-20.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "88e7ea4878c65484",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-23.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -86,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/nopilot.yaml.md",
+                "file": "Journals/2022-10-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/nopilot.yaml.md"
+                "file": "Journals/2022-10-23.md"
               }
             }
           },
@@ -134,17 +187,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1db7cc3046c2ccd0",
+  "active": "88e7ea4878c65484",
   "lastOpenFiles": [
-    "Memex/Copilot.md",
-    "Memex/이루다.md",
-    "Projects/nopilot.yaml.md",
-    "Journals/2022-10-22.md",
-    "Journals/2022-10-21.md",
-    "Memex/Things.md",
-    "Memex/Stephan Ango.md",
-    "Memex/Synthote.md",
-    "Memex/Reimagining Emails.md",
-    "Projects/Dynamic Island on the Web.md"
+    "Memex/Matt Rickard.md",
+    "Memex/Personal Training Corpus.md",
+    "Journals/2022-09-25.md",
+    "Journals/2022-07-05.md",
+    "Journals/2022-09-20.md",
+    "Journals/2022-10-23.md",
+    "Journals/2022-10-07.md",
+    "Journals/2022-09-18.md",
+    "Memex/Screenshot as an API.md",
+    "Memex/Programmable Web.md"
   ]
 }

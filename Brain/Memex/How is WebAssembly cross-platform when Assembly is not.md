@@ -20,7 +20,7 @@ It follows how [[Turing Machine]]s would work in the real world.
 
 ## WASM example
 
-Assembly languages in general consists of simple and atomic operations that the processor can follow.
+[[Assembly]] languages in general consists of simple and atomic operations that the processor can follow.
 For example, let's consider the following `add.c` C code.
 
 ```c
