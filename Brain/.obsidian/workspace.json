@@ -8,64 +8,51 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1db7cc3046c2ccd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-23.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "998aff2da21ab99e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-08-01.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "07d62070751c5f38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-09-18.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e6681f0a1f12866d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-09-20.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "88e7ea4878c65484",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Journals/2022-10-23.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3d5c584612efa730",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Digital Signature.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e05abc06399e1212",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Digital Signature for Videos.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a51b24b170d2facf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Deepfake.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "draft: true",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Everyprompt.md",
+                "file": "Memex/Deepfake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Everyprompt.md"
+                "file": "Memex/Deepfake.md"
               }
             }
           },
@@ -203,15 +190,15 @@
   },
   "active": "b9b3d1724f39de07",
   "lastOpenFiles": [
-    "Memex/Photoshop for Text.md",
-    "Memex/Everyprompt.md",
+    "Memex/Digital Signature for Videos.md",
+    "Memex/Digital Signature.md",
     "Journals/2022-10-23.md",
     "Memex/Matt Rickard.md",
-    "Memex/Personal Training Corpus.md",
-    "Journals/2022-09-25.md",
-    "Journals/2022-07-05.md",
+    "Memex/P vs NP.md",
+    "Memex/Techs Actually Simple.md",
     "Journals/2022-09-20.md",
-    "Journals/2022-10-07.md",
-    "Journals/2022-09-18.md"
+    "Journals/2022-09-18.md",
+    "Journals/2022-08-01.md",
+    "Memex/eBPF.md"
   ]
 }
