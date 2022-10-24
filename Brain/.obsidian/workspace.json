@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/eBPF.md",
+                "file": "Journals/2022-10-24.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/eBPF.md",
+                "file": "Journals/2022-10-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/eBPF.md"
+                "file": "Journals/2022-10-24.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "5fe0ccecd69a2e84",
   "lastOpenFiles": [
-    "Memex/Matt Rickard.md",
+    "Journals/2022-10-23.md",
     "Journals/2022-10-24.md",
+    "Memex/eBPF.md",
+    "Memex/Matt Rickard.md",
     "Projects/Coding Tests/0141 Linked List Cycle.md",
     "Memex/Floyd's Cycle Finding Algorithm.md",
     "Memex/Optimistic Nihilism.md",
-    "Journals/2022-10-23.md",
     "Projects/Coding Tests/Coding Tests.md",
     "Memex/Digital Signature.md",
-    "Memex/Digital Signature for Videos.md",
-    "Memex/Deepfake.md"
+    "Memex/Digital Signature for Videos.md"
   ]
 }
