@@ -4,76 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "5597945e99127c0c",
+        "id": "d03fc6b233bf6ced",
         "type": "tabs",
         "children": [
           {
-            "id": "88e7ea4878c65484",
+            "id": "1a25452ad20b71a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-23.md",
-                "mode": "source",
+                "file": "Projects/Coding Tests/0141 Linked List Cycle.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "3d5c584612efa730",
+            "id": "7e6511790749bf6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Digital Signature.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e05abc06399e1212",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Digital Signature for Videos.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a51b24b170d2facf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Deepfake.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1f13abe3a8230c76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Everyprompt.md",
+                "file": "Projects/Coding Tests/0141 Linked List Cycle.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Deepfake.md",
+                "file": "Projects/Coding Tests/0141 Linked List Cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Deepfake.md"
+                "file": "Projects/Coding Tests/0141 Linked List Cycle.md"
               }
             }
           },
@@ -188,17 +147,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "b9b3d1724f39de07",
+  "active": "1a25452ad20b71a8",
   "lastOpenFiles": [
-    "Memex/Digital Signature for Videos.md",
-    "Memex/Digital Signature.md",
+    "Memex/Floyd's Cycle Finding Algorithm.md",
+    "Memex/Optimistic Nihilism.md",
+    "Projects/Coding Tests/0141 Linked List Cycle.md",
     "Journals/2022-10-23.md",
+    "Projects/Coding Tests/Coding Tests.md",
+    "Memex/Digital Signature.md",
+    "Memex/Digital Signature for Videos.md",
+    "Memex/Deepfake.md",
     "Memex/Matt Rickard.md",
-    "Memex/P vs NP.md",
-    "Memex/Techs Actually Simple.md",
-    "Journals/2022-09-20.md",
-    "Journals/2022-09-18.md",
-    "Journals/2022-08-01.md",
-    "Memex/eBPF.md"
+    "Memex/P vs NP.md"
   ]
 }
