@@ -42,7 +42,7 @@ class Solution:
 
 ## Improved
 
-- [[Floyd's Cycle Finding Algorithm]]
+- [[Floyd Cycle Finding Algorithm]]
 - Bloom Filter?
 
 ```python

@@ -11,8 +11,13 @@
             "id": "a0b39968c0033d89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Floyd Cycle Finding Algorithm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Memex/Floyd Cycle Finding Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Memex/Floyd Cycle Finding Algorithm.md"
+              }
             }
           },
           {
@@ -133,7 +141,7 @@
     "Memex/eBPF.md",
     "Memex/Matt Rickard.md",
     "Projects/Coding Tests/0141 Linked List Cycle.md",
-    "Memex/Floyd's Cycle Finding Algorithm.md",
+    "Memex/Floyd Cycle Finding Algorithm.md",
     "Memex/Optimistic Nihilism.md",
     "Projects/Coding Tests/Coding Tests.md",
     "Memex/Digital Signature.md",
