@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d03fc6b233bf6ced",
+        "id": "30839f956768c762",
         "type": "tabs",
         "children": [
           {
-            "id": "1a25452ad20b71a8",
+            "id": "5fe0ccecd69a2e84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Coding Tests/0141 Linked List Cycle.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7e6511790749bf6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Coding Tests/0141 Linked List Cycle.md",
+                "file": "Memex/eBPF.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Coding Tests/0141 Linked List Cycle.md",
+                "file": "Memex/eBPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Coding Tests/0141 Linked List Cycle.md"
+                "file": "Memex/eBPF.md"
               }
             }
           },
@@ -147,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1a25452ad20b71a8",
+  "active": "5fe0ccecd69a2e84",
   "lastOpenFiles": [
+    "Memex/Matt Rickard.md",
+    "Journals/2022-10-24.md",
+    "Projects/Coding Tests/0141 Linked List Cycle.md",
     "Memex/Floyd's Cycle Finding Algorithm.md",
     "Memex/Optimistic Nihilism.md",
-    "Projects/Coding Tests/0141 Linked List Cycle.md",
     "Journals/2022-10-23.md",
     "Projects/Coding Tests/Coding Tests.md",
     "Memex/Digital Signature.md",
     "Memex/Digital Signature for Videos.md",
-    "Memex/Deepfake.md",
-    "Memex/Matt Rickard.md",
-    "Memex/P vs NP.md"
+    "Memex/Deepfake.md"
   ]
 }
