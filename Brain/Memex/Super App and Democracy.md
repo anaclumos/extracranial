@@ -12,7 +12,7 @@ slug: '/8794DD'
 - _Many technology entrepreneurs dream of an "[[Super App|Everything App]]", a smartphone application that will deliver everything to everyone on the planet._
 - _Elon Musk has become the latest investor [to declare an ambition](https://www.bloomberg.com/news/articles/2022-10-04/musk-says-buying-twitter-speeds-up-creating-an-everything-app) to build such a super-app wanting to emulate the success of WeChat, a Chinese super-app._
 - _The [[Super App|Everything app]] presents massive risks to personal, economic, and political freedom._
-- _As [John Gruber of Daring Fireball](https://daringfireball.net/2022/10/everything) says, “It's no coincidence at all that WeChat is the only “[[Super App|everything app]]” anyone can cite, and it comes from China, an authoritarian regime._
+- _As [John Gruber of Daring Fireball](https://daringfireball.net/2022/10/everything) says, "It's no coincidence at all that WeChat is the only "[[Super App|everything app]]" anyone can cite, and it comes from China, an authoritarian regime._
 - _It doesn't benefit users that WeChat dominates all aspects of digital life . It helps the authoritarian Chinese Communist Party._
 - _The user is socially locked into a 'private' company for performing any or all socio-economic functions._
 - _Public policy must act to prevent firms and apps from acquiring socioeconomic dominance in the first place_

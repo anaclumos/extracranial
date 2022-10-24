@@ -13,4 +13,4 @@ slug: '/BC04B6'
 - In the US, many restaurants refuse to accept cash due to a combination of incentives from credit card networks like Visa and Mastercard and the desire to create a frictionless experience for high-value customers. In addition, those who do not qualify for cards or cannot afford mobile payment methods are excluded from these retailers.
 - Low-income people who participate in cashless payment options face stiff penalties for overdraft fees from their savings accounts. They are ineligible to receive credit cards that reward wealthy users for money spent. People who rely on cash subsidize more affluent people who use credit cards.
 - In the US, The Cashless Retailers Prohibition Act of 2018 would make it illegal for restaurants and retailers not to accept cash or charge a different price to customers depending on their payment type.
-- Fintech companies have access to broader information on a customer’s financial habits and social network.
+- Fintech companies have access to broader information on a customer's financial habits and social network.

@@ -1,7 +1,7 @@
 export const backlinks = {
   Copilot: {
     'nopilot.yaml':
-      'Just like robots.txt, but for [[Copilot]].\n',
+      '... that declines machine learning (a.k.a. [[Copilot]] use)?\n',
     '2022-10-18': '- [[Copilot]]\n',
     Synthote: '- [[Copilot]] is already doing it for ...',
   },
@@ -123,6 +123,7 @@ export const backlinks = {
     'Brunch violates SF terms of use':
       "... Korean writing service Brunch violates [[Apple]]'s Terms of Use by using ...",
     'San Francisco': '- Font by [[Apple]]\n',
+    '3D File Format': '- USDZ for [[Apple]]\n',
     'Horizontally Stacked Interface':
       '## [[Apple]] Concierge App for Genius Bars\n',
     Google:
@@ -315,6 +316,7 @@ export const backlinks = {
     '2022-09-26': '## [[Coding Tests]]\n',
     '2022-09-22': '## [[Coding Tests]]\n',
     '2022-09-07': '## [[Coding Tests]]\n',
+    '2022-10-23': '## [[Coding Tests]]\n',
     '2022-07-10': '## [[Coding Tests]]\n',
     '2022-08-26': '- [[Coding Tests]]\n',
     '2022-08-27': '## [[Coding Tests]]\n',
@@ -327,6 +329,7 @@ export const backlinks = {
     '2022-09-24': '## [[Coding Tests]]\n',
     '2022-07-13': '## [[Coding Tests]]\n',
     '2022-09-10': '## [[Coding Tests]]\n',
+    '2022-10-24': '## [[Coding Tests]]\n',
     '2022-09-25': '## [[Coding Tests]]\n',
     '2022-07-26': '## [[Coding Tests]]\n',
     '2022-09-11': '## [[Coding Tests]]\n',
@@ -372,7 +375,7 @@ export const backlinks = {
     '0215 Kth Largest Element in an Array': '[[TODO]]\n',
     '2022-10-12': '## [[TODO]]\n',
     '2022-10-13': '## [[TODO]]\n',
-    '2022-10-21': '## [[TODO]]\n',
+    '2022-10-24': '## [[TODO]]\n',
     'Tools for Thought':
       '[[TODO]]: Convert this page into a ...',
   },
@@ -462,6 +465,9 @@ export const backlinks = {
     'Coding Tests': '- [x] [[0110 Balanced Binary Tree]]\n',
     '2022-09-25': '- [[0110 Balanced Binary Tree]]\n',
   },
+  '0141 Linked List Cycle': {
+    'Coding Tests': '- [ ] [[0141 Linked List Cycle]]\n',
+  },
   'EC7EEF.png': {
     Python: '![[EC7EEF.png]]\n',
   },
@@ -513,6 +519,13 @@ export const backlinks = {
     'Real Exams': '- 1 [[BFS]]\n',
     'Real Interviews':
       '...   - 1 conditional [[BFS]] problem\n',
+  },
+  '2022-10-23': {
+    '0141 Linked List Cycle': 'Solved at: [[2022-10-23]]\n',
+  },
+  "Floyd's Cycle Finding Algorithm": {
+    '0141 Linked List Cycle':
+      "- [[Floyd's Cycle Finding Algorithm]]\n",
   },
   'optimized simulation': {
     'Real Exams':
@@ -722,6 +735,7 @@ export const backlinks = {
     '2022-10-20': '## [[Hacker News|HN]]\n',
     '2022-09-10': "## Today's [[Hacker News]]\n",
     '2022-10-10': "## Today's [[Hacker News]]\n",
+    '2022-10-24': '## [[Hacker News|HN]]\n',
     '2022-07-26': "## Today's [[Hacker News]]\n",
     '2022-09-05': "## Today's [[Hacker News]]\n",
     '2022-10-15': '## [[Hacker News|HN]]\n',
@@ -737,7 +751,7 @@ export const backlinks = {
   Git: {
     'UUIDs are Awesome':
       "... all records remain in the [[Git]] history, so we don't need ...",
-    '2022-09-20':
+    'Techs Actually Simple':
       "- _Yet [[Git]]'s object model is pretty simple ...",
     Vercel:
       '... and deployments are handled through [[Git]] repositories. [Vercel](https://en.wikipedia.org/wiki/Vercel)\n',
@@ -883,7 +897,7 @@ export const backlinks = {
     '2022-06-22': '- Use [[Sandbox]] for the outer side.\n',
     '2022-06-26':
       '... not explore ShadowRealm and `iframe` [[Sandbox]] for now.\n',
-    '2022-08-01':
+    'Programmable Web':
       '... running something like the QuickJS [[Sandbox]] inside WebAssembly can provide a ...',
   },
   '2022-07-19': {
@@ -987,6 +1001,8 @@ export const backlinks = {
       '- [[Vercel]] [Serving millions of users on ...',
     '2022-10-10':
       '...  - I just love [[Vercel]]... they _know_ stuff.\n',
+    '2022-10-21':
+      '- Does [[Vercel]] not rest or something? [Building ...',
     Satori:
       '... than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly',
     'Stories Behind Satori':
@@ -1126,18 +1142,19 @@ export const backlinks = {
     '2022-05-29':
       '- [[Evergreen notes]] vs [[Transient Notes',
     'Andy Matuschak':
-      '... by introducing the concept of “[[Evergreen notes]]”. Instead of just having a ...',
+      '... by introducing the concept of "[[Evergreen notes]]". Instead of just having a ...',
     PKM: '... Focuses on creating and tending [[Evergreen notes]] posts that grow into a ...',
     'Transient Notes': '- Antonym: [[Evergreen notes]]\n',
   },
   'P vs NP': {
     '2022-07-01': '- [[P vs NP]]\n',
+    'Matt Rickard': '- [[P vs NP]]\n',
   },
   'Dynamic Island on the Web': {
     '2022-10-12': '- [[Dynamic Island on the Web]]\n',
     '2022-10-16': '### [[Dynamic Island on the Web]]\n',
     '2022-10-20': '- [[Dynamic Island on the Web]]\n',
-    '2022-10-21': '- [[Dynamic Island on the Web]]\n',
+    '2022-10-24': '- [[Dynamic Island on the Web]]\n',
     '2022-10-15': '- [[Dynamic Island on the Web]]\n',
   },
   'Handwriting Tools for Thoughts': {
@@ -1165,6 +1182,7 @@ export const backlinks = {
     '2022-10-12': '- [[Personal Training Corpus]]\n',
     Synthote:
       '... Relates to Prompt Engineering and [[Personal Training Corpus]]?\n',
+    'Matt Rickard': '- [[Personal Training Corpus]]\n',
     'Prompt Engineering':
       '- [[Personal Training Corpus]]\n',
   },
@@ -1238,6 +1256,21 @@ export const backlinks = {
   'Tesla Release Models': {
     '2022-09-06': '- [[Tesla Release Models]]\n',
   },
+  'Matt Rickard': {
+    '2022-07-05': '- [[Matt Rickard]]\n',
+    '2022-10-23': '- [[Matt Rickard]]\n',
+    '2022-09-18': '- [[Matt Rickard]]\n',
+    '2022-09-20': '- [[Matt Rickard]]\n',
+    '2022-09-25': '- [[Matt Rickard]]\n',
+    eBPF: '- [[Matt Rickard]]\n',
+    'Programmable Web':
+      '... Miss The Programmable Web](https://matt-rickard.com/the-programmable-web) — [[Matt Rickard]]\n',
+  },
+  'nopilot.yaml': {
+    '2022-10-22': '- [[nopilot.yaml]]\n',
+    '2022-10-24': '- [[nopilot.yaml]]\n',
+    '2022-10-21': '- [[nopilot.yaml]]\n',
+  },
   'Better Aldehyde': {
     '2022-10-16': '### [[Better Aldehyde]]\n',
     '2022-07-12': '- [[Better Aldehyde]]\n',
@@ -1248,6 +1281,10 @@ export const backlinks = {
       '... Korean Writing Service operated by [[Kakao]]\n',
     'How to Build Software like an SRE':
       '...  - do you see [[Kakao]]?\n',
+  },
+  eBPF: {
+    '2022-10-07': '- [[eBPF]]\n',
+    'Matt Rickard': '- [[eBPF]]\n',
   },
   'Pragmatic Engineer': {
     '2022-07-14': "## Today's [[Pragmatic Engineer]]\n",
@@ -1267,6 +1304,7 @@ export const backlinks = {
   },
   Android: {
     '2022-09-17': '- [[Android]]\n',
+    '3D File Format': '- glTF for [[Android]]\n',
   },
   'Android equivalent of div': {
     '2022-09-17': '  - [[Android equivalent of div]]\n',
@@ -1300,6 +1338,30 @@ export const backlinks = {
   Readings: {
     '2022-09-07': '- [[Readings]]\n',
   },
+  'Tools for Thought': {
+    '2022-10-23':
+      '- [[Tools for Thought]]: [usememos/memos: An open-source, self-hosted knowledge ...',
+    '2022-10-13':
+      '... [Visible – Make information useful](https://visible.page/): [[Tools for Thought]]\n',
+    '2022-07-18':
+      '... Using an iPad as a [[Tools for Thought]] feels good. Especially writing with ...',
+    '2022-07-07':
+      '## Personal Notes on [[Tools for Thought]] [[Software as a Service',
+    Extracranial:
+      '... Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this ...',
+    PKM: 'Check [[Tools for Thought]] for PKM tools in the ...',
+    'Handwriting Tools for Thoughts':
+      '- A specific [[Tools for Thought]] with handwriting.\n',
+  },
+  Everyprompt: {
+    '2022-10-23': '- [[Everyprompt]]\n',
+  },
+  'Digital Signature': {
+    '2022-10-23': '- [[Digital Signature]]\n',
+  },
+  '0141 Linked List Cycle': {
+    '2022-10-23': '- [[0141 Linked List Cycle]]\n',
+  },
   'Primary-Recency Effect': {
     '2022-10-17': '- [[Primary-Recency Effect]]\n',
   },
@@ -1309,7 +1371,7 @@ export const backlinks = {
     '2022-06-26':
       "- Would love to dissect [[Andy Matuschak]]'s work...\n",
     'Andy Matuschak':
-      '... behind the Atomic Notes|Zettelkasten technique. [[Andy Matuschak]] advanced ideas in Ahrens’ book ...',
+      '... behind the Atomic Notes|Zettelkasten technique. [[Andy Matuschak]] advanced ideas in Ahrens' book ...',
     Extracranial: '### [[Andy Matuschak]]\n',
     'Evergreen notes': '## [[Andy Matuschak]]\n',
     'Sliding Panes':
@@ -1355,9 +1417,18 @@ export const backlinks = {
     '2022-10-03': '- Moved to [[Screenshot as an API]]\n',
     '2022-10-10':
       '... open-source tools](https://www.bitsgalore.org/2021/09/06/pdf-processing-and-analysis-with-open-source-tools). This looks terrifying. [[Screenshot as an API]] all the way!\n',
+    'Matt Rickard': '- [[Screenshot as an API]]\n',
   },
   'Realm Shim': {
     '2022-05-30': '- What is [[Realm Shim]]?\n',
+  },
+  Assembly: {
+    '2022-09-27':
+      '- Studying [[Assembly]] is actually intriguing. Now I ...',
+    '2022-10-20': '## Inspecting [[Assembly]]\n',
+    'How is WebAssembly cross-platform when Assembly is not':
+      '[[Assembly]] is a straightforward way of ...',
+    'Inspecting Assembly': '- [[Assembly]]\n',
   },
   Notion: {
     '2022-07-10':
@@ -1437,19 +1508,6 @@ export const backlinks = {
     Memex:
       '- Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.\n',
   },
-  'Tools for Thought': {
-    '2022-10-13':
-      '... [Visible – Make information useful](https://visible.page/): [[Tools for Thought]]\n',
-    '2022-07-18':
-      '... Using an iPad as a [[Tools for Thought]] feels good. Especially writing with ...',
-    '2022-07-07':
-      '## Personal Notes on [[Tools for Thought]] [[Software as a Service',
-    Extracranial:
-      '... Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this ...',
-    PKM: 'Check [[Tools for Thought]] for PKM tools in the ...',
-    'Handwriting Tools for Thoughts':
-      '- A specific [[Tools for Thought]] with handwriting.\n',
-  },
   'Cross-Platform AirDrops': {
     '2022-10-13':
       '- [Taildrop · Tailscale](https://tailscale.com/kb/1106/taildrop/): [[Cross-Platform AirDrops]] [[Tailscale',
@@ -1469,20 +1527,6 @@ export const backlinks = {
   'Stories Behind Satori': {
     '2022-10-13': '  - [x] [[Stories Behind Satori]]\n',
     Satori: '- [[Stories Behind Satori]]\n',
-  },
-  'Software as a Service': {
-    '2022-09-18':
-      '- [[Software as a Service]] businesses with network effects are ...',
-    '2022-09-29':
-      "... https://t.co/BGR54GVVRK It's an open-source link-shortener [[Software as a Service]] with built-in analytics + free ...",
-    '2022-07-07':
-      '... Notes on Tools for Thought [[Software as a Service]]\n',
-    'Software as a Service':
-      '... we could attain FIRE through [[Software as a Service]].\n',
-    'Fiercely Overpriced':
-      '... we have previously explored that [[Software as a Service]] would be one way to ...',
-    'FIRE Engine':
-      '- [[Software as a Service]] that drives revenue streams for ...',
   },
   'Install Yarn Silently': {
     '2022-10-18': '- [[Install Yarn Silently]]\n',
@@ -1544,6 +1588,20 @@ export const backlinks = {
     '2022-08-02': '- [[일본 과학기술 총력전]]\n',
     Readings: '- [x] [[일본 과학기술 총력전]]\n',
   },
+  'Software as a Service': {
+    '2022-09-29':
+      "... https://t.co/BGR54GVVRK It's an open-source link-shortener [[Software as a Service]] with built-in analytics + free ...",
+    '2022-07-07':
+      '... Notes on Tools for Thought [[Software as a Service]]\n',
+    'Software as a Service':
+      '... we could attain FIRE through [[Software as a Service]].\n',
+    'Fiercely Overpriced':
+      '... we have previously explored that [[Software as a Service]] would be one way to ...',
+    'FIRE Engine':
+      '- [[Software as a Service]] that drives revenue streams for ...',
+    'Social Coding':
+      '- [[Software as a Service]] businesses with network effects are ...',
+  },
   NextJS: {
     '2022-09-29': '  - [[NextJS]] framework\n',
     '2022-09-30':
@@ -1601,6 +1659,7 @@ export const backlinks = {
   Synthote: {
     '2022-10-19': '- [[Synthote]]\n',
     'Stephan Ango': '- Coined the term [[Synthote]]\n',
+    Everyprompt: '- [[Synthote]]\n',
     'Reimagining Emails':
       '- Potential links to [[Synthote]]?\n',
   },
@@ -1706,6 +1765,11 @@ export const backlinks = {
   '17D859.png': {
     '2022-08-04': '![[17D859.png]]\n',
   },
+  'Tools I will use one day': {
+    '2022-08-04': '- [[Tools I will use one day]]\n',
+    '2022-10-10':
+      '- [[Tools I will use one day]]. Found [tremor](https://www.tremor.so/).\n',
+  },
   'Transient Notes': {
     '2022-05-29':
       '- Evergreen notes vs [[Transient Notes]]\n',
@@ -1737,6 +1801,10 @@ export const backlinks = {
     'Realm Shim':
       '... of the [Realm API Proposal](https://github.com/tc39/proposal-realms/#ecmascript-spec-proposal-for-realms-api) ([[ShadowRealm]])\n',
   },
+  'Programmable Web': {
+    '2022-08-01': '- [[Programmable Web]]\n',
+    'Matt Rickard': '- [[Programmable Web]]\n',
+  },
   'D4C125.gif': {
     '2022-08-01': '![[D4C125.gif]]\n',
   },
@@ -1763,7 +1831,7 @@ export const backlinks = {
   },
   'Markdown Email Client': {
     '2022-10-04': '- [[Markdown Email Client]]\n',
-    '2022-10-21':
+    '2022-10-24':
       '- [ ] Review [MailPilot](https://www.mailpilot.app/) [[Markdown Email Client]]\n',
     'Reimagining Emails': '- [[Markdown Email Client]]\n',
   },
@@ -1784,13 +1852,9 @@ export const backlinks = {
     {
       '2022-09-20':
         '- [[How is WebAssembly cross-platform when Assembly is not]]\n',
-      '2022-10-21':
+      '2022-10-24':
         '- [[How is WebAssembly cross-platform when Assembly is not]]\n',
     },
-  git: {
-    '2022-09-20':
-      '- _Some `[[git]]` commands are still just shell ...',
-  },
   'Lingua Franca': {
     '2022-09-30': '- [[Lingua Franca]]\n',
   },
@@ -1842,10 +1906,6 @@ export const backlinks = {
     '2022-10-10': '- [[Super App and Democracy]]\n',
     '2022-10-11': '- [[Super App and Democracy]]\n',
   },
-  'Tools I will use one day': {
-    '2022-10-10':
-      '- [[Tools I will use one day]]. Found [tremor](https://www.tremor.so/).\n',
-  },
   ActivityPub: {
     '2022-10-10': '- [[ActivityPub]]\n',
   },
@@ -1858,6 +1918,16 @@ export const backlinks = {
       "... AC's & DIT's - Cinematography.com](https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454). [[Frames Per Second]].\n",
     'Graphics Engine Process':
       '... to 16ms, which yields 60 [[Frames Per Second]].\n',
+  },
+  'Simple Analytics': {
+    '2022-10-24': '- [[Simple Analytics]]\n',
+    'Google Analytics':
+      '- Alternative: [[Simple Analytics]], [[Plausible Analytics',
+    'Curve Fitting for Charts':
+      '## On 2022-10-21, with [[Simple Analytics]]\n',
+  },
+  Projects: {
+    '2022-10-24': '## Ongoing [[Projects]]\n',
   },
   Intracranial: {
     '2022-07-26': '### [[Intracranial]]\n',
@@ -1916,11 +1986,14 @@ export const backlinks = {
     '2022-10-21': '- [[Redirecting READMEs]]\n',
     'Lesser-Known Tricks': '- [[Redirecting READMEs]]\n',
   },
-  Projects: {
-    '2022-10-21': '## Ongoing [[Projects]]\n',
+  'Curve Fitting for Charts': {
+    '2022-10-21': '- [[Curve Fitting for Charts]]\n',
   },
-  'nopilot.yaml': {
-    '2022-10-21': '- [[nopilot.yaml]]\n',
+  Palantir: {
+    '2022-10-21': '- [[Palantir]]\n',
+  },
+  '3D File Format': {
+    '2022-10-21': '- [[3D File Format]]\n',
   },
   Guestbook: {
     '2022-10-15': '- [[Guestbook]]\n',
@@ -1970,11 +2043,6 @@ export const backlinks = {
   Tailwind: {
     Satori: '- [[Tailwind]] [[CSS',
   },
-  Assembly: {
-    'How is WebAssembly cross-platform when Assembly is not':
-      '[[Assembly]] is a straightforward way of ...',
-    'Inspecting Assembly': '- [[Assembly]]\n',
-  },
   'Turing Machine': {
     'How is WebAssembly cross-platform when Assembly is not':
       'It follows how [[Turing Machine]]s would work in the real ...',
@@ -1990,6 +2058,19 @@ export const backlinks = {
   Toss: {
     Tossface: '- Emoji Font by [[Toss]]\n',
     'Toss Product Sans': '- Font by [[Toss]].\n',
+  },
+  'Palantir Gotham': {
+    Palantir: '- [[Palantir Gotham]]\n',
+  },
+  'Palantir Foundry': {
+    Palantir: '- [[Palantir Foundry]]\n',
+  },
+  'Palantir Apollo': {
+    Palantir: '- [[Palantir Apollo]]\n',
+  },
+  'Digital Signature for Videos': {
+    'Digital Signature':
+      '- [[Digital Signature for Videos]]\n',
   },
   Karrot: {
     Jira: '- Used at [[Karrot]]\n',
@@ -2012,10 +2093,6 @@ export const backlinks = {
       'Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note',
     'Horizontally Stacked Interface':
       '- [[Sliding Panes]]: Have multiple-scrollable columns.\n',
-  },
-  'Simple Analytics': {
-    'Google Analytics':
-      '- Alternative: [[Simple Analytics]], [[Plausible Analytics',
   },
   'Plausible Analytics': {
     'Google Analytics':
@@ -2080,6 +2157,10 @@ export const backlinks = {
     CSS: '... (including XML dialects such as [[SVG (File Format)]], MathML, or XHTML). CSS is ...',
     'Stories Behind Satori':
       '- [[SVG (File Format)]]-based solutions were the perfect balance ...',
+  },
+  git: {
+    'Techs Actually Simple':
+      '- _Some `[[git]]` commands are still just shell ...',
   },
   'BA8C9D.png': {
     '벌금과 물가': '- ![[BA8C9D.png]]\n',
@@ -2246,6 +2327,9 @@ export const backlinks = {
   'Google Analytics': {
     GA: '- [[Google Analytics]]\n',
   },
+  '7EF8EE.png': {
+    Everyprompt: '![[7EF8EE.png]]\n',
+  },
   '7A151F.jpeg': {
     'Adding a Verified Mark on Apple Mail & Gmail':
       '![[7A151F.jpeg]]\n',
@@ -2388,6 +2472,10 @@ export const backlinks = {
   'Front-end Framework': {
     HTMX: '- A [[Front-end Framework]]\n',
   },
+  Deepfake: {
+    'Digital Signature for Videos':
+      '- Potential countermeasure to [[Deepfake]].\n',
+  },
   'Game Programming': {
     'Back Buffer':
       'Used in [[Game Programming]], you write data on the ...',
@@ -2405,6 +2493,15 @@ export const backlinks = {
   'Brunch violates SF terms of use': {
     'San Francisco':
       '- Although [[Brunch violates SF terms of use]]\n',
+  },
+  USDZ: {
+    '3D File Format': '- [[USDZ]] for [[Apple',
+  },
+  glTF: {
+    '3D File Format': '- [[glTF]] for [[Android',
+  },
+  Things: {
+    '3D File Format': '- [[Things]]\n',
   },
   '901660.gif': {
     'Setting different images for Light & Dark mode':
@@ -2425,6 +2522,18 @@ export const backlinks = {
     'Game Programming': '- [[Simple DirectMedia Layer]]\n',
     'Playing Sounds in SDL':
       '- [[Simple DirectMedia Layer|SDL]]\n',
+  },
+  'Post Git': {
+    'Matt Rickard': '- [[Post Git]]\n',
+  },
+  'GitHub Package Manager': {
+    'Matt Rickard': '- [[GitHub Package Manager]]\n',
+  },
+  'Social Coding': {
+    'Matt Rickard': '- [[Social Coding]]\n',
+  },
+  'Techs Actually Simple': {
+    'Matt Rickard': '- [[Techs Actually Simple]]\n',
   },
   'Metadata as a Service': {
     'Fiercely Overpriced':
@@ -2472,6 +2581,9 @@ export const backlinks = {
   '8121DD.png': {
     'Horizontally Stacked Interface': '![[8121DD.png]]\n',
   },
+  'D765C4.png': {
+    Things: '![[D765C4.png]]\n',
+  },
   Shim: {
     'Realm Shim':
       '> [[Shim]] implementation of the [Realm API ...',
@@ -2485,6 +2597,13 @@ export const backlinks = {
   },
   'CODE Procedure': {
     PARA: '- Often used with [[CODE Procedure]]\n',
+  },
+  '2022-10-21': {
+    'Curve Fitting for Charts':
+      '## On [[2022-10-21]], with [[Simple Analytics',
+  },
+  '90B241.jpg': {
+    'Curve Fitting for Charts': '![[90B241.jpg]]\n',
   },
   '89B469.png': {
     Memex: '![[89B469.png]]\n',
@@ -2540,6 +2659,10 @@ export const backlinks = {
   Dogfooding: {
     'Stories Behind Satori':
       'The Vercel team [[Dogfooding|dogfooded]] this for a while.\n',
+  },
+  이루다: {
+    Copilot:
+      '- Very similar to [[이루다]] in terms that it collected ...',
   },
   '2B301F.png': {
     'Linear README': '![[2B301F.png]]\n',
