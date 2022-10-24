@@ -9,9 +9,9 @@ slug: '/888590'
 
 ## The Past _(how we got here)_
 
-Computers are not magic in themselves. It’s the software that runs on them, the interaction between bits and atoms, that makes them magical.
+Computers are not magic in themselves. It's the software that runs on them, the interaction between bits and atoms, that makes them magical.
 
-> The early pioneers of modern computing described computers as “dream machines”
+> The early pioneers of modern computing described computers as "dream machines"
 
 We look back at these magical moments with nostalgia. What happened to them?
 
@@ -26,6 +26,6 @@ We look back at these magical moments with nostalgia. What happened to them?
 
 ## The Future _(the quest we are on)_
 
-> If technology is an expression of humanity’s dreams, then the future of technology is only bound by the limits of our dreams.
+> If technology is an expression of humanity's dreams, then the future of technology is only bound by the limits of our dreams.
 > We need to bring back the magic of software because it is the only way to push the boundaries of our dreams.
 > Because it is the only way to give our dream machines back their real meaning.
