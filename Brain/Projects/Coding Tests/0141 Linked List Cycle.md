@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '//E50E42'
+slug: '/E50E42'
 ---
 
 Solved at: [[2022-10-23]]
