@@ -9,14 +9,14 @@ I am Sunghyun Cho. I am a current CS university student at USC.
 I want to become a computer scientist in the future, just like you!
 
 I just wanted to say that your website is 🔥.
-I love how you created “Zettlekasten” Lab Notes!
+I love how you created "Zettlekasten" Lab Notes!
 I am also profoundly interested in Computing and how information gets represented on the web.
 My notes are on [https://cho.sh](https://cho.sh/). Please take a look!
 
 - [cho.sh](https://cho.sh/)
 - [anaclumos](https://github.com/anaclumos)
 
-I’ll take a deeper look into your website after my midterm tomorrow 😭.
+I'll take a deeper look into your website after my midterm tomorrow 😭.
 
 Hope we can keep in touch!
 
