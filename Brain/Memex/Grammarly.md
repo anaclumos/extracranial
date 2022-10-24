@@ -19,3 +19,5 @@ slug: '/8481ED'
 - dx team
 - growth team
 - data engineer team
+
+I'm free tomorrow at 5
