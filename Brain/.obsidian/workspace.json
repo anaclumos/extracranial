@@ -14,27 +14,13 @@
               "type": "markdown",
               "state": {
                 "file": "Journals/2022-10-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2f9eeba547da4880",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Synthote.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Synthote.md",
+                "file": "Journals/2022-10-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Synthote.md"
+                "file": "Journals/2022-10-24.md"
               }
             }
           },
@@ -148,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2f9eeba547da4880",
+  "active": "65aa7315faf1c5b0",
   "lastOpenFiles": [
-    "Projects/Coding Tests/Real Interviews.md",
+    "Memex/Substack is the new Medium.md",
     "Journals/2022-10-24.md",
+    "Memex/Synthote.md",
+    "Memex/Edge Networks.md",
+    "Memex/To Kill a Night Owl.md",
+    "Projects/Coding Tests/Real Interviews.md",
     "Journals/2022-10-23.md",
     "Memex/eBPF.md",
     "Memex/Matt Rickard.md",
-    "Projects/Coding Tests/0141 Linked List Cycle.md",
-    "Memex/Floyd Cycle Finding Algorithm.md",
-    "Memex/Optimistic Nihilism.md",
-    "Projects/Coding Tests/Coding Tests.md",
-    "Memex/Digital Signature.md"
+    "Projects/Coding Tests/0141 Linked List Cycle.md"
   ]
 }
