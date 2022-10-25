@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/BDC45C'
 aliases:
   [
-    'Next.js',
+    'NextJS',
     'Next.ts',
     'TypeScript Next',
     'JavaScript Next',
