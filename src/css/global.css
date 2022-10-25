@@ -67,7 +67,7 @@ figure {
   flex-flow: column;
   border-radius: 0.5rem;
   overflow: hidden;
-  margin: 1rem auto;
+  margin: 0.2rem auto;
 }
 
 img {
