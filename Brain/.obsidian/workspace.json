@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hey.md",
-                "mode": "source",
+                "file": "Memex/Memex.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hey.md",
+                "file": "Memex/Memex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hey.md"
+                "file": "Memex/Memex.md"
               }
             }
           },
@@ -149,15 +149,15 @@
   },
   "active": "8e405906da82954f",
   "lastOpenFiles": [
+    "Memex/Vannevar Bush.md",
+    "Memex/Memex.md",
+    "Memex/As We May Think (Article).md",
+    "Hey.md",
     "Journals/2022-10-25.md",
     "Templates/person.md",
     "Templates/note.md",
     "Templates/journal.md",
     "Templates/grind.md",
-    "Hey.md",
-    "Memex/In-house and Free Market.md",
-    "Memex/I travel the World Wide Web.md",
-    "Journals/2022-10-24.md",
-    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md"
+    "Memex/In-house and Free Market.md"
   ]
 }
