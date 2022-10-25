@@ -9,17 +9,11 @@ So I have this network graph.
 
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-<DisplayFlex>
-
-![[ADC750.png]]
-![[4DF7EC.png]]
-![[223A61.png]]
-
-</DisplayFlex>
+![[ED4CA4.png]]
 
 Map those into the globe on the main page:
 
-![[64C474.png]]
+![[F7ADEB.png]]
 
 - We might need to recreate the Globe ([COBE](https://cobejs.vercel.app/) does not support this.)
 - Can I automatically update the graph?
