@@ -9,7 +9,7 @@ slug: '/'
 > This is my personal [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia).
 > This is everything I know!
 
-![my http request map 🌏🌎🌍](Assets/ED4CA4.png)
+![my http request map 🌏 🌎 🌍](Assets/ED4CA4.png)
 
 Welcome to my [[Research]] note.
 I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research.

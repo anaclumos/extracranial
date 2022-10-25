@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Memex.md",
+                "file": "Hey.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Memex.md",
+                "file": "Hey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Memex.md"
+                "file": "Hey.md"
               }
             }
           },
@@ -136,10 +136,10 @@
   },
   "active": "d8b196bee40924d9",
   "lastOpenFiles": [
+    "Journals/2022-10-25.md",
     "Memex/Vannevar Bush.md",
     "Memex/Memex.md",
     "Hey.md",
-    "Journals/2022-10-25.md",
     "Memex/As We May Think (Article).md",
     "Templates/person.md",
     "Templates/note.md",
