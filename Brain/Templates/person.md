@@ -1,7 +1,6 @@
 ---
 lang: 'en'
-slug: '{{title}}'
-draft: true
+slug: '{{title}}'엉
 ---
 
 - Interviewed at: [[{{date:YYYY-MM-DD}}]]
