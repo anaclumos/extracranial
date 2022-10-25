@@ -1,7 +1,12 @@
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 .globe {
   width: 600px;
   height: 600px;
-  display: block;
   margin: 0 auto;
   aspect-ratio: 1;
   border-radius: 50%;

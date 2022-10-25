@@ -67,46 +67,48 @@ export const Globe = () => {
     return () => globe.destroy()
   }, [])
   return (
-    <canvas
-      ref={canvasRef}
-      className={styles.globe}
-      onPointerDown={(e) => {
-        pointerInteracting.current =
-          e.clientX - pointerInteractionMovement.current
-        canvasRef.current.style.cursor = 'grabbing'
-      }}
-      onPointerUp={() => {
-        pointerInteracting.current = null
-        canvasRef.current.style.cursor = 'grab'
-      }}
-      onPointerOut={() => {
-        pointerInteracting.current = null
-        canvasRef.current.style.cursor = 'grab'
-      }}
-      onMouseMove={(e) => {
-        if (pointerInteracting.current !== null) {
-          const delta =
-            e.clientX - pointerInteracting.current
-          pointerInteractionMovement.current = delta
-          api.start({
-            r: delta / 200,
-          })
-        }
-      }}
-      onTouchMove={(e) => {
-        if (
-          pointerInteracting.current !== null &&
-          e.touches[0]
-        ) {
-          const delta =
-            e.touches[0].clientX -
-            pointerInteracting.current
-          pointerInteractionMovement.current = delta
-          api.start({
-            r: delta / 100,
-          })
-        }
-      }}
-    />
+    <div className={styles.container}>
+      <canvas
+        ref={canvasRef}
+        className={styles.globe}
+        onPointerDown={(e) => {
+          pointerInteracting.current =
+            e.clientX - pointerInteractionMovement.current
+          canvasRef.current.style.cursor = 'grabbing'
+        }}
+        onPointerUp={() => {
+          pointerInteracting.current = null
+          canvasRef.current.style.cursor = 'grab'
+        }}
+        onPointerOut={() => {
+          pointerInteracting.current = null
+          canvasRef.current.style.cursor = 'grab'
+        }}
+        onMouseMove={(e) => {
+          if (pointerInteracting.current !== null) {
+            const delta =
+              e.clientX - pointerInteracting.current
+            pointerInteractionMovement.current = delta
+            api.start({
+              r: delta / 200,
+            })
+          }
+        }}
+        onTouchMove={(e) => {
+          if (
+            pointerInteracting.current !== null &&
+            e.touches[0]
+          ) {
+            const delta =
+              e.touches[0].clientX -
+              pointerInteracting.current
+            pointerInteractionMovement.current = delta
+            api.start({
+              r: delta / 100,
+            })
+          }
+        }}
+      />
+    </div>
   )
 }
