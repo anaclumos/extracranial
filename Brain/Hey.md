@@ -39,6 +39,5 @@ I use [[Obsidian]] for taking notes.
 I then then pipeline those notes into a heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.
 I finally finally use [[Vercel]] for deploying, caching, and distributing.
 
-
 I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial).
 Take a look! 😃
