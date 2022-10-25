@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Lesser Known Tricks.md",
+                "file": "Memex/Lesser-Known Tricks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Lesser Known Tricks.md",
+                "file": "Memex/Lesser-Known Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Lesser Known Tricks.md"
+                "file": "Memex/Lesser-Known Tricks.md"
               }
             }
           },
