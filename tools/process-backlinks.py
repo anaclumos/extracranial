@@ -1,4 +1,5 @@
 import os
+import re
 
 target_directory = "./Brain"
 
@@ -32,6 +33,7 @@ if __name__ == "__main__":
 
     print("Found " + str(len(all_md_files)) + " MD files.")
 
+    # 2022-10-25. Don't blame me. I know this is a complete mess.
     for md_file in all_md_files:
         filename = md_file.split("/")[-1].replace(".md", "")
         uid = ""
@@ -43,28 +45,28 @@ if __name__ == "__main__":
                     "/", "").replace("'", "").replace('"', "")
                 filename_uid_map[filename] = uid
             while "[[" in line and "]]" in line:
+                # remove all markdown links, except wikilinks
+                line = re.sub(r"\[([^[]+?)\]\(.+?\)", r"\1", line)
                 mentioned_file = line.split("[[")[1].split("]]")[0]
                 source = mentioned_file.split("|")[0]
                 alias = mentioned_file.split("|")[-1]
-                line = line.replace("*", "")
-                # replace source with **source**
-                # and source|alias with **alias**
-                first_mentioned_sentence = line
+                line = line.replace("*", "").replace("_", "")
                 # only leave 12 words before and after the first mention
-                words_to_keep = 6
-                before_original = first_mentioned_sentence.split(
-                    "[[")[0]
-                before = " ".join(before_original.split(" ")[
-                    -words_to_keep:])
+                words_to_keep = 12
+                before_original = line.split(
+                    "[[" + mentioned_file + "]]")[0]
+                before = " ".join(before_original.split(" ")[-words_to_keep:])
                 if before_original != before:
                     before = "... " + before
-                center = first_mentioned_sentence.split("[[")[1].split("]]")[0]
-                after_original = first_mentioned_sentence.split("]]")[1]
+                center = mentioned_file
+                after_original = mentioned_file.join(
+                    line.split("[[" + mentioned_file + "]]")[1:])
                 after = " ".join(after_original.split(" ")[:words_to_keep])
                 if after_original != after:
                     after = after + " ..."
                 first_mentioned_sentence = before + \
                     "[[" + center + "]]" + after
+                "[[" + center + "]]" + after
                 if source not in backlink_map:
                     backlink_map[source] = {}
                 if filename not in backlink_map[source]:

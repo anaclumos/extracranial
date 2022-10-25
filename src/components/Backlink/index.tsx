@@ -15,19 +15,13 @@ const processBacklinkItem = (
   title: string
 ) => {
   // replace title with <b>title</b>
-  let splittedText = text
-    .trim()
-    .split(title)
-    .filter((item) => item !== '')
+  let splittedText = text.trim().split(title)
   splittedText = splittedText.map((item, index) => {
     if (index === splittedText.length - 1) {
       return item
     }
     return (
-      item +
-      `<b
-      class="${styles.highlight}"
-    >${title}</b>`
+      item + `<b class="${styles.highlight}">${title}</b>`
     )
   })
   return (
@@ -46,15 +40,15 @@ const Backlink = (props: Props) => {
   const backlinkItems = backlinks[documentTitle]
 
   return (
-    <div className={styles.backlink}>
-      <h2 className={styles.backlinkTitle}>
+    <div className={styles.backlinkTable}>
+      <h2 className={styles.backlinkTableH2}>
         {translate({
           id: 'backlink.title',
           message: 'Links to This Note',
           description: 'The title of the backlink section',
         })}
       </h2>
-      <div className={styles.backlinkList}>
+      <div className={styles.backlinkGridView}>
         {(backlinkItems &&
           Object.keys(backlinkItems)
             // sort by filename, reversed
@@ -71,7 +65,11 @@ const Backlink = (props: Props) => {
                   className={styles.backlinkItemLink}
                 >
                   <div className={styles.backlinkItem}>
-                    <h3 className={styles.mentioner}>
+                    <h3
+                      className={
+                        styles.backlinkMentionedFileName
+                      }
+                    >
                       {backlinkTitle}
                     </h3>
                     {processBacklinkItem(
