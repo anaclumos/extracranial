@@ -37,14 +37,15 @@ Technically, Apple's **App Tracking Transparency** does not ban all tracking act
 
 ### Why not `LICENSE` or `COPYING.txt`?
 
-It is mainly written in human language and cannot provide granular scraping permissions depending on the collector.
-Also, GitHub Copilot _ignores_ `LICENSE` or `COPYING.txt`, claiming by signing up and pushing code to GitHub,
-we consented to Copilot using our codes for machine learning.
-We may expand the `LICENSE` system to
+Both are mainly written in human language and cannot provide granular scraping permissions depending on the collector.
+Also, GitHub Copilot _ignores_ `LICENSE` or `COPYING.txt`,
+claiming we consented to Copilot using our codes for machine learning by signing up and pushing code to GitHub,
+We may expand the `LICENSE` system to include the terms for machine learning use,
+but that would even more edge case and chaotic licensing systems.
 
 ### Does machine learning purposes of copyrighted works require a license?
 
-Still under debate.
+This question is still under debate.
 Opt-out should be the default if it _requires_ a license, making such a license system meaningless.
 If it doesn't require a license, then which company would respect the license system, given that it is not legally binding?
 
