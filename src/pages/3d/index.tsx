@@ -7,6 +7,7 @@ import { filenames } from '@site/src/data/filenames'
 import { backlinks } from '@site/src/data/backlinks'
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass'
 import Head from '@docusaurus/Head'
+import { useScreenSize } from '@site/src/util/useScreenSize'
 
 type Node = {
   nodeLabel: string
@@ -70,7 +71,10 @@ const processBacklinksToGraph = (backlinks) => {
   return { nodes, links }
 }
 
-const GraphView = () => {
+const GraphView = (props: {
+  width: number
+  height: number
+}) => {
   if (typeof window === 'undefined') {
     return null
   }
@@ -102,6 +106,8 @@ const GraphView = () => {
 
             return (
               <ForceGraph3D
+                width={props.width}
+                height={props.height}
                 ref={fgRef}
                 graphData={gData}
                 nodeLabel={`nodeLabel`}
@@ -137,6 +143,7 @@ const GraphView = () => {
 }
 
 export default function Graph(): JSX.Element {
+  const [width, height] = useScreenSize()
   const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
@@ -165,7 +172,7 @@ export default function Graph(): JSX.Element {
         />
       </Head>
       <main className={styles.mainContainer}>
-        <GraphView />
+        <GraphView width={width} height={height} />
       </main>
     </Layout>
   )
