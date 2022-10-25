@@ -5,6 +5,7 @@ blog
 docs
 Brain/.obsidian/plugins
 i18n/ko/docusaurus-plugin-content-blog/*/*
+i18n/ko/docusaurus-plugin-content-docs/current/Hey.md
 
 # Dependencies
 /node_modules
