@@ -258,7 +258,6 @@ export const backlinks = {
         "2022-07-26": "## [[Coding Tests]]\n",
         "2022-09-11": "## [[Coding Tests]]\n",
         "2022-07-02": "- Let's start from [[Coding Tests]] starting next week.\n",
-        "2022-10-25": "## [[Coding Tests]]\n",
         "2022-09-21": "## [[Coding Tests]]\n",
         "2022-09-05": "## [[Coding Tests]]\n",
         "2022-10-15": "## [[Coding Tests]]\n"
@@ -612,7 +611,6 @@ export const backlinks = {
         "2022-10-10": "## Today's [[Hacker News]]\n",
         "2022-10-24": "## [[Hacker News|HN]]\n",
         "2022-07-26": "## Today's [[Hacker News]]\n",
-        "2022-10-25": "## [[Hacker News|HN]]\n",
         "2022-09-05": "## Today's [[Hacker News]]\n",
         "2022-10-15": "## [[Hacker News|HN]]\n",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.\n",
@@ -1265,11 +1263,12 @@ export const backlinks = {
         "2022-08-02": "- [[일본 과학기술 총력전]]\n",
         "Readings": "- [x] [[일본 과학기술 총력전]]\n"
     },
-    "NextJS": {
-        "2022-09-29": "  - [[NextJS]] framework\n",
-        "2022-09-30": "### Vercel [[NextJS]] Conf Interactions\n",
-        "Front-end Framework": "- [[NextJS]]\n",
-        "Tools for Thought": "- [[NextJS]]\n"
+    "Next.js": {
+        "2022-09-29": "  - [[Next.js]] framework\n",
+        "2022-09-30": "### Vercel [[Next.js]] Conf Interactions\n",
+        "2022-10-25": "## [[Next.js]] Conf\n",
+        "Front-end Framework": "- [[Next.js]]\n",
+        "Tools for Thought": "- [[Next.js]]\n"
     },
     "The New Era of macOS Applications": {
         "2022-09-29": "- [[The New Era of macOS Applications]]\n"
@@ -1568,6 +1567,18 @@ export const backlinks = {
     },
     "I travel the World Wide Web": {
         "2022-10-25": "- [[I travel the World Wide Web]]\n"
+    },
+    "9467DA.png": {
+        "2022-10-25": "![[9467DA.png]]\n"
+    },
+    "9E2F95.png": {
+        "2022-10-25": "![[9E2F95.png]]\n"
+    },
+    "FF5AAD.png": {
+        "2022-10-25": "![[FF5AAD.png]]\n"
+    },
+    "411451.png": {
+        "2022-10-25": "![[411451.png]]\n"
     },
     "Projects": {
         "2022-10-25": "## Ongoing [[Projects]]\n"

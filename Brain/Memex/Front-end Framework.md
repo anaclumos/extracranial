@@ -4,5 +4,5 @@ slug: '/3A6AB2'
 ---
 
 - [[React]]
-- [[NextJS]]
+- [[Next.js]]
 - [[HTMX]]
