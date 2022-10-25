@@ -10,9 +10,9 @@ slug: '/'
 
 <figure>
 
-![제 HTTP 요청 지도입니다 🌏🌎🌍](../../../../Brain/Assets/ED4CA4.png)
+![제 HTTP 요청 지도입니다 🌏 🌎 🌍](../../../../Brain/Assets/ED4CA4.png)
 
-<figcaption>제 HTTP 요청 지도입니다 🌏🌎🌍</figcaption>
+<figcaption>제 HTTP 요청 지도입니다 🌏 🌎 🌍</figcaption>
 </figure>
 
 제 연구 노트에 오신 것을 환영합니다.
