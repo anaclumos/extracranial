@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6fa3165d9a600734",
+        "id": "def4e74a068ad91c",
         "type": "tabs",
         "children": [
           {
-            "id": "e7221e26f9c03baf",
+            "id": "f71acf95aef40d6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ab42d999c40d4470",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Synthote.md",
+                "file": "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "S/M",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Synthote.md",
+                "file": "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Synthote.md"
+                "file": "Memex/Adding a Verified Mark on Apple Mail & Gmail.md"
               }
             }
           },
@@ -149,17 +135,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "ab42d999c40d4470",
+  "active": "f71acf95aef40d6b",
   "lastOpenFiles": [
+    "Journals/2022-08-03.md",
+    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
+    "Memex/Lesser Known Tricks.md",
+    "Journals/2022-10-24.md",
+    "Memex/Synthote.md",
     "Memex/explainpaper.com.md",
     "Memex/Treehouse.md",
     "Memex/WorkerDOM.md",
     "Memex/DOM.md",
-    "Memex/Synthote.md",
-    "Journals/2022-10-24.md",
-    "Projects/Better Aldehyde/Transactional Globe.md",
-    "Assets/223A61.png",
-    "Assets/4DF7EC.png",
-    "Memex/ADC750.png.md"
+    "Projects/Better Aldehyde/Transactional Globe.md"
   ]
 }
