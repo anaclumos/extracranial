@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Lesser-Known Tricks.md",
+                "file": "Projects/AIs.txt.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Lesser-Known Tricks.md",
+                "file": "Projects/AIs.txt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Lesser-Known Tricks.md"
+                "file": "Projects/AIs.txt.md"
               }
             }
           },
@@ -136,10 +136,10 @@
   },
   "active": "bbd4f443c30a7186",
   "lastOpenFiles": [
+    "Journals/2022-10-24.md",
     "Journals/2022-10-21.md",
     "Journals/2022-10-22.md",
     "Journals/2022-10-23.md",
-    "Journals/2022-10-24.md",
     "Projects/AIs.txt.md",
     "Assets/441192.png",
     "Memex/Substack is the new Medium.md",
