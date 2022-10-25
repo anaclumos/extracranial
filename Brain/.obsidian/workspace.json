@@ -8,26 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e405906da82954f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Memex.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "d8b196bee40924d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/In-house and Free Market.md",
-                "mode": "source",
+                "file": "Memex/Vannevar Bush.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Memex.md",
+                "file": "Memex/Vannevar Bush.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Memex.md"
+                "file": "Memex/Vannevar Bush.md"
               }
             }
           },
@@ -147,13 +134,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8e405906da82954f",
+  "active": "d8b196bee40924d9",
   "lastOpenFiles": [
-    "Memex/Vannevar Bush.md",
     "Memex/Memex.md",
-    "Memex/As We May Think (Article).md",
     "Hey.md",
     "Journals/2022-10-25.md",
+    "Memex/Vannevar Bush.md",
+    "Memex/As We May Think (Article).md",
     "Templates/person.md",
     "Templates/note.md",
     "Templates/journal.md",
