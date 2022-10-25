@@ -6,6 +6,7 @@ import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import Head from '@docusaurus/Head'
+import { useScreenSize } from '@site/src/util/useScreenSize'
 
 type Node = {
   nodeLabel: string
@@ -68,7 +69,10 @@ const processBacklinksToGraph = (backlinks) => {
   return { nodes, links }
 }
 
-const GraphView = () => {
+const GraphView = (props: {
+  width: number
+  height: number
+}) => {
   if (typeof window === 'undefined') {
     return null
   }
@@ -84,6 +88,8 @@ const GraphView = () => {
           } = require('react-force-graph')
           return (
             <ForceGraph2D
+              width={props.width}
+              height={props.height}
               graphData={gData}
               nodeLabel={(node) => {
                 return node.nodeLabel
@@ -109,6 +115,7 @@ const GraphView = () => {
 }
 
 export default function Graph(): JSX.Element {
+  const [width, height] = useScreenSize()
   const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
@@ -137,7 +144,7 @@ export default function Graph(): JSX.Element {
         />
       </Head>
       <main className={styles.mainContainer}>
-        <GraphView />
+        <GraphView width={width} height={height} />
       </main>
     </Layout>
   )
