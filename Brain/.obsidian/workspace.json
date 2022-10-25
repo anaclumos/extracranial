@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "def4e74a068ad91c",
+        "id": "88cb859c200d48b0",
         "type": "tabs",
         "children": [
           {
-            "id": "f71acf95aef40d6b",
+            "id": "8e405906da82954f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
+                "file": "Journals/2022-10-25.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
+                "file": "Journals/2022-10-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Adding a Verified Mark on Apple Mail & Gmail.md"
+                "file": "Journals/2022-10-25.md"
               }
             }
           },
@@ -135,10 +135,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f71acf95aef40d6b",
+  "active": "8e405906da82954f",
   "lastOpenFiles": [
-    "Journals/2022-08-03.md",
     "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
+    "Journals/2022-08-03.md",
     "Memex/Lesser Known Tricks.md",
     "Journals/2022-10-24.md",
     "Memex/Synthote.md",
