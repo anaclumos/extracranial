@@ -9,7 +9,7 @@ slug: '/'
 > This is my personal [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia).
 > This is everything I know!
 
-![[ED4CA4.png]]
+![my http request map 🌏🌎🌍](Assets/ED4CA4.png)
 
 Welcome to my [[Research]] note.
 I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research.
@@ -31,6 +31,8 @@ If you seek internationalized content, check out my [articles](/w/archive).
 ## Tech Stacks
 
 I use [[Obsidian]] for taking notes.
-I pipeline those notes into a heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.
-I use [[Vercel]] for deploying, caching, and distributing.
-Finally, I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial), so take a look.
+I then pipeline those notes into a heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.
+I finally use [[Vercel]] for deploying, caching, and distributing.
+
+I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial).
+Take a look! 😃

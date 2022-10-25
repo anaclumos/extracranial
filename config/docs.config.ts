@@ -37,6 +37,7 @@ const docs = {
   path: 'docs',
   sidebarPath: require.resolve('./sidebars.js'),
   routeBasePath: '/r',
+  exclude: ['**/Templates/**'],
   breadcrumbs: true,
   sidebarCollapsed: true,
   sidebarCollapsible: true,

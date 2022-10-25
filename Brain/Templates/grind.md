@@ -1,7 +1,6 @@
 ---
 lang: 'en'
 slug: '{{hex}}'
-draft: true
 ---
 
 Solved at: [[{{date:YYYY-MM-DD}}]]

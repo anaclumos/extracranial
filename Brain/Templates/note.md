@@ -1,7 +1,6 @@
 ---
 lang: 'en'
 slug: '{{hex}}'
-draft: true
 ---
 
 import WIP from '@site/src/components/WIP'

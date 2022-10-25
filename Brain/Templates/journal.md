@@ -2,7 +2,6 @@
 date: '{{date:YYYY-MM-DD}}'
 lang: 'en'
 slug: '/{{date:YYYY-MM-DD}}'
-draft: true
 ---
 
 ## Personal Research
