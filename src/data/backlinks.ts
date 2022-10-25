@@ -1117,7 +1117,7 @@ export const backlinks = {
         "2022-10-17": "- [[Memex]]\n",
         "Memex is more than a Memex": "- [[Memex]] is more than a Memex\n",
         "Preservation of Data": "- An important concept for [[Memex]] and [[Extracranial",
-        "Vannevar Bush": "- Early creator of [[Memex]] and [[Extracranial"
+        "Vannevar Bush": "... 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 ..."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]\n"
@@ -1897,7 +1897,7 @@ export const backlinks = {
         "Toss": "- [[Financial Technology|FinTech]] Unicorn of Korea.\n"
     },
     "In-house and Free Market": {
-        "I travel the World Wide Web": "- [[In-house and Free Market]]"
+        "I travel the World Wide Web": "- [[In-house and Free Market]]\n"
     },
     "6982B6.png": {
         "Now Page": "![[6982B6.png]]\n"
@@ -2153,11 +2153,11 @@ export const backlinks = {
     "89B469.png": {
         "Memex": "![[89B469.png]]\n"
     },
+    "Vannevar Bush": {
+        "Memex": "... 친밀한 보조 장치일 것입니다. - [[Vannevar Bush|버니바 부시]]. [The Atlantic 원문.](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)\n"
+    },
     "As We May Think (Article)": {
         "Memex": "> In \"[[As We May Think (Article)]]\", [[Vannevar Bush"
-    },
-    "Vannevar Bush": {
-        "Memex": "... In \"As We May Think (Article)\", [[Vannevar Bush]] describes a memex as an electromechanical ..."
     },
     "FC87FE.png": {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]\n"
