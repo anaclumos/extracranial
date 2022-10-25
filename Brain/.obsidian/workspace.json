@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "88cb859c200d48b0",
+        "id": "a3cc78bddab5a43d",
         "type": "tabs",
         "children": [
           {
-            "id": "d8b196bee40924d9",
+            "id": "b4603d561fab67af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -134,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "d8b196bee40924d9",
+  "active": "b4603d561fab67af",
   "lastOpenFiles": [
-    "Memex/Next.js.md",
+    "Memex/3d on the Web.md",
+    "Memex/3d Globe on the Web.md",
     "Journals/2022-10-25.md",
+    "Memex/Next.js.md",
     "Memex/Vannevar Bush.md",
     "Memex/Memex.md",
     "Hey.md",
     "Memex/As We May Think (Article).md",
     "Templates/person.md",
-    "Templates/note.md",
-    "Templates/journal.md",
-    "Templates/grind.md"
+    "Templates/note.md"
   ]
 }
