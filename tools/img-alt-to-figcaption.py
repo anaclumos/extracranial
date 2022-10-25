@@ -20,6 +20,8 @@ if __name__ == "__main__":
     # <figure><img alt="alt text" src="file.ext"><figcaption>alt text</figcaption></figure>
 
     for md_file in all_md_files:
+        if md_file.endswith("Hey.md"):
+            continue
         with open(md_file, 'r') as f:
             lines = f.readlines()
         with open(md_file, 'w') as f:
