@@ -1,4 +1,4 @@
-.backlink {
+.backlinkTable {
   width: 100%;
   height: 100%;
   padding: 1rem 1rem 0 1rem;
@@ -7,13 +7,13 @@
   border: 1px solid var(--ifm-color-emphasis-300);
 }
 
-.backlinkTitle {
+.backlinkTableH2 {
   padding: 0.5rem 0.5rem 0 0.5rem;
   font-size: 1rem;
   color: var(--ifm-color-emphasis-600);
 }
 
-.backlinkList {
+.backlinkGridView {
   margin: 1rem auto;
   display: grid;
   gap: 0.5rem;
@@ -23,8 +23,9 @@
   );
 }
 
-.mentioner {
+.backlinkMentionedFileName {
   margin: 0;
+  font-size: 1rem;
   padding: calc(var(--border-radius) / 4);
   padding-bottom: 0.5rem;
 }
@@ -44,6 +45,7 @@
 }
 
 .backlinkItemText {
+  font-family: var(--ifm-font-family-san-serif);
   font-size: 0.8rem;
   white-space: pre-wrap;
   color: var(--ifm-color-emphasis-500);
@@ -55,7 +57,7 @@
 }
 
 .noBacklink {
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 1rem 0.5rem 0 0.5rem;
   color: var(--ifm-color-emphasis-500);
 }
