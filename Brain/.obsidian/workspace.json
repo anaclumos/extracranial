@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-25.md",
+                "file": "Hey.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d8b196bee40924d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/In-house and Free Market.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "S/M",
+                "query": "{{hex}}",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-25.md",
+                "file": "Hey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-25.md"
+                "file": "Hey.md"
               }
             }
           },
@@ -137,15 +149,15 @@
   },
   "active": "8e405906da82954f",
   "lastOpenFiles": [
-    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md",
-    "Journals/2022-08-03.md",
-    "Memex/Lesser Known Tricks.md",
+    "Journals/2022-10-25.md",
+    "Templates/person.md",
+    "Templates/note.md",
+    "Templates/journal.md",
+    "Templates/grind.md",
+    "Hey.md",
+    "Memex/In-house and Free Market.md",
+    "Memex/I travel the World Wide Web.md",
     "Journals/2022-10-24.md",
-    "Memex/Synthote.md",
-    "Memex/explainpaper.com.md",
-    "Memex/Treehouse.md",
-    "Memex/WorkerDOM.md",
-    "Memex/DOM.md",
-    "Projects/Better Aldehyde/Transactional Globe.md"
+    "Memex/Adding a Verified Mark on Apple Mail & Gmail.md"
   ]
 }
