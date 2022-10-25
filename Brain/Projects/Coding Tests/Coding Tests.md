@@ -43,7 +43,7 @@ slug: '/D518B0'
 - [x] [[0053 Maximum Subarray]]
 - [x] [[0235 LCA of a Binary Search Tree]]
 - [x] [[0110 Balanced Binary Tree]]
-- [ ] [[0141 Linked List Cycle]]
+- [ ] [[0141 Linked List Cycle]]
 
 ## Stage 2
 

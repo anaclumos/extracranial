@@ -7,11 +7,11 @@ Solved at: [[2022-10-23]]
 
 ## Question
 
-Given `head`, the head of a linked list, determine if the linked list has a cycle in it.
+Given `head`, the head of a linked list, determine if the linked list has a cycle in it.
 
-There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the `next` pointer. Internally, `pos` is used to denote the index of the node that the tail's `next` pointer is connected to. **Note that `pos` is not passed as a parameter**.
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the `next` pointer. Internally, `pos` is used to denote the index of the node that the tail's `next` pointer is connected to. **Note that `pos` is not passed as a parameter**.
 
-Return `true` *if there is a cycle in the linked list*. Otherwise, return `false`.
+Return `true` _if there is a cycle in the linked list_. Otherwise, return `false`.
 
 ## Solution
 
@@ -34,11 +34,11 @@ class Solution:
 
 ### Runtime
 
-- 141 ms, faster than 9.68% of Python3 online submissions for the Linked List Cycle.
+- 141 ms, faster than 9.68% of Python3 online submissions for the Linked List Cycle.
 
 ### Memory Usage
 
-- 17.9 MB, less than 10.44% of Python3 online submissions for the Linked List Cycle.
+- 17.9 MB, less than 10.44% of Python3 online submissions for the Linked List Cycle.
 
 ## Improved
 
@@ -62,11 +62,11 @@ class Solution:
 
 ### Runtime
 
-- 137 ms, faster than 12.14% of Python3 online submissions for the Linked List Cycle.
+- 137 ms, faster than 12.14% of Python3 online submissions for the Linked List Cycle.
 
 ### Memory Usage
 
-- 17.6 MB, less than 67.24% of Python3 online submissions for the Linked List Cycle.
+- 17.6 MB, less than 67.24% of Python3 online submissions for the Linked List Cycle.
 
 ## Complexity Analysis
 

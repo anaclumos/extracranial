@@ -374,8 +374,9 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0110 Balanced Binary Tree]]\n",
         "2022-09-25": "- [[0110 Balanced Binary Tree]]\n"
     },
-    "0141 Linked List Cycle": {
-        "Coding Tests": "- [ ] [[0141 Linked List Cycle]]\n"
+    "0141 Linked List Cycle": {
+        "Coding Tests": "- [ ] [[0141 Linked List Cycle]]\n",
+        "2022-10-23": "- [[0141 Linked List Cycle]]\n"
     },
     "EC7EEF.png": {
         "Python": "![[EC7EEF.png]]\n"
@@ -1083,9 +1084,6 @@ export const backlinks = {
     "Digital Signature": {
         "2022-10-23": "- [[Digital Signature]]\n"
     },
-    "0141 Linked List Cycle": {
-        "2022-10-23": "- [[0141 Linked List Cycle]]\n"
-    },
     "Primary-Recency Effect": {
         "2022-10-17": "- [[Primary-Recency Effect]]\n"
     },
@@ -1098,7 +1096,7 @@ export const backlinks = {
         "Sliding Panes": "... it was first introduced by [[Andy Matuschak]], at least his version made ..."
     },
     "wikilink": {
-        "2022-10-17": "... This is necessary because I use `[[wikilink]]` for interlinking, which Docusaurus does not ..."
+        "2022-10-17": "... is necessary because I use `[[wikilink]]` for interlinking, which Docusaurus does ..."
     },
     "Cantankerous": {
         "2022-10-17": "- [[Cantankerous]]\n"
@@ -2154,10 +2152,10 @@ export const backlinks = {
         "Memex": "![[89B469.png]]\n"
     },
     "Vannevar Bush": {
-        "Memex": "... 친밀한 보조 장치일 것입니다. - [[Vannevar Bush|버니바 부시]]. [The Atlantic 원문.](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)\n"
+        "Memex": "... supplement to his memory. — [[Vannevar Bush]]\n"
     },
     "As We May Think (Article)": {
-        "Memex": "> In \"[[As We May Think (Article)]]\", [[Vannevar Bush"
+        "Memex": "> In \"[[As We May Think (Article)]]\", [[Vannevar Bush"
     },
     "FC87FE.png": {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]\n"
