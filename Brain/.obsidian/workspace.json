@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "d6d225e459fd3631",
+        "id": "7e36c8f01189c63c",
         "type": "tabs",
         "children": [
           {
-            "id": "65aa7315faf1c5b0",
+            "id": "bbd4f443c30a7186",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-24.md",
+                "file": "Memex/Lesser Known Tricks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
-          },
-          {
-            "id": "572b2f1e4ba50e6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/AIs.txt.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/AIs.txt.md",
+                "file": "Memex/Lesser Known Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/AIs.txt.md"
+                "file": "Memex/Lesser Known Tricks.md"
               }
             }
           },
@@ -148,17 +134,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "572b2f1e4ba50e6a",
+  "active": "bbd4f443c30a7186",
   "lastOpenFiles": [
+    "Journals/2022-10-21.md",
+    "Journals/2022-10-22.md",
+    "Journals/2022-10-23.md",
     "Journals/2022-10-24.md",
-    "Assets/441192.png",
     "Projects/AIs.txt.md",
+    "Assets/441192.png",
     "Memex/Substack is the new Medium.md",
     "Memex/Synthote.md",
     "Memex/Edge Networks.md",
-    "Memex/To Kill a Night Owl.md",
-    "Projects/Coding Tests/Real Interviews.md",
-    "Journals/2022-10-23.md",
-    "Memex/eBPF.md"
+    "Memex/To Kill a Night Owl.md"
   ]
 }
