@@ -3,118 +3,118 @@ export const backlinks = {
         "FFMpeg for iPad": "- There is no [[FFMpeg]] equivalent for iPads!\n"
     },
     "Copilot": {
-        "AIs.txt": "... that declines machine learning (a.k.a. [[Copilot]] use)?\n",
+        "AIs.txt": "... we could make a human-readable file that declines machine learning (a.k.a. [[Copilot]] use)?\n",
         "2022-10-18": "- [[Copilot]]\n",
-        "Synthote": "- [[Copilot]] is already doing it for ..."
+        "Synthote": "- [[Copilot]] is already doing it for codes\n"
     },
     "254AFC.png": {
         "AIs.txt": "![[254AFC.png]]\n"
     },
     "IP": {
-        "AIs.txt": "If any [[IP]] is legally protected, machine-generated code ...",
+        "AIs.txt": "If any [[IP]] is legally protected, machine-generated code must also have the same level ...",
         "Internetworking": "- [[IP]]\n",
         "Preservation of Data": "- Find another [[IP]] without restrictions you are facing.\n",
-        "IP Spoofing": "- Faking an [[IP]] by sending packet with false ..."
+        "IP Spoofing": "- Faking an [[IP]] by sending packet with false source address\n"
     },
     "Markdown": {
-        "Markdown Email Client": "... You write an email in [[Markdown]]\n",
-        "2022-07-09": "... plugin for converting wikilinks to [[Markdown]] links. For example, this is ...",
-        "Inliner": "... and reading experience by utilizing [[Markdown]]'s strict line change mode.\n"
+        "Markdown Email Client": "- You write an email in [[Markdown]]\n",
+        "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].\n",
+        "Inliner": "... Inliner aims to separate the editing and reading experience by utilizing [[Markdown]]'s strict line change mode.\n"
     },
     "CSS": {
         "Markdown Email Client": "- Before sending, select one [[CSS]]\n",
-        "Satori": "... new core library for converting HTML/[[CSS]] into SVGs._\n",
-        "Tailwind": "... leaving your HTML. A utility-first [[CSS]] framework packed with classes like ...",
-        "Font Feature": "- [[CSS]] property to enhance legibilities of ...",
-        "Stories Behind Satori": "... two, being fast and dev-friendly (HTML/[[CSS]])\n"
+        "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting HTML/[[CSS]] into SVGs.\n",
+        "Tailwind": "... Rapidly build modern websites without ever leaving your HTML. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, and rotate-90 that ...",
+        "Font Feature": "- [[CSS]] property to enhance legibilities of a [[Font]].\n",
+        "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly (HTML/[[CSS]])\n"
     },
     "HTML": {
-        "Markdown Email Client": "... as a beautiful and clean [[HTML]] email!\n",
-        "2022-06-12": "... client-side JavaScript converts a static [[HTML]] web page, delivered either through ...",
-        "Satori": "... new core library for converting [[HTML]]/[[CSS",
-        "Tailwind": "... websites without ever leaving your [[HTML]]. A utility-first [[CSS",
-        "CSS": "... a markup language such as [[HTML]] or XML (including XML dialects ...",
-        "DOM": "... that treats an XML or [[HTML]] document as a tree structure ...",
-        "JavaScript": "... the World Wide Web, alongside [[HTML]] and CSS. As of 2022, ...",
-        "JSX (File Format)": "... is similar in appearance to [[HTML]]. React components are typically written ...",
-        "Stories Behind Satori": "... two, being fast and dev-friendly ([[HTML]]/[[CSS"
+        "Markdown Email Client": "- Then... it sends as a beautiful and clean [[HTML]] email!\n",
+        "2022-06-12": "... rehydration is a technique in which client-side JavaScript converts a static [[HTML]] web page, delivered either through static hosting or server-side rendering, into ...",
+        "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.\n",
+        "Tailwind": "> Rapidly build modern websites without ever leaving your [[HTML]]. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, ...",
+        "CSS": "... presentation of a document written in a markup language such as [[HTML]] or XML (including XML dialects such as [[SVG (File Format)]], MathML, ...",
+        "DOM": "... is a cross-platform and language-independent interface that treats an XML or [[HTML]] document as a tree structure wherein each node is an object ...",
+        "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
+        "JSX (File Format)": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
+        "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly ([[HTML]]/[[CSS]])\n"
     },
     "Project PEOPLE": {
-        "Separation of Computer Scientists and Computer Technologists": "- [[Project PEOPLE]] always ask if you need ...",
-        "Person A480C6": "  - [[Project PEOPLE]] can take responsibility, regardless of ...",
+        "Separation of Computer Scientists and Computer Technologists": "- [[Project PEOPLE]] always ask if you need a college degree for Software Engineerings\n",
+        "Person A480C6": "  - [[Project PEOPLE]] can take responsibility, regardless of their level and position.\n",
         "Person 5DBDAE": "Meet a lot of [[Project PEOPLE]].\n",
-        "2022-07-05": "- Some [[Project PEOPLE]] asked why it is _computer ...",
-        "2022-07-10": "... new paradigm for low-code websites. [[Project PEOPLE]] now create personal websites, event ...",
+        "2022-07-05": "- Some [[Project PEOPLE]] asked why it is computer scientist instead of software engineer... And ...",
+        "2022-07-10": "- Notion opened a new paradigm for low-code websites. [[Project PEOPLE]] now create personal websites, event RSVPs, blogs, databases, and much more, ...",
         "2022-09-08": "- [[Project PEOPLE]]\n",
         "2022-09-14": "- [[Project PEOPLE]]\n"
     },
     "JavaScript": {
-        "Separation of Computer Scientists and Computer Technologists": "... to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...\n",
+        "Separation of Computer Scientists and Computer Technologists": "... A self-taught dev can use React to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...\n",
         "2022-07-11": "First, make a giant [[JavaScript]] object.\n",
-        "2022-07-01": "... This will reduce 10kb in [[JavaScript]].\n",
-        "2022-07-20": "- [[JavaScript]] → [[TypeScript",
-        "2022-06-20": "... in an API environment where [[JavaScript]] can't be rendered or a ...",
-        "2022-06-22": "... Brane should cover very partial [[JavaScript]] APIs.\n",
+        "2022-07-01": "- This will reduce 10kb in [[JavaScript]].\n",
+        "2022-07-20": "- [[JavaScript]] → [[TypeScript]]\n",
+        "2022-06-20": "... are increasingly API-driven. CAPTCHAs cannot work in an API environment where [[JavaScript]] can't be rendered or a WebView can't be called.\n",
+        "2022-06-22": "Then, Brane should cover very partial [[JavaScript]] APIs.\n",
         "2022-07-18": "- No trackers, no [[JavaScript]], no stylesheets. Just your words\n",
-        "2022-06-12": "... a technique in which client-side [[JavaScript]] converts a static [[HTML",
+        "2022-06-12": "... web development, hydration or rehydration is a technique in which client-side [[JavaScript]] converts a static [[HTML]] web page, delivered either through static hosting ...",
         "2022-07-12": "1. Demo [[JavaScript]] animation works as expected.\n",
-        "2022-07-06": "... Bun is a fast all-in-one [[JavaScript]] runtime\n",
+        "2022-07-06": "- Bun is a fast all-in-one [[JavaScript]] runtime\n",
         "HTMX": "- Implementation itself is [[JavaScript]]\n",
-        "Tools for Thought": "... [Bear Blog](https://bearblog.dev/): No trackers, no [[JavaScript]], no stylesheets blog for hackers\n",
+        "Tools for Thought": "- Bear Blog: No trackers, no [[JavaScript]], no stylesheets blog for hackers\n",
         "Deno Deploy": "- Deploy [[JavaScript]] Globally\n",
         "TypeScript": "- Typed [[JavaScript]].\n"
     },
     "Apple": {
-        "CalliFontia": "- [[Apple]] Pencil Handwriting → [[Font",
-        "Person A480C6": "- Currently works at [[Apple]], [[Apple",
+        "CalliFontia": "- [[Apple]] Pencil Handwriting → [[Font]]\n",
+        "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team\n",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.\n",
-        "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[Apple]] Music have a market penetration ...",
+        "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[Apple]] Music have a market penetration of next to nothing.\n",
         "Intracranial": "  - 👍 [[Apple]]-ish design language\n",
-        "Apple Earth": "... Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports\n",
-        "2022-10-13": "... 31% of teens own an [[Apple]] Watch: [Taking Stock With Teens® ...",
-        "2022-06-21": "However, [[Apple]] Feedback Assistant is not a ...",
-        "2022-10-18": "- [[Apple]] bought all of the advertising ...",
-        "2022-06-10": "  - [[Apple]] has [implemented pointer authentication](https://support.apple.com/guide/security/operating-system-integrity-sec8b776536b/1/web/1#sec0167b469d) on ...",
-        "2022-06-20": "Note that this is not [[Apple]] Passkey. This is the Privacy ...",
+        "Apple Earth": "- Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports\n",
+        "2022-10-13": "... iPhone to be their next phone; 31% of teens own an [[Apple]] Watch: Taking Stock With Teens® - Fall 2022\n",
+        "2022-06-21": "However, [[Apple]] Feedback Assistant is not a developer Q&A platform.\n",
+        "2022-10-18": "- [[Apple]] bought all of the advertising space in Newsweek's November/December special election ...",
+        "2022-06-10": "  - [[Apple]] has implemented pointer authentication on all of its custom ARM-based silicon ...",
+        "2022-06-20": "Note that this is not [[Apple]] Passkey. This is the Privacy Pass standard. Apple Passkey is a ...",
         "2022-07-18": "- [[Apple]] seems (pretty much) always right...\n",
         "Swift": "- Programming Language for [[Apple]] platforms\n",
-        "How is WebAssembly cross-platform when Assembly is not": "... for multiple CPU vendors, like [[Apple]]'s Universal Binary?\n",
-        "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco",
-        "Screenshot as an API": "... from photos in the latest [[Apple]] iOS 16 update.\n",
+        "How is WebAssembly cross-platform when Assembly is not": "... it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?\n",
+        "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다.\n",
+        "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] iOS 16 update.\n",
         "Apple Silicon (CPU)": "- Chips made by [[Apple]]\n",
-        "Firefox": "- _Enter [`os_unfair_lock`](https://developer.apple.com/documentation/os/os_unfair_lock), [[Apple]]'s official replacement for `OSSpinLock`. If ...",
-        "Brunch violates SF terms of use": "... Korean writing service Brunch violates [[Apple]]'s Terms of Use by using ...",
+        "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If you still use `OSSpinLock`, you'll get ...",
+        "Brunch violates SF terms of use": "- Korean writing service Brunch violates [[Apple]]'s Terms of Use by using SF Pro as a [[Web Typography|Webfont]].\n",
         "San Francisco": "- Font by [[Apple]]\n",
         "3D File Format": "- USDZ for [[Apple]]\n",
         "Horizontally Stacked Interface": "## [[Apple]] Concierge App for Genius Bars\n",
-        "Google": "... information technology companies, alongside Amazon, [[Apple]], Meta, and Microsoft. [Google](https://en.wikipedia.org/wiki/Google)\n"
+        "Google": "... one of the Big Five American information technology companies, alongside Amazon, [[Apple]], Meta, and Microsoft. Google\n"
     },
     "Font": {
         "CalliFontia": "- Apple Pencil Handwriting → [[Font]]\n",
-        "Satori": "- [[Font]] and [[Emojis",
-        "Tossface": "- Emoji [[Font]] by [[Toss",
-        "Pretendard": "- [[Font]] by [orioncactus (Kil Hyung-jin)](https://github.com/orioncactus)\n",
+        "Satori": "- [[Font]] and [[Emojis]] Subsets from Google Fonts and other CDNs\n",
+        "Tossface": "- Emoji [[Font]] by [[Toss]]\n",
+        "Pretendard": "- [[Font]] by orioncactus (Kil Hyung-jin)\n",
         "Pretendard의 아쉬운 점": "## [[Font]] Family의 Font Weight 매칭 문제\n",
-        "Font Feature": "... to enhance legibilities of a [[Font]].\n",
-        "Grotesque": "... are usually horizontal, and the [[Font|typeface]] frequently has a spurred \"G\" ...",
-        "Inter": "- [[Font]] by [rsms](https://rsms.me/)\n",
-        "San Francisco": "- [[Font]] by [[Apple",
-        "Toss Product Sans": "- [[Font]] by [[Toss",
-        "Stories Behind Satori": "They also added Google [[Font]]'s `?text=` API, containing a specific ..."
+        "Font Feature": "- CSS property to enhance legibilities of a [[Font]].\n",
+        "Grotesque": "... thin strokes. The terminals of curves are usually horizontal, and the [[Font|typeface]] frequently has a spurred \"G\" and an \"R\" with a curled ...",
+        "Inter": "- [[Font]] by rsms\n",
+        "San Francisco": "- [[Font]] by [[Apple]]\n",
+        "Toss Product Sans": "- [[Font]] by [[Toss]].\n",
+        "Stories Behind Satori": "They also added Google [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library and ..."
     },
     "Font Feature": {
         "CalliFontia": "- 추출 전 여러가지 [[Font Feature|Font Feature]]을 켜고 끄며 미리보기 대조 가능\n",
-        "2022-08-01": "... realized that this enables Font [[Font Feature|Ligature]] Settings.\n",
-        "Toss Product Sans": "... figured it did not support [[Font Feature]].\n"
+        "2022-08-01": "- Just realized that this enables Font [[Font Feature|Ligature]] Settings.\n",
+        "Toss Product Sans": "- I figured it did not support [[Font Feature]].\n"
     },
     "Fiercely Overpriced": {
         "CalliFontia": "## [[Fiercely Overpriced]]\n",
-        "Off The Record": "- [[Fiercely Overpriced]]: disappears after opening. max 10 ...",
+        "Off The Record": "- [[Fiercely Overpriced]]: disappears after opening. max 10 seconds (or message length)\n",
         "CELLO (Product)": "## How would it be [[Fiercely Overpriced]]?\n",
         "Autosave Everything": "How would it be [[Fiercely Overpriced]]?\n",
         "Open Graph Image as a Service": "## How would it be [[Fiercely Overpriced]]?\n",
         "2022-07-14": "- Moved to [[Fiercely Overpriced]]\n",
-        "2022-07-18": "- [[Fiercely Overpriced]] for [[Open Graph Image as ..."
+        "2022-07-18": "- [[Fiercely Overpriced]] for [[Open Graph Image as a Service]] could be public-key-encrypting query ..."
     },
     "Metapage": {
         "Projects": "This is a [[Metapage]] for my projects.\n",
@@ -169,14 +169,14 @@ export const backlinks = {
         "2022-10-15": "![[837555.jpg]]\n"
     },
     "FIRE Engine": {
-        "Old Fashioned Camera": "... 백엔드와 프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임\n",
+        "Old Fashioned Camera": "- 백엔드와 프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임\n",
         "CELLO (Product)": "- [[FIRE Engine]]\n",
         "Cube": "- [[FIRE Engine]]\n",
         "Intracranial": "- [[FIRE Engine]]\n",
         "2022-07-24": "- [[FIRE Engine]]\n",
         "2022-10-13": "- [[FIRE Engine]]\n",
         "2022-07-18": "- [[FIRE Engine]]\n",
-        "2022-07-26": "... convert this into a full-blown [[FIRE Engine]].\n",
+        "2022-07-26": "... PencilKit, it seems relatively easy to convert this into a full-blown [[FIRE Engine]].\n",
         "FIRE": "- [[FIRE Engine]]\n"
     },
     "CELLO": {
@@ -189,19 +189,19 @@ export const backlinks = {
         "CELLO (Product)": "- [[SwiftUI]]\n",
         "Cube": "- [[SwiftUI]]\n",
         "2022-08-04": "### Explored [[SwiftUI]].\n",
-        "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon (CPU)"
+        "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon (CPU)]]\n"
     },
     "Cloudflare": {
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images\n",
-        "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel",
-        "2022-06-20": "[[Cloudflare]]: [Private Access Tokens: eliminating CAPTCHAs ...",
+        "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded that [[Vercel]] is better.\n",
+        "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open ...",
         "Edge Networks": "- [[Cloudflare]] Pages & Cloudflare Functions\n"
     },
     "Deno Deploy": {
         "CELLO (Product)": "- Possibly [[Deno Deploy]]\n"
     },
     "K-Pop Apps": {
-        "CELLO (Product)": "... confinement, as seen in most [[K-Pop Apps]].\n"
+        "CELLO (Product)": "- Avoid local confinement, as seen in most [[K-Pop Apps]].\n"
     },
     "CELLO (Product)": {
         "CELLO": "- [[CELLO (Product)]]\n",
@@ -221,8 +221,8 @@ export const backlinks = {
     },
     "Python": {
         "get-a-job-done": "  - Building [[Python]] Data Parser\n",
-        "0001 Two Sum": "I used [[Python]] Dictionary to store complementing values. ...",
-        "Coding Tests": "- Will use [[Python]] (main language) and [[C++",
+        "0001 Two Sum": "I used [[Python]] Dictionary to store complementing values. Python Dictionary will have $O(1)$ access ...",
+        "Coding Tests": "- Will use [[Python]] (main language) and [[C++]] (supplementary language)\n",
         "Python": "You can offset with [[Python]]'s `enumerate` function with list splitting.\n",
         "1046 Last Stone Weight": "- Space: $O(1)$ in [[Python]]\n",
         "Real Exams": "- get-a-job-done SQL, React, [[Python]]\n"
@@ -246,7 +246,7 @@ export const backlinks = {
         "2022-08-26": "- [[Coding Tests]]\n",
         "2022-08-27": "## [[Coding Tests]]\n",
         "2022-08-30": "## [[Coding Tests]]\n",
-        "2022-06-06": "- _[[Coding Tests]] questions_ - [Grind 75 - ...",
+        "2022-06-06": "- [[Coding Tests]] questions - Grind 75 - A better Blind 75 you can ...",
         "2022-09-20": "## [[Coding Tests]]\n",
         "2022-09-30": "## [[Coding Tests]]\n",
         "2022-09-04": "## [[Coding Tests]]\n",
@@ -285,11 +285,11 @@ export const backlinks = {
         "2022-10-24": "- [[Real Interviews]]\n"
     },
     "C++": {
-        "Coding Tests": "... use Python (main language) and [[C++]] (supplementary language)\n",
-        "Handling files in Unix": "- handling networking in [[C++]] is also using [[File Descriptor"
+        "Coding Tests": "- Will use Python (main language) and [[C++]] (supplementary language)\n",
+        "Handling files in Unix": "- handling networking in [[C++]] is also using [[File Descriptor]] for sockets.\n"
     },
     "QuickSelect": {
-        "Coding Tests": "- [[QuickSelect]] [[TODO",
+        "Coding Tests": "- [[QuickSelect]] [[TODO]]\n",
         "0215 Kth Largest Element in an Array": "- Use [[QuickSelect]]\n"
     },
     "TODO": {
@@ -298,10 +298,10 @@ export const backlinks = {
         "2022-10-12": "## [[TODO]]\n",
         "2022-10-13": "## [[TODO]]\n",
         "2022-10-25": "## [[TODO]]\n",
-        "Tools for Thought": "[[TODO]]: Convert this page into a ..."
+        "Tools for Thought": "[[TODO]]: Convert this page into a more in-depth case study.\n"
     },
     "Trie": {
-        "Coding Tests": "- [[Trie]] [[TODO"
+        "Coding Tests": "- [[Trie]] [[TODO]]\n"
     },
     "1448 Count Good Nodes in Binary Tree": {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]\n"
@@ -317,7 +317,7 @@ export const backlinks = {
         "2022-08-30": "- [[1046 Last Stone Weight]]\n"
     },
     "0215 Kth Largest Element in an Array": {
-        "Coding Tests": "- [[0215 Kth Largest Element in an Array]] [[TODO"
+        "Coding Tests": "- [[0215 Kth Largest Element in an Array]] [[TODO]]\n"
     },
     "0079 Word Search": {
         "Coding Tests": "- [[0079 Word Search]]\n"
@@ -398,25 +398,25 @@ export const backlinks = {
     },
     "binary search": {
         "0704 Binary Search": "- [[binary search]]\n",
-        "Real Exams": "... 1 binary tree construction & [[binary search]] traversal\n",
+        "Real Exams": "- 1 binary tree construction & [[binary search]] traversal\n",
         "2022-09-05": "- [[binary search]]\n"
     },
     "simulation": {
-        "optimized simulation": "... you have to conduct a [[simulation]] according to the provided conditions.\n",
+        "optimized simulation": "... Optimized Simulation programming problem is when you have to conduct a [[simulation]] according to the provided conditions.\n",
         "Real Exams": "- 1 [[simulation]]\n",
-        "mathematic coding": "... - conducting a bare metal [[simulation]] takes too long\n"
+        "mathematic coding": "  - conducting a bare metal [[simulation]] takes too long\n"
     },
     "2022-09-05": {
         "0733 Flood Fill": "Solved at: [[2022-09-05]]\n",
         "0053 Maximum Subarray": "Solved at: [[2022-09-05]]\n"
     },
     "0 for i in image[0": {
-        "0733 Flood Fill": "...    visited = [[0 for i in image[0]] for j in image]\n"
+        "0733 Flood Fill": "        visited = [[0 for i in image[0]] for j in image]\n"
     },
     "BFS": {
-        "0733 Flood Fill": "I did [[BFS]], but it seems possible to ...",
+        "0733 Flood Fill": "I did [[BFS]], but it seems possible to do this in recursion too.\n",
         "Real Exams": "- 1 [[BFS]]\n",
-        "Real Interviews": "...   - 1 conditional [[BFS]] problem\n"
+        "Real Interviews": "    - 1 conditional [[BFS]] problem\n"
     },
     "2022-10-23": {
         "0141 Linked List Cycle": "Solved at: [[2022-10-23]]\n"
@@ -426,7 +426,7 @@ export const backlinks = {
     },
     "optimized simulation": {
         "Real Exams": "- 1 [[optimized simulation]] (prefix array)\n",
-        "simulation": "... are time-space restrictions, look into [[optimized simulation]]s.\n",
+        "simulation": "- If there are time-space restrictions, look into [[optimized simulation]]s.\n",
         "2022-09-05": "- [[optimized simulation]]\n"
     },
     "mathematic coding": {
@@ -440,7 +440,7 @@ export const backlinks = {
         "Real Exams": "- 1 [[greedy]]\n"
     },
     "get-a-job-done": {
-        "Real Exams": "- [[get-a-job-done]] SQL, React, [[Python",
+        "Real Exams": "- [[get-a-job-done]] SQL, React, [[Python]]\n",
         "2022-09-05": "- [[get-a-job-done]]\n"
     },
     "2022-07-13": {
@@ -448,16 +448,16 @@ export const backlinks = {
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]\n"
     },
     "2022-07-14": {
-        "0125 Valid Palindrome": "Solved at: [[2022-07-14]] and [[2022-07-26",
-        "Fiercely Overpriced": "An idea suggested on [[2022-07-14]] that all inventions should be ..."
+        "0125 Valid Palindrome": "Solved at: [[2022-07-14]] and [[2022-07-26]]\n",
+        "Fiercely Overpriced": "An idea suggested on [[2022-07-14]] that all inventions should be fiercely overpriced.\n"
     },
     "Grammarly": {
         "Real Interviews": "- [[Grammarly]]\n",
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter\n",
-        "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts"
+        "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]\n"
     },
     "Synthote": {
-        "Real Interviews": "... projects, Readerly (summarizing) and Speakerly ([[Synthote]])\n",
+        "Real Interviews": "... - Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])\n",
         "2022-10-19": "- [[Synthote]]\n",
         "2022-10-24": "- [[Synthote]]\n",
         "Stephan Ango": "- Coined the term [[Synthote]]\n",
@@ -474,10 +474,10 @@ export const backlinks = {
         "Backlinking for Aldehyde": "- [[Backlink]]\n",
         "Better Docusaurus": "- Docusaurus should have [[Backlink]] support\n",
         "2022-10-17": "[[Backlink|Links to This Note]] feature is complete.\n",
-        "Andy Matuschak": "... concepts, such as Sliding Panes, [[Backlink|links to this note]], and [[Atomic Notes"
+        "Andy Matuschak": "Introduced novel concepts, such as Sliding Panes, [[Backlink|links to this note]], and [[Atomic Notes]].\n"
     },
     "2022-10-17": {
-        "Backlinking for Aldehyde": "... Note feature is complete on [[2022-10-17]].\n",
+        "Backlinking for Aldehyde": "- Links to This Note feature is complete on [[2022-10-17]].\n",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Reply on [[2022-10-17]]\n",
         "Better Obsidian": "- Functional Templating (Done on [[2022-10-17]])\n"
     },
@@ -503,8 +503,8 @@ export const backlinks = {
         "Transactional Globe": "![[F7ADEB.png]]\n"
     },
     "Emojis": {
-        "TossFace Playground": "... Redistribution of Korean and Futuristic [[Emojis|Emojis]]. [유니코드 Private Use Area를 이용해 ...",
-        "Satori": "- Font and [[Emojis]] Subsets from Google Fonts and ...",
+        "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[Emojis|Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ...",
+        "Satori": "- Font and [[Emojis]] Subsets from Google Fonts and other CDNs\n",
         "Stories Behind Satori": "The same applies to [[Emojis|emojis]].\n"
     },
     "2022-09-08": {
@@ -570,7 +570,7 @@ export const backlinks = {
         "2022-10-21": "- [[Stephan Ango]]: also created Obsidian Minimal Settings.\n",
         "Synthote": "- Coined by [[Stephan Ango]]\n",
         "Now Page": "### [[Stephan Ango]]\n",
-        "Newsletter Network": "- [[Stephan Ango]] uses [[Buttondown"
+        "Newsletter Network": "- [[Stephan Ango]] uses [[Buttondown]]\n"
     },
     "4BE5E2.png": {
         "Letter to Mr. Stephan Ango on 2022-10-19": "![[4BE5E2.png]]\n"
@@ -583,7 +583,7 @@ export const backlinks = {
     },
     "Atomic Notes": {
         "Intracranial": "  - [[Atomic Notes]]\n",
-        "Andy Matuschak": "... a new vision of online [[Atomic Notes|Zettelkasten]].\n"
+        "Andy Matuschak": "Provided a new vision of online [[Atomic Notes|Zettelkasten]].\n"
     },
     "Infinite Canvas": {
         "Intracranial": "  - [[Infinite Canvas]]\n",
@@ -602,7 +602,7 @@ export const backlinks = {
         "2022-09-29": "## Today's [[Hacker News]]\n",
         "2022-10-19": "## [[Hacker News|HN]]\n",
         "2022-09-09": "## Today's [[Hacker News]]\n",
-        "2022-07-09": "... this is a wikilink to [[Hacker News]].\n",
+        "2022-07-09": "... wikilinks to Markdown links. For example, this is a wikilink to [[Hacker News]].\n",
         "2022-06-22": "## Today's [[Hacker News]]\n",
         "2022-07-18": "## Today's [[Hacker News]]\n",
         "2022-08-01": "## Today's [[Hacker News]]\n",
@@ -615,7 +615,7 @@ export const backlinks = {
         "2022-10-25": "## [[Hacker News|HN]]\n",
         "2022-09-05": "## Today's [[Hacker News]]\n",
         "2022-10-15": "## [[Hacker News|HN]]\n",
-        "Emails and Decentralized Protocols": "... from the original discussion on [[Hacker News|HN]] was to use [ImprovMX](https://improvmx.com) as ...",
+        "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.\n",
         "Jumpsite": "## [[Hacker News]]\n"
     },
     "418938.jpeg": {
@@ -624,75 +624,75 @@ export const backlinks = {
         "Handwriting Tools for Thoughts": "![[418938.jpeg]]\n"
     },
     "Git": {
-        "UUIDs are Awesome": "... all records remain in the [[Git]] history, so we don't need ...",
-        "Techs Actually Simple": "- _Yet [[Git]]'s object model is pretty simple ...",
-        "Vercel": "... and deployments are handled through [[Git]] repositories. [Vercel](https://en.wikipedia.org/wiki/Vercel)\n",
-        "Visual Studio Code": "... snippets, code refactoring, and embedded [[Git]]. Users can change the theme, ...",
+        "UUIDs are Awesome": "... even if a hash collision occurs, all records remain in the [[Git]] history, so we don't need any collision checks.\n",
+        "Techs Actually Simple": "- Yet [[Git]]'s object model is pretty simple - content-addressed blobs (file-like), trees (folder-like), ...",
+        "Vercel": "... Vercel's architecture is built around Jamstack, and deployments are handled through [[Git]] repositories. Vercel\n",
+        "Visual Studio Code": "... debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [[Git]]. Users can change the theme, keyboard shortcuts, preferences, and install extensions ...",
         "How to Build Software like an SRE": "- use [[Git]]\n"
     },
     "Docusaurus": {
-        "Better Docusaurus": "... I currently don't like about [[Docusaurus]]:\n"
+        "Better Docusaurus": "Some things that I currently don't like about [[Docusaurus]]:\n"
     },
     "2022-07-18": {
-        "Better Docusaurus": "... with `img alt` tags on [[2022-07-18]] [Commit](https://github.com/anaclumos/extracranial/commit/cefd8c5b46b2a5c2df2a52e176a97d233387c14b)\n"
+        "Better Docusaurus": "- Render `Figcaption` with `img alt` tags on [[2022-07-18]] Commit\n"
     },
     "E437D9.png": {
         "Digital Addictions of Software Enthusiasts": "![[E437D9.png]]\n"
     },
     "Web Worker": {
-        "iiframe": "... containerizes an embedded web inside [[Web Worker|Web Workers]].\n",
-        "2022-07-25": "- [x] Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` ...",
+        "iiframe": "- Improved `iframe` that containerizes an embedded web inside [[Web Worker|Web Workers]].\n",
+        "2022-07-25": "- [x] Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` layer.\n",
         "2022-07-11": "Give this object to a [[Web Worker]] which includes third-party codes.\n",
-        "2022-07-21": "- Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` ...",
-        "2022-08-03": "... specializes in containerizing iframes in [[Web Worker|Web Workers]].\n",
-        "2022-07-19": "[[Web Worker]] Thread에서 나타난 `AnimationFrame.ts`은 `requestAnimationFrame`에 관련된 ...",
-        "2022-06-22": "... be an _arbiter_ between the [[Web Worker]] thread and the iframe.\n",
-        "Satori": "... in modern browsers, Node.js, and [[Web Worker|Web Workers]]. Building on top of the ...",
-        "WorkerDOM": "... on providing DOM access to [[Web Worker]] Threads.\n",
+        "2022-07-21": "- Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` layer.\n",
+        "2022-08-03": "... iiframe — improved iframe — that specializes in containerizing iframes in [[Web Worker|Web Workers]].\n",
+        "2022-07-19": "[[Web Worker]] Thread에서 나타난 `AnimationFrame.ts`은 `requestAnimationFrame`에 관련된 것으로 보이고 Data Transfer과는 무관해보인다 (불확실).\n",
+        "2022-06-22": "  - WorkerDOM will be an arbiter between the [[Web Worker]] thread and the iframe.\n",
+        "Satori": "... core engine, Satori, can be used in modern browsers, Node.js, and [[Web Worker|Web Workers]]. Building on top of the core engine, [[Vercel]] OG can be ...",
+        "WorkerDOM": "Google's take on providing DOM access to [[Web Worker]] Threads.\n",
         "Atomics (JavaScript)": "- SharedArrayBuffer를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.\n",
-        "Treehouse": "... run a DOM within a [[Web Worker]]. Later affected [[WorkerDOM",
-        "Stories Behind Satori": "... will also benefit by targeting [[Web Worker|Web Workers]].\n"
+        "Treehouse": "... Treehouse was the first attempt to run a DOM within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]].\n",
+        "Stories Behind Satori": "Converting it into WebAssembly|WASM will also benefit by targeting [[Web Worker|Web Workers]].\n"
     },
     "Brane": {
         "iiframe": "- Successor to [[Brane]].\n",
         "2022-07-11": "## [[Brane]] Notes\n",
-        "2022-07-05": "... never been done before, i.e., [[Brane]]\n",
-        "2022-08-03": "[[Brane]] is a vast project that ...",
+        "2022-07-05": "... business. I do PoCs that have never been done before, i.e., [[Brane]]\n",
+        "2022-08-03": "[[Brane]] is a vast project that a single intern can't finish.\n",
         "2022-06-14": "## [[Brane]]\n",
         "2022-06-22": "## [[Brane]] Project Demo Spec\n",
         "2022-06-26": "## [[Brane]] Notes\n",
         "2022-07-12": "On 2022-07-11, I analyzed that [[Brane]] is harder than it seems.\n",
         "2022-07-06": "### [[Brane]]\n",
         "WorkerDOM": "[[Brane]] will follow WorkerDOM's core model.\n",
-        "Treehouse": "... Worker. Later affected WorkerDOM and [[Brane]].\n"
+        "Treehouse": "... run a DOM within a Web Worker. Later affected WorkerDOM and [[Brane]].\n"
     },
     "WorkerDOM": {
         "iiframe": "- Does not extend [[WorkerDOM]].\n",
-        "2022-10-02": "... Got an email from the [[WorkerDOM]] team that the project will ...",
+        "2022-10-02": "- Got an email from the [[WorkerDOM]] team that the project will not have any major updates\n",
         "2022-07-11": "Currently, [[WorkerDOM]] only has asynchronous data channels.\n",
-        "2022-08-03": "... fooling `getBoundingClientRect()` on top of [[WorkerDOM]].\n",
-        "2022-06-14": "...  - 이 세부 전략으로 [[WorkerDOM]]을 쓸 수도 있고, 고쳐서 쓸 ...",
+        "2022-08-03": "Also, I succeeded on fooling `getBoundingClientRect()` on top of [[WorkerDOM]].\n",
+        "2022-06-14": "  - 이 세부 전략으로 [[WorkerDOM]]을 쓸 수도 있고, 고쳐서 쓸 수도 있고, 새로 만들 수도 있고, ...",
         "2022-06-27": "- Confirm [[WorkerDOM]]'s Binary DOM Manipulation channel.\n",
-        "2022-07-19": "오늘은 반드시 [[WorkerDOM]] [[Scheduler",
+        "2022-07-19": "오늘은 반드시 [[WorkerDOM]] [[Scheduler]]를 잡아내자.\n",
         "2022-06-22": "Google's [[WorkerDOM]] has no event algorithm.\n",
         "2022-06-26": "- Explore SharedArrayBuffer, Atomic, and [[WorkerDOM]]'s Binary DOM manipulation.\n",
         "2022-07-12": "### Scheduler|Schedulers in [[WorkerDOM]]\n",
         "2022-07-06": "### Brane [[WorkerDOM]] Non-blocking Example\n",
-        "Treehouse": "... a Web Worker. Later affected [[WorkerDOM]] and [[Brane"
+        "Treehouse": "... attempt to run a DOM within a Web Worker. Later affected [[WorkerDOM]] and [[Brane]].\n"
     },
     "SharedArrayBuffer": {
-        "Providing DOM API to Worker Threads": "To enable [[SharedArrayBuffer]], we need a secure context ...",
+        "Providing DOM API to Worker Threads": "To enable [[SharedArrayBuffer]], we need a secure context `crossOriginIsolated`.\n",
         "2022-07-25": "- [x] Allocate a [[SharedArrayBuffer]] inside `transferSync`.\n",
-        "2022-07-11": "... but is internally made with [[SharedArrayBuffer]].\n",
+        "2022-07-11": "... follows the same interface as `postMessage` but is internally made with [[SharedArrayBuffer]].\n",
         "2022-07-21": "  - Allocate a [[SharedArrayBuffer]] inside `transferSync`.\n",
-        "2022-08-03": "... synchronously using Atomics (JavaScript) and [[SharedArrayBuffer]].\n",
-        "2022-06-27": "... more about Atomics (JavaScript) and [[SharedArrayBuffer]]\n",
-        "2022-07-19": "... - Web Worker Thread `transferSync`에서 [[SharedArrayBuffer|SAB]]를 하나 할당한다\n",
-        "2022-06-22": "...  - WorkerDOM will harness [[SharedArrayBuffer]].\n",
-        "2022-06-26": "- Explore [[SharedArrayBuffer]], Atomic, and [[WorkerDOM",
-        "2022-07-12": "...   - This involves [[SharedArrayBuffer|SAB]]\n",
+        "2022-08-03": "This happens synchronously using Atomics (JavaScript) and [[SharedArrayBuffer]].\n",
+        "2022-06-27": "- Learn more about Atomics (JavaScript) and [[SharedArrayBuffer]]\n",
+        "2022-07-19": "  - Web Worker Thread `transferSync`에서 [[SharedArrayBuffer|SAB]]를 하나 할당한다\n",
+        "2022-06-22": "  - WorkerDOM will harness [[SharedArrayBuffer]].\n",
+        "2022-06-26": "- Explore [[SharedArrayBuffer]], Atomic, and [[WorkerDOM]]'s Binary DOM manipulation.\n",
+        "2022-07-12": "   - This involves [[SharedArrayBuffer|SAB]]\n",
         "WorkerDOM": "WorkerDOM doesn't use [[SharedArrayBuffer]], most likely to Spectre.\n",
-        "Atomics (JavaScript)": "- [[SharedArrayBuffer]]를 이용해 [[Web Worker"
+        "Atomics (JavaScript)": "- [[SharedArrayBuffer]]를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.\n"
     },
     "Cross-Origin Opener Policy": {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Opener Policy]]: `same-origin`\n"
@@ -722,15 +722,15 @@ export const backlinks = {
     "Sandbox": {
         "Brane": "  - Prerequisite: [[Sandbox]] Environment.\n",
         "2022-06-22": "- Use [[Sandbox]] for the outer side.\n",
-        "2022-06-26": "... not explore ShadowRealm and `iframe` [[Sandbox]] for now.\n",
-        "Programmable Web": "... running something like the QuickJS [[Sandbox]] inside WebAssembly can provide a ..."
+        "2022-06-26": "- Let's not explore ShadowRealm and `iframe` [[Sandbox]] for now.\n",
+        "Programmable Web": "- Maybe running something like the QuickJS [[Sandbox]] inside WebAssembly can provide a more secure way to access selective ..."
     },
     "2022-07-19": {
-        "Developing Review Notes for Obsidian": "[[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 ...",
+        "Developing Review Notes for Obsidian": "[[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 프로젝트를 해본다.\n",
         "2022-07-21": "See [[2022-07-19]].\n"
     },
     "Better Obsidian": {
-        "Developing Review Notes for Obsidian": "[[Better Obsidian]] 문서를 보면 알 수 있듯이 ...",
+        "Developing Review Notes for Obsidian": "[[Better Obsidian]] 문서를 보면 알 수 있듯이 별별 아이디어들을 다 쌓아뒀는데 오늘 저녁에 ...",
         "2022-10-17": "### [[Better Obsidian]]\n",
         "2022-07-10": "- [[Better Obsidian]]\n",
         "2022-07-26": "### [[Better Obsidian]]\n",
@@ -766,19 +766,19 @@ export const backlinks = {
     "Obsidian": {
         "Better Obsidian": "## Extension Ideas for [[Obsidian]]\n",
         "2022-10-13": "- [[Obsidian]] is now out of beta\n",
-        "2022-07-18": "- [[Obsidian]]-like [[Tools for Thought",
+        "2022-07-18": "- [[Obsidian]]-like [[Tools for Thought]]\n",
         "Stephan Ango": "- Currently works at [[Obsidian]]\n",
-        "Obsidian Ava": "... Early Stage Synthography tool for [[Obsidian]]\n",
-        "Our tools also shape us": "  - [[Obsidian]] makes you a connector + ...",
+        "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]\n",
+        "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer\n",
         "Nota": "Awesome alternative to [[Obsidian]].\n",
-        "Tools for Thought": "- [zadam/trilium](https://github.com/zadam/trilium): [[Obsidian]]-like note-taking service.\n"
+        "Tools for Thought": "- zadam/trilium: [[Obsidian]]-like note-taking service.\n"
     },
     "Roam Research": {
-        "Better Obsidian": "... view for Daily Notes like [[Roam Research]] and [[Logseq",
-        "Our tools also shape us": "  - [[Roam Research]] makes you a connector + ..."
+        "Better Obsidian": "  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].\n",
+        "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser\n"
     },
     "Logseq": {
-        "Better Obsidian": "... Notes like Roam Research and [[Logseq]].\n"
+        "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]].\n"
     },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]\n",
@@ -786,8 +786,8 @@ export const backlinks = {
         "2022-10-18": "- [[Internetworking]]\n",
         "Endianness": "- [[Internetworking]]\n",
         "Socket": "- used in [[Internetworking]]\n",
-        "Multiplexing": "- In [[Internetworking]], it means having multiple sockets ...",
-        "Dijkstra": "- In [[Internetworking]], Dijkstra is used for resolving ..."
+        "Multiplexing": "- In [[Internetworking]], it means having multiple sockets and juggling with data transmissions.\n",
+        "Dijkstra": "- In [[Internetworking]], Dijkstra is used for resolving network graphs and finding the closest ..."
     },
     "조선왕조실록": {
         "2022-08-28": "- [[조선왕조실록]]\n"
@@ -796,15 +796,15 @@ export const backlinks = {
         "2022-08-28": "- [[사회과부도]]\n"
     },
     "Vercel": {
-        "2022-08-28": "... both used Cloudflare Pages and [[Vercel]] and concluded that [[Vercel",
-        "2022-07-10": "- [[Vercel]] hid the compilation process with ...",
+        "2022-08-28": "- I both used Cloudflare Pages and [[Vercel]] and concluded that Vercel is better.\n",
+        "2022-07-10": "- [[Vercel]] hid the compilation process with its proprietary `vercel dev` command.\n",
         "2022-06-22": "Deno envisions a [[Vercel]]-like experience for the backend (FaaS.)\n",
-        "2022-09-30": "- [[Vercel]] [Serving millions of users on ...",
-        "2022-10-10": "...  - I just love [[Vercel]]... they _know_ stuff.\n",
-        "2022-10-21": "- Does [[Vercel]] not rest or something? [Building ...",
-        "Satori": "... than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly",
+        "2022-09-30": "- [[Vercel]] Serving millions of users on the new MrBeast storefront - Vercel\n",
+        "2022-10-10": "  - I just love [[Vercel]]... they know stuff.\n",
+        "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
+        "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting ...",
         "Edge Networks": "- [[Vercel]] & Vercel Edge Functions\n",
-        "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded"
+        "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.\n"
     },
     "Inspecting Assembly": {
         "2022-09-26": "- [[Inspecting Assembly]]\n",
@@ -815,7 +815,7 @@ export const backlinks = {
     },
     "Metaverse": {
         "2022-05-31": "- Kakao announced [[Metaverse]] Remote Work Policy.\n",
-        "Prompt Engineering": "... come to my mind that [[Metaverse]] can actually be attained within ..."
+        "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can actually be attained within years with Prompt Engineering.\n"
     },
     "Code Quality for Game Programming": {
         "2022-09-12": "- [[Code Quality for Game Programming]]\n",
@@ -833,8 +833,8 @@ export const backlinks = {
         "Lesser Known Tricks": "- [[Ignoring $ for copy-pasting online resources to terminal]]\n"
     },
     "DOM": {
-        "2022-07-11": "... APIs which look exactly like [[DOM]] APIs.\n",
-        "Treehouse": "... first attempt to run a [[DOM]] within a [[Web Worker"
+        "2022-07-11": "This giant object has lots of APIs which look exactly like [[DOM]] APIs.\n",
+        "Treehouse": "... back to 2012-, Treehouse was the first attempt to run a [[DOM]] within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]].\n"
     },
     "AB57BB.png": {
         "2022-07-11": "![[AB57BB.png]]\n"
@@ -843,72 +843,72 @@ export const backlinks = {
         "2022-07-11": "![[CFB4E5.png]]\n"
     },
     "2022-07-06": {
-        "2022-07-11": "... a demo script created on [[2022-07-06]] yields logs as above.\n"
+        "2022-07-11": "Confirmed a demo script created on [[2022-07-06]] yields logs as above.\n"
     },
     "EFE641.png": {
         "2022-07-11": "![[EFE641.png]]\n"
     },
     "Scheduler": {
-        "2022-07-11": "Brane requires explicit [[Scheduler|schedulers]] and abstractions to overcome these ...",
+        "2022-07-11": "Brane requires explicit [[Scheduler|schedulers]] and abstractions to overcome these shortcomings.\n",
         "2022-07-19": "오늘은 반드시 WorkerDOM [[Scheduler]]를 잡아내자.\n",
-        "2022-07-12": "### [[Scheduler|Schedulers]] in [[WorkerDOM"
+        "2022-07-12": "### [[Scheduler|Schedulers]] in [[WorkerDOM]]\n"
     },
     "DOM Reflow": {
-        "2022-07-11": "... could only be found after [[DOM Reflow]].\n"
+        "2022-07-11": "... because it depends on values that could only be found after [[DOM Reflow]].\n"
     },
     "Cooperative Multitasking": {
         "2022-07-11": "We aim to build [[Cooperative Multitasking]].\n",
         "Preemptive Multitasking": "Antonym of [[Cooperative Multitasking]].\n"
     },
     "Preemptive Multitasking": {
-        "2022-07-11": "... guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks ...",
+        "2022-07-11": "However, a guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks a thread.\n",
         "Cooperative Multitasking": "Antonym of [[Preemptive Multitasking]].\n"
     },
     "Atomics (JavaScript)": {
-        "2022-07-11": "2. [[Atomics (JavaScript)]] API. Use `wait()` and `notify()` ...",
-        "2022-08-03": "This happens synchronously using [[Atomics (JavaScript)]] and [[SharedArrayBuffer",
-        "2022-06-27": "- Learn more about [[Atomics (JavaScript)]] and [[SharedArrayBuffer",
+        "2022-07-11": "2. [[Atomics (JavaScript)]] API. Use `wait()` and `notify()` for blocking constructs.\n",
+        "2022-08-03": "This happens synchronously using [[Atomics (JavaScript)]] and [[SharedArrayBuffer]].\n",
+        "2022-06-27": "- Learn more about [[Atomics (JavaScript)]] and [[SharedArrayBuffer]]\n",
         "Atomicity": "- [[Atomics (JavaScript)]]\n"
     },
     "MessagePack (File Format)": {
-        "2022-07-11": "Candidates include [[MessagePack (File Format)]] and [[CBOR (File Format)",
-        "CBOR (File Format)": "... Compact Data Exchange Format like [[MessagePack (File Format)]].\n"
+        "2022-07-11": "Candidates include [[MessagePack (File Format)]] and [[CBOR (File Format)]].\n",
+        "CBOR (File Format)": "- Compact Data Exchange Format like [[MessagePack (File Format)]].\n"
     },
     "CBOR (File Format)": {
-        "2022-07-11": "... include MessagePack (File Format) and [[CBOR (File Format)]].\n",
-        "MessagePack (File Format)": "... Compact Data Exchange Format like [[CBOR (File Format)]].\n"
+        "2022-07-11": "Candidates include MessagePack (File Format) and [[CBOR (File Format)]].\n",
+        "MessagePack (File Format)": "- Compact Data Exchange Format like [[CBOR (File Format)]].\n"
     },
     "Better Docusaurus": {
         "2022-07-11": "- [[Better Docusaurus]]\n",
-        "2022-07-18": "- [[Better Docusaurus]]: Render `Figcaption` with `img alt` ...",
+        "2022-07-18": "- [[Better Docusaurus]]: Render `Figcaption` with `img alt` tags. Commit\n",
         "2022-07-12": "- [[Better Docusaurus]]\n"
     },
     "Building a Second Brain": {
         "2022-07-01": "## [[Building a Second Brain]]\n",
-        "2022-06-14": "- _[[Building a Second Brain]]: A Proven Method to Organize ...",
+        "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
         "Readings": "- [x] [[Building a Second Brain]]\n",
-        "PARA": "... a second-brain framework, mentioned in [[Building a Second Brain]]\n",
-        "CODE Procedure": "... a second-brain-building procedure introduced in [[Building a Second Brain]].\n"
+        "PARA": "- PARA is a second-brain framework, mentioned in [[Building a Second Brain]]\n",
+        "CODE Procedure": "- The CODE Procedure is a second-brain-building procedure introduced in [[Building a Second Brain]].\n"
     },
     "PKM": {
-        "2022-07-01": "... _Second Brain_, _Digital Garden_, and [[PKM]] are used interchangeably, they are ...",
-        "2022-06-12": "- Current [[PKM]] software tries to make Wikipedia-like ...",
-        "PKM": "| [[PKM]]      ...",
-        "Tools for Thought": "- [Dendron](https://www.dendron.so/): Nonlinear [[PKM]] with directories.\n"
+        "2022-07-01": "... realized that the term Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.\n",
+        "2022-06-12": "- Current [[PKM]] software tries to make Wikipedia-like graphs, where there the \"term\" plays ...",
+        "PKM": "| [[PKM]]        | Architecture for Digital ...",
+        "Tools for Thought": "- Dendron: Nonlinear [[PKM]] with directories.\n"
     },
     "PARA": {
-        "2022-07-01": "| [[PARA]]      ...",
+        "2022-07-01": "| [[PARA]]       | Architecture for Second Brain. ...",
         "2022-06-26": "- [[PARA]]\n",
         "2022-07-03": "- Partially implemented [[PARA]] on this brain.\n",
-        "2022-07-06": "- [[PARA]]... might be worse than I ...",
-        "PKM": "| [[PARA]]      ...",
+        "2022-07-06": "- [[PARA]]... might be worse than I thought?\n",
+        "PKM": "| [[PARA]]       | Architecture for Second Brain. ...",
         "CODE Procedure": "- Often used with [[PARA]].\n"
     },
     "Evergreen notes": {
-        "2022-07-01": "... Focuses on creating and tending [[Evergreen notes]] posts that grow into a ...",
-        "2022-05-29": "- [[Evergreen notes]] vs [[Transient Notes",
-        "Andy Matuschak": "... by introducing the concept of \"[[Evergreen notes]]\". Instead of just having a ...",
-        "PKM": "... Focuses on creating and tending [[Evergreen notes]] posts that grow into a ...",
+        "2022-07-01": "... grow into a creative garage | Focuses on creating and tending [[Evergreen notes]] posts that grow into a knowledge base |\n",
+        "2022-05-29": "- [[Evergreen notes]] vs [[Transient Notes]]\n",
+        "Andy Matuschak": "... Matuschak advanced ideas in Ahrens' book by introducing the concept of \"[[Evergreen notes]]\". Instead of just having a blog post on the topic, Matuschak ...",
+        "PKM": "... grow into a creative garage | Focuses on creating and tending [[Evergreen notes]] posts that grow into a knowledge base |\n",
         "Transient Notes": "- Antonym: [[Evergreen notes]]\n"
     },
     "P vs NP": {
@@ -938,7 +938,7 @@ export const backlinks = {
     },
     "Personal Training Corpus": {
         "2022-10-12": "- [[Personal Training Corpus]]\n",
-        "Synthote": "... Relates to Prompt Engineering and [[Personal Training Corpus]]?\n",
+        "Synthote": "- Relates to Prompt Engineering and [[Personal Training Corpus]]?\n",
         "Matt Rickard": "- [[Personal Training Corpus]]\n",
         "Prompt Engineering": "- [[Personal Training Corpus]]\n"
     },
@@ -952,10 +952,10 @@ export const backlinks = {
         "Horizontally Stacked Interface": "  - [[Better Hacker News]]?\n"
     },
     "Jetbrains Fleet": {
-        "2022-10-12": "- [[Jetbrains Fleet]] is [[GA"
+        "2022-10-12": "- [[Jetbrains Fleet]] is [[GA]]: Introducing the Fleet Public Preview\n"
     },
     "GA": {
-        "2022-10-12": "- Jetbrains Fleet is [[GA]]: [Introducing the Fleet Public Preview](https://blog.jetbrains.com/fleet/2022/10/introducing-the-fleet-public-preview)\n"
+        "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview\n"
     },
     "iOS Style Toggle in CSS": {
         "2022-10-12": "  - [x] Archived [[iOS Style Toggle in CSS]]\n"
@@ -982,11 +982,11 @@ export const backlinks = {
     },
     "Google": {
         "2022-07-21": "### [[Google]], really? Come on.\n",
-        "2022-07-14": "... found: Uber didn't make Kubernetes. [[Google]] did.\n",
-        "2022-06-22": "[[Google]]'s [[WorkerDOM",
-        "Kubernetes": "... software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the ...",
-        "WorkerDOM": "[[Google]]'s take on providing DOM access ...",
-        "Stories Behind Satori": "They also added [[Google]] [[Font"
+        "2022-07-14": "... more. One wrong info that I found: Uber didn't make Kubernetes. [[Google]] did.\n",
+        "2022-06-22": "[[Google]]'s [[WorkerDOM]] has no event algorithm.\n",
+        "Kubernetes": "... open-source container orchestration system for automating software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the Cloud Native Computing Foundation now maintains ...",
+        "WorkerDOM": "[[Google]]'s take on providing DOM access to [[Web Worker]] Threads.\n",
+        "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ..."
     },
     "17CFA2.png": {
         "2022-07-21": "![[17CFA2.png]]\n"
@@ -1005,7 +1005,7 @@ export const backlinks = {
         "2022-09-20": "- [[Matt Rickard]]\n",
         "2022-09-25": "- [[Matt Rickard]]\n",
         "eBPF": "- [[Matt Rickard]]\n",
-        "Programmable Web": "... Miss The Programmable Web](https://matt-rickard.com/the-programmable-web) — [[Matt Rickard]]\n"
+        "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]\n"
     },
     "AIs.txt": {
         "2022-10-22": "- [[AIs.txt]]\n",
@@ -1018,8 +1018,8 @@ export const backlinks = {
     },
     "Kakao": {
         "2022-10-16": "### [[Kakao]]\n",
-        "Brunch": "... Korean Writing Service operated by [[Kakao]]\n",
-        "How to Build Software like an SRE": "...  - do you see [[Kakao]]?\n"
+        "Brunch": "- Korean Writing Service operated by [[Kakao]]\n",
+        "How to Build Software like an SRE": "  - do you see [[Kakao]]?\n"
     },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]\n",
@@ -1030,8 +1030,7 @@ export const backlinks = {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]\n"
     },
     "Kubernetes": {
-        "2022-07-14": "... I found: Uber didn't make [[Kubernetes]]. [[Google",
-        "Inspiring Open Source Projects": "... GraphQL. Deployed via Docker and [[Kubernetes]].](https://github.com/reactioncommerce/reaction/)\n",
+        "2022-07-14": "... and more. One wrong info that I found: Uber didn't make [[Kubernetes]]. [[Google]] did.\n",
         "How to Build Software like an SRE": "- use [[Kubernetes]]\n"
     },
     "Redirect": {
@@ -1060,22 +1059,22 @@ export const backlinks = {
     },
     "TypeScript": {
         "2022-07-20": "- JavaScript → [[TypeScript]]\n",
-        "2022-09-09": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own React-like ...",
+        "2022-09-09": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own React-like run-time. If you're familiar with React, ...",
         "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations\n",
-        "2022-07-06": "... install and run JavaScript & [[TypeScript]] projects — all in Bun. ...",
-        "Svelte": "... compiler itself is written in [[TypeScript]]. Its source code is licensed ...",
-        "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm"
+        "2022-07-06": "- Bundle, transpile, install and run JavaScript & [[TypeScript]] projects — all in Bun. Bun is a new JavaScript runtime ...",
+        "Svelte": "... runtime, i.e., in the browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ...",
+        "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules\n"
     },
     "Readings": {
         "2022-09-07": "- [[Readings]]\n"
     },
     "Tools for Thought": {
-        "2022-10-23": "- [[Tools for Thought]]: [usememos/memos: An open-source, self-hosted knowledge ...",
-        "2022-10-13": "... [Visible – Make information useful](https://visible.page/): [[Tools for Thought]]\n",
-        "2022-07-18": "... Using an iPad as a [[Tools for Thought]] feels good. Especially writing with ...",
-        "2022-07-07": "## Personal Notes on [[Tools for Thought]] [[Software as a Service",
-        "Extracranial": "... Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this ...",
-        "PKM": "Check [[Tools for Thought]] for PKM tools in the ...",
+        "2022-10-23": "- [[Tools for Thought]]: usememos/memos: An open-source, self-hosted knowledge base that works with an SQLite ...",
+        "2022-10-13": "- Visible – Make information useful: [[Tools for Thought]]\n",
+        "2022-07-18": "- Using an iPad as a [[Tools for Thought]] feels good. Especially writing with [[Apple]] Pencil.\n",
+        "2022-07-07": "## Personal Notes on [[Tools for Thought]] [[Software as a Service]]\n",
+        "Extracranial": "... function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use Docusaurus and Obsidian. ...",
+        "PKM": "Check [[Tools for Thought]] for PKM tools in the market.\n",
         "Handwriting Tools for Thoughts": "- A specific [[Tools for Thought]] with handwriting.\n"
     },
     "Everyprompt": {
@@ -1090,13 +1089,13 @@ export const backlinks = {
     "Andy Matuschak": {
         "2022-10-17": "Heavily inspired by [[Andy Matuschak]].\n",
         "2022-06-26": "- Would love to dissect [[Andy Matuschak]]'s work...\n",
-        "Andy Matuschak": "... behind the Atomic Notes|Zettelkasten technique. [[Andy Matuschak]] advanced ideas in Ahrens' book ...",
+        "Andy Matuschak": "... he describes the history and ideas behind the Atomic Notes|Zettelkasten technique. [[Andy Matuschak]] advanced ideas in Ahrens' book by introducing the concept of \"[[Evergreen ...",
         "Extracranial": "### [[Andy Matuschak]]\n",
         "Evergreen notes": "## [[Andy Matuschak]]\n",
-        "Sliding Panes": "... it was first introduced by [[Andy Matuschak]], at least his version made ..."
+        "Sliding Panes": "- It seems like it was first introduced by [[Andy Matuschak]], at least his version made it the trend.\n"
     },
     "wikilink": {
-        "2022-10-17": "... is necessary because I use `[[wikilink]]` for interlinking, which Docusaurus does ..."
+        "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which Docusaurus does not support. I have another python ..."
     },
     "Cantankerous": {
         "2022-10-17": "- [[Cantankerous]]\n"
@@ -1106,7 +1105,7 @@ export const backlinks = {
     },
     "Now Page": {
         "2022-10-17": "- [[Now Page]]\n",
-        "Stephan Ango": "- [[Now Page]]: [What I'm doing now — ..."
+        "Stephan Ango": "- [[Now Page]]: What I'm doing now — Stephan Ango\n"
     },
     "GeoCheatCode": {
         "2022-10-17": "- [[GeoCheatCode]]\n"
@@ -1114,8 +1113,8 @@ export const backlinks = {
     "Memex": {
         "2022-10-17": "- [[Memex]]\n",
         "Memex is more than a Memex": "- [[Memex]] is more than a Memex\n",
-        "Preservation of Data": "- An important concept for [[Memex]] and [[Extracranial",
-        "Vannevar Bush": "... 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 ..."
+        "Preservation of Data": "- An important concept for [[Memex]] and [[Extracranial]]\n",
+        "Vannevar Bush": "... 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 ..."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]\n"
@@ -1128,37 +1127,37 @@ export const backlinks = {
     },
     "Screenshot as an API": {
         "2022-10-03": "- Moved to [[Screenshot as an API]]\n",
-        "2022-10-10": "... open-source tools](https://www.bitsgalore.org/2021/09/06/pdf-processing-and-analysis-with-open-source-tools). This looks terrifying. [[Screenshot as an API]] all the way!\n",
+        "2022-10-10": "- PDF processing and analysis with open-source tools. This looks terrifying. [[Screenshot as an API]] all the way!\n",
         "Matt Rickard": "- [[Screenshot as an API]]\n"
     },
     "Realm Shim": {
         "2022-05-30": "- What is [[Realm Shim]]?\n"
     },
     "Assembly": {
-        "2022-09-27": "- Studying [[Assembly]] is actually intriguing. Now I ...",
+        "2022-09-27": "- Studying [[Assembly]] is actually intriguing. Now I finally understand how Turing machines can ...",
         "2022-10-20": "## Inspecting [[Assembly]]\n",
-        "How is WebAssembly cross-platform when Assembly is not": "[[Assembly]] is a straightforward way of ...",
+        "How is WebAssembly cross-platform when Assembly is not": "[[Assembly]] is a straightforward way of describing machines to execute instructions.\n",
         "Inspecting Assembly": "- [[Assembly]]\n"
     },
     "Notion": {
-        "2022-07-10": "- [[Notion]] opened a new paradigm for ...",
-        "2022-07-07": "I think even [[Notion]] is too complicated for personal ...",
-        "Tools for Thought": "- [Typed](https://typed.do/features): Some all-in-one [[Notion]] + Google Docs + Gmail ..."
+        "2022-07-10": "- [[Notion]] opened a new paradigm for low-code websites. [[Project PEOPLE]] now create ...",
+        "2022-07-07": "I think even [[Notion]] is too complicated for personal task managing.\n",
+        "Tools for Thought": "- Typed: Some all-in-one [[Notion]] + Google Docs + Gmail + Task manager app.\n"
     },
     "Open Graph Image as a Service": {
-        "2022-07-10": "... and invest those time in [[Open Graph Image as a Service]].\n",
+        "2022-07-10": "... longer make any improvements in `og-image.cho.sh`, and invest those time in [[Open Graph Image as a Service]].\n",
         "2022-07-18": "- Fiercely Overpriced for [[Open Graph Image as a Service]] could be public-key-encrypting query strings.\n",
         "2022-10-10": "- [[Open Graph Image as a Service]]\n",
-        "Satori": "... Graph Image as a Service](https://github.com/anaclumos/cho-sh-og-image). [[Open Graph Image as a Service]]\n"
+        "Satori": "... this for a while. anaclumos/cho-sh-og-image: Open Graph Image as a Service. [[Open Graph Image as a Service]]\n"
     },
     "Prompt Engineering": {
         "2022-09-03": "- [[Prompt Engineering]]\n",
-        "2022-09-30": "- [Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/) [[Prompt Engineering]]\n",
+        "2022-09-30": "- Human Motion Diffusion Model [[Prompt Engineering]]\n",
         "Synthography": "- Needs [[Prompt Engineering]]\n",
-        "Synthote": "- Relates to [[Prompt Engineering]] and [[Personal Training Corpus",
+        "Synthote": "- Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?\n",
         "Obsidian Ava": "- [[Prompt Engineering]]\n",
-        "Screenshot as an API": "... Stable Diffusion and DALL-E (text-to-image) [[Prompt Engineering]]\n",
-        "Metaverse": "... be attained within years with [[Prompt Engineering]].\n"
+        "Screenshot as an API": "...  - (encoder) diffusion-based models like Stable Diffusion and DALL-E (text-to-image) [[Prompt Engineering]]\n",
+        "Metaverse": "... to my mind that Metaverse can be attained within years with [[Prompt Engineering]].\n"
     },
     "Monolithic Model": {
         "2022-09-03": "- [[Monolithic Model]]\n",
@@ -1189,21 +1188,21 @@ export const backlinks = {
         "2022-06-14": "- [[Extracranial]]\n",
         "2022-05-28": "- [[Extracranial]]\n",
         "2022-06-26": "- [[Extracranial]].\n",
-        "2022-09-30": "- [Chris Welch](https://chriswelch.co/) [[Extracranial]]\n",
+        "2022-09-30": "- Chris Welch [[Extracranial]]\n",
         "2022-05-27": "- [[Extracranial]]\n",
         "2022-09-25": "- [[Extracranial]]\n",
         "2022-07-02": "### [[Extracranial]]\n",
-        "Preservation of Data": "... important concept for Memex and [[Extracranial]]\n",
-        "Vannevar Bush": "... Early creator of Memex and [[Extracranial]].\n",
+        "Preservation of Data": "- An important concept for Memex and [[Extracranial]]\n",
+        "Vannevar Bush": "- Early creator of Memex and [[Extracranial]].\n",
         "Memex": "- Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.\n"
     },
     "Cross-Platform AirDrops": {
-        "2022-10-13": "- [Taildrop · Tailscale](https://tailscale.com/kb/1106/taildrop/): [[Cross-Platform AirDrops]] [[Tailscale",
-        "Tailscale": "- [Taildrop · Tailscale](https://tailscale.com/kb/1106/taildrop/): [[Cross-Platform AirDrops]]\n"
+        "2022-10-13": "- Taildrop · Tailscale: [[Cross-Platform AirDrops]] [[Tailscale]]\n",
+        "Tailscale": "- Taildrop · Tailscale: [[Cross-Platform AirDrops]]\n"
     },
     "Tailscale": {
-        "2022-10-13": "... [Taildrop · Tailscale](https://tailscale.com/kb/1106/taildrop/): Cross-Platform AirDrops [[Tailscale]]\n",
-        "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, \"Best ...",
+        "2022-10-13": "- Taildrop · Tailscale: Cross-Platform AirDrops [[Tailscale]]\n",
+        "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, \"Best VPN for developers.\"\n",
         "2022-10-20": "- [[Tailscale]]\n"
     },
     "Jumpsite": {
@@ -1234,7 +1233,7 @@ export const backlinks = {
         "Front-end Framework": "- [[HTMX]]\n"
     },
     "Screenplay": {
-        "2022-10-18": "- [Screenplays](https://screenplays.io/) [[Screenplay]]\n"
+        "2022-10-18": "- Screenplays [[Screenplay]]\n"
     },
     "How to Build Software like an SRE": {
         "2022-10-18": "- [[How to Build Software like an SRE]]\n"
@@ -1253,11 +1252,11 @@ export const backlinks = {
         "2022-10-18": "- [[FinTech and Justice]]\n"
     },
     "ACSM (File Format)": {
-        "2022-06-05": "- _Convert [[ACSM (File Format)]] files to [[PDF (File Format)"
+        "2022-06-05": "- Convert [[ACSM (File Format)]] files to [[PDF (File Format)]]/EPUBs with one command on Linux \\(and ..."
     },
     "PDF (File Format)": {
-        "2022-06-05": "... ACSM (File Format) files to [[PDF (File Format)]]/EPUBs with one command on Linux ...",
-        "Screenshot as an API": "... - No need to understand [[PDF (File Format)]] data format\n"
+        "2022-06-05": "- Convert ACSM (File Format) files to [[PDF (File Format)]]/EPUBs with one command on Linux \\(and macOS very soon\\). This software ...",
+        "Screenshot as an API": "    - No need to understand [[PDF (File Format)]] data format\n"
     },
     "UUIDs are Awesome": {
         "2022-09-28": "- [[UUIDs are Awesome]]\n"
@@ -1265,14 +1264,6 @@ export const backlinks = {
     "일본 과학기술 총력전": {
         "2022-08-02": "- [[일본 과학기술 총력전]]\n",
         "Readings": "- [x] [[일본 과학기술 총력전]]\n"
-    },
-    "Software as a Service": {
-        "2022-09-29": "... https://t.co/BGR54GVVRK It's an open-source link-shortener [[Software as a Service]] with built-in analytics + free ...",
-        "2022-07-07": "... Notes on Tools for Thought [[Software as a Service]]\n",
-        "Software as a Service": "... we could attain FIRE through [[Software as a Service]].\n",
-        "Fiercely Overpriced": "... we have previously explored that [[Software as a Service]] would be one way to ...",
-        "FIRE Engine": "- [[Software as a Service]] that drives revenue streams for ...",
-        "Social Coding": "- [[Software as a Service]] businesses with network effects are ..."
     },
     "NextJS": {
         "2022-09-29": "  - [[NextJS]] framework\n",
@@ -1314,23 +1305,23 @@ export const backlinks = {
         "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.\n",
         "2022-10-14": "- [[WebAssembly]]\n",
         "2022-10-25": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on Web Workers?\n",
-        "2022-10-15": "- [[WebAssembly]]: [paradust7/minetest-wasm: Experimental Minetest build for ...",
-        "Satori": "... by using Vercel Edge Functions, [[WebAssembly]], and a brand new core ...",
-        "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of ...",
+        "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten\n",
+        "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.\n",
+        "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules\n",
-        "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting ..."
+        "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].\n"
     },
     "Playing Sounds in SDL": {
         "2022-10-19": "- [[Playing Sounds in SDL]]\n"
     },
     "Synthography": {
         "2022-10-19": "- [[Synthography]]\n",
-        "Synthote": "... Just like what we call [[Synthography]] for synthetic imagery\n",
-        "Obsidian Ava": "- Early Stage [[Synthography]] tool for [[Obsidian"
+        "Synthote": "- Just like what we call [[Synthography]] for synthetic imagery\n",
+        "Obsidian Ava": "- Early Stage [[Synthography]] tool for [[Obsidian]]\n"
     },
     "Obsidian Ava": {
         "2022-10-19": "- [[Obsidian Ava]]\n",
-        "Synthote": "... to see community efforts like [[Obsidian Ava]] driving in this direction.\n"
+        "Synthote": "- I'm excited to see community efforts like [[Obsidian Ava]] driving in this direction.\n"
     },
     "Emails and Decentralized Protocols": {
         "2022-10-19": "- [[Emails and Decentralized Protocols]]\n",
@@ -1343,7 +1334,7 @@ export const backlinks = {
     },
     "Reimagining Emails": {
         "2022-10-19": "- [[Reimagining Emails]]\n",
-        "Emails and Decentralized Protocols": "... Obenauer: My career began with [[Reimagining Emails]] and finding ways to build ...",
+        "Emails and Decentralized Protocols": "- Alexander Obenauer: My career began with [[Reimagining Emails]] and finding ways to build that vision on top of the ...",
         "Alexander Obenauer": "- Interested in [[Reimagining Emails]]\n"
     },
     "Letter to Mr. Stephan Ango on 2022-10-19": {
@@ -1388,8 +1379,8 @@ export const backlinks = {
         "2022-07-13": "- [[Digital Addictions of Software Enthusiasts]]\n"
     },
     "2022-07-11": {
-        "2022-07-19": "[[2022-07-11]]에 확인한 2가지 [[Scheduler|스케줄러",
-        "2022-07-12": "On [[2022-07-11]], I analyzed that [[Brane"
+        "2022-07-19": "[[2022-07-11]]에 확인한 2가지 [[Scheduler|스케줄러]]를 확인한다.\n",
+        "2022-07-12": "On [[2022-07-11]], I analyzed that [[Brane]] is harder than it seems.\n"
     },
     "Autosave Everything": {
         "2022-07-19": "- [[Autosave Everything]]\n"
@@ -1406,7 +1397,7 @@ export const backlinks = {
     },
     "Tools I will use one day": {
         "2022-08-04": "- [[Tools I will use one day]]\n",
-        "2022-10-10": "- [[Tools I will use one day]]. Found [tremor](https://www.tremor.so/).\n"
+        "2022-10-10": "- [[Tools I will use one day]]. Found tremor.\n"
     },
     "Transient Notes": {
         "2022-05-29": "- Evergreen notes vs [[Transient Notes]]\n",
@@ -1425,14 +1416,14 @@ export const backlinks = {
         "2022-07-18": "- [[UBI for Scholars]]\n"
     },
     "Blitzscaling": {
-        "2022-06-06": "- [[Blitzscaling]] will not work, starting now. ..."
+        "2022-06-06": "- [[Blitzscaling]] will not work, starting now. User Growth ≠ Valuation.\n"
     },
     "356 Official SSH Server": {
         "2022-08-25": "- [[356 Official SSH Server]]\n"
     },
     "ShadowRealm": {
-        "2022-06-26": "- Let's not explore [[ShadowRealm]] and `iframe` [[Sandbox",
-        "Realm Shim": "... of the [Realm API Proposal](https://github.com/tc39/proposal-realms/#ecmascript-spec-proposal-for-realms-api) ([[ShadowRealm]])\n"
+        "2022-06-26": "- Let's not explore [[ShadowRealm]] and `iframe` [[Sandbox]] for now.\n",
+        "Realm Shim": "> Shim implementation of the Realm API Proposal ([[ShadowRealm]])\n"
     },
     "Programmable Web": {
         "2022-08-01": "- [[Programmable Web]]\n",
@@ -1442,12 +1433,12 @@ export const backlinks = {
         "2022-08-01": "![[D4C125.gif]]\n"
     },
     "San Francisco": {
-        "2022-08-01": "... the neatness and readability of [[San Francisco|SF Pro]] and the uniqueness of IBM ...",
-        "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 ...",
-        "Pretendard": "... should've put it as Cross-platform _[[San Francisco]]_ alternative\n",
-        "Font Feature": "- [[San Francisco]], [[Inter",
-        "Inter": "- bizarrely similar to [[San Francisco]], but it now has it's ...",
-        "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter",
+        "2022-08-01": "... it a lot — it combines the neatness and readability of [[San Francisco|SF Pro]] and the uniqueness of IBM Plex Sans.\n",
+        "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다.\n",
+        "Pretendard": "  - He should've put it as Cross-platform [[San Francisco]] alternative\n",
+        "Font Feature": "- [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.\n",
+        "Inter": "- bizarrely similar to [[San Francisco]], but it now has it's own style\n",
+        "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter]].\n",
         "Toss Product Sans": "- Looks bizarrely similar to [[San Francisco]]\n"
     },
     "서울 프로": {
@@ -1458,7 +1449,7 @@ export const backlinks = {
     },
     "Markdown Email Client": {
         "2022-10-04": "- [[Markdown Email Client]]\n",
-        "2022-10-25": "- [ ] Review [MailPilot](https://www.mailpilot.app/) [[Markdown Email Client]]\n",
+        "2022-10-25": "- [ ] Review MailPilot [[Markdown Email Client]]\n",
         "Reimagining Emails": "- [[Markdown Email Client]]\n"
     },
     "Search Engine Indexing Your Life": {
@@ -1477,6 +1468,13 @@ export const backlinks = {
     },
     "Lingua Franca": {
         "2022-09-30": "- [[Lingua Franca]]\n"
+    },
+    "Software as a Service": {
+        "2022-07-07": "## Personal Notes on Tools for Thought [[Software as a Service]]\n",
+        "Software as a Service": "We expect we could attain FIRE through [[Software as a Service]].\n",
+        "Fiercely Overpriced": "To attain FIRE, we have previously explored that [[Software as a Service]] would be one way to go.\n",
+        "FIRE Engine": "- [[Software as a Service]] that drives revenue streams for [[FIRE]]\n",
+        "Social Coding": "- [[Software as a Service]] businesses with network effects are rare, but when they work, they ..."
     },
     "Memex is more than a Memex": {
         "2022-10-20": "- [[Memex is more than a Memex]]\n"
@@ -1503,15 +1501,15 @@ export const backlinks = {
         "2022-10-14": "- [[BIMI]]\n"
     },
     "Linear": {
-        "2022-10-14": "  - [[Linear]] has been popping up on ..."
+        "2022-10-14": "  - [[Linear]] has been popping up on my Twitter threads.\n"
     },
     "Linear README": {
         "2022-10-14": "  - Especially [[Linear README]]\n"
     },
     "Toss Product Sans": {
         "2022-10-14": "- [[Toss Product Sans]]\n",
-        "Pretendard": "- Just like [[Toss Product Sans]] it is bizarrely similar to ...",
-        "Toss": "- Creators of [[Toss Product Sans]] and [[Tossface"
+        "Pretendard": "- Just like [[Toss Product Sans]] it is bizarrely similar to [[San Francisco]]\n",
+        "Toss": "- Creators of [[Toss Product Sans]] and [[Tossface]]\n"
     },
     "6DBC71.png": {
         "2022-07-03": "![[6DBC71.png]]\n"
@@ -1527,18 +1525,18 @@ export const backlinks = {
         "2022-10-10": "- [[ActivityPub]]\n"
     },
     "Firefox": {
-        "2022-10-10": "... - the Web developer blog](https://hacks.mozilla.org/2022/10/improving-firefox-responsiveness-on-macos/) [[Firefox]]\n"
+        "2022-10-10": "... responsiveness on macOS - Mozilla Hacks - the Web developer blog [[Firefox]]\n"
     },
     "Frames Per Second": {
-        "2022-10-10": "... AC's & DIT's - Cinematography.com](https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454). [[Frames Per Second]].\n",
-        "Graphics Engine Process": "... to 16ms, which yields 60 [[Frames Per Second]].\n"
+        "2022-10-10": "... 23.976 and not 24 fps?? - AC's & DIT's - Cinematography.com. [[Frames Per Second]].\n",
+        "Graphics Engine Process": "...   - Limit Updating Frequency to 16ms, which yields 60 [[Frames Per Second]].\n"
     },
     "Edge Networks": {
         "2022-10-24": "- [[Edge Networks]]\n"
     },
     "Simple Analytics": {
         "2022-10-24": "- [[Simple Analytics]]\n",
-        "Google Analytics": "- Alternative: [[Simple Analytics]], [[Plausible Analytics",
+        "Google Analytics": "- Alternative: [[Simple Analytics]], [[Plausible Analytics]]\n",
         "Curve Fitting for Charts": "## On 2022-10-21, with [[Simple Analytics]]\n"
     },
     "To Kill a Night Owl": {
@@ -1566,7 +1564,7 @@ export const backlinks = {
         "2022-10-11": "- [[Letter to the Heptabase Team on 2022-10-11]]\n"
     },
     "Research": {
-        "2022-10-11": "... start separating them into individual [[Research]] pages.\n"
+        "2022-10-11": "... on a Journal Page, I should start separating them into individual [[Research]] pages.\n"
     },
     "I travel the World Wide Web": {
         "2022-10-25": "- [[I travel the World Wide Web]]\n"
@@ -1615,7 +1613,7 @@ export const backlinks = {
         "2022-10-15": "- [[Guestbook]]\n"
     },
     "3d Globe on the Web": {
-        "2022-10-15": "- [[3d Globe on the Web]]: [Low Earth Orbit Visualization | ..."
+        "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization | LeoLabs\n"
     },
     "경제 개발의 길목에서": {
         "Readings": "- [x] [[경제 개발의 길목에서]]\n"
@@ -1634,16 +1632,16 @@ export const backlinks = {
     },
     "Swift": {
         "SwiftUI": "- Declarative Framework made with [[Swift]]\n",
-        "Apple": "- Creator of [[Swift]], [[SwiftUI"
+        "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon (CPU)]]\n"
     },
     "Alexander Obenauer": {
-        "Emails and Decentralized Protocols": "- [[Alexander Obenauer]]: My career began with [[Reimagining ...",
-        "Newsletter Network": "- [[Alexander Obenauer]] [[SendGrid",
+        "Emails and Decentralized Protocols": "- [[Alexander Obenauer]]: My career began with [[Reimagining Emails]] and finding ways to build ...",
+        "Newsletter Network": "- [[Alexander Obenauer]] [[SendGrid]]\n",
         "Reimagining Emails": "## [[Alexander Obenauer]]\n"
     },
     "Super App": {
-        "Super App and Democracy": "... technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will ...",
-        "Toss": "... say _the most innovative_ Financial [[Super App]] I've ever seen in Korea ..."
+        "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
+        "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S.\n"
     },
     "3555AC.png": {
         "Redirecting READMEs": "![[3555AC.png]]\n"
@@ -1652,10 +1650,10 @@ export const backlinks = {
         "Redirecting READMEs": "![[E64653.png]]\n"
     },
     "Tailwind": {
-        "Satori": "- [[Tailwind]] [[CSS"
+        "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop\n"
     },
     "Turing Machine": {
-        "How is WebAssembly cross-platform when Assembly is not": "It follows how [[Turing Machine]]s would work in the real ..."
+        "How is WebAssembly cross-platform when Assembly is not": "It follows how [[Turing Machine]]s would work in the real world.\n"
     },
     "8692F9.png": {
         "How is WebAssembly cross-platform when Assembly is not": "![[8692F9.png]]\n"
@@ -1684,15 +1682,15 @@ export const backlinks = {
         "Height": "- Used at [[Karrot]]\n"
     },
     "FIRE": {
-        "Software as a Service": "We expect we could attain [[FIRE]] through [[Software as a Service",
-        "Fiercely Overpriced": "To attain [[FIRE]], we have previously explored that ...",
-        "FIRE Engine": "... that drives revenue streams for [[FIRE]]\n"
+        "Software as a Service": "We expect we could attain [[FIRE]] through [[Software as a Service]].\n",
+        "Fiercely Overpriced": "To attain [[FIRE]], we have previously explored that [[Software as a Service]] would be ...",
+        "FIRE Engine": "- Software as a Service that drives revenue streams for [[FIRE]]\n"
     },
     "Venture Capital": {
         "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]\n"
     },
     "Sliding Panes": {
-        "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note",
+        "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].\n",
         "Horizontally Stacked Interface": "- [[Sliding Panes]]: Have multiple-scrollable columns.\n"
     },
     "Plausible Analytics": {
@@ -1738,25 +1736,25 @@ export const backlinks = {
         "Extracranial": "![[DA4882.png]]\n"
     },
     "extracranial": {
-        "Stephan Ango": "- [[extracranial]] @ [Stephan Ango](https://stephanango.com/)\n"
+        "Stephan Ango": "- [[extracranial]] @ Stephan Ango\n"
     },
     "explainpaper.com": {
         "Synthote": "- [[explainpaper.com]]\n"
     },
     "Pretendard": {
-        "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple",
-        "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 ...",
+        "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다.\n",
+        "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.\n",
         "Font Feature": "- San Francisco, Inter, and [[Pretendard]] has awesome support.\n"
     },
     "Pretendard의 아쉬운 점": {
         "서울 프로": "- [[Pretendard의 아쉬운 점]]\n"
     },
     "SVG (File Format)": {
-        "CSS": "... (including XML dialects such as [[SVG (File Format)]], MathML, or XHTML). CSS is ...",
-        "Stories Behind Satori": "- [[SVG (File Format)]]-based solutions were the perfect balance ..."
+        "CSS": "... language such as HTML or XML (including XML dialects such as [[SVG (File Format)]], MathML, or XHTML). CSS is a cornerstone technology of the World ...",
+        "Stories Behind Satori": "- [[SVG (File Format)]]-based solutions were the perfect balance of the two, being fast and ..."
     },
     "git": {
-        "Techs Actually Simple": "- _Some `[[git]]` commands are still just shell ..."
+        "Techs Actually Simple": "- Some `[[git]]` commands are still just shell scripts under the hood\n"
     },
     "BA8C9D.png": {
         "벌금과 물가": "- ![[BA8C9D.png]]\n"
@@ -1775,7 +1773,7 @@ export const backlinks = {
     },
     "HTTP": {
         "Internetworking": "- [[HTTP]]\n",
-        "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does ..."
+        "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does that change the request-response rate?\n"
     },
     "Makefile": {
         "Internetworking": "- [[Makefile]]\n"
@@ -1794,14 +1792,14 @@ export const backlinks = {
     },
     "Port": {
         "Internetworking": "- [[Port]]\n",
-        "Socket": "... to be _bound_ to a [[Port]]\n"
+        "Socket": "- needs to be bound to a [[Port]]\n"
     },
     "Handling files in Unix": {
         "Internetworking": "- [[Handling files in Unix]]\n"
     },
     "File Descriptor": {
         "Internetworking": "- [[File Descriptor]]\n",
-        "Handling files in Unix": "... `read()`, `write()`, and `close()` takes [[File Descriptor]] as an argument\n"
+        "Handling files in Unix": "- `read()`, `write()`, and `close()` takes [[File Descriptor]] as an argument\n"
     },
     "TCP vs UDP": {
         "Internetworking": "- [[TCP vs UDP]]\n",
@@ -1818,7 +1816,7 @@ export const backlinks = {
     },
     "Packet Loss": {
         "Internetworking": "- [[Packet Loss]]\n",
-        "Packet Switching vs Circuit Switching": "- Packet Switching can have [[Packet Loss]] (Some clients can leave if ..."
+        "Packet Switching vs Circuit Switching": "- Packet Switching can have [[Packet Loss]] (Some clients can leave if the restaurant is full)\n"
     },
     "Probability Of Queueing (Internetworking)": {
         "Internetworking": "- [[Probability Of Queueing (Internetworking)]]\n"
@@ -1926,44 +1924,44 @@ export const backlinks = {
         "Adding a Verified Mark on Apple Mail & Gmail": "![[DEC72A.png]]\n"
     },
     "font": {
-        "Web Typography": "... When HTML was first created, [[font]] faces and styles were controlled ...",
+        "Web Typography": "... fonts on the World Wide Web. When HTML was first created, [[font]] faces and styles were controlled exclusively by the settings of each ...",
         "Akzidenz": "- A type of Grotesque [[font]].\n"
     },
     "OCR": {
-        "Screenshot as an API": "...    - text ([[OCR]])\n"
+        "Screenshot as an API": "    - text ([[OCR]])\n"
     },
     "Naver": {
-        "Screenshot as an API": "...  - Related to when [[Naver]] Vibe attempted to steal other ..."
+        "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ..."
     },
     "IRS": {
-        "Screenshot as an API": "... was tax returns - the [[IRS]] adopted PDF (File Format) in ..."
+        "Screenshot as an API": "... \"killer app\" for PDF (File Format) was tax returns - the [[IRS]] adopted PDF (File Format) in 1996 because of a rumored frustration ..."
     },
     "EPUB (File Format)": {
-        "Screenshot as an API": "... Slow page loads. Better alternatives: [[EPUB (File Format)]], [[MOBI (File Format)"
+        "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB (File Format)]], [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File ..."
     },
     "MOBI (File Format)": {
-        "Screenshot as an API": "... Better alternatives: EPUB (File Format), [[MOBI (File Format)]] for texts. For generic use ..."
+        "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB (File Format), [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File Format)]].\n"
     },
     "DjVu (File Format)": {
-        "Screenshot as an API": "... texts. For generic use cases, [[DjVu (File Format)]].\n"
+        "Screenshot as an API": "... (File Format), MOBI (File Format) for texts. For generic use cases, [[DjVu (File Format)]].\n"
     },
     "GDPR": {
-        "Simple Analytics": "- [[GDPR]], [[PECR",
-        "Plausible Analytics": "... cookies and fully compliant with [[GDPR]], [[CCPA"
+        "Simple Analytics": "- [[GDPR]], [[PECR]], [[CCPA]] Compliant\n",
+        "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by ..."
     },
     "PECR": {
-        "Simple Analytics": "- GDPR, [[PECR]], [[CCPA",
-        "Plausible Analytics": "... compliant with GDPR, CCPA, and [[PECR]]. Made and hosted in the ..."
+        "Simple Analytics": "- GDPR, [[PECR]], [[CCPA]] Compliant\n",
+        "Plausible Analytics": "... web analytics. No cookies and fully compliant with GDPR, CCPA, and [[PECR]]. Made and hosted in the EU, powered by European-owned cloud infrastructure ..."
     },
     "CCPA": {
         "Simple Analytics": "- GDPR, PECR, [[CCPA]] Compliant\n",
-        "Plausible Analytics": "... and fully compliant with GDPR, [[CCPA]], and [[PECR"
+        "Plausible Analytics": "... and open-source web analytics. No cookies and fully compliant with GDPR, [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by European-owned ..."
     },
     "2022-07-01": {
-        "PKM": "- On [[2022-07-01]], I noted that PKM is ..."
+        "PKM": "- On [[2022-07-01]], I noted that PKM is for building a personal knowledge base. ..."
     },
     "Social Network Service": {
-        "Jumpsite": "... a collective term for a [[Social Network Service]] mainly consisting of links to ..."
+        "Jumpsite": "... or Web Linking Network Service, is a collective term for a [[Social Network Service]] mainly consisting of links to outside content.\n"
     },
     "AF8C23.png": {
         "Jumpsite": "![[AF8C23.png]]\n",
@@ -1997,14 +1995,14 @@ export const backlinks = {
         "Pretendard의 아쉬운 점": "![[BD6DAB.png]]\n"
     },
     "CJK": {
-        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans [[CJK]] KR Black은 Inter Extra Bold와 ...",
-        "Stories Behind Satori": "... a specific subset of the [[CJK]] library and rendering things on ..."
+        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans [[CJK]] KR Black은 Inter Extra Bold와 무게가 비슷하다.\n",
+        "Stories Behind Satori": "... added Google Font's `?text=` API, containing a specific subset of the [[CJK]] library and rendering things on the fly.\n"
     },
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]\n"
     },
     "Tossface": {
-        "Toss": "... of Toss Product Sans and [[Tossface]]\n"
+        "Toss": "- Creators of Toss Product Sans and [[Tossface]]\n"
     },
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]\n"
@@ -2013,8 +2011,8 @@ export const backlinks = {
         "Font Feature": "![[4FA1C6.png]]\n"
     },
     "Inter": {
-        "Font Feature": "- San Francisco, [[Inter]], and [[Pretendard",
-        "Akzidenz": "... to San Francisco|SF Pro and [[Inter]].\n"
+        "Font Feature": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.\n",
+        "Akzidenz": "- Akin to San Francisco|SF Pro and [[Inter]].\n"
     },
     "22EB14.png": {
         "Font Feature": "![[22EB14.png]]\n"
@@ -2023,10 +2021,10 @@ export const backlinks = {
         "Akzidenz": "![[BC7E6A.png]]\n"
     },
     "Grotesque": {
-        "Akzidenz": "- A type of [[Grotesque]] [[font"
+        "Akzidenz": "- A type of [[Grotesque]] [[font]].\n"
     },
     "Jetbrains": {
-        "Jetbrains Fleet": "... collaboration and remote workflows by [[Jetbrains]]. [JetBrains](https://en.wikipedia.org/wiki/JetBrains)\n"
+        "Jetbrains Fleet": "... weight multi-purpose IDE, with support for collaboration and remote workflows by [[Jetbrains]]. JetBrains\n"
     },
     "Visual Studio Code": {
         "Jetbrains Fleet": "- a potential alternative to [[Visual Studio Code]]\n"
@@ -2038,23 +2036,23 @@ export const backlinks = {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]].\n"
     },
     "Game Programming": {
-        "Back Buffer": "Used in [[Game Programming]], you write data on the ..."
+        "Back Buffer": "Used in [[Game Programming]], you write data on the back buffer.\n"
     },
     "Brunch": {
-        "Brunch violates SF terms of use": "- Korean writing service [[Brunch]] violates [[Apple"
+        "Brunch violates SF terms of use": "- Korean writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using SF Pro as a ..."
     },
     "Web Typography": {
-        "Brunch violates SF terms of use": "... using SF Pro as a [[Web Typography|Webfont]].\n",
-        "San Francisco": "... a strict usage model. No [[Web Typography|Webfont]] use\n"
+        "Brunch violates SF terms of use": "... violates Apple's Terms of Use by using SF Pro as a [[Web Typography|Webfont]].\n",
+        "San Francisco": "- Has a strict usage model. No [[Web Typography|Webfont]] use\n"
     },
     "Brunch violates SF terms of use": {
         "San Francisco": "- Although [[Brunch violates SF terms of use]]\n"
     },
     "USDZ": {
-        "3D File Format": "- [[USDZ]] for [[Apple"
+        "3D File Format": "- [[USDZ]] for [[Apple]]\n"
     },
     "glTF": {
-        "3D File Format": "- [[glTF]] for [[Android"
+        "3D File Format": "- [[glTF]] for [[Android]]\n"
     },
     "Things": {
         "3D File Format": "- [[Things]]\n"
@@ -2064,7 +2062,7 @@ export const backlinks = {
     },
     "Delta Time": {
         "Game Programming": "- [[Delta Time]]\n",
-        "Graphics Engine Process": "...    - Calculate [[Delta Time]]\n"
+        "Graphics Engine Process": "    - Calculate [[Delta Time]]\n"
     },
     "Graphics Engine Process": {
         "Game Programming": "- [[Graphics Engine Process]]\n"
@@ -2104,7 +2102,7 @@ export const backlinks = {
         "Interactive Articles": "![[E69025.png]]\n"
     },
     "2022-07-24": {
-        "FIRE Engine": "... Products Make? | Scraping Fish](https://scrapingfish.com/blog/indie-hackers-revenue) ([[2022-07-24]])\n"
+        "FIRE Engine": "... How Much Money Do Indie Hackers Products Make? | Scraping Fish ([[2022-07-24]])\n"
     },
     "Graphic Window": {
         "Graphics Engine Process": "  - Create a [[Graphic Window]]\n"
@@ -2113,7 +2111,7 @@ export const backlinks = {
         "Graphics Engine Process": "  - Create a [[Graphic Renderer]]\n"
     },
     "Back Buffer": {
-        "Graphics Engine Process": "    - [[Back Buffer]] is filled in Update Game ..."
+        "Graphics Engine Process": "    - [[Back Buffer]] is filled in Update Game State.\n"
     },
     "webserver": {
         "Port": "- [[webserver]] → 80\n"
@@ -2131,7 +2129,7 @@ export const backlinks = {
         "Things": "![[D765C4.png]]\n"
     },
     "Shim": {
-        "Realm Shim": "> [[Shim]] implementation of the [Realm API ..."
+        "Realm Shim": "> [[Shim]] implementation of the Realm API Proposal ([[ShadowRealm]])\n"
     },
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")\n"
@@ -2143,7 +2141,7 @@ export const backlinks = {
         "PARA": "- Often used with [[CODE Procedure]]\n"
     },
     "2022-10-21": {
-        "Curve Fitting for Charts": "## On [[2022-10-21]], with [[Simple Analytics"
+        "Curve Fitting for Charts": "## On [[2022-10-21]], with [[Simple Analytics]]\n"
     },
     "90B241.jpg": {
         "Curve Fitting for Charts": "![[90B241.jpg]]\n"
@@ -2152,10 +2150,10 @@ export const backlinks = {
         "Memex": "![[89B469.png]]\n"
     },
     "Vannevar Bush": {
-        "Memex": "... supplement to his memory. — [[Vannevar Bush]]\n"
+        "Memex": "... flexibility. It is an enlarged intimate supplement to his memory. — [[Vannevar Bush]]\n"
     },
     "As We May Think (Article)": {
-        "Memex": "> In \"[[As We May Think (Article)]]\", [[Vannevar Bush"
+        "Memex": "> In \"[[As We May Think (Article)]]\", [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
     },
     "FC87FE.png": {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]\n"
@@ -2167,10 +2165,10 @@ export const backlinks = {
         "explainpaper.com": "![[BFE3CD.png]]\n"
     },
     "Height": {
-        "Linear": "... An issue tracking service, like [[Height]], or [[Jira"
+        "Linear": "- An issue tracking service, like [[Height]], or [[Jira]]\n"
     },
     "Jira": {
-        "Linear": "... tracking service, like Height, or [[Jira]]\n"
+        "Linear": "- An issue tracking service, like Height, or [[Jira]]\n"
     },
     "AE63DD.png": {
         "Sliding Panes": "![[AE63DD.png]]\n"
@@ -2185,22 +2183,22 @@ export const backlinks = {
         "Three Column Design": "![[6BD54D.png]]\n"
     },
     "Canvas (HTML5)": {
-        "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., ..."
+        "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs.\n"
     },
     "Web Browser": {
         "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow\n"
     },
     "JSX (File Format)": {
-        "Stories Behind Satori": "After simplifying the syntax with [[JSX (File Format)]] and simple [[CSS"
+        "Stories Behind Satori": "After simplifying the syntax with [[JSX (File Format)]] and simple [[CSS]], Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the ..."
     },
     "PNG (File Format)": {
-        "Stories Behind Satori": "... SVG (File Format) image to [[PNG (File Format)]].\n"
+        "Stories Behind Satori": "... RazrFalcon/resvg and yisibl/resvg-js to convert the SVG (File Format) image to [[PNG (File Format)]].\n"
     },
     "Dogfooding": {
         "Stories Behind Satori": "The Vercel team [[Dogfooding|dogfooded]] this for a while.\n"
     },
     "이루다": {
-        "Copilot": "- Very similar to [[이루다]] in terms that it collected ..."
+        "Copilot": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information\n"
     },
     "ABCEC0.png": {
         "To Kill a Night Owl": "![[ABCEC0.png]]\n"
