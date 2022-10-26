@@ -30,7 +30,7 @@ import Link from '@docusaurus/Link'
 
 <figure>
 
-![Every note interrelates with other notes.](2D738C.gif)
+![Every note interrelates with other notes.](Assets/2D738C.gif)
 
 <figcaption>Every note interrelates with other notes.</figcaption>
 </figure>
