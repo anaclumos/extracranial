@@ -1568,6 +1568,9 @@ export const backlinks = {
     "I travel the World Wide Web": {
         "2022-10-25": "- [[I travel the World Wide Web]]\n"
     },
+    "3d on the Web": {
+        "2022-10-25": "- [[3d on the Web]]\n"
+    },
     "9467DA.png": {
         "2022-10-25": "![[9467DA.png]]\n"
     },
@@ -1624,7 +1627,8 @@ export const backlinks = {
         "2022-10-15": "- [[Guestbook]]\n"
     },
     "3d Globe on the Web": {
-        "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization | LeoLabs\n"
+        "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization | LeoLabs\n",
+        "3d on the Web": "- [[3d Globe on the Web]]\n"
     },
     "경제 개발의 길목에서": {
         "Readings": "- [x] [[경제 개발의 길목에서]]\n"
@@ -1703,6 +1707,12 @@ export const backlinks = {
     "Sliding Panes": {
         "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].\n",
         "Horizontally Stacked Interface": "- [[Sliding Panes]]: Have multiple-scrollable columns.\n"
+    },
+    "BDC4EE.png": {
+        "3d on the Web": "![[BDC4EE.png]]\n"
+    },
+    "E95B3D.png": {
+        "3d on the Web": "![[E95B3D.png]]\n"
     },
     "Plausible Analytics": {
         "Google Analytics": "- Alternative: Simple Analytics, [[Plausible Analytics]]\n"
