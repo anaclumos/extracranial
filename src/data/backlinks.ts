@@ -239,6 +239,7 @@ export const backlinks = {
     "Coding Tests": {
         "Leetcode": "- [[Coding Tests]]\n",
         "2022-09-26": "## [[Coding Tests]]\n",
+        "2022-10-26": "## [[Coding Tests]]\n",
         "2022-09-22": "## [[Coding Tests]]\n",
         "2022-09-07": "## [[Coding Tests]]\n",
         "2022-10-23": "## [[Coding Tests]]\n",
@@ -295,8 +296,8 @@ export const backlinks = {
         "Coding Tests": "- QuickSelect [[TODO]]\n",
         "0215 Kth Largest Element in an Array": "[[TODO]]\n",
         "2022-10-12": "## [[TODO]]\n",
+        "2022-10-26": "## [[TODO]]\n",
         "2022-10-13": "## [[TODO]]\n",
-        "2022-10-25": "## [[TODO]]\n",
         "Tools for Thought": "[[TODO]]: Convert this page into a more in-depth case study.\n"
     },
     "Trie": {
@@ -494,9 +495,10 @@ export const backlinks = {
         "Better Aldehyde": "- [[Backlinking for Aldehyde]]\n",
         "2022-10-17": "### [[Backlinking for Aldehyde]]\n"
     },
-    "ED4CA4.png": {
-        "Transactional Globe": "![[ED4CA4.png]]\n",
-        "2022-10-24": "![[ED4CA4.png]]\n"
+    "5BE46A.png": {
+        "Transactional Globe": "![[5BE46A.png]]\n",
+        "2022-10-24": "![[5BE46A.png]]\n",
+        "I travel the World Wide Web": "![[5BE46A.png]]\n"
     },
     "F7ADEB.png": {
         "Transactional Globe": "![[F7ADEB.png]]\n"
@@ -593,6 +595,7 @@ export const backlinks = {
     },
     "Hacker News": {
         "Better Hacker News": "## [[Hacker News]] need some improvements\n",
+        "2022-10-26": "## [[Hacker News|HN]]\n",
         "2022-07-05": "## Today's [[Hacker News]]\n",
         "2022-07-20": "## Today's [[Hacker News]]\n",
         "2022-10-13": "## [[Hacker News|HN]]\n",
@@ -915,9 +918,9 @@ export const backlinks = {
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]\n",
+        "2022-10-26": "- [[Dynamic Island on the Web]]\n",
         "2022-10-16": "### [[Dynamic Island on the Web]]\n",
         "2022-10-20": "- [[Dynamic Island on the Web]]\n",
-        "2022-10-25": "- [[Dynamic Island on the Web]]\n",
         "2022-10-15": "- [[Dynamic Island on the Web]]\n"
     },
     "Handwriting Tools for Thoughts": {
@@ -957,6 +960,28 @@ export const backlinks = {
     },
     "iOS Style Toggle in CSS": {
         "2022-10-12": "  - [x] Archived [[iOS Style Toggle in CSS]]\n"
+    },
+    "Projects": {
+        "2022-10-26": "## Ongoing [[Projects]]\n"
+    },
+    "How is WebAssembly cross-platform when Assembly is not": {
+        "2022-10-26": "- [[How is WebAssembly cross-platform when Assembly is not]]\n",
+        "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]\n"
+    },
+    "WebAssembly": {
+        "2022-10-26": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on Web Workers?\n",
+        "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.\n",
+        "2022-10-14": "- [[WebAssembly]]\n",
+        "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten\n",
+        "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.\n",
+        "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
+        "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules\n",
+        "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].\n"
+    },
+    "Markdown Email Client": {
+        "2022-10-26": "- [ ] Review MailPilot [[Markdown Email Client]]\n",
+        "2022-10-04": "- [[Markdown Email Client]]\n",
+        "Reimagining Emails": "- [[Markdown Email Client]]\n"
     },
     "월급만큼 중요한 것은 자존급이다": {
         "2022-10-06": "- [[월급만큼 중요한 것은 자존급이다]]\n"
@@ -1300,16 +1325,6 @@ export const backlinks = {
     "Apple Earth": {
         "2022-08-23": "- [[Apple Earth]]\n"
     },
-    "WebAssembly": {
-        "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.\n",
-        "2022-10-14": "- [[WebAssembly]]\n",
-        "2022-10-25": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on Web Workers?\n",
-        "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten\n",
-        "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.\n",
-        "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
-        "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules\n",
-        "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].\n"
-    },
     "Playing Sounds in SDL": {
         "2022-10-19": "- [[Playing Sounds in SDL]]\n"
     },
@@ -1446,11 +1461,6 @@ export const backlinks = {
     "Inliner": {
         "2022-10-04": "- [[Inliner]]\n"
     },
-    "Markdown Email Client": {
-        "2022-10-04": "- [[Markdown Email Client]]\n",
-        "2022-10-25": "- [ ] Review MailPilot [[Markdown Email Client]]\n",
-        "Reimagining Emails": "- [[Markdown Email Client]]\n"
-    },
     "Search Engine Indexing Your Life": {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]\n"
     },
@@ -1460,10 +1470,6 @@ export const backlinks = {
     },
     "Try Removing": {
         "2022-10-04": "- [[Try Removing]]\n"
-    },
-    "How is WebAssembly cross-platform when Assembly is not": {
-        "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]\n",
-        "2022-10-25": "- [[How is WebAssembly cross-platform when Assembly is not]]\n"
     },
     "Lingua Franca": {
         "2022-09-30": "- [[Lingua Franca]]\n"
@@ -1562,14 +1568,17 @@ export const backlinks = {
     "Letter to the Heptabase Team on 2022-10-11": {
         "2022-10-11": "- [[Letter to the Heptabase Team on 2022-10-11]]\n"
     },
-    "Research": {
-        "2022-10-11": "... on a Journal Page, I should start separating them into individual [[Research]] pages.\n"
-    },
     "I travel the World Wide Web": {
         "2022-10-25": "- [[I travel the World Wide Web]]\n"
     },
     "3d on the Web": {
         "2022-10-25": "- [[3d on the Web]]\n"
+    },
+    "洪民憙雜記": {
+        "2022-10-25": "- [[洪民憙雜記]]\n"
+    },
+    "AWS Nuke": {
+        "2022-10-25": "- [[AWS Nuke]]\n"
     },
     "9467DA.png": {
         "2022-10-25": "![[9467DA.png]]\n"
@@ -1582,9 +1591,6 @@ export const backlinks = {
     },
     "411451.png": {
         "2022-10-25": "![[411451.png]]\n"
-    },
-    "Projects": {
-        "2022-10-25": "## Ongoing [[Projects]]\n"
     },
     "1ED417.jpeg": {
         "2022-07-06": "- Merged! ![[1ED417.jpeg]]\n"
@@ -2058,6 +2064,12 @@ export const backlinks = {
     },
     "Game Programming": {
         "Back Buffer": "Used in [[Game Programming]], you write data on the back buffer.\n"
+    },
+    "42FE5D.png": {
+        "洪民憙雜記": "![[42FE5D.png]]\n"
+    },
+    "CE91F0.png": {
+        "洪民憙雜記": "![[CE91F0.png]]\n"
     },
     "Brunch": {
         "Brunch violates SF terms of use": "- Korean writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using SF Pro as a ..."
