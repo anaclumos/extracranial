@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a3cc78bddab5a43d",
+        "id": "d036a378a82c76be",
         "type": "tabs",
         "children": [
           {
-            "id": "b4603d561fab67af",
+            "id": "450bf4cfb4529c1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "{{hex}}",
+                "query": "[[Research]]",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,17 +135,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "b4603d561fab67af",
+  "active": "450bf4cfb4529c1d",
   "lastOpenFiles": [
-    "Memex/3d on the Web.md",
-    "Memex/3d Globe on the Web.md",
+    "Memex/AWS Nuke.md",
     "Journals/2022-10-25.md",
-    "Memex/Next.js.md",
-    "Memex/Vannevar Bush.md",
-    "Memex/Memex.md",
-    "Hey.md",
-    "Memex/As We May Think (Article).md",
-    "Templates/person.md",
-    "Templates/note.md"
+    "Journals/2022-10-11.md",
+    "Memex/Research.md",
+    "Memex/洪民憙雜記.md",
+    "Memex/Super App and Democracy.md",
+    "Memex/WebAssembly.md",
+    "Journals/2022-05-27.md",
+    "Memex/3d on the Web.md",
+    "Memex/3d Globe on the Web.md"
   ]
 }

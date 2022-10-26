@@ -16,7 +16,7 @@ slug: '/'
 <figcaption> my http request map 🌏 🌎 🌍</figcaption>
 </figure>
 
-Welcome to my [[Research]] note.
+Welcome to my research note.
 I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research.
 
 If you are familiar with such concepts, this place is also a [[Memex]].
