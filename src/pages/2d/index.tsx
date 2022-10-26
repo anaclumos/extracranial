@@ -69,7 +69,7 @@ const processBacklinksToGraph = (backlinks) => {
   return { nodes, links }
 }
 
-const GraphView = (props: {
+export const GraphView2d = (props: {
   width: number
   height: number
 }) => {
@@ -144,7 +144,7 @@ export default function Graph(): JSX.Element {
         />
       </Head>
       <main className={styles.mainContainer}>
-        <GraphView width={width} height={height} />
+        <GraphView2d width={width} height={height} />
       </main>
     </Layout>
   )
