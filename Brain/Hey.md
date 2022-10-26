@@ -11,7 +11,7 @@ slug: '/'
 
 <figure>
 
-![my http request map 🌏 🌎 🌍](5BE46A.png)
+![my http request map 🌏 🌎 🌍](Assets/5BE46A.png)
 
 <figcaption>my http request map 🌏 🌎 🌍</figcaption>
 </figure>

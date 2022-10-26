@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-26.md",
+                "file": "Hey.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-26.md",
+                "file": "Hey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-26.md"
+                "file": "Hey.md"
               }
             }
           },
@@ -137,15 +137,15 @@
   },
   "active": "4dc70f092ab24413",
   "lastOpenFiles": [
+    "Memex/I travel the World Wide Web.md",
+    "Hey.md",
+    "Journals/2022-10-26.md",
     "Journals/2022-10-25.md",
     "Journals/2022-10-24.md",
-    "Journals/2022-10-26.md",
-    "Hey.md",
     "Assets/2D738C.gif",
     "Memex/洪民憙雜記.md",
     "Memex/AWS Nuke.md",
     "Journals/2022-10-11.md",
-    "Memex/Research.md",
-    "Memex/Super App and Democracy.md"
+    "Memex/Research.md"
   ]
 }
