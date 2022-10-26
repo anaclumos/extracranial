@@ -44,7 +44,7 @@ If you are familiar with such concepts, this place is also a [[Memex]] or a Digi
 Unlike traditional blogs or notes, this is a non-linear space.
 That is, there are no predefined categories or tags; no sequential order; and minimal hierarchy.
 Therefore you can randomly pick a note and follow the links to other notes.
-Every note will be [[evergreen]], interrelating with other notes,
+Every note will be [[evergreen notes]], interrelating with other notes,
 illustrating the connections between ideas, thus capturing the bigger picture.
 
 ## Basics
