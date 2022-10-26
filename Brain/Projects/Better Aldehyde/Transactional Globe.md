@@ -9,7 +9,7 @@ So I have this network graph.
 
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-![[ED4CA4.png]]
+![[5BE46A.png]]
 
 Map those into the globe on the main page:
 
