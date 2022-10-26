@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hey.md",
+                "file": "Memex/洪民憙雜記.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hey.md",
+                "file": "Memex/洪民憙雜記.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hey.md"
+                "file": "Memex/洪民憙雜記.md"
               }
             }
           },
@@ -137,10 +137,10 @@
   },
   "active": "4dc70f092ab24413",
   "lastOpenFiles": [
-    "Memex/I travel the World Wide Web.md",
-    "Hey.md",
-    "Journals/2022-10-26.md",
     "Journals/2022-10-25.md",
+    "Journals/2022-10-26.md",
+    "Hey.md",
+    "Memex/I travel the World Wide Web.md",
     "Journals/2022-10-24.md",
     "Assets/2D738C.gif",
     "Memex/洪民憙雜記.md",
