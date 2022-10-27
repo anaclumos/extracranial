@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "54451ae3514c6e6b",
+        "id": "13b8f313c2459243",
         "type": "tabs",
         "children": [
           {
-            "id": "0af0a1dc34175c30",
+            "id": "73bc108fa87c0910",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-26.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-10-26.md"
-              }
+              "state": {}
             }
           },
           {
@@ -131,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "0af0a1dc34175c30",
+  "active": "73bc108fa87c0910",
   "lastOpenFiles": [
-    "Memex/evergreen.md",
     "Journals/2022-10-26.md",
+    "Journals/2022-10-27.md",
+    "Memex/evergreen.md",
     "Memex/Evergreen notes.md",
     "Hey.md",
     "Journals/2022-10-25.md",
     "Memex/I travel the World Wide Web.md",
     "Journals/2022-10-24.md",
     "Assets/2D738C.gif",
-    "Memex/洪民憙雜記.md",
-    "Memex/AWS Nuke.md"
+    "Memex/洪民憙雜記.md"
   ]
 }
