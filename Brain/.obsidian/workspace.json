@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "13b8f313c2459243",
+        "id": "a267e5e00cfd4b41",
         "type": "tabs",
         "children": [
           {
-            "id": "73bc108fa87c0910",
+            "id": "fb6f7c3428ff4cd3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-27.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[[Research]]",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-10-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-10-27.md"
+              }
             }
           },
           {
@@ -123,17 +132,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "73bc108fa87c0910",
+  "active": "fb6f7c3428ff4cd3",
   "lastOpenFiles": [
-    "Journals/2022-10-26.md",
+    "Memex/Musk and Twitter.md",
+    "Memex/Musk.md",
+    "Memex/Super App and Democracy.md",
+    "Memex/Canary Trap.md",
     "Journals/2022-10-27.md",
-    "Memex/evergreen.md",
-    "Memex/Evergreen notes.md",
-    "Hey.md",
-    "Journals/2022-10-25.md",
-    "Memex/I travel the World Wide Web.md",
-    "Journals/2022-10-24.md",
-    "Assets/2D738C.gif",
-    "Memex/洪民憙雜記.md"
+    "Memex/Apple vs Spotify.md",
+    "Templates/grind.md",
+    "Templates/journal.md",
+    "Templates/person.md",
+    "Templates/note.md"
   ]
 }

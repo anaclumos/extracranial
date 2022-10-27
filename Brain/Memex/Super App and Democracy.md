@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/8794DD'
 ---
 
+- [[Musk and Twitter]]
+
 > Is the centralization of data anti-democratic?
 
 > [Buying Twitter is an accelerant to creating X, the everything app](https://twitter.com/elonmusk/status/1577428272056389633)
@@ -10,7 +12,7 @@ slug: '/8794DD'
 ## [Why an everything app is a bad news for liberal democracies and free markets](https://www.nitinpai.in/2022/10/10/why-an-everything-app-is-bad-news-for-liberal-democracies-and-free-markets)
 
 - _Many technology entrepreneurs dream of an "[[Super App|Everything App]]", a smartphone application that will deliver everything to everyone on the planet._
-- _Elon Musk has become the latest investor [to declare an ambition](https://www.bloomberg.com/news/articles/2022-10-04/musk-says-buying-twitter-speeds-up-creating-an-everything-app) to build such a super-app wanting to emulate the success of WeChat, a Chinese super-app._
+- _Elon [[Musk]] has become the latest investor [to declare an ambition](https://www.bloomberg.com/news/articles/2022-10-04/musk-says-buying-twitter-speeds-up-creating-an-everything-app) to build such a super-app wanting to emulate the success of WeChat, a Chinese super-app._
 - _The [[Super App|Everything app]] presents massive risks to personal, economic, and political freedom._
 - _As [John Gruber of Daring Fireball](https://daringfireball.net/2022/10/everything) says, "It's no coincidence at all that WeChat is the only "[[Super App|everything app]]" anyone can cite, and it comes from China, an authoritarian regime._
 - _It doesn't benefit users that WeChat dominates all aspects of digital life . It helps the authoritarian Chinese Communist Party._
@@ -18,7 +20,7 @@ slug: '/8794DD'
 - _Public policy must act to prevent firms and apps from acquiring socioeconomic dominance in the first place_
   - Nurture a competitive market.
   - Promote open public digital infrastructure with interoperability.
-- _At a deeper level, Musk's desire to emulate the Chinese model alerts us to the danger of the interests of Big Tech increasingly diverging from those of liberal democracies._
+- _At a deeper level, [[Musk]]'s desire to emulate the Chinese model alerts us to the danger of the interests of Big Tech increasingly diverging from those of liberal democracies._
 - _Preserving our freedom may indeed be their most important corporate social responsibility._
 
 ## [Why don't developed countries have resident registration cards and resident registration numbers?](https://www.youtube.com/watch?v=sJH5a_FxsAQ)

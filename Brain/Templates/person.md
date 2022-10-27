@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{title}}'엉
+slug: '{{title}}'
 ---
 
 - Interviewed at: [[{{date:YYYY-MM-DD}}]]
