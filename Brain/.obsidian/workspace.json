@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a267e5e00cfd4b41",
+        "id": "487f5cf7a6c88e4d",
         "type": "tabs",
         "children": [
           {
-            "id": "fb6f7c3428ff4cd3",
+            "id": "85045831d1b7ab97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-27.md",
+                "file": "Memex/Super App and Democracy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "{{hex}}",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-27.md",
+                "file": "Memex/Super App and Democracy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-27.md"
+                "file": "Memex/Super App and Democracy.md"
               }
             }
           },
@@ -132,17 +132,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "fb6f7c3428ff4cd3",
+  "active": "85045831d1b7ab97",
   "lastOpenFiles": [
-    "Memex/Goongoom.md",
+    "Memex/Universal Identity.md",
     "Journals/2022-10-27.md",
-    "Hey.md",
-    "Memex/Musk and Twitter.md",
-    "Memex/Musk.md",
-    "Memex/Super App and Democracy.md",
-    "Memex/Canary Trap.md",
-    "Memex/Apple vs Spotify.md",
-    "Templates/grind.md",
-    "Templates/journal.md"
+    "Memex/Small yet Powerful.md",
+    "Memex/Government Services should have full API support.md",
+    "Memex/Interoperability.md",
+    "Memex/Blockchain.md",
+    "Memex/Financial Technology.md",
+    "Memex/API Economy.md",
+    "Memex/Small Government vs Big Government.md",
+    "Memex/Spacial Cognition.md"
   ]
 }
