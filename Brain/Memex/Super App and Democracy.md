@@ -19,7 +19,7 @@ slug: '/8794DD'
 - _The user is socially locked into a 'private' company for performing any or all socio-economic functions._
 - _Public policy must act to prevent firms and apps from acquiring socioeconomic dominance in the first place_
   - Nurture a competitive market.
-  - Promote open public digital infrastructure with interoperability.
+  - Promote open public digital infrastructure with [[interoperability]].
 - _At a deeper level, [[Musk]]'s desire to emulate the Chinese model alerts us to the danger of the interests of Big Tech increasingly diverging from those of liberal democracies._
 - _Preserving our freedom may indeed be their most important corporate social responsibility._
 
