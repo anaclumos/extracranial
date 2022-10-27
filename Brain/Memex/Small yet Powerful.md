@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/1B4264'
 ---
 
-## ...Startup.
+## ...Startup
 
 - Even the most agile startups are overstaffed.
 
