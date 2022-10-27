@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-27.md",
+                "file": "Hey.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-27.md",
+                "file": "Hey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-27.md"
+                "file": "Hey.md"
               }
             }
           },
@@ -134,11 +134,11 @@
   },
   "active": "fb6f7c3428ff4cd3",
   "lastOpenFiles": [
+    "Journals/2022-10-27.md",
     "Memex/Musk and Twitter.md",
     "Memex/Musk.md",
     "Memex/Super App and Democracy.md",
     "Memex/Canary Trap.md",
-    "Journals/2022-10-27.md",
     "Memex/Apple vs Spotify.md",
     "Templates/grind.md",
     "Templates/journal.md",
