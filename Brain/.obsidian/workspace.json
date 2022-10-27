@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "487f5cf7a6c88e4d",
+        "id": "7e8b0d0ed3bab2f0",
         "type": "tabs",
         "children": [
           {
-            "id": "85045831d1b7ab97",
+            "id": "4d15cd767f82e504",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Super App and Democracy.md",
+                "file": "Memex/Small yet Powerful.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Super App and Democracy.md",
+                "file": "Memex/Small yet Powerful.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Super App and Democracy.md"
+                "file": "Memex/Small yet Powerful.md"
               }
             }
           },
@@ -132,17 +132,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "85045831d1b7ab97",
+  "active": "4d15cd767f82e504",
   "lastOpenFiles": [
-    "Memex/Universal Identity.md",
     "Journals/2022-10-27.md",
+    "Memex/Super App and Democracy.md",
+    "Memex/Universal Identity.md",
     "Memex/Small yet Powerful.md",
     "Memex/Government Services should have full API support.md",
     "Memex/Interoperability.md",
     "Memex/Blockchain.md",
     "Memex/Financial Technology.md",
     "Memex/API Economy.md",
-    "Memex/Small Government vs Big Government.md",
-    "Memex/Spacial Cognition.md"
+    "Memex/Small Government vs Big Government.md"
   ]
 }
