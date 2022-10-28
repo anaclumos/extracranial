@@ -239,7 +239,6 @@ export const backlinks = {
     "Coding Tests": {
         "Leetcode": "- [[Coding Tests]]\n",
         "2022-09-26": "## [[Coding Tests]]\n",
-        "2022-10-26": "## [[Coding Tests]]\n",
         "2022-09-22": "## [[Coding Tests]]\n",
         "2022-09-07": "## [[Coding Tests]]\n",
         "2022-10-23": "## [[Coding Tests]]\n",
@@ -296,8 +295,8 @@ export const backlinks = {
         "Coding Tests": "- QuickSelect [[TODO]]\n",
         "0215 Kth Largest Element in an Array": "[[TODO]]\n",
         "2022-10-12": "## [[TODO]]\n",
-        "2022-10-26": "## [[TODO]]\n",
         "2022-10-13": "## [[TODO]]\n",
+        "2022-10-27": "## [[TODO]]\n",
         "Tools for Thought": "[[TODO]]: Convert this page into a more in-depth case study.\n"
     },
     "Trie": {
@@ -588,17 +587,18 @@ export const backlinks = {
     },
     "Infinite Canvas": {
         "Intracranial": "  - [[Infinite Canvas]]\n",
-        "2022-10-10": "- [[Infinite Canvas]]\n"
+        "2022-10-10": "- [[Infinite Canvas]]\n",
+        "Spacial Cognition": "- Key reason of [[Infinite Canvas]]. Gives spacial understanding & relevancy\n"
     },
     "2022-10-11": {
         "Open Graph Image as a Service": "- [[2022-10-11]]\n"
     },
     "Hacker News": {
         "Better Hacker News": "## [[Hacker News]] need some improvements\n",
-        "2022-10-26": "## [[Hacker News|HN]]\n",
         "2022-07-05": "## Today's [[Hacker News]]\n",
         "2022-07-20": "## Today's [[Hacker News]]\n",
         "2022-10-13": "## [[Hacker News|HN]]\n",
+        "2022-10-27": "## [[Hacker News|HN]]\n",
         "2022-06-21": "## Today's [[Hacker News]]\n",
         "2022-10-18": "## [[Hacker News|HN]]\n",
         "2022-09-29": "## Today's [[Hacker News]]\n",
@@ -816,6 +816,7 @@ export const backlinks = {
     },
     "Metaverse": {
         "2022-05-31": "- Kakao announced [[Metaverse]] Remote Work Policy.\n",
+        "Spacial Cognition": "- Very important for [[Metaverse]]\n",
         "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can actually be attained within years with Prompt Engineering.\n"
     },
     "Code Quality for Game Programming": {
@@ -918,8 +919,8 @@ export const backlinks = {
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]\n",
-        "2022-10-26": "- [[Dynamic Island on the Web]]\n",
         "2022-10-16": "### [[Dynamic Island on the Web]]\n",
+        "2022-10-27": "- [[Dynamic Island on the Web]]\n",
         "2022-10-20": "- [[Dynamic Island on the Web]]\n",
         "2022-10-15": "- [[Dynamic Island on the Web]]\n"
     },
@@ -960,28 +961,6 @@ export const backlinks = {
     },
     "iOS Style Toggle in CSS": {
         "2022-10-12": "  - [x] Archived [[iOS Style Toggle in CSS]]\n"
-    },
-    "Projects": {
-        "2022-10-26": "## Ongoing [[Projects]]\n"
-    },
-    "How is WebAssembly cross-platform when Assembly is not": {
-        "2022-10-26": "- [[How is WebAssembly cross-platform when Assembly is not]]\n",
-        "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]\n"
-    },
-    "WebAssembly": {
-        "2022-10-26": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on Web Workers?\n",
-        "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.\n",
-        "2022-10-14": "- [[WebAssembly]]\n",
-        "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten\n",
-        "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.\n",
-        "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
-        "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules\n",
-        "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].\n"
-    },
-    "Markdown Email Client": {
-        "2022-10-26": "- [ ] Review MailPilot [[Markdown Email Client]]\n",
-        "2022-10-04": "- [[Markdown Email Client]]\n",
-        "Reimagining Emails": "- [[Markdown Email Client]]\n"
     },
     "월급만큼 중요한 것은 자존급이다": {
         "2022-10-06": "- [[월급만큼 중요한 것은 자존급이다]]\n"
@@ -1080,6 +1059,11 @@ export const backlinks = {
         "2022-09-17": "  - [[Componentizing Views in Android]]\n",
         "Android": "- [[Componentizing Views in Android]]\n"
     },
+    "Interoperability": {
+        "2022-07-20": "- Bidirectional [[Interoperability]] with C++\n",
+        "2022-10-27": "- [[Interoperability]]\n",
+        "Government Services should have full API support": "- Of course, we would need a Universal Identity and [[Interoperability]] to prevent any lock-ins.\n"
+    },
     "TypeScript": {
         "2022-07-20": "- JavaScript → [[TypeScript]]\n",
         "2022-09-09": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own React-like run-time. If you're familiar with React, ...",
@@ -1098,6 +1082,7 @@ export const backlinks = {
         "2022-07-07": "## Personal Notes on [[Tools for Thought]] [[Software as a Service]]\n",
         "Extracranial": "... function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use Docusaurus and Obsidian. ...",
         "PKM": "Check [[Tools for Thought]] for PKM tools in the market.\n",
+        "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, Heptabase.\n",
         "Handwriting Tools for Thoughts": "- A specific [[Tools for Thought]] with handwriting.\n"
     },
     "Everyprompt": {
@@ -1234,6 +1219,79 @@ export const backlinks = {
     "Stories Behind Satori": {
         "2022-10-13": "  - [x] [[Stories Behind Satori]]\n",
         "Satori": "- [[Stories Behind Satori]]\n"
+    },
+    "Small yet Powerful": {
+        "2022-10-27": "- [[Small yet Powerful]]\n"
+    },
+    "Spacial Cognition": {
+        "2022-10-27": "- [[Spacial Cognition]]\n"
+    },
+    "API Economy": {
+        "2022-10-27": "- [[API Economy]]\n",
+        "Small yet Powerful": "- Governmental services should also conform to the [[API Economy]]\n"
+    },
+    "Government Services should have full API support": {
+        "2022-10-27": "- [[Government Services should have full API support]]\n",
+        "API Economy": "- [[Government Services should have full API support]]\n"
+    },
+    "Blockchain": {
+        "2022-10-27": "- [[Blockchain]]\n",
+        "Financial Technology": "... compete with traditional financial methods in delivering financial services. Artificial intelligence, [[Blockchain]], Cloud computing, and big data are regarded as the \"ABCD\" (four ...",
+        "Universal Identity": "- [[Blockchain]] wallets can be one potential solution\n"
+    },
+    "Small Government vs Big Government": {
+        "2022-10-27": "- [[Small Government vs Big Government]]\n",
+        "Small yet Powerful": "- This could be a potential answer to [[Small Government vs Big Government]]\n"
+    },
+    "Universal Identity": {
+        "2022-10-27": "- [[Universal Identity]]\n",
+        "Government Services should have full API support": "- Of course, we would need a [[Universal Identity]] and [[Interoperability]] to prevent any lock-ins.\n"
+    },
+    "Goongoom": {
+        "2022-10-27": "### [[Goongoom]] is officially dead\n"
+    },
+    "2022-10-27": {
+        "2022-10-27": "- Officially confirmed dead on [[2022-10-27]] due to NGL. Has the same feature set.\n",
+        "Goongoom": "- Officially confirmed dead on [[2022-10-27]] due to NGL. Has the same feature set.\n"
+    },
+    "3d on the Web": {
+        "2022-10-27": "- [[3d on the Web]]\n",
+        "2022-10-25": "- [[3d on the Web]]\n"
+    },
+    "Apple vs Spotify": {
+        "2022-10-27": "### [[Apple vs Spotify]]\n"
+    },
+    "Super App and Democracy": {
+        "2022-10-27": "### [[Super App and Democracy]]\n",
+        "2022-10-10": "- [[Super App and Democracy]]\n",
+        "2022-10-11": "- [[Super App and Democracy]]\n",
+        "Universal Identity": "- Super App accounts can be another. See [[Super App and Democracy]].\n"
+    },
+    "Musk and Twitter": {
+        "2022-10-27": "- [[Musk and Twitter]]\n",
+        "Super App and Democracy": "- [[Musk and Twitter]]\n"
+    },
+    "Projects": {
+        "2022-10-27": "## Ongoing [[Projects]]\n"
+    },
+    "How is WebAssembly cross-platform when Assembly is not": {
+        "2022-10-27": "- [[How is WebAssembly cross-platform when Assembly is not]]\n",
+        "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]\n"
+    },
+    "WebAssembly": {
+        "2022-10-27": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on Web Workers?\n",
+        "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.\n",
+        "2022-10-14": "- [[WebAssembly]]\n",
+        "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten\n",
+        "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.\n",
+        "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
+        "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules\n",
+        "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].\n"
+    },
+    "Markdown Email Client": {
+        "2022-10-27": "- [ ] Review MailPilot [[Markdown Email Client]]\n",
+        "2022-10-04": "- [[Markdown Email Client]]\n",
+        "Reimagining Emails": "- [[Markdown Email Client]]\n"
     },
     "Install Yarn Silently": {
         "2022-10-18": "- [[Install Yarn Silently]]\n"
@@ -1522,10 +1580,6 @@ export const backlinks = {
     "AF38A6.png": {
         "2022-10-10": "    - ![[AF38A6.png]]\n"
     },
-    "Super App and Democracy": {
-        "2022-10-10": "- [[Super App and Democracy]]\n",
-        "2022-10-11": "- [[Super App and Democracy]]\n"
-    },
     "ActivityPub": {
         "2022-10-10": "- [[ActivityPub]]\n"
     },
@@ -1570,9 +1624,6 @@ export const backlinks = {
     },
     "I travel the World Wide Web": {
         "2022-10-25": "- [[I travel the World Wide Web]]\n"
-    },
-    "3d on the Web": {
-        "2022-10-25": "- [[3d on the Web]]\n"
     },
     "洪民憙雜記": {
         "2022-10-25": "- [[洪民憙雜記]]\n"
@@ -1664,6 +1715,14 @@ export const backlinks = {
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
         "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S.\n"
     },
+    "Musk": {
+        "Super App and Democracy": "- Elon [[Musk]] has become the latest investor to declare an ambition to build ...",
+        "Canary Trap": "### [[Musk]]\n",
+        "Musk and Twitter": "## [[Musk]]\n"
+    },
+    "interoperability": {
+        "Super App and Democracy": "  - Promote open public digital infrastructure with [[interoperability]].\n"
+    },
     "3555AC.png": {
         "Redirecting READMEs": "![[3555AC.png]]\n"
     },
@@ -1712,6 +1771,7 @@ export const backlinks = {
     },
     "Sliding Panes": {
         "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].\n",
+        "Spacial Cognition": "- Three Column Design and [[Sliding Panes]] are a few ways of giving spacial cognition.\n",
         "Horizontally Stacked Interface": "- [[Sliding Panes]]: Have multiple-scrollable columns.\n"
     },
     "BDC4EE.png": {
@@ -1719,6 +1779,9 @@ export const backlinks = {
     },
     "E95B3D.png": {
         "3d on the Web": "![[E95B3D.png]]\n"
+    },
+    "4DC21F.png": {
+        "3d on the Web": "![[4DC21F.png]]\n"
     },
     "Plausible Analytics": {
         "Google Analytics": "- Alternative: Simple Analytics, [[Plausible Analytics]]\n"
@@ -2044,6 +2107,10 @@ export const backlinks = {
     "22EB14.png": {
         "Font Feature": "![[22EB14.png]]\n"
     },
+    "Three Column Design": {
+        "Spacial Cognition": "- [[Three Column Design]] and [[Sliding Panes]] are a few ways of giving spacial cognition.\n",
+        "Horizontally Stacked Interface": "- [[Three Column Design]]: Discord-Like Interface.\n"
+    },
     "BC7E6A.png": {
         "Akzidenz": "![[BC7E6A.png]]\n"
     },
@@ -2151,9 +2218,6 @@ export const backlinks = {
     },
     "Handwriting Grammarly": {
         "Handwriting Tools for Thoughts": "- We might need [[Handwriting Grammarly]]\n"
-    },
-    "Three Column Design": {
-        "Horizontally Stacked Interface": "- [[Three Column Design]]: Discord-Like Interface.\n"
     },
     "8121DD.png": {
         "Horizontally Stacked Interface": "![[8121DD.png]]\n"
