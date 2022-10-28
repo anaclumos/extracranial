@@ -15,9 +15,6 @@ type Node = {
   nodeVal: number
 }
 
-const font =
-  'ui-sans-serif, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Pretendard, system-ui, -system-ui, sans-serif, "Apple Color Emoji"'
-
 const processBacklinksToGraph = (backlinks) => {
   const nodes: Node[] = []
   const links: { source: string; target: string }[] = []
@@ -89,8 +86,6 @@ export const GraphView3d = (props: {
             ForceGraph3D,
           } = require('react-force-graph')
 
-          const distance = 1400
-
           const FocusGraph = () => {
             const fgRef = useRef<any>()
 
@@ -106,6 +101,10 @@ export const GraphView3d = (props: {
 
             return (
               <ForceGraph3D
+                rendererConfig={{
+                  alpha: true,
+                  antialias: true,
+                }}
                 width={props.width}
                 height={props.height}
                 ref={fgRef}
