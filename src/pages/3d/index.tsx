@@ -12,7 +12,7 @@ import { useScreenSize } from '@site/src/util/useScreenSize'
 type Node = {
   nodeLabel: string
   id: string
-  nodeVal: number
+  nodeRelSize: number
 }
 
 const processBacklinksToGraph = (backlinks) => {
@@ -29,10 +29,10 @@ const processBacklinksToGraph = (backlinks) => {
     ) {
       continue
     } else {
-      const node = {
+      const node: Node = {
         nodeLabel: key,
         id: filenames[key],
-        nodeVal: 1,
+        nodeRelSize: 1,
       } as Node
 
       if (!nodes.find((n) => n.id === node.id)) {
@@ -48,20 +48,16 @@ const processBacklinksToGraph = (backlinks) => {
           nodes.push({
             nodeLabel: neighbor,
             id: filenames[neighbor],
-            nodeVal: 1,
+            nodeRelSize: 1,
           })
         }
         links.push({
           source: filenames[key],
           target: filenames[neighbor],
         })
-        // increase source and target nodeVal
-        nodes.find(
-          (n) => n.id === filenames[key]
-        ).nodeVal += 1
-        nodes.find(
-          (n) => n.id === filenames[neighbor]
-        ).nodeVal += 1
+        nodes.find((n) => n.id === filenames[key])
+          .nodeRelSize++
+        node.nodeRelSize++
       })
     }
   }
@@ -91,7 +87,7 @@ export const GraphView3d = (props: {
 
             useEffect(() => {
               const bloomPass = new UnrealBloomPass()
-              bloomPass.strength = 3
+              bloomPass.strength = 2
               bloomPass.radius = 1
               bloomPass.threshold = 0.1
               fgRef.current
@@ -125,8 +121,8 @@ export const GraphView3d = (props: {
                   return `#${node.id}`
                 }}
                 linkColor={() => '#4976ca'}
-                linkOpacity={0.5}
-                linkWidth={0.2}
+                linkOpacity={0.3}
+                linkWidth={0.3}
                 showNavInfo={false}
                 onNodeClick={(node) => {
                   window.location.href = '/r/' + node.id
