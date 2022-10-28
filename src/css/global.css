@@ -83,14 +83,14 @@ figure > p {
 
 figure > p > img {
   display: block;
-  margin: 0 auto;
+  margin: 0.5rem auto;
   padding: 0;
   border: 2px solid var(--ifm-menu-color-background-active);
 }
 
 figcaption {
   text-align: center;
-  margin: 0.5rem auto;
+  margin: 0 auto 0.5rem auto;
   font-size: 0.8rem;
   color: var(--ifm-color-emphasis-700);
 }
