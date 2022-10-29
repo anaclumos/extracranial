@@ -2,15 +2,20 @@
   color: var(--ifm-color-primary);
 }
 
+.emojiReplaceableText > img {
+  filter: none;
+}
+
 .emojiReplaceableText:hover {
   cursor: pointer;
 }
 
-.border {
+.photo {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
     0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  filter: none;
 }
 
 .emoji {

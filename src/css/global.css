@@ -121,3 +121,7 @@ iframe {
 [data-theme='dark'] img:hover {
   filter: brightness(1);
 }
+
+.navbar__logo > img {
+  filter: none;
+}
