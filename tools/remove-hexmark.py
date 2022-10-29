@@ -6,7 +6,7 @@ def getHex():
     return hex(int(os.urandom(4).hex(), 16))[2:8].upper()
 
 
-targets = ["./Brain"]
+targets = ["./Research"]
 COUNTER = 0
 
 all_md_files = []

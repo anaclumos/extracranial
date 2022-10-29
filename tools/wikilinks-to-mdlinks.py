@@ -1,6 +1,6 @@
 import shutil
 import os
-SOURCE_DIR = './Brain'
+SOURCE_DIR = './Research'
 DESTINATION_DIR = './docs'
 DEBUG = False
 

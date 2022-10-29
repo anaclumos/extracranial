@@ -7,7 +7,7 @@ const getMostRecentJournalLink = () => {
     const filePath = path.join(
       __dirname,
       '..',
-      'Brain',
+      'Research',
       'Journals',
       file + '.md'
     )

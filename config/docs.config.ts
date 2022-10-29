@@ -38,7 +38,7 @@ const docs = {
   showLastUpdateAuthor: false,
   showLastUpdateTime: false,
   editUrl: ({ docPath }) => {
-    return `https://github.com/anaclumos/extracranial/tree/main/Brain/${docPath}`
+    return `https://github.com/anaclumos/extracranial/tree/main/Research/${docPath}`
   },
   remarkPlugins: [latex.math],
   rehypePlugins: [latex.katex],
