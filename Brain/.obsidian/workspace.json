@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-28.md",
+                "file": "Memex/Reverse Engineering Apple Music API.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-28.md",
+                "file": "Memex/Reverse Engineering Apple Music API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-28.md"
+                "file": "Memex/Reverse Engineering Apple Music API.md"
               }
             }
           },
@@ -147,11 +147,11 @@
   },
   "active": "13fbeeb061830d88",
   "lastOpenFiles": [
+    "Journals/2022-10-28.md",
     "Memex/Reverse Engineering Apple Music API.md",
     "Memex/GitHub Actions.md",
     "Memex/DX.md",
     "Memex/Apple Music API.md",
-    "Journals/2022-10-28.md",
     "Assets/3C6B0B.png",
     "Journals/2022-10-27.md",
     "Journals/2022-10-25.md",
