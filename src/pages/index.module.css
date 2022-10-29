@@ -39,10 +39,7 @@
   user-select: none;
 }
 
-/* image inline, make it circular */
 .intro img {
-  height: 38px;
-  width: 38px;
   display: inline-block;
   vertical-align: text-bottom;
 }
