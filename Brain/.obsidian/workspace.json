@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "11b1219a125d6ab5",
+        "id": "8bde7afa08620f1d",
         "type": "tabs",
         "children": [
           {
-            "id": "13fbeeb061830d88",
+            "id": "c4f648fd8b47e167",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Dynamic Island on the Web.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "46ed602886bf9572",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Reverse Engineering Apple Music API.md",
+                "file": "Memex/Building a Second Brain.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Dynamic Island on the Web.md",
+                "file": "Memex/Building a Second Brain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Dynamic Island on the Web.md"
+                "file": "Memex/Building a Second Brain.md"
               }
             }
           },
@@ -144,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "aa73c60d583d3db3",
+  "active": "c4f648fd8b47e167",
   "lastOpenFiles": [
-    "Memex/Reverse Engineering Apple Music API.md",
-    "Projects/Dynamic Island on the Web.md",
     "Journals/2022-10-28.md",
-    "Memex/GitHub Actions.md",
-    "Memex/DX.md",
-    "Memex/Apple Music API.md",
-    "Assets/3C6B0B.png",
-    "Journals/2022-10-27.md",
-    "Journals/2022-10-25.md",
-    "Memex/Memex.md"
+    "Memex/한자 타자기.md",
+    "Memex/Readings.md",
+    "Memex/The New Era of macOS Applications.md",
+    "Memex/Separation of Computer Scientists and Computer Technologists.md",
+    "Memex/sem.sh.md",
+    "Memex/Old Fashioned Camera.md",
+    "Memex/Off The Record.md",
+    "Memex/Markdown Email Client.md",
+    "Memex/FFMpeg for iPad.md"
   ]
 }
