@@ -82,6 +82,7 @@ export const backlinks = {
         "2022-07-10": "## [[Coding Tests]]\n",
         "2022-08-26": "- [[Coding Tests]]\n",
         "2022-08-27": "## [[Coding Tests]]\n",
+        "2022-10-29": "## [[Coding Tests]]\n",
         "2022-08-30": "## [[Coding Tests]]\n",
         "2022-06-06": "- [[Coding Tests]] questions - Grind 75 - A better Blind 75 you can ...",
         "2022-09-20": "## [[Coding Tests]]\n",
@@ -380,6 +381,7 @@ export const backlinks = {
         "2022-06-21": "## Today's [[Hacker News]]\n",
         "2022-10-18": "## [[Hacker News|HN]]\n",
         "2022-09-29": "## Today's [[Hacker News]]\n",
+        "2022-10-29": "## [[Hacker News|HN]]\n",
         "2022-10-19": "## [[Hacker News|HN]]\n",
         "2022-09-09": "## Today's [[Hacker News]]\n",
         "2022-07-09": "... wikilinks to Markdown links. For example, this is a wikilink to [[Hacker News]].\n",
@@ -402,6 +404,7 @@ export const backlinks = {
         "2022-07-05": "- [[Matt Rickard]]\n",
         "2022-10-23": "- [[Matt Rickard]]\n",
         "2022-09-18": "- [[Matt Rickard]]\n",
+        "2022-10-29": "- [[Matt Rickard]]: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]\n",
         "2022-09-20": "- [[Matt Rickard]]\n",
         "2022-09-25": "- [[Matt Rickard]]\n",
         "eBPF": "- [[Matt Rickard]]\n",
@@ -858,6 +861,50 @@ export const backlinks = {
         "2022-09-29": "- [[한자 타자기]]\n",
         "Readings": "- [ ] [[한자 타자기]]\n"
     },
+    "Ethereum RPC as a Service": {
+        "2022-10-29": "- Matt Rickard: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]\n",
+        "Matt Rickard": "- [[Ethereum RPC as a Service]]\n"
+    },
+    "Is AWS a Dumb Pipe": {
+        "2022-10-29": "- Matt Rickard: Ethereum RPC as a Service, [[Is AWS a Dumb Pipe]]\n",
+        "Matt Rickard": "- [[Is AWS a Dumb Pipe]]\n"
+    },
+    "Project": {
+        "2022-10-29": "## [[Project]]\n",
+        "사회과부도": "- Someday [[Project]]\n",
+        "Cube": "- Someday [[Project]]\n",
+        "Alter": "- Someday [[Project]]\n",
+        "The New Era of macOS Applications": "- Someday [[Project]]\n",
+        "Intracranial": "- Someday [[Project]]\n",
+        "Coding Tests": "- [[Project]]\n",
+        "FFMpeg for iPad": "- Someday [[Project]]\n",
+        "Project PEOPLE": "- [[Project]]\n",
+        "AIs.txt": "- [[Project]]\n",
+        "Markdown Email Client": "- Someday [[Project]]\n",
+        "Separation of Computer Scientists and Computer Technologists": "- Someday [[Project]]\n",
+        "CalliFontia": "- Someday [[Project]]\n",
+        "Autosave Everything": "- Someday [[Project]]\n",
+        "Off The Record": "- Someday [[Project]]\n",
+        "TossFace Playground": "- [[Project]] [[Done]]\n",
+        "CELLO": "- [[Project]]\n",
+        "조선왕조실록": "- Someday [[Project]]\n",
+        "Apple Earth": "- Someday [[Project]]\n",
+        "Open Graph Image as a Service": "- Someday [[Project]]\n",
+        "Better Hacker News": "- Someday [[Project]]\n",
+        "Better Aldehyde": "- [[Project]]\n",
+        "sem.sh": "- Someday [[Project]]\n",
+        "Dynamic Island on the Web": "- [[Project]]\n",
+        "UUIDs are Awesome": "- Someday [[Project]]\n",
+        "Better Docusaurus": "- Someday [[Project]]\n",
+        "Chopstick Game": "- Someday [[Project]]\n",
+        "Timebelt": "- Someday [[Project]]\n",
+        "Not-So-Procrastinating Lazy Loading": "- Someday [[Project]]\n",
+        "Digital Addictions of Software Enthusiasts": "- Someday [[Project]]\n",
+        "Quoridor Game": "- Someday [[Project]]\n",
+        "Old Fashioned Camera": "- Someday [[Project]]\n",
+        "iiframe": "- Someday [[Project]]\n",
+        "Metadata as a Service": "- Someday [[Project]]\n"
+    },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]\n"
     },
@@ -1017,7 +1064,7 @@ export const backlinks = {
     "Developing Review Notes for Obsidian": {
         "2022-07-19": "- [[Developing Review Notes for Obsidian]]\n",
         "2022-07-26": "- [[Developing Review Notes for Obsidian]]\n",
-        "Better Obsidian": "- [[Developing Review Notes for Obsidian]]"
+        "Better Obsidian": "- [[Developing Review Notes for Obsidian]]\n"
     },
     "Markdown": {
         "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].\n",
@@ -1394,41 +1441,6 @@ export const backlinks = {
     "3d Globe on the Web": {
         "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization | LeoLabs\n",
         "3d on the Web": "- [[3d Globe on the Web]]\n"
-    },
-    "Project": {
-        "사회과부도": "- Someday [[Project]]\n",
-        "Cube": "- Someday [[Project]]\n",
-        "Alter": "- Someday [[Project]]\n",
-        "The New Era of macOS Applications": "- Someday [[Project]]\n",
-        "Intracranial": "- Someday [[Project]]\n",
-        "Coding Tests": "- [[Project]]\n",
-        "FFMpeg for iPad": "- Someday [[Project]]\n",
-        "Project PEOPLE": "- [[Project]]\n",
-        "AIs.txt": "- [[Project]]\n",
-        "Markdown Email Client": "- Someday [[Project]]\n",
-        "Separation of Computer Scientists and Computer Technologists": "- Someday [[Project]]\n",
-        "CalliFontia": "- Someday [[Project]]\n",
-        "Autosave Everything": "- Someday [[Project]]\n",
-        "Off The Record": "- Someday [[Project]]\n",
-        "TossFace Playground": "- [[Project]] [[Done]]\n",
-        "CELLO": "- [[Project]]\n",
-        "조선왕조실록": "- Someday [[Project]]\n",
-        "Apple Earth": "- Someday [[Project]]\n",
-        "Open Graph Image as a Service": "- Someday [[Project]]\n",
-        "Better Hacker News": "- Someday [[Project]]\n",
-        "Better Aldehyde": "- [[Project]]\n",
-        "sem.sh": "- Someday [[Project]]\n",
-        "Dynamic Island on the Web": "- [[Project]]\n",
-        "UUIDs are Awesome": "- Someday [[Project]]\n",
-        "Better Docusaurus": "- Someday [[Project]]\n",
-        "Chopstick Game": "- Someday [[Project]]\n",
-        "Timebelt": "- Someday [[Project]]\n",
-        "Not-So-Procrastinating Lazy Loading": "- Someday [[Project]]\n",
-        "Digital Addictions of Software Enthusiasts": "- Someday [[Project]]\n",
-        "Quoridor Game": "- Someday [[Project]]\n",
-        "Old Fashioned Camera": "- Someday [[Project]]\n",
-        "iiframe": "- Someday [[Project]]\n",
-        "Metadata as a Service": "- Someday [[Project]]\n"
     },
     "F9FC1A.png": {
         "Swift": "![[F9FC1A.png]]\n"
