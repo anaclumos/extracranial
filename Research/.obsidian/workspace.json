@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "8bde7afa08620f1d",
+        "id": "0e5a19b61298af53",
         "type": "tabs",
         "children": [
           {
-            "id": "c4f648fd8b47e167",
+            "id": "ab714be74f211014",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-10-28.md",
+                "file": "Journals/2022-10-29.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0d2120f37f289e67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Is AWS a Dumb Pipe.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-28.md",
+                "file": "Journals/2022-10-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-10-28.md"
+                "file": "Journals/2022-10-29.md"
               }
             }
           },
@@ -131,17 +144,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "c4f648fd8b47e167",
+  "active": "ab714be74f211014",
   "lastOpenFiles": [
+    "Memex/Matt Rickard.md",
+    "Memex/Is AWS a Dumb Pipe.md",
+    "Memex/Ethereum RPC as a Service.md",
+    "Journals/2022-10-29.md",
+    "Memex/Project.md",
+    "Templates/journal.md",
+    "Templates/note.md",
+    "Templates/person.md",
     "Journals/2022-10-28.md",
-    "Memex/한자 타자기.md",
-    "Memex/Readings.md",
-    "Memex/The New Era of macOS Applications.md",
-    "Memex/Separation of Computer Scientists and Computer Technologists.md",
-    "Memex/sem.sh.md",
-    "Memex/Old Fashioned Camera.md",
-    "Memex/Off The Record.md",
-    "Memex/Markdown Email Client.md",
-    "Memex/FFMpeg for iPad.md"
+    "Memex/한자 타자기.md"
   ]
 }

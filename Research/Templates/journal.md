@@ -10,4 +10,4 @@ slug: '/{{date:YYYY-MM-DD}}'
 
 ## [[Hacker News|HN]]
 
-This is a gentle reminder to copy-paste ongoing projects and todos
+## [[Project]]
