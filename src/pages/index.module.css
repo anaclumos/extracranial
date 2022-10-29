@@ -40,6 +40,8 @@
 }
 
 .intro img {
+  width: 2.4rem;
+  height: 2.4rem;
   display: inline-block;
   vertical-align: text-bottom;
 }
