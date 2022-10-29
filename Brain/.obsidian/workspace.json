@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Reverse Engineering Apple Music API.md",
-                "mode": "source",
+                "file": "Projects/Dynamic Island on the Web.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -79,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Reverse Engineering Apple Music API.md",
+                "file": "Projects/Dynamic Island on the Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Reverse Engineering Apple Music API.md"
+                "file": "Projects/Dynamic Island on the Web.md"
               }
             }
           },
@@ -145,17 +144,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "13fbeeb061830d88",
+  "active": "aa73c60d583d3db3",
   "lastOpenFiles": [
-    "Journals/2022-10-28.md",
     "Memex/Reverse Engineering Apple Music API.md",
+    "Projects/Dynamic Island on the Web.md",
+    "Journals/2022-10-28.md",
     "Memex/GitHub Actions.md",
     "Memex/DX.md",
     "Memex/Apple Music API.md",
     "Assets/3C6B0B.png",
     "Journals/2022-10-27.md",
     "Journals/2022-10-25.md",
-    "Memex/Memex.md",
-    "Memex/Super App and Democracy.md"
+    "Memex/Memex.md"
   ]
 }

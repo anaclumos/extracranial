@@ -5,6 +5,13 @@ slug: '/B21605'
 
 - [[Dynamic Island]] on the Web
 
+## [[2022-10-28]]
+
+- [[Reverse Engineering Apple Music API]]
+- I can now make API requests to find out what I was listening to.
+
+![[413165.png]]
+
 ## [[2022-10-20]]
 
 I finally got the knack for how to animate and accelerate things.
