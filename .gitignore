@@ -3,7 +3,7 @@
 *.stylesheet.js
 blog
 docs
-Brain/.obsidian/plugins
+Research/.obsidian/plugins
 i18n/ko/docusaurus-plugin-content-blog/*/*
 
 # Dependencies

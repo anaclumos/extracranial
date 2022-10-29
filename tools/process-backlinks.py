@@ -1,7 +1,7 @@
 import os
 import re
 
-target_directory = "./Brain"
+target_directory = "./Research"
 
 all_md_files = []
 

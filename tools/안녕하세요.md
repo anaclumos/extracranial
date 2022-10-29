@@ -10,7 +10,7 @@ slug: '/'
 
 <figure>
 
-![제 HTTP 요청 지도입니다 🌏 🌎 🌍](../../../../Brain/Assets/5BE46A.png)
+![제 HTTP 요청 지도입니다 🌏 🌎 🌍](../../../../Research/Assets/5BE46A.png)
 
 <figcaption>제 HTTP 요청 지도입니다 🌏 🌎 🌍</figcaption>
 </figure>
