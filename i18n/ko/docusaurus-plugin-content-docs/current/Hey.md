@@ -33,7 +33,7 @@ import Link from '@docusaurus/Link'
 
 <figure>
 
-![모든 기록은 다른 노트들과 상호 연결됩니다.](../../../../Brain/Assets/2D738C.gif)
+![모든 기록은 다른 노트들과 상호 연결됩니다.](../../../../Research/Assets/2D738C.gif)
 
 <figcaption>모든 기록은 다른 노트들과 상호 연결됩니다.</figcaption>
 </figure>
