@@ -16,7 +16,7 @@ slug: '/8481ED'
 - ml team
 - business team
 - testing team
-- dx team
+- [[dx]] team
 - growth team
 - data engineer team
 

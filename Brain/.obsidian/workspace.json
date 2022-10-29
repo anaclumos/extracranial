@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "903081996d6aadb6",
+        "id": "11b1219a125d6ab5",
         "type": "tabs",
         "children": [
           {
-            "id": "4cd58421f921ee97",
+            "id": "13fbeeb061830d88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Journals/2022-10-28.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "46ed602886bf9572",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Reverse Engineering Apple Music API.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -132,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "4cd58421f921ee97",
+  "active": "13fbeeb061830d88",
   "lastOpenFiles": [
+    "Memex/Reverse Engineering Apple Music API.md",
+    "Memex/GitHub Actions.md",
+    "Memex/DX.md",
+    "Memex/Apple Music API.md",
+    "Journals/2022-10-28.md",
+    "Assets/3C6B0B.png",
     "Journals/2022-10-27.md",
     "Journals/2022-10-25.md",
-    "Journals/2022-10-28.md",
     "Memex/Memex.md",
-    "Memex/Super App and Democracy.md",
-    "Memex/Universal Identity.md",
-    "Memex/Small yet Powerful.md",
-    "Memex/Government Services should have full API support.md",
-    "Memex/Interoperability.md",
-    "Memex/Blockchain.md"
+    "Memex/Super App and Democracy.md"
   ]
 }
