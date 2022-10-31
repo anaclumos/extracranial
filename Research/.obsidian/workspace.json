@@ -8,29 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab714be74f211014",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-29.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "0d2120f37f289e67",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Is AWS a Dumb Pipe.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -99,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-10-29.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "ab714be74f211014",
+  "active": "0d2120f37f289e67",
   "lastOpenFiles": [
-    "Memex/Matt Rickard.md",
-    "Memex/Is AWS a Dumb Pipe.md",
-    "Memex/Ethereum RPC as a Service.md",
+    "Journals/2022-10-30.md",
     "Journals/2022-10-29.md",
+    "Journals/2022-10-31.md",
+    "Memex/Is AWS a Dumb Pipe.md",
+    "Memex/Matt Rickard.md",
+    "Memex/Ethereum RPC as a Service.md",
     "Memex/Project.md",
     "Templates/journal.md",
     "Templates/note.md",
-    "Templates/person.md",
-    "Journals/2022-10-28.md",
-    "Memex/한자 타자기.md"
+    "Templates/person.md"
   ]
 }
