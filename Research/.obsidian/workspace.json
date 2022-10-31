@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e2ecb979d06a2bfe",
+        "id": "9bd3562d987f5aae",
         "type": "tabs",
         "children": [
           {
-            "id": "84f84a0d68089eba",
+            "id": "f292220813fa9b73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-31.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f300e83d114cf803",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-10-31.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-10-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Journals/2022-10-31.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f300e83d114cf803",
+  "active": "f292220813fa9b73",
   "lastOpenFiles": [
     "Memex/수적천석.md",
-    "Memex/Atomicity.md",
     "Journals/2022-10-31.md",
+    "Memex/InterviewKit.md",
     "Memex/Jetski.md",
+    "Memex/Atomicity.md",
     "Memex/2022년 11월 한 달간 일기 쓰기.md",
     "Memex/Cosmic noises of life.md",
     "Journals/2022-10-12.md",
     "Memex/Haruki Murakami.md",
-    "Journals/2022-06-12.md",
-    "Templates/journal.md"
+    "Journals/2022-06-12.md"
   ]
 }
