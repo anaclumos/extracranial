@@ -14,4 +14,4 @@ You will hear a shimmering, lingering background noise — just like the [Cosmic
 For me, that was:
 
 - Knowledge is the core value
-- Persistence is the key
+- [[수적천석|Persistence]] is the key
