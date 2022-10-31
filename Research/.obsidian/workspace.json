@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0e5a19b61298af53",
+        "id": "e2ecb979d06a2bfe",
         "type": "tabs",
         "children": [
           {
-            "id": "0d2120f37f289e67",
+            "id": "84f84a0d68089eba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "7feddac247b5a0b7",
+            "id": "f300e83d114cf803",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "7feddac247b5a0b7",
+  "active": "f300e83d114cf803",
   "lastOpenFiles": [
-    "Memex/2022년 11월 한 달간 일기 쓰기.md",
-    "Journals/2022-10-31.md",
     "Memex/수적천석.md",
+    "Memex/Atomicity.md",
+    "Journals/2022-10-31.md",
+    "Memex/Jetski.md",
+    "Memex/2022년 11월 한 달간 일기 쓰기.md",
     "Memex/Cosmic noises of life.md",
     "Journals/2022-10-12.md",
     "Memex/Haruki Murakami.md",
     "Journals/2022-06-12.md",
-    "Templates/journal.md",
-    "Templates/note.md",
-    "Hey.md"
+    "Templates/journal.md"
   ]
 }
