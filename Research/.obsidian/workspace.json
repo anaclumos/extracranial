@@ -26,19 +26,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Cosmic noises of life.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d3d379645e4d8572",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Journals/2022-10-31.md",
                 "mode": "source",
                 "backlinks": true,
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,15 +146,15 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "d3d379645e4d8572",
+  "active": "7feddac247b5a0b7",
   "lastOpenFiles": [
-    "Memex/Cosmic noises of life.md",
+    "Memex/2022년 11월 한 달간 일기 쓰기.md",
+    "Journals/2022-10-31.md",
     "Memex/수적천석.md",
+    "Memex/Cosmic noises of life.md",
     "Journals/2022-10-12.md",
     "Memex/Haruki Murakami.md",
     "Journals/2022-06-12.md",
-    "Journals/2022-10-31.md",
-    "Memex/2022년 11월 한 달간 일기 쓰기.md",
     "Templates/journal.md",
     "Templates/note.md",
     "Hey.md"
