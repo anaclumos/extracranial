@@ -11,11 +11,43 @@
             "id": "0d2120f37f289e67",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-31.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7feddac247b5a0b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Cosmic noises of life.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d3d379645e4d8572",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-10-31.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "{{hex}}",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journals/2022-10-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journals/2022-10-31.md"
+              }
             }
           },
           {
@@ -123,17 +159,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "0d2120f37f289e67",
+  "active": "d3d379645e4d8572",
   "lastOpenFiles": [
-    "Journals/2022-10-30.md",
-    "Journals/2022-10-29.md",
+    "Memex/Cosmic noises of life.md",
+    "Memex/수적천석.md",
+    "Journals/2022-10-12.md",
+    "Memex/Haruki Murakami.md",
+    "Journals/2022-06-12.md",
     "Journals/2022-10-31.md",
-    "Memex/Is AWS a Dumb Pipe.md",
-    "Memex/Matt Rickard.md",
-    "Memex/Ethereum RPC as a Service.md",
-    "Memex/Project.md",
+    "Memex/2022년 11월 한 달간 일기 쓰기.md",
     "Templates/journal.md",
     "Templates/note.md",
-    "Templates/person.md"
+    "Hey.md"
   ]
 }
