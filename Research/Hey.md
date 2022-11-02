@@ -57,7 +57,7 @@ Every note will be [[evergreen notes]], interrelating with additional notes, ill
 ## Tech Stacks
 
 I use [[Obsidian]] for taking notes.
-I then then pipeline those notes into a heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.
+I then pipeline those notes into a heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.
 I finally use [[Vercel]] for deploying, caching, and distributing.
 
 I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial).
