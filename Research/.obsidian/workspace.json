@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "9bd3562d987f5aae",
+        "id": "bc049a6351ecb7cd",
         "type": "tabs",
         "children": [
           {
-            "id": "f292220813fa9b73",
+            "id": "aa3744cc89ca8303",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-11-01.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "fe6725e25b4dd3f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/Search Engine Indexing Your Life.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Memex/Search Engine Indexing Your Life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Memex/Search Engine Indexing Your Life.md"
+              }
             }
           },
           {
@@ -123,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f292220813fa9b73",
+  "active": "fe6725e25b4dd3f1",
   "lastOpenFiles": [
-    "Memex/수적천석.md",
+    "Journals/2022-11-01.md",
     "Journals/2022-10-31.md",
+    "Memex/수적천석.md",
     "Memex/InterviewKit.md",
     "Memex/Jetski.md",
     "Memex/Atomicity.md",
     "Memex/2022년 11월 한 달간 일기 쓰기.md",
     "Memex/Cosmic noises of life.md",
     "Journals/2022-10-12.md",
-    "Memex/Haruki Murakami.md",
-    "Journals/2022-06-12.md"
+    "Memex/Haruki Murakami.md"
   ]
 }
