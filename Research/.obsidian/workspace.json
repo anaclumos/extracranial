@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bc049a6351ecb7cd",
+        "id": "243d45d8ef9d71af",
         "type": "tabs",
         "children": [
           {
-            "id": "aa3744cc89ca8303",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2022-11-01.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fe6725e25b4dd3f1",
+            "id": "6fac82faa672eb75",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "fe6725e25b4dd3f1",
+  "active": "6fac82faa672eb75",
   "lastOpenFiles": [
-    "Memex/2022년 11월 한 달간 일기 쓰기.md",
-    "Journals/2022-11-01.md",
+    "Memex/Maserati Problem.md",
     "Journals/2022-11-02.md",
-    "Memex/Search Engine Indexing Your Life.md",
+    "Journals/2022-11-01.md",
     "Journals/2022-10-31.md",
+    "Memex/2022년 11월 한 달간 일기 쓰기.md",
+    "Memex/Search Engine Indexing Your Life.md",
     "Memex/수적천석.md",
     "Memex/InterviewKit.md",
     "Memex/Jetski.md",
-    "Memex/Atomicity.md",
-    "Memex/Cosmic noises of life.md"
+    "Memex/Atomicity.md"
   ]
 }
