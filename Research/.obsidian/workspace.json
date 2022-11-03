@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Search Engine Indexing Your Life.md",
+                "file": "Journals/2022-11-02.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Search Engine Indexing Your Life.md",
+                "file": "Journals/2022-11-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Search Engine Indexing Your Life.md"
+                "file": "Journals/2022-11-02.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "fe6725e25b4dd3f1",
   "lastOpenFiles": [
+    "Memex/2022년 11월 한 달간 일기 쓰기.md",
     "Journals/2022-11-01.md",
+    "Journals/2022-11-02.md",
+    "Memex/Search Engine Indexing Your Life.md",
     "Journals/2022-10-31.md",
     "Memex/수적천석.md",
     "Memex/InterviewKit.md",
     "Memex/Jetski.md",
     "Memex/Atomicity.md",
-    "Memex/2022년 11월 한 달간 일기 쓰기.md",
-    "Memex/Cosmic noises of life.md",
-    "Journals/2022-10-12.md",
-    "Memex/Haruki Murakami.md"
+    "Memex/Cosmic noises of life.md"
   ]
 }
