@@ -3,6 +3,6 @@ lang: 'en'
 slug: '/85E49D'
 ---
 
-> Jira (/ˈdʒiːrə/ JEE-rə) is a proprietary issue-tracking product developed by Atlassian that allows bug tracking and agile project management. [Jira (software)](<https://en.wikipedia.org/wiki/Jira_(software)>)
+> Jira is a proprietary issue-tracking product developed by Atlassian that allows bug tracking and agile project management. [Jira (software)](<https://en.wikipedia.org/wiki/Jira_(software)>)
 
 - Used at [[Karrot]]
