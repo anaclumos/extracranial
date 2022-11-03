@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "243d45d8ef9d71af",
+        "id": "a9bed1d6b416928c",
         "type": "tabs",
         "children": [
           {
-            "id": "6fac82faa672eb75",
+            "id": "5cb4c1ce38d3726b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2022-11-02.md",
+                "file": "Journals/2022-11-03.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journals/2022-11-02.md",
+                "file": "Journals/2022-11-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2022-11-02.md"
+                "file": "Journals/2022-11-03.md"
               }
             }
           },
@@ -131,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "6fac82faa672eb75",
+  "active": "5cb4c1ce38d3726b",
   "lastOpenFiles": [
-    "Memex/Maserati Problem.md",
+    "Journals/2022-11-03.md",
     "Journals/2022-11-02.md",
+    "Memex/Maserati Problem.md",
     "Journals/2022-11-01.md",
     "Journals/2022-10-31.md",
     "Memex/2022년 11월 한 달간 일기 쓰기.md",
     "Memex/Search Engine Indexing Your Life.md",
     "Memex/수적천석.md",
     "Memex/InterviewKit.md",
-    "Memex/Jetski.md",
-    "Memex/Atomicity.md"
+    "Memex/Jetski.md"
   ]
 }
