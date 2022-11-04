@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2f591fee7f912ddd",
+        "id": "fb0ff0c7030fb26a",
         "type": "tabs",
         "children": [
           {
-            "id": "8e8ddaa0f33ba0f0",
+            "id": "223a881a8d88af03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Toss.md",
-                "mode": "source",
+                "file": "pages/Cache Write Policy.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Toss.md",
+                "file": "pages/Cache Write Policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Toss.md"
+                "file": "pages/Cache Write Policy.md"
               }
             }
           },
@@ -131,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "8e8ddaa0f33ba0f0",
+  "active": "223a881a8d88af03",
   "lastOpenFiles": [
-    "pages/Android.md",
-    "pages/Open Graph Image as a Service.md",
-    "pages/0141 Linked List Cycle.md",
-    "journals/2022-06-26.md",
-    "pages/Apple vs Spotify.md",
-    "pages/Either be the best-in-class or the most efficient.md",
-    "pages/Individual Case Study.md",
-    "pages/Guestbook.md",
-    "pages/Try Removing.md",
-    "journals/2022-09-18.md"
+    "pages/Caching.md",
+    "journals/2022-11-04.md",
+    "journals/2022-11-03.md",
+    "pages/Cache Evictions.md",
+    "pages/Cache Write Policy.md",
+    "pages/Cache Mapping.md",
+    "pages/42DC28.png.md",
+    "pages/iiframe.md",
+    "pages/2022년 11월 한 달간 일기 쓰기.md",
+    "pages/Android.md"
   ]
 }
