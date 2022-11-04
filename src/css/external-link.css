@@ -1,7 +1,7 @@
 article a[href^='http']::before {
   background-color: var(--ifm-link-color);
-  width: 1em;
-  height: 1em;
+  width: 1.2em;
+  height: 1.2em;
   margin-left: 0.1em;
   margin-right: 0.2em;
   margin-bottom: 0.2em;
