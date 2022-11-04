@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/90CAE6'
 ---
 
 - While with logical operators, it is possible to check if a value exists or not, if a block can be anywhere, we need to search everywhere.
