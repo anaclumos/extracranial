@@ -1,16 +1,15 @@
 .backlinkTable {
   width: 100%;
   height: 100%;
-  padding: 1rem 1rem 0 1rem;
+  padding: var(--ifm-global-spacing);
   margin-top: var(--ifm-spacing-vertical);
   border-radius: var(--ifm-pagination-nav-border-radius);
-  border: 1px solid var(--ifm-color-emphasis-300);
+  border: 2px solid var(--ifm-menu-color-background-active);
 }
 
 .backlinkTableH2 {
-  padding: 0.5rem 0.5rem 0 0.5rem;
-  font-size: 1rem;
-  color: var(--ifm-color-emphasis-600);
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-400);
 }
 
 .backlinkGridView {
@@ -31,7 +30,6 @@
 }
 
 .backlinkItem {
-  padding: 0.5rem;
   border-radius: var(--border-radius);
   transition: background-color 0.2s ease-in-out;
 }
@@ -57,7 +55,7 @@
 }
 
 .noBacklink {
-  font-size: 1rem;
-  padding: 1rem 0.5rem 0 0.5rem;
-  color: var(--ifm-color-emphasis-500);
+  font-size: 0.8rem;
+
+  color: var(--ifm-color-emphasis-400);
 }
