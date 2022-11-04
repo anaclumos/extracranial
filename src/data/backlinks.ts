@@ -887,6 +887,9 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨\n",
         "Better Aldehyde": "- [[Aldehyde]]\n"
     },
+    "Diminishing Cost of Service": {
+        "2022-11-03": "- [[Diminishing Cost of Service]]\n"
+    },
     "Project": {
         "2022-11-03": "## [[Project]]\n",
         "2022-10-31": "## [[Project]]\n",

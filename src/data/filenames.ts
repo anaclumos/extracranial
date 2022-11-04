@@ -449,6 +449,7 @@ export const filenames = {
     "Palantir Foundry": "E1AC41",
     "Better Obsidian": "9E4E7C",
     "Code Quality for Game Programming": "46ED3F",
+    "Diminishing Cost of Service": "{{hex}}",
     "Mood.surf": "60F0D6",
     "Realm Shim": "B648C6",
     "Google": "E4EE68",
