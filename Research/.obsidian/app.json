@@ -9,9 +9,9 @@
   "showFrontmatter": true,
   "showLineNumber": true,
   "strictLineBreaks": true,
-  "attachmentFolderPath": "Assets",
+  "attachmentFolderPath": "assets",
   "newFileLocation": "folder",
-  "newFileFolderPath": "Memex",
+  "newFileFolderPath": "pages",
   "tabSize": 4,
   "alwaysUpdateLinks": true,
   "readableLineLength": false

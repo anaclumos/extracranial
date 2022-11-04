@@ -11,11 +11,30 @@
             "id": "9838fba0976dc3c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-03.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9a16c5bca04deda5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Memory Hierarchy and Caching.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -82,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Memory Hierarchy and Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Memory Hierarchy and Caching.md"
+              }
             }
           },
           {
@@ -124,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "9838fba0976dc3c5",
+  "active": "9a16c5bca04deda5",
   "lastOpenFiles": [
+    "journals/2022-11-03.md",
+    "pages/Principles of Locality.md",
+    "pages/Memory Wall.md",
+    "logseq/bak/journals/2022-11-03/2022-11-04T05_09_55.558Z.Desktop.md",
+    "Untitled.md",
+    "pages/Latency and Throughput.md",
     "Journals/2022-11-03.md",
     "Memex/ARM Architecture.md",
     "Memex/Computer Systems.md",
-    "Memex/Inspecting Assembly.md",
-    "Memex/Base Frame Pointer.md",
-    "Memex/Iron Law of Processor Performance.md",
-    "Memex/Buffer Overflow Attacks.md",
-    "Memex/水適穿石.md",
-    "Memex/2022년 11월 한 달간 일기 쓰기.md",
-    "Journals/2022-06-12.md"
+    "Memex/Inspecting Assembly.md"
   ]
 }
