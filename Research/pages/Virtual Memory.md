@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/8778CD'
 ---
 
 - insulate different processes
