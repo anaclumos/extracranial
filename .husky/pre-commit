@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-
- npx --no-install lint-staged
  # https://github.com/typicode/husky/issues/506
  yarn preprocess
