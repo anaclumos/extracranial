@@ -58,6 +58,7 @@ export default function DocItemLayout({
       >
         <DocVersionBanner />
         <div className={styles.docItemContainer}>
+          <DocItemPaginator />
           <article>
             <DocBreadcrumbs />
             <DocVersionBadge />

@@ -1,0 +1,8 @@
+.docPaginator {
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+.docPaginator:first-child {
+  margin-top: -1.5rem;
+  border: 0;
+}
