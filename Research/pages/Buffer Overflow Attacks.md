@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/BC676B'
 ---
 
+- [[Computer Systems]]
+
 ## Buffer Overflow
 
 - In C, many strings-related functions do not check the bound.

@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/B793D1'
 ---
 
+- [[Computer Systems]]
 - Implementation of [[Principles of Locality]].
 - Solution to the [[Memory Wall]].
 - Use layers of memory to hide the delay of memories.

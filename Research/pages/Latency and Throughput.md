@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/C885AA'
 ---
 
+- [[Computer Systems]]
+
 ## Latency
 
 - total time for a single operation to complete
