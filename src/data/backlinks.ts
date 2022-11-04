@@ -82,7 +82,6 @@ export const backlinks = {
         "2022-07-10": "## [[Coding Tests]]\n",
         "2022-08-26": "- [[Coding Tests]]\n",
         "2022-08-27": "## [[Coding Tests]]\n",
-        "2022-11-03": "## [[Coding Tests]]\n",
         "2022-08-30": "## [[Coding Tests]]\n",
         "2022-06-06": "- [[Coding Tests]] questions - Grind 75 - A better Blind 75 you can ...",
         "2022-09-20": "## [[Coding Tests]]\n",
@@ -383,7 +382,6 @@ export const backlinks = {
         "2022-06-21": "## Today's [[Hacker News]]\n",
         "2022-10-18": "## [[Hacker News|HN]]\n",
         "2022-09-29": "## Today's [[Hacker News]]\n",
-        "2022-11-03": "## [[Hacker News|HN]]\n",
         "2022-10-19": "## [[Hacker News|HN]]\n",
         "2022-09-09": "## Today's [[Hacker News]]\n",
         "2022-07-09": "... wikilinks to Markdown links. For example, this is a wikilink to [[Hacker News]].\n",
@@ -844,7 +842,7 @@ export const backlinks = {
     "2022년 11월 한 달간 일기 쓰기": {
         "2022-11-02": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]\n",
         "2022-11-03": "- [x] [[2022년 11월 한 달간 일기 쓰기]]\n",
-        "2022-11-01": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]\n",
+        "2022-11-01": "- [x] [[2022년 11월 한 달간 일기 쓰기]]\n",
         "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]\n"
     },
     "Apple Music API": {
@@ -890,6 +888,26 @@ export const backlinks = {
     "Diminishing Cost of Service": {
         "2022-11-03": "- [[Diminishing Cost of Service]]\n"
     },
+    "Computer Systems": {
+        "2022-11-03": "- [[Computer Systems]]\n",
+        "Structs and Unions": "- In [[Computer Systems]], structs are collections of heterogeneous data\n"
+    },
+    "Structs and Unions": {
+        "2022-11-03": "- [[Structs and Unions]]\n"
+    },
+    "Buffer Overflow Attacks": {
+        "2022-11-03": "- [[Buffer Overflow Attacks]]\n"
+    },
+    "Base Frame Pointer": {
+        "2022-11-03": "- [[Base Frame Pointer]]\n",
+        "ARM Architecture": "... Frame pointer `fp` is an alias of `x29`. Same as `rbp` ([[Base Frame Pointer]])\n"
+    },
+    "Iron Law of Processor Performance": {
+        "2022-11-03": "- [[Iron Law of Processor Performance]]\n"
+    },
+    "ARM Architecture": {
+        "2022-11-03": "- [[ARM Architecture]]\n"
+    },
     "Project": {
         "2022-11-03": "## [[Project]]\n",
         "2022-10-31": "## [[Project]]\n",
@@ -904,7 +922,7 @@ export const backlinks = {
         "AIs.txt": "- [[Project]]\n",
         "Markdown Email Client": "- Someday [[Project]]\n",
         "Separation of Computer Scientists and Computer Technologists": "- Someday [[Project]]\n",
-        "2022년 11월 한 달간 일기 쓰기": "- 수적천석|물방울로 바위 뚫는 [[Project|프로젝트]]\n",
+        "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]\n",
         "CalliFontia": "- Someday [[Project]]\n",
         "Autosave Everything": "- Someday [[Project]]\n",
         "Off The Record": "- Someday [[Project]]\n",
@@ -1163,11 +1181,11 @@ export const backlinks = {
         "JSX (File Format)": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly ([[HTML]]/[[CSS]])\n"
     },
-    "수적천석": {
-        "2022-06-12": "- [[수적천석]]\n",
-        "2022-10-31": "- [[수적천석]]\n",
-        "2022년 11월 한 달간 일기 쓰기": "- [[수적천석|물방울로 바위 뚫는]] [[Project|프로젝트]]\n",
-        "Cosmic noises of life": "- [[수적천석|Persistence]] is the key\n"
+    "水適穿石": {
+        "2022-06-12": "- [[水適穿石]]\n",
+        "2022-10-31": "- [[水適穿石]]\n",
+        "2022년 11월 한 달간 일기 쓰기": "- [[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]\n",
+        "Cosmic noises of life": "- [[水適穿石|Persistence]] is the key\n"
     },
     "356 Official SSH Server": {
         "2022-08-25": "- [[356 Official SSH Server]]\n"
@@ -1969,7 +1987,7 @@ export const backlinks = {
     },
     "Atomic Habits": {
         "Readings": "- [ ] [[Atomic Habits]]\n",
-        "수적천석": "- [[Atomic Habits]]\n"
+        "水適穿石": "- [[Atomic Habits]]\n"
     },
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]\n"
@@ -2211,6 +2229,9 @@ export const backlinks = {
     "Game Programming": {
         "Back Buffer": "Used in [[Game Programming]], you write data on the back buffer.\n"
     },
+    "Haruki Murakami": {
+        "水適穿石": "### 직업으로서의 소설가 — [[Haruki Murakami|하루키]]\n"
+    },
     "42FE5D.png": {
         "洪民憙雜記": "![[42FE5D.png]]\n"
     },
@@ -2439,9 +2460,6 @@ export const backlinks = {
     },
     "2022-10-04": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]\n"
-    },
-    "Haruki Murakami": {
-        "수적천석": "### 직업으로서의 소설가 — [[Haruki Murakami|하루키]]\n"
     },
     "2022-08-26": {
         "0079 Word Search": "Solved at: [[2022-08-26]]\n"
