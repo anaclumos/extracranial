@@ -66,7 +66,7 @@ Seems like using [[Svelte]]
 
 ### [[Andy Matuschak]]
 
-- sliding panes
+- [[sliding panes]]
 
 ## Potential Tools
 

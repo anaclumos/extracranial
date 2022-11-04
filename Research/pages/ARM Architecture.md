@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/532A14'
+aliases: ['ARM']
 ---
 
 - [[Computer Systems]]

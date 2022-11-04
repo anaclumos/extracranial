@@ -29,7 +29,7 @@ slug: '/6605BD'
 - [[Sources of Packet Delay]]
 - [[Throughput]]
 - [[Internet Protocol Stack]]
-- [[DoS Attack]]
+- [[DoS]]
 - [[Packet Sniffing]]
 - [[IP Spoofing]]
 - [[Joining Thread]]
