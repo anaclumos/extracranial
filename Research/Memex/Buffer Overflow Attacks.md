@@ -1,8 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/BC676B'
 ---
 
-import WIP from '@site/src/components/WIP'
-
-<WIP />
+## Array Bound Check
