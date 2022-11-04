@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/717D68'
 ---
 
+- [[Computer Systems]]
 - Processor speed increased by 55% every year.
   - $\log(2) \over \log(1.55)$ gives $1.58$, aligning with the Moore's Law.
 - Memory speed increased by 7% every year.

@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/532A14'
 ---
 
+- [[Computer Systems]]
+
 ## Registers
 
 - Register names can either be uppercase or lowercase, but no mixing.

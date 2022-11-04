@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-03.md",
+                "file": "pages/Caching.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a2ebb9d2861064c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Caching.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -26,15 +39,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Memory Hierarchy and Caching.md",
+                "file": "pages/Memory Hierarchy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Memory Hierarchy and Caching.md",
+                "file": "pages/Caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Memory Hierarchy and Caching.md"
+                "file": "pages/Caching.md"
               }
             }
           },
@@ -145,17 +157,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "9a16c5bca04deda5",
+  "active": "9838fba0976dc3c5",
   "lastOpenFiles": [
     "journals/2022-11-03.md",
+    "pages/Memory Hierarchy.md",
     "pages/Principles of Locality.md",
     "pages/Memory Wall.md",
-    "logseq/bak/journals/2022-11-03/2022-11-04T05_09_55.558Z.Desktop.md",
-    "Untitled.md",
     "pages/Latency and Throughput.md",
-    "Journals/2022-11-03.md",
-    "Memex/ARM Architecture.md",
-    "Memex/Computer Systems.md",
-    "Memex/Inspecting Assembly.md"
+    "pages/ARM Architecture.md",
+    "pages/Iron Law of Processor Performance.md",
+    "pages/Base Frame Pointer.md",
+    "pages/Buffer Overflow Attacks.md",
+    "pages/Caching.md"
   ]
 }
