@@ -156,3 +156,7 @@ iframe {
 .pagination-nav__label {
   font-size: 1rem;
 }
+
+.navbar-sidebar {
+  height: 100vh;
+}
