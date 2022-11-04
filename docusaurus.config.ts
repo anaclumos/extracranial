@@ -28,6 +28,7 @@ const config: Config = {
       options: {
         jsc: {
           parser: {
+            sync: true,
             syntax: 'typescript',
             tsx: true,
           },
