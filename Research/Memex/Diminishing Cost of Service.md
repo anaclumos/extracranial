@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/2EEFB7'
 ---
 
 - Should service diminish their costs periodically?

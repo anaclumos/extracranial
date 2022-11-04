@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/C585AB'
 ---
 
 > In organic chemistry, an aldehyde is an organic compound containing a functional group with the structure R-**CH=O**.

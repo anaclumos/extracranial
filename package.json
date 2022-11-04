@@ -13,7 +13,7 @@
     "clean": "$npm_execpath clear",
     "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "preprocess": "$npm_execpath hex && $npm_execpath pack-post && $npm_execpath wikilinks && $npm_execpath backlinks && $npm_execpath swc && $npm_execpath figcaption",
+    "preprocess": "$npm_execpath hex && $npm_execpath pack-post && $npm_execpath wikilinks && $npm_execpath backlinks && $npm_execpath swc && $npm_execpath figcaption && $npm_execpath format",
     "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx}'",
     "ko": "$npm_execpath start --locale ko",
     "dev": "$npm_execpath start",
@@ -66,7 +66,6 @@
     "eslint-plugin-react": "latest",
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "typescript": "*"
   },
@@ -85,10 +84,5 @@
   "main": "index.js",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "author": "Sunghyun Cho <mail@chosunghyun.com>",
-  "packageManager": "yarn@3.2.3",
-  "lint-staged": {
-    "**/*.{ts,tsx,json,md,mdx,js,jsx}": [
-      "prettier --config .prettierrc"
-    ]
-  }
+  "packageManager": "yarn@3.2.3"
 }
