@@ -22,5 +22,8 @@ slug: '/BC676B'
 - Address Space Layout Randomization (ASLR)
 	- Compiler randomize where the stack will start.
 	- Makes hard to predict the desired return address.
+		- Problem: `nop` sleds
+		- Prepend as many `nop` instructions as possible before the exploit code
+		- Yields a higher chance of an exploit.
 - Privilege & Access Control Bits
-	- 
+	- Mark a specific portion of the stack as non-executable.
