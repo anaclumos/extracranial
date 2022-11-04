@@ -47,6 +47,7 @@ if __name__ == "__main__":
             while "[[" in line and "]]" in line:
                 # remove all markdown links, except wikilinks
                 line = re.sub(r"\[([^[]+?)\]\(.+?\)", r"\1", line)
+                line = line.replace("\n", "")
                 mentioned_file = line.split("[[")[1].split("]]")[0]
                 source = mentioned_file.split("|")[0]
                 alias = mentioned_file.split("|")[-1]
@@ -75,11 +76,17 @@ if __name__ == "__main__":
                 line = line.replace(
                     "[[" + mentioned_file + "]]", mentioned_file)
 
+    # sort backlinks by key
+    for key in backlink_map:
+        backlink_map[key] = dict(
+            sorted(backlink_map[key].items(), key=lambda item: item[0]))
+    filename_uid_map = dict(
+        sorted(filename_uid_map.items(), key=lambda item: item[0]))
+
     import json
     with open("./src/data/backlinks.ts", "w") as f:
         f.write("export const backlinks = " + json.dumps(backlink_map,
                 indent=4, ensure_ascii=False).encode('utf8').decode())
-
         print("Wrote " + str(len(backlink_map)) + " files with " +
               str(mention_count) + " mentions to backlinks.ts.")
     with open("./src/data/filenames.ts", "w") as f:
