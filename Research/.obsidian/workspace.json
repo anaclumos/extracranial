@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "00392394fe2ff8b7",
+        "id": "86456ede0a8bd8ad",
         "type": "tabs",
         "children": [
           {
-            "id": "cff1c20cb3563142",
+            "id": "9838fba0976dc3c5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -124,7 +124,7 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "cff1c20cb3563142",
+  "active": "9838fba0976dc3c5",
   "lastOpenFiles": [
     "Journals/2022-11-03.md",
     "Memex/ARM Architecture.md",
