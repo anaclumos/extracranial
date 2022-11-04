@@ -87,8 +87,8 @@
   "author": "Sunghyun Cho <mail@chosunghyun.com>",
   "packageManager": "yarn@3.2.3",
   "lint-staged": {
-    "**/*.{js,jsx,json,ts,tsx,md,mdx}": [
-      "prettier --write ."
+    "**/*.{ts,tsx,json,md,mdx,js,jsx}": [
+      "prettier --config .prettierrc"
     ]
   }
 }
