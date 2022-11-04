@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/F2D184'
 ---
 
 - Higher level (closer to CPU) always contains a subset of lower level (closer to memory)
