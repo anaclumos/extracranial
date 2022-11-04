@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/A77924'
 ---
 
+- [[Computer Systems]]
+
 ## Temporal Locality
 
 - If something is referenced, we have a high chance that it will be referenced again.
