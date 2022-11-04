@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/2862B4'
 ---
 
-![Source: European Space Agency](../Assets/BAC983.png)
+![Source: European Space Agency](../assets/BAC983.png)
 
 Regardless of the continuous **noises** of life, there are certain things reassured periodically in life.
 It's like the grand cross, the lunar eclipse.

@@ -11,7 +11,7 @@ slug: '/'
 
 <figure>
 
-![my http request origin map 🌏 🌎 🌍](Assets/5BE46A.png)
+![my http request origin map 🌏 🌎 🌍](assets/5BE46A.png)
 
 <figcaption>my http request origin map 🌏 🌎 🌍</figcaption>
 </figure>
@@ -33,7 +33,7 @@ import Link from '@docusaurus/Link'
 
 <figure>
 
-![Every note interrelates with other notes.](Assets/2D738C.gif)
+![Every note interrelates with other notes.](assets/2D738C.gif)
 
 <figcaption>Every note interrelates with other notes.</figcaption>
 </figure>
