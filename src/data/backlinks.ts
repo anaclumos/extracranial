@@ -876,39 +876,62 @@ export const backlinks = {
     },
     "Computer Systems": {
         "2022-11-03": "- [[Computer Systems]]\n",
-        "Structs and Unions": "- In [[Computer Systems]], structs are collections of heterogeneous data\n"
+        "Structs and Unions": "- In [[Computer Systems]], structs are collections of heterogeneous data\n",
+        "Latency and Throughput": "- [[Computer Systems]]\n",
+        "Caching": "- [[Computer Systems]]\n",
+        "Buffer Overflow Attacks": "- [[Computer Systems]]\n",
+        "ARM Architecture": "- [[Computer Systems]]\n",
+        "Principles of Locality": "- [[Computer Systems]]\n",
+        "Base Frame Pointer": "- [[Computer Systems]]\n",
+        "Iron Law of Processor Performance": "- [[Computer Systems]]\n",
+        "Memory Wall": "- [[Computer Systems]]\n",
+        "Memory Hierarchy": "- [[Computer Systems]]\n"
     },
     "Structs and Unions": {
-        "2022-11-03": "- [[Structs and Unions]]\n"
+        "2022-11-03": "- [[Structs and Unions]]\n",
+        "Computer Systems": "- [[Structs and Unions]]\n"
     },
     "Buffer Overflow Attacks": {
-        "2022-11-03": "- [[Buffer Overflow Attacks]]\n"
+        "2022-11-03": "- [[Buffer Overflow Attacks]]\n",
+        "Computer Systems": "- [[Buffer Overflow Attacks]]\n"
     },
     "Base Frame Pointer": {
         "2022-11-03": "- [[Base Frame Pointer]]\n",
+        "Computer Systems": "- [[Base Frame Pointer]]\n",
         "ARM Architecture": "... Frame pointer `fp` is an alias of `x29`. Same as `rbp` ([[Base Frame Pointer]])\n"
     },
     "Iron Law of Processor Performance": {
-        "2022-11-03": "- [[Iron Law of Processor Performance]]\n"
+        "2022-11-03": "- [[Iron Law of Processor Performance]]\n",
+        "Computer Systems": "- [[Iron Law of Processor Performance]]\n"
     },
     "ARM Architecture": {
-        "2022-11-03": "- [[ARM Architecture]]\n"
+        "2022-11-03": "- [[ARM Architecture]]\n",
+        "Computer Systems": "- [[ARM Architecture]]\n"
     },
     "Latency and Throughput": {
         "2022-11-03": "- [[Latency and Throughput]]\n",
+        "Computer Systems": "- [[Latency and Throughput]]\n",
         "Memory Wall": "- Solution with [[Latency and Throughput]]\n"
     },
     "Memory Wall": {
         "2022-11-03": "- [[Memory Wall]]\n",
-        "Memory Hierarchy and Caching": "- Solution to the [[Memory Wall]].\n"
+        "Computer Systems": "- [[Memory Wall]]\n",
+        "Memory Hierarchy": "- Solution to the [[Memory Wall]].\n"
     },
     "Principles of Locality": {
         "2022-11-03": "- [[Principles of Locality]]\n",
-        "Memory Hierarchy and Caching": "- Implementation of [[Principles of Locality]].\n",
-        "Memory Wall": "    - [[Principles of Locality]]\n"
+        "Computer Systems": "- [[Principles of Locality]]\n",
+        "Caching": "- [[Principles of Locality]]\n",
+        "Memory Wall": "    - [[Principles of Locality]]\n",
+        "Memory Hierarchy": "- Implementation of [[Principles of Locality]].\n"
     },
-    "Memory Hierarchy and Caching": {
-        "2022-11-03": "- [[Memory Hierarchy and Caching]]\n"
+    "Memory Hierarchy": {
+        "2022-11-03": "- [[Memory Hierarchy]]\n",
+        "Computer Systems": "- [[Memory Hierarchy]]\n"
+    },
+    "Caching": {
+        "2022-11-03": "- [[Caching]]\n",
+        "Computer Systems": "- [[Caching]]\n"
     },
     "Developing Review Notes for Obsidian": {
         "2022-11-03": "- [[Developing Review Notes for Obsidian]]\n",

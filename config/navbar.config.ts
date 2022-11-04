@@ -8,7 +8,7 @@ const getMostRecentJournalLink = () => {
       __dirname,
       '..',
       'Research',
-      'Journals',
+      'journals',
       file + '.md'
     )
     if (fs.existsSync(filePath)) {
