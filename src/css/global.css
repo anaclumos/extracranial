@@ -129,3 +129,30 @@ iframe {
 .navbar__logo > img {
   filter: none;
 }
+
+.pagination-nav__link--next .pagination-nav__label::after {
+  content: ' →';
+}
+
+.pagination-nav__link--prev .pagination-nav__label::before {
+  content: '← ';
+}
+
+.pagination-nav__link {
+  border: 2px solid var(--ifm-menu-color-background-active);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pagination-nav__link:hover {
+  border: 2px solid var(--ifm-menu-color-background-active);
+  background-color: var(--ifm-menu-color-background-active);
+}
+
+.pagination-nav__sublabel {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-400);
+}
+
+.pagination-nav__label {
+  font-size: 1rem;
+}
