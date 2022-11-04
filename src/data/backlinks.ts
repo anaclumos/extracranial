@@ -82,7 +82,7 @@ export const backlinks = {
         "2022-07-10": "## [[Coding Tests]]\n",
         "2022-08-26": "- [[Coding Tests]]\n",
         "2022-08-27": "## [[Coding Tests]]\n",
-        "2022-10-29": "## [[Coding Tests]]\n",
+        "2022-11-03": "## [[Coding Tests]]\n",
         "2022-08-30": "## [[Coding Tests]]\n",
         "2022-06-06": "- [[Coding Tests]] questions - Grind 75 - A better Blind 75 you can ...",
         "2022-09-20": "## [[Coding Tests]]\n",
@@ -303,6 +303,8 @@ export const backlinks = {
     "TODO": {
         "2022-10-12": "## [[TODO]]\n",
         "2022-10-13": "## [[TODO]]\n",
+        "2022-11-02": "## [[TODO]]\n",
+        "2022-11-01": "## [[TODO]]\n",
         "Coding Tests": "- QuickSelect [[TODO]]\n",
         "Project": "## [[TODO]]\n",
         "Tools for Thought": "[[TODO]]: Convert this page into a more in-depth case study.\n",
@@ -381,7 +383,7 @@ export const backlinks = {
         "2022-06-21": "## Today's [[Hacker News]]\n",
         "2022-10-18": "## [[Hacker News|HN]]\n",
         "2022-09-29": "## Today's [[Hacker News]]\n",
-        "2022-10-29": "## [[Hacker News|HN]]\n",
+        "2022-11-03": "## [[Hacker News|HN]]\n",
         "2022-10-19": "## [[Hacker News|HN]]\n",
         "2022-09-09": "## Today's [[Hacker News]]\n",
         "2022-07-09": "... wikilinks to Markdown links. For example, this is a wikilink to [[Hacker News]].\n",
@@ -418,7 +420,8 @@ export const backlinks = {
     },
     "Better Aldehyde": {
         "2022-10-16": "### [[Better Aldehyde]]\n",
-        "2022-07-12": "- [[Better Aldehyde]]\n"
+        "2022-07-12": "- [[Better Aldehyde]]\n",
+        "Aldehyde": "- [[Better Aldehyde]]"
     },
     "5FB7C1.png": {
         "2022-10-16": "![[5FB7C1.png]]\n",
@@ -832,6 +835,18 @@ export const backlinks = {
     "UUIDs are Awesome": {
         "2022-09-28": "- [[UUIDs are Awesome]]\n"
     },
+    "Architectural Decision Records": {
+        "2022-11-02": "- [[Architectural Decision Records]]\n"
+    },
+    "Maserati Problem": {
+        "2022-11-02": "- [[Maserati Problem]]\n"
+    },
+    "2022년 11월 한 달간 일기 쓰기": {
+        "2022-11-02": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]\n",
+        "2022-11-03": "- [x] [[2022년 11월 한 달간 일기 쓰기]]\n",
+        "2022-11-01": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]\n",
+        "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]\n"
+    },
     "Apple Music API": {
         "2022-10-28": "- Reversed Engineered [[Apple Music API]] to get my personal request key.\n",
         "Reverse Engineering Apple Music API": "As a part of Dynamic Island on the Web, I reverse-engineered [[Apple Music API]] to get the undocumented Personal Token.\n"
@@ -861,16 +876,20 @@ export const backlinks = {
         "2022-09-29": "- [[한자 타자기]]\n",
         "Readings": "- [ ] [[한자 타자기]]\n"
     },
-    "Ethereum RPC as a Service": {
-        "2022-10-29": "- Matt Rickard: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]\n",
-        "Matt Rickard": "- [[Ethereum RPC as a Service]]\n"
+    "Developing Review Notes for Obsidian": {
+        "2022-11-03": "- [[Developing Review Notes for Obsidian]]\n",
+        "2022-07-19": "- [[Developing Review Notes for Obsidian]]\n",
+        "2022-07-26": "- [[Developing Review Notes for Obsidian]]\n",
+        "Better Obsidian": "- [[Developing Review Notes for Obsidian]]\n"
     },
-    "Is AWS a Dumb Pipe": {
-        "2022-10-29": "- Matt Rickard: Ethereum RPC as a Service, [[Is AWS a Dumb Pipe]]\n",
-        "Matt Rickard": "- [[Is AWS a Dumb Pipe]]\n"
+    "Aldehyde": {
+        "2022-11-03": "- [[Aldehyde]]\n",
+        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨\n",
+        "Better Aldehyde": "- [[Aldehyde]]\n"
     },
     "Project": {
-        "2022-10-29": "## [[Project]]\n",
+        "2022-11-03": "## [[Project]]\n",
+        "2022-10-31": "## [[Project]]\n",
         "사회과부도": "- Someday [[Project]]\n",
         "Cube": "- Someday [[Project]]\n",
         "Alter": "- Someday [[Project]]\n",
@@ -882,6 +901,7 @@ export const backlinks = {
         "AIs.txt": "- [[Project]]\n",
         "Markdown Email Client": "- Someday [[Project]]\n",
         "Separation of Computer Scientists and Computer Technologists": "- Someday [[Project]]\n",
+        "2022년 11월 한 달간 일기 쓰기": "- 수적천석|물방울로 바위 뚫는 [[Project|프로젝트]]\n",
         "CalliFontia": "- Someday [[Project]]\n",
         "Autosave Everything": "- Someday [[Project]]\n",
         "Off The Record": "- Someday [[Project]]\n",
@@ -904,6 +924,14 @@ export const backlinks = {
         "Old Fashioned Camera": "- Someday [[Project]]\n",
         "iiframe": "- Someday [[Project]]\n",
         "Metadata as a Service": "- Someday [[Project]]\n"
+    },
+    "Ethereum RPC as a Service": {
+        "2022-10-29": "- Matt Rickard: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]\n",
+        "Matt Rickard": "- [[Ethereum RPC as a Service]]\n"
+    },
+    "Is AWS a Dumb Pipe": {
+        "2022-10-29": "- Matt Rickard: Ethereum RPC as a Service, [[Is AWS a Dumb Pipe]]\n",
+        "Matt Rickard": "- [[Is AWS a Dumb Pipe]]\n"
     },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]\n"
@@ -1061,11 +1089,6 @@ export const backlinks = {
     "Autosave Everything": {
         "2022-07-19": "- [[Autosave Everything]]\n"
     },
-    "Developing Review Notes for Obsidian": {
-        "2022-07-19": "- [[Developing Review Notes for Obsidian]]\n",
-        "2022-07-26": "- [[Developing Review Notes for Obsidian]]\n",
-        "Better Obsidian": "- [[Developing Review Notes for Obsidian]]\n"
-    },
     "Markdown": {
         "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].\n",
         "Markdown Email Client": "- You write an email in [[Markdown]]\n",
@@ -1137,12 +1160,22 @@ export const backlinks = {
         "JSX (File Format)": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly ([[HTML]]/[[CSS]])\n"
     },
+    "수적천석": {
+        "2022-06-12": "- [[수적천석]]\n",
+        "2022-10-31": "- [[수적천석]]\n",
+        "2022년 11월 한 달간 일기 쓰기": "- [[수적천석|물방울로 바위 뚫는]] [[Project|프로젝트]]\n",
+        "Cosmic noises of life": "- [[수적천석|Persistence]] is the key\n"
+    },
     "356 Official SSH Server": {
         "2022-08-25": "- [[356 Official SSH Server]]\n"
     },
     "ShadowRealm": {
         "2022-06-26": "- Let's not explore [[ShadowRealm]] and `iframe` [[Sandbox]] for now.\n",
         "Realm Shim": "> Shim implementation of the Realm API Proposal ([[ShadowRealm]])\n"
+    },
+    "Search Engine Indexing Your Life": {
+        "2022-11-01": "- [[Search Engine Indexing Your Life]]\n",
+        "2022-10-04": "- [[Search Engine Indexing Your Life]]\n"
     },
     "Programmable Web": {
         "2022-08-01": "- [[Programmable Web]]\n",
@@ -1175,9 +1208,6 @@ export const backlinks = {
         "2022-10-04": "- [[Markdown Email Client]]\n",
         "Project": "- [ ] Review MailPilot [[Markdown Email Client]]\n",
         "Reimagining Emails": "- [[Markdown Email Client]]\n"
-    },
-    "Search Engine Indexing Your Life": {
-        "2022-10-04": "- [[Search Engine Indexing Your Life]]\n"
     },
     "Letter to Mr. Matt Rickard on 2022-10-03": {
         "2022-10-04": "- [[Letter to Mr. Matt Rickard on 2022-10-03]]\n",
@@ -1363,6 +1393,9 @@ export const backlinks = {
     },
     "411451.png": {
         "2022-10-25": "![[411451.png]]\n"
+    },
+    "Jetski": {
+        "2022-10-31": "- [[Jetski]]\n"
     },
     "1ED417.jpeg": {
         "2022-07-06": "- Merged! ![[1ED417.jpeg]]\n"
@@ -1628,6 +1661,13 @@ export const backlinks = {
     },
     "ABD734.png": {
         "Developing Review Notes for Obsidian": "![[ABD734.png]]\n"
+    },
+    "DX": {
+        "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
+        "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's.\n"
+    },
+    "4B9CF4.png": {
+        "Search Engine Indexing Your Life": "![[4B9CF4.png]]\n"
     },
     "C++": {
         "Coding Tests": "- Will use Python (main language) and [[C++]] (supplementary language)\n",
@@ -1903,6 +1943,9 @@ export const backlinks = {
     "Checksum": {
         "Internetworking": "- [[Checksum]]\n"
     },
+    "2022-11-01": {
+        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다.\n"
+    },
     "Extracting string in Android": {
         "Android": "- [[Extracting string in Android]]\n"
     },
@@ -1922,7 +1965,8 @@ export const backlinks = {
         "Readings": "- [x] [[경제 개발의 길목에서]]\n"
     },
     "Atomic Habits": {
-        "Readings": "- [ ] [[Atomic Habits]]\n"
+        "Readings": "- [ ] [[Atomic Habits]]\n",
+        "수적천석": "- [[Atomic Habits]]\n"
     },
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]\n"
@@ -1939,9 +1983,6 @@ export const backlinks = {
     "2022-09-06": {
         "Person 88B488": "- Interviewed at: [[2022-09-06]]\n",
         "Person 1B5A5B": "- Interviewed at: [[2022-09-06]]\n"
-    },
-    "DX": {
-        "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's.\n"
     },
     "DD7F56.png": {
         "Reverse Engineering Apple Music API": "![[DD7F56.png]]\n"
@@ -2378,6 +2419,9 @@ export const backlinks = {
     "Leetcode": {
         "Real Interviews": "  - 3 [[Leetcode]] Easy to Medium Problem\n"
     },
+    "fiercely overpriced": {
+        "Jetski": "- [[fiercely overpriced]]: time limit for recording. watermarks?\n"
+    },
     "Height": {
         "Linear": "- An issue tracking service, like [[Height]], or [[Jira]]\n"
     },
@@ -2392,6 +2436,9 @@ export const backlinks = {
     },
     "2022-10-04": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]\n"
+    },
+    "Haruki Murakami": {
+        "수적천석": "### 직업으로서의 소설가 — [[Haruki Murakami|하루키]]\n"
     },
     "2022-08-26": {
         "0079 Word Search": "Solved at: [[2022-08-26]]\n"
