@@ -18,4 +18,4 @@ slug: '/5C159C'
 ```
 
 - I figured it did not support [[Font Feature]].
-- Also, Toss Employee once told me not to use it 😔
+- Also, [[Toss]] Employee once told me not to use it 😔
