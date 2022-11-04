@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/4D2646'
 ---
 
 Eviction happens when the cache is complete, and we need to store a new block from memory.

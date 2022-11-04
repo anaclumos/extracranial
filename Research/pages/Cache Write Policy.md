@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/BCCDC0'
 ---
 
 In practice, use **Write Back**.
