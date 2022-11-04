@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "fb0ff0c7030fb26a",
+        "id": "2b3ec2ebdbe29856",
         "type": "tabs",
         "children": [
           {
-            "id": "223a881a8d88af03",
+            "id": "cb2782a422cdeaea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Cache Write Policy.md",
-                "mode": "preview",
+                "file": "journals/2022-11-04.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "00c2ba8189e52858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Cache Average Access Time.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Cache Write Policy.md",
+                "file": "pages/Cache Average Access Time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Cache Write Policy.md"
+                "file": "pages/Cache Average Access Time.md"
               }
             }
           },
@@ -131,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "223a881a8d88af03",
+  "active": "00c2ba8189e52858",
   "lastOpenFiles": [
-    "pages/Caching.md",
     "journals/2022-11-04.md",
+    "pages/Principles of Inclusion.md",
+    "pages/Cache Write Policy.md",
+    "pages/Caching.md",
     "journals/2022-11-03.md",
     "pages/Cache Evictions.md",
-    "pages/Cache Write Policy.md",
     "pages/Cache Mapping.md",
     "pages/42DC28.png.md",
     "pages/iiframe.md",
-    "pages/2022년 11월 한 달간 일기 쓰기.md",
-    "pages/Android.md"
+    "pages/2022년 11월 한 달간 일기 쓰기.md"
   ]
 }
