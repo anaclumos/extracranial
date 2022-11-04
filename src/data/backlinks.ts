@@ -1,66 +1,4 @@
 export const backlinks = {
-    "Memex": {
-        "Hey": "... you are familiar with such concepts, this place is also a [[Memex]] or a Digital Garden.\n",
-        "2022-10-17": "- [[Memex]]\n",
-        "Memex is more than a Memex": "- [[Memex]] is more than a Memex\n",
-        "Preservation of Data": "- An important concept for [[Memex]] and [[Extracranial]]\n",
-        "Vannevar Bush": "... 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 ..."
-    },
-    "evergreen notes": {
-        "Hey": "Every note will be [[evergreen notes]], interrelating with additional notes, illustrating the connections between ideas, thus capturing ..."
-    },
-    "Building a Second Brain": {
-        "Hey": "  - [[Building a Second Brain|BASB]] recommends compressing 50x\n",
-        "2022-07-01": "## [[Building a Second Brain]]\n",
-        "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
-        "Readings": "- [x] [[Building a Second Brain]]\n",
-        "PARA": "- PARA is a second-brain framework, mentioned in [[Building a Second Brain]]\n",
-        "CODE Procedure": "- The CODE Procedure is a second-brain-building procedure introduced in [[Building a Second Brain]].\n"
-    },
-    "Inliner": {
-        "Hey": "- Use [[Inliner]]\n",
-        "2022-10-04": "- [[Inliner]]\n"
-    },
-    "Obsidian": {
-        "Hey": "I use [[Obsidian]] for taking notes.\n",
-        "2022-10-13": "- [[Obsidian]] is now out of beta\n",
-        "2022-07-18": "- [[Obsidian]]-like [[Tools for Thought]]\n",
-        "Stephan Ango": "- Currently works at [[Obsidian]]\n",
-        "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]\n",
-        "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer\n",
-        "Nota": "Awesome alternative to [[Obsidian]].\n",
-        "Tools for Thought": "- zadam/trilium: [[Obsidian]]-like note-taking service.\n",
-        "Better Obsidian": "## Extension Ideas for [[Obsidian]]\n"
-    },
-    "TypeScript": {
-        "Hey": "I then pipeline those notes into a heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.\n",
-        "2022-07-20": "- JavaScript → [[TypeScript]]\n",
-        "2022-09-09": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own React-like run-time. If you're familiar with React, ...",
-        "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations\n",
-        "2022-07-06": "- Bundle, transpile, install and run JavaScript & [[TypeScript]] projects — all in Bun. Bun is a new JavaScript runtime ...",
-        "Svelte": "... runtime, i.e., in the browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ...",
-        "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules\n"
-    },
-    "Docusaurus": {
-        "Hey": "I then pipeline those notes into a heavily customized TypeScript [[Docusaurus]] with custom [[React]] components.\n",
-        "Better Docusaurus": "Some things that I currently don't like about [[Docusaurus]]:\n"
-    },
-    "React": {
-        "Hey": "... pipeline those notes into a heavily customized TypeScript Docusaurus with custom [[React]] components.\n",
-        "Front-end Framework": "- [[React]]\n"
-    },
-    "Vercel": {
-        "Hey": "I finally use [[Vercel]] for deploying, caching, and distributing.\n",
-        "2022-08-28": "- I both used Cloudflare Pages and [[Vercel]] and concluded that Vercel is better.\n",
-        "2022-07-10": "- [[Vercel]] hid the compilation process with its proprietary `vercel dev` command.\n",
-        "2022-06-22": "Deno envisions a [[Vercel]]-like experience for the backend (FaaS.)\n",
-        "2022-09-30": "- [[Vercel]] Serving millions of users on the new MrBeast storefront - Vercel\n",
-        "2022-10-10": "  - I just love [[Vercel]]... they know stuff.\n",
-        "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
-        "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting ...",
-        "Edge Networks": "- [[Vercel]] & Vercel Edge Functions\n",
-        "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.\n"
-    },
     "WorkerDOM": {
         "2022-10-02": "- Got an email from the [[WorkerDOM]] team that the project will not have any major updates\n",
         "2022-07-11": "Currently, [[WorkerDOM]] only has asynchronous data channels.\n",
@@ -95,6 +33,17 @@ export const backlinks = {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open ...",
         "Edge Networks": "- [[Cloudflare]] Pages & Cloudflare Functions\n",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images\n"
+    },
+    "Vercel": {
+        "2022-08-28": "- I both used Cloudflare Pages and [[Vercel]] and concluded that Vercel is better.\n",
+        "2022-07-10": "- [[Vercel]] hid the compilation process with its proprietary `vercel dev` command.\n",
+        "2022-06-22": "Deno envisions a [[Vercel]]-like experience for the backend (FaaS.)\n",
+        "2022-09-30": "- [[Vercel]] Serving millions of users on the new MrBeast storefront - Vercel\n",
+        "2022-10-10": "  - I just love [[Vercel]]... they know stuff.\n",
+        "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
+        "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting ...",
+        "Edge Networks": "- [[Vercel]] & Vercel Edge Functions\n",
+        "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.\n"
     },
     "Web Worker": {
         "2022-07-25": "- [x] Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` layer.\n",
@@ -149,7 +98,6 @@ export const backlinks = {
         "2022-09-21": "## [[Coding Tests]]\n",
         "2022-09-05": "## [[Coding Tests]]\n",
         "2022-10-15": "## [[Coding Tests]]\n",
-        "journal": "## [[Coding Tests]]\n",
         "Leetcode": "- [[Coding Tests]]\n"
     },
     "Real Exams": {
@@ -270,6 +218,13 @@ export const backlinks = {
         "2022-07-11": "- [[Better Docusaurus]]\n",
         "2022-07-18": "- [[Better Docusaurus]]: Render `Figcaption` with `img alt` tags. Commit\n",
         "2022-07-12": "- [[Better Docusaurus]]\n"
+    },
+    "Building a Second Brain": {
+        "2022-07-01": "## [[Building a Second Brain]]\n",
+        "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
+        "Readings": "- [x] [[Building a Second Brain]]\n",
+        "PARA": "- PARA is a second-brain framework, mentioned in [[Building a Second Brain]]\n",
+        "CODE Procedure": "- The CODE Procedure is a second-brain-building procedure introduced in [[Building a Second Brain]].\n"
     },
     "PKM": {
         "2022-07-01": "... realized that the term Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.\n",
@@ -441,7 +396,6 @@ export const backlinks = {
         "2022-07-26": "## Today's [[Hacker News]]\n",
         "2022-09-05": "## Today's [[Hacker News]]\n",
         "2022-10-15": "## [[Hacker News|HN]]\n",
-        "journal": "## [[Hacker News|HN]]\n",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.\n",
         "Jumpsite": "## [[Hacker News]]\n",
         "Better Hacker News": "## [[Hacker News]] need some improvements\n"
@@ -530,6 +484,14 @@ export const backlinks = {
         "2022-10-27": "- [[Interoperability]]\n",
         "Government Services should have full API support": "- Of course, we would need a Universal Identity and [[Interoperability]] to prevent any lock-ins.\n"
     },
+    "TypeScript": {
+        "2022-07-20": "- JavaScript → [[TypeScript]]\n",
+        "2022-09-09": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own React-like run-time. If you're familiar with React, ...",
+        "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations\n",
+        "2022-07-06": "- Bundle, transpile, install and run JavaScript & [[TypeScript]] projects — all in Bun. Bun is a new JavaScript runtime ...",
+        "Svelte": "... runtime, i.e., in the browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ...",
+        "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules\n"
+    },
     "Readings": {
         "2022-09-07": "- [[Readings]]\n"
     },
@@ -601,6 +563,12 @@ export const backlinks = {
     },
     "GeoCheatCode": {
         "2022-10-17": "- [[GeoCheatCode]]\n"
+    },
+    "Memex": {
+        "2022-10-17": "- [[Memex]]\n",
+        "Memex is more than a Memex": "- [[Memex]] is more than a Memex\n",
+        "Preservation of Data": "- An important concept for [[Memex]] and [[Extracranial]]\n",
+        "Vannevar Bush": "... 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 ..."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]\n"
@@ -708,6 +676,16 @@ export const backlinks = {
         "Preservation of Data": "- An important concept for Memex and [[Extracranial]]\n",
         "Vannevar Bush": "- Early creator of Memex and [[Extracranial]].\n",
         "Memex": "- Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.\n"
+    },
+    "Obsidian": {
+        "2022-10-13": "- [[Obsidian]] is now out of beta\n",
+        "2022-07-18": "- [[Obsidian]]-like [[Tools for Thought]]\n",
+        "Stephan Ango": "- Currently works at [[Obsidian]]\n",
+        "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]\n",
+        "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer\n",
+        "Nota": "Awesome alternative to [[Obsidian]].\n",
+        "Tools for Thought": "- zadam/trilium: [[Obsidian]]-like note-taking service.\n",
+        "Better Obsidian": "## Extension Ideas for [[Obsidian]]\n"
     },
     "Cross-Platform AirDrops": {
         "2022-10-13": "- Taildrop · Tailscale: [[Cross-Platform AirDrops]] [[Tailscale]]\n",
@@ -865,8 +843,7 @@ export const backlinks = {
         "2022-11-02": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]\n",
         "2022-11-03": "- [x] [[2022년 11월 한 달간 일기 쓰기]]\n",
         "2022-11-01": "- [x] [[2022년 11월 한 달간 일기 쓰기]]\n",
-        "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]\n",
-        "journal": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]\n"
+        "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]\n"
     },
     "Apple Music API": {
         "2022-10-28": "- Reversed Engineered [[Apple Music API]] to get my personal request key.\n",
@@ -934,7 +911,6 @@ export const backlinks = {
     "Project": {
         "2022-11-03": "## [[Project]]\n",
         "2022-10-31": "## [[Project]]\n",
-        "journal": "## [[Project]]\n",
         "사회과부도": "- Someday [[Project]]\n",
         "Cube": "- Someday [[Project]]\n",
         "Alter": "- Someday [[Project]]\n",
@@ -1246,6 +1222,9 @@ export const backlinks = {
     "서울 프로": {
         "2022-08-01": "- [[서울 프로]]\n"
     },
+    "Inliner": {
+        "2022-10-04": "- [[Inliner]]\n"
+    },
     "Markdown Email Client": {
         "2022-10-04": "- [[Markdown Email Client]]\n",
         "Project": "- [ ] Review MailPilot [[Markdown Email Client]]\n",
@@ -1516,10 +1495,6 @@ export const backlinks = {
     "3d Globe on the Web": {
         "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization | LeoLabs\n",
         "3d on the Web": "- [[3d Globe on the Web]]\n"
-    },
-    "{{date:YYYY-MM-DD}}": {
-        "grind": "Solved at: [[{{date:YYYY-MM-DD}}]]\n",
-        "person": "- Interviewed at: [[{{date:YYYY-MM-DD}}]]\n"
     },
     "F9FC1A.png": {
         "Swift": "![[F9FC1A.png]]\n"
@@ -1862,6 +1837,9 @@ export const backlinks = {
     },
     "BA8C9D.png": {
         "벌금과 물가": "- ![[BA8C9D.png]]\n"
+    },
+    "React": {
+        "Front-end Framework": "- [[React]]\n"
     },
     "Linux Commands": {
         "Internetworking": "- [[Linux Commands]]\n"
@@ -2416,6 +2394,9 @@ export const backlinks = {
     },
     "Shim": {
         "Realm Shim": "> [[Shim]] implementation of the Realm API Proposal ([[ShadowRealm]])\n"
+    },
+    "Docusaurus": {
+        "Better Docusaurus": "Some things that I currently don't like about [[Docusaurus]]:\n"
     },
     "2022-07-18": {
         "Better Docusaurus": "- Render `Figcaption` with `img alt` tags on [[2022-07-18]] Commit\n"
