@@ -896,6 +896,7 @@ export const backlinks = {
     },
     "Computer Systems": {
         "2022-11-03": "- [[Computer Systems]]",
+        "2022-11-04": "- [[Computer Systems]]",
         "ARM Architecture": "- [[Computer Systems]]",
         "Base Frame Pointer": "- [[Computer Systems]]",
         "Buffer Overflow Attacks": "- [[Computer Systems]]",
@@ -947,6 +948,7 @@ export const backlinks = {
     },
     "Caching": {
         "2022-11-03": "- [[Caching]]",
+        "2022-11-04": "- [[Caching]]",
         "Computer Systems": "- [[Caching]]"
     },
     "Developing Review Notes for Obsidian": {
@@ -1165,6 +1167,33 @@ export const backlinks = {
     },
     "Autosave Everything": {
         "2022-07-19": "- [[Autosave Everything]]"
+    },
+    "Cache Write Policy": {
+        "2022-11-04": "- [[Cache Write Policy]]",
+        "Caching": "- [[Cache Write Policy]]"
+    },
+    "Cache Evictions": {
+        "2022-11-04": "- [[Cache Evictions]]",
+        "Caching": "- [[Cache Evictions]]"
+    },
+    "Cache Mapping": {
+        "2022-11-04": "- [[Cache Mapping]]",
+        "Caching": "- [[Cache Mapping]]"
+    },
+    "Principles of Inclusion": {
+        "2022-11-04": "- [[Principles of Inclusion]]"
+    },
+    "Cache Average Access Time": {
+        "2022-11-04": "- [[Cache Average Access Time]]"
+    },
+    "Improving Cache Average Access Time": {
+        "2022-11-04": "- [[Improving Cache Average Access Time]]"
+    },
+    "Cache Conscious Programming": {
+        "2022-11-04": "- [[Cache Conscious Programming]]"
+    },
+    "Virtual Memory": {
+        "2022-11-04": "- [[Virtual Memory]]"
     },
     "Markdown": {
         "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].",
