@@ -5,7 +5,7 @@ slug: '/1E9E39'
 
 <figure>
 
-![ALT: Add Unicode Private Area Support #161 Merged](../Assets/CD80BA.png)
+![ALT: Add Unicode Private Area Support #161 Merged](../assets/CD80BA.png)
 
 <figcaption>
 
