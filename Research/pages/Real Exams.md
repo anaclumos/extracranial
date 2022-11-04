@@ -49,7 +49,7 @@ slug: '/75CB18'
 ### [Akuna Capital C++](https://akunacapital.com/)
 
 - 10 multiple choice questions
-  - required a deep understanding of C++ recent specs
+  - required a deep understanding of [[C++]] recent specs
 - 1 [[greedy]] palindrome substring search
 - 1 adjacency list construction and tree search.
   - Time limit was stringent, and I wasn't able to finish it

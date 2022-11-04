@@ -14,7 +14,7 @@ slug: '/654898'
   - 1 Followup Q on removing length adjacent duplicates arbitrarily
     - $O(nk)$ algorithm
     - Had even more time left, so I discussed with the interviewer and improved to $O(n)$ algorithm 😃
-  - Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])
+  - Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])
 
 - [Palantir](https://www.palantir.com/)
 

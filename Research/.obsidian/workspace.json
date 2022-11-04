@@ -11,8 +11,13 @@
             "id": "8e8ddaa0f33ba0f0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Toss.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Toss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Toss.md"
+              }
             }
           },
           {
@@ -125,15 +133,15 @@
   },
   "active": "8e8ddaa0f33ba0f0",
   "lastOpenFiles": [
-    "pages/Memory Hierarchy.md",
-    "pages/Caching.md",
-    "pages/Computer Systems.md",
-    "journals/2022-11-03.md",
-    "pages/Principles of Locality.md",
-    "pages/Memory Wall.md",
-    "pages/Latency and Throughput.md",
-    "pages/ARM Architecture.md",
-    "pages/Iron Law of Processor Performance.md",
-    "pages/Base Frame Pointer.md"
+    "pages/Android.md",
+    "pages/Open Graph Image as a Service.md",
+    "pages/0141 Linked List Cycle.md",
+    "journals/2022-06-26.md",
+    "pages/Apple vs Spotify.md",
+    "pages/Either be the best-in-class or the most efficient.md",
+    "pages/Individual Case Study.md",
+    "pages/Guestbook.md",
+    "pages/Try Removing.md",
+    "journals/2022-09-18.md"
   ]
 }
