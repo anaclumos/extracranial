@@ -13,7 +13,7 @@
     "clean": "$npm_execpath clear",
     "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "preprocess": "$npm_execpath pack-post & $npm_execpath wikilinks & $npm_execpath backlinks & $npm_execpath swc && $npm_execpath figcaption",
+    "preprocess": "$npm_execpath hex && $npm_execpath pack-post && $npm_execpath wikilinks && $npm_execpath backlinks && $npm_execpath swc && $npm_execpath figcaption",
     "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx}'",
     "ko": "$npm_execpath start --locale ko",
     "dev": "$npm_execpath start",

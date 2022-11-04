@@ -32,22 +32,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "6adf5b387423fe9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memex/Diminishing Cost of Service.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Diminishing Cost of Service.md",
+                "file": "Journals/2022-11-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Diminishing Cost of Service.md"
+                "file": "Journals/2022-11-03.md"
               }
             }
           },
@@ -158,8 +145,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "6adf5b387423fe9c",
+  "active": "e739d9b05d22a0c6",
   "lastOpenFiles": [
+    "Memex/Diminishing Cost of Service.md",
     "Journals/2022-11-03.md",
     "Memex/Developing Review Notes for Obsidian.md",
     "Memex/Aldehyde.md",
@@ -168,7 +156,6 @@
     "Memex/Maserati Problem.md",
     "Journals/2022-11-01.md",
     "Journals/2022-10-31.md",
-    "Memex/2022년 11월 한 달간 일기 쓰기.md",
-    "Memex/Search Engine Indexing Your Life.md"
+    "Memex/2022년 11월 한 달간 일기 쓰기.md"
   ]
 }
