@@ -38,27 +38,27 @@ LDR x0, [x1]
 
 - Unlike `x86`, operations do not need size suffixes. They are inferred.
 - Has `Register Pair Load, Store` mode.
-	- `ldr x0, x1, [x2]`: `x2 → x0`, `x2+8 → x1`
+  - `ldr x0, x1, [x2]`: `x2 → x0`, `x2+8 → x1`
 - `mov` only between registers.
 - By default, transfers are between 4 bytes `w` register or 8 bytes `x` registers.
 - To change in size, use a suffix for **zero-extended** mode or **sign-extended** mode.
-	- 1 byte read: `b` (zero-extend), `sb` (sign-extend)
-	- 2 bytes read: `h` (zero-extend), `sh` (sign-extend)
-	- `ldrb w0, [x1]` read 1 byte at `Memory[x1]`, zero-extend to 8 bytes, put to `w0`
+  - 1 byte read: `b` (zero-extend), `sb` (sign-extend)
+  - 2 bytes read: `h` (zero-extend), `sh` (sign-extend)
+  - `ldrb w0, [x1]` read 1 byte at `Memory[x1]`, zero-extend to 8 bytes, put to `w0`
 
 ## Addressing Modes
 
-|Name|Example|Address Used|Side-Effect|
-|----|----|----|----|
-|Base|`ldr x1, [x2]`|`Memory[x2]`||
-|Base + Offset|`ldr x1, [x2, 16]`|`Memory[x2+16]`||
-|Pre-indexed|`ldr x1, [x2, 16]!`|`Memory[x2+16]`|`x2 = x2 + 16`, just like `++i` in C|
-|Post-indexed|`ldr x1, [x2], 16`|`Memory[x2]`|`x2 = x2 + 16`, just like `i++` in C|
-|Base + Register|`ldr x1, [x2, x3]`|`Memory[x2 + x3]`||
-|Scaled|`ldr x1, [x2, x3, lsl 2]`|`Memory[x2 + (x3 << 2)]`||
-|Sign-Extended|`ldr x1, [x2, w3, sxtw]`|`Memory[x2 + SignExtend(w3)]`||
-|Zero-Extended|`ldr x1, [x2, w3, uxtw]`|`Memory[x2 + ZeroExtend(w3)]`||
-|Sign-Extended Scaled|`ldr x1, [x2, w3, sxtw 2]`|`Memory[x2 + (SignExtend(w3) << 2)]`||
+| Name                 | Example                    | Address Used                         | Side-Effect                          |
+| -------------------- | -------------------------- | ------------------------------------ | ------------------------------------ |
+| Base                 | `ldr x1, [x2]`             | `Memory[x2]`                         |                                      |
+| Base + Offset        | `ldr x1, [x2, 16]`         | `Memory[x2+16]`                      |                                      |
+| Pre-indexed          | `ldr x1, [x2, 16]!`        | `Memory[x2+16]`                      | `x2 = x2 + 16`, just like `++i` in C |
+| Post-indexed         | `ldr x1, [x2], 16`         | `Memory[x2]`                         | `x2 = x2 + 16`, just like `i++` in C |
+| Base + Register      | `ldr x1, [x2, x3]`         | `Memory[x2 + x3]`                    |                                      |
+| Scaled               | `ldr x1, [x2, x3, lsl 2]`  | `Memory[x2 + (x3 << 2)]`             |                                      |
+| Sign-Extended        | `ldr x1, [x2, w3, sxtw]`   | `Memory[x2 + SignExtend(w3)]`        |                                      |
+| Zero-Extended        | `ldr x1, [x2, w3, uxtw]`   | `Memory[x2 + ZeroExtend(w3)]`        |                                      |
+| Sign-Extended Scaled | `ldr x1, [x2, w3, sxtw 2]` | `Memory[x2 + (SignExtend(w3) << 2)]` |                                      |
 
 ## Calling Conventions
 
