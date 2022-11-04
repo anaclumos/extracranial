@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-04.md",
+                "file": "pages/Cache Conscious Programming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
-          },
-          {
-            "id": "00c2ba8189e52858",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Cache Average Access Time.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Cache Average Access Time.md",
+                "file": "pages/Cache Conscious Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Cache Average Access Time.md"
+                "file": "pages/Cache Conscious Programming.md"
               }
             }
           },
@@ -145,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "00c2ba8189e52858",
+  "active": "cb2782a422cdeaea",
   "lastOpenFiles": [
     "journals/2022-11-04.md",
+    "pages/Improving Cache Average Access Time.md",
+    "pages/Cache Average Access Time.md",
     "pages/Principles of Inclusion.md",
     "pages/Cache Write Policy.md",
     "pages/Caching.md",
     "journals/2022-11-03.md",
     "pages/Cache Evictions.md",
     "pages/Cache Mapping.md",
-    "pages/42DC28.png.md",
-    "pages/iiframe.md",
-    "pages/2022년 11월 한 달간 일기 쓰기.md"
+    "pages/42DC28.png.md"
   ]
 }
