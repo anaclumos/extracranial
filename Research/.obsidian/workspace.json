@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Journals/2022-11-03.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -147,8 +147,8 @@
   },
   "active": "e739d9b05d22a0c6",
   "lastOpenFiles": [
-    "Memex/Diminishing Cost of Service.md",
     "Journals/2022-11-03.md",
+    "Memex/Diminishing Cost of Service.md",
     "Memex/Developing Review Notes for Obsidian.md",
     "Memex/Aldehyde.md",
     "Memex/Better Aldehyde.md",
