@@ -1174,7 +1174,8 @@ export const backlinks = {
     },
     "Cache Evictions": {
         "2022-11-04": "- [[Cache Evictions]]",
-        "Caching": "- [[Cache Evictions]]"
+        "Caching": "- [[Cache Evictions]]",
+        "Page Faults": "- Similarly, we have LRU, FIFO, Random approach like [[Cache Evictions]]"
     },
     "Cache Mapping": {
         "2022-11-04": "- [[Cache Mapping]]",
@@ -1184,7 +1185,8 @@ export const backlinks = {
         "2022-11-04": "- [[Principles of Inclusion]]"
     },
     "Cache Average Access Time": {
-        "2022-11-04": "- [[Cache Average Access Time]]"
+        "2022-11-04": "- [[Cache Average Access Time]]",
+        "Translation Look-aside Buffers": "- Similar to [[Cache Average Access Time]],"
     },
     "Improving Cache Average Access Time": {
         "2022-11-04": "- [[Improving Cache Average Access Time]]"
@@ -1193,7 +1195,33 @@ export const backlinks = {
         "2022-11-04": "- [[Cache Conscious Programming]]"
     },
     "Virtual Memory": {
-        "2022-11-04": "- [[Virtual Memory]]"
+        "2022-11-04": "- [[Virtual Memory]]",
+        "Computer Systems": "- [[Virtual Memory]]"
+    },
+    "Virtual Address Space and Physical Address Space": {
+        "2022-11-04": "- [[Virtual Address Space and Physical Address Space]]",
+        "Computer Systems": "- [[Virtual Address Space and Physical Address Space]]",
+        "Virtual Memory": "- [[Virtual Address Space and Physical Address Space]]"
+    },
+    "Page Size and Address Translations": {
+        "2022-11-04": "- [[Page Size and Address Translations]]",
+        "Computer Systems": "- [[Page Size and Address Translations]]",
+        "Virtual Memory": "- [[Page Size and Address Translations]]"
+    },
+    "Translation Look-aside Buffers": {
+        "2022-11-04": "- [[Translation Look-aside Buffers]]",
+        "Computer Systems": "- [[Translation Look-aside Buffers]]",
+        "Virtual Memory": "- [[Translation Look-aside Buffers]]"
+    },
+    "Page Faults": {
+        "2022-11-04": "- [[Page Faults]]",
+        "Computer Systems": "- [[Page Faults]]",
+        "Virtual Memory": "- [[Page Faults]]"
+    },
+    "Cache and Virtual Memory": {
+        "2022-11-04": "- [[Cache and Virtual Memory]]",
+        "Computer Systems": "- [[Cache and Virtual Memory]]",
+        "Virtual Memory": "- [[Cache and Virtual Memory]]"
     },
     "Markdown": {
         "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].",
