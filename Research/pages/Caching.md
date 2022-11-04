@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/C3F42B'
 ---
 
 - [[Computer Systems]]
