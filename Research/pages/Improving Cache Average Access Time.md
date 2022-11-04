@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/A333C3'
 ---
 
 - Reduce Miss Rate

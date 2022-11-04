@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/AD2709'
 ---
 
 - Arrays are row-major in C

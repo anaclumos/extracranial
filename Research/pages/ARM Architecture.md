@@ -47,7 +47,7 @@ LDR x0, [x1]
 - To change in size, use a suffix for **zero-extended** mode or **sign-extended** mode.
   - 1 byte read: `b` (zero-extend), `sb` (sign-extend)
   - 2 bytes read: `h` (zero-extend), `sh` (sign-extend)
-  - `ldrb w0, [x1]` read 1 byte at `Memory[x1]`, zero-extend to 8 bytes, put to `w0`
+  - `ldrb w0, [x1]` read 1 byte at `Memory[x1]`, zero-extend to 4 bytes, put to `w0`
 
 ## Addressing Modes
 
