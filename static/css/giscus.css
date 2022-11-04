@@ -295,8 +295,3 @@ main .gsc-loading-image {
 [data-theme='dark'] main .gsc-loading-image {
   background-image: url('https://github.githubassets.com/images/mona-loading-dark.gif');
 }
-
-.gsc-upvote-button,
-.gsc-social-reaction-summary-item {
-  display: none;
-}
