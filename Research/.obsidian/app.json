@@ -9,7 +9,7 @@
   "showFrontmatter": true,
   "showLineNumber": true,
   "strictLineBreaks": true,
-  "attachmentFolderPath": "images",
+  "attachmentFolderPath": "assets",
   "newFileLocation": "folder",
   "newFileFolderPath": "pages",
   "tabSize": 4,
