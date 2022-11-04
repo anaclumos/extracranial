@@ -4,46 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "86456ede0a8bd8ad",
+        "id": "2f591fee7f912ddd",
         "type": "tabs",
         "children": [
           {
-            "id": "9838fba0976dc3c5",
+            "id": "8e8ddaa0f33ba0f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Computer Systems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a2ebb9d2861064c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Caching.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9a16c5bca04deda5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Memory Hierarchy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -112,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Computer Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Computer Systems.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "9838fba0976dc3c5",
+  "active": "8e8ddaa0f33ba0f0",
   "lastOpenFiles": [
-    "journals/2022-11-03.md",
-    "pages/Caching.md",
     "pages/Memory Hierarchy.md",
+    "pages/Caching.md",
+    "pages/Computer Systems.md",
+    "journals/2022-11-03.md",
     "pages/Principles of Locality.md",
     "pages/Memory Wall.md",
     "pages/Latency and Throughput.md",
     "pages/ARM Architecture.md",
     "pages/Iron Law of Processor Performance.md",
-    "pages/Base Frame Pointer.md",
-    "pages/Buffer Overflow Attacks.md"
+    "pages/Base Frame Pointer.md"
   ]
 }
