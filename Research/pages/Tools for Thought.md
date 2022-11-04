@@ -16,7 +16,7 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 
 ## Second Brain
 
-- [Roam Research](https://roamresearch.com/): A note-taking tool for networked thought.
+- [[Roam Research]]: A note-taking tool for networked thought.
 - [Logseq](https://logseq.com/): Open-source alternative to Roam.
 - [Obsidian](https://obsidian.md/): Highly customizable (sometimes, too customizable) note-taking tool.
 - [Dendron](https://www.dendron.so/): Nonlinear [[PKM]] with directories.

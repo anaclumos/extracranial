@@ -866,7 +866,7 @@ Now, let's inspect the binary codes of the WASM.
 - [[WebAssembly|WASM]] is just like Java Byte-code. Java Byte-code is cross-platform when machine code for a real CPU is not. It's input for a JIT compiler that targets whatever real CPU. [Peter Cordes](https://stackoverflow.com/users/224132/peter-cordes)
 - WASM defines its own \_CPU standards and [[Assembly]]: [WebAssembly Core Specification](https://webassembly.github.io/spec/core/bikeshed/).
 - To run [[WebAssembly|WASM]], the browser must still compile the [[WebAssembly|WASM]] code into ASM code when executing; in that way, it is **much** slower than [[WebAssembly|WASM]].
-- However, [[WebAssembly|WASM]] is designed similarly to ASM. Therefore, compiling [[WebAssembly|WASM]] to ASM targeting x86, ARM, and RISC-V, is comparably easy, and existing compilers emitting ASM can also emit [[WebAssembly|WASM]] with a reasonable modification.
+- However, [[WebAssembly|WASM]] is designed similarly to ASM. Therefore, compiling [[WebAssembly|WASM]] to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can also emit [[WebAssembly|WASM]] with a reasonable modification.
 - What is the relationship between [[WebAssembly]] and [[Assembly]]?
 - It is a specific purpose [[Assembly]].
 - It's designed with a specific abstract machine that would be expensive to implement in hardware.
