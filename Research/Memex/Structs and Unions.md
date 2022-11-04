@@ -1,13 +1,13 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/9AF47D'
 ---
 
 ## Structs
 
 - In [[Computer Systems]], structs are collections of heterogeneous data
-	- laid out in consecutive memory locations (used paddings to ensure alignment)
-	- reordering can reduce size!
+  - laid out in consecutive memory locations (used paddings to ensure alignment)
+  - reordering can reduce size!
 
 ```cpp
 struct node {
