@@ -874,20 +874,6 @@ export const backlinks = {
         "2022-09-29": "- [[한자 타자기]]\n",
         "Readings": "- [ ] [[한자 타자기]]\n"
     },
-    "Developing Review Notes for Obsidian": {
-        "2022-11-03": "- [[Developing Review Notes for Obsidian]]\n",
-        "2022-07-19": "- [[Developing Review Notes for Obsidian]]\n",
-        "2022-07-26": "- [[Developing Review Notes for Obsidian]]\n",
-        "Better Obsidian": "- [[Developing Review Notes for Obsidian]]\n"
-    },
-    "Aldehyde": {
-        "2022-11-03": "- [[Aldehyde]]\n",
-        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨\n",
-        "Better Aldehyde": "- [[Aldehyde]]\n"
-    },
-    "Diminishing Cost of Service": {
-        "2022-11-03": "- [[Diminishing Cost of Service]]\n"
-    },
     "Computer Systems": {
         "2022-11-03": "- [[Computer Systems]]\n",
         "Structs and Unions": "- In [[Computer Systems]], structs are collections of heterogeneous data\n"
@@ -907,6 +893,36 @@ export const backlinks = {
     },
     "ARM Architecture": {
         "2022-11-03": "- [[ARM Architecture]]\n"
+    },
+    "Latency and Throughput": {
+        "2022-11-03": "- [[Latency and Throughput]]\n",
+        "Memory Wall": "- Solution with [[Latency and Throughput]]\n"
+    },
+    "Memory Wall": {
+        "2022-11-03": "- [[Memory Wall]]\n",
+        "Memory Hierarchy and Caching": "- Solution to the [[Memory Wall]].\n"
+    },
+    "Principles of Locality": {
+        "2022-11-03": "- [[Principles of Locality]]\n",
+        "Memory Hierarchy and Caching": "- Implementation of [[Principles of Locality]].\n",
+        "Memory Wall": "    - [[Principles of Locality]]\n"
+    },
+    "Memory Hierarchy and Caching": {
+        "2022-11-03": "- [[Memory Hierarchy and Caching]]\n"
+    },
+    "Developing Review Notes for Obsidian": {
+        "2022-11-03": "- [[Developing Review Notes for Obsidian]]\n",
+        "2022-07-19": "- [[Developing Review Notes for Obsidian]]\n",
+        "2022-07-26": "- [[Developing Review Notes for Obsidian]]\n",
+        "Better Obsidian": "- [[Developing Review Notes for Obsidian]]\n"
+    },
+    "Aldehyde": {
+        "2022-11-03": "- [[Aldehyde]]\n",
+        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨\n",
+        "Better Aldehyde": "- [[Aldehyde]]\n"
+    },
+    "Diminishing Cost of Service": {
+        "2022-11-03": "- [[Diminishing Cost of Service]]\n"
     },
     "Project": {
         "2022-11-03": "## [[Project]]\n",
