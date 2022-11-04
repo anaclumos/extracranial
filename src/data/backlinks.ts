@@ -421,7 +421,7 @@ export const backlinks = {
     "Better Aldehyde": {
         "2022-10-16": "### [[Better Aldehyde]]\n",
         "2022-07-12": "- [[Better Aldehyde]]\n",
-        "Aldehyde": "- [[Better Aldehyde]]"
+        "Aldehyde": "- [[Better Aldehyde]]\n"
     },
     "5FB7C1.png": {
         "2022-10-16": "![[5FB7C1.png]]\n",
@@ -1663,7 +1663,7 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "![[ABD734.png]]\n"
     },
     "DX": {
-        "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
+        "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절\n",
         "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's.\n"
     },
     "4B9CF4.png": {
