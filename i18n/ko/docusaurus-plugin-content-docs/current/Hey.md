@@ -10,7 +10,7 @@ slug: '/'
 
 <figure>
 
-![제 HTTP 요청 지도입니다 🌏 🌎 🌍](../../../../Research/Assets/5BE46A.png)
+![제 HTTP 요청 지도입니다 🌏 🌎 🌍](../../../../Research/assets/5BE46A.png)
 
 <figcaption>제 HTTP 요청 지도입니다 🌏 🌎 🌍</figcaption>
 </figure>
@@ -33,7 +33,7 @@ import Link from '@docusaurus/Link'
 
 <figure>
 
-![모든 기록은 다른 노트들과 상호 연결됩니다.](../../../../Research/Assets/2D738C.gif)
+![모든 기록은 다른 노트들과 상호 연결됩니다.](../../../../Research/assets/2D738C.gif)
 
 <figcaption>모든 기록은 다른 노트들과 상호 연결됩니다.</figcaption>
 </figure>

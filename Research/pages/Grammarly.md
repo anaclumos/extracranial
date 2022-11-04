@@ -8,7 +8,7 @@ slug: '/8481ED'
 - I've been a user since 2016 😃
 - One of my best investments in life
 
-![My Grammarly Stat as of Oct 10, 2022](../Assets/A0AC57.png)
+![My Grammarly Stat as of Oct 10, 2022](../assets/A0AC57.png)
 
 ## Team
 

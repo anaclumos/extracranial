@@ -9,13 +9,13 @@ slug: '/4DC268'
 
 ```cpp
 #include <SDL2/SDL.h>
-Mix_PlayChannel(-1, game→GetSound("Assets/Sounds/SoundName.wav"), 0);
+Mix_PlayChannel(-1, game→GetSound("assets/Sounds/SoundName.wav"), 0);
 ```
 
 ## Looping Sounds
 
 ```cpp
-Mix_PlayChannel(-1, GetSound("Assets/Sounds/Music.ogg"), -1);
+Mix_PlayChannel(-1, GetSound("assets/Sounds/Music.ogg"), -1);
 ```
 
 ## Halt Music
