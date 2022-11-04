@@ -32,4 +32,4 @@ slug: '/BC676B'
 
 - Use Case: When the stack is marked as non-executable && position randomized.
 - Idea: Find useful attack instructions `gadgets` that already exists
-	- because they are executable and not randomized in position.
+  - because they are executable and not randomized in position.

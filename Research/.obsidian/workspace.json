@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memex/Buffer Overflow Attacks.md",
+                "file": "Journals/2022-11-03.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
+          },
+          {
+            "id": "bdc92647ea2f264a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-11-03.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b31a2fb7855a9f88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2022-11-03.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2211878cc159d627",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memex/ARM Architecture.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memex/Buffer Overflow Attacks.md",
+                "file": "Memex/ARM Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memex/Buffer Overflow Attacks.md"
+                "file": "Memex/ARM Architecture.md"
               }
             }
           },
@@ -132,17 +172,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "bdd7551d1af3d3d4",
+  "active": "2211878cc159d627",
   "lastOpenFiles": [
     "Journals/2022-11-03.md",
+    "Memex/Computer Systems.md",
+    "Memex/Inspecting Assembly.md",
+    "Memex/ARM Architecture.md",
+    "Memex/Base Frame Pointer.md",
+    "Memex/Iron Law of Processor Performance.md",
+    "Memex/Buffer Overflow Attacks.md",
     "Memex/水適穿石.md",
     "Memex/2022년 11월 한 달간 일기 쓰기.md",
-    "Journals/2022-06-12.md",
-    "Memex/Buffer Overflow Attacks.md",
-    "Journals/2022-11-02.md",
-    "Journals/2022-11-01.md",
-    "Memex/Structs and Unions.md",
-    "Memex/Computer Systems.md",
-    "Memex/Diminishing Cost of Service.md"
+    "Journals/2022-06-12.md"
   ]
 }
