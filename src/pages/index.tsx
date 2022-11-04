@@ -124,7 +124,7 @@ const HeroText = () => {
         />
       </Head>
       <header>
-        <h1 className={styles.intro}>
+        <h2 className={styles.intro}>
           <EmojiReplaceableText
             text={translate({ message: 'Sunghyun' })}
             photo={Profile}
@@ -258,7 +258,7 @@ const HeroText = () => {
               </Translate>
             </span>
           </Link>
-        </h1>
+        </h2>
       </header>
     </>
   )
