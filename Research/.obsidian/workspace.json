@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Caching.md",
+                "file": "pages/Computer Systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Caching.md",
+                "file": "pages/Computer Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Caching.md"
+                "file": "pages/Computer Systems.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   "active": "9838fba0976dc3c5",
   "lastOpenFiles": [
     "journals/2022-11-03.md",
+    "pages/Caching.md",
     "pages/Memory Hierarchy.md",
     "pages/Principles of Locality.md",
     "pages/Memory Wall.md",
@@ -167,7 +168,6 @@
     "pages/ARM Architecture.md",
     "pages/Iron Law of Processor Performance.md",
     "pages/Base Frame Pointer.md",
-    "pages/Buffer Overflow Attacks.md",
-    "pages/Caching.md"
+    "pages/Buffer Overflow Attacks.md"
   ]
 }
