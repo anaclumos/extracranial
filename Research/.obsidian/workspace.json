@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-04.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "845d0dfe00d250f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Virtual Memory.md",
+                "file": "pages/Cache and Virtual Memory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Virtual Memory.md",
+                "file": "pages/Cache and Virtual Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Virtual Memory.md"
+                "file": "pages/Cache and Virtual Memory.md"
               }
             }
           },
@@ -145,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "845d0dfe00d250f1",
+  "active": "cb2782a422cdeaea",
   "lastOpenFiles": [
+    "pages/Computer Systems.md",
     "journals/2022-11-04.md",
-    "pages/ARM Architecture.md",
     "pages/Virtual Memory.md",
-    "pages/Cache Conscious Programming.md",
-    "pages/Improving Cache Average Access Time.md",
-    "pages/Cache Average Access Time.md",
-    "pages/Principles of Inclusion.md",
-    "pages/Cache Write Policy.md",
-    "pages/Caching.md",
-    "journals/2022-11-03.md"
+    "pages/Cache and Virtual Memory.md",
+    "pages/Page Faults.md",
+    "pages/Translation Look-aside Buffers.md",
+    "pages/Page Size and Address Translations.md",
+    "pages/Trna.md",
+    "pages/Virtual Address Space and Physical Address Space.md",
+    "pages/Cache Evictions.md"
   ]
 }
