@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Cache Conscious Programming.md",
+                "file": "journals/2022-11-04.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "845d0dfe00d250f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Virtual Memory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Cache Conscious Programming.md",
+                "file": "pages/Virtual Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Cache Conscious Programming.md"
+                "file": "pages/Virtual Memory.md"
               }
             }
           },
@@ -131,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "cb2782a422cdeaea",
+  "active": "845d0dfe00d250f1",
   "lastOpenFiles": [
     "journals/2022-11-04.md",
+    "pages/ARM Architecture.md",
+    "pages/Virtual Memory.md",
+    "pages/Cache Conscious Programming.md",
     "pages/Improving Cache Average Access Time.md",
     "pages/Cache Average Access Time.md",
     "pages/Principles of Inclusion.md",
     "pages/Cache Write Policy.md",
     "pages/Caching.md",
-    "journals/2022-11-03.md",
-    "pages/Cache Evictions.md",
-    "pages/Cache Mapping.md",
-    "pages/42DC28.png.md"
+    "journals/2022-11-03.md"
   ]
 }
