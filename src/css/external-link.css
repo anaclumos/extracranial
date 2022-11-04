@@ -3,8 +3,8 @@ article a[href^='http']::before {
   width: 1em;
   height: 1em;
   margin-left: 0.1em;
-  margin-right: 0.25em;
-  margin-bottom: 0.25em;
+  margin-right: 0.2em;
+  margin-bottom: 0.2em;
   display: inline-block;
   vertical-align: middle !important;
   mask-repeat: no-repeat;
