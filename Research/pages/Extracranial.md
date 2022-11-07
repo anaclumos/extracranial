@@ -79,6 +79,8 @@ Seems like using [[Svelte]]
 ## Interesting Blogs
 
 - [flurries of latent creativity](https://blog.singleton.io/)
+- [What to blog about](https://simonwillison.net/2022/Nov/6/what-to-blog-about/)
+- [Simon Willison: TIL](https://til.simonwillison.net/)
 
 ## [[Interactive Articles]]
 
