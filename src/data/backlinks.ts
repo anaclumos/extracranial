@@ -98,7 +98,6 @@ export const backlinks = {
         "2022-10-15": "## [[Coding Tests]]",
         "2022-10-23": "## [[Coding Tests]]",
         "2022-10-24": "## [[Coding Tests]]",
-        "2022-11-04": "## [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "Real Exams": {
@@ -241,6 +240,7 @@ export const backlinks = {
         "2022-07-01": "... realized that the term Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.",
         "Better Obsidian": "  - `Personal Knowledge Management` and `[[PKM]]` should act the same.",
         "PKM": "| [[PKM]]        | Architecture for Digital ...",
+        "Pensieve": "... the intermediary bridge between web browser data stream (ephemeral) and long-term [[PKM]] data storage.",
         "Tools for Thought": "- Dendron: Nonlinear [[PKM]] with directories."
     },
     "PARA": {
@@ -328,9 +328,6 @@ export const backlinks = {
     "iOS Style Toggle in CSS": {
         "2022-10-12": "  - [x] Archived [[iOS Style Toggle in CSS]]"
     },
-    "월급만큼 중요한 것은 자존급이다": {
-        "2022-10-06": "- [[월급만큼 중요한 것은 자존급이다]]"
-    },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
         "Tossface": "- [[TossFace Playground]]"
@@ -398,7 +395,6 @@ export const backlinks = {
         "2022-10-20": "## [[Hacker News|HN]]",
         "2022-10-24": "## [[Hacker News|HN]]",
         "2022-10-27": "## [[Hacker News|HN]]",
-        "2022-11-04": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -581,7 +577,8 @@ export const backlinks = {
         "2022-10-03": "- [[sem.sh]]"
     },
     "Ideas are worthless": {
-        "2022-10-03": "- [[Ideas are worthless]]"
+        "2022-10-03": "- [[Ideas are worthless]]",
+        "Supergravity Products": "- (아이디어는 흔하고 그걸 실제로 만드는 사람은 귀하다) [[Ideas are worthless]]"
     },
     "Alter": {
         "2022-10-03": "- [[Alter]]"
@@ -792,6 +789,61 @@ export const backlinks = {
         "2022-10-27": "- [[Musk and Twitter]]",
         "Super App and Democracy": "- [[Musk and Twitter]]"
     },
+    "Xcode Clear Cache": {
+        "2022-11-06": "- [[Xcode Clear Cache]]"
+    },
+    "Project": {
+        "2022-10-31": "## [[Project]]",
+        "2022-11-03": "## [[Project]]",
+        "2022-11-04": "## [[Project]]",
+        "2022-11-05": "## [[Project]]",
+        "2022-11-06": "## [[Project]]",
+        "2022-11-07": "## [[Project]]",
+        "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
+        "AIs.txt": "- [[Project]]",
+        "Alter": "- Someday [[Project]]",
+        "Apple Earth": "- Someday [[Project]]",
+        "Autosave Everything": "- Someday [[Project]]",
+        "Better Aldehyde": "- [[Project]]",
+        "Better Docusaurus": "- Someday [[Project]]",
+        "Better Hacker News": "- Someday [[Project]]",
+        "CELLO": "- [[Project]]",
+        "CalliFontia": "- Someday [[Project]]",
+        "Chopstick Game": "- Someday [[Project]]",
+        "Coding Tests": "- [[Project]]",
+        "Cube": "- Someday [[Project]]",
+        "Digital Addictions of Software Enthusiasts": "- Someday [[Project]]",
+        "Dynamic Island on the Web": "- [[Project]]",
+        "FFMpeg for iPad": "- Someday [[Project]]",
+        "Intracranial": "- Someday [[Project]]",
+        "Markdown Email Client": "- Someday [[Project]]",
+        "Metadata as a Service": "- Someday [[Project]]",
+        "Not-So-Procrastinating Lazy Loading": "- Someday [[Project]]",
+        "Off The Record": "- Someday [[Project]]",
+        "Old Fashioned Camera": "- Someday [[Project]]",
+        "Open Graph Image as a Service": "- Someday [[Project]]",
+        "Project PEOPLE": "- [[Project]]",
+        "Quoridor Game": "- Someday [[Project]]",
+        "Separation of Computer Scientists and Computer Technologists": "- Someday [[Project]]",
+        "The New Era of macOS Applications": "- Someday [[Project]]",
+        "Timebelt": "- Someday [[Project]]",
+        "TossFace Playground": "- [[Project]] [[Done]]",
+        "UUIDs are Awesome": "- Someday [[Project]]",
+        "iiframe": "- Someday [[Project]]",
+        "sem.sh": "- Someday [[Project]]",
+        "사회과부도": "- Someday [[Project]]",
+        "조선왕조실록": "- Someday [[Project]]"
+    },
+    "2022년 11월 한 달간 일기 쓰기": {
+        "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-01": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-02": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-03": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-04": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-05": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-06": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-07": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+    },
     "Install Yarn Silently": {
         "2022-10-18": "- [[Install Yarn Silently]]"
     },
@@ -851,13 +903,6 @@ export const backlinks = {
     },
     "Maserati Problem": {
         "2022-11-02": "- [[Maserati Problem]]"
-    },
-    "2022년 11월 한 달간 일기 쓰기": {
-        "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-01": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-02": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-03": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-04": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "Apple Music API": {
         "2022-10-28": "- Reversed Engineered [[Apple Music API]] to get my personal request key.",
@@ -965,45 +1010,6 @@ export const backlinks = {
     "Diminishing Cost of Service": {
         "2022-11-03": "- [[Diminishing Cost of Service]]"
     },
-    "Project": {
-        "2022-10-31": "## [[Project]]",
-        "2022-11-03": "## [[Project]]",
-        "2022-11-04": "## [[Project]]",
-        "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
-        "AIs.txt": "- [[Project]]",
-        "Alter": "- Someday [[Project]]",
-        "Apple Earth": "- Someday [[Project]]",
-        "Autosave Everything": "- Someday [[Project]]",
-        "Better Aldehyde": "- [[Project]]",
-        "Better Docusaurus": "- Someday [[Project]]",
-        "Better Hacker News": "- Someday [[Project]]",
-        "CELLO": "- [[Project]]",
-        "CalliFontia": "- Someday [[Project]]",
-        "Chopstick Game": "- Someday [[Project]]",
-        "Coding Tests": "- [[Project]]",
-        "Cube": "- Someday [[Project]]",
-        "Digital Addictions of Software Enthusiasts": "- Someday [[Project]]",
-        "Dynamic Island on the Web": "- [[Project]]",
-        "FFMpeg for iPad": "- Someday [[Project]]",
-        "Intracranial": "- Someday [[Project]]",
-        "Markdown Email Client": "- Someday [[Project]]",
-        "Metadata as a Service": "- Someday [[Project]]",
-        "Not-So-Procrastinating Lazy Loading": "- Someday [[Project]]",
-        "Off The Record": "- Someday [[Project]]",
-        "Old Fashioned Camera": "- Someday [[Project]]",
-        "Open Graph Image as a Service": "- Someday [[Project]]",
-        "Project PEOPLE": "- [[Project]]",
-        "Quoridor Game": "- Someday [[Project]]",
-        "Separation of Computer Scientists and Computer Technologists": "- Someday [[Project]]",
-        "The New Era of macOS Applications": "- Someday [[Project]]",
-        "Timebelt": "- Someday [[Project]]",
-        "TossFace Playground": "- [[Project]] [[Done]]",
-        "UUIDs are Awesome": "- Someday [[Project]]",
-        "iiframe": "- Someday [[Project]]",
-        "sem.sh": "- Someday [[Project]]",
-        "사회과부도": "- Someday [[Project]]",
-        "조선왕조실록": "- Someday [[Project]]"
-    },
     "Ethereum RPC as a Service": {
         "2022-10-29": "- Matt Rickard: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
         "Matt Rickard": "- [[Ethereum RPC as a Service]]"
@@ -1041,6 +1047,13 @@ export const backlinks = {
         "Project": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on Web Workers?",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]]."
+    },
+    "Pensieve": {
+        "2022-11-07": "- [[Pensieve]]",
+        "Tools for Thought": "- [[Pensieve]]"
+    },
+    "Supergravity Products": {
+        "2022-11-07": "- [[Supergravity Products]]"
     },
     "Playing Sounds in SDL": {
         "2022-10-19": "- [[Playing Sounds in SDL]]"
@@ -1699,6 +1712,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "![[56155E.png]]"
     },
     "Toss": {
+        "Supergravity Products": "... 작은 아이디어 (금융 슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Toss Product Sans": "- Font by [[Toss]].",
         "Tossface": "- Emoji Font by [[Toss]]"
     },
@@ -2486,6 +2500,12 @@ export const backlinks = {
     },
     "Back Buffer": {
         "Graphics Engine Process": "    - [[Back Buffer]] is filled in Update Game State."
+    },
+    "tools for thought": {
+        "Pensieve": "- An experimental [[tools for thought]] for capturing the context of information."
+    },
+    "13ED2A.png": {
+        "Pensieve": "![[13ED2A.png]]"
     },
     "webserver": {
         "Port": "- [[webserver]] → 80"
