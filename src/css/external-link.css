@@ -3,8 +3,8 @@ article a[href^='http']::before {
   width: 1.2em;
   height: 1.2em;
   margin-left: 0.1em;
-  margin-right: 0.2em;
-  margin-bottom: 0.2em;
+  margin-right: 0.22em;
+  margin-bottom: 0.22em;
   display: inline-block;
   vertical-align: middle !important;
   mask-repeat: no-repeat;
@@ -14,8 +14,8 @@ article a[href^='http']::before {
 article a[href^='http']::after {
   content: '\00a0';
   background-color: var(--ifm-link-color);
-  width: 1.2em;
-  height: 1.2em;
+  width: 1.1em;
+  height: 1.1em;
   margin-right: 0.125em;
   margin-bottom: 0.125em;
   display: inline-block;
