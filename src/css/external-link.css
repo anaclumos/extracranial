@@ -223,3 +223,11 @@ article a[href*='webkit.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/safari.svg');
 }
+
+article a[href*='notion.so']::before,
+article a[href*='notion.site']::before,
+article a[href*='super.so']::before,
+article a[href*='oopy.io']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/notion.svg');
+}
