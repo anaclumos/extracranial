@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Supergravity Products.md",
+                "file": "journals/2022-11-01.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Supergravity Products.md",
+                "file": "journals/2022-11-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Supergravity Products.md"
+                "file": "journals/2022-11-01.md"
               }
             }
           },
@@ -133,9 +133,9 @@
   },
   "active": "5edb1b42ebbe5826",
   "lastOpenFiles": [
+    "pages/Supergravity Products.md",
     "pages/Ideas are worthless.md",
     "journals/2022-11-07.md",
-    "pages/Supergravity Products.md",
     "pages/CELLO (Product).md",
     "pages/CELLO.md",
     "pages/Pensieve.md",
