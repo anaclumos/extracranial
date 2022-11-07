@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-07.md",
+                "file": "pages/Supergravity Products.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-07.md",
+                "file": "pages/Supergravity Products.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-11-07.md"
+                "file": "pages/Supergravity Products.md"
               }
             }
           },
@@ -133,15 +133,15 @@
   },
   "active": "5edb1b42ebbe5826",
   "lastOpenFiles": [
-    "pages/Pensieve.md",
     "journals/2022-11-07.md",
+    "pages/CELLO (Product).md",
+    "pages/CELLO.md",
+    "pages/Supergravity Products.md",
+    "pages/Pensieve.md",
     "pages/Tools for Thought.md",
     "journals/2022-11-06.md",
     "journals/2022-11-05.md",
     "journals/2022-11-04.md",
-    "pages/Xcode Clear Cache.md",
-    "journals/2022-11-03.md",
-    "pages/Cache and Virtual Memory.md",
-    "pages/Computer Systems.md"
+    "pages/Xcode Clear Cache.md"
   ]
 }
