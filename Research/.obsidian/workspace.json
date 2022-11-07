@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ephemeral",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,15 +133,15 @@
   },
   "active": "5edb1b42ebbe5826",
   "lastOpenFiles": [
+    "pages/Pensieve.md",
+    "journals/2022-11-07.md",
+    "pages/Tools for Thought.md",
     "journals/2022-11-06.md",
     "journals/2022-11-05.md",
     "journals/2022-11-04.md",
-    "journals/2022-11-07.md",
     "pages/Xcode Clear Cache.md",
     "journals/2022-11-03.md",
     "pages/Cache and Virtual Memory.md",
-    "pages/Computer Systems.md",
-    "pages/Virtual Memory.md",
-    "pages/Page Faults.md"
+    "pages/Computer Systems.md"
   ]
 }

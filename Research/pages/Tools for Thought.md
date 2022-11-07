@@ -30,17 +30,14 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 - [Readwise](https://readwise.io/): Specialized in memorizing emails and ebooks.
 - [Dynalist](https://dynalist.io/): Outlining app.
 - [Braintoss](https://braintoss.com/): GTD Capture tool. Mail to self.
-- [Instapaper](https://www.instapaper.com/): Save Anything. Read Anywhere.
-- [Pocket](https://getpocket.com/en/): Save interesting stories. Read them whenever.
 - [Matter](https://hq.getmatter.app/): Matter pulls everything you want to read into one place.
 - [Clarity](https://www.clarity.so/): The DAO Contribution Platform.
 - [Notion](https://www.notion.so/): Hybrid workspace, batteries like databasing included.
 - [Saga](https://saga.so/): [[Notion]]-like service, but more focus on automatic information linkings.
-- [Craft](https://www.craft.do/): [[Notion]]-like service, but more focus on supporting native platforms.
+- [Craft](https://www.craft.do/): [[Notion]]-like service, but more focused on supporting native platforms.
 - [Coda](https://coda.io/): Note-taking service for teams.
 - [Miro](https://miro.com/): Visual thinking for teams.
 - [mmhmm](https://www.mmhmm.app/home): Collaborative video workspace for teams
-- [Zotero](https://www.zotero.org/): Research assistant. People say it is good for annotating PDFs.
 - [Scrivener](https://www.literatureandlatte.com/scrivener/overview): Writing app for writers.
 - [myReach](https://myreach.io/features/): Note-taking app with lots of features.
 - [prose.sh](https://prose.sh/): a blog platform for hackers in terminal
@@ -50,6 +47,13 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 - [Napkin - Collect ideas, see connections, be inspired.](https://www.napkin.one/) It's like Liner (collecting data from the internet) and Heptabase (Visual thinking). But it also uses AI to extract keywords and show relevant data.
 - [Visible – Make information useful](https://visible.page/) All in one, just like Standard Notes
 - [usememos/memos: An open-source, self-hosted knowledge base that works with an SQLite DB file.](https://github.com/usememos/memos)
+
+## Data Collector
+
+- [[Pensieve]]
+- [Instapaper](https://www.instapaper.com/): Save Anything. Read Anywhere.
+- [Pocket](https://getpocket.com/en/): Save interesting stories. Read them whenever.
+- [Zotero](https://www.zotero.org/): Research assistant. People say it is good for annotating PDFs.
 
 ## Classic Blogs
 
