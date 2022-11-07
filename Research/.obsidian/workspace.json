@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2b3ec2ebdbe29856",
+        "id": "72d2d083f03dff76",
         "type": "tabs",
         "children": [
           {
-            "id": "cb2782a422cdeaea",
+            "id": "5edb1b42ebbe5826",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Cache and Virtual Memory.md",
+                "file": "journals/2022-11-07.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Cache and Virtual Memory.md",
+                "file": "journals/2022-11-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Cache and Virtual Memory.md"
+                "file": "journals/2022-11-07.md"
               }
             }
           },
@@ -131,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "cb2782a422cdeaea",
+  "active": "5edb1b42ebbe5826",
   "lastOpenFiles": [
-    "pages/Computer Systems.md",
+    "journals/2022-11-06.md",
+    "journals/2022-11-05.md",
     "journals/2022-11-04.md",
-    "pages/Virtual Memory.md",
+    "journals/2022-11-07.md",
+    "pages/Xcode Clear Cache.md",
+    "journals/2022-11-03.md",
     "pages/Cache and Virtual Memory.md",
-    "pages/Page Faults.md",
-    "pages/Translation Look-aside Buffers.md",
-    "pages/Page Size and Address Translations.md",
-    "pages/Trna.md",
-    "pages/Virtual Address Space and Physical Address Space.md",
-    "pages/Cache Evictions.md"
+    "pages/Computer Systems.md",
+    "pages/Virtual Memory.md",
+    "pages/Page Faults.md"
   ]
 }
