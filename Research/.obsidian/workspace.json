@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-07.md",
+                "file": "journals/2022-11-08.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "dbec4d56663e8123",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-08.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "715a7f0cfdab5ffd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Text-based Presentations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-07.md",
+                "file": "journals/2022-11-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-11-07.md"
+                "file": "journals/2022-11-08.md"
               }
             }
           },
@@ -131,17 +158,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "bcf738a846403ef3",
+  "active": "dbec4d56663e8123",
   "lastOpenFiles": [
-    "pages/Real Interviews.md",
+    "pages/Text-based Presentations.md",
+    "journals/2022-11-08.md",
     "journals/2022-11-07.md",
-    "pages/Collecting Data.md",
-    "pages/Mastodon.md",
-    "pages/Text Graphics.md",
-    "pages/GitHub Copilot Investigation.md",
-    "pages/Extracranial.md",
-    "pages/BitTorrent.md",
-    "pages/Almost Monospaced.md",
-    "pages/Internetworking.md"
+    "journals/2022-11-06.md",
+    "journals/2022-11-05.md",
+    "journals/2022-11-04.md",
+    "journals/2022-11-03.md",
+    "journals/2022-11-02.md",
+    "journals/2022-11-01.md",
+    "pages/Mastodon.md"
   ]
 }
