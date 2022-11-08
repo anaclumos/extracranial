@@ -395,6 +395,7 @@ export const backlinks = {
         "2022-10-20": "## [[Hacker News|HN]]",
         "2022-10-24": "## [[Hacker News|HN]]",
         "2022-10-27": "## [[Hacker News|HN]]",
+        "2022-11-07": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -413,6 +414,7 @@ export const backlinks = {
         "2022-10-21": "- [[AIs.txt]]",
         "2022-10-22": "- [[AIs.txt]]",
         "2022-10-24": "- [[AIs.txt]]",
+        "GitHub Copilot Investigation": "  - [[AIs.txt]]",
         "Project": "- [[AIs.txt]]"
     },
     "Better Aldehyde": {
@@ -682,6 +684,7 @@ export const backlinks = {
         "2022-09-30": "- Chris Welch [[Extracranial]]",
         "2022-10-13": "- [[Extracranial]]",
         "2022-10-18": "- [[Extracranial]]",
+        "2022-11-07": "- [[Extracranial]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a Memex or, in my term, [[Extracranial]] at https://cho.sh.",
         "Memex": "- Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.",
         "Preservation of Data": "- An important concept for Memex and [[Extracranial]]",
@@ -873,6 +876,7 @@ export const backlinks = {
     "Copilot": {
         "2022-10-18": "- [[Copilot]]",
         "AIs.txt": "... we could make a human-readable file that declines machine learning (a.k.a. [[Copilot]] use)?",
+        "Collecting Data": "- [[Copilot]]",
         "Synthote": "- [[Copilot]] is already doing it for codes"
     },
     "Interactive Articles": {
@@ -1054,6 +1058,21 @@ export const backlinks = {
     },
     "Supergravity Products": {
         "2022-11-07": "- [[Supergravity Products]]"
+    },
+    "Text Graphics": {
+        "2022-11-07": "- [[Text Graphics]]"
+    },
+    "Mastodon": {
+        "2022-11-07": "- [[Mastodon]]"
+    },
+    "Collecting Data": {
+        "2022-11-07": "- [[Collecting Data]]"
+    },
+    "BitTorrent": {
+        "2022-11-07": "- [[BitTorrent]]"
+    },
+    "Almost Monospaced": {
+        "2022-11-07": "- [[Almost Monospaced]]"
     },
     "Playing Sounds in SDL": {
         "2022-10-19": "- [[Playing Sounds in SDL]]"
@@ -1450,7 +1469,8 @@ export const backlinks = {
         "2022-10-10": "    - ![[AF38A6.png]]"
     },
     "ActivityPub": {
-        "2022-10-10": "- [[ActivityPub]]"
+        "2022-10-10": "- [[ActivityPub]]",
+        "Mastodon": "> Mastodon is a free, open-source social network server based on [[ActivityPub]] where users can follow friends and discover new ones. On Mastodon, ..."
     },
     "Infinite Canvas": {
         "2022-10-10": "- [[Infinite Canvas]]",
@@ -2166,6 +2186,9 @@ export const backlinks = {
     "3B78C6.png": {
         "Reverse Engineering Apple Music API": "![[3B78C6.png]]"
     },
+    "2245EE.png": {
+        "Text Graphics": "![[2245EE.png]]"
+    },
     "C1FA76.png": {
         "Jumpsite": "![[C1FA76.png]]",
         "Surfit": "![[C1FA76.png]]"
@@ -2282,6 +2305,9 @@ export const backlinks = {
     },
     "Done": {
         "TossFace Playground": "- Project [[Done]]"
+    },
+    "이루다": {
+        "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information"
     },
     "BD6DAB.png": {
         "Pretendard의 아쉬운 점": "![[BD6DAB.png]]"
@@ -2634,8 +2660,8 @@ export const backlinks = {
     "Dogfooding": {
         "Stories Behind Satori": "The Vercel team [[Dogfooding|dogfooded]] this for a while."
     },
-    "이루다": {
-        "Copilot": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information"
+    "GitHub Copilot Investigation": {
+        "Copilot": "- [[GitHub Copilot Investigation]]"
     },
     "ABCEC0.png": {
         "To Kill a Night Owl": "![[ABCEC0.png]]"
