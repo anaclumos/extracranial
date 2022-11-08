@@ -11,8 +11,13 @@
             "id": "bcf738a846403ef3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2022-11-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2022-11-07.md"
+              }
             }
           },
           {
@@ -125,15 +133,15 @@
   },
   "active": "bcf738a846403ef3",
   "lastOpenFiles": [
-    "pages/Collecting Data.md",
+    "pages/Real Interviews.md",
     "journals/2022-11-07.md",
+    "pages/Collecting Data.md",
     "pages/Mastodon.md",
     "pages/Text Graphics.md",
     "pages/GitHub Copilot Investigation.md",
     "pages/Extracranial.md",
     "pages/BitTorrent.md",
     "pages/Almost Monospaced.md",
-    "pages/Internetworking.md",
-    "pages/Multiplexing.md"
+    "pages/Internetworking.md"
   ]
 }

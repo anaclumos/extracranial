@@ -5,6 +5,11 @@ slug: '/654898'
 
 ## For 2023
 
+- [[Palantir]]
+
+  - technical design of a class registration system (higher level engineering)
+  - technical design of a package manager proxy server (multithreading)
+
 - [[Grammarly]]
 
   - 1 Q on removing adjacent duplicates
