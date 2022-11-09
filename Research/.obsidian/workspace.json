@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "99e1604810ec4cc7",
+        "id": "3f83dd27d3cc7b90",
         "type": "tabs",
         "children": [
           {
-            "id": "bcf738a846403ef3",
+            "id": "7946c0883694fc7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "journals/2022-11-08.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "dbec4d56663e8123",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-11-08.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "715a7f0cfdab5ffd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Text-based Presentations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "dbec4d56663e8123",
+  "active": "7946c0883694fc7b",
   "lastOpenFiles": [
-    "pages/Text-based Presentations.md",
+    "pages/Decoy Effect.md",
     "journals/2022-11-08.md",
+    "pages/Text-based Presentations.md",
     "journals/2022-11-07.md",
     "journals/2022-11-06.md",
     "journals/2022-11-05.md",
     "journals/2022-11-04.md",
     "journals/2022-11-03.md",
     "journals/2022-11-02.md",
-    "journals/2022-11-01.md",
-    "pages/Mastodon.md"
+    "journals/2022-11-01.md"
   ]
 }
