@@ -1,23 +1,23 @@
-import React, { useEffect, useRef } from 'react'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import Layout from '@theme/Layout'
-import styles from './index.module.css'
-import BrowserOnly from '@docusaurus/BrowserOnly'
-import { filenames } from '@site/src/data/filenames'
-import { backlinks } from '@site/src/data/backlinks'
-import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass'
-import Head from '@docusaurus/Head'
-import { useScreenSize } from '@site/src/util/useScreenSize'
+import React, { useEffect, useRef } from 'react';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import styles from './index.module.css';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import { filenames } from '@site/src/data/filenames';
+import { backlinks } from '@site/src/data/backlinks';
+import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass';
+import Head from '@docusaurus/Head';
+import { useScreenSize } from '@site/src/util/useScreenSize';
 
 type Node = {
-  nodeLabel: string
-  id: string
-  nodeRelSize: number
-}
+  nodeLabel: string;
+  id: string;
+  nodeRelSize: number;
+};
 
 const processBacklinksToGraph = (backlinks) => {
-  const nodes: Node[] = []
-  const links: { source: string; target: string }[] = []
+  const nodes: Node[] = [];
+  const links: { source: string; target: string }[] = [];
   for (const key in backlinks) {
     // if it ends with .png or .jpg or .jpeg, or .gif or .svg, then it's an image
     if (
@@ -27,73 +27,64 @@ const processBacklinksToGraph = (backlinks) => {
       key.endsWith('.gif') ||
       key.endsWith('.svg')
     ) {
-      continue
+      continue;
     } else {
       const node: Node = {
         nodeLabel: key,
         id: filenames[key],
         nodeRelSize: 1,
-      } as Node
+      } as Node;
 
       if (!nodes.find((n) => n.id === node.id)) {
-        nodes.push(node)
+        nodes.push(node);
       }
 
       Object.keys(backlinks[key]).forEach((neighbor) => {
-        if (
-          !nodes.find(
-            (node) => node.id === filenames[neighbor]
-          )
-        ) {
+        if (!nodes.find((node) => node.id === filenames[neighbor])) {
           nodes.push({
             nodeLabel: neighbor,
             id: filenames[neighbor],
             nodeRelSize: 1,
-          })
+          });
         }
         links.push({
           source: filenames[key],
           target: filenames[neighbor],
-        })
-        nodes.find((n) => n.id === filenames[key])
-          .nodeRelSize++
-        node.nodeRelSize++
-      })
+        });
+        nodes.find((n) => n.id === filenames[key]).nodeRelSize++;
+        node.nodeRelSize++;
+      });
     }
   }
-  return { nodes, links }
-}
+  return { nodes, links };
+};
 
 export const GraphView3d = (props: {
-  width: number
-  height: number
+  width: number;
+  height: number;
 }) => {
   if (typeof window === 'undefined') {
-    return null
+    return null;
   }
 
-  const gData = processBacklinksToGraph(backlinks)
+  const gData = processBacklinksToGraph(backlinks);
 
   return (
     <div className={styles.graphView}>
       <BrowserOnly>
         {() => {
-          const {
-            ForceGraph3D,
-          } = require('react-force-graph')
+          const { ForceGraph3D } = require('react-force-graph');
 
           const FocusGraph = () => {
-            const fgRef = useRef<any>()
+            const fgRef = useRef<any>();
 
             useEffect(() => {
-              const bloomPass = new UnrealBloomPass()
-              bloomPass.strength = 2
-              bloomPass.radius = 1
-              bloomPass.threshold = 0.1
-              fgRef.current
-                .postProcessingComposer()
-                .addPass(bloomPass)
-            }, [])
+              const bloomPass = new UnrealBloomPass();
+              bloomPass.strength = 2;
+              bloomPass.radius = 1;
+              bloomPass.threshold = 0.1;
+              fgRef.current.postProcessingComposer().addPass(bloomPass);
+            }, []);
 
             return (
               <ForceGraph3D
@@ -116,53 +107,41 @@ export const GraphView3d = (props: {
                   // 2. date (YYYY-MM-DD)
                   // if it's a date, then return a color #fff
                   if (node.id?.length === 10) {
-                    return '#fff'
+                    return '#fff';
                   }
-                  return `#${node.id}`
+                  return `#${node.id}`;
                 }}
                 linkColor={() => '#4976ca'}
                 linkOpacity={0.3}
                 linkWidth={0.3}
                 showNavInfo={false}
                 onNodeClick={(node) => {
-                  window.location.href = '/r/' + node.id
+                  window.location.href = '/r/' + node.id;
                 }}
               />
-            )
-          }
-          return <FocusGraph />
+            );
+          };
+          return <FocusGraph />;
         }}
       </BrowserOnly>
     </div>
-  )
-}
+  );
+};
 
 export default function Graph(): JSX.Element {
-  const [width, height] = useScreenSize()
-  const { siteConfig } = useDocusaurusContext()
+  const [width, height] = useScreenSize();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title="Hippocampal Neuron Graph"
-      description={siteConfig.tagline}
-    >
+    <Layout title="Hippocampal Neuron Graph" description={siteConfig.tagline}>
       <Head>
         <title>{'Hippocampal Neuron Graph'}</title>
-        <meta
-          name="description"
-          content={siteConfig.tagline}
-        />
-        <meta
-          property="og:title"
-          content={'Hippocampal Neuron Graph'}
-        />
-        <meta
-          property="og:description"
-          content={siteConfig.tagline}
-        />
+        <meta name="description" content={siteConfig.tagline} />
+        <meta property="og:title" content={'Hippocampal Neuron Graph'} />
+        <meta property="og:description" content={siteConfig.tagline} />
         <meta
           property="og:image"
           content={`https://og-image.cho.sh/**${encodeURIComponent(
-            'Hippocampal Neuron Graph'
+            'Hippocampal Neuron Graph',
           )}**.png?theme=%235597ec&md=1&fontSize=100px&images=https%3A%2F%2Fcho.sh%2Fimg%2Ffavicon.png`}
         />
       </Head>
@@ -170,5 +149,5 @@ export default function Graph(): JSX.Element {
         <GraphView3d width={width} height={height} />
       </main>
     </Layout>
-  )
+  );
 }

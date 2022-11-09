@@ -1,9 +1,9 @@
-import React from 'react'
-import styles from './index.module.css'
+import React from 'react';
+import styles from './index.module.css';
 
 type Props = {
-  id: string
-}
+  id: string;
+};
 
 const YouTube = ({ id }: Props) => {
   return (
@@ -12,7 +12,7 @@ const YouTube = ({ id }: Props) => {
       title="YouTube"
       src={`https://www.youtube.com/embed/${id}`}
     ></iframe>
-  )
-}
+  );
+};
 
-export default YouTube
+export default YouTube;
