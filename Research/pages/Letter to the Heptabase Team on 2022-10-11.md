@@ -19,7 +19,7 @@ I am recently experimenting with Visual Thinking tools (okso.app was an interest
 
 Now I would like to ask: Would there be some sort of... in the near future (within six months)?
 
-- Markdown-Wikilink import/export
+- [[Markdown]]-Wikilink import/export
 - API support (Notion-like?)
 - Handwriting/Pen Support (iOS App)?
 - Any open-source works

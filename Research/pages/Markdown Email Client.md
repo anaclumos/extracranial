@@ -10,4 +10,4 @@ slug: '/24A042'
 
 ## Reader Mode
 
-- We desperately need a reader mode for markdown emails!
+- We desperately need a reader mode for [[markdown]] emails!
