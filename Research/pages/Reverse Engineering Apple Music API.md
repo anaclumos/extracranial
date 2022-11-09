@@ -16,7 +16,7 @@ It doesn't mention how to get that token!
 
 ![[5FE278.png]]
 
-## Creating Apple Music API Key
+## Creating [[Apple Music API]] Key
 
 - Used [pelauimagineering/apple-music-token-generator](https://github.com/pelauimagineering/apple-music-token-generator) to get the token.
 

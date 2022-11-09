@@ -17,7 +17,7 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 ## [[TODO]]
 
 - [ ] Study the thread on [HN](https://news.ycombinator.com/item?id=33151774)
-- [ ] Does Emscripten [[WebAssembly|WASM]] run on Web Workers?
+- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?
 - [ ] Study [Biden-Harris Administration's National Security Strategy](https://www.whitehouse.gov/wp-content/uploads/2022/10/Biden-Harris-Administrations-National-Security-Strategy-10.2022.pdf)
 - [ ] Finalize [[How is WebAssembly cross-platform when Assembly is not]]
 - [ ] Review [MailPilot](https://www.mailpilot.app/) [[Markdown Email Client]]
