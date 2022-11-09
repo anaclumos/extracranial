@@ -1,47 +1,35 @@
-import React from 'react'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import Layout from '@theme/Layout'
-import styles from './index.module.css'
-import EmojiReplaceableText from '../components/EmojiReplaceableText'
-import Translate, { translate } from '@docusaurus/Translate'
-import { Globe } from '../components/Globe'
-import Head from '@docusaurus/Head'
+import React from 'react';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import styles from './index.module.css';
+import EmojiReplaceableText from '../components/EmojiReplaceableText';
+import Translate, { translate } from '@docusaurus/Translate';
+import { Globe } from '../components/Globe';
+import Head from '@docusaurus/Head';
 
-import Profile from '@site/static/img/profile.jpg'
-import AlienMonsterEmoji from '@site/static/fonts/emoji/alien-monster.png'
-import BankEmoji from '@site/static/fonts/emoji/bank.png'
-import KoreaEmoji from '@site/static/fonts/emoji/korea.png'
-import USEmoji from '@site/static/fonts/emoji/us.png'
-import NewspaperEmoji from '@site/static/fonts/emoji/newspaper.png'
-import PillEmoji from '@site/static/fonts/emoji/pill.png'
-import RadioactiveEmoji from '@site/static/fonts/emoji/radioactive.png'
-import RocketEmoji from '@site/static/fonts/emoji/rocket.png'
-import TechnologistEmoji from '@site/static/fonts/emoji/technologist.png'
-import WebEmoji from '@site/static/fonts/emoji/web.png'
-import Link from '@docusaurus/Link'
+import Profile from '@site/static/img/profile.jpg';
+import AlienMonsterEmoji from '@site/static/fonts/emoji/alien-monster.png';
+import BankEmoji from '@site/static/fonts/emoji/bank.png';
+import KoreaEmoji from '@site/static/fonts/emoji/korea.png';
+import USEmoji from '@site/static/fonts/emoji/us.png';
+import NewspaperEmoji from '@site/static/fonts/emoji/newspaper.png';
+import PillEmoji from '@site/static/fonts/emoji/pill.png';
+import RadioactiveEmoji from '@site/static/fonts/emoji/radioactive.png';
+import RocketEmoji from '@site/static/fonts/emoji/rocket.png';
+import TechnologistEmoji from '@site/static/fonts/emoji/technologist.png';
+import WebEmoji from '@site/static/fonts/emoji/web.png';
+import Link from '@docusaurus/Link';
 
 const HeroText = () => {
-  const { siteConfig } = useDocusaurusContext()
+  const { siteConfig } = useDocusaurusContext();
   return (
     <>
       <Head>
         <title>{siteConfig.title}</title>
-        <meta
-          name="description"
-          content={siteConfig.tagline}
-        />
-        <meta
-          property="og:title"
-          content={siteConfig.title}
-        />
-        <meta
-          property="og:description"
-          content={siteConfig.tagline}
-        />
-        <meta
-          property="og:image"
-          content="img/ogimage.png"
-        />
+        <meta name="description" content={siteConfig.tagline} />
+        <meta property="og:title" content={siteConfig.title} />
+        <meta property="og:description" content={siteConfig.tagline} />
+        <meta property="og:image" content="img/ogimage.png" />
         <link rel="icon" href="img/favicon.svg" />
         <link rel="icon" href="img/favicon.ico" />
         <link
@@ -163,9 +151,7 @@ const HeroText = () => {
             })}
             showByDefault="emoji"
           />
-          <Translate>
-            {'. He usually works on next-gen '}
-          </Translate>
+          <Translate>{'. He usually works on next-gen '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'web' })}
             photo={WebEmoji}
@@ -175,9 +161,7 @@ const HeroText = () => {
             showByDefault="emoji"
           />
           <Translate>
-            {
-              ' technologies, while his interest spans various fields like '
-            }
+            {' technologies, while his interest spans various fields like '}
           </Translate>
           <EmojiReplaceableText
             text={translate({
@@ -253,28 +237,23 @@ const HeroText = () => {
           </a>{' '}
           <Link className={styles.email} href="/r">
             <span>
-              <Translate>
-                Or dive down the rabbit hole.
-              </Translate>
+              <Translate>Or dive down the rabbit hole.</Translate>
             </span>
           </Link>
         </h2>
       </header>
     </>
-  )
-}
+  );
+};
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext()
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description={siteConfig.tagline}
-    >
+    <Layout title={`${siteConfig.title}`} description={siteConfig.tagline}>
       <main className={styles.mainContainer}>
         <HeroText />
         <Globe />
       </main>
     </Layout>
-  )
+  );
 }
