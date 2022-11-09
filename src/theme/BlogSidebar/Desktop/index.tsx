@@ -1,14 +1,12 @@
-import React from 'react'
-import clsx from 'clsx'
-import Link from '@docusaurus/Link'
-import { translate } from '@docusaurus/Translate'
-import type { Props } from '@theme/BlogSidebar/Desktop'
+import React from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import { translate } from '@docusaurus/Translate';
+import type { Props } from '@theme/BlogSidebar/Desktop';
 
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
-export default function BlogSidebarDesktop({
-  sidebar,
-}: Props): JSX.Element {
+export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
   return (
     <aside className="col col--3">
       <nav
@@ -16,24 +14,13 @@ export default function BlogSidebarDesktop({
         aria-label={translate({
           id: 'theme.blog.sidebar.navAriaLabel',
           message: 'Blog recent posts navigation',
-          description:
-            'The ARIA label for recent posts in the blog sidebar',
+          description: 'The ARIA label for recent posts in the blog sidebar',
         })}
       >
-        <div
-          className={clsx(
-            styles.sidebarItemTitle,
-            'margin-bottom--md'
-          )}
-        >
+        <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
           {sidebar.title}
         </div>
-        <ul
-          className={clsx(
-            styles.sidebarItemList,
-            'clean-list'
-          )}
-        >
+        <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
           {sidebar.items.map((item) => (
             <Link
               isNavLink
@@ -41,10 +28,7 @@ export default function BlogSidebarDesktop({
               className={styles.sidebarItemLink}
               activeClassName={styles.sidebarItemLinkActive}
             >
-              <li
-                key={item.permalink}
-                className={styles.sidebarItem}
-              >
+              <li key={item.permalink} className={styles.sidebarItem}>
                 {item.title}
               </li>
             </Link>
@@ -52,5 +36,5 @@ export default function BlogSidebarDesktop({
         </ul>
       </nav>
     </aside>
-  )
+  );
 }
