@@ -1,11 +1,13 @@
-import React from 'react';
-import Translate from '@docusaurus/Translate';
-import { ThemeClassNames } from '@docusaurus/theme-common';
-import type { Props } from '@theme/EditThisPage';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from 'react'
+import Translate from '@docusaurus/Translate'
+import { ThemeClassNames } from '@docusaurus/theme-common'
+import type { Props } from '@theme/EditThisPage'
+import clsx from 'clsx'
+import styles from './styles.module.css'
 
-export default function EditThisPage({ editUrl }: Props): JSX.Element {
+export default function EditThisPage({
+  editUrl,
+}: Props): JSX.Element {
   return (
     <a
       href={editUrl}
@@ -13,7 +15,7 @@ export default function EditThisPage({ editUrl }: Props): JSX.Element {
       rel="noreferrer noopener"
       className={clsx(
         'ThemeClassNames.common.editThisPage',
-        styles.editThisPage,
+        styles.editThisPage
       )}
     >
       <Translate
@@ -23,5 +25,5 @@ export default function EditThisPage({ editUrl }: Props): JSX.Element {
         Edit this page
       </Translate>
     </a>
-  );
+  )
 }

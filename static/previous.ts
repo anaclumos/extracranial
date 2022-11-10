@@ -45,4 +45,4 @@ export const previousAnalyticsData = {
   E2CAE4: 4126,
   F522B3: 2451,
   '90675E': 225,
-};
+}

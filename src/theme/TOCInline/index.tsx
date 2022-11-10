@@ -1,8 +1,8 @@
-import React from 'react';
-import TOCItems from '@theme/TOCItems';
-import type { Props } from '@theme/TOCInline';
+import React from 'react'
+import TOCItems from '@theme/TOCItems'
+import type { Props } from '@theme/TOCInline'
 
-import styles from './styles.module.css';
+import styles from './styles.module.css'
 
 export default function TOCInline({
   toc,
@@ -19,5 +19,5 @@ export default function TOCInline({
         linkClassName={null}
       />
     </div>
-  );
+  )
 }

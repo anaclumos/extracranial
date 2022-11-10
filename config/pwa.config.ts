@@ -43,6 +43,6 @@ const pwaOptions = {
       content: '#5597ec',
     },
   ],
-};
+}
 
-export default pwaOptions;
+export default pwaOptions
