@@ -16,9 +16,32 @@ I never expected this project to end up on such a consequential scale. This proj
 > **Warning**<br/>
 > I haphazardly git-committed the first few hundred commits. Also, I use my terminal shortcut to auto-deploy to Vercel by git-committing a "trivial note update." This workflow will undoubtedly break if other people start to fork this repo — but that's a [Maserati Problem](https://cho.sh/r/6EB336); I'll probably figure it out in the future! So meanwhile, if you want to use this repo for yourself, you will have to put some effort. Good luck!
 
-<a title="Simple Analytics" href="" referrerpolicy="origin" target="_blank">
-  <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://simpleanalyticsbadges.com/cho.sh?mode=dark">
-    <img src="https://simpleanalyticsbadges.com/cho.sh" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" />
-  </picture>
-</a>
+
+## Stats
+
+```
+───────────────────────────────────────────────────────────────────────────────
+Language                 Files     Lines   Blanks  Comments     Code Complexity
+───────────────────────────────────────────────────────────────────────────────
+Markdown                   705     21237     5067         0    16170          0
+TypeScript                  48      5901      145        53     5703        143
+SVG                         39        39        0         0       39          0
+CSS                         32      2651      176        29     2446          0
+JSON                        26      1892        0         0     1892          0
+Python                       6       367       47        29      291         91
+YAML                         6        30        2         0       28          0
+Plain Text                   2        97       18         0       79          0
+TypeScript Typings           2         6        0         4        2          0
+JavaScript                   1        19        3        12        4          0
+gitignore                    1       291       73        70      148          0
+───────────────────────────────────────────────────────────────────────────────
+Total                      868     32530     5531       197    26802        234
+───────────────────────────────────────────────────────────────────────────────
+Estimated Cost to Develop (organic) $853,435
+Estimated Schedule Effort (organic) 12.95 months
+Estimated People Required (organic) 5.86
+───────────────────────────────────────────────────────────────────────────────
+Processed 1442840 bytes, 1.443 megabytes (SI)
+───────────────────────────────────────────────────────────────────────────────
+
+```
