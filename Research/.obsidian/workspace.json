@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "3f83dd27d3cc7b90",
+        "id": "00eeb13d74b7941e",
         "type": "tabs",
         "children": [
           {
-            "id": "7946c0883694fc7b",
+            "id": "de000441222a60a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-08.md",
+                "file": "journals/2022-11-09.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a909059582fd2914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Higher-Level Languages and Their Speeds.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "61955c4b2d891df4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Is Web3 Overrated.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-08.md",
+                "file": "pages/Is Web3 Overrated.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-11-08.md"
+                "file": "pages/Is Web3 Overrated.md"
               }
             }
           },
@@ -131,17 +158,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "7946c0883694fc7b",
+  "active": "61955c4b2d891df4",
   "lastOpenFiles": [
+    "journals/2022-11-09.md",
+    "pages/Is Web3 Overrated.md",
+    "pages/Higher-Level Languages and Their Speeds.md",
+    "pages/Ruby.md",
+    "journals/2022-11-08.md",
     "pages/BitTorrent.md",
     "assets/B5F9BB.png",
-    "journals/2022-11-08.md",
     "pages/CELLO (Product).md",
     "pages/Git.md",
-    "journals/2022-10-08.md",
-    "journals/2022-08-28.md",
-    "pages/Canvas (HTML5).md",
-    "pages/0704 Binary Search.md",
-    "pages/초상권 vs 저작권.md"
+    "journals/2022-10-08.md"
   ]
 }
