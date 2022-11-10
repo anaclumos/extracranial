@@ -6,6 +6,13 @@ slug: '/B21605'
 - [[Project]]
 - [[Dynamic Island]] on the Web
 
+## [[2022-11-10]]
+
+- Finally, as the last step, the only thing left is the integration with my website!
+
+![[332450.gif]]
+
+
 ## [[2022-10-28]]
 
 - [[Reverse Engineering Apple Music API]]
