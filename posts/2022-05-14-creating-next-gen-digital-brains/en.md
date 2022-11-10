@@ -51,11 +51,8 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 ## Interactive Contents & Animations
 
 ![victordibia.com. Seems like using MDX.](B717F8.gif)
-
 ![bluewings.github.io. Confirmed using MDX.](FB685B.gif)
-
 ![pomb.us. Reacts to user scroll.](8F78C9.gif)
-
 ![qubit.donghwi.dev. This isn't a blog; it's a web app that demonstrates key concepts of Quantum Computers. But still interesting.](ED77BD.gif)
 
 ## Unorganized Graphing.
@@ -63,10 +60,8 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 - Trust me, manually fiddling with tag sucks.
 - Necessarily tagging posts and organizing posts into subdirectories resembles organizing your computer.
 - However, you wouldn't want to do this if you have thousands of posts; also the border gets loose. What if the post has two properties? What becomes the primary tag and what becomes the secondary tag?
-
 - [Students who grew up with search engines might change STEM education forever](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z)
 - Notable trends. Gen Z's don't organize folders anymore!
-
 - Recent trends, I would say, are dumping everything into a mega folder and searching up things whenever needed.
 - I also used to organize folders a lot more, but recently as searches like Spotlight and Alfred improve, I don't see the need to manage them all by hand, considering I always pull up those search commands to open a file.
 - You don't need to manually organize all of the files when algorithms can read all the texts and organize them for you!
@@ -75,9 +70,7 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 ![Velog.io, the Korean version of dev.to, links relevant posts for every post.](8E5E49.png)
 
 - Therefore, creating a cluster of posts, not classified by me, but bots and algorithms.
-
-  - [Display related posts without slowing down your website! Link all your existing content with only one click, and get related posts for all your posts today!](https://wordpress.org/plugins/related-posts-for-wp/) WordPress also has this plugin. "Automatically link posts to each other"
-
+- [Display related posts without slowing down your website! Link all your existing content with only one click, and get related posts for all your posts today!](https://wordpress.org/plugins/related-posts-for-wp/) WordPress also has this plugin. "Automatically link posts to each other"
 - This is similar to backlinking, which most so-called digital brains such as [Obsidian](https://obsidian.md/) and [Dendron](https://www.dendron.so/) are doing.
 
 ![Example of backlinking from Dendron](D9987E.png)
