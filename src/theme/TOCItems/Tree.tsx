@@ -1,5 +1,5 @@
-import React from 'react';
-import type { Props } from '@theme/TOCItems/Tree';
+import React from 'react'
+import type { Props } from '@theme/TOCItems/Tree'
 
 // Recursive component rendering the toc tree
 function TOCItemTree({
@@ -9,7 +9,7 @@ function TOCItemTree({
   isChild,
 }: Props): JSX.Element | null {
   if (!toc.length) {
-    return null;
+    return null
   }
   return (
     <ul className={isChild ? undefined : className}>
@@ -34,8 +34,8 @@ function TOCItemTree({
         </li>
       ))}
     </ul>
-  );
+  )
 }
 
 // Memo only the tree root is enough
-export default React.memo(TOCItemTree);
+export default React.memo(TOCItemTree)

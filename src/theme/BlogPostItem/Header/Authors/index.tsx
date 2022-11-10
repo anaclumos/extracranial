@@ -1,10 +1,10 @@
-import React from 'react';
-import clsx from 'clsx';
+import React from 'react'
+import clsx from 'clsx'
 // @ts-ignore
-import { useBlogPost } from '@docusaurus/theme-common/internal';
-import BlogPostItemHeaderAuthor from '@theme/BlogPostItem/Header/Author';
-import type { Props } from '@theme/BlogPostItem/Header/Authors';
-import styles from './styles.module.css';
+import { useBlogPost } from '@docusaurus/theme-common/internal'
+import BlogPostItemHeaderAuthor from '@theme/BlogPostItem/Header/Author'
+import type { Props } from '@theme/BlogPostItem/Header/Authors'
+import styles from './styles.module.css'
 
 // Component responsible for the authors layout
 export default function BlogPostItemHeaderAuthors({
@@ -13,25 +13,27 @@ export default function BlogPostItemHeaderAuthors({
   const {
     metadata: { authors },
     assets,
-  } = useBlogPost();
-  const authorsCount = authors.length;
+  } = useBlogPost()
+  const authorsCount = authors.length
   if (authorsCount === 0) {
-    return null;
+    return null
   }
-  const imageOnly = authors.every(({ name }) => !name);
+  const imageOnly = authors.every(({ name }) => !name)
   return (
     <div
       className={clsx(
         'margin-top--md margin-bottom--sm',
         imageOnly ? styles.imageOnlyAuthorRow : 'row',
-        className,
+        className
       )}
     >
       {authors.map((author, idx) => (
         <div
           className={clsx(
             !imageOnly && 'col col--4',
-            imageOnly ? styles.imageOnlyAuthorCol : styles.authorCol,
+            imageOnly
+              ? styles.imageOnlyAuthorCol
+              : styles.authorCol
           )}
           key={idx}
         >
@@ -39,11 +41,13 @@ export default function BlogPostItemHeaderAuthors({
             author={{
               ...author,
               // Handle author images using relative paths
-              imageURL: assets.authorsImageUrls[idx] ?? author.imageURL,
+              imageURL:
+                assets.authorsImageUrls[idx] ??
+                author.imageURL,
             }}
           />
         </div>
       ))}
     </div>
-  );
+  )
 }

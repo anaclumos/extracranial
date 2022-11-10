@@ -1,13 +1,13 @@
-import React, { useMemo } from 'react';
-import { useThemeConfig } from '@docusaurus/theme-common';
+import React, { useMemo } from 'react'
+import { useThemeConfig } from '@docusaurus/theme-common'
 import {
   useTOCHighlight,
   useFilteredAndTreeifiedTOC,
   type TOCHighlightConfig,
   // @ts-ignore
-} from '@docusaurus/theme-common/internal';
-import TOCItemTree from '@theme/TOCItems/Tree';
-import type { Props } from '@theme/TOCItems';
+} from '@docusaurus/theme-common/internal'
+import TOCItemTree from '@theme/TOCItems/Tree'
+import type { Props } from '@theme/TOCItems'
 
 export default function TOCItems({
   toc,
@@ -18,31 +18,39 @@ export default function TOCItems({
   maxHeadingLevel: maxHeadingLevelOption,
   ...props
 }: Props): JSX.Element | null {
-  const themeConfig = useThemeConfig();
+  const themeConfig = useThemeConfig()
 
   const minHeadingLevel =
-    minHeadingLevelOption ?? themeConfig.tableOfContents.minHeadingLevel;
+    minHeadingLevelOption ??
+    themeConfig.tableOfContents.minHeadingLevel
   const maxHeadingLevel =
-    maxHeadingLevelOption ?? themeConfig.tableOfContents.maxHeadingLevel;
+    maxHeadingLevelOption ??
+    themeConfig.tableOfContents.maxHeadingLevel
 
   const tocTree = useFilteredAndTreeifiedTOC({
     toc,
     minHeadingLevel,
     maxHeadingLevel,
-  });
+  })
 
-  const tocHighlightConfig: TOCHighlightConfig | undefined = useMemo(() => {
-    if (linkClassName && linkActiveClassName) {
-      return {
-        linkClassName,
-        linkActiveClassName,
-        minHeadingLevel,
-        maxHeadingLevel,
-      };
-    }
-    return undefined;
-  }, [linkClassName, linkActiveClassName, minHeadingLevel, maxHeadingLevel]);
-  useTOCHighlight(tocHighlightConfig);
+  const tocHighlightConfig: TOCHighlightConfig | undefined =
+    useMemo(() => {
+      if (linkClassName && linkActiveClassName) {
+        return {
+          linkClassName,
+          linkActiveClassName,
+          minHeadingLevel,
+          maxHeadingLevel,
+        }
+      }
+      return undefined
+    }, [
+      linkClassName,
+      linkActiveClassName,
+      minHeadingLevel,
+      maxHeadingLevel,
+    ])
+  useTOCHighlight(tocHighlightConfig)
 
   return (
     <TOCItemTree
@@ -51,5 +59,5 @@ export default function TOCItems({
       linkClassName={linkClassName}
       {...props}
     />
-  );
+  )
 }

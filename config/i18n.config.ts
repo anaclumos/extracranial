@@ -1,4 +1,4 @@
-import type { I18nConfig } from '@docusaurus/types';
+import type { I18nConfig } from '@docusaurus/types'
 
 const i18n: I18nConfig = {
   path: './i18n',
@@ -12,6 +12,6 @@ const i18n: I18nConfig = {
       htmlLang: 'ko-KR',
     },
   },
-};
+}
 
-export default i18n;
+export default i18n
