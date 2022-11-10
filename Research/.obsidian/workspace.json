@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Is Web3 Overrated.md",
+                "file": "pages/Web3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Is Web3 Overrated.md",
+                "file": "pages/Web3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Is Web3 Overrated.md"
+                "file": "pages/Web3.md"
               }
             }
           },
@@ -161,7 +161,7 @@
   "active": "61955c4b2d891df4",
   "lastOpenFiles": [
     "journals/2022-11-09.md",
-    "pages/Is Web3 Overrated.md",
+    "pages/Web3.md",
     "pages/Higher-Level Languages and Their Speeds.md",
     "pages/Ruby.md",
     "journals/2022-11-08.md",
