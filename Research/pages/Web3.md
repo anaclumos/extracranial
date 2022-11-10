@@ -6,6 +6,7 @@ slug: '/451E1C'
 ## Articles
 
 ### [Is web3 bullshit? (Transcript)](https://blog.mollywhite.net/is-web3-bullshit/)
+
 - There was this new word everywhere: “web3”. The future of the web, I was being told, was going to be powered by crypto and blockchains. I was reading that, finally, we were going to fix the web
 - At that time, they were talking about the [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web). Some of you who watched the Centre stage talks earlier this morning probably saw [Tim Berners-Lee talking about Web 3.0](https://youtu.be/D5p2gt7htDM?t=2251), which, again, he defines very differently from the crypto version of web3
 - The oligopoly of Andreessen Horowitz, or its investments in the same Big Tech companies that they now decried, including Facebook, Instagram, and others, went conspicuously unmentioned

@@ -58,7 +58,7 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 ## Classic Blogs
 
 - [Medium](https://medium.com/): Writing platform.
-- [Mirror](https://mirror.xyz/): Medium on Web3.
+- [Mirror](https://mirror.xyz/): Medium on [[Web3]].
 - [DEV.to](https://dev.to/): Medium but for Devs.
 - [Hashnode](https://hashnode.com/): Medium but for even more Devs.
 - [Velog](https://velog.io/): DEV.to for Korean Devs.
