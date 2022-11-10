@@ -1,22 +1,22 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'fs'
+import path from 'path'
 const getMostRecentJournalLink = () => {
-  const today = new Date();
+  const today = new Date()
   while (true) {
-    const file = today.toISOString().split('T')[0];
+    const file = today.toISOString().split('T')[0]
     const filePath = path.join(
       __dirname,
       '..',
       'Research',
       'journals',
-      file + '.md',
-    );
+      file + '.md'
+    )
     if (fs.existsSync(filePath)) {
-      return `/r/${file}`;
+      return `/r/${file}`
     }
-    today.setDate(today.getDate() - 1);
+    today.setDate(today.getDate() - 1)
   }
-};
+}
 
 const navbar = {
   title: 'Sunghyun Cho',
@@ -79,6 +79,6 @@ const navbar = {
       position: 'right',
     },
   ],
-};
+}
 
-export default navbar;
+export default navbar

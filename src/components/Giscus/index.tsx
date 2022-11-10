@@ -1,10 +1,10 @@
-import React from 'react';
-import Giscus from '@giscus/react';
-import g from './giscus.module.css';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react'
+import Giscus from '@giscus/react'
+import g from './giscus.module.css'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 const index = () => {
-  const { i18n } = useDocusaurusContext();
+  const { i18n } = useDocusaurusContext()
 
   return (
     <div className={g.giscus}>
@@ -23,7 +23,7 @@ const index = () => {
         lang={i18n.currentLocale}
       />
     </div>
-  );
-};
+  )
+}
 
-export default index;
+export default index

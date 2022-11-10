@@ -1,14 +1,14 @@
-import type { Config } from '@docusaurus/types';
-import i18n from './config/i18n.config';
-import docs from './config/docs.config';
-import blog from './config/blog.config';
-import theme from './config/theme.config';
-import katexStylesheet from './config/katex.stylesheet';
-import navbar from './config/navbar.config';
-import pwaOptions from './config/pwa.config';
-import analytics from './config/ga.config';
+import type { Config } from '@docusaurus/types'
+import i18n from './config/i18n.config'
+import docs from './config/docs.config'
+import blog from './config/blog.config'
+import theme from './config/theme.config'
+import katexStylesheet from './config/katex.stylesheet'
+import navbar from './config/navbar.config'
+import pwaOptions from './config/pwa.config'
+import analytics from './config/ga.config'
 
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 const config: Config = {
   title: 'Sunghyun Cho',
@@ -62,9 +62,9 @@ const config: Config = {
             return [
               existingPath.replace('/blog/', '/w/'),
               existingPath.replace('/research/', '/r/'),
-            ];
+            ]
           }
-          return undefined;
+          return undefined
         },
       },
     ],
@@ -106,6 +106,6 @@ const config: Config = {
     },
   ],
   plugins: [['@docusaurus/plugin-pwa', pwaOptions]],
-};
+}
 
-module.exports = config;
+module.exports = config

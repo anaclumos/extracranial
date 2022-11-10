@@ -1,4 +1,4 @@
-import latex from './latex.config';
+import latex from './latex.config'
 
 const blog = {
   showReadingTime: false,
@@ -14,9 +14,9 @@ const blog = {
   editUrl: ({ locale, blogDirPath, blogPath }) => {
     return `https://github.com/anaclumos/extracranial/tree/main/posts/${blogPath.replace(
       '/index.md',
-      '',
-    )}/${locale}.md`;
+      ''
+    )}/${locale}.md`
   },
-};
+}
 
-export default blog;
+export default blog
