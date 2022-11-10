@@ -13,7 +13,7 @@
     "clean": "$npm_execpath clear",
     "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "preprocess": "$npm_execpath hex && $npm_execpath pack-post && $npm_execpath wikilinks && $npm_execpath backlinks && $npm_execpath swc && $npm_execpath figcaption",
+    "preprocess": "$npm_execpath hex && $npm_execpath pack-post && $npm_execpath wikilinks && $npm_execpath backlinks && $npm_execpath swc && $npm_execpath figcaption && $npm_execpath readme && $npm_execpath scc",
     "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx}'",
     "ko": "$npm_execpath start --locale ko",
     "dev": "$npm_execpath start",
@@ -22,7 +22,9 @@
     "wikilinks": "python3 tools/wikilinks-to-mdlinks.py",
     "backlinks": "python3 tools/process-backlinks.py",
     "figcaption": "python3 tools/img-alt-to-figcaption.py",
-    "swc": "swc docusaurus.config.ts -o docusaurus.config.js && swc config/*.ts -d config/"
+    "swc": "swc docusaurus.config.ts -o docusaurus.config.js && swc config/*.ts -d config/",
+    "readme": "cp tools/README.src.md README.md",
+    "scc": "echo \"\n## Stats\n\" >> README.md && echo \"```\" >> README.md && scc . >> README.md && echo \"```\" >> README.md"
   },
   "dependencies": {
     "@docusaurus/core": "^2.2.0",
