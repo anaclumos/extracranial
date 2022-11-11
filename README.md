@@ -23,8 +23,8 @@ I never expected this project to end up on such a consequential scale. This proj
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   707     21278     5077         0    16201          0
-TypeScript                  48      5917      145        53     5719        143
+Markdown                   707     21306     5081         0    16225          0
+TypeScript                  48      5956      145        53     5758        143
 SVG                         39        39        0         0       39          0
 CSS                         32      2651      176        29     2446          0
 JSON                        26      1865        0         0     1865          0
@@ -35,13 +35,13 @@ TypeScript Typings           2         6        0         4        2          0
 JavaScript                   1        19        3        12        4          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                      870     32560     5541       197    26822        234
+Total                      870     32627     5545       197    26885        234
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $854,104
-Estimated Schedule Effort (organic) 12.95 months
-Estimated People Required (organic) 5.86
+Estimated Cost to Develop (organic) $856,211
+Estimated Schedule Effort (organic) 12.97 months
+Estimated People Required (organic) 5.87
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1443523 bytes, 1.444 megabytes (SI)
+Processed 1445145 bytes, 1.445 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

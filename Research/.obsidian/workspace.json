@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8cd46a694c5e5c7c",
+        "id": "8f4d01ef92825d12",
         "type": "tabs",
         "children": [
           {
-            "id": "e34e4a4c16e0a268",
+            "id": "5c519f3b1ae91f44",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -131,9 +131,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "e34e4a4c16e0a268",
+  "active": "5c519f3b1ae91f44",
   "lastOpenFiles": [
     "journals/2022-11-10.md",
+    "pages/Dynamic Island on the Web.md",
     "journals/2022-11-09.md",
     "pages/Higher-Level Languages and Their Speeds.md",
     "pages/Wildcard Image Domain on Next.js.md",
@@ -141,7 +142,6 @@
     "pages/Web3.md",
     "pages/Ruby.md",
     "journals/2022-11-08.md",
-    "pages/BitTorrent.md",
-    "assets/B5F9BB.png"
+    "pages/BitTorrent.md"
   ]
 }
