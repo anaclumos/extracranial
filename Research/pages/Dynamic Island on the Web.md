@@ -8,9 +8,27 @@ slug: '/B21605'
 
 ## [[2022-11-10]]
 
+- Equalizer
+	- Base Length System
+- Optimize Animations
+- Removed Scrubber Toggle
+- Squircle — failed
+
+![[CCDCB3.gif]]
+![[289F7E.gif]]
+![[926E3C.gif]]
+![[529667.gif]]
+![[332758.gif]]
+![[699391.gif]]
+![[737F76.gif]]
+![[CDE11C.gif]]
+![[D0A35A.gif]]
+
+## [[2022-11-09]]
+
 - Finally, as the last step, the only thing left is the integration with my website!
 
-![[332450.gif]]
+![[5A3846.gif]]
 
 
 ## [[2022-10-28]]
