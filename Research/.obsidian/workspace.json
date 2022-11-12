@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-11.md",
+                "file": "pages/Dynamic Island on the Web.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-11.md",
+                "file": "pages/Dynamic Island on the Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-11-11.md"
+                "file": "pages/Dynamic Island on the Web.md"
               }
             }
           },
@@ -133,15 +133,15 @@
   },
   "active": "762db417ec7b2df9",
   "lastOpenFiles": [
+    "assets/Screen Recording 2022-11-11 at 5.33.08 PM.gif",
+    "pages/Dynamic Island on the Web.md",
+    "journals/2022-11-11.md",
     "journals/2022-11-10.md",
     "journals/2022-11-09.md",
     "journals/2022-11-08.md",
     "journals/2022-11-07.md",
     "journals/2022-11-06.md",
     "journals/2022-11-05.md",
-    "journals/2022-11-04.md",
-    "journals/2022-11-11.md",
-    "pages/Squircle.md",
-    "pages/Dynamic Island on the Web.md"
+    "journals/2022-11-04.md"
   ]
 }
