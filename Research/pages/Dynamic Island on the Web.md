@@ -13,11 +13,10 @@ slug: '/B21605'
 
 ![[D09A61.png]]
 
-
 ## [[2022-11-10]]
 
 - Equalizer
-	- Base Length System
+  - Base Length System
 - Optimize Animations (css `will-change`)
 - Removed Scrubber Toggle
 - Squircle — failed
@@ -37,7 +36,6 @@ slug: '/B21605'
 - Finally, as the last step, the only thing left is the integration with my website!
 
 ![[5A3846.gif]]
-
 
 ## [[2022-10-28]]
 
