@@ -351,6 +351,7 @@ export const backlinks = {
         "2022-11-09": "## [[Project]]",
         "2022-11-10": "## [[Project]]",
         "2022-11-11": "## [[Project]]",
+        "2022-11-12": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -398,7 +399,8 @@ export const backlinks = {
         "2022-11-08": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-09": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-10": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-11": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-11": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -470,6 +472,7 @@ export const backlinks = {
         "2022-10-27": "## [[Hacker News|HN]]",
         "2022-11-07": "## [[Hacker News|HN]]",
         "2022-11-09": "## [[Hacker News|HN]]",
+        "2022-11-12": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -514,6 +517,7 @@ export const backlinks = {
     },
     "Web3": {
         "2022-11-09": "- [[Web3]]",
+        "2022-11-12": "- You Can Forget About Crypto Now - The Atlantic: [[Web3]]",
         "Tools for Thought": "- Mirror: Medium on [[Web3]]."
     },
     "Pragmatic Engineer": {
@@ -859,9 +863,10 @@ export const backlinks = {
         "2022-10-27": "- Officially confirmed dead on [[2022-10-27]] due to NGL. Has the same feature set.",
         "Goongoom": "- Officially confirmed dead on [[2022-10-27]] due to NGL. Has the same feature set."
     },
-    "3d on the Web": {
-        "2022-10-25": "- [[3d on the Web]]",
-        "2022-10-27": "- [[3d on the Web]]"
+    "Web Graphics": {
+        "2022-10-25": "- [[Web Graphics]]",
+        "2022-10-27": "- [[Web Graphics]]",
+        "2022-11-12": "- Bubbles: [[Web Graphics]]"
     },
     "Apple vs Spotify": {
         "2022-10-27": "### [[Apple vs Spotify]]"
@@ -1754,7 +1759,7 @@ export const backlinks = {
     },
     "3d Globe on the Web": {
         "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization | LeoLabs",
-        "3d on the Web": "- [[3d Globe on the Web]]"
+        "Web Graphics": "- [[3d Globe on the Web]]"
     },
     "F9FC1A.png": {
         "Swift": "![[F9FC1A.png]]"
@@ -1974,15 +1979,6 @@ export const backlinks = {
     "0079 Word Search": {
         "Coding Tests": "- [[0079 Word Search]]"
     },
-    "BDC4EE.png": {
-        "3d on the Web": "![[BDC4EE.png]]"
-    },
-    "E95B3D.png": {
-        "3d on the Web": "![[E95B3D.png]]"
-    },
-    "4DC21F.png": {
-        "3d on the Web": "![[4DC21F.png]]"
-    },
     "Plausible Analytics": {
         "Google Analytics": "- Alternative: Simple Analytics, [[Plausible Analytics]]"
     },
@@ -2039,6 +2035,18 @@ export const backlinks = {
     },
     "explainpaper.com": {
         "Synthote": "- [[explainpaper.com]]"
+    },
+    "B9AA95.png": {
+        "Web Graphics": "![[B9AA95.png]]"
+    },
+    "BDC4EE.png": {
+        "Web Graphics": "![[BDC4EE.png]]"
+    },
+    "E95B3D.png": {
+        "Web Graphics": "![[E95B3D.png]]"
+    },
+    "4DC21F.png": {
+        "Web Graphics": "![[4DC21F.png]]"
     },
     "Pretendard": {
         "Font Feature": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
