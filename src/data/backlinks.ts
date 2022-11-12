@@ -268,6 +268,8 @@ export const backlinks = {
         "2022-10-15": "- [[Dynamic Island on the Web]]",
         "2022-10-16": "### [[Dynamic Island on the Web]]",
         "2022-10-20": "- [[Dynamic Island on the Web]]",
+        "2022-11-10": "- [[Dynamic Island on the Web]]",
+        "2022-11-11": "- [[Dynamic Island on the Web]]",
         "Project": "- [[Dynamic Island on the Web]]",
         "Reverse Engineering Apple Music API": "As a part of [[Dynamic Island on the Web]], I reverse-engineered [[Apple Music API]] to get the undocumented Personal Token."
     },
@@ -347,6 +349,8 @@ export const backlinks = {
         "2022-11-07": "## [[Project]]",
         "2022-11-08": "## [[Project]]",
         "2022-11-09": "## [[Project]]",
+        "2022-11-10": "## [[Project]]",
+        "2022-11-11": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -392,7 +396,9 @@ export const backlinks = {
         "2022-11-06": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-07": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-08": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-09": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-09": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-10": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-11": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -955,7 +961,8 @@ export const backlinks = {
         "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
         "2022-10-25": "## [[Next.js]] Conf",
         "Front-end Framework": "- [[Next.js]]",
-        "Tools for Thought": "- [[Next.js]]"
+        "Tools for Thought": "- [[Next.js]]",
+        "Wildcard Image Domain on Next.js": "- [[Next.js]]"
     },
     "The New Era of macOS Applications": {
         "2022-09-29": "- [[The New Era of macOS Applications]]"
@@ -1218,6 +1225,49 @@ export const backlinks = {
         "2022-07-13": "- [[Digital Addictions of Software Enthusiasts]]",
         "2022-07-29": "  - [[Digital Addictions of Software Enthusiasts]]"
     },
+    "5A3846.gif": {
+        "2022-11-10": "![[5A3846.gif]]",
+        "Dynamic Island on the Web": "![[5A3846.gif]]"
+    },
+    "CCDCB3.gif": {
+        "2022-11-10": "![[CCDCB3.gif]]",
+        "Dynamic Island on the Web": "![[CCDCB3.gif]]"
+    },
+    "289F7E.gif": {
+        "2022-11-10": "![[289F7E.gif]]",
+        "Dynamic Island on the Web": "![[289F7E.gif]]"
+    },
+    "926E3C.gif": {
+        "2022-11-10": "![[926E3C.gif]]",
+        "Dynamic Island on the Web": "![[926E3C.gif]]"
+    },
+    "529667.gif": {
+        "2022-11-10": "![[529667.gif]]",
+        "Dynamic Island on the Web": "![[529667.gif]]"
+    },
+    "332758.gif": {
+        "2022-11-10": "![[332758.gif]]",
+        "Dynamic Island on the Web": "![[332758.gif]]"
+    },
+    "699391.gif": {
+        "2022-11-10": "![[699391.gif]]",
+        "Dynamic Island on the Web": "![[699391.gif]]"
+    },
+    "737F76.gif": {
+        "2022-11-10": "![[737F76.gif]]",
+        "Dynamic Island on the Web": "![[737F76.gif]]"
+    },
+    "CDE11C.gif": {
+        "2022-11-10": "![[CDE11C.gif]]",
+        "Dynamic Island on the Web": "![[CDE11C.gif]]"
+    },
+    "D0A35A.gif": {
+        "2022-11-10": "![[D0A35A.gif]]",
+        "Dynamic Island on the Web": "![[D0A35A.gif]]"
+    },
+    "Wildcard Image Domain on Next.js": {
+        "2022-11-10": "- [[Wildcard Image Domain on Next.js]]"
+    },
     "2022-07-11": {
         "2022-07-12": "On [[2022-07-11]], I analyzed that [[Brane]] is harder than it seems.",
         "2022-07-19": "[[2022-07-11]]에 확인한 2가지 [[Scheduler|스케줄러]]를 확인한다."
@@ -1369,6 +1419,19 @@ export const backlinks = {
     "Search Engine Indexing Your Life": {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]",
         "2022-11-01": "- [[Search Engine Indexing Your Life]]"
+    },
+    "Squircle": {
+        "2022-11-11": "- Applied [[Squircle]]",
+        "Dynamic Island on the Web": "- Applied [[Squircle]]"
+    },
+    "D09A61.png": {
+        "2022-11-11": "![[D09A61.png]]",
+        "Dynamic Island on the Web": "![[D09A61.png]]"
+    },
+    "E2297A.png": {
+        "2022-11-11": "![[E2297A.png]]",
+        "Dynamic Island on the Web": "![[E2297A.png]]",
+        "Squircle": "![[E2297A.png]]"
     },
     "Programmable Web": {
         "2022-08-01": "- [[Programmable Web]]",
@@ -2270,6 +2333,12 @@ export const backlinks = {
     "DjVu (File Format)": {
         "Screenshot as an API": "... (File Format), MOBI (File Format) for texts. For generic use cases, [[DjVu (File Format)]]."
     },
+    "D6F77F.png": {
+        "Squircle": "![[D6F77F.png]]"
+    },
+    "E28A77.png": {
+        "Squircle": "![[E28A77.png]]"
+    },
     "GDPR": {
         "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by ...",
         "Simple Analytics": "- [[GDPR]], [[PECR]], [[CCPA]] Compliant"
@@ -2572,6 +2641,15 @@ export const backlinks = {
     "2022-07-13": {
         "0021 Merge Two Sorted Lists": "Solved at: [[2022-07-13]]",
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]"
+    },
+    "2022-11-11": {
+        "Dynamic Island on the Web": "## [[2022-11-11]]"
+    },
+    "2022-11-10": {
+        "Dynamic Island on the Web": "## [[2022-11-10]]"
+    },
+    "2022-11-09": {
+        "Dynamic Island on the Web": "## [[2022-11-09]]"
     },
     "2022-10-28": {
         "Dynamic Island on the Web": "## [[2022-10-28]]"

@@ -13,19 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-11.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5a3c29b878b8c7c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "pages/Squircle.md",
                 "mode": "source",
                 "backlinks": true,
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,11 +131,11 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5a3c29b878b8c7c3",
+  "active": "762db417ec7b2df9",
   "lastOpenFiles": [
     "journals/2022-11-11.md",
-    "pages/Dynamic Island on the Web.md",
     "pages/Squircle.md",
+    "pages/Dynamic Island on the Web.md",
     "journals/2022-11-10.md",
     "journals/2022-11-09.md",
     "pages/Higher-Level Languages and Their Speeds.md",
