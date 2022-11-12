@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-11.md",
+                "file": "journals/2022-11-12.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-11.md",
+                "file": "journals/2022-11-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-11-11.md"
+                "file": "journals/2022-11-12.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "cc39812bd0af126d",
   "lastOpenFiles": [
+    "journals/2022-11-11.md",
+    "journals/2022-11-10.md",
     "journals/2022-11-12.md",
     "pages/Web3.md",
     "pages/Hacker News.md",
     "pages/Web Graphics.md",
     "pages/Bubbles.md",
     "pages/Dynamic Island on the Web.md",
-    "journals/2022-11-11.md",
     "pages/Lazy.md",
-    "pages/Tools for Thought.md",
-    "pages/Simulated Annealing for Designs.md"
+    "pages/Tools for Thought.md"
   ]
 }
