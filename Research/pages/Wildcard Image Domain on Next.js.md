@@ -14,7 +14,9 @@ Save the following as `pages/api/imageProxy.ts`
 ```ts
 import { withImageProxy } from '@blazity/next-image-proxy'
 
-export default withImageProxy({ whitelistedPatterns: [/^https?:\/\/(.*).mydomain.com/] })
+export default withImageProxy({
+  whitelistedPatterns: [/^https?:\/\/(.*).mydomain.com/],
+})
 ```
 
 And use it as:
