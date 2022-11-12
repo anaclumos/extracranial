@@ -231,3 +231,35 @@ article a[href*='oopy.io']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/notion.svg');
 }
+
+article a[href*='figma.com']::before,
+article a[href*='medium.com/figma-design']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/figma.svg');
+}
+
+article a[href*='medium.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/medium.svg');
+}
+
+article a[href*='npmjs.com']::before,
+article a[href*='npmjs.org']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/npm.svg');
+}
+
+article a[href*='substack.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/substack.svg');
+}
+
+article a[href*='yarnpkg.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/yarn.svg');
+}
+
+article a[href*='tailwindcss.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/tailwind.svg');
+}
