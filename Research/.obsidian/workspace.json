@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ccabe80df0a4e68e",
+        "id": "62d6c00a052f4a1d",
         "type": "tabs",
         "children": [
           {
-            "id": "762db417ec7b2df9",
+            "id": "c893b24da6eb56ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-11-11.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2022-11-11.md"
-              }
+              "state": {}
             }
           },
           {
@@ -131,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "762db417ec7b2df9",
+  "active": "c893b24da6eb56ad",
   "lastOpenFiles": [
-    "pages/Lazy.md",
+    "pages/Dynamic Island on the Web.md",
     "journals/2022-11-11.md",
+    "pages/Lazy.md",
     "pages/Tools for Thought.md",
     "pages/Simulated Annealing for Designs.md",
     "assets/17AEB6.png",
     "pages/Meta Theme Color for Spacial Cognition.md",
     "pages/Confectionery.md",
     "pages/Meta Theme Color.md",
-    "pages/Dynamic Island on the Web.md",
     "assets/EAC31F.gif"
   ]
 }
