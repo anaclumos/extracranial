@@ -268,8 +268,8 @@ export const backlinks = {
         "2022-10-15": "- [[Dynamic Island on the Web]]",
         "2022-10-16": "### [[Dynamic Island on the Web]]",
         "2022-10-20": "- [[Dynamic Island on the Web]]",
-        "2022-11-10": "- [[Dynamic Island on the Web]]",
-        "2022-11-11": "- [[Dynamic Island on the Web]]",
+        "2022-11-10": "### [[Dynamic Island on the Web]]",
+        "2022-11-11": "### [[Dynamic Island on the Web]]",
         "Project": "- [[Dynamic Island on the Web]]",
         "Reverse Engineering Apple Music API": "As a part of [[Dynamic Island on the Web]], I reverse-engineered [[Apple Music API]] to get the undocumented Personal Token."
     },
@@ -1428,11 +1428,6 @@ export const backlinks = {
         "2022-11-11": "![[D09A61.png]]",
         "Dynamic Island on the Web": "![[D09A61.png]]"
     },
-    "E2297A.png": {
-        "2022-11-11": "![[E2297A.png]]",
-        "Dynamic Island on the Web": "![[E2297A.png]]",
-        "Squircle": "![[E2297A.png]]"
-    },
     "Programmable Web": {
         "2022-08-01": "- [[Programmable Web]]",
         "Matt Rickard": "- [[Programmable Web]]"
@@ -2338,6 +2333,9 @@ export const backlinks = {
     },
     "E28A77.png": {
         "Squircle": "![[E28A77.png]]"
+    },
+    "E2297A.png": {
+        "Squircle": "![[E2297A.png]]"
     },
     "GDPR": {
         "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by ...",
