@@ -6,6 +6,13 @@ slug: '/B21605'
 - [[Project]]
 - [[Dynamic Island]] on the Web
 
+## [[2022-11-11]]
+
+- Applied [[Squircle]]
+
+![[D09A61.png]]
+
+
 ## [[2022-11-10]]
 
 - Equalizer

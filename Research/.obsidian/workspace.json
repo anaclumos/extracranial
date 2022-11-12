@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f4d01ef92825d12",
+        "id": "ccabe80df0a4e68e",
         "type": "tabs",
         "children": [
           {
-            "id": "5c519f3b1ae91f44",
+            "id": "762db417ec7b2df9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,19 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "5a3c29b878b8c7c3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/D09A61.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Dynamic Island on the Web.md",
+                "file": "assets/D09A61.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Dynamic Island on the Web.md"
+                "file": "assets/D09A61.png"
               }
             }
           },
@@ -131,17 +142,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5c519f3b1ae91f44",
+  "active": "5a3c29b878b8c7c3",
   "lastOpenFiles": [
-    "journals/2022-11-10.md",
+    "journals/2022-11-11.md",
+    "pages/Squircle.md",
     "pages/Dynamic Island on the Web.md",
+    "journals/2022-11-10.md",
     "journals/2022-11-09.md",
     "pages/Higher-Level Languages and Their Speeds.md",
     "pages/Wildcard Image Domain on Next.js.md",
     "pages/Next.js.md",
     "pages/Web3.md",
-    "pages/Ruby.md",
-    "journals/2022-11-08.md",
-    "pages/BitTorrent.md"
+    "pages/Ruby.md"
   ]
 }
