@@ -9,15 +9,17 @@ slug: '/B21605'
 ## [[2022-11-11]]
 
 - Applied [[Squircle]]
+- Applied Quick Clipping with Framer Motion for performance
 
 ![[D09A61.png]]
+![[E2297A.png]]
 
 
 ## [[2022-11-10]]
 
 - Equalizer
 	- Base Length System
-- Optimize Animations
+- Optimize Animations (css `will-change`)
 - Removed Scrubber Toggle
 - Squircle — failed
 
