@@ -23,11 +23,11 @@ I never expected this project to end up on such a consequential scale. This proj
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   709     21349     5096         0    16253          0
+Markdown                   709     21348     5095         0    16253          0
 TypeScript                  48      5983      145        53     5785        143
-SVG                         39        39        0         0       39          0
-CSS                         32      2651      176        29     2446          0
-JSON                        26      1879        0         0     1879          0
+SVG                         45        45        0         0       45          0
+CSS                         32      2683      182        29     2472          0
+JSON                        26      1865        0         0     1865          0
 Python                       6       367       47        29      291         91
 YAML                         6        30        2         0       28          0
 Plain Text                   2        97       18         0       79          0
@@ -35,13 +35,13 @@ TypeScript Typings           2         6        0         4        2          0
 JavaScript                   1        19        3        12        4          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                      872     32711     5560       197    26954        234
+Total                      878     32734     5565       197    26972        234
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $858,518
+Estimated Cost to Develop (organic) $859,120
 Estimated Schedule Effort (organic) 12.98 months
 Estimated People Required (organic) 5.88
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1447549 bytes, 1.448 megabytes (SI)
+Processed 1452530 bytes, 1.453 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
