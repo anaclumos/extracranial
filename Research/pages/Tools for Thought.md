@@ -51,6 +51,7 @@ If you have more specific needs, feel free to _roam_ the list below... I am keep
 ## Data Collector
 
 - [[Pensieve]]
+- [[Lazy]]
 - [Instapaper](https://www.instapaper.com/): Save Anything. Read Anywhere.
 - [Pocket](https://getpocket.com/en/): Save interesting stories. Read them whenever.
 - [Zotero](https://www.zotero.org/): Research assistant. People say it is good for annotating PDFs.
