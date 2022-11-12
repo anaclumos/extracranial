@@ -5,6 +5,11 @@ slug: '/F2DE83'
 
 - [[3d Globe on the Web]]
 
+
+## [Bubbles](https://oimo.io/works/bubbles/)
+
+![[B9AA95.png]]
+
 ## [Jesse's Ramen](https://jesse-zhou.com/)
 
 ![[BDC4EE.png]]

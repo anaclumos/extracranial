@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "62d6c00a052f4a1d",
+        "id": "97c254e8939d1930",
         "type": "tabs",
         "children": [
           {
             "id": "c893b24da6eb56ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cc39812bd0af126d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2022-11-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2022-11-11.md"
+              }
             }
           },
           {
@@ -123,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "c893b24da6eb56ad",
+  "active": "cc39812bd0af126d",
   "lastOpenFiles": [
+    "journals/2022-11-12.md",
+    "pages/Web3.md",
+    "pages/Hacker News.md",
+    "pages/Web Graphics.md",
+    "pages/Bubbles.md",
     "pages/Dynamic Island on the Web.md",
     "journals/2022-11-11.md",
     "pages/Lazy.md",
     "pages/Tools for Thought.md",
-    "pages/Simulated Annealing for Designs.md",
-    "assets/17AEB6.png",
-    "pages/Meta Theme Color for Spacial Cognition.md",
-    "pages/Confectionery.md",
-    "pages/Meta Theme Color.md",
-    "assets/EAC31F.gif"
+    "pages/Simulated Annealing for Designs.md"
   ]
 }
