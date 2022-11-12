@@ -586,6 +586,7 @@ export const backlinks = {
         "2022-07-18": "- Using an iPad as a [[Tools for Thought]] feels good. Especially writing with [[Apple]] Pencil.",
         "2022-10-13": "- Visible – Make information useful: [[Tools for Thought]]",
         "2022-10-23": "- [[Tools for Thought]]: usememos/memos: An open-source, self-hosted knowledge base that works with an SQLite ...",
+        "2022-11-11": "- Lazy: [[Tools for Thought]]",
         "Extracranial": "... function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use Docusaurus and Obsidian. ...",
         "Handwriting Tools for Thoughts": "- A specific [[Tools for Thought]] with handwriting.",
         "PKM": "Check [[Tools for Thought]] for PKM tools in the market.",
@@ -827,7 +828,8 @@ export const backlinks = {
         "2022-10-27": "- [[Small yet Powerful]]"
     },
     "Spacial Cognition": {
-        "2022-10-27": "- [[Spacial Cognition]]"
+        "2022-10-27": "- [[Spacial Cognition]]",
+        "Meta Theme Color for Spacial Cognition": "- Meta Theme Color for [[Spacial Cognition]]"
     },
     "API Economy": {
         "2022-10-27": "- [[API Economy]]",
@@ -1420,6 +1422,19 @@ export const backlinks = {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]",
         "2022-11-01": "- [[Search Engine Indexing Your Life]]"
     },
+    "Meta Theme Color for Spacial Cognition": {
+        "2022-11-11": "- [[Meta Theme Color for Spacial Cognition]]"
+    },
+    "Confectionery": {
+        "2022-11-11": "- [[Confectionery]]"
+    },
+    "Simulated Annealing for Designs": {
+        "2022-11-11": "- [[Simulated Annealing for Designs]]"
+    },
+    "Lazy": {
+        "2022-11-11": "- [[Lazy]]: [[Tools for Thought]]",
+        "Tools for Thought": "- [[Lazy]]"
+    },
     "Squircle": {
         "2022-11-11": "- Applied [[Squircle]]",
         "Dynamic Island on the Web": "- Applied [[Squircle]]"
@@ -1427,6 +1442,18 @@ export const backlinks = {
     "D09A61.png": {
         "2022-11-11": "![[D09A61.png]]",
         "Dynamic Island on the Web": "![[D09A61.png]]"
+    },
+    "EAC31F.gif": {
+        "2022-11-11": "![[EAC31F.gif]]",
+        "Dynamic Island on the Web": "![[EAC31F.gif]]"
+    },
+    "A2A1AF.gif": {
+        "2022-11-11": "![[A2A1AF.gif]]",
+        "Dynamic Island on the Web": "![[A2A1AF.gif]]"
+    },
+    "FA5FEC.gif": {
+        "2022-11-11": "![[FA5FEC.gif]]",
+        "Dynamic Island on the Web": "![[FA5FEC.gif]]"
     },
     "Programmable Web": {
         "2022-08-01": "- [[Programmable Web]]",
@@ -2477,6 +2504,9 @@ export const backlinks = {
     "Floyd Cycle Finding Algorithm": {
         "0141 Linked List Cycle": "- [[Floyd Cycle Finding Algorithm]]"
     },
+    "BB86F6.png": {
+        "Lazy": "![[BB86F6.png]]"
+    },
     "Front-end Framework": {
         "HTMX": "- A [[Front-end Framework]]"
     },
@@ -2787,7 +2817,16 @@ export const backlinks = {
     "ABCEC0.png": {
         "To Kill a Night Owl": "![[ABCEC0.png]]"
     },
+    "E1AF2F.png": {
+        "Simulated Annealing for Designs": "![[E1AF2F.png]]"
+    },
+    "CCC92A.png": {
+        "Simulated Annealing for Designs": "![[CCC92A.png]]"
+    },
     "2B301F.png": {
         "Linear README": "![[2B301F.png]]"
+    },
+    "Meta Theme Color": {
+        "Meta Theme Color for Spacial Cognition": "- [[Meta Theme Color]] for [[Spacial Cognition]]"
     }
 }

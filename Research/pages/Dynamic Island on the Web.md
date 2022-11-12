@@ -12,8 +12,9 @@ slug: '/B21605'
 - Applied Quick Clipping with Framer Motion for performance
 
 ![[D09A61.png]]
-
-
+![[EAC31F.gif]]
+![[A2A1AF.gif]]
+![[FA5FEC.gif]]
 
 ## [[2022-11-10]]
 
