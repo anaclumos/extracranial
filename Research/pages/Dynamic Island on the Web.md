@@ -12,7 +12,6 @@ slug: '/B21605'
 - Applied Quick Clipping with Framer Motion for performance
 
 ![[D09A61.png]]
-![[E2297A.png]]
 
 
 ## [[2022-11-10]]
