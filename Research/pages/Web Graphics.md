@@ -20,4 +20,4 @@ slug: '/F2DE83'
 
 ## [Inside the Great Pyramid | Giza Project](https://giza.mused.org/en/guided/266/inside-the-great-pyramid)
 
-![[4DC21F.png]]
+![[6E5C4F.png]]
