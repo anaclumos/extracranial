@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/812334'
 ---
 
 - [prose.sh](https://prose.sh/): a blog platform for hackers in terminal

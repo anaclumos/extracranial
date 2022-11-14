@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/671680'
 ---
 
 ## Full-text

@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/77764A'
 ---
 
 - [Braintoss](https://braintoss.com/): mail to self.

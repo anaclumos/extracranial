@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/822B08'
 ---
 
 - [[Search Engine Indexing Your Life]]

@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/3BBBC0'
 ---
 
 ## Tools
