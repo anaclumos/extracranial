@@ -27,9 +27,10 @@ slug: '/9A0D39'
 - With GPT-3, we now have an infinitely-scalable technology that is years away from being able to enrich our lives but is already more than capable of drowning out all remnants of authentic content on the internet. And because you can leverage this to earn money or sway opinions, that outcome is probably hard to avoid
 
 ### [LLMs for Code](https://matt-rickard.ghost.io/llms-for-code/): [[Copilot]]
-- Merge conflict resolution 
-- Automatic linting and style checking 
-- Placeholder documentation 
-- Project scaffolding 
-- Test suites and fuzzing 
+
+- Merge conflict resolution
+- Automatic linting and style checking
+- Placeholder documentation
+- Project scaffolding
+- Test suites and fuzzing
 - Infrastructure as code
