@@ -42,6 +42,7 @@ export const backlinks = {
         "2022-10-10": "  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
         "Edge Networks": "- [[Vercel]] & Vercel Edge Functions",
+        "Paracosm": "... & Extracranial Tools for Thought that aims to replace Docusaurus with [[Vercel]]'s tech stacks.",
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting ...",
         "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while."
     },
@@ -172,10 +173,10 @@ export const backlinks = {
         "2022-07-12": "1. Demo [[JavaScript]] animation works as expected.",
         "2022-07-18": "- No trackers, no [[JavaScript]], no stylesheets. Just your words",
         "2022-07-20": "- [[JavaScript]] → [[TypeScript]]",
+        "Classic Blogs": "- Bear Blog: No trackers, no [[JavaScript]], no stylesheets blog for hackers",
         "Deno Deploy": "- Deploy [[JavaScript]] Globally",
         "HTMX": "- Implementation itself is [[JavaScript]]",
         "Separation of Computer Scientists and Computer Technologists": "... A self-taught dev can use React to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...",
-        "Tools for Thought": "- Bear Blog: No trackers, no [[JavaScript]], no stylesheets blog for hackers",
         "TypeScript": "- Typed [[JavaScript]]."
     },
     "DOM": {
@@ -241,8 +242,7 @@ export const backlinks = {
         "2022-07-01": "... realized that the term Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.",
         "Better Obsidian": "  - `Personal Knowledge Management` and `[[PKM]]` should act the same.",
         "PKM": "| [[PKM]]        | Architecture for Digital ...",
-        "Pensieve": "... the intermediary bridge between web browser data stream (ephemeral) and long-term [[PKM]] data storage.",
-        "Tools for Thought": "- Dendron: Nonlinear [[PKM]] with directories."
+        "Pensieve": "... the intermediary bridge between web browser data stream (ephemeral) and long-term [[PKM]] data storage."
     },
     "PARA": {
         "2022-06-26": "- [[PARA]]",
@@ -275,7 +275,8 @@ export const backlinks = {
     },
     "Handwriting Tools for Thoughts": {
         "2022-10-12": "- [[Handwriting Tools for Thoughts]]",
-        "Handwriting Grammarly": "- Grammarly for [[Handwriting Tools for Thoughts]]"
+        "Handwriting Grammarly": "- Grammarly for [[Handwriting Tools for Thoughts]]",
+        "Tools for Thought": "- [[Handwriting Tools for Thoughts]]"
     },
     "Slow Down Your Clock Cycle Speed": {
         "2022-10-12": "- [[Slow Down Your Clock Cycle Speed]]",
@@ -320,8 +321,7 @@ export const backlinks = {
         "2022-11-01": "## [[TODO]]",
         "2022-11-02": "## [[TODO]]",
         "Coding Tests": "- QuickSelect [[TODO]]",
-        "Project": "## [[TODO]]",
-        "Tools for Thought": "[[TODO]]: Convert this page into a more in-depth case study."
+        "Project": "## [[TODO]]"
     },
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
@@ -521,7 +521,7 @@ export const backlinks = {
     "Web3": {
         "2022-11-09": "- [[Web3]]",
         "2022-11-12": "- You Can Forget About Crypto Now - The Atlantic: [[Web3]]",
-        "Tools for Thought": "- Mirror: Medium on [[Web3]]."
+        "Classic Blogs": "- Mirror: Medium on [[Web3]]."
     },
     "Pragmatic Engineer": {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]",
@@ -594,9 +594,11 @@ export const backlinks = {
         "2022-10-13": "- Visible – Make information useful: [[Tools for Thought]]",
         "2022-10-23": "- [[Tools for Thought]]: usememos/memos: An open-source, self-hosted knowledge base that works with an SQLite ...",
         "2022-11-11": "- Lazy: [[Tools for Thought]]",
+        "2022-11-14": "- [[Tools for Thought]]",
         "Extracranial": "... function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use Docusaurus and Obsidian. ...",
         "Handwriting Tools for Thoughts": "- A specific [[Tools for Thought]] with handwriting.",
         "PKM": "Check [[Tools for Thought]] for PKM tools in the market.",
+        "Paracosm": "Paracosm is an experimental documentation toolkit & Extracranial [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
         "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, Heptabase."
     },
     "Everyprompt": {
@@ -719,7 +721,8 @@ export const backlinks = {
     "Notion": {
         "2022-07-07": "I think even [[Notion]] is too complicated for personal task managing.",
         "2022-07-10": "- [[Notion]] opened a new paradigm for low-code websites. [[Project PEOPLE]] now create ...",
-        "Tools for Thought": "- Typed: Some all-in-one [[Notion]] + Google Docs + Gmail + Task manager app."
+        "Collaboration-based Tools for Thought": "### [[Notion]]",
+        "Text-based Tools for Thought": "### [[Notion]]"
     },
     "Project PEOPLE": {
         "2022-07-10": "- Notion opened a new paradigm for low-code websites. [[Project PEOPLE]] now create personal websites, event RSVPs, blogs, databases, and much more, ...",
@@ -777,6 +780,7 @@ export const backlinks = {
         "2022-11-07": "- [[Extracranial]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a Memex or, in my term, [[Extracranial]] at https://cho.sh.",
         "Memex": "- Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.",
+        "Paracosm": "Paracosm is an experimental documentation toolkit & [[Extracranial]] [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech ...",
         "Preservation of Data": "- An important concept for Memex and [[Extracranial]]",
         "Vannevar Bush": "- Early creator of Memex and [[Extracranial]]."
     },
@@ -787,8 +791,7 @@ export const backlinks = {
         "Nota": "Awesome alternative to [[Obsidian]].",
         "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]",
         "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer",
-        "Stephan Ango": "- Currently works at [[Obsidian]]",
-        "Tools for Thought": "- zadam/trilium: [[Obsidian]]-like note-taking service."
+        "Stephan Ango": "- Currently works at [[Obsidian]]"
     },
     "Cross-Platform AirDrops": {
         "2022-10-13": "- Taildrop · Tailscale: [[Cross-Platform AirDrops]] [[Tailscale]]",
@@ -971,7 +974,6 @@ export const backlinks = {
         "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
         "2022-10-25": "## [[Next.js]] Conf",
         "Front-end Framework": "- [[Next.js]]",
-        "Tools for Thought": "- [[Next.js]]",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]"
     },
     "The New Era of macOS Applications": {
@@ -1095,7 +1097,7 @@ export const backlinks = {
     },
     "Pensieve": {
         "2022-11-07": "- [[Pensieve]]",
-        "Tools for Thought": "- [[Pensieve]]"
+        "Data Capturers": "### [[Pensieve]]"
     },
     "Supergravity Products": {
         "2022-11-07": "- [[Supergravity Products]]"
@@ -1347,6 +1349,9 @@ export const backlinks = {
         "2022-11-14": "- [[Satori]]: Create OG images for your blog with Next.js",
         "WebAssembly": "- [[Satori]]"
     },
+    "8B7073.png": {
+        "2022-11-14": "![[8B7073.png]]"
+    },
     "Markdown": {
         "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].",
         "Inliner": "... Inliner aims to separate the editing and reading experience by utilizing [[Markdown]]'s strict line change mode.",
@@ -1435,7 +1440,8 @@ export const backlinks = {
     },
     "Search Engine Indexing Your Life": {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]",
-        "2022-11-01": "- [[Search Engine Indexing Your Life]]"
+        "2022-11-01": "- [[Search Engine Indexing Your Life]]",
+        "Search-based Tools for Thought": "- [[Search Engine Indexing Your Life]]"
     },
     "Meta Theme Color for Spacial Cognition": {
         "2022-11-11": "- [[Meta Theme Color for Spacial Cognition]]"
@@ -1448,7 +1454,7 @@ export const backlinks = {
     },
     "Lazy": {
         "2022-11-11": "- [[Lazy]]: [[Tools for Thought]]",
-        "Tools for Thought": "- [[Lazy]]"
+        "Data Capturers": "### [[Lazy]]"
     },
     "Squircle": {
         "2022-11-11": "- Applied [[Squircle]]",
@@ -1602,7 +1608,8 @@ export const backlinks = {
     "Infinite Canvas": {
         "2022-10-10": "- [[Infinite Canvas]]",
         "Intracranial": "  - [[Infinite Canvas]]",
-        "Spacial Cognition": "- Key reason of [[Infinite Canvas]]. Gives spacial understanding & relevancy"
+        "Spacial Cognition": "- Key reason of [[Infinite Canvas]]. Gives spacial understanding & relevancy",
+        "Visual-based Tools for Thought": "## [[Infinite Canvas]]"
     },
     "Firefox": {
         "2022-10-10": "... responsiveness on macOS - Mozilla Hacks - the Web developer blog [[Firefox]]"
@@ -1773,6 +1780,14 @@ export const backlinks = {
     "Swift": {
         "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon (CPU)]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]"
+    },
+    "301024.png": {
+        "Paracosm": "![[301024.png]]",
+        "Text-based Tools for Thought": "![[301024.png]]"
+    },
+    "Docusaurus": {
+        "Better Docusaurus": "Some things that I currently don't like about [[Docusaurus]]:",
+        "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks."
     },
     "Python": {
         "0001 Two Sum": "I used [[Python]] Dictionary to store complementing values. Python Dictionary will have $O(1)$ access ...",
@@ -2320,6 +2335,18 @@ export const backlinks = {
     "2245EE.png": {
         "Text Graphics": "![[2245EE.png]]"
     },
+    "1D64A6.png": {
+        "Visual-based Tools for Thought": "![[1D64A6.png]]"
+    },
+    "F414E3.gif": {
+        "Visual-based Tools for Thought": "![[F414E3.gif]]"
+    },
+    "B4ED9A.png": {
+        "Visual-based Tools for Thought": "![[B4ED9A.png]]"
+    },
+    "F8D9BD.png": {
+        "Visual-based Tools for Thought": "![[F8D9BD.png]]"
+    },
     "C1FA76.png": {
         "Jumpsite": "![[C1FA76.png]]",
         "Surfit": "![[C1FA76.png]]"
@@ -2327,8 +2354,49 @@ export const backlinks = {
     "Google Analytics": {
         "GA": "- [[Google Analytics]]"
     },
+    "2D2789.png": {
+        "Archiving-based Tools for Thoughts": "![[2D2789.png]]"
+    },
+    "C3C9AC.png": {
+        "Archiving-based Tools for Thoughts": "![[C3C9AC.png]]"
+    },
+    "6D77D5.png": {
+        "Archiving-based Tools for Thoughts": "![[6D77D5.png]]"
+    },
+    "98CA38.png": {
+        "Archiving-based Tools for Thoughts": "![[98CA38.png]]"
+    },
+    "9121E2.png": {
+        "Archiving-based Tools for Thoughts": "![[9121E2.png]]"
+    },
+    "58831A.png": {
+        "Archiving-based Tools for Thoughts": "![[58831A.png]]"
+    },
     "7EF8EE.png": {
         "Everyprompt": "![[7EF8EE.png]]"
+    },
+    "60F80D.png": {
+        "Collaboration-based Tools for Thought": "![[60F80D.png]]",
+        "Notion": "![[60F80D.png]]",
+        "Text-based Tools for Thought": "![[60F80D.png]]"
+    },
+    "DAA368.png": {
+        "Collaboration-based Tools for Thought": "![[DAA368.png]]"
+    },
+    "28EF81.png": {
+        "Collaboration-based Tools for Thought": "![[28EF81.png]]"
+    },
+    "F483D2.png": {
+        "Collaboration-based Tools for Thought": "![[F483D2.png]]"
+    },
+    "B5E113.png": {
+        "Collaboration-based Tools for Thought": "![[B5E113.png]]"
+    },
+    "133EBF.png": {
+        "Collaboration-based Tools for Thought": "![[133EBF.png]]"
+    },
+    "6A89D8.gif": {
+        "Collaboration-based Tools for Thought": "![[6A89D8.gif]]"
     },
     "7A151F.jpeg": {
         "Adding a Verified Mark on Apple Mail & Gmail": "![[7A151F.jpeg]]"
@@ -2349,7 +2417,7 @@ export const backlinks = {
     "Roam Research": {
         "Better Obsidian": "  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].",
         "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser",
-        "Tools for Thought": "- [[Roam Research]]: A note-taking tool for networked thought."
+        "Text-based Tools for Thought": "### [[Roam Research]]"
     },
     "OCR": {
         "Screenshot as an API": "    - text ([[OCR]])"
@@ -2392,6 +2460,10 @@ export const backlinks = {
     },
     "2022-07-01": {
         "PKM": "- On [[2022-07-01]], I noted that PKM is for building a personal knowledge base. ..."
+    },
+    "CE4381.png": {
+        "Roam Research": "![[CE4381.png]]",
+        "Text-based Tools for Thought": "![[CE4381.png]]"
     },
     "Deno Deploy": {
         "CELLO (Product)": "- Possibly [[Deno Deploy]]"
@@ -2519,6 +2591,7 @@ export const backlinks = {
         "0141 Linked List Cycle": "- [[Floyd Cycle Finding Algorithm]]"
     },
     "BB86F6.png": {
+        "Data Capturers": "![[BB86F6.png]]",
         "Lazy": "![[BB86F6.png]]"
     },
     "Front-end Framework": {
@@ -2554,6 +2627,13 @@ export const backlinks = {
     },
     "2022-09-14": {
         "Person E7CFC5": "- Interviewed at: [[2022-09-14]]"
+    },
+    "9C8F45.png": {
+        "Search-based Tools for Thought": "![[9C8F45.png]]"
+    },
+    "13ED2A.png": {
+        "Data Capturers": "![[13ED2A.png]]",
+        "Pensieve": "![[13ED2A.png]]"
     },
     "Brunch violates SF terms of use": {
         "San Francisco": "- Although [[Brunch violates SF terms of use]]"
@@ -2662,6 +2742,36 @@ export const backlinks = {
     "B8FECA.png": {
         "sem.sh": "  - ![[B8FECA.png]]"
     },
+    "Text-based Tools for Thought": {
+        "Tools for Thought": "- [[Text-based Tools for Thought]]: the basic type of tools for thought."
+    },
+    "Visual-based Tools for Thought": {
+        "Tools for Thought": "- [[Visual-based Tools for Thought]]: add [[infinite canvas]] to text-based versions. involves and exploits [[spacial cognition]]."
+    },
+    "infinite canvas": {
+        "Tools for Thought": "- Visual-based Tools for Thought: add [[infinite canvas]] to text-based versions. involves and exploits [[spacial cognition]]."
+    },
+    "spacial cognition": {
+        "Tools for Thought": "... for Thought: add infinite canvas to text-based versions. involves and exploits [[spacial cognition]]."
+    },
+    "Search-based Tools for Thought": {
+        "Tools for Thought": "- [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature ..."
+    },
+    "Collaboration-based Tools for Thought": {
+        "Tools for Thought": "- [[Collaboration-based Tools for Thought]]: for teams."
+    },
+    "Archiving-based Tools for Thoughts": {
+        "Tools for Thought": "- [[Archiving-based Tools for Thoughts]]: takes a full copy of a page for archiving purposes."
+    },
+    "Reminder Tools": {
+        "Tools for Thought": "- [[Reminder Tools]]"
+    },
+    "Data Capturers": {
+        "Tools for Thought": "- [[Data Capturers]]"
+    },
+    "Classic Blogs": {
+        "Tools for Thought": "- [[Classic Blogs]]: just make a post and let Google do the job."
+    },
     "Graphic Window": {
         "Graphics Engine Process": "  - Create a [[Graphic Window]]"
     },
@@ -2673,9 +2783,6 @@ export const backlinks = {
     },
     "tools for thought": {
         "Pensieve": "- An experimental [[tools for thought]] for capturing the context of information."
-    },
-    "13ED2A.png": {
-        "Pensieve": "![[13ED2A.png]]"
     },
     "webserver": {
         "Port": "- [[webserver]] → 80"
@@ -2723,9 +2830,6 @@ export const backlinks = {
     "Shim": {
         "Realm Shim": "> [[Shim]] implementation of the Realm API Proposal ([[ShadowRealm]])"
     },
-    "Docusaurus": {
-        "Better Docusaurus": "Some things that I currently don't like about [[Docusaurus]]:"
-    },
     "2022-07-18": {
         "Better Docusaurus": "- Render `Figcaption` with `img alt` tags on [[2022-07-18]] Commit"
     },
@@ -2743,6 +2847,51 @@ export const backlinks = {
     },
     "90B241.jpg": {
         "Curve Fitting for Charts": "![[90B241.jpg]]"
+    },
+    "80B963.png": {
+        "Text-based Tools for Thought": "![[80B963.png]]"
+    },
+    "D361D1.png": {
+        "Text-based Tools for Thought": "![[D361D1.png]]"
+    },
+    "FEEE56.png": {
+        "Text-based Tools for Thought": "![[FEEE56.png]]"
+    },
+    "56BD73.png": {
+        "Text-based Tools for Thought": "![[56BD73.png]]"
+    },
+    "6489AD.png": {
+        "Text-based Tools for Thought": "![[6489AD.png]]"
+    },
+    "A0B08E.png": {
+        "Text-based Tools for Thought": "![[A0B08E.png]]"
+    },
+    "D97A31.png": {
+        "Text-based Tools for Thought": "![[D97A31.png]]"
+    },
+    "EEAA82.png": {
+        "Text-based Tools for Thought": "![[EEAA82.png]]"
+    },
+    "93A9D5.png": {
+        "Text-based Tools for Thought": "![[93A9D5.png]]"
+    },
+    "A8B32B.png": {
+        "Text-based Tools for Thought": "![[A8B32B.png]]"
+    },
+    "75D1FD.png": {
+        "Text-based Tools for Thought": "![[75D1FD.png]]"
+    },
+    "5B0CF7.png": {
+        "Text-based Tools for Thought": "![[5B0CF7.png]]"
+    },
+    "7544D7.png": {
+        "Text-based Tools for Thought": "![[7544D7.png]]"
+    },
+    "Paracosm": {
+        "Text-based Tools for Thought": "### [[Paracosm]]"
+    },
+    "F52E67.png": {
+        "Text-based Tools for Thought": "![[F52E67.png]]"
     },
     "89B469.png": {
         "Memex": "![[89B469.png]]"

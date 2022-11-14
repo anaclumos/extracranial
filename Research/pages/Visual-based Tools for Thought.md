@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/557260'
 ---
 
 ## [[Infinite Canvas]]
