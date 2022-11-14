@@ -6,6 +6,7 @@ slug: '/451E1C'
 ## Articles
 
 ### [You Can Forget About Crypto Now - The Atlantic](https://www.theatlantic.com/technology/archive/2022/11/sam-bankman-fried-bankruptcy-crypto-ftx/672104/)
+
 - This week, Bankman-Fried lost his entire fortune virtually over a single day, in what Bloomberg [has called](https://www.bloomberg.com/news/articles/2022-11-11/sam-bankman-fried-s-assets-go-from-16-billion-to-zero-after-ftx-collapse) “one of history’s greatest-ever destructions of wealth
 - But now, crypto feels less ready for the mainstream than it has in years
 - The fall began with [a story](https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/) from the CoinDesk reporter Ian Allison suggesting that SBF’s companies were far more interconnected than anyone knew
@@ -26,4 +27,3 @@ slug: '/451E1C'
 - There will be a web3. The web has been evolving ever since its inception, and there is no doubt in my mind that we are overdue for a fundamental shift. Will it be blockchains and crypto? Venture capitalists and blockchain startup founders hope that you think so
 - But when presented with lofty promises, we must remember distinguishing steam-powered computers from genuinely revolutionary ones.
 - Dig deep. Ask the hard questions. Criticize the flaws. And cut through the bullshit
-
