@@ -26,7 +26,7 @@ Markdown                   725     21629     5203         0    16426          0
 TypeScript                  48      6199      145        53     6001        143
 SVG                         45        45        0         0       45          0
 CSS                         32      2683      182        29     2472          0
-JSON                        26      1866        0         0     1866          0
+JSON                        26      1858        0         0     1858          0
 Python                       6       367       47        29      291         91
 YAML                         6        30        2         0       28          0
 Plain Text                   2        97       18         0       79          0
@@ -34,13 +34,13 @@ TypeScript Typings           2         6        0         4        2          0
 JavaScript                   1        19        3        12        4          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                      894     33232     5673       197    27362        234
+Total                      894     33224     5673       197    27354        234
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $872,168
+Estimated Cost to Develop (organic) $871,901
 Estimated Schedule Effort (organic) 13.06 months
 Estimated People Required (organic) 5.93
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1466722 bytes, 1.467 megabytes (SI)
+Processed 1466440 bytes, 1.466 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
