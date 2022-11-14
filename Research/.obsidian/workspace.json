@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Tools for Thought.md",
+                "file": "journals/2022-11-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Tools for Thought.md",
+                "file": "journals/2022-11-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Tools for Thought.md"
+                "file": "journals/2022-11-14.md"
               }
             }
           },
@@ -134,13 +134,13 @@
   },
   "active": "f572fbd08eda08ba",
   "lastOpenFiles": [
-    "pages/Classic Blogs.md",
     "pages/Tools for Thought.md",
+    "journals/2022-11-14.md",
+    "pages/Classic Blogs.md",
     "pages/Data Capturers.md",
     "pages/Lazy.md",
     "pages/Pensieve.md",
     "pages/Reminder Tools.md",
-    "journals/2022-11-14.md",
     "pages/Archiving-based Tools for Thoughts.md",
     "assets/C93F76.png",
     "pages/Collaboration-based Tools for Thought.md"

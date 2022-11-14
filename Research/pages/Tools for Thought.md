@@ -10,6 +10,7 @@ slug: '/872B83'
 - [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature to reaccess them quickly.
 - [[Collaboration-based Tools for Thought]]: for teams.
 - [[Archiving-based Tools for Thoughts]]: takes a full copy of a page for archiving purposes.
+- [[Handwriting Tools for Thoughts]]
 - [[Reminder Tools]]
 - [[Data Capturers]]
 - [[Classic Blogs]]: just make a post and let Google do the job.

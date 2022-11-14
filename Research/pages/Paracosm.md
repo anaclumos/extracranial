@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/AB0F3F'
 ---
 
 ![[301024.png]]
