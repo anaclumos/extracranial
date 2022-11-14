@@ -11,8 +11,13 @@
             "id": "afb4ff5f46cd5bfb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Synthote.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "습관",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Synthote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Synthote.md"
+              }
             }
           },
           {
@@ -126,15 +134,15 @@
   },
   "active": "afb4ff5f46cd5bfb",
   "lastOpenFiles": [
+    "pages/Copilot.md",
+    "pages/Synthote.md",
+    "journals/2022-11-14.md",
+    "pages/Satori.md",
+    "journals/2022-11-12.md",
     "pages/水適穿石.md",
     "journals/2022-06-12.md",
-    "journals/2022-11-12.md",
     "pages/Hacker News.md",
     "pages/4DC21F.png.md",
-    "pages/Web Graphics.md",
-    "journals/2022-11-11.md",
-    "journals/2022-11-10.md",
-    "pages/Web3.md",
-    "pages/Bubbles.md"
+    "pages/Web Graphics.md"
   ]
 }

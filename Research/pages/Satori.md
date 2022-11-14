@@ -14,6 +14,10 @@ Merged! [Add Unicode Private Area Support #161](https://github.com/vercel/satori
 </figcaption>
 </figure>
 
+## Resources
+
+- [Create OG images for your blog with Next.js](https://scastiel.dev/create-og-images-for-your-blog-with-nextjs)
+
 ## [Introducing OG Image Generation: Fast, dynamic social card images at the Edge - Vercel](https://vercel.com/blog/introducing-vercel-og-image-generation-fast-dynamic-social-card-images)
 
 - _This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs._

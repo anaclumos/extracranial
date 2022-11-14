@@ -25,3 +25,11 @@ slug: '/9A0D39'
 - I had an epiphany: I was probably looking at the output of an ML-based language model, such as GPT-3
 - I do not have proof, but I'm fairly confident I stumbled upon an early example of a monetized machine-generated book
 - With GPT-3, we now have an infinitely-scalable technology that is years away from being able to enrich our lives but is already more than capable of drowning out all remnants of authentic content on the internet. And because you can leverage this to earn money or sway opinions, that outcome is probably hard to avoid
+
+### [LLMs for Code](https://matt-rickard.ghost.io/llms-for-code/): [[Copilot]]
+- Merge conflict resolution 
+- Automatic linting and style checking 
+- Placeholder documentation 
+- Project scaffolding 
+- Test suites and fuzzing 
+- Infrastructure as code

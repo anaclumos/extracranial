@@ -352,6 +352,7 @@ export const backlinks = {
         "2022-11-10": "## [[Project]]",
         "2022-11-11": "## [[Project]]",
         "2022-11-12": "## [[Project]]",
+        "2022-11-14": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -400,7 +401,8 @@ export const backlinks = {
         "2022-11-09": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-10": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-11": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-14": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -473,6 +475,7 @@ export const backlinks = {
         "2022-11-07": "## [[Hacker News|HN]]",
         "2022-11-09": "## [[Hacker News|HN]]",
         "2022-11-12": "## [[Hacker News|HN]]",
+        "2022-11-14": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -1119,6 +1122,8 @@ export const backlinks = {
     "Synthote": {
         "2022-10-19": "- [[Synthote]]",
         "2022-10-24": "- [[Synthote]]",
+        "2022-11-14": "- [[Synthote]]: LLMs for Code",
+        "Copilot": "- A [[Synthote]] for developers.",
         "Everyprompt": "- [[Synthote]]",
         "Real Interviews": "... - Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
         "Reimagining Emails": "- Potential links to [[Synthote]]?",
@@ -1336,6 +1341,11 @@ export const backlinks = {
         "2022-11-04": "- [[Cache and Virtual Memory]]",
         "Computer Systems": "- [[Cache and Virtual Memory]]",
         "Virtual Memory": "- [[Cache and Virtual Memory]]"
+    },
+    "Satori": {
+        "2022-10-11": "- [[Satori]]",
+        "2022-11-14": "- [[Satori]]: Create OG images for your blog with Next.js",
+        "WebAssembly": "- [[Satori]]"
     },
     "Markdown": {
         "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].",
@@ -1650,10 +1660,6 @@ export const backlinks = {
     },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]"
-    },
-    "Satori": {
-        "2022-10-11": "- [[Satori]]",
-        "WebAssembly": "- [[Satori]]"
     },
     "Letter to the Heptabase Team on 2022-10-11": {
         "2022-10-11": "- [[Letter to the Heptabase Team on 2022-10-11]]"
@@ -2045,8 +2051,8 @@ export const backlinks = {
     "E95B3D.png": {
         "Web Graphics": "![[E95B3D.png]]"
     },
-    "4DC21F.png": {
-        "Web Graphics": "![[4DC21F.png]]"
+    "6E5C4F.png": {
+        "Web Graphics": "![[6E5C4F.png]]"
     },
     "Pretendard": {
         "Font Feature": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
