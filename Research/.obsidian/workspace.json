@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "03127ba8a1aa8978",
+        "id": "82961a7630439012",
         "type": "tabs",
         "children": [
           {
-            "id": "f572fbd08eda08ba",
+            "id": "a2fde439673ec728",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-11-14.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2022-11-14.md"
-              }
+              "state": {}
             }
           },
           {
@@ -132,10 +124,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f572fbd08eda08ba",
+  "active": "a2fde439673ec728",
   "lastOpenFiles": [
-    "pages/Tools for Thought.md",
     "journals/2022-11-14.md",
+    "pages/Tools for Thought.md",
     "pages/Classic Blogs.md",
     "pages/Data Capturers.md",
     "pages/Lazy.md",
