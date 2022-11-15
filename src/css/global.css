@@ -22,7 +22,6 @@ h1 {
   --unhovered-transparency: 100%;
   --padding: 1rem;
   --border-radius: 0.5rem;
-  --ifm-background-color: #121212 !important;
 }
 
 .table-of-contents__link--active {
