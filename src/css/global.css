@@ -22,12 +22,7 @@ h1 {
   --unhovered-transparency: 100%;
   --padding: 1rem;
   --border-radius: 0.5rem;
-  --ifm-container-width: 1920px;
-  --ifm-container-width-xl: 1600px;
-  --ifm-container-width-lg: 1200px;
-  --ifm-container-width-md: 992px;
-  --ifm-container-width-sm: 768px;
-  --ifm-container-width-xs: 576px;
+  --ifm-background-color: #121212 !important;
 }
 
 .table-of-contents__link--active {
