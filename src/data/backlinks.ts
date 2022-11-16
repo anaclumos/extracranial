@@ -2624,9 +2624,6 @@ export const backlinks = {
     "Haruki Murakami": {
         "水適穿石": "### 직업으로서의 소설가 — [[Haruki Murakami|하루키]]"
     },
-    "memex": {
-        "As We May Think (Article)": "... a sort of collective memory machine with his concept of the [[memex]] that would make knowledge more accessible, believing that it would help ..."
-    },
     "42FE5D.png": {
         "洪民憙雜記": "![[42FE5D.png]]"
     },
@@ -2759,6 +2756,9 @@ export const backlinks = {
     },
     "B8FECA.png": {
         "sem.sh": "  - ![[B8FECA.png]]"
+    },
+    "memex": {
+        "As We May Think": "... a sort of collective memory machine with his concept of the [[memex]] that would make knowledge more accessible, believing that it would help ..."
     },
     "Text-based Tools for Thought": {
         "Tools for Thought": "- [[Text-based Tools for Thought]]: the basic type of tools for thought."
@@ -2915,10 +2915,10 @@ export const backlinks = {
         "Memex": "![[89B469.png]]"
     },
     "Vannevar Bush": {
-        "Memex": "... flexibility. It is an enlarged intimate supplement to his memory. — [[Vannevar Bush]]"
+        "Memex": "... flexibility. It is an enlarged intimate supplement to his memory. — [[Vannevar Bush]]."
     },
-    "As We May Think (Article)": {
-        "Memex": "> In \"[[As We May Think (Article)]]\", [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
+    "As We May Think": {
+        "Memex": "> In \"[[As We May Think]]\", [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
     },
     "FC87FE.png": {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]"
