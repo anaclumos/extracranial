@@ -6,7 +6,21 @@ slug: '/2FFA86'
 - **Example**. [Joe Rogan interviews Steve Jobs @ podcast. ai](https://podcast.ai/).
   This is a fictional interview by having AI learn about thousands of Joe Rogan's podcasts and thousands of Steve Jobs' speeches.
 
+## Articles
+
 > Our personal training data corpus might be the most important thing we produce. Content that helps machines capture our unique style, tone, and essence. Those who create the most will have the best data set to train a model in their likeness. — [A Personal Training Corpus](https://matt-rickard.ghost.io/personal-data-training-corpus/)
+
+### [I record myself on audio 24x7 and use an AI to process the information. Is this the future?](https://roberdam.com/en/wisper.html)
+- I bought a couple of Chinese microphones; I wear them and turn them on all day, recording everything I speak; at the end of the day, the files are processed with OpenAi’s Whisper and transformed into text files from which the information is extracted
+- Robert WEIGHT 62.8 end Robert
+- Robert SLEEP 7 hours 14 minutes end Robert
+- Robert LUNCH two toasts with a fried egg end Robert
+- Perfect Memory
+- Personal Psychologist/Coach
+- virtual clone: Imagine training a GPT3 with everything you said in the last year
+- The difference between utopia and dystopia is who has access to that information
+
+## Twitter
 
 > A BM model came to mind about AI illustration production... How about making a data set from which you learned your painting style as a plug-in, just like creating speech synthesis data? Isn't it a win-win structure if the user receives a certain amount of revenue each time they use the registered learning data, or if the data itself is a subscription system? [TEXTHOLIC](https://twitter.com/TextholicJ/status/1580025435886301184)
 
