@@ -290,6 +290,7 @@ export const backlinks = {
     },
     "Personal Training Corpus": {
         "2022-10-12": "- [[Personal Training Corpus]]",
+        "2022-11-15": "- [[Personal Training Corpus]]: I record myself on audio 24x7 and use an AI to ...",
         "Matt Rickard": "- [[Personal Training Corpus]]",
         "Prompt Engineering": "- [[Personal Training Corpus]]",
         "Synthote": "- Relates to Prompt Engineering and [[Personal Training Corpus]]?"
@@ -353,6 +354,7 @@ export const backlinks = {
         "2022-11-11": "## [[Project]]",
         "2022-11-12": "## [[Project]]",
         "2022-11-14": "## [[Project]]",
+        "2022-11-15": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -402,7 +404,8 @@ export const backlinks = {
         "2022-11-10": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-11": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-14": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-14": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-15": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -2256,6 +2259,9 @@ export const backlinks = {
     },
     "Checksum": {
         "Internetworking": "- [[Checksum]]"
+    },
+    "2022-11-12": {
+        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-12]] 실패"
     },
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
