@@ -11,6 +11,7 @@ slug: '/2FFA86'
 > Our personal training data corpus might be the most important thing we produce. Content that helps machines capture our unique style, tone, and essence. Those who create the most will have the best data set to train a model in their likeness. — [A Personal Training Corpus](https://matt-rickard.ghost.io/personal-data-training-corpus/)
 
 ### [I record myself on audio 24x7 and use an AI to process the information. Is this the future?](https://roberdam.com/en/wisper.html)
+
 - I bought a couple of Chinese microphones; I wear them and turn them on all day, recording everything I speak; at the end of the day, the files are processed with OpenAi’s Whisper and transformed into text files from which the information is extracted
 - Robert WEIGHT 62.8 end Robert
 - Robert SLEEP 7 hours 14 minutes end Robert

@@ -173,7 +173,7 @@ export const filenames = {
     "Architectural Decision Records": "6F3432",
     "Archiving-based Tools for Thoughts": "FB619A",
     "Are.na (Service)": "3F44BF",
-    "As We May Think (Article)": "141C90",
+    "As We May Think": "141C90",
     "Assembly": "FF8AAA",
     "Atomic Habits": "9CB71B",
     "Atomic Notes": "E1F385",
