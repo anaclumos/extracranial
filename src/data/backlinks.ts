@@ -960,6 +960,9 @@ export const backlinks = {
         "2022-11-16": "- [[Protocol War]]: [[Matt Rickard]]",
         "Matt Rickard": "- [[Protocol War]]"
     },
+    "Configuring Jest for React Native": {
+        "2022-11-16": "- [[Configuring Jest for React Native]]"
+    },
     "ACSM (File Format)": {
         "2022-06-05": "- Convert [[ACSM (File Format)]] files to [[PDF (File Format)]]/EPUBs with one command on Linux \\(and ..."
     },
