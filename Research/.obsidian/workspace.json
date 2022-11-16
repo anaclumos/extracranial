@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "87009a8b72f91212",
+        "id": "3a124c4c51f5bb37",
         "type": "tabs",
         "children": [
           {
-            "id": "32e3a9f11a0b4aec",
+            "id": "1731882fd326f626",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-16.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2022-11-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2022-11-16.md"
+              }
             }
           },
           {
@@ -124,17 +132,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "32e3a9f11a0b4aec",
+  "active": "1731882fd326f626",
   "lastOpenFiles": [
-    "Hey.md",
-    "pages/Memex.md",
-    "journals/2022-11-16.md",
-    "pages/Personal Training Corpus.md",
     "journals/2022-11-15.md",
+    "journals/2022-11-16.md",
+    "pages/Notion.md",
+    "pages/Synthote.md",
     "journals/2022-11-14.md",
     "journals/2022-11-12.md",
-    "pages/2022년 11월 한 달간 일기 쓰기.md",
-    "pages/Tools for Thought.md",
-    "pages/Classic Blogs.md"
+    "Hey.md",
+    "pages/Memex.md",
+    "pages/Personal Training Corpus.md",
+    "pages/2022년 11월 한 달간 일기 쓰기.md"
   ]
 }
