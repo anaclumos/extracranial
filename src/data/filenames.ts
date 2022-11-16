@@ -233,6 +233,7 @@ export const filenames = {
     "Computer Science": "D1A3B5",
     "Computer Systems": "BF9369",
     "Confectionery": "BBEADC",
+    "Configuring Jest for React Native": "1EF3C1",
     "Cookie": "B391A0",
     "Cooperative Multitasking": "A916B8",
     "Copilot": "9745EA",
