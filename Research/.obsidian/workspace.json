@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Personal Training Corpus.md",
-                "mode": "preview",
+                "file": "Hey.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Personal Training Corpus.md",
+                "file": "Hey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Personal Training Corpus.md"
+                "file": "Hey.md"
               }
             }
           },
@@ -134,15 +134,15 @@
   },
   "active": "a2fde439673ec728",
   "lastOpenFiles": [
+    "pages/Memex.md",
+    "Hey.md",
+    "journals/2022-11-16.md",
+    "pages/Personal Training Corpus.md",
     "journals/2022-11-15.md",
     "journals/2022-11-14.md",
     "journals/2022-11-12.md",
     "pages/2022년 11월 한 달간 일기 쓰기.md",
     "pages/Tools for Thought.md",
-    "pages/Classic Blogs.md",
-    "pages/Data Capturers.md",
-    "pages/Lazy.md",
-    "pages/Pensieve.md",
-    "pages/Reminder Tools.md"
+    "pages/Classic Blogs.md"
   ]
 }
