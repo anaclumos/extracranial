@@ -407,7 +407,7 @@ export const backlinks = {
         "2022-11-11": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-14": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-15": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-15": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-16": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
@@ -728,6 +728,7 @@ export const backlinks = {
     "Notion": {
         "2022-07-07": "I think even [[Notion]] is too complicated for personal task managing.",
         "2022-07-10": "- [[Notion]] opened a new paradigm for low-code websites. [[Project PEOPLE]] now create ...",
+        "2022-11-16": "- Notion AI: [[Notion]]'s [[Synthote]]",
         "Collaboration-based Tools for Thought": "### [[Notion]]",
         "Text-based Tools for Thought": "### [[Notion]]"
     },
@@ -942,6 +943,18 @@ export const backlinks = {
     "FinTech and Justice": {
         "2022-10-18": "- [[FinTech and Justice]]"
     },
+    "Synthote": {
+        "2022-10-19": "- [[Synthote]]",
+        "2022-10-24": "- [[Synthote]]",
+        "2022-11-14": "- [[Synthote]]: LLMs for Code",
+        "2022-11-16": "- Notion AI: Notion's [[Synthote]]",
+        "Copilot": "- A [[Synthote]] for developers.",
+        "Everyprompt": "- [[Synthote]]",
+        "Notion": "- Notion AI: [[Synthote]]",
+        "Real Interviews": "... - Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
+        "Reimagining Emails": "- Potential links to [[Synthote]]?",
+        "Stephan Ango": "- Coined the term [[Synthote]]"
+    },
     "ACSM (File Format)": {
         "2022-06-05": "- Convert [[ACSM (File Format)]] files to [[PDF (File Format)]]/EPUBs with one command on Linux \\(and ..."
     },
@@ -1127,16 +1140,6 @@ export const backlinks = {
     },
     "Playing Sounds in SDL": {
         "2022-10-19": "- [[Playing Sounds in SDL]]"
-    },
-    "Synthote": {
-        "2022-10-19": "- [[Synthote]]",
-        "2022-10-24": "- [[Synthote]]",
-        "2022-11-14": "- [[Synthote]]: LLMs for Code",
-        "Copilot": "- A [[Synthote]] for developers.",
-        "Everyprompt": "- [[Synthote]]",
-        "Real Interviews": "... - Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
-        "Reimagining Emails": "- Potential links to [[Synthote]]?",
-        "Stephan Ango": "- Coined the term [[Synthote]]"
     },
     "Synthography": {
         "2022-10-19": "- [[Synthography]]",
