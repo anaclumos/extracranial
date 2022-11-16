@@ -11,11 +11,12 @@ slug: '/9A0D39'
 - [[explainpaper.com]]
 
 ### [Notion AI](https://www.notion.so/ai)
-- Generate any content 
-- Help me write 
-- Continue writing 
-- Summarize 
-- Fix spelling & grammar 
+
+- Generate any content
+- Help me write
+- Continue writing
+- Summarize
+- Fix spelling & grammar
 - Translate
 
 ### [Photoshop for text — Stephan Ango](https://stephanango.com/photoshop-for-text)
@@ -42,4 +43,3 @@ slug: '/9A0D39'
 - Project scaffolding
 - Test suites and fuzzing
 - Infrastructure as code
-
