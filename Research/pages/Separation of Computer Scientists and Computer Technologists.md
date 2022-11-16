@@ -22,7 +22,7 @@ slug: '/E203C9'
 - People always ask if you need a college degree for Software Engineerings
   - When you can find decent CS education on GitHub, Stack Overflow, and YouTube
 
-## But a self-taught can code a dang fantastic React shopping mall!
+## But a self-taught can code a dang fantastic [[React]] shopping mall!
 
 - A self-taught dev can use React to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...
 - But we must think,
