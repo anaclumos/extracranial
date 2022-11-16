@@ -494,6 +494,7 @@ export const backlinks = {
         "2022-09-25": "- [[Matt Rickard]]",
         "2022-10-23": "- [[Matt Rickard]]",
         "2022-10-29": "- [[Matt Rickard]]: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
+        "2022-11-16": "- Protocol War: [[Matt Rickard]]",
         "Decoy Effect": "## [[Matt Rickard]]",
         "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
         "eBPF": "- [[Matt Rickard]]"
@@ -954,6 +955,10 @@ export const backlinks = {
         "Real Interviews": "... - Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
         "Reimagining Emails": "- Potential links to [[Synthote]]?",
         "Stephan Ango": "- Coined the term [[Synthote]]"
+    },
+    "Protocol War": {
+        "2022-11-16": "- [[Protocol War]]: [[Matt Rickard]]",
+        "Matt Rickard": "- [[Protocol War]]"
     },
     "ACSM (File Format)": {
         "2022-06-05": "- Convert [[ACSM (File Format)]] files to [[PDF (File Format)]]/EPUBs with one command on Linux \\(and ..."
