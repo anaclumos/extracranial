@@ -100,6 +100,7 @@ export const backlinks = {
         "2022-10-15": "## [[Coding Tests]]",
         "2022-10-23": "## [[Coding Tests]]",
         "2022-10-24": "## [[Coding Tests]]",
+        "2022-11-16": "## [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "Real Exams": {
@@ -355,6 +356,7 @@ export const backlinks = {
         "2022-11-12": "## [[Project]]",
         "2022-11-14": "## [[Project]]",
         "2022-11-15": "## [[Project]]",
+        "2022-11-16": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -405,7 +407,8 @@ export const backlinks = {
         "2022-11-11": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-14": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-15": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-15": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-16": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -479,6 +482,7 @@ export const backlinks = {
         "2022-11-09": "## [[Hacker News|HN]]",
         "2022-11-12": "## [[Hacker News|HN]]",
         "2022-11-14": "## [[Hacker News|HN]]",
+        "2022-11-16": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
