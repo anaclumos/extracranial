@@ -101,7 +101,7 @@ slug: '/75CB18'
 
 ### Sezzle
 
-- [[get-a-job-done]] SQL, React, [[Python]]
+- [[get-a-job-done]] SQL, [[React]], [[Python]]
 
 ### Twitch
 

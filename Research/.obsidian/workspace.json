@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Configuring Jest for React Native.md",
+                "file": "pages/React.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Configuring Jest for React Native.md",
+                "file": "pages/React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Configuring Jest for React Native.md"
+                "file": "pages/React.md"
               }
             }
           },
@@ -148,15 +148,15 @@
   },
   "active": "195088ecd5d881a7",
   "lastOpenFiles": [
+    "pages/React Native.md",
+    "pages/Configuring Jest for React Native.md",
+    "pages/Jest.md",
+    "pages/React.md",
     "journals/2022-11-16.md",
     "pages/As We May Think.md",
     "pages/Memex.md",
     "pages/Protocol War.md",
     "pages/Matt Rickard.md",
-    "journals/2022-11-15.md",
-    "pages/Notion.md",
-    "pages/Synthote.md",
-    "journals/2022-11-14.md",
-    "journals/2022-11-12.md"
+    "journals/2022-11-15.md"
   ]
 }

@@ -273,11 +273,11 @@ dailyNotes.sort((a, b) => {
 매번 익스텐션을 삭제하고 다시 설치해야 한다.
 수정: `yarn package` 이후 옵시디언 개발자 메뉴에서 새로고침하면 된다.
 
-### React 전환
+### [[React]] 전환
 
 일단 위 예시처럼 `document.createElement` 할 수 없으니 템플릿화 할 수 있는 방법을 알아본다.
 
-약간의 시간 투자를 하여 다음과 같이 React로 전환하였다.
+약간의 시간 투자를 하여 다음과 같이 [[React]]로 전환하였다.
 
 ![[ABD734.png]]
 
@@ -336,7 +336,7 @@ export class MarkdownPreviewView
 옵시디언의 API 문서가 자료가 전혀 없이 `obsidian.d.ts`를 API 문서라고 부르고 있는 상태라 이해에 어려움이 있다.
 Discord 서버에 물어보았다.
 일단 답변이 올 때까지 오늘은 여기까지 하겠다.
-React로 변환이 2시간 정도로 오래 걸렸다.
+[[React]]로 변환이 2시간 정도로 오래 걸렸다.
 
 ## 잠정 중단
 
