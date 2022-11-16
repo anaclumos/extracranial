@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/1EF3C1'
 ---
 
+- Configuring [[Jest]] for [[React Native]]
+
 ```ts
 // __mocks__/react-native-geolocation-service.ts
 export default {};

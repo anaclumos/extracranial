@@ -588,7 +588,7 @@ export const backlinks = {
     "TypeScript": {
         "2022-07-06": "- Bundle, transpile, install and run JavaScript & [[TypeScript]] projects — all in Bun. Bun is a new JavaScript runtime ...",
         "2022-07-20": "- JavaScript → [[TypeScript]]",
-        "2022-09-09": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own React-like run-time. If you're familiar with React, ...",
+        "2022-09-09": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations",
         "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules",
         "Svelte": "... runtime, i.e., in the browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ..."
@@ -1227,6 +1227,21 @@ export const backlinks = {
         "사회과부도": "- [[Someday]] [[Project]]",
         "조선왕조실록": "- [[Someday]] [[Project]]"
     },
+    "React": {
+        "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 중이다.",
+        "2022-09-09": "- It's a stand-alone TypeScript+Rust/WASM library with its own [[React]]-like run-time. If you're familiar with React, you will feel right at ...",
+        "2022-09-10": "- [[React]] components library with native dark theme support",
+        "Developing Review Notes for Obsidian": "### [[React]] 전환",
+        "Front-end Framework": "- [[React]]",
+        "JSX (File Format)": "... Syntax Extension and occasionally referred to as JavaScript XML) is a [[React]] extension to the JavaScript language syntax, which provides a way to ...",
+        "Jest": "... large web applications. It works with projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and Svelte. Jest doesn't require a lot of configuration ...",
+        "Letter to Mr. Stephan Ango on 2022-10-19": "... use Obsidian for my Memex, but I have built a custom [[React]] application for presenting on the web instead of Obsidian Publish.",
+        "Next.js": "... Next.js is an open-source web development framework created by Vercel enabling [[React]]-based web applications with server-side rendering and generating static websites. React documentation ...",
+        "React Native": "> [[React]] Native is an open-source UI software framework created by Meta Platforms, ...",
+        "Real Exams": "- get-a-job-done SQL, [[React]], [[Python]]",
+        "Separation of Computer Scientists and Computer Technologists": "## But a self-taught can code a dang fantastic [[React]] shopping mall!",
+        "get-a-job-done": "  - Coding [[React]]"
+    },
     "Optimistic Nihilism": {
         "2022-08-04": "### [[Optimistic Nihilism]]",
         "2022-08-10": "- [[Optimistic Nihilism]]"
@@ -1726,7 +1741,7 @@ export const backlinks = {
     },
     "get-a-job-done": {
         "2022-09-05": "- [[get-a-job-done]]",
-        "Real Exams": "- [[get-a-job-done]] SQL, React, [[Python]]"
+        "Real Exams": "- [[get-a-job-done]] SQL, [[React]], [[Python]]"
     },
     "mathematic coding": {
         "2022-09-05": "- [[mathematic coding]]",
@@ -2148,9 +2163,6 @@ export const backlinks = {
     },
     "BA8C9D.png": {
         "벌금과 물가": "- ![[BA8C9D.png]]"
-    },
-    "React": {
-        "Front-end Framework": "- [[React]]"
     },
     "Linux Commands": {
         "Internetworking": "- [[Linux Commands]]"
@@ -2856,6 +2868,12 @@ export const backlinks = {
     },
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
+    },
+    "Jest": {
+        "Configuring Jest for React Native": "- Configuring [[Jest]] for [[React Native]]"
+    },
+    "React Native": {
+        "Configuring Jest for React Native": "- Configuring Jest for [[React Native]]"
     },
     "Docker": {
         "How to Build Software like an SRE": "- use [[Docker]]"
