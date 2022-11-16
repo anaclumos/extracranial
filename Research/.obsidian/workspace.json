@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "195088ecd5d881a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Configuring Jest for React Native.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-16.md",
+                "file": "pages/Configuring Jest for React Native.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-11-16.md"
+                "file": "pages/Configuring Jest for React Native.md"
               }
             }
           },
@@ -132,11 +146,11 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "1731882fd326f626",
+  "active": "195088ecd5d881a7",
   "lastOpenFiles": [
+    "journals/2022-11-16.md",
     "pages/As We May Think.md",
     "pages/Memex.md",
-    "journals/2022-11-16.md",
     "pages/Protocol War.md",
     "pages/Matt Rickard.md",
     "journals/2022-11-15.md",
