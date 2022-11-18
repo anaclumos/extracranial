@@ -100,7 +100,7 @@ export const backlinks = {
         "2022-10-15": "## [[Coding Tests]]",
         "2022-10-23": "## [[Coding Tests]]",
         "2022-10-24": "## [[Coding Tests]]",
-        "2022-11-16": "## [[Coding Tests]]",
+        "2022-11-17": "## [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "Real Exams": {
@@ -357,6 +357,7 @@ export const backlinks = {
         "2022-11-14": "## [[Project]]",
         "2022-11-15": "## [[Project]]",
         "2022-11-16": "## [[Project]]",
+        "2022-11-17": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -408,7 +409,8 @@ export const backlinks = {
         "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-14": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-15": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-16": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-16": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-17": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -482,7 +484,7 @@ export const backlinks = {
         "2022-11-09": "## [[Hacker News|HN]]",
         "2022-11-12": "## [[Hacker News|HN]]",
         "2022-11-14": "## [[Hacker News|HN]]",
-        "2022-11-16": "## [[Hacker News|HN]]",
+        "2022-11-17": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -494,7 +496,7 @@ export const backlinks = {
         "2022-09-25": "- [[Matt Rickard]]",
         "2022-10-23": "- [[Matt Rickard]]",
         "2022-10-29": "- [[Matt Rickard]]: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
-        "2022-11-16": "- Protocol War: [[Matt Rickard]]",
+        "2022-11-16": "- Protocol Wars: [[Matt Rickard]]",
         "Decoy Effect": "## [[Matt Rickard]]",
         "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
         "eBPF": "- [[Matt Rickard]]"
@@ -956,9 +958,9 @@ export const backlinks = {
         "Reimagining Emails": "- Potential links to [[Synthote]]?",
         "Stephan Ango": "- Coined the term [[Synthote]]"
     },
-    "Protocol War": {
-        "2022-11-16": "- [[Protocol War]]: [[Matt Rickard]]",
-        "Matt Rickard": "- [[Protocol War]]"
+    "Protocol Wars": {
+        "2022-11-16": "- [[Protocol Wars]]: [[Matt Rickard]]",
+        "Matt Rickard": "- [[Protocol Wars]]"
     },
     "Configuring Jest for React Native": {
         "2022-11-16": "- [[Configuring Jest for React Native]]"

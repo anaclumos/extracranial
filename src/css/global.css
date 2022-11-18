@@ -24,6 +24,16 @@ h1 {
   --border-radius: 0.5rem;
 }
 
+[data-theme='dark'] * {
+  --ifm-background-color: #121212 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    --ifm-background-color: #121212 !important;
+  }
+}
+
 .table-of-contents__link--active {
   filter: none !important;
 }
