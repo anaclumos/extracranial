@@ -263,3 +263,9 @@ article a[href*='tailwindcss.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/tailwind.svg');
 }
+
+article a[href*='framer.cloud']::before,
+article a[href*='framer.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/framer.svg');
+}

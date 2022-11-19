@@ -107,6 +107,10 @@ hr {
   border: 1px solid var(--ifm-color-emphasis-200);
 }
 
+iframe {
+  height: 5rem;
+}
+
 table {
   display: table;
   margin: 1rem auto;
