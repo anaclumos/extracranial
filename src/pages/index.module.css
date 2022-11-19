@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 996px) {
   .intro {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0 1rem;
     font-size: 1.5rem;
   }
   .intro img {
@@ -84,4 +84,5 @@ iframe {
   width: 100%;
   overflow: visible;
   margin: 1rem auto;
+  height: 60px;
 }
