@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
@@ -19,6 +19,17 @@ import RocketEmoji from '@site/static/fonts/emoji/rocket.png'
 import TechnologistEmoji from '@site/static/fonts/emoji/technologist.png'
 import WebEmoji from '@site/static/fonts/emoji/web.png'
 import Link from '@docusaurus/Link'
+import IframeResizer from 'iframe-resizer-react'
+
+const MusicPlayer = () => {
+  return (
+    <IframeResizer
+      id="dynamic-island"
+      src="https://dynamic-island.cho.sh/embed"
+      className={styles.iframe}
+    />
+  )
+}
 
 const HeroText = () => {
   const { siteConfig } = useDocusaurusContext()
@@ -123,6 +134,7 @@ const HeroText = () => {
           content="15b31306fd3391cd0bf411b1d49160aa02dd3cad"
         />
       </Head>
+      <MusicPlayer />
       <header>
         <h2 className={styles.intro}>
           <EmojiReplaceableText
