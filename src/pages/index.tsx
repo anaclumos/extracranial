@@ -25,7 +25,7 @@ const MusicPlayer = () => {
   return (
     <IframeResizer
       id="dynamic-island"
-      src="https://dynamic-island.cho.sh/embed"
+      src="https://dynamic-island.cho.sh/embed-player"
       className={styles.iframe}
     />
   )
