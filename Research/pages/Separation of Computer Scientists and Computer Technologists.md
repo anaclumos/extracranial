@@ -24,15 +24,15 @@ slug: '/E203C9'
 
 ## But a self-taught can code a dang fantastic [[React]] shopping mall!
 
-- A self-taught dev can use React to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...
+- A self-taught dev can use [[React]] to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...
 - But we must think,
 
-> What makes React so coolly?
+> What makes [[React]] so coolly?
 
-- React's `Diff`ing Algorithm
+- [[React]]'s `Diff`ing Algorithm
   - Reduces $O(n^3)$ diffing operation to $O(n)$ **iff**
     1.  Two elements of different types will produce other trees.
-    2.  The developer can hint at what elements will remain stable across renders with an essential prop. (This is why React always warns us to include keys in our props).
+    2.  The developer can hint at what elements will remain stable across renders with an essential prop. (This is why [[React]] always warns us to include keys in our props).
 - Creating a diastrophic technology requires actual theory
 - As much as developers in the industry can impact the world by improving page load time by 25%,
 - People in the academic fields support those works.

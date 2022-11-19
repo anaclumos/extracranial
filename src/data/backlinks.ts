@@ -235,6 +235,7 @@ export const backlinks = {
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
         "2022-07-01": "## [[Building a Second Brain]]",
+        "2022-11-19": "\t- [[Building a Second Brain]]",
         "CODE Procedure": "- The CODE Procedure is a second-brain-building procedure introduced in [[Building a Second Brain]].",
         "PARA": "- PARA is a second-brain framework, mentioned in [[Building a Second Brain]]",
         "Readings": "- [x] [[Building a Second Brain]]"
@@ -263,6 +264,7 @@ export const backlinks = {
     },
     "P vs NP": {
         "2022-07-01": "- [[P vs NP]]",
+        "2022-11-19": "\t- [[P vs NP]]",
         "Matt Rickard": "- [[P vs NP]]"
     },
     "Dynamic Island on the Web": {
@@ -413,7 +415,8 @@ export const backlinks = {
         "2022-11-15": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-16": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-17": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-18": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-18": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-19": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -624,6 +627,118 @@ export const backlinks = {
     "0141 Linked List Cycle": {
         "2022-10-23": "- [[0141 Linked List Cycle]]",
         "Coding Tests": "- [ ] [[0141 Linked List Cycle]]"
+    },
+    "Shortcuts": {
+        "2022-11-19": "\t- [[Shortcuts]]"
+    },
+    "두 번째 뇌": {
+        "2022-11-19": "\t- [[두 번째 뇌]]",
+        "Building a Second Brain": "- [[두 번째 뇌]]"
+    },
+    "AI replaces expensive jobs first": {
+        "2022-10-20": "- [[AI replaces expensive jobs first]]",
+        "2022-11-19": "\t- [[AI replaces expensive jobs first]]"
+    },
+    "AI는 고가 노동부터 점령한다": {
+        "2022-11-19": "\t- [[AI는 고가 노동부터 점령한다]]"
+    },
+    "Apple Easter Egg": {
+        "2022-11-19": "\t- [[Apple Easter Egg]]"
+    },
+    "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {
+        "2022-11-19": "\t- [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
+        "Setting different fonts by language in CSS": "- [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]"
+    },
+    "Displaying exact datetimes on Ghost": {
+        "2022-11-19": "\t- [[Displaying exact datetimes on Ghost]]"
+    },
+    "Downloading Any Recordings from Zoom": {
+        "2022-11-19": "\t- [[Downloading Any Recordings from Zoom]]"
+    },
+    "Finding out Ghost version with JS": {
+        "2022-11-19": "\t- [[Finding out Ghost version with JS]]"
+    },
+    "Finding the size of the directory in Python": {
+        "2022-11-19": "\t- [[Finding the size of the directory in Python]]"
+    },
+    "Ghost 테마를 자동 배포하는 방법": {
+        "2022-11-19": "\t- [[Ghost 테마를 자동 배포하는 방법]]"
+    },
+    "Ghost에서 외부 링크를 새로운 창에서 여는 방법": {
+        "2022-11-19": "\t- [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]",
+        "Opening external links in a new tab by default on Ghost": "- [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]"
+    },
+    "GitHub Pages에 React 앱 띄우기": {
+        "2022-11-19": "\t- [[GitHub Pages에 React 앱 띄우기]]",
+        "React App on GitHub Pages": "- [[GitHub Pages에 React 앱 띄우기]]"
+    },
+    "HTML 텍스트 위에 덧말 강조점 쓰기": {
+        "2022-11-19": "\t- [[HTML 텍스트 위에 덧말 강조점 쓰기]]"
+    },
+    "http 없는 http 서버 만들기": {
+        "2022-11-19": "\t- [[http 없는 http 서버 만들기]]"
+    },
+    "Implementing Karatsuba Algorithm in Python": {
+        "2022-11-19": "\t- [[Implementing Karatsuba Algorithm in Python]]"
+    },
+    "Linux Permissions for Keys": {
+        "2022-11-19": "\t- [[Linux Permissions for Keys]]"
+    },
+    "Locking your Mac with Command+L": {
+        "2022-11-19": "\t- [[Locking your Mac with Command+L]]",
+        "Mac을 Command+L로 잠그는 방법": "- [[Locking your Mac with Command+L]]"
+    },
+    "Mac을 Command+L로 잠그는 방법": {
+        "2022-11-19": "\t- [[Mac을 Command+L로 잠그는 방법]]"
+    },
+    "Mapping keys to set different input languages on macOS": {
+        "2022-11-19": "\t- [[Mapping keys to set different input languages on macOS]]"
+    },
+    "Migrating Node.js apps from AWS EB to Heroku": {
+        "2022-11-19": "\t- [[Migrating Node.js apps from AWS EB to Heroku]]"
+    },
+    "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {
+        "2022-11-19": "\t- [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]",
+        "Migrating Node.js apps from AWS EB to Heroku": "- [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]"
+    },
+    "Opening external links in a new tab by default on Ghost": {
+        "2022-11-19": "\t- [[Opening external links in a new tab by default on Ghost]]"
+    },
+    "Porting a Chrome Extension to Firefox Add-on": {
+        "2022-11-19": "\t- [[Porting a Chrome Extension to Firefox Add-on]]"
+    },
+    "React App on GitHub Pages": {
+        "2022-11-19": "\t- [[React App on GitHub Pages]]"
+    },
+    "Sending Notifications on Chrome Extension": {
+        "2022-11-19": "\t- [[Sending Notifications on Chrome Extension]]"
+    },
+    "Setting different fonts by language in CSS": {
+        "2022-11-19": "\t- [[Setting different fonts by language in CSS]]"
+    },
+    "Snowpack으로 WASM 시작하기": {
+        "2022-11-19": "\t- [[Snowpack으로 WASM 시작하기]]"
+    },
+    "Storing sensitive data in iOS Apps": {
+        "2022-11-19": "\t- [[Storing sensitive data in iOS Apps]]"
+    },
+    "Tailwind CSS 톺아보기": {
+        "2022-11-19": "\t- [[Tailwind CSS 톺아보기]]"
+    },
+    "When TSC suddenly errors with cannot find module": {
+        "2022-11-19": "\t- [[When TSC suddenly errors with cannot find module]]"
+    },
+    "Why the halting problem is unsolvable": {
+        "2022-11-19": "\t- [[Why the halting problem is unsolvable]]"
+    },
+    "배달의민족 FE 개발자가 일하는 법 발표": {
+        "2022-11-19": "\t- [[배달의민족 FE 개발자가 일하는 법 발표]]"
+    },
+    "배달의민족 FE 개발자가 일하는 법 Q&A": {
+        "2022-11-19": "\t- [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
+    },
+    "브라우저 콘솔에 경고 문구 띄우는 방법": {
+        "2022-11-19": "\t- [[브라우저 콘솔에 경고 문구 띄우는 방법]]"
     },
     "Primary-Recency Effect": {
         "2022-10-17": "- [[Primary-Recency Effect]]"
@@ -901,6 +1016,10 @@ export const backlinks = {
     "Musk and Twitter": {
         "2022-10-27": "- [[Musk and Twitter]]",
         "Super App and Democracy": "- [[Musk and Twitter]]"
+    },
+    "Docker": {
+        "2022-06-15": "... Now we can expect Lab Infrastructure as code like Terraform or [[Docker]] images for science labs.",
+        "How to Build Software like an SRE": "- use [[Docker]]"
     },
     "Xcode Clear Cache": {
         "2022-11-06": "- [[Xcode Clear Cache]]"
@@ -1243,9 +1362,11 @@ export const backlinks = {
         "Jest": "... large web applications. It works with projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and Svelte. Jest doesn't require a lot of configuration ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... use Obsidian for my Memex, but I have built a custom [[React]] application for presenting on the web instead of Obsidian Publish.",
         "Next.js": "... Next.js is an open-source web development framework created by Vercel enabling [[React]]-based web applications with server-side rendering and generating static websites. React documentation ...",
+        "React App on GitHub Pages": "Recently I came across the idea of publishing a [[React]] App on GitHub Pages. I can distribute my React App using ...",
         "React Native": "> [[React]] Native is an open-source UI software framework created by Meta Platforms, ...",
         "Real Exams": "- get-a-job-done SQL, [[React]], [[Python]]",
         "Separation of Computer Scientists and Computer Technologists": "## But a self-taught can code a dang fantastic [[React]] shopping mall!",
+        "Svelte": "... runtime representations, such as virtual DOM, unlike traditional frameworks (such as [[React]] and Vue), which carry out the bulk of their work at ...",
         "get-a-job-done": "  - Coding [[React]]"
     },
     "Optimistic Nihilism": {
@@ -1588,9 +1709,6 @@ export const backlinks = {
         "2022-10-20": "![[E91526.gif]]",
         "Dynamic Island on the Web": "![[E91526.gif]]"
     },
-    "AI replaces expensive jobs first": {
-        "2022-10-20": "- [[AI replaces expensive jobs first]]"
-    },
     "Is DevOps Overrated": {
         "2022-10-20": "- [[Is DevOps Overrated]]"
     },
@@ -1899,7 +2017,8 @@ export const backlinks = {
         "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[Emojis|Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ..."
     },
     "Tailwind": {
-        "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop"
+        "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
+        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next 프로젝트에 적용"
     },
     "Turing Machine": {
         "How is WebAssembly cross-platform when Assembly is not": "It follows how [[Turing Machine]]s would work in the real world."
@@ -1914,6 +2033,9 @@ export const backlinks = {
         "Supergravity Products": "... 작은 아이디어 (금융 슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Toss Product Sans": "- Font by [[Toss]].",
         "Tossface": "- Emoji Font by [[Toss]]"
+    },
+    "emojis": {
+        "Tossface": "- Toss once withdrew the [[emojis]], but I submitted a request to put them back on Unicode ..."
     },
     "Palantir Gotham": {
         "Palantir": "- [[Palantir Gotham]]"
@@ -1982,6 +2104,11 @@ export const backlinks = {
         "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].",
         "Horizontally Stacked Interface": "- [[Sliding Panes]]: Have multiple-scrollable columns.",
         "Spacial Cognition": "- Three Column Design and [[Sliding Panes]] are a few ways of giving spacial cognition."
+    },
+    "Port": {
+        "Internetworking": "- [[Port]]",
+        "SMTP": "- [[Port]] 25",
+        "Socket": "- needs to be bound to a [[Port]]"
     },
     "73DAA4.png": {
         "Developing Review Notes for Obsidian": "![[73DAA4.png]]"
@@ -2083,6 +2210,9 @@ export const backlinks = {
     },
     "sliding panes": {
         "Extracranial": "- [[sliding panes]]"
+    },
+    "port": {
+        "Master Socket": "- binds it to a [[port]] and waits for a connection request."
     },
     "EC7EEF.png": {
         "Python": "![[EC7EEF.png]]"
@@ -2197,10 +2327,6 @@ export const backlinks = {
     },
     "Socket": {
         "Internetworking": "- [[Socket]]"
-    },
-    "Port": {
-        "Internetworking": "- [[Port]]",
-        "Socket": "- needs to be bound to a [[Port]]"
     },
     "Handling files in Unix": {
         "Internetworking": "- [[Handling files in Unix]]"
@@ -2880,9 +3006,6 @@ export const backlinks = {
     },
     "React Native": {
         "Configuring Jest for React Native": "- Configuring Jest for [[React Native]]"
-    },
-    "Docker": {
-        "How to Build Software like an SRE": "- use [[Docker]]"
     },
     "CODE Procedure": {
         "PARA": "- Often used with [[CODE Procedure]]"
