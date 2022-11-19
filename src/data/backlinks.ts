@@ -42,6 +42,8 @@ export const backlinks = {
         "2022-10-10": "  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
         "Edge Networks": "- [[Vercel]] & Vercel Edge Functions",
+        "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/Satori, Logseq/Logseq, Etc. I came across Heptabase and wanted to speak with ...",
+        "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
         "Paracosm": "... & Extracranial Tools for Thought that aims to replace Docusaurus with [[Vercel]]'s tech stacks.",
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting ...",
         "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while."
@@ -235,7 +237,7 @@ export const backlinks = {
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
         "2022-07-01": "## [[Building a Second Brain]]",
-        "2022-11-19": "\t- [[Building a Second Brain]]",
+        "2022-11-19": "  - [[Building a Second Brain]]",
         "CODE Procedure": "- The CODE Procedure is a second-brain-building procedure introduced in [[Building a Second Brain]].",
         "PARA": "- PARA is a second-brain framework, mentioned in [[Building a Second Brain]]",
         "Readings": "- [x] [[Building a Second Brain]]"
@@ -264,7 +266,7 @@ export const backlinks = {
     },
     "P vs NP": {
         "2022-07-01": "- [[P vs NP]]",
-        "2022-11-19": "\t- [[P vs NP]]",
+        "2022-11-19": "  - [[P vs NP]]",
         "Matt Rickard": "- [[P vs NP]]"
     },
     "Dynamic Island on the Web": {
@@ -629,116 +631,116 @@ export const backlinks = {
         "Coding Tests": "- [ ] [[0141 Linked List Cycle]]"
     },
     "Shortcuts": {
-        "2022-11-19": "\t- [[Shortcuts]]"
+        "2022-11-19": "  - [[Shortcuts]]"
     },
     "두 번째 뇌": {
-        "2022-11-19": "\t- [[두 번째 뇌]]",
+        "2022-11-19": "  - [[두 번째 뇌]]",
         "Building a Second Brain": "- [[두 번째 뇌]]"
     },
     "AI replaces expensive jobs first": {
         "2022-10-20": "- [[AI replaces expensive jobs first]]",
-        "2022-11-19": "\t- [[AI replaces expensive jobs first]]"
+        "2022-11-19": "  - [[AI replaces expensive jobs first]]"
     },
     "AI는 고가 노동부터 점령한다": {
-        "2022-11-19": "\t- [[AI는 고가 노동부터 점령한다]]"
+        "2022-11-19": "  - [[AI는 고가 노동부터 점령한다]]"
     },
     "Apple Easter Egg": {
-        "2022-11-19": "\t- [[Apple Easter Egg]]"
+        "2022-11-19": "  - [[Apple Easter Egg]]"
     },
     "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {
-        "2022-11-19": "\t- [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
+        "2022-11-19": "  - [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
         "Setting different fonts by language in CSS": "- [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]"
     },
     "Displaying exact datetimes on Ghost": {
-        "2022-11-19": "\t- [[Displaying exact datetimes on Ghost]]"
+        "2022-11-19": "  - [[Displaying exact datetimes on Ghost]]"
     },
     "Downloading Any Recordings from Zoom": {
-        "2022-11-19": "\t- [[Downloading Any Recordings from Zoom]]"
+        "2022-11-19": "  - [[Downloading Any Recordings from Zoom]]"
     },
     "Finding out Ghost version with JS": {
-        "2022-11-19": "\t- [[Finding out Ghost version with JS]]"
+        "2022-11-19": "  - [[Finding out Ghost version with JS]]"
     },
     "Finding the size of the directory in Python": {
-        "2022-11-19": "\t- [[Finding the size of the directory in Python]]"
+        "2022-11-19": "  - [[Finding the size of the directory in Python]]"
     },
     "Ghost 테마를 자동 배포하는 방법": {
-        "2022-11-19": "\t- [[Ghost 테마를 자동 배포하는 방법]]"
+        "2022-11-19": "  - [[Ghost 테마를 자동 배포하는 방법]]"
     },
     "Ghost에서 외부 링크를 새로운 창에서 여는 방법": {
-        "2022-11-19": "\t- [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]",
+        "2022-11-19": "  - [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]",
         "Opening external links in a new tab by default on Ghost": "- [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]"
     },
     "GitHub Pages에 React 앱 띄우기": {
-        "2022-11-19": "\t- [[GitHub Pages에 React 앱 띄우기]]",
+        "2022-11-19": "  - [[GitHub Pages에 React 앱 띄우기]]",
         "React App on GitHub Pages": "- [[GitHub Pages에 React 앱 띄우기]]"
     },
     "HTML 텍스트 위에 덧말 강조점 쓰기": {
-        "2022-11-19": "\t- [[HTML 텍스트 위에 덧말 강조점 쓰기]]"
+        "2022-11-19": "  - [[HTML 텍스트 위에 덧말 강조점 쓰기]]"
     },
     "http 없는 http 서버 만들기": {
-        "2022-11-19": "\t- [[http 없는 http 서버 만들기]]"
+        "2022-11-19": "  - [[http 없는 http 서버 만들기]]"
     },
     "Implementing Karatsuba Algorithm in Python": {
-        "2022-11-19": "\t- [[Implementing Karatsuba Algorithm in Python]]"
+        "2022-11-19": "  - [[Implementing Karatsuba Algorithm in Python]]"
     },
     "Linux Permissions for Keys": {
-        "2022-11-19": "\t- [[Linux Permissions for Keys]]"
+        "2022-11-19": "  - [[Linux Permissions for Keys]]"
     },
     "Locking your Mac with Command+L": {
-        "2022-11-19": "\t- [[Locking your Mac with Command+L]]",
+        "2022-11-19": "  - [[Locking your Mac with Command+L]]",
         "Mac을 Command+L로 잠그는 방법": "- [[Locking your Mac with Command+L]]"
     },
     "Mac을 Command+L로 잠그는 방법": {
-        "2022-11-19": "\t- [[Mac을 Command+L로 잠그는 방법]]"
+        "2022-11-19": "  - [[Mac을 Command+L로 잠그는 방법]]"
     },
     "Mapping keys to set different input languages on macOS": {
-        "2022-11-19": "\t- [[Mapping keys to set different input languages on macOS]]"
+        "2022-11-19": "  - [[Mapping keys to set different input languages on macOS]]"
     },
     "Migrating Node.js apps from AWS EB to Heroku": {
-        "2022-11-19": "\t- [[Migrating Node.js apps from AWS EB to Heroku]]"
+        "2022-11-19": "  - [[Migrating Node.js apps from AWS EB to Heroku]]"
     },
     "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {
-        "2022-11-19": "\t- [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]",
+        "2022-11-19": "  - [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]",
         "Migrating Node.js apps from AWS EB to Heroku": "- [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]"
     },
     "Opening external links in a new tab by default on Ghost": {
-        "2022-11-19": "\t- [[Opening external links in a new tab by default on Ghost]]"
+        "2022-11-19": "  - [[Opening external links in a new tab by default on Ghost]]"
     },
     "Porting a Chrome Extension to Firefox Add-on": {
-        "2022-11-19": "\t- [[Porting a Chrome Extension to Firefox Add-on]]"
+        "2022-11-19": "  - [[Porting a Chrome Extension to Firefox Add-on]]"
     },
     "React App on GitHub Pages": {
-        "2022-11-19": "\t- [[React App on GitHub Pages]]"
+        "2022-11-19": "  - [[React App on GitHub Pages]]"
     },
     "Sending Notifications on Chrome Extension": {
-        "2022-11-19": "\t- [[Sending Notifications on Chrome Extension]]"
+        "2022-11-19": "  - [[Sending Notifications on Chrome Extension]]"
     },
     "Setting different fonts by language in CSS": {
-        "2022-11-19": "\t- [[Setting different fonts by language in CSS]]"
+        "2022-11-19": "  - [[Setting different fonts by language in CSS]]"
     },
     "Snowpack으로 WASM 시작하기": {
-        "2022-11-19": "\t- [[Snowpack으로 WASM 시작하기]]"
+        "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
     },
     "Storing sensitive data in iOS Apps": {
-        "2022-11-19": "\t- [[Storing sensitive data in iOS Apps]]"
+        "2022-11-19": "  - [[Storing sensitive data in iOS Apps]]"
     },
     "Tailwind CSS 톺아보기": {
-        "2022-11-19": "\t- [[Tailwind CSS 톺아보기]]"
+        "2022-11-19": "  - [[Tailwind CSS 톺아보기]]"
     },
     "When TSC suddenly errors with cannot find module": {
-        "2022-11-19": "\t- [[When TSC suddenly errors with cannot find module]]"
+        "2022-11-19": "  - [[When TSC suddenly errors with cannot find module]]"
     },
     "Why the halting problem is unsolvable": {
-        "2022-11-19": "\t- [[Why the halting problem is unsolvable]]"
+        "2022-11-19": "  - [[Why the halting problem is unsolvable]]"
     },
     "배달의민족 FE 개발자가 일하는 법 발표": {
-        "2022-11-19": "\t- [[배달의민족 FE 개발자가 일하는 법 발표]]"
+        "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 발표]]"
     },
     "배달의민족 FE 개발자가 일하는 법 Q&A": {
-        "2022-11-19": "\t- [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
+        "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
     },
     "브라우저 콘솔에 경고 문구 띄우는 방법": {
-        "2022-11-19": "\t- [[브라우저 콘솔에 경고 문구 띄우는 방법]]"
+        "2022-11-19": "  - [[브라우저 콘솔에 경고 문구 띄우는 방법]]"
     },
     "Primary-Recency Effect": {
         "2022-10-17": "- [[Primary-Recency Effect]]"
@@ -1659,7 +1661,8 @@ export const backlinks = {
         "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "서울 프로": {
-        "2022-08-01": "- [[서울 프로]]"
+        "2022-08-01": "- [[서울 프로]]",
+        "Pretendard의 아쉬운 점": "이는 자세하게 확인하지 못했으나 [[서울 프로]]를 개발할 때 알아보고 고려하려고 했던 문제이다."
     },
     "Inliner": {
         "2022-10-04": "- [[Inliner]]"
@@ -2014,7 +2017,7 @@ export const backlinks = {
     "Emojis": {
         "Satori": "- Font and [[Emojis]] Subsets from Google Fonts and other CDNs",
         "Stories Behind Satori": "The same applies to [[Emojis|emojis]].",
-        "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[Emojis|Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ..."
+        "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ..."
     },
     "Tailwind": {
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
