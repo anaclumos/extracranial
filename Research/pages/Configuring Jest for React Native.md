@@ -7,7 +7,7 @@ slug: '/1EF3C1'
 
 ```ts
 // __mocks__/react-native-geolocation-service.ts
-export default {};
+export default {}
 
 export enum PositionError {
   PERMISSION_DENIED = 1,
@@ -21,20 +21,20 @@ export enum PositionError {
 
 ```ts
 // __mocks__/@react-native-async-storage/async-storage.ts
-export default '@react-native-async-storage/async-storage/jest/async-storage-mock';
+export default '@react-native-async-storage/async-storage/jest/async-storage-mock'
 ```
 
 ```tsx
-import React from 'react';
-import App from '../src/App';
+import React from 'react'
+import App from '../src/App'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
 describe('<App />', () => {
   it('renders correctly', () => {
-    renderer.create(<App />);
-  });
-});
+    renderer.create(<App />)
+  })
+})
 ```
 
 ```json
