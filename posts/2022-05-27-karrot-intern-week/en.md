@@ -221,4 +221,4 @@ Even so, it was cool to see that the discussion was not linked to personal feeli
 I will be working on sandboxing for the mini-app standard in the future.
 Simply put, it is the task of creating a web within the web and the basis for the mini-app environment.
 I have a variety of technical & product greed, but I plan to finish my internship well and write another interesting article.
-[To Karrot Mini Team](https://playground.karrotmini.dev/) [Please give us a lot of interest!](https://github.com/braneproject)
+[Please look forward to](https://github.com/braneproject) [the Karrot Mini Team!](https://playground.karrotmini.dev/)
