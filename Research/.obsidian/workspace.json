@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "92ec97f2b3ddabb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Journal is a Waypoint, nothing more.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-19.md",
+                "file": "pages/Journal is a Waypoint, nothing more.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-11-19.md"
+                "file": "pages/Journal is a Waypoint, nothing more.md"
               }
             }
           },
@@ -132,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "2f209e0e978d5729",
+  "active": "92ec97f2b3ddabb6",
   "lastOpenFiles": [
-    "Hey.md",
+    "journals/2022-11-20.md",
     "journals/2022-11-19.md",
+    "pages/Diminishing Cost of Service.md",
+    "pages/Tree Style.md",
+    "pages/Now Runs On.md",
+    "pages/Project.md",
+    "pages/Journal is a Waypoint, nothing more.md",
+    "Hey.md",
     "journals/2022-11-18.md",
-    "journals/2022-11-17.md",
-    "journals/2022-11-16.md",
-    "journals/2022-11-15.md",
-    "pages/배달의민족 FE 개발자가 일하는 법 Q&A.md",
-    "pages/배달의민족 FE 개발자가 일하는 법 발표.md",
-    "pages/Ticket Bounty Model.md",
-    "pages/File Descriptor.md"
+    "journals/2022-11-17.md"
   ]
 }
