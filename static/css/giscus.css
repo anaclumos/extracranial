@@ -18,6 +18,7 @@
     'ss08' 1, 'zero' 1;
   word-wrap: break-word;
   word-break: keep-all;
+  color-scheme: light;
 }
 
 h1,
@@ -183,6 +184,10 @@ main .gsc-loading-image {
    * Copyright (c) 2018 GitHub Inc.
    * https://github.com/primer/primitives/blob/main/LICENSE
    */
+
+  * {
+    color-scheme: dark;
+  }
 
   main {
     --color-prettylights-syntax-comment: #8b949e;
