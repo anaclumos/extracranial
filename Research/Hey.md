@@ -53,4 +53,9 @@ I finally use [[Vercel]] for deploying, caching, and distributing.
 I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial).
 Take a look! 😃
 
+<figure>
+
 !["Jankily Frankensteined" — perfectly describes how heavily customized this repository is...](assets/7DB1EF.png)
+
+<figcaption>"Jankily Frankensteined" — perfectly describes how heavily customized this repository is...</figcaption>
+</figure>

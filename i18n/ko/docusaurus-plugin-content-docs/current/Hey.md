@@ -55,4 +55,9 @@ import Link from '@docusaurus/Link'
 이후 [Vercel](/r/E42038)을 이용해 배포합니다.
 [GitHub](https://github.com/anaclumos/extracranial)에 공개되어 있으니 확인해보세요 😃
 
-!["마개조" — 얼마나 많이 개조했는지 잘 나타내는 단어입니다.](../../../../Research/assets/7DB1EF.png)
+<figure>
+
+!["마개조" — 얼마나 많이 개조했는지 잘 나타내는 단어입니다...](../../../../Research/assets/7DB1EF.png)
+
+<figcaption>"마개조" — 얼마나 많이 개조했는지 잘 나타내는 단어입니다...</figcaption>
+</figure>
