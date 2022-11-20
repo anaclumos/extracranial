@@ -1,7 +1,5 @@
 ---
-title: "Finding out Ghost's version with JS"
 date: 2020-07-11
-authors: anaclumos
 slug: '/2A4AA1'
 ---
 

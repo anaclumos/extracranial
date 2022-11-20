@@ -8,7 +8,7 @@
   padding: var(--padding);
   border-radius: var(--border-radius);
   text-align: end;
-  padding: 1.75rem 2.5rem 1.75rem 1.75rem;
+  padding: 1.75rem 2.5rem 1.75rem 0;
 }
 
 .sidebar {
@@ -39,7 +39,18 @@
 
 .sidebarItemLink {
   color: var(--ifm-font-color-base);
+  filter: grayscale(100%);
   display: block;
+  transition: filter 0.2s ease-in-out;
+}
+
+.sidebarItemLink:hover {
+  color: var(--ifm-font-color-base);
+  filter: none;
+}
+
+.sidebarItemLinkActive {
+  filter: none;
 }
 
 .sidebarItemLink:hover {

@@ -1,5 +1,5 @@
 ---
-title: 'The Computer Latency Calendar'
+title: 'The Computer Latency Calendar ⏳'
 date: 2022-04-19
 authors: anaclumos
 slug: '/DDA06F'

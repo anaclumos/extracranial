@@ -1,11 +1,9 @@
 ---
-title: 'RSS로 블로그를 한 번에 백업하자'
+title: 'RSS로 블로그를 한 번에 백업하자 📼'
 date: 2020-04-21
 authors: anaclumos
 slug: '/21E029'
 ---
-
-## Content
 
 내 Ghost 블로그는 서버리스하지 않다. 지속적인 관리가 필요함에도 서버를 유지하는 이유는 서버를 통한 블로그 운영에 수많은 장점들이 있기 때문이다. 하지만 서버를 통해 블로그를 관리하게 되면 아주 큰 단점이 한 가지 생긴다. 서버가 터질 경우 안에 담긴 글들을 복원하기 매우 어려워진다는 것이다. 앞으로 글과 사진이 훨씬 많아질텐데 매번 일일이 복사하여 백업하기는 너무 귀찮을 것 같다는 생각이 들었다. 이를 개선해볼 대책을 세워보고 싶었다.
 
@@ -81,12 +79,6 @@ RSSReader는 RSS 피드를 불러와 `entries` 항목을 넘기는데 사용된�
 
 1.  RSSReader Object가 생성될 때 `self.origin`에 RSS 주소를 저장하고 RSS 주소를 파싱하여 `self.feed`에 저장한다.
 2.  parse 함수가 실행될 시 `self.feed`에 저장된 값 중 `entries`를 반환한다.
-
-`parse()`의 `self.feed`의 구조
-
-```json
-
-```
 
 이 중 `entries` 에는 RSS 피드의 글들이 `list`의 형식으로 들어있다. 다음 예시는 [이 글](https://blog.chosunghyun.com/apples-easter-egg/)의 RSS이다.
 

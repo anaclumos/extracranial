@@ -1,7 +1,5 @@
 ---
-title: 'Storing sensitive data in iOS Apps'
 date: 2022-04-26
-authors: anaclumos
 slug: '/30CC03'
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: 'Tailwind CSS 톺아보기'
 date: 2021-07-14
-authors: anaclumos
 slug: '/4B15E0'
 ---
 
