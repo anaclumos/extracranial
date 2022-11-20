@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "65482cb7f0396651",
+        "id": "49716d8f6f2ae224",
         "type": "tabs",
         "children": [
           {
-            "id": "2cb783eb6509a868",
+            "id": "2f209e0e978d5729",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -132,17 +132,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "2cb783eb6509a868",
+  "active": "2f209e0e978d5729",
   "lastOpenFiles": [
+    "Hey.md",
+    "journals/2022-11-19.md",
     "journals/2022-11-18.md",
     "journals/2022-11-17.md",
     "journals/2022-11-16.md",
     "journals/2022-11-15.md",
-    "journals/2022-11-19.md",
     "pages/배달의민족 FE 개발자가 일하는 법 Q&A.md",
     "pages/배달의민족 FE 개발자가 일하는 법 발표.md",
     "pages/Ticket Bounty Model.md",
-    "pages/File Descriptor.md",
-    "journals/2022-08-02.md"
+    "pages/File Descriptor.md"
   ]
 }

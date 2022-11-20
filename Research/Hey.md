@@ -52,3 +52,5 @@ I then pipeline those notes into heavily customized [[TypeScript]] [[Docusaurus]
 I finally use [[Vercel]] for deploying, caching, and distributing.
 I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial).
 Take a look! 😃
+
+!["Jankily Frankensteined" — perfectly describes how heavily customized this repository is...](assets/7DB1EF.png)
