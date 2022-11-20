@@ -380,7 +380,7 @@ export const filenames = {
     "Jetski": "B12B00",
     "Jira": "85E49D",
     "Joining Thread": "DDA92B",
-    "Journal is a Waypoint, no more": "E6CE03",
+    "Journal is a Waypoint, nothing more": "E6CE03",
     "Jumpsite": "58407C",
     "K-Pop Apps": "D0EE4C",
     "Kakao": "AF2E5E",

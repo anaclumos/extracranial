@@ -1519,8 +1519,8 @@ export const backlinks = {
     "8B7073.png": {
         "2022-11-14": "![[8B7073.png]]"
     },
-    "Journal is a Waypoint, no more": {
-        "2022-11-20": " - [[Journal is a Waypoint, no more]]"
+    "Journal is a Waypoint, nothing more": {
+        "2022-11-20": " - [[Journal is a Waypoint, nothing more]]"
     },
     "Now Runs On": {
         "2022-11-20": "- [[Now Runs On]]"
