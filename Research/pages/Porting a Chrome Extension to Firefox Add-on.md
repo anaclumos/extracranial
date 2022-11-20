@@ -1,7 +1,5 @@
 ---
-title: 'Porting a Chrome Extension to Firefox Add-on'
 date: 2020-04-08
-authors: anaclumos
 slug: '/440E43'
 ---
 

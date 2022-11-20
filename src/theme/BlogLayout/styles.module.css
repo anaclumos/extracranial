@@ -1,0 +1,4 @@
+.blogLayout {
+  max-width: var(--ifm-container-width-xxl);
+  margin: 0 auto;
+}

@@ -1,8 +1,6 @@
 ---
-title: 'Why the halting problem is unsolvable'
 date: 2022-05-11
-authors: anaclumos
-slug: 'FFD937'
+slug: '/FFD937'
 ---
 
 - Imagine there is a function `bool doesItHalt({function f, input i})` that returns if the parameter function `f(i)` halts or not.

@@ -1,5 +1,5 @@
 ---
-title: 'The Web Standard Mini App Problem'
+title: 'The Web Standard Mini App Problem 📱'
 date: 2022-09-14
 description: 'I worked as a full-time Mini App researcher intern at Karrot 🇰🇷🦄. This is what I found.'
 authors: anaclumos

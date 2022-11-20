@@ -1,7 +1,5 @@
 ---
-title: 'Apple Newsroom 서체 따라하기'
 date: 2020-04-15
-authors: anaclumos
 slug: '/1C362F'
 ---
 
@@ -25,7 +23,7 @@ Import 잊지 마세요!
 
 나는 [San Francisco 폰트](https://developer.apple.com/fonts/)를 가장 좋아한다. 최근 Apple 제품의 기본 서체로 사용되고 있고 [Apple Newsroom](https://www.apple.com/kr/newsroom)에서도 사용하는 그 폰트이다. 나는 [Apple Newsroom](https://www.apple.com/kr/newsroom)의 디자인을 정말 좋아하기 때문에 최대한 그 느낌을 살리고 싶었다. 하지만 San Francisco 폰트의 사용 약관에는 약간의 문제가 있었으니...
 
-![SF Pro Font Use License](F8252C.png)
+![SF Pro Font Use License](../assets/F8252C.png)
 
 _Except as otherwise expressly permitted \[...\] you may not make the Apple Font available over a network where it could be run or used by multiple computers at the same time. (명시적으로 허용되지 않은 이상, Apple의 폰트를 네트워크 상에서 제공하여 여러 컴퓨터에서 동시에 사용할 수 없습니다.)_
 
@@ -97,9 +95,9 @@ GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두�
 
 ## 결론
 
-![Apple 제품에서 San Francisco, Apple 산돌고딕 네오, 그리고 SF Mono가 사용될 때](9B529A.png)
+![Apple 제품에서 San Francisco, Apple 산돌고딕 네오, 그리고 SF Mono가 사용될 때](../assets/9B529A.png)
 
-![비 Apple 제품에서 Inter, Spoqa Han Sans, 그리고 Consolas가 사용될 때. 이 이미지는 MacBook에서 서체만 수정하여 찍은 스크린샷이다.](49E133.png)
+![비 Apple 제품에서 Inter, Spoqa Han Sans, 그리고 Consolas가 사용될 때. 이 이미지는 MacBook에서 서체만 수정하여 찍은 스크린샷이다.](../assets/49E133.png)
 
 약간의 자간 차이와 글자 두께 차이가 존재한다. SF 폰트들이 대체로 글자가 더 촘촘하며 얇다. 하지만 Apple 제품에서는 @2x 등의 HiDPI 화면이 흔한데 반해 비 Apple 제품에는 HiDPI가 드물기 때문에 두껍고 넓은 폰트는 가독성을 높여주는 장점으로 작용할 것 같았다. 또한 전반적인 느낌이 매우 비슷하다고 생각이 들기 때문에 만족스럽다. 아마 당분간은 이 규칙을 그대로 사용할 것 같다.
 

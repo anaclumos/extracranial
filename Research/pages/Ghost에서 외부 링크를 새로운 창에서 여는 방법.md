@@ -1,7 +1,5 @@
 ---
-title: 'Ghost에서 외부 링크를 새로운 창에서 여는 방법'
 date: 2019-11-07
-authors: anaclumos
 slug: '/A11B23'
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: 'GitHub Pages에 React 앱 띄우기'
 date: 2020-10-05
-authors: anaclumos
 slug: '/7DE619'
 ---
 

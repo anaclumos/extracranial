@@ -1,7 +1,5 @@
 ---
-title: 'Implementing Karatsuba Algorithm in Python'
 date: 2020-10-17
-authors: anaclumos
 slug: '/383A01'
 ---
 

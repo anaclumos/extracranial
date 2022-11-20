@@ -1,7 +1,5 @@
 ---
-title: 'Displaying exact datetimes on Ghost'
 date: 2020-04-26
-authors: anaclumos
 slug: '/522AED'
 ---
 

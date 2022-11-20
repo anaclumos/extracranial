@@ -1,7 +1,5 @@
 ---
-title: 'Locking your Mac with Command+L'
 date: 2019-11-09
-authors: anaclumos
 slug: '/6AA962'
 ---
 

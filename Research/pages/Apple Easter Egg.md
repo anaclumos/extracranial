@@ -1,7 +1,5 @@
 ---
-title: "Apple's Easter Egg"
 date: 2020-01-20
-authors: anaclumos
 slug: '/4512BD'
 ---
 

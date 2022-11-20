@@ -1,7 +1,5 @@
 ---
-title: 'Migrating Node.js apps from AWS EB to Heroku'
 date: 2018-10-28
-authors: anaclumos
 slug: '/C855D4'
 ---
 

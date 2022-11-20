@@ -179,8 +179,8 @@
     "description": "The label alongside a tag list"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
-    "description": "The ARIA label for recent posts in the blog sidebar"
+    "message": "Blog Flagship Posts navigation",
+    "description": "The ARIA label for Flagship Posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
     "message": "Copied",

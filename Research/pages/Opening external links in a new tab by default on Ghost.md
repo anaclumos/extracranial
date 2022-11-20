@@ -1,7 +1,5 @@
 ---
-title: ''
 date: 2019-11-07
-authors: anaclumos
 slug: '/0242A0'
 ---
 

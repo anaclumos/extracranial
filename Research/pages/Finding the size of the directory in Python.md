@@ -1,7 +1,5 @@
 ---
-title: 'Finding the size of the directory in Python'
 date: 2020-04-18
-authors: anaclumos
 slug: '/615491'
 ---
 
