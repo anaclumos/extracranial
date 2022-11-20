@@ -6,7 +6,7 @@ const blog = {
   blogDescription: 'I am Sunghyun Cho, traveling the WWW.',
   postsPerPage: 10,
   blogSidebarCount: 10,
-  blogSidebarTitle: 'Recent Posts',
+  blogSidebarTitle: 'Flagship Posts',
   routeBasePath: '/w',
   remarkPlugins: [latex.math],
   rehypePlugins: [latex.katex],

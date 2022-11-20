@@ -1,5 +1,5 @@
 ---
-title: 'Creating Calendar with JavaScript Date Object'
+title: 'Creating Calendar in JavaScript 🗓'
 date: 2020-11-14
 authors: anaclumos
 slug: '/F522B3'
@@ -176,6 +176,197 @@ const processDate = (day) => {
 }
 ```
 
-import WIP from '@site/src/components/WIP'
+I created a function that binds these 4 dates into an object and `return`s them. It receives a Date object as `argument`, and in this calendar, a Date object corresponding to "today" will be inserted.
 
-<WIP />
+```js
+const processDate = (day) => {
+  const date = day.getDate()
+  const month = day.getMonth()
+  const year = day.getFullYear()
+  return {
+    lastMonthLastDate: new Date(year, month, 0),
+    thisMonthFirstDate: new Date(year, month, 1),
+    thisMonthLastDate: new Date(year, month + 1, 0),
+    nextMonthFirstDate: new Date(year, month + 1, 1),
+  }
+}
+```
+
+### 2-2. Create getCalendarHTML
+
+Now let's draw a calendar in earnest. I created a `getCalendarHTML` function that returns the contents of the calendar as HTML. The `getCalendarHTML` function is a bit bulky, so I framed it first.
+
+```js
+const getCalendarHTML = () => {
+  let today = new Date()
+  let {
+    lastMonthLastDate,
+    thisMonthFirstDate,
+    thisMonthLastDate,
+    nextMonthFirstDate,
+  } = processDate(today)
+  let calendarContents = []
+
+  // ...
+
+  return calendarContents.join('')
+}
+```
+
+Add a line at the top to display the day of the week. Use the `const` we added at the beginning to remove the magic number.
+
+```js
+for (let d = 0; d < NUMBER_OF_DAYS_IN_WEEK; d++) {
+  calendarContents.push(
+    html`<div class="${NAME_OF_DAYS[d]} calendar-cell">
+      ${NAME_OF_DAYS[d]}
+    </div>`
+  )
+}
+```
+
+Then let's draw the last month. For example, if the first day of this month is Wednesday, the role of drawing the last month corresponding to Sunday, Monday, and Tuesday. For days corresponding to Sunday, `sun` HTML Class is added.
+
+```js
+for (let d = 0; d < thisMonthFirstDate.getDay(); d++) {
+  calendarContents.push(
+    html`<div
+      class="
+          ${d % 7 === 0 ? 'sun' : ''}
+          calendar-cell
+          past-month
+        "
+    >
+      ${lastMonthLastDate.getMonth() +
+      1}/${lastMonthLastDate.getDate() -
+      thisMonthFirstDate.getDay() +
+      d}
+    </div>`
+  )
+}
+```
+
+Let's draw this month on a similar principle. For today's day, `today` HTML Class and "today" String are added. Similarly, `sat` and `sun` HTML Class are added for Saturday and Sunday respectively.
+
+```js
+for (let d = 0; d < thisMonthLastDate.getDate(); d++) {
+  calendarContents.push(
+    html`<div
+      class="
+          ${today.getDate() === d + 1 ? 'today' : ''}
+          ${(thisMonthFirstDate.getDay() + d) % 7 === 0
+        ? 'sun'
+        : ''}
+          ${(thisMonthFirstDate.getDay() + d) % 7 === 6
+        ? 'sat'
+        : ''}
+          calendar-cell
+          this-month
+        "
+    >
+      ${d + 1} ${today.getDate() === d + 1 ? ' today' : ''}
+    </div>`
+  )
+}
+```
+
+Finally, draw the days of the next month in the remaining cells.
+
+```js
+let nextMonthDaysToRender =
+  7 - (calendarContents.length % 7)
+
+for (let d = 0; d < nextMonthDaysToRender; d++) {
+  calendarContents.push(
+    html`<div
+      class="
+          ${(nextMonthFirstDate.getDay() + d) % 7 === 6
+        ? 'sat'
+        : ''}
+          calendar-cell
+          next-month
+        "
+    >
+      ${nextMonthFirstDate.getMonth() + 1}/${d + 1}
+    </div>`
+  )
+}
+```
+
+## 3. Writing CSS
+
+### 3-1. Using display: grid
+
+If you use `display: grid` on an element, you can neatly put its child elements into a grid (table).
+
+- `grid-template-columns`: Information on how to arrange columns. `1fr` means `1 fraction`, and since it is written 7 times in total, 7 columns with the same width are created.
+- `grid-template-rows`: You can define the size of rows. Here, there is only one `3rem`, so the **first** row is defined as 3rem.
+- `grid-auto-rows`: You can define the size of the next row. Here, it says `6rem`, so all subsequent rows have a row size of 6rem.
+
+Below we define additional styles.
+
+```css
+#App {
+  /* grid */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3rem;
+  grid-auto-rows: 6rem;
+
+  /* style */
+  font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', sans-serif;
+  border: 1px solid black;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+
+- When drawing a table, you want to wrap all cells with a uniform border, just like Excel, but there are cases where only the outermost cells have thin lines. In terms of HTML, borders are applied only to `th` and `td`.
+- I prefer to apply this "n px to all cell borders, n px to table borders" border. This will give you a uniform border of `2n px` overall.
+
+```css
+.calendar-cell {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+```
+
+### 3-2. 토요일과 일요일, 오늘 하이라이팅
+
+```css
+.past-month,
+.next-month {
+  color: gray;
+}
+
+.sun {
+  color: red;
+}
+
+.sat {
+  color: blue;
+}
+
+.past-month.sun {
+  color: pink;
+}
+
+.next-month.sat {
+  color: lightblue;
+}
+
+.today {
+  color: #e5732f;
+}
+```
+
+## I felt that
+
+- At first, I got a little lost when connecting with JS to "initialize" the calendar. This is because you connected `renderCalendar` to the top of `body`. Since the DOM is executed sequentially, if you connect it to the top, if the `#App` div does not appear, `renderCalendar` will be executed and the DOM element will not be found.
+- Also, I couldn't remember how to render codes that can be expressed in JS associations on the screen. It was simply to querySelect the app in js, which plays the role of index.js, and then insert it into innerHTML.
+- In the Woowa Tech Camp project, magic numbers were used. This time, the magic number was removed to improve readability.
+- The Woowa Techcamp project was written in Object Oriented JavaScript (more precisely, Singleton pattern), but this time it was written in small functions.
+- Tried to use ES6+ syntax. For example, I used it by putting variables in backticks or destructuring the return data of processDate. Also let and const were mainly used.
+- I regret that `getCalendarHTML` could not have been written a little shorter.

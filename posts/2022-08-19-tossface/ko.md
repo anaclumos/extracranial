@@ -1,5 +1,5 @@
 ---
-title: '대한민국 이모지 되찾기'
+title: '대한민국 이모지 되찾기 🇰🇷'
 date: 2022-08-19
 description: '사라진 토스페이스를 PUA 영역으로 되돌리기'
 authors: anaclumos

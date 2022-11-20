@@ -1,7 +1,5 @@
 ---
-title: 'Linux Permissions for Keys'
 date: 2022-04-18
-authors: anaclumos
 slug: '/ACC7AB'
 ---
 

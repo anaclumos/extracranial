@@ -1,5 +1,5 @@
 ---
-title: 'Download Icons with The Noun Project API'
+title: 'Crawling with APIs 🪣'
 date: 2020-10-30
 authors: anaclumos
 slug: '/589DF4'

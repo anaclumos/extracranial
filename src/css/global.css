@@ -22,6 +22,7 @@ h1 {
   --unhovered-transparency: 100%;
   --padding: 1rem;
   --border-radius: 0.5rem;
+  --ifm-container-width-xxl: 1600px;
 }
 
 [data-theme='dark'] * {
@@ -105,10 +106,6 @@ figcaption {
 
 hr {
   border: 1px solid var(--ifm-color-emphasis-200);
-}
-
-iframe {
-  height: 5rem;
 }
 
 table {

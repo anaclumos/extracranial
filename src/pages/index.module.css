@@ -80,7 +80,7 @@
   white-space: nowrap;
 }
 
-iframe {
+.musicplayer {
   width: 100%;
   overflow: visible;
   margin: 1rem auto;

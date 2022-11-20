@@ -1,7 +1,5 @@
 ---
-title: "When TSC suddenly errors with 'cannot find module.'"
 date: 2021-01-16
-authors: anaclumos
 slug: '/ACB2F1'
 ---
 
