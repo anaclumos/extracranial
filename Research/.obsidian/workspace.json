@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7c44a5f7d1bae4f2",
+        "id": "65482cb7f0396651",
         "type": "tabs",
         "children": [
           {
-            "id": "d76c71d22ad72c04",
+            "id": "2cb783eb6509a868",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -124,7 +124,7 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "d76c71d22ad72c04",
+  "active": "2cb783eb6509a868",
   "lastOpenFiles": [
     "pages/배달의민족 FE 개발자가 일하는 법 Q&A.md",
     "journals/2022-11-19.md",
