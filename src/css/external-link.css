@@ -269,3 +269,17 @@ article a[href*='framer.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/framer.svg');
 }
+
+article a[href*='netflix.com']::before,
+article a[href*='netflix.net']::before,
+article a[href*='netflix.org']::before,
+article a[href*='netflixtechblog.com']::before,
+article a[href*='netflixtechblog.medium.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/netflix.svg');
+}
+
+article a[href*='grammarly.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/grammarly.svg');
+}
