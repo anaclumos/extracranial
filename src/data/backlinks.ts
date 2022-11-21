@@ -55,7 +55,7 @@ export const backlinks = {
         "2022-07-21": "- Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` layer.",
         "2022-07-25": "- [x] Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` layer.",
         "2022-08-03": "... iiframe — improved iframe — that specializes in containerizing iframes in [[Web Worker|Web Workers]].",
-        "2022-11-20": "- [ ] Does Emscripten WebAssembly|WASM run on [[Web Worker|Web Workers]]?",
+        "2022-11-21": "- [ ] Does Emscripten WebAssembly|WASM run on [[Web Worker|Web Workers]]?",
         "Atomics (JavaScript)": "- SharedArrayBuffer를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.",
         "Providing DOM API to Worker Threads": "- Provide synchronous DOM API Access to [[Web Worker]] Threads",
         "Satori": "... core engine, Satori, can be used in modern browsers, Node.js, and [[Web Worker|Web Workers]]. Building on top of the core engine, [[Vercel]] OG can be ...",
@@ -102,6 +102,7 @@ export const backlinks = {
         "2022-10-15": "## [[Coding Tests]]",
         "2022-10-23": "## [[Coding Tests]]",
         "2022-10-24": "## [[Coding Tests]]",
+        "2022-11-21": "## [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "Real Exams": {
@@ -325,7 +326,7 @@ export const backlinks = {
         "2022-10-13": "## [[TODO]]",
         "2022-11-01": "## [[TODO]]",
         "2022-11-02": "## [[TODO]]",
-        "2022-11-20": "## [[TODO]]",
+        "2022-11-21": "## [[TODO]]",
         "Coding Tests": "- QuickSelect [[TODO]]"
     },
     "Grammarly": {
@@ -362,6 +363,7 @@ export const backlinks = {
         "2022-11-16": "## [[Project]]",
         "2022-11-17": "## [[Project]]",
         "2022-11-18": "## [[Project]]",
+        "2022-11-21": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -417,7 +419,8 @@ export const backlinks = {
         "2022-11-17": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-18": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-19": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-20": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-20": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -492,6 +495,7 @@ export const backlinks = {
         "2022-11-12": "## [[Hacker News|HN]]",
         "2022-11-14": "## [[Hacker News|HN]]",
         "2022-11-20": "## [[Hacker News|HN]]",
+        "2022-11-21": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -946,6 +950,7 @@ export const backlinks = {
         "2022-10-13": "... iPhone to be their next phone; 31% of teens own an [[Apple]] Watch: Taking Stock With Teens® - Fall 2022",
         "2022-10-18": "- [[Apple]] bought all of the advertising space in Newsweek's November/December special election ...",
         "3D File Format": "- USDZ for [[Apple]]",
+        "Andy Matuschak": "- ex-[[Apple]] UI-Kit developer",
         "Apple Earth": "- Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports",
         "Apple Silicon (CPU)": "- Chips made by [[Apple]]",
         "Brunch violates SF terms of use": "- Korean writing service Brunch violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web ...",
@@ -1249,7 +1254,7 @@ export const backlinks = {
         "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.",
         "2022-10-14": "- [[WebAssembly]]",
         "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten",
-        "2022-11-20": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?",
+        "2022-11-21": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?",
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
@@ -1528,16 +1533,6 @@ export const backlinks = {
     "Tree Style": {
         "2022-11-20": "- [[Tree Style]]"
     },
-    "How is WebAssembly cross-platform when Assembly is not": {
-        "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
-        "2022-11-20": "- [ ] Finalize [[How is WebAssembly cross-platform when Assembly is not]]",
-        "Project": "- [[How is WebAssembly cross-platform when Assembly is not]]"
-    },
-    "Markdown Email Client": {
-        "2022-10-04": "- [[Markdown Email Client]]",
-        "2022-11-20": "- [ ] Review MailPilot [[Markdown Email Client]]",
-        "Reimagining Emails": "- [[Markdown Email Client]]"
-    },
     "Markdown": {
         "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].",
         "Inliner": "... Inliner aims to separate the editing and reading experience by utilizing [[Markdown]]'s strict line change mode.",
@@ -1596,6 +1591,26 @@ export const backlinks = {
     },
     "UBI for Scholars": {
         "2022-07-18": "- [[UBI for Scholars]]"
+    },
+    "FFMpeg": {
+        "2022-11-21": "- [[FFMpeg]]",
+        "FFMpeg for iPad": "- There is no [[FFMpeg]] equivalent for iPads!"
+    },
+    "Magician": {
+        "2022-11-21": "- [[Magician]]: I thought they would generate user interface designs akin to Tailwind ..."
+    },
+    "Animations": {
+        "2022-11-21": "- [[Animations]]"
+    },
+    "How is WebAssembly cross-platform when Assembly is not": {
+        "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
+        "2022-11-21": "- [ ] Finalize [[How is WebAssembly cross-platform when Assembly is not]]",
+        "Project": "- [[How is WebAssembly cross-platform when Assembly is not]]"
+    },
+    "Markdown Email Client": {
+        "2022-10-04": "- [[Markdown Email Client]]",
+        "2022-11-21": "- [ ] Review MailPilot [[Markdown Email Client]]",
+        "Reimagining Emails": "- [[Markdown Email Client]]"
     },
     "Blitzscaling": {
         "2022-06-06": "- [[Blitzscaling]] will not work, starting now. User Growth ≠ Valuation."
@@ -2071,6 +2086,10 @@ export const backlinks = {
         "Height": "- Used at [[Karrot]]",
         "Jira": "- Used at [[Karrot]]"
     },
+    "Figma": {
+        "Magician": "- Magician is a [[Figma]] plugin that lets you design with the power of AI to ...",
+        "Social Coding": "... effects are rare, but when they work, they grow huge (e.g., [[Figma]], Slack)"
+    },
     "Cross-Origin Opener Policy": {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Opener Policy]]: `same-origin`"
     },
@@ -2234,9 +2253,6 @@ export const backlinks = {
     },
     "EC7EEF.png": {
         "Python": "![[EC7EEF.png]]"
-    },
-    "FFMpeg": {
-        "FFMpeg for iPad": "- There is no [[FFMpeg]] equivalent for iPads!"
     },
     "extracranial": {
         "Stephan Ango": "- [[extracranial]] @ Stephan Ango"
@@ -2900,6 +2916,15 @@ export const backlinks = {
     },
     "2022-09-29": {
         "한자 타자기": "- Started reading [[2022-09-29]]"
+    },
+    "BE3713.png": {
+        "Animations": "![[BE3713.png]]"
+    },
+    "E14115.png": {
+        "Animations": "![[E14115.png]]"
+    },
+    "C353BE.png": {
+        "Animations": "![[C353BE.png]]"
     },
     "dx": {
         "Grammarly": "- [[dx]] team"
