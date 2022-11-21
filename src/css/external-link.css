@@ -39,7 +39,6 @@ article a[href*='facebook.com']::before {
 }
 
 article a[href*='github.com']::before,
-article a[href*='github.io']::before,
 article a[href*='githubusercontent.com']::before,
 article a[href*='githubassets.com']::before,
 article a[href*='githubapp.com']::before,
