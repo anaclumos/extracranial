@@ -11,5 +11,5 @@ slug: '/2794D5'
 - Runs super fast (less than a second)
 
 ```bash
-ffmpeg -I file.mov -c copy out.mp4
+ffmpeg -i file.mov -c copy out.mp4
 ```
