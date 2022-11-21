@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/27880D'
 ---
 
+- ex-[[Apple]] UI-Kit developer
 - [About these notes](https://notes.andymatuschak.org/)
 
 Provided a new vision of online [[Atomic Notes|Zettelkasten]].
