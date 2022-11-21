@@ -90,6 +90,10 @@ figure > p {
   margin: 0;
 }
 
+figure > figure {
+  margin: 0;
+}
+
 figure > p > img {
   display: block;
   margin: 0.5rem auto;

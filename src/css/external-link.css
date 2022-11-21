@@ -281,3 +281,53 @@ article a[href*='grammarly.com']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/grammarly.svg');
 }
+
+article a[href*='tesla.com']::before,
+article a[href*='teslamotors.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/tesla.svg');
+}
+
+article a[href*='spotify.com']::before,
+article a[href*='atspotify.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/spotify.svg');
+}
+
+article a[href*='airbnb.com']::before,
+article a[href*='airbnb.io']::before,
+article a[href*='airbnb.design']::before,
+article a[href*='medium.com/airbnb-engineering']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/airbnb.svg');
+}
+
+article a[href*='uber.com']::before,
+article a[href*='uber.org']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/uber.svg');
+}
+
+article a[href*='stripe.com']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/stripe.svg');
+}
+
+article a[href*='shopify.com']::before,
+article a[href*='shopify.enginnering']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/shopify.svg');
+}
+
+article a[href*='slack.com']::before,
+article a[href*='slack.engineering']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/slack.svg');
+}
+
+article a[href*='kubernetes.io']::before,
+article a[href*='kubernetes.org']::before,
+article a[href*='kubernetes.dev']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/kubernetes.svg');
+}
