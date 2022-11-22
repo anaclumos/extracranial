@@ -1,5 +1,5 @@
 ---
-date: 2022-11-05
+date: 2022-11-23
 description: '웹 기술로 다이나믹 아일랜드를 재현하기 위해 힘쓴 기록'
 authors: anaclumos
 slug: '/9F7F85'
@@ -7,8 +7,8 @@ slug: '/9F7F85'
 
 # 웹으로 빚은 다이나믹 아일랜드 🏝
 
-<Admonition type="info" title="잔소리 말고 일단 먼저 보여줘요" icon="🗣">
-그럼요. 클릭해보세요. 제가 현재 듣고 있거나 가장 최근에 들은 30개의 음악 중 하나가 무작위로 나타난답니다.
+<Admonition type="info" title="잔말 말고 일단 먼저 보여줘요" icon="🗣">
+그럼요. 아래 검정색 타원을 클릭해보세요. 제가 현재 듣고 있거나 가장 최근에 들은 30개의 음악 중 하나가 무작위로 나타날거예요.
 </Admonition>
 
 import IframeResizer from 'iframe-resizer-react'
@@ -35,7 +35,7 @@ src='https://dynamic-island.cho.sh/embed-player'
 
 <figcaption>
 
-↑ 클릭해보세요 ↑
+위의 검정색 타원을 클릭해보세요.
 
 </figcaption>
 
@@ -118,8 +118,9 @@ ease-in-ease-out을 넘어가는 복잡한 애니메이션은 다뤄보지 못�
 (최소한 [Apple 플랫폼에서는 이렇게 2가지로 나누어 지원한다](https://developer.apple.com/documentation/swiftui/animation).)
 아주 단순하게 이해하자면 다음과 같다.
 
-- **Parametric Curve**. 시작점과 종착점이 있을 때, 그 사이 조작점(Control Point)을 두고 그 조작점 사이를 수학 공식을 이용해 보간(interpolate)한다. 보간에 사용되는 공식의 종류에 따라 Linear Curve, Polynomial Curve, Spline Curve 등으로 나뉜다. 흔히 사용되는 Bezier Curve도 여기에 해당된다.
-- **Spring Curve**. 고전 물리학의 탄성 방정식([Hooke's law](https://en.wikipedia.org/wiki/Hooke's_law)와 그에 기반한 수많은 방정식)을 이용해 경직도(Stiffness)와 제동 계수(Dampening)를 통한 물리적인 궤도를 계산한다. [더 알아보기: Maxime Heckel](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/)
+**Parametric Curve**. 시작점과 종착점이 있을 때, 그 사이 조작점(Control Point)을 두고 그 조작점 사이를 수학 공식을 이용해 보간(interpolate)한다. 보간에 사용되는 공식의 종류에 따라 Linear Curve, Polynomial Curve, Spline Curve 등으로 나뉜다. 흔히 사용되는 Bezier Curve도 여기에 해당된다.
+
+**Spring Curve**. 고전 물리학의 탄성 방정식([Hooke's law](https://en.wikipedia.org/wiki/Hooke's_law)와 그에 기반한 수많은 방정식)을 이용해 경직도(Stiffness)와 제동 계수(Dampening)를 통한 물리적인 궤도를 계산한다. [더 알아보기: Maxime Heckel](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/)
 
 애니메이션 곡선에 대해서 더 깊게 이야기하는 것은 이 글의 초점에서 벗어난 것 같으니 더 자세하게 설명하지는 않겠지만,
 대부분의 다이나믹 아일랜드 재현작들이 위의 Parametric Curve를 이용해 애니메이션을 제작하는 반면 (CSS에 내장되어 제공되니 가장 쉽기도 하다)
@@ -204,7 +205,12 @@ export type DynamicIslandSize =
 실제로 완성된 제품을 보니 실제 Apple의 제품과 아주 닮아 마음에 들었다.
 [2022년 10월 20일](/r/2022-10-20)에 완성되었다.
 
-<figure>
+<figure
+style={{
+margin: '0 -16px',
+width: 'calc(100% + 32px)',
+}}
+>
 
 <IframeResizer
 id="dynamic-island-phone-call"
@@ -341,6 +347,8 @@ React에 괜찮은 이퀄라이저가 없는지 알아보다가 그냥 Framer Mo
 <DisplayFlex>
 ![ALT: FANCY by TWICE](566FD8.gif)
 ![ALT: After Like by IVE](F1A974.gif)
+</DisplayFlex>
+<DisplayFlex>
 ![ALT: Lavender Haze by Taylor Swift](1F832D.gif)
 ![ALT: Hype Boy by NewJeans](6AA1FF.gif)
 </DisplayFlex>
@@ -389,7 +397,7 @@ $$
 여기에서 $n$은 곡률, $a$는 $x$ 축 길이, $b$는 $y$ 축의 길이이다.
 수학적으로 더 깊은 내용은 Figma의 [Desperately seeking squircles](https://www.figma.com/blog/desperately-seeking-squircles/) 문서를 참고하자.
 
-[tienphaw/figma-squircle: Figma-flavored squircles for everyone](https://github.com/tienphaw/figma-squircle)를 이용해 `SVG` 스쿼클을 생성한 뒤
+[tienphaw/figma-squircle](https://github.com/tienphaw/figma-squircle)를 이용해 `SVG` 스쿼클을 생성한 뒤
 `clipPath` 프로퍼티를 이용해 다이나믹 아일랜드를 잘라내도록 만들었다.
 
 ![iOS16 알림센터에서도 비슷한 버그를 본 것 같다.](7ABA4C.gif)
@@ -453,6 +461,6 @@ const willChange = useWillChange()
 바로 `webpack`으로 트랜스파일된 코드 그 자체를 뜯어가며 리버스 엔지니어링하는 것이 가능하다(‼️)는 것을 직접 보여주신 것이다.
 인턴십 기간동안 정말 매콤하게 많이 배웠다.
 여하튼 그 덕분에 Apple Music API에서 막혔을 때 그냥 **리버스 엔지니어링해서 뚫어내야지**라는 자신감이 생겼던 것 같다.
-팀, 감사의 의미로 헤이캐럿 당근을 드립니다 🥕🥕🥕🥕🥕
+팀, 감사의 의미로 헤이캐럿 당근을 드립니다 🥕
 
 어쨌든 이렇게 프로젝트를 끝낸다.
