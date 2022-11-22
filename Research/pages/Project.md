@@ -14,7 +14,6 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 - [[How is WebAssembly cross-platform when Assembly is not]]
 - [[AIs.txt]]
 
-
 ## [[TODO]]
 
 - [ ] Study the thread on [HN](https://news.ycombinator.com/item?id=33151774)

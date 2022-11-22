@@ -5,8 +5,8 @@ slug: '/451E1C'
 
 ## Articles
 
-
 ### [Let crypto burn | Financial Times](https://www.ft.com/content/ac058ede-80cb-4aa6-8394-941443eec7e3)
+
 - Until very recently, FTX was a leading exchange and was widely touted as a guiding light in an industry rife with charlatans.
 - However, FTX intentionally chose to locate in a jurisdiction beyond the legal and regulatory purview of those nations with the largest financial systems
 - So, the big question is whether authorities ought to create a new regulatory and supervisory framework that protects property rights and enforces the principles of safety and soundness
