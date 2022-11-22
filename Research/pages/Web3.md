@@ -5,6 +5,13 @@ slug: '/451E1C'
 
 ## Articles
 
+
+### [Let crypto burn | Financial Times](https://www.ft.com/content/ac058ede-80cb-4aa6-8394-941443eec7e3)
+- Until very recently, FTX was a leading exchange and was widely touted as a guiding light in an industry rife with charlatans.
+- However, FTX intentionally chose to locate in a jurisdiction beyond the legal and regulatory purview of those nations with the largest financial systems
+- So, the big question is whether authorities ought to create a new regulatory and supervisory framework that protects property rights and enforces the principles of safety and soundness
+- Ironically, attempts to create a separate structure for regulating and supervising crypto will just make the financial system less, not more, safe - Rather than creating a new legal and regulatory framework that legitimizes crypto, we should let it burn.
+
 ### [You Can Forget About Crypto Now - The Atlantic](https://www.theatlantic.com/technology/archive/2022/11/sam-bankman-fried-bankruptcy-crypto-ftx/672104/)
 
 - This week, Bankman-Fried lost his entire fortune virtually over a single day, in what Bloomberg [has called](https://www.bloomberg.com/news/articles/2022-11-11/sam-bankman-fried-s-assets-go-from-16-billion-to-zero-after-ftx-collapse) “one of history’s greatest-ever destructions of wealth
