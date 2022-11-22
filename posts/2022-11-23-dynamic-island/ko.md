@@ -474,3 +474,6 @@ const willChange = useWillChange()
 
 어쨌든 이렇게 프로젝트를 끝낸다.
 모두 정말 감사합니다!
+
+- [anaclumos/dynamic-island](https://github.com/anaclumos/dynamic-island)
+- [Dynamic Island on the web](https://dynamic-island.cho.sh/)
