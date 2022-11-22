@@ -40,8 +40,11 @@ src='https://dynamic-island.cho.sh/embed-player'
 </figcaption>
 
 **유능한 예술가는 모방하고 위대한 예술가는 훔친다** —
-그리고 이번에는 [Vercel](https://vercel.com)의 개발자 경험 담당 VP [Lee Robinson](https://github.com/leerob)의 아이디어 하나를 베껴보려 한다.
-Next.js의 각종 신기술을 활용하는 실험적이지만 간결하고 아름다운 포트폴리오로 유명한 [leerob.io](https://github.com/leerob/leerob.io)에는 한 가지 재미있는 기능이 있다.
+그리고 이번에는 [Vercel](https://vercel.com)의 개발자 경험 담당 VP
+[Lee Robinson](https://github.com/leerob)의 아이디어 하나를 베껴보려 한다.
+Next.js의 각종 신기술을 활용하는
+실험적이지만 간결하고 아름다운 포트폴리오로 유명한
+[leerob.io](https://github.com/leerob/leerob.io)에는 한 가지 재미있는 기능이 있다.
 자신이 **현재 듣고 있는 음악이 웹에 같이 나타나는 기능**이다.
 
 <figure>
@@ -93,11 +96,10 @@ import Admonition from '@theme/Admonition'
 
 ## 🛠 기술 정하기
 
-우선 프레임워크로는 자주 사용하는 Next.js와 Tailwind를 골랐다.
-가장 익숙하기에 가장 빠르게 만들 수 있을 것 같았다.
+우선 프레임워크로는 가장 익숙한 Next.js와 Tailwind를 골랐다.
 문제는 애니메이션이었다.
 간단한 CSS 애니메이션은 다루어 보았지만
-ease-in-ease-out을 넘어가는 복잡한 애니메이션은 다뤄보지 못했다.
+ease-in-ease-out이상의 복잡한 애니메이션은 다뤄보지 못했다.
 [Framer Motion](https://www.framer.com/developers/)이라는 라이브러리를 알게 되어 이를 사용하기로 했다.
 
 <figure>
@@ -122,10 +124,9 @@ ease-in-ease-out을 넘어가는 복잡한 애니메이션은 다뤄보지 못�
 
 **Spring Curve**. 고전 물리학의 탄성 방정식([Hooke's law](https://en.wikipedia.org/wiki/Hooke's_law)와 그에 기반한 수많은 방정식)을 이용해 경직도(Stiffness)와 제동 계수(Dampening)를 통한 물리적인 궤도를 계산한다. [더 알아보기: Maxime Heckel](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/)
 
-애니메이션 곡선에 대해서 더 깊게 이야기하는 것은 이 글의 초점에서 벗어난 것 같으니 더 자세하게 설명하지는 않겠지만,
+애니메이션 곡선에 대해서 더 깊게 이야기하는 것은 이 글의 초점에서 벗어나니 더 자세하게 설명하지는 않겠지만,
 대부분의 다이나믹 아일랜드 재현작들이 위의 Parametric Curve를 이용해 애니메이션을 제작하는 반면 (CSS에 내장되어 제공되니 가장 쉽기도 하다)
 Apple의 경우 현실의 애니메이션과 비슷하게 구현하기 위함인지 Spring Motion을 주로 사용한다.
-
 이번에 사용한 [Framer Motion](https://www.framer.com/docs/use-spring/)에서도 `useSpring()`이라는 React Hook을 통해 이런 물리적인 움직임을 제어할 수 있다.
 
 ```ts
@@ -138,7 +139,7 @@ useSpring(x, { stiffness: 1000, damping: 10 })
 ![Source: Apple](7048BA.png)
 
 우선 [Apple의 문서](https://developer.apple.com/design/human-interface-guidelines/components/system-experiences/live-activities)를 깊이 읽어보며 이런 저런 특징들을 공부했다.
-다이나믹 아일랜드는 크기에 따라 다음과 같은 형태를 지닌다.
+다이나믹 아일랜드는 크기에 따라 다음의 형태를 지닌다.
 
 <DisplayFlex>
 ![Minimal: 다이나믹 아일랜드의 한쪽을 차지하는 작은 형태이다. 두 개 이상의 백그라운드 동작이 작동할 때 각각 한쪽씩 나타나게 된다.](2059F2.png)
@@ -146,12 +147,12 @@ useSpring(x, { stiffness: 1000, damping: 10 })
 ![Expanded: 다이나믹 아일랜드의 최대 사이즈이다. 다이나믹 아일랜드를 길게 누르고 있을 경우 나타난다. 빨간 영역에는 콘텐츠를 표시하지 못한다.](D8C987.png)
 </DisplayFlex>
 
-더불어서 인터넷 어딘가에서 다음과 같은 사진도 확인할 수 있었다.
+더불어서 인터넷 어딘가에서 다음 사진도 확인할 수 있었다.
 Apple 공식 문서에서는 단순하게 **Expanded**라고 두루뭉실하게 표현하는 반면 이 사진에는 여러 사이즈가 동시에 나타난다.
 
 ![다이나믹 아일랜드의 서로 다른 사이즈. 사진에 오타가 있는 것으로 보아 공식적인 자료는 아닌 것 같다. 참고 자료로 사용했다.](982F45.png)
 
-이를 반영해서 다음과 같이 타입 정의를 해보았다.
+이를 반영해서 다음처럼 타입 정의를 해보았다.
 
 ```ts
 export type DynamicIslandSize =
@@ -238,7 +239,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 
-![당시 IZ*ONE의 찐팬이었다.](B81341.png)
+![당시 IZ*ONE의 찐팬이었다... 😅](B81341.png)
 
 <figure>
 
@@ -273,12 +274,13 @@ Apple은 몇 가지 정보가 더 필요했다.
 사용자의 동의 여부에 따른 권한 처리도 별도로 진행되었다.
 그리고 이 모든 것이 문서화가 제대로 되어있지 않아 꽤 골치 아팠다.
 우선 필요했던 것은 다음과 같다.
-쉽게 설명하기 위해 내가 비행기를 운행한다고 비유해서 설명해보겠다.
 
-0. Apple Developer 유료 계정 ($99, 비행기 자체와 관련 사업을 위한 비용 처리.)
-1. Apple Developer에서 발급 받는 **Apple Music Key**: Apple Music 관련 서비스에 내가 요청을 날릴 법적 권한이 있음을 확인한다. (조종사 자격증 발급.)
-2. Apple 서버에 요청해서 발급 받는 **Apple Music Main Token**: Apple Music 관련 서비스에 내가 요청을 날릴 때 쓸 통행증을 발급 받는다. (항공기 운항승인 신청서.)
-3. 사용자가 인증 플로우를 거쳐 발급되는 **Apple Music User Token**: 내 서비스가 사용자 정보에 접근해도 되는지에 대한 동의를 확인한다. (탑승자가 구매하는 비행기 티켓.)
+| 비행기                        | Apple에서의 동일한 개념                                          | 설명                                                                    |
+| ----------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 항공기 사업을 위한 비용 처리  | Apple Developer 유료 계정                                        | $99                                                                     |
+| 조종사 자격증                 | Apple Developer에서 발급 받는 **Apple Music Key**                | Apple Music 관련 서비스에 내가 요청을 날릴 법적 권한이 있음을 확인한다. |
+| 항공기 운항승인 신청서        | Apple 서버에 요청해서 발급 받는 **Apple Music Main Token**       | Apple Music 관련 서비스에 내가 요청을 날릴 때 쓸 통행증을 발급 받는다.  |
+| 탑승자가 구매하는 비행기 티켓 | 사용자가 인증 플로우를 거쳐 발급 받는 **Apple Music User Token** | 내 서비스가 사용자 정보에 접근해도 되는지에 대한 동의를 확인한다.       |
 
 이 4가지 정보들이 모두 연동되어야지 정상적으로 정보(사용자가 무슨 음악을 듣고 있었는가)를 확인할 수 있다.
 이와중에 마지막 User Token은 iOS, macOS와 MusicKit on the Web 등 아주 제한적인 형태로만 사용할 수 있도록 만들어놓았다.
@@ -317,7 +319,7 @@ MusicKit on the Web은 [music.apple.com](https://music.apple.com)나 [Cider](htt
 ![](91C875.png)
 
 그런 다음 Postman에서 key들을 모두 채워서 요청을 날려보면 다음과 같이 JSON 응답이 돌아옴을 확인할 수 있다.
-여기까지 [2022년 10월 28일](/r/2022-10-28)까지 진행된 개발이다.
+여기까지가 [2022년 10월 28일](/r/2022-10-28)까지 진행된 개발이다.
 
 ![이렇게 단순하고 짧고 직접적인 과정으로 보이지만, 실제로는 며칠이 살살 녹았다 😭](46C3E8.png)
 
@@ -336,13 +338,13 @@ MusicKit on the Web은 [music.apple.com](https://music.apple.com)나 [Cider](htt
 
 ## 🎼 이퀄라이저
 
-앞서 전화 컴포넌트를 완성환 것과 비슷하게 음악 플레이어 컴포넌트도 완성했다.
+앞서 전화 컴포넌트를 완성한 것과 비슷하게 음악 플레이어 컴포넌트도 완성했다.
 
 ![근데 어딘가 너무 허전했다.](6F3644.gif)
 
 바로 이퀄라이저가 없는 것이다.
 React에 괜찮은 이퀄라이저가 없는지 알아보다가 그냥 Framer Motion으로 이마저도 만들기로 결정했다.
-몇가지 반복적 개발의 과정 스크린샷을 첨부한다.
+몇가지 반복적 개발(iteration)의 과정 스크린샷을 첨부한다.
 
 <DisplayFlex>
 ![ALT: FANCY by TWICE](566FD8.gif)
@@ -357,19 +359,17 @@ React에 괜찮은 이퀄라이저가 없는지 알아보다가 그냥 Framer Mo
 근데 마지막 `Hype Boy` 예시에서도 뭔가 어색한 것이 느껴졌다.
 일반적으로 음악은 저음역대와 고음역대는 진폭이 작은데 반해,
 완전하게 무작위로 값을 계산해서 저음역대와 고음역대에도 비슷한 진폭의 봉이 나타나서 그런 것 같았다.
-그래서 각 봉마다 기준치(`baseLength`)를 정해주고 그 값에서 ±(무작위 값)을 하도록 변경했다.
-
-![훨씬 자연스럽다.](4B78CA.gif)
-
+그래서 각 봉마다 기준치 (`baseLength`) 를 정해주고 그 값에서 ±(무작위 값)을 하도록 변경했다.
 마지막으로 이퀄라이저의 색깔을 앨범아트의 키 컬러(Key Color)와 동일하게 변경했다.
 별도의 작업이 필요하진 않았고 Apple Music API에 그 값이 같이 포함되어 있다.
 
+![훨씬 자연스럽다.](4B78CA.gif)
+
 ## 🔎 스쿼클의 물리 엔진
 
-끝났다고 생각하면 아직 오산이다!
-원래 디테일은 마지막 2%에서 차이가 나는 법이다.
+아직 끝났다고 생각하면 오산이다!
 이렇게 완성된 다이나믹 아일랜드도 아직 무언가 어색했다.
-뭔가... 곡선이 **날카로운** 느낌이 들었다.
+곡선이 **날카로운** 느낌이 들었다.
 바로 **스쿼클**의 미적용 때문이다.
 
 <figure>
@@ -378,7 +378,7 @@ React에 괜찮은 이퀄라이저가 없는지 알아보다가 그냥 Framer Mo
 
 <figcaption>
 
-출처: [Apple’s Icons Have That Shape for a Very Good Reason @ HackerNoon](https://hackernoon.com/apples-icons-have-that-shape-for-a-very-good-reason-720d4e7c8a14)
+출처: [Apple's Icons Have That Shape for a Very Good Reason @ HackerNoon](https://hackernoon.com/apples-icons-have-that-shape-for-a-very-good-reason-720d4e7c8a14)
 
 </figcaption>
 </figure>
@@ -389,24 +389,25 @@ React에 괜찮은 이퀄라이저가 없는지 알아보다가 그냥 Framer Mo
 **등가속도** 운동이 아니라 **등가가속도** 운동을 한다고 생각하면 된다 (속도를 일정하게 바꾸는 것이 아니라, 가속도를 일정하게 바꾸는 것).
 수학적인 단어로 스쿼클은 [초타원 (Superellipse)](https://ko.wikipedia.org/wiki/%EC%B4%88%ED%83%80%EC%9B%90)이다.
 다음 공식을 만족하는 형태들이다.
+여기에서 $n$은 곡률, $a$는 $x$ 축 길이, $b$는 $y$ 축의 길이이다.
+수학적으로 더 깊은 내용은 Figma의 [Desperately seeking squircles](https://www.figma.com/blog/desperately-seeking-squircles/) 문서를 참고하자.
 
 $$
 {\lvert{x \over a}\rvert}^n + {\lvert{y \over b}\rvert}^n = 1
 $$
 
-여기에서 $n$은 곡률, $a$는 $x$ 축 길이, $b$는 $y$ 축의 길이이다.
-수학적으로 더 깊은 내용은 Figma의 [Desperately seeking squircles](https://www.figma.com/blog/desperately-seeking-squircles/) 문서를 참고하자.
-
 [tienphaw/figma-squircle](https://github.com/tienphaw/figma-squircle)를 이용해 `SVG` 스쿼클을 생성한 뒤
 `clipPath` 프로퍼티를 이용해 다이나믹 아일랜드를 잘라내도록 만들었다.
 
-![iOS16 알림센터에서도 비슷한 버그를 본 것 같다.](7ABA4C.gif)
+![iOS16 알림센터에서도 비슷한 버그를 봤다.](7ABA4C.gif)
 
-다만 애니메이션의 모든 프레임에 `clipPath`를 걸기 위해서는 스쿼클을 모든 프레임마다 생성해야 하기에,
+다만 애니메이션의 모든 프레임에 `clipPath`를 걸기 위해서는 스쿼클을 모든 프레임마다 생성해야 하는데
+이렇게 되면 속도 저하의 문제가 있을 수 있었다.
 다이나믹 아일랜드가 크기를 바꾸는 동안은 `borderRadius`를 이용해 모서리를 다듬고,
 애니메이션이 끝나는 즉시 재빠르게 `clipPath`를 적용하도록 최적화했다.
+
 아주 자세히 보지 않으면 알아차리기 어려워 성능과 디테일의 괜찮은 타협이라고 생각했다.
-여기까지 [2022년 11월 11일](/r/2022-11-11)까지 완성했다.
+여기까지 [2022년 11월 11일](/r/2022-11-11)까지 완성한 내용이다.
 
 ![자세히 보면 애니메이션이 종료되면서 모서리가 스쿼클로 다듬어진다.](58D345.gif)
 
@@ -459,8 +460,17 @@ const willChange = useWillChange()
 두 번째 느낀 점으로, [cometkim](https://github.com/cometkim)님께 특별히 감사 인사를 하고 싶다.
 당근마켓에서 인턴을 할 당시 특별한 일화가 하나 기억에 남는데,
 바로 `webpack`으로 트랜스파일된 코드 그 자체를 뜯어가며 리버스 엔지니어링하는 것이 가능하다(‼️)는 것을 직접 보여주신 것이다.
-인턴십 기간동안 정말 매콤하게 많이 배웠다.
-여하튼 그 덕분에 Apple Music API에서 막혔을 때 그냥 **리버스 엔지니어링해서 뚫어내야지**라는 자신감이 생겼던 것 같다.
+인턴십 기간동안 정말 매콤하게 🌶 많이 배웠다. (매콤마켓 당근미니 팀 ❤️)
+여하튼 그 덕분에 Apple Music API에서 막혔을 때 그냥 **리버스 엔지니어링해서 뚫어내야지**라는 자신감이 생겼다.
 팀, 감사의 의미로 헤이캐럿 당근을 드립니다 🥕
 
+노트테이킹과 메모의 습관도 점점 생기고 있다.
+사람은 생각보다 의지력이 약하니까 환경을 바꾸라는 말이 있다.
+`cho.sh`를 노트테이킹에 최적화되어있도록 디지털 정원(또는 [Extracranial Memex](/r/93AA11))을 잘 가꾼 것 같다.
+몇 달 간 `cho.sh`에 연구 노트를 기록하며 워크플로우가 어느 정도 정형화되고 있다.
+계속 노트를 꾸준히 작성하고 새로운 것들을 공부하고 싶다.
+이 또한 팀 ([cometkim](https://github.com/cometkim))님의 Roam Research 노트테이킹 습관을 보며 많이 배웠다.
+팀, 감사의 의미로 헤이캐럿 당근을 하나 더 드립니다 🥕
+
 어쨌든 이렇게 프로젝트를 끝낸다.
+모두 정말 감사합니다!
