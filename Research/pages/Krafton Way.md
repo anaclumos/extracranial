@@ -1,6 +1,6 @@
 ---
 lang: 'ko'
-slug: '{{hex}}'
+slug: '/CD8BED'
 aliases: ["크래프톤 웨이"]
 ---
 
