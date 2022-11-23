@@ -10,6 +10,7 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 - [x] [[Building a Second Brain]]
 - [x] [[경제 개발의 길목에서]]
 - [x] [[일본 과학기술 총력전]]
+- [x] [[Krafton Way]]
 
 ## Reading
 
