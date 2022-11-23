@@ -60,11 +60,11 @@ Now Playing — Spotify @ [leerob.io](https://leerob.io)
 [I have an unmistakable taste in music genres](/w/AF848F) and longed to implement this one day on my website.
 However, I wanted it to be a technical challenge rather than simply recreating it.
 I also tried out various music services, making me postpone the development.
-I kept delaying the action until Apple released an exciting feature in 2022 called _Dynamic Island_.
+I kept delaying the action until Apple released an exciting feature in 2022 called the _Dynamic Island_.
 
 <figure>
 
-![ALT: Dynamic Island](3F68A8.gif)
+![ALT: The Dynamic Island](3F68A8.gif)
 
 <figcaption>
 
@@ -73,9 +73,9 @@ The punch-hole camera at the top will reshape itself into different widgets.
 </figcaption>
 </figure>
 
-Dynamic Island perfectly satisfied my desire for a technical hurdle,
+The Dynamic Island perfectly satisfied my desire for a technical hurdle,
 so I planned to implement it with Web technologies.
-I also checked out different copies of Dynamic Island for Android products,
+I also checked out different copies of the Dynamic Island for Android products,
 which all had awkward animation curves,
 further getting me interested in learning such details.
 
@@ -83,7 +83,7 @@ import Admonition from '@theme/Admonition'
 
 <Admonition type="info" title="Goal" icon="💡">
 
-Let's recreate Dynamic Island on the Web!
+Let's recreate the Dynamic Island on the Web!
 
 </Admonition>
 
@@ -122,7 +122,7 @@ We can classify animations into two big categories.
 **Spring Curve**. Based on Newtonian dynamics (Hooke's law, the law that governs a spring's physical motion), we calculate the physical trajectory using stiffness and dampening. [Learn More: Maxime Heckel](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/)
 
 Any further discussions on animation curves will be out of the scope of this post.
-Most replications of Dynamic Island choose parametric curves (it's the easiest, standardized in CSS).
+Most replications of the Dynamic Island choose parametric curves (it's the easiest, standardized in CSS).
 Apple uses spring motion, supposedly to mimic real-world physics.
 Framer Motion, the library I chose for this project,
 [also provides a React hook](https://www.framer.com/docs/use-spring/) named `useSpring()` to give control of such physical animations.
@@ -136,19 +136,19 @@ useSpring(x, { stiffness: 1000, damping: 10 })
 
 ![Source: Apple](7048BA.png)
 
-I had to study the different behaviors of Dynamic Island with [Apple's official documents](https://developer.apple.com/design/human-interface-guidelines/components/system-experiences/live-activities).
-Dynamic Island can be any of the following forms:
+I had to study the different behaviors of the Dynamic Island with [Apple's official documents](https://developer.apple.com/design/human-interface-guidelines/components/system-experiences/live-activities).
+The Dynamic Island can be any of the following forms:
 
 <DisplayFlex>
-![**Minimal**. The widget takes one side of Dynamic Island when two or more background activities are ongoing.](2059F2.png)
+![**Minimal**. The widget takes one side of the Dynamic Island when two or more background activities are ongoing.](2059F2.png)
 ![**Compact**: The standard form, where the widget takes both sides of the Dynamic Island when there is one ongoing background activity.](421DC3.png)
-![**Expanded**: The biggest size of the Dynamic Island, shown when the user long-presses on the Dynamic Island. It cannot display content in the red area.](D8C987.png)
+![**Expanded**: The biggest size of the the Dynamic Island, shown when the user long-presses on the Dynamic Island. It cannot display content in the red area.](D8C987.png)
 </DisplayFlex>
 
 Furthermore, I found the following image on the Web.
-Apple puts _Expanded_ for all big sizes, but this image describes Dynamic Island's expanded states.
+Apple puts _Expanded_ for all big sizes, but this image describes the Dynamic Island's expanded states.
 
-![Different sizes of Dynamic Island. Considering that there is a typo on the image, it doesn't seem like an official document.](982F45.png)
+![Different sizes of the Dynamic Island. Considering that there is a typo on the image, it doesn't seem like an official document.](982F45.png)
 
 I declared the type as the following, reflecting the earlier information.
 
@@ -424,7 +424,7 @@ Therefore, the animation may seem blurry depending on the type, but it will give
 
 - More Info: [will-change - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
 
-Dynamic Island usually modifies scale and opacity, so it was perfect for `will-change.`
+The Dynamic Island usually modifies scale and opacity, so it was perfect for `will-change.`
 We can apply the property in Framer Motion, as in the following example:
 
 ```ts
