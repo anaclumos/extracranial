@@ -365,6 +365,7 @@ export const backlinks = {
         "2022-11-18": "## [[Project]]",
         "2022-11-21": "## [[Project]]",
         "2022-11-22": "## [[Project]]",
+        "2022-11-23": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -422,7 +423,8 @@ export const backlinks = {
         "2022-11-19": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-20": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-23": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -1338,6 +1340,10 @@ export const backlinks = {
     },
     "Starlink": {
         "2022-10-19": "- [[Starlink]]"
+    },
+    "Krafton Way": {
+        "2022-11-23": "- Finished reading [[Krafton Way]]",
+        "Readings": "- [x] [[Krafton Way]]"
     },
     "Someday": {
         "2022-09-09": "- [[Someday]]",
