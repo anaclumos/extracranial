@@ -26,13 +26,13 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 
 </details>
 
-# So what's the issue?
+## So what's the issue?
 
 - Apart from popular belief, I noticed the best method for managing a digital garden is **not tending it**. Instead, try to make a **digital jungle** - you don't take care of it; nature will automatically raise it.
 - In other words, the digital brain should make as less friction as possible.
 - The less you tend, the more you write.
 
-## Especially,
+### Especially,
 
 - I despise the `[[keyword]]` pattern prevalent in so-called second brains (obsidian, dendron, ...).
 - Not to mention it performs poorly for non-alphabetical documents,
@@ -41,21 +41,21 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 - Do you go back and link them all one by one?
 - No! The solution must lie in algorithmic keyword extraction.
 
-# #1 Organizing Contents
+## #1 Organizing Contents
 
-## Interconnected entities
+### Interconnected entities
 
 - Practical knowledge does not exist in simple posts (though they might be straightforward). Create a knowledge bundle that interconnects GitHub Repository, Codes, GitHub README, and other posts in the same brain network.
 - Examine how [Victor](https://victordibia.com/blog/alpha-code/)'s post has rich metadata for the paper, dataset, demo, and post. This is what I see as **interconnected entities**.
 
-## Interactive Contents & Animations
+### Interactive Contents & Animations
 
 ![victordibia.com. Seems like using MDX.](B717F8.gif)
 ![bluewings.github.io. Confirmed using MDX.](FB685B.gif)
 ![pomb.us. Reacts to user scroll.](8F78C9.gif)
 ![qubit.donghwi.dev. This isn't a blog; it's a web app that demonstrates key concepts of Quantum Computers. But still interesting.](ED77BD.gif)
 
-## Unorganized Graphing.
+### Unorganized Graphing.
 
 - Trust me, manually fiddling with tag sucks.
 - Necessarily tagging posts and organizing posts into subdirectories resembles organizing your computer.
@@ -79,13 +79,13 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 - Manually linking posts are inconsistent and troublesome; it can only be done on a massive communal scale, like Wikipedia.
 - You cannot apply the same logic to individual digital brain systems.
 
-# #2 SEO and Open Graphs
+## #2 SEO and Open Graphs
 
-## Precis Bots for Meta description
+### Precis Bots for Meta description
 
 - I can apply the above technique for crosslinking to TL;DR bots for meta tag descriptions.
 
-## Automatic Open Graph Image Insertion
+### Automatic Open Graph Image Insertion
 
 - For example, GitHub creates automatic open graph images with their metadata.
 
@@ -97,14 +97,14 @@ Well, you're now watching my next-gen digital brain! For the past two weeks, I h
 
 [GitHub - anaclumos/cho-sh-og-image: Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc](https://github.com/anaclumos/cho-sh-og-image)
 
-# #3 Multilanguage
+## #3 Multilanguage
 
-## Proper multilanguage support
+### Proper multilanguage support
 
 - **Automatic Langauge Detection**. The baseline is to reduce the workload, that I write random things, and the algorithm will automatically organize corresponding data.
 - **[hreflang](https://developers.google.com/search/docs/advanced/crawling/localized-versions) tags and [HTTP content negotiations](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation)**. I found none of the services which use this trick properly (outside of megacorporate i18n products)
 
-## Translations
+### Translations
 
 - At this point, I might write one English post and let Google Translate do the heavy lifting.
 - Also, I can get contributions from GitHub.
@@ -120,7 +120,7 @@ I kind of want this back too. Meanwhile, this looks nice:
 
 Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 
-## Fonts and Emoji
+### Fonts and Emoji
 
 - I want to go with the standard SF Pro series with a powerful new font Pretendard.
 
@@ -141,19 +141,17 @@ font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont,
 
 - [유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 · Issue #4 · toss/tossface](https://github.com/toss/tossface/issues/4)
 
-# #4 Domains and Routes
+## #4 Domains and Routes
 
-## URL Structures
+### URL Structures
 
 - Does URL Structure matter for SEO? I don't think so if the exhaustive domain list is provided through sitemap.xml.
 - For SEO purposes (although I still doubt the effectiveness), automatically inserting the URLified titles at the end might help (like Notion)
 
-## Nameless routes
+### Nameless routes
 
-### [Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)
-
-I don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. What if I need to update the title and want to update the URL Structure?
-
+- [Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)
+- I don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. What if I need to update the title and want to update the URL Structure?
 - Changing URL structure affects SEO, so I would need to stick to the original domain even after changing the entity title to maintain the SEO. But then the title and URL would be inconsistent.
 - Therefore, I would give the entity a UID that would be a hash for each interconnected entity. Maybe the randomized hash UID could be a color hex that could be the [theme color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color) for the entity?
 - Emoji routes seem cool, aye? I would also need Web Share API since Chrome doesn't support copying Unicode URLs.
@@ -163,25 +161,25 @@ I don't like naming routes like `cho.sh/blog/how-to-make-apple-music-clone`. Wha
 
 ![Also found that Twitter doesn't support Unicode URLs.](E14405.png)
 
-# #5 Miscellany
+## #5 Miscellany
 
-## Headline for Outdated Posts
+### Headline for Outdated Posts
 
 - There should be a method to penalize old posts; they should exist in the database but wouldn't appear as much on the data chain. i.e., put a lifespan or "valid until" for posts.
 
 ![홍민희 블로그](AEFFCB.png)
 ![Kat Huang](85AF78.png)
 
-## Footnotes
+### Footnotes
 
 - An excellent addition. But not necessary.
 - If I ever have to make a footnote system, I want to make it hoverable, which [namu.wiki](https://namu.wiki) did a great job. I do not want to make it jump down to the bottom and put a cringy ↩️ icon to link back.
 
-## ToC
+### ToC
 
 - A nice addition. But not necessary.
 
-## Comments
+### Comments
 
 - Will go with Giscus.
 
