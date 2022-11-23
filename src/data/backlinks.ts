@@ -55,8 +55,8 @@ export const backlinks = {
         "2022-07-21": "- Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` layer.",
         "2022-07-25": "- [x] Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` layer.",
         "2022-08-03": "... iiframe — improved iframe — that specializes in containerizing iframes in [[Web Worker|Web Workers]].",
-        "2022-11-21": "- [ ] Does Emscripten WebAssembly|WASM run on [[Web Worker|Web Workers]]?",
         "Atomics (JavaScript)": "- SharedArrayBuffer를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.",
+        "Project": "- [ ] Does Emscripten WebAssembly|WASM run on [[Web Worker|Web Workers]]?",
         "Providing DOM API to Worker Threads": "- Provide synchronous DOM API Access to [[Web Worker]] Threads",
         "Satori": "... core engine, Satori, can be used in modern browsers, Node.js, and [[Web Worker|Web Workers]]. Building on top of the core engine, [[Vercel]] OG can be ...",
         "Stories Behind Satori": "Converting it into WebAssembly|WASM will also benefit by targeting [[Web Worker|Web Workers]].",
@@ -326,8 +326,8 @@ export const backlinks = {
         "2022-10-13": "## [[TODO]]",
         "2022-11-01": "## [[TODO]]",
         "2022-11-02": "## [[TODO]]",
-        "2022-11-21": "## [[TODO]]",
-        "Coding Tests": "- QuickSelect [[TODO]]"
+        "Coding Tests": "- QuickSelect [[TODO]]",
+        "Project": "## [[TODO]]"
     },
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
@@ -364,6 +364,7 @@ export const backlinks = {
         "2022-11-17": "## [[Project]]",
         "2022-11-18": "## [[Project]]",
         "2022-11-21": "## [[Project]]",
+        "2022-11-22": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -420,7 +421,8 @@ export const backlinks = {
         "2022-11-18": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-19": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-20": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -496,6 +498,7 @@ export const backlinks = {
         "2022-11-14": "## [[Hacker News|HN]]",
         "2022-11-20": "## [[Hacker News|HN]]",
         "2022-11-21": "## [[Hacker News|HN]]",
+        "2022-11-22": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -542,6 +545,7 @@ export const backlinks = {
     "Web3": {
         "2022-11-09": "- [[Web3]]",
         "2022-11-12": "- You Can Forget About Crypto Now - The Atlantic: [[Web3]]",
+        "2022-11-22": "- [[Web3]]",
         "Classic Blogs": "- Mirror: Medium on [[Web3]]."
     },
     "Pragmatic Engineer": {
@@ -1254,9 +1258,9 @@ export const backlinks = {
         "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.",
         "2022-10-14": "- [[WebAssembly]]",
         "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten",
-        "2022-11-21": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?",
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
+        "Project": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]]."
     },
@@ -1525,7 +1529,7 @@ export const backlinks = {
         "2022-11-14": "![[8B7073.png]]"
     },
     "Journal is a Waypoint, nothing more": {
-        "2022-11-20": " - [[Journal is a Waypoint, nothing more]]"
+        "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
     },
     "Now Runs On": {
         "2022-11-20": "- [[Now Runs On]]"
@@ -1601,16 +1605,6 @@ export const backlinks = {
     },
     "Animations": {
         "2022-11-21": "- [[Animations]]"
-    },
-    "How is WebAssembly cross-platform when Assembly is not": {
-        "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
-        "2022-11-21": "- [ ] Finalize [[How is WebAssembly cross-platform when Assembly is not]]",
-        "Project": "- [[How is WebAssembly cross-platform when Assembly is not]]"
-    },
-    "Markdown Email Client": {
-        "2022-10-04": "- [[Markdown Email Client]]",
-        "2022-11-21": "- [ ] Review MailPilot [[Markdown Email Client]]",
-        "Reimagining Emails": "- [[Markdown Email Client]]"
     },
     "Blitzscaling": {
         "2022-06-06": "- [[Blitzscaling]] will not work, starting now. User Growth ≠ Valuation."
@@ -1706,6 +1700,11 @@ export const backlinks = {
     "Inliner": {
         "2022-10-04": "- [[Inliner]]"
     },
+    "Markdown Email Client": {
+        "2022-10-04": "- [[Markdown Email Client]]",
+        "Project": "- [ ] Review MailPilot [[Markdown Email Client]]",
+        "Reimagining Emails": "- [[Markdown Email Client]]"
+    },
     "Letter to Mr. Matt Rickard on 2022-10-03": {
         "2022-10-04": "- [[Letter to Mr. Matt Rickard on 2022-10-03]]",
         "Screenshot as an API": "- [[Letter to Mr. Matt Rickard on 2022-10-03]]"
@@ -1716,6 +1715,10 @@ export const backlinks = {
     "Person E7CFC5": {
         "2022-09-14": "  - [[Person E7CFC5]]",
         "Project PEOPLE": "- [[Person E7CFC5]]"
+    },
+    "How is WebAssembly cross-platform when Assembly is not": {
+        "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
+        "Project": "- [[How is WebAssembly cross-platform when Assembly is not]]"
     },
     "Lingua Franca": {
         "2022-09-30": "- [[Lingua Franca]]"
@@ -2452,6 +2455,9 @@ export const backlinks = {
     },
     "Checksum": {
         "Internetworking": "- [[Checksum]]"
+    },
+    "2022-11-22": {
+        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-22]] 과제의 홍수"
     },
     "2022-11-12": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-12]] 실패"
