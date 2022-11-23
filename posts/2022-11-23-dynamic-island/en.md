@@ -301,7 +301,7 @@ So what are we going to do? **Reverse engineer** the API.
 
 <figcaption>
 
-[MusicKit on the Web](https://js-cdn.music.apple.com/musickit/v3/docs/index.html).Is Apple using Storybook? Based on Apple's track record, this MUST be an Alpha of Alpha.
+[MusicKit on the Web](https://js-cdn.music.apple.com/musickit/v3/docs/index.html). Is Apple using Storybook? Based on Apple's track record, this MUST be an Alpha of Alpha.
 
 </figcaption>
 </figure>
@@ -327,20 +327,16 @@ Finished on [Oct 28th, 2022](/r/2022-10-28).
 
 ![It sounds straightforward, but it took me days to figure it out. 😭](46C3E8.png)
 
-사람들이 접속할 때마다 API 요청을 날리게 된다면 당연히 순식간에 API Quota를 다 쓸 것이다.
-그래서 어떠한 형태로든 캐시 서버를 만들고 싶었다.
-하지만 **최고의 데이터베이스는 데이터베이스가 없는 것이라는 것을 명심하자**.
-
 Requiring the information whenever someone accesses the Web will deplete my API quota in minutes.
 I wanted to make a cache server of some sort.
-But remember, the best database is no database.
+But remember, the best database is **no database**.
 
 > Don't use the database when avoidable. Which is always more often than I think. I don't need to store the 195 countries of the world in a database and join when showing a country-dropdown. Just hardcode it or put in `config` read on boot. Hell, maybe your entire product catalogue of the e-commerce site can be a single YAML read on boot? This goes for many more objects than I often think. [It's not Ruby that's slow, it's your database](https://berk.es/2022/08/09/ruby-slow-database-slow/)
 
 So I made a GitHub Secrets that holds my private keys and made GitHub Actions to retrieve the data every few minutes and publish it on GitHub.
 
 - [anaclumos/now-playing: What is Sunghyun listening to right now? (Apple Music)](https://github.com/anaclumos/now-playing)
-- [raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json](https://raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json)
+- [anaclumos/now-playing/main/now-playing.json](https://raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json)
 
 ![I don't know how long I struggled to find this typo.](8EC62F.png)
 
