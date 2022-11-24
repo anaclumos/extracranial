@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/D48467'
 aliases: ["Large Language Model", "LLMs"]
 ---
 

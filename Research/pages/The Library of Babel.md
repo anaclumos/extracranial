@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/5E7F4B'
 ---
 
 - [[Mathematics under The Library of Babel]]

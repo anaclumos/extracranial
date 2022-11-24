@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/1EF59B'
 ---
 
 Given an infinitely long time, you will be correct.

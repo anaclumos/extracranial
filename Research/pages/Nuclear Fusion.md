@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/C80BE9'
 aliases: ["핵융합"]
 ---
 

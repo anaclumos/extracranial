@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/D91B80'
 ---
 
 - Copilot looks like increasing your productivity, but it
