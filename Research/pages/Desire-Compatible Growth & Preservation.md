@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/B3E3F8'
 ---
 
 Desire-Compatible Growth & Desire-Compatible Preservation
