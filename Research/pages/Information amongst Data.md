@@ -9,4 +9,3 @@ slug: '/B03E94'
 [[The Library of Babel]] holds all data.
 Therefore all the information.
 But it is equally hard to find usefulness in that data pile.
-
