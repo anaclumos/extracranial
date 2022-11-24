@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/64CF02'
 aliases: ["물자체", "thing-in-itself"]
 ---
 

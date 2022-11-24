@@ -424,7 +424,7 @@ export const backlinks = {
         "2022-11-20": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-23": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -1089,7 +1089,7 @@ export const backlinks = {
     "Synthote": {
         "2022-10-19": "- [[Synthote]]",
         "2022-10-24": "- [[Synthote]]",
-        "2022-11-14": "- [[Synthote]]: LLMs for Code",
+        "2022-11-14": "- [[Synthote]]: LLMs for Code: [[LLM|LLMs]]",
         "2022-11-16": "- Notion AI: Notion's [[Synthote]]",
         "Copilot": "- A [[Synthote]] for developers.",
         "Everyprompt": "- [[Synthote]]",
@@ -1345,6 +1345,26 @@ export const backlinks = {
         "2022-11-23": "- Finished reading [[Krafton Way]]",
         "Readings": "- [x] [[Krafton Way]]"
     },
+    "그게 뭐라고": {
+        "2022-11-23": "- [[그게 뭐라고]]"
+    },
+    "The Library of Babel": {
+        "2022-11-23": "- [[The Library of Babel]]"
+    },
+    "Mathematics under The Library of Babel": {
+        "2022-11-23": "- [[Mathematics under The Library of Babel]]",
+        "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
+    },
+    "Antipilot": {
+        "2022-11-23": "- [[Antipilot]]"
+    },
+    "In The End Trust Yourself": {
+        "2022-11-23": "- [[In The End Trust Yourself]]",
+        "Antipilot": "\t- [[In The End Trust Yourself]]"
+    },
+    "Desire-Compatible Growth & Preservation": {
+        "2022-11-23": "- [[Desire-Compatible Growth & Preservation]]"
+    },
     "Someday": {
         "2022-09-09": "- [[Someday]]",
         "Alter": "- [[Someday]] [[Project]]",
@@ -1530,6 +1550,11 @@ export const backlinks = {
         "2022-10-11": "- [[Satori]]",
         "2022-11-14": "- [[Satori]]: Create OG images for your blog with Next.js",
         "WebAssembly": "- [[Satori]]"
+    },
+    "LLM": {
+        "2022-11-14": "- Synthote: LLMs for Code: [[LLM|LLMs]]",
+        "Antipilot": "- Generative AI and [[LLM]] are already unstoppable. This is not to stop them.",
+        "P vs NP": "- Before [[LLM|LLMs]], generating the associated image took time if you were given a ..."
     },
     "8B7073.png": {
         "2022-11-14": "![[8B7073.png]]"
@@ -1861,6 +1886,10 @@ export const backlinks = {
         "2022-07-26": "- [x] [[0226 Invert Binary Tree]]",
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
     },
+    "Nuclear Fusion": {
+        "2022-07-26": "- [[Nuclear Fusion]]",
+        "Desire-Compatible Growth & Preservation": "- [[Nuclear Fusion]]"
+    },
     "D815DD.jpeg": {
         "2022-07-12": "![[D815DD.jpeg]]"
     },
@@ -1996,6 +2025,9 @@ export const backlinks = {
         "Python": "You can offset with [[Python]]'s `enumerate` function with list splitting.",
         "Real Exams": "- get-a-job-done SQL, React, [[Python]]",
         "get-a-job-done": "  - Building [[Python]] Data Parser"
+    },
+    "Noumenon": {
+        "The Library of Babel": "... a few concepts, it can hold the idea, but not the [[Noumenon]]."
     },
     "Alexander Obenauer": {
         "Emails and Decentralized Protocols": "- [[Alexander Obenauer]]: My career began with [[Reimagining Emails]] and finding ways to build ...",
@@ -3010,6 +3042,9 @@ export const backlinks = {
     "2022-07-13": {
         "0021 Merge Two Sorted Lists": "Solved at: [[2022-07-13]]",
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]"
+    },
+    "2022-11-23": {
+        "Mathematics under The Library of Babel": "## [[2022-11-23]]"
     },
     "2022-11-11": {
         "Dynamic Island on the Web": "## [[2022-11-11]]"
