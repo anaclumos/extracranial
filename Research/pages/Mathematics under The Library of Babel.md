@@ -10,8 +10,8 @@ slug: '/B4B12B'
 - Considering any Unicode can be ASCII escaped, Unicode LoB will use the same equation but takes a much longer ASCII base string
 - For two characters to hold all possible sequences, what should be the shortest sequence?
 - Naively, it may take $2 \times 26 \times 26$ where $26 \times 26$ is all the combinations, and 2 is the length of a single combination.
-	- like `aa ab ac ad ae ...` without the space
-	- Naively adding, since any character can be shared bidirectionally, it seems possible to hold it inside $26 \times 26$
+  - like `aa ab ac ad ae ...` without the space
+  - Naively adding, since any character can be shared bidirectionally, it seems possible to hold it inside $26 \times 26$
 
 ```
 aaabacadaeafagahaiajakalamanaoapaqarasatauavawaxayazbabbbcbdbebfbgbhbibjbkblbmbnbobpbqbrbsbtbubvbwbxbybzcacbcccdcecfcgchcicjckclcmcncocpcqcrcsctcucvcwcxcyczdadbdcdddedfdgdhdidjdkdldmdndodpdqdrdsdtdudvdwdxdydzeaebecedeeefegeheiejekelemeneoepeqereseteuevewexeyezfafbfcfdfefffgfhfifjfkflfmfnfofpfqfrfsftfufvfwfxfyfzgagbgcgdgegfggghgigjgkglgmgngogpgqgrgsgtgugvgwgxgygzhahbhchdhehfhghhhihjhkhlhmhnhohphqhrhshthuhvhwhxhyhziaibicidieifigihiiijikiliminioipiqirisitiuiviwixiyizjajbjcjdjejfjgjhjijjjkjljmjnjojpjqjrjsjtjujvjwjxjyjzkakbkckdkekfkgkhkikjkkklkmknkokpkqkrksktkukvkwkxkykzlalblcldlelflglhliljlklllmlnlolplqlrlsltlulvlwlxlylzmambmcmdmemfmgmhmimjmkmlmmmnmompmqmrmsmtmumvmwmxmymznanbncndnenfngnhninjnknlnmnnnonpnqnrnsntnunvnwnxnynzoaobocodoeofogohoiojokolomonooopoqorosotouovowoxoyozpapbpcpdpepfpgphpipjpkplpmpnpopppqprpsptpupvpwpxpypzqaqbqcqdqeqfqgqhqiqjqkqlqmqnqoqpqqqrqsqtquqvqwqxqyqzrarbrcrdrerfrgrhrirjrkrlrmrnrorprqrrrsrtrurvrwrxryrzsasbscsdsesfsgshsisjskslsmsnsospsqsrssstsusvswsxsysztatbtctdtetftgthtitjtktltmtntotptqtrtstttutvtwtxtytzuaubucudueufuguhuiujukulumunuoupuqurusutuuuvuwuxuyuzvavbvcvdvevfvgvhvivjvkvlvmvnvovpvqvrvsvtvuvvvwvxvyvzwawbwcwdwewfwgwhwiwjwkwlwmwnwowpwqwrwswtwuwvwwwxwywzxaxbxcxdxexfxgxhxixjxkxlxmxnxoxpxqxrxsxtxuxvxwxxxyxzyaybycydyeyfygyhyiyjykylymynyoypyqyrysytyuyvywyxyyyzzazbzczdzezfzgzhzizjzkzlzmznzozpzqzrzsztzuzvzwzxzyzz
@@ -22,8 +22,8 @@ len: 1352
 - aligns with initial calc $2 \times 26 \times 26$
 - How can we compress it?
 - Keep a map from the beginning; remove the substring if seen already
-	- may have a side effect
-	- early small sacrifices (redundancy) may save more significant future sacrifices. This does not consider such a case
+  - may have a side effect
+  - early small sacrifices (redundancy) may save more significant future sacrifices. This does not consider such a case
 - We can, for sure, trim three characters repeatedly char to 2
 
 ```
