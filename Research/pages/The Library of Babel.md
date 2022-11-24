@@ -17,11 +17,4 @@ they would create all of the internets.
 - It can hold **Pi**, **π**,  but not the Pi itself
 - Same for $e$
 
-## Data vs Information
-
-- Data: Simple 0s and 1s.
-- Information: "Useful" Data
-
-The Library holds all data.
-Therefore all the information.
-But it is equally hard to find usefulness in that data pile.
+- [[Information amongst Data]]
