@@ -1361,6 +1361,10 @@ export const backlinks = {
     "Desire-Compatible Growth & Preservation": {
         "2022-11-23": "- [[Desire-Compatible Growth & Preservation]]"
     },
+    "Animations": {
+        "2022-11-21": "- [[Animations]]",
+        "2022-11-23": "- Rive Use Cases: [[Animations]]"
+    },
     "Someday": {
         "2022-09-09": "- [[Someday]]",
         "Alter": "- [[Someday]] [[Project]]",
@@ -1646,9 +1650,6 @@ export const backlinks = {
     },
     "Magician": {
         "2022-11-21": "- [[Magician]]: I thought they would generate user interface designs akin to Tailwind ..."
-    },
-    "Animations": {
-        "2022-11-21": "- [[Animations]]"
     },
     "Blitzscaling": {
         "2022-06-06": "- [[Blitzscaling]] will not work, starting now. User Growth ≠ Valuation."
@@ -2982,6 +2983,9 @@ export const backlinks = {
     },
     "2022-09-29": {
         "한자 타자기": "- Started reading [[2022-09-29]]"
+    },
+    "CBB31A.png": {
+        "Animations": "![[CBB31A.png]]"
     },
     "BE3713.png": {
         "Animations": "![[BE3713.png]]"
