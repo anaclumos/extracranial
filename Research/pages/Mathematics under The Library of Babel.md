@@ -34,3 +34,13 @@ len: 1327
 
 - Not a drastic difference
 - Can we trim even further?
+- I tried making a Python script to backtrack the combinations.
+- Killed by the OS for using too much RAM
+
+```bash
+❯ python3 experiment3.py
+making list of length 52
+[1]    6919 killed     python3 experiment3.py
+```
+
+- Also made a C++ variant, but meaningful difference is unlikely.
