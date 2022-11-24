@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Antipilot.md",
+                "file": "journals/2022-11-23.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "8880265c37f0d8cf",
+            "id": "923de5824b7114e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Antipilot.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b1ff31cdc8384fbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Mathematics under The Library of Babel.md",
+                "file": "pages/Person 1E6ABA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -114,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Mathematics under The Library of Babel.md",
+                "file": "pages/Person 1E6ABA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Mathematics under The Library of Babel.md"
+                "file": "pages/Person 1E6ABA.md"
               }
             }
           },
@@ -159,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "b1ff31cdc8384fbb",
+  "active": "923de5824b7114e0",
   "lastOpenFiles": [
+    "journals/2022-11-24.md",
     "journals/2022-11-23.md",
-    "pages/Mathematics under The Library of Babel.md",
     "pages/The Library of Babel.md",
-    "pages/Antipilot.md",
-    "pages/In The End Trust Yourself.md",
+    "pages/Mathematics under The Library of Babel.md",
+    "pages/Information amongst Data.md",
+    "pages/Project PEOPLE.md",
     "pages/Desire-Compatible Growth & Preservation.md",
     "pages/Nuclear Fusion.md",
-    "journals/2022-07-26.md",
-    "pages/LLM.md",
-    "journals/2022-11-14.md"
+    "pages/Antipilot.md",
+    "pages/In The End Trust Yourself.md"
   ]
 }

@@ -366,6 +366,7 @@ export const backlinks = {
         "2022-11-21": "## [[Project]]",
         "2022-11-22": "## [[Project]]",
         "2022-11-23": "## [[Project]]",
+        "2022-11-24": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -424,7 +425,8 @@ export const backlinks = {
         "2022-11-20": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-24": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -459,6 +461,7 @@ export const backlinks = {
         "2022-07-14": "... more. One wrong info that I found: Uber didn't make Kubernetes. [[Google]] did.",
         "2022-07-21": "### [[Google]], really? Come on.",
         "Kubernetes": "... open-source container orchestration system for automating software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the Cloud Native Computing Foundation now maintains ...",
+        "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ...",
         "WorkerDOM": "[[Google]]'s take on providing DOM access to [[Web Worker]] Threads."
     },
@@ -1348,13 +1351,6 @@ export const backlinks = {
     "그게 뭐라고": {
         "2022-11-23": "- [[그게 뭐라고]]"
     },
-    "The Library of Babel": {
-        "2022-11-23": "- [[The Library of Babel]]"
-    },
-    "Mathematics under The Library of Babel": {
-        "2022-11-23": "- [[Mathematics under The Library of Babel]]",
-        "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
-    },
     "Antipilot": {
         "2022-11-23": "- [[Antipilot]]"
     },
@@ -1440,6 +1436,23 @@ export const backlinks = {
     "Digital Addictions of Software Enthusiasts": {
         "2022-07-13": "- [[Digital Addictions of Software Enthusiasts]]",
         "2022-07-29": "  - [[Digital Addictions of Software Enthusiasts]]"
+    },
+    "Person 1E6ABA": {
+        "2022-11-24": "- [[Person 1E6ABA]]",
+        "Project PEOPLE": "- [[Person 1E6ABA]]"
+    },
+    "The Library of Babel": {
+        "2022-11-24": "- [[The Library of Babel]]",
+        "Information amongst Data": "[[The Library of Babel]] holds all data."
+    },
+    "Mathematics under The Library of Babel": {
+        "2022-11-24": "- [[Mathematics under The Library of Babel]]",
+        "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
+    },
+    "Information amongst Data": {
+        "2022-11-24": "- [[Information amongst Data]]",
+        "Person 1E6ABA": "Finding [[Information amongst Data]].",
+        "The Library of Babel": "- [[Information amongst Data]]"
     },
     "5A3846.gif": {
         "2022-11-10": "![[5A3846.gif]]",
@@ -2104,6 +2117,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "![[56155E.png]]"
     },
     "Toss": {
+        "Person 1E6ABA": "[[Toss]] Invest also tries to solve this information inequality in the financial ...",
         "Supergravity Products": "... 작은 아이디어 (금융 슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Toss Product Sans": "- Font by [[Toss]].",
         "Tossface": "- Emoji Font by [[Toss]]"
@@ -2221,6 +2235,18 @@ export const backlinks = {
     },
     "4B9CF4.png": {
         "Search Engine Indexing Your Life": "![[4B9CF4.png]]"
+    },
+    "2022-11-23": {
+        "Mathematics under The Library of Babel": "## [[2022-11-23]]",
+        "Person 1E6ABA": "- Interviewed at: [[2022-11-23]]"
+    },
+    "Financial Technology": {
+        "FinTech and Justice": "- Does [[Financial Technology|FinTech]] increase Justice in this world?",
+        "Person 1E6ABA": "- Currently works at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager.",
+        "Toss": "- [[Financial Technology|FinTech]] Unicorn of Korea."
+    },
+    "Educational Technology": {
+        "Person 1E6ABA": "- Currently works at a Financial Technology|FinTech + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager."
     },
     "QuickSelect": {
         "0215 Kth Largest Element in an Array": "- Use [[QuickSelect]]",
@@ -2505,10 +2531,6 @@ export const backlinks = {
     },
     "Extracting string in Android": {
         "Android": "- [[Extracting string in Android]]"
-    },
-    "Financial Technology": {
-        "FinTech and Justice": "- Does [[Financial Technology|FinTech]] increase Justice in this world?",
-        "Toss": "- [[Financial Technology|FinTech]] Unicorn of Korea."
     },
     "2022-08-30": {
         "0215 Kth Largest Element in an Array": "Solved at: [[2022-08-30]]",
@@ -3042,9 +3064,6 @@ export const backlinks = {
     "2022-07-13": {
         "0021 Merge Two Sorted Lists": "Solved at: [[2022-07-13]]",
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]"
-    },
-    "2022-11-23": {
-        "Mathematics under The Library of Babel": "## [[2022-11-23]]"
     },
     "2022-11-11": {
         "Dynamic Island on the Web": "## [[2022-11-11]]"
