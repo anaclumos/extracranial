@@ -14,7 +14,7 @@ slug: '/A9E773'
 - But relaxing the definition of "hard to compute, simple to verify" lets us make some interesting analogies across different emerging technologies.
 - There's public-key cryptography, which relies on things hard to compute, easy-to-verify problems like factorization of large integers, or [elliptic curve cryptography](https://matt-rickard.com/elliptic-curve-cryptography)
 - There are also [zero-knowledge proofs](https://matt-rickard.com/zero-knowledge-proofs), which let counterparties prove that they know ng without revealing the actual secret
-- Before LLMs, generating the associated image took time if you were given a prompt. A talented artist could take a few hours (minutes, days, etc.) to create a polished piece. Once created, it would be easy to verify if it fits the criteria - is this an image of a horse wearing sunglasses?
+- Before [[LLM|LLMs]], generating the associated image took time if you were given a prompt. A talented artist could take a few hours (minutes, days, etc.) to create a polished piece. Once created, it would be easy to verify if it fits the criteria - is this an image of a horse wearing sunglasses?
 - There are no problems that are easy to compute yet hard to verify. If such a problem existed, you could just re-run the computation again.
 
 One such thing of **easy to compute yet hard to verify** can be tracking the time-based hash seed, but this is only true depending on the definition of **confirming**. If verifying means giving input and comparing the output, yes, it is easy. It will be hard if verifying includes _finding_ the information **and** comparing the production. But then again, it also falls into another _hard-to-compute_ problem.
