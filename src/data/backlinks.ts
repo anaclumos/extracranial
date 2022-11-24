@@ -1356,7 +1356,7 @@ export const backlinks = {
     },
     "In The End Trust Yourself": {
         "2022-11-23": "- [[In The End Trust Yourself]]",
-        "Antipilot": "\t- [[In The End Trust Yourself]]"
+        "Antipilot": "  - [[In The End Trust Yourself]]"
     },
     "Desire-Compatible Growth & Preservation": {
         "2022-11-23": "- [[Desire-Compatible Growth & Preservation]]"

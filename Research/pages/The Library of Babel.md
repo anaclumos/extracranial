@@ -16,5 +16,4 @@ they would create all of the internets.
 - For a few concepts, it can hold the **idea**, but not the **[[Noumenon]]**.
 - It can hold **Pi**, **π**, but not the Pi itself
 - Same for $e$
-
 - [[Information amongst Data]]
