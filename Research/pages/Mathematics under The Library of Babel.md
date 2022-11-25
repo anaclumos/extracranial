@@ -70,3 +70,21 @@ c: (start from c, skipping b and a)
 
 Thus resulting in half in size.
 If this is true, this aligns with my naive conjecture at the beginning → to be lower-bounded at $26 \times 26$.
+
+I made a script to confirm if this is right...
+
+Yes, it is.
+
+```
+aabacadaeafagahaiajakalamanaoapaqarasatauavawaxayazbbcbdbebfbgbhbibjbkblbmbnbobpbqbrbsbtbubvbwbxbybzccdcecfcgchcicjckclcmcncocpcqcrcsctcucvcwcxcyczddedfdgdhdidjdkdldmdndodpdqdrdsdtdudvdwdxdydzeefegeheiejekelemeneoepeqereseteuevewexeyezffgfhfifjfkflfmfnfofpfqfrfsftfufvfwfxfyfzgghgigjgkglgmgngogpgqgrgsgtgugvgwgxgygzhhihjhkhlhmhnhohphqhrhshthuhvhwhxhyhziijikiliminioipiqirisitiuiviwixiyizjjkjljmjnjojpjqjrjsjtjujvjwjxjyjzkklkmknkokpkqkrksktkukvkwkxkykzllmlnlolplqlrlsltlulvlwlxlylzmmnmompmqmrmsmtmumvmwmxmymznnonpnqnrnsntnunvnwnxnynzoopoqorosotouovowoxoyozppqprpsptpupvpwpxpypzqqrqsqtquqvqwqxqyqzrrsrtrurvrwrxryrzsstsusvswsxsyszttutvtwtxtytzuuvuwuxuyuzvvwvxvyvzwwxwywzxxyxzyyzza
+
+len: 677
+```
+
+Can we compress even further?
+The mathematic lower bound seems $26 \times 26$, given each character must at least pair with each other once (thus $26 \times 26$,) times the length of the search scope (thus $\times 2$,) and since each character can be **reused** by each other side, divide it in half (this $\div 2$)
+
+Also, note that the mathematic lower bound could be attained if the above Babel String loops.
+
+If this calculation is accurate, we can expand this to a string of size $3$.
+Similarly, estimated lower bound would be $26 \times 26 \times 26 \times 3 \div 2 = 26364.$
