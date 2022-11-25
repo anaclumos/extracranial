@@ -11,11 +11,30 @@
             "id": "f681980438ca1144",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-24.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "87917f9d9caa19f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Mathematics under The Library of Babel.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Mathematics under The Library of Babel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Mathematics under The Library of Babel.md"
+              }
             }
           },
           {
@@ -123,17 +145,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f681980438ca1144",
+  "active": "87917f9d9caa19f6",
   "lastOpenFiles": [
+    "journals/2022-11-25.md",
+    "journals/2022-11-24.md",
+    "pages/Mathematics under The Library of Babel.md",
+    "pages/Project.md",
     "pages/Animations.md",
     "journals/2022-11-23.md",
     "pages/Person 1E6ABA.md",
-    "pages/Mathematics under The Library of Babel.md",
     "pages/The Library of Babel.md",
-    "journals/2022-11-24.md",
     "pages/Information amongst Data.md",
-    "journals/2022-11-22.md",
-    "pages/Project PEOPLE.md",
-    "pages/Desire-Compatible Growth & Preservation.md"
+    "journals/2022-11-22.md"
   ]
 }

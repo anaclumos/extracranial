@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/B4B12B'
 ---
 
-## [[2022-11-23]]
+## [[2022-11-24]]
 
 - To hold all occasions of `a-z`, a single character, requires 26 characters.
 - ASCII: 128
@@ -43,4 +43,30 @@ making list of length 52
 [1]    6919 killed     python3 experiment3.py
 ```
 
-- Also made a C++ variant, but meaningful difference is unlikely.
+- Also made a C++ variant, but a meaningful difference is unlikely.
+
+## [[2022-11-25]]
+
+Continuing our discussion yesterday...
+
+So given
+
+```
+aabacadaeafagahaiajakalamanaoapaqarasatauavawaxayazbabbcbdbebfbgbhbibjbkblbmbnbobpbqbrbsbtbubvbwbxbybzcacbccdcecfcgchcicjckclcmcncocpcqcrcsctcucvcwcxcyczdadbdcddedfdgdhdidjdkdldmdndodpdqdrdsdtdudvdwdxdydzeaebecedeefegeheiejekelemeneoepeqereseteuevewexeyezfafbfcfdfeffgfhfifjfkflfmfnfofpfqfrfsftfufvfwfxfyfzgagbgcgdgegfgghgigjgkglgmgngogpgqgrgsgtgugvgwgxgygzhahbhchdhehfhghhihjhkhlhmhnhohphqhrhshthuhvhwhxhyhziaibicidieifigihiijikiliminioipiqirisitiuiviwixiyizjajbjcjdjejfjgjhjijjkjljmjnjojpjqjrjsjtjujvjwjxjyjzkakbkckdkekfkgkhkikjkklkmknkokpkqkrksktkukvkwkxkykzlalblcldlelflglhliljlkllmlnlolplqlrlsltlulvlwlxlylzmambmcmdmemfmgmhmimjmkmlmmnmompmqmrmsmtmumvmwmxmymznanbncndnenfngnhninjnknlnmnnonpnqnrnsntnunvnwnxnynzoaobocodoeofogohoiojokolomonoopoqorosotouovowoxoyozpapbpcpdpepfpgphpipjpkplpmpnpoppqprpsptpupvpwpxpypzqaqbqcqdqeqfqgqhqiqjqkqlqmqnqoqpqqrqsqtquqvqwqxqyqzrarbrcrdrerfrgrhrirjrkrlrmrnrorprqrrsrtrurvrwrxryrzsasbscsdsesfsgshsisjskslsmsnsospsqsrsstsusvswsxsysztatbtctdtetftgthtitjtktltmtntotptqtrtsttutvtwtxtytzuaubucudueufuguhuiujukulumunuoupuqurusutuuvuwuxuyuzvavbvcvdvevfvgvhvivjvkvlvmvnvovpvqvrvsvtvuvvwvxvyvzwawbwcwdwewfwgwhwiwjwkwlwmwnwowpwqwrwswtwuwvwwxwywzxaxbxcxdxexfxgxhxixjxkxlxmxnxoxpxqxrxsxtxuxvxwxxyxzyaybycydyeyfygyhyiyjykylymynyoypyqyrysytyuyvywyxyyzzazbzczdzezfzgzhzizjzkzlzmznzozpzqzrzsztzuzvzwzxzyzz
+
+len: 1327
+```
+
+This can be further trimmed because `ba` already appears at zero-based index $[2, 3]$. So we don't need it again after `az`.
+That is, we don't need `azbabb...`, we can jump to `azbbc...`
+This will create a triangular space complexity reduction, reducing the size to half.
+So
+
+```
+a: a → z (aabacadaea...)
+b: (start from b, skipping a)
+c: (start from c, skipping b and a)
+```
+
+Thus resulting in half in size.
+If this is true, this aligns with my naive conjecture at the beginning → to be lower-bounded at $26 \times 26$.
