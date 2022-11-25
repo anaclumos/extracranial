@@ -16,6 +16,7 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 
 ## [[TODO]]
 
+- [ ] 불가사리 (전설, 에너지)
 - [ ] Study the thread on [HN](https://news.ycombinator.com/item?id=33151774)
 - [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?
 - [ ] Study [Biden-Harris Administration's National Security Strategy](https://www.whitehouse.gov/wp-content/uploads/2022/10/Biden-Harris-Administrations-National-Security-Strategy-10.2022.pdf)
