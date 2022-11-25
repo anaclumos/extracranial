@@ -367,6 +367,7 @@ export const backlinks = {
         "2022-11-22": "## [[Project]]",
         "2022-11-23": "## [[Project]]",
         "2022-11-24": "## [[Project]]",
+        "2022-11-25": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -426,7 +427,8 @@ export const backlinks = {
         "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-24": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-24": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-25": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -1451,6 +1453,7 @@ export const backlinks = {
     },
     "Mathematics under The Library of Babel": {
         "2022-11-24": "- [[Mathematics under The Library of Babel]]",
+        "2022-11-25": "- [[Mathematics under The Library of Babel]]",
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
     "Information amongst Data": {
@@ -2238,7 +2241,6 @@ export const backlinks = {
         "Search Engine Indexing Your Life": "![[4B9CF4.png]]"
     },
     "2022-11-23": {
-        "Mathematics under The Library of Babel": "## [[2022-11-23]]",
         "Person 1E6ABA": "- Interviewed at: [[2022-11-23]]"
     },
     "Financial Technology": {
@@ -3068,6 +3070,12 @@ export const backlinks = {
     "2022-07-13": {
         "0021 Merge Two Sorted Lists": "Solved at: [[2022-07-13]]",
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]"
+    },
+    "2022-11-24": {
+        "Mathematics under The Library of Babel": "## [[2022-11-24]]"
+    },
+    "2022-11-25": {
+        "Mathematics under The Library of Babel": "## [[2022-11-25]]"
     },
     "2022-11-11": {
         "Dynamic Island on the Web": "## [[2022-11-11]]"
