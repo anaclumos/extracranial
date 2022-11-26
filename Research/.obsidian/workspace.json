@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0e9752668f81efbb",
+        "id": "6d1748e471eae852",
         "type": "tabs",
         "children": [
           {
-            "id": "ff450a867fab73cd",
+            "id": "318d2282d267e374",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Person 1B5A5B.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Person 1B5A5B.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Person 1B5A5B.md"
+              }
             }
           },
           {
@@ -123,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "ff450a867fab73cd",
+  "active": "318d2282d267e374",
   "lastOpenFiles": [
-    "pages/프로젝트 어덕행덕.md",
+    "pages/Project PEOPLE.md",
+    "pages/Person A3BA1A.md",
     "journals/2022-11-25.md",
-    "journals/2020-02-12.md",
-    "journals/2020-02-13.md",
-    "journals/2020-02-14.md",
-    "journals/2020-02-15.md",
-    "journals/2020-02-17.md",
-    "journals/2020-02-22.md",
-    "journals/2020-02-23.md",
-    "journals/2020-02-27.md"
+    "pages/Person E7CFC5.md",
+    "journals/2022-11-24.md",
+    "pages/Person 1E6ABA.md",
+    "templates/person.md",
+    "pages/한국의 입시와 거짓된 명예.md",
+    "pages/프로젝트 어덕행덕.md",
+    "journals/2020-02-12.md"
   ]
 }

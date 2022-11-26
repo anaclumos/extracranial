@@ -1,9 +1,9 @@
 ---
 lang: 'en'
-slug: '{{title}}'
+slug: '/{{title}}'
 ---
 
-- Interviewed at: [[{{date:YYYY-MM-DD}}]]
+- Interviewed on [[{{date:YYYY-MM-DD}}]]
 - Currently works at
 
 import Admonition from '@theme/Admonition'
