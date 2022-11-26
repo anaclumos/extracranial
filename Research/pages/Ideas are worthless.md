@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/65A667'
+aliases: ['아이디어는 가치가 없다']
 ---
 
 > _Genius is one percent inspiration and ninety-nine percent perspiration_. Great accomplishments depend not so much on ingenuity as on hard work. This is a saying of the American inventor Thomas Edison. [Dictionary.com](https://www.dictionary.com/browse/genius-is-one-percent-inspiration-and-ninety-nine-percent-perspiration)
