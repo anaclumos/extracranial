@@ -456,7 +456,7 @@ export const backlinks = {
         "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-24": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-25": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-25": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -1715,6 +1715,13 @@ export const backlinks = {
         "2022-11-01": "- [[Search Engine Indexing Your Life]]",
         "Search-based Tools for Thought": "- [[Search Engine Indexing Your Life]]"
     },
+    "한국의 입시와 거짓된 명예": {
+        "2022-11-25": "- [[한국의 입시와 거짓된 명예]]"
+    },
+    "Person A3BA1A": {
+        "2022-11-25": "- [[Person A3BA1A]]",
+        "Project PEOPLE": "- [[Person A3BA1A]]"
+    },
     "Meta Theme Color for Spacial Cognition": {
         "2022-11-11": "- [[Meta Theme Color for Spacial Cognition]]"
     },
@@ -2086,8 +2093,8 @@ export const backlinks = {
         "1290 Convert Binary Number in a Linked List to Integer": "Solved at: [[2022-09-25]]"
     },
     "2022-09-08": {
-        "Person 392196": "- Interviewed at: [[2022-09-08]]",
-        "Person A480C6": "- Interviewed at: [[2022-09-08]]"
+        "Person 392196": "- Interviewed on [[2022-09-08]]",
+        "Person A480C6": "- Interviewed on [[2022-09-08]]"
     },
     "2022-07-10": {
         "0001 Two Sum": "Solved at: [[2022-07-10]]",
@@ -2270,7 +2277,7 @@ export const backlinks = {
         "Search Engine Indexing Your Life": "![[4B9CF4.png]]"
     },
     "2022-11-23": {
-        "Person 1E6ABA": "- Interviewed at: [[2022-11-23]]"
+        "Person 1E6ABA": "- Interviewed on [[2022-11-23]]"
     },
     "Financial Technology": {
         "FinTech and Justice": "- Does [[Financial Technology|FinTech]] increase Justice in this world?",
@@ -2595,8 +2602,8 @@ export const backlinks = {
         "Apple": "- Creator of Swift, SwiftUI, [[Apple Silicon (CPU)]]"
     },
     "2022-09-06": {
-        "Person 1B5A5B": "- Interviewed at: [[2022-09-06]]",
-        "Person 88B488": "- Interviewed at: [[2022-09-06]]"
+        "Person 1B5A5B": "- Interviewed on [[2022-09-06]]",
+        "Person 88B488": "- Interviewed on [[2022-09-06]]"
     },
     "DD7F56.png": {
         "Reverse Engineering Apple Music API": "![[DD7F56.png]]"
@@ -2806,8 +2813,8 @@ export const backlinks = {
         "Mood.surf": "![[42DC28.png]]"
     },
     "2022-09-13": {
-        "Person 5DBDAE": "- Interviewed at: [[2022-09-13]]",
-        "Person CC8297": "- Interviewed at: [[2022-09-13]]"
+        "Person 5DBDAE": "- Interviewed on [[2022-09-13]]",
+        "Person CC8297": "- Interviewed on [[2022-09-13]]"
     },
     "people": {
         "Person 5DBDAE": "A lot of [[people]] are international.",
@@ -2999,7 +3006,7 @@ export const backlinks = {
         "Things (3D)": "![[D765C4.png]]"
     },
     "2022-09-14": {
-        "Person E7CFC5": "- Interviewed at: [[2022-09-14]]"
+        "Person E7CFC5": "- Interviewed on [[2022-09-14]]"
     },
     "9C8F45.png": {
         "Search-based Tools for Thought": "![[9C8F45.png]]"
@@ -3183,7 +3190,8 @@ export const backlinks = {
         "Mathematics under The Library of Babel": "## [[2022-11-24]]"
     },
     "2022-11-25": {
-        "Mathematics under The Library of Babel": "## [[2022-11-25]]"
+        "Mathematics under The Library of Babel": "## [[2022-11-25]]",
+        "Person A3BA1A": "- Interviewed on [[2022-11-25]]"
     },
     "2022-11-11": {
         "Dynamic Island on the Web": "## [[2022-11-11]]"

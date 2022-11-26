@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/E7CFC5'
 ---
 
-- Interviewed at: [[2022-09-14]]
+- Interviewed on [[2022-09-14]]
 - Currently studying at Stanford Grad School, prev Scale AI engineer
   - Policy Fairness
   - Federative Learning

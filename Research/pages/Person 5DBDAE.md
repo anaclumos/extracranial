@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/5DBDAE'
 ---
 
-- Interviewed at: [[2022-09-13]]
+- Interviewed on [[2022-09-13]]
 - Currently works at Marvell Semiconductors
 
 **Academia**.

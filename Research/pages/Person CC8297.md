@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/CC8297'
 ---
 
-- Interviewed at: [[2022-09-13]]
+- Interviewed on [[2022-09-13]]
 - Currently works at [[Apple]] as a mechanical engineer.
   - Working on a future portable, preparing launch in 2024.
   - Recently worked on MacBook Pro 2021 models.

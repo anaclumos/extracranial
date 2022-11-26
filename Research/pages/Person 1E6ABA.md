@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/1E6ABA'
 ---
 
-- Interviewed at: [[2022-11-23]]
+- Interviewed on [[2022-11-23]]
 - Currently works at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager.
 
 1E6ABA started with the mission of Teenager Financial Education.
