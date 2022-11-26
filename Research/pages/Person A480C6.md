@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/A480C6'
 ---
 
-- Interviewed at: [[2022-09-08]]
+- Interviewed on [[2022-09-08]]
 - Currently works at [[Apple]], [[Apple]] Silicon Team
 - Studied Electrical Engineering in school
   - Took a lot of science classes

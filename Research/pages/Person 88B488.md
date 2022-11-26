@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/88B488'
 ---
 
-- Interviewed at: [[2022-09-06]]
+- Interviewed on [[2022-09-06]]
 - Currently works at NVIDIA
 - Studied a lot of Electrical Engineering and Computer Science at school
 - Hardware jobs interviews are different from SWE:

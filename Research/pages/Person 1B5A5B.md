@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/1B5A5B'
 ---
 
-- Interviewed at: [[2022-09-06]]
+- Interviewed on [[2022-09-06]]
 - Currently works at Lyft, Identity & Platform Team
 - Majored in CS
 - Researched for two years

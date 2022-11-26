@@ -517,6 +517,7 @@ export const filenames = {
     "Person 392196": "392196",
     "Person 5DBDAE": "5DBDAE",
     "Person 88B488": "88B488",
+    "Person A3BA1A": "A3BA1A",
     "Person A480C6": "A480C6",
     "Person CC8297": "CC8297",
     "Person E7CFC5": "E7CFC5",
@@ -714,5 +715,6 @@ export const filenames = {
     "초상권 vs 저작권": "46AF52",
     "퍼블리시티권": "AB096F",
     "프로젝트 어덕행덕": "6694FB",
+    "한국의 입시와 거짓된 명예": "428E37",
     "한자 타자기": "FCE414"
 }
