@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ec730bcd3aceccd1",
+        "id": "0e9752668f81efbb",
         "type": "tabs",
         "children": [
           {
-            "id": "6b48572eb1e80712",
+            "id": "ff450a867fab73cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/프로젝트 어덕행덕.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/프로젝트 어덕행덕.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/프로젝트 어덕행덕.md"
-              }
+              "state": {}
             }
           },
           {
@@ -131,8 +123,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "6b48572eb1e80712",
+  "active": "ff450a867fab73cd",
   "lastOpenFiles": [
+    "pages/프로젝트 어덕행덕.md",
     "journals/2022-11-25.md",
     "journals/2020-02-12.md",
     "journals/2020-02-13.md",
@@ -141,7 +134,6 @@
     "journals/2020-02-17.md",
     "journals/2020-02-22.md",
     "journals/2020-02-23.md",
-    "journals/2020-02-27.md",
-    "journals/2020-03-07.md"
+    "journals/2020-02-27.md"
   ]
 }
