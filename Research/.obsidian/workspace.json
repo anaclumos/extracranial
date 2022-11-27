@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6d1748e471eae852",
+        "id": "086dcef05bb74cde",
         "type": "tabs",
         "children": [
           {
-            "id": "318d2282d267e374",
+            "id": "5b7bde0beb93fea5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Person 1B5A5B.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Person 1B5A5B.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Person 1B5A5B.md"
-              }
+              "state": {}
             }
           },
           {
@@ -131,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "318d2282d267e374",
+  "active": "5b7bde0beb93fea5",
   "lastOpenFiles": [
+    "pages/Mathematics under The Library of Babel.md",
+    "journals/2022-11-26.md",
+    "pages/Person 1B5A5B.md",
     "pages/Project PEOPLE.md",
     "pages/Person A3BA1A.md",
     "journals/2022-11-25.md",
     "pages/Person E7CFC5.md",
     "journals/2022-11-24.md",
     "pages/Person 1E6ABA.md",
-    "templates/person.md",
-    "pages/한국의 입시와 거짓된 명예.md",
-    "pages/프로젝트 어덕행덕.md",
-    "journals/2020-02-12.md"
+    "templates/person.md"
   ]
 }

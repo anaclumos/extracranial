@@ -396,6 +396,7 @@ export const backlinks = {
         "2022-11-23": "## [[Project]]",
         "2022-11-24": "## [[Project]]",
         "2022-11-25": "## [[Project]]",
+        "2022-11-26": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -456,7 +457,8 @@ export const backlinks = {
         "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-24": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-25": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-25": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-26": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -1163,6 +1165,12 @@ export const backlinks = {
         "2022-10-28": "- [[Reverse Engineering Apple Music API]]",
         "Dynamic Island on the Web": "- [[Reverse Engineering Apple Music API]]"
     },
+    "Mathematics under The Library of Babel": {
+        "2022-11-24": "- [[Mathematics under The Library of Babel]]",
+        "2022-11-25": "- [[Mathematics under The Library of Babel]]",
+        "2022-11-26": "- [[Mathematics under The Library of Babel]]",
+        "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
+    },
     "일본 과학기술 총력전": {
         "2022-08-02": "- [[일본 과학기술 총력전]]",
         "Readings": "- [x] [[일본 과학기술 총력전]]"
@@ -1479,11 +1487,6 @@ export const backlinks = {
     "The Library of Babel": {
         "2022-11-24": "- [[The Library of Babel]]",
         "Information amongst Data": "[[The Library of Babel]] holds all data."
-    },
-    "Mathematics under The Library of Babel": {
-        "2022-11-24": "- [[Mathematics under The Library of Babel]]",
-        "2022-11-25": "- [[Mathematics under The Library of Babel]]",
-        "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
     "Information amongst Data": {
         "2022-11-24": "- [[Information amongst Data]]",
@@ -3192,6 +3195,9 @@ export const backlinks = {
     "2022-11-25": {
         "Mathematics under The Library of Babel": "## [[2022-11-25]]",
         "Person A3BA1A": "- Interviewed on [[2022-11-25]]"
+    },
+    "2022-11-26": {
+        "Mathematics under The Library of Babel": "## [[2022-11-26]]"
     },
     "2022-11-11": {
         "Dynamic Island on the Web": "## [[2022-11-11]]"

@@ -22,10 +22,10 @@ I never expected this project to end up on such a consequential scale. This proj
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   759     24457     5937         0    18520          0
+Markdown                   760     24479     5944         0    18535          0
 SVG                         55        55        0         0       55          0
-TypeScript                  48      6721      146        53     6522        143
-JSON                        35      2093        0         0     2093          0
+TypeScript                  48      6728      146        53     6529        143
+JSON                        35      2085        0         0     2085          0
 CSS                         34      2859      199        30     2630          0
 Python                       6       367       47        29      291         91
 YAML                         6        30        2         0       28          0
@@ -34,13 +34,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                      950     38133     6426      1224    30483        255
+Total                      951     38154     6433      1224    30497        255
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $976,913
+Estimated Cost to Develop (organic) $977,384
 Estimated Schedule Effort (organic) 13.63 months
 Estimated People Required (organic) 6.37
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1694210 bytes, 1.694 megabytes (SI)
+Processed 1713073 bytes, 1.713 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
