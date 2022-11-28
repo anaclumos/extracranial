@@ -392,7 +392,7 @@ export const backlinks = {
         "Coding Tests": "- [ ] [[0232 Implement Queue using Stacks]]: Link"
     },
     "Effective Accelerationism": {
-        "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효과적 가속주의]]"
+        "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]"
     },
     "Project": {
         "2022-10-31": "## [[Project]]",
