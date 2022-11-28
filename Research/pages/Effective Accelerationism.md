@@ -4,7 +4,7 @@ slug: '/D344B2'
 aliases: ['효율적 가속주의']
 ---
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA : pledging 44B to foundation<br/>e/acc : buying twitter</p>&mdash; George Hotz 🐀 (@realGeorgeHotz) <a href="https://twitter.com/realGeorgeHotz/status/1597015538890248192?ref_src=twsrc%5Etfw">November 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA : pledging 44B to foundation<br/>e/acc : buying twitter</p>&mdash; George Hotz 🐀 (@realGeorgeHotz) <a href="https://twitter.com/realGeorgeHotz/status/1597015538890248192?ref_src=twsrc%5Etfw">November 27, 2022</a></blockquote>
 
 - [[Accelerationism]]
 - [Effective Accelerationism — e/acc](https://effectiveaccelerationism.substack.com/p/repost-effective-accelerationism)
@@ -17,7 +17,7 @@ aliases: ['효율적 가속주의']
 
 <blockquote class="twitter-tweet"><p lang="ko" dir="ltr">
 이것이 우리가 우주 문명이 되어 다른 행성으로 생명을 연장함으로써 의식의 빛을 보존해야 하는 이유입니다.
-<a href="https://t.co/UDDP8I1zsS">https://t.co/UDDP8I1zsS</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1011083630301536256?ref_src=twsrc%5Etfw">June 25, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://t.co/UDDP8I1zsS">https://t.co/UDDP8I1zsS</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1011083630301536256?ref_src=twsrc%5Etfw">June 25, 2018</a></blockquote>
 
 2. 기술과 시장의 힘(기술적 자본주의)은 힘과 능력이 더더욱 강해지고 있다.
 3. 이는 멈출 수 없다.
@@ -25,7 +25,7 @@ aliases: ['효율적 가속주의']
 <blockquote class="twitter-tweet"><p lang="ko" dir="ltr">
 저는 이 모든 것에 대해 약간 걱정이 되고, 다른 사람들도 왜 그러는지 이해할 수 있습니다.<br/><br/>
 하지만 기차가 속도를 줄이지 않고 있어요. 당신은 이것을 피하기 위해 경제를 재설계할 수 없습니다. GPU를 없앨 수 없습니다. 모든 문제는 온라인으로 해결해야 합니다.<br/>
-</p>&mdash; bayeslord (@bayeslord) <a href="https://twitter.com/bayeslord/status/1531424790224855040?ref_src=twsrc%5Etfw">May 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>&mdash; bayeslord (@bayeslord) <a href="https://twitter.com/bayeslord/status/1531424790224855040?ref_src=twsrc%5Etfw">May 30, 2022</a></blockquote>
 
 4. 기술적 자본은 우리를 의식의 다음 진화로 인도할 수 있다. 이는 상상할 수 없는 차세대 생명체 (Unthinkable next-generation lifeforms) 및 컴퓨터 상의 의식(Silicon-based awareness)의 창조를 포함한다.
 5. 새로운 형태의 의식은 본질적으로 지각 (Sentience)를 더 다양하고 견고하게 만들 것이다. 우리는 이를 원한다.
@@ -37,9 +37,10 @@ aliases: ['효율적 가속주의']
 
 9. 인간은 그 대리 권한(Agency)을 지금 가지고 있다. 우리는 이 과정에 있는 변곡점의 등장에 영향을 줄 수 있다.
 10. 효율적 가속주의(e/acc)는 이 기술적 자본의 특이점이 등장할 가능성을 최대화하며, 그로 인해 등장하는 지각의 능력을 최대화하길 원하는 사상과 행동의 집합이다.
+
 <blockquote class="twitter-tweet"><p lang="ko" dir="ltr">
 적어도 우리 대화에서는 포스트 인도주의적 각도에 초점을 맞췄습니다. 생명, 지능, 그리고 우리가 아는 모든 메타 유기체를 만든 도형적 최적화 알고리즘이 있을 것입니다. 효율적 가속주의는 이 동적인 다차원 적용의 범위와 규모를 확장하는 것을 목표로 합니다.
-</p>&mdash; Beff Jezos — e/acc (@BasedBeff) <a href="https://twitter.com/BasedBeff/status/1531572688539504641?ref_src=twsrc%5Etfw">May 31, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>&mdash; Beff Jezos — e/acc (@BasedBeff) <a href="https://twitter.com/BasedBeff/status/1531572688539504641?ref_src=twsrc%5Etfw">May 31, 2022</a></blockquote>
 
 ## 효율적 이타주의(Effective Altruism, EA)와의 차이점
 
