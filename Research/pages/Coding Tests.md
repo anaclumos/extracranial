@@ -45,11 +45,11 @@ slug: '/D518B0'
 - [x] [[0053 Maximum Subarray]]
 - [x] [[0235 LCA of a Binary Search Tree]]
 - [x] [[0110 Balanced Binary Tree]]
-- [ ] [[0141 Linked List Cycle]]
+- [x] [[0141 Linked List Cycle]]
 
 ## Stage 2
 
-- [ ] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
+- [ ] [[0232 Implement Queue using Stacks]]: [Link](https://leetcode.com/problems/implement-queue-using-stacks)
 - [ ] [First Bad Version](https://leetcode.com/problems/first-bad-version)
 - [ ] [Ransom Note](https://leetcode.com/problems/ransom-note)
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
