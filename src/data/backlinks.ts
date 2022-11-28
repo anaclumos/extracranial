@@ -103,6 +103,7 @@ export const backlinks = {
         "2022-10-23": "## [[Coding Tests]]",
         "2022-10-24": "## [[Coding Tests]]",
         "2022-11-21": "## [[Coding Tests]]",
+        "2022-11-28": "- [[Coding Tests]]: [[0232 Implement Queue using Stacks]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "Real Exams": {
@@ -134,7 +135,7 @@ export const backlinks = {
     },
     "Metaverse": {
         "2022-05-31": "- Kakao announced [[Metaverse]] Remote Work Policy.",
-        "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can actually be attained within years with Prompt Engineering.",
+        "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can be attained within years with Prompt Engineering.",
         "Spacial Cognition": "- Very important for [[Metaverse]]"
     },
     "Code Quality for Game Programming": {
@@ -365,14 +366,33 @@ export const backlinks = {
     "iOS Style Toggle in CSS": {
         "2022-10-12": "  - [x] Archived [[iOS Style Toggle in CSS]]"
     },
-    "Text-based Presentations": {
-        "2022-11-08": "- [[Text-based Presentations]]"
+    "Matt Rickard": {
+        "2022-07-05": "- [[Matt Rickard]]",
+        "2022-09-18": "- [[Matt Rickard]]",
+        "2022-09-20": "- [[Matt Rickard]]",
+        "2022-09-25": "- [[Matt Rickard]]",
+        "2022-10-23": "- [[Matt Rickard]]",
+        "2022-10-29": "- [[Matt Rickard]]: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
+        "2022-11-16": "- Protocol Wars: [[Matt Rickard]]",
+        "2022-11-28": "- [[Matt Rickard]]: [[The Demise of Chatbots in 2017]], [[Generative Databases]]",
+        "Decoy Effect": "## [[Matt Rickard]]",
+        "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
+        "eBPF": "- [[Matt Rickard]]"
     },
-    "Decoy Effect": {
-        "2022-11-08": "- [[Decoy Effect]]"
+    "The Demise of Chatbots in 2017": {
+        "2022-11-28": "- Matt Rickard: [[The Demise of Chatbots in 2017]], [[Generative Databases]]",
+        "Generative AI": "Or would they make a similar trajectory like [[The Demise of Chatbots in 2017]]?",
+        "Matt Rickard": "- [[The Demise of Chatbots in 2017]]"
     },
-    "B5F9BB.png": {
-        "2022-11-08": "![[B5F9BB.png]]"
+    "Generative Databases": {
+        "2022-11-28": "- Matt Rickard: The Demise of Chatbots in 2017, [[Generative Databases]]"
+    },
+    "0232 Implement Queue using Stacks": {
+        "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",
+        "Coding Tests": "- [ ] [[0232 Implement Queue using Stacks]]: Link"
+    },
+    "Effective Accelerationism": {
+        "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효과적 가속주의]]"
     },
     "Project": {
         "2022-10-31": "## [[Project]]",
@@ -398,6 +418,7 @@ export const backlinks = {
         "2022-11-25": "## [[Project]]",
         "2022-11-26": "## [[Project]]",
         "2022-11-27": "## [[Project]]",
+        "2022-11-28": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Alter": "- Someday [[Project]]",
@@ -459,8 +480,18 @@ export const backlinks = {
         "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-24": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-25": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-26": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-27": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-26": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-27": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+    },
+    "Text-based Presentations": {
+        "2022-11-08": "- [[Text-based Presentations]]"
+    },
+    "Decoy Effect": {
+        "2022-11-08": "- [[Decoy Effect]]"
+    },
+    "B5F9BB.png": {
+        "2022-11-08": "![[B5F9BB.png]]"
     },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
@@ -538,22 +569,9 @@ export const backlinks = {
         "2022-11-20": "## [[Hacker News|HN]]",
         "2022-11-21": "## [[Hacker News|HN]]",
         "2022-11-22": "## [[Hacker News|HN]]",
-        "2022-11-27": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
-    },
-    "Matt Rickard": {
-        "2022-07-05": "- [[Matt Rickard]]",
-        "2022-09-18": "- [[Matt Rickard]]",
-        "2022-09-20": "- [[Matt Rickard]]",
-        "2022-09-25": "- [[Matt Rickard]]",
-        "2022-10-23": "- [[Matt Rickard]]",
-        "2022-10-29": "- [[Matt Rickard]]: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
-        "2022-11-16": "- Protocol Wars: [[Matt Rickard]]",
-        "Decoy Effect": "## [[Matt Rickard]]",
-        "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
-        "eBPF": "- [[Matt Rickard]]"
     },
     "AIs.txt": {
         "2022-10-21": "- [[AIs.txt]]",
@@ -674,7 +692,7 @@ export const backlinks = {
     },
     "0141 Linked List Cycle": {
         "2022-10-23": "- [[0141 Linked List Cycle]]",
-        "Coding Tests": "- [ ] [[0141 Linked List Cycle]]"
+        "Coding Tests": "- [x] [[0141 Linked List Cycle]]"
     },
     "Shortcuts": {
         "2022-11-19": "  - [[Shortcuts]]"
@@ -923,6 +941,7 @@ export const backlinks = {
     "Prompt Engineering": {
         "2022-09-03": "- [[Prompt Engineering]]",
         "2022-09-30": "- Human Motion Diffusion Model [[Prompt Engineering]]",
+        "Generative AI": "Instead of guessing the correct answer, AI creates something from [[Prompt Engineering]].",
         "Metaverse": "... to my mind that Metaverse can be attained within years with [[Prompt Engineering]].",
         "Obsidian Ava": "- [[Prompt Engineering]]",
         "Screenshot as an API": "...  - (encoder) diffusion-based models like Stable Diffusion and DALL-E (text-to-image) [[Prompt Engineering]]",
@@ -2577,6 +2596,12 @@ export const backlinks = {
     "Extracting string in Android": {
         "Android": "- [[Extracting string in Android]]"
     },
+    "2022-11-28": {
+        "0232 Implement Queue using Stacks": "Solved at: [[2022-11-28]]"
+    },
+    "3A6F7A.png": {
+        "0232 Implement Queue using Stacks": "![[3A6F7A.png]]"
+    },
     "2022-08-30": {
         "0215 Kth Largest Element in an Array": "Solved at: [[2022-08-30]]",
         "1046 Last Stone Weight": "Solved at: [[2022-08-30]]"
@@ -2656,6 +2681,10 @@ export const backlinks = {
     },
     "F8D9BD.png": {
         "Visual-based Tools for Thought": "![[F8D9BD.png]]"
+    },
+    "Generative AI": {
+        "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
+        "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value ..."
     },
     "C1FA76.png": {
         "Jumpsite": "![[C1FA76.png]]",
@@ -2994,6 +3023,9 @@ export const backlinks = {
     },
     "2021-02-26": {
         "프로젝트 어덕행덕": "- [[2021-02-26]]"
+    },
+    "Accelerationism": {
+        "Effective Accelerationism": "- [[Accelerationism]]"
     },
     "42FE5D.png": {
         "洪民憙雜記": "![[42FE5D.png]]"
@@ -3345,6 +3377,12 @@ export const backlinks = {
     },
     "fiercely overpriced": {
         "Jetski": "- [[fiercely overpriced]]: time limit for recording. watermarks?"
+    },
+    "generative AI": {
+        "The Demise of Chatbots in 2017": "... making the same mistakes as in 2016 in the era of [[generative AI]]. Some companies are solving for distribution using someone else's proprietary model ..."
+    },
+    "FED5B0.png": {
+        "The Demise of Chatbots in 2017": "![[FED5B0.png]]"
     },
     "Height": {
         "Linear": "- An issue tracking service, like [[Height]], or [[Jira]]"

@@ -8,5 +8,5 @@ slug: '/6246E7'
 - [4.2 Gigabytes, or: How to Draw Anything - ⌨️🤷🏻‍♂️📷](https://andys.page/posts/how-to-draw/)
 - [DreamFusion: Text-to-3D using 2D Diffusion](https://dreamfusion3d.github.io/)
 - [Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/)
-- It has now come to my mind that [[Metaverse]] can actually be attained within years with Prompt Engineering.
+- It has now come to my mind that [[Metaverse]] can be attained within years with Prompt Engineering.
 - [[Personal Training Corpus]]
