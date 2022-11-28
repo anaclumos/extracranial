@@ -11,11 +11,30 @@
             "id": "9865f5f5e66b053b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-28.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7955ffe62843be73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Effective Accelerationism.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lang=\"ko\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Effective Accelerationism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Effective Accelerationism.md"
+              }
             }
           },
           {
@@ -123,17 +146,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "9865f5f5e66b053b",
+  "active": "7955ffe62843be73",
   "lastOpenFiles": [
     "journals/2022-11-28.md",
-    "pages/Matt Rickard.md",
-    "pages/The Demise of Chatbots in 2017.md",
-    "journals/2022-11-27.md",
-    "journals/2022-11-26.md",
-    "pages/Mathematics under The Library of Babel.md",
-    "pages/Person 1B5A5B.md",
-    "pages/Project PEOPLE.md",
-    "pages/Person A3BA1A.md",
-    "journals/2022-11-25.md"
+    "pages/Effective Accelerationism.md",
+    "pages/Accelerationism.md",
+    "pages/이타적 가속주의.md",
+    "journals/2022-10-16.md",
+    "pages/0232 Implement Queue using Stacks.md",
+    "pages/Coding Tests.md",
+    "pages/0020 Valid Parentheses.md",
+    "pages/0215 Kth Largest Element in an Array.md",
+    "pages/0141 Linked List Cycle.md"
   ]
 }
