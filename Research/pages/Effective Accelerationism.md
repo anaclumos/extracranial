@@ -4,7 +4,7 @@ slug: '/D344B2'
 aliases: ['효과적 가속주의']
 ---
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA : pledging 44B to foundation<br>e/acc : buying twitter</p>&mdash; George Hotz 🐀 (@realGeorgeHotz) <a href="https://twitter.com/realGeorgeHotz/status/1597015538890248192?ref_src=twsrc%5Etfw">November 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA : pledging 44B to foundation<br/>e/acc : buying twitter</p>&mdash; George Hotz 🐀 (@realGeorgeHotz) <a href="https://twitter.com/realGeorgeHotz/status/1597015538890248192?ref_src=twsrc%5Etfw">November 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 - [[Accelerationism]]
 - [Effective Accelerationism — e/acc](https://effectiveaccelerationism.substack.com/p/repost-effective-accelerationism)
