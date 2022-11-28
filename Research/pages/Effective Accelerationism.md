@@ -36,7 +36,7 @@ aliases: ['효율적 가속주의']
 > **우리는 뭔가를 해야만 한다**. 가속주의가 답한다: **이제서야? 이제라도 시작해야하지 않을까?**
 
 9. 인간은 그 대리 권한(Agency)을 지금 가지고 있다. 우리는 이 과정에 있는 변곡점의 등장에 영향을 줄 수 있다.
-10. 이타적 가속주의(Effective Accelerationism, **e/acc,**)는 이 기술적 자본의 특이점이 등장할 가능성을 최대화하며, 그로 인해 등장하는 지각의 능력을 최대화하길 원하는 사상과 행동의 집합이다.
+10. 효율적 가속주의(e/acc)는 이 기술적 자본의 특이점이 등장할 가능성을 최대화하며, 그로 인해 등장하는 지각의 능력을 최대화하길 원하는 사상과 행동의 집합이다.
 <blockquote class="twitter-tweet"><p lang="ko" dir="ltr">
 적어도 우리 대화에서는 포스트 인도주의적 각도에 초점을 맞췄습니다. 생명, 지능, 그리고 우리가 아는 모든 메타 유기체를 만든 도형적 최적화 알고리즘이 있을 것입니다. 효율적 가속주의는 이 동적인 다차원 적용의 범위와 규모를 확장하는 것을 목표로 합니다.
 </p>&mdash; Beff Jezos — e/acc (@BasedBeff) <a href="https://twitter.com/BasedBeff/status/1531572688539504641?ref_src=twsrc%5Etfw">May 31, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
