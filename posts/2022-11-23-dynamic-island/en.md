@@ -98,7 +98,7 @@ I also open-sourced my [research notes](/r/B21605) for this project.
 I went with the most familiar choice for the framework: Next.js and Tailwind.
 However, the animation troubled me.
 I have never dealt with anything more complicated than `ease-in-ease-out` CSS animations.
-I learned about a production-ready motion library named [Framer Motion](https://www.framer.com/developers/) and opted in for it.
+I learned about a production-ready motion library named [Framer Motion](https://www.framer.com/developers/) and opted for it.
 
 <figure>
 
@@ -117,7 +117,7 @@ We first want to understand why Apple's animations look different from the other
 We can classify animations into two big categories.
 (At least [Apple classifies theirs into these two categories in their platform.](https://developer.apple.com/documentation/swiftui/animation))
 
-**Parametric Curve**. Given a start and an endpoint, place a few control points and interpolate the curve in between using mathematical formulas. Depending on the type of interpolation formula, it can be a linear curve, polynomial curve, spline curve, and so on. The Bézier curve that many developers often use falls under this category.
+**Parametric Curve**. Given a start and an endpoint, place a few control points and interpolate the curve in between using mathematical formulas. Depending on the type of interpolation formula, it can be a linear curve, polynomial curve, spline curve, etc. The Bézier curve that many developers often use falls under this category.
 
 **Spring Curve**. Based on Newtonian dynamics (Hooke's law, the law that governs a spring's physical motion), we calculate the physical trajectory using stiffness and dampening. [Learn More: Maxime Heckel](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/)
 
@@ -140,9 +140,9 @@ I had to study the different behaviors of the Dynamic Island with [Apple's offic
 The Dynamic Island can be any of the following forms:
 
 <DisplayFlex>
-![**Minimal**. The widget takes one side of the Dynamic Island when two or more background activities are ongoing.](2059F2.png)
-![**Compact**: The standard form, where the widget takes both sides of the Dynamic Island when there is one ongoing background activity.](421DC3.png)
-![**Expanded**: The biggest size of the the Dynamic Island, shown when the user long-presses on the Dynamic Island. It cannot display content in the red area.](D8C987.png)
+![Minimal. The widget takes one side of the Dynamic Island when two or more background activities are ongoing.](2059F2.png)
+![Compact: The standard form, where the widget takes both sides of the Dynamic Island when there is one ongoing background activity.](421DC3.png)
+![Expanded: The biggest size of the the Dynamic Island, shown when the user long-presses on the Dynamic Island. It cannot display content in the red area.](D8C987.png)
 </DisplayFlex>
 
 Furthermore, I found the following image on the Web.
@@ -312,7 +312,7 @@ First, I mimicked the specs of MusicKit on the Web, creating a website.
 
 <DisplayFlex>
 
-![This website will do nothing else than call the authorization process.](B7D25C.png)
+![This website will do nothing else than calling the authorization process.](B7D25C.png)
 
 ![It will show the Apple Music access grant page like this.](4BEEDB.png)
 
