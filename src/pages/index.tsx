@@ -38,6 +38,36 @@ const HeroText = () => {
       <Head>
         <title>{siteConfig.title}</title>
         <meta
+          property="og:image"
+          content="img/ogimage.png"
+        />
+        <meta
+          property="twitter:image"
+          content="img/ogimage.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="twitter:card"
+          content="img/ogimage.png"
+        />
+        <meta
+          property="twitter:site"
+          content="@anaclumos"
+        />
+        <meta
+          property="twitter:creator"
+          content="@anaclumos"
+        />
+        <meta
+          property="twitter:title"
+          content={siteConfig.title}
+        />
+        <meta
+          property="twitter:description"
+          content={siteConfig.tagline}
+        />
+        <meta
           name="description"
           content={siteConfig.tagline}
         />
@@ -48,10 +78,6 @@ const HeroText = () => {
         <meta
           property="og:description"
           content={siteConfig.tagline}
-        />
-        <meta
-          property="og:image"
-          content="img/ogimage.png"
         />
         <link rel="icon" href="img/favicon.svg" />
         <link rel="icon" href="img/favicon.ico" />
