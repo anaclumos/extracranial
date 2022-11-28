@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "086dcef05bb74cde",
+        "id": "af0b392baf01d6ee",
         "type": "tabs",
         "children": [
           {
-            "id": "5b7bde0beb93fea5",
+            "id": "9865f5f5e66b053b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Mathematics under The Library of Babel.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Mathematics under The Library of Babel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Mathematics under The Library of Babel.md"
-              }
+              "state": {}
             }
           },
           {
@@ -131,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5b7bde0beb93fea5",
+  "active": "9865f5f5e66b053b",
   "lastOpenFiles": [
-    "journals/2022-11-26.md",
+    "journals/2022-11-28.md",
+    "pages/Matt Rickard.md",
+    "pages/The Demise of Chatbots in 2017.md",
     "journals/2022-11-27.md",
+    "journals/2022-11-26.md",
     "pages/Mathematics under The Library of Babel.md",
     "pages/Person 1B5A5B.md",
     "pages/Project PEOPLE.md",
     "pages/Person A3BA1A.md",
-    "journals/2022-11-25.md",
-    "pages/Person E7CFC5.md",
-    "journals/2022-11-24.md",
-    "pages/Person 1E6ABA.md"
+    "journals/2022-11-25.md"
   ]
 }
