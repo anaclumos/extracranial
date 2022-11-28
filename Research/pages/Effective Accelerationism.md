@@ -6,6 +6,8 @@ aliases: ['효율적 가속주의']
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA : pledging 44B to foundation<br/>e/acc : buying twitter</p>&mdash; George Hotz 🐀 (@realGeorgeHotz) <a href="https://twitter.com/realGeorgeHotz/status/1597015538890248192?ref_src=twsrc%5Etfw">November 27, 2022</a></blockquote>
 
+> 오직 가지고 싶은 것은 드높은 문화의 힘이다 — 백범 김구
+
 - [[Accelerationism]]
 - [Effective Accelerationism — e/acc](https://effectiveaccelerationism.substack.com/p/repost-effective-accelerationism)
 
