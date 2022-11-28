@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "408e734f1d43ed02",
+        "id": "ffdbe650a8e1328b",
         "type": "tabs",
         "children": [
           {
-            "id": "4500e710c8be8d2c",
+            "id": "69c0f91241828189",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Effective Accelerationism.md",
+                "file": "journals/2022-11-28.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4a0e62dddcbfe96c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Effective Accelerationism.md",
+                "file": "pages/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Effective Accelerationism.md"
+                "file": "pages/Git.md"
               }
             }
           },
@@ -132,17 +146,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "4500e710c8be8d2c",
+  "active": "4a0e62dddcbfe96c",
   "lastOpenFiles": [
     "journals/2022-11-28.md",
+    "pages/FFMpeg.md",
+    "pages/Web3.md",
+    "pages/SwiftUI.md",
     "pages/Effective Accelerationism.md",
     "pages/Accelerationism.md",
     "pages/이타적 가속주의.md",
     "journals/2022-10-16.md",
     "pages/0232 Implement Queue using Stacks.md",
-    "pages/Coding Tests.md",
-    "pages/0020 Valid Parentheses.md",
-    "pages/0215 Kth Largest Element in an Array.md",
-    "pages/0141 Linked List Cycle.md"
+    "pages/Coding Tests.md"
   ]
 }

@@ -394,6 +394,68 @@ export const backlinks = {
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]"
     },
+    "Hacker News": {
+        "2022-06-21": "## Today's [[Hacker News]]",
+        "2022-06-22": "## Today's [[Hacker News]]",
+        "2022-07-05": "## Today's [[Hacker News]]",
+        "2022-07-09": "... wikilinks to Markdown links. For example, this is a wikilink to [[Hacker News]].",
+        "2022-07-18": "## Today's [[Hacker News]]",
+        "2022-07-20": "## Today's [[Hacker News]]",
+        "2022-07-26": "## Today's [[Hacker News]]",
+        "2022-08-01": "## Today's [[Hacker News]]",
+        "2022-09-05": "## Today's [[Hacker News]]",
+        "2022-09-09": "## Today's [[Hacker News]]",
+        "2022-09-10": "## Today's [[Hacker News]]",
+        "2022-09-29": "## Today's [[Hacker News]]",
+        "2022-09-30": "## Today's [[Hacker News]]",
+        "2022-10-10": "## Today's [[Hacker News]]",
+        "2022-10-13": "## [[Hacker News|HN]]",
+        "2022-10-15": "## [[Hacker News|HN]]",
+        "2022-10-18": "## [[Hacker News|HN]]",
+        "2022-10-19": "## [[Hacker News|HN]]",
+        "2022-10-20": "## [[Hacker News|HN]]",
+        "2022-10-24": "## [[Hacker News|HN]]",
+        "2022-10-27": "## [[Hacker News|HN]]",
+        "2022-11-07": "## [[Hacker News|HN]]",
+        "2022-11-09": "## [[Hacker News|HN]]",
+        "2022-11-12": "## [[Hacker News|HN]]",
+        "2022-11-14": "## [[Hacker News|HN]]",
+        "2022-11-20": "## [[Hacker News|HN]]",
+        "2022-11-21": "## [[Hacker News|HN]]",
+        "2022-11-22": "## [[Hacker News|HN]]",
+        "2022-11-28": "## [[Hacker News|HN]]",
+        "Better Hacker News": "## [[Hacker News]] need some improvements",
+        "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
+        "Jumpsite": "## [[Hacker News]]"
+    },
+    "SwiftUI": {
+        "2022-08-04": "### Explored [[SwiftUI]].",
+        "2022-11-28": "- [[SwiftUI]]: SwiftUI is convenient, but slow — Alin Panaitiu",
+        "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon (CPU)]]",
+        "CELLO (Product)": "- [[SwiftUI]]",
+        "Cube": "- [[SwiftUI]]",
+        "ULLO": "- PoC of [[SwiftUI]] Photo Widget App"
+    },
+    "Web3": {
+        "2022-11-09": "- [[Web3]]",
+        "2022-11-12": "- You Can Forget About Crypto Now - The Atlantic: [[Web3]]",
+        "2022-11-22": "- [[Web3]]",
+        "2022-11-28": "- [[Web3]]",
+        "Classic Blogs": "- Mirror: Medium on [[Web3]]."
+    },
+    "FFMpeg": {
+        "2022-11-21": "- [[FFMpeg]]",
+        "2022-11-28": "- [[FFMpeg]]: FFmpeg - Ultimate Guide | IMG.LY Blog",
+        "FFMpeg for iPad": "- There is no [[FFMpeg]] equivalent for iPads!"
+    },
+    "Git": {
+        "2022-11-28": "- [[Git]]: Git Notes: git's coolest, most unloved­ feature - Tyler Cipriani",
+        "How to Build Software like an SRE": "- use [[Git]]",
+        "Techs Actually Simple": "- Yet [[Git]]'s object model is pretty simple - content-addressed blobs (file-like), trees (folder-like), ...",
+        "UUIDs are Awesome": "... even if a hash collision occurs, all records remain in the [[Git]] history, so we don't need any collision checks.",
+        "Vercel": "... Vercel's architecture is built around Jamstack, and deployments are handled through [[Git]] repositories. Vercel",
+        "Visual Studio Code": "... debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [[Git]]. Users can change the theme, keyboard shortcuts, preferences, and install extensions ..."
+    },
     "Project": {
         "2022-10-31": "## [[Project]]",
         "2022-11-03": "## [[Project]]",
@@ -540,39 +602,6 @@ export const backlinks = {
     "Tesla Release Models": {
         "2022-09-06": "- [[Tesla Release Models]]"
     },
-    "Hacker News": {
-        "2022-06-21": "## Today's [[Hacker News]]",
-        "2022-06-22": "## Today's [[Hacker News]]",
-        "2022-07-05": "## Today's [[Hacker News]]",
-        "2022-07-09": "... wikilinks to Markdown links. For example, this is a wikilink to [[Hacker News]].",
-        "2022-07-18": "## Today's [[Hacker News]]",
-        "2022-07-20": "## Today's [[Hacker News]]",
-        "2022-07-26": "## Today's [[Hacker News]]",
-        "2022-08-01": "## Today's [[Hacker News]]",
-        "2022-09-05": "## Today's [[Hacker News]]",
-        "2022-09-09": "## Today's [[Hacker News]]",
-        "2022-09-10": "## Today's [[Hacker News]]",
-        "2022-09-29": "## Today's [[Hacker News]]",
-        "2022-09-30": "## Today's [[Hacker News]]",
-        "2022-10-10": "## Today's [[Hacker News]]",
-        "2022-10-13": "## [[Hacker News|HN]]",
-        "2022-10-15": "## [[Hacker News|HN]]",
-        "2022-10-18": "## [[Hacker News|HN]]",
-        "2022-10-19": "## [[Hacker News|HN]]",
-        "2022-10-20": "## [[Hacker News|HN]]",
-        "2022-10-24": "## [[Hacker News|HN]]",
-        "2022-10-27": "## [[Hacker News|HN]]",
-        "2022-11-07": "## [[Hacker News|HN]]",
-        "2022-11-09": "## [[Hacker News|HN]]",
-        "2022-11-12": "## [[Hacker News|HN]]",
-        "2022-11-14": "## [[Hacker News|HN]]",
-        "2022-11-20": "## [[Hacker News|HN]]",
-        "2022-11-21": "## [[Hacker News|HN]]",
-        "2022-11-22": "## [[Hacker News|HN]]",
-        "Better Hacker News": "## [[Hacker News]] need some improvements",
-        "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
-        "Jumpsite": "## [[Hacker News]]"
-    },
     "AIs.txt": {
         "2022-10-21": "- [[AIs.txt]]",
         "2022-10-22": "- [[AIs.txt]]",
@@ -599,12 +628,6 @@ export const backlinks = {
     },
     "Higher-Level Languages and Their Speeds": {
         "2022-11-09": "- [[Higher-Level Languages and Their Speeds]]"
-    },
-    "Web3": {
-        "2022-11-09": "- [[Web3]]",
-        "2022-11-12": "- You Can Forget About Crypto Now - The Atlantic: [[Web3]]",
-        "2022-11-22": "- [[Web3]]",
-        "Classic Blogs": "- Mirror: Medium on [[Web3]]."
     },
     "Pragmatic Engineer": {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]",
@@ -1652,13 +1675,6 @@ export const backlinks = {
     "9DAC5E.png": {
         "2022-08-04": "![[9DAC5E.png]]"
     },
-    "SwiftUI": {
-        "2022-08-04": "### Explored [[SwiftUI]].",
-        "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon (CPU)]]",
-        "CELLO (Product)": "- [[SwiftUI]]",
-        "Cube": "- [[SwiftUI]]",
-        "ULLO": "- PoC of [[SwiftUI]] Photo Widget App"
-    },
     "17D859.png": {
         "2022-08-04": "![[17D859.png]]"
     },
@@ -1700,10 +1716,6 @@ export const backlinks = {
     },
     "UBI for Scholars": {
         "2022-07-18": "- [[UBI for Scholars]]"
-    },
-    "FFMpeg": {
-        "2022-11-21": "- [[FFMpeg]]",
-        "FFMpeg for iPad": "- There is no [[FFMpeg]] equivalent for iPads!"
     },
     "Magician": {
         "2022-11-21": "- [[Magician]]: I thought they would generate user interface designs akin to Tailwind ..."
@@ -2422,13 +2434,6 @@ export const backlinks = {
         "Backlinking for Aldehyde": "- Links to This Note feature is complete on [[2022-10-17]].",
         "Better Obsidian": "- Functional Templating (Done on [[2022-10-17]])",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Reply on [[2022-10-17]]"
-    },
-    "Git": {
-        "How to Build Software like an SRE": "- use [[Git]]",
-        "Techs Actually Simple": "- Yet [[Git]]'s object model is pretty simple - content-addressed blobs (file-like), trees (folder-like), ...",
-        "UUIDs are Awesome": "... even if a hash collision occurs, all records remain in the [[Git]] history, so we don't need any collision checks.",
-        "Vercel": "... Vercel's architecture is built around Jamstack, and deployments are handled through [[Git]] repositories. Vercel",
-        "Visual Studio Code": "... debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [[Git]]. Users can change the theme, keyboard shortcuts, preferences, and install extensions ..."
     },
     "git": {
         "Techs Actually Simple": "- Some `[[git]]` commands are still just shell scripts under the hood"

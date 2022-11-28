@@ -5,12 +5,17 @@ slug: '/451E1C'
 
 ## Articles
 
+### [The entire crypto ecosystem is a ponzi](https://www.coppolacomment.com/2022/11/the-entire-crypto-ecosystem-is-ponzi.html)
+
+- The cryptosystem need to persuade more and more people to part with their savings to maintain the Ponzi making false promises and mis selling endemic
+- Nor has a swathe of high-profile failures, culminating in the recent collapse of Sam Bankman-Fried's empire, in any way deterred the survivors. Indeed it makes it even more imperative that they attract new deposits. If they don't, the whole thing will implode
+
 ### [Let crypto burn | Financial Times](https://www.ft.com/content/ac058ede-80cb-4aa6-8394-941443eec7e3)
 
 - Until very recently, FTX was a leading exchange and was widely touted as a guiding light in an industry rife with charlatans.
-- However, FTX intentionally chose to locate in a jurisdiction beyond the legal and regulatory purview of those nations with the largest financial systems
+- However, FTX intentionally chose to locate in a jurisdiction beyond the legal and regulatory purview of those nations with the most significant financial systems
 - So, the big question is whether authorities ought to create a new regulatory and supervisory framework that protects property rights and enforces the principles of safety and soundness
-- Ironically, attempts to create a separate structure for regulating and supervising crypto will just make the financial system less, not more, safe - Rather than creating a new legal and regulatory framework that legitimizes crypto, we should let it burn.
+- Ironically, attempts to create a separate structure for regulating and supervising crypto will make the financial system less, not more, safe - Rather than creating a new legal and regulatory framework that legitimizes crypto, we should let it burn.
 
 ### [You Can Forget About Crypto Now - The Atlantic](https://www.theatlantic.com/technology/archive/2022/11/sam-bankman-fried-bankruptcy-crypto-ftx/672104/)
 
@@ -32,5 +37,5 @@ slug: '/451E1C'
 - when an entire industry emerges and begins to sell this idea to the general public that a better web is only possible through a technology that shows little indication of being up to the task? When it preys on people’s hopes for a future of a better web and their fears about the effects of the current web on themselves, their children, and society to convince them to buy in—literally—to projects that may never even exist. When it sidesteps regulations on early-stage investing through token offerings and convinces ordinary people that their only way to financial stability is to bet their savings on technologies that they don’t understand because “this is the future
 - So far, the primary successes of web3 have been in shiny marketing, selling people the opportunity to invest in vaporware
 - There will be a web3. The web has been evolving ever since its inception, and there is no doubt in my mind that we are overdue for a fundamental shift. Will it be blockchains and crypto? Venture capitalists and blockchain startup founders hope that you think so
-- But when presented with lofty promises, we must remember distinguishing steam-powered computers from genuinely revolutionary ones.
+- But when presented with lofty promises, we must remember to distinguish steam-powered computers from genuinely revolutionary ones.
 - Dig deep. Ask the hard questions. Criticize the flaws. And cut through the bullshit
