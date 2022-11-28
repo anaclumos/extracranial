@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "10dc19572b8c81d8",
+        "id": "408e734f1d43ed02",
         "type": "tabs",
         "children": [
           {
-            "id": "abb605e072bd4a1e",
+            "id": "4500e710c8be8d2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Effective Accelerationism.md",
+                "file": "pages/Accelerationism.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Effective Accelerationism.md",
+                "file": "pages/Accelerationism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Effective Accelerationism.md"
+                "file": "pages/Accelerationism.md"
               }
             }
           },
@@ -132,10 +132,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "abb605e072bd4a1e",
+  "active": "4500e710c8be8d2c",
   "lastOpenFiles": [
-    "journals/2022-11-28.md",
     "pages/Effective Accelerationism.md",
+    "journals/2022-11-28.md",
     "pages/Accelerationism.md",
     "pages/이타적 가속주의.md",
     "journals/2022-10-16.md",
