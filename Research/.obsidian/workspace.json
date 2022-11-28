@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Accelerationism.md",
-                "mode": "source",
+                "file": "pages/Effective Accelerationism.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Accelerationism.md",
+                "file": "pages/Effective Accelerationism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Accelerationism.md"
+                "file": "pages/Effective Accelerationism.md"
               }
             }
           },
@@ -134,8 +134,8 @@
   },
   "active": "4500e710c8be8d2c",
   "lastOpenFiles": [
-    "pages/Effective Accelerationism.md",
     "journals/2022-11-28.md",
+    "pages/Effective Accelerationism.md",
     "pages/Accelerationism.md",
     "pages/이타적 가속주의.md",
     "journals/2022-10-16.md",
