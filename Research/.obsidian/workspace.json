@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2ce467a713a26bcf",
+        "id": "9f37dedb540a20aa",
         "type": "tabs",
         "children": [
           {
-            "id": "101d0390ef0ab0c4",
+            "id": "dd37343f10b4f375",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-29.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4d5f1f8293eba6a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
-                "mode": "source",
+                "file": "pages/XUID.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
+                "file": "pages/XUID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Letter to Mr. Matt Rickard on 2022-11-28.md"
+                "file": "pages/XUID.md"
               }
             }
           },
@@ -147,17 +133,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "4d5f1f8293eba6a7",
+  "active": "dd37343f10b4f375",
   "lastOpenFiles": [
-    "pages/Matt Rickard.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
-    "pages/Project Alter.md",
     "journals/2022-11-29.md",
+    "pages/XUID.md",
+    "pages/UUIDs are Awesome.md",
+    "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
+    "pages/Matt Rickard.md",
+    "pages/Project Alter.md",
     "pages/Prompt Engineering.md",
     "pages/JSON.md",
     "pages/Mapping keys to set different input languages on macOS.md",
-    "pages/When TSC suddenly errors with cannot find module.md",
-    "pages/Stable Diffusion.md",
-    "pages/Synthography.md"
+    "pages/When TSC suddenly errors with cannot find module.md"
   ]
 }

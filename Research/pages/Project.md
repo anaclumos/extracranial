@@ -8,15 +8,14 @@ This is a [[Metapage]] for my projects.
 I don't know what to put here yet!
 Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repositories&type=source).
 
-## Actively Ongoing Projects
+## Ongoing Projects
 
-- [[Dynamic Island on the Web]]
-- [[How is WebAssembly cross-platform when Assembly is not]]
-- [[AIs.txt]]
+- [[Project Alter]]
 
 ## [[TODO]]
 
 - [ ] 불가사리 (전설, 에너지)
+- [ ] [[How is WebAssembly cross-platform when Assembly is not]]
 - [ ] Study the thread on [HN](https://news.ycombinator.com/item?id=33151774)
 - [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?
 - [ ] Study [Biden-Harris Administration's National Security Strategy](https://www.whitehouse.gov/wp-content/uploads/2022/10/Biden-Harris-Administrations-National-Security-Strategy-10.2022.pdf)
