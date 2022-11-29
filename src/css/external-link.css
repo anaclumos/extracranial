@@ -331,3 +331,15 @@ article a[href*='kubernetes.dev']::before {
   content: '\00a0';
   mask-image: url('../../static/icons/kubernetes.svg');
 }
+
+article a[href*='openai.com']::before,
+article a[href*='openai.org']::before,
+article a[href*='openai.io']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/openai.svg');
+}
+
+article a[href*='arxiv.org']::before {
+  content: '\00a0';
+  mask-image: url('../../static/icons/arxiv.svg');
+}

@@ -50,7 +50,7 @@ slug: '/B21605'
 ## [[2022-10-20]]
 
 I finally got the knack for how to animate and accelerate things.
-All I need to do now is to pack them with an API-style JSON payload.
+All I need to do now is to pack them with an API-style [[JSON]] payload.
 That way, anyone can put whatever data they want...
 
 ![[E91526.gif]]

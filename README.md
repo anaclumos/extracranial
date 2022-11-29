@@ -22,25 +22,25 @@ I never expected this project to end up on such a consequential scale. This proj
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   769     24736     6017         0    18719          0
-SVG                         55        55        0         0       55          0
-TypeScript                  48      6815      146        53     6616        143
-JSON                        35      2094        0         0     2094          0
-CSS                         34      2860      199        30     2631          0
-Python                       6       367       47        29      291         91
+Markdown                   774     24911     6061         0    18850          0
+SVG                         57        57        0         0       57          0
+TypeScript                  48      6857      146        53     6658        143
+JSON                        35      2109        0         0     2109          0
+CSS                         34      2872      201        30     2641          0
+Python                       6       383       47        29      307         91
 YAML                         6        30        2         0       28          0
 JavaScript                   2      1157        4      1038      115         21
 Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                      960     38508     6506      1224    30778        255
+Total                      967     38770     6552      1224    30994        255
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $986,842
-Estimated Schedule Effort (organic) 13.68 months
-Estimated People Required (organic) 6.41
+Estimated Cost to Develop (organic) $994,115
+Estimated Schedule Effort (organic) 13.72 months
+Estimated People Required (organic) 6.44
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1733642 bytes, 1.734 megabytes (SI)
+Processed 1757293 bytes, 1.757 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
