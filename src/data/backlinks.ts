@@ -304,7 +304,6 @@ export const backlinks = {
         "2022-10-20": "- [[Dynamic Island on the Web]]",
         "2022-11-10": "### [[Dynamic Island on the Web]]",
         "2022-11-11": "### [[Dynamic Island on the Web]]",
-        "Project": "- [[Dynamic Island on the Web]]",
         "Reverse Engineering Apple Music API": "As a part of [[Dynamic Island on the Web]], I reverse-engineered [[Apple Music API]] to get the undocumented Personal Token."
     },
     "Handwriting Tools for Thoughts": {
@@ -515,7 +514,6 @@ export const backlinks = {
         "The New Era of macOS Applications": "- Someday [[Project]]",
         "Timebelt": "- Someday [[Project]]",
         "TossFace Playground": "- [[Project]] [[Done]]",
-        "UUIDs are Awesome": "- Someday [[Project]]",
         "iiframe": "- Someday [[Project]]",
         "sem.sh": "- Someday [[Project]]",
         "사회과부도": "- Someday [[Project]]",
@@ -614,8 +612,7 @@ export const backlinks = {
         "2022-10-21": "- [[AIs.txt]]",
         "2022-10-22": "- [[AIs.txt]]",
         "2022-10-24": "- [[AIs.txt]]",
-        "GitHub Copilot Investigation": "  - [[AIs.txt]]",
-        "Project": "- [[AIs.txt]]"
+        "GitHub Copilot Investigation": "  - [[AIs.txt]]"
     },
     "Better Aldehyde": {
         "2022-07-12": "- [[Better Aldehyde]]",
@@ -919,7 +916,8 @@ export const backlinks = {
     },
     "Project Alter": {
         "2022-10-03": "- [[Project Alter]]",
-        "2022-11-29": "- [[Project Alter]]"
+        "2022-11-29": "- [[Project Alter]]",
+        "Project": "- [[Project Alter]]"
     },
     "Screenshot as an API": {
         "2022-10-03": "- Moved to [[Screenshot as an API]]",
@@ -1083,6 +1081,14 @@ export const backlinks = {
         "2022-10-13": "  - [x] [[Stories Behind Satori]]",
         "Satori": "- [[Stories Behind Satori]]"
     },
+    "UUIDs are Awesome": {
+        "2022-09-28": "- [[UUIDs are Awesome]]",
+        "2022-11-29": "- [[UUIDs are Awesome]]: [[XUID]]?"
+    },
+    "XUID": {
+        "2022-11-29": "- UUIDs are Awesome: [[XUID]]?",
+        "UUIDs are Awesome": "- [[XUID]]"
+    },
     "Shopify Analyzes CSS Frameworks": {
         "2022-11-29": "- [[Shopify Analyzes CSS Frameworks]]",
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
@@ -1229,9 +1235,6 @@ export const backlinks = {
     "PDF (File Format)": {
         "2022-06-05": "- Convert ACSM (File Format) files to [[PDF (File Format)]]/EPUBs with one command on Linux \\(and macOS very soon\\). This software ...",
         "Screenshot as an API": "    - No need to understand [[PDF (File Format)]] data format"
-    },
-    "UUIDs are Awesome": {
-        "2022-09-28": "- [[UUIDs are Awesome]]"
     },
     "Architectural Decision Records": {
         "2022-11-02": "- [[Architectural Decision Records]]"
@@ -1508,7 +1511,6 @@ export const backlinks = {
         "Separation of Computer Scientists and Computer Technologists": "- [[Someday]] [[Project]]",
         "The New Era of macOS Applications": "- [[Someday]] [[Project]]",
         "Timebelt": "- [[Someday]] [[Project]]",
-        "UUIDs are Awesome": "- [[Someday]] [[Project]]",
         "iiframe": "- [[Someday]] [[Project]]",
         "sem.sh": "- [[Someday]] [[Project]]",
         "사회과부도": "- [[Someday]] [[Project]]",
@@ -1875,7 +1877,7 @@ export const backlinks = {
     },
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
-        "Project": "- [[How is WebAssembly cross-platform when Assembly is not]]"
+        "Project": "- [ ] [[How is WebAssembly cross-platform when Assembly is not]]"
     },
     "Lingua Franca": {
         "2022-09-30": "- [[Lingua Franca]]"
