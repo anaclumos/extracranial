@@ -424,6 +424,7 @@ export const backlinks = {
         "2022-11-21": "## [[Hacker News|HN]]",
         "2022-11-22": "## [[Hacker News|HN]]",
         "2022-11-28": "## [[Hacker News|HN]]",
+        "2022-11-29": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -484,9 +485,9 @@ export const backlinks = {
         "2022-11-26": "## [[Project]]",
         "2022-11-27": "## [[Project]]",
         "2022-11-28": "## [[Project]]",
+        "2022-11-29": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
-        "Alter": "- Someday [[Project]]",
         "Apple Earth": "- Someday [[Project]]",
         "Autosave Everything": "- Someday [[Project]]",
         "Better Aldehyde": "- [[Project]]",
@@ -547,7 +548,8 @@ export const backlinks = {
         "2022-11-25": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-26": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-27": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "Text-based Presentations": {
         "2022-11-08": "- [[Text-based Presentations]]"
@@ -591,7 +593,9 @@ export const backlinks = {
         "2022-07-14": "... more. One wrong info that I found: Uber didn't make Kubernetes. [[Google]] did.",
         "2022-07-21": "### [[Google]], really? Come on.",
         "Kubernetes": "... open-source container orchestration system for automating software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the Cloud Native Computing Foundation now maintains ...",
+        "Letter to Mr. Matt Rickard on 2022-11-28": "... the change of hash collision, to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM.",
         "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
+        "Project Alter": "... the change of hash collision, to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM.",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ...",
         "WorkerDOM": "[[Google]]'s take on providing DOM access to [[Web Worker]] Threads."
     },
@@ -674,6 +678,16 @@ export const backlinks = {
     "Componentizing Views in Android": {
         "2022-09-17": "  - [[Componentizing Views in Android]]",
         "Android": "- [[Componentizing Views in Android]]"
+    },
+    "JSON": {
+        "2022-07-20": "... The client must know what each field indicates to parse a [[JSON]] response. Therefore, the message is not self-describing",
+        "2022-10-17": "... links. After that, the corresponding component will read the indexed backlink [[JSON]] to display it on the client side.",
+        "2022-11-29": "- [[JSON]]",
+        "Dynamic Island on the Web": "... need to do now is to pack them with an API-style [[JSON]] payload.",
+        "Mapping keys to set different input languages on macOS": "- Create a [[JSON]] file like the following here (open any text editor and save ...",
+        "MessagePack (File Format)": "... serialization format. It lets you exchange data among multiple languages like [[JSON]]. But it's faster and smaller. Small integers are encoded into a ...",
+        "glTF": "... A glTF file uses one of two possible file extensions: .gltf ([[JSON]]/ASCII) or .glb (binary). Both .gltf and .glb files may reference external ...",
+        "sem.sh": "- [[JSON]] API"
     },
     "C++": {
         "2022-07-20": "A successor language for [[C++]] requires:",
@@ -902,8 +916,9 @@ export const backlinks = {
         "Supergravity Products": "- (아이디어는 흔하고 그걸 실제로 만드는 사람은 귀하다) [[Ideas are worthless]]",
         "프로젝트 어덕행덕": "어차피 [[Ideas are worthless|아이디어는 가치가 없다]]."
     },
-    "Alter": {
-        "2022-10-03": "- [[Alter]]"
+    "Project Alter": {
+        "2022-10-03": "- [[Project Alter]]",
+        "2022-11-29": "- [[Project Alter]]"
     },
     "Screenshot as an API": {
         "2022-10-03": "- Moved to [[Screenshot as an API]]",
@@ -1051,8 +1066,10 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "... it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?",
         "Intracranial": "  - 👍 [[Apple]]-ish design language",
         "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[Apple]] Music have a market penetration of next to nothing.",
+        "Letter to Mr. Matt Rickard on 2022-11-28": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM.",
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.",
+        "Project Alter": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM.",
         "San Francisco": "- Font by [[Apple]]",
         "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] iOS 16 update.",
         "Swift": "- Programming Language for [[Apple]] platforms",
@@ -1064,6 +1081,22 @@ export const backlinks = {
     "Stories Behind Satori": {
         "2022-10-13": "  - [x] [[Stories Behind Satori]]",
         "Satori": "- [[Stories Behind Satori]]"
+    },
+    "Shopify Analyzes CSS Frameworks": {
+        "2022-11-29": "- [[Shopify Analyzes CSS Frameworks]]",
+        "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
+    },
+    "Tailwind": {
+        "2022-11-29": "- [[Tailwind]]",
+        "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
+        "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
+        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next 프로젝트에 적용"
+    },
+    "Stable Diffusion": {
+        "2022-11-29": "### [[Stable Diffusion]]",
+        "Prompt Engineering": "- [[Stable Diffusion]]",
+        "Screenshot as an API": "  - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]",
+        "Synthography": "- [[Stable Diffusion]]"
     },
     "Small yet Powerful": {
         "2022-10-27": "- [[Small yet Powerful]]"
@@ -1454,7 +1487,6 @@ export const backlinks = {
     },
     "Someday": {
         "2022-09-09": "- [[Someday]]",
-        "Alter": "- [[Someday]] [[Project]]",
         "Apple Earth": "- [[Someday]] [[Project]]",
         "Autosave Everything": "- [[Someday]] [[Project]]",
         "Better Docusaurus": "- [[Someday]] [[Project]]",
@@ -2127,6 +2159,9 @@ export const backlinks = {
         "Newsletter Network": "- [[Alexander Obenauer]] [[SendGrid]]",
         "Reimagining Emails": "## [[Alexander Obenauer]]"
     },
+    "json": {
+        "Migrating Node.js apps from AWS EB to Heroku": "I had to make only minimal changes to app.js and package.[[json]]."
+    },
     "2022-09-25": {
         "0110 Balanced Binary Tree": "Solved at: [[2022-09-25]]",
         "0235 LCA of a Binary Search Tree": "Solved at: [[2022-09-25]]. Took 17m 09s",
@@ -2182,10 +2217,6 @@ export const backlinks = {
         "Satori": "- Font and [[Emojis]] Subsets from Google Fonts and other CDNs",
         "Stories Behind Satori": "The same applies to [[Emojis|emojis]].",
         "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ..."
-    },
-    "Tailwind": {
-        "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
-        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next 프로젝트에 적용"
     },
     "Turing Machine": {
         "How is WebAssembly cross-platform when Assembly is not": "It follows how [[Turing Machine]]s would work in the real world."
@@ -3041,6 +3072,9 @@ export const backlinks = {
     "CE91F0.png": {
         "洪民憙雜記": "![[CE91F0.png]]"
     },
+    "Letter to Mr. Matt Rickard on 2022-11-28": {
+        "Project Alter": "- [[Letter to Mr. Matt Rickard on 2022-11-28]]"
+    },
     "Brunch": {
         "Brunch violates SF terms of use": "- Korean writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as ..."
     },
@@ -3373,6 +3407,9 @@ export const backlinks = {
     },
     "F7ADEB.png": {
         "Transactional Globe": "![[F7ADEB.png]]"
+    },
+    "2022-11-29": {
+        "Letter to Mr. Matt Rickard on 2022-11-28": "## Response on [[2022-11-29]]"
     },
     "Treehouse": {
         "explainpaper.com": "This is insane. [[Treehouse]]"

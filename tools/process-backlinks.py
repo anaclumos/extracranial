@@ -37,12 +37,17 @@ if __name__ == "__main__":
     for md_file in all_md_files:
         filename = md_file.split("/")[-1].replace(".md", "")
         uid = ""
-        with open(md_file, 'r') as f:
+        with open(md_file, "r") as f:
             lines = f.readlines()
         for line in lines:
             if line.startswith("slug: "):
-                uid = line.split("slug: ")[1].strip().replace(
-                    "/", "").replace("'", "").replace('"', "")
+                uid = (
+                    line.split("slug: ")[1]
+                    .strip()
+                    .replace("/", "")
+                    .replace("'", "")
+                    .replace('"', "")
+                )
                 filename_uid_map[filename] = uid
             while "[[" in line and "]]" in line:
                 # remove all markdown links, except wikilinks
@@ -54,43 +59,54 @@ if __name__ == "__main__":
                 line = line.replace("*", "").replace("_", "")
                 # only leave 12 words before and after the first mention
                 words_to_keep = 12
-                before_original = line.split(
-                    "[[" + mentioned_file + "]]")[0]
+                before_original = line.split("[[" + mentioned_file + "]]")[0]
                 before = " ".join(before_original.split(" ")[-words_to_keep:])
                 if before_original != before:
                     before = "... " + before
                 center = mentioned_file
                 after_original = mentioned_file.join(
-                    line.split("[[" + mentioned_file + "]]")[1:])
+                    line.split("[[" + mentioned_file + "]]")[1:]
+                )
                 after = " ".join(after_original.split(" ")[:words_to_keep])
                 if after_original != after:
                     after = after + " ..."
-                first_mentioned_sentence = before + \
-                    "[[" + center + "]]" + after
+                first_mentioned_sentence = before + "[[" + center + "]]" + after
                 "[[" + center + "]]" + after
                 if source not in backlink_map:
                     backlink_map[source] = {}
                 if filename not in backlink_map[source]:
                     backlink_map[source][filename] = first_mentioned_sentence
                     mention_count += 1
-                line = line.replace(
-                    "[[" + mentioned_file + "]]", mentioned_file)
+                line = line.replace("[[" + mentioned_file + "]]", mentioned_file)
 
     # sort backlinks by key
     for key in backlink_map:
         backlink_map[key] = dict(
-            sorted(backlink_map[key].items(), key=lambda item: item[0]))
-    filename_uid_map = dict(
-        sorted(filename_uid_map.items(), key=lambda item: item[0]))
+            sorted(backlink_map[key].items(), key=lambda item: item[0])
+        )
+    filename_uid_map = dict(sorted(filename_uid_map.items(), key=lambda item: item[0]))
 
     import json
+
     with open("./src/data/backlinks.ts", "w") as f:
-        f.write("export const backlinks = " + json.dumps(backlink_map,
-                indent=4, ensure_ascii=False).encode('utf8').decode())
-        print("Wrote " + str(len(backlink_map)) + " files with " +
-              str(mention_count) + " mentions to backlinks.ts.")
+        f.write(
+            "export const backlinks = "
+            + json.dumps(backlink_map, indent=4, ensure_ascii=False)
+            .encode("utf8")
+            .decode()
+        )
+        print(
+            "Wrote "
+            + str(len(backlink_map))
+            + " files with "
+            + str(mention_count)
+            + " mentions to backlinks.ts."
+        )
     with open("./src/data/filenames.ts", "w") as f:
-        f.write("export const filenames = " + json.dumps(filename_uid_map,
-                indent=4, ensure_ascii=False).encode('utf8').decode())
-        print("Wrote " + str(len(filename_uid_map)) +
-              " filenames to filenames.ts.")
+        f.write(
+            "export const filenames = "
+            + json.dumps(filename_uid_map, indent=4, ensure_ascii=False)
+            .encode("utf8")
+            .decode()
+        )
+        print("Wrote " + str(len(filename_uid_map)) + " filenames to filenames.ts.")

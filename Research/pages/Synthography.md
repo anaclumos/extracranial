@@ -5,5 +5,5 @@ slug: '/40A58E'
 
 - Synthesized Images / Photography
 - Needs [[Prompt Engineering]]
-- Stable Diffusion
+- [[Stable Diffusion]]
 - DALL-E 2
