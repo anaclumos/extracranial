@@ -692,6 +692,7 @@ export const filenames = {
     "Wildcard Image Domain on Next.js": "5A03F7",
     "Workbench": "D74DBC",
     "WorkerDOM": "5E71CF",
+    "XUID": "C04815",
     "Xcode Clear Cache": "163AA4",
     "Y Combinator": "A92E53",
     "YCLF 주간 사용자 1000명": "06BDA3",
