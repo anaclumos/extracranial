@@ -12,7 +12,7 @@ slug: '/786F87'
 - Vision Transforms (ViT)
 - [CLIP Interrogator - a Hugging Face Space by pharma](https://huggingface.co/spaces/pharma/CLIP-Interrogator)
 
-### Implementation Suggestion
+### Implementation Suggestion from Mr. [[Matt Rickard]]
 
 - CLIP inference server + Library that wraps an image component (raw `img` or `next/image`)
 

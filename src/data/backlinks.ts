@@ -377,6 +377,7 @@ export const backlinks = {
         "2022-11-28": "- [[Matt Rickard]]: [[The Demise of Chatbots in 2017]], [[Generative Databases]]",
         "Decoy Effect": "## [[Matt Rickard]]",
         "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
+        "Project Alter": "### Implementation Suggestion from Mr. [[Matt Rickard]]",
         "eBPF": "- [[Matt Rickard]]"
     },
     "The Demise of Chatbots in 2017": {
@@ -3407,6 +3408,9 @@ export const backlinks = {
     },
     "F7ADEB.png": {
         "Transactional Globe": "![[F7ADEB.png]]"
+    },
+    "Rickard": {
+        "Letter to Mr. Matt Rickard on 2022-11-28": "Dear Mr. [[Rickard]],"
     },
     "2022-11-29": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "## Response on [[2022-11-29]]"
