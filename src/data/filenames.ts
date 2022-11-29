@@ -497,6 +497,7 @@ export const filenames = {
     "Obsidian Ava": "653103",
     "Off The Record": "9C24C1",
     "Old Fashioned Camera": "C46EC1",
+    "One Word Domains": "BE325F",
     "Open Graph Image as a Service": "2531E5",
     "Opening external links in a new tab by default on Ghost": "0242A0",
     "Optimistic Nihilism": "E0FFE6",

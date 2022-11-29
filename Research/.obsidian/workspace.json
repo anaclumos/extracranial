@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "ffdbe650a8e1328b",
+        "id": "2ce467a713a26bcf",
         "type": "tabs",
         "children": [
           {
-            "id": "69c0f91241828189",
+            "id": "101d0390ef0ab0c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-28.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4a0e62dddcbfe96c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Git.md",
+                "file": "pages/One Word Domains.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Git.md",
+                "file": "pages/One Word Domains.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Git.md"
+                "file": "pages/One Word Domains.md"
               }
             }
           },
@@ -146,13 +132,13 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "4a0e62dddcbfe96c",
+  "active": "101d0390ef0ab0c4",
   "lastOpenFiles": [
     "journals/2022-11-28.md",
+    "pages/Effective Accelerationism.md",
     "pages/FFMpeg.md",
     "pages/Web3.md",
     "pages/SwiftUI.md",
-    "pages/Effective Accelerationism.md",
     "pages/Accelerationism.md",
     "pages/이타적 가속주의.md",
     "journals/2022-10-16.md",
