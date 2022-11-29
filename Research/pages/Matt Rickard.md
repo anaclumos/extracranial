@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/F637CF'
-aliases: ['matt-rickard']
+aliases: ['matt-rickard', 'Rickard']
 ---
 
 - [[Programmable Web]]
