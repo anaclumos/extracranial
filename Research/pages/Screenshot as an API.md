@@ -15,7 +15,7 @@ slug: '/8B4F7C'
     - layout information (object recognition)
     - text ([[OCR]])
     - other metadata (formatting, fonts, etc.)
-  - (encoder) diffusion-based models like Stable Diffusion and DALL-E (text-to-image) [[Prompt Engineering]]
+  - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]
 - What's good:
   - Easier to parse than highly complex layout formats
     - No need to understand [[PDF (File Format)]] data format

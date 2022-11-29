@@ -16,7 +16,7 @@ Few advantages I found:
 1. Money. AWS costs money after its free tier limit. Since some of the students in my school used my web app, I have got some traffic, and AWS started to ask me about ~$10/month. As far as I know, there is no free tier traffic limit on Heroku.
 2. Native HTTPS support. Heroku natively supports HTTPS since every dyno app can use Heroku's domain. AWS EB, on the other hand, does not provide this. You need to configure your web domain and HTTPS Certificate for each web domain. Not valid for casual developers.
 
-I had to make only minimal changes to app.js and package.json.
+I had to make only minimal changes to app.js and package.[[json]].
 
 ### AWS Version
 
