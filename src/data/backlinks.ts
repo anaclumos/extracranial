@@ -456,6 +456,9 @@ export const backlinks = {
         "Vercel": "... Vercel's architecture is built around Jamstack, and deployments are handled through [[Git]] repositories. Vercel",
         "Visual Studio Code": "... debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [[Git]]. Users can change the theme, keyboard shortcuts, preferences, and install extensions ..."
     },
+    "One Word Domains": {
+        "2022-11-28": "- [[One Word Domains]]"
+    },
     "Project": {
         "2022-10-31": "## [[Project]]",
         "2022-11-03": "## [[Project]]",
@@ -3292,6 +3295,9 @@ export const backlinks = {
     },
     "CODE Procedure": {
         "PARA": "- Often used with [[CODE Procedure]]"
+    },
+    "26A675.png": {
+        "One Word Domains": "![[26A675.png]]"
     },
     "2022-10-21": {
         "Curve Fitting for Charts": "## On [[2022-10-21]], with [[Simple Analytics]]"

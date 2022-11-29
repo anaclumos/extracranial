@@ -30,7 +30,7 @@ aliases: ['효율적 가속주의']
 </p>&mdash; bayeslord (@bayeslord) <a href="https://twitter.com/bayeslord/status/1531424790224855040?ref_src=twsrc%5Etfw">May 30, 2022</a></blockquote>
 
 4. 기술적 자본은 우리를 의식의 다음 진화로 인도할 수 있다. 이는 상상할 수 없는 차세대 생명체 (Unthinkable next-generation lifeforms) 및 컴퓨터 상의 의식(Silicon-based awareness)의 창조를 포함한다.
-5. 새로운 형태의 의식은 본질적으로 지각 (Sentience)를 더 다양하고 견고하게 만들 것이다. 우리는 이를 원한다.
+5. 새로운 형태의 의식은 본질적으로 지각(Sentience)을 더 다양하고 견고하게 만들 것이다. 우리는 이를 원한다.
 6. 기술은 수단이다 (Technology is leverage). 기술이 발전함으로써 생각을 가진 모든 생명체를 전 우주에서 멸종시키는 일이 더 쉬워진다. 진보를 멈추는 일은 절대 안전한 일이 아니다.
 7. 사회와 그 안의 개인적 맥락은 빠르게 변화하고 있으며, 더 불안정한 사회와 마음의 병을 낳는다. (비영토화와 재영토화)
 8. 인공지능과 기술적 자본의 초변수(hyper-parameters)를 먼저 통제하는 자는 이 의식의 미래에 강력한 대리 권한(Agency)을 얻을 것이다.
