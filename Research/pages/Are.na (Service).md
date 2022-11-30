@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/3F44BF'
 ---
 
-![[D2D06E.png]]
+![[412774.png]]
 
 - [Are.na](https://www.are.na/)
 
