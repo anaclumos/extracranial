@@ -5,21 +5,25 @@ slug: '/58407C'
 
 Jumpsite Service, or Web Linking Network Service, is a collective term for a [[Social Network Service]] mainly consisting of links to outside content.
 
+## [Panda — The homepage for your favorite websites](https://usepanda.com/)
+
+![[298DC4.png]]
+
 ## [[Hacker News]]
 
-![[AF8C23.png]]
+![[FDAA68.png]]
 
 ## [[Daily Dev]]
 
-![[3F7CB9.png]]
+![[3BFE48.png]]
 
 ## [[Surfit]]
 
-![[C1FA76.png]]
+![[2A5C23.png]]
 
 ## [[Are.na (Service)]]
 
-![[D2D06E.png]]
+![[412774.png]]
 
 ## [[Mood.surf]]
 

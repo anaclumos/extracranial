@@ -1075,7 +1075,8 @@ export const backlinks = {
         "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Jumpsite": {
-        "2022-10-13": "- [x] [[Jumpsite]]"
+        "2022-10-13": "- [x] [[Jumpsite]]",
+        "2022-11-29": "- [[Jumpsite]]"
     },
     "Stories Behind Satori": {
         "2022-10-13": "  - [x] [[Stories Behind Satori]]",
@@ -2728,9 +2729,9 @@ export const backlinks = {
         "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
         "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value ..."
     },
-    "C1FA76.png": {
-        "Jumpsite": "![[C1FA76.png]]",
-        "Surfit": "![[C1FA76.png]]"
+    "2A5C23.png": {
+        "Jumpsite": "![[2A5C23.png]]",
+        "Surfit": "![[2A5C23.png]]"
     },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]"
@@ -2861,16 +2862,19 @@ export const backlinks = {
     "Social Network Service": {
         "Jumpsite": "... or Web Linking Network Service, is a collective term for a [[Social Network Service]] mainly consisting of links to outside content."
     },
-    "AF8C23.png": {
-        "Hacker News": "![[AF8C23.png]]",
-        "Jumpsite": "![[AF8C23.png]]"
+    "298DC4.png": {
+        "Jumpsite": "![[298DC4.png]]"
+    },
+    "FDAA68.png": {
+        "Hacker News": "![[FDAA68.png]]",
+        "Jumpsite": "![[FDAA68.png]]"
     },
     "Daily Dev": {
         "Jumpsite": "## [[Daily Dev]]"
     },
-    "3F7CB9.png": {
-        "Daily Dev": "![[3F7CB9.png]]",
-        "Jumpsite": "![[3F7CB9.png]]"
+    "3BFE48.png": {
+        "Daily Dev": "![[3BFE48.png]]",
+        "Jumpsite": "![[3BFE48.png]]"
     },
     "Surfit": {
         "Jumpsite": "## [[Surfit]]"
@@ -2878,9 +2882,9 @@ export const backlinks = {
     "Are.na (Service)": {
         "Jumpsite": "## [[Are.na (Service)]]"
     },
-    "D2D06E.png": {
-        "Are.na (Service)": "![[D2D06E.png]]",
-        "Jumpsite": "![[D2D06E.png]]"
+    "412774.png": {
+        "Are.na (Service)": "![[412774.png]]",
+        "Jumpsite": "![[412774.png]]"
     },
     "Mood.surf": {
         "Jumpsite": "## [[Mood.surf]]"
