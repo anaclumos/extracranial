@@ -1833,7 +1833,8 @@ export const backlinks = {
         "2022-11-11": "- [[Confectionery]]"
     },
     "Simulated Annealing for Designs": {
-        "2022-11-11": "- [[Simulated Annealing for Designs]]"
+        "2022-11-11": "- [[Simulated Annealing for Designs]]",
+        "Repeated Designs": "- [[Simulated Annealing for Designs]]: Good Design"
     },
     "Lazy": {
         "2022-11-11": "- [[Lazy]]: [[Tools for Thought]]",
@@ -3117,6 +3118,21 @@ export const backlinks = {
     "Web Typography": {
         "Brunch violates SF terms of use": "... Apple's Terms of Use by using San Francisco|SF Pro as a [[Web Typography|Webfont]].",
         "San Francisco": "- Has a strict usage model. No [[Web Typography|Webfont]] use"
+    },
+    "317954.png": {
+        "Repeated Designs": "![[317954.png]]"
+    },
+    "8F9910.png": {
+        "Repeated Designs": "![[8F9910.png]]"
+    },
+    "52996E.png": {
+        "Repeated Designs": "![[52996E.png]]"
+    },
+    "739C87.png": {
+        "Repeated Designs": "![[739C87.png]]"
+    },
+    "524A89.png": {
+        "Repeated Designs": "![[524A89.png]]"
     },
     "D765C4.png": {
         "Things (3D)": "![[D765C4.png]]"
