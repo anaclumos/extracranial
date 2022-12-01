@@ -7,3 +7,4 @@ slug: '/ABA35F'
 - [[Adding a Verified Mark on Apple Mail & Gmail]]
 - [[Setting different images for Light & Dark mode]]
 - [[Redirecting READMEs]]
+- [[Sudo with Touch ID]]

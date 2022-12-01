@@ -1633,6 +1633,14 @@ export const backlinks = {
     "Autosave Everything": {
         "2022-07-19": "- [[Autosave Everything]]"
     },
+    "Lesser Known Tricks": {
+        "2022-10-21": "- [[Lesser Known Tricks]]",
+        "2022-11-30": "- [[Lesser Known Tricks]]: [[Sudo with Touch ID]]"
+    },
+    "Sudo with Touch ID": {
+        "2022-11-30": "- Lesser Known Tricks: [[Sudo with Touch ID]]",
+        "Lesser Known Tricks": "- [[Sudo with Touch ID]]"
+    },
     "Repeated Designs": {
         "2022-11-30": "- [[Repeated Designs]]"
     },
@@ -2117,9 +2125,6 @@ export const backlinks = {
     "0053 Maximum Subarray": {
         "2022-09-05": "- [[0053 Maximum Subarray]]",
         "Coding Tests": "- [x] [[0053 Maximum Subarray]]"
-    },
-    "Lesser Known Tricks": {
-        "2022-10-21": "- [[Lesser Known Tricks]]"
     },
     "How does File Alias work": {
         "2022-10-21": "- [[How does File Alias work]]",
@@ -3456,6 +3461,9 @@ export const backlinks = {
     },
     "web3": {
         "Ethereum RPC as a Service": "... enterprise RPC providers are one of the more profitable and real [[web3]] businesses. There's Alchemy ($10.2B valuation, Feb ‘22), ConsenSys ($7B valuation, Mar ..."
+    },
+    "97E77D.png": {
+        "Sudo with Touch ID": "![[97E77D.png]]"
     },
     "F7ADEB.png": {
         "Transactional Globe": "![[F7ADEB.png]]"
