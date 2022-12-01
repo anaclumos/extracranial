@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Jumpsite.md",
+                "file": "journals/2022-11-30.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "42c61ad9f56853d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-30.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "faddb8109494f2e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-30.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f94ab990e66eb1ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-30.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Jumpsite.md",
+                "file": "journals/2022-11-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Jumpsite.md"
+                "file": "journals/2022-11-30.md"
               }
             }
           },
@@ -133,17 +173,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "642b33714998122a",
+  "active": "f94ab990e66eb1ab",
   "lastOpenFiles": [
+    "pages/WasmEdge.md",
+    "pages/Edge Networks.md",
+    "journals/2022-11-30.md",
+    "pages/Fediverse.md",
+    "pages/SinglePage.md",
+    "pages/MessageBird.md",
+    "pages/Jumpsite.md",
     "journals/2022-11-29.md",
     "assets/Screen Shot 2022-11-29 at 9.33.11 PM (2).png",
-    "pages/Jumpsite.md",
-    "pages/XUID.md",
-    "pages/UUIDs are Awesome.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
-    "pages/Matt Rickard.md",
-    "pages/Project Alter.md",
-    "pages/Prompt Engineering.md",
-    "pages/JSON.md"
+    "pages/XUID.md"
   ]
 }

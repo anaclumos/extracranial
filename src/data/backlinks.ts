@@ -425,6 +425,7 @@ export const backlinks = {
         "2022-11-22": "## [[Hacker News|HN]]",
         "2022-11-28": "## [[Hacker News|HN]]",
         "2022-11-29": "## [[Hacker News|HN]]",
+        "2022-11-30": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -486,6 +487,7 @@ export const backlinks = {
         "2022-11-27": "## [[Project]]",
         "2022-11-28": "## [[Project]]",
         "2022-11-29": "## [[Project]]",
+        "2022-11-30": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "- Someday [[Project]]",
@@ -548,7 +550,8 @@ export const backlinks = {
         "2022-11-26": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-27": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-30": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "Text-based Presentations": {
         "2022-11-08": "- [[Text-based Presentations]]"
@@ -1392,7 +1395,8 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
         "Project": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
-        "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]]."
+        "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
+        "WasmEdge": "WasmEdge: Edge Networks for [[WebAssembly]]"
     },
     "Pensieve": {
         "2022-11-07": "- [[Pensieve]]",
@@ -1626,6 +1630,21 @@ export const backlinks = {
     },
     "Autosave Everything": {
         "2022-07-19": "- [[Autosave Everything]]"
+    },
+    "MessageBird": {
+        "2022-11-30": "- [[MessageBird]]"
+    },
+    "SinglePage": {
+        "2022-11-30": "- [[SinglePage]]"
+    },
+    "WasmEdge": {
+        "2022-11-30": "- [[WasmEdge]]"
+    },
+    "Fediverse": {
+        "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply “join Mastodon.” Instead, users ..."
+    },
+    "fediverse": {
+        "2022-11-30": "- The [[fediverse]] allows users on each server to create their own codes of ..."
     },
     "Cache Write Policy": {
         "2022-11-04": "- [[Cache Write Policy]]",
@@ -1977,7 +1996,8 @@ export const backlinks = {
         "Transactional Globe": "![[5BE46A.png]]"
     },
     "Edge Networks": {
-        "2022-10-24": "- [[Edge Networks]]"
+        "2022-10-24": "- [[Edge Networks]]",
+        "WasmEdge": "WasmEdge: [[Edge Networks]] for [[WebAssembly]]"
     },
     "Simple Analytics": {
         "2022-10-24": "- [[Simple Analytics]]",
