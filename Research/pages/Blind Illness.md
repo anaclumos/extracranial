@@ -8,7 +8,7 @@ Blind Illness refers to the mental illness of those who want fame and romanticiz
 
 > Blind is an app that provides an anonymous forum and community for verified employees to discuss issues. Topics, company, and broader industry group users on Blind. The app verifies that the registered users work in the company through their work email and claims to keep user identities untraceable. [Blind (app)](<https://en.wikipedia.org/wiki/Blind_(app)>)
 
-### [These Young Workers Are ‘Romanticizing’ the Return to Office - The New York Times](https://www.nytimes.com/2022/11/27/business/tiktok-office-influencers.html)
+### [These Young Workers Are ‘Romanticizing’ the Return to Office](https://www.nytimes.com/2022/11/27/business/tiktok-office-influencers.html)
 
 - Some are more modest, showing lunches eaten alone in gray cubicles and office coffee whose quality we can guess at, while others flaunt luxe décor and amenities like gyms and catered dining
 - But the practice of “romanticizing,” which [encourages gratitude](https://www.nytimes.com/2022/05/11/well/mind/romanticize-your-life-tiktok.html) for the most mundane parts of our lives, means that almost every office job gets the same treatment on TikTok
