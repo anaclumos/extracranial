@@ -627,6 +627,7 @@ export const filenames = {
     "Storing sensitive data in iOS Apps": "30CC03",
     "Structs and Unions": "9AF47D",
     "Substack is the new Medium": "A4DEA3",
+    "Sudo with Touch ID": "88B68D",
     "Super App": "81CE0D",
     "Super App and Democracy": "8794DD",
     "Supergravity Products": "BB903F",
