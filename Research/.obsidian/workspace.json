@@ -21,46 +21,20 @@
             }
           },
           {
-            "id": "42c61ad9f56853d2",
+            "id": "5f813245f1578a56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "journals/2022-11-30.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "faddb8109494f2e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-11-30.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f94ab990e66eb1ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-11-30.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,17 +147,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f94ab990e66eb1ab",
+  "active": "5f813245f1578a56",
   "lastOpenFiles": [
-    "pages/WasmEdge.md",
-    "pages/Edge Networks.md",
+    "pages/Centering.md",
     "journals/2022-11-30.md",
-    "pages/Fediverse.md",
-    "pages/SinglePage.md",
-    "pages/MessageBird.md",
-    "pages/Jumpsite.md",
-    "journals/2022-11-29.md",
-    "assets/Screen Shot 2022-11-29 at 9.33.11 PM (2).png",
-    "pages/XUID.md"
+    "pages/Project Alter.md",
+    "pages/Blind Illness.md",
+    "pages/Tools I will use one day.md",
+    "pages/Repeated Designs.md",
+    "journals/2022-11-22.md",
+    "journals/2022-11-23.md",
+    "journals/2022-11-24.md",
+    "journals/2022-11-25.md"
   ]
 }
