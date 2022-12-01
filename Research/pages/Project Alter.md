@@ -5,6 +5,17 @@ slug: '/786F87'
 
 - [[Letter to Mr. Matt Rickard on 2022-11-28]]
 
+## Example References
+
+### Instagram
+
+- "Photo by apple in Tower Theatre. Maybe an image of 2 people and a phone."
+- "Photo by apple in Beijing, China. Maybe an image of 1 person and sunglasses."
+
+### Facebook
+
+- "Maybe an image of text that says 'iPhone 14 Pro'"
+
 ### Resources
 
 - [openai/CLIP: Contrastive Language-Image Pretraining](https://github.com/openai/CLIP)
@@ -16,12 +27,13 @@ slug: '/786F87'
 
 - CLIP inference server + Library that wraps an image component (raw `img` or `next/image`)
 
-```js
+```
 function AltTextImage() {
-...hash image on the client
-...check if a hash exists on AltTextDB
-...if it does, set alt text
-...if it doesn't, upload the image and the alt text will be returned (hash + maybe image is stored in DB)
+    hash image on the client
+    check if a hash exists on AltTextDB
+    if it does, set alt text
+    if it doesn't, upload the image, and the alt text will be returned
+    (hash + maybe image is stored in DB)
 }
 ```
 
