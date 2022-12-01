@@ -670,6 +670,7 @@ export const backlinks = {
     },
     "Centering": {
         "2022-09-17": "  - [[Centering]]",
+        "2022-11-30": "- [[Centering]]",
         "Android": "- [[Centering]]"
     },
     "Adding Space in Android": {
@@ -920,6 +921,7 @@ export const backlinks = {
     "Project Alter": {
         "2022-10-03": "- [[Project Alter]]",
         "2022-11-29": "- [[Project Alter]]",
+        "2022-11-30": "- [[Project Alter]]",
         "Project": "- [[Project Alter]]"
     },
     "Screenshot as an API": {
@@ -1631,6 +1633,9 @@ export const backlinks = {
     "Autosave Everything": {
         "2022-07-19": "- [[Autosave Everything]]"
     },
+    "Repeated Designs": {
+        "2022-11-30": "- [[Repeated Designs]]"
+    },
     "MessageBird": {
         "2022-11-30": "- [[MessageBird]]"
     },
@@ -1638,7 +1643,11 @@ export const backlinks = {
         "2022-11-30": "- [[SinglePage]]"
     },
     "WasmEdge": {
-        "2022-11-30": "- [[WasmEdge]]"
+        "2022-11-30": "- [[WasmEdge]]",
+        "Tools I will use one day": "- [[WasmEdge]]"
+    },
+    "Blind Illness": {
+        "2022-11-30": "- [[Blind Illness]]"
     },
     "Fediverse": {
         "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply “join Mastodon.” Instead, users ..."
