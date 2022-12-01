@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Repeated Designs.md",
+                "file": "journals/2022-11-30.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Repeated Designs.md",
+                "file": "journals/2022-11-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Repeated Designs.md"
+                "file": "journals/2022-11-30.md"
               }
             }
           },
@@ -134,11 +134,11 @@
   },
   "active": "642b33714998122a",
   "lastOpenFiles": [
-    "journals/2022-11-30.md",
-    "pages/Simulated Annealing for Designs.md",
-    "pages/Repeated Designs.md",
-    "pages/Centering.md",
     "pages/Project Alter.md",
+    "journals/2022-11-30.md",
+    "pages/Repeated Designs.md",
+    "pages/Simulated Annealing for Designs.md",
+    "pages/Centering.md",
     "pages/Blind Illness.md",
     "pages/Tools I will use one day.md",
     "journals/2022-11-22.md",
