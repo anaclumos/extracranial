@@ -630,6 +630,13 @@ export const backlinks = {
         "2022-10-16": "![[AA04D0.gif]]",
         "Dynamic Island on the Web": "![[AA04D0.gif]]"
     },
+    "Browser Company Hackathon": {
+        "2022-12-02": "- [[Browser Company Hackathon]]"
+    },
+    "ChatGPT": {
+        "2022-12-02": "- [[ChatGPT]]",
+        "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]"
+    },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]",
         "Matt Rickard": "- [[eBPF]]"
