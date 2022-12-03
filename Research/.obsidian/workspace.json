@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8aba032ba3c76340",
+        "id": "1c3da7d32e01513e",
         "type": "tabs",
         "children": [
           {
-            "id": "012c0a7d7686f219",
+            "id": "3005263b385d57b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-12-02.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5955e6334a2afe70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-12-02.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2022-12-02.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,10 +123,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5955e6334a2afe70",
+  "active": "3005263b385d57b8",
   "lastOpenFiles": [
-    "pages/Browser Company Hackathon.md",
     "journals/2022-12-02.md",
+    "pages/Browser Company Hackathon.md",
     "pages/ChatGPT.md",
     "journals/2022-11-30.md",
     "pages/Blind Illness.md",
