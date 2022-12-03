@@ -5,7 +5,7 @@ authors: anaclumos
 slug: '/9F7F85'
 ---
 
-# Recreating the Dynamic Island on the Web 🏝
+# Recreating the Dynamic Island 🏝
 
 <Admonition type="info" title="Talk is cheap; show me right now!" icon="🗣">
 Of course. Click on the black oval below. It will display a song I am currently listening to or any of my 30 most recently played songs.
