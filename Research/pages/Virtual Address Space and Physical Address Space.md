@@ -12,17 +12,17 @@ slug: '/8EA0CD'
 
 ## Physical Address Space
 
-- if the memory is big enough, the OS uses the physical memory (RAM)
+- if the memory is big enough, the [[OS]] uses the physical memory (RAM)
 - else, least-recently-used data is dumped to the disk
-- only OS can access PAS directly!
+- only [[OS]] can access PAS directly!
 
 ## VAS and PAS
 
 - broken into "pages", usually 4 KB. Most pages will not be used.
 - broken into page-sized block called frames.
 - virtual page can be unallocated, uncached (allocated in disk), cached (allocated in memory).
-- If we access a page not in physical memory, HW generates a **page fault exception**. Then the OS will bring in the page to physical memory (possibly evicting another page)
+- If we access a page not in physical memory, HW generates a **page fault exception**. Then the [[OS]] will bring in the page to physical memory (possibly evicting another page)
   - page size should be fairly large
   - pages in main memory should be fully-associative to reduce conflicts and maximize page hits
-  - use OS instead of HW
+  - use [[OS]] instead of HW
   - write-back policy

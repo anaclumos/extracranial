@@ -67,6 +67,14 @@ slug: '/671680'
 
 ![[7544D7.png]]
 
+### [Supernotes](https://supernotes.app/)
+
+![[FCA874.png]]
+![[9B1EE1.png]]
+![[9445A6.png]]
+![[1FC2DE.png]]
+![[26D5BF.png]]
+
 ## Dev
 
 ### [[Paracosm]]

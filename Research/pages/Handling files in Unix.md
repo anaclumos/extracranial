@@ -23,4 +23,4 @@ The return value can be:
 
 - -1: error
 - 0: write again with a new message
-- n: n bytes of data in the first n bytes of the buffer are consumed by OS
+- n: n bytes of data in the first n bytes of the buffer are consumed by [[OS]]

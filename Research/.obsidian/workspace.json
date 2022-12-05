@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1c3da7d32e01513e",
+        "id": "27e25d9f04dd6e5c",
         "type": "tabs",
         "children": [
           {
-            "id": "3005263b385d57b8",
+            "id": "694a089a2de36442",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "good design",
+                "query": "zotero",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,17 +124,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "3005263b385d57b8",
+  "active": "694a089a2de36442",
   "lastOpenFiles": [
-    "journals/2022-12-02.md",
-    "pages/Browser Company Hackathon.md",
-    "pages/ChatGPT.md",
-    "journals/2022-11-30.md",
-    "pages/Blind Illness.md",
-    "pages/Project Alter.md",
-    "pages/Sudo with Touch ID.md",
-    "pages/Lesser Known Tricks.md",
-    "pages/Repeated Designs.md",
-    "pages/Simulated Annealing for Designs.md"
+    "journals/2022-12-04.md",
+    "pages/Coding Tests.md",
+    "pages/Aldehyde.md",
+    "pages/Search Engine using Generative AI.md",
+    "assets/93A37F.png",
+    "assets/AC1C5D.png",
+    "pages/Generative AI.md",
+    "assets/DEDC29.png",
+    "pages/Search in a Latent Space.md",
+    "pages/Prompt Engineering.md"
   ]
 }
