@@ -4,7 +4,7 @@ slug: '/2990CC'
 ---
 
 - a file descriptor, used in Unix/Linux, is simply an integer
-- it is an index of an array in the OS (file descriptor table)
+- it is an index of an array in the [[OS]] (file descriptor table)
 - for example,
   - 0 is `stdin` (keyboard)
   - 1 is `stdout` (display)

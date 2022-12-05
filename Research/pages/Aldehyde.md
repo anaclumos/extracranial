@@ -9,3 +9,11 @@ Aldehyde is the codename for this very website.
 Try figuring out why.
 
 - [[Better Aldehyde]]
+
+## Reset a bunch of changes
+
+```bash
+git checkout HEAD ...
+```
+
+followed by files

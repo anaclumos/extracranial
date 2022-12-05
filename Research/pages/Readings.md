@@ -11,16 +11,17 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 - [x] [[경제 개발의 길목에서]]
 - [x] [[일본 과학기술 총력전]]
 - [x] [[Krafton Way]]
+- [x] [[Atomic Habits]]
 
 ## Reading
 
-- [ ] [[Atomic Habits]]
-- [ ] [[한자 타자기]]
+- [ ] Exhalation
 
 ## To-read
 
 - [ ] MAKE
 - [ ] Where is my flying car?
+- [ ] Diaspora
 - [ ] Zero to One
 - [ ] 도해 타이완사
 - [ ] 허삼관 매혈기
@@ -29,6 +30,7 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 ## Stopped
 
 - [x] [[지구 끝의 온실]]
+- [x] [[한자 타자기]]
 
 ## References
 

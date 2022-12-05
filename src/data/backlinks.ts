@@ -41,6 +41,7 @@ export const backlinks = {
         "2022-09-30": "- [[Vercel]] Serving millions of users on the new MrBeast storefront - Vercel",
         "2022-10-10": "  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
+        "2022-12-04": "- The Verge is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, ...",
         "Edge Networks": "- [[Vercel]] & Vercel Edge Functions",
         "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/Satori, Logseq/Logseq, Etc. I came across Heptabase and wanted to speak with ...",
         "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
@@ -104,6 +105,7 @@ export const backlinks = {
         "2022-10-24": "## [[Coding Tests]]",
         "2022-11-21": "## [[Coding Tests]]",
         "2022-11-28": "- [[Coding Tests]]: [[0232 Implement Queue using Stacks]]",
+        "2022-12-03": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "Real Exams": {
@@ -382,14 +384,15 @@ export const backlinks = {
     "The Demise of Chatbots in 2017": {
         "2022-11-28": "- Matt Rickard: [[The Demise of Chatbots in 2017]], [[Generative Databases]]",
         "Generative AI": "Or would they make a similar trajectory like [[The Demise of Chatbots in 2017]]?",
-        "Matt Rickard": "- [[The Demise of Chatbots in 2017]]"
+        "Matt Rickard": "- [[The Demise of Chatbots in 2017]]",
+        "Search Engine using Generative AI": "We will never see [[The Demise of Chatbots in 2017]] again."
     },
     "Generative Databases": {
         "2022-11-28": "- Matt Rickard: The Demise of Chatbots in 2017, [[Generative Databases]]"
     },
     "0232 Implement Queue using Stacks": {
         "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",
-        "Coding Tests": "- [ ] [[0232 Implement Queue using Stacks]]: Link"
+        "Coding Tests": "- [x] [[0232 Implement Queue using Stacks]]"
     },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]"
@@ -635,7 +638,8 @@ export const backlinks = {
     },
     "ChatGPT": {
         "2022-12-02": "- [[ChatGPT]]",
-        "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]"
+        "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]",
+        "Search Engine using Generative AI": "## On [[ChatGPT]]"
     },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]",
@@ -718,7 +722,8 @@ export const backlinks = {
         "Svelte": "... runtime, i.e., in the browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ..."
     },
     "Readings": {
-        "2022-09-07": "- [[Readings]]"
+        "2022-09-07": "- [[Readings]]",
+        "2022-12-04": "- [[Readings]]"
     },
     "Tools for Thought": {
         "2022-07-07": "## Personal Notes on [[Tools for Thought]] [[Software as a Service]]",
@@ -731,6 +736,8 @@ export const backlinks = {
         "Handwriting Tools for Thoughts": "- A specific [[Tools for Thought]] with handwriting.",
         "PKM": "Check [[Tools for Thought]] for PKM tools in the market.",
         "Paracosm": "Paracosm is an experimental documentation toolkit & Extracranial [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
+        "Plateau of Latent Potential": "Can we unlock the potential of human intelligence with next-gen [[Tools for Thought]]?",
+        "Rauno Work Case Study": "Interesting Extracranial [[Tools for Thought]] ([[Data Capturers]])",
         "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, Heptabase."
     },
     "Everyprompt": {
@@ -914,8 +921,12 @@ export const backlinks = {
         "2022-10-17": "- [[Memex]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a [[Memex]] or, in my term, [[Extracranial]] at https://cho.sh.",
         "Memex is more than a Memex": "- [[Memex]] is more than a Memex",
+        "Plateau of Latent Potential": "It could be a form of Extracranial, a [[Memex]], or even [[Conversational AI Tools for Thought]].",
         "Preservation of Data": "- An important concept for [[Memex]] and [[Extracranial]]",
         "Vannevar Bush": "... 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 ..."
+    },
+    "Dynamic Viewport Units": {
+        "2022-12-03": "- [[Dynamic Viewport Units]]"
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
@@ -997,6 +1008,7 @@ export const backlinks = {
         "Metaverse": "... to my mind that Metaverse can be attained within years with [[Prompt Engineering]].",
         "Obsidian Ava": "- [[Prompt Engineering]]",
         "Screenshot as an API": "...  - (encoder) diffusion-based models like Stable Diffusion and DALL-E (text-to-image) [[Prompt Engineering]]",
+        "Search in a Latent Space": "- Maybe it's another name for [[Prompt Engineering]]",
         "Synthography": "- Needs [[Prompt Engineering]]",
         "Synthote": "- Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?"
     },
@@ -1037,7 +1049,9 @@ export const backlinks = {
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a Memex or, in my term, [[Extracranial]] at https://cho.sh.",
         "Memex": "- Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.",
         "Paracosm": "Paracosm is an experimental documentation toolkit & [[Extracranial]] [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech ...",
+        "Plateau of Latent Potential": "It could be a form of [[Extracranial]], a [[Memex]], or even [[Conversational AI Tools for Thought]].",
         "Preservation of Data": "- An important concept for Memex and [[Extracranial]]",
+        "Rauno Work Case Study": "Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])",
         "Vannevar Bush": "- Early creator of Memex and [[Extracranial]]."
     },
     "Obsidian": {
@@ -1108,6 +1122,7 @@ export const backlinks = {
     },
     "Tailwind": {
         "2022-11-29": "- [[Tailwind]]",
+        "2022-12-04": "- The Verge is now built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, @vercel, and ...",
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
         "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next 프로젝트에 적용"
@@ -1116,6 +1131,7 @@ export const backlinks = {
         "2022-11-29": "### [[Stable Diffusion]]",
         "Prompt Engineering": "- [[Stable Diffusion]]",
         "Screenshot as an API": "  - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]",
+        "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
         "Synthography": "- [[Stable Diffusion]]"
     },
     "Small yet Powerful": {
@@ -1185,7 +1201,8 @@ export const backlinks = {
         "2022-10-18": "- [[Space in LaTeX]]"
     },
     "Akzidenz": {
-        "2022-10-18": "- [[Akzidenz]]"
+        "2022-10-18": "- [[Akzidenz]]",
+        "San Francisco": "### [[Akzidenz]]"
     },
     "Canary Trap": {
         "2022-10-18": "- [[Canary Trap]]"
@@ -1233,7 +1250,9 @@ export const backlinks = {
         "Notion": "- Notion AI: [[Synthote]]",
         "Real Interviews": "... - Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
         "Reimagining Emails": "- Potential links to [[Synthote]]?",
-        "Stephan Ango": "- Coined the term [[Synthote]]"
+        "Search in a Latent Space": "- Related to [[Synthote]]: Finding the exact text that contains the desired info in this ...",
+        "Stephan Ango": "- Coined the term [[Synthote]]",
+        "Thesephist Work Case Study": "### The \"Length\" dimension of [[Synthote]]s"
     },
     "Protocol Wars": {
         "2022-11-16": "- [[Protocol Wars]]: [[Matt Rickard]]",
@@ -1279,10 +1298,14 @@ export const backlinks = {
         "Computer Systems": "- [[ARM Architecture]]",
         "How is WebAssembly cross-platform when Assembly is not": "... designed similarly to ASM. Therefore, compiling WebAssembly|WASM to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can ..."
     },
+    "os": {
+        "2022-09-29": "... to visualize the time-series data for each link's clicks (incl. location, device/[[os]]) with airbnb/visx: 🐯 visx | visualization components"
+    },
     "Next.js": {
         "2022-09-29": "  - [[Next.js]] framework",
         "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
         "2022-10-25": "## [[Next.js]] Conf",
+        "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with ...",
         "Front-end Framework": "- [[Next.js]]",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]"
     },
@@ -1294,7 +1317,7 @@ export const backlinks = {
     },
     "한자 타자기": {
         "2022-09-29": "- [[한자 타자기]]",
-        "Readings": "- [ ] [[한자 타자기]]"
+        "Readings": "- [x] [[한자 타자기]]"
     },
     "Computer Systems": {
         "2022-11-03": "- [[Computer Systems]]",
@@ -1361,6 +1384,7 @@ export const backlinks = {
     },
     "Aldehyde": {
         "2022-11-03": "- [[Aldehyde]]",
+        "2022-12-04": "- [[Aldehyde]]",
         "Better Aldehyde": "- [[Aldehyde]]",
         "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨"
     },
@@ -1395,6 +1419,18 @@ export const backlinks = {
     },
     "Apple Earth": {
         "2022-08-23": "- [[Apple Earth]]"
+    },
+    "OS": {
+        "2022-06-14": "- Brane은 타사 앱을 참여시켜 플랫폼을 확장하고 [[OS]] 수준을 경험하는 모든 과정(웹앱 렌더링, 레지스트리 설치, 프리로딩, 위젯 등)을 포함하는 ...",
+        "Apple Newsroom 서체 따라하기": "- 단어 하나만으로 [[OS]]의 기본 서체로 설정할 수 있는 `system-ui`라는 CSS 코드를 표준화 하고 있다고 ...",
+        "Cache and Virtual Memory": "...           | Software([[OS]])  |",
+        "Docker": "> Docker is a set of platform-as-a-service (PaaS) products that use [[OS]]-level virtualization to deliver software in packages called containers. The service has ...",
+        "File Descriptor": "- it is an index of an array in the [[OS]] (file descriptor table)",
+        "Handling files in Unix": "... in the first n bytes of the buffer are consumed by [[OS]]",
+        "Mathematics under The Library of Babel": "- Killed by the [[OS]] for using too much RAM",
+        "Rauno Work Case Study": "- Resembles an [[OS]] with a magnifying dock at the bottom.",
+        "Virtual Address Space and Physical Address Space": "- if the memory is big enough, the [[OS]] uses the physical memory (RAM)",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 수 있다. 좌측 상단에 있는 Add Device 버튼을 누르면 다음과 같이 [[OS]]를 다운로드할 수 있는 창이 나타난다."
     },
     "WebAssembly": {
         "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.",
@@ -1436,6 +1472,7 @@ export const backlinks = {
     "Synthography": {
         "2022-10-19": "- [[Synthography]]",
         "Obsidian Ava": "- Early Stage [[Synthography]] tool for [[Obsidian]]",
+        "Search in a Latent Space": "- Related to [[Synthography]] and [[Stable Diffusion]]",
         "Synthote": "- Just like what we call [[Synthography]] for synthetic imagery"
     },
     "Obsidian Ava": {
@@ -1588,6 +1625,9 @@ export const backlinks = {
     "Information amongst Data": {
         "2022-11-24": "- [[Information amongst Data]]",
         "Person 1E6ABA": "Finding [[Information amongst Data]].",
+        "Rauno Work Case Study": "- Has alphanumeric morphing, as if it is finding [[Information amongst Data]]",
+        "Search Engine using Generative AI": "- [[Information amongst Data]]",
+        "Search in a Latent Space": "- Finding [[Information amongst Data]].",
         "The Library of Babel": "- [[Information amongst Data]]"
     },
     "5A3846.gif": {
@@ -1832,7 +1872,8 @@ export const backlinks = {
     "Search Engine Indexing Your Life": {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]",
         "2022-11-01": "- [[Search Engine Indexing Your Life]]",
-        "Search-based Tools for Thought": "- [[Search Engine Indexing Your Life]]"
+        "Search-based Tools for Thought": "- [[Search Engine Indexing Your Life]]",
+        "Thesephist Work Case Study": "### Monocle: [[Search Engine Indexing Your Life]]"
     },
     "한국의 입시와 거짓된 명예": {
         "2022-11-25": "- [[한국의 입시와 거짓된 명예]]"
@@ -1889,10 +1930,11 @@ export const backlinks = {
     },
     "San Francisco": {
         "2022-08-01": "... it a lot — it combines the neatness and readability of [[San Francisco|SF Pro]] and the uniqueness of IBM Plex Sans.",
+        "2022-12-04": "- [[San Francisco]]",
         "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter]].",
         "Brunch violates SF terms of use": "... Korean writing service Brunch violates Apple's Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].",
         "Font Feature": "- [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.",
-        "Inter": "- bizarrely similar to [[San Francisco]], but it now has it's own style",
+        "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
         "Pretendard": "  - He should've put it as Cross-platform [[San Francisco]] alternative",
         "Toss Product Sans": "- Looks bizarrely similar to [[San Francisco]]",
         "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
@@ -1976,6 +2018,7 @@ export const backlinks = {
     "Toss Product Sans": {
         "2022-10-14": "- [[Toss Product Sans]]",
         "Pretendard": "- Just like [[Toss Product Sans]] it is bizarrely similar to [[San Francisco]]",
+        "San Francisco": "### [[Toss Product Sans]]",
         "Toss": "- Creators of [[Toss Product Sans]] and [[Tossface]]"
     },
     "0021 Merge Two Sorted Lists": {
@@ -2005,6 +2048,7 @@ export const backlinks = {
     "Infinite Canvas": {
         "2022-10-10": "- [[Infinite Canvas]]",
         "Intracranial": "  - [[Infinite Canvas]]",
+        "Rauno Work Case Study": "- Clipboard goes into [[Infinite Canvas]]",
         "Spacial Cognition": "- Key reason of [[Infinite Canvas]]. Gives spacial understanding & relevancy",
         "Visual-based Tools for Thought": "## [[Infinite Canvas]]"
     },
@@ -2014,6 +2058,41 @@ export const backlinks = {
     "Frames Per Second": {
         "2022-10-10": "... 23.976 and not 24 fps?? - AC's & DIT's - Cinematography.com. [[Frames Per Second]].",
         "Graphics Engine Process": "...   - Limit Updating Frequency to 16ms, which yields 60 [[Frames Per Second]]."
+    },
+    "Rauno Work Case Study": {
+        "2022-12-04": "- [[Rauno Work Case Study]]",
+        "Data Capturers": "- [[Rauno Work Case Study]]"
+    },
+    "Thesephist Work Case Study": {
+        "2022-12-04": "- [[Thesephist Work Case Study]]"
+    },
+    "Search in a Latent Space": {
+        "2022-12-04": "- [[Search in a Latent Space]]",
+        "Atomic Habits": "- Plateau of Latent Potential: Sounds astoundingly similar to [[Search in a Latent Space]]",
+        "Search Engine using Generative AI": "- [[Search in a Latent Space]]",
+        "Thesephist Work Case Study": "### [[Search in a Latent Space]]"
+    },
+    "XTML": {
+        "2022-12-04": "- [[XTML]]"
+    },
+    "Text-based Tools for Thought": {
+        "2022-12-04": "- Elicit: The AI Research Assistant: [[Text-based Tools for Thought]]",
+        "Thesephist Work Case Study": "### Notation: [[Text-based Tools for Thought]] that automatically links",
+        "Tools for Thought": "- [[Text-based Tools for Thought]]: the basic type of tools for thought."
+    },
+    "Conversational AI Tools for Thought": {
+        "2022-12-04": "- [[Conversational AI Tools for Thought]]",
+        "Plateau of Latent Potential": "It could be a form of Extracranial, a Memex, or even [[Conversational AI Tools for Thought]].",
+        "Synthote": "- [[Conversational AI Tools for Thought]]",
+        "Tools for Thought": "- [[Conversational AI Tools for Thought]]"
+    },
+    "Plateau of Latent Potential": {
+        "2022-12-04": "- [[Plateau of Latent Potential]] and [[Search in a Latent Space]]",
+        "Atomic Habits": "- [[Plateau of Latent Potential]]: Sounds astoundingly similar to [[Search in a Latent Space]]"
+    },
+    "Search Engine using Generative AI": {
+        "2022-12-04": "- [[Search Engine using Generative AI]]",
+        "Generative AI": "- [[Search Engine using Generative AI]]"
     },
     "5BE46A.png": {
         "2022-10-24": "![[5BE46A.png]]",
@@ -2390,6 +2469,21 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
         "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's."
     },
+    "Generative AI": {
+        "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
+        "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value ...",
+        "Search Engine using Generative AI": "- [[Generative AI]]",
+        "Search in a Latent Space": "- [[Generative AI]]"
+    },
+    "29DB9F.png": {
+        "Search Engine using Generative AI": "![[29DB9F.png]]"
+    },
+    "63CD9D.png": {
+        "Search Engine using Generative AI": "![[63CD9D.png]]"
+    },
+    "921CC5.png": {
+        "Search Engine using Generative AI": "![[921CC5.png]]"
+    },
     "4B9CF4.png": {
         "Search Engine Indexing Your Life": "![[4B9CF4.png]]"
     },
@@ -2480,9 +2574,6 @@ export const backlinks = {
     "extracranial": {
         "Stephan Ango": "- [[extracranial]] @ Stephan Ango"
     },
-    "explainpaper.com": {
-        "Synthote": "- [[explainpaper.com]]"
-    },
     "B9AA95.png": {
         "Web Graphics": "![[B9AA95.png]]"
     },
@@ -2498,6 +2589,7 @@ export const backlinks = {
     "Pretendard": {
         "Font Feature": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
         "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.",
+        "San Francisco": "### [[Pretendard]]",
         "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Pretendard의 아쉬운 점": {
@@ -2517,6 +2609,15 @@ export const backlinks = {
     },
     "git": {
         "Techs Actually Simple": "- Some `[[git]]` commands are still just shell scripts under the hood"
+    },
+    "5BFF3F.png": {
+        "Conversational AI Tools for Thought": "![[5BFF3F.png]]"
+    },
+    "Treehouse": {
+        "Conversational AI Tools for Thought": "- [[Treehouse]]"
+    },
+    "BFE3CD.png": {
+        "Conversational AI Tools for Thought": "![[BFE3CD.png]]"
     },
     "Person 1B5A5B": {
         "Project PEOPLE": "- [[Person 1B5A5B]]"
@@ -2678,6 +2779,10 @@ export const backlinks = {
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
+    "C42C4E.png": {
+        "Pretendard": "![[C42C4E.png]]",
+        "San Francisco": "![[C42C4E.png]]"
+    },
     "Extracting string in Android": {
         "Android": "- [[Extracting string in Android]]"
     },
@@ -2686,6 +2791,35 @@ export const backlinks = {
     },
     "3A6F7A.png": {
         "0232 Implement Queue using Stacks": "![[3A6F7A.png]]"
+    },
+    "5CCDE2.png": {
+        "Thesephist Work Case Study": "![[5CCDE2.png]]"
+    },
+    "1866C8.png": {
+        "Thesephist Work Case Study": "![[1866C8.png]]"
+    },
+    "A933EB.png": {
+        "Thesephist Work Case Study": "![[A933EB.png]]"
+    },
+    "D5AFE5.png": {
+        "Thesephist Work Case Study": "![[D5AFE5.png]]"
+    },
+    "C4401B.png": {
+        "Thesephist Work Case Study": "![[C4401B.png]]"
+    },
+    "Data Capturers": {
+        "Rauno Work Case Study": "Interesting Extracranial Tools for Thought ([[Data Capturers]])",
+        "Thesephist Work Case Study": "### CoStructure: [[Data Capturers]] tool that automatically highlights",
+        "Tools for Thought": "- [[Data Capturers]]"
+    },
+    "35984D.png": {
+        "Thesephist Work Case Study": "![[35984D.png]]"
+    },
+    "272E44.png": {
+        "Thesephist Work Case Study": "![[272E44.png]]"
+    },
+    "6C2684.png": {
+        "Thesephist Work Case Study": "![[6C2684.png]]"
     },
     "2022-08-30": {
         "0215 Kth Largest Element in an Array": "Solved at: [[2022-08-30]]",
@@ -2699,7 +2833,7 @@ export const backlinks = {
         "Readings": "- [x] [[경제 개발의 길목에서]]"
     },
     "Atomic Habits": {
-        "Readings": "- [ ] [[Atomic Habits]]",
+        "Readings": "- [x] [[Atomic Habits]]",
         "水適穿石": "- [[Atomic Habits]]"
     },
     "지구 끝의 온실": {
@@ -2767,9 +2901,63 @@ export const backlinks = {
     "F8D9BD.png": {
         "Visual-based Tools for Thought": "![[F8D9BD.png]]"
     },
-    "Generative AI": {
-        "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
-        "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value ..."
+    "Case Study": {
+        "Rauno Work Case Study": "- [[Case Study]]"
+    },
+    "CD52BB.gif": {
+        "Rauno Work Case Study": "![[CD52BB.gif]]"
+    },
+    "C0147C.gif": {
+        "Data Capturers": "![[C0147C.gif]]",
+        "Rauno Work Case Study": "![[C0147C.gif]]"
+    },
+    "FDD149.gif": {
+        "Rauno Work Case Study": "![[FDD149.gif]]"
+    },
+    "729C95.png": {
+        "Rauno Work Case Study": "![[729C95.png]]"
+    },
+    "7BA380.png": {
+        "Rauno Work Case Study": "![[7BA380.png]]"
+    },
+    "E4D0EB.png": {
+        "Rauno Work Case Study": "![[E4D0EB.png]]"
+    },
+    "AE577D.png": {
+        "Rauno Work Case Study": "![[AE577D.png]]"
+    },
+    "FBAD35.png": {
+        "Rauno Work Case Study": "![[FBAD35.png]]"
+    },
+    "21D069.png": {
+        "Rauno Work Case Study": "![[21D069.png]]"
+    },
+    "9CA0D1.png": {
+        "Rauno Work Case Study": "![[9CA0D1.png]]"
+    },
+    "555D23.png": {
+        "Rauno Work Case Study": "![[555D23.png]]"
+    },
+    "4C9C82.png": {
+        "Rauno Work Case Study": "![[4C9C82.png]]"
+    },
+    "F9AD48.png": {
+        "Rauno Work Case Study": "![[F9AD48.png]]"
+    },
+    "7A8AA5.png": {
+        "Rauno Work Case Study": "![[7A8AA5.png]]"
+    },
+    "527310.png": {
+        "Rauno Work Case Study": "![[527310.png]]"
+    },
+    "B61EBE.png": {
+        "Rauno Work Case Study": "![[B61EBE.png]]"
+    },
+    "1B7A9A.png": {
+        "Rauno Work Case Study": "![[1B7A9A.png]]"
+    },
+    "94972C.png": {
+        "Rauno Work Case Study": "![[94972C.png]]"
     },
     "2A5C23.png": {
         "Jumpsite": "![[2A5C23.png]]",
@@ -2959,7 +3147,8 @@ export const backlinks = {
     "Inter": {
         "Akzidenz": "- Akin to San Francisco|SF Pro and [[Inter]].",
         "Font Feature": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.",
-        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans CJK KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다."
+        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans CJK KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
+        "San Francisco": "### [[Inter]]"
     },
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
@@ -2984,6 +3173,10 @@ export const backlinks = {
     "22EB14.png": {
         "Font Feature": "![[22EB14.png]]"
     },
+    "65AE9A.png": {
+        "Inter": "![[65AE9A.png]]",
+        "San Francisco": "![[65AE9A.png]]"
+    },
     "Three Column Design": {
         "Horizontally Stacked Interface": "- [[Three Column Design]]: Discord-Like Interface.",
         "Spacial Cognition": "- [[Three Column Design]] and [[Sliding Panes]] are a few ways of giving spacial cognition."
@@ -3001,7 +3194,8 @@ export const backlinks = {
         "Real Interviews": "    - 1 conditional [[BFS]] problem"
     },
     "BC7E6A.png": {
-        "Akzidenz": "![[BC7E6A.png]]"
+        "Akzidenz": "![[BC7E6A.png]]",
+        "San Francisco": "![[BC7E6A.png]]"
     },
     "Grotesque": {
         "Akzidenz": "- A type of [[Grotesque]] [[font]]."
@@ -3162,6 +3356,16 @@ export const backlinks = {
     "Brunch violates SF terms of use": {
         "San Francisco": "- Although [[Brunch violates SF terms of use]]"
     },
+    "D31158.png": {
+        "San Francisco": "![[D31158.png]]"
+    },
+    "E0A8DC.png": {
+        "San Francisco": "![[E0A8DC.png]]",
+        "Toss Product Sans": "![[E0A8DC.png]]"
+    },
+    "CD4751.png": {
+        "San Francisco": "![[CD4751.png]]"
+    },
     "4BE5E2.png": {
         "Letter to Mr. Stephan Ango on 2022-10-19": "![[4BE5E2.png]]"
     },
@@ -3281,9 +3485,6 @@ export const backlinks = {
     "memex": {
         "As We May Think": "... a sort of collective memory machine with his concept of the [[memex]] that would make knowledge more accessible, believing that it would help ..."
     },
-    "Text-based Tools for Thought": {
-        "Tools for Thought": "- [[Text-based Tools for Thought]]: the basic type of tools for thought."
-    },
     "Visual-based Tools for Thought": {
         "Tools for Thought": "- [[Visual-based Tools for Thought]]: add [[infinite canvas]] to text-based versions. involves and exploits [[spacial cognition]]."
     },
@@ -3304,9 +3505,6 @@ export const backlinks = {
     },
     "Reminder Tools": {
         "Tools for Thought": "- [[Reminder Tools]]"
-    },
-    "Data Capturers": {
-        "Tools for Thought": "- [[Data Capturers]]"
     },
     "Classic Blogs": {
         "Tools for Thought": "- [[Classic Blogs]]: just make a post and let Google do the job."
@@ -3373,6 +3571,12 @@ export const backlinks = {
     "8121DD.png": {
         "Horizontally Stacked Interface": "![[8121DD.png]]"
     },
+    "6F64BE.png": {
+        "Toss Product Sans": "![[6F64BE.png]]"
+    },
+    "BFDBF9.png": {
+        "Toss Product Sans": "![[BFDBF9.png]]"
+    },
     "Logseq": {
         "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]]."
     },
@@ -3384,6 +3588,15 @@ export const backlinks = {
     },
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
+    },
+    "9BB870.png": {
+        "Dynamic Viewport Units": "![[9BB870.png]]"
+    },
+    "18A718.png": {
+        "Dynamic Viewport Units": "![[18A718.png]]"
+    },
+    "D1D46A.png": {
+        "Dynamic Viewport Units": "![[D1D46A.png]]"
     },
     "Jest": {
         "Configuring Jest for React Native": "- Configuring [[Jest]] for [[React Native]]"
@@ -3442,6 +3655,21 @@ export const backlinks = {
     "7544D7.png": {
         "Text-based Tools for Thought": "![[7544D7.png]]"
     },
+    "FCA874.png": {
+        "Text-based Tools for Thought": "![[FCA874.png]]"
+    },
+    "9B1EE1.png": {
+        "Text-based Tools for Thought": "![[9B1EE1.png]]"
+    },
+    "9445A6.png": {
+        "Text-based Tools for Thought": "![[9445A6.png]]"
+    },
+    "1FC2DE.png": {
+        "Text-based Tools for Thought": "![[1FC2DE.png]]"
+    },
+    "26D5BF.png": {
+        "Text-based Tools for Thought": "![[26D5BF.png]]"
+    },
     "Paracosm": {
         "Text-based Tools for Thought": "### [[Paracosm]]"
     },
@@ -3480,12 +3708,6 @@ export const backlinks = {
     },
     "2022-11-29": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "## Response on [[2022-11-29]]"
-    },
-    "Treehouse": {
-        "explainpaper.com": "This is insane. [[Treehouse]]"
-    },
-    "BFE3CD.png": {
-        "explainpaper.com": "![[BFE3CD.png]]"
     },
     "Leetcode": {
         "Real Interviews": "  - 3 [[Leetcode]] Easy to Medium Problem"
