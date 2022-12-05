@@ -19,6 +19,7 @@ h1 {
 }
 
 * {
+  color-scheme: dark light;
   --unhovered-transparency: 100%;
   --padding: 1rem;
   --border-radius: 0.5rem;
