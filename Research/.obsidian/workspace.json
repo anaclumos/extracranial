@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "27e25d9f04dd6e5c",
+        "id": "c6e6637826ed1e50",
         "type": "tabs",
         "children": [
           {
-            "id": "694a089a2de36442",
+            "id": "db4e920bea844595",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -124,7 +124,7 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "694a089a2de36442",
+  "active": "db4e920bea844595",
   "lastOpenFiles": [
     "journals/2022-12-04.md",
     "pages/Coding Tests.md",
