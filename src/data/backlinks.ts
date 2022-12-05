@@ -2075,13 +2075,8 @@ export const backlinks = {
     "XTML": {
         "2022-12-04": "- [[XTML]]"
     },
-    "Text-based Tools for Thought": {
-        "2022-12-04": "- Elicit: The AI Research Assistant: [[Text-based Tools for Thought]]",
-        "Thesephist Work Case Study": "### Notation: [[Text-based Tools for Thought]] that automatically links",
-        "Tools for Thought": "- [[Text-based Tools for Thought]]: the basic type of tools for thought."
-    },
     "Conversational AI Tools for Thought": {
-        "2022-12-04": "- [[Conversational AI Tools for Thought]]",
+        "2022-12-04": "- Elicit: The AI Research Assistant: [[Conversational AI Tools for Thought]]",
         "Plateau of Latent Potential": "It could be a form of Extracranial, a Memex, or even [[Conversational AI Tools for Thought]].",
         "Synthote": "- [[Conversational AI Tools for Thought]]",
         "Tools for Thought": "- [[Conversational AI Tools for Thought]]"
@@ -2800,6 +2795,10 @@ export const backlinks = {
     },
     "A933EB.png": {
         "Thesephist Work Case Study": "![[A933EB.png]]"
+    },
+    "Text-based Tools for Thought": {
+        "Thesephist Work Case Study": "### Notation: [[Text-based Tools for Thought]] that automatically links",
+        "Tools for Thought": "- [[Text-based Tools for Thought]]: the basic type of tools for thought."
     },
     "D5AFE5.png": {
         "Thesephist Work Case Study": "![[D5AFE5.png]]"
