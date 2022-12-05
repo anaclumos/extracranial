@@ -49,7 +49,7 @@ slug: '/D518B0'
 
 ## Stage 2
 
-- [ ] [[0232 Implement Queue using Stacks]]: [Link](https://leetcode.com/problems/implement-queue-using-stacks)
+- [x] [[0232 Implement Queue using Stacks]]
 - [ ] [First Bad Version](https://leetcode.com/problems/first-bad-version)
 - [ ] [Ransom Note](https://leetcode.com/problems/ransom-note)
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs)

@@ -5,6 +5,7 @@ slug: '/872B83'
 
 ## Types
 
+- [[Conversational AI Tools for Thought]]
 - [[Text-based Tools for Thought]]: the basic type of tools for thought.
 - [[Visual-based Tools for Thought]]: add [[infinite canvas]] to text-based versions. involves and exploits [[spacial cognition]].
 - [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature to reaccess them quickly.

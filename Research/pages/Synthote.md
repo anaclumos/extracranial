@@ -8,7 +8,7 @@ slug: '/9A0D39'
 - Coined by [[Stephan Ango]]
 - Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?
 - [[Copilot]] is already doing it for codes
-- [[explainpaper.com]]
+- [[Conversational AI Tools for Thought]]
 
 ### [Notion AI](https://www.notion.so/ai)
 
