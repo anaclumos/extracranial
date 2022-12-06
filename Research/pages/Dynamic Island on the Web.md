@@ -9,7 +9,7 @@ slug: '/B21605'
 ## [[2022-11-11]]
 
 - Applied [[Squircle]]
-- Applied Quick Clipping with Framer Motion for performance
+- Applied Quick Clipping with [[Framer Motion]] for performance
 
 ![[D09A61.png]]
 ![[EAC31F.gif]]

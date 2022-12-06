@@ -24,7 +24,7 @@ slug: '/3B14B7'
 - [[Apple]] Neural Engine 적극 활용, 기기 자체에서 폰트 추론하기
 - [[Project]] 기반 (like Procreate)
 - 추출 전 미리보기 (텍스트 쳐보기) 가능
-- 추출 전 여러가지 [[Font Feature|Font Feature]]을 켜고 끄며 미리보기 대조 가능
+- 추출 전 여러가지 [[Font Features]]을 켜고 끄며 미리보기 대조 가능
 - 추출 후 [[Project|프로젝트]]는 Freeze되며 수정할 수 없음. 대신 다운로드 무제한 가능
 
 ## [[Fiercely Overpriced]]
