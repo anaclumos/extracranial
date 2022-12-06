@@ -11,6 +11,7 @@ slug: '/9F7F85'
 Of course. Click on the black oval below. It will display a song I am currently listening to or any of my 30 most recently played songs.
 </Admonition>
 
+import BrowserOnly from '@docusaurus/BrowserOnly'
 import IframeResizer from 'iframe-resizer-react'
 
 <figure
@@ -22,6 +23,7 @@ margin: '0 -16px',
 width: 'calc(100% + 32px)',
 }}
 >
+<BrowserOnly>
 <IframeResizer
 id='dynamic-island'
 style={{
@@ -30,7 +32,7 @@ width: 'calc(100% + 2rem)',
 }}
 src='https://dynamic-island.cho.sh/embed-player'
 />
-
+</BrowserOnly>
 </figure>
 
 <figcaption>
@@ -211,6 +213,7 @@ width: 'calc(100% + 32px)',
 }}
 >
 
+<BrowserOnly>
 <IframeResizer
 id="dynamic-island-phone-call"
 style={{
@@ -219,6 +222,7 @@ width: 'calc(100% + 32px)',
 }}
 src="https://dynamic-island.cho.sh/embed-phone-call"
 />
+</BrowserOnly>
 
 <figcaption>
 

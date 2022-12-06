@@ -63,6 +63,7 @@ const Backlink = (props: Props) => {
                 <Link
                   to={filenames[backlinkTitle]}
                   className={styles.backlinkItemLink}
+                  key={backlink}
                 >
                   <div className={styles.backlinkItem}>
                     <h3
