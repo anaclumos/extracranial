@@ -10,6 +10,7 @@ export const backlinks = {
         "2022-07-19": "오늘은 반드시 [[WorkerDOM]] [[Scheduler]]를 잡아내자.",
         "2022-08-03": "Also, I succeeded on fooling `getBoundingClientRect()` on top of [[WorkerDOM]].",
         "2022-10-02": "- Got an email from the [[WorkerDOM]] team that the [[project]] will not have any major updates",
+        "AMP": "Uses [[WorkerDOM]] under the hood.",
         "Treehouse": "... attempt to run a DOM within a Web Worker. Later affected [[WorkerDOM]] and [[Brane]].",
         "iiframe": "- Does not extend [[WorkerDOM]]."
     },
@@ -145,6 +146,17 @@ export const backlinks = {
         "2022-10-20": "- [[Inspecting Assembly]]",
         "Computer Systems": "- [[Inspecting Assembly]]",
         "GDB": "- [[Inspecting Assembly]]"
+    },
+    "Spellbound": {
+        "2022-05-31": "- [[Spellbound]]",
+        "2022-12-06": "- Reimagining Emails: React Email, AMP, AMP Email, [[Spellbound]]",
+        "AMP Email": "- [[Spellbound]]",
+        "Reimagining Emails": "- Interactive Emails using AMP Email. Example: [[Spellbound]]"
+    },
+    "AMP": {
+        "2022-05-31": "  - Interactive Emails using [[AMP]] under the hood.",
+        "2022-12-06": "- Reimagining Emails: React Email, [[AMP]], [[AMP Email]], [[Spellbound]]",
+        "AMP Email": "... within the email. The AMP email format provides a subset of [[AMP]] [[HTML]] components for use in email messages, allowing recipients of AMP ..."
     },
     "Kakao": {
         "2022-05-30": "- [[Kakao]] will announce its remote work policy today.",
@@ -374,6 +386,22 @@ export const backlinks = {
     },
     "Technocapital and Biocapital": {
         "2022-12-06": "- [[Technocapital and Biocapital]]"
+    },
+    "Reimagining Emails": {
+        "2022-10-19": "- [[Reimagining Emails]]",
+        "2022-12-06": "- [[Reimagining Emails]]: [[React Email]], [[AMP]], [[AMP Email]], [[Spellbound]]",
+        "Alexander Obenauer": "- Interested in [[Reimagining Emails]]",
+        "Emails and Decentralized Protocols": "- Alexander Obenauer: My career began with [[Reimagining Emails]] and finding ways to build that vision on top of the ..."
+    },
+    "React Email": {
+        "2022-12-06": "- Reimagining Emails: [[React Email]], [[AMP]], [[AMP Email]], [[Spellbound]]",
+        "Reimagining Emails": "- [[React Email]]"
+    },
+    "AMP Email": {
+        "2022-12-06": "- Reimagining Emails: React Email, AMP, [[AMP Email]], [[Spellbound]]",
+        "React Email": "Seems like instead of making emails interactive like [[AMP Email]]",
+        "Reimagining Emails": "- Interactive Emails using [[AMP Email]]. Example: [[Spellbound]]",
+        "Spellbound": "- [[AMP Email]]"
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
@@ -1611,11 +1639,6 @@ export const backlinks = {
         "2022-10-19": "- [[Buttondown]]",
         "Newsletter Network": "- Stephan Ango uses [[Buttondown]]"
     },
-    "Reimagining Emails": {
-        "2022-10-19": "- [[Reimagining Emails]]",
-        "Alexander Obenauer": "- Interested in [[Reimagining Emails]]",
-        "Emails and Decentralized Protocols": "- Alexander Obenauer: My career began with [[Reimagining Emails]] and finding ways to build that vision on top of the ..."
-    },
     "Letter to Mr. Stephan Ango on 2022-10-19": {
         "2022-10-19": "- [[Letter to Mr. Stephan Ango on 2022-10-19]]",
         "2022-10-20": "- [[Letter to Mr. Stephan Ango on 2022-10-19]]"
@@ -1962,6 +1985,7 @@ export const backlinks = {
     },
     "HTML": {
         "2022-06-12": "... rehydration is a technique in which client-side JavaScript converts a static [[HTML]] web page, delivered either through static hosting or server-side rendering, into ...",
+        "AMP Email": "... the email. The AMP email format provides a subset of AMP [[HTML]] components for use in email messages, allowing recipients of AMP emails ...",
         "CSS": "... presentation of a document written in a markup language such as [[HTML]] or XML (including XML dialects such as [[SVG (File Format)]], MathML, ...",
         "DOM": "... is a cross-platform and language-independent interface that treats an XML or [[HTML]] document as a tree structure wherein each node is an object ...",
         "JSX (File Format)": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
@@ -2010,7 +2034,7 @@ export const backlinks = {
     },
     "Simulated Annealing for Designs": {
         "2022-11-11": "- [[Simulated Annealing for Designs]]",
-        "Repeated Designs": "- [[Simulated Annealing for Designs]]: Good Design"
+        "Repeated Designs": "[[Simulated Annealing for Designs]]: Good Design"
     },
     "Lazy": {
         "2022-11-11": "- [[Lazy]]: [[Tools for Thought]]",
@@ -2789,6 +2813,9 @@ export const backlinks = {
         "Internetworking": "- [[IP]]",
         "Preservation of Data": "- Find another [[IP]] without restrictions you are facing."
     },
+    "2576C7.png": {
+        "Spellbound": "![[2576C7.png]]"
+    },
     "markdown": {
         "Markdown Email Client": "- We desperately need a reader mode for [[markdown]] emails!",
         "Project Alter": "Imgbot model. Goes through all images and will replace [[markdown]] images without alt text"
@@ -3543,6 +3570,9 @@ export const backlinks = {
     "greedy": {
         "Real Exams": "- 1 [[greedy]]"
     },
+    "33434F.png": {
+        "AMP Email": "![[33434F.png]]"
+    },
     "Delta Time": {
         "Game Programming": "- [[Delta Time]]",
         "Graphics Engine Process": "    - Calculate [[Delta Time]]"
@@ -3865,6 +3895,12 @@ export const backlinks = {
     },
     "FED5B0.png": {
         "The Demise of Chatbots in 2017": "![[FED5B0.png]]"
+    },
+    "E01067.png": {
+        "React Email": "![[E01067.png]]"
+    },
+    "9CA7ED.png": {
+        "React Email": "![[9CA7ED.png]]"
     },
     "Height": {
         "Linear": "- An issue tracking service, like [[Height]], or [[Jira]]"

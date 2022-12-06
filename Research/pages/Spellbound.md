@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/B87B25'
 ---
 
 - [Spellbound](https://www.spellbound.io/)
