@@ -31,6 +31,11 @@ const navbar = {
       position: 'left',
     },
     {
+      to: '/random',
+      label: 'Random',
+      position: 'left',
+    },
+    {
       type: 'doc',
       docId: 'Hey',
       position: 'left',
