@@ -16,6 +16,7 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 ## Reading
 
 - [ ] Exhalation
+- [ ] 유난한 도전
 
 ## To-read
 
@@ -26,6 +27,7 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 - [ ] 도해 타이완사
 - [ ] 허삼관 매혈기
 - [ ] 삼체
+- [ ] black swan
 
 ## Stopped
 
