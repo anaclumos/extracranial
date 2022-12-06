@@ -43,7 +43,7 @@ making list of length 52
 [1]    6919 killed     python3 experiment3.py
 ```
 
-- Also made a C++ variant, but a meaningful difference is unlikely.
+- Also made a [[C++]] variant, but a meaningful difference is unlikely.
 
 ## [[2022-11-25]]
 

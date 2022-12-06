@@ -3,9 +3,9 @@ date: 2021-07-14
 slug: '/4B15E0'
 ---
 
-## 프로젝트 목표
+## [[Project|프로젝트]] 목표
 
-- [[Tailwind]] CSS를 임의의 TypeScript Next 프로젝트에 적용
+- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용
 - [[Tailwind]] CSS 디자인 패턴에 대한 기초적인 이해
 - [[Tailwind]] CSS 디자인 시스템에 대한 기초적인 이해
 
@@ -19,7 +19,7 @@ slug: '/4B15E0'
 
 [Documentation - Tailwind CSS](https://tailwindcss.com/docs/)
 
-### #0 프로젝트 설정
+### #0 [[Project|프로젝트]] 설정
 
 - 기초적인 TypeScript Next App 설정
 

@@ -13,7 +13,7 @@ slug: '/E0C34F'
 
 ## 과정
 
-- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 프로젝트를 생성한다.
+- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.
 
 ```bash
 npx create-snowpack-app gif-converter --template @snowpack/app-template-react
@@ -125,7 +125,7 @@ export default App
 }
 ```
 
-## GitHub Pages에 Snowpack App 호스팅 및 시행착오
+## [[GitHub]] Pages에 Snowpack App 호스팅 및 시행착오
 
 - [기존에 사용하던 방식](https://blog.chosunghyun.com/kr-react-app-on-github-pages/)으로 GitHub Pages에 띄우려고 했다. 그런데 `_dist_` 폴더의 `index.html`에서 404 Not Found가 발생했다.
 - 빌드하면서 `docs` 폴더 및 `build` 폴더를 초기화하는 스크립트 추가 (기존 방식에서도 포함하고 있는 기능인데 처음에는 단순히 폴더명을 `build`에서 `docs`로 바꾸는 기능만 넣고 이 부분을 포함하지 않았다.) 문제가 해결되지 않았다.
@@ -157,7 +157,7 @@ mount: {
 - 하지만 여전히 `_snowpack_` 폴더 내부의 파일이나 `web_modules` 폴더 내의 결과물은 404 Not Found 상태였다.
 - 이때부터 GitHub Pages가 `_` 폴더를 인식하지 못한다는 것을 알게 되었다.
 - 약간의 조사를 해 보니 GitHub Pages에 기본으로 포함된 Jekyll 전처리 기능 때문이라는 것을 알게 되었다. [참고 링크](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)
-- 때문에 다시 `.nojekyll` 파일을 추가해보았다. `npm run build` 명령어를 다시 수정해 다음 명령어를 추가했다. 이를 통해 프로젝트를 build할 때마다 자동으로 `.nojekyll` 파일이 추가되도록 만들었다.
+- 때문에 다시 `.nojekyll` 파일을 추가해보았다. `npm run build` 명령어를 다시 수정해 다음 명령어를 추가했다. 이를 통해 [[Project|프로젝트]]를 build할 때마다 자동으로 `.nojekyll` 파일이 추가되도록 만들었다.
 
 ```bash
 ... && touch docs/.nojekyll
@@ -189,4 +189,4 @@ Create-Snowpack-App을 GitHub Pages에 올리기 위해서는 다음을 해야�
 
 ## 아쉬운 점
 
-- Random Commit이 많았다. GitHub Pages에 정상적으로 결과가 반영되는지를 확인하기 위해 일단 업로드해야했기 때문이다. 결과적으로 GitHub의 설정 (`.nojekyll` 등) 때문에 오류가 발생됐던 것이라 불가피했다고 생각한다.
+- Random Commit이 많았다. [[GitHub]] Pages에 정상적으로 결과가 반영되는지를 확인하기 위해 일단 업로드해야했기 때문이다. 결과적으로 [[GitHub]]의 설정 (`.nojekyll` 등) 때문에 오류가 발생됐던 것이라 불가피했다고 생각한다.

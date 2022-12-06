@@ -22,25 +22,25 @@ I never expected this project to end up on such a consequential scale. This proj
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   796     25386     6197         0    19189          0
+Markdown                   797     25401     6202         0    19199          0
 SVG                         57        57        0         0       57          0
-TypeScript                  48      7170      146        53     6971        143
-JSON                        35      2101        0         0     2101          0
+TypeScript                  48      7270      146        53     7071        143
+JSON                        35      2100        0         0     2100          0
 CSS                         34      2873      201        30     2642          0
-Python                       6       383       47        29      307         91
+Python                       6       392       47        29      316         92
 YAML                         6        30        2         0       28          0
 JavaScript                   2      1157        4      1038      115         21
 Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                      989     39551     6688      1224    31639        255
+Total                      990     39674     6693      1224    31757        256
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,015,849
-Estimated Schedule Effort (organic) 13.84 months
-Estimated People Required (organic) 6.52
+Estimated Cost to Develop (organic) $1,019,827
+Estimated Schedule Effort (organic) 13.86 months
+Estimated People Required (organic) 6.54
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1794007 bytes, 1.794 megabytes (SI)
+Processed 1809149 bytes, 1.809 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

@@ -2,16 +2,35 @@ export const backlinks = {
     "WorkerDOM": {
         "2022-06-14": "  - 이 세부 전략으로 [[WorkerDOM]]을 쓸 수도 있고, 고쳐서 쓸 수도 있고, 새로 만들 수도 있고, ...",
         "2022-06-22": "Google's [[WorkerDOM]] has no event algorithm.",
-        "2022-06-26": "- Explore SharedArrayBuffer, Atomic, and [[WorkerDOM]]'s Binary DOM manipulation.",
-        "2022-06-27": "- Confirm [[WorkerDOM]]'s Binary DOM Manipulation channel.",
+        "2022-06-26": "- Explore SharedArrayBuffer, Atomic, and [[WorkerDOM]]'s Binary [[DOM]] manipulation.",
+        "2022-06-27": "- Confirm [[WorkerDOM]]'s Binary [[DOM]] Manipulation channel.",
         "2022-07-06": "### Brane [[WorkerDOM]] Non-blocking Example",
         "2022-07-11": "Currently, [[WorkerDOM]] only has asynchronous data channels.",
         "2022-07-12": "### Scheduler|Schedulers in [[WorkerDOM]]",
         "2022-07-19": "오늘은 반드시 [[WorkerDOM]] [[Scheduler]]를 잡아내자.",
         "2022-08-03": "Also, I succeeded on fooling `getBoundingClientRect()` on top of [[WorkerDOM]].",
-        "2022-10-02": "- Got an email from the [[WorkerDOM]] team that the project will not have any major updates",
+        "2022-10-02": "- Got an email from the [[WorkerDOM]] team that the [[project]] will not have any major updates",
         "Treehouse": "... attempt to run a DOM within a Web Worker. Later affected [[WorkerDOM]] and [[Brane]].",
         "iiframe": "- Does not extend [[WorkerDOM]]."
+    },
+    "project": {
+        "2022-07-01": "I like the CODE Procedure in PARA architecture as a [[project]] management system, which does more than [[PKM]]. To be exact, [[PKM]] ...",
+        "2022-08-03": "Brane is a vast [[project]] that a single intern can't finish.",
+        "2022-10-02": "- Got an email from the WorkerDOM team that the [[project]] will not have any major updates",
+        "2022-10-27": "- Goongoom is a side startup [[project]] that never made it to the market.",
+        "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
+        "Brane": "Brane is an experimental [[project]] that aims to build a secure, convenient third-party app environment based ...",
+        "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
+        "GitHub": "... software feature requests, task management, continuous integration, and wikis for every [[project]]. Headquartered in California, it has been a subsidiary of Microsoft since ...",
+        "Goongoom": "- Side startup [[project]] that never made it to the market.",
+        "Jira": "... issue-tracking product developed by Atlassian that allows bug tracking and agile [[project]] management. Jira (software)>)",
+        "Kubernetes": "... designed Kubernetes, but the Cloud Native Computing Foundation now maintains the [[project]].",
+        "Notion": "> Notion is a [[project]] management and note-taking software platform designed to help members of companies ...",
+        "Preservation of Data": "> The LOCKSS (\"Lots of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford University, is a peer-to-peer network that ...",
+        "Project PEOPLE": "Project PEOPLE is a mass-scale interview [[project]].",
+        "Wikiversity": "> Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning projects, and research for use in ...",
+        "sem.sh": "> The [[project]] name originates from the Pure Korean word meaning numerics and statistics ...",
+        "사회과부도": "- Potentially Discarded, due to the same [[project]] existing at Worldmapper | rediscover the world as you've never seen ..."
     },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
@@ -43,7 +62,7 @@ export const backlinks = {
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
         "2022-12-04": "- The Verge is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, ...",
         "Edge Networks": "- [[Vercel]] & Vercel Edge Functions",
-        "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/Satori, Logseq/Logseq, Etc. I came across Heptabase and wanted to speak with ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across Heptabase and wanted to speak with ...",
         "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
         "Paracosm": "... & Extracranial Tools for Thought that aims to replace Docusaurus with [[Vercel]]'s tech stacks.",
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting ...",
@@ -67,7 +86,7 @@ export const backlinks = {
     },
     "SharedArrayBuffer": {
         "2022-06-22": "  - WorkerDOM will harness [[SharedArrayBuffer]].",
-        "2022-06-26": "- Explore [[SharedArrayBuffer]], Atomic, and [[WorkerDOM]]'s Binary DOM manipulation.",
+        "2022-06-26": "- Explore [[SharedArrayBuffer]], Atomic, and [[WorkerDOM]]'s Binary [[DOM]] manipulation.",
         "2022-06-27": "- Learn more about Atomics (JavaScript) and [[SharedArrayBuffer]]",
         "2022-07-11": "... follows the same interface as `postMessage` but is internally made with [[SharedArrayBuffer]].",
         "2022-07-12": "   - This involves [[SharedArrayBuffer|SAB]]",
@@ -157,13 +176,13 @@ export const backlinks = {
     },
     "Brane": {
         "2022-06-14": "## [[Brane]]",
-        "2022-06-22": "## [[Brane]] Project Demo Spec",
+        "2022-06-22": "## [[Brane]] [[Project]] Demo Spec",
         "2022-06-26": "## [[Brane]] Notes",
         "2022-07-05": "... business. I do PoCs that have never been done before, i.e., [[Brane]]",
         "2022-07-06": "### [[Brane]]",
         "2022-07-11": "## [[Brane]] Notes",
         "2022-07-12": "On 2022-07-11, I analyzed that [[Brane]] is harder than it seems.",
-        "2022-08-03": "[[Brane]] is a vast project that a single intern can't finish.",
+        "2022-08-03": "[[Brane]] is a vast [[project]] that a single intern can't finish.",
         "Providing DOM API to Worker Threads": "- Part of [[Brane]]",
         "Treehouse": "... run a DOM within a Web Worker. Later affected WorkerDOM and [[Brane]].",
         "WorkerDOM": "[[Brane]] will follow WorkerDOM's core model.",
@@ -186,8 +205,19 @@ export const backlinks = {
         "TypeScript": "- Typed [[JavaScript]]."
     },
     "DOM": {
+        "2022-06-14": "- Brane에서 Brane [[DOM]]을 만드는 것은 구현 전략의 일부일 뿐, Brane DOM 자체는 Brane이 아니다.",
+        "2022-06-22": "  - the question revolves: what [[DOM]] API should [[WorkerDOM]] support?",
+        "2022-06-26": "- Explore SharedArrayBuffer, Atomic, and WorkerDOM's Binary [[DOM]] manipulation.",
+        "2022-06-27": "- Confirm WorkerDOM's Binary [[DOM]] Manipulation channel.",
         "2022-07-11": "This giant object has lots of APIs which look exactly like [[DOM]] APIs.",
-        "Treehouse": "... back to 2012-, Treehouse was the first attempt to run a [[DOM]] within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]]."
+        "DOM Reflow": "... element's children, ancestors, and elements that appear after it in the [[DOM]]",
+        "HTMX": "... response to replace the element with the id `parent-div` in the [[DOM]].\" htmx - Documentation",
+        "Programmable Web": "... provide a more secure way to access selective parts of the [[DOM]].",
+        "Providing DOM API to Worker Threads": "- Provide synchronous [[DOM]] API Access to [[Web Worker]] Threads",
+        "React": "... only concerned with state management and rendering that state to the [[DOM]], so creating React applications usually requires additional libraries for routing and ...",
+        "Svelte": "... instead, Svelte compiles HTML templates to specialized code that manipulates the [[DOM]] directly, which may reduce the size of transferred files and give ...",
+        "Treehouse": "... back to 2012-, Treehouse was the first attempt to run a [[DOM]] within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]].",
+        "WorkerDOM": "Google's take on providing [[DOM]] access to [[Web Worker]] Threads."
     },
     "AB57BB.png": {
         "2022-07-11": "![[AB57BB.png]]"
@@ -200,6 +230,10 @@ export const backlinks = {
     },
     "EFE641.png": {
         "2022-07-11": "![[EFE641.png]]"
+    },
+    "throughput": {
+        "2022-07-11": "Wouldn't this yield much higher [[throughput]]? (No, it wouldn't.)",
+        "BitTorrent": "... the constant pressure of some unfulfilled requests. This can increase the [[throughput]] of our connection by order of magnitude"
     },
     "Scheduler": {
         "2022-07-11": "Brane requires explicit [[Scheduler|schedulers]] and abstractions to overcome these shortcomings.",
@@ -265,6 +299,10 @@ export const backlinks = {
         "Andy Matuschak": "... Matuschak advanced ideas in Ahrens' book by introducing the concept of \"[[Evergreen notes]]\". Instead of just having a blog post on the topic, Matuschak ...",
         "PKM": "... grow into a creative garage | Focuses on creating and tending [[Evergreen notes]] posts that grow into a knowledge base |",
         "Transient Notes": "- Antonym: [[Evergreen notes]]"
+    },
+    "CODE Procedure": {
+        "2022-07-01": "I like the [[CODE Procedure]] in [[PARA]] architecture as a [[project]] management system, which does more ...",
+        "PARA": "- Often used with [[CODE Procedure]]"
     },
     "P vs NP": {
         "2022-07-01": "- [[P vs NP]]",
@@ -429,6 +467,7 @@ export const backlinks = {
         "2022-11-28": "## [[Hacker News|HN]]",
         "2022-11-29": "## [[Hacker News|HN]]",
         "2022-11-30": "## [[Hacker News|HN]]",
+        "2022-12-05": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -465,6 +504,8 @@ export const backlinks = {
         "2022-11-28": "- [[One Word Domains]]"
     },
     "Project": {
+        "2022-06-14": "- 티어링이란 이 [[Project|프로젝트]]가 빌딩 블록으로 제공될 때, 아주 필수적인 코어 기능으로 제공될 영역과, ON-OFF ...",
+        "2022-06-22": "## Brane [[Project]] Demo Spec",
         "2022-10-31": "## [[Project]]",
         "2022-11-03": "## [[Project]]",
         "2022-11-04": "## [[Project]]",
@@ -491,6 +532,7 @@ export const backlinks = {
         "2022-11-28": "## [[Project]]",
         "2022-11-29": "## [[Project]]",
         "2022-11-30": "## [[Project]]",
+        "2022-12-05": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "- Someday [[Project]]",
@@ -503,26 +545,40 @@ export const backlinks = {
         "Chopstick Game": "- Someday [[Project]]",
         "Coding Tests": "- [[Project]]",
         "Cube": "- Someday [[Project]]",
+        "Developing Review Notes for Obsidian": "2022-07-19 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
         "Digital Addictions of Software Enthusiasts": "- Someday [[Project]]",
         "Dynamic Island on the Web": "- [[Project]]",
         "FFMpeg for iPad": "- Someday [[Project]]",
         "Intracranial": "- Someday [[Project]]",
+        "Krafton Way": "... 능력을 검증해야 한다”고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
         "Markdown Email Client": "- Someday [[Project]]",
         "Metadata as a Service": "- Someday [[Project]]",
+        "Microproject": "- [[Project]] should finish within a day.",
         "Not-So-Procrastinating Lazy Loading": "- Someday [[Project]]",
         "Off The Record": "- Someday [[Project]]",
         "Old Fashioned Camera": "- Someday [[Project]]",
         "Open Graph Image as a Service": "- Someday [[Project]]",
+        "PDF (File Format)": "... needed to display it. PDF has its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John Warnock in 1991. PDF",
+        "Person 1B5A5B": "- Junior = [[Project]] Executors.",
         "Project PEOPLE": "- [[Project]]",
         "Quoridor Game": "- Someday [[Project]]",
         "Separation of Computer Scientists and Computer Technologists": "- Someday [[Project]]",
+        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
+        "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "The New Era of macOS Applications": "- Someday [[Project]]",
         "Timebelt": "- Someday [[Project]]",
         "TossFace Playground": "- [[Project]] [[Done]]",
+        "Vannevar Bush": "... in radar and the initiation and early administration of the Manhattan [[Project]]. He emphasized the importance of scientific research to national security and ...",
+        "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 `http` 모듈 (당연히 `express` 모듈도) 없이 `http` 서버를 구현하는 Project|프로젝트가 ...",
         "iiframe": "- Someday [[Project]]",
         "sem.sh": "- Someday [[Project]]",
+        "두 번째 뇌": "나는 더 간단하게 [[Project|프로젝트]], 연구, 그리고 독서록으로 분리했다.",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "하지만 이렇게 떠나보낼 수는 없다. 최근 알게 된 [[Project|프로젝트]] 중 라즈베리 파이로 스마트 오디오 시스템을 구축하는 Project|프로젝트가 있었다. 블루투스, 에어플레이, ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 여러 이유로 못하는 팀도 있다. 물론 e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, 품질 관리) 팀 같은 경우에는 e2e ...",
         "사회과부도": "- Someday [[Project]]",
-        "조선왕조실록": "- Someday [[Project]]"
+        "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
+        "조선왕조실록": "- Someday [[Project]]",
+        "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다."
     },
     "2022년 11월 한 달간 일기 쓰기": {
         "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
@@ -588,7 +644,7 @@ export const backlinks = {
     },
     "2022-07-19": {
         "2022-07-21": "See [[2022-07-19]].",
-        "Developing Review Notes for Obsidian": "[[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 프로젝트를 해본다."
+        "Developing Review Notes for Obsidian": "[[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다."
     },
     "A3435F.png": {
         "2022-07-21": "![[A3435F.png]]"
@@ -602,7 +658,7 @@ export const backlinks = {
         "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
         "Project Alter": "... the change of hash collision, to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM.",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ...",
-        "WorkerDOM": "[[Google]]'s take on providing DOM access to [[Web Worker]] Threads."
+        "WorkerDOM": "[[Google]]'s take on providing [[DOM]] access to [[Web Worker]] Threads."
     },
     "17CFA2.png": {
         "2022-07-21": "![[17CFA2.png]]"
@@ -706,6 +762,7 @@ export const backlinks = {
         "2022-07-20": "A successor language for [[C++]] requires:",
         "Coding Tests": "- Will use Python (main language) and [[C++]] (supplementary language)",
         "Handling files in Unix": "- handling networking in [[C++]] is also using [[File Descriptor]] for sockets.",
+        "Mathematics under The Library of Babel": "- Also made a [[C++]] variant, but a meaningful difference is unlikely.",
         "Real Exams": "  - required a deep understanding of [[C++]] recent specs"
     },
     "Interoperability": {
@@ -956,7 +1013,7 @@ export const backlinks = {
         "Cube": "- [[FIRE Engine]]",
         "FIRE": "- [[FIRE Engine]]",
         "Intracranial": "- [[FIRE Engine]]",
-        "Old Fashioned Camera": "- 백엔드와 프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임"
+        "Old Fashioned Camera": "- 백엔드와 Front-end|프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임"
     },
     "Realm Shim": {
         "2022-05-30": "- What is [[Realm Shim]]?"
@@ -984,7 +1041,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0020 Valid Parentheses]]"
     },
     "Notion": {
-        "2022-07-07": "I think even [[Notion]] is too complicated for personal task managing.",
+        "2022-07-07": "Even [[Notion]] is too complicated for personal task management.",
         "2022-07-10": "- [[Notion]] opened a new paradigm for low-code websites. [[Project PEOPLE]] now create ...",
         "2022-11-16": "- Notion AI: [[Notion]]'s [[Synthote]]",
         "Collaboration-based Tools for Thought": "### [[Notion]]",
@@ -1057,11 +1114,16 @@ export const backlinks = {
     "Obsidian": {
         "2022-07-18": "- [[Obsidian]]-like [[Tools for Thought]]",
         "2022-10-13": "- [[Obsidian]] is now out of beta",
+        "2022-10-21": "- Stephan Ango: also created [[Obsidian]] Minimal Settings.",
         "Better Obsidian": "## Extension Ideas for [[Obsidian]]",
+        "Developing Review Notes for Obsidian": "이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 API 문서를 탐독하면서 이런 저런 발견 ...",
+        "Letter to Mr. Stephan Ango on 2022-10-19": "If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... the web. My entire research page (https://cho.sh/r/) runs on heavily customized [[Obsidian]], Nota, and Docusaurus, serving as my daily note-taking platform after figuring ...",
         "Nota": "Awesome alternative to [[Obsidian]].",
         "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]",
         "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer",
-        "Stephan Ango": "- Currently works at [[Obsidian]]"
+        "Stephan Ango": "- Currently works at [[Obsidian]]",
+        "The New Era of macOS Applications": "- Notes. Notion → [[Obsidian]] → Nota."
     },
     "Cross-Platform AirDrops": {
         "2022-10-13": "- Taildrop · Tailscale: [[Cross-Platform AirDrops]] [[Tailscale]]",
@@ -1125,7 +1187,7 @@ export const backlinks = {
         "2022-12-04": "- The Verge is now built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, @vercel, and ...",
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
-        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next 프로젝트에 적용"
+        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용"
     },
     "Stable Diffusion": {
         "2022-11-29": "### [[Stable Diffusion]]",
@@ -1213,7 +1275,7 @@ export const backlinks = {
     },
     "HTMX": {
         "2022-10-18": "- [[HTMX]]",
-        "Front-end Framework": "- [[HTMX]]"
+        "Front-end": "- [[HTMX]]"
     },
     "Screenplay": {
         "2022-10-18": "- Screenplays [[Screenplay]]"
@@ -1306,7 +1368,7 @@ export const backlinks = {
         "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
         "2022-10-25": "## [[Next.js]] Conf",
         "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with ...",
-        "Front-end Framework": "- [[Next.js]]",
+        "Front-end": "- [[Next.js]]",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]"
     },
     "The New Era of macOS Applications": {
@@ -1432,6 +1494,12 @@ export const backlinks = {
         "Virtual Address Space and Physical Address Space": "- if the memory is big enough, the [[OS]] uses the physical memory (RAM)",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 수 있다. 좌측 상단에 있는 Add Device 버튼을 누르면 다음과 같이 [[OS]]를 다운로드할 수 있는 창이 나타난다."
     },
+    "Throughput": {
+        "2022-06-14": "  - DOM 퍼포먼스를 확인하기 위해 [[Throughput]]이 높은 DBMon을 사용한다.",
+        "Internetworking": "- [[Throughput]]",
+        "Latency and Throughput": "## [[Throughput]]",
+        "Memory Wall": "  - Improve [[Throughput]]"
+    },
     "WebAssembly": {
         "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.",
         "2022-10-14": "- [[WebAssembly]]",
@@ -1481,7 +1549,7 @@ export const backlinks = {
     },
     "Stephan Ango": {
         "2022-10-19": "- [[Stephan Ango]]",
-        "2022-10-21": "- [[Stephan Ango]]: also created Obsidian Minimal Settings.",
+        "2022-10-21": "- [[Stephan Ango]]: also created [[Obsidian]] Minimal Settings.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Stephan Ango]]",
         "Newsletter Network": "- [[Stephan Ango]] uses [[Buttondown]]",
         "Now Page": "### [[Stephan Ango]]",
@@ -1572,7 +1640,7 @@ export const backlinks = {
         "2022-09-09": "- It's a stand-alone TypeScript+Rust/WASM library with its own [[React]]-like run-time. If you're familiar with React, you will feel right at ...",
         "2022-09-10": "- [[React]] components library with native dark theme support",
         "Developing Review Notes for Obsidian": "### [[React]] 전환",
-        "Front-end Framework": "- [[React]]",
+        "Front-end": "- [[React]]",
         "JSX (File Format)": "... Syntax Extension and occasionally referred to as JavaScript XML) is a [[React]] extension to the JavaScript language syntax, which provides a way to ...",
         "Jest": "... large web applications. It works with projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and Svelte. Jest doesn't require a lot of configuration ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... use Obsidian for my Memex, but I have built a custom [[React]] application for presenting on the web instead of Obsidian Publish.",
@@ -1768,6 +1836,8 @@ export const backlinks = {
     "Satori": {
         "2022-10-11": "- [[Satori]]",
         "2022-11-14": "- [[Satori]]: Create OG images for your blog with Next.js",
+        "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, Vercel/[[Satori]], Logseq/Logseq, Etc. I came across Heptabase and wanted to speak with ...",
+        "Stories Behind Satori": "The potential candidates for [[Satori]] included:",
         "WebAssembly": "- [[Satori]]"
     },
     "LLM": {
@@ -1852,9 +1922,13 @@ export const backlinks = {
         "JSX (File Format)": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
         "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
         "Markdown Email Client": "- Then... it sends as a beautiful and clean [[HTML]] email!",
+        "Preservation of Data": "Save the raw [[HTML]] and process it later.",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly ([[HTML]]/[[CSS]])",
-        "Tailwind": "> Rapidly build modern websites without ever leaving your [[HTML]]. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, ..."
+        "Tailwind": "> Rapidly build modern websites without ever leaving your [[HTML]]. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, ...",
+        "XTML": "What if stale [[HTML]] elements can have some neat features?",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 IP 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 포토샵으로 삭제했다.",
+        "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. 특정 텍스트를 강조하고 싶다면 다음과 ..."
     },
     "水適穿石": {
         "2022-06-12": "- [[水適穿石]]",
@@ -1932,6 +2006,7 @@ export const backlinks = {
         "2022-08-01": "... it a lot — it combines the neatness and readability of [[San Francisco|SF Pro]] and the uniqueness of IBM Plex Sans.",
         "2022-12-04": "- [[San Francisco]]",
         "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter]].",
+        "Apple Newsroom 서체 따라하기": "... 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.",
         "Brunch violates SF terms of use": "... Korean writing service Brunch violates Apple's Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].",
         "Font Feature": "- [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.",
         "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
@@ -1979,6 +2054,16 @@ export const backlinks = {
         "Fiercely Overpriced": "To attain FIRE, we have previously explored that [[Software as a Service]] would be one way to go.",
         "Social Coding": "- [[Software as a Service]] businesses with network effects are rare, but when they work, they ...",
         "Software as a Service": "We expect we could attain FIRE through [[Software as a Service]]."
+    },
+    "Roam Research": {
+        "2022-07-07": "I believe that [[Roam Research]] and [[Logseq]] are at the culminating position of this simplicity.",
+        "Better Obsidian": "  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].",
+        "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser",
+        "Text-based Tools for Thought": "### [[Roam Research]]"
+    },
+    "Logseq": {
+        "2022-07-07": "I believe that Roam Research and [[Logseq]] are at the culminating position of this simplicity.",
+        "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]]."
     },
     "0242 Valid Anagram": {
         "2022-09-04": "- [[0242 Valid Anagram]]",
@@ -2320,6 +2405,16 @@ export const backlinks = {
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly (HTML/[[CSS]])",
         "Tailwind": "... Rapidly build modern websites without ever leaving your HTML. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, and rotate-90 that ..."
     },
+    "Front-end": {
+        "Ghost 테마를 자동 배포하는 방법": "... 사용한다. Ghost CMS는 헤드리스하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 수 있다는 것이다. 하지만 Ghost 2까지는 ...",
+        "HTMX": "- A [[Front-end]]",
+        "Old Fashioned Camera": "- 백엔드와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임",
+        "React": "... (also known as React.js or ReactJS) is a free and open-source [[Front-end|front-end]] JavaScript library for building user interfaces based on UI components. It ...",
+        "Satori": "- Works with any framework or [[Front-end|frontend]] application",
+        "Svelte": "> Svelte is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris and maintained by the Svelte core ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트]]엔드에는 리액트와 타입스크립트를 쓰고 있다. 하지만 권장 사항일 뿐이다. 제품과 부서에 따라 ...",
+        "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 화두로 나타난다. 이런 주제들은 모양만 바뀔 ..."
+    },
     "Font": {
         "CalliFontia": "- Apple Pencil Handwriting → [[Font]]",
         "Font Feature": "- CSS property to enhance legibilities of a [[Font]].",
@@ -2569,6 +2664,20 @@ export const backlinks = {
     "extracranial": {
         "Stephan Ango": "- [[extracranial]] @ Stephan Ango"
     },
+    "GitHub": {
+        "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
+        "Snowpack으로 WASM 시작하기": "## [[GitHub]] Pages에 Snowpack App 호스팅 및 시행착오",
+        "Social Coding": "- [[GitHub]] is removing the trending tab at the end of this month ...",
+        "Svelte": "... Its source code is licensed under MIT License and hosted on [[GitHub]]. Svelte",
+        "YCLF 주간 사용자 1000명": "[[GitHub]] 이슈를 남겨준 분들도 계셨고 메일을 보내주신 분들도 계셨다. 유용한 피드백을 많이 ...",
+        "sem.sh": "- [[GitHub]] Profile Widget",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "우선 balenaSound GitHub Repository에 들어가서 저장소를 내려받는다. [[GitHub]]을 사용하지 않는 사람이라면 웹사이트에 있는 Clone or Download 버튼을 누른 뒤 ...",
+        "배달의민족 FE 개발자가 일하는 법 발표": "... 사용했다. 빠른 것 같고 좋은데, 장애를 겪고 나면 생각이 달라진다. 예전에는 [[GitHub]]를 사용하다가 요즘에는 비슷한 도구 (GitLab) 을 사용한다. 그래서 PR을 하고 올리면 ..."
+    },
+    "blockchain": {
+        "Ethereum RPC as a Service": "... RPC is the primary way that you query data on the [[blockchain]]. AWS offers a similar product, AWS Managed Blockchain. Essentially these are ...",
+        "Web3": "- Censorship-resistant” [[blockchain]] social networks became saturated with spam, driving away their actual users"
+    },
     "B9AA95.png": {
         "Web Graphics": "![[B9AA95.png]]"
     },
@@ -2637,11 +2746,15 @@ export const backlinks = {
         "Preservation of Data": "- Find another [[IP]] without restrictions you are facing."
     },
     "markdown": {
-        "Markdown Email Client": "- We desperately need a reader mode for [[markdown]] emails!"
+        "Markdown Email Client": "- We desperately need a reader mode for [[markdown]] emails!",
+        "Project Alter": "Imgbot model. Goes through all images and will replace [[markdown]] images without alt text"
     },
     "초상권 vs 저작권": {
         "CELLO": "- [[초상권 vs 저작권]]",
         "퍼블리시티권": "- [[초상권 vs 저작권]]"
+    },
+    "endianness": {
+        "Structs and Unions": "- Bytes can be stored in reversed order depending on the [[endianness]]."
     },
     "BA8C9D.png": {
         "벌금과 물가": "- ![[BA8C9D.png]]"
@@ -2709,9 +2822,6 @@ export const backlinks = {
     },
     "Sources of Packet Delay": {
         "Internetworking": "- [[Sources of Packet Delay]]"
-    },
-    "Throughput": {
-        "Internetworking": "- [[Throughput]]"
     },
     "Internet Protocol Stack": {
         "Internetworking": "- [[Internet Protocol Stack]]"
@@ -2880,6 +2990,8 @@ export const backlinks = {
         "Reverse Engineering Apple Music API": "![[413165.png]]"
     },
     "GitHub Actions": {
+        "Finding out Ghost version with JS": "... theme package and re-upload those. While I automated theme deployment with [[GitHub Actions]] (you can find the post here), it was a hassle to ...",
+        "Ghost 테마를 자동 배포하는 방법": "... 것은? 테마 개발을 통한 블로그 방문 경험 개선이다. 다행히도 Ghost 2.25.5부터 [[GitHub Actions]]를 이용해 다음과 같이 Ghost 테마 개발을 자동화할 수 있게 되었다.",
         "Reverse Engineering Apple Music API": "## Making it into a [[GitHub Actions]]"
     },
     "3B78C6.png": {
@@ -3025,11 +3137,6 @@ export const backlinks = {
         "Akzidenz": "- A type of Grotesque [[font]].",
         "Web Typography": "... fonts on the World Wide Web. When HTML was first created, [[font]] faces and styles were controlled exclusively by the settings of each ..."
     },
-    "Roam Research": {
-        "Better Obsidian": "  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].",
-        "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser",
-        "Text-based Tools for Thought": "### [[Roam Research]]"
-    },
     "OCR": {
         "Screenshot as an API": "    - text ([[OCR]])"
     },
@@ -3071,6 +3178,9 @@ export const backlinks = {
     },
     "2022-07-01": {
         "PKM": "- On [[2022-07-01]], I noted that PKM is for building a personal knowledge base. ..."
+    },
+    "html": {
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 것이라고 판단하고 API 서버를 제작하기 시작했다. 즉, 이전에는 php로 렌더링 하는 [[html]] 문서뿐이었던 웹이 한순간에 또 다른 클라이언트가 된 것이다. 이때까지만 해도 우아한 ..."
     },
     "CE4381.png": {
         "Roam Research": "![[CE4381.png]]",
@@ -3180,6 +3290,9 @@ export const backlinks = {
         "Horizontally Stacked Interface": "- [[Three Column Design]]: Discord-Like Interface.",
         "Spacial Cognition": "- [[Three Column Design]] and [[Sliding Panes]] are a few ways of giving spacial cognition."
     },
+    "caching": {
+        "Cache Conscious Programming": "... slower than `for (i=0;i<N;i++) for (j=0;j<M;j++)` due to the way of [[caching]]"
+    },
     "2022-09-05": {
         "0053 Maximum Subarray": "Solved at: [[2022-09-05]]",
         "0733 Flood Fill": "Solved at: [[2022-09-05]]"
@@ -3214,9 +3327,6 @@ export const backlinks = {
     "BB86F6.png": {
         "Data Capturers": "![[BB86F6.png]]",
         "Lazy": "![[BB86F6.png]]"
-    },
-    "Front-end Framework": {
-        "HTMX": "- A [[Front-end Framework]]"
     },
     "Deepfake": {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]]."
@@ -3339,6 +3449,14 @@ export const backlinks = {
     "524A89.png": {
         "Repeated Designs": "![[524A89.png]]"
     },
+    "glTF": {
+        "3D File Format": "- [[glTF]] for [[Android]]",
+        "Things (3D)": "> Nice. What's the edge on Things over [[glTF]] and [[USDZ]]?<br/>"
+    },
+    "USDZ": {
+        "3D File Format": "- [[USDZ]] for [[Apple]]",
+        "Things (3D)": "> Nice. What's the edge on Things over glTF and [[USDZ]]?<br/>"
+    },
     "D765C4.png": {
         "Things (3D)": "![[D765C4.png]]"
     },
@@ -3372,18 +3490,8 @@ export const backlinks = {
         "Dynamic Island on the Web": "## [[2022-10-20]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "## Update on [[2022-10-20]]"
     },
-    "USDZ": {
-        "3D File Format": "- [[USDZ]] for [[Apple]]"
-    },
-    "glTF": {
-        "3D File Format": "- [[glTF]] for [[Android]]"
-    },
     "Things (3D)": {
         "3D File Format": "- [[Things (3D)]]"
-    },
-    "GitHub": {
-        "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
-        "sem.sh": "- [[GitHub]] Profile Widget"
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
@@ -3576,9 +3684,6 @@ export const backlinks = {
     "BFDBF9.png": {
         "Toss Product Sans": "![[BFDBF9.png]]"
     },
-    "Logseq": {
-        "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]]."
-    },
     "Shim": {
         "Realm Shim": "> [[Shim]] implementation of the Realm API Proposal ([[ShadowRealm]])"
     },
@@ -3602,9 +3707,6 @@ export const backlinks = {
     },
     "React Native": {
         "Configuring Jest for React Native": "- Configuring Jest for [[React Native]]"
-    },
-    "CODE Procedure": {
-        "PARA": "- Often used with [[CODE Procedure]]"
     },
     "26A675.png": {
         "One Word Domains": "![[26A675.png]]"
@@ -3689,9 +3791,6 @@ export const backlinks = {
     },
     "E437D9.png": {
         "Digital Addictions of Software Enthusiasts": "![[E437D9.png]]"
-    },
-    "blockchain": {
-        "Ethereum RPC as a Service": "... RPC is the primary way that you query data on the [[blockchain]]. AWS offers a similar product, AWS Managed Blockchain. Essentially these are ..."
     },
     "web3": {
         "Ethereum RPC as a Service": "... enterprise RPC providers are one of the more profitable and real [[web3]] businesses. There's Alchemy ($10.2B valuation, Feb ‘22), ConsenSys ($7B valuation, Mar ..."

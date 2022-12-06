@@ -5,7 +5,7 @@ slug: '/786F87'
 
 - [[Letter to Mr. Matt Rickard on 2022-11-28]]
 
-Imgbot model. Goes through all images and will replace markdown images without alt text
+Imgbot model. Goes through all images and will replace [[markdown]] images without alt text
 
 ## Example References
 

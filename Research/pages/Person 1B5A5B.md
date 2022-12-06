@@ -11,7 +11,7 @@ slug: '/1B5A5B'
   - Found each position didn't fit them
 - Junior Engineers tend to execute more things
 - Senior Engineers deal with ambiguity.
-- Junior = Project Executors.
+- Junior = [[Project]] Executors.
 - Senior = Problem Solvers.
 
 import Admonition from '@theme/Admonition'
