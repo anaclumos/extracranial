@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/ABA1BD'
 ---
 
 Seems like instead of making emails interactive like [[AMP Email]]
