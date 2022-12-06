@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ab31985f6e69ac54",
+        "id": "9ce715345fa9775f",
         "type": "tabs",
         "children": [
           {
-            "id": "f988b8ab1b0e984f",
+            "id": "23e861f440ed461d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-12-06.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2022-12-06.md"
-              }
+              "state": {}
             }
           },
           {
@@ -131,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f988b8ab1b0e984f",
+  "active": "23e861f440ed461d",
   "lastOpenFiles": [
-    "pages/Untitled.md",
     "journals/2022-12-06.md",
-    "pages/Technocapital and Biocapital.md",
-    "pages/GA.md",
-    "pages/Nigh.md",
-    "pages/Toss Product Sans.md",
-    "pages/Font Features.md",
-    "journals/2022-08-01.md",
-    "pages/Iterative and Incremental Development.md",
-    "pages/Markdown.md"
+    "pages/Reimagining Emails.md",
+    "pages/React Email.md",
+    "pages/AMP Email.md",
+    "pages/Spellbound.md",
+    "pages/Emails and Decentralized Protocols.md",
+    "pages/WorkerDOM.md",
+    "pages/AMP.md",
+    "journals/2022-05-31.md",
+    "pages/Untitled.md"
   ]
 }
