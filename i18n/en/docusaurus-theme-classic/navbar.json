@@ -26,5 +26,9 @@
   "item.label.3D (Experimental)": {
     "message": "3D (Experimental)",
     "description": "Navbar item with label 3D (Experimental)"
+  },
+  "item.label.Random": {
+    "message": "Random",
+    "description": "Navbar item with label Random"
   }
 }
