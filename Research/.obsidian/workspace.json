@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Ghost 테마를 자동 배포하는 방법.md",
+                "file": "journals/2022-12-05.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Ghost 테마를 자동 배포하는 방법.md",
+                "file": "journals/2022-12-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Ghost 테마를 자동 배포하는 방법.md"
+                "file": "journals/2022-12-05.md"
               }
             }
           },
