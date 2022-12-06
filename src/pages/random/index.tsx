@@ -39,7 +39,7 @@ const RandomUrl = () => {
             {() => {
               let urls: Element[]
               let randomUrl: string
-              fetch('https://cho.sh/sitemap.xml')
+              fetch('/sitemap.xml')
                 .then((res) => res.text())
                 .then((text) => {
                   const parser = new DOMParser()
