@@ -20,14 +20,19 @@ import TechnologistEmoji from '@site/static/fonts/emoji/technologist.png'
 import WebEmoji from '@site/static/fonts/emoji/web.png'
 import Link from '@docusaurus/Link'
 import IframeResizer from 'iframe-resizer-react'
+import BrowserOnly from '@docusaurus/BrowserOnly'
 
 const MusicPlayer = () => {
   return (
-    <IframeResizer
-      id="dynamic-island"
-      src="https://dynamic-island.cho.sh/embed-player"
-      className={styles.musicplayer}
-    />
+    <BrowserOnly>
+      {() => (
+        <IframeResizer
+          id="dynamic-island"
+          src="https://dynamic-island.cho.sh/embed-player"
+          className={styles.musicplayer}
+        />
+      )}
+    </BrowserOnly>
   )
 }
 

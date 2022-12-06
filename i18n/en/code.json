@@ -180,7 +180,7 @@
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Blog Flagship Posts navigation",
-    "description": "The ARIA label for Flagship Posts in the blog sidebar"
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
     "message": "Copied",
@@ -558,5 +558,13 @@
   "backlink.noBacklink": {
     "message": "Nothing here yet...",
     "description": "The message when there is no backlink"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   }
 }

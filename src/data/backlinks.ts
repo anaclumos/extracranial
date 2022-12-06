@@ -370,7 +370,10 @@ export const backlinks = {
     },
     "Nigh": {
         "2022-12-06": "- GA: [[Nigh]]",
-        "GA": "\t- In this case, people often say [[Nigh]]"
+        "GA": "  - In this case, people often say [[Nigh]]"
+    },
+    "Technocapital and Biocapital": {
+        "2022-12-06": "- [[Technocapital and Biocapital]]"
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
@@ -2725,7 +2728,7 @@ export const backlinks = {
         "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Pretendard의 아쉬운 점": {
-        "Toss Product Sans": "\t- [[Pretendard의 아쉬운 점]]",
+        "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
         "서울 프로": "- [[Pretendard의 아쉬운 점]]"
     },
     "4FA1C6.png": {
