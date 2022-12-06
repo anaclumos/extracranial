@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/BB0A88'
 ---
 
-> The project name originates from the Pure Korean word meaning numerics and statistics — Sem (셈)
+> The [[project]] name originates from the Pure Korean word meaning numerics and statistics — Sem (셈)
 
 ![[3584FF.png]]
 

@@ -6,7 +6,7 @@ aliases: ['archive', 'archivism']
 
 - An important concept for [[Memex]] and [[Extracranial]]
 
-> The **LOCKSS** ("Lots of Copies Keep Stuff Safe") project, under the auspices of [Stanford University](https://en.wikipedia.org/wiki/Stanford_University 'Stanford University'), is a peer-to-peer network that develops and supports an [open source](https://en.wikipedia.org/wiki/Open-source_software 'Open-source software') system allowing libraries to collect, preserve and provide their readers with access to material published on the Web. Its main goal is [digital preservation](https://en.wikipedia.org/wiki/Digital_preservation 'Digital preservation'). [LOCKSS](https://en.wikipedia.org/wiki/LOCKSS)
+> The **LOCKSS** ("Lots of Copies Keep Stuff Safe") [[project]], under the auspices of [Stanford University](https://en.wikipedia.org/wiki/Stanford_University 'Stanford University'), is a peer-to-peer network that develops and supports an [open source](https://en.wikipedia.org/wiki/Open-source_software 'Open-source software') system allowing libraries to collect, preserve and provide their readers with access to material published on the Web. Its main goal is [digital preservation](https://en.wikipedia.org/wiki/Digital_preservation 'Digital preservation'). [LOCKSS](https://en.wikipedia.org/wiki/LOCKSS)
 
 > 조선 건국 이후 실록은 춘추관에 한 부를 보관하고, 충주·성주·전주 등 교통의 요지였던 주요 도시의 사고에 한 부씩 모두 4부를 보관했다. 그런데 임진왜란 때 실록은 전주 사고에 보관했던 것만 남고 모두 불타 버렸다. 전주 사고의 실록은 난리가 나자 백성들이 미리 깊은 산속으로 옮겨서 무사할 수 있었다. 임진왜란이 끝난 후 조정에서는 전주 사고의 실록을 원본으로 삼아 실록을 다시 인쇄했다. [우리역사넷](http://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0250_0010&code=)
 
@@ -45,8 +45,8 @@ You might want to collect title, filename, location, id, isbn, doi, size, hash (
 
 ### Downloading the Page
 
-Save the raw HTML and process it later.
-This way you don't need to re-download the HTML if you figure you missed something
+Save the raw [[HTML]] and process it later.
+This way you don't need to re-download the [[HTML]] if you figure you missed something
 Or use metadata to prioritize a reasonable subset of data to download
 Start by downloading files.
 Expand slowly.

@@ -5,7 +5,7 @@ slug: '/5CC699'
 
 > by [Shu](https://twitter.com/shuding_/status/1579607964549513217)
 
-The potential candidates for Satori included:
+The potential candidates for [[Satori]] included:
 
 - [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs.
 - [[Web Browser]]-based solutions were too slow

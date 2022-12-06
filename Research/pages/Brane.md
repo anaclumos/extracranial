@@ -5,7 +5,7 @@ slug: '/8C41D2'
 
 - [GitHub](https://github.com/braneproject)
 
-Brane is an experimental project that aims to build a secure, convenient third-party app environment based on web technologies.
+Brane is an experimental [[project]] that aims to build a secure, convenient third-party app environment based on web technologies.
 Brane's idea loosely follows the Progressive Web App and MiniApp Standardization White Paper.
 
 ## Distributed dev model that third parties participate

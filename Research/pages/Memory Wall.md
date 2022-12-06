@@ -12,7 +12,7 @@ slug: '/717D68'
   - Improve Latency
     - Improve the speed of memory itself (hard!)
     - Put memory closer to the processor or _within_ the processor.
-  - Improve Throughput
+  - Improve [[Throughput]]
     - Organize more efficiently
     - Hierarchy of Memories
     - [[Principles of Locality]]

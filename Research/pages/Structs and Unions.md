@@ -34,4 +34,4 @@ struct node {
 - All elements start at offset 0.
 - The size of the union is the biggest member.
 - Elements must be plain old data or at least default constructible.
-- Bytes can be stored in reversed order depending on the endianness.
+- Bytes can be stored in reversed order depending on the [[endianness]].
