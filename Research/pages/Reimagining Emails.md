@@ -8,11 +8,13 @@ slug: '/BD5933'
 - [[SMTP]]
 - [[Newsletter Network]]
 - Potential links to [[Synthote]]?
+- Interactive Emails using [[AMP Email]]. Example: [[Spellbound]]
+- [[React Email]]
 
 ## [[Alexander Obenauer]]
 
-- _[Mail Pilot](https://www.mailpilot.app/) is an email client that introduced new perspectives and useful features to email in 2012, such as reminders, which was later adopted by other apps as "snooze". After a record-breaking Kickstarter campaign, Mail Pilot went on to become the #1 paid app in the Mac App Store at launch. It is available today as a native app for macOS, iPadOS, and iOS._
-- _[Throttle](https://throttlehq.com/) is a service that introduced sender-specific addresses in 2015 to give email receivers fine-grained oversight and control over the transactional and bulk email headed their way, and is often turned to as a home away from the inbox for less urgent email._
+- [Mail Pilot](https://www.mailpilot.app/) is an email client that introduced new perspectives and useful features to email in 2012, such as reminders, which was later adopted by other apps as "snooze". After a record-breaking Kickstarter campaign, Mail Pilot went on to become the #1 paid app in the Mac App Store at launch. It is available today as a native app for macOS, iPadOS, and iOS.
+- [Throttle](https://throttlehq.com/) is a service that introduced sender-specific addresses in 2015 to give email receivers fine-grained oversight and control over the transactional and bulk email headed their way, and is often turned to as a home away from the inbox for less urgent email.
 
 ## My approach
 
