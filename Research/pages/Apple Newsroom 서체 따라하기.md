@@ -27,7 +27,7 @@ Import 잊지 마세요!
 
 _Except as otherwise expressly permitted \[...\] you may not make the Apple Font available over a network where it could be run or used by multiple computers at the same time. (명시적으로 허용되지 않은 이상, Apple의 폰트를 네트워크 상에서 제공하여 여러 컴퓨터에서 동시에 사용할 수 없습니다.)_
 
-일반 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 SF Pro 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.
+일반 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.
 
 ## 1\. Apple 제품에서는 내장된 SF 폰트를 불러오자
 
@@ -49,7 +49,7 @@ Apple은 한글 폰트로 **산돌고딕 네오**를 사용한다. Safari와 Chr
     4. Inter
     /* 비 Apple 제품에서 영문 폰트 */
 
-[Rasmus Andersson](https://rsms.me/about)이라는 분께서 제작하신 Inter Font가 SF Pro와 가장 닮았다는 생각이 들었다. SF 폰트와는 다르게 웹폰트로 자유롭게 사용할 수 있으며 [rsms.me](https://rsms.me/inter/inter.css)와 [Google Font](https://fonts.google.com/specimen/Inter)에서 모두 제공된다. [Mozilla](https://mozilla.org), [Figma](https://www.figma.com/), [GitHub](https://github.com), [프로그래머스](https://programmers.co.kr/) 등이 Inter Font를 사용한다.
+[Rasmus Andersson](https://rsms.me/about)이라는 분께서 제작하신 Inter Font가 [[San Francisco|SF Pro]]와 가장 닮았다는 생각이 들었다. SF 폰트와는 다르게 웹폰트로 자유롭게 사용할 수 있으며 [rsms.me](https://rsms.me/inter/inter.css)와 [Google Font](https://fonts.google.com/specimen/Inter)에서 모두 제공된다. [Mozilla](https://mozilla.org), [Figma](https://www.figma.com/), [GitHub](https://github.com), [프로그래머스](https://programmers.co.kr/) 등이 Inter Font를 사용한다.
 
     @import url('https://rsms.me/inter/inter.css');
 
@@ -99,7 +99,7 @@ GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두�
 
 ![비 Apple 제품에서 Inter, Spoqa Han Sans, 그리고 Consolas가 사용될 때. 이 이미지는 MacBook에서 서체만 수정하여 찍은 스크린샷이다.](../assets/49E133.png)
 
-약간의 자간 차이와 글자 두께 차이가 존재한다. SF 폰트들이 대체로 글자가 더 촘촘하며 얇다. 하지만 Apple 제품에서는 @2x 등의 HiDPI 화면이 흔한데 반해 비 Apple 제품에는 HiDPI가 드물기 때문에 두껍고 넓은 폰트는 가독성을 높여주는 장점으로 작용할 것 같았다. 또한 전반적인 느낌이 매우 비슷하다고 생각이 들기 때문에 만족스럽다. 아마 당분간은 이 규칙을 그대로 사용할 것 같다.
+약간의 자간 차이와 글자 두께 차이가 존재한다. [[San Francisco|SF]] 폰트들이 대체로 글자가 더 촘촘하며 얇다. 하지만 Apple 제품에서는 @2x 등의 HiDPI 화면이 흔한데 반해 비 Apple 제품에는 HiDPI가 드물기 때문에 두껍고 넓은 폰트는 가독성을 높여주는 장점으로 작용할 것 같았다. 또한 전반적인 느낌이 매우 비슷하다고 생각이 들기 때문에 만족스럽다. 아마 당분간은 이 규칙을 그대로 사용할 것 같다.
 
 한 가지 아쉬운 점은 네트워크 폰트를 2개나, 그것도 서로 다른 서버에서 불러온다는 점이다. 하지만 두 폰트는 모두 0.5초 이내에 비동기적으로 로드되며 이후에는 브라우저에 캐시된다는 점을 고려할 때 큰 문제는 아닌 것 같았다.
 
@@ -119,4 +119,4 @@ GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두�
 ## Updated Nov 19, 2020
 
 - 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! Jetbrains Mono라는 폰트를 사용 중이다.
-- 이 글을 업데이트하지 않고 불시에 블로그의 글씨체를 업데이트할 수도 있다. 즉 지금 보고 있는 화면의 글씨체가 SF Pro가 아닐수도 있다. 하지만 이 글의 내용은 여전히 유효할테니, 위의 스크린샷 화면을 참고하면 된다.
+- 이 글을 업데이트하지 않고 불시에 블로그의 글씨체를 업데이트할 수도 있다. 즉 지금 보고 있는 화면의 글씨체가 [[San Francisco|SF Pro]]가 아닐수도 있다. 하지만 이 글의 내용은 여전히 유효할테니, 위의 스크린샷 화면을 참고하면 된다.

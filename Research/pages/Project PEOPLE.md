@@ -7,7 +7,7 @@ slug: '/3134AC'
 
 import Shuffle from '@site/src/components/Shuffle'
 
-Project PEOPLE is a mass-scale interview project.
+[[Project]] PEOPLE is a mass-scale interview [[project]].
 It aims to interview at least 1K people, either online or offline.
 No information will be provided on any individuals except for their occupation.
 

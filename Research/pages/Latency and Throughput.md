@@ -10,7 +10,7 @@ slug: '/C885AA'
 - total time for a single operation to complete
 - 4 years to get a B.S. degree.
 
-## Throughput
+## [[Throughput]]
 
 - Average time per operation, with the perspective of the whole system
 - For a university, tens of thousands of students graduate every year

@@ -5,7 +5,7 @@ slug: '/C3CCC9'
 
 ## Objective
 
-- Provide _synchronous_ DOM API Access to [[Web Worker]] Threads
+- Provide _synchronous_ [[DOM]] API Access to [[Web Worker]] Threads
 - Part of [[Brane]]
 
 ## Start

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/47A158'
 ---
 
-- A [[Front-end Framework]]
+- A [[Front-end]]
 - Implementation itself is [[JavaScript]]
   - [htmx/htmx.js · bigskysoftware/htmx](https://github.com/bigskysoftware/htmx/blob/master/src/htmx.js)
 
@@ -18,4 +18,4 @@ slug: '/47A158'
 </button>
 ```
 
-> This tells HTMX: "When a user clicks on this button, issue an HTTP POST request to '/clicked' and use the content from the response to replace the element with the id `parent-div` in the DOM." [htmx - Documentation](https://htmx.org/docs/)
+> This tells HTMX: "When a user clicks on this button, issue an HTTP POST request to '/clicked' and use the content from the response to replace the element with the id `parent-div` in the [[DOM]]." [htmx - Documentation](https://htmx.org/docs/)
