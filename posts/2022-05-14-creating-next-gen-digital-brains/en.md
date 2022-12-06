@@ -71,7 +71,7 @@ Use algorithmic inspections to analyze how the posts may interrelate with each o
 ![Velog.io, the Korean version of dev.to, links relevant posts for every post.](8E5E49.png)
 
 Therefore, creating a cluster of posts, not classified by me, but bots and algorithms.
-[WordPress also has this plugin.](https://wordpress.org/plugins/related-posts-for-wp/) 
+[WordPress also has this plugin.](https://wordpress.org/plugins/related-posts-for-wp/)
 This is similar to backlinking, which most so-called digital brains such as [Obsidian](https://obsidian.md/) and [Dendron](https://www.dendron.so/) are doing.
 
 ![Example of backlinking from Dendron](D9987E.png)
