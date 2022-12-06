@@ -1,5 +1,4 @@
 import React from 'react'
-import { filenames } from '@site/src/data/filenames'
 import { backlinks } from '@site/src/data/backlinks'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
@@ -7,67 +6,7 @@ import styles from './index.module.css'
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import Head from '@docusaurus/Head'
 import { useScreenSize } from '@site/src/util/useScreenSize'
-
-type Node = {
-  nodeLabel: string
-  id: string
-  nodeVal: number
-}
-
-const font =
-  'ui-sans-serif, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Pretendard, system-ui, -system-ui, sans-serif, "Apple Color Emoji"'
-
-const processBacklinksToGraph = (backlinks) => {
-  const nodes: Node[] = []
-  const links: { source: string; target: string }[] = []
-  for (const key in backlinks) {
-    if (
-      key.endsWith('.png') ||
-      key.endsWith('.jpg') ||
-      key.endsWith('.jpeg') ||
-      key.endsWith('.gif') ||
-      key.endsWith('.svg')
-    ) {
-      continue
-    } else {
-      const node = {
-        nodeLabel: key,
-        id: filenames[key],
-        nodeVal: 1,
-      } as Node
-
-      if (!nodes.find((n) => n.id === node.id)) {
-        nodes.push(node)
-      }
-
-      Object.keys(backlinks[key]).forEach((neighbor) => {
-        if (
-          !nodes.find(
-            (node) => node.id === filenames[neighbor]
-          )
-        ) {
-          nodes.push({
-            nodeLabel: neighbor,
-            id: filenames[neighbor],
-            nodeVal: 1,
-          })
-        }
-        links.push({
-          source: filenames[key],
-          target: filenames[neighbor],
-        })
-        // increase source and target nodeVal
-        nodes.find(
-          (n) => n.id === filenames[key]
-        ).nodeVal += 1
-        nodes.find(
-          (n) => n.id === filenames[neighbor]
-        ).nodeVal += 1
-      })
-    }
-  }
-  return { nodes, links }
-}
+import { processBacklinksToGraph } from '@site/src/util/graph'
 
 export const GraphView2d = (props: {
   width: number
@@ -86,22 +25,33 @@ export const GraphView2d = (props: {
           const {
             ForceGraph2D,
           } = require('react-force-graph')
+
           return (
             <ForceGraph2D
+              rendererConfig={{
+                alpha: true,
+                antialias: true,
+              }}
               width={props.width}
               height={props.height}
               graphData={gData}
-              nodeLabel={(node) => {
-                return node.nodeLabel
+              nodeLabel={`nodeLabel`}
+              nodeAutoColorBy="group"
+              nodeVal={(node) => {
+                return Math.sqrt(node.nodeRelSize)
               }}
               linkDirectionalParticles={2}
               linkDirectionalParticleWidth={1}
               linkDirectionalParticleSpeed={0.01}
-              nodeColor={() => '#aaa'}
-              linkDirectionalParticleColor={() => '#64a5f0'}
+              nodeColor={(node) => {
+                if (node.id?.length === 10) {
+                  return '#fff'
+                }
+                return `#${node.id}`
+              }}
               linkColor={() => '#4976ca'}
-              linkOpacity={0.5}
-              linkWidth={0.2}
+              linkOpacity={0.3}
+              linkWidth={0.3}
               showNavInfo={false}
               onNodeClick={(node) => {
                 window.location.href = '/r/' + node.id

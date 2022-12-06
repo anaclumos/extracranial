@@ -15,7 +15,7 @@ slug: '/D8FB8E'
 :::
 
 :::tip **2022-07-01 업데이트**
-차세대 디지털 브레인을 이미 보고 계십니다! 지난 2주간 [WWW project](https://github.com/anaclumos/extracranial)를 통해 이 웹사이트를 만들었습니다. 이 글의 체크상자를 거의 달성합니다. 
+차세대 디지털 브레인을 이미 보고 계십니다! 지난 2주간 [WWW project](https://github.com/anaclumos/extracranial)를 통해 이 웹사이트를 만들었습니다. 이 글의 체크상자를 거의 달성합니다.
 :::
 
 import WIP from '@site/src/components/WIP'

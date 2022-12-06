@@ -3,66 +3,11 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import BrowserOnly from '@docusaurus/BrowserOnly'
-import { filenames } from '@site/src/data/filenames'
 import { backlinks } from '@site/src/data/backlinks'
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass'
 import Head from '@docusaurus/Head'
 import { useScreenSize } from '@site/src/util/useScreenSize'
-
-type Node = {
-  nodeLabel: string
-  id: string
-  nodeRelSize: number
-}
-
-const processBacklinksToGraph = (backlinks) => {
-  const nodes: Node[] = []
-  const links: { source: string; target: string }[] = []
-  for (const key in backlinks) {
-    // if it ends with .png or .jpg or .jpeg, or .gif or .svg, then it's an image
-    if (
-      key.endsWith('.png') ||
-      key.endsWith('.jpg') ||
-      key.endsWith('.jpeg') ||
-      key.endsWith('.gif') ||
-      key.endsWith('.svg')
-    ) {
-      continue
-    } else {
-      const node: Node = {
-        nodeLabel: key,
-        id: filenames[key],
-        nodeRelSize: 1,
-      } as Node
-
-      if (!nodes.find((n) => n.id === node.id)) {
-        nodes.push(node)
-      }
-
-      Object.keys(backlinks[key]).forEach((neighbor) => {
-        if (
-          !nodes.find(
-            (node) => node.id === filenames[neighbor]
-          )
-        ) {
-          nodes.push({
-            nodeLabel: neighbor,
-            id: filenames[neighbor],
-            nodeRelSize: 1,
-          })
-        }
-        links.push({
-          source: filenames[key],
-          target: filenames[neighbor],
-        })
-        nodes.find((n) => n.id === filenames[key])
-          .nodeRelSize++
-        node.nodeRelSize++
-      })
-    }
-  }
-  return { nodes, links }
-}
+import { processBacklinksToGraph } from '@site/src/util/graph'
 
 export const GraphView3d = (props: {
   width: number
@@ -87,8 +32,8 @@ export const GraphView3d = (props: {
 
             useEffect(() => {
               const bloomPass = new UnrealBloomPass()
-              bloomPass.strength = 2
-              bloomPass.radius = 1
+              bloomPass.strength = 0.8
+              bloomPass.radius = 0.8
               bloomPass.threshold = 0.1
               fgRef.current
                 .postProcessingComposer()
@@ -107,14 +52,13 @@ export const GraphView3d = (props: {
                 graphData={gData}
                 nodeLabel={`nodeLabel`}
                 nodeAutoColorBy="group"
+                nodeVal={(node) => {
+                  return Math.sqrt(node.nodeRelSize)
+                }}
                 linkDirectionalParticles={2}
                 linkDirectionalParticleWidth={1}
                 linkDirectionalParticleSpeed={0.01}
                 nodeColor={(node) => {
-                  // id can be two type
-                  // 1. hex sRGB color
-                  // 2. date (YYYY-MM-DD)
-                  // if it's a date, then return a color #fff
                   if (node.id?.length === 10) {
                     return '#fff'
                   }
