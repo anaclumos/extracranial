@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7f136709ff4deaea",
+        "id": "ab31985f6e69ac54",
         "type": "tabs",
         "children": [
           {
-            "id": "35ea9500fe707e5a",
+            "id": "f988b8ab1b0e984f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -131,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "35ea9500fe707e5a",
+  "active": "f988b8ab1b0e984f",
   "lastOpenFiles": [
+    "pages/Untitled.md",
+    "journals/2022-12-06.md",
+    "pages/Technocapital and Biocapital.md",
     "pages/GA.md",
     "pages/Nigh.md",
-    "journals/2022-12-06.md",
     "pages/Toss Product Sans.md",
     "pages/Font Features.md",
     "journals/2022-08-01.md",
     "pages/Iterative and Incremental Development.md",
-    "pages/Markdown.md",
-    "pages/San Francisco.md",
-    "pages/Satoshi.md"
+    "pages/Markdown.md"
   ]
 }

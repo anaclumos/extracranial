@@ -5,7 +5,7 @@ slug: '/F7B0F0'
 
 > [Buying Twitter is an accelerant to creating X, the everything app](https://twitter.com/elonmusk/status/1577428272056389633)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dear Twitter Advertisers <a href="https://t.co/GMwHmInPAS">pic.twitter.com/GMwHmInPAS</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1585619322239561728?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dear Twitter Advertisers <a href="https://t.co/GMwHmInPAS">pic.twitter.com/GMwHmInPAS</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1585619322239561728?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote>
 
 ## [[Musk]]
 
