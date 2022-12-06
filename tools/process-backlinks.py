@@ -34,51 +34,60 @@ if __name__ == "__main__":
     print("Found " + str(len(all_md_files)) + " MD files.")
 
     # 2022-10-25. Don't blame me. I know this is a complete mess.
-    for md_file in all_md_files:
-        filename = md_file.split("/")[-1].replace(".md", "")
-        uid = ""
-        with open(md_file, "r") as f:
-            lines = f.readlines()
-        for line in lines:
-            if line.startswith("slug: "):
-                uid = (
-                    line.split("slug: ")[1]
-                    .strip()
-                    .replace("/", "")
-                    .replace("'", "")
-                    .replace('"', "")
-                )
-                filename_uid_map[filename] = uid
-            while "[[" in line and "]]" in line:
-                # remove all markdown links, except wikilinks
-                line = re.sub(r"\[([^[]+?)\]\(.+?\)", r"\1", line)
-                line = line.replace("\n", "")
-                mentioned_file = line.split("[[")[1].split("]]")[0]
-                source = mentioned_file.split("|")[0]
-                alias = mentioned_file.split("|")[-1]
-                line = line.replace("*", "").replace("_", "")
-                # only leave 12 words before and after the first mention
-                words_to_keep = 12
-                before_original = line.split("[[" + mentioned_file + "]]")[0]
-                before = " ".join(before_original.split(" ")[-words_to_keep:])
-                if before_original != before:
-                    before = "... " + before
-                center = mentioned_file
-                after_original = mentioned_file.join(
-                    line.split("[[" + mentioned_file + "]]")[1:]
-                )
-                after = " ".join(after_original.split(" ")[:words_to_keep])
-                if after_original != after:
-                    after = after + " ..."
-                first_mentioned_sentence = before + "[[" + center + "]]" + after
-                "[[" + center + "]]" + after
-                if source not in backlink_map:
-                    backlink_map[source] = {}
-                if filename not in backlink_map[source]:
-                    backlink_map[source][filename] = first_mentioned_sentence
-                    mention_count += 1
-                line = line.replace("[[" + mentioned_file + "]]", mentioned_file)
-
+    try:
+        for md_file in all_md_files:
+            filename = md_file.split("/")[-1].replace(".md", "")
+            uid = ""
+            with open(md_file, "r") as f:
+                lines = f.readlines()
+            for line in lines:
+                if line.startswith("slug: "):
+                    uid = (
+                        line.split("slug: ")[1]
+                        .strip()
+                        .replace("/", "")
+                        .replace("'", "")
+                        .replace('"', "")
+                    )
+                    filename_uid_map[filename] = uid
+                while "[[" in line and "]]" in line:
+                    try:
+                        # remove all markdown links, except wikilinks
+                        line = re.sub(r"\[([^[]+?)\]\(.+?\)", r"\1", line)
+                        line = line.replace("\n", "")
+                        mentioned_file = line.split("[[")[1].split("]]")[0]
+                        source = mentioned_file.split("|")[0]
+                        alias = mentioned_file.split("|")[-1]
+                        line = line.replace("*", "").replace("_", "")
+                    except Exception as e:
+                        print("Error processing " + md_file + " line " + line)
+                        print(e)
+                        exit(1)
+                    # only leave 12 words before and after the first mention
+                    words_to_keep = 12
+                    before_original = line.split("[[" + mentioned_file + "]]")[0]
+                    before = " ".join(before_original.split(" ")[-words_to_keep:])
+                    if before_original != before:
+                        before = "... " + before
+                    center = mentioned_file
+                    after_original = mentioned_file.join(
+                        line.split("[[" + mentioned_file + "]]")[1:]
+                    )
+                    after = " ".join(after_original.split(" ")[:words_to_keep])
+                    if after_original != after:
+                        after = after + " ..."
+                    first_mentioned_sentence = before + "[[" + center + "]]" + after
+                    "[[" + center + "]]" + after
+                    if source not in backlink_map:
+                        backlink_map[source] = {}
+                    if filename not in backlink_map[source]:
+                        backlink_map[source][filename] = first_mentioned_sentence
+                        mention_count += 1
+                    line = line.replace("[[" + mentioned_file + "]]", mentioned_file)
+    except Exception as e:
+        print("Error processing " + md_file)
+        print(e)
+        exit(1)
     # sort backlinks by key
     for key in backlink_map:
         backlink_map[key] = dict(
