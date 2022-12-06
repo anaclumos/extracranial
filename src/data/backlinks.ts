@@ -467,7 +467,6 @@ export const backlinks = {
         "2022-11-28": "## [[Hacker News|HN]]",
         "2022-11-29": "## [[Hacker News|HN]]",
         "2022-11-30": "## [[Hacker News|HN]]",
-        "2022-12-05": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -532,7 +531,6 @@ export const backlinks = {
         "2022-11-28": "## [[Project]]",
         "2022-11-29": "## [[Project]]",
         "2022-11-30": "## [[Project]]",
-        "2022-12-05": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "- Someday [[Project]]",
