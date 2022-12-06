@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.diceButton {
+  display: grid;
+  place-items: center;
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--ifm-background-color);
+  border-radius: var(--border-radius);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.diceButton:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.dice {
+  font-size: 4rem;
+  animation: rotating 2s linear infinite;
+}
