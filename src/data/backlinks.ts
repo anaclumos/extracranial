@@ -57,6 +57,7 @@ export const backlinks = {
         "2022-06-22": "Deno envisions a [[Vercel]]-like experience for the backend (FaaS.)",
         "2022-07-10": "- [[Vercel]] hid the compilation process with its proprietary `vercel dev` command.",
         "2022-08-28": "- I both used Cloudflare Pages and [[Vercel]] and concluded that Vercel is better.",
+        "2022-09-29": "  - [[Vercel]] hosting",
         "2022-09-30": "- [[Vercel]] Serving millions of users on the new MrBeast storefront - Vercel",
         "2022-10-10": "  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
@@ -341,6 +342,36 @@ export const backlinks = {
         "2021-06-23": "- [[개성은 자연스레 주어지지 않는다]]",
         "2022-12-06": "- [[개성은 자연스레 주어지지 않는다]]"
     },
+    "San Francisco": {
+        "2022-08-01": "... it a lot — it combines the neatness and readability of [[San Francisco|SF Pro]] and the uniqueness of IBM Plex Sans.",
+        "2022-12-04": "- [[San Francisco]]",
+        "2022-12-06": "- [[San Francisco]]",
+        "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter]].",
+        "Apple Newsroom 서체 따라하기": "... 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.",
+        "Brunch violates SF terms of use": "... Korean writing service Brunch violates Apple's Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].",
+        "Font Features": "- [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.",
+        "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
+        "Pretendard": "  - He should've put it as Cross-platform [[San Francisco]] alternative",
+        "Satoshi": "- Font similar to [[San Francisco|SF Pro]]",
+        "Toss Product Sans": "- Looks bizarrely similar to [[San Francisco]]",
+        "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
+    },
+    "Toss Product Sans": {
+        "2022-10-14": "- [[Toss Product Sans]]",
+        "2022-12-06": "- [[Toss Product Sans]]",
+        "Pretendard": "- Just like [[Toss Product Sans]] it is bizarrely similar to [[San Francisco]]",
+        "Pretendard의 아쉬운 점": "이는 유사한 폰트 Interop 및 [[Toss Product Sans]]에는 반영되어 있는 사항이다.",
+        "San Francisco": "### [[Toss Product Sans]]",
+        "Toss": "- Creators of [[Toss Product Sans]] and [[Tossface]]"
+    },
+    "GA": {
+        "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview",
+        "2022-12-06": "- [[GA]]: [[Nigh]]"
+    },
+    "Nigh": {
+        "2022-12-06": "- GA: [[Nigh]]",
+        "GA": "\t- In this case, people often say [[Nigh]]"
+    },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
         "2022-10-15": "- [[Dynamic Island on the Web]]",
@@ -388,9 +419,6 @@ export const backlinks = {
     },
     "Jetbrains Fleet": {
         "2022-10-12": "- [[Jetbrains Fleet]] is [[GA]]: Introducing the Fleet Public Preview"
-    },
-    "GA": {
-        "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview"
     },
     "TODO": {
         "0215 Kth Largest Element in an Array": "[[TODO]]",
@@ -1186,6 +1214,7 @@ export const backlinks = {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
     "Tailwind": {
+        "2022-09-29": "  - [[Tailwind]] CSS",
         "2022-11-29": "- [[Tailwind]]",
         "2022-12-04": "- The Verge is now built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, @vercel, and ...",
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
@@ -1373,6 +1402,13 @@ export const backlinks = {
         "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with ...",
         "Front-end": "- [[Next.js]]",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]"
+    },
+    "Framer Motion": {
+        "2022-06-26": "- Especially, try implementing synchronous Layout properties—for example, [[Framer Motion]].",
+        "2022-09-29": "  - [[Framer Motion|Framer Animation]]",
+        "Animations": "### [[Framer Motion]]",
+        "Dynamic Island on the Web": "- Applied Quick Clipping with [[Framer Motion]] for performance",
+        "Framer": "- Creator of [[Framer Motion]]"
     },
     "The New Era of macOS Applications": {
         "2022-09-29": "- [[The New Era of macOS Applications]]"
@@ -1867,7 +1903,8 @@ export const backlinks = {
         "Inliner": "... Inliner aims to separate the editing and reading experience by utilizing [[Markdown]]'s strict line change mode.",
         "Letter to the Heptabase Team on 2022-10-11": "- [[Markdown]]-Wikilink import/export",
         "Logseq": "... privacy-first, open-source knowledge base that works on top of local plain-text [[Markdown]] and Org-mode files. Use it to write, organize and share your ...",
-        "Markdown Email Client": "- You write an email in [[Markdown]]"
+        "Markdown Email Client": "- You write an email in [[Markdown]]",
+        "Toss Product Sans": "- 디자인 플랫폼 팀과 함께 제작한 [[Markdown|마크다운]] 규칙으로 특수 문자를 쓸 수 있도록"
     },
     "9DAC5E.png": {
         "2022-08-04": "![[9DAC5E.png]]"
@@ -2003,22 +2040,10 @@ export const backlinks = {
     "D4C125.gif": {
         "2022-08-01": "![[D4C125.gif]]"
     },
-    "Font Feature": {
-        "2022-08-01": "- Just realized that this enables Font [[Font Feature|Ligature]] Settings.",
-        "CalliFontia": "- 추출 전 여러가지 [[Font Feature|Font Feature]]을 켜고 끄며 미리보기 대조 가능",
-        "Toss Product Sans": "- I figured it did not support [[Font Feature]]."
-    },
-    "San Francisco": {
-        "2022-08-01": "... it a lot — it combines the neatness and readability of [[San Francisco|SF Pro]] and the uniqueness of IBM Plex Sans.",
-        "2022-12-04": "- [[San Francisco]]",
-        "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter]].",
-        "Apple Newsroom 서체 따라하기": "... 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.",
-        "Brunch violates SF terms of use": "... Korean writing service Brunch violates Apple's Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].",
-        "Font Feature": "- [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.",
-        "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
-        "Pretendard": "  - He should've put it as Cross-platform [[San Francisco]] alternative",
-        "Toss Product Sans": "- Looks bizarrely similar to [[San Francisco]]",
-        "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
+    "Font Features": {
+        "2022-08-01": "- Just realized that this enables Font [[Font Features|Ligature]] Settings.",
+        "CalliFontia": "- 추출 전 여러가지 [[Font Features]]을 켜고 끄며 미리보기 대조 가능",
+        "Toss Product Sans": "- I figured it did not fully support [[Font Features]]."
     },
     "서울 프로": {
         "2022-08-01": "- [[서울 프로]]",
@@ -2105,12 +2130,6 @@ export const backlinks = {
     },
     "Linear README": {
         "2022-10-14": "  - Especially [[Linear README]]"
-    },
-    "Toss Product Sans": {
-        "2022-10-14": "- [[Toss Product Sans]]",
-        "Pretendard": "- Just like [[Toss Product Sans]] it is bizarrely similar to [[San Francisco]]",
-        "San Francisco": "### [[Toss Product Sans]]",
-        "Toss": "- Creators of [[Toss Product Sans]] and [[Tossface]]"
     },
     "0021 Merge Two Sorted Lists": {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
@@ -2382,6 +2401,9 @@ export const backlinks = {
         "Person 392196": "- Interviewed on [[2022-09-08]]",
         "Person A480C6": "- Interviewed on [[2022-09-08]]"
     },
+    "A3BB1E.png": {
+        "Framer": "![[A3BB1E.png]]"
+    },
     "2022-07-10": {
         "0001 Two Sum": "Solved at: [[2022-07-10]]",
         "0020 Valid Parentheses": "Solved at: [[2022-07-10]]"
@@ -2405,7 +2427,7 @@ export const backlinks = {
         "Redirecting READMEs": "![[E64653.png]]"
     },
     "CSS": {
-        "Font Feature": "- [[CSS]] property to enhance legibilities of a [[Font]].",
+        "Font Features": "- [[CSS]] property to enhance legibilities of a [[Font]].",
         "Markdown Email Client": "- Before sending, select one [[CSS]]",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting HTML/[[CSS]] into SVGs.",
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly (HTML/[[CSS]])",
@@ -2423,7 +2445,7 @@ export const backlinks = {
     },
     "Font": {
         "CalliFontia": "- Apple Pencil Handwriting → [[Font]]",
-        "Font Feature": "- CSS property to enhance legibilities of a [[Font]].",
+        "Font Features": "- CSS property to enhance legibilities of a [[Font]].",
         "Grotesque": "... thin strokes. The terminals of curves are usually horizontal, and the [[Font|typeface]] frequently has a spurred \"G\" and an \"R\" with a curled ...",
         "Inter": "- [[Font]] by rsms",
         "Pretendard": "- [[Font]] by orioncactus (Kil Hyung-jin)",
@@ -2697,13 +2719,26 @@ export const backlinks = {
         "Web Graphics": "![[6E5C4F.png]]"
     },
     "Pretendard": {
-        "Font Feature": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
+        "Font Features": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
         "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.",
         "San Francisco": "### [[Pretendard]]",
         "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Pretendard의 아쉬운 점": {
+        "Toss Product Sans": "\t- [[Pretendard의 아쉬운 점]]",
         "서울 프로": "- [[Pretendard의 아쉬운 점]]"
+    },
+    "4FA1C6.png": {
+        "Font Features": "![[4FA1C6.png]]"
+    },
+    "Inter": {
+        "Akzidenz": "- Akin to San Francisco|SF Pro and [[Inter]].",
+        "Font Features": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.",
+        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans CJK KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
+        "San Francisco": "### [[Inter]]"
+    },
+    "22EB14.png": {
+        "Font Features": "![[22EB14.png]]"
     },
     "SVG (File Format)": {
         "CSS": "... language such as HTML or XML (including XML dialects such as [[SVG (File Format)]], MathML, or XHTML). CSS is a cornerstone technology of the World ...",
@@ -3141,6 +3176,7 @@ export const backlinks = {
     },
     "font": {
         "Akzidenz": "- A type of Grotesque [[font]].",
+        "Satoshi": "- A type of Grotesque [[font]]",
         "Web Typography": "... fonts on the World Wide Web. When HTML was first created, [[font]] faces and styles were controlled exclusively by the settings of each ..."
     },
     "OCR": {
@@ -3262,12 +3298,6 @@ export const backlinks = {
         "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans [[CJK]] KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
         "Stories Behind Satori": "... added Google Font's `?text=` API, containing a specific subset of the [[CJK]] library and rendering things on the fly."
     },
-    "Inter": {
-        "Akzidenz": "- Akin to San Francisco|SF Pro and [[Inter]].",
-        "Font Feature": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.",
-        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans CJK KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
-        "San Francisco": "### [[Inter]]"
-    },
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
     },
@@ -3284,12 +3314,6 @@ export const backlinks = {
     },
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]"
-    },
-    "4FA1C6.png": {
-        "Font Feature": "![[4FA1C6.png]]"
-    },
-    "22EB14.png": {
-        "Font Feature": "![[22EB14.png]]"
     },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",
@@ -3319,7 +3343,8 @@ export const backlinks = {
         "San Francisco": "![[BC7E6A.png]]"
     },
     "Grotesque": {
-        "Akzidenz": "- A type of [[Grotesque]] [[font]]."
+        "Akzidenz": "- A type of [[Grotesque]] [[font]].",
+        "Satoshi": "- A type of [[Grotesque]] [[font]]"
     },
     "Jetbrains": {
         "Jetbrains Fleet": "... weight multi-purpose IDE, with support for collaboration and remote workflows by [[Jetbrains]]. JetBrains"
@@ -3427,6 +3452,10 @@ export const backlinks = {
     "Accelerationism": {
         "Effective Accelerationism": "- [[Accelerationism]]"
     },
+    "CD4751.png": {
+        "San Francisco": "![[CD4751.png]]",
+        "Satoshi": "![[CD4751.png]]"
+    },
     "42FE5D.png": {
         "洪民憙雜記": "![[42FE5D.png]]"
     },
@@ -3489,8 +3518,8 @@ export const backlinks = {
         "San Francisco": "![[E0A8DC.png]]",
         "Toss Product Sans": "![[E0A8DC.png]]"
     },
-    "CD4751.png": {
-        "San Francisco": "![[CD4751.png]]"
+    "Satoshi": {
+        "San Francisco": "### [[Satoshi]]"
     },
     "4BE5E2.png": {
         "Letter to Mr. Stephan Ango on 2022-10-19": "![[4BE5E2.png]]"
@@ -3669,9 +3698,6 @@ export const backlinks = {
     "2022-10-16": {
         "Dynamic Island on the Web": "## [[2022-10-16]]"
     },
-    "Framer Motion": {
-        "Dynamic Island on the Web": "- [[Framer Motion]] seems appropriate."
-    },
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"
     },
@@ -3692,6 +3718,12 @@ export const backlinks = {
     },
     "BFDBF9.png": {
         "Toss Product Sans": "![[BFDBF9.png]]"
+    },
+    "Framer": {
+        "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 장점"
+    },
+    "Iterative and Incremental Development": {
+        "Toss Product Sans": "- [[Iterative and Incremental Development|반복적 개발]]"
     },
     "Shim": {
         "Realm Shim": "> [[Shim]] implementation of the Realm API Proposal ([[ShadowRealm]])"

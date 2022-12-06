@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/개성은 자연스레 주어지지 않는다.md",
-                "mode": "preview",
+                "file": "journals/2022-12-06.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/개성은 자연스레 주어지지 않는다.md",
+                "file": "journals/2022-12-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/개성은 자연스레 주어지지 않는다.md"
+                "file": "journals/2022-12-06.md"
               }
             }
           },
@@ -134,15 +133,15 @@
   },
   "active": "35ea9500fe707e5a",
   "lastOpenFiles": [
+    "pages/GA.md",
+    "pages/Nigh.md",
     "journals/2022-12-06.md",
-    "pages/개성은 자연스레 주어지지 않는다.md",
-    "pages/Project.md",
-    "pages/2021-06-23.md",
-    "pages/Information amongst Data.md",
-    "pages/Ideas are worthless.md",
-    "pages/In The End Trust Yourself.md",
-    "journals/2022-12-05.md",
-    "pages/Install Yarn Silently.md",
-    "pages/Readings.md"
+    "pages/Toss Product Sans.md",
+    "pages/Font Features.md",
+    "journals/2022-08-01.md",
+    "pages/Iterative and Incremental Development.md",
+    "pages/Markdown.md",
+    "pages/San Francisco.md",
+    "pages/Satoshi.md"
   ]
 }

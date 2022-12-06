@@ -11,7 +11,7 @@ slug: '/1760EA'
 
 ![[BE3713.png]]
 
-### [Framer Motion](https://www.framer.com/developers/)
+### [[Framer Motion]]
 
 ![[E14115.png]]
 
