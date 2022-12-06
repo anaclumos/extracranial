@@ -28,6 +28,6 @@ aliases: ['SF', 'SF Pro']
 
 ![[BC7E6A.png]]
 
-### [Satoshi Font Family | Fontshare: Quality Fonts. Free.](https://www.fontshare.com/fonts/satoshi)
+### [[Satoshi]]
 
 ![[CD4751.png]]
