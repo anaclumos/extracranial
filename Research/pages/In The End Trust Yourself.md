@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1EF59B'
+aliases: ['결국에는 본인을 믿자']
 ---
 
 Given an infinitely long time, you will be correct.

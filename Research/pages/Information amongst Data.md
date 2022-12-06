@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B03E94'
+aliases: ['데이터 중 정보']
 ---
 
 - Data: Simple 0s and 1s.
