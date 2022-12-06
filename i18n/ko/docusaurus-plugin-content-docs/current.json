@@ -7,46 +7,6 @@
     "message": "일지",
     "description": "The label for category Journals in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Projects": {
-    "message": "프로젝트",
-    "description": "The label for category Projects in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Readings": {
-    "message": "독서록",
-    "description": "The label for category Readings in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.CELLO": {
-    "message": "CELLO",
-    "description": "The label for category CELLO in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Someday": {
-    "message": "Someday",
-    "description": "The label for category Someday in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Coding Tests": {
-    "message": "Coding Tests",
-    "description": "The label for category Coding Tests in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Project PEOPLE": {
-    "message": "Project PEOPLE",
-    "description": "The label for category Project PEOPLE in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Done": {
-    "message": "Done",
-    "description": "The label for category Done in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Better Obsidian": {
-    "message": "Better Obsidian",
-    "description": "The label for category Better Obsidian in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Brane": {
-    "message": "Brane",
-    "description": "The label for category Brane in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Better Aldehyde": {
-    "message": "Better Aldehyde",
-    "description": "The label for category Better Aldehyde in sidebar sidebar"
-  },
   "sidebar.sidebar.category.Memex": {
     "message": "Memex",
     "description": "The label for category Memex in sidebar sidebar"
