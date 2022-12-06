@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Readings.md",
-                "mode": "source",
+                "file": "pages/개성은 자연스레 주어지지 않는다.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Readings.md",
+                "file": "pages/개성은 자연스레 주어지지 않는다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Readings.md"
+                "file": "pages/개성은 자연스레 주어지지 않는다.md"
               }
             }
           },
@@ -133,15 +134,15 @@
   },
   "active": "35ea9500fe707e5a",
   "lastOpenFiles": [
-    "journals/2022-12-05.md",
-    "pages/Readings.md",
-    "pages/Inspiring Open Source Projects.md",
-    "pages/Inspecting Assembly.md",
-    "pages/WorkerDOM.md",
-    "pages/Undefined symbol vtable.md",
-    "pages/GitHub.md",
+    "journals/2022-12-06.md",
+    "pages/개성은 자연스레 주어지지 않는다.md",
     "pages/Project.md",
-    "journals/2022-06-14.md",
-    "journals/2022-10-31.md"
+    "pages/2021-06-23.md",
+    "pages/Information amongst Data.md",
+    "pages/Ideas are worthless.md",
+    "pages/In The End Trust Yourself.md",
+    "journals/2022-12-05.md",
+    "pages/Install Yarn Silently.md",
+    "pages/Readings.md"
   ]
 }

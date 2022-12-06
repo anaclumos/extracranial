@@ -337,6 +337,10 @@ export const backlinks = {
         "2021-02-26": "- [[프로젝트 어덕행덕]]",
         "2022-11-25": "- [[프로젝트 어덕행덕]]"
     },
+    "개성은 자연스레 주어지지 않는다": {
+        "2021-06-23": "- [[개성은 자연스레 주어지지 않는다]]",
+        "2022-12-06": "- [[개성은 자연스레 주어지지 않는다]]"
+    },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
         "2022-10-15": "- [[Dynamic Island on the Web]]",
@@ -989,6 +993,7 @@ export const backlinks = {
     "Ideas are worthless": {
         "2022-10-03": "- [[Ideas are worthless]]",
         "Supergravity Products": "- (아이디어는 흔하고 그걸 실제로 만드는 사람은 귀하다) [[Ideas are worthless]]",
+        "개성은 자연스레 주어지지 않는다": "하지만 이제는 [[Ideas are worthless|정보의 존재보다 실체의 발현]]이 중요한 세상입니다.",
         "프로젝트 어덕행덕": "어차피 [[Ideas are worthless|아이디어는 가치가 없다]]."
     },
     "Project Alter": {
@@ -1597,7 +1602,8 @@ export const backlinks = {
     },
     "In The End Trust Yourself": {
         "2022-11-23": "- [[In The End Trust Yourself]]",
-        "Antipilot": "  - [[In The End Trust Yourself]]"
+        "Antipilot": "  - [[In The End Trust Yourself]]",
+        "개성은 자연스레 주어지지 않는다": "- [[In The End Trust Yourself|결국에는 본인을 믿자]]"
     },
     "Desire-Compatible Growth & Preservation": {
         "2022-11-23": "- [[Desire-Compatible Growth & Preservation]]"
@@ -1694,7 +1700,8 @@ export const backlinks = {
         "Rauno Work Case Study": "- Has alphanumeric morphing, as if it is finding [[Information amongst Data]]",
         "Search Engine using Generative AI": "- [[Information amongst Data]]",
         "Search in a Latent Space": "- Finding [[Information amongst Data]].",
-        "The Library of Babel": "- [[Information amongst Data]]"
+        "The Library of Babel": "- [[Information amongst Data]]",
+        "개성은 자연스레 주어지지 않는다": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
     },
     "5A3846.gif": {
         "2022-11-10": "![[5A3846.gif]]",
@@ -1948,7 +1955,8 @@ export const backlinks = {
         "Thesephist Work Case Study": "### Monocle: [[Search Engine Indexing Your Life]]"
     },
     "한국의 입시와 거짓된 명예": {
-        "2022-11-25": "- [[한국의 입시와 거짓된 명예]]"
+        "2022-11-25": "- [[한국의 입시와 거짓된 명예]]",
+        "개성은 자연스레 주어지지 않는다": "- [[한국의 입시와 거짓된 명예]]"
     },
     "Person A3BA1A": {
         "2022-11-25": "- [[Person A3BA1A]]",
@@ -3195,6 +3203,9 @@ export const backlinks = {
         "0002 Add Two Numbers": "Solved at: [[2022-08-27]]",
         "0199 Binary Tree Right Side View": "Solved at: [[2022-08-27]]",
         "1448 Count Good Nodes in Binary Tree": "Solved at: [[2022-08-27]]"
+    },
+    "2021-06-23": {
+        "개성은 자연스레 주어지지 않는다": "— [[2021-06-23]]에 작성된 기록 중 발췌."
     },
     "Social Network Service": {
         "Jumpsite": "... or Web Linking Network Service, is a collective term for a [[Social Network Service]] mainly consisting of links to outside content."

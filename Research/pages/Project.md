@@ -5,7 +5,7 @@ aliases: ['프로젝트']
 ---
 
 This is a [[Metapage]] for my projects.
-I don't know what to put here yet!
+I am still trying to decide what to put here!
 Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repositories&type=source).
 
 ## Ongoing Projects
@@ -14,7 +14,7 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 
 ## [[TODO]]
 
-- [ ] 불가사리 (전설, 에너지)
+- [ ] 불가사리 (전설, 에너지, 이모지, 아트워크)
 - [ ] [[How is WebAssembly cross-platform when Assembly is not]]
 - [ ] Study the thread on [HN](https://news.ycombinator.com/item?id=33151774)
 - [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?
