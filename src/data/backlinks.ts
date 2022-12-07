@@ -407,6 +407,9 @@ export const backlinks = {
         "2022-10-31": "- [[Jetski]]",
         "2022-12-06": "- [[Jetski]]"
     },
+    "Link Preview for Arc": {
+        "2022-12-06": "- [[Link Preview for Arc]]"
+    },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
         "2022-10-15": "- [[Dynamic Island on the Web]]",
@@ -859,7 +862,7 @@ export const backlinks = {
         "PKM": "Check [[Tools for Thought]] for PKM tools in the market.",
         "Paracosm": "Paracosm is an experimental documentation toolkit & Extracranial [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
         "Plateau of Latent Potential": "Can we unlock the potential of human intelligence with next-gen [[Tools for Thought]]?",
-        "Rauno Work Case Study": "Interesting Extracranial [[Tools for Thought]] ([[Data Capturers]])",
+        "Rauno": "Interesting Extracranial [[Tools for Thought]] ([[Data Capturers]])",
         "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, Heptabase."
     },
     "Everyprompt": {
@@ -1174,7 +1177,7 @@ export const backlinks = {
         "Paracosm": "Paracosm is an experimental documentation toolkit & [[Extracranial]] [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech ...",
         "Plateau of Latent Potential": "It could be a form of [[Extracranial]], a [[Memex]], or even [[Conversational AI Tools for Thought]].",
         "Preservation of Data": "- An important concept for Memex and [[Extracranial]]",
-        "Rauno Work Case Study": "Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])",
+        "Rauno": "Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])",
         "Vannevar Bush": "- Early creator of Memex and [[Extracranial]]."
     },
     "Obsidian": {
@@ -1564,7 +1567,7 @@ export const backlinks = {
         "File Descriptor": "- it is an index of an array in the [[OS]] (file descriptor table)",
         "Handling files in Unix": "... in the first n bytes of the buffer are consumed by [[OS]]",
         "Mathematics under The Library of Babel": "- Killed by the [[OS]] for using too much RAM",
-        "Rauno Work Case Study": "- Resembles an [[OS]] with a magnifying dock at the bottom.",
+        "Rauno": "- Resembles an [[OS]] with a magnifying dock at the bottom.",
         "Virtual Address Space and Physical Address Space": "- if the memory is big enough, the [[OS]] uses the physical memory (RAM)",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 수 있다. 좌측 상단에 있는 Add Device 버튼을 누르면 다음과 같이 [[OS]]를 다운로드할 수 있는 창이 나타난다."
     },
@@ -1763,7 +1766,7 @@ export const backlinks = {
     "Information amongst Data": {
         "2022-11-24": "- [[Information amongst Data]]",
         "Person 1E6ABA": "Finding [[Information amongst Data]].",
-        "Rauno Work Case Study": "- Has alphanumeric morphing, as if it is finding [[Information amongst Data]]",
+        "Rauno": "- Has alphanumeric morphing, as if it is finding [[Information amongst Data]]",
         "Search Engine using Generative AI": "- [[Information amongst Data]]",
         "Search in a Latent Space": "- Finding [[Information amongst Data]].",
         "The Library of Babel": "- [[Information amongst Data]]",
@@ -2189,7 +2192,7 @@ export const backlinks = {
     "Infinite Canvas": {
         "2022-10-10": "- [[Infinite Canvas]]",
         "Intracranial": "  - [[Infinite Canvas]]",
-        "Rauno Work Case Study": "- Clipboard goes into [[Infinite Canvas]]",
+        "Rauno": "- Clipboard goes into [[Infinite Canvas]]",
         "Spacial Cognition": "- Key reason of [[Infinite Canvas]]. Gives spacial understanding & relevancy",
         "Visual-based Tools for Thought": "## [[Infinite Canvas]]"
     },
@@ -2200,9 +2203,10 @@ export const backlinks = {
         "2022-10-10": "... 23.976 and not 24 fps?? - AC's & DIT's - Cinematography.com. [[Frames Per Second]].",
         "Graphics Engine Process": "...   - Limit Updating Frequency to 16ms, which yields 60 [[Frames Per Second]]."
     },
-    "Rauno Work Case Study": {
-        "2022-12-04": "- [[Rauno Work Case Study]]",
-        "Data Capturers": "- [[Rauno Work Case Study]]"
+    "Rauno": {
+        "2022-12-04": "- [[Rauno]]",
+        "Data Capturers": "- [[Rauno]]",
+        "Link Preview for Arc": "- Inspired by [[Rauno]]"
     },
     "Thesephist Work Case Study": {
         "2022-12-04": "- [[Thesephist Work Case Study]]"
@@ -2989,7 +2993,7 @@ export const backlinks = {
         "Thesephist Work Case Study": "![[C4401B.png]]"
     },
     "Data Capturers": {
-        "Rauno Work Case Study": "Interesting Extracranial Tools for Thought ([[Data Capturers]])",
+        "Rauno": "Interesting Extracranial Tools for Thought ([[Data Capturers]])",
         "Thesephist Work Case Study": "### CoStructure: [[Data Capturers]] tool that automatically highlights",
         "Tools for Thought": "- [[Data Capturers]]"
     },
@@ -3083,64 +3087,6 @@ export const backlinks = {
     },
     "F8D9BD.png": {
         "Visual-based Tools for Thought": "![[F8D9BD.png]]"
-    },
-    "Case Study": {
-        "Rauno Work Case Study": "- [[Case Study]]"
-    },
-    "CD52BB.gif": {
-        "Rauno Work Case Study": "![[CD52BB.gif]]"
-    },
-    "C0147C.gif": {
-        "Data Capturers": "![[C0147C.gif]]",
-        "Rauno Work Case Study": "![[C0147C.gif]]"
-    },
-    "FDD149.gif": {
-        "Rauno Work Case Study": "![[FDD149.gif]]"
-    },
-    "729C95.png": {
-        "Rauno Work Case Study": "![[729C95.png]]"
-    },
-    "7BA380.png": {
-        "Rauno Work Case Study": "![[7BA380.png]]"
-    },
-    "E4D0EB.png": {
-        "Rauno Work Case Study": "![[E4D0EB.png]]"
-    },
-    "AE577D.png": {
-        "Rauno Work Case Study": "![[AE577D.png]]"
-    },
-    "FBAD35.png": {
-        "Rauno Work Case Study": "![[FBAD35.png]]"
-    },
-    "21D069.png": {
-        "Rauno Work Case Study": "![[21D069.png]]"
-    },
-    "9CA0D1.png": {
-        "Rauno Work Case Study": "![[9CA0D1.png]]"
-    },
-    "555D23.png": {
-        "Rauno Work Case Study": "![[555D23.png]]"
-    },
-    "4C9C82.png": {
-        "Rauno Work Case Study": "![[4C9C82.png]]"
-    },
-    "F9AD48.png": {
-        "Rauno Work Case Study": "![[F9AD48.png]]"
-    },
-    "7A8AA5.png": {
-        "Rauno Work Case Study": "![[7A8AA5.png]]"
-    },
-    "527310.png": {
-        "Rauno Work Case Study": "![[527310.png]]"
-    },
-    "B61EBE.png": {
-        "Rauno Work Case Study": "![[B61EBE.png]]"
-    },
-    "1B7A9A.png": {
-        "Rauno Work Case Study": "![[1B7A9A.png]]"
-    },
-    "94972C.png": {
-        "Rauno Work Case Study": "![[94972C.png]]"
     },
     "2A5C23.png": {
         "Jumpsite": "![[2A5C23.png]]",
@@ -3535,6 +3481,10 @@ export const backlinks = {
     "9C8F45.png": {
         "Search-based Tools for Thought": "![[9C8F45.png]]"
     },
+    "C0147C.gif": {
+        "Data Capturers": "![[C0147C.gif]]",
+        "Rauno": "![[C0147C.gif]]"
+    },
     "13ED2A.png": {
         "Data Capturers": "![[13ED2A.png]]",
         "Pensieve": "![[13ED2A.png]]"
@@ -3573,6 +3523,9 @@ export const backlinks = {
     },
     "33434F.png": {
         "AMP Email": "![[33434F.png]]"
+    },
+    "277486.gif": {
+        "Link Preview for Arc": "![[277486.gif]]"
     },
     "Delta Time": {
         "Game Programming": "- [[Delta Time]]",
@@ -3699,6 +3652,60 @@ export const backlinks = {
     },
     "tools for thought": {
         "Pensieve": "- An experimental [[tools for thought]] for capturing the context of information."
+    },
+    "Case Study": {
+        "Rauno": "- [[Case Study]]"
+    },
+    "CD52BB.gif": {
+        "Rauno": "![[CD52BB.gif]]"
+    },
+    "FDD149.gif": {
+        "Rauno": "![[FDD149.gif]]"
+    },
+    "729C95.png": {
+        "Rauno": "![[729C95.png]]"
+    },
+    "7BA380.png": {
+        "Rauno": "![[7BA380.png]]"
+    },
+    "E4D0EB.png": {
+        "Rauno": "![[E4D0EB.png]]"
+    },
+    "AE577D.png": {
+        "Rauno": "![[AE577D.png]]"
+    },
+    "FBAD35.png": {
+        "Rauno": "![[FBAD35.png]]"
+    },
+    "21D069.png": {
+        "Rauno": "![[21D069.png]]"
+    },
+    "9CA0D1.png": {
+        "Rauno": "![[9CA0D1.png]]"
+    },
+    "555D23.png": {
+        "Rauno": "![[555D23.png]]"
+    },
+    "4C9C82.png": {
+        "Rauno": "![[4C9C82.png]]"
+    },
+    "F9AD48.png": {
+        "Rauno": "![[F9AD48.png]]"
+    },
+    "7A8AA5.png": {
+        "Rauno": "![[7A8AA5.png]]"
+    },
+    "527310.png": {
+        "Rauno": "![[527310.png]]"
+    },
+    "B61EBE.png": {
+        "Rauno": "![[B61EBE.png]]"
+    },
+    "1B7A9A.png": {
+        "Rauno": "![[1B7A9A.png]]"
+    },
+    "94972C.png": {
+        "Rauno": "![[94972C.png]]"
     },
     "webserver": {
         "Port": "- [[webserver]] → 80"
