@@ -40,10 +40,15 @@ const RandomUrl = () => {
               let urls: Element[]
               let randomUrl: string
               console.log(
-                '/' + siteConfig.baseUrl + '/sitemap.xml'
+                siteConfig.url +
+                  '/' +
+                  siteConfig.baseUrl +
+                  '/sitemap.xml'
               )
               fetch(
-                '/' + siteConfig.baseUrl + '/sitemap.xml'
+                siteConfig.url +
+                  siteConfig.baseUrl +
+                  'sitemap.xml'
               )
                 .then((res) => res.text())
                 .then((text) => {
@@ -64,10 +69,6 @@ const RandomUrl = () => {
                       )
                     ].textContent
 
-                  randomUrl = randomUrl.replace(
-                    siteConfig.url,
-                    ''
-                  )
                   window.location.href = randomUrl
                 })
               return (
