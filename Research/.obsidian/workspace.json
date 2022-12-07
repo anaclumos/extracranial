@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9ce715345fa9775f",
+        "id": "e97981c5dd7f0e79",
         "type": "tabs",
         "children": [
           {
-            "id": "23e861f440ed461d",
+            "id": "81357837fed60127",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-12-06.md",
+                "file": "pages/Webflags.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-06.md",
+                "file": "pages/Webflags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-12-06.md"
+                "file": "pages/Webflags.md"
               }
             }
           },
@@ -132,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "23e861f440ed461d",
+  "active": "81357837fed60127",
   "lastOpenFiles": [
+    "journals/2022-12-07.md",
+    "pages/Webflags.md",
+    "pages/Twitter Hashflags.md",
+    "pages/Musk and Twitter.md",
+    "journals/2022-12-06.md",
+    "pages/Tools I will use one day.md",
     "pages/Link Preview for Arc.md",
     "pages/Rauno.md",
-    "journals/2022-12-06.md",
     "pages/Jetski.md",
-    "pages/Recorder on a Mac.md",
-    "pages/Reimagining Emails.md",
-    "pages/React Email.md",
-    "pages/AMP Email.md",
-    "pages/Spellbound.md",
-    "pages/Emails and Decentralized Protocols.md"
+    "pages/Recorder on a Mac.md"
   ]
 }
