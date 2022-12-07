@@ -4,6 +4,7 @@ slug: '/E688AF'
 ---
 
 - [anaclumos/webflags: Branded Hashflags, but for the Web!](https://github.com/anaclumos/webflags)
+- [[Hashflag]]s for the web
 
 ```applescript
 repeat 10000 times
