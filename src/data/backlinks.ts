@@ -1147,6 +1147,12 @@ export const backlinks = {
         "2022-09-03": "- [[Pure Component Model]]",
         "Monolithic Model": "- Solution [[Pure Component Model]]"
     },
+    "Webflags": {
+        "2022-12-07": "- [[Webflags]]"
+    },
+    "Twitter Hashflags": {
+        "2022-12-07": "- [[Twitter Hashflags]]"
+    },
     "Our tools also shape us": {
         "2022-10-13": "- [[Our tools also shape us]]",
         "Memex is more than a Memex": "- [[Our tools also shape us]]",
@@ -2960,6 +2966,12 @@ export const backlinks = {
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
+    "33525A.png": {
+        "Webflags": "![[33525A.png]]"
+    },
+    "933B33.gif": {
+        "Webflags": "![[933B33.gif]]"
+    },
     "C42C4E.png": {
         "Pretendard": "![[C42C4E.png]]",
         "San Francisco": "![[C42C4E.png]]"
@@ -3182,6 +3194,12 @@ export const backlinks = {
     },
     "E2297A.png": {
         "Squircle": "![[E2297A.png]]"
+    },
+    "A01C1B.png": {
+        "Twitter Hashflags": "![[A01C1B.png]]"
+    },
+    "4A4A25.gif": {
+        "Twitter Hashflags": "![[4A4A25.gif]]"
     },
     "GDPR": {
         "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by ...",
