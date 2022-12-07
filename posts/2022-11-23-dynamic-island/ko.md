@@ -11,7 +11,6 @@ slug: '/9F7F85'
 그럼요. 아래 검정색 타원을 클릭해보세요. 제가 현재 듣고 있거나 가장 최근에 들은 30개의 음악 중 하나가 무작위로 나타날거예요.
 </Admonition>
 
-import BrowserOnly from '@docusaurus/BrowserOnly'
 import IframeResizer from 'iframe-resizer-react'
 
 <figure
@@ -23,7 +22,7 @@ margin: '0 -16px',
 width: 'calc(100% + 32px)',
 }}
 >
-<BrowserOnly>
+
 <IframeResizer
 id='dynamic-island'
 style={{
@@ -32,7 +31,6 @@ width: 'calc(100% + 2rem)',
 }}
 src='https://dynamic-island.cho.sh/embed-player'
 />
-</BrowserOnly>
 
 </figure>
 
@@ -217,7 +215,6 @@ width: 'calc(100% + 32px)',
 }}
 >
 
-<BrowserOnly>
 <IframeResizer
 id="dynamic-island-phone-call"
 style={{
@@ -226,7 +223,6 @@ width: 'calc(100% + 32px)',
 }}
 src="https://dynamic-island.cho.sh/embed-phone-call"
 />
-</BrowserOnly>
 
 <figcaption>
 
