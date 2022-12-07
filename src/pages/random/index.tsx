@@ -39,6 +39,9 @@ const RandomUrl = () => {
             {() => {
               let urls: Element[]
               let randomUrl: string
+              console.log(
+                '/' + siteConfig.baseUrl + '/sitemap.xml'
+              )
               fetch(
                 '/' + siteConfig.baseUrl + '/sitemap.xml'
               )
