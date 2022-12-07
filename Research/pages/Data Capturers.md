@@ -7,7 +7,7 @@ slug: '/3BBBC0'
 
 ### [https://flow.rest](https://flow.rest/)
 
-- [[Rauno Work Case Study]]
+- [[Rauno]]
 
 ![[C0147C.gif]]
 
