@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Webflags.md",
-                "mode": "source",
+                "file": "pages/Hashflag.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Webflags.md",
+                "file": "pages/Hashflag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Webflags.md"
+                "file": "pages/Hashflag.md"
               }
             }
           },
@@ -133,9 +133,9 @@
   },
   "active": "81357837fed60127",
   "lastOpenFiles": [
-    "journals/2022-12-07.md",
     "pages/Webflags.md",
-    "pages/Twitter Hashflags.md",
+    "journals/2022-12-07.md",
+    "pages/Hashflag.md",
     "pages/Musk and Twitter.md",
     "journals/2022-12-06.md",
     "pages/Tools I will use one day.md",

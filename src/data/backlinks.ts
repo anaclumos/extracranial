@@ -1150,8 +1150,9 @@ export const backlinks = {
     "Webflags": {
         "2022-12-07": "- [[Webflags]]"
     },
-    "Twitter Hashflags": {
-        "2022-12-07": "- [[Twitter Hashflags]]"
+    "Hashflag": {
+        "2022-12-07": "- [[Hashflag]]",
+        "Webflags": "- [[Hashflag]]s for the web"
     },
     "Our tools also shape us": {
         "2022-10-13": "- [[Our tools also shape us]]",
@@ -2835,6 +2836,12 @@ export const backlinks = {
         "CELLO": "- [[초상권 vs 저작권]]",
         "퍼블리시티권": "- [[초상권 vs 저작권]]"
     },
+    "A01C1B.png": {
+        "Hashflag": "![[A01C1B.png]]"
+    },
+    "4A4A25.gif": {
+        "Hashflag": "![[4A4A25.gif]]"
+    },
     "endianness": {
         "Structs and Unions": "- Bytes can be stored in reversed order depending on the [[endianness]]."
     },
@@ -3194,12 +3201,6 @@ export const backlinks = {
     },
     "E2297A.png": {
         "Squircle": "![[E2297A.png]]"
-    },
-    "A01C1B.png": {
-        "Twitter Hashflags": "![[A01C1B.png]]"
-    },
-    "4A4A25.gif": {
-        "Twitter Hashflags": "![[4A4A25.gif]]"
     },
     "GDPR": {
         "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by ...",
