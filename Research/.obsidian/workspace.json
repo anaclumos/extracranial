@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Jetski.md",
+                "file": "journals/2022-12-06.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Jetski.md",
+                "file": "journals/2022-12-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Jetski.md"
+                "file": "journals/2022-12-06.md"
               }
             }
           },
@@ -134,6 +134,8 @@
   },
   "active": "23e861f440ed461d",
   "lastOpenFiles": [
+    "pages/Link Preview for Arc.md",
+    "pages/Rauno.md",
     "journals/2022-12-06.md",
     "pages/Jetski.md",
     "pages/Recorder on a Mac.md",
@@ -141,8 +143,6 @@
     "pages/React Email.md",
     "pages/AMP Email.md",
     "pages/Spellbound.md",
-    "pages/Emails and Decentralized Protocols.md",
-    "pages/WorkerDOM.md",
-    "pages/AMP.md"
+    "pages/Emails and Decentralized Protocols.md"
   ]
 }
