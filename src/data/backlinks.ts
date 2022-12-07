@@ -403,6 +403,10 @@ export const backlinks = {
         "Reimagining Emails": "- Interactive Emails using [[AMP Email]]. Example: [[Spellbound]]",
         "Spellbound": "- [[AMP Email]]"
     },
+    "Jetski": {
+        "2022-10-31": "- [[Jetski]]",
+        "2022-12-06": "- [[Jetski]]"
+    },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
         "2022-10-15": "- [[Dynamic Island on the Web]]",
@@ -2304,9 +2308,6 @@ export const backlinks = {
     },
     "411451.png": {
         "2022-10-25": "![[411451.png]]"
-    },
-    "Jetski": {
-        "2022-10-31": "- [[Jetski]]"
     },
     "1ED417.jpeg": {
         "2022-07-06": "- Merged! ![[1ED417.jpeg]]"
