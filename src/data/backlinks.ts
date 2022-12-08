@@ -537,6 +537,7 @@ export const backlinks = {
         "2022-11-28": "## [[Hacker News|HN]]",
         "2022-11-29": "## [[Hacker News|HN]]",
         "2022-11-30": "## [[Hacker News|HN]]",
+        "2022-12-07": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]"
@@ -762,8 +763,10 @@ export const backlinks = {
     },
     "ChatGPT": {
         "2022-12-02": "- [[ChatGPT]]",
+        "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]",
-        "Search Engine using Generative AI": "## On [[ChatGPT]]"
+        "Search Engine using Generative AI": "## On [[ChatGPT]]",
+        "Synthote": "- [[ChatGPT]]"
     },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]",
@@ -1154,6 +1157,19 @@ export const backlinks = {
         "2022-12-07": "- [[Hashflag]]",
         "Webflags": "- [[Hashflag]]s for the web"
     },
+    "Framer Motion": {
+        "2022-06-26": "- Especially, try implementing synchronous Layout properties—for example, [[Framer Motion]].",
+        "2022-09-29": "  - [[Framer Motion|Framer Animation]]",
+        "2022-12-07": "- [[Framer Motion]], [[Interactive Articles]]: Inside Framer's Magic Motion",
+        "Animations": "### [[Framer Motion]]",
+        "Dynamic Island on the Web": "- Applied Quick Clipping with [[Framer Motion]] for performance",
+        "Framer": "- Creator of [[Framer Motion]]"
+    },
+    "Interactive Articles": {
+        "2022-10-18": "- [[Interactive Articles]]",
+        "2022-12-07": "- Framer Motion, [[Interactive Articles]]: Inside Framer's Magic Motion",
+        "Extracranial": "## [[Interactive Articles]]"
+    },
     "Our tools also shape us": {
         "2022-10-13": "- [[Our tools also shape us]]",
         "Memex is more than a Memex": "- [[Our tools also shape us]]",
@@ -1366,10 +1382,6 @@ export const backlinks = {
         "Collecting Data": "- [[Copilot]]",
         "Synthote": "- [[Copilot]] is already doing it for codes"
     },
-    "Interactive Articles": {
-        "2022-10-18": "- [[Interactive Articles]]",
-        "Extracranial": "## [[Interactive Articles]]"
-    },
     "Preservation of Data": {
         "2022-10-18": "- [[Preservation of Data]]"
     },
@@ -1447,13 +1459,6 @@ export const backlinks = {
         "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with ...",
         "Front-end": "- [[Next.js]]",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]"
-    },
-    "Framer Motion": {
-        "2022-06-26": "- Especially, try implementing synchronous Layout properties—for example, [[Framer Motion]].",
-        "2022-09-29": "  - [[Framer Motion|Framer Animation]]",
-        "Animations": "### [[Framer Motion]]",
-        "Dynamic Island on the Web": "- Applied Quick Clipping with [[Framer Motion]] for performance",
-        "Framer": "- Creator of [[Framer Motion]]"
     },
     "The New Era of macOS Applications": {
         "2022-09-29": "- [[The New Era of macOS Applications]]"
@@ -2741,6 +2746,9 @@ export const backlinks = {
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "우선 balenaSound GitHub Repository에 들어가서 저장소를 내려받는다. [[GitHub]]을 사용하지 않는 사람이라면 웹사이트에 있는 Clone or Download 버튼을 누른 뒤 ...",
         "배달의민족 FE 개발자가 일하는 법 발표": "... 사용했다. 빠른 것 같고 좋은데, 장애를 겪고 나면 생각이 달라진다. 예전에는 [[GitHub]]를 사용하다가 요즘에는 비슷한 도구 (GitLab) 을 사용한다. 그래서 PR을 하고 올리면 ..."
     },
+    "AI Garbage Data Flooding": {
+        "Synthote": "- [[AI Garbage Data Flooding]]"
+    },
     "blockchain": {
         "Ethereum RPC as a Service": "... RPC is the primary way that you query data on the [[blockchain]]. AWS offers a similar product, AWS Managed Blockchain. Essentially these are ...",
         "Web3": "- Censorship-resistant” [[blockchain]] social networks became saturated with spam, driving away their actual users"
@@ -2973,11 +2981,32 @@ export const backlinks = {
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
-    "33525A.png": {
-        "Webflags": "![[33525A.png]]"
+    "D1EF14.png": {
+        "Webflags": "![[D1EF14.png]]"
     },
-    "933B33.gif": {
-        "Webflags": "![[933B33.gif]]"
+    "AE4A3D.png": {
+        "Webflags": "![[AE4A3D.png]]"
+    },
+    "EFAE53.png": {
+        "Webflags": "![[EFAE53.png]]"
+    },
+    "8A75F4.png": {
+        "Webflags": "![[8A75F4.png]]"
+    },
+    "D495BA.png": {
+        "Webflags": "![[D495BA.png]]"
+    },
+    "32CFD2.png": {
+        "Webflags": "![[32CFD2.png]]"
+    },
+    "97AC40.png": {
+        "Webflags": "![[97AC40.png]]"
+    },
+    "99452B.png": {
+        "Webflags": "![[99452B.png]]"
+    },
+    "7D1045.gif": {
+        "Webflags": "![[7D1045.gif]]"
     },
     "C42C4E.png": {
         "Pretendard": "![[C42C4E.png]]",
@@ -3584,6 +3613,12 @@ export const backlinks = {
     },
     "Metadata as a Service": {
         "Fiercely Overpriced": "[[Metadata as a Service]] could also be one example."
+    },
+    "3BD418.png": {
+        "Interactive Articles": "![[3BD418.png]]"
+    },
+    "B59279.png": {
+        "Interactive Articles": "![[B59279.png]]"
     },
     "779814.png": {
         "Interactive Articles": "![[779814.png]]"

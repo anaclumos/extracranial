@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e97981c5dd7f0e79",
+        "id": "0885b39ed57bce27",
         "type": "tabs",
         "children": [
           {
-            "id": "81357837fed60127",
+            "id": "8c4c9bebdc23dd74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Hashflag.md",
+                "file": "pages/Webflags.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Hashflag.md",
+                "file": "pages/Webflags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Hashflag.md"
+                "file": "pages/Webflags.md"
               }
             }
           },
@@ -131,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "81357837fed60127",
+  "active": "8c4c9bebdc23dd74",
   "lastOpenFiles": [
+    "assets/8A75F4.png",
     "pages/Webflags.md",
     "journals/2022-12-07.md",
+    "pages/AI Garbage Data Flooding.md",
+    "pages/Synthote.md",
+    "pages/ChatGPT.md",
+    "pages/Interactive Articles.md",
+    "pages/Framer Motion.md",
     "pages/Hashflag.md",
-    "pages/Musk and Twitter.md",
-    "journals/2022-12-06.md",
-    "pages/Tools I will use one day.md",
-    "pages/Link Preview for Arc.md",
-    "pages/Rauno.md",
-    "pages/Jetski.md",
-    "pages/Recorder on a Mac.md"
+    "pages/Musk and Twitter.md"
   ]
 }

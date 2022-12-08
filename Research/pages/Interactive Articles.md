@@ -3,6 +3,11 @@ lang: 'en'
 slug: '/78F836'
 ---
 
+### [Inside Framer's Magic Motion](https://www.nan.fyi/magic-motion)
+
+![[3BD418.png]]
+![[B59279.png]]
+
 ### [Sound – Bartosz Ciechanowski](https://ciechanow.ski/sound/)
 
 ![[779814.png]]
