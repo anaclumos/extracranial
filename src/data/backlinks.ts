@@ -1150,12 +1150,12 @@ export const backlinks = {
         "2022-09-03": "- [[Pure Component Model]]",
         "Monolithic Model": "- Solution [[Pure Component Model]]"
     },
-    "Webflags": {
-        "2022-12-07": "- [[Webflags]]"
+    "Linkflags": {
+        "2022-12-07": "- [[Linkflags]]"
     },
-    "Hashflag": {
-        "2022-12-07": "- [[Hashflag]]",
-        "Webflags": "- [[Hashflag]]s for the web"
+    "Hashflags": {
+        "2022-12-07": "- [[Hashflags]]",
+        "Linkflags": "- [[Hashflags]] for the web"
     },
     "Framer Motion": {
         "2022-06-26": "- Especially, try implementing synchronous Layout properties—for example, [[Framer Motion]].",
@@ -2844,12 +2844,6 @@ export const backlinks = {
         "CELLO": "- [[초상권 vs 저작권]]",
         "퍼블리시티권": "- [[초상권 vs 저작권]]"
     },
-    "A01C1B.png": {
-        "Hashflag": "![[A01C1B.png]]"
-    },
-    "4A4A25.gif": {
-        "Hashflag": "![[4A4A25.gif]]"
-    },
     "endianness": {
         "Structs and Unions": "- Bytes can be stored in reversed order depending on the [[endianness]]."
     },
@@ -2980,33 +2974,6 @@ export const backlinks = {
     },
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
-    },
-    "D1EF14.png": {
-        "Webflags": "![[D1EF14.png]]"
-    },
-    "AE4A3D.png": {
-        "Webflags": "![[AE4A3D.png]]"
-    },
-    "EFAE53.png": {
-        "Webflags": "![[EFAE53.png]]"
-    },
-    "8A75F4.png": {
-        "Webflags": "![[8A75F4.png]]"
-    },
-    "D495BA.png": {
-        "Webflags": "![[D495BA.png]]"
-    },
-    "32CFD2.png": {
-        "Webflags": "![[32CFD2.png]]"
-    },
-    "97AC40.png": {
-        "Webflags": "![[97AC40.png]]"
-    },
-    "99452B.png": {
-        "Webflags": "![[99452B.png]]"
-    },
-    "7D1045.gif": {
-        "Webflags": "![[7D1045.gif]]"
     },
     "C42C4E.png": {
         "Pretendard": "![[C42C4E.png]]",
@@ -3386,6 +3353,33 @@ export const backlinks = {
     "BB86F6.png": {
         "Data Capturers": "![[BB86F6.png]]",
         "Lazy": "![[BB86F6.png]]"
+    },
+    "D1EF14.png": {
+        "Linkflags": "![[D1EF14.png]]"
+    },
+    "AE4A3D.png": {
+        "Linkflags": "![[AE4A3D.png]]"
+    },
+    "EFAE53.png": {
+        "Linkflags": "![[EFAE53.png]]"
+    },
+    "8A75F4.png": {
+        "Linkflags": "![[8A75F4.png]]"
+    },
+    "D495BA.png": {
+        "Linkflags": "![[D495BA.png]]"
+    },
+    "32CFD2.png": {
+        "Linkflags": "![[32CFD2.png]]"
+    },
+    "97AC40.png": {
+        "Linkflags": "![[97AC40.png]]"
+    },
+    "99452B.png": {
+        "Linkflags": "![[99452B.png]]"
+    },
+    "7D1045.gif": {
+        "Linkflags": "![[7D1045.gif]]"
     },
     "Deepfake": {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]]."
@@ -3825,6 +3819,12 @@ export const backlinks = {
     },
     "2022-07-18": {
         "Better Docusaurus": "- Render `Figcaption` with `img alt` tags on [[2022-07-18]] Commit"
+    },
+    "4A4A25.gif": {
+        "Hashflags": "![[4A4A25.gif]]"
+    },
+    "A01C1B.png": {
+        "Hashflags": "![[A01C1B.png]]"
     },
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
