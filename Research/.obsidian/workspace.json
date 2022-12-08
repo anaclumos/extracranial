@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0885b39ed57bce27",
+        "id": "97776215b8065803",
         "type": "tabs",
         "children": [
           {
-            "id": "8c4c9bebdc23dd74",
+            "id": "37a9b03b548c11af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Webflags.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Webflags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Webflags.md"
-              }
+              "state": {}
             }
           },
           {
@@ -131,17 +123,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "8c4c9bebdc23dd74",
+  "active": "37a9b03b548c11af",
   "lastOpenFiles": [
-    "assets/8A75F4.png",
-    "pages/Webflags.md",
+    "pages/Untitled.md",
+    "pages/Linkflags.md",
+    "pages/Hashflags.md",
     "journals/2022-12-07.md",
+    "assets/8A75F4.png",
     "pages/AI Garbage Data Flooding.md",
     "pages/Synthote.md",
     "pages/ChatGPT.md",
     "pages/Interactive Articles.md",
-    "pages/Framer Motion.md",
-    "pages/Hashflag.md",
-    "pages/Musk and Twitter.md"
+    "pages/Framer Motion.md"
   ]
 }
