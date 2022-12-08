@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "97776215b8065803",
+        "id": "3d0bee878af5043c",
         "type": "tabs",
         "children": [
           {
-            "id": "37a9b03b548c11af",
+            "id": "e6d759eb32ba3931",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2022-11-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2022-11-19.md"
+              }
             }
           },
           {
@@ -123,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "37a9b03b548c11af",
+  "active": "e6d759eb32ba3931",
   "lastOpenFiles": [
-    "pages/Untitled.md",
-    "pages/Linkflags.md",
-    "pages/Hashflags.md",
+    "pages/Computer Systems.md",
+    "journals/2022-12-08.md",
     "journals/2022-12-07.md",
-    "assets/8A75F4.png",
-    "pages/AI Garbage Data Flooding.md",
-    "pages/Synthote.md",
-    "pages/ChatGPT.md",
-    "pages/Interactive Articles.md",
-    "pages/Framer Motion.md"
+    "pages/Heap (Memory).md",
+    "pages/Structs and Unions.md",
+    "pages/DX.md",
+    "pages/Memory Allocation.md",
+    "pages/Processes and Threads.md",
+    "pages/virtual address space.md",
+    "assets/115932.png"
   ]
 }
