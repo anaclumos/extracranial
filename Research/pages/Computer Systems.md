@@ -22,3 +22,6 @@ slug: '/BF9369'
 - [[Translation Look-aside Buffers]]
 - [[Page Faults]]
 - [[Cache and Virtual Memory]]
+- [[Processes and Threads]]
+- [[Memory Allocation]]
+- [[Heap (Memory)]]
