@@ -5,3 +5,4 @@ aliases: ['Framer Animation']
 ---
 
 - [Developers | Framer](https://www.framer.com/developers/)
+- [Inside Framer's Magic Motion](https://www.nan.fyi/magic-motion)

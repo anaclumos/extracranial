@@ -194,6 +194,7 @@ export const filenames = {
     "3D File Format": "82C83C",
     "3d Globe on the Web": "432EF8",
     "ACSM (File Format)": "188726",
+    "AI Garbage Data Flooding": "F33662",
     "AI replaces expensive jobs first": "D6C7BA",
     "AIs.txt": "F9F706",
     "AI는 고가 노동부터 점령한다": "0FF73F",
