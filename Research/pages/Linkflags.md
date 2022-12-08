@@ -6,13 +6,14 @@ slug: '/E688AF'
 - [[Hashflags]] for the web
 - [anaclumos/linkflags: Branded Hashflags, but for the Web!](https://github.com/anaclumos/linkflags)
 
-![[D1EF14.png]]
-![[AE4A3D.png]]
-![[EFAE53.png]]
-![[8A75F4.png]]
-![[D495BA.png]]
-![[32CFD2.png]]
-![[97AC40.png]]
+![[115932.png]]
+![[55E8A0.png]]
+![[D9EB38.png]]
+![[577EC0.png]]
+![[B562CE.png]]
+![[CC635E.png]]
+![[D3BA3A.png]]
+![[36625A.png]]
 
 ## Process
 
@@ -30,5 +31,5 @@ repeat 10000 times
 end repeat
 ```
 
-![[99452B.png]]
-![[7D1045.gif]]
+![[C035D8.png]]
+![[2E6CEB.gif]]

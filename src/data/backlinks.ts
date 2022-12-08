@@ -1157,6 +1157,27 @@ export const backlinks = {
         "2022-12-07": "- [[Hashflags]]",
         "Linkflags": "- [[Hashflags]] for the web"
     },
+    "Computer Systems": {
+        "2022-11-03": "- [[Computer Systems]]",
+        "2022-11-04": "- [[Computer Systems]]",
+        "2022-12-07": "- [[Computer Systems]]: [[Memory Allocation]]",
+        "ARM Architecture": "- [[Computer Systems]]",
+        "Base Frame Pointer": "- [[Computer Systems]]",
+        "Buffer Overflow Attacks": "- [[Computer Systems]]",
+        "Caching": "- [[Computer Systems]]",
+        "Iron Law of Processor Performance": "- [[Computer Systems]]",
+        "Latency and Throughput": "- [[Computer Systems]]",
+        "Memory Allocation": "In [[Computer Systems]], computers have two modes: the User mode and the Kernel mode.",
+        "Memory Hierarchy": "- [[Computer Systems]]",
+        "Memory Wall": "- [[Computer Systems]]",
+        "Principles of Locality": "- [[Computer Systems]]",
+        "Processes and Threads": "In [[Computer Systems]], a process is a running instance of a program. Thus, it ...",
+        "Structs and Unions": "- In [[Computer Systems]], structs are collections of heterogeneous data"
+    },
+    "Memory Allocation": {
+        "2022-12-07": "- Computer Systems: [[Memory Allocation]]",
+        "Computer Systems": "- [[Memory Allocation]]"
+    },
     "Framer Motion": {
         "2022-06-26": "- Especially, try implementing synchronous Layout properties—for example, [[Framer Motion]].",
         "2022-09-29": "  - [[Framer Motion|Framer Animation]]",
@@ -1439,6 +1460,10 @@ export const backlinks = {
         "2022-11-26": "- [[Mathematics under The Library of Babel]]",
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
+    "Heap (Memory)": {
+        "2022-12-08": "- [[Heap (Memory)]]",
+        "Computer Systems": "- [[Heap (Memory)]]"
+    },
     "일본 과학기술 총력전": {
         "2022-08-02": "- [[일본 과학기술 총력전]]",
         "Readings": "- [x] [[일본 과학기술 총력전]]"
@@ -1470,23 +1495,10 @@ export const backlinks = {
         "2022-09-29": "- [[한자 타자기]]",
         "Readings": "- [x] [[한자 타자기]]"
     },
-    "Computer Systems": {
-        "2022-11-03": "- [[Computer Systems]]",
-        "2022-11-04": "- [[Computer Systems]]",
-        "ARM Architecture": "- [[Computer Systems]]",
-        "Base Frame Pointer": "- [[Computer Systems]]",
-        "Buffer Overflow Attacks": "- [[Computer Systems]]",
-        "Caching": "- [[Computer Systems]]",
-        "Iron Law of Processor Performance": "- [[Computer Systems]]",
-        "Latency and Throughput": "- [[Computer Systems]]",
-        "Memory Hierarchy": "- [[Computer Systems]]",
-        "Memory Wall": "- [[Computer Systems]]",
-        "Principles of Locality": "- [[Computer Systems]]",
-        "Structs and Unions": "- In [[Computer Systems]], structs are collections of heterogeneous data"
-    },
     "Structs and Unions": {
         "2022-11-03": "- [[Structs and Unions]]",
-        "Computer Systems": "- [[Structs and Unions]]"
+        "Computer Systems": "- [[Structs and Unions]]",
+        "Heap (Memory)": "- align blocks, similar to [[Structs and Unions]]"
     },
     "Buffer Overflow Attacks": {
         "2022-11-03": "- [[Buffer Overflow Attacks]]",
@@ -2535,6 +2547,10 @@ export const backlinks = {
     "Digital Signature for Videos": {
         "Digital Signature": "- [[Digital Signature for Videos]]"
     },
+    "Processes and Threads": {
+        "Computer Systems": "- [[Processes and Threads]]",
+        "Memory Allocation": "First, we must define the key difference between [[Processes and Threads]]."
+    },
     "Karrot": {
         "Height": "- Used at [[Karrot]]",
         "Jira": "- Used at [[Karrot]]"
@@ -2629,6 +2645,7 @@ export const backlinks = {
     },
     "DX": {
         "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
+        "Heap (Memory)": "- [[DX]]",
         "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's."
     },
     "Generative AI": {
@@ -3354,32 +3371,35 @@ export const backlinks = {
         "Data Capturers": "![[BB86F6.png]]",
         "Lazy": "![[BB86F6.png]]"
     },
-    "D1EF14.png": {
-        "Linkflags": "![[D1EF14.png]]"
+    "115932.png": {
+        "Linkflags": "![[115932.png]]"
     },
-    "AE4A3D.png": {
-        "Linkflags": "![[AE4A3D.png]]"
+    "55E8A0.png": {
+        "Linkflags": "![[55E8A0.png]]"
     },
-    "EFAE53.png": {
-        "Linkflags": "![[EFAE53.png]]"
+    "D9EB38.png": {
+        "Linkflags": "![[D9EB38.png]]"
     },
-    "8A75F4.png": {
-        "Linkflags": "![[8A75F4.png]]"
+    "577EC0.png": {
+        "Linkflags": "![[577EC0.png]]"
     },
-    "D495BA.png": {
-        "Linkflags": "![[D495BA.png]]"
+    "B562CE.png": {
+        "Linkflags": "![[B562CE.png]]"
     },
-    "32CFD2.png": {
-        "Linkflags": "![[32CFD2.png]]"
+    "CC635E.png": {
+        "Linkflags": "![[CC635E.png]]"
     },
-    "97AC40.png": {
-        "Linkflags": "![[97AC40.png]]"
+    "D3BA3A.png": {
+        "Linkflags": "![[D3BA3A.png]]"
     },
-    "99452B.png": {
-        "Linkflags": "![[99452B.png]]"
+    "36625A.png": {
+        "Linkflags": "![[36625A.png]]"
     },
-    "7D1045.gif": {
-        "Linkflags": "![[7D1045.gif]]"
+    "C035D8.png": {
+        "Linkflags": "![[C035D8.png]]"
+    },
+    "2E6CEB.gif": {
+        "Linkflags": "![[2E6CEB.gif]]"
     },
     "Deepfake": {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]]."
