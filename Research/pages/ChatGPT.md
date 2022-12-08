@@ -18,3 +18,7 @@ slug: '/85E9E7'
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I will be forwarding all future media requests to ChatGPT <a href="https://t.co/ygeBfsB07c">pic.twitter.com/ygeBfsB07c</a></p>&mdash; Dylan Field (@zoink) <a href="https://twitter.com/zoink/status/1598827692803051521?ref_src=twsrc%5Etfw">December 2, 2022</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Introducing SiriGPT<br/><br/>A GPT voice assistant built entirely with Shortcuts<br/><br/>Tap in for setup <a href="https://t.co/orh6Wj1XMd">https://t.co/orh6Wj1XMd</a> <a href="https://t.co/hlkwKoAOmq">pic.twitter.com/hlkwKoAOmq</a></p>&mdash; Joe Kennedy (@joekndy) <a href="https://twitter.com/joekndy/status/1598874918422450176?ref_src=twsrc%5Etfw">December 3, 2022</a></blockquote>
+
+### [Using ChatGPT As a Co-Founder](https://www.atomic14.com/2022/12/05/using-chatgpt-as-a-co-founder.html)
+
+- It’s pretty impressive stuff, some of it is a bit overly verbose and a bit generic, but I could probably drill into the answers and get more detail. It would probably generate most of the code for the backend if I wanted it to:

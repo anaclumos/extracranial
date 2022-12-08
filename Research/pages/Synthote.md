@@ -9,6 +9,8 @@ slug: '/9A0D39'
 - Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?
 - [[Copilot]] is already doing it for codes
 - [[Conversational AI Tools for Thought]]
+- [[ChatGPT]]
+- [[AI Garbage Data Flooding]]
 
 ### [Notion AI](https://www.notion.so/ai)
 
@@ -28,12 +30,6 @@ slug: '/9A0D39'
 - In some ways, it is surprising that filtering text is technically challenging. The text seems like it would be easier to manipulate than images. But languages have far more rules than images do
 - A reader expects writing to follow proper spelling and grammar, a consistent tone, and a logical sequence of sentences
 - I'm excited to see community efforts like [[Obsidian Ava]] driving in this direction.
-
-### [Fake books - lcamtuf's thing](https://lcamtuf.substack.com/p/fake-books)
-
-- I had an epiphany: I was probably looking at the output of an ML-based language model, such as GPT-3
-- I do not have proof, but I'm reasonably confident I stumbled upon an early example of a monetized machine-generated book
-- With GPT-3, we now have an infinitely-scalable technology that is years away from enriching our lives but is already more than capable of drowning out all remnants of authentic content on the internet. And because you can leverage this to earn money or sway opinions, that outcome is probably hard to avoid
 
 ### [LLMs for Code](https://matt-rickard.ghost.io/llms-for-code/): [[Copilot]]
 
