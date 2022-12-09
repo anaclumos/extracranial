@@ -24,4 +24,4 @@ slug: '/BF9369'
 - [[Cache and Virtual Memory]]
 - [[Processes and Threads]]
 - [[Memory Allocation]]
-- [[Heap (Memory)]]
+- [[Heap (Computer Systems)]]

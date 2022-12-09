@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e6d759eb32ba3931",
+            "id": "8d2456fa61d48f2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-12-08.md",
+                "file": "pages/Copilot.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-08.md",
+                "file": "pages/Copilot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-12-08.md"
+                "file": "pages/Copilot.md"
               }
             }
           },
@@ -131,17 +131,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "e6d759eb32ba3931",
+  "active": "8d2456fa61d48f2b",
   "lastOpenFiles": [
-    "pages/Heap (Memory).md",
+    "pages/AIs.txt.md",
+    "pages/Copilot.md",
+    "pages/GitHub Copilot Investigation.md",
+    "pages/The Library of Babel.md",
     "journals/2022-12-08.md",
-    "pages/Welcome to the Neo Block Economy.md",
-    "pages/Computer Systems.md",
-    "journals/2022-12-07.md",
-    "pages/Structs and Unions.md",
+    "pages/Symbol (Computer Systems).md",
+    "pages/Link (Computer Systems).md",
+    "pages/Static (Computer Systems).md",
     "pages/DX.md",
-    "pages/Memory Allocation.md",
-    "pages/Processes and Threads.md",
-    "pages/virtual address space.md"
+    "pages/Grammarly.md"
   ]
 }

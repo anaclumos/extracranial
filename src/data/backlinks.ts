@@ -292,7 +292,7 @@ export const backlinks = {
         "Readings": "- [x] [[Building a Second Brain]]"
     },
     "PKM": {
-        "2022-06-12": "- Current [[PKM]] software tries to make Wikipedia-like graphs, where there the \"term\" plays ...",
+        "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays ...",
         "2022-07-01": "... realized that the term Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.",
         "Better Obsidian": "  - `Personal Knowledge Management` and `[[PKM]]` should act the same.",
         "PKM": "| [[PKM]]        | Architecture for Digital ...",
@@ -305,6 +305,12 @@ export const backlinks = {
         "2022-07-06": "- [[PARA]]... might be worse than I thought?",
         "CODE Procedure": "- Often used with [[PARA]].",
         "PKM": "| [[PARA]]       | Architecture for Second Brain. ..."
+    },
+    "Wikipedia": {
+        "2022-06-12": "- Current PKM software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays a crucial role in graphing. ...",
+        "2022-07-01": "...        | Notes are in [[Wikipedia]] Style           ...",
+        "2022-12-08": "- [[Wikipedia]]",
+        "Are.na (Service)": "... People describe Are.na as a garden of ideas or Tumblr meets [[Wikipedia]]."
     },
     "Evergreen notes": {
         "2022-05-29": "- [[Evergreen notes]] vs [[Transient Notes]]",
@@ -708,8 +714,9 @@ export const backlinks = {
         "2022-11-07": "- [[Real Interviews]]",
         "Coding Tests": "- [[Real Interviews]]"
     },
-    "Undefined symbol vtable": {
-        "2022-09-22": "- [[Undefined symbol vtable]]"
+    "Undefined Symbol Vtable": {
+        "2022-09-22": "- [[Undefined Symbol Vtable]]",
+        "Symbol (Computer Systems)": "- [[Undefined Symbol Vtable]]"
     },
     "2022-07-19": {
         "2022-07-21": "See [[2022-07-19]].",
@@ -800,7 +807,7 @@ export const backlinks = {
         "2022-09-17": "- [[Android]]",
         "2022-10-20": "... It tries to download filter updates on every startup, and on [[Android]], it may happen many times daily. It can even happen when ...",
         "3D File Format": "- glTF for [[Android]]",
-        "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, Linux, macOS, and Windows. Simple DirectMedia Layer"
+        "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer"
     },
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
@@ -1172,6 +1179,7 @@ export const backlinks = {
         "Memory Wall": "- [[Computer Systems]]",
         "Principles of Locality": "- [[Computer Systems]]",
         "Processes and Threads": "In [[Computer Systems]], a process is a running instance of a program. Thus, it ...",
+        "Static (Computer Systems)": "In [[Computer Systems]], `static` means that the variable will only be visible within the ...",
         "Structs and Unions": "- In [[Computer Systems]], structs are collections of heterogeneous data"
     },
     "Memory Allocation": {
@@ -1434,11 +1442,21 @@ export const backlinks = {
         "2022-11-16": "- [[Configuring Jest for React Native]]"
     },
     "ACSM (File Format)": {
-        "2022-06-05": "- Convert [[ACSM (File Format)]] files to [[PDF (File Format)]]/EPUBs with one command on Linux \\(and ..."
+        "2022-06-05": "- Convert [[ACSM (File Format)]] files to [[PDF (File Format)]]/EPUBs with one command on [[Linux]] \\(and ..."
     },
     "PDF (File Format)": {
-        "2022-06-05": "- Convert ACSM (File Format) files to [[PDF (File Format)]]/EPUBs with one command on Linux \\(and macOS very soon\\). This software ...",
+        "2022-06-05": "- Convert ACSM (File Format) files to [[PDF (File Format)]]/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software ...",
         "Screenshot as an API": "    - No need to understand [[PDF (File Format)]] data format"
+    },
+    "Linux": {
+        "2022-06-05": "... (File Format) files to PDF (File Format)/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software does not utilize Adobe Digital ...",
+        "ELF": "- Executable and Linked Format, used in [[Linux]]",
+        "Linux Permissions for Keys": "Note that [[Linux]] SSH manual says:",
+        "Simple DirectMedia Layer": "... that can run on many operating systems such as Android, iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
+        "Symlink": "... by POSIX and by most Unix-like operating systems, such as FreeBSD, [[Linux]], and macOS. Limited support also exists in Windows 7 and Windows ...",
+        "Torvalds": "... who is the creator and, historically, the lead developer of the [[Linux]] kernel, used by Linux distributions and other operating systems such as ...",
+        "Visual Studio Code": "... VS Code, made by Microsoft with the Electron Framework, for Windows, [[Linux]] and macOS. Features include support for debugging, syntax highlighting, intelligent code ...",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "이 글은 Balena 주식회사가 개발한 `balenaOS` 및 `balenaSound` Project|프로젝트를 활용한다. Balena는 [[Linux]] 장치들로 사물인터넷(IoT) 시스템을 구축할 수 있도록 도와주는 플랫폼이다. 이러한 Project|프로젝트를 진행해 ..."
     },
     "Architectural Decision Records": {
         "2022-11-02": "- [[Architectural Decision Records]]"
@@ -1460,12 +1478,28 @@ export const backlinks = {
         "2022-11-26": "- [[Mathematics under The Library of Babel]]",
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
-    "Heap (Memory)": {
-        "2022-12-08": "- [[Heap (Memory)]]",
-        "Computer Systems": "- [[Heap (Memory)]]"
+    "Heap (Computer Systems)": {
+        "2022-12-08": "- [[Heap (Computer Systems)]]",
+        "Computer Systems": "- [[Heap (Computer Systems)]]"
     },
     "Welcome to the Neo Block Economy": {
         "2022-12-08": "- [[Welcome to the Neo Block Economy]]"
+    },
+    "Static (Computer Systems)": {
+        "2022-12-08": "- [[Static (Computer Systems)]]",
+        "Symbol (Computer Systems)": "Global Symbols are symbols that are not [[Static (Computer Systems)|static]]."
+    },
+    "Link (Computer Systems)": {
+        "2022-12-08": "- [[Link (Computer Systems)]]",
+        "Symbol (Computer Systems)": "When there are strong and weak symbols combined, the [[Link (Computer Systems)|linker]] chooses the strong one."
+    },
+    "Symbol (Computer Systems)": {
+        "2022-12-08": "- [[Symbol (Computer Systems)]]",
+        "Link (Computer Systems)": "- [[Symbol (Computer Systems)|Symbol]] Resolution (Function names, Global variables, Static variables ... )"
+    },
+    "94861D.png": {
+        "2022-12-08": "![[94861D.png]]",
+        "Wikipedia": "![[94861D.png]]"
     },
     "일본 과학기술 총력전": {
         "2022-08-02": "- [[일본 과학기술 총력전]]",
@@ -1501,7 +1535,7 @@ export const backlinks = {
     "Structs and Unions": {
         "2022-11-03": "- [[Structs and Unions]]",
         "Computer Systems": "- [[Structs and Unions]]",
-        "Heap (Memory)": "- align blocks, similar to [[Structs and Unions]]"
+        "Heap (Computer Systems)": "- align blocks, similar to [[Structs and Unions]]"
     },
     "Buffer Overflow Attacks": {
         "2022-11-03": "- [[Buffer Overflow Attacks]]",
@@ -2485,6 +2519,9 @@ export const backlinks = {
     "E64653.png": {
         "Redirecting READMEs": "![[E64653.png]]"
     },
+    "ELF": {
+        "Link (Computer Systems)": "Linux uses [[ELF]]"
+    },
     "CSS": {
         "Font Features": "- [[CSS]] property to enhance legibilities of a [[Font]].",
         "Markdown Email Client": "- Before sending, select one [[CSS]]",
@@ -2602,6 +2639,11 @@ export const backlinks = {
         "Fiercely Overpriced": "To attain [[FIRE]], we have previously explored that [[Software as a Service]] would be ...",
         "Software as a Service": "We expect we could attain [[FIRE]] through [[Software as a Service]]."
     },
+    "DX": {
+        "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
+        "Heap (Computer Systems)": "- [[DX]]",
+        "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's."
+    },
     "2022-09-04": {
         "0242 Valid Anagram": "Solved at: [[2022-09-04]]",
         "0704 Binary Search": "Solved at: [[2022-09-04]]"
@@ -2645,11 +2687,6 @@ export const backlinks = {
     },
     "ABD734.png": {
         "Developing Review Notes for Obsidian": "![[ABD734.png]]"
-    },
-    "DX": {
-        "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
-        "Heap (Memory)": "- [[DX]]",
-        "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's."
     },
     "Generative AI": {
         "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
@@ -2869,6 +2906,10 @@ export const backlinks = {
     },
     "BA8C9D.png": {
         "벌금과 물가": "- ![[BA8C9D.png]]"
+    },
+    "dx": {
+        "Grammarly": "- [[dx]] team",
+        "Symbol (Computer Systems)": "- initialize global variables (take advantage of the linker for [[dx]])"
     },
     "Linux Commands": {
         "Internetworking": "- [[Linux Commands]]"
@@ -3338,6 +3379,9 @@ export const backlinks = {
     "caching": {
         "Cache Conscious Programming": "... slower than `for (i=0;i<N;i++) for (j=0;j<M;j++)` due to the way of [[caching]]"
     },
+    "Torvalds": {
+        "Linux": "... operating system kernel first released on September 17, 1991, by Linus [[Torvalds]]. Linux is typically packaged as a Linux distribution, which includes the ..."
+    },
     "2022-09-05": {
         "0053 Maximum Subarray": "Solved at: [[2022-09-05]]",
         "0733 Flood Fill": "Solved at: [[2022-09-05]]"
@@ -3664,9 +3708,6 @@ export const backlinks = {
     "C353BE.png": {
         "Animations": "![[C353BE.png]]"
     },
-    "dx": {
-        "Grammarly": "- [[dx]] team"
-    },
     "2022-07-24": {
         "FIRE Engine": "... How Much Money Do Indie Hackers Products Make? | Scraping Fish ([[2022-07-24]])"
     },
@@ -3723,6 +3764,9 @@ export const backlinks = {
     },
     "tools for thought": {
         "Pensieve": "- An experimental [[tools for thought]] for capturing the context of information."
+    },
+    "copilot": {
+        "Pensieve": "... automatically collects your expertise in a hierarchy powered by an AI [[copilot]]. Whenever you are starting a search journey that entails multiple tabs ..."
     },
     "Case Study": {
         "Rauno": "- [[Case Study]]"
