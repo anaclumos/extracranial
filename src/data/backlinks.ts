@@ -1505,6 +1505,13 @@ export const backlinks = {
         "2022-12-08": "- [[Symbol (Computer Systems)]]",
         "Link (Computer Systems)": "- [[Symbol (Computer Systems)|Symbol]] Resolution (Function names, Global variables, Static variables ... )"
     },
+    "Dynamically Linked Libraries": {
+        "2022-12-08": "- [[Dynamically Linked Libraries]]"
+    },
+    "Person ECC2CB": {
+        "2022-12-08": "- [[Person ECC2CB]]",
+        "Project PEOPLE": "- [[Person ECC2CB]]"
+    },
     "94861D.png": {
         "2022-12-08": "![[94861D.png]]",
         "Wikipedia": "![[94861D.png]]"
@@ -3104,6 +3111,9 @@ export const backlinks = {
     },
     "6C2684.png": {
         "Thesephist Work Case Study": "![[6C2684.png]]"
+    },
+    "2022-12-08": {
+        "Person ECC2CB": "- Interviewed on [[2022-12-08]]"
     },
     "2022-08-30": {
         "0215 Kth Largest Element in an Array": "Solved at: [[2022-08-30]]",
