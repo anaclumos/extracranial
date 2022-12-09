@@ -83,3 +83,7 @@ Explicit free list require a doubly linked list to manage this data structure.
 
 - keep a separate free list based on the size of free blocks
 - pick the best list based on the size requested
+
+## Managed Pointers
+
+There is an intermediary object holding counters of the references. If the reference reach zero, the garbage collector will deallocate the object.
