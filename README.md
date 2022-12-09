@@ -22,9 +22,9 @@ I never expected this project to end up on such a consequential scale. This proj
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   818     25858     6305         0    19553          0
+Markdown                   825     25958     6330         0    19628          0
 SVG                         57        57        0         0       57          0
-TypeScript                  50      7511      145        48     7318        136
+TypeScript                  50      7562      145        48     7369        136
 CSS                         35      2908      205        30     2673          0
 JSON                        35      2044        0         0     2044          0
 Python                       6       392       47        29      316         92
@@ -34,13 +34,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1014     40351     6799      1219    32333        249
+Total                     1021     40502     6824      1219    32459        249
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,039,258
-Estimated Schedule Effort (organic) 13.96 months
-Estimated People Required (organic) 6.62
+Estimated Cost to Develop (organic) $1,043,511
+Estimated Schedule Effort (organic) 13.98 months
+Estimated People Required (organic) 6.63
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1834796 bytes, 1.835 megabytes (SI)
+Processed 1842635 bytes, 1.843 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
