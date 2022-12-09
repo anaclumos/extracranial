@@ -91,7 +91,7 @@ Start with a platform system that helps doctors and lawyers.
 
 - DOCTORS: Start with Medical CRM. When a patient comes, information about the patient is collected before treatment begins. When treatment begins, the patient's story is automatically parsed, and artificial intelligence extracts keywords. Medical personnel verifies this. Similar cases and recommended care/prescriptions appear on one side of the screen. The doctor selects the appropriate treatment among the recommended treatments and proceeds with the treatment. Or a doctor can add a new therapy. This information is recorded on the server and used for extensive data training.
 - LAWYERS: Start with a case analyzer. It begins with a local legal case (e.g., traffic ticket violation), like [DoNotPay - The World's First Robot Lawyer](https://donotpay.com/). However, after gradually increasing the number of issues that become databases, lawyers can search for similar topics like "Google Search." For example, if a fraud case comes in, the lawyer enters the details of the case. With dozens of previous precedents, artificial intelligence analyzes the similarities and differences of events.
-- Like GitHub Copilot but for medical and legal cases.
+- Like GitHub [[Copilot]] but for medical and legal cases.
 
 Like these, provide sneakers --- very essential and valuable tools for medical personnel and legal professionals. In other words, transform doctors and lawyers into our primary customers and data pipeline. When entering a robust market like the medical and legal circles, never engage in an all-out war. Instead, build cooperative relationships first, neutralize them, and then wage a full-scale war.
 

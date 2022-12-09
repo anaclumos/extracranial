@@ -807,7 +807,10 @@ export const backlinks = {
         "2022-09-17": "- [[Android]]",
         "2022-10-20": "... It tries to download filter updates on every startup, and on [[Android]], it may happen many times daily. It can even happen when ...",
         "3D File Format": "- glTF for [[Android]]",
-        "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer"
+        "Figma": "... vector graphics editors and prototyping tools. The Figma mobile app for [[Android]] and iOS allows viewing and interacting with Figma prototypes in real ...",
+        "React Native": "... by Meta Platforms, Inc. It is used to develop applications for [[Android]], Android TV, iOS, macOS, tvOS, Web, Windows, and UWP by enabling ...",
+        "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
+        "Torvalds": "... kernel, used by Linux distributions and other operating systems such as [[Android]]. He also created the distributed version control system Git. Linus Torvalds"
     },
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
@@ -1265,6 +1268,7 @@ export const backlinks = {
         "3D File Format": "- USDZ for [[Apple]]",
         "Andy Matuschak": "- ex-[[Apple]] UI-Kit developer",
         "Apple Earth": "- Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports",
+        "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
         "Apple Silicon (CPU)": "- Chips made by [[Apple]]",
         "Brunch violates SF terms of use": "- Korean writing service Brunch violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web ...",
         "CalliFontia": "- [[Apple]] Pencil Handwriting → [[Font]]",
@@ -1407,8 +1411,12 @@ export const backlinks = {
     },
     "Copilot": {
         "2022-10-18": "- [[Copilot]]",
+        "AI replaces expensive jobs first": "- Like GitHub [[Copilot]] but for medical and legal cases.",
         "AIs.txt": "... we could make a human-readable file that declines machine learning (a.k.a. [[Copilot]] use)?",
+        "AI는 고가 노동부터 점령한다": "- 마치, 의료 법률계의 GitHub [[Copilot]] (2021년에 출시되어 이미 보급된 인공지능 코드 작성기.)",
+        "Antipilot": "- [[Copilot]] looks like increasing your productivity, but it",
         "Collecting Data": "- [[Copilot]]",
+        "GitHub Copilot Investigation": "- How it started: [[Copilot]]",
         "Synthote": "- [[Copilot]] is already doing it for codes"
     },
     "Preservation of Data": {
@@ -2056,13 +2064,21 @@ export const backlinks = {
         "AMP Email": "... the email. The AMP email format provides a subset of AMP [[HTML]] components for use in email messages, allowing recipients of AMP emails ...",
         "CSS": "... presentation of a document written in a markup language such as [[HTML]] or XML (including XML dialects such as [[SVG (File Format)]], MathML, ...",
         "DOM": "... is a cross-platform and language-independent interface that treats an XML or [[HTML]] document as a tree structure wherein each node is an object ...",
+        "HTML 텍스트 위에 덧말 강조점 쓰기": "그동안 글자 위에 글자를 어떻게 적는지 궁금했는데 [[HTML]]의 기본 기능 만으로도 해결 가능하다는 것을 알게 되었다. 참고로 이런 '글자 ...",
         "JSX (File Format)": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
         "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
         "Markdown Email Client": "- Then... it sends as a beautiful and clean [[HTML]] email!",
         "Preservation of Data": "Save the raw [[HTML]] and process it later.",
+        "Protocol Wars": "... example, Mosaic had a feature that automatically converted Gopher menus into [[HTML]]",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
+        "Setting different images for Light & Dark mode": "Using `preferred color scheme` CSS property and [[HTML]] Picture `srcset` property.",
+        "Shopify Analyzes CSS Frameworks": "... solution across Rails, React, Next.js, React-Native, rollup, Vite, esbuild, webpack, sewing-kit [[HTML]], and Native applications. | 2    | 2  ...",
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly ([[HTML]]/[[CSS]])",
+        "Svelte": "... not a monolithic JavaScript library imported by applications: instead, Svelte compiles [[HTML]] templates to specialized code that manipulates the [[DOM]] directly, which may ...",
         "Tailwind": "> Rapidly build modern websites without ever leaving your [[HTML]]. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, ...",
+        "Tailwind CSS 톺아보기": "- `next/image` 사용. `next/image`는 여전히 [[HTML]] `<img>`를 생성하지만 이미지 최적화 등에서 강점을 지님. 다만 [[Tailwind]] 자체의 `h-12`, ...",
+        "Web Typography": "... typography refers to using fonts on the World Wide Web. When [[HTML]] was first created, [[font]] faces and styles were controlled exclusively by ...",
+        "Web Worker": "... Technology Working Group (WHATWG), is a JavaScript script executed from an [[HTML]] page that runs in the background, independently of scripts that may ...",
         "XTML": "What if stale [[HTML]] elements can have some neat features?",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 IP 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 포토샵으로 삭제했다.",
         "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. 특정 텍스트를 강조하고 싶다면 다음과 ..."
@@ -2717,6 +2733,10 @@ export const backlinks = {
     "Educational Technology": {
         "Person 1E6ABA": "- Currently works at a Financial Technology|FinTech + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager."
     },
+    "Leetcode": {
+        "Coding Tests": "## [[Leetcode]] 75",
+        "Real Interviews": "  - 3 [[Leetcode]] Easy to Medium Problem"
+    },
     "QuickSelect": {
         "0215 Kth Largest Element in an Array": "- Use [[QuickSelect]]",
         "Coding Tests": "- [[QuickSelect]] [[TODO]]"
@@ -2859,6 +2879,11 @@ export const backlinks = {
     "git": {
         "Techs Actually Simple": "- Some `[[git]]` commands are still just shell scripts under the hood"
     },
+    "HTTP": {
+        "Internetworking": "- [[HTTP]]",
+        "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does that change the request-response rate?",
+        "Techs Actually Simple": "- Not to mention plaintext protocols. [[HTTP]], SMTP, FTP, and Redis Serialization Protocol (RESP) are a few examples"
+    },
     "5BFF3F.png": {
         "Conversational AI Tools for Thought": "![[5BFF3F.png]]"
     },
@@ -2888,7 +2913,9 @@ export const backlinks = {
         "AIs.txt": "If any [[IP]] is legally protected, machine-generated code must also have the same level ...",
         "IP Spoofing": "- Faking an [[IP]] by sending packet with false source address",
         "Internetworking": "- [[IP]]",
-        "Preservation of Data": "- Find another [[IP]] without restrictions you are facing."
+        "Preservation of Data": "- Find another [[IP]] without restrictions you are facing.",
+        "Protocol Wars": "... admit. The U.S. Department of Defense was an early adopter of TCP/[[IP]]",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ..."
     },
     "2576C7.png": {
         "Spellbound": "![[2576C7.png]]"
@@ -2919,10 +2946,6 @@ export const backlinks = {
     },
     "Clock skew detected": {
         "Internetworking": "- [[Clock skew detected]]"
-    },
-    "HTTP": {
-        "Internetworking": "- [[HTTP]]",
-        "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does that change the request-response rate?"
     },
     "Makefile": {
         "Internetworking": "- [[Makefile]]"
@@ -3169,7 +3192,9 @@ export const backlinks = {
         "Surfit": "![[2A5C23.png]]"
     },
     "Google Analytics": {
-        "GA": "- [[Google Analytics]]"
+        "GA": "- [[Google Analytics]]",
+        "Simple Analytics": "> The privacy-first [[Google Analytics]] alternative. Simple Analytics",
+        "YCLF 주간 사용자 1000명": "[[Google Analytics]] Referrals 추적 기능을 통해 어느 링크를 타고 들어오는지 파악이 가능했다. 댓글로 ..."
     },
     "2D2789.png": {
         "Archiving-based Tools for Thoughts": "![[2D2789.png]]"
@@ -3367,6 +3392,9 @@ export const backlinks = {
     },
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]"
+    },
+    "ip": {
+        "http 없는 http 서버 만들기": "`http` 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ..."
     },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",
@@ -4009,9 +4037,6 @@ export const backlinks = {
     },
     "2022-11-29": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "## Response on [[2022-11-29]]"
-    },
-    "Leetcode": {
-        "Real Interviews": "  - 3 [[Leetcode]] Easy to Medium Problem"
     },
     "ffmpeg": {
         "Jetski": "- [[ffmpeg]] optimization for sharing"

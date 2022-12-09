@@ -7,7 +7,7 @@ I recently found this:
 
 ```
 This is just a thought. But it might be nice to have some sort
-of easter egg message in here for the hard core Apple fans that
+of easter egg message in here for the hard core [[Apple]] fans that
 will stop the video.
 
 01010011 01101111 00100000 01111001 01101111 01110101
