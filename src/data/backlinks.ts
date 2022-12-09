@@ -1464,6 +1464,9 @@ export const backlinks = {
         "2022-12-08": "- [[Heap (Memory)]]",
         "Computer Systems": "- [[Heap (Memory)]]"
     },
+    "Welcome to the Neo Block Economy": {
+        "2022-12-08": "- [[Welcome to the Neo Block Economy]]"
+    },
     "일본 과학기술 총력전": {
         "2022-08-02": "- [[일본 과학기술 총력전]]",
         "Readings": "- [x] [[일본 과학기술 총력전]]"

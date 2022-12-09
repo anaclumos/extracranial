@@ -727,6 +727,7 @@ export const filenames = {
     "Web Worker": "E540BB",
     "Web3": "451E1C",
     "WebAssembly": "60C4E1",
+    "Welcome to the Neo Block Economy": "451356",
     "When TSC suddenly errors with cannot find module": "ACB2F1",
     "Why the halting problem is unsolvable": "FFD937",
     "Wikiversity": "BA6533",
