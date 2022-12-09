@@ -150,7 +150,7 @@ export default chatbubble
 ### [원본 코드](https://tailwindcss.com/docs/utility-first)와 변경점
 
 - `class` 대신 `className` 사용 (React)
-- `next/image` 사용. `next/image`는 여전히 HTML `<img>`를 생성하지만 이미지 최적화 등에서 강점을 지님. 다만 [[Tailwind]] 자체의 `h-12`, `w-12` 등의 `className`이 지원되지 않아 Wrapper Div가 필요함.
+- `next/image` 사용. `next/image`는 여전히 [[HTML]] `<img>`를 생성하지만 이미지 최적화 등에서 강점을 지님. 다만 [[Tailwind]] 자체의 `h-12`, `w-12` 등의 `className`이 지원되지 않아 Wrapper Div가 필요함.
 
 ```ts
 - <img class="h-12 w-12" src="../../public/favicon.ico" alt="Favicon">

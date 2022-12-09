@@ -36,7 +36,7 @@ To get around restrictions, there are a few things you can try.
 
 - Find another [[IP]] without restrictions you are facing.
 - Find another API endpoints without restrictions you are facing.
-- Find the download rate that makes your IP blocked. How long does it get blocked? Or do you get throttled down?
+- Find the download rate that makes your [[IP]] blocked. How long does it get blocked? Or do you get throttled down?
 - Try creating a new account.
 - Try using [[HTTP]]/2 to keep connections open. Does that change the request-response rate?
 - Is there a comprehensive "all-in-one" page? Is the information listed there sufficient
