@@ -8,7 +8,7 @@
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "Flagship Posts",
+    "message": "Articles",
     "description": "The label for the left sidebar"
   }
 }

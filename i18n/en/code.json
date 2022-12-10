@@ -179,7 +179,7 @@
     "description": "The label alongside a tag list"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog Flagship Posts navigation",
+    "message": "Blog Articles navigation",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
