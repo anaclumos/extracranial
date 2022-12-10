@@ -74,7 +74,7 @@ And we can confirm that it is working as expected.
 
 ![[56155E.png]]
 
-## The binary codes of WASM
+## The binary codes of [[WebAssembly|WASM]]
 
 Now, let's inspect the binary codes of the WASM.
 

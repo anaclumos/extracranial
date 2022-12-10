@@ -24,9 +24,9 @@ Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
 Markdown                   849     26368     6414         0    19954          0
 SVG                         57        57        0         0       57          0
-TypeScript                  50      7724      145        48     7531        136
+TypeScript                  50      7732      145        48     7539        136
 CSS                         35      2916      206        30     2680          0
-JSON                        35      2027        0         0     2027          0
+JSON                        35      2019        0         0     2019          0
 Python                       6       392       47        29      316         92
 YAML                         6        30        2         0       28          0
 JavaScript                   2      1157        4      1038      115         21
@@ -40,7 +40,7 @@ Estimated Cost to Develop (organic) $1,059,652
 Estimated Schedule Effort (organic) 14.06 months
 Estimated People Required (organic) 6.70
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1877215 bytes, 1.877 megabytes (SI)
+Processed 1877836 bytes, 1.878 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
