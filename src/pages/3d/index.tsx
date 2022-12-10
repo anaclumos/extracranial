@@ -65,8 +65,8 @@ export const GraphView3d = (props: {
                   return `#${node.id}`
                 }}
                 linkColor={() => '#4976ca'}
-                linkOpacity={0.3}
-                linkWidth={0.3}
+                linkOpacity={1}
+                linkWidth={1}
                 showNavInfo={false}
                 onNodeClick={(node) => {
                   window.location.href = '/r/' + node.id
