@@ -98,7 +98,7 @@ export const backlinks = {
         "2022-08-03": "This happens synchronously using Atomics (JavaScript) and [[SharedArrayBuffer]].",
         "Atomics (JavaScript)": "- [[SharedArrayBuffer]]를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.",
         "Providing DOM API to Worker Threads": "To enable [[SharedArrayBuffer]], we need a secure context `crossOriginIsolated`.",
-        "WorkerDOM": "WorkerDOM doesn't use [[SharedArrayBuffer]], most likely to Spectre."
+        "WorkerDOM": "WorkerDOM doesn't use [[SharedArrayBuffer]], most likely to [[Spectre]]."
     },
     "Coding Tests": {
         "2022-06-06": "- [[Coding Tests]] questions - Grind 75 - A better Blind 75 you can ...",
@@ -1678,6 +1678,9 @@ export const backlinks = {
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
         "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S."
     },
+    "Meltdown and Spectre": {
+        "2022-12-09": "- [[Meltdown and Spectre]]"
+    },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
     },
@@ -2727,6 +2730,16 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
         "Heap (Computer Systems)": "- [[DX]]",
         "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's."
+    },
+    "Meltdown": {
+        "Meltdown and Spectre": "- [[Meltdown]] bypasses memory protection between user space and kernel",
+        "Spectre": "... refers to one of the two original transient execution CPU vulnerabilities ([[Meltdown]]), which involve microarchitectural timing side-channel attacks. These affect modern microprocessors that ..."
+    },
+    "Spectre": {
+        "Meltdown": "... of the two original transient execution CPU vulnerabilities (the other being [[Spectre]]). Meltdown affects Intel x86 microprocessors, IBM POWER processors, and some ARM-based ...",
+        "Meltdown and Spectre": "- [[Spectre]] makes the CPU jump to the wrong place and runs instructions ...",
+        "SharedArrayBuffer": "The [[Spectre]] vulnerability seized ShardArrayBuffer in 2018, and since 2020, ShardArrayBuffer requires a ...",
+        "WorkerDOM": "WorkerDOM doesn't use SharedArrayBuffer, most likely to [[Spectre]]."
     },
     "2022-09-04": {
         "0242 Valid Anagram": "Solved at: [[2022-09-04]]",
