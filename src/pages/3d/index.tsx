@@ -34,7 +34,7 @@ export const GraphView3d = (props: {
               const bloomPass = new UnrealBloomPass()
               bloomPass.strength = 0.8
               bloomPass.radius = 0.8
-              bloomPass.threshold = 0.1
+              bloomPass.threshold = 0.25
               fgRef.current
                 .postProcessingComposer()
                 .addPass(bloomPass)
@@ -55,9 +55,9 @@ export const GraphView3d = (props: {
                 nodeVal={(node) => {
                   return Math.sqrt(node.nodeRelSize)
                 }}
-                linkDirectionalParticles={3}
-                linkDirectionalParticleWidth={3}
-                linkDirectionalParticleSpeed={0.1}
+                linkDirectionalParticles={2}
+                linkDirectionalParticleWidth={2}
+                linkDirectionalParticleSpeed={0.01}
                 nodeColor={(node) => {
                   if (node.id?.length === 10) {
                     return '#fff'
@@ -65,7 +65,7 @@ export const GraphView3d = (props: {
                   return `#${node.id}`
                 }}
                 linkColor={() => '#4976ca'}
-                linkOpacity={1}
+                linkOpacity={0.5}
                 linkWidth={1}
                 showNavInfo={false}
                 onNodeClick={(node) => {
