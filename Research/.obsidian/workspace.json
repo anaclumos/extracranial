@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-12-09.md",
+                "file": "pages/Undefined Symbol Vtable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "<br>",
+                "query": "9D95DE",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-09.md",
+                "file": "pages/Undefined Symbol Vtable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-12-09.md"
+                "file": "pages/Undefined Symbol Vtable.md"
               }
             }
           }
@@ -156,17 +155,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "b9b3d1724f39de07",
+  "active": "f62d4b94c9e14166",
   "lastOpenFiles": [
-    "pages/Elo Rating.md",
+    "pages/Small yet Powerful.md",
     "journals/2022-12-09.md",
+    "pages/Elo Rating.md",
     "pages/Matt Rickard.md",
     "pages/Web3.md",
     "pages/The Dilemmas of Technopreneur.md",
     "pages/Survivorship Biased.md",
     "pages/The Great Struggle of Gumroad.md",
     "pages/Product-Market Fit.md",
-    "pages/The Great Battle of Flow and Asana.md",
-    "pages/10x Technopreneurs.md"
+    "pages/The Great Battle of Flow and Asana.md"
   ]
 }

@@ -1336,7 +1336,7 @@ export const backlinks = {
     },
     "Small yet Powerful": {
         "10x": "- [[Small yet Powerful]]",
-        "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]]  people those who qualify as [[10x Technologist|10x Tecnhologists]], and have ...",
+        "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the ...",
         "2022-10-27": "- [[Small yet Powerful]]"
     },
     "Spacial Cognition": {
@@ -1639,10 +1639,10 @@ export const backlinks = {
     "10x": {
         "2022-06-06": "- Early in your career, you can learn [[10x]] more in a supportive team in 1 year than coding on ...",
         "2022-12-09": "- [[10x]]",
-        "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed and everyone who's paying attention already knows this — Nat ..."
+        "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying attention already knows this — Nat ..."
     },
     "10x Technologist": {
-        "10x Technopreneurs": "... technoprenuers are Small yet Powerful  people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the knowledge for Go-To-Market strategies and monetization. They can ...",
+        "10x Technopreneurs": "10x technoprenuers are Small yet Powerful people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the knowledge for Go-To-Market strategies and monetization. They can ...",
         "2022-12-09": "- [[10x Technologist]]"
     },
     "10x Technopreneurs": {
