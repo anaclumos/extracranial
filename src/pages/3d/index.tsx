@@ -60,7 +60,7 @@ export const GraphView3d = (props: {
                 linkDirectionalParticleSpeed={0.01}
                 nodeColor={(node) => {
                   if (node.id?.length === 10) {
-                    return '#fff'
+                    return '#888'
                   }
                   return `#${node.id}`
                 }}
