@@ -55,9 +55,9 @@ export const GraphView3d = (props: {
                 nodeVal={(node) => {
                   return Math.sqrt(node.nodeRelSize)
                 }}
-                linkDirectionalParticles={2}
-                linkDirectionalParticleWidth={1}
-                linkDirectionalParticleSpeed={0.01}
+                linkDirectionalParticles={3}
+                linkDirectionalParticleWidth={3}
+                linkDirectionalParticleSpeed={0.1}
                 nodeColor={(node) => {
                   if (node.id?.length === 10) {
                     return '#fff'
