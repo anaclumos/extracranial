@@ -329,7 +329,7 @@ MusicKit on the Web은 [music.apple.com](https://music.apple.com)나 [Cider](htt
 그래서 어떠한 형태로든 캐시 서버를 만들고 싶었다.
 하지만 **최고의 데이터베이스는 데이터베이스가 없는 것이라는 것을 명심하자**.
 
-> 데이터베이스가 필요 없을 때는 데이터베이스를 쓰지 마세요. 그리고 이건 생각보다 꽤 자주 해당되는 경우랍니다. 예를 들어 전세계 195개를 데이터베이스에 집어넣고 매번 `join`할 필요가 있겠어요? 그냥 `config` 파일에 하드코딩하고 부팅할 때 메모리에 읽어들이세요. [It's not Ruby that's slow, it's your database](https://berk.es/2022/08/09/ruby-slow-database-slow/)
+> **데이터베이스가 필요 없을 때는 데이터베이스를 쓰지 마세요.** 그리고 이건 생각보다 꽤 자주 해당되는 경우랍니다. 예를 들어 전세계 195개 나라 이름을 데이터베이스에 집어넣고 매번 `join`할 필요가 있겠어요? 그냥 `config` 파일에 하드코딩하고 부팅할 때 메모리에 읽어 들이자고요. 아니면, 이커머스 사이트의 전체 제품 목록을 하나의 YAML에 다 넣어버리고 서버가 부팅할 때 읽어들이면 어때요? 이것은 생각하는 것보다 훨씬 더 많은 경우에 적용할 수 있어요. [It's not Ruby that's slow, it's your database](https://berk.es/2022/08/09/ruby-slow-database-slow/)
 
 그냥 GitHub Secrets에 비밀 키를 저장해놓고 몇 분에 한 번씩 API를 요청해 GitHub에 띄워두도록 만들었다.
 
@@ -349,16 +349,18 @@ React에 괜찮은 이퀄라이저가 없는지 알아보다가 그냥 Framer Mo
 몇가지 반복적 개발(iteration)의 과정 스크린샷을 첨부한다.
 
 <DisplayFlex>
+
 ![ALT: FANCY by TWICE](566FD8.gif)
 ![ALT: After Like by IVE](F1A974.gif)
 </DisplayFlex>
 <DisplayFlex>
 ![ALT: Lavender Haze by Taylor Swift](1F832D.gif)
 ![ALT: Hype Boy by NewJeans](6AA1FF.gif)
+
 </DisplayFlex>
 
 이퀄라이저의 각 봉은 무작위로 길이가 결정된다.
-근데 마지막 `Hype Boy` 예시에서도 뭔가 어색한 것이 느껴졌다.
+근데 마지막 `Hype Boy` 예시에서도 볼 수 있듯이, 뭔가 어색한 것이 느껴졌다.
 일반적으로 음악은 저음역대와 고음역대는 진폭이 작은데 반해,
 완전하게 무작위로 값을 계산해서 저음역대와 고음역대에도 비슷한 진폭의 봉이 나타나서 그런 것 같았다.
 그래서 각 봉마다 기준치 (`baseLength`) 를 정해주고 그 값에서 ±(무작위 값)을 하도록 변경했다.
