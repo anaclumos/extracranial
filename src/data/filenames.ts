@@ -23,6 +23,7 @@ export const filenames = {
     "10x Technopreneurs": "2DA21E",
     "1290 Convert Binary Number in a Linked List to Integer": "291111",
     "1448 Count Good Nodes in Binary Tree": "2103F2",
+    "2019-03-04": "2022-12-10",
     "2019-11-06": "2019-11-06",
     "2020-01-05": "2020-01-05",
     "2020-02-12": "2020-02-12",
