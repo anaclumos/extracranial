@@ -5,6 +5,12 @@ slug: '/451E1C'
 
 ## Articles
 
+### [Why I'm Less Than Infinitely Hostile To Cryptocurrency](https://astralcodexten.substack.com/p/why-im-less-than-infinitely-hostile)
+
+- Crypto Is Full Of Extremely Clear Use Cases, Which It Already Succeeds At Very Well
+- Big Crypto Projects Are Very Rarely Scams
+- Crypto Is Valuable Insurance Against Authoritarianism
+
 ### [Is web3 bullshit? (Transcript)](https://blog.mollywhite.net/is-web3-bullshit/)
 
 - There was this new word everywhere: “web3”. The future of the web, I was being told, was going to be powered by crypto and blockchains. I was reading that, finally, we were going to fix the web

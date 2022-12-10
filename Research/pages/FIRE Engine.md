@@ -15,7 +15,7 @@ slug: '/9847E1'
 
 - Most of the products don't make any revenue at all.
 - Success in the world of indie developers is an outlier business
-- Only around 5% of the products we analyzed generate a monthly revenue exceeding $8,333 (around $100K/year), which is not that hard to earn as a software engineer in a full-time job.
+- Around 5% of the products we analyzed generate a monthly revenue exceeding $8,333 (around $100K/year), which is relatively easy to earn as a software engineer in a full-time job.
 
 ### [How BuiltWith generates $14 million a year while having zero employees | 5to9](https://5to9.beehiiv.com/p/builtwith-generates-14-million-year-zero-employees)
 
@@ -32,4 +32,4 @@ slug: '/9847E1'
 ## Payment Infra for [[Software as a Service]]
 
 - [Stripe Payments JavaScript Course](https://fireship.io/courses/stripe-js/)
-- _Stripe Atlas is a powerful, safe, easy-to-use platform for forming a company. Stripe Atlas helps you launch your startup from anywhere in the world by removing lengthy paperwork, legal complexity, and numerous fees._ - [Stripe Atlas | Incorporate your startup in Delaware: C corp or LLC](https://stripe.com/atlas)
+- Stripe Atlas is a powerful, safe, easy-to-use platform for forming a company. Stripe Atlas helps you launch your startup from anywhere worldwide by removing lengthy paperwork, legal complexity, and numerous fees. - [Stripe Atlas | Incorporate your startup in Delaware: C corp or LLC](https://stripe.com/atlas)
