@@ -1186,11 +1186,13 @@ export const backlinks = {
         "Base Frame Pointer": "- [[Computer Systems]]",
         "Buffer Overflow Attacks": "- [[Computer Systems]]",
         "Caching": "- [[Computer Systems]]",
+        "Computer Science": "- [[Computer Systems]]",
         "Iron Law of Processor Performance": "- [[Computer Systems]]",
         "Latency and Throughput": "- [[Computer Systems]]",
         "Memory Allocation": "In [[Computer Systems]], computers have two modes: the User mode and the Kernel mode.",
         "Memory Hierarchy": "- [[Computer Systems]]",
         "Memory Wall": "- [[Computer Systems]]",
+        "Parallelism": "In [[Computer Systems]]",
         "Principles of Locality": "- [[Computer Systems]]",
         "Processes and Threads": "In [[Computer Systems]], a process is a running instance of a program. Thus, it ...",
         "Static (Computer Systems)": "In [[Computer Systems]], `static` means that the variable will only be visible within the ...",
@@ -1528,10 +1530,12 @@ export const backlinks = {
     },
     "Propagation Delay": {
         "2022-12-08": "- [[Propagation Delay]]",
+        "Computer Systems": "- [[Propagation Delay]]",
         "Sources of Packet Delay": "- [[Propagation Delay]]"
     },
     "Pipelining": {
-        "2022-12-08": "- [[Pipelining]]"
+        "2022-12-08": "- [[Pipelining]]",
+        "Computer Systems": "- [[Pipelining]]"
     },
     "94861D.png": {
         "2022-12-08": "![[94861D.png]]",
@@ -1670,16 +1674,21 @@ export const backlinks = {
         "2022-12-09": "- Matt Rickard: [[Elo Rating]]",
         "Matt Rickard": "- [[Elo Rating]]"
     },
-    "Parallelism": {
-        "2022-12-09": "- [[Parallelism]]"
-    },
     "Super App": {
         "2022-12-09": "- [[Super App]]",
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
         "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S."
     },
+    "Parallelism": {
+        "2022-12-09": "- [[Parallelism]]",
+        "Computer Systems": "- [[Parallelism]]"
+    },
     "Meltdown and Spectre": {
-        "2022-12-09": "- [[Meltdown and Spectre]]"
+        "2022-12-09": "- [[Meltdown and Spectre]]",
+        "Computer Systems": "- [[Meltdown and Spectre]]"
+    },
+    "Amdahl Law": {
+        "2022-12-09": "- [[Amdahl Law]]"
     },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"

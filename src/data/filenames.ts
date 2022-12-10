@@ -216,6 +216,7 @@ export const filenames = {
     "Aldehyde": "C585AB",
     "Alexander Obenauer": "ED64DE",
     "Almost Monospaced": "EC5D52",
+    "Amdahl Law": "ABF01D",
     "Ancestors of C": "88030C",
     "Android": "061F3C",
     "Android equivalent of div": "172E82",
