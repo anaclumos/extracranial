@@ -15,7 +15,7 @@ const sab = new SharedArrayBuffer(1024)
 worker.postMessage(sab)
 ```
 
-The Spectre vulnerability seized ShardArrayBuffer in 2018, and since 2020, ShardArrayBuffer requires a Secure Context to run.
+The [[Spectre]] vulnerability seized ShardArrayBuffer in 2018, and since 2020, ShardArrayBuffer requires a Secure Context to run.
 
 For the host document, I need two headers to enable ShardArrayBuffer.
 
