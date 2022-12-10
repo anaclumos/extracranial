@@ -246,7 +246,8 @@ export const backlinks = {
     },
     "throughput": {
         "2022-07-11": "Wouldn't this yield much higher [[throughput]]? (No, it wouldn't.)",
-        "BitTorrent": "... the constant pressure of some unfulfilled requests. This can increase the [[throughput]] of our connection by order of magnitude"
+        "BitTorrent": "... the constant pressure of some unfulfilled requests. This can increase the [[throughput]] of our connection by order of magnitude",
+        "Heap (Computer Systems)": "- [[throughput]] (as fast as possible)"
     },
     "Scheduler": {
         "2022-07-11": "Brane requires explicit [[Scheduler|schedulers]] and abstractions to overcome these shortcomings.",
@@ -1551,7 +1552,8 @@ export const backlinks = {
         "2022-06-10": "... — which has \"massive implications for future security work on all [[ARM Architecture|ARM]] systems with pointer authentication enabled,\" says Joseph Ravichandran, a PhD student ...",
         "2022-11-03": "- [[ARM Architecture]]",
         "Computer Systems": "- [[ARM Architecture]]",
-        "How is WebAssembly cross-platform when Assembly is not": "... designed similarly to ASM. Therefore, compiling WebAssembly|WASM to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can ..."
+        "How is WebAssembly cross-platform when Assembly is not": "... designed similarly to ASM. Therefore, compiling WebAssembly|WASM to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can ...",
+        "Meltdown": "... Spectre). Meltdown affects Intel x86 microprocessors, IBM POWER processors, and some [[ARM Architecture|ARM]]-based microprocessors. It allows a rogue process to read all memory, even ..."
     },
     "os": {
         "2022-09-29": "... to visualize the time-series data for each link's clicks (incl. location, device/[[os]]) with airbnb/visx: 🐯 visx | visualization components"
@@ -1736,6 +1738,7 @@ export const backlinks = {
         "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten",
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
+        "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
         "Project": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
@@ -2127,7 +2130,7 @@ export const backlinks = {
         "2022-06-22": "- Use [[Sandbox]] for the outer side.",
         "2022-06-26": "- Let's not explore ShadowRealm and `iframe` [[Sandbox]] for now.",
         "Brane": "  - Prerequisite: [[Sandbox]] Environment.",
-        "Programmable Web": "- Maybe running something like the QuickJS [[Sandbox]] inside WebAssembly can provide a more secure way to access selective ..."
+        "Programmable Web": "- Maybe running something like the QuickJS [[Sandbox]] inside [[WebAssembly]] can provide a more secure way to access selective ..."
     },
     "WeCrashed": {
         "2022-07-18": "- Finished [[WeCrashed]]"
@@ -2747,7 +2750,7 @@ export const backlinks = {
         "Spectre": "... refers to one of the two original transient execution CPU vulnerabilities ([[Meltdown]]), which involve microarchitectural timing side-channel attacks. These affect modern microprocessors that ..."
     },
     "Spectre": {
-        "Meltdown": "... of the two original transient execution CPU vulnerabilities (the other being [[Spectre]]). Meltdown affects Intel x86 microprocessors, IBM POWER processors, and some ARM-based ...",
+        "Meltdown": "... of the two original transient execution CPU vulnerabilities (the other being [[Spectre]]). Meltdown affects Intel x86 microprocessors, IBM POWER processors, and some [[ARM ...",
         "Meltdown and Spectre": "- [[Spectre]] makes the CPU jump to the wrong place and runs instructions ...",
         "SharedArrayBuffer": "The [[Spectre]] vulnerability seized ShardArrayBuffer in 2018, and since 2020, ShardArrayBuffer requires a ...",
         "WorkerDOM": "WorkerDOM doesn't use SharedArrayBuffer, most likely to [[Spectre]]."
@@ -3474,6 +3477,12 @@ export const backlinks = {
         "Person 5DBDAE": "- Interviewed on [[2022-09-13]]",
         "Person CC8297": "- Interviewed on [[2022-09-13]]"
     },
+    "simulation": {
+        "Person 5DBDAE": "I create functional [[simulation]] models for semiconductors. For fabless labs, you have to write semiconductor ...",
+        "Real Exams": "- 1 [[simulation]]",
+        "mathematic coding": "  - conducting a bare metal [[simulation]] takes too long",
+        "optimized simulation": "... Optimized Simulation programming problem is when you have to conduct a [[simulation]] according to the provided conditions."
+    },
     "people": {
         "Person 5DBDAE": "A lot of [[people]] are international.",
         "Person E7CFC5": "A lot of smart [[people]]."
@@ -3494,16 +3503,18 @@ export const backlinks = {
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
     },
-    "simulation": {
-        "Real Exams": "- 1 [[simulation]]",
-        "mathematic coding": "  - conducting a bare metal [[simulation]] takes too long",
-        "optimized simulation": "... Optimized Simulation programming problem is when you have to conduct a [[simulation]] according to the provided conditions."
+    "Simulation": {
+        "optimized simulation": "- Optimized [[Simulation]] programming problem is when you have to conduct a [[simulation]] according ..."
     },
     "퍼블리시티권": {
         "CELLO": "- [[퍼블리시티권]]"
     },
     "Tossface": {
         "Toss": "- Creators of Toss Product Sans and [[Tossface]]"
+    },
+    "Jetbrains": {
+        "Apple Newsroom 서체 따라하기": "- 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.",
+        "Jetbrains Fleet": "... weight multi-purpose IDE, with support for collaboration and remote workflows by [[Jetbrains]]. JetBrains"
     },
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]"
@@ -3544,9 +3555,6 @@ export const backlinks = {
     "Grotesque": {
         "Akzidenz": "- A type of [[Grotesque]] [[font]].",
         "Satoshi": "- A type of [[Grotesque]] [[font]]"
-    },
-    "Jetbrains": {
-        "Jetbrains Fleet": "... weight multi-purpose IDE, with support for collaboration and remote workflows by [[Jetbrains]]. JetBrains"
     },
     "Visual Studio Code": {
         "Jetbrains Fleet": "- a potential alternative to [[Visual Studio Code]]"
