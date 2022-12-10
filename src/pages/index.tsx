@@ -294,7 +294,7 @@ const HeroText = () => {
               <Translate>Get in touch.</Translate>
             </span>
           </a>{' '}
-          <Link className={styles.email} href="/r">
+          <Link className={styles.email} href="/random">
             <span>
               <Translate>
                 Or dive down the rabbit hole.
