@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4dd2618af37c942e",
+        "id": "6ac23420315acc4b",
         "type": "tabs",
         "children": [
           {
-            "id": "4bb5006b611a30b6",
+            "id": "9066917e5ce977ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-12-10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "133b290c2d54973d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/코드클럽.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/코드클럽.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/코드클럽.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -129,9 +107,10 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "133b290c2d54973d",
+  "active": "9066917e5ce977ee",
   "lastOpenFiles": [
     "journals/2022-12-10.md",
+    "pages/코드클럽.md",
     "pages/Visual Studio Code.md",
     "pages/ShadowRealm.md",
     "pages/Docker.md",
@@ -139,7 +118,6 @@
     "pages/Stephan Ango.md",
     "pages/Musk.md",
     "pages/Throughput.md",
-    "pages/Redirect.md",
-    "pages/Off The Record.md"
+    "pages/Redirect.md"
   ]
 }
