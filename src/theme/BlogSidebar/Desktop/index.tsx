@@ -15,9 +15,9 @@ export default function BlogSidebarDesktop({
         className={clsx(styles.sidebar, 'thin-scrollbar')}
         aria-label={translate({
           id: 'theme.blog.sidebar.navAriaLabel',
-          message: 'Blog Flagship Posts navigation',
+          message: 'Blog Articles navigation',
           description:
-            'The ARIA label for Flagship Posts in the blog sidebar',
+            'The ARIA label for Articles in the blog sidebar',
         })}
       >
         <div

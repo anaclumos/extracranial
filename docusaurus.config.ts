@@ -5,7 +5,6 @@ import blog from './config/blog.config'
 import theme from './config/theme.config'
 import katexStylesheet from './config/katex.stylesheet'
 import navbar from './config/navbar.config'
-import pwaOptions from './config/pwa.config'
 import analytics from './config/ga.config'
 
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
@@ -105,7 +104,6 @@ const config: Config = {
       defer: true,
     },
   ],
-  plugins: [['@docusaurus/plugin-pwa', pwaOptions]],
 }
 
 module.exports = config
