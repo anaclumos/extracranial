@@ -1670,6 +1670,14 @@ export const backlinks = {
         "2022-12-09": "- Matt Rickard: [[Elo Rating]]",
         "Matt Rickard": "- [[Elo Rating]]"
     },
+    "Parallelism": {
+        "2022-12-09": "- [[Parallelism]]"
+    },
+    "Super App": {
+        "2022-12-09": "- [[Super App]]",
+        "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
+        "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S."
+    },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
     },
@@ -2579,10 +2587,6 @@ export const backlinks = {
     "2022-07-10": {
         "0001 Two Sum": "Solved at: [[2022-07-10]]",
         "0020 Valid Parentheses": "Solved at: [[2022-07-10]]"
-    },
-    "Super App": {
-        "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
-        "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S."
     },
     "Musk": {
         "Canary Trap": "### [[Musk]]",

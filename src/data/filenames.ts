@@ -562,6 +562,7 @@ export const filenames = {
     "Palantir Foundry": "E1AC41",
     "Palantir Gotham": "EA7C5D",
     "Paracosm": "AB0F3F",
+    "Parallelism": "30A4AC",
     "Pensieve": "803226",
     "Person 1B5A5B": "1B5A5B",
     "Person 1E6ABA": "1E6ABA",
