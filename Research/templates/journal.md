@@ -4,7 +4,7 @@ lang: 'en'
 slug: '/{{date:YYYY-MM-DD}}'
 ---
 
-## Personal Research
+## Research
 
 ## [[Hacker News|HN]]
 

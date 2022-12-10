@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5891910c3067b955",
+        "id": "2b97893b98b4d391",
         "type": "tabs",
         "children": [
           {
-            "id": "b4c71d1d45a9ee7e",
+            "id": "eb92a93baedc566e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-12-09.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "30d001593a64bcc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-12-09.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "172c8c804820cac6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Survivorship Biased.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2022-12-09.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -143,17 +108,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "30d001593a64bcc3",
+  "active": "eb92a93baedc566e",
   "lastOpenFiles": [
-    "pages/Parallelism.md",
+    "pages/Survivorship Biased.md",
     "journals/2022-12-09.md",
+    "templates/journal.md",
+    "templates/note.md",
+    "pages/Parallelism.md",
     "pages/Super App.md",
     "pages/Elo Rating.md",
     "pages/Undefined Symbol Vtable.md",
     "pages/Small yet Powerful.md",
-    "pages/Matt Rickard.md",
-    "pages/Web3.md",
-    "pages/The Dilemmas of Technopreneur.md",
-    "pages/Survivorship Biased.md"
+    "pages/Matt Rickard.md"
   ]
 }
