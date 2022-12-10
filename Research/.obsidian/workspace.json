@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "abbd5d8f839bbac5",
+        "id": "975c8b3a12b28da3",
         "type": "tabs",
         "children": [
           {
-            "id": "c6f0bf8bfc2f671d",
+            "id": "0bf82a947a69ab8d",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -107,8 +107,9 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "c6f0bf8bfc2f671d",
+  "active": "0bf82a947a69ab8d",
   "lastOpenFiles": [
+    "pages/Improving Cache Average Access Time.md",
     "journals/2022-12-09.md",
     "journals/2022-08-09.md",
     "pages/Computer Science.md",
@@ -117,7 +118,6 @@
     "pages/Parallelism.md",
     "pages/Amdahl Law.md",
     "pages/Computer Systems.md",
-    "journals/2022-12-07.md",
-    "pages/Meltdown.md"
+    "journals/2022-12-07.md"
   ]
 }
