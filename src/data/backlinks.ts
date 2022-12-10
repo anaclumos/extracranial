@@ -546,6 +546,7 @@ export const backlinks = {
         "2022-11-30": "## [[Hacker News|HN]]",
         "2022-12-07": "## [[Hacker News|HN]]",
         "2022-12-09": "## [[Hacker News|HN]]",
+        "2022-12-10": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -612,6 +613,7 @@ export const backlinks = {
         "2022-11-28": "## [[Project]]",
         "2022-11-29": "## [[Project]]",
         "2022-11-30": "## [[Project]]",
+        "2022-12-10": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "- Someday [[Project]]",
@@ -2946,6 +2948,7 @@ export const backlinks = {
         "Web Graphics": "![[6E5C4F.png]]"
     },
     "Pretendard": {
+        "Apple Newsroom 서체 따라하기": "2022년 기준, 그냥 [[Pretendard]]를 사용하면 된다.",
         "Font Features": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
         "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.",
         "San Francisco": "### [[Pretendard]]",
