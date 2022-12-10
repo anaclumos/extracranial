@@ -429,7 +429,7 @@ You can see which picture goes where in which text.
 
 You have to run `main.py` manually. I'm thinking of automating it with `crontab` someday.
 
-Also, due to the nature of using RSS, only posts included in RSS feeds are backed up. RSS feeds often contain only the most Flagship Posts to reduce bandwidth usage, but each blog has the option to adjust this. For example, the Ghost blog, by default, includes the 15 most Flagship Posts in its RSS feed. I cannot manipulate the number of RSS feed posts on the Ghost blog within Ghost CMS, and [Ghost Core's code](https://github.com/TryGhost/Ghost/blob/master/core/server/models/plugins/pagination.js# L20) cannot be touched.
+Also, due to the nature of using RSS, only posts included in RSS feeds are backed up. RSS feeds often contain only the most recent posts to reduce bandwidth usage, but each blog has the option to adjust this. For example, the Ghost blog, by default, includes the 15 most recent posts in its RSS feed. I cannot manipulate the number of RSS feed posts on the Ghost blog within Ghost CMS, and [Ghost Core's code](https://github.com/TryGhost/Ghost/blob/master/core/server/models/plugins/pagination.js# L20) cannot be touched.
 
 - It should be possible to create clones outside the blog. ★★☆
 
