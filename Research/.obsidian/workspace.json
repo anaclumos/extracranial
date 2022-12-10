@@ -8,19 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e3406d8e32fccee",
+            "id": "f62d4b94c9e14166",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Dynamically Linked Libraries.md",
+                "file": "journals/2022-12-09.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bf577b49c5cc742b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-12-09.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b4c71d1d45a9ee7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Elo Rating.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "172c8c804820cac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Survivorship Biased.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "record",
+                "query": "<br>",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Dynamically Linked Libraries.md",
+                "file": "journals/2022-12-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,45 +144,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Dynamically Linked Libraries.md"
+                "file": "journals/2022-12-09.md"
               }
-            }
-          },
-          {
-            "id": "349901b993d3fba4",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "5de072701500b87e",
-            "type": "leaf",
-            "state": {
-              "type": "Review Daily Notes",
-              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 415.5,
     "collapsed": true
   },
-  "active": "2e3406d8e32fccee",
+  "active": "b9b3d1724f39de07",
   "lastOpenFiles": [
-    "journals/2022-12-08.md",
-    "pages/Project PEOPLE.md",
-    "pages/Person ECC2CB.md",
-    "pages/Dynamically Linked Libraries.md",
-    "pages/Inspiring Open Source Projects.md",
-    "journals/2022-10-25.md",
-    "pages/AI Garbage Data Flooding.md",
-    "pages/Simulated Annealing for Designs.md",
-    "pages/Leetcode.md",
-    "pages/Google Analytics.md"
+    "pages/Elo Rating.md",
+    "journals/2022-12-09.md",
+    "pages/Matt Rickard.md",
+    "pages/Web3.md",
+    "pages/The Dilemmas of Technopreneur.md",
+    "pages/Survivorship Biased.md",
+    "pages/The Great Struggle of Gumroad.md",
+    "pages/Product-Market Fit.md",
+    "pages/The Great Battle of Flow and Asana.md",
+    "pages/10x Technopreneurs.md"
   ]
 }

@@ -490,6 +490,7 @@ export const backlinks = {
         "2022-10-29": "- [[Matt Rickard]]: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
         "2022-11-16": "- Protocol Wars: [[Matt Rickard]]",
         "2022-11-28": "- [[Matt Rickard]]: [[The Demise of Chatbots in 2017]], [[Generative Databases]]",
+        "2022-12-09": "- [[Matt Rickard]]: [[Elo Rating]]",
         "Decoy Effect": "## [[Matt Rickard]]",
         "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
         "Project Alter": "### Implementation Suggestion from Mr. [[Matt Rickard]]",
@@ -544,9 +545,11 @@ export const backlinks = {
         "2022-11-29": "## [[Hacker News|HN]]",
         "2022-11-30": "## [[Hacker News|HN]]",
         "2022-12-07": "## [[Hacker News|HN]]",
+        "2022-12-09": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
-        "Jumpsite": "## [[Hacker News]]"
+        "Jumpsite": "## [[Hacker News]]",
+        "The Great Struggle of Gumroad": "... would work on it until I died—something like that. Posting on [[Hacker News|HN]], the reaction exceeded my grandest aspirations. Over 52,000 people checked it ..."
     },
     "SwiftUI": {
         "2022-08-04": "### Explored [[SwiftUI]].",
@@ -561,6 +564,7 @@ export const backlinks = {
         "2022-11-12": "- You Can Forget About Crypto Now - The Atlantic: [[Web3]]",
         "2022-11-22": "- [[Web3]]",
         "2022-11-28": "- [[Web3]]",
+        "2022-12-09": "- [[Web3]]",
         "Classic Blogs": "- Mirror: Medium on [[Web3]]."
     },
     "FFMpeg": {
@@ -746,6 +750,9 @@ export const backlinks = {
     "Tesla Release Models": {
         "2022-09-06": "- [[Tesla Release Models]]"
     },
+    "survivorship biased": {
+        "2022-07-05": "- Dropout success stories are typically [[survivorship biased]]."
+    },
     "AIs.txt": {
         "2022-10-21": "- [[AIs.txt]]",
         "2022-10-22": "- [[AIs.txt]]",
@@ -769,9 +776,12 @@ export const backlinks = {
         "2022-12-02": "- [[Browser Company Hackathon]]"
     },
     "ChatGPT": {
+        "10x": "... group but a term that describes exceptionally talented and productive individuals. [[ChatGPT]]",
+        "10x Technologist": "... who are seen as remarkably talented and influential in their work. [[ChatGPT]]",
         "2022-12-02": "- [[ChatGPT]]",
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]",
+        "Product-Market Fit": "... continuously work on to remain competitive and thriving in the market. [[ChatGPT]]",
         "Search Engine using Generative AI": "## On [[ChatGPT]]",
         "Synthote": "- [[ChatGPT]]"
     },
@@ -796,6 +806,7 @@ export const backlinks = {
         "Autosave Everything": "How would it be [[Fiercely Overpriced]]?",
         "CELLO (Product)": "## How would it be [[Fiercely Overpriced]]?",
         "CalliFontia": "## [[Fiercely Overpriced]]",
+        "Captivating Products": "Making Supergravity Products and making them [[Fiercely Overpriced]] are two ways of measuring the captivation of a product. i.e., ...",
         "Off The Record": "- [[Fiercely Overpriced]]: disappears after opening. max 10 seconds (or message length)",
         "Open Graph Image as a Service": "## How would it be [[Fiercely Overpriced]]?"
     },
@@ -1236,6 +1247,7 @@ export const backlinks = {
         "Vannevar Bush": "- Early creator of Memex and [[Extracranial]]."
     },
     "Obsidian": {
+        "10x Technopreneurs": "... They can run an entire business on their own. For example, [[Obsidian]] is created by 2 10x Technopreneurs. They can attain [[FIRE]]",
         "2022-07-18": "- [[Obsidian]]-like [[Tools for Thought]]",
         "2022-10-13": "- [[Obsidian]] is now out of beta",
         "2022-10-21": "- Stephan Ango: also created [[Obsidian]] Minimal Settings.",
@@ -1323,6 +1335,8 @@ export const backlinks = {
         "Synthography": "- [[Stable Diffusion]]"
     },
     "Small yet Powerful": {
+        "10x": "- [[Small yet Powerful]]",
+        "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]]  people those who qualify as [[10x Technologist|10x Tecnhologists]], and have ...",
         "2022-10-27": "- [[Small yet Powerful]]"
     },
     "Spacial Cognition": {
@@ -1512,6 +1526,13 @@ export const backlinks = {
         "2022-12-08": "- [[Person ECC2CB]]",
         "Project PEOPLE": "- [[Person ECC2CB]]"
     },
+    "Propagation Delay": {
+        "2022-12-08": "- [[Propagation Delay]]",
+        "Sources of Packet Delay": "- [[Propagation Delay]]"
+    },
+    "Pipelining": {
+        "2022-12-08": "- [[Pipelining]]"
+    },
     "94861D.png": {
         "2022-12-08": "![[94861D.png]]",
         "Wikipedia": "![[94861D.png]]"
@@ -1615,6 +1636,40 @@ export const backlinks = {
         "2022-10-29": "- Matt Rickard: Ethereum RPC as a Service, [[Is AWS a Dumb Pipe]]",
         "Matt Rickard": "- [[Is AWS a Dumb Pipe]]"
     },
+    "10x": {
+        "2022-06-06": "- Early in your career, you can learn [[10x]] more in a supportive team in 1 year than coding on ...",
+        "2022-12-09": "- [[10x]]",
+        "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed and everyone who's paying attention already knows this — Nat ..."
+    },
+    "10x Technologist": {
+        "10x Technopreneurs": "... technoprenuers are Small yet Powerful  people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the knowledge for Go-To-Market strategies and monetization. They can ...",
+        "2022-12-09": "- [[10x Technologist]]"
+    },
+    "10x Technopreneurs": {
+        "2022-12-09": "- [[10x Technopreneurs]]",
+        "The Dilemmas of Technopreneur": "For [[10x Technopreneurs]], the [[Cost of Engineering]] is relatively cheap because they can do ..."
+    },
+    "The Dilemmas of Technopreneur": {
+        "2022-12-09": "- [[The Dilemmas of Technopreneur]]"
+    },
+    "Survivorship Biased": {
+        "2022-12-09": "- [[Survivorship Biased]]"
+    },
+    "Captivating Products": {
+        "2022-12-09": "- [[Captivating Products]]"
+    },
+    "The Great Battle of Flow and Asana": {
+        "2022-12-09": "- [[The Great Battle of Flow and Asana]]",
+        "Survivorship Biased": "- [[The Great Battle of Flow and Asana]]"
+    },
+    "The Great Struggle of Gumroad": {
+        "2022-12-09": "- [[The Great Struggle of Gumroad]]",
+        "Survivorship Biased": "- [[The Great Struggle of Gumroad]]"
+    },
+    "Elo Rating": {
+        "2022-12-09": "- Matt Rickard: [[Elo Rating]]",
+        "Matt Rickard": "- [[Elo Rating]]"
+    },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
     },
@@ -1669,7 +1724,8 @@ export const backlinks = {
         "Data Capturers": "### [[Pensieve]]"
     },
     "Supergravity Products": {
-        "2022-11-07": "- [[Supergravity Products]]"
+        "2022-11-07": "- [[Supergravity Products]]",
+        "Captivating Products": "Making [[Supergravity Products]] and making them [[Fiercely Overpriced]] are two ways of measuring the ..."
     },
     "Text Graphics": {
         "2022-11-07": "- [[Text Graphics]]"
@@ -2658,6 +2714,7 @@ export const backlinks = {
         "Intracranial": "- [[2022-07-26]]"
     },
     "FIRE": {
+        "10x Technopreneurs": "... example, Obsidian is created by 2 10x Technopreneurs. They can attain [[FIRE]]",
         "FIRE Engine": "- Software as a Service that drives revenue streams for [[FIRE]]",
         "Fiercely Overpriced": "To attain [[FIRE]], we have previously explored that [[Software as a Service]] would be ...",
         "Software as a Service": "We expect we could attain [[FIRE]] through [[Software as a Service]]."
@@ -2683,6 +2740,19 @@ export const backlinks = {
         "Internetworking": "- [[Port]]",
         "SMTP": "- [[Port]] 25",
         "Socket": "- needs to be bound to a [[Port]]"
+    },
+    "Cost of Engineering": {
+        "The Dilemmas of Technopreneur": "For 10x Technopreneurs, the [[Cost of Engineering]] is relatively cheap because they can do the initial work."
+    },
+    "First Two Months of a Startup": {
+        "The Dilemmas of Technopreneur": "That means the [[First Two Months of a Startup]] can be spent making the product rather than focusing on the ..."
+    },
+    "Product-Market Fit": {
+        "Captivating Products": "... the product? Captivating products, by definitions, are those who found the [[Product-Market Fit]].",
+        "The Dilemmas of Technopreneur": "... lean enough, it may be much more efficient to check the [[Product-Market Fit]]."
+    },
+    "Cut the Fat": {
+        "The Dilemmas of Technopreneur": "Essentially, they can [[Cut the Fat]]."
     },
     "73DAA4.png": {
         "Developing Review Notes for Obsidian": "![[73DAA4.png]]"
@@ -3294,6 +3364,9 @@ export const backlinks = {
     "E2297A.png": {
         "Squircle": "![[E2297A.png]]"
     },
+    "Product-market fit": {
+        "The Great Struggle of Gumroad": "... fault. It always looked like change was right around the corner. [[Product-market fit]] is excellent, but we needed to find a new, more oversized ..."
+    },
     "GDPR": {
         "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by ...",
         "Simple Analytics": "- [[GDPR]], [[PECR]], [[CCPA]] Compliant"
@@ -3322,6 +3395,9 @@ export const backlinks = {
     "K-Pop App": {
         "CELLO (Product)": "- Avoid local confinement, as seen in most [[K-Pop App]].",
         "프로젝트 어덕행덕": "[[K-Pop App]]에 큰 실망을 하고 구상해본 가설적 팬덤 앱의 비전."
+    },
+    "small yet powerful": {
+        "10x Technologist": "... developers are a term that describes an exceptionally skilled and productive, [[small yet powerful]] group of software developers. It is a colloquial term used to ..."
     },
     "2022-08-27": {
         "0002 Add Two Numbers": "Solved at: [[2022-08-27]]",
