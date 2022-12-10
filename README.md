@@ -22,11 +22,11 @@ I never expected this project to end up on such a consequential scale. This proj
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   827     26007     6335         0    19672          0
+Markdown                   843     26295     6398         0    19897          0
 SVG                         57        57        0         0       57          0
-TypeScript                  50      7599      145        48     7406        136
+TypeScript                  50      7691      145        48     7498        136
 CSS                         35      2908      205        30     2673          0
-JSON                        35      2044        0         0     2044          0
+JSON                        35      2069        0         0     2069          0
 Python                       6       392       47        29      316         92
 YAML                         6        30        2         0       28          0
 JavaScript                   2      1157        4      1038      115         21
@@ -34,13 +34,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1023     40588     6829      1219    32540        249
+Total                     1039     40993     6892      1219    32882        249
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,046,245
-Estimated Schedule Effort (organic) 13.99 months
-Estimated People Required (organic) 6.64
+Estimated Cost to Develop (organic) $1,057,794
+Estimated Schedule Effort (organic) 14.05 months
+Estimated People Required (organic) 6.69
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1849145 bytes, 1.849 megabytes (SI)
+Processed 1871601 bytes, 1.872 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

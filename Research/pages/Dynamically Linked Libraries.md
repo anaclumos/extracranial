@@ -5,5 +5,7 @@ aliases: ['DLL']
 ---
 
 - also known as DLL
-- don't duplicate common code
+- don't repeat reused code
 - apply updates
+
+instead of hard coding references into executable libraries, keep a separate table.
