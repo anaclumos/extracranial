@@ -25,3 +25,7 @@ slug: '/BF9369'
 - [[Processes and Threads]]
 - [[Memory Allocation]]
 - [[Heap (Computer Systems)]]
+- [[Parallelism]]
+- [[Propagation Delay]]
+- [[Pipelining]]
+- [[Meltdown and Spectre]]
