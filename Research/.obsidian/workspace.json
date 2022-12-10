@@ -11,8 +11,13 @@
             "id": "b27151923362f2f9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Apple Newsroom 서체 따라하기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Apple Newsroom 서체 따라하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Apple Newsroom 서체 따라하기.md"
+              }
             }
           }
         ],
@@ -109,6 +117,7 @@
   },
   "active": "b27151923362f2f9",
   "lastOpenFiles": [
+    "journals/2022-12-10.md",
     "pages/The Great Battle of Flow and Asana.md",
     "journals/2022-12-09.md",
     "pages/Improving Cache Average Access Time.md",
@@ -117,7 +126,6 @@
     "pages/Workbench.md",
     "journals/2022-12-08.md",
     "pages/Parallelism.md",
-    "pages/Amdahl Law.md",
-    "pages/Computer Systems.md"
+    "pages/Amdahl Law.md"
   ]
 }
