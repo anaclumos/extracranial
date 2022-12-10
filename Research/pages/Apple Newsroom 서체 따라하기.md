@@ -90,7 +90,7 @@ Apple은 한글 폰트로 **산돌고딕 네오**를 사용한다. Safari와 Chr
     10. Segoe UI Symbol
     /* Windows의 특수 기호 */
 
-## 5\. 코드 서체도 SF Mono
+## 5\. 코드 서체도 [[San Francisco|SF]] Mono
 
     font-family:
       "SF Mono", "Consolas", "Menlo", monospace;
@@ -124,5 +124,5 @@ GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두�
 
 ## Updated Nov 19, 2020
 
-- 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! Jetbrains Mono라는 폰트를 사용 중이다.
+- 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.
 - 이 글을 업데이트하지 않고 불시에 블로그의 글씨체를 업데이트할 수도 있다. 즉 지금 보고 있는 화면의 글씨체가 [[San Francisco|SF Pro]]가 아닐수도 있다. 하지만 이 글의 내용은 여전히 유효할테니, 위의 스크린샷 화면을 참고하면 된다.

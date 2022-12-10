@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f6f436666d16daca",
+        "id": "746e2e6bbd2c118d",
         "type": "tabs",
         "children": [
           {
-            "id": "b27151923362f2f9",
+            "id": "a1948e2d3dabfe1f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Apple Newsroom 서체 따라하기.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Apple Newsroom 서체 따라하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Apple Newsroom 서체 따라하기.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -115,17 +107,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "b27151923362f2f9",
+  "active": "a1948e2d3dabfe1f",
   "lastOpenFiles": [
-    "journals/2022-12-10.md",
-    "pages/The Great Battle of Flow and Asana.md",
-    "journals/2022-12-09.md",
-    "pages/Improving Cache Average Access Time.md",
-    "journals/2022-08-09.md",
-    "pages/Computer Science.md",
-    "pages/Workbench.md",
-    "journals/2022-12-08.md",
-    "pages/Parallelism.md",
-    "pages/Amdahl Law.md"
+    "pages/Visual Studio Code.md",
+    "pages/ShadowRealm.md",
+    "pages/Docker.md",
+    "journals/2022-10-20.md",
+    "pages/Stephan Ango.md",
+    "pages/Musk.md",
+    "pages/Throughput.md",
+    "pages/Redirect.md",
+    "pages/Off The Record.md",
+    "journals/2022-07-06.md"
   ]
 }

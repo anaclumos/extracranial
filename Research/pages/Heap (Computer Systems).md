@@ -48,7 +48,7 @@ Allocators must satisfy the following:
 
 At the same time, we must maximize:
 
-- throughput (as fast as possible)
+- [[throughput]] (as fast as possible)
 - memory utilization (as compact as possible)
 
 Unfortunately, these two are facing opposite sides.
