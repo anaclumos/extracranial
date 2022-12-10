@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6ac23420315acc4b",
+        "id": "4d30cd0b5b3461be",
         "type": "tabs",
         "children": [
           {
-            "id": "9066917e5ce977ee",
+            "id": "d0c01f7d8312c961",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -107,17 +107,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "9066917e5ce977ee",
+  "active": "d0c01f7d8312c961",
   "lastOpenFiles": [
-    "journals/2022-12-10.md",
+    "journals/2019-03-04.md",
     "pages/코드클럽.md",
+    "journals/2022-12-10.md",
     "pages/Visual Studio Code.md",
     "pages/ShadowRealm.md",
     "pages/Docker.md",
     "journals/2022-10-20.md",
     "pages/Stephan Ango.md",
     "pages/Musk.md",
-    "pages/Throughput.md",
-    "pages/Redirect.md"
+    "pages/Throughput.md"
   ]
 }
