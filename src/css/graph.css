@@ -5,10 +5,12 @@
   backdrop-filter: blur(12px);
   border-radius: var(--border-radius);
   padding: 0.5rem;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .scene-tooltip:empty {
-  display: none;
+  opacity: 0;
 }
 
 .graph-tooltip {
@@ -17,4 +19,10 @@
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(12px);
   border-radius: var(--border-radius);
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.graph-tooltip:empty {
+  opacity: 0;
 }
