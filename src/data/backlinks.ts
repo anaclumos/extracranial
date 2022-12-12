@@ -614,6 +614,7 @@ export const backlinks = {
         "2022-11-28": "## [[Project]]",
         "2022-11-29": "## [[Project]]",
         "2022-11-30": "## [[Project]]",
+        "2022-12-12": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "- Someday [[Project]]",
@@ -692,6 +693,14 @@ export const backlinks = {
         "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-30": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+    },
+    "Linkflags": {
+        "2022-12-07": "- [[Linkflags]]",
+        "2022-12-12": "- Submitted [[Linkflags]] to [[Browser Company Hackathon]]"
+    },
+    "Browser Company Hackathon": {
+        "2022-12-02": "- [[Browser Company Hackathon]]",
+        "2022-12-12": "- Submitted Linkflags to [[Browser Company Hackathon]]"
     },
     "Text-based Presentations": {
         "2022-11-08": "- [[Text-based Presentations]]"
@@ -774,15 +783,12 @@ export const backlinks = {
         "2022-10-16": "![[AA04D0.gif]]",
         "Dynamic Island on the Web": "![[AA04D0.gif]]"
     },
-    "Browser Company Hackathon": {
-        "2022-12-02": "- [[Browser Company Hackathon]]"
-    },
     "ChatGPT": {
         "10x": "... group but a term that describes exceptionally talented and productive individuals. [[ChatGPT]]",
         "10x Technologist": "... who are seen as remarkably talented and influential in their work. [[ChatGPT]]",
         "2022-12-02": "- [[ChatGPT]]",
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
-        "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]",
+        "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Product-Market Fit": "... continuously work on to remain competitive and thriving in the market. [[ChatGPT]]",
         "Search Engine using Generative AI": "## On [[ChatGPT]]",
         "Synthote": "- [[ChatGPT]]"
@@ -1172,9 +1178,6 @@ export const backlinks = {
     "Pure Component Model": {
         "2022-09-03": "- [[Pure Component Model]]",
         "Monolithic Model": "- Solution [[Pure Component Model]]"
-    },
-    "Linkflags": {
-        "2022-12-07": "- [[Linkflags]]"
     },
     "Hashflags": {
         "2022-12-07": "- [[Hashflags]]",
