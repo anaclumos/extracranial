@@ -3313,11 +3313,11 @@ export const backlinks = {
         "Jumpsite": "![[2A5C23.png]]",
         "Surfit": "![[2A5C23.png]]"
     },
-    "2019-03-04": {
-        "코드클럽": "[[2019-03-04]] 민사고 3학년 때 설립한 동아리"
-    },
     "C2C0C3.png": {
         "코드클럽": "![[C2C0C3.png]]"
+    },
+    "2019-03-04": {
+        "코드클럽": "[[2019-03-04]]"
     },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
