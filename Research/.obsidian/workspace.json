@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2019-03-04.md",
+                "file": "journals/2022-12-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8a6381a34022a81a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-12-12.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2022-12-10",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2019-03-04.md",
+                "file": "journals/2022-12-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2019-03-04.md"
+                "file": "journals/2022-12-12.md"
               }
             }
           }
@@ -116,17 +129,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "5b27237fa02d2a2c",
+  "active": "8a6381a34022a81a",
   "lastOpenFiles": [
+    "pages/Linkflags.md",
+    "journals/2022-12-12.md",
+    "pages/Multiplexing.md",
+    "pages/Internetworking.md",
     "journals/2022-12-10.md",
     "journals/2022-12-09.md",
     "journals/2022-12-11.md",
-    "journals/2022-12-12.md",
-    "pages/Linkflags.md",
     "pages/Browser Company Hackathon.md",
     "pages/코드클럽.md",
-    "pages/태백산맥 계획.md",
-    "pages/Effective Accelerationism.md",
-    "pages/누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다.md"
+    "pages/태백산맥 계획.md"
   ]
 }
