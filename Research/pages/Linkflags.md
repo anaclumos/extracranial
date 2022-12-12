@@ -4,7 +4,8 @@ slug: '/E688AF'
 ---
 
 - [[Hashflags]] for the web
-- [anaclumos/linkflags: Branded Hashflags, but for the Web!](https://github.com/anaclumos/linkflags)
+- [anaclumos/linkflags](https://github.com/anaclumos/linkflags)
+- [Linkflags Demo](https://youtu.be/Ar9XeVMFXN0)
 
 ![[115932.png]]
 ![[55E8A0.png]]
