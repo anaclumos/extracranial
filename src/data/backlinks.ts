@@ -37,6 +37,7 @@ export const backlinks = {
         "2022-08-28": "- [[Internetworking]]",
         "2022-08-29": "- [[Internetworking]]",
         "2022-10-18": "- [[Internetworking]]",
+        "2022-12-12": "- [[Internetworking]]",
         "Dijkstra": "- In [[Internetworking]], Dijkstra is used for resolving network graphs and finding the closest ...",
         "Endianness": "- [[Internetworking]]",
         "Multiplexing": "- In [[Internetworking]], it means having multiple sockets and juggling with data transmissions.",
