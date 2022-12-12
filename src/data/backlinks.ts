@@ -511,7 +511,8 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0232 Implement Queue using Stacks]]"
     },
     "Effective Accelerationism": {
-        "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]"
+        "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
+        "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
     },
     "Hacker News": {
         "2022-06-21": "## Today's [[Hacker News]]",
@@ -2479,6 +2480,13 @@ export const backlinks = {
     },
     "411451.png": {
         "2022-10-25": "![[411451.png]]"
+    },
+    "태백산맥 계획": {
+        "2022-12-11": "- [[태백산맥 계획]]"
+    },
+    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": {
+        "2022-12-11": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
+        "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
     },
     "1ED417.jpeg": {
         "2022-07-06": "- Merged! ![[1ED417.jpeg]]"
