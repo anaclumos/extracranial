@@ -8,11 +8,13 @@
   opacity: var(--unhovered-transparency);
   padding: var(--padding);
   border-radius: var(--border-radius);
+  transition: opacity 0.2s ease-in-out;
 }
 
-.tableOfContents {
-  transition: background-color 0.2s ease-in-out;
+.tableOfContents:hover {
+  opacity: 1;
 }
+
 @media (max-width: 996px) {
   .tableOfContents {
     display: none;
