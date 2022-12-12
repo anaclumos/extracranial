@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "journals/2022-12-11.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -117,13 +117,13 @@
   },
   "active": "5b27237fa02d2a2c",
   "lastOpenFiles": [
+    "journals/2022-12-10.md",
+    "pages/코드클럽.md",
+    "journals/2022-12-11.md",
     "pages/태백산맥 계획.md",
     "pages/Effective Accelerationism.md",
-    "journals/2022-12-11.md",
     "pages/누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다.md",
     "journals/2019-03-04.md",
-    "pages/코드클럽.md",
-    "journals/2022-12-10.md",
     "pages/Visual Studio Code.md",
     "pages/ShadowRealm.md",
     "pages/Docker.md"
