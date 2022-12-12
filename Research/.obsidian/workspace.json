@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4d30cd0b5b3461be",
+        "id": "bf00c4e67e9ee0fd",
         "type": "tabs",
         "children": [
           {
-            "id": "d0c01f7d8312c961",
+            "id": "5b27237fa02d2a2c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-12-11.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2022-12-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2022-12-11.md"
+              }
             }
           }
         ],
@@ -107,17 +115,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "d0c01f7d8312c961",
+  "active": "5b27237fa02d2a2c",
   "lastOpenFiles": [
+    "pages/태백산맥 계획.md",
+    "pages/Effective Accelerationism.md",
+    "journals/2022-12-11.md",
+    "pages/누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다.md",
     "journals/2019-03-04.md",
     "pages/코드클럽.md",
     "journals/2022-12-10.md",
     "pages/Visual Studio Code.md",
     "pages/ShadowRealm.md",
-    "pages/Docker.md",
-    "journals/2022-10-20.md",
-    "pages/Stephan Ango.md",
-    "pages/Musk.md",
-    "pages/Throughput.md"
+    "pages/Docker.md"
   ]
 }

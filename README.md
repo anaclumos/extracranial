@@ -22,11 +22,11 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   851     26455     6437         0    20018          0
+Markdown                   854     26499     6441         0    20058          0
 SVG                         57        57        0         0       57          0
-TypeScript                  50      7742      145        48     7549        136
+TypeScript                  50      7753      145        48     7560        136
 CSS                         35      2918      206        30     2682          0
-JSON                        35      2019        0         0     2019          0
+JSON                        35      2027        0         0     2027          0
 Python                       6       392       47        29      316         92
 YAML                         6        30        2         0       28          0
 JavaScript                   2      1157        4      1038      115         21
@@ -34,13 +34,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1047     41164     6932      1219    33013        249
+Total                     1050     41227     6936      1219    33072        249
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,062,220
-Estimated Schedule Effort (organic) 14.07 months
+Estimated Cost to Develop (organic) $1,064,213
+Estimated Schedule Effort (organic) 14.08 months
 Estimated People Required (organic) 6.71
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1883103 bytes, 1.883 megabytes (SI)
+Processed 1886437 bytes, 1.886 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
