@@ -65,7 +65,7 @@ The problem occurs when the communication packet containing the I-Frame is lost.
 
 If the I-Frame is lost and only the next P-Frame and B-Frame arrive, the change value is applied to the wrong I-Frame.
 
-## Seeing is not worth a thousand words
+## A picture is worth a thousand words
 
 If you still don't understand, check it out with your own eyes. Using a commercial video library such as 'FFmpeg', the frame information of a video file can be intentionally corrupted. This type of art is called Datamoshing.
 
