@@ -58,6 +58,9 @@ export const backlinks = {
         "2022-12-16": "- [[Nuclear Fusion]]",
         "Desire-Compatible Growth & Preservation": "- [[Nuclear Fusion]]"
     },
+    "Readwise Reader": {
+        "2022-12-16": "- [[Readwise Reader]]"
+    },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
         "2022-08-29": "- [[Internetworking]]",
@@ -574,6 +577,7 @@ export const backlinks = {
         "2022-11-30": "## [[Hacker News|HN]]",
         "2022-12-07": "## [[Hacker News|HN]]",
         "2022-12-09": "## [[Hacker News|HN]]",
+        "2022-12-17": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -819,6 +823,7 @@ export const backlinks = {
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Product-Market Fit": "... continuously work on to remain competitive and thriving in the market. [[ChatGPT]]",
+        "Readwise Reader": "- uses [[ChatGPT]]",
         "Search Engine using Generative AI": "## On [[ChatGPT]]",
         "Synthote": "- [[ChatGPT]]"
     },
@@ -1134,6 +1139,36 @@ export const backlinks = {
         "2022-10-10": "- PDF processing and analysis with open-source tools. This looks terrifying. [[Screenshot as an API]] all the way!",
         "Matt Rickard": "- [[Screenshot as an API]]"
     },
+    "My Raycast Wrapped of 2022": {
+        "2022-12-17": "- [[My Raycast Wrapped of 2022]]"
+    },
+    "공기 청정 비행선": {
+        "2022-12-17": "- [[공기 청정 비행선]]"
+    },
+    "Riffusion": {
+        "2022-12-17": "- [[Riffusion]]: Mesmerizing. Whenever I see something made with [[LLM]] like GPT or ..."
+    },
+    "LLM": {
+        "2022-11-14": "- Synthote: LLMs for Code: [[LLM|LLMs]]",
+        "2022-12-17": "- Riffusion: Mesmerizing. Whenever I see something made with [[LLM]] like GPT or [[Stable Diffusion]]... it just blows my mind. Has ...",
+        "Antipilot": "- Generative AI and [[LLM]] are already unstoppable. This is not to stop them.",
+        "P vs NP": "- Before [[LLM|LLMs]], generating the associated image took time if you were given a ..."
+    },
+    "Stable Diffusion": {
+        "2022-11-29": "### [[Stable Diffusion]]",
+        "2022-12-17": "... Mesmerizing. Whenever I see something made with LLM like GPT or [[Stable Diffusion]]... it just blows my mind. Has the notion of \"feasibility\" changed ...",
+        "Prompt Engineering": "- [[Stable Diffusion]]",
+        "Screenshot as an API": "  - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]",
+        "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
+        "Synthography": "- [[Stable Diffusion]]"
+    },
+    "Generative AI": {
+        "2022-12-17": "... the notion of \"feasibility\" changed once and for all as the [[Generative AI]] emerged?",
+        "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
+        "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value ...",
+        "Search Engine using Generative AI": "- [[Generative AI]]",
+        "Search in a Latent Space": "- [[Generative AI]]"
+    },
     "FIRE Engine": {
         "2022-07-18": "- [[FIRE Engine]]",
         "2022-07-24": "- [[FIRE Engine]]",
@@ -1364,13 +1399,6 @@ export const backlinks = {
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
         "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용"
-    },
-    "Stable Diffusion": {
-        "2022-11-29": "### [[Stable Diffusion]]",
-        "Prompt Engineering": "- [[Stable Diffusion]]",
-        "Screenshot as an API": "  - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]",
-        "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
-        "Synthography": "- [[Stable Diffusion]]"
     },
     "Small yet Powerful": {
         "10x": "- [[Small yet Powerful]]",
@@ -2104,11 +2132,6 @@ export const backlinks = {
         "Stories Behind Satori": "The potential candidates for [[Satori]] included:",
         "WebAssembly": "- [[Satori]]"
     },
-    "LLM": {
-        "2022-11-14": "- Synthote: LLMs for Code: [[LLM|LLMs]]",
-        "Antipilot": "- Generative AI and [[LLM]] are already unstoppable. This is not to stop them.",
-        "P vs NP": "- Before [[LLM|LLMs]], generating the associated image took time if you were given a ..."
-    },
     "8B7073.png": {
         "2022-11-14": "![[8B7073.png]]"
     },
@@ -2517,6 +2540,7 @@ export const backlinks = {
     },
     "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": {
         "2022-12-11": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
+        "공기 청정 비행선": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
         "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
     },
     "1ED417.jpeg": {
@@ -2888,12 +2912,6 @@ export const backlinks = {
     },
     "ABD734.png": {
         "Developing Review Notes for Obsidian": "![[ABD734.png]]"
-    },
-    "Generative AI": {
-        "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
-        "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value ...",
-        "Search Engine using Generative AI": "- [[Generative AI]]",
-        "Search in a Latent Space": "- [[Generative AI]]"
     },
     "29DB9F.png": {
         "Search Engine using Generative AI": "![[29DB9F.png]]"
@@ -3823,6 +3841,9 @@ export const backlinks = {
     "524A89.png": {
         "Repeated Designs": "![[524A89.png]]"
     },
+    "EDC631.png": {
+        "Readwise Reader": "![[EDC631.png]]"
+    },
     "glTF": {
         "3D File Format": "- [[glTF]] for [[Android]]",
         "Things (3D)": "> Nice. What's the edge on Things over [[glTF]] and [[USDZ]]?<br/>"
@@ -4125,6 +4146,21 @@ export const backlinks = {
     "ruby": {
         "Higher-Level Languages and Their Speeds": "- Let's be clear: [[ruby]] is slow. The garbage collector, JIT compiler, its highly dynamic nature, ..."
     },
+    "2D239A.png": {
+        "My Raycast Wrapped of 2022": "![[2D239A.png]]"
+    },
+    "9B8B3C.png": {
+        "My Raycast Wrapped of 2022": "![[9B8B3C.png]]"
+    },
+    "C4BAAD.png": {
+        "My Raycast Wrapped of 2022": "![[C4BAAD.png]]"
+    },
+    "D4DDC1.png": {
+        "My Raycast Wrapped of 2022": "![[D4DDC1.png]]"
+    },
+    "DAB721.png": {
+        "My Raycast Wrapped of 2022": "![[DAB721.png]]"
+    },
     "Handwriting Grammarly": {
         "Handwriting Tools for Thoughts": "- We might need [[Handwriting Grammarly]]"
     },
@@ -4266,6 +4302,18 @@ export const backlinks = {
     },
     "FC87FE.png": {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]"
+    },
+    "I just want it fixed": {
+        "공기 청정 비행선": "원인이 뭐든, 누가 원인을 제공했든, 그런 것을 다 떠나서 [[I just want it fixed|그냥 고치면 좋겠다]]."
+    },
+    "76F0DC.png": {
+        "공기 청정 비행선": "![[76F0DC.png]]"
+    },
+    "744071.png": {
+        "공기 청정 비행선": "![[744071.png]]"
+    },
+    "7D6146.png": {
+        "공기 청정 비행선": "![[7D6146.png]]"
     },
     "E437D9.png": {
         "Digital Addictions of Software Enthusiasts": "![[E437D9.png]]"
