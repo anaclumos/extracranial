@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-12-12.md",
+                "file": "journals/2022-12-16.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,13 +21,26 @@
             }
           },
           {
-            "id": "8a6381a34022a81a",
+            "id": "7baafa9ff1982286",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-12-12.md",
+                "file": "pages/Apple-like Block Interface.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "01e055fed543fc67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Apple-like Block Interface.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-12.md",
+                "file": "pages/Apple-like Block Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-12-12.md"
+                "file": "pages/Apple-like Block Interface.md"
               }
             }
           }
@@ -129,17 +142,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "8a6381a34022a81a",
+  "active": "7baafa9ff1982286",
   "lastOpenFiles": [
-    "pages/Linkflags.md",
-    "journals/2022-12-12.md",
-    "pages/Multiplexing.md",
-    "pages/Internetworking.md",
-    "journals/2022-12-10.md",
-    "journals/2022-12-09.md",
-    "journals/2022-12-11.md",
-    "pages/Browser Company Hackathon.md",
-    "pages/코드클럽.md",
-    "pages/태백산맥 계획.md"
+    "journals/2022-12-16.md",
+    "pages/Project.md",
+    "pages/Nuclear Fusion.md",
+    "pages/Nuclear Fission.md",
+    "pages/Apple-like Block Interface.md",
+    "pages/Nextra.md",
+    "pages/Mr. Doob.md",
+    "pages/Diagram (Company).md",
+    "pages/Interface (Jumpsite).md",
+    "pages/Deepnote.md"
   ]
 }
