@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/2352A7'
 ---
 
+- an [[UIUX]] experiment.
+
 ### [Introducing Magician - by Jordan Singer - Diagram](https://blog.diagram.com/p/introducing-magician)
 
 - [Magician](https://magician.design) is a [[Figma]] plugin that lets you design with the power of AI to do everything from copywriting to generating unique icons from the text. Each magic spell works alongside you to expand your creativity and imagination as you design

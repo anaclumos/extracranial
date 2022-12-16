@@ -24,7 +24,7 @@ Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])
 
 ![[FDD149.gif]]
 
-## Miscellany related to UI
+## Miscellany related to [[UIUX|UI]]
 
 ### [UI Playbook](https://uiplaybook.dev/)
 

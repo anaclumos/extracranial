@@ -33,6 +33,31 @@ export const backlinks = {
         "sem.sh": "> The [[project]] name originates from the Pure Korean word meaning numerics and statistics ...",
         "사회과부도": "- Potentially Discarded, due to the same [[project]] existing at Worldmapper | rediscover the world as you've never seen ..."
     },
+    "Diagram (Company)": {
+        "2022-12-16": "- [[Diagram (Company)]]",
+        "Diagram Labs": "- [[Diagram (Company)]]",
+        "Interface (Jumpsite)": "- [[Diagram (Company)]]"
+    },
+    "Diagram Labs": {
+        "2022-12-16": "- [[Diagram Labs]]"
+    },
+    "Prototyper": {
+        "2022-12-16": "- [[Prototyper]]"
+    },
+    "Deepnote": {
+        "2022-12-16": "- [[Deepnote]]"
+    },
+    "Mr. Doob": {
+        "2022-12-16": "- [[Mr. Doob]]"
+    },
+    "Apple-like Block Interface": {
+        "2022-12-16": "- [[Apple-like Block Interface]]"
+    },
+    "Nuclear Fusion": {
+        "2022-07-26": "- [[Nuclear Fusion]]",
+        "2022-12-16": "- [[Nuclear Fusion]]",
+        "Desire-Compatible Growth & Preservation": "- [[Nuclear Fusion]]"
+    },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
         "2022-08-29": "- [[Internetworking]]",
@@ -703,6 +728,9 @@ export const backlinks = {
         "2022-12-02": "- [[Browser Company Hackathon]]",
         "2022-12-12": "- Submitted Linkflags to [[Browser Company Hackathon]]"
     },
+    "Synonym-based Fuzzy Search": {
+        "2022-12-12": "- [[Synonym-based Fuzzy Search]]"
+    },
     "Text-based Presentations": {
         "2022-11-08": "- [[Text-based Presentations]]"
     },
@@ -1248,6 +1276,7 @@ export const backlinks = {
         "2022-11-07": "- [[Extracranial]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a Memex or, in my term, [[Extracranial]] at https://cho.sh.",
         "Memex": "- Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.",
+        "Nextra": "- Potential [[Extracranial]]",
         "Paracosm": "Paracosm is an experimental documentation toolkit & [[Extracranial]] [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech ...",
         "Plateau of Latent Potential": "It could be a form of [[Extracranial]], a [[Memex]], or even [[Conversational AI Tools for Thought]].",
         "Preservation of Data": "- An important concept for Memex and [[Extracranial]]",
@@ -1286,7 +1315,7 @@ export const backlinks = {
         "2022-10-13": "... iPhone to be their next phone; 31% of teens own an [[Apple]] Watch: Taking Stock With Teens® - Fall 2022",
         "2022-10-18": "- [[Apple]] bought all of the advertising space in Newsweek's November/December special election ...",
         "3D File Format": "- USDZ for [[Apple]]",
-        "Andy Matuschak": "- ex-[[Apple]] UI-Kit developer",
+        "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
         "Apple Earth": "- Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports",
         "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
         "Apple Silicon (CPU)": "- Chips made by [[Apple]]",
@@ -1309,7 +1338,8 @@ export const backlinks = {
     },
     "Jumpsite": {
         "2022-10-13": "- [x] [[Jumpsite]]",
-        "2022-11-29": "- [[Jumpsite]]"
+        "2022-11-29": "- [[Jumpsite]]",
+        "Interface (Jumpsite)": "- [[Jumpsite]]"
     },
     "Stories Behind Satori": {
         "2022-10-13": "  - [x] [[Stories Behind Satori]]",
@@ -1444,8 +1474,8 @@ export const backlinks = {
     "Preservation of Data": {
         "2022-10-18": "- [[Preservation of Data]]"
     },
-    "Nuclear Fission Energy": {
-        "2022-10-18": "- [[Nuclear Fission Energy]]"
+    "Nuclear Fission": {
+        "2022-10-18": "- [[Nuclear Fission]]"
     },
     "FinTech and Justice": {
         "2022-10-18": "- [[FinTech and Justice]]"
@@ -1879,7 +1909,7 @@ export const backlinks = {
         "Letter to Mr. Stephan Ango on 2022-10-19": "... use Obsidian for my Memex, but I have built a custom [[React]] application for presenting on the web instead of Obsidian Publish.",
         "Next.js": "... Next.js is an open-source web development framework created by Vercel enabling [[React]]-based web applications with server-side rendering and generating static websites. React documentation ...",
         "React App on GitHub Pages": "Recently I came across the idea of publishing a [[React]] App on GitHub Pages. I can distribute my React App using ...",
-        "React Native": "> [[React]] Native is an open-source UI software framework created by Meta Platforms, ...",
+        "React Native": "> [[React]] Native is an open-source [[UIUX|UI]] software framework created by Meta Platforms, ...",
         "Real Exams": "- get-a-job-done SQL, [[React]], [[Python]]",
         "Separation of Computer Scientists and Computer Technologists": "## But a self-taught can code a dang fantastic [[React]] shopping mall!",
         "Svelte": "... runtime representations, such as virtual DOM, unlike traditional frameworks (such as [[React]] and Vue), which carry out the bulk of their work at ...",
@@ -2145,7 +2175,8 @@ export const backlinks = {
         "2022-07-18": "- [[UBI for Scholars]]"
     },
     "Magician": {
-        "2022-11-21": "- [[Magician]]: I thought they would generate user interface designs akin to Tailwind ..."
+        "2022-11-21": "- [[Magician]]: I thought they would generate user interface designs akin to Tailwind ...",
+        "Diagram (Company)": "- Creator of [[Magician]]"
     },
     "Blitzscaling": {
         "2022-06-06": "- [[Blitzscaling]] will not work, starting now. User Growth ≠ Valuation."
@@ -2451,10 +2482,6 @@ export const backlinks = {
         "2022-07-26": "- [x] [[0226 Invert Binary Tree]]",
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
     },
-    "Nuclear Fusion": {
-        "2022-07-26": "- [[Nuclear Fusion]]",
-        "Desire-Compatible Growth & Preservation": "- [[Nuclear Fusion]]"
-    },
     "D815DD.jpeg": {
         "2022-07-12": "![[D815DD.jpeg]]"
     },
@@ -2575,6 +2602,26 @@ export const backlinks = {
         "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon (CPU)]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]"
     },
+    "UIUX": {
+        "Andy Matuschak": "- ex-Apple [[UIUX|UI]]-Kit developer",
+        "ChatGPT": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Turned out to be a chat [[UIUX|UI]] that got people to start tinkering with text.</p>&mdash; Nat Friedman (@natfriedman) ...",
+        "Confectionery": "> A minimalistic browser without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty of your designs, not the browser ...",
+        "Diagram Labs": "- [[UIUX]]",
+        "Downloading Any Recordings from Zoom": "... We have reproduced the behavior you have reported. However, while this [[UIUX|UI]] does not expose the download URL for recordings which have opted ...",
+        "Dynamic Viewport Units": "... at 60fps. In all browsers updating is throttled as the UA [[UIUX|UI]] expands or retracts. Some browsers even debounce updating entirely depending on ...",
+        "Magician": "- an [[UIUX]] experiment.",
+        "Modern MacPaint": "- an [[UIUX]] experiment.",
+        "Mr. Doob": "- an [[UIUX]] experiment.",
+        "Person 1E6ABA": "Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media researcher, and engineering intern.",
+        "Rauno": "## Miscellany related to [[UIUX|UI]]",
+        "React": "... and open-source Front-end|front-end JavaScript library for building user interfaces based on [[UIUX|UI]] components. It is maintained by Meta (formerly Facebook) and a community ...",
+        "React Native": "> React Native is an open-source [[UIUX|UI]] software framework created by Meta Platforms, Inc. It is used to ...",
+        "Simulated Annealing for Designs": "- we ditched all the lights, shadows, and textures in our [[UIUX|UI]] designs. And now we are slowly adding them back. This is ...",
+        "Svelte": "... by the compiler, inserting calls to automatically recompute data and re-render [[UIUX|UI]] elements when the data they depend on is modified. This also ...",
+        "Toss Product Sans": "- 퍼센트, 쉼표, 더하기, 빼기, 화살표 등 [[UIUX|UI]] 요소로 활용되는 기호들의 가독성을 높여, 넓은 여백으로 디자인했죠. 또한 다른 글자와의 ...",
+        "UI AI": "- an [[UIUX]] experiment.",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 반영할 수 있나요?"
+    },
     "301024.png": {
         "Paracosm": "![[301024.png]]",
         "Text-based Tools for Thought": "![[301024.png]]"
@@ -2647,7 +2694,7 @@ export const backlinks = {
         "Ghost 테마를 자동 배포하는 방법": "... 사용한다. Ghost CMS는 헤드리스하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 수 있다는 것이다. 하지만 Ghost 2까지는 ...",
         "HTMX": "- A [[Front-end]]",
         "Old Fashioned Camera": "- 백엔드와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임",
-        "React": "... (also known as React.js or ReactJS) is a free and open-source [[Front-end|front-end]] JavaScript library for building user interfaces based on UI components. It ...",
+        "React": "... (also known as React.js or ReactJS) is a free and open-source [[Front-end|front-end]] JavaScript library for building user interfaces based on [[UIUX|UI]] components. It ...",
         "Satori": "- Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "> Svelte is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris and maintained by the Svelte core ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트]]엔드에는 리액트와 타입스크립트를 쓰고 있다. 하지만 권장 사항일 뿐이다. 제품과 부서에 따라 ...",
@@ -2680,6 +2727,9 @@ export const backlinks = {
     "56155E.png": {
         "How is WebAssembly cross-platform when Assembly is not": "![[56155E.png]]"
     },
+    "801385.png": {
+        "Interface (Jumpsite)": "![[801385.png]]"
+    },
     "Toss": {
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve this information inequality in the financial ...",
         "Supergravity Products": "... 작은 아이디어 (금융 슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
@@ -2704,6 +2754,19 @@ export const backlinks = {
     "Processes and Threads": {
         "Computer Systems": "- [[Processes and Threads]]",
         "Memory Allocation": "First, we must define the key difference between [[Processes and Threads]]."
+    },
+    "Data Science": {
+        "Deepnote": "- [[Data Science]] [[Collaboration-based Tools for Thought]]."
+    },
+    "Collaboration-based Tools for Thought": {
+        "Deepnote": "- Data Science [[Collaboration-based Tools for Thought]].",
+        "Tools for Thought": "- [[Collaboration-based Tools for Thought]]: for teams."
+    },
+    "Jupyter": {
+        "Deepnote": "- [[Jupyter]] compatible"
+    },
+    "4B6FDC.png": {
+        "Deepnote": "![[4B6FDC.png]]"
     },
     "Karrot": {
         "Height": "- Used at [[Karrot]]",
@@ -3255,6 +3318,9 @@ export const backlinks = {
     "In-house and Free Market": {
         "I travel the World Wide Web": "- [[In-house and Free Market]]"
     },
+    "DCF75C.png": {
+        "Modern MacPaint": "![[DCF75C.png]]"
+    },
     "6982B6.png": {
         "Now Page": "![[6982B6.png]]"
     },
@@ -3312,6 +3378,12 @@ export const backlinks = {
     },
     "F8D9BD.png": {
         "Visual-based Tools for Thought": "![[F8D9BD.png]]"
+    },
+    "6C84B1.png": {
+        "Mr. Doob": "![[6C84B1.png]]"
+    },
+    "50A17A.png": {
+        "Mr. Doob": "![[50A17A.png]]"
     },
     "2A5C23.png": {
         "Jumpsite": "![[2A5C23.png]]",
@@ -3416,6 +3488,9 @@ export const backlinks = {
     "E2297A.png": {
         "Squircle": "![[E2297A.png]]"
     },
+    "9A3C8D.png": {
+        "UI AI": "![[9A3C8D.png]]"
+    },
     "Product-market fit": {
         "The Great Struggle of Gumroad": "... fault. It always looked like change was right around the corner. [[Product-market fit]] is excellent, but we needed to find a new, more oversized ..."
     },
@@ -3461,6 +3536,10 @@ export const backlinks = {
     },
     "Social Network Service": {
         "Jumpsite": "... or Web Linking Network Service, is a collective term for a [[Social Network Service]] mainly consisting of links to outside content."
+    },
+    "Interface (Jumpsite)": {
+        "Diagram (Company)": "- [[Interface (Jumpsite)]]",
+        "Jumpsite": "- [[Interface (Jumpsite)]]"
     },
     "298DC4.png": {
         "Jumpsite": "![[298DC4.png]]"
@@ -3807,6 +3886,21 @@ export const backlinks = {
     "277486.gif": {
         "Link Preview for Arc": "![[277486.gif]]"
     },
+    "UI AI": {
+        "Diagram (Company)": "- Creator of [[UI AI]]"
+    },
+    "designOS": {
+        "Diagram (Company)": "- Creator of [[designOS]]"
+    },
+    "Modern MacPaint": {
+        "Diagram (Company)": "- Creator of [[Modern MacPaint]]"
+    },
+    "48C71E.png": {
+        "Diagram (Company)": "![[48C71E.png]]"
+    },
+    "201C33.png": {
+        "Diagram (Company)": "![[201C33.png]]"
+    },
     "Delta Time": {
         "Game Programming": "- [[Delta Time]]",
         "Graphics Engine Process": "    - Calculate [[Delta Time]]"
@@ -3911,9 +4005,6 @@ export const backlinks = {
     },
     "Search-based Tools for Thought": {
         "Tools for Thought": "- [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature ..."
-    },
-    "Collaboration-based Tools for Thought": {
-        "Tools for Thought": "- [[Collaboration-based Tools for Thought]]: for teams."
     },
     "Archiving-based Tools for Thoughts": {
         "Tools for Thought": "- [[Archiving-based Tools for Thoughts]]: takes a full copy of a page for archiving purposes."
@@ -4039,6 +4130,19 @@ export const backlinks = {
     },
     "8121DD.png": {
         "Horizontally Stacked Interface": "![[8121DD.png]]"
+    },
+    "B0F13F.png": {
+        "Apple-like Block Interface": "![[B0F13F.png]]"
+    },
+    "F39724.png": {
+        "Apple-like Block Interface": "![[F39724.png]]"
+    },
+    "Nextra": {
+        "Apple-like Block Interface": "## [[Nextra]]"
+    },
+    "EB655D.png": {
+        "Apple-like Block Interface": "![[EB655D.png]]",
+        "Nextra": "![[EB655D.png]]"
     },
     "6F64BE.png": {
         "Toss Product Sans": "![[6F64BE.png]]"
@@ -4169,6 +4273,9 @@ export const backlinks = {
     "web3": {
         "Ethereum RPC as a Service": "... enterprise RPC providers are one of the more profitable and real [[web3]] businesses. There's Alchemy ($10.2B valuation, Feb ‘22), ConsenSys ($7B valuation, Mar ..."
     },
+    "717AC9.png": {
+        "designOS": "![[717AC9.png]]"
+    },
     "97E77D.png": {
         "Sudo with Touch ID": "![[97E77D.png]]"
     },
@@ -4180,6 +4287,9 @@ export const backlinks = {
     },
     "2022-11-29": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "## Response on [[2022-11-29]]"
+    },
+    "D8DCB4.png": {
+        "Prototyper": "![[D8DCB4.png]]"
     },
     "ffmpeg": {
         "Jetski": "- [[ffmpeg]] optimization for sharing"
