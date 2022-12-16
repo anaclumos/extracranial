@@ -13,7 +13,7 @@ slug: '/85E9E7'
 
 ## Examples
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Turned out to be a chat UI that got people to start tinkering with text.</p>&mdash; Nat Friedman (@natfriedman) <a href="https://twitter.com/natfriedman/status/1599206152025231360?ref_src=twsrc%5Etfw">December 4, 2022</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Turned out to be a chat [[UIUX|UI]] that got people to start tinkering with text.</p>&mdash; Nat Friedman (@natfriedman) <a href="https://twitter.com/natfriedman/status/1599206152025231360?ref_src=twsrc%5Etfw">December 4, 2022</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I will be forwarding all future media requests to ChatGPT <a href="https://t.co/ygeBfsB07c">pic.twitter.com/ygeBfsB07c</a></p>&mdash; Dylan Field (@zoink) <a href="https://twitter.com/zoink/status/1598827692803051521?ref_src=twsrc%5Etfw">December 2, 2022</a></blockquote>
 

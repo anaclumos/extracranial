@@ -22,11 +22,11 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   855     26523     6447         0    20076          0
+Markdown                   871     26676     6481         0    20195          0
 SVG                         57        57        0         0       57          0
-TypeScript                  50      7758      145        48     7565        136
-CSS                         35      2920      207        30     2683          0
-JSON                        35      2041        0         0     2041          0
+TypeScript                  50      7884      145        48     7691        136
+CSS                         35      2921      206        30     2685          0
+JSON                        35      2054        0         0     2054          0
 Python                       6       392       47        29      316         92
 YAML                         6        30        2         0       28          0
 JavaScript                   2      1157        4      1038      115         21
@@ -34,13 +34,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1051     41272     6943      1219    33110        249
+Total                     1067     41565     6976      1219    33370        249
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,065,497
-Estimated Schedule Effort (organic) 14.09 months
-Estimated People Required (organic) 6.72
+Estimated Cost to Develop (organic) $1,074,284
+Estimated Schedule Effort (organic) 14.13 months
+Estimated People Required (organic) 6.75
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1889259 bytes, 1.889 megabytes (SI)
+Processed 1900018 bytes, 1.900 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
