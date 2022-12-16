@@ -1,11 +1,12 @@
 * {
   --font-family-sans-serif: ui-sans-serif, -apple-system,
-    BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard,
-    system-ui, -system-ui, sans-serif, 'Apple Color Emoji';
+    BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    Pretendard, system-ui, -system-ui, sans-serif,
+    'Apple Color Emoji';
   --font-family-monospace: ui-monospace, 'SF Mono',
     SFMono-Regular, 'Jetbrains Mono', Menlo, Consolas,
     monospace;
-
   font-feature-settings: 'rlig' 1, 'calt' 1, 'ss01' 1,
     'ss02' 1, 'ss03' 1, 'ss04' 1, 'ss05' 1, 'ss06' 1,
     'ss08' 1, 'zero' 1;
