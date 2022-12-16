@@ -20,8 +20,8 @@ brew install pinentry-mac
 which pinentry-mac
 ```
 
-Put the path into `gpg-agent.conf` file.
-If there is no gpg-agent.conf file found in ~/.gnupg/ directory, create one.
+Put the path into the `gpg-agent.conf` file.
+If there is no `gpg-agent.conf` file found in the `~/.gnupg/` directory, create one.
 
 ```bash
 touch ~/.gnupg/gpg-agent.conf
@@ -38,6 +38,10 @@ git config --global commit.gpgsign true
 
 ```bash
 git log --show-signature -1
+```
+
+```bash
+gpgconf --kill gpg-agent
 ```
 
 Make sure you didn't delete `~.gnupg`.

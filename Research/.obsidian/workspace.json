@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c164ff899b53a7d1",
+        "id": "ba6dbe9f08cbef87",
         "type": "tabs",
         "children": [
           {
-            "id": "f9c0c67e28e68424",
+            "id": "da5290d8f5700921",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -108,17 +108,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "f9c0c67e28e68424",
+  "active": "da5290d8f5700921",
   "lastOpenFiles": [
+    "pages/Resolving GPG Fail to Sign Error.md",
+    "journals/2022-12-17.md",
     "journals/2022-12-16.md",
     "pages/공기 청정 비행선.md",
-    "journals/2022-12-17.md",
     "pages/I just want it fixed.md",
     "pages/Generative AI.md",
     "pages/Riffusion.md",
     "pages/LLM.md",
     "pages/Readwise Reader.md",
-    "pages/My Raycast Wrapped of 2022.md",
-    "pages/Archiving-based Tools for Thoughts.md"
+    "pages/My Raycast Wrapped of 2022.md"
   ]
 }
