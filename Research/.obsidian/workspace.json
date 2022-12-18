@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "037df0dfb5c3e191",
+        "id": "f30a3cc69db79ff7",
         "type": "tabs",
         "children": [
           {
-            "id": "fa0f65b35bee478c",
+            "id": "1d0fe6de6134a18b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "readwise",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -107,17 +108,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "fa0f65b35bee478c",
+  "active": "1d0fe6de6134a18b",
   "lastOpenFiles": [
-    "journals/2022-12-18.md",
-    "pages/Vannevar Bush.md",
+    "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
     "pages/Project Alter.md",
+    "journals/2022-12-18.md",
+    "pages/phash.wasm.md",
+    "pages/Perceptual Hashing.md",
+    "pages/UI Designs for Editing Messages.md",
+    "pages/Vannevar Bush.md",
     "pages/Hugging Face.md",
     "pages/Interactive ML Models.md",
-    "pages/Example References for Alter.md",
-    "pages/Comparing BLIP and CLIP.md",
-    "pages/Technical Design for Alter.md",
-    "assets/9BB870.png",
-    "assets/9B529A.png"
+    "pages/Example References for Alter.md"
   ]
 }
