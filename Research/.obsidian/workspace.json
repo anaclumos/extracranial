@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ba6dbe9f08cbef87",
+        "id": "037df0dfb5c3e191",
         "type": "tabs",
         "children": [
           {
-            "id": "da5290d8f5700921",
+            "id": "fa0f65b35bee478c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -61,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -108,17 +107,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "da5290d8f5700921",
+  "active": "fa0f65b35bee478c",
   "lastOpenFiles": [
-    "pages/Resolving GPG Fail to Sign Error.md",
-    "journals/2022-12-17.md",
-    "journals/2022-12-16.md",
-    "pages/공기 청정 비행선.md",
-    "pages/I just want it fixed.md",
-    "pages/Generative AI.md",
-    "pages/Riffusion.md",
-    "pages/LLM.md",
-    "pages/Readwise Reader.md",
-    "pages/My Raycast Wrapped of 2022.md"
+    "journals/2022-12-18.md",
+    "pages/Vannevar Bush.md",
+    "pages/Project Alter.md",
+    "pages/Hugging Face.md",
+    "pages/Interactive ML Models.md",
+    "pages/Example References for Alter.md",
+    "pages/Comparing BLIP and CLIP.md",
+    "pages/Technical Design for Alter.md",
+    "assets/9BB870.png",
+    "assets/9B529A.png"
   ]
 }
