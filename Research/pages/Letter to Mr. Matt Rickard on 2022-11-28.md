@@ -54,4 +54,4 @@ function AltTextImage() {
 
 ### Perceptual Hashing
 
-- [Perceptual Hashing](https://matt-rickard.com/perceptual-hashing): Intentionally maximizes the change of hash collision, to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM.
+- [[Perceptual Hashing]]
