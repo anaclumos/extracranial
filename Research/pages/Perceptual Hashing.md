@@ -9,8 +9,8 @@ slug: '/E6617C'
 
 ### [Zauner](https://www.phash.org/docs/pubs/thesis_zauner.pdf)
 
- - Fastest: block-mean-based perceptual image hash. 
- - Most discriminative: Marr-Hildreth operator-based hash function
+- Fastest: block-mean-based perceptual image hash.
+- Most discriminative: Marr-Hildreth operator-based hash function
 
 ## Vulnerabilities
 
