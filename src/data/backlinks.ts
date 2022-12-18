@@ -780,7 +780,7 @@ export const backlinks = {
         "2022-07-14": "... more. One wrong info that I found: Uber didn't make Kubernetes. [[Google]] did.",
         "2022-07-21": "### [[Google]], really? Come on.",
         "Kubernetes": "... open-source container orchestration system for automating software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the Cloud Native Computing Foundation now maintains ...",
-        "Letter to Mr. Matt Rickard on 2022-11-28": "... the change of hash collision, to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM.",
+        "Perceptual Hashing": "... the change of hash collision to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ...",
         "WorkerDOM": "[[Google]]'s take on providing [[DOM]] access to [[Web Worker]] Threads."
@@ -1364,7 +1364,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "... it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?",
         "Intracranial": "  - 👍 [[Apple]]-ish design language",
         "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[Apple]] Music have a market penetration of next to nothing.",
-        "Letter to Mr. Matt Rickard on 2022-11-28": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM.",
+        "Perceptual Hashing": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.",
         "San Francisco": "- Font by [[Apple]]",
@@ -1561,6 +1561,10 @@ export const backlinks = {
     },
     "Interactive ML Models": {
         "2022-12-18": "- [[Interactive ML Models]]"
+    },
+    "Perceptual Hashing": {
+        "2022-12-18": "- [[Perceptual Hashing]]",
+        "Letter to Mr. Matt Rickard on 2022-11-28": "- [[Perceptual Hashing]]"
     },
     "Apple Music API": {
         "2022-10-28": "- Reversed Engineered [[Apple Music API]] to get my personal request key.",
@@ -3831,6 +3835,12 @@ export const backlinks = {
     "CE91F0.png": {
         "洪民憙雜記": "![[CE91F0.png]]"
     },
+    "phash.wasm": {
+        "Project Alter": "- [ ] Perceptual Hashing On Device: [[phash.wasm]]"
+    },
+    "Hugging Face": {
+        "Project Alter": "... [ ] Inference Server to `image → text`. AWS SageMaker? Or [[Hugging Face]] as an API server?"
+    },
     "Letter to Mr. Matt Rickard on 2022-11-28": {
         "Project Alter": "- [[Letter to Mr. Matt Rickard on 2022-11-28]]"
     },
@@ -3839,9 +3849,6 @@ export const backlinks = {
     },
     "Example References for Alter": {
         "Project Alter": "- [[Example References for Alter]]"
-    },
-    "Hugging Face": {
-        "Project Alter": "... [ ] Inference Server to `image → text`. AWS SageMaker? Or [[Hugging Face]] as an API server?"
     },
     "Brunch": {
         "Brunch violates SF terms of use": "- Korean writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as ..."
