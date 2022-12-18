@@ -51,7 +51,8 @@ export const backlinks = {
         "2022-12-16": "- [[Mr. Doob]]"
     },
     "Apple-like Block Interface": {
-        "2022-12-16": "- [[Apple-like Block Interface]]"
+        "2022-12-16": "- [[Apple-like Block Interface]]",
+        "2022-12-18": "- [[Apple-like Block Interface]]"
     },
     "Nuclear Fusion": {
         "2022-07-26": "- [[Nuclear Fusion]]",
@@ -453,6 +454,7 @@ export const backlinks = {
         "2022-10-20": "- [[Dynamic Island on the Web]]",
         "2022-11-10": "### [[Dynamic Island on the Web]]",
         "2022-11-11": "### [[Dynamic Island on the Web]]",
+        "2022-12-18": "- [[Dynamic Island on the Web]]",
         "Reverse Engineering Apple Music API": "As a part of [[Dynamic Island on the Web]], I reverse-engineered [[Apple Music API]] to get the undocumented Personal Token."
     },
     "Handwriting Tools for Thoughts": {
@@ -523,7 +525,6 @@ export const backlinks = {
         "2022-12-09": "- [[Matt Rickard]]: [[Elo Rating]]",
         "Decoy Effect": "## [[Matt Rickard]]",
         "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
-        "Project Alter": "### Implementation Suggestion from Mr. [[Matt Rickard]]",
         "eBPF": "- [[Matt Rickard]]"
     },
     "The Demise of Chatbots in 2017": {
@@ -645,6 +646,7 @@ export const backlinks = {
         "2022-11-29": "## [[Project]]",
         "2022-11-30": "## [[Project]]",
         "2022-12-12": "## [[Project]]",
+        "2022-12-18": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "- Someday [[Project]]",
@@ -659,7 +661,7 @@ export const backlinks = {
         "Cube": "- Someday [[Project]]",
         "Developing Review Notes for Obsidian": "2022-07-19 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
         "Digital Addictions of Software Enthusiasts": "- Someday [[Project]]",
-        "Dynamic Island on the Web": "- [[Project]]",
+        "Dynamic Island on the Web": "- Done [[Project]]",
         "FFMpeg for iPad": "- Someday [[Project]]",
         "Intracranial": "- Someday [[Project]]",
         "Krafton Way": "... 능력을 검증해야 한다”고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
@@ -780,7 +782,6 @@ export const backlinks = {
         "Kubernetes": "... open-source container orchestration system for automating software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the Cloud Native Computing Foundation now maintains ...",
         "Letter to Mr. Matt Rickard on 2022-11-28": "... the change of hash collision, to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM.",
         "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
-        "Project Alter": "... the change of hash collision, to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM.",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ...",
         "WorkerDOM": "[[Google]]'s take on providing [[DOM]] access to [[Web Worker]] Threads."
     },
@@ -1132,6 +1133,7 @@ export const backlinks = {
         "2022-10-03": "- [[Project Alter]]",
         "2022-11-29": "- [[Project Alter]]",
         "2022-11-30": "- [[Project Alter]]",
+        "2022-12-18": "- [[Project Alter]]",
         "Project": "- [[Project Alter]]"
     },
     "Screenshot as an API": {
@@ -1365,7 +1367,6 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-11-28": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM.",
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.",
-        "Project Alter": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM.",
         "San Francisco": "- Font by [[Apple]]",
         "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] iOS 16 update.",
         "Swift": "- Programming Language for [[Apple]] platforms",
@@ -1551,6 +1552,15 @@ export const backlinks = {
     },
     "Maserati Problem": {
         "2022-11-02": "- [[Maserati Problem]]"
+    },
+    "UI Designs for Editing Messages": {
+        "2022-12-18": "- [[UI Designs for Editing Messages]]"
+    },
+    "CMDK": {
+        "2022-12-18": "- [[CMDK]]"
+    },
+    "Interactive ML Models": {
+        "2022-12-18": "- [[Interactive ML Models]]"
     },
     "Apple Music API": {
         "2022-10-28": "- Reversed Engineered [[Apple Music API]] to get my personal request key.",
@@ -3125,8 +3135,7 @@ export const backlinks = {
         "Spellbound": "![[2576C7.png]]"
     },
     "markdown": {
-        "Markdown Email Client": "- We desperately need a reader mode for [[markdown]] emails!",
-        "Project Alter": "Imgbot model. Goes through all images and will replace [[markdown]] images without alt text"
+        "Markdown Email Client": "- We desperately need a reader mode for [[markdown]] emails!"
     },
     "초상권 vs 저작권": {
         "CELLO": "- [[초상권 vs 저작권]]",
@@ -3497,6 +3506,12 @@ export const backlinks = {
     "DjVu (File Format)": {
         "Screenshot as an API": "... (File Format), MOBI (File Format) for texts. For generic use cases, [[DjVu (File Format)]]."
     },
+    "6ECA95.gif": {
+        "UI Designs for Editing Messages": "![[6ECA95.gif]]"
+    },
+    "377FC7.gif": {
+        "CMDK": "![[377FC7.gif]]"
+    },
     "D6F77F.png": {
         "Squircle": "![[D6F77F.png]]"
     },
@@ -3818,6 +3833,15 @@ export const backlinks = {
     },
     "Letter to Mr. Matt Rickard on 2022-11-28": {
         "Project Alter": "- [[Letter to Mr. Matt Rickard on 2022-11-28]]"
+    },
+    "Comparing BLIP and CLIP": {
+        "Project Alter": "- [[Comparing BLIP and CLIP]]"
+    },
+    "Example References for Alter": {
+        "Project Alter": "- [[Example References for Alter]]"
+    },
+    "Hugging Face": {
+        "Project Alter": "... [ ] Inference Server to `image → text`. AWS SageMaker? Or [[Hugging Face]] as an API server?"
     },
     "Brunch": {
         "Brunch violates SF terms of use": "- Korean writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as ..."
@@ -4167,18 +4191,21 @@ export const backlinks = {
     "8121DD.png": {
         "Horizontally Stacked Interface": "![[8121DD.png]]"
     },
-    "B0F13F.png": {
-        "Apple-like Block Interface": "![[B0F13F.png]]"
+    "398CA8.png": {
+        "Apple-like Block Interface": "![[398CA8.png]]"
     },
-    "F39724.png": {
-        "Apple-like Block Interface": "![[F39724.png]]"
+    "341F72.gif": {
+        "Apple-like Block Interface": "![[341F72.gif]]"
+    },
+    "339CE9.png": {
+        "Apple-like Block Interface": "![[339CE9.png]]"
     },
     "Nextra": {
         "Apple-like Block Interface": "## [[Nextra]]"
     },
-    "EB655D.png": {
-        "Apple-like Block Interface": "![[EB655D.png]]",
-        "Nextra": "![[EB655D.png]]"
+    "B2A2B6.png": {
+        "Apple-like Block Interface": "![[B2A2B6.png]]",
+        "Nextra": "![[B2A2B6.png]]"
     },
     "6F64BE.png": {
         "Toss Product Sans": "![[6F64BE.png]]"
@@ -4326,6 +4353,9 @@ export const backlinks = {
     },
     "97E77D.png": {
         "Sudo with Touch ID": "![[97E77D.png]]"
+    },
+    "87640C.png": {
+        "Comparing BLIP and CLIP": "![[87640C.png]]"
     },
     "F7ADEB.png": {
         "Transactional Globe": "![[F7ADEB.png]]"

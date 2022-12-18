@@ -3,8 +3,9 @@ lang: 'en'
 slug: '/B21605'
 ---
 
-- [[Project]]
+- Done [[Project]]
 - [[Dynamic Island]] on the Web
+- [iPhone Playground](https://iphone.junho.io/)
 
 ## [[2022-11-11]]
 
