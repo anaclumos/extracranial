@@ -6,4 +6,4 @@ slug: '/B0E6E0'
 - Static Site Generator
 - Potential [[Extracranial]]
 
-![[EB655D.png]]
+![[B2A2B6.png]]
