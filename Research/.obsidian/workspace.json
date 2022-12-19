@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/아이폰 천지인 자판 프로젝트의 실현 가능성 연구.md",
+                "file": "pages/하늘땅사람.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/아이폰 천지인 자판 프로젝트의 실현 가능성 연구.md",
+                "file": "journals/2022-12-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/아이폰 천지인 자판 프로젝트의 실현 가능성 연구.md"
+                "file": "journals/2022-12-19.md"
               }
             }
           }
@@ -131,17 +130,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "ac3d612055afd953",
+  "active": "1d0fe6de6134a18b",
   "lastOpenFiles": [
-    "pages/Apple.md",
-    "pages/아이폰 천지인 자판 프로젝트의 실현 가능성 연구.md",
+    "pages/하늘땅사람.md",
     "journals/2022-12-19.md",
+    "pages/아이폰 천지인 자판 프로젝트의 실현 가능성 연구.md",
+    "pages/Apple.md",
     "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
     "pages/Project Alter.md",
     "journals/2022-12-18.md",
     "pages/phash.wasm.md",
     "pages/Perceptual Hashing.md",
-    "pages/UI Designs for Editing Messages.md",
-    "pages/Vannevar Bush.md"
+    "pages/UI Designs for Editing Messages.md"
   ]
 }
