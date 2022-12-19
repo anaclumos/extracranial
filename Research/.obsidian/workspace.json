@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-12-19.md",
-                "mode": "source",
+                "file": "pages/하늘땅사람.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-19.md",
+                "file": "pages/하늘땅사람.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-12-19.md"
+                "file": "pages/하늘땅사람.md"
               }
             }
           }
@@ -132,15 +132,15 @@
   },
   "active": "1d0fe6de6134a18b",
   "lastOpenFiles": [
+    "pages/아이폰 천지인 자판 프로젝트의 실현 가능성 연구.md",
     "pages/하늘땅사람.md",
     "journals/2022-12-19.md",
-    "pages/아이폰 천지인 자판 프로젝트의 실현 가능성 연구.md",
+    "pages/SwiftUI.md",
+    "pages/Proof of Concept.md",
     "pages/Apple.md",
     "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
     "pages/Project Alter.md",
     "journals/2022-12-18.md",
-    "pages/phash.wasm.md",
-    "pages/Perceptual Hashing.md",
-    "pages/UI Designs for Editing Messages.md"
+    "pages/phash.wasm.md"
   ]
 }
