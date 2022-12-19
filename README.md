@@ -22,11 +22,11 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   886     26849     6521         0    20328          0
+Markdown                   888     26892     6532         0    20360          0
 SVG                         57        57        0         0       57          0
-TypeScript                  50      7984      145        48     7791        136
+TypeScript                  50      7990      145        48     7797        136
 CSS                         35      2921      206        30     2685          0
-JSON                        35      2020        0         0     2020          0
+JSON                        35      2043        0         0     2043          0
 Python                       6       392       47        29      316         92
 YAML                         6        30        2         0       28          0
 JavaScript                   2      1157        4      1038      115         21
@@ -34,13 +34,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1082     41804     7016      1219    33569        249
+Total                     1084     41876     7027      1219    33630        249
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,081,012
-Estimated Schedule Effort (organic) 14.17 months
-Estimated People Required (organic) 6.78
+Estimated Cost to Develop (organic) $1,083,075
+Estimated Schedule Effort (organic) 14.18 months
+Estimated People Required (organic) 6.79
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1910206 bytes, 1.910 megabytes (SI)
+Processed 1913279 bytes, 1.913 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

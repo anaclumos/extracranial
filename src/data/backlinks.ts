@@ -1370,7 +1370,8 @@ export const backlinks = {
         "San Francisco": "- Font by [[Apple]]",
         "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] iOS 16 update.",
         "Swift": "- Programming Language for [[Apple]] platforms",
-        "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
+        "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다.",
+        "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "[[Apple|애플]] 아이폰의 국내 인기는 점점 상승하고 있다."
     },
     "Jumpsite": {
         "2022-10-13": "- [x] [[Jumpsite]]",
@@ -1710,6 +1711,9 @@ export const backlinks = {
     "Diminishing Cost of Service": {
         "2022-11-03": "- [[Diminishing Cost of Service]]",
         "2022-11-20": "- [[Diminishing Cost of Service]]"
+    },
+    "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
+        "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]"
     },
     "Ethereum RPC as a Service": {
         "2022-10-29": "- Matt Rickard: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
