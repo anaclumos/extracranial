@@ -590,7 +590,8 @@ export const backlinks = {
         "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon (CPU)]]",
         "CELLO (Product)": "- [[SwiftUI]]",
         "Cube": "- [[SwiftUI]]",
-        "ULLO": "- PoC of [[SwiftUI]] Photo Widget App"
+        "ULLO": "- Proof of Concept|PoC of [[SwiftUI]] Photo Widget App",
+        "하늘땅사람": "다만 코드를 분산시키고 좋은 품질을 유지하기 위해 [[SwiftUI]]를 사용하는 방안을 연구 중."
     },
     "Web3": {
         "2022-11-09": "- [[Web3]]",
@@ -1624,6 +1625,9 @@ export const backlinks = {
         "2022-08-02": "- [[일본 과학기술 총력전]]",
         "Readings": "- [x] [[일본 과학기술 총력전]]"
     },
+    "proof of concept": {
+        "2022-06-10": "  - In a [[proof of concept]], the researchers demonstrated that the attack even works against the kernel ..."
+    },
     "ARM Architecture": {
         "2022-06-10": "... — which has \"massive implications for future security work on all [[ARM Architecture|ARM]] systems with pointer authentication enabled,\" says Joseph Ravichandran, a PhD student ...",
         "2022-11-03": "- [[ARM Architecture]]",
@@ -1717,7 +1721,7 @@ export const backlinks = {
     },
     "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
         "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
-        "하늘땅사람": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]"
+        "하늘땅사람": "[[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]를 통해 제작이 충분히 가능함을 확인."
     },
     "208E21.png": {
         "2022-12-19": "![[208E21.png]]",
@@ -2193,8 +2197,14 @@ export const backlinks = {
         "2022-08-04": "### [[CELLO (Product)]]",
         "CELLO": "- [[CELLO (Product)]]"
     },
+    "Proof of Concept": {
+        "2022-07-06": "- Implemented the Technical [[Proof of Concept]] and posted here: [[Proof of Concept|PoC]] that two [[WorkerDOM]] upgraded threads ...",
+        "2022-08-04": "- Intermediary [[Proof of Concept|PoC]] Product: [[ULLO]]",
+        "ULLO": "- [[Proof of Concept|PoC]] of [[SwiftUI]] Photo Widget App",
+        "하늘땅사람": "다음과 같이 기술 [[Proof of Concept|개념 증명]] 완료."
+    },
     "ULLO": {
-        "2022-08-04": "- Intermediary PoC Product: [[ULLO]]",
+        "2022-08-04": "- Intermediary Proof of Concept|PoC Product: [[ULLO]]",
         "CELLO": "- [[ULLO]]"
     },
     "Transient Notes": {

@@ -627,6 +627,7 @@ export const filenames = {
     "Project Alter": "786F87",
     "Project PEOPLE": "3134AC",
     "Prompt Engineering": "6246E7",
+    "Proof of Concept": "28B148",
     "Propagation Delay": "3D9F99",
     "Protocol Wars": "6CC3EF",
     "Prototyper": "340292",
