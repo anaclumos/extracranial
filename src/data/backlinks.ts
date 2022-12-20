@@ -525,6 +525,7 @@ export const backlinks = {
         "2022-12-09": "- [[Matt Rickard]]: [[Elo Rating]]",
         "Decoy Effect": "## [[Matt Rickard]]",
         "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
+        "The Architecture of Mastodon": "## [[Matt Rickard]]",
         "eBPF": "- [[Matt Rickard]]"
     },
     "The Demise of Chatbots in 2017": {
@@ -579,6 +580,7 @@ export const backlinks = {
         "2022-12-07": "## [[Hacker News|HN]]",
         "2022-12-09": "## [[Hacker News|HN]]",
         "2022-12-17": "## [[Hacker News|HN]]",
+        "2022-12-21": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -846,7 +848,8 @@ export const backlinks = {
     },
     "Kubernetes": {
         "2022-07-14": "... and more. One wrong info that I found: Uber didn't make [[Kubernetes]]. [[Google]] did.",
-        "How to Build Software like an SRE": "- use [[Kubernetes]]"
+        "How to Build Software like an SRE": "- use [[Kubernetes]]",
+        "The Architecture of Mastodon": "\t- All of these make developer workflow harder. Containerization, [[Kubernetes]], and modern [[front-end]] stacks are challenging to work with in Rails."
     },
     "Fiercely Overpriced": {
         "2022-07-14": "- Moved to [[Fiercely Overpriced]]",
@@ -1334,7 +1337,7 @@ export const backlinks = {
         "Better Obsidian": "## Extension Ideas for [[Obsidian]]",
         "Developing Review Notes for Obsidian": "이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 API 문서를 탐독하면서 이런 저런 발견 ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application ...",
-        "Letter to the Heptabase Team on 2022-10-11": "... the web. My entire research page (https://cho.sh/r/) runs on heavily customized [[Obsidian]], Nota, and Docusaurus, serving as my daily note-taking platform after figuring ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... the web. My entire research page (https://cho.sh/r/) runs on heavily customized [[Obsidian]], Nota, and [[Docusaurus]], serving as my daily note-taking platform after figuring ...",
         "Nota": "Awesome alternative to [[Obsidian]].",
         "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]",
         "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer",
@@ -1759,7 +1762,8 @@ export const backlinks = {
         "2022-12-09": "- [[The Dilemmas of Technopreneur]]"
     },
     "Survivorship Biased": {
-        "2022-12-09": "- [[Survivorship Biased]]"
+        "2022-12-09": "- [[Survivorship Biased]]",
+        "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]"
     },
     "Captivating Products": {
         "2022-12-09": "- [[Captivating Products]]"
@@ -1854,7 +1858,8 @@ export const backlinks = {
         "2022-11-07": "- [[Text Graphics]]"
     },
     "Mastodon": {
-        "2022-11-07": "- [[Mastodon]]"
+        "2022-11-07": "- [[Mastodon]]",
+        "2022-12-21": "- [[Mastodon]]"
     },
     "Collecting Data": {
         "2022-11-07": "- [[Collecting Data]]"
@@ -2448,6 +2453,14 @@ export const backlinks = {
     "elevatorpitch.com": {
         "2022-12-20": "- [[elevatorpitch.com]]"
     },
+    "잡스와 생존 편향": {
+        "2019-10-13": "- [[잡스와 생존 편향]]",
+        "2022-12-20": "- [[잡스와 생존 편향]]",
+        "2022-12-21": "- [[잡스와 생존 편향]]"
+    },
+    "E13484.png": {
+        "2022-12-20": "![[E13484.png]]"
+    },
     "0021 Merge Two Sorted Lists": {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
         "Coding Tests": "- [x] [[0021 Merge Two Sorted Lists]]"
@@ -2536,6 +2549,9 @@ export const backlinks = {
     },
     "Substack is the new Medium": {
         "2022-10-24": "- [[Substack is the new Medium]]"
+    },
+    "Pivot": {
+        "2022-12-21": "- [[Pivot]]"
     },
     "0235 LCA of a Binary Search Tree": {
         "2022-09-25": "- [[0235 LCA of a Binary Search Tree]]",
@@ -2709,7 +2725,10 @@ export const backlinks = {
     },
     "Docusaurus": {
         "Better Docusaurus": "Some things that I currently don't like about [[Docusaurus]]:",
-        "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks."
+        "Letter to Mr. Stephan Ango on 2022-10-19": "... have some personal Python scripts that convert Obsidian MD files to [[Docusaurus]] MD files since they have slightly different specs.",
+        "Letter to the Heptabase Team on 2022-10-11": "... entire research page (https://cho.sh/r/) runs on heavily customized Obsidian, Nota, and [[Docusaurus]], serving as my daily note-taking platform after figuring out Logseq Publish, ...",
+        "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
+        "Redirect": "## Redirects in [[Docusaurus]]"
     },
     "Python": {
         "0001 Two Sum": "I used [[Python]] Dictionary to store complementing values. Python Dictionary will have $O(1)$ access ...",
@@ -2912,6 +2931,9 @@ export const backlinks = {
         "Meltdown and Spectre": "- [[Spectre]] makes the CPU jump to the wrong place and runs instructions ...",
         "SharedArrayBuffer": "The [[Spectre]] vulnerability seized ShardArrayBuffer in 2018, and since 2020, ShardArrayBuffer requires a ...",
         "WorkerDOM": "WorkerDOM doesn't use SharedArrayBuffer, most likely to [[Spectre]]."
+    },
+    "2019-10-13": {
+        "잡스와 생존 편향": "[[2019-10-13]]의 에세이."
     },
     "2022-09-04": {
         "0242 Valid Anagram": "Solved at: [[2022-09-04]]",
@@ -3614,6 +3636,9 @@ export const backlinks = {
         "0199 Binary Tree Right Side View": "Solved at: [[2022-08-27]]",
         "1448 Count Good Nodes in Binary Tree": "Solved at: [[2022-08-27]]"
     },
+    "front-end": {
+        "The Architecture of Mastodon": "... All of these make developer workflow harder. Containerization, Kubernetes, and modern [[front-end]] stacks are challenging to work with in Rails."
+    },
     "2021-06-23": {
         "개성은 자연스레 주어지지 않는다": "— [[2021-06-23]]에 작성된 기록 중 발췌."
     },
@@ -3993,6 +4018,9 @@ export const backlinks = {
     "33434F.png": {
         "AMP Email": "![[33434F.png]]"
     },
+    "docusaurus": {
+        "Letter to the Heptabase Team on 2022-10-11": "... in LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across Heptabase and wanted to speak ..."
+    },
     "277486.gif": {
         "Link Preview for Arc": "![[277486.gif]]"
     },
@@ -4039,6 +4067,10 @@ export const backlinks = {
     },
     "Techs Actually Simple": {
         "Matt Rickard": "- [[Techs Actually Simple]]"
+    },
+    "The Architecture of Mastodon": {
+        "Mastodon": "- [[The Architecture of Mastodon]]",
+        "Matt Rickard": "- [[The Architecture of Mastodon]]"
     },
     "scheduler": {
         "Preemptive Multitasking": "... interrupt mechanism, which suspends the currently executing process and invokes a [[scheduler]] to determine which process should execute next. Therefore, all processes will ..."

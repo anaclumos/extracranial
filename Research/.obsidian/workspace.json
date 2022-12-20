@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "412a28ceea600b1a",
+        "id": "25496a78b89e1f18",
         "type": "tabs",
         "children": [
           {
-            "id": "b019431cbcd0eb20",
+            "id": "1dba2268ea0d2f73",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -61,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -108,17 +107,17 @@
     "width": 415.5,
     "collapsed": true
   },
-  "active": "b019431cbcd0eb20",
+  "active": "1dba2268ea0d2f73",
   "lastOpenFiles": [
-    "pages/하늘땅사람.md",
+    "journals/2019-03-04.md",
+    "journals/2022-12-21.md",
+    "pages/Mastodon.md",
+    "pages/The Architecture of Mastodon.md",
+    "pages/잡스와 생존 편향.md",
+    "pages/Matt Rickard.md",
+    "pages/Kubernetes.md",
     "journals/2022-12-20.md",
-    "pages/Project.md",
-    "pages/Someday.md",
-    "pages/Idea Bank.md",
-    "pages/elevatorpitch.com.md",
-    "pages/postcredit.info.md",
-    "pages/간판법.md",
-    "pages/Neo Korea.md",
-    "pages/Unsemantic.md"
+    "journals/2022-12-19.md",
+    "pages/Better Docusaurus.md"
   ]
 }
