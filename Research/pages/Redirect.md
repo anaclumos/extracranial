@@ -52,7 +52,7 @@ slug: '/93024C'
 }
 ```
 
-## Redirects in Docusaurus
+## Redirects in [[Docusaurus]]
 
 ```json
 [
