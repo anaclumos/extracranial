@@ -684,16 +684,20 @@ export const backlinks = {
         "Timebelt": "- Someday [[Project]]",
         "TossFace Playground": "- [[Project]] [[Done]]",
         "Vannevar Bush": "... in radar and the initiation and early administration of the Manhattan [[Project]]. He emphasized the importance of scientific research to national security and ...",
+        "elevatorpitch.com": "- Someday [[Project]]",
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 `http` 모듈 (당연히 `express` 모듈도) 없이 `http` 서버를 구현하는 Project|프로젝트가 ...",
         "iiframe": "- Someday [[Project]]",
+        "postcredit.info": "- Someday [[Project]]",
         "sem.sh": "- Someday [[Project]]",
+        "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> 그러나 누군가가 온갖 어려움을 무릅쓰고 반드시 성취해야하는 [[Project|프로젝트]]이다.",
         "두 번째 뇌": "나는 더 간단하게 [[Project|프로젝트]], 연구, 그리고 독서록으로 분리했다.",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "하지만 이렇게 떠나보낼 수는 없다. 최근 알게 된 [[Project|프로젝트]] 중 라즈베리 파이로 스마트 오디오 시스템을 구축하는 Project|프로젝트가 있었다. 블루투스, 에어플레이, ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 여러 이유로 못하는 팀도 있다. 물론 e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, 품질 관리) 팀 같은 경우에는 e2e ...",
         "사회과부도": "- Someday [[Project]]",
         "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
         "조선왕조실록": "- Someday [[Project]]",
-        "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다."
+        "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다.",
+        "하늘땅사람": "키보드를 제작하는 [[Project|프로젝트]]."
     },
     "2022년 11월 한 달간 일기 쓰기": {
         "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
@@ -1140,7 +1144,8 @@ export const backlinks = {
     "Screenshot as an API": {
         "2022-10-03": "- Moved to [[Screenshot as an API]]",
         "2022-10-10": "- PDF processing and analysis with open-source tools. This looks terrifying. [[Screenshot as an API]] all the way!",
-        "Matt Rickard": "- [[Screenshot as an API]]"
+        "Matt Rickard": "- [[Screenshot as an API]]",
+        "Unsemantic": "Potential link to [[Screenshot as an API]]"
     },
     "My Raycast Wrapped of 2022": {
         "2022-12-17": "- [[My Raycast Wrapped of 2022]]"
@@ -1717,7 +1722,9 @@ export const backlinks = {
         "2022-11-20": "- [[Diminishing Cost of Service]]"
     },
     "하늘땅사람": {
-        "2022-12-19": "### [[하늘땅사람]]"
+        "2022-12-19": "### [[하늘땅사람]]",
+        "2022-12-20": "- [[하늘땅사람]]",
+        "Project": "- [[하늘땅사람]]"
     },
     "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
         "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
@@ -1951,7 +1958,9 @@ export const backlinks = {
         "Separation of Computer Scientists and Computer Technologists": "- [[Someday]] [[Project]]",
         "The New Era of macOS Applications": "- [[Someday]] [[Project]]",
         "Timebelt": "- [[Someday]] [[Project]]",
+        "elevatorpitch.com": "- [[Someday]] [[Project]]",
         "iiframe": "- [[Someday]] [[Project]]",
+        "postcredit.info": "- [[Someday]] [[Project]]",
         "sem.sh": "- [[Someday]] [[Project]]",
         "사회과부도": "- [[Someday]] [[Project]]",
         "조선왕조실록": "- [[Someday]] [[Project]]"
@@ -2426,6 +2435,18 @@ export const backlinks = {
     },
     "Linear README": {
         "2022-10-14": "  - Especially [[Linear README]]"
+    },
+    "Unsemantic": {
+        "2022-12-20": "- [[Unsemantic]]"
+    },
+    "Neo Korea": {
+        "2022-12-20": "- [[Neo Korea]]"
+    },
+    "postcredit.info": {
+        "2022-12-20": "- [[postcredit.info]]"
+    },
+    "elevatorpitch.com": {
+        "2022-12-20": "- [[elevatorpitch.com]]"
     },
     "0021 Merge Two Sorted Lists": {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
@@ -3351,6 +3372,9 @@ export const backlinks = {
         "0215 Kth Largest Element in an Array": "Solved at: [[2022-08-30]]",
         "1046 Last Stone Weight": "Solved at: [[2022-08-30]]"
     },
+    "간판법": {
+        "Neo Korea": "- [[간판법]]"
+    },
     "Metapage": {
         "Project": "This is a [[Metapage]] for my projects.",
         "Readings": "This is a [[Metapage|meta-page]] that collects my to-read lists."
@@ -3676,6 +3700,12 @@ export const backlinks = {
     },
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]"
+    },
+    "2022-12-19": {
+        "하늘땅사람": "## [[2022-12-19]]"
+    },
+    "2022-12-20": {
+        "하늘땅사람": "## [[2022-12-20]]"
     },
     "ip": {
         "http 없는 http 서버 만들기": "`http` 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ..."
