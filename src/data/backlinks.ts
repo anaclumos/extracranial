@@ -609,7 +609,7 @@ export const backlinks = {
         "FFMpeg for iPad": "- There is no [[FFMpeg]] equivalent for iPads!"
     },
     "Git": {
-        "2022-11-28": "- [[Git]]: Git Notes: git's coolest, most unloved­ feature - Tyler Cipriani",
+        "2022-11-28": "- [[Git]]: Git Notes: git's coolest, most unloved feature - Tyler Cipriani",
         "How to Build Software like an SRE": "- use [[Git]]",
         "Techs Actually Simple": "- Yet [[Git]]'s object model is pretty simple - content-addressed blobs (file-like), trees (folder-like), ...",
         "UUIDs are Awesome": "... even if a hash collision occurs, all records remain in the [[Git]] history, so we don't need any collision checks.",
@@ -849,7 +849,7 @@ export const backlinks = {
     "Kubernetes": {
         "2022-07-14": "... and more. One wrong info that I found: Uber didn't make [[Kubernetes]]. [[Google]] did.",
         "How to Build Software like an SRE": "- use [[Kubernetes]]",
-        "The Architecture of Mastodon": "\t- All of these make developer workflow harder. Containerization, [[Kubernetes]], and modern [[front-end]] stacks are challenging to work with in Rails."
+        "The Architecture of Mastodon": "  - All of these make developer workflow harder. Containerization, [[Kubernetes]], and modern [[front-end]] stacks are challenging to work with in Rails."
     },
     "Fiercely Overpriced": {
         "2022-07-14": "- Moved to [[Fiercely Overpriced]]",
@@ -923,7 +923,8 @@ export const backlinks = {
     },
     "Readings": {
         "2022-09-07": "- [[Readings]]",
-        "2022-12-04": "- [[Readings]]"
+        "2022-12-04": "- [[Readings]]",
+        "2022-12-21": "- [[Readings]]: [[이 땅에 태어나서]], [[하얼빈]]"
     },
     "Tools for Thought": {
         "2022-07-07": "## Personal Notes on [[Tools for Thought]] [[Software as a Service]]",
@@ -2483,7 +2484,7 @@ export const backlinks = {
     },
     "ActivityPub": {
         "2022-10-10": "- [[ActivityPub]]",
-        "Mastodon": "> Mastodon is a free, open-source social network server based on [[ActivityPub]] where users can follow friends and discover new ones. On Mastodon, ..."
+        "Mastodon": "> Mastodon is a free, open-source social network server based on [[ActivityPub]] where users can follow friends and discover new ones. On Mastodon, ..."
     },
     "Infinite Canvas": {
         "2022-10-10": "- [[Infinite Canvas]]",
@@ -2552,6 +2553,14 @@ export const backlinks = {
     },
     "Pivot": {
         "2022-12-21": "- [[Pivot]]"
+    },
+    "이 땅에 태어나서": {
+        "2022-12-21": "- Readings: [[이 땅에 태어나서]], [[하얼빈]]",
+        "Readings": "- [ ] [[이 땅에 태어나서]]"
+    },
+    "하얼빈": {
+        "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
+        "Readings": "- [ ] [[하얼빈]]"
     },
     "0235 LCA of a Binary Search Tree": {
         "2022-09-25": "- [[0235 LCA of a Binary Search Tree]]",
@@ -2701,7 +2710,7 @@ export const backlinks = {
     },
     "UIUX": {
         "Andy Matuschak": "- ex-Apple [[UIUX|UI]]-Kit developer",
-        "ChatGPT": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Turned out to be a chat [[UIUX|UI]] that got people to start tinkering with text.</p>&mdash; Nat Friedman (@natfriedman) ...",
+        "ChatGPT": "> Turned out to be a chat [[UIUX|UI]] that got people to start tinkering with text.",
         "Confectionery": "> A minimalistic browser without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty of your designs, not the browser ...",
         "Diagram Labs": "- [[UIUX]]",
         "Downloading Any Recordings from Zoom": "... We have reproduced the behavior you have reported. However, while this [[UIUX|UI]] does not expose the download URL for recordings which have opted ...",
@@ -3408,6 +3417,9 @@ export const backlinks = {
         "Readings": "- [x] [[Atomic Habits]]",
         "水適穿石": "- [[Atomic Habits]]"
     },
+    "유난한 도전": {
+        "Readings": "- [ ] [[유난한 도전]]"
+    },
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]"
     },
@@ -3695,6 +3707,7 @@ export const backlinks = {
         "Person E7CFC5": "A lot of smart [[people]]."
     },
     "Done": {
+        "Dynamic Island on the Web": "- [[Done]] [[Project]]",
         "TossFace Playground": "- Project [[Done]]"
     },
     "이루다": {

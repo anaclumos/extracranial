@@ -35,14 +35,14 @@ Sunghyun Cho
 
 ### Implementation Suggestion
 
-- CLIP inference server + Library that wraps an image component (raw `img` or `next/image`)
+- CLIP inference server + Library that wraps an image component (raw `img` or `next/image`)
 
 ```js
 function AltTextImage() {
 ...hash image on the client
 ...check if a hash exists on AltTextDB
 ...if it does, set alt text
-...if it doesn't, upload the image and the alt text will be returned (hash + maybe image is stored in DB)
+...if it doesn't, upload the image and the alt text will be returned (hash + maybe image is stored in DB)
 }
 ```
 

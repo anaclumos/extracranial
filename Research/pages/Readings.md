@@ -16,7 +16,9 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 ## Reading
 
 - [ ] Exhalation
-- [ ] 유난한 도전
+- [ ] [[유난한 도전]]
+- [ ] [[하얼빈]]
+- [ ] [[이 땅에 태어나서]]
 
 ## To-read
 
@@ -36,4 +38,4 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 
 ## References
 
-- [The Best Books Apps and Products of 2022 | Product Hunt](https://www.producthunt.com/topics/books?order=most-upvoted)
+- [The Best Books Apps and Products of 2022](https://www.producthunt.com/topics/books?order=most-upvoted)
