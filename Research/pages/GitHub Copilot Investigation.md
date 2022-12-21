@@ -10,6 +10,6 @@ slug: '/578128'
 
 - How it is going:
   - [GitHub Copilot investigation · Joseph Saveri Law Firm & Matthew Butterick](https://githubcopilotinvestigation.com/)
-  - [GitHub Copilot litigation · Joseph Saveri Law Firm & Matthew Butterick](https://githubcopilotlitigation.com/)
+  - [GitHub Copilot litigation · Joseph Saveri Law Firm & Matthew Butterick](https://githubcopilotlitigation.com/)
   - [[AIs.txt]]
 - Very similar to [[이루다]] in terms that it collected & spitted out the same information
