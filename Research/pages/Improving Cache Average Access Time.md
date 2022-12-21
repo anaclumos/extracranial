@@ -12,7 +12,7 @@ slug: '/A333C3'
 - Larger cache size reduces capacity misses
 - High associativity reduces conflict misses. At reasonable cache sizes, associativity above $K=2$ or $4-way$ does not improve much.
 
-![Smith, Allan J.  Disk Cache – Miss Ratio Analysis and Design Considerations. 1985](../assets/F22233.png)
+![Smith, Allan J.  Disk Cache – Miss Ratio Analysis and Design Considerations. 1985](../assets/F22233.png)
 
 ## Hit Time
 
