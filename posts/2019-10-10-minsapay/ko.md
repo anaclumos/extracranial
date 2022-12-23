@@ -16,8 +16,8 @@ slug: '/3955DC'
 
 민사페이는 민사고 여름 축제를 위해 제작된 간편 결제 시스템이다. 학생증의 RFID 칩을 사용하여 미리 학생증과 연동된 계정에 현금을 충전해서 사용한다. 축제가 끝난 뒤 미사용 금액은 환불이 가능하다. 축제 당일 실제 서버에서 사용된 모든 코드와 익명 결제 기록은 GitHub에서 확인할 수 있다.
 
-- [GitHub - minsapay/server: Payment server & web app for KMLA Minjok Festival (Summer Festival)](https://github.com/minsapay/server)
-- [GitHub - minsapay/transaction-data-2019: Transaction Data of MinsaPay 2019](https://github.com/minsapay/transaction-data-2019)
+- [minsapay/server: Payment server & web app for KMLA Minjok Festival (Summer Festival)](https://github.com/minsapay/server)
+- [minsapay/transaction-data-2019: Transaction Data of MinsaPay 2019](https://github.com/minsapay/transaction-data-2019)
 
 ## 고등학교 축제에 간편 결제가 왜 필요한가?
 
