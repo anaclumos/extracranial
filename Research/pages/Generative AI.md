@@ -8,4 +8,7 @@ Instead of guessing the correct answer, AI creates something from [[Prompt Engin
 Will their thrive continue?
 Or would they make a similar trajectory like [[The Demise of Chatbots in 2017]]?
 
+## Use Cases
+
 - [[Search Engine using Generative AI]]
+- [[Tome]]
