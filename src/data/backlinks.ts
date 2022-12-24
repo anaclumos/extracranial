@@ -415,7 +415,8 @@ export const backlinks = {
     },
     "GA": {
         "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview",
-        "2022-12-06": "- [[GA]]: [[Nigh]]"
+        "2022-12-06": "- [[GA]]: [[Nigh]]",
+        "2022-12-24": "- Rewind is [[GA]]"
     },
     "Nigh": {
         "2022-12-06": "- GA: [[Nigh]]",
@@ -442,7 +443,8 @@ export const backlinks = {
     },
     "Jetski": {
         "2022-10-31": "- [[Jetski]]",
-        "2022-12-06": "- [[Jetski]]"
+        "2022-12-06": "- [[Jetski]]",
+        "2022-12-24": "- [[Jetski]]"
     },
     "Link Preview for Arc": {
         "2022-12-06": "- [[Link Preview for Arc]]"
@@ -524,6 +526,8 @@ export const backlinks = {
         "2022-11-28": "- [[Matt Rickard]]: [[The Demise of Chatbots in 2017]], [[Generative Databases]]",
         "2022-12-09": "- [[Matt Rickard]]: [[Elo Rating]]",
         "Decoy Effect": "## [[Matt Rickard]]",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "Dear Mr. [[Matt Rickard|Rickard]],",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "Dear Mr. [[Matt Rickard|Rickard]],",
         "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
         "The Architecture of Mastodon": "## [[Matt Rickard]]",
         "eBPF": "- [[Matt Rickard]]"
@@ -745,7 +749,8 @@ export const backlinks = {
         "2022-12-12": "- [[Synonym-based Fuzzy Search]]"
     },
     "Text-based Presentations": {
-        "2022-11-08": "- [[Text-based Presentations]]"
+        "2022-11-08": "- [[Text-based Presentations]]",
+        "Tome": "It's like [[Text-based Presentations]], but AI will draw & layout stuff for you!"
     },
     "Decoy Effect": {
         "2022-11-08": "- [[Decoy Effect]]"
@@ -830,6 +835,7 @@ export const backlinks = {
         "2022-12-02": "- [[ChatGPT]]",
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
+        "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
         "Product-Market Fit": "... continuously work on to remain competitive and thriving in the market. [[ChatGPT]]",
         "Readwise Reader": "- uses [[ChatGPT]]",
         "Search Engine using Generative AI": "## On [[ChatGPT]]",
@@ -924,7 +930,8 @@ export const backlinks = {
     "Readings": {
         "2022-09-07": "- [[Readings]]",
         "2022-12-04": "- [[Readings]]",
-        "2022-12-21": "- [[Readings]]: [[이 땅에 태어나서]], [[하얼빈]]"
+        "2022-12-21": "- [[Readings]]: [[이 땅에 태어나서]], [[하얼빈]]",
+        "2022-12-24": "- [[Readings]]"
     },
     "Tools for Thought": {
         "2022-07-07": "## Personal Notes on [[Tools for Thought]] [[Software as a Service]]",
@@ -933,6 +940,7 @@ export const backlinks = {
         "2022-10-23": "- [[Tools for Thought]]: usememos/memos: An open-source, self-hosted knowledge base that works with an SQLite ...",
         "2022-11-11": "- Lazy: [[Tools for Thought]]",
         "2022-11-14": "- [[Tools for Thought]]",
+        "Conversational AI Tools for Thought": "- ChatGPT and Generative AI are not exactly [[Tools for Thought]] for now. However, it has the potential to be one. See ...",
         "Extracranial": "... function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use Docusaurus and Obsidian. ...",
         "Handwriting Tools for Thoughts": "- A specific [[Tools for Thought]] with handwriting.",
         "PKM": "Check [[Tools for Thought]] for PKM tools in the market.",
@@ -1176,10 +1184,13 @@ export const backlinks = {
     },
     "Generative AI": {
         "2022-12-17": "... the notion of \"feasibility\" changed once and for all as the [[Generative AI]] emerged?",
+        "2022-12-24": "- [[Generative AI]]",
         "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
+        "Conversational AI Tools for Thought": "- ChatGPT and [[Generative AI]] are not exactly [[Tools for Thought]] for now. However, it has ...",
         "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value ...",
         "Search Engine using Generative AI": "- [[Generative AI]]",
-        "Search in a Latent Space": "- [[Generative AI]]"
+        "Search in a Latent Space": "- [[Generative AI]]",
+        "Tome": "Create presentation decks with [[Generative AI]]."
     },
     "FIRE Engine": {
         "2022-07-18": "- [[FIRE Engine]]",
@@ -1803,6 +1814,12 @@ export const backlinks = {
     "584231.png": {
         "2022-08-03": "![[584231.png]]"
     },
+    "SMIME": {
+        "2022-08-03": "### [[SMIME|S/MIME]] Certificates",
+        "2022-12-21": "- [[SMIME]]",
+        "Adding a Verified Mark on Apple Mail & Gmail": "- Use a [[SMIME|S/MIME]] certificate to sign an email",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... API (as in doing slightly more than Nodemailer or EmailEngine, i.e., [[SMIME]] or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just ..."
+    },
     "44E269.jpeg": {
         "2022-08-03": "![[44E269.jpeg]]",
         "Adding a Verified Mark on Apple Mail & Gmail": "![[44E269.jpeg]]"
@@ -2295,6 +2312,8 @@ export const backlinks = {
     "Search Engine Indexing Your Life": {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]",
         "2022-11-01": "- [[Search Engine Indexing Your Life]]",
+        "2022-12-24": "- [[Search Engine Indexing Your Life]]",
+        "Rewind": "- Rewind is a [[Search Engine Indexing Your Life]].",
         "Search-based Tools for Thought": "- [[Search Engine Indexing Your Life]]",
         "Thesephist Work Case Study": "### Monocle: [[Search Engine Indexing Your Life]]"
     },
@@ -2375,6 +2394,55 @@ export const backlinks = {
         "2019-03-04": "- [[코드클럽]]",
         "2022-12-10": "- [[코드클럽]]"
     },
+    "In-house and Free Market": {
+        "2022-12-24": "- [[In-house and Free Market]]: Can independent scientists ever win again?",
+        "I travel the World Wide Web": "- [[In-house and Free Market]]"
+    },
+    "SHAP": {
+        "2022-12-24": "- [[SHAP]]"
+    },
+    "Conversational AI Tools for Thought": {
+        "2022-12-04": "- Elicit: The AI Research Assistant: [[Conversational AI Tools for Thought]]",
+        "2022-12-24": "- [[Conversational AI Tools for Thought]]: Poe beta test starting - Quora",
+        "Plateau of Latent Potential": "It could be a form of Extracranial, a Memex, or even [[Conversational AI Tools for Thought]].",
+        "Synthote": "- [[Conversational AI Tools for Thought]]",
+        "Tools for Thought": "- [[Conversational AI Tools for Thought]]"
+    },
+    "Tome": {
+        "2022-12-24": "- [[Tome]]",
+        "Generative AI": "- [[Tome]]"
+    },
+    "Rewind": {
+        "2022-12-24": "- [[Rewind]] is [[GA]]",
+        "Search Engine Indexing Your Life": "## [[Rewind]]"
+    },
+    "Letter to Mr. Matt Rickard on 2022-12-24": {
+        "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]"
+    },
+    "UIUX": {
+        "2022-12-24": "### [[UIUX|UI]] Design Example By sulley (@svlleyy)",
+        "Andy Matuschak": "- ex-Apple [[UIUX|UI]]-Kit developer",
+        "ChatGPT": "> Turned out to be a chat [[UIUX|UI]] that got people to start tinkering with text.",
+        "Confectionery": "> A minimalistic browser without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty of your designs, not the browser ...",
+        "Diagram Labs": "- [[UIUX]]",
+        "Downloading Any Recordings from Zoom": "... We have reproduced the behavior you have reported. However, while this [[UIUX|UI]] does not expose the download URL for recordings which have opted ...",
+        "Dynamic Viewport Units": "... at 60fps. In all browsers updating is throttled as the UA [[UIUX|UI]] expands or retracts. Some browsers even debounce updating entirely depending on ...",
+        "Magician": "- an [[UIUX]] experiment.",
+        "Modern MacPaint": "- an [[UIUX]] experiment.",
+        "Mr. Doob": "- an [[UIUX]] experiment.",
+        "Person 1E6ABA": "Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media researcher, and engineering intern.",
+        "Rauno": "## Miscellany related to [[UIUX|UI]]",
+        "React": "... and open-source Front-end|front-end JavaScript library for building user interfaces based on [[UIUX|UI]] components. It is maintained by Meta (formerly Facebook) and a community ...",
+        "React Native": "> React Native is an open-source [[UIUX|UI]] software framework created by Meta Platforms, Inc. It is used to ...",
+        "Simulated Annealing for Designs": "- we ditched all the lights, shadows, and textures in our [[UIUX|UI]] designs. And now we are slowly adding them back. This is ...",
+        "Svelte": "... by the compiler, inserting calls to automatically recompute data and re-render [[UIUX|UI]] elements when the data they depend on is modified. This also ...",
+        "Toss Product Sans": "- 퍼센트, 쉼표, 더하기, 빼기, 화살표 등 [[UIUX|UI]] 요소로 활용되는 기호들의 가독성을 높여, 넓은 여백으로 디자인했죠. 또한 다른 글자와의 ...",
+        "UI AI": "- an [[UIUX]] experiment.",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 반영할 수 있나요?"
+    },
+    "902071.png": {
+        "2022-12-24": "> ![[902071.png]]"
+    },
     "Person E7CFC5": {
         "2022-09-14": "  - [[Person E7CFC5]]",
         "Project PEOPLE": "- [[Person E7CFC5]]"
@@ -2434,7 +2502,8 @@ export const backlinks = {
         "2022-10-14": "![[D8D74F.png]]"
     },
     "BIMI": {
-        "2022-10-14": "- [[BIMI]]"
+        "2022-10-14": "- [[BIMI]]",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... i.e., SMIME or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just like what Vercel did to Heroku."
     },
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on my Twitter threads."
@@ -2517,18 +2586,13 @@ export const backlinks = {
     "XTML": {
         "2022-12-04": "- [[XTML]]"
     },
-    "Conversational AI Tools for Thought": {
-        "2022-12-04": "- Elicit: The AI Research Assistant: [[Conversational AI Tools for Thought]]",
-        "Plateau of Latent Potential": "It could be a form of Extracranial, a Memex, or even [[Conversational AI Tools for Thought]].",
-        "Synthote": "- [[Conversational AI Tools for Thought]]",
-        "Tools for Thought": "- [[Conversational AI Tools for Thought]]"
-    },
     "Plateau of Latent Potential": {
         "2022-12-04": "- [[Plateau of Latent Potential]] and [[Search in a Latent Space]]",
         "Atomic Habits": "- [[Plateau of Latent Potential]]: Sounds astoundingly similar to [[Search in a Latent Space]]"
     },
     "Search Engine using Generative AI": {
         "2022-12-04": "- [[Search Engine using Generative AI]]",
+        "Conversational AI Tools for Thought": "... for now. However, it has the potential to be one. See [[Search Engine using Generative AI]]",
         "Generative AI": "- [[Search Engine using Generative AI]]"
     },
     "5BE46A.png": {
@@ -2561,6 +2625,9 @@ export const backlinks = {
     "하얼빈": {
         "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
         "Readings": "- [ ] [[하얼빈]]"
+    },
+    "Letter to Mr. Matt Rickard on 2022-12-21": {
+        "2022-12-21": "- [[Letter to Mr. Matt Rickard on 2022-12-21]]"
     },
     "0235 LCA of a Binary Search Tree": {
         "2022-09-25": "- [[0235 LCA of a Binary Search Tree]]",
@@ -2707,26 +2774,6 @@ export const backlinks = {
     "Swift": {
         "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon (CPU)]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]"
-    },
-    "UIUX": {
-        "Andy Matuschak": "- ex-Apple [[UIUX|UI]]-Kit developer",
-        "ChatGPT": "> Turned out to be a chat [[UIUX|UI]] that got people to start tinkering with text.",
-        "Confectionery": "> A minimalistic browser without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty of your designs, not the browser ...",
-        "Diagram Labs": "- [[UIUX]]",
-        "Downloading Any Recordings from Zoom": "... We have reproduced the behavior you have reported. However, while this [[UIUX|UI]] does not expose the download URL for recordings which have opted ...",
-        "Dynamic Viewport Units": "... at 60fps. In all browsers updating is throttled as the UA [[UIUX|UI]] expands or retracts. Some browsers even debounce updating entirely depending on ...",
-        "Magician": "- an [[UIUX]] experiment.",
-        "Modern MacPaint": "- an [[UIUX]] experiment.",
-        "Mr. Doob": "- an [[UIUX]] experiment.",
-        "Person 1E6ABA": "Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media researcher, and engineering intern.",
-        "Rauno": "## Miscellany related to [[UIUX|UI]]",
-        "React": "... and open-source Front-end|front-end JavaScript library for building user interfaces based on [[UIUX|UI]] components. It is maintained by Meta (formerly Facebook) and a community ...",
-        "React Native": "> React Native is an open-source [[UIUX|UI]] software framework created by Meta Platforms, Inc. It is used to ...",
-        "Simulated Annealing for Designs": "- we ditched all the lights, shadows, and textures in our [[UIUX|UI]] designs. And now we are slowly adding them back. This is ...",
-        "Svelte": "... by the compiler, inserting calls to automatically recompute data and re-render [[UIUX|UI]] elements when the data they depend on is modified. This also ...",
-        "Toss Product Sans": "- 퍼센트, 쉼표, 더하기, 빼기, 화살표 등 [[UIUX|UI]] 요소로 활용되는 기호들의 가독성을 높여, 넓은 여백으로 디자인했죠. 또한 다른 글자와의 ...",
-        "UI AI": "- an [[UIUX]] experiment.",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 반영할 수 있나요?"
     },
     "301024.png": {
         "Paracosm": "![[301024.png]]",
@@ -3011,7 +3058,17 @@ export const backlinks = {
         "Search Engine using Generative AI": "![[921CC5.png]]"
     },
     "4B9CF4.png": {
+        "Rewind": "![[4B9CF4.png]]",
         "Search Engine Indexing Your Life": "![[4B9CF4.png]]"
+    },
+    "DA5BB8.png": {
+        "Search Engine Indexing Your Life": "![[DA5BB8.png]]"
+    },
+    "EFB9D9.png": {
+        "Search Engine Indexing Your Life": "![[EFB9D9.png]]"
+    },
+    "9CCA89.png": {
+        "Search Engine Indexing Your Life": "![[9CCA89.png]]"
     },
     "2022-11-23": {
         "Person 1E6ABA": "- Interviewed on [[2022-11-23]]"
@@ -3350,6 +3407,14 @@ export const backlinks = {
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
+    "The Architecture of Mastodon": {
+        "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
+        "Mastodon": "- [[The Architecture of Mastodon]]",
+        "Matt Rickard": "- [[The Architecture of Mastodon]]"
+    },
+    "2022-12-21": {
+        "Letter to Mr. Matt Rickard on 2022-12-21": "## Reply on [[2022-12-21]]"
+    },
     "C42C4E.png": {
         "Pretendard": "![[C42C4E.png]]",
         "San Francisco": "![[C42C4E.png]]"
@@ -3423,11 +3488,11 @@ export const backlinks = {
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]"
     },
+    "2022-12-24": {
+        "In-house and Free Market": "- [[2022-12-24]]: Can independent scientists ever win again?"
+    },
     "file descriptor": {
         "Handling files in Unix": "- `open()` returns a [[file descriptor]]"
-    },
-    "In-house and Free Market": {
-        "I travel the World Wide Web": "- [[In-house and Free Market]]"
     },
     "DCF75C.png": {
         "Modern MacPaint": "![[DCF75C.png]]"
@@ -4081,10 +4146,6 @@ export const backlinks = {
     "Techs Actually Simple": {
         "Matt Rickard": "- [[Techs Actually Simple]]"
     },
-    "The Architecture of Mastodon": {
-        "Mastodon": "- [[The Architecture of Mastodon]]",
-        "Matt Rickard": "- [[The Architecture of Mastodon]]"
-    },
     "scheduler": {
         "Preemptive Multitasking": "... interrupt mechanism, which suspends the currently executing process and invokes a [[scheduler]] to determine which process should execute next. Therefore, all processes will ..."
     },
@@ -4127,6 +4188,9 @@ export const backlinks = {
     },
     "C353BE.png": {
         "Animations": "![[C353BE.png]]"
+    },
+    "D11FF4.png": {
+        "SHAP": "![[D11FF4.png]]"
     },
     "2022-07-24": {
         "FIRE Engine": "... How Much Money Do Indie Hackers Products Make? | Scraping Fish ([[2022-07-24]])"
@@ -4485,6 +4549,9 @@ export const backlinks = {
     "fiercely overpriced": {
         "Jetski": "- [[fiercely overpriced]]: time limit for recording. watermarks?"
     },
+    "DED7BA.png": {
+        "Jetski": "![[DED7BA.png]]"
+    },
     "generative AI": {
         "The Demise of Chatbots in 2017": "... making the same mistakes as in 2016 in the era of [[generative AI]]. Some companies are solving for distribution using someone else's proprietary model ..."
     },
@@ -4523,6 +4590,9 @@ export const backlinks = {
     },
     "6BD54D.png": {
         "Three Column Design": "![[6BD54D.png]]"
+    },
+    "900A33.gif": {
+        "Tome": "![[900A33.gif]]"
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs."

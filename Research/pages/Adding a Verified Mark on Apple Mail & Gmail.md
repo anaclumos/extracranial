@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/CB6043'
 ---
 
-- Use a S/MIME certificate to sign an email
+- Use a [[SMIME|S/MIME]] certificate to sign an email
 
 <DisplayFlex>
 
