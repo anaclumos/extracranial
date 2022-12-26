@@ -26,7 +26,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-10-17.md",
+                "file": "journals/2022-12-27.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5ff53df063b4e7c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-12-27.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9efdc5da1c142511",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/AT&T Roaming Incident (December 2022).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b1bd3607601371b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-12-27.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "da9753d21741c4e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-12-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-10-17.md",
+                "file": "pages/AT&T Roaming Incident (December 2022).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-10-17.md"
+                "file": "pages/AT&T Roaming Incident (December 2022).md"
               }
             }
           }
@@ -141,17 +193,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "18efae5570b65ddc",
+  "active": "9efdc5da1c142511",
   "lastOpenFiles": [
-    "pages/Tailwind CSS 톺아보기.md",
-    "journals/2022-07-18.md",
-    "pages/Realm Shim.md",
-    "journals/2022-12-10.md",
-    "pages/dub.sh.md",
+    "journals/2022-12-27.md",
+    "pages/Fix Your Posture.md",
+    "pages/Text AI and Information Density.md",
+    "pages/latexify.cho.sh.md",
+    "pages/AT&T Roaming Incident (December 2022).md",
+    "pages/Entropy.md",
     "journals/2022-12-26.md",
-    "pages/방송 장비 담당자로 할 일.md",
-    "journals/2022-09-29.md",
-    "pages/AGPL.md",
-    "pages/AGPLv3.md"
+    "journals/2022-10-17.md",
+    "pages/Tailwind CSS 톺아보기.md",
+    "journals/2022-07-18.md"
   ]
 }

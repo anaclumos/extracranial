@@ -670,6 +670,7 @@ export const backlinks = {
         "Digital Addictions of Software Enthusiasts": "- Someday [[Project]]",
         "Dynamic Island on the Web": "- Done [[Project]]",
         "FFMpeg for iPad": "- Someday [[Project]]",
+        "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
         "Intracranial": "- Someday [[Project]]",
         "Krafton Way": "... 능력을 검증해야 한다”고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
         "Markdown Email Client": "- Someday [[Project]]",
@@ -693,6 +694,7 @@ export const backlinks = {
         "elevatorpitch.com": "- Someday [[Project]]",
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 `http` 모듈 (당연히 `express` 모듈도) 없이 `http` 서버를 구현하는 Project|프로젝트가 ...",
         "iiframe": "- Someday [[Project]]",
+        "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert the equation into $\\TeX$.",
         "postcredit.info": "- Someday [[Project]]",
         "sem.sh": "- Someday [[Project]]",
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> 그러나 누군가가 온갖 어려움을 무릅쓰고 반드시 성취해야하는 [[Project|프로젝트]]이다.",
@@ -847,7 +849,8 @@ export const backlinks = {
         "Product-Market Fit": "... continuously work on to remain competitive and thriving in the market. [[ChatGPT]]",
         "Readwise Reader": "- uses [[ChatGPT]]",
         "Search Engine using Generative AI": "## On [[ChatGPT]]",
-        "Synthote": "- [[ChatGPT]]"
+        "Synthote": "- [[ChatGPT]]",
+        "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]]."
     },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]",
@@ -855,6 +858,18 @@ export const backlinks = {
     },
     "Higher-Level Languages and Their Speeds": {
         "2022-11-09": "- [[Higher-Level Languages and Their Speeds]]"
+    },
+    "AT&T Roaming Incident (December 2022)": {
+        "2022-12-27": "- [[AT&T Roaming Incident (December 2022)]]"
+    },
+    "Fix Your Posture": {
+        "2022-12-27": "- [[Fix Your Posture]]"
+    },
+    "Text AI and Information Density": {
+        "2022-12-27": "- [[Text AI and Information Density]]"
+    },
+    "latexify.cho.sh": {
+        "2022-12-27": "- [[latexify.cho.sh]]"
     },
     "Pragmatic Engineer": {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]",
@@ -1967,6 +1982,7 @@ export const backlinks = {
         "Cube": "- [[Someday]] [[Project]]",
         "Digital Addictions of Software Enthusiasts": "- [[Someday]] [[Project]]",
         "FFMpeg for iPad": "- [[Someday]] [[Project]]",
+        "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
         "Intracranial": "- [[Someday]] [[Project]]",
         "Markdown Email Client": "- [[Someday]] [[Project]]",
         "Metadata as a Service": "- [[Someday]] [[Project]]",
@@ -1980,6 +1996,7 @@ export const backlinks = {
         "Timebelt": "- [[Someday]] [[Project]]",
         "elevatorpitch.com": "- [[Someday]] [[Project]]",
         "iiframe": "- [[Someday]] [[Project]]",
+        "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to convert the equation into $\\TeX$.",
         "postcredit.info": "- [[Someday]] [[Project]]",
         "sem.sh": "- [[Someday]] [[Project]]",
         "사회과부도": "- [[Someday]] [[Project]]",
@@ -4556,6 +4573,9 @@ export const backlinks = {
     },
     "2022-11-29": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "## Response on [[2022-11-29]]"
+    },
+    "Entropy": {
+        "Text AI and Information Density": "Text AI, for example ChatGPT, tends to have low [[Entropy|information density]]."
     },
     "D8DCB4.png": {
         "Prototyper": "![[D8DCB4.png]]"
