@@ -88,7 +88,6 @@ export const backlinks = {
         "2022-06-22": "Deno envisions a [[Vercel]]-like experience for the backend (FaaS.)",
         "2022-07-10": "- [[Vercel]] hid the compilation process with its proprietary `vercel dev` command.",
         "2022-08-28": "- I both used Cloudflare Pages and [[Vercel]] and concluded that Vercel is better.",
-        "2022-09-29": "  - [[Vercel]] hosting",
         "2022-09-30": "- [[Vercel]] Serving millions of users on the new MrBeast storefront - Vercel",
         "2022-10-10": "  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
@@ -98,7 +97,8 @@ export const backlinks = {
         "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
         "Paracosm": "... & Extracranial Tools for Thought that aims to replace Docusaurus with [[Vercel]]'s tech stacks.",
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting ...",
-        "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while."
+        "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.",
+        "dub.sh": "  - [[Vercel]] hosting"
     },
     "Web Worker": {
         "2022-06-22": "  - WorkerDOM will be an arbiter between the [[Web Worker]] thread and the iframe.",
@@ -758,6 +758,14 @@ export const backlinks = {
     "B5F9BB.png": {
         "2022-11-08": "![[B5F9BB.png]]"
     },
+    "dub.sh": {
+        "2022-09-29": "- [[dub.sh]]",
+        "2022-12-26": "- [[dub.sh]]",
+        "AGPL": "## [[dub.sh]]"
+    },
+    "방송 장비 담당자로 할 일": {
+        "2022-12-26": "- [[방송 장비 담당자로 할 일]]"
+    },
     "TossFace Playground": {
         "2022-08-18": "- [[TossFace Playground]]",
         "Tossface": "- [[TossFace Playground]]"
@@ -1296,11 +1304,11 @@ export const backlinks = {
     },
     "Framer Motion": {
         "2022-06-26": "- Especially, try implementing synchronous Layout properties—for example, [[Framer Motion]].",
-        "2022-09-29": "  - [[Framer Motion|Framer Animation]]",
         "2022-12-07": "- [[Framer Motion]], [[Interactive Articles]]: Inside Framer's Magic Motion",
         "Animations": "### [[Framer Motion]]",
         "Dynamic Island on the Web": "- Applied Quick Clipping with [[Framer Motion]] for performance",
-        "Framer": "- Creator of [[Framer Motion]]"
+        "Framer": "- Creator of [[Framer Motion]]",
+        "dub.sh": "  - [[Framer Motion|Framer Animation]]"
     },
     "Interactive Articles": {
         "2022-10-18": "- [[Interactive Articles]]",
@@ -1416,12 +1424,12 @@ export const backlinks = {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
     "Tailwind": {
-        "2022-09-29": "  - [[Tailwind]] CSS",
         "2022-11-29": "- [[Tailwind]]",
         "2022-12-04": "- The Verge is now built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, @vercel, and ...",
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
-        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용"
+        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용",
+        "dub.sh": "  - [[Tailwind]] CSS"
     },
     "Small yet Powerful": {
         "10x": "- [[Small yet Powerful]]",
@@ -1654,17 +1662,6 @@ export const backlinks = {
         "Computer Systems": "- [[ARM Architecture]]",
         "How is WebAssembly cross-platform when Assembly is not": "... designed similarly to ASM. Therefore, compiling WebAssembly|WASM to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can ...",
         "Meltdown": "... Spectre). Meltdown affects Intel x86 microprocessors, IBM POWER processors, and some [[ARM Architecture|ARM]]-based microprocessors. It allows a rogue process to read all memory, even ..."
-    },
-    "os": {
-        "2022-09-29": "... to visualize the time-series data for each link's clicks (incl. location, device/[[os]]) with airbnb/visx: 🐯 visx | visualization components"
-    },
-    "Next.js": {
-        "2022-09-29": "  - [[Next.js]] framework",
-        "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
-        "2022-10-25": "## [[Next.js]] Conf",
-        "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with ...",
-        "Front-end": "- [[Next.js]]",
-        "Wildcard Image Domain on Next.js": "- [[Next.js]]"
     },
     "The New Era of macOS Applications": {
         "2022-09-29": "- [[The New Era of macOS Applications]]"
@@ -2458,6 +2455,14 @@ export const backlinks = {
         "2022-09-30": "### [[Dynamic Island]] Concepts for Desktops",
         "Dynamic Island on the Web": "- [[Dynamic Island]] on the Web"
     },
+    "Next.js": {
+        "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
+        "2022-10-25": "## [[Next.js]] Conf",
+        "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with ...",
+        "Front-end": "- [[Next.js]]",
+        "Wildcard Image Domain on Next.js": "- [[Next.js]]",
+        "dub.sh": "  - [[Next.js]] framework"
+    },
     "Software as a Service": {
         "2022-07-07": "## Personal Notes on Tools for Thought [[Software as a Service]]",
         "FIRE Engine": "- [[Software as a Service]] that drives revenue streams for [[FIRE]]",
@@ -3002,6 +3007,18 @@ export const backlinks = {
         "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].",
         "Horizontally Stacked Interface": "- [[Sliding Panes]]: Have multiple-scrollable columns.",
         "Spacial Cognition": "- Three Column Design and [[Sliding Panes]] are a few ways of giving spacial cognition."
+    },
+    "31D530.png": {
+        "dub.sh": "![[31D530.png]]"
+    },
+    "D17CFC.png": {
+        "dub.sh": "![[D17CFC.png]]"
+    },
+    "os": {
+        "dub.sh": "... to visualize the time-series data for each link's clicks (incl. location, device/[[os]]) with airbnb/visx: 🐯 visx | visualization components"
+    },
+    "AGPL": {
+        "dub.sh": "  - [[AGPL]]"
     },
     "Port": {
         "Internetworking": "- [[Port]]",

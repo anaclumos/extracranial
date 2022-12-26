@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "4b96d7880b1c4baf",
+        "id": "e5d6154581948bfd",
         "type": "tabs",
         "children": [
           {
-            "id": "6af8a9d4a8130ce4",
+            "id": "87cd41236562df95",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-12-26.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "18efae5570b65ddc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-10-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2022-10-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2022-10-17.md"
+              }
             }
           }
         ],
@@ -119,17 +141,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "6af8a9d4a8130ce4",
+  "active": "18efae5570b65ddc",
   "lastOpenFiles": [
-    "journals/2022-12-24.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-12-21.md",
-    "journals/2022-12-21.md",
-    "pages/SMIME.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-12-24.md",
-    "assets/900A33.gif",
-    "journals/2022-08-03.md",
-    "pages/Matt Rickard.md",
-    "pages/The Architecture of Mastodon.md",
-    "pages/Horizontally Stacked Interface.md"
+    "pages/Tailwind CSS 톺아보기.md",
+    "journals/2022-07-18.md",
+    "pages/Realm Shim.md",
+    "journals/2022-12-10.md",
+    "pages/dub.sh.md",
+    "journals/2022-12-26.md",
+    "pages/방송 장비 담당자로 할 일.md",
+    "journals/2022-09-29.md",
+    "pages/AGPL.md",
+    "pages/AGPLv3.md"
   ]
 }
