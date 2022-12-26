@@ -5,14 +5,22 @@ slug: '/A18D7B'
 
 ![[398CA8.png]]
 
-## [Bento - The Link in Bio for Designers and Builders](https://bento.me/en/home)
+## [[GitHub]]
 
-![[341F72.gif]]
+![[6C8C82.png]]
+
+## [[Next.js]]
+
+![[411451.png]]
+
+## [[Nextra]]
+
+![[B2A2B6.png]]
 
 ## [Marco Cornacchia—Product Designer in SF](https://www.marco.fyi/)
 
 ![[339CE9.png]]
 
-## [[Nextra]]
+## [Bento](https://bento.me/en/home)
 
-![[B2A2B6.png]]
+![[341F72.gif]]

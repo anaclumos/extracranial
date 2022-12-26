@@ -52,7 +52,8 @@ export const backlinks = {
     },
     "Apple-like Block Interface": {
         "2022-12-16": "- [[Apple-like Block Interface]]",
-        "2022-12-18": "- [[Apple-like Block Interface]]"
+        "2022-12-18": "- [[Apple-like Block Interface]]",
+        "2022-12-27": "- [[Apple-like Block Interface]]"
     },
     "Nuclear Fusion": {
         "2022-07-26": "- [[Nuclear Fusion]]",
@@ -2482,6 +2483,7 @@ export const backlinks = {
         "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
         "2022-10-25": "## [[Next.js]] Conf",
         "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with ...",
+        "Apple-like Block Interface": "## [[Next.js]]",
         "Front-end": "- [[Next.js]]",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]",
         "dub.sh": "  - [[Next.js]] framework"
@@ -2710,7 +2712,8 @@ export const backlinks = {
         "2022-10-25": "![[FF5AAD.png]]"
     },
     "411451.png": {
-        "2022-10-25": "![[411451.png]]"
+        "2022-10-25": "![[411451.png]]",
+        "Apple-like Block Interface": "![[411451.png]]"
     },
     "태백산맥 계획": {
         "2022-12-11": "- [[태백산맥 계획]]"
@@ -3203,6 +3206,7 @@ export const backlinks = {
         "Stephan Ango": "- [[extracranial]] @ Stephan Ango"
     },
     "GitHub": {
+        "Apple-like Block Interface": "## [[GitHub]]",
         "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
         "Snowpack으로 WASM 시작하기": "## [[GitHub]] Pages에 Snowpack App 호스팅 및 시행착오",
         "Social Coding": "- [[GitHub]] is removing the trending tab at the end of this month ...",
@@ -4412,11 +4416,8 @@ export const backlinks = {
     "398CA8.png": {
         "Apple-like Block Interface": "![[398CA8.png]]"
     },
-    "341F72.gif": {
-        "Apple-like Block Interface": "![[341F72.gif]]"
-    },
-    "339CE9.png": {
-        "Apple-like Block Interface": "![[339CE9.png]]"
+    "6C8C82.png": {
+        "Apple-like Block Interface": "![[6C8C82.png]]"
     },
     "Nextra": {
         "Apple-like Block Interface": "## [[Nextra]]"
@@ -4424,6 +4425,12 @@ export const backlinks = {
     "B2A2B6.png": {
         "Apple-like Block Interface": "![[B2A2B6.png]]",
         "Nextra": "![[B2A2B6.png]]"
+    },
+    "339CE9.png": {
+        "Apple-like Block Interface": "![[339CE9.png]]"
+    },
+    "341F72.gif": {
+        "Apple-like Block Interface": "![[341F72.gif]]"
     },
     "6F64BE.png": {
         "Toss Product Sans": "![[6F64BE.png]]"
