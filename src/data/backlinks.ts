@@ -737,7 +737,8 @@ export const backlinks = {
         "2022-11-27": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-30": "- [x] [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-11-30": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-12-27": "- [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "Linkflags": {
         "2022-12-07": "- [[Linkflags]]",
@@ -871,6 +872,9 @@ export const backlinks = {
     "latexify.cho.sh": {
         "2022-12-27": "- [[latexify.cho.sh]]"
     },
+    "Point-E": {
+        "2022-12-27": "- [[Point-E]]"
+    },
     "Pragmatic Engineer": {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]",
         "2022-07-14": "## Today's [[Pragmatic Engineer]]"
@@ -897,7 +901,7 @@ export const backlinks = {
     "Android": {
         "2022-09-17": "- [[Android]]",
         "2022-10-20": "... It tries to download filter updates on every startup, and on [[Android]], it may happen many times daily. It can even happen when ...",
-        "3D File Format": "- glTF for [[Android]]",
+        "3D": "- glTF for [[Android]]",
         "Figma": "... vector graphics editors and prototyping tools. The Figma mobile app for [[Android]] and iOS allows viewing and interacting with Figma prototypes in real ...",
         "React Native": "... by Meta Platforms, Inc. It is used to develop applications for [[Android]], Android TV, iOS, macOS, tvOS, Web, Windows, and UWP by enabling ...",
         "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
@@ -1211,6 +1215,7 @@ export const backlinks = {
         "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
         "Conversational AI Tools for Thought": "- ChatGPT and [[Generative AI]] are not exactly [[Tools for Thought]] for now. However, it has ...",
         "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value ...",
+        "Point-E": "- [[Generative AI]]",
         "Search Engine using Generative AI": "- [[Generative AI]]",
         "Search in a Latent Space": "- [[Generative AI]]",
         "Tome": "Create presentation decks with [[Generative AI]]."
@@ -1275,6 +1280,7 @@ export const backlinks = {
         "Generative AI": "Instead of guessing the correct answer, AI creates something from [[Prompt Engineering]].",
         "Metaverse": "... to my mind that Metaverse can be attained within years with [[Prompt Engineering]].",
         "Obsidian Ava": "- [[Prompt Engineering]]",
+        "Point-E": "- [[Prompt Engineering]]",
         "Screenshot as an API": "...  - (encoder) diffusion-based models like Stable Diffusion and DALL-E (text-to-image) [[Prompt Engineering]]",
         "Search in a Latent Space": "- Maybe it's another name for [[Prompt Engineering]]",
         "Synthography": "- Needs [[Prompt Engineering]]",
@@ -1395,7 +1401,7 @@ export const backlinks = {
         "2022-07-18": "- [[Apple]] seems (pretty much) always right...",
         "2022-10-13": "... iPhone to be their next phone; 31% of teens own an [[Apple]] Watch: Taking Stock With Teens® - Fall 2022",
         "2022-10-18": "- [[Apple]] bought all of the advertising space in Newsweek's November/December special election ...",
-        "3D File Format": "- USDZ for [[Apple]]",
+        "3D": "- USDZ for [[Apple]]",
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
         "Apple Earth": "- Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports",
         "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
@@ -2776,8 +2782,9 @@ export const backlinks = {
         "2022-10-21": "- [[Palantir]]",
         "Real Interviews": "- [[Palantir]]"
     },
-    "3D File Format": {
-        "2022-10-21": "- [[3D File Format]]"
+    "3D": {
+        "2022-10-21": "- [[3D]]",
+        "Point-E": "- [[3D]]"
     },
     "837555.jpg": {
         "2022-10-15": "![[837555.jpg]]",
@@ -3441,6 +3448,9 @@ export const backlinks = {
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
+    "2022-12-27": {
+        "2022년 11월 한 달간 일기 쓰기": "[[2022-12-27]] 회고를 해본다."
+    },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
         "Mastodon": "- [[The Architecture of Mastodon]]",
@@ -3850,6 +3860,17 @@ export const backlinks = {
     "85D135.png": {
         "하늘땅사람": "![[85D135.png]]"
     },
+    "USDZ": {
+        "3D": "- [[USDZ]] for [[Apple]]",
+        "Things (3D)": "> Nice. What's the edge on Things over glTF and [[USDZ]]?<br/>"
+    },
+    "glTF": {
+        "3D": "- [[glTF]] for [[Android]]",
+        "Things (3D)": "> Nice. What's the edge on Things over [[glTF]] and [[USDZ]]?<br/>"
+    },
+    "Things (3D)": {
+        "3D": "- [[Things (3D)]]"
+    },
     "ip": {
         "http 없는 http 서버 만들기": "`http` 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ..."
     },
@@ -4070,14 +4091,6 @@ export const backlinks = {
     "EDC631.png": {
         "Readwise Reader": "![[EDC631.png]]"
     },
-    "glTF": {
-        "3D File Format": "- [[glTF]] for [[Android]]",
-        "Things (3D)": "> Nice. What's the edge on Things over [[glTF]] and [[USDZ]]?<br/>"
-    },
-    "USDZ": {
-        "3D File Format": "- [[USDZ]] for [[Apple]]",
-        "Things (3D)": "> Nice. What's the edge on Things over glTF and [[USDZ]]?<br/>"
-    },
     "D765C4.png": {
         "Things (3D)": "![[D765C4.png]]"
     },
@@ -4114,9 +4127,6 @@ export const backlinks = {
     "2022-10-20": {
         "Dynamic Island on the Web": "## [[2022-10-20]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "## Update on [[2022-10-20]]"
-    },
-    "Things (3D)": {
-        "3D File Format": "- [[Things (3D)]]"
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
