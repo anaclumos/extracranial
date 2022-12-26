@@ -7,7 +7,7 @@ slug: '/B12B00'
 - [[ffmpeg]] optimization for sharing
 - [[fiercely overpriced]]: time limit for recording. watermarks?
 
-## [Keystroke Pro on the Mac App Store](https://apps.apple.com/us/app/keystroke-pro/id1572206224?mt=12)
+## [Keystroke Pro on the Mac App Store](https://apps.apple.com/us/app/keystroke-pro/id1572206224?mt=12)
 
 ![[DED7BA.png]]
 
