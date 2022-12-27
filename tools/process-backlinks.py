@@ -1,12 +1,16 @@
 import os
 import re
+from requests.structures import CaseInsensitiveDict
+
 
 target_directory = "./Research"
 
 all_md_files = []
 
-backlink_map = {}  # filename -> {mentioned_file -> first_mentioned_sentence}
-filename_uid_map = {}  # filename -> uid
+backlink_map = (
+    CaseInsensitiveDict()
+)  # filename -> {mentioned_file -> first_mentioned_sentence}
+filename_uid_map = CaseInsensitiveDict()  # filename -> uid
 
 mention_count = 0
 
@@ -30,6 +34,7 @@ if __name__ == "__main__":
                     continue
                 all_md_files.append(os.path.join(root, file))
                 all_md_files.append(os.path.join(root, file))
+                backlink_map[file.replace(".md", "").replace(".mdx", "")] = {}
 
     print("Found " + str(len(all_md_files)) + " MD files.")
 
@@ -100,7 +105,7 @@ if __name__ == "__main__":
     with open("./src/data/backlinks.ts", "w") as f:
         f.write(
             "export const backlinks = "
-            + json.dumps(backlink_map, indent=4, ensure_ascii=False)
+            + json.dumps(dict(backlink_map), indent=4, ensure_ascii=False)
             .encode("utf8")
             .decode()
         )
