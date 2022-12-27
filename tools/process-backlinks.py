@@ -1,6 +1,6 @@
 import os
 import re
-from requests.structures import CaseInsensitiveDict
+from CaseInsensitiveDict import CaseInsensitiveDict
 
 
 target_directory = "./Research"
