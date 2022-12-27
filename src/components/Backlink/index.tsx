@@ -15,13 +15,26 @@ const processBacklinkItem = (
   title: string
 ) => {
   // replace title with <b>title</b>
-  let splittedText = text.trim().split(title)
+  let splittedText = text
+    .trim()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;')
+    .split(title)
   splittedText = splittedText.map((item, index) => {
     if (index === splittedText.length - 1) {
       return item
     }
     return (
-      item + `<b class="${styles.highlight}">${title}</b>`
+      item +
+      `<b class="${styles.highlight}">${title
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;')}</b>`
     )
   })
   return (
