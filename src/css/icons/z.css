@@ -1,0 +1,238 @@
+article a[href*='https://z-wave.com']::before,
+article a[href*='https://www.z-wave.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zwave.svg');
+  mask-image: url('https://simpleicons.org/icons/zwave.svg');
+}
+article a[href*='https://zabka.pl']::before,
+article a[href*='https://www.zabka.pl']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zabka.svg');
+  mask-image: url('https://simpleicons.org/icons/zabka.svg');
+}
+article a[href*='https://zalando.com']::before,
+article a[href*='https://www.zalando.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zalando.svg');
+  mask-image: url('https://simpleicons.org/icons/zalando.svg');
+}
+article a[href*='https://zalo.me']::before,
+article a[href*='https://www.zalo.me']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zalo.svg');
+  mask-image: url('https://simpleicons.org/icons/zalo.svg');
+}
+article a[href*='https://zapier.com']::before,
+article a[href*='https://www.zapier.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zapier.svg');
+  mask-image: url('https://simpleicons.org/icons/zapier.svg');
+}
+article a[href*='https://zara.com']::before,
+article a[href*='https://www.zara.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zara.svg');
+  mask-image: url('https://simpleicons.org/icons/zara.svg');
+}
+article a[href*='https://zazzle.com']::before,
+article a[href*='https://www.zazzle.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zazzle.svg');
+  mask-image: url('https://simpleicons.org/icons/zazzle.svg');
+}
+article a[href*='https://zcash.com']::before,
+article a[href*='https://www.zcash.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zcash.svg');
+  mask-image: url('https://simpleicons.org/icons/zcash.svg');
+}
+article a[href*='https://zdf.de']::before,
+article a[href*='https://www.zdf.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zdf.svg');
+  mask-image: url('https://simpleicons.org/icons/zdf.svg');
+}
+article a[href*='https://zebra.com']::before,
+article a[href*='https://www.zebra.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zebratechnologies.svg');
+  mask-image: url('https://simpleicons.org/icons/zebratechnologies.svg');
+}
+article a[href*='https://zellepay.com']::before,
+article a[href*='https://www.zellepay.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zelle.svg');
+  mask-image: url('https://simpleicons.org/icons/zelle.svg');
+}
+article a[href*='https://zend.com']::before,
+article a[href*='https://www.zend.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zend.svg');
+  mask-image: url('https://simpleicons.org/icons/zend.svg');
+}
+article a[href*='https://zendframework.com']::before,
+article a[href*='https://www.zendframework.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zendframework.svg');
+  mask-image: url('https://simpleicons.org/icons/zendframework.svg');
+}
+article a[href*='https://zendesk.com']::before,
+article a[href*='https://www.zendesk.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zendesk.svg');
+  mask-image: url('https://simpleicons.org/icons/zendesk.svg');
+}
+article a[href*='https://zenn.dev']::before,
+article a[href*='https://www.zenn.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zenn.svg');
+  mask-image: url('https://simpleicons.org/icons/zenn.svg');
+}
+article a[href*='https://zenodo.org']::before,
+article a[href*='https://www.zenodo.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zenodo.svg');
+  mask-image: url('https://simpleicons.org/icons/zenodo.svg');
+}
+article a[href*='https://zerodha.com']::before,
+article a[href*='https://www.zerodha.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zerodha.svg');
+  mask-image: url('https://simpleicons.org/icons/zerodha.svg');
+}
+article a[href*='https://zeromq.org']::before,
+article a[href*='https://www.zeromq.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zeromq.svg');
+  mask-image: url('https://simpleicons.org/icons/zeromq.svg');
+}
+article a[href*='https://zerply.com']::before,
+article a[href*='https://www.zerply.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zerply.svg');
+  mask-image: url('https://simpleicons.org/icons/zerply.svg');
+}
+article a[href*='https://zettlr.com']::before,
+article a[href*='https://www.zettlr.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zettlr.svg');
+  mask-image: url('https://simpleicons.org/icons/zettlr.svg');
+}
+article a[href*='https://zhihu.com']::before,
+article a[href*='https://www.zhihu.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zhihu.svg');
+  mask-image: url('https://simpleicons.org/icons/zhihu.svg');
+}
+article a[href*='https://ziglang.org']::before,
+article a[href*='https://www.ziglang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zig.svg');
+  mask-image: url('https://simpleicons.org/icons/zig.svg');
+}
+article a[href*='https://zigbee.org']::before,
+article a[href*='https://www.zigbee.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zigbee.svg');
+  mask-image: url('https://simpleicons.org/icons/zigbee.svg');
+}
+article a[href*='https://zillow.com']::before,
+article a[href*='https://www.zillow.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zillow.svg');
+  mask-image: url('https://simpleicons.org/icons/zillow.svg');
+}
+article a[href*='https://zincsearch.com']::before,
+article a[href*='https://www.zincsearch.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zincsearch.svg');
+  mask-image: url('https://simpleicons.org/icons/zincsearch.svg');
+}
+article a[href*='https://zingat.com']::before,
+article a[href*='https://www.zingat.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zingat.svg');
+  mask-image: url('https://simpleicons.org/icons/zingat.svg');
+}
+article a[href*='https://zoho.com']::before,
+article a[href*='https://www.zoho.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zoho.svg');
+  mask-image: url('https://simpleicons.org/icons/zoho.svg');
+}
+article a[href*='https://zoiper.com']::before,
+article a[href*='https://www.zoiper.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zoiper.svg');
+  mask-image: url('https://simpleicons.org/icons/zoiper.svg');
+}
+article a[href*='https://zomato.com']::before,
+article a[href*='https://www.zomato.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zomato.svg');
+  mask-image: url('https://simpleicons.org/icons/zomato.svg');
+}
+article a[href*='https://zoom.us']::before,
+article a[href*='https://www.zoom.us']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zoom.svg');
+  mask-image: url('https://simpleicons.org/icons/zoom.svg');
+}
+article a[href*='https://zorin.com']::before,
+article a[href*='https://www.zorin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zorin.svg');
+  mask-image: url('https://simpleicons.org/icons/zorin.svg');
+}
+article a[href*='https://zotero.org']::before,
+article a[href*='https://www.zotero.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zotero.svg');
+  mask-image: url('https://simpleicons.org/icons/zotero.svg');
+}
+article a[href*='https://zulip.com']::before,
+article a[href*='https://www.zulip.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zulip.svg');
+  mask-image: url('https://simpleicons.org/icons/zulip.svg');
+}
+article a[href*='https://zyte.com']::before,
+article a[href*='https://www.zyte.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/zyte.svg');
+  mask-image: url('https://simpleicons.org/icons/zyte.svg');
+}

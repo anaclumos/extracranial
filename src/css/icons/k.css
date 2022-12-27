@@ -1,0 +1,445 @@
+article a[href*='https://k3s.io']::before,
+article a[href*='https://www.k3s.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/k3s.svg');
+  mask-image: url('https://simpleicons.org/icons/k3s.svg');
+}
+article a[href*='https://k6.io']::before,
+article a[href*='https://www.k6.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/k6.svg');
+  mask-image: url('https://simpleicons.org/icons/k6.svg');
+}
+article a[href*='https://kaggle.com']::before,
+article a[href*='https://www.kaggle.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kaggle.svg');
+  mask-image: url('https://simpleicons.org/icons/kaggle.svg');
+}
+article a[href*='https://kahoot.com']::before,
+article a[href*='https://www.kahoot.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kahoot.svg');
+  mask-image: url('https://simpleicons.org/icons/kahoot.svg');
+}
+article a[href*='https://kaiostech.com']::before,
+article a[href*='https://www.kaiostech.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kaios.svg');
+  mask-image: url('https://simpleicons.org/icons/kaios.svg');
+}
+article a[href*='https://kakaocorp.com']::before,
+article a[href*='https://www.kakaocorp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kakao.svg');
+  mask-image: url('https://simpleicons.org/icons/kakao.svg');
+}
+article a[href*='https://kakao.com']::before,
+article a[href*='https://www.kakao.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kakaotalk.svg');
+  mask-image: url('https://simpleicons.org/icons/kakaotalk.svg');
+}
+article a[href*='https://kalilinux.org']::before,
+article a[href*='https://www.kalilinux.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kalilinux.svg');
+  mask-image: url('https://simpleicons.org/icons/kalilinux.svg');
+}
+article a[href*='https://github.com/GoogleContainerTools/kaniko']::before,
+article a[href*='https://www.github.com/GoogleContainerTools/kaniko']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kaniko.svg');
+  mask-image: url('https://simpleicons.org/icons/kaniko.svg');
+}
+article a[href*='https://kvv.de']::before,
+article a[href*='https://www.kvv.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/karlsruherverkehrsverbund.svg');
+  mask-image: url('https://simpleicons.org/icons/karlsruherverkehrsverbund.svg');
+}
+article a[href*='https://tp-link.com']::before,
+article a[href*='https://www.tp-link.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kasasmart.svg');
+  mask-image: url('https://simpleicons.org/icons/kasasmart.svg');
+}
+article a[href*='https://kashflow.com']::before,
+article a[href*='https://www.kashflow.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kashflow.svg');
+  mask-image: url('https://simpleicons.org/icons/kashflow.svg');
+}
+article a[href*='https://kaspersky.com']::before,
+article a[href*='https://www.kaspersky.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kaspersky.svg');
+  mask-image: url('https://simpleicons.org/icons/kaspersky.svg');
+}
+article a[href*='https://katacoda.com']::before,
+article a[href*='https://www.katacoda.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/katacoda.svg');
+  mask-image: url('https://simpleicons.org/icons/katacoda.svg');
+}
+article a[href*='https://katanaframework.com']::before,
+article a[href*='https://www.katanaframework.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/katana.svg');
+  mask-image: url('https://simpleicons.org/icons/katana.svg');
+}
+article a[href*='https://kaufland.com']::before,
+article a[href*='https://www.kaufland.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kaufland.svg');
+  mask-image: url('https://simpleicons.org/icons/kaufland.svg');
+}
+article a[href*='https://kde.org']::before,
+article a[href*='https://www.kde.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kde.svg');
+  mask-image: url('https://simpleicons.org/icons/kde.svg');
+}
+article a[href*='https://kdenlive.org']::before,
+article a[href*='https://www.kdenlive.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kdenlive.svg');
+  mask-image: url('https://simpleicons.org/icons/kdenlive.svg');
+}
+article a[href*='https://keepachangelog.com']::before,
+article a[href*='https://www.keepachangelog.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/keepachangelog.svg');
+  mask-image: url('https://simpleicons.org/icons/keepachangelog.svg');
+}
+article a[href*='https://keepassxc.org']::before,
+article a[href*='https://www.keepassxc.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/keepassxc.svg');
+  mask-image: url('https://simpleicons.org/icons/keepassxc.svg');
+}
+article a[href*='https://kentico.com']::before,
+article a[href*='https://www.kentico.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kentico.svg');
+  mask-image: url('https://simpleicons.org/icons/kentico.svg');
+}
+article a[href*='https://keras.io']::before,
+article a[href*='https://www.keras.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/keras.svg');
+  mask-image: url('https://simpleicons.org/icons/keras.svg');
+}
+article a[href*='https://keybase.io']::before,
+article a[href*='https://www.keybase.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/keybase.svg');
+  mask-image: url('https://simpleicons.org/icons/keybase.svg');
+}
+article a[href*='https://keycdn.com']::before,
+article a[href*='https://www.keycdn.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/keycdn.svg');
+  mask-image: url('https://simpleicons.org/icons/keycdn.svg');
+}
+article a[href*='https://keystonejs.com']::before,
+article a[href*='https://www.keystonejs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/keystone.svg');
+  mask-image: url('https://simpleicons.org/icons/keystone.svg');
+}
+article a[href*='https://kfc.com']::before,
+article a[href*='https://www.kfc.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kfc.svg');
+  mask-image: url('https://simpleicons.org/icons/kfc.svg');
+}
+article a[href*='https://khanacademy.org']::before,
+article a[href*='https://www.khanacademy.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/khanacademy.svg');
+  mask-image: url('https://simpleicons.org/icons/khanacademy.svg');
+}
+article a[href*='https://khronos.org']::before,
+article a[href*='https://www.khronos.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/khronosgroup.svg');
+  mask-image: url('https://simpleicons.org/icons/khronosgroup.svg');
+}
+article a[href*='https://kia.com']::before,
+article a[href*='https://www.kia.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kia.svg');
+  mask-image: url('https://simpleicons.org/icons/kia.svg');
+}
+article a[href*='https://kibana.com']::before,
+article a[href*='https://www.kibana.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kibana.svg');
+  mask-image: url('https://simpleicons.org/icons/kibana.svg');
+}
+article a[href*='https://kicad.org']::before,
+article a[href*='https://www.kicad.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kicad.svg');
+  mask-image: url('https://simpleicons.org/icons/kicad.svg');
+}
+article a[href*='https://kickstarter.com']::before,
+article a[href*='https://www.kickstarter.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kickstarter.svg');
+  mask-image: url('https://simpleicons.org/icons/kickstarter.svg');
+}
+article a[href*='https://kik.com']::before,
+article a[href*='https://www.kik.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kik.svg');
+  mask-image: url('https://simpleicons.org/icons/kik.svg');
+}
+article a[href*='https://kingston.com']::before,
+article a[href*='https://www.kingston.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kingstontechnology.svg');
+  mask-image: url('https://simpleicons.org/icons/kingstontechnology.svg');
+}
+article a[href*='https://kinopoisk.ru']::before,
+article a[href*='https://www.kinopoisk.ru']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kinopoisk.svg');
+  mask-image: url('https://simpleicons.org/icons/kinopoisk.svg');
+}
+article a[href*='https://getkirby.com']::before,
+article a[href*='https://www.getkirby.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kirby.svg');
+  mask-image: url('https://simpleicons.org/icons/kirby.svg');
+}
+article a[href*='https://kitsu.io']::before,
+article a[href*='https://www.kitsu.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kitsu.svg');
+  mask-image: url('https://simpleicons.org/icons/kitsu.svg');
+}
+article a[href*='https://klarna.com']::before,
+article a[href*='https://www.klarna.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/klarna.svg');
+  mask-image: url('https://simpleicons.org/icons/klarna.svg');
+}
+article a[href*='https://klm.com']::before,
+article a[href*='https://www.klm.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/klm.svg');
+  mask-image: url('https://simpleicons.org/icons/klm.svg');
+}
+article a[href*='https://klook.com']::before,
+article a[href*='https://www.klook.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/klook.svg');
+  mask-image: url('https://simpleicons.org/icons/klook.svg');
+}
+article a[href*='https://knative.dev']::before,
+article a[href*='https://www.knative.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/knative.svg');
+  mask-image: url('https://simpleicons.org/icons/knative.svg');
+}
+article a[href*='https://knowledgebase.com']::before,
+article a[href*='https://www.knowledgebase.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/knowledgebase.svg');
+  mask-image: url('https://simpleicons.org/icons/knowledgebase.svg');
+}
+article a[href*='https://withknown.com']::before,
+article a[href*='https://www.withknown.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/known.svg');
+  mask-image: url('https://simpleicons.org/icons/known.svg');
+}
+article a[href*='https://ko-fi.com']::before,
+article a[href*='https://www.ko-fi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kofi.svg');
+  mask-image: url('https://simpleicons.org/icons/kofi.svg');
+}
+article a[href*='https://koajs.com']::before,
+article a[href*='https://www.koajs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/koa.svg');
+  mask-image: url('https://simpleicons.org/icons/koa.svg');
+}
+article a[href*='https://koc.com']::before,
+article a[href*='https://www.koc.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/koc.svg');
+  mask-image: url('https://simpleicons.org/icons/koc.svg');
+}
+article a[href*='https://kodi.tv']::before,
+article a[href*='https://www.kodi.tv']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kodi.svg');
+  mask-image: url('https://simpleicons.org/icons/kodi.svg');
+}
+article a[href*='https://kofax.com']::before,
+article a[href*='https://www.kofax.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kofax.svg');
+  mask-image: url('https://simpleicons.org/icons/kofax.svg');
+}
+article a[href*='https://komoot.com']::before,
+article a[href*='https://www.komoot.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/komoot.svg');
+  mask-image: url('https://simpleicons.org/icons/komoot.svg');
+}
+article a[href*='https://konami.com']::before,
+article a[href*='https://www.konami.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/konami.svg');
+  mask-image: url('https://simpleicons.org/icons/konami.svg');
+}
+article a[href*='https://konghq.com']::before,
+article a[href*='https://www.konghq.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kong.svg');
+  mask-image: url('https://simpleicons.org/icons/kong.svg');
+}
+article a[href*='https://kongregate.com']::before,
+article a[href*='https://www.kongregate.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kongregate.svg');
+  mask-image: url('https://simpleicons.org/icons/kongregate.svg');
+}
+article a[href*='https://konvajs.org']::before,
+article a[href*='https://www.konvajs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/konva.svg');
+  mask-image: url('https://simpleicons.org/icons/konva.svg');
+}
+article a[href*='https://kotlinlang.org']::before,
+article a[href*='https://www.kotlinlang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kotlin.svg');
+  mask-image: url('https://simpleicons.org/icons/kotlin.svg');
+}
+article a[href*='https://koyeb.com']::before,
+article a[href*='https://www.koyeb.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/koyeb.svg');
+  mask-image: url('https://simpleicons.org/icons/koyeb.svg');
+}
+article a[href*='https://krita.org']::before,
+article a[href*='https://www.krita.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/krita.svg');
+  mask-image: url('https://simpleicons.org/icons/krita.svg');
+}
+article a[href*='https://ktm.com']::before,
+article a[href*='https://www.ktm.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ktm.svg');
+  mask-image: url('https://simpleicons.org/icons/ktm.svg');
+}
+article a[href*='https://kuaishou.com']::before,
+article a[href*='https://www.kuaishou.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kuaishou.svg');
+  mask-image: url('https://simpleicons.org/icons/kuaishou.svg');
+}
+article a[href*='https://kubernetes.io']::before,
+article a[href*='https://www.kubernetes.io']::before,
+article a[href*='https://kubernetes.org']::before,
+article a[href*='https://www.kubernetes.org']::before,
+article a[href*='https://kubernetes.dev']::before,
+article a[href*='https://www.kubernetes.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kubernetes.svg');
+  mask-image: url('https://simpleicons.org/icons/kubernetes.svg');
+}
+article a[href*='https://kubuntu.org']::before,
+article a[href*='https://www.kubuntu.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kubuntu.svg');
+  mask-image: url('https://simpleicons.org/icons/kubuntu.svg');
+}
+article a[href*='https://kuma.io']::before,
+article a[href*='https://www.kuma.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kuma.svg');
+  mask-image: url('https://simpleicons.org/icons/kuma.svg');
+}
+article a[href*='https://kuula.co']::before,
+article a[href*='https://www.kuula.co']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kuula.svg');
+  mask-image: url('https://simpleicons.org/icons/kuula.svg');
+}
+article a[href*='https://kyocera.com']::before,
+article a[href*='https://www.kyocera.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/kyocera.svg');
+  mask-image: url('https://simpleicons.org/icons/kyocera.svg');
+}

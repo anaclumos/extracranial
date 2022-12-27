@@ -1,0 +1,885 @@
+article a[href*='https://tmobile.com']::before,
+article a[href*='https://www.tmobile.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tmobile.svg');
+  mask-image: url('https://simpleicons.org/icons/tmobile.svg');
+}
+article a[href*='https://tableau.com']::before,
+article a[href*='https://www.tableau.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tableau.svg');
+  mask-image: url('https://simpleicons.org/icons/tableau.svg');
+}
+article a[href*='https://tablecheck.com']::before,
+article a[href*='https://www.tablecheck.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tablecheck.svg');
+  mask-image: url('https://simpleicons.org/icons/tablecheck.svg');
+}
+article a[href*='https://tacobell.com']::before,
+article a[href*='https://www.tacobell.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tacobell.svg');
+  mask-image: url('https://simpleicons.org/icons/tacobell.svg');
+}
+article a[href*='https://tado.com']::before,
+article a[href*='https://www.tado.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tado.svg');
+  mask-image: url('https://simpleicons.org/icons/tado.svg');
+}
+article a[href*='https://taichi.graphics']::before,
+article a[href*='https://www.taichi.graphics']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/taichigraphics.svg');
+  mask-image: url('https://simpleicons.org/icons/taichigraphics.svg');
+}
+article a[href*='https://taichi.graphics']::before,
+article a[href*='https://www.taichi.graphics']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/taichilang.svg');
+  mask-image: url('https://simpleicons.org/icons/taichilang.svg');
+}
+article a[href*='https://tails.com']::before,
+article a[href*='https://www.tails.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tails.svg');
+  mask-image: url('https://simpleicons.org/icons/tails.svg');
+}
+article a[href*='https://tailwindcss.com']::before,
+article a[href*='https://www.tailwindcss.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tailwindcss.svg');
+  mask-image: url('https://simpleicons.org/icons/tailwindcss.svg');
+}
+article a[href*='https://talend.com']::before,
+article a[href*='https://www.talend.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/talend.svg');
+  mask-image: url('https://simpleicons.org/icons/talend.svg');
+}
+article a[href*='https://talenthouse.com']::before,
+article a[href*='https://www.talenthouse.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/talenthouse.svg');
+  mask-image: url('https://simpleicons.org/icons/talenthouse.svg');
+}
+article a[href*='https://tamiya.com']::before,
+article a[href*='https://www.tamiya.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tamiya.svg');
+  mask-image: url('https://simpleicons.org/icons/tamiya.svg');
+}
+article a[href*='https://tampermonkey.net']::before,
+article a[href*='https://www.tampermonkey.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tampermonkey.svg');
+  mask-image: url('https://simpleicons.org/icons/tampermonkey.svg');
+}
+article a[href*='https://taobao.com']::before,
+article a[href*='https://www.taobao.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/taobao.svg');
+  mask-image: url('https://simpleicons.org/icons/taobao.svg');
+}
+article a[href*='https://tapas.io']::before,
+article a[href*='https://www.tapas.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tapas.svg');
+  mask-image: url('https://simpleicons.org/icons/tapas.svg');
+}
+article a[href*='https://target.com']::before,
+article a[href*='https://www.target.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/target.svg');
+  mask-image: url('https://simpleicons.org/icons/target.svg');
+}
+article a[href*='https://task.com']::before,
+article a[href*='https://www.task.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/task.svg');
+  mask-image: url('https://simpleicons.org/icons/task.svg');
+}
+article a[href*='https://tasmota.com']::before,
+article a[href*='https://www.tasmota.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tasmota.svg');
+  mask-image: url('https://simpleicons.org/icons/tasmota.svg');
+}
+article a[href*='https://tata.com']::before,
+article a[href*='https://www.tata.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tata.svg');
+  mask-image: url('https://simpleicons.org/icons/tata.svg');
+}
+article a[href*='https://tauri.studio']::before,
+article a[href*='https://www.tauri.studio']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tauri.svg');
+  mask-image: url('https://simpleicons.org/icons/tauri.svg');
+}
+article a[href*='https://taxbuzz.com']::before,
+article a[href*='https://www.taxbuzz.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/taxbuzz.svg');
+  mask-image: url('https://simpleicons.org/icons/taxbuzz.svg');
+}
+article a[href*='https://jetbrains.com/teamcity']::before,
+article a[href*='https://www.jetbrains.com/teamcity']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/teamcity.svg');
+  mask-image: url('https://simpleicons.org/icons/teamcity.svg');
+}
+article a[href*='https://teamspeak.com']::before,
+article a[href*='https://www.teamspeak.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/teamspeak.svg');
+  mask-image: url('https://simpleicons.org/icons/teamspeak.svg');
+}
+article a[href*='https://teamviewer.com']::before,
+article a[href*='https://www.teamviewer.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/teamviewer.svg');
+  mask-image: url('https://simpleicons.org/icons/teamviewer.svg');
+}
+article a[href*='https://ted.com']::before,
+article a[href*='https://www.ted.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ted.svg');
+  mask-image: url('https://simpleicons.org/icons/ted.svg');
+}
+article a[href*='https://teespring.com']::before,
+article a[href*='https://www.teespring.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/teespring.svg');
+  mask-image: url('https://simpleicons.org/icons/teespring.svg');
+}
+article a[href*='https://tekton.dev']::before,
+article a[href*='https://www.tekton.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tekton.svg');
+  mask-image: url('https://simpleicons.org/icons/tekton.svg');
+}
+article a[href*='https://tele5.de']::before,
+article a[href*='https://www.tele5.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tele5.svg');
+  mask-image: url('https://simpleicons.org/icons/tele5.svg');
+}
+article a[href*='https://telegram.org']::before,
+article a[href*='https://www.telegram.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/telegram.svg');
+  mask-image: url('https://simpleicons.org/icons/telegram.svg');
+}
+article a[href*='https://telegraph.co.uk']::before,
+article a[href*='https://www.telegraph.co.uk']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/telegraph.svg');
+  mask-image: url('https://simpleicons.org/icons/telegraph.svg');
+}
+article a[href*='https://temporal.io']::before,
+article a[href*='https://www.temporal.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/temporal.svg');
+  mask-image: url('https://simpleicons.org/icons/temporal.svg');
+}
+article a[href*='https://qq.com']::before,
+article a[href*='https://www.qq.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tencentqq.svg');
+  mask-image: url('https://simpleicons.org/icons/tencentqq.svg');
+}
+article a[href*='https://tensorflow.org']::before,
+article a[href*='https://www.tensorflow.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tensorflow.svg');
+  mask-image: url('https://simpleicons.org/icons/tensorflow.svg');
+}
+article a[href*='https://teradata.com']::before,
+article a[href*='https://www.teradata.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/teradata.svg');
+  mask-image: url('https://simpleicons.org/icons/teradata.svg');
+}
+article a[href*='https://teratail.com']::before,
+article a[href*='https://www.teratail.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/teratail.svg');
+  mask-image: url('https://simpleicons.org/icons/teratail.svg');
+}
+article a[href*='https://terraform.io']::before,
+article a[href*='https://www.terraform.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/terraform.svg');
+  mask-image: url('https://simpleicons.org/icons/terraform.svg');
+}
+article a[href*='https://tesco.com']::before,
+article a[href*='https://www.tesco.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tesco.svg');
+  mask-image: url('https://simpleicons.org/icons/tesco.svg');
+}
+article a[href*='https://tesla.com']::before,
+article a[href*='https://www.tesla.com']::before,
+article a[href*='https://teslamotors.com']::before,
+article a[href*='https://www.teslamotors.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tesla.svg');
+  mask-image: url('https://simpleicons.org/icons/tesla.svg');
+}
+article a[href*='https://testcafe.io']::before,
+article a[href*='https://www.testcafe.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/testcafe.svg');
+  mask-image: url('https://simpleicons.org/icons/testcafe.svg');
+}
+article a[href*='https://testin.net']::before,
+article a[href*='https://www.testin.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/testin.svg');
+  mask-image: url('https://simpleicons.org/icons/testin.svg');
+}
+article a[href*='https://testing-library.com']::before,
+article a[href*='https://www.testing-library.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/testinglibrary.svg');
+  mask-image: url('https://simpleicons.org/icons/testinglibrary.svg');
+}
+article a[href*='https://tether.to']::before,
+article a[href*='https://www.tether.to']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tether.svg');
+  mask-image: url('https://simpleicons.org/icons/tether.svg');
+}
+article a[href*='https://textpattern.com']::before,
+article a[href*='https://www.textpattern.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/textpattern.svg');
+  mask-image: url('https://simpleicons.org/icons/textpattern.svg');
+}
+article a[href*='https://thealgorithms.com']::before,
+article a[href*='https://www.thealgorithms.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thealgorithms.svg');
+  mask-image: url('https://simpleicons.org/icons/thealgorithms.svg');
+}
+article a[href*='https://theconversation.com']::before,
+article a[href*='https://www.theconversation.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/theconversation.svg');
+  mask-image: url('https://simpleicons.org/icons/theconversation.svg');
+}
+article a[href*='https://irishtimes.com']::before,
+article a[href*='https://www.irishtimes.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/theirishtimes.svg');
+  mask-image: url('https://simpleicons.org/icons/theirishtimes.svg');
+}
+article a[href*='https://themighty.com']::before,
+article a[href*='https://www.themighty.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/themighty.svg');
+  mask-image: url('https://simpleicons.org/icons/themighty.svg');
+}
+article a[href*='https://themodelsresource.com']::before,
+article a[href*='https://www.themodelsresource.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/themodelsresource.svg');
+  mask-image: url('https://simpleicons.org/icons/themodelsresource.svg');
+}
+article a[href*='https://themoviedb.org']::before,
+article a[href*='https://www.themoviedb.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/themoviedatabase.svg');
+  mask-image: url('https://simpleicons.org/icons/themoviedatabase.svg');
+}
+article a[href*='https://thenorthface.com']::before,
+article a[href*='https://www.thenorthface.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thenorthface.svg');
+  mask-image: url('https://simpleicons.org/icons/thenorthface.svg');
+}
+article a[href*='https://theregister.co.uk']::before,
+article a[href*='https://www.theregister.co.uk']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/theregister.svg');
+  mask-image: url('https://simpleicons.org/icons/theregister.svg');
+}
+article a[href*='https://thesoundsresource.com']::before,
+article a[href*='https://www.thesoundsresource.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thesoundsresource.svg');
+  mask-image: url('https://simpleicons.org/icons/thesoundsresource.svg');
+}
+article a[href*='https://thespritersresource.com']::before,
+article a[href*='https://www.thespritersresource.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thespritersresource.svg');
+  mask-image: url('https://simpleicons.org/icons/thespritersresource.svg');
+}
+article a[href*='https://washingtonpost.com']::before,
+article a[href*='https://www.washingtonpost.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thewashingtonpost.svg');
+  mask-image: url('https://simpleicons.org/icons/thewashingtonpost.svg');
+}
+article a[href*='https://thingiverse.com']::before,
+article a[href*='https://www.thingiverse.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thingiverse.svg');
+  mask-image: url('https://simpleicons.org/icons/thingiverse.svg');
+}
+article a[href*='https://lenovo.com']::before,
+article a[href*='https://www.lenovo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thinkpad.svg');
+  mask-image: url('https://simpleicons.org/icons/thinkpad.svg');
+}
+article a[href*='https://threadless.com']::before,
+article a[href*='https://www.threadless.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/threadless.svg');
+  mask-image: url('https://simpleicons.org/icons/threadless.svg');
+}
+article a[href*='https://threejs.org']::before,
+article a[href*='https://www.threejs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/threedotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/threedotjs.svg');
+}
+article a[href*='https://threema.ch']::before,
+article a[href*='https://www.threema.ch']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/threema.svg');
+  mask-image: url('https://simpleicons.org/icons/threema.svg');
+}
+article a[href*='https://thumbtack.com']::before,
+article a[href*='https://www.thumbtack.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thumbtack.svg');
+  mask-image: url('https://simpleicons.org/icons/thumbtack.svg');
+}
+article a[href*='https://thunderbird.net']::before,
+article a[href*='https://www.thunderbird.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thunderbird.svg');
+  mask-image: url('https://simpleicons.org/icons/thunderbird.svg');
+}
+article a[href*='https://thymeleaf.org']::before,
+article a[href*='https://www.thymeleaf.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/thymeleaf.svg');
+  mask-image: url('https://simpleicons.org/icons/thymeleaf.svg');
+}
+article a[href*='https://ticketmaster.com']::before,
+article a[href*='https://www.ticketmaster.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ticketmaster.svg');
+  mask-image: url('https://simpleicons.org/icons/ticketmaster.svg');
+}
+article a[href*='https://tidal.com']::before,
+article a[href*='https://www.tidal.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tidal.svg');
+  mask-image: url('https://simpleicons.org/icons/tidal.svg');
+}
+article a[href*='https://tide.co']::before,
+article a[href*='https://www.tide.co']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tide.svg');
+  mask-image: url('https://simpleicons.org/icons/tide.svg');
+}
+article a[href*='https://tidyverse.org']::before,
+article a[href*='https://www.tidyverse.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tidyverse.svg');
+  mask-image: url('https://simpleicons.org/icons/tidyverse.svg');
+}
+article a[href*='https://tietoevry.com']::before,
+article a[href*='https://www.tietoevry.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tietoevry.svg');
+  mask-image: url('https://simpleicons.org/icons/tietoevry.svg');
+}
+article a[href*='https://tiktok.com']::before,
+article a[href*='https://www.tiktok.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tiktok.svg');
+  mask-image: url('https://simpleicons.org/icons/tiktok.svg');
+}
+article a[href*='https://tile.com']::before,
+article a[href*='https://www.tile.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tile.svg');
+  mask-image: url('https://simpleicons.org/icons/tile.svg');
+}
+article a[href*='https://timescale.com']::before,
+article a[href*='https://www.timescale.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/timescale.svg');
+  mask-image: url('https://simpleicons.org/icons/timescale.svg');
+}
+article a[href*='https://tinder.com']::before,
+article a[href*='https://www.tinder.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tinder.svg');
+  mask-image: url('https://simpleicons.org/icons/tinder.svg');
+}
+article a[href*='https://tinyletter.com']::before,
+article a[href*='https://www.tinyletter.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tinyletter.svg');
+  mask-image: url('https://simpleicons.org/icons/tinyletter.svg');
+}
+article a[href*='https://tistory.com']::before,
+article a[href*='https://www.tistory.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tistory.svg');
+  mask-image: url('https://simpleicons.org/icons/tistory.svg');
+}
+article a[href*='https://tmux.github.io']::before,
+article a[href*='https://www.tmux.github.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tmux.svg');
+  mask-image: url('https://simpleicons.org/icons/tmux.svg');
+}
+article a[href*='https://todoist.com']::before,
+article a[href*='https://www.todoist.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/todoist.svg');
+  mask-image: url('https://simpleicons.org/icons/todoist.svg');
+}
+article a[href*='https://toggl.com']::before,
+article a[href*='https://www.toggl.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/toggl.svg');
+  mask-image: url('https://simpleicons.org/icons/toggl.svg');
+}
+article a[href*='https://tokyometro.jp']::before,
+article a[href*='https://www.tokyometro.jp']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tokyometro.svg');
+  mask-image: url('https://simpleicons.org/icons/tokyometro.svg');
+}
+article a[href*='https://tomorrowland.com']::before,
+article a[href*='https://www.tomorrowland.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tomorrowland.svg');
+  mask-image: url('https://simpleicons.org/icons/tomorrowland.svg');
+}
+article a[href*='https://topcoder.com']::before,
+article a[href*='https://www.topcoder.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/topcoder.svg');
+  mask-image: url('https://simpleicons.org/icons/topcoder.svg');
+}
+article a[href*='https://toptal.com']::before,
+article a[href*='https://www.toptal.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/toptal.svg');
+  mask-image: url('https://simpleicons.org/icons/toptal.svg');
+}
+article a[href*='https://torproject.org']::before,
+article a[href*='https://www.torproject.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/torbrowser.svg');
+  mask-image: url('https://simpleicons.org/icons/torbrowser.svg');
+}
+article a[href*='https://torproject.org']::before,
+article a[href*='https://www.torproject.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/torproject.svg');
+  mask-image: url('https://simpleicons.org/icons/torproject.svg');
+}
+article a[href*='https://toshiba.com']::before,
+article a[href*='https://www.toshiba.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/toshiba.svg');
+  mask-image: url('https://simpleicons.org/icons/toshiba.svg');
+}
+article a[href*='https://toyota.com']::before,
+article a[href*='https://www.toyota.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/toyota.svg');
+  mask-image: url('https://simpleicons.org/icons/toyota.svg');
+}
+article a[href*='https://tplink.com']::before,
+article a[href*='https://www.tplink.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tplink.svg');
+  mask-image: url('https://simpleicons.org/icons/tplink.svg');
+}
+article a[href*='https://tqdm.github.io']::before,
+article a[href*='https://www.tqdm.github.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tqdm.svg');
+  mask-image: url('https://simpleicons.org/icons/tqdm.svg');
+}
+article a[href*='https://traefik.io']::before,
+article a[href*='https://www.traefik.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/traefikmesh.svg');
+  mask-image: url('https://simpleicons.org/icons/traefikmesh.svg');
+}
+article a[href*='https://traefik.io']::before,
+article a[href*='https://www.traefik.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/traefikproxy.svg');
+  mask-image: url('https://simpleicons.org/icons/traefikproxy.svg');
+}
+article a[href*='https://trainerroad.com']::before,
+article a[href*='https://www.trainerroad.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trainerroad.svg');
+  mask-image: url('https://simpleicons.org/icons/trainerroad.svg');
+}
+article a[href*='https://trakt.tv']::before,
+article a[href*='https://www.trakt.tv']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trakt.svg');
+  mask-image: url('https://simpleicons.org/icons/trakt.svg');
+}
+article a[href*='https://transportforireland.ie']::before,
+article a[href*='https://www.transportforireland.ie']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/transportforireland.svg');
+  mask-image: url('https://simpleicons.org/icons/transportforireland.svg');
+}
+article a[href*='https://tfl.gov.uk']::before,
+article a[href*='https://www.tfl.gov.uk']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/transportforlondon.svg');
+  mask-image: url('https://simpleicons.org/icons/transportforlondon.svg');
+}
+article a[href*='https://travis-ci.com']::before,
+article a[href*='https://www.travis-ci.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/travisci.svg');
+  mask-image: url('https://simpleicons.org/icons/travisci.svg');
+}
+article a[href*='https://teamtreehouse.com']::before,
+article a[href*='https://www.teamtreehouse.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/treehouse.svg');
+  mask-image: url('https://simpleicons.org/icons/treehouse.svg');
+}
+article a[href*='https://trello.com']::before,
+article a[href*='https://www.trello.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trello.svg');
+  mask-image: url('https://simpleicons.org/icons/trello.svg');
+}
+article a[href*='https://trendmicro.com']::before,
+article a[href*='https://www.trendmicro.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trendmicro.svg');
+  mask-image: url('https://simpleicons.org/icons/trendmicro.svg');
+}
+article a[href*='https://treyarch.com']::before,
+article a[href*='https://www.treyarch.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/treyarch.svg');
+  mask-image: url('https://simpleicons.org/icons/treyarch.svg');
+}
+article a[href*='https://triller.co']::before,
+article a[href*='https://www.triller.co']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/triller.svg');
+  mask-image: url('https://simpleicons.org/icons/triller.svg');
+}
+article a[href*='https://trino.io']::before,
+article a[href*='https://www.trino.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trino.svg');
+  mask-image: url('https://simpleicons.org/icons/trino.svg');
+}
+article a[href*='https://trip.com']::before,
+article a[href*='https://www.trip.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tripdotcom.svg');
+  mask-image: url('https://simpleicons.org/icons/tripdotcom.svg');
+}
+article a[href*='https://tripadvisor.com']::before,
+article a[href*='https://www.tripadvisor.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tripadvisor.svg');
+  mask-image: url('https://simpleicons.org/icons/tripadvisor.svg');
+}
+article a[href*='https://trove.nla.gov.au']::before,
+article a[href*='https://www.trove.nla.gov.au']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trove.svg');
+  mask-image: url('https://simpleicons.org/icons/trove.svg');
+}
+article a[href*='https://trpc.io']::before,
+article a[href*='https://www.trpc.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trpc.svg');
+  mask-image: url('https://simpleicons.org/icons/trpc.svg');
+}
+article a[href*='https://truenas.com']::before,
+article a[href*='https://www.truenas.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/truenas.svg');
+  mask-image: url('https://simpleicons.org/icons/truenas.svg');
+}
+article a[href*='https://trulia.com']::before,
+article a[href*='https://www.trulia.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trulia.svg');
+  mask-image: url('https://simpleicons.org/icons/trulia.svg');
+}
+article a[href*='https://trustedshops.com']::before,
+article a[href*='https://www.trustedshops.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trustedshops.svg');
+  mask-image: url('https://simpleicons.org/icons/trustedshops.svg');
+}
+article a[href*='https://trustpilot.com']::before,
+article a[href*='https://www.trustpilot.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/trustpilot.svg');
+  mask-image: url('https://simpleicons.org/icons/trustpilot.svg');
+}
+article a[href*='https://tryitonline.net']::before,
+article a[href*='https://www.tryitonline.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tryitonline.svg');
+  mask-image: url('https://simpleicons.org/icons/tryitonline.svg');
+}
+article a[href*='https://tryhackme.com']::before,
+article a[href*='https://www.tryhackme.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tryhackme.svg');
+  mask-image: url('https://simpleicons.org/icons/tryhackme.svg');
+}
+article a[href*='https://ts-node.dev']::before,
+article a[href*='https://www.ts-node.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tsnode.svg');
+  mask-image: url('https://simpleicons.org/icons/tsnode.svg');
+}
+article a[href*='https://tubitv.com']::before,
+article a[href*='https://www.tubitv.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tubi.svg');
+  mask-image: url('https://simpleicons.org/icons/tubi.svg');
+}
+article a[href*='https://tui.com']::before,
+article a[href*='https://www.tui.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tui.svg');
+  mask-image: url('https://simpleicons.org/icons/tui.svg');
+}
+article a[href*='https://tumblr.com']::before,
+article a[href*='https://www.tumblr.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tumblr.svg');
+  mask-image: url('https://simpleicons.org/icons/tumblr.svg');
+}
+article a[href*='https://tunein.com']::before,
+article a[href*='https://www.tunein.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tunein.svg');
+  mask-image: url('https://simpleicons.org/icons/tunein.svg');
+}
+article a[href*='https://turborepo.com']::before,
+article a[href*='https://www.turborepo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/turborepo.svg');
+  mask-image: url('https://simpleicons.org/icons/turborepo.svg');
+}
+article a[href*='https://turbosquid.com']::before,
+article a[href*='https://www.turbosquid.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/turbosquid.svg');
+  mask-image: url('https://simpleicons.org/icons/turbosquid.svg');
+}
+article a[href*='https://turkishairlines.com']::before,
+article a[href*='https://www.turkishairlines.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/turkishairlines.svg');
+  mask-image: url('https://simpleicons.org/icons/turkishairlines.svg');
+}
+article a[href*='https://tutanota.com']::before,
+article a[href*='https://www.tutanota.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tutanota.svg');
+  mask-image: url('https://simpleicons.org/icons/tutanota.svg');
+}
+article a[href*='https://tvtime.com']::before,
+article a[href*='https://www.tvtime.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/tvtime.svg');
+  mask-image: url('https://simpleicons.org/icons/tvtime.svg');
+}
+article a[href*='https://twilio.com']::before,
+article a[href*='https://www.twilio.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/twilio.svg');
+  mask-image: url('https://simpleicons.org/icons/twilio.svg');
+}
+article a[href*='https://twitch.tv']::before,
+article a[href*='https://www.twitch.tv']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/twitch.svg');
+  mask-image: url('https://simpleicons.org/icons/twitch.svg');
+}
+article a[href*='https://twitter.com']::before,
+article a[href*='https://www.twitter.com']::before,
+article a[href*='https://blog.twitter.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/twitter.svg');
+  mask-image: url('https://simpleicons.org/icons/twitter.svg');
+}
+article a[href*='https://twoo.com']::before,
+article a[href*='https://www.twoo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/twoo.svg');
+  mask-image: url('https://simpleicons.org/icons/twoo.svg');
+}
+article a[href*='https://typeform.com']::before,
+article a[href*='https://www.typeform.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/typeform.svg');
+  mask-image: url('https://simpleicons.org/icons/typeform.svg');
+}
+article a[href*='https://typescriptlang.org']::before,
+article a[href*='https://www.typescriptlang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/typescript.svg');
+  mask-image: url('https://simpleicons.org/icons/typescript.svg');
+}
+article a[href*='https://typo3.org']::before,
+article a[href*='https://www.typo3.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/typo3.svg');
+  mask-image: url('https://simpleicons.org/icons/typo3.svg');
+}
