@@ -1,0 +1,746 @@
+article a[href*='https://r3.com']::before,
+article a[href*='https://www.r3.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/R.svg');
+  mask-image: url('https://simpleicons.org/icons/R.svg');
+}
+article a[href*='https://r3.com']::before,
+article a[href*='https://www.r3.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/r3.svg');
+  mask-image: url('https://simpleicons.org/icons/r3.svg');
+}
+article a[href*='https://rabbitmq.com']::before,
+article a[href*='https://www.rabbitmq.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rabbitmq.svg');
+  mask-image: url('https://simpleicons.org/icons/rabbitmq.svg');
+}
+article a[href*='https://racket-lang.org']::before,
+article a[href*='https://www.racket-lang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/racket.svg');
+  mask-image: url('https://simpleicons.org/icons/racket.svg');
+}
+article a[href*='https://radar.io']::before,
+article a[href*='https://www.radar.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/radar.svg');
+  mask-image: url('https://simpleicons.org/icons/radar.svg');
+}
+article a[href*='https://radiopublic.com']::before,
+article a[href*='https://www.radiopublic.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/radiopublic.svg');
+  mask-image: url('https://simpleicons.org/icons/radiopublic.svg');
+}
+article a[href*='https://railway.app']::before,
+article a[href*='https://www.railway.app']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/railway.svg');
+  mask-image: url('https://simpleicons.org/icons/railway.svg');
+}
+article a[href*='https://rainmeter.net']::before,
+article a[href*='https://www.rainmeter.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rainmeter.svg');
+  mask-image: url('https://simpleicons.org/icons/rainmeter.svg');
+}
+article a[href*='https://rakuten.com']::before,
+article a[href*='https://www.rakuten.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rakuten.svg');
+  mask-image: url('https://simpleicons.org/icons/rakuten.svg');
+}
+article a[href*='https://ram.moe']::before,
+article a[href*='https://www.ram.moe']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ram.svg');
+  mask-image: url('https://simpleicons.org/icons/ram.svg');
+}
+article a[href*='https://rancher.com']::before,
+article a[href*='https://www.rancher.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rancher.svg');
+  mask-image: url('https://simpleicons.org/icons/rancher.svg');
+}
+article a[href*='https://rarible.com']::before,
+article a[href*='https://www.rarible.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rarible.svg');
+  mask-image: url('https://simpleicons.org/icons/rarible.svg');
+}
+article a[href*='https://rasa.com']::before,
+article a[href*='https://www.rasa.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rasa.svg');
+  mask-image: url('https://simpleicons.org/icons/rasa.svg');
+}
+article a[href*='https://raspberrypi.org']::before,
+article a[href*='https://www.raspberrypi.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/raspberrypi.svg');
+  mask-image: url('https://simpleicons.org/icons/raspberrypi.svg');
+}
+article a[href*='https://ravelry.com']::before,
+article a[href*='https://www.ravelry.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ravelry.svg');
+  mask-image: url('https://simpleicons.org/icons/ravelry.svg');
+}
+article a[href*='https://ray.io']::before,
+article a[href*='https://www.ray.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ray.svg');
+  mask-image: url('https://simpleicons.org/icons/ray.svg');
+}
+article a[href*='https://razer.com']::before,
+article a[href*='https://www.razer.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/razer.svg');
+  mask-image: url('https://simpleicons.org/icons/razer.svg');
+}
+article a[href*='https://razorpay.com']::before,
+article a[href*='https://www.razorpay.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/razorpay.svg');
+  mask-image: url('https://simpleicons.org/icons/razorpay.svg');
+}
+article a[href*='https://reactjs.org']::before,
+article a[href*='https://www.reactjs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/react.svg');
+  mask-image: url('https://simpleicons.org/icons/react.svg');
+}
+article a[href*='https://react-hook-form.com']::before,
+article a[href*='https://www.react-hook-form.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reacthookform.svg');
+  mask-image: url('https://simpleicons.org/icons/reacthookform.svg');
+}
+article a[href*='https://react-query.tanstack.com']::before,
+article a[href*='https://www.react-query.tanstack.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reactquery.svg');
+  mask-image: url('https://simpleicons.org/icons/reactquery.svg');
+}
+article a[href*='https://reactrouter.com']::before,
+article a[href*='https://www.reactrouter.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reactrouter.svg');
+  mask-image: url('https://simpleicons.org/icons/reactrouter.svg');
+}
+article a[href*='https://react-table.tanstack.com']::before,
+article a[href*='https://www.react-table.tanstack.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reacttable.svg');
+  mask-image: url('https://simpleicons.org/icons/reacttable.svg');
+}
+article a[href*='https://reactivex.io']::before,
+article a[href*='https://www.reactivex.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reactivex.svg');
+  mask-image: url('https://simpleicons.org/icons/reactivex.svg');
+}
+article a[href*='https://reactos.org']::before,
+article a[href*='https://www.reactos.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reactos.svg');
+  mask-image: url('https://simpleicons.org/icons/reactos.svg');
+}
+article a[href*='https://readthedocs.org']::before,
+article a[href*='https://www.readthedocs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/readthedocs.svg');
+  mask-image: url('https://simpleicons.org/icons/readthedocs.svg');
+}
+article a[href*='https://readme.io']::before,
+article a[href*='https://www.readme.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/readme.svg');
+  mask-image: url('https://simpleicons.org/icons/readme.svg');
+}
+article a[href*='https://realm.io']::before,
+article a[href*='https://www.realm.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/realm.svg');
+  mask-image: url('https://simpleicons.org/icons/realm.svg');
+}
+article a[href*='https://reasonml.github.io']::before,
+article a[href*='https://www.reasonml.github.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reason.svg');
+  mask-image: url('https://simpleicons.org/icons/reason.svg');
+}
+article a[href*='https://reasonstudios.com']::before,
+article a[href*='https://www.reasonstudios.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reasonstudios.svg');
+  mask-image: url('https://simpleicons.org/icons/reasonstudios.svg');
+}
+article a[href*='https://red-lang.org']::before,
+article a[href*='https://www.red-lang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/red.svg');
+  mask-image: url('https://simpleicons.org/icons/red.svg');
+}
+article a[href*='https://redhat.com']::before,
+article a[href*='https://www.redhat.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/redhat.svg');
+  mask-image: url('https://simpleicons.org/icons/redhat.svg');
+}
+article a[href*='https://openshift.com']::before,
+article a[href*='https://www.openshift.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/redhatopenshift.svg');
+  mask-image: url('https://simpleicons.org/icons/redhatopenshift.svg');
+}
+article a[href*='https://redbubble.com']::before,
+article a[href*='https://www.redbubble.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/redbubble.svg');
+  mask-image: url('https://simpleicons.org/icons/redbubble.svg');
+}
+article a[href*='https://reddit.com']::before,
+article a[href*='https://www.reddit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reddit.svg');
+  mask-image: url('https://simpleicons.org/icons/reddit.svg');
+}
+article a[href*='https://redis.io']::before,
+article a[href*='https://www.redis.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/redis.svg');
+  mask-image: url('https://simpleicons.org/icons/redis.svg');
+}
+article a[href*='https://redmine.org']::before,
+article a[href*='https://www.redmine.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/redmine.svg');
+  mask-image: url('https://simpleicons.org/icons/redmine.svg');
+}
+article a[href*='https://redux.js.org']::before,
+article a[href*='https://www.redux.js.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/redux.svg');
+  mask-image: url('https://simpleicons.org/icons/redux.svg');
+}
+article a[href*='https://redux-saga.js.org']::before,
+article a[href*='https://www.redux-saga.js.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reduxsaga.svg');
+  mask-image: url('https://simpleicons.org/icons/reduxsaga.svg');
+}
+article a[href*='https://redwoodjs.com']::before,
+article a[href*='https://www.redwoodjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/redwoodjs.svg');
+  mask-image: url('https://simpleicons.org/icons/redwoodjs.svg');
+}
+article a[href*='https://reebok.com']::before,
+article a[href*='https://www.reebok.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reebok.svg');
+  mask-image: url('https://simpleicons.org/icons/reebok.svg');
+}
+article a[href*='https://relay.dev']::before,
+article a[href*='https://www.relay.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/relay.svg');
+  mask-image: url('https://simpleicons.org/icons/relay.svg');
+}
+article a[href*='https://ril.com']::before,
+article a[href*='https://www.ril.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/relianceindustrieslimited.svg');
+  mask-image: url('https://simpleicons.org/icons/relianceindustrieslimited.svg');
+}
+article a[href*='https://remix.run']::before,
+article a[href*='https://www.remix.run']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/remix.svg');
+  mask-image: url('https://simpleicons.org/icons/remix.svg');
+}
+article a[href*='https://renpy.org']::before,
+article a[href*='https://www.renpy.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/renpy.svg');
+  mask-image: url('https://simpleicons.org/icons/renpy.svg');
+}
+article a[href*='https://renault.com']::before,
+article a[href*='https://www.renault.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/renault.svg');
+  mask-image: url('https://simpleicons.org/icons/renault.svg');
+}
+article a[href*='https://render.com']::before,
+article a[href*='https://www.render.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/render.svg');
+  mask-image: url('https://simpleicons.org/icons/render.svg');
+}
+article a[href*='https://renovatebot.com']::before,
+article a[href*='https://www.renovatebot.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/renovatebot.svg');
+  mask-image: url('https://simpleicons.org/icons/renovatebot.svg');
+}
+article a[href*='https://renren.com']::before,
+article a[href*='https://www.renren.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/renren.svg');
+  mask-image: url('https://simpleicons.org/icons/renren.svg');
+}
+article a[href*='https://repl.it']::before,
+article a[href*='https://www.repl.it']::before,
+article a[href*='https://blog.repl.it']::before,
+article a[href*='https://replit.com']::before,
+article a[href*='https://www.replit.com']::before,
+article a[href*='https://blog.replit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/replit.svg');
+  mask-image: url('https://simpleicons.org/icons/replit.svg');
+}
+article a[href*='https://rog.asus.com']::before,
+article a[href*='https://www.rog.asus.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/republicofgamers.svg');
+  mask-image: url('https://simpleicons.org/icons/republicofgamers.svg');
+}
+article a[href*='https://rescript-lang.org']::before,
+article a[href*='https://www.rescript-lang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rescript.svg');
+  mask-image: url('https://simpleicons.org/icons/rescript.svg');
+}
+article a[href*='https://rescuetime.com']::before,
+article a[href*='https://www.rescuetime.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rescuetime.svg');
+  mask-image: url('https://simpleicons.org/icons/rescuetime.svg');
+}
+article a[href*='https://researchgate.net']::before,
+article a[href*='https://www.researchgate.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/researchgate.svg');
+  mask-image: url('https://simpleicons.org/icons/researchgate.svg');
+}
+article a[href*='https://jetbrains.com/resharper']::before,
+article a[href*='https://www.jetbrains.com/resharper']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/resharper.svg');
+  mask-image: url('https://simpleicons.org/icons/resharper.svg');
+}
+article a[href*='https://resurrectionremix.com']::before,
+article a[href*='https://www.resurrectionremix.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/resurrectionremixos.svg');
+  mask-image: url('https://simpleicons.org/icons/resurrectionremixos.svg');
+}
+article a[href*='https://retroarch.com']::before,
+article a[href*='https://www.retroarch.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/retroarch.svg');
+  mask-image: url('https://simpleicons.org/icons/retroarch.svg');
+}
+article a[href*='https://retropie.org.uk']::before,
+article a[href*='https://www.retropie.org.uk']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/retropie.svg');
+  mask-image: url('https://simpleicons.org/icons/retropie.svg');
+}
+article a[href*='https://revealjs.com']::before,
+article a[href*='https://www.revealjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/revealdotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/revealdotjs.svg');
+}
+article a[href*='https://reverbnation.com']::before,
+article a[href*='https://www.reverbnation.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/reverbnation.svg');
+  mask-image: url('https://simpleicons.org/icons/reverbnation.svg');
+}
+article a[href*='https://revolt.chat']::before,
+article a[href*='https://www.revolt.chat']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/revoltdotchat.svg');
+  mask-image: url('https://simpleicons.org/icons/revoltdotchat.svg');
+}
+article a[href*='https://revolut.com']::before,
+article a[href*='https://www.revolut.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/revolut.svg');
+  mask-image: url('https://simpleicons.org/icons/revolut.svg');
+}
+article a[href*='https://revue.co']::before,
+article a[href*='https://www.revue.co']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/revue.svg');
+  mask-image: url('https://simpleicons.org/icons/revue.svg');
+}
+article a[href*='https://rewe.de']::before,
+article a[href*='https://www.rewe.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rewe.svg');
+  mask-image: url('https://simpleicons.org/icons/rewe.svg');
+}
+article a[href*='https://rezgo.com']::before,
+article a[href*='https://www.rezgo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rezgo.svg');
+  mask-image: url('https://simpleicons.org/icons/rezgo.svg');
+}
+article a[href*='https://mcneel.com/rhino']::before,
+article a[href*='https://www.mcneel.com/rhino']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rhinoceros.svg');
+  mask-image: url('https://simpleicons.org/icons/rhinoceros.svg');
+}
+article a[href*='https://jetbrains.com/rider']::before,
+article a[href*='https://www.jetbrains.com/rider']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rider.svg');
+  mask-image: url('https://simpleicons.org/icons/rider.svg');
+}
+article a[href*='https://rimac-automobili.com']::before,
+article a[href*='https://www.rimac-automobili.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rimacautomobili.svg');
+  mask-image: url('https://simpleicons.org/icons/rimacautomobili.svg');
+}
+article a[href*='https://ring.com']::before,
+article a[href*='https://www.ring.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ring.svg');
+  mask-image: url('https://simpleicons.org/icons/ring.svg');
+}
+article a[href*='https://riotgames.com']::before,
+article a[href*='https://www.riotgames.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/riotgames.svg');
+  mask-image: url('https://simpleicons.org/icons/riotgames.svg');
+}
+article a[href*='https://ripple.com']::before,
+article a[href*='https://www.ripple.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ripple.svg');
+  mask-image: url('https://simpleicons.org/icons/ripple.svg');
+}
+article a[href*='https://riseup.net']::before,
+article a[href*='https://www.riseup.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/riseup.svg');
+  mask-image: url('https://simpleicons.org/icons/riseup.svg');
+}
+article a[href*='https://roamresearch.com']::before,
+article a[href*='https://www.roamresearch.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/roamresearch.svg');
+  mask-image: url('https://simpleicons.org/icons/roamresearch.svg');
+}
+article a[href*='https://roblox.com']::before,
+article a[href*='https://www.roblox.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/roblox.svg');
+  mask-image: url('https://simpleicons.org/icons/roblox.svg');
+}
+article a[href*='https://robotframework.org']::before,
+article a[href*='https://www.robotframework.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/robotframework.svg');
+  mask-image: url('https://simpleicons.org/icons/robotframework.svg');
+}
+article a[href*='https://rocket.chat']::before,
+article a[href*='https://www.rocket.chat']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rocketdotchat.svg');
+  mask-image: url('https://simpleicons.org/icons/rocketdotchat.svg');
+}
+article a[href*='https://rocksdb.org']::before,
+article a[href*='https://www.rocksdb.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rocksdb.svg');
+  mask-image: url('https://simpleicons.org/icons/rocksdb.svg');
+}
+article a[href*='https://rockylinux.org']::before,
+article a[href*='https://www.rockylinux.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rockylinux.svg');
+  mask-image: url('https://simpleicons.org/icons/rockylinux.svg');
+}
+article a[href*='https://roku.com']::before,
+article a[href*='https://www.roku.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/roku.svg');
+  mask-image: url('https://simpleicons.org/icons/roku.svg');
+}
+article a[href*='https://rolls-royce.com']::before,
+article a[href*='https://www.rolls-royce.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rollsroyce.svg');
+  mask-image: url('https://simpleicons.org/icons/rollsroyce.svg');
+}
+article a[href*='https://rollupjs.org']::before,
+article a[href*='https://www.rollupjs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rollupdotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/rollupdotjs.svg');
+}
+article a[href*='https://romefrontend.dev']::before,
+article a[href*='https://www.romefrontend.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rome.svg');
+  mask-image: url('https://simpleicons.org/icons/rome.svg');
+}
+article a[href*='https://roots.io']::before,
+article a[href*='https://www.roots.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/roots.svg');
+  mask-image: url('https://simpleicons.org/icons/roots.svg');
+}
+article a[href*='https://roots.io/bedrock']::before,
+article a[href*='https://www.roots.io/bedrock']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rootsbedrock.svg');
+  mask-image: url('https://simpleicons.org/icons/rootsbedrock.svg');
+}
+article a[href*='https://roots.io/sage']::before,
+article a[href*='https://www.roots.io/sage']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rootssage.svg');
+  mask-image: url('https://simpleicons.org/icons/rootssage.svg');
+}
+article a[href*='https://ros.org']::before,
+article a[href*='https://www.ros.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ros.svg');
+  mask-image: url('https://simpleicons.org/icons/ros.svg');
+}
+article a[href*='https://rossmann.de']::before,
+article a[href*='https://www.rossmann.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rossmann.svg');
+  mask-image: url('https://simpleicons.org/icons/rossmann.svg');
+}
+article a[href*='https://rotary.org']::before,
+article a[href*='https://www.rotary.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rotaryinternational.svg');
+  mask-image: url('https://simpleicons.org/icons/rotaryinternational.svg');
+}
+article a[href*='https://rottentomatoes.com']::before,
+article a[href*='https://www.rottentomatoes.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rottentomatoes.svg');
+  mask-image: url('https://simpleicons.org/icons/rottentomatoes.svg');
+}
+article a[href*='https://roundcube.net']::before,
+article a[href*='https://www.roundcube.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/roundcube.svg');
+  mask-image: url('https://simpleicons.org/icons/roundcube.svg');
+}
+article a[href*='https://rsocket.io']::before,
+article a[href*='https://www.rsocket.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rsocket.svg');
+  mask-image: url('https://simpleicons.org/icons/rsocket.svg');
+}
+article a[href*='https://rss.com']::before,
+article a[href*='https://www.rss.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rss.svg');
+  mask-image: url('https://simpleicons.org/icons/rss.svg');
+}
+article a[href*='https://rstudio.com']::before,
+article a[href*='https://www.rstudio.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rstudio.svg');
+  mask-image: url('https://simpleicons.org/icons/rstudio.svg');
+}
+article a[href*='https://rte.ie']::before,
+article a[href*='https://www.rte.ie']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rte.svg');
+  mask-image: url('https://simpleicons.org/icons/rte.svg');
+}
+article a[href*='https://rtl.de']::before,
+article a[href*='https://www.rtl.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rtl.svg');
+  mask-image: url('https://simpleicons.org/icons/rtl.svg');
+}
+article a[href*='https://rtlzwei.de']::before,
+article a[href*='https://www.rtlzwei.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rtlzwei.svg');
+  mask-image: url('https://simpleicons.org/icons/rtlzwei.svg');
+}
+article a[href*='https://rubocop.org']::before,
+article a[href*='https://www.rubocop.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rubocop.svg');
+  mask-image: url('https://simpleicons.org/icons/rubocop.svg');
+}
+article a[href*='https://ruby-lang.org']::before,
+article a[href*='https://www.ruby-lang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ruby.svg');
+  mask-image: url('https://simpleicons.org/icons/ruby.svg');
+}
+article a[href*='https://rubyonrails.org']::before,
+article a[href*='https://www.rubyonrails.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rubyonrails.svg');
+  mask-image: url('https://simpleicons.org/icons/rubyonrails.svg');
+}
+article a[href*='https://sinatrarb.com']::before,
+article a[href*='https://www.sinatrarb.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rubysinatra.svg');
+  mask-image: url('https://simpleicons.org/icons/rubysinatra.svg');
+}
+article a[href*='https://rubygems.org']::before,
+article a[href*='https://www.rubygems.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rubygems.svg');
+  mask-image: url('https://simpleicons.org/icons/rubygems.svg');
+}
+article a[href*='https://runkeeper.com']::before,
+article a[href*='https://www.runkeeper.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/runkeeper.svg');
+  mask-image: url('https://simpleicons.org/icons/runkeeper.svg');
+}
+article a[href*='https://runkit.com']::before,
+article a[href*='https://www.runkit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/runkit.svg');
+  mask-image: url('https://simpleicons.org/icons/runkit.svg');
+}
+article a[href*='https://rust-lang.org']::before,
+article a[href*='https://www.rust-lang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rust.svg');
+  mask-image: url('https://simpleicons.org/icons/rust.svg');
+}
+article a[href*='https://rxdb.info']::before,
+article a[href*='https://www.rxdb.info']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/rxdb.svg');
+  mask-image: url('https://simpleicons.org/icons/rxdb.svg');
+}
+article a[href*='https://ryanair.com']::before,
+article a[href*='https://www.ryanair.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ryanair.svg');
+  mask-image: url('https://simpleicons.org/icons/ryanair.svg');
+}

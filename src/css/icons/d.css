@@ -1,0 +1,707 @@
+article a[href*='https://dlang.org']::before,
+article a[href*='https://www.dlang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/d.svg');
+  mask-image: url('https://simpleicons.org/icons/d.svg');
+}
+article a[href*='https://d-edge.com']::before,
+article a[href*='https://www.d-edge.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dedge.svg');
+  mask-image: url('https://simpleicons.org/icons/dedge.svg');
+}
+article a[href*='https://dwavesys.com']::before,
+article a[href*='https://www.dwavesys.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dwavesystems.svg');
+  mask-image: url('https://simpleicons.org/icons/dwavesystems.svg');
+}
+article a[href*='https://d3js.org']::before,
+article a[href*='https://www.d3js.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/d3dotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/d3dotjs.svg');
+}
+article a[href*='https://dacia.com']::before,
+article a[href*='https://www.dacia.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dacia.svg');
+  mask-image: url('https://simpleicons.org/icons/dacia.svg');
+}
+article a[href*='https://daf.com']::before,
+article a[href*='https://www.daf.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/daf.svg');
+  mask-image: url('https://simpleicons.org/icons/daf.svg');
+}
+article a[href*='https://dailymotion.com']::before,
+article a[href*='https://www.dailymotion.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dailymotion.svg');
+  mask-image: url('https://simpleicons.org/icons/dailymotion.svg');
+}
+article a[href*='https://daimler.com']::before,
+article a[href*='https://www.daimler.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/daimler.svg');
+  mask-image: url('https://simpleicons.org/icons/daimler.svg');
+}
+article a[href*='https://dapr.io']::before,
+article a[href*='https://www.dapr.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dapr.svg');
+  mask-image: url('https://simpleicons.org/icons/dapr.svg');
+}
+article a[href*='https://darkreader.org']::before,
+article a[href*='https://www.darkreader.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/darkreader.svg');
+  mask-image: url('https://simpleicons.org/icons/darkreader.svg');
+}
+article a[href*='https://dart.dev']::before,
+article a[href*='https://www.dart.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dart.svg');
+  mask-image: url('https://simpleicons.org/icons/dart.svg');
+}
+article a[href*='https://darty.com']::before,
+article a[href*='https://www.darty.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/darty.svg');
+  mask-image: url('https://simpleicons.org/icons/darty.svg');
+}
+article a[href*='https://daserste.de']::before,
+article a[href*='https://www.daserste.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/daserste.svg');
+  mask-image: url('https://simpleicons.org/icons/daserste.svg');
+}
+article a[href*='https://plotly.com']::before,
+article a[href*='https://www.plotly.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dash.svg');
+  mask-image: url('https://simpleicons.org/icons/dash.svg');
+}
+article a[href*='https://dashlane.com']::before,
+article a[href*='https://www.dashlane.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dashlane.svg');
+  mask-image: url('https://simpleicons.org/icons/dashlane.svg');
+}
+article a[href*='https://dask.org']::before,
+article a[href*='https://www.dask.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dask.svg');
+  mask-image: url('https://simpleicons.org/icons/dask.svg');
+}
+article a[href*='https://dassaultsystemes.com']::before,
+article a[href*='https://www.dassaultsystemes.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dassaultsystemes.svg');
+  mask-image: url('https://simpleicons.org/icons/dassaultsystemes.svg');
+}
+article a[href*='https://data.ai']::before,
+article a[href*='https://www.data.ai']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/datadotai.svg');
+  mask-image: url('https://simpleicons.org/icons/datadotai.svg');
+}
+article a[href*='https://databricks.com']::before,
+article a[href*='https://www.databricks.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/databricks.svg');
+  mask-image: url('https://simpleicons.org/icons/databricks.svg');
+}
+article a[href*='https://datacamp.com']::before,
+article a[href*='https://www.datacamp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/datacamp.svg');
+  mask-image: url('https://simpleicons.org/icons/datacamp.svg');
+}
+article a[href*='https://datadoghq.com']::before,
+article a[href*='https://www.datadoghq.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/datadog.svg');
+  mask-image: url('https://simpleicons.org/icons/datadog.svg');
+}
+article a[href*='https://jetbrains.com']::before,
+article a[href*='https://www.jetbrains.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/datagrip.svg');
+  mask-image: url('https://simpleicons.org/icons/datagrip.svg');
+}
+article a[href*='https://dataiku.com']::before,
+article a[href*='https://www.dataiku.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dataiku.svg');
+  mask-image: url('https://simpleicons.org/icons/dataiku.svg');
+}
+article a[href*='https://datastax.com']::before,
+article a[href*='https://www.datastax.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/datastax.svg');
+  mask-image: url('https://simpleicons.org/icons/datastax.svg');
+}
+article a[href*='https://dataverse.org']::before,
+article a[href*='https://www.dataverse.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dataverse.svg');
+  mask-image: url('https://simpleicons.org/icons/dataverse.svg');
+}
+article a[href*='https://datocms.com']::before,
+article a[href*='https://www.datocms.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/datocms.svg');
+  mask-image: url('https://simpleicons.org/icons/datocms.svg');
+}
+article a[href*='https://datto.com']::before,
+article a[href*='https://www.datto.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/datto.svg');
+  mask-image: url('https://simpleicons.org/icons/datto.svg');
+}
+article a[href*='https://dazn.com']::before,
+article a[href*='https://www.dazn.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dazn.svg');
+  mask-image: url('https://simpleicons.org/icons/dazn.svg');
+}
+article a[href*='https://dblp.org']::before,
+article a[href*='https://www.dblp.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dblp.svg');
+  mask-image: url('https://simpleicons.org/icons/dblp.svg');
+}
+article a[href*='https://getdbt.com']::before,
+article a[href*='https://www.getdbt.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dbt.svg');
+  mask-image: url('https://simpleicons.org/icons/dbt.svg');
+}
+article a[href*='https://dccomics.com']::before,
+article a[href*='https://www.dccomics.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dcentertainment.svg');
+  mask-image: url('https://simpleicons.org/icons/dcentertainment.svg');
+}
+article a[href*='https://delonghi.com']::before,
+article a[href*='https://www.delonghi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/delonghi.svg');
+  mask-image: url('https://simpleicons.org/icons/delonghi.svg');
+}
+article a[href*='https://debian.org']::before,
+article a[href*='https://www.debian.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/debian.svg');
+  mask-image: url('https://simpleicons.org/icons/debian.svg');
+}
+article a[href*='https://deepin.org']::before,
+article a[href*='https://www.deepin.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/deepin.svg');
+  mask-image: url('https://simpleicons.org/icons/deepin.svg');
+}
+article a[href*='https://deepnote.com']::before,
+article a[href*='https://www.deepnote.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/deepnote.svg');
+  mask-image: url('https://simpleicons.org/icons/deepnote.svg');
+}
+article a[href*='https://deezer.com']::before,
+article a[href*='https://www.deezer.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/deezer.svg');
+  mask-image: url('https://simpleicons.org/icons/deezer.svg');
+}
+article a[href*='https://delicious.com']::before,
+article a[href*='https://www.delicious.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/delicious.svg');
+  mask-image: url('https://simpleicons.org/icons/delicious.svg');
+}
+article a[href*='https://deliveroo.co.uk']::before,
+article a[href*='https://www.deliveroo.co.uk']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/deliveroo.svg');
+  mask-image: url('https://simpleicons.org/icons/deliveroo.svg');
+}
+article a[href*='https://dell.com']::before,
+article a[href*='https://www.dell.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dell.svg');
+  mask-image: url('https://simpleicons.org/icons/dell.svg');
+}
+article a[href*='https://embarcadero.com']::before,
+article a[href*='https://www.embarcadero.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/delphi.svg');
+  mask-image: url('https://simpleicons.org/icons/delphi.svg');
+}
+article a[href*='https://delta.com']::before,
+article a[href*='https://www.delta.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/delta.svg');
+  mask-image: url('https://simpleicons.org/icons/delta.svg');
+}
+article a[href*='https://deno.land']::before,
+article a[href*='https://www.deno.land']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/deno.svg');
+  mask-image: url('https://simpleicons.org/icons/deno.svg');
+}
+article a[href*='https://dependabot.com']::before,
+article a[href*='https://www.dependabot.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dependabot.svg');
+  mask-image: url('https://simpleicons.org/icons/dependabot.svg');
+}
+article a[href*='https://spiegel.de']::before,
+article a[href*='https://www.spiegel.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/derspiegel.svg');
+  mask-image: url('https://simpleicons.org/icons/derspiegel.svg');
+}
+article a[href*='https://designernews.co']::before,
+article a[href*='https://www.designernews.co']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/designernews.svg');
+  mask-image: url('https://simpleicons.org/icons/designernews.svg');
+}
+article a[href*='https://bahn.de']::before,
+article a[href*='https://www.bahn.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/deutschebahn.svg');
+  mask-image: url('https://simpleicons.org/icons/deutschebahn.svg');
+}
+article a[href*='https://deutsche-bank.de']::before,
+article a[href*='https://www.deutsche-bank.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/deutschebank.svg');
+  mask-image: url('https://simpleicons.org/icons/deutschebank.svg');
+}
+article a[href*='https://dev.to']::before,
+article a[href*='https://www.dev.to']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/devdotto.svg');
+  mask-image: url('https://simpleicons.org/icons/devdotto.svg');
+}
+article a[href*='https://devexpress.com']::before,
+article a[href*='https://www.devexpress.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/devexpress.svg');
+  mask-image: url('https://simpleicons.org/icons/devexpress.svg');
+}
+article a[href*='https://deviantart.com']::before,
+article a[href*='https://www.deviantart.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/deviantart.svg');
+  mask-image: url('https://simpleicons.org/icons/deviantart.svg');
+}
+article a[href*='https://devpost.com']::before,
+article a[href*='https://www.devpost.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/devpost.svg');
+  mask-image: url('https://simpleicons.org/icons/devpost.svg');
+}
+article a[href*='https://devrant.com']::before,
+article a[href*='https://www.devrant.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/devrant.svg');
+  mask-image: url('https://simpleicons.org/icons/devrant.svg');
+}
+article a[href*='https://dgraph.io']::before,
+article a[href*='https://www.dgraph.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dgraph.svg');
+  mask-image: url('https://simpleicons.org/icons/dgraph.svg');
+}
+article a[href*='https://dhl.com']::before,
+article a[href*='https://www.dhl.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dhl.svg');
+  mask-image: url('https://simpleicons.org/icons/dhl.svg');
+}
+article a[href*='https://diagrams.net']::before,
+article a[href*='https://www.diagrams.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/diagramsdotnet.svg');
+  mask-image: url('https://simpleicons.org/icons/diagramsdotnet.svg');
+}
+article a[href*='https://dialogflow.com']::before,
+article a[href*='https://www.dialogflow.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dialogflow.svg');
+  mask-image: url('https://simpleicons.org/icons/dialogflow.svg');
+}
+article a[href*='https://diasporafoundation.org']::before,
+article a[href*='https://www.diasporafoundation.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/diaspora.svg');
+  mask-image: url('https://simpleicons.org/icons/diaspora.svg');
+}
+article a[href*='https://digg.com']::before,
+article a[href*='https://www.digg.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/digg.svg');
+  mask-image: url('https://simpleicons.org/icons/digg.svg');
+}
+article a[href*='https://digikey.com']::before,
+article a[href*='https://www.digikey.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/digikeyelectronics.svg');
+  mask-image: url('https://simpleicons.org/icons/digikeyelectronics.svg');
+}
+article a[href*='https://digitalocean.com']::before,
+article a[href*='https://www.digitalocean.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/digitalocean.svg');
+  mask-image: url('https://simpleicons.org/icons/digitalocean.svg');
+}
+article a[href*='https://dior.com']::before,
+article a[href*='https://www.dior.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dior.svg');
+  mask-image: url('https://simpleicons.org/icons/dior.svg');
+}
+article a[href*='https://directus.io']::before,
+article a[href*='https://www.directus.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/directus.svg');
+  mask-image: url('https://simpleicons.org/icons/directus.svg');
+}
+article a[href*='https://discogs.com']::before,
+article a[href*='https://www.discogs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/discogs.svg');
+  mask-image: url('https://simpleicons.org/icons/discogs.svg');
+}
+article a[href*='https://discord.com']::before,
+article a[href*='https://www.discord.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/discord.svg');
+  mask-image: url('https://simpleicons.org/icons/discord.svg');
+}
+article a[href*='https://discourse.org']::before,
+article a[href*='https://www.discourse.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/discourse.svg');
+  mask-image: url('https://simpleicons.org/icons/discourse.svg');
+}
+article a[href*='https://discover.com']::before,
+article a[href*='https://www.discover.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/discover.svg');
+  mask-image: url('https://simpleicons.org/icons/discover.svg');
+}
+article a[href*='https://disqus.com']::before,
+article a[href*='https://www.disqus.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/disqus.svg');
+  mask-image: url('https://simpleicons.org/icons/disqus.svg');
+}
+article a[href*='https://disroot.org']::before,
+article a[href*='https://www.disroot.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/disroot.svg');
+  mask-image: url('https://simpleicons.org/icons/disroot.svg');
+}
+article a[href*='https://djangoproject.com']::before,
+article a[href*='https://www.djangoproject.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/django.svg');
+  mask-image: url('https://simpleicons.org/icons/django.svg');
+}
+article a[href*='https://dlib.net']::before,
+article a[href*='https://www.dlib.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dlib.svg');
+  mask-image: url('https://simpleicons.org/icons/dlib.svg');
+}
+article a[href*='https://dlna.org']::before,
+article a[href*='https://www.dlna.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dlna.svg');
+  mask-image: url('https://simpleicons.org/icons/dlna.svg');
+}
+article a[href*='https://dm.de']::before,
+article a[href*='https://www.dm.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dm.svg');
+  mask-image: url('https://simpleicons.org/icons/dm.svg');
+}
+article a[href*='https://docker.com']::before,
+article a[href*='https://www.docker.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/docker.svg');
+  mask-image: url('https://simpleicons.org/icons/docker.svg');
+}
+article a[href*='https://docs.rs']::before,
+article a[href*='https://www.docs.rs']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/docsdotrs.svg');
+  mask-image: url('https://simpleicons.org/icons/docsdotrs.svg');
+}
+article a[href*='https://docusign.com']::before,
+article a[href*='https://www.docusign.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/docusign.svg');
+  mask-image: url('https://simpleicons.org/icons/docusign.svg');
+}
+article a[href*='https://dogecoin.com']::before,
+article a[href*='https://www.dogecoin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dogecoin.svg');
+  mask-image: url('https://simpleicons.org/icons/dogecoin.svg');
+}
+article a[href*='https://dolby.com']::before,
+article a[href*='https://www.dolby.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dolby.svg');
+  mask-image: url('https://simpleicons.org/icons/dolby.svg');
+}
+article a[href*='https://doordash.com']::before,
+article a[href*='https://www.doordash.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/doordash.svg');
+  mask-image: url('https://simpleicons.org/icons/doordash.svg');
+}
+article a[href*='https://douban.com']::before,
+article a[href*='https://www.douban.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/douban.svg');
+  mask-image: url('https://simpleicons.org/icons/douban.svg');
+}
+article a[href*='https://read.douban.com']::before,
+article a[href*='https://www.read.douban.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/doubanread.svg');
+  mask-image: url('https://simpleicons.org/icons/doubanread.svg');
+}
+article a[href*='https://dovecot.org']::before,
+article a[href*='https://www.dovecot.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dovecot.svg');
+  mask-image: url('https://simpleicons.org/icons/dovecot.svg');
+}
+article a[href*='https://dpd.com']::before,
+article a[href*='https://www.dpd.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dpd.svg');
+  mask-image: url('https://simpleicons.org/icons/dpd.svg');
+}
+article a[href*='https://dragonframe.com']::before,
+article a[href*='https://www.dragonframe.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dragonframe.svg');
+  mask-image: url('https://simpleicons.org/icons/dragonframe.svg');
+}
+article a[href*='https://draugiem.lv']::before,
+article a[href*='https://www.draugiem.lv']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/draugiemdotlv.svg');
+  mask-image: url('https://simpleicons.org/icons/draugiemdotlv.svg');
+}
+article a[href*='https://dribbble.com']::before,
+article a[href*='https://www.dribbble.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dribbble.svg');
+  mask-image: url('https://simpleicons.org/icons/dribbble.svg');
+}
+article a[href*='https://drone.io']::before,
+article a[href*='https://www.drone.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/drone.svg');
+  mask-image: url('https://simpleicons.org/icons/drone.svg');
+}
+article a[href*='https://drooble.com']::before,
+article a[href*='https://www.drooble.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/drooble.svg');
+  mask-image: url('https://simpleicons.org/icons/drooble.svg');
+}
+article a[href*='https://dropbox.com']::before,
+article a[href*='https://www.dropbox.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dropbox.svg');
+  mask-image: url('https://simpleicons.org/icons/dropbox.svg');
+}
+article a[href*='https://drupal.org']::before,
+article a[href*='https://www.drupal.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/drupal.svg');
+  mask-image: url('https://simpleicons.org/icons/drupal.svg');
+}
+article a[href*='https://dsautomobiles.com']::before,
+article a[href*='https://www.dsautomobiles.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dsautomobiles.svg');
+  mask-image: url('https://simpleicons.org/icons/dsautomobiles.svg');
+}
+article a[href*='https://dtube.video']::before,
+article a[href*='https://www.dtube.video']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dtube.svg');
+  mask-image: url('https://simpleicons.org/icons/dtube.svg');
+}
+article a[href*='https://ducati.com']::before,
+article a[href*='https://www.ducati.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ducati.svg');
+  mask-image: url('https://simpleicons.org/icons/ducati.svg');
+}
+article a[href*='https://duckdb.org']::before,
+article a[href*='https://www.duckdb.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/duckdb.svg');
+  mask-image: url('https://simpleicons.org/icons/duckdb.svg');
+}
+article a[href*='https://duckduckgo.com']::before,
+article a[href*='https://www.duckduckgo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/duckduckgo.svg');
+  mask-image: url('https://simpleicons.org/icons/duckduckgo.svg');
+}
+article a[href*='https://dnd.wizards.com']::before,
+article a[href*='https://www.dnd.wizards.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dungeonsanddragons.svg');
+  mask-image: url('https://simpleicons.org/icons/dungeonsanddragons.svg');
+}
+article a[href*='https://dunked.com']::before,
+article a[href*='https://www.dunked.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dunked.svg');
+  mask-image: url('https://simpleicons.org/icons/dunked.svg');
+}
+article a[href*='https://duolingo.com']::before,
+article a[href*='https://www.duolingo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/duolingo.svg');
+  mask-image: url('https://simpleicons.org/icons/duolingo.svg');
+}
+article a[href*='https://dvc.org']::before,
+article a[href*='https://www.dvc.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dvc.svg');
+  mask-image: url('https://simpleicons.org/icons/dvc.svg');
+}
+article a[href*='https://dwm.suckless.org']::before,
+article a[href*='https://www.dwm.suckless.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dwm.svg');
+  mask-image: url('https://simpleicons.org/icons/dwm.svg');
+}
+article a[href*='https://dynamics.com']::before,
+article a[href*='https://www.dynamics.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dynamics365.svg');
+  mask-image: url('https://simpleicons.org/icons/dynamics365.svg');
+}
+article a[href*='https://dynatrace.com']::before,
+article a[href*='https://www.dynatrace.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dynatrace.svg');
+  mask-image: url('https://simpleicons.org/icons/dynatrace.svg');
+}

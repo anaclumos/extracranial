@@ -1,0 +1,182 @@
+article a[href*='https://qantas.com']::before,
+article a[href*='https://www.qantas.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qantas.svg');
+  mask-image: url('https://simpleicons.org/icons/qantas.svg');
+}
+article a[href*='https://qatarairways.com']::before,
+article a[href*='https://www.qatarairways.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qatarairways.svg');
+  mask-image: url('https://simpleicons.org/icons/qatarairways.svg');
+}
+article a[href*='https://qemu.org']::before,
+article a[href*='https://www.qemu.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qemu.svg');
+  mask-image: url('https://simpleicons.org/icons/qemu.svg');
+}
+article a[href*='https://qgis.org']::before,
+article a[href*='https://www.qgis.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qgis.svg');
+  mask-image: url('https://simpleicons.org/icons/qgis.svg');
+}
+article a[href*='https://qi.com']::before,
+article a[href*='https://www.qi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qi.svg');
+  mask-image: url('https://simpleicons.org/icons/qi.svg');
+}
+article a[href*='https://qiita.com']::before,
+article a[href*='https://www.qiita.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qiita.svg');
+  mask-image: url('https://simpleicons.org/icons/qiita.svg');
+}
+article a[href*='https://qiskit.org']::before,
+article a[href*='https://www.qiskit.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qiskit.svg');
+  mask-image: url('https://simpleicons.org/icons/qiskit.svg');
+}
+article a[href*='https://qiwi.com']::before,
+article a[href*='https://www.qiwi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qiwi.svg');
+  mask-image: url('https://simpleicons.org/icons/qiwi.svg');
+}
+article a[href*='https://qmk.fm']::before,
+article a[href*='https://www.qmk.fm']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qmk.svg');
+  mask-image: url('https://simpleicons.org/icons/qmk.svg');
+}
+article a[href*='https://qt.io']::before,
+article a[href*='https://www.qt.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qt.svg');
+  mask-image: url('https://simpleicons.org/icons/qt.svg');
+}
+article a[href*='https://qualcomm.com']::before,
+article a[href*='https://www.qualcomm.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qualcomm.svg');
+  mask-image: url('https://simpleicons.org/icons/qualcomm.svg');
+}
+article a[href*='https://qualtrics.com']::before,
+article a[href*='https://www.qualtrics.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qualtrics.svg');
+  mask-image: url('https://simpleicons.org/icons/qualtrics.svg');
+}
+article a[href*='https://qualys.com']::before,
+article a[href*='https://www.qualys.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qualys.svg');
+  mask-image: url('https://simpleicons.org/icons/qualys.svg');
+}
+article a[href*='https://quantcast.com']::before,
+article a[href*='https://www.quantcast.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quantcast.svg');
+  mask-image: url('https://simpleicons.org/icons/quantcast.svg');
+}
+article a[href*='https://quantconnect.com']::before,
+article a[href*='https://www.quantconnect.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quantconnect.svg');
+  mask-image: url('https://simpleicons.org/icons/quantconnect.svg');
+}
+article a[href*='https://quarkus.io']::before,
+article a[href*='https://www.quarkus.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quarkus.svg');
+  mask-image: url('https://simpleicons.org/icons/quarkus.svg');
+}
+article a[href*='https://quasar.dev']::before,
+article a[href*='https://www.quasar.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quasar.svg');
+  mask-image: url('https://simpleicons.org/icons/quasar.svg');
+}
+article a[href*='https://qubes-os.org']::before,
+article a[href*='https://www.qubes-os.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qubesos.svg');
+  mask-image: url('https://simpleicons.org/icons/qubesos.svg');
+}
+article a[href*='https://quest.com']::before,
+article a[href*='https://www.quest.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quest.svg');
+  mask-image: url('https://simpleicons.org/icons/quest.svg');
+}
+article a[href*='https://quickbooks.com']::before,
+article a[href*='https://www.quickbooks.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quickbooks.svg');
+  mask-image: url('https://simpleicons.org/icons/quickbooks.svg');
+}
+article a[href*='https://quicklookplugins.com']::before,
+article a[href*='https://www.quicklookplugins.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quicklook.svg');
+  mask-image: url('https://simpleicons.org/icons/quicklook.svg');
+}
+article a[href*='https://apple.com/quicktime']::before,
+article a[href*='https://www.apple.com/quicktime']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quicktime.svg');
+  mask-image: url('https://simpleicons.org/icons/quicktime.svg');
+}
+article a[href*='https://quip.com']::before,
+article a[href*='https://www.quip.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quip.svg');
+  mask-image: url('https://simpleicons.org/icons/quip.svg');
+}
+article a[href*='https://quora.com']::before,
+article a[href*='https://www.quora.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/quora.svg');
+  mask-image: url('https://simpleicons.org/icons/quora.svg');
+}
+article a[href*='https://qwiklabs.com']::before,
+article a[href*='https://www.qwiklabs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qwiklabs.svg');
+  mask-image: url('https://simpleicons.org/icons/qwiklabs.svg');
+}
+article a[href*='https://qzone.qq.com']::before,
+article a[href*='https://www.qzone.qq.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/qzone.svg');
+  mask-image: url('https://simpleicons.org/icons/qzone.svg');
+}

@@ -1,0 +1,121 @@
+article a[href*='https://ycombinator.com']::before,
+article a[href*='https://www.ycombinator.com']::before,
+article a[href*='news.ycombinator']::before {
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ycombinator.svg');
+  mask-image: url('https://simpleicons.org/icons/ycombinator.svg');
+}
+article a[href*='https://yahoo.com']::before,
+article a[href*='https://www.yahoo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yahoo.svg');
+  mask-image: url('https://simpleicons.org/icons/yahoo.svg');
+}
+article a[href*='https://yale.edu']::before,
+article a[href*='https://www.yale.edu']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yale.svg');
+  mask-image: url('https://simpleicons.org/icons/yale.svg');
+}
+article a[href*='https://yamaha.com']::before,
+article a[href*='https://www.yamaha.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yamahacorporation.svg');
+  mask-image: url('https://simpleicons.org/icons/yamahacorporation.svg');
+}
+article a[href*='https://yamaha-motor.com']::before,
+article a[href*='https://www.yamaha-motor.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yamahamotorcorporation.svg');
+  mask-image: url('https://simpleicons.org/icons/yamahamotorcorporation.svg');
+}
+article a[href*='https://yammer.com']::before,
+article a[href*='https://www.yammer.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yammer.svg');
+  mask-image: url('https://simpleicons.org/icons/yammer.svg');
+}
+article a[href*='https://yarnpkg.com']::before,
+article a[href*='https://www.yarnpkg.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yarn.svg');
+  mask-image: url('https://simpleicons.org/icons/yarn.svg');
+}
+article a[href*='https://yelp.com']::before,
+article a[href*='https://www.yelp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yelp.svg');
+  mask-image: url('https://simpleicons.org/icons/yelp.svg');
+}
+article a[href*='https://yoast.com']::before,
+article a[href*='https://www.yoast.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yoast.svg');
+  mask-image: url('https://simpleicons.org/icons/yoast.svg');
+}
+article a[href*='https://yolo.com']::before,
+article a[href*='https://www.yolo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yolo.svg');
+  mask-image: url('https://simpleicons.org/icons/yolo.svg');
+}
+article a[href*='https://yourtravel.tv']::before,
+article a[href*='https://www.yourtravel.tv']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yourtraveldottv.svg');
+  mask-image: url('https://simpleicons.org/icons/yourtraveldottv.svg');
+}
+article a[href*='https://youtube.com']::before,
+article a[href*='https://www.youtube.com']::before,
+article a[href*='https://youtu.be']::before,
+article a[href*='https://www.youtu.be']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/youtube.svg');
+  mask-image: url('https://simpleicons.org/icons/youtube.svg');
+}
+article a[href*='https://youtube.com/gaming']::before,
+article a[href*='https://www.youtube.com/gaming']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/youtubegaming.svg');
+  mask-image: url('https://simpleicons.org/icons/youtubegaming.svg');
+}
+article a[href*='https://music.youtube.com']::before,
+article a[href*='https://www.music.youtube.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/youtubemusic.svg');
+  mask-image: url('https://simpleicons.org/icons/youtubemusic.svg');
+}
+article a[href*='https://studio.youtube.com']::before,
+article a[href*='https://www.studio.youtube.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/youtubestudio.svg');
+  mask-image: url('https://simpleicons.org/icons/youtubestudio.svg');
+}
+article a[href*='https://tv.youtube.com']::before,
+article a[href*='https://www.tv.youtube.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/youtubetv.svg');
+  mask-image: url('https://simpleicons.org/icons/youtubetv.svg');
+}
+article a[href*='https://yubico.com']::before,
+article a[href*='https://www.yubico.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/yubico.svg');
+  mask-image: url('https://simpleicons.org/icons/yubico.svg');
+}
