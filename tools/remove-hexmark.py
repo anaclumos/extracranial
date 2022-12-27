@@ -26,9 +26,9 @@ if __name__ == "__main__":
         if "template" in md_file.lower():
             continue
         # Replace all {{hex}} with a random hex number
-        with open(md_file, 'r') as f:
+        with open(md_file, "r") as f:
             lines = f.readlines()
-        with open(md_file, 'w') as f:
+        with open(md_file, "w") as f:
             for line in lines:
                 if "{{hex}}" in line:
                     line = line.replace("{{hex}}", "/" + getHex())

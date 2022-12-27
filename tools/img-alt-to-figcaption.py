@@ -22,30 +22,42 @@ if __name__ == "__main__":
     for md_file in all_md_files:
         if md_file.endswith("Hey.md"):
             continue
-        with open(md_file, 'r') as f:
+        with open(md_file, "r") as f:
             lines = f.readlines()
-        with open(md_file, 'w') as f:
+        with open(md_file, "w") as f:
             for line in lines:
-                if line.startswith("![") and "]" in line and "(" in line and line.endswith(")\n"):
+                if (
+                    line.startswith("![")
+                    and "]" in line
+                    and "(" in line
+                    and line.endswith(")\n")
+                ):
                     alt_text = line.split("![")[1].split("]")[0]
                     filename = line.split("(")[1].split(")")[0]
-                    if alt_text.endswith(".png") or alt_text.endswith(".jpg") or alt_text.endswith(".jpeg") or alt_text.endswith(".gif") or alt_text.endswith(".svg") or alt_text.startswith("ALT:"):
-                        line = f'''
+                    if (
+                        alt_text.endswith(".png")
+                        or alt_text.endswith(".jpg")
+                        or alt_text.endswith(".jpeg")
+                        or alt_text.endswith(".gif")
+                        or alt_text.endswith(".svg")
+                        or alt_text.startswith("ALT:")
+                    ):
+                        line = f"""
 <figure>
 
 {line.replace("ALT: ", "").replace("ALT:", "")}
 
 </figure>
-'''
+"""
                     else:
-                        line = f'''
+                        line = f"""
 <figure>
 
 {line}
 
 <figcaption>{alt_text}</figcaption>
 </figure>
-'''
+"""
                     COUNTER += 1
                 f.write(line)
 

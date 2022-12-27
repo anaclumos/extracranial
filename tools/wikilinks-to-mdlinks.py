@@ -1,7 +1,8 @@
 import shutil
 import os
-SOURCE_DIR = './Research'
-DESTINATION_DIR = './docs'
+
+SOURCE_DIR = "./Research"
+DESTINATION_DIR = "./docs"
 DEBUG = False
 
 # first, remove all files in the target directory
@@ -27,16 +28,32 @@ for root, dirs, files in os.walk(DESTINATION_DIR):
     for file in files:
         all_files.append(os.path.join(root, file))
 
+ko_header = """
+<head>
+  <html lang="ko-KR"/>
+</head>
+"""
 
-def replace_wikilinks(file, all_files, counter):
+en_header = """
+<head>
+  <html lang="en-US"/>
+</head>
+"""
+
+
+def process(file, all_files, counter):
+    current_language = "en"
     if not file.endswith(".md"):
         return counter
-    with open(file, 'r') as f:
+    with open(file, "r") as f:
         lines = f.readlines()
-    with open(file, 'w') as f:
+    if "lang: 'ko'" in "".join(lines):
+        current_language = "ko"
+    else:
+        current_language = "en"
+    with open(file, "w") as f:
         for line in lines:
-            line = line.replace(
-                "[[{{date:YYYY-MM-DD}}]]", "date:YYYY-MM-DD")
+            line = line.replace("[[{{date:YYYY-MM-DD}}]]", "date:YYYY-MM-DD")
             while "[[" in line and "]]" in line:
                 print() if DEBUG else None
                 print(line.rstrip("\n")) if DEBUG else None
@@ -46,21 +63,37 @@ def replace_wikilinks(file, all_files, counter):
                 print("Searching for: " + wikilink) if DEBUG else None
                 found = False
                 for searchfile in all_files:
-                    if wikilink.split("|")[0].lower() == searchfile.split("/")[-1].replace(".md", "").replace(".mdx", "").lower():
+                    if (
+                        wikilink.split("|")[0].lower()
+                        == searchfile.split("/")[-1]
+                        .replace(".md", "")
+                        .replace(".mdx", "")
+                        .lower()
+                    ):
                         # if found, replace the wikilink with the link
                         import urllib.parse
+
                         searchfile = urllib.parse.quote(searchfile)
                         # count the number of slashes in the file
                         num_slashes = file.count("/")
                         # add "../" for each slash
-                        searchfile = "./" + "../" * \
-                            (num_slashes - 1) + searchfile
-                        display_text = wikilink.split(
-                            "|")[1] if "|" in wikilink else wikilink
+                        searchfile = "./" + "../" * (num_slashes - 1) + searchfile
+                        display_text = (
+                            wikilink.split("|")[1] if "|" in wikilink else wikilink
+                        )
                         line = line.replace(
-                            "[[" + wikilink + "]]", "[" + display_text + "](" + searchfile + ")")
-                        print("→ Replaced [[" + wikilink + "]] with [" +
-                              display_text + "](" + searchfile + ")") if DEBUG else None
+                            "[[" + wikilink + "]]",
+                            "[" + display_text + "](" + searchfile + ")",
+                        )
+                        print(
+                            "→ Replaced [["
+                            + wikilink
+                            + "]] with ["
+                            + display_text
+                            + "]("
+                            + searchfile
+                            + ")"
+                        ) if DEBUG else None
                         counter += 1
                         found = True
                         break
@@ -68,11 +101,15 @@ def replace_wikilinks(file, all_files, counter):
                     print("→ Could not find: " + wikilink) if DEBUG else None
                     line = line.replace(f"[[{wikilink}]]", wikilink)
             f.write(line)
+        if current_language == "ko":
+            f.write(ko_header)
+        else:
+            f.write(en_header)
     return counter
 
 
 if __name__ == "__main__":
     COUNTER = 0
     for file in all_files:
-        COUNTER = replace_wikilinks(file, all_files, COUNTER)
+        COUNTER = process(file, all_files, COUNTER)
     print("Replaced " + str(COUNTER) + " wikilinks.")
