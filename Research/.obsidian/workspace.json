@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/하늘땅사람.md",
-                "mode": "preview",
+                "file": "journals/2022-12-27.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/하늘땅사람.md",
+                "file": "journals/2022-12-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/하늘땅사람.md"
+                "file": "journals/2022-12-27.md"
               }
             }
           }
