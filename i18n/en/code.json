@@ -313,18 +313,6 @@
     "message": " post",
     "description": "The singular name of a blog post"
   },
-  "theme.PwaReloadPopup.info": {
-    "message": "New version available",
-    "description": "The text for PWA reload popup"
-  },
-  "theme.PwaReloadPopup.refreshButtonText": {
-    "message": "Refresh",
-    "description": "The text for PWA reload button"
-  },
-  "theme.PwaReloadPopup.closeButtonAriaLabel": {
-    "message": "Close",
-    "description": "The ARIA label for close button of PWA reload popup"
-  },
   "theme.blog.archive.yearsuffix": {
     "message": "",
     "description": "The suffix of a year in a blog archive"
