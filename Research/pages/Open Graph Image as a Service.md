@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/2531E5'
 ---
 
-- [[Someday]] [[Project]]
+[[Someday]] [[Project]]. Request Open Graph Images with URI, `POST` payload.
 
 ## How would it be [[Fiercely Overpriced]]?
 

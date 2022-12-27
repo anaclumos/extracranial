@@ -3,9 +3,7 @@ lang: 'en'
 slug: '/E203C9'
 ---
 
-- [[Someday]] [[Project]]
-
-## Science is not Technology, and vice versa
+## Science is not Technology and vice versa
 
 - Technology was not developed based on science, nor was science studied for technical applications.
 - Even before the principle of leverage was dynamically proven, the lever was used, and even before the iron-making technology was proved to be a chemical reduction reaction, the steel-making technology existed.

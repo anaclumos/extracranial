@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/4AA0F0'
 ---
 
-- [[Someday]] [[Project]]
+[[Someday]] [[Project]]. I love software, but I am sometimes too addicted to tech!
 
 ## Outline
 
