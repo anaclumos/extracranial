@@ -3,8 +3,8 @@ lang: 'en'
 slug: '/8DFCEE'
 ---
 
-- [[Someday]] [[Project]]
-- 쿠키 있나요?
+[[Someday]] [[Project]]. 영화 쿠키 있나요?
+
 - PlanetScale
 - Options
   - Yes

@@ -3,9 +3,7 @@ lang: 'en'
 slug: '/6A70B3'
 ---
 
-- [[Someday]] [[Project]]
-
-This post aims to spotlight the changing earth of macOS Applications
+The earth of macOS Applications is changing in 2022.
 
 - **Browsers**. Chrome → Arc.
 - **Notes**. Notion → [[Obsidian]] → Nota.

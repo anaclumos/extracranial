@@ -420,8 +420,7 @@ export const backlinks = {
     "Backlink": {
         "2022-10-17": "[[Backlink|Links to This Note]] feature is complete.",
         "Andy Matuschak": "Introduced novel concepts, such as Sliding Panes, [[Backlink|links to this note]], and [[Atomic Notes]].",
-        "Backlinking for Aldehyde": "- [[Backlink]]",
-        "Better Docusaurus": "- Docusaurus should have [[Backlink]] support"
+        "Backlinking for Aldehyde": "- [[Backlink]]"
     },
     "Migrating Node.js apps from AWS EB to Heroku": {
         "2022-11-19": "  - [[Migrating Node.js apps from AWS EB to Heroku]]"
@@ -444,6 +443,9 @@ export const backlinks = {
         "2022-12-04": "- [[Aldehyde]]",
         "Better Aldehyde": "- [[Aldehyde]]",
         "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨"
+    },
+    "Book Metadata as a Service": {
+        "Fiercely Overpriced": "[[Book Metadata as a Service]] could also be one example."
     },
     "In The End Trust Yourself": {
         "2022-11-23": "- [[In The End Trust Yourself]]",
@@ -552,7 +554,7 @@ export const backlinks = {
         "Inliner": "... Inliner aims to separate the editing and reading experience by utilizing [[Markdown]]'s strict line change mode.",
         "Letter to the Heptabase Team on 2022-10-11": "- [[Markdown]]-Wikilink import/export",
         "Logseq": "... privacy-first, open-source knowledge base that works on top of local plain-text [[Markdown]] and Org-mode files. Use it to write, organize and share your ...",
-        "Markdown Email Client": "- You write an email in [[Markdown]]",
+        "Markdown Email Client": "Someday Project. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as a beautiful ...",
         "Toss Product Sans": "- 디자인 플랫폼 팀과 함께 제작한 [[Markdown|마크다운]] 규칙으로 특수 문자를 쓸 수 있도록"
     },
     "PDF (File Format)": {
@@ -691,7 +693,7 @@ export const backlinks = {
         "2022-11-30": "- [[Blind Illness]]"
     },
     "Docusaurus": {
-        "Better Docusaurus": "Some things that I currently don't like about [[Docusaurus]]:",
+        "Better Docusaurus": "- Fixing some things that I currently don't like about [[Docusaurus]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... have some personal Python scripts that convert Obsidian MD files to [[Docusaurus]] MD files since they have slightly different specs.",
         "Letter to the Heptabase Team on 2022-10-11": "... in LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across Heptabase and wanted to speak ...",
         "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
@@ -947,7 +949,7 @@ export const backlinks = {
     },
     "CSS": {
         "Font Features": "- [[CSS]] property to enhance legibilities of a [[Font]].",
-        "Markdown Email Client": "- Before sending, select one [[CSS]]",
+        "Markdown Email Client": "... Project. You write an email in Markdown. Before sending, select one [[CSS]]. Then... it sends as a beautiful and clean [[HTML]] email!",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting HTML/[[CSS]] into SVGs.",
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly (HTML/[[CSS]])",
         "Tailwind": "... Rapidly build modern websites without ever leaving your HTML. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, and rotate-90 that ..."
@@ -1333,11 +1335,11 @@ export const backlinks = {
         "2022-10-18": "- [[Apple]] bought all of the advertising space in Newsweek's November/December special election ...",
         "3D": "- USDZ for [[Apple]]",
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
-        "Apple Earth": "- Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports",
+        "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports.",
         "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
         "Apple Silicon (CPU)": "- Chips made by [[Apple]]",
         "Brunch violates SF terms of use": "- Korean writing service Brunch violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web ...",
-        "CalliFontia": "- [[Apple]] Pencil Handwriting → [[Font]]",
+        "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If you still use `OSSpinLock`, you'll get ...",
         "Google": "... one of the Big Five American information technology companies, alongside Amazon, [[Apple]], Meta, and Microsoft. Google",
         "Horizontally Stacked Interface": "## [[Apple]] Concierge App for Genius Bars",
@@ -1677,64 +1679,61 @@ export const backlinks = {
         "2022-12-18": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
-        "Apple Earth": "- Someday [[Project]]",
+        "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
-        "Autosave Everything": "- Someday [[Project]]",
+        "Autosave Everything": "Someday [[Project]]. A small Mac App that presses `command s` every defined interval.",
         "Better Aldehyde": "- [[Project]]",
-        "Better Docusaurus": "- Someday [[Project]]",
-        "Better Hacker News": "- Someday [[Project]]",
+        "Better Hacker News": "Someday [[Project]]. Improving HN.",
+        "Book Metadata as a Service": "Someday [[Project]]. Open API that returns Book Metadata when given an ISBN.",
         "Brane": "Brane is an experimental [[project]] that aims to build a secure, convenient third-party app environment based ...",
         "CELLO": "- [[Project]]",
-        "CalliFontia": "- Someday [[Project]]",
-        "Chopstick Game": "- Someday [[Project]]",
+        "CalliFontia": "Someday [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
+        "Chopstick Game": "Someday [[Project]]. Digital implementation of the chopstick game with competitive AI",
         "Coding Tests": "- [[Project]]",
-        "Cube": "- Someday [[Project]]",
+        "Cube": "Someday [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
         "Developing Review Notes for Obsidian": "2022-07-19 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
-        "Digital Addictions of Software Enthusiasts": "- Someday [[Project]]",
+        "Digital Addictions of Software Enthusiasts": "Someday [[Project]]. I love software, but I am sometimes too addicted to tech!",
         "Dynamic Island on the Web": "- Done [[Project]]",
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
-        "FFMpeg for iPad": "- Someday [[Project]]",
+        "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
         "GitHub": "... software feature requests, task management, continuous integration, and wikis for every [[project]]. Headquartered in California, it has been a subsidiary of Microsoft since ...",
         "Goongoom": "- Side startup [[project]] that never made it to the market.",
-        "Intracranial": "- Someday [[Project]]",
+        "Intracranial": "Someday [[Project]]. Infinite Canvas for Zettlekasten.",
         "Jira": "... issue-tracking product developed by Atlassian that allows bug tracking and agile [[project]] management. Jira (software)>)",
         "Krafton Way": "... 능력을 검증해야 한다”고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
         "Kubernetes": "... designed Kubernetes, but the Cloud Native Computing Foundation now maintains the [[project]].",
-        "Markdown Email Client": "- Someday [[Project]]",
-        "Metadata as a Service": "- Someday [[Project]]",
+        "Markdown Email Client": "Someday [[Project]]. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. ...",
         "Microproject": "- [[Project]] should finish within a day.",
-        "Not-So-Procrastinating Lazy Loading": "- Someday [[Project]]",
+        "Not-So-Procrastinating Lazy Loading": "Someday [[Project]]. `img loading=lazy`, but if the network idles for a given timespan, ...",
         "Notion": "> Notion is a [[project]] management and note-taking software platform designed to help members of companies ...",
-        "Off The Record": "- Someday [[Project]]",
-        "Old Fashioned Camera": "- Someday [[Project]]",
-        "Open Graph Image as a Service": "- Someday [[Project]]",
+        "Off The Record": "Someday [[Project]]. Disappearing message for iMessage.",
+        "Old Fashioned Camera": "Someday [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
+        "Open Graph Image as a Service": "Someday [[Project]]. Request Open Graph Images with URI, `POST` payload.",
         "PDF (File Format)": "... needed to display it. PDF has its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John Warnock in 1991. PDF",
         "Person 1B5A5B": "- Junior = [[Project]] Executors.",
         "Preservation of Data": "> The LOCKSS (\"Lots of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford University, is a peer-to-peer network that ...",
         "Project PEOPLE": "- [[Project]]",
-        "Quoridor Game": "- Someday [[Project]]",
-        "Separation of Computer Scientists and Computer Technologists": "- Someday [[Project]]",
+        "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
-        "The New Era of macOS Applications": "- Someday [[Project]]",
-        "Timebelt": "- Someday [[Project]]",
+        "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
         "TossFace Playground": "- [[Project]] [[Done]]",
         "Vannevar Bush": "... in radar and the initiation and early administration of the Manhattan [[Project]]. He emphasized the importance of scientific research to national security and ...",
         "Wikiversity": "> Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning projects, and research for use in ...",
-        "elevatorpitch.com": "- Someday [[Project]]",
+        "elevatorpitch.com": "Someday [[Project]]. Simple Demo Website Creator to gauge market interest.",
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 `http` 모듈 (당연히 `express` 모듈도) 없이 `http` 서버를 구현하는 Project|프로젝트가 ...",
-        "iiframe": "- Someday [[Project]]",
+        "iiframe": "Someday [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
         "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert the equation into $\\TeX$.",
-        "postcredit.info": "- Someday [[Project]]",
-        "sem.sh": "> The [[project]] name originates from the Pure Korean word meaning numerics and statistics ...",
+        "postcredit.info": "Someday [[Project]]. 영화 쿠키 있나요?",
+        "sem.sh": "Someday [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per repository, ...",
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> 그러나 누군가가 온갖 어려움을 무릅쓰고 반드시 성취해야하는 [[Project|프로젝트]]이다.",
         "두 번째 뇌": "나는 더 간단하게 [[Project|프로젝트]], 연구, 그리고 독서록으로 분리했다.",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "하지만 이렇게 떠나보낼 수는 없다. 최근 알게 된 [[Project|프로젝트]] 중 라즈베리 파이로 스마트 오디오 시스템을 구축하는 Project|프로젝트가 있었다. 블루투스, 에어플레이, ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 여러 이유로 못하는 팀도 있다. 물론 e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, 품질 관리) 팀 같은 경우에는 e2e ...",
-        "사회과부도": "- Someday [[Project]]",
+        "사회과부도": "Someday [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
         "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
-        "조선왕조실록": "- Someday [[Project]]",
+        "조선왕조실록": "Someday [[Project]]. Fast and Modern version of sillok.history.go.kr.",
         "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다.",
         "하늘땅사람": "키보드를 제작하는 [[Project|프로젝트]]."
     },
@@ -2281,6 +2280,9 @@ export const backlinks = {
         "Height": "- Used at [[Karrot]]",
         "Jira": "- Used at [[Karrot]]"
     },
+    "WebGPU": {
+        "2022-09-09": "[[WebGPU]]"
+    },
     "Cross-Origin Embedder Policy": {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Embedder Policy]]: `require-corp`"
     },
@@ -2463,7 +2465,7 @@ export const backlinks = {
         "Stories Behind Satori": "Converting it into WebAssembly|WASM will also benefit by targeting [[Web Worker|Web Workers]].",
         "Treehouse": "... Treehouse was the first attempt to run a DOM within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]].",
         "WorkerDOM": "Google's take on providing DOM access to [[Web Worker]] Threads.",
-        "iiframe": "- Improved `iframe` that containerizes an embedded web inside [[Web Worker|Web Workers]]."
+        "iiframe": "Someday Project. Improved `iframe` that containerizes an embedded web inside [[Web Worker]]."
     },
     "DNS": {
         "Internetworking": "- [[DNS]]"
@@ -2818,7 +2820,6 @@ export const backlinks = {
     },
     "React": {
         "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 중이다.",
-        "2022-09-09": "- It's a stand-alone TypeScript+Rust/WASM library with its own [[React]]-like run-time. If you're familiar with React, you will feel right at ...",
         "2022-09-10": "- [[React]] components library with native dark theme support",
         "Developing Review Notes for Obsidian": "### [[React]] 전환",
         "Front-end": "- [[React]]",
@@ -2831,7 +2832,8 @@ export const backlinks = {
         "React Native": "> [[React]] Native is an open-source [[UIUX|UI]] software framework created by Meta Platforms, ...",
         "Real Exams": "- Get Job Done SQL, [[React]], [[Python]]",
         "Separation of Computer Scientists and Computer Technologists": "## But a self-taught can code a dang fantastic [[React]] shopping mall!",
-        "Svelte": "... runtime representations, such as virtual DOM, unlike traditional frameworks (such as [[React]] and Vue), which carry out the bulk of their work at ..."
+        "Svelte": "... runtime representations, such as virtual DOM, unlike traditional frameworks (such as [[React]] and Vue), which carry out the bulk of their work at ...",
+        "WebGPU": "- It's a stand-alone TypeScript+Rust/WASM library with its own [[React]]-like run-time. If you're familiar with React, you will feel right at ..."
     },
     "My Raycast Wrapped of 2022": {
         "2022-12-17": "- [[My Raycast Wrapped of 2022]]"
@@ -3017,7 +3019,7 @@ export const backlinks = {
     "FFMpeg": {
         "2022-11-21": "- [[FFMpeg]]",
         "2022-11-28": "- [[FFMpeg]]: FFmpeg - Ultimate Guide | IMG.LY Blog",
-        "FFMpeg for iPad": "- There is no [[FFMpeg]] equivalent for iPads!",
+        "FFMpeg for iPad": "Someday Project. [[FFMpeg]] equivalent for iPads!",
         "Jetski": "- [[ffmpeg]] optimization for sharing"
     },
     "Dynamic Viewport Units": {
@@ -3234,7 +3236,7 @@ export const backlinks = {
     },
     "Font": {
         "Akzidenz": "- A type of Grotesque [[font]].",
-        "CalliFontia": "- Apple Pencil Handwriting → [[Font]]",
+        "CalliFontia": "Someday Project. Apple Pencil Handwriting → [[Font]].",
         "Font Features": "- CSS property to enhance legibilities of a [[Font]].",
         "Grotesque": "... thin strokes. The terminals of curves are usually horizontal, and the [[Font|typeface]] frequently has a spurred \"G\" and an \"R\" with a curled ...",
         "Inter": "- [[Font]] by rsms",
@@ -3267,35 +3269,31 @@ export const backlinks = {
         "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 발표]]"
     },
     "Someday": {
-        "2022-09-09": "- [[Someday]]",
-        "Apple Earth": "- [[Someday]] [[Project]]",
-        "Autosave Everything": "- [[Someday]] [[Project]]",
-        "Better Docusaurus": "- [[Someday]] [[Project]]",
-        "Better Hacker News": "- [[Someday]] [[Project]]",
-        "CalliFontia": "- [[Someday]] [[Project]]",
-        "Chopstick Game": "- [[Someday]] [[Project]]",
-        "Cube": "- [[Someday]] [[Project]]",
-        "Digital Addictions of Software Enthusiasts": "- [[Someday]] [[Project]]",
-        "FFMpeg for iPad": "- [[Someday]] [[Project]]",
+        "Apple Earth": "[[Someday]] [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
+        "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
+        "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
+        "Book Metadata as a Service": "[[Someday]] [[Project]]. Open API that returns Book Metadata when given an ISBN.",
+        "CalliFontia": "[[Someday]] [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
+        "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the chopstick game with competitive AI",
+        "Cube": "[[Someday]] [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
+        "Digital Addictions of Software Enthusiasts": "[[Someday]] [[Project]]. I love software, but I am sometimes too addicted to ...",
+        "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
-        "Intracranial": "- [[Someday]] [[Project]]",
-        "Markdown Email Client": "- [[Someday]] [[Project]]",
-        "Metadata as a Service": "- [[Someday]] [[Project]]",
-        "Not-So-Procrastinating Lazy Loading": "- [[Someday]] [[Project]]",
-        "Off The Record": "- [[Someday]] [[Project]]",
-        "Old Fashioned Camera": "- [[Someday]] [[Project]]",
-        "Open Graph Image as a Service": "- [[Someday]] [[Project]]",
-        "Quoridor Game": "- [[Someday]] [[Project]]",
-        "Separation of Computer Scientists and Computer Technologists": "- [[Someday]] [[Project]]",
-        "The New Era of macOS Applications": "- [[Someday]] [[Project]]",
-        "Timebelt": "- [[Someday]] [[Project]]",
-        "elevatorpitch.com": "- [[Someday]] [[Project]]",
-        "iiframe": "- [[Someday]] [[Project]]",
+        "Intracranial": "[[Someday]] [[Project]]. Infinite Canvas for Zettlekasten.",
+        "Markdown Email Client": "[[Someday]] [[Project]]. You write an email in [[Markdown]]. Before sending, select one ...",
+        "Not-So-Procrastinating Lazy Loading": "[[Someday]] [[Project]]. `img loading=lazy`, but if the network idles for a given ...",
+        "Off The Record": "[[Someday]] [[Project]]. Disappearing message for iMessage.",
+        "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
+        "Open Graph Image as a Service": "[[Someday]] [[Project]]. Request Open Graph Images with URI, `POST` payload.",
+        "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
+        "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute URI.",
+        "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator to gauge market interest.",
+        "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
         "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to convert the equation into $\\TeX$.",
-        "postcredit.info": "- [[Someday]] [[Project]]",
-        "sem.sh": "- [[Someday]] [[Project]]",
-        "사회과부도": "- [[Someday]] [[Project]]",
-        "조선왕조실록": "- [[Someday]] [[Project]]"
+        "postcredit.info": "[[Someday]] [[Project]]. 영화 쿠키 있나요?",
+        "sem.sh": "[[Someday]] [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per ...",
+        "사회과부도": "[[Someday]] [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
+        "조선왕조실록": "[[Someday]] [[Project]]. Fast and Modern version of sillok.history.go.kr."
     },
     "DjVu (File Format)": {
         "Screenshot as an API": "... (File Format), MOBI (File Format) for texts. For generic use cases, [[DjVu (File Format)]]."
@@ -3505,10 +3503,10 @@ export const backlinks = {
     "TypeScript": {
         "2022-07-06": "- Bundle, transpile, install and run JavaScript & [[TypeScript]] projects — all in Bun. Bun is a new JavaScript runtime ...",
         "2022-07-20": "- JavaScript → [[TypeScript]]",
-        "2022-09-09": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations",
         "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules",
-        "Svelte": "... runtime, i.e., in the browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ..."
+        "Svelte": "... runtime, i.e., in the browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ...",
+        "WebGPU": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own [[React]]-like run-time. If you're familiar with [[React]], ..."
     },
     "Floyd Cycle Finding Algorithm": {
         "0141 Linked List Cycle": "- [[Floyd Cycle Finding Algorithm]]"
@@ -3612,7 +3610,7 @@ export const backlinks = {
         "HTML 텍스트 위에 덧말 강조점 쓰기": "그동안 글자 위에 글자를 어떻게 적는지 궁금했는데 [[HTML]]의 기본 기능 만으로도 해결 가능하다는 것을 알게 되었다. 참고로 이런 '글자 ...",
         "JSX (File Format)": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
         "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
-        "Markdown Email Client": "- Then... it sends as a beautiful and clean [[HTML]] email!",
+        "Markdown Email Client": "... select one CSS. Then... it sends as a beautiful and clean [[HTML]] email!",
         "Preservation of Data": "Save the raw [[HTML]] and process it later.",
         "Protocol Wars": "... example, Mosaic had a feature that automatically converted Gopher menus into [[HTML]]",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
@@ -3707,9 +3705,6 @@ export const backlinks = {
     },
     "Linear README": {
         "2022-10-14": "  - Especially [[Linear README]]"
-    },
-    "Metadata as a Service": {
-        "Fiercely Overpriced": "[[Metadata as a Service]] could also be one example."
     },
     "Meta Theme Color for Spacial Cognition": {
         "2022-11-11": "- [[Meta Theme Color for Spacial Cognition]]"

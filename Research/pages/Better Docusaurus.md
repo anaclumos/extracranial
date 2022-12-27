@@ -3,11 +3,7 @@ lang: 'en'
 slug: '/A54F58'
 ---
 
-- [[Someday]] [[Project]]
-
-Some things that I currently don't like about [[Docusaurus]]:
-
-- [[Docusaurus]] should have [[Backlink]] support
+- Fixing some things that I currently don't like about [[Docusaurus]]
 
 ## Fixed
 
