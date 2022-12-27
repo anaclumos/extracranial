@@ -316,18 +316,6 @@
     "message": "개의 글",
     "description": "The singular name of a blog post"
   },
-  "theme.PwaReloadPopup.info": {
-    "message": "업데이트가 있습니다.",
-    "description": "The text for PWA reload popup"
-  },
-  "theme.PwaReloadPopup.refreshButtonText": {
-    "message": "새로고침",
-    "description": "The text for PWA reload button"
-  },
-  "theme.PwaReloadPopup.closeButtonAriaLabel": {
-    "message": "닫기",
-    "description": "The ARIA label for close button of PWA reload popup"
-  },
   "theme.blog.archive.yearsuffix": {
     "message": "년",
     "description": "The suffix of a year in a blog archive"

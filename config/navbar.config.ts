@@ -48,19 +48,9 @@ const navbar = {
       position: 'left',
     },
     {
-      type: 'dropdown',
+      to: '/3d',
       label: 'Graph',
       position: 'left',
-      items: [
-        {
-          label: '2D (Experimental)',
-          to: '/2d',
-        },
-        {
-          label: '3D (Experimental)',
-          to: '/3d',
-        },
-      ],
     },
     {
       href: 'https://github.com/anaclumos',
