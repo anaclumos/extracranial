@@ -19,14 +19,6 @@
     "message": "그래프",
     "description": "Navbar item with label Graph"
   },
-  "item.label.2D (Experimental)": {
-    "message": "2D (실험적)",
-    "description": "Navbar item with label 2D (Experimental)"
-  },
-  "item.label.3D (Experimental)": {
-    "message": "3D (실험적)",
-    "description": "Navbar item with label 3D (Experimental)"
-  },
   "item.label.Random": {
     "message": "무작위",
     "description": "Navbar item with label Random"
