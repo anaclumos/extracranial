@@ -3,9 +3,8 @@ lang: 'en'
 slug: '/37D058'
 ---
 
-- [[Someday]] [[Project]]
+[[Someday]] [[Project]]. Creating a "[Quoridor](https://en.wikipedia.org/wiki/Quoridor)" game and its corresponding AI system.
 
-Creating a "[Quoridor](https://en.wikipedia.org/wiki/Quoridor)" game and its corresponding AI system seems somewhat intriguing.
 A basic minimax algorithm seems sufficient.
 There are some examples to take notes from:
 

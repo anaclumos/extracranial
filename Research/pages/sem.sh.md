@@ -3,13 +3,10 @@ lang: 'en'
 slug: '/BB0A88'
 ---
 
-> The [[project]] name originates from the Pure Korean word meaning numerics and statistics — Sem (셈)
-
 ![[3584FF.png]]
 
-- [[Someday]] [[Project]]
-- Open-sourced [Code Time | Automatic time tracking for developers](https://www.software.com/product/code-time) or [WakaTime](https://wakatime.com/)
-- Time Tracking per language, per repository, per editor, etc
+[[Someday]] [[Project]]. Open-sourced [Code Time](https://www.software.com/product/code-time) or [WakaTime](https://wakatime.com/). Time Tracking per language, per repository, per editor, etc
+
 - Self-hostable dashboard server
 - Your data, your own (no paywall if self-hosted)
 - terminal program gets all the data (the .sh name)

@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-12-27.md",
+                "file": "pages/Someday.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2b76422d96550eb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/WebGPU.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lang: 'ko'",
+                "query": "- [[Some",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-27.md",
+                "file": "pages/WebGPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-12-27.md"
+                "file": "pages/WebGPU.md"
               }
             }
           }
@@ -128,17 +142,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "c7395ad62b7d8d64",
+  "active": "b9b3d1724f39de07",
   "lastOpenFiles": [
-    "journals/2022-12-27.md",
-    "pages/Get Job Done.md",
-    "pages/Math-based Coding.md",
-    "pages/하늘땅사람.md",
-    "pages/Apple-like Block Interface.md",
-    "pages/방송 장비 담당자로 할 일.md",
-    "journals/2022-12-26.md",
-    "journals/2022-10-25.md",
-    "pages/Next.js.md",
-    "assets/6C8C82.png"
+    "pages/Someday.md",
+    "pages/Book Metadata as a Service.md",
+    "pages/Not-So-Procrastinating Lazy Loading.md",
+    "pages/Off The Record.md",
+    "pages/Old Fashioned Camera.md",
+    "pages/Open Graph Image as a Service.md",
+    "pages/사회과부도.md",
+    "pages/Quoridor Game.md",
+    "pages/sem.sh.md",
+    "pages/postcredit.info.md"
   ]
 }

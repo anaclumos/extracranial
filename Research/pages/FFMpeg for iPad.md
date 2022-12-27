@@ -3,9 +3,9 @@ lang: 'en'
 slug: '/696FEF'
 ---
 
-- [[Someday]] [[Project]]
-- There is no [[FFMpeg]] equivalent for iPads!
-- There do exist _some_ movie editor, but their encoding options do not come close of [[FFMpeg]].
+[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!
+
+- There do exist _some_ movie editors, but their encoding options do not come close to [[FFMpeg]].
 
 ## News
 
