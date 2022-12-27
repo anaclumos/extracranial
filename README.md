@@ -22,25 +22,25 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                   922     27582     6679         0    20903          0
+Markdown                   922     27588     6681         0    20907          0
 SVG                         57        57        0         0       57          0
-TypeScript                  50      8247      145        48     8054        136
+TypeScript                  50      8285      145        48     8092        136
 JSON                        36      2062        0         0     2062          0
-CSS                         35      2921      206        30     2685          0
-Python                       6       456       48        27      381         78
+CSS                         35      2915      206        30     2679          0
+Python                       6       461       47        26      388         76
 YAML                         6        30        2         0       28          0
 JavaScript                   2      1157        4      1038      115         21
 Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1119     42906     7175      1217    34514        235
+Total                     1119     42949     7176      1216    34557        233
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,112,987
-Estimated Schedule Effort (organic) 14.32 months
-Estimated People Required (organic) 6.90
+Estimated Cost to Develop (organic) $1,114,443
+Estimated Schedule Effort (organic) 14.33 months
+Estimated People Required (organic) 6.91
 ───────────────────────────────────────────────────────────────────────────────
-Processed 1957398 bytes, 1.957 megabytes (SI)
+Processed 1958119 bytes, 1.958 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
