@@ -1,0 +1,1669 @@
+article a[href*='https://s7.ru']::before,
+article a[href*='https://www.s7.ru']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/s7airlines.svg');
+  mask-image: url('https://simpleicons.org/icons/s7airlines.svg');
+}
+article a[href*='https://sabanciuniv.edu']::before,
+article a[href*='https://www.sabanciuniv.edu']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sabanci.svg');
+  mask-image: url('https://simpleicons.org/icons/sabanci.svg');
+}
+article a[href*='https://webkit.org']::before,
+article a[href*='https://www.webkit.org']::before,
+article a[href*='https://webkit.com']::before,
+article a[href*='https://www.webkit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sabanci.svg');
+  mask-image: url('https://simpleicons.org/icons/sabanci.svg');
+}
+article a[href*='https://sahibinden.com']::before,
+article a[href*='https://www.sahibinden.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sahibinden.svg');
+  mask-image: url('https://simpleicons.org/icons/sahibinden.svg');
+}
+article a[href*='https://sailfishos.org']::before,
+article a[href*='https://www.sailfishos.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sailfishos.svg');
+  mask-image: url('https://simpleicons.org/icons/sailfishos.svg');
+}
+article a[href*='https://salesforce.com']::before,
+article a[href*='https://www.salesforce.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/salesforce.svg');
+  mask-image: url('https://simpleicons.org/icons/salesforce.svg');
+}
+article a[href*='https://saltproject.io']::before,
+article a[href*='https://www.saltproject.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/saltproject.svg');
+  mask-image: url('https://simpleicons.org/icons/saltproject.svg');
+}
+article a[href*='https://samsung.com']::before,
+article a[href*='https://www.samsung.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/samsung.svg');
+  mask-image: url('https://simpleicons.org/icons/samsung.svg');
+}
+article a[href*='https://samsung.com/samsungpay']::before,
+article a[href*='https://www.samsung.com/samsungpay']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/samsungpay.svg');
+  mask-image: url('https://simpleicons.org/icons/samsungpay.svg');
+}
+article a[href*='https://sfmta.com']::before,
+article a[href*='https://www.sfmta.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sanfranciscomunicipalrailway.svg');
+  mask-image: url('https://simpleicons.org/icons/sanfranciscomunicipalrailway.svg');
+}
+article a[href*='https://sandisk.com']::before,
+article a[href*='https://www.sandisk.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sandisk.svg');
+  mask-image: url('https://simpleicons.org/icons/sandisk.svg');
+}
+article a[href*='https://metro.sp.gov.br']::before,
+article a[href*='https://www.metro.sp.gov.br']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/saopaulometro.svg');
+  mask-image: url('https://simpleicons.org/icons/saopaulometro.svg');
+}
+article a[href*='https://sap.com']::before,
+article a[href*='https://www.sap.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sap.svg');
+  mask-image: url('https://simpleicons.org/icons/sap.svg');
+}
+article a[href*='https://sass-lang.com']::before,
+article a[href*='https://www.sass-lang.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sass.svg');
+  mask-image: url('https://simpleicons.org/icons/sass.svg');
+}
+article a[href*='https://sat1.de']::before,
+article a[href*='https://www.sat1.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sat1.svg');
+  mask-image: url('https://simpleicons.org/icons/sat1.svg');
+}
+article a[href*='https://saturn.de']::before,
+article a[href*='https://www.saturn.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/saturn.svg');
+  mask-image: url('https://simpleicons.org/icons/saturn.svg');
+}
+article a[href*='https://saucelabs.com']::before,
+article a[href*='https://www.saucelabs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/saucelabs.svg');
+  mask-image: url('https://simpleicons.org/icons/saucelabs.svg');
+}
+article a[href*='https://scala-lang.org']::before,
+article a[href*='https://www.scala-lang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scala.svg');
+  mask-image: url('https://simpleicons.org/icons/scala.svg');
+}
+article a[href*='https://scaleway.com']::before,
+article a[href*='https://www.scaleway.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scaleway.svg');
+  mask-image: url('https://simpleicons.org/icons/scaleway.svg');
+}
+article a[href*='https://scania.com']::before,
+article a[href*='https://www.scania.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scania.svg');
+  mask-image: url('https://simpleicons.org/icons/scania.svg');
+}
+article a[href*='https://schneider-electric.com']::before,
+article a[href*='https://www.schneider-electric.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/schneiderelectric.svg');
+  mask-image: url('https://simpleicons.org/icons/schneiderelectric.svg');
+}
+article a[href*='https://scikit-learn.org']::before,
+article a[href*='https://www.scikit-learn.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scikitlearn.svg');
+  mask-image: url('https://simpleicons.org/icons/scikitlearn.svg');
+}
+article a[href*='https://scipy.org']::before,
+article a[href*='https://www.scipy.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scipy.svg');
+  mask-image: url('https://simpleicons.org/icons/scipy.svg');
+}
+article a[href*='https://scopus.com']::before,
+article a[href*='https://www.scopus.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scopus.svg');
+  mask-image: url('https://simpleicons.org/icons/scopus.svg');
+}
+article a[href*='https://scp-wiki.net']::before,
+article a[href*='https://www.scp-wiki.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scpfoundation.svg');
+  mask-image: url('https://simpleicons.org/icons/scpfoundation.svg');
+}
+article a[href*='https://scratch.mit.edu']::before,
+article a[href*='https://www.scratch.mit.edu']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scratch.svg');
+  mask-image: url('https://simpleicons.org/icons/scratch.svg');
+}
+article a[href*='https://screencastify.com']::before,
+article a[href*='https://www.screencastify.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/screencastify.svg');
+  mask-image: url('https://simpleicons.org/icons/screencastify.svg');
+}
+article a[href*='https://scribd.com']::before,
+article a[href*='https://www.scribd.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scribd.svg');
+  mask-image: url('https://simpleicons.org/icons/scribd.svg');
+}
+article a[href*='https://scrimba.com']::before,
+article a[href*='https://www.scrimba.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scrimba.svg');
+  mask-image: url('https://simpleicons.org/icons/scrimba.svg');
+}
+article a[href*='https://scrollrevealjs.org']::before,
+article a[href*='https://www.scrollrevealjs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scrollreveal.svg');
+  mask-image: url('https://simpleicons.org/icons/scrollreveal.svg');
+}
+article a[href*='https://scrumalliance.org']::before,
+article a[href*='https://www.scrumalliance.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scrumalliance.svg');
+  mask-image: url('https://simpleicons.org/icons/scrumalliance.svg');
+}
+article a[href*='https://scrutinizer-ci.com']::before,
+article a[href*='https://www.scrutinizer-ci.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/scrutinizerci.svg');
+  mask-image: url('https://simpleicons.org/icons/scrutinizerci.svg');
+}
+article a[href*='https://seagate.com']::before,
+article a[href*='https://www.seagate.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/seagate.svg');
+  mask-image: url('https://simpleicons.org/icons/seagate.svg');
+}
+article a[href*='https://seat.es']::before,
+article a[href*='https://www.seat.es']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/seat.svg');
+  mask-image: url('https://simpleicons.org/icons/seat.svg');
+}
+article a[href*='https://securityscorecard.com']::before,
+article a[href*='https://www.securityscorecard.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/securityscorecard.svg');
+  mask-image: url('https://simpleicons.org/icons/securityscorecard.svg');
+}
+article a[href*='https://sefaria.org']::before,
+article a[href*='https://www.sefaria.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sefaria.svg');
+  mask-image: url('https://simpleicons.org/icons/sefaria.svg');
+}
+article a[href*='https://sega.com']::before,
+article a[href*='https://www.sega.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sega.svg');
+  mask-image: url('https://simpleicons.org/icons/sega.svg');
+}
+article a[href*='https://selenium.dev']::before,
+article a[href*='https://www.selenium.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/selenium.svg');
+  mask-image: url('https://simpleicons.org/icons/selenium.svg');
+}
+article a[href*='https://sellfy.com']::before,
+article a[href*='https://www.sellfy.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sellfy.svg');
+  mask-image: url('https://simpleicons.org/icons/sellfy.svg');
+}
+article a[href*='https://semanticscholar.org']::before,
+article a[href*='https://www.semanticscholar.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/semanticscholar.svg');
+  mask-image: url('https://simpleicons.org/icons/semanticscholar.svg');
+}
+article a[href*='https://react.semantic-ui.com']::before,
+article a[href*='https://www.react.semantic-ui.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/semanticuireact.svg');
+  mask-image: url('https://simpleicons.org/icons/semanticuireact.svg');
+}
+article a[href*='https://semanticweb.org']::before,
+article a[href*='https://www.semanticweb.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/semanticweb.svg');
+  mask-image: url('https://simpleicons.org/icons/semanticweb.svg');
+}
+article a[href*='https://semantic-release.gitbook.io']::before,
+article a[href*='https://www.semantic-release.gitbook.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/semanticrelease.svg');
+  mask-image: url('https://simpleicons.org/icons/semanticrelease.svg');
+}
+article a[href*='https://semaphoreci.com']::before,
+article a[href*='https://www.semaphoreci.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/semaphoreci.svg');
+  mask-image: url('https://simpleicons.org/icons/semaphoreci.svg');
+}
+article a[href*='https://semver.org']::before,
+article a[href*='https://www.semver.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/semver.svg');
+  mask-image: url('https://simpleicons.org/icons/semver.svg');
+}
+article a[href*='https://sencha.com']::before,
+article a[href*='https://www.sencha.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sencha.svg');
+  mask-image: url('https://simpleicons.org/icons/sencha.svg');
+}
+article a[href*='https://sennheiser.com']::before,
+article a[href*='https://www.sennheiser.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sennheiser.svg');
+  mask-image: url('https://simpleicons.org/icons/sennheiser.svg');
+}
+article a[href*='https://sensu.io']::before,
+article a[href*='https://www.sensu.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sensu.svg');
+  mask-image: url('https://simpleicons.org/icons/sensu.svg');
+}
+article a[href*='https://sentry.io']::before,
+article a[href*='https://www.sentry.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sentry.svg');
+  mask-image: url('https://simpleicons.org/icons/sentry.svg');
+}
+article a[href*='https://sepa.org']::before,
+article a[href*='https://www.sepa.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sepa.svg');
+  mask-image: url('https://simpleicons.org/icons/sepa.svg');
+}
+article a[href*='https://sequelize.org']::before,
+article a[href*='https://www.sequelize.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sequelize.svg');
+  mask-image: url('https://simpleicons.org/icons/sequelize.svg');
+}
+article a[href*='https://serverfault.com']::before,
+article a[href*='https://www.serverfault.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/serverfault.svg');
+  mask-image: url('https://simpleicons.org/icons/serverfault.svg');
+}
+article a[href*='https://serverless.com']::before,
+article a[href*='https://www.serverless.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/serverless.svg');
+  mask-image: url('https://simpleicons.org/icons/serverless.svg');
+}
+article a[href*='https://sessionize.com']::before,
+article a[href*='https://www.sessionize.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sessionize.svg');
+  mask-image: url('https://simpleicons.org/icons/sessionize.svg');
+}
+article a[href*='https://setapp.com']::before,
+article a[href*='https://www.setapp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/setapp.svg');
+  mask-image: url('https://simpleicons.org/icons/setapp.svg');
+}
+article a[href*='https://sfml-dev.org']::before,
+article a[href*='https://www.sfml-dev.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sfml.svg');
+  mask-image: url('https://simpleicons.org/icons/sfml.svg');
+}
+article a[href*='https://shadow.tech']::before,
+article a[href*='https://www.shadow.tech']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shadow.svg');
+  mask-image: url('https://simpleicons.org/icons/shadow.svg');
+}
+article a[href*='https://shmetro.com']::before,
+article a[href*='https://www.shmetro.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shanghaimetro.svg');
+  mask-image: url('https://simpleicons.org/icons/shanghaimetro.svg');
+}
+article a[href*='https://sharp.pixelplumbing.com']::before,
+article a[href*='https://www.sharp.pixelplumbing.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sharp.svg');
+  mask-image: url('https://simpleicons.org/icons/sharp.svg');
+}
+article a[href*='https://shazam.com']::before,
+article a[href*='https://www.shazam.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shazam.svg');
+  mask-image: url('https://simpleicons.org/icons/shazam.svg');
+}
+article a[href*='https://shell.com']::before,
+article a[href*='https://www.shell.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shell.svg');
+  mask-image: url('https://simpleicons.org/icons/shell.svg');
+}
+article a[href*='https://shelly.cloud']::before,
+article a[href*='https://www.shelly.cloud']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shelly.svg');
+  mask-image: url('https://simpleicons.org/icons/shelly.svg');
+}
+article a[href*='https://szmtr.com']::before,
+article a[href*='https://www.szmtr.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shenzhenmetro.svg');
+  mask-image: url('https://simpleicons.org/icons/shenzhenmetro.svg');
+}
+article a[href*='https://shields.io']::before,
+article a[href*='https://www.shields.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shieldsdotio.svg');
+  mask-image: url('https://simpleicons.org/icons/shieldsdotio.svg');
+}
+article a[href*='https://shikimori.one']::before,
+article a[href*='https://www.shikimori.one']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shikimori.svg');
+  mask-image: url('https://simpleicons.org/icons/shikimori.svg');
+}
+article a[href*='https://shopee.com']::before,
+article a[href*='https://www.shopee.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shopee.svg');
+  mask-image: url('https://simpleicons.org/icons/shopee.svg');
+}
+article a[href*='https://shopify.com']::before,
+article a[href*='https://www.shopify.com']::before,
+article a[href*='https://shopify.enginnering']::before,
+article a[href*='https://www.shopify.enginnering']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shopify.svg');
+  mask-image: url('https://simpleicons.org/icons/shopify.svg');
+}
+article a[href*='https://shopware.com']::before,
+article a[href*='https://www.shopware.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shopware.svg');
+  mask-image: url('https://simpleicons.org/icons/shopware.svg');
+}
+article a[href*='https://shotcut.org']::before,
+article a[href*='https://www.shotcut.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shotcut.svg');
+  mask-image: url('https://simpleicons.org/icons/shotcut.svg');
+}
+article a[href*='https://showpad.com']::before,
+article a[href*='https://www.showpad.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/showpad.svg');
+  mask-image: url('https://simpleicons.org/icons/showpad.svg');
+}
+article a[href*='https://showtime.com']::before,
+article a[href*='https://www.showtime.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/showtime.svg');
+  mask-image: url('https://simpleicons.org/icons/showtime.svg');
+}
+article a[href*='https://shutterstock.com']::before,
+article a[href*='https://www.shutterstock.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/shutterstock.svg');
+  mask-image: url('https://simpleicons.org/icons/shutterstock.svg');
+}
+article a[href*='https://siemens.com']::before,
+article a[href*='https://www.siemens.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/siemens.svg');
+  mask-image: url('https://simpleicons.org/icons/siemens.svg');
+}
+article a[href*='https://signal.org']::before,
+article a[href*='https://www.signal.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/signal.svg');
+  mask-image: url('https://simpleicons.org/icons/signal.svg');
+}
+article a[href*='https://similarweb.com']::before,
+article a[href*='https://www.similarweb.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/similarweb.svg');
+  mask-image: url('https://simpleicons.org/icons/similarweb.svg');
+}
+article a[href*='https://simkl.com']::before,
+article a[href*='https://www.simkl.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/simkl.svg');
+  mask-image: url('https://simpleicons.org/icons/simkl.svg');
+}
+article a[href*='https://simpleanalytics.com']::before,
+article a[href*='https://www.simpleanalytics.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/simpleanalytics.svg');
+  mask-image: url('https://simpleicons.org/icons/simpleanalytics.svg');
+}
+article a[href*='https://simpleicons.org']::before,
+article a[href*='https://www.simpleicons.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/simpleicons.svg');
+  mask-image: url('https://simpleicons.org/icons/simpleicons.svg');
+}
+article a[href*='https://simplenote.com']::before,
+article a[href*='https://www.simplenote.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/simplenote.svg');
+  mask-image: url('https://simpleicons.org/icons/simplenote.svg');
+}
+article a[href*='https://weibo.com']::before,
+article a[href*='https://www.weibo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sinaweibo.svg');
+  mask-image: url('https://simpleicons.org/icons/sinaweibo.svg');
+}
+article a[href*='https://singlestore.com']::before,
+article a[href*='https://www.singlestore.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/singlestore.svg');
+  mask-image: url('https://simpleicons.org/icons/singlestore.svg');
+}
+article a[href*='https://sitepoint.com']::before,
+article a[href*='https://www.sitepoint.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sitepoint.svg');
+  mask-image: url('https://simpleicons.org/icons/sitepoint.svg');
+}
+article a[href*='https://sketch.com']::before,
+article a[href*='https://www.sketch.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sketch.svg');
+  mask-image: url('https://simpleicons.org/icons/sketch.svg');
+}
+article a[href*='https://sketchfab.com']::before,
+article a[href*='https://www.sketchfab.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sketchfab.svg');
+  mask-image: url('https://simpleicons.org/icons/sketchfab.svg');
+}
+article a[href*='https://sketchup.com']::before,
+article a[href*='https://www.sketchup.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sketchup.svg');
+  mask-image: url('https://simpleicons.org/icons/sketchup.svg');
+}
+article a[href*='https://skillshare.com']::before,
+article a[href*='https://www.skillshare.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/skillshare.svg');
+  mask-image: url('https://simpleicons.org/icons/skillshare.svg');
+}
+article a[href*='https://skoda-auto.com']::before,
+article a[href*='https://www.skoda-auto.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/skoda.svg');
+  mask-image: url('https://simpleicons.org/icons/skoda.svg');
+}
+article a[href*='https://sky.com']::before,
+article a[href*='https://www.sky.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sky.svg');
+  mask-image: url('https://simpleicons.org/icons/sky.svg');
+}
+article a[href*='https://skynet.be']::before,
+article a[href*='https://www.skynet.be']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/skynet.svg');
+  mask-image: url('https://simpleicons.org/icons/skynet.svg');
+}
+article a[href*='https://skypack.dev']::before,
+article a[href*='https://www.skypack.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/skypack.svg');
+  mask-image: url('https://simpleicons.org/icons/skypack.svg');
+}
+article a[href*='https://skype.com']::before,
+article a[href*='https://www.skype.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/skype.svg');
+  mask-image: url('https://simpleicons.org/icons/skype.svg');
+}
+article a[href*='https://skypeforbusiness.com']::before,
+article a[href*='https://www.skypeforbusiness.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/skypeforbusiness.svg');
+  mask-image: url('https://simpleicons.org/icons/skypeforbusiness.svg');
+}
+article a[href*='https://slack.com']::before,
+article a[href*='https://www.slack.com']::before,
+article a[href*='https://slack.engineering']::before,
+article a[href*='https://www.slack.engineering']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/slack.svg');
+  mask-image: url('https://simpleicons.org/icons/slack.svg');
+}
+article a[href*='https://slackware.com']::before,
+article a[href*='https://www.slackware.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/slackware.svg');
+  mask-image: url('https://simpleicons.org/icons/slackware.svg');
+}
+article a[href*='https://slashdot.org']::before,
+article a[href*='https://www.slashdot.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/slashdot.svg');
+  mask-image: url('https://simpleicons.org/icons/slashdot.svg');
+}
+article a[href*='https://slickpic.com']::before,
+article a[href*='https://www.slickpic.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/slickpic.svg');
+  mask-image: url('https://simpleicons.org/icons/slickpic.svg');
+}
+article a[href*='https://slides.com']::before,
+article a[href*='https://www.slides.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/slides.svg');
+  mask-image: url('https://simpleicons.org/icons/slides.svg');
+}
+article a[href*='https://slideshare.net']::before,
+article a[href*='https://www.slideshare.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/slideshare.svg');
+  mask-image: url('https://simpleicons.org/icons/slideshare.svg');
+}
+article a[href*='https://smart.com']::before,
+article a[href*='https://www.smart.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/smart.svg');
+  mask-image: url('https://simpleicons.org/icons/smart.svg');
+}
+article a[href*='https://smartthings.com']::before,
+article a[href*='https://www.smartthings.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/smartthings.svg');
+  mask-image: url('https://simpleicons.org/icons/smartthings.svg');
+}
+article a[href*='https://smash.gg']::before,
+article a[href*='https://www.smash.gg']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/smashdotgg.svg');
+  mask-image: url('https://simpleicons.org/icons/smashdotgg.svg');
+}
+article a[href*='https://smashingmagazine.com']::before,
+article a[href*='https://www.smashingmagazine.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/smashingmagazine.svg');
+  mask-image: url('https://simpleicons.org/icons/smashingmagazine.svg');
+}
+article a[href*='https://smrt.com.sg']::before,
+article a[href*='https://www.smrt.com.sg']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/smrt.svg');
+  mask-image: url('https://simpleicons.org/icons/smrt.svg');
+}
+article a[href*='https://smugmug.com']::before,
+article a[href*='https://www.smugmug.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/smugmug.svg');
+  mask-image: url('https://simpleicons.org/icons/smugmug.svg');
+}
+article a[href*='https://snapchat.com']::before,
+article a[href*='https://www.snapchat.com']::before,
+article a[href*='https://snap.com']::before,
+article a[href*='https://www.snap.com']::before,
+article a[href*='https://developers.snap.com']::before,
+article a[href*='https://developers.snapchat.com']::before,
+article a[href*='https://newsroom.snap.com']::before,
+article a[href*='https://newsroom.snapchat.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/snapchat.svg');
+  mask-image: url('https://simpleicons.org/icons/snapchat.svg');
+}
+article a[href*='https://snapcraft.io']::before,
+article a[href*='https://www.snapcraft.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/snapcraft.svg');
+  mask-image: url('https://simpleicons.org/icons/snapcraft.svg');
+}
+article a[href*='https://snowflake.com']::before,
+article a[href*='https://www.snowflake.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/snowflake.svg');
+  mask-image: url('https://simpleicons.org/icons/snowflake.svg');
+}
+article a[href*='https://snowpack.dev']::before,
+article a[href*='https://www.snowpack.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/snowpack.svg');
+  mask-image: url('https://simpleicons.org/icons/snowpack.svg');
+}
+article a[href*='https://snyk.io']::before,
+article a[href*='https://www.snyk.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/snyk.svg');
+  mask-image: url('https://simpleicons.org/icons/snyk.svg');
+}
+article a[href*='https://socialblade.com']::before,
+article a[href*='https://www.socialblade.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/socialblade.svg');
+  mask-image: url('https://simpleicons.org/icons/socialblade.svg');
+}
+article a[href*='https://society6.com']::before,
+article a[href*='https://www.society6.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/society6.svg');
+  mask-image: url('https://simpleicons.org/icons/society6.svg');
+}
+article a[href*='https://socket.io']::before,
+article a[href*='https://www.socket.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/socketdotio.svg');
+  mask-image: url('https://simpleicons.org/icons/socketdotio.svg');
+}
+article a[href*='https://sogou.com']::before,
+article a[href*='https://www.sogou.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sogou.svg');
+  mask-image: url('https://simpleicons.org/icons/sogou.svg');
+}
+article a[href*='https://solidproject.org']::before,
+article a[href*='https://www.solidproject.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/solid.svg');
+  mask-image: url('https://simpleicons.org/icons/solid.svg');
+}
+article a[href*='https://soliditylang.org']::before,
+article a[href*='https://www.soliditylang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/solidity.svg');
+  mask-image: url('https://simpleicons.org/icons/solidity.svg');
+}
+article a[href*='https://sololearn.com']::before,
+article a[href*='https://www.sololearn.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sololearn.svg');
+  mask-image: url('https://simpleicons.org/icons/sololearn.svg');
+}
+article a[href*='https://solus-project.com']::before,
+article a[href*='https://www.solus-project.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/solus.svg');
+  mask-image: url('https://simpleicons.org/icons/solus.svg');
+}
+article a[href*='https://sonarcloud.io']::before,
+article a[href*='https://www.sonarcloud.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sonar.svg');
+  mask-image: url('https://simpleicons.org/icons/sonar.svg');
+}
+article a[href*='https://sonarcloud.io']::before,
+article a[href*='https://www.sonarcloud.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sonarcloud.svg');
+  mask-image: url('https://simpleicons.org/icons/sonarcloud.svg');
+}
+article a[href*='https://sonarlint.org']::before,
+article a[href*='https://www.sonarlint.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sonarlint.svg');
+  mask-image: url('https://simpleicons.org/icons/sonarlint.svg');
+}
+article a[href*='https://sonarqube.org']::before,
+article a[href*='https://www.sonarqube.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sonarqube.svg');
+  mask-image: url('https://simpleicons.org/icons/sonarqube.svg');
+}
+article a[href*='https://sonarsource.com']::before,
+article a[href*='https://www.sonarsource.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sonarsource.svg');
+  mask-image: url('https://simpleicons.org/icons/sonarsource.svg');
+}
+article a[href*='https://songkick.com']::before,
+article a[href*='https://www.songkick.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/songkick.svg');
+  mask-image: url('https://simpleicons.org/icons/songkick.svg');
+}
+article a[href*='https://songoda.com']::before,
+article a[href*='https://www.songoda.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/songoda.svg');
+  mask-image: url('https://simpleicons.org/icons/songoda.svg');
+}
+article a[href*='https://sonicwall.com']::before,
+article a[href*='https://www.sonicwall.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sonicwall.svg');
+  mask-image: url('https://simpleicons.org/icons/sonicwall.svg');
+}
+article a[href*='https://sonos.com']::before,
+article a[href*='https://www.sonos.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sonos.svg');
+  mask-image: url('https://simpleicons.org/icons/sonos.svg');
+}
+article a[href*='https://sony.com']::before,
+article a[href*='https://www.sony.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sony.svg');
+  mask-image: url('https://simpleicons.org/icons/sony.svg');
+}
+article a[href*='https://soundcharts.com']::before,
+article a[href*='https://www.soundcharts.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/soundcharts.svg');
+  mask-image: url('https://simpleicons.org/icons/soundcharts.svg');
+}
+article a[href*='https://soundcloud.com']::before,
+article a[href*='https://www.soundcloud.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/soundcloud.svg');
+  mask-image: url('https://simpleicons.org/icons/soundcloud.svg');
+}
+article a[href*='https://sourceengine.net']::before,
+article a[href*='https://www.sourceengine.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sourceengine.svg');
+  mask-image: url('https://simpleicons.org/icons/sourceengine.svg');
+}
+article a[href*='https://sourceforge.net']::before,
+article a[href*='https://www.sourceforge.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sourceforge.svg');
+  mask-image: url('https://simpleicons.org/icons/sourceforge.svg');
+}
+article a[href*='https://sourcegraph.com']::before,
+article a[href*='https://www.sourcegraph.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sourcegraph.svg');
+  mask-image: url('https://simpleicons.org/icons/sourcegraph.svg');
+}
+article a[href*='https://sourcetreeapp.com']::before,
+article a[href*='https://www.sourcetreeapp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sourcetree.svg');
+  mask-image: url('https://simpleicons.org/icons/sourcetree.svg');
+}
+article a[href*='https://southwest.com']::before,
+article a[href*='https://www.southwest.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/southwestairlines.svg');
+  mask-image: url('https://simpleicons.org/icons/southwestairlines.svg');
+}
+article a[href*='https://spacemacs.org']::before,
+article a[href*='https://www.spacemacs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spacemacs.svg');
+  mask-image: url('https://simpleicons.org/icons/spacemacs.svg');
+}
+article a[href*='https://spacex.com']::before,
+article a[href*='https://www.spacex.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spacex.svg');
+  mask-image: url('https://simpleicons.org/icons/spacex.svg');
+}
+article a[href*='https://spacy.io']::before,
+article a[href*='https://www.spacy.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spacy.svg');
+  mask-image: url('https://simpleicons.org/icons/spacy.svg');
+}
+article a[href*='https://sparkar.facebook.com']::before,
+article a[href*='https://www.sparkar.facebook.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sparkar.svg');
+  mask-image: url('https://simpleicons.org/icons/sparkar.svg');
+}
+article a[href*='https://sparkasse.de']::before,
+article a[href*='https://www.sparkasse.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sparkasse.svg');
+  mask-image: url('https://simpleicons.org/icons/sparkasse.svg');
+}
+article a[href*='https://sparkfun.com']::before,
+article a[href*='https://www.sparkfun.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sparkfun.svg');
+  mask-image: url('https://simpleicons.org/icons/sparkfun.svg');
+}
+article a[href*='https://sparkpost.com']::before,
+article a[href*='https://www.sparkpost.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sparkpost.svg');
+  mask-image: url('https://simpleicons.org/icons/sparkpost.svg');
+}
+article a[href*='https://spdx.org']::before,
+article a[href*='https://www.spdx.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spdx.svg');
+  mask-image: url('https://simpleicons.org/icons/spdx.svg');
+}
+article a[href*='https://speakerdeck.com']::before,
+article a[href*='https://www.speakerdeck.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/speakerdeck.svg');
+  mask-image: url('https://simpleicons.org/icons/speakerdeck.svg');
+}
+article a[href*='https://spectrum.chat']::before,
+article a[href*='https://www.spectrum.chat']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spectrum.svg');
+  mask-image: url('https://simpleicons.org/icons/spectrum.svg');
+}
+article a[href*='https://speedtest.net']::before,
+article a[href*='https://www.speedtest.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/speedtest.svg');
+  mask-image: url('https://simpleicons.org/icons/speedtest.svg');
+}
+article a[href*='https://spinnaker.io']::before,
+article a[href*='https://www.spinnaker.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spinnaker.svg');
+  mask-image: url('https://simpleicons.org/icons/spinnaker.svg');
+}
+article a[href*='https://spinrilla.com']::before,
+article a[href*='https://www.spinrilla.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spinrilla.svg');
+  mask-image: url('https://simpleicons.org/icons/spinrilla.svg');
+}
+article a[href*='https://splunk.com']::before,
+article a[href*='https://www.splunk.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/splunk.svg');
+  mask-image: url('https://simpleicons.org/icons/splunk.svg');
+}
+article a[href*='https://spond.com']::before,
+article a[href*='https://www.spond.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spond.svg');
+  mask-image: url('https://simpleicons.org/icons/spond.svg');
+}
+article a[href*='https://spotify.com']::before,
+article a[href*='https://www.spotify.com']::before,
+article a[href*='https://atspotify.com']::before,
+article a[href*='https://www.atspotify.com']::before,
+article a[href*='https://developer.spotify.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spotify.svg');
+  mask-image: url('https://simpleicons.org/icons/spotify.svg');
+}
+article a[href*='https://spotlight.com']::before,
+article a[href*='https://www.spotlight.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spotlight.svg');
+  mask-image: url('https://simpleicons.org/icons/spotlight.svg');
+}
+article a[href*='https://spreadshirt.com']::before,
+article a[href*='https://www.spreadshirt.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spreadshirt.svg');
+  mask-image: url('https://simpleicons.org/icons/spreadshirt.svg');
+}
+article a[href*='https://spreaker.com']::before,
+article a[href*='https://www.spreaker.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spreaker.svg');
+  mask-image: url('https://simpleicons.org/icons/spreaker.svg');
+}
+article a[href*='https://spring.io']::before,
+article a[href*='https://www.spring.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spring.svg');
+  mask-image: url('https://simpleicons.org/icons/spring.svg');
+}
+article a[href*='https://spring.io']::before,
+article a[href*='https://www.spring.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spring_creators.svg');
+  mask-image: url('https://simpleicons.org/icons/spring_creators.svg');
+}
+article a[href*='https://spring.io']::before,
+article a[href*='https://www.spring.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/springboot.svg');
+  mask-image: url('https://simpleicons.org/icons/springboot.svg');
+}
+article a[href*='https://spring.io']::before,
+article a[href*='https://www.spring.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/springsecurity.svg');
+  mask-image: url('https://simpleicons.org/icons/springsecurity.svg');
+}
+article a[href*='https://spyder-ide.org']::before,
+article a[href*='https://www.spyder-ide.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/spyderide.svg');
+  mask-image: url('https://simpleicons.org/icons/spyderide.svg');
+}
+article a[href*='https://sqlite.org']::before,
+article a[href*='https://www.sqlite.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sqlite.svg');
+  mask-image: url('https://simpleicons.org/icons/sqlite.svg');
+}
+article a[href*='https://squareup.com']::before,
+article a[href*='https://www.squareup.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/square.svg');
+  mask-image: url('https://simpleicons.org/icons/square.svg');
+}
+article a[href*='https://square-enix.com']::before,
+article a[href*='https://www.square-enix.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/squareenix.svg');
+  mask-image: url('https://simpleicons.org/icons/squareenix.svg');
+}
+article a[href*='https://squarespace.com']::before,
+article a[href*='https://www.squarespace.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/squarespace.svg');
+  mask-image: url('https://simpleicons.org/icons/squarespace.svg');
+}
+article a[href*='https://ssrn.com']::before,
+article a[href*='https://www.ssrn.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ssrn.svg');
+  mask-image: url('https://simpleicons.org/icons/ssrn.svg');
+}
+article a[href*='https://stackexchange.com']::before,
+article a[href*='https://www.stackexchange.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stackexchange.svg');
+  mask-image: url('https://simpleicons.org/icons/stackexchange.svg');
+}
+article a[href*='https://stackoverflow.com']::before,
+article a[href*='https://www.stackoverflow.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stackoverflow.svg');
+  mask-image: url('https://simpleicons.org/icons/stackoverflow.svg');
+}
+article a[href*='https://stackbit.com']::before,
+article a[href*='https://www.stackbit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stackbit.svg');
+  mask-image: url('https://simpleicons.org/icons/stackbit.svg');
+}
+article a[href*='https://stackblitz.com']::before,
+article a[href*='https://www.stackblitz.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stackblitz.svg');
+  mask-image: url('https://simpleicons.org/icons/stackblitz.svg');
+}
+article a[href*='https://stackedit.io']::before,
+article a[href*='https://www.stackedit.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stackedit.svg');
+  mask-image: url('https://simpleicons.org/icons/stackedit.svg');
+}
+article a[href*='https://stackpath.com']::before,
+article a[href*='https://www.stackpath.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stackpath.svg');
+  mask-image: url('https://simpleicons.org/icons/stackpath.svg');
+}
+article a[href*='https://stackshare.io']::before,
+article a[href*='https://www.stackshare.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stackshare.svg');
+  mask-image: url('https://simpleicons.org/icons/stackshare.svg');
+}
+article a[href*='https://stadia.com']::before,
+article a[href*='https://www.stadia.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stadia.svg');
+  mask-image: url('https://simpleicons.org/icons/stadia.svg');
+}
+article a[href*='https://staffbase.com']::before,
+article a[href*='https://www.staffbase.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/staffbase.svg');
+  mask-image: url('https://simpleicons.org/icons/staffbase.svg');
+}
+article a[href*='https://standardjs.com']::before,
+article a[href*='https://www.standardjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/standardjs.svg');
+  mask-image: url('https://simpleicons.org/icons/standardjs.svg');
+}
+article a[href*='https://startrek.com']::before,
+article a[href*='https://www.startrek.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/startrek.svg');
+  mask-image: url('https://simpleicons.org/icons/startrek.svg');
+}
+article a[href*='https://starbucks.com']::before,
+article a[href*='https://www.starbucks.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/starbucks.svg');
+  mask-image: url('https://simpleicons.org/icons/starbucks.svg');
+}
+article a[href*='https://stardock.com']::before,
+article a[href*='https://www.stardock.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stardock.svg');
+  mask-image: url('https://simpleicons.org/icons/stardock.svg');
+}
+article a[href*='https://starlingbank.com']::before,
+article a[href*='https://www.starlingbank.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/starlingbank.svg');
+  mask-image: url('https://simpleicons.org/icons/starlingbank.svg');
+}
+article a[href*='https://starship.rs']::before,
+article a[href*='https://www.starship.rs']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/starship.svg');
+  mask-image: url('https://simpleicons.org/icons/starship.svg');
+}
+article a[href*='https://starz.com']::before,
+article a[href*='https://www.starz.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/starz.svg');
+  mask-image: url('https://simpleicons.org/icons/starz.svg');
+}
+article a[href*='https://statamic.com']::before,
+article a[href*='https://www.statamic.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/statamic.svg');
+  mask-image: url('https://simpleicons.org/icons/statamic.svg');
+}
+article a[href*='https://statuspage.io']::before,
+article a[href*='https://www.statuspage.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/statuspage.svg');
+  mask-image: url('https://simpleicons.org/icons/statuspage.svg');
+}
+article a[href*='https://statuspal.io']::before,
+article a[href*='https://www.statuspal.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/statuspal.svg');
+  mask-image: url('https://simpleicons.org/icons/statuspal.svg');
+}
+article a[href*='https://store.steampowered.com']::before,
+article a[href*='https://www.store.steampowered.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/steam.svg');
+  mask-image: url('https://simpleicons.org/icons/steam.svg');
+}
+article a[href*='https://store.steampowered.com/steamdeck']::before,
+article a[href*='https://www.store.steampowered.com/steamdeck']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/steamdeck.svg');
+  mask-image: url('https://simpleicons.org/icons/steamdeck.svg');
+}
+article a[href*='https://steamdb.info']::before,
+article a[href*='https://www.steamdb.info']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/steamdb.svg');
+  mask-image: url('https://simpleicons.org/icons/steamdb.svg');
+}
+article a[href*='https://steamgames.com']::before,
+article a[href*='https://www.steamgames.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/steamworks.svg');
+  mask-image: url('https://simpleicons.org/icons/steamworks.svg');
+}
+article a[href*='https://steelseries.com']::before,
+article a[href*='https://www.steelseries.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/steelseries.svg');
+  mask-image: url('https://simpleicons.org/icons/steelseries.svg');
+}
+article a[href*='https://steem.io']::before,
+article a[href*='https://www.steem.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/steem.svg');
+  mask-image: url('https://simpleicons.org/icons/steem.svg');
+}
+article a[href*='https://steemit.com']::before,
+article a[href*='https://www.steemit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/steemit.svg');
+  mask-image: url('https://simpleicons.org/icons/steemit.svg');
+}
+article a[href*='https://steinberg.net']::before,
+article a[href*='https://www.steinberg.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/steinberg.svg');
+  mask-image: url('https://simpleicons.org/icons/steinberg.svg');
+}
+article a[href*='https://stellar.org']::before,
+article a[href*='https://www.stellar.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stellar.svg');
+  mask-image: url('https://simpleicons.org/icons/stellar.svg');
+}
+article a[href*='https://stencyl.com']::before,
+article a[href*='https://www.stencyl.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stencyl.svg');
+  mask-image: url('https://simpleicons.org/icons/stencyl.svg');
+}
+article a[href*='https://stimulusjs.org']::before,
+article a[href*='https://www.stimulusjs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stimulus.svg');
+  mask-image: url('https://simpleicons.org/icons/stimulus.svg');
+}
+article a[href*='https://stitcher.com']::before,
+article a[href*='https://www.stitcher.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stitcher.svg');
+  mask-image: url('https://simpleicons.org/icons/stitcher.svg');
+}
+article a[href*='https://st.com']::before,
+article a[href*='https://www.st.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stmicroelectronics.svg');
+  mask-image: url('https://simpleicons.org/icons/stmicroelectronics.svg');
+}
+article a[href*='https://stopstalk.com']::before,
+article a[href*='https://www.stopstalk.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stopstalk.svg');
+  mask-image: url('https://simpleicons.org/icons/stopstalk.svg');
+}
+article a[href*='https://storyblok.com']::before,
+article a[href*='https://www.storyblok.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/storyblok.svg');
+  mask-image: url('https://simpleicons.org/icons/storyblok.svg');
+}
+article a[href*='https://storybook.js.org']::before,
+article a[href*='https://www.storybook.js.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/storybook.svg');
+  mask-image: url('https://simpleicons.org/icons/storybook.svg');
+}
+article a[href*='https://strapi.io']::before,
+article a[href*='https://www.strapi.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/strapi.svg');
+  mask-image: url('https://simpleicons.org/icons/strapi.svg');
+}
+article a[href*='https://strava.com']::before,
+article a[href*='https://www.strava.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/strava.svg');
+  mask-image: url('https://simpleicons.org/icons/strava.svg');
+}
+article a[href*='https://streamlit.io']::before,
+article a[href*='https://www.streamlit.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/streamlit.svg');
+  mask-image: url('https://simpleicons.org/icons/streamlit.svg');
+}
+article a[href*='https://stripe.com']::before,
+article a[href*='https://www.stripe.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stripe.svg');
+  mask-image: url('https://simpleicons.org/icons/stripe.svg');
+}
+article a[href*='https://strongswan.org']::before,
+article a[href*='https://www.strongswan.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/strongswan.svg');
+  mask-image: url('https://simpleicons.org/icons/strongswan.svg');
+}
+article a[href*='https://stubhub.com']::before,
+article a[href*='https://www.stubhub.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stubhub.svg');
+  mask-image: url('https://simpleicons.org/icons/stubhub.svg');
+}
+article a[href*='https://styled-components.com']::before,
+article a[href*='https://www.styled-components.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/styledcomponents.svg');
+  mask-image: url('https://simpleicons.org/icons/styledcomponents.svg');
+}
+article a[href*='https://stylelint.io']::before,
+article a[href*='https://www.stylelint.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stylelint.svg');
+  mask-image: url('https://simpleicons.org/icons/stylelint.svg');
+}
+article a[href*='https://stylesha.re']::before,
+article a[href*='https://www.stylesha.re']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/styleshare.svg');
+  mask-image: url('https://simpleicons.org/icons/styleshare.svg');
+}
+article a[href*='https://stylus-lang.com']::before,
+article a[href*='https://www.stylus-lang.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/stylus.svg');
+  mask-image: url('https://simpleicons.org/icons/stylus.svg');
+}
+article a[href*='https://subaru.com']::before,
+article a[href*='https://www.subaru.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/subaru.svg');
+  mask-image: url('https://simpleicons.org/icons/subaru.svg');
+}
+article a[href*='https://sublimetext.com']::before,
+article a[href*='https://www.sublimetext.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sublimetext.svg');
+  mask-image: url('https://simpleicons.org/icons/sublimetext.svg');
+}
+article a[href*='https://substack.com']::before,
+article a[href*='https://www.substack.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/substack.svg');
+  mask-image: url('https://simpleicons.org/icons/substack.svg');
+}
+article a[href*='https://subversion.apache.org']::before,
+article a[href*='https://www.subversion.apache.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/subversion.svg');
+  mask-image: url('https://simpleicons.org/icons/subversion.svg');
+}
+article a[href*='https://suckless.org']::before,
+article a[href*='https://www.suckless.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/suckless.svg');
+  mask-image: url('https://simpleicons.org/icons/suckless.svg');
+}
+article a[href*='https://sumologic.com']::before,
+article a[href*='https://www.sumologic.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sumologic.svg');
+  mask-image: url('https://simpleicons.org/icons/sumologic.svg');
+}
+article a[href*='https://supabase.io']::before,
+article a[href*='https://www.supabase.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/supabase.svg');
+  mask-image: url('https://simpleicons.org/icons/supabase.svg');
+}
+article a[href*='https://superuser.com']::before,
+article a[href*='https://www.superuser.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/superuser.svg');
+  mask-image: url('https://simpleicons.org/icons/superuser.svg');
+}
+article a[href*='https://supermicro.com']::before,
+article a[href*='https://www.supermicro.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/supermicro.svg');
+  mask-image: url('https://simpleicons.org/icons/supermicro.svg');
+}
+article a[href*='https://surrealdb.com']::before,
+article a[href*='https://www.surrealdb.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/surrealdb.svg');
+  mask-image: url('https://simpleicons.org/icons/surrealdb.svg');
+}
+article a[href*='https://surveymonkey.com']::before,
+article a[href*='https://www.surveymonkey.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/surveymonkey.svg');
+  mask-image: url('https://simpleicons.org/icons/surveymonkey.svg');
+}
+article a[href*='https://suse.com']::before,
+article a[href*='https://www.suse.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/suse.svg');
+  mask-image: url('https://simpleicons.org/icons/suse.svg');
+}
+article a[href*='https://suzuki.com']::before,
+article a[href*='https://www.suzuki.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/suzuki.svg');
+  mask-image: url('https://simpleicons.org/icons/suzuki.svg');
+}
+article a[href*='https://svelte.dev']::before,
+article a[href*='https://www.svelte.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/svelte.svg');
+  mask-image: url('https://simpleicons.org/icons/svelte.svg');
+}
+article a[href*='https://svg.org']::before,
+article a[href*='https://www.svg.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/svg.svg');
+  mask-image: url('https://simpleicons.org/icons/svg.svg');
+}
+article a[href*='https://svgo.dev']::before,
+article a[href*='https://www.svgo.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/svgo.svg');
+  mask-image: url('https://simpleicons.org/icons/svgo.svg');
+}
+article a[href*='https://swagger.io']::before,
+article a[href*='https://www.swagger.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/swagger.svg');
+  mask-image: url('https://simpleicons.org/icons/swagger.svg');
+}
+article a[href*='https://swarm.dev']::before,
+article a[href*='https://www.swarm.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/swarm.svg');
+  mask-image: url('https://simpleicons.org/icons/swarm.svg');
+}
+article a[href*='https://swc.rs']::before,
+article a[href*='https://www.swc.rs']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/swc.svg');
+  mask-image: url('https://simpleicons.org/icons/swc.svg');
+}
+article a[href*='https://swift.org']::before,
+article a[href*='https://www.swift.org']::before,
+article a[href*='https://swift.com']::before,
+article a[href*='https://www.swift.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/swift.svg');
+  mask-image: url('https://simpleicons.org/icons/swift.svg');
+}
+article a[href*='https://swiggy.com']::before,
+article a[href*='https://www.swiggy.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/swiggy.svg');
+  mask-image: url('https://simpleicons.org/icons/swiggy.svg');
+}
+article a[href*='https://swiperjs.com']::before,
+article a[href*='https://www.swiperjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/swiper.svg');
+  mask-image: url('https://simpleicons.org/icons/swiper.svg');
+}
+article a[href*='https://symantec.com']::before,
+article a[href*='https://www.symantec.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/symantec.svg');
+  mask-image: url('https://simpleicons.org/icons/symantec.svg');
+}
+article a[href*='https://symfony.com']::before,
+article a[href*='https://www.symfony.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/symfony.svg');
+  mask-image: url('https://simpleicons.org/icons/symfony.svg');
+}
+article a[href*='https://symphony.com']::before,
+article a[href*='https://www.symphony.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/symphony.svg');
+  mask-image: url('https://simpleicons.org/icons/symphony.svg');
+}
+article a[href*='https://sympy.org']::before,
+article a[href*='https://www.sympy.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/sympy.svg');
+  mask-image: url('https://simpleicons.org/icons/sympy.svg');
+}
+article a[href*='https://synology.com']::before,
+article a[href*='https://www.synology.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/synology.svg');
+  mask-image: url('https://simpleicons.org/icons/synology.svg');
+}
+article a[href*='https://system76.com']::before,
+article a[href*='https://www.system76.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/system76.svg');
+  mask-image: url('https://simpleicons.org/icons/system76.svg');
+}

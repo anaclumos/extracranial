@@ -1,0 +1,1198 @@
+article a[href*='https://p5js.org']::before,
+article a[href*='https://www.p5js.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/p5dotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/p5dotjs.svg');
+}
+article a[href*='https://packagist.org']::before,
+article a[href*='https://www.packagist.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/packagist.svg');
+  mask-image: url('https://simpleicons.org/icons/packagist.svg');
+}
+article a[href*='https://packer.io']::before,
+article a[href*='https://www.packer.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/packer.svg');
+  mask-image: url('https://simpleicons.org/icons/packer.svg');
+}
+article a[href*='https://paddypower.com']::before,
+article a[href*='https://www.paddypower.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/paddypower.svg');
+  mask-image: url('https://simpleicons.org/icons/paddypower.svg');
+}
+article a[href*='https://pagekit.com']::before,
+article a[href*='https://www.pagekit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pagekit.svg');
+  mask-image: url('https://simpleicons.org/icons/pagekit.svg');
+}
+article a[href*='https://pagerduty.com']::before,
+article a[href*='https://www.pagerduty.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pagerduty.svg');
+  mask-image: url('https://simpleicons.org/icons/pagerduty.svg');
+}
+article a[href*='https://developers.google.com/speed/pagespeed/insights']::before,
+article a[href*='https://www.developers.google.com/speed/pagespeed/insights']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pagespeedinsights.svg');
+  mask-image: url('https://simpleicons.org/icons/pagespeedinsights.svg');
+}
+article a[href*='https://pagseguro.com.br']::before,
+article a[href*='https://www.pagseguro.com.br']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pagseguro.svg');
+  mask-image: url('https://simpleicons.org/icons/pagseguro.svg');
+}
+article a[href*='https://palantir.com']::before,
+article a[href*='https://www.palantir.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/palantir.svg');
+  mask-image: url('https://simpleicons.org/icons/palantir.svg');
+}
+article a[href*='https://paloaltosoftware.com']::before,
+article a[href*='https://www.paloaltosoftware.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/paloaltosoftware.svg');
+  mask-image: url('https://simpleicons.org/icons/paloaltosoftware.svg');
+}
+article a[href*='https://pandas.pydata.org']::before,
+article a[href*='https://www.pandas.pydata.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pandas.svg');
+  mask-image: url('https://simpleicons.org/icons/pandas.svg');
+}
+article a[href*='https://pandora.com']::before,
+article a[href*='https://www.pandora.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pandora.svg');
+  mask-image: url('https://simpleicons.org/icons/pandora.svg');
+}
+article a[href*='https://pantheon.io']::before,
+article a[href*='https://www.pantheon.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pantheon.svg');
+  mask-image: url('https://simpleicons.org/icons/pantheon.svg');
+}
+article a[href*='https://paperspace.com']::before,
+article a[href*='https://www.paperspace.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/paperspace.svg');
+  mask-image: url('https://simpleicons.org/icons/paperspace.svg');
+}
+article a[href*='https://substrate.dev']::before,
+article a[href*='https://www.substrate.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/paritysubstrate.svg');
+  mask-image: url('https://simpleicons.org/icons/paritysubstrate.svg');
+}
+article a[href*='https://parsedotly.com']::before,
+article a[href*='https://www.parsedotly.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/parsedotly.svg');
+  mask-image: url('https://simpleicons.org/icons/parsedotly.svg');
+}
+article a[href*='https://passportjs.org']::before,
+article a[href*='https://www.passportjs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/passport.svg');
+  mask-image: url('https://simpleicons.org/icons/passport.svg');
+}
+article a[href*='https://pastebin.com']::before,
+article a[href*='https://www.pastebin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pastebin.svg');
+  mask-image: url('https://simpleicons.org/icons/pastebin.svg');
+}
+article a[href*='https://patreon.com']::before,
+article a[href*='https://www.patreon.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/patreon.svg');
+  mask-image: url('https://simpleicons.org/icons/patreon.svg');
+}
+article a[href*='https://payoneer.com']::before,
+article a[href*='https://www.payoneer.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/payoneer.svg');
+  mask-image: url('https://simpleicons.org/icons/payoneer.svg');
+}
+article a[href*='https://paypal.com']::before,
+article a[href*='https://www.paypal.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/paypal.svg');
+  mask-image: url('https://simpleicons.org/icons/paypal.svg');
+}
+article a[href*='https://paytm.com']::before,
+article a[href*='https://www.paytm.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/paytm.svg');
+  mask-image: url('https://simpleicons.org/icons/paytm.svg');
+}
+article a[href*='https://pcgamingwiki.com']::before,
+article a[href*='https://www.pcgamingwiki.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pcgamingwiki.svg');
+  mask-image: url('https://simpleicons.org/icons/pcgamingwiki.svg');
+}
+article a[href*='https://peakdesign.com']::before,
+article a[href*='https://www.peakdesign.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/peakdesign.svg');
+  mask-image: url('https://simpleicons.org/icons/peakdesign.svg');
+}
+article a[href*='https://joinpeertube.org']::before,
+article a[href*='https://www.joinpeertube.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/peertube.svg');
+  mask-image: url('https://simpleicons.org/icons/peertube.svg');
+}
+article a[href*='https://pegasusairlines.com']::before,
+article a[href*='https://www.pegasusairlines.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pegasusairlines.svg');
+  mask-image: url('https://simpleicons.org/icons/pegasusairlines.svg');
+}
+article a[href*='https://getpelican.com']::before,
+article a[href*='https://www.getpelican.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pelican.svg');
+  mask-image: url('https://simpleicons.org/icons/pelican.svg');
+}
+article a[href*='https://onepeloton.com']::before,
+article a[href*='https://www.onepeloton.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/peloton.svg');
+  mask-image: url('https://simpleicons.org/icons/peloton.svg');
+}
+article a[href*='https://pennyapp.com']::before,
+article a[href*='https://www.pennyapp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/penny.svg');
+  mask-image: url('https://simpleicons.org/icons/penny.svg');
+}
+article a[href*='https://penpot.app']::before,
+article a[href*='https://www.penpot.app']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/penpot.svg');
+  mask-image: url('https://simpleicons.org/icons/penpot.svg');
+}
+article a[href*='https://pepsi.com']::before,
+article a[href*='https://www.pepsi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pepsi.svg');
+  mask-image: url('https://simpleicons.org/icons/pepsi.svg');
+}
+article a[href*='https://percy.io']::before,
+article a[href*='https://www.percy.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/percy.svg');
+  mask-image: url('https://simpleicons.org/icons/percy.svg');
+}
+article a[href*='https://perforce.com']::before,
+article a[href*='https://www.perforce.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/perforce.svg');
+  mask-image: url('https://simpleicons.org/icons/perforce.svg');
+}
+article a[href*='https://perl.org']::before,
+article a[href*='https://www.perl.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/perl.svg');
+  mask-image: url('https://simpleicons.org/icons/perl.svg');
+}
+article a[href*='https://persistent.com']::before,
+article a[href*='https://www.persistent.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/persistent.svg');
+  mask-image: url('https://simpleicons.org/icons/persistent.svg');
+}
+article a[href*='https://personio.de']::before,
+article a[href*='https://www.personio.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/personio.svg');
+  mask-image: url('https://simpleicons.org/icons/personio.svg');
+}
+article a[href*='https://petsathome.com']::before,
+article a[href*='https://www.petsathome.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/petsathome.svg');
+  mask-image: url('https://simpleicons.org/icons/petsathome.svg');
+}
+article a[href*='https://peugeot.com']::before,
+article a[href*='https://www.peugeot.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/peugeot.svg');
+  mask-image: url('https://simpleicons.org/icons/peugeot.svg');
+}
+article a[href*='https://pexels.com']::before,
+article a[href*='https://www.pexels.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pexels.svg');
+  mask-image: url('https://simpleicons.org/icons/pexels.svg');
+}
+article a[href*='https://pfsense.org']::before,
+article a[href*='https://www.pfsense.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pfsense.svg');
+  mask-image: url('https://simpleicons.org/icons/pfsense.svg');
+}
+article a[href*='https://phacility.com']::before,
+article a[href*='https://www.phacility.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/phabricator.svg');
+  mask-image: url('https://simpleicons.org/icons/phabricator.svg');
+}
+article a[href*='https://philips-hue.com']::before,
+article a[href*='https://www.philips-hue.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/philipshue.svg');
+  mask-image: url('https://simpleicons.org/icons/philipshue.svg');
+}
+article a[href*='https://phonepe.com']::before,
+article a[href*='https://www.phonepe.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/phonepe.svg');
+  mask-image: url('https://simpleicons.org/icons/phonepe.svg');
+}
+article a[href*='https://photobucket.com']::before,
+article a[href*='https://www.photobucket.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/photobucket.svg');
+  mask-image: url('https://simpleicons.org/icons/photobucket.svg');
+}
+article a[href*='https://photocrowd.com']::before,
+article a[href*='https://www.photocrowd.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/photocrowd.svg');
+  mask-image: url('https://simpleicons.org/icons/photocrowd.svg');
+}
+article a[href*='https://photopea.com']::before,
+article a[href*='https://www.photopea.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/photopea.svg');
+  mask-image: url('https://simpleicons.org/icons/photopea.svg');
+}
+article a[href*='https://php.net']::before,
+article a[href*='https://www.php.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/php.svg');
+  mask-image: url('https://simpleicons.org/icons/php.svg');
+}
+article a[href*='https://phpmyadmin.net']::before,
+article a[href*='https://www.phpmyadmin.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/phpmyadmin.svg');
+  mask-image: url('https://simpleicons.org/icons/phpmyadmin.svg');
+}
+article a[href*='https://jetbrains.com/phpstorm']::before,
+article a[href*='https://www.jetbrains.com/phpstorm']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/phpstorm.svg');
+  mask-image: url('https://simpleicons.org/icons/phpstorm.svg');
+}
+article a[href*='https://pi-hole.net']::before,
+article a[href*='https://www.pi-hole.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pihole.svg');
+  mask-image: url('https://simpleicons.org/icons/pihole.svg');
+}
+article a[href*='https://picardsurgeles.com']::before,
+article a[href*='https://www.picardsurgeles.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/picardsurgeles.svg');
+  mask-image: url('https://simpleicons.org/icons/picardsurgeles.svg');
+}
+article a[href*='https://picarto.tv']::before,
+article a[href*='https://www.picarto.tv']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/picartodottv.svg');
+  mask-image: url('https://simpleicons.org/icons/picartodottv.svg');
+}
+article a[href*='https://picnic.app']::before,
+article a[href*='https://www.picnic.app']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/picnic.svg');
+  mask-image: url('https://simpleicons.org/icons/picnic.svg');
+}
+article a[href*='https://picpay.com']::before,
+article a[href*='https://www.picpay.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/picpay.svg');
+  mask-image: url('https://simpleicons.org/icons/picpay.svg');
+}
+article a[href*='https://pimcore.com']::before,
+article a[href*='https://www.pimcore.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pimcore.svg');
+  mask-image: url('https://simpleicons.org/icons/pimcore.svg');
+}
+article a[href*='https://pinboard.in']::before,
+article a[href*='https://www.pinboard.in']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pinboard.svg');
+  mask-image: url('https://simpleicons.org/icons/pinboard.svg');
+}
+article a[href*='https://pingdom.com']::before,
+article a[href*='https://www.pingdom.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pingdom.svg');
+  mask-image: url('https://simpleicons.org/icons/pingdom.svg');
+}
+article a[href*='https://pinterest.com']::before,
+article a[href*='https://www.pinterest.com']::before,
+article a[href*='https://newsroom.pinterest.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pinterest.svg');
+  mask-image: url('https://simpleicons.org/icons/pinterest.svg');
+}
+article a[href*='https://pioneerdj.com']::before,
+article a[href*='https://www.pioneerdj.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pioneerdj.svg');
+  mask-image: url('https://simpleicons.org/icons/pioneerdj.svg');
+}
+article a[href*='https://pivotaltracker.com']::before,
+article a[href*='https://www.pivotaltracker.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pivotaltracker.svg');
+  mask-image: url('https://simpleicons.org/icons/pivotaltracker.svg');
+}
+article a[href*='https://piwigo.org']::before,
+article a[href*='https://www.piwigo.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/piwigo.svg');
+  mask-image: url('https://simpleicons.org/icons/piwigo.svg');
+}
+article a[href*='https://pix.com']::before,
+article a[href*='https://www.pix.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pix.svg');
+  mask-image: url('https://simpleicons.org/icons/pix.svg');
+}
+article a[href*='https://pixabay.com']::before,
+article a[href*='https://www.pixabay.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pixabay.svg');
+  mask-image: url('https://simpleicons.org/icons/pixabay.svg');
+}
+article a[href*='https://pixiv.net']::before,
+article a[href*='https://www.pixiv.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pixiv.svg');
+  mask-image: url('https://simpleicons.org/icons/pixiv.svg');
+}
+article a[href*='https://pkgsrc.org']::before,
+article a[href*='https://www.pkgsrc.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pkgsrc.svg');
+  mask-image: url('https://simpleicons.org/icons/pkgsrc.svg');
+}
+article a[href*='https://planet.com']::before,
+article a[href*='https://www.planet.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/planet.svg');
+  mask-image: url('https://simpleicons.org/icons/planet.svg');
+}
+article a[href*='https://planetscale.com']::before,
+article a[href*='https://www.planetscale.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/planetscale.svg');
+  mask-image: url('https://simpleicons.org/icons/planetscale.svg');
+}
+article a[href*='https://plangrid.com']::before,
+article a[href*='https://www.plangrid.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/plangrid.svg');
+  mask-image: url('https://simpleicons.org/icons/plangrid.svg');
+}
+article a[href*='https://platform.sh']::before,
+article a[href*='https://www.platform.sh']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/platformdotsh.svg');
+  mask-image: url('https://simpleicons.org/icons/platformdotsh.svg');
+}
+article a[href*='https://platzi.com']::before,
+article a[href*='https://www.platzi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/platzi.svg');
+  mask-image: url('https://simpleicons.org/icons/platzi.svg');
+}
+article a[href*='https://plausible.io']::before,
+article a[href*='https://www.plausible.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/plausibleanalytics.svg');
+  mask-image: url('https://simpleicons.org/icons/plausibleanalytics.svg');
+}
+article a[href*='https://playcanvas.com']::before,
+article a[href*='https://www.playcanvas.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playcanvas.svg');
+  mask-image: url('https://simpleicons.org/icons/playcanvas.svg');
+}
+article a[href*='https://player.fm']::before,
+article a[href*='https://www.player.fm']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playerfm.svg');
+  mask-image: url('https://simpleicons.org/icons/playerfm.svg');
+}
+article a[href*='https://player.me']::before,
+article a[href*='https://www.player.me']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playerdotme.svg');
+  mask-image: url('https://simpleicons.org/icons/playerdotme.svg');
+}
+article a[href*='https://playstation.com']::before,
+article a[href*='https://www.playstation.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playstation.svg');
+  mask-image: url('https://simpleicons.org/icons/playstation.svg');
+}
+article a[href*='https://playstation.com/ps2']::before,
+article a[href*='https://www.playstation.com/ps2']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playstation2.svg');
+  mask-image: url('https://simpleicons.org/icons/playstation2.svg');
+}
+article a[href*='https://playstation.com/ps3']::before,
+article a[href*='https://www.playstation.com/ps3']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playstation3.svg');
+  mask-image: url('https://simpleicons.org/icons/playstation3.svg');
+}
+article a[href*='https://playstation.com/ps4']::before,
+article a[href*='https://www.playstation.com/ps4']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playstation4.svg');
+  mask-image: url('https://simpleicons.org/icons/playstation4.svg');
+}
+article a[href*='https://playstation.com/ps5']::before,
+article a[href*='https://www.playstation.com/ps5']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playstation5.svg');
+  mask-image: url('https://simpleicons.org/icons/playstation5.svg');
+}
+article a[href*='https://playstation.com/vita']::before,
+article a[href*='https://www.playstation.com/vita']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playstationvita.svg');
+  mask-image: url('https://simpleicons.org/icons/playstationvita.svg');
+}
+article a[href*='https://playwright.dev']::before,
+article a[href*='https://www.playwright.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/playwright.svg');
+  mask-image: url('https://simpleicons.org/icons/playwright.svg');
+}
+article a[href*='https://pleroma.social']::before,
+article a[href*='https://www.pleroma.social']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pleroma.svg');
+  mask-image: url('https://simpleicons.org/icons/pleroma.svg');
+}
+article a[href*='https://plesk.com']::before,
+article a[href*='https://www.plesk.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/plesk.svg');
+  mask-image: url('https://simpleicons.org/icons/plesk.svg');
+}
+article a[href*='https://plex.tv']::before,
+article a[href*='https://www.plex.tv']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/plex.svg');
+  mask-image: url('https://simpleicons.org/icons/plex.svg');
+}
+article a[href*='https://plotly.com']::before,
+article a[href*='https://www.plotly.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/plotly.svg');
+  mask-image: url('https://simpleicons.org/icons/plotly.svg');
+}
+article a[href*='https://pluralsight.com']::before,
+article a[href*='https://www.pluralsight.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pluralsight.svg');
+  mask-image: url('https://simpleicons.org/icons/pluralsight.svg');
+}
+article a[href*='https://plurk.com']::before,
+article a[href*='https://www.plurk.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/plurk.svg');
+  mask-image: url('https://simpleicons.org/icons/plurk.svg');
+}
+article a[href*='https://plus.codes']::before,
+article a[href*='https://www.plus.codes']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pluscodes.svg');
+  mask-image: url('https://simpleicons.org/icons/pluscodes.svg');
+}
+article a[href*='https://pm2.io']::before,
+article a[href*='https://www.pm2.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pm2.svg');
+  mask-image: url('https://simpleicons.org/icons/pm2.svg');
+}
+article a[href*='https://pnpm.io']::before,
+article a[href*='https://www.pnpm.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pnpm.svg');
+  mask-image: url('https://simpleicons.org/icons/pnpm.svg');
+}
+article a[href*='https://getpocket.com']::before,
+article a[href*='https://www.getpocket.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pocket.svg');
+  mask-image: url('https://simpleicons.org/icons/pocket.svg');
+}
+article a[href*='https://pocketcasts.com']::before,
+article a[href*='https://www.pocketcasts.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pocketcasts.svg');
+  mask-image: url('https://simpleicons.org/icons/pocketcasts.svg');
+}
+article a[href*='https://pocketbase.com']::before,
+article a[href*='https://www.pocketbase.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pocketbase.svg');
+  mask-image: url('https://simpleicons.org/icons/pocketbase.svg');
+}
+article a[href*='https://podcastaddict.com']::before,
+article a[href*='https://www.podcastaddict.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/podcastaddict.svg');
+  mask-image: url('https://simpleicons.org/icons/podcastaddict.svg');
+}
+article a[href*='https://podman.io']::before,
+article a[href*='https://www.podman.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/podman.svg');
+  mask-image: url('https://simpleicons.org/icons/podman.svg');
+}
+article a[href*='https://python-poetry.org']::before,
+article a[href*='https://www.python-poetry.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/poetry.svg');
+  mask-image: url('https://simpleicons.org/icons/poetry.svg');
+}
+article a[href*='https://pointy.com']::before,
+article a[href*='https://www.pointy.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pointy.svg');
+  mask-image: url('https://simpleicons.org/icons/pointy.svg');
+}
+article a[href*='https://pokemon.com']::before,
+article a[href*='https://www.pokemon.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pokemon.svg');
+  mask-image: url('https://simpleicons.org/icons/pokemon.svg');
+}
+article a[href*='https://polkadot.network']::before,
+article a[href*='https://www.polkadot.network']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/polkadot.svg');
+  mask-image: url('https://simpleicons.org/icons/polkadot.svg');
+}
+article a[href*='https://poly.ai']::before,
+article a[href*='https://www.poly.ai']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/poly.svg');
+  mask-image: url('https://simpleicons.org/icons/poly.svg');
+}
+article a[href*='https://polymer-project.org']::before,
+article a[href*='https://www.polymer-project.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/polymerproject.svg');
+  mask-image: url('https://simpleicons.org/icons/polymerproject.svg');
+}
+article a[href*='https://polywork.com']::before,
+article a[href*='https://www.polywork.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/polywork.svg');
+  mask-image: url('https://simpleicons.org/icons/polywork.svg');
+}
+article a[href*='https://pop.system76.com']::before,
+article a[href*='https://www.pop.system76.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/popos.svg');
+  mask-image: url('https://simpleicons.org/icons/popos.svg');
+}
+article a[href*='https://porsche.com']::before,
+article a[href*='https://www.porsche.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/porsche.svg');
+  mask-image: url('https://simpleicons.org/icons/porsche.svg');
+}
+article a[href*='https://portainer.io']::before,
+article a[href*='https://www.portainer.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/portainer.svg');
+  mask-image: url('https://simpleicons.org/icons/portainer.svg');
+}
+article a[href*='https://postcss.org']::before,
+article a[href*='https://www.postcss.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/postcss.svg');
+  mask-image: url('https://simpleicons.org/icons/postcss.svg');
+}
+article a[href*='https://postgresql.org']::before,
+article a[href*='https://www.postgresql.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/postgresql.svg');
+  mask-image: url('https://simpleicons.org/icons/postgresql.svg');
+}
+article a[href*='https://postman.com']::before,
+article a[href*='https://www.postman.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/postman.svg');
+  mask-image: url('https://simpleicons.org/icons/postman.svg');
+}
+article a[href*='https://postmates.com']::before,
+article a[href*='https://www.postmates.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/postmates.svg');
+  mask-image: url('https://simpleicons.org/icons/postmates.svg');
+}
+article a[href*='https://powerapps.com']::before,
+article a[href*='https://www.powerapps.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/powerapps.svg');
+  mask-image: url('https://simpleicons.org/icons/powerapps.svg');
+}
+article a[href*='https://flow.microsoft.com']::before,
+article a[href*='https://www.flow.microsoft.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/powerautomate.svg');
+  mask-image: url('https://simpleicons.org/icons/powerautomate.svg');
+}
+article a[href*='https://powerbi.com']::before,
+article a[href*='https://www.powerbi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/powerbi.svg');
+  mask-image: url('https://simpleicons.org/icons/powerbi.svg');
+}
+article a[href*='https://powerfx.microsoft.com']::before,
+article a[href*='https://www.powerfx.microsoft.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/powerfx.svg');
+  mask-image: url('https://simpleicons.org/icons/powerfx.svg');
+}
+article a[href*='https://powerpages.microsoft.com']::before,
+article a[href*='https://www.powerpages.microsoft.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/powerpages.svg');
+  mask-image: url('https://simpleicons.org/icons/powerpages.svg');
+}
+article a[href*='https://powervirtualagents.microsoft.com']::before,
+article a[href*='https://www.powervirtualagents.microsoft.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/powervirtualagents.svg');
+  mask-image: url('https://simpleicons.org/icons/powervirtualagents.svg');
+}
+article a[href*='https://powers.com']::before,
+article a[href*='https://www.powers.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/powers.svg');
+  mask-image: url('https://simpleicons.org/icons/powers.svg');
+}
+article a[href*='https://microsoft.com/powershell']::before,
+article a[href*='https://www.microsoft.com/powershell']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/powershell.svg');
+  mask-image: url('https://simpleicons.org/icons/powershell.svg');
+}
+article a[href*='https://pr.co']::before,
+article a[href*='https://www.pr.co']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prdotco.svg');
+  mask-image: url('https://simpleicons.org/icons/prdotco.svg');
+}
+article a[href*='https://pre-commit.com']::before,
+article a[href*='https://www.pre-commit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/precommit.svg');
+  mask-image: url('https://simpleicons.org/icons/precommit.svg');
+}
+article a[href*='https://preactjs.com']::before,
+article a[href*='https://www.preactjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/preact.svg');
+  mask-image: url('https://simpleicons.org/icons/preact.svg');
+}
+article a[href*='https://premierleague.com']::before,
+article a[href*='https://www.premierleague.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/premierleague.svg');
+  mask-image: url('https://simpleicons.org/icons/premierleague.svg');
+}
+article a[href*='https://prestashop.com']::before,
+article a[href*='https://www.prestashop.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prestashop.svg');
+  mask-image: url('https://simpleicons.org/icons/prestashop.svg');
+}
+article a[href*='https://prestodb.io']::before,
+article a[href*='https://www.prestodb.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/presto.svg');
+  mask-image: url('https://simpleicons.org/icons/presto.svg');
+}
+article a[href*='https://prettier.io']::before,
+article a[href*='https://www.prettier.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prettier.svg');
+  mask-image: url('https://simpleicons.org/icons/prettier.svg');
+}
+article a[href*='https://prevention.com']::before,
+article a[href*='https://www.prevention.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prevention.svg');
+  mask-image: url('https://simpleicons.org/icons/prevention.svg');
+}
+article a[href*='https://prezi.com']::before,
+article a[href*='https://www.prezi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prezi.svg');
+  mask-image: url('https://simpleicons.org/icons/prezi.svg');
+}
+article a[href*='https://primevideo.com']::before,
+article a[href*='https://www.primevideo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prime.svg');
+  mask-image: url('https://simpleicons.org/icons/prime.svg');
+}
+article a[href*='https://primevideo.com']::before,
+article a[href*='https://www.primevideo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/primevideo.svg');
+  mask-image: url('https://simpleicons.org/icons/primevideo.svg');
+}
+article a[href*='https://prisma.io']::before,
+article a[href*='https://www.prisma.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prisma.svg');
+  mask-image: url('https://simpleicons.org/icons/prisma.svg');
+}
+article a[href*='https://prismic.io']::before,
+article a[href*='https://www.prismic.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prismic.svg');
+  mask-image: url('https://simpleicons.org/icons/prismic.svg');
+}
+article a[href*='https://privateinternetaccess.com']::before,
+article a[href*='https://www.privateinternetaccess.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/privateinternetaccess.svg');
+  mask-image: url('https://simpleicons.org/icons/privateinternetaccess.svg');
+}
+article a[href*='https://avid.com/pro-tools']::before,
+article a[href*='https://www.avid.com/pro-tools']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/protools.svg');
+  mask-image: url('https://simpleicons.org/icons/protools.svg');
+}
+article a[href*='https://probot.github.io']::before,
+article a[href*='https://www.probot.github.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/probot.svg');
+  mask-image: url('https://simpleicons.org/icons/probot.svg');
+}
+article a[href*='https://processingfoundation.org']::before,
+article a[href*='https://www.processingfoundation.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/processingfoundation.svg');
+  mask-image: url('https://simpleicons.org/icons/processingfoundation.svg');
+}
+article a[href*='https://processwire.com']::before,
+article a[href*='https://www.processwire.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/processwire.svg');
+  mask-image: url('https://simpleicons.org/icons/processwire.svg');
+}
+article a[href*='https://producthunt.com']::before,
+article a[href*='https://www.producthunt.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/producthunt.svg');
+  mask-image: url('https://simpleicons.org/icons/producthunt.svg');
+}
+article a[href*='https://progate.com']::before,
+article a[href*='https://www.progate.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/progate.svg');
+  mask-image: url('https://simpleicons.org/icons/progate.svg');
+}
+article a[href*='https://progress.com']::before,
+article a[href*='https://www.progress.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/progress.svg');
+  mask-image: url('https://simpleicons.org/icons/progress.svg');
+}
+article a[href*='https://prometheus.io']::before,
+article a[href*='https://www.prometheus.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prometheus.svg');
+  mask-image: url('https://simpleicons.org/icons/prometheus.svg');
+}
+article a[href*='https://prosieben.de']::before,
+article a[href*='https://www.prosieben.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/prosieben.svg');
+  mask-image: url('https://simpleicons.org/icons/prosieben.svg');
+}
+article a[href*='https://proto.io']::before,
+article a[href*='https://www.proto.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/protodotio.svg');
+  mask-image: url('https://simpleicons.org/icons/protodotio.svg');
+}
+article a[href*='https://protocols.io']::before,
+article a[href*='https://www.protocols.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/protocolsdotio.svg');
+  mask-image: url('https://simpleicons.org/icons/protocolsdotio.svg');
+}
+article a[href*='https://protondb.com']::before,
+article a[href*='https://www.protondb.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/protondb.svg');
+  mask-image: url('https://simpleicons.org/icons/protondb.svg');
+}
+article a[href*='https://protonmail.com']::before,
+article a[href*='https://www.protonmail.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/protonmail.svg');
+  mask-image: url('https://simpleicons.org/icons/protonmail.svg');
+}
+article a[href*='https://protonvpn.com']::before,
+article a[href*='https://www.protonvpn.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/protonvpn.svg');
+  mask-image: url('https://simpleicons.org/icons/protonvpn.svg');
+}
+article a[href*='https://protractortest.org']::before,
+article a[href*='https://www.protractortest.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/protractor.svg');
+  mask-image: url('https://simpleicons.org/icons/protractor.svg');
+}
+article a[href*='https://proxmox.com']::before,
+article a[href*='https://www.proxmox.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/proxmox.svg');
+  mask-image: url('https://simpleicons.org/icons/proxmox.svg');
+}
+article a[href*='https://pubg.com']::before,
+article a[href*='https://www.pubg.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pubg.svg');
+  mask-image: url('https://simpleicons.org/icons/pubg.svg');
+}
+article a[href*='https://publons.com']::before,
+article a[href*='https://www.publons.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/publons.svg');
+  mask-image: url('https://simpleicons.org/icons/publons.svg');
+}
+article a[href*='https://pubmed.com']::before,
+article a[href*='https://www.pubmed.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pubmed.svg');
+  mask-image: url('https://simpleicons.org/icons/pubmed.svg');
+}
+article a[href*='https://pugjs.org']::before,
+article a[href*='https://www.pugjs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pug.svg');
+  mask-image: url('https://simpleicons.org/icons/pug.svg');
+}
+article a[href*='https://pulumi.com']::before,
+article a[href*='https://www.pulumi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pulumi.svg');
+  mask-image: url('https://simpleicons.org/icons/pulumi.svg');
+}
+article a[href*='https://puma.io']::before,
+article a[href*='https://www.puma.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/puma.svg');
+  mask-image: url('https://simpleicons.org/icons/puma.svg');
+}
+article a[href*='https://puppet.com']::before,
+article a[href*='https://www.puppet.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/puppet.svg');
+  mask-image: url('https://simpleicons.org/icons/puppet.svg');
+}
+article a[href*='https://puppeteer.dev']::before,
+article a[href*='https://www.puppeteer.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/puppeteer.svg');
+  mask-image: url('https://simpleicons.org/icons/puppeteer.svg');
+}
+article a[href*='https://purescript.org']::before,
+article a[href*='https://www.purescript.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/purescript.svg');
+  mask-image: url('https://simpleicons.org/icons/purescript.svg');
+}
+article a[href*='https://purgecss.com']::before,
+article a[href*='https://www.purgecss.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/purgecss.svg');
+  mask-image: url('https://simpleicons.org/icons/purgecss.svg');
+}
+article a[href*='https://puri.sm']::before,
+article a[href*='https://www.puri.sm']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/purism.svg');
+  mask-image: url('https://simpleicons.org/icons/purism.svg');
+}
+article a[href*='https://pusher.com']::before,
+article a[href*='https://www.pusher.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pusher.svg');
+  mask-image: url('https://simpleicons.org/icons/pusher.svg');
+}
+article a[href*='https://pwa.rocks']::before,
+article a[href*='https://www.pwa.rocks']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pwa.svg');
+  mask-image: url('https://simpleicons.org/icons/pwa.svg');
+}
+article a[href*='https://jetbrains.com/pycharm']::before,
+article a[href*='https://www.jetbrains.com/pycharm']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pycharm.svg');
+  mask-image: url('https://simpleicons.org/icons/pycharm.svg');
+}
+article a[href*='https://pyg.org']::before,
+article a[href*='https://www.pyg.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pyg.svg');
+  mask-image: url('https://simpleicons.org/icons/pyg.svg');
+}
+article a[href*='https://pypi.org']::before,
+article a[href*='https://www.pypi.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pypi.svg');
+  mask-image: url('https://simpleicons.org/icons/pypi.svg');
+}
+article a[href*='https://pypy.org']::before,
+article a[href*='https://www.pypy.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pypy.svg');
+  mask-image: url('https://simpleicons.org/icons/pypy.svg');
+}
+article a[href*='https://pyscaffold.org']::before,
+article a[href*='https://www.pyscaffold.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pyscaffold.svg');
+  mask-image: url('https://simpleicons.org/icons/pyscaffold.svg');
+}
+article a[href*='https://pysyft.org']::before,
+article a[href*='https://www.pysyft.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pysyft.svg');
+  mask-image: url('https://simpleicons.org/icons/pysyft.svg');
+}
+article a[href*='https://pytest.org']::before,
+article a[href*='https://www.pytest.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pytest.svg');
+  mask-image: url('https://simpleicons.org/icons/pytest.svg');
+}
+article a[href*='https://python.org']::before,
+article a[href*='https://www.python.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/python.svg');
+  mask-image: url('https://simpleicons.org/icons/python.svg');
+}
+article a[href*='https://pytorch.org']::before,
+article a[href*='https://www.pytorch.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pytorch.svg');
+  mask-image: url('https://simpleicons.org/icons/pytorch.svg');
+}
+article a[href*='https://pytorchlightning.ai']::before,
+article a[href*='https://www.pytorchlightning.ai']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pytorchlightning.svg');
+  mask-image: url('https://simpleicons.org/icons/pytorchlightning.svg');
+}
+article a[href*='https://pyup.io']::before,
+article a[href*='https://www.pyup.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/pyup.svg');
+  mask-image: url('https://simpleicons.org/icons/pyup.svg');
+}

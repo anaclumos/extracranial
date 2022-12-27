@@ -1,0 +1,254 @@
+article a[href*='https://uber.com']::before,
+article a[href*='https://www.uber.com']::before,
+article a[href*='https://uber.org']::before,
+article a[href*='https://www.uber.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/uber.svg');
+  mask-image: url('https://simpleicons.org/icons/uber.svg');
+}
+article a[href*='https://ubereats.com']::before,
+article a[href*='https://www.ubereats.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ubereats.svg');
+  mask-image: url('https://simpleicons.org/icons/ubereats.svg');
+}
+article a[href*='https://ubnt.com']::before,
+article a[href*='https://www.ubnt.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ubiquiti.svg');
+  mask-image: url('https://simpleicons.org/icons/ubiquiti.svg');
+}
+article a[href*='https://ubisoft.com']::before,
+article a[href*='https://www.ubisoft.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ubisoft.svg');
+  mask-image: url('https://simpleicons.org/icons/ubisoft.svg');
+}
+article a[href*='https://ublockorigin.com']::before,
+article a[href*='https://www.ublockorigin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ublockorigin.svg');
+  mask-image: url('https://simpleicons.org/icons/ublockorigin.svg');
+}
+article a[href*='https://ubuntu.com']::before,
+article a[href*='https://www.ubuntu.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ubuntu.svg');
+  mask-image: url('https://simpleicons.org/icons/ubuntu.svg');
+}
+article a[href*='https://udacity.com']::before,
+article a[href*='https://www.udacity.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/udacity.svg');
+  mask-image: url('https://simpleicons.org/icons/udacity.svg');
+}
+article a[href*='https://udemy.com']::before,
+article a[href*='https://www.udemy.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/udemy.svg');
+  mask-image: url('https://simpleicons.org/icons/udemy.svg');
+}
+article a[href*='https://ufc.com']::before,
+article a[href*='https://www.ufc.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ufc.svg');
+  mask-image: url('https://simpleicons.org/icons/ufc.svg');
+}
+article a[href*='https://getuikit.com']::before,
+article a[href*='https://www.getuikit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/uikit.svg');
+  mask-image: url('https://simpleicons.org/icons/uikit.svg');
+}
+article a[href*='https://ulule.com']::before,
+article a[href*='https://www.ulule.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ulule.svg');
+  mask-image: url('https://simpleicons.org/icons/ulule.svg');
+}
+article a[href*='https://umbraco.com']::before,
+article a[href*='https://www.umbraco.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/umbraco.svg');
+  mask-image: url('https://simpleicons.org/icons/umbraco.svg');
+}
+article a[href*='https://unacademy.com']::before,
+article a[href*='https://www.unacademy.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unacademy.svg');
+  mask-image: url('https://simpleicons.org/icons/unacademy.svg');
+}
+article a[href*='https://underarmour.com']::before,
+article a[href*='https://www.underarmour.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/underarmour.svg');
+  mask-image: url('https://simpleicons.org/icons/underarmour.svg');
+}
+article a[href*='https://underscorejs.org']::before,
+article a[href*='https://www.underscorejs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/underscoredotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/underscoredotjs.svg');
+}
+article a[href*='https://undertale.com']::before,
+article a[href*='https://www.undertale.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/undertale.svg');
+  mask-image: url('https://simpleicons.org/icons/undertale.svg');
+}
+article a[href*='https://unicode.org']::before,
+article a[href*='https://www.unicode.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unicode.svg');
+  mask-image: url('https://simpleicons.org/icons/unicode.svg');
+}
+article a[href*='https://unilever.com']::before,
+article a[href*='https://www.unilever.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unilever.svg');
+  mask-image: url('https://simpleicons.org/icons/unilever.svg');
+}
+article a[href*='https://united.com']::before,
+article a[href*='https://www.united.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unitedairlines.svg');
+  mask-image: url('https://simpleicons.org/icons/unitedairlines.svg');
+}
+article a[href*='https://unity.com']::before,
+article a[href*='https://www.unity.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unity.svg');
+  mask-image: url('https://simpleicons.org/icons/unity.svg');
+}
+article a[href*='https://unlicense.org']::before,
+article a[href*='https://www.unlicense.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unlicense.svg');
+  mask-image: url('https://simpleicons.org/icons/unlicense.svg');
+}
+article a[href*='https://unocss.org']::before,
+article a[href*='https://www.unocss.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unocss.svg');
+  mask-image: url('https://simpleicons.org/icons/unocss.svg');
+}
+article a[href*='https://unraid.net']::before,
+article a[href*='https://www.unraid.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unraid.svg');
+  mask-image: url('https://simpleicons.org/icons/unraid.svg');
+}
+article a[href*='https://unrealengine.com']::before,
+article a[href*='https://www.unrealengine.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unrealengine.svg');
+  mask-image: url('https://simpleicons.org/icons/unrealengine.svg');
+}
+article a[href*='https://unsplash.com']::before,
+article a[href*='https://www.unsplash.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/unsplash.svg');
+  mask-image: url('https://simpleicons.org/icons/unsplash.svg');
+}
+article a[href*='https://untangle.com']::before,
+article a[href*='https://www.untangle.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/untangle.svg');
+  mask-image: url('https://simpleicons.org/icons/untangle.svg');
+}
+article a[href*='https://untappd.com']::before,
+article a[href*='https://www.untappd.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/untappd.svg');
+  mask-image: url('https://simpleicons.org/icons/untappd.svg');
+}
+article a[href*='https://upcloud.com']::before,
+article a[href*='https://www.upcloud.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/upcloud.svg');
+  mask-image: url('https://simpleicons.org/icons/upcloud.svg');
+}
+article a[href*='https://uplabs.com']::before,
+article a[href*='https://www.uplabs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/uplabs.svg');
+  mask-image: url('https://simpleicons.org/icons/uplabs.svg');
+}
+article a[href*='https://uploaded.net']::before,
+article a[href*='https://www.uploaded.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/uploaded.svg');
+  mask-image: url('https://simpleicons.org/icons/uploaded.svg');
+}
+article a[href*='https://ups.com']::before,
+article a[href*='https://www.ups.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ups.svg');
+  mask-image: url('https://simpleicons.org/icons/ups.svg');
+}
+article a[href*='https://upstash.com']::before,
+article a[href*='https://www.upstash.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/upstash.svg');
+  mask-image: url('https://simpleicons.org/icons/upstash.svg');
+}
+article a[href*='https://uptimekuma.com']::before,
+article a[href*='https://www.uptimekuma.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/uptimekuma.svg');
+  mask-image: url('https://simpleicons.org/icons/uptimekuma.svg');
+}
+article a[href*='https://uptobox.com']::before,
+article a[href*='https://www.uptobox.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/uptobox.svg');
+  mask-image: url('https://simpleicons.org/icons/uptobox.svg');
+}
+article a[href*='https://upwork.com']::before,
+article a[href*='https://www.upwork.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/upwork.svg');
+  mask-image: url('https://simpleicons.org/icons/upwork.svg');
+}
+article a[href*='https://usps.com']::before,
+article a[href*='https://www.usps.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/usps.svg');
+  mask-image: url('https://simpleicons.org/icons/usps.svg');
+}

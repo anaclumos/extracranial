@@ -1,0 +1,396 @@
+article a[href*='https://vlang.io']::before,
+article a[href*='https://www.vlang.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/v.svg');
+  mask-image: url('https://simpleicons.org/icons/v.svg');
+}
+article a[href*='https://v2ex.com']::before,
+article a[href*='https://www.v2ex.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/v2ex.svg');
+  mask-image: url('https://simpleicons.org/icons/v2ex.svg');
+}
+article a[href*='https://v8.dev']::before,
+article a[href*='https://www.v8.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/v8.svg');
+  mask-image: url('https://simpleicons.org/icons/v8.svg');
+}
+article a[href*='https://vaadin.com']::before,
+article a[href*='https://www.vaadin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vaadin.svg');
+  mask-image: url('https://simpleicons.org/icons/vaadin.svg');
+}
+article a[href*='https://vagrantup.com']::before,
+article a[href*='https://www.vagrantup.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vagrant.svg');
+  mask-image: url('https://simpleicons.org/icons/vagrant.svg');
+}
+article a[href*='https://playvalorant.com']::before,
+article a[href*='https://www.playvalorant.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/valorant.svg');
+  mask-image: url('https://simpleicons.org/icons/valorant.svg');
+}
+article a[href*='https://valvesoftware.com']::before,
+article a[href*='https://www.valvesoftware.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/valve.svg');
+  mask-image: url('https://simpleicons.org/icons/valve.svg');
+}
+article a[href*='https://vapor.codes']::before,
+article a[href*='https://www.vapor.codes']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vapor.svg');
+  mask-image: url('https://simpleicons.org/icons/vapor.svg');
+}
+article a[href*='https://vaultproject.io']::before,
+article a[href*='https://www.vaultproject.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vault.svg');
+  mask-image: url('https://simpleicons.org/icons/vault.svg');
+}
+article a[href*='https://vauxhall.co.uk']::before,
+article a[href*='https://www.vauxhall.co.uk']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vauxhall.svg');
+  mask-image: url('https://simpleicons.org/icons/vauxhall.svg');
+}
+article a[href*='https://vbulletin.com']::before,
+article a[href*='https://www.vbulletin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vbulletin.svg');
+  mask-image: url('https://simpleicons.org/icons/vbulletin.svg');
+}
+article a[href*='https://vectorlogo.zone']::before,
+article a[href*='https://www.vectorlogo.zone']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vectorlogozone.svg');
+  mask-image: url('https://simpleicons.org/icons/vectorlogozone.svg');
+}
+article a[href*='https://vectorworks.net']::before,
+article a[href*='https://www.vectorworks.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vectorworks.svg');
+  mask-image: url('https://simpleicons.org/icons/vectorworks.svg');
+}
+article a[href*='https://veeam.com']::before,
+article a[href*='https://www.veeam.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/veeam.svg');
+  mask-image: url('https://simpleicons.org/icons/veeam.svg');
+}
+article a[href*='https://veepee.fr']::before,
+article a[href*='https://www.veepee.fr']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/veepee.svg');
+  mask-image: url('https://simpleicons.org/icons/veepee.svg');
+}
+article a[href*='https://velog.io']::before,
+article a[href*='https://www.velog.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/velog.svg');
+  mask-image: url('https://simpleicons.org/icons/velog.svg');
+}
+article a[href*='https://venmo.com']::before,
+article a[href*='https://www.venmo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/venmo.svg');
+  mask-image: url('https://simpleicons.org/icons/venmo.svg');
+}
+article a[href*='https://vercel.com']::before,
+article a[href*='https://www.vercel.com']::before,
+article a[href*='vercel.app']::before,
+article a[href*='https://www.vercel.app']::before,
+article a[href*='https://vercel.sh']::before,
+article a[href*='https://www.vercel.sh']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vercel.svg');
+  mask-image: url('https://simpleicons.org/icons/vercel.svg');
+}
+article a[href*='https://verdaccio.org']::before,
+article a[href*='https://www.verdaccio.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/verdaccio.svg');
+  mask-image: url('https://simpleicons.org/icons/verdaccio.svg');
+}
+article a[href*='https://veritas.com']::before,
+article a[href*='https://www.veritas.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/veritas.svg');
+  mask-image: url('https://simpleicons.org/icons/veritas.svg');
+}
+article a[href*='https://verizon.com']::before,
+article a[href*='https://www.verizon.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/verizon.svg');
+  mask-image: url('https://simpleicons.org/icons/verizon.svg');
+}
+article a[href*='https://vexxhost.com']::before,
+article a[href*='https://www.vexxhost.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vexxhost.svg');
+  mask-image: url('https://simpleicons.org/icons/vexxhost.svg');
+}
+article a[href*='https://vfairs.com']::before,
+article a[href*='https://www.vfairs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vfairs.svg');
+  mask-image: url('https://simpleicons.org/icons/vfairs.svg');
+}
+article a[href*='https://viadeo.com']::before,
+article a[href*='https://www.viadeo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/viadeo.svg');
+  mask-image: url('https://simpleicons.org/icons/viadeo.svg');
+}
+article a[href*='https://viber.com']::before,
+article a[href*='https://www.viber.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/viber.svg');
+  mask-image: url('https://simpleicons.org/icons/viber.svg');
+}
+article a[href*='https://vim.org']::before,
+article a[href*='https://www.vim.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vim.svg');
+  mask-image: url('https://simpleicons.org/icons/vim.svg');
+}
+article a[href*='https://vimeo.com']::before,
+article a[href*='https://www.vimeo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vimeo.svg');
+  mask-image: url('https://simpleicons.org/icons/vimeo.svg');
+}
+article a[href*='https://livestream.com']::before,
+article a[href*='https://www.livestream.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vimeolivestream.svg');
+  mask-image: url('https://simpleicons.org/icons/vimeolivestream.svg');
+}
+article a[href*='https://virgin.com']::before,
+article a[href*='https://www.virgin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/virgin.svg');
+  mask-image: url('https://simpleicons.org/icons/virgin.svg');
+}
+article a[href*='https://virginmedia.com']::before,
+article a[href*='https://www.virginmedia.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/virginmedia.svg');
+  mask-image: url('https://simpleicons.org/icons/virginmedia.svg');
+}
+article a[href*='https://virtualbox.org']::before,
+article a[href*='https://www.virtualbox.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/virtualbox.svg');
+  mask-image: url('https://simpleicons.org/icons/virtualbox.svg');
+}
+article a[href*='https://virustotal.com']::before,
+article a[href*='https://www.virustotal.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/virustotal.svg');
+  mask-image: url('https://simpleicons.org/icons/virustotal.svg');
+}
+article a[href*='https://visa.com']::before,
+article a[href*='https://www.visa.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/visa.svg');
+  mask-image: url('https://simpleicons.org/icons/visa.svg');
+}
+article a[href*='https://visualstudio.com']::before,
+article a[href*='https://www.visualstudio.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/visualstudio.svg');
+  mask-image: url('https://simpleicons.org/icons/visualstudio.svg');
+}
+article a[href*='https://code.visualstudio.com']::before,
+article a[href*='https://www.code.visualstudio.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/visualstudiocode.svg');
+  mask-image: url('https://simpleicons.org/icons/visualstudiocode.svg');
+}
+article a[href*='https://vitejs.dev']::before,
+article a[href*='https://www.vitejs.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vite.svg');
+  mask-image: url('https://simpleicons.org/icons/vite.svg');
+}
+article a[href*='https://vitess.io']::before,
+article a[href*='https://www.vitess.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vitess.svg');
+  mask-image: url('https://simpleicons.org/icons/vitess.svg');
+}
+article a[href*='https://vitest.dev']::before,
+article a[href*='https://www.vitest.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vitest.svg');
+  mask-image: url('https://simpleicons.org/icons/vitest.svg');
+}
+article a[href*='https://vivaldi.com']::before,
+article a[href*='https://www.vivaldi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vivaldi.svg');
+  mask-image: url('https://simpleicons.org/icons/vivaldi.svg');
+}
+article a[href*='https://vivino.com']::before,
+article a[href*='https://www.vivino.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vivino.svg');
+  mask-image: url('https://simpleicons.org/icons/vivino.svg');
+}
+article a[href*='https://vk.com']::before,
+article a[href*='https://www.vk.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vk.svg');
+  mask-image: url('https://simpleicons.org/icons/vk.svg');
+}
+article a[href*='https://videolan.org']::before,
+article a[href*='https://www.videolan.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vlcmediaplayer.svg');
+  mask-image: url('https://simpleicons.org/icons/vlcmediaplayer.svg');
+}
+article a[href*='https://vmware.com']::before,
+article a[href*='https://www.vmware.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vmware.svg');
+  mask-image: url('https://simpleicons.org/icons/vmware.svg');
+}
+article a[href*='https://vodafone.com']::before,
+article a[href*='https://www.vodafone.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vodafone.svg');
+  mask-image: url('https://simpleicons.org/icons/vodafone.svg');
+}
+article a[href*='https://volkswagen.com']::before,
+article a[href*='https://www.volkswagen.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/volkswagen.svg');
+  mask-image: url('https://simpleicons.org/icons/volkswagen.svg');
+}
+article a[href*='https://volvo.com']::before,
+article a[href*='https://www.volvo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/volvo.svg');
+  mask-image: url('https://simpleicons.org/icons/volvo.svg');
+}
+article a[href*='https://vonage.com']::before,
+article a[href*='https://www.vonage.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vonage.svg');
+  mask-image: url('https://simpleicons.org/icons/vonage.svg');
+}
+article a[href*='https://vowpalwabbit.org']::before,
+article a[href*='https://www.vowpalwabbit.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vowpalwabbit.svg');
+  mask-image: url('https://simpleicons.org/icons/vowpalwabbit.svg');
+}
+article a[href*='https://vox.com']::before,
+article a[href*='https://www.vox.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vox.svg');
+  mask-image: url('https://simpleicons.org/icons/vox.svg');
+}
+article a[href*='https://vsco.co']::before,
+article a[href*='https://www.vsco.co']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vsco.svg');
+  mask-image: url('https://simpleicons.org/icons/vsco.svg');
+}
+article a[href*='https://vscodium.com']::before,
+article a[href*='https://www.vscodium.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vscodium.svg');
+  mask-image: url('https://simpleicons.org/icons/vscodium.svg');
+}
+article a[href*='https://vtex.com']::before,
+article a[href*='https://www.vtex.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vtex.svg');
+  mask-image: url('https://simpleicons.org/icons/vtex.svg');
+}
+article a[href*='https://vuejs.org']::before,
+article a[href*='https://www.vuejs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vuedotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/vuedotjs.svg');
+}
+article a[href*='https://vuetifyjs.com']::before,
+article a[href*='https://www.vuetifyjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vuetify.svg');
+  mask-image: url('https://simpleicons.org/icons/vuetify.svg');
+}
+article a[href*='https://vulkan.org']::before,
+article a[href*='https://www.vulkan.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vulkan.svg');
+  mask-image: url('https://simpleicons.org/icons/vulkan.svg');
+}
+article a[href*='https://vultr.com']::before,
+article a[href*='https://www.vultr.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/vultr.svg');
+  mask-image: url('https://simpleicons.org/icons/vultr.svg');
+}
