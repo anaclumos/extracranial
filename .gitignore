@@ -5,6 +5,7 @@ blog
 docs
 Research/.obsidian/plugins
 i18n/ko/docusaurus-plugin-content-blog/*/*
+*.pyc
 
 # Dependencies
 /node_modules
