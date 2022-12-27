@@ -408,10 +408,6 @@ export const backlinks = {
     "Paracosm": {
         "Text-based Tools for Thought": "### [[Paracosm]]"
     },
-    "get-a-job-done": {
-        "2022-09-05": "- [[get-a-job-done]]",
-        "Real Exams": "- [[get-a-job-done]] SQL, [[React]], [[Python]]"
-    },
     "The Library of Babel": {
         "2022-11-24": "- [[The Library of Babel]]",
         "Information amongst Data": "[[The Library of Babel]] holds all data."
@@ -820,10 +816,10 @@ export const backlinks = {
         "0001 Two Sum": "I used [[Python]] Dictionary to store complementing values. Python Dictionary will have $O(1)$ access ...",
         "1046 Last Stone Weight": "- Space: $O(1)$ in [[Python]]",
         "Coding Tests": "- Will use [[Python]] (main language) and [[C++]] (supplementary language)",
+        "Get Job Done": "  - Building [[Python]] Data Parser",
         "Higher-Level Languages and Their Speeds": "- [[Python]]",
         "Python": "You can offset with [[Python]]'s `enumerate` function with list splitting.",
-        "Real Exams": "- get-a-job-done SQL, React, [[Python]]",
-        "get-a-job-done": "  - Building [[Python]] Data Parser"
+        "Real Exams": "- Get Job Done SQL, React, [[Python]]"
     },
     "FFMpeg for iPad": {
         "2022-10-20": "- [[FFMpeg for iPad]]"
@@ -984,6 +980,10 @@ export const backlinks = {
     "Pure Component Model": {
         "2022-09-03": "- [[Pure Component Model]]",
         "Monolithic Model": "- Solution [[Pure Component Model]]"
+    },
+    "Get Job Done": {
+        "2022-09-05": "- [[Get Job Done]]",
+        "Real Exams": "- [[Get Job Done]] SQL, [[React]], [[Python]]"
     },
     "Project PEOPLE": {
         "2022-07-10": "- Notion opened a new paradigm for low-code websites. [[Project PEOPLE]] now create personal websites, event RSVPs, blogs, databases, and much more, ...",
@@ -2822,16 +2822,16 @@ export const backlinks = {
         "2022-09-10": "- [[React]] components library with native dark theme support",
         "Developing Review Notes for Obsidian": "### [[React]] 전환",
         "Front-end": "- [[React]]",
+        "Get Job Done": "  - Coding [[React]]",
         "JSX (File Format)": "... Syntax Extension and occasionally referred to as JavaScript XML) is a [[React]] extension to the JavaScript language syntax, which provides a way to ...",
         "Jest": "... large web applications. It works with projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and Svelte. Jest doesn't require a lot of configuration ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... use Obsidian for my Memex, but I have built a custom [[React]] application for presenting on the web instead of Obsidian Publish.",
         "Next.js": "... Next.js is an open-source web development framework created by Vercel enabling [[React]]-based web applications with server-side rendering and generating static websites. React documentation ...",
         "React App on GitHub Pages": "Recently I came across the idea of publishing a [[React]] App on GitHub Pages. I can distribute my React App using ...",
         "React Native": "> [[React]] Native is an open-source [[UIUX|UI]] software framework created by Meta Platforms, ...",
-        "Real Exams": "- get-a-job-done SQL, [[React]], [[Python]]",
+        "Real Exams": "- Get Job Done SQL, [[React]], [[Python]]",
         "Separation of Computer Scientists and Computer Technologists": "## But a self-taught can code a dang fantastic [[React]] shopping mall!",
-        "Svelte": "... runtime representations, such as virtual DOM, unlike traditional frameworks (such as [[React]] and Vue), which carry out the bulk of their work at ...",
-        "get-a-job-done": "  - Coding [[React]]"
+        "Svelte": "... runtime representations, such as virtual DOM, unlike traditional frameworks (such as [[React]] and Vue), which carry out the bulk of their work at ..."
     },
     "My Raycast Wrapped of 2022": {
         "2022-12-17": "- [[My Raycast Wrapped of 2022]]"

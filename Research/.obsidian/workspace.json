@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fcdb3389faa0b1a6",
+        "id": "ef2b3ea8a7dd24df",
         "type": "tabs",
         "children": [
           {
-            "id": "1a80b79d88183691",
+            "id": "c7395ad62b7d8d64",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -120,17 +120,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "1a80b79d88183691",
+  "active": "c7395ad62b7d8d64",
   "lastOpenFiles": [
     "journals/2022-12-27.md",
+    "pages/Get Job Done.md",
+    "pages/Math-based Coding.md",
+    "pages/하늘땅사람.md",
     "pages/Apple-like Block Interface.md",
+    "pages/방송 장비 담당자로 할 일.md",
+    "journals/2022-12-26.md",
     "journals/2022-10-25.md",
     "pages/Next.js.md",
-    "assets/6C8C82.png",
-    "journals/2020-01-05.md",
-    "journals/2019-11-06.md",
-    "pages/2022년 11월 한 달간 일기 쓰기.md",
-    "pages/Prompt Engineering.md",
-    "pages/Point-E.md"
+    "assets/6C8C82.png"
   ]
 }

@@ -28,7 +28,7 @@ slug: '/75CB18'
 ### [LinkedIn](https://www.linkedin.com/)
 
 - 1 [[optimized simulation]]
-- 1 [[mathematic coding]]
+- 1 [[Math-based Coding]]
 
 ### [Akuna Capital — "Front Runner"](https://akunacapital.com/)
 
@@ -73,7 +73,7 @@ slug: '/75CB18'
 
 ### [Garda Capital Partners](https://www.gardacp.com/)
 
-- 3 [[mathematic coding]] problems (2 finding-formula, 1 map)
+- 3 [[Math-based Coding]] problems (2 finding-formula, 1 map)
 - 1 SQL Problem
 
 ### [BlackRock](https://www.blackrock.com/us/individual)
@@ -91,21 +91,21 @@ slug: '/75CB18'
 
 ### Coinbase
 
-- 1 [[mathematic coding]]
+- 1 [[Math-based Coding]]
 - 1 [[optimized simulation]]
 
 ### Goldman Sachs
 
-- 1 [[mathematic coding]]
+- 1 [[Math-based Coding]]
 - 1 [[optimized simulation]]
 
 ### Sezzle
 
-- [[get-a-job-done]] SQL, [[React]], [[Python]]
+- [[Get Job Done]] SQL, [[React]], [[Python]]
 
 ### Twitch
 
-- [[get-a-job-done]] Data Parsing
+- [[Get Job Done]] Data Parsing
 
 ### Bloomberg
 
