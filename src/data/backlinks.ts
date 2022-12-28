@@ -134,7 +134,8 @@ export const backlinks = {
     "2022-09-18": {},
     "2022-06-15": {},
     "2022-12-28": {
-        "Safari is the new Internet Explorer": "\t- At least [[2022-12-28]] now they do: Sending web push notifications in Safari and other ..."
+        "Safari is the new Internet Explorer": "  - At least [[2022-12-28]] now they do: Sending web push notifications in Safari and other ...",
+        "하늘땅사람": "## [[2022-12-28]]"
     },
     "2022-11-06": {},
     "2022-10-08": {},
@@ -627,7 +628,7 @@ export const backlinks = {
         "Readings": "- [ ] [[유난한 도전]]"
     },
     "IntelliJ": {
-        "Intellisense for Knowledge Management": "- Like Copilot or [[IntelliJ]] "
+        "Intellisense for Knowledge Management": "- Like Copilot or [[IntelliJ]]"
     },
     "Providing DOM API to Worker Threads": {
         "2022-07-28": "- [[Providing DOM API to Worker Threads]]",
@@ -1725,6 +1726,7 @@ export const backlinks = {
         "2022-11-30": "## [[Project]]",
         "2022-12-12": "## [[Project]]",
         "2022-12-18": "## [[Project]]",
+        "2022-12-28": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -2064,6 +2066,7 @@ export const backlinks = {
         "2022-12-19": "### [[하늘땅사람]]",
         "2022-12-20": "- [[하늘땅사람]]",
         "2022-12-27": "- [[하늘땅사람]]",
+        "2022-12-28": "- [[하늘땅사람]]",
         "Project": "- [[하늘땅사람]]"
     },
     "3D": {
@@ -3692,7 +3695,7 @@ export const backlinks = {
         "Antipilot": "- [[Copilot]] looks like increasing your productivity, but it",
         "Collecting Data": "- [[Copilot]]",
         "GitHub Copilot Investigation": "- How it started: [[Copilot]]",
-        "Intellisense for Knowledge Management": "- Like [[Copilot]] or [[IntelliJ]] ",
+        "Intellisense for Knowledge Management": "- Like [[Copilot]] or [[IntelliJ]]",
         "Pensieve": "... automatically collects your expertise in a hierarchy powered by an AI [[copilot]]. Whenever you are starting a search journey that entails multiple tabs ...",
         "Synthote": "- [[Copilot]] is already doing it for codes"
     },
@@ -4435,6 +4438,12 @@ export const backlinks = {
     },
     "380E26.png": {
         "하늘땅사람": "![[380E26.png]]"
+    },
+    "9DA152.png": {
+        "하늘땅사람": "![[9DA152.png]]"
+    },
+    "54BAFC.png": {
+        "하늘땅사람": "![[54BAFC.png]]"
     },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",

@@ -11,11 +11,30 @@
             "id": "6f4ef5fe6f23a0f9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-12-28.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cb2a9dbf99fe2ef8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/하늘땅사람.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/하늘땅사람.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/하늘땅사람.md"
+              }
             }
           }
         ],
@@ -119,7 +141,7 @@
       "random-note:Open random note": false
     }
   },
-  "active": "6f4ef5fe6f23a0f9",
+  "active": "cb2a9dbf99fe2ef8",
   "lastOpenFiles": [
     "journals/2022-12-28.md",
     "pages/Ray.st.md",
