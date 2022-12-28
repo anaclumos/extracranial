@@ -35,7 +35,7 @@ heap = sbrk(1 << 20); // 1 MB, depends on compiler & system
 ## Allocators
 
 C and C++ use explicit allocators, which the developers must explicitly free the memory when done using them.
-On the other hand, Java, Python, or other higher-level languages use implicit allocators, which this memory free-ing is done automatically.
+On the other hand, [[Java]], Python, or other higher-level languages use implicit allocators, which this memory free-ing is done automatically.
 This implicit allocators are also known as garbage collection.
 
 Allocators must satisfy the following:

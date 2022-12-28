@@ -16,5 +16,5 @@ slug: '/BEF810'
 - Problems
   - Rails does not have declarative components.
   - Rails monolith is harder to scale.
-  - Rails is hard to serve at the edge. CDN can host static assets, but templates in the core RoR process render most pages.
+  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process render most pages.
   - All of these make developer workflow harder. Containerization, [[Kubernetes]], and modern [[front-end]] stacks are challenging to work with in Rails.

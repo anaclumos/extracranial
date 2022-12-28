@@ -9,7 +9,7 @@ slug: '/557260'
 
 ![[1D64A6.png]]
 
-### [Heptabase](https://heptabase.com/)
+### [[Heptabase]]
 
 ![[F414E3.gif]]
 

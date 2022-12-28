@@ -60,6 +60,7 @@ export const backlinks = {
     },
     "2022-12-27": {
         "2022년 11월 한 달간 일기 쓰기": "[[2022-12-27]] 회고를 해본다.",
+        "Conversation with Alan Chan on 2022-12-27": "Had a conversation with Alan Chan on [[2022-12-27]].",
         "하늘땅사람": "## [[2022-12-27]]"
     },
     "2022-07-14": {
@@ -132,6 +133,9 @@ export const backlinks = {
     "2022-06-21": {},
     "2022-09-18": {},
     "2022-06-15": {},
+    "2022-12-28": {
+        "Safari is the new Internet Explorer": "\t- At least [[2022-12-28]] now they do: Sending web push notifications in Safari and other ..."
+    },
     "2022-11-06": {},
     "2022-10-08": {},
     "2022-10-18": {},
@@ -490,7 +494,7 @@ export const backlinks = {
     "Satori": {
         "2022-10-11": "- [[Satori]]",
         "2022-11-14": "- [[Satori]]: Create OG images for your blog with Next.js",
-        "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, Vercel/[[Satori]], Logseq/Logseq, Etc. I came across Heptabase and wanted to speak with ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, Vercel/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Stories Behind Satori": "The potential candidates for [[Satori]] included:",
         "WebAssembly": "- [[Satori]]"
     },
@@ -499,8 +503,8 @@ export const backlinks = {
         "Readings": "- [x] [[Krafton Way]]"
     },
     "Logseq": {
-        "2022-07-07": "I believe that Roam Research and [[Logseq]] are at the culminating position of this simplicity.",
-        "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]]."
+        "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]].",
+        "Tools Must Vanish": "I believe that Roam Research and [[Logseq]] are at the culminating position of this simplicity."
     },
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
@@ -518,6 +522,14 @@ export const backlinks = {
         "Protocol Wars": "... admit. The U.S. Department of Defense was an early adopter of TCP/[[IP]]",
         "http 없는 http 서버 만들기": "`http` 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ...",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ..."
+    },
+    "CDN": {
+        "2022-08-28": "... builds faster (~3m) than Cloudflare Pages (~5m). Vercel has Seoul region [[CDN]].",
+        "2022-12-28": "- [[CDN]]",
+        "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as Microsoft Bing or Cloudflare's AMP caches, which allows pages ...",
+        "Cloudflare": "> Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded in 2010. It primarily acts as ...",
+        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
+        "The Architecture of Mastodon": "  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process ..."
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs."
@@ -614,6 +626,9 @@ export const backlinks = {
     "유난한 도전": {
         "Readings": "- [ ] [[유난한 도전]]"
     },
+    "IntelliJ": {
+        "Intellisense for Knowledge Management": "- Like Copilot or [[IntelliJ]] "
+    },
     "Providing DOM API to Worker Threads": {
         "2022-07-28": "- [[Providing DOM API to Worker Threads]]",
         "2022-07-29": "- [[Providing DOM API to Worker Threads]] Complete"
@@ -624,14 +639,17 @@ export const backlinks = {
         "Infinite Canvas": "- [[Intracranial]]"
     },
     "Software as a Service": {
-        "2022-07-07": "## Personal Notes on Tools for Thought [[Software as a Service]]",
         "FIRE Engine": "- [[Software as a Service]] that drives revenue streams for [[FIRE]]",
         "Fiercely Overpriced": "To attain FIRE, we have previously explored that [[Software as a Service]] would be one way to go.",
         "Social Coding": "- [[Software as a Service]] businesses with network effects are rare, but when they work, they ...",
-        "Software as a Service": "We expect we could attain FIRE through [[Software as a Service]]."
+        "Software as a Service": "We expect we could attain FIRE through [[Software as a Service]].",
+        "Tools Must Vanish": "## Personal Notes on Tools for Thought [[Software as a Service]]"
     },
     "그게 뭐라고": {
         "2022-11-23": "- [[그게 뭐라고]]"
+    },
+    "Web Analyzer Tool": {
+        "Ray.st": "- [[Web Analyzer Tool]]."
     },
     "Heap (Computer Systems)": {
         "2022-12-08": "- [[Heap (Computer Systems)]]",
@@ -695,7 +713,7 @@ export const backlinks = {
     "Docusaurus": {
         "Better Docusaurus": "- Fixing some things that I currently don't like about [[Docusaurus]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... have some personal Python scripts that convert Obsidian MD files to [[Docusaurus]] MD files since they have slightly different specs.",
-        "Letter to the Heptabase Team on 2022-10-11": "... in LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across Heptabase and wanted to speak ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... in LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak ...",
         "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
         "Redirect": "## Redirects in [[Docusaurus]]"
     },
@@ -851,6 +869,7 @@ export const backlinks = {
         "Copilot": "- A [[Synthote]] for developers.",
         "Everyprompt": "- [[Synthote]]",
         "Notion": "- Notion AI: [[Synthote]]",
+        "Notion AI": "Notion's [[Synthote]]",
         "Real Interviews": "... - Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
         "Reimagining Emails": "- Potential links to [[Synthote]]?",
         "Search in a Latent Space": "- Related to [[Synthote]]: Finding the exact text that contains the desired info in this ...",
@@ -876,12 +895,15 @@ export const backlinks = {
         "2022-10-14": "- [[WebAssembly]]",
         "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten",
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
+        "Dioxus": "Use [[WebAssembly|WASM]]",
         "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
         "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
         "Project": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
+        "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
-        "WasmEdge": "WasmEdge: Edge Networks for [[WebAssembly]]"
+        "WasmEdge": "WasmEdge: Edge Networks for [[WebAssembly]]",
+        "WebGPU": "- It's a stand-alone TypeScript+Rust/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ..."
     },
     "Now Runs On": {
         "2022-11-20": "- [[Now Runs On]]"
@@ -993,7 +1015,8 @@ export const backlinks = {
         "2022-09-14": "- [[Project PEOPLE]]"
     },
     "태백산맥 계획": {
-        "2022-12-11": "- [[태백산맥 계획]]"
+        "2022-12-11": "- [[태백산맥 계획]]",
+        "Regulation of Fake News": "- [[태백산맥 계획]]"
     },
     "Workbench": {},
     "AIs.txt": {
@@ -1042,6 +1065,7 @@ export const backlinks = {
     "Slow Down Your Clock Cycle Speed": {
         "2022-10-12": "- [[Slow Down Your Clock Cycle Speed]]",
         "2022-10-13": "- [[Slow Down Your Clock Cycle Speed]]",
+        "2022-12-28": "- [[Slow Down Your Clock Cycle Speed]]",
         "Handwriting Tools for Thoughts": "  - Benefit: handwritings [[Slow Down Your Clock Cycle Speed]]"
     },
     "브라우저 콘솔에 경고 문구 띄우는 방법": {
@@ -1065,6 +1089,9 @@ export const backlinks = {
     },
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
+    },
+    "Dioxus": {
+        "2022-12-28": "- [[Dioxus]]"
     },
     "Structs and Unions": {
         "2022-11-03": "- [[Structs and Unions]]",
@@ -1183,7 +1210,8 @@ export const backlinks = {
         "Figma": "... vector graphics editors and prototyping tools. The Figma mobile app for [[Android]] and iOS allows viewing and interacting with Figma prototypes in real ...",
         "React Native": "... by Meta Platforms, Inc. It is used to develop applications for [[Android]], Android TV, iOS, macOS, tvOS, Web, Windows, and UWP by enabling ...",
         "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
-        "Torvalds": "... kernel, used by Linux distributions and other operating systems such as [[Android]]. He also created the distributed version control system Git. Linus Torvalds"
+        "Torvalds": "... kernel, used by Linux distributions and other operating systems such as [[Android]]. He also created the distributed version control system Git. Linus Torvalds",
+        "하늘땅사람": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "FinTech and Justice": {
         "2022-10-18": "- [[FinTech and Justice]]"
@@ -1222,6 +1250,9 @@ export const backlinks = {
     "Person ECC2CB": {
         "2022-12-08": "- [[Person ECC2CB]]",
         "Project PEOPLE": "- [[Person ECC2CB]]"
+    },
+    "Midjourney": {
+        "2022-12-28": "- [[Midjourney]]"
     },
     "CalliFontia": {
         "2022-08-10": "- [[CalliFontia]]",
@@ -1465,6 +1496,9 @@ export const backlinks = {
     "Pivot": {
         "2022-12-21": "- [[Pivot]]"
     },
+    "Conversation with Alan Chan on 2022-12-27": {
+        "2022-12-28": "- [[Conversation with Alan Chan on 2022-12-27]]"
+    },
     "Protocol Wars": {
         "2022-11-16": "- [[Protocol Wars]]: [[Matt Rickard]]",
         "Matt Rickard": "- [[Protocol Wars]]"
@@ -1497,6 +1531,14 @@ export const backlinks = {
     "Web Typography": {
         "Brunch violates SF terms of use": "... Apple's Terms of Use by using San Francisco|SF Pro as a [[Web Typography|Webfont]].",
         "San Francisco": "- Has a strict usage model. No [[Web Typography|Webfont]] use"
+    },
+    "Rust": {
+        "2022-06-14": "## [[Rust]]의 사용에 대하여",
+        "2022-09-05": "- Unreal Rust Unreal [[Rust]]",
+        "2022-11-30": "- Will this be enough to match Go's or [[Rust]]'s performance? Unlikely, but the thing is that the current JavaScript tools ...",
+        "Dioxus": "They are written in [[Rust]], inspired by [[React]].",
+        "WebGPU": "- It's a stand-alone TypeScript+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
+        "Write Once Run Everywhere": "- [[Rust]]"
     },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]"
@@ -1578,6 +1620,9 @@ export const backlinks = {
     "Case Study": {
         "Rauno": "- [[Case Study]]"
     },
+    "Regulation of Fake News": {
+        "2022-12-28": "- [[Regulation of Fake News]]"
+    },
     "라즈베리 파이로 스마트 오디오 시스템 만들기": {
         "2022-11-19": "  - [[라즈베리 파이로 스마트 오디오 시스템 만들기]]"
     },
@@ -1602,10 +1647,10 @@ export const backlinks = {
         "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
     },
     "Roam Research": {
-        "2022-07-07": "I believe that [[Roam Research]] and [[Logseq]] are at the culminating position of this simplicity.",
         "Better Obsidian": "  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].",
         "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser",
-        "Text-based Tools for Thought": "### [[Roam Research]]"
+        "Text-based Tools for Thought": "### [[Roam Research]]",
+        "Tools Must Vanish": "I believe that [[Roam Research]] and [[Logseq]] are at the culminating position of this simplicity."
     },
     "DOM": {
         "2022-06-14": "- Brane에서 Brane [[DOM]]을 만드는 것은 구현 전략의 일부일 뿐, Brane DOM 자체는 Brane이 아니다.",
@@ -1641,6 +1686,9 @@ export const backlinks = {
     "10x Technologist": {
         "10x Technopreneurs": "10x technoprenuers are Small yet Powerful people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the knowledge for Go-To-Market strategies and monetization. They can ...",
         "2022-12-09": "- [[10x Technologist]]"
+    },
+    "Ray.st": {
+        "2022-12-28": "- [[Ray.st]]"
     },
     "Project": {
         "2022-06-14": "- 티어링이란 이 [[Project|프로젝트]]가 빌딩 블록으로 제공될 때, 아주 필수적인 코어 기능으로 제공될 영역과, ON-OFF ...",
@@ -1716,6 +1764,7 @@ export const backlinks = {
         "Project PEOPLE": "- [[Project]]",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
+        "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in PDF/Databases. Just like Google",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
         "TossFace Playground": "- [[Project]] [[Done]]",
@@ -1753,7 +1802,8 @@ export const backlinks = {
         "Matt Rickard": "- [[Post Git]]"
     },
     "Vannevar Bush": {
-        "Memex": "... flexibility. It is an enlarged intimate supplement to his memory. — [[Vannevar Bush]]."
+        "Memex": "... flexibility. It is an enlarged intimate supplement to his memory. — [[Vannevar Bush]].",
+        "Tools Must Vanish": "... I see is junk. It’s never the Zettelkasten of the next [[Vannevar Bush]]; it’s always a setup with tens of plugins, a daily note ..."
     },
     "EPUB (File Format)": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB (File Format)]], [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File ..."
@@ -1816,7 +1866,8 @@ export const backlinks = {
         "Internetworking": "- [[POP3 vs IMAP]]"
     },
     "React Native": {
-        "Configuring Jest for React Native": "- Configuring Jest for [[React Native]]"
+        "Configuring Jest for React Native": "- Configuring Jest for [[React Native]]",
+        "Write Once Run Everywhere": "- React and [[React Native]]"
     },
     "Person 5DBDAE": {
         "2022-09-13": "- [[Person 5DBDAE]]",
@@ -1860,7 +1911,10 @@ export const backlinks = {
         "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
         "Conversational AI Tools for Thought": "- ChatGPT and [[Generative AI]] are not exactly [[Tools for Thought]] for now. However, it has ...",
         "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value ...",
+        "Midjourney": "- Art focused Prompt Engineering [[Generative AI]] Platform",
         "Point-E": "- [[Generative AI]]",
+        "Prompt Marketplace": "With [[Generative AI]] and [[Prompt Engineering]] blooming, people now sell and buy prompts.",
+        "Ray.st": "A Collection of 26 Beautiful 3D Emojis Generated by [[Generative AI]].",
         "Search Engine using Generative AI": "- [[Generative AI]]",
         "Search in a Latent Space": "- [[Generative AI]]",
         "The Demise of Chatbots in 2017": "... making the same mistakes as in 2016 in the era of [[generative AI]]. Some companies are solving for distribution using someone else's proprietary model ...",
@@ -1891,11 +1945,12 @@ export const backlinks = {
     },
     "월급만큼 중요한 것은 자존급이다": {},
     "Notion": {
-        "2022-07-07": "Even [[Notion]] is too complicated for personal task management.",
         "2022-07-10": "- [[Notion]] opened a new paradigm for low-code websites. [[Project PEOPLE]] now create ...",
         "2022-11-16": "- Notion AI: [[Notion]]'s [[Synthote]]",
         "Collaboration-based Tools for Thought": "### [[Notion]]",
-        "Text-based Tools for Thought": "### [[Notion]]"
+        "Notion AI": "[[Notion]]'s [[Synthote]]",
+        "Text-based Tools for Thought": "### [[Notion]]",
+        "Tools Must Vanish": "Even [[Notion]] is too complicated for personal task management."
     },
     "CELLO": {
         "2022-08-10": "- [[CELLO]]",
@@ -1910,6 +1965,9 @@ export const backlinks = {
     },
     "Clock skew detected": {
         "Internetworking": "- [[Clock skew detected]]"
+    },
+    "Write Once Run Everywhere": {
+        "Dioxus": "[[Write Once Run Everywhere]]"
     },
     "Scheduler": {
         "2022-07-11": "Brane requires explicit [[Scheduler|schedulers]] and abstractions to overcome these shortcomings.",
@@ -1976,6 +2034,12 @@ export const backlinks = {
     "Apple Newsroom 서체 따라하기": {
         "2022-11-19": "  - [[Apple Newsroom 서체 따라하기]]"
     },
+    "Fixing the Document Hell": {
+        "2022-12-28": "- [[Fixing the Document Hell]]"
+    },
+    "Hyperview": {
+        "2022-12-28": "- [[Hyperview]]"
+    },
     "Interoperability": {
         "2022-07-20": "- Bidirectional [[Interoperability]] with [[C++]]",
         "2022-10-27": "- [[Interoperability]]",
@@ -1987,6 +2051,10 @@ export const backlinks = {
     },
     "Tesla Release Models": {
         "2022-09-06": "- [[Tesla Release Models]]"
+    },
+    "Notion AI": {
+        "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Synthote]]",
+        "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if Notion AI got super powerful, giving insight into your ..."
     },
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
@@ -2016,7 +2084,8 @@ export const backlinks = {
         "Deno Deploy": "- Deploy [[JavaScript]] Globally",
         "HTMX": "- Implementation itself is [[JavaScript]]",
         "Separation of Computer Scientists and Computer Technologists": "... A self-taught dev can use React to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...",
-        "TypeScript": "- Typed [[JavaScript]]."
+        "TypeScript": "- Typed [[JavaScript]].",
+        "Write Once Run Everywhere": "- [[JavaScript]]"
     },
     "Grotesque": {
         "Akzidenz": "- A type of [[Grotesque]] [[font]].",
@@ -2123,6 +2192,9 @@ export const backlinks = {
     },
     "Dynamically Linked Libraries": {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
+    },
+    "Dumbest Person in the Room": {
+        "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
     },
     "Venture Capital": {
         "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]"
@@ -2257,6 +2329,7 @@ export const backlinks = {
     "Search in a Latent Space": {
         "2022-12-04": "- [[Search in a Latent Space]]",
         "Atomic Habits": "- Plateau of Latent Potential: Sounds astoundingly similar to [[Search in a Latent Space]]",
+        "Prompt Marketplace": "... keywords can be the key to finding Information amongst Data or [[Search in a Latent Space]].",
         "Search Engine using Generative AI": "- [[Search in a Latent Space]]",
         "Thesephist Work Case Study": "### [[Search in a Latent Space]]"
     },
@@ -2269,7 +2342,7 @@ export const backlinks = {
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
         "2022-12-04": "- The Verge is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, ...",
         "Edge Networks": "- [[Vercel]] & Vercel Edge Functions",
-        "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across Heptabase and wanted to speak with ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
         "Paracosm": "... & Extracranial Tools for Thought that aims to replace Docusaurus with [[Vercel]]'s tech stacks.",
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting ...",
@@ -2535,6 +2608,17 @@ export const backlinks = {
         "2022-10-17": "### [[Backlinking for Aldehyde]]",
         "Better Aldehyde": "- [[Backlinking for Aldehyde]]"
     },
+    "Java": {
+        "2022-07-20": "- [[Java]] → Kotlin",
+        "Heap (Computer Systems)": "On the other hand, [[Java]], Python, or other higher-level languages use implicit allocators, which this memory ...",
+        "How is WebAssembly cross-platform when Assembly is not": "- Seems like WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the genuinely low-level [[Assembly]].",
+        "IntelliJ": "> IntelliJ IDEA is an integrated development environment (IDE) written in [[Java]] for developing computer software written in Java, Kotlin, Groovy, and other ...",
+        "Write Once Run Everywhere": "... created by Sun Microsystems to illustrate the cross-platform benefits of the [[Java]] language. Ideally, a Java program could be developed on any device, ...",
+        "하늘땅사람": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
+    },
+    "Safari is the new Internet Explorer": {
+        "2022-12-28": "- [[Safari is the new Internet Explorer]]"
+    },
     "Open Graph Image as a Service": {
         "2022-07-10": "... longer make any improvements in `og-image.cho.sh`, and invest those time in [[Open Graph Image as a Service]].",
         "2022-07-18": "- Fiercely Overpriced for [[Open Graph Image as a Service]] could be public-key-encrypting query strings.",
@@ -2672,11 +2756,13 @@ export const backlinks = {
     "Finding out Ghost version with JS": {
         "2022-11-19": "  - [[Finding out Ghost version with JS]]"
     },
+    "Alan Chan": {
+        "Conversation with Alan Chan on 2022-12-27": "Had a conversation with [[Alan Chan]] on [[2022-12-27]]."
+    },
     "Apple vs Spotify": {
         "2022-10-27": "### [[Apple vs Spotify]]"
     },
     "Tools for Thought": {
-        "2022-07-07": "## Personal Notes on [[Tools for Thought]] [[Software as a Service]]",
         "2022-07-18": "- Using an iPad as a [[Tools for Thought]] feels good. Especially writing with [[Apple]] Pencil.",
         "2022-10-13": "- Visible – Make information useful: [[Tools for Thought]]",
         "2022-10-23": "- [[Tools for Thought]]: usememos/memos: An open-source, self-hosted knowledge base that works with an SQLite ...",
@@ -2690,7 +2776,8 @@ export const backlinks = {
         "Pensieve": "- An experimental [[tools for thought]] for capturing the context of information.",
         "Plateau of Latent Potential": "Can we unlock the potential of human intelligence with next-gen [[Tools for Thought]]?",
         "Rauno": "Interesting Extracranial [[Tools for Thought]] ([[Data Capturers]])",
-        "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, Heptabase."
+        "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, [[Heptabase]].",
+        "Tools Must Vanish": "## Personal Notes on [[Tools for Thought]] [[Software as a Service]]"
     },
     "Graphics Engine Process": {
         "Game Programming": "- [[Graphics Engine Process]]"
@@ -2721,6 +2808,12 @@ export const backlinks = {
         "Master Socket": "- binds it to a [[port]] and waits for a connection request.",
         "SMTP": "- [[Port]] 25",
         "Socket": "- needs to be bound to a [[Port]]"
+    },
+    "Heptabase": {
+        "Alan Chan": "- CEO of [[Heptabase]]",
+        "Letter to the Heptabase Team on 2022-10-11": "> On [[Heptabase]] and its Developer Ecosystem",
+        "Spacial Cognition": "- Dozens of Tools for Thought use it. For example, [[Heptabase]].",
+        "Visual-based Tools for Thought": "### [[Heptabase]]"
     },
     "0021 Merge Two Sorted Lists": {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
@@ -2822,6 +2915,7 @@ export const backlinks = {
         "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 중이다.",
         "2022-09-10": "- [[React]] components library with native dark theme support",
         "Developing Review Notes for Obsidian": "### [[React]] 전환",
+        "Dioxus": "They are written in Rust, inspired by [[React]].",
         "Front-end": "- [[React]]",
         "Get Job Done": "  - Coding [[React]]",
         "JSX (File Format)": "... Syntax Extension and occasionally referred to as JavaScript XML) is a [[React]] extension to the JavaScript language syntax, which provides a way to ...",
@@ -2833,7 +2927,8 @@ export const backlinks = {
         "Real Exams": "- Get Job Done SQL, [[React]], [[Python]]",
         "Separation of Computer Scientists and Computer Technologists": "## But a self-taught can code a dang fantastic [[React]] shopping mall!",
         "Svelte": "... runtime representations, such as virtual DOM, unlike traditional frameworks (such as [[React]] and Vue), which carry out the bulk of their work at ...",
-        "WebGPU": "- It's a stand-alone TypeScript+Rust/WASM library with its own [[React]]-like run-time. If you're familiar with React, you will feel right at ..."
+        "WebGPU": "- It's a stand-alone TypeScript+Rust/WebAssembly|WASM library with its own [[React]]-like run-time. If you're familiar with React, you will feel right at ...",
+        "Write Once Run Everywhere": "- [[React]] and [[React Native]]"
     },
     "My Raycast Wrapped of 2022": {
         "2022-12-17": "- [[My Raycast Wrapped of 2022]]"
@@ -2986,6 +3081,9 @@ export const backlinks = {
     "Deepfake": {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]]."
     },
+    "Prompt Marketplace": {
+        "2022-12-28": "- [[Prompt Marketplace]]"
+    },
     "Metaverse": {
         "2022-05-31": "- Kakao announced [[Metaverse]] Remote Work Policy.",
         "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can be attained within years with Prompt Engineering.",
@@ -3134,8 +3232,10 @@ export const backlinks = {
         "2022-09-30": "- Human Motion Diffusion Model [[Prompt Engineering]]",
         "Generative AI": "Instead of guessing the correct answer, AI creates something from [[Prompt Engineering]].",
         "Metaverse": "... to my mind that Metaverse can be attained within years with [[Prompt Engineering]].",
+        "Midjourney": "- Art focused [[Prompt Engineering]] [[Generative AI]] Platform",
         "Obsidian Ava": "- [[Prompt Engineering]]",
         "Point-E": "- [[Prompt Engineering]]",
+        "Prompt Marketplace": "With Generative AI and [[Prompt Engineering]] blooming, people now sell and buy prompts.",
         "Screenshot as an API": "...  - (encoder) diffusion-based models like Stable Diffusion and DALL-E (text-to-image) [[Prompt Engineering]]",
         "Search in a Latent Space": "- Maybe it's another name for [[Prompt Engineering]]",
         "Synthography": "- Needs [[Prompt Engineering]]",
@@ -3259,6 +3359,7 @@ export const backlinks = {
     "Information amongst Data": {
         "2022-11-24": "- [[Information amongst Data]]",
         "Person 1E6ABA": "Finding [[Information amongst Data]].",
+        "Prompt Marketplace": "Maybe specific keywords can be the key to finding [[Information amongst Data]] or [[Search in a Latent Space]].",
         "Rauno": "- Has alphanumeric morphing, as if it is finding [[Information amongst Data]]",
         "Search Engine using Generative AI": "- [[Information amongst Data]]",
         "Search in a Latent Space": "- Finding [[Information amongst Data]].",
@@ -3286,6 +3387,7 @@ export const backlinks = {
         "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
         "Open Graph Image as a Service": "[[Someday]] [[Project]]. Request Open Graph Images with URI, `POST` payload.",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
+        "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in PDF/Databases. Just like Google",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute URI.",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator to gauge market interest.",
         "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
@@ -3409,6 +3511,7 @@ export const backlinks = {
         "2022-12-09": "## [[Hacker News|HN]]",
         "2022-12-17": "## [[Hacker News|HN]]",
         "2022-12-21": "## [[Hacker News|HN]]",
+        "2022-12-28": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -3432,6 +3535,7 @@ export const backlinks = {
     "Old Fashioned Camera": {},
     "Jetbrains": {
         "Apple Newsroom 서체 따라하기": "- 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.",
+        "IntelliJ": "... Java, Kotlin, Groovy, and other JVM-based languages. It is produced by [[JetBrains]] (formerly known as IntelliJ) and is available as an Apache 2 ...",
         "Jetbrains Fleet": "... weight multi-purpose IDE, with support for collaboration and remote workflows by [[Jetbrains]]. JetBrains"
     },
     "Mastodon": {
@@ -3463,6 +3567,13 @@ export const backlinks = {
     },
     "Packet Sniffing": {
         "Internetworking": "- [[Packet Sniffing]]"
+    },
+    "Intellisense": {
+        "Intellisense for Knowledge Management": "- [[Intellisense]] but for Knowledge Management"
+    },
+    "Tools Must Vanish": {
+        "2022-07-07": "- [[Tools Must Vanish]]",
+        "2022-12-28": "- [[Tools Must Vanish]]"
     },
     "Accelerationism": {
         "Effective Accelerationism": "- [[Accelerationism]]"
@@ -3506,7 +3617,7 @@ export const backlinks = {
         "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations",
         "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules",
         "Svelte": "... runtime, i.e., in the browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ...",
-        "WebGPU": "- It's a stand-alone [[TypeScript]]+Rust/WASM library with its own [[React]]-like run-time. If you're familiar with [[React]], ..."
+        "WebGPU": "- It's a stand-alone [[TypeScript]]+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ..."
     },
     "Floyd Cycle Finding Algorithm": {
         "0141 Linked List Cycle": "- [[Floyd Cycle Finding Algorithm]]"
@@ -3529,8 +3640,12 @@ export const backlinks = {
     "Interactive ML Models": {
         "2022-12-18": "- [[Interactive ML Models]]"
     },
+    "Proebsting": {
+        "2022-12-28": "- [[Proebsting]]"
+    },
     "Rewrite it in Rust": {
-        "2022-10-19": "- [[Rewrite it in Rust]]"
+        "2022-10-19": "- [[Rewrite it in Rust]]",
+        "Rust": "- [[Rewrite it in Rust]]"
     },
     "0079 Word Search": {
         "Coding Tests": "- [[0079 Word Search]]"
@@ -3577,8 +3692,12 @@ export const backlinks = {
         "Antipilot": "- [[Copilot]] looks like increasing your productivity, but it",
         "Collecting Data": "- [[Copilot]]",
         "GitHub Copilot Investigation": "- How it started: [[Copilot]]",
+        "Intellisense for Knowledge Management": "- Like [[Copilot]] or [[IntelliJ]] ",
         "Pensieve": "... automatically collects your expertise in a hierarchy powered by an AI [[copilot]]. Whenever you are starting a search journey that entails multiple tabs ...",
         "Synthote": "- [[Copilot]] is already doing it for codes"
+    },
+    "Intellisense for Knowledge Management": {
+        "Conversation with Alan Chan on 2022-12-27": "We talked about [[Intellisense for Knowledge Management]]"
     },
     "0053 Maximum Subarray": {
         "2022-09-05": "- [[0053 Maximum Subarray]]",
@@ -3593,6 +3712,9 @@ export const backlinks = {
         "2022-10-20": "- [[Inspecting Assembly]]",
         "Computer Systems": "- [[Inspecting Assembly]]",
         "GDB": "- [[Inspecting Assembly]]"
+    },
+    "Freedom of Speech and Regulation of Fake News": {
+        "Regulation of Fake News": "- [[Freedom of Speech and Regulation of Fake News]]"
     },
     "Framer Motion": {
         "2022-06-26": "- Especially, try implementing synchronous Layout properties—for example, [[Framer Motion]].",
@@ -4080,6 +4202,9 @@ export const backlinks = {
     "2576C7.png": {
         "Spellbound": "![[2576C7.png]]"
     },
+    "60A69F.png": {
+        "Dioxus": "![[60A69F.png]]"
+    },
     "BA8C9D.png": {
         "벌금과 물가": "- ![[BA8C9D.png]]"
     },
@@ -4113,6 +4238,9 @@ export const backlinks = {
     },
     "6C2684.png": {
         "Thesephist Work Case Study": "![[6C2684.png]]"
+    },
+    "F59F47.png": {
+        "Midjourney": "![[F59F47.png]]"
     },
     "DCF75C.png": {
         "Modern MacPaint": "![[DCF75C.png]]"
@@ -4155,6 +4283,7 @@ export const backlinks = {
         "Visual-based Tools for Thought": "![[1D64A6.png]]"
     },
     "F414E3.gif": {
+        "Heptabase": "![[F414E3.gif]]",
         "Visual-based Tools for Thought": "![[F414E3.gif]]"
     },
     "B4ED9A.png": {
@@ -4254,6 +4383,12 @@ export const backlinks = {
         "Roam Research": "![[CE4381.png]]",
         "Text-based Tools for Thought": "![[CE4381.png]]"
     },
+    "49BF36.png": {
+        "Ray.st": "![[49BF36.png]]"
+    },
+    "53E519.png": {
+        "Ray.st": "![[53E519.png]]"
+    },
     "298DC4.png": {
         "Jumpsite": "![[298DC4.png]]"
     },
@@ -4282,6 +4417,9 @@ export const backlinks = {
     },
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
+    },
+    "6DFC4D.png": {
+        "Notion AI": "![[6DFC4D.png]]"
     },
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]"

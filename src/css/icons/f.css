@@ -28,6 +28,7 @@ article a[href*='https://www.f5.com']::before
 }
 article a[href*='https://facebook.com']::before,
 article a[href*='https://www.facebook.com']::before,
+article a[href*='https://medium.com/@AnalyticsAtMeta']::before,
 article a[href*='https://developers.facebook.com']::before
 {
   content: '\00a0';
