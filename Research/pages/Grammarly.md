@@ -20,4 +20,3 @@ slug: '/8481ED'
 - growth team
 - data engineer team
 
-I'm free tomorrow at 5
