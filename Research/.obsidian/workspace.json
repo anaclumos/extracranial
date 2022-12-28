@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ef2b3ea8a7dd24df",
+        "id": "eeed9cb2b3aaceca",
         "type": "tabs",
         "children": [
           {
-            "id": "c7395ad62b7d8d64",
+            "id": "6f4ef5fe6f23a0f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Someday.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2b76422d96550eb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/WebGPU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "- [[Some",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/WebGPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/WebGPU.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -142,17 +119,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b9b3d1724f39de07",
+  "active": "6f4ef5fe6f23a0f9",
   "lastOpenFiles": [
-    "pages/Someday.md",
-    "pages/Book Metadata as a Service.md",
-    "pages/Not-So-Procrastinating Lazy Loading.md",
-    "pages/Off The Record.md",
-    "pages/Old Fashioned Camera.md",
-    "pages/Open Graph Image as a Service.md",
-    "pages/사회과부도.md",
-    "pages/Quoridor Game.md",
-    "pages/sem.sh.md",
-    "pages/postcredit.info.md"
+    "journals/2022-12-28.md",
+    "pages/Ray.st.md",
+    "pages/Conversation with Alan Chan on 2022-12-27.md",
+    "pages/Intellisense for Knowledge Management.md",
+    "journals/2022-11-16.md",
+    "journals/2022-06-10.md",
+    "journals/2022-06-07.md",
+    "journals/2022-06-06.md",
+    "journals/2022-06-05.md",
+    "journals/2022-05-31.md"
   ]
 }
