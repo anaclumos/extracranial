@@ -304,6 +304,9 @@ export const backlinks = {
         "Letter to Mr. Stephan Ango on 2022-10-19": "## Update on [[2022-10-20]]"
     },
     "2022-10-14": {},
+    "2023-01-02": {
+        "하늘땅사람": "## [[2023-01-02]]"
+    },
     "2022-12-20": {
         "하늘땅사람": "## [[2022-12-20]]"
     },
@@ -1728,6 +1731,7 @@ export const backlinks = {
         "2022-12-18": "## [[Project]]",
         "2022-12-28": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
+        "2023-01-02": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
@@ -2067,6 +2071,7 @@ export const backlinks = {
         "2022-12-20": "- [[하늘땅사람]]",
         "2022-12-27": "- [[하늘땅사람]]",
         "2022-12-28": "- [[하늘땅사람]]",
+        "2023-01-02": "- [[하늘땅사람]]",
         "Project": "- [[하늘땅사람]]"
     },
     "3D": {
@@ -2948,6 +2953,9 @@ export const backlinks = {
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
     },
+    "Greedy Algorithm": {
+        "Real Exams": "- 1 [[Greedy Algorithm]]"
+    },
     "Resolving GPG Fail to Sign Error": {},
     "SharedArrayBuffer": {
         "2022-06-22": "  - WorkerDOM will harness [[SharedArrayBuffer]].",
@@ -3750,7 +3758,8 @@ export const backlinks = {
         "XTML": "What if stale [[HTML]] elements can have some neat features?",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 IP 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 포토샵으로 삭제했다.",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 것이라고 판단하고 API 서버를 제작하기 시작했다. 즉, 이전에는 php로 렌더링 하는 [[html]] 문서뿐이었던 웹이 한순간에 또 다른 클라이언트가 된 것이다. 이때까지만 해도 우아한 ...",
-        "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. 특정 텍스트를 강조하고 싶다면 다음과 ..."
+        "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. 특정 텍스트를 강조하고 싶다면 다음과 ...",
+        "코드클럽": "또한 BCD의 모든 수업 자료는 [[HTML]] 문법과 Code Snippet을 활용한 Markdown 문서로 제작되며, 누구나 사용할 수 있도록 ..."
     },
     "I just want it fixed": {
         "공기 청정 비행선": "원인이 뭐든, 누가 원인을 제공했든, 그런 것을 다 떠나서 [[I just want it fixed|그냥 고치면 좋겠다]]."
@@ -3799,9 +3808,6 @@ export const backlinks = {
     "Simulated Annealing for Designs": {
         "2022-11-11": "- [[Simulated Annealing for Designs]]",
         "Repeated Designs": "[[Simulated Annealing for Designs]]: Good Design"
-    },
-    "greedy": {
-        "Real Exams": "- 1 [[greedy]]"
     },
     "Opening external links in a new tab by default on Ghost": {
         "2022-11-19": "  - [[Opening external links in a new tab by default on Ghost]]"
@@ -4444,6 +4450,12 @@ export const backlinks = {
     },
     "54BAFC.png": {
         "하늘땅사람": "![[54BAFC.png]]"
+    },
+    "7B4FFA.png": {
+        "하늘땅사람": "![[7B4FFA.png]]"
+    },
+    "E6795B.png": {
+        "하늘땅사람": "![[E6795B.png]]"
     },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",

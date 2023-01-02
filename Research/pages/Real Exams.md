@@ -38,19 +38,19 @@ slug: '/75CB18'
 ### [DRW](https://drw.com/)
 
 - 2 [[optimized simulations]]
-- 1 [[greedy]]
+- 1 [[Greedy Algorithm]]
 
 ### [Akuna Capital Python](https://akunacapital.com/)
 
 - 1 [[optimized simulation]]
 - 1 text compression & [[optimized simulation]]
-- 1, which seemed greedy (I didn't have the time to solve it)
+- 1, which seemed [[Greedy Algorithm]] (I didn't have the time to solve it)
 
 ### [Akuna Capital C++](https://akunacapital.com/)
 
 - 10 multiple choice questions
   - required a deep understanding of [[C++]] recent specs
-- 1 [[greedy]] palindrome substring search
+- 1 [[Greedy Algorithm]] palindrome substring search
 - 1 adjacency list construction and tree search.
   - Time limit was stringent, and I wasn't able to finish it
 - 1 [[optimized simulation]] using bitwise operations
