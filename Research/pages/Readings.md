@@ -12,13 +12,13 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 - [x] [[일본 과학기술 총력전]]
 - [x] [[Krafton Way]]
 - [x] [[Atomic Habits]]
+- [x] [[유난한 도전]]
 
 ## Reading
 
-- [ ] Exhalation
-- [ ] [[유난한 도전]]
-- [ ] [[하얼빈]]
 - [ ] [[이 땅에 태어나서]]
+- [ ] [[Exhalation]]
+- [ ] [[하얼빈]]
 
 ## To-read
 

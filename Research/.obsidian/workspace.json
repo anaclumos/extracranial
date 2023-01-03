@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/하늘땅사람.md",
+                "file": "journals/2023-01-03.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "063421d5ec86f168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/유난한 도전.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "03c4cdc61fe947e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/유난한 도전.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/하늘땅사람.md",
+                "file": "pages/유난한 도전.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/하늘땅사람.md"
+                "file": "pages/유난한 도전.md"
               }
             }
           }
@@ -112,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5,
-    "collapsed": true
+    "width": 415.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -127,17 +153,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "86c615a75e7889e2",
+  "active": "063421d5ec86f168",
   "lastOpenFiles": [
-    "journals/2023-01-02.md",
+    "journals/2023-01-03.md",
+    "pages/Kakao.md",
+    "pages/유난한 도전.md",
+    "pages/Product-Market Fit.md",
+    "pages/Exhalation.md",
+    "pages/Readings.md",
     "pages/하늘땅사람.md",
+    "journals/2023-01-02.md",
     "journals/2022-12-31.md",
-    "journals/2022-12-28.md",
-    "pages/Blockchain.md",
-    "pages/Web3.md",
-    "journals/2022-11-22.md",
-    "journals/2022-11-16.md",
-    "journals/2022-11-11.md",
-    "journals/2022-11-06.md"
+    "journals/2022-12-28.md"
   ]
 }

@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/AF2E5E'
+aliases: ['카카오', '카카오톡']
 ---
 
 ### [카카오가 혁신이란 걸 한 적이 있나요?](https://brunch.co.kr/@buildingking/76)
