@@ -372,6 +372,9 @@ export const backlinks = {
         "Curve Fitting for Charts": "## On [[2022-10-21]], with [[Simple Analytics]]"
     },
     "2022-10-15": {},
+    "2023-01-03": {
+        "하늘땅사람": "## [[2023-01-03]]"
+    },
     "Tailscale": {
         "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, \"Best VPN for developers.\"",
         "2022-10-13": "- Taildrop · Tailscale: Cross-Platform AirDrops [[Tailscale]]",
@@ -407,7 +410,6 @@ export const backlinks = {
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
-        "Product-Market Fit": "... continuously work on to remain competitive and thriving in the market. [[ChatGPT]]",
         "Readwise Reader": "- uses [[ChatGPT]]",
         "Search Engine using Generative AI": "## On [[ChatGPT]]",
         "Synthote": "- [[ChatGPT]]",
@@ -628,7 +630,8 @@ export const backlinks = {
         "MessagePack (File Format)": "- Compact Data Exchange Format like [[CBOR (File Format)]]."
     },
     "유난한 도전": {
-        "Readings": "- [ ] [[유난한 도전]]"
+        "2023-01-03": "- Finished [[유난한 도전]]",
+        "Readings": "- [x] [[유난한 도전]]"
     },
     "IntelliJ": {
         "Intellisense for Knowledge Management": "- Like Copilot or [[IntelliJ]]"
@@ -698,7 +701,8 @@ export const backlinks = {
     "Financial Technology": {
         "FinTech and Justice": "- Does [[Financial Technology|FinTech]] increase Justice in this world?",
         "Person 1E6ABA": "- Currently works at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager.",
-        "Toss": "- [[Financial Technology|FinTech]] Unicorn of Korea."
+        "Toss": "- [[Financial Technology|FinTech]] Unicorn of Korea.",
+        "유난한 도전": "## [[Financial Technology|핀테크]]란"
     },
     "The Great Battle of Flow and Asana": {
         "2022-12-09": "- [[The Great Battle of Flow and Asana]]",
@@ -1091,6 +1095,9 @@ export const backlinks = {
         "2022-12-09": "- [[10x Technopreneurs]]",
         "The Dilemmas of Technopreneur": "For [[10x Technopreneurs]], the [[Cost of Engineering]] is relatively cheap because they can do ..."
     },
+    "Exhalation": {
+        "Readings": "- [ ] [[Exhalation]]"
+    },
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
     },
@@ -1313,7 +1320,8 @@ export const backlinks = {
         "2022-09-07": "- [[Readings]]",
         "2022-12-04": "- [[Readings]]",
         "2022-12-21": "- [[Readings]]: [[이 땅에 태어나서]], [[하얼빈]]",
-        "2022-12-24": "- [[Readings]]"
+        "2022-12-24": "- [[Readings]]",
+        "2023-01-03": "## [[Readings]]"
     },
     "Optimistic Nihilism": {
         "2022-08-04": "### [[Optimistic Nihilism]]",
@@ -1732,6 +1740,7 @@ export const backlinks = {
         "2022-12-28": "## [[Project]]",
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "2023-01-02": "## [[Project]]",
+        "2023-01-03": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
@@ -1753,6 +1762,7 @@ export const backlinks = {
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
         "GitHub": "... software feature requests, task management, continuous integration, and wikis for every [[project]]. Headquartered in California, it has been a subsidiary of Microsoft since ...",
         "Goongoom": "- Side startup [[project]] that never made it to the market.",
+        "Guestbook": "- Someday [[Project]]",
         "Intracranial": "Someday [[Project]]. Infinite Canvas for Zettlekasten.",
         "Jira": "... issue-tracking product developed by Atlassian that allows bug tracking and agile [[project]] management. Jira (software)>)",
         "Krafton Way": "... 능력을 검증해야 한다”고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
@@ -2072,6 +2082,7 @@ export const backlinks = {
         "2022-12-27": "- [[하늘땅사람]]",
         "2022-12-28": "- [[하늘땅사람]]",
         "2023-01-02": "- [[하늘땅사람]]",
+        "2023-01-03": "- [[하늘땅사람]]",
         "Project": "- [[하늘땅사람]]"
     },
     "3D": {
@@ -2463,9 +2474,11 @@ export const backlinks = {
         "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]"
     },
     "Product-Market Fit": {
+        "2022-06-06": "... and startups have little or no tests. When struggling to find [[Product-Market Fit]] or fighting for survival, many companies need to test early on. ...",
         "Captivating Products": "... the product? Captivating products, by definitions, are those who found the [[Product-Market Fit]].",
         "The Dilemmas of Technopreneur": "... lean enough, it may be much more efficient to check the [[Product-Market Fit]].",
-        "The Great Struggle of Gumroad": "... fault. It always looked like change was right around the corner. [[Product-market fit]] is excellent, but we needed to find a new, more oversized ..."
+        "The Great Struggle of Gumroad": "... fault. It always looked like change was right around the corner. [[Product-market fit]] is excellent, but we needed to find a new, more oversized ...",
+        "유난한 도전": "[[Product-Market Fit|PMF]]를 찾았다."
     },
     "Page Size and Address Translations": {
         "2022-11-04": "- [[Page Size and Address Translations]]",
@@ -2751,9 +2764,13 @@ export const backlinks = {
         "2022-05-31": "- [[Kakao]] announced [[Metaverse]] Remote Work Policy.",
         "2022-06-26": "  - To push the limits, we can try [[Kakao]] Map SDK (or any Map SDK like Open Layer)",
         "2022-10-16": "### [[Kakao]]",
+        "AI는 고가 노동부터 점령한다": "... 승리했지만, 승리 아닌 승리를 거두고 말았다. 타다가 멸망한 탓에 그 옆의 [[Kakao|카카오]]모빌리티가 시장을 독점하는 결과를 가져왔기 때문이다.",
         "Brunch": "- Korean Writing Service operated by [[Kakao]]",
         "How to Build Software like an SRE": "  - do you see [[Kakao]]?",
-        "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in Korea, Naver, and [[Kakao]]."
+        "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in Korea, Naver, and [[Kakao]].",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It’s Google + Facebook + Uber + ...",
+        "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
+        "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 카카오라는 간편결제를 시작한다는 이야기를 들었다."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
@@ -3391,6 +3408,7 @@ export const backlinks = {
         "Digital Addictions of Software Enthusiasts": "[[Someday]] [[Project]]. I love software, but I am sometimes too addicted to ...",
         "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
+        "Guestbook": "- [[Someday]] [[Project]]",
         "Intracranial": "[[Someday]] [[Project]]. Infinite Canvas for Zettlekasten.",
         "Markdown Email Client": "[[Someday]] [[Project]]. You write an email in [[Markdown]]. Before sending, select one ...",
         "Not-So-Procrastinating Lazy Loading": "[[Someday]] [[Project]]. `img loading=lazy`, but if the network idles for a given ...",
@@ -3775,7 +3793,8 @@ export const backlinks = {
     "Super App": {
         "2022-12-09": "- [[Super App]]",
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
-        "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S."
+        "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S.",
+        "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
     },
     "Nation as a Service": {
         "2022-09-12": "- [[Nation as a Service]]"
