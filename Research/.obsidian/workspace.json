@@ -11,8 +11,13 @@
             "id": "4a24479e150b0db8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/雅號를 찾아서.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"super app\"",
+                "query": "WIP.",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/雅號를 찾아서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/雅號를 찾아서.md"
+              }
             }
           }
         ]
@@ -120,8 +128,8 @@
   },
   "active": "4a24479e150b0db8",
   "lastOpenFiles": [
-    "pages/테라포밍.md",
     "journals/2023-01-09.md",
+    "pages/테라포밍.md",
     "pages/2022년 11월 한 달간 일기 쓰기.md",
     "pages/雅號를 찾아서.md",
     "pages/조선의 노비제도에 관한 보고.md",
