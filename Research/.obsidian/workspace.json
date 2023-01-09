@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ea89d6a6eed3ad18",
+        "id": "654a50a40e8d96f2",
         "type": "tabs",
         "children": [
           {
-            "id": "86c615a75e7889e2",
+            "id": "4a24479e150b0db8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-03.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "063421d5ec86f168",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/유난한 도전.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "03c4cdc61fe947e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/유난한 도전.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"super app\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -113,14 +82,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/유난한 도전.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -129,13 +97,10 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/유난한 도전.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -153,17 +118,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "063421d5ec86f168",
+  "active": "4a24479e150b0db8",
   "lastOpenFiles": [
-    "journals/2023-01-03.md",
-    "pages/Kakao.md",
-    "pages/유난한 도전.md",
-    "pages/Product-Market Fit.md",
-    "pages/Exhalation.md",
-    "pages/Readings.md",
-    "pages/하늘땅사람.md",
-    "journals/2023-01-02.md",
-    "journals/2022-12-31.md",
-    "journals/2022-12-28.md"
+    "pages/테라포밍.md",
+    "journals/2023-01-09.md",
+    "pages/2022년 11월 한 달간 일기 쓰기.md",
+    "pages/雅號를 찾아서.md",
+    "pages/조선의 노비제도에 관한 보고.md",
+    "pages/한민족의 동족노예화.md",
+    "pages/Mental Simulation of Firefox and Signal as a Super App.md",
+    "pages/Brane..md",
+    "pages/Brane.md",
+    "pages/Neo Korea.md"
   ]
 }

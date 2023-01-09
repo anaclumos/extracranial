@@ -274,6 +274,9 @@ export const backlinks = {
     "2022-11-11": {
         "Dynamic Island on the Web": "## [[2022-11-11]]"
     },
+    "2023-01-09": {
+        "2022년 11월 한 달간 일기 쓰기": "[[2023-01-09]]에 생각해보니 습관을 형성하기 위해서는 최소 2달 동안 지속해야 한다는 점을 알았다."
+    },
     "2022-08-01": {},
     "2022-10-04": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
@@ -452,7 +455,8 @@ export const backlinks = {
         "2022-11-03": "- [[Aldehyde]]",
         "2022-12-04": "- [[Aldehyde]]",
         "Better Aldehyde": "- [[Aldehyde]]",
-        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨"
+        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨",
+        "In search of my domain": "- I registered [[Aldehyde|cho.sh]] in 2018 and even experimented with GitHub Pages, but I did ..."
     },
     "Book Metadata as a Service": {
         "Fiercely Overpriced": "[[Book Metadata as a Service]] could also be one example."
@@ -559,6 +563,9 @@ export const backlinks = {
         "2022-07-14": "... and more. One wrong info that I found: Uber didn't make [[Kubernetes]]. [[Google]] did.",
         "How to Build Software like an SRE": "- use [[Kubernetes]]",
         "The Architecture of Mastodon": "  - All of these make developer workflow harder. Containerization, [[Kubernetes]], and modern [[front-end]] stacks are challenging to work with in Rails."
+    },
+    "Digital Bookmarks for Physical Books": {
+        "2023-01-09": "- [[Digital Bookmarks for Physical Books]]"
     },
     "Digital Signature": {
         "2022-10-23": "- [[Digital Signature]]"
@@ -704,6 +711,9 @@ export const backlinks = {
         "Toss": "- [[Financial Technology|FinTech]] Unicorn of Korea.",
         "유난한 도전": "## [[Financial Technology|핀테크]]란"
     },
+    "In search of my domain": {
+        "2023-01-09": "- [[In search of my domain]]"
+    },
     "The Great Battle of Flow and Asana": {
         "2022-12-09": "- [[The Great Battle of Flow and Asana]]",
         "Survivorship Biased": "- [[The Great Battle of Flow and Asana]]"
@@ -724,6 +734,9 @@ export const backlinks = {
         "Letter to the Heptabase Team on 2022-10-11": "... in LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak ...",
         "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
         "Redirect": "## Redirects in [[Docusaurus]]"
+    },
+    "雅號를 찾아서": {
+        "2023-01-09": "- [[雅號를 찾아서]]"
     },
     "Developing Review Notes for Obsidian": {
         "2022-07-19": "- [[Developing Review Notes for Obsidian]]",
@@ -1202,7 +1215,8 @@ export const backlinks = {
         "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-30": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-12-27": "- [[2022년 11월 한 달간 일기 쓰기]]"
+        "2022-12-27": "- [[2022년 11월 한 달간 일기 쓰기]]",
+        "2023-01-09": "- [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "Letter to Mr. Matt Rickard on 2022-12-21": {
         "2022-12-21": "- [[Letter to Mr. Matt Rickard on 2022-12-21]]"
@@ -1314,7 +1328,8 @@ export const backlinks = {
         "Internetworking": "- [[G++]]"
     },
     "Neo Korea": {
-        "2022-12-20": "- [[Neo Korea]]"
+        "2022-12-20": "- [[Neo Korea]]",
+        "2023-01-09": "- [[Neo Korea]]"
     },
     "Readings": {
         "2022-09-07": "- [[Readings]]",
@@ -1553,7 +1568,8 @@ export const backlinks = {
         "Write Once Run Everywhere": "- [[Rust]]"
     },
     "Off The Record": {
-        "2022-09-11": "- [[Off The Record]]"
+        "2022-09-11": "- [[Off The Record]]",
+        "2023-01-09": "- [[Off The Record]]"
     },
     "Our tools also shape us": {
         "2022-10-13": "- [[Our tools also shape us]]",
@@ -1756,6 +1772,7 @@ export const backlinks = {
         "Cube": "Someday [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
         "Developing Review Notes for Obsidian": "2022-07-19 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
         "Digital Addictions of Software Enthusiasts": "Someday [[Project]]. I love software, but I am sometimes too addicted to tech!",
+        "Digital Bookmarks for Physical Books": "Someday [[Project]]. Can we bookmark physical books with digital devices? i.e. scan it ...",
         "Dynamic Island on the Web": "- Done [[Project]]",
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
         "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
@@ -1779,6 +1796,7 @@ export const backlinks = {
         "Preservation of Data": "> The LOCKSS (\"Lots of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford University, is a peer-to-peer network that ...",
         "Project PEOPLE": "- [[Project]]",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
+        "Redactor for iPhone": "Someday [[Project]].",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in PDF/Databases. Just like Google",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
@@ -1801,6 +1819,10 @@ export const backlinks = {
         "조선왕조실록": "Someday [[Project]]. Fast and Modern version of sillok.history.go.kr.",
         "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다.",
         "하늘땅사람": "키보드를 제작하는 [[Project|프로젝트]]."
+    },
+    "조선의 노비제도에 관한 보고": {
+        "2023-01-09": "- 한민족의 동족노예화에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
+        "한민족의 동족노예화": "[[조선의 노비제도에 관한 보고]]"
     },
     "1448 Count Good Nodes in Binary Tree": {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]"
@@ -1832,6 +1854,7 @@ export const backlinks = {
         "Symbol (Computer Systems)": "- initialize global variables (take advantage of the linker for [[dx]])"
     },
     "GitHub": {
+        "2023-01-09": "- Can we use [[GitHub]]'s subscribe feature as a [[Newsletter Network]]?",
         "Apple-like Block Interface": "## [[GitHub]]",
         "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
         "Snowpack으로 WASM 시작하기": "## [[GitHub]] Pages에 Snowpack App 호스팅 및 시행착오",
@@ -1921,6 +1944,9 @@ export const backlinks = {
     "Synonym-based Fuzzy Search": {
         "2022-12-12": "- [[Synonym-based Fuzzy Search]]"
     },
+    "Redactor for iPhone": {
+        "2023-01-09": "- [[Redactor for iPhone]]"
+    },
     "Generative AI": {
         "2022-12-17": "... the notion of \"feasibility\" changed once and for all as the [[Generative AI]] emerged?",
         "2022-12-24": "- [[Generative AI]]",
@@ -1943,6 +1969,9 @@ export const backlinks = {
         "Screenshot as an API": "  - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]",
         "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
         "Synthography": "- [[Stable Diffusion]]"
+    },
+    "한민족의 동족노예화": {
+        "2023-01-09": "- [[한민족의 동족노예화]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다."
     },
     "Pretendard의 아쉬운 점": {
         "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
@@ -2200,6 +2229,7 @@ export const backlinks = {
         "2022-07-11": "## [[Brane]] Notes",
         "2022-07-12": "On 2022-07-11, I analyzed that [[Brane]] is harder than it seems.",
         "2022-08-03": "[[Brane]] is a vast [[project]] that a single intern can't finish.",
+        "Mental Simulation of Firefox and Signal as a Super App": "... a new platform, server techs, emulation techs, etc., as learned in [[Brane]] and Web.dev Mini App Review. Firefox has this talent, as seen ...",
         "Providing DOM API to Worker Threads": "- Part of [[Brane]]",
         "Treehouse": "... run a DOM within a Web Worker. Later affected WorkerDOM and [[Brane]].",
         "WorkerDOM": "[[Brane]] will follow WorkerDOM's core model.",
@@ -2405,6 +2435,7 @@ export const backlinks = {
     },
     "BIMI": {
         "2022-10-14": "- [[BIMI]]",
+        "2023-01-09": "- Should I consider [[BIMI]] for my email?",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... i.e., SMIME or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just like what Vercel did to Heroku."
     },
     "Repeated Designs": {
@@ -2426,7 +2457,8 @@ export const backlinks = {
         "Project PEOPLE": "- [[Person E7CFC5]]"
     },
     "UBI for Scholars": {
-        "2022-07-18": "- [[UBI for Scholars]]"
+        "2022-07-18": "- [[UBI for Scholars]]",
+        "Neo Korea": "- [[UBI for Scholars]]"
     },
     "phash.wasm": {
         "Project Alter": "- [ ] Perceptual Hashing On Device: [[phash.wasm]]"
@@ -2700,7 +2732,7 @@ export const backlinks = {
         "CalliFontia": "## [[Fiercely Overpriced]]",
         "Captivating Products": "Making Supergravity Products and making them [[Fiercely Overpriced]] are two ways of measuring the captivation of a product. i.e., ...",
         "Jetski": "- [[fiercely overpriced]]: time limit for recording. watermarks?",
-        "Off The Record": "- [[Fiercely Overpriced]]: disappears after opening. max 10 seconds (or message length)",
+        "Off The Record": "- [[Fiercely Overpriced]]: disappears after opening. max 10 seconds (or message length)? Or even ...",
         "Open Graph Image as a Service": "## How would it be [[Fiercely Overpriced]]?"
     },
     "Maserati Problem": {
@@ -2770,6 +2802,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in Korea, Naver, and [[Kakao]].",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It’s Google + Facebook + Uber + ...",
         "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
+        "Mental Simulation of Firefox and Signal as a Super App": "... onboard cannot stop. Especially with group chat, as we learned from [[Kakao]].",
         "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 카카오라는 간편결제를 시작한다는 이야기를 들었다."
     },
     "sem.sh": {
@@ -2881,6 +2914,9 @@ export const backlinks = {
     "YCLF 주간 사용자 1000명": {},
     "Substack is the new Medium": {
         "2022-10-24": "- [[Substack is the new Medium]]"
+    },
+    "테라포밍": {
+        "2023-01-09": "- [[테라포밍]]"
     },
     "Virtual Memory": {
         "2022-11-04": "- [[Virtual Memory]]",
@@ -3031,6 +3067,9 @@ export const backlinks = {
         "2022-12-11": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
         "공기 청정 비행선": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
         "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
+    },
+    "Mental Simulation of Firefox and Signal as a Super App": {
+        "2023-01-09": "- [[Mental Simulation of Firefox and Signal as a Super App]]"
     },
     "Apple-like Block Interface": {
         "2022-12-16": "- [[Apple-like Block Interface]]",
@@ -3215,6 +3254,7 @@ export const backlinks = {
     },
     "Newsletter Network": {
         "2022-10-19": "- [[Newsletter Network]]",
+        "2023-01-09": "- Can we use GitHub's subscribe feature as a [[Newsletter Network]]?",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Newsletter Network]]",
         "Reimagining Emails": "- [[Newsletter Network]]"
     },
@@ -3406,6 +3446,7 @@ export const backlinks = {
         "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the chopstick game with competitive AI",
         "Cube": "[[Someday]] [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
         "Digital Addictions of Software Enthusiasts": "[[Someday]] [[Project]]. I love software, but I am sometimes too addicted to ...",
+        "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical books with digital devices? i.e. scan ...",
         "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
         "Guestbook": "- [[Someday]] [[Project]]",
@@ -3416,6 +3457,7 @@ export const backlinks = {
         "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
         "Open Graph Image as a Service": "[[Someday]] [[Project]]. Request Open Graph Images with URI, `POST` payload.",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
+        "Redactor for iPhone": "[[Someday]] [[Project]].",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in PDF/Databases. Just like Google",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute URI.",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator to gauge market interest.",
@@ -3452,9 +3494,16 @@ export const backlinks = {
     "Prototyper": {
         "2022-12-16": "- [[Prototyper]]"
     },
+    "強力反權": {
+        "2023-01-09": "- [[強力反權]]",
+        "Neo Korea": "- [[強力反權]]"
+    },
     "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {
         "2022-11-19": "  - [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
         "Setting different fonts by language in CSS": "- [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]"
+    },
+    "2022-12-30": {
+        "Letter to Mr. Matt Rickard on 2022-12-23": "## Reply on [[2022-12-30]]"
     },
     "Quoridor Game": {
         "2022-07-31": "- [[Quoridor Game]]",
@@ -3583,6 +3632,11 @@ export const backlinks = {
     },
     "Snowpack으로 WASM 시작하기": {
         "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
+    },
+    "Letter to Mr. Matt Rickard on 2022-12-23": {
+        "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-23]]",
+        "2023-01-09": "- [[Letter to Mr. Matt Rickard on 2022-12-23]]",
+        "Mental Simulation of Firefox and Signal as a Super App": "- As noted on the [[Letter to Mr. Matt Rickard on 2022-12-23]], the conditions for a Super App in the United States is ..."
     },
     "Person 392196": {
         "Project PEOPLE": "- [[Person 392196]]"
@@ -3792,6 +3846,7 @@ export const backlinks = {
     },
     "Super App": {
         "2022-12-09": "- [[Super App]]",
+        "Letter to Mr. Matt Rickard on 2022-12-23": "- Interesting on the downsides of the [[super app]]",
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
         "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S.",
         "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
