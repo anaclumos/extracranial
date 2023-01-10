@@ -251,14 +251,8 @@
   "Seoul": {
     "message": "서울"
   },
-  ". He usually works on next-gen ": {
-    "message": "에서 활동합니다. 주로 차세대 "
-  },
   "web": {
     "message": "웹"
-  },
-  " technologies, while his interest spans various fields like ": {
-    "message": " 기술을 연구하지만, 그 외에도  "
   },
   "computer graphics": {
     "message": "컴퓨터 그래픽스"
@@ -289,9 +283,6 @@
   },
   ". ": {
     "message": "에 대해 배우는 것을 좋아합니다. "
-  },
-  "Get in touch.": {
-    "message": "연락하기."
   },
   "Google Latest Articles Instead": {
     "message": "Google에서 새로운 자료 찾아보기"
@@ -536,9 +527,6 @@
     "message": "번 열람",
     "description": "The blog post has multiple views"
   },
-  "Or dive down the rabbit hole.": {
-    "message": "또는 토끼굴에 뛰어들기."
-  },
   "backlink.title": {
     "message": "이 문서를 언급한 문서들",
     "description": "The title of the backlink section"
@@ -554,5 +542,41 @@
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "Toggle navigation bar",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "Grammarly": {
+    "message": "Grammarly"
+  },
+  "🅖": {
+    "message": "🅖"
+  },
+  "computational intelligence": {
+    "message": "전산 지능"
+  },
+  "🤖": {
+    "message": "🤖"
+  },
+  ", soon joining decacorn ": {
+    "message": "에서 활동하며, 조만간 데카콘 기업 "
+  },
+  ". He previously worked at ": {
+    "message": "에 합류합니다. 이전에는 "
+  },
+  "Karrot": {
+    "message": "당근마켓"
+  },
+  "Woowa Bros": {
+    "message": "우아한형제들"
+  },
+  ", usually with next-gen ": {
+    "message": "에서 차세대 "
+  },
+  ". His academic interest spans ": {
+    "message": "으로 재밌는 것들을 만들었습니다. 그 외에도 "
+  },
+  "Get in touch": {
+    "message": "연락하기"
+  },
+  "or dive down the rabbit hole.": {
+    "message": "또는 토끼굴에 뛰어들기."
   }
 }
