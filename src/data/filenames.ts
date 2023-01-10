@@ -519,6 +519,7 @@ export const filenames = {
     "K-Pop App": "D0EE4C",
     "Kakao": "AF2E5E",
     "Karrot": "12CF5D",
+    "Korean Banks Suck": "C8EA6C",
     "Krafton Way": "CD8BED",
     "Kubernetes": "A2E81B",
     "LLM": "D48467",

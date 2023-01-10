@@ -2003,10 +2003,12 @@ export const backlinks = {
         "ULLO": "- Unsplash [[CELLO]]"
     },
     "Toss": {
+        "Korean Banks Suck": "This is why I like [[Toss]]...",
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve this information inequality in the financial ...",
         "Supergravity Products": "... 작은 아이디어 (금융 슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Toss Product Sans": "- Font by [[Toss]].",
-        "Tossface": "- Emoji Font by [[Toss]]"
+        "Tossface": "- Emoji Font by [[Toss]]",
+        "유난한 도전": "[[Toss|토스]]는 더이상 장기자랑에 나가는 초등학생일 수 없었다."
     },
     "Clock skew detected": {
         "Internetworking": "- [[Clock skew detected]]"
@@ -3083,6 +3085,9 @@ export const backlinks = {
         "Pretendard의 아쉬운 점": "이는 유사한 폰트 Interop 및 [[Toss Product Sans]]에는 반영되어 있는 사항이다.",
         "San Francisco": "### [[Toss Product Sans]]",
         "Toss": "- Creators of [[Toss Product Sans]] and [[Tossface]]"
+    },
+    "Korean Banks Suck": {
+        "2023-01-09": "- [[Korean Banks Suck]]"
     },
     "Palantir Foundry": {
         "Palantir": "- [[Palantir Foundry]]"

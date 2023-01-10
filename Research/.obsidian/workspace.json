@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "654a50a40e8d96f2",
+        "id": "d2b38646dbfb8d25",
         "type": "tabs",
         "children": [
           {
-            "id": "4a24479e150b0db8",
+            "id": "176e744affdb0a45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/雅號를 찾아서.md",
+                "file": "journals/2023-01-09.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/雅號를 찾아서.md",
+                "file": "journals/2023-01-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/雅號를 찾아서.md"
+                "file": "journals/2023-01-09.md"
               }
             }
           }
@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 415.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -126,17 +127,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "4a24479e150b0db8",
+  "active": "176e744affdb0a45",
   "lastOpenFiles": [
+    "pages/유난한 도전.md",
+    "pages/Toss.md",
+    "pages/Korean Banks Suck.md",
     "journals/2023-01-09.md",
-    "pages/테라포밍.md",
-    "pages/2022년 11월 한 달간 일기 쓰기.md",
-    "pages/雅號를 찾아서.md",
-    "pages/조선의 노비제도에 관한 보고.md",
-    "pages/한민족의 동족노예화.md",
-    "pages/Mental Simulation of Firefox and Signal as a Super App.md",
-    "pages/Brane..md",
-    "pages/Brane.md",
-    "pages/Neo Korea.md"
+    "journals/2022-12-24.md",
+    "journals/2022-12-26.md",
+    "journals/2022-12-27.md",
+    "journals/2022-12-28.md",
+    "pages/2022-12-30.md",
+    "journals/2023-01-02.md"
   ]
 }
