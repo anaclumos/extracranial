@@ -18,6 +18,10 @@ import RadioactiveEmoji from '@site/static/fonts/emoji/radioactive.png'
 import RocketEmoji from '@site/static/fonts/emoji/rocket.png'
 import TechnologistEmoji from '@site/static/fonts/emoji/technologist.png'
 import WebEmoji from '@site/static/fonts/emoji/web.png'
+import GrammarlyLogo from '@site/static/fonts/emoji/grammarly.png'
+import KarrotLogo from '@site/static/fonts/emoji/karrot.png'
+import BaeminLogo from '@site/static/fonts/emoji/baemin.png'
+import RobotEmoji from '@site/static/fonts/emoji/robot.png'
 import Link from '@docusaurus/Link'
 import IframeResizer from 'iframe-resizer-react'
 import BrowserOnly from '@docusaurus/BrowserOnly'
@@ -74,8 +78,8 @@ const HeroText = () => {
         <meta name="naver-site-verification" content="15b31306fd3391cd0bf411b1d49160aa02dd3cad" />
       </Head>
       <MusicPlayer />
-      <header>
-        <h2 className={styles.intro}>
+      <main>
+        <p className={styles.intro}>
           <EmojiReplaceableText
             text={translate({ message: 'Sunghyun' })}
             photo={Profile}
@@ -114,7 +118,34 @@ const HeroText = () => {
             })}
             showByDefault="emoji"
           />
-          <Translate>{'. He usually works on next-gen '}</Translate>
+          <Translate>{', soon joining decacorn '}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'Grammarly' })}
+            photo={GrammarlyLogo}
+            photoAlt={translate({
+              message: '🅖',
+            })}
+            showByDefault="emoji"
+          />
+          <Translate>{'. He previously worked at '}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'Karrot' })}
+            photo={KarrotLogo}
+            photoAlt={translate({
+              message: 'Karrot',
+            })}
+            showByDefault="emoji"
+          />
+          <Translate>{' and '}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'Woowa Bros' })}
+            photo={BaeminLogo}
+            photoAlt={translate({
+              message: 'Woowa Bros',
+            })}
+            showByDefault="emoji"
+          />
+          <Translate>{', usually with next-gen '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'web' })}
             photo={WebEmoji}
@@ -123,7 +154,18 @@ const HeroText = () => {
             })}
             showByDefault="emoji"
           />
-          <Translate>{' technologies, while his interest spans various fields like '}</Translate>
+          <Translate>{'. His academic interest spans '}</Translate>
+          <EmojiReplaceableText
+            text={translate({
+              message: 'computational intelligence',
+            })}
+            photo={RobotEmoji}
+            photoAlt={translate({
+              message: '🤖',
+            })}
+            showByDefault="emoji"
+          />
+          <Translate>{', '}</Translate>
           <EmojiReplaceableText
             text={translate({
               message: 'computer graphics',
@@ -184,18 +226,19 @@ const HeroText = () => {
             showByDefault="emoji"
           />
           <Translate>{'. '}</Translate>
-          <a href="https://mailhide.io/e/IXndXpED" target="_blank" rel="noopener noreferrer" className={styles.email}>
+          <a href="https://mailhide.io/e/IXndXpED" target="_blank" rel="noopener noreferrer" className={styles.gray}>
             <span className={styles.nowrap}>
-              <Translate>Get in touch.</Translate>
+              <Translate>Get in touch</Translate>
             </span>
-          </a>{' '}
-          <Link className={styles.email} href="/random">
+          </a>
+          <span className={styles.gray}>{', '}</span>
+          <Link className={styles.gray} href="/random">
             <span>
-              <Translate>Or dive down the rabbit hole.</Translate>
+              <Translate>or dive down the rabbit hole.</Translate>
             </span>
           </Link>
-        </h2>
-      </header>
+        </p>
+      </main>
     </>
   )
 }

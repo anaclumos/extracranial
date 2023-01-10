@@ -251,14 +251,8 @@
   "Seoul": {
     "message": "Seoul"
   },
-  ". He usually works on next-gen ": {
-    "message": ". He usually works on next-gen "
-  },
   "web": {
     "message": "web"
-  },
-  " technologies, while his interest spans various fields like ": {
-    "message": " technologies, while his interest spans various fields like "
   },
   "computer graphics": {
     "message": "computer graphics"
@@ -286,9 +280,6 @@
   },
   ". ": {
     "message": ". "
-  },
-  "Get in touch.": {
-    "message": "Get in touch."
   },
   "Google Latest Articles Instead": {
     "message": "Google Latest Articles Instead"
@@ -536,9 +527,6 @@
     "message": " views",
     "description": "The blog post has multiple views"
   },
-  "Or dive down the rabbit hole.": {
-    "message": "Or dive down the rabbit hole."
-  },
   "backlink.title": {
     "message": "Links to This Note",
     "description": "The title of the backlink section"
@@ -554,5 +542,41 @@
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "Toggle navigation bar",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "Grammarly": {
+    "message": "Grammarly"
+  },
+  "🅖": {
+    "message": "🅖"
+  },
+  "computational intelligence": {
+    "message": "computational intelligence"
+  },
+  "🤖": {
+    "message": "🤖"
+  },
+  ", soon joining decacorn ": {
+    "message": ", soon joining decacorn "
+  },
+  ". He previously worked at ": {
+    "message": ". He previously worked at "
+  },
+  "Karrot": {
+    "message": "Karrot"
+  },
+  "Woowa Bros": {
+    "message": "Woowa Bros"
+  },
+  ", usually with next-gen ": {
+    "message": ", usually with next-gen "
+  },
+  ". His academic interest spans ": {
+    "message": ". His academic interest spans "
+  },
+  "Get in touch": {
+    "message": "Get in touch"
+  },
+  "or dive down the rabbit hole.": {
+    "message": "or dive down the rabbit hole."
   }
 }
