@@ -8,10 +8,7 @@ import Head from '@docusaurus/Head'
 import { useScreenSize } from '@site/src/util/useScreenSize'
 import { processBacklinksToGraph } from '@site/src/util/graph'
 
-export const GraphView2d = (props: {
-  width: number
-  height: number
-}) => {
+export const GraphView2d = (props: { width: number; height: number }) => {
   if (typeof window === 'undefined') {
     return null
   }
@@ -22,9 +19,7 @@ export const GraphView2d = (props: {
     <div className={styles.graphView}>
       <BrowserOnly>
         {() => {
-          const {
-            ForceGraph2D,
-          } = require('react-force-graph')
+          const { ForceGraph2D } = require('react-force-graph')
 
           return (
             <ForceGraph2D
@@ -68,24 +63,12 @@ export default function Graph(): JSX.Element {
   const [width, height] = useScreenSize()
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout
-      title="Hippocampal Neuron Graph"
-      description={siteConfig.tagline}
-    >
+    <Layout title="Hippocampal Neuron Graph" description={siteConfig.tagline}>
       <Head>
         <title>{'Hippocampal Neuron Graph'}</title>
-        <meta
-          name="description"
-          content={siteConfig.tagline}
-        />
-        <meta
-          property="og:title"
-          content={'Hippocampal Neuron Graph'}
-        />
-        <meta
-          property="og:description"
-          content={siteConfig.tagline}
-        />
+        <meta name="description" content={siteConfig.tagline} />
+        <meta property="og:title" content={'Hippocampal Neuron Graph'} />
+        <meta property="og:description" content={siteConfig.tagline} />
         <meta
           property="og:image"
           content={`https://og-image.cho.sh/**${encodeURIComponent(

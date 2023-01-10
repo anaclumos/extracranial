@@ -29,10 +29,7 @@ slug: '/F522B3'
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendar + Grid</title>
   </head>
 
@@ -57,23 +54,14 @@ VS Code의 보일러 플레이트를 사용했다.
 `html` string highlighting을 위한 html 함수를 추가한다. 이 함수를 추가하고 backtick으로 감싸진 JS String 앞에 html 글자를 추가하면 JS String을 html처럼 하이라이팅하여 사용할 수 있다.
 
 ```js
-const html = (s, ...args) =>
-  s.map((ss, i) => `${ss}${args[i] || ''}`).join('')
+const html = (s, ...args) => s.map((ss, i) => `${ss}${args[i] || ''}`).join('')
 ```
 
 매직넘버를 없애기 위해 `const`들을 추가해주었다. 코드 중 갑자기 `7`이 튀어나오면 어느 맥락의 7인지 알기 어렵기 때문이다.
 
 ```js
 const NUMBER_OF_DAYS_IN_WEEK = 7
-const NAME_OF_DAYS = [
-  'sun',
-  'mon',
-  'tue',
-  'wed',
-  'thu',
-  'fri',
-  'sat',
-]
+const NAME_OF_DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
 ```
 
 가장 기초가 될 `renderCalendar`를 작성해주었다. 또한 `renderCalendar`를 기존 `index.html` 최하단에 연결해주었다.
@@ -120,12 +108,7 @@ const processDate = (day) => {
 ```js
 const getCalendarHTML = () => {
   let today = new Date()
-  let {
-    lastMonthLastDate,
-    thisMonthFirstDate,
-    thisMonthLastDate,
-    nextMonthFirstDate,
-  } = processDate(today)
+  let { lastMonthLastDate, thisMonthFirstDate, thisMonthLastDate, nextMonthFirstDate } = processDate(today)
   let calendarContents = []
 
   // ...
@@ -138,11 +121,7 @@ const getCalendarHTML = () => {
 
 ```js
 for (let d = 0; d < NUMBER_OF_DAYS_IN_WEEK; d++) {
-  calendarContents.push(
-    html`<div class="${NAME_OF_DAYS[d]} calendar-cell">
-      ${NAME_OF_DAYS[d]}
-    </div>`
-  )
+  calendarContents.push(html`<div class="${NAME_OF_DAYS[d]} calendar-cell">${NAME_OF_DAYS[d]}</div>`)
 }
 ```
 
@@ -158,10 +137,7 @@ for (let d = 0; d < thisMonthFirstDate.getDay(); d++) {
           past-month
         "
     >
-      ${lastMonthLastDate.getMonth() +
-      1}/${lastMonthLastDate.getDate() -
-      thisMonthFirstDate.getDay() +
-      d}
+      ${lastMonthLastDate.getMonth() + 1}/${lastMonthLastDate.getDate() - thisMonthFirstDate.getDay() + d}
     </div>`
   )
 }
@@ -175,12 +151,8 @@ for (let d = 0; d < thisMonthLastDate.getDate(); d++) {
     html`<div
       class="
           ${today.getDate() === d + 1 ? 'today' : ''}
-          ${(thisMonthFirstDate.getDay() + d) % 7 === 0
-        ? 'sun'
-        : ''}
-          ${(thisMonthFirstDate.getDay() + d) % 7 === 6
-        ? 'sat'
-        : ''}
+          ${(thisMonthFirstDate.getDay() + d) % 7 === 0 ? 'sun' : ''}
+          ${(thisMonthFirstDate.getDay() + d) % 7 === 6 ? 'sat' : ''}
           calendar-cell
           this-month
         "
@@ -194,16 +166,13 @@ for (let d = 0; d < thisMonthLastDate.getDate(); d++) {
 마지막으로 남은 칸들에 다음 달의 날짜들을 그려준다.
 
 ```js
-let nextMonthDaysToRender =
-  7 - (calendarContents.length % 7)
+let nextMonthDaysToRender = 7 - (calendarContents.length % 7)
 
 for (let d = 0; d < nextMonthDaysToRender; d++) {
   calendarContents.push(
     html`<div
       class="
-          ${(nextMonthFirstDate.getDay() + d) % 7 === 6
-        ? 'sat'
-        : ''}
+          ${(nextMonthFirstDate.getDay() + d) % 7 === 6 ? 'sat' : ''}
           calendar-cell
           next-month
         "
@@ -235,8 +204,7 @@ for (let d = 0; d < nextMonthDaysToRender; d++) {
   grid-auto-rows: 6rem;
 
   /* style */
-  font-family: -apple-system, BlinkMacSystemFont,
-    'Segoe UI', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   border: 1px solid black;
   max-width: 720px;
   margin-left: auto;

@@ -4,11 +4,7 @@ import type { Props } from '@theme/TOCInline'
 
 import styles from './styles.module.css'
 
-export default function TOCInline({
-  toc,
-  minHeadingLevel,
-  maxHeadingLevel,
-}: Props): JSX.Element {
+export default function TOCInline({ toc, minHeadingLevel, maxHeadingLevel }: Props): JSX.Element {
   return (
     <div className={styles.tableOfContentsInline}>
       <TOCItems

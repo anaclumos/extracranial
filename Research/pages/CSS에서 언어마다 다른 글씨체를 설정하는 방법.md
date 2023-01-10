@@ -24,11 +24,7 @@ slug: '/B790F3'
 대부분 글씨체를 추가하는 경우 다음 두 방법 중 하나로 글씨체를 `import`한다.
 
 ```html
-<link
-  href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css"
-  rel="stylesheet"
-  type="text/css"
-/>
+<link href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css" />
 ```
 
 ```css

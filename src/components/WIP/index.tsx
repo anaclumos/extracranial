@@ -11,12 +11,10 @@ const wip = translate({
   message: 'Work in Progress. Check back later.',
 })
 const second = translate({
-  message:
-    'I wrote this post in another language. I did not translate it to other languages yet.',
+  message: 'I wrote this post in another language. I did not translate it to other languages yet.',
 })
 const third = translate({
-  message:
-    'If you speak different languages, look for this post in that language.',
+  message: 'If you speak different languages, look for this post in that language.',
 })
 
 const index = ({ state }: Props) => {

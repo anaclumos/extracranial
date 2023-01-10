@@ -10,10 +10,7 @@ type Props = {
   documentTitle: string
 }
 
-const processBacklinkItem = (
-  text: string,
-  title: string
-) => {
+const processBacklinkItem = (text: string, title: string) => {
   // replace title with <b>title</b>
   let splittedText = text
     .trim()
@@ -68,28 +65,12 @@ const Backlink = (props: Props) => {
             .sort()
             .reverse()
             .map((backlink) => {
-              const backlinkTitle = backlink
-                .split('/')
-                .pop()
-                .replace('.md', '')
+              const backlinkTitle = backlink.split('/').pop().replace('.md', '')
               return (
-                <Link
-                  to={filenames[backlinkTitle]}
-                  className={styles.backlinkItemLink}
-                  key={backlink}
-                >
+                <Link to={filenames[backlinkTitle]} className={styles.backlinkItemLink} key={backlink}>
                   <div className={styles.backlinkItem}>
-                    <h3
-                      className={
-                        styles.backlinkMentionedFileName
-                      }
-                    >
-                      {backlinkTitle}
-                    </h3>
-                    {processBacklinkItem(
-                      backlinkItems[backlink],
-                      documentTitle
-                    )}
+                    <h3 className={styles.backlinkMentionedFileName}>{backlinkTitle}</h3>
+                    {processBacklinkItem(backlinkItems[backlink], documentTitle)}
                   </div>
                 </Link>
               )
@@ -98,8 +79,7 @@ const Backlink = (props: Props) => {
             {translate({
               id: 'backlink.noBacklink',
               message: 'Nothing here yet...',
-              description:
-                'The message when there is no backlink',
+              description: 'The message when there is no backlink',
             })}
           </p>
         )}

@@ -33,9 +33,7 @@ slug: '/903D31'
             "key_code": "right_command",
             "modifiers": { "optional": ["any"] }
           },
-          "to": [
-            { "key_code": "right_command", "lazy": true }
-          ],
+          "to": [{ "key_code": "right_command", "lazy": true }],
           "to_if_alone": [
             {
               "select_input_source": { "language": "^ko$" }
@@ -53,9 +51,7 @@ slug: '/903D31'
             "key_code": "left_command",
             "modifiers": { "optional": ["any"] }
           },
-          "to": [
-            { "key_code": "left_command", "lazy": true }
-          ],
+          "to": [{ "key_code": "left_command", "lazy": true }],
           "to_if_alone": [
             {
               "select_input_source": { "language": "^en$" }

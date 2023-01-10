@@ -6,9 +6,7 @@ import type { Props } from '@theme/BlogSidebar/Desktop'
 
 import styles from './styles.module.css'
 
-export default function BlogSidebarDesktop({
-  sidebar,
-}: Props): JSX.Element {
+export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
   return (
     <aside className="col col--3">
       <nav
@@ -16,24 +14,11 @@ export default function BlogSidebarDesktop({
         aria-label={translate({
           id: 'theme.blog.sidebar.navAriaLabel',
           message: 'Blog Articles navigation',
-          description:
-            'The ARIA label for Articles in the blog sidebar',
+          description: 'The ARIA label for Articles in the blog sidebar',
         })}
       >
-        <div
-          className={clsx(
-            styles.sidebarItemTitle,
-            'margin-bottom--md'
-          )}
-        >
-          {sidebar.title}
-        </div>
-        <ul
-          className={clsx(
-            styles.sidebarItemList,
-            'clean-list'
-          )}
-        >
+        <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>{sidebar.title}</div>
+        <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
           {sidebar.items.map((item) => (
             <Link
               isNavLink
@@ -41,10 +26,7 @@ export default function BlogSidebarDesktop({
               className={styles.sidebarItemLink}
               activeClassName={styles.sidebarItemLinkActive}
             >
-              <li
-                key={item.permalink}
-                className={styles.sidebarItem}
-              >
+              <li key={item.permalink} className={styles.sidebarItem}>
                 {item.title}
               </li>
             </Link>

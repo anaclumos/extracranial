@@ -2,12 +2,7 @@ import React from 'react'
 import type { Props } from '@theme/TOCItems/Tree'
 
 // Recursive component rendering the toc tree
-function TOCItemTree({
-  toc,
-  className,
-  linkClassName,
-  isChild,
-}: Props): JSX.Element | null {
+function TOCItemTree({ toc, className, linkClassName, isChild }: Props): JSX.Element | null {
   if (!toc.length) {
     return null
   }
@@ -25,12 +20,7 @@ function TOCItemTree({
               __html: heading.value,
             }}
           />
-          <TOCItemTree
-            isChild
-            toc={heading.children}
-            className={className}
-            linkClassName={linkClassName}
-          />
+          <TOCItemTree isChild toc={heading.children} className={className} linkClassName={linkClassName} />
         </li>
       ))}
     </ul>

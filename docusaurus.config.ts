@@ -54,14 +54,8 @@ const config: Config = {
       '@docusaurus/plugin-client-redirects',
       {
         createRedirects(existingPath) {
-          if (
-            existingPath.includes('/blog') ||
-            existingPath.includes('/research')
-          ) {
-            return [
-              existingPath.replace('/blog/', '/w/'),
-              existingPath.replace('/research/', '/r/'),
-            ]
+          if (existingPath.includes('/blog') || existingPath.includes('/research')) {
+            return [existingPath.replace('/blog/', '/w/'), existingPath.replace('/research/', '/r/')]
           }
           return undefined
         },
