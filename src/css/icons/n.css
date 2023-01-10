@@ -48,6 +48,7 @@ article a[href*='https://www.nativescript.org']::before
   mask-image: url('https://simpleicons.org/icons/nativescript.svg');
 }
 article a[href*='https://naver.com']::before,
+article a[href*='https://tv.naver.com']::before,
 article a[href*='https://www.naver.com']::before,
 article a[href*='https://navercorp.com']::before,
 article a[href*='https://www.navercorp.com']::before,
