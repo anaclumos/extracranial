@@ -1,7 +1,5 @@
 .tableOfContents {
-  max-height: calc(
-    100vh - (var(--ifm-navbar-height) + 4rem)
-  );
+  max-height: calc(100vh - (var(--ifm-navbar-height) + 4rem));
   overflow-y: auto;
   position: sticky;
   top: calc(var(--ifm-navbar-height) + 2rem);

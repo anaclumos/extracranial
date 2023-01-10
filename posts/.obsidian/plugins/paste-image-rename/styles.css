@@ -1,12 +1,9 @@
 /* src/styles.css */
 :root {
   --shadow-color: 0deg 0% 0%;
-  --shadow-elevation-medium: 0.5px 0.5px 0.7px
-      hsl(var(--shadow-color) / 0.14),
-    1.1px 1.1px 1.5px -0.9px hsl(var(--shadow-color) / 0.12),
-    2.4px 2.5px 3.3px -1.8px hsl(var(--shadow-color) / 0.1),
-    5.3px 5.6px 7.3px -2.7px hsl(var(--shadow-color) / 0.09),
-    11px 11.4px 15.1px -3.6px hsl(var(--shadow-color) / 0.07);
+  --shadow-elevation-medium: 0.5px 0.5px 0.7px hsl(var(--shadow-color) / 0.14),
+    1.1px 1.1px 1.5px -0.9px hsl(var(--shadow-color) / 0.12), 2.4px 2.5px 3.3px -1.8px hsl(var(--shadow-color) / 0.1),
+    5.3px 5.6px 7.3px -2.7px hsl(var(--shadow-color) / 0.09), 11px 11.4px 15.1px -3.6px hsl(var(--shadow-color) / 0.07);
 }
 .image-rename-modal .modal {
   width: 65%;
