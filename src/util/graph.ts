@@ -6,6 +6,8 @@ export type Node = {
   nodeRelSize: number
 }
 
+const includeJournalsInGraph = true
+
 export const processBacklinksToGraph = (backlinks) => {
   const nodes: Node[] = []
   const links: { source: string; target: string }[] = []
@@ -19,8 +21,7 @@ export const processBacklinksToGraph = (backlinks) => {
       key.endsWith('.svg')
     )
       continue
-
-    if (key.match(/^\d{4}-\d{2}-\d{2}$/)) continue
+    if (!includeJournalsInGraph && key.match(/^\d{4}-\d{2}-\d{2}$/)) continue
 
     const node: Node = {
       nodeLabel: key,
@@ -31,13 +32,8 @@ export const processBacklinksToGraph = (backlinks) => {
       nodes.push(node)
     }
     Object.keys(backlinks[key]).forEach((neighbor) => {
-      if (neighbor.match(/^\d{4}-\d{2}-\d{2}$/)) return
-
-      if (
-        !nodes.find(
-          (node) => node.id === filenames[neighbor]
-        )
-      ) {
+      if (!includeJournalsInGraph && neighbor.match(/^\d{4}-\d{2}-\d{2}$/)) return
+      if (!nodes.find((node) => node.id === filenames[neighbor])) {
         nodes.push({
           nodeLabel: neighbor,
           id: filenames[neighbor],
@@ -48,8 +44,7 @@ export const processBacklinksToGraph = (backlinks) => {
         source: filenames[key],
         target: filenames[neighbor],
       })
-      nodes.find((n) => n.id === filenames[key])
-        .nodeRelSize++
+      nodes.find((n) => n.id === filenames[key]).nodeRelSize++
       node.nodeRelSize++
     })
   }
