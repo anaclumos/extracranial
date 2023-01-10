@@ -12,58 +12,28 @@ type Props = {
 }
 
 const EmojiReplaceableText = (props: Props) => {
-  const {
-    text,
-    emoji,
-    photo,
-    showByDefault,
-    border,
-    photoAlt,
-  } = props
-  const [showEmoji, setShowEmoji] = React.useState(
-    showByDefault === 'emoji'
-  )
-  const handleClick = (
-    e: React.MouseEvent<HTMLSpanElement, MouseEvent>
-  ) => {
+  const { text, emoji, photo, showByDefault, border, photoAlt } = props
+  const [showEmoji, setShowEmoji] = React.useState(showByDefault === 'emoji')
+  const handleClick = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
     e.preventDefault()
     setShowEmoji(!showEmoji)
   }
 
   return (
-    <span
-      onClick={handleClick}
-      className={styles.emojiReplaceableText}
-    >
+    <span onClick={handleClick} className={styles.emojiReplaceableText}>
       {showEmoji ? (
         emoji === undefined ? (
           photo === undefined ? (
             text
           ) : border === true ? (
             <>
-              <img
-                className={styles.photo}
-                src={photo}
-                alt={photoAlt}
-                width="28"
-                height="28"
-              />
-              <span className={styles.allyText}>
-                {text}
-              </span>
+              <img className={styles.photo} src={photo} alt={photoAlt} width="28" height="28" />
+              <span className={styles.allyText}>{text}</span>
             </>
           ) : (
             <>
-              <img
-                className={styles.emoji}
-                src={photo}
-                alt={photoAlt}
-                width="28"
-                height="28"
-              />
-              <span className={styles.allyText}>
-                {text}
-              </span>
+              <img className={styles.emoji} src={photo} alt={photoAlt} width="28" height="28" />
+              <span className={styles.allyText}>{text}</span>
             </>
           )
         ) : (

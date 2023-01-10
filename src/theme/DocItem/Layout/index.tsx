@@ -26,15 +26,9 @@ function useDocTOC() {
   const hidden = frontMatter.hide_table_of_contents
   const canRender = !hidden && toc.length > 0
 
-  const mobile = canRender ? (
-    <DocItemTOCMobile />
-  ) : undefined
+  const mobile = canRender ? <DocItemTOCMobile /> : undefined
 
-  const desktop =
-    canRender &&
-    (windowSize === 'desktop' || windowSize === 'ssr') ? (
-      <DocItemTOCDesktop />
-    ) : undefined
+  const desktop = canRender && (windowSize === 'desktop' || windowSize === 'ssr') ? <DocItemTOCDesktop /> : undefined
 
   return {
     hidden,
@@ -43,19 +37,12 @@ function useDocTOC() {
   }
 }
 
-export default function DocItemLayout({
-  children,
-}: Props): JSX.Element {
+export default function DocItemLayout({ children }: Props): JSX.Element {
   const title = useDoc().metadata.title
   const docTOC = useDocTOC()
   return (
     <div className="row">
-      <div
-        className={clsx(
-          'col',
-          !docTOC.hidden && styles.docItemCol
-        )}
-      >
+      <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>
         <DocVersionBanner />
         <div className={styles.docItemContainer}>
           <DocItemPaginator />
@@ -70,9 +57,7 @@ export default function DocItemLayout({
           <Backlink documentTitle={title} />
         </div>
       </div>
-      {docTOC.desktop && (
-        <div className="col col--3">{docTOC.desktop}</div>
-      )}
+      {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
     </div>
   )
 }

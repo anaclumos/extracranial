@@ -30,22 +30,12 @@ function useReadingTimePlural() {
   }
 }
 
-function ReadingTime({
-  readingTime,
-}: {
-  readingTime: number
-}) {
+function ReadingTime({ readingTime }: { readingTime: number }) {
   const readingTimePlural = useReadingTimePlural()
   return <>{readingTimePlural(readingTime)}</>
 }
 
-function Date({
-  date,
-  formattedDate,
-}: {
-  date: string
-  formattedDate: string
-}) {
+function Date({ date, formattedDate }: { date: string; formattedDate: string }) {
   return (
     <time dateTime={date} itemProp="datePublished">
       {formattedDate}
@@ -60,10 +50,7 @@ async function getViewCount(path: string) {
   const viewCountPath = path.split('?')[0]
   const viewCountKey = viewCountPath.split('/').slice(-1)[0]
   let viewCount: Number = 0
-  if (
-    viewCountKey.length === 6 &&
-    /^[a-fA-F0-9]+$/.test(viewCountKey)
-  ) {
+  if (viewCountKey.length === 6 && /^[a-fA-F0-9]+$/.test(viewCountKey)) {
     await fetch(
       `https://simpleanalytics.com/cho.sh.json?version=5&info=false&start=2022-06-01&fields=pages&pages=*${viewCountKey}*`
     ).then((response) =>
@@ -81,10 +68,7 @@ async function getViewCount(path: string) {
   return viewCount
 }
 
-const getViewString = (
-  viewCount: number,
-  locale: string
-) => {
+const getViewString = (viewCount: number, locale: string) => {
   if (viewCount === -1) {
     return translate({
       id: 'theme.blog.post.loading.views',
@@ -119,34 +103,19 @@ const getViewString = (
   }
 }
 
-export default function BlogPostItemHeaderInfo({
-  className,
-}: Props): JSX.Element {
+export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Element {
   const { metadata } = useBlogPost()
-  const {
-    date,
-    formattedDate,
-    readingTime,
-    permalink,
-    locale,
-  } = metadata
+  const { date, formattedDate, readingTime, permalink, locale } = metadata
 
   const [viewCount, setViewCount] = React.useState(-1)
   React.useEffect(() => {
     getViewCount(permalink).then((viewcount) => {
-      if (typeof viewcount === 'number')
-        setViewCount(viewcount)
+      if (typeof viewcount === 'number') setViewCount(viewcount)
     })
   }, [permalink])
 
   return (
-    <div
-      className={clsx(
-        styles.container,
-        'margin-vert--md',
-        className
-      )}
-    >
+    <div className={clsx(styles.container, 'margin-vert--md', className)}>
       <Date date={date} formattedDate={formattedDate} />
       {typeof readingTime !== 'undefined' && (
         <>

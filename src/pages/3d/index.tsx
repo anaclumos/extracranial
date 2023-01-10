@@ -9,10 +9,7 @@ import Head from '@docusaurus/Head'
 import { useScreenSize } from '@site/src/util/useScreenSize'
 import { processBacklinksToGraph } from '@site/src/util/graph'
 
-export const GraphView3d = (props: {
-  width: number
-  height: number
-}) => {
+export const GraphView3d = (props: { width: number; height: number }) => {
   if (typeof window === 'undefined') {
     return null
   }
@@ -23,9 +20,7 @@ export const GraphView3d = (props: {
     <div className={styles.graphView}>
       <BrowserOnly>
         {() => {
-          const {
-            ForceGraph3D,
-          } = require('react-force-graph')
+          const { ForceGraph3D } = require('react-force-graph')
 
           const FocusGraph = () => {
             const fgRef = useRef<any>()
@@ -35,9 +30,7 @@ export const GraphView3d = (props: {
               bloomPass.strength = 0.8
               bloomPass.radius = 0.8
               bloomPass.threshold = 0.25
-              fgRef.current
-                .postProcessingComposer()
-                .addPass(bloomPass)
+              fgRef.current.postProcessingComposer().addPass(bloomPass)
             }, [])
 
             return (
@@ -85,24 +78,12 @@ export default function Graph(): JSX.Element {
   const [width, height] = useScreenSize()
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout
-      title="Hippocampal Neuron Graph"
-      description={siteConfig.tagline}
-    >
+    <Layout title="Hippocampal Neuron Graph" description={siteConfig.tagline}>
       <Head>
         <title>{'Hippocampal Neuron Graph'}</title>
-        <meta
-          name="description"
-          content={siteConfig.tagline}
-        />
-        <meta
-          property="og:title"
-          content={'Hippocampal Neuron Graph'}
-        />
-        <meta
-          property="og:description"
-          content={siteConfig.tagline}
-        />
+        <meta name="description" content={siteConfig.tagline} />
+        <meta property="og:title" content={'Hippocampal Neuron Graph'} />
+        <meta property="og:description" content={siteConfig.tagline} />
         <meta
           property="og:image"
           content={`https://og-image.cho.sh/**${encodeURIComponent(

@@ -24,8 +24,7 @@ const bulletTwo = translate({
 })
 
 const bulletThree = translate({
-  message:
-    'Possibly, I may not endorse the content anymore.',
+  message: 'Possibly, I may not endorse the content anymore.',
 })
 
 const translateCallToAction = translate({
@@ -35,10 +34,7 @@ const translateCallToAction = translate({
 const isOldPost = (date: string) => {
   const now = new Date()
   const postDate = new Date(date)
-  if (
-    now.getTime() - postDate.getTime() >
-    365 * 24 * 60 * 60 * 1000 * 2
-  ) {
+  if (now.getTime() - postDate.getTime() > 365 * 24 * 60 * 60 * 1000 * 2) {
     return true
   }
   return false
@@ -48,9 +44,7 @@ const howManyYearsAgo = (date: string) => {
   const now = new Date()
   const postDate = new Date(date)
   const diff = now.getTime() - postDate.getTime()
-  const years = Math.floor(
-    diff / (365 * 24 * 60 * 60 * 1000)
-  )
+  const years = Math.floor(diff / (365 * 24 * 60 * 60 * 1000))
   return years
 }
 
@@ -62,9 +56,7 @@ const SearchGoogleButton = (props) => (
   <a
     role="button"
     className={PostNotice.searchGoogleButton}
-    href={`https://www.google.com/search?q=${urlify(
-      props.title
-    )}&tbs=qdr:y`}
+    href={`https://www.google.com/search?q=${urlify(props.title)}&tbs=qdr:y`}
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -81,9 +73,7 @@ const index = (props: Props) => {
           <li>
             {bulletOneFront}
             {howManyYearsAgo(metadata.date)}
-            {howManyYearsAgo(metadata.date) > 1
-              ? bulletOneBackPlural
-              : bulletOneBackSingular}
+            {howManyYearsAgo(metadata.date) > 1 ? bulletOneBackPlural : bulletOneBackSingular}
           </li>
           <li>{bulletTwo}</li>
           <li>{bulletThree}</li>

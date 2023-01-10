@@ -204,26 +204,17 @@ OT가 이루어진 **작은집**. 잠실에 위치해 있다.
 ```js
 // 우측 사이드바 활동 내역 로드
 async function addActivityLogToActivityLogList() {
-  let activityLogList = document.getElementById(
-    'activity-log-list'
-  )
+  let activityLogList = document.getElementById('activity-log-list')
   activityLogList.classList.add('activityLog')
   activityLogList.innerHTML = ''
   let userList = await api.User().getAllUsers()
   userList.reverse()
-  console.log(
-    '현재 사용자는 [',
-    userList.length,
-    ']명 입니다.'
-  )
+  console.log('현재 사용자는 [', userList.length, ']명 입니다.')
   userList.forEach((user) => {
     let activityLog = document.createElement('li')
     activityLog.classList.add('activityLog')
-    let date = new Date(
-      moment(user.created_at).format('YYYY-MM-DD HH:mm:ss')
-    )
-    activityLog.innerText =
-      user.userId + '는 ' + date + '에 가입했습니다.'
+    let date = new Date(moment(user.created_at).format('YYYY-MM-DD HH:mm:ss'))
+    activityLog.innerText = user.userId + '는 ' + date + '에 가입했습니다.'
     activityLogList.appendChild(activityLog)
   })
 }

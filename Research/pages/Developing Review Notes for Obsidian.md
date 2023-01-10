@@ -64,16 +64,7 @@ slug: '/DAF673'
 우선 이와 같이 기본 코드를 작성했다.
 
 ```ts
-import {
-  App,
-  Editor,
-  MarkdownView,
-  Modal,
-  Notice,
-  Plugin,
-  PluginSettingTab,
-  Setting,
-} from 'obsidian'
+import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian'
 
 interface CustomSettings {
   // relative path to daily notes folder
@@ -99,20 +90,12 @@ export default class CustomPlugin extends Plugin {
     this.createRibbon()
   }
   async loadSettings() {
-    this.settings = Object.assign(
-      {},
-      DEFAULT_SETTINGS,
-      await this.loadData()
-    )
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData())
   }
   createRibbon(): HTMLElement {
-    const ribbon = this.addRibbonIcon(
-      'calendar-with-checkmark',
-      'Review Daily Notes',
-      (evt: MouseEvent) => {
-        new Notice('HELLO!')
-      }
-    )
+    const ribbon = this.addRibbonIcon('calendar-with-checkmark', 'Review Daily Notes', (evt: MouseEvent) => {
+      new Notice('HELLO!')
+    })
     return ribbon
   }
 }
@@ -133,23 +116,14 @@ Advanced Tables의 컴파일된 JS를 보면서 리버스 엔지니어링 하고
 
 ```ts
 import { CustomSettings } from 'main'
-import {
-  Editor,
-  ItemView,
-  MarkdownView,
-  Notice,
-  WorkspaceLeaf,
-} from 'obsidian'
+import { Editor, ItemView, MarkdownView, Notice, WorkspaceLeaf } from 'obsidian'
 
 export const ReviewDailyNotesViewType = 'review-daily-notes'
 
 export class ReviewDailyNotesView extends ItemView {
   private readonly settings: CustomSettings
 
-  constructor(
-    leaf: WorkspaceLeaf,
-    settings: CustomSettings
-  ) {
+  constructor(leaf: WorkspaceLeaf, settings: CustomSettings) {
     super(leaf)
     this.settings = settings
   }
@@ -246,12 +220,8 @@ public loadDailyNotes(): TFile[] {
 
 ```ts
 dailyNotes.sort((a, b) => {
-  const aDate = new Date(
-    a.path.substring(dailyNotesFolder.length + 1)
-  )
-  const bDate = new Date(
-    b.path.substring(dailyNotesFolder.length + 1)
-  )
+  const aDate = new Date(a.path.substring(dailyNotesFolder.length + 1))
+  const bDate = new Date(b.path.substring(dailyNotesFolder.length + 1))
   return aDate.getTime() - bDate.getTime()
 })
 ```
@@ -297,10 +267,7 @@ async onOpen() {
 옵시디언 API 문서를 찾아보다가 다음과 같은 부분을 찾았다.
 
 ```ts
-export class MarkdownPreviewView
-  extends MarkdownRenderer
-  implements MarkdownSubView, MarkdownPreviewEvents
-{
+export class MarkdownPreviewView extends MarkdownRenderer implements MarkdownSubView, MarkdownPreviewEvents {
   /**
    * @public
    */

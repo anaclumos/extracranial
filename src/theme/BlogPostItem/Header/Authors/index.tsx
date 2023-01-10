@@ -7,9 +7,7 @@ import type { Props } from '@theme/BlogPostItem/Header/Authors'
 import styles from './styles.module.css'
 
 // Component responsible for the authors layout
-export default function BlogPostItemHeaderAuthors({
-  className,
-}: Props): JSX.Element | null {
+export default function BlogPostItemHeaderAuthors({ className }: Props): JSX.Element | null {
   const {
     metadata: { authors },
     assets,
@@ -20,30 +18,17 @@ export default function BlogPostItemHeaderAuthors({
   }
   const imageOnly = authors.every(({ name }) => !name)
   return (
-    <div
-      className={clsx(
-        'margin-top--md margin-bottom--sm',
-        imageOnly ? styles.imageOnlyAuthorRow : 'row',
-        className
-      )}
-    >
+    <div className={clsx('margin-top--md margin-bottom--sm', imageOnly ? styles.imageOnlyAuthorRow : 'row', className)}>
       {authors.map((author, idx) => (
         <div
-          className={clsx(
-            !imageOnly && 'col col--4',
-            imageOnly
-              ? styles.imageOnlyAuthorCol
-              : styles.authorCol
-          )}
+          className={clsx(!imageOnly && 'col col--4', imageOnly ? styles.imageOnlyAuthorCol : styles.authorCol)}
           key={idx}
         >
           <BlogPostItemHeaderAuthor
             author={{
               ...author,
               // Handle author images using relative paths
-              imageURL:
-                assets.authorsImageUrls[idx] ??
-                author.imageURL,
+              imageURL: assets.authorsImageUrls[idx] ?? author.imageURL,
             }}
           />
         </div>

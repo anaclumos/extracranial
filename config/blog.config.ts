@@ -12,10 +12,7 @@ const blog = {
   rehypePlugins: [latex.katex],
   authorsMapPath: 'authors.yml',
   editUrl: ({ locale, blogDirPath, blogPath }) => {
-    return `https://github.com/anaclumos/extracranial/tree/main/posts/${blogPath.replace(
-      '/index.md',
-      ''
-    )}/${locale}.md`
+    return `https://github.com/anaclumos/extracranial/tree/main/posts/${blogPath.replace('/index.md', '')}/${locale}.md`
   },
 }
 

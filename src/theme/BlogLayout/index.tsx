@@ -6,20 +6,13 @@ import BlogSidebar from '@theme/BlogSidebar'
 import type { Props } from '@theme/BlogLayout'
 import styles from './styles.module.css'
 
-export default function BlogLayout(
-  props: Props
-): JSX.Element {
+export default function BlogLayout(props: Props): JSX.Element {
   const { sidebar, toc, children, ...layoutProps } = props
   const hasSidebar = sidebar && sidebar.items.length > 0
 
   return (
     <Layout {...layoutProps}>
-      <div
-        className={clsx(
-          styles.blogLayout,
-          'margin-vert--lg'
-        )}
-      >
+      <div className={clsx(styles.blogLayout, 'margin-vert--lg')}>
         <div className="row">
           <BlogSidebar sidebar={sidebar} />
           <main

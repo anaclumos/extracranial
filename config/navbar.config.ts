@@ -5,13 +5,7 @@ const getMostRecentJournalLink = () => {
   today.setDate(today.getDate() + 2)
   while (true) {
     const file = today.toISOString().split('T')[0]
-    const filePath = path.join(
-      __dirname,
-      '..',
-      'Research',
-      'journals',
-      file + '.md'
-    )
+    const filePath = path.join(__dirname, '..', 'Research', 'journals', file + '.md')
     if (fs.existsSync(filePath)) {
       return `/r/${file}`
     }

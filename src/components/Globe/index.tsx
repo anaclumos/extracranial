@@ -35,9 +35,7 @@ export const Globe = () => {
   useEffect(() => {
     let phi = 0
     let width = 0
-    const onResize = () =>
-      canvasRef.current &&
-      (width = canvasRef.current.offsetWidth)
+    const onResize = () => canvasRef.current && (width = canvasRef.current.offsetWidth)
     window.addEventListener('resize', onResize)
     onResize()
     const globe = createGlobe(canvasRef.current, {
@@ -61,9 +59,7 @@ export const Globe = () => {
         state.height = width * 2
       },
     })
-    setTimeout(
-      () => (canvasRef.current.style.opacity = '1')
-    )
+    setTimeout(() => (canvasRef.current.style.opacity = '1'))
     return () => globe.destroy()
   }, [])
   return (
@@ -72,8 +68,7 @@ export const Globe = () => {
         ref={canvasRef}
         className={styles.globe}
         onPointerDown={(e) => {
-          pointerInteracting.current =
-            e.clientX - pointerInteractionMovement.current
+          pointerInteracting.current = e.clientX - pointerInteractionMovement.current
           canvasRef.current.style.cursor = 'grabbing'
         }}
         onPointerUp={() => {
@@ -86,8 +81,7 @@ export const Globe = () => {
         }}
         onMouseMove={(e) => {
           if (pointerInteracting.current !== null) {
-            const delta =
-              e.clientX - pointerInteracting.current
+            const delta = e.clientX - pointerInteracting.current
             pointerInteractionMovement.current = delta
             api.start({
               r: delta / 200,
@@ -95,13 +89,8 @@ export const Globe = () => {
           }
         }}
         onTouchMove={(e) => {
-          if (
-            pointerInteracting.current !== null &&
-            e.touches[0]
-          ) {
-            const delta =
-              e.touches[0].clientX -
-              pointerInteracting.current
+          if (pointerInteracting.current !== null && e.touches[0]) {
+            const delta = e.touches[0].clientX - pointerInteracting.current
             pointerInteractionMovement.current = delta
             api.start({
               r: delta / 100,

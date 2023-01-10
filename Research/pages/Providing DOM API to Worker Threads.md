@@ -16,10 +16,7 @@ slug: '/C3CCC9'
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
       const myWorker = new Worker('worker.js')
@@ -33,9 +30,7 @@ slug: '/C3CCC9'
   </head>
   <body>
     <h1>Hello</h1>
-    <button id="btn" onclick="msg()">
-      Communicate with worker
-    </button>
+    <button id="btn" onclick="msg()">Communicate with worker</button>
   </body>
 </html>
 ```
@@ -85,16 +80,10 @@ This is so cool.
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
-      console.log(
-        'crossOriginIsolated',
-        crossOriginIsolated
-      )
+      console.log('crossOriginIsolated', crossOriginIsolated)
 
       // defining SAB and sending it to the worker
       const sab = new SharedArrayBuffer(1024)
@@ -127,12 +116,8 @@ This is so cool.
   </head>
   <body>
     <h1>RPC Demo</h1>
-    <button id="syncSab" onclick="syncSab()">
-      Send SAB to Worker
-    </button>
-    <button id="increment" onclick="increment()">
-      Increment
-    </button>
+    <button id="syncSab" onclick="syncSab()">Send SAB to Worker</button>
+    <button id="increment" onclick="increment()">Increment</button>
     <button id="freeze" onclick="freeze()">Freeze</button>
   </body>
 </html>
@@ -153,9 +138,7 @@ onmessage = function (e) {
     Atomics.wait(int32, 0, 0)
     heartbeat()
   }
-  postMessage(
-    `I am a worker. Hello, ${JSON.stringify(e.data)}.`
-  )
+  postMessage(`I am a worker. Hello, ${JSON.stringify(e.data)}.`)
 }
 
 function heartbeat() {
@@ -305,9 +288,7 @@ sleep(2000)
 
 console.log('worker thread:', window.innerWidth)
 
-console.log(
-  'this should go after printing worker window.innerWidth (sync access)'
-)
+console.log('this should go after printing worker window.innerWidth (sync access)')
 
 // This all happens synchronously in multi-thread.
 ```
