@@ -1,7 +1,5 @@
 .sidebar {
-  max-height: calc(
-    100vh - (var(--ifm-navbar-height) + 4rem)
-  );
+  max-height: calc(100vh - (var(--ifm-navbar-height) + 4rem));
   overflow-y: auto;
   position: sticky;
   top: calc(var(--ifm-navbar-height) + 2rem);
@@ -30,8 +28,7 @@
 .sidebarItem {
   padding: 0.5rem;
   border-radius: var(--border-radius);
-  transition: filter 0.2s ease-in-out,
-    background-color 0.2s ease-in-out;
+  transition: filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .sidebarItem:hover {

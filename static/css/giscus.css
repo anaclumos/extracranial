@@ -7,13 +7,9 @@
 @import url('../fonts/JetbrainsMono/jetbrainsmono.css');
 
 * {
-  --font-family-sans-serif: ui-sans-serif, -apple-system,
-    BlinkMacSystemFont, 'Apple SD Gothic Neo',
-    'Apple Color Emoji', Pretendard, system-ui, -system-ui,
-    sans-serif;
-  --font-family-monospace: ui-monospace, 'SF Mono',
-    SFMono-Regular, 'Jetbrains Mono', Menlo, Consolas,
-    monospace;
+  --font-family-sans-serif: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Apple Color Emoji',
+    Pretendard, system-ui, -system-ui, sans-serif;
+  --font-family-monospace: ui-monospace, 'SF Mono', SFMono-Regular, 'Jetbrains Mono', Menlo, Consolas, monospace;
   word-wrap: break-word;
   word-break: keep-all;
   color-scheme: light;
@@ -107,8 +103,7 @@ main {
   --color-btn-bg: #f6f8fa;
   --color-btn-border: rgb(27 31 36 / 15%);
   --color-btn-shadow: 0 1px 0 rgb(27 31 36 / 4%);
-  --color-btn-inset-shadow: inset 0 1px 0
-    rgb(255 255 255 / 25%);
+  --color-btn-inset-shadow: inset 0 1px 0 rgb(255 255 255 / 25%);
   --color-btn-hover-bg: #f3f4f6;
   --color-btn-hover-border: rgb(27 31 36 / 15%);
   --color-btn-active-bg: hsl(220deg 14% 93% / 100%);
@@ -118,15 +113,11 @@ main {
   --color-btn-primary-bg: #2da44e;
   --color-btn-primary-border: rgb(27 31 36 / 15%);
   --color-btn-primary-shadow: 0 1px 0 rgb(27 31 36 / 10%);
-  --color-btn-primary-inset-shadow: inset 0 1px 0
-    rgb(255 255 255 / 3%);
+  --color-btn-primary-inset-shadow: inset 0 1px 0 rgb(255 255 255 / 3%);
   --color-btn-primary-hover-bg: #2c974b;
   --color-btn-primary-hover-border: rgb(27 31 36 / 15%);
-  --color-btn-primary-selected-bg: hsl(
-    137deg 55% 36% / 100%
-  );
-  --color-btn-primary-selected-shadow: inset 0 1px 0
-    rgb(0 45 17 / 20%);
+  --color-btn-primary-selected-bg: hsl(137deg 55% 36% / 100%);
+  --color-btn-primary-selected-shadow: inset 0 1px 0 rgb(0 45 17 / 20%);
   --color-btn-primary-disabled-text: rgb(255 255 255 / 80%);
   --color-btn-primary-disabled-bg: #94d3a2;
   --color-btn-primary-disabled-border: rgb(27 31 36 / 15%);
@@ -150,20 +141,14 @@ main {
   --color-danger-fg: #cf222e;
   --color-danger-muted: rgb(255 129 130 / 40%);
   --color-danger-subtle: #ffebe9;
-  --color-primer-shadow-focus: 0 0 0 3px
-    rgb(9 105 218 / 30%);
-  --color-primer-shadow-inset: inset 0 1px 0
-    rgb(208 215 222 / 20%);
+  --color-primer-shadow-focus: 0 0 0 3px rgb(9 105 218 / 30%);
+  --color-primer-shadow-inset: inset 0 1px 0 rgb(208 215 222 / 20%);
   --color-scale-gray-1: #eaeef2;
   --color-scale-blue-1: #b6e3ff;
 
   /*! Extensions from @primer/css/alerts/flash.scss */
-  --color-social-reaction-bg-hover: var(
-    --color-scale-gray-1
-  );
-  --color-social-reaction-bg-reacted-hover: var(
-    --color-scale-blue-1
-  );
+  --color-social-reaction-bg-hover: var(--color-scale-gray-1);
+  --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
 
   color-scheme: light;
 }
@@ -234,18 +219,12 @@ main .gsc-loading-image {
     --color-btn-primary-shadow: 0 0 transparent;
     --color-btn-primary-inset-shadow: 0 0 transparent;
     --color-btn-primary-hover-bg: #2ea043;
-    --color-btn-primary-hover-border: rgb(
-      240 246 252 / 10%
-    );
+    --color-btn-primary-hover-border: rgb(240 246 252 / 10%);
     --color-btn-primary-selected-bg: #238636;
     --color-btn-primary-selected-shadow: 0 0 transparent;
-    --color-btn-primary-disabled-text: rgb(
-      240 246 252 / 50%
-    );
+    --color-btn-primary-disabled-text: rgb(240 246 252 / 50%);
     --color-btn-primary-disabled-bg: rgb(35 134 54 / 60%);
-    --color-btn-primary-disabled-border: rgb(
-      240 246 252 / 10%
-    );
+    --color-btn-primary-disabled-border: rgb(240 246 252 / 10%);
     --color-fg-default: #c9d1d9;
     --color-fg-muted: #8b949e;
     --color-fg-subtle: #484f58;
@@ -272,12 +251,8 @@ main .gsc-loading-image {
     --color-scale-blue-8: #0c2d6b;
 
     /*! Extensions from @primer/css/alerts/flash.scss */
-    --color-social-reaction-bg-hover: var(
-      --color-scale-gray-7
-    );
-    --color-social-reaction-bg-reacted-hover: var(
-      --color-scale-blue-8
-    );
+    --color-social-reaction-bg-hover: var(--color-scale-gray-7);
+    --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
 
     color-scheme: dark;
   }
