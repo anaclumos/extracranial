@@ -11,26 +11,20 @@ The goal is to...
 ## Sending Notifications
 
 ```js
-var extensionPage =
-  'https://chosunghyun.com/youtube-comment-language-filter'
-var updateLogPage =
-  'https://chosunghyun.com/youtube-comment-language-filter/updates'
+var extensionPage = 'https://chosunghyun.com/youtube-comment-language-filter'
+var updateLogPage = 'https://chosunghyun.com/youtube-comment-language-filter/updates'
 
 chrome.runtime.onInstalled.addListener(function (object) {
   if (object.reason === 'install') {
     chrome.notifications.create(extensionPage, {
       title: 'YCLF is now installed 😎',
-      message:
-        'Click here to learn more about the extension!',
+      message: 'Click here to learn more about the extension!',
       iconUrl: './images/min-icon128.png',
       type: 'basic',
     })
   } else if (object.reason === 'update') {
     chrome.notifications.create(updateLogPage, {
-      title:
-        'YCLF updated to v' +
-        chrome.runtime.getManifest().version +
-        ' 🚀',
+      title: 'YCLF updated to v' + chrome.runtime.getManifest().version + ' 🚀',
       message: "Click here to check out what's new!",
       iconUrl: './images/min-icon128.png',
       type: 'basic',

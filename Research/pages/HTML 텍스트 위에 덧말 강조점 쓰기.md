@@ -12,9 +12,7 @@ slug: '/7257B8'
 
 ```html
 <ruby>大韓民國<rp>(</rp><rt>대한민국</rt><rp>)</rp></ruby>은
-<ruby
-  >民主共和國<rp>(</rp><rt>민주공화국</rt><rp>)</rp></ruby
->이다.
+<ruby>民主共和國<rp>(</rp><rt>민주공화국</rt><rp>)</rp></ruby>이다.
 ```
 
 조금 귀찮기는 하지만 한 글자 위에 한 글자씩 대응해서 작성하는 것도 가능하다.
@@ -51,11 +49,7 @@ slug: '/7257B8'
 
 ```js
 const processRuby = (text) => {
-  if (
-    text.includes('{{') &&
-    text.includes('^') &&
-    text.includes('}}')
-  ) {
+  if (text.includes('{{') && text.includes('^') && text.includes('}}')) {
     splitted = text.split(/{{|}}/)
     const rubified = splitted.map((s) => rubify(s))
     return rubified.join('')
@@ -72,23 +66,13 @@ const rubify = (text) => {
     for (let x = 0; x < caretSplitted[0].length; x++) {
       if (caretSplitted[0][x] !== ' ')
         caretText +=
-          '<ruby>' +
-          caretSplitted[0][x] +
-          '<rp>(</rp><rt>' +
-          (caretSplitted[1][x] || '') +
-          '</rt><rp>)</rp></ruby>'
+          '<ruby>' + caretSplitted[0][x] + '<rp>(</rp><rt>' + (caretSplitted[1][x] || '') + '</rt><rp>)</rp></ruby>'
       else caretText += ' '
     }
     return caretText
   } else if (text.includes('^')) {
     caretSplitted = text.split('^')
-    return (
-      '<ruby>' +
-      caretSplitted[0] +
-      '<rp>(</rp><rt>' +
-      caretSplitted[1] +
-      '</rt><rp>)</rp></ruby>'
-    )
+    return '<ruby>' + caretSplitted[0] + '<rp>(</rp><rt>' + caretSplitted[1] + '</rt><rp>)</rp></ruby>'
   } else return text
 }
 ```
@@ -98,9 +82,7 @@ const rubify = (text) => {
 `{{`와 `}}` 사이에 `^`를 기준으로 오른쪽을 왼쪽 위에 중앙 정렬해서 올려 준다.
 
 ```js
-processRuby(
-  '{{大韓民國^대한민국}}은 {{民主共和國^민주공화국}}이다.'
-)
+processRuby('{{大韓民國^대한민국}}은 {{民主共和國^민주공화국}}이다.')
 ```
 
 <div>
@@ -112,9 +94,7 @@ processRuby(
 `^^`를 사용하면 글자마다 맞춰준다.
 
 ```js
-processRuby(
-  '{{大韓民國^^대한민국}}은 {{民主共和國^^민주공화국}}이다.'
-)
+processRuby('{{大韓民國^^대한민국}}은 {{民主共和國^^민주공화국}}이다.')
 ```
 
 <div>
@@ -126,9 +106,7 @@ processRuby(
 대부분의 경우 `^^` 왼쪽과 오른쪽 글자 수를 같게 사용하겠지만, 아니라면 `^^` 왼쪽을 기준으로 왼쪽정렬된다. 왼쪽 글자 수를 넘어가면 무시된다.
 
 ```js
-processRuby(
-  '{{大韓民國^^대한}}은 {{民主共和國^^민주공화국국}}이다.'
-)
+processRuby('{{大韓民國^^대한}}은 {{民主共和國^^민주공화국국}}이다.')
 ```
 
 <div>
@@ -140,9 +118,7 @@ processRuby(
 `^` 를 사용할 때는 좌우 글자 수가 달라도 중앙 정렬되기에 상관 없다.
 
 ```js
-processRuby(
-  '{{大韓民國^대한}}은 {{民主共和國^민주공화국국}}이다.'
-)
+processRuby('{{大韓民國^대한}}은 {{民主共和國^민주공화국국}}이다.')
 ```
 
 <div>
@@ -168,9 +144,7 @@ processRuby('{{大韓民國^^}}은 {{民主共和國^^}}이다.')
 - 무라카미 하루키, 〈직업으로서의 소설가〉, 현대문학(2015), 248쪽.
 
 ```js
-processRuby(
-  '{{분할한 나 자신을 타자에 위탁할 수 있다^^}}는 것입니다.'
-)
+processRuby('{{분할한 나 자신을 타자에 위탁할 수 있다^^}}는 것입니다.')
 ```
 
 <quote>

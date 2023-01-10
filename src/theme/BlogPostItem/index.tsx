@@ -9,9 +9,7 @@ import { useBlogPost } from '@docusaurus/theme-common/internal'
 
 type Props = WrapperProps<typeof BlogPostItemType>
 
-export default function BlogPostItemWrapper(
-  props: Props
-): JSX.Element {
+export default function BlogPostItemWrapper(props: Props): JSX.Element {
   const { metadata } = useBlogPost()
   return (
     <>

@@ -46,8 +46,7 @@ Then input the string to the corresponding tag with JS.
 
 ```js
 <script>
-  document.getElementById("ghost-version").innerText =
-  document.getElementsByName("generator")[0].content;
+  document.getElementById("ghost-version").innerText = document.getElementsByName("generator")[0].content;
 </script>
 ```
 

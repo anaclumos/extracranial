@@ -62,10 +62,7 @@ Prettier helps write clean and neat codes with automatic formatting.
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Calendar</title>
   </head>
   <body>
@@ -86,8 +83,7 @@ Since we use Vanilla JavaScript, we don't have access to fancy JSX-style highlig
 
 ```js
 // `util.js`
-const html = (s, ...args) =>
-  s.map((ss, i) => `${ss}${args[i] || ''}`).join('')
+const html = (s, ...args) => s.map((ss, i) => `${ss}${args[i] || ''}`).join('')
 ```
 
 to be added - screenshot of highlighting
@@ -106,24 +102,8 @@ Defining constants will help before writing `renderCalendar()`.
 ```js
 // `calendar.js`
 const NUMBER_OF_DAYS_IN_WEEK = 7
-const NAME_OF_DAYS = [
-  'sun',
-  'mon',
-  'tue',
-  'wed',
-  'thu',
-  'fri',
-  'sat',
-]
-const LONG_NAME_OF_DAYS = [
-  'Sunday',
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-]
+const NAME_OF_DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+const LONG_NAME_OF_DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const ACTUAL_TODAY = new Date()
 ```
 
@@ -199,12 +179,7 @@ Now let's draw a calendar in earnest. I created a `getCalendarHTML` function tha
 ```js
 const getCalendarHTML = () => {
   let today = new Date()
-  let {
-    lastMonthLastDate,
-    thisMonthFirstDate,
-    thisMonthLastDate,
-    nextMonthFirstDate,
-  } = processDate(today)
+  let { lastMonthLastDate, thisMonthFirstDate, thisMonthLastDate, nextMonthFirstDate } = processDate(today)
   let calendarContents = []
 
   // ...
@@ -217,11 +192,7 @@ Add a line at the top to display the day of the week. Use the `const` we added a
 
 ```js
 for (let d = 0; d < NUMBER_OF_DAYS_IN_WEEK; d++) {
-  calendarContents.push(
-    html`<div class="${NAME_OF_DAYS[d]} calendar-cell">
-      ${NAME_OF_DAYS[d]}
-    </div>`
-  )
+  calendarContents.push(html`<div class="${NAME_OF_DAYS[d]} calendar-cell">${NAME_OF_DAYS[d]}</div>`)
 }
 ```
 
@@ -237,10 +208,7 @@ for (let d = 0; d < thisMonthFirstDate.getDay(); d++) {
           past-month
         "
     >
-      ${lastMonthLastDate.getMonth() +
-      1}/${lastMonthLastDate.getDate() -
-      thisMonthFirstDate.getDay() +
-      d}
+      ${lastMonthLastDate.getMonth() + 1}/${lastMonthLastDate.getDate() - thisMonthFirstDate.getDay() + d}
     </div>`
   )
 }
@@ -254,12 +222,8 @@ for (let d = 0; d < thisMonthLastDate.getDate(); d++) {
     html`<div
       class="
           ${today.getDate() === d + 1 ? 'today' : ''}
-          ${(thisMonthFirstDate.getDay() + d) % 7 === 0
-        ? 'sun'
-        : ''}
-          ${(thisMonthFirstDate.getDay() + d) % 7 === 6
-        ? 'sat'
-        : ''}
+          ${(thisMonthFirstDate.getDay() + d) % 7 === 0 ? 'sun' : ''}
+          ${(thisMonthFirstDate.getDay() + d) % 7 === 6 ? 'sat' : ''}
           calendar-cell
           this-month
         "
@@ -273,16 +237,13 @@ for (let d = 0; d < thisMonthLastDate.getDate(); d++) {
 Finally, draw the days of the next month in the remaining cells.
 
 ```js
-let nextMonthDaysToRender =
-  7 - (calendarContents.length % 7)
+let nextMonthDaysToRender = 7 - (calendarContents.length % 7)
 
 for (let d = 0; d < nextMonthDaysToRender; d++) {
   calendarContents.push(
     html`<div
       class="
-          ${(nextMonthFirstDate.getDay() + d) % 7 === 6
-        ? 'sat'
-        : ''}
+          ${(nextMonthFirstDate.getDay() + d) % 7 === 6 ? 'sat' : ''}
           calendar-cell
           next-month
         "
@@ -314,8 +275,7 @@ Below we define additional styles.
   grid-auto-rows: 6rem;
 
   /* style */
-  font-family: -apple-system, BlinkMacSystemFont,
-    'Segoe UI', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   border: 1px solid black;
   max-width: 720px;
   margin-left: auto;

@@ -20,12 +20,8 @@ export default function TOCItems({
 }: Props): JSX.Element | null {
   const themeConfig = useThemeConfig()
 
-  const minHeadingLevel =
-    minHeadingLevelOption ??
-    themeConfig.tableOfContents.minHeadingLevel
-  const maxHeadingLevel =
-    maxHeadingLevelOption ??
-    themeConfig.tableOfContents.maxHeadingLevel
+  const minHeadingLevel = minHeadingLevelOption ?? themeConfig.tableOfContents.minHeadingLevel
+  const maxHeadingLevel = maxHeadingLevelOption ?? themeConfig.tableOfContents.maxHeadingLevel
 
   const tocTree = useFilteredAndTreeifiedTOC({
     toc,
@@ -33,31 +29,18 @@ export default function TOCItems({
     maxHeadingLevel,
   })
 
-  const tocHighlightConfig: TOCHighlightConfig | undefined =
-    useMemo(() => {
-      if (linkClassName && linkActiveClassName) {
-        return {
-          linkClassName,
-          linkActiveClassName,
-          minHeadingLevel,
-          maxHeadingLevel,
-        }
+  const tocHighlightConfig: TOCHighlightConfig | undefined = useMemo(() => {
+    if (linkClassName && linkActiveClassName) {
+      return {
+        linkClassName,
+        linkActiveClassName,
+        minHeadingLevel,
+        maxHeadingLevel,
       }
-      return undefined
-    }, [
-      linkClassName,
-      linkActiveClassName,
-      minHeadingLevel,
-      maxHeadingLevel,
-    ])
+    }
+    return undefined
+  }, [linkClassName, linkActiveClassName, minHeadingLevel, maxHeadingLevel])
   useTOCHighlight(tocHighlightConfig)
 
-  return (
-    <TOCItemTree
-      toc={tocTree}
-      className={className}
-      linkClassName={linkClassName}
-      {...props}
-    />
-  )
+  return <TOCItemTree toc={tocTree} className={className} linkClassName={linkClassName} {...props} />
 }

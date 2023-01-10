@@ -113,14 +113,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { paths, fallback: false }
 }
 
-export const getStaticProps: GetStaticProps = async ({
-  params,
-}) => {
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   try {
     const id = params?.id
-    const item = questionData.find(
-      (data) => data.id === Number(id)
-    )
+    const item = questionData.find((data) => data.id === Number(id))
     return { props: { item } }
   } catch (err) {
     return { props: { errors: err.message } }

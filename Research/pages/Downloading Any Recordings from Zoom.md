@@ -20,15 +20,12 @@ slug: '/90675E'
 let video = document.querySelector('video').src
 let download = document.createElement('a')
 let button = document.createElement('button')
-button.innerText =
-  'To Download Video: Right Click Here → Save Link As'
+button.innerText = 'To Download Video: Right Click Here → Save Link As'
 download.append(button)
 download.href = video
 download.setAttribute('download', video)
 
-document
-  .getElementsByClassName('transcript')[0]
-  .prepend(download)
+document.getElementsByClassName('transcript')[0].prepend(download)
 ```
 
 - Access the Zoom video recording page.

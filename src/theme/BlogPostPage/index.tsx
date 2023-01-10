@@ -5,9 +5,7 @@ import type { WrapperProps } from '@docusaurus/types'
 import Head from '@docusaurus/Head'
 type Props = WrapperProps<typeof BlogPostPageType>
 
-export default function BlogPostPageWrapper(
-  props: Props
-): JSX.Element {
+export default function BlogPostPageWrapper(props: Props): JSX.Element {
   const title = props.content.metadata.title
   const description = props.content.metadata.description
   return (
@@ -16,10 +14,7 @@ export default function BlogPostPageWrapper(
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
-        <meta
-          property="og:description"
-          content={description}
-        />
+        <meta property="og:description" content={description} />
         <meta
           property="og:image"
           content={`https://og-image.cho.sh/**${encodeURIComponent(
@@ -28,11 +23,7 @@ export default function BlogPostPageWrapper(
         />
       </Head>
       <noscript>
-        <img
-          src="https://sa.cho.sh/noscript.gif"
-          alt=""
-          referrerPolicy="no-referrer-when-downgrade"
-        />
+        <img src="https://sa.cho.sh/noscript.gif" alt="" referrerPolicy="no-referrer-when-downgrade" />
       </noscript>
       <BlogPostPage {...props} />
     </>

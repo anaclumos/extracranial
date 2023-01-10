@@ -1,11 +1,6 @@
 import { Coordinate } from './coordinate'
 
-export const globePathDrawer = (
-  start: Coordinate,
-  end: Coordinate,
-  step: number,
-  pathDotSize: number
-) => {
+export const globePathDrawer = (start: Coordinate, end: Coordinate, step: number, pathDotSize: number) => {
   const path: Coordinate[] = []
   const [startX, startY] = start.location
   const [endX, endY] = end.location
