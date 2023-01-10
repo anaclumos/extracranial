@@ -17,40 +17,41 @@ export const processBacklinksToGraph = (backlinks) => {
       key.endsWith('.jpeg') ||
       key.endsWith('.gif') ||
       key.endsWith('.svg')
-    ) {
+    )
       continue
-    } else {
-      const node: Node = {
-        nodeLabel: key,
-        id: filenames[key],
-        nodeRelSize: 1,
-      } as Node
 
-      if (!nodes.find((n) => n.id === node.id)) {
-        nodes.push(node)
-      }
+    if (key.match(/^\d{4}-\d{2}-\d{2}$/)) continue
 
-      Object.keys(backlinks[key]).forEach((neighbor) => {
-        if (
-          !nodes.find(
-            (node) => node.id === filenames[neighbor]
-          )
-        ) {
-          nodes.push({
-            nodeLabel: neighbor,
-            id: filenames[neighbor],
-            nodeRelSize: 1,
-          })
-        }
-        links.push({
-          source: filenames[key],
-          target: filenames[neighbor],
-        })
-        nodes.find((n) => n.id === filenames[key])
-          .nodeRelSize++
-        node.nodeRelSize++
-      })
+    const node: Node = {
+      nodeLabel: key,
+      id: filenames[key],
+      nodeRelSize: 1,
+    } as Node
+    if (!nodes.find((n) => n.id === node.id)) {
+      nodes.push(node)
     }
+    Object.keys(backlinks[key]).forEach((neighbor) => {
+      if (neighbor.match(/^\d{4}-\d{2}-\d{2}$/)) return
+
+      if (
+        !nodes.find(
+          (node) => node.id === filenames[neighbor]
+        )
+      ) {
+        nodes.push({
+          nodeLabel: neighbor,
+          id: filenames[neighbor],
+          nodeRelSize: 1,
+        })
+      }
+      links.push({
+        source: filenames[key],
+        target: filenames[neighbor],
+      })
+      nodes.find((n) => n.id === filenames[key])
+        .nodeRelSize++
+      node.nodeRelSize++
+    })
   }
   return { nodes, links }
 }
