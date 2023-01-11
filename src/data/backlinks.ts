@@ -56,6 +56,7 @@ export const backlinks = {
     "2021-06-23": {
         "개성은 자연스레 주어지지 않는다": "— [[2021-06-23]]에 작성된 기록 중 발췌."
     },
+    "2023-01-11": {},
     "2022-11-09": {
         "Dynamic Island on the Web": "## [[2022-11-09]]"
     },
@@ -1762,6 +1763,8 @@ export const backlinks = {
         "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "2023-01-02": "## [[Project]]",
         "2023-01-03": "## [[Project]]",
+        "2023-01-11": "## [[Project]]",
+        "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
@@ -2286,6 +2289,7 @@ export const backlinks = {
         "2022-06-12": "- [[水適穿石]]",
         "2022-10-31": "- [[水適穿石]]",
         "2022년 11월 한 달간 일기 쓰기": "- [[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
+        "2023년 1월과 2월에 하루 25분 조깅하기": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
         "Cosmic noises of life": "- [[水適穿石|Persistence]] is the key"
     },
     "Person 1B5A5B": {
@@ -3067,6 +3071,10 @@ export const backlinks = {
     "Cache Mapping": {
         "2022-11-04": "- [[Cache Mapping]]",
         "Caching": "- [[Cache Mapping]]"
+    },
+    "2023년 1월과 2월에 하루 25분 조깅하기": {
+        "2023-01-10": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-11": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
         "2022-11-04": "- [[Principles of Inclusion]]"
