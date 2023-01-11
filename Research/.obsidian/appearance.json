@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
-  "interfaceFontFamily": "Rubik",
-  "textFontFamily": "Rubik",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
   "monospaceFontFamily": "Iosevka",
   "cssTheme": "",
   "translucency": false,
