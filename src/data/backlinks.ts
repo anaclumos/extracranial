@@ -28,6 +28,7 @@ export const backlinks = {
     },
     "2022-12-12": {},
     "2022-10-06": {},
+    "2023-01-10": {},
     "2022-11-08": {},
     "2022-12-26": {},
     "2022-08-18": {},
@@ -383,6 +384,9 @@ export const backlinks = {
         "2022-10-13": "- Taildrop · Tailscale: Cross-Platform AirDrops [[Tailscale]]",
         "2022-10-20": "- [[Tailscale]]"
     },
+    "The Photo Library of Babel": {
+        "Proposal of Research to Professor Cote": "## 3. [[The Photo Library of Babel]]"
+    },
     "사회과부도": {
         "2022-08-28": "- [[사회과부도]]"
     },
@@ -423,7 +427,8 @@ export const backlinks = {
     },
     "The Library of Babel": {
         "2022-11-24": "- [[The Library of Babel]]",
-        "Information amongst Data": "[[The Library of Babel]] holds all data."
+        "Information amongst Data": "[[The Library of Babel]] holds all data.",
+        "The Photo Library of Babel": "[[The Library of Babel]]"
     },
     "Emails and Decentralized Protocols": {
         "2022-09-05": "- [[Emails and Decentralized Protocols]]",
@@ -2427,7 +2432,8 @@ export const backlinks = {
         "2022-11-29": "- [[Project Alter]]",
         "2022-11-30": "- [[Project Alter]]",
         "2022-12-18": "- [[Project Alter]]",
-        "Project": "- [[Project Alter]]"
+        "Project": "- [[Project Alter]]",
+        "Proposal of Research to Professor Cote": "## 1. [[Project Alter|Let's Alter]]"
     },
     "Diagram Labs": {
         "2022-12-16": "- [[Diagram Labs]]"
@@ -3195,6 +3201,9 @@ export const backlinks = {
     "Dynamic Viewport Units": {
         "2022-12-03": "- [[Dynamic Viewport Units]]"
     },
+    "Proposal of Research to Professor Cote": {
+        "2023-01-10": "- [[Proposal of Research to Professor Cote]]"
+    },
     "glTF": {
         "3D": "- [[glTF]] for [[Android]]",
         "Things (3D)": "> Nice. What's the edge on Things over [[glTF]] and [[USDZ]]?<br/>"
@@ -3684,7 +3693,8 @@ export const backlinks = {
         "dub.sh": "  - [[AGPL]]"
     },
     "iiframe": {
-        "2022-08-03": "### [[iiframe]]"
+        "2022-08-03": "### [[iiframe]]",
+        "Proposal of Research to Professor Cote": "## 2. [[iiframe]]—improved iframe"
     },
     "Deno Deploy": {
         "CELLO (Product)": "- Possibly [[Deno Deploy]]"

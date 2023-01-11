@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/786F87'
+aliases: ["Let's Alter"]
 ---
 
 ## Ongoing Subprojects

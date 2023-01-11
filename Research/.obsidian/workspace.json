@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "9632db769484f3a1",
+        "id": "5f2f40d4bc937d53",
         "type": "tabs",
         "children": [
           {
-            "id": "bf78ef50ccb9b76d",
+            "id": "08b393a65781c93f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-01-10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-01-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-01-10.md"
+              }
             }
           }
         ]
@@ -119,17 +127,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "bf78ef50ccb9b76d",
+  "active": "08b393a65781c93f",
   "lastOpenFiles": [
+    "pages/Proposal of Research to Professor Cote.md",
+    "pages/The Photo Library of Babel.md",
+    "pages/The Library of Babel.md",
+    "journals/2023-01-10.md",
+    "pages/Project Alter.md",
     "journals/2023-01-09.md",
     "pages/유난한 도전.md",
     "pages/Toss.md",
     "pages/Korean Banks Suck.md",
-    "journals/2022-12-24.md",
-    "journals/2022-12-26.md",
-    "journals/2022-12-27.md",
-    "journals/2022-12-28.md",
-    "pages/2022-12-30.md",
-    "journals/2023-01-02.md"
+    "journals/2022-12-24.md"
   ]
 }
