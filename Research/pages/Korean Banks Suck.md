@@ -5,7 +5,7 @@ slug: '/C8EA6C'
 
 ## Articles
 
-### [South Korea’s online security dead end](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/)
+### [South Korea's online security dead end](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/)
 
 - Developed in C, vulnerable to security vulnerabilities such as buffer overflow
 - Even ancient security techniques are not used.
