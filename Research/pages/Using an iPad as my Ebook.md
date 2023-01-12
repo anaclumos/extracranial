@@ -9,7 +9,7 @@ The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker New
 >
 > I just saw the [[Kindle]] Scribe launch, but it still does not satisfy my needed features, albeit being my near-perfect version of [[Kindle]]. First and foremost, I would want to have a good e-reader with multiple e-book store vendors (no lock-ins), with additional features like the following:
 >
-> ### My *good-to-haves*
+> ### My _good-to-haves_
 >
 > - USB-C
 > - Decently large screen
