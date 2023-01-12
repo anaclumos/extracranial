@@ -5,7 +5,16 @@ slug: '/A8D05E'
 
 This is a [[Metapage|meta-page]] that collects my to-read lists.
 
+:::tip
+I randomize the list (on every page load) and the sidebar (on every site build) to prevent any book on the top from getting all the attention 😉
+Try refreshing the page!
+:::
+
+import Shuffle from '@site/src/components/Shuffle'
+
 ## Complete
+
+<Shuffle>
 
 - [x] [[Building a Second Brain]]
 - [x] [[경제 개발의 길목에서]]
@@ -14,13 +23,21 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 - [x] [[Atomic Habits]]
 - [x] [[유난한 도전]]
 
+</Shuffle>
+
 ## Reading
+
+<Shuffle>
 
 - [ ] [[이 땅에 태어나서]]
 - [ ] [[Exhalation]]
 - [ ] [[하얼빈]]
 
+</Shuffle>
+
 ## To-read
+
+<Shuffle>
 
 - [ ] MAKE
 - [ ] Where is my flying car?
@@ -32,10 +49,16 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 - [ ] black swan
 - [ ] Hatching Twitter
 
+</Shuffle>
+
 ## Stopped
+
+<Shuffle>
 
 - [x] [[지구 끝의 온실]]
 - [x] [[한자 타자기]]
+
+</Shuffle>
 
 ## References
 
