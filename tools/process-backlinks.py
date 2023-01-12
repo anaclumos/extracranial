@@ -61,8 +61,16 @@ if __name__ == "__main__":
                         line = re.sub(r"\[([^[]+?)\]\(.+?\)", r"\1", line)
                         line = line.replace("\n", "")
                         mentioned_file = line.split("[[")[1].split("]]")[0]
-                        source = mentioned_file.split("|")[0]
-                        alias = mentioned_file.split("|")[-1]
+                        source = (
+                            mentioned_file.split("|")[0]
+                            if "|" in mentioned_file
+                            else mentioned_file
+                        )
+                        alias = (
+                            mentioned_file.split("|")[-1]
+                            if mentioned_file.count("|") > 0
+                            else ""
+                        )
                         line = line.replace("*", "").replace("_", "")
                     except Exception as e:
                         print("Error processing " + md_file + " line " + line)
