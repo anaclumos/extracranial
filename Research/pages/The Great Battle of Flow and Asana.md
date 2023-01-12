@@ -11,7 +11,7 @@ The model they used for Basecamp was to build great software that scratched thei
 
 When we turned on billing for our beta users, we jumped to $20k MRR in the first month. We started growing at 10% per month and were the new hotness.
 I got reach outs from all the top VCs and tons of tech luminaries started using the product.
-We’d made it…or so I thought. We consistently spending 2-3x our monthly revenue and losing money. Not venture capital. Out of my personal bank account, hopes in making much more.
+We'd made it…or so I thought. We consistently spending 2-3x our monthly revenue and losing money. Not venture capital. Out of my personal bank account, hopes in making much more.
 
 ### Asana
 
@@ -36,13 +36,13 @@ We lost the war, due to inexperience, product myopia, and a lack of capital in a
 
 ### Takeaways
 
-1. If you are in a competitive VC-funded space, it’s foolish to compete without raising money. Don't bring a knife to a gun fight.
-2. The best product doesn’t always win, and product is not a longterm competitive advantage.
-3. If a tree falls in the forest and nobody is around to hear it, it didn’t fall.
+1. If you are in a competitive VC-funded space, it's foolish to compete without raising money. Don't bring a knife to a gun fight.
+2. The best product doesn't always win, and product is not a longterm competitive advantage.
+3. If a tree falls in the forest and nobody is around to hear it, it didn't fall.
 4. Every developer in the world wakes up thinking "I should build a to-do list app" and people love jumping between productivity apps and workflows. There is no moat in productivity—avoid it if you can.
 5. Running a SaaS business without deeply understanding churn, LTV, CAC etc, is like flying a plane without instrumentation—really stupid and dangerous.
 6. Failure sneaks up on you slowly, then all at once.
 7. R&D is EXPENSIVE. Especially when competing with venture.
-8. If you’re competing on features, it never stops and is an ever-increasing line item.
+8. If you're competing on features, it never stops and is an ever-increasing line item.
 9. Good product with great marketing beats amazing product with no marketing.
 10. Bootstrapping works best in uncompetitive spaces/niches or if you have an unfair advantage (a personal brand, unique customer acquisition channel, etc).

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/D18E6B'
 ---
 
-> If you are in a competitive VC-funded space, it’s foolish to compete without raising money. Don't bring a knife to a gun fight. [Andrew Wilkinson (@awilkinson)](https://twitter.com/awilkinson)
+> If you are in a competitive VC-funded space, it's foolish to compete without raising money. Don't bring a knife to a gun fight. [Andrew Wilkinson (@awilkinson)](https://twitter.com/awilkinson)
 
 For [[10x Technopreneurs]], the [[Cost of Engineering]] is relatively cheap because they can do the initial work.
 Therefore, they do not need the upfront budget to collaborate with the engineers to create the first MVP.

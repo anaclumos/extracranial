@@ -1,6 +1,9 @@
 export const backlinks = {
     "2022-10-02": {},
     "2022-12-16": {},
+    "2016-10-22": {
+        "국제 계열과 계열 변경 이야기": "[[2016-10-22]]에 게재된 [[재학생일기]]이다."
+    },
     "2022-08-28": {},
     "2022-07-25": {},
     "2022-09-26": {},
@@ -27,11 +30,17 @@ export const backlinks = {
         "0232 Implement Queue using Stacks": "Solved at: [[2022-11-28]]"
     },
     "2022-12-12": {},
+    "2016-11-28": {
+        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "[[2016-11-28]]에 게재된 [[재학생일기]]이다."
+    },
     "2022-10-06": {},
     "2023-01-10": {},
     "2022-11-08": {},
     "2022-12-26": {},
     "2022-08-18": {},
+    "2016-07-01": {
+        "식영부원의 관점에서 바라본 치킨데이": "[[2016-07-01]]에 게재된 [[재학생일기]]이다."
+    },
     "2022-09-22": {},
     "2022-07-21": {},
     "2022-07-31": {},
@@ -135,6 +144,9 @@ export const backlinks = {
     "2022-06-21": {},
     "2022-09-18": {},
     "2022-06-15": {},
+    "2016-12-08": {
+        "졸업을 앞둔 중학교 3학년들에게": "[[2016-12-08]]에 게재된 [[재학생일기]]이다."
+    },
     "2022-12-28": {
         "Safari is the new Internet Explorer": "  - At least [[2022-12-28]] now they do: Sending web push notifications in Safari and other ...",
         "하늘땅사람": "## [[2022-12-28]]"
@@ -172,6 +184,9 @@ export const backlinks = {
     "2022-11-12": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-12]] 실패"
     },
+    "2016-04-01": {
+        "바이올린 켜면 바이올레이션": "[[2016-04-01]]에 게재된 [[재학생일기]]이다."
+    },
     "2022-08-02": {},
     "2022-06-10": {},
     "2022-09-29": {
@@ -207,6 +222,9 @@ export const backlinks = {
         "Person 1E6ABA": "- Interviewed on [[2022-11-23]]"
     },
     "2022-08-07": {},
+    "2016-06-24": {
+        "공강에서 보내는 공강 활용법": "[[2016-06-24]]에 게재된 [[재학생일기]]이다."
+    },
     "2022-09-09": {},
     "2022-08-10": {},
     "2022-08-24": {},
@@ -255,6 +273,9 @@ export const backlinks = {
     "2022-07-18": {
         "Better Docusaurus": "- Render `Figcaption` with `img alt` tags on [[2022-07-18]] Commit"
     },
+    "2016-11-11": {
+        "기숙사 생활과 방 배정": "[[2016-11-11]]에 게재된 [[재학생일기]]이다."
+    },
     "2022-11-05": {},
     "2022-11-15": {},
     "2022-11-21": {},
@@ -269,6 +290,9 @@ export const backlinks = {
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
+    "2016-11-15": {
+        "기숙사 생활과 방 배정": "[[2016-11-15]]에 게재된 [[재학생일기]]이다."
+    },
     "2022-11-25": {
         "Mathematics under The Library of Babel": "## [[2022-11-25]]",
         "Person A3BA1A": "- Interviewed on [[2022-11-25]]"
@@ -280,6 +304,10 @@ export const backlinks = {
         "2022년 11월 한 달간 일기 쓰기": "[[2023-01-09]]에 생각해보니 습관을 형성하기 위해서는 최소 2달 동안 지속해야 한다는 점을 알았다."
     },
     "2022-08-01": {},
+    "2023-01-12": {
+        "Using an iPad as my Ebook": "... best ebook reader is yet to finish, a recent discovery on [[2023-01-12]] suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools ...",
+        "재학생일기": "[[2023-01-12]]에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
+    },
     "2022-10-04": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
     },
@@ -626,7 +654,7 @@ export const backlinks = {
         "Ethereum RPC as a Service": "... RPC is the primary way that you query data on the [[blockchain]]. AWS offers a similar product, AWS Managed Blockchain. Essentially these are ...",
         "Financial Technology": "... compete with traditional financial methods in delivering financial services. Artificial intelligence, [[Blockchain]], Cloud computing, and big data are regarded as the \"ABCD\" (four ...",
         "Universal Identity": "- [[Blockchain]] wallets can be one potential solution",
-        "Web3": "- Censorship-resistant” [[blockchain]] social networks became saturated with spam, driving away their actual users"
+        "Web3": "- Censorship-resistant\" [[blockchain]] social networks became saturated with spam, driving away their actual users"
     },
     "GDB": {
         "Internetworking": "- [[GDB]]"
@@ -714,7 +742,7 @@ export const backlinks = {
     "Financial Technology": {
         "FinTech and Justice": "- Does [[Financial Technology|FinTech]] increase Justice in this world?",
         "Person 1E6ABA": "- Currently works at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager.",
-        "Toss": "- [[Financial Technology|FinTech]] Unicorn of Korea.",
+        "Toss": "- [[Financial Technology|FinTech]] [[Unicorn]] of Korea.",
         "유난한 도전": "## [[Financial Technology|핀테크]]란"
     },
     "In search of my domain": {
@@ -910,7 +938,7 @@ export const backlinks = {
         "2022-11-28": "- [[Web3]]",
         "2022-12-09": "- [[Web3]]",
         "Classic Blogs": "- Mirror: Medium on [[Web3]].",
-        "Ethereum RPC as a Service": "... enterprise RPC providers are one of the more profitable and real [[web3]] businesses. There's Alchemy ($10.2B valuation, Feb ‘22), ConsenSys ($7B valuation, Mar ..."
+        "Ethereum RPC as a Service": "... enterprise RPC providers are one of the more profitable and real [[web3]] businesses. There's Alchemy ($10.2B valuation, Feb 22), ConsenSys ($7B valuation, Mar ..."
     },
     "P vs NP": {
         "2022-07-01": "- [[P vs NP]]",
@@ -1020,6 +1048,9 @@ export const backlinks = {
     },
     "Techs Actually Simple": {
         "Matt Rickard": "- [[Techs Actually Simple]]"
+    },
+    "졸업을 앞둔 중학교 3학년들에게": {
+        "2016-12-08": "- [[졸업을 앞둔 중학교 3학년들에게]]"
     },
     "Conversational AI Tools for Thought": {
         "2022-12-04": "- Elicit: The AI Research Assistant: [[Conversational AI Tools for Thought]]",
@@ -1175,6 +1206,9 @@ export const backlinks = {
         "Multiplexing": "- In [[Internetworking]], it means having multiple sockets and juggling with data transmissions.",
         "Socket": "- used in [[Internetworking]]"
     },
+    "Problem": {
+        "Digital Addiction": "[[Problem]]. I love software, but I am sometimes too addicted to tech!"
+    },
     "0226 Invert Binary Tree": {
         "2022-07-26": "- [x] [[0226 Invert Binary Tree]]",
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
@@ -1326,6 +1360,11 @@ export const backlinks = {
         "2022-08-30": "- [[1046 Last Stone Weight]]",
         "Coding Tests": "- [[1046 Last Stone Weight]]"
     },
+    "역사의 집대성": {
+        "2023-01-12": "- [[역사의 집대성]]",
+        "Project": "- [[역사의 집대성]]",
+        "재학생일기": "2023-01-12에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
+    },
     "Remote Procedure Call": {
         "How to Build Software like an SRE": "- stringent [[Remote Procedure Call]] settings.",
         "Providing DOM API to Worker Threads": "## [[Remote Procedure Call]]"
@@ -1367,6 +1406,19 @@ export const backlinks = {
     },
     "Journal is a Waypoint, nothing more": {
         "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
+    },
+    "민사고": {
+        "2023-01-12": "- [[민사고]]",
+        "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "... Heroku가 AWS에 비해 몇몇 장점이 있다는 것을 알게 되었다. 예전에 개발했던 [[민사고]] 공문서 모음집을 Heroku로 옮겼다.",
+        "공강에서 보내는 공강 활용법": "공강에서 보내는 공강 활용법이라니, 조금 이상하게 들리는 말인 것 같습니다. [[민사고|민족사관고등학교]]에서 공강은 두 가지 의미를 가지고 있습니다. 첫 번째는 누구나 사용할 수 ...",
+        "국제 계열과 계열 변경 이야기": "... 진학 반(이하 국제계열)로, 그리고 1명이 반대로 계열을 변경했습니다. 많은 분들이 아시다시피 [[민사고]]는 국제계열과 국내계열로 나뉘어 있습니다. 오늘은 그 둘의 특징과 변경 과정에 대해 ...",
+        "기숙사 생활과 방 배정": "... 저녁 무렵, 어둠이 내리고 나면 우리는 또 다른 학교생활을 직면하게 됩니다. [[민사고|민족사관고등학교]] 기숙사인 덕고관은 또 다른 배움의 장소입니다. 학문적인 공부를 하는 다산관과 충무관 ...",
+        "바이올린 켜면 바이올레이션": "상벌점 제도는 어느 학교에나 있는 제도입니다. [[민사고|민족사관고등학교]]도 마찬가지입니다. 오늘은 민사고|민족사관고등학교의 상벌점 제도에 대해서 소개해보고자 합니다.",
+        "식영부원의 관점에서 바라본 치킨데이": "아시다시피 [[민사고|민족사관고등학교]]는 외부 음식을 구하기 어려운 산골 외딴 곳에 위치한 기숙사 학교입니다. 그렇기 ...",
+        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "... 기숙사 외부에서 만나게 될 평생 친구도 있을 것입니다. 오늘은 제가 느낀, [[민사고|민족사관고등학교]] (이하 [[민사고]]) 에서의 외부 친구 관계에 대해서 가볍게 이야기해보려고 합니다.",
+        "재학생일기": "[[민사고]]에 있던 학교 공식 일기 모음집이다.",
+        "졸업을 앞둔 중학교 3학년들에게": "... 무렵이라고 할 수 있는 1월에 저는 가장 느슨해졌었는데, 마지막 2주 정도는 [[민사고]] 입학 준비하겠다고 과제로 나온 책 읽고, 한자 공부를 하고 그랬습니다. 그러고 ...",
+        "코드클럽": "- [[민사고]] 3학년 때 설립한 동아리"
     },
     "Joining Thread": {
         "Internetworking": "- [[Joining Thread]]"
@@ -1442,6 +1494,9 @@ export const backlinks = {
     "Preservation of Data": {
         "2022-10-18": "- [[Preservation of Data]]"
     },
+    "Antifragile": {
+        "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다."
+    },
     "Pipelining": {
         "2022-12-08": "- [[Pipelining]]",
         "Computer Systems": "- [[Pipelining]]"
@@ -1453,6 +1508,9 @@ export const backlinks = {
     "Obsidian Ava": {
         "2022-10-19": "- [[Obsidian Ava]]",
         "Synthote": "- I'm excited to see community efforts like [[Obsidian Ava]] driving in this direction."
+    },
+    "국제 계열과 계열 변경 이야기": {
+        "2016-10-22": "- [[국제 계열과 계열 변경 이야기]]"
     },
     "Atomic Notes": {
         "Andy Matuschak": "Provided a new vision of online [[Atomic Notes|Zettelkasten]].",
@@ -1657,6 +1715,9 @@ export const backlinks = {
     "Regulation of Fake News": {
         "2022-12-28": "- [[Regulation of Fake News]]"
     },
+    "식영부원의 관점에서 바라본 치킨데이": {
+        "2016-07-01": "- [[식영부원의 관점에서 바라본 치킨데이]]"
+    },
     "라즈베리 파이로 스마트 오디오 시스템 만들기": {
         "2022-11-19": "  - [[라즈베리 파이로 스마트 오디오 시스템 만들기]]"
     },
@@ -1764,6 +1825,7 @@ export const backlinks = {
         "2023-01-02": "## [[Project]]",
         "2023-01-03": "## [[Project]]",
         "2023-01-11": "## [[Project]]",
+        "2023-01-12": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -1779,7 +1841,6 @@ export const backlinks = {
         "Coding Tests": "- [[Project]]",
         "Cube": "Someday [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
         "Developing Review Notes for Obsidian": "2022-07-19 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
-        "Digital Addictions of Software Enthusiasts": "Someday [[Project]]. I love software, but I am sometimes too addicted to tech!",
         "Digital Bookmarks for Physical Books": "Someday [[Project]]. Can we bookmark physical books with digital devices? i.e. scan it ...",
         "Dynamic Island on the Web": "- Done [[Project]]",
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
@@ -1790,7 +1851,7 @@ export const backlinks = {
         "Guestbook": "- Someday [[Project]]",
         "Intracranial": "Someday [[Project]]. Infinite Canvas for Zettlekasten.",
         "Jira": "... issue-tracking product developed by Atlassian that allows bug tracking and agile [[project]] management. Jira (software)>)",
-        "Krafton Way": "... 능력을 검증해야 한다”고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
+        "Krafton Way": "... 능력을 검증해야 한다\"고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
         "Kubernetes": "... designed Kubernetes, but the Cloud Native Computing Foundation now maintains the [[project]].",
         "Markdown Email Client": "Someday [[Project]]. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. ...",
         "Microproject": "- [[Project]] should finish within a day.",
@@ -1802,6 +1863,7 @@ export const backlinks = {
         "PDF (File Format)": "... needed to display it. PDF has its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John Warnock in 1991. PDF",
         "Person 1B5A5B": "- Junior = [[Project]] Executors.",
         "Preservation of Data": "> The LOCKSS (\"Lots of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford University, is a peer-to-peer network that ...",
+        "Problem": "Leads to a Someday [[Project]].",
         "Project PEOPLE": "- [[Project]]",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Redactor for iPhone": "Someday [[Project]].",
@@ -1824,6 +1886,7 @@ export const backlinks = {
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 여러 이유로 못하는 팀도 있다. 물론 e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, 품질 관리) 팀 같은 경우에는 e2e ...",
         "사회과부도": "Someday [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
         "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
+        "역사의 집대성": "흩어진 개인사를 하나의 기록소 안에 모두 집대성하는 [[Project|프로젝트]]이다.",
         "조선왕조실록": "Someday [[Project]]. Fast and Modern version of sillok.history.go.kr.",
         "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다.",
         "하늘땅사람": "키보드를 제작하는 [[Project|프로젝트]]."
@@ -1849,10 +1912,7 @@ export const backlinks = {
     },
     "Vannevar Bush": {
         "Memex": "... flexibility. It is an enlarged intimate supplement to his memory. — [[Vannevar Bush]].",
-        "Tools Must Vanish": "... I see is junk. It’s never the Zettelkasten of the next [[Vannevar Bush]]; it’s always a setup with tens of plugins, a daily note ..."
-    },
-    "EPUB (File Format)": {
-        "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB (File Format)]], [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File ..."
+        "Tools Must Vanish": "... I see is junk. It's never the Zettelkasten of the next [[Vannevar Bush]]; it's always a setup with tens of plugins, a daily note ..."
     },
     "DX": {
         "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
@@ -1933,6 +1993,9 @@ export const backlinks = {
     },
     "InterviewKit": {
         "2022-08-30": "- [[InterviewKit]]"
+    },
+    "Disable Screenshot Drop Shadow in macOS": {
+        "2023-01-12": "- [[Disable Screenshot Drop Shadow in macOS]]"
     },
     "Nuclear Fusion": {
         "2022-07-26": "- [[Nuclear Fusion]]",
@@ -2162,6 +2225,10 @@ export const backlinks = {
         "2022-10-27": "- [[Spacial Cognition]]",
         "Meta Theme Color for Spacial Cognition": "- Meta Theme Color for [[Spacial Cognition]]",
         "Tools for Thought": "... for Thought: add infinite canvas to text-based versions. involves and exploits [[spacial cognition]]."
+    },
+    "EPUB": {
+        "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File ...",
+        "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
     },
     "Iterative and Incremental Development": {
         "Toss Product Sans": "- [[Iterative and Incremental Development|반복적 개발]]"
@@ -2457,6 +2524,12 @@ export const backlinks = {
         "2022-12-16": "- [[Readwise Reader]]"
     },
     "Y Combinator": {},
+    "Book Scanning": {
+        "Using an iPad as my Ebook": "Furthermore, I fell in love with [[Book Scanning]] as a PDF with OCR, and I figured it is very ..."
+    },
+    "공강에서 보내는 공강 활용법": {
+        "2016-06-24": "- [[공강에서 보내는 공강 활용법]]"
+    },
     "API Economy": {
         "2022-10-27": "- [[API Economy]]",
         "Small yet Powerful": "- Governmental services should also conform to the [[API Economy]]"
@@ -2650,7 +2723,7 @@ export const backlinks = {
         "2022-12-06": "- [[Link Preview for Arc]]"
     },
     "MOBI (File Format)": {
-        "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB (File Format), [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File Format)]]."
+        "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB, [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File Format)]]."
     },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
@@ -2680,6 +2753,11 @@ export const backlinks = {
         "IntelliJ": "> IntelliJ IDEA is an integrated development environment (IDE) written in [[Java]] for developing computer software written in Java, Kotlin, Groovy, and other ...",
         "Write Once Run Everywhere": "... created by Sun Microsystems to illustrate the cross-platform benefits of the [[Java]] language. Ideally, a Java program could be developed on any device, ...",
         "하늘땅사람": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
+    },
+    "Digital Addiction": {
+        "2022-07-13": "- [[Digital Addiction]]",
+        "2022-07-29": "  - [[Digital Addiction]]",
+        "Using an iPad as my Ebook": "... Must Vanish|vanishes, digital tools no longer matter — essentially solving the [[Digital Addiction]]."
     },
     "Safari is the new Internet Explorer": {
         "2022-12-28": "- [[Safari is the new Internet Explorer]]"
@@ -2812,7 +2890,7 @@ export const backlinks = {
         "Brunch": "- Korean Writing Service operated by [[Kakao]]",
         "How to Build Software like an SRE": "  - do you see [[Kakao]]?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in Korea, Naver, and [[Kakao]].",
-        "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It’s Google + Facebook + Uber + ...",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + ...",
         "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
         "Mental Simulation of Firefox and Signal as a Super App": "... onboard cannot stop. Especially with group chat, as we learned from [[Kakao]].",
         "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 카카오라는 간편결제를 시작한다는 이야기를 들었다."
@@ -2856,6 +2934,15 @@ export const backlinks = {
         "2022-11-07": "- [[Pensieve]]",
         "Data Capturers": "### [[Pensieve]]"
     },
+    "재학생일기": {
+        "공강에서 보내는 공강 활용법": "2016-06-24에 게재된 [[재학생일기]]이다.",
+        "국제 계열과 계열 변경 이야기": "2016-10-22에 게재된 [[재학생일기]]이다.",
+        "기숙사 생활과 방 배정": "2016-11-11에 게재된 [[재학생일기]]이다.",
+        "바이올린 켜면 바이올레이션": "2016-04-01에 게재된 [[재학생일기]]이다.",
+        "식영부원의 관점에서 바라본 치킨데이": "2016-07-01에 게재된 [[재학생일기]]이다.",
+        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "2016-11-28에 게재된 [[재학생일기]]이다.",
+        "졸업을 앞둔 중학교 3학년들에게": "2016-12-08에 게재된 [[재학생일기]]이다."
+    },
     "JSX (File Format)": {
         "Stories Behind Satori": "After simplifying the syntax with [[JSX (File Format)]] and simple [[CSS]], Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the ..."
     },
@@ -2892,6 +2979,12 @@ export const backlinks = {
     "GitHub Pages에 React 앱 띄우기": {
         "2022-11-19": "  - [[GitHub Pages에 React 앱 띄우기]]",
         "React App on GitHub Pages": "- [[GitHub Pages에 React 앱 띄우기]]"
+    },
+    "eBook": {
+        "ACSM (File Format)": "... digital publications. It contains data used to activate and download an [[eBook]]. It does not include the eBook itself.",
+        "EPUB": "... standard of the IDPF in September 2007, superseding the older Open [[eBook]] (OEB) standard. EPUB",
+        "Ridi": "Ridi is a Korean Unicorn specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
+        "Using an iPad as my Ebook": "The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker News|HN]] thread"
     },
     "이루다": {
         "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information"
@@ -2939,6 +3032,10 @@ export const backlinks = {
         "2022-11-25": "- [[Mathematics under The Library of Babel]]",
         "2022-11-26": "- [[Mathematics under The Library of Babel]]",
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
+    },
+    "기숙사 생활과 방 배정": {
+        "2016-11-11": "- [[기숙사 생활과 방 배정]]",
+        "2016-11-15": "- [[기숙사 생활과 방 배정]]"
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
@@ -3042,6 +3139,9 @@ export const backlinks = {
     "Ghost 테마를 자동 배포하는 방법": {
         "2022-11-19": "  - [[Ghost 테마를 자동 배포하는 방법]]"
     },
+    "Using an iPad as my Ebook": {
+        "2023-01-12": "- [[Using an iPad as my Ebook]]"
+    },
     "UUIDs are Awesome": {
         "2022-09-28": "- [[UUIDs are Awesome]]",
         "2022-11-29": "- [[UUIDs are Awesome]]: [[XUID]]?"
@@ -3074,7 +3174,8 @@ export const backlinks = {
     },
     "2023년 1월과 2월에 하루 25분 조깅하기": {
         "2023-01-10": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-11": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]"
+        "2023-01-11": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-12": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다."
     },
     "Principles of Inclusion": {
         "2022-11-04": "- [[Principles of Inclusion]]"
@@ -3108,6 +3209,9 @@ export const backlinks = {
     },
     "Reminder Tools": {
         "Tools for Thought": "- [[Reminder Tools]]"
+    },
+    "Ridi": {
+        "Using an iPad as my Ebook": "... and I figured it is very lovable. I can't understand why [[Ridi]] and [[Kindle]] make the purchased book un-exportable."
     },
     "Better Obsidian": {
         "2022-07-10": "- [[Better Obsidian]]",
@@ -3313,10 +3417,6 @@ export const backlinks = {
     "공기 청정 비행선": {
         "2022-12-17": "- [[공기 청정 비행선]]"
     },
-    "Digital Addictions of Software Enthusiasts": {
-        "2022-07-13": "- [[Digital Addictions of Software Enthusiasts]]",
-        "2022-07-29": "  - [[Digital Addictions of Software Enthusiasts]]"
-    },
     "Prompt Engineering": {
         "2022-09-03": "- [[Prompt Engineering]]",
         "2022-09-30": "- Human Motion Diffusion Model [[Prompt Engineering]]",
@@ -3346,7 +3446,7 @@ export const backlinks = {
         "Readings": "- [x] [[지구 끝의 온실]]"
     },
     "Fediverse": {
-        "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply “join Mastodon.” Instead, users ..."
+        "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply \"join Mastodon.\" Instead, users ..."
     },
     "Turing Machine": {
         "How is WebAssembly cross-platform when Assembly is not": "It follows how [[Turing Machine]]s would work in the real world."
@@ -3400,6 +3500,9 @@ export const backlinks = {
     },
     "PNG (File Format)": {
         "Stories Behind Satori": "... RazrFalcon/resvg and yisibl/resvg-js to convert the SVG (File Format) image to [[PNG (File Format)]]."
+    },
+    "Kindle": {
+        "Using an iPad as my Ebook": "> I just saw the [[Kindle]] Scribe launch, but it still does not satisfy my needed features, ..."
     },
     "Xcode Clear Cache": {
         "2022-11-06": "- [[Xcode Clear Cache]]"
@@ -3467,7 +3570,6 @@ export const backlinks = {
         "CalliFontia": "[[Someday]] [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
         "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the chopstick game with competitive AI",
         "Cube": "[[Someday]] [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
-        "Digital Addictions of Software Enthusiasts": "[[Someday]] [[Project]]. I love software, but I am sometimes too addicted to ...",
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical books with digital devices? i.e. scan ...",
         "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
@@ -3478,6 +3580,7 @@ export const backlinks = {
         "Off The Record": "[[Someday]] [[Project]]. Disappearing message for iMessage.",
         "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
         "Open Graph Image as a Service": "[[Someday]] [[Project]]. Request Open Graph Images with URI, `POST` payload.",
+        "Problem": "Leads to a [[Someday]] [[Project]].",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in PDF/Databases. Just like Google",
@@ -3491,7 +3594,10 @@ export const backlinks = {
         "조선왕조실록": "[[Someday]] [[Project]]. Fast and Modern version of sillok.history.go.kr."
     },
     "DjVu (File Format)": {
-        "Screenshot as an API": "... (File Format), MOBI (File Format) for texts. For generic use cases, [[DjVu (File Format)]]."
+        "Screenshot as an API": "... alternatives: EPUB, MOBI (File Format) for texts. For generic use cases, [[DjVu (File Format)]]."
+    },
+    "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
+        "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
     },
     "Captivating Products": {
         "2022-12-09": "- [[Captivating Products]]"
@@ -3575,6 +3681,9 @@ export const backlinks = {
         "2022-09-05": "- [[binary search]]",
         "Real Exams": "- 1 binary tree construction & [[binary search]] traversal"
     },
+    "바이올린 켜면 바이올레이션": {
+        "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
+    },
     "Hacker News": {
         "2022-06-21": "## Today's [[Hacker News]]",
         "2022-06-22": "## Today's [[Hacker News]]",
@@ -3615,7 +3724,8 @@ export const backlinks = {
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
-        "The Great Struggle of Gumroad": "... would work on it until I died—something like that. Posting on [[Hacker News|HN]], the reaction exceeded my grandest aspirations. Over 52,000 people checked it ..."
+        "The Great Struggle of Gumroad": "... would work on it until I died—something like that. Posting on [[Hacker News|HN]], the reaction exceeded my grandest aspirations. Over 52,000 people checked it ...",
+        "Using an iPad as my Ebook": "... search never ended to find the perfect ebook. Refer to this [[Hacker News|HN]] thread"
     },
     "Treehouse": {
         "Conversational AI Tools for Thought": "- [[Treehouse]]"
@@ -3678,7 +3788,12 @@ export const backlinks = {
     },
     "Tools Must Vanish": {
         "2022-07-07": "- [[Tools Must Vanish]]",
-        "2022-12-28": "- [[Tools Must Vanish]]"
+        "2022-12-28": "- [[Tools Must Vanish]]",
+        "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter — essentially solving the [[Digital Addiction]]."
+    },
+    "Unicorn": {
+        "Ridi": "Ridi is a Korean [[Unicorn]] specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
+        "Toss": "- Financial Technology|FinTech [[Unicorn]] of Korea."
     },
     "Accelerationism": {
         "Effective Accelerationism": "- [[Accelerationism]]"
@@ -4637,6 +4752,12 @@ export const backlinks = {
     "EDC631.png": {
         "Readwise Reader": "![[EDC631.png]]"
     },
+    "193DBA.png": {
+        "Book Scanning": "![[193DBA.png]]"
+    },
+    "8E21A4.png": {
+        "Book Scanning": "![[8E21A4.png]]"
+    },
     "D765C4.png": {
         "Things (3D)": "![[D765C4.png]]"
     },
@@ -4678,6 +4799,9 @@ export const backlinks = {
     },
     "201C33.png": {
         "Diagram (Company)": "![[201C33.png]]"
+    },
+    "E437D9.png": {
+        "Digital Addiction": "![[E437D9.png]]"
     },
     "3BD418.png": {
         "Interactive Articles": "![[3BD418.png]]"
@@ -4919,9 +5043,6 @@ export const backlinks = {
     },
     "7D6146.png": {
         "공기 청정 비행선": "![[7D6146.png]]"
-    },
-    "E437D9.png": {
-        "Digital Addictions of Software Enthusiasts": "![[E437D9.png]]"
     },
     "717AC9.png": {
         "designOS": "![[717AC9.png]]"
