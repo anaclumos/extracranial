@@ -7,7 +7,7 @@ slug: '/961C8F'
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every dev tool website looks exactly the same these days, how boring <a href="https://t.co/Sh0yjKl5s3">pic.twitter.com/Sh0yjKl5s3</a></p>&mdash; flavio (@flaviocopes) <a href="https://twitter.com/flaviocopes/status/1587384199912501249?ref_src=twsrc%5Etfw">November 1, 2022</a></blockquote>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When you’re an encryption company, so the hero needs to be a 3D model of the logo rendered as encrypted text.<br/><br/>Some early previews of the new <a href="https://twitter.com/evervault?ref_src=twsrc%5Etfw">@evervault</a> website. <a href="https://t.co/Kx1nfb2ixE">pic.twitter.com/Kx1nfb2ixE</a></p>&mdash; Nev Flynn (@NevFlynn) <a href="https://twitter.com/NevFlynn/status/1597963386628685829?ref_src=twsrc%5Etfw">November 30, 2022</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When you're an encryption company, so the hero needs to be a 3D model of the logo rendered as encrypted text.<br/><br/>Some early previews of the new <a href="https://twitter.com/evervault?ref_src=twsrc%5Etfw">@evervault</a> website. <a href="https://t.co/Kx1nfb2ixE">pic.twitter.com/Kx1nfb2ixE</a></p>&mdash; Nev Flynn (@NevFlynn) <a href="https://twitter.com/NevFlynn/status/1597963386628685829?ref_src=twsrc%5Etfw">November 30, 2022</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Found an old prototype for <a href="https://t.co/v5YN0mCnEx">https://t.co/v5YN0mCnEx</a> <a href="https://t.co/5gbQUBQ13c">pic.twitter.com/5gbQUBQ13c</a></p>&mdash; rauno (@raunofreiberg) <a href="https://twitter.com/raunofreiberg/status/1597943032187265024?ref_src=twsrc%5Etfw">November 30, 2022</a></blockquote>
 

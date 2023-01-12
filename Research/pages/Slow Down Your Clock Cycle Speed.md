@@ -11,4 +11,4 @@ slug: '/DE5A56'
 
 ### [Social media may prevent users from reaping creative rewards of profound boredom - new research](https://www.bath.ac.uk/announcements/social-media-may-prevent-users-from-reaping-creative-rewards-of-profound-boredom-new-research/)
 
-- Profound boredom may sound like an overwhelmingly negative concept, but it can be intensely positive if people are given a chance for undistracted thinking and development. We must recognize that the pandemic was a tragic, destructive, consuming experience for thousands of less fortunate people, but we are all familiar with the stories of those in lockdown who found new hobbies, careers, or directions in life,” Dr. Hill said
+- Profound boredom may sound like an overwhelmingly negative concept, but it can be intensely positive if people are given a chance for undistracted thinking and development. We must recognize that the pandemic was a tragic, destructive, consuming experience for thousands of less fortunate people, but we are all familiar with the stories of those in lockdown who found new hobbies, careers, or directions in life," Dr. Hill said

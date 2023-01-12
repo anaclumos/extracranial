@@ -13,5 +13,5 @@ slug: '/0A964E'
 ## Resource
 
 - [Autolinks with alphanumeric IDs | GitHub Changelog](https://github.blog/changelog/2022-07-01-autolinks-with-alphanumeric-ids/)
-- If every person on the planet generates a new UUID4 every second, we’d expect a collision to occur after about 10 years: https://qr.ae/prXSxM
+- If every person on the planet generates a new UUID4 every second, we'd expect a collision to occur after about 10 years: https://qr.ae/prXSxM
 - Only after generating 1 billion UUIDs every second for the next 100 years, the probability of creating just one duplicate would be about 50%. Or, to put it another way, the probability of one duplicate would be about 50% if every person on earth owned 600 million UUIDs.

@@ -12,15 +12,15 @@ Notably:
 
 ## Why are expensive jobs expensive 💰?
 
-Usually, an expensive labor value takes place when the demand for the work is very high, whereas the supply cannot increase. Moreover, health and legal issues regularly appear throughout our society (either injured or in a legal dispute), and it is doubtful for an individual to not benefit from either. In other words, these demands never vanish.
+Usually, an expensive labor value takes place when the demand for the work is very high, whereas the supply cannot increase. Moreover, health and legal issues regularly appear throughout our society (either injured or in a legal dispute), and it isn't very likely for an individual not to benefit from either. In other words, these demands never vanish.
 
 However, the supply always stagnates. Why?
 
 - Supply velocity remains slow. Because:
   - Skillful doctors and lawyers need extended training.
-  - These "prestigious" institutions can only output dozens of jobs per year.
+  - These "prestigious" institutions can only output dozens of jobs annually.
 - But we cannot pump out more supply. Why?
-  - We lack secondary sources for such collection (i.e., people who can study for ten years are not abundant).
+  - We need secondary sources for such collection (i.e., people who can study for ten years are not abundant).
   - A forceful increase will entail societal backlash (i.e., unprofessional workers)
 - Such scarcely created suppliers work very slow
   - How many patients can a doctor see in a day?

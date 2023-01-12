@@ -81,4 +81,4 @@ If implemented correctly, it can work as an effective data sanitation system.
 
 Special thanks to everyone in the discussion:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">RFC: What if we could make “robots.txt”, but for GitHub Copilot? <a href="https://t.co/VmKeL4NFeQ">pic.twitter.com/VmKeL4NFeQ</a></p>&mdash; cho.sh (@anaclumos) <a href="https://twitter.com/anaclumos/status/1583582121427206144?ref_src=twsrc%5Etfw">October 21, 2022</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">RFC: What if we could make "robots.txt", but for GitHub Copilot? <a href="https://t.co/VmKeL4NFeQ">pic.twitter.com/VmKeL4NFeQ</a></p>&mdash; cho.sh (@anaclumos) <a href="https://twitter.com/anaclumos/status/1583582121427206144?ref_src=twsrc%5Etfw">October 21, 2022</a></blockquote>
