@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cb6fecb9642e1441",
+        "id": "8a8c8beabce50649",
         "type": "tabs",
         "children": [
           {
-            "id": "0535ac5f9b265db6",
+            "id": "b143a0ee73c58ead",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-01-12.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -126,17 +118,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "0535ac5f9b265db6",
+  "active": "b143a0ee73c58ead",
   "lastOpenFiles": [
+    "pages/역사의 집대성.md",
+    "journals/2023-01-12.md",
     "pages/민사고.md",
     "pages/Using an iPad as my Ebook.md",
-    "journals/2023-01-12.md",
     "pages/Antifragile.md",
     "pages/Unicorn.md",
     "pages/재학생일기.md",
     "journals/2016-11-28.md",
     "journals/2016-12-08.md",
-    "pages/역사의 집대성.md",
     "pages/코드클럽.md"
   ]
 }
