@@ -5,7 +5,7 @@ slug: '/283EAF'
 
 ### [Apple Safari browser might become the new Internet Explorer • The Register](https://www.theregister.com/2021/10/22/safari_risks_becoming_the_new_ie/)
 
-- Apple has a browser monopoly on iOS, which is something Microsoft was never able to achieve with IE
+- Apple has a browser monopoly on iOS, which is something [[Microsoft]] was never able to achieve with IE
 - The reality is if you have an iOS device, you use Safari and are bound by its limitations
 - Apple updates Safari roughly every six months at best. [Blink](https://www.chromium.org/blink)\-based browsers update every six weeks (soon every four), Firefox releases every four weeks, and Brave releases every three. This means that not only is Apple slow to add new features, but its development cycle means that even simple bug fixes have to wait a long time before they land on users' devices
 - Apple hasn't added support for sending notifications and home screen icons. In essence, Apple hasn't implemented some of the core features that make websites able to behave in an app-like way

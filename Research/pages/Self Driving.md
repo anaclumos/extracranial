@@ -7,8 +7,8 @@ aliases: ['self-driving']
 ### [Newly Released Video Of Thanksgiving Day Tesla Full Self-Driving Crash Demonstrates The Fundamental Problem Of Semi-Automated Driving Systems - The Autopian](https://www.theautopian.com/newly-released-video-of-thanksgiving-day-tesla-full-self-driving-crash-demonstrates-the-fundamental-problem-of-semi-automated-driving-systems/)
 
 - He was driving V-1 on I-80 eastbound in Full [[Self Driving]] Mode Beta Version traveling at approximately 55 miles per hour…When V-1 was in the tunnel, V-1 moved from the #2 lane into the #1 lane and started slowing down unaccountably
-- So, the driver’s testimony was that the car was in Full [[Self Driving|Self-Driving]] (FSD) mode, and it would be easy to simply blame all of this on the demonstrated technological deficiencies of FSD Beta. This could be an example of “phantom braking,” where the system becomes confused and attempts to stop the car even when there are no obstacles in its path
-- We all know this basic fact about L2 systems, that they must be watched nonstop, but what we keep seeing is that people are just not good at doing this
+- So, the driver’s testimony was that the car was in Full [[Self Driving|Self-Driving]] (FSD) mode, and it would be easy to simply blame all of this on the demonstrated technological deficiencies of FSD Beta. This could be an example of " phantom braking," where the system becomes confused and attempts to stop the car even when there are no obstacles in its path
+- We all know this basic fact about L2 systems, that they must be watched nonstop, but what we keep seeing is that people are just not good at doing this
 - We need to stop pretending this is a good approach, and start being realistic about the problems it introduces
 
 ### [Mercedes Is The First Automaker To Offer Level 3 Self-Driving In The US](https://insideevs.com/news/630075/mercedes-first-to-offer-level-3-self-driving-in-the-us/)
