@@ -382,7 +382,9 @@ export const backlinks = {
         "Open Graph Image as a Service": "- [[2022-10-11]]"
     },
     "2022-10-25": {},
-    "2023-01-13": {},
+    "2023-01-13": {
+        "하늘땅사람": "## [[2023-01-13]]"
+    },
     "2022-12-11": {},
     "2020-04-01": {
         "프로젝트 어덕행덕": "- [[2020-04-01]]"
@@ -426,7 +428,8 @@ export const backlinks = {
     "Swift": {
         "2023-01-13": "- [[Swift]]",
         "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]]",
-        "SwiftUI": "- Declarative Framework made with [[Swift]]"
+        "SwiftUI": "- Declarative Framework made with [[Swift]]",
+        "하늘땅사람": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
     },
     "Cube": {
         "2022-08-18": "- [[Cube]]",
@@ -577,7 +580,7 @@ export const backlinks = {
     "CDN": {
         "2022-08-28": "... builds faster (~3m) than Cloudflare Pages (~5m). Vercel has Seoul region [[CDN]].",
         "2022-12-28": "- [[CDN]]",
-        "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as Microsoft Bing or Cloudflare's AMP caches, which allows pages ...",
+        "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as [[Microsoft]] Bing or Cloudflare's AMP caches, which allows pages ...",
         "Cloudflare": "> Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded in 2010. It primarily acts as ...",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
         "The Architecture of Mastodon": "  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process ..."
@@ -975,7 +978,7 @@ export const backlinks = {
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
-        "WasmEdge": "WasmEdge: Edge Networks for [[WebAssembly]]",
+        "WasmEdge": "WasmEdge: Edge for [[WebAssembly]]",
         "WebGPU": "- It's a stand-alone TypeScript+Rust/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ..."
     },
     "Now Runs On": {
@@ -1461,11 +1464,6 @@ export const backlinks = {
         "2022-10-17": "- [[Now Page]]",
         "Stephan Ango": "- [[Now Page]]: What I'm doing now — Stephan Ango"
     },
-    "Edge Networks": {
-        "2022-10-24": "- [[Edge Networks]]",
-        "2023-01-13": "- [[Edge Networks]]",
-        "WasmEdge": "WasmEdge: [[Edge Networks]] for [[WebAssembly]]"
-    },
     "Infinite Canvas": {
         "2022-10-10": "- [[Infinite Canvas]]",
         "Intracranial": "  - [[Infinite Canvas]]",
@@ -1489,7 +1487,7 @@ export const backlinks = {
         "Brunch violates SF terms of use": "- Korean writing service Brunch violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web ...",
         "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If you still use `OSSpinLock`, you'll get ...",
-        "Google": "... one of the Big Five American information technology companies, alongside Amazon, [[Apple]], Meta, and Microsoft. Google",
+        "Google": "... one of the Big Five American information technology companies, alongside Amazon, [[Apple]], Meta, and [[Microsoft]]. Google",
         "Horizontally Stacked Interface": "## [[Apple]] Concierge App for Genius Bars",
         "How is WebAssembly cross-platform when Assembly is not": "... it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?",
         "Intracranial": "  - 👍 [[Apple]]-ish design language",
@@ -1879,7 +1877,7 @@ export const backlinks = {
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
         "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
-        "GitHub": "... software feature requests, task management, continuous integration, and wikis for every [[project]]. Headquartered in California, it has been a subsidiary of Microsoft since ...",
+        "GitHub": "... software feature requests, task management, continuous integration, and wikis for every [[project]]. Headquartered in California, it has been a subsidiary of [[Microsoft]] since ...",
         "Goongoom": "- Side startup [[project]] that never made it to the market.",
         "Guestbook": "- Someday [[Project]]",
         "Intracranial": "Someday [[Project]]. Infinite Canvas for Zettlekasten.",
@@ -2462,6 +2460,16 @@ export const backlinks = {
     "Probability Of Queueing (Internetworking)": {
         "Internetworking": "- [[Probability Of Queueing (Internetworking)]]"
     },
+    "Edge": {
+        "2022-10-24": "- [[Edge]]",
+        "2023-01-13": "- [[Edge]]",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... once mentioned that most tech services could be abstracted to an [[edge]]-served Front-end and back-end as edge-replicated simple data storage. I was also ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... also as App Economy vs. Web Economy, Closed vs. (fairly) Open, [[Edge]]-first AI vs. Cloud-first AI, etc.",
+        "Satori": "... This approach is 5x faster than existing solutions by using Vercel [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] ...",
+        "The Architecture of Mastodon": "  - Rails is hard to serve at the [[edge]]. [[CDN]] can host static assets, but templates in the core RoR ...",
+        "WasmEdge": "WasmEdge: [[Edge]] for [[WebAssembly]]",
+        "dub.sh": "- Built with Vercel [[Edge]] Functions + Upstash Redis"
+    },
     "CBR vs VBR": {
         "Internetworking": "- [[CBR vs VBR]]"
     },
@@ -2509,11 +2517,11 @@ export const backlinks = {
         "2022-10-10": "  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
         "2022-12-04": "- The Verge is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, ...",
-        "Edge Networks": "- [[Vercel]] & Vercel Edge Functions",
+        "Edge": "- [[Vercel]] & Vercel Edge Functions",
         "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
         "Paracosm": "... & Extracranial Tools for Thought that aims to replace Docusaurus with [[Vercel]]'s tech stacks.",
-        "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] Edge Functions, [[WebAssembly]], and a brand new core library for converting ...",
+        "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting ...",
         "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.",
         "dub.sh": "  - [[Vercel]] hosting"
     },
@@ -3005,7 +3013,22 @@ export const backlinks = {
         "Link Preview for Arc": "- Inspired by [[Rauno]]"
     },
     "Microsoft": {
-        "2023-01-13": "- [[Microsoft]]"
+        "2022-06-10": "  - [[Microsoft]] said Wednesday it will include pay ranges in all of its ...",
+        "2022-08-01": "... as a golden goose need to realize something. While Adobe Photoshop, [[Microsoft]] Word, and other established design and productivity tools are invaluable necessities ...",
+        "2022-10-18": "> [[Microsoft]] has started layoffs today. Some in Experiences + Devices, Xbox, legal, ...",
+        "2023-01-13": "- [[Microsoft]]",
+        "AMP": "... faster. AMP pages may be cached by a CDN, such as [[Microsoft]] Bing or Cloudflare's AMP caches, which allows pages to be served ...",
+        "C++": "... many vendors provide C++ compilers, including the Free Software Foundation, LLVM, [[Microsoft]], Intel, Embarcadero, Oracle, and IBM, so it is available on many ...",
+        "Collecting Data": "... private data you might want to keep is being sent to [[Microsoft]].",
+        "GitHub": "... every project. Headquartered in California, it has been a subsidiary of [[Microsoft]] since 2018. GitHub",
+        "Google": "... Big Five American information technology companies, alongside Amazon, Apple, Meta, and [[Microsoft]]. Google",
+        "Person 392196": "- [[Microsoft]]",
+        "Proposal of Research to Professor Cote": "... a result of these vulnerabilities, the major browser vendors (Google, Mozilla, [[Microsoft]], and Apple) decided to disable SharedArrayBuffer by default to avoid the ...",
+        "Safari is the new Internet Explorer": "- Apple has a browser monopoly on iOS, which is something [[Microsoft]] was never able to achieve with IE",
+        "Super App": "- [[Microsoft]] may build an all-in-one \"super app\" to combine various services and ...",
+        "TypeScript": "... is a free and open-source programming language developed and maintained by [[Microsoft]]. It is a strict syntactical superset of JavaScript and adds optional ...",
+        "Visual Studio Code": "... Studio Code, also commonly referred to as VS Code, made by [[Microsoft]] with the Electron Framework, for Windows, [[Linux]] and macOS. Features include ...",
+        "Workbench": "- For [[Microsoft]] Products, use App Store."
     },
     "simulation": {
         "Math-based Coding": "  - conducting a bare metal [[simulation]] takes too long",
@@ -3349,7 +3372,7 @@ export const backlinks = {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open ...",
         "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded that [[Vercel]] is better.",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
-        "Edge Networks": "- [[Cloudflare]] Pages & Cloudflare Functions"
+        "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions"
     },
     "Daily Dev": {
         "Jumpsite": "## [[Daily Dev]]"
