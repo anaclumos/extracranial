@@ -20,7 +20,7 @@ slug: '/C7113C'
 - don't die for code coverage
 - real-world validation matters. unit test < integration test < prod test
 - make infra changes obvious
-- keep error logs, CPU usage, and request error rates
+- keep error logs, [[CPU]] usage, and request error rates
 
 ## Deploying
 

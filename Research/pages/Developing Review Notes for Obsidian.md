@@ -186,7 +186,7 @@ export class TFile extends TAbstractFile {
 }
 ```
 
-참고로 옵시디언은 Chromium이기 때문에 다음과 같이 Dev Console을 열 수 있다.
+참고로 옵시디언은 [[Chromium]]이기 때문에 다음과 같이 Dev Console을 열 수 있다.
 
 ![[DFFE7F.png]]
 

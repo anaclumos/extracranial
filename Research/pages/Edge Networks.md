@@ -8,3 +8,8 @@ slug: '/A4A70C'
 - [[Cloudflare]] Pages & Cloudflare Functions
 - Netlify
 - etc
+
+### [val town](https://www.val.town/)
+
+- - Write Scripts, Deploy, Run
+- - Skip all the configuration and setup needed to get your cloud scripts going.

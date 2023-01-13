@@ -156,7 +156,7 @@ mount: {
 - 다만 Safari와 Firefox에서는 작동되지 않았다. "SharedArrayBuffer is not defined"이라는 오류가 발생했다.
 - 조사해본 결과 ffmpeg.wasm은 현재 Chrome에서만 동작하기 때문이라고 한다 ([참고 링크 1](https://github.com/ffmpegwasm/ffmpeg.wasm/issues/63#issuecomment-621103820).) [ffmpeg.wasm 공식 데모 사이트](https://ffmpegwasm.github.io/#demo)에 Safari나 Firefox로 접근하면 다음 오류가 나타난다.
 
-> Your browser doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of Chromium or any other browser supports SharedArrayBuffer.
+> Your browser doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other browser supports SharedArrayBuffer.
 
 ## 해결책 정리
 
