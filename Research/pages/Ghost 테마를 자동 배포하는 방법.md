@@ -39,7 +39,7 @@ GitHub Secrets는 GitHub Repository → Settings → Secrets에서 설정할 수
 
 Secrets 이름은 가급적 그대로 설정하는 것을 추천한다.
 
-이제 [[GitHub Actions]]를 생성하자. [[GitHub Actions]] 탭에 들어가서 `New workflow` 버튼을 누른 뒤 `Set up a workflow yourself`를 누른다. 새로운 workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 YAML 코드를 복사하여 붙여넣는다. GitHub Secrets에 Key 이름을 다르게 저장했다면 마지막 두 줄을 수정하여 Key 이름을 맞춰주어야 한다.
+이제 [[GitHub Actions]]를 생성하자. [[GitHub Actions]] 탭에 들어가서 `New workflow` 버튼을 누른 뒤 `Set up a workflow yourself`를 누른다. 새로운 workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 [[YAML]] 코드를 복사하여 붙여넣는다. GitHub Secrets에 Key 이름을 다르게 저장했다면 마지막 두 줄을 수정하여 Key 이름을 맞춰주어야 한다.
 
 ```yaml
 name: Deploy Theme

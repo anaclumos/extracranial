@@ -111,7 +111,7 @@ GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두�
 - GitHub CSS
 - [**System Font Stack** by **CSS Tricks**](https://css-tricks.com/snippets/css/system-font-stack/)
 - 단어 하나만으로 [[OS]]의 기본 서체로 설정할 수 있는 `system-ui`라는 CSS 코드를 표준화 하고 있다고 한다. 가까운 미래에는 그냥 `font-family: system-ui` 하나만 적는 날이 올 수도 있겠다.
-- 2020년 4월 업데이트된 Chromium 81에서 BlinkMacSystemFont의 font-weight가 무시되는 [버그](https://bugs.chromium.org/p/chromium/issues/detail?id=1057654)가 발생했다.
+- 2020년 4월 업데이트된 [[Chromium]] 81에서 BlinkMacSystemFont의 font-weight가 무시되는 [버그](https://bugs.chromium.org/p/chromium/issues/detail?id=1057654)가 발생했다.
 
 ## Updated Jul 17, 2020
 
