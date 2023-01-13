@@ -11,5 +11,5 @@ slug: '/A4A70C'
 
 ### [val town](https://www.val.town/)
 
-- - Write Scripts, Deploy, Run
-- - Skip all the configuration and setup needed to get your cloud scripts going.
+- Write Scripts, Deploy, Run
+- Skip all the configuration and setup needed to get your cloud scripts going.

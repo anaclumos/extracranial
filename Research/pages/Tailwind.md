@@ -7,7 +7,7 @@ slug: '/A331BF'
 
 ### [What working with Tailwind CSS every day for two years looks like — Mosaad](https://www.themosaad.com/blog/two-years-of-tailwind-css)
 
-- As of now, with Tailwind CSS v3.2.4 and the ecosystem around it, I consider Tailwind CSS to be one of the boring established CSS solutions that enables me to be the most productive in building and maintaining projects of various sizes
+- As of now, with Tailwind CSS v3.2.4 and the ecosystem around it, I consider Tailwind CSS to be one of the [[Boring Technologies|boring]] established CSS solutions that enables me to be the most productive in building and maintaining projects of various sizes
 - [[Shopify Analyzes CSS Frameworks]]
 
 ### [Don't use Tailwind for your Design System](https://sancho.dev/blog/tailwind-and-design-systems)

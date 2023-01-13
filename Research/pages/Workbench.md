@@ -12,4 +12,4 @@ slug: '/D74DBC'
 
 ## Exception
 
-- For Microsoft Products, use App Store.
+- For [[Microsoft]] Products, use App Store.
