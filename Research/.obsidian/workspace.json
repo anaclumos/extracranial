@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "8a8c8beabce50649",
+        "id": "f51c435bbe99a3ff",
         "type": "tabs",
         "children": [
           {
-            "id": "b143a0ee73c58ead",
+            "id": "765fe7f55d5b52f2",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -118,17 +118,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b143a0ee73c58ead",
+  "active": "765fe7f55d5b52f2",
   "lastOpenFiles": [
-    "pages/역사의 집대성.md",
-    "journals/2023-01-12.md",
-    "pages/민사고.md",
-    "pages/Using an iPad as my Ebook.md",
-    "pages/Antifragile.md",
-    "pages/Unicorn.md",
-    "pages/재학생일기.md",
-    "journals/2016-11-28.md",
-    "journals/2016-12-08.md",
-    "pages/코드클럽.md"
+    "journals/2022-11-19.md",
+    "pages/Solar.md",
+    "pages/HQ Proximity.md",
+    "pages/Self Driving.md",
+    "journals/2023-01-13.md",
+    "pages/Microsoft.md",
+    "pages/How is WebAssembly cross-platform when Assembly is not.md",
+    "pages/CPU.md",
+    "pages/Apple Silicon.md",
+    "pages/WebAssembly.md"
   ]
 }

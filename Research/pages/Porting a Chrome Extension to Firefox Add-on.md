@@ -9,7 +9,7 @@ While Chrome and Firefox are two very different browsers, Chrome Extension and F
 
 First of all, Firefox can run commands with `chrome` namespace, such as `chrome.tabs.onUpdated`. However, there are still a few codes that Firefox cannot run. Firefox offers a handy website to check the chrome incompatibilities.
 
-1. On your Chrome browser (or on any equivalent Chromium browsers,) visit `chrome://extensions`.
+1. On your Chrome browser (or on any equivalent [[Chromium]] browsers,) visit `chrome://extensions`.
 2. Enable **Developer Mode** and Press **Pack Extension**.
 3. Select your extension directory and pack your extension. That will create a `.crx` file.
 4. Visit the [Firefox Extension Test website](https://www.extensiontest.com/) and upload your .crx file.

@@ -382,6 +382,7 @@ export const backlinks = {
         "Open Graph Image as a Service": "- [[2022-10-11]]"
     },
     "2022-10-25": {},
+    "2023-01-13": {},
     "2022-12-11": {},
     "2020-04-01": {
         "프로젝트 어덕행덕": "- [[2020-04-01]]"
@@ -423,7 +424,8 @@ export const backlinks = {
         "Link (Computer Systems)": "Linux uses [[ELF]]"
     },
     "Swift": {
-        "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon (CPU)]]",
+        "2023-01-13": "- [[Swift]]",
+        "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]"
     },
     "Cube": {
@@ -433,7 +435,7 @@ export const backlinks = {
     "SwiftUI": {
         "2022-08-04": "### Explored [[SwiftUI]].",
         "2022-11-28": "- [[SwiftUI]]: SwiftUI is convenient, but slow — Alin Panaitiu",
-        "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon (CPU)]]",
+        "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon]]",
         "CELLO (Product)": "- [[SwiftUI]]",
         "Cube": "- [[SwiftUI]]",
         "ULLO": "- Proof of Concept|PoC of [[SwiftUI]] Photo Widget App",
@@ -446,6 +448,7 @@ export const backlinks = {
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
+        "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
         "Readwise Reader": "- uses [[ChatGPT]]",
         "Search Engine using Generative AI": "## On [[ChatGPT]]",
         "Synthote": "- [[ChatGPT]]",
@@ -476,8 +479,12 @@ export const backlinks = {
         "2022-09-25": "- [[0110 Balanced Binary Tree]]",
         "Coding Tests": "- [x] [[0110 Balanced Binary Tree]]"
     },
+    "Solar": {
+        "2023-01-13": "- [[Solar]]",
+        "Clean Energy": "- [[Solar]]"
+    },
     "Person A480C6": {
-        "Apple Silicon (CPU)": "- [[Person A480C6]]",
+        "Apple Silicon": "- [[Person A480C6]]",
         "Project PEOPLE": "- [[Person A480C6]]"
     },
     "BFS": {
@@ -574,6 +581,9 @@ export const backlinks = {
         "Cloudflare": "> Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded in 2010. It primarily acts as ...",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
         "The Architecture of Mastodon": "  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process ..."
+    },
+    "New York City": {
+        "2023-01-13": "- [[New York City]]"
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs."
@@ -702,6 +712,9 @@ export const backlinks = {
     "Heap (Computer Systems)": {
         "2022-12-08": "- [[Heap (Computer Systems)]]",
         "Computer Systems": "- [[Heap (Computer Systems)]]"
+    },
+    "Boring Technologies": {
+        "2023-01-13": "- [[Boring Technologies]]"
     },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
         "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]"
@@ -839,6 +852,9 @@ export const backlinks = {
         "2022-07-11": "Candidates include [[MessagePack (File Format)]] and [[CBOR (File Format)]].",
         "CBOR (File Format)": "- Compact Data Exchange Format like [[MessagePack (File Format)]]."
     },
+    "HQ Proximity": {
+        "2023-01-13": "- [[HQ Proximity]]"
+    },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
         "Simple Analytics": "> The privacy-first [[Google Analytics]] alternative. Simple Analytics",
@@ -949,6 +965,7 @@ export const backlinks = {
         "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.",
         "2022-10-14": "- [[WebAssembly]]",
         "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten",
+        "2023-01-13": "- [[WebAssembly|WASM]]",
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "Dioxus": "Use [[WebAssembly|WASM]]",
         "How is WebAssembly cross-platform when Assembly is not": "[[WebAssembly]] is a novel way of operating computer instructions at a lower ...",
@@ -966,6 +983,11 @@ export const backlinks = {
     "초상권 vs 저작권": {
         "CELLO": "- [[초상권 vs 저작권]]",
         "퍼블리시티권": "- [[초상권 vs 저작권]]"
+    },
+    "YAML": {
+        "2023-01-13": "- [[YAML]]",
+        "Ghost 테마를 자동 배포하는 방법": "... up a workflow yourself`를 누른다. 새로운 workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 [[YAML]] 코드를 복사하여 붙여넣는다. GitHub Secrets에 Key 이름을 다르게 저장했다면 마지막 두 ...",
+        "Higher-Level Languages and Their Speeds": "... entire product catalog of the e-commerce site can be a single [[YAML]] read on boot? This goes for many more objects than I ..."
     },
     "Microproject": {
         "2022-08-18": "- [[Microproject]]"
@@ -1034,6 +1056,14 @@ export const backlinks = {
     "USDZ": {
         "3D": "- [[USDZ]] for [[Apple]]",
         "Things (3D)": "> Nice. What's the edge on Things over glTF and [[USDZ]]?<br/>"
+    },
+    "Chromium": {
+        "2023-01-13": "- [[Chromium]]",
+        "Apple Newsroom 서체 따라하기": "- 2020년 4월 업데이트된 [[Chromium]] 81에서 BlinkMacSystemFont의 font-weight가 무시되는 버그가 발생했다.",
+        "Developing Review Notes for Obsidian": "참고로 옵시디언은 [[Chromium]]이기 때문에 다음과 같이 Dev Console을 열 수 있다.",
+        "Porting a Chrome Extension to Firefox Add-on": "1. On your Chrome browser (or on any equivalent [[Chromium]] browsers,) visit `chrome://extensions`.",
+        "Satori": "- Difficult: This solution required launching [[Chromium]] in a Serverless Function and taking a screenshot of the given ...",
+        "Snowpack으로 WASM 시작하기": "... support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other browser supports SharedArrayBuffer."
     },
     "Unsemantic": {
         "2022-12-20": "- [[Unsemantic]]"
@@ -1432,6 +1462,7 @@ export const backlinks = {
     },
     "Edge Networks": {
         "2022-10-24": "- [[Edge Networks]]",
+        "2023-01-13": "- [[Edge Networks]]",
         "WasmEdge": "WasmEdge: [[Edge Networks]] for [[WebAssembly]]"
     },
     "Infinite Canvas": {
@@ -1453,7 +1484,7 @@ export const backlinks = {
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
         "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports.",
         "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
-        "Apple Silicon (CPU)": "- Chips made by [[Apple]]",
+        "Apple Silicon": "- Chips made by [[Apple]]",
         "Brunch violates SF terms of use": "- Korean writing service Brunch violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web ...",
         "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If you still use `OSSpinLock`, you'll get ...",
@@ -1826,6 +1857,7 @@ export const backlinks = {
         "2023-01-03": "## [[Project]]",
         "2023-01-11": "## [[Project]]",
         "2023-01-12": "## [[Project]]",
+        "2023-01-13": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -1903,7 +1935,7 @@ export const backlinks = {
     },
     "Spectre": {
         "Meltdown": "... of the two original transient execution CPU vulnerabilities (the other being [[Spectre]]). Meltdown affects Intel x86 microprocessors, IBM POWER processors, and some [[ARM ...",
-        "Meltdown and Spectre": "- [[Spectre]] makes the CPU jump to the wrong place and runs instructions ...",
+        "Meltdown and Spectre": "- [[Spectre]] makes the [[CPU]] jump to the wrong place and runs instructions ...",
         "SharedArrayBuffer": "The [[Spectre]] vulnerability seized ShardArrayBuffer in 2018, and since 2020, ShardArrayBuffer requires a ...",
         "WorkerDOM": "WorkerDOM doesn't use SharedArrayBuffer, most likely to [[Spectre]]."
     },
@@ -2000,6 +2032,7 @@ export const backlinks = {
     "Nuclear Fusion": {
         "2022-07-26": "- [[Nuclear Fusion]]",
         "2022-12-16": "- [[Nuclear Fusion]]",
+        "Clean Energy": "- [[Nuclear Fusion]]",
         "Desire-Compatible Growth & Preservation": "- [[Nuclear Fusion]]"
     },
     "Meltdown": {
@@ -2322,11 +2355,12 @@ export const backlinks = {
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
     },
+    "Self Driving": {
+        "2023-01-13": "- [[Self Driving]]",
+        "Self Driving": "- He was driving V-1 on I-80 eastbound in Full [[Self Driving]] Mode Beta Version traveling at approximately 55 miles per hour…When V-1 ..."
+    },
     "Venture Capital": {
         "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]"
-    },
-    "Apple Silicon (CPU)": {
-        "Apple": "- Creator of Swift, SwiftUI, [[Apple Silicon (CPU)]]"
     },
     "HTMX": {
         "2022-10-18": "- [[HTMX]]",
@@ -2335,6 +2369,9 @@ export const backlinks = {
     "Ticket Bounty Model": {
         "2022-08-11": "- [[Ticket Bounty Model]]",
         "2022-09-12": "- [[Ticket Bounty Model]]"
+    },
+    "Clean Energy": {
+        "2023-01-13": "- [[Clean Energy]]"
     },
     "Linkflags": {
         "2022-12-07": "- [[Linkflags]]",
@@ -2392,6 +2429,9 @@ export const backlinks = {
         "2020-11-20": "- [[프로젝트 어덕행덕]]",
         "2021-02-26": "- [[프로젝트 어덕행덕]]",
         "2022-11-25": "- [[프로젝트 어덕행덕]]"
+    },
+    "Dither": {
+        "1-bit Display": "- [[Dither]]"
     },
     "File Descriptor": {
         "Handling files in Unix": "- `open()` returns a [[file descriptor]]",
@@ -2597,6 +2637,9 @@ export const backlinks = {
         "The Great Struggle of Gumroad": "... fault. It always looked like change was right around the corner. [[Product-market fit]] is excellent, but we needed to find a new, more oversized ...",
         "유난한 도전": "[[Product-Market Fit|PMF]]를 찾았다."
     },
+    "Layoff": {
+        "2023-01-13": "- [[Layoff]]"
+    },
     "Page Size and Address Translations": {
         "2022-11-04": "- [[Page Size and Address Translations]]",
         "Computer Systems": "- [[Page Size and Address Translations]]",
@@ -2625,6 +2668,9 @@ export const backlinks = {
     },
     "iOS Style Toggle in CSS": {
         "2022-10-12": "  - [x] Archived [[iOS Style Toggle in CSS]]"
+    },
+    "Conversational Generative AI as Search Engine": {
+        "2023-01-13": "- [[Conversational Generative AI as Search Engine]]"
     },
     "Musk": {
         "Canary Trap": "### [[Musk]]",
@@ -2689,6 +2735,9 @@ export const backlinks = {
         "React Email": "Seems like instead of making emails interactive like [[AMP Email]]",
         "Reimagining Emails": "- Interactive Emails using [[AMP Email]]. Example: [[Spellbound]]",
         "Spellbound": "- [[AMP Email]]"
+    },
+    "Apple Silicon": {
+        "Apple": "- Creator of Swift, SwiftUI, [[Apple Silicon]]"
     },
     "Cross-Origin Opener Policy": {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Opener Policy]]: `same-origin`"
@@ -2954,6 +3003,9 @@ export const backlinks = {
         "Data Capturers": "- [[Rauno]]",
         "Link Preview for Arc": "- Inspired by [[Rauno]]"
     },
+    "Microsoft": {
+        "2023-01-13": "- [[Microsoft]]"
+    },
     "simulation": {
         "Math-based Coding": "  - conducting a bare metal [[simulation]] takes too long",
         "Person 5DBDAE": "I create functional [[simulation]] models for semiconductors. For fabless labs, you have to write semiconductor ...",
@@ -3013,7 +3065,6 @@ export const backlinks = {
         "2022-07-18": "- Finished [[WeCrashed]]"
     },
     "Shopify Analyzes CSS Frameworks": {
-        "2022-11-29": "- [[Shopify Analyzes CSS Frameworks]]",
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
     "YCLF 주간 사용자 1000명": {},
@@ -3175,7 +3226,8 @@ export const backlinks = {
     "2023년 1월과 2월에 하루 25분 조깅하기": {
         "2023-01-10": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-11": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-12": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다."
+        "2023-01-12": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
+        "2023-01-13": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
         "2022-11-04": "- [[Principles of Inclusion]]"
@@ -3721,6 +3773,7 @@ export const backlinks = {
         "2022-12-17": "## [[Hacker News|HN]]",
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
+        "2023-01-13": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -3736,6 +3789,9 @@ export const backlinks = {
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on my Twitter threads."
     },
+    "1-bit Display": {
+        "2023-01-13": "- [[1-bit Display]]"
+    },
     "Sliding Panes": {
         "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].",
         "Extracranial": "- [[sliding panes]]",
@@ -3750,7 +3806,8 @@ export const backlinks = {
     },
     "Mastodon": {
         "2022-11-07": "- [[Mastodon]]",
-        "2022-12-21": "- [[Mastodon]]"
+        "2022-12-21": "- [[Mastodon]]",
+        "2023-01-13": "- Medium joins [[Mastodon]]"
     },
     "Social Network Service": {
         "Jumpsite": "... or Web Linking Network Service, is a collective term for a [[Social Network Service]] mainly consisting of links to outside content."
@@ -3945,6 +4002,16 @@ export const backlinks = {
         "Framer": "- Creator of [[Framer Motion]]",
         "dub.sh": "  - [[Framer Motion|Framer Animation]]"
     },
+    "CPU": {
+        "2023-01-13": "- [[CPU]]",
+        "How is WebAssembly cross-platform when Assembly is not": "...  - Does it pack multiple precompiled binary executables for multiple [[CPU]] vendors, like [[Apple]]'s Universal Binary?",
+        "How to Build Software like an SRE": "- keep error logs, [[CPU]] usage, and request error rates",
+        "Meltdown": "Meltdown is one of the two original transient execution [[CPU]] vulnerabilities (the other being [[Spectre]]). Meltdown affects Intel x86 microprocessors, IBM ...",
+        "Meltdown and Spectre": "- Spectre makes the [[CPU]] jump to the wrong place and runs instructions there to leak ...",
+        "Preemptive Multitasking": "... which process should execute next. Therefore, all processes will get some [[CPU]] time at any given time. Preemption (computing)#PREEMPTIVE>)",
+        "Principles of Inclusion": "- Higher level (closer to [[CPU]]) always contains a subset of lower level (closer to memory)",
+        "Spectre": "Spectre refers to one of the two original transient execution [[CPU]] vulnerabilities ([[Meltdown]]), which involve microarchitectural timing side-channel attacks. These affect modern ..."
+    },
     "HTML": {
         "2022-06-12": "... rehydration is a technique in which client-side JavaScript converts a static [[HTML]] web page, delivered either through static hosting or server-side rendering, into ...",
         "AMP Email": "... the email. The AMP email format provides a subset of AMP [[HTML]] components for use in email messages, allowing recipients of AMP emails ...",
@@ -4065,6 +4132,9 @@ export const backlinks = {
         "FIRE Engine": "- Software as a Service that drives revenue streams for [[FIRE]]",
         "Fiercely Overpriced": "To attain [[FIRE]], we have previously explored that [[Software as a Service]] would be ...",
         "Software as a Service": "We expect we could attain [[FIRE]] through [[Software as a Service]]."
+    },
+    "The Problems of ChatGPT": {
+        "2023-01-13": "- [[The Problems of ChatGPT]]"
     },
     "Educational Technology": {
         "Person 1E6ABA": "- Currently works at a Financial Technology|FinTech + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager."

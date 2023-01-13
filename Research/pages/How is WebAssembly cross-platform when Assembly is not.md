@@ -856,14 +856,14 @@ Now, let's inspect the binary codes of the WASM.
   - it runs isolated
   - it runs on browsers
 - But how is [[WebAssembly|WASM]] _fast_ and cross-platform simultaneously?
-  - Does it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?
-  - But then, whenever a new type of CPU gets announced, they wouldn't be able to run existing WASMs
+  - Does it pack multiple precompiled binary executables for multiple [[CPU]] vendors, like [[Apple]]'s Universal Binary?
+  - But then, whenever a new type of [[CPU]] gets announced, they wouldn't be able to run existing WASMs
 - [[WebAssembly]]'s runtime environments (RE) are low-level virtual stack machines (akin to JVM or Flash VM)
 - Seems like [[WebAssembly|WASM]] is closer to intermediate [[Java]] Byte Code instead of the genuinely low-level [[Assembly]].
   - But then, why is it faster?
   - JS Interpreter can skip the parsing
   - It can ship in a much more compact file format
-- [[WebAssembly|WASM]] is just like [[Java]] Byte-code. [[Java]] Byte-code is cross-platform when machine code for a real CPU is not. It's input for a JIT compiler that targets whatever real CPU. [Peter Cordes](https://stackoverflow.com/users/224132/peter-cordes)
+- [[WebAssembly|WASM]] is just like [[Java]] Byte-code. [[Java]] Byte-code is cross-platform when machine code for a real [[CPU]] is not. It's input for a JIT compiler that targets whatever real [[CPU]]. [Peter Cordes](https://stackoverflow.com/users/224132/peter-cordes)
 - [[WebAssembly|WASM]] defines its own \_CPU standards and [[Assembly]]: [WebAssembly Core Specification](https://webassembly.github.io/spec/core/bikeshed/).
 - To run [[WebAssembly|WASM]], the browser must still compile the [[WebAssembly|WASM]] code into ASM code when executing; in that way, it is **much** slower than [[WebAssembly|WASM]].
 - However, [[WebAssembly|WASM]] is designed similarly to ASM. Therefore, compiling [[WebAssembly|WASM]] to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can also emit [[WebAssembly|WASM]] with a reasonable modification.
