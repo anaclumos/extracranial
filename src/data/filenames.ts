@@ -403,7 +403,7 @@ export const filenames = {
     "Dynamically Linked Libraries": "588956",
     "ELF": "ACF8B1",
     "EPUB": "261BFF",
-    "Edge Networks": "A4A70C",
+    "Edge": "A4A70C",
     "Educational Technology": "6E7716",
     "Effective Accelerationism": "D344B2",
     "Either be the best-in-class or the most efficient": "1F7327",

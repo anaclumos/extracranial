@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/2D85E7'
-aliases: ['New York']
+aliases: ['New York', 'NYC']
 ---
 
 ### [Fewer than 40% of New Yorkers earn a living wage | Cornell Chronicle](https://news.cornell.edu/stories/2023/01/fewer-40-new-yorkers-earn-living-wage)
