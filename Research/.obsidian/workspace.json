@@ -11,8 +11,13 @@
             "id": "765fe7f55d5b52f2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Microsoft.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Microsoft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Microsoft.md"
+              }
             }
           }
         ]
@@ -120,15 +128,15 @@
   },
   "active": "765fe7f55d5b52f2",
   "lastOpenFiles": [
+    "journals/2022-10-18.md",
+    "pages/Microsoft.md",
+    "pages/Super App.md",
+    "journals/2023-01-13.md",
+    "pages/Boring Technologies.md",
+    "pages/Edge Networks.md",
     "journals/2022-11-19.md",
     "pages/Solar.md",
     "pages/HQ Proximity.md",
-    "pages/Self Driving.md",
-    "journals/2023-01-13.md",
-    "pages/Microsoft.md",
-    "pages/How is WebAssembly cross-platform when Assembly is not.md",
-    "pages/CPU.md",
-    "pages/Apple Silicon.md",
-    "pages/WebAssembly.md"
+    "pages/Self Driving.md"
   ]
 }

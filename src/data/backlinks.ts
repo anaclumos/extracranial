@@ -714,7 +714,8 @@ export const backlinks = {
         "Computer Systems": "- [[Heap (Computer Systems)]]"
     },
     "Boring Technologies": {
-        "2023-01-13": "- [[Boring Technologies]]"
+        "2023-01-13": "- [[Boring Technologies]]",
+        "Tailwind": "... around it, I consider Tailwind CSS to be one of the [[Boring Technologies|boring]] established CSS solutions that enables me to be the most productive ..."
     },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
         "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]"
