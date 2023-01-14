@@ -8,7 +8,7 @@ aliases: ['overengineer', 'over-engineer', 'Boring']
 
 - The programming pop culture favors specific code aesthetics based on the trends of the day
 - The issue is that the programming pop culture demands that code exhibit the latest popular aesthetics of rigor, formality, and cleverness
-- It didn’t matter if you were writing in Ruby, JavaScript, or Objective-C. Your code had to have a level of " magic" to it. Metaprogramming, syntax-hacking languages to create ad hoc Domain-Specific Languages, tricks with extreme late binding, and more were frequent topics on developer weblogs and forums
+- It didn’t matter if you were writing in Ruby, JavaScript, or Objective-C. Your code had to have a level of "magic" to it. Metaprogramming, syntax-hacking languages to create ad hoc Domain-Specific Languages, tricks with extreme late binding, and more were frequent topics on developer weblogs and forums
 - A part of this trend is the unpopularity of the approaches and languages seen as less rigorous. CSS is dropped in favor of statically typed CSS-in-JS methods. HTML is dropped in favor of a strict inline XML-like markup format called JSX
 
 ### [Your tech stack is not the product | hoho.com](https://hoho.com/posts/your-stack-is-not-the-product/)
@@ -21,7 +21,7 @@ aliases: ['overengineer', 'over-engineer', 'Boring']
 - support growth. Be able to bring in more people gradually that can do
 - No sacred bits: Launch, learn, iterate
 - Today’s bets over tomorrow’s theoretical
-- Favor " boring technology" and in-house expertise
+- Favor "boring technology" and in-house expertise
 - Buy non-core competencies whenever prudent
 
 ### [Use a monorepo](https://buttondown.email/blog/just-use-a-monorepo)

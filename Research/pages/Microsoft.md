@@ -10,6 +10,6 @@ slug: '/FA14AF'
 
 ### [How Microsoft attempted to make the Xbox 360 dashboard load faster](https://eaton-works.com/2023/01/09/how-microsoft-attempted-to-make-the-xbox-360-dashboard-load-faster/)
 
-- What it does is check if " fast extended storage" is connected (this means a hard-drive is connected with a valid System Extended partition), and will override the dash load path, which by default is the dash that is on the nand. The dash is still on the nand as a fallback in case a hard drive is not connected
+- What it does is check if "fast extended storage" is connected (this means a hard-drive is connected with a valid System Extended partition), and will override the dash load path, which by default is the dash that is on the nand. The dash is still on the nand as a fallback in case a hard drive is not connected
 - Another change was made to the dash executable itself: it is now uncompressed. Xbox 360 executables can be LZX-compressed and AES-encrypted. The dash being uncompressed means the system won’t have as much to do when the data is loaded into memory from disk. This will make the dash load faster as long as the disk read completes in the same time (or less) as the NAND flash read
 - That is better than nothing and concludes that moving the dash to the hard drive is (slightly) beneficial to the user experience
