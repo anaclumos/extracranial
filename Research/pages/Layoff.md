@@ -18,10 +18,10 @@ slug: '/52F47B'
 ### [Tech Companies Are Irrational Pop Cultures](https://softwarecrisis.dev/letters/tech-is-a-pop-culture/)
 
 - The symptoms of pop culture:
-  - A " disdain for history" . Pop cultures believe history doesn’t have anything to teach them.
+  - A "disdain for history" . Pop cultures believe history doesn’t have anything to teach them.
   - Newer is automatically better. Pop cultures are built on the assumption that anything new or different is superior to established. Or in other words, older are inherently inferior.
   - What’s next is going to be superior to what’s now. Pop cultures exist in perpetual anticipation of the next trend. Their disbelief of history appears to outsiders as a belief in progress.
-  - The " Pop" in " Pop Culture" stands for " popularity" . If it’s popular, then it must be right
+  - The "Pop" in "Pop Culture" stands for "popularity" . If it’s popular, then it must be right
 - These traits are deeply irrational, but they are the tech industry’s default mode of operation
 - A recent example of a pop culture trend taking tech by storm is layoffs
 - The effect is even worse for software companies because [employee churn is lethal for software](https://www.baldurbjarnason.com/2022/theory-building/)
