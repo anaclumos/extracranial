@@ -2432,7 +2432,7 @@ export const backlinks = {
         "2022-11-25": "- [[프로젝트 어덕행덕]]"
     },
     "Dither": {
-        "1-bit Display": "- [[Dither]]"
+        "One Bit Display": "- [[Dither]]"
     },
     "File Descriptor": {
         "Handling files in Unix": "- `open()` returns a [[file descriptor]]",
@@ -2458,6 +2458,9 @@ export const backlinks = {
     },
     "Firefox": {
         "2022-10-10": "... responsiveness on macOS - Mozilla Hacks - the Web developer blog [[Firefox]]"
+    },
+    "One Bit Display": {
+        "2023-01-13": "- [[One Bit Display]]"
     },
     "Probability Of Queueing (Internetworking)": {
         "Internetworking": "- [[Probability Of Queueing (Internetworking)]]"
@@ -3815,9 +3818,6 @@ export const backlinks = {
     },
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on my Twitter threads."
-    },
-    "1-bit Display": {
-        "2023-01-13": "- [[1-bit Display]]"
     },
     "Sliding Panes": {
         "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].",
