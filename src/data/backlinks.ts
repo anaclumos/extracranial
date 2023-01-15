@@ -106,6 +106,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-10-03": "- Written: [[2022-10-03]]"
     },
     "2022-12-17": {},
+    "2023-01-15": {},
     "2022-08-29": {},
     "2022-07-24": {
         "FIRE Engine": "... How Much Money Do Indie Hackers Products Make? | Scraping Fish ([[2022-07-24]])"
@@ -1859,6 +1860,7 @@ export const backlinks = {
         "2023-01-12": "## [[Project]]",
         "2023-01-13": "## [[Project]]",
         "2023-01-14": "## [[Project]]",
+        "2023-01-15": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -3257,7 +3259,8 @@ export const backlinks = {
         "2023-01-11": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-12": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
         "2023-01-13": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-14": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다."
+        "2023-01-14": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
+        "2023-01-15": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
         "2022-11-04": "- [[Principles of Inclusion]]"
