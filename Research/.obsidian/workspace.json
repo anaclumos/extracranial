@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/One Bit Display.md",
+                "file": "journals/2023-01-15.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/One Bit Display.md",
+                "file": "journals/2023-01-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/One Bit Display.md"
+                "file": "journals/2023-01-15.md"
               }
             }
           }
@@ -128,15 +129,15 @@
   },
   "active": "6140eb9d85563489",
   "lastOpenFiles": [
+    "pages/식영부원의 관점에서 바라본 치킨데이.md",
+    "journals/2023-01-15.md",
+    "pages/One Bit Display.md",
     "journals/2023-01-14.md",
     "journals/2023-01-13.md",
     "pages/Generative Databases.md",
     "pages/하늘땅사람.md",
     "pages/Swift.md",
     "pages/Edge.md",
-    "pages/New York City.md",
-    "pages/The Problems of ChatGPT.md",
-    "pages/Conversational Generative AI as Search Engine.md",
-    "pages/Boring Technologies.md"
+    "pages/New York City.md"
   ]
 }
