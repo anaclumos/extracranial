@@ -229,6 +229,7 @@ export const filenames = {
     "2023-01-13": "2023-01-13",
     "2023-01-14": "2023-01-14",
     "2023-01-15": "2023-01-15",
+    "2023-01-16": "2023-01-16",
     "2023년 1월과 2월에 하루 25분 조깅하기": "9A31D7",
     "3D": "82C83C",
     "3d Globe on the Web": "432EF8",
@@ -301,6 +302,7 @@ export const filenames = {
     "Brunch": "9054E5",
     "Brunch violates SF terms of use": "C5F92B",
     "Buffer Overflow Attacks": "BC676B",
+    "Building Habit": "B03760",
     "Building a Second Brain": "6AE59D",
     "Buttondown": "150972",
     "C++": "CCFB5B",
@@ -600,7 +602,6 @@ export const filenames = {
     "Meta Theme Color for Spacial Cognition": "4C1317",
     "Metapage": "8343D1",
     "Metaverse": "D38E36",
-    "Microproject": "A46FA5",
     "Microsoft": "FA14AF",
     "Midjourney": "8F40E4",
     "Migrating Node.js apps from AWS EB to Heroku": "C855D4",
@@ -799,6 +800,7 @@ export const filenames = {
     "Stories Behind Satori": "5CC699",
     "Storing sensitive data in iOS Apps": "30CC03",
     "Structs and Unions": "9AF47D",
+    "Subproject": "A46FA5",
     "Substack is the new Medium": "A4DEA3",
     "Sudo with Touch ID": "88B68D",
     "Super App": "81CE0D",
@@ -972,5 +974,6 @@ export const filenames = {
     "하얼빈": "7F0B4A",
     "한국의 입시와 거짓된 명예": "428E37",
     "한민족의 동족노예화": "466E21",
-    "한자 타자기": "FCE414"
+    "한자 타자기": "FCE414",
+    "활자": "215D48"
 }

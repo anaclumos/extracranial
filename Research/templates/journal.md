@@ -10,4 +10,6 @@ slug: '/{{date:YYYY-MM-DD}}'
 
 ## [[Project]]
 
+## [[Building Habit]]
+
 - [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]
