@@ -347,6 +347,9 @@ export const backlinks = {
     "2022-12-20": {
         "하늘땅사람": "## [[2022-12-20]]"
     },
+    "2023-01-16": {
+        "하늘땅사람": "## [[2023-01-16]]"
+    },
     "2022-09-24": {},
     "2022-06-29": {},
     "2022-07-13": {
@@ -561,6 +564,9 @@ export const backlinks = {
     "Logseq": {
         "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]].",
         "Tools Must Vanish": "I believe that Roam Research and [[Logseq]] are at the culminating position of this simplicity."
+    },
+    "활자": {
+        "하늘땅사람": "Subproject로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 구현체"
     },
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
@@ -995,9 +1001,6 @@ export const backlinks = {
         "Ghost 테마를 자동 배포하는 방법": "... up a workflow yourself`를 누른다. 새로운 workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 [[YAML]] 코드를 복사하여 붙여넣는다. GitHub Secrets에 Key 이름을 다르게 저장했다면 마지막 두 ...",
         "Higher-Level Languages and Their Speeds": "... entire product catalog of the e-commerce site can be a single [[YAML]] read on boot? This goes for many more objects than I ..."
     },
-    "Microproject": {
-        "2022-08-18": "- [[Microproject]]"
-    },
     "Monolithic Model": {
         "2022-09-03": "- [[Monolithic Model]]",
         "Game Programming": "- [[Monolithic Model]]",
@@ -1292,7 +1295,8 @@ export const backlinks = {
         "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-11-30": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
         "2022-12-27": "- [[2022년 11월 한 달간 일기 쓰기]]",
-        "2023-01-09": "- [[2022년 11월 한 달간 일기 쓰기]]"
+        "2023-01-09": "- [[2022년 11월 한 달간 일기 쓰기]]",
+        "Building Habit": "- [[2022년 11월 한 달간 일기 쓰기]]"
     },
     "Letter to Mr. Matt Rickard on 2022-12-21": {
         "2022-12-21": "- [[Letter to Mr. Matt Rickard on 2022-12-21]]"
@@ -1861,6 +1865,7 @@ export const backlinks = {
         "2023-01-13": "## [[Project]]",
         "2023-01-14": "## [[Project]]",
         "2023-01-15": "## [[Project]]",
+        "2023-01-16": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -1889,7 +1894,6 @@ export const backlinks = {
         "Krafton Way": "... 능력을 검증해야 한다\"고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
         "Kubernetes": "... designed Kubernetes, but the Cloud Native Computing Foundation now maintains the [[project]].",
         "Markdown Email Client": "Someday [[Project]]. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. ...",
-        "Microproject": "- [[Project]] should finish within a day.",
         "Not-So-Procrastinating Lazy Loading": "Someday [[Project]]. `img loading=lazy`, but if the network idles for a given timespan, ...",
         "Notion": "> Notion is a [[project]] management and note-taking software platform designed to help members of companies ...",
         "Off The Record": "Someday [[Project]]. Disappearing message for iMessage.",
@@ -2222,7 +2226,9 @@ export const backlinks = {
         "2023-01-02": "- [[하늘땅사람]]",
         "2023-01-03": "- [[하늘땅사람]]",
         "2023-01-15": "- [[하늘땅사람]]",
-        "Project": "- [[하늘땅사람]]"
+        "2023-01-16": "- [[하늘땅사람]]",
+        "Project": "- [[하늘땅사람]]",
+        "활자": "[[하늘땅사람]]의 [[Subproject|하위 계획]]."
     },
     "3D": {
         "2022-10-21": "- [[3D]]",
@@ -2355,6 +2361,10 @@ export const backlinks = {
     },
     "Dynamically Linked Libraries": {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
+    },
+    "Building Habit": {
+        "2023-01-15": "## [[Building Habit]]",
+        "2023-01-16": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3164,6 +3174,11 @@ export const backlinks = {
     "latexify.cho.sh": {
         "2022-12-27": "- [[latexify.cho.sh]]"
     },
+    "Subproject": {
+        "2022-08-18": "- [[Subproject]]",
+        "하늘땅사람": "[[Subproject]]로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 ...",
+        "활자": "하늘땅사람의 [[Subproject|하위 계획]]."
+    },
     "React": {
         "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 중이다.",
         "2022-09-10": "- [[React]] components library with native dark theme support",
@@ -3261,7 +3276,9 @@ export const backlinks = {
         "2023-01-12": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
         "2023-01-13": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-14": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
-        "2023-01-15": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다."
+        "2023-01-15": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
+        "2023-01-16": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
+        "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
         "2022-11-04": "- [[Principles of Inclusion]]"
@@ -3808,6 +3825,7 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
+        "2023-01-16": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -4379,6 +4397,10 @@ export const backlinks = {
     },
     "E64653.png": {
         "Redirecting READMEs": "![[E64653.png]]"
+    },
+    "1F8668.png": {
+        "하늘땅사람": "![[1F8668.png]]",
+        "활자": "![[1F8668.png]]"
     },
     "8692F9.png": {
         "How is WebAssembly cross-platform when Assembly is not": "![[8692F9.png]]"
