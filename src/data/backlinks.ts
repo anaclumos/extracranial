@@ -4795,6 +4795,9 @@ export const backlinks = {
     "6725A3.jpeg": {
         "하늘땅사람": "![[6725A3.jpeg]]"
     },
+    "AFE367.png": {
+        "하늘땅사람": "![[AFE367.png]]"
+    },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",
         "San Francisco": "![[65AE9A.png]]"
