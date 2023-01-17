@@ -54,5 +54,5 @@ Expand slowly.
 ### Distribution
 
 Riskiest.
-Even with selecting a good VPN, not filling in your personal details in any forms, and perhaps using a special browser session (or even a different computer)
+Even with selecting a good VPN, not filling in your personal details in any forms, and perhaps using a special [[Web Browser|browser]] session (or even a different computer)
 a highly motivated nation-state actor can probably look at incoming and outgoing data flows for VPN servers, and deduce who you are.

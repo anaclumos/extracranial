@@ -367,6 +367,7 @@ export const backlinks = {
     "2022-12-21": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "## Reply on [[2022-12-21]]"
     },
+    "2023-01-17": {},
     "2022-09-25": {
         "0110 Balanced Binary Tree": "Solved at: [[2022-09-25]]",
         "0235 LCA of a Binary Search Tree": "Solved at: [[2022-09-25]]. Took 17m 09s",
@@ -636,10 +637,6 @@ export const backlinks = {
         "Logseq": "... privacy-first, open-source knowledge base that works on top of local plain-text [[Markdown]] and Org-mode files. Use it to write, organize and share your ...",
         "Markdown Email Client": "Someday Project. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as a beautiful ...",
         "Toss Product Sans": "- 디자인 플랫폼 팀과 함께 제작한 [[Markdown|마크다운]] 규칙으로 특수 문자를 쓸 수 있도록"
-    },
-    "PDF (File Format)": {
-        "2022-06-05": "- Convert ACSM (File Format) files to [[PDF (File Format)]]/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software ...",
-        "Screenshot as an API": "    - No need to understand [[PDF (File Format)]] data format"
     },
     "Computer Systems": {
         "2022-11-03": "- [[Computer Systems]]",
@@ -1070,9 +1067,9 @@ export const backlinks = {
         "2023-01-13": "- [[Chromium]]",
         "Apple Newsroom 서체 따라하기": "- 2020년 4월 업데이트된 [[Chromium]] 81에서 BlinkMacSystemFont의 font-weight가 무시되는 버그가 발생했다.",
         "Developing Review Notes for Obsidian": "참고로 옵시디언은 [[Chromium]]이기 때문에 다음과 같이 Dev Console을 열 수 있다.",
-        "Porting a Chrome Extension to Firefox Add-on": "1. On your Chrome browser (or on any equivalent [[Chromium]] browsers,) visit `chrome://extensions`.",
+        "Porting a Chrome Extension to Firefox Add-on": "1. On your Chrome Web Browser|browser (or on any equivalent [[Chromium]] [[Web Browser|browsers]],) visit `chrome://extensions`.",
         "Satori": "- Difficult: This solution required launching [[Chromium]] in a Serverless Function and taking a screenshot of the given ...",
-        "Snowpack으로 WASM 시작하기": "... support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other browser supports SharedArrayBuffer."
+        "Snowpack으로 WASM 시작하기": "... support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other Web Browser|browser supports SharedArrayBuffer."
     },
     "Unsemantic": {
         "2022-12-20": "- [[Unsemantic]]"
@@ -1140,7 +1137,9 @@ export const backlinks = {
         "2022-11-23": "- [[Desire-Compatible Growth & Preservation]]"
     },
     "OCR": {
-        "Screenshot as an API": "    - text ([[OCR]])"
+        "Letter to Mr. Matt Rickard on 2022-10-03": "- Applying [[OCR]] to Naver Vibe, 'moving third-party music list in seconds' Electronic Times.",
+        "Screenshot as an API": "    - text ([[OCR]])",
+        "Using an iPad as my Ebook": "... I fell in love with Book Scanning as a PDF with [[OCR]], and I figured it is very lovable. I can't understand why ..."
     },
     "Spellbound": {
         "2022-05-31": "- [[Spellbound]]",
@@ -1224,7 +1223,29 @@ export const backlinks = {
         "2022-08-24": "- [[Separation of Computer Scientists and Computer Technologists]]"
     },
     "Web Browser": {
-        "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow"
+        "2022-06-12": "... can be used to describe interfaces intended to be implemented in [[Web Browser|web browsers]]. Web IDL is an IDL variant with several features that allow ...",
+        "2022-07-01": "- Most GitHub users use fairly up-to-date [[Web Browser|browsers]].",
+        "2022-10-20": "2.  This [[Web Browser|browser]] is forked by a couple of other [[Web Browser|browsers]] that are ...",
+        "Brane": "- Parties that create [[Web Browser|browsers]] do not own these limitations; Brane aims to democratize these privileges ...",
+        "Confectionery": "> A minimalistic [[Web Browser|browser]] without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty ...",
+        "Downloading Any Recordings from Zoom": "... both play the video and scroll through the chat list—open the [[Web Browser|browser]] console.",
+        "Dynamic Viewport Units": "... for the dynamic viewport do not update at 60fps. In all [[Web Browser|browsers]] updating is throttled as the UA [[UIUX|UI]] expands or retracts. Some ...",
+        "Finding out Ghost version with JS": "... make the Node.js include the value before responding to the client [[Web Browser|browser]], but I figured that there was a much simpler way after ...",
+        "HTML": "... standard markup language for documents designed to be displayed in a [[web browser]]. It can be assisted by technologies such as Cascading Style Sheets ...",
+        "How is WebAssembly cross-platform when Assembly is not": "  - it runs on [[Web Browser|browsers]]",
+        "JavaScript": "... client side for webpage behavior, often incorporating third-party libraries. All major [[Web Browser|web browsers]] have a dedicated JavaScript engine to execute the code on users' ...",
+        "Next.js": "... traditional React apps can only render their content in the client-side [[Web Browser|browser]], Next.js extends this functionality to include applications rendered on the server ...",
+        "Pensieve": "- Targeted as the intermediary bridge between [[web browser]] data stream (ephemeral) and long-term [[PKM]] data storage.",
+        "Porting a Chrome Extension to Firefox Add-on": "While Chrome and Firefox are two very different [[Web Browser|browsers]], Chrome Extension and Firefox Add-on are now more similar than ever. ...",
+        "Preservation of Data": "... your personal details in any forms, and perhaps using a special [[Web Browser|browser]] session (or even a different computer)",
+        "Proposal of Research to Professor Cote": "\"Alt text\" briefly describes an image and is used if the [[Web Browser|browser]] cannot display the picture. Alt text is typically used in Web ...",
+        "Safari is the new Internet Explorer": "- Apple has a [[Web Browser|browser]] monopoly on iOS, which is something [[Microsoft]] was never able to ...",
+        "Satori": "- Expensive: Spinning up an entire [[Web Browser|browser]] to take a screenshot was not efficient. This led to large ...",
+        "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version ...",
+        "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow",
+        "Svelte": "... out the bulk of their work at runtime, i.e., in the [[Web Browser|browser]]. The compiler itself is written in [[TypeScript]]. Its source code is ...",
+        "The New Era of macOS Applications": "- [[Web Browser|Browsers]]. Chrome → Arc.",
+        "Web Typography": "... faces and styles were controlled exclusively by the settings of each [[web browser]]. There was no mechanism for individual Web pages to control font ..."
     },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]",
@@ -1375,10 +1396,10 @@ export const backlinks = {
         "2022-12-24": "### [[UIUX|UI]] Design Example By sulley (@svlleyy)",
         "Andy Matuschak": "- ex-Apple [[UIUX|UI]]-Kit developer",
         "ChatGPT": "> Turned out to be a chat [[UIUX|UI]] that got people to start tinkering with text.",
-        "Confectionery": "> A minimalistic browser without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty of your designs, not the browser ...",
+        "Confectionery": "> A minimalistic Web Browser|browser without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty of your designs, not the Web ...",
         "Diagram Labs": "- [[UIUX]]",
         "Downloading Any Recordings from Zoom": "... We have reproduced the behavior you have reported. However, while this [[UIUX|UI]] does not expose the download URL for recordings which have opted ...",
-        "Dynamic Viewport Units": "... at 60fps. In all browsers updating is throttled as the UA [[UIUX|UI]] expands or retracts. Some browsers even debounce updating entirely depending on ...",
+        "Dynamic Viewport Units": "... 60fps. In all Web Browser|browsers updating is throttled as the UA [[UIUX|UI]] expands or retracts. Some Web Browser|browsers even debounce updating entirely depending ...",
         "Magician": "- an [[UIUX]] experiment.",
         "Modern MacPaint": "- an [[UIUX]] experiment.",
         "Mr. Doob": "- an [[UIUX]] experiment.",
@@ -1564,6 +1585,9 @@ export const backlinks = {
     "Mr. Doob": {
         "2022-12-16": "- [[Mr. Doob]]"
     },
+    "linkflags.crx": {
+        "2023-01-16": "- [[linkflags.crx]]"
+    },
     "Surfit": {
         "Jumpsite": "## [[Surfit]]"
     },
@@ -1685,6 +1709,7 @@ export const backlinks = {
         "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with ...",
         "Apple-like Block Interface": "## [[Next.js]]",
         "Front-end": "- [[Next.js]]",
+        "Vercel": "... American cloud platform as a service company. The company maintains the [[Next.js]] web development framework. Vercel's architecture is built around Jamstack, and deployments ...",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]",
         "dub.sh": "  - [[Next.js]] framework"
     },
@@ -1899,7 +1924,7 @@ export const backlinks = {
         "Off The Record": "Someday [[Project]]. Disappearing message for iMessage.",
         "Old Fashioned Camera": "Someday [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
         "Open Graph Image as a Service": "Someday [[Project]]. Request Open Graph Images with URI, `POST` payload.",
-        "PDF (File Format)": "... needed to display it. PDF has its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John Warnock in 1991. PDF",
+        "PDF": "... needed to display it. PDF has its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John Warnock in 1991. PDF",
         "Person 1B5A5B": "- Junior = [[Project]] Executors.",
         "Preservation of Data": "> The LOCKSS (\"Lots of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford University, is a peer-to-peer network that ...",
         "Problem": "Leads to a Someday [[Project]].",
@@ -1907,7 +1932,7 @@ export const backlinks = {
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Redactor for iPhone": "Someday [[Project]].",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
-        "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in PDF/Databases. Just like Google",
+        "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
         "TossFace Playground": "- [[Project]] [[Done]]",
@@ -1917,6 +1942,7 @@ export const backlinks = {
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 `http` 모듈 (당연히 `express` 모듈도) 없이 `http` 서버를 구현하는 Project|프로젝트가 ...",
         "iiframe": "Someday [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
         "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert the equation into $\\TeX$.",
+        "linkflags.crx": "Packing Linkflags as Chrome Extensions Someday [[Project]]",
         "postcredit.info": "Someday [[Project]]. 영화 쿠키 있나요?",
         "sem.sh": "Someday [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per repository, ...",
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> 그러나 누군가가 온갖 어려움을 무릅쓰고 반드시 성취해야하는 [[Project|프로젝트]]이다.",
@@ -1931,8 +1957,8 @@ export const backlinks = {
         "하늘땅사람": "키보드를 제작하는 [[Project|프로젝트]]."
     },
     "조선의 노비제도에 관한 보고": {
-        "2023-01-09": "- 한민족의 동족노예화에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
-        "한민족의 동족노예화": "[[조선의 노비제도에 관한 보고]]"
+        "2023-01-09": "- 한민족의 동족수탈에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
+        "한민족의 동족수탈": "[[조선의 노비제도에 관한 보고]]"
     },
     "1448 Count Good Nodes in Binary Tree": {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]"
@@ -2081,9 +2107,6 @@ export const backlinks = {
         "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
         "Synthography": "- [[Stable Diffusion]]"
     },
-    "한민족의 동족노예화": {
-        "2023-01-09": "- [[한민족의 동족노예화]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다."
-    },
     "Pretendard의 아쉬운 점": {
         "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
         "서울 프로": "- [[Pretendard의 아쉬운 점]]"
@@ -2152,7 +2175,7 @@ export const backlinks = {
         "Transient Notes": "- Antonym: [[Evergreen notes]]"
     },
     "IRS": {
-        "Screenshot as an API": "... \"killer app\" for PDF (File Format) was tax returns - the [[IRS]] adopted PDF (File Format) in 1996 because of a rumored frustration ..."
+        "Screenshot as an API": "- The \"killer app\" for PDF was tax returns - the [[IRS]] adopted PDF in 1996 because of a rumored frustration with the ..."
     },
     "0020 Valid Parentheses": {
         "2022-07-10": "- Solved [[0020 Valid Parentheses]]",
@@ -2213,6 +2236,9 @@ export const backlinks = {
     "Notion AI": {
         "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Synthote]]",
         "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if Notion AI got super powerful, giving insight into your ..."
+    },
+    "한민족의 동족수탈": {
+        "2023-01-09": "- [[한민족의 동족수탈]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다."
     },
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
@@ -2283,7 +2309,7 @@ export const backlinks = {
         "2022-11-19": "  - [[When TSC suddenly errors with cannot find module]]"
     },
     "Linux": {
-        "2022-06-05": "... (File Format) files to PDF (File Format)/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software does not utilize Adobe Digital ...",
+        "2022-06-05": "... Convert ACSM (File Format) files to PDF/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software does not utilize Adobe Digital ...",
         "ELF": "- Executable and Linked Format, used in [[Linux]]",
         "Linux Permissions for Keys": "Note that [[Linux]] SSH manual says:",
         "Simple DirectMedia Layer": "... that can run on many operating systems such as Android, iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
@@ -2364,7 +2390,8 @@ export const backlinks = {
     },
     "Building Habit": {
         "2023-01-15": "## [[Building Habit]]",
-        "2023-01-16": "## [[Building Habit]]"
+        "2023-01-16": "## [[Building Habit]]",
+        "2023-01-17": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -2389,7 +2416,8 @@ export const backlinks = {
     },
     "Linkflags": {
         "2022-12-07": "- [[Linkflags]]",
-        "2022-12-12": "- Submitted [[Linkflags]] to [[Browser Company Hackathon]]"
+        "2022-12-12": "- Submitted [[Linkflags]] to [[Browser Company Hackathon]]",
+        "linkflags.crx": "Packing [[Linkflags]] as Chrome Extensions [[Someday]] [[Project]]"
     },
     "Multiplexing": {
         "Internetworking": "- [[Multiplexing]]"
@@ -2592,7 +2620,7 @@ export const backlinks = {
     },
     "Y Combinator": {},
     "Book Scanning": {
-        "Using an iPad as my Ebook": "Furthermore, I fell in love with [[Book Scanning]] as a PDF with OCR, and I figured it is very ..."
+        "Using an iPad as my Ebook": "Furthermore, I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], and I figured it is very ..."
     },
     "공강에서 보내는 공강 활용법": {
         "2016-06-24": "- [[공강에서 보내는 공강 활용법]]"
@@ -2745,7 +2773,7 @@ export const backlinks = {
         "Atomics (JavaScript)": "- SharedArrayBuffer를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.",
         "Project": "- [ ] Does Emscripten WebAssembly|WASM run on [[Web Worker|Web Workers]]?",
         "Providing DOM API to Worker Threads": "- Provide synchronous DOM API Access to [[Web Worker]] Threads",
-        "Satori": "... core engine, Satori, can be used in modern browsers, Node.js, and [[Web Worker|Web Workers]]. Building on top of the core engine, [[Vercel]] OG can be ...",
+        "Satori": "... engine, Satori, can be used in modern Web Browser|browsers, Node.js, and [[Web Worker|Web Workers]]. Building on top of the core engine, [[Vercel]] OG can be ...",
         "Stories Behind Satori": "Converting it into WebAssembly|WASM will also benefit by targeting [[Web Worker|Web Workers]].",
         "Treehouse": "... Treehouse was the first attempt to run a DOM within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]].",
         "WorkerDOM": "Google's take on providing DOM access to [[Web Worker]] Threads.",
@@ -3041,8 +3069,8 @@ export const backlinks = {
         "GitHub": "... every project. Headquartered in California, it has been a subsidiary of [[Microsoft]] since 2018. GitHub",
         "Google": "... Big Five American information technology companies, alongside Amazon, Apple, Meta, and [[Microsoft]]. Google",
         "Person 392196": "- [[Microsoft]]",
-        "Proposal of Research to Professor Cote": "... a result of these vulnerabilities, the major browser vendors (Google, Mozilla, [[Microsoft]], and Apple) decided to disable SharedArrayBuffer by default to avoid the ...",
-        "Safari is the new Internet Explorer": "- Apple has a browser monopoly on iOS, which is something [[Microsoft]] was never able to achieve with IE",
+        "Proposal of Research to Professor Cote": "... result of these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, [[Microsoft]], and Apple) decided to disable SharedArrayBuffer by default to avoid the ...",
+        "Safari is the new Internet Explorer": "... Apple has a Web Browser|browser monopoly on iOS, which is something [[Microsoft]] was never able to achieve with IE",
         "Super App": "- [[Microsoft]] may build an all-in-one \"super app\" to combine various services and ...",
         "TypeScript": "... is a free and open-source programming language developed and maintained by [[Microsoft]]. It is a strict syntactical superset of JavaScript and adds optional ...",
         "Visual Studio Code": "... Studio Code, also commonly referred to as VS Code, made by [[Microsoft]] with the Electron Framework, for Windows, [[Linux]] and macOS. Features include ...",
@@ -3084,7 +3112,7 @@ export const backlinks = {
         "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information"
     },
     "ACSM (File Format)": {
-        "2022-06-05": "- Convert [[ACSM (File Format)]] files to [[PDF (File Format)]]/EPUBs with one command on [[Linux]] \\(and ..."
+        "2022-06-05": "- Convert [[ACSM (File Format)]] files to [[PDF]]/EPUBs with one command on [[Linux]] \\(and macOS very ..."
     },
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
@@ -3278,6 +3306,7 @@ export const backlinks = {
         "2023-01-14": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
         "2023-01-15": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
         "2023-01-16": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
+        "2023-01-17": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3326,6 +3355,12 @@ export const backlinks = {
     "Code Quality for Game Programming": {
         "2022-09-12": "- [[Code Quality for Game Programming]]",
         "Game Programming": "- [[Code Quality for Game Programming]]"
+    },
+    "PDF": {
+        "2022-06-05": "- Convert ACSM (File Format) files to [[PDF]]/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software ...",
+        "Screenshot as an API": "    - No need to understand [[PDF]] data format",
+        "Synonym-based Fuzzy Search": "Someday Project. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
+        "Using an iPad as my Ebook": "Furthermore, I fell in love with Book Scanning as a [[PDF]] with [[OCR]], and I figured it is very lovable. I can't ..."
     },
     "LLM": {
         "2022-11-14": "- Synthote: LLMs for Code: [[LLM|LLMs]]",
@@ -3686,11 +3721,12 @@ export const backlinks = {
         "Problem": "Leads to a [[Someday]] [[Project]].",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
-        "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in PDF/Databases. Just like Google",
+        "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute URI.",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator to gauge market interest.",
         "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
         "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to convert the equation into $\\TeX$.",
+        "linkflags.crx": "Packing Linkflags as Chrome Extensions [[Someday]] [[Project]]",
         "postcredit.info": "[[Someday]] [[Project]]. 영화 쿠키 있나요?",
         "sem.sh": "[[Someday]] [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per ...",
         "사회과부도": "[[Someday]] [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
@@ -3825,7 +3861,6 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
-        "2023-01-16": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -3943,7 +3978,7 @@ export const backlinks = {
         "2022-07-20": "- JavaScript → [[TypeScript]]",
         "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations",
         "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules",
-        "Svelte": "... runtime, i.e., in the browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ...",
+        "Svelte": "... i.e., in the Web Browser|browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ...",
         "WebGPU": "- It's a stand-alone [[TypeScript]]+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ..."
     },
     "Floyd Cycle Finding Algorithm": {
