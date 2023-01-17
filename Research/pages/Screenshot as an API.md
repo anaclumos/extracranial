@@ -18,7 +18,7 @@ slug: '/8B4F7C'
   - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]
 - What's good:
   - Easier to parse than highly complex layout formats
-    - No need to understand [[PDF (File Format)]] data format
+    - No need to understand [[PDF]] data format
     - No need to hydrate webs for web crawlers
   - Universally available, easily copyable
     - Images aren't the most efficient encoding method for text.
@@ -32,16 +32,16 @@ slug: '/8B4F7C'
     - ['타사 음원 리스트 수초만에 이동' 네이버 바이브에 OCR 적용 - 전자신문](https://www.etnews.com/20190410000104)
 - More complex metadata
   - Look how effective image search is on mobile. Dogs, City, Oceans...
-  - Some come from the actual image metadata, others inferred with on-device models.
-  - Automatically encoding this data in traditional formats like [[PDF (File Format)]] takes much longer.
+  - Some come from the actual image metadata, and others are inferred with on-device models.
+  - Automatically encoding this data in traditional formats like [[PDF]] takes much longer.
 - I wrote a reply like the following. [[Letter to Mr. Matt Rickard on 2022-10-03]]
 
 ### [Rethinking the PDF](https://matt-rickard.com/rethinking-the-pdf)
 
-- It's founder, John Warnock (co-founder of Adobe), prototyped a compatibility layer where documents would look and, most importantly, print (!) the same regardless of the computer they were viewed on ([1993 video](https://www.youtube.com/watch?v=qRrpyY8KPWE)). _This is the [[PDF (File Format)]]._
-- The "killer app" for [[PDF (File Format)]] was tax returns - the [[IRS]] adopted [[PDF (File Format)]] in 1996 because of a rumored frustration with the US Postal Service.
+- It's founder, John Warnock (co-founder of Adobe), prototyped a compatibility layer where documents would look and, most importantly, print (!) the same regardless of the computer they were viewed on ([1993 video](https://www.youtube.com/watch?v=qRrpyY8KPWE)). _This is the [[PDF]]._
+- The "killer app" for [[PDF]] was tax returns - the [[IRS]] adopted [[PDF]] in 1996 because of a rumored frustration with the US Postal Service.
 - Things that lack:
-  - Enterprise-grade [[OCR]] for [[PDF (File Format)]] documents still doesn't exist in 2022, albeit having state-of-the-art computer vision techniques.
+  - Enterprise-grade [[OCR]] for [[PDF]] documents still doesn't exist in 2022, albeit having state-of-the-art computer vision techniques.
   - Interactive and web-enabled forms. Sometimes it saves without the data filled in
   - Slow page loads. Better alternatives: [[EPUB]], [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File Format)]].
 

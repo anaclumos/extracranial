@@ -27,8 +27,8 @@ It was a clever move that did not violate any law restrictions or terms of use.
 I attached a translated article and video for you.
 The video is in Korean, but it's a 30-second visual tutorial video, so you'll get the feeling.
 
-- [Applying OCR to Naver Vibe, 'moving third-party music list in seconds' - Electronic Times.](https://www-etnews-com.translate.goog/20190410000104?_x_tr_sl=ko&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
-- [[Tutorial] How to easily import playlists from other music apps.](https://www.youtube.com/watch?v=lIs51GVQnDw)
+- Applying [[OCR]] to Naver Vibe, 'moving third-party music list in seconds' [Electronic Times.](https://www-etnews-com.translate.goog/20190410000104?_x_tr_sl=ko&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
+- Tutorial: How to easily import playlists from other music apps. [Video](https://www.youtube.com/watch?v=lIs51GVQnDw)
 
 The Korean tech market has these random unheard intriguing stories.
 I'm at @anaclumos on GitHub, Twitter, and any other platform.

@@ -29,7 +29,7 @@ document.getElementsByClassName('transcript')[0].prepend(download)
 ```
 
 - Access the Zoom video recording page.
-- After the webpage completes loading—when you can both play the video and scroll through the chat list—open the browser console.
+- After the webpage completes loading—when you can both play the video and scroll through the chat list—open the [[Web Browser|browser]] console.
 - Paste this code and close the console.
 - There will be a random button on top of the chat list. Don't click it; right-click it and select **Save Link As**.
 - Now the video will download.
@@ -42,6 +42,6 @@ Furthermore, instructors can decide if they want to open up downloading the orig
 
 That's what I told Zoom HQ. They responded:
 
-> Thank you for your report. We have reproduced the behavior you have reported. However, while this [[UIUX|UI]] does not expose the download URL for recordings which have opted to disable the download functionality, a user may still record the meeting locally using a screen-recording program. In addition, for the browser to be able to play the recording, it must be transmitted to the browser in some form, which an attacker may save during transmission, and so the prevention of this is non-trivial. We appreciate your suggestion and may look into making this change in the future, but at the moment, we consider this to be a [Defense-In-Depth](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>) measure. With every fix, we must carefully weigh the usability tradeoffs of any additional security control. We are reasonably satisfied with our security at this time, and **we have chosen not to make any changes to our platform for the time being**. We will be closing this report, but we still want to thank you for all your effort in bringing this behavior to our attention. Thank you for thinking of Zoom security.
+> Thank you for your report. We have reproduced the behavior you have reported. However, while this [[UIUX|UI]] does not expose the download URL for recordings which have opted to disable the download functionality, a user may still record the meeting locally using a screen-recording program. In addition, for the [[Web Browser|browser]] to be able to play the recording, it must be transmitted to the [[Web Browser|browser]] in some form, which an attacker may save during transmission, and so the prevention of this is non-trivial. We appreciate your suggestion and may look into making this change in the future, but at the moment, we consider this to be a [Defense-In-Depth](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>) measure. With every fix, we must carefully weigh the usability tradeoffs of any additional security control. We are reasonably satisfied with our security at this time, and **we have chosen not to make any changes to our platform for the time being**. We will be closing this report, but we still want to thank you for all your effort in bringing this behavior to our attention. Thank you for thinking of Zoom security.
 
 Well... It seems like they're not interested, and no patch will come soon. So, for the time being, use this code wisely, and abide by your laws!
