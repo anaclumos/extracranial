@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5475ac4243bed0a1",
+        "id": "daaf1988e61264d2",
         "type": "tabs",
         "children": [
           {
-            "id": "3a5c270358bdb7d4",
+            "id": "58a0a93a659d53ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-01-16.md",
+                "file": "pages/Delta Time.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-16.md",
+                "file": "pages/Delta Time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-01-16.md"
+                "file": "pages/Delta Time.md"
               }
             }
           }
@@ -126,17 +126,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "3a5c270358bdb7d4",
+  "active": "58a0a93a659d53ee",
   "lastOpenFiles": [
-    "pages/하늘땅사람.md",
-    "pages/활자.md",
-    "pages/Subproject.md",
-    "journals/2023-01-16.md",
-    "journals/2023-01-15.md",
-    "pages/Building Habit.md",
-    "templates/journal.md",
-    "pages/2638C6.png.md",
-    "pages/식영부원의 관점에서 바라본 치킨데이.md",
-    "pages/One Bit Display.md"
+    "journals/2022-09-05.md",
+    "pages/Symbol (Computer Systems).md",
+    "journals/2022-09-14.md",
+    "pages/한민족의 동족수탈.md",
+    "pages/초상권 vs 저작권.md",
+    "journals/2022-07-07.md",
+    "journals/2022-11-19.md",
+    "pages/조선의 노비제도에 관한 보고.md",
+    "pages/Y Combinator.md",
+    "journals/2016-11-15.md"
   ]
 }

@@ -4,7 +4,7 @@ slug: '/803226'
 ---
 
 - An experimental [[tools for thought]] for capturing the context of information.
-- Targeted as the intermediary bridge between web browser data stream (ephemeral) and long-term [[PKM]] data storage.
+- Targeted as the intermediary bridge between [[web browser]] data stream (ephemeral) and long-term [[PKM]] data storage.
 
 ### [Pensieve Guidebook](https://cotton-saturn-259.notion.site/Pensieve-Guidebook-d0568a1ddd974952a37dc03fea234dc5)
 

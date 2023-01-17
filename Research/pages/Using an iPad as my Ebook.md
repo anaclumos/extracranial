@@ -25,4 +25,4 @@ The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker New
 
 While the search to find the best [[ebook]] reader is yet to finish, a recent discovery on [[2023-01-12]] suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter — essentially solving the [[Digital Addiction]].
 
-Furthermore, I fell in love with [[Book Scanning]] as a PDF with OCR, and I figured it is very lovable. I can't understand why [[Ridi]] and [[Kindle]] make the purchased book un-exportable.
+Furthermore, I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], and I figured it is very lovable. I can't understand why [[Ridi]] and [[Kindle]] make the purchased book un-exportable.

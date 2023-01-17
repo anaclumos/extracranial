@@ -230,6 +230,7 @@ export const filenames = {
     "2023-01-14": "2023-01-14",
     "2023-01-15": "2023-01-15",
     "2023-01-16": "2023-01-16",
+    "2023-01-17": "2023-01-17",
     "2023년 1월과 2월에 하루 25분 조깅하기": "9A31D7",
     "3D": "82C83C",
     "3d Globe on the Web": "432EF8",
@@ -648,7 +649,7 @@ export const filenames = {
     "P vs NP": "A9E773",
     "P2P": "21B9AF",
     "PARA": "B4364B",
-    "PDF (File Format)": "21FF82",
+    "PDF": "21FF82",
     "PECR": "5CB3B0",
     "PKM": "E9DD55",
     "PNG (File Format)": "C53294",
@@ -918,6 +919,7 @@ export const filenames = {
     "iOS Style Toggle in CSS": "DDE8E8",
     "iiframe": "5F349B",
     "latexify.cho.sh": "D5036F",
+    "linkflags.crx": "9DE40A",
     "optimized simulation": "82E962",
     "phash.wasm": "C75DBF",
     "postcredit.info": "8DFCEE",
@@ -973,7 +975,7 @@ export const filenames = {
     "하늘땅사람": "C222D1",
     "하얼빈": "7F0B4A",
     "한국의 입시와 거짓된 명예": "428E37",
-    "한민족의 동족노예화": "466E21",
+    "한민족의 동족수탈": "466E21",
     "한자 타자기": "FCE414",
     "활자": "215D48"
 }
