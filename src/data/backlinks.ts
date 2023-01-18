@@ -237,6 +237,7 @@ export const backlinks = {
     "2020-09-27": {
         "프로젝트 어덕행덕": "- [[2020-09-27]]"
     },
+    "2023-01-18": {},
     "2022-11-24": {
         "Mathematics under The Library of Babel": "## [[2022-11-24]]"
     },
@@ -1891,6 +1892,7 @@ export const backlinks = {
         "2023-01-14": "## [[Project]]",
         "2023-01-15": "## [[Project]]",
         "2023-01-16": "## [[Project]]",
+        "2023-01-18": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -2254,6 +2256,7 @@ export const backlinks = {
         "2023-01-15": "- [[하늘땅사람]]",
         "2023-01-16": "- [[하늘땅사람]]",
         "Project": "- [[하늘땅사람]]",
+        "하늘땅사람 개인정보정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다.",
         "활자": "[[하늘땅사람]]의 [[Subproject|하위 계획]]."
     },
     "3D": {
@@ -2391,7 +2394,8 @@ export const backlinks = {
     "Building Habit": {
         "2023-01-15": "## [[Building Habit]]",
         "2023-01-16": "## [[Building Habit]]",
-        "2023-01-17": "## [[Building Habit]]"
+        "2023-01-17": "## [[Building Habit]]",
+        "2023-01-18": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -2940,6 +2944,9 @@ export const backlinks = {
     "Are.na (Service)": {
         "Jumpsite": "## [[Are.na (Service)]]"
     },
+    "하늘땅사람 개인정보정책": {
+        "2023-01-18": "- [[하늘땅사람 개인정보정책]]"
+    },
     "한자 타자기": {
         "2022-09-29": "- [[한자 타자기]]",
         "Readings": "- [x] [[한자 타자기]]"
@@ -3307,6 +3314,7 @@ export const backlinks = {
         "2023-01-15": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
         "2023-01-16": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
         "2023-01-17": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
+        "2023-01-18": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3861,6 +3869,7 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
+        "2023-01-18": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
