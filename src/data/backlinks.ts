@@ -4286,9 +4286,9 @@ export const backlinks = {
         "2022-12-08": "![[94861D.png]]",
         "Wikipedia": "![[94861D.png]]"
     },
-    "239A75.png": {
-        "2022-12-19": "![[239A75.png]]",
-        "하늘땅사람": "![[239A75.png]]"
+    "5B9AFC.png": {
+        "2022-12-19": "![[5B9AFC.png]]",
+        "하늘땅사람": "![[5B9AFC.png]]"
     },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
@@ -4394,9 +4394,9 @@ export const backlinks = {
     "D8D74F.png": {
         "2022-10-14": "![[D8D74F.png]]"
     },
-    "3672D5.gif": {
-        "2023-01-02": "![[3672D5.gif]]",
-        "하늘땅사람": "![[3672D5.gif]]"
+    "EAADF1.gif": {
+        "2023-01-02": "![[EAADF1.gif]]",
+        "하늘땅사람": "![[EAADF1.gif]]"
     },
     "E13484.png": {
         "2022-12-20": "![[E13484.png]]"
@@ -4454,9 +4454,9 @@ export const backlinks = {
     "E64653.png": {
         "Redirecting READMEs": "![[E64653.png]]"
     },
-    "DA9A4B.png": {
-        "하늘땅사람": "![[DA9A4B.png]]",
-        "활자": "![[DA9A4B.png]]"
+    "CD56C6.png": {
+        "하늘땅사람": "![[CD56C6.png]]",
+        "활자": "![[CD56C6.png]]"
     },
     "8692F9.png": {
         "How is WebAssembly cross-platform when Assembly is not": "![[8692F9.png]]"
@@ -4834,26 +4834,26 @@ export const backlinks = {
     "85D135.png": {
         "하늘땅사람": "![[85D135.png]]"
     },
-    "C13619.png": {
-        "하늘땅사람": "![[C13619.png]]"
+    "B9DE45.png": {
+        "하늘땅사람": "![[B9DE45.png]]"
     },
-    "92D5A8.png": {
-        "하늘땅사람": "![[92D5A8.png]]"
+    "B1C8D0.png": {
+        "하늘땅사람": "![[B1C8D0.png]]"
     },
-    "9B5A9A.png": {
-        "하늘땅사람": "![[9B5A9A.png]]"
+    "171C7C.png": {
+        "하늘땅사람": "![[171C7C.png]]"
     },
-    "A1AC12.png": {
-        "하늘땅사람": "![[A1AC12.png]]"
+    "EC8120.png": {
+        "하늘땅사람": "![[EC8120.png]]"
     },
-    "88A8E3.png": {
-        "하늘땅사람": "![[88A8E3.png]]"
+    "69DFE5.png": {
+        "하늘땅사람": "![[69DFE5.png]]"
     },
-    "C69317.png": {
-        "하늘땅사람": "![[C69317.png]]"
+    "4B2B9B.png": {
+        "하늘땅사람": "![[4B2B9B.png]]"
     },
-    "C85A85.png": {
-        "하늘땅사람": "![[C85A85.png]]"
+    "80F5B1.png": {
+        "하늘땅사람": "![[80F5B1.png]]"
     },
     "35109C.jpeg": {
         "하늘땅사람": "![[35109C.jpeg]]"
@@ -4870,11 +4870,11 @@ export const backlinks = {
     "A6EFFE.jpeg": {
         "하늘땅사람": "![[A6EFFE.jpeg]]"
     },
-    "B4A5BC.jpeg": {
-        "하늘땅사람": "![[B4A5BC.jpeg]]"
+    "B91CA8.jpeg": {
+        "하늘땅사람": "![[B91CA8.jpeg]]"
     },
-    "B39999.png": {
-        "하늘땅사람": "![[B39999.png]]"
+    "A16A91.png": {
+        "하늘땅사람": "![[A16A91.png]]"
     },
     "B0D7D3.png": {
         "하늘땅사람": "![[B0D7D3.png]]"
@@ -4918,8 +4918,8 @@ export const backlinks = {
     "45CDAB.png": {
         "하늘땅사람": "![[45CDAB.png]]"
     },
-    "CD31D9.png": {
-        "하늘땅사람": "![[CD31D9.png]]"
+    "CB642E.png": {
+        "하늘땅사람": "![[CB642E.png]]"
     },
     "749DA3.png": {
         "하늘땅사람": "![[749DA3.png]]"
