@@ -1151,6 +1151,9 @@ export const backlinks = {
     "방송 장비 담당자로 할 일": {
         "2022-12-26": "- [[방송 장비 담당자로 할 일]]"
     },
+    "하늘땅사람 지원 문서": {
+        "2023-01-18": "- [[하늘땅사람 지원 문서]]"
+    },
     "Markdown Email Client": {
         "2022-10-04": "- [[Markdown Email Client]]",
         "Project": "- [ ] Review MailPilot [[Markdown Email Client]]",
@@ -2256,7 +2259,8 @@ export const backlinks = {
         "2023-01-15": "- [[하늘땅사람]]",
         "2023-01-16": "- [[하늘땅사람]]",
         "Project": "- [[하늘땅사람]]",
-        "하늘땅사람 개인정보정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다.",
+        "하늘땅사람 개인 정보 보호 정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다.",
+        "하늘땅사람 지원 문서": "[[하늘땅사람]]의 지원 문서입니다.",
         "활자": "[[하늘땅사람]]의 [[Subproject|하위 계획]]."
     },
     "3D": {
@@ -2943,9 +2947,6 @@ export const backlinks = {
     },
     "Are.na (Service)": {
         "Jumpsite": "## [[Are.na (Service)]]"
-    },
-    "하늘땅사람 개인정보정책": {
-        "2023-01-18": "- [[하늘땅사람 개인정보정책]]"
     },
     "한자 타자기": {
         "2022-09-29": "- [[한자 타자기]]",
@@ -3881,6 +3882,9 @@ export const backlinks = {
     },
     "Torvalds": {
         "Linux": "... operating system kernel first released on September 17, 1991, by Linus [[Torvalds]]. Linux is typically packaged as a Linux distribution, which includes the ..."
+    },
+    "하늘땅사람 개인 정보 보호 정책": {
+        "2023-01-18": "- [[하늘땅사람 개인 정보 보호 정책]]"
     },
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on my Twitter threads."
