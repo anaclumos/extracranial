@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e59f4aadb8c3718f",
+        "id": "946bc17d12596fc0",
         "type": "tabs",
         "children": [
           {
-            "id": "8796aaf42bd52a13",
+            "id": "b469ff6d9e093236",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/하늘땅사람.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/하늘땅사람.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/하늘땅사람.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -126,10 +118,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8796aaf42bd52a13",
+  "active": "b469ff6d9e093236",
   "lastOpenFiles": [
-    "journals/2023-01-18.md",
     "pages/하늘땅사람.md",
+    "journals/2023-01-18.md",
     "pages/초상권 vs 저작권.md",
     "pages/하늘땅사람 지원 문서.md",
     "pages/하늘땅사람 개인 정보 보호 정책.md",
