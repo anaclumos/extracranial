@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "306456704076dce2",
+        "id": "e36806fed464e7d1",
         "type": "tabs",
         "children": [
           {
-            "id": "f2063b8e7015412f",
+            "id": "0a7d38b9fc90b8a2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/하늘땅사람 개발 기록.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/하늘땅사람 개발 기록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/하늘땅사람 개발 기록.md"
+              }
             }
           }
         ]
@@ -118,15 +126,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f2063b8e7015412f",
+  "active": "0a7d38b9fc90b8a2",
   "lastOpenFiles": [
+    "journals/2023-01-19.md",
     "pages/하늘땅사람.md",
     "pages/하늘땅사람 업데이트 기록.md",
     "pages/하늘땅사람 지원 문서.md",
     "pages/하늘땅사람 개인 정보 보호 정책.md",
     "pages/하늘땅사람 개발 기록.md",
     "pages/활자.md",
-    "journals/2023-01-19.md",
     "journals/2023-01-18.md",
     "pages/초상권 vs 저작권.md",
     "journals/2023-01-17.md"
