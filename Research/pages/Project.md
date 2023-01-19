@@ -11,7 +11,7 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 ## Ongoing Projects
 
 - [[Project Alter]]
-- [[하늘땅사람]]
+- [[하늘땅사람 개발 기록]]
 - [[역사의 집대성]]
 
 ## [[TODO]]
