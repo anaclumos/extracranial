@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "946bc17d12596fc0",
+        "id": "306456704076dce2",
         "type": "tabs",
         "children": [
           {
-            "id": "b469ff6d9e093236",
+            "id": "f2063b8e7015412f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/하늘땅사람.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/하늘땅사람.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/하늘땅사람.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -126,17 +118,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b469ff6d9e093236",
+  "active": "f2063b8e7015412f",
   "lastOpenFiles": [
-    "journals/2023-01-18.md",
     "pages/하늘땅사람.md",
-    "pages/초상권 vs 저작권.md",
+    "pages/하늘땅사람 업데이트 기록.md",
     "pages/하늘땅사람 지원 문서.md",
     "pages/하늘땅사람 개인 정보 보호 정책.md",
-    "journals/2023-01-17.md",
-    "journals/2022-09-05.md",
-    "pages/Symbol (Computer Systems).md",
-    "journals/2022-09-14.md",
-    "pages/한민족의 동족수탈.md"
+    "pages/하늘땅사람 개발 기록.md",
+    "pages/활자.md",
+    "journals/2023-01-19.md",
+    "journals/2023-01-18.md",
+    "pages/초상권 vs 저작권.md",
+    "journals/2023-01-17.md"
   ]
 }
