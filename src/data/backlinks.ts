@@ -73,7 +73,7 @@ export const backlinks = {
     "2022-12-27": {
         "2022년 11월 한 달간 일기 쓰기": "[[2022-12-27]] 회고를 해본다.",
         "Conversation with Alan Chan on 2022-12-27": "Had a conversation with Alan Chan on [[2022-12-27]].",
-        "하늘땅사람": "## [[2022-12-27]]"
+        "하늘땅사람 개발 기록": "## [[2022-12-27]]"
     },
     "2022-07-14": {
         "0125 Valid Palindrome": "Solved at: [[2022-07-14]] and [[2022-07-26]]",
@@ -107,7 +107,7 @@ export const backlinks = {
     },
     "2022-12-17": {},
     "2023-01-15": {
-        "하늘땅사람": "... 입력 불가. 초성이 없는 경우에도 모음과 이중모음까지는 조합이 가능하도록 만들어야겠다. ← [[2023-01-15]] 해결"
+        "하늘땅사람 개발 기록": "... 입력 불가. 초성이 없는 경우에도 모음과 이중모음까지는 조합이 가능하도록 만들어야겠다. ← [[2023-01-15]] 해결"
     },
     "2022-08-29": {},
     "2022-07-24": {
@@ -153,7 +153,7 @@ export const backlinks = {
     },
     "2022-12-28": {
         "Safari is the new Internet Explorer": "  - At least [[2022-12-28]] now they do: Sending web push notifications in Safari and other ...",
-        "하늘땅사람": "## [[2022-12-28]]"
+        "하늘땅사람 개발 기록": "## [[2022-12-28]]"
     },
     "2022-11-06": {},
     "2022-10-08": {},
@@ -206,7 +206,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "## [[2020-09-24]]의 메모"
     },
     "2022-12-19": {
-        "하늘땅사람": "## [[2022-12-19]]"
+        "하늘땅사람 개발 기록": "## [[2022-12-19]]"
     },
     "2022-10-29": {},
     "2022-11-27": {},
@@ -238,7 +238,8 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- [[2020-09-27]]"
     },
     "2023-01-18": {
-        "하늘땅사람": "## [[2023-01-18]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-18]]",
+        "하늘땅사람 업데이트 기록": "## [[2023-01-18]]"
     },
     "2022-11-24": {
         "Mathematics under The Library of Babel": "## [[2022-11-24]]"
@@ -294,6 +295,7 @@ export const backlinks = {
     "2022-08-25": {},
     "2022-06-26": {},
     "2022-07-28": {},
+    "2023-01-19": {},
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
@@ -345,13 +347,13 @@ export const backlinks = {
     },
     "2022-10-14": {},
     "2023-01-02": {
-        "하늘땅사람": "## [[2023-01-02]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-02]]"
     },
     "2022-12-20": {
-        "하늘땅사람": "## [[2022-12-20]]"
+        "하늘땅사람 개발 기록": "## [[2022-12-20]]"
     },
     "2023-01-16": {
-        "하늘땅사람": "## [[2023-01-16]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-16]]"
     },
     "2022-09-24": {},
     "2022-06-29": {},
@@ -371,7 +373,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-12-21": "## Reply on [[2022-12-21]]"
     },
     "2023-01-17": {
-        "하늘땅사람": "## [[2023-01-17]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-17]]"
     },
     "2022-09-25": {
         "0110 Balanced Binary Tree": "Solved at: [[2022-09-25]]",
@@ -420,7 +422,7 @@ export const backlinks = {
     },
     "2022-10-15": {},
     "2023-01-03": {
-        "하늘땅사람": "## [[2023-01-03]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-03]]"
     },
     "Tailscale": {
         "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, \"Best VPN for developers.\"",
@@ -440,7 +442,7 @@ export const backlinks = {
         "2023-01-13": "- [[Swift]]",
         "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]",
-        "하늘땅사람": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
+        "하늘땅사람 개발 기록": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
     },
     "Cube": {
         "2022-08-18": "- [[Cube]]",
@@ -453,7 +455,7 @@ export const backlinks = {
         "CELLO (Product)": "- [[SwiftUI]]",
         "Cube": "- [[SwiftUI]]",
         "ULLO": "- Proof of Concept|PoC of [[SwiftUI]] Photo Widget App",
-        "하늘땅사람": "다만 코드를 분산시키고 좋은 품질을 유지하기 위해 [[SwiftUI]]를 사용하는 방안을 연구 중."
+        "하늘땅사람 개발 기록": "다만 코드를 분산시키고 좋은 품질을 유지하기 위해 [[SwiftUI]]를 사용하는 방안을 연구 중."
     },
     "ChatGPT": {
         "10x": "... group but a term that describes exceptionally talented and productive individuals. [[ChatGPT]]",
@@ -572,7 +574,8 @@ export const backlinks = {
         "Tools Must Vanish": "I believe that Roam Research and [[Logseq]] are at the culminating position of this simplicity."
     },
     "활자": {
-        "하늘땅사람": "Subproject로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 구현체"
+        "하늘땅사람": "- [[활자]]",
+        "하늘땅사람 개발 기록": "Subproject로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 구현체"
     },
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
@@ -1157,7 +1160,8 @@ export const backlinks = {
     },
     "하늘땅사람 지원 문서": {
         "2023-01-18": "- [[하늘땅사람 지원 문서]]",
-        "하늘땅사람": "- [[하늘땅사람 지원 문서]]"
+        "하늘땅사람": "- [[하늘땅사람 지원 문서]]",
+        "하늘땅사람 개발 기록": "- [[하늘땅사람 지원 문서]]"
     },
     "Markdown Email Client": {
         "2022-10-04": "- [[Markdown Email Client]]",
@@ -1346,7 +1350,7 @@ export const backlinks = {
         "React Native": "... by Meta Platforms, Inc. It is used to develop applications for [[Android]], Android TV, iOS, macOS, tvOS, Web, Windows, and UWP by enabling ...",
         "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
         "Torvalds": "... kernel, used by Linux distributions and other operating systems such as [[Android]]. He also created the distributed version control system Git. Linus Torvalds",
-        "하늘땅사람": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
+        "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "FinTech and Justice": {
         "2022-10-18": "- [[FinTech and Justice]]"
@@ -1388,7 +1392,7 @@ export const backlinks = {
     },
     "Midjourney": {
         "2022-12-28": "- [[Midjourney]]",
-        "하늘땅사람": "[[Midjourney]]를 이용해서 앱 아이콘을 그랬다."
+        "하늘땅사람 개발 기록": "[[Midjourney]]를 이용해서 앱 아이콘을 그랬다."
     },
     "CalliFontia": {
         "2022-08-10": "- [[CalliFontia]]",
@@ -1902,6 +1906,7 @@ export const backlinks = {
         "2023-01-15": "## [[Project]]",
         "2023-01-16": "## [[Project]]",
         "2023-01-18": "## [[Project]]",
+        "2023-01-19": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -1965,7 +1970,7 @@ export const backlinks = {
         "역사의 집대성": "흩어진 개인사를 하나의 기록소 안에 모두 집대성하는 [[Project|프로젝트]]이다.",
         "조선왕조실록": "Someday [[Project]]. Fast and Modern version of sillok.history.go.kr.",
         "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다.",
-        "하늘땅사람": "키보드를 제작하는 [[Project|프로젝트]]."
+        "하늘땅사람": "... 없이 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 [[Project|프로젝트]]."
     },
     "조선의 노비제도에 관한 보고": {
         "2023-01-09": "- 한민족의 동족수탈에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
@@ -2256,19 +2261,7 @@ export const backlinks = {
         "Android": "- [[Android equivalent of div]]"
     },
     "하늘땅사람": {
-        "2022-12-19": "### [[하늘땅사람]]",
-        "2022-12-20": "- [[하늘땅사람]]",
-        "2022-12-27": "- [[하늘땅사람]]",
-        "2022-12-28": "- [[하늘땅사람]]",
-        "2023-01-02": "- [[하늘땅사람]]",
-        "2023-01-03": "- [[하늘땅사람]]",
-        "2023-01-15": "- [[하늘땅사람]]",
-        "2023-01-16": "- [[하늘땅사람]]",
-        "2023-01-18": "- [[하늘땅사람]]",
-        "Project": "- [[하늘땅사람]]",
-        "하늘땅사람 개인 정보 보호 정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다.",
-        "하늘땅사람 지원 문서": "[[하늘땅사람]]의 지원 문서입니다.",
-        "활자": "[[하늘땅사람]]의 [[Subproject|하위 계획]]."
+        "2023-01-19": "- [[하늘땅사람]]"
     },
     "3D": {
         "2022-10-21": "- [[3D]]",
@@ -2406,7 +2399,8 @@ export const backlinks = {
         "2023-01-15": "## [[Building Habit]]",
         "2023-01-16": "## [[Building Habit]]",
         "2023-01-17": "## [[Building Habit]]",
-        "2023-01-18": "## [[Building Habit]]"
+        "2023-01-18": "## [[Building Habit]]",
+        "2023-01-19": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -2871,7 +2865,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "- Seems like WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the genuinely low-level [[Assembly]].",
         "IntelliJ": "> IntelliJ IDEA is an integrated development environment (IDE) written in [[Java]] for developing computer software written in Java, Kotlin, Groovy, and other ...",
         "Write Once Run Everywhere": "... created by Sun Microsystems to illustrate the cross-platform benefits of the [[Java]] language. Ideally, a Java program could be developed on any device, ...",
-        "하늘땅사람": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
+        "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "Digital Addiction": {
         "2022-07-13": "- [[Digital Addiction]]",
@@ -3219,8 +3213,8 @@ export const backlinks = {
     },
     "Subproject": {
         "2022-08-18": "- [[Subproject]]",
-        "하늘땅사람": "[[Subproject]]로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 ...",
-        "활자": "하늘땅사람의 [[Subproject|하위 계획]]."
+        "하늘땅사람 개발 기록": "[[Subproject]]로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 ...",
+        "활자": "하늘땅사람 개발 기록의 [[Subproject|하위 계획]]."
     },
     "React": {
         "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 중이다.",
@@ -3322,7 +3316,8 @@ export const backlinks = {
         "2023-01-15": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
         "2023-01-16": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
         "2023-01-17": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
-        "2023-01-18": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-18": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-19": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3666,7 +3661,7 @@ export const backlinks = {
         "2022-07-06": "- Implemented the Technical [[Proof of Concept]] and posted here: [[Proof of Concept|PoC]] that two [[WorkerDOM]] upgraded threads ...",
         "2022-08-04": "- Intermediary [[Proof of Concept|PoC]] Product: [[ULLO]]",
         "ULLO": "- [[Proof of Concept|PoC]] of [[SwiftUI]] Photo Widget App",
-        "하늘땅사람": "다음과 같이 기술 [[Proof of Concept|개념 증명]] 완료."
+        "하늘땅사람 개발 기록": "다음과 같이 기술 [[Proof of Concept|개념 증명]] 완료."
     },
     "Transactional Globe": {
         "2022-10-10": "- [[Transactional Globe]]",
@@ -3877,7 +3872,6 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
-        "2023-01-18": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -3892,7 +3886,8 @@ export const backlinks = {
     },
     "하늘땅사람 개인 정보 보호 정책": {
         "2023-01-18": "- [[하늘땅사람 개인 정보 보호 정책]]",
-        "하늘땅사람": "- [[하늘땅사람 개인 정보 보호 정책]]"
+        "하늘땅사람": "- [[하늘땅사람 개인 정보 보호 정책]]",
+        "하늘땅사람 개발 기록": "- [[하늘땅사람 개인 정보 보호 정책]]"
     },
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on my Twitter threads."
@@ -3991,6 +3986,22 @@ export const backlinks = {
         "2022-11-29": "- UUIDs are Awesome: [[XUID]]?",
         "UUIDs are Awesome": "- [[XUID]]"
     },
+    "하늘땅사람 개발 기록": {
+        "2022-12-19": "### [[하늘땅사람 개발 기록]]",
+        "2022-12-20": "- [[하늘땅사람 개발 기록]]",
+        "2022-12-27": "- [[하늘땅사람 개발 기록]]",
+        "2022-12-28": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-02": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-03": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-15": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-16": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-18": "- [[하늘땅사람 개발 기록]]",
+        "Project": "- [[하늘땅사람 개발 기록]]",
+        "하늘땅사람": "- [[하늘땅사람 개발 기록]]",
+        "하늘땅사람 개인 정보 보호 정책": "[[하늘땅사람 개발 기록]]은 어떤 개인 정보도 수집하지 않습니다.",
+        "하늘땅사람 지원 문서": "[[하늘땅사람 개발 기록]]의 지원 문서입니다.",
+        "활자": "[[하늘땅사람 개발 기록]]의 [[Subproject|하위 계획]]."
+    },
     "AT&T Roaming Incident (December 2022)": {
         "2022-12-27": "- [[AT&T Roaming Incident (December 2022)]]"
     },
@@ -4033,6 +4044,10 @@ export const backlinks = {
     "0079 Word Search": {
         "Coding Tests": "- [[0079 Word Search]]"
     },
+    "하늘땅사람 업데이트 기록": {
+        "하늘땅사람": "- [[하늘땅사람 업데이트 기록]]",
+        "하늘땅사람 지원 문서": "[[하늘땅사람 업데이트 기록]]도 확인해보세요."
+    },
     "Virtual Address Space and Physical Address Space": {
         "2022-11-04": "- [[Virtual Address Space and Physical Address Space]]",
         "Computer Systems": "- [[Virtual Address Space and Physical Address Space]]",
@@ -4058,7 +4073,8 @@ export const backlinks = {
     },
     "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
         "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
-        "하늘땅사람": "[[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]를 통해 제작이 충분히 가능함을 확인."
+        "하늘땅사람": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
+        "하늘땅사람 개발 기록": "[[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]를 통해 제작이 충분히 가능함을 확인."
     },
     "Confectionery": {
         "2022-11-11": "- [[Confectionery]]"
@@ -4288,7 +4304,7 @@ export const backlinks = {
     },
     "5B9AFC.png": {
         "2022-12-19": "![[5B9AFC.png]]",
-        "하늘땅사람": "![[5B9AFC.png]]"
+        "하늘땅사람 개발 기록": "![[5B9AFC.png]]"
     },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
@@ -4396,7 +4412,7 @@ export const backlinks = {
     },
     "EAADF1.gif": {
         "2023-01-02": "![[EAADF1.gif]]",
-        "하늘땅사람": "![[EAADF1.gif]]"
+        "하늘땅사람 개발 기록": "![[EAADF1.gif]]"
     },
     "E13484.png": {
         "2022-12-20": "![[E13484.png]]"
@@ -4455,7 +4471,7 @@ export const backlinks = {
         "Redirecting READMEs": "![[E64653.png]]"
     },
     "CD56C6.png": {
-        "하늘땅사람": "![[CD56C6.png]]",
+        "하늘땅사람 개발 기록": "![[CD56C6.png]]",
         "활자": "![[CD56C6.png]]"
     },
     "8692F9.png": {
@@ -4827,99 +4843,6 @@ export const backlinks = {
     },
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]"
-    },
-    "A02D58.png": {
-        "하늘땅사람": "![[A02D58.png]]"
-    },
-    "85D135.png": {
-        "하늘땅사람": "![[85D135.png]]"
-    },
-    "B9DE45.png": {
-        "하늘땅사람": "![[B9DE45.png]]"
-    },
-    "B1C8D0.png": {
-        "하늘땅사람": "![[B1C8D0.png]]"
-    },
-    "171C7C.png": {
-        "하늘땅사람": "![[171C7C.png]]"
-    },
-    "EC8120.png": {
-        "하늘땅사람": "![[EC8120.png]]"
-    },
-    "69DFE5.png": {
-        "하늘땅사람": "![[69DFE5.png]]"
-    },
-    "4B2B9B.png": {
-        "하늘땅사람": "![[4B2B9B.png]]"
-    },
-    "80F5B1.png": {
-        "하늘땅사람": "![[80F5B1.png]]"
-    },
-    "35109C.jpeg": {
-        "하늘땅사람": "![[35109C.jpeg]]"
-    },
-    "5D6BBD.jpeg": {
-        "하늘땅사람": "![[5D6BBD.jpeg]]"
-    },
-    "D6B132.jpeg": {
-        "하늘땅사람": "![[D6B132.jpeg]]"
-    },
-    "77CE6B.jpeg": {
-        "하늘땅사람": "![[77CE6B.jpeg]]"
-    },
-    "A6EFFE.jpeg": {
-        "하늘땅사람": "![[A6EFFE.jpeg]]"
-    },
-    "B91CA8.jpeg": {
-        "하늘땅사람": "![[B91CA8.jpeg]]"
-    },
-    "A16A91.png": {
-        "하늘땅사람": "![[A16A91.png]]"
-    },
-    "B0D7D3.png": {
-        "하늘땅사람": "![[B0D7D3.png]]"
-    },
-    "5F35F3.png": {
-        "하늘땅사람": "![[5F35F3.png]]"
-    },
-    "904C50.png": {
-        "하늘땅사람": "![[904C50.png]]"
-    },
-    "293DFB.png": {
-        "하늘땅사람": "![[293DFB.png]]"
-    },
-    "621B52.png": {
-        "하늘땅사람": "![[621B52.png]]"
-    },
-    "16B648.png": {
-        "하늘땅사람": "![[16B648.png]]"
-    },
-    "BB99F5.png": {
-        "하늘땅사람": "![[BB99F5.png]]"
-    },
-    "EB4262.png": {
-        "하늘땅사람": "![[EB4262.png]]"
-    },
-    "76E2D2.png": {
-        "하늘땅사람": "![[76E2D2.png]]"
-    },
-    "5855F2.png": {
-        "하늘땅사람": "![[5855F2.png]]"
-    },
-    "54DC34.png": {
-        "하늘땅사람": "![[54DC34.png]]"
-    },
-    "AA66EE.png": {
-        "하늘땅사람": "![[AA66EE.png]]"
-    },
-    "39AE60.png": {
-        "하늘땅사람": "![[39AE60.png]]"
-    },
-    "45CDAB.png": {
-        "하늘땅사람": "![[45CDAB.png]]"
-    },
-    "CB642E.png": {
-        "하늘땅사람": "![[CB642E.png]]"
     },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",
@@ -5324,6 +5247,99 @@ export const backlinks = {
     },
     "AE63DD.png": {
         "Sliding Panes": "![[AE63DD.png]]"
+    },
+    "A02D58.png": {
+        "하늘땅사람 개발 기록": "![[A02D58.png]]"
+    },
+    "85D135.png": {
+        "하늘땅사람 개발 기록": "![[85D135.png]]"
+    },
+    "B9DE45.png": {
+        "하늘땅사람 개발 기록": "![[B9DE45.png]]"
+    },
+    "B1C8D0.png": {
+        "하늘땅사람 개발 기록": "![[B1C8D0.png]]"
+    },
+    "171C7C.png": {
+        "하늘땅사람 개발 기록": "![[171C7C.png]]"
+    },
+    "EC8120.png": {
+        "하늘땅사람 개발 기록": "![[EC8120.png]]"
+    },
+    "69DFE5.png": {
+        "하늘땅사람 개발 기록": "![[69DFE5.png]]"
+    },
+    "4B2B9B.png": {
+        "하늘땅사람 개발 기록": "![[4B2B9B.png]]"
+    },
+    "80F5B1.png": {
+        "하늘땅사람 개발 기록": "![[80F5B1.png]]"
+    },
+    "35109C.jpeg": {
+        "하늘땅사람 개발 기록": "![[35109C.jpeg]]"
+    },
+    "5D6BBD.jpeg": {
+        "하늘땅사람 개발 기록": "![[5D6BBD.jpeg]]"
+    },
+    "D6B132.jpeg": {
+        "하늘땅사람 개발 기록": "![[D6B132.jpeg]]"
+    },
+    "77CE6B.jpeg": {
+        "하늘땅사람 개발 기록": "![[77CE6B.jpeg]]"
+    },
+    "A6EFFE.jpeg": {
+        "하늘땅사람 개발 기록": "![[A6EFFE.jpeg]]"
+    },
+    "B91CA8.jpeg": {
+        "하늘땅사람 개발 기록": "![[B91CA8.jpeg]]"
+    },
+    "A16A91.png": {
+        "하늘땅사람 개발 기록": "![[A16A91.png]]"
+    },
+    "B0D7D3.png": {
+        "하늘땅사람 개발 기록": "![[B0D7D3.png]]"
+    },
+    "5F35F3.png": {
+        "하늘땅사람 개발 기록": "![[5F35F3.png]]"
+    },
+    "904C50.png": {
+        "하늘땅사람 개발 기록": "![[904C50.png]]"
+    },
+    "293DFB.png": {
+        "하늘땅사람 개발 기록": "![[293DFB.png]]"
+    },
+    "621B52.png": {
+        "하늘땅사람 개발 기록": "![[621B52.png]]"
+    },
+    "16B648.png": {
+        "하늘땅사람 개발 기록": "![[16B648.png]]"
+    },
+    "BB99F5.png": {
+        "하늘땅사람 개발 기록": "![[BB99F5.png]]"
+    },
+    "EB4262.png": {
+        "하늘땅사람 개발 기록": "![[EB4262.png]]"
+    },
+    "76E2D2.png": {
+        "하늘땅사람 개발 기록": "![[76E2D2.png]]"
+    },
+    "5855F2.png": {
+        "하늘땅사람 개발 기록": "![[5855F2.png]]"
+    },
+    "54DC34.png": {
+        "하늘땅사람 개발 기록": "![[54DC34.png]]"
+    },
+    "AA66EE.png": {
+        "하늘땅사람 개발 기록": "![[AA66EE.png]]"
+    },
+    "39AE60.png": {
+        "하늘땅사람 개발 기록": "![[39AE60.png]]"
+    },
+    "45CDAB.png": {
+        "하늘땅사람 개발 기록": "![[45CDAB.png]]"
+    },
+    "CB642E.png": {
+        "하늘땅사람 개발 기록": "![[CB642E.png]]"
     },
     "A7416A.png": {
         "Three Column Design": "![[A7416A.png]]"
