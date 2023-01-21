@@ -1,4 +1,5 @@
 export const backlinks = {
+    "2023-01-20": {},
     "2022-10-02": {},
     "2022-12-16": {},
     "2016-10-22": {
@@ -2401,7 +2402,8 @@ export const backlinks = {
         "2023-01-16": "## [[Building Habit]]",
         "2023-01-17": "## [[Building Habit]]",
         "2023-01-18": "## [[Building Habit]]",
-        "2023-01-19": "## [[Building Habit]]"
+        "2023-01-19": "## [[Building Habit]]",
+        "2023-01-20": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3319,6 +3321,7 @@ export const backlinks = {
         "2023-01-17": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
         "2023-01-18": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-19": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-20": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
