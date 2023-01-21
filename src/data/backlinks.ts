@@ -1909,7 +1909,6 @@ export const backlinks = {
         "2023-01-16": "## [[Project]]",
         "2023-01-18": "## [[Project]]",
         "2023-01-19": "## [[Project]]",
-        "2023-01-21": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -3325,7 +3324,7 @@ export const backlinks = {
         "2023-01-18": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-19": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-20": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-21": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-21": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3880,7 +3879,6 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
-        "2023-01-21": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
