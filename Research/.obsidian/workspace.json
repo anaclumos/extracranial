@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/水適穿石.md",
+                "file": "pages/Memex.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/水適穿石.md",
+                "file": "pages/Memex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/水適穿石.md"
+                "file": "pages/Memex.md"
               }
             }
           }
@@ -129,11 +129,11 @@
   },
   "active": "cad7e9955a6291e4",
   "lastOpenFiles": [
+    "pages/水適穿石.md",
     "pages/Memex.md",
     "pages/Letter to Mr. Matt Rickard on 2022-12-21.md",
     "pages/AI replaces expensive jobs first.md",
     "journals/2023-01-21.md",
-    "pages/水適穿石.md",
     "pages/2023년 1월과 2월에 하루 25분 조깅하기.md",
     "journals/2023-01-20.md",
     "journals/2023-01-19.md",

@@ -1995,7 +1995,7 @@ export const backlinks = {
         "Matt Rickard": "- [[Post Git]]"
     },
     "Vannevar Bush": {
-        "Memex": "> 그것은 기억의 확장이자... 기억의 친밀한 보조 장치일 것입니다. — [[Vannevar Bush|버니바 부시]].",
+        "Memex": "그것은 기억의 확장이자... 기억의 친밀한 보조 장치일 것입니다. — [[Vannevar Bush|버니바 부시]].",
         "Tools Must Vanish": "... I see is junk. It's never the Zettelkasten of the next [[Vannevar Bush]]; it's always a setup with tens of plugins, a daily note ..."
     },
     "DX": {
