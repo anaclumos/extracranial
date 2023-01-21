@@ -26,6 +26,8 @@ It is an enlarged intimate supplement to his memory. — [[Vannevar Bush]].
 </Tabs>  
 </Admonition>
 
+![[89B469.png]]
+
 > In "[[As We May Think]]", [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals to develop and read a large self-contained research library, create and follow associative trails of links and personal annotations, and recall these trails at any time to share them with other researchers. This device would closely mimic the associative processes of the human mind, but it would be gifted with permanent recollection. As Bush writes, "Thus science may implement how man produces, stores, and consults the record of the race". [Memex](https://en.wikipedia.org/wiki/Memex)
 
-- Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.
+Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.

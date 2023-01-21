@@ -910,7 +910,7 @@ export const backlinks = {
         "2022-10-18": "- [[Extracranial]]",
         "2022-11-07": "- [[Extracranial]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a Memex or, in my term, [[Extracranial]] at https://cho.sh.",
-        "Memex": "- Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.",
+        "Memex": "Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.",
         "Nextra": "- Potential [[Extracranial]]",
         "Paracosm": "Paracosm is an experimental documentation toolkit & [[Extracranial]] [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech ...",
         "Plateau of Latent Potential": "It could be a form of [[Extracranial]], a [[Memex]], or even [[Conversational AI Tools for Thought]].",
@@ -5208,6 +5208,9 @@ export const backlinks = {
     },
     "F52E67.png": {
         "Text-based Tools for Thought": "![[F52E67.png]]"
+    },
+    "89B469.png": {
+        "Memex": "![[89B469.png]]"
     },
     "FC87FE.png": {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]"
