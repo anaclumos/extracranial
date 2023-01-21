@@ -5209,9 +5209,6 @@ export const backlinks = {
     "F52E67.png": {
         "Text-based Tools for Thought": "![[F52E67.png]]"
     },
-    "89B469.png": {
-        "Memex": "![[89B469.png]]"
-    },
     "FC87FE.png": {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]"
     },
