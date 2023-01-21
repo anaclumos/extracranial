@@ -103,6 +103,7 @@ export const backlinks = {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Reply on [[2022-10-17]]"
     },
     "2022-12-03": {},
+    "2023-01-21": {},
     "2022-10-03": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "- Written: [[2022-10-03]]"
     },
@@ -1908,6 +1909,7 @@ export const backlinks = {
         "2023-01-16": "## [[Project]]",
         "2023-01-18": "## [[Project]]",
         "2023-01-19": "## [[Project]]",
+        "2023-01-21": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -1993,7 +1995,7 @@ export const backlinks = {
         "Matt Rickard": "- [[Post Git]]"
     },
     "Vannevar Bush": {
-        "Memex": "... flexibility. It is an enlarged intimate supplement to his memory. — [[Vannevar Bush]].",
+        "Memex": "> 그것은 기억의 확장이자... 기억의 친밀한 보조 장치일 것입니다. — [[Vannevar Bush|버니바 부시]].",
         "Tools Must Vanish": "... I see is junk. It's never the Zettelkasten of the next [[Vannevar Bush]]; it's always a setup with tens of plugins, a daily note ..."
     },
     "DX": {
@@ -2403,7 +2405,8 @@ export const backlinks = {
         "2023-01-17": "## [[Building Habit]]",
         "2023-01-18": "## [[Building Habit]]",
         "2023-01-19": "## [[Building Habit]]",
-        "2023-01-20": "## [[Building Habit]]"
+        "2023-01-20": "## [[Building Habit]]",
+        "2023-01-21": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3322,6 +3325,7 @@ export const backlinks = {
         "2023-01-18": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-19": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-20": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-21": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3876,6 +3880,7 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
+        "2023-01-21": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
