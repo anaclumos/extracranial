@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b37cb1b2e6e7c6b",
+        "id": "bd29f978b6fc6766",
         "type": "tabs",
         "children": [
           {
-            "id": "8da5d6911cc7b6e0",
+            "id": "35bbc5076ca3fcec",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -119,15 +119,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8da5d6911cc7b6e0",
+  "active": "35bbc5076ca3fcec",
   "lastOpenFiles": [
-    "pages/Memex.md",
     "journals/2023-01-21.md",
+    "journals/2023-01-20.md",
+    "pages/Memex.md",
     "pages/水適穿石.md",
     "pages/Letter to Mr. Matt Rickard on 2022-12-21.md",
     "pages/AI replaces expensive jobs first.md",
     "pages/2023년 1월과 2월에 하루 25분 조깅하기.md",
-    "journals/2023-01-20.md",
     "journals/2023-01-19.md",
     "pages/하늘땅사람 개발 기록.md",
     "pages/Project.md"
