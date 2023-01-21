@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-01-20.md",
+                "file": "pages/Memex.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-20.md",
+                "file": "pages/Memex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-01-20.md"
+                "file": "pages/Memex.md"
               }
             }
           }
@@ -128,15 +128,15 @@
   },
   "active": "2967ccb8f38780be",
   "lastOpenFiles": [
-    "journals/2023-01-19.md",
+    "journals/2023-01-21.md",
+    "pages/水適穿石.md",
+    "pages/2023년 1월과 2월에 하루 25분 조깅하기.md",
     "journals/2023-01-20.md",
+    "journals/2023-01-19.md",
     "pages/하늘땅사람 개발 기록.md",
     "pages/Project.md",
     "pages/하늘땅사람.md",
     "pages/하늘땅사람 업데이트 기록.md",
-    "pages/하늘땅사람 지원 문서.md",
-    "pages/하늘땅사람 개인 정보 보호 정책.md",
-    "pages/활자.md",
-    "journals/2023-01-18.md"
+    "pages/하늘땅사람 지원 문서.md"
   ]
 }
