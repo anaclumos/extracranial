@@ -5,6 +5,9 @@ slug: '/D8A76E'
 
 ![[89B469.png]]
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 :::info
 
 <Tabs>  
