@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Memex.md",
+                "file": "pages/水適穿石.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Memex.md",
+                "file": "pages/水適穿石.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Memex.md"
+                "file": "pages/水適穿石.md"
               }
             }
           }
@@ -129,8 +129,8 @@
   },
   "active": "cad7e9955a6291e4",
   "lastOpenFiles": [
-    "pages/水適穿石.md",
     "pages/Memex.md",
+    "pages/水適穿石.md",
     "pages/Letter to Mr. Matt Rickard on 2022-12-21.md",
     "pages/AI replaces expensive jobs first.md",
     "journals/2023-01-21.md",
