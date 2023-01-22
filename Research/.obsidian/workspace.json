@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bd29f978b6fc6766",
+        "id": "d36410d7b3524df4",
         "type": "tabs",
         "children": [
           {
-            "id": "35bbc5076ca3fcec",
+            "id": "2c37070038be9dc2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -119,9 +119,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "35bbc5076ca3fcec",
+  "active": "2c37070038be9dc2",
   "lastOpenFiles": [
     "journals/2023-01-21.md",
+    "pages/하늘땅사람 업데이트 기록.md",
     "journals/2023-01-20.md",
     "pages/Memex.md",
     "pages/水適穿石.md",
@@ -129,7 +130,6 @@
     "pages/AI replaces expensive jobs first.md",
     "pages/2023년 1월과 2월에 하루 25분 조깅하기.md",
     "journals/2023-01-19.md",
-    "pages/하늘땅사람 개발 기록.md",
-    "pages/Project.md"
+    "pages/하늘땅사람 개발 기록.md"
   ]
 }
