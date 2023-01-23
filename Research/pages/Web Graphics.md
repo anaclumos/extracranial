@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/F2DE83'
 ---
 
+- [[Graphics]] on Web
+- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]
 - [[3d Globe on the Web]]
 
 ## [Bubbles](https://oimo.io/works/bubbles/)

@@ -754,6 +754,9 @@ export const backlinks = {
     "Letter to Mr. Matt Rickard on 2022-12-24": {
         "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]"
     },
+    "HLSL": {
+        "2023-01-23": "- [[HLSL]]"
+    },
     "Meltdown and Spectre": {
         "2022-12-09": "- [[Meltdown and Spectre]]",
         "Computer Systems": "- [[Meltdown and Spectre]]"
@@ -1932,7 +1935,6 @@ export const backlinks = {
         "2023-01-19": "## [[Project]]",
         "2023-01-21": "## [[Project]]",
         "2023-01-22": "## [[Project]]",
-        "2023-01-23": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -2588,6 +2590,11 @@ export const backlinks = {
     "Haruki Murakami": {
         "水適穿石": "### 직업으로서의 소설가 — [[Haruki Murakami|하루키]]"
     },
+    "Shader": {
+        "HLSL": "- Used for [[Shader]] Stuffs.",
+        "Transactional Globe": "> How is it created? Time for a WebGL & [[shader]] thread! pic.twitter.com/7SW4vE5tTJ",
+        "WebGPU": "- It has a built-in [[shader]] linker and binding generator, which means a lot of the tedium ..."
+    },
     "Search in a Latent Space": {
         "2022-12-04": "- [[Search in a Latent Space]]",
         "Atomic Habits": "- Plateau of Latent Potential: Sounds astoundingly similar to [[Search in a Latent Space]]",
@@ -2950,6 +2957,18 @@ export const backlinks = {
         "2022-10-12": "- [[Better Hacker News]]",
         "Handwriting Tools for Thoughts": "- [[Better Hacker News]]",
         "Horizontally Stacked Interface": "  - [[Better Hacker News]]?"
+    },
+    "Graphics": {
+        "CDN": "... large portion of the Internet content today, including web objects (text, [[graphics]], and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), ...",
+        "Figma": "... experience design, emphasizing real-time collaboration and utilizing a variety of vector [[graphics]] editors and prototyping tools. The Figma mobile app for [[Android]] and ...",
+        "Graphic Renderer": "... to be processed and output to a digital image or raster [[graphics]] image file. The term \"rendering\" is analogous to the concept of ...",
+        "Graphics Engine Process": "The general process of a [[graphics]] engine follows:",
+        "PDF": "... description of a fixed-layout flat document, including the text, fonts, vector [[graphics]], raster images and other information needed to display it. PDF has ...",
+        "PNG (File Format)": "> Portable Network Graphics is a raster-[[graphics]] file format that supports lossless data compression. PNG was developed as ...",
+        "SVG (File Format)": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
+        "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex or ...",
+        "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
+        "glTF": "> glTF (derivative short form of [[Graphics]] Language Transmission Format or GL Transmission Format) is a standard file ..."
     },
     "C++": {
         "2022-07-20": "A successor language for [[C++]] requires:",
@@ -3358,7 +3377,7 @@ export const backlinks = {
         "2023-01-20": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-21": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-22": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-23": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-23": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3919,7 +3938,6 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
-        "2023-01-23": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -3928,6 +3946,9 @@ export const backlinks = {
     },
     "Treehouse": {
         "Conversational AI Tools for Thought": "- [[Treehouse]]"
+    },
+    "SIMD": {
+        "2023-01-23": "- [[SIMD]]"
     },
     "Torvalds": {
         "Linux": "... operating system kernel first released on September 17, 1991, by Linus [[Torvalds]]. Linux is typically packaged as a Linux distribution, which includes the ..."
