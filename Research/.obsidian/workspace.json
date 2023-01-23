@@ -4,11 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "73057d21abbb1a3b",
+        "id": "b40dddadc880eaf2",
         "type": "tabs",
         "children": [
           {
-            "id": "03c59645ed1158ac",
+            "id": "95333c6393fcd402",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-01-23.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bcdd989599a9790b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-01-23.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "04f29a9eeadd0616",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-01-23.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3a4d4241941e7423",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,17 +167,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "03c59645ed1158ac",
+  "active": "3a4d4241941e7423",
   "lastOpenFiles": [
-    "pages/Petersburg.md",
+    "pages/Odds.md",
     "journals/2023-01-23.md",
-    "pages/Readings.md",
-    "assets/AED6FB.png",
-    "pages/Vertex Buffer.md",
-    "pages/0733 Flood Fill.md",
-    "pages/As We May Think.md",
-    "pages/Leetcode.md",
-    "pages/Reading Files in Swift.md",
-    "journals/2022-12-26.md"
+    "pages/Bayes Theorem.md",
+    "pages/Total Probability.md",
+    "pages/Partition Problem.md",
+    "pages/Markovity.md",
+    "pages/Multiplication Theorem.md",
+    "pages/Independence.md",
+    "pages/Conditional Probability.md",
+    "pages/Probability.md"
   ]
 }
