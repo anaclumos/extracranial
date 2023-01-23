@@ -1479,7 +1479,8 @@ export const backlinks = {
         "2022-12-04": "- [[Readings]]",
         "2022-12-21": "- [[Readings]]: [[이 땅에 태어나서]], [[하얼빈]]",
         "2022-12-24": "- [[Readings]]",
-        "2023-01-03": "## [[Readings]]"
+        "2023-01-03": "## [[Readings]]",
+        "2023-01-23": "- [[Readings]]"
     },
     "Optimistic Nihilism": {
         "2022-08-04": "### [[Optimistic Nihilism]]",
@@ -2588,6 +2589,9 @@ export const backlinks = {
         "Tools I will use one day": "- [[WasmEdge]]"
     },
     "Computer Science": {},
+    "Petersburg": {
+        "2023-01-23": "- [[Petersburg]]"
+    },
     "Haruki Murakami": {
         "水適穿石": "### 직업으로서의 소설가 — [[Haruki Murakami|하루키]]"
     },
@@ -2970,6 +2974,7 @@ export const backlinks = {
         "SVG (File Format)": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
         "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex or ...",
         "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
+        "Vertex Buffer": "- [[Graphics]]: How to pass instructions from CPU to GPU.",
         "Web Graphics": "- [[Graphics]] on Web",
         "glTF": "> glTF (derivative short form of [[Graphics]] Language Transmission Format or GL Transmission Format) is a standard file ..."
     },
@@ -3763,6 +3768,9 @@ export const backlinks = {
         "10x Technologist": "... developers are a term that describes an exceptionally skilled and productive, [[small yet powerful]] group of software developers. It is a colloquial term used to ...",
         "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the ...",
         "2022-10-27": "- [[Small yet Powerful]]"
+    },
+    "Vertex Buffer": {
+        "2023-01-23": "- [[Vertex Buffer]]"
     },
     "Information amongst Data": {
         "2022-11-24": "- [[Information amongst Data]]",
