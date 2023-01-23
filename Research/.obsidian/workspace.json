@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c4188ac91e104f97",
+        "id": "051d9f0b9fddf355",
         "type": "tabs",
         "children": [
           {
-            "id": "bdcc3a4a3052ec95",
+            "id": "fc7f73e20edce751",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "b2542d00bc711722",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Creating Next Keyboard Button.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-22.md",
+                "file": "pages/Creating Next Keyboard Button.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-01-22.md"
+                "file": "pages/Creating Next Keyboard Button.md"
               }
             }
           }
@@ -126,17 +140,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "bdcc3a4a3052ec95",
+  "active": "b2542d00bc711722",
   "lastOpenFiles": [
-    "pages/Alternatives to After Effects.md",
-    "pages/The New Era of macOS Applications.md",
     "journals/2023-01-22.md",
+    "pages/Alternatives to After Effects.md",
+    "pages/2023년 1월과 2월에 하루 25분 조깅하기.md",
     "journals/2023-01-21.md",
-    "pages/하늘땅사람 업데이트 기록.md",
     "journals/2023-01-20.md",
+    "pages/The New Era of macOS Applications.md",
+    "pages/하늘땅사람 업데이트 기록.md",
     "pages/Memex.md",
     "pages/水適穿石.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-12-21.md",
-    "pages/AI replaces expensive jobs first.md"
+    "pages/Letter to Mr. Matt Rickard on 2022-12-21.md"
   ]
 }
