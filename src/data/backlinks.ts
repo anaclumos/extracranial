@@ -353,7 +353,9 @@ export const backlinks = {
     "2023-01-02": {
         "하늘땅사람 개발 기록": "## [[2023-01-02]]"
     },
-    "2023-01-22": {},
+    "2023-01-22": {
+        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-22]]: 발에 물집이 잡혀 하지 못했다. 하지만 30분 걸었다."
+    },
     "2022-12-20": {
         "하늘땅사람 개발 기록": "## [[2022-12-20]]"
     },
@@ -3890,7 +3892,6 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
-        "2023-01-22": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
