@@ -1013,6 +1013,7 @@ export const backlinks = {
         "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
         "WasmEdge": "WasmEdge: Edge for [[WebAssembly]]",
+        "Web Graphics": "- Usually uses WebGPU and [[WebAssembly|WASM]]",
         "WebGPU": "- It's a stand-alone TypeScript+Rust/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ..."
     },
     "Now Runs On": {
@@ -2623,7 +2624,8 @@ export const backlinks = {
         "Jira": "- Used at [[Karrot]]"
     },
     "WebGPU": {
-        "2022-09-09": "[[WebGPU]]"
+        "2022-09-09": "[[WebGPU]]",
+        "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]"
     },
     "Cross-Origin Embedder Policy": {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Embedder Policy]]: `require-corp`"
@@ -2968,6 +2970,7 @@ export const backlinks = {
         "SVG (File Format)": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
         "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex or ...",
         "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
+        "Web Graphics": "- [[Graphics]] on Web",
         "glTF": "> glTF (derivative short form of [[Graphics]] Language Transmission Format or GL Transmission Format) is a standard file ..."
     },
     "C++": {

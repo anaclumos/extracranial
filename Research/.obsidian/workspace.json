@@ -19,30 +19,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "e767660ba2d916bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/HLSL.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "264f8664928cbbff",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-01-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-01-23.md"
+              }
             }
           }
         ]
@@ -145,12 +126,12 @@
       "random-note:Open random note": false
     }
   },
-  "active": "264f8664928cbbff",
+  "active": "de3d5e747c432183",
   "lastOpenFiles": [
+    "pages/HLSL.md",
     "journals/2023-01-23.md",
     "pages/Web Graphics.md",
     "pages/Graphics.md",
-    "pages/HLSL.md",
     "pages/Transactional Globe.md",
     "pages/Shader.md",
     "pages/SIMD.md",
