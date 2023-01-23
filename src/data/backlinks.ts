@@ -377,6 +377,7 @@ export const backlinks = {
     "2022-10-10": {},
     "2022-12-04": {},
     "2022-10-24": {},
+    "2023-01-23": {},
     "2022-12-21": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "## Reply on [[2022-12-21]]"
     },
@@ -1078,6 +1079,7 @@ export const backlinks = {
         "2022-11-19": "  - [[Implementing Karatsuba Algorithm in Python]]"
     },
     "CSS": {
+        "2023-01-23": "It seems like Wikipedia updated its [[CSS]]...",
         "Font Features": "- [[CSS]] property to enhance legibilities of a [[Font]].",
         "Markdown Email Client": "... Project. You write an email in Markdown. Before sending, select one [[CSS]]. Then... it sends as a beautiful and clean [[HTML]] email!",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting HTML/[[CSS]] into SVGs.",
@@ -1867,6 +1869,7 @@ export const backlinks = {
         "2022-06-12": "- Current PKM software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays a crucial role in graphing. ...",
         "2022-07-01": "...        | Notes are in [[Wikipedia]] Style           ...",
         "2022-12-08": "- [[Wikipedia]]",
+        "2023-01-23": "It seems like [[Wikipedia]] updated its [[CSS]]...",
         "Are.na (Service)": "... People describe Are.na as a garden of ideas or Tumblr meets [[Wikipedia]]."
     },
     "Math-based Coding": {
@@ -1929,6 +1932,7 @@ export const backlinks = {
         "2023-01-19": "## [[Project]]",
         "2023-01-21": "## [[Project]]",
         "2023-01-22": "## [[Project]]",
+        "2023-01-23": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -2426,7 +2430,8 @@ export const backlinks = {
         "2023-01-19": "## [[Building Habit]]",
         "2023-01-20": "## [[Building Habit]]",
         "2023-01-21": "## [[Building Habit]]",
-        "2023-01-22": "## [[Building Habit]]"
+        "2023-01-22": "## [[Building Habit]]",
+        "2023-01-23": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3353,6 +3358,7 @@ export const backlinks = {
         "2023-01-20": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-21": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-22": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-23": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3913,6 +3919,7 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
+        "2023-01-23": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -4473,6 +4480,9 @@ export const backlinks = {
         "2022-10-24": "![[5BE46A.png]]",
         "I travel the World Wide Web": "![[5BE46A.png]]",
         "Transactional Globe": "![[5BE46A.png]]"
+    },
+    "184D2B.png": {
+        "2023-01-23": "![[184D2B.png]]"
     },
     "D815DD.jpeg": {
         "2022-07-12": "![[D815DD.jpeg]]"

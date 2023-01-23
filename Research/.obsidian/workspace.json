@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0eb1ee33d3e41615",
+        "id": "62cfd4bccaaa8e9f",
         "type": "tabs",
         "children": [
           {
-            "id": "243a4f96adc76c32",
+            "id": "de3d5e747c432183",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -118,8 +118,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "243a4f96adc76c32",
+  "active": "de3d5e747c432183",
   "lastOpenFiles": [
+    "journals/2023-01-23.md",
+    "pages/Wikipedia.md",
     "pages/하늘땅사람 업데이트 기록.md",
     "journals/2023-01-22.md",
     "pages/Collabsible View in SwiftUI.md",
@@ -127,8 +129,6 @@
     "pages/Composing Mail in SwiftUI.md",
     "pages/Using System Haptics and Sounds in Swift.md",
     "pages/Reading Files in Swift.md",
-    "pages/Creating Observable Object in SwiftUI.md",
-    "pages/Creating Next Keyboard Button in SwiftUI.md",
-    "pages/SwiftUI.md"
+    "pages/Creating Observable Object in SwiftUI.md"
   ]
 }
