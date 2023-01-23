@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Petersburg.md",
+                "file": "journals/2023-01-23.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Petersburg.md",
+                "file": "journals/2023-01-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Petersburg.md"
+                "file": "journals/2023-01-23.md"
               }
             }
           }
@@ -129,8 +129,8 @@
   },
   "active": "03c59645ed1158ac",
   "lastOpenFiles": [
-    "journals/2023-01-23.md",
     "pages/Petersburg.md",
+    "journals/2023-01-23.md",
     "pages/Readings.md",
     "assets/AED6FB.png",
     "pages/Vertex Buffer.md",
