@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "62cfd4bccaaa8e9f",
+        "id": "7dffd5b8dcb92b84",
         "type": "tabs",
         "children": [
           {
-            "id": "de3d5e747c432183",
+            "id": "7d3f495dd06a05d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "70920b3db7dd72c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Petersburg.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -86,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-23.md",
+                "file": "pages/Petersburg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-01-23.md"
+                "file": "pages/Petersburg.md"
               }
             }
           }
@@ -126,17 +141,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "de3d5e747c432183",
+  "active": "70920b3db7dd72c2",
   "lastOpenFiles": [
-    "pages/HLSL.md",
     "journals/2023-01-23.md",
-    "pages/Web Graphics.md",
-    "pages/Graphics.md",
-    "pages/Transactional Globe.md",
-    "pages/Shader.md",
-    "pages/SIMD.md",
-    "pages/Wikipedia.md",
-    "pages/하늘땅사람 업데이트 기록.md",
-    "journals/2023-01-22.md"
+    "pages/Readings.md",
+    "pages/Petersburg.md",
+    "assets/AED6FB.png",
+    "pages/Vertex Buffer.md",
+    "pages/0733 Flood Fill.md",
+    "pages/As We May Think.md",
+    "pages/Leetcode.md",
+    "pages/Reading Files in Swift.md",
+    "journals/2022-12-26.md"
   ]
 }

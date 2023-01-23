@@ -22,6 +22,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [x] [[Krafton Way]]
 - [x] [[Atomic Habits]]
 - [x] [[유난한 도전]]
+- [x] 상대적이며 절대적인 고양이 백과사전
 
 </Shuffle>
 
