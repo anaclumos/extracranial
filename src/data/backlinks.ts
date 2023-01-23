@@ -448,7 +448,10 @@ export const backlinks = {
     "Swift": {
         "2023-01-13": "- [[Swift]]",
         "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]]",
+        "Reading Files in Swift": "Reading Files in [[Swift]]",
+        "Requesting Review in Swift": "Requesting Review in [[Swift]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]",
+        "Using System Haptics and Sounds in Swift": "Using System Haptics and Sounds in [[Swift]]",
         "하늘땅사람 개발 기록": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
     },
     "Cube": {
@@ -460,6 +463,8 @@ export const backlinks = {
         "2022-11-28": "- [[SwiftUI]]: SwiftUI is convenient, but slow — Alin Panaitiu",
         "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon]]",
         "CELLO (Product)": "- [[SwiftUI]]",
+        "Creating Next Keyboard Button in SwiftUI": "Creating Next Keyboard Button in [[SwiftUI]]",
+        "Creating Observable Object in SwiftUI": "Creating Observable Object in [[SwiftUI]]",
         "Cube": "- [[SwiftUI]]",
         "ULLO": "- Proof of Concept|PoC of [[SwiftUI]] Photo Widget App",
         "하늘땅사람 개발 기록": "다만 코드를 분산시키고 좋은 품질을 유지하기 위해 [[SwiftUI]]를 사용하는 방안을 연구 중."
@@ -1672,6 +1677,9 @@ export const backlinks = {
     "Pivot": {
         "2022-12-21": "- [[Pivot]]"
     },
+    "Reading Files in Swift": {
+        "2023-01-22": "- [[Reading Files in Swift]]"
+    },
     "Conversation with Alan Chan on 2022-12-27": {
         "2022-12-28": "- [[Conversation with Alan Chan on 2022-12-27]]"
     },
@@ -2610,6 +2618,9 @@ export const backlinks = {
     "Palantir Gotham": {
         "Palantir": "- [[Palantir Gotham]]"
     },
+    "Creating Observable Object in SwiftUI": {
+        "2023-01-22": "- [[Creating Observable Object in SwiftUI]]"
+    },
     "Checksum": {
         "Internetworking": "- [[Checksum]]"
     },
@@ -3194,6 +3205,9 @@ export const backlinks = {
         "2022-12-18": "- [[Dynamic Island on the Web]]",
         "Reverse Engineering Apple Music API": "As a part of [[Dynamic Island on the Web]], I reverse-engineered [[Apple Music API]] to get the undocumented Personal Token."
     },
+    "Composing Mail in SwiftUI": {
+        "2023-01-22": "- [[Composing Mail in SwiftUI]]"
+    },
     "Queueing in Internetworking and Congestions": {
         "Internetworking": "- [[Queueing in Internetworking and Congestions]]"
     },
@@ -3566,6 +3580,9 @@ export const backlinks = {
         "Thesephist Work Case Study": "### Notation: [[Text-based Tools for Thought]] that automatically links",
         "Tools for Thought": "- [[Text-based Tools for Thought]]: the basic type of tools for thought."
     },
+    "Using System Haptics and Sounds in Swift": {
+        "2023-01-22": "- [[Using System Haptics and Sounds in Swift]]"
+    },
     "Not-So-Procrastinating Lazy Loading": {},
     "Naver": {
         "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ..."
@@ -3781,6 +3798,9 @@ export const backlinks = {
     "Dynamic Island": {
         "2022-09-30": "### [[Dynamic Island]] Concepts for Desktops",
         "Dynamic Island on the Web": "- [[Dynamic Island]] on the Web"
+    },
+    "Requesting Review in Swift": {
+        "2023-01-22": "- [[Requesting Review in Swift]]"
     },
     "Real Interviews": {
         "2022-09-22": "- [[Real Interviews]]",
@@ -4055,6 +4075,9 @@ export const backlinks = {
     },
     "Proebsting": {
         "2022-12-28": "- [[Proebsting]]"
+    },
+    "Creating Next Keyboard Button in SwiftUI": {
+        "2023-01-22": "- [[Creating Next Keyboard Button in SwiftUI]]"
     },
     "Rewrite it in Rust": {
         "2022-10-19": "- [[Rewrite it in Rust]]",
