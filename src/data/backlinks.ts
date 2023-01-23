@@ -740,6 +740,10 @@ export const backlinks = {
     "그게 뭐라고": {
         "2022-11-23": "- [[그게 뭐라고]]"
     },
+    "Odds": {
+        "2023-01-23": "- [[Odds]]",
+        "Bayes Theorem": "The [[Odds]] form of Bayes Theorem is"
+    },
     "Web Analyzer Tool": {
         "Ray.st": "- [[Web Analyzer Tool]]."
     },
@@ -750,6 +754,9 @@ export const backlinks = {
     "Boring Technologies": {
         "2023-01-13": "- [[Boring Technologies]]",
         "Tailwind": "... around it, I consider Tailwind CSS to be one of the [[Boring Technologies|boring]] established CSS solutions that enables me to be the most productive ..."
+    },
+    "Probability": {
+        "Conditional Probability": "[[Probability]]"
     },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
         "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]"
@@ -780,6 +787,9 @@ export const backlinks = {
         "Evergreen notes": "## [[Andy Matuschak]]",
         "Extracranial": "### [[Andy Matuschak]]",
         "Sliding Panes": "- It seems like it was first introduced by [[Andy Matuschak]], at least his version made it the trend."
+    },
+    "Multiplication Theorem": {
+        "2023-01-23": "- [[Multiplication Theorem]]"
     },
     "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {
         "2022-11-19": "  - [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]",
@@ -1636,6 +1646,9 @@ export const backlinks = {
         "2019-03-04": "- [[코드클럽]]",
         "2022-12-10": "- [[코드클럽]]"
     },
+    "Conditional Probability": {
+        "2023-01-23": "- [[Conditional Probability]]"
+    },
     "Parallelism": {
         "2022-12-09": "- [[Parallelism]]",
         "Computer Systems": "- [[Parallelism]]"
@@ -2003,8 +2016,8 @@ export const backlinks = {
         "하늘땅사람": "... 없이 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 [[Project|프로젝트]]."
     },
     "조선의 노비제도에 관한 보고": {
-        "2023-01-09": "- 한민족의 동족수탈에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
-        "한민족의 동족수탈": "[[조선의 노비제도에 관한 보고]]"
+        "2023-01-09": "- 한민족의 동족상잔에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
+        "한민족의 동족상잔": "[[조선의 노비제도에 관한 보고]]"
     },
     "1448 Count Good Nodes in Binary Tree": {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]"
@@ -2196,6 +2209,9 @@ export const backlinks = {
     "Write Once Run Everywhere": {
         "Dioxus": "[[Write Once Run Everywhere]]"
     },
+    "Bayes Theorem": {
+        "2023-01-23": "- [[Bayes Theorem]]"
+    },
     "Scheduler": {
         "2022-07-11": "Brane requires explicit [[Scheduler|schedulers]] and abstractions to overcome these shortcomings.",
         "2022-07-12": "### [[Scheduler|Schedulers]] in [[WorkerDOM]]",
@@ -2273,6 +2289,9 @@ export const backlinks = {
         "Government Services should have full API support": "- Of course, we would need a Universal Identity and [[Interoperability]] to prevent any lock-ins.",
         "Super App and Democracy": "  - Promote open public digital infrastructure with [[interoperability]]."
     },
+    "Partition Problem": {
+        "2023-01-23": "- [[Partition Problem]]"
+    },
     "Hugging Face": {
         "Project Alter": "... [ ] Inference Server to `image → text`. AWS SageMaker? Or [[Hugging Face]] as an API server?"
     },
@@ -2282,9 +2301,6 @@ export const backlinks = {
     "Notion AI": {
         "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Synthote]]",
         "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if Notion AI got super powerful, giving insight into your ..."
-    },
-    "한민족의 동족수탈": {
-        "2023-01-09": "- [[한민족의 동족수탈]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다."
     },
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
@@ -3341,6 +3357,9 @@ export const backlinks = {
     "Using an iPad as my Ebook": {
         "2023-01-12": "- [[Using an iPad as my Ebook]]"
     },
+    "Independence": {
+        "2023-01-23": "- [[Independence]]"
+    },
     "UUIDs are Awesome": {
         "2022-09-28": "- [[UUIDs are Awesome]]",
         "2022-11-29": "- [[UUIDs are Awesome]]: [[XUID]]?"
@@ -3348,6 +3367,9 @@ export const backlinks = {
     "고통에는 순응이 아니라 감작이 나타난다": {
         "2022-10-18": "- [[고통에는 순응이 아니라 감작이 나타난다]]",
         "월급만큼 중요한 것은 자존급이다": "게다가 [[고통에는 순응이 아니라 감작이 나타난다]]."
+    },
+    "한민족의 동족상잔": {
+        "2023-01-09": "- [[한민족의 동족상잔]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다."
     },
     "Handwriting Tools for Thoughts": {
         "2022-10-12": "- [[Handwriting Tools for Thoughts]]",
@@ -3633,6 +3655,9 @@ export const backlinks = {
     "Ignoring $ for copy-pasting online resources to terminal": {
         "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]",
         "Lesser Known Tricks": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
+    },
+    "Total Probability": {
+        "2023-01-23": "- [[Total Probability]]"
     },
     "공기 청정 비행선": {
         "2022-12-17": "- [[공기 청정 비행선]]"
@@ -4182,6 +4207,9 @@ export const backlinks = {
     },
     "Intellisense for Knowledge Management": {
         "Conversation with Alan Chan on 2022-12-27": "We talked about [[Intellisense for Knowledge Management]]"
+    },
+    "Markovity": {
+        "2023-01-23": "- [[Markovity]]"
     },
     "0053 Maximum Subarray": {
         "2022-09-05": "- [[0053 Maximum Subarray]]",
