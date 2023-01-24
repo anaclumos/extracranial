@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/EAFD95'
 ---
 
+In [[Probability]],
+
 if $\{H_k\}$ partitions $\Omega$ then
 
 $$

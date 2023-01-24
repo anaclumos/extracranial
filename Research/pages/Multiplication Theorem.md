@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/E77CE1'
 ---
 
+In [[Probability]],
+
 $$
 {P(A \cap B)} = P(A)P(B|A)
 $$

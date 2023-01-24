@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/D2988F'
 ---
 
+In [[Probability]],
+
 The future depends only on today, not the past.
 
 $$

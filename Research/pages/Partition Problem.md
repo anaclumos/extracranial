@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/F57598'
 ---
 
+In [[Probability]],
+
 $\{H_k\}$ partitions $\Omega$ if and only if
 
 1. $\bigcup\limits_{k} H_k = \Omega$
