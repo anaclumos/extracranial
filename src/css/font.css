@@ -1,6 +1,6 @@
 * {
-  --font-family-sans-serif: ui-rounded, 'SF Pro Rounded', ui-sans-serif, -apple-system, BlinkMacSystemFont,
-    'Apple SD Gothic Neo', 'Apple Color Emoji', Pretendard, system-ui, -system-ui, sans-serif;
+  --font-family-sans-serif: 'Line Seed', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Apple Color Emoji', Pretendard, system-ui, -system-ui, sans-serif;
   --font-family-monospace: ui-monospace, 'SF Mono', SFMono-Regular, 'Jetbrains Mono', Menlo, Consolas, monospace;
   word-wrap: break-word;
   word-break: keep-all;
