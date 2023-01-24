@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/68ADE3'
 ---
 
+In [[Probability]],
+
 $A$ and $B$ are independent when
 
 $$
