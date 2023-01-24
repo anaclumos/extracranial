@@ -756,7 +756,14 @@ export const backlinks = {
         "Tailwind": "... around it, I consider Tailwind CSS to be one of the [[Boring Technologies|boring]] established CSS solutions that enables me to be the most productive ..."
     },
     "Probability": {
-        "Conditional Probability": "[[Probability]]"
+        "Bayes Theorem": "In [[Probability]],",
+        "Conditional Probability": "In [[Probability]],",
+        "Independence": "In [[Probability]],",
+        "Markovity": "In [[Probability]],",
+        "Multiplication Theorem": "In [[Probability]],",
+        "Odds": "In [[Probability]],",
+        "Partition Problem": "In [[Probability]],",
+        "Total Probability": "In [[Probability]],"
     },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
         "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]"

@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/68DFA7'
 ---
 
+In [[Probability]],
+
 Odds mean
 
 $$
