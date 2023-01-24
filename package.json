@@ -17,6 +17,8 @@
     "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss}' >> format.log",
     "ko": "$npm_execpath start --locale ko",
     "dev": "$npm_execpath start",
+    "ko:instant": "docusaurus start --locale ko",
+    "dev:instant": "docusaurus start",
     "hex": "python3 tools/remove-hexmark.py",
     "pack-post": "python3 tools/pack-post.py",
     "wikilinks": "python3 tools/wikilinks-to-mdlinks.py",

@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-01-23.md",
-                "mode": "source",
+                "file": "pages/Bayes Theorem.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-23.md",
+                "file": "pages/Bayes Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-01-23.md"
+                "file": "pages/Bayes Theorem.md"
               }
             }
           }
@@ -169,8 +169,8 @@
   },
   "active": "3a4d4241941e7423",
   "lastOpenFiles": [
-    "pages/Odds.md",
     "journals/2023-01-23.md",
+    "pages/Odds.md",
     "pages/Bayes Theorem.md",
     "pages/Total Probability.md",
     "pages/Partition Problem.md",
