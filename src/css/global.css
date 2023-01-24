@@ -161,3 +161,7 @@ table {
   height: 100vh;
   height: 100dvh;
 }
+
+.math {
+  overflow-x: scroll;
+}
