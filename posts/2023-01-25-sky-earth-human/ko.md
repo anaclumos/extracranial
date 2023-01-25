@@ -1,6 +1,6 @@
 ---
 date: 2023-01-25
-description: '갤럭시 천지인이 그리운 아이폰 유저들을 위한 키보드'
+description: '갤럭시 천지인 🇰🇷 이 그리운 아이폰 유저들을 위한 키보드'
 authors: anaclumos
 slug: '/D7DE14'
 ---
@@ -10,7 +10,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-# 갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키보드 ⌨️
+# 갤럭시 천지인 🇰🇷 이 그리운 아이폰 유저들을 위한 ⌨️ 키보드
 
 <figure>
 
