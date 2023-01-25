@@ -28,5 +28,5 @@ $$
 $$
 
 $$
-= {n \choose k} ~\blacksquare
+= {n \choose k} ~~~~~~~~~~ \blacksquare
 $$

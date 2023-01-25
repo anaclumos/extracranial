@@ -2477,7 +2477,8 @@ export const backlinks = {
         "2023-01-20": "## [[Building Habit]]",
         "2023-01-21": "## [[Building Habit]]",
         "2023-01-22": "## [[Building Habit]]",
-        "2023-01-23": "## [[Building Habit]]"
+        "2023-01-23": "## [[Building Habit]]",
+        "2023-01-24": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
