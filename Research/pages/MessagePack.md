@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/319EA4'
 ---
 
-- Compact Data Exchange Format like [[CBOR (File Format)]].
+- Compact Data Exchange Format like [[CBOR]].
 
 ### [MessagePack: It's like JSON. but fast and small.](https://msgpack.org/index.html)
 
