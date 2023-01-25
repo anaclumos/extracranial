@@ -34,3 +34,9 @@ $$
 $$
 \sum\limits_{k=0}^m {m \choose k}p^{k+1} q^{m-k} + \sum\limits_{k=0}^m {m \choose k}p^k q^{m-k+1}
 $$
+
+Let $j+$
+
+$$
+\sum\limits_{j=1}^m {m \choose k}p^{k+1} q^{m-k} + \sum\limits_{k=0}^m {m \choose k}p^k q^{m-k+1}
+$$
