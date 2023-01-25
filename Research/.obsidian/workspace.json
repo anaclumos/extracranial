@@ -13,67 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-01-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5dd27d23987feed4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2cc16a19794ccadd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9492ae9b4755500c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1dc5dac4f98976ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Binomial Distribution.md",
+                "file": "pages/Embeddable GitHub Repo Card But It Looks Great.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Binomial Distribution.md",
+                "file": "pages/Embeddable GitHub Repo Card But It Looks Great.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Binomial Distribution.md"
+                "file": "pages/Embeddable GitHub Repo Card But It Looks Great.md"
               }
             }
           }
@@ -181,17 +128,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "1dc5dac4f98976ba",
+  "active": "a46ecf972acca559",
   "lastOpenFiles": [
+    "journals/2023-01-25.md",
     "journals/2023-01-24.md",
+    "pages/Embeddable GitHub Repo Card But It Looks Great.md",
+    "pages/하늘땅사람 개발 기록.md",
+    "pages/하늘땅사람.md",
     "pages/Markovity.md",
     "pages/Binomial Distribution.md",
     "pages/Probability.md",
     "pages/Bernoulli Distribution.md",
-    "Hey.md",
-    "pages/2023년 1월과 2월에 하루 25분 조깅하기.md",
-    "pages/Binomial Theorem.md",
-    "pages/Pascal Triangle.md",
-    "pages/Counting.md"
+    "Hey.md"
   ]
 }

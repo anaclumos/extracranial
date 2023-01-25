@@ -77,6 +77,7 @@ export const backlinks = {
         "Conversation with Alan Chan on 2022-12-27": "Had a conversation with Alan Chan on [[2022-12-27]].",
         "하늘땅사람 개발 기록": "## [[2022-12-27]]"
     },
+    "2023-01-25": {},
     "2022-07-14": {
         "0125 Valid Palindrome": "Solved at: [[2022-07-14]] and [[2022-07-26]]",
         "Fiercely Overpriced": "An idea suggested on [[2022-07-14]] that all inventions should be fiercely overpriced."
@@ -576,6 +577,7 @@ export const backlinks = {
     "Satori": {
         "2022-10-11": "- [[Satori]]",
         "2022-11-14": "- [[Satori]]: Create OG images for your blog with Next.js",
+        "Embeddable GitHub Repo Card But It Looks Great": "I can use [[Satori]]",
         "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, Vercel/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Stories Behind Satori": "The potential candidates for [[Satori]] included:",
         "WebAssembly": "- [[Satori]]"
@@ -751,6 +753,9 @@ export const backlinks = {
     "Heap (Computer Systems)": {
         "2022-12-08": "- [[Heap (Computer Systems)]]",
         "Computer Systems": "- [[Heap (Computer Systems)]]"
+    },
+    "Embeddable GitHub Repo Card But It Looks Great": {
+        "2023-01-25": "- [[Embeddable GitHub Repo Card But It Looks Great]]"
     },
     "Boring Technologies": {
         "2023-01-13": "- [[Boring Technologies]]",
@@ -1975,6 +1980,7 @@ export const backlinks = {
         "2023-01-19": "## [[Project]]",
         "2023-01-21": "## [[Project]]",
         "2023-01-22": "## [[Project]]",
+        "2023-01-25": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -1992,6 +1998,7 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "2022-07-19 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
         "Digital Bookmarks for Physical Books": "Someday [[Project]]. Can we bookmark physical books with digital devices? i.e. scan it ...",
         "Dynamic Island on the Web": "- Done [[Project]]",
+        "Embeddable GitHub Repo Card But It Looks Great": "Someday [[Project]].",
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
         "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
@@ -2479,7 +2486,8 @@ export const backlinks = {
         "2023-01-21": "## [[Building Habit]]",
         "2023-01-22": "## [[Building Habit]]",
         "2023-01-23": "## [[Building Habit]]",
-        "2023-01-24": "## [[Building Habit]]"
+        "2023-01-24": "## [[Building Habit]]",
+        "2023-01-25": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3437,6 +3445,7 @@ export const backlinks = {
         "2023-01-22": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-23": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-24": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-25": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3849,6 +3858,7 @@ export const backlinks = {
         "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the chopstick game with competitive AI",
         "Cube": "[[Someday]] [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical books with digital devices? i.e. scan ...",
+        "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
         "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
         "Guestbook": "- [[Someday]] [[Project]]",
@@ -4004,6 +4014,7 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
+        "2023-01-25": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -4655,6 +4666,9 @@ export const backlinks = {
     },
     "EAB9DE.png": {
         "Providing DOM API to Worker Threads": "![[EAB9DE.png]]"
+    },
+    "107B49.png": {
+        "Embeddable GitHub Repo Card But It Looks Great": "![[107B49.png]]"
     },
     "31D530.png": {
         "dub.sh": "![[31D530.png]]"
