@@ -32,11 +32,38 @@ p \sum\limits_{k=0}^m {m \choose k}p^k q^{m-k} + q \sum\limits_{k=0}^m {m \choos
 $$
 
 $$
-\sum\limits_{k=0}^m {m \choose k}p^{k+1} q^{m-k} + \sum\limits_{k=0}^m {m \choose k}p^k q^{m-k+1}
+\sum\limits_{k=0}^m {m \choose k}p^{k+1} q^{m-k} +
+\sum\limits_{k=0}^m {m \choose k}p^k q^{m-k+1}
 $$
 
-Let $j+$
+Let $j=k+1$ and $k=j-1$ for the first and $j=k$ for the second sum. Then,
 
 $$
-\sum\limits_{j=1}^m {m \choose k}p^{k+1} q^{m-k} + \sum\limits_{k=0}^m {m \choose k}p^k q^{m-k+1}
+\sum\limits_{j=1}^{j=m+1} {m \choose {j-1}}p^{j} q^{m + 1 - j} + \sum\limits_{j=0}^{j=m} {m \choose j}p^j q^{m-j+1}
+$$
+
+$$
+{m \choose m} p ^{m+1} q^0
++ \sum\limits_{j=1}^{j=m} {m \choose {j-1}} p^j q^{m+1-j}
++ \sum\limits_{j=1}^{j-m} {m \choose j} p^j q^{m+1-j}
++ {m \choose 0} p^0 q^{m+1}
+$$
+
+This equals
+
+$$
+{m+1 \choose m+1} p ^{m+1} q^0
++ \sum\limits_{j=1}^{j=m} ({m \choose {j-1}} + {m \choose j})
++ \sum\limits_{j=1}^{j-m} {m \choose j} p^j q^{m+1-j}
++ {m+1 \choose 0} p^0 q^{m+1}
+$$
+
+$$
+{m+1 \choose m+1} p ^{m+1} q^0
++ \sum\limits_{j=1}^{m} {m+1 \choose j} p^j q^{m+1-j}
++ {m+1 \choose 0} p^0 q^{m+1}
+$$
+
+$$
+= \sum\limits_{j=0}^{m+1} {m+1 \choose j} p^j q^{m+1-j} ~~~~~~~~~~ \blacksquare
 $$
