@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link'
 // @ts-ignore
 import { useBlogPost } from '@docusaurus/theme-common/internal'
 import type { Props } from '@theme/BlogPostItem/Header/Title'
+import Balancer from 'react-wrap-balancer'
 
 import styles from './styles.module.css'
 
@@ -14,10 +15,10 @@ export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Eleme
   return (
     <TitleHeading className={clsx(styles.title, className)} itemProp="headline">
       {isBlogPostPage ? (
-        title
+        <Balancer>{title}</Balancer>
       ) : (
         <Link itemProp="url" to={permalink}>
-          {title}
+          <Balancer>{title}</Balancer>
         </Link>
       )}
     </TitleHeading>
