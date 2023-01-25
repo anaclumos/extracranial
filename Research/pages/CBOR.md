@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/0A756A'
 ---
 
-- Compact Data Exchange Format like [[MessagePack (File Format)]].
+- Compact Data Exchange Format like [[MessagePack]].
 
 ### [CBOR — Concise Binary Object Representation | Overview](https://cbor.io/)
 
