@@ -39,6 +39,7 @@ export const backlinks = {
     "2023-01-10": {},
     "2022-11-08": {},
     "2022-12-26": {},
+    "2023-01-24": {},
     "2022-08-18": {},
     "2016-07-01": {
         "식영부원의 관점에서 바라본 치킨데이": "[[2016-07-01]]에 게재된 [[재학생일기]]이다."
@@ -796,7 +797,8 @@ export const backlinks = {
         "Sliding Panes": "- It seems like it was first introduced by [[Andy Matuschak]], at least his version made it the trend."
     },
     "Multiplication Theorem": {
-        "2023-01-23": "- [[Multiplication Theorem]]"
+        "2023-01-23": "- [[Multiplication Theorem]]",
+        "2023-01-24": "- $P(A1 \\cap A2)$ → [[Multiplication Theorem]]"
     },
     "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {
         "2022-11-19": "  - [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]",
@@ -2217,7 +2219,8 @@ export const backlinks = {
         "Dioxus": "[[Write Once Run Everywhere]]"
     },
     "Bayes Theorem": {
-        "2023-01-23": "- [[Bayes Theorem]]"
+        "2023-01-23": "- [[Bayes Theorem]]",
+        "2023-01-24": "- $P(H|E)$ → [[Bayes Theorem]]"
     },
     "Scheduler": {
         "2022-07-11": "Brane requires explicit [[Scheduler|schedulers]] and abstractions to overcome these shortcomings.",
@@ -2315,6 +2318,7 @@ export const backlinks = {
     },
     "하늘땅사람": {
         "2023-01-19": "- [[하늘땅사람]]",
+        "하늘땅사람 개발 기록": "상위 문서: [[하늘땅사람]] 참고",
         "하늘땅사람 개인 정보 보호 정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다."
     },
     "3D": {
@@ -3415,6 +3419,7 @@ export const backlinks = {
         "2023-01-21": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-22": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-23": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-24": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3664,7 +3669,8 @@ export const backlinks = {
         "Lesser Known Tricks": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
     },
     "Total Probability": {
-        "2023-01-23": "- [[Total Probability]]"
+        "2023-01-23": "- [[Total Probability]]",
+        "2023-01-24": "- $P(E)$ → [[Total Probability]]"
     },
     "공기 청정 비행선": {
         "2022-12-17": "- [[공기 청정 비행선]]"
