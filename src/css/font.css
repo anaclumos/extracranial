@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'SF NS Rounded';
-  src: url('https://v-fonts.com/assets/fonts/SFNSRounded.woff2') format('woff2');
-}
-
 * {
   --font-family-sans-serif: 'Line Seed', ui-rounded, 'SF Pro Rounded', 'SF NS Rounded', ui-sans-serif, -apple-system,
     BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Apple Color Emoji', Pretendard, system-ui, -system-ui, sans-serif;
