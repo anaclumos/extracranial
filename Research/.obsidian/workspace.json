@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "06110a76205e8931",
+        "id": "3b3041327815c09f",
         "type": "tabs",
         "children": [
           {
-            "id": "a46ecf972acca559",
+            "id": "a25178e7a95a2609",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-25.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,16 +97,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-01-25.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 415.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -128,17 +121,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "a46ecf972acca559",
+  "active": "a25178e7a95a2609",
   "lastOpenFiles": [
-    "pages/ACSM.md",
     "journals/2023-01-25.md",
-    "pages/MessagePack.md",
-    "pages/CBOR.md",
-    "pages/DjVu.md",
-    "pages/MOBI.md",
-    "pages/JSX.md",
-    "pages/PNG.md",
-    "pages/SVG.md",
-    "journals/2023-01-24.md"
+    "pages/Atomic Habits.md",
+    "journals/2023-01-15.md",
+    "journals/2023-01-17.md",
+    "pages/재학생일기.md",
+    "pages/월급만큼 중요한 것은 자존급이다.md",
+    "journals/2021-06-23.md",
+    "pages/Blind Illness.md",
+    "pages/ACSM.md",
+    "pages/MessagePack.md"
   ]
 }
