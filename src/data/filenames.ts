@@ -302,6 +302,7 @@ export const filenames = {
     "Better Docusaurus": "A54F58",
     "Better Hacker News": "B7BEDA",
     "Better Obsidian": "9E4E7C",
+    "Binomial Distribution": "C839AE",
     "Binomial Theorem": "B9D8EC",
     "BitTorrent": "4332D0",
     "Blind Illness": "BD1F4B",
