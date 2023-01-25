@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-01-24.md",
+                "file": "pages/Binomial Distribution.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -102,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\blacksquare",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -119,7 +119,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-24.md",
+                "file": "pages/Binomial Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-01-24.md"
+                "file": "pages/Binomial Distribution.md"
               }
             }
           }
@@ -182,15 +183,15 @@
   },
   "active": "1dc5dac4f98976ba",
   "lastOpenFiles": [
-    "Hey.md",
     "journals/2023-01-24.md",
+    "pages/Markovity.md",
+    "pages/Binomial Distribution.md",
+    "pages/Probability.md",
+    "pages/Bernoulli Distribution.md",
+    "Hey.md",
     "pages/2023년 1월과 2월에 하루 25분 조깅하기.md",
     "pages/Binomial Theorem.md",
     "pages/Pascal Triangle.md",
-    "pages/Bernoulli Distribution.md",
-    "pages/Counting.md",
-    "pages/Approximation.md",
-    "pages/Probability.md",
-    "pages/Space in LaTeX.md"
+    "pages/Counting.md"
   ]
 }

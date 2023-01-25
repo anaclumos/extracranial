@@ -761,6 +761,7 @@ export const backlinks = {
         "Approximation": "In [[Probability]],",
         "Bayes Theorem": "In [[Probability]],",
         "Bernoulli Distribution": "In [[Probability]],",
+        "Binomial Distribution": "In [[Probability]],",
         "Binomial Theorem": "In [[Probability]],",
         "Conditional Probability": "In [[Probability]],",
         "Counting": "In [[Probability]],",
@@ -4384,6 +4385,9 @@ export const backlinks = {
     },
     "Linear README": {
         "2022-10-14": "  - Especially [[Linear README]]"
+    },
+    "Binomial Distribution": {
+        "2023-01-24": "- [[Binomial Distribution]]"
     },
     "Meta Theme Color for Spacial Cognition": {
         "2022-11-11": "- [[Meta Theme Color for Spacial Cognition]]"
