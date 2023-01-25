@@ -1,11 +1,93 @@
 ---
-lang: 'ko'
-slug: '/C222D1'
+date: 2023-01-25
+description: '갤럭시 천지인이 그리운 아이폰 유저들을 위한 키보드'
+authors: anaclumos
+slug: '/D7DE14'
+draft: true
 ---
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Admonition from '@theme/Admonition';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-상위 문서: [[하늘땅사람]] 참고
+# 갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키보드 ⌨️
+
+<figure>
+
+![ALT: 아이폰 키보드 "하늘땅사람"의 모습](자리넘김.002.png)
+
+</figure>
+
+애플 아이폰을 찾는 대한민국 소비자들이 증가하고 있습니다.
+그중 눈에 띄는 부분은 아이폰을 찾는 중장년층 소비자가 늘어나고 있다는 점입니다.
+대부분의 사람들은 갤럭시에서 아이폰으로 못 넘어오는 이유로 통화녹음과 삼성페이를 꼽는데,
+저희 부모님이 아이폰으로 바꾸신 뒤에 제가 관찰한 바는 조금 다릅니다.
+아무도 손에 꼽지 않은 예상 외의 난관은 바로 **키보드**입니다.
+
+대한민국 소비자들은 10키 휴대전화 시절부터 문자를 입력함에 아무런 불편함이 없었습니다.
+세종의 제자 원리를 본따 만든 **천지인**이라는 강력한 입력 방식 때문에,
+하나의 버튼에 알파벳이 3개, 4개씩 붙어있는 영미권에 비해 쿼티 키보드의 필요성이 현저히 적었기 때문입니다.
+태어났을 당시부터 스마트폰이 존재하던 알파 세대가 아닌 이상 여전히 천지인 키보드를 사용하고 계시는 분들이 많습니다.
+
+2010년 천지인의 특허가 개방된 이후 아이폰에도 2013년부터 천지인 키보드가 추가되었지만,
+이상하게도 아이폰은 키보드의 모양이 조금 달랐습니다.
+가장 결정적인 차이점은 **자리넘김** 버튼과 **띄어쓰기** 버튼이 따로 존재한다는 점입니다.
+
+<figure>
+
+![자리넘김 버튼과 띄어쓰기 버튼이 따로 존재하는 아이폰 10키 키보드](자리넘김.001.png)
+
+<figcaption>
+
+자리넘김 버튼과 띄어쓰기 버튼이 따로 존재하는 아이폰 10키 키보드
+
+</figcaption>
+
+</figure>
+
+<Admonition type="info" title='예를 들어 "오 안녕"을 입력하기 위해서는...' icon="💎">
+
+<Tabs>  
+<TabItem lang="ko-KR" value="Galaxy" label="갤럭시">
+
+`ㅇ` `ᆞ` `ㅡ` → **띄어쓰기** → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → **띄어쓰기** → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
+
+</TabItem>  
+<TabItem lang="ko-KR" value="iPhone" label="아이폰">
+
+`ㅇ` `ᆞ` `ㅡ` → **띄어쓰기** → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → **자리넘김** → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
+
+</TabItem>  
+</Tabs>  
+</Admonition>
+
+이와 같이 2가지 다른 버튼이 따로 존재하는 것 뿐만 아니라 버튼의 각 크기도 더욱이 작아져,
+오타가 지속적으로 발생하는 등 사용에 불편함을 호소하는 사람들이 많았습니다.
+이런 이유로 갤럭시 천지인과 유사한 아이폰 키보드를 만들어보고 싶다는 결론에 이르렀습니다.
+
+<Admonition type="info" title="목표" icon="💡">
+
+어르신들도 쉽게 사용하실 수 있는 아이폰용 천지인 키보드를 만들어 보자!
+
+</Admonition>
+
+<Admonition type="tip" title="꿀팁" icon="🍯">
+
+내 위키에 이 프로젝트의 [연구 기록](/r/C222D1)도 공개되어 있다.
+
+</Admonition>
+
+## 특허권 및 법적 권리
+
+우선 특허권과 법적 권리에 아무런 문제가 없는지를 확인했습니다.
+조사한 결과, 조관현 특허권 보유자님께서 특허권을 정부에 기증하셔
+국가 표준으로 채택된 이후, [한글 자판에 대한 특허권 사용권이 무상으로 허용](https://www.korea.kr/news/policyBriefingView.do?newsId=148700827)되었습니다.
+이에 아무런 문제가 없음을 확인한 후 개발에 대한 사전 조사를 진행했습니다.
+
+## 아이폰 자판의 개발 난이도
+
+[Creating a custom keyboard](https://developer.apple.com/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard)
+문서를 정독해본 결과 일반적인 아이폰 앱을 제작하는 난이도와 비슷해보인다.
 
 ## [[2022-12-19]]
 
@@ -22,8 +104,6 @@ UIKit ViewController 안에서도 SwiftUI View를 이용하는 것이 가능해�
 
 CloudKit Persistence를 이용하여 사용자 설정이 iCloud를 통해 동기화되도록 구현할 예정.
 부가적인 기능 없이 MVP로 천지인 입력이 가능한 키보드로 구현할 생각.
-
-![[5B9AFC.png]]
 
 ### 있으면 좋을
 
@@ -42,11 +122,6 @@ System 색을 맞추는 것에 약간의 시간이 들었다.
 이렇게 할 경우 접근성의 면에서 문제가 발생할 수 있다 (예: 사용자가 High Contrast를 켜놓은 경우 등.)
 일단 MVP 개발까지를 위해 이 정도로 타협하기로 했다.
 
-<DisplayFlex>
-![[A02D58.png]]
-![[85D135.png]]
-</DisplayFlex>
-
 잠깐 타이핑의 로직을 생각해보았는데, 적당히 골치 아프겠다.
 엣지케이스가 꽤 많다.
 
@@ -62,8 +137,6 @@ let range = NSRange(location: 1, length: 0)
 proxy.setMarkedText(text, selectedRange: range)
 ```
 
-![[B9DE45.png]]
-
 `ㅇ` 근처 배경에 회색 배경이 있음을 확인하자.
 그리고 이거는 보니까 중국어처럼 글자 조합 후에 글씨가 입력되는 경우를 위한 것 같다.
 타이핑 도중에는 검색이 안 된다.
@@ -73,8 +146,6 @@ proxy.setMarkedText(text, selectedRange: range)
 
 천지인 로직을 그냥 선처리해놓고 json에 덤핑하여 사용하면 어떨까 실험을 해보았다.
 [4년 전 조성현이 무척이나 나를 도와주고 있다!](https://github.com/anaclumos/hangulbreak/blob/master/Python/HangulDecomposeModule.py)
-
-![[B1C8D0.png]]
 
 근데 단순하게 마지막 한 글자를 가지고 처리하는 것은 예외 사항이 많다. 우선 전 두 글자를 읽어와서 검색한 이후, 없으면 한 글자를 확인해야겠다.
 
@@ -98,15 +169,11 @@ proxy.setMarkedText(text, selectedRange: range)
 
 ## [[2022-12-28]]
 
-![[171C7C.png]]
-
 종성에 한해서는 지도를 완성했다.
-
-![[EC8120.png]]
 
 천과 인도 완성했다.
 
-- `할까` 케이스 고려해야함 → 완성
+- `할까` 케이스 고려해야함 완성
 
 [KR20000049347A - 천지인 제자 원리에 기반한 한글 입력 장치 및 방법 - Google Patents](https://patents.google.com/patent/KR20000049347A/ko)
 
@@ -119,12 +186,7 @@ proxy.setMarkedText(text, selectedRange: range)
 내가 생각하지 못한 케이스가 있는지 모르겠지만...
 [[Swift]]로 만들어서 빌드해보았다. 빌드에 15분 이상 걸려서 다시 확인해봐야겠다.
 
-![[69DFE5.png]]
-![[4B2B9B.png]]
-
 일단 간단하게 테스트해본 결과 잘 작동한다!
-
-![[EAADF1.gif]]
 
 ## [[2023-01-03]]
 
@@ -158,27 +220,13 @@ func completions(
 - `proxyBackup`로 초기화되기 전 백업해두어 문제를 해결함.
 - 글자별로 지우기 구현 완료 (`proxyHistory`)
 
-![[80F5B1.png]]
-
 Predictive Text를 구현하기는 했는데, [UITextChecker](https://developer.apple.com/documentation/uikit/uitextchecker)는 다음 단어를 추천해주지 않고 기존 단어 안에서만 추천을 해주는 버그가 있다. [Predictive text / suggest next word in sentence on iOS?](https://developer.apple.com/forums/thread/47354) 일단 이대로 두기로 했다.
 
 - "어떻게"를 입력하지 못함 ← 수정 완료
 
-<DisplayFlex>
-![[35109C.jpeg]]
-![[5D6BBD.jpeg]]
-![[D6B132.jpeg]]
-![[77CE6B.jpeg]]
-![[A6EFFE.jpeg]]
-</DisplayFlex>
-
 마지막으로 간단한 안내 문구도 달았다.
 
-![[B91CA8.jpeg]]
-
 아 오늘은 이제 그만 쉬어야지!
-
-![[A16A91.png]]
 
 ## [[2023-01-16]]
 
@@ -187,8 +235,6 @@ Predictive Text를 구현하기는 했는데, [UITextChecker](https://developer.
 일반 자판을 길게 누를 경우 숫자가, 삭제 버튼을 길게 누를 경우 뗄 떼까지 0.2초에 한 글자씩 지운다.
 
 [[Subproject]]로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: [anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 구현체](https://github.com/anaclumos/hwalja)
-
-![[CD56C6.png]]
 
 ## [[2023-01-17]]
 
@@ -206,39 +252,7 @@ Predictive Text를 구현하기는 했는데, [UITextChecker](https://developer.
 오토마타를 이용한 학습 곡선에 불편함을 느껴 모든 정보를 하드코딩해 가장 단순한 형태로 구현하기로 한 활자 프로젝트의 본 목적에 어긋난다.
 더불어 이미 minified된 버전은 500KB 수준이기에 입력 엔진으로 사용하기에 부담이 되는 크기가 아니다.
 
-<DisplayFlex>
-![[B0D7D3.png]]
-![[5F35F3.png]]
-![[904C50.png]]
-![[293DFB.png]]
-</DisplayFlex>
-<DisplayFlex>
-![[621B52.png]]
-![[16B648.png]]
-![[BB99F5.png]]
-</DisplayFlex>
-<DisplayFlex>
-![[EB4262.png]]
-![[76E2D2.png]]
-![[5855F2.png]]
-![[54DC34.png]]
-</DisplayFlex>
-<DisplayFlex>
-![[AA66EE.png]]
-![[39AE60.png]]
-![[45CDAB.png]]
-</DisplayFlex>
-
 ## [[2023-01-18]]
-
-![결국 고른 앱 아이콘](../assets/618B4A.png)
 
 - [[하늘땅사람 개인 정보 보호 정책]]
 - [[하늘땅사람 지원 문서]]
-
-![[CB642E.png]]
-
-<DisplayFlex>
-![iPhone 14 Pro Max에서의 모습](../assets/749DA3.png)
-![iPad Pro 12.9인치에서의 모습](../assets/482054.png)
-</DisplayFlex>

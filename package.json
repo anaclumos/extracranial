@@ -48,6 +48,7 @@
     "react-dom": "^18.2.0",
     "react-force-graph": "^1.41.16",
     "react-spring": "^9.5.5",
+    "react-wrap-balancer": "^0.4.0",
     "rehype-katex": "^5.0.0",
     "remark-math": "^3.0.1",
     "swc-loader": "^0.2.3",
