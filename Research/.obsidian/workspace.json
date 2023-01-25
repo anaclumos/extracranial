@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Embeddable GitHub Repo Card But It Looks Great.md",
+                "file": "journals/2023-01-25.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Embeddable GitHub Repo Card But It Looks Great.md",
+                "file": "journals/2023-01-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Embeddable GitHub Repo Card But It Looks Great.md"
+                "file": "journals/2023-01-25.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "a46ecf972acca559",
   "lastOpenFiles": [
+    "pages/ACSM.md",
     "journals/2023-01-25.md",
-    "journals/2023-01-24.md",
-    "pages/Embeddable GitHub Repo Card But It Looks Great.md",
-    "pages/하늘땅사람 개발 기록.md",
-    "pages/하늘땅사람.md",
-    "pages/Markovity.md",
-    "pages/Binomial Distribution.md",
-    "pages/Probability.md",
-    "pages/Bernoulli Distribution.md",
-    "Hey.md"
+    "pages/MessagePack.md",
+    "pages/CBOR.md",
+    "pages/DjVu.md",
+    "pages/MOBI.md",
+    "pages/JSX.md",
+    "pages/PNG.md",
+    "pages/SVG.md",
+    "journals/2023-01-24.md"
   ]
 }

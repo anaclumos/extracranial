@@ -713,10 +713,6 @@ export const backlinks = {
         "2022-11-21": "- [[Magician]]: I thought they would generate user interface designs akin to Tailwind ...",
         "Diagram (Company)": "- Creator of [[Magician]]"
     },
-    "CBOR (File Format)": {
-        "2022-07-11": "Candidates include MessagePack (File Format) and [[CBOR (File Format)]].",
-        "MessagePack (File Format)": "- Compact Data Exchange Format like [[CBOR (File Format)]]."
-    },
     "유난한 도전": {
         "2023-01-03": "- Finished [[유난한 도전]]",
         "Readings": "- [x] [[유난한 도전]]"
@@ -917,10 +913,6 @@ export const backlinks = {
         "2022-12-03": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
-    "MessagePack (File Format)": {
-        "2022-07-11": "Candidates include [[MessagePack (File Format)]] and [[CBOR (File Format)]].",
-        "CBOR (File Format)": "- Compact Data Exchange Format like [[MessagePack (File Format)]]."
-    },
     "HQ Proximity": {
         "2023-01-13": "- [[HQ Proximity]]"
     },
@@ -1081,6 +1073,9 @@ export const backlinks = {
     "ShadowRealm": {
         "2022-06-26": "- Let's not explore [[ShadowRealm]] and `iframe` [[Sandbox]] for now.",
         "Realm Shim": "> Shim implementation of the Realm API Proposal ([[ShadowRealm]])"
+    },
+    "PNG": {
+        "Stories Behind Satori": "... Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the SVG image to [[PNG]]."
     },
     "Atomic Habits": {
         "Readings": "- [x] [[Atomic Habits]]",
@@ -1291,6 +1286,10 @@ export const backlinks = {
     },
     "Separation of Computer Scientists and Computer Technologists": {
         "2022-08-24": "- [[Separation of Computer Scientists and Computer Technologists]]"
+    },
+    "SVG": {
+        "CSS": "... language such as HTML or XML (including XML dialects such as [[SVG]], MathML, or XHTML). CSS is a cornerstone technology of the World ...",
+        "Stories Behind Satori": "- [[SVG]]-based solutions were the perfect balance of the two, being fast and ..."
     },
     "Web Browser": {
         "2022-06-12": "... can be used to describe interfaces intended to be implemented in [[Web Browser|web browsers]]. Web IDL is an IDL variant with several features that allow ...",
@@ -1692,7 +1691,7 @@ export const backlinks = {
         "2022-11-29": "- [[JSON]]",
         "Dynamic Island on the Web": "... need to do now is to pack them with an API-style [[JSON]] payload.",
         "Mapping keys to set different input languages on macOS": "- Create a [[JSON]] file like the following here (open any text editor and save ...",
-        "MessagePack (File Format)": "... serialization format. It lets you exchange data among multiple languages like [[JSON]]. But it's faster and smaller. Small integers are encoded into a ...",
+        "MessagePack": "... serialization format. It lets you exchange data among multiple languages like [[JSON]]. But it's faster and smaller. Small integers are encoded into a ...",
         "Migrating Node.js apps from AWS EB to Heroku": "I had to make only minimal changes to app.js and package.[[json]].",
         "glTF": "... A glTF file uses one of two possible file extensions: .gltf ([[JSON]]/ASCII) or .glb (binary). Both .gltf and .glb files may reference external ...",
         "sem.sh": "- [[JSON]] API"
@@ -1824,6 +1823,9 @@ export const backlinks = {
         "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization | LeoLabs",
         "Web Graphics": "- [[3d Globe on the Web]]"
     },
+    "ACSM": {
+        "2022-06-05": "- Convert [[ACSM]] files to [[PDF]]/EPUBs with one command on [[Linux]] \\(and macOS very ..."
+    },
     "Meta Theme Color": {
         "Meta Theme Color for Spacial Cognition": "- [[Meta Theme Color]] for [[Spacial Cognition]]"
     },
@@ -1856,6 +1858,10 @@ export const backlinks = {
     },
     "Case Study": {
         "Rauno": "- [[Case Study]]"
+    },
+    "CBOR": {
+        "2022-07-11": "Candidates include MessagePack and [[CBOR]].",
+        "MessagePack": "- Compact Data Exchange Format like [[CBOR]]."
     },
     "Regulation of Fake News": {
         "2022-12-28": "- [[Regulation of Fake News]]"
@@ -2384,7 +2390,7 @@ export const backlinks = {
         "Tools for Thought": "... for Thought: add infinite canvas to text-based versions. involves and exploits [[spacial cognition]]."
     },
     "EPUB": {
-        "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File ...",
+        "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
         "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
     },
     "Iterative and Incremental Development": {
@@ -2397,7 +2403,7 @@ export const backlinks = {
         "2022-11-19": "  - [[When TSC suddenly errors with cannot find module]]"
     },
     "Linux": {
-        "2022-06-05": "... Convert ACSM (File Format) files to PDF/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software does not utilize Adobe Digital ...",
+        "2022-06-05": "- Convert ACSM files to PDF/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software does not utilize Adobe Digital ...",
         "ELF": "- Executable and Linked Format, used in [[Linux]]",
         "Linux Permissions for Keys": "Note that [[Linux]] SSH manual says:",
         "Simple DirectMedia Layer": "... that can run on many operating systems such as Android, iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
@@ -2689,6 +2695,9 @@ export const backlinks = {
     "Palantir Gotham": {
         "Palantir": "- [[Palantir Gotham]]"
     },
+    "MOBI": {
+        "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB, [[MOBI]] for texts. For generic use cases, [[DjVu]]."
+    },
     "Creating Observable Object in SwiftUI": {
         "2023-01-22": "- [[Creating Observable Object in SwiftUI]]"
     },
@@ -2750,10 +2759,6 @@ export const backlinks = {
     },
     "phash.wasm": {
         "Project Alter": "- [ ] Perceptual Hashing On Device: [[phash.wasm]]"
-    },
-    "SVG (File Format)": {
-        "CSS": "... language such as HTML or XML (including XML dialects such as [[SVG (File Format)]], MathML, or XHTML). CSS is a cornerstone technology of the World ...",
-        "Stories Behind Satori": "- [[SVG (File Format)]]-based solutions were the perfect balance of the two, being fast and ..."
     },
     "Shortcuts": {
         "2022-11-19": "  - [[Shortcuts]]"
@@ -2934,9 +2939,6 @@ export const backlinks = {
     "Link Preview for Arc": {
         "2022-12-06": "- [[Link Preview for Arc]]"
     },
-    "MOBI (File Format)": {
-        "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB, [[MOBI (File Format)]] for texts. For generic use cases, [[DjVu (File Format)]]."
-    },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
     },
@@ -3022,8 +3024,8 @@ export const backlinks = {
         "Graphic Renderer": "... to be processed and output to a digital image or raster [[graphics]] image file. The term \"rendering\" is analogous to the concept of ...",
         "Graphics Engine Process": "The general process of a [[graphics]] engine follows:",
         "PDF": "... description of a fixed-layout flat document, including the text, fonts, vector [[graphics]], raster images and other information needed to display it. PDF has ...",
-        "PNG (File Format)": "> Portable Network Graphics is a raster-[[graphics]] file format that supports lossless data compression. PNG was developed as ...",
-        "SVG (File Format)": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
+        "PNG": "> Portable Network Graphics is a raster-[[graphics]] file format that supports lossless data compression. PNG was developed as ...",
+        "SVG": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
         "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex or ...",
         "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
         "Vertex Buffer": "- [[Graphics]]: How to pass instructions from CPU to GPU.",
@@ -3169,9 +3171,6 @@ export const backlinks = {
         "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "2016-11-28에 게재된 [[재학생일기]]이다.",
         "졸업을 앞둔 중학교 3학년들에게": "2016-12-08에 게재된 [[재학생일기]]이다."
     },
-    "JSX (File Format)": {
-        "Stories Behind Satori": "After simplifying the syntax with [[JSX (File Format)]] and simple [[CSS]], Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the ..."
-    },
     "elevatorpitch.com": {
         "2022-12-20": "- [[elevatorpitch.com]]"
     },
@@ -3225,16 +3224,13 @@ export const backlinks = {
         "React App on GitHub Pages": "- [[GitHub Pages에 React 앱 띄우기]]"
     },
     "eBook": {
-        "ACSM (File Format)": "... digital publications. It contains data used to activate and download an [[eBook]]. It does not include the eBook itself.",
+        "ACSM": "... other digital publications. It contains data to activate and download an [[eBook]]. It does not include the eBook itself.",
         "EPUB": "... standard of the IDPF in September 2007, superseding the older Open [[eBook]] (OEB) standard. EPUB",
         "Ridi": "Ridi is a Korean Unicorn specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
         "Using an iPad as my Ebook": "The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker News|HN]] thread"
     },
     "이루다": {
         "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information"
-    },
-    "ACSM (File Format)": {
-        "2022-06-05": "- Convert [[ACSM (File Format)]] files to [[PDF]]/EPUBs with one command on [[Linux]] \\(and macOS very ..."
     },
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
@@ -3296,6 +3292,9 @@ export const backlinks = {
     "Queueing in Internetworking and Congestions": {
         "Internetworking": "- [[Queueing in Internetworking and Congestions]]"
     },
+    "DjVu": {
+        "Screenshot as an API": "... loads. Better alternatives: EPUB, MOBI for texts. For generic use cases, [[DjVu]]."
+    },
     "Visual Studio Code": {
         "Jetbrains Fleet": "- a potential alternative to [[Visual Studio Code]]"
     },
@@ -3339,7 +3338,7 @@ export const backlinks = {
         "Dioxus": "They are written in Rust, inspired by [[React]].",
         "Front-end": "- [[React]]",
         "Get Job Done": "  - Coding [[React]]",
-        "JSX (File Format)": "... Syntax Extension and occasionally referred to as JavaScript XML) is a [[React]] extension to the JavaScript language syntax, which provides a way to ...",
+        "JSX": "... Syntax Extension and occasionally referred to as JavaScript XML) is a [[React]] extension to the JavaScript language syntax, which provides a way to ...",
         "Jest": "... large web applications. It works with projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and Svelte. Jest doesn't require a lot of configuration ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... use Obsidian for my Memex, but I have built a custom [[React]] application for presenting on the web instead of Obsidian Publish.",
         "Next.js": "... Next.js is an open-source web development framework created by Vercel enabling [[React]]-based web applications with server-side rendering and generating static websites. React documentation ...",
@@ -3496,7 +3495,7 @@ export const backlinks = {
         "Game Programming": "- [[Code Quality for Game Programming]]"
     },
     "PDF": {
-        "2022-06-05": "- Convert ACSM (File Format) files to [[PDF]]/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software ...",
+        "2022-06-05": "- Convert ACSM files to [[PDF]]/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software ...",
         "Screenshot as an API": "    - No need to understand [[PDF]] data format",
         "Synonym-based Fuzzy Search": "Someday Project. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
         "Using an iPad as my Ebook": "Furthermore, I fell in love with Book Scanning as a [[PDF]] with [[OCR]], and I figured it is very lovable. I can't ..."
@@ -3782,9 +3781,6 @@ export const backlinks = {
     "AI는 고가 노동부터 점령한다": {
         "2022-11-19": "  - [[AI는 고가 노동부터 점령한다]]"
     },
-    "PNG (File Format)": {
-        "Stories Behind Satori": "... RazrFalcon/resvg and yisibl/resvg-js to convert the SVG (File Format) image to [[PNG (File Format)]]."
-    },
     "Kindle": {
         "Using an iPad as my Ebook": "> I just saw the [[Kindle]] Scribe launch, but it still does not satisfy my needed features, ..."
     },
@@ -3882,9 +3878,6 @@ export const backlinks = {
         "사회과부도": "[[Someday]] [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
         "조선왕조실록": "[[Someday]] [[Project]]. Fast and Modern version of sillok.history.go.kr."
     },
-    "DjVu (File Format)": {
-        "Screenshot as an API": "... alternatives: EPUB, MOBI (File Format) for texts. For generic use cases, [[DjVu (File Format)]]."
-    },
     "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
         "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
     },
@@ -3976,6 +3969,9 @@ export const backlinks = {
     "바이올린 켜면 바이올레이션": {
         "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
     },
+    "JSX": {
+        "Stories Behind Satori": "After simplifying the syntax with [[JSX]] and simple [[CSS]], Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the ..."
+    },
     "Hacker News": {
         "2022-06-21": "## Today's [[Hacker News]]",
         "2022-06-22": "## Today's [[Hacker News]]",
@@ -4014,7 +4010,6 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
-        "2023-01-25": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -4054,6 +4049,10 @@ export const backlinks = {
         "2022-11-07": "- [[Mastodon]]",
         "2022-12-21": "- [[Mastodon]]",
         "2023-01-13": "- Medium joins [[Mastodon]]"
+    },
+    "MessagePack": {
+        "2022-07-11": "Candidates include [[MessagePack]] and [[CBOR]].",
+        "CBOR": "- Compact Data Exchange Format like [[MessagePack]]."
     },
     "Social Network Service": {
         "Jumpsite": "... or Web Linking Network Service, is a collective term for a [[Social Network Service]] mainly consisting of links to outside content."
@@ -4296,10 +4295,10 @@ export const backlinks = {
     "HTML": {
         "2022-06-12": "... rehydration is a technique in which client-side JavaScript converts a static [[HTML]] web page, delivered either through static hosting or server-side rendering, into ...",
         "AMP Email": "... the email. The AMP email format provides a subset of AMP [[HTML]] components for use in email messages, allowing recipients of AMP emails ...",
-        "CSS": "... presentation of a document written in a markup language such as [[HTML]] or XML (including XML dialects such as [[SVG (File Format)]], MathML, ...",
+        "CSS": "... presentation of a document written in a markup language such as [[HTML]] or XML (including XML dialects such as [[SVG]], MathML, or XHTML). ...",
         "DOM": "... is a cross-platform and language-independent interface that treats an XML or [[HTML]] document as a tree structure wherein each node is an object ...",
         "HTML 텍스트 위에 덧말 강조점 쓰기": "그동안 글자 위에 글자를 어떻게 적는지 궁금했는데 [[HTML]]의 기본 기능 만으로도 해결 가능하다는 것을 알게 되었다. 참고로 이런 '글자 ...",
-        "JSX (File Format)": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
+        "JSX": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
         "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
         "Markdown Email Client": "... select one CSS. Then... it sends as a beautiful and clean [[HTML]] email!",
         "Preservation of Data": "Save the raw [[HTML]] and process it later.",
