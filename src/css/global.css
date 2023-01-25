@@ -14,8 +14,9 @@
   }
 }
 
-h1 {
-  letter-spacing: -0.1rem;
+h1,
+h2 {
+  letter-spacing: -0.2rem;
 }
 
 * {
