@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "957df94fdfbb591b",
+        "id": "7c3b2f2e912fcaab",
         "type": "tabs",
         "children": [
           {
-            "id": "ed5059afcf226b37",
+            "id": "c214ef8920b3dfd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-01-23.md",
+                "file": "pages/하늘땅사람 개발 기록.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-23.md",
+                "file": "pages/하늘땅사람 개발 기록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-01-23.md"
+                "file": "pages/하늘땅사람 개발 기록.md"
               }
             }
           }
@@ -127,17 +127,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "ed5059afcf226b37",
+  "active": "c214ef8920b3dfd4",
   "lastOpenFiles": [
+    "journals/2023-01-24.md",
+    "pages/하늘땅사람 개발 기록.md",
+    "pages/하늘땅사람.md",
+    "pages/아이폰 천지인 자판 프로젝트의 실현 가능성 연구.md",
+    "pages/2023년 1월과 2월에 하루 25분 조깅하기.md",
     "journals/2023-01-23.md",
     "pages/Markovity.md",
     "pages/Multiplication Theorem.md",
     "pages/Partition Problem.md",
-    "pages/Total Probability.md",
-    "pages/Bayes Theorem.md",
-    "pages/Odds.md",
-    "pages/Conditional Probability.md",
-    "pages/Independence.md",
-    "pages/Probability.md"
+    "pages/Total Probability.md"
   ]
 }

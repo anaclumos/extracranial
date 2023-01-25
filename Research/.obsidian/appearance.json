@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
-  "interfaceFontFamily": "SF Pro Rounded",
-  "textFontFamily": "SF Pro Rounded",
+  "interfaceFontFamily": "SF Pro Rounded,LINE Seed Sans KR",
+  "textFontFamily": "SF Pro Rounded,LINE Seed Sans KR",
   "monospaceFontFamily": "Iosevka",
   "cssTheme": "",
   "translucency": false,

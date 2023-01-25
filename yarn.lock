@@ -5003,6 +5003,7 @@ __metadata:
     react-dom: ^18.2.0
     react-force-graph: ^1.41.16
     react-spring: ^9.5.5
+    react-wrap-balancer: ^0.4.0
     rehype-katex: ^5.0.0
     remark-math: ^3.0.1
     swc-loader: ^0.2.3
@@ -11506,6 +11507,15 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 87360d4392276d4e87511a73be9b0634b8bcce8f4f648cf659334d993f25ad3d4062f468f1e1944fc614123acae4299580aad00b760c6a96cec190e076f847f5
+  languageName: node
+  linkType: hard
+
+"react-wrap-balancer@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "react-wrap-balancer@npm:0.4.0"
+  peerDependencies:
+    react: ^18.0.0
+  checksum: c43e9ecc5737ecd67a5f38f4ed928a489dd20bf63b24bb31abc94c6e8605e1df7302196b74e5805528c7044864ac7ea1eea64117b74b8a91066f781e3239e9cc
   languageName: node
   linkType: hard
 
