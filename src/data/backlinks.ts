@@ -757,13 +757,19 @@ export const backlinks = {
         "Tailwind": "... around it, I consider Tailwind CSS to be one of the [[Boring Technologies|boring]] established CSS solutions that enables me to be the most productive ..."
     },
     "Probability": {
+        "2023-01-24": "- [[Probability]]",
+        "Approximation": "In [[Probability]],",
         "Bayes Theorem": "In [[Probability]],",
+        "Bernoulli Distribution": "In [[Probability]],",
+        "Binomial Theorem": "In [[Probability]],",
         "Conditional Probability": "In [[Probability]],",
+        "Counting": "In [[Probability]],",
         "Independence": "In [[Probability]],",
         "Markovity": "In [[Probability]],",
         "Multiplication Theorem": "In [[Probability]],",
         "Odds": "In [[Probability]],",
         "Partition Problem": "In [[Probability]],",
+        "Pascal Triangle": "In [[Probability]],",
         "Total Probability": "In [[Probability]],"
     },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
@@ -798,7 +804,7 @@ export const backlinks = {
     },
     "Multiplication Theorem": {
         "2023-01-23": "- [[Multiplication Theorem]]",
-        "2023-01-24": "- $P(A1 \\cap A2)$ → [[Multiplication Theorem]]"
+        "Probability": "- $P(A1 \\cap A2)$ → [[Multiplication Theorem]]"
     },
     "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {
         "2022-11-19": "  - [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]",
@@ -1145,6 +1151,9 @@ export const backlinks = {
         "Synthote": "- [[Conversational AI Tools for Thought]]",
         "Tools for Thought": "- [[Conversational AI Tools for Thought]]"
     },
+    "Pascal Triangle": {
+        "2023-01-24": "- [[Pascal Triangle]]"
+    },
     "Pure Component Model": {
         "2022-09-03": "- [[Pure Component Model]]",
         "Monolithic Model": "- Solution [[Pure Component Model]]"
@@ -1320,6 +1329,9 @@ export const backlinks = {
         "Endianness": "- [[Internetworking]]",
         "Multiplexing": "- In [[Internetworking]], it means having multiple sockets and juggling with data transmissions.",
         "Socket": "- used in [[Internetworking]]"
+    },
+    "Approximation": {
+        "2023-01-24": "- [[Approximation]]"
     },
     "Problem": {
         "Digital Addiction": "[[Problem]]. I love software, but I am sometimes too addicted to tech!"
@@ -1521,6 +1533,9 @@ export const backlinks = {
     },
     "Modern MacPaint": {
         "Diagram (Company)": "- Creator of [[Modern MacPaint]]"
+    },
+    "Bernoulli Distribution": {
+        "2023-01-24": "- [[Bernoulli Distribution]]"
     },
     "Journal is a Waypoint, nothing more": {
         "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
@@ -2220,7 +2235,7 @@ export const backlinks = {
     },
     "Bayes Theorem": {
         "2023-01-23": "- [[Bayes Theorem]]",
-        "2023-01-24": "- $P(H|E)$ → [[Bayes Theorem]]"
+        "Probability": "- $P(H|E)$ → [[Bayes Theorem]]"
     },
     "Scheduler": {
         "2022-07-11": "Brane requires explicit [[Scheduler|schedulers]] and abstractions to overcome these shortcomings.",
@@ -3670,7 +3685,7 @@ export const backlinks = {
     },
     "Total Probability": {
         "2023-01-23": "- [[Total Probability]]",
-        "2023-01-24": "- $P(E)$ → [[Total Probability]]"
+        "Probability": "- $P(E)$ → [[Total Probability]]"
     },
     "공기 청정 비행선": {
         "2022-12-17": "- [[공기 청정 비행선]]"
@@ -4066,6 +4081,9 @@ export const backlinks = {
         "2022-12-28": "- [[Tools Must Vanish]]",
         "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter — essentially solving the [[Digital Addiction]]."
     },
+    "Counting": {
+        "2023-01-24": "- [[Counting]]"
+    },
     "Unicorn": {
         "Ridi": "Ridi is a Korean [[Unicorn]] specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
         "Toss": "- Financial Technology|FinTech [[Unicorn]] of Korea."
@@ -4193,6 +4211,9 @@ export const backlinks = {
     "GDPR": {
         "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by ...",
         "Simple Analytics": "- [[GDPR]], [[PECR]], [[CCPA]] Compliant"
+    },
+    "Binomial Theorem": {
+        "2023-01-24": "- [[Binomial Theorem]]"
     },
     "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
         "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
