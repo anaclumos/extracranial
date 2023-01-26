@@ -329,6 +329,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
     },
     "2022-12-10": {},
+    "2023-01-26": {},
     "2022-12-24": {
         "In-house and Free Market": "- [[2022-12-24]]: Can independent scientists ever win again?"
     },
@@ -410,7 +411,9 @@ export const backlinks = {
         "Open Graph Image as a Service": "- [[2022-10-11]]"
     },
     "2022-10-25": {},
-    "2023-01-13": {},
+    "2023-01-13": {
+        "한민족은 해적되었다": "[[2023-01-13]]에 꾼 꿈에서 강력한 메시지를 받았다."
+    },
     "2022-12-11": {},
     "2020-04-01": {
         "프로젝트 어덕행덕": "- [[2020-04-01]]"
@@ -1429,7 +1432,8 @@ export const backlinks = {
     },
     "일본 과학기술 총력전": {
         "2022-08-02": "- [[일본 과학기술 총력전]]",
-        "Readings": "- [x] [[일본 과학기술 총력전]]"
+        "Readings": "- [x] [[일본 과학기술 총력전]]",
+        "한민족은 해적되었다": "그것이 한민족의 동족상잔|동족이든 [[일본 과학기술 총력전|외세]]이든..."
     },
     "Packet Loss": {
         "Internetworking": "- [[Packet Loss]]",
@@ -1996,6 +2000,7 @@ export const backlinks = {
         "2023-01-21": "## [[Project]]",
         "2023-01-22": "## [[Project]]",
         "2023-01-25": "## [[Project]]",
+        "2023-01-26": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -2068,6 +2073,9 @@ export const backlinks = {
     },
     "1448 Count Good Nodes in Binary Tree": {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]"
+    },
+    "한민족은 해적되었다": {
+        "2023-01-26": "- [[한민족은 해적되었다]]"
     },
     "Mutex": {
         "Internetworking": "- [[Mutex]]"
@@ -2505,7 +2513,8 @@ export const backlinks = {
         "2023-01-22": "## [[Building Habit]]",
         "2023-01-23": "## [[Building Habit]]",
         "2023-01-24": "## [[Building Habit]]",
-        "2023-01-25": "## [[Building Habit]]"
+        "2023-01-25": "## [[Building Habit]]",
+        "2023-01-26": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3423,7 +3432,8 @@ export const backlinks = {
         "월급만큼 중요한 것은 자존급이다": "게다가 [[고통에는 순응이 아니라 감작이 나타난다]]."
     },
     "한민족의 동족상잔": {
-        "2023-01-09": "- [[한민족의 동족상잔]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다."
+        "2023-01-09": "- [[한민족의 동족상잔]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
+        "한민족은 해적되었다": "그것이 [[한민족의 동족상잔|동족]]이든 [[일본 과학기술 총력전|외세]]이든..."
     },
     "Handwriting Tools for Thoughts": {
         "2022-10-12": "- [[Handwriting Tools for Thoughts]]",
@@ -3464,6 +3474,7 @@ export const backlinks = {
         "2023-01-23": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-24": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-25": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-26": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -4032,6 +4043,7 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
+        "2023-01-26": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -4347,6 +4359,9 @@ export const backlinks = {
     "AI replaces expensive jobs first": {
         "2022-10-20": "- [[AI replaces expensive jobs first]]",
         "2022-11-19": "  - [[AI replaces expensive jobs first]]"
+    },
+    "Great Schism": {
+        "2023-01-26": "- [[Great Schism]]"
     },
     "한국의 입시와 거짓된 명예": {
         "2022-11-25": "- [[한국의 입시와 거짓된 명예]]",
