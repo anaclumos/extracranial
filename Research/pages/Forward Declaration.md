@@ -3,6 +3,13 @@ lang: 'en'
 slug: '/E0B48F'
 ---
 
+## Abstract
+
+- In [[Graphics]]
+- Reduce the number of cpp files that get recompiled when you touch a header file.
+- This happens by moving the `#include` from the header file to the source file.
+- The cpp file still gets recompiled when you touch the header file, but the circular dependency is broken.
+
 ## Definition
 
 - Not `#include`ing in header files.
@@ -15,7 +22,7 @@ slug: '/E0B48F'
 
 ## Benefits
 
-- Compile time improvements
+- [[Compiling|Compile]] time improvements
 - Resolves circular dependency
 - `#pragma once` solves circular dependency but does not resolve the order dependency.
 
