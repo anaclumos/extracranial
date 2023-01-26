@@ -882,6 +882,7 @@ export const backlinks = {
         "Project PEOPLE": "- [[Person 1E6ABA]]"
     },
     "Forward Declaration": {
+        "2023-01-25": "- [[Forward Declaration]]",
         "Game Programming": "- [[Forward Declaration]]"
     },
     "Coding Tests": {
@@ -1889,6 +1890,12 @@ export const backlinks = {
         "Memory Hierarchy": "- Implementation of [[Principles of Locality]].",
         "Memory Wall": "    - [[Principles of Locality]]"
     },
+    "Compiling": {
+        "2023-01-25": "- [[Compiling]]",
+        "Forward Declaration": "- [[Compiling|Compile]] time improvements",
+        "How is WebAssembly cross-platform when Assembly is not": "- To run WebAssembly|WASM, the Web Browser|browser must still [[Compiling|compile]] the WebAssembly|WASM code into ASM code when executing; in that way, ...",
+        "Preprocessor": "`#ifdef DEBUG` and `#endif` also exclude that block when [[compiling]] the production version."
+    },
     "배달의민족 FE 개발자가 일하는 법 Q&A": {
         "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
     },
@@ -2479,6 +2486,9 @@ export const backlinks = {
         "2022-11-11": "- [[Lazy]]: [[Tools for Thought]]",
         "Data Capturers": "### [[Lazy]]"
     },
+    "Conditional Compilation": {
+        "2023-01-25": "- [[Conditional Compilation]]"
+    },
     "Dynamically Linked Libraries": {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
     },
@@ -2680,6 +2690,9 @@ export const backlinks = {
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting ...",
         "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.",
         "dub.sh": "  - [[Vercel]] hosting"
+    },
+    "Clustering": {
+        "2023-01-25": "- [[Clustering]]"
     },
     "Karrot": {
         "Height": "- Used at [[Karrot]]",
@@ -3020,11 +3033,15 @@ export const backlinks = {
     },
     "Graphics": {
         "CDN": "... large portion of the Internet content today, including web objects (text, [[graphics]], and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), ...",
+        "Compiling": "In [[Graphics]], Compiling generates object codes, except it does not have addresses.",
+        "Conditional Compilation": "In [[Graphics]], Conditional Compilation can be used for multi-platform engine",
         "Figma": "... experience design, emphasizing real-time collaboration and utilizing a variety of vector [[graphics]] editors and prototyping tools. The Figma mobile app for [[Android]] and ...",
+        "Forward Declaration": "- In [[Graphics]]",
         "Graphic Renderer": "... to be processed and output to a digital image or raster [[graphics]] image file. The term \"rendering\" is analogous to the concept of ...",
         "Graphics Engine Process": "The general process of a [[graphics]] engine follows:",
         "PDF": "... description of a fixed-layout flat document, including the text, fonts, vector [[graphics]], raster images and other information needed to display it. PDF has ...",
         "PNG": "> Portable Network Graphics is a raster-[[graphics]] file format that supports lossless data compression. PNG was developed as ...",
+        "Preprocessor": "In [[Graphics]], preprocessors are the directives to tell the compiler before turning them ...",
         "SVG": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
         "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex or ...",
         "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
@@ -3470,6 +3487,9 @@ export const backlinks = {
         "Pretendard의 아쉬운 점": "이는 유사한 폰트 Interop 및 [[Toss Product Sans]]에는 반영되어 있는 사항이다.",
         "San Francisco": "### [[Toss Product Sans]]",
         "Toss": "- Creators of [[Toss Product Sans]] and [[Tossface]]"
+    },
+    "Preprocessor": {
+        "2023-01-25": "- [[Preprocessor]]"
     },
     "Korean Banks Suck": {
         "2023-01-09": "- [[Korean Banks Suck]]"

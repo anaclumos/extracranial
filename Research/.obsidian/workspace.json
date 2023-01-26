@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11b4b4ae51c20ea3",
+        "id": "5bd9151c17b430ef",
         "type": "tabs",
         "children": [
           {
-            "id": "4197efeeabdd09b3",
+            "id": "b1ea33ad55f8baa6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -121,17 +121,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "4197efeeabdd09b3",
+  "active": "b1ea33ad55f8baa6",
   "lastOpenFiles": [
+    "pages/Conditional Compilation.md",
+    "pages/Forward Declaration.md",
+    "pages/Compiling.md",
+    "pages/Clustering.md",
+    "journals/2023-01-25.md",
+    "pages/Preprocessor.md",
     "assets/68C6BB.png",
     "pages/하늘땅사람 업데이트 기록.md",
     "assets/F93D1B.png",
-    "pages/하늘땅사람 개발 기록.md",
-    "journals/2023-01-25.md",
-    "pages/Atomic Habits.md",
-    "journals/2023-01-15.md",
-    "journals/2023-01-17.md",
-    "pages/재학생일기.md",
-    "pages/월급만큼 중요한 것은 자존급이다.md"
+    "pages/하늘땅사람 개발 기록.md"
   ]
 }
