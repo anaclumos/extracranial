@@ -22,10 +22,10 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1066     30397     7492         0    22905          0
+Markdown                  1066     30403     7494         0    22909          0
 CSS                         64     19574      159        31    19384          0
-TypeScript                  50      8763      145        50     8568        142
-JSON                        36      2070        0         0     2070          0
+TypeScript                  50      8766      145        50     8571        142
+JSON                        36      2092        0         0     2092          0
 Python                       7       550       50        38      462         76
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -34,13 +34,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1243     62943     7943      1231    53769        239
+Total                     1243     62974     7945      1231    53798        239
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,772,776
+Estimated Cost to Develop (organic) $1,773,780
 Estimated Schedule Effort (organic) 17.10 months
-Estimated People Required (organic) 9.21
+Estimated People Required (organic) 9.22
 ───────────────────────────────────────────────────────────────────────────────
-Processed 2790598 bytes, 2.791 megabytes (SI)
+Processed 2791639 bytes, 2.792 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

@@ -77,7 +77,9 @@ export const backlinks = {
         "Conversation with Alan Chan on 2022-12-27": "Had a conversation with Alan Chan on [[2022-12-27]].",
         "하늘땅사람 개발 기록": "## [[2022-12-27]]"
     },
-    "2023-01-25": {},
+    "2023-01-25": {
+        "하늘땅사람 업데이트 기록": "## 1.0.8 [[2023-01-25]]"
+    },
     "2022-07-14": {
         "0125 Valid Palindrome": "Solved at: [[2022-07-14]] and [[2022-07-26]]",
         "Fiercely Overpriced": "An idea suggested on [[2022-07-14]] that all inventions should be fiercely overpriced."
@@ -4218,6 +4220,7 @@ export const backlinks = {
         "2023-01-19": "- [[하늘땅사람 업데이트 기록]]",
         "2023-01-21": "- [[하늘땅사람 업데이트 기록]]",
         "2023-01-22": "- [[하늘땅사람 업데이트 기록]]",
+        "2023-01-25": "- [[하늘땅사람 업데이트 기록]]",
         "하늘땅사람": "- [[하늘땅사람 업데이트 기록]]",
         "하늘땅사람 지원 문서": "[[하늘땅사람 업데이트 기록]]도 확인해보세요."
     },
