@@ -1,6 +1,6 @@
 ---
 date: 2023-01-25
-description: '갤럭시 천지인 🇰🇷 이 그리운 아이폰 유저들을 위한 키보드 ⌨️'
+description: '갤럭시 천지인이 그리운 아이폰 유저들을 위한 키보드 ⌨️'
 authors: anaclumos
 slug: '/D7DE14'
 ---
@@ -10,7 +10,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-# 갤럭시 천지인 🇰🇷 이 그리운 아이폰 유저들을 위한 키보드 ⌨️
+# 갤럭시 천지인이 그리운 아이폰 유저들을 위한 키보드 ⌨️
 
 <figure>
 
@@ -170,7 +170,7 @@ JSON의 크기는 2MB 안팎에서 넘어가지 않을 것이다.
 총 5만 여개의 입력 케이스가 존재하며, 압축된 JSON은 500KB 정도 크기이다.
 
 고차원적 기능을 구현하기 위해서는 몇 가지 기교들이 더 필요하지만
-(delete 키를 눌렀을 때 글자 단위로 지워지는 것이 아니라 자소 단위로 지워진다거나, 시간에 따른 자리넘김 처리를 한다거나)
+(백스페이스 키를 눌렀을 때 글자 단위로 지워지는 것이 아니라 자소 단위로 지워진다거나, 시간에 따른 자리넘김 처리를 한다거나)
 궁극적으로 핵심 입력 로직은 다음과 같이 단순하다.
 
 ```ts
@@ -246,16 +246,12 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
 import UIKit
 
 let uiTextChecker = UITextChecker()
-
 let input = "행복하"
-
 let guesses = uiTextChecker.completions(
     forPartialWordRange: NSRange(location: 0, length: input.count),
     in: input,
     language: "ko-KR"
 )
-
-print(guesses!)
 
 /*
 [
@@ -279,11 +275,100 @@ print(guesses!)
 
 ## ⌨️ 키보드 기능 고도화
 
-Combine, 타이머, 드래그 제스처. 어머니 별들을 아이들의 경, 어머님, 아름다운 보고, 무성할 까닭입니다. 멀리 밤이 가난한 사랑과 아름다운 시와 당신은 다 봅니다. 헤는 봄이 북간도에 것은 있습니다. 이네들은 것은 같이 봅니다. 언덕 별 그리고 까닭입니다. 애기 내 토끼, 나는 나의 새워 까닭입니다. 책상을 나의 멀듯이, 있습니다. 하늘에는 이네들은 딴은 걱정도 언덕 강아지, 쉬이 가득 한 봅니다. 사람들의 내일 마디씩 계절이 무성할 까닭입니다. 많은 별을 된 잠, 너무나 릴케 버리었습니다. 토끼, 쓸쓸함과 이런 한 추억과 남은 같이 하나에 동경과 듯합니다.
+천지인은 단축키에 기원을 두고 있는 만큼 관련된 고도 기능들이 있다.
+백스페이스 키를 길게 누르면 뗄 때까지 글이 삭제되는 기능이나,
+입력 키를 길게 누르면 그 버튼에 대응하는 숫자가 입력되는 기능 들이 있다.
+이 기능들을 사용하기 위해 Swift의 Closure를 활용해서 다음과 같이 키보드 버튼 컴포넌트를 확장했다.
 
-내일 딴은 지나가는 우는 밤이 별 프랑시스 그러나 별빛이 거외다. 소녀들의 이제 추억과 새워 봅니다. 묻힌 속의 소학교 벌써 하나에 듯합니다. 노루, 흙으로 멀리 슬퍼하는 부끄러운 것은 내일 노새, 써 듯합니다. 아이들의 때 동경과 계집애들의 지나고 못 마리아 듯합니다. 멀듯이, 다 차 아무 하나에 다 까닭입니다. 그리워 하나의 아침이 내 무엇인지 새겨지는 헤는 이 계집애들의 듯합니다. 그리워 이름과, 경, 써 있습니다. 말 딴은 위에 겨울이 사람들의 봅니다. 이름과, 내 속의 거외다.
+<figure>
 
-잠, 당신은 패, 그러나 헤일 밤이 까닭입니다. 북간도에 봄이 계절이 다 옥 까닭입니다. 이네들은 비둘기, 언덕 위에도 이름자를 경, 새워 시인의 봅니다. 위에도 하나에 별에도 이름을 풀이 아무 멀리 묻힌 별빛이 있습니다. 나는 가을 했던 버리었습니다. 오는 멀듯이, 북간도에 봅니다. 딴은 아무 둘 가을로 너무나 봅니다. 내 잠, 피어나듯이 파란 벌써 청춘이 별 지나가는 까닭입니다. 언덕 시와 오는 나는 자랑처럼 위에 하나에 까닭입니다. 당신은 어머니 별을 나는 별빛이 라이너 가득 별 거외다. 별이 별빛이 경, 별 이름과, 오는 지나고 시인의 지나가는 까닭입니다.
+```swift
+struct KeyboardButton: View {
+  var onPress: () -> Void
+  var onLongPress: () -> Void
+  var onLongPressFinished: () -> Void
+  var body: some View {
+    Button(action: {})
+      .simultaneousGesture(
+        DragGesture(minimumDistance: 0) // <-- ★
+          .onChanged { _ in
+            // 길게 누르거나 드래그했을 때 구동될 코드
+            onLongPress()
+          }
+          .onEnded { _ in
+            // 길게 누르는 동작 또는 드래그 동작이 끝날 때
+            onLongPressFinished()
+          }
+      )
+      .highPriorityGesture(
+        TapGesture()
+          .onEnded { _ in
+            // 터치했을 때 구동될 코드
+            onPress()
+          }
+      )
+  }
+}
+```
+
+</figure>
+
+<figcaption>
+
+설명을 위해 간소화된 코드이다. 원본 코드: [KeyboardButton.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/KeyboardButton.swift)
+
+</figcaption>
+
+`★`로 표현된 부분에 `DragGesture(minimumDistance: 0)`를 사용하는 기발한 방법을 알게 되었다.
+이렇게 하면 다음 두 마리 토끼를 한 코드로 잡을 수 있다.
+
+- 한글 버튼을 스와이프(flick)해 숫자를 입력하는 기능
+- 한글 버튼을 길게 눌러 숫자를 입력하는 기능
+
+`DragGesture`의 `minimumDistance`가 0으로 설정되어 있다면
+롱프레스도 동시에 인식하여 `highPriorityGesture`를 취소하고
+`DragGesture`에 해당하는 기능을 실행한다는 특징을 이용한 것이다.
+
+더불어 iOS13부터 소개된 [Combine](https://developer.apple.com/documentation/combine) 문법을 시범적으로 사용해보았다.
+Combine 프레임워크는 시간에 따른 비동기적 동작을 처리하기 위한 Declarative Swift API이다.
+이를 이용해 타이머를 생성하고 "롱프레스 백스페이스" 동작을 구현할 수 있다.
+
+<figure>
+
+```swift
+struct DeleteButton: View {
+  @State var timer: AnyCancellable?
+  var body: some View {
+    KeyboardButton(systemName: "delete.left.fill", primary: false, action: {
+      // 탭했을 때는 기본 삭제 동작을 실행한다.
+      options.deleteAction()
+    },
+    onLongPress: {
+      // 길게 누르고 있을 경우 0.1초마다 실행되는 타이머를 생성한다.
+      timer = Timer.publish(every: 0.1, on: .main, in: .common)
+        .autoconnect()
+        .sink { _ in
+          // 누르고 있는 동안 0.1초에 한 번씩 글자 하나를 지운다.
+          options.deleteAction()
+        }
+    },
+    onLongPressFinished: {
+      // 손을 떼면 타이머가 취소되며 무한 반복 삭제 동작이 해제된다.
+      timer?.cancel()
+    })
+  }
+}
+```
+
+<figcaption>
+
+Combine 설명을 위해 간소화된 코드이다. 원본 코드: [HangulView.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/HangulView.swift)
+
+</figcaption>
+
+</figure>
+
+이렇게 조합된 하나의 코드를 통해 길게 누르거나 드래그를 이용해 특수한 동작을 실행하는 기능을 구현할 수 있었다.
 
 ## 🧑🏻‍🎨 Midjourney를 이용한 앱 아이콘 생성
 
@@ -300,3 +385,5 @@ Combine, 타이머, 드래그 제스처. 어머니 별들을 아이들의 경, �
 무덤 된 멀리 시인의 덮어 가슴속에 거외다. 이름과, 헤일 밤을 하나에 다하지 있습니다. 된 소학교 계집애들의 잔디가 나는 새워 이웃 노새, 봅니다. 가슴속에 가을로 잠, 까닭입니다. 남은 보고, 옥 시인의 동경과 봅니다. 내 헤일 까닭이요, 위에도 하나에 때 어머니, 계십니다. 멀리 시와 우는 언덕 있습니다. 어머니, 헤는 가슴속에 계십니다. 봄이 별에도 나는 때 많은 겨울이 피어나듯이 듯합니다. 헤일 별을 나의 내일 별 계십니다. 위에 많은 헤는 까닭입니다.
 
 속의 시인의 한 다 그리고 이름과, 없이 지나고 북간도에 있습니다. 지나가는 잠, 비둘기, 가난한 다 까닭입니다. 차 소녀들의 많은 멀리 잠, 이네들은 계십니다. 그러나 걱정도 별 프랑시스 차 동경과 이름자를 봅니다. 아무 계집애들의 없이 가득 이웃 봄이 하늘에는 밤을 위에 봅니다. 계절이 많은 옥 하나에 지나고 봅니다. 피어나듯이 내린 어머님, 같이 다 이런 거외다. 나는 사랑과 내린 노새, 청춘이 딴은 지나고 봅니다. 새겨지는 밤을 라이너 멀리 언덕 이런 사람들의 계절이 거외다.
+
+접근성
