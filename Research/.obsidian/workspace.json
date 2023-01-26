@@ -11,11 +11,30 @@
             "id": "7b9fa228731efb0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-01-25.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "097a564a5e484bd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/하늘땅사람 업데이트 기록.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/하늘땅사람 업데이트 기록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/하늘땅사람 업데이트 기록.md"
+              }
             }
           }
         ],
@@ -121,7 +143,7 @@
       "random-note:Open random note": false
     }
   },
-  "active": "7b9fa228731efb0a",
+  "active": "097a564a5e484bd5",
   "lastOpenFiles": [
     "journals/2023-01-25.md",
     "pages/Conditional Compilation.md",
