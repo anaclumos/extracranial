@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "09867c2698c4b463",
+        "id": "56b83255915c2056",
         "type": "tabs",
         "children": [
           {
-            "id": "085d1cbf5a73f5ad",
+            "id": "499f5fae3a67e9eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-26.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-01-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-01-26.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -130,13 +122,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "085d1cbf5a73f5ad",
+  "active": "499f5fae3a67e9eb",
   "lastOpenFiles": [
+    "journals/2023-01-26.md",
     "pages/한민족은 해적되었다.md",
     "pages/한민족의 동족상잔.md",
     "pages/일본 과학기술 총력전.md",
     "journals/2023-01-13.md",
-    "journals/2023-01-26.md",
     "pages/Great Schism.md",
     "journals/2023-01-25.md",
     "pages/하늘땅사람 업데이트 기록.md",
