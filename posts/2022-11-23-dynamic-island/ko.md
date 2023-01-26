@@ -101,7 +101,7 @@ import Admonition from '@theme/Admonition'
 우선 프레임워크로는 가장 익숙한 Next.js와 Tailwind를 골랐다.
 문제는 애니메이션이었다.
 간단한 CSS 애니메이션은 다루어 보았지만
-ease-in-ease-out이상의 복잡한 애니메이션은 다뤄보지 못했다.
+ease-in-ease-out 이상의 복잡한 애니메이션은 다뤄보지 못했다.
 [Framer Motion](https://www.framer.com/developers/)이라는 라이브러리를 알게 되어 이를 사용하기로 했다.
 
 <figure>
