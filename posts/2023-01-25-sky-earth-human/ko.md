@@ -37,12 +37,6 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 ![자리넘김 버튼과 띄어쓰기 버튼이 따로 존재하는 아이폰 10키 키보드](자리넘김.001.png)
 
-<figcaption>
-
-자리넘김 버튼과 띄어쓰기 버튼이 따로 존재하는 아이폰 10키 키보드
-
-</figcaption>
-
 </figure>
 
 <Admonition type="info" title='예를 들어 "오 안녕"을 입력하기 위해서는...' icon="💎">
@@ -50,12 +44,12 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 <Tabs>  
 <TabItem lang="ko-KR" value="Galaxy" label="갤럭시">
 
-`ㅇ` `ᆞ` `ㅡ` → **띄어쓰기** → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → **띄어쓰기** → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
+`ㅇ` `ᆞ` `ㅡ` → 띄어쓰기 → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → <u>띄어쓰기</u> → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
 
 </TabItem>  
 <TabItem lang="ko-KR" value="iPhone" label="아이폰">
 
-`ㅇ` `ᆞ` `ㅡ` → **띄어쓰기** → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → **자리넘김** → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
+`ㅇ` `ᆞ` `ㅡ` → 띄어쓰기 → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → <u>자리넘김</u> → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
 
 </TabItem>  
 </Tabs>  
@@ -73,7 +67,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <Admonition type="tip" title="꿀팁" icon="🍯">
 
-내 위키에 이 프로젝트의 [연구 기록](/r/C222D1)도 공개되어 있다.
+이 프로젝트의 [연구 기록](/r/C222D1)도 공개되어 있다.
 
 </Admonition>
 
@@ -200,7 +194,7 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
 [4년 전 조성현이 나를 많이 도와주었다.](https://github.com/anaclumos/hangulbreak/blob/master/Python/HangulDecomposeModule.py)
 
 <Admonition type="tip" title='직접 해보자!' icon="🧪">
-다음 창은 활자를 이용해 간단하게 구현해본 천지인 입력 시연이다. 
+다음 창은 활자를 이용해 간단하게 구현해본 천지인 입력 시연이다.
 </Admonition>
 
 <figure>
@@ -209,14 +203,13 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
 
 <figcaption>
 
-[활자 프로젝트는 모든 플랫폼에 탑재할 수 있도록 별도의 프로젝트로 분리해서 공개했다.](https://github.com/anaclumos/hwalja)<br/>위의 데모로 직접 활자를 입력해보자!
+[활자는 모든 플랫폼에 사용할 수 있도록 공개했다.](https://github.com/anaclumos/hwalja)<br/>위 데모로 직접 활자를 입력해보자!
 
 </figcaption>
 </figure>
 
 <Admonition type="info" title='활자는' icon="💎">
-가장 단순한** 구현체이지 가장 **가벼운** 구현체는 아니라는 점을 명심하자.
-리소스가 부족한 곳에서는 완벽한 해결책은 아니다.
+가장 <strong>단순한</strong> 구현체이지 가장 <strong>가벼운</strong> 구현체는 아니라는 점을 명심하자.
 </Admonition>
 
 <details>
@@ -228,7 +221,7 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
 
 활자 프로젝트의 경우 현 접근을 유지하기로 했다.
 활자는 **가장 쉽고 단순한 천지인 구현체**를 지향하는 만큼
-현재의 접근이 `substring + replace`` 만으로 구현할 수 있기 때문이다.
+현재의 접근이 `substring + replace` 만으로 구현할 수 있기 때문이다.
 만약 NFD와 정규화에 대한 정보를 추가해야한다면,
 비록 활자 프로젝트 자체는 가벼워지겠지만,
 그를 사용하는 개발자 측에서 NFD와 정규화에 대한 추가적인 학습 및 구현이 필요하다.
@@ -240,13 +233,49 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
 
 ## 🤖 자동완성 키보드 만들기
 
+천지인을 쓰는 사람들이 빠른 속도로 타자를 칠 수 있는 이유는 바로
+[자동 완성 텍스트](https://support.apple.com/ko-kr/guide/iphone/iphd4ea90231/ios)
+(개발 명칭: Apple QuickType)을 적극적으로 활용한다는 점이다.
+이 자동 완성 텍스트들은 사용자가 입력하는 패턴을 [지속적으로 학습](https://developer.apple.com/design/human-interface-guidelines/technologies/machine-learning/roles/)하여 사용자의 입력을 돕는다.
+
+다행히도 애플 UIKit에는 Core ML과 Neural Engine을 직접 건드리지 않고도
+문맥 자동 완성 기능을 사용할 수 있는 [UITextChecker](https://developer.apple.com/documentation/uikit/uitextchecker)를 제공한다.
+한국어도 물론 지원하며, `learnWord()`와 `unlearnWord()`를 사용하여 사용자의 입력을 학습하거나 삭제할 수 있다.
+
 ```swift
-func completions(
-    forPartialWordRange range: NSRange,
-    in string: String,
-    language: String
-) -> [String]?
+import UIKit
+
+let uiTextChecker = UITextChecker()
+
+let input = "행복하"
+
+let guesses = uiTextChecker.completions(
+    forPartialWordRange: NSRange(location: 0, length: input.count),
+    in: input,
+    language: "ko-KR"
+)
+
+print(guesses!)
+
+/*
+[
+  "행복한", "행복합니다", "행복하게", "행복할", "행복하다", "행복하고", "행복하지",
+  "행복하다고", "행복하다는", "행복하기", "행복하면", "행복할까", "행복하길",
+  "행복함을", "행복하기를", "행복함", "행복하니", "행복한테", "행복하자", "행복하네"
+]
+*/
+
 ```
+
+이 기능을 이용해 자동완성 기능을 완성했다.
+가끔 문맥이 어색하거나 아무런 추천을 해주지 않거나 하는 버그가 존재하지만,
+최소 기능 제품을 위해서는 훌륭하게 동작한다!
+
+<figure>
+
+![2023년에도 행복하세요 💙](8E6907.jpeg)
+
+</figure>
 
 ## ⌨️ 키보드 기능 고도화
 
