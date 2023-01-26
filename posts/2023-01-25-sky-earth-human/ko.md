@@ -60,7 +60,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <Admonition type="info" title="목표" icon="💎">
 
-어르신들도 쉽게 사용하실 수 있는 아이폰용 천지인 키보드를 만들어 보자!
+학습 없이 쉽게 사용할 수 있는 아이폰용 천지인 키보드를 만들어 보자!
 
 </Admonition>
 
