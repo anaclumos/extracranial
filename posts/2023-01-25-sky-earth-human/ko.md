@@ -12,11 +12,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 # 갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키보드 ⌨️
 
-<figure>
-
 ![ALT: 아이폰 키보드 "하늘땅사람"의 모습](7B584A.png)
-
-</figure>
 
 <Admonition type="info" title="잔말 말고 설치 링크부터 줘요" icon="💎">
 
@@ -40,11 +36,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 이상하게도 아이폰은 키보드의 모양이 조금 달랐다.
 가장 결정적인 차이점은 **자리넘김** 버튼과 **띄어쓰기** 버튼이 따로 존재한다는 점이다.
 
-<figure>
-
 ![자리넘김 버튼과 띄어쓰기 버튼이 따로 존재하는 아이폰 10키 키보드](2DCA95.png)
-
-</figure>
 
 <Admonition type="info" title='예를 들어 "오 안녕"을 입력하기 위해서는...' icon="💎">
 
@@ -274,11 +266,7 @@ let guesses = uiTextChecker.completions(
 가끔 문맥이 어색하거나 아무런 추천을 해주지 않거나 하는 버그가 존재하지만,
 최소 기능 제품을 위해서는 훌륭하게 동작한다!
 
-<figure>
-
 ![2023년에도 행복하세요 💙](8E6907.jpeg)
-
-</figure>
 
 ## ⌨️ 키보드 기능 고도화
 
@@ -389,17 +377,9 @@ let fontWeight: UIAccessibility.isBoldTextEnabled ? .bold : .regular
 
 <DisplayFlex>
 
-<figure>
-
 ![볼드체 텍스트가 비활성화된 경우](68C6BB.png)
 
-</figure>
-
-<figure>
-
 ![볼드체 텍스트를 활성화한 경우](F93D1B.png)
-
-</figure>
 
 </DisplayFlex>
 
@@ -455,7 +435,7 @@ Apple Xcode Cloud 서버에서 iOS 앱이 컴파일되어 보관된다.
 ## 🏁 마무리하며
 
 오랜만에 iOS 개발을 하니 즐거웠다.
-iOS 플랫폼이 점점 성숙해지는 것이 느껴진다.
+iOS 플랫폼이 훨씬 성숙해진 것이 느껴졌다.
 특히나 활자 프로젝트를 진행하며
 **한글이 이렇게 아름답구나**라는 감정을 많이 느꼈다.
 무엇보다도 부모님께 참 좋은 선물을 해드린 것 같아 기분이 좋았다.
