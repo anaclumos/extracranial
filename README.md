@@ -22,25 +22,25 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1066     30403     7494         0    22909          0
+Markdown                  1069     30443     7502         0    22941          0
 CSS                         64     19574      159        31    19384          0
-TypeScript                  50      8766      145        50     8571        142
-JSON                        36      2078        0         0     2078          0
+TypeScript                  50      8784      145        50     8589        142
+JSON                        36      2079        0         0     2079          0
 Python                       7       550       50        38      462         76
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
 JavaScript                   2      1157        4      1038      115         21
 Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
-gitignore                    1       292       73        70      149          0
+gitignore                    1       293       73        70      150          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1243     62960     7945      1231    53784        239
+Total                     1246     63020     7953      1231    53836        239
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,773,295
+Estimated Cost to Develop (organic) $1,775,095
 Estimated Schedule Effort (organic) 17.10 months
-Estimated People Required (organic) 9.21
+Estimated People Required (organic) 9.22
 ───────────────────────────────────────────────────────────────────────────────
-Processed 2791195 bytes, 2.791 megabytes (SI)
+Processed 2793421 bytes, 2.793 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
