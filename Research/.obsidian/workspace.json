@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e93e877984700cb8",
+        "id": "09867c2698c4b463",
         "type": "tabs",
         "children": [
           {
-            "id": "18601f35eace5fbe",
+            "id": "085d1cbf5a73f5ad",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -121,7 +121,7 @@
       "random-note:Open random note": false
     }
   },
-  "active": "18601f35eace5fbe",
+  "active": "085d1cbf5a73f5ad",
   "lastOpenFiles": [
     "journals/2023-01-25.md",
     "pages/하늘땅사람 업데이트 기록.md",
