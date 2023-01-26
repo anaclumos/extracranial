@@ -81,11 +81,11 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 아이폰 자판을 만들기 위해 애플의 [커스텀 키보드 만들기](https://developer.apple.com/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard) 문서를 정독했다.
 확인 결과 일반적인 아이폰 앱을 제작하는 난이도와 비슷해보였다.
-일단 `ViewController` 내에 버튼과 로직을 때려박아 개발하는 것은 쉬워보였으나,
+일단 ViewController 내에 버튼과 로직을 때려박아 개발하는 것은 쉬워보였으나,
 SwiftUI를 이용한 iOS 개발을 한 적이 없어 SwiftUI로 개발해보고 싶었다.
 처음에는 새로 나온 [SwiftUI Grid](https://developer.apple.com/documentation/swiftui/grid) 기능을 쓰면 깔끔하게 버튼을 배열할 수 있을 듯했는데,
 이는 사진 앱처럼 수많은 엘리먼트들을 화면에 배열하는 것에 더 최적화되어있고,
-나의 경우처럼 버튼의 개수가 정해져있는 경우에는 (웹에서의 `display: flex`와 유사한) `HStack`과 `VStack`으로 충분하다고 판단했다.
+나의 경우처럼 버튼의 개수가 정해져있는 경우에는 (웹에서의 display: flex와 유사한) HStack과 VStack으로 충분하다고 판단했다.
 
 아이폰 써드파티 키보드는 **익스텐션**이라는 독특한 구조를 이용해 제작한다.
 iOS 앱 본체가 아니면 전부 익스텐션이라고 생각하면 된다.
@@ -125,10 +125,10 @@ iOS 앱 본체가 아니면 전부 익스텐션이라고 생각하면 된다.
 
 </figure>
 
-가운데 이미지의 `ㅇ` 근처의 회색 배경은 iOS 기기의 `NSRange`와 `setMarkedText`라는 기능이었다.
+가운데 이미지의 "ㅇ" 근처의 회색 배경은 iOS 기기의 NSRange와 setMarkedText라는 기능이었다.
 입력 중인 글자에 영역 처리를 해서 입력을 도와주는 기능이었는데,
 중국어의 한어병음(Pinyin)처럼 문자 입력 직전에 조합용으로 사용되는 것으로 천지인용으로 적절하지 않다고 판단했다.
-또하나 흥미로운 점으로 아이폰 기본 자판의 색상들은 기본으로 제공되는 어떤 `systemColor`와도 달랐다.
+또하나 흥미로운 점으로 아이폰 기본 자판의 색상들은 기본으로 제공되는 어떤 systemColor와도 달랐다.
 색깔을 Color Meter로 뽑아 하나하나 입력했다.
 
 ## 😶‍🌫️ 그런데 천지인은 어떻게 만들지
@@ -188,7 +188,7 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
 입력 가능한 11,000여 자의 한글 글자들을 종착점으로 삼아
 그 글자를 생성하기 위해 마지막으로 눌러야했을 글쇠는 무엇인지,
 그리고 그 글쇠를 누르기 전 상태는 무엇인지 역산했다.
-예를 들어 `역`이 있다면 **이전 상태는 `여`이고 `ㄱ`을 눌러서 `역`에 도달했겠군**하는 식으로 계산한 것이다.
+예를 들어 **`역`이 있다면 이전 상태는 `여`이고 `ㄱ`을 눌러서 `역`에 도달했겠군**하는 식으로 역으로 계산한 것이다.
 물론 이에 더해 여러 엣지 케이스들을 처리해야 했다.
 [4년 전 조성현이 나를 많이 도와주었다.](https://github.com/anaclumos/hangulbreak/blob/master/Python/HangulDecomposeModule.py)
 
@@ -216,7 +216,7 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
 
 활자 프로젝트에 대해 이성광 님께서 [NFD로 문자열 정규화를 해서 초중종성을 떼어놓고 만들면 좀 더 경우의 수가 줄지 않을까](https://www.facebook.com/groups/codingeverybody/posts/8942515352455588/?comment_id=8946907612016362)에 대한 지적을 해주셨다.
 나는 완성형 한글만 놓고 생각했는데, 말씀하신대로 조합형으로 제작 후 정규화를 거치면 경우의 수가 확실히 많이 준다.
-예를 들어 `안 ᄂᆞᆞㅣㅇ` 같이 풀어두고 `ᆞᆞㅣ` 부분만 `ㅕ`로 조합한 뒤, `ㄴㅕㅇ`을 정규화 과정을 통해 `녕`으로 변환하는 방식이다.
+예를 들어 `안 ᄂᆞᆞㅣㅇ` 같이 풀어두고 `ᆞᆞㅣ` 부분만 `ㅕ`로 조합한 뒤, `ㄴㅕㅇ`을 정규화 과정을 통해 `녕`으로 변환하는 것이다.
 
 활자 프로젝트의 경우 현 접근을 유지하기로 했다.
 활자는 **가장 쉽고 단순한 천지인 구현체**를 지향하는 만큼
@@ -285,7 +285,7 @@ struct KeyboardButton: View {
   var body: some View {
     Button(action: {})
       .simultaneousGesture(
-        DragGesture(minimumDistance: 0) // <-- ★
+        DragGesture(minimumDistance: 0) // <-- A
           .onChanged { _ in
             // 길게 누르거나 드래그했을 때 구동될 코드
             onLongPress()
@@ -314,15 +314,15 @@ struct KeyboardButton: View {
 
 </figcaption>
 
-`★`로 표현된 부분에 `DragGesture(minimumDistance: 0)`를 사용하는 기발한 방법을 알게 되었다.
+`A`로 표현된 부분을 사용하는 기발한 방법을 알게 되었다.
 이렇게 하면 다음 두 마리 토끼를 한 코드로 잡을 수 있다.
 
 - 한글 버튼을 스와이프(flick)해 숫자를 입력하는 기능
 - 한글 버튼을 길게 눌러 숫자를 입력하는 기능
 
-`DragGesture`의 `minimumDistance`가 0으로 설정되어 있다면
-롱프레스도 동시에 인식하여 `highPriorityGesture`를 취소하고
-`DragGesture`에 해당하는 기능을 실행한다는 특징을 이용한 것이다.
+DragGesture의 minimumDistance가 0으로 설정되어 있다면
+롱프레스도 동시에 인식하여 highPriorityGesture를 취소하고
+DragGesture에 해당하는 기능을 실행한다는 특징을 이용한 것이다.
 
 더불어 iOS13부터 소개된 [Combine](https://developer.apple.com/documentation/combine) 문법을 시범적으로 사용해보았다.
 Combine 프레임워크는 시간에 따른 비동기적 동작을 처리하기 위한 Declarative Swift API이다.
@@ -365,7 +365,7 @@ Combine 설명을 위해 간소화된 코드이다. [HangulView.swift](https://g
 
 이렇게 조합된 하나의 코드를 통해 길게 누르거나 드래그를 이용해 특수한 동작을 실행하는 기능을 구현할 수 있었다.
 
-## 🦾 접근성
+## 🦾 접근성과 사용성
 
 유용하다고 생각한 접근성 기능을 몇 가지 추가했다.
 우선 가장 먼저 사용자가 "볼드체 텍스트" 기능을 활성화한 경우 글자 두께를 두껍게 변경하는 것이다.
