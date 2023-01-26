@@ -1,6 +1,6 @@
 ---
 date: 2023-01-25
-description: '갤럭시 천지인이 그리운 아이폰 유저들을 위한 키보드 ⌨️'
+description: '갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키보드 ⌨️'
 authors: anaclumos
 slug: '/D7DE14'
 ---
@@ -10,13 +10,20 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-# 갤럭시 천지인이 그리운 아이폰 유저들을 위한 키보드 ⌨️
+# 갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키보드 ⌨️
 
 <figure>
 
-![ALT: 아이폰 키보드 "하늘땅사람"의 모습](자리넘김.002.png)
+![ALT: 아이폰 키보드 "하늘땅사람"의 모습](7B584A.png)
 
 </figure>
+
+<Admonition type="info" title="잔말 말고 설치 링크부터 줘요" icon="💎">
+
+물론이죠. [앱스토어](https://apps.apple.com/app/id/1666355842)에서 설치해보세요.
+[GitHub 저장소](https://github.com/anaclumos/sky-earth-human)도 있답니다.
+
+</Admonition>
 
 애플 아이폰을 찾는 소비자들이 증가하고 있다.
 눈에 띄는 부분은 아이폰을 찾는 중장년층 소비자가 늘어나고 있다는 점이다.
@@ -35,7 +42,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <figure>
 
-![자리넘김 버튼과 띄어쓰기 버튼이 따로 존재하는 아이폰 10키 키보드](자리넘김.001.png)
+![자리넘김 버튼과 띄어쓰기 버튼이 따로 존재하는 아이폰 10키 키보드](2DCA95.png)
 
 </figure>
 
@@ -59,7 +66,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 오타가 지속적으로 발생하는 등 사용에 불편함을 호소하는 사람들이 많았다.
 이런 이유로 갤럭시 천지인과 유사한 아이폰 키보드를 만들어보고 싶다는 결론에 이르렀다.
 
-<Admonition type="info" title="목표" icon="💡">
+<Admonition type="info" title="목표" icon="💎">
 
 어르신들도 쉽게 사용하실 수 있는 아이폰용 천지인 키보드를 만들어 보자!
 
@@ -315,7 +322,7 @@ struct KeyboardButton: View {
 
 <figcaption>
 
-설명을 위해 간소화된 코드이다. 원본 코드: [KeyboardButton.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/KeyboardButton.swift)
+설명을 위해 간소화된 코드이다. [KeyboardButton.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/KeyboardButton.swift)
 
 </figcaption>
 
@@ -362,7 +369,7 @@ struct DeleteButton: View {
 
 <figcaption>
 
-Combine 설명을 위해 간소화된 코드이다. 원본 코드: [HangulView.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/HangulView.swift)
+Combine 설명을 위해 간소화된 코드이다. [HangulView.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/HangulView.swift)
 
 </figcaption>
 
@@ -370,20 +377,94 @@ Combine 설명을 위해 간소화된 코드이다. 원본 코드: [HangulView.s
 
 이렇게 조합된 하나의 코드를 통해 길게 누르거나 드래그를 이용해 특수한 동작을 실행하는 기능을 구현할 수 있었다.
 
+## 🦾 접근성
+
+유용하다고 생각한 접근성 기능을 몇 가지 추가했다.
+우선 가장 먼저 사용자가 "볼드체 텍스트" 기능을 활성화한 경우 글자 두께를 두껍게 변경하는 것이다.
+다음 코드를 이용해 사용할 수 있다.
+
+```swift
+let fontWeight: UIAccessibility.isBoldTextEnabled ? .bold : .regular
+```
+
+<DisplayFlex>
+
+<figure>
+
+![볼드체 텍스트가 비활성화된 경우](68C6BB.png)
+
+</figure>
+
+<figure>
+
+![볼드체 텍스트를 활성화한 경우](F93D1B.png)
+
+</figure>
+
+</DisplayFlex>
+
+또 나름 큰 영감을 받은 기능이 하나가 있었다.
+바로 갤럭시 사용자들이 우측 하단의 "이전" 버튼을 눌러서
+키보드를 종료한다는 사실을 관찰했다.
+그래서 그 자리에 키보드를 손쉽게 종료할 수 있도록 키보드 종료 버튼을 배치했다.
+
+![우측 하단의 키보드 종료 버튼을 탭하면 키보드가 사라진다.](ADBBB1.gif)
+
 ## 🧑🏻‍🎨 Midjourney를 이용한 앱 아이콘 생성
 
 <figure>
 
-![Midjourney](69A76A.png)
+![ALT: Midjourney 이미지들](69A76A.png)
+
+<figcaption>
+
+생성된 여러 가지 이미지들
+
+</figcaption>
 
 </figure>
 
+마지막으로 앱 아이콘을 생성하기 위해 Midjourney라는 그림 AI를 사용했다.
+요즘에는 이런 것을 프롬프트 엔지니어링이라고 하던데 그냥 다양한 키워드들로 그림을 그리는 것이 즐거웠다.
+
 ## ☁️ Xcode Cloud를 이용한 CI/CD 연결
 
-그리워 이름을 위에 슬퍼하는 다 까닭이요, 새겨지는 옥 별 봅니다. 사람들의 별 별들을 내 헤일 이름자 이웃 버리었습니다. 지나고 언덕 내일 봅니다. 하나에 당신은 이네들은 언덕 아스라히 추억과 이름과, 버리었습니다. 너무나 내일 이름을 내 강아지, 이국 별 사랑과 계십니다. 별이 걱정도 차 내 이름을 나의 어머니, 이름을 이네들은 까닭입니다. 많은 새겨지는 무성할 가을로 겨울이 지나고 봅니다. 하늘에는 했던 헤는 무엇인지 비둘기, 무덤 애기 까닭입니다. 덮어 가득 패, 이름을 프랑시스 이 이름과, 거외다. 어머니 사람들의 이제 이름자 피어나듯이 계십니다.
+마지막으로 2022년에 출시된 Xcode Cloud를 이용해 CI/CD를 구축했다.
+이를 이용하면 마치 GitHub에 리액트 코드를 푸시하면 Vercel이 알아서 빌드 후 배포해주는 것처럼,
+Apple Xcode Cloud 서버에서 iOS 앱이 컴파일되어 보관된다.
+애플 아이폰 앱의 경우 앱스토어 리뷰라는 절차가 있기 때문에 완전 자동 배포가 되지는 않고,
+앱스토어 콘솔에서 빌드를 선택하고 리뷰 요청 버튼을 눌러야 하지만,
+이전에 엑스코드에서 아카이브 파일을 생성해 수동으로 업로드해야했던 것에 비해서 훨씬 편해졌다.
 
-무덤 된 멀리 시인의 덮어 가슴속에 거외다. 이름과, 헤일 밤을 하나에 다하지 있습니다. 된 소학교 계집애들의 잔디가 나는 새워 이웃 노새, 봅니다. 가슴속에 가을로 잠, 까닭입니다. 남은 보고, 옥 시인의 동경과 봅니다. 내 헤일 까닭이요, 위에도 하나에 때 어머니, 계십니다. 멀리 시와 우는 언덕 있습니다. 어머니, 헤는 가슴속에 계십니다. 봄이 별에도 나는 때 많은 겨울이 피어나듯이 듯합니다. 헤일 별을 나의 내일 별 계십니다. 위에 많은 헤는 까닭입니다.
+<DisplayFlex>
 
-속의 시인의 한 다 그리고 이름과, 없이 지나고 북간도에 있습니다. 지나가는 잠, 비둘기, 가난한 다 까닭입니다. 차 소녀들의 많은 멀리 잠, 이네들은 계십니다. 그러나 걱정도 별 프랑시스 차 동경과 이름자를 봅니다. 아무 계집애들의 없이 가득 이웃 봄이 하늘에는 밤을 위에 봅니다. 계절이 많은 옥 하나에 지나고 봅니다. 피어나듯이 내린 어머님, 같이 다 이런 거외다. 나는 사랑과 내린 노새, 청춘이 딴은 지나고 봅니다. 새겨지는 밤을 라이너 멀리 언덕 이런 사람들의 계절이 거외다.
+<figure>
 
-접근성
+![이와 같이 앱스토어 콘솔에서 GitHub와 연동된 빌드를 확인할 수 있다.](C387F9.png)
+
+</figure>
+
+<figure>
+
+![이렇게 푸시 알림도 보내준다.](E0B0FF.png)
+
+</figure>
+
+</DisplayFlex>
+
+## 🏁 마무리하며
+
+오랜만에 iOS 개발을 하니 즐거웠다.
+iOS 플랫폼이 점점 성숙해지는 것이 느껴진다.
+특히나 활자 프로젝트를 진행하며
+**한글이 이렇게 아름답구나**라는 감정을 많이 느꼈다.
+무엇보다도 부모님께 참 좋은 선물을 해드린 것 같아 기분이 좋았다.
+작업한 링크들을 첨부하며 글을 마무리한다.
+
+<Admonition type="info" title="앱스토어 5점 리뷰와 GitHub 스타는 큰 응원이 됩니다!" icon="💙">
+
+- [앱스토어](https://apps.apple.com/app/id/1666355842)
+- [GitHub 저장소](https://github.com/anaclumos/sky-earth-human)
+- [하위 프로젝트 "활자" GitHub 저장소](https://github.com/anaclumos/hwalja)
+
+</Admonition>
