@@ -40,7 +40,7 @@ Estimated Cost to Develop (organic) $1,774,680
 Estimated Schedule Effort (organic) 17.10 months
 Estimated People Required (organic) 9.22
 ───────────────────────────────────────────────────────────────────────────────
-Processed 2793043 bytes, 2.793 megabytes (SI)
+Processed 2793099 bytes, 2.793 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
