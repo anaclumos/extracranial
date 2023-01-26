@@ -239,6 +239,7 @@ export const filenames = {
     "2023-01-23": "2023-01-23",
     "2023-01-24": "2023-01-24",
     "2023-01-25": "2023-01-25",
+    "2023-01-26": "2023-01-26",
     "2023년 1월과 2월에 하루 25분 조깅하기": "9A31D7",
     "3D": "82C83C",
     "3d Globe on the Web": "432EF8",
@@ -496,6 +497,7 @@ export const filenames = {
     "Graphic Renderer": "17ACA0",
     "Graphics": "C76D74",
     "Graphics Engine Process": "BA4019",
+    "Great Schism": "310D62",
     "Greedy Algorithm": "30A9A1",
     "Grotesque": "5046CC",
     "Guestbook": "BF4D58",
@@ -1020,6 +1022,7 @@ export const filenames = {
     "하늘땅사람 지원 문서": "BA36FC",
     "하얼빈": "7F0B4A",
     "한국의 입시와 거짓된 명예": "428E37",
+    "한민족은 해적되었다": "30DA24",
     "한민족의 동족상잔": "466E21",
     "한자 타자기": "FCE414",
     "활자": "215D48"

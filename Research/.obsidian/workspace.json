@@ -11,8 +11,13 @@
             "id": "085d1cbf5a73f5ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-01-26.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -66,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -82,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-01-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-01-26.md"
+              }
             }
           }
         ],
@@ -123,15 +132,15 @@
   },
   "active": "085d1cbf5a73f5ad",
   "lastOpenFiles": [
+    "pages/한민족은 해적되었다.md",
+    "pages/한민족의 동족상잔.md",
+    "pages/일본 과학기술 총력전.md",
+    "journals/2023-01-13.md",
+    "journals/2023-01-26.md",
+    "pages/Great Schism.md",
     "journals/2023-01-25.md",
     "pages/하늘땅사람 업데이트 기록.md",
     "pages/Conditional Compilation.md",
-    "pages/Forward Declaration.md",
-    "pages/Compiling.md",
-    "pages/Clustering.md",
-    "pages/Preprocessor.md",
-    "assets/68C6BB.png",
-    "assets/F93D1B.png",
-    "pages/하늘땅사람 개발 기록.md"
+    "pages/Forward Declaration.md"
   ]
 }
