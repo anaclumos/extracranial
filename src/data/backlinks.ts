@@ -417,6 +417,7 @@ export const backlinks = {
         "한민족은 해적되었다": "[[2023-01-13]]에 꾼 꿈에서 강력한 메시지를 받았다."
     },
     "2022-12-11": {},
+    "2023-01-27": {},
     "2020-04-01": {
         "프로젝트 어덕행덕": "- [[2020-04-01]]"
     },
@@ -2009,6 +2010,7 @@ export const backlinks = {
         "2023-01-21": "## [[Project]]",
         "2023-01-22": "## [[Project]]",
         "2023-01-25": "## [[Project]]",
+        "2023-01-27": "## [[Project]]",
         "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -2523,7 +2525,8 @@ export const backlinks = {
         "2023-01-23": "## [[Building Habit]]",
         "2023-01-24": "## [[Building Habit]]",
         "2023-01-25": "## [[Building Habit]]",
-        "2023-01-26": "## [[Building Habit]]"
+        "2023-01-26": "## [[Building Habit]]",
+        "2023-01-27": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3101,6 +3104,9 @@ export const backlinks = {
     "Are.na (Service)": {
         "Jumpsite": "## [[Are.na (Service)]]"
     },
+    "AI and ML": {
+        "Project Core ML": "- [[AI and ML]]"
+    },
     "한자 타자기": {
         "2022-09-29": "- [[한자 타자기]]",
         "Readings": "- [x] [[한자 타자기]]"
@@ -3484,6 +3490,7 @@ export const backlinks = {
         "2023-01-24": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-25": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-26": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-27": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "Principles of Inclusion": {
@@ -3654,7 +3661,8 @@ export const backlinks = {
         "Virtual Memory": "- [[Translation Look-aside Buffers]]"
     },
     "Project Core ML": {
-        "2023-01-26": "- [[Project Core ML]]"
+        "2023-01-26": "- [[Project Core ML]]",
+        "2023-01-27": "- [[Project Core ML]]"
     },
     "DOM Reflow": {
         "2022-07-11": "... because it depends on values that could only be found after [[DOM Reflow]]."
@@ -3800,7 +3808,7 @@ export const backlinks = {
     },
     "Photoshop for Text": {
         "Letter to Mr. Stephan Ango on 2022-10-19": "I recently came across your article on [[Photoshop for Text]] and was deeply inspired by it.",
-        "Project Core ML": "## [[Photoshop for Text]]",
+        "Project Core ML": "- [[Photoshop for Text]]",
         "Synthote": "- [[Photoshop for Text]]"
     },
     "Nuclear Fission": {
@@ -4061,6 +4069,7 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
+        "2023-01-27": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
