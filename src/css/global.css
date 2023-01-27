@@ -21,6 +21,13 @@ h4 {
   letter-spacing: -0.03em;
 }
 
+.theme-code-block,
+pre,
+code {
+  overflow: scroll;
+  max-width: calc(100dvw - 2 * var(--ifm-spacing-horizontal));
+}
+
 * {
   color-scheme: dark light;
   --unhovered-transparency: 30%;
