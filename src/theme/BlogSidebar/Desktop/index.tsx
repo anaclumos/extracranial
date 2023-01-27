@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import type { Props } from '@theme/BlogSidebar/Desktop'
-import Balancer from 'react-wrap-balancer'
+// import Balancer from 'react-wrap-balancer'
 
 import styles from './styles.module.css'
 
@@ -28,7 +28,9 @@ export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
               activeClassName={styles.sidebarItemLinkActive}
             >
               <li key={item.permalink} className={styles.sidebarItem}>
-                <Balancer>{item.title}</Balancer>
+                {/* <Balancer> */}
+                {item.title}
+                {/* </Balancer> */}
               </li>
             </Link>
           ))}
