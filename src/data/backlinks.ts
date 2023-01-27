@@ -1407,6 +1407,9 @@ export const backlinks = {
         "San Francisco": "### [[Pretendard]]",
         "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
+    "Use Your Mac as your Bluetooth Speaker": {
+        "2023-01-26": "- [[Use Your Mac as your Bluetooth Speaker]]"
+    },
     "Android": {
         "2022-09-17": "- [[Android]]",
         "2022-10-20": "... It tries to download filter updates on every startup, and on [[Android]], it may happen many times daily. It can even happen when ...",
@@ -1547,7 +1550,8 @@ export const backlinks = {
         "Diagram (Company)": "- Creator of [[Modern MacPaint]]"
     },
     "Bernoulli Distribution": {
-        "2023-01-24": "- [[Bernoulli Distribution]]"
+        "2023-01-24": "- [[Bernoulli Distribution]]",
+        "2023-01-26": "- [[Bernoulli Distribution]]"
     },
     "Journal is a Waypoint, nothing more": {
         "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
@@ -1707,6 +1711,9 @@ export const backlinks = {
         "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview",
         "2022-12-06": "- [[GA]]: [[Nigh]]",
         "2022-12-24": "- Rewind is [[GA]]"
+    },
+    "Poisson Approximation": {
+        "2023-01-26": "- [[Poisson Approximation]]"
     },
     "Archiving-based Tools for Thoughts": {
         "Tools for Thought": "- [[Archiving-based Tools for Thoughts]]: takes a full copy of a page for archiving purposes."
@@ -2046,6 +2053,7 @@ export const backlinks = {
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
         "TossFace Playground": "- [[Project]] [[Done]]",
+        "Use Your Mac as your Bluetooth Speaker": "Someday [[Project]]",
         "Vannevar Bush": "... in radar and the initiation and early administration of the Manhattan [[Project]]. He emphasized the importance of scientific research to national security and ...",
         "Wikiversity": "> Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning projects, and research for use in ...",
         "elevatorpitch.com": "Someday [[Project]]. Simple Demo Website Creator to gauge market interest.",
@@ -3901,6 +3909,7 @@ export const backlinks = {
         "Redactor for iPhone": "[[Someday]] [[Project]].",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute URI.",
+        "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator to gauge market interest.",
         "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
         "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to convert the equation into $\\TeX$.",
@@ -4161,6 +4170,9 @@ export const backlinks = {
     },
     "Tree Style": {
         "2022-11-20": "- [[Tree Style]]"
+    },
+    "Stirling Approximation": {
+        "2023-01-26": "- [[Stirling Approximation]]"
     },
     "XUID": {
         "2022-11-29": "- UUIDs are Awesome: [[XUID]]?",
