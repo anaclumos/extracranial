@@ -6,7 +6,7 @@ import Layout from '@theme/Layout'
 import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
 import styles from './styles.module.css'
 import clsx from 'clsx'
-// import Balancer from 'react-wrap-balancer'
+import Balancer from 'react-wrap-balancer'
 
 const t = {
   singular: translate({
@@ -43,9 +43,9 @@ function Year({ year, posts }: YearProp) {
       <ul className={styles.list}>
         {posts.map((post) => (
           <li key={post.metadata.date}>
-            {/* <Balancer> */}
-            <Link to={post.metadata.permalink}>{post.metadata.title}</Link>
-            {/* </Balancer> */}
+            <Balancer>
+              <Link to={post.metadata.permalink}>{post.metadata.title}</Link>
+            </Balancer>
           </li>
         ))}
       </ul>
