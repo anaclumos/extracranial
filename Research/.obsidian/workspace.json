@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Project Core ML.md",
+                "file": "journals/2023-01-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Project Core ML.md",
+                "file": "journals/2023-01-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Project Core ML.md"
+                "file": "journals/2023-01-27.md"
               }
             }
           },
@@ -174,15 +174,15 @@
   },
   "active": "49cdae408f64bc0d",
   "lastOpenFiles": [
+    "pages/Project Core ML.md",
+    "pages/AI and ML.md",
+    "journals/2023-01-27.md",
     "journals/2023-01-26.md",
     "pages/2023년 1월과 2월에 하루 25분 조깅하기.md",
-    "pages/Project Core ML.md",
     "pages/Synthote.md",
     "pages/Photoshop for Text.md",
     "pages/Letter to Mr. Stephan Ango on 2022-10-19.md",
     "pages/Untitled.md",
-    "pages/Use Your Mac as your Bluetooth Speaker.md",
-    "pages/Bernoulli Distribution.md",
-    "pages/Stirling Approximation.md"
+    "pages/Use Your Mac as your Bluetooth Speaker.md"
   ]
 }
