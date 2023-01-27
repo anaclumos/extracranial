@@ -6,8 +6,6 @@ slug: '/D7DE14'
 ---
 
 import Admonition from '@theme/Admonition';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
 # 갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키보드 ⌨️
@@ -40,18 +38,9 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <Admonition type="info" title='예를 들어 "오 안녕"을 입력하기 위해서는...' icon="💎">
 
-<Tabs>  
-<TabItem lang="ko-KR" value="Galaxy" label="갤럭시">
+- 갤럭시: `ㅇ` `ᆞ` `ㅡ` → 띄어쓰기 → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → **띄어쓰기** → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
+- 아이폰: `ㅇ` `ᆞ` `ㅡ` → 띄어쓰기 → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → **자리넘김** → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
 
-`ㅇ` `ᆞ` `ㅡ` → 띄어쓰기 → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → <u>띄어쓰기</u> → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
-
-</TabItem>  
-<TabItem lang="ko-KR" value="iPhone" label="아이폰">
-
-`ㅇ` `ᆞ` `ㅡ` → 띄어쓰기 → `ㅇ` `ㅣ` `ᆞ` `ㄴ` → <u>자리넘김</u> → `ㄴ` `ᆞ` `ᆞ` `ㅣ` `ㅇ`
-
-</TabItem>  
-</Tabs>  
 </Admonition>
 
 이와 같이 2가지 다른 버튼이 따로 존재하는 것 뿐만 아니라 버튼의 각 크기도 더욱이 작아져,
