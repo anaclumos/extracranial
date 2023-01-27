@@ -3,9 +3,8 @@ lang: 'en'
 slug: '/77A2F7'
 ---
 
-How are AI and ML different? AI is the general terminology of machine mimicking human intelligence. ML is considered a subset of AI. ML is the process of developing intelligence.
-
-## [[Photoshop for Text]]
+- [[AI and ML]]
+- [[Photoshop for Text]]
 
 ## State-based Models
 
@@ -70,5 +69,4 @@ Several methods to tackle this:
 
 ## Simulated Annealing
 
-- Randomly allows bad moves, shakes out of the local minimum.
--
+- Randomly allows wrong moves, shakes out of the local minimum.
