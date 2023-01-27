@@ -400,6 +400,7 @@ export const filenames = {
     "Data Capturers": "3BBBC0",
     "Data Science": "1D93D3",
     "Deadlock": "FA1348",
+    "Debugging CSS": "FC7EAD",
     "Decoy Effect": "46FD42",
     "Deepfake": "923BB3",
     "Deepnote": "BA8918",
