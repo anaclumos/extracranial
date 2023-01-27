@@ -329,7 +329,9 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
     },
     "2022-12-10": {},
-    "2023-01-26": {},
+    "2023-01-26": {
+        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-26]]: 면접 준비하느라 하지 못했다. 하지만 30분 산책했다."
+    },
     "2022-12-24": {
         "In-house and Free Market": "- [[2022-12-24]]: Can independent scientists ever win again?"
     },
@@ -359,7 +361,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "## [[2023-01-02]]"
     },
     "2023-01-22": {
-        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-22]]: 발에 물집이 잡혀 하지 못했다. 하지만 30분 걸었다.",
+        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-22]]: 발에 물집이 잡혀 하지 못했다. 하지만 30분 산책했다.",
         "하늘땅사람 업데이트 기록": "## 1.0.6 [[2023-01-22]]"
     },
     "2022-12-20": {
@@ -1652,7 +1654,7 @@ export const backlinks = {
     },
     "Obsidian Ava": {
         "2022-10-19": "- [[Obsidian Ava]]",
-        "Synthote": "- I'm excited to see community efforts like [[Obsidian Ava]] driving in this direction."
+        "Photoshop for Text": "- I'm excited to see community efforts like [[Obsidian Ava]] driving in this direction."
     },
     "국제 계열과 계열 변경 이야기": {
         "2016-10-22": "- [[국제 계열과 계열 변경 이야기]]"
@@ -3651,6 +3653,9 @@ export const backlinks = {
         "Computer Systems": "- [[Translation Look-aside Buffers]]",
         "Virtual Memory": "- [[Translation Look-aside Buffers]]"
     },
+    "Project Core ML": {
+        "2023-01-26": "- [[Project Core ML]]"
+    },
     "DOM Reflow": {
         "2022-07-11": "... because it depends on values that could only be found after [[DOM Reflow]]."
     },
@@ -3792,6 +3797,11 @@ export const backlinks = {
         "Stories Behind Satori": "The same applies to [[Emojis|emojis]].",
         "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ...",
         "Tossface": "- Toss once withdrew the [[emojis]], but I submitted a request to put them back on Unicode ..."
+    },
+    "Photoshop for Text": {
+        "Letter to Mr. Stephan Ango on 2022-10-19": "I recently came across your article on [[Photoshop for Text]] and was deeply inspired by it.",
+        "Project Core ML": "## [[Photoshop for Text]]",
+        "Synthote": "- [[Photoshop for Text]]"
     },
     "Nuclear Fission": {
         "2022-10-18": "- [[Nuclear Fission]]"
