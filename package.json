@@ -89,6 +89,5 @@
   },
   "main": "index.js",
   "repository": "https://github.com/anaclumos/extracranial.git",
-  "author": "Sunghyun Cho <mail@chosunghyun.com>",
-  "packageManager": "yarn@3.2.3"
+  "author": "Sunghyun Cho <mail@chosunghyun.com>"
 }
