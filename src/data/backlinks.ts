@@ -3,7 +3,7 @@ export const backlinks = {
     "2022-10-02": {},
     "2022-12-16": {},
     "2016-10-22": {
-        "국제 계열과 계열 변경 이야기": "[[2016-10-22]]에 게재된 [[재학생일기]]이다."
+        "국제 계열과 계열 변경 이야기": "[[2016-10-22]]에 게재된 [[재학생일기]]이다."
     },
     "2023-01-14": {},
     "2022-08-28": {},
@@ -19,10 +19,10 @@ export const backlinks = {
         "PKM": "- On [[2022-07-01]], I noted that PKM is for building a personal knowledge base. ..."
     },
     "2020-02-27": {
-        "프로젝트 어덕행덕": "- [[2020-02-27]]"
+        "프로젝트 어덕행덕": "- [[2020-02-27]]"
     },
     "2020-02-13": {
-        "프로젝트 어덕행덕": "- [[2020-02-13]]"
+        "프로젝트 어덕행덕": "- [[2020-02-13]]"
     },
     "2022-12-06": {},
     "2022-10-12": {
@@ -33,7 +33,7 @@ export const backlinks = {
     },
     "2022-12-12": {},
     "2016-11-28": {
-        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "[[2016-11-28]]에 게재된 [[재학생일기]]이다."
+        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "[[2016-11-28]]에 게재된 [[재학생일기]]이다."
     },
     "2022-10-06": {},
     "2023-01-10": {},
@@ -42,16 +42,16 @@ export const backlinks = {
     "2023-01-24": {},
     "2022-08-18": {},
     "2016-07-01": {
-        "식영부원의 관점에서 바라본 치킨데이": "[[2016-07-01]]에 게재된 [[재학생일기]]이다."
+        "식영부원의 관점에서 바라본 치킨데이": "[[2016-07-01]]에 게재된 [[재학생일기]]이다."
     },
     "2022-09-22": {},
     "2022-07-21": {},
     "2022-07-31": {},
     "2020-02-17": {
-        "프로젝트 어덕행덕": "- [[2020-02-17]]"
+        "프로젝트 어덕행덕": "- [[2020-02-17]]"
     },
     "2020-02-23": {
-        "프로젝트 어덕행덕": "- [[2020-02-23]]"
+        "프로젝트 어덕행덕": "- [[2020-02-23]]"
     },
     "2022-09-06": {
         "Person 1B5A5B": "- Interviewed on [[2022-09-06]]",
@@ -66,19 +66,19 @@ export const backlinks = {
     "2022-12-02": {},
     "2022-10-07": {},
     "2021-06-23": {
-        "개성은 자연스레 주어지지 않는다": "— [[2021-06-23]]에 작성된 기록 중 발췌."
+        "개성은 자연스레 주어지지 않는다": "— [[2021-06-23]]에 작성된 기록 중 발췌."
     },
     "2023-01-11": {},
     "2022-11-09": {
         "Dynamic Island on the Web": "## [[2022-11-09]]"
     },
     "2022-12-27": {
-        "2022년 11월 한 달간 일기 쓰기": "[[2022-12-27]] 회고를 해본다.",
+        "2022년 11월 한 달간 일기 쓰기": "[[2022-12-27]] 회고를 해본다.",
         "Conversation with Alan Chan on 2022-12-27": "Had a conversation with Alan Chan on [[2022-12-27]].",
-        "하늘땅사람 개발 기록": "## [[2022-12-27]]"
+        "하늘땅사람 개발 기록": "## [[2022-12-27]]"
     },
     "2023-01-25": {
-        "하늘땅사람 업데이트 기록": "## 1.0.8 [[2023-01-25]]"
+        "하늘땅사람 업데이트 기록": "## 1.0.8 [[2023-01-25]]"
     },
     "2022-07-14": {
         "0125 Valid Palindrome": "Solved at: [[2022-07-14]] and [[2022-07-26]]",
@@ -86,15 +86,15 @@ export const backlinks = {
     },
     "2022-09-17": {},
     "2020-03-08": {
-        "프로젝트 어덕행덕": "- [[2020-03-08]]"
+        "프로젝트 어덕행덕": "- [[2020-03-08]]"
     },
     "2022-07-20": {},
     "2022-09-07": {},
     "2020-02-22": {
-        "프로젝트 어덕행덕": "- [[2020-02-22]]"
+        "프로젝트 어덕행덕": "- [[2020-02-22]]"
     },
     "2020-11-20": {
-        "프로젝트 어덕행덕": "- [[2020-11-20]]"
+        "프로젝트 어덕행덕": "- [[2020-11-20]]"
     },
     "2022-08-09": {},
     "2022-10-23": {
@@ -108,14 +108,14 @@ export const backlinks = {
     },
     "2022-12-03": {},
     "2023-01-21": {
-        "하늘땅사람 업데이트 기록": "## 1.0.5 [[2023-01-21]]"
+        "하늘땅사람 업데이트 기록": "## 1.0.5 [[2023-01-21]]"
     },
     "2022-10-03": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "- Written: [[2022-10-03]]"
     },
     "2022-12-17": {},
     "2023-01-15": {
-        "하늘땅사람 개발 기록": "... 입력 불가. 초성이 없는 경우에도 모음과 이중모음까지는 조합이 가능하도록 만들어야겠다. ← [[2023-01-15]] 해결"
+        "하늘땅사람 개발 기록": "... 입력 불가. 초성이 없는 경우에도 모음과 이중모음까지는 조합이 가능하도록 만들어야겠다. ← [[2023-01-15]] 해결"
     },
     "2022-08-29": {},
     "2022-07-24": {
@@ -132,14 +132,14 @@ export const backlinks = {
         "0020 Valid Parentheses": "Solved at: [[2022-07-10]]"
     },
     "2021-02-26": {
-        "프로젝트 어덕행덕": "- [[2021-02-26]]"
+        "프로젝트 어덕행덕": "- [[2021-02-26]]"
     },
     "2022-09-03": {},
     "2020-03-28": {
-        "프로젝트 어덕행덕": "## [[2020-03-28]]의 메모"
+        "프로젝트 어덕행덕": "## [[2020-03-28]]의 메모"
     },
     "2020-02-12": {
-        "프로젝트 어덕행덕": "- [[2020-02-12]]"
+        "프로젝트 어덕행덕": "- [[2020-02-12]]"
     },
     "2022-12-07": {},
     "2022-10-13": {},
@@ -151,24 +151,24 @@ export const backlinks = {
         "Goongoom": "- Officially confirmed dead on [[2022-10-27]] due to NGL. Has the same feature set."
     },
     "2020-03-07": {
-        "프로젝트 어덕행덕": "- [[2020-03-07]]"
+        "프로젝트 어덕행덕": "- [[2020-03-07]]"
     },
     "2022-06-21": {},
     "2022-09-18": {},
     "2022-06-15": {},
     "2016-12-08": {
-        "졸업을 앞둔 중학교 3학년들에게": "[[2016-12-08]]에 게재된 [[재학생일기]]이다."
+        "졸업을 앞둔 중학교 3학년들에게": "[[2016-12-08]]에 게재된 [[재학생일기]]이다."
     },
     "2022-12-28": {
         "Safari is the new Internet Explorer": "  - At least [[2022-12-28]] now they do: Sending web push notifications in Safari and other ...",
-        "하늘땅사람 개발 기록": "## [[2022-12-28]]"
+        "하늘땅사람 개발 기록": "## [[2022-12-28]]"
     },
     "2022-11-06": {},
     "2022-10-08": {},
     "2022-10-18": {},
     "2022-11-16": {},
     "2022-11-22": {
-        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-22]] 과제의 홍수"
+        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-22]] 과제의 홍수"
     },
     "2022-06-05": {},
     "2022-09-08": {
@@ -182,7 +182,7 @@ export const backlinks = {
     "2022-11-02": {},
     "2022-12-18": {},
     "2020-09-25": {
-        "프로젝트 어덕행덕": "- [[2020-09-25]]"
+        "프로젝트 어덕행덕": "- [[2020-09-25]]"
     },
     "2022-10-28": {
         "Dynamic Island on the Web": "## [[2022-10-28]]"
@@ -194,15 +194,15 @@ export const backlinks = {
         "Person ECC2CB": "- Interviewed on [[2022-12-08]]"
     },
     "2022-11-12": {
-        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-12]] 실패"
+        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-12]] 실패"
     },
     "2016-04-01": {
-        "바이올린 켜면 바이올레이션": "[[2016-04-01]]에 게재된 [[재학생일기]]이다."
+        "바이올린 켜면 바이올레이션": "[[2016-04-01]]에 게재된 [[재학생일기]]이다."
     },
     "2022-08-02": {},
     "2022-06-10": {},
     "2022-09-29": {
-        "한자 타자기": "- Started reading [[2022-09-29]]"
+        "한자 타자기": "- Started reading [[2022-09-29]]"
     },
     "2022-08-27": {
         "0002 Add Two Numbers": "Solved at: [[2022-08-27]]",
@@ -211,10 +211,10 @@ export const backlinks = {
     },
     "2022-11-03": {},
     "2020-09-24": {
-        "프로젝트 어덕행덕": "## [[2020-09-24]]의 메모"
+        "프로젝트 어덕행덕": "## [[2020-09-24]]의 메모"
     },
     "2022-12-19": {
-        "하늘땅사람 개발 기록": "## [[2022-12-19]]"
+        "하늘땅사람 개발 기록": "## [[2022-12-19]]"
     },
     "2022-10-29": {},
     "2022-11-27": {},
@@ -226,7 +226,7 @@ export const backlinks = {
     "2022-06-14": {},
     "2022-11-07": {},
     "2020-09-20": {
-        "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
+        "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
     },
     "2022-10-19": {},
     "2022-11-17": {},
@@ -235,7 +235,7 @@ export const backlinks = {
     },
     "2022-08-07": {},
     "2016-06-24": {
-        "공강에서 보내는 공강 활용법": "[[2016-06-24]]에 게재된 [[재학생일기]]이다."
+        "공강에서 보내는 공강 활용법": "[[2016-06-24]]에 게재된 [[재학생일기]]이다."
     },
     "2022-09-09": {},
     "2022-08-10": {},
@@ -243,11 +243,11 @@ export const backlinks = {
     "2022-06-27": {},
     "2022-07-29": {},
     "2020-09-27": {
-        "프로젝트 어덕행덕": "- [[2020-09-27]]"
+        "프로젝트 어덕행덕": "- [[2020-09-27]]"
     },
     "2023-01-18": {
-        "하늘땅사람 개발 기록": "## [[2023-01-18]]",
-        "하늘땅사람 업데이트 기록": "## 1.0.4 [[2023-01-18]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-18]]",
+        "하늘땅사람 업데이트 기록": "## 1.0.4 [[2023-01-18]]"
     },
     "2022-11-24": {
         "Mathematics under The Library of Babel": "## [[2022-11-24]]"
@@ -257,10 +257,10 @@ export const backlinks = {
     },
     "2020-01-05": {},
     "2020-10-27": {
-        "프로젝트 어덕행덕": "- [[2020-10-27]]"
+        "프로젝트 어덕행덕": "- [[2020-10-27]]"
     },
     "2020-11-09": {
-        "프로젝트 어덕행덕": "- [[2020-11-09]]"
+        "프로젝트 어덕행덕": "- [[2020-11-09]]"
     },
     "2022-06-23": {},
     "2022-07-19": {
@@ -272,7 +272,7 @@ export const backlinks = {
     "2022-11-14": {},
     "2022-11-20": {},
     "2019-11-06": {
-        "프로젝트 어덕행덕": "- [[2019-11-06]]"
+        "프로젝트 어덕행덕": "- [[2019-11-06]]"
     },
     "2022-07-09": {},
     "2022-06-07": {},
@@ -283,14 +283,14 @@ export const backlinks = {
         "1046 Last Stone Weight": "Solved at: [[2022-08-30]]"
     },
     "2020-11-19": {
-        "프로젝트 어덕행덕": "- [[2020-11-19]]"
+        "프로젝트 어덕행덕": "- [[2020-11-19]]"
     },
     "2022-06-22": {},
     "2022-07-18": {
         "Better Docusaurus": "- Render `Figcaption` with `img alt` tags on [[2022-07-18]] Commit"
     },
     "2016-11-11": {
-        "기숙사 생활과 방 배정": "[[2016-11-11]]에 게재된 [[재학생일기]]이다."
+        "기숙사 생활과 방 배정": "[[2016-11-11]]에 게재된 [[재학생일기]]이다."
     },
     "2022-11-05": {},
     "2022-11-15": {},
@@ -305,10 +305,10 @@ export const backlinks = {
     "2022-07-28": {},
     "2023-01-19": {},
     "2022-11-01": {
-        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
+        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
     "2016-11-15": {
-        "기숙사 생활과 방 배정": "[[2016-11-15]]에 게재된 [[재학생일기]]이다."
+        "기숙사 생활과 방 배정": "[[2016-11-15]]에 게재된 [[재학생일기]]이다."
     },
     "2022-11-25": {
         "Mathematics under The Library of Babel": "## [[2022-11-25]]",
@@ -318,19 +318,19 @@ export const backlinks = {
         "Dynamic Island on the Web": "## [[2022-11-11]]"
     },
     "2023-01-09": {
-        "2022년 11월 한 달간 일기 쓰기": "[[2023-01-09]]에 생각해보니 습관을 형성하기 위해서는 최소 2달 동안 지속해야 한다는 점을 알았다."
+        "2022년 11월 한 달간 일기 쓰기": "[[2023-01-09]]에 생각해보니 습관을 형성하기 위해서는 최소 2달 동안 지속해야 한다는 점을 알았다."
     },
     "2022-08-01": {},
     "2023-01-12": {
         "Using an iPad as my Ebook": "... best ebook reader is yet to finish, a recent discovery on [[2023-01-12]] suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools ...",
-        "재학생일기": "[[2023-01-12]]에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
+        "재학생일기": "[[2023-01-12]]에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
     },
     "2022-10-04": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
     },
     "2022-12-10": {},
     "2023-01-26": {
-        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-26]]: 면접 준비하느라 하지 못했다. 하지만 30분 산책했다."
+        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-26]]: 면접 준비하느라 하지 못했다. 하지만 30분 산책했다."
     },
     "2022-12-24": {
         "In-house and Free Market": "- [[2022-12-24]]: Can independent scientists ever win again?"
@@ -341,12 +341,12 @@ export const backlinks = {
     "2022-09-20": {},
     "2022-09-30": {},
     "2020-02-15": {
-        "프로젝트 어덕행덕": "- [[2020-02-15]]"
+        "프로젝트 어덕행덕": "- [[2020-02-15]]"
     },
     "2022-05-27": {},
     "2022-07-07": {},
     "2019-03-04": {
-        "코드클럽": "[[2019-03-04]]"
+        "코드클럽": "[[2019-03-04]]"
     },
     "2022-09-04": {
         "0242 Valid Anagram": "Solved at: [[2022-09-04]]",
@@ -358,17 +358,17 @@ export const backlinks = {
     },
     "2022-10-14": {},
     "2023-01-02": {
-        "하늘땅사람 개발 기록": "## [[2023-01-02]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-02]]"
     },
     "2023-01-22": {
-        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-22]]: 발에 물집이 잡혀 하지 못했다. 하지만 30분 산책했다.",
-        "하늘땅사람 업데이트 기록": "## 1.0.6 [[2023-01-22]]"
+        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-22]]: 발에 물집이 잡혀 하지 못했다. 하지만 30분 산책했다.",
+        "하늘땅사람 업데이트 기록": "## 1.0.6 [[2023-01-22]]"
     },
     "2022-12-20": {
-        "하늘땅사람 개발 기록": "## [[2022-12-20]]"
+        "하늘땅사람 개발 기록": "## [[2022-12-20]]"
     },
     "2023-01-16": {
-        "하늘땅사람 개발 기록": "## [[2023-01-16]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-16]]"
     },
     "2022-09-24": {},
     "2022-06-29": {},
@@ -379,7 +379,7 @@ export const backlinks = {
     "2022-09-10": {},
     "2022-07-03": {},
     "2020-11-13": {
-        "프로젝트 어덕행덕": "- [[2020-11-13]]"
+        "프로젝트 어덕행덕": "- [[2020-11-13]]"
     },
     "2022-10-10": {},
     "2022-12-04": {},
@@ -389,7 +389,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-12-21": "## Reply on [[2022-12-21]]"
     },
     "2023-01-17": {
-        "하늘땅사람 개발 기록": "## [[2023-01-17]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-17]]"
     },
     "2022-09-25": {
         "0110 Balanced Binary Tree": "Solved at: [[2022-09-25]]",
@@ -406,7 +406,7 @@ export const backlinks = {
     "2022-07-12": {},
     "2022-09-11": {},
     "2019-10-13": {
-        "잡스와 생존 편향": "[[2019-10-13]]의 에세이."
+        "잡스와 생존 편향": "[[2019-10-13]]의 에세이."
     },
     "2022-07-02": {},
     "2022-10-11": {
@@ -414,20 +414,20 @@ export const backlinks = {
     },
     "2022-10-25": {},
     "2023-01-13": {
-        "한민족은 해적되었다": "[[2023-01-13]]에 꾼 꿈에서 강력한 메시지를 받았다."
+        "한민족은 해적되었다": "[[2023-01-13]]에 꾼 꿈에서 강력한 메시지를 받았다."
     },
     "2022-12-11": {},
     "2023-01-27": {},
     "2020-04-01": {
-        "프로젝트 어덕행덕": "- [[2020-04-01]]"
+        "프로젝트 어덕행덕": "- [[2020-04-01]]"
     },
     "2022-10-31": {},
     "2022-09-21": {},
     "2020-11-06": {
-        "프로젝트 어덕행덕": "- [[2020-11-06]]"
+        "프로젝트 어덕행덕": "- [[2020-11-06]]"
     },
     "2020-02-14": {
-        "프로젝트 어덕행덕": "- [[2020-02-14]]"
+        "프로젝트 어덕행덕": "- [[2020-02-14]]"
     },
     "2022-07-06": {
         "2022-07-11": "Confirmed a demo script created on [[2022-07-06]] yields logs as above."
@@ -441,7 +441,7 @@ export const backlinks = {
     },
     "2022-10-15": {},
     "2023-01-03": {
-        "하늘땅사람 개발 기록": "## [[2023-01-03]]"
+        "하늘땅사람 개발 기록": "## [[2023-01-03]]"
     },
     "Tailscale": {
         "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, \"Best VPN for developers.\"",
@@ -451,9 +451,7 @@ export const backlinks = {
     "The Photo Library of Babel": {
         "Proposal of Research to Professor Cote": "## 3. [[The Photo Library of Babel]]"
     },
-    "사회과부도": {
-        "2022-08-28": "- [[사회과부도]]"
-    },
+    "사회과부도": {},
     "ELF": {
         "Link (Computer Systems)": "Linux uses [[ELF]]"
     },
@@ -464,7 +462,7 @@ export const backlinks = {
         "Requesting Review in Swift": "Requesting Review in [[Swift]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]",
         "Using System Haptics and Sounds in Swift": "Using System Haptics and Sounds in [[Swift]]",
-        "하늘땅사람 개발 기록": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
+        "하늘땅사람 개발 기록": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
     },
     "Cube": {
         "2022-08-18": "- [[Cube]]",
@@ -479,7 +477,7 @@ export const backlinks = {
         "Creating Observable Object in SwiftUI": "Creating Observable Object in [[SwiftUI]]",
         "Cube": "- [[SwiftUI]]",
         "ULLO": "- Proof of Concept|PoC of [[SwiftUI]] Photo Widget App",
-        "하늘땅사람 개발 기록": "다만 코드를 분산시키고 좋은 품질을 유지하기 위해 [[SwiftUI]]를 사용하는 방안을 연구 중."
+        "하늘땅사람 개발 기록": "다만 코드를 분산시키고 좋은 품질을 유지하기 위해 [[SwiftUI]]를 사용하는 방안을 연구 중."
     },
     "ChatGPT": {
         "10x": "... group but a term that describes exceptionally talented and productive individuals. [[ChatGPT]]",
@@ -489,6 +487,7 @@ export const backlinks = {
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
+        "Cool GPT Applications": "- [[ChatGPT]]",
         "Readwise Reader": "- uses [[ChatGPT]]",
         "Search Engine using Generative AI": "## On [[ChatGPT]]",
         "Synthote": "- [[ChatGPT]]",
@@ -545,7 +544,7 @@ export const backlinks = {
     "In The End Trust Yourself": {
         "2022-11-23": "- [[In The End Trust Yourself]]",
         "Antipilot": "  - [[In The End Trust Yourself]]",
-        "개성은 자연스레 주어지지 않는다": "- [[In The End Trust Yourself|결국에는 본인을 믿자]]"
+        "개성은 자연스레 주어지지 않는다": "- [[In The End Trust Yourself|결국에는 본인을 믿자]]"
     },
     "HTTP": {
         "Internetworking": "- [[HTTP]]",
@@ -598,10 +597,7 @@ export const backlinks = {
         "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]].",
         "Tools Must Vanish": "I believe that Roam Research and [[Logseq]] are at the culminating position of this simplicity."
     },
-    "활자": {
-        "하늘땅사람": "- [[활자]]",
-        "하늘땅사람 개발 기록": "Subproject로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 구현체"
-    },
+    "활자": {},
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
         "Project": "- [ ] [[How is WebAssembly cross-platform when Assembly is not]]"
@@ -616,15 +612,15 @@ export const backlinks = {
         "Internetworking": "- [[IP]]",
         "Preservation of Data": "- Find another [[IP]] without restrictions you are facing.",
         "Protocol Wars": "... admit. The U.S. Department of Defense was an early adopter of TCP/[[IP]]",
-        "http 없는 http 서버 만들기": "`http` 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ...",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ..."
+        "http 없는 http 서버 만들기": "`http` 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ...",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ..."
     },
     "CDN": {
         "2022-08-28": "... builds faster (~3m) than Cloudflare Pages (~5m). Vercel has Seoul region [[CDN]].",
         "2022-12-28": "- [[CDN]]",
         "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as [[Microsoft]] Bing or Cloudflare's AMP caches, which allows pages ...",
         "Cloudflare": "> Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded in 2010. It primarily acts as ...",
-        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
+        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
         "The Architecture of Mastodon": "  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process ..."
     },
     "New York City": {
@@ -721,10 +717,7 @@ export const backlinks = {
         "2022-11-21": "- [[Magician]]: I thought they would generate user interface designs akin to Tailwind ...",
         "Diagram (Company)": "- Creator of [[Magician]]"
     },
-    "유난한 도전": {
-        "2023-01-03": "- Finished [[유난한 도전]]",
-        "Readings": "- [x] [[유난한 도전]]"
-    },
+    "유난한 도전": {},
     "IntelliJ": {
         "Intellisense for Knowledge Management": "- Like Copilot or [[IntelliJ]]"
     },
@@ -744,9 +737,7 @@ export const backlinks = {
         "Software as a Service": "We expect we could attain FIRE through [[Software as a Service]].",
         "Tools Must Vanish": "## Personal Notes on Tools for Thought [[Software as a Service]]"
     },
-    "그게 뭐라고": {
-        "2022-11-23": "- [[그게 뭐라고]]"
-    },
+    "그게 뭐라고": {},
     "Odds": {
         "2023-01-23": "- [[Odds]]",
         "Bayes Theorem": "The [[Odds]] form of Bayes Theorem is"
@@ -792,11 +783,7 @@ export const backlinks = {
         "2022-12-09": "- [[Meltdown and Spectre]]",
         "Computer Systems": "- [[Meltdown and Spectre]]"
     },
-    "잡스와 생존 편향": {
-        "2019-10-13": "- [[잡스와 생존 편향]]",
-        "2022-12-20": "- [[잡스와 생존 편향]]",
-        "2022-12-21": "- [[잡스와 생존 편향]]"
-    },
+    "잡스와 생존 편향": {},
     "0242 Valid Anagram": {
         "2022-09-04": "- [[0242 Valid Anagram]]",
         "Coding Tests": "- [x] [[0242 Valid Anagram]]"
@@ -816,10 +803,7 @@ export const backlinks = {
         "2023-01-23": "- [[Multiplication Theorem]]",
         "Probability": "- $P(A1 \\cap A2)$ → [[Multiplication Theorem]]"
     },
-    "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {
-        "2022-11-19": "  - [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]",
-        "Migrating Node.js apps from AWS EB to Heroku": "- [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]"
-    },
+    "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {},
     "dub.sh": {
         "2022-09-29": "- [[dub.sh]]",
         "2022-12-26": "- [[dub.sh]]",
@@ -829,7 +813,7 @@ export const backlinks = {
         "FinTech and Justice": "- Does [[Financial Technology|FinTech]] increase Justice in this world?",
         "Person 1E6ABA": "- Currently works at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager.",
         "Toss": "- [[Financial Technology|FinTech]] [[Unicorn]] of Korea.",
-        "유난한 도전": "## [[Financial Technology|핀테크]]란"
+        "유난한 도전": "## [[Financial Technology|핀테크]]란"
     },
     "In search of my domain": {
         "2023-01-09": "- [[In search of my domain]]"
@@ -855,9 +839,7 @@ export const backlinks = {
         "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
         "Redirect": "## Redirects in [[Docusaurus]]"
     },
-    "雅號를 찾아서": {
-        "2023-01-09": "- [[雅號를 찾아서]]"
-    },
+    "雅號를 찾아서": {},
     "Developing Review Notes for Obsidian": {
         "2022-07-19": "- [[Developing Review Notes for Obsidian]]",
         "2022-07-26": "- [[Developing Review Notes for Obsidian]]",
@@ -928,7 +910,7 @@ export const backlinks = {
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
         "Simple Analytics": "> The privacy-first [[Google Analytics]] alternative. Simple Analytics",
-        "YCLF 주간 사용자 1000명": "[[Google Analytics]] Referrals 추적 기능을 통해 어느 링크를 타고 들어오는지 파악이 가능했다. 댓글로 ..."
+        "YCLF 주간 사용자 1000명": "[[Google Analytics]] Referrals 추적 기능을 통해 어느 링크를 타고 들어오는지 파악이 가능했다. 댓글로 ..."
     },
     "Displaying exact datetimes on Ghost": {
         "2022-11-19": "  - [[Displaying exact datetimes on Ghost]]"
@@ -1042,7 +1024,7 @@ export const backlinks = {
         "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
         "Project": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
-        "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
+        "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
         "WasmEdge": "WasmEdge: Edge for [[WebAssembly]]",
         "Web Graphics": "- Usually uses WebGPU and [[WebAssembly|WASM]]",
@@ -1051,13 +1033,10 @@ export const backlinks = {
     "Now Runs On": {
         "2022-11-20": "- [[Now Runs On]]"
     },
-    "초상권 vs 저작권": {
-        "CELLO": "- [[초상권 vs 저작권]]",
-        "퍼블리시티권": "- [[초상권 vs 저작권]]"
-    },
+    "초상권 vs 저작권": {},
     "YAML": {
         "2023-01-13": "- [[YAML]]",
-        "Ghost 테마를 자동 배포하는 방법": "... up a workflow yourself`를 누른다. 새로운 workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 [[YAML]] 코드를 복사하여 붙여넣는다. GitHub Secrets에 Key 이름을 다르게 저장했다면 마지막 두 ...",
+        "Ghost 테마를 자동 배포하는 방법": "... up a workflow yourself`를 누른다. 새로운 workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 [[YAML]] 코드를 복사하여 붙여넣는다. GitHub Secrets에 Key 이름을 다르게 저장했다면 마지막 두 ...",
         "Higher-Level Languages and Their Speeds": "... entire product catalog of the e-commerce site can be a single [[YAML]] read on boot? This goes for many more objects than I ..."
     },
     "Monolithic Model": {
@@ -1070,7 +1049,7 @@ export const backlinks = {
         "2022-12-04": "- The Verge is now built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, @vercel, and ...",
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
-        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용",
+        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용",
         "dub.sh": "  - [[Tailwind]] CSS"
     },
     "SMIME": {
@@ -1095,10 +1074,7 @@ export const backlinks = {
         "2022-10-27": "- [[Web Graphics]]",
         "2022-11-12": "- Bubbles: [[Web Graphics]]"
     },
-    "서울 프로": {
-        "2022-08-01": "- [[서울 프로]]",
-        "Pretendard의 아쉬운 점": "이는 자세하게 확인하지 못했으나 [[서울 프로]]를 개발할 때 알아보고 고려하려고 했던 문제이다."
-    },
+    "서울 프로": {},
     "Rewind": {
         "2022-12-24": "- [[Rewind]] is [[GA]]",
         "Search Engine Indexing Your Life": "## [[Rewind]]"
@@ -1131,11 +1107,11 @@ export const backlinks = {
     },
     "Chromium": {
         "2023-01-13": "- [[Chromium]]",
-        "Apple Newsroom 서체 따라하기": "- 2020년 4월 업데이트된 [[Chromium]] 81에서 BlinkMacSystemFont의 font-weight가 무시되는 버그가 발생했다.",
+        "Apple Newsroom 서체 따라하기": "- 2020년 4월 업데이트된 [[Chromium]] 81에서 BlinkMacSystemFont의 font-weight가 무시되는 버그가 발생했다.",
         "Developing Review Notes for Obsidian": "참고로 옵시디언은 [[Chromium]]이기 때문에 다음과 같이 Dev Console을 열 수 있다.",
         "Porting a Chrome Extension to Firefox Add-on": "1. On your Chrome Web Browser|browser (or on any equivalent [[Chromium]] [[Web Browser|browsers]],) visit `chrome://extensions`.",
         "Satori": "- Difficult: This solution required launching [[Chromium]] in a Serverless Function and taking a screenshot of the given ...",
-        "Snowpack으로 WASM 시작하기": "... support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other Web Browser|browser supports SharedArrayBuffer."
+        "Snowpack으로 WASM 시작하기": "... support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other Web Browser|browser supports SharedArrayBuffer."
     },
     "Unsemantic": {
         "2022-12-20": "- [[Unsemantic]]"
@@ -1151,9 +1127,7 @@ export const backlinks = {
     "Techs Actually Simple": {
         "Matt Rickard": "- [[Techs Actually Simple]]"
     },
-    "졸업을 앞둔 중학교 3학년들에게": {
-        "2016-12-08": "- [[졸업을 앞둔 중학교 3학년들에게]]"
-    },
+    "졸업을 앞둔 중학교 3학년들에게": {},
     "Conversational AI Tools for Thought": {
         "2022-12-04": "- Elicit: The AI Research Assistant: [[Conversational AI Tools for Thought]]",
         "2022-12-24": "- [[Conversational AI Tools for Thought]]: Poe beta test starting - Quora",
@@ -1177,10 +1151,7 @@ export const backlinks = {
         "2022-09-08": "- [[Project PEOPLE]]",
         "2022-09-14": "- [[Project PEOPLE]]"
     },
-    "태백산맥 계획": {
-        "2022-12-11": "- [[태백산맥 계획]]",
-        "Regulation of Fake News": "- [[태백산맥 계획]]"
-    },
+    "태백산맥 계획": {},
     "Workbench": {},
     "AIs.txt": {
         "2022-10-21": "- [[AIs.txt]]",
@@ -1216,14 +1187,8 @@ export const backlinks = {
         "AMP Email": "- [[Spellbound]]",
         "Reimagining Emails": "- Interactive Emails using AMP Email. Example: [[Spellbound]]"
     },
-    "방송 장비 담당자로 할 일": {
-        "2022-12-26": "- [[방송 장비 담당자로 할 일]]"
-    },
-    "하늘땅사람 지원 문서": {
-        "2023-01-18": "- [[하늘땅사람 지원 문서]]",
-        "하늘땅사람": "- [[하늘땅사람 지원 문서]]",
-        "하늘땅사람 개발 기록": "- [[하늘땅사람 지원 문서]]"
-    },
+    "방송 장비 담당자로 할 일": {},
+    "하늘땅사람 지원 문서": {},
     "Markdown Email Client": {
         "2022-10-04": "- [[Markdown Email Client]]",
         "Project": "- [ ] Review MailPilot [[Markdown Email Client]]",
@@ -1238,12 +1203,8 @@ export const backlinks = {
         "2022-12-28": "- [[Slow Down Your Clock Cycle Speed]]",
         "Handwriting Tools for Thoughts": "  - Benefit: handwritings [[Slow Down Your Clock Cycle Speed]]"
     },
-    "브라우저 콘솔에 경고 문구 띄우는 방법": {
-        "2022-11-19": "  - [[브라우저 콘솔에 경고 문구 띄우는 방법]]"
-    },
-    "퍼블리시티권": {
-        "CELLO": "- [[퍼블리시티권]]"
-    },
+    "브라우저 콘솔에 경고 문구 띄우는 방법": {},
+    "퍼블리시티권": {},
     "Cantankerous": {
         "2022-10-17": "- [[Cantankerous]]"
     },
@@ -1271,9 +1232,7 @@ export const backlinks = {
         "Computer Systems": "- [[Structs and Unions]]",
         "Heap (Computer Systems)": "- align blocks, similar to [[Structs and Unions]]"
     },
-    "벌금과 물가": {
-        "2022-10-21": "- [[벌금과 물가]]"
-    },
+    "벌금과 물가": {},
     "Latency and Throughput": {
         "2022-11-03": "- [[Latency and Throughput]]",
         "Computer Systems": "- [[Latency and Throughput]]",
@@ -1319,7 +1278,7 @@ export const backlinks = {
         "Proposal of Research to Professor Cote": "\"Alt text\" briefly describes an image and is used if the [[Web Browser|browser]] cannot display the picture. Alt text is typically used in Web ...",
         "Safari is the new Internet Explorer": "- Apple has a [[Web Browser|browser]] monopoly on iOS, which is something [[Microsoft]] was never able to ...",
         "Satori": "- Expensive: Spinning up an entire [[Web Browser|browser]] to take a screenshot was not efficient. This led to large ...",
-        "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version ...",
+        "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version ...",
         "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow",
         "Svelte": "... out the bulk of their work at runtime, i.e., in the [[Web Browser|browser]]. The compiler itself is written in [[TypeScript]]. Its source code is ...",
         "The New Era of macOS Applications": "- [[Web Browser|Browsers]]. Chrome → Arc.",
@@ -1355,60 +1314,26 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
     },
     "Front-end": {
-        "Ghost 테마를 자동 배포하는 방법": "... 사용한다. Ghost CMS는 헤드리스하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 수 있다는 것이다. 하지만 Ghost 2까지는 ...",
+        "Ghost 테마를 자동 배포하는 방법": "... 사용한다. Ghost CMS는 헤드리스하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 수 있다는 것이다. 하지만 Ghost 2까지는 ...",
         "HTMX": "- A [[Front-end]]",
         "Old Fashioned Camera": "- 백엔드와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임",
         "React": "... (also known as React.js or ReactJS) is a free and open-source [[Front-end|front-end]] JavaScript library for building user interfaces based on [[UIUX|UI]] components. It ...",
         "Satori": "- Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "> Svelte is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris and maintained by the Svelte core ...",
         "The Architecture of Mastodon": "... All of these make developer workflow harder. Containerization, Kubernetes, and modern [[front-end]] stacks are challenging to work with in Rails.",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트]]엔드에는 리액트와 타입스크립트를 쓰고 있다. 하지만 권장 사항일 뿐이다. 제품과 부서에 따라 ...",
-        "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 화두로 나타난다. 이런 주제들은 모양만 바뀔 ..."
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트]]엔드에는 리액트와 타입스크립트를 쓰고 있다. 하지만 권장 사항일 뿐이다. 제품과 부서에 따라 ...",
+        "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 화두로 나타난다. 이런 주제들은 모양만 바뀔 ..."
     },
-    "2022년 11월 한 달간 일기 쓰기": {
-        "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-01": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-02": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-03": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-04": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-05": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-06": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-07": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-08": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-09": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-10": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-11": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-14": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-15": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-16": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-17": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-18": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-19": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-20": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-24": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-25": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-26": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-27": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-30": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-12-27": "- [[2022년 11월 한 달간 일기 쓰기]]",
-        "2023-01-09": "- [[2022년 11월 한 달간 일기 쓰기]]",
-        "Building Habit": "- [[2022년 11월 한 달간 일기 쓰기]]"
-    },
+    "2022년 11월 한 달간 일기 쓰기": {},
     "Letter to Mr. Matt Rickard on 2022-12-21": {
         "2022-12-21": "- [[Letter to Mr. Matt Rickard on 2022-12-21]]"
     },
     "Pretendard": {
-        "Apple Newsroom 서체 따라하기": "2022년 기준, 그냥 [[Pretendard]]를 사용하면 된다.",
+        "Apple Newsroom 서체 따라하기": "2022년 기준, 그냥 [[Pretendard]]를 사용하면 된다.",
         "Font Features": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
-        "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.",
+        "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.",
         "San Francisco": "### [[Pretendard]]",
-        "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
+        "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Use Your Mac as your Bluetooth Speaker": {
         "2023-01-26": "- [[Use Your Mac as your Bluetooth Speaker]]"
@@ -1421,7 +1346,7 @@ export const backlinks = {
         "React Native": "... by Meta Platforms, Inc. It is used to develop applications for [[Android]], Android TV, iOS, macOS, tvOS, Web, Windows, and UWP by enabling ...",
         "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
         "Torvalds": "... kernel, used by Linux distributions and other operating systems such as [[Android]]. He also created the distributed version control system Git. Linus Torvalds",
-        "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
+        "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "FinTech and Justice": {
         "2022-10-18": "- [[FinTech and Justice]]"
@@ -1436,11 +1361,7 @@ export const backlinks = {
         "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",
         "Coding Tests": "- [x] [[0232 Implement Queue using Stacks]]"
     },
-    "일본 과학기술 총력전": {
-        "2022-08-02": "- [[일본 과학기술 총력전]]",
-        "Readings": "- [x] [[일본 과학기술 총력전]]",
-        "한민족은 해적되었다": "그것이 한민족의 동족상잔|동족이든 [[일본 과학기술 총력전|외세]]이든..."
-    },
+    "일본 과학기술 총력전": {},
     "Packet Loss": {
         "Internetworking": "- [[Packet Loss]]",
         "Packet Switching vs Circuit Switching": "- Packet Switching can have [[Packet Loss]] (Some clients can leave if the restaurant is full)"
@@ -1451,10 +1372,7 @@ export const backlinks = {
     "Linux Permissions for Keys": {
         "2022-11-19": "  - [[Linux Permissions for Keys]]"
     },
-    "두 번째 뇌": {
-        "2022-11-19": "  - [[두 번째 뇌]]",
-        "Building a Second Brain": "- [[두 번째 뇌]]"
-    },
+    "두 번째 뇌": {},
     "First Two Months of a Startup": {
         "The Dilemmas of Technopreneur": "That means the [[First Two Months of a Startup]] can be spent making the product rather than focusing on the ..."
     },
@@ -1464,7 +1382,7 @@ export const backlinks = {
     },
     "Midjourney": {
         "2022-12-28": "- [[Midjourney]]",
-        "하늘땅사람 개발 기록": "[[Midjourney]]를 이용해서 앱 아이콘을 그랬다."
+        "하늘땅사람 개발 기록": "[[Midjourney]]를 이용해서 앱 아이콘을 그랬다."
     },
     "CalliFontia": {
         "2022-08-10": "- [[CalliFontia]]",
@@ -1497,7 +1415,7 @@ export const backlinks = {
         "Svelte": "... by the compiler, inserting calls to automatically recompute data and re-render [[UIUX|UI]] elements when the data they depend on is modified. This also ...",
         "Toss Product Sans": "- 퍼센트, 쉼표, 더하기, 빼기, 화살표 등 [[UIUX|UI]] 요소로 활용되는 기호들의 가독성을 높여, 넓은 여백으로 디자인했죠. 또한 다른 글자와의 ...",
         "UI AI": "- an [[UIUX]] experiment.",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 반영할 수 있나요?"
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 반영할 수 있나요?"
     },
     "0235 LCA of a Binary Search Tree": {
         "2022-09-25": "- [[0235 LCA of a Binary Search Tree]]",
@@ -1507,11 +1425,7 @@ export const backlinks = {
         "2022-08-30": "- [[1046 Last Stone Weight]]",
         "Coding Tests": "- [[1046 Last Stone Weight]]"
     },
-    "역사의 집대성": {
-        "2023-01-12": "- [[역사의 집대성]]",
-        "Project": "- [[역사의 집대성]]",
-        "재학생일기": "2023-01-12에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
-    },
+    "역사의 집대성": {},
     "Remote Procedure Call": {
         "How to Build Software like an SRE": "- stringent [[Remote Procedure Call]] settings.",
         "Providing DOM API to Worker Threads": "## [[Remote Procedure Call]]"
@@ -1559,19 +1473,7 @@ export const backlinks = {
     "Journal is a Waypoint, nothing more": {
         "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
     },
-    "민사고": {
-        "2023-01-12": "- [[민사고]]",
-        "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "... Heroku가 AWS에 비해 몇몇 장점이 있다는 것을 알게 되었다. 예전에 개발했던 [[민사고]] 공문서 모음집을 Heroku로 옮겼다.",
-        "공강에서 보내는 공강 활용법": "공강에서 보내는 공강 활용법이라니, 조금 이상하게 들리는 말인 것 같습니다. [[민사고|민족사관고등학교]]에서 공강은 두 가지 의미를 가지고 있습니다. 첫 번째는 누구나 사용할 수 ...",
-        "국제 계열과 계열 변경 이야기": "... 진학 반(이하 국제계열)로, 그리고 1명이 반대로 계열을 변경했습니다. 많은 분들이 아시다시피 [[민사고]]는 국제계열과 국내계열로 나뉘어 있습니다. 오늘은 그 둘의 특징과 변경 과정에 대해 ...",
-        "기숙사 생활과 방 배정": "... 저녁 무렵, 어둠이 내리고 나면 우리는 또 다른 학교생활을 직면하게 됩니다. [[민사고|민족사관고등학교]] 기숙사인 덕고관은 또 다른 배움의 장소입니다. 학문적인 공부를 하는 다산관과 충무관 ...",
-        "바이올린 켜면 바이올레이션": "상벌점 제도는 어느 학교에나 있는 제도입니다. [[민사고|민족사관고등학교]]도 마찬가지입니다. 오늘은 민사고|민족사관고등학교의 상벌점 제도에 대해서 소개해보고자 합니다.",
-        "식영부원의 관점에서 바라본 치킨데이": "아시다시피 [[민사고|민족사관고등학교]]는 외부 음식을 구하기 어려운 산골 외딴 곳에 위치한 기숙사 학교입니다. 그렇기 ...",
-        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "... 기숙사 외부에서 만나게 될 평생 친구도 있을 것입니다. 오늘은 제가 느낀, [[민사고|민족사관고등학교]] (이하 [[민사고]]) 에서의 외부 친구 관계에 대해서 가볍게 이야기해보려고 합니다.",
-        "재학생일기": "[[민사고]]에 있던 학교 공식 일기 모음집이다.",
-        "졸업을 앞둔 중학교 3학년들에게": "... 무렵이라고 할 수 있는 1월에 저는 가장 느슨해졌었는데, 마지막 2주 정도는 [[민사고]] 입학 준비하겠다고 과제로 나온 책 읽고, 한자 공부를 하고 그랬습니다. 그러고 ...",
-        "코드클럽": "- [[민사고]] 3학년 때 설립한 동아리"
-    },
+    "민사고": {},
     "Joining Thread": {
         "Internetworking": "- [[Joining Thread]]"
     },
@@ -1616,8 +1518,8 @@ export const backlinks = {
         "San Francisco": "- Font by [[Apple]]",
         "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] iOS 16 update.",
         "Swift": "- Programming Language for [[Apple]] platforms",
-        "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다.",
-        "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "[[Apple|애플]] 아이폰의 국내 인기는 점점 상승하고 있다."
+        "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다.",
+        "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "[[Apple|애플]] 아이폰의 국내 인기는 점점 상승하고 있다."
     },
     "Person 88B488": {
         "Project PEOPLE": "- [[Person 88B488]]"
@@ -1643,7 +1545,7 @@ export const backlinks = {
         "2022-10-18": "- [[Preservation of Data]]"
     },
     "Antifragile": {
-        "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다."
+        "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다."
     },
     "Pipelining": {
         "2022-12-08": "- [[Pipelining]]",
@@ -1657,9 +1559,7 @@ export const backlinks = {
         "2022-10-19": "- [[Obsidian Ava]]",
         "Photoshop for Text": "- I'm excited to see community efforts like [[Obsidian Ava]] driving in this direction."
     },
-    "국제 계열과 계열 변경 이야기": {
-        "2016-10-22": "- [[국제 계열과 계열 변경 이야기]]"
-    },
+    "국제 계열과 계열 변경 이야기": {},
     "Atomic Notes": {
         "Andy Matuschak": "Provided a new vision of online [[Atomic Notes|Zettelkasten]].",
         "Intracranial": "  - [[Atomic Notes]]"
@@ -1685,10 +1585,7 @@ export const backlinks = {
     "Example References for Alter": {
         "Project Alter": "- [[Example References for Alter]]"
     },
-    "코드클럽": {
-        "2019-03-04": "- [[코드클럽]]",
-        "2022-12-10": "- [[코드클럽]]"
-    },
+    "코드클럽": {},
     "Conditional Probability": {
         "2023-01-23": "- [[Conditional Probability]]"
     },
@@ -1696,9 +1593,7 @@ export const backlinks = {
         "2022-12-09": "- [[Parallelism]]",
         "Computer Systems": "- [[Parallelism]]"
     },
-    "Tailwind CSS 톺아보기": {
-        "2022-11-19": "  - [[Tailwind CSS 톺아보기]]"
-    },
+    "Tailwind CSS 톺아보기": {},
     "JSON": {
         "2022-07-20": "... The client must know what each field indicates to parse a [[JSON]] response. Therefore, the message is not self-describing",
         "2022-10-17": "... links. After that, the corresponding component will read the indexed backlink [[JSON]] to display it on the client side.",
@@ -1883,12 +1778,8 @@ export const backlinks = {
     "Regulation of Fake News": {
         "2022-12-28": "- [[Regulation of Fake News]]"
     },
-    "식영부원의 관점에서 바라본 치킨데이": {
-        "2016-07-01": "- [[식영부원의 관점에서 바라본 치킨데이]]"
-    },
-    "라즈베리 파이로 스마트 오디오 시스템 만들기": {
-        "2022-11-19": "  - [[라즈베리 파이로 스마트 오디오 시스템 만들기]]"
-    },
+    "식영부원의 관점에서 바라본 치킨데이": {},
+    "라즈베리 파이로 스마트 오디오 시스템 만들기": {},
     "ARM Architecture": {
         "2022-06-10": "... — which has \"massive implications for future security work on all [[ARM Architecture|ARM]] systems with pointer authentication enabled,\" says Joseph Ravichandran, a PhD student ...",
         "2022-11-03": "- [[ARM Architecture]]",
@@ -1912,9 +1803,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "- To run WebAssembly|WASM, the Web Browser|browser must still [[Compiling|compile]] the WebAssembly|WASM code into ASM code when executing; in that way, ...",
         "Preprocessor": "`#ifdef DEBUG` and `#endif` also exclude that block when [[compiling]] the production version."
     },
-    "배달의민족 FE 개발자가 일하는 법 Q&A": {
-        "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
-    },
+    "배달의민족 FE 개발자가 일하는 법 Q&A": {},
     "Roam Research": {
         "Better Obsidian": "  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].",
         "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser",
@@ -1996,7 +1885,7 @@ export const backlinks = {
         "2022-12-12": "## [[Project]]",
         "2022-12-18": "## [[Project]]",
         "2022-12-28": "## [[Project]]",
-        "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
+        "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "2023-01-02": "## [[Project]]",
         "2023-01-03": "## [[Project]]",
         "2023-01-11": "## [[Project]]",
@@ -2010,7 +1899,7 @@ export const backlinks = {
         "2023-01-21": "## [[Project]]",
         "2023-01-22": "## [[Project]]",
         "2023-01-25": "## [[Project]]",
-        "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
+        "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
@@ -2051,42 +1940,37 @@ export const backlinks = {
         "Project PEOPLE": "- [[Project]]",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Redactor for iPhone": "Someday [[Project]].",
-        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
+        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
-        "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
+        "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
         "TossFace Playground": "- [[Project]] [[Done]]",
         "Use Your Mac as your Bluetooth Speaker": "Someday [[Project]]",
         "Vannevar Bush": "... in radar and the initiation and early administration of the Manhattan [[Project]]. He emphasized the importance of scientific research to national security and ...",
         "Wikiversity": "> Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning projects, and research for use in ...",
         "elevatorpitch.com": "Someday [[Project]]. Simple Demo Website Creator to gauge market interest.",
-        "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 `http` 모듈 (당연히 `express` 모듈도) 없이 `http` 서버를 구현하는 Project|프로젝트가 ...",
+        "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 `http` 모듈 (당연히 `express` 모듈도) 없이 `http` 서버를 구현하는 Project|프로젝트가 ...",
         "iiframe": "Someday [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
         "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert the equation into $\\TeX$.",
         "linkflags.crx": "Packing Linkflags as Chrome Extensions Someday [[Project]]",
         "postcredit.info": "Someday [[Project]]. 영화 쿠키 있나요?",
         "sem.sh": "Someday [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per repository, ...",
-        "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> 그러나 누군가가 온갖 어려움을 무릅쓰고 반드시 성취해야하는 [[Project|프로젝트]]이다.",
-        "두 번째 뇌": "나는 더 간단하게 [[Project|프로젝트]], 연구, 그리고 독서록으로 분리했다.",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "하지만 이렇게 떠나보낼 수는 없다. 최근 알게 된 [[Project|프로젝트]] 중 라즈베리 파이로 스마트 오디오 시스템을 구축하는 Project|프로젝트가 있었다. 블루투스, 에어플레이, ...",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 여러 이유로 못하는 팀도 있다. 물론 e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, 품질 관리) 팀 같은 경우에는 e2e ...",
-        "사회과부도": "Someday [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
-        "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
-        "역사의 집대성": "흩어진 개인사를 하나의 기록소 안에 모두 집대성하는 [[Project|프로젝트]]이다.",
-        "조선왕조실록": "Someday [[Project]]. Fast and Modern version of sillok.history.go.kr.",
-        "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다.",
-        "하늘땅사람": "... 없이 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 [[Project|프로젝트]]."
+        "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> 그러나 누군가가 온갖 어려움을 무릅쓰고 반드시 성취해야하는 [[Project|프로젝트]]이다.",
+        "두 번째 뇌": "나는 더 간단하게 [[Project|프로젝트]], 연구, 그리고 독서록으로 분리했다.",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "하지만 이렇게 떠나보낼 수는 없다. 최근 알게 된 [[Project|프로젝트]] 중 라즈베리 파이로 스마트 오디오 시스템을 구축하는 Project|프로젝트가 있었다. 블루투스, 에어플레이, ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 여러 이유로 못하는 팀도 있다. 물론 e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, 품질 관리) 팀 같은 경우에는 e2e ...",
+        "사회과부도": "Someday [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
+        "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
+        "역사의 집대성": "흩어진 개인사를 하나의 기록소 안에 모두 집대성하는 [[Project|프로젝트]]이다.",
+        "조선왕조실록": "Someday [[Project]]. Fast and Modern version of sillok.history.go.kr.",
+        "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다.",
+        "하늘땅사람": "... 없이 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 [[Project|프로젝트]]."
     },
-    "조선의 노비제도에 관한 보고": {
-        "2023-01-09": "- 한민족의 동족상잔에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
-        "한민족의 동족상잔": "[[조선의 노비제도에 관한 보고]]"
-    },
+    "조선의 노비제도에 관한 보고": {},
     "1448 Count Good Nodes in Binary Tree": {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]"
     },
-    "한민족은 해적되었다": {
-        "2023-01-26": "- [[한민족은 해적되었다]]"
-    },
+    "한민족은 해적되었다": {},
     "Mutex": {
         "Internetworking": "- [[Mutex]]"
     },
@@ -2114,13 +1998,13 @@ export const backlinks = {
         "2023-01-09": "- Can we use [[GitHub]]'s subscribe feature as a [[Newsletter Network]]?",
         "Apple-like Block Interface": "## [[GitHub]]",
         "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
-        "Snowpack으로 WASM 시작하기": "## [[GitHub]] Pages에 Snowpack App 호스팅 및 시행착오",
+        "Snowpack으로 WASM 시작하기": "## [[GitHub]] Pages에 Snowpack App 호스팅 및 시행착오",
         "Social Coding": "- [[GitHub]] is removing the trending tab at the end of this month ...",
         "Svelte": "... Its source code is licensed under MIT License and hosted on [[GitHub]]. Svelte",
-        "YCLF 주간 사용자 1000명": "[[GitHub]] 이슈를 남겨준 분들도 계셨고 메일을 보내주신 분들도 계셨다. 유용한 피드백을 많이 ...",
+        "YCLF 주간 사용자 1000명": "[[GitHub]] 이슈를 남겨준 분들도 계셨고 메일을 보내주신 분들도 계셨다. 유용한 피드백을 많이 ...",
         "sem.sh": "- [[GitHub]] Profile Widget",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "우선 balenaSound GitHub Repository에 들어가서 저장소를 내려받는다. [[GitHub]]을 사용하지 않는 사람이라면 웹사이트에 있는 Clone or Download 버튼을 누른 뒤 ...",
-        "배달의민족 FE 개발자가 일하는 법 발표": "... 사용했다. 빠른 것 같고 좋은데, 장애를 겪고 나면 생각이 달라진다. 예전에는 [[GitHub]]를 사용하다가 요즘에는 비슷한 도구 (GitLab) 을 사용한다. 그래서 PR을 하고 올리면 ..."
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "우선 balenaSound GitHub Repository에 들어가서 저장소를 내려받는다. [[GitHub]]을 사용하지 않는 사람이라면 웹사이트에 있는 Clone or Download 버튼을 누른 뒤 ...",
+        "배달의민족 FE 개발자가 일하는 법 발표": "... 사용했다. 빠른 것 같고 좋은데, 장애를 겪고 나면 생각이 달라진다. 예전에는 [[GitHub]]를 사용하다가 요즘에는 비슷한 도구 (GitLab) 을 사용한다. 그래서 PR을 하고 올리면 ..."
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
@@ -2149,10 +2033,7 @@ export const backlinks = {
         "2022-09-05": "- [[0704 Binary Search]]",
         "Coding Tests": "- [x] [[0704 Binary Search]]"
     },
-    "개성은 자연스레 주어지지 않는다": {
-        "2021-06-23": "- [[개성은 자연스레 주어지지 않는다]]",
-        "2022-12-06": "- [[개성은 자연스레 주어지지 않는다]]"
-    },
+    "개성은 자연스레 주어지지 않는다": {},
     "Jumpsite": {
         "2022-10-13": "- [x] [[Jumpsite]]",
         "2022-11-29": "- [[Jumpsite]]",
@@ -2231,10 +2112,7 @@ export const backlinks = {
         "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
         "Synthography": "- [[Stable Diffusion]]"
     },
-    "Pretendard의 아쉬운 점": {
-        "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
-        "서울 프로": "- [[Pretendard의 아쉬운 점]]"
-    },
+    "Pretendard의 아쉬운 점": {},
     "Guestbook": {
         "2022-10-15": "- [[Guestbook]]"
     },
@@ -2246,7 +2124,7 @@ export const backlinks = {
     "Apple Easter Egg": {
         "2022-11-19": "  - [[Apple Easter Egg]]"
     },
-    "월급만큼 중요한 것은 자존급이다": {},
+    "월급만큼 중요한 것은 자존급이다": {},
     "Notion": {
         "2022-07-10": "- [[Notion]] opened a new paradigm for low-code websites. [[Project PEOPLE]] now create ...",
         "2022-11-16": "- Notion AI: [[Notion]]'s [[Synthote]]",
@@ -2266,7 +2144,7 @@ export const backlinks = {
         "Supergravity Products": "... 작은 아이디어 (금융 슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Toss Product Sans": "- Font by [[Toss]].",
         "Tossface": "- Emoji Font by [[Toss]]",
-        "유난한 도전": "[[Toss|토스]]는 더이상 장기자랑에 나가는 초등학생일 수 없었다."
+        "유난한 도전": "[[Toss|토스]]는 더이상 장기자랑에 나가는 초등학생일 수 없었다."
     },
     "Clock skew detected": {
         "Internetworking": "- [[Clock skew detected]]"
@@ -2312,9 +2190,7 @@ export const backlinks = {
     "Porting a Chrome Extension to Firefox Add-on": {
         "2022-11-19": "  - [[Porting a Chrome Extension to Firefox Add-on]]"
     },
-    "Mac을 Command+L로 잠그는 방법": {
-        "2022-11-19": "  - [[Mac을 Command+L로 잠그는 방법]]"
-    },
+    "Mac을 Command+L로 잠그는 방법": {},
     "Done": {
         "Dynamic Island on the Web": "- [[Done]] [[Project]]",
         "TossFace Playground": "- Project [[Done]]"
@@ -2340,9 +2216,7 @@ export const backlinks = {
     "Mapping keys to set different input languages on macOS": {
         "2022-11-19": "  - [[Mapping keys to set different input languages on macOS]]"
     },
-    "Apple Newsroom 서체 따라하기": {
-        "2022-11-19": "  - [[Apple Newsroom 서체 따라하기]]"
-    },
+    "Apple Newsroom 서체 따라하기": {},
     "Fixing the Document Hell": {
         "2022-12-28": "- [[Fixing the Document Hell]]"
     },
@@ -2372,11 +2246,7 @@ export const backlinks = {
         "2022-09-17": "  - [[Android equivalent of div]]",
         "Android": "- [[Android equivalent of div]]"
     },
-    "하늘땅사람": {
-        "2023-01-19": "- [[하늘땅사람]]",
-        "하늘땅사람 개발 기록": "상위 문서: [[하늘땅사람]] 참고",
-        "하늘땅사람 개인 정보 보호 정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다."
-    },
+    "하늘땅사람": {},
     "3D": {
         "2022-10-21": "- [[3D]]",
         "Point-E": "- [[3D]]"
@@ -2402,13 +2272,11 @@ export const backlinks = {
         "Akzidenz": "- A type of [[Grotesque]] [[font]].",
         "Satoshi": "- A type of [[Grotesque]] [[font]]"
     },
-    "http 없는 http 서버 만들기": {
-        "2022-11-19": "  - [[http 없는 http 서버 만들기]]"
-    },
+    "http 없는 http 서버 만들기": {},
     "Inter": {
         "Akzidenz": "- Akin to San Francisco|SF Pro and [[Inter]].",
         "Font Features": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.",
-        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans CJK KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
+        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans CJK KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
         "San Francisco": "### [[Inter]]"
     },
     "Spacial Cognition": {
@@ -2437,7 +2305,7 @@ export const backlinks = {
         "Symlink": "... by POSIX and by most Unix-like operating systems, such as FreeBSD, [[Linux]], and macOS. Limited support also exists in Windows 7 and Windows ...",
         "Torvalds": "... who is the creator and, historically, the lead developer of the [[Linux]] kernel, used by Linux distributions and other operating systems such as ...",
         "Visual Studio Code": "... VS Code, made by Microsoft with the Electron Framework, for Windows, [[Linux]] and macOS. Features include support for debugging, syntax highlighting, intelligent code ...",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "이 글은 Balena 주식회사가 개발한 `balenaOS` 및 `balenaSound` Project|프로젝트를 활용한다. Balena는 [[Linux]] 장치들로 사물인터넷(IoT) 시스템을 구축할 수 있도록 도와주는 플랫폼이다. 이러한 Project|프로젝트를 진행해 ..."
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "이 글은 Balena 주식회사가 개발한 `balenaOS` 및 `balenaSound` Project|프로젝트를 활용한다. Balena는 [[Linux]] 장치들로 사물인터넷(IoT) 시스템을 구축할 수 있도록 도와주는 플랫폼이다. 이러한 Project|프로젝트를 진행해 ..."
     },
     "Brunch": {
         "Brunch violates SF terms of use": "- Korean writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as ..."
@@ -2568,8 +2436,8 @@ export const backlinks = {
     "水適穿石": {
         "2022-06-12": "- [[水適穿石]]",
         "2022-10-31": "- [[水適穿石]]",
-        "2022년 11월 한 달간 일기 쓰기": "- [[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
-        "2023년 1월과 2월에 하루 25분 조깅하기": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
+        "2022년 11월 한 달간 일기 쓰기": "- [[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
+        "2023년 1월과 2월에 하루 25분 조깅하기": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
         "Cosmic noises of life": "- [[水適穿石|Persistence]] is the key"
     },
     "Person 1B5A5B": {
@@ -2578,34 +2446,7 @@ export const backlinks = {
     "IP Spoofing": {
         "Internetworking": "- [[IP Spoofing]]"
     },
-    "프로젝트 어덕행덕": {
-        "2019-11-06": "- [[프로젝트 어덕행덕]]",
-        "2020-01-05": "- [[프로젝트 어덕행덕]]",
-        "2020-02-12": "- [[프로젝트 어덕행덕]]",
-        "2020-02-13": "- [[프로젝트 어덕행덕]]",
-        "2020-02-14": "- [[프로젝트 어덕행덕]]",
-        "2020-02-15": "- [[프로젝트 어덕행덕]]",
-        "2020-02-17": "- [[프로젝트 어덕행덕]]",
-        "2020-02-22": "- [[프로젝트 어덕행덕]]",
-        "2020-02-23": "- [[프로젝트 어덕행덕]]",
-        "2020-02-27": "- [[프로젝트 어덕행덕]]",
-        "2020-03-07": "- [[프로젝트 어덕행덕]]",
-        "2020-03-08": "- [[프로젝트 어덕행덕]]",
-        "2020-03-28": "- [[프로젝트 어덕행덕]]",
-        "2020-04-01": "- [[프로젝트 어덕행덕]]",
-        "2020-09-20": "- [[프로젝트 어덕행덕]]",
-        "2020-09-24": "- [[프로젝트 어덕행덕]]",
-        "2020-09-25": "- [[프로젝트 어덕행덕]]",
-        "2020-09-27": "- [[프로젝트 어덕행덕]]",
-        "2020-10-27": "- [[프로젝트 어덕행덕]]",
-        "2020-11-06": "- [[프로젝트 어덕행덕]]",
-        "2020-11-09": "- [[프로젝트 어덕행덕]]",
-        "2020-11-13": "- [[프로젝트 어덕행덕]]",
-        "2020-11-19": "- [[프로젝트 어덕행덕]]",
-        "2020-11-20": "- [[프로젝트 어덕행덕]]",
-        "2021-02-26": "- [[프로젝트 어덕행덕]]",
-        "2022-11-25": "- [[프로젝트 어덕행덕]]"
-    },
+    "프로젝트 어덕행덕": {},
     "Dither": {
         "One Bit Display": "- [[Dither]]"
     },
@@ -2615,7 +2456,7 @@ export const backlinks = {
     },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
-        "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
+        "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
     },
     "0002 Add Two Numbers": {
         "Coding Tests": "- [[0002 Add Two Numbers]]"
@@ -2774,9 +2615,7 @@ export const backlinks = {
     "Book Scanning": {
         "Using an iPad as my Ebook": "Furthermore, I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], and I figured it is very ..."
     },
-    "공강에서 보내는 공강 활용법": {
-        "2016-06-24": "- [[공강에서 보내는 공강 활용법]]"
-    },
+    "공강에서 보내는 공강 활용법": {},
     "API Economy": {
         "2022-10-27": "- [[API Economy]]",
         "Small yet Powerful": "- Governmental services should also conform to the [[API Economy]]"
@@ -2811,14 +2650,14 @@ export const backlinks = {
         "2022-12-04": "- [[San Francisco]]",
         "2022-12-06": "- [[San Francisco]]",
         "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter]].",
-        "Apple Newsroom 서체 따라하기": "... 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.",
+        "Apple Newsroom 서체 따라하기": "... 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.",
         "Brunch violates SF terms of use": "... Korean writing service Brunch violates Apple's Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].",
         "Font Features": "- [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.",
         "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
         "Pretendard": "  - He should've put it as Cross-platform [[San Francisco]] alternative",
         "Satoshi": "- Font similar to [[San Francisco|SF Pro]]",
         "Toss Product Sans": "- Looks bizarrely similar to [[San Francisco]]",
-        "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
+        "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Letter to Mr. Stephan Ango on 2022-10-19": {
         "2022-10-19": "- [[Letter to Mr. Stephan Ango on 2022-10-19]]",
@@ -2831,14 +2670,14 @@ export const backlinks = {
     "Survivorship Biased": {
         "2022-07-05": "- Dropout success stories are typically [[survivorship biased]].",
         "2022-12-09": "- [[Survivorship Biased]]",
-        "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]"
+        "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]"
     },
     "Product-Market Fit": {
         "2022-06-06": "... and startups have little or no tests. When struggling to find [[Product-Market Fit]] or fighting for survival, many companies need to test early on. ...",
         "Captivating Products": "... the product? Captivating products, by definitions, are those who found the [[Product-Market Fit]].",
         "The Dilemmas of Technopreneur": "... lean enough, it may be much more efficient to check the [[Product-Market Fit]].",
         "The Great Struggle of Gumroad": "... fault. It always looked like change was right around the corner. [[Product-market fit]] is excellent, but we needed to find a new, more oversized ...",
-        "유난한 도전": "[[Product-Market Fit|PMF]]를 찾았다."
+        "유난한 도전": "[[Product-Market Fit|PMF]]를 찾았다."
     },
     "Layoff": {
         "2023-01-13": "- [[Layoff]]"
@@ -2848,9 +2687,7 @@ export const backlinks = {
         "Computer Systems": "- [[Page Size and Address Translations]]",
         "Virtual Memory": "- [[Page Size and Address Translations]]"
     },
-    "조선왕조실록": {
-        "2022-08-28": "- [[조선왕조실록]]"
-    },
+    "조선왕조실록": {},
     "Height": {
         "Linear": "- An issue tracking service, like [[Height]], or [[Jira]]"
     },
@@ -2974,6 +2811,9 @@ export const backlinks = {
     "Link Preview for Arc": {
         "2022-12-06": "- [[Link Preview for Arc]]"
     },
+    "Cool GPT Applications": {
+        "2023-01-27": "- [[Cool GPT Applications]]"
+    },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
     },
@@ -3001,7 +2841,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "- Seems like WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the genuinely low-level [[Assembly]].",
         "IntelliJ": "> IntelliJ IDEA is an integrated development environment (IDE) written in [[Java]] for developing computer software written in Java, Kotlin, Groovy, and other ...",
         "Write Once Run Everywhere": "... created by Sun Microsystems to illustrate the cross-platform benefits of the [[Java]] language. Ideally, a Java program could be developed on any device, ...",
-        "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
+        "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "Digital Addiction": {
         "2022-07-13": "- [[Digital Addiction]]",
@@ -3044,9 +2884,7 @@ export const backlinks = {
         "2022-07-11": "However, a guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks a thread.",
         "Cooperative Multitasking": "Antonym of [[Preemptive Multitasking]]."
     },
-    "간판법": {
-        "Neo Korea": "- [[간판법]]"
-    },
+    "간판법": {},
     "Better Hacker News": {
         "2022-07-12": "- [[Better Hacker News]]",
         "2022-10-12": "- [[Better Hacker News]]",
@@ -3106,10 +2944,7 @@ export const backlinks = {
     "AI and ML": {
         "Project Core ML": "- [[AI and ML]]"
     },
-    "한자 타자기": {
-        "2022-09-29": "- [[한자 타자기]]",
-        "Readings": "- [x] [[한자 타자기]]"
-    },
+    "한자 타자기": {},
     "Animations": {
         "2022-11-21": "- [[Animations]]",
         "2022-11-23": "- Rive Use Cases: [[Animations]]"
@@ -3156,14 +2991,14 @@ export const backlinks = {
         "2022-05-31": "- [[Kakao]] announced [[Metaverse]] Remote Work Policy.",
         "2022-06-26": "  - To push the limits, we can try [[Kakao]] Map SDK (or any Map SDK like Open Layer)",
         "2022-10-16": "### [[Kakao]]",
-        "AI는 고가 노동부터 점령한다": "... 승리했지만, 승리 아닌 승리를 거두고 말았다. 타다가 멸망한 탓에 그 옆의 [[Kakao|카카오]]모빌리티가 시장을 독점하는 결과를 가져왔기 때문이다.",
+        "AI는 고가 노동부터 점령한다": "... 승리했지만, 승리 아닌 승리를 거두고 말았다. 타다가 멸망한 탓에 그 옆의 [[Kakao|카카오]]모빌리티가 시장을 독점하는 결과를 가져왔기 때문이다.",
         "Brunch": "- Korean Writing Service operated by [[Kakao]]",
         "How to Build Software like an SRE": "  - do you see [[Kakao]]?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in Korea, Naver, and [[Kakao]].",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + ...",
-        "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
+        "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
         "Mental Simulation of Firefox and Signal as a Super App": "... onboard cannot stop. Especially with group chat, as we learned from [[Kakao]].",
-        "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 카카오라는 간편결제를 시작한다는 이야기를 들었다."
+        "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 카카오라는 간편결제를 시작한다는 이야기를 들었다."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
@@ -3204,15 +3039,7 @@ export const backlinks = {
         "2022-11-07": "- [[Pensieve]]",
         "Data Capturers": "### [[Pensieve]]"
     },
-    "재학생일기": {
-        "공강에서 보내는 공강 활용법": "2016-06-24에 게재된 [[재학생일기]]이다.",
-        "국제 계열과 계열 변경 이야기": "2016-10-22에 게재된 [[재학생일기]]이다.",
-        "기숙사 생활과 방 배정": "2016-11-11에 게재된 [[재학생일기]]이다.",
-        "바이올린 켜면 바이올레이션": "2016-04-01에 게재된 [[재학생일기]]이다.",
-        "식영부원의 관점에서 바라본 치킨데이": "2016-07-01에 게재된 [[재학생일기]]이다.",
-        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "2016-11-28에 게재된 [[재학생일기]]이다.",
-        "졸업을 앞둔 중학교 3학년들에게": "2016-12-08에 게재된 [[재학생일기]]이다."
-    },
+    "재학생일기": {},
     "elevatorpitch.com": {
         "2022-12-20": "- [[elevatorpitch.com]]"
     },
@@ -3261,19 +3088,14 @@ export const backlinks = {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
         "Coding Tests": "- [x] [[0021 Merge Two Sorted Lists]]"
     },
-    "GitHub Pages에 React 앱 띄우기": {
-        "2022-11-19": "  - [[GitHub Pages에 React 앱 띄우기]]",
-        "React App on GitHub Pages": "- [[GitHub Pages에 React 앱 띄우기]]"
-    },
+    "GitHub Pages에 React 앱 띄우기": {},
     "eBook": {
         "ACSM": "... other digital publications. It contains data to activate and download an [[eBook]]. It does not include the eBook itself.",
         "EPUB": "... standard of the IDPF in September 2007, superseding the older Open [[eBook]] (OEB) standard. EPUB",
         "Ridi": "Ridi is a Korean Unicorn specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
         "Using an iPad as my Ebook": "The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker News|HN]] thread"
     },
-    "이루다": {
-        "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information"
-    },
+    "이루다": {},
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
         "2022-07-01": "## [[Building a Second Brain]]",
@@ -3297,13 +3119,11 @@ export const backlinks = {
     "Shopify Analyzes CSS Frameworks": {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
-    "YCLF 주간 사용자 1000명": {},
+    "YCLF 주간 사용자 1000명": {},
     "Substack is the new Medium": {
         "2022-10-24": "- [[Substack is the new Medium]]"
     },
-    "테라포밍": {
-        "2023-01-09": "- [[테라포밍]]"
-    },
+    "테라포밍": {},
     "Virtual Memory": {
         "2022-11-04": "- [[Virtual Memory]]",
         "Computer Systems": "- [[Virtual Memory]]"
@@ -3314,10 +3134,7 @@ export const backlinks = {
         "2022-11-26": "- [[Mathematics under The Library of Babel]]",
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
-    "기숙사 생활과 방 배정": {
-        "2016-11-11": "- [[기숙사 생활과 방 배정]]",
-        "2016-11-15": "- [[기숙사 생활과 방 배정]]"
-    },
+    "기숙사 생활과 방 배정": {},
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
         "2022-10-15": "- [[Dynamic Island on the Web]]",
@@ -3370,8 +3187,8 @@ export const backlinks = {
     },
     "Subproject": {
         "2022-08-18": "- [[Subproject]]",
-        "하늘땅사람 개발 기록": "[[Subproject]]로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 ...",
-        "활자": "하늘땅사람 개발 기록의 [[Subproject|하위 계획]]."
+        "하늘땅사람 개발 기록": "[[Subproject]]로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 ...",
+        "활자": "하늘땅사람 개발 기록의 [[Subproject|하위 계획]]."
     },
     "React": {
         "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 중이다.",
@@ -3428,9 +3245,7 @@ export const backlinks = {
     "Dijkstra": {
         "Internetworking": "- [[Dijkstra]]"
     },
-    "Ghost 테마를 자동 배포하는 방법": {
-        "2022-11-19": "  - [[Ghost 테마를 자동 배포하는 방법]]"
-    },
+    "Ghost 테마를 자동 배포하는 방법": {},
     "Using an iPad as my Ebook": {
         "2023-01-12": "- [[Using an iPad as my Ebook]]"
     },
@@ -3441,14 +3256,8 @@ export const backlinks = {
         "2022-09-28": "- [[UUIDs are Awesome]]",
         "2022-11-29": "- [[UUIDs are Awesome]]: [[XUID]]?"
     },
-    "고통에는 순응이 아니라 감작이 나타난다": {
-        "2022-10-18": "- [[고통에는 순응이 아니라 감작이 나타난다]]",
-        "월급만큼 중요한 것은 자존급이다": "게다가 [[고통에는 순응이 아니라 감작이 나타난다]]."
-    },
-    "한민족의 동족상잔": {
-        "2023-01-09": "- [[한민족의 동족상잔]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
-        "한민족은 해적되었다": "그것이 [[한민족의 동족상잔|동족]]이든 [[일본 과학기술 총력전|외세]]이든..."
-    },
+    "고통에는 순응이 아니라 감작이 나타난다": {},
+    "한민족의 동족상잔": {},
     "Handwriting Tools for Thoughts": {
         "2022-10-12": "- [[Handwriting Tools for Thoughts]]",
         "Handwriting Grammarly": "- Grammarly for [[Handwriting Tools for Thoughts]]",
@@ -3471,35 +3280,11 @@ export const backlinks = {
         "2022-11-04": "- [[Cache Mapping]]",
         "Caching": "- [[Cache Mapping]]"
     },
-    "2023년 1월과 2월에 하루 25분 조깅하기": {
-        "2023-01-10": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-11": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-12": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
-        "2023-01-13": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-14": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
-        "2023-01-15": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
-        "2023-01-16": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
-        "2023-01-17": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
-        "2023-01-18": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-19": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-20": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-21": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-22": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-23": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-24": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-25": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-26": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-27": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
-    },
+    "2023년 1월과 2월에 하루 25분 조깅하기": {},
     "Principles of Inclusion": {
         "2022-11-04": "- [[Principles of Inclusion]]"
     },
-    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": {
-        "2022-12-11": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
-        "공기 청정 비행선": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
-        "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
-    },
+    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": {},
     "Mental Simulation of Firefox and Signal as a Super App": {
         "2023-01-09": "- [[Mental Simulation of Firefox and Signal as a Super App]]"
     },
@@ -3512,7 +3297,7 @@ export const backlinks = {
         "2022-10-14": "- [[Toss Product Sans]]",
         "2022-12-06": "- [[Toss Product Sans]]",
         "Pretendard": "- Just like [[Toss Product Sans]] it is bizarrely similar to [[San Francisco]]",
-        "Pretendard의 아쉬운 점": "이는 유사한 폰트 Interop 및 [[Toss Product Sans]]에는 반영되어 있는 사항이다.",
+        "Pretendard의 아쉬운 점": "이는 유사한 폰트 Interop 및 [[Toss Product Sans]]에는 반영되어 있는 사항이다.",
         "San Francisco": "### [[Toss Product Sans]]",
         "Toss": "- Creators of [[Toss Product Sans]] and [[Tossface]]"
     },
@@ -3583,15 +3368,13 @@ export const backlinks = {
     "Ideas are worthless": {
         "2022-10-03": "- [[Ideas are worthless]]",
         "Supergravity Products": "- (아이디어는 흔하고 그걸 실제로 만드는 사람은 귀하다) [[Ideas are worthless]]",
-        "개성은 자연스레 주어지지 않는다": "하지만 이제는 [[Ideas are worthless|정보의 존재보다 실체의 발현]]이 중요한 세상입니다.",
-        "프로젝트 어덕행덕": "어차피 [[Ideas are worthless|아이디어는 가치가 없다]]."
+        "개성은 자연스레 주어지지 않는다": "하지만 이제는 [[Ideas are worthless|정보의 존재보다 실체의 발현]]이 중요한 세상입니다.",
+        "프로젝트 어덕행덕": "어차피 [[Ideas are worthless|아이디어는 가치가 없다]]."
     },
     "Graphic Renderer": {
         "Graphics Engine Process": "  - Create a [[Graphic Renderer]]"
     },
-    "HTML 텍스트 위에 덧말 강조점 쓰기": {
-        "2022-11-19": "  - [[HTML 텍스트 위에 덧말 강조점 쓰기]]"
-    },
+    "HTML 텍스트 위에 덧말 강조점 쓰기": {},
     "Deepfake": {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]]."
     },
@@ -3609,7 +3392,7 @@ export const backlinks = {
         "2022-07-18": "- [[Better Docusaurus]]: Render `Figcaption` with `img alt` tags. Commit"
     },
     "CJK": {
-        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans [[CJK]] KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
+        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans [[CJK]] KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
         "Stories Behind Satori": "... added Google Font's `?text=` API, containing a specific subset of the [[CJK]] library and rendering things on the fly."
     },
     "Hashflags": {
@@ -3648,9 +3431,7 @@ export const backlinks = {
         "Matt Rickard": "- [[GitHub Package Manager]]"
     },
     "Chopstick Game": {},
-    "경제 개발의 길목에서": {
-        "Readings": "- [x] [[경제 개발의 길목에서]]"
-    },
+    "경제 개발의 길목에서": {},
     "Configuring Jest for React Native": {
         "2022-11-16": "- [[Configuring Jest for React Native]]"
     },
@@ -3682,7 +3463,7 @@ export const backlinks = {
     },
     "OS": {
         "2022-06-14": "- Brane은 타사 앱을 참여시켜 플랫폼을 확장하고 [[OS]] 수준을 경험하는 모든 과정(웹앱 렌더링, 레지스트리 설치, 프리로딩, 위젯 등)을 포함하는 ...",
-        "Apple Newsroom 서체 따라하기": "- 단어 하나만으로 [[OS]]의 기본 서체로 설정할 수 있는 `system-ui`라는 CSS 코드를 표준화 하고 있다고 ...",
+        "Apple Newsroom 서체 따라하기": "- 단어 하나만으로 [[OS]]의 기본 서체로 설정할 수 있는 `system-ui`라는 CSS 코드를 표준화 하고 있다고 ...",
         "Cache and Virtual Memory": "...           | Software([[OS]])  |",
         "Docker": "> Docker is a set of platform-as-a-service (PaaS) products that use [[OS]]-level virtualization to deliver software in packages called containers. The service has ...",
         "File Descriptor": "- it is an index of an array in the [[OS]] (file descriptor table)",
@@ -3691,7 +3472,7 @@ export const backlinks = {
         "Rauno": "- Resembles an [[OS]] with a magnifying dock at the bottom.",
         "Virtual Address Space and Physical Address Space": "- if the memory is big enough, the [[OS]] uses the physical memory (RAM)",
         "dub.sh": "... to visualize the time-series data for each link's clicks (incl. location, device/[[os]]) with airbnb/visx: 🐯 visx | visualization components",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 수 있다. 좌측 상단에 있는 Add Device 버튼을 누르면 다음과 같이 [[OS]]를 다운로드할 수 있는 창이 나타난다."
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 수 있다. 좌측 상단에 있는 Add Device 버튼을 누르면 다음과 같이 [[OS]]를 다운로드할 수 있는 창이 나타난다."
     },
     "Musk and Twitter": {
         "2022-10-27": "- [[Musk and Twitter]]",
@@ -3749,9 +3530,7 @@ export const backlinks = {
         "2023-01-23": "- [[Total Probability]]",
         "Probability": "- $P(E)$ → [[Total Probability]]"
     },
-    "공기 청정 비행선": {
-        "2022-12-17": "- [[공기 청정 비행선]]"
-    },
+    "공기 청정 비행선": {},
     "Prompt Engineering": {
         "2022-09-03": "- [[Prompt Engineering]]",
         "2022-09-30": "- Human Motion Diffusion Model [[Prompt Engineering]]",
@@ -3777,9 +3556,7 @@ export const backlinks = {
     "designOS": {
         "Diagram (Company)": "- Creator of [[designOS]]"
     },
-    "지구 끝의 온실": {
-        "Readings": "- [x] [[지구 끝의 온실]]"
-    },
+    "지구 끝의 온실": {},
     "Fediverse": {
         "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply \"join Mastodon.\" Instead, users ..."
     },
@@ -3813,9 +3590,7 @@ export const backlinks = {
     "Nuclear Fission": {
         "2022-10-18": "- [[Nuclear Fission]]"
     },
-    "원숭이와 꽃신": {
-        "2022-08-10": "- [[원숭이와 꽃신]]"
-    },
+    "원숭이와 꽃신": {},
     "Universal Identity": {
         "2022-10-27": "- [[Universal Identity]]",
         "Government Services should have full API support": "- Of course, we would need a [[Universal Identity]] and [[Interoperability]] to prevent any lock-ins."
@@ -3835,9 +3610,7 @@ export const backlinks = {
         "2022-06-15": "... Now we can expect Lab Infrastructure as code like Terraform or [[Docker]] images for science labs.",
         "How to Build Software like an SRE": "- use [[Docker]]"
     },
-    "AI는 고가 노동부터 점령한다": {
-        "2022-11-19": "  - [[AI는 고가 노동부터 점령한다]]"
-    },
+    "AI는 고가 노동부터 점령한다": {},
     "Kindle": {
         "Using an iPad as my Ebook": "> I just saw the [[Kindle]] Scribe launch, but it still does not satisfy my needed features, ..."
     },
@@ -3849,7 +3622,7 @@ export const backlinks = {
         "2022-07-06": "- Implemented the Technical [[Proof of Concept]] and posted here: [[Proof of Concept|PoC]] that two [[WorkerDOM]] upgraded threads ...",
         "2022-08-04": "- Intermediary [[Proof of Concept|PoC]] Product: [[ULLO]]",
         "ULLO": "- [[Proof of Concept|PoC]] of [[SwiftUI]] Photo Widget App",
-        "하늘땅사람 개발 기록": "다음과 같이 기술 [[Proof of Concept|개념 증명]] 완료."
+        "하늘땅사람 개발 기록": "다음과 같이 기술 [[Proof of Concept|개념 증명]] 완료."
     },
     "Transactional Globe": {
         "2022-10-10": "- [[Transactional Globe]]",
@@ -3871,7 +3644,7 @@ export const backlinks = {
         "Grotesque": "... thin strokes. The terminals of curves are usually horizontal, and the [[Font|typeface]] frequently has a spurred \"G\" and an \"R\" with a curled ...",
         "Inter": "- [[Font]] by rsms",
         "Pretendard": "- [[Font]] by orioncactus (Kil Hyung-jin)",
-        "Pretendard의 아쉬운 점": "## [[Font]] Family의 Font Weight 매칭 문제",
+        "Pretendard의 아쉬운 점": "## [[Font]] Family의 Font Weight 매칭 문제",
         "San Francisco": "- [[Font]] by [[Apple]]",
         "Satori": "- [[Font]] and [[Emojis]] Subsets from Google Fonts and other CDNs",
         "Satoshi": "- A type of Grotesque [[font]]",
@@ -3897,11 +3670,9 @@ export const backlinks = {
         "Search Engine using Generative AI": "- [[Information amongst Data]]",
         "Search in a Latent Space": "- Finding [[Information amongst Data]].",
         "The Library of Babel": "- [[Information amongst Data]]",
-        "개성은 자연스레 주어지지 않는다": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
+        "개성은 자연스레 주어지지 않는다": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
     },
-    "배달의민족 FE 개발자가 일하는 법 발표": {
-        "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 발표]]"
-    },
+    "배달의민족 FE 개발자가 일하는 법 발표": {},
     "Someday": {
         "Apple Earth": "[[Someday]] [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
@@ -3933,12 +3704,10 @@ export const backlinks = {
         "linkflags.crx": "Packing Linkflags as Chrome Extensions [[Someday]] [[Project]]",
         "postcredit.info": "[[Someday]] [[Project]]. 영화 쿠키 있나요?",
         "sem.sh": "[[Someday]] [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per ...",
-        "사회과부도": "[[Someday]] [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
-        "조선왕조실록": "[[Someday]] [[Project]]. Fast and Modern version of sillok.history.go.kr."
+        "사회과부도": "[[Someday]] [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
+        "조선왕조실록": "[[Someday]] [[Project]]. Fast and Modern version of sillok.history.go.kr."
     },
-    "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
-        "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
-    },
+    "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {},
     "Captivating Products": {
         "2022-12-09": "- [[Captivating Products]]"
     },
@@ -3969,10 +3738,7 @@ export const backlinks = {
         "2023-01-09": "- [[強力反權]]",
         "Neo Korea": "- [[強力反權]]"
     },
-    "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {
-        "2022-11-19": "  - [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
-        "Setting different fonts by language in CSS": "- [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]"
-    },
+    "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {},
     "2022-12-30": {
         "Letter to Mr. Matt Rickard on 2022-12-23": "## Reply on [[2022-12-30]]"
     },
@@ -3991,7 +3757,7 @@ export const backlinks = {
     },
     "GitHub Actions": {
         "Finding out Ghost version with JS": "... theme package and re-upload those. While I automated theme deployment with [[GitHub Actions]] (you can find the post here), it was a hassle to ...",
-        "Ghost 테마를 자동 배포하는 방법": "... 것은? 테마 개발을 통한 블로그 방문 경험 개선이다. 다행히도 Ghost 2.25.5부터 [[GitHub Actions]]를 이용해 다음과 같이 Ghost 테마 개발을 자동화할 수 있게 되었다.",
+        "Ghost 테마를 자동 배포하는 방법": "... 것은? 테마 개발을 통한 블로그 방문 경험 개선이다. 다행히도 Ghost 2.25.5부터 [[GitHub Actions]]를 이용해 다음과 같이 Ghost 테마 개발을 자동화할 수 있게 되었다.",
         "Reverse Engineering Apple Music API": "## Making it into a [[GitHub Actions]]"
     },
     "The Demise of Chatbots in 2017": {
@@ -4009,7 +3775,7 @@ export const backlinks = {
     },
     "Locking your Mac with Command+L": {
         "2022-11-19": "  - [[Locking your Mac with Command+L]]",
-        "Mac을 Command+L로 잠그는 방법": "- [[Locking your Mac with Command+L]]"
+        "Mac을 Command+L로 잠그는 방법": "- [[Locking your Mac with Command+L]]"
     },
     "CODE Procedure": {
         "2022-07-01": "I like the [[CODE Procedure]] in [[PARA]] architecture as a [[project]] management system, which does more ...",
@@ -4024,9 +3790,7 @@ export const backlinks = {
         "2022-09-05": "- [[binary search]]",
         "Real Exams": "- 1 binary tree construction & [[binary search]] traversal"
     },
-    "바이올린 켜면 바이올레이션": {
-        "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
-    },
+    "바이올린 켜면 바이올레이션": {},
     "JSX": {
         "Stories Behind Satori": "After simplifying the syntax with [[JSX]] and simple [[CSS]], Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the ..."
     },
@@ -4083,11 +3847,7 @@ export const backlinks = {
     "Torvalds": {
         "Linux": "... operating system kernel first released on September 17, 1991, by Linus [[Torvalds]]. Linux is typically packaged as a Linux distribution, which includes the ..."
     },
-    "하늘땅사람 개인 정보 보호 정책": {
-        "2023-01-18": "- [[하늘땅사람 개인 정보 보호 정책]]",
-        "하늘땅사람": "- [[하늘땅사람 개인 정보 보호 정책]]",
-        "하늘땅사람 개발 기록": "- [[하늘땅사람 개인 정보 보호 정책]]"
-    },
+    "하늘땅사람 개인 정보 보호 정책": {},
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on my Twitter threads."
     },
@@ -4099,7 +3859,7 @@ export const backlinks = {
     },
     "Old Fashioned Camera": {},
     "Jetbrains": {
-        "Apple Newsroom 서체 따라하기": "- 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.",
+        "Apple Newsroom 서체 따라하기": "- 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.",
         "IntelliJ": "... Java, Kotlin, Groovy, and other JVM-based languages. It is produced by [[JetBrains]] (formerly known as IntelliJ) and is available as an Apache 2 ...",
         "Jetbrains Fleet": "... weight multi-purpose IDE, with support for collaboration and remote workflows by [[Jetbrains]]. JetBrains"
     },
@@ -4122,9 +3882,7 @@ export const backlinks = {
     "Social Coding": {
         "Matt Rickard": "- [[Social Coding]]"
     },
-    "Snowpack으로 WASM 시작하기": {
-        "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
-    },
+    "Snowpack으로 WASM 시작하기": {},
     "Letter to Mr. Matt Rickard on 2022-12-23": {
         "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-23]]",
         "2023-01-09": "- [[Letter to Mr. Matt Rickard on 2022-12-23]]",
@@ -4136,10 +3894,7 @@ export const backlinks = {
     "AWS Nuke": {
         "2022-10-25": "- [[AWS Nuke]]"
     },
-    "하얼빈": {
-        "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
-        "Readings": "- [ ] [[하얼빈]]"
-    },
+    "하얼빈": {},
     "Packet Sniffing": {
         "Internetworking": "- [[Packet Sniffing]]"
     },
@@ -4165,10 +3920,7 @@ export const backlinks = {
         "2022-09-17": "- [[Redirect]]",
         "HTTP": "- 301 Moved Permanently → [[Redirect]]"
     },
-    "이 땅에 태어나서": {
-        "2022-12-21": "- Readings: [[이 땅에 태어나서]], [[하얼빈]]",
-        "Readings": "- [ ] [[이 땅에 태어나서]]"
-    },
+    "이 땅에 태어나서": {},
     "Almost Monospaced": {
         "2022-11-07": "- [[Almost Monospaced]]"
     },
@@ -4195,21 +3947,7 @@ export const backlinks = {
         "2022-11-29": "- UUIDs are Awesome: [[XUID]]?",
         "UUIDs are Awesome": "- [[XUID]]"
     },
-    "하늘땅사람 개발 기록": {
-        "2022-12-19": "### [[하늘땅사람 개발 기록]]",
-        "2022-12-20": "- [[하늘땅사람 개발 기록]]",
-        "2022-12-27": "- [[하늘땅사람 개발 기록]]",
-        "2022-12-28": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-02": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-03": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-15": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-16": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-18": "- [[하늘땅사람 개발 기록]]",
-        "Project": "- [[하늘땅사람 개발 기록]]",
-        "하늘땅사람": "- [[하늘땅사람 개발 기록]]",
-        "하늘땅사람 지원 문서": "[[하늘땅사람 개발 기록]]의 지원 문서입니다.",
-        "활자": "[[하늘땅사람 개발 기록]]의 [[Subproject|하위 계획]]."
-    },
+    "하늘땅사람 개발 기록": {},
     "AT&T Roaming Incident (December 2022)": {
         "2022-12-27": "- [[AT&T Roaming Incident (December 2022)]]"
     },
@@ -4255,14 +3993,7 @@ export const backlinks = {
     "0079 Word Search": {
         "Coding Tests": "- [[0079 Word Search]]"
     },
-    "하늘땅사람 업데이트 기록": {
-        "2023-01-19": "- [[하늘땅사람 업데이트 기록]]",
-        "2023-01-21": "- [[하늘땅사람 업데이트 기록]]",
-        "2023-01-22": "- [[하늘땅사람 업데이트 기록]]",
-        "2023-01-25": "- [[하늘땅사람 업데이트 기록]]",
-        "하늘땅사람": "- [[하늘땅사람 업데이트 기록]]",
-        "하늘땅사람 지원 문서": "[[하늘땅사람 업데이트 기록]]도 확인해보세요."
-    },
+    "하늘땅사람 업데이트 기록": {},
     "Virtual Address Space and Physical Address Space": {
         "2022-11-04": "- [[Virtual Address Space and Physical Address Space]]",
         "Computer Systems": "- [[Virtual Address Space and Physical Address Space]]",
@@ -4289,11 +4020,7 @@ export const backlinks = {
     "Binomial Theorem": {
         "2023-01-24": "- [[Binomial Theorem]]"
     },
-    "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
-        "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
-        "하늘땅사람": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
-        "하늘땅사람 개발 기록": "[[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]를 통해 제작이 충분히 가능함을 확인."
-    },
+    "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {},
     "Confectionery": {
         "2022-11-11": "- [[Confectionery]]"
     },
@@ -4305,9 +4032,10 @@ export const backlinks = {
         "2022-10-18": "- [[Copilot]]",
         "AI replaces expensive jobs first": "- Like GitHub [[Copilot]] but for medical and legal cases.",
         "AIs.txt": "... we could make a human-readable file that declines machine learning (a.k.a. [[Copilot]] use)?",
-        "AI는 고가 노동부터 점령한다": "- 마치, 의료 법률계의 GitHub [[Copilot]] (2021년에 출시되어 이미 보급된 인공지능 코드 작성기.)",
+        "AI는 고가 노동부터 점령한다": "- 마치, 의료 법률계의 GitHub [[Copilot]] (2021년에 출시되어 이미 보급된 인공지능 코드 작성기.)",
         "Antipilot": "- [[Copilot]] looks like increasing your productivity, but it",
         "Collecting Data": "- [[Copilot]]",
+        "Cool GPT Applications": "- [[Copilot]]",
         "GitHub Copilot Investigation": "- How it started: [[Copilot]]",
         "Intellisense for Knowledge Management": "- Like [[Copilot]] or [[IntelliJ]]",
         "Pensieve": "... automatically collects your expertise in a hierarchy powered by an AI [[copilot]]. Whenever you are starting a search journey that entails multiple tabs ...",
@@ -4359,7 +4087,7 @@ export const backlinks = {
         "AMP Email": "... the email. The AMP email format provides a subset of AMP [[HTML]] components for use in email messages, allowing recipients of AMP emails ...",
         "CSS": "... presentation of a document written in a markup language such as [[HTML]] or XML (including XML dialects such as [[SVG]], MathML, or XHTML). ...",
         "DOM": "... is a cross-platform and language-independent interface that treats an XML or [[HTML]] document as a tree structure wherein each node is an object ...",
-        "HTML 텍스트 위에 덧말 강조점 쓰기": "그동안 글자 위에 글자를 어떻게 적는지 궁금했는데 [[HTML]]의 기본 기능 만으로도 해결 가능하다는 것을 알게 되었다. 참고로 이런 '글자 ...",
+        "HTML 텍스트 위에 덧말 강조점 쓰기": "그동안 글자 위에 글자를 어떻게 적는지 궁금했는데 [[HTML]]의 기본 기능 만으로도 해결 가능하다는 것을 알게 되었다. 참고로 이런 '글자 ...",
         "JSX": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
         "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
         "Markdown Email Client": "... select one CSS. Then... it sends as a beautiful and clean [[HTML]] email!",
@@ -4371,17 +4099,17 @@ export const backlinks = {
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly ([[HTML]]/[[CSS]])",
         "Svelte": "... not a monolithic JavaScript library imported by applications: instead, Svelte compiles [[HTML]] templates to specialized code that manipulates the [[DOM]] directly, which may ...",
         "Tailwind": "> Rapidly build modern websites without ever leaving your [[HTML]]. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, ...",
-        "Tailwind CSS 톺아보기": "- `next/image` 사용. `next/image`는 여전히 [[HTML]] `<img>`를 생성하지만 이미지 최적화 등에서 강점을 지님. 다만 [[Tailwind]] 자체의 `h-12`, ...",
+        "Tailwind CSS 톺아보기": "- `next/image` 사용. `next/image`는 여전히 [[HTML]] `<img>`를 생성하지만 이미지 최적화 등에서 강점을 지님. 다만 [[Tailwind]] 자체의 `h-12`, ...",
         "Web Typography": "... typography refers to using fonts on the World Wide Web. When [[HTML]] was first created, [[font]] faces and styles were controlled exclusively by ...",
         "Web Worker": "... Technology Working Group (WHATWG), is a JavaScript script executed from an [[HTML]] page that runs in the background, independently of scripts that may ...",
         "XTML": "What if stale [[HTML]] elements can have some neat features?",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 IP 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 포토샵으로 삭제했다.",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 것이라고 판단하고 API 서버를 제작하기 시작했다. 즉, 이전에는 php로 렌더링 하는 [[html]] 문서뿐이었던 웹이 한순간에 또 다른 클라이언트가 된 것이다. 이때까지만 해도 우아한 ...",
-        "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. 특정 텍스트를 강조하고 싶다면 다음과 ...",
-        "코드클럽": "또한 BCD의 모든 수업 자료는 [[HTML]] 문법과 Code Snippet을 활용한 Markdown 문서로 제작되며, 누구나 사용할 수 있도록 ..."
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 IP 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 포토샵으로 삭제했다.",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 것이라고 판단하고 API 서버를 제작하기 시작했다. 즉, 이전에는 php로 렌더링 하는 [[html]] 문서뿐이었던 웹이 한순간에 또 다른 클라이언트가 된 것이다. 이때까지만 해도 우아한 ...",
+        "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. 특정 텍스트를 강조하고 싶다면 다음과 ...",
+        "코드클럽": "또한 BCD의 모든 수업 자료는 [[HTML]] 문법과 Code Snippet을 활용한 Markdown 문서로 제작되며, 누구나 사용할 수 있도록 ..."
     },
     "I just want it fixed": {
-        "공기 청정 비행선": "원인이 뭐든, 누가 원인을 제공했든, 그런 것을 다 떠나서 [[I just want it fixed|그냥 고치면 좋겠다]]."
+        "공기 청정 비행선": "원인이 뭐든, 누가 원인을 제공했든, 그런 것을 다 떠나서 [[I just want it fixed|그냥 고치면 좋겠다]]."
     },
     "AI replaces expensive jobs first": {
         "2022-10-20": "- [[AI replaces expensive jobs first]]",
@@ -4390,24 +4118,18 @@ export const backlinks = {
     "Great Schism": {
         "2023-01-26": "- [[Great Schism]]"
     },
-    "한국의 입시와 거짓된 명예": {
-        "2022-11-25": "- [[한국의 입시와 거짓된 명예]]",
-        "개성은 자연스레 주어지지 않는다": "- [[한국의 입시와 거짓된 명예]]"
-    },
+    "한국의 입시와 거짓된 명예": {},
     "Super App": {
         "2022-12-09": "- [[Super App]]",
         "Letter to Mr. Matt Rickard on 2022-12-23": "- Interesting on the downsides of the [[super app]]",
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
         "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S.",
-        "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
+        "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
     },
     "Nation as a Service": {
         "2022-09-12": "- [[Nation as a Service]]"
     },
-    "Ghost에서 외부 링크를 새로운 창에서 여는 방법": {
-        "2022-11-19": "  - [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]",
-        "Opening external links in a new tab by default on Ghost": "- [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]"
-    },
+    "Ghost에서 외부 링크를 새로운 창에서 여는 방법": {},
     "React App on GitHub Pages": {
         "2022-11-19": "  - [[React App on GitHub Pages]]"
     },
@@ -4445,7 +4167,7 @@ export const backlinks = {
     },
     "K-Pop App": {
         "CELLO (Product)": "- Avoid local confinement, as seen in most [[K-Pop App]].",
-        "프로젝트 어덕행덕": "[[K-Pop App]]에 큰 실망을 하고 구상해본 가설적 팬덤 앱의 비전."
+        "프로젝트 어덕행덕": "[[K-Pop App]]에 큰 실망을 하고 구상해본 가설적 팬덤 앱의 비전."
     },
     "Nextra": {
         "Apple-like Block Interface": "## [[Nextra]]"
@@ -4487,6 +4209,36 @@ export const backlinks = {
     "Educational Technology": {
         "Person 1E6ABA": "- Currently works at a Financial Technology|FinTech + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager."
     },
+    "2023년 1월과 2월에 하루 25분 조깅하기": {
+        "2023-01-10": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-11": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-12": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
+        "2023-01-13": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-14": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
+        "2023-01-15": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
+        "2023-01-16": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
+        "2023-01-17": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
+        "2023-01-18": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-19": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-20": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-21": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-22": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-23": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-24": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-25": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-26": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-27": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
+    },
+    "국제 계열과 계열 변경 이야기": {
+        "2016-10-22": "- [[국제 계열과 계열 변경 이야기]]"
+    },
+    "조선왕조실록": {
+        "2022-08-28": "- [[조선왕조실록]]"
+    },
+    "사회과부도": {
+        "2022-08-28": "- [[사회과부도]]"
+    },
     "AB57BB.png": {
         "2022-07-11": "![[AB57BB.png]]"
     },
@@ -4496,13 +4248,89 @@ export const backlinks = {
     "EFE641.png": {
         "2022-07-11": "![[EFE641.png]]"
     },
+    "프로젝트 어덕행덕": {
+        "2019-11-06": "- [[프로젝트 어덕행덕]]",
+        "2020-01-05": "- [[프로젝트 어덕행덕]]",
+        "2020-02-12": "- [[프로젝트 어덕행덕]]",
+        "2020-02-13": "- [[프로젝트 어덕행덕]]",
+        "2020-02-14": "- [[프로젝트 어덕행덕]]",
+        "2020-02-15": "- [[프로젝트 어덕행덕]]",
+        "2020-02-17": "- [[프로젝트 어덕행덕]]",
+        "2020-02-22": "- [[프로젝트 어덕행덕]]",
+        "2020-02-23": "- [[프로젝트 어덕행덕]]",
+        "2020-02-27": "- [[프로젝트 어덕행덕]]",
+        "2020-03-07": "- [[프로젝트 어덕행덕]]",
+        "2020-03-08": "- [[프로젝트 어덕행덕]]",
+        "2020-03-28": "- [[프로젝트 어덕행덕]]",
+        "2020-04-01": "- [[프로젝트 어덕행덕]]",
+        "2020-09-20": "- [[프로젝트 어덕행덕]]",
+        "2020-09-24": "- [[프로젝트 어덕행덕]]",
+        "2020-09-25": "- [[프로젝트 어덕행덕]]",
+        "2020-09-27": "- [[프로젝트 어덕행덕]]",
+        "2020-10-27": "- [[프로젝트 어덕행덕]]",
+        "2020-11-06": "- [[프로젝트 어덕행덕]]",
+        "2020-11-09": "- [[프로젝트 어덕행덕]]",
+        "2020-11-13": "- [[프로젝트 어덕행덕]]",
+        "2020-11-19": "- [[프로젝트 어덕행덕]]",
+        "2020-11-20": "- [[프로젝트 어덕행덕]]",
+        "2021-02-26": "- [[프로젝트 어덕행덕]]",
+        "2022-11-25": "- [[프로젝트 어덕행덕]]"
+    },
+    "개성은 자연스레 주어지지 않는다": {
+        "2021-06-23": "- [[개성은 자연스레 주어지지 않는다]]",
+        "2022-12-06": "- [[개성은 자연스레 주어지지 않는다]]"
+    },
     "418938.jpeg": {
         "2022-10-12": "![[418938.jpeg]]",
         "Better Hacker News": "![[418938.jpeg]]",
         "Handwriting Tools for Thoughts": "![[418938.jpeg]]"
     },
+    "2022년 11월 한 달간 일기 쓰기": {
+        "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-01": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-02": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-03": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-04": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-05": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-06": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-07": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-08": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-09": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-10": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-11": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-14": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-15": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-16": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-17": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-18": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-19": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-20": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-24": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-25": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-26": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-27": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-11-30": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
+        "2022-12-27": "- [[2022년 11월 한 달간 일기 쓰기]]",
+        "2023-01-09": "- [[2022년 11월 한 달간 일기 쓰기]]",
+        "Building Habit": "- [[2022년 11월 한 달간 일기 쓰기]]"
+    },
+    "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
+        "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
+    },
     "B5F9BB.png": {
         "2022-11-08": "![[B5F9BB.png]]"
+    },
+    "방송 장비 담당자로 할 일": {
+        "2022-12-26": "- [[방송 장비 담당자로 할 일]]"
+    },
+    "식영부원의 관점에서 바라본 치킨데이": {
+        "2016-07-01": "- [[식영부원의 관점에서 바라본 치킨데이]]"
     },
     "Undefined Symbol Vtable": {
         "2022-09-22": "- [[Undefined Symbol Vtable]]",
@@ -4522,16 +4350,122 @@ export const backlinks = {
         "2022-10-16": "![[AA04D0.gif]]",
         "Dynamic Island on the Web": "![[AA04D0.gif]]"
     },
+    "하늘땅사람 개발 기록": {
+        "2022-12-19": "### [[하늘땅사람 개발 기록]]",
+        "2022-12-20": "- [[하늘땅사람 개발 기록]]",
+        "2022-12-27": "- [[하늘땅사람 개발 기록]]",
+        "2022-12-28": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-02": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-03": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-15": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-16": "- [[하늘땅사람 개발 기록]]",
+        "2023-01-18": "- [[하늘땅사람 개발 기록]]",
+        "Project": "- [[하늘땅사람 개발 기록]]",
+        "하늘땅사람": "- [[하늘땅사람 개발 기록]]",
+        "하늘땅사람 지원 문서": "[[하늘땅사람 개발 기록]]의 지원 문서입니다.",
+        "활자": "[[하늘땅사람 개발 기록]]의 [[Subproject|하위 계획]]."
+    },
+    "하늘땅사람 업데이트 기록": {
+        "2023-01-19": "- [[하늘땅사람 업데이트 기록]]",
+        "2023-01-21": "- [[하늘땅사람 업데이트 기록]]",
+        "2023-01-22": "- [[하늘땅사람 업데이트 기록]]",
+        "2023-01-25": "- [[하늘땅사람 업데이트 기록]]",
+        "하늘땅사람": "- [[하늘땅사람 업데이트 기록]]",
+        "하늘땅사람 지원 문서": "[[하늘땅사람 업데이트 기록]]도 확인해보세요."
+    },
+    "두 번째 뇌": {
+        "2022-11-19": "  - [[두 번째 뇌]]",
+        "Building a Second Brain": "- [[두 번째 뇌]]"
+    },
+    "AI는 고가 노동부터 점령한다": {
+        "2022-11-19": "  - [[AI는 고가 노동부터 점령한다]]"
+    },
+    "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {
+        "2022-11-19": "  - [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
+        "Setting different fonts by language in CSS": "- [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]"
+    },
+    "Ghost 테마를 자동 배포하는 방법": {
+        "2022-11-19": "  - [[Ghost 테마를 자동 배포하는 방법]]"
+    },
+    "Ghost에서 외부 링크를 새로운 창에서 여는 방법": {
+        "2022-11-19": "  - [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]",
+        "Opening external links in a new tab by default on Ghost": "- [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]"
+    },
+    "GitHub Pages에 React 앱 띄우기": {
+        "2022-11-19": "  - [[GitHub Pages에 React 앱 띄우기]]",
+        "React App on GitHub Pages": "- [[GitHub Pages에 React 앱 띄우기]]"
+    },
+    "HTML 텍스트 위에 덧말 강조점 쓰기": {
+        "2022-11-19": "  - [[HTML 텍스트 위에 덧말 강조점 쓰기]]"
+    },
+    "http 없는 http 서버 만들기": {
+        "2022-11-19": "  - [[http 없는 http 서버 만들기]]"
+    },
+    "Mac을 Command+L로 잠그는 방법": {
+        "2022-11-19": "  - [[Mac을 Command+L로 잠그는 방법]]"
+    },
+    "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {
+        "2022-11-19": "  - [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]",
+        "Migrating Node.js apps from AWS EB to Heroku": "- [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]"
+    },
+    "Snowpack으로 WASM 시작하기": {
+        "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
+    },
+    "Tailwind CSS 톺아보기": {
+        "2022-11-19": "  - [[Tailwind CSS 톺아보기]]"
+    },
+    "배달의민족 FE 개발자가 일하는 법 발표": {
+        "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 발표]]"
+    },
+    "배달의민족 FE 개발자가 일하는 법 Q&A": {
+        "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
+    },
+    "브라우저 콘솔에 경고 문구 띄우는 방법": {
+        "2022-11-19": "  - [[브라우저 콘솔에 경고 문구 띄우는 방법]]"
+    },
+    "라즈베리 파이로 스마트 오디오 시스템 만들기": {
+        "2022-11-19": "  - [[라즈베리 파이로 스마트 오디오 시스템 만들기]]"
+    },
+    "Apple Newsroom 서체 따라하기": {
+        "2022-11-19": "  - [[Apple Newsroom 서체 따라하기]]"
+    },
     "wikilink": {
         "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which Docusaurus does not support. I have another python ..."
+    },
+    "공기 청정 비행선": {
+        "2022-12-17": "- [[공기 청정 비행선]]"
+    },
+    "졸업을 앞둔 중학교 3학년들에게": {
+        "2016-12-08": "- [[졸업을 앞둔 중학교 3학년들에게]]"
+    },
+    "고통에는 순응이 아니라 감작이 나타난다": {
+        "2022-10-18": "- [[고통에는 순응이 아니라 감작이 나타난다]]",
+        "월급만큼 중요한 것은 자존급이다": "게다가 [[고통에는 순응이 아니라 감작이 나타난다]]."
     },
     "94861D.png": {
         "2022-12-08": "![[94861D.png]]",
         "Wikipedia": "![[94861D.png]]"
     },
+    "바이올린 켜면 바이올레이션": {
+        "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
+    },
+    "일본 과학기술 총력전": {
+        "2022-08-02": "- [[일본 과학기술 총력전]]",
+        "Readings": "- [x] [[일본 과학기술 총력전]]",
+        "한민족은 해적되었다": "그것이 한민족의 동족상잔|동족이든 [[일본 과학기술 총력전|외세]]이든..."
+    },
+    "한자 타자기": {
+        "2022-09-29": "- [[한자 타자기]]",
+        "Readings": "- [x] [[한자 타자기]]"
+    },
+    "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
+        "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
+        "하늘땅사람": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
+        "하늘땅사람 개발 기록": "[[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]를 통해 제작이 충분히 가능함을 확인."
+    },
     "5B9AFC.png": {
         "2022-12-19": "![[5B9AFC.png]]",
-        "하늘땅사람 개발 기록": "![[5B9AFC.png]]"
+        "하늘땅사람 개발 기록": "![[5B9AFC.png]]"
     },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
@@ -4547,8 +4481,27 @@ export const backlinks = {
         "2022-08-03": "![[770154.png]]",
         "Adding a Verified Mark on Apple Mail & Gmail": "![[770154.png]]"
     },
+    "그게 뭐라고": {
+        "2022-11-23": "- [[그게 뭐라고]]"
+    },
+    "공강에서 보내는 공강 활용법": {
+        "2016-06-24": "- [[공강에서 보내는 공강 활용법]]"
+    },
+    "원숭이와 꽃신": {
+        "2022-08-10": "- [[원숭이와 꽃신]]"
+    },
     "B22093.png": {
         "2022-06-27": "![[B22093.png]]"
+    },
+    "하늘땅사람 개인 정보 보호 정책": {
+        "2023-01-18": "- [[하늘땅사람 개인 정보 보호 정책]]",
+        "하늘땅사람": "- [[하늘땅사람 개인 정보 보호 정책]]",
+        "하늘땅사람 개발 기록": "- [[하늘땅사람 개인 정보 보호 정책]]"
+    },
+    "하늘땅사람 지원 문서": {
+        "2023-01-18": "- [[하늘땅사람 지원 문서]]",
+        "하늘땅사람": "- [[하늘땅사람 지원 문서]]",
+        "하늘땅사람 개발 기록": "- [[하늘땅사람 지원 문서]]"
     },
     "5A3846.gif": {
         "2022-11-10": "![[5A3846.gif]]",
@@ -4599,8 +4552,21 @@ export const backlinks = {
     "17D859.png": {
         "2022-08-04": "![[17D859.png]]"
     },
+    "기숙사 생활과 방 배정": {
+        "2016-11-11": "- [[기숙사 생활과 방 배정]]",
+        "2016-11-15": "- [[기숙사 생활과 방 배정]]"
+    },
     "356 Official SSH Server": {
         "2022-08-25": "- [[356 Official SSH Server]]"
+    },
+    "하늘땅사람": {
+        "2023-01-19": "- [[하늘땅사람]]",
+        "하늘땅사람 개발 기록": "상위 문서: [[하늘땅사람]] 참고",
+        "하늘땅사람 개인 정보 보호 정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다."
+    },
+    "한국의 입시와 거짓된 명예": {
+        "2022-11-25": "- [[한국의 입시와 거짓된 명예]]",
+        "개성은 자연스레 주어지지 않는다": "- [[한국의 입시와 거짓된 명예]]"
     },
     "D09A61.png": {
         "2022-11-11": "![[D09A61.png]]",
@@ -4618,8 +4584,51 @@ export const backlinks = {
         "2022-11-11": "![[FA5FEC.gif]]",
         "Dynamic Island on the Web": "![[FA5FEC.gif]]"
     },
+    "雅號를 찾아서": {
+        "2023-01-09": "- [[雅號를 찾아서]]"
+    },
+    "테라포밍": {
+        "2023-01-09": "- [[테라포밍]]"
+    },
+    "한민족의 동족상잔": {
+        "2023-01-09": "- [[한민족의 동족상잔]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
+        "한민족은 해적되었다": "그것이 [[한민족의 동족상잔|동족]]이든 [[일본 과학기술 총력전|외세]]이든..."
+    },
+    "조선의 노비제도에 관한 보고": {
+        "2023-01-09": "- 한민족의 동족상잔에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
+        "한민족의 동족상잔": "[[조선의 노비제도에 관한 보고]]"
+    },
     "D4C125.gif": {
         "2022-08-01": "![[D4C125.gif]]"
+    },
+    "서울 프로": {
+        "2022-08-01": "- [[서울 프로]]",
+        "Pretendard의 아쉬운 점": "이는 자세하게 확인하지 못했으나 [[서울 프로]]를 개발할 때 알아보고 고려하려고 했던 문제이다."
+    },
+    "역사의 집대성": {
+        "2023-01-12": "- [[역사의 집대성]]",
+        "Project": "- [[역사의 집대성]]",
+        "재학생일기": "2023-01-12에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
+    },
+    "민사고": {
+        "2023-01-12": "- [[민사고]]",
+        "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "... Heroku가 AWS에 비해 몇몇 장점이 있다는 것을 알게 되었다. 예전에 개발했던 [[민사고]] 공문서 모음집을 Heroku로 옮겼다.",
+        "공강에서 보내는 공강 활용법": "공강에서 보내는 공강 활용법이라니, 조금 이상하게 들리는 말인 것 같습니다. [[민사고|민족사관고등학교]]에서 공강은 두 가지 의미를 가지고 있습니다. 첫 번째는 누구나 사용할 수 ...",
+        "국제 계열과 계열 변경 이야기": "... 진학 반(이하 국제계열)로, 그리고 1명이 반대로 계열을 변경했습니다. 많은 분들이 아시다시피 [[민사고]]는 국제계열과 국내계열로 나뉘어 있습니다. 오늘은 그 둘의 특징과 변경 과정에 대해 ...",
+        "기숙사 생활과 방 배정": "... 저녁 무렵, 어둠이 내리고 나면 우리는 또 다른 학교생활을 직면하게 됩니다. [[민사고|민족사관고등학교]] 기숙사인 덕고관은 또 다른 배움의 장소입니다. 학문적인 공부를 하는 다산관과 충무관 ...",
+        "바이올린 켜면 바이올레이션": "상벌점 제도는 어느 학교에나 있는 제도입니다. [[민사고|민족사관고등학교]]도 마찬가지입니다. 오늘은 민사고|민족사관고등학교의 상벌점 제도에 대해서 소개해보고자 합니다.",
+        "식영부원의 관점에서 바라본 치킨데이": "아시다시피 [[민사고|민족사관고등학교]]는 외부 음식을 구하기 어려운 산골 외딴 곳에 위치한 기숙사 학교입니다. 그렇기 ...",
+        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "... 기숙사 외부에서 만나게 될 평생 친구도 있을 것입니다. 오늘은 제가 느낀, [[민사고|민족사관고등학교]] (이하 [[민사고]]) 에서의 외부 친구 관계에 대해서 가볍게 이야기해보려고 합니다.",
+        "재학생일기": "[[민사고]]에 있던 학교 공식 일기 모음집이다.",
+        "졸업을 앞둔 중학교 3학년들에게": "... 무렵이라고 할 수 있는 1월에 저는 가장 느슨해졌었는데, 마지막 2주 정도는 [[민사고]] 입학 준비하겠다고 과제로 나온 책 읽고, 한자 공부를 하고 그랬습니다. 그러고 ...",
+        "코드클럽": "- [[민사고]] 3학년 때 설립한 동아리"
+    },
+    "코드클럽": {
+        "2019-03-04": "- [[코드클럽]]",
+        "2022-12-10": "- [[코드클럽]]"
+    },
+    "한민족은 해적되었다": {
+        "2023-01-26": "- [[한민족은 해적되었다]]"
     },
     "902071.png": {
         "2022-12-24": "> ![[902071.png]]"
@@ -4639,7 +4648,12 @@ export const backlinks = {
     },
     "EAADF1.gif": {
         "2023-01-02": "![[EAADF1.gif]]",
-        "하늘땅사람 개발 기록": "![[EAADF1.gif]]"
+        "하늘땅사람 개발 기록": "![[EAADF1.gif]]"
+    },
+    "잡스와 생존 편향": {
+        "2019-10-13": "- [[잡스와 생존 편향]]",
+        "2022-12-20": "- [[잡스와 생존 편향]]",
+        "2022-12-21": "- [[잡스와 생존 편향]]"
     },
     "E13484.png": {
         "2022-12-20": "![[E13484.png]]"
@@ -4658,6 +4672,14 @@ export const backlinks = {
     "184D2B.png": {
         "2023-01-23": "![[184D2B.png]]"
     },
+    "이 땅에 태어나서": {
+        "2022-12-21": "- Readings: [[이 땅에 태어나서]], [[하얼빈]]",
+        "Readings": "- [ ] [[이 땅에 태어나서]]"
+    },
+    "하얼빈": {
+        "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
+        "Readings": "- [ ] [[하얼빈]]"
+    },
     "D815DD.jpeg": {
         "2022-07-12": "![[D815DD.jpeg]]"
     },
@@ -4674,15 +4696,31 @@ export const backlinks = {
         "2022-10-25": "![[411451.png]]",
         "Apple-like Block Interface": "![[411451.png]]"
     },
+    "태백산맥 계획": {
+        "2022-12-11": "- [[태백산맥 계획]]",
+        "Regulation of Fake News": "- [[태백산맥 계획]]"
+    },
+    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": {
+        "2022-12-11": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
+        "공기 청정 비행선": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
+        "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
+    },
     "1ED417.jpeg": {
         "2022-07-06": "- Merged! ![[1ED417.jpeg]]"
     },
     "3AB4D2.png": {
         "2022-07-06": "![[3AB4D2.png]]"
     },
+    "벌금과 물가": {
+        "2022-10-21": "- [[벌금과 물가]]"
+    },
     "837555.jpg": {
         "2022-10-15": "![[837555.jpg]]",
         "Dynamic Island on the Web": "![[837555.jpg]]"
+    },
+    "유난한 도전": {
+        "2023-01-03": "- Finished [[유난한 도전]]",
+        "Readings": "- [x] [[유난한 도전]]"
     },
     "F9FC1A.png": {
         "Swift": "![[F9FC1A.png]]"
@@ -4701,8 +4739,8 @@ export const backlinks = {
         "Redirecting READMEs": "![[E64653.png]]"
     },
     "CD56C6.png": {
-        "하늘땅사람 개발 기록": "![[CD56C6.png]]",
-        "활자": "![[CD56C6.png]]"
+        "하늘땅사람 개발 기록": "![[CD56C6.png]]",
+        "활자": "![[CD56C6.png]]"
     },
     "8692F9.png": {
         "How is WebAssembly cross-platform when Assembly is not": "![[8692F9.png]]"
@@ -4837,11 +4875,24 @@ export const backlinks = {
     "6E5C4F.png": {
         "Web Graphics": "![[6E5C4F.png]]"
     },
+    "Pretendard의 아쉬운 점": {
+        "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
+        "서울 프로": "- [[Pretendard의 아쉬운 점]]"
+    },
     "4FA1C6.png": {
         "Font Features": "![[4FA1C6.png]]"
     },
     "22EB14.png": {
         "Font Features": "![[22EB14.png]]"
+    },
+    "재학생일기": {
+        "공강에서 보내는 공강 활용법": "2016-06-24에 게재된 [[재학생일기]]이다.",
+        "국제 계열과 계열 변경 이야기": "2016-10-22에 게재된 [[재학생일기]]이다.",
+        "기숙사 생활과 방 배정": "2016-11-11에 게재된 [[재학생일기]]이다.",
+        "바이올린 켜면 바이올레이션": "2016-04-01에 게재된 [[재학생일기]]이다.",
+        "식영부원의 관점에서 바라본 치킨데이": "2016-07-01에 게재된 [[재학생일기]]이다.",
+        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "2016-11-28에 게재된 [[재학생일기]]이다.",
+        "졸업을 앞둔 중학교 3학년들에게": "2016-12-08에 게재된 [[재학생일기]]이다."
     },
     "5BFF3F.png": {
         "Conversational AI Tools for Thought": "![[5BFF3F.png]]"
@@ -4855,11 +4906,15 @@ export const backlinks = {
     "2576C7.png": {
         "Spellbound": "![[2576C7.png]]"
     },
+    "초상권 vs 저작권": {
+        "CELLO": "- [[초상권 vs 저작권]]",
+        "퍼블리시티권": "- [[초상권 vs 저작권]]"
+    },
     "60A69F.png": {
         "Dioxus": "![[60A69F.png]]"
     },
     "BA8C9D.png": {
-        "벌금과 물가": "- ![[BA8C9D.png]]"
+        "벌금과 물가": "- ![[BA8C9D.png]]"
     },
     "C42C4E.png": {
         "Pretendard": "![[C42C4E.png]]",
@@ -4894,6 +4949,15 @@ export const backlinks = {
     },
     "F59F47.png": {
         "Midjourney": "![[F59F47.png]]"
+    },
+    "간판법": {
+        "Neo Korea": "- [[간판법]]"
+    },
+    "경제 개발의 길목에서": {
+        "Readings": "- [x] [[경제 개발의 길목에서]]"
+    },
+    "지구 끝의 온실": {
+        "Readings": "- [x] [[지구 끝의 온실]]"
     },
     "DCF75C.png": {
         "Modern MacPaint": "![[DCF75C.png]]"
@@ -4956,7 +5020,7 @@ export const backlinks = {
         "Surfit": "![[2A5C23.png]]"
     },
     "C2C0C3.png": {
-        "코드클럽": "![[C2C0C3.png]]"
+        "코드클럽": "![[C2C0C3.png]]"
     },
     "2D2789.png": {
         "Archiving-based Tools for Thoughts": "![[2D2789.png]]"
@@ -5065,17 +5129,27 @@ export const backlinks = {
         "Person 5DBDAE": "A lot of [[people]] are international.",
         "Person E7CFC5": "A lot of smart [[people]]."
     },
+    "이루다": {
+        "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information"
+    },
     "BD6DAB.png": {
-        "Pretendard의 아쉬운 점": "![[BD6DAB.png]]"
+        "Pretendard의 아쉬운 점": "![[BD6DAB.png]]"
     },
     "EF6FE0.gif": {
-        "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
+        "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
+    },
+    "퍼블리시티권": {
+        "CELLO": "- [[퍼블리시티권]]"
     },
     "6DFC4D.png": {
         "Notion AI": "![[6DFC4D.png]]"
     },
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]"
+    },
+    "활자": {
+        "하늘땅사람": "- [[활자]]",
+        "하늘땅사람 개발 기록": "Subproject로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 구현체"
     },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",
@@ -5123,10 +5197,10 @@ export const backlinks = {
         "Linkflags": "![[2E6CEB.gif]]"
     },
     "2A2DC6.png": {
-        "프로젝트 어덕행덕": "![[2A2DC6.png]]"
+        "프로젝트 어덕행덕": "![[2A2DC6.png]]"
     },
     "669578.png": {
-        "프로젝트 어덕행덕": "![[669578.png]]"
+        "프로젝트 어덕행덕": "![[669578.png]]"
     },
     "CD4751.png": {
         "San Francisco": "![[CD4751.png]]",
@@ -5440,13 +5514,13 @@ export const backlinks = {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]"
     },
     "76F0DC.png": {
-        "공기 청정 비행선": "![[76F0DC.png]]"
+        "공기 청정 비행선": "![[76F0DC.png]]"
     },
     "744071.png": {
-        "공기 청정 비행선": "![[744071.png]]"
+        "공기 청정 비행선": "![[744071.png]]"
     },
     "7D6146.png": {
-        "공기 청정 비행선": "![[7D6146.png]]"
+        "공기 청정 비행선": "![[7D6146.png]]"
     },
     "717AC9.png": {
         "designOS": "![[717AC9.png]]"
@@ -5482,97 +5556,97 @@ export const backlinks = {
         "Sliding Panes": "![[AE63DD.png]]"
     },
     "A02D58.png": {
-        "하늘땅사람 개발 기록": "![[A02D58.png]]"
+        "하늘땅사람 개발 기록": "![[A02D58.png]]"
     },
     "85D135.png": {
-        "하늘땅사람 개발 기록": "![[85D135.png]]"
+        "하늘땅사람 개발 기록": "![[85D135.png]]"
     },
     "B9DE45.png": {
-        "하늘땅사람 개발 기록": "![[B9DE45.png]]"
+        "하늘땅사람 개발 기록": "![[B9DE45.png]]"
     },
     "B1C8D0.png": {
-        "하늘땅사람 개발 기록": "![[B1C8D0.png]]"
+        "하늘땅사람 개발 기록": "![[B1C8D0.png]]"
     },
     "171C7C.png": {
-        "하늘땅사람 개발 기록": "![[171C7C.png]]"
+        "하늘땅사람 개발 기록": "![[171C7C.png]]"
     },
     "EC8120.png": {
-        "하늘땅사람 개발 기록": "![[EC8120.png]]"
+        "하늘땅사람 개발 기록": "![[EC8120.png]]"
     },
     "69DFE5.png": {
-        "하늘땅사람 개발 기록": "![[69DFE5.png]]"
+        "하늘땅사람 개발 기록": "![[69DFE5.png]]"
     },
     "4B2B9B.png": {
-        "하늘땅사람 개발 기록": "![[4B2B9B.png]]"
+        "하늘땅사람 개발 기록": "![[4B2B9B.png]]"
     },
     "80F5B1.png": {
-        "하늘땅사람 개발 기록": "![[80F5B1.png]]"
+        "하늘땅사람 개발 기록": "![[80F5B1.png]]"
     },
     "35109C.jpeg": {
-        "하늘땅사람 개발 기록": "![[35109C.jpeg]]"
+        "하늘땅사람 개발 기록": "![[35109C.jpeg]]"
     },
     "5D6BBD.jpeg": {
-        "하늘땅사람 개발 기록": "![[5D6BBD.jpeg]]"
+        "하늘땅사람 개발 기록": "![[5D6BBD.jpeg]]"
     },
     "D6B132.jpeg": {
-        "하늘땅사람 개발 기록": "![[D6B132.jpeg]]"
+        "하늘땅사람 개발 기록": "![[D6B132.jpeg]]"
     },
     "77CE6B.jpeg": {
-        "하늘땅사람 개발 기록": "![[77CE6B.jpeg]]"
+        "하늘땅사람 개발 기록": "![[77CE6B.jpeg]]"
     },
     "A6EFFE.jpeg": {
-        "하늘땅사람 개발 기록": "![[A6EFFE.jpeg]]"
+        "하늘땅사람 개발 기록": "![[A6EFFE.jpeg]]"
     },
     "B91CA8.jpeg": {
-        "하늘땅사람 개발 기록": "![[B91CA8.jpeg]]"
+        "하늘땅사람 개발 기록": "![[B91CA8.jpeg]]"
     },
     "A16A91.png": {
-        "하늘땅사람 개발 기록": "![[A16A91.png]]"
+        "하늘땅사람 개발 기록": "![[A16A91.png]]"
     },
     "B0D7D3.png": {
-        "하늘땅사람 개발 기록": "![[B0D7D3.png]]"
+        "하늘땅사람 개발 기록": "![[B0D7D3.png]]"
     },
     "5F35F3.png": {
-        "하늘땅사람 개발 기록": "![[5F35F3.png]]"
+        "하늘땅사람 개발 기록": "![[5F35F3.png]]"
     },
     "904C50.png": {
-        "하늘땅사람 개발 기록": "![[904C50.png]]"
+        "하늘땅사람 개발 기록": "![[904C50.png]]"
     },
     "293DFB.png": {
-        "하늘땅사람 개발 기록": "![[293DFB.png]]"
+        "하늘땅사람 개발 기록": "![[293DFB.png]]"
     },
     "621B52.png": {
-        "하늘땅사람 개발 기록": "![[621B52.png]]"
+        "하늘땅사람 개발 기록": "![[621B52.png]]"
     },
     "16B648.png": {
-        "하늘땅사람 개발 기록": "![[16B648.png]]"
+        "하늘땅사람 개발 기록": "![[16B648.png]]"
     },
     "BB99F5.png": {
-        "하늘땅사람 개발 기록": "![[BB99F5.png]]"
+        "하늘땅사람 개발 기록": "![[BB99F5.png]]"
     },
     "EB4262.png": {
-        "하늘땅사람 개발 기록": "![[EB4262.png]]"
+        "하늘땅사람 개발 기록": "![[EB4262.png]]"
     },
     "76E2D2.png": {
-        "하늘땅사람 개발 기록": "![[76E2D2.png]]"
+        "하늘땅사람 개발 기록": "![[76E2D2.png]]"
     },
     "5855F2.png": {
-        "하늘땅사람 개발 기록": "![[5855F2.png]]"
+        "하늘땅사람 개발 기록": "![[5855F2.png]]"
     },
     "54DC34.png": {
-        "하늘땅사람 개발 기록": "![[54DC34.png]]"
+        "하늘땅사람 개발 기록": "![[54DC34.png]]"
     },
     "AA66EE.png": {
-        "하늘땅사람 개발 기록": "![[AA66EE.png]]"
+        "하늘땅사람 개발 기록": "![[AA66EE.png]]"
     },
     "39AE60.png": {
-        "하늘땅사람 개발 기록": "![[39AE60.png]]"
+        "하늘땅사람 개발 기록": "![[39AE60.png]]"
     },
     "45CDAB.png": {
-        "하늘땅사람 개발 기록": "![[45CDAB.png]]"
+        "하늘땅사람 개발 기록": "![[45CDAB.png]]"
     },
     "CB642E.png": {
-        "하늘땅사람 개발 기록": "![[CB642E.png]]"
+        "하늘땅사람 개발 기록": "![[CB642E.png]]"
     },
     "A7416A.png": {
         "Three Column Design": "![[A7416A.png]]"
