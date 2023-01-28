@@ -17,7 +17,7 @@ const navbar = {
   title: 'Sunghyun Cho',
   logo: {
     alt: 'Sunghyun Cho Logo',
-    src: 'img/favicon.svg',
+    src: '/img/favicon.svg',
   },
   items: [
     {
