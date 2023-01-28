@@ -2,4 +2,6 @@ Research/.obsidian/plugins linguist-generated
 Research/.obsidian/themes linguist-generated
 Research/.obsidian/themes/Minimal.css linguist-generated
 src/css/icons/*.css linguist-generated
-Research/.obsidian/plugins/*.* linguist-vendored
+Research/.obsidian/plugins/**/*.js linguist-vendored
+Research/.obsidian/plugins/**/*.css linguist-vendored
+Research/.obsidian/plugins/**/*.html linguist-vendored
