@@ -5533,6 +5533,9 @@ export const backlinks = {
     "717AC9.png": {
         "designOS": "![[717AC9.png]]"
     },
+    "761432.png": {
+        "Aldehyde Outage (January 2023)": "![[761432.png]]"
+    },
     "97E77D.png": {
         "Sudo with Touch ID": "![[97E77D.png]]"
     },
