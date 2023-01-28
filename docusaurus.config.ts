@@ -84,7 +84,7 @@ const config: Config = {
     prism: {
       theme: darkCodeTheme,
       darkTheme: darkCodeTheme,
-      additionalLanguages: ['java'],
+      additionalLanguages: ['java', 'swift'],
     },
     docs: {
       sidebar: {
