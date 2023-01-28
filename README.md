@@ -1,5 +1,6 @@
 # [Project Extracranial](https://cho.sh)
 
+[![GitHub deployments](https://img.shields.io/github/deployments/anaclumos/extracranial/production?color=%23F38020&label=Cloudflare+Pages&logo=Cloudflare+Pages&logoColor=white&style=for-the-badge)](https://dash.cloudflare.com/b3fd9c9d6ad1bc778e56659fccb63f7f/pages/view/extracranial)
 [![GitHub deployments](https://img.shields.io/github/deployments/anaclumos/extracranial/production?color=%23000000&label=deploy&logo=Vercel&logoColor=white&style=for-the-badge)](https://vercel.com/anaclumos/extracranial)
 [![](https://img.shields.io/badge/dynamic/json?color=%23FF4F64&logoColor=white&label=view%20count&&logo=simple%20analytics&&style=for-the-badge&query=pageviews&url=https%3A%2F%2Fsimpleanalytics.com%2Fcho.sh.json%3Fversion%3D5%26fields%3Dpageviews%26timezone%3DAmerica%2FLos_Angeles%26start%3D2020-01-01%26end%3Dyesterday%26info%3Dfalse)](https://simpleanalytics.com/cho.sh)
 
@@ -22,7 +23,7 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1079     30623     7549         0    23074          0
+Markdown                  1079     30625     7549         0    23076          0
 CSS                         64     19581      160        31    19390          0
 TypeScript                  50      8908      145        50     8713        142
 JSON                        36      2094        0         0     2094          0
@@ -34,13 +35,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1256     63345     8001      1231    54113        239
+Total                     1256     63347     8001      1231    54115        239
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,784,686
+Estimated Cost to Develop (organic) $1,784,756
 Estimated Schedule Effort (organic) 17.14 months
 Estimated People Required (organic) 9.25
 ───────────────────────────────────────────────────────────────────────────────
-Processed 2819514 bytes, 2.820 megabytes (SI)
+Processed 2820099 bytes, 2.820 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
