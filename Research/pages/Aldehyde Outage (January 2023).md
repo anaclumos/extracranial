@@ -27,4 +27,6 @@ On Vercel's Side:
 Error: Command "yarn run build" exited with 129
 ```
 
-The local build completes without an issue, so I redirected to GitHub Pages for now.
+Why..? I literally changed no config
+
+![[761432.png]]
