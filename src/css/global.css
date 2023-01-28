@@ -18,14 +18,7 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: -0.03em;
-}
-
-.theme-code-block,
-pre,
-code {
-  overflow: scroll;
-  max-width: calc(100dvw - 2 * var(--ifm-spacing-horizontal));
+  letter-spacing: -0.05em;
 }
 
 * {
