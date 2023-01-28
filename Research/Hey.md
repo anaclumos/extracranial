@@ -49,7 +49,7 @@ What's so good that way? Unparalleled flexibility.
 
 I use [[Obsidian]] for taking notes.
 I then pipeline those notes into heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.
-I finally use [[Vercel]] for deploying, [[caching]], and distributing.
+I finally use [[Cloudflare]] for deploying, [[caching]], and distributing.
 I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial).
 Take a look! 😃
 
