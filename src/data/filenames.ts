@@ -264,6 +264,7 @@ export const filenames = {
     "Akzidenz": "21CFF6",
     "Alan Chan": "7F00B5",
     "Aldehyde": "C585AB",
+    "Aldehyde Outage (January 2023)": "AB70E4",
     "Alexander Obenauer": "ED64DE",
     "Almost Monospaced": "EC5D52",
     "Alternatives to After Effects": "3E9BCC",

@@ -3602,6 +3602,9 @@ export const backlinks = {
         "2022-11-07": "- [[Supergravity Products]]",
         "Captivating Products": "Making [[Supergravity Products]] and making them [[Fiercely Overpriced]] are two ways of measuring the ..."
     },
+    "Aldehyde Outage (January 2023)": {
+        "2023-01-27": "- [[Aldehyde Outage (January 2023)]]"
+    },
     "Sudo with Touch ID": {
         "2022-11-30": "- Lesser Known Tricks: [[Sudo with Touch ID]]",
         "Lesser Known Tricks": "- [[Sudo with Touch ID]]"
