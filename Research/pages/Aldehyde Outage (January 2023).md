@@ -1,17 +1,16 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/AB70E4'
 ---
 
 It seems like multiple issues are combined
-
 
 ## Docusaurus 2.3.0 `useSyncExternalStore` Bug
 
 [Using Tabs will break with React 18 and Docusaurus v2.3 · Issue #8592 · facebook/docusaurus](https://github.com/facebook/docusaurus/issues/8592#event-8378524686)
 
 ## Vercel and Cloudflare Build Errors
- 
+
 On Cloudflare's side:
 
 ```
