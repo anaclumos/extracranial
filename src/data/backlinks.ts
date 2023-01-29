@@ -269,11 +269,13 @@ export const backlinks = {
     },
     "2022-11-30": {},
     "2023-01-28": {
-        "Climbing Stairs": "Solved at: [[2023-01-28]]",
-        "First Bad Version": "Solved at: [[2023-01-28]]",
-        "Longest Palindrome": "Solved at: [[2023-01-28]]",
-        "Ransom Note": "Solved at: [[2023-01-28]]",
-        "Reverse Linked List": "Solved at: [[2023-01-28]]"
+        "0057 Insert Interval": "Solved at: [[2023-01-28]]",
+        "0070 Climbing Stairs": "Solved at: [[2023-01-28]]",
+        "0169 Majority Element": "Solved at: [[2023-01-28]]",
+        "0206 Reverse Linked List": "Solved at: [[2023-01-28]]",
+        "0383 Ransom Note": "Solved at: [[2023-01-28]]",
+        "0409 Longest Palindrome": "Solved at: [[2023-01-28]]",
+        "First Bad Version": "Solved at: [[2023-01-28]]"
     },
     "2022-11-04": {},
     "2022-11-14": {},
@@ -530,6 +532,9 @@ export const backlinks = {
     "Solar": {
         "2023-01-13": "- [[Solar]]",
         "Clean Energy": "- [[Solar]]"
+    },
+    "0206 Reverse Linked List": {
+        "Coding Tests": "- [x] [[0206 Reverse Linked List]]"
     },
     "Person A480C6": {
         "Apple Silicon": "- [[Person A480C6]]",
@@ -1234,9 +1239,6 @@ export const backlinks = {
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
     },
-    "Climbing Stairs": {
-        "Coding Tests": "- [x] [[Climbing Stairs]]"
-    },
     "Dioxus": {
         "2022-12-28": "- [[Dioxus]]"
     },
@@ -1338,6 +1340,9 @@ export const backlinks = {
         "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 화두로 나타난다. 이런 주제들은 모양만 바뀔 ..."
     },
     "2022년 11월 한 달간 일기 쓰기": {},
+    "0383 Ransom Note": {
+        "Coding Tests": "- [x] [[0383 Ransom Note]]"
+    },
     "Letter to Mr. Matt Rickard on 2022-12-21": {
         "2022-12-21": "- [[Letter to Mr. Matt Rickard on 2022-12-21]]"
     },
@@ -1496,9 +1501,6 @@ export const backlinks = {
     "Now Page": {
         "2022-10-17": "- [[Now Page]]",
         "Stephan Ango": "- [[Now Page]]: What I'm doing now — Stephan Ango"
-    },
-    "Ransom Note": {
-        "Coding Tests": "- [x] [[Ransom Note]]"
     },
     "Infinite Canvas": {
         "2022-10-10": "- [[Infinite Canvas]]",
@@ -1865,9 +1867,6 @@ export const backlinks = {
         "10x Technopreneurs": "10x technoprenuers are Small yet Powerful people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the knowledge for Go-To-Market strategies and monetization. They can ...",
         "2022-12-09": "- [[10x Technologist]]"
     },
-    "Reverse Linked List": {
-        "Coding Tests": "- [x] [[Reverse Linked List]]"
-    },
     "Ray.st": {
         "2022-12-28": "- [[Ray.st]]"
     },
@@ -1993,6 +1992,9 @@ export const backlinks = {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]"
     },
     "한민족은 해적되었다": {},
+    "0070 Climbing Stairs": {
+        "Coding Tests": "- [x] [[0070 Climbing Stairs]]"
+    },
     "Mutex": {
         "Internetworking": "- [[Mutex]]"
     },
@@ -2212,6 +2214,9 @@ export const backlinks = {
     "Porting a Chrome Extension to Firefox Add-on": {
         "2022-11-19": "  - [[Porting a Chrome Extension to Firefox Add-on]]"
     },
+    "0169 Majority Element": {
+        "Coding Tests": "- [x] [[0169 Majority Element]]"
+    },
     "Mac을 Command+L로 잠그는 방법": {},
     "Done": {
         "Dynamic Island on the Web": "- [[Done]] [[Project]]",
@@ -2296,9 +2301,6 @@ export const backlinks = {
         "Satoshi": "- A type of [[Grotesque]] [[font]]"
     },
     "http 없는 http 서버 만들기": {},
-    "Longest Palindrome": {
-        "Coding Tests": "- [x] [[Longest Palindrome]]"
-    },
     "Inter": {
         "Akzidenz": "- Akin to San Francisco|SF Pro and [[Inter]].",
         "Font Features": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.",
@@ -2728,6 +2730,9 @@ export const backlinks = {
     },
     "Architectural Decision Records": {
         "2022-11-02": "- [[Architectural Decision Records]]"
+    },
+    "0057 Insert Interval": {
+        "Coding Tests": "- [x] [[0057 Insert Interval]]"
     },
     "Transient Notes": {
         "2022-05-29": "- Evergreen notes vs [[Transient Notes]]",
@@ -4013,9 +4018,6 @@ export const backlinks = {
     "Interactive ML Models": {
         "2022-12-18": "- [[Interactive ML Models]]"
     },
-    "Majority Element": {
-        "Coding Tests": "- [ ] [[Majority Element]]"
-    },
     "Proebsting": {
         "2022-12-28": "- [[Proebsting]]"
     },
@@ -4048,6 +4050,9 @@ export const backlinks = {
     "Tome": {
         "2022-12-24": "- [[Tome]]",
         "Generative AI": "- [[Tome]]"
+    },
+    "0409 Longest Palindrome": {
+        "Coding Tests": "- [x] [[0409 Longest Palindrome]]"
     },
     "GDPR": {
         "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by ...",
@@ -5302,6 +5307,9 @@ export const backlinks = {
     },
     "4BE5E2.png": {
         "Letter to Mr. Stephan Ango on 2022-10-19": "![[4BE5E2.png]]"
+    },
+    "Int": {
+        "0057 Insert Interval": "    func insert( intervals: [[Int]],  newInterval: [Int]) -> Int {"
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"

@@ -51,11 +51,11 @@ slug: '/D518B0'
 
 - [x] [[0232 Implement Queue using Stacks]]
 - [x] [[0278 First Bad Version]]
-- [x] [[Ransom Note]]
-- [x] [[Climbing Stairs]]
-- [x] [[Longest Palindrome]]
-- [x] [[Reverse Linked List]]
-- [ ] [[Majority Element]]
+- [x] [[0383 Ransom Note]]
+- [x] [[0070 Climbing Stairs]]
+- [x] [[0409 Longest Palindrome]]
+- [x] [[0206 Reverse Linked List]]
+- [x] [[0169 Majority Element]]
 - [ ] [Add Binary](https://leetcode.com/problems/add-binary)
 - [ ] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)
 - [ ] [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)
@@ -64,7 +64,7 @@ slug: '/D518B0'
 
 ## Stage 3
 
-- [ ] [Insert Interval](https://leetcode.com/problems/insert-interval)
+- [x] [[0057 Insert Interval]]
 - [ ] [01 Matrix](https://leetcode.com/problems/01-matrix)
 - [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)
 - [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)

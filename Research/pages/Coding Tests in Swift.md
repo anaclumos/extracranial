@@ -156,3 +156,12 @@ let uppercased = strings.map { $0.uppercased() }
 ```swift
 type(of: char)
 ```
+
+## Sort
+
+```swift
+starts.sort()
+
+// sort by custom function
+images.sorted { $0.fileId > $1.fileID }
+```
