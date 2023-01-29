@@ -51,11 +51,11 @@ slug: '/D518B0'
 
 - [x] [[0232 Implement Queue using Stacks]]
 - [x] [[0278 First Bad Version]]
-- [ ] [Ransom Note](https://leetcode.com/problems/ransom-note)
-- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
-- [ ] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome)
-- [ ] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
-- [ ] [Majority Element](https://leetcode.com/problems/majority-element)
+- [x] [[Ransom Note]]
+- [x] [[Climbing Stairs]]
+- [x] [[Longest Palindrome]]
+- [x] [[Reverse Linked List]]
+- [ ] [[Majority Element]]
 - [ ] [Add Binary](https://leetcode.com/problems/add-binary)
 - [ ] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)
 - [ ] [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)
