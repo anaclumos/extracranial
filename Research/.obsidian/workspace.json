@@ -4,63 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3c6516f3dd6fe45b",
+        "id": "4752958cc9b25a31",
         "type": "tabs",
         "children": [
           {
-            "id": "6726a408193fd06e",
+            "id": "38accb9aabfa58d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-28.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "44ccef9a58dcd84b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-28.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f274059870e3a3ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-01-28.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8afce7e8bf6add8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/0067 Add Binary.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/0067 Add Binary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/0067 Add Binary.md"
-              }
+              "state": {}
             }
           },
           {
@@ -185,17 +137,17 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "8afce7e8bf6add8e",
+  "active": "38accb9aabfa58d7",
   "lastOpenFiles": [
-    "journals/2023-01-28.md",
     "journals/2023-01-29.md",
+    "journals/2023-01-28.md",
+    "pages/0067 Add Binary.md",
     "pages/0206 Reverse Linked List.md",
     "pages/0409 Longest Palindrome.md",
     "pages/0876 Middle of the Linked List.md",
     "pages/Coding Tests.md",
     "journals/2023-01-27.md",
     "pages/0217 Contains Duplicate.md",
-    "pages/0104 Maximum Depth of Binary Tree.md",
-    "pages/0543 Diameter of Binary Tree.md"
+    "pages/0104 Maximum Depth of Binary Tree.md"
   ]
 }
