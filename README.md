@@ -23,25 +23,25 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1079     30625     7549         0    23076          0
-CSS                         64     19581      160        31    19390          0
-TypeScript                  50      8908      145        50     8713        142
-JSON                        36      2094        0         0     2094          0
+Markdown                  1082     30736     7577         0    23159          0
+CSS                         67     20062      173        32    19857          0
+TypeScript                  50      8927      145        50     8732        142
+JSON                        42      2189        0         0     2189          0
 Python                       7       550       50        38      462         76
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
-JavaScript                   2      1157        4      1038      115         21
+JavaScript                   5     26577      388      4877    21312        837
 Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
-gitignore                    1       292       73        70      149          0
+gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1256     63347     8001      1231    54115        239
+Total                     1271     89472     8426      5071    75975       1055
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $1,784,756
-Estimated Schedule Effort (organic) 17.14 months
-Estimated People Required (organic) 9.25
+Estimated Cost to Develop (organic) $2,548,587
+Estimated Schedule Effort (organic) 19.62 months
+Estimated People Required (organic) 11.54
 ───────────────────────────────────────────────────────────────────────────────
-Processed 2820099 bytes, 2.820 megabytes (SI)
+Processed 6191825 bytes, 6.192 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

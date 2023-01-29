@@ -268,6 +268,9 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "[[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다."
     },
     "2022-11-30": {},
+    "2023-01-28": {
+        "First Bad Version": "Solved at: [[2023-01-28]]"
+    },
     "2022-11-04": {},
     "2022-11-14": {},
     "2022-11-20": {},
@@ -904,6 +907,7 @@ export const backlinks = {
         "2022-11-21": "## [[Coding Tests]]",
         "2022-11-28": "- [[Coding Tests]]: [[0232 Implement Queue using Stacks]]",
         "2022-12-03": "- [[Coding Tests]]",
+        "2023-01-28": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "HQ Proximity": {
@@ -1799,6 +1803,9 @@ export const backlinks = {
         "Memory Hierarchy": "- Implementation of [[Principles of Locality]].",
         "Memory Wall": "    - [[Principles of Locality]]"
     },
+    "Coding Tests in Swift": {
+        "2023-01-28": "- [[Coding Tests in Swift]]"
+    },
     "Compiling": {
         "2023-01-25": "- [[Compiling]]",
         "Forward Declaration": "- [[Compiling|Compile]] time improvements",
@@ -2244,6 +2251,7 @@ export const backlinks = {
         "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Synthote]]",
         "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if Notion AI got super powerful, giving insight into your ..."
     },
+    "First Bad Version": {},
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
         "Android": "- [[Android equivalent of div]]"
@@ -2395,7 +2403,8 @@ export const backlinks = {
         "2023-01-24": "## [[Building Habit]]",
         "2023-01-25": "## [[Building Habit]]",
         "2023-01-26": "## [[Building Habit]]",
-        "2023-01-27": "## [[Building Habit]]"
+        "2023-01-27": "## [[Building Habit]]",
+        "2023-01-28": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -4236,6 +4245,7 @@ export const backlinks = {
         "2023-01-25": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-26": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-27": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-28": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "국제 계열과 계열 변경 이야기": {
@@ -4713,6 +4723,9 @@ export const backlinks = {
         "공기 청정 비행선": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
         "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
     },
+    "99EE18.png": {
+        "2023-01-27": "![[99EE18.png]]"
+    },
     "1ED417.jpeg": {
         "2022-07-06": "- Merged! ![[1ED417.jpeg]]"
     },
@@ -4834,6 +4847,9 @@ export const backlinks = {
     },
     "9CCA89.png": {
         "Search Engine Indexing Your Life": "![[9CCA89.png]]"
+    },
+    "0278 First Bad Version": {
+        "Coding Tests": "- [x] [[0278 First Bad Version]]"
     },
     "EB6370.png": {
         "Extracranial": "![[EB6370.png]]"
