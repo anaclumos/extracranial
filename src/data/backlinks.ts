@@ -269,7 +269,11 @@ export const backlinks = {
     },
     "2022-11-30": {},
     "2023-01-28": {
-        "First Bad Version": "Solved at: [[2023-01-28]]"
+        "Climbing Stairs": "Solved at: [[2023-01-28]]",
+        "First Bad Version": "Solved at: [[2023-01-28]]",
+        "Longest Palindrome": "Solved at: [[2023-01-28]]",
+        "Ransom Note": "Solved at: [[2023-01-28]]",
+        "Reverse Linked List": "Solved at: [[2023-01-28]]"
     },
     "2022-11-04": {},
     "2022-11-14": {},
@@ -1230,6 +1234,9 @@ export const backlinks = {
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
     },
+    "Climbing Stairs": {
+        "Coding Tests": "- [x] [[Climbing Stairs]]"
+    },
     "Dioxus": {
         "2022-12-28": "- [[Dioxus]]"
     },
@@ -1489,6 +1496,9 @@ export const backlinks = {
     "Now Page": {
         "2022-10-17": "- [[Now Page]]",
         "Stephan Ango": "- [[Now Page]]: What I'm doing now — Stephan Ango"
+    },
+    "Ransom Note": {
+        "Coding Tests": "- [x] [[Ransom Note]]"
     },
     "Infinite Canvas": {
         "2022-10-10": "- [[Infinite Canvas]]",
@@ -1854,6 +1864,9 @@ export const backlinks = {
     "10x Technologist": {
         "10x Technopreneurs": "10x technoprenuers are Small yet Powerful people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the knowledge for Go-To-Market strategies and monetization. They can ...",
         "2022-12-09": "- [[10x Technologist]]"
+    },
+    "Reverse Linked List": {
+        "Coding Tests": "- [x] [[Reverse Linked List]]"
     },
     "Ray.st": {
         "2022-12-28": "- [[Ray.st]]"
@@ -2283,6 +2296,9 @@ export const backlinks = {
         "Satoshi": "- A type of [[Grotesque]] [[font]]"
     },
     "http 없는 http 서버 만들기": {},
+    "Longest Palindrome": {
+        "Coding Tests": "- [x] [[Longest Palindrome]]"
+    },
     "Inter": {
         "Akzidenz": "- Akin to San Francisco|SF Pro and [[Inter]].",
         "Font Features": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.",
@@ -3996,6 +4012,9 @@ export const backlinks = {
     },
     "Interactive ML Models": {
         "2022-12-18": "- [[Interactive ML Models]]"
+    },
+    "Majority Element": {
+        "Coding Tests": "- [ ] [[Majority Element]]"
     },
     "Proebsting": {
         "2022-12-28": "- [[Proebsting]]"

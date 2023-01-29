@@ -9,13 +9,13 @@ Solved at: [[{{date:YYYY-MM-DD}}]]
 
 ## Solution
 
-```python
+```swift
 
 ```
 
 ## Improved
 
-```python
+```swift
 
 ```
 
