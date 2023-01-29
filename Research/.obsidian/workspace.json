@@ -11,8 +11,13 @@
             "id": "1acd2760a6906b89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Coding Tests.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Coding Tests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Coding Tests.md"
+              }
             }
           },
           {
@@ -139,15 +147,15 @@
   },
   "active": "1acd2760a6906b89",
   "lastOpenFiles": [
+    "journals/2023-01-28.md",
+    "pages/0278 First Bad Version.md",
     "pages/0057 Insert Interval.md",
     "pages/Coding Tests.md",
     "pages/0169 Majority Element.md",
     "pages/0206 Reverse Linked List.md",
     "pages/0409 Longest Palindrome.md",
-    "journals/2023-01-28.md",
     "templates/grind.md",
     "pages/0070 Climbing Stairs.md",
-    "pages/0383 Ransom Note.md",
-    "pages/Coding Tests in Swift.md"
+    "pages/0383 Ransom Note.md"
   ]
 }
