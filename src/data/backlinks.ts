@@ -273,9 +273,9 @@ export const backlinks = {
         "0070 Climbing Stairs": "Solved at: [[2023-01-28]]",
         "0169 Majority Element": "Solved at: [[2023-01-28]]",
         "0206 Reverse Linked List": "Solved at: [[2023-01-28]]",
+        "0278 First Bad Version": "Solved at: [[2023-01-28]]",
         "0383 Ransom Note": "Solved at: [[2023-01-28]]",
-        "0409 Longest Palindrome": "Solved at: [[2023-01-28]]",
-        "First Bad Version": "Solved at: [[2023-01-28]]"
+        "0409 Longest Palindrome": "Solved at: [[2023-01-28]]"
     },
     "2022-11-04": {},
     "2022-11-14": {},
@@ -2269,7 +2269,6 @@ export const backlinks = {
         "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Synthote]]",
         "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if Notion AI got super powerful, giving insight into your ..."
     },
-    "First Bad Version": {},
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
         "Android": "- [[Android equivalent of div]]"
@@ -4037,6 +4036,9 @@ export const backlinks = {
         "Computer Systems": "- [[Virtual Address Space and Physical Address Space]]",
         "Virtual Memory": "- [[Virtual Address Space and Physical Address Space]]"
     },
+    "0278 First Bad Version": {
+        "Coding Tests": "- [x] [[0278 First Bad Version]]"
+    },
     "AI Garbage Data Flooding": {
         "Synthote": "- [[AI Garbage Data Flooding]]"
     },
@@ -4871,9 +4873,6 @@ export const backlinks = {
     },
     "9CCA89.png": {
         "Search Engine Indexing Your Life": "![[9CCA89.png]]"
-    },
-    "0278 First Bad Version": {
-        "Coding Tests": "- [x] [[0278 First Bad Version]]"
     },
     "EB6370.png": {
         "Extracranial": "![[EB6370.png]]"
