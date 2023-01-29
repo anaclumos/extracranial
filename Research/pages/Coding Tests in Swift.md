@@ -165,3 +165,11 @@ starts.sort()
 // sort by custom function
 images.sorted { $0.fileId > $1.fileID }
 ```
+
+## String Index
+
+```swift
+string[String.Index(encodedOffset: index)]
+```
+
+like what is wrong with you

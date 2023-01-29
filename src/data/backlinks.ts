@@ -270,6 +270,7 @@ export const backlinks = {
     "2022-11-30": {},
     "2023-01-28": {
         "0057 Insert Interval": "Solved at: [[2023-01-28]]",
+        "0067 Add Binary": "Solved at: [[2023-01-28]]",
         "0070 Climbing Stairs": "Solved at: [[2023-01-28]]",
         "0169 Majority Element": "Solved at: [[2023-01-28]]",
         "0206 Reverse Linked List": "Solved at: [[2023-01-28]]",
@@ -300,6 +301,12 @@ export const backlinks = {
     },
     "2016-11-11": {
         "기숙사 생활과 방 배정": "[[2016-11-11]]에 게재된 [[재학생일기]]이다."
+    },
+    "2023-01-29": {
+        "0104 Maximum Depth of Binary Tree": "Solved at: [[2023-01-29]]",
+        "0217 Contains Duplicate": "Solved at: [[2023-01-29]]",
+        "0543 Diameter of Binary Tree": "Solved at: [[2023-01-29]]",
+        "0876 Middle of the Linked List": "Solved at: [[2023-01-29]]"
     },
     "2022-11-05": {},
     "2022-11-15": {},
@@ -591,6 +598,9 @@ export const backlinks = {
         "Computer Systems": "- [[Page Faults]]",
         "Virtual Memory": "- [[Page Faults]]"
     },
+    "0067 Add Binary": {
+        "Coding Tests": "- [x] [[0067 Add Binary]]"
+    },
     "Link (Computer Systems)": {
         "2022-12-08": "- [[Link (Computer Systems)]]",
         "Symbol (Computer Systems)": "When there are strong and weak symbols combined, the [[Link (Computer Systems)|linker]] chooses the strong one."
@@ -680,6 +690,9 @@ export const backlinks = {
         "Logseq": "... privacy-first, open-source knowledge base that works on top of local plain-text [[Markdown]] and Org-mode files. Use it to write, organize and share your ...",
         "Markdown Email Client": "Someday Project. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as a beautiful ...",
         "Toss Product Sans": "- 디자인 플랫폼 팀과 함께 제작한 [[Markdown|마크다운]] 규칙으로 특수 문자를 쓸 수 있도록"
+    },
+    "0104 Maximum Depth of Binary Tree": {
+        "Coding Tests": "- [x] [[0104 Maximum Depth of Binary Tree]]"
     },
     "Alternatives to After Effects": {
         "2023-01-22": "- [[Alternatives to After Effects]]"
@@ -917,6 +930,7 @@ export const backlinks = {
         "2022-11-28": "- [[Coding Tests]]: [[0232 Implement Queue using Stacks]]",
         "2022-12-03": "- [[Coding Tests]]",
         "2023-01-28": "- [[Coding Tests]]",
+        "2023-01-29": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "HQ Proximity": {
@@ -1771,6 +1785,9 @@ export const backlinks = {
         "Curve Fitting for Charts": "## On 2022-10-21, with [[Simple Analytics]]",
         "Google Analytics": "- Alternative: [[Simple Analytics]], [[Plausible Analytics]]"
     },
+    "0876 Middle of the Linked List": {
+        "Coding Tests": "- [x] [[0876 Middle of the Linked List]]"
+    },
     "PKM": {
         "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays ...",
         "2022-07-01": "... realized that the term Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.",
@@ -1816,7 +1833,8 @@ export const backlinks = {
         "Memory Wall": "    - [[Principles of Locality]]"
     },
     "Coding Tests in Swift": {
-        "2023-01-28": "- [[Coding Tests in Swift]]"
+        "2023-01-28": "- [[Coding Tests in Swift]]",
+        "2023-01-29": "- [[Coding Tests in Swift]]"
     },
     "Compiling": {
         "2023-01-25": "- [[Compiling]]",
@@ -2341,6 +2359,9 @@ export const backlinks = {
         "2022-09-05": "- [[0733 Flood Fill]]",
         "Coding Tests": "- [x] [[0733 Flood Fill]]"
     },
+    "0217 Contains Duplicate": {
+        "Coding Tests": "- [x] [[0217 Contains Duplicate]]"
+    },
     "Starlink": {
         "2022-10-19": "- [[Starlink]]"
     },
@@ -2421,7 +2442,8 @@ export const backlinks = {
         "2023-01-25": "## [[Building Habit]]",
         "2023-01-26": "## [[Building Habit]]",
         "2023-01-27": "## [[Building Habit]]",
-        "2023-01-28": "## [[Building Habit]]"
+        "2023-01-28": "## [[Building Habit]]",
+        "2023-01-29": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3039,6 +3061,9 @@ export const backlinks = {
     },
     "Finding out Ghost version with JS": {
         "2022-11-19": "  - [[Finding out Ghost version with JS]]"
+    },
+    "0543 Diameter of Binary Tree": {
+        "Coding Tests": "- [x] [[0543 Diameter of Binary Tree]]"
     },
     "Alan Chan": {
         "Conversation with Alan Chan on 2022-12-27": "Had a conversation with [[Alan Chan]] on [[2022-12-27]]."
@@ -4028,7 +4053,7 @@ export const backlinks = {
         "Rust": "- [[Rewrite it in Rust]]"
     },
     "0079 Word Search": {
-        "Coding Tests": "- [[0079 Word Search]]"
+        "Coding Tests": "- [ ] [[0079 Word Search]]"
     },
     "하늘땅사람 업데이트 기록": {},
     "Virtual Address Space and Physical Address Space": {
@@ -4271,7 +4296,8 @@ export const backlinks = {
         "2023-01-25": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-26": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-27": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-28": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-28": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-29": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "국제 계열과 계열 변경 이야기": {

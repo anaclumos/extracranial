@@ -21,16 +21,6 @@ slug: '/D518B0'
 - [[QuickSelect]] [[TODO]]
 - [[Trie]] [[TODO]]
 
-## Additional
-
-- [[1448 Count Good Nodes in Binary Tree]]
-- [[0002 Add Two Numbers]]
-- [[0199 Binary Tree Right Side View]]
-- [[1046 Last Stone Weight]]
-- [[0215 Kth Largest Element in an Array]] [[TODO]]
-- [[0079 Word Search]]
-- [[1290 Convert Binary Number in a Linked List to Integer]]
-
 ## Stage 1
 
 - [x] [[0001 Two Sum]]
@@ -56,11 +46,11 @@ slug: '/D518B0'
 - [x] [[0409 Longest Palindrome]]
 - [x] [[0206 Reverse Linked List]]
 - [x] [[0169 Majority Element]]
-- [ ] [Add Binary](https://leetcode.com/problems/add-binary)
-- [ ] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)
-- [ ] [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)
-- [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
-- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
+- [x] [[0067 Add Binary]]
+- [x] [[0543 Diameter of Binary Tree]]
+- [x] [[0876 Middle of the Linked List]]
+- [x] [[0104 Maximum Depth of Binary Tree]]
+- [x] [[0217 Contains Duplicate]]
 
 ## Stage 3
 
@@ -129,3 +119,13 @@ slug: '/D518B0'
 - [ ] [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)
 - [ ] [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
 - [ ] [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)
+
+## Additional
+
+- [[1448 Count Good Nodes in Binary Tree]]
+- [[0002 Add Two Numbers]]
+- [[0199 Binary Tree Right Side View]]
+- [[1046 Last Stone Weight]]
+- [[0215 Kth Largest Element in an Array]] [[TODO]]
+- [[0079 Word Search]]
+- [[1290 Convert Binary Number in a Linked List to Integer]]
