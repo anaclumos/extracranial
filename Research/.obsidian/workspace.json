@@ -11,11 +11,30 @@
             "id": "38accb9aabfa58d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-01-29.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ec073a9fe60c692f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/README Badges.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/README Badges.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/README Badges.md"
+              }
             }
           },
           {
@@ -137,7 +159,7 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "38accb9aabfa58d7",
+  "active": "ec073a9fe60c692f",
   "lastOpenFiles": [
     "journals/2023-01-29.md",
     "journals/2023-01-28.md",

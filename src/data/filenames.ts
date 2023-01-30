@@ -776,6 +776,7 @@ export const filenames = {
     "Queueing in Internetworking and Congestions": "32EC91",
     "QuickSelect": "30AD9A",
     "Quoridor Game": "37D058",
+    "README Badges": "4448DA",
     "Rauno": "502A78",
     "Ray.st": "E322F3",
     "React": "18043C",
