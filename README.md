@@ -16,6 +16,7 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is ev
 > **Note**<br/>
 > The Favicon image is Tossface's U+E109 () Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
 
+
 ## Stats
 
 ```
