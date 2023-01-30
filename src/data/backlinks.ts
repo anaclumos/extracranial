@@ -2578,7 +2578,7 @@ export const backlinks = {
     },
     "Shader": {
         "HLSL": "- Used for [[Shader]] Stuffs.",
-        "Transactional Globe": "> How is it created? Time for a WebGL & [[shader]] thread! pic.twitter.com/7SW4vE5tTJ",
+        "Transactional Globe": "> How is it created? Time for a WebGL & [[shader]] thread! pic.twitter.com/7SW4vE5tTJ",
         "WebGPU": "- It has a built-in [[shader]] linker and binding generator, which means a lot of the tedium ..."
     },
     "Search in a Latent Space": {
@@ -2956,7 +2956,7 @@ export const backlinks = {
         "PNG": "> Portable Network Graphics is a raster-[[graphics]] file format that supports lossless data compression. PNG was developed as ...",
         "Preprocessor": "In [[Graphics]], preprocessors are the directives to tell the compiler before turning them ...",
         "SVG": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
-        "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex or ...",
+        "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex ...",
         "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
         "Vertex Buffer": "- [[Graphics]]: How to pass instructions from CPU to GPU.",
         "Web Graphics": "- [[Graphics]] on Web",

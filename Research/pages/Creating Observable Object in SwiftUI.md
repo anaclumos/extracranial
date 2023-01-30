@@ -12,10 +12,10 @@ Creating Observable Object in [[SwiftUI]]
 ```swift
 import Foundation
 class TopAutocomplete: ObservableObject {
-  @Published var list: [String] = []
-  var action: (String) -> Void
-  init(action: @escaping (String) -> Void) {
-    self.action = action
-  }
+  @Published var list: [String] = []
+  var action: (String) -> Void
+  init(action: @escaping (String) -> Void) {
+    self.action = action
+  }
 }
 ```
