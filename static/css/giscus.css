@@ -7,15 +7,10 @@
 @import url('../fonts/JetbrainsMono/jetbrainsmono.css');
 @import url('../fonts/Line/Seed.css');
 
-@font-face {
-  font-family: 'SF NS Rounded';
-  src: url('https://v-fonts.com/assets/fonts/SFNSRounded.woff2') format('woff2');
-}
-
 * {
   --font-family-sans-serif: 'Line Seed', ui-rounded, 'SF Pro Rounded', 'Rubik', ui-sans-serif, -apple-system,
-    BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Apple Color Emoji', Segoe UI Emoji, Pretendard, system-ui, -system-ui,
-    sans-serif;
+    BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Toss Face Font Mac', 'Tossface', 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Pretendard', system-ui, -system-ui, sans-serif;
   --font-family-monospace: ui-monospace, 'SF Mono', SFMono-Regular, 'Jetbrains Mono', Menlo, Consolas, monospace;
   word-wrap: break-word;
   word-break: keep-all;
