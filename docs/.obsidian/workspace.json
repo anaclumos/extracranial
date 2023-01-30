@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "2993533c7e40d307",
+    "type": "split",
+    "children": [
+      {
+        "id": "32289165fba2669c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2c5916bd50e060d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7403db17d0484814",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc96f4531524c994",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa73c60d583d3db3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b9b3d1724f39de07",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8a1cbdbe60bd7d71",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1bb7f4a449135cb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c29e4577df9a66b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d8fcfa116cdddff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "59bace770cf9ea54",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "349901b993d3fba4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5de072701500b87e",
+            "type": "leaf",
+            "state": {
+              "type": "Review Daily Notes",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 415.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "b2c5916bd50e060d",
+  "lastOpenFiles": [
+    "pages/README Badges.md",
+    "journals/2023-01-29.md",
+    "journals/2023-01-28.md",
+    "pages/0067 Add Binary.md",
+    "pages/0206 Reverse Linked List.md",
+    "pages/0409 Longest Palindrome.md",
+    "pages/0876 Middle of the Linked List.md",
+    "pages/Coding Tests.md",
+    "journals/2023-01-27.md",
+    "pages/0217 Contains Duplicate.md"
+  ]
+}

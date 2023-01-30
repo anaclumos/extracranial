@@ -1,0 +1,20 @@
+---
+lang: 'en'
+slug: '/13E435'
+---
+
+- [The Architecture of Mastodon](./../.././docs/pages/The%20Architecture%20of%20Mastodon.md)
+
+> Mastodon is a **free, open-source social network server** based on [ActivityPub](./../.././docs/pages/ActivityPub.md) where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements [ActivityPub](./../.././docs/pages/ActivityPub.md))! [mastodon/mastodon: Your self-hosted, globally interconnected microblogging community](https://github.com/mastodon/mastodon)
+
+> Mastodon is free and open-source software for running self-hosted social networking services. It has microblogging features similar to the Twitter service, which are offered by a large number of independently run Mastodon nodes (technically known as instances), each with its own code of conduct, terms of service, privacy options, and moderation policies. [Mastodon (software)](<https://en.wikipedia.org/wiki/Mastodon_(software)>)
+
+> Every Mastodon explanation is like "It's very simple, your account is part of a kerflunk, and each kerflunk can talk to each other as part of a bumblurt. At the moment everyone you flurgle can see your bloops but only people IN your kerflunk can quark your nerps. Kinda like email." https://mas.to/@Ciaraioch@mastodon.ie/109287825141624121
+
+### [Medium embraces Mastodon. The fediverse is a breath of fresh air… | by Tony Stubblebine | Jan, 2023 | 3 Min Read](https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11)
+
+- Today, Medium is launching a Mastodon instance at [me.dm](https://me.dm) to help our authors, publications, and readers find a home in the fediverse. Mastodon is an emerging force for good in social media, and we are excited to join this community.
+
+<head>
+  <html lang="en-US"/>
+</head>
