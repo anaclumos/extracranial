@@ -3861,6 +3861,9 @@ export const backlinks = {
         "2022-12-06": "- Reimagining Emails: [[React Email]], [[AMP]], [[AMP Email]], [[Spellbound]]",
         "Reimagining Emails": "- [[React Email]]"
     },
+    "Amie": {
+        "2023-01-30": "Also got invited to [[Amie]]"
+    },
     "binary search": {
         "0704 Binary Search": "- [[binary search]]",
         "2022-09-05": "- [[binary search]]",
@@ -4374,6 +4377,10 @@ export const backlinks = {
         "2023-01-30": "![[144EF0.png]]",
         "Tana": "![[144EF0.png]]",
         "Text-based Tools for Thought": "![[144EF0.png]]"
+    },
+    "3E4C69.png": {
+        "2023-01-30": "![[3E4C69.png]]",
+        "Amie": "![[3E4C69.png]]"
     },
     "2022년 11월 한 달간 일기 쓰기": {
         "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",

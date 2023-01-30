@@ -303,9 +303,8 @@ let fontWeight: UIAccessibility.isBoldTextEnabled ? .bold : .regular
 
 <DisplayFlex>
 
-![Bold Text Enabled](68C6BB.png)
-
-![Bold Text Disabled](F93D1B.png)
+![Bold Text Enabled](F93D1B.png)
+![Bold Text Disabled](68C6BB.png)
 
 </DisplayFlex>
 
