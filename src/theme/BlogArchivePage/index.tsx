@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useId } from 'react'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
@@ -43,7 +43,7 @@ function Year({ year, posts }: YearProp) {
       <ul className={styles.list}>
         {posts.map((post) => (
           <Link to={post.metadata.permalink}>
-            <li key={post.metadata.date}>
+            <li key={useId()}>
               <Balancer>{post.metadata.title}</Balancer>
             </li>
           </Link>

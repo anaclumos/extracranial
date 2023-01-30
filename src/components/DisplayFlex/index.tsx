@@ -6,7 +6,11 @@ type Props = {
 }
 
 const DisplayFlex = (props: Props) => {
-  return <div className={styles.displayFlex}>{props.children}</div>
+  return (
+    <figure>
+      <div className={styles.displayFlex}>{props.children}</div>
+    </figure>
+  )
 }
 
 export default DisplayFlex

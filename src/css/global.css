@@ -25,7 +25,7 @@ h4 {
 pre,
 code {
   overflow-x: scroll;
-  max-width: calc(100dvw - 2.4 * var(--ifm-spacing-horizontal));
+  max-width: calc(100dvw - 2 * var(--ifm-spacing-horizontal));
   margin: 0 auto;
 }
 
@@ -35,6 +35,7 @@ code {
   --padding: 1rem;
   --border-radius: 0.5rem;
   --ifm-container-width-xxl: 1600px;
+  max-width: 100dvw;
 }
 
 [data-theme='dark'] * {
