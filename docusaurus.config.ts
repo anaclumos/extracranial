@@ -15,8 +15,6 @@ const config: Config = {
   titleDelimiter: '@',
   url: 'https://cho.sh',
   baseUrl: '/',
-  trailingSlash: false,
-  deploymentBranch: 'github-pages',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon.svg',
