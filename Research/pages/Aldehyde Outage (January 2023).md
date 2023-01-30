@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/AB70E4'
 ---
 
-It seems like multiple issues are combined.
+Multiple issues are combined.
 
 ## Docusaurus 2.3.0 `useSyncExternalStore` Bug
 
@@ -29,7 +29,7 @@ Error: Command "yarn run build" exited with 129
 
 Why..? I changed no config
 
-![[C2FCEA.png]]
+![[123AA1.png]]
 
 ## [[2023-01-29]]
 
@@ -43,9 +43,9 @@ Did not help.
 
 OH FIGURED IT OUT.
 It was because of insufficient RAM.
-When Docusaurus seals the assets (at the end of the build cycle), the RAM usage spikes to ~4.5 GB. 
+When Docusaurus seals the assets (at the end of the build cycle), the RAM usage spikes to ~4.5 GB.
 
-![[CA1959.png]]
+![[8FBB85.png]]
 
 Configuring Cloudflare Pages and Vercel with the following argument fixed the problem!
 
@@ -54,3 +54,8 @@ Configuring Cloudflare Pages and Vercel with the following argument fixed the pr
 ```
 
 — Nope. Did not solve the problem.
+
+![[695A13.png]]
+
+So I ended up using Cloudflare Wrangler to build on my device and then sending the build result to Cloudflare. Anyways, the issue seems to be resolved.
+Cloudflare. Anyways, the issue seems to be resolved.

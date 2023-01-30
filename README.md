@@ -1,6 +1,6 @@
 # [extracranial](https://cho.sh)
 
-[![GitHub deployments](https://img.shields.io/github/deployments/anaclumos/extracranial/production?color=%23F38020&label=Cloudflare+Pages&logo=Cloudflare+Pages&logoColor=white&style=flat)](https://dash.cloudflare.com/b3fd9c9d6ad1bc778e56659fccb63f7f/pages/view/extracranial)
+[![Cloudflare Pages](https://img.shields.io/website?down_color=lightgray&down_message=offline&label=Cloudflare%20Pages&logo=Cloudflare%20Pages&logoColor=white&up_color=%23F38020&up_message=online&url=https%3A%2F%2Fcho.sh)](https://dash.cloudflare.com/b3fd9c9d6ad1bc778e56659fccb63f7f/pages/view/extracranial)
 [![](https://img.shields.io/badge/dynamic/json?color=%23FF4F64&logoColor=white&label=Pageviews&&logo=simple%20analytics&&style=flat&query=pageviews&url=https%3A%2F%2Fsimpleanalytics.com%2Fcho.sh.json%3Fversion%3D5%26fields%3Dpageviews%26timezone%3DAmerica%2FLos_Angeles%26start%3D2020-01-01%26end%3Dyesterday%26info%3Dfalse)](https://simpleanalytics.com/cho.sh)
 
 > [ek-strə-'krā-nē-əl] situated or occurring outside the cerebral enclosure.
@@ -22,25 +22,26 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1095     32038     7924         0    24114          0
+Markdown                  1096     32061     7932         0    24129          0
 CSS                         68     20070      173        36    19861          0
-TypeScript                  50      9002      145        50     8807        142
-JSON                        42      2152        0         0     2152          0
+TypeScript                  51      9036      147        67     8822        142
+JSON                        42      2144        0         0     2144          0
 Python                       7       552       50        38      464         77
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
 JavaScript                   5     26577      388      4877    21312        837
 Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
+TOML                         1         3        0         0        3          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1285     90822     8773      5075    76974       1056
+Total                     1288     90874     8783      5092    76999       1056
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,583,786
+Estimated Cost to Develop (organic) $2,584,667
 Estimated Schedule Effort (organic) 19.73 months
 Estimated People Required (organic) 11.64
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6230426 bytes, 6.230 megabytes (SI)
+Processed 6232312 bytes, 6.232 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
