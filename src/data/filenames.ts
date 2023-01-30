@@ -284,6 +284,7 @@ export const filenames = {
     "Almost Monospaced": "EC5D52",
     "Alternatives to After Effects": "3E9BCC",
     "Amdahl Law": "ABF01D",
+    "Amie": "851500",
     "Ancestors of C": "88030C",
     "Android": "061F3C",
     "Android equivalent of div": "172E82",
