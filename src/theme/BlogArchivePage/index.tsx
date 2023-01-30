@@ -59,7 +59,7 @@ function YearsSection({ years }: { years: YearProp[] }) {
       <div className={clsx('container', styles.container)}>
         <div className="row">
           {years.reverse().map((_props, idx) => (
-            <div key={idx} className="col col--4 margin-vert--md">
+            <div key={useId()} className="col col--4 margin-vert--md">
               <Year {..._props} />
             </div>
           ))}
