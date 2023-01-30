@@ -29,7 +29,7 @@ Error: Command "yarn run build" exited with 129
 
 Why..? I changed no config
 
-![[761432.png]]
+![[C2FCEA.png]]
 
 ## [[2023-01-29]]
 
@@ -40,3 +40,15 @@ Investigating RAM Options. Supported a ticket to [[Cloudflare]]
 ```
 
 Did not help.
+
+OH FIGURED IT OUT.
+It was because of insufficient RAM.
+When Docusaurus seals the assets (at the end of the build cycle) the RAM usage spikes to ~4.5 GB. 
+
+![[CA1959.png]]
+
+Configuring Cloudflare Pages and Vercel with the following argument fixed the problem!
+
+```
+--max-old-space-size=8192
+```
