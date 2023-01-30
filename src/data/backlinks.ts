@@ -1763,6 +1763,9 @@ export const backlinks = {
         "2022-11-11": "- Applied [[Squircle]]",
         "Dynamic Island on the Web": "- Applied [[Squircle]]"
     },
+    "README Badges": {
+        "2023-01-29": "- [[README Badges]]"
+    },
     "3d Globe on the Web": {
         "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization | LeoLabs",
         "Web Graphics": "- [[3d Globe on the Web]]"
