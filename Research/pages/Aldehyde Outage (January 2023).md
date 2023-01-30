@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/AB70E4'
 ---
 
-It seems like multiple issues are combined
+It seems like multiple issues are combined.
 
 ## Docusaurus 2.3.0 `useSyncExternalStore` Bug
 
@@ -27,10 +27,16 @@ On Vercel's Side:
 Error: Command "yarn run build" exited with 129
 ```
 
-Why..? I literally changed no config
+Why..? I changed no config
 
 ![[761432.png]]
 
 ## [[2023-01-29]]
 
 Investigating RAM Options. Supported a ticket to [[Cloudflare]]
+
+```
+--max-old-space-size=4096
+```
+
+Did not help.
