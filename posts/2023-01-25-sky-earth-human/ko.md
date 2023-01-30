@@ -346,7 +346,7 @@ struct DeleteButton: View {
 
 <figcaption>
 
-Combine 설명을 위해 간소화된 코드이다. [HangulView.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/HangulView.swift)
+설명을 위해 간소화된 코드이다. [HangulView.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/HangulView.swift)
 
 </figcaption>
 
@@ -393,7 +393,7 @@ let fontWeight: UIAccessibility.isBoldTextEnabled ? .bold : .regular
 
 </figure>
 
-마지막으로 앱 아이콘을 생성하기 위해 Midjourney라는 그림 AI를 사용했다.
+앱 아이콘을 생성하기 위해 Midjourney라는 그림 AI를 사용했다.
 요즘에는 이런 것을 프롬프트 엔지니어링이라고 하던데 그냥 다양한 키워드들로 그림을 그리는 것이 즐거웠다.
 
 ## ☁️ Xcode Cloud를 이용한 CI/CD 연결
