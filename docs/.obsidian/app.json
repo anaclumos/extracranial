@@ -1,0 +1,18 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": false,
+  "promptDelete": false,
+  "spellcheck": true,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "attachmentFolderPath": "assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "pages",
+  "tabSize": 4,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true
+}
