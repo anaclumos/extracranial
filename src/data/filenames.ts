@@ -888,6 +888,7 @@ export const filenames = {
     "Tailscale": "C7F303",
     "Tailwind": "A331BF",
     "Tailwind CSS 톺아보기": "4B15E0",
+    "Tana": "1996A4",
     "Technocapital and Biocapital": "D59EC7",
     "Techs Actually Simple": "1E19E0",
     "Tesla Release Models": "C85882",

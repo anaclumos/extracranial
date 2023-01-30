@@ -3,7 +3,7 @@
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "types": ["@cloudflare/workers-types", "node"]
+    "types": ["node", "@docusaurus/module-type-aliases", "@docusaurus/theme-classic"]
   },
   "exclude": ["node_modules", "build"]
 }

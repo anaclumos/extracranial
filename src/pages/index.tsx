@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'

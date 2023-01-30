@@ -1242,6 +1242,10 @@ export const backlinks = {
     "Is DevOps Overrated": {
         "2022-10-20": "- [[Is DevOps Overrated]]"
     },
+    "Tana": {
+        "2023-01-30": "Got invited to [[Tana]].",
+        "Text-based Tools for Thought": "### [[Tana]]"
+    },
     "Cookie": {
         "Internetworking": "- [[Cookie]]"
     },
@@ -3569,6 +3573,7 @@ export const backlinks = {
         "AMP Email": "... within the email. The AMP email format provides a subset of [[AMP]] [[HTML]] components for use in email messages, allowing recipients of AMP ..."
     },
     "Text-based Tools for Thought": {
+        "Tana": "[[Text-based Tools for Thought]].",
         "Thesephist Work Case Study": "### Notation: [[Text-based Tools for Thought]] that automatically links",
         "Tools for Thought": "- [[Text-based Tools for Thought]]: the basic type of tools for thought."
     },
@@ -4364,6 +4369,11 @@ export const backlinks = {
         "2022-10-12": "![[418938.jpeg]]",
         "Better Hacker News": "![[418938.jpeg]]",
         "Handwriting Tools for Thoughts": "![[418938.jpeg]]"
+    },
+    "144EF0.png": {
+        "2023-01-30": "![[144EF0.png]]",
+        "Tana": "![[144EF0.png]]",
+        "Text-based Tools for Thought": "![[144EF0.png]]"
     },
     "2022년 11월 한 달간 일기 쓰기": {
         "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
