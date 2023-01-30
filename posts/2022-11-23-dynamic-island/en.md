@@ -18,16 +18,16 @@ style={{
 position: 'sticky',
 top: '4rem',
 zIndex: 100,
-margin: '0 -16px',
-width: 'calc(100% + 32px)',
+width: 'calc(100%+2rem)',
+margin: '0 -1rem'
 }}
 >
 
 <IframeResizer
-id='dynamic-island'
+id="dynamic-island"
 style={{
-margin: '0 -1rem',
-width: 'calc(100% + 2rem)',
+width: '100%',
+margin: '0 auto'
 }}
 src='https://dynamic-island.cho.sh/embed-player'
 />
@@ -207,16 +207,16 @@ Finished on [Oct 20th, 2022](/r/2022-10-20).
 
 <figure
 style={{
-margin: '0 -16px',
-width: 'calc(100% + 32px)',
+width: 'calc(100%+2rem)',
+margin: '0 -1rem'
 }}
 >
 
 <IframeResizer
 id="dynamic-island-phone-call"
 style={{
-margin: '0 -16px',
-width: 'calc(100% + 32px)',
+width: '100%',
+margin: '0 auto'
 }}
 src="https://dynamic-island.cho.sh/embed-phone-call"
 />

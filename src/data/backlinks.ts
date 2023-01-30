@@ -28,7 +28,9 @@ export const backlinks = {
     "2022-10-12": {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Update on [[2022-10-12]]"
     },
-    "2023-01-30": {},
+    "2023-01-30": {
+        "0542 01 Matrix": "Solved at: [[2023-01-30]]"
+    },
     "2022-11-28": {
         "0232 Implement Queue using Stacks": "Solved at: [[2022-11-28]]"
     },
@@ -933,6 +935,7 @@ export const backlinks = {
         "2022-12-03": "- [[Coding Tests]]",
         "2023-01-28": "- [[Coding Tests]]",
         "2023-01-29": "- [[Coding Tests]]",
+        "2023-01-30": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "HQ Proximity": {
@@ -3700,6 +3703,9 @@ export const backlinks = {
         "ULLO": "- [[Proof of Concept|PoC]] of [[SwiftUI]] Photo Widget App",
         "하늘땅사람 개발 기록": "다음과 같이 기술 [[Proof of Concept|개념 증명]] 완료."
     },
+    "0542 01 Matrix": {
+        "Coding Tests": "- [x] [[0542 01 Matrix]]"
+    },
     "Transactional Globe": {
         "2022-10-10": "- [[Transactional Globe]]",
         "2022-10-24": "- [[Transactional Globe]]",
@@ -5361,7 +5367,8 @@ export const backlinks = {
         "Letter to Mr. Stephan Ango on 2022-10-19": "![[4BE5E2.png]]"
     },
     "Int": {
-        "0057 Insert Interval": "    func insert( intervals: [[Int]],  newInterval: [Int]) -> Int {"
+        "0057 Insert Interval": "    func insert( intervals: [[Int]],  newInterval: [Int]) -> Int {",
+        "0542 01 Matrix": "    func updateMatrix( matrix: [[Int]]) -> Int {"
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
