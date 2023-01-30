@@ -7,7 +7,7 @@
 > [ek-strə-'krā-nē-əl] situated or occurring outside the cerebral enclosure.
 > 의학, 두개(頭蓋) 밖의.
 
-Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is everything I know!
+Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is everything I know!
 [Dive down the rabbit hole now](https://cho.sh/random)!
 
 제 개인용 위키백과 (디지털 정원 & 두번째 뇌) 에 오신 것을 환영합니다!

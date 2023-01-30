@@ -7,7 +7,7 @@
 > [ek-strə-'krā-nē-əl] situated or occurring outside the cerebral enclosure.
 > 의학, 두개(頭蓋) 밖의.
 
-Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain.) This is everything I know!
+Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is everything I know!
 [Dive down the rabbit hole now](https://cho.sh/random)!
 
 제 개인용 위키백과 (디지털 정원 & 두번째 뇌) 에 오신 것을 환영합니다!
@@ -27,7 +27,7 @@ Markdown                  1094     31570     7784         0    23786          0
 CSS                         67     20062      173        32    19857          0
 TypeScript                  50      8991      145        50     8796        142
 JSON                        42      2141        0         0     2141          0
-Python                       7       550       50        38      462         76
+Python                       7       552       50        38      464         77
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
 JavaScript                   5     26577      388      4877    21312        837
@@ -35,13 +35,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1283     90322     8633      5071    76618       1055
+Total                     1283     90324     8633      5071    76620       1056
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,571,240
+Estimated Cost to Develop (organic) $2,571,310
 Estimated Schedule Effort (organic) 19.69 months
 Estimated People Required (organic) 11.60
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6210592 bytes, 6.211 megabytes (SI)
+Processed 6210342 bytes, 6.210 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

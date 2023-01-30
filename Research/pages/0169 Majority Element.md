@@ -9,9 +9,9 @@ Solved at: [[2023-01-28]]
 
 ## Question
 
-Given an array `nums` of size `n`, return *the majority element*.
+Given an array `nums` of size `n`, return _the majority element_.
 
-The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.
+The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.
 
 ## Solution
 

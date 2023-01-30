@@ -8,7 +8,7 @@ Solved at: [[2023-01-28]]
 
 ## Question
 
-Given two binary strings `a` and `b`, return *their sum as a binary string*.
+Given two binary strings `a` and `b`, return _their sum as a binary string_.
 
 ## Solution
 

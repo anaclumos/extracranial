@@ -9,9 +9,9 @@ Solved at: [[2023-01-28]]
 
 ## Question
 
-Given two strings `ransomNote` and `magazine`, return `true` *if* `ransomNote` *can be constructed by using the letters from* `magazine` *and* `false` *otherwise*.
+Given two strings `ransomNote` and `magazine`, return `true` _if_ `ransomNote` _can be constructed by using the letters from_ `magazine` _and_ `false` _otherwise_.
 
-Each letter in `magazine` can only be used once in `ransomNote`.
+Each letter in `magazine` can only be used once in `ransomNote`.
 
 ## Solution
 
