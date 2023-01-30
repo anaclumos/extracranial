@@ -58,4 +58,3 @@ Configuring Cloudflare Pages and Vercel with the following argument fixed the pr
 ![[695A13.png]]
 
 So I ended up using Cloudflare Wrangler to build on my device and then sending the build result to Cloudflare. Anyways, the issue seems to be resolved.
-Cloudflare. Anyways, the issue seems to be resolved.
