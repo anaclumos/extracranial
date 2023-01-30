@@ -87,6 +87,13 @@ figure {
   border-radius: 0.5rem;
   overflow: hidden;
   margin: 0.2rem auto;
+  max-width: 100dvw;
+}
+
+iframe {
+  max-width: 100dvw;
+  margin: 0 auto;
+  border-radius: 0.5rem;
 }
 
 img {
