@@ -8,7 +8,7 @@ Solved at: [[2023-01-28]]
 
 ## Question
 
-Given the `head` of a singly linked list, reverse the list, and return *the reversed list*.
+Given the `head` of a singly linked list, reverse the list, and return _the reversed list_.
 
 ## Solution
 

@@ -9,9 +9,9 @@ Solved at: [[2023-01-29]]
 
 [Maximum Depth of Binary Tree - LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
-Given the `root` of a binary tree, return *its maximum depth*.
+Given the `root` of a binary tree, return _its maximum depth_.
 
-A binary tree's **maximum depth** is the number of nodes along the longest path from the root node down to the farthest leaf node.
+A binary tree's **maximum depth** is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
 ## Solution
 

@@ -33,5 +33,7 @@ if __name__ == "__main__":
                 if "{{hex}}" in line:
                     line = line.replace("{{hex}}", "/" + getHex())
                     COUNTER += 1
+                if " " in line:
+                    line = line.replace(" ", " ")
                 f.write(line)
     print("Replaced " + str(COUNTER) + " hex marks.")

@@ -11,7 +11,7 @@ Solved at: [[2023-01-29]]
 
 ## Solution
 
-```
+```swift
 class Solution {
     func middleNode(_ head: ListNode?) -> ListNode? {
         print("start")
