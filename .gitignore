@@ -1,6 +1,9 @@
 *.config.js
 *.js.map
 *.stylesheet.js
+blog
+docs
+i18n/ko/docusaurus-plugin-content-blog/*/*
 *.pyc
 
 # Dependencies
