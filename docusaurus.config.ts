@@ -17,7 +17,7 @@ const config: Config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '/img/favicon.svg',
+  favicon: 'img/favicon.svg',
   organizationName: 'anaclumos',
   projectName: 'extracranial',
   i18n: i18n,
