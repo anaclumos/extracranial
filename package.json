@@ -7,7 +7,7 @@
     "start": "$npm_execpath run preprocess && docusaurus start",
     "build": "$npm_execpath run preprocess && docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "$npm_execpath run preprocess && docusaurus deploy",
+    "deploy": "$npm_execpath run build && npx wrangler pages publish ./build --commit-dirty=true",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear && rm -rf 'blog' && rm -rf 'docs' && rm -f '**/*.config.js' && rm -f '**/*.config.js.map' && rm -rf 'i18n /**/*.md' && cp tools/안녕하세요.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n /**/*.png' && rm -rf 'i18n /**/*.svg' && rm -rf 'i18n /**/*.jpg' && rm -rf 'i18n /**/*.jpeg'",
     "clean": "$npm_execpath run clear",
@@ -57,6 +57,7 @@
     "webpack": "^5.75.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230115.0",
     "@docusaurus/module-type-aliases": "^2.3.0",
     "@tsconfig/docusaurus": "^1.0.6",
     "@types/node": "^18.11.18",
@@ -73,7 +74,8 @@
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.3",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "wrangler": "2.8.1"
   },
   "browserslist": {
     "production": [
