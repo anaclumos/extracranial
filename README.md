@@ -1,6 +1,6 @@
-# [Extracranial](https://cho.sh)
+# [Project Extracranial](https://cho.sh)
 
-[![GitHub deployments](https://img.shields.io/github/deployments/anaclumos/extracranial/production?color=%23000000&label=Vercel&logo=Vercel&logoColor=white&style=flat)](https://vercel.com/anaclumos/extracranial)
+[![GitHub deployments](https://img.shields.io/github/deployments/anaclumos/extracranial/production?color=%23F38020&label=Cloudflare+Pages&logo=Cloudflare+Pages&logoColor=white&style=flat)](https://dash.cloudflare.com/b3fd9c9d6ad1bc778e56659fccb63f7f/pages/view/extracranial)
 [![](https://img.shields.io/badge/dynamic/json?color=%23FF4F64&logoColor=white&label=Pageviews&&logo=simple%20analytics&&style=flat&query=pageviews&url=https%3A%2F%2Fsimpleanalytics.com%2Fcho.sh.json%3Fversion%3D5%26fields%3Dpageviews%26timezone%3DAmerica%2FLos_Angeles%26start%3D2020-01-01%26end%3Dyesterday%26info%3Dfalse)](https://simpleanalytics.com/cho.sh)
 
 > [ek-strə-'krā-nē-əl] situated or occurring outside the cerebral enclosure.
@@ -22,8 +22,8 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1095     31579     7787         0    23792          0
-CSS                         67     20062      173        32    19857          0
+Markdown                  1095     32004     7911         0    24093          0
+CSS                         67     20058      172        32    19854          0
 TypeScript                  50      8993      145        50     8798        142
 JSON                        42      2149        0         0     2149          0
 Python                       7       552       50        38      464         77
@@ -34,13 +34,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1284     90343     8636      5071    76636       1056
+Total                     1284     90764     8759      5071    76934       1056
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,571,874
-Estimated Schedule Effort (organic) 19.69 months
-Estimated People Required (organic) 11.60
+Estimated Cost to Develop (organic) $2,582,376
+Estimated Schedule Effort (organic) 19.72 months
+Estimated People Required (organic) 11.63
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6211006 bytes, 6.211 megabytes (SI)
+Processed 6231697 bytes, 6.232 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
