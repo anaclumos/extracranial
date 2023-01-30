@@ -306,7 +306,8 @@ export const backlinks = {
         "0104 Maximum Depth of Binary Tree": "Solved at: [[2023-01-29]]",
         "0217 Contains Duplicate": "Solved at: [[2023-01-29]]",
         "0543 Diameter of Binary Tree": "Solved at: [[2023-01-29]]",
-        "0876 Middle of the Linked List": "Solved at: [[2023-01-29]]"
+        "0876 Middle of the Linked List": "Solved at: [[2023-01-29]]",
+        "Aldehyde Outage (January 2023)": "## [[2023-01-29]]"
     },
     "2022-11-05": {},
     "2022-11-15": {},
@@ -3464,6 +3465,7 @@ export const backlinks = {
     "Cloudflare": {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open ...",
         "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded that [[Vercel]] is better.",
+        "Aldehyde Outage (January 2023)": "Investigating RAM Options. Supported a ticket to [[Cloudflare]]",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
         "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions"
     },
@@ -3662,7 +3664,8 @@ export const backlinks = {
         "Captivating Products": "Making [[Supergravity Products]] and making them [[Fiercely Overpriced]] are two ways of measuring the ..."
     },
     "Aldehyde Outage (January 2023)": {
-        "2023-01-27": "- [[Aldehyde Outage (January 2023)]]"
+        "2023-01-27": "- [[Aldehyde Outage (January 2023)]]",
+        "2023-01-29": "- [[Aldehyde Outage (January 2023)]]"
     },
     "Sudo with Touch ID": {
         "2022-11-30": "- Lesser Known Tricks: [[Sudo with Touch ID]]",
