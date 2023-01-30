@@ -28,6 +28,7 @@ export const backlinks = {
     "2022-10-12": {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Update on [[2022-10-12]]"
     },
+    "2023-01-30": {},
     "2022-11-28": {
         "0232 Implement Queue using Stacks": "Solved at: [[2022-11-28]]"
     },
@@ -2447,7 +2448,8 @@ export const backlinks = {
         "2023-01-26": "## [[Building Habit]]",
         "2023-01-27": "## [[Building Habit]]",
         "2023-01-28": "## [[Building Habit]]",
-        "2023-01-29": "## [[Building Habit]]"
+        "2023-01-29": "## [[Building Habit]]",
+        "2023-01-30": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3665,7 +3667,8 @@ export const backlinks = {
     },
     "Aldehyde Outage (January 2023)": {
         "2023-01-27": "- [[Aldehyde Outage (January 2023)]]",
-        "2023-01-29": "- [[Aldehyde Outage (January 2023)]]"
+        "2023-01-29": "- [[Aldehyde Outage (January 2023)]]",
+        "2023-01-30": "- [[Aldehyde Outage (January 2023)]]"
     },
     "Sudo with Touch ID": {
         "2022-11-30": "- Lesser Known Tricks: [[Sudo with Touch ID]]",
@@ -4304,6 +4307,7 @@ export const backlinks = {
         "2023-01-27": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-28": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "2023-01-29": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
+        "2023-01-30": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
         "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
     },
     "국제 계열과 계열 변경 이야기": {
@@ -5607,11 +5611,14 @@ export const backlinks = {
     "717AC9.png": {
         "designOS": "![[717AC9.png]]"
     },
-    "C2FCEA.png": {
-        "Aldehyde Outage (January 2023)": "![[C2FCEA.png]]"
+    "123AA1.png": {
+        "Aldehyde Outage (January 2023)": "![[123AA1.png]]"
     },
-    "CA1959.png": {
-        "Aldehyde Outage (January 2023)": "![[CA1959.png]]"
+    "8FBB85.png": {
+        "Aldehyde Outage (January 2023)": "![[8FBB85.png]]"
+    },
+    "695A13.png": {
+        "Aldehyde Outage (January 2023)": "![[695A13.png]]"
     },
     "97E77D.png": {
         "Sudo with Touch ID": "![[97E77D.png]]"
