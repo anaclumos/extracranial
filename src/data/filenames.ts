@@ -25,6 +25,7 @@ export const filenames = {
     "0278 First Bad Version": "E61CEF",
     "0383 Ransom Note": "99EDAB",
     "0409 Longest Palindrome": "2CCD0C",
+    "0542 01 Matrix": "55CB82",
     "0543 Diameter of Binary Tree": "7FEEF7",
     "0704 Binary Search": "3A1093",
     "0733 Flood Fill": "18ED1C",

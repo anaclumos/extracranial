@@ -55,7 +55,7 @@ slug: '/D518B0'
 ## Stage 3
 
 - [x] [[0057 Insert Interval]]
-- [ ] [01 Matrix](https://leetcode.com/problems/01-matrix)
+- [x] [[0542 01 Matrix]]
 - [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)
 - [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 - [ ] [3Sum](https://leetcode.com/problems/3sum)
