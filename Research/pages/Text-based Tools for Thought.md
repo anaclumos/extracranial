@@ -49,6 +49,10 @@ slug: '/671680'
 
 ![[A8B32B.png]]
 
+### [[Tana]]
+
+![[144EF0.png]]
+
 ## Outliner
 
 ### [[Roam Research]]
