@@ -16,17 +16,16 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is ev
 > **Note**<br/>
 > The Favicon image is Tossface's U+E109 () Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
 
-
 ## Stats
 
 ```
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1095     32036     7923         0    24113          0
+Markdown                  1095     32038     7924         0    24114          0
 CSS                         68     20070      173        36    19861          0
 TypeScript                  50      9002      145        50     8807        142
-JSON                        42      2166        0         0     2166          0
+JSON                        42      2152        0         0     2152          0
 Python                       7       552       50        38      464         77
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -35,13 +34,13 @@ Plain Text                   2        97       18         0       79          0
 TypeScript Typings           2         6        0         4        2          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1285     90834     8772      5075    76987       1056
+Total                     1285     90822     8773      5075    76974       1056
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,584,244
+Estimated Cost to Develop (organic) $2,583,786
 Estimated Schedule Effort (organic) 19.73 months
 Estimated People Required (organic) 11.64
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6230759 bytes, 6.231 megabytes (SI)
+Processed 6230426 bytes, 6.230 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
