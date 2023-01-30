@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "$npm_execpath run preprocess && docusaurus start",
-    "build": "docusaurus build",
+    "build": "$npm_execpath run swc && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "$npm_execpath run preprocess && docusaurus deploy",
     "serve": "docusaurus serve",
