@@ -22,7 +22,8 @@ export const backlinks = {
         "0003 Longest Substring Without Repeating Characters": "Solved at: [[2023-01-30]]",
         "0015 3Sum": "Solved at: [[2023-01-30]]",
         "0542 01 Matrix": "Solved at: [[2023-01-30]]",
-        "0973 K Closest Points to Origin": "Solved at: [[2023-01-30]]"
+        "0973 K Closest Points to Origin": "Solved at: [[2023-01-30]]",
+        "2023\u1102\u1167\u11ab 1\u110b\u116f\u11af\u1100\u116a 2\u110b\u116f\u11af\u110b\u1166 \u1112\u1161\u1105\u116e 25\u1107\u116e\u11ab \u110c\u1169\u1100\u1175\u11bc\u1112\u1161\u1100\u1175": "- [[2023-01-30]]: 2\ucc28 \uba74\uc811 \uc900\ube44\ud558\ub290\ub77c \ud558\uc9c0 \ubabb\ud588\ub2e4"
     },
     "2022-11-28": {
         "0232 Implement Queue using Stacks": "Solved at: [[2022-11-28]]"
@@ -407,6 +408,9 @@ export const backlinks = {
         "2022-11-24": "- [[The Library of Babel]]",
         "Information amongst Data": "[[The Library of Babel]] holds all data.",
         "The Photo Library of Babel": "[[The Library of Babel]]"
+    },
+    "Texts": {
+        "2023-01-31": "Got Invited to [[Texts]]"
     },
     "Emails and Decentralized Protocols": {
         "2022-09-05": "- [[Emails and Decentralized Protocols]]",
@@ -829,6 +833,9 @@ export const backlinks = {
         "GA": "- [[Google Analytics]]",
         "Simple Analytics": "> The privacy-first [[Google Analytics]] alternative. Simple Analytics",
         "YCLF \u110c\u116e\u1100\u1161\u11ab \u1109\u1161\u110b\u116d\u11bc\u110c\u1161 1000\u1106\u1167\u11bc": "[[Google Analytics]] Referrals \ucd94\uc801 \uae30\ub2a5\uc744 \ud1b5\ud574 \uc5b4\ub290 \ub9c1\ud06c\ub97c \ud0c0\uace0 \ub4e4\uc5b4\uc624\ub294\uc9c0 \ud30c\uc545\uc774 \uac00\ub2a5\ud588\ub2e4. \ub313\uae00\ub85c ..."
+    },
+    "Aldehyde Landing Page 2023": {
+        "2023-01-31": "- [[Aldehyde Landing Page 2023]]"
     },
     "Displaying exact datetimes on Ghost": {
         "2022-11-19": "  - [[Displaying exact datetimes on Ghost]]"
@@ -1422,6 +1429,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "... it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?",
         "Intracranial": "  - \ud83d\udc4d [[Apple]]-ish design language",
         "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[Apple]] Music have a market penetration of next to nothing.",
+        "Mental Simulation of Firefox and Signal as a Super App": "... conditions for a Super App in the United States are vague. [[Apple]] and [[Google]] divide the tech market into two, not only in ...",
         "Perceptual Hashing": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.",
@@ -1813,6 +1821,7 @@ export const backlinks = {
         "2023-01-21": "## [[Project]]",
         "2023-01-22": "## [[Project]]",
         "2023-01-25": "## [[Project]]",
+        "2023-01-31": "## [[Project]]",
         "2023\u1102\u1167\u11ab 1\u110b\u116f\u11af\u1100\u116a 2\u110b\u116f\u11af\u110b\u1166 \u1112\u1161\u1105\u116e 25\u1107\u116e\u11ab \u110c\u1169\u1100\u1175\u11bc\u1112\u1161\u1100\u1175": "\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -2854,7 +2863,8 @@ export const backlinks = {
         "2022-11-02": "- [[Maserati Problem]]"
     },
     "Aldehyde Backlinks Outage (January 2023)": {
-        "2023-01-30": "- [[Aldehyde Backlinks Outage (January 2023)]]"
+        "2023-01-30": "- [[Aldehyde Backlinks Outage (January 2023)]]",
+        "2023-01-31": "- [[Aldehyde Backlinks Outage (January 2023)]]"
     },
     "Interactive Articles": {
         "2022-10-18": "- [[Interactive Articles]]",
@@ -3202,12 +3212,14 @@ export const backlinks = {
         "2022-11-04": "- [[Principles of Inclusion]]"
     },
     "Mental Simulation of Firefox and Signal as a Super App": {
-        "2023-01-09": "- [[Mental Simulation of Firefox and Signal as a Super App]]"
+        "2023-01-09": "- [[Mental Simulation of Firefox and Signal as a Super App]]",
+        "Texts": "Potential Super App for the United States. [[Mental Simulation of Firefox and Signal as a Super App]]"
     },
     "Apple-like Block Interface": {
         "2022-12-16": "- [[Apple-like Block Interface]]",
         "2022-12-18": "- [[Apple-like Block Interface]]",
-        "2022-12-27": "- [[Apple-like Block Interface]]"
+        "2022-12-27": "- [[Apple-like Block Interface]]",
+        "Aldehyde Landing Page 2023": "- [[Apple-like Block Interface]]"
     },
     "Toss Product Sans": {
         "2022-10-14": "- [[Toss Product Sans]]",
@@ -3273,6 +3285,7 @@ export const backlinks = {
         "2022-07-14": "... more. One wrong info that I found: Uber didn't make Kubernetes. [[Google]] did.",
         "2022-07-21": "### [[Google]], really? Come on.",
         "Kubernetes": "... open-source container orchestration system for automating software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the Cloud Native Computing Foundation now maintains ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... a Super App in the United States are vague. Apple and [[Google]] divide the tech market into two, not only in terms of ...",
         "Perceptual Hashing": "... the change of hash collision to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ...",
@@ -3800,7 +3813,7 @@ export const backlinks = {
     "Letter to Mr. Matt Rickard on 2022-12-23": {
         "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-23]]",
         "2023-01-09": "- [[Letter to Mr. Matt Rickard on 2022-12-23]]",
-        "Mental Simulation of Firefox and Signal as a Super App": "- As noted on the [[Letter to Mr. Matt Rickard on 2022-12-23]], the conditions for a Super App in the United States is ..."
+        "Mental Simulation of Firefox and Signal as a Super App": "- As noted on the [[Letter to Mr. Matt Rickard on 2022-12-23]], the conditions for a [[Super App]] in the United States are ..."
     },
     "Person 392196": {
         "Project PEOPLE": "- [[Person 392196]]"
@@ -4036,7 +4049,9 @@ export const backlinks = {
     "Super App": {
         "2022-12-09": "- [[Super App]]",
         "Letter to Mr. Matt Rickard on 2022-12-23": "- Interesting on the downsides of the [[super app]]",
+        "Mental Simulation of Firefox and Signal as a Super App": "... Letter to Mr. Matt Rickard on 2022-12-23, the conditions for a [[Super App]] in the United States are vague. [[Apple]] and [[Google]] divide the ...",
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
+        "Texts": "Potential [[Super App]] for the United States. [[Mental Simulation of Firefox and Signal as ...",
         "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S.",
         "\u110b\u1172\u1102\u1161\u11ab\u1112\u1161\u11ab \u1103\u1169\u110c\u1165\u11ab": "## [[Super App|\uc288\ud37c \uc571]]\uc744 \ud5a5\ud574"
     },
@@ -4610,6 +4625,7 @@ export const backlinks = {
     },
     "411451.png": {
         "2022-10-25": "![[411451.png]]",
+        "Aldehyde Landing Page 2023": "![[411451.png]]",
         "Apple-like Block Interface": "![[411451.png]]"
     },
     "\ud0dc\ubc31\uc0b0\ub9e5 \uacc4\ud68d": {
@@ -4647,6 +4663,21 @@ export const backlinks = {
     "301024.png": {
         "Paracosm": "![[301024.png]]",
         "Text-based Tools for Thought": "![[301024.png]]"
+    },
+    "B4D18F.png": {
+        "Texts": "![[B4D18F.png]]"
+    },
+    "C71F2F.png": {
+        "Texts": "![[C71F2F.png]]"
+    },
+    "7F9BA7.png": {
+        "Texts": "![[7F9BA7.png]]"
+    },
+    "4BE73D.png": {
+        "Texts": "![[4BE73D.png]]"
+    },
+    "CEE458.png": {
+        "Texts": "![[CEE458.png]]"
     },
     "A3BB1E.png": {
         "Framer": "![[A3BB1E.png]]"
@@ -4745,6 +4776,30 @@ export const backlinks = {
     },
     "9CCA89.png": {
         "Search Engine Indexing Your Life": "![[9CCA89.png]]"
+    },
+    "612FFD.png": {
+        "Aldehyde Landing Page 2023": "![[612FFD.png]]"
+    },
+    "398CA8.png": {
+        "Aldehyde Landing Page 2023": "![[398CA8.png]]",
+        "Apple-like Block Interface": "![[398CA8.png]]"
+    },
+    "6C8C82.png": {
+        "Aldehyde Landing Page 2023": "![[6C8C82.png]]",
+        "Apple-like Block Interface": "![[6C8C82.png]]"
+    },
+    "B2A2B6.png": {
+        "Aldehyde Landing Page 2023": "![[B2A2B6.png]]",
+        "Apple-like Block Interface": "![[B2A2B6.png]]",
+        "Nextra": "![[B2A2B6.png]]"
+    },
+    "339CE9.png": {
+        "Aldehyde Landing Page 2023": "![[339CE9.png]]",
+        "Apple-like Block Interface": "![[339CE9.png]]"
+    },
+    "341F72.gif": {
+        "Aldehyde Landing Page 2023": "![[341F72.gif]]",
+        "Apple-like Block Interface": "![[341F72.gif]]"
     },
     "EB6370.png": {
         "Extracranial": "![[EB6370.png]]"
@@ -5335,22 +5390,6 @@ export const backlinks = {
     },
     "8121DD.png": {
         "Horizontally Stacked Interface": "![[8121DD.png]]"
-    },
-    "398CA8.png": {
-        "Apple-like Block Interface": "![[398CA8.png]]"
-    },
-    "6C8C82.png": {
-        "Apple-like Block Interface": "![[6C8C82.png]]"
-    },
-    "B2A2B6.png": {
-        "Apple-like Block Interface": "![[B2A2B6.png]]",
-        "Nextra": "![[B2A2B6.png]]"
-    },
-    "339CE9.png": {
-        "Apple-like Block Interface": "![[339CE9.png]]"
-    },
-    "341F72.gif": {
-        "Apple-like Block Interface": "![[341F72.gif]]"
     },
     "6F64BE.png": {
         "Toss Product Sans": "![[6F64BE.png]]"
