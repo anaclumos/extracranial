@@ -19,6 +19,7 @@ export const backlinks = {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Update on [[2022-10-12]]"
     },
     "2023-01-30": {
+        "0003 Longest Substring Without Repeating Characters": "Solved at: [[2023-01-30]]",
         "0542 01 Matrix": "Solved at: [[2023-01-30]]",
         "0973 K Closest Points to Origin": "Solved at: [[2023-01-30]]"
     },
@@ -1882,7 +1883,7 @@ export const backlinks = {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]"
     },
     "0973 K Closest Points to Origin": {
-        "Coding Tests": "- [ ] [[0973 K Closest Points to Origin]]"
+        "Coding Tests": "- [x] [[0973 K Closest Points to Origin]]"
     },
     "0070 Climbing Stairs": {
         "Coding Tests": "- [x] [[0070 Climbing Stairs]]"
@@ -3311,6 +3312,9 @@ export const backlinks = {
     "Hashflags": {
         "2022-12-07": "- [[Hashflags]]",
         "Linkflags": "- [[Hashflags]] for the web"
+    },
+    "0003 Longest Substring Without Repeating Characters": {
+        "Coding Tests": "- [x] [[0003 Longest Substring Without Repeating Characters]]"
     },
     "Cloudflare": {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open ...",

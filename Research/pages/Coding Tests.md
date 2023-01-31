@@ -56,8 +56,8 @@ slug: '/D518B0'
 
 - [x] [[0057 Insert Interval]]
 - [x] [[0542 01 Matrix]]
-- [ ] [[0973 K Closest Points to Origin]]
-- [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+- [x] [[0973 K Closest Points to Origin]]
+- [x] [[0003 Longest Substring Without Repeating Characters]]
 - [ ] [3Sum](https://leetcode.com/problems/3sum)
 - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
 - [ ] [Clone Graph](https://leetcode.com/problems/clone-graph)

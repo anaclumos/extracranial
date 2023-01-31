@@ -172,8 +172,6 @@ images.sorted { $0.fileId > $1.fileID }
 string[String.Index(encodedOffset: index)]
 ```
 
-like what is wrong with you
-
 ## Array Cut
 
 ```swift
