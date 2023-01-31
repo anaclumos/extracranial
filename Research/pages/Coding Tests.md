@@ -58,7 +58,7 @@ slug: '/D518B0'
 - [x] [[0542 01 Matrix]]
 - [x] [[0973 K Closest Points to Origin]]
 - [x] [[0003 Longest Substring Without Repeating Characters]]
-- [ ] [3Sum](https://leetcode.com/problems/3sum)
+- [x] [[0015 3Sum]]
 - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
 - [ ] [Clone Graph](https://leetcode.com/problems/clone-graph)
 - [ ] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
