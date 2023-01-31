@@ -70,3 +70,8 @@ const documentTitleEncoded = documentTitle.normalize('NFC')
 ```
 
 Fixed the problem.
+
+```python
+import unicodedata
+unicodedata.normalize('NFC', string)
+```
