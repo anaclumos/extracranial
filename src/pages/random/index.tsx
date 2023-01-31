@@ -27,7 +27,6 @@ const RandomUrl = () => {
             {() => {
               let urls: Element[]
               let randomUrl: string
-              console.log(siteConfig.url + '/' + siteConfig.baseUrl + '/sitemap.xml')
               fetch(siteConfig.url + siteConfig.baseUrl + 'sitemap.xml')
                 .then((res) => res.text())
                 .then((text) => {
