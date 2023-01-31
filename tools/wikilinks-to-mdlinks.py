@@ -1,5 +1,6 @@
 import shutil
 import os
+import unicodedata
 
 SOURCE_DIR = "./Research"
 DESTINATION_DIR = "./docs"
@@ -63,12 +64,14 @@ def process(file, all_files, counter):
                 print("Searching for: " + wikilink) if DEBUG else None
                 found = False
                 for searchfile in all_files:
-                    if (
-                        wikilink.split("|")[0].lower()
-                        == searchfile.split("/")[-1]
+                    if unicodedata.normalize(
+                        "NFC", wikilink.split("|")[0].lower()
+                    ) == unicodedata.normalize(
+                        "NFC",
+                        searchfile.split("/")[-1]
                         .replace(".md", "")
                         .replace(".mdx", "")
-                        .lower()
+                        .lower(),
                     ):
                         # if found, replace the wikilink with the link
                         import urllib.parse
