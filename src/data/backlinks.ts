@@ -727,6 +727,11 @@ export const backlinks = {
     "In search of my domain": {
         "2023-01-09": "- [[In search of my domain]]"
     },
+    "Project Core ML Foundation": {
+        "2023-01-26": "- [[Project Core ML Foundation]]",
+        "2023-01-27": "- [[Project Core ML Foundation]]",
+        "2023-01-30": "- [[Project Core ML Foundation]]"
+    },
     "The Great Battle of Flow and Asana": {
         "2022-12-09": "- [[The Great Battle of Flow and Asana]]",
         "Survivorship Biased": "- [[The Great Battle of Flow and Asana]]"
@@ -2604,6 +2609,9 @@ export const backlinks = {
         "ARM Architecture": "... Frame pointer `fp` is an alias of `x29`. Same as `rbp` ([[Base Frame Pointer]])",
         "Computer Systems": "- [[Base Frame Pointer]]"
     },
+    "Project Core ML Inference": {
+        "2023-01-30": "- [[Project Core ML Inference]]"
+    },
     "DoS": {
         "Internetworking": "- [[DoS]]"
     },
@@ -2855,7 +2863,7 @@ export const backlinks = {
         "Jumpsite": "## [[Are.na (Service)]]"
     },
     "AI and ML": {
-        "Project Core ML": "- [[AI and ML]]"
+        "Project Core ML Foundation": "- [[AI and ML]]"
     },
     "Animations": {
         "2022-11-21": "- [[Animations]]",
@@ -3344,10 +3352,6 @@ export const backlinks = {
         "Computer Systems": "- [[Translation Look-aside Buffers]]",
         "Virtual Memory": "- [[Translation Look-aside Buffers]]"
     },
-    "Project Core ML": {
-        "2023-01-26": "- [[Project Core ML]]",
-        "2023-01-27": "- [[Project Core ML]]"
-    },
     "DOM Reflow": {
         "2022-07-11": "... because it depends on values that could only be found after [[DOM Reflow]]."
     },
@@ -3484,7 +3488,7 @@ export const backlinks = {
     },
     "Photoshop for Text": {
         "Letter to Mr. Stephan Ango on 2022-10-19": "I recently came across your article on [[Photoshop for Text]] and was deeply inspired by it.",
-        "Project Core ML": "- [[Photoshop for Text]]",
+        "Project Core ML Foundation": "- [[Photoshop for Text]]",
         "Synthote": "- [[Photoshop for Text]]"
     },
     "Nuclear Fission": {
