@@ -34,7 +34,9 @@ if __name__ == "__main__":
                     continue
                 all_md_files.append(os.path.join(root, file))
                 all_md_files.append(os.path.join(root, file))
-                backlink_map[file.replace(".md", "").replace(".mdx", "")] = {}
+
+                filename = file.replace(".md", "").replace(".mdx", "")
+                backlink_map[filename] = {}
 
     print("Found " + str(len(all_md_files)) + " MD files.")
 
@@ -110,10 +112,15 @@ if __name__ == "__main__":
 
     import json
 
+    # delete keys with empty values
+    for key in list(backlink_map.keys()):
+        if not backlink_map[key]:
+            del backlink_map[key]
+
     with open("./src/data/backlinks.ts", "w") as f:
         f.write(
             "export const backlinks = "
-            + json.dumps(dict(backlink_map), indent=4, ensure_ascii=False)
+            + json.dumps(dict(backlink_map), indent=4, ensure_ascii=True)
             .encode("utf8")
             .decode()
         )
@@ -127,7 +134,7 @@ if __name__ == "__main__":
     with open("./src/data/filenames.ts", "w") as f:
         f.write(
             "export const filenames = "
-            + json.dumps(filename_uid_map, indent=4, ensure_ascii=False)
+            + json.dumps(filename_uid_map, indent=4, ensure_ascii=True)
             .encode("utf8")
             .decode()
         )

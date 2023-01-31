@@ -47,7 +47,11 @@ const processBacklinkItem = (text: string, title: string) => {
 const Backlink = (props: Props) => {
   const { documentTitle } = props
 
-  const backlinkItems = backlinks[documentTitle]
+  // normalize to 'NFC' to match the key of backlinks
+  // See https://cho.sh/r/DF5A6E
+  const documentTitleEncoded = documentTitle.normalize('NFC')
+  const backlinkItems = backlinks[documentTitleEncoded]
+  const title = documentTitleEncoded
 
   return (
     <div className={styles.backlinkTable}>
@@ -61,16 +65,16 @@ const Backlink = (props: Props) => {
       <div className={styles.backlinkGridView}>
         {(backlinkItems &&
           Object.keys(backlinkItems)
-            // sort by filename, reversed
             .sort()
             .reverse()
             .map((backlink) => {
               const backlinkTitle = backlink.split('/').pop().replace('.md', '')
+              const link = filenames[backlinkTitle].replace('/', '')
               return (
-                <Link to={filenames[backlinkTitle]} className={styles.backlinkItemLink} key={backlink}>
+                <Link to={link} className={styles.backlinkItemLink} key={backlink}>
                   <div className={styles.backlinkItem}>
                     <h3 className={styles.backlinkMentionedFileName}>{backlinkTitle}</h3>
-                    {processBacklinkItem(backlinkItems[backlink], documentTitle)}
+                    {processBacklinkItem(backlinkItems[backlink], title)}
                   </div>
                 </Link>
               )

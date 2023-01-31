@@ -1,131 +1,96 @@
 export const backlinks = {
-    "2023-01-20": {},
-    "2022-10-02": {},
-    "2022-12-16": {},
     "2016-10-22": {
-        "국제 계열과 계열 변경 이야기": "[[2016-10-22]]에 게재된 [[재학생일기]]이다."
+        "\u1100\u116e\u11a8\u110c\u1166 \u1100\u1168\u110b\u1167\u11af\u1100\u116a \u1100\u1168\u110b\u1167\u11af \u1107\u1167\u11ab\u1100\u1167\u11bc \u110b\u1175\u110b\u1163\u1100\u1175": "[[2016-10-22]]\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4."
     },
-    "2023-01-14": {},
-    "2022-08-28": {},
-    "2022-07-25": {},
-    "2022-09-26": {},
-    "2022-05-31": {},
-    "2022-09-12": {},
     "2022-07-11": {
         "2022-07-12": "On [[2022-07-11]], I analyzed that [[Brane]] is harder than it seems.",
-        "2022-07-19": "[[2022-07-11]]에 확인한 2가지 [[Scheduler|스케줄러]]를 확인한다."
+        "2022-07-19": "[[2022-07-11]]\uc5d0 \ud655\uc778\ud55c 2\uac00\uc9c0 [[Scheduler|\uc2a4\ucf00\uc904\ub7ec]]\ub97c \ud655\uc778\ud55c\ub2e4."
     },
     "2022-07-01": {
         "PKM": "- On [[2022-07-01]], I noted that PKM is for building a personal knowledge base. ..."
     },
     "2020-02-27": {
-        "프로젝트 어덕행덕": "- [[2020-02-27]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-02-27]]"
     },
     "2020-02-13": {
-        "프로젝트 어덕행덕": "- [[2020-02-13]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-02-13]]"
     },
-    "2022-12-06": {},
     "2022-10-12": {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Update on [[2022-10-12]]"
     },
     "2023-01-30": {
-        "0542 01 Matrix": "Solved at: [[2023-01-30]]"
+        "0542 01 Matrix": "Solved at: [[2023-01-30]]",
+        "0973 K Closest Points to Origin": "Solved at: [[2023-01-30]]"
     },
     "2022-11-28": {
         "0232 Implement Queue using Stacks": "Solved at: [[2022-11-28]]"
     },
-    "2022-12-12": {},
     "2016-11-28": {
-        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "[[2016-11-28]]에 게재된 [[재학생일기]]이다."
+        "\u110b\u1161\u110b\u116e\u11ba \u110b\u1169\u1107\u1173 \u1109\u1161\u110b\u1175\u1110\u1173\u1100\u1161 \u1112\u1161\u11bc\u1109\u1161\u11bc \u1109\u1161\u1105\u1161\u11b7\u110b\u1173\u11af \u1106\u1165\u11af\u1100\u1166 \u1112\u1161\u1102\u1173\u11ab \u1100\u1165\u11ba\u110b\u1173\u11ab \u110b\u1161\u1102\u1175\u11b8\u1102\u1175\u1103\u1161": "[[2016-11-28]]\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4."
     },
-    "2022-10-06": {},
-    "2023-01-10": {},
-    "2022-11-08": {},
-    "2022-12-26": {},
-    "2023-01-24": {},
-    "2022-08-18": {},
     "2016-07-01": {
-        "식영부원의 관점에서 바라본 치킨데이": "[[2016-07-01]]에 게재된 [[재학생일기]]이다."
+        "\u1109\u1175\u11a8\u110b\u1167\u11bc\u1107\u116e\u110b\u116f\u11ab\u110b\u1174 \u1100\u116a\u11ab\u110c\u1165\u11b7\u110b\u1166\u1109\u1165 \u1107\u1161\u1105\u1161\u1107\u1169\u11ab \u110e\u1175\u110f\u1175\u11ab\u1103\u1166\u110b\u1175": "[[2016-07-01]]\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4."
     },
-    "2022-09-22": {},
-    "2022-07-21": {},
-    "2022-07-31": {},
     "2020-02-17": {
-        "프로젝트 어덕행덕": "- [[2020-02-17]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-02-17]]"
     },
     "2020-02-23": {
-        "프로젝트 어덕행덕": "- [[2020-02-23]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-02-23]]"
     },
     "2022-09-06": {
         "Person 1B5A5B": "- Interviewed on [[2022-09-06]]",
         "Person 88B488": "- Interviewed on [[2022-09-06]]"
     },
-    "2022-07-05": {},
-    "2022-10-22": {},
-    "2022-11-18": {},
     "2022-10-16": {
         "Dynamic Island on the Web": "## [[2022-10-16]]"
     },
-    "2022-12-02": {},
-    "2022-10-07": {},
     "2021-06-23": {
-        "개성은 자연스레 주어지지 않는다": "— [[2021-06-23]]에 작성된 기록 중 발췌."
+        "\u1100\u1162\u1109\u1165\u11bc\u110b\u1173\u11ab \u110c\u1161\u110b\u1167\u11ab\u1109\u1173\u1105\u1166 \u110c\u116e\u110b\u1165\u110c\u1175\u110c\u1175 \u110b\u1161\u11ad\u1102\u1173\u11ab\u1103\u1161": "\u2014 [[2021-06-23]]\uc5d0 \uc791\uc131\ub41c \uae30\ub85d \uc911 \ubc1c\ucdcc."
     },
-    "2023-01-11": {},
     "2022-11-09": {
         "Dynamic Island on the Web": "## [[2022-11-09]]"
     },
     "2022-12-27": {
-        "2022년 11월 한 달간 일기 쓰기": "[[2022-12-27]] 회고를 해본다.",
+        "2022\u1102\u1167\u11ab 11\u110b\u116f\u11af \u1112\u1161\u11ab \u1103\u1161\u11af\u1100\u1161\u11ab \u110b\u1175\u11af\u1100\u1175 \u110a\u1173\u1100\u1175": "[[2022-12-27]] \ud68c\uace0\ub97c \ud574\ubcf8\ub2e4.",
         "Conversation with Alan Chan on 2022-12-27": "Had a conversation with Alan Chan on [[2022-12-27]].",
-        "하늘땅사람 개발 기록": "## [[2022-12-27]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "## [[2022-12-27]]"
     },
     "2023-01-25": {
-        "하늘땅사람 업데이트 기록": "## 1.0.8 [[2023-01-25]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u110b\u1165\u11b8\u1103\u1166\u110b\u1175\u1110\u1173 \u1100\u1175\u1105\u1169\u11a8": "## 1.0.8 [[2023-01-25]]"
     },
     "2022-07-14": {
         "0125 Valid Palindrome": "Solved at: [[2022-07-14]] and [[2022-07-26]]",
         "Fiercely Overpriced": "An idea suggested on [[2022-07-14]] that all inventions should be fiercely overpriced."
     },
-    "2022-09-17": {},
     "2020-03-08": {
-        "프로젝트 어덕행덕": "- [[2020-03-08]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-03-08]]"
     },
-    "2022-07-20": {},
-    "2022-09-07": {},
     "2020-02-22": {
-        "프로젝트 어덕행덕": "- [[2020-02-22]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-02-22]]"
     },
     "2020-11-20": {
-        "프로젝트 어덕행덕": "- [[2020-11-20]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-11-20]]"
     },
-    "2022-08-09": {},
     "2022-10-23": {
         "0141 Linked List Cycle": "Solved at: [[2022-10-23]]"
     },
-    "2022-11-19": {},
     "2022-10-17": {
         "Backlinking for Aldehyde": "- Links to This Note feature is complete on [[2022-10-17]].",
         "Better Obsidian": "- Functional Templating (Done on [[2022-10-17]])",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Reply on [[2022-10-17]]"
     },
-    "2022-12-03": {},
     "2023-01-21": {
-        "하늘땅사람 업데이트 기록": "## 1.0.5 [[2023-01-21]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u110b\u1165\u11b8\u1103\u1166\u110b\u1175\u1110\u1173 \u1100\u1175\u1105\u1169\u11a8": "## 1.0.5 [[2023-01-21]]"
     },
     "2022-10-03": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "- Written: [[2022-10-03]]"
     },
-    "2022-12-17": {},
     "2023-01-15": {
-        "하늘땅사람 개발 기록": "... 입력 불가. 초성이 없는 경우에도 모음과 이중모음까지는 조합이 가능하도록 만들어야겠다. ← [[2023-01-15]] 해결"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "... \uc785\ub825 \ubd88\uac00. \ucd08\uc131\uc774 \uc5c6\ub294 \uacbd\uc6b0\uc5d0\ub3c4 \ubaa8\uc74c\uacfc \uc774\uc911\ubaa8\uc74c\uae4c\uc9c0\ub294 \uc870\ud569\uc774 \uac00\ub2a5\ud558\ub3c4\ub85d \ub9cc\ub4e4\uc5b4\uc57c\uaca0\ub2e4. \u2190 [[2023-01-15]] \ud574\uacb0"
     },
-    "2022-08-29": {},
     "2022-07-24": {
         "FIRE Engine": "... How Much Money Do Indie Hackers Products Make? | Scraping Fish ([[2022-07-24]])"
     },
-    "2022-05-30": {},
-    "2022-09-27": {},
     "2022-09-13": {
         "Person 5DBDAE": "- Interviewed on [[2022-09-13]]",
         "Person CC8297": "- Interviewed on [[2022-09-13]]"
@@ -135,17 +100,14 @@ export const backlinks = {
         "0020 Valid Parentheses": "Solved at: [[2022-07-10]]"
     },
     "2021-02-26": {
-        "프로젝트 어덕행덕": "- [[2021-02-26]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2021-02-26]]"
     },
-    "2022-09-03": {},
     "2020-03-28": {
-        "프로젝트 어덕행덕": "## [[2020-03-28]]의 메모"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "## [[2020-03-28]]\uc758 \uba54\ubaa8"
     },
     "2020-02-12": {
-        "프로젝트 어덕행덕": "- [[2020-02-12]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-02-12]]"
     },
-    "2022-12-07": {},
-    "2022-10-13": {},
     "2022-11-29": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "## Response on [[2022-11-29]]"
     },
@@ -154,38 +116,27 @@ export const backlinks = {
         "Goongoom": "- Officially confirmed dead on [[2022-10-27]] due to NGL. Has the same feature set."
     },
     "2020-03-07": {
-        "프로젝트 어덕행덕": "- [[2020-03-07]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-03-07]]"
     },
-    "2022-06-21": {},
-    "2022-09-18": {},
-    "2022-06-15": {},
     "2016-12-08": {
-        "졸업을 앞둔 중학교 3학년들에게": "[[2016-12-08]]에 게재된 [[재학생일기]]이다."
+        "\u110c\u1169\u11af\u110b\u1165\u11b8\u110b\u1173\u11af \u110b\u1161\u11c1\u1103\u116e\u11ab \u110c\u116e\u11bc\u1112\u1161\u11a8\u1100\u116d 3\u1112\u1161\u11a8\u1102\u1167\u11ab\u1103\u1173\u11af\u110b\u1166\u1100\u1166": "[[2016-12-08]]\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4."
     },
     "2022-12-28": {
         "Safari is the new Internet Explorer": "  - At least [[2022-12-28]] now they do: Sending web push notifications in Safari and other ...",
-        "하늘땅사람 개발 기록": "## [[2022-12-28]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "## [[2022-12-28]]"
     },
-    "2022-11-06": {},
-    "2022-10-08": {},
-    "2022-10-18": {},
-    "2022-11-16": {},
     "2022-11-22": {
-        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-22]] 과제의 홍수"
+        "2022\u1102\u1167\u11ab 11\u110b\u116f\u11af \u1112\u1161\u11ab \u1103\u1161\u11af\u1100\u1161\u11ab \u110b\u1175\u11af\u1100\u1175 \u110a\u1173\u1100\u1175": "- [[2022-11-22]] \uacfc\uc81c\uc758 \ud64d\uc218"
     },
-    "2022-06-05": {},
     "2022-09-08": {
         "Person 392196": "- Interviewed on [[2022-09-08]]",
         "Person A480C6": "- Interviewed on [[2022-09-08]]"
     },
-    "2022-09-28": {},
     "2022-08-26": {
         "0079 Word Search": "Solved at: [[2022-08-26]]"
     },
-    "2022-11-02": {},
-    "2022-12-18": {},
     "2020-09-25": {
-        "프로젝트 어덕행덕": "- [[2020-09-25]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-09-25]]"
     },
     "2022-10-28": {
         "Dynamic Island on the Web": "## [[2022-10-28]]"
@@ -197,60 +148,40 @@ export const backlinks = {
         "Person ECC2CB": "- Interviewed on [[2022-12-08]]"
     },
     "2022-11-12": {
-        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-12]] 실패"
+        "2022\u1102\u1167\u11ab 11\u110b\u116f\u11af \u1112\u1161\u11ab \u1103\u1161\u11af\u1100\u1161\u11ab \u110b\u1175\u11af\u1100\u1175 \u110a\u1173\u1100\u1175": "- [[2022-11-12]] \uc2e4\ud328"
     },
     "2016-04-01": {
-        "바이올린 켜면 바이올레이션": "[[2016-04-01]]에 게재된 [[재학생일기]]이다."
+        "\u1107\u1161\u110b\u1175\u110b\u1169\u11af\u1105\u1175\u11ab \u110f\u1167\u1106\u1167\u11ab \u1107\u1161\u110b\u1175\u110b\u1169\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab": "[[2016-04-01]]\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4."
     },
-    "2022-08-02": {},
-    "2022-06-10": {},
     "2022-09-29": {
-        "한자 타자기": "- Started reading [[2022-09-29]]"
+        "\u1112\u1161\u11ab\u110c\u1161 \u1110\u1161\u110c\u1161\u1100\u1175": "- Started reading [[2022-09-29]]"
     },
     "2022-08-27": {
         "0002 Add Two Numbers": "Solved at: [[2022-08-27]]",
         "0199 Binary Tree Right Side View": "Solved at: [[2022-08-27]]",
         "1448 Count Good Nodes in Binary Tree": "Solved at: [[2022-08-27]]"
     },
-    "2022-11-03": {},
     "2020-09-24": {
-        "프로젝트 어덕행덕": "## [[2020-09-24]]의 메모"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "## [[2020-09-24]]\uc758 \uba54\ubaa8"
     },
     "2022-12-19": {
-        "하늘땅사람 개발 기록": "## [[2022-12-19]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "## [[2022-12-19]]"
     },
-    "2022-10-29": {},
-    "2022-11-27": {},
-    "2022-12-09": {},
-    "2022-08-03": {},
-    "2022-08-23": {},
-    "2022-06-20": {},
-    "2022-09-19": {},
-    "2022-06-14": {},
-    "2022-11-07": {},
     "2020-09-20": {
-        "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "## [[2020-09-20]]\uc758 \uba54\ubaa8"
     },
-    "2022-10-19": {},
-    "2022-11-17": {},
     "2022-11-23": {
         "Person 1E6ABA": "- Interviewed on [[2022-11-23]]"
     },
-    "2022-08-07": {},
     "2016-06-24": {
-        "공강에서 보내는 공강 활용법": "[[2016-06-24]]에 게재된 [[재학생일기]]이다."
+        "\u1100\u1169\u11bc\u1100\u1161\u11bc\u110b\u1166\u1109\u1165 \u1107\u1169\u1102\u1162\u1102\u1173\u11ab \u1100\u1169\u11bc\u1100\u1161\u11bc \u1112\u116a\u11af\u110b\u116d\u11bc\u1107\u1165\u11b8": "[[2016-06-24]]\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4."
     },
-    "2022-09-09": {},
-    "2022-08-10": {},
-    "2022-08-24": {},
-    "2022-06-27": {},
-    "2022-07-29": {},
     "2020-09-27": {
-        "프로젝트 어덕행덕": "- [[2020-09-27]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-09-27]]"
     },
     "2023-01-18": {
-        "하늘땅사람 개발 기록": "## [[2023-01-18]]",
-        "하늘땅사람 업데이트 기록": "## 1.0.4 [[2023-01-18]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "## [[2023-01-18]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u110b\u1165\u11b8\u1103\u1166\u110b\u1175\u1110\u1173 \u1100\u1175\u1105\u1169\u11a8": "## 1.0.4 [[2023-01-18]]"
     },
     "2022-11-24": {
         "Mathematics under The Library of Babel": "## [[2022-11-24]]"
@@ -258,19 +189,16 @@ export const backlinks = {
     "2022-11-10": {
         "Dynamic Island on the Web": "## [[2022-11-10]]"
     },
-    "2020-01-05": {},
     "2020-10-27": {
-        "프로젝트 어덕행덕": "- [[2020-10-27]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-10-27]]"
     },
     "2020-11-09": {
-        "프로젝트 어덕행덕": "- [[2020-11-09]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-11-09]]"
     },
-    "2022-06-23": {},
     "2022-07-19": {
         "2022-07-21": "See [[2022-07-19]].",
-        "Developing Review Notes for Obsidian": "[[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다."
+        "Developing Review Notes for Obsidian": "[[2022-07-19]] \uc800\ub141\uc5d0 \uc801\ub2f9\ud788 \uacf5\ud5c8\ud55c \ub290\ub08c\uc774 \ub4e4\uc5b4 \ubbf8\ub904\uc654\ub358 \uc0ac\uc774\ub4dc [[Project|\ud504\ub85c\uc81d\ud2b8]]\ub97c \ud574\ubcf8\ub2e4."
     },
-    "2022-11-30": {},
     "2023-01-28": {
         "0057 Insert Interval": "Solved at: [[2023-01-28]]",
         "0067 Add Binary": "Solved at: [[2023-01-28]]",
@@ -281,29 +209,21 @@ export const backlinks = {
         "0383 Ransom Note": "Solved at: [[2023-01-28]]",
         "0409 Longest Palindrome": "Solved at: [[2023-01-28]]"
     },
-    "2022-11-04": {},
-    "2022-11-14": {},
-    "2022-11-20": {},
     "2019-11-06": {
-        "프로젝트 어덕행덕": "- [[2019-11-06]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2019-11-06]]"
     },
-    "2022-07-09": {},
-    "2022-06-07": {},
-    "2022-08-04": {},
-    "2022-05-29": {},
     "2022-08-30": {
         "0215 Kth Largest Element in an Array": "Solved at: [[2022-08-30]]",
         "1046 Last Stone Weight": "Solved at: [[2022-08-30]]"
     },
     "2020-11-19": {
-        "프로젝트 어덕행덕": "- [[2020-11-19]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-11-19]]"
     },
-    "2022-06-22": {},
     "2022-07-18": {
         "Better Docusaurus": "- Render `Figcaption` with `img alt` tags on [[2022-07-18]] Commit"
     },
     "2016-11-11": {
-        "기숙사 생활과 방 배정": "[[2016-11-11]]에 게재된 [[재학생일기]]이다."
+        "\u1100\u1175\u1109\u116e\u11a8\u1109\u1161 \u1109\u1162\u11bc\u1112\u116a\u11af\u1100\u116a \u1107\u1161\u11bc \u1107\u1162\u110c\u1165\u11bc": "[[2016-11-11]]\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4."
     },
     "2023-01-29": {
         "0104 Maximum Depth of Binary Tree": "Solved at: [[2023-01-29]]",
@@ -312,23 +232,11 @@ export const backlinks = {
         "0876 Middle of the Linked List": "Solved at: [[2023-01-29]]",
         "Aldehyde Outage (January 2023)": "## [[2023-01-29]]"
     },
-    "2022-11-05": {},
-    "2022-11-15": {},
-    "2022-11-21": {},
-    "2022-07-08": {},
-    "2022-06-06": {},
-    "2022-05-28": {},
-    "2022-06-12": {},
-    "2022-08-11": {},
-    "2022-08-25": {},
-    "2022-06-26": {},
-    "2022-07-28": {},
-    "2023-01-19": {},
     "2022-11-01": {
-        "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
+        "2022\u1102\u1167\u11ab 11\u110b\u116f\u11af \u1112\u1161\u11ab \u1103\u1161\u11af\u1100\u1161\u11ab \u110b\u1175\u11af\u1100\u1175 \u110a\u1173\u1100\u1175": "- [[2022-11-01]] \uc2e4\ud328. \uacfc\uc81c\uac00 \ub108\ubb34 \ub9ce\uc558\ub2e4."
     },
     "2016-11-15": {
-        "기숙사 생활과 방 배정": "[[2016-11-15]]에 게재된 [[재학생일기]]이다."
+        "\u1100\u1175\u1109\u116e\u11a8\u1109\u1161 \u1109\u1162\u11bc\u1112\u116a\u11af\u1100\u116a \u1107\u1161\u11bc \u1107\u1162\u110c\u1165\u11bc": "[[2016-11-15]]\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4."
     },
     "2022-11-25": {
         "Mathematics under The Library of Babel": "## [[2022-11-25]]",
@@ -338,19 +246,17 @@ export const backlinks = {
         "Dynamic Island on the Web": "## [[2022-11-11]]"
     },
     "2023-01-09": {
-        "2022년 11월 한 달간 일기 쓰기": "[[2023-01-09]]에 생각해보니 습관을 형성하기 위해서는 최소 2달 동안 지속해야 한다는 점을 알았다."
+        "2022\u1102\u1167\u11ab 11\u110b\u116f\u11af \u1112\u1161\u11ab \u1103\u1161\u11af\u1100\u1161\u11ab \u110b\u1175\u11af\u1100\u1175 \u110a\u1173\u1100\u1175": "[[2023-01-09]]\uc5d0 \uc0dd\uac01\ud574\ubcf4\ub2c8 \uc2b5\uad00\uc744 \ud615\uc131\ud558\uae30 \uc704\ud574\uc11c\ub294 \ucd5c\uc18c 2\ub2ec \ub3d9\uc548 \uc9c0\uc18d\ud574\uc57c \ud55c\ub2e4\ub294 \uc810\uc744 \uc54c\uc558\ub2e4."
     },
-    "2022-08-01": {},
     "2023-01-12": {
         "Using an iPad as my Ebook": "... best ebook reader is yet to finish, a recent discovery on [[2023-01-12]] suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools ...",
-        "재학생일기": "[[2023-01-12]]에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
+        "\u110c\u1162\u1112\u1161\u11a8\u1109\u1162\u11bc\u110b\u1175\u11af\u1100\u1175": "[[2023-01-12]]\uc5d0 [[\uc5ed\uc0ac\uc758 \uc9d1\ub300\uc131]] \uacfc\uc815 \uc911 \ub2e4\uc2dc \uc77d\uc5b4\ubcf4\ub2c8 \uc774\ub54c\uac00 \ub2a6-\uc9112\ubcd1\uc774\uc5c8\ub098 \uc2f6\ub2e4."
     },
     "2022-10-04": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
     },
-    "2022-12-10": {},
     "2023-01-26": {
-        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-26]]: 면접 준비하느라 하지 못했다. 하지만 30분 산책했다."
+        "2023\u1102\u1167\u11ab 1\u110b\u116f\u11af\u1100\u116a 2\u110b\u116f\u11af\u110b\u1166 \u1112\u1161\u1105\u116e 25\u1107\u116e\u11ab \u110c\u1169\u1100\u1175\u11bc\u1112\u1161\u1100\u1175": "- [[2023-01-26]]: \uba74\uc811 \uc900\ube44\ud558\ub290\ub77c \ud558\uc9c0 \ubabb\ud588\ub2e4. \ud558\uc9c0\ub9cc 30\ubd84 \uc0b0\ucc45\ud588\ub2e4."
     },
     "2022-12-24": {
         "In-house and Free Market": "- [[2022-12-24]]: Can independent scientists ever win again?"
@@ -358,15 +264,11 @@ export const backlinks = {
     "2022-09-14": {
         "Person E7CFC5": "- Interviewed on [[2022-09-14]]"
     },
-    "2022-09-20": {},
-    "2022-09-30": {},
     "2020-02-15": {
-        "프로젝트 어덕행덕": "- [[2020-02-15]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-02-15]]"
     },
-    "2022-05-27": {},
-    "2022-07-07": {},
     "2019-03-04": {
-        "코드클럽": "[[2019-03-04]]"
+        "\u110f\u1169\u1103\u1173\u110f\u1173\u11af\u1105\u1165\u11b8": "[[2019-03-04]]"
     },
     "2022-09-04": {
         "0242 Valid Anagram": "Solved at: [[2022-09-04]]",
@@ -376,40 +278,31 @@ export const backlinks = {
         "Dynamic Island on the Web": "## [[2022-10-20]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "## Update on [[2022-10-20]]"
     },
-    "2022-10-14": {},
     "2023-01-02": {
-        "하늘땅사람 개발 기록": "## [[2023-01-02]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "## [[2023-01-02]]"
     },
     "2023-01-22": {
-        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-22]]: 발에 물집이 잡혀 하지 못했다. 하지만 30분 산책했다.",
-        "하늘땅사람 업데이트 기록": "## 1.0.6 [[2023-01-22]]"
+        "2023\u1102\u1167\u11ab 1\u110b\u116f\u11af\u1100\u116a 2\u110b\u116f\u11af\u110b\u1166 \u1112\u1161\u1105\u116e 25\u1107\u116e\u11ab \u110c\u1169\u1100\u1175\u11bc\u1112\u1161\u1100\u1175": "- [[2023-01-22]]: \ubc1c\uc5d0 \ubb3c\uc9d1\uc774 \uc7a1\ud600 \ud558\uc9c0 \ubabb\ud588\ub2e4. \ud558\uc9c0\ub9cc 30\ubd84 \uc0b0\ucc45\ud588\ub2e4.",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u110b\u1165\u11b8\u1103\u1166\u110b\u1175\u1110\u1173 \u1100\u1175\u1105\u1169\u11a8": "## 1.0.6 [[2023-01-22]]"
     },
     "2022-12-20": {
-        "하늘땅사람 개발 기록": "## [[2022-12-20]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "## [[2022-12-20]]"
     },
     "2023-01-16": {
-        "하늘땅사람 개발 기록": "## [[2023-01-16]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "## [[2023-01-16]]"
     },
-    "2022-09-24": {},
-    "2022-06-29": {},
     "2022-07-13": {
         "0021 Merge Two Sorted Lists": "Solved at: [[2022-07-13]]",
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]"
     },
-    "2022-09-10": {},
-    "2022-07-03": {},
     "2020-11-13": {
-        "프로젝트 어덕행덕": "- [[2020-11-13]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-11-13]]"
     },
-    "2022-10-10": {},
-    "2022-12-04": {},
-    "2022-10-24": {},
-    "2023-01-23": {},
     "2022-12-21": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "## Reply on [[2022-12-21]]"
     },
     "2023-01-17": {
-        "하늘땅사람 개발 기록": "## [[2023-01-17]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "## [[2023-01-17]]"
     },
     "2022-09-25": {
         "0110 Balanced Binary Tree": "Solved at: [[2022-09-25]]",
@@ -422,34 +315,26 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "## [[2022-07-26]]",
         "Intracranial": "- [[2022-07-26]]"
     },
-    "2022-06-28": {},
-    "2022-07-12": {},
-    "2022-09-11": {},
     "2019-10-13": {
-        "잡스와 생존 편향": "[[2019-10-13]]의 에세이."
+        "\u110c\u1161\u11b8\u1109\u1173\u110b\u116a \u1109\u1162\u11bc\u110c\u1169\u11ab \u1111\u1167\u11ab\u1112\u1163\u11bc": "[[2019-10-13]]\uc758 \uc5d0\uc138\uc774."
     },
-    "2022-07-02": {},
     "2022-10-11": {
         "Open Graph Image as a Service": "- [[2022-10-11]]"
     },
-    "2022-10-25": {},
     "2023-01-13": {
-        "한민족은 해적되었다": "[[2023-01-13]]에 꾼 꿈에서 강력한 메시지를 받았다."
+        "\u1112\u1161\u11ab\u1106\u1175\u11ab\u110c\u1169\u11a8\u110b\u1173\u11ab \u1112\u1162\u110c\u1165\u11a8\u1103\u116c\u110b\u1165\u11bb\u1103\u1161": "[[2023-01-13]]\uc5d0 \uafbc \uafc8\uc5d0\uc11c \uac15\ub825\ud55c \uba54\uc2dc\uc9c0\ub97c \ubc1b\uc558\ub2e4."
     },
-    "2022-12-11": {},
     "2023-01-27": {
-        "2023년 1월과 2월에 하루 25분 조깅하기": "- [[2023-01-27]]: 면접 보고 번아웃,,"
+        "2023\u1102\u1167\u11ab 1\u110b\u116f\u11af\u1100\u116a 2\u110b\u116f\u11af\u110b\u1166 \u1112\u1161\u1105\u116e 25\u1107\u116e\u11ab \u110c\u1169\u1100\u1175\u11bc\u1112\u1161\u1100\u1175": "- [[2023-01-27]]: \uba74\uc811 \ubcf4\uace0 \ubc88\uc544\uc6c3,,"
     },
     "2020-04-01": {
-        "프로젝트 어덕행덕": "- [[2020-04-01]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-04-01]]"
     },
-    "2022-10-31": {},
-    "2022-09-21": {},
     "2020-11-06": {
-        "프로젝트 어덕행덕": "- [[2020-11-06]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-11-06]]"
     },
     "2020-02-14": {
-        "프로젝트 어덕행덕": "- [[2020-02-14]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- [[2020-02-14]]"
     },
     "2022-07-06": {
         "2022-07-11": "Confirmed a demo script created on [[2022-07-06]] yields logs as above."
@@ -461,19 +346,17 @@ export const backlinks = {
     "2022-10-21": {
         "Curve Fitting for Charts": "## On [[2022-10-21]], with [[Simple Analytics]]"
     },
-    "2022-10-15": {},
     "2023-01-03": {
-        "하늘땅사람 개발 기록": "## [[2023-01-03]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "## [[2023-01-03]]"
     },
     "Tailscale": {
         "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, \"Best VPN for developers.\"",
-        "2022-10-13": "- Taildrop · Tailscale: Cross-Platform AirDrops [[Tailscale]]",
+        "2022-10-13": "- Taildrop \u00b7 Tailscale: Cross-Platform AirDrops [[Tailscale]]",
         "2022-10-20": "- [[Tailscale]]"
     },
     "The Photo Library of Babel": {
         "Proposal of Research to Professor Cote": "## 3. [[The Photo Library of Babel]]"
     },
-    "사회과부도": {},
     "ELF": {
         "Link (Computer Systems)": "Linux uses [[ELF]]"
     },
@@ -484,7 +367,7 @@ export const backlinks = {
         "Requesting Review in Swift": "Requesting Review in [[Swift]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]",
         "Using System Haptics and Sounds in Swift": "Using System Haptics and Sounds in [[Swift]]",
-        "하늘땅사람 개발 기록": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "\uc77c\ub2e8 \ud604\uc7ac \uc0dd\uac01\ud55c \ucf00\uc774\uc2a4\ub4e4\uc740 \ubaa8\ub450 [[Swift]] Constant\uc5d0 \ubc15\uc544\ub450\uc5c8\ub2e4."
     },
     "Cube": {
         "2022-08-18": "- [[Cube]]",
@@ -492,14 +375,14 @@ export const backlinks = {
     },
     "SwiftUI": {
         "2022-08-04": "### Explored [[SwiftUI]].",
-        "2022-11-28": "- [[SwiftUI]]: SwiftUI is convenient, but slow — Alin Panaitiu",
+        "2022-11-28": "- [[SwiftUI]]: SwiftUI is convenient, but slow \u2014 Alin Panaitiu",
         "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon]]",
         "CELLO (Product)": "- [[SwiftUI]]",
         "Creating Next Keyboard Button in SwiftUI": "Creating Next Keyboard Button in [[SwiftUI]]",
         "Creating Observable Object in SwiftUI": "Creating Observable Object in [[SwiftUI]]",
         "Cube": "- [[SwiftUI]]",
         "ULLO": "- Proof of Concept|PoC of [[SwiftUI]] Photo Widget App",
-        "하늘땅사람 개발 기록": "다만 코드를 분산시키고 좋은 품질을 유지하기 위해 [[SwiftUI]]를 사용하는 방안을 연구 중."
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "\ub2e4\ub9cc \ucf54\ub4dc\ub97c \ubd84\uc0b0\uc2dc\ud0a4\uace0 \uc88b\uc740 \ud488\uc9c8\uc744 \uc720\uc9c0\ud558\uae30 \uc704\ud574 [[SwiftUI]]\ub97c \uc0ac\uc6a9\ud558\ub294 \ubc29\uc548\uc744 \uc5f0\uad6c \uc911."
     },
     "ChatGPT": {
         "10x": "... group but a term that describes exceptionally talented and productive individuals. [[ChatGPT]]",
@@ -560,7 +443,7 @@ export const backlinks = {
         "2022-11-03": "- [[Aldehyde]]",
         "2022-12-04": "- [[Aldehyde]]",
         "Better Aldehyde": "- [[Aldehyde]]",
-        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨",
+        "Developing Review Notes for Obsidian": "- [[Aldehyde]]\uc758 \uae30\uc220\uc801 \ubc1c\uc804\uc73c\ub85c \uc778\ud574 \uc635\uc2dc\ub514\uc5b8 \ub0b4\ubd80\ubcf4\ub2e4 Aldehyde\ub97c \ub354 \ub9ce\uc774 \uc0ac\uc6a9\ud558\uac8c \ub428",
         "In search of my domain": "- I registered [[Aldehyde|cho.sh]] in 2018 and even experimented with GitHub Pages, but I did ..."
     },
     "Book Metadata as a Service": {
@@ -569,7 +452,7 @@ export const backlinks = {
     "In The End Trust Yourself": {
         "2022-11-23": "- [[In The End Trust Yourself]]",
         "Antipilot": "  - [[In The End Trust Yourself]]",
-        "개성은 자연스레 주어지지 않는다": "- [[In The End Trust Yourself|결국에는 본인을 믿자]]"
+        "\u1100\u1162\u1109\u1165\u11bc\u110b\u1173\u11ab \u110c\u1161\u110b\u1167\u11ab\u1109\u1173\u1105\u1166 \u110c\u116e\u110b\u1165\u110c\u1175\u110c\u1175 \u110b\u1161\u11ad\u1102\u1173\u11ab\u1103\u1161": "- [[In The End Trust Yourself|\uacb0\uad6d\uc5d0\ub294 \ubcf8\uc778\uc744 \ubbff\uc790]]"
     },
     "HTTP": {
         "Internetworking": "- [[HTTP]]",
@@ -577,7 +460,7 @@ export const backlinks = {
         "Techs Actually Simple": "- Not to mention plaintext protocols. [[HTTP]], SMTP, FTP, and Redis Serialization Protocol (RESP) are a few examples"
     },
     "Framer": {
-        "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 장점"
+        "Toss Product Sans": "- \ud2b9\ud788 \uc11c\uccb4 \ud14c\uc2a4\ud2b8\ub97c \ud504\ub808\uc774\uba38([[Framer]])\uc5d0\uc11c \ud560 \uc218 \uc788\ub2e4\ub294 \uac83\ub3c4 \ud070 \uc7a5\uc810"
     },
     "0001 Two Sum": {
         "2022-07-10": "- Solved [[0001 Two Sum]]",
@@ -625,7 +508,6 @@ export const backlinks = {
         "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]].",
         "Tools Must Vanish": "I believe that Roam Research and [[Logseq]] are at the culminating position of this simplicity."
     },
-    "활자": {},
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]",
         "Project": "- [ ] [[How is WebAssembly cross-platform when Assembly is not]]"
@@ -640,15 +522,15 @@ export const backlinks = {
         "Internetworking": "- [[IP]]",
         "Preservation of Data": "- Find another [[IP]] without restrictions you are facing.",
         "Protocol Wars": "... admit. The U.S. Department of Defense was an early adopter of TCP/[[IP]]",
-        "http 없는 http 서버 만들기": "`http` 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ...",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ..."
+        "http \u110b\u1165\u11b9\u1102\u1173\u11ab http \u1109\u1165\u1107\u1165 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175": "`http` \uc790\uccb4\ub3c4 \uae30\ubcf8\uc801\uc73c\ub85c\ub294 tcp/[[ip]] \ud504\ub85c\ud1a0\ucf5c\uc744 \uc0ac\uc6a9\ud558\uae30 \ub54c\ubb38\uc5d0 `net` \ubaa8\ub4c8\uc744 \uc0ac\uc6a9\ud558\uba74 \uc774\ub97c \ud574\uacb0\ud560 \uc218 \uc788\ub2e4. `net` ...",
+        "\u1105\u1161\u110c\u1173\u1107\u1166\u1105\u1175 \u1111\u1161\u110b\u1175\u1105\u1169 \u1109\u1173\u1106\u1161\u1110\u1173 \u110b\u1169\u1103\u1175\u110b\u1169 \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175": "\ub610\ud55c \uc774 \uae00\uc5d0\uc11c [[IP]] \uc8fc\uc18c\uc640 \ub514\ubc14\uc774\uc2a4 \uace0\uc720 \uc8fc\uc18c \ub4f1\uc740 [[HTML]] \uac12 \uc218\uc815\uc73c\ub85c `?` \ub85c \ubcc0\uacbd\ud558\uac70\ub098 ..."
     },
     "CDN": {
         "2022-08-28": "... builds faster (~3m) than Cloudflare Pages (~5m). Vercel has Seoul region [[CDN]].",
         "2022-12-28": "- [[CDN]]",
         "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as [[Microsoft]] Bing or Cloudflare's AMP caches, which allows pages ...",
         "Cloudflare": "> Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded in 2010. It primarily acts as ...",
-        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
+        "Snowpack\u110b\u1173\u1105\u1169 WASM \u1109\u1175\u110c\u1161\u11a8\u1112\u1161\u1100\u1175": "- \ub2e4\uc74c \ubb38\uc7a5\uc744 \ud1b5\ud574 `ffmpeg.wasm`\uc744 \uc124\uce58\ud55c\ub2e4. (\uc2e4\uc81c WASM \ud30c\uc77c\uc740 \uc0ac\uc6a9\uc790\uc758 \uc6f9\ud398\uc774\uc9c0\uc5d0\uc11c\ub294 [[CDN]]\uc744 \ud1b5\ud574 async\ud558\uac8c \ub85c\ub529\ub428. \uc5ec\uae30\uc11c \uc124\uce58\ud558\ub294 \uac83\uc740 Wrapper\uc778 \uac83 \uac19\ub2e4.)",
         "The Architecture of Mastodon": "  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process ..."
     },
     "New York City": {
@@ -693,7 +575,7 @@ export const backlinks = {
         "Letter to the Heptabase Team on 2022-10-11": "- [[Markdown]]-Wikilink import/export",
         "Logseq": "... privacy-first, open-source knowledge base that works on top of local plain-text [[Markdown]] and Org-mode files. Use it to write, organize and share your ...",
         "Markdown Email Client": "Someday Project. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as a beautiful ...",
-        "Toss Product Sans": "- 디자인 플랫폼 팀과 함께 제작한 [[Markdown|마크다운]] 규칙으로 특수 문자를 쓸 수 있도록"
+        "Toss Product Sans": "- \ub514\uc790\uc778 \ud50c\ub7ab\ud3fc \ud300\uacfc \ud568\uaed8 \uc81c\uc791\ud55c [[Markdown|\ub9c8\ud06c\ub2e4\uc6b4]] \uaddc\uce59\uc73c\ub85c \ud2b9\uc218 \ubb38\uc790\ub97c \uc4f8 \uc218 \uc788\ub3c4\ub85d"
     },
     "0104 Maximum Depth of Binary Tree": {
         "Coding Tests": "- [x] [[0104 Maximum Depth of Binary Tree]]"
@@ -748,7 +630,6 @@ export const backlinks = {
         "2022-11-21": "- [[Magician]]: I thought they would generate user interface designs akin to Tailwind ...",
         "Diagram (Company)": "- Creator of [[Magician]]"
     },
-    "유난한 도전": {},
     "IntelliJ": {
         "Intellisense for Knowledge Management": "- Like Copilot or [[IntelliJ]]"
     },
@@ -768,7 +649,6 @@ export const backlinks = {
         "Software as a Service": "We expect we could attain FIRE through [[Software as a Service]].",
         "Tools Must Vanish": "## Personal Notes on Tools for Thought [[Software as a Service]]"
     },
-    "그게 뭐라고": {},
     "Odds": {
         "2023-01-23": "- [[Odds]]",
         "Bayes Theorem": "The [[Odds]] form of Bayes Theorem is"
@@ -814,7 +694,6 @@ export const backlinks = {
         "2022-12-09": "- [[Meltdown and Spectre]]",
         "Computer Systems": "- [[Meltdown and Spectre]]"
     },
-    "잡스와 생존 편향": {},
     "0242 Valid Anagram": {
         "2022-09-04": "- [[0242 Valid Anagram]]",
         "Coding Tests": "- [x] [[0242 Valid Anagram]]"
@@ -832,9 +711,8 @@ export const backlinks = {
     },
     "Multiplication Theorem": {
         "2023-01-23": "- [[Multiplication Theorem]]",
-        "Probability": "- $P(A1 \\cap A2)$ → [[Multiplication Theorem]]"
+        "Probability": "- $P(A1 \\cap A2)$ \u2192 [[Multiplication Theorem]]"
     },
-    "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {},
     "dub.sh": {
         "2022-09-29": "- [[dub.sh]]",
         "2022-12-26": "- [[dub.sh]]",
@@ -844,7 +722,7 @@ export const backlinks = {
         "FinTech and Justice": "- Does [[Financial Technology|FinTech]] increase Justice in this world?",
         "Person 1E6ABA": "- Currently works at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager.",
         "Toss": "- [[Financial Technology|FinTech]] [[Unicorn]] of Korea.",
-        "유난한 도전": "## [[Financial Technology|핀테크]]란"
+        "\u110b\u1172\u1102\u1161\u11ab\u1112\u1161\u11ab \u1103\u1169\u110c\u1165\u11ab": "## [[Financial Technology|\ud540\ud14c\ud06c]]\ub780"
     },
     "In search of my domain": {
         "2023-01-09": "- [[In search of my domain]]"
@@ -870,7 +748,6 @@ export const backlinks = {
         "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
         "Redirect": "## Redirects in [[Docusaurus]]"
     },
-    "雅號를 찾아서": {},
     "Developing Review Notes for Obsidian": {
         "2022-07-19": "- [[Developing Review Notes for Obsidian]]",
         "2022-07-26": "- [[Developing Review Notes for Obsidian]]",
@@ -878,7 +755,7 @@ export const backlinks = {
         "Better Obsidian": "- [[Developing Review Notes for Obsidian]]"
     },
     "Blitzscaling": {
-        "2022-06-06": "- [[Blitzscaling]] will not work, starting now. User Growth ≠ Valuation."
+        "2022-06-06": "- [[Blitzscaling]] will not work, starting now. User Growth \u2260 Valuation."
     },
     "SendGrid": {
         "2022-10-17": "- [[SendGrid]]",
@@ -944,7 +821,7 @@ export const backlinks = {
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
         "Simple Analytics": "> The privacy-first [[Google Analytics]] alternative. Simple Analytics",
-        "YCLF 주간 사용자 1000명": "[[Google Analytics]] Referrals 추적 기능을 통해 어느 링크를 타고 들어오는지 파악이 가능했다. 댓글로 ..."
+        "YCLF \u110c\u116e\u1100\u1161\u11ab \u1109\u1161\u110b\u116d\u11bc\u110c\u1161 1000\u1106\u1167\u11bc": "[[Google Analytics]] Referrals \ucd94\uc801 \uae30\ub2a5\uc744 \ud1b5\ud574 \uc5b4\ub290 \ub9c1\ud06c\ub97c \ud0c0\uace0 \ub4e4\uc5b4\uc624\ub294\uc9c0 \ud30c\uc545\uc774 \uac00\ub2a5\ud588\ub2e4. \ub313\uae00\ub85c ..."
     },
     "Displaying exact datetimes on Ghost": {
         "2022-11-19": "  - [[Displaying exact datetimes on Ghost]]"
@@ -1048,7 +925,7 @@ export const backlinks = {
         "Matt Rickard": "- [[P vs NP]]"
     },
     "WebAssembly": {
-        "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.",
+        "2022-06-14": "- [[WebAssembly|WASM]]\uacfc\ub294 \ub2f9\uc7a5\uc740 \ubb34\uad00\ud558\ub2e4.",
         "2022-10-14": "- [[WebAssembly]]",
         "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten",
         "2023-01-13": "- [[WebAssembly|WASM]]",
@@ -1058,7 +935,7 @@ export const backlinks = {
         "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
         "Project": "- [ ] Does Emscripten [[WebAssembly|WASM]] run on [[Web Worker|Web Workers]]?",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
-        "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
+        "Snowpack\u110b\u1173\u1105\u1169 WASM \u1109\u1175\u110c\u1161\u11a8\u1112\u1161\u1100\u1175": "- ffmpeg.[[WebAssembly|wasm]]\uc740 Chrome\uc744 \uc0ac\uc6a9\ud574 \uad6c\ub3d9\ud558\uae30 (2020/11 \uae30\uc900)",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
         "WasmEdge": "WasmEdge: Edge for [[WebAssembly]]",
         "Web Graphics": "- Usually uses WebGPU and [[WebAssembly|WASM]]",
@@ -1067,10 +944,9 @@ export const backlinks = {
     "Now Runs On": {
         "2022-11-20": "- [[Now Runs On]]"
     },
-    "초상권 vs 저작권": {},
     "YAML": {
         "2023-01-13": "- [[YAML]]",
-        "Ghost 테마를 자동 배포하는 방법": "... up a workflow yourself`를 누른다. 새로운 workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 [[YAML]] 코드를 복사하여 붙여넣는다. GitHub Secrets에 Key 이름을 다르게 저장했다면 마지막 두 ...",
+        "Ghost \u1110\u1166\u1106\u1161\u1105\u1173\u11af \u110c\u1161\u1103\u1169\u11bc \u1107\u1162\u1111\u1169\u1112\u1161\u1102\u1173\u11ab \u1107\u1161\u11bc\u1107\u1165\u11b8": "... up a workflow yourself`\ub97c \ub204\ub978\ub2e4. \uc0c8\ub85c\uc6b4 workflow\uc758 \uc774\ub984\uc740 `deploy-theme.yml`\ub77c\uace0 \uc124\uc815\ud558\uace0 \ub2e4\uc74c [[YAML]] \ucf54\ub4dc\ub97c \ubcf5\uc0ac\ud558\uc5ec \ubd99\uc5ec\ub123\ub294\ub2e4. GitHub Secrets\uc5d0 Key \uc774\ub984\uc744 \ub2e4\ub974\uac8c \uc800\uc7a5\ud588\ub2e4\uba74 \ub9c8\uc9c0\ub9c9 \ub450 ...",
         "Higher-Level Languages and Their Speeds": "... entire product catalog of the e-commerce site can be a single [[YAML]] read on boot? This goes for many more objects than I ..."
     },
     "Monolithic Model": {
@@ -1083,14 +959,14 @@ export const backlinks = {
         "2022-12-04": "- The Verge is now built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, @vercel, and ...",
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
-        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용",
+        "Tailwind CSS \u1110\u1169\u11c1\u110b\u1161\u1107\u1169\u1100\u1175": "- [[Tailwind]] CSS\ub97c \uc784\uc758\uc758 TypeScript Next [[Project|\ud504\ub85c\uc81d\ud2b8]]\uc5d0 \uc801\uc6a9",
         "dub.sh": "  - [[Tailwind]] CSS"
     },
     "SMIME": {
         "2022-08-03": "### [[SMIME|S/MIME]] Certificates",
         "2022-12-21": "- [[SMIME]]",
         "Adding a Verified Mark on Apple Mail & Gmail": "- Use a [[SMIME|S/MIME]] certificate to sign an email",
-        "Letter to Mr. Matt Rickard on 2022-12-21": "... API (as in doing slightly more than Nodemailer or EmailEngine, i.e., [[SMIME]] or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just ..."
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... API (as in doing slightly more than Nodemailer or EmailEngine, i.e., [[SMIME]] or, more recently \u2014 Brand Indicators for Message Identification [[BIMI]]) Just ..."
     },
     "ShadowRealm": {
         "2022-06-26": "- Let's not explore [[ShadowRealm]] and `iframe` [[Sandbox]] for now.",
@@ -1101,21 +977,20 @@ export const backlinks = {
     },
     "Atomic Habits": {
         "Readings": "- [x] [[Atomic Habits]]",
-        "水適穿石": "- [[Atomic Habits]]"
+        "\u6c34\u9069\u7a7f\u77f3": "- [[Atomic Habits]]"
     },
     "Web Graphics": {
         "2022-10-25": "- [[Web Graphics]]",
         "2022-10-27": "- [[Web Graphics]]",
         "2022-11-12": "- Bubbles: [[Web Graphics]]"
     },
-    "서울 프로": {},
     "Rewind": {
         "2022-12-24": "- [[Rewind]] is [[GA]]",
         "Search Engine Indexing Your Life": "## [[Rewind]]"
     },
     "Font Features": {
         "2022-08-01": "- Just realized that this enables Font [[Font Features|Ligature]] Settings.",
-        "CalliFontia": "- 추출 전 여러가지 [[Font Features]]을 켜고 끄며 미리보기 대조 가능",
+        "CalliFontia": "- \ucd94\ucd9c \uc804 \uc5ec\ub7ec\uac00\uc9c0 [[Font Features]]\uc744 \ucf1c\uace0 \ub044\uba70 \ubbf8\ub9ac\ubcf4\uae30 \ub300\uc870 \uac00\ub2a5",
         "Toss Product Sans": "- I figured it did not fully support [[Font Features]]."
     },
     "Sandbox": {
@@ -1141,11 +1016,11 @@ export const backlinks = {
     },
     "Chromium": {
         "2023-01-13": "- [[Chromium]]",
-        "Apple Newsroom 서체 따라하기": "- 2020년 4월 업데이트된 [[Chromium]] 81에서 BlinkMacSystemFont의 font-weight가 무시되는 버그가 발생했다.",
-        "Developing Review Notes for Obsidian": "참고로 옵시디언은 [[Chromium]]이기 때문에 다음과 같이 Dev Console을 열 수 있다.",
+        "Apple Newsroom \u1109\u1165\u110e\u1166 \u1104\u1161\u1105\u1161\u1112\u1161\u1100\u1175": "- 2020\ub144 4\uc6d4 \uc5c5\ub370\uc774\ud2b8\ub41c [[Chromium]] 81\uc5d0\uc11c BlinkMacSystemFont\uc758 font-weight\uac00 \ubb34\uc2dc\ub418\ub294 \ubc84\uadf8\uac00 \ubc1c\uc0dd\ud588\ub2e4.",
+        "Developing Review Notes for Obsidian": "\ucc38\uace0\ub85c \uc635\uc2dc\ub514\uc5b8\uc740 [[Chromium]]\uc774\uae30 \ub54c\ubb38\uc5d0 \ub2e4\uc74c\uacfc \uac19\uc774 Dev Console\uc744 \uc5f4 \uc218 \uc788\ub2e4.",
         "Porting a Chrome Extension to Firefox Add-on": "1. On your Chrome Web Browser|browser (or on any equivalent [[Chromium]] [[Web Browser|browsers]],) visit `chrome://extensions`.",
         "Satori": "- Difficult: This solution required launching [[Chromium]] in a Serverless Function and taking a screenshot of the given ...",
-        "Snowpack으로 WASM 시작하기": "... support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other Web Browser|browser supports SharedArrayBuffer."
+        "Snowpack\u110b\u1173\u1105\u1169 WASM \u1109\u1175\u110c\u1161\u11a8\u1112\u1161\u1100\u1175": "... support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other Web Browser|browser supports SharedArrayBuffer."
     },
     "Unsemantic": {
         "2022-12-20": "- [[Unsemantic]]"
@@ -1161,7 +1036,6 @@ export const backlinks = {
     "Techs Actually Simple": {
         "Matt Rickard": "- [[Techs Actually Simple]]"
     },
-    "졸업을 앞둔 중학교 3학년들에게": {},
     "Conversational AI Tools for Thought": {
         "2022-12-04": "- Elicit: The AI Research Assistant: [[Conversational AI Tools for Thought]]",
         "2022-12-24": "- [[Conversational AI Tools for Thought]]: Poe beta test starting - Quora",
@@ -1185,8 +1059,6 @@ export const backlinks = {
         "2022-09-08": "- [[Project PEOPLE]]",
         "2022-09-14": "- [[Project PEOPLE]]"
     },
-    "태백산맥 계획": {},
-    "Workbench": {},
     "AIs.txt": {
         "2022-10-21": "- [[AIs.txt]]",
         "2022-10-22": "- [[AIs.txt]]",
@@ -1221,8 +1093,6 @@ export const backlinks = {
         "AMP Email": "- [[Spellbound]]",
         "Reimagining Emails": "- Interactive Emails using AMP Email. Example: [[Spellbound]]"
     },
-    "방송 장비 담당자로 할 일": {},
-    "하늘땅사람 지원 문서": {},
     "Markdown Email Client": {
         "2022-10-04": "- [[Markdown Email Client]]",
         "Project": "- [ ] Review MailPilot [[Markdown Email Client]]",
@@ -1237,8 +1107,6 @@ export const backlinks = {
         "2022-12-28": "- [[Slow Down Your Clock Cycle Speed]]",
         "Handwriting Tools for Thoughts": "  - Benefit: handwritings [[Slow Down Your Clock Cycle Speed]]"
     },
-    "브라우저 콘솔에 경고 문구 띄우는 방법": {},
-    "퍼블리시티권": {},
     "Cantankerous": {
         "2022-10-17": "- [[Cantankerous]]"
     },
@@ -1246,7 +1114,7 @@ export const backlinks = {
         "2022-10-20": "- [[Is DevOps Overrated]]"
     },
     "Tana": {
-        "2023-01-30": "Got invited to [[Tana]].",
+        "2023-01-30": "- Got invited to [[Tana]].",
         "Text-based Tools for Thought": "### [[Tana]]"
     },
     "Cookie": {
@@ -1270,7 +1138,6 @@ export const backlinks = {
         "Computer Systems": "- [[Structs and Unions]]",
         "Heap (Computer Systems)": "- align blocks, similar to [[Structs and Unions]]"
     },
-    "벌금과 물가": {},
     "Latency and Throughput": {
         "2022-11-03": "- [[Latency and Throughput]]",
         "Computer Systems": "- [[Latency and Throughput]]",
@@ -1303,7 +1170,7 @@ export const backlinks = {
         "2022-10-20": "2.  This [[Web Browser|browser]] is forked by a couple of other [[Web Browser|browsers]] that are ...",
         "Brane": "- Parties that create [[Web Browser|browsers]] do not own these limitations; Brane aims to democratize these privileges ...",
         "Confectionery": "> A minimalistic [[Web Browser|browser]] without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty ...",
-        "Downloading Any Recordings from Zoom": "... both play the video and scroll through the chat list—open the [[Web Browser|browser]] console.",
+        "Downloading Any Recordings from Zoom": "... both play the video and scroll through the chat list\u2014open the [[Web Browser|browser]] console.",
         "Dynamic Viewport Units": "... for the dynamic viewport do not update at 60fps. In all [[Web Browser|browsers]] updating is throttled as the UA [[UIUX|UI]] expands or retracts. Some ...",
         "Finding out Ghost version with JS": "... make the Node.js include the value before responding to the client [[Web Browser|browser]], but I figured that there was a much simpler way after ...",
         "HTML": "... standard markup language for documents designed to be displayed in a [[web browser]]. It can be assisted by technologies such as Cascading Style Sheets ...",
@@ -1316,10 +1183,10 @@ export const backlinks = {
         "Proposal of Research to Professor Cote": "\"Alt text\" briefly describes an image and is used if the [[Web Browser|browser]] cannot display the picture. Alt text is typically used in Web ...",
         "Safari is the new Internet Explorer": "- Apple has a [[Web Browser|browser]] monopoly on iOS, which is something [[Microsoft]] was never able to ...",
         "Satori": "- Expensive: Spinning up an entire [[Web Browser|browser]] to take a screenshot was not efficient. This led to large ...",
-        "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version ...",
+        "Snowpack\u110b\u1173\u1105\u1169 WASM \u1109\u1175\u110c\u1161\u11a8\u1112\u1161\u1100\u1175": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version ...",
         "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow",
         "Svelte": "... out the bulk of their work at runtime, i.e., in the [[Web Browser|browser]]. The compiler itself is written in [[TypeScript]]. Its source code is ...",
-        "The New Era of macOS Applications": "- [[Web Browser|Browsers]]. Chrome → Arc.",
+        "The New Era of macOS Applications": "- [[Web Browser|Browsers]]. Chrome \u2192 Arc.",
         "Web Typography": "... faces and styles were controlled exclusively by the settings of each [[web browser]]. There was no mechanism for individual Web pages to control font ..."
     },
     "eBPF": {
@@ -1352,17 +1219,16 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
     },
     "Front-end": {
-        "Ghost 테마를 자동 배포하는 방법": "... 사용한다. Ghost CMS는 헤드리스하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 수 있다는 것이다. 하지만 Ghost 2까지는 ...",
+        "Ghost \u1110\u1166\u1106\u1161\u1105\u1173\u11af \u110c\u1161\u1103\u1169\u11bc \u1107\u1162\u1111\u1169\u1112\u1161\u1102\u1173\u11ab \u1107\u1161\u11bc\u1107\u1165\u11b8": "... \uc0ac\uc6a9\ud55c\ub2e4. Ghost CMS\ub294 \ud5e4\ub4dc\ub9ac\uc2a4\ud558\ub2e4. \ub9d0 \uadf8\ub300\ub85c \uba38\ub9ac\uac00 \uc5c6\ub2e4\ub294 \ub73b\uc73c\ub85c, \ubc31\uc5d4\ub4dc\ub294 \uc874\uc7ac\ud558\uc9c0\ub9cc [[Front-end|\ud504\ub860\ud2b8\uc5d4\ub4dc]] (\ud5e4\ub4dc)\ub294 \ub0b4\uac00 \uc6d0\ud558\ub294 \ub300\ub85c \uc81c\uc791\ud560 \uc218 \uc788\ub2e4\ub294 \uac83\uc774\ub2e4. \ud558\uc9c0\ub9cc Ghost 2\uae4c\uc9c0\ub294 ...",
         "HTMX": "- A [[Front-end]]",
-        "Old Fashioned Camera": "- 백엔드와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임",
+        "Old Fashioned Camera": "- \ubc31\uc5d4\ub4dc\uc640 [[Front-end|\ud504\ub860\ud2b8]]\uac00 \ubaa8\ub450 \ud544\uc694 \uc5c6\uae30\uc5d0 [[FIRE Engine]]\uc744 \uc2e4\ud589\ud558\uae30\uc5d0 \uc801\ud569\ud574\ubcf4\uc784",
         "React": "... (also known as React.js or ReactJS) is a free and open-source [[Front-end|front-end]] JavaScript library for building user interfaces based on [[UIUX|UI]] components. It ...",
         "Satori": "- Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "> Svelte is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris and maintained by the Svelte core ...",
         "The Architecture of Mastodon": "... All of these make developer workflow harder. Containerization, Kubernetes, and modern [[front-end]] stacks are challenging to work with in Rails.",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트]]엔드에는 리액트와 타입스크립트를 쓰고 있다. 하지만 권장 사항일 뿐이다. 제품과 부서에 따라 ...",
-        "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 화두로 나타난다. 이런 주제들은 모양만 바뀔 ..."
+        "\u1107\u1162\u1103\u1161\u11af\u110b\u1174\u1106\u1175\u11ab\u110c\u1169\u11a8 FE \u1100\u1162\u1107\u1161\u11af\u110c\u1161\u1100\u1161 \u110b\u1175\u11af\u1112\u1161\u1102\u1173\u11ab \u1107\u1165\u11b8 Q&A": "[[Front-end|\ud504\ub860\ud2b8]]\uc5d4\ub4dc\uc5d0\ub294 \ub9ac\uc561\ud2b8\uc640 \ud0c0\uc785\uc2a4\ud06c\ub9bd\ud2b8\ub97c \uc4f0\uace0 \uc788\ub2e4. \ud558\uc9c0\ub9cc \uad8c\uc7a5 \uc0ac\ud56d\uc77c \ubfd0\uc774\ub2e4. \uc81c\ud488\uacfc \ubd80\uc11c\uc5d0 \ub530\ub77c ...",
+        "\u1107\u1162\u1103\u1161\u11af\u110b\u1174\u1106\u1175\u11ab\u110c\u1169\u11a8 FE \u1100\u1162\u1107\u1161\u11af\u110c\u1161\u1100\u1161 \u110b\u1175\u11af\u1112\u1161\u1102\u1173\u11ab \u1107\u1165\u11b8 \u1107\u1161\u11af\u1111\u116d": "[[Front-end|\ud504\ub860\ud2b8\uc5d4\ub4dc]] \uac1c\ubc1c\uc790\ub4e4 \uc0ac\uc774\uc5d0\uc11c\ub294 \ub2e4\uc591\ud55c \ub0b4\uc6a9\ub4e4\uc774 \uc790\uc8fc \ud654\ub450\ub85c \ub098\ud0c0\ub09c\ub2e4. \uc774\ub7f0 \uc8fc\uc81c\ub4e4\uc740 \ubaa8\uc591\ub9cc \ubc14\ub014 ..."
     },
-    "2022년 11월 한 달간 일기 쓰기": {},
     "0383 Ransom Note": {
         "Coding Tests": "- [x] [[0383 Ransom Note]]"
     },
@@ -1370,11 +1236,11 @@ export const backlinks = {
         "2022-12-21": "- [[Letter to Mr. Matt Rickard on 2022-12-21]]"
     },
     "Pretendard": {
-        "Apple Newsroom 서체 따라하기": "2022년 기준, 그냥 [[Pretendard]]를 사용하면 된다.",
+        "Apple Newsroom \u1109\u1165\u110e\u1166 \u1104\u1161\u1105\u1161\u1112\u1161\u1100\u1175": "2022\ub144 \uae30\uc900, \uadf8\ub0e5 [[Pretendard]]\ub97c \uc0ac\uc6a9\ud558\uba74 \ub41c\ub2e4.",
         "Font Features": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
-        "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.",
+        "Pretendard\u110b\u1174 \u110b\u1161\u1109\u1171\u110b\u116e\u11ab \u110c\u1165\u11b7": "[[Pretendard]]\ub97c \uc790\uc138\ud558\uac8c \ud655\uc778\ud574\ubcf4\uba74, \ud55c\uae00 \uae00\uc790\uc758 \ud06c\uae30\uac00 \uc0b4\uc9dd \ub354 \ud06c\ub2e4.",
         "San Francisco": "### [[Pretendard]]",
-        "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
+        "\u1109\u1165\u110b\u116e\u11af \u1111\u1173\u1105\u1169": "\ubcf8 \ubaa9\uc801\uc740 [[Pretendard]]\uc640 \ube44\uc2b7\ud558\uac8c [[Apple]]\uc758 [[San Francisco]] \ud3f0\ud2b8\uc640 \uc720\uc0ac\ud55c \uc624\ud508 \uc18c\uc2a4 \uae00\uc528\uccb4\ub97c \ub9cc\ub4dc\ub294 \uac83\uc774\uc5c8\ub2e4."
     },
     "Use Your Mac as your Bluetooth Speaker": {
         "2023-01-26": "- [[Use Your Mac as your Bluetooth Speaker]]"
@@ -1387,7 +1253,7 @@ export const backlinks = {
         "React Native": "... by Meta Platforms, Inc. It is used to develop applications for [[Android]], Android TV, iOS, macOS, tvOS, Web, Windows, and UWP by enabling ...",
         "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
         "Torvalds": "... kernel, used by Linux distributions and other operating systems such as [[Android]]. He also created the distributed version control system Git. Linus Torvalds",
-        "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "\ubc18\uba74\uc5d0 State Machine \uae30\ubc18\uc73c\ub85c \uac00\uc7a5 \uadf8\ub7f4 \ub4ef\ud55c \uad6c\ud604\uccb4\ub85c \uae40\uc724\uc0c1\ub2d8\uc758 Java [[Android]] \ucc9c\uc9c0\uc778 \ud0a4\ubcf4\ub4dc(kys-zeda/chunjiin)\ub97c \ubc1c\uacac\ud588\ub2e4."
     },
     "FinTech and Justice": {
         "2022-10-18": "- [[FinTech and Justice]]"
@@ -1402,7 +1268,6 @@ export const backlinks = {
         "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",
         "Coding Tests": "- [x] [[0232 Implement Queue using Stacks]]"
     },
-    "일본 과학기술 총력전": {},
     "Packet Loss": {
         "Internetworking": "- [[Packet Loss]]",
         "Packet Switching vs Circuit Switching": "- Packet Switching can have [[Packet Loss]] (Some clients can leave if the restaurant is full)"
@@ -1413,7 +1278,6 @@ export const backlinks = {
     "Linux Permissions for Keys": {
         "2022-11-19": "  - [[Linux Permissions for Keys]]"
     },
-    "두 번째 뇌": {},
     "First Two Months of a Startup": {
         "The Dilemmas of Technopreneur": "That means the [[First Two Months of a Startup]] can be spent making the product rather than focusing on the ..."
     },
@@ -1423,7 +1287,7 @@ export const backlinks = {
     },
     "Midjourney": {
         "2022-12-28": "- [[Midjourney]]",
-        "하늘땅사람 개발 기록": "[[Midjourney]]를 이용해서 앱 아이콘을 그랬다."
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "[[Midjourney]]\ub97c \uc774\uc6a9\ud574\uc11c \uc571 \uc544\uc774\ucf58\uc744 \uadf8\ub7ac\ub2e4."
     },
     "CalliFontia": {
         "2022-08-10": "- [[CalliFontia]]",
@@ -1454,9 +1318,9 @@ export const backlinks = {
         "React Native": "> React Native is an open-source [[UIUX|UI]] software framework created by Meta Platforms, Inc. It is used to ...",
         "Simulated Annealing for Designs": "- we ditched all the lights, shadows, and textures in our [[UIUX|UI]] designs. And now we are slowly adding them back. This is ...",
         "Svelte": "... by the compiler, inserting calls to automatically recompute data and re-render [[UIUX|UI]] elements when the data they depend on is modified. This also ...",
-        "Toss Product Sans": "- 퍼센트, 쉼표, 더하기, 빼기, 화살표 등 [[UIUX|UI]] 요소로 활용되는 기호들의 가독성을 높여, 넓은 여백으로 디자인했죠. 또한 다른 글자와의 ...",
+        "Toss Product Sans": "- \ud37c\uc13c\ud2b8, \uc27c\ud45c, \ub354\ud558\uae30, \ube7c\uae30, \ud654\uc0b4\ud45c \ub4f1 [[UIUX|UI]] \uc694\uc18c\ub85c \ud65c\uc6a9\ub418\ub294 \uae30\ud638\ub4e4\uc758 \uac00\ub3c5\uc131\uc744 \ub192\uc5ec, \ub113\uc740 \uc5ec\ubc31\uc73c\ub85c \ub514\uc790\uc778\ud588\uc8e0. \ub610\ud55c \ub2e4\ub978 \uae00\uc790\uc640\uc758 ...",
         "UI AI": "- an [[UIUX]] experiment.",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 반영할 수 있나요?"
+        "\u1107\u1162\u1103\u1161\u11af\u110b\u1174\u1106\u1175\u11ab\u110c\u1169\u11a8 FE \u1100\u1162\u1107\u1161\u11af\u110c\u1161\u1100\u1161 \u110b\u1175\u11af\u1112\u1161\u1102\u1173\u11ab \u1107\u1165\u11b8 Q&A": "## Q. Front-end|\ud504\ub860\ud2b8\uc5d4\ub4dc \uac1c\ubc1c\uc790\uac00 [[UIUX|UI]]\ub098 [[UIUX|UX]]\uc5d0 \ub300\ud55c \uc544\uc774\ub514\uc5b4\uac00 \uc788\ub2e4\uba74 \uc774\ub97c \ubc18\uc601\ud560 \uc218 \uc788\ub098\uc694?"
     },
     "0235 LCA of a Binary Search Tree": {
         "2022-09-25": "- [[0235 LCA of a Binary Search Tree]]",
@@ -1466,7 +1330,6 @@ export const backlinks = {
         "2022-08-30": "- [[1046 Last Stone Weight]]",
         "Coding Tests": "- [[1046 Last Stone Weight]]"
     },
-    "역사의 집대성": {},
     "Remote Procedure Call": {
         "How to Build Software like an SRE": "- stringent [[Remote Procedure Call]] settings.",
         "Providing DOM API to Worker Threads": "## [[Remote Procedure Call]]"
@@ -1481,7 +1344,7 @@ export const backlinks = {
     "Readings": {
         "2022-09-07": "- [[Readings]]",
         "2022-12-04": "- [[Readings]]",
-        "2022-12-21": "- [[Readings]]: [[이 땅에 태어나서]], [[하얼빈]]",
+        "2022-12-21": "- [[Readings]]: [[\uc774 \ub545\uc5d0 \ud0dc\uc5b4\ub098\uc11c]], [[\ud558\uc5bc\ube48]]",
         "2022-12-24": "- [[Readings]]",
         "2023-01-03": "## [[Readings]]",
         "2023-01-23": "- [[Readings]]"
@@ -1514,7 +1377,6 @@ export const backlinks = {
     "Journal is a Waypoint, nothing more": {
         "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
     },
-    "민사고": {},
     "Joining Thread": {
         "Internetworking": "- [[Joining Thread]]"
     },
@@ -1523,7 +1385,7 @@ export const backlinks = {
     },
     "Now Page": {
         "2022-10-17": "- [[Now Page]]",
-        "Stephan Ango": "- [[Now Page]]: What I'm doing now — Stephan Ango"
+        "Stephan Ango": "- [[Now Page]]: What I'm doing now \u2014 Stephan Ango"
     },
     "Infinite Canvas": {
         "2022-10-10": "- [[Infinite Canvas]]",
@@ -1538,7 +1400,7 @@ export const backlinks = {
         "2022-06-20": "Note that this is not [[Apple]] Passkey. This is the Privacy Pass standard. Apple Passkey is a ...",
         "2022-06-21": "However, [[Apple]] Feedback Assistant is not a developer Q&A platform.",
         "2022-07-18": "- [[Apple]] seems (pretty much) always right...",
-        "2022-10-13": "... iPhone to be their next phone; 31% of teens own an [[Apple]] Watch: Taking Stock With Teens® - Fall 2022",
+        "2022-10-13": "... iPhone to be their next phone; 31% of teens own an [[Apple]] Watch: Taking Stock With Teens\u00ae - Fall 2022",
         "2022-10-18": "- [[Apple]] bought all of the advertising space in Newsweek's November/December special election ...",
         "3D": "- USDZ for [[Apple]]",
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
@@ -1546,12 +1408,12 @@ export const backlinks = {
         "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
         "Apple Silicon": "- Chips made by [[Apple]]",
         "Brunch violates SF terms of use": "- Korean writing service Brunch violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web ...",
-        "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
+        "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting \u2192 [[Font]].",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If you still use `OSSpinLock`, you'll get ...",
         "Google": "... one of the Big Five American information technology companies, alongside Amazon, [[Apple]], Meta, and [[Microsoft]]. Google",
         "Horizontally Stacked Interface": "## [[Apple]] Concierge App for Genius Bars",
         "How is WebAssembly cross-platform when Assembly is not": "... it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?",
-        "Intracranial": "  - 👍 [[Apple]]-ish design language",
+        "Intracranial": "  - \ud83d\udc4d [[Apple]]-ish design language",
         "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[Apple]] Music have a market penetration of next to nothing.",
         "Perceptual Hashing": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
@@ -1559,8 +1421,8 @@ export const backlinks = {
         "San Francisco": "- Font by [[Apple]]",
         "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] iOS 16 update.",
         "Swift": "- Programming Language for [[Apple]] platforms",
-        "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다.",
-        "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "[[Apple|애플]] 아이폰의 국내 인기는 점점 상승하고 있다."
+        "\u1109\u1165\u110b\u116e\u11af \u1111\u1173\u1105\u1169": "\ubcf8 \ubaa9\uc801\uc740 Pretendard\uc640 \ube44\uc2b7\ud558\uac8c [[Apple]]\uc758 [[San Francisco]] \ud3f0\ud2b8\uc640 \uc720\uc0ac\ud55c \uc624\ud508 \uc18c\uc2a4 \uae00\uc528\uccb4\ub97c \ub9cc\ub4dc\ub294 \uac83\uc774\uc5c8\ub2e4.",
+        "\u110b\u1161\u110b\u1175\u1111\u1169\u11ab \u110e\u1165\u11ab\u110c\u1175\u110b\u1175\u11ab \u110c\u1161\u1111\u1161\u11ab \u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173\u110b\u1174 \u1109\u1175\u11af\u1112\u1167\u11ab \u1100\u1161\u1102\u1173\u11bc\u1109\u1165\u11bc \u110b\u1167\u11ab\u1100\u116e": "[[Apple|\uc560\ud50c]] \uc544\uc774\ud3f0\uc758 \uad6d\ub0b4 \uc778\uae30\ub294 \uc810\uc810 \uc0c1\uc2b9\ud558\uace0 \uc788\ub2e4."
     },
     "Person 88B488": {
         "Project PEOPLE": "- [[Person 88B488]]"
@@ -1586,7 +1448,7 @@ export const backlinks = {
         "2022-10-18": "- [[Preservation of Data]]"
     },
     "Antifragile": {
-        "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다."
+        "\u110b\u1167\u11a8\u1109\u1161\u110b\u1174 \u110c\u1175\u11b8\u1103\u1162\u1109\u1165\u11bc": "\uc989, \ubcf8\uc9c8\uc801\uc73c\ub85c [[Antifragile|\uc548\ud2f0\ud504\ub798\uc9c8]]\uc774\ub2e4."
     },
     "Pipelining": {
         "2022-12-08": "- [[Pipelining]]",
@@ -1600,7 +1462,6 @@ export const backlinks = {
         "2022-10-19": "- [[Obsidian Ava]]",
         "Photoshop for Text": "- I'm excited to see community efforts like [[Obsidian Ava]] driving in this direction."
     },
-    "국제 계열과 계열 변경 이야기": {},
     "Atomic Notes": {
         "Andy Matuschak": "Provided a new vision of online [[Atomic Notes|Zettelkasten]].",
         "Intracranial": "  - [[Atomic Notes]]"
@@ -1626,7 +1487,6 @@ export const backlinks = {
     "Example References for Alter": {
         "Project Alter": "- [[Example References for Alter]]"
     },
-    "코드클럽": {},
     "Conditional Probability": {
         "2023-01-23": "- [[Conditional Probability]]"
     },
@@ -1634,7 +1494,6 @@ export const backlinks = {
         "2022-12-09": "- [[Parallelism]]",
         "Computer Systems": "- [[Parallelism]]"
     },
-    "Tailwind CSS 톺아보기": {},
     "JSON": {
         "2022-07-20": "... The client must know what each field indicates to parse a [[JSON]] response. Therefore, the message is not self-describing",
         "2022-10-17": "... links. After that, the corresponding component will read the indexed backlink [[JSON]] to display it on the client side.",
@@ -1720,7 +1579,7 @@ export const backlinks = {
         "San Francisco": "- Has a strict usage model. No [[Web Typography|Webfont]] use"
     },
     "Rust": {
-        "2022-06-14": "## [[Rust]]의 사용에 대하여",
+        "2022-06-14": "## [[Rust]]\uc758 \uc0ac\uc6a9\uc5d0 \ub300\ud558\uc5ec",
         "2022-09-05": "- Unreal Rust Unreal [[Rust]]",
         "2022-11-30": "- Will this be enough to match Go's or [[Rust]]'s performance? Unlikely, but the thing is that the current JavaScript tools ...",
         "Dioxus": "They are written in [[Rust]], inspired by [[React]].",
@@ -1825,10 +1684,8 @@ export const backlinks = {
     "Regulation of Fake News": {
         "2022-12-28": "- [[Regulation of Fake News]]"
     },
-    "식영부원의 관점에서 바라본 치킨데이": {},
-    "라즈베리 파이로 스마트 오디오 시스템 만들기": {},
     "ARM Architecture": {
-        "2022-06-10": "... — which has \"massive implications for future security work on all [[ARM Architecture|ARM]] systems with pointer authentication enabled,\" says Joseph Ravichandran, a PhD student ...",
+        "2022-06-10": "... \u2014 which has \"massive implications for future security work on all [[ARM Architecture|ARM]] systems with pointer authentication enabled,\" says Joseph Ravichandran, a PhD student ...",
         "2022-11-03": "- [[ARM Architecture]]",
         "Computer Systems": "- [[ARM Architecture]]",
         "How is WebAssembly cross-platform when Assembly is not": "... designed similarly to ASM. Therefore, compiling WebAssembly|WASM to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can ...",
@@ -1846,7 +1703,8 @@ export const backlinks = {
     },
     "Coding Tests in Swift": {
         "2023-01-28": "- [[Coding Tests in Swift]]",
-        "2023-01-29": "- [[Coding Tests in Swift]]"
+        "2023-01-29": "- [[Coding Tests in Swift]]",
+        "2023-01-30": "- [[Coding Tests in Swift]]"
     },
     "Compiling": {
         "2023-01-25": "- [[Compiling]]",
@@ -1854,7 +1712,6 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "- To run WebAssembly|WASM, the Web Browser|browser must still [[Compiling|compile]] the WebAssembly|WASM code into ASM code when executing; in that way, ...",
         "Preprocessor": "`#ifdef DEBUG` and `#endif` also exclude that block when [[compiling]] the production version."
     },
-    "배달의민족 FE 개발자가 일하는 법 Q&A": {},
     "Roam Research": {
         "Better Obsidian": "  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].",
         "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser",
@@ -1862,7 +1719,7 @@ export const backlinks = {
         "Tools Must Vanish": "I believe that [[Roam Research]] and [[Logseq]] are at the culminating position of this simplicity."
     },
     "DOM": {
-        "2022-06-14": "- Brane에서 Brane [[DOM]]을 만드는 것은 구현 전략의 일부일 뿐, Brane DOM 자체는 Brane이 아니다.",
+        "2022-06-14": "- Brane\uc5d0\uc11c Brane [[DOM]]\uc744 \ub9cc\ub4dc\ub294 \uac83\uc740 \uad6c\ud604 \uc804\ub7b5\uc758 \uc77c\ubd80\uc77c \ubfd0, Brane DOM \uc790\uccb4\ub294 Brane\uc774 \uc544\ub2c8\ub2e4.",
         "2022-06-22": "  - the question revolves: what [[DOM]] API should [[WorkerDOM]] support?",
         "2022-06-26": "- Explore SharedArrayBuffer, Atomic, and WorkerDOM's Binary [[DOM]] manipulation.",
         "2022-06-27": "- Confirm WorkerDOM's Binary [[DOM]] Manipulation channel.",
@@ -1881,7 +1738,6 @@ export const backlinks = {
         "2022-08-04": "### [[CELLO (Product)]]",
         "CELLO": "- [[CELLO (Product)]]"
     },
-    "Nota": {},
     "Wikipedia": {
         "2022-06-12": "- Current PKM software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays a crucial role in graphing. ...",
         "2022-07-01": "...        | Notes are in [[Wikipedia]] Style           ...",
@@ -1901,7 +1757,7 @@ export const backlinks = {
         "2022-12-28": "- [[Ray.st]]"
     },
     "Project": {
-        "2022-06-14": "- 티어링이란 이 [[Project|프로젝트]]가 빌딩 블록으로 제공될 때, 아주 필수적인 코어 기능으로 제공될 영역과, ON-OFF ...",
+        "2022-06-14": "- \ud2f0\uc5b4\ub9c1\uc774\ub780 \uc774 [[Project|\ud504\ub85c\uc81d\ud2b8]]\uac00 \ube4c\ub529 \ube14\ub85d\uc73c\ub85c \uc81c\uacf5\ub420 \ub54c, \uc544\uc8fc \ud544\uc218\uc801\uc778 \ucf54\uc5b4 \uae30\ub2a5\uc73c\ub85c \uc81c\uacf5\ub420 \uc601\uc5ed\uacfc, ON-OFF ...",
         "2022-06-22": "## Brane [[Project]] Demo Spec",
         "2022-07-01": "I like the CODE Procedure in PARA architecture as a [[project]] management system, which does more than [[PKM]]. To be exact, [[PKM]] ...",
         "2022-08-03": "Brane is a vast [[project]] that a single intern can't finish.",
@@ -1936,7 +1792,7 @@ export const backlinks = {
         "2022-12-12": "## [[Project]]",
         "2022-12-18": "## [[Project]]",
         "2022-12-28": "## [[Project]]",
-        "2022년 11월 한 달간 일기 쓰기": "- 水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
+        "2022\u1102\u1167\u11ab 11\u110b\u116f\u11af \u1112\u1161\u11ab \u1103\u1161\u11af\u1100\u1161\u11ab \u110b\u1175\u11af\u1100\u1175 \u110a\u1173\u1100\u1175": "- \u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]",
         "2023-01-02": "## [[Project]]",
         "2023-01-03": "## [[Project]]",
         "2023-01-11": "## [[Project]]",
@@ -1950,7 +1806,7 @@ export const backlinks = {
         "2023-01-21": "## [[Project]]",
         "2023-01-22": "## [[Project]]",
         "2023-01-25": "## [[Project]]",
-        "2023년 1월과 2월에 하루 25분 조깅하기": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
+        "2023\u1102\u1167\u11ab 1\u110b\u116f\u11af\u1100\u116a 2\u110b\u116f\u11af\u110b\u1166 \u1112\u1161\u1105\u116e 25\u1107\u116e\u11ab \u110c\u1169\u1100\u1175\u11bc\u1112\u1161\u1100\u1175": "\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]",
         "AIs.txt": "- [[Project]]",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
@@ -1960,11 +1816,11 @@ export const backlinks = {
         "Book Metadata as a Service": "Someday [[Project]]. Open API that returns Book Metadata when given an ISBN.",
         "Brane": "Brane is an experimental [[project]] that aims to build a secure, convenient third-party app environment based ...",
         "CELLO": "- [[Project]]",
-        "CalliFontia": "Someday [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
+        "CalliFontia": "Someday [[Project]]. [[Apple]] Pencil Handwriting \u2192 [[Font]].",
         "Chopstick Game": "Someday [[Project]]. Digital implementation of the chopstick game with competitive AI",
         "Coding Tests": "- [[Project]]",
-        "Cube": "Someday [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
-        "Developing Review Notes for Obsidian": "2022-07-19 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
+        "Cube": "Someday [[Project]]. \uc778\uc2a4\ud0c0 \uc2a4\ud1a0\ub9ac/\ud3ec\uc2a4\ud2b8 \uae00 \uc5c5\ub85c\ub4dc\uc6a9 \uae00\uc4f0\uae30 \uc571.",
+        "Developing Review Notes for Obsidian": "2022-07-19 \uc800\ub141\uc5d0 \uc801\ub2f9\ud788 \uacf5\ud5c8\ud55c \ub290\ub08c\uc774 \ub4e4\uc5b4 \ubbf8\ub904\uc654\ub358 \uc0ac\uc774\ub4dc [[Project|\ud504\ub85c\uc81d\ud2b8]]\ub97c \ud574\ubcf8\ub2e4.",
         "Digital Bookmarks for Physical Books": "Someday [[Project]]. Can we bookmark physical books with digital devices? i.e. scan it ...",
         "Dynamic Island on the Web": "- Done [[Project]]",
         "Embeddable GitHub Repo Card But It Looks Great": "Someday [[Project]].",
@@ -1976,13 +1832,13 @@ export const backlinks = {
         "Guestbook": "- Someday [[Project]]",
         "Intracranial": "Someday [[Project]]. Infinite Canvas for Zettlekasten.",
         "Jira": "... issue-tracking product developed by Atlassian that allows bug tracking and agile [[project]] management. Jira (software)>)",
-        "Krafton Way": "... 능력을 검증해야 한다\"고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
+        "Krafton Way": "... \ub2a5\ub825\uc744 \uac80\uc99d\ud574\uc57c \ud55c\ub2e4\"\uace0 \ub9d0\ud588\ub2e4. \uacbd\uc601\uc9c4\uc740 \uae40\ucc3d\ud55c\uc5d0\uac8c \uc11c\ub85c\uc758 \uc5ed\ud560\uacfc \ucc45\uc784\uc744 \uac15\uc870\ud588\ub2e4. \uacbd\uc601\uc9c4\uc740 [[Project|\ud504\ub85c\uc81d\ud2b8]]\uc640 \ud300, \uc8fc\uc694 \uac1c\ubc1c\uc790\ub97c \ud3c9\uac00\ud558\uace0 \ubcf4\uc0c1 \uc218\uc900\uc744 \uacb0\uc815\ud55c\ub2e4. Project|\ud504\ub85c\uc81d\ud2b8\uc758 \ucc45\uc784\uc790\uc778 PD\ub294 \uac70\uae30\uc5d0 ...",
         "Kubernetes": "... designed Kubernetes, but the Cloud Native Computing Foundation now maintains the [[project]].",
         "Markdown Email Client": "Someday [[Project]]. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. ...",
         "Not-So-Procrastinating Lazy Loading": "Someday [[Project]]. `img loading=lazy`, but if the network idles for a given timespan, ...",
         "Notion": "> Notion is a [[project]] management and note-taking software platform designed to help members of companies ...",
         "Off The Record": "Someday [[Project]]. Disappearing message for iMessage.",
-        "Old Fashioned Camera": "Someday [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
+        "Old Fashioned Camera": "Someday [[Project]]. iPhone 4 \uc2dc\uc808 \uadf8 \uad6c\uc9c4 \uac10\uc131\uc758 \uce74\uba54\ub77c.",
         "Open Graph Image as a Service": "Someday [[Project]]. Request Open Graph Images with URI, `POST` payload.",
         "PDF": "... needed to display it. PDF has its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John Warnock in 1991. PDF",
         "Person 1B5A5B": "- Junior = [[Project]] Executors.",
@@ -1991,37 +1847,38 @@ export const backlinks = {
         "Project PEOPLE": "- [[Project]]",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Redactor for iPhone": "Someday [[Project]].",
-        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
+        "Snowpack\u110b\u1173\u1105\u1169 WASM \u1109\u1175\u110c\u1161\u11a8\u1112\u1161\u1100\u1175": "- \ub2e4\uc74c \ubb38\uc7a5\uc744 \ud1b5\ud574 `create-snowpack-app`\uc73c\ub85c gif-converter\ub77c\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]\ub97c \uc0dd\uc131\ud55c\ub2e4.",
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
-        "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
+        "Tailwind CSS \u1110\u1169\u11c1\u110b\u1161\u1107\u1169\u1100\u1175": "## [[Project|\ud504\ub85c\uc81d\ud2b8]] \ubaa9\ud45c",
         "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
         "TossFace Playground": "- [[Project]] [[Done]]",
         "Use Your Mac as your Bluetooth Speaker": "Someday [[Project]]",
         "Vannevar Bush": "... in radar and the initiation and early administration of the Manhattan [[Project]]. He emphasized the importance of scientific research to national security and ...",
         "Wikiversity": "> Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning projects, and research for use in ...",
         "elevatorpitch.com": "Someday [[Project]]. Simple Demo Website Creator to gauge market interest.",
-        "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 `http` 모듈 (당연히 `express` 모듈도) 없이 `http` 서버를 구현하는 Project|프로젝트가 ...",
+        "http \u110b\u1165\u11b9\u1102\u1173\u11ab http \u1109\u1165\u1107\u1165 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175": "\uc6b0\uc544\ud55c\ud14c\ud06c\ucea0\ud504 2\uc77c\ucc28 [[Project|\ud504\ub85c\uc81d\ud2b8]] \uc911 `http` \ubaa8\ub4c8 (\ub2f9\uc5f0\ud788 `express` \ubaa8\ub4c8\ub3c4) \uc5c6\uc774 `http` \uc11c\ubc84\ub97c \uad6c\ud604\ud558\ub294 Project|\ud504\ub85c\uc81d\ud2b8\uac00 ...",
         "iiframe": "Someday [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
         "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert the equation into $\\TeX$.",
         "linkflags.crx": "Packing Linkflags as Chrome Extensions Someday [[Project]]",
-        "postcredit.info": "Someday [[Project]]. 영화 쿠키 있나요?",
+        "postcredit.info": "Someday [[Project]]. \uc601\ud654 \ucfe0\ud0a4 \uc788\ub098\uc694?",
         "sem.sh": "Someday [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per repository, ...",
-        "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> 그러나 누군가가 온갖 어려움을 무릅쓰고 반드시 성취해야하는 [[Project|프로젝트]]이다.",
-        "두 번째 뇌": "나는 더 간단하게 [[Project|프로젝트]], 연구, 그리고 독서록으로 분리했다.",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "하지만 이렇게 떠나보낼 수는 없다. 최근 알게 된 [[Project|프로젝트]] 중 라즈베리 파이로 스마트 오디오 시스템을 구축하는 Project|프로젝트가 있었다. 블루투스, 에어플레이, ...",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 여러 이유로 못하는 팀도 있다. 물론 e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, 품질 관리) 팀 같은 경우에는 e2e ...",
-        "사회과부도": "Someday [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
-        "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
-        "역사의 집대성": "흩어진 개인사를 하나의 기록소 안에 모두 집대성하는 [[Project|프로젝트]]이다.",
-        "조선왕조실록": "Someday [[Project]]. Fast and Modern version of sillok.history.go.kr.",
-        "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다.",
-        "하늘땅사람": "... 없이 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 [[Project|프로젝트]]."
+        "\u1102\u116e\u1100\u116e\u11ab\u1100\u1161\u1102\u1173\u11ab \u110b\u1169\u11ab\u1100\u1161\u11bd \u110b\u1165\u1105\u1167\u110b\u116e\u11b7\u110b\u1173\u11af \u1106\u116e\u1105\u1173\u11b8\u110a\u1173\u1100\u1169 \u1107\u1161\u11ab\u1103\u1173\u1109\u1175 \u1109\u1165\u11bc\u110e\u1171\u1112\u1162\u110b\u1163 \u1112\u1161\u1102\u1173\u11ab \u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173\u110b\u1175\u1103\u1161": "> \uadf8\ub7ec\ub098 \ub204\uad70\uac00\uac00 \uc628\uac16 \uc5b4\ub824\uc6c0\uc744 \ubb34\ub985\uc4f0\uace0 \ubc18\ub4dc\uc2dc \uc131\ucde8\ud574\uc57c\ud558\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]\uc774\ub2e4.",
+        "\u1103\u116e \u1107\u1165\u11ab\u110d\u1162 \u1102\u116c": "\ub098\ub294 \ub354 \uac04\ub2e8\ud558\uac8c [[Project|\ud504\ub85c\uc81d\ud2b8]], \uc5f0\uad6c, \uadf8\ub9ac\uace0 \ub3c5\uc11c\ub85d\uc73c\ub85c \ubd84\ub9ac\ud588\ub2e4.",
+        "\u1105\u1161\u110c\u1173\u1107\u1166\u1105\u1175 \u1111\u1161\u110b\u1175\u1105\u1169 \u1109\u1173\u1106\u1161\u1110\u1173 \u110b\u1169\u1103\u1175\u110b\u1169 \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175": "\ud558\uc9c0\ub9cc \uc774\ub807\uac8c \ub5a0\ub098\ubcf4\ub0bc \uc218\ub294 \uc5c6\ub2e4. \ucd5c\uadfc \uc54c\uac8c \ub41c [[Project|\ud504\ub85c\uc81d\ud2b8]] \uc911 \ub77c\uc988\ubca0\ub9ac \ud30c\uc774\ub85c \uc2a4\ub9c8\ud2b8 \uc624\ub514\uc624 \uc2dc\uc2a4\ud15c\uc744 \uad6c\ucd95\ud558\ub294 Project|\ud504\ub85c\uc81d\ud2b8\uac00 \uc788\uc5c8\ub2e4. \ube14\ub8e8\ud22c\uc2a4, \uc5d0\uc5b4\ud50c\ub808\uc774, ...",
+        "\u1107\u1162\u1103\u1161\u11af\u110b\u1174\u1106\u1175\u11ab\u110c\u1169\u11a8 FE \u1100\u1162\u1107\u1161\u11af\u110c\u1161\u1100\u1161 \u110b\u1175\u11af\u1112\u1161\u1102\u1173\u11ab \u1107\u1165\u11b8 Q&A": "... \uc5ec\ub7ec \uc774\uc720\ub85c \ubabb\ud558\ub294 \ud300\ub3c4 \uc788\ub2e4. \ubb3c\ub860 e2e \ud14c\uc2a4\ud2b8\ub294 \uc911\uc694\ud558\ub2e4. \ubcf5\uc7a1\ub3c4\uac00 \uc62c\ub77c\uac04 [[Project|\ud504\ub85c\uc81d\ud2b8]]\uac00 \ub108\ubb34 \ub9ce\uae30\uc5d0, QA (Quality Assurance, \ud488\uc9c8 \uad00\ub9ac) \ud300 \uac19\uc740 \uacbd\uc6b0\uc5d0\ub294 e2e ...",
+        "\u1109\u1161\u1112\u116c\u1100\u116a\u1107\u116e\u1103\u1169": "Someday [[Project]]. \ub9c8\uc74c\ub300\ub85c \ubcc0\ud615\uc744 \uac00\ud560 \uc218 \uc788\ub294 \uc9c0\ub3c4.",
+        "\u1109\u1165\u110b\u116e\u11af \u1111\u1173\u1105\u1169": "2021\ub144\uc5d0 \uc9c4\ud589\ud558\ub2e4 \uc911\ub2e8\ud55c [[Project|\ud504\ub85c\uc81d\ud2b8]]\uc774\ub2e4.",
+        "\u110b\u1167\u11a8\u1109\u1161\u110b\u1174 \u110c\u1175\u11b8\u1103\u1162\u1109\u1165\u11bc": "\ud769\uc5b4\uc9c4 \uac1c\uc778\uc0ac\ub97c \ud558\ub098\uc758 \uae30\ub85d\uc18c \uc548\uc5d0 \ubaa8\ub450 \uc9d1\ub300\uc131\ud558\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]\uc774\ub2e4.",
+        "\u110c\u1169\u1109\u1165\u11ab\u110b\u116a\u11bc\u110c\u1169\u1109\u1175\u11af\u1105\u1169\u11a8": "Someday [[Project]]. Fast and Modern version of sillok.history.go.kr.",
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "- \ud150\uc158\uc774 \ub9ce\uc774 \ub5a8\uc5b4\uc9c0\uace0 \uc788\ub2e4. [[Project|\ud504\ub85c\uc81d\ud2b8]]\uac00 \uc810\uc810 \uc7a5\uae30\ud654\ub418\uc5b4\uac00\uba70 \ud65c\ub825\uc744 \uc783\uc5b4\uac04\ub2e4. \ub108\ubb34 \uc624\ub79c \uae30\uac04 \ubc29\uce58\ub418\uc5c8\ub2e4.",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7": "... \uc5c6\uc774 \uc544\uc774\ud3f0\uc5d0\uc11c\ub3c4 \uac24\ub7ed\uc2dc\uc640 \ub3d9\uc77c\ud55c \ud0a4\ubcf4\ub4dc \uacbd\ud5d8\uc744 \ud560 \uc218 \uc788\ub3c4\ub85d \ud0a4\ubcf4\ub4dc\ub97c \uc81c\uc791\ud558\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]."
     },
-    "조선의 노비제도에 관한 보고": {},
     "1448 Count Good Nodes in Binary Tree": {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]"
     },
-    "한민족은 해적되었다": {},
+    "0973 K Closest Points to Origin": {
+        "Coding Tests": "- [ ] [[0973 K Closest Points to Origin]]"
+    },
     "0070 Climbing Stairs": {
         "Coding Tests": "- [x] [[0070 Climbing Stairs]]"
     },
@@ -2038,11 +1895,11 @@ export const backlinks = {
         "Matt Rickard": "- [[Post Git]]"
     },
     "Vannevar Bush": {
-        "Memex": "> 그것은 기억의 확장이자... 기억의 친밀한 보조 장치일 것입니다. — [[Vannevar Bush|버니바 부시]].",
+        "Memex": "> \uadf8\uac83\uc740 \uae30\uc5b5\uc758 \ud655\uc7a5\uc774\uc790... \uae30\uc5b5\uc758 \uce5c\ubc00\ud55c \ubcf4\uc870 \uc7a5\uce58\uc77c \uac83\uc785\ub2c8\ub2e4. \u2014 [[Vannevar Bush|\ubc84\ub2c8\ubc14 \ubd80\uc2dc]].",
         "Tools Must Vanish": "... I see is junk. It's never the Zettelkasten of the next [[Vannevar Bush]]; it's always a setup with tens of plugins, a daily note ..."
     },
     "DX": {
-        "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
+        "Developing Review Notes for Obsidian": "- \uc635\uc2dc\ub514\uc5b8 API \ubb38\uc11c\uc758 [[DX]] \ub9e4\uc6b0 \ubd88\uce5c\uc808",
         "Grammarly": "- [[dx]] team",
         "Heap (Computer Systems)": "- [[DX]]",
         "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's.",
@@ -2052,13 +1909,13 @@ export const backlinks = {
         "2023-01-09": "- Can we use [[GitHub]]'s subscribe feature as a [[Newsletter Network]]?",
         "Apple-like Block Interface": "## [[GitHub]]",
         "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
-        "Snowpack으로 WASM 시작하기": "## [[GitHub]] Pages에 Snowpack App 호스팅 및 시행착오",
+        "Snowpack\u110b\u1173\u1105\u1169 WASM \u1109\u1175\u110c\u1161\u11a8\u1112\u1161\u1100\u1175": "## [[GitHub]] Pages\uc5d0 Snowpack App \ud638\uc2a4\ud305 \ubc0f \uc2dc\ud589\ucc29\uc624",
         "Social Coding": "- [[GitHub]] is removing the trending tab at the end of this month ...",
         "Svelte": "... Its source code is licensed under MIT License and hosted on [[GitHub]]. Svelte",
-        "YCLF 주간 사용자 1000명": "[[GitHub]] 이슈를 남겨준 분들도 계셨고 메일을 보내주신 분들도 계셨다. 유용한 피드백을 많이 ...",
+        "YCLF \u110c\u116e\u1100\u1161\u11ab \u1109\u1161\u110b\u116d\u11bc\u110c\u1161 1000\u1106\u1167\u11bc": "[[GitHub]] \uc774\uc288\ub97c \ub0a8\uaca8\uc900 \ubd84\ub4e4\ub3c4 \uacc4\uc168\uace0 \uba54\uc77c\uc744 \ubcf4\ub0b4\uc8fc\uc2e0 \ubd84\ub4e4\ub3c4 \uacc4\uc168\ub2e4. \uc720\uc6a9\ud55c \ud53c\ub4dc\ubc31\uc744 \ub9ce\uc774 ...",
         "sem.sh": "- [[GitHub]] Profile Widget",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "우선 balenaSound GitHub Repository에 들어가서 저장소를 내려받는다. [[GitHub]]을 사용하지 않는 사람이라면 웹사이트에 있는 Clone or Download 버튼을 누른 뒤 ...",
-        "배달의민족 FE 개발자가 일하는 법 발표": "... 사용했다. 빠른 것 같고 좋은데, 장애를 겪고 나면 생각이 달라진다. 예전에는 [[GitHub]]를 사용하다가 요즘에는 비슷한 도구 (GitLab) 을 사용한다. 그래서 PR을 하고 올리면 ..."
+        "\u1105\u1161\u110c\u1173\u1107\u1166\u1105\u1175 \u1111\u1161\u110b\u1175\u1105\u1169 \u1109\u1173\u1106\u1161\u1110\u1173 \u110b\u1169\u1103\u1175\u110b\u1169 \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175": "\uc6b0\uc120 balenaSound GitHub Repository\uc5d0 \ub4e4\uc5b4\uac00\uc11c \uc800\uc7a5\uc18c\ub97c \ub0b4\ub824\ubc1b\ub294\ub2e4. [[GitHub]]\uc744 \uc0ac\uc6a9\ud558\uc9c0 \uc54a\ub294 \uc0ac\ub78c\uc774\ub77c\uba74 \uc6f9\uc0ac\uc774\ud2b8\uc5d0 \uc788\ub294 Clone or Download \ubc84\ud2bc\uc744 \ub204\ub978 \ub4a4 ...",
+        "\u1107\u1162\u1103\u1161\u11af\u110b\u1174\u1106\u1175\u11ab\u110c\u1169\u11a8 FE \u1100\u1162\u1107\u1161\u11af\u110c\u1161\u1100\u1161 \u110b\u1175\u11af\u1112\u1161\u1102\u1173\u11ab \u1107\u1165\u11b8 \u1107\u1161\u11af\u1111\u116d": "... \uc0ac\uc6a9\ud588\ub2e4. \ube60\ub978 \uac83 \uac19\uace0 \uc88b\uc740\ub370, \uc7a5\uc560\ub97c \uacaa\uace0 \ub098\uba74 \uc0dd\uac01\uc774 \ub2ec\ub77c\uc9c4\ub2e4. \uc608\uc804\uc5d0\ub294 [[GitHub]]\ub97c \uc0ac\uc6a9\ud558\ub2e4\uac00 \uc694\uc998\uc5d0\ub294 \ube44\uc2b7\ud55c \ub3c4\uad6c (GitLab) \uc744 \uc0ac\uc6a9\ud55c\ub2e4. \uadf8\ub798\uc11c PR\uc744 \ud558\uace0 \uc62c\ub9ac\uba74 ..."
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
@@ -2087,7 +1944,6 @@ export const backlinks = {
         "2022-09-05": "- [[0704 Binary Search]]",
         "Coding Tests": "- [x] [[0704 Binary Search]]"
     },
-    "개성은 자연스레 주어지지 않는다": {},
     "Jumpsite": {
         "2022-10-13": "- [x] [[Jumpsite]]",
         "2022-11-29": "- [[Jumpsite]]",
@@ -2166,7 +2022,6 @@ export const backlinks = {
         "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
         "Synthography": "- [[Stable Diffusion]]"
     },
-    "Pretendard의 아쉬운 점": {},
     "Guestbook": {
         "2022-10-15": "- [[Guestbook]]"
     },
@@ -2178,7 +2033,6 @@ export const backlinks = {
     "Apple Easter Egg": {
         "2022-11-19": "  - [[Apple Easter Egg]]"
     },
-    "월급만큼 중요한 것은 자존급이다": {},
     "Notion": {
         "2022-07-10": "- [[Notion]] opened a new paradigm for low-code websites. [[Project PEOPLE]] now create ...",
         "2022-11-16": "- Notion AI: [[Notion]]'s [[Synthote]]",
@@ -2189,16 +2043,16 @@ export const backlinks = {
     },
     "CELLO": {
         "2022-08-10": "- [[CELLO]]",
-        "CELLO (Product)": "그것의 Consumer-side Product가 [[CELLO]]",
+        "CELLO (Product)": "\uadf8\uac83\uc758 Consumer-side Product\uac00 [[CELLO]]",
         "ULLO": "- Unsplash [[CELLO]]"
     },
     "Toss": {
         "Korean Banks Suck": "This is why I like [[Toss]]...",
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve this information inequality in the financial ...",
-        "Supergravity Products": "... 작은 아이디어 (금융 슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
+        "Supergravity Products": "... \uc791\uc740 \uc544\uc774\ub514\uc5b4 (\uae08\uc735 \uc288\ud37c \uc571 x \uce5c\uad6c\uc5d0\uac8c \uc1a1\uae08 \uc26c\uc6b4 \uc571 o) [[Toss]]",
         "Toss Product Sans": "- Font by [[Toss]].",
         "Tossface": "- Emoji Font by [[Toss]]",
-        "유난한 도전": "[[Toss|토스]]는 더이상 장기자랑에 나가는 초등학생일 수 없었다."
+        "\u110b\u1172\u1102\u1161\u11ab\u1112\u1161\u11ab \u1103\u1169\u110c\u1165\u11ab": "[[Toss|\ud1a0\uc2a4]]\ub294 \ub354\uc774\uc0c1 \uc7a5\uae30\uc790\ub791\uc5d0 \ub098\uac00\ub294 \ucd08\ub4f1\ud559\uc0dd\uc77c \uc218 \uc5c6\uc5c8\ub2e4."
     },
     "Clock skew detected": {
         "Internetworking": "- [[Clock skew detected]]"
@@ -2208,12 +2062,12 @@ export const backlinks = {
     },
     "Bayes Theorem": {
         "2023-01-23": "- [[Bayes Theorem]]",
-        "Probability": "- $P(H|E)$ → [[Bayes Theorem]]"
+        "Probability": "- $P(H|E)$ \u2192 [[Bayes Theorem]]"
     },
     "Scheduler": {
         "2022-07-11": "Brane requires explicit [[Scheduler|schedulers]] and abstractions to overcome these shortcomings.",
         "2022-07-12": "### [[Scheduler|Schedulers]] in [[WorkerDOM]]",
-        "2022-07-19": "오늘은 반드시 WorkerDOM [[Scheduler]]를 잡아내자.",
+        "2022-07-19": "\uc624\ub298\uc740 \ubc18\ub4dc\uc2dc WorkerDOM [[Scheduler]]\ub97c \uc7a1\uc544\ub0b4\uc790.",
         "Preemptive Multitasking": "... interrupt mechanism, which suspends the currently executing process and invokes a [[scheduler]] to determine which process should execute next. Therefore, all processes will ..."
     },
     "Text-based Presentations": {
@@ -2247,7 +2101,6 @@ export const backlinks = {
     "0169 Majority Element": {
         "Coding Tests": "- [x] [[0169 Majority Element]]"
     },
-    "Mac을 Command+L로 잠그는 방법": {},
     "Done": {
         "Dynamic Island on the Web": "- [[Done]] [[Project]]",
         "TossFace Playground": "- Project [[Done]]"
@@ -2261,19 +2114,18 @@ export const backlinks = {
         "2022-10-13": "- [[Obsidian]] is now out of beta",
         "2022-10-21": "- Stephan Ango: also created [[Obsidian]] Minimal Settings.",
         "Better Obsidian": "## Extension Ideas for [[Obsidian]]",
-        "Developing Review Notes for Obsidian": "이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 API 문서를 탐독하면서 이런 저런 발견 ...",
+        "Developing Review Notes for Obsidian": "\uc774 \ubb38\uc11c\ub294 [[Obsidian]]\uc744 \uc2a4\uce90\ud3f4\ub529\ud558\ub294 \ubc29\ubc95\uc5d0 \ub300\ud574 \ub2e4\ub8e8\uba70 \uc635\uc2dc\ub514\uc5b8 API \ubb38\uc11c\ub97c \ud0d0\ub3c5\ud558\uba74\uc11c \uc774\ub7f0 \uc800\ub7f0 \ubc1c\uacac ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application ...",
         "Letter to the Heptabase Team on 2022-10-11": "... the web. My entire research page (https://cho.sh/r/) runs on heavily customized [[Obsidian]], Nota, and [[Docusaurus]], serving as my daily note-taking platform after figuring ...",
         "Nota": "Awesome alternative to [[Obsidian]].",
         "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]",
         "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer",
         "Stephan Ango": "- Currently works at [[Obsidian]]",
-        "The New Era of macOS Applications": "- Notes. Notion → [[Obsidian]] → Nota."
+        "The New Era of macOS Applications": "- Notes. Notion \u2192 [[Obsidian]] \u2192 Nota."
     },
     "Mapping keys to set different input languages on macOS": {
         "2022-11-19": "  - [[Mapping keys to set different input languages on macOS]]"
     },
-    "Apple Newsroom 서체 따라하기": {},
     "Fixing the Document Hell": {
         "2022-12-28": "- [[Fixing the Document Hell]]"
     },
@@ -2290,7 +2142,7 @@ export const backlinks = {
         "2023-01-23": "- [[Partition Problem]]"
     },
     "Hugging Face": {
-        "Project Alter": "... [ ] Inference Server to `image → text`. AWS SageMaker? Or [[Hugging Face]] as an API server?"
+        "Project Alter": "... [ ] Inference Server to `image \u2192 text`. AWS SageMaker? Or [[Hugging Face]] as an API server?"
     },
     "Tesla Release Models": {
         "2022-09-06": "- [[Tesla Release Models]]"
@@ -2303,7 +2155,6 @@ export const backlinks = {
         "2022-09-17": "  - [[Android equivalent of div]]",
         "Android": "- [[Android equivalent of div]]"
     },
-    "하늘땅사람": {},
     "3D": {
         "2022-10-21": "- [[3D]]",
         "Point-E": "- [[3D]]"
@@ -2317,7 +2168,7 @@ export const backlinks = {
         "2022-07-11": "First, make a giant [[JavaScript]] object.",
         "2022-07-12": "1. Demo [[JavaScript]] animation works as expected.",
         "2022-07-18": "- No trackers, no [[JavaScript]], no stylesheets. Just your words",
-        "2022-07-20": "- [[JavaScript]] → [[TypeScript]]",
+        "2022-07-20": "- [[JavaScript]] \u2192 [[TypeScript]]",
         "Classic Blogs": "- Bear Blog: No trackers, no [[JavaScript]], no stylesheets blog for hackers",
         "Deno Deploy": "- Deploy [[JavaScript]] Globally",
         "HTMX": "- Implementation itself is [[JavaScript]]",
@@ -2329,11 +2180,10 @@ export const backlinks = {
         "Akzidenz": "- A type of [[Grotesque]] [[font]].",
         "Satoshi": "- A type of [[Grotesque]] [[font]]"
     },
-    "http 없는 http 서버 만들기": {},
     "Inter": {
         "Akzidenz": "- Akin to San Francisco|SF Pro and [[Inter]].",
         "Font Features": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.",
-        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans CJK KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
+        "Pretendard\u110b\u1174 \u110b\u1161\u1109\u1171\u110b\u116e\u11ab \u110c\u1165\u11b7": "\uc790\uc138\ud558\uac8c \ubcf4\uba74 Noto Sans CJK KR Black\uc740 [[Inter]] Extra Bold\uc640 \ubb34\uac8c\uac00 \ube44\uc2b7\ud558\ub2e4.",
         "San Francisco": "### [[Inter]]"
     },
     "Spacial Cognition": {
@@ -2346,7 +2196,7 @@ export const backlinks = {
         "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
     },
     "Iterative and Incremental Development": {
-        "Toss Product Sans": "- [[Iterative and Incremental Development|반복적 개발]]"
+        "Toss Product Sans": "- [[Iterative and Incremental Development|\ubc18\ubcf5\uc801 \uac1c\ubc1c]]"
     },
     "Cache Conscious Programming": {
         "2022-11-04": "- [[Cache Conscious Programming]]"
@@ -2362,7 +2212,7 @@ export const backlinks = {
         "Symlink": "... by POSIX and by most Unix-like operating systems, such as FreeBSD, [[Linux]], and macOS. Limited support also exists in Windows 7 and Windows ...",
         "Torvalds": "... who is the creator and, historically, the lead developer of the [[Linux]] kernel, used by Linux distributions and other operating systems such as ...",
         "Visual Studio Code": "... VS Code, made by Microsoft with the Electron Framework, for Windows, [[Linux]] and macOS. Features include support for debugging, syntax highlighting, intelligent code ...",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "이 글은 Balena 주식회사가 개발한 `balenaOS` 및 `balenaSound` Project|프로젝트를 활용한다. Balena는 [[Linux]] 장치들로 사물인터넷(IoT) 시스템을 구축할 수 있도록 도와주는 플랫폼이다. 이러한 Project|프로젝트를 진행해 ..."
+        "\u1105\u1161\u110c\u1173\u1107\u1166\u1105\u1175 \u1111\u1161\u110b\u1175\u1105\u1169 \u1109\u1173\u1106\u1161\u1110\u1173 \u110b\u1169\u1103\u1175\u110b\u1169 \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175": "\uc774 \uae00\uc740 Balena \uc8fc\uc2dd\ud68c\uc0ac\uac00 \uac1c\ubc1c\ud55c `balenaOS` \ubc0f `balenaSound` Project|\ud504\ub85c\uc81d\ud2b8\ub97c \ud65c\uc6a9\ud55c\ub2e4. Balena\ub294 [[Linux]] \uc7a5\uce58\ub4e4\ub85c \uc0ac\ubb3c\uc778\ud130\ub137(IoT) \uc2dc\uc2a4\ud15c\uc744 \uad6c\ucd95\ud560 \uc218 \uc788\ub3c4\ub85d \ub3c4\uc640\uc8fc\ub294 \ud50c\ub7ab\ud3fc\uc774\ub2e4. \uc774\ub7ec\ud55c Project|\ud504\ub85c\uc81d\ud2b8\ub97c \uc9c4\ud589\ud574 ..."
     },
     "Brunch": {
         "Brunch violates SF terms of use": "- Korean writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as ..."
@@ -2463,7 +2313,7 @@ export const backlinks = {
     },
     "Self Driving": {
         "2023-01-13": "- [[Self Driving]]",
-        "Self Driving": "- He was driving V-1 on I-80 eastbound in Full [[Self Driving]] Mode Beta Version traveling at approximately 55 miles per hour…When V-1 ..."
+        "Self Driving": "- He was driving V-1 on I-80 eastbound in Full [[Self Driving]] Mode Beta Version traveling at approximately 55 miles per hour\u2026When V-1 ..."
     },
     "Venture Capital": {
         "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]"
@@ -2496,12 +2346,12 @@ export const backlinks = {
     "Ancestors of C": {
         "Internetworking": "- [[Ancestors of C]]"
     },
-    "水適穿石": {
-        "2022-06-12": "- [[水適穿石]]",
-        "2022-10-31": "- [[水適穿石]]",
-        "2022년 11월 한 달간 일기 쓰기": "- [[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
-        "2023년 1월과 2월에 하루 25분 조깅하기": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
-        "Cosmic noises of life": "- [[水適穿石|Persistence]] is the key"
+    "\u6c34\u9069\u7a7f\u77f3": {
+        "2022-06-12": "- [[\u6c34\u9069\u7a7f\u77f3]]",
+        "2022-10-31": "- [[\u6c34\u9069\u7a7f\u77f3]]",
+        "2022\u1102\u1167\u11ab 11\u110b\u116f\u11af \u1112\u1161\u11ab \u1103\u1161\u11af\u1100\u1161\u11ab \u110b\u1175\u11af\u1100\u1175 \u110a\u1173\u1100\u1175": "- [[\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294]] [[Project|\ud504\ub85c\uc81d\ud2b8]]",
+        "2023\u1102\u1167\u11ab 1\u110b\u116f\u11af\u1100\u116a 2\u110b\u116f\u11af\u110b\u1166 \u1112\u1161\u1105\u116e 25\u1107\u116e\u11ab \u110c\u1169\u1100\u1175\u11bc\u1112\u1161\u1100\u1175": "[[\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294]] [[Project|\ud504\ub85c\uc81d\ud2b8]]",
+        "Cosmic noises of life": "- [[\u6c34\u9069\u7a7f\u77f3|Persistence]] is the key"
     },
     "Person 1B5A5B": {
         "Project PEOPLE": "- [[Person 1B5A5B]]"
@@ -2509,7 +2359,6 @@ export const backlinks = {
     "IP Spoofing": {
         "Internetworking": "- [[IP Spoofing]]"
     },
-    "프로젝트 어덕행덕": {},
     "Dither": {
         "One Bit Display": "- [[Dither]]"
     },
@@ -2518,8 +2367,8 @@ export const backlinks = {
         "Internetworking": "- [[File Descriptor]]"
     },
     "Effective Accelerationism": {
-        "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
-        "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
+        "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|\ud6a8\uc728\uc801 \uac00\uc18d\uc8fc\uc758]]",
+        "\u1110\u1162\u1107\u1162\u11a8\u1109\u1161\u11ab\u1106\u1162\u11a8 \u1100\u1168\u1112\u116c\u11a8": "[[Effective Accelerationism|\ud6a8\uacfc\uc801 \uac00\uc18d\uc8fc\uc758]]\uc5d0 \uae30\ubc18\ud55c\ub2e4."
     },
     "0002 Add Two Numbers": {
         "Coding Tests": "- [[0002 Add Two Numbers]]"
@@ -2558,14 +2407,14 @@ export const backlinks = {
         "Internetworking": "- [[CBR vs VBR]]"
     },
     "WorkerDOM": {
-        "2022-06-14": "  - 이 세부 전략으로 [[WorkerDOM]]을 쓸 수도 있고, 고쳐서 쓸 수도 있고, 새로 만들 수도 있고, ...",
+        "2022-06-14": "  - \uc774 \uc138\ubd80 \uc804\ub7b5\uc73c\ub85c [[WorkerDOM]]\uc744 \uc4f8 \uc218\ub3c4 \uc788\uace0, \uace0\uccd0\uc11c \uc4f8 \uc218\ub3c4 \uc788\uace0, \uc0c8\ub85c \ub9cc\ub4e4 \uc218\ub3c4 \uc788\uace0, ...",
         "2022-06-22": "Google's [[WorkerDOM]] has no event algorithm.",
         "2022-06-26": "- Explore SharedArrayBuffer, Atomic, and [[WorkerDOM]]'s Binary [[DOM]] manipulation.",
         "2022-06-27": "- Confirm [[WorkerDOM]]'s Binary [[DOM]] Manipulation channel.",
         "2022-07-06": "### Brane [[WorkerDOM]] Non-blocking Example",
         "2022-07-11": "Currently, [[WorkerDOM]] only has asynchronous data channels.",
         "2022-07-12": "### Scheduler|Schedulers in [[WorkerDOM]]",
-        "2022-07-19": "오늘은 반드시 [[WorkerDOM]] [[Scheduler]]를 잡아내자.",
+        "2022-07-19": "\uc624\ub298\uc740 \ubc18\ub4dc\uc2dc [[WorkerDOM]] [[Scheduler]]\ub97c \uc7a1\uc544\ub0b4\uc790.",
         "2022-08-03": "Also, I succeeded on fooling `getBoundingClientRect()` on top of [[WorkerDOM]].",
         "2022-10-02": "- Got an email from the [[WorkerDOM]] team that the [[project]] will not have any major updates",
         "AMP": "Uses [[WorkerDOM]] under the hood.",
@@ -2582,12 +2431,11 @@ export const backlinks = {
         "2022-11-30": "- [[WasmEdge]]",
         "Tools I will use one day": "- [[WasmEdge]]"
     },
-    "Computer Science": {},
     "Petersburg": {
         "2023-01-23": "- [[Petersburg]]"
     },
     "Haruki Murakami": {
-        "水適穿石": "### 직업으로서의 소설가 — [[Haruki Murakami|하루키]]"
+        "\u6c34\u9069\u7a7f\u77f3": "### \uc9c1\uc5c5\uc73c\ub85c\uc11c\uc758 \uc18c\uc124\uac00 \u2014 [[Haruki Murakami|\ud558\ub8e8\ud0a4]]"
     },
     "Shader": {
         "HLSL": "- Used for [[Shader]] Stuffs.",
@@ -2643,8 +2491,8 @@ export const backlinks = {
     "Checksum": {
         "Internetworking": "- [[Checksum]]"
     },
-    "洪民憙雜記": {
-        "2022-10-25": "- [[洪民憙雜記]]"
+    "\u6d2a\u6c11\u6199\u96dc\u8a18": {
+        "2022-10-25": "- [[\u6d2a\u6c11\u6199\u96dc\u8a18]]"
     },
     "Classic Blogs": {
         "Tools for Thought": "- [[Classic Blogs]]: just make a post and let Google do the job."
@@ -2666,7 +2514,7 @@ export const backlinks = {
     "BIMI": {
         "2022-10-14": "- [[BIMI]]",
         "2023-01-09": "- Should I consider [[BIMI]] for my email?",
-        "Letter to Mr. Matt Rickard on 2022-12-21": "... i.e., SMIME or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just like what Vercel did to Heroku."
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... i.e., SMIME or, more recently \u2014 Brand Indicators for Message Identification [[BIMI]]) Just like what Vercel did to Heroku."
     },
     "Repeated Designs": {
         "2022-11-30": "- [[Repeated Designs]]"
@@ -2674,11 +2522,9 @@ export const backlinks = {
     "Readwise Reader": {
         "2022-12-16": "- [[Readwise Reader]]"
     },
-    "Y Combinator": {},
     "Book Scanning": {
         "Using an iPad as my Ebook": "Furthermore, I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], and I figured it is very ..."
     },
-    "공강에서 보내는 공강 활용법": {},
     "API Economy": {
         "2022-10-27": "- [[API Economy]]",
         "Small yet Powerful": "- Governmental services should also conform to the [[API Economy]]"
@@ -2709,18 +2555,18 @@ export const backlinks = {
         "Tools for Thought": "- [[Data Capturers]]"
     },
     "San Francisco": {
-        "2022-08-01": "... it a lot — it combines the neatness and readability of [[San Francisco|SF Pro]] and the uniqueness of IBM Plex Sans.",
+        "2022-08-01": "... it a lot \u2014 it combines the neatness and readability of [[San Francisco|SF Pro]] and the uniqueness of IBM Plex Sans.",
         "2022-12-04": "- [[San Francisco]]",
         "2022-12-06": "- [[San Francisco]]",
         "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter]].",
-        "Apple Newsroom 서체 따라하기": "... 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.",
+        "Apple Newsroom \u1109\u1165\u110e\u1166 \u1104\u1161\u1105\u1161\u1112\u1161\u1100\u1175": "... \uc0ac\uc6a9\uc790\ub294 San Francisco\ub97c \uc6f9 \ud3f0\ud2b8\ub85c \uc0ac\uc6a9\ud560 \uc218 \uc5c6\ub2e4\ub294 \uc758\ubbf8\uc774\ub2e4 (Apple Newsroom\uc740 [[San Francisco|SF Pro]] \uc6f9 \ud3f0\ud2b8\ub97c \uc0ac\uc6a9\ud558\uace0 \uc788\ub2e4.) \uadf8\ub7fc \ub300\uc548\uc744 \ucc3e\uc544\ubcf4\uc790.",
         "Brunch violates SF terms of use": "... Korean writing service Brunch violates Apple's Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].",
         "Font Features": "- [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.",
         "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
         "Pretendard": "  - He should've put it as Cross-platform [[San Francisco]] alternative",
         "Satoshi": "- Font similar to [[San Francisco|SF Pro]]",
         "Toss Product Sans": "- Looks bizarrely similar to [[San Francisco]]",
-        "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
+        "\u1109\u1165\u110b\u116e\u11af \u1111\u1173\u1105\u1169": "\ubcf8 \ubaa9\uc801\uc740 Pretendard\uc640 \ube44\uc2b7\ud558\uac8c Apple\uc758 [[San Francisco]] \ud3f0\ud2b8\uc640 \uc720\uc0ac\ud55c \uc624\ud508 \uc18c\uc2a4 \uae00\uc528\uccb4\ub97c \ub9cc\ub4dc\ub294 \uac83\uc774\uc5c8\ub2e4."
     },
     "Letter to Mr. Stephan Ango on 2022-10-19": {
         "2022-10-19": "- [[Letter to Mr. Stephan Ango on 2022-10-19]]",
@@ -2733,14 +2579,14 @@ export const backlinks = {
     "Survivorship Biased": {
         "2022-07-05": "- Dropout success stories are typically [[survivorship biased]].",
         "2022-12-09": "- [[Survivorship Biased]]",
-        "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]"
+        "\u110c\u1161\u11b8\u1109\u1173\u110b\u116a \u1109\u1162\u11bc\u110c\u1169\u11ab \u1111\u1167\u11ab\u1112\u1163\u11bc": "## \ud589\uc6b4\uc544\uc758 [[Survivorship Biased|\uc0dd\uc874 \ud3b8\ud5a5]]"
     },
     "Product-Market Fit": {
         "2022-06-06": "... and startups have little or no tests. When struggling to find [[Product-Market Fit]] or fighting for survival, many companies need to test early on. ...",
         "Captivating Products": "... the product? Captivating products, by definitions, are those who found the [[Product-Market Fit]].",
         "The Dilemmas of Technopreneur": "... lean enough, it may be much more efficient to check the [[Product-Market Fit]].",
         "The Great Struggle of Gumroad": "... fault. It always looked like change was right around the corner. [[Product-market fit]] is excellent, but we needed to find a new, more oversized ...",
-        "유난한 도전": "[[Product-Market Fit|PMF]]를 찾았다."
+        "\u110b\u1172\u1102\u1161\u11ab\u1112\u1161\u11ab \u1103\u1169\u110c\u1165\u11ab": "[[Product-Market Fit|PMF]]\ub97c \ucc3e\uc558\ub2e4."
     },
     "Layoff": {
         "2023-01-13": "- [[Layoff]]"
@@ -2750,7 +2596,6 @@ export const backlinks = {
         "Computer Systems": "- [[Page Size and Address Translations]]",
         "Virtual Memory": "- [[Page Size and Address Translations]]"
     },
-    "조선왕조실록": {},
     "Height": {
         "Linear": "- An issue tracking service, like [[Height]], or [[Jira]]"
     },
@@ -2817,11 +2662,11 @@ export const backlinks = {
     "Web Worker": {
         "2022-06-22": "  - WorkerDOM will be an arbiter between the [[Web Worker]] thread and the iframe.",
         "2022-07-11": "Give this object to a [[Web Worker]] which includes third-party codes.",
-        "2022-07-19": "[[Web Worker]] Thread에서 나타난 `AnimationFrame.ts`은 `requestAnimationFrame`에 관련된 것으로 보이고 Data Transfer과는 무관해보인다 (불확실).",
+        "2022-07-19": "[[Web Worker]] Thread\uc5d0\uc11c \ub098\ud0c0\ub09c `AnimationFrame.ts`\uc740 `requestAnimationFrame`\uc5d0 \uad00\ub828\ub41c \uac83\uc73c\ub85c \ubcf4\uc774\uace0 Data Transfer\uacfc\ub294 \ubb34\uad00\ud574\ubcf4\uc778\ub2e4 (\ubd88\ud655\uc2e4).",
         "2022-07-21": "- Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` layer.",
         "2022-07-25": "- [x] Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` layer.",
-        "2022-08-03": "... iiframe — improved iframe — that specializes in containerizing iframes in [[Web Worker|Web Workers]].",
-        "Atomics (JavaScript)": "- SharedArrayBuffer를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.",
+        "2022-08-03": "... iiframe \u2014 improved iframe \u2014 that specializes in containerizing iframes in [[Web Worker|Web Workers]].",
+        "Atomics (JavaScript)": "- SharedArrayBuffer\ub97c \uc774\uc6a9\ud574 [[Web Worker]] \uc0ac\uc774 \uba54\ubaa8\ub9ac\ub97c \ub3d9\uae30\ud654\ud558\uae30 \uc704\ud574 \uc0ac\uc6a9\ub428.",
         "Project": "- [ ] Does Emscripten WebAssembly|WASM run on [[Web Worker|Web Workers]]?",
         "Providing DOM API to Worker Threads": "- Provide synchronous DOM API Access to [[Web Worker]] Threads",
         "Satori": "... engine, Satori, can be used in modern Web Browser|browsers, Node.js, and [[Web Worker|Web Workers]]. Building on top of the core engine, [[Vercel]] OG can be ...",
@@ -2849,7 +2694,7 @@ export const backlinks = {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Opener Policy]]: `same-origin`"
     },
     "Throughput": {
-        "2022-06-14": "  - DOM 퍼포먼스를 확인하기 위해 [[Throughput]]이 높은 DBMon을 사용한다.",
+        "2022-06-14": "  - DOM \ud37c\ud3ec\uba3c\uc2a4\ub97c \ud655\uc778\ud558\uae30 \uc704\ud574 [[Throughput]]\uc774 \ub192\uc740 DBMon\uc744 \uc0ac\uc6a9\ud55c\ub2e4.",
         "2022-07-11": "Wouldn't this yield much higher [[throughput]]? (No, it wouldn't.)",
         "BitTorrent": "... the constant pressure of some unfulfilled requests. This can increase the [[throughput]] of our connection by order of magnitude",
         "Heap (Computer Systems)": "- [[throughput]] (as fast as possible)",
@@ -2902,17 +2747,17 @@ export const backlinks = {
         "Better Aldehyde": "- [[Backlinking for Aldehyde]]"
     },
     "Java": {
-        "2022-07-20": "- [[Java]] → Kotlin",
+        "2022-07-20": "- [[Java]] \u2192 Kotlin",
         "Heap (Computer Systems)": "On the other hand, [[Java]], Python, or other higher-level languages use implicit allocators, which this memory ...",
         "How is WebAssembly cross-platform when Assembly is not": "- Seems like WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the genuinely low-level [[Assembly]].",
         "IntelliJ": "> IntelliJ IDEA is an integrated development environment (IDE) written in [[Java]] for developing computer software written in Java, Kotlin, Groovy, and other ...",
         "Write Once Run Everywhere": "... created by Sun Microsystems to illustrate the cross-platform benefits of the [[Java]] language. Ideally, a Java program could be developed on any device, ...",
-        "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "\ubc18\uba74\uc5d0 State Machine \uae30\ubc18\uc73c\ub85c \uac00\uc7a5 \uadf8\ub7f4 \ub4ef\ud55c \uad6c\ud604\uccb4\ub85c \uae40\uc724\uc0c1\ub2d8\uc758 [[Java]] [[Android]] \ucc9c\uc9c0\uc778 \ud0a4\ubcf4\ub4dc(kys-zeda/chunjiin)\ub97c \ubc1c\uacac\ud588\ub2e4."
     },
     "Digital Addiction": {
         "2022-07-13": "- [[Digital Addiction]]",
         "2022-07-29": "  - [[Digital Addiction]]",
-        "Using an iPad as my Ebook": "... Must Vanish|vanishes, digital tools no longer matter — essentially solving the [[Digital Addiction]]."
+        "Using an iPad as my Ebook": "... Must Vanish|vanishes, digital tools no longer matter \u2014 essentially solving the [[Digital Addiction]]."
     },
     "Safari is the new Internet Explorer": {
         "2022-12-28": "- [[Safari is the new Internet Explorer]]"
@@ -2936,7 +2781,7 @@ export const backlinks = {
         "Decoy Effect": "## [[Matt Rickard]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "Dear Mr. [[Matt Rickard|Rickard]],",
         "Letter to Mr. Matt Rickard on 2022-12-24": "Dear Mr. [[Matt Rickard|Rickard]],",
-        "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
+        "Programmable Web": "### I Miss The Programmable Web \u2014 [[Matt Rickard]]",
         "The Architecture of Mastodon": "## [[Matt Rickard]]",
         "eBPF": "- [[Matt Rickard]]"
     },
@@ -2950,7 +2795,6 @@ export const backlinks = {
         "2022-07-11": "However, a guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks a thread.",
         "Cooperative Multitasking": "Antonym of [[Preemptive Multitasking]]."
     },
-    "간판법": {},
     "Better Hacker News": {
         "2022-07-12": "- [[Better Hacker News]]",
         "2022-10-12": "- [[Better Hacker News]]",
@@ -2999,6 +2843,9 @@ export const backlinks = {
     "Maserati Problem": {
         "2022-11-02": "- [[Maserati Problem]]"
     },
+    "Aldehyde Backlinks Outage (January 2023)": {
+        "2023-01-30": "- [[Aldehyde Backlinks Outage (January 2023)]]"
+    },
     "Interactive Articles": {
         "2022-10-18": "- [[Interactive Articles]]",
         "2022-12-07": "- Framer Motion, [[Interactive Articles]]: Inside Framer's Magic Motion",
@@ -3010,7 +2857,6 @@ export const backlinks = {
     "AI and ML": {
         "Project Core ML": "- [[AI and ML]]"
     },
-    "한자 타자기": {},
     "Animations": {
         "2022-11-21": "- [[Animations]]",
         "2022-11-23": "- Rive Use Cases: [[Animations]]"
@@ -3042,7 +2888,7 @@ export const backlinks = {
         "Cube": "- [[FIRE Engine]]",
         "FIRE": "- [[FIRE Engine]]",
         "Intracranial": "- [[FIRE Engine]]",
-        "Old Fashioned Camera": "- 백엔드와 Front-end|프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임"
+        "Old Fashioned Camera": "- \ubc31\uc5d4\ub4dc\uc640 Front-end|\ud504\ub860\ud2b8\uac00 \ubaa8\ub450 \ud544\uc694 \uc5c6\uae30\uc5d0 [[FIRE Engine]]\uc744 \uc2e4\ud589\ud558\uae30\uc5d0 \uc801\ud569\ud574\ubcf4\uc784"
     },
     "Decoy Effect": {
         "2022-11-08": "- [[Decoy Effect]]"
@@ -3057,14 +2903,14 @@ export const backlinks = {
         "2022-05-31": "- [[Kakao]] announced [[Metaverse]] Remote Work Policy.",
         "2022-06-26": "  - To push the limits, we can try [[Kakao]] Map SDK (or any Map SDK like Open Layer)",
         "2022-10-16": "### [[Kakao]]",
-        "AI는 고가 노동부터 점령한다": "... 승리했지만, 승리 아닌 승리를 거두고 말았다. 타다가 멸망한 탓에 그 옆의 [[Kakao|카카오]]모빌리티가 시장을 독점하는 결과를 가져왔기 때문이다.",
+        "AI\u1102\u1173\u11ab \u1100\u1169\u1100\u1161 \u1102\u1169\u1103\u1169\u11bc\u1107\u116e\u1110\u1165 \u110c\u1165\u11b7\u1105\u1167\u11bc\u1112\u1161\u11ab\u1103\u1161": "... \uc2b9\ub9ac\ud588\uc9c0\ub9cc, \uc2b9\ub9ac \uc544\ub2cc \uc2b9\ub9ac\ub97c \uac70\ub450\uace0 \ub9d0\uc558\ub2e4. \ud0c0\ub2e4\uac00 \uba78\ub9dd\ud55c \ud0d3\uc5d0 \uadf8 \uc606\uc758 [[Kakao|\uce74\uce74\uc624]]\ubaa8\ube4c\ub9ac\ud2f0\uac00 \uc2dc\uc7a5\uc744 \ub3c5\uc810\ud558\ub294 \uacb0\uacfc\ub97c \uac00\uc838\uc654\uae30 \ub54c\ubb38\uc774\ub2e4.",
         "Brunch": "- Korean Writing Service operated by [[Kakao]]",
         "How to Build Software like an SRE": "  - do you see [[Kakao]]?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in Korea, Naver, and [[Kakao]].",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + ...",
-        "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
+        "Mac\u110b\u1173\u11af Command+L\u1105\u1169 \u110c\u1161\u11b7\u1100\u1173\u1102\u1173\u11ab \u1107\u1161\u11bc\u1107\u1165\u11b8": "- [[Kakao|\uce74\uce74\uc624\ud1a1]] Mac \ubc84\uc804\uc5d0\uc11c \u2318 Command+L\uc744 Kakao|\uce74\uce74\uc624\ud1a1 \uc7a0\uae08 \ub2e8\ucd95\ud0a4\ub85c \uc0ac\uc6a9\ud55c\ub2e4!",
         "Mental Simulation of Firefox and Signal as a Super App": "... onboard cannot stop. Especially with group chat, as we learned from [[Kakao]].",
-        "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 카카오라는 간편결제를 시작한다는 이야기를 들었다."
+        "\u110b\u1172\u1102\u1161\u11ab\u1112\u1161\u11ab \u1103\u1169\u110c\u1165\u11ab": "\ubc18\ub300\ucabd\uc5d0\uc11c\ub294 [[Kakao|\uce74\uce74\uc624]]\uac00 \ubc45\ud06c\uc6d4\ub81b \ud3ec \uce74\uce74\uc624\ub77c\ub294 \uac04\ud3b8\uacb0\uc81c\ub97c \uc2dc\uc791\ud55c\ub2e4\ub294 \uc774\uc57c\uae30\ub97c \ub4e4\uc5c8\ub2e4."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
@@ -3086,7 +2932,7 @@ export const backlinks = {
     },
     "Tools for Thought": {
         "2022-07-18": "- Using an iPad as a [[Tools for Thought]] feels good. Especially writing with [[Apple]] Pencil.",
-        "2022-10-13": "- Visible – Make information useful: [[Tools for Thought]]",
+        "2022-10-13": "- Visible \u2013 Make information useful: [[Tools for Thought]]",
         "2022-10-23": "- [[Tools for Thought]]: usememos/memos: An open-source, self-hosted knowledge base that works with an SQLite ...",
         "2022-11-11": "- Lazy: [[Tools for Thought]]",
         "2022-11-14": "- [[Tools for Thought]]",
@@ -3108,7 +2954,6 @@ export const backlinks = {
         "2022-11-07": "- [[Pensieve]]",
         "Data Capturers": "### [[Pensieve]]"
     },
-    "재학생일기": {},
     "elevatorpitch.com": {
         "2022-12-20": "- [[elevatorpitch.com]]"
     },
@@ -3157,14 +3002,12 @@ export const backlinks = {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
         "Coding Tests": "- [x] [[0021 Merge Two Sorted Lists]]"
     },
-    "GitHub Pages에 React 앱 띄우기": {},
     "eBook": {
         "ACSM": "... other digital publications. It contains data to activate and download an [[eBook]]. It does not include the eBook itself.",
         "EPUB": "... standard of the IDPF in September 2007, superseding the older Open [[eBook]] (OEB) standard. EPUB",
         "Ridi": "Ridi is a Korean Unicorn specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
         "Using an iPad as my Ebook": "The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker News|HN]] thread"
     },
-    "이루다": {},
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
         "2022-07-01": "## [[Building a Second Brain]]",
@@ -3188,11 +3031,9 @@ export const backlinks = {
     "Shopify Analyzes CSS Frameworks": {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
-    "YCLF 주간 사용자 1000명": {},
     "Substack is the new Medium": {
         "2022-10-24": "- [[Substack is the new Medium]]"
     },
-    "테라포밍": {},
     "Virtual Memory": {
         "2022-11-04": "- [[Virtual Memory]]",
         "Computer Systems": "- [[Virtual Memory]]"
@@ -3203,7 +3044,6 @@ export const backlinks = {
         "2022-11-26": "- [[Mathematics under The Library of Babel]]",
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
-    "기숙사 생활과 방 배정": {},
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
         "2022-10-15": "- [[Dynamic Island on the Web]]",
@@ -3259,13 +3099,13 @@ export const backlinks = {
     },
     "Subproject": {
         "2022-08-18": "- [[Subproject]]",
-        "하늘땅사람 개발 기록": "[[Subproject]]로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 ...",
-        "활자": "하늘땅사람 개발 기록의 [[Subproject|하위 계획]]."
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "[[Subproject]]\ub85c JSON \uc9d1\ud569\uccb4\ub97c [[\ud65c\uc790]]\ub77c\ub294 \uc774\ub984\uc73c\ub85c \ubc30\ud3ec\ud588\ub2e4: anaclumos/hwalja: \ud65c\uc790: \uc138\uc0c1\uc5d0\uc11c \uac00\uc7a5 \ub2e8\uc21c\ud55c \ucc9c\uc9c0\uc778 ...",
+        "\u1112\u116a\u11af\u110c\u1161": "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d\uc758 [[Subproject|\ud558\uc704 \uacc4\ud68d]]."
     },
     "React": {
-        "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 중이다.",
+        "2022-08-04": "[[React]] Flip Toolkit List Shuffle\ub97c \ub744\uc6b0\ub294 \uc911\uc774\ub2e4.",
         "2022-09-10": "- [[React]] components library with native dark theme support",
-        "Developing Review Notes for Obsidian": "### [[React]] 전환",
+        "Developing Review Notes for Obsidian": "### [[React]] \uc804\ud658",
         "Dioxus": "They are written in Rust, inspired by [[React]].",
         "Front-end": "- [[React]]",
         "Get Job Done": "  - Coding [[React]]",
@@ -3299,25 +3139,23 @@ export const backlinks = {
     "Greedy Algorithm": {
         "Real Exams": "- 1 [[Greedy Algorithm]]"
     },
-    "Resolving GPG Fail to Sign Error": {},
     "SharedArrayBuffer": {
         "2022-06-22": "  - WorkerDOM will harness [[SharedArrayBuffer]].",
         "2022-06-26": "- Explore [[SharedArrayBuffer]], Atomic, and [[WorkerDOM]]'s Binary [[DOM]] manipulation.",
         "2022-06-27": "- Learn more about Atomics (JavaScript) and [[SharedArrayBuffer]]",
         "2022-07-11": "... follows the same interface as `postMessage` but is internally made with [[SharedArrayBuffer]].",
         "2022-07-12": "   - This involves [[SharedArrayBuffer|SAB]]",
-        "2022-07-19": "  - Web Worker Thread `transferSync`에서 [[SharedArrayBuffer|SAB]]를 하나 할당한다",
+        "2022-07-19": "  - Web Worker Thread `transferSync`\uc5d0\uc11c [[SharedArrayBuffer|SAB]]\ub97c \ud558\ub098 \ud560\ub2f9\ud55c\ub2e4",
         "2022-07-21": "  - Allocate a [[SharedArrayBuffer]] inside `transferSync`.",
         "2022-07-25": "- [x] Allocate a [[SharedArrayBuffer]] inside `transferSync`.",
         "2022-08-03": "This happens synchronously using Atomics (JavaScript) and [[SharedArrayBuffer]].",
-        "Atomics (JavaScript)": "- [[SharedArrayBuffer]]를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.",
+        "Atomics (JavaScript)": "- [[SharedArrayBuffer]]\ub97c \uc774\uc6a9\ud574 [[Web Worker]] \uc0ac\uc774 \uba54\ubaa8\ub9ac\ub97c \ub3d9\uae30\ud654\ud558\uae30 \uc704\ud574 \uc0ac\uc6a9\ub428.",
         "Providing DOM API to Worker Threads": "To enable [[SharedArrayBuffer]], we need a secure context `crossOriginIsolated`.",
         "WorkerDOM": "WorkerDOM doesn't use [[SharedArrayBuffer]], most likely to [[Spectre]]."
     },
     "Dijkstra": {
         "Internetworking": "- [[Dijkstra]]"
     },
-    "Ghost 테마를 자동 배포하는 방법": {},
     "Using an iPad as my Ebook": {
         "2023-01-12": "- [[Using an iPad as my Ebook]]"
     },
@@ -3328,8 +3166,6 @@ export const backlinks = {
         "2022-09-28": "- [[UUIDs are Awesome]]",
         "2022-11-29": "- [[UUIDs are Awesome]]: [[XUID]]?"
     },
-    "고통에는 순응이 아니라 감작이 나타난다": {},
-    "한민족의 동족상잔": {},
     "Handwriting Tools for Thoughts": {
         "2022-10-12": "- [[Handwriting Tools for Thoughts]]",
         "Handwriting Grammarly": "- Grammarly for [[Handwriting Tools for Thoughts]]",
@@ -3352,11 +3188,9 @@ export const backlinks = {
         "2022-11-04": "- [[Cache Mapping]]",
         "Caching": "- [[Cache Mapping]]"
     },
-    "2023년 1월과 2월에 하루 25분 조깅하기": {},
     "Principles of Inclusion": {
         "2022-11-04": "- [[Principles of Inclusion]]"
     },
-    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": {},
     "Mental Simulation of Firefox and Signal as a Super App": {
         "2023-01-09": "- [[Mental Simulation of Firefox and Signal as a Super App]]"
     },
@@ -3369,7 +3203,7 @@ export const backlinks = {
         "2022-10-14": "- [[Toss Product Sans]]",
         "2022-12-06": "- [[Toss Product Sans]]",
         "Pretendard": "- Just like [[Toss Product Sans]] it is bizarrely similar to [[San Francisco]]",
-        "Pretendard의 아쉬운 점": "이는 유사한 폰트 Interop 및 [[Toss Product Sans]]에는 반영되어 있는 사항이다.",
+        "Pretendard\u110b\u1174 \u110b\u1161\u1109\u1171\u110b\u116e\u11ab \u110c\u1165\u11b7": "\uc774\ub294 \uc720\uc0ac\ud55c \ud3f0\ud2b8 Interop \ubc0f [[Toss Product Sans]]\uc5d0\ub294 \ubc18\uc601\ub418\uc5b4 \uc788\ub294 \uc0ac\ud56d\uc774\ub2e4.",
         "San Francisco": "### [[Toss Product Sans]]",
         "Toss": "- Creators of [[Toss Product Sans]] and [[Tossface]]"
     },
@@ -3393,7 +3227,7 @@ export const backlinks = {
         "2022-07-12": "- [[Better Obsidian]]",
         "2022-07-26": "### [[Better Obsidian]]",
         "2022-10-17": "### [[Better Obsidian]]",
-        "Developing Review Notes for Obsidian": "[[Better Obsidian]] 문서를 보면 알 수 있듯이 별별 아이디어들을 다 쌓아뒀는데 오늘 저녁에 ..."
+        "Developing Review Notes for Obsidian": "[[Better Obsidian]] \ubb38\uc11c\ub97c \ubcf4\uba74 \uc54c \uc218 \uc788\ub4ef\uc774 \ubcc4\ubcc4 \uc544\uc774\ub514\uc5b4\ub4e4\uc744 \ub2e4 \uc313\uc544\ub480\ub294\ub370 \uc624\ub298 \uc800\ub141\uc5d0 ..."
     },
     "Code Quality for Game Programming": {
         "2022-09-12": "- [[Code Quality for Game Programming]]",
@@ -3439,14 +3273,13 @@ export const backlinks = {
     },
     "Ideas are worthless": {
         "2022-10-03": "- [[Ideas are worthless]]",
-        "Supergravity Products": "- (아이디어는 흔하고 그걸 실제로 만드는 사람은 귀하다) [[Ideas are worthless]]",
-        "개성은 자연스레 주어지지 않는다": "하지만 이제는 [[Ideas are worthless|정보의 존재보다 실체의 발현]]이 중요한 세상입니다.",
-        "프로젝트 어덕행덕": "어차피 [[Ideas are worthless|아이디어는 가치가 없다]]."
+        "Supergravity Products": "- (\uc544\uc774\ub514\uc5b4\ub294 \ud754\ud558\uace0 \uadf8\uac78 \uc2e4\uc81c\ub85c \ub9cc\ub4dc\ub294 \uc0ac\ub78c\uc740 \uadc0\ud558\ub2e4) [[Ideas are worthless]]",
+        "\u1100\u1162\u1109\u1165\u11bc\u110b\u1173\u11ab \u110c\u1161\u110b\u1167\u11ab\u1109\u1173\u1105\u1166 \u110c\u116e\u110b\u1165\u110c\u1175\u110c\u1175 \u110b\u1161\u11ad\u1102\u1173\u11ab\u1103\u1161": "\ud558\uc9c0\ub9cc \uc774\uc81c\ub294 [[Ideas are worthless|\uc815\ubcf4\uc758 \uc874\uc7ac\ubcf4\ub2e4 \uc2e4\uccb4\uc758 \ubc1c\ud604]]\uc774 \uc911\uc694\ud55c \uc138\uc0c1\uc785\ub2c8\ub2e4.",
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "\uc5b4\ucc28\ud53c [[Ideas are worthless|\uc544\uc774\ub514\uc5b4\ub294 \uac00\uce58\uac00 \uc5c6\ub2e4]]."
     },
     "Graphic Renderer": {
         "Graphics Engine Process": "  - Create a [[Graphic Renderer]]"
     },
-    "HTML 텍스트 위에 덧말 강조점 쓰기": {},
     "Deepfake": {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]]."
     },
@@ -3464,7 +3297,7 @@ export const backlinks = {
         "2022-07-18": "- [[Better Docusaurus]]: Render `Figcaption` with `img alt` tags. Commit"
     },
     "CJK": {
-        "Pretendard의 아쉬운 점": "자세하게 보면 Noto Sans [[CJK]] KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
+        "Pretendard\u110b\u1174 \u110b\u1161\u1109\u1171\u110b\u116e\u11ab \u110c\u1165\u11b7": "\uc790\uc138\ud558\uac8c \ubcf4\uba74 Noto Sans [[CJK]] KR Black\uc740 [[Inter]] Extra Bold\uc640 \ubb34\uac8c\uac00 \ube44\uc2b7\ud558\ub2e4.",
         "Stories Behind Satori": "... added Google Font's `?text=` API, containing a specific subset of the [[CJK]] library and rendering things on the fly."
     },
     "Hashflags": {
@@ -3503,8 +3336,6 @@ export const backlinks = {
     "GitHub Package Manager": {
         "Matt Rickard": "- [[GitHub Package Manager]]"
     },
-    "Chopstick Game": {},
-    "경제 개발의 길목에서": {},
     "Configuring Jest for React Native": {
         "2022-11-16": "- [[Configuring Jest for React Native]]"
     },
@@ -3535,8 +3366,8 @@ export const backlinks = {
         "2022-11-28": "- [[One Word Domains]]"
     },
     "OS": {
-        "2022-06-14": "- Brane은 타사 앱을 참여시켜 플랫폼을 확장하고 [[OS]] 수준을 경험하는 모든 과정(웹앱 렌더링, 레지스트리 설치, 프리로딩, 위젯 등)을 포함하는 ...",
-        "Apple Newsroom 서체 따라하기": "- 단어 하나만으로 [[OS]]의 기본 서체로 설정할 수 있는 `system-ui`라는 CSS 코드를 표준화 하고 있다고 ...",
+        "2022-06-14": "- Brane\uc740 \ud0c0\uc0ac \uc571\uc744 \ucc38\uc5ec\uc2dc\ucf1c \ud50c\ub7ab\ud3fc\uc744 \ud655\uc7a5\ud558\uace0 [[OS]] \uc218\uc900\uc744 \uacbd\ud5d8\ud558\ub294 \ubaa8\ub4e0 \uacfc\uc815(\uc6f9\uc571 \ub80c\ub354\ub9c1, \ub808\uc9c0\uc2a4\ud2b8\ub9ac \uc124\uce58, \ud504\ub9ac\ub85c\ub529, \uc704\uc82f \ub4f1)\uc744 \ud3ec\ud568\ud558\ub294 ...",
+        "Apple Newsroom \u1109\u1165\u110e\u1166 \u1104\u1161\u1105\u1161\u1112\u1161\u1100\u1175": "- \ub2e8\uc5b4 \ud558\ub098\ub9cc\uc73c\ub85c [[OS]]\uc758 \uae30\ubcf8 \uc11c\uccb4\ub85c \uc124\uc815\ud560 \uc218 \uc788\ub294 `system-ui`\ub77c\ub294 CSS \ucf54\ub4dc\ub97c \ud45c\uc900\ud654 \ud558\uace0 \uc788\ub2e4\uace0 ...",
         "Cache and Virtual Memory": "...           | Software([[OS]])  |",
         "Docker": "> Docker is a set of platform-as-a-service (PaaS) products that use [[OS]]-level virtualization to deliver software in packages called containers. The service has ...",
         "File Descriptor": "- it is an index of an array in the [[OS]] (file descriptor table)",
@@ -3544,8 +3375,8 @@ export const backlinks = {
         "Mathematics under The Library of Babel": "- Killed by the [[OS]] for using too much RAM",
         "Rauno": "- Resembles an [[OS]] with a magnifying dock at the bottom.",
         "Virtual Address Space and Physical Address Space": "- if the memory is big enough, the [[OS]] uses the physical memory (RAM)",
-        "dub.sh": "... to visualize the time-series data for each link's clicks (incl. location, device/[[os]]) with airbnb/visx: 🐯 visx | visualization components",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 수 있다. 좌측 상단에 있는 Add Device 버튼을 누르면 다음과 같이 [[OS]]를 다운로드할 수 있는 창이 나타난다."
+        "dub.sh": "... to visualize the time-series data for each link's clicks (incl. location, device/[[os]]) with airbnb/visx: \ud83d\udc2f visx | visualization components",
+        "\u1105\u1161\u110c\u1173\u1107\u1166\u1105\u1175 \u1111\u1161\u110b\u1175\u1105\u1169 \u1109\u1173\u1106\u1161\u1110\u1173 \u110b\u1169\u1103\u1175\u110b\u1169 \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175": "... \uc218 \uc788\ub2e4. \uc88c\uce21 \uc0c1\ub2e8\uc5d0 \uc788\ub294 Add Device \ubc84\ud2bc\uc744 \ub204\ub974\uba74 \ub2e4\uc74c\uacfc \uac19\uc774 [[OS]]\ub97c \ub2e4\uc6b4\ub85c\ub4dc\ud560 \uc218 \uc788\ub294 \ucc3d\uc774 \ub098\ud0c0\ub09c\ub2e4."
     },
     "Musk and Twitter": {
         "2022-10-27": "- [[Musk and Twitter]]",
@@ -3566,7 +3397,6 @@ export const backlinks = {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Newsletter Network]]",
         "Reimagining Emails": "- [[Newsletter Network]]"
     },
-    "Timebelt": {},
     "Antipilot": {
         "2022-11-23": "- [[Antipilot]]"
     },
@@ -3583,7 +3413,6 @@ export const backlinks = {
     "Using System Haptics and Sounds in Swift": {
         "2023-01-22": "- [[Using System Haptics and Sounds in Swift]]"
     },
-    "Not-So-Procrastinating Lazy Loading": {},
     "Naver": {
         "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ..."
     },
@@ -3594,7 +3423,7 @@ export const backlinks = {
         "Memex is more than a Memex": "- [[Memex]] is more than a Memex",
         "Plateau of Latent Potential": "It could be a form of Extracranial, a [[Memex]], or even [[Conversational AI Tools for Thought]].",
         "Preservation of Data": "- An important concept for [[Memex]] and [[Extracranial]]",
-        "Vannevar Bush": "... 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 ..."
+        "Vannevar Bush": "... \uc6d0\uc790 \ud3ed\ud0c4\uc744 \uac1c\ubc1c\ud55c \ub9e8\ud574\ud2bc \uacc4\ud68d\uc744 \uad00\ub9ac\ud558\uace0 \ucd94\uc9c4\ud55c \uc8fc\uc5ed \uc911 \ud55c \uc0ac\ub78c\uc774\uc5c8\uc73c\uba70 \uba54\uba55\uc2a4([[Memex]])\ub77c\uace0 \ubd88\ub9ac\ub294 \uae30\uc5b5 \ud655\uc7a5\uae30 \uac1c\ub150\uc744 \ucd5c\ucd08\ub85c \uc8fc\ucc3d\ud558\uc5ec \ud604\uc7ac \uc778\ud130\ub137\uacfc \ud558\uc774\ud37c\ud14d\uc2a4\ud2b8\uc758 \ubc1c\uc804\uc5d0 \uc601\uac10\uc744 ..."
     },
     "Ignoring $ for copy-pasting online resources to terminal": {
         "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]",
@@ -3602,9 +3431,8 @@ export const backlinks = {
     },
     "Total Probability": {
         "2023-01-23": "- [[Total Probability]]",
-        "Probability": "- $P(E)$ → [[Total Probability]]"
+        "Probability": "- $P(E)$ \u2192 [[Total Probability]]"
     },
-    "공기 청정 비행선": {},
     "Prompt Engineering": {
         "2022-09-03": "- [[Prompt Engineering]]",
         "2022-09-30": "- Human Motion Diffusion Model [[Prompt Engineering]]",
@@ -3630,14 +3458,12 @@ export const backlinks = {
     "designOS": {
         "Diagram (Company)": "- Creator of [[designOS]]"
     },
-    "지구 끝의 온실": {},
     "Fediverse": {
         "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply \"join Mastodon.\" Instead, users ..."
     },
     "Turing Machine": {
         "How is WebAssembly cross-platform when Assembly is not": "It follows how [[Turing Machine]]s would work in the real world."
     },
-    "Undefined Symbol Vtable Error": {},
     "Atomicity": {
         "Internetworking": "- [[Atomicity]]"
     },
@@ -3653,7 +3479,7 @@ export const backlinks = {
     "Emojis": {
         "Satori": "- Font and [[Emojis]] Subsets from Google Fonts and other CDNs",
         "Stories Behind Satori": "The same applies to [[Emojis|emojis]].",
-        "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ...",
+        "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[Emojis]]. \uc720\ub2c8\ucf54\ub4dc Private Use Area\ub97c \uc774\uc6a9\ud574 \ud55c\uad6d\uc801, \uc2dc\ub300\uc801 \uac00\uce58\ub97c \ub2f4\uc740 \uc774\ubaa8\uc9c0 \uc7ac\ubc30\ud3ec ...",
         "Tossface": "- Toss once withdrew the [[emojis]], but I submitted a request to put them back on Unicode ..."
     },
     "Photoshop for Text": {
@@ -3664,7 +3490,6 @@ export const backlinks = {
     "Nuclear Fission": {
         "2022-10-18": "- [[Nuclear Fission]]"
     },
-    "원숭이와 꽃신": {},
     "Universal Identity": {
         "2022-10-27": "- [[Universal Identity]]",
         "Government Services should have full API support": "- Of course, we would need a [[Universal Identity]] and [[Interoperability]] to prevent any lock-ins."
@@ -3689,7 +3514,6 @@ export const backlinks = {
         "2022-06-15": "... Now we can expect Lab Infrastructure as code like Terraform or [[Docker]] images for science labs.",
         "How to Build Software like an SRE": "- use [[Docker]]"
     },
-    "AI는 고가 노동부터 점령한다": {},
     "Kindle": {
         "Using an iPad as my Ebook": "> I just saw the [[Kindle]] Scribe launch, but it still does not satisfy my needed features, ..."
     },
@@ -3701,7 +3525,7 @@ export const backlinks = {
         "2022-07-06": "- Implemented the Technical [[Proof of Concept]] and posted here: [[Proof of Concept|PoC]] that two [[WorkerDOM]] upgraded threads ...",
         "2022-08-04": "- Intermediary [[Proof of Concept|PoC]] Product: [[ULLO]]",
         "ULLO": "- [[Proof of Concept|PoC]] of [[SwiftUI]] Photo Widget App",
-        "하늘땅사람 개발 기록": "다음과 같이 기술 [[Proof of Concept|개념 증명]] 완료."
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "\ub2e4\uc74c\uacfc \uac19\uc774 \uae30\uc220 [[Proof of Concept|\uac1c\ub150 \uc99d\uba85]] \uc644\ub8cc."
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -3721,12 +3545,12 @@ export const backlinks = {
     },
     "Font": {
         "Akzidenz": "- A type of Grotesque [[font]].",
-        "CalliFontia": "Someday Project. Apple Pencil Handwriting → [[Font]].",
+        "CalliFontia": "Someday Project. Apple Pencil Handwriting \u2192 [[Font]].",
         "Font Features": "- CSS property to enhance legibilities of a [[Font]].",
         "Grotesque": "... thin strokes. The terminals of curves are usually horizontal, and the [[Font|typeface]] frequently has a spurred \"G\" and an \"R\" with a curled ...",
         "Inter": "- [[Font]] by rsms",
         "Pretendard": "- [[Font]] by orioncactus (Kil Hyung-jin)",
-        "Pretendard의 아쉬운 점": "## [[Font]] Family의 Font Weight 매칭 문제",
+        "Pretendard\u110b\u1174 \u110b\u1161\u1109\u1171\u110b\u116e\u11ab \u110c\u1165\u11b7": "## [[Font]] Family\uc758 Font Weight \ub9e4\uce6d \ubb38\uc81c",
         "San Francisco": "- [[Font]] by [[Apple]]",
         "Satori": "- [[Font]] and [[Emojis]] Subsets from Google Fonts and other CDNs",
         "Satoshi": "- A type of Grotesque [[font]]",
@@ -3752,17 +3576,16 @@ export const backlinks = {
         "Search Engine using Generative AI": "- [[Information amongst Data]]",
         "Search in a Latent Space": "- Finding [[Information amongst Data]].",
         "The Library of Babel": "- [[Information amongst Data]]",
-        "개성은 자연스레 주어지지 않는다": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
+        "\u1100\u1162\u1109\u1165\u11bc\u110b\u1173\u11ab \u110c\u1161\u110b\u1167\u11ab\u1109\u1173\u1105\u1166 \u110c\u116e\u110b\u1165\u110c\u1175\u110c\u1175 \u110b\u1161\u11ad\u1102\u1173\u11ab\u1103\u1161": "\uc218\ub9ce\uc740 [[Information amongst Data|\ub370\uc774\ud130 \uc911 \uc815\ubcf4]]\ub9cc\uc774 \uc911\uc694\ud55c \uc138\uc0c1\uc785\ub2c8\ub2e4."
     },
-    "배달의민족 FE 개발자가 일하는 법 발표": {},
     "Someday": {
         "Apple Earth": "[[Someday]] [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
         "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
         "Book Metadata as a Service": "[[Someday]] [[Project]]. Open API that returns Book Metadata when given an ISBN.",
-        "CalliFontia": "[[Someday]] [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
+        "CalliFontia": "[[Someday]] [[Project]]. [[Apple]] Pencil Handwriting \u2192 [[Font]].",
         "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the chopstick game with competitive AI",
-        "Cube": "[[Someday]] [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
+        "Cube": "[[Someday]] [[Project]]. \uc778\uc2a4\ud0c0 \uc2a4\ud1a0\ub9ac/\ud3ec\uc2a4\ud2b8 \uae00 \uc5c5\ub85c\ub4dc\uc6a9 \uae00\uc4f0\uae30 \uc571.",
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical books with digital devices? i.e. scan ...",
         "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
         "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
@@ -3772,7 +3595,7 @@ export const backlinks = {
         "Markdown Email Client": "[[Someday]] [[Project]]. You write an email in [[Markdown]]. Before sending, select one ...",
         "Not-So-Procrastinating Lazy Loading": "[[Someday]] [[Project]]. `img loading=lazy`, but if the network idles for a given ...",
         "Off The Record": "[[Someday]] [[Project]]. Disappearing message for iMessage.",
-        "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
+        "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 \uc2dc\uc808 \uadf8 \uad6c\uc9c4 \uac10\uc131\uc758 \uce74\uba54\ub77c.",
         "Open Graph Image as a Service": "[[Someday]] [[Project]]. Request Open Graph Images with URI, `POST` payload.",
         "Problem": "Leads to a [[Someday]] [[Project]].",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
@@ -3784,12 +3607,11 @@ export const backlinks = {
         "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
         "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to convert the equation into $\\TeX$.",
         "linkflags.crx": "Packing Linkflags as Chrome Extensions [[Someday]] [[Project]]",
-        "postcredit.info": "[[Someday]] [[Project]]. 영화 쿠키 있나요?",
+        "postcredit.info": "[[Someday]] [[Project]]. \uc601\ud654 \ucfe0\ud0a4 \uc788\ub098\uc694?",
         "sem.sh": "[[Someday]] [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per ...",
-        "사회과부도": "[[Someday]] [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
-        "조선왕조실록": "[[Someday]] [[Project]]. Fast and Modern version of sillok.history.go.kr."
+        "\u1109\u1161\u1112\u116c\u1100\u116a\u1107\u116e\u1103\u1169": "[[Someday]] [[Project]]. \ub9c8\uc74c\ub300\ub85c \ubcc0\ud615\uc744 \uac00\ud560 \uc218 \uc788\ub294 \uc9c0\ub3c4.",
+        "\u110c\u1169\u1109\u1165\u11ab\u110b\u116a\u11bc\u110c\u1169\u1109\u1175\u11af\u1105\u1169\u11a8": "[[Someday]] [[Project]]. Fast and Modern version of sillok.history.go.kr."
     },
-    "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {},
     "Captivating Products": {
         "2022-12-09": "- [[Captivating Products]]"
     },
@@ -3816,11 +3638,10 @@ export const backlinks = {
     "Prototyper": {
         "2022-12-16": "- [[Prototyper]]"
     },
-    "強力反權": {
-        "2023-01-09": "- [[強力反權]]",
-        "Neo Korea": "- [[強力反權]]"
+    "\u5f37\u529b\u53cd\u6b0a": {
+        "2023-01-09": "- [[\u5f37\u529b\u53cd\u6b0a]]",
+        "Neo Korea": "- [[\u5f37\u529b\u53cd\u6b0a]]"
     },
-    "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {},
     "2022-12-30": {
         "Letter to Mr. Matt Rickard on 2022-12-23": "## Reply on [[2022-12-30]]"
     },
@@ -3839,7 +3660,7 @@ export const backlinks = {
     },
     "GitHub Actions": {
         "Finding out Ghost version with JS": "... theme package and re-upload those. While I automated theme deployment with [[GitHub Actions]] (you can find the post here), it was a hassle to ...",
-        "Ghost 테마를 자동 배포하는 방법": "... 것은? 테마 개발을 통한 블로그 방문 경험 개선이다. 다행히도 Ghost 2.25.5부터 [[GitHub Actions]]를 이용해 다음과 같이 Ghost 테마 개발을 자동화할 수 있게 되었다.",
+        "Ghost \u1110\u1166\u1106\u1161\u1105\u1173\u11af \u110c\u1161\u1103\u1169\u11bc \u1107\u1162\u1111\u1169\u1112\u1161\u1102\u1173\u11ab \u1107\u1161\u11bc\u1107\u1165\u11b8": "... \uac83\uc740? \ud14c\ub9c8 \uac1c\ubc1c\uc744 \ud1b5\ud55c \ube14\ub85c\uadf8 \ubc29\ubb38 \uacbd\ud5d8 \uac1c\uc120\uc774\ub2e4. \ub2e4\ud589\ud788\ub3c4 Ghost 2.25.5\ubd80\ud130 [[GitHub Actions]]\ub97c \uc774\uc6a9\ud574 \ub2e4\uc74c\uacfc \uac19\uc774 Ghost \ud14c\ub9c8 \uac1c\ubc1c\uc744 \uc790\ub3d9\ud654\ud560 \uc218 \uc788\uac8c \ub418\uc5c8\ub2e4.",
         "Reverse Engineering Apple Music API": "## Making it into a [[GitHub Actions]]"
     },
     "The Demise of Chatbots in 2017": {
@@ -3857,7 +3678,7 @@ export const backlinks = {
     },
     "Locking your Mac with Command+L": {
         "2022-11-19": "  - [[Locking your Mac with Command+L]]",
-        "Mac을 Command+L로 잠그는 방법": "- [[Locking your Mac with Command+L]]"
+        "Mac\u110b\u1173\u11af Command+L\u1105\u1169 \u110c\u1161\u11b7\u1100\u1173\u1102\u1173\u11ab \u1107\u1161\u11bc\u1107\u1165\u11b8": "- [[Locking your Mac with Command+L]]"
     },
     "CODE Procedure": {
         "2022-07-01": "I like the [[CODE Procedure]] in [[PARA]] architecture as a [[project]] management system, which does more ...",
@@ -3868,14 +3689,13 @@ export const backlinks = {
         "Reimagining Emails": "- [[React Email]]"
     },
     "Amie": {
-        "2023-01-30": "Also got invited to [[Amie]]"
+        "2023-01-30": "- Also got invited to [[Amie]]."
     },
     "binary search": {
         "0704 Binary Search": "- [[binary search]]",
         "2022-09-05": "- [[binary search]]",
         "Real Exams": "- 1 binary tree construction & [[binary search]] traversal"
     },
-    "바이올린 켜면 바이올레이션": {},
     "JSX": {
         "Stories Behind Satori": "After simplifying the syntax with [[JSX]] and simple [[CSS]], Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the ..."
     },
@@ -3920,7 +3740,7 @@ export const backlinks = {
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
-        "The Great Struggle of Gumroad": "... would work on it until I died—something like that. Posting on [[Hacker News|HN]], the reaction exceeded my grandest aspirations. Over 52,000 people checked it ...",
+        "The Great Struggle of Gumroad": "... would work on it until I died\u2014something like that. Posting on [[Hacker News|HN]], the reaction exceeded my grandest aspirations. Over 52,000 people checked it ...",
         "Using an iPad as my Ebook": "... search never ended to find the perfect ebook. Refer to this [[Hacker News|HN]] thread"
     },
     "Treehouse": {
@@ -3932,7 +3752,6 @@ export const backlinks = {
     "Torvalds": {
         "Linux": "... operating system kernel first released on September 17, 1991, by Linus [[Torvalds]]. Linux is typically packaged as a Linux distribution, which includes the ..."
     },
-    "하늘땅사람 개인 정보 보호 정책": {},
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on my Twitter threads."
     },
@@ -3942,9 +3761,8 @@ export const backlinks = {
         "Horizontally Stacked Interface": "- [[Sliding Panes]]: Have multiple-scrollable columns.",
         "Spacial Cognition": "- Three Column Design and [[Sliding Panes]] are a few ways of giving spacial cognition."
     },
-    "Old Fashioned Camera": {},
     "Jetbrains": {
-        "Apple Newsroom 서체 따라하기": "- 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.",
+        "Apple Newsroom \u1109\u1165\u110e\u1166 \u1104\u1161\u1105\u1161\u1112\u1161\u1100\u1175": "- \uc774 \ube14\ub85c\uadf8\uc758 \ucf54\ub4dc \uae00\uc528\uccb4\ub294 \ub354 \uc774\uc0c1 SF Mono\uac00 \uc544\ub2c8\ub2e4! [[Jetbrains]] Mono\ub77c\ub294 \ud3f0\ud2b8\ub97c \uc0ac\uc6a9 \uc911\uc774\ub2e4.",
         "IntelliJ": "... Java, Kotlin, Groovy, and other JVM-based languages. It is produced by [[JetBrains]] (formerly known as IntelliJ) and is available as an Apache 2 ...",
         "Jetbrains Fleet": "... weight multi-purpose IDE, with support for collaboration and remote workflows by [[Jetbrains]]. JetBrains"
     },
@@ -3967,7 +3785,6 @@ export const backlinks = {
     "Social Coding": {
         "Matt Rickard": "- [[Social Coding]]"
     },
-    "Snowpack으로 WASM 시작하기": {},
     "Letter to Mr. Matt Rickard on 2022-12-23": {
         "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-23]]",
         "2023-01-09": "- [[Letter to Mr. Matt Rickard on 2022-12-23]]",
@@ -3979,7 +3796,6 @@ export const backlinks = {
     "AWS Nuke": {
         "2022-10-25": "- [[AWS Nuke]]"
     },
-    "하얼빈": {},
     "Packet Sniffing": {
         "Internetworking": "- [[Packet Sniffing]]"
     },
@@ -3989,7 +3805,7 @@ export const backlinks = {
     "Tools Must Vanish": {
         "2022-07-07": "- [[Tools Must Vanish]]",
         "2022-12-28": "- [[Tools Must Vanish]]",
-        "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter — essentially solving the [[Digital Addiction]]."
+        "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter \u2014 essentially solving the [[Digital Addiction]]."
     },
     "Counting": {
         "2023-01-24": "- [[Counting]]"
@@ -4003,9 +3819,8 @@ export const backlinks = {
     },
     "Redirect": {
         "2022-09-17": "- [[Redirect]]",
-        "HTTP": "- 301 Moved Permanently → [[Redirect]]"
+        "HTTP": "- 301 Moved Permanently \u2192 [[Redirect]]"
     },
-    "이 땅에 태어나서": {},
     "Almost Monospaced": {
         "2022-11-07": "- [[Almost Monospaced]]"
     },
@@ -4017,7 +3832,7 @@ export const backlinks = {
     },
     "iiframe": {
         "2022-08-03": "### [[iiframe]]",
-        "Proposal of Research to Professor Cote": "## 2. [[iiframe]]—improved iframe"
+        "Proposal of Research to Professor Cote": "## 2. [[iiframe]]\u2014improved iframe"
     },
     "Deno Deploy": {
         "CELLO (Product)": "- Possibly [[Deno Deploy]]"
@@ -4032,13 +3847,12 @@ export const backlinks = {
         "2022-11-29": "- UUIDs are Awesome: [[XUID]]?",
         "UUIDs are Awesome": "- [[XUID]]"
     },
-    "하늘땅사람 개발 기록": {},
     "AT&T Roaming Incident (December 2022)": {
         "2022-12-27": "- [[AT&T Roaming Incident (December 2022)]]"
     },
     "TypeScript": {
-        "2022-07-06": "- Bundle, transpile, install and run JavaScript & [[TypeScript]] projects — all in Bun. Bun is a new JavaScript runtime ...",
-        "2022-07-20": "- JavaScript → [[TypeScript]]",
+        "2022-07-06": "- Bundle, transpile, install and run JavaScript & [[TypeScript]] projects \u2014 all in Bun. Bun is a new JavaScript runtime ...",
+        "2022-07-20": "- JavaScript \u2192 [[TypeScript]]",
         "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations",
         "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules",
         "Svelte": "... i.e., in the Web Browser|browser. The compiler itself is written in [[TypeScript]]. Its source code is licensed under MIT License and hosted on ...",
@@ -4078,7 +3892,6 @@ export const backlinks = {
     "0079 Word Search": {
         "Coding Tests": "- [ ] [[0079 Word Search]]"
     },
-    "하늘땅사람 업데이트 기록": {},
     "Virtual Address Space and Physical Address Space": {
         "2022-11-04": "- [[Virtual Address Space and Physical Address Space]]",
         "Computer Systems": "- [[Virtual Address Space and Physical Address Space]]",
@@ -4111,7 +3924,6 @@ export const backlinks = {
     "Binomial Theorem": {
         "2023-01-24": "- [[Binomial Theorem]]"
     },
-    "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {},
     "Confectionery": {
         "2022-11-11": "- [[Confectionery]]"
     },
@@ -4123,7 +3935,7 @@ export const backlinks = {
         "2022-10-18": "- [[Copilot]]",
         "AI replaces expensive jobs first": "- Like GitHub [[Copilot]] but for medical and legal cases.",
         "AIs.txt": "... we could make a human-readable file that declines machine learning (a.k.a. [[Copilot]] use)?",
-        "AI는 고가 노동부터 점령한다": "- 마치, 의료 법률계의 GitHub [[Copilot]] (2021년에 출시되어 이미 보급된 인공지능 코드 작성기.)",
+        "AI\u1102\u1173\u11ab \u1100\u1169\u1100\u1161 \u1102\u1169\u1103\u1169\u11bc\u1107\u116e\u1110\u1165 \u110c\u1165\u11b7\u1105\u1167\u11bc\u1112\u1161\u11ab\u1103\u1161": "- \ub9c8\uce58, \uc758\ub8cc \ubc95\ub960\uacc4\uc758 GitHub [[Copilot]] (2021\ub144\uc5d0 \ucd9c\uc2dc\ub418\uc5b4 \uc774\ubbf8 \ubcf4\uae09\ub41c \uc778\uacf5\uc9c0\ub2a5 \ucf54\ub4dc \uc791\uc131\uae30.)",
         "Antipilot": "- [[Copilot]] looks like increasing your productivity, but it",
         "Collecting Data": "- [[Copilot]]",
         "Cool GPT Applications": "- [[Copilot]]",
@@ -4156,7 +3968,7 @@ export const backlinks = {
         "Regulation of Fake News": "- [[Freedom of Speech and Regulation of Fake News]]"
     },
     "Framer Motion": {
-        "2022-06-26": "- Especially, try implementing synchronous Layout properties—for example, [[Framer Motion]].",
+        "2022-06-26": "- Especially, try implementing synchronous Layout properties\u2014for example, [[Framer Motion]].",
         "2022-12-07": "- [[Framer Motion]], [[Interactive Articles]]: Inside Framer's Magic Motion",
         "Animations": "### [[Framer Motion]]",
         "Dynamic Island on the Web": "- Applied Quick Clipping with [[Framer Motion]] for performance",
@@ -4178,7 +3990,7 @@ export const backlinks = {
         "AMP Email": "... the email. The AMP email format provides a subset of AMP [[HTML]] components for use in email messages, allowing recipients of AMP emails ...",
         "CSS": "... presentation of a document written in a markup language such as [[HTML]] or XML (including XML dialects such as [[SVG]], MathML, or XHTML). ...",
         "DOM": "... is a cross-platform and language-independent interface that treats an XML or [[HTML]] document as a tree structure wherein each node is an object ...",
-        "HTML 텍스트 위에 덧말 강조점 쓰기": "그동안 글자 위에 글자를 어떻게 적는지 궁금했는데 [[HTML]]의 기본 기능 만으로도 해결 가능하다는 것을 알게 되었다. 참고로 이런 '글자 ...",
+        "HTML \u1110\u1166\u11a8\u1109\u1173\u1110\u1173 \u110b\u1171\u110b\u1166 \u1103\u1165\u11ba\u1106\u1161\u11af \u1100\u1161\u11bc\u110c\u1169\u110c\u1165\u11b7 \u110a\u1173\u1100\u1175": "\uadf8\ub3d9\uc548 \uae00\uc790 \uc704\uc5d0 \uae00\uc790\ub97c \uc5b4\ub5bb\uac8c \uc801\ub294\uc9c0 \uad81\uae08\ud588\ub294\ub370 [[HTML]]\uc758 \uae30\ubcf8 \uae30\ub2a5 \ub9cc\uc73c\ub85c\ub3c4 \ud574\uacb0 \uac00\ub2a5\ud558\ub2e4\ub294 \uac83\uc744 \uc54c\uac8c \ub418\uc5c8\ub2e4. \ucc38\uace0\ub85c \uc774\ub7f0 '\uae00\uc790 ...",
         "JSX": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
         "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
         "Markdown Email Client": "... select one CSS. Then... it sends as a beautiful and clean [[HTML]] email!",
@@ -4190,17 +4002,17 @@ export const backlinks = {
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly ([[HTML]]/[[CSS]])",
         "Svelte": "... not a monolithic JavaScript library imported by applications: instead, Svelte compiles [[HTML]] templates to specialized code that manipulates the [[DOM]] directly, which may ...",
         "Tailwind": "> Rapidly build modern websites without ever leaving your [[HTML]]. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, ...",
-        "Tailwind CSS 톺아보기": "- `next/image` 사용. `next/image`는 여전히 [[HTML]] `<img>`를 생성하지만 이미지 최적화 등에서 강점을 지님. 다만 [[Tailwind]] 자체의 `h-12`, ...",
+        "Tailwind CSS \u1110\u1169\u11c1\u110b\u1161\u1107\u1169\u1100\u1175": "- `next/image` \uc0ac\uc6a9. `next/image`\ub294 \uc5ec\uc804\ud788 [[HTML]] `<img>`\ub97c \uc0dd\uc131\ud558\uc9c0\ub9cc \uc774\ubbf8\uc9c0 \ucd5c\uc801\ud654 \ub4f1\uc5d0\uc11c \uac15\uc810\uc744 \uc9c0\ub2d8. \ub2e4\ub9cc [[Tailwind]] \uc790\uccb4\uc758 `h-12`, ...",
         "Web Typography": "... typography refers to using fonts on the World Wide Web. When [[HTML]] was first created, [[font]] faces and styles were controlled exclusively by ...",
         "Web Worker": "... Technology Working Group (WHATWG), is a JavaScript script executed from an [[HTML]] page that runs in the background, independently of scripts that may ...",
         "XTML": "What if stale [[HTML]] elements can have some neat features?",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 IP 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 포토샵으로 삭제했다.",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 것이라고 판단하고 API 서버를 제작하기 시작했다. 즉, 이전에는 php로 렌더링 하는 [[html]] 문서뿐이었던 웹이 한순간에 또 다른 클라이언트가 된 것이다. 이때까지만 해도 우아한 ...",
-        "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. 특정 텍스트를 강조하고 싶다면 다음과 ...",
-        "코드클럽": "또한 BCD의 모든 수업 자료는 [[HTML]] 문법과 Code Snippet을 활용한 Markdown 문서로 제작되며, 누구나 사용할 수 있도록 ..."
+        "\u1105\u1161\u110c\u1173\u1107\u1166\u1105\u1175 \u1111\u1161\u110b\u1175\u1105\u1169 \u1109\u1173\u1106\u1161\u1110\u1173 \u110b\u1169\u1103\u1175\u110b\u1169 \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 \u1106\u1161\u11ab\u1103\u1173\u11af\u1100\u1175": "\ub610\ud55c \uc774 \uae00\uc5d0\uc11c IP \uc8fc\uc18c\uc640 \ub514\ubc14\uc774\uc2a4 \uace0\uc720 \uc8fc\uc18c \ub4f1\uc740 [[HTML]] \uac12 \uc218\uc815\uc73c\ub85c `?` \ub85c \ubcc0\uacbd\ud558\uac70\ub098 \ud3ec\ud1a0\uc0f5\uc73c\ub85c \uc0ad\uc81c\ud588\ub2e4.",
+        "\u1107\u1162\u1103\u1161\u11af\u110b\u1174\u1106\u1175\u11ab\u110c\u1169\u11a8 FE \u1100\u1162\u1107\u1161\u11af\u110c\u1161\u1100\u1161 \u110b\u1175\u11af\u1112\u1161\u1102\u1173\u11ab \u1107\u1165\u11b8 Q&A": "... \uac83\uc774\ub77c\uace0 \ud310\ub2e8\ud558\uace0 API \uc11c\ubc84\ub97c \uc81c\uc791\ud558\uae30 \uc2dc\uc791\ud588\ub2e4. \uc989, \uc774\uc804\uc5d0\ub294 php\ub85c \ub80c\ub354\ub9c1 \ud558\ub294 [[html]] \ubb38\uc11c\ubfd0\uc774\uc5c8\ub358 \uc6f9\uc774 \ud55c\uc21c\uac04\uc5d0 \ub610 \ub2e4\ub978 \ud074\ub77c\uc774\uc5b8\ud2b8\uac00 \ub41c \uac83\uc774\ub2e4. \uc774\ub54c\uae4c\uc9c0\ub9cc \ud574\ub3c4 \uc6b0\uc544\ud55c ...",
+        "\u1107\u1173\u1105\u1161\u110b\u116e\u110c\u1165 \u110f\u1169\u11ab\u1109\u1169\u11af\u110b\u1166 \u1100\u1167\u11bc\u1100\u1169 \u1106\u116e\u11ab\u1100\u116e \u1104\u1174\u110b\u116e\u1102\u1173\u11ab \u1107\u1161\u11bc\u1107\u1165\u11b8": "[[HTML]] \uc5b4\ub518\uac00\uc5d0\uc11c `console.log`\ub97c \ud574\uc8fc\uba74 \ub418\ub294 \uac04\ub2e8\ud55c \uc791\uc5c5\uc774\ub2e4. \ud2b9\uc815 \ud14d\uc2a4\ud2b8\ub97c \uac15\uc870\ud558\uace0 \uc2f6\ub2e4\uba74 \ub2e4\uc74c\uacfc ...",
+        "\u110f\u1169\u1103\u1173\u110f\u1173\u11af\u1105\u1165\u11b8": "\ub610\ud55c BCD\uc758 \ubaa8\ub4e0 \uc218\uc5c5 \uc790\ub8cc\ub294 [[HTML]] \ubb38\ubc95\uacfc Code Snippet\uc744 \ud65c\uc6a9\ud55c Markdown \ubb38\uc11c\ub85c \uc81c\uc791\ub418\uba70, \ub204\uad6c\ub098 \uc0ac\uc6a9\ud560 \uc218 \uc788\ub3c4\ub85d ..."
     },
     "I just want it fixed": {
-        "공기 청정 비행선": "원인이 뭐든, 누가 원인을 제공했든, 그런 것을 다 떠나서 [[I just want it fixed|그냥 고치면 좋겠다]]."
+        "\u1100\u1169\u11bc\u1100\u1175 \u110e\u1165\u11bc\u110c\u1165\u11bc \u1107\u1175\u1112\u1162\u11bc\u1109\u1165\u11ab": "\uc6d0\uc778\uc774 \ubb50\ub4e0, \ub204\uac00 \uc6d0\uc778\uc744 \uc81c\uacf5\ud588\ub4e0, \uadf8\ub7f0 \uac83\uc744 \ub2e4 \ub5a0\ub098\uc11c [[I just want it fixed|\uadf8\ub0e5 \uace0\uce58\uba74 \uc88b\uaca0\ub2e4]]."
     },
     "AI replaces expensive jobs first": {
         "2022-10-20": "- [[AI replaces expensive jobs first]]",
@@ -4209,24 +4021,22 @@ export const backlinks = {
     "Great Schism": {
         "2023-01-26": "- [[Great Schism]]"
     },
-    "한국의 입시와 거짓된 명예": {},
     "Super App": {
         "2022-12-09": "- [[Super App]]",
         "Letter to Mr. Matt Rickard on 2022-12-23": "- Interesting on the downsides of the [[super app]]",
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
         "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in Korea and U.S.",
-        "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
+        "\u110b\u1172\u1102\u1161\u11ab\u1112\u1161\u11ab \u1103\u1169\u110c\u1165\u11ab": "## [[Super App|\uc288\ud37c \uc571]]\uc744 \ud5a5\ud574"
     },
     "Nation as a Service": {
         "2022-09-12": "- [[Nation as a Service]]"
     },
-    "Ghost에서 외부 링크를 새로운 창에서 여는 방법": {},
     "React App on GitHub Pages": {
         "2022-11-19": "  - [[React App on GitHub Pages]]"
     },
     "Cross-Platform AirDrops": {
-        "2022-10-13": "- Taildrop · Tailscale: [[Cross-Platform AirDrops]] [[Tailscale]]",
-        "Tailscale": "- Taildrop · Tailscale: [[Cross-Platform AirDrops]]"
+        "2022-10-13": "- Taildrop \u00b7 Tailscale: [[Cross-Platform AirDrops]] [[Tailscale]]",
+        "Tailscale": "- Taildrop \u00b7 Tailscale: [[Cross-Platform AirDrops]]"
     },
     "Reimagining Emails": {
         "2022-10-19": "- [[Reimagining Emails]]",
@@ -4258,7 +4068,7 @@ export const backlinks = {
     },
     "K-Pop App": {
         "CELLO (Product)": "- Avoid local confinement, as seen in most [[K-Pop App]].",
-        "프로젝트 어덕행덕": "[[K-Pop App]]에 큰 실망을 하고 구상해본 가설적 팬덤 앱의 비전."
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "[[K-Pop App]]\uc5d0 \ud070 \uc2e4\ub9dd\uc744 \ud558\uace0 \uad6c\uc0c1\ud574\ubcf8 \uac00\uc124\uc801 \ud32c\ub364 \uc571\uc758 \ube44\uc804."
     },
     "Nextra": {
         "Apple-like Block Interface": "## [[Nextra]]"
@@ -4286,7 +4096,7 @@ export const backlinks = {
     "10x": {
         "2022-06-06": "- Early in your career, you can learn [[10x]] more in a supportive team in 1 year than coding on ...",
         "2022-12-09": "- [[10x]]",
-        "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying attention already knows this — Nat ..."
+        "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying attention already knows this \u2014 Nat ..."
     },
     "FIRE": {
         "10x Technopreneurs": "... example, Obsidian is created by 2 10x Technopreneurs. They can attain [[FIRE]]",
@@ -4300,38 +4110,38 @@ export const backlinks = {
     "Educational Technology": {
         "Person 1E6ABA": "- Currently works at a Financial Technology|FinTech + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager."
     },
-    "2023년 1월과 2월에 하루 25분 조깅하기": {
-        "2023-01-10": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-11": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-12": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
-        "2023-01-13": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-14": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
-        "2023-01-15": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 45분 했다.",
-        "2023-01-16": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
-        "2023-01-17": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]: 1시간 했다.",
-        "2023-01-18": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-19": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-20": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-21": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-22": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-23": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-24": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-25": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-26": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-27": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-28": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-29": "- [x] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "2023-01-30": "- [ ] [[2023년 1월과 2월에 하루 25분 조깅하기]]",
-        "Building Habit": "- [[2023년 1월과 2월에 하루 25분 조깅하기]]"
+    "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": {
+        "2023-01-10": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-11": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-12": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]: 45\ubd84 \ud588\ub2e4.",
+        "2023-01-13": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-14": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]: 45\ubd84 \ud588\ub2e4.",
+        "2023-01-15": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]: 45\ubd84 \ud588\ub2e4.",
+        "2023-01-16": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]: 1\uc2dc\uac04 \ud588\ub2e4.",
+        "2023-01-17": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]: 1\uc2dc\uac04 \ud588\ub2e4.",
+        "2023-01-18": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-19": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-20": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-21": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-22": "- [ ] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-23": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-24": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-25": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-26": "- [ ] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-27": "- [ ] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-28": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-29": "- [x] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "2023-01-30": "- [ ] [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]",
+        "Building Habit": "- [[2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30]]"
     },
-    "국제 계열과 계열 변경 이야기": {
-        "2016-10-22": "- [[국제 계열과 계열 변경 이야기]]"
+    "\uad6d\uc81c \uacc4\uc5f4\uacfc \uacc4\uc5f4 \ubcc0\uacbd \uc774\uc57c\uae30": {
+        "2016-10-22": "- [[\uad6d\uc81c \uacc4\uc5f4\uacfc \uacc4\uc5f4 \ubcc0\uacbd \uc774\uc57c\uae30]]"
     },
-    "조선왕조실록": {
-        "2022-08-28": "- [[조선왕조실록]]"
+    "\uc870\uc120\uc655\uc870\uc2e4\ub85d": {
+        "2022-08-28": "- [[\uc870\uc120\uc655\uc870\uc2e4\ub85d]]"
     },
-    "사회과부도": {
-        "2022-08-28": "- [[사회과부도]]"
+    "\uc0ac\ud68c\uacfc\ubd80\ub3c4": {
+        "2022-08-28": "- [[\uc0ac\ud68c\uacfc\ubd80\ub3c4]]"
     },
     "AB57BB.png": {
         "2022-07-11": "![[AB57BB.png]]"
@@ -4342,98 +4152,89 @@ export const backlinks = {
     "EFE641.png": {
         "2022-07-11": "![[EFE641.png]]"
     },
-    "프로젝트 어덕행덕": {
-        "2019-11-06": "- [[프로젝트 어덕행덕]]",
-        "2020-01-05": "- [[프로젝트 어덕행덕]]",
-        "2020-02-12": "- [[프로젝트 어덕행덕]]",
-        "2020-02-13": "- [[프로젝트 어덕행덕]]",
-        "2020-02-14": "- [[프로젝트 어덕행덕]]",
-        "2020-02-15": "- [[프로젝트 어덕행덕]]",
-        "2020-02-17": "- [[프로젝트 어덕행덕]]",
-        "2020-02-22": "- [[프로젝트 어덕행덕]]",
-        "2020-02-23": "- [[프로젝트 어덕행덕]]",
-        "2020-02-27": "- [[프로젝트 어덕행덕]]",
-        "2020-03-07": "- [[프로젝트 어덕행덕]]",
-        "2020-03-08": "- [[프로젝트 어덕행덕]]",
-        "2020-03-28": "- [[프로젝트 어덕행덕]]",
-        "2020-04-01": "- [[프로젝트 어덕행덕]]",
-        "2020-09-20": "- [[프로젝트 어덕행덕]]",
-        "2020-09-24": "- [[프로젝트 어덕행덕]]",
-        "2020-09-25": "- [[프로젝트 어덕행덕]]",
-        "2020-09-27": "- [[프로젝트 어덕행덕]]",
-        "2020-10-27": "- [[프로젝트 어덕행덕]]",
-        "2020-11-06": "- [[프로젝트 어덕행덕]]",
-        "2020-11-09": "- [[프로젝트 어덕행덕]]",
-        "2020-11-13": "- [[프로젝트 어덕행덕]]",
-        "2020-11-19": "- [[프로젝트 어덕행덕]]",
-        "2020-11-20": "- [[프로젝트 어덕행덕]]",
-        "2021-02-26": "- [[프로젝트 어덕행덕]]",
-        "2022-11-25": "- [[프로젝트 어덕행덕]]"
+    "\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355": {
+        "2019-11-06": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-01-05": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-02-12": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-02-13": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-02-14": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-02-15": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-02-17": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-02-22": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-02-23": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-02-27": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-03-07": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-03-08": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-03-28": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-04-01": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-09-20": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-09-24": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-09-25": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-09-27": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-10-27": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-11-06": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-11-09": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-11-13": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-11-19": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2020-11-20": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2021-02-26": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]",
+        "2022-11-25": "- [[\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355]]"
     },
-    "개성은 자연스레 주어지지 않는다": {
-        "2021-06-23": "- [[개성은 자연스레 주어지지 않는다]]",
-        "2022-12-06": "- [[개성은 자연스레 주어지지 않는다]]"
+    "\uac1c\uc131\uc740 \uc790\uc5f0\uc2a4\ub808 \uc8fc\uc5b4\uc9c0\uc9c0 \uc54a\ub294\ub2e4": {
+        "2021-06-23": "- [[\uac1c\uc131\uc740 \uc790\uc5f0\uc2a4\ub808 \uc8fc\uc5b4\uc9c0\uc9c0 \uc54a\ub294\ub2e4]]",
+        "2022-12-06": "- [[\uac1c\uc131\uc740 \uc790\uc5f0\uc2a4\ub808 \uc8fc\uc5b4\uc9c0\uc9c0 \uc54a\ub294\ub2e4]]"
     },
     "418938.jpeg": {
         "2022-10-12": "![[418938.jpeg]]",
         "Better Hacker News": "![[418938.jpeg]]",
         "Handwriting Tools for Thoughts": "![[418938.jpeg]]"
     },
-    "144EF0.png": {
-        "2023-01-30": "![[144EF0.png]]",
-        "Tana": "![[144EF0.png]]",
-        "Text-based Tools for Thought": "![[144EF0.png]]"
+    "2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30": {
+        "2022-10-31": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-01": "- [ ] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-02": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-03": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-04": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-05": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-06": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-07": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-08": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-09": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-10": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-11": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-12": "- [ ] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-14": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-15": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-16": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-17": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-18": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-19": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-20": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-21": "- [ ] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-22": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-23": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-24": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-25": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-26": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-27": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-28": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-29": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-11-30": "- [x] [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2022-12-27": "- [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "2023-01-09": "- [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]",
+        "Building Habit": "- [[2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30]]"
     },
-    "3E4C69.png": {
-        "2023-01-30": "![[3E4C69.png]]",
-        "Amie": "![[3E4C69.png]]"
-    },
-    "2022년 11월 한 달간 일기 쓰기": {
-        "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-01": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-02": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-03": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-04": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-05": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-06": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-07": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-08": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-09": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-10": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-11": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-12": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-14": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-15": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-16": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-17": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-18": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-19": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-20": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-21": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-22": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-23": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-24": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-25": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-26": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-27": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-28": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-29": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-11-30": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
-        "2022-12-27": "- [[2022년 11월 한 달간 일기 쓰기]]",
-        "2023-01-09": "- [[2022년 11월 한 달간 일기 쓰기]]",
-        "Building Habit": "- [[2022년 11월 한 달간 일기 쓰기]]"
-    },
-    "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
-        "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
+    "\uc544\uc6c3 \uc624\ube0c \uc0ac\uc774\ud2b8\uac00 \ud56d\uc0c1 \uc0ac\ub78c\uc744 \uba40\uac8c \ud558\ub294 \uac83\uc740 \uc544\ub2d9\ub2c8\ub2e4": {
+        "2016-11-28": "- [[\uc544\uc6c3 \uc624\ube0c \uc0ac\uc774\ud2b8\uac00 \ud56d\uc0c1 \uc0ac\ub78c\uc744 \uba40\uac8c \ud558\ub294 \uac83\uc740 \uc544\ub2d9\ub2c8\ub2e4]]"
     },
     "B5F9BB.png": {
         "2022-11-08": "![[B5F9BB.png]]"
     },
-    "방송 장비 담당자로 할 일": {
-        "2022-12-26": "- [[방송 장비 담당자로 할 일]]"
+    "\ubc29\uc1a1 \uc7a5\ube44 \ub2f4\ub2f9\uc790\ub85c \ud560 \uc77c": {
+        "2022-12-26": "- [[\ubc29\uc1a1 \uc7a5\ube44 \ub2f4\ub2f9\uc790\ub85c \ud560 \uc77c]]"
     },
-    "식영부원의 관점에서 바라본 치킨데이": {
-        "2016-07-01": "- [[식영부원의 관점에서 바라본 치킨데이]]"
+    "\uc2dd\uc601\ubd80\uc6d0\uc758 \uad00\uc810\uc5d0\uc11c \ubc14\ub77c\ubcf8 \uce58\ud0a8\ub370\uc774": {
+        "2016-07-01": "- [[\uc2dd\uc601\ubd80\uc6d0\uc758 \uad00\uc810\uc5d0\uc11c \ubc14\ub77c\ubcf8 \uce58\ud0a8\ub370\uc774]]"
     },
     "Undefined Symbol Vtable": {
         "2022-09-22": "- [[Undefined Symbol Vtable]]",
@@ -4453,122 +4254,122 @@ export const backlinks = {
         "2022-10-16": "![[AA04D0.gif]]",
         "Dynamic Island on the Web": "![[AA04D0.gif]]"
     },
-    "하늘땅사람 개발 기록": {
-        "2022-12-19": "### [[하늘땅사람 개발 기록]]",
-        "2022-12-20": "- [[하늘땅사람 개발 기록]]",
-        "2022-12-27": "- [[하늘땅사람 개발 기록]]",
-        "2022-12-28": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-02": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-03": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-15": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-16": "- [[하늘땅사람 개발 기록]]",
-        "2023-01-18": "- [[하늘땅사람 개발 기록]]",
-        "Project": "- [[하늘땅사람 개발 기록]]",
-        "하늘땅사람": "- [[하늘땅사람 개발 기록]]",
-        "하늘땅사람 지원 문서": "[[하늘땅사람 개발 기록]]의 지원 문서입니다.",
-        "활자": "[[하늘땅사람 개발 기록]]의 [[Subproject|하위 계획]]."
+    "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d": {
+        "2022-12-19": "### [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "2022-12-20": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "2022-12-27": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "2022-12-28": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "2023-01-02": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "2023-01-03": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "2023-01-15": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "2023-01-16": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "2023-01-18": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "Project": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u110c\u1175\u110b\u116f\u11ab \u1106\u116e\u11ab\u1109\u1165": "[[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]\uc758 \uc9c0\uc6d0 \ubb38\uc11c\uc785\ub2c8\ub2e4.",
+        "\u1112\u116a\u11af\u110c\u1161": "[[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d]]\uc758 [[Subproject|\ud558\uc704 \uacc4\ud68d]]."
     },
-    "하늘땅사람 업데이트 기록": {
-        "2023-01-19": "- [[하늘땅사람 업데이트 기록]]",
-        "2023-01-21": "- [[하늘땅사람 업데이트 기록]]",
-        "2023-01-22": "- [[하늘땅사람 업데이트 기록]]",
-        "2023-01-25": "- [[하늘땅사람 업데이트 기록]]",
-        "하늘땅사람": "- [[하늘땅사람 업데이트 기록]]",
-        "하늘땅사람 지원 문서": "[[하늘땅사람 업데이트 기록]]도 확인해보세요."
+    "\ud558\ub298\ub545\uc0ac\ub78c \uc5c5\ub370\uc774\ud2b8 \uae30\ub85d": {
+        "2023-01-19": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uc5c5\ub370\uc774\ud2b8 \uae30\ub85d]]",
+        "2023-01-21": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uc5c5\ub370\uc774\ud2b8 \uae30\ub85d]]",
+        "2023-01-22": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uc5c5\ub370\uc774\ud2b8 \uae30\ub85d]]",
+        "2023-01-25": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uc5c5\ub370\uc774\ud2b8 \uae30\ub85d]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uc5c5\ub370\uc774\ud2b8 \uae30\ub85d]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u110c\u1175\u110b\u116f\u11ab \u1106\u116e\u11ab\u1109\u1165": "[[\ud558\ub298\ub545\uc0ac\ub78c \uc5c5\ub370\uc774\ud2b8 \uae30\ub85d]]\ub3c4 \ud655\uc778\ud574\ubcf4\uc138\uc694."
     },
-    "두 번째 뇌": {
-        "2022-11-19": "  - [[두 번째 뇌]]",
-        "Building a Second Brain": "- [[두 번째 뇌]]"
+    "\ub450 \ubc88\uc9f8 \ub1cc": {
+        "2022-11-19": "  - [[\ub450 \ubc88\uc9f8 \ub1cc]]",
+        "Building a Second Brain": "- [[\ub450 \ubc88\uc9f8 \ub1cc]]"
     },
-    "AI는 고가 노동부터 점령한다": {
-        "2022-11-19": "  - [[AI는 고가 노동부터 점령한다]]"
+    "AI\ub294 \uace0\uac00 \ub178\ub3d9\ubd80\ud130 \uc810\ub839\ud55c\ub2e4": {
+        "2022-11-19": "  - [[AI\ub294 \uace0\uac00 \ub178\ub3d9\ubd80\ud130 \uc810\ub839\ud55c\ub2e4]]"
     },
-    "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {
-        "2022-11-19": "  - [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
-        "Setting different fonts by language in CSS": "- [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]"
+    "CSS\uc5d0\uc11c \uc5b8\uc5b4\ub9c8\ub2e4 \ub2e4\ub978 \uae00\uc528\uccb4\ub97c \uc124\uc815\ud558\ub294 \ubc29\ubc95": {
+        "2022-11-19": "  - [[CSS\uc5d0\uc11c \uc5b8\uc5b4\ub9c8\ub2e4 \ub2e4\ub978 \uae00\uc528\uccb4\ub97c \uc124\uc815\ud558\ub294 \ubc29\ubc95]]",
+        "Setting different fonts by language in CSS": "- [[CSS\uc5d0\uc11c \uc5b8\uc5b4\ub9c8\ub2e4 \ub2e4\ub978 \uae00\uc528\uccb4\ub97c \uc124\uc815\ud558\ub294 \ubc29\ubc95]]"
     },
-    "Ghost 테마를 자동 배포하는 방법": {
-        "2022-11-19": "  - [[Ghost 테마를 자동 배포하는 방법]]"
+    "Ghost \ud14c\ub9c8\ub97c \uc790\ub3d9 \ubc30\ud3ec\ud558\ub294 \ubc29\ubc95": {
+        "2022-11-19": "  - [[Ghost \ud14c\ub9c8\ub97c \uc790\ub3d9 \ubc30\ud3ec\ud558\ub294 \ubc29\ubc95]]"
     },
-    "Ghost에서 외부 링크를 새로운 창에서 여는 방법": {
-        "2022-11-19": "  - [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]",
-        "Opening external links in a new tab by default on Ghost": "- [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]"
+    "Ghost\uc5d0\uc11c \uc678\ubd80 \ub9c1\ud06c\ub97c \uc0c8\ub85c\uc6b4 \ucc3d\uc5d0\uc11c \uc5ec\ub294 \ubc29\ubc95": {
+        "2022-11-19": "  - [[Ghost\uc5d0\uc11c \uc678\ubd80 \ub9c1\ud06c\ub97c \uc0c8\ub85c\uc6b4 \ucc3d\uc5d0\uc11c \uc5ec\ub294 \ubc29\ubc95]]",
+        "Opening external links in a new tab by default on Ghost": "- [[Ghost\uc5d0\uc11c \uc678\ubd80 \ub9c1\ud06c\ub97c \uc0c8\ub85c\uc6b4 \ucc3d\uc5d0\uc11c \uc5ec\ub294 \ubc29\ubc95]]"
     },
-    "GitHub Pages에 React 앱 띄우기": {
-        "2022-11-19": "  - [[GitHub Pages에 React 앱 띄우기]]",
-        "React App on GitHub Pages": "- [[GitHub Pages에 React 앱 띄우기]]"
+    "GitHub Pages\uc5d0 React \uc571 \ub744\uc6b0\uae30": {
+        "2022-11-19": "  - [[GitHub Pages\uc5d0 React \uc571 \ub744\uc6b0\uae30]]",
+        "React App on GitHub Pages": "- [[GitHub Pages\uc5d0 React \uc571 \ub744\uc6b0\uae30]]"
     },
-    "HTML 텍스트 위에 덧말 강조점 쓰기": {
-        "2022-11-19": "  - [[HTML 텍스트 위에 덧말 강조점 쓰기]]"
+    "HTML \ud14d\uc2a4\ud2b8 \uc704\uc5d0 \ub367\ub9d0 \uac15\uc870\uc810 \uc4f0\uae30": {
+        "2022-11-19": "  - [[HTML \ud14d\uc2a4\ud2b8 \uc704\uc5d0 \ub367\ub9d0 \uac15\uc870\uc810 \uc4f0\uae30]]"
     },
-    "http 없는 http 서버 만들기": {
-        "2022-11-19": "  - [[http 없는 http 서버 만들기]]"
+    "http \uc5c6\ub294 http \uc11c\ubc84 \ub9cc\ub4e4\uae30": {
+        "2022-11-19": "  - [[http \uc5c6\ub294 http \uc11c\ubc84 \ub9cc\ub4e4\uae30]]"
     },
-    "Mac을 Command+L로 잠그는 방법": {
-        "2022-11-19": "  - [[Mac을 Command+L로 잠그는 방법]]"
+    "Mac\uc744 Command+L\ub85c \uc7a0\uadf8\ub294 \ubc29\ubc95": {
+        "2022-11-19": "  - [[Mac\uc744 Command+L\ub85c \uc7a0\uadf8\ub294 \ubc29\ubc95]]"
     },
-    "Node.js 앱을 AWS EB에서 Heroku로 옮기기": {
-        "2022-11-19": "  - [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]",
-        "Migrating Node.js apps from AWS EB to Heroku": "- [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]"
+    "Node.js \uc571\uc744 AWS EB\uc5d0\uc11c Heroku\ub85c \uc62e\uae30\uae30": {
+        "2022-11-19": "  - [[Node.js \uc571\uc744 AWS EB\uc5d0\uc11c Heroku\ub85c \uc62e\uae30\uae30]]",
+        "Migrating Node.js apps from AWS EB to Heroku": "- [[Node.js \uc571\uc744 AWS EB\uc5d0\uc11c Heroku\ub85c \uc62e\uae30\uae30]]"
     },
-    "Snowpack으로 WASM 시작하기": {
-        "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
+    "Snowpack\uc73c\ub85c WASM \uc2dc\uc791\ud558\uae30": {
+        "2022-11-19": "  - [[Snowpack\uc73c\ub85c WASM \uc2dc\uc791\ud558\uae30]]"
     },
-    "Tailwind CSS 톺아보기": {
-        "2022-11-19": "  - [[Tailwind CSS 톺아보기]]"
+    "Tailwind CSS \ud1ba\uc544\ubcf4\uae30": {
+        "2022-11-19": "  - [[Tailwind CSS \ud1ba\uc544\ubcf4\uae30]]"
     },
-    "배달의민족 FE 개발자가 일하는 법 발표": {
-        "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 발표]]"
+    "\ubc30\ub2ec\uc758\ubbfc\uc871 FE \uac1c\ubc1c\uc790\uac00 \uc77c\ud558\ub294 \ubc95 \ubc1c\ud45c": {
+        "2022-11-19": "  - [[\ubc30\ub2ec\uc758\ubbfc\uc871 FE \uac1c\ubc1c\uc790\uac00 \uc77c\ud558\ub294 \ubc95 \ubc1c\ud45c]]"
     },
-    "배달의민족 FE 개발자가 일하는 법 Q&A": {
-        "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
+    "\ubc30\ub2ec\uc758\ubbfc\uc871 FE \uac1c\ubc1c\uc790\uac00 \uc77c\ud558\ub294 \ubc95 Q&A": {
+        "2022-11-19": "  - [[\ubc30\ub2ec\uc758\ubbfc\uc871 FE \uac1c\ubc1c\uc790\uac00 \uc77c\ud558\ub294 \ubc95 Q&A]]"
     },
-    "브라우저 콘솔에 경고 문구 띄우는 방법": {
-        "2022-11-19": "  - [[브라우저 콘솔에 경고 문구 띄우는 방법]]"
+    "\ube0c\ub77c\uc6b0\uc800 \ucf58\uc194\uc5d0 \uacbd\uace0 \ubb38\uad6c \ub744\uc6b0\ub294 \ubc29\ubc95": {
+        "2022-11-19": "  - [[\ube0c\ub77c\uc6b0\uc800 \ucf58\uc194\uc5d0 \uacbd\uace0 \ubb38\uad6c \ub744\uc6b0\ub294 \ubc29\ubc95]]"
     },
-    "라즈베리 파이로 스마트 오디오 시스템 만들기": {
-        "2022-11-19": "  - [[라즈베리 파이로 스마트 오디오 시스템 만들기]]"
+    "\ub77c\uc988\ubca0\ub9ac \ud30c\uc774\ub85c \uc2a4\ub9c8\ud2b8 \uc624\ub514\uc624 \uc2dc\uc2a4\ud15c \ub9cc\ub4e4\uae30": {
+        "2022-11-19": "  - [[\ub77c\uc988\ubca0\ub9ac \ud30c\uc774\ub85c \uc2a4\ub9c8\ud2b8 \uc624\ub514\uc624 \uc2dc\uc2a4\ud15c \ub9cc\ub4e4\uae30]]"
     },
-    "Apple Newsroom 서체 따라하기": {
-        "2022-11-19": "  - [[Apple Newsroom 서체 따라하기]]"
+    "Apple Newsroom \uc11c\uccb4 \ub530\ub77c\ud558\uae30": {
+        "2022-11-19": "  - [[Apple Newsroom \uc11c\uccb4 \ub530\ub77c\ud558\uae30]]"
     },
     "wikilink": {
         "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which Docusaurus does not support. I have another python ..."
     },
-    "공기 청정 비행선": {
-        "2022-12-17": "- [[공기 청정 비행선]]"
+    "\uacf5\uae30 \uccad\uc815 \ube44\ud589\uc120": {
+        "2022-12-17": "- [[\uacf5\uae30 \uccad\uc815 \ube44\ud589\uc120]]"
     },
-    "졸업을 앞둔 중학교 3학년들에게": {
-        "2016-12-08": "- [[졸업을 앞둔 중학교 3학년들에게]]"
+    "\uc878\uc5c5\uc744 \uc55e\ub454 \uc911\ud559\uad50 3\ud559\ub144\ub4e4\uc5d0\uac8c": {
+        "2016-12-08": "- [[\uc878\uc5c5\uc744 \uc55e\ub454 \uc911\ud559\uad50 3\ud559\ub144\ub4e4\uc5d0\uac8c]]"
     },
-    "고통에는 순응이 아니라 감작이 나타난다": {
-        "2022-10-18": "- [[고통에는 순응이 아니라 감작이 나타난다]]",
-        "월급만큼 중요한 것은 자존급이다": "게다가 [[고통에는 순응이 아니라 감작이 나타난다]]."
+    "\uace0\ud1b5\uc5d0\ub294 \uc21c\uc751\uc774 \uc544\ub2c8\ub77c \uac10\uc791\uc774 \ub098\ud0c0\ub09c\ub2e4": {
+        "2022-10-18": "- [[\uace0\ud1b5\uc5d0\ub294 \uc21c\uc751\uc774 \uc544\ub2c8\ub77c \uac10\uc791\uc774 \ub098\ud0c0\ub09c\ub2e4]]",
+        "\u110b\u116f\u11af\u1100\u1173\u11b8\u1106\u1161\u11ab\u110f\u1173\u11b7 \u110c\u116e\u11bc\u110b\u116d\u1112\u1161\u11ab \u1100\u1165\u11ba\u110b\u1173\u11ab \u110c\u1161\u110c\u1169\u11ab\u1100\u1173\u11b8\u110b\u1175\u1103\u1161": "\uac8c\ub2e4\uac00 [[\uace0\ud1b5\uc5d0\ub294 \uc21c\uc751\uc774 \uc544\ub2c8\ub77c \uac10\uc791\uc774 \ub098\ud0c0\ub09c\ub2e4]]."
     },
     "94861D.png": {
         "2022-12-08": "![[94861D.png]]",
         "Wikipedia": "![[94861D.png]]"
     },
-    "바이올린 켜면 바이올레이션": {
-        "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
+    "\ubc14\uc774\uc62c\ub9b0 \ucf1c\uba74 \ubc14\uc774\uc62c\ub808\uc774\uc158": {
+        "2016-04-01": "- [[\ubc14\uc774\uc62c\ub9b0 \ucf1c\uba74 \ubc14\uc774\uc62c\ub808\uc774\uc158]]"
     },
-    "일본 과학기술 총력전": {
-        "2022-08-02": "- [[일본 과학기술 총력전]]",
-        "Readings": "- [x] [[일본 과학기술 총력전]]",
-        "한민족은 해적되었다": "그것이 한민족의 동족상잔|동족이든 [[일본 과학기술 총력전|외세]]이든..."
+    "\uc77c\ubcf8 \uacfc\ud559\uae30\uc220 \ucd1d\ub825\uc804": {
+        "2022-08-02": "- [[\uc77c\ubcf8 \uacfc\ud559\uae30\uc220 \ucd1d\ub825\uc804]]",
+        "Readings": "- [x] [[\uc77c\ubcf8 \uacfc\ud559\uae30\uc220 \ucd1d\ub825\uc804]]",
+        "\u1112\u1161\u11ab\u1106\u1175\u11ab\u110c\u1169\u11a8\u110b\u1173\u11ab \u1112\u1162\u110c\u1165\u11a8\u1103\u116c\u110b\u1165\u11bb\u1103\u1161": "\uadf8\uac83\uc774 \ud55c\ubbfc\uc871\uc758 \ub3d9\uc871\uc0c1\uc794|\ub3d9\uc871\uc774\ub4e0 [[\uc77c\ubcf8 \uacfc\ud559\uae30\uc220 \ucd1d\ub825\uc804|\uc678\uc138]]\uc774\ub4e0..."
     },
-    "한자 타자기": {
-        "2022-09-29": "- [[한자 타자기]]",
-        "Readings": "- [x] [[한자 타자기]]"
+    "\ud55c\uc790 \ud0c0\uc790\uae30": {
+        "2022-09-29": "- [[\ud55c\uc790 \ud0c0\uc790\uae30]]",
+        "Readings": "- [x] [[\ud55c\uc790 \ud0c0\uc790\uae30]]"
     },
-    "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
-        "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
-        "하늘땅사람": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
-        "하늘땅사람 개발 기록": "[[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]를 통해 제작이 충분히 가능함을 확인."
+    "\uc544\uc774\ud3f0 \ucc9c\uc9c0\uc778 \uc790\ud310 \ud504\ub85c\uc81d\ud2b8\uc758 \uc2e4\ud604 \uac00\ub2a5\uc131 \uc5f0\uad6c": {
+        "2022-12-19": "- [[\uc544\uc774\ud3f0 \ucc9c\uc9c0\uc778 \uc790\ud310 \ud504\ub85c\uc81d\ud2b8\uc758 \uc2e4\ud604 \uac00\ub2a5\uc131 \uc5f0\uad6c]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7": "- [[\uc544\uc774\ud3f0 \ucc9c\uc9c0\uc778 \uc790\ud310 \ud504\ub85c\uc81d\ud2b8\uc758 \uc2e4\ud604 \uac00\ub2a5\uc131 \uc5f0\uad6c]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "[[\uc544\uc774\ud3f0 \ucc9c\uc9c0\uc778 \uc790\ud310 \ud504\ub85c\uc81d\ud2b8\uc758 \uc2e4\ud604 \uac00\ub2a5\uc131 \uc5f0\uad6c]]\ub97c \ud1b5\ud574 \uc81c\uc791\uc774 \ucda9\ubd84\ud788 \uac00\ub2a5\ud568\uc744 \ud655\uc778."
     },
     "5B9AFC.png": {
         "2022-12-19": "![[5B9AFC.png]]",
-        "하늘땅사람 개발 기록": "![[5B9AFC.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[5B9AFC.png]]"
     },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
@@ -4584,27 +4385,27 @@ export const backlinks = {
         "2022-08-03": "![[770154.png]]",
         "Adding a Verified Mark on Apple Mail & Gmail": "![[770154.png]]"
     },
-    "그게 뭐라고": {
-        "2022-11-23": "- [[그게 뭐라고]]"
+    "\uadf8\uac8c \ubb50\ub77c\uace0": {
+        "2022-11-23": "- [[\uadf8\uac8c \ubb50\ub77c\uace0]]"
     },
-    "공강에서 보내는 공강 활용법": {
-        "2016-06-24": "- [[공강에서 보내는 공강 활용법]]"
+    "\uacf5\uac15\uc5d0\uc11c \ubcf4\ub0b4\ub294 \uacf5\uac15 \ud65c\uc6a9\ubc95": {
+        "2016-06-24": "- [[\uacf5\uac15\uc5d0\uc11c \ubcf4\ub0b4\ub294 \uacf5\uac15 \ud65c\uc6a9\ubc95]]"
     },
-    "원숭이와 꽃신": {
-        "2022-08-10": "- [[원숭이와 꽃신]]"
+    "\uc6d0\uc22d\uc774\uc640 \uaf43\uc2e0": {
+        "2022-08-10": "- [[\uc6d0\uc22d\uc774\uc640 \uaf43\uc2e0]]"
     },
     "B22093.png": {
         "2022-06-27": "![[B22093.png]]"
     },
-    "하늘땅사람 개인 정보 보호 정책": {
-        "2023-01-18": "- [[하늘땅사람 개인 정보 보호 정책]]",
-        "하늘땅사람": "- [[하늘땅사람 개인 정보 보호 정책]]",
-        "하늘땅사람 개발 기록": "- [[하늘땅사람 개인 정보 보호 정책]]"
+    "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\uc778 \uc815\ubcf4 \ubcf4\ud638 \uc815\ucc45": {
+        "2023-01-18": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\uc778 \uc815\ubcf4 \ubcf4\ud638 \uc815\ucc45]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\uc778 \uc815\ubcf4 \ubcf4\ud638 \uc815\ucc45]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uac1c\uc778 \uc815\ubcf4 \ubcf4\ud638 \uc815\ucc45]]"
     },
-    "하늘땅사람 지원 문서": {
-        "2023-01-18": "- [[하늘땅사람 지원 문서]]",
-        "하늘땅사람": "- [[하늘땅사람 지원 문서]]",
-        "하늘땅사람 개발 기록": "- [[하늘땅사람 지원 문서]]"
+    "\ud558\ub298\ub545\uc0ac\ub78c \uc9c0\uc6d0 \ubb38\uc11c": {
+        "2023-01-18": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uc9c0\uc6d0 \ubb38\uc11c]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uc9c0\uc6d0 \ubb38\uc11c]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "- [[\ud558\ub298\ub545\uc0ac\ub78c \uc9c0\uc6d0 \ubb38\uc11c]]"
     },
     "5A3846.gif": {
         "2022-11-10": "![[5A3846.gif]]",
@@ -4655,21 +4456,21 @@ export const backlinks = {
     "17D859.png": {
         "2022-08-04": "![[17D859.png]]"
     },
-    "기숙사 생활과 방 배정": {
-        "2016-11-11": "- [[기숙사 생활과 방 배정]]",
-        "2016-11-15": "- [[기숙사 생활과 방 배정]]"
+    "\uae30\uc219\uc0ac \uc0dd\ud65c\uacfc \ubc29 \ubc30\uc815": {
+        "2016-11-11": "- [[\uae30\uc219\uc0ac \uc0dd\ud65c\uacfc \ubc29 \ubc30\uc815]]",
+        "2016-11-15": "- [[\uae30\uc219\uc0ac \uc0dd\ud65c\uacfc \ubc29 \ubc30\uc815]]"
     },
     "356 Official SSH Server": {
         "2022-08-25": "- [[356 Official SSH Server]]"
     },
-    "하늘땅사람": {
-        "2023-01-19": "- [[하늘땅사람]]",
-        "하늘땅사람 개발 기록": "상위 문서: [[하늘땅사람]] 참고",
-        "하늘땅사람 개인 정보 보호 정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다."
+    "\ud558\ub298\ub545\uc0ac\ub78c": {
+        "2023-01-19": "- [[\ud558\ub298\ub545\uc0ac\ub78c]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "\uc0c1\uc704 \ubb38\uc11c: [[\ud558\ub298\ub545\uc0ac\ub78c]] \ucc38\uace0",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u110b\u1175\u11ab \u110c\u1165\u11bc\u1107\u1169 \u1107\u1169\u1112\u1169 \u110c\u1165\u11bc\u110e\u1162\u11a8": "[[\ud558\ub298\ub545\uc0ac\ub78c]]\uc740 \uc5b4\ub5a4 \uac1c\uc778 \uc815\ubcf4\ub3c4 \uc218\uc9d1\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4."
     },
-    "한국의 입시와 거짓된 명예": {
-        "2022-11-25": "- [[한국의 입시와 거짓된 명예]]",
-        "개성은 자연스레 주어지지 않는다": "- [[한국의 입시와 거짓된 명예]]"
+    "\ud55c\uad6d\uc758 \uc785\uc2dc\uc640 \uac70\uc9d3\ub41c \uba85\uc608": {
+        "2022-11-25": "- [[\ud55c\uad6d\uc758 \uc785\uc2dc\uc640 \uac70\uc9d3\ub41c \uba85\uc608]]",
+        "\u1100\u1162\u1109\u1165\u11bc\u110b\u1173\u11ab \u110c\u1161\u110b\u1167\u11ab\u1109\u1173\u1105\u1166 \u110c\u116e\u110b\u1165\u110c\u1175\u110c\u1175 \u110b\u1161\u11ad\u1102\u1173\u11ab\u1103\u1161": "- [[\ud55c\uad6d\uc758 \uc785\uc2dc\uc640 \uac70\uc9d3\ub41c \uba85\uc608]]"
     },
     "D09A61.png": {
         "2022-11-11": "![[D09A61.png]]",
@@ -4687,51 +4488,51 @@ export const backlinks = {
         "2022-11-11": "![[FA5FEC.gif]]",
         "Dynamic Island on the Web": "![[FA5FEC.gif]]"
     },
-    "雅號를 찾아서": {
-        "2023-01-09": "- [[雅號를 찾아서]]"
+    "\u96c5\u865f\ub97c \ucc3e\uc544\uc11c": {
+        "2023-01-09": "- [[\u96c5\u865f\ub97c \ucc3e\uc544\uc11c]]"
     },
-    "테라포밍": {
-        "2023-01-09": "- [[테라포밍]]"
+    "\ud14c\ub77c\ud3ec\ubc0d": {
+        "2023-01-09": "- [[\ud14c\ub77c\ud3ec\ubc0d]]"
     },
-    "한민족의 동족상잔": {
-        "2023-01-09": "- [[한민족의 동족상잔]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
-        "한민족은 해적되었다": "그것이 [[한민족의 동족상잔|동족]]이든 [[일본 과학기술 총력전|외세]]이든..."
+    "\ud55c\ubbfc\uc871\uc758 \ub3d9\uc871\uc0c1\uc794": {
+        "2023-01-09": "- [[\ud55c\ubbfc\uc871\uc758 \ub3d9\uc871\uc0c1\uc794]]\uc5d0 \ub300\ud55c \ud765\ubbf8\ub85c\uc6b4 \ubb38\uc11c [[\uc870\uc120\uc758 \ub178\ube44\uc81c\ub3c4\uc5d0 \uad00\ud55c \ubcf4\uace0]]\ub97c \ubc1c\uacac\ud588\ub2e4.",
+        "\u1112\u1161\u11ab\u1106\u1175\u11ab\u110c\u1169\u11a8\u110b\u1173\u11ab \u1112\u1162\u110c\u1165\u11a8\u1103\u116c\u110b\u1165\u11bb\u1103\u1161": "\uadf8\uac83\uc774 [[\ud55c\ubbfc\uc871\uc758 \ub3d9\uc871\uc0c1\uc794|\ub3d9\uc871]]\uc774\ub4e0 [[\uc77c\ubcf8 \uacfc\ud559\uae30\uc220 \ucd1d\ub825\uc804|\uc678\uc138]]\uc774\ub4e0..."
     },
-    "조선의 노비제도에 관한 보고": {
-        "2023-01-09": "- 한민족의 동족상잔에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
-        "한민족의 동족상잔": "[[조선의 노비제도에 관한 보고]]"
+    "\uc870\uc120\uc758 \ub178\ube44\uc81c\ub3c4\uc5d0 \uad00\ud55c \ubcf4\uace0": {
+        "2023-01-09": "- \ud55c\ubbfc\uc871\uc758 \ub3d9\uc871\uc0c1\uc794\uc5d0 \ub300\ud55c \ud765\ubbf8\ub85c\uc6b4 \ubb38\uc11c [[\uc870\uc120\uc758 \ub178\ube44\uc81c\ub3c4\uc5d0 \uad00\ud55c \ubcf4\uace0]]\ub97c \ubc1c\uacac\ud588\ub2e4.",
+        "\u1112\u1161\u11ab\u1106\u1175\u11ab\u110c\u1169\u11a8\u110b\u1174 \u1103\u1169\u11bc\u110c\u1169\u11a8\u1109\u1161\u11bc\u110c\u1161\u11ab": "[[\uc870\uc120\uc758 \ub178\ube44\uc81c\ub3c4\uc5d0 \uad00\ud55c \ubcf4\uace0]]"
     },
     "D4C125.gif": {
         "2022-08-01": "![[D4C125.gif]]"
     },
-    "서울 프로": {
-        "2022-08-01": "- [[서울 프로]]",
-        "Pretendard의 아쉬운 점": "이는 자세하게 확인하지 못했으나 [[서울 프로]]를 개발할 때 알아보고 고려하려고 했던 문제이다."
+    "\uc11c\uc6b8 \ud504\ub85c": {
+        "2022-08-01": "- [[\uc11c\uc6b8 \ud504\ub85c]]",
+        "Pretendard\u110b\u1174 \u110b\u1161\u1109\u1171\u110b\u116e\u11ab \u110c\u1165\u11b7": "\uc774\ub294 \uc790\uc138\ud558\uac8c \ud655\uc778\ud558\uc9c0 \ubabb\ud588\uc73c\ub098 [[\uc11c\uc6b8 \ud504\ub85c]]\ub97c \uac1c\ubc1c\ud560 \ub54c \uc54c\uc544\ubcf4\uace0 \uace0\ub824\ud558\ub824\uace0 \ud588\ub358 \ubb38\uc81c\uc774\ub2e4."
     },
-    "역사의 집대성": {
-        "2023-01-12": "- [[역사의 집대성]]",
-        "Project": "- [[역사의 집대성]]",
-        "재학생일기": "2023-01-12에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
+    "\uc5ed\uc0ac\uc758 \uc9d1\ub300\uc131": {
+        "2023-01-12": "- [[\uc5ed\uc0ac\uc758 \uc9d1\ub300\uc131]]",
+        "Project": "- [[\uc5ed\uc0ac\uc758 \uc9d1\ub300\uc131]]",
+        "\u110c\u1162\u1112\u1161\u11a8\u1109\u1162\u11bc\u110b\u1175\u11af\u1100\u1175": "2023-01-12\uc5d0 [[\uc5ed\uc0ac\uc758 \uc9d1\ub300\uc131]] \uacfc\uc815 \uc911 \ub2e4\uc2dc \uc77d\uc5b4\ubcf4\ub2c8 \uc774\ub54c\uac00 \ub2a6-\uc9112\ubcd1\uc774\uc5c8\ub098 \uc2f6\ub2e4."
     },
-    "민사고": {
-        "2023-01-12": "- [[민사고]]",
-        "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "... Heroku가 AWS에 비해 몇몇 장점이 있다는 것을 알게 되었다. 예전에 개발했던 [[민사고]] 공문서 모음집을 Heroku로 옮겼다.",
-        "공강에서 보내는 공강 활용법": "공강에서 보내는 공강 활용법이라니, 조금 이상하게 들리는 말인 것 같습니다. [[민사고|민족사관고등학교]]에서 공강은 두 가지 의미를 가지고 있습니다. 첫 번째는 누구나 사용할 수 ...",
-        "국제 계열과 계열 변경 이야기": "... 진학 반(이하 국제계열)로, 그리고 1명이 반대로 계열을 변경했습니다. 많은 분들이 아시다시피 [[민사고]]는 국제계열과 국내계열로 나뉘어 있습니다. 오늘은 그 둘의 특징과 변경 과정에 대해 ...",
-        "기숙사 생활과 방 배정": "... 저녁 무렵, 어둠이 내리고 나면 우리는 또 다른 학교생활을 직면하게 됩니다. [[민사고|민족사관고등학교]] 기숙사인 덕고관은 또 다른 배움의 장소입니다. 학문적인 공부를 하는 다산관과 충무관 ...",
-        "바이올린 켜면 바이올레이션": "상벌점 제도는 어느 학교에나 있는 제도입니다. [[민사고|민족사관고등학교]]도 마찬가지입니다. 오늘은 민사고|민족사관고등학교의 상벌점 제도에 대해서 소개해보고자 합니다.",
-        "식영부원의 관점에서 바라본 치킨데이": "아시다시피 [[민사고|민족사관고등학교]]는 외부 음식을 구하기 어려운 산골 외딴 곳에 위치한 기숙사 학교입니다. 그렇기 ...",
-        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "... 기숙사 외부에서 만나게 될 평생 친구도 있을 것입니다. 오늘은 제가 느낀, [[민사고|민족사관고등학교]] (이하 [[민사고]]) 에서의 외부 친구 관계에 대해서 가볍게 이야기해보려고 합니다.",
-        "재학생일기": "[[민사고]]에 있던 학교 공식 일기 모음집이다.",
-        "졸업을 앞둔 중학교 3학년들에게": "... 무렵이라고 할 수 있는 1월에 저는 가장 느슨해졌었는데, 마지막 2주 정도는 [[민사고]] 입학 준비하겠다고 과제로 나온 책 읽고, 한자 공부를 하고 그랬습니다. 그러고 ...",
-        "코드클럽": "- [[민사고]] 3학년 때 설립한 동아리"
+    "\ubbfc\uc0ac\uace0": {
+        "2023-01-12": "- [[\ubbfc\uc0ac\uace0]]",
+        "Node.js \u110b\u1162\u11b8\u110b\u1173\u11af AWS EB\u110b\u1166\u1109\u1165 Heroku\u1105\u1169 \u110b\u1169\u11b1\u1100\u1175\u1100\u1175": "... Heroku\uac00 AWS\uc5d0 \ube44\ud574 \uba87\uba87 \uc7a5\uc810\uc774 \uc788\ub2e4\ub294 \uac83\uc744 \uc54c\uac8c \ub418\uc5c8\ub2e4. \uc608\uc804\uc5d0 \uac1c\ubc1c\ud588\ub358 [[\ubbfc\uc0ac\uace0]] \uacf5\ubb38\uc11c \ubaa8\uc74c\uc9d1\uc744 Heroku\ub85c \uc62e\uacbc\ub2e4.",
+        "\u1100\u1169\u11bc\u1100\u1161\u11bc\u110b\u1166\u1109\u1165 \u1107\u1169\u1102\u1162\u1102\u1173\u11ab \u1100\u1169\u11bc\u1100\u1161\u11bc \u1112\u116a\u11af\u110b\u116d\u11bc\u1107\u1165\u11b8": "\uacf5\uac15\uc5d0\uc11c \ubcf4\ub0b4\ub294 \uacf5\uac15 \ud65c\uc6a9\ubc95\uc774\ub77c\ub2c8, \uc870\uae08 \uc774\uc0c1\ud558\uac8c \ub4e4\ub9ac\ub294 \ub9d0\uc778 \uac83 \uac19\uc2b5\ub2c8\ub2e4. [[\ubbfc\uc0ac\uace0|\ubbfc\uc871\uc0ac\uad00\uace0\ub4f1\ud559\uad50]]\uc5d0\uc11c \uacf5\uac15\uc740 \ub450 \uac00\uc9c0 \uc758\ubbf8\ub97c \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uccab \ubc88\uc9f8\ub294 \ub204\uad6c\ub098 \uc0ac\uc6a9\ud560 \uc218 ...",
+        "\u1100\u116e\u11a8\u110c\u1166 \u1100\u1168\u110b\u1167\u11af\u1100\u116a \u1100\u1168\u110b\u1167\u11af \u1107\u1167\u11ab\u1100\u1167\u11bc \u110b\u1175\u110b\u1163\u1100\u1175": "... \uc9c4\ud559 \ubc18(\uc774\ud558 \uad6d\uc81c\uacc4\uc5f4)\ub85c, \uadf8\ub9ac\uace0 1\uba85\uc774 \ubc18\ub300\ub85c \uacc4\uc5f4\uc744 \ubcc0\uacbd\ud588\uc2b5\ub2c8\ub2e4. \ub9ce\uc740 \ubd84\ub4e4\uc774 \uc544\uc2dc\ub2e4\uc2dc\ud53c [[\ubbfc\uc0ac\uace0]]\ub294 \uad6d\uc81c\uacc4\uc5f4\uacfc \uad6d\ub0b4\uacc4\uc5f4\ub85c \ub098\ub258\uc5b4 \uc788\uc2b5\ub2c8\ub2e4. \uc624\ub298\uc740 \uadf8 \ub458\uc758 \ud2b9\uc9d5\uacfc \ubcc0\uacbd \uacfc\uc815\uc5d0 \ub300\ud574 ...",
+        "\u1100\u1175\u1109\u116e\u11a8\u1109\u1161 \u1109\u1162\u11bc\u1112\u116a\u11af\u1100\u116a \u1107\u1161\u11bc \u1107\u1162\u110c\u1165\u11bc": "... \uc800\ub141 \ubb34\ub835, \uc5b4\ub460\uc774 \ub0b4\ub9ac\uace0 \ub098\uba74 \uc6b0\ub9ac\ub294 \ub610 \ub2e4\ub978 \ud559\uad50\uc0dd\ud65c\uc744 \uc9c1\uba74\ud558\uac8c \ub429\ub2c8\ub2e4. [[\ubbfc\uc0ac\uace0|\ubbfc\uc871\uc0ac\uad00\uace0\ub4f1\ud559\uad50]] \uae30\uc219\uc0ac\uc778 \ub355\uace0\uad00\uc740 \ub610 \ub2e4\ub978 \ubc30\uc6c0\uc758 \uc7a5\uc18c\uc785\ub2c8\ub2e4. \ud559\ubb38\uc801\uc778 \uacf5\ubd80\ub97c \ud558\ub294 \ub2e4\uc0b0\uad00\uacfc \ucda9\ubb34\uad00 ...",
+        "\u1107\u1161\u110b\u1175\u110b\u1169\u11af\u1105\u1175\u11ab \u110f\u1167\u1106\u1167\u11ab \u1107\u1161\u110b\u1175\u110b\u1169\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab": "\uc0c1\ubc8c\uc810 \uc81c\ub3c4\ub294 \uc5b4\ub290 \ud559\uad50\uc5d0\ub098 \uc788\ub294 \uc81c\ub3c4\uc785\ub2c8\ub2e4. [[\ubbfc\uc0ac\uace0|\ubbfc\uc871\uc0ac\uad00\uace0\ub4f1\ud559\uad50]]\ub3c4 \ub9c8\ucc2c\uac00\uc9c0\uc785\ub2c8\ub2e4. \uc624\ub298\uc740 \ubbfc\uc0ac\uace0|\ubbfc\uc871\uc0ac\uad00\uace0\ub4f1\ud559\uad50\uc758 \uc0c1\ubc8c\uc810 \uc81c\ub3c4\uc5d0 \ub300\ud574\uc11c \uc18c\uac1c\ud574\ubcf4\uace0\uc790 \ud569\ub2c8\ub2e4.",
+        "\u1109\u1175\u11a8\u110b\u1167\u11bc\u1107\u116e\u110b\u116f\u11ab\u110b\u1174 \u1100\u116a\u11ab\u110c\u1165\u11b7\u110b\u1166\u1109\u1165 \u1107\u1161\u1105\u1161\u1107\u1169\u11ab \u110e\u1175\u110f\u1175\u11ab\u1103\u1166\u110b\u1175": "\uc544\uc2dc\ub2e4\uc2dc\ud53c [[\ubbfc\uc0ac\uace0|\ubbfc\uc871\uc0ac\uad00\uace0\ub4f1\ud559\uad50]]\ub294 \uc678\ubd80 \uc74c\uc2dd\uc744 \uad6c\ud558\uae30 \uc5b4\ub824\uc6b4 \uc0b0\uace8 \uc678\ub534 \uacf3\uc5d0 \uc704\uce58\ud55c \uae30\uc219\uc0ac \ud559\uad50\uc785\ub2c8\ub2e4. \uadf8\ub807\uae30 ...",
+        "\u110b\u1161\u110b\u116e\u11ba \u110b\u1169\u1107\u1173 \u1109\u1161\u110b\u1175\u1110\u1173\u1100\u1161 \u1112\u1161\u11bc\u1109\u1161\u11bc \u1109\u1161\u1105\u1161\u11b7\u110b\u1173\u11af \u1106\u1165\u11af\u1100\u1166 \u1112\u1161\u1102\u1173\u11ab \u1100\u1165\u11ba\u110b\u1173\u11ab \u110b\u1161\u1102\u1175\u11b8\u1102\u1175\u1103\u1161": "... \uae30\uc219\uc0ac \uc678\ubd80\uc5d0\uc11c \ub9cc\ub098\uac8c \ub420 \ud3c9\uc0dd \uce5c\uad6c\ub3c4 \uc788\uc744 \uac83\uc785\ub2c8\ub2e4. \uc624\ub298\uc740 \uc81c\uac00 \ub290\ub080, [[\ubbfc\uc0ac\uace0|\ubbfc\uc871\uc0ac\uad00\uace0\ub4f1\ud559\uad50]] (\uc774\ud558 [[\ubbfc\uc0ac\uace0]]) \uc5d0\uc11c\uc758 \uc678\ubd80 \uce5c\uad6c \uad00\uacc4\uc5d0 \ub300\ud574\uc11c \uac00\ubccd\uac8c \uc774\uc57c\uae30\ud574\ubcf4\ub824\uace0 \ud569\ub2c8\ub2e4.",
+        "\u110c\u1162\u1112\u1161\u11a8\u1109\u1162\u11bc\u110b\u1175\u11af\u1100\u1175": "[[\ubbfc\uc0ac\uace0]]\uc5d0 \uc788\ub358 \ud559\uad50 \uacf5\uc2dd \uc77c\uae30 \ubaa8\uc74c\uc9d1\uc774\ub2e4.",
+        "\u110c\u1169\u11af\u110b\u1165\u11b8\u110b\u1173\u11af \u110b\u1161\u11c1\u1103\u116e\u11ab \u110c\u116e\u11bc\u1112\u1161\u11a8\u1100\u116d 3\u1112\u1161\u11a8\u1102\u1167\u11ab\u1103\u1173\u11af\u110b\u1166\u1100\u1166": "... \ubb34\ub835\uc774\ub77c\uace0 \ud560 \uc218 \uc788\ub294 1\uc6d4\uc5d0 \uc800\ub294 \uac00\uc7a5 \ub290\uc2a8\ud574\uc84c\uc5c8\ub294\ub370, \ub9c8\uc9c0\ub9c9 2\uc8fc \uc815\ub3c4\ub294 [[\ubbfc\uc0ac\uace0]] \uc785\ud559 \uc900\ube44\ud558\uaca0\ub2e4\uace0 \uacfc\uc81c\ub85c \ub098\uc628 \ucc45 \uc77d\uace0, \ud55c\uc790 \uacf5\ubd80\ub97c \ud558\uace0 \uadf8\ub7ac\uc2b5\ub2c8\ub2e4. \uadf8\ub7ec\uace0 ...",
+        "\u110f\u1169\u1103\u1173\u110f\u1173\u11af\u1105\u1165\u11b8": "- [[\ubbfc\uc0ac\uace0]] 3\ud559\ub144 \ub54c \uc124\ub9bd\ud55c \ub3d9\uc544\ub9ac"
     },
-    "코드클럽": {
-        "2019-03-04": "- [[코드클럽]]",
-        "2022-12-10": "- [[코드클럽]]"
+    "\ucf54\ub4dc\ud074\ub7fd": {
+        "2019-03-04": "- [[\ucf54\ub4dc\ud074\ub7fd]]",
+        "2022-12-10": "- [[\ucf54\ub4dc\ud074\ub7fd]]"
     },
-    "한민족은 해적되었다": {
-        "2023-01-26": "- [[한민족은 해적되었다]]"
+    "\ud55c\ubbfc\uc871\uc740 \ud574\uc801\ub418\uc5c8\ub2e4": {
+        "2023-01-26": "- [[\ud55c\ubbfc\uc871\uc740 \ud574\uc801\ub418\uc5c8\ub2e4]]"
     },
     "902071.png": {
         "2022-12-24": "> ![[902071.png]]"
@@ -4751,12 +4552,12 @@ export const backlinks = {
     },
     "EAADF1.gif": {
         "2023-01-02": "![[EAADF1.gif]]",
-        "하늘땅사람 개발 기록": "![[EAADF1.gif]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[EAADF1.gif]]"
     },
-    "잡스와 생존 편향": {
-        "2019-10-13": "- [[잡스와 생존 편향]]",
-        "2022-12-20": "- [[잡스와 생존 편향]]",
-        "2022-12-21": "- [[잡스와 생존 편향]]"
+    "\uc7a1\uc2a4\uc640 \uc0dd\uc874 \ud3b8\ud5a5": {
+        "2019-10-13": "- [[\uc7a1\uc2a4\uc640 \uc0dd\uc874 \ud3b8\ud5a5]]",
+        "2022-12-20": "- [[\uc7a1\uc2a4\uc640 \uc0dd\uc874 \ud3b8\ud5a5]]",
+        "2022-12-21": "- [[\uc7a1\uc2a4\uc640 \uc0dd\uc874 \ud3b8\ud5a5]]"
     },
     "E13484.png": {
         "2022-12-20": "![[E13484.png]]"
@@ -4775,13 +4576,13 @@ export const backlinks = {
     "184D2B.png": {
         "2023-01-23": "![[184D2B.png]]"
     },
-    "이 땅에 태어나서": {
-        "2022-12-21": "- Readings: [[이 땅에 태어나서]], [[하얼빈]]",
-        "Readings": "- [ ] [[이 땅에 태어나서]]"
+    "\uc774 \ub545\uc5d0 \ud0dc\uc5b4\ub098\uc11c": {
+        "2022-12-21": "- Readings: [[\uc774 \ub545\uc5d0 \ud0dc\uc5b4\ub098\uc11c]], [[\ud558\uc5bc\ube48]]",
+        "Readings": "- [ ] [[\uc774 \ub545\uc5d0 \ud0dc\uc5b4\ub098\uc11c]]"
     },
-    "하얼빈": {
-        "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
-        "Readings": "- [ ] [[하얼빈]]"
+    "\ud558\uc5bc\ube48": {
+        "2022-12-21": "- Readings: \uc774 \ub545\uc5d0 \ud0dc\uc5b4\ub098\uc11c, [[\ud558\uc5bc\ube48]]",
+        "Readings": "- [ ] [[\ud558\uc5bc\ube48]]"
     },
     "D815DD.jpeg": {
         "2022-07-12": "![[D815DD.jpeg]]"
@@ -4799,14 +4600,14 @@ export const backlinks = {
         "2022-10-25": "![[411451.png]]",
         "Apple-like Block Interface": "![[411451.png]]"
     },
-    "태백산맥 계획": {
-        "2022-12-11": "- [[태백산맥 계획]]",
-        "Regulation of Fake News": "- [[태백산맥 계획]]"
+    "\ud0dc\ubc31\uc0b0\ub9e5 \uacc4\ud68d": {
+        "2022-12-11": "- [[\ud0dc\ubc31\uc0b0\ub9e5 \uacc4\ud68d]]",
+        "Regulation of Fake News": "- [[\ud0dc\ubc31\uc0b0\ub9e5 \uacc4\ud68d]]"
     },
-    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": {
-        "2022-12-11": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
-        "공기 청정 비행선": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
-        "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
+    "\ub204\uad70\uac00\ub294 \uc628\uac16 \uc5b4\ub824\uc6c0\uc744 \ubb34\ub985\uc4f0\uace0 \ubc18\ub4dc\uc2dc \uc131\ucde8\ud574\uc57c \ud558\ub294 \ud504\ub85c\uc81d\ud2b8\uc774\ub2e4": {
+        "2022-12-11": "- [[\ub204\uad70\uac00\ub294 \uc628\uac16 \uc5b4\ub824\uc6c0\uc744 \ubb34\ub985\uc4f0\uace0 \ubc18\ub4dc\uc2dc \uc131\ucde8\ud574\uc57c \ud558\ub294 \ud504\ub85c\uc81d\ud2b8\uc774\ub2e4]]",
+        "\u1100\u1169\u11bc\u1100\u1175 \u110e\u1165\u11bc\u110c\u1165\u11bc \u1107\u1175\u1112\u1162\u11bc\u1109\u1165\u11ab": "[[\ub204\uad70\uac00\ub294 \uc628\uac16 \uc5b4\ub824\uc6c0\uc744 \ubb34\ub985\uc4f0\uace0 \ubc18\ub4dc\uc2dc \uc131\ucde8\ud574\uc57c \ud558\ub294 \ud504\ub85c\uc81d\ud2b8\uc774\ub2e4]].",
+        "\u1110\u1162\u1107\u1162\u11a8\u1109\u1161\u11ab\u1106\u1162\u11a8 \u1100\u1168\u1112\u116c\u11a8": "[[\ub204\uad70\uac00\ub294 \uc628\uac16 \uc5b4\ub824\uc6c0\uc744 \ubb34\ub985\uc4f0\uace0 \ubc18\ub4dc\uc2dc \uc131\ucde8\ud574\uc57c \ud558\ub294 \ud504\ub85c\uc81d\ud2b8\uc774\ub2e4]]."
     },
     "99EE18.png": {
         "2023-01-27": "![[99EE18.png]]"
@@ -4817,16 +4618,16 @@ export const backlinks = {
     "3AB4D2.png": {
         "2022-07-06": "![[3AB4D2.png]]"
     },
-    "벌금과 물가": {
-        "2022-10-21": "- [[벌금과 물가]]"
+    "\ubc8c\uae08\uacfc \ubb3c\uac00": {
+        "2022-10-21": "- [[\ubc8c\uae08\uacfc \ubb3c\uac00]]"
     },
     "837555.jpg": {
         "2022-10-15": "![[837555.jpg]]",
         "Dynamic Island on the Web": "![[837555.jpg]]"
     },
-    "유난한 도전": {
-        "2023-01-03": "- Finished [[유난한 도전]]",
-        "Readings": "- [x] [[유난한 도전]]"
+    "\uc720\ub09c\ud55c \ub3c4\uc804": {
+        "2023-01-03": "- Finished [[\uc720\ub09c\ud55c \ub3c4\uc804]]",
+        "Readings": "- [x] [[\uc720\ub09c\ud55c \ub3c4\uc804]]"
     },
     "F9FC1A.png": {
         "Swift": "![[F9FC1A.png]]"
@@ -4845,8 +4646,8 @@ export const backlinks = {
         "Redirecting READMEs": "![[E64653.png]]"
     },
     "CD56C6.png": {
-        "하늘땅사람 개발 기록": "![[CD56C6.png]]",
-        "활자": "![[CD56C6.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[CD56C6.png]]",
+        "\u1112\u116a\u11af\u110c\u1161": "![[CD56C6.png]]"
     },
     "8692F9.png": {
         "How is WebAssembly cross-platform when Assembly is not": "![[8692F9.png]]"
@@ -4981,9 +4782,9 @@ export const backlinks = {
     "6E5C4F.png": {
         "Web Graphics": "![[6E5C4F.png]]"
     },
-    "Pretendard의 아쉬운 점": {
-        "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
-        "서울 프로": "- [[Pretendard의 아쉬운 점]]"
+    "Pretendard\uc758 \uc544\uc26c\uc6b4 \uc810": {
+        "Toss Product Sans": "  - [[Pretendard\uc758 \uc544\uc26c\uc6b4 \uc810]]",
+        "\u1109\u1165\u110b\u116e\u11af \u1111\u1173\u1105\u1169": "- [[Pretendard\uc758 \uc544\uc26c\uc6b4 \uc810]]"
     },
     "4FA1C6.png": {
         "Font Features": "![[4FA1C6.png]]"
@@ -4991,14 +4792,14 @@ export const backlinks = {
     "22EB14.png": {
         "Font Features": "![[22EB14.png]]"
     },
-    "재학생일기": {
-        "공강에서 보내는 공강 활용법": "2016-06-24에 게재된 [[재학생일기]]이다.",
-        "국제 계열과 계열 변경 이야기": "2016-10-22에 게재된 [[재학생일기]]이다.",
-        "기숙사 생활과 방 배정": "2016-11-11에 게재된 [[재학생일기]]이다.",
-        "바이올린 켜면 바이올레이션": "2016-04-01에 게재된 [[재학생일기]]이다.",
-        "식영부원의 관점에서 바라본 치킨데이": "2016-07-01에 게재된 [[재학생일기]]이다.",
-        "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "2016-11-28에 게재된 [[재학생일기]]이다.",
-        "졸업을 앞둔 중학교 3학년들에게": "2016-12-08에 게재된 [[재학생일기]]이다."
+    "\uc7ac\ud559\uc0dd\uc77c\uae30": {
+        "\u1100\u1169\u11bc\u1100\u1161\u11bc\u110b\u1166\u1109\u1165 \u1107\u1169\u1102\u1162\u1102\u1173\u11ab \u1100\u1169\u11bc\u1100\u1161\u11bc \u1112\u116a\u11af\u110b\u116d\u11bc\u1107\u1165\u11b8": "2016-06-24\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4.",
+        "\u1100\u116e\u11a8\u110c\u1166 \u1100\u1168\u110b\u1167\u11af\u1100\u116a \u1100\u1168\u110b\u1167\u11af \u1107\u1167\u11ab\u1100\u1167\u11bc \u110b\u1175\u110b\u1163\u1100\u1175": "2016-10-22\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4.",
+        "\u1100\u1175\u1109\u116e\u11a8\u1109\u1161 \u1109\u1162\u11bc\u1112\u116a\u11af\u1100\u116a \u1107\u1161\u11bc \u1107\u1162\u110c\u1165\u11bc": "2016-11-11\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4.",
+        "\u1107\u1161\u110b\u1175\u110b\u1169\u11af\u1105\u1175\u11ab \u110f\u1167\u1106\u1167\u11ab \u1107\u1161\u110b\u1175\u110b\u1169\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab": "2016-04-01\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4.",
+        "\u1109\u1175\u11a8\u110b\u1167\u11bc\u1107\u116e\u110b\u116f\u11ab\u110b\u1174 \u1100\u116a\u11ab\u110c\u1165\u11b7\u110b\u1166\u1109\u1165 \u1107\u1161\u1105\u1161\u1107\u1169\u11ab \u110e\u1175\u110f\u1175\u11ab\u1103\u1166\u110b\u1175": "2016-07-01\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4.",
+        "\u110b\u1161\u110b\u116e\u11ba \u110b\u1169\u1107\u1173 \u1109\u1161\u110b\u1175\u1110\u1173\u1100\u1161 \u1112\u1161\u11bc\u1109\u1161\u11bc \u1109\u1161\u1105\u1161\u11b7\u110b\u1173\u11af \u1106\u1165\u11af\u1100\u1166 \u1112\u1161\u1102\u1173\u11ab \u1100\u1165\u11ba\u110b\u1173\u11ab \u110b\u1161\u1102\u1175\u11b8\u1102\u1175\u1103\u1161": "2016-11-28\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4.",
+        "\u110c\u1169\u11af\u110b\u1165\u11b8\u110b\u1173\u11af \u110b\u1161\u11c1\u1103\u116e\u11ab \u110c\u116e\u11bc\u1112\u1161\u11a8\u1100\u116d 3\u1112\u1161\u11a8\u1102\u1167\u11ab\u1103\u1173\u11af\u110b\u1166\u1100\u1166": "2016-12-08\uc5d0 \uac8c\uc7ac\ub41c [[\uc7ac\ud559\uc0dd\uc77c\uae30]]\uc774\ub2e4."
     },
     "5BFF3F.png": {
         "Conversational AI Tools for Thought": "![[5BFF3F.png]]"
@@ -5012,15 +4813,19 @@ export const backlinks = {
     "2576C7.png": {
         "Spellbound": "![[2576C7.png]]"
     },
-    "초상권 vs 저작권": {
-        "CELLO": "- [[초상권 vs 저작권]]",
-        "퍼블리시티권": "- [[초상권 vs 저작권]]"
+    "\ucd08\uc0c1\uad8c vs \uc800\uc791\uad8c": {
+        "CELLO": "- [[\ucd08\uc0c1\uad8c vs \uc800\uc791\uad8c]]",
+        "\u1111\u1165\u1107\u1173\u11af\u1105\u1175\u1109\u1175\u1110\u1175\u1100\u116f\u11ab": "- [[\ucd08\uc0c1\uad8c vs \uc800\uc791\uad8c]]"
+    },
+    "144EF0.png": {
+        "Tana": "![[144EF0.png]]",
+        "Text-based Tools for Thought": "![[144EF0.png]]"
     },
     "60A69F.png": {
         "Dioxus": "![[60A69F.png]]"
     },
     "BA8C9D.png": {
-        "벌금과 물가": "- ![[BA8C9D.png]]"
+        "\u1107\u1165\u11af\u1100\u1173\u11b7\u1100\u116a \u1106\u116e\u11af\u1100\u1161": "- ![[BA8C9D.png]]"
     },
     "C42C4E.png": {
         "Pretendard": "![[C42C4E.png]]",
@@ -5056,14 +4861,14 @@ export const backlinks = {
     "F59F47.png": {
         "Midjourney": "![[F59F47.png]]"
     },
-    "간판법": {
-        "Neo Korea": "- [[간판법]]"
+    "\uac04\ud310\ubc95": {
+        "Neo Korea": "- [[\uac04\ud310\ubc95]]"
     },
-    "경제 개발의 길목에서": {
-        "Readings": "- [x] [[경제 개발의 길목에서]]"
+    "\uacbd\uc81c \uac1c\ubc1c\uc758 \uae38\ubaa9\uc5d0\uc11c": {
+        "Readings": "- [x] [[\uacbd\uc81c \uac1c\ubc1c\uc758 \uae38\ubaa9\uc5d0\uc11c]]"
     },
-    "지구 끝의 온실": {
-        "Readings": "- [x] [[지구 끝의 온실]]"
+    "\uc9c0\uad6c \ub05d\uc758 \uc628\uc2e4": {
+        "Readings": "- [x] [[\uc9c0\uad6c \ub05d\uc758 \uc628\uc2e4]]"
     },
     "DCF75C.png": {
         "Modern MacPaint": "![[DCF75C.png]]"
@@ -5126,7 +4931,7 @@ export const backlinks = {
         "Surfit": "![[2A5C23.png]]"
     },
     "C2C0C3.png": {
-        "코드클럽": "![[C2C0C3.png]]"
+        "\u110f\u1169\u1103\u1173\u110f\u1173\u11af\u1105\u1165\u11b8": "![[C2C0C3.png]]"
     },
     "2D2789.png": {
         "Archiving-based Tools for Thoughts": "![[2D2789.png]]"
@@ -5212,6 +5017,11 @@ export const backlinks = {
     "53E519.png": {
         "Ray.st": "![[53E519.png]]"
     },
+    "Int": {
+        "0057 Insert Interval": "    func insert( intervals: [[Int]],  newInterval: [Int]) -> Int {",
+        "0542 01 Matrix": "    func updateMatrix( matrix: [[Int]]) -> Int {",
+        "0973 K Closest Points to Origin": "    func kClosest( points: [[Int]],  k: Int) -> Int {"
+    },
     "298DC4.png": {
         "Jumpsite": "![[298DC4.png]]"
     },
@@ -5235,17 +5045,17 @@ export const backlinks = {
         "Person 5DBDAE": "A lot of [[people]] are international.",
         "Person E7CFC5": "A lot of smart [[people]]."
     },
-    "이루다": {
-        "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information"
+    "\uc774\ub8e8\ub2e4": {
+        "GitHub Copilot Investigation": "- Very similar to [[\uc774\ub8e8\ub2e4]] in terms that it collected & spitted out the same information"
     },
     "BD6DAB.png": {
-        "Pretendard의 아쉬운 점": "![[BD6DAB.png]]"
+        "Pretendard\u110b\u1174 \u110b\u1161\u1109\u1171\u110b\u116e\u11ab \u110c\u1165\u11b7": "![[BD6DAB.png]]"
     },
     "EF6FE0.gif": {
-        "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
+        "Pretendard\u110b\u1174 \u110b\u1161\u1109\u1171\u110b\u116e\u11ab \u110c\u1165\u11b7": "![[EF6FE0.gif]]"
     },
-    "퍼블리시티권": {
-        "CELLO": "- [[퍼블리시티권]]"
+    "\ud37c\ube14\ub9ac\uc2dc\ud2f0\uad8c": {
+        "CELLO": "- [[\ud37c\ube14\ub9ac\uc2dc\ud2f0\uad8c]]"
     },
     "6DFC4D.png": {
         "Notion AI": "![[6DFC4D.png]]"
@@ -5253,9 +5063,9 @@ export const backlinks = {
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]"
     },
-    "활자": {
-        "하늘땅사람": "- [[활자]]",
-        "하늘땅사람 개발 기록": "Subproject로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 구현체"
+    "\ud65c\uc790": {
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7": "- [[\ud65c\uc790]]",
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "Subproject\ub85c JSON \uc9d1\ud569\uccb4\ub97c [[\ud65c\uc790]]\ub77c\ub294 \uc774\ub984\uc73c\ub85c \ubc30\ud3ec\ud588\ub2e4: anaclumos/hwalja: \ud65c\uc790: \uc138\uc0c1\uc5d0\uc11c \uac00\uc7a5 \ub2e8\uc21c\ud55c \ucc9c\uc9c0\uc778 \uad6c\ud604\uccb4"
     },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",
@@ -5303,20 +5113,20 @@ export const backlinks = {
         "Linkflags": "![[2E6CEB.gif]]"
     },
     "2A2DC6.png": {
-        "프로젝트 어덕행덕": "![[2A2DC6.png]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "![[2A2DC6.png]]"
     },
     "669578.png": {
-        "프로젝트 어덕행덕": "![[669578.png]]"
+        "\u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u110b\u1165\u1103\u1165\u11a8\u1112\u1162\u11bc\u1103\u1165\u11a8": "![[669578.png]]"
     },
     "CD4751.png": {
         "San Francisco": "![[CD4751.png]]",
         "Satoshi": "![[CD4751.png]]"
     },
     "42FE5D.png": {
-        "洪民憙雜記": "![[42FE5D.png]]"
+        "\u6d2a\u6c11\u6199\u96dc\u8a18": "![[42FE5D.png]]"
     },
     "CE91F0.png": {
-        "洪民憙雜記": "![[CE91F0.png]]"
+        "\u6d2a\u6c11\u6199\u96dc\u8a18": "![[CE91F0.png]]"
     },
     "317954.png": {
         "Repeated Designs": "![[317954.png]]"
@@ -5365,10 +5175,6 @@ export const backlinks = {
     },
     "4BE5E2.png": {
         "Letter to Mr. Stephan Ango on 2022-10-19": "![[4BE5E2.png]]"
-    },
-    "Int": {
-        "0057 Insert Interval": "    func insert( intervals: [[Int]],  newInterval: [Int]) -> Int {",
-        "0542 01 Matrix": "    func updateMatrix( matrix: [[Int]]) -> Int {"
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
@@ -5494,7 +5300,7 @@ export const backlinks = {
         "Rauno": "![[94972C.png]]"
     },
     "webserver": {
-        "Port": "- [[webserver]] → 80"
+        "Port": "- [[webserver]] \u2192 80"
     },
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"
@@ -5624,13 +5430,13 @@ export const backlinks = {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]"
     },
     "76F0DC.png": {
-        "공기 청정 비행선": "![[76F0DC.png]]"
+        "\u1100\u1169\u11bc\u1100\u1175 \u110e\u1165\u11bc\u110c\u1165\u11bc \u1107\u1175\u1112\u1162\u11bc\u1109\u1165\u11ab": "![[76F0DC.png]]"
     },
     "744071.png": {
-        "공기 청정 비행선": "![[744071.png]]"
+        "\u1100\u1169\u11bc\u1100\u1175 \u110e\u1165\u11bc\u110c\u1165\u11bc \u1107\u1175\u1112\u1162\u11bc\u1109\u1165\u11ab": "![[744071.png]]"
     },
     "7D6146.png": {
-        "공기 청정 비행선": "![[7D6146.png]]"
+        "\u1100\u1169\u11bc\u1100\u1175 \u110e\u1165\u11bc\u110c\u1165\u11bc \u1107\u1175\u1112\u1162\u11bc\u1109\u1165\u11ab": "![[7D6146.png]]"
     },
     "717AC9.png": {
         "designOS": "![[717AC9.png]]"
@@ -5671,101 +5477,104 @@ export const backlinks = {
     "9CA7ED.png": {
         "React Email": "![[9CA7ED.png]]"
     },
+    "3E4C69.png": {
+        "Amie": "![[3E4C69.png]]"
+    },
     "AE63DD.png": {
         "Sliding Panes": "![[AE63DD.png]]"
     },
     "A02D58.png": {
-        "하늘땅사람 개발 기록": "![[A02D58.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[A02D58.png]]"
     },
     "85D135.png": {
-        "하늘땅사람 개발 기록": "![[85D135.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[85D135.png]]"
     },
     "B9DE45.png": {
-        "하늘땅사람 개발 기록": "![[B9DE45.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[B9DE45.png]]"
     },
     "B1C8D0.png": {
-        "하늘땅사람 개발 기록": "![[B1C8D0.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[B1C8D0.png]]"
     },
     "171C7C.png": {
-        "하늘땅사람 개발 기록": "![[171C7C.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[171C7C.png]]"
     },
     "EC8120.png": {
-        "하늘땅사람 개발 기록": "![[EC8120.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[EC8120.png]]"
     },
     "69DFE5.png": {
-        "하늘땅사람 개발 기록": "![[69DFE5.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[69DFE5.png]]"
     },
     "4B2B9B.png": {
-        "하늘땅사람 개발 기록": "![[4B2B9B.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[4B2B9B.png]]"
     },
     "80F5B1.png": {
-        "하늘땅사람 개발 기록": "![[80F5B1.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[80F5B1.png]]"
     },
     "35109C.jpeg": {
-        "하늘땅사람 개발 기록": "![[35109C.jpeg]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[35109C.jpeg]]"
     },
     "5D6BBD.jpeg": {
-        "하늘땅사람 개발 기록": "![[5D6BBD.jpeg]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[5D6BBD.jpeg]]"
     },
     "D6B132.jpeg": {
-        "하늘땅사람 개발 기록": "![[D6B132.jpeg]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[D6B132.jpeg]]"
     },
     "77CE6B.jpeg": {
-        "하늘땅사람 개발 기록": "![[77CE6B.jpeg]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[77CE6B.jpeg]]"
     },
     "A6EFFE.jpeg": {
-        "하늘땅사람 개발 기록": "![[A6EFFE.jpeg]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[A6EFFE.jpeg]]"
     },
     "B91CA8.jpeg": {
-        "하늘땅사람 개발 기록": "![[B91CA8.jpeg]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[B91CA8.jpeg]]"
     },
     "A16A91.png": {
-        "하늘땅사람 개발 기록": "![[A16A91.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[A16A91.png]]"
     },
     "B0D7D3.png": {
-        "하늘땅사람 개발 기록": "![[B0D7D3.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[B0D7D3.png]]"
     },
     "5F35F3.png": {
-        "하늘땅사람 개발 기록": "![[5F35F3.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[5F35F3.png]]"
     },
     "904C50.png": {
-        "하늘땅사람 개발 기록": "![[904C50.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[904C50.png]]"
     },
     "293DFB.png": {
-        "하늘땅사람 개발 기록": "![[293DFB.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[293DFB.png]]"
     },
     "621B52.png": {
-        "하늘땅사람 개발 기록": "![[621B52.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[621B52.png]]"
     },
     "16B648.png": {
-        "하늘땅사람 개발 기록": "![[16B648.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[16B648.png]]"
     },
     "BB99F5.png": {
-        "하늘땅사람 개발 기록": "![[BB99F5.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[BB99F5.png]]"
     },
     "EB4262.png": {
-        "하늘땅사람 개발 기록": "![[EB4262.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[EB4262.png]]"
     },
     "76E2D2.png": {
-        "하늘땅사람 개발 기록": "![[76E2D2.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[76E2D2.png]]"
     },
     "5855F2.png": {
-        "하늘땅사람 개발 기록": "![[5855F2.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[5855F2.png]]"
     },
     "54DC34.png": {
-        "하늘땅사람 개발 기록": "![[54DC34.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[54DC34.png]]"
     },
     "AA66EE.png": {
-        "하늘땅사람 개발 기록": "![[AA66EE.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[AA66EE.png]]"
     },
     "39AE60.png": {
-        "하늘땅사람 개발 기록": "![[39AE60.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[39AE60.png]]"
     },
     "45CDAB.png": {
-        "하늘땅사람 개발 기록": "![[45CDAB.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[45CDAB.png]]"
     },
     "CB642E.png": {
-        "하늘땅사람 개발 기록": "![[CB642E.png]]"
+        "\u1112\u1161\u1102\u1173\u11af\u1104\u1161\u11bc\u1109\u1161\u1105\u1161\u11b7 \u1100\u1162\u1107\u1161\u11af \u1100\u1175\u1105\u1169\u11a8": "![[CB642E.png]]"
     },
     "A7416A.png": {
         "Three Column Design": "![[A7416A.png]]"
