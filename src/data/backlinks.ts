@@ -20,6 +20,7 @@ export const backlinks = {
     },
     "2023-01-30": {
         "0003 Longest Substring Without Repeating Characters": "Solved at: [[2023-01-30]]",
+        "0015 3Sum": "Solved at: [[2023-01-30]]",
         "0542 01 Matrix": "Solved at: [[2023-01-30]]",
         "0973 K Closest Points to Origin": "Solved at: [[2023-01-30]]"
     },
@@ -3348,6 +3349,9 @@ export const backlinks = {
     "GitHub Package Manager": {
         "Matt Rickard": "- [[GitHub Package Manager]]"
     },
+    "0015 3Sum": {
+        "Coding Tests": "- [x] [[0015 3Sum]]"
+    },
     "Configuring Jest for React Native": {
         "2022-11-16": "- [[Configuring Jest for React Native]]"
     },
@@ -5026,6 +5030,7 @@ export const backlinks = {
         "Ray.st": "![[53E519.png]]"
     },
     "Int": {
+        "0015 3Sum": "    func threeSum( numsOriginal: [Int]) -> [[Int]] {",
         "0057 Insert Interval": "    func insert( intervals: [[Int]],  newInterval: [Int]) -> Int {",
         "0542 01 Matrix": "    func updateMatrix( matrix: [[Int]]) -> Int {",
         "0973 K Closest Points to Origin": "    func kClosest( points: [[Int]],  k: Int) -> Int {"
