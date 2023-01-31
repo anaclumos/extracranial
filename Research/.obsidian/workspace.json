@@ -11,13 +11,8 @@
             "id": "eddb05702c636032",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/0015 3Sum.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/0015 3Sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/0015 3Sum.md"
-              }
+              "state": {}
             }
           },
           {
@@ -147,15 +139,15 @@
   },
   "active": "eddb05702c636032",
   "lastOpenFiles": [
+    "journals/2023-01-31.md",
+    "pages/Project Core ML Foundation.md",
+    "pages/Project Core ML Inference.md",
+    "pages/Coding Tests in Swift.md",
+    "pages/0015 3Sum.md",
     "pages/Coding Tests.md",
     "journals/2023-01-30.md",
     "pages/0003 Longest Substring Without Repeating Characters.md",
-    "pages/Coding Tests in Swift.md",
-    "pages/Project Core ML Inference.md",
-    "pages/Project Core ML Foundation.md",
     "pages/Swift.md",
-    "journals/2023-01-28.md",
-    "journals/2023-01-29.md",
-    "pages/Aldehyde Backlinks Outage (January 2023).md"
+    "journals/2023-01-28.md"
   ]
 }

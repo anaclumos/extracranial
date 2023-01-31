@@ -125,18 +125,16 @@ An ANN is based on a collection of connected units or nodes called artificial ne
 
 ## Unsupervised
 
-Data-Driven.
-
+**Data-Driven**.
 Used to find patterns in the set of data given.
 In this, we don’t have any dependent variable or label to predict.
 Clustering.
 Anomaly Detection.
 Neural Networks.
 Latent Variable Models.
-C-Means, K-Means
+C-Means, K-Means.
 
-Reinforcement
-
+**Reinforcement**
 Learned to **react** to the environment.
 
 **Q-Learning**.
