@@ -16,6 +16,7 @@ const config: Config = {
   url: 'https://cho.sh',
   baseUrl: '/',
   onBrokenLinks: 'warn',
+  trailingSlash: false,
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
   organizationName: 'anaclumos',
