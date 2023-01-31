@@ -2,6 +2,7 @@ export const filenames = {
     "0001 Two Sum": "322CE5",
     "0002 Add Two Numbers": "E3498A",
     "0003 Longest Substring Without Repeating Characters": "AAD203",
+    "0015 3Sum": "D9E03E",
     "0020 Valid Parentheses": "F5650C",
     "0021 Merge Two Sorted Lists": "5F2988",
     "0053 Maximum Subarray": "A06B20",

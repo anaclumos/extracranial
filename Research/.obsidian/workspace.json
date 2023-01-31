@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Coding Tests.md",
-                "mode": "source",
+                "file": "pages/0015 3Sum.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Coding Tests.md",
+                "file": "pages/0015 3Sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Coding Tests.md"
+                "file": "pages/0015 3Sum.md"
               }
             }
           },
@@ -147,9 +147,9 @@
   },
   "active": "eddb05702c636032",
   "lastOpenFiles": [
+    "pages/Coding Tests.md",
     "journals/2023-01-30.md",
     "pages/0003 Longest Substring Without Repeating Characters.md",
-    "pages/Coding Tests.md",
     "pages/Coding Tests in Swift.md",
     "pages/Project Core ML Inference.md",
     "pages/Project Core ML Foundation.md",
