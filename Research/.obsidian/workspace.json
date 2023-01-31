@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Coding Tests in Swift.md",
+                "file": "journals/2023-01-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Coding Tests in Swift.md",
+                "file": "journals/2023-01-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Coding Tests in Swift.md"
+                "file": "journals/2023-01-27.md"
               }
             }
           },
@@ -174,15 +174,15 @@
   },
   "active": "88438f3ec2d5db22",
   "lastOpenFiles": [
+    "journals/2023-01-28.md",
+    "journals/2023-01-29.md",
     "journals/2023-01-30.md",
+    "pages/Coding Tests in Swift.md",
     "pages/Aldehyde Backlinks Outage (January 2023).md",
     "pages/0973 K Closest Points to Origin.md",
     "pages/Coding Tests.md",
     "pages/0121 Best Time to Buy and Sell Stock.md",
     "pages/0542 01 Matrix.md",
-    "pages/Coding Tests in Swift.md",
-    "assets/695A13.png",
-    "pages/Aldehyde Outage (January 2023).md",
-    "pages/Tana.md"
+    "assets/695A13.png"
   ]
 }
