@@ -7,7 +7,7 @@ slug: '/D8A76E'
 > 그것은 동시에 기계화되어, 매우 빠르고 유연하게 정보를 참조할 수 있을 것입니다.
 > 그것은 기억의 확장이자... 기억의 친밀한 보조 장치일 것입니다. — [[Vannevar Bush|버니바 부시]].
 >
-> Consider a future device … in which an individual stores all his books, records, and communications, which is mechanized so that it > > may be consulted with exceeding speed and flexibility.
+> Consider a future device … in which an individual stores all his books, records, and communications, which is mechanized so that it may be consulted with exceeding speed and flexibility.
 > It is an enlarged intimate supplement to his memory. — [[Vannevar Bush]].
 
 Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.
