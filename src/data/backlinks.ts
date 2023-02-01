@@ -1072,6 +1072,10 @@ export const backlinks = {
         "Synthote": "- [[Conversational AI Tools for Thought]]",
         "Tools for Thought": "- [[Conversational AI Tools for Thought]]"
     },
+    "Domain Search Tools": {
+        "2022-11-28": "- [[Domain Search Tools]]",
+        "2023-02-01": "- [[Domain Search Tools]]"
+    },
     "Pascal Triangle": {
         "2023-01-24": "- [[Pascal Triangle]]"
     },
@@ -3431,9 +3435,6 @@ export const backlinks = {
         "CODE Procedure": "- Often used with [[PARA]].",
         "PKM": "| [[PARA]]       | Architecture for Second Brain. ..."
     },
-    "One Word Domains": {
-        "2022-11-28": "- [[One Word Domains]]"
-    },
     "OS": {
         "2022-06-14": "- Brane\uc740 \ud0c0\uc0ac \uc571\uc744 \ucc38\uc5ec\uc2dc\ucf1c \ud50c\ub7ab\ud3fc\uc744 \ud655\uc7a5\ud558\uace0 [[OS]] \uc218\uc900\uc744 \uacbd\ud5d8\ud558\ub294 \ubaa8\ub4e0 \uacfc\uc815(\uc6f9\uc571 \ub80c\ub354\ub9c1, \ub808\uc9c0\uc2a4\ud2b8\ub9ac \uc124\uce58, \ud504\ub9ac\ub85c\ub529, \uc704\uc82f \ub4f1)\uc744 \ud3ec\ud568\ud558\ub294 ...",
         "Apple Newsroom \uc11c\uccb4 \ub530\ub77c\ud558\uae30": "- \ub2e8\uc5b4 \ud558\ub098\ub9cc\uc73c\ub85c [[OS]]\uc758 \uae30\ubcf8 \uc11c\uccb4\ub85c \uc124\uc815\ud560 \uc218 \uc788\ub294 `system-ui`\ub77c\ub294 CSS \ucf54\ub4dc\ub97c \ud45c\uc900\ud654 \ud558\uace0 \uc788\ub2e4\uace0 ...",
@@ -4608,6 +4609,15 @@ export const backlinks = {
     "BFE3CD.png": {
         "Conversational AI Tools for Thought": "![[BFE3CD.png]]"
     },
+    "10E67E.png": {
+        "Domain Search Tools": "![[10E67E.png]]"
+    },
+    "E4B175.png": {
+        "Domain Search Tools": "![[E4B175.png]]"
+    },
+    "26A675.png": {
+        "Domain Search Tools": "![[26A675.png]]"
+    },
     "254AFC.png": {
         "AIs.txt": "![[254AFC.png]]"
     },
@@ -5122,9 +5132,6 @@ export const backlinks = {
     },
     "D1D46A.png": {
         "Dynamic Viewport Units": "![[D1D46A.png]]"
-    },
-    "26A675.png": {
-        "One Word Domains": "![[26A675.png]]"
     },
     "90B241.jpg": {
         "Curve Fitting for Charts": "![[90B241.jpg]]"
