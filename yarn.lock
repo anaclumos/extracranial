@@ -5473,7 +5473,7 @@ __metadata:
     cobe: ^0.6.3
     eslint: ^8.33.0
     eslint-config-airbnb: ^19.0.4
-    eslint-config-standard-with-typescript: ^23.0.0
+    eslint-config-standard-with-typescript: ^34.0.0
     eslint-plugin-import: ^2.27.5
     eslint-plugin-jsx-a11y: ^6.7.1
     eslint-plugin-n: ^15.6.1
@@ -7442,9 +7442,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-standard-with-typescript@npm:^23.0.0":
-  version: 23.0.0
-  resolution: "eslint-config-standard-with-typescript@npm:23.0.0"
+"eslint-config-standard-with-typescript@npm:^34.0.0":
+  version: 34.0.0
+  resolution: "eslint-config-standard-with-typescript@npm:34.0.0"
   dependencies:
     "@typescript-eslint/parser": ^5.0.0
     eslint-config-standard: 17.0.0
@@ -7455,7 +7455,7 @@ __metadata:
     eslint-plugin-n: ^15.0.0
     eslint-plugin-promise: ^6.0.0
     typescript: "*"
-  checksum: a6bc6758e3e203721cfa38a6e5e1437b38016aa72bf2e2855581fa65c0cf96531a3433a3625703a3740c10e9d654c08a8d8b6cc6688b3e8b48259a9390a2fcd7
+  checksum: d81fd7de4d6f65cad189d7f93d34a7289505b05bd77044edb81c78c1cc94b7e546fe6a8ab5fd5e88ff3db2ebef01569c56dd5b43d77797a7c5ae50062beae2b1
   languageName: node
   linkType: hard
 
