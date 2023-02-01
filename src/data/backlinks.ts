@@ -111,6 +111,9 @@ export const backlinks = {
     "2020-02-12": {
         "\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355": "- [[2020-02-12]]"
     },
+    "2023-01-31": {
+        "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "- [[2023-01-31]]: 2\ucc28 \uba74\uc811 \ubd24\ub2e4"
+    },
     "2022-11-29": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "## Response on [[2022-11-29]]"
     },
@@ -1398,7 +1401,8 @@ export const backlinks = {
     },
     "Bernoulli Distribution": {
         "2023-01-24": "- [[Bernoulli Distribution]]",
-        "2023-01-26": "- [[Bernoulli Distribution]]"
+        "2023-01-26": "- [[Bernoulli Distribution]]",
+        "2023-01-31": "- [[Bernoulli Distribution]]"
     },
     "Journal is a Waypoint, nothing more": {
         "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
@@ -3635,6 +3639,9 @@ export const backlinks = {
         "The Library of Babel": "- [[Information amongst Data]]",
         "\uac1c\uc131\uc740 \uc790\uc5f0\uc2a4\ub808 \uc8fc\uc5b4\uc9c0\uc9c0 \uc54a\ub294\ub2e4": "\uc218\ub9ce\uc740 [[Information amongst Data|\ub370\uc774\ud130 \uc911 \uc815\ubcf4]]\ub9cc\uc774 \uc911\uc694\ud55c \uc138\uc0c1\uc785\ub2c8\ub2e4."
     },
+    "\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758": {
+        "2023-02-01": "- [[\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758]]"
+    },
     "Someday": {
         "Apple Earth": "[[Someday]] [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
@@ -4216,6 +4223,9 @@ export const backlinks = {
     },
     "wikilink": {
         "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which Docusaurus does not support. I have another python ..."
+    },
+    "81F6FA.png": {
+        "2023-01-31": "![[81F6FA.png]]"
     },
     "94861D.png": {
         "2022-12-08": "![[94861D.png]]",
