@@ -261,6 +261,7 @@ export const filenames = {
     "2023-01-29": "2023-01-29",
     "2023-01-30": "2023-01-30",
     "2023-01-31": "2023-01-31",
+    "2023-02-01": "2023-02-01",
     "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "9A31D7",
     "3D": "82C83C",
     "3d Globe on the Web": "432EF8",
@@ -1072,5 +1073,6 @@ export const filenames = {
     "\u5f37\u529b\u53cd\u6b0a": "2592EA",
     "\u6c34\u9069\u7a7f\u77f3": "D9B586",
     "\u6d2a\u6c11\u6199\u96dc\u8a18": "2CD26A",
-    "\u96c5\u865f\ub97c \ucc3e\uc544\uc11c": "8A1CBA"
+    "\u96c5\u865f\ub97c \ucc3e\uc544\uc11c": "8A1CBA",
+    "\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758": "978939"
 }
