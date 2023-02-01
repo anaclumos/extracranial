@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a4d94cce40395907",
+        "id": "42dd0ffab098ea32",
         "type": "tabs",
         "children": [
           {
-            "id": "f4c13456dfc67ec0",
+            "id": "88398f3e9fb5bb46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-01.md",
-                "mode": "source",
+                "file": "journals/2023-01-23.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-02-01.md",
+                "file": "journals/2023-01-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-02-01.md"
+                "file": "journals/2023-01-23.md"
               }
             }
           },
@@ -145,17 +145,17 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "f4c13456dfc67ec0",
+  "active": "88398f3e9fb5bb46",
   "lastOpenFiles": [
-    "pages/Profiling.md",
-    "pages/Graphics.md",
+    "journals/2023-01-24.md",
+    "journals/2023-01-25.md",
+    "journals/2023-01-26.md",
+    "journals/2023-01-27.md",
+    "journals/2023-01-28.md",
+    "journals/2023-01-29.md",
+    "journals/2023-01-30.md",
+    "journals/2023-01-31.md",
     "journals/2023-02-01.md",
-    "journals/2022-11-04.md",
-    "pages/Apple-like Block Interface.md",
-    "pages/Queueing in Internetworking and Congestions.md",
-    "pages/방지된 폭탄에 대한 경의.md",
-    "journals/2022-10-03.md",
-    "pages/Tossface.md",
-    "pages/Fix Your Posture.md"
+    "pages/Profiling.md"
   ]
 }
