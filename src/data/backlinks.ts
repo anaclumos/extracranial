@@ -557,8 +557,7 @@ export const backlinks = {
         "Android": "- [[Adding Space in Android]]"
     },
     "Palantir": {
-        "2022-10-21": "- [[Palantir]]",
-        "Real Interviews": "- [[Palantir]]"
+        "2022-10-21": "- [[Palantir]]"
     },
     "Kubernetes": {
         "2022-07-14": "... and more. One wrong info that I found: Uber didn't make [[Kubernetes]]. [[Google]] did.",
@@ -2672,7 +2671,8 @@ export const backlinks = {
         "2022-09-24": "- [[Real Exams]]",
         "2022-09-26": "- [[Real Exams]]",
         "2022-10-12": "  - [x] [[Real Exams]]",
-        "Coding Tests": "- [[Real Exams]]"
+        "Coding Tests": "- [[Real Exams]]",
+        "Real Interviews": "See also: [[Real Exams]]"
     },
     "P2P": {
         "Internetworking": "- [[P2P]]"
@@ -2892,7 +2892,7 @@ export const backlinks = {
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
-        "Real Interviews": "- [[Grammarly]]"
+        "Real Interviews": "  - Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])"
     },
     "SHAP": {
         "2022-12-24": "- [[SHAP]]"
@@ -3661,6 +3661,7 @@ export const backlinks = {
         "2022-09-30": "- [[Real Interviews]]",
         "2022-10-24": "- [[Real Interviews]]",
         "2022-11-07": "- [[Real Interviews]]",
+        "2023-01-31": "- [[Real Interviews]]",
         "Coding Tests": "- [[Real Interviews]]"
     },
     "Prototyper": {
