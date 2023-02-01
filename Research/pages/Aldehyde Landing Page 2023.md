@@ -7,6 +7,7 @@ slug: '/75B627'
 - Glowing Card Effect
 - Mouse Interactions
 
+![[E9C139.png]]
 ![[612FFD.png]]
 ![[398CA8.png]]
 ![[6C8C82.png]]
