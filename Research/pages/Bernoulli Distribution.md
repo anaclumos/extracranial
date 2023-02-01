@@ -35,10 +35,10 @@ $$
 - Number of Outcomes. Two or More?
 - With or Without Replacement?
 
-| Strategies        | With Replacement | Without Replacement |
-| ----------------- | ---------------- | ------------------- |
-| $2$ outcomes      | Binomial         | Hypergeometric      |
-| $\geq 3$ outcomes | Multinomial      |                     |
+| Strategies        | With Replacement | Without Replacement         |
+| ----------------- | ---------------- | --------------------------- |
+| $2$ outcomes      | Binomial         | Hypergeometric              |
+| $\geq 3$ outcomes | Multinomial      | Multivariate hypergeometric |
 
 
 ## Multinomial
@@ -77,4 +77,8 @@ $$
 
 $$
 P(X_1 = x_1, ~ X_2 = x_2, \cdots , ~X_k=x_k) = {n! \over {x_1!~x_2!~x_3!~\cdots~x_k!}} P_1^{x_1} P_2^{x_2} \cdots P_k ^{x_k}
+$$
+
+$$
+P(X_1 = x_1, ~ X_2 = x_2, \cdots , ~X_k=x_k) = {{{N_1 \choose x_1} {N_2 \choose x_2} \cdots {N_k \choose x_k}} \over {N \choose n}}
 $$
