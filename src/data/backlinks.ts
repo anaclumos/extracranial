@@ -491,6 +491,9 @@ export const backlinks = {
         "Computer Systems": "- [[Page Faults]]",
         "Virtual Memory": "- [[Page Faults]]"
     },
+    "Convergence of Infinite Series": {
+        "2023-01-31": "- [[Convergence of Infinite Series]]"
+    },
     "0067 Add Binary": {
         "Coding Tests": "- [x] [[0067 Add Binary]]"
     },
@@ -674,19 +677,29 @@ export const backlinks = {
     },
     "Probability": {
         "2023-01-24": "- [[Probability]]",
+        "Absolute Convergence": "In [[Probability]],",
         "Approximation": "In [[Probability]],",
         "Bayes Theorem": "In [[Probability]],",
         "Bernoulli Distribution": "In [[Probability]],",
         "Binomial Distribution": "In [[Probability]],",
         "Binomial Theorem": "In [[Probability]],",
         "Conditional Probability": "In [[Probability]],",
+        "Convergence of Alternating Series": "In [[Probability]],",
+        "Convergence of Geometric Series": "In [[Probability]],",
+        "Convergence of Infinite Series": "In [[Probability]],",
+        "Convergence of Power Series": "In [[Probability]],",
         "Counting": "In [[Probability]],",
+        "Geometric Series": "In [[Probability]],",
         "Independence": "In [[Probability]],",
+        "Limit of a Sequence": "In [[Probability]],",
         "Markovity": "In [[Probability]],",
         "Multiplication Theorem": "In [[Probability]],",
         "Odds": "In [[Probability]],",
+        "P-series Test": "In [[Probability]],",
         "Partition Problem": "In [[Probability]],",
         "Pascal Triangle": "In [[Probability]],",
+        "Poisson Approximation": "In [[Probability]],",
+        "Ratio Test": "In [[Probability]],",
         "Total Probability": "In [[Probability]],"
     },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
@@ -1498,6 +1511,9 @@ export const backlinks = {
     "Surfit": {
         "Jumpsite": "## [[Surfit]]"
     },
+    "Absolute Convergence": {
+        "2023-01-31": "- [[Absolute Convergence]]"
+    },
     "Example References for Alter": {
         "Project Alter": "- [[Example References for Alter]]"
     },
@@ -1525,7 +1541,8 @@ export const backlinks = {
         "2022-12-24": "- Rewind is [[GA]]"
     },
     "Poisson Approximation": {
-        "2023-01-26": "- [[Poisson Approximation]]"
+        "2023-01-26": "- [[Poisson Approximation]]",
+        "2023-01-31": "- [[Poisson Approximation]]"
     },
     "Archiving-based Tools for Thoughts": {
         "Tools for Thought": "- [[Archiving-based Tools for Thoughts]]: takes a full copy of a page for archiving purposes."
@@ -2196,6 +2213,9 @@ export const backlinks = {
         "Akzidenz": "- A type of [[Grotesque]] [[font]].",
         "Satoshi": "- A type of [[Grotesque]] [[font]]"
     },
+    "Limit of a Sequence": {
+        "2023-01-31": "- [[Limit of a Sequence]]"
+    },
     "Inter": {
         "Akzidenz": "- Akin to San Francisco|SF Pro and [[Inter]].",
         "Font Features": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.",
@@ -2210,6 +2230,9 @@ export const backlinks = {
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
         "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
+    },
+    "Ratio Test": {
+        "2023-01-31": "- [[Ratio Test]]"
     },
     "Iterative and Incremental Development": {
         "Toss Product Sans": "- [[Iterative and Incremental Development|\ubc18\ubcf5\uc801 \uac1c\ubc1c]]"
@@ -2436,6 +2459,9 @@ export const backlinks = {
         "AMP": "Uses [[WorkerDOM]] under the hood.",
         "Treehouse": "... attempt to run a DOM within a Web Worker. Later affected [[WorkerDOM]] and [[Brane]].",
         "iiframe": "- Does not extend [[WorkerDOM]]."
+    },
+    "Geometric Series": {
+        "2023-01-31": "- [[Geometric Series]]"
     },
     "Satoshi": {
         "San Francisco": "### [[Satoshi]]"
@@ -3182,6 +3208,9 @@ export const backlinks = {
     "Using an iPad as my Ebook": {
         "2023-01-12": "- [[Using an iPad as my Ebook]]"
     },
+    "P-series Test": {
+        "2023-01-31": "- [[P-series Test]]"
+    },
     "Independence": {
         "2023-01-23": "- [[Independence]]"
     },
@@ -3728,6 +3757,9 @@ export const backlinks = {
     "JSX": {
         "Stories Behind Satori": "After simplifying the syntax with [[JSX]] and simple [[CSS]], Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the ..."
     },
+    "Convergence of Alternating Series": {
+        "2023-01-31": "- [[Convergence of Alternating Series]]"
+    },
     "Hacker News": {
         "2022-06-21": "## Today's [[Hacker News]]",
         "2022-06-22": "## Today's [[Hacker News]]",
@@ -3830,6 +3862,9 @@ export const backlinks = {
     },
     "Intellisense": {
         "Intellisense for Knowledge Management": "- [[Intellisense]] but for Knowledge Management"
+    },
+    "Convergence of Geometric Series": {
+        "2023-01-31": "- [[Convergence of Geometric Series]]"
     },
     "Tools Must Vanish": {
         "2022-07-07": "- [[Tools Must Vanish]]",
@@ -4061,6 +4096,9 @@ export const backlinks = {
     },
     "Nation as a Service": {
         "2022-09-12": "- [[Nation as a Service]]"
+    },
+    "Convergence of Power Series": {
+        "2023-01-31": "- [[Convergence of Power Series]]"
     },
     "React App on GitHub Pages": {
         "2022-11-19": "  - [[React App on GitHub Pages]]"
