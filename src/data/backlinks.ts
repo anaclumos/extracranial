@@ -443,7 +443,7 @@ export const backlinks = {
     "BFS": {
         "0733 Flood Fill": "I did [[BFS]], but it seems possible to do this in recursion too.",
         "Real Exams": "- 1 [[BFS]]",
-        "Real Interviews": "    - 1 conditional [[BFS]] problem"
+        "Real Interviews": "  - 1 conditional [[BFS]] problem"
     },
     "Aldehyde": {
         "2022-11-03": "- [[Aldehyde]]",
@@ -572,7 +572,7 @@ export const backlinks = {
     },
     "Leetcode": {
         "Coding Tests": "## [[Leetcode]] 75",
-        "Real Interviews": "  - 3 [[Leetcode]] Easy to Medium Problem"
+        "Real Interviews": "- 3 [[Leetcode]] Easy to Medium Problem"
     },
     "Markdown": {
         "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].",
@@ -917,7 +917,7 @@ export const backlinks = {
         "Everyprompt": "- [[Synthote]]",
         "Notion": "- Notion AI: [[Synthote]]",
         "Notion AI": "Notion's [[Synthote]]",
-        "Real Interviews": "... - Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
+        "Real Interviews": "- Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
         "Reimagining Emails": "- Potential links to [[Synthote]]?",
         "Search in a Latent Space": "- Related to [[Synthote]]: Finding the exact text that contains the desired info in this ...",
         "Stephan Ango": "- Coined the term [[Synthote]]",
@@ -2892,7 +2892,7 @@ export const backlinks = {
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
-        "Real Interviews": "  - Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])"
+        "Real Interviews": "- Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])"
     },
     "SHAP": {
         "2022-12-24": "- [[SHAP]]"
