@@ -18,7 +18,7 @@ please feel free to submit a PR or send me an [email](https://mailhide.io/e/IXnd
 [[Assembly]] is a straightforward way of describing machines to execute instructions.
 It follows how [[Turing Machine]]s would work in the real world.
 
-## WASM example
+## [[WebAssembly|WASM]] example
 
 [[Assembly]] languages in general consists of simple and atomic operations that the processor can follow.
 For example, let's consider the following `add.c` C code.
