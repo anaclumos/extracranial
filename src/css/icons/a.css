@@ -1112,8 +1112,9 @@ article a[href*='https://www.appian.com']::before
   -webkit-mask-image: url('https://simpleicons.org/icons/appian.svg');
   mask-image: url('https://simpleicons.org/icons/appian.svg');
 }
-article a[href*='https://www.apple.com']::before,
-article a[href*='https://www.www.apple.com']::before
+article a[href*='https://apple.com']::before,
+article a[href*='https://support.apple.com']::before,
+article a[href*='https://www.apple.com']::before
 {
   content: '\00a0';
   -webkit-mask-image: url('https://simpleicons.org/icons/apple.svg');
