@@ -1784,6 +1784,9 @@ export const backlinks = {
         "2022-09-05": "- [[Math-based Coding]]",
         "Real Exams": "- 1 [[Math-based Coding]]"
     },
+    "Profiling": {
+        "2023-02-01": "- [[Profiling]]"
+    },
     "10x Technologist": {
         "10x Technopreneurs": "10x technoprenuers are Small yet Powerful people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the knowledge for Go-To-Market strategies and monetization. They can ...",
         "2022-12-09": "- [[10x Technologist]]"
@@ -2866,6 +2869,7 @@ export const backlinks = {
         "PDF": "... description of a fixed-layout flat document, including the text, fonts, vector [[graphics]], raster images and other information needed to display it. PDF has ...",
         "PNG": "> Portable Network Graphics is a raster-[[graphics]] file format that supports lossless data compression. PNG was developed as ...",
         "Preprocessor": "In [[Graphics]], preprocessors are the directives to tell the compiler before turning them ...",
+        "Profiling": "In [[Graphics]], profiling is needed when trying a lookup table.",
         "SVG": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
         "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex ...",
         "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
@@ -3258,6 +3262,7 @@ export const backlinks = {
         "2022-12-16": "- [[Apple-like Block Interface]]",
         "2022-12-18": "- [[Apple-like Block Interface]]",
         "2022-12-27": "- [[Apple-like Block Interface]]",
+        "2023-02-01": "- [[Apple-like Block Interface]]",
         "Aldehyde Landing Page 2023": "- [[Apple-like Block Interface]]"
     },
     "Toss Product Sans": {
@@ -3757,7 +3762,8 @@ export const backlinks = {
         "Reimagining Emails": "- [[React Email]]"
     },
     "Amie": {
-        "2023-01-30": "- Also got invited to [[Amie]]."
+        "2023-01-30": "- Also got invited to [[Amie]].",
+        "Apple-like Block Interface": "## [[Amie]]"
     },
     "binary search": {
         "0704 Binary Search": "- [[binary search]]",
@@ -4512,6 +4518,11 @@ export const backlinks = {
     },
     "9CCA89.png": {
         "Search Engine Indexing Your Life": "![[9CCA89.png]]"
+    },
+    "E9C139.png": {
+        "Aldehyde Landing Page 2023": "![[E9C139.png]]",
+        "Amie": "![[E9C139.png]]",
+        "Apple-like Block Interface": "![[E9C139.png]]"
     },
     "612FFD.png": {
         "Aldehyde Landing Page 2023": "![[612FFD.png]]"
