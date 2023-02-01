@@ -40,7 +40,6 @@ $$
 | $2$ outcomes      | Binomial         | Hypergeometric              |
 | $\geq 3$ outcomes | Multinomial      | Multivariate hypergeometric |
 
-
 ## Multinomial
 
 $k$- outcomes
@@ -73,7 +72,6 @@ $$
 $$
 P_1 + P_2 + P_3 + \cdots + P_k = 1
 $$
-
 
 $$
 P(X_1 = x_1, ~ X_2 = x_2, \cdots , ~X_k=x_k) = {n! \over {x_1!~x_2!~x_3!~\cdots~x_k!}} P_1^{x_1} P_2^{x_2} \cdots P_k ^{x_k}
