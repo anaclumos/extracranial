@@ -567,6 +567,7 @@ export const filenames = {
     "IRS": "CF518D",
     "Ideas are worthless": "65A667",
     "Ignoring $ for copy-pasting online resources to terminal": "558CF5",
+    "Imoogi and Dragon Company": "858CBA",
     "Implementing Karatsuba Algorithm in Python": "383A01",
     "Improving Cache Average Access Time": "A333C3",
     "In The End Trust Yourself": "1EF59B",
