@@ -1953,6 +1953,9 @@ export const backlinks = {
         "\ub77c\uc988\ubca0\ub9ac \ud30c\uc774\ub85c \uc2a4\ub9c8\ud2b8 \uc624\ub514\uc624 \uc2dc\uc2a4\ud15c \ub9cc\ub4e4\uae30": "\uc6b0\uc120 balenaSound GitHub Repository\uc5d0 \ub4e4\uc5b4\uac00\uc11c \uc800\uc7a5\uc18c\ub97c \ub0b4\ub824\ubc1b\ub294\ub2e4. [[GitHub]]\uc744 \uc0ac\uc6a9\ud558\uc9c0 \uc54a\ub294 \uc0ac\ub78c\uc774\ub77c\uba74 \uc6f9\uc0ac\uc774\ud2b8\uc5d0 \uc788\ub294 Clone or Download \ubc84\ud2bc\uc744 \ub204\ub978 \ub4a4 ...",
         "\ubc30\ub2ec\uc758\ubbfc\uc871 FE \uac1c\ubc1c\uc790\uac00 \uc77c\ud558\ub294 \ubc95 \ubc1c\ud45c": "... \uc0ac\uc6a9\ud588\ub2e4. \ube60\ub978 \uac83 \uac19\uace0 \uc88b\uc740\ub370, \uc7a5\uc560\ub97c \uacaa\uace0 \ub098\uba74 \uc0dd\uac01\uc774 \ub2ec\ub77c\uc9c4\ub2e4. \uc608\uc804\uc5d0\ub294 [[GitHub]]\ub97c \uc0ac\uc6a9\ud558\ub2e4\uac00 \uc694\uc998\uc5d0\ub294 \ube44\uc2b7\ud55c \ub3c4\uad6c (GitLab) \uc744 \uc0ac\uc6a9\ud55c\ub2e4. \uadf8\ub798\uc11c PR\uc744 \ud558\uace0 \uc62c\ub9ac\uba74 ..."
     },
+    "Imoogi and Dragon Company": {
+        "2023-02-01": "- [[Imoogi and Dragon Company]]"
+    },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
         "Mastodon": "- [[The Architecture of Mastodon]]",
