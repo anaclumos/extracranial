@@ -7,6 +7,10 @@ Jumpsite Service, or Web Linking Network Service, is a collective term for a [[S
 
 - [[Interface (Jumpsite)]]
 
+## [Same Energy | Visual Search Engine](https://same.energy/)
+
+![[288AE0.png]]
+
 ## [Panda — The homepage for your favorite websites](https://usepanda.com/)
 
 ![[298DC4.png]]
