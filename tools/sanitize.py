@@ -35,10 +35,22 @@ if __name__ == "__main__":
                     COUNTER += 1
 
                 # Replace Rules
-                if " " in line:
-                    line = line.replace(" ", " ")
-                if " | Hacker News" in line:
-                    line = line.replace(" | Hacker News", "")
 
+                REPLACE_RULES = {
+                    " ": " ",
+                    " | Hacker News": "",
+                    " - The New York Times": "",
+                    " - WSJ": "",
+                    " | Max Woolf's Blog": "",
+                    " — Alin Panaitiu": "",
+                    " | IMG.LY Blog": "",
+                    " - Tyler Cipriani": "",
+                    " - Code Faster with Kite": "",
+                    " | the art of technology": "",
+                }
+
+                for rule in REPLACE_RULES:
+                    if rule in line:
+                        line = line.replace(rule, REPLACE_RULES[rule])
                 f.write(line)
     print("Replaced " + str(COUNTER) + " hex marks.")
