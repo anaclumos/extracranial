@@ -6,7 +6,7 @@
 
 .globe {
   width: 600px;
-  height: 600px;
+  aspect-ratio: 1;
   margin: 0 auto;
   aspect-ratio: 1;
   border-radius: 50%;
