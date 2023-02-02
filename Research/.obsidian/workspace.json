@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "526e66e80795326c",
+        "id": "e0b7c2d8eedb97fc",
         "type": "tabs",
         "children": [
           {
-            "id": "50137c6e6cb8bc3e",
+            "id": "371327d4eb86ce49",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -137,8 +137,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "50137c6e6cb8bc3e",
+  "active": "371327d4eb86ce49",
   "lastOpenFiles": [
+    "journals/2022-10-06.md",
     "journals/2023-02-01.md",
     "pages/Domain Search Tools.md",
     "journals/2023-01-24.md",
@@ -147,7 +148,6 @@
     "journals/2023-01-27.md",
     "journals/2023-01-28.md",
     "journals/2023-01-29.md",
-    "journals/2023-01-30.md",
-    "journals/2023-01-31.md"
+    "journals/2023-01-30.md"
   ]
 }
