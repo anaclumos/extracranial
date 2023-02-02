@@ -262,6 +262,7 @@ export const filenames = {
     "2023-01-30": "2023-01-30",
     "2023-01-31": "2023-01-31",
     "2023-02-01": "2023-02-01",
+    "2023-02-02": "2023-02-02",
     "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "9A31D7",
     "3D": "82C83C",
     "3d Globe on the Web": "432EF8",
@@ -280,6 +281,7 @@ export const filenames = {
     "AWS Nuke": "34B1F9",
     "Absolute Convergence": "1617EF",
     "Accelerationism": "F16535",
+    "Action Required Newsletter Networks": "B0B9FF",
     "ActivityPub": "E6F15C",
     "Adding Space in Android": "7C6B13",
     "Adding a Verified Mark on Apple Mail & Gmail": "CB6043",
@@ -851,6 +853,7 @@ export const filenames = {
     "SendGrid": "380216",
     "Sending Notifications on Chrome Extension": "D1B35D",
     "Separation of Computer Scientists and Computer Technologists": "E203C9",
+    "Service Shimming": "26D2AB",
     "Setting different fonts by language in CSS": "37A187",
     "Setting different images for Light & Dark mode": "519D85",
     "Shader": "4264FB",
@@ -1076,5 +1079,6 @@ export const filenames = {
     "\u6c34\u9069\u7a7f\u77f3": "D9B586",
     "\u6d2a\u6c11\u6199\u96dc\u8a18": "2CD26A",
     "\u96c5\u865f\ub97c \ucc3e\uc544\uc11c": "8A1CBA",
-    "\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758": "978939"
+    "\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758": "978939",
+    "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "9A01ED"
 }

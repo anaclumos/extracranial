@@ -448,6 +448,10 @@ export const backlinks = {
         "Real Exams": "- 1 [[BFS]]",
         "Real Interviews": "  - 1 conditional [[BFS]] problem"
     },
+    "Service Shimming": {
+        "2023-02-02": "- [[Service Shimming]]",
+        "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "- Eng: [[Service Shimming]]"
+    },
     "Aldehyde": {
         "2022-11-03": "- [[Aldehyde]]",
         "2022-12-04": "- [[Aldehyde]]",
@@ -1471,7 +1475,10 @@ export const backlinks = {
         "Dynamic Island on the Web": "- [[Reverse Engineering Apple Music API]]"
     },
     "Shim": {
-        "Realm Shim": "> [[Shim]] implementation of the Realm API Proposal ([[ShadowRealm]])"
+        "2022-06-26": "- API [[Shim|Shimming]] will be hard enough. Shim \\(computing\\) - Wikipedia>)",
+        "Realm Shim": "> [[Shim]] implementation of the Realm API Proposal ([[ShadowRealm]])",
+        "Service Shimming": "In computer programming, [[Shim|shimming]] is a method of transparently intercepting, modifying, and redirecting the API ...",
+        "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "[[Shim]]\uc740 \ucef4\ud4e8\ud130 \ud504\ub85c\uadf8\ub798\ubc0d\uc5d0\uc11c \uc694\uccad\uc744 \uac00\ub85c\ucc44\uc11c \ubcc0\uc870\ud574\uc11c \ub418\ub3cc\ub824\uc8fc\ub294 \uae30\ubc95\uc744 \ub73b\ud55c\ub2e4. \ub9e4\ub044\ub7ec\uc6b4 Shim\uc740 \uc54c\uc544\ucc28\ub9ac\uc9c0 ..."
     },
     "Cut the Fat": {
         "The Dilemmas of Technopreneur": "Essentially, they can [[Cut the Fat]]."
@@ -1851,6 +1858,7 @@ export const backlinks = {
         "2023-01-31": "## [[Project]]",
         "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]",
         "AIs.txt": "- [[Project]]",
+        "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter Network]] but you must ",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
         "Autosave Everything": "Someday [[Project]]. A small Mac App that presses `command s` every defined interval.",
@@ -2360,7 +2368,8 @@ export const backlinks = {
         "2023-01-28": "## [[Building Habit]]",
         "2023-01-29": "## [[Building Habit]]",
         "2023-01-30": "## [[Building Habit]]",
-        "2023-02-01": "## [[Building Habit]]"
+        "2023-02-01": "## [[Building Habit]]",
+        "2023-02-02": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3096,6 +3105,9 @@ export const backlinks = {
     "Shopify Analyzes CSS Frameworks": {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
+    "Action Required Newsletter Networks": {
+        "2023-02-02": "- [[Action Required Newsletter Networks]]"
+    },
     "Substack is the new Medium": {
         "2022-10-24": "- [[Substack is the new Medium]]"
     },
@@ -3197,6 +3209,9 @@ export const backlinks = {
     },
     "Welcome to the Neo Block Economy": {
         "2022-12-08": "- [[Welcome to the Neo Block Economy]]"
+    },
+    "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": {
+        "2023-02-02": "- [[\uc11c\ube44\uc2a4 \uc2dc\ubc0d]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -3465,6 +3480,7 @@ export const backlinks = {
     "Newsletter Network": {
         "2022-10-19": "- [[Newsletter Network]]",
         "2023-01-09": "- Can we use GitHub's subscribe feature as a [[Newsletter Network]]?",
+        "Action Required Newsletter Networks": "Someday Project. It's a [[Newsletter Network]] but you must ",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Newsletter Network]]",
         "Reimagining Emails": "- [[Newsletter Network]]"
     },
@@ -3653,6 +3669,7 @@ export const backlinks = {
         "2023-02-01": "- [[\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758]]"
     },
     "Someday": {
+        "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter Network]] but you must ",
         "Apple Earth": "[[Someday]] [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
         "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
