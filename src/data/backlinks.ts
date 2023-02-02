@@ -1858,7 +1858,7 @@ export const backlinks = {
         "2023-01-31": "## [[Project]]",
         "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]",
         "AIs.txt": "- [[Project]]",
-        "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter Network]] but you must ",
+        "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter Network]] but you must",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
         "Autosave Everything": "Someday [[Project]]. A small Mac App that presses `command s` every defined interval.",
@@ -3480,7 +3480,7 @@ export const backlinks = {
     "Newsletter Network": {
         "2022-10-19": "- [[Newsletter Network]]",
         "2023-01-09": "- Can we use GitHub's subscribe feature as a [[Newsletter Network]]?",
-        "Action Required Newsletter Networks": "Someday Project. It's a [[Newsletter Network]] but you must ",
+        "Action Required Newsletter Networks": "Someday Project. It's a [[Newsletter Network]] but you must",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Newsletter Network]]",
         "Reimagining Emails": "- [[Newsletter Network]]"
     },
@@ -3669,7 +3669,7 @@ export const backlinks = {
         "2023-02-01": "- [[\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758]]"
     },
     "Someday": {
-        "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter Network]] but you must ",
+        "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter Network]] but you must",
         "Apple Earth": "[[Someday]] [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
         "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
