@@ -4,7 +4,7 @@ slug: '/F65967'
 ---
 
 - Declarative Framework made with [[Swift]]
-- [SwiftUI is convenient but slow — Alin Panaitiu](https://notes.alinpanaitiu.com/SwiftUI%20is%20convenient,%20but%20slow)
+- [SwiftUI is convenient but slow](https://notes.alinpanaitiu.com/SwiftUI%20is%20convenient,%20but%20slow)
 
 [SwiftUI Overview - Xcode - Apple Developer](https://developer.apple.com/xcode/swiftui/)
 
