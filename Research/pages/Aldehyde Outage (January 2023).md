@@ -47,7 +47,7 @@ When Docusaurus seals the assets (at the end of the build cycle), the RAM usage 
 
 ![[8FBB85.png]]
 
-Configuring Cloudflare Pages and Vercel with the following argument fixed the problem!
+Configuring [[Cloudflare Pages]] and Vercel with the following argument fixed the problem!
 
 ```
 --max-old-space-size=8192
