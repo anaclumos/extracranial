@@ -355,6 +355,9 @@ export const backlinks = {
     "2023-01-03": {
         "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d": "## [[2023-01-03]]"
     },
+    "Algorithmic Recommendation Engine for Texts": {
+        "2023-02-02": "- [[Algorithmic Recommendation Engine for Texts]]"
+    },
     "Tailscale": {
         "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, \"Best VPN for developers.\"",
         "2022-10-13": "- Taildrop \u00b7 Tailscale: Cross-Platform AirDrops [[Tailscale]]",
@@ -395,6 +398,7 @@ export const backlinks = {
         "10x Technologist": "... who are seen as remarkably talented and influential in their work. [[ChatGPT]]",
         "2022-12-02": "- [[ChatGPT]]",
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
+        "2023-02-02": "- [[ChatGPT]]",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
@@ -2001,6 +2005,7 @@ export const backlinks = {
     "Jumpsite": {
         "2022-10-13": "- [x] [[Jumpsite]]",
         "2022-11-29": "- [[Jumpsite]]",
+        "2023-02-02": "- [[Jumpsite]]",
         "Interface (Jumpsite)": "- [[Jumpsite]]"
     },
     "POP3 vs IMAP": {
@@ -2499,6 +2504,9 @@ export const backlinks = {
     },
     "Petersburg": {
         "2023-01-23": "- [[Petersburg]]"
+    },
+    "Virtual DOM": {
+        "2023-02-02": "- [[Virtual DOM]]"
     },
     "Haruki Murakami": {
         "HTML \ud14d\uc2a4\ud2b8 \uc704\uc5d0 \ub367\ub9d0 \uac15\uc870\uc810 \uc4f0\uae30": "[[Haruki Murakami|\ud558\ub8e8\ud0a4]]\ucc98\ub7fc \uac15\uc870\uc810\uc744 \uae38\uac8c \ub123\ub294 \uac83\ub3c4 \uac00\ub2a5\ud558\ub2e4.",
@@ -3339,6 +3347,7 @@ export const backlinks = {
         "2022-11-20": "- [[Diminishing Cost of Service]]"
     },
     "Mood.surf": {
+        "Algorithmic Recommendation Engine for Texts": "- [[Mood.surf]]",
         "Jumpsite": "## [[Mood.surf]]"
     },
     "Realm Shim": {
@@ -3752,7 +3761,7 @@ export const backlinks = {
     },
     "GitHub Actions": {
         "Finding out Ghost version with JS": "... theme package and re-upload those. While I automated theme deployment with [[GitHub Actions]] (you can find the post here), it was a hassle to ...",
-        "Ghost \ud14c\ub9c8\ub97c \uc790\ub3d9 \ubc30\ud3ec\ud558\ub294 \ubc29\ubc95": "... \uac83\uc740? \ud14c\ub9c8 \uac1c\ubc1c\uc744 \ud1b5\ud55c \ube14\ub85c\uadf8 \ubc29\ubb38 \uacbd\ud5d8 \uac1c\uc120\uc774\ub2e4. \ub2e4\ud589\ud788\ub3c4 Ghost 2.25.5\ubd80\ud130 [[GitHub Actions]]\ub97c \uc774\uc6a9\ud574 \ub2e4\uc74c\uacfc \uac19\uc774 Ghost \ud14c\ub9c8 \uac1c\ubc1c\uc744 \uc790\ub3d9\ud654\ud560 \uc218 \uc788\uac8c \ub418\uc5c8\ub2e4.",
+        "Ghost \ud14c\ub9c8\ub97c \uc790\ub3d9 \ubc30\ud3ec\ud558\ub294 \ubc29\ubc95": "... \uac83\uc740? \ud14c\ub9c8 \uac1c\ubc1c\uc744 \ud1b5\ud55c \ube14\ub85c\uadf8 \ubc29\ubb38 \uacbd\ud5d8 \uac1c\uc120\uc774\ub2e4. \ub2e4\ud589\ud788\ub3c4 Ghost 2.25.5\ubd80\ud130 [[GitHub Actions]]\ub97c \uc774\uc6a9\ud574 \ub2e4\uc74c\uacfc \uac19\uc774 Ghost \ud14c\ub9c8 \uac1c\ubc1c\uc744 [[Automation|\uc790\ub3d9\ud654]]\ud560 \uc218 \uc788\uac8c \ub418\uc5c8\ub2e4.",
         "Reverse Engineering Apple Music API": "## Making it into a [[GitHub Actions]]"
     },
     "The Demise of Chatbots in 2017": {
@@ -3833,6 +3842,7 @@ export const backlinks = {
         "2022-12-21": "## [[Hacker News|HN]]",
         "2022-12-28": "## [[Hacker News|HN]]",
         "2023-01-13": "## [[Hacker News|HN]]",
+        "2023-02-02": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -4166,6 +4176,17 @@ export const backlinks = {
     "Componentizing Views in Android": {
         "2022-09-17": "  - [[Componentizing Views in Android]]",
         "Android": "- [[Componentizing Views in Android]]"
+    },
+    "Automation": {
+        "2022-07-05": "... Clever workaround for sending delayed messages in iOS with Shortcuts and [[Automation]].",
+        "2023-02-02": "- [[Automation]]",
+        "AI replaces expensive jobs first": "... management headcount as a means of freeing up money for implementing [[automation]]",
+        "Buttondown": "... interface makes it easy for you to write great emails; the [[automation]] acts like the editorial assistant you wish you had by checking ...",
+        "Computer Science": "> Computer science is the study of computation, [[automation]], and information. Computer science spans theoretical disciplines (such as algorithms, theory ...",
+        "Ghost \ud14c\ub9c8\ub97c \uc790\ub3d9 \ubc30\ud3ec\ud558\ub294 \ubc29\ubc95": "... \ub2e4\ud589\ud788\ub3c4 Ghost 2.25.5\ubd80\ud130 GitHub Actions\ub97c \uc774\uc6a9\ud574 \ub2e4\uc74c\uacfc \uac19\uc774 Ghost \ud14c\ub9c8 \uac1c\ubc1c\uc744 [[Automation|\uc790\ub3d9\ud654]]\ud560 \uc218 \uc788\uac8c \ub418\uc5c8\ub2e4.",
+        "GitHub Actions": "... continuous integration and continuous delivery (CI/CD) platform that allows you to [[Automation|automate]] your build, test, and deployment pipeline. You can create workflows that ...",
+        "Scheduler": "... management system (DRMS), distributed resource manager (DRM), and, commonly today, workload [[automation]] (WLA). The data structure of jobs to run is known as ...",
+        "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "- \ub124\uc774\ubc84\ub294 \ub274\uc2a4 [[Automation|\uc790\ub3d9\ud654]] \uc2dc\uc2a4\ud15c\uc744 \ub9cc\ub4e4\uc9c0 \ubabb\ud574 \uc628\uac16 \uc5b8\ub860\uc0ac\ub97c \ub9e4\uc77c \uc544\uce68 \ucc3e\uc544\uac00\uba70 \ub274\uc2a4\ub97c \ubc1b\uc544\uc654\ub2e4."
     },
     "Plausible Analytics": {
         "Google Analytics": "- Alternative: Simple Analytics, [[Plausible Analytics]]"
@@ -4839,6 +4860,9 @@ export const backlinks = {
         "0542 01 Matrix": "    func updateMatrix( matrix: [[Int]]) -> Int {",
         "0973 K Closest Points to Origin": "    func kClosest( points: [[Int]],  k: Int) -> Int {"
     },
+    "288AE0.png": {
+        "Jumpsite": "![[288AE0.png]]"
+    },
     "298DC4.png": {
         "Jumpsite": "![[298DC4.png]]"
     },
@@ -4855,8 +4879,7 @@ export const backlinks = {
         "Jumpsite": "![[412774.png]]"
     },
     "42DC28.png": {
-        "Jumpsite": "![[42DC28.png]]",
-        "Mood.surf": "![[42DC28.png]]"
+        "Jumpsite": "![[42DC28.png]]"
     },
     "people": {
         "Person 5DBDAE": "A lot of [[people]] are international.",
