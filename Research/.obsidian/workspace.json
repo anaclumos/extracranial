@@ -11,8 +11,13 @@
             "id": "371327d4eb86ce49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-01.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-02-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-02-01.md"
+              }
             }
           },
           {
@@ -139,15 +147,15 @@
   },
   "active": "371327d4eb86ce49",
   "lastOpenFiles": [
-    "journals/2022-10-06.md",
+    "journals/2023-01-30.md",
+    "journals/2023-01-31.md",
     "journals/2023-02-01.md",
+    "journals/2022-10-06.md",
     "pages/Domain Search Tools.md",
     "journals/2023-01-24.md",
     "journals/2023-01-25.md",
     "journals/2023-01-26.md",
     "journals/2023-01-27.md",
-    "journals/2023-01-28.md",
-    "journals/2023-01-29.md",
-    "journals/2023-01-30.md"
+    "journals/2023-01-28.md"
   ]
 }
