@@ -1,8 +1,8 @@
-/research/:path(.*) /r/:path 301!
-/blog/:path(.*) /w/:path 301!
-/ko/research/:path(.*) /ko/r/:path 301!
-/ko/blog/:path(.*) /ko/w/:path 301!
-/research/ /r/ 301!
-/blog/ /w/ 301!
-/ko/research/ /ko/r/ 301!
-/ko/blog/ /ko/w/ 301!
+/research/:path /r/:path 301
+/blog/:path /w/:path 301
+/ko/research/:path /ko/r/:path 301
+/ko/blog/:path /ko/w/:path 301
+/research/ /r/ 301
+/blog/ /w/ 301
+/ko/research/ /ko/r/ 301
+/ko/blog/ /ko/w/ 301
