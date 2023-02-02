@@ -388,6 +388,7 @@ export const filenames = {
     "Clean Energy": "2C8D2A",
     "Clock skew detected": "6BA2C4",
     "Cloudflare": "3144DB",
+    "Cloudflare Pages": "52985A",
     "Clustering": "87B234",
     "Code Quality for Game Programming": "46ED3F",
     "Coding Tests": "D518B0",

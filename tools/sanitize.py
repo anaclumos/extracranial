@@ -33,7 +33,12 @@ if __name__ == "__main__":
                 if "{{hex}}" in line:
                     line = line.replace("{{hex}}", "/" + getHex())
                     COUNTER += 1
+
+                # Replace Rules
                 if " " in line:
                     line = line.replace(" ", " ")
+                if " | Hacker News" in line:
+                    line = line.replace(" | Hacker News", "")
+
                 f.write(line)
     print("Replaced " + str(COUNTER) + " hex marks.")
