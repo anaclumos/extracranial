@@ -384,7 +384,7 @@ export const backlinks = {
     },
     "SwiftUI": {
         "2022-08-04": "### Explored [[SwiftUI]].",
-        "2022-11-28": "- [[SwiftUI]]: SwiftUI is convenient, but slow \u2014 Alin Panaitiu",
+        "2022-11-28": "- [[SwiftUI]]: SwiftUI is convenient, but slow",
         "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon]]",
         "CELLO (Product)": "- [[SwiftUI]]",
         "Creating Next Keyboard Button in SwiftUI": "Creating Next Keyboard Button in [[SwiftUI]]",
@@ -3170,7 +3170,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0125 Valid Palindrome]]"
     },
     "Git": {
-        "2022-11-28": "- [[Git]]: Git Notes: git's coolest, most unloved feature - Tyler Cipriani",
+        "2022-11-28": "- [[Git]]: Git Notes: git's coolest, most unloved feature",
         "How to Build Software like an SRE": "- use [[Git]]",
         "Techs Actually Simple": "- Yet [[Git]]'s object model is pretty simple - content-addressed blobs (file-like), trees (folder-like), ...",
         "UUIDs are Awesome": "... even if a hash collision occurs, all records remain in the [[Git]] history, so we don't need any collision checks.",
@@ -3428,7 +3428,7 @@ export const backlinks = {
     },
     "FFMpeg": {
         "2022-11-21": "- [[FFMpeg]]",
-        "2022-11-28": "- [[FFMpeg]]: FFmpeg - Ultimate Guide | IMG.LY Blog",
+        "2022-11-28": "- [[FFMpeg]]: FFmpeg - Ultimate Guide",
         "FFMpeg for iPad": "Someday Project. [[FFMpeg]] equivalent for iPads!",
         "Jetski": "- [[ffmpeg]] optimization for sharing"
     },
