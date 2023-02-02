@@ -1,6 +1,6 @@
 ---
 date: 2023-01-25
-description: "Bringing Samsung's Korean Keyboard ⌨️ Experience to iPhones"
+description: "Bringing Samsung's Korean Keyboard Experience to iPhones ⌨️"
 authors: anaclumos
 slug: '/D7DE14'
 ---
@@ -9,7 +9,7 @@ import Admonition from '@theme/Admonition';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 import YouTube from '@site/src/components/YouTube'
 
-# Bringing Samsung's Korean Keyboard ⌨️ Experience to iPhones
+# Bringing Samsung's Korean Keyboard Experience to iPhones ⌨️
 
 ![ALT: Image: Hero image of the iPhone's Korean keyboard: "Sky, Earth, and Human."](7B584A.png)
 
