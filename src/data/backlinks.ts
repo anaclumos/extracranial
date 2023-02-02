@@ -436,6 +436,11 @@ export const backlinks = {
         "2022-09-25": "- [[0110 Balanced Binary Tree]]",
         "Coding Tests": "- [x] [[0110 Balanced Binary Tree]]"
     },
+    "Cloudflare Pages": {
+        "2023-01-27": "I had to migrate Extracranial to [[Cloudflare Pages]] for Vercel for now...",
+        "2023-02-02": "- [[Cloudflare Pages]]",
+        "Aldehyde Outage (January 2023)": "Configuring [[Cloudflare Pages]] and Vercel with the following argument fixed the problem!"
+    },
     "Solar": {
         "2023-01-13": "- [[Solar]]",
         "Clean Energy": "- [[Solar]]"
@@ -1260,6 +1265,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
     },
     "Front-end": {
+        "Cloudflare Pages": "- Cloudflare Edge [[Front-end]]",
         "Ghost \ud14c\ub9c8\ub97c \uc790\ub3d9 \ubc30\ud3ec\ud558\ub294 \ubc29\ubc95": "... \uc0ac\uc6a9\ud55c\ub2e4. Ghost CMS\ub294 \ud5e4\ub4dc\ub9ac\uc2a4\ud558\ub2e4. \ub9d0 \uadf8\ub300\ub85c \uba38\ub9ac\uac00 \uc5c6\ub2e4\ub294 \ub73b\uc73c\ub85c, \ubc31\uc5d4\ub4dc\ub294 \uc874\uc7ac\ud558\uc9c0\ub9cc [[Front-end|\ud504\ub860\ud2b8\uc5d4\ub4dc]] (\ud5e4\ub4dc)\ub294 \ub0b4\uac00 \uc6d0\ud558\ub294 \ub300\ub85c \uc81c\uc791\ud560 \uc218 \uc788\ub2e4\ub294 \uac83\uc774\ub2e4. \ud558\uc9c0\ub9cc Ghost 2\uae4c\uc9c0\ub294 ...",
         "HTMX": "- A [[Front-end]]",
         "Old Fashioned Camera": "- \ubc31\uc5d4\ub4dc\uc640 [[Front-end|\ud504\ub860\ud2b8]]\uac00 \ubaa8\ub450 \ud544\uc694 \uc5c6\uae30\uc5d0 [[FIRE Engine]]\uc744 \uc2e4\ud589\ud558\uae30\uc5d0 \uc801\ud569\ud574\ubcf4\uc784",
@@ -2464,6 +2470,7 @@ export const backlinks = {
     "Edge": {
         "2022-10-24": "- [[Edge]]",
         "2023-01-13": "- [[Edge]]",
+        "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-end]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... once mentioned that most tech services could be abstracted to an [[edge]]-served Front-end and back-end as edge-replicated simple data storage. I was also ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... also as App Economy vs. Web Economy, Closed vs. (fairly) Open, [[Edge]]-first AI vs. Cloud-first AI, etc.",
         "Satori": "... This approach is 5x faster than existing solutions by using Vercel [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] ...",
@@ -2536,6 +2543,7 @@ export const backlinks = {
         "Letter to the Heptabase Team on 2022-10-11": "... LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
         "Paracosm": "... & Extracranial Tools for Thought that aims to replace Docusaurus with [[Vercel]]'s tech stacks.",
+        "Redirect": "## Redirect in [[Vercel]]",
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting ...",
         "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.",
         "dub.sh": "  - [[Vercel]] hosting"
@@ -3408,7 +3416,9 @@ export const backlinks = {
         "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded that [[Vercel]] is better.",
         "Aldehyde Outage (January 2023)": "Investigating RAM Options. Supported a ticket to [[Cloudflare]]",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
-        "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions"
+        "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-end]]",
+        "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions",
+        "Redirect": "## Redirect in [[Cloudflare]]"
     },
     "Daily Dev": {
         "Jumpsite": "## [[Daily Dev]]"
@@ -3928,6 +3938,7 @@ export const backlinks = {
     },
     "Redirect": {
         "2022-09-17": "- [[Redirect]]",
+        "2023-02-02": "- [[Redirect]]",
         "HTTP": "- 301 Moved Permanently \u2192 [[Redirect]]"
     },
     "Almost Monospaced": {
