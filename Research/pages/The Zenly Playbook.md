@@ -21,9 +21,6 @@ From the Stay Home challenge in 2020 and mass scale 3D map update in 2022, Zenly
 
 I do think this is Snap's mistake. Even my university peers do not use Snap anymore but still use Zenly. It almost feels like Facebook is killing Instagram for Facebook. I hope Zenly's revolutionary DNA gets well-integrated into Snap, seeking revival.
 
-
-
-
 <details>
 <summary>More Info</summary>
 
