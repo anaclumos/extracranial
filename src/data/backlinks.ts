@@ -2315,7 +2315,8 @@ export const backlinks = {
         "Tools for Thought": "... for Thought: add infinite canvas to text-based versions. involves and exploits [[spacial cognition]]."
     },
     "\uae00\uac10": {
-        "2023-02-02": "- [[\uae00\uac10]]"
+        "2023-02-02": "- [[\uae00\uac10]]",
+        "2023-02-03": "- [[\uae00\uac10]]"
     },
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
