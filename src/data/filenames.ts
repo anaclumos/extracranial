@@ -1090,6 +1090,7 @@ export const filenames = {
     "\u6c34\u9069\u7a7f\u77f3": "D9B586",
     "\u6d2a\u6c11\u6199\u96dc\u8a18": "2CD26A",
     "\u96c5\u865f\ub97c \ucc3e\uc544\uc11c": "8A1CBA",
+    "\uae00\uac10": "14F701",
     "\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758": "978939",
     "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "9A01ED"
 }

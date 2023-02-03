@@ -2310,6 +2310,9 @@ export const backlinks = {
         "Meta Theme Color for Spacial Cognition": "- Meta Theme Color for [[Spacial Cognition]]",
         "Tools for Thought": "... for Thought: add infinite canvas to text-based versions. involves and exploits [[spacial cognition]]."
     },
+    "\uae00\uac10": {
+        "2023-02-02": "- [[\uae00\uac10]]"
+    },
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
         "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
@@ -3030,7 +3033,8 @@ export const backlinks = {
         "Old Fashioned Camera": "- \ubc31\uc5d4\ub4dc\uc640 Front-end|\ud504\ub860\ud2b8\uac00 \ubaa8\ub450 \ud544\uc694 \uc5c6\uae30\uc5d0 [[FIRE Engine]]\uc744 \uc2e4\ud589\ud558\uae30\uc5d0 \uc801\ud569\ud574\ubcf4\uc784"
     },
     "Decoy Effect": {
-        "2022-11-08": "- [[Decoy Effect]]"
+        "2022-11-08": "- [[Decoy Effect]]",
+        "Action Required Newsletter Networks": "... pay $0.9 per month (not aimed to generate money, it's for [[decoy effect]] \u2014 to encourage networking effects)"
     },
     "Better Aldehyde": {
         "2022-07-12": "- [[Better Aldehyde]]",
