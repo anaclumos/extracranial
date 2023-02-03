@@ -15,11 +15,9 @@ Zenly, a popular Gen-Z location-sharing social app, shut down two days ago. So h
 
 ** Acquiring talents**. Zenly had not only exceptional engineers but also outstanding designers and operators. [[10x]] people don't join a startup upfront, so Zenly made them involved in the company by hiring them as a freelancer and then onboarded them to the team.
 
-## Fading out
+## Zenly, now part of history
 
-From the Stay Home challenge in 2020 to a mass-scale 3D map update in 2022, Zenly prepared for its upcoming future. However, the recent layoff at Snap wiped out the Zenly team alongside the Snap Mini App team.
-
-I do think this is Snap's mistake. Even my university peers do not use Snap anymore but still use Zenly. It almost feels like Facebook is killing Instagram for Facebook. I hope Zenly's revolutionary DNA gets well-integrated into Snap, seeking revival.
+From the Stay Home challenge in 2020 to a mass-scale 3D map update in 2022, Zenly prepared for its upcoming future. However, the recent layoff at Snap wiped out the Zenly team alongside the Snap Mini App team. I do think this is Snap's mistake. Even my university peers do not use Snap anymore but still use Zenly. It almost feels like Facebook is killing Instagram for Facebook. I hope Zenly's revolutionary DNA gets well-integrated into Snap, seeking revival.
 
 <details>
 <summary>More Info</summary>
@@ -30,5 +28,6 @@ I do think this is Snap's mistake. Even my university peers do not use Snap anym
 - [Zenly's Antoine Martin on Next-Level Location Sharing at Disrupt London 2016](https://www.youtube.com/watch?v=q61Jm2VUUmQ)
 - [B2Secrets with Antoine Martin, CEO at Zenly](https://www.youtube.com/watch?v=l5dFuyyOY7A)
 - [Symbiote (Company) Zenly Analysis](https://carpedm30.notion.site/Zenly-2011-Acq-by-Snap-213M-4a4deaf155144fd49ed076a1f60b31ad)
+- [How Zenly made social maps cool again — and what’s next | TechCrunch](https://techcrunch.com/2022/04/22/how-zenly-made-social-maps-cool-again-and-whats-next/)
 
 </details>
