@@ -20,7 +20,7 @@ slug: '/3B14B7'
 - 영문 폰트 핵심으로
 - 아이패드와 애플펜슬만으로 쉽고 빠르게
 - PencilKit 적극 활용
-- [[Apple]] Neural Engine 적극 활용, 기기 자체에서 폰트 추론하기
+- [[Apple]] [[Neural Engine]] 적극 활용, 기기 자체에서 폰트 추론하기
 - [[Project]] 기반 (like Procreate)
 - 추출 전 미리보기 (텍스트 쳐보기) 가능
 - 추출 전 여러가지 [[Font Features]]을 켜고 끄며 미리보기 대조 가능

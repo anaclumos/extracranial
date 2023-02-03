@@ -13,7 +13,7 @@ The potential candidates for [[Satori]] included:
 
 However, [[SVG]] solutions lacked layout support.
 Given that [[SVG]] and [[HTML]] + [[CSS]] are alike, we can convert [[HTML]] and [[CSS]] to [[SVG]].
-We can calculate the elements' positions through a layout engine and convert them into [[SVG]] markups.
+We can calculate the elements' positions through a layout [[engine]] and convert them into [[SVG]] markups.
 
 This is already done by an open-source project [facebook/yoga](https://github.com/facebook/yoga).
 Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].

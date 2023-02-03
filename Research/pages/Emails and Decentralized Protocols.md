@@ -17,7 +17,7 @@ slug: '/B26538'
 
 - Deliverability may be troubled, but running your email server has never been easier. Struggling with `postfix` and `dovecot` configuration, semantics, and architecture isn't the only way to start using the email you control.
 - You don't have to `postfix` + `dovecot` in 2022.
-- An excellent recommendation from the original discussion on [[Hacker News|HN]] was to use [ImprovMX](https://improvmx.com) as an outgoing email server.
+- An excellent recommendation from the original discussion on [[Hacker News]] was to use [ImprovMX](https://improvmx.com) as an outgoing email server.
 
 ## Others
 

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/BA4019'
 ---
 
-The general process of a [[graphics]] engine follows:
+The general process of a [[graphics]] [[engine]] follows:
 
 - Initialize
   - Create a [[Graphic Window]]

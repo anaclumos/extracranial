@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/FCD1D6'
 ---
 
-The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker News|HN]] thread
+The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker News]] thread
 
 > ## [Ask HN: What E-Reader devices do you recommend?](https://news.ycombinator.com/item?id=33026953)
 >
