@@ -1075,6 +1075,9 @@ export const backlinks = {
         "2022-10-17": "### [[Letter to Mr. Alexander Obenauer on 2022-10-12]]",
         "Newsletter Network": "- Mentioned in [[Letter to Mr. Alexander Obenauer on 2022-10-12]]"
     },
+    "Negative Binomial": {
+        "2023-02-02": "- [[Negative Binomial]]"
+    },
     "Techs Actually Simple": {
         "Matt Rickard": "- [[Techs Actually Simple]]"
     },
@@ -1624,6 +1627,9 @@ export const backlinks = {
     },
     "Trie": {
         "Coding Tests": "- [[Trie]] [[TODO]]"
+    },
+    "Geometric Distribution": {
+        "2023-02-02": "- [[Geometric Distribution]]"
     },
     "Collaboration-based Tools for Thought": {
         "Deepnote": "- Data Science [[Collaboration-based Tools for Thought]].",
