@@ -370,9 +370,9 @@ article a[href*='https://www.notepad-plus-plus.org']::before
   -webkit-mask-image: url('https://simpleicons.org/icons/notepadplusplus.svg');
   mask-image: url('https://simpleicons.org/icons/notepadplusplus.svg');
 }
-article a[href*='https://notion.so']::before,
+article a[href*='notion.so']::before,
+article a[href*='notion.site']::before,
 article a[href*='https://www.notion.so']::before,
-article a[href*='https://notion.site']::before,
 article a[href*='https://www.notion.site']::before,
 article a[href*='https://super.so']::before,
 article a[href*='https://www.super.so']::before,
