@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/The Zenly Playbook.md",
+                "file": "pages/젠리의 성공 공식.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/The Zenly Playbook.md",
+                "file": "pages/젠리의 성공 공식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/The Zenly Playbook.md"
+                "file": "pages/젠리의 성공 공식.md"
               }
             }
           },
@@ -157,6 +157,6 @@
     "journals/2023-02-01.md",
     "journals/2023-02-02.md",
     "pages/글감.md",
-    "pages/젠리 전략집.md"
+    "pages/젠리의 성공 공식.md"
   ]
 }
