@@ -22,10 +22,10 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1137     33230     8249         0    24981          0
+Markdown                  1137     33235     8252         0    24983          0
 CSS                         68     20079      174        36    19869          0
 TypeScript                  53      8893      150        68     8675        143
-JSON                        42      2168        0         0     2168          0
+JSON                        42      2154        0         0     2154          0
 Python                       7       593       53        39      501         76
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -35,13 +35,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1331     91980     9107      5094    77779       1056
+Total                     1331     91971     9110      5094    77767       1056
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,612,166
+Estimated Cost to Develop (organic) $2,611,742
 Estimated Schedule Effort (organic) 19.81 months
-Estimated People Required (organic) 11.72
+Estimated People Required (organic) 11.71
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6277244 bytes, 6.277 megabytes (SI)
+Processed 6276818 bytes, 6.277 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

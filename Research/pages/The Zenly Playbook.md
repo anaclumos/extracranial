@@ -21,7 +21,11 @@ From the Stay Home challenge in 2020 and mass scale 3D map update in 2022, Zenly
 
 I do think this is Snap's mistake. Even my university peers do not use Snap anymore but still use Zenly. It almost feels like Facebook is killing Instagram for Facebook. I hope Zenly's revolutionary DNA gets well-integrated into Snap, seeking revival.
 
-<Admonition type="info" title="More Info" icon="💎">
+
+
+
+<details>
+<summary>More Info</summary>
 
 - [Alexis Bonillo - Zenly](https://www.youtube.com/watch?v=BCOF9V7bQUo)
 - [Zenly uses Docker 1.12 to scale analytics for over 500M data points per day](https://www.youtube.com/watch?v=AnHRHi2nJAE)
@@ -30,4 +34,4 @@ I do think this is Snap's mistake. Even my university peers do not use Snap anym
 - [B2Secrets with Antoine Martin, CEO at Zenly](https://www.youtube.com/watch?v=l5dFuyyOY7A)
 - [Symbiote (Company) Zenly Analysis](https://carpedm30.notion.site/Zenly-2011-Acq-by-Snap-213M-4a4deaf155144fd49ed076a1f60b31ad)
 
-</Admonition>
+</details>
