@@ -2495,7 +2495,8 @@ export const backlinks = {
     },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|\ud6a8\uc728\uc801 \uac00\uc18d\uc8fc\uc758]]",
-        "\ud0dc\ubc31\uc0b0\ub9e5 \uacc4\ud68d": "[[Effective Accelerationism|\ud6a8\uacfc\uc801 \uac00\uc18d\uc8fc\uc758]]\uc5d0 \uae30\ubc18\ud55c\ub2e4."
+        "\ud0dc\ubc31\uc0b0\ub9e5 \uacc4\ud68d": "[[Effective Accelerationism|\ud6a8\uacfc\uc801 \uac00\uc18d\uc8fc\uc758]]\uc5d0 \uae30\ubc18\ud55c\ub2e4.",
+        "\uae00\uac10": "- [[Effective Accelerationism]]"
     },
     "0002 Add Two Numbers": {
         "Coding Tests": "- [[0002 Add Two Numbers]]"
@@ -3989,7 +3990,8 @@ export const backlinks = {
     "Tools Must Vanish": {
         "2022-07-07": "- [[Tools Must Vanish]]",
         "2022-12-28": "- [[Tools Must Vanish]]",
-        "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter \u2014 essentially solving the [[Digital Addiction]]."
+        "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter \u2014 essentially solving the [[Digital Addiction]].",
+        "\uae00\uac10": "- [[Tools Must Vanish]]"
     },
     "Counting": {
         "2023-01-24": "- [[Counting]]"
