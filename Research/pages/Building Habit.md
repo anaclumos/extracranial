@@ -14,7 +14,7 @@ Habit formation is a powerful tool that can help us achieve our goals and improv
 
 ## Current
 
-- [[2023년 1월과 2월에 하루 25분 조깅하기]]
+- [[Jogging 25 minutes every day (January & February 2023)]]
 
 ## Past
 
