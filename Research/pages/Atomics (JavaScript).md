@@ -13,4 +13,4 @@ slug: '/D7EA90'
 - Linux를 본따 만듦.
 - See:
   - [Javascript - What's the actual use of the Atomics object in ECMAScript? - Stack Overflow](https://stackoverflow.com/questions/45870869/whats-the-actual-use-of-the-atomics-object-in-ecmascript)
-  - [Atomics - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics)
+  - [Atomics - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics)

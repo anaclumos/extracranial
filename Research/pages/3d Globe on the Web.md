@@ -6,11 +6,11 @@ slug: '/432EF8'
 ## Articles
 
 - [To design and develop an interactive globe](https://stripe.com/blog/globe)
-- [How we built the GitHub globe | The GitHub Blog](https://github.blog/2020-12-21-how-we-built-the-github-globe/)
+- [How we built the GitHub globe](https://github.blog/2020-12-21-how-we-built-the-github-globe/)
 
 ## Web Examples
 
-- [Low Earth Orbit Visualization | LeoLabs](https://platform.leolabs.space/visualization)
+- [Low Earth Orbit Visualization](https://platform.leolabs.space/visualization)
 
 ## Implementations
 

@@ -9,4 +9,4 @@ slug: '/696FEF'
 
 ## News
 
-- [Media | Blackmagic Design](https://www.blackmagicdesign.com/media/release/20221020-02)
+- [Media](https://www.blackmagicdesign.com/media/release/20221020-02)

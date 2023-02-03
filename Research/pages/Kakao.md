@@ -12,7 +12,7 @@ aliases: ['카카오', '카카오톡']
 
 하지만 카카오는 그때와 같은 자세로 사업에 임하고 있는가?
 
-### [카카오톡 서버 개발의 추억 | K리그 프로그래머](https://jeho.page/essay/2022/10/16/kakaotalk-server-development.html)
+### [카카오톡 서버 개발의 추억](https://jeho.page/essay/2022/10/16/kakaotalk-server-development.html)
 
 - 대용량 서비스를 경험해보지 않은 사람들에겐 이상한 일처럼 들릴겁니다. 카카오톡은 공지사항 같은 간단한 코드조차 쉽게 만들기 어려웠습니다. 이렇게 교과서의 첫 장에 나온대로 코딩하면 서버가 죽기 일쑤였습니다. 트래픽이 너무 많은 걸.
   ```java
