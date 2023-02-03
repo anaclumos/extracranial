@@ -940,6 +940,7 @@ export const filenames = {
     "The New Era of macOS Applications": "6A70B3",
     "The Photo Library of Babel": "A1CDA4",
     "The Problems of ChatGPT": "3F9499",
+    "The Zenly Playbook": "A33FA6",
     "Thesephist Work Case Study": "31A35D",
     "Things (3D)": "BE3F13",
     "Three Column Design": "7DCFEA",
@@ -1092,5 +1093,6 @@ export const filenames = {
     "\u96c5\u865f\ub97c \ucc3e\uc544\uc11c": "8A1CBA",
     "\uae00\uac10": "14F701",
     "\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758": "978939",
-    "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "9A01ED"
+    "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "9A01ED",
+    "\uc820\ub9ac \uc804\ub7b5\uc9d1": "6AA063"
 }
