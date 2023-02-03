@@ -92,7 +92,7 @@ export const backlinks = {
         "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d": "... \uc785\ub825 \ubd88\uac00. \ucd08\uc131\uc774 \uc5c6\ub294 \uacbd\uc6b0\uc5d0\ub3c4 \ubaa8\uc74c\uacfc \uc774\uc911\ubaa8\uc74c\uae4c\uc9c0\ub294 \uc870\ud569\uc774 \uac00\ub2a5\ud558\ub3c4\ub85d \ub9cc\ub4e4\uc5b4\uc57c\uaca0\ub2e4. \u2190 [[2023-01-15]] \ud574\uacb0"
     },
     "2022-07-24": {
-        "FIRE Engine": "... How Much Money Do Indie Hackers Products Make? | Scraping Fish ([[2022-07-24]])"
+        "FIRE Engine": "### How Much Money Do Indie Hackers Products Make? ([[2022-07-24]])"
     },
     "2022-09-13": {
         "Person 5DBDAE": "- Interviewed on [[2022-09-13]]",
@@ -1742,7 +1742,7 @@ export const backlinks = {
         "2023-01-29": "- [[README Badges]]"
     },
     "3d Globe on the Web": {
-        "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization | LeoLabs",
+        "2022-10-15": "- [[3d Globe on the Web]]: Low Earth Orbit Visualization",
         "Web Graphics": "- [[3d Globe on the Web]]"
     },
     "ACSM": {
@@ -3547,7 +3547,7 @@ export const backlinks = {
         "Mathematics under The Library of Babel": "- Killed by the [[OS]] for using too much RAM",
         "Rauno": "- Resembles an [[OS]] with a magnifying dock at the bottom.",
         "Virtual Address Space and Physical Address Space": "- if the memory is big enough, the [[OS]] uses the physical memory (RAM)",
-        "dub.sh": "... to visualize the time-series data for each link's clicks (incl. location, device/[[os]]) with airbnb/visx: \ud83d\udc2f visx | visualization components",
+        "dub.sh": "... to visualize the time-series data for each link's clicks (incl. location, device/[[os]]) with airbnb/visx: \ud83d\udc2f visx",
         "\ub77c\uc988\ubca0\ub9ac \ud30c\uc774\ub85c \uc2a4\ub9c8\ud2b8 \uc624\ub514\uc624 \uc2dc\uc2a4\ud15c \ub9cc\ub4e4\uae30": "... \uc218 \uc788\ub2e4. \uc88c\uce21 \uc0c1\ub2e8\uc5d0 \uc788\ub294 Add Device \ubc84\ud2bc\uc744 \ub204\ub974\uba74 \ub2e4\uc74c\uacfc \uac19\uc774 [[OS]]\ub97c \ub2e4\uc6b4\ub85c\ub4dc\ud560 \uc218 \uc788\ub294 \ucc3d\uc774 \ub098\ud0c0\ub09c\ub2e4."
     },
     "Musk and Twitter": {
