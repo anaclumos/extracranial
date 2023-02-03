@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/A01F3A'
 ---
 
 $$

@@ -21,6 +21,10 @@ slug: '/A18D7B'
 
 ![[B2A2B6.png]]
 
+## [Alistair Smith](https://alistair.sh/)
+
+![[74CA20.png]]
+
 ## [Marco Cornacchia—Product Designer in SF](https://www.marco.fyi/)
 
 ![[339CE9.png]]
