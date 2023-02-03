@@ -555,6 +555,7 @@ export const filenames = {
     "Handling files in Unix": "CD4F4A",
     "Handwriting Grammarly": "76862F",
     "Handwriting Tools for Thoughts": "9CFFE3",
+    "Harry Stebbings Challenge": "18728A",
     "Haruki Murakami": "95B3B1",
     "Hashflags": "4DF0BA",
     "Headers Include Order": "802B9D",
