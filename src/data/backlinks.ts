@@ -1265,7 +1265,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
     },
     "Front-end": {
-        "Cloudflare Pages": "- Cloudflare Edge [[Front-end]]",
+        "Cloudflare Pages": "- Cloudflare Edge Front-endge [[Front-end]]",
         "Ghost \ud14c\ub9c8\ub97c \uc790\ub3d9 \ubc30\ud3ec\ud558\ub294 \ubc29\ubc95": "... \uc0ac\uc6a9\ud55c\ub2e4. Ghost CMS\ub294 \ud5e4\ub4dc\ub9ac\uc2a4\ud558\ub2e4. \ub9d0 \uadf8\ub300\ub85c \uba38\ub9ac\uac00 \uc5c6\ub2e4\ub294 \ub73b\uc73c\ub85c, \ubc31\uc5d4\ub4dc\ub294 \uc874\uc7ac\ud558\uc9c0\ub9cc [[Front-end|\ud504\ub860\ud2b8\uc5d4\ub4dc]] (\ud5e4\ub4dc)\ub294 \ub0b4\uac00 \uc6d0\ud558\ub294 \ub300\ub85c \uc81c\uc791\ud560 \uc218 \uc788\ub2e4\ub294 \uac83\uc774\ub2e4. \ud558\uc9c0\ub9cc Ghost 2\uae4c\uc9c0\ub294 ...",
         "HTMX": "- A [[Front-end]]",
         "Old Fashioned Camera": "- \ubc31\uc5d4\ub4dc\uc640 [[Front-end|\ud504\ub860\ud2b8]]\uac00 \ubaa8\ub450 \ud544\uc694 \uc5c6\uae30\uc5d0 [[FIRE Engine]]\uc744 \uc2e4\ud589\ud558\uae30\uc5d0 \uc801\ud569\ud574\ubcf4\uc784",
@@ -2470,7 +2470,7 @@ export const backlinks = {
     "Edge": {
         "2022-10-24": "- [[Edge]]",
         "2023-01-13": "- [[Edge]]",
-        "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-end]]",
+        "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-endge]] [[Front-end]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... once mentioned that most tech services could be abstracted to an [[edge]]-served Front-end and back-end as edge-replicated simple data storage. I was also ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... also as App Economy vs. Web Economy, Closed vs. (fairly) Open, [[Edge]]-first AI vs. Cloud-first AI, etc.",
         "Satori": "... This approach is 5x faster than existing solutions by using Vercel [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] ...",
@@ -3416,7 +3416,7 @@ export const backlinks = {
         "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded that [[Vercel]] is better.",
         "Aldehyde Outage (January 2023)": "Investigating RAM Options. Supported a ticket to [[Cloudflare]]",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
-        "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-end]]",
+        "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-endge]] [[Front-end]]",
         "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions",
         "Redirect": "## Redirect in [[Cloudflare]]"
     },
@@ -4197,7 +4197,7 @@ export const backlinks = {
         "Ghost \ud14c\ub9c8\ub97c \uc790\ub3d9 \ubc30\ud3ec\ud558\ub294 \ubc29\ubc95": "... \ub2e4\ud589\ud788\ub3c4 Ghost 2.25.5\ubd80\ud130 GitHub Actions\ub97c \uc774\uc6a9\ud574 \ub2e4\uc74c\uacfc \uac19\uc774 Ghost \ud14c\ub9c8 \uac1c\ubc1c\uc744 [[Automation|\uc790\ub3d9\ud654]]\ud560 \uc218 \uc788\uac8c \ub418\uc5c8\ub2e4.",
         "GitHub Actions": "... continuous integration and continuous delivery (CI/CD) platform that allows you to [[Automation|automate]] your build, test, and deployment pipeline. You can create workflows that ...",
         "Scheduler": "... management system (DRMS), distributed resource manager (DRM), and, commonly today, workload [[automation]] (WLA). The data structure of jobs to run is known as ...",
-        "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "- \ub124\uc774\ubc84\ub294 \ub274\uc2a4 [[Automation|\uc790\ub3d9\ud654]] \uc2dc\uc2a4\ud15c\uc744 \ub9cc\ub4e4\uc9c0 \ubabb\ud574 \uc628\uac16 \uc5b8\ub860\uc0ac\ub97c \ub9e4\uc77c \uc544\uce68 \ucc3e\uc544\uac00\uba70 \ub274\uc2a4\ub97c \ubc1b\uc544\uc654\ub2e4."
+        "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "- \ub124\uc774\ubc84\ub294 \ub274\uc2a4 [[Automation|\uc790\ub3d9\ud654]] \uc2dc\uc2a4\ud15c\uc744 \ub9cc\ub4e4\uc9c0 \ubabb\ud574 \uc628\uac16 \uc5b8\ub860\uc0ac\ub97c \ub9e4\uc77c \uc544\uce68 \ucc3e\uc544\uac00\uba70 \ub274\uc2a4\ub97c \ubc30\ud3ec\ud560 \uad8c\ud55c\uc744 ..."
     },
     "Plausible Analytics": {
         "Google Analytics": "- Alternative: Simple Analytics, [[Plausible Analytics]]"
@@ -4471,6 +4471,9 @@ export const backlinks = {
     },
     "CEE458.png": {
         "Texts": "![[CEE458.png]]"
+    },
+    "Front-endge": {
+        "Cloudflare Pages": "- Cloudflare Edge [[Front-endge]] [[Front-end]]"
     },
     "A3BB1E.png": {
         "Framer": "![[A3BB1E.png]]"
