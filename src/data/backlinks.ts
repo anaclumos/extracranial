@@ -23,7 +23,7 @@ export const backlinks = {
         "0015 3Sum": "Solved at: [[2023-01-30]]",
         "0542 01 Matrix": "Solved at: [[2023-01-30]]",
         "0973 K Closest Points to Origin": "Solved at: [[2023-01-30]]",
-        "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "- [[2023-01-30]]: 2\ucc28 \uba74\uc811 \uc900\ube44\ud558\ub290\ub77c \ud558\uc9c0 \ubabb\ud588\ub2e4"
+        "Jogging 25 minutes every day (January & February 2023)": "- [[2023-01-30]]: 2\ucc28 \uba74\uc811 \uc900\ube44\ud558\ub290\ub77c \ud558\uc9c0 \ubabb\ud588\ub2e4"
     },
     "2022-11-28": {
         "0232 Implement Queue using Stacks": "Solved at: [[2022-11-28]]"
@@ -112,7 +112,7 @@ export const backlinks = {
         "\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355": "- [[2020-02-12]]"
     },
     "2023-01-31": {
-        "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "- [[2023-01-31]]: 2\ucc28 \uba74\uc811 \ubd24\ub2e4"
+        "Jogging 25 minutes every day (January & February 2023)": "- [[2023-01-31]]: 2\ucc28 \uba74\uc811 \ubd24\ub2e4"
     },
     "2022-11-29": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "## Response on [[2022-11-29]]"
@@ -262,7 +262,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
     },
     "2023-01-26": {
-        "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "- [[2023-01-26]]: \uba74\uc811 \uc900\ube44\ud558\ub290\ub77c \ud558\uc9c0 \ubabb\ud588\ub2e4. \ud558\uc9c0\ub9cc 30\ubd84 \uc0b0\ucc45\ud588\ub2e4."
+        "Jogging 25 minutes every day (January & February 2023)": "- [[2023-01-26]]: \uba74\uc811 \uc900\ube44\ud558\ub290\ub77c \ud558\uc9c0 \ubabb\ud588\ub2e4. \ud558\uc9c0\ub9cc 30\ubd84 \uc0b0\ucc45\ud588\ub2e4."
     },
     "2022-12-24": {
         "In-house and Free Market": "- [[2022-12-24]]: Can independent scientists ever win again?"
@@ -288,7 +288,7 @@ export const backlinks = {
         "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d": "## [[2023-01-02]]"
     },
     "2023-01-22": {
-        "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "- [[2023-01-22]]: \ubc1c\uc5d0 \ubb3c\uc9d1\uc774 \uc7a1\ud600 \ud558\uc9c0 \ubabb\ud588\ub2e4. \ud558\uc9c0\ub9cc 30\ubd84 \uc0b0\ucc45\ud588\ub2e4.",
+        "Jogging 25 minutes every day (January & February 2023)": "- [[2023-01-22]]: \ubc1c\uc5d0 \ubb3c\uc9d1\uc774 \uc7a1\ud600 \ud558\uc9c0 \ubabb\ud588\ub2e4. \ud558\uc9c0\ub9cc 30\ubd84 \uc0b0\ucc45\ud588\ub2e4.",
         "\ud558\ub298\ub545\uc0ac\ub78c \uc5c5\ub370\uc774\ud2b8 \uae30\ub85d": "## 1.0.6 [[2023-01-22]]"
     },
     "2022-12-20": {
@@ -331,7 +331,7 @@ export const backlinks = {
         "\ud55c\ubbfc\uc871\uc740 \ud574\uc801\ub418\uc5c8\ub2e4": "[[2023-01-13]]\uc5d0 \uafbc \uafc8\uc5d0\uc11c \uac15\ub825\ud55c \uba54\uc2dc\uc9c0\ub97c \ubc1b\uc558\ub2e4."
     },
     "2023-01-27": {
-        "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "- [[2023-01-27]]: \uba74\uc811 \ubcf4\uace0 \ubc88\uc544\uc6c3,,"
+        "Jogging 25 minutes every day (January & February 2023)": "- [[2023-01-27]]: \uba74\uc811 \ubcf4\uace0 \ubc88\uc544\uc6c3,,"
     },
     "2020-04-01": {
         "\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355": "- [[2020-04-01]]"
@@ -1501,6 +1501,32 @@ export const backlinks = {
         "Magician": "- Magician is a [[Figma]] plugin that lets you design with the power of AI to ...",
         "Social Coding": "... effects are rare, but when they work, they grow huge (e.g., [[Figma]], Slack)"
     },
+    "Jogging 25 minutes every day (January & February 2023)": {
+        "2023-01-10": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-11": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-12": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]: 45\ubd84 \ud588\ub2e4.",
+        "2023-01-13": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-14": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]: 45\ubd84 \ud588\ub2e4.",
+        "2023-01-15": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]: 45\ubd84 \ud588\ub2e4.",
+        "2023-01-16": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]: 1\uc2dc\uac04 \ud588\ub2e4.",
+        "2023-01-17": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]: 1\uc2dc\uac04 \ud588\ub2e4.",
+        "2023-01-18": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-19": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-20": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-21": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-22": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-23": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-24": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-25": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-26": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-27": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-28": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-29": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-01-30": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-01": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-02": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "Building Habit": "- [[Jogging 25 minutes every day (January & February 2023)]]"
+    },
     "Reverse Engineering Apple Music API": {
         "2022-10-28": "- [[Reverse Engineering Apple Music API]]",
         "Dynamic Island on the Web": "- [[Reverse Engineering Apple Music API]]"
@@ -1890,7 +1916,6 @@ export const backlinks = {
         "2023-01-22": "## [[Project]]",
         "2023-01-25": "## [[Project]]",
         "2023-01-31": "## [[Project]]",
-        "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]",
         "AIs.txt": "- [[Project]]",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter Network]] but you must",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -1917,6 +1942,7 @@ export const backlinks = {
         "Guestbook": "- Someday [[Project]]",
         "Intracranial": "Someday [[Project]]. Infinite Canvas for Zettlekasten.",
         "Jira": "... issue-tracking product developed by Atlassian that allows bug tracking and agile [[project]] management. Jira (software)>)",
+        "Jogging 25 minutes every day (January & February 2023)": "\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294 [[Project|\ud504\ub85c\uc81d\ud2b8]]",
         "Krafton Way": "... \ub2a5\ub825\uc744 \uac80\uc99d\ud574\uc57c \ud55c\ub2e4\"\uace0 \ub9d0\ud588\ub2e4. \uacbd\uc601\uc9c4\uc740 \uae40\ucc3d\ud55c\uc5d0\uac8c \uc11c\ub85c\uc758 \uc5ed\ud560\uacfc \ucc45\uc784\uc744 \uac15\uc870\ud588\ub2e4. \uacbd\uc601\uc9c4\uc740 [[Project|\ud504\ub85c\uc81d\ud2b8]]\uc640 \ud300, \uc8fc\uc694 \uac1c\ubc1c\uc790\ub97c \ud3c9\uac00\ud558\uace0 \ubcf4\uc0c1 \uc218\uc900\uc744 \uacb0\uc815\ud55c\ub2e4. Project|\ud504\ub85c\uc81d\ud2b8\uc758 \ucc45\uc784\uc790\uc778 PD\ub294 \uac70\uae30\uc5d0 ...",
         "Kubernetes": "... designed Kubernetes, but the Cloud Native Computing Foundation now maintains the [[project]].",
         "Markdown Email Client": "Someday [[Project]]. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. ...",
@@ -2448,8 +2474,8 @@ export const backlinks = {
         "2022-06-12": "- [[\u6c34\u9069\u7a7f\u77f3]]",
         "2022-10-31": "- [[\u6c34\u9069\u7a7f\u77f3]]",
         "2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30": "- [[\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294]] [[Project|\ud504\ub85c\uc81d\ud2b8]]",
-        "2023\ub144 1\uc6d4\uacfc 2\uc6d4\uc5d0 \ud558\ub8e8 25\ubd84 \uc870\uae45\ud558\uae30": "[[\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294]] [[Project|\ud504\ub85c\uc81d\ud2b8]]",
-        "Cosmic noises of life": "- [[\u6c34\u9069\u7a7f\u77f3|Persistence]] is the key"
+        "Cosmic noises of life": "- [[\u6c34\u9069\u7a7f\u77f3|Persistence]] is the key",
+        "Jogging 25 minutes every day (January & February 2023)": "[[\u6c34\u9069\u7a7f\u77f3|\ubb3c\ubc29\uc6b8\ub85c \ubc14\uc704 \ub6ab\ub294]] [[Project|\ud504\ub85c\uc81d\ud2b8]]"
     },
     "Person 1B5A5B": {
         "Project PEOPLE": "- [[Person 1B5A5B]]"
