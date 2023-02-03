@@ -2054,6 +2054,9 @@ export const backlinks = {
         "Computer Systems": "- [[Propagation Delay]]",
         "Sources of Packet Delay": "- [[Propagation Delay]]"
     },
+    "The Zenly Playbook": {
+        "2023-02-03": "- [[The Zenly Playbook]]"
+    },
     "0704 Binary Search": {
         "2022-09-05": "- [[0704 Binary Search]]",
         "Coding Tests": "- [x] [[0704 Binary Search]]"
@@ -3136,6 +3139,9 @@ export const backlinks = {
         "SMTP": "- [[Port]] 25",
         "Socket": "- needs to be bound to a [[Port]]"
     },
+    "\uc820\ub9ac \uc804\ub7b5\uc9d1": {
+        "2023-02-03": "- [[\uc820\ub9ac \uc804\ub7b5\uc9d1]]"
+    },
     "Heptabase": {
         "Alan Chan": "- CEO of [[Heptabase]]",
         "Letter to the Heptabase Team on 2022-10-11": "> On [[Heptabase]] and its Developer Ecosystem",
@@ -3735,7 +3741,9 @@ export const backlinks = {
         "10x": "- [[Small yet Powerful]]",
         "10x Technologist": "... developers are a term that describes an exceptionally skilled and productive, [[small yet powerful]] group of software developers. It is a colloquial term used to ...",
         "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the ...",
-        "2022-10-27": "- [[Small yet Powerful]]"
+        "2022-10-27": "- [[Small yet Powerful]]",
+        "The Zenly Playbook": "... app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?",
+        "\uc820\ub9ac \uc804\ub7b5\uc9d1": "... \uc820\ub9ac\uac00 \ubb38\uc744 \ub2eb\uc558\ub2e4. \ud504\ub791\uc2a4\uc758 \ud55c \uac1c\ubc1c\uc790\ub85c\ubd80\ud130 \uc2dc\uc791\ud574 3\ucc9c\uc5b5\uc5d0 \uc2a4\ub0c5\uc5d0 \uc778\uc218\ub41c \uae30\uc220 [[Small yet Powerful|\uac15\uc18c]] \uae30\uc5c5\uc740 \uc5b4\ub5bb\uac8c \uc131\uc7a5\ud558\uace0 \uc5b4\ub5bb\uac8c \uc0ac\ub77c\uc84c\uc744\uae4c. \uadf8\ub9ac\uace0 \uc6b0\ub9ac\ub294 \ubb34\uc5c7\uc744 \ubc30\uc6b8 \uc218 \uc788\uc744\uae4c?"
     },
     "Vertex Buffer": {
         "2023-01-23": "- [[Vertex Buffer]]"
@@ -4299,7 +4307,8 @@ export const backlinks = {
     "10x": {
         "2022-06-06": "- Early in your career, you can learn [[10x]] more in a supportive team in 1 year than coding on ...",
         "2022-12-09": "- [[10x]]",
-        "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying attention already knows this \u2014 Nat ..."
+        "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying attention already knows this \u2014 Nat ...",
+        "The Zenly Playbook": "... had not only exceptional engineers but also outstanding designers and operators. [[10x]] people don't join a startup upfront, so Zenly made them involved ..."
     },
     "FIRE": {
         "10x Technopreneurs": "... example, Obsidian is created by 2 10x Technopreneurs. They can attain [[FIRE]]",
