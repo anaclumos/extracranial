@@ -7,7 +7,7 @@ Jumpsite Service, or Web Linking Network Service, is a collective term for a [[S
 
 - [[Interface (Jumpsite)]]
 
-## [Same Energy | Visual Search Engine](https://same.energy/)
+## [Same Energy](https://same.energy/)
 
 ![[288AE0.png]]
 

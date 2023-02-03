@@ -1,12 +1,12 @@
 ---
-date: '{{date:YYYY-MM-DD}}'
+date: '{{title}}'
 lang: 'en'
-slug: '/{{date:YYYY-MM-DD}}'
+slug: '/{{title}}'
 ---
 
 ## Research
 
-## [[Hacker News|HN]]
+## [[Hacker News]]
 
 ## [[Project]]
 
