@@ -1221,7 +1221,7 @@ export const backlinks = {
         "Finding out Ghost version with JS": "... make the Node.js include the value before responding to the client [[Web Browser|browser]], but I figured that there was a much simpler way after ...",
         "HTML": "... standard markup language for documents designed to be displayed in a [[web browser]]. It can be assisted by technologies such as Cascading Style Sheets ...",
         "How is WebAssembly cross-platform when Assembly is not": "  - it runs on [[Web Browser|browsers]]",
-        "JavaScript": "... client side for webpage behavior, often incorporating third-party libraries. All major [[Web Browser|web browsers]] have a dedicated JavaScript engine to execute the code on users' ...",
+        "JavaScript": "... client side for webpage behavior, often incorporating third-party libraries. All major [[Web Browser|web browsers]] have a dedicated JavaScript [[engine]] to execute the code on users' ...",
         "Next.js": "... traditional React apps can only render their content in the client-side [[Web Browser|browser]], Next.js extends this functionality to include applications rendered on the server ...",
         "Pensieve": "- Targeted as the intermediary bridge between [[web browser]] data stream (ephemeral) and long-term [[PKM]] data storage.",
         "Porting a Chrome Extension to Firefox Add-on": "While Chrome and Firefox are two very different [[Web Browser|browsers]], Chrome Extension and Firefox Add-on are now more similar than ever. ...",
@@ -1395,6 +1395,23 @@ export const backlinks = {
         "2022-12-24": "- [[Readings]]",
         "2023-01-03": "## [[Readings]]",
         "2023-01-23": "- [[Readings]]"
+    },
+    "Engine": {
+        "2023-02-03": "- [[Engine]]",
+        "Chromium": "- \"The integration with the CSS [[engine]] leads to some extraordinary use cases. You can put inputs and ...",
+        "Conditional Compilation": "In Graphics, Conditional Compilation can be used for multi-platform [[engine]]",
+        "Docker": "... premium tiers. The software that hosts the containers is called Docker [[Engine]]. It was first started in 2013 and was developed by Docker, ...",
+        "Finding out Ghost version with JS": "... update it every time manually. At first, I investigated the Ghost [[engine]] side to make the Node.js include the value before responding to ...",
+        "Google": "... LLC is an American multinational technology company that focuses on search [[engine]] technology, online advertising, cloud computing, computer software, quantum computing, e-commerce, artificial ...",
+        "Graphics Engine Process": "The general process of a graphics [[engine]] follows:",
+        "JavaScript": "... third-party libraries. All major Web Browser|web browsers have a dedicated JavaScript [[engine]] to execute the code on users' devices. JavaScript",
+        "Letter to Mr. Matt Rickard on 2022-10-03": "Naver services as the omnipotent search [[engine]] for Korea (bigger market cap than Google Korea) and [[Kakao]] services ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... App Review. Firefox has this talent, as seen in the Gecko [[engine]].",
+        "Naver": "... portal in South Korea to develop and use its own search [[engine]]. It was also the world's first operator to introduce the comprehensive ...",
+        "Proposal of Research to Professor Cote": "... performs a heavy computation, it can cause the Web Browser|browser's JavaScript [[engine]] to become unresponsive. As a result, the entire web page will ...",
+        "Satori": "### [[Engine]]",
+        "Stories Behind Satori": "We can calculate the elements' positions through a layout [[engine]] and convert them into [[SVG]] markups.",
+        "\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355": "  - Stage Mix [[Engine]]"
     },
     "Optimistic Nihilism": {
         "2022-08-04": "### [[Optimistic Nihilism]]",
@@ -2891,11 +2908,11 @@ export const backlinks = {
     "Graphics": {
         "CDN": "... large portion of the Internet content today, including web objects (text, [[graphics]], and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), ...",
         "Compiling": "In [[Graphics]], Compiling generates object codes, except it does not have addresses.",
-        "Conditional Compilation": "In [[Graphics]], Conditional Compilation can be used for multi-platform engine",
+        "Conditional Compilation": "In [[Graphics]], Conditional Compilation can be used for multi-platform [[engine]]",
         "Figma": "... experience design, emphasizing real-time collaboration and utilizing a variety of vector [[graphics]] editors and prototyping tools. The Figma mobile app for [[Android]] and ...",
         "Forward Declaration": "- In [[Graphics]]",
         "Graphic Renderer": "... to be processed and output to a digital image or raster [[graphics]] image file. The term \"rendering\" is analogous to the concept of ...",
-        "Graphics Engine Process": "The general process of a [[graphics]] engine follows:",
+        "Graphics Engine Process": "The general process of a [[graphics]] [[engine]] follows:",
         "PDF": "... description of a fixed-layout flat document, including the text, fonts, vector [[graphics]], raster images and other information needed to display it. PDF has ...",
         "PNG": "> Portable Network Graphics is a raster-[[graphics]] file format that supports lossless data compression. PNG was developed as ...",
         "Preprocessor": "In [[Graphics]], preprocessors are the directives to tell the compiler before turning them ...",
@@ -3560,6 +3577,10 @@ export const backlinks = {
     "Programmable Web": {
         "2022-08-01": "- [[Programmable Web]]",
         "Matt Rickard": "- [[Programmable Web]]"
+    },
+    "Neural Engine": {
+        "CalliFontia": "- Apple [[Neural Engine]] \uc801\uadf9 \ud65c\uc6a9, \uae30\uae30 \uc790\uccb4\uc5d0\uc11c \ud3f0\ud2b8 \ucd94\ub860\ud558\uae30",
+        "Engine": "- [[Neural Engine]]"
     },
     "designOS": {
         "Diagram (Company)": "- Creator of [[designOS]]"
