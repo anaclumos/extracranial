@@ -770,6 +770,7 @@ export const filenames = {
     "Playing Sounds in SDL": "4DC268",
     "Point-E": "81D3BC",
     "Poisson Approximation": "3FBE18",
+    "Poisson Law": "A01F3A",
     "Port": "A3314A",
     "Porting a Chrome Extension to Firefox Add-on": "440E43",
     "Post Git": "69A8D6",

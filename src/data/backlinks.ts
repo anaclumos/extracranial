@@ -863,7 +863,8 @@ export const backlinks = {
         "YCLF \uc8fc\uac04 \uc0ac\uc6a9\uc790 1000\uba85": "[[Google Analytics]] Referrals \ucd94\uc801 \uae30\ub2a5\uc744 \ud1b5\ud574 \uc5b4\ub290 \ub9c1\ud06c\ub97c \ud0c0\uace0 \ub4e4\uc5b4\uc624\ub294\uc9c0 \ud30c\uc545\uc774 \uac00\ub2a5\ud588\ub2e4. \ub313\uae00\ub85c ..."
     },
     "Aldehyde Landing Page 2023": {
-        "2023-01-31": "- [[Aldehyde Landing Page 2023]]"
+        "2023-01-31": "- [[Aldehyde Landing Page 2023]]",
+        "2023-02-02": "- [[Aldehyde Landing Page 2023]]"
     },
     "Displaying exact datetimes on Ghost": {
         "2022-11-19": "  - [[Displaying exact datetimes on Ghost]]"
@@ -1268,7 +1269,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
     },
     "Front-end": {
-        "Cloudflare Pages": "- Cloudflare Edge Front-endge [[Front-end]]",
+        "Cloudflare Pages": "- Cloudflare Edge [[Front-end]] Front-end",
         "Ghost \ud14c\ub9c8\ub97c \uc790\ub3d9 \ubc30\ud3ec\ud558\ub294 \ubc29\ubc95": "... \uc0ac\uc6a9\ud55c\ub2e4. Ghost CMS\ub294 \ud5e4\ub4dc\ub9ac\uc2a4\ud558\ub2e4. \ub9d0 \uadf8\ub300\ub85c \uba38\ub9ac\uac00 \uc5c6\ub2e4\ub294 \ub73b\uc73c\ub85c, \ubc31\uc5d4\ub4dc\ub294 \uc874\uc7ac\ud558\uc9c0\ub9cc [[Front-end|\ud504\ub860\ud2b8\uc5d4\ub4dc]] (\ud5e4\ub4dc)\ub294 \ub0b4\uac00 \uc6d0\ud558\ub294 \ub300\ub85c \uc81c\uc791\ud560 \uc218 \uc788\ub2e4\ub294 \uac83\uc774\ub2e4. \ud558\uc9c0\ub9cc Ghost 2\uae4c\uc9c0\ub294 ...",
         "HTMX": "- A [[Front-end]]",
         "Old Fashioned Camera": "- \ubc31\uc5d4\ub4dc\uc640 [[Front-end|\ud504\ub860\ud2b8]]\uac00 \ubaa8\ub450 \ud544\uc694 \uc5c6\uae30\uc5d0 [[FIRE Engine]]\uc744 \uc2e4\ud589\ud558\uae30\uc5d0 \uc801\ud569\ud574\ubcf4\uc784",
@@ -2493,7 +2494,7 @@ export const backlinks = {
     "Edge": {
         "2022-10-24": "- [[Edge]]",
         "2023-01-13": "- [[Edge]]",
-        "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-endge]] [[Front-end]]",
+        "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-end]] [[Front-end]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... once mentioned that most tech services could be abstracted to an [[edge]]-served Front-end and back-end as edge-replicated simple data storage. I was also ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... also as App Economy vs. Web Economy, Closed vs. (fairly) Open, [[Edge]]-first AI vs. Cloud-first AI, etc.",
         "Satori": "... This approach is 5x faster than existing solutions by using Vercel [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] ...",
@@ -3322,6 +3323,7 @@ export const backlinks = {
         "2022-12-18": "- [[Apple-like Block Interface]]",
         "2022-12-27": "- [[Apple-like Block Interface]]",
         "2023-02-01": "- [[Apple-like Block Interface]]",
+        "2023-02-02": "- [[Apple-like Block Interface]]",
         "Aldehyde Landing Page 2023": "- [[Apple-like Block Interface]]"
     },
     "Toss Product Sans": {
@@ -3439,7 +3441,7 @@ export const backlinks = {
         "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded that [[Vercel]] is better.",
         "Aldehyde Outage (January 2023)": "Investigating RAM Options. Supported a ticket to [[Cloudflare]]",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
-        "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-endge]] [[Front-end]]",
+        "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-end]] [[Front-end]]",
         "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions",
         "Redirect": "## Redirect in [[Cloudflare]]"
     },
@@ -3611,6 +3613,9 @@ export const backlinks = {
         "2022-11-04": "- [[Cache Evictions]]",
         "Caching": "- [[Cache Evictions]]",
         "Page Faults": "- Similarly, we have LRU, FIFO, Random approach like [[Cache Evictions]]"
+    },
+    "Poisson Law": {
+        "2023-02-02": "- [[Poisson Law]]"
     },
     "Emojis": {
         "Satori": "- Font and [[Emojis]] Subsets from Google Fonts and other CDNs",
@@ -4502,9 +4507,6 @@ export const backlinks = {
     "CEE458.png": {
         "Texts": "![[CEE458.png]]"
     },
-    "Front-endge": {
-        "Cloudflare Pages": "- Cloudflare Edge [[Front-endge]] [[Front-end]]"
-    },
     "A3BB1E.png": {
         "Framer": "![[A3BB1E.png]]"
     },
@@ -4602,6 +4604,10 @@ export const backlinks = {
     },
     "9CCA89.png": {
         "Search Engine Indexing Your Life": "![[9CCA89.png]]"
+    },
+    "74CA20.png": {
+        "Aldehyde Landing Page 2023": "![[74CA20.png]]",
+        "Apple-like Block Interface": "![[74CA20.png]]"
     },
     "E9C139.png": {
         "Aldehyde Landing Page 2023": "![[E9C139.png]]",
