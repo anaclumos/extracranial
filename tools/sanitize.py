@@ -47,6 +47,7 @@ if __name__ == "__main__":
                     " - Tyler Cipriani": "",
                     " - Code Faster with Kite": "",
                     " | the art of technology": "",
+                    " | Cloudflare": "",
                 }
 
                 for rule in REPLACE_RULES:
