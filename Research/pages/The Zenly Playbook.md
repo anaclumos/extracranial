@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/A33FA6'
 ---
 
 Zenly, a popular Gen-Z location-sharing social app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?
@@ -20,7 +20,6 @@ Lastly, talents. Zenly had not only exceptional engineers but also outstanding d
 From the Stay Home challenge in 2020 and mass scale 3D map update in 2022, Zenly prepared for its upcoming future, but the recent layoff at Snap wiped out the Zenly team alongside the Snap Mini App team.
 
 I do think this is Snap's mistake. Even my university peers do not use Snap anymore but still use Zenly. It almost feels like Facebook is killing Instagram for Facebook. I hope Zenly's revolutionary DNA gets well-integrated into Snap, seeking revival.
-
 
 <Admonition type="info" title="추가 정보" icon="💎">
 
