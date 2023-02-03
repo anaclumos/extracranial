@@ -14,7 +14,7 @@ Although YouTube Music has gobbled up the market cap quite significantly, most p
 That being said, Spotify and [[Apple]] Music have a market penetration of next to nothing.
 
 There are two behemoths in Korea, Naver, and [[Kakao]].
-Naver services as the omnipotent search engine for Korea (bigger market cap than Google Korea) and [[Kakao]] services as an almighty chatting app (more than 95% of Koreans use it).
+Naver services as the omnipotent search [[engine]] for Korea (bigger market cap than Google Korea) and [[Kakao]] services as an almighty chatting app (more than 95% of Koreans use it).
 They always fight each other for market superiority.
 
 [[Kakao]] currently operates the #1 music streaming service, Melon.
