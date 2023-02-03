@@ -9,13 +9,18 @@ slug: '/40982F'
 
 ## Drafting
 
-## Discrete Distributions
+Unconditional - Total Prob
+Conditional - Bayes' Theorem
+
+$P(E) = P(E|H)P(H) + P(E|H^C) P(H^C)$
+
+### Discrete Distributions
 
 $$
 f(x) = P(X=x)
 $$
 
-## Uniform Distributions (Discrete)
+### Uniform Distributions (Discrete)
 
 $$
 \Omega = \{a_1, ~ \cdots ~ a_n\}
