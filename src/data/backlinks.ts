@@ -459,7 +459,7 @@ export const backlinks = {
     },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
-        "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "- Eng: [[Service Shimming]]"
+        "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "[[Service Shimming]]"
     },
     "Aldehyde": {
         "2022-11-03": "- [[Aldehyde]]",
@@ -2055,7 +2055,8 @@ export const backlinks = {
         "Sources of Packet Delay": "- [[Propagation Delay]]"
     },
     "The Zenly Playbook": {
-        "2023-02-03": "- [[The Zenly Playbook]]"
+        "2023-02-03": "- [[The Zenly Playbook]]",
+        "\uc820\ub9ac \uc804\ub7b5\uc9d1": "[[The Zenly Playbook]]"
     },
     "0704 Binary Search": {
         "2022-09-05": "- [[0704 Binary Search]]",
