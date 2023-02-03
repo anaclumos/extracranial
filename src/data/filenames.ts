@@ -696,6 +696,7 @@ export const filenames = {
     "Nation as a Service": "A95793",
     "Naver": "E01F8B",
     "Negative Binomial": "51577A",
+    "Negative Binomial Series": "70ED90",
     "Neo Korea": "DF4E38",
     "Neural Engine": "26FA6B",
     "New York City": "2D85E7",
