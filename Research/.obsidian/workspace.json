@@ -26,41 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-02.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c24c2ba8c1a8dd5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-02.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "299f0c8a93727f22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Negative Binomial Series.md",
-                "mode": "source",
+                "file": "pages/Poisson Approximation.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bb",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Negative Binomial Series.md",
+                "file": "pages/Poisson Approximation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Negative Binomial Series.md"
+                "file": "pages/Poisson Approximation.md"
               }
             }
           },
@@ -185,17 +159,17 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "299f0c8a93727f22",
+  "active": "4fcb2fc5dcc8dd8d",
   "lastOpenFiles": [
-    "pages/Untitled.md",
-    "pages/Negative Binomial Series.md",
     "journals/2023-02-02.md",
+    "pages/Cloudflare Pages.md",
+    "pages/Negative Binomial Series.md",
+    "pages/Untitled.md",
     "pages/Negative Binomial.md",
     "pages/Geometric Distribution.md",
     "pages/Search Engine Indexing Your Life.md",
     "journals/2023-02-03.md",
     "pages/Engine.md",
-    "pages/Neural Engine.md",
-    "pages/Inspiring Open Source Projects.md"
+    "pages/Neural Engine.md"
   ]
 }

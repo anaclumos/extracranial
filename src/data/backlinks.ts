@@ -3526,6 +3526,9 @@ export const backlinks = {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Newsletter Network]]",
         "Reimagining Emails": "- [[Newsletter Network]]"
     },
+    "Negative Binomial Series": {
+        "2023-02-02": "- [[Negative Binomial Series]]"
+    },
     "Antipilot": {
         "2022-11-23": "- [[Antipilot]]"
     },
