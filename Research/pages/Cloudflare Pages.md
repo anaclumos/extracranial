@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/52985A'
 ---
 
-- [[Cloudflare]] [[Edge]] [[Front-endge]] [[Front-end]]
+- [[Cloudflare]] [[Edge]] [[Front-end]] [[Front-end]]
 
 | Variable name | Value ------------- | --------------------------- |
 | `NODE_OPTIONS` | `--max-old-space-size=7680` |
