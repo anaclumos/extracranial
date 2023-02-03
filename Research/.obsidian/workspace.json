@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Cloudflare Pages.md",
+                "file": "pages/Service Shimming.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Cloudflare Pages.md",
+                "file": "pages/Service Shimming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Cloudflare Pages.md"
+                "file": "pages/Service Shimming.md"
               }
             }
           },
@@ -174,6 +174,7 @@
   },
   "active": "f081082a359dad0c",
   "lastOpenFiles": [
+    "pages/서비스 시밍.md",
     "journals/2023-02-02.md",
     "pages/Cloudflare Pages.md",
     "pages/Edge.md",
@@ -182,7 +183,6 @@
     "pages/ChatGPT.md",
     "pages/Interactive ML Models.md",
     "pages/Virtual DOM.md",
-    "pages/Automation.md",
-    "journals/2022-10-08.md"
+    "pages/Automation.md"
   ]
 }

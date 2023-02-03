@@ -10,7 +10,7 @@ People **really** don't care about how developers implement services. If you wit
 - Edison faked his invention of the light bulb for more than 4 years.
 - The first iPhone failed to integrate individual apps, so Jobs had to prepare separate iPhones for calls, music, maps, etc. He had to switch between each iPhone, pretending it was the same device.
 - Tesla is also a similar example; Elon always makes bold claims but never delivers something on that date. Where is our Cybertruck?
-- Naver (≈ Korean Google) failed to make a News aggregator service, making the CEO visit Press organizations every morning to collect the newspaper.
+- Naver (≈ Korean Google), for a while, failed to make a News automation service, making the CEO visit Press organizations every morning to ask permission to distribute the articles.
 - Woowa Bros (≈ Korean Doordash) failed to make an order relay system, so they had to call the restaurant one by one whenever they got an order request.
 - Toss (≈ Korean Paypal) failed to make the transaction system, so the CEO visited the bank three times a day to bulk-process pending Venmo requests.
 
