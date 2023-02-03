@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md",
+                "file": "pages/The Zenly Playbook.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md",
+                "file": "pages/The Zenly Playbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md"
+                "file": "pages/The Zenly Playbook.md"
               }
             }
           },
@@ -149,14 +149,14 @@
   "active": "68beedbb947e525a",
   "lastOpenFiles": [
     "journals/2023-02-03.md",
-    "pages/방지된 폭탄에 대한 경의.md",
+    "pages/The Zenly Playbook.md",
     "pages/Harry Stebbings Challenge.md",
+    "pages/Imoogi and Dragon Company.md",
+    "pages/Service Shimming.md",
+    "pages/방지된 폭탄에 대한 경의.md",
     "journals/2023-02-01.md",
     "journals/2023-02-02.md",
     "pages/글감.md",
-    "pages/The Zenly Playbook.md",
-    "pages/젠리 전략집.md",
-    "pages/서비스 시밍.md",
-    "pages/Mini App.md"
+    "pages/젠리 전략집.md"
   ]
 }
