@@ -19,6 +19,6 @@ slug: '/F2DE83'
 
 ![[E95B3D.png]]
 
-## [Inside the Great Pyramid | Giza Project](https://giza.mused.org/en/guided/266/inside-the-great-pyramid)
+## [Inside the Great Pyramid](https://giza.mused.org/en/guided/266/inside-the-great-pyramid)
 
 ![[6E5C4F.png]]

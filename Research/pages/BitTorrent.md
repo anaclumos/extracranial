@@ -13,7 +13,7 @@ slug: '/4332D0'
 
 ## Articles
 
-### [Building a BitTorrent client from the ground up in Go | Jesse Li](https://blog.jse.li/posts/torrent/)
+### [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
 
 - This mechanism allows us to verify the integrity of each piece as we go. It makes BitTorrent resistant to accidental corruption or intentional torrent poisoning. Unless an attacker is capable of breaking SHA-1 with a preimage attack, we will get exactly the content we asked for
 - Now that we have information about the file and its tracker, let's talk to the tracker to announce our presence as a peer and to retrieve a list of other peers. We need to make a GET request to the `announce` URL supplied in the .torrent file, with a few query parameters

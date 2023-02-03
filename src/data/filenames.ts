@@ -1095,5 +1095,5 @@ export const filenames = {
     "\uae00\uac10": "14F701",
     "\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758": "978939",
     "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "9A01ED",
-    "\uc820\ub9ac \uc804\ub7b5\uc9d1": "6AA063"
+    "\uc820\ub9ac\uc758 \uc131\uacf5 \uacf5\uc2dd": "6AA063"
 }

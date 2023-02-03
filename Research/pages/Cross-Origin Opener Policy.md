@@ -4,7 +4,7 @@ slug: '/70114A'
 aliases: ['COOP']
 ---
 
-- See [Cross-Origin-Opener-Policy - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy).
+- See [Cross-Origin-Opener-Policy - HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy).
 
 ## Translation • 번역
 
