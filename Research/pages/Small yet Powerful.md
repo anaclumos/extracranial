@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1B4264'
+aliases: ['작지만 강력한', '강소', 'Hidden Champion']
 ---
 
 ## ...Startup
