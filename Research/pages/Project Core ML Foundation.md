@@ -162,6 +162,6 @@ When capturing the noise of the data
 
 - [Machine Learning Interview Questions (2023) - InterviewBit](https://www.interviewbit.com/machine-learning-interview-questions/#why-machine-learning-was-introduced)
 - [Regression analysis](https://en.wikipedia.org/wiki/Regression_analysis)
-- [What is the k-nearest neighbors algorithm? | IBM](https://www.ibm.com/topics/knn)
+- [What is the k-nearest neighbors algorithm?](https://www.ibm.com/topics/knn)
 - [Artificial neural network](https://en.wikipedia.org/wiki/Artificial_neural_network)
 - [Top 45 Artificial Intelligence (AI) Interview Questions and Answers in 2023](https://www.edureka.co/blog/interview-questions/artificial-intelligence-interview-questions/)

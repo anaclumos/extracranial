@@ -11,6 +11,6 @@ slug: '/13E435'
 
 > Every Mastodon explanation is like "It's very simple, your account is part of a kerflunk, and each kerflunk can talk to each other as part of a bumblurt. At the moment everyone you flurgle can see your bloops but only people IN your kerflunk can quark your nerps. Kinda like email." https://mas.to/@Ciaraioch@mastodon.ie/109287825141624121
 
-### [Medium embraces Mastodon. The fediverse is a breath of fresh air… | by Tony Stubblebine | Jan, 2023 | 3 Min Read](https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11)
+### [Medium embraces Mastodon. The fediverse is a breath of fresh air…](https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11)
 
 - Today, Medium is launching a Mastodon instance at [me.dm](https://me.dm) to help our authors, publications, and readers find a home in the fediverse. Mastodon is an emerging force for good in social media, and we are excited to join this community.

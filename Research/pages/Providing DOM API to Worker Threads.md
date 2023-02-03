@@ -45,7 +45,7 @@ onmessage = function (e) {
 ```
 
 The type of `e` is `MessageEvent`.
-[MessageEvent - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent).
+[MessageEvent - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent).
 
 ## Synchronous Call from Main
 

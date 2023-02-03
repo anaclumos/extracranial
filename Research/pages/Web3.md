@@ -31,7 +31,7 @@ slug: '/451E1C'
 - The cryptosystem need to persuade more and more people to part with their savings to maintain the Ponzi making false promises and mis selling endemic
 - Nor has a swathe of high-profile failures, culminating in the recent collapse of Sam Bankman-Fried's empire, in any way deterred the survivors. Indeed it makes it even more imperative that they attract new deposits. If they don't, the whole thing will implode
 
-### [Let crypto burn | Financial Times](https://www.ft.com/content/ac058ede-80cb-4aa6-8394-941443eec7e3)
+### [Let crypto burn](https://www.ft.com/content/ac058ede-80cb-4aa6-8394-941443eec7e3)
 
 - Until very recently, FTX was a leading exchange and was widely touted as a guiding light in an industry rife with charlatans.
 - However, FTX intentionally chose to locate in a jurisdiction beyond the legal and regulatory purview of those nations with the most significant financial systems

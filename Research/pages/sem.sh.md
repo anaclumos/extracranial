@@ -21,7 +21,7 @@ slug: '/BB0A88'
   - Although the plugins are open-sourced, it seems like the server or dashboard themselves are closed-sourced.
 - Both Code Time and Wakatime has serious paywall problem
   - Free versions can only access up to 2 weeks of data
-- [The DevOps Intelligence Platform - Codacy | Codacy](https://www.codacy.com/)
+- [The DevOps Intelligence Platform - Codacy](https://www.codacy.com/)
   - ![[8E739B.png]]
 - [sourcerer.io](https://sourcerer.io) shut down couple years ago
   - [sourcerer.io로 GitHub, GitLab 프로필 만들기](https://neurowhai.tistory.com/316)

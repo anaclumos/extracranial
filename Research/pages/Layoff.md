@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/52F47B'
 ---
 
-### [What explains recent tech layoffs, and why should we be worried? | Stanford News](https://news.stanford.edu/2022/12/05/explains-recent-tech-layoffs-worried/)
+### [What explains recent tech layoffs, and why should we be worried?](https://news.stanford.edu/2022/12/05/explains-recent-tech-layoffs-worried/)
 
 - Why are so many tech companies laying people off right now
 - If you look for reasons for why companies do layoffs, the reason is that everybody else is doing it. Layoffs [are the result of imitative behavior](https://www.jstor.org/stable/2580324?origin=crossref#metadata_info_tab_contents) and are not particularly evidence-based

@@ -4,7 +4,7 @@ slug: '/2D85E7'
 aliases: ['New York', 'NYC']
 ---
 
-### [Fewer than 40% of New Yorkers earn a living wage | Cornell Chronicle](https://news.cornell.edu/stories/2023/01/fewer-40-new-yorkers-earn-living-wage)
+### [Fewer than 40% of New Yorkers earn a living wage](https://news.cornell.edu/stories/2023/01/fewer-40-new-yorkers-earn-living-wage)
 
 - Across the state, 39.1% earn at least a living wage, with white employees (46%) faring significantly better than Black (29.7%) and Hispanic (26%) employees. Among younger workers, 28.4% of those categorized as millennials and Generation Z (born in or after 1981 and 1997, respectively) earn a living wage
 - Accommodation and food services, part of the state’s vital tourism sector, is the industry least likely to pay a living wage, with more than 52% of workers earning less

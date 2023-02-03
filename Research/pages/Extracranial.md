@@ -113,7 +113,7 @@ Seems like using [[Svelte]]
 ## References
 
 - [Support Roam-like Linking for Docs Folder · Issue #7618 · facebook/docusaurus](https://github.com/facebook/docusaurus/issues/7618)
-- _Create beautifully tended Digital Gardens from your RoamResearch graph. Publish your notes as a static site in a few simple steps_ - [Roam Garden | Roam Garden](https://roam.garden/)
+- _Create beautifully tended Digital Gardens from your RoamResearch graph. Publish your notes as a static site in a few simple steps_ - [Roam Garden](https://roam.garden/)
   - _These notes are the first attempt at a Digital Garden and, as such, are a little wild and untamed. There's no central index or table of contents; you explore by going deeper and deeper down the rabbit hole._ - [About these notes](https://matt.roam.garden/)
   - _👋 I'm Vlad Sitalo - the creator of Roam Garden. I like to build things, and at times, I wonder about:_ - [Garden Terrace](https://vlad.roam.garden/)
 - [GitHub - maximevaillancourt/digital-garden-jekyll-template: Start your own digital garden using this Jekyll template 🌱](https://github.com/maximevaillancourt/digital-garden-jekyll-template)

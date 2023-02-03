@@ -4,7 +4,7 @@ slug: '/58CA40'
 aliases: ['SAB']
 ---
 
-- [SharedArrayBuffer - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)
+- [SharedArrayBuffer - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)
 
 SharedArrayBuffer is an object that holds a fixed-length binary buffer.
 You can pass around comparably longer data with SharedArrayBuffer between agents (i.e., main thread and worker.)

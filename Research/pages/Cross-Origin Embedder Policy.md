@@ -3,7 +3,7 @@ lang: 'ko'
 slug: '/D189D6'
 ---
 
-- See [Cross-Origin-Embedder-Policy - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy)
+- See [Cross-Origin-Embedder-Policy - HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy)
 
 ## Translation • 번역
 

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/5E2A4E'
 ---
 
-Source: [Apple AI Interview Questions — Acing the AI Interview | by Vimarsh Karbhari | Acing AI | Medium](https://medium.com/acing-ai/apple-ai-interview-questions-acing-the-ai-interview-803a65b0e795)
+Source: [Apple AI Interview Questions — Acing the AI Interview](https://medium.com/acing-ai/apple-ai-interview-questions-acing-the-ai-interview-803a65b0e795)
 
 - How do you take millions of users with 100’s of transactions each, amongst 10k products, and group the users together in meaningful segments?
 - We do pre-screening on the data to remove fraud threats — so how do we find a data sample that we can use to determine an accurate representation of fraud events?

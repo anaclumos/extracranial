@@ -16,10 +16,10 @@ slug: '/78F836'
 
 ![[807987.png]]
 
-### [TSEI.JP | tseijp](https://tsei.jp/)
+### [TSEI.JP](https://tsei.jp/)
 
 ![[EEFC42.png]]
 
-### [Gödel's first incompleteness theorem | TigYog](https://tigyog.app/d/H7XOvXvC_x/r/goedel-s-first-incompleteness-theorem)
+### [Gödel's first incompleteness theorem](https://tigyog.app/d/H7XOvXvC_x/r/goedel-s-first-incompleteness-theorem)
 
 ![[E69025.png]]
