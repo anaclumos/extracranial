@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/18728A'
 ---
 
 1. [[Imoogi and Dragon Company]]

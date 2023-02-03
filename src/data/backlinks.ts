@@ -459,6 +459,7 @@ export const backlinks = {
     },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
+        "Harry Stebbings Challenge": "2. [[Service Shimming]]",
         "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "[[Service Shimming]]"
     },
     "Aldehyde": {
@@ -2029,7 +2030,8 @@ export const backlinks = {
         "\ubc30\ub2ec\uc758\ubbfc\uc871 FE \uac1c\ubc1c\uc790\uac00 \uc77c\ud558\ub294 \ubc95 \ubc1c\ud45c": "... \uc0ac\uc6a9\ud588\ub2e4. \ube60\ub978 \uac83 \uac19\uace0 \uc88b\uc740\ub370, \uc7a5\uc560\ub97c \uacaa\uace0 \ub098\uba74 \uc0dd\uac01\uc774 \ub2ec\ub77c\uc9c4\ub2e4. \uc608\uc804\uc5d0\ub294 [[GitHub]]\ub97c \uc0ac\uc6a9\ud558\ub2e4\uac00 \uc694\uc998\uc5d0\ub294 \ube44\uc2b7\ud55c \ub3c4\uad6c (GitLab) \uc744 \uc0ac\uc6a9\ud55c\ub2e4. \uadf8\ub798\uc11c PR\uc744 \ud558\uace0 \uc62c\ub9ac\uba74 ..."
     },
     "Imoogi and Dragon Company": {
-        "2023-02-01": "- [[Imoogi and Dragon Company]]"
+        "2023-02-01": "- [[Imoogi and Dragon Company]]",
+        "Harry Stebbings Challenge": "1. [[Imoogi and Dragon Company]]"
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
@@ -2056,6 +2058,7 @@ export const backlinks = {
     },
     "The Zenly Playbook": {
         "2023-02-03": "- [[The Zenly Playbook]]",
+        "Harry Stebbings Challenge": "3. [[The Zenly Playbook]]",
         "\uc820\ub9ac \uc804\ub7b5\uc9d1": "[[The Zenly Playbook]]"
     },
     "0704 Binary Search": {
@@ -3486,6 +3489,9 @@ export const backlinks = {
     },
     "Daily Dev": {
         "Jumpsite": "## [[Daily Dev]]"
+    },
+    "Harry Stebbings Challenge": {
+        "2023-02-03": "- [[Harry Stebbings Challenge]]"
     },
     "Ruby": {
         "Higher-Level Languages and Their Speeds": "## [[Ruby]]"
