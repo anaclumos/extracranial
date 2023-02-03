@@ -11,7 +11,7 @@ Zenly, a popular Gen-Z location-sharing social app, shut down two days ago. So h
 
 **Targeting the right group**. Zenly targeted Gen-Z's, finding that when a quarter of a school uses Zenly, it takes less than a week to saturate the entire school. Zenly focused on sub-group-led growths; for example, Japanese students studying abroad at Taiwanese University eventually spread Zenly to the whole island. One interesting note was that teenagers surprisingly did not care about privacy; the CEO regretted that privacy concerns in the early days were a waste of time—the market always outmove makers.
 
-**Branding**. Location tracking is creepy, so they aimed the *Best Friend Forever* or *In Real Life Friend* vibe: pop interface, Gen-Z copywriting bright, cute colors, and smiley emoji everywhere. When asking for the actual location, it emphasized spending good times with your friends rather than the location tracking itself.
+**Branding**. Location tracking is creepy, so they aimed the _Best Friend Forever_ or _In Real Life Friend_ vibe: pop interface, Gen-Z copywriting bright, cute colors, and smiley emoji everywhere. When asking for the actual location, it emphasized spending good times with your friends rather than the location tracking itself.
 
 ** Acquiring talents**. Zenly had not only exceptional engineers but also outstanding designers and operators. [[10x]] people don't join a startup upfront, so Zenly made them involved in the company by hiring them as a freelancer and then onboarded them to the team.
 
