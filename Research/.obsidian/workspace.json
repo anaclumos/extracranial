@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "01b2f8f5ca03e7dc",
+        "id": "73a99cede30535eb",
         "type": "tabs",
         "children": [
           {
-            "id": "ec4db3be3968ad4e",
+            "id": "b8f92d87f5861b6a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +138,7 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "ec4db3be3968ad4e",
+  "active": "b8f92d87f5861b6a",
   "lastOpenFiles": [
     "journals/2023-02-03.md",
     "pages/Memex.md",
