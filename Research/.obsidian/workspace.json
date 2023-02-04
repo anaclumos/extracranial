@@ -11,8 +11,13 @@
             "id": "66e631d4f6a6474a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Unicorn.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -83,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Unicorn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Unicorn.md"
+              }
             }
           },
           {
@@ -140,10 +148,10 @@
   },
   "active": "66e631d4f6a6474a",
   "lastOpenFiles": [
+    "journals/2023-02-03.md",
     "pages/Imoogi and Dragon Company.md",
     "pages/Unicorn.md",
     "pages/Harry Stebbings Challenge.md",
-    "journals/2023-02-03.md",
     "pages/Memex.md",
     "pages/젠리의 성공 공식.md",
     "pages/The Zenly Playbook.md",
