@@ -47,7 +47,6 @@ const config: Config = {
         docs: docs,
         blog: blog,
         theme: theme,
-        googleAnalytics: analytics.ua,
         gtag: analytics.ga4,
       },
     ],
