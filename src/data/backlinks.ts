@@ -3389,9 +3389,9 @@ export const backlinks = {
     },
     "Korean Banks Suck": {
         "2023-01-09": "- [[Korean Banks Suck]]",
-        "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Korean Banks Suck|troubled Korean banking system]]. ",
+        "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Korean Banks Suck|troubled Korean banking system]].",
         "\uae00\uac10": "- Korea, Apple Pay, and [[Korean Banks Suck]]",
-        "\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774": "\uadf8\ub807\uac8c \ud604\ub300\uce74\ub4dc\uc640 \ud568\uaed8 \ud55c\uad6d\uc5d0 \uc560\ud50c\ud398\uc774\uac00 3\uc6d4\ubd80\ud130 \ub4e4\uc5b4\uc628\ub2e4. [[Korean Banks Suck|\uc369\uc5b4\ube60\uc9c4 \ud55c\uad6d \uc740\ud589\uacc4]]\uc5d0 \uc0c8\ub85c\uc6b4 \uc790\uadf9\uc774 \ub418\uae30\ub97c \ubc14\ub780\ub2e4."
+        "\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774": "... \uc774\ub294 \ubb34\uc5c7\uc744 \uc758\ubbf8\ud560\uae4c? \uba87 \uac00\uc9c0 \uc2dc\uc0ac\uc810\uc774 \uc788\uc9c0\ub9cc, \uc624\ub298 \ud560 \uc774\uc57c\uae30\ub294 \uc544\ub2c8\ub2e4. [[Korean Banks Suck|\ud55c\uad6d \uc740\ud589\uacc4]]\uc5d0 \uc0c8\ub85c\uc6b4 \uc790\uadf9\uc774 \ub418\uae30\ub97c \ubc14\ub780\ub2e4."
     },
     "Palantir Foundry": {
         "Palantir": "- [[Palantir Foundry]]"
