@@ -1028,6 +1028,9 @@ export const backlinks = {
         "2022-10-27": "- [[Web Graphics]]",
         "2022-11-12": "- Bubbles: [[Web Graphics]]"
     },
+    "\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774": {
+        "2023-02-04": "- [[\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774]]"
+    },
     "Rewind": {
         "2022-12-24": "- [[Rewind]] is [[GA]]",
         "Search Engine Indexing Your Life": "## [[Rewind]]"
@@ -3358,9 +3361,6 @@ export const backlinks = {
         "2022-11-04": "- [[Cache Mapping]]",
         "Caching": "- [[Cache Mapping]]"
     },
-    "\ub4dc\ub514\uc5b4 \ud55c\uad6d \uc560\ud50c\ud398\uc774": {
-        "2023-02-04": "- [[\ub4dc\ub514\uc5b4 \ud55c\uad6d \uc560\ud50c\ud398\uc774]]"
-    },
     "Principles of Inclusion": {
         "2022-11-04": "- [[Principles of Inclusion]]"
     },
@@ -3389,7 +3389,9 @@ export const backlinks = {
     },
     "Korean Banks Suck": {
         "2023-01-09": "- [[Korean Banks Suck]]",
-        "\uae00\uac10": "- Korea, Apple Pay, and [[Korean Banks Suck]]"
+        "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Korean Banks Suck|troubled Korean banking system]]. ",
+        "\uae00\uac10": "- Korea, Apple Pay, and [[Korean Banks Suck]]",
+        "\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774": "\uadf8\ub807\uac8c \ud604\ub300\uce74\ub4dc\uc640 \ud568\uaed8 \ud55c\uad6d\uc5d0 \uc560\ud50c\ud398\uc774\uac00 3\uc6d4\ubd80\ud130 \ub4e4\uc5b4\uc628\ub2e4. [[Korean Banks Suck|\uc369\uc5b4\ube60\uc9c4 \ud55c\uad6d \uc740\ud589\uacc4]]\uc5d0 \uc0c8\ub85c\uc6b4 \uc790\uadf9\uc774 \ub418\uae30\ub97c \ubc14\ub780\ub2e4."
     },
     "Palantir Foundry": {
         "Palantir": "- [[Palantir Foundry]]"
