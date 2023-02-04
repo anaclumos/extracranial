@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/858CBA'
 ---
 
-The word "Unicorn Company" gives the company too much of a "magical" sentiment, as if it was **destined** to be successful. Maybe it should be Carp 🐟 → Imoogi 🐍 → Dragon 🐉 company, as in Korean folklore.
+The word **[[Unicorn]] Company** gives the company too much of a _magical_ sentiment as if it was _destined_ to be successful. Maybe it should be Carp 🐟 → Imoogi 🐍 → Dragon 🐉 company, as in Korean folklore.
 
 As a fish, you take tons of effort and time to train yourself to become a semi-dragon Imoogi 🐍, and only a few select Imoogi 🐍 (few fortunate ones) gets bequeathed a Yeouiju, the magical gem 🔮, to become the godly dragon.
 
