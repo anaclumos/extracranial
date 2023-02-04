@@ -1152,6 +1152,10 @@ export const backlinks = {
     "Install Yarn Silently": {
         "2022-10-18": "- [[Install Yarn Silently]]"
     },
+    "Finally, Apple Pay in Korea": {
+        "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
+        "Harry Stebbings Challenge": "4. [[Finally, Apple Pay in Korea]]"
+    },
     "Slow Down Your Clock Cycle Speed": {
         "2022-10-12": "- [[Slow Down Your Clock Cycle Speed]]",
         "2022-10-13": "- [[Slow Down Your Clock Cycle Speed]]",
@@ -1526,6 +1530,8 @@ export const backlinks = {
         "2023-01-30": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-01": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-02": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-03": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-04": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
         "Building Habit": "- [[Jogging 25 minutes every day (January & February 2023)]]"
     },
     "Reverse Engineering Apple Music API": {
@@ -2441,7 +2447,9 @@ export const backlinks = {
         "2023-01-29": "## [[Building Habit]]",
         "2023-01-30": "## [[Building Habit]]",
         "2023-02-01": "## [[Building Habit]]",
-        "2023-02-02": "## [[Building Habit]]"
+        "2023-02-02": "## [[Building Habit]]",
+        "2023-02-03": "## [[Building Habit]]",
+        "2023-02-04": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3350,6 +3358,9 @@ export const backlinks = {
         "2022-11-04": "- [[Cache Mapping]]",
         "Caching": "- [[Cache Mapping]]"
     },
+    "\ub4dc\ub514\uc5b4 \ud55c\uad6d \uc560\ud50c\ud398\uc774": {
+        "2023-02-04": "- [[\ub4dc\ub514\uc5b4 \ud55c\uad6d \uc560\ud50c\ud398\uc774]]"
+    },
     "Principles of Inclusion": {
         "2022-11-04": "- [[Principles of Inclusion]]"
     },
@@ -3489,7 +3500,8 @@ export const backlinks = {
         "Jumpsite": "## [[Daily Dev]]"
     },
     "Harry Stebbings Challenge": {
-        "2023-02-03": "- [[Harry Stebbings Challenge]]"
+        "2023-02-03": "- [[Harry Stebbings Challenge]]",
+        "2023-02-04": "- [[Harry Stebbings Challenge]]"
     },
     "Ruby": {
         "Higher-Level Languages and Their Speeds": "## [[Ruby]]"
