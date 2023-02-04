@@ -1095,7 +1095,7 @@ export const filenames = {
     "\u6d2a\u6c11\u6199\u96dc\u8a18": "2CD26A",
     "\u96c5\u865f\ub97c \ucc3e\uc544\uc11c": "8A1CBA",
     "\uae00\uac10": "14F701",
-    "\ub4dc\ub514\uc5b4 \ud55c\uad6d \uc560\ud50c\ud398\uc774": "820AB3",
+    "\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774": "820AB3",
     "\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758": "978939",
     "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "9A01ED",
     "\uc820\ub9ac\uc758 \uc131\uacf5 \uacf5\uc2dd": "6AA063"
