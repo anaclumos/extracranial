@@ -15,3 +15,33 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is ev
 
 > **Note**<br/>
 > The Favicon image is Tossface's U+E109 () Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
+
+## Stats
+
+```
+───────────────────────────────────────────────────────────────────────────────
+Language                 Files     Lines   Blanks  Comments     Code Complexity
+───────────────────────────────────────────────────────────────────────────────
+Markdown                  1138     33244     8251         0    24993          0
+CSS                         68     20079      174        36    19869          0
+TypeScript                  53      8903      150        68     8685        143
+JSON                        42      2154        0         0     2154          0
+Python                       7       658       53        39      566         76
+SVG                          7         7        0         0        7          0
+YAML                         6        30        2         0       28          0
+JavaScript                   5     26577      388      4877    21312        837
+Plain Text                   2        97       18         0       79          0
+TypeScript Typings           2        12        0         4        8          0
+TOML                         1         3        0         0        3          0
+gitignore                    1       291       73        70      148          0
+───────────────────────────────────────────────────────────────────────────────
+Total                     1332     92055     9109      5094    77852       1056
+───────────────────────────────────────────────────────────────────────────────
+Estimated Cost to Develop (organic) $2,614,740
+Estimated Schedule Effort (organic) 19.82 months
+Estimated People Required (organic) 11.72
+───────────────────────────────────────────────────────────────────────────────
+Processed 6279947 bytes, 6.280 megabytes (SI)
+───────────────────────────────────────────────────────────────────────────────
+
+```
