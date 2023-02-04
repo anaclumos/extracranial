@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "41df15efbf45ad6e",
+        "id": "089f125411d061bd",
         "type": "tabs",
         "children": [
           {
-            "id": "9eed51c23884ad83",
+            "id": "905b809344e0ae69",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Harry Stebbings Challenge.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -83,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Harry Stebbings Challenge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Harry Stebbings Challenge.md"
+              }
             }
           },
           {
@@ -138,11 +146,11 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "9eed51c23884ad83",
+  "active": "905b809344e0ae69",
   "lastOpenFiles": [
-    "pages/글감.md",
     "journals/2023-02-04.md",
     "pages/드디어, 한국 애플페이.md",
+    "pages/글감.md",
     "pages/Finally, Apple Pay in Korea.md",
     "pages/Korean Banks Suck.md",
     "pages/Harry Stebbings Challenge.md",
