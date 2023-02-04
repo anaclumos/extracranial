@@ -459,7 +459,7 @@ export const backlinks = {
     },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
-        "Harry Stebbings Challenge": "2. [[Service Shimming]]",
+        "Harry Stebbings Challenge": "2. [[Service Shimming]]: Tweet",
         "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "[[Service Shimming]]"
     },
     "Aldehyde": {
@@ -2031,7 +2031,7 @@ export const backlinks = {
     },
     "Imoogi and Dragon Company": {
         "2023-02-01": "- [[Imoogi and Dragon Company]]",
-        "Harry Stebbings Challenge": "1. [[Imoogi and Dragon Company]]"
+        "Harry Stebbings Challenge": "1. [[Imoogi and Dragon Company]]: Tweet"
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
@@ -2058,7 +2058,7 @@ export const backlinks = {
     },
     "The Zenly Playbook": {
         "2023-02-03": "- [[The Zenly Playbook]]",
-        "Harry Stebbings Challenge": "3. [[The Zenly Playbook]]",
+        "Harry Stebbings Challenge": "3. [[The Zenly Playbook]]: Tweet",
         "\uc820\ub9ac\uc758 \uc131\uacf5 \uacf5\uc2dd": "[[The Zenly Playbook]]"
     },
     "0704 Binary Search": {
@@ -3068,7 +3068,7 @@ export const backlinks = {
         "2022-10-03": "- [[sem.sh]]"
     },
     "As We May Think": {
-        "Memex": "> In \"[[As We May Think]]\", [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
+        "Memex": "> In \"[[As We May Think]], [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
     },
     "Finding out Ghost version with JS": {
         "2022-11-19": "  - [[Finding out Ghost version with JS]]"
@@ -4013,6 +4013,7 @@ export const backlinks = {
         "2023-01-24": "- [[Counting]]"
     },
     "Unicorn": {
+        "Imoogi and Dragon Company": "The word [[Unicorn]] Company gives the company too much of a magical sentiment as ...",
         "Ridi": "Ridi is a Korean [[Unicorn]] specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
         "Toss": "- Financial Technology|FinTech [[Unicorn]] of Korea."
     },
