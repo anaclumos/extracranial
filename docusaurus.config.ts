@@ -22,6 +22,7 @@ const config: Config = {
   organizationName: 'anaclumos',
   projectName: 'extracranial',
   i18n: i18n,
+  baseUrlIssueBanner: false,
   webpack: {
     jsLoader: (isServer) => ({
       loader: require.resolve('swc-loader'),
@@ -96,6 +97,12 @@ const config: Config = {
       src: 'https://sa.cho.sh/latest.js',
       async: true,
       defer: true,
+    },
+    {
+      src: 'https://static.cloudflareinsights.com/beacon.min.js',
+      defer: true,
+      async: true,
+      'data-cf-beacon': '{"token": "53278117b8c44edeb9eeb9af447d5529"}',
     },
   ],
 }
