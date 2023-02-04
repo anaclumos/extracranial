@@ -1157,7 +1157,7 @@ export const backlinks = {
     },
     "Finally, Apple Pay in Korea": {
         "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
-        "Harry Stebbings Challenge": "4. [[Finally, Apple Pay in Korea]]"
+        "Harry Stebbings Challenge": "4. [[Finally, Apple Pay in Korea]]: Tweet"
     },
     "Slow Down Your Clock Cycle Speed": {
         "2022-10-12": "- [[Slow Down Your Clock Cycle Speed]]",
