@@ -3068,7 +3068,7 @@ export const backlinks = {
         "2022-10-03": "- [[sem.sh]]"
     },
     "As We May Think": {
-        "Memex": "> In \"[[As We May Think]], [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
+        "Memex": "> In [[As We May Think]], [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
     },
     "Finding out Ghost version with JS": {
         "2022-11-19": "  - [[Finding out Ghost version with JS]]"
@@ -3377,7 +3377,8 @@ export const backlinks = {
         "2023-01-25": "- [[Preprocessor]]"
     },
     "Korean Banks Suck": {
-        "2023-01-09": "- [[Korean Banks Suck]]"
+        "2023-01-09": "- [[Korean Banks Suck]]",
+        "\uae00\uac10": "- Korea, Apple Pay, and [[Korean Banks Suck]]"
     },
     "Palantir Foundry": {
         "Palantir": "- [[Palantir Foundry]]"
