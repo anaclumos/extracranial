@@ -42,9 +42,22 @@ if __name__ == "__main__":
                         or alt_text.endswith(".svg")
                         or alt_text.startswith("ALT:")
                     ):
-                        line = f"<figure>{line.replace('ALT:', '').strip()}</figure>"
+                        line = f"""
+<figure>
+
+{line.replace("ALT: ", "").replace("ALT:", "")}
+
+</figure>
+"""
                     else:
-                        line = f"<figure>{line}<figcaption>{alt_text}</figcaption></figure>"
+                        line = f"""
+<figure>
+
+{line}
+
+<figcaption>{alt_text}</figcaption>
+</figure>
+"""
                     COUNTER += 1
                 f.write(line)
 

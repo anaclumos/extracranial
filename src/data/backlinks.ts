@@ -1040,9 +1040,6 @@ export const backlinks = {
         "2022-10-27": "- [[Web Graphics]]",
         "2022-11-12": "- Bubbles: [[Web Graphics]]"
     },
-    "\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774": {
-        "2023-02-04": "- [[\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774]]"
-    },
     "Rewind": {
         "2022-12-24": "- [[Rewind]] is [[GA]]",
         "Search Engine Indexing Your Life": "## [[Rewind]]"
@@ -2339,11 +2336,6 @@ export const backlinks = {
         "Meta Theme Color for Spacial Cognition": "- Meta Theme Color for [[Spacial Cognition]]",
         "Tools for Thought": "... for Thought: add infinite canvas to text-based versions. involves and exploits [[spacial cognition]]."
     },
-    "\uae00\uac10": {
-        "2023-02-02": "- [[\uae00\uac10]]",
-        "2023-02-03": "- [[\uae00\uac10]]",
-        "2023-02-04": "- [[\uae00\uac10]]"
-    },
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
         "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
@@ -2528,8 +2520,8 @@ export const backlinks = {
     },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|\ud6a8\uc728\uc801 \uac00\uc18d\uc8fc\uc758]]",
-        "\ud0dc\ubc31\uc0b0\ub9e5 \uacc4\ud68d": "[[Effective Accelerationism|\ud6a8\uacfc\uc801 \uac00\uc18d\uc8fc\uc758]]\uc5d0 \uae30\ubc18\ud55c\ub2e4.",
-        "\uae00\uac10": "- [[Effective Accelerationism]]"
+        "\uae00\uac10": "- [[Effective Accelerationism]]",
+        "\ud0dc\ubc31\uc0b0\ub9e5 \uacc4\ud68d": "[[Effective Accelerationism|\ud6a8\uacfc\uc801 \uac00\uc18d\uc8fc\uc758]]\uc5d0 \uae30\ubc18\ud55c\ub2e4."
     },
     "0002 Add Two Numbers": {
         "Coding Tests": "- [[0002 Add Two Numbers]]"
@@ -3318,9 +3310,6 @@ export const backlinks = {
     "Welcome to the Neo Block Economy": {
         "2022-12-08": "- [[Welcome to the Neo Block Economy]]"
     },
-    "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": {
-        "2023-02-02": "- [[\uc11c\ube44\uc2a4 \uc2dc\ubc0d]]"
-    },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
     },
@@ -3796,9 +3785,6 @@ export const backlinks = {
         "The Library of Babel": "- [[Information amongst Data]]",
         "\uac1c\uc131\uc740 \uc790\uc5f0\uc2a4\ub808 \uc8fc\uc5b4\uc9c0\uc9c0 \uc54a\ub294\ub2e4": "\uc218\ub9ce\uc740 [[Information amongst Data|\ub370\uc774\ud130 \uc911 \uc815\ubcf4]]\ub9cc\uc774 \uc911\uc694\ud55c \uc138\uc0c1\uc785\ub2c8\ub2e4."
     },
-    "\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758": {
-        "2023-02-01": "- [[\ubc29\uc9c0\ub41c \ud3ed\ud0c4\uc5d0 \ub300\ud55c \uacbd\uc758]]"
-    },
     "Someday": {
         "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter Network]] but you must",
         "Apple Earth": "[[Someday]] [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
@@ -4023,9 +4009,6 @@ export const backlinks = {
     },
     "AWS Nuke": {
         "2022-10-25": "- [[AWS Nuke]]"
-    },
-    "\uc820\ub9ac\uc758 \uc131\uacf5 \uacf5\uc2dd": {
-        "2023-02-03": "- [[\uc820\ub9ac\uc758 \uc131\uacf5 \uacf5\uc2dd]]"
     },
     "Packet Sniffing": {
         "Internetworking": "- [[Packet Sniffing]]"
