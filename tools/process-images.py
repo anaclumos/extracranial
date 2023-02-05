@@ -51,7 +51,14 @@ if __name__ == "__main__":
                         or alt_text.endswith(".svg")
                         or alt_text.startswith("ALT:")
                     ):
-                        filepath = os.path.join(os.path.dirname(md_file), filename)
+                        filepath = os.path.join(
+                            os.path.dirname(os.path.realpath(__file__)),
+                            "..",
+                            os.path.dirname(md_file),
+                            filename,
+                        )
+                        filepath = filepath.replace("\\", "/")
+                        filepath = filepath.replace("//", "/")
                         alt_text = (
                             alt_text.replace("ALT:", "")
                             .replace('alt:"', "")
@@ -67,10 +74,17 @@ if __name__ == "__main__":
 </figure>
 """
                     else:
+                        alt_text = (
+                            alt_text.replace("ALT:", "")
+                            .replace('alt:"', "")
+                            .replace('"', "`")
+                            .replace("'", "`")
+                            .strip()
+                        )
                         line += f"""
 <figure>
 
-<Image img={{require('{filename}')}} alt=\"{alt_text}\" />
+<Image img={{require('{filepath}')}} alt=\"{alt_text}\" />
 
 <figcaption>{alt_text}</figcaption>
 </figure>
@@ -78,4 +92,4 @@ if __name__ == "__main__":
                     COUNTER += 1
                 f.write(line)
 
-    print("Replaced " + str(COUNTER) + " alt texts.")
+    print("Processed " + str(COUNTER) + " markdown images.")
