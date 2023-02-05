@@ -131,6 +131,9 @@ export const backlinks = {
         "Safari is the new Internet Explorer": "  - At least [[2022-12-28]] now they do: Sending web push notifications in Safari and other ...",
         "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d": "## [[2022-12-28]]"
     },
+    "2023-02-04": {
+        "Harry Stebbings Challenge": "| [[2023-02-04]] | [[Finally, Apple Pay in Korea]] | Tweet |"
+    },
     "2022-11-22": {
         "2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30": "- [[2022-11-22]] \uacfc\uc81c\uc758 \ud64d\uc218"
     },
@@ -173,6 +176,9 @@ export const backlinks = {
     "2022-12-19": {
         "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d": "## [[2022-12-19]]"
     },
+    "2023-02-01": {
+        "Harry Stebbings Challenge": "| [[2023-02-01]] | [[Imoogi and Dragon Company]]   | Tweet |"
+    },
     "2020-09-20": {
         "\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355": "## [[2020-09-20]]\uc758 \uba54\ubaa8"
     },
@@ -184,6 +190,9 @@ export const backlinks = {
     },
     "2020-09-27": {
         "\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355": "- [[2020-09-27]]"
+    },
+    "2023-02-02": {
+        "Harry Stebbings Challenge": "| [[2023-02-02]] | [[Service Shimming]]         ..."
     },
     "2023-01-18": {
         "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d": "## [[2023-01-18]]",
@@ -237,6 +246,9 @@ export const backlinks = {
         "0543 Diameter of Binary Tree": "Solved at: [[2023-01-29]]",
         "0876 Middle of the Linked List": "Solved at: [[2023-01-29]]",
         "Aldehyde Outage (January 2023)": "## [[2023-01-29]]"
+    },
+    "2023-02-03": {
+        "Harry Stebbings Challenge": "| [[2023-02-03]] | [[The Zenly Playbook]]        ..."
     },
     "2022-11-01": {
         "2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30": "- [[2022-11-01]] \uc2e4\ud328. \uacfc\uc81c\uac00 \ub108\ubb34 \ub9ce\uc558\ub2e4."
@@ -459,7 +471,7 @@ export const backlinks = {
     },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
-        "Harry Stebbings Challenge": "2. [[Service Shimming]]: Tweet",
+        "Harry Stebbings Challenge": "| 2023-02-02 | [[Service Shimming]]            ...",
         "\uc11c\ube44\uc2a4 \uc2dc\ubc0d": "[[Service Shimming]]"
     },
     "Aldehyde": {
@@ -1157,7 +1169,7 @@ export const backlinks = {
     },
     "Finally, Apple Pay in Korea": {
         "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
-        "Harry Stebbings Challenge": "4. [[Finally, Apple Pay in Korea]]: Tweet",
+        "Harry Stebbings Challenge": "| 2023-02-04 | [[Finally, Apple Pay in Korea]] | Tweet |",
         "\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774": "[[Finally, Apple Pay in Korea]]"
     },
     "Slow Down Your Clock Cycle Speed": {
@@ -2041,7 +2053,7 @@ export const backlinks = {
     },
     "Imoogi and Dragon Company": {
         "2023-02-01": "- [[Imoogi and Dragon Company]]",
-        "Harry Stebbings Challenge": "1. [[Imoogi and Dragon Company]]: Tweet"
+        "Harry Stebbings Challenge": "| 2023-02-01 | [[Imoogi and Dragon Company]]   | Tweet |"
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
@@ -2068,7 +2080,7 @@ export const backlinks = {
     },
     "The Zenly Playbook": {
         "2023-02-03": "- [[The Zenly Playbook]]",
-        "Harry Stebbings Challenge": "3. [[The Zenly Playbook]]: Tweet",
+        "Harry Stebbings Challenge": "| 2023-02-03 | [[The Zenly Playbook]]          | Tweet ...",
         "\uc820\ub9ac\uc758 \uc131\uacf5 \uacf5\uc2dd": "[[The Zenly Playbook]]"
     },
     "0704 Binary Search": {
@@ -2329,7 +2341,8 @@ export const backlinks = {
     },
     "\uae00\uac10": {
         "2023-02-02": "- [[\uae00\uac10]]",
-        "2023-02-03": "- [[\uae00\uac10]]"
+        "2023-02-03": "- [[\uae00\uac10]]",
+        "2023-02-04": "- [[\uae00\uac10]]"
     },
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
@@ -2681,6 +2694,10 @@ export const backlinks = {
     },
     "Book Scanning": {
         "Using an iPad as my Ebook": "Furthermore, I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], and I figured it is very ..."
+    },
+    "Color Palette": {
+        "2022-06-14": "- [[Color Palette]]",
+        "2023-02-04": "- [[Color Palette]]"
     },
     "API Economy": {
         "2022-10-27": "- [[API Economy]]",
@@ -3391,7 +3408,7 @@ export const backlinks = {
     "Korean Banks Suck": {
         "2023-01-09": "- [[Korean Banks Suck]]",
         "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Korean Banks Suck|troubled Korean banking system]].",
-        "\uae00\uac10": "- Korea, Apple Pay, and [[Korean Banks Suck]]",
+        "\uae00\uac10": "- [[Korean Banks Suck]]",
         "\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774": "... \uc774\ub294 \ubb34\uc5c7\uc744 \uc758\ubbf8\ud560\uae4c? \uba87 \uac00\uc9c0 \uc2dc\uc0ac\uc810\uc774 \uc788\uc9c0\ub9cc, \uc624\ub298 \ud560 \uc774\uc57c\uae30\ub294 \uc544\ub2c8\ub2e4. [[Korean Banks Suck|\ud55c\uad6d \uc740\ud589\uacc4]]\uc5d0 \uc0c8\ub85c\uc6b4 \uc790\uadf9\uc774 \ub418\uae30\ub97c \ubc14\ub780\ub2e4."
     },
     "Palantir Foundry": {
@@ -5097,6 +5114,12 @@ export const backlinks = {
     },
     "8E21A4.png": {
         "Book Scanning": "![[8E21A4.png]]"
+    },
+    "BA695B.png": {
+        "Color Palette": "![[BA695B.png]]"
+    },
+    "68B2D8.png": {
+        "Color Palette": "![[68B2D8.png]]"
     },
     "D765C4.png": {
         "Things (3D)": "![[D765C4.png]]"

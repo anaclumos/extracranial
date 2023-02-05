@@ -396,6 +396,7 @@ export const filenames = {
     "Coding Tests in Swift": "B8B3B3",
     "Collaboration-based Tools for Thought": "811E08",
     "Collecting Data": "6FB355",
+    "Color Palette": "8929A3",
     "Comparing BLIP and CLIP": "DEAF41",
     "Compiling": "4F50D3",
     "Componentizing Views in Android": "70CD97",
