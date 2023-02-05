@@ -265,6 +265,7 @@ export const filenames = {
     "2023-02-02": "2023-02-02",
     "2023-02-03": "2023-02-03",
     "2023-02-04": "2023-02-04",
+    "2023-02-05": "2023-02-05",
     "3D": "82C83C",
     "3d Globe on the Web": "432EF8",
     "ACSM": "188726",
@@ -938,6 +939,7 @@ export const filenames = {
     "The Architecture of Mastodon": "BEF810",
     "The Demise of Chatbots in 2017": "7D82EB",
     "The Dilemmas of Technopreneur": "D18E6B",
+    "The Era of Invites": "749C99",
     "The Great Battle of Flow and Asana": "4C1190",
     "The Great Struggle of Gumroad": "1EFF7B",
     "The Library of Babel": "5E7F4B",
@@ -1099,5 +1101,7 @@ export const filenames = {
     "\u5f37\u529b\u53cd\u6b0a": "2592EA",
     "\u6c34\u9069\u7a7f\u77f3": "D9B586",
     "\u6d2a\u6c11\u6199\u96dc\u8a18": "2CD26A",
-    "\u96c5\u865f\ub97c \ucc3e\uc544\uc11c": "8A1CBA"
+    "\u96c5\u865f\ub97c \ucc3e\uc544\uc11c": "8A1CBA",
+    "\uc774\ubb34\uae30 \uae30\uc5c5, \uccad\ub8e1 \uae30\uc5c5": "A797C1",
+    "\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300": "7C9BEE"
 }

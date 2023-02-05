@@ -132,7 +132,7 @@ export const backlinks = {
         "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d": "## [[2022-12-28]]"
     },
     "2023-02-04": {
-        "Harry Stebbings Challenge": "| [[2023-02-04]] | [[Finally, Apple Pay in Korea]] | Tweet |"
+        "Harry Stebbings Challenge": "| [[2023-02-04]] | [[Finally, Apple Pay in Korea]] | [[\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774]]  ..."
     },
     "2022-11-22": {
         "2022\ub144 11\uc6d4 \ud55c \ub2ec\uac04 \uc77c\uae30 \uc4f0\uae30": "- [[2022-11-22]] \uacfc\uc81c\uc758 \ud64d\uc218"
@@ -177,10 +177,13 @@ export const backlinks = {
         "\ud558\ub298\ub545\uc0ac\ub78c \uac1c\ubc1c \uae30\ub85d": "## [[2022-12-19]]"
     },
     "2023-02-01": {
-        "Harry Stebbings Challenge": "| [[2023-02-01]] | [[Imoogi and Dragon Company]]   | Tweet |"
+        "Harry Stebbings Challenge": "| [[2023-02-01]] | [[Imoogi and Dragon Company]]   | [[\uc774\ubb34\uae30 \uae30\uc5c5, \uccad\ub8e1 ..."
     },
     "2020-09-20": {
         "\ud504\ub85c\uc81d\ud2b8 \uc5b4\ub355\ud589\ub355": "## [[2020-09-20]]\uc758 \uba54\ubaa8"
+    },
+    "2023-02-05": {
+        "Harry Stebbings Challenge": "| [[2023-02-05]] | [[The Era of Invites]]       ..."
     },
     "2022-11-23": {
         "Person 1E6ABA": "- Interviewed on [[2022-11-23]]"
@@ -418,7 +421,9 @@ export const backlinks = {
         "Readwise Reader": "- uses [[ChatGPT]]",
         "Search Engine using Generative AI": "## On [[ChatGPT]]",
         "Synthote": "- [[ChatGPT]]",
-        "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]]."
+        "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
+        "The Era of Invites": "... an invitation system will never reach your attention. For example, did [[ChatGPT]] require an invite? Nope.",
+        "\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300": "... \uac00\uc9c4 \uc2a4\ud0c0\ud2b8\uc5c5\uc774 \uc131\uacf5\ud558\uc9c0 \ubabb\ud558\uba74 \uc6b0\ub9ac\uc758 \uad00\uc2ec\uc5d0 \uc804\ud600 \ub4e4\uc9c0 \ubabb\ud55c\ub2e4. \uc608\ub97c \ub4e4\uc5b4, [[ChatGPT]]\uac00 \ucd08\ub300\uc7a5\uc774 \ud544\uc694\ud588\ub294\uac00? \uc644\uc804 \uc544\ub2c8\ub2e4."
     },
     "Paracosm": {
         "Text-based Tools for Thought": "### [[Paracosm]]"
@@ -831,6 +836,10 @@ export const backlinks = {
         "2022-11-24": "- [[Person 1E6ABA]]",
         "Project PEOPLE": "- [[Person 1E6ABA]]"
     },
+    "\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300": {
+        "2023-02-05": "- [[\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300]]",
+        "Harry Stebbings Challenge": "... Invites          | [[\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300]]          |  ..."
+    },
     "Forward Declaration": {
         "2023-01-25": "- [[Forward Declaration]]",
         "Game Programming": "- [[Forward Declaration]]"
@@ -1166,7 +1175,7 @@ export const backlinks = {
     },
     "Finally, Apple Pay in Korea": {
         "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
-        "Harry Stebbings Challenge": "| 2023-02-04 | [[Finally, Apple Pay in Korea]] | Tweet |",
+        "Harry Stebbings Challenge": "| 2023-02-04 | [[Finally, Apple Pay in Korea]] | [[\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774]]  | Tweet |",
         "\ub4dc\ub514\uc5b4, \ud55c\uad6d \uc560\ud50c\ud398\uc774": "[[Finally, Apple Pay in Korea]]"
     },
     "Slow Down Your Clock Cycle Speed": {
@@ -1544,7 +1553,8 @@ export const backlinks = {
         "2023-02-01": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-02": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-03": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
-        "2023-02-04": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-04": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-05": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
         "Building Habit": "- [[Jogging 25 minutes every day (January & February 2023)]]"
     },
     "Reverse Engineering Apple Music API": {
@@ -2050,7 +2060,7 @@ export const backlinks = {
     },
     "Imoogi and Dragon Company": {
         "2023-02-01": "- [[Imoogi and Dragon Company]]",
-        "Harry Stebbings Challenge": "| 2023-02-01 | [[Imoogi and Dragon Company]]   | Tweet |"
+        "Harry Stebbings Challenge": "| 2023-02-01 | [[Imoogi and Dragon Company]]   | [[\uc774\ubb34\uae30 \uae30\uc5c5, \uccad\ub8e1 \uae30\uc5c5]] | Tweet |"
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
@@ -2077,7 +2087,7 @@ export const backlinks = {
     },
     "The Zenly Playbook": {
         "2023-02-03": "- [[The Zenly Playbook]]",
-        "Harry Stebbings Challenge": "| 2023-02-03 | [[The Zenly Playbook]]          | Tweet ...",
+        "Harry Stebbings Challenge": "| 2023-02-03 | [[The Zenly Playbook]]          | [[\uc820\ub9ac\uc758 ...",
         "\uc820\ub9ac\uc758 \uc131\uacf5 \uacf5\uc2dd": "[[The Zenly Playbook]]"
     },
     "0704 Binary Search": {
@@ -2458,7 +2468,8 @@ export const backlinks = {
         "2023-02-01": "## [[Building Habit]]",
         "2023-02-02": "## [[Building Habit]]",
         "2023-02-03": "## [[Building Habit]]",
-        "2023-02-04": "## [[Building Habit]]"
+        "2023-02-04": "## [[Building Habit]]",
+        "2023-02-05": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3221,6 +3232,9 @@ export const backlinks = {
         "2022-11-26": "- [[Mathematics under The Library of Babel]]",
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
+    "\uc774\ubb34\uae30 \uae30\uc5c5, \uccad\ub8e1 \uae30\uc5c5": {
+        "Harry Stebbings Challenge": "| 2023-02-01 | Imoogi and Dragon Company   | [[\uc774\ubb34\uae30 \uae30\uc5c5, \uccad\ub8e1 \uae30\uc5c5]] | Tweet |"
+    },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
         "2022-10-15": "- [[Dynamic Island on the Web]]",
@@ -3510,7 +3524,8 @@ export const backlinks = {
     },
     "Harry Stebbings Challenge": {
         "2023-02-03": "- [[Harry Stebbings Challenge]]",
-        "2023-02-04": "- [[Harry Stebbings Challenge]]"
+        "2023-02-04": "- [[Harry Stebbings Challenge]]",
+        "2023-02-05": "- [[Harry Stebbings Challenge]]"
     },
     "Ruby": {
         "Higher-Level Languages and Their Speeds": "## [[Ruby]]"
@@ -3660,6 +3675,10 @@ export const backlinks = {
     "designOS": {
         "Diagram (Company)": "- Creator of [[designOS]]"
     },
+    "The Era of Invites": {
+        "2023-02-05": "- [[The Era of Invites]]",
+        "Harry Stebbings Challenge": "| 2023-02-05 | [[The Era of Invites]]          | [[\ucd08\ub300\uc7a5\uc758 ..."
+    },
     "Fediverse": {
         "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply \"join Mastodon.\" Instead, users ..."
     },
@@ -3769,8 +3788,10 @@ export const backlinks = {
         "10x Technologist": "... developers are a term that describes an exceptionally skilled and productive, [[small yet powerful]] group of software developers. It is a colloquial term used to ...",
         "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the ...",
         "2022-10-27": "- [[Small yet Powerful]]",
+        "The Era of Invites": "... observation is that these 'successful, invite-based' software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big techs use an invite-based system when ...",
         "The Zenly Playbook": "... app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?",
-        "\uc820\ub9ac\uc758 \uc131\uacf5 \uacf5\uc2dd": "... \uc820\ub9ac\uac00 \ubb38\uc744 \ub2eb\uc558\ub2e4. \ud504\ub791\uc2a4\uc758 \ud55c \uac1c\ubc1c\uc790\ub85c\ubd80\ud130 \uc2dc\uc791\ud574 3\ucc9c\uc5b5\uc5d0 \uc2a4\ub0c5\uc5d0 \uc778\uc218\ub41c \uae30\uc220 [[Small yet Powerful|\uac15\uc18c]] \uae30\uc5c5\uc740 \uc5b4\ub5bb\uac8c \uc131\uc7a5\ud558\uace0 \uc5b4\ub5bb\uac8c \uc0ac\ub77c\uc84c\uc744\uae4c. \uadf8\ub9ac\uace0 \uc6b0\ub9ac\ub294 \ubb34\uc5c7\uc744 \ubc30\uc6b8 \uc218 \uc788\uc744\uae4c?"
+        "\uc820\ub9ac\uc758 \uc131\uacf5 \uacf5\uc2dd": "... \uc820\ub9ac\uac00 \ubb38\uc744 \ub2eb\uc558\ub2e4. \ud504\ub791\uc2a4\uc758 \ud55c \uac1c\ubc1c\uc790\ub85c\ubd80\ud130 \uc2dc\uc791\ud574 3\ucc9c\uc5b5\uc5d0 \uc2a4\ub0c5\uc5d0 \uc778\uc218\ub41c \uae30\uc220 [[Small yet Powerful|\uac15\uc18c]] \uae30\uc5c5\uc740 \uc5b4\ub5bb\uac8c \uc131\uc7a5\ud558\uace0 \uc5b4\ub5bb\uac8c \uc0ac\ub77c\uc84c\uc744\uae4c. \uadf8\ub9ac\uace0 \uc6b0\ub9ac\ub294 \ubb34\uc5c7\uc744 \ubc30\uc6b8 \uc218 \uc788\uc744\uae4c?",
+        "\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300": "\ub610 \ud558\ub098 \ud765\ubbf8\ub85c\uc6b4 \uad00\ucc30\uc740 \uc774\ub7f0 \uc131\uacf5\uc801\uc778 \ucd08\ub300\uc7a5 \uae30\ubc18 \uc18c\ud504\ud2b8\uc6e8\uc5b4 \uae30\uc5c5\uc740 \ub300\ubd80\ubd84 [[Small yet Powerful|\uc18c\uc218\uc815\uc608]] \uc5d8\ub9ac\ud2b8 \ud300\uc774\ub77c\ub294 \uc810\uc774\ub2e4. \ube45\ud14c\ud06c\ub4e4\uc740 \uc65c \ucd08\ub300\uc7a5 \uc2dc\uc2a4\ud15c\uc744 \uc0ac\uc6a9\ud558\uc9c0 \uc54a\uc744\uae4c? \uc5b4\uca4c\uba74 \uc774\uac83\uc740 ..."
     },
     "Vertex Buffer": {
         "2023-01-23": "- [[Vertex Buffer]]"
@@ -4031,7 +4052,8 @@ export const backlinks = {
     "Unicorn": {
         "Imoogi and Dragon Company": "The word [[Unicorn]] Company gives the company too much of a magical sentiment as ...",
         "Ridi": "Ridi is a Korean [[Unicorn]] specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
-        "Toss": "- Financial Technology|FinTech [[Unicorn]] of Korea."
+        "Toss": "- Financial Technology|FinTech [[Unicorn]] of Korea.",
+        "\uc774\ubb34\uae30 \uae30\uc5c5, \uccad\ub8e1 \uae30\uc5c5": "[[Unicorn|\uc720\ub2c8\ucf58]] \uae30\uc5c5\uc774\ub77c\ub294 \ub2e8\uc5b4\ub294 \ub9c8\uce58 \uc131\uacf5\uc774 \uc815\ud574\uc9c4 \uc591 \ub108\ubb34 \ub9c8\ubc95\uc801\uc778 \uae30\uc6b4\uc744 \uc900\ub2e4. \ud55c\uad6d ..."
     },
     "Accelerationism": {
         "Effective Accelerationism": "- [[Accelerationism]]"
@@ -4670,6 +4692,10 @@ export const backlinks = {
     },
     "9CCA89.png": {
         "Search Engine Indexing Your Life": "![[9CCA89.png]]"
+    },
+    "1A746C.png": {
+        "The Era of Invites": "![[1A746C.png]]",
+        "\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300": "![[1A746C.png]]"
     },
     "74CA20.png": {
         "Aldehyde Landing Page 2023": "![[74CA20.png]]",
