@@ -24,10 +24,10 @@ Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
 Markdown                  1142     33338     8284         0    25054          0
 CSS                         68     20079      174        36    19869          0
-TypeScript                  53      8958      149        68     8741        143
+TypeScript                  53      8957      149        77     8731        143
 JSON                        42      2158        0         0     2158          0
+Python                       7       720       55        40      625        103
 SVG                          7         7        0         0        7          0
-Python                       6       660       48        38      574         78
 YAML                         6        30        2         0       28          0
 JavaScript                   5     26577      388      4877    21312        837
 Plain Text                   2        97       18         0       79          0
@@ -35,13 +35,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       291       73        70      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1335     92210     9136      5093    77981       1058
+Total                     1336     92269     9143      5104    78022       1083
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,619,289
+Estimated Cost to Develop (organic) $2,620,735
 Estimated Schedule Effort (organic) 19.83 months
-Estimated People Required (organic) 11.73
+Estimated People Required (organic) 11.74
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6293537 bytes, 6.294 megabytes (SI)
+Processed 6296570 bytes, 6.297 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
