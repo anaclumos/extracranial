@@ -1,5 +1,7 @@
 import os
 
+# this file generates <figure>, <figcaption> and <Image> (for lazy loading) tags.
+
 targets = ["./docs/", "./blog/", "./i18n/"]
 COUNTER = 0
 
@@ -19,12 +21,14 @@ if __name__ == "__main__":
     # replace ![alt text](file.ext) with
     # <figure><img alt="alt text" src="file.ext"><figcaption>alt text</figcaption></figure>
 
+    current_file_has_ideal_image = False
     for md_file in all_md_files:
         if md_file.endswith("Hey.md"):
             continue
         with open(md_file, "r") as f:
             lines = f.readlines()
         with open(md_file, "w") as f:
+            current_file_has_ideal_image = False
             for line in lines:
                 if (
                     line.startswith("![")
@@ -34,6 +38,11 @@ if __name__ == "__main__":
                 ):
                     alt_text = line.split("![")[1].split("]")[0]
                     filename = line.split("(")[1].split(")")[0]
+                    if not current_file_has_ideal_image:
+                        line = "\nimport Image from '@theme/IdealImage';\n"
+                        current_file_has_ideal_image = True
+                    else:
+                        line = "\n"
                     if (
                         alt_text.endswith(".png")
                         or alt_text.endswith(".jpg")
@@ -42,18 +51,26 @@ if __name__ == "__main__":
                         or alt_text.endswith(".svg")
                         or alt_text.startswith("ALT:")
                     ):
-                        line = f"""
+                        filepath = os.path.join(os.path.dirname(md_file), filename)
+                        alt_text = (
+                            alt_text.replace("ALT:", "")
+                            .replace('alt:"', "")
+                            .replace('"', "`")
+                            .replace("'", "`")
+                            .strip()
+                        )
+                        line += f"""
 <figure>
 
-{line.replace("ALT: ", "").replace("ALT:", "")}
+<Image img={{require('{filepath}')}} alt=\"{alt_text}\" />
 
 </figure>
 """
                     else:
-                        line = f"""
+                        line += f"""
 <figure>
 
-{line}
+<Image img={{require('{filename}')}} alt=\"{alt_text}\" />
 
 <figcaption>{alt_text}</figcaption>
 </figure>
