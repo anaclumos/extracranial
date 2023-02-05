@@ -3,12 +3,13 @@ lang: 'en'
 slug: '/18728A'
 ---
 
-| Date           | Post                            | Tweet                                                             |
-| -------------- | ------------------------------- | ----------------------------------------------------------------- |
-| [[2023-02-01]] | [[Imoogi and Dragon Company]]   | [Tweet](https://twitter.com/anaclumos/status/1620714157418094593) |
-| [[2023-02-02]] | [[Service Shimming]]            | [Tweet](https://twitter.com/anaclumos/status/1621250040022061060) |
-| [[2023-02-03]] | [[The Zenly Playbook]]          | [Tweet](https://twitter.com/anaclumos/status/1621646220954574848) |
-| [[2023-02-04]] | [[Finally, Apple Pay in Korea]] | [Tweet](https://twitter.com/anaclumos/status/1621975286127513600) |
+| Date           | English                         | 한국어                     | Tweet                                                             |
+| -------------- | ------------------------------- | -------------------------- | ----------------------------------------------------------------- |
+| [[2023-02-01]] | [[Imoogi and Dragon Company]]   | [[이무기 기업, 청룡 기업]] | [Tweet](https://twitter.com/anaclumos/status/1620714157418094593) |
+| [[2023-02-02]] | [[Service Shimming]]            | [[서비스 시밍]]            | [Tweet](https://twitter.com/anaclumos/status/1621250040022061060) |
+| [[2023-02-03]] | [[The Zenly Playbook]]          | [[젠리의 성공 공식]]       | [Tweet](https://twitter.com/anaclumos/status/1621646220954574848) |
+| [[2023-02-04]] | [[Finally, Apple Pay in Korea]] | [[드디어, 한국 애플페이]]  | [Tweet](https://twitter.com/anaclumos/status/1621975286127513600) |
+| [[2023-02-05]] | [[The Era of Invites]]          | [[초대장의 시대]]          |                                                                   |
 
  <details>
 <summary>Initial announcement</summary>
