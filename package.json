@@ -6,6 +6,8 @@
     "docusaurus": "docusaurus",
     "start": "$npm_execpath run heavy-process && docusaurus start",
     "build": "$npm_execpath run heavy-process && docusaurus build && $npm_execpath run redirects",
+    "parallel": "docusaurus build --locale ko & docusaurus build --locale en",
+    "build:parallel": "$npm_execpath run heavy-process && $npm_execpath run parallel && $npm_execpath run redirects",
     "redirects": "cp _redirects build/_redirects",
     "swizzle": "docusaurus swizzle",
     "deploy": "$npm_execpath run build && npx wrangler pages publish ./build --commit-dirty=true --project-name=memex",
