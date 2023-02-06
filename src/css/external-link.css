@@ -55,8 +55,9 @@ article a[href^='http']::after {
   background-color: var(--linkflags-color);
   height: 1em;
   width: 1em;
-  margin: 0.1em;
-  margin-bottom: 0.2em;
+  margin-top: 0.1em;
+  margin-right: 0.1em;
+  margin-bottom: 0.15em;
   display: inline-block;
   vertical-align: middle !important;
   mask-repeat: no-repeat;
