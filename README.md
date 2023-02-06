@@ -23,7 +23,7 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is ev
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
 Markdown                  1146     33439     8321         0    25118          0
-CSS                         68     20079      174        37    19868          0
+CSS                         68     20065      173        27    19865          0
 TypeScript                  53      8968      149        77     8742        143
 JSON                        42      2154        0         0     2154          0
 Python                       7       733       54        40      639        102
@@ -35,13 +35,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1340     92391     9179      5105    78107       1082
+Total                     1340     92377     9178      5095    78104       1082
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,623,733
+Estimated Cost to Develop (organic) $2,623,628
 Estimated Schedule Effort (organic) 19.84 months
 Estimated People Required (organic) 11.75
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6309525 bytes, 6.310 megabytes (SI)
+Processed 6308874 bytes, 6.309 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
