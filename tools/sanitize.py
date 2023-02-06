@@ -1,4 +1,5 @@
 import os
+import unicodedata
 
 
 def getHex():
@@ -118,5 +119,6 @@ if __name__ == "__main__":
                 for rule in REPLACE_RULES:
                     if rule in line:
                         line = line.replace(rule, REPLACE_RULES[rule])
+                    line = unicodedata.normalize("NFC", line)
                 f.write(line)
     print("Replaced " + str(COUNTER) + " hex marks.")
