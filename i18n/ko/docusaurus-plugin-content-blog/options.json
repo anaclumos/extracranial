@@ -8,7 +8,7 @@
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "연구 완료",
+    "message": "열람실",
     "description": "The label for the left sidebar"
   }
 }
