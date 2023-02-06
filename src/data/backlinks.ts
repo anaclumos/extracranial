@@ -838,7 +838,7 @@ export const backlinks = {
     },
     "\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300": {
         "2023-02-05": "- [[\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300]]",
-        "Harry Stebbings Challenge": "... Invites          | [[\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300]]          |  ..."
+        "Harry Stebbings Challenge": "... Invites          | [[\ucd08\ub300\uc7a5\uc758 \uc2dc\ub300]]          | Tweet ..."
     },
     "Forward Declaration": {
         "2023-01-25": "- [[Forward Declaration]]",
