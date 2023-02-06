@@ -1554,7 +1554,7 @@ export const backlinks = {
         "2023-02-02": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-03": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-04": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
-        "2023-02-05": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-05": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "Building Habit": "- [[Jogging 25 minutes every day (January & February 2023)]]"
     },
     "Reverse Engineering Apple Music API": {
