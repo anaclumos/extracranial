@@ -1,8 +1,8 @@
 {
   "theme": "obsidian",
-  "interfaceFontFamily": "SF Pro Rounded,LINE Seed Sans KR",
-  "textFontFamily": "SF Pro Rounded,LINE Seed Sans KR",
-  "monospaceFontFamily": "D2Coding",
+  "interfaceFontFamily": "D2Coding ligature",
+  "textFontFamily": "D2Coding ligature",
+  "monospaceFontFamily": "D2Coding ligature",
   "cssTheme": "",
   "translucency": false,
   "baseFontSize": 20,

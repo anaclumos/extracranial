@@ -132,7 +132,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "## [[2022-12-28]]"
     },
     "2023-02-04": {
-        "Harry Stebbings Challenge": "| [[2023-02-04]] | [[Finally, Apple Pay in Korea]] | [[드디어, 한국 애플페이]]  ..."
+        "Harry Stebbings Challenge": "| [[2023-02-04]] | [[Finally, Apple Pay in Korea]]   | [[드디어, 한국 ..."
     },
     "2022-11-22": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-22]] 과제의 홍수"
@@ -177,7 +177,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "## [[2022-12-19]]"
     },
     "2023-02-01": {
-        "Harry Stebbings Challenge": "| [[2023-02-01]] | [[Imoogi and Dragon Company]]   | [[이무기 기업, 청룡 ..."
+        "Harry Stebbings Challenge": "| [[2023-02-01]] | [[Imoogi and Dragon Company]]     | [[이무기 ..."
     },
     "2020-09-20": {
         "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
@@ -226,6 +226,9 @@ export const backlinks = {
         "0278 First Bad Version": "Solved at: [[2023-01-28]]",
         "0383 Ransom Note": "Solved at: [[2023-01-28]]",
         "0409 Longest Palindrome": "Solved at: [[2023-01-28]]"
+    },
+    "2023-02-06": {
+        "Harry Stebbings Challenge": "| [[2023-02-06]] | [[Remembering that Disarmed Bomb]] | [[방지된 폭탄에 대한 경의]] | ..."
     },
     "2019-11-06": {
         "프로젝트 어덕행덕": "- [[2019-11-06]]"
@@ -838,7 +841,7 @@ export const backlinks = {
     },
     "초대장의 시대": {
         "2023-02-05": "- [[초대장의 시대]]",
-        "Harry Stebbings Challenge": "... Invites          | [[초대장의 시대]]          | Tweet ..."
+        "Harry Stebbings Challenge": "...           | [[초대장의 시대]]           | ..."
     },
     "Forward Declaration": {
         "2023-01-25": "- [[Forward Declaration]]",
@@ -1175,7 +1178,7 @@ export const backlinks = {
     },
     "Finally, Apple Pay in Korea": {
         "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
-        "Harry Stebbings Challenge": "| 2023-02-04 | [[Finally, Apple Pay in Korea]] | [[드디어, 한국 애플페이]]  | Tweet |",
+        "Harry Stebbings Challenge": "| 2023-02-04 | [[Finally, Apple Pay in Korea]]   | [[드디어, 한국 애플페이]]   | Tweet |",
         "드디어, 한국 애플페이": "[[Finally, Apple Pay in Korea]]"
     },
     "Slow Down Your Clock Cycle Speed": {
@@ -1555,6 +1558,7 @@ export const backlinks = {
         "2023-02-03": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-04": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-05": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-06": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
         "Building Habit": "- [[Jogging 25 minutes every day (January & February 2023)]]"
     },
     "Reverse Engineering Apple Music API": {
@@ -1946,6 +1950,7 @@ export const backlinks = {
         "2023-01-22": "## [[Project]]",
         "2023-01-25": "## [[Project]]",
         "2023-01-31": "## [[Project]]",
+        "2023-02-06": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter Network]] but you must",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -2060,7 +2065,7 @@ export const backlinks = {
     },
     "Imoogi and Dragon Company": {
         "2023-02-01": "- [[Imoogi and Dragon Company]]",
-        "Harry Stebbings Challenge": "| 2023-02-01 | [[Imoogi and Dragon Company]]   | [[이무기 기업, 청룡 기업]] | Tweet |"
+        "Harry Stebbings Challenge": "| 2023-02-01 | [[Imoogi and Dragon Company]]     | [[이무기 기업, 청룡 기업]]  | ..."
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
@@ -2087,7 +2092,7 @@ export const backlinks = {
     },
     "The Zenly Playbook": {
         "2023-02-03": "- [[The Zenly Playbook]]",
-        "Harry Stebbings Challenge": "| 2023-02-03 | [[The Zenly Playbook]]          | [[젠리의 ...",
+        "Harry Stebbings Challenge": "| 2023-02-03 | [[The Zenly Playbook]]            ...",
         "젠리의 성공 공식": "[[The Zenly Playbook]]"
     },
     "0704 Binary Search": {
@@ -2469,7 +2474,8 @@ export const backlinks = {
         "2023-02-02": "## [[Building Habit]]",
         "2023-02-03": "## [[Building Habit]]",
         "2023-02-04": "## [[Building Habit]]",
-        "2023-02-05": "## [[Building Habit]]"
+        "2023-02-05": "## [[Building Habit]]",
+        "2023-02-06": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3233,7 +3239,7 @@ export const backlinks = {
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
     "이무기 기업, 청룡 기업": {
-        "Harry Stebbings Challenge": "| 2023-02-01 | Imoogi and Dragon Company   | [[이무기 기업, 청룡 기업]] | Tweet |"
+        "Harry Stebbings Challenge": "... 2023-02-01 | Imoogi and Dragon Company     | [[이무기 기업, 청룡 기업]]  | Tweet |"
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
@@ -3525,7 +3531,8 @@ export const backlinks = {
     "Harry Stebbings Challenge": {
         "2023-02-03": "- [[Harry Stebbings Challenge]]",
         "2023-02-04": "- [[Harry Stebbings Challenge]]",
-        "2023-02-05": "- [[Harry Stebbings Challenge]]"
+        "2023-02-05": "- [[Harry Stebbings Challenge]]",
+        "2023-02-06": "- [[Harry Stebbings Challenge]]"
     },
     "Ruby": {
         "Higher-Level Languages and Their Speeds": "## [[Ruby]]"
@@ -3677,7 +3684,7 @@ export const backlinks = {
     },
     "The Era of Invites": {
         "2023-02-05": "- [[The Era of Invites]]",
-        "Harry Stebbings Challenge": "| 2023-02-05 | [[The Era of Invites]]          | [[초대장의 ..."
+        "Harry Stebbings Challenge": "| 2023-02-05 | [[The Era of Invites]]            ..."
     },
     "Fediverse": {
         "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply \"join Mastodon.\" Instead, users ..."
@@ -3972,6 +3979,7 @@ export const backlinks = {
         "2022-12-28": "## [[Hacker News]]",
         "2023-01-13": "## [[Hacker News]]",
         "2023-02-02": "## [[Hacker News]]",
+        "2023-02-06": "## [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -4133,6 +4141,10 @@ export const backlinks = {
     },
     "0079 Word Search": {
         "Coding Tests": "- [ ] [[0079 Word Search]]"
+    },
+    "Remembering that Disarmed Bomb": {
+        "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
+        "Harry Stebbings Challenge": "| 2023-02-06 | [[Remembering that Disarmed Bomb]] | [[방지된 폭탄에 대한 경의]] |      ..."
     },
     "Virtual Address Space and Physical Address Space": {
         "2022-11-04": "- [[Virtual Address Space and Physical Address Space]]",
@@ -4588,7 +4600,7 @@ export const backlinks = {
     },
     "드디어, 한국 애플페이": {
         "2023-02-04": "- [[드디어, 한국 애플페이]]",
-        "Harry Stebbings Challenge": "| 2023-02-04 | Finally, Apple Pay in Korea | [[드디어, 한국 애플페이]]  | Tweet |"
+        "Harry Stebbings Challenge": "| 2023-02-04 | Finally, Apple Pay in Korea   | [[드디어, 한국 애플페이]]   | Tweet |"
     },
     "글감": {
         "2023-02-02": "- [[글감]]",
@@ -4625,7 +4637,9 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "![[5B9AFC.png]]"
     },
     "방지된 폭탄에 대한 경의": {
-        "2023-02-01": "- [[방지된 폭탄에 대한 경의]]"
+        "2023-02-01": "- [[방지된 폭탄에 대한 경의]]",
+        "2023-02-06": "- [[방지된 폭탄에 대한 경의]]",
+        "Harry Stebbings Challenge": "| 2023-02-06 | Remembering that Disarmed Bomb | [[방지된 폭탄에 대한 경의]] |           ..."
     },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
@@ -4725,7 +4739,7 @@ export const backlinks = {
     },
     "젠리의 성공 공식": {
         "2023-02-03": "- [[젠리의 성공 공식]]",
-        "Harry Stebbings Challenge": "... Playbook          | [[젠리의 성공 공식]]       | Tweet |"
+        "Harry Stebbings Challenge": "...           | [[젠리의 성공 공식]]        | Tweet |"
     },
     "한국의 입시와 거짓된 명예": {
         "2022-11-25": "- [[한국의 입시와 거짓된 명예]]",
