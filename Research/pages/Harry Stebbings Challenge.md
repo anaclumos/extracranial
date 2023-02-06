@@ -9,7 +9,7 @@ slug: '/18728A'
 | [[2023-02-02]] | [[Service Shimming]]            | [[서비스 시밍]]            | [Tweet](https://twitter.com/anaclumos/status/1621250040022061060) |
 | [[2023-02-03]] | [[The Zenly Playbook]]          | [[젠리의 성공 공식]]       | [Tweet](https://twitter.com/anaclumos/status/1621646220954574848) |
 | [[2023-02-04]] | [[Finally, Apple Pay in Korea]] | [[드디어, 한국 애플페이]]  | [Tweet](https://twitter.com/anaclumos/status/1621975286127513600) |
-| [[2023-02-05]] | [[The Era of Invites]]          | [[초대장의 시대]]          |                                                                   |
+| [[2023-02-05]] | [[The Era of Invites]]          | [[초대장의 시대]]          | [Tweet](https://twitter.com/anaclumos/status/1622384241442160641) |
 
  <details>
 <summary>Initial announcement</summary>
