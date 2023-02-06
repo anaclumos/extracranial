@@ -110,19 +110,6 @@ if __name__ == "__main__":
         )
     filename_uid_map = dict(sorted(filename_uid_map.items(), key=lambda item: item[0]))
 
-    import unicodedata
-
-    # convert everything into unicodedata.normalize('NFC', string)
-    for key in list(backlink_map.keys()):
-        backlink_map[unicodedata.normalize("NFC", key)] = backlink_map.pop(key)
-    for key in list(backlink_map.keys()):
-        for key2 in list(backlink_map[key].keys()):
-            backlink_map[key][unicodedata.normalize("NFC", key2)] = backlink_map[
-                key
-            ].pop(key2)
-    for key in list(filename_uid_map.keys()):
-        filename_uid_map[unicodedata.normalize("NFC", key)] = filename_uid_map.pop(key)
-
     import json
 
     # delete keys with empty values
@@ -133,7 +120,7 @@ if __name__ == "__main__":
     with open("./src/data/backlinks.ts", "w") as f:
         f.write(
             "export const backlinks = "
-            + json.dumps(dict(backlink_map), indent=4, ensure_ascii=True)
+            + json.dumps(dict(backlink_map), indent=4, ensure_ascii=False)
             .encode("utf8")
             .decode()
         )
@@ -147,7 +134,7 @@ if __name__ == "__main__":
     with open("./src/data/filenames.ts", "w") as f:
         f.write(
             "export const filenames = "
-            + json.dumps(filename_uid_map, indent=4, ensure_ascii=True)
+            + json.dumps(filename_uid_map, indent=4, ensure_ascii=False)
             .encode("utf8")
             .decode()
         )
