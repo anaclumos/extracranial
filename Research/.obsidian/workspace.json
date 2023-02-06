@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md",
+                "file": "journals/2023-02-05.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md",
+                "file": "journals/2023-02-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md"
+                "file": "journals/2023-02-05.md"
               }
             }
           },
