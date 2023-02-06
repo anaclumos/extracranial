@@ -21,29 +21,27 @@ const navbar = {
   },
   items: [
     {
-      to: getMostRecentJournalLink(),
-      label: 'Today',
-      position: 'left',
-    },
-    {
-      to: '/random',
-      label: 'Random',
-      position: 'left',
-    },
-    {
-      type: 'doc',
-      docId: 'Hey',
-      position: 'left',
+      type: 'dropdown',
       label: 'Research',
+      position: 'left',
+      items: [
+        {
+          to: getMostRecentJournalLink(),
+          label: 'Today',
+        },
+        {
+          to: '/random',
+          label: 'Random',
+        },
+        {
+          to: '/3d',
+          label: 'Graph',
+        },
+      ],
     },
     {
       to: '/w/archive',
       label: 'Articles',
-      position: 'left',
-    },
-    {
-      to: '/3d',
-      label: 'Graph',
       position: 'left',
     },
     {
