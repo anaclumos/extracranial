@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/CE3D4E'
 ---
 
-Heinrich's 300-29-1 Model states that before one major industrial accident occurs, at least 300 near misses and 29 minor accidents occur. Major accidents only happen if we ignore all of those alert signals. This applies at a societal and personal level; you will make one terrible mistake if you ignore all the portents.
+Heinrich's 300-29-1 model states that before one major industrial accident occurs, there are at least 300 near misses and 29 minor accidents. Major accidents only happen if we ignore all of those alerts. This applies at a societal and personal level; you will make one terrible mistake if you ignore all the portents.
 
 But on the other hand, are we paying our homage to the antiterrorist groups who disarm all those potential threats? Preventing such accident often comes in the form of double-checking mundane stuff, which we do dozen times a day.
 

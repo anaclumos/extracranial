@@ -114,6 +114,8 @@ if __name__ == "__main__":
                     " | Cornell Chronicle": "",
                     " | Department of Energy": "",
                     " | TAXLY.KR (택슬리)": "",
+                    "<br>": "<br/>",
+                    '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>': "",
                 }
 
                 for rule in REPLACE_RULES:

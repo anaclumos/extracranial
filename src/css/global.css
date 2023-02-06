@@ -130,7 +130,7 @@ hr {
 table {
   display: table;
   margin: 1rem auto;
-  min-width: 80%;
+  overflow: auto;
 }
 
 [data-theme='dark'] img {

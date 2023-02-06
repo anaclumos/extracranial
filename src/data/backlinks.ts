@@ -132,7 +132,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "## [[2022-12-28]]"
     },
     "2023-02-04": {
-        "Harry Stebbings Challenge": "| [[2023-02-04]] | [[Finally, Apple Pay in Korea]]   | [[드디어, 한국 ..."
+        "Harry Stebbings Challenge": "| [[2023-02-04]] | [[Finally, Apple Pay in Korea]]    | [[드디어, ..."
     },
     "2022-11-22": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-22]] 과제의 홍수"
@@ -177,7 +177,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "## [[2022-12-19]]"
     },
     "2023-02-01": {
-        "Harry Stebbings Challenge": "| [[2023-02-01]] | [[Imoogi and Dragon Company]]     | [[이무기 ..."
+        "Harry Stebbings Challenge": "| [[2023-02-01]] | [[Imoogi and Dragon Company]]      | ..."
     },
     "2020-09-20": {
         "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
@@ -1178,7 +1178,7 @@ export const backlinks = {
     },
     "Finally, Apple Pay in Korea": {
         "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
-        "Harry Stebbings Challenge": "| 2023-02-04 | [[Finally, Apple Pay in Korea]]   | [[드디어, 한국 애플페이]]   | Tweet |",
+        "Harry Stebbings Challenge": "| 2023-02-04 | [[Finally, Apple Pay in Korea]]    | [[드디어, 한국 애플페이]]   | Tweet ...",
         "드디어, 한국 애플페이": "[[Finally, Apple Pay in Korea]]"
     },
     "Slow Down Your Clock Cycle Speed": {
@@ -2065,7 +2065,7 @@ export const backlinks = {
     },
     "Imoogi and Dragon Company": {
         "2023-02-01": "- [[Imoogi and Dragon Company]]",
-        "Harry Stebbings Challenge": "| 2023-02-01 | [[Imoogi and Dragon Company]]     | [[이무기 기업, 청룡 기업]]  | ..."
+        "Harry Stebbings Challenge": "| 2023-02-01 | [[Imoogi and Dragon Company]]      | [[이무기 기업, 청룡 기업]]  ..."
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
@@ -3239,7 +3239,7 @@ export const backlinks = {
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
     "이무기 기업, 청룡 기업": {
-        "Harry Stebbings Challenge": "... 2023-02-01 | Imoogi and Dragon Company     | [[이무기 기업, 청룡 기업]]  | Tweet |"
+        "Harry Stebbings Challenge": "... | Imoogi and Dragon Company      | [[이무기 기업, 청룡 기업]]  | Tweet |"
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
@@ -4600,7 +4600,7 @@ export const backlinks = {
     },
     "드디어, 한국 애플페이": {
         "2023-02-04": "- [[드디어, 한국 애플페이]]",
-        "Harry Stebbings Challenge": "| 2023-02-04 | Finally, Apple Pay in Korea   | [[드디어, 한국 애플페이]]   | Tweet |"
+        "Harry Stebbings Challenge": "... 2023-02-04 | Finally, Apple Pay in Korea    | [[드디어, 한국 애플페이]]   | Tweet |"
     },
     "글감": {
         "2023-02-02": "- [[글감]]",
