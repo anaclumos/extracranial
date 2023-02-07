@@ -4144,7 +4144,7 @@ export const backlinks = {
     },
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
-        "Harry Stebbings Challenge": "| 2023-02-06 | [[Remembering that Disarmed Bomb]] | [[방지된 폭탄에 대한 경의]] |      ..."
+        "Harry Stebbings Challenge": "| 2023-02-06 | [[Remembering that Disarmed Bomb]] | [[방지된 폭탄에 대한 경의]] | Tweet     ..."
     },
     "Virtual Address Space and Physical Address Space": {
         "2022-11-04": "- [[Virtual Address Space and Physical Address Space]]",
@@ -4639,7 +4639,7 @@ export const backlinks = {
     "방지된 폭탄에 대한 경의": {
         "2023-02-01": "- [[방지된 폭탄에 대한 경의]]",
         "2023-02-06": "- [[방지된 폭탄에 대한 경의]]",
-        "Harry Stebbings Challenge": "| 2023-02-06 | Remembering that Disarmed Bomb | [[방지된 폭탄에 대한 경의]] |           ..."
+        "Harry Stebbings Challenge": "| 2023-02-06 | Remembering that Disarmed Bomb | [[방지된 폭탄에 대한 경의]] | Tweet          ..."
     },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
