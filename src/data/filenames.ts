@@ -480,6 +480,7 @@ export const filenames = {
     "Effective Accelerationism": "D344B2",
     "Either be the best-in-class or the most efficient": "1F7327",
     "Elo Rating": "88A3F5",
+    "ElonPet": "6A149E",
     "Emails and Decentralized Protocols": "B26538",
     "Embeddable GitHub Repo Card But It Looks Great": "724BDE",
     "Emojis": "1E10E6",
@@ -1075,6 +1076,7 @@ export const filenames = {
     "유난한 도전": "26A488",
     "이 땅에 태어나서": "FC9D06",
     "이루다": "673708",
+    "이무기 기업, 청룡 기업": "A797C1",
     "일본 과학기술 총력전": "E25BBF",
     "잡스와 생존 편향": "AEF12A",
     "재학생일기": "14B494",
@@ -1083,6 +1085,7 @@ export const filenames = {
     "조선의 노비제도에 관한 보고": "FE81DE",
     "졸업을 앞둔 중학교 3학년들에게": "AEB172",
     "지구 끝의 온실": "192269",
+    "초대장의 시대": "7C9BEE",
     "초상권 vs 저작권": "46AF52",
     "코드클럽": "36EB48",
     "태백산맥 계획": "D25D6B",
@@ -1103,7 +1106,5 @@ export const filenames = {
     "強力反權": "2592EA",
     "水適穿石": "D9B586",
     "洪民憙雜記": "2CD26A",
-    "雅號를 찾아서": "8A1CBA",
-    "이무기 기업, 청룡 기업": "A797C1",
-    "초대장의 시대": "7C9BEE"
+    "雅號를 찾아서": "8A1CBA"
 }
