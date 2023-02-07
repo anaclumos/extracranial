@@ -426,7 +426,7 @@ export const backlinks = {
         "Synthote": "- [[ChatGPT]]",
         "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
         "The Era of Invites": "... an invitation system will never reach your attention. For example, did [[ChatGPT]] require an invite? Nope.",
-        "초대장의 시대": "... 가진 스타트업이 성공하지 못하면 우리의 관심에 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
+        "초대장의 시대": "... 가진 스타트업이 성공하지 못하면 우리의 관심에 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
     },
     "Paracosm": {
         "Text-based Tools for Thought": "### [[Paracosm]]"
@@ -657,6 +657,9 @@ export const backlinks = {
     "Jira": {
         "Linear": "- An issue tracking service, like Height, or [[Jira]]"
     },
+    "ElonPet": {
+        "2023-02-06": "- [[ElonPet]]"
+    },
     "Blockchain": {
         "2022-10-27": "- [[Blockchain]]",
         "Ethereum RPC as a Service": "... RPC is the primary way that you query data on the [[blockchain]]. AWS offers a similar product, AWS Managed Blockchain. Essentially these are ...",
@@ -838,10 +841,6 @@ export const backlinks = {
     "Person 1E6ABA": {
         "2022-11-24": "- [[Person 1E6ABA]]",
         "Project PEOPLE": "- [[Person 1E6ABA]]"
-    },
-    "초대장의 시대": {
-        "2023-02-05": "- [[초대장의 시대]]",
-        "Harry Stebbings Challenge": "...           | [[초대장의 시대]]           | ..."
     },
     "Forward Declaration": {
         "2023-01-25": "- [[Forward Declaration]]",
@@ -1558,7 +1557,7 @@ export const backlinks = {
         "2023-02-03": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-04": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-05": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
-        "2023-02-06": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-06": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "Building Habit": "- [[Jogging 25 minutes every day (January & February 2023)]]"
     },
     "Reverse Engineering Apple Music API": {
@@ -1973,6 +1972,7 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "2022-07-19 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
         "Digital Bookmarks for Physical Books": "Someday [[Project]]. Can we bookmark physical books with digital devices? i.e. scan it ...",
         "Dynamic Island on the Web": "- Done [[Project]]",
+        "ElonPet": "- Someday [[Project]]. Uses GPT-3 to write good things about Elon (Sarcastically) randomly",
         "Embeddable GitHub Repo Card But It Looks Great": "Someday [[Project]].",
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
         "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
@@ -3232,9 +3232,6 @@ export const backlinks = {
         "2022-11-26": "- [[Mathematics under The Library of Babel]]",
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
-    "이무기 기업, 청룡 기업": {
-        "Harry Stebbings Challenge": "... | Imoogi and Dragon Company      | [[이무기 기업, 청룡 기업]]  | Tweet |"
-    },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
         "2022-10-15": "- [[Dynamic Island on the Web]]",
@@ -3798,7 +3795,7 @@ export const backlinks = {
         "The Era of Invites": "... observation is that these 'successful, invite-based' software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big techs use an invite-based system when ...",
         "The Zenly Playbook": "... app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?",
         "젠리의 성공 공식": "... 젠리가 문을 닫았다. 프랑스의 한 개발자로부터 시작해 3천억에 스냅에 인수된 기술 [[Small yet Powerful|강소]] 기업은 어떻게 성장하고 어떻게 사라졌을까. 그리고 우리는 무엇을 배울 수 있을까?",
-        "초대장의 시대": "또 하나 흥미로운 관찰은 이런 성공적인 초대장 기반 소프트웨어 기업은 대부분 [[Small yet Powerful|소수정예]] 엘리트 팀이라는 점이다. 빅테크들은 왜 초대장 시스템을 사용하지 않을까? 어쩌면 이것은 ..."
+        "초대장의 시대": "또 하나 흥미로운 관찰은 이런 성공적인 초대장 기반 소프트웨어 기업은 대부분 [[Small yet Powerful|소수정예]] 엘리트 팀이라는 점이다. 빅테크들은 왜 초대장 시스템을 사용하지 않을까? 어쩌면 이것은 ..."
     },
     "Vertex Buffer": {
         "2023-01-23": "- [[Vertex Buffer]]"
@@ -3823,6 +3820,7 @@ export const backlinks = {
         "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the chopstick game with competitive AI",
         "Cube": "[[Someday]] [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical books with digital devices? i.e. scan ...",
+        "ElonPet": "- [[Someday]] [[Project]]. Uses GPT-3 to write good things about Elon (Sarcastically) randomly",
         "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
         "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
@@ -4061,7 +4059,7 @@ export const backlinks = {
         "Imoogi and Dragon Company": "The word [[Unicorn]] Company gives the company too much of a magical sentiment as ...",
         "Ridi": "Ridi is a Korean [[Unicorn]] specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
         "Toss": "- Financial Technology|FinTech [[Unicorn]] of Korea.",
-        "이무기 기업, 청룡 기업": "[[Unicorn|유니콘]] 기업이라는 단어는 마치 성공이 정해진 양 너무 마법적인 기운을 준다. 한국 ..."
+        "이무기 기업, 청룡 기업": "[[Unicorn|유니콘]] 기업이라는 단어는 마치 성공이 정해진 양 너무 마법적인 기운을 준다. 한국 ..."
     },
     "Accelerationism": {
         "Effective Accelerationism": "- [[Accelerationism]]"
@@ -4144,7 +4142,7 @@ export const backlinks = {
     },
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
-        "Harry Stebbings Challenge": "| 2023-02-06 | [[Remembering that Disarmed Bomb]] | [[방지된 폭탄에 대한 경의]] | Tweet     ..."
+        "Harry Stebbings Challenge": "| 2023-02-06 | [[Remembering that Disarmed Bomb]] | [[방지된 폭탄에 대한 경의]] | Tweet |"
     },
     "Virtual Address Space and Physical Address Space": {
         "2022-11-04": "- [[Virtual Address Space and Physical Address Space]]",
@@ -4639,7 +4637,7 @@ export const backlinks = {
     "방지된 폭탄에 대한 경의": {
         "2023-02-01": "- [[방지된 폭탄에 대한 경의]]",
         "2023-02-06": "- [[방지된 폭탄에 대한 경의]]",
-        "Harry Stebbings Challenge": "| 2023-02-06 | Remembering that Disarmed Bomb | [[방지된 폭탄에 대한 경의]] | Tweet          ..."
+        "Harry Stebbings Challenge": "| 2023-02-06 | Remembering that Disarmed Bomb | [[방지된 폭탄에 대한 경의]] | Tweet |"
     },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
@@ -4654,6 +4652,10 @@ export const backlinks = {
     "770154.png": {
         "2022-08-03": "![[770154.png]]",
         "Adding a Verified Mark on Apple Mail & Gmail": "![[770154.png]]"
+    },
+    "초대장의 시대": {
+        "2023-02-05": "- [[초대장의 시대]]",
+        "Harry Stebbings Challenge": "...           | [[초대장의 시대]]           | ..."
     },
     "그게 뭐라고": {
         "2022-11-23": "- [[그게 뭐라고]]"
@@ -5025,7 +5027,7 @@ export const backlinks = {
     },
     "1A746C.png": {
         "The Era of Invites": "![[1A746C.png]]",
-        "초대장의 시대": "![[1A746C.png]]"
+        "초대장의 시대": "![[1A746C.png]]"
     },
     "74CA20.png": {
         "Aldehyde Landing Page 2023": "![[74CA20.png]]",
@@ -5675,6 +5677,9 @@ export const backlinks = {
     },
     "A01C1B.png": {
         "Hashflags": "![[A01C1B.png]]"
+    },
+    "이무기 기업, 청룡 기업": {
+        "Harry Stebbings Challenge": "... | Imoogi and Dragon Company      | [[이무기 기업, 청룡 기업]]  | Tweet |"
     },
     "9BB870.png": {
         "Dynamic Viewport Units": "![[9BB870.png]]"

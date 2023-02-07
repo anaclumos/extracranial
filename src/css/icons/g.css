@@ -400,6 +400,8 @@ article a[href*='https://www.google.com/search']::before,
 article a[href*='https://about.google']::before,
 article a[href*='https://www.about.google']::before,
 article a[href*='https://googleblog.com']::before,
+article a[href*='https://blog.google']::before,
+article a[href*='https://www.blog.google']::before,
 article a[href*='https://www.googleblog.com']::before,
 article a[href*='https://developers.googleblog.com']::before
 {
