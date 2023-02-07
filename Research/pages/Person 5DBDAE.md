@@ -13,7 +13,7 @@ I studied Applied Engineering in Physics for a while in Academia. I wanted to fo
 Electrical engineering questions, like logic designs and semiconductor units.
 
 **Responsibilities**.
-I create functional [[simulation]] models for semiconductors. For fabless labs, you have to write semiconductor software before getting your hands on the fabricated chips from the factory. I write software to simulate semiconductors that helps program semiconductors without semiconductors.
+I create functional [[Simulations]] models for semiconductors. For fabless labs, you have to write semiconductor software before getting your hands on the fabricated chips from the factory. I write software to simulate semiconductors that helps program semiconductors without semiconductors.
 
 **Recommendations**.
 Meet a lot of people.

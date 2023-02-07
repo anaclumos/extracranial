@@ -1591,6 +1591,11 @@ export const backlinks = {
         "2022-11-04": "- [[Cache Write Policy]]",
         "Caching": "- [[Cache Write Policy]]"
     },
+    "Optimized Simulations": {
+        "2022-09-05": "- [[Optimized Simulations]]",
+        "Real Exams": "- 1 [[Optimized Simulations]] (prefix array)",
+        "Simulations": "- If there are time-space restrictions, look into [[Optimized Simulations]]s."
+    },
     "Obsidian Ava": {
         "2022-10-19": "- [[Obsidian Ava]]",
         "Photoshop for Text": "- I'm excited to see community efforts like [[Obsidian Ava]] driving in this direction."
@@ -2180,11 +2185,6 @@ export const backlinks = {
     },
     "Guestbook": {
         "2022-10-15": "- [[Guestbook]]"
-    },
-    "optimized simulation": {
-        "2022-09-05": "- [[optimized simulation]]",
-        "Real Exams": "- 1 [[optimized simulation]] (prefix array)",
-        "simulation": "- If there are time-space restrictions, look into [[optimized simulation]]s."
     },
     "Apple Easter Egg": {
         "2022-11-19": "  - [[Apple Easter Egg]]"
@@ -3170,12 +3170,6 @@ export const backlinks = {
         "Visual Studio Code": "... Studio Code, also commonly referred to as VS Code, made by [[Microsoft]] with the Electron Framework, for Windows, [[Linux]] and macOS. Features include ...",
         "Workbench": "- For [[Microsoft]] Products, use App Store."
     },
-    "simulation": {
-        "Math-based Coding": "  - conducting a bare metal [[simulation]] takes too long",
-        "Person 5DBDAE": "I create functional [[simulation]] models for semiconductors. For fabless labs, you have to write semiconductor ...",
-        "Real Exams": "- 1 [[simulation]]",
-        "optimized simulation": "- Optimized [[Simulation]] programming problem is when you have to conduct a [[simulation]] according ..."
-    },
     "Port": {
         "Internetworking": "- [[Port]]",
         "Master Socket": "- binds it to a [[port]] and waits for a connection request.",
@@ -3561,6 +3555,12 @@ export const backlinks = {
     },
     "Configuring Jest for React Native": {
         "2022-11-16": "- [[Configuring Jest for React Native]]"
+    },
+    "Simulations": {
+        "Math-based Coding": "  - conducting a bare metal [[Simulations]] takes too long",
+        "Optimized Simulations": "- Optimized [[Simulations]] programming problem is when you have to conduct a Simulations according ...",
+        "Person 5DBDAE": "I create functional [[Simulations]] models for semiconductors. For fabless labs, you have to write semiconductor ...",
+        "Real Exams": "- 1 [[Simulations]]"
     },
     "Translation Look-aside Buffers": {
         "2022-11-04": "- [[Translation Look-aside Buffers]]",
@@ -5522,9 +5522,6 @@ export const backlinks = {
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
-    },
-    "optimized simulations": {
-        "Real Exams": "- 2 [[optimized simulations]]"
     },
     "33434F.png": {
         "AMP Email": "![[33434F.png]]"
