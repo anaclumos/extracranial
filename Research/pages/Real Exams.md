@@ -7,18 +7,18 @@ slug: '/75CB18'
 
 ### [PayPal](https://www.paypal.com)
 
-- 1 [[simulation]]
-- 1 [[optimized simulation]] (prefix array)
+- 1 [[Simulations]]
+- 1 [[Optimized Simulations]] (prefix array)
 
 ### [PathAI](https://www.pathai.com/)
 
-- 1 [[simulation]] that had a bunch of edge cases (solved 9/10)
-- 1 [[optimized simulation]]
+- 1 [[Simulations]] that had a bunch of edge cases (solved 9/10)
+- 1 [[Optimized Simulations]]
 
 ### [Grammarly](https://grammarly.com/)
 
-- 1 [[simulation]]
-- 2 [[optimized simulation]]
+- 1 [[Simulations]]
+- 2 [[Optimized Simulations]]
 
 ### [Duolingo](https://www.duolingo.com/)
 
@@ -27,23 +27,23 @@ slug: '/75CB18'
 
 ### [LinkedIn](https://www.linkedin.com/)
 
-- 1 [[optimized simulation]]
+- 1 [[Optimized Simulations]]
 - 1 [[Math-based Coding]]
 
 ### [Akuna Capital — "Front Runner"](https://akunacapital.com/)
 
-- 1 [[optimized simulation]]
+- 1 [[Optimized Simulations]]
 - Passed 5/8 test cases
 
 ### [DRW](https://drw.com/)
 
-- 2 [[optimized simulations]]
+- 2 [[Optimized Simulations]]
 - 1 [[Greedy Algorithm]]
 
 ### [Akuna Capital Python](https://akunacapital.com/)
 
-- 1 [[optimized simulation]]
-- 1 text compression & [[optimized simulation]]
+- 1 [[Optimized Simulations]]
+- 1 text compression & [[Optimized Simulations]]
 - 1, which seemed [[Greedy Algorithm]] (I didn't have the time to solve it)
 
 ### [Akuna Capital C++](https://akunacapital.com/)
@@ -53,23 +53,23 @@ slug: '/75CB18'
 - 1 [[Greedy Algorithm]] palindrome substring search
 - 1 adjacency list construction and tree search.
   - Time limit was stringent, and I wasn't able to finish it
-- 1 [[optimized simulation]] using bitwise operations
+- 1 [[Optimized Simulations]] using bitwise operations
   - Time limit was stringent, and I wasn't able to finish it
 
 ### [Valkyrie Trading](https://www.valkyrietrading.com/)
 
 - 1 binary tree construction & [[binary search]] traversal
-- 1 [[simulation]]
+- 1 [[Simulations]]
 
 ### CodeSignal ([HRT](https://www.hudsonrivertrading.com/), [Databricks](https://www.databricks.com/))
 
-- 2 [[simulation]]s
-- 2 [[optimized simulation]]s
+- 2 [[Simulations]]s
+- 2 [[Optimized Simulations]]s
 
 ### [IMC](https://www.imc.com/us/)
 
 - 1 [[BFS]]
-- 1 [[optimized simulation]]
+- 1 [[Optimized Simulations]]
 
 ### [Garda Capital Partners](https://www.gardacp.com/)
 
@@ -87,17 +87,17 @@ slug: '/75CB18'
 
 - 1 recursion
 - 1 simple algorithm
-- 1 [[optimized simulation]]
+- 1 [[Optimized Simulations]]
 
 ### Coinbase
 
 - 1 [[Math-based Coding]]
-- 1 [[optimized simulation]]
+- 1 [[Optimized Simulations]]
 
 ### Goldman Sachs
 
 - 1 [[Math-based Coding]]
-- 1 [[optimized simulation]]
+- 1 [[Optimized Simulations]]
 
 ### Sezzle
 
