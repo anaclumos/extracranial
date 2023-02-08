@@ -36,7 +36,6 @@ if __name__ == "__main__":
                     COUNTER += 1
 
                 # Replace Rules
-
                 REPLACE_RULES = {
                     " ": " ",
                     " | Hacker News": "",
@@ -116,6 +115,10 @@ if __name__ == "__main__":
                     " | TAXLY.KR (택슬리)": "",
                     "<br>": "<br/>",
                     '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>': "",
+                    '“': '"',
+                    '”': '"',
+                    '‘': "'",
+                    '’': "'",
                 }
 
                 for rule in REPLACE_RULES:

@@ -68,7 +68,12 @@ const Backlink = (props: Props) => {
             .sort()
             .reverse()
             .map((backlink) => {
-              const backlinkTitle = backlink.split('/').pop().replace('.md', '')
+              let backlinkTitle = backlink
+              try {
+                backlinkTitle = backlink.split('/').pop().replace('.md', '')
+              } catch (e) {
+                console.error(e, backlink)
+              }
               const link = filenames[backlinkTitle].replace('/', '')
               return (
                 <Link to={link} className={styles.backlinkItemLink} key={backlink}>
