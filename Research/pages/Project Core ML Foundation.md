@@ -111,7 +111,7 @@ The most common form of regression analysis is linear regression, in which one f
 **Naive Bayes**.
 A supervised learning algorithm.
 Assumes that all attributes are independent of each other,
-then applies Bayes’ theorem; therefore, Naive.
+then applies Bayes' theorem; therefore, Naive.
 
 **Decision Trees**.
 A tree-like model of decisions and their possible consequences.
@@ -127,7 +127,7 @@ An ANN is based on a collection of connected units or nodes called artificial ne
 
 **Data-Driven**.
 Used to find patterns in the set of data given.
-In this, we don’t have any dependent variable or label to predict.
+In this, we don't have any dependent variable or label to predict.
 Clustering.
 Anomaly Detection.
 Neural Networks.
