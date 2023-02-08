@@ -35,8 +35,7 @@ const processBacklinkItem = (text: string, title: string) => {
     // Replace [[other]] with other
     const regex4 = new RegExp(`\\[\\[(.+?)\\]\\]`, 'g')
     text = text.replace(regex4, '$1')
-  }
-  catch (e) {
+  } catch (e) {
     console.warn(`Error processing backlink item with text: ${text} and title: ${title}\n${e}`)
   }
 
@@ -88,14 +87,14 @@ const Backlink = (props: Props) => {
                 </Link>
               )
             })) || (
-            <p className={styles.noBacklink}>
-              {translate({
-                id: 'backlink.noBacklink',
-                message: 'Nothing here yet...',
-                description: 'The message when there is no backlink',
-              })}
-            </p>
-          )}
+          <p className={styles.noBacklink}>
+            {translate({
+              id: 'backlink.noBacklink',
+              message: 'Nothing here yet...',
+              description: 'The message when there is no backlink',
+            })}
+          </p>
+        )}
       </div>
     </div>
   )
