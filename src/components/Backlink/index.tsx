@@ -68,11 +68,9 @@ const Backlink = (props: Props) => {
             .sort()
             .reverse()
             .map((backlink) => {
-              let backlinkTitle = backlink
-              try {
-                backlinkTitle = backlink.split('/').pop().replace('.md', '')
-              } catch (e) {
-                console.error(e, backlink)
+              let backlinkTitle = backlink.normalize('NFC')
+              if (!filenames[backlinkTitle]) {
+                console.warn(`Backlink title not found: ${backlinkTitle}`)
               }
               const link = filenames[backlinkTitle].replace('/', '')
               return (
