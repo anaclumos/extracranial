@@ -19,6 +19,8 @@ const processBacklinkItem = (text: string, title: string) => {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;')
+    .replaceAll('[', '')
+    .replaceAll(']', '')
     .split(title)
   splittedText = splittedText.map((item, index) => {
     if (index === splittedText.length - 1) {
@@ -26,19 +28,14 @@ const processBacklinkItem = (text: string, title: string) => {
     }
     return (
       item +
-      `<b class="${styles.highlight}">${title
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#039;')}</b>`
+      `<b class="${styles.highlight}">${title}</b>`
     )
   })
   return (
     <pre
       className={styles.backlinkItemText}
       dangerouslySetInnerHTML={{
-        __html: splittedText.join(''),
+        __html: splittedText.join('').trim(),
       }}
     />
   )
