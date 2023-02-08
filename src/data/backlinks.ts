@@ -587,7 +587,7 @@ export const backlinks = {
     },
     "관성 질량과 중력 질량": {
         "2023-02-07": "- [[관성 질량과 중력 질량]]",
-        "Harry Stebbings Challenge": "...           | [[관성 질량과 중력 질량]]   |         ..."
+        "Harry Stebbings Challenge": "...           | [[관성 질량과 중력 질량]]   | Tweet |"
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs."

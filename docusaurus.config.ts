@@ -61,16 +61,7 @@ const config: Config = {
           return undefined
         },
       },
-    ],
-    // [
-    //   '@docusaurus/plugin-ideal-image',
-    //   {
-    //     quality: 70,
-    //     max: 1920,
-    //     min: 640,
-    //     steps: 3,
-    //   },
-    // ],
+    ]
   ],
   stylesheets: [katexStylesheet],
   themeConfig: {
