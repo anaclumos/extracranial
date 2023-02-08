@@ -12,4 +12,4 @@ slug: '/{{title}}'
 
 ## [[Building Habit]]
 
-- [ ] [[Jogging 25 minutes every day (January & February 2023)]]
+- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]

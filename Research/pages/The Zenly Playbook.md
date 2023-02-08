@@ -28,6 +28,6 @@ From the Stay Home challenge in 2020 to a mass-scale 3D map update in 2022, Zenl
 - [Zenly's Antoine Martin on Next-Level Location Sharing at Disrupt London 2016](https://www.youtube.com/watch?v=q61Jm2VUUmQ)
 - [B2Secrets with Antoine Martin, CEO at Zenly](https://www.youtube.com/watch?v=l5dFuyyOY7A)
 - [Symbiote (Company) Zenly Analysis](https://carpedm30.notion.site/Zenly-2011-Acq-by-Snap-213M-4a4deaf155144fd49ed076a1f60b31ad)
-- [How Zenly made social maps cool again — and what’s next](https://techcrunch.com/2022/04/22/how-zenly-made-social-maps-cool-again-and-whats-next/)
+- [How Zenly made social maps cool again — and what's next](https://techcrunch.com/2022/04/22/how-zenly-made-social-maps-cool-again-and-whats-next/)
 
 </details>
