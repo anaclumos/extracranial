@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "37c3ee0e211f0ad6",
+        "id": "20d8f1d4e87c77f2",
         "type": "tabs",
         "children": [
           {
-            "id": "d99394a769c3c242",
+            "id": "94c58db26b696cd1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -137,9 +137,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d99394a769c3c242",
+  "active": "94c58db26b696cd1",
   "lastOpenFiles": [
     "journals/2023-02-08.md",
+    "pages/하늘땅사람 지원 문서.md",
     "pages/초상권 vs 저작권.md",
     "pages/사회과부도.md",
     "pages/Web3.md",
@@ -147,7 +148,6 @@
     "journals/2023-02-07.md",
     "pages/Jog 25 minutes (Jan-Feb 2023).md",
     "pages/A Massive Mystery.md",
-    "pages/글감.md",
-    "pages/관성 질량과 중력 질량.md"
+    "pages/글감.md"
   ]
 }
