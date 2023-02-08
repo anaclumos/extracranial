@@ -22,6 +22,20 @@ if __name__ == "__main__":
                     all_md_files.append(os.path.join(root, file))
     print("Found " + str(len(all_md_files)) + " MD and MDX files.")
 
+    # NFC-normalize the file names
+    import shutil
+    for md_file in all_md_files:
+        new_name = unicodedata.normalize("NFC", md_file)
+        if new_name != md_file:
+            shutil.move(md_file, new_name)
+            md_file = new_name
+        with open(md_file, "r") as f:
+            lines = f.readlines()
+        with open(md_file, "w") as f:
+            for line in lines:
+                line = unicodedata.normalize("NFC", line)
+                f.write(line)
+
     for md_file in all_md_files:
         # ignore files with Template in the name
         if "template" in md_file.lower():
