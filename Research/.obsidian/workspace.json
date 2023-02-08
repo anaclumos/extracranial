@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "08e8d9374c655107",
+        "id": "cc1cb5267ea8b73f",
         "type": "tabs",
         "children": [
           {
-            "id": "1965a373ec7bb548",
+            "id": "271b3ab29597050b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-06.md",
+                "file": "journals/2023-02-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0c29b2b364ac3d5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/글감.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-02-06.md",
+                "file": "pages/글감.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-02-06.md"
+                "file": "pages/글감.md"
               }
             }
           },
@@ -146,17 +160,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1965a373ec7bb548",
+  "active": "0c29b2b364ac3d5f",
   "lastOpenFiles": [
+    "journals/2023-02-07.md",
+    "pages/A Massive Mystery.md",
+    "pages/Harry Stebbings Challenge.md",
+    "pages/관성 질량과 중력 질량.md",
     "journals/2023-02-06.md",
     "pages/Probability.md",
     "pages/Absolute Convergence.md",
     "pages/ElonPet.md",
     "pages/Simulations.md",
-    "pages/Optimized Simulations.md",
-    "pages/Harry Stebbings Challenge.md",
-    "pages/방지된 폭탄에 대한 경의.md",
-    "journals/2023-02-01.md",
-    "pages/Remembering that Disarmed Bomb.md"
+    "pages/Optimized Simulations.md"
   ]
 }
