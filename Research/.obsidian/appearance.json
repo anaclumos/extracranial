@@ -1,8 +1,8 @@
 {
   "theme": "obsidian",
-  "interfaceFontFamily": "D2Coding ligature",
-  "textFontFamily": "D2Coding ligature",
-  "monospaceFontFamily": "D2Coding ligature",
+  "interfaceFontFamily": "SF Mono",
+  "textFontFamily": "SF Mono",
+  "monospaceFontFamily": "SF Mono,D2Coding ligature",
   "cssTheme": "",
   "translucency": false,
   "baseFontSize": 20,

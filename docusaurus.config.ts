@@ -61,7 +61,7 @@ const config: Config = {
           return undefined
         },
       },
-    ]
+    ],
   ],
   stylesheets: [katexStylesheet],
   themeConfig: {

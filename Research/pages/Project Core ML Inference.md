@@ -5,7 +5,7 @@ slug: '/5E2A4E'
 
 Source: [Apple AI Interview Questions — Acing the AI Interview](https://medium.com/acing-ai/apple-ai-interview-questions-acing-the-ai-interview-803a65b0e795)
 
-- How do you take millions of users with 100’s of transactions each, amongst 10k products, and group the users together in meaningful segments?
+- How do you take millions of users with 100's of transactions each, amongst 10k products, and group the users together in meaningful segments?
 - We do pre-screening on the data to remove fraud threats — so how do we find a data sample that we can use to determine an accurate representation of fraud events?
 - Given a table with 1B of a user ID and product IDs that the users bought, and another table with product ID mapped with product name. We are trying to find the paired products often purchased by the same user, such as wine and bottle openers, chips, and beer. How to find the top 100 of these co-existed pairs of products?
 - Describe in detail the difference between L1 and L2 regularization, specifically regarding their impact on the model training process.

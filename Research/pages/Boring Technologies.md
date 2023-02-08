@@ -8,19 +8,19 @@ aliases: ['overengineer', 'over-engineer', 'Boring']
 
 - The programming pop culture favors specific code aesthetics based on the trends of the day
 - The issue is that the programming pop culture demands that code exhibit the latest popular aesthetics of rigor, formality, and cleverness
-- It didn’t matter if you were writing in Ruby, JavaScript, or Objective-C. Your code had to have a level of "magic" to it. Metaprogramming, syntax-hacking languages to create ad hoc Domain-Specific Languages, tricks with extreme late binding, and more were frequent topics on developer weblogs and forums
+- It didn't matter if you were writing in Ruby, JavaScript, or Objective-C. Your code had to have a level of "magic" to it. Metaprogramming, syntax-hacking languages to create ad hoc Domain-Specific Languages, tricks with extreme late binding, and more were frequent topics on developer weblogs and forums
 - A part of this trend is the unpopularity of the approaches and languages seen as less rigorous. CSS is dropped in favor of statically typed CSS-in-JS methods. HTML is dropped in favor of a strict inline XML-like markup format called JSX
 
 ### [Your tech stack is not the product](https://hoho.com/posts/your-stack-is-not-the-product/)
 
-- At most software startups, customers typically don’t care if your product runs on Heroku, Kubernetes, or a brittle singly-homed machine in Joe’s closet
+- At most software startups, customers typically don't care if your product runs on Heroku, Kubernetes, or a brittle singly-homed machine in Joe's closet
 - No purchasing decisions hinge on your commitment to write servers in Rust or use Nix for hermetic everything
 - Customers want software that delivers problem-solving impact
 - But there are many instances where an innocent, ill-considered early decision turned out much worse over the longer term. It becomes a time-sucking, success-hindering mess requiring costly correction later
 - Ship the product. Frequently and reliably.
 - support growth. Be able to bring in more people gradually that can do
 - No sacred bits: Launch, learn, iterate
-- Today’s bets over tomorrow’s theoretical
+- Today's bets over tomorrow's theoretical
 - Favor "boring technology" and in-house expertise
 - Buy non-core competencies whenever prudent
 

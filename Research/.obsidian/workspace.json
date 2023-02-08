@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cc1cb5267ea8b73f",
+        "id": "3e41e6869db3fcf7",
         "type": "tabs",
         "children": [
           {
-            "id": "271b3ab29597050b",
+            "id": "a722cb7ac0eb6b7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-07.md",
+                "file": "journals/2023-02-08.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "0c29b2b364ac3d5f",
+            "id": "74552f5eae042f7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md",
+                "file": "journals/2023-02-08.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 237.5
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md",
+                "file": "journals/2023-02-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md"
+                "file": "journals/2023-02-08.md"
               }
             }
           },
@@ -160,17 +159,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0c29b2b364ac3d5f",
+  "active": "74552f5eae042f7d",
   "lastOpenFiles": [
-    "pages/A Massive Mystery.md",
-    "journals/2023-02-07.md",
-    "pages/글감.md",
+    "pages/초상권 vs 저작권.md",
+    "journals/2023-02-08.md",
+    "pages/사회과부도.md",
+    "pages/Web3.md",
     "pages/Harry Stebbings Challenge.md",
-    "pages/관성 질량과 중력 질량.md",
-    "journals/2023-02-06.md",
-    "pages/Probability.md",
-    "pages/Absolute Convergence.md",
-    "pages/ElonPet.md",
-    "pages/Simulations.md"
+    "journals/2023-02-07.md",
+    "pages/Jog 25 minutes (Jan-Feb 2023).md",
+    "pages/A Massive Mystery.md",
+    "pages/글감.md",
+    "pages/관성 질량과 중력 질량.md"
   ]
 }
