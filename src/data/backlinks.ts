@@ -253,6 +253,9 @@ export const backlinks = {
         "0876 Middle of the Linked List": "Solved at: [[2023-01-29]]",
         "Aldehyde Outage (January 2023)": "## [[2023-01-29]]"
     },
+    "2023-02-07": {
+        "Harry Stebbings Challenge": "| [[2023-02-07]] | [[A Massive Mystery]]        ..."
+    },
     "2023-02-03": {
         "Harry Stebbings Challenge": "| [[2023-02-03]] | [[The Zenly Playbook]]        ..."
     },
@@ -581,6 +584,10 @@ export const backlinks = {
     },
     "New York City": {
         "2023-01-13": "- [[New York City]]"
+    },
+    "관성 질량과 중력 질량": {
+        "2023-02-07": "- [[관성 질량과 중력 질량]]",
+        "Harry Stebbings Challenge": "...           | [[관성 질량과 중력 질량]]   |         ..."
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs."
@@ -1268,6 +1275,10 @@ export const backlinks = {
         "The New Era of macOS Applications": "- [[Web Browser|Browsers]]. Chrome → Arc.",
         "Web Typography": "... faces and styles were controlled exclusively by the settings of each [[web browser]]. There was no mechanism for individual Web pages to control font ..."
     },
+    "A Massive Mystery": {
+        "2023-02-07": "- [[A Massive Mystery]]",
+        "Harry Stebbings Challenge": "| 2023-02-07 | [[A Massive Mystery]]            ..."
+    },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]",
         "Matt Rickard": "- [[eBPF]]"
@@ -1558,6 +1569,7 @@ export const backlinks = {
         "2023-02-04": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-05": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
         "2023-02-06": "- [x] [[Jogging 25 minutes every day (January & February 2023)]]",
+        "2023-02-07": "- [ ] [[Jogging 25 minutes every day (January & February 2023)]]",
         "Building Habit": "- [[Jogging 25 minutes every day (January & February 2023)]]"
     },
     "Reverse Engineering Apple Music API": {
@@ -2475,7 +2487,8 @@ export const backlinks = {
         "2023-02-03": "## [[Building Habit]]",
         "2023-02-04": "## [[Building Habit]]",
         "2023-02-05": "## [[Building Habit]]",
-        "2023-02-06": "## [[Building Habit]]"
+        "2023-02-06": "## [[Building Habit]]",
+        "2023-02-07": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3523,7 +3536,8 @@ export const backlinks = {
         "2023-02-03": "- [[Harry Stebbings Challenge]]",
         "2023-02-04": "- [[Harry Stebbings Challenge]]",
         "2023-02-05": "- [[Harry Stebbings Challenge]]",
-        "2023-02-06": "- [[Harry Stebbings Challenge]]"
+        "2023-02-06": "- [[Harry Stebbings Challenge]]",
+        "2023-02-07": "- [[Harry Stebbings Challenge]]"
     },
     "Ruby": {
         "Higher-Level Languages and Their Speeds": "## [[Ruby]]"
