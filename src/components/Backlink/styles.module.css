@@ -43,7 +43,7 @@
   font-family: var(--ifm-font-family-san-serif);
   font-size: 0.8rem;
   white-space: pre-wrap;
-  color: var(--ifm-color-emphasis-500);
+  color: var(--ifm-color-emphasis-700);
   margin: 0;
 }
 
@@ -54,5 +54,5 @@
 .noBacklink {
   font-size: 0.8rem;
 
-  color: var(--ifm-color-emphasis-400);
+  color: var(--ifm-color-emphasis-700);
 }

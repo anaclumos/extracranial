@@ -11,31 +11,36 @@ type Props = {
 }
 
 const processBacklinkItem = (text: string, title: string) => {
-  // replace title with <b>title</b>
-  let splittedText = text
+  text = text
     .trim()
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;')
-    .replaceAll('[', '')
-    .replaceAll(']', '')
-    .split(title)
-  splittedText = splittedText.map((item, index) => {
-    if (index === splittedText.length - 1) {
-      return item
-    }
-    return (
-      item +
-      `<b class="${styles.highlight}">${title}</b>`
-    )
-  })
+
+  // Replace [[title|display]] with `<b class="${styles.highlight}">${display}</b>` with regex
+  const regex1 = new RegExp(`\\[\\[${title}\\|(.+?)\\]\\]`, 'g')
+  text = text.replace(regex1, `<b class="${styles.highlight}">$1</b>`)
+
+  // Replace [[title]] with `<b class="${styles.highlight}">${title}</b>` with regex
+  const regex2 = new RegExp(`\\[\\[${title}\\]\\]`, 'g')
+  text = text.replace(regex2, `<b class="${styles.highlight}">${title}</b>`)
+
+  // Replace [[other text|display]] with display. other can include spaces
+  const regex3 = new RegExp(`\\[\\[(. +?)\\|(. +?)\\]\\]`, 'g')
+  text = text.replace(regex3, '$2')
+
+  // Replace [[other]] with other
+  const regex4 = new RegExp(`\\[\\[(.+?)\\]\\]`, 'g')
+  text = text.replace(regex4, '$1')
+
+
   return (
     <pre
       className={styles.backlinkItemText}
       dangerouslySetInnerHTML={{
-        __html: splittedText.join('').trim(),
+        __html: text.trim(),
       }}
     />
   )
