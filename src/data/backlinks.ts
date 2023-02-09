@@ -355,6 +355,9 @@ export const backlinks = {
     "2023-01-13": {
         "한민족은 해적되었다": "[[2023-01-13]]에 꾼 꿈에서 강력한 메시지를 받았다."
     },
+    "2023-02-09": {
+        "0059 Spiral Matrix II": "Solved at: [[2023-02-09]]"
+    },
     "2023-01-27": {
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-01-27]]: 면접 보고 번아웃,,"
     },
@@ -918,6 +921,7 @@ export const backlinks = {
         "2023-01-28": "- [[Coding Tests]]",
         "2023-01-29": "- [[Coding Tests]]",
         "2023-01-30": "- [[Coding Tests]]",
+        "2023-02-09": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
     "HQ Proximity": {
@@ -1623,6 +1627,7 @@ export const backlinks = {
         "2023-02-06": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-07": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-08": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
+        "2023-02-09": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "Building Habit": "- [[Jog 25 minutes (Jan-Feb 2023)]]"
     },
     "I travel the World Wide Web": {
@@ -2675,7 +2680,8 @@ export const backlinks = {
         "2023-02-05": "## [[Building Habit]]",
         "2023-02-06": "## [[Building Habit]]",
         "2023-02-07": "## [[Building Habit]]",
-        "2023-02-08": "## [[Building Habit]]"
+        "2023-02-08": "## [[Building Habit]]",
+        "2023-02-09": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3076,6 +3082,10 @@ export const backlinks = {
     },
     "P2P": {
         "Internetworking": "- [[P2P]]"
+    },
+    "0059 Spiral Matrix II": {
+        "2023-02-09": "- [[0059 Spiral Matrix II]]",
+        "Coding Tests": "- [[0059 Spiral Matrix II]]"
     },
     "Amdahl Law": {
         "2022-12-09": "- [[Amdahl Law]]"
