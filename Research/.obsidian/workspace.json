@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "20d8f1d4e87c77f2",
+        "id": "f43c3904c4fda0d3",
         "type": "tabs",
         "children": [
           {
-            "id": "94c58db26b696cd1",
+            "id": "541db3a3f65617ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Tools Must Vanish.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Tools Must Vanish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Tools Must Vanish.md"
+              }
             }
           },
           {
@@ -137,17 +145,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "94c58db26b696cd1",
+  "active": "541db3a3f65617ef",
   "lastOpenFiles": [
+    "pages/Potential Writing Topics.md",
     "journals/2023-02-08.md",
+    "pages/Linux Permissions for Keys.md",
+    "pages/Harry Stebbings Challenge.md",
     "pages/하늘땅사람 지원 문서.md",
     "pages/초상권 vs 저작권.md",
     "pages/사회과부도.md",
     "pages/Web3.md",
-    "pages/Harry Stebbings Challenge.md",
     "journals/2023-02-07.md",
-    "pages/Jog 25 minutes (Jan-Feb 2023).md",
-    "pages/A Massive Mystery.md",
-    "pages/글감.md"
+    "pages/Jog 25 minutes (Jan-Feb 2023).md"
   ]
 }

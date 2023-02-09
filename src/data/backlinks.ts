@@ -2547,12 +2547,6 @@ export const backlinks = {
         "Meta Theme Color for Spacial Cognition": "- Meta Theme Color for [[Spacial Cognition]]",
         "Tools for Thought": "... for Thought: add infinite canvas to text-based versions. involves and exploits [[spacial cognition]]."
     },
-    "글감": {
-        "2023-02-02": "- [[글감]]",
-        "2023-02-03": "- [[글감]]",
-        "2023-02-04": "- [[글감]]",
-        "2023-02-07": "- [[글감]]"
-    },
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
         "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
@@ -2769,7 +2763,7 @@ export const backlinks = {
     },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
-        "글감": "- [[Effective Accelerationism]]",
+        "Potential Writing Topics": "- [[Effective Accelerationism]]",
         "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
     },
     "0002 Add Two Numbers": {
@@ -3382,6 +3376,12 @@ export const backlinks = {
         "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, [[Heptabase]].",
         "Tools Must Vanish": "## Personal Notes on [[Tools for Thought]] [[Software as a Service]]"
     },
+    "Potential Writing Topics": {
+        "2023-02-02": "- [[Potential Writing Topics]]",
+        "2023-02-03": "- [[Potential Writing Topics]]",
+        "2023-02-04": "- [[Potential Writing Topics]]",
+        "2023-02-07": "- [[Potential Writing Topics]]"
+    },
     "Graphics Engine Process": {
         "Game Programming": "- [[Graphics Engine Process]]"
     },
@@ -3699,7 +3699,7 @@ export const backlinks = {
     "Korean Banks Suck": {
         "2023-01-09": "- [[Korean Banks Suck]]",
         "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Korean Banks Suck|troubled Korean banking system]].",
-        "글감": "- [[Korean Banks Suck]]",
+        "Potential Writing Topics": "- [[Korean Banks Suck]]",
         "드디어, 한국 애플페이": "... 이는 무엇을 의미할까? 몇 가지 시사점이 있지만, 오늘 할 이야기는 아니다. [[Korean Banks Suck|한국 은행계]]에 새로운 자극이 되기를 바란다."
     },
     "Palantir Foundry": {
@@ -4038,6 +4038,9 @@ export const backlinks = {
         "2023-01-27": "- [[Aldehyde Outage (January 2023)]]",
         "2023-01-29": "- [[Aldehyde Outage (January 2023)]]",
         "2023-01-30": "- [[Aldehyde Outage (January 2023)]]"
+    },
+    "Atopic Zeropoint": {
+        "2023-02-08": "- [[Atopic Zeropoint]]"
     },
     "Sudo with Touch ID": {
         "2022-11-30": "- Lesser Known Tricks: [[Sudo with Touch ID]]",
@@ -4395,8 +4398,8 @@ export const backlinks = {
     "Tools Must Vanish": {
         "2022-07-07": "- [[Tools Must Vanish]]",
         "2022-12-28": "- [[Tools Must Vanish]]",
-        "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter — essentially solving the [[Digital Addiction]].",
-        "글감": "- [[Tools Must Vanish]]"
+        "Potential Writing Topics": "- [[Tools Must Vanish]]",
+        "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter — essentially solving the [[Digital Addiction]]."
     },
     "Counting": {
         "2023-01-24": "- [[Counting]]"
