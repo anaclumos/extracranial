@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "87ec2419a69a435b",
+        "id": "d3983393d3036fee",
         "type": "tabs",
         "children": [
           {
-            "id": "f12a9401e4c34564",
+            "id": "6ec408ae5320e2bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-09.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0673b770bd73696c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Coding Tests.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6d8a3be096af9c1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-09.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-02-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-02-09.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,17 +136,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6d8a3be096af9c1b",
+  "active": "6ec408ae5320e2bb",
   "lastOpenFiles": [
-    "pages/0059 Spiral Matrix II.md",
-    "pages/Coding Tests.md",
+    "pages/Are Computers Psychotropic Substances.md",
     "journals/2023-02-09.md",
+    "pages/컴퓨터는 향정신성 의약품인가.md",
+    "pages/Harry Stebbings Challenge.md",
+    "journals/2023-02-04.md",
+    "pages/Coding Tests.md",
+    "pages/0059 Spiral Matrix II.md",
     "pages/Powerfully Powerless Tools.md",
     "journals/2023-02-08.md",
-    "pages/강력하게 미약한 도구들.md",
-    "assets/5AA7DE.png",
-    "assets/4D6E3C.png",
-    "assets/4BE73D.png",
-    "assets/4B2B9B.png"
+    "pages/강력하게 미약한 도구들.md"
   ]
 }
