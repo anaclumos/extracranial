@@ -122,7 +122,7 @@ if let removed = ingredients.remove(toRemove) {
 }
 ```
 
-Accessing the value of a Swift Dict will return Optional.
+Accessing the value of a [[Swift]] Dict will return Optional.
 
 ## Stacks and Queues
 

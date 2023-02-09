@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "7331b89642bc42ff",
+        "id": "87ec2419a69a435b",
         "type": "tabs",
         "children": [
           {
-            "id": "00f4250e0f2d8eb5",
+            "id": "f12a9401e4c34564",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-08.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -61,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-02-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-02-08.md"
+              }
             }
           },
           {
@@ -137,17 +144,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "00f4250e0f2d8eb5",
+  "active": "f12a9401e4c34564",
   "lastOpenFiles": [
-    "pages/Karrot NX Team Mission Statement.md",
-    "journals/2023-02-08.md",
-    "pages/Powerfully Powerless Tools.md",
-    "pages/강력하게 미약한 도구들.md",
-    "pages/Harry Stebbings Challenge.md",
-    "pages/Tools Must Vanish.md",
-    "pages/Tools for Thought.md",
-    "pages/Potential Writing Topics.md",
-    "pages/Linux Permissions for Keys.md",
-    "pages/하늘땅사람 지원 문서.md"
+    "assets/5AA7DE.png",
+    "assets/4D6E3C.png",
+    "assets/4BE73D.png",
+    "assets/4B2B9B.png",
+    "assets/5BE46A.png",
+    "assets/6A5DEA.png",
+    "assets/7D6146.png",
+    "assets/8DADFB.png",
+    "assets/8FBB85.png",
+    "assets/8E21A4.png"
   ]
 }

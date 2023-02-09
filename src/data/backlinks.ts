@@ -400,6 +400,7 @@ export const backlinks = {
     "Swift": {
         "2023-01-13": "- [[Swift]]",
         "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]]",
+        "Coding Tests in Swift": "Accessing the value of a [[Swift]] Dict will return Optional.",
         "Reading Files in Swift": "Reading Files in [[Swift]]",
         "Requesting Review in Swift": "Requesting Review in [[Swift]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]",
@@ -3184,7 +3185,7 @@ export const backlinks = {
     },
     "강력하게 미약한 도구들": {
         "2023-02-08": "- [[강력하게 미약한 도구들]]",
-        "Harry Stebbings Challenge": "| 2023-02-08 | Powerfully Powerless Tools     | [[강력하게 미약한 도구들]]            ..."
+        "Harry Stebbings Challenge": "| 2023-02-08 | Powerfully Powerless Tools     | [[강력하게 미약한 도구들]]  |          ..."
     },
     "Open Graph Image as a Service": {
         "2022-07-10": "... longer make any improvements in `og-image.cho.sh`, and invest those time in [[Open Graph Image as a Service]].",
@@ -4501,7 +4502,7 @@ export const backlinks = {
     },
     "Powerfully Powerless Tools": {
         "2023-02-08": "- [[Powerfully Powerless Tools]]",
-        "Harry Stebbings Challenge": "| 2023-02-08 | [[Powerfully Powerless Tools]]     | [[강력하게 미약한 도구들]]    ...",
+        "Harry Stebbings Challenge": "| 2023-02-08 | [[Powerfully Powerless Tools]]     | [[강력하게 미약한 도구들]]  |  ...",
         "Tools Must Vanish": "- [[Powerfully Powerless Tools]]"
     },
     "Interactive ML Models": {

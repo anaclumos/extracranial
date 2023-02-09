@@ -385,7 +385,7 @@
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
+    "message": "Search",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {

@@ -41,3 +41,9 @@ Building adorable townhoods, don't you know
 With notifications leading the way
 Connecting businesses on a brighter day
 ```
+
+## Mission Statement
+
+```
+Karrot NX team strives to find content users love, chime delightful notifications, and shine on local businesses.
+```
