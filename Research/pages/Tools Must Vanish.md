@@ -4,36 +4,6 @@ slug: '/46CE89'
 aliases: ['vanish']
 ---
 
-## Personal Notes on [[Tools for Thought]] [[Software as a Service]]
-
-I see a repeated paradigm in the [[Tools for Thought]] [[Software as a Service]] market.
-They are **damn complicated** to use.
-To pull out the most from these tools, you must first grow some skillfulness in these tools and aggregate enough information over a threshold.
-For team tools, you must ensure this for every member.
-
-It's like when you prepare for an exam, but instead, you try to make a perfect note instead of actually _studying_. 시험 공부보다 예쁜 노트 만드는데 더 집중하는 느낌.
-
-For a productivity tool to be successful, you must _flow_ at one point.
-Tools and infra fade out.
-You only focus on the content.
-However, all of the tools on the market, especially some efforts to reintroduce the Zettlekasten thing on the web, need to be more compliant.
-Again, things should be _simple_ so that you can immediately pick up and draw something in your mind.
-There should be minimum friction.
-Even [[Notion]] is too complicated for personal task management.
-
-I believe that [[Roam Research]] and [[Logseq]] are at the culminating position of this simplicity.
-
-They only have...
-
-- Journal. You write daily notes.
-- From there on, highlight keywords by adding double brackets.
-- Regularly explore the double-bracketed keywords. Write more details.
-- Voila! You realize that things are interrelated in a way you never imagined.
-
-Always remember...
-
-> Out of intense complexities, intense simplicities emerge. — Winston S. Churchill
-
 ### [Unbundling Tools for Thought](https://borretti.me/article/unbundling-tools-for-thought)
 
 - And I look up blog and forum posts where [Obsidian](https://obsidian.md/) and [Roam](https://roamresearch.com/) power users explain their setup. And most of what I see is junk. It's never the [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) of the next [[Vannevar Bush]]; it's always a setup with tens of plugins, a daily note three pages long that is subdivided into fifty subpages recording all the inane minutiae of life. This is a recipe for burnout
