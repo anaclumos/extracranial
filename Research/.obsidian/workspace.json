@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Powerfully Powerless Tools.md",
+                "file": "journals/2023-02-09.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0673b770bd73696c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Coding Tests.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6d8a3be096af9c1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-09.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Powerfully Powerless Tools.md",
+                "file": "journals/2023-02-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Powerfully Powerless Tools.md"
+                "file": "journals/2023-02-09.md"
               }
             }
           },
@@ -144,17 +171,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f12a9401e4c34564",
+  "active": "6d8a3be096af9c1b",
   "lastOpenFiles": [
+    "pages/0059 Spiral Matrix II.md",
+    "pages/Coding Tests.md",
+    "journals/2023-02-09.md",
+    "pages/Powerfully Powerless Tools.md",
     "journals/2023-02-08.md",
     "pages/강력하게 미약한 도구들.md",
     "assets/5AA7DE.png",
     "assets/4D6E3C.png",
     "assets/4BE73D.png",
-    "assets/4B2B9B.png",
-    "assets/5BE46A.png",
-    "assets/6A5DEA.png",
-    "assets/7D6146.png",
-    "assets/8DADFB.png"
+    "assets/4B2B9B.png"
   ]
 }
