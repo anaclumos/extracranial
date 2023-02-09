@@ -1622,7 +1622,7 @@ export const backlinks = {
         "2023-02-05": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-06": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-07": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
-        "2023-02-08": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
+        "2023-02-08": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "Building Habit": "- [[Jog 25 minutes (Jan-Feb 2023)]]"
     },
     "I travel the World Wide Web": {
@@ -5586,9 +5586,6 @@ export const backlinks = {
     },
     "E437D9.png": {
         "Digital Addiction": "![[E437D9.png]]"
-    },
-    "": {
-        "강력하게 미약한 도구들": "- 거기에서부터 반복적인 개념을 이중 대괄호(`[[]]`)로 묶어 정리한다."
     },
     "3BD418.png": {
         "Interactive Articles": "![[3BD418.png]]"
