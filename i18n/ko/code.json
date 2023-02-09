@@ -457,7 +457,7 @@
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "문서를 검색합니다.",
+    "message": "검색",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.existingResultsTitle": {
