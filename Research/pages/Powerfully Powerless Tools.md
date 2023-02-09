@@ -14,7 +14,7 @@ it's like when you prepare for an exam, you try to make a perfect note instead o
 
 To successfully harness the productivity tool, you must _flow_ at one point.
 Tools and infra fade out, and you only focus on the content.
-That is, our brain must outpace the tool; our brain must work more than the tool.
+Our brain must outpace the tool; our brain must work more than the tool.
 Even [[Notion]] is too complicated for personal task management.
 
 Based on my experience, tools must have the minimum friction, only having...
