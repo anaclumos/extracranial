@@ -19,3 +19,4 @@ slug: '/18728A'
 | [[2023-02-05]] | [[The Era of Invites]]             | [[초대장의 시대]]           | [Tweet](https://twitter.com/anaclumos/status/1622384241442160641) |
 | [[2023-02-06]] | [[Remembering that Disarmed Bomb]] | [[방지된 폭탄에 대한 경의]] | [Tweet](https://twitter.com/anaclumos/status/1622705516693843969) |
 | [[2023-02-07]] | [[A Massive Mystery]]              | [[관성 질량과 중력 질량]]   | [Tweet](https://twitter.com/anaclumos/status/1623227887632646144) |
+| [[2023-02-08]] | [[Powerfully Powerless Tools]]     | [[강력하게 미약한 도구들]]  |                                                                   |

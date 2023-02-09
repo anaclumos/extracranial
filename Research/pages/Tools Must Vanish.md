@@ -4,6 +4,8 @@ slug: '/46CE89'
 aliases: ['vanish']
 ---
 
+- [[Powerfully Powerless Tools]]
+
 ### [Unbundling Tools for Thought](https://borretti.me/article/unbundling-tools-for-thought)
 
 - And I look up blog and forum posts where [Obsidian](https://obsidian.md/) and [Roam](https://roamresearch.com/) power users explain their setup. And most of what I see is junk. It's never the [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) of the next [[Vannevar Bush]]; it's always a setup with tens of plugins, a daily note three pages long that is subdivided into fifty subpages recording all the inane minutiae of life. This is a recipe for burnout

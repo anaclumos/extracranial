@@ -283,6 +283,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
     },
     "2023-02-08": {
+        "Harry Stebbings Challenge": "| [[2023-02-08]] | [[Powerfully Powerless Tools]]     | [[강력하게 미약한 ...",
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-08]]: 중간고사"
     },
     "2023-01-26": {
@@ -560,8 +561,7 @@ export const backlinks = {
         "Readings": "- [x] [[Krafton Way]]"
     },
     "Logseq": {
-        "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]].",
-        "Tools Must Vanish": "I believe that Roam Research and [[Logseq]] are at the culminating position of this simplicity."
+        "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]]."
     },
     "활자": {
         "하늘땅사람": "- [[활자]]",
@@ -714,9 +714,10 @@ export const backlinks = {
     "Software as a Service": {
         "FIRE Engine": "- [[Software as a Service]] that drives revenue streams for [[FIRE]]",
         "Fiercely Overpriced": "To attain FIRE, we have previously explored that [[Software as a Service]] would be one way to go.",
+        "Powerfully Powerless Tools": "There is a repeated paradigm in the Tools for Thought [[Software as a Service]] market.",
         "Social Coding": "- [[Software as a Service]] businesses with network effects are rare, but when they work, they ...",
         "Software as a Service": "We expect we could attain FIRE through [[Software as a Service]].",
-        "Tools Must Vanish": "## Personal Notes on Tools for Thought [[Software as a Service]]"
+        "강력하게 미약한 도구들": "현 Tools for Thought [[Software as a Service|SaaS]] 시장에는 반복적인 패러다임이 있다. 도구들이 너무 많은 기능으로 복잡해지는 것이다. 캘린더, ..."
     },
     "그게 뭐라고": {
         "2022-11-23": "- [[그게 뭐라고]]"
@@ -2023,8 +2024,7 @@ export const backlinks = {
     "Roam Research": {
         "Better Obsidian": "  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].",
         "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser",
-        "Text-based Tools for Thought": "### [[Roam Research]]",
-        "Tools Must Vanish": "I believe that [[Roam Research]] and [[Logseq]] are at the culminating position of this simplicity."
+        "Text-based Tools for Thought": "### [[Roam Research]]"
     },
     "DOM": {
         "2022-06-14": "- Brane에서 Brane [[DOM]]을 만드는 것은 구현 전략의 일부일 뿐, Brane DOM 자체는 Brane이 아니다.",
@@ -2373,8 +2373,9 @@ export const backlinks = {
         "2022-11-16": "- Notion AI: [[Notion]]'s [[Synthote]]",
         "Collaboration-based Tools for Thought": "### [[Notion]]",
         "Notion AI": "[[Notion]]'s [[Synthote]]",
+        "Powerfully Powerless Tools": "Even [[Notion]] is too complicated for personal task management.",
         "Text-based Tools for Thought": "### [[Notion]]",
-        "Tools Must Vanish": "Even [[Notion]] is too complicated for personal task management."
+        "강력하게 미약한 도구들": "... 우리의 두뇌가 생산성 도구보다 일을 더 많이 해야한다는 것을 의미한다. 하물며 [[Notion|노션]]마저도 개인 생산성 도구로 쓰기에는 너무 기능이 많다."
     },
     "CELLO": {
         "2022-08-10": "- [[CELLO]]",
@@ -3181,6 +3182,10 @@ export const backlinks = {
     "Safari is the new Internet Explorer": {
         "2022-12-28": "- [[Safari is the new Internet Explorer]]"
     },
+    "강력하게 미약한 도구들": {
+        "2023-02-08": "- [[강력하게 미약한 도구들]]",
+        "Harry Stebbings Challenge": "| 2023-02-08 | Powerfully Powerless Tools     | [[강력하게 미약한 도구들]]            ..."
+    },
     "Open Graph Image as a Service": {
         "2022-07-10": "... longer make any improvements in `og-image.cho.sh`, and invest those time in [[Open Graph Image as a Service]].",
         "2022-07-18": "- Fiercely Overpriced for [[Open Graph Image as a Service]] could be public-key-encrypting query strings.",
@@ -3372,15 +3377,19 @@ export const backlinks = {
         "Paracosm": "Paracosm is an experimental documentation toolkit & Extracranial [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
         "Pensieve": "- An experimental [[tools for thought]] for capturing the context of information.",
         "Plateau of Latent Potential": "Can we unlock the potential of human intelligence with next-gen [[Tools for Thought]]?",
+        "Powerfully Powerless Tools": "There is a repeated paradigm in the [[Tools for Thought]] [[Software as a Service]] market.",
         "Rauno": "Interesting Extracranial [[Tools for Thought]] ([[Data Capturers]])",
         "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, [[Heptabase]].",
-        "Tools Must Vanish": "## Personal Notes on [[Tools for Thought]] [[Software as a Service]]"
+        "강력하게 미약한 도구들": "현 [[Tools for Thought]] [[Software as a Service|SaaS]] 시장에는 반복적인 패러다임이 있다. 도구들이 너무 많은 ..."
     },
     "Potential Writing Topics": {
         "2023-02-02": "- [[Potential Writing Topics]]",
         "2023-02-03": "- [[Potential Writing Topics]]",
         "2023-02-04": "- [[Potential Writing Topics]]",
         "2023-02-07": "- [[Potential Writing Topics]]"
+    },
+    "Karrot NX Team Mission Statement": {
+        "2023-02-08": "- [[Karrot NX Team Mission Statement]]"
     },
     "Graphics Engine Process": {
         "Game Programming": "- [[Graphics Engine Process]]"
@@ -4490,6 +4499,11 @@ export const backlinks = {
         "2022-07-13": "- Solved [[0121 Best Time to Buy and Sell Stock]]",
         "Coding Tests": "- [x] [[0121 Best Time to Buy and Sell Stock]]"
     },
+    "Powerfully Powerless Tools": {
+        "2023-02-08": "- [[Powerfully Powerless Tools]]",
+        "Harry Stebbings Challenge": "| 2023-02-08 | [[Powerfully Powerless Tools]]     | [[강력하게 미약한 도구들]]    ...",
+        "Tools Must Vanish": "- [[Powerfully Powerless Tools]]"
+    },
     "Interactive ML Models": {
         "2022-12-18": "- [[Interactive ML Models]]"
     },
@@ -5571,6 +5585,9 @@ export const backlinks = {
     },
     "E437D9.png": {
         "Digital Addiction": "![[E437D9.png]]"
+    },
+    "": {
+        "강력하게 미약한 도구들": "- 거기에서부터 반복적인 개념을 이중 대괄호(`[[]]`)로 묶어 정리한다."
     },
     "3BD418.png": {
         "Interactive Articles": "![[3BD418.png]]"
