@@ -3,8 +3,6 @@ lang: 'en'
 slug: '/18728A'
 ---
 
--
-
 <details>
 <summary>Initial announcement</summary>
 
@@ -12,7 +10,7 @@ slug: '/18728A'
 
 </details>
 
-| Date (2023)    | English                                   | 한국어                         | Tweet                                                             |
+| Date           | English                                   | 한국어                         | Tweet                                                             |
 | -------------- | ----------------------------------------- | ------------------------------ | ----------------------------------------------------------------- |
 | [[2023-02-01]] | [[Imoogi and Dragon Company]]             | [[이무기 기업, 청룡 기업]]     | [Tweet](https://twitter.com/anaclumos/status/1620714157418094593) |
 | [[2023-02-02]] | [[Service Shimming]]                      | [[서비스 시밍]]                | [Tweet](https://twitter.com/anaclumos/status/1621250040022061060) |
