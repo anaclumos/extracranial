@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ae439edc43d58235",
+        "id": "89ff9aaaf464885d",
         "type": "tabs",
         "children": [
           {
-            "id": "db4a9091d87abe36",
+            "id": "2c591678ef36b18e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Harry Stebbings Challenge.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Harry Stebbings Challenge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Harry Stebbings Challenge.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,17 +136,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "db4a9091d87abe36",
+  "active": "2c591678ef36b18e",
   "lastOpenFiles": [
-    "pages/Jog 25 minutes (Jan-Feb 2023).md",
+    "pages/Harry Stebbings Challenge.md",
     "journals/2023-02-10.md",
+    "pages/Uniform Distributions (Discrete).md",
+    "pages/Probability.md",
+    "pages/Jog 25 minutes (Jan-Feb 2023).md",
     "journals/2023-02-09.md",
     "pages/날씨 요정.md",
     "pages/Cloudflare Pages.md",
     "pages/Are Computers Psychotropic Substances.md",
-    "pages/Aldehyde Landing Page 2023.md",
-    "pages/컴퓨터는 향정신성 약물인가.md",
-    "pages/Harry Stebbings Challenge.md",
-    "journals/2023-02-04.md"
+    "pages/Aldehyde Landing Page 2023.md"
   ]
 }
