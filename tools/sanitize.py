@@ -54,6 +54,7 @@ if __name__ == "__main__":
                     " ": " ",
                     " | Hacker News": "",
                     " - The New York Times": "",
+                    " | The New Yorker": "",
                     " - WSJ": "",
                     " | Max Woolf's Blog": "",
                     " — Alin Panaitiu": "",
@@ -133,6 +134,8 @@ if __name__ == "__main__":
                     '”': '"',
                     '‘': "'",
                     '’': "'",
+                    " • TechCrunch": "",
+                    " | Jay Mody": "",
                 }
 
                 for rule in REPLACE_RULES:
