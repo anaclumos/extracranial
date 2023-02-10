@@ -716,6 +716,7 @@ export const filenames = {
     "Neo Korea": "DF4E38",
     "Neural Engine": "26FA6B",
     "New York City": "2D85E7",
+    "Newline in GitHub Bio": "2F579D",
     "Newsletter Network": "4841D1",
     "Next.js": "BDC45C",
     "Nextra": "B0E6E0",
