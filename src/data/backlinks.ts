@@ -777,7 +777,8 @@ export const backlinks = {
         "Pascal Triangle": "In [[Probability]],",
         "Poisson Approximation": "In [[Probability]],",
         "Ratio Test": "In [[Probability]],",
-        "Total Probability": "In [[Probability]],"
+        "Total Probability": "In [[Probability]],",
+        "Uniform Distributions (Discrete)": "In [[Probability]],"
     },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
         "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]"
@@ -2861,6 +2862,9 @@ export const backlinks = {
     "Haruki Murakami": {
         "HTML 텍스트 위에 덧말 강조점 쓰기": "[[Haruki Murakami|하루키]]처럼 강조점을 길게 넣는 것도 가능하다.",
         "水適穿石": "### 직업으로서의 소설가 — [[Haruki Murakami|하루키]]"
+    },
+    "Uniform Distributions (Discrete)": {
+        "2023-02-10": "- [[Uniform Distributions (Discrete)]]"
     },
     "Shader": {
         "HLSL": "- Used for [[Shader]] Stuffs.",

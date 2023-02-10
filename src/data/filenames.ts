@@ -998,6 +998,7 @@ export const filenames = {
     "UUIDs are Awesome": "0A964E",
     "Undefined Symbol Vtable Error": "9D95DE",
     "Unicorn": "A21D8E",
+    "Uniform Distributions (Discrete)": "9E0CB3",
     "Universal Identity": "A5294B",
     "Unsemantic": "643812",
     "Use Your Mac as your Bluetooth Speaker": "A4E15A",
