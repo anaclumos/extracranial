@@ -1273,6 +1273,9 @@ export const backlinks = {
     "브라우저 콘솔에 경고 문구 띄우는 방법": {
         "2022-11-19": "  - [[브라우저 콘솔에 경고 문구 띄우는 방법]]"
     },
+    "Newline in GitHub Bio": {
+        "2023-02-10": "- [[Newline in GitHub Bio]]"
+    },
     "퍼블리시티권": {
         "CELLO": "- [[퍼블리시티권]]"
     },
