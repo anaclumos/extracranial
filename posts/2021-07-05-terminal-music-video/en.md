@@ -39,8 +39,6 @@ Technically, braille characters are not ASCII characters.
 They are Unicode, but let's not be too pedantic.
 :::
 
----
-
 ## Design
 
 We need to first prove the concept (PoC) that the following technologies achieve our goal:
@@ -52,9 +50,7 @@ We need to first prove the concept (PoC) that the following technologies achieve
 5. (Figured out later) Compressing the subtitle files under a specific size.
 6. (Figured out later) Dithering the images to improve the quality of the ASCII art.
 
----
-
-## 1. Converting any image into a [monochrome image](https://en.wikipedia.org/wiki/Binary_image)
+## 1. Converting images into [monochrome images](https://en.wikipedia.org/wiki/Binary_image)
 
 A monochrome image is an image with 1-bit depth, comprised of `#000000` and `#FFFFFF` colors.
 Note that grayscale images are not monochrome images.
@@ -90,8 +86,6 @@ This library also applies the Floyd-Steinberg dithering algorithm to the image.
 ```python
 resized_image_bw = resized_image.convert("1")  # apply dithering
 ```
-
----
 
 ## 2. Converting any monochrome image into arbitrary-sized ASCII arts
 
@@ -147,8 +141,6 @@ macOS Terminal will not support 16M color; it only supports 256.
 You can use iTerm2 or VS Code's integrated terminal to see the full color.
 :::
 
----
-
 ## 3. Converting any video into a series of images
 
 I planned to experiment with different dimensions with the same image, so I wanted to cache the images physically.
@@ -160,8 +152,6 @@ I decided to use Python OpenCV to do this.
 1. Loop through the video frames.
 
 ![An example screenshot. I didn't use GPU acceleration, so it took about 19 minutes. I could've optimized this, but this function runs only once for any video, so I didn't bother.](7B31B6.png)
-
----
 
 ## 4. Convert text streams into formalized subtitle files
 
@@ -230,8 +220,6 @@ I figured that SAMI files supported simple markups, so I used SAMI.
 
 You can see it's just a simple XML file.
 Looking closely, you can also see how multi-language subtitles are handled in one SAMI file.
-
----
 
 ## 5. Compressing the text files
 
@@ -302,9 +290,7 @@ This simple algorithm is especially good when you have black-and-white videos.
 <SYNC Start=625><P Class=KOKRCC><FONT color="#FFFFFF">⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿</FONT><BR><FONT color="#FFFFFF">⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿</FONT><BR><FONT color="#FFFFFF">⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿</FONT><BR><FONT color="#FFFFFF">⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿</FONT><BR><FONT color="#FFFFFF">⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿</FONT><BR><FONT color="#FFFFFF">⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿</FONT><BR><FONT color="#FFFFFF">⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿</FONT><BR><FONT color="#FFFFFF">⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿</FONT><BR></SYNC>
 ```
 
-The file completed so far: [raw.githubusercontent.com](https://raw.githubusercontent.com/anaclumos/video-in-dots/main/examples/butter.smi) (No Dithering)
-
----
+[The file completed so far](https://raw.githubusercontent.com/anaclumos/video-in-dots/main/examples/butter.smi) (No Dithering)
 
 ## 6. Ditherings
 
@@ -346,8 +332,6 @@ Let us check this in action.
 
 Can you perceive the difference, especially from 1:33?
 
----
-
 ## Results
 
 I completed the project and uploaded the video to YouTube.
@@ -361,8 +345,6 @@ If you are interested in this topic, please check out my previous post: [How Vid
 ### Fiesta
 
 <YouTube id="pUmeDHgDkPE"/>
-
----
 
 ## Added 2021-07-09: Irregular Subtitle Specs?
 
