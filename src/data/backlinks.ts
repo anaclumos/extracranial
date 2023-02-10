@@ -153,6 +153,9 @@ export const backlinks = {
     "2022-11-26": {
         "Mathematics under The Library of Babel": "## [[2022-11-26]]"
     },
+    "2023-02-10": {
+        "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-10]]: 면접 도우미"
+    },
     "2022-12-08": {
         "Person ECC2CB": "- Interviewed on [[2022-12-08]]"
     },
@@ -606,7 +609,7 @@ export const backlinks = {
     },
     "관성 질량과 중력 질량": {
         "2023-02-07": "- [[관성 질량과 중력 질량]]",
-        "Harry Stebbings Challenge": "...           | [[관성 질량과 중력 질량]]        | Tweet |  ..."
+        "Harry Stebbings Challenge": "...           | [[관성 질량과 중력 질량]]      | Tweet |"
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs."
@@ -940,7 +943,7 @@ export const backlinks = {
     "Aldehyde Landing Page 2023": {
         "2023-01-31": "- [[Aldehyde Landing Page 2023]]",
         "2023-02-02": "- [[Aldehyde Landing Page 2023]]",
-        "날씨 요정": "날씨에 따라서 Meta Theme Color가 바뀐다. [[Aldehyde Landing Page 2023]]에 적용해보자."
+        "날씨 요정": "Graph Mind: 날씨에 따라서 Meta Theme Color가 바뀐다. [[Aldehyde Landing Page 2023]]에 적용해보자."
     },
     "Displaying exact datetimes on Ghost": {
         "2022-11-19": "  - [[Displaying exact datetimes on Ghost]]"
@@ -1114,7 +1117,7 @@ export const backlinks = {
     },
     "드디어, 한국 애플페이": {
         "2023-02-04": "- [[드디어, 한국 애플페이]]",
-        "Harry Stebbings Challenge": "...           | [[드디어, 한국 애플페이]]        | Tweet |  ..."
+        "Harry Stebbings Challenge": "...           | [[드디어, 한국 애플페이]]      | Tweet |"
     },
     "Rewind": {
         "2022-12-24": "- [[Rewind]] is [[GA]]",
@@ -1634,6 +1637,7 @@ export const backlinks = {
         "2023-02-07": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-08": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-09": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
+        "2023-02-10": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "Building Habit": "- [[Jog 25 minutes (Jan-Feb 2023)]]"
     },
     "I travel the World Wide Web": {
@@ -1956,7 +1960,7 @@ export const backlinks = {
     },
     "Meta Theme Color": {
         "Meta Theme Color for Spacial Cognition": "- [[Meta Theme Color]] for [[Spacial Cognition]]",
-        "날씨 요정": "날씨에 따라서 [[Meta Theme Color]]가 바뀐다. [[Aldehyde Landing Page 2023]]에 적용해보자."
+        "날씨 요정": "Graph Mind: 날씨에 따라서 [[Meta Theme Color]]가 바뀐다. [[Aldehyde Landing Page 2023]]에 적용해보자."
     },
     "UI AI": {
         "Diagram (Company)": "- Creator of [[UI AI]]"
@@ -2689,7 +2693,8 @@ export const backlinks = {
         "2023-02-06": "## [[Building Habit]]",
         "2023-02-07": "## [[Building Habit]]",
         "2023-02-08": "## [[Building Habit]]",
-        "2023-02-09": "## [[Building Habit]]"
+        "2023-02-09": "## [[Building Habit]]",
+        "2023-02-10": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3203,7 +3208,7 @@ export const backlinks = {
     },
     "강력하게 미약한 도구들": {
         "2023-02-08": "- [[강력하게 미약한 도구들]]",
-        "Harry Stebbings Challenge": "...           | [[강력하게 미약한 도구들]]       | Tweet |   ..."
+        "Harry Stebbings Challenge": "...           | [[강력하게 미약한 도구들]]     | Tweet |"
     },
     "Open Graph Image as a Service": {
         "2022-07-10": "... longer make any improvements in `og-image.cho.sh`, and invest those time in [[Open Graph Image as a Service]].",
@@ -3525,7 +3530,7 @@ export const backlinks = {
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
     "이무기 기업, 청룡 기업": {
-        "Harry Stebbings Challenge": "...           | [[이무기 기업, 청룡 기업]]       | Tweet |   ..."
+        "Harry Stebbings Challenge": "...           | [[이무기 기업, 청룡 기업]]     | Tweet |"
     },
     "기숙사 생활과 방 배정": {
         "2016-11-11": "- [[기숙사 생활과 방 배정]]",
@@ -4159,7 +4164,7 @@ export const backlinks = {
     "방지된 폭탄에 대한 경의": {
         "2023-02-01": "- [[방지된 폭탄에 대한 경의]]",
         "2023-02-06": "- [[방지된 폭탄에 대한 경의]]",
-        "Harry Stebbings Challenge": "... that Disarmed Bomb        | [[방지된 폭탄에 대한 경의]]      | Tweet |    ..."
+        "Harry Stebbings Challenge": "... that Disarmed Bomb        | [[방지된 폭탄에 대한 경의]]    | Tweet |"
     },
     "Someday": {
         "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter Network]] but you must",
@@ -4208,7 +4213,7 @@ export const backlinks = {
     },
     "Are Computers Psychotropic Substances": {
         "2023-02-09": "- [[Are Computers Psychotropic Substances]]",
-        "Harry Stebbings Challenge": "| 2023-02-09 | [[Are Computers Psychotropic Substances]] | [[컴퓨터는 향정신성 약물인가]] | Tweet |     ..."
+        "Harry Stebbings Challenge": "| 2023-02-09 | [[Are Computers Psychotropic Substances]] | [[컴퓨터는 향정신성 약물인가]] | Tweet |"
     },
     "Text AI and Information Density": {
         "2022-12-27": "- [[Text AI and Information Density]]"
@@ -4413,7 +4418,7 @@ export const backlinks = {
     },
     "젠리의 성공 공식": {
         "2023-02-03": "- [[젠리의 성공 공식]]",
-        "Harry Stebbings Challenge": "...           | [[젠리의 성공 공식]]            ..."
+        "Harry Stebbings Challenge": "...           | [[젠리의 성공 공식]]           | ..."
     },
     "하얼빈": {
         "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
@@ -4513,7 +4518,7 @@ export const backlinks = {
     },
     "컴퓨터는 향정신성 약물인가": {
         "2023-02-09": "- [[컴퓨터는 향정신성 약물인가]]",
-        "Harry Stebbings Challenge": "| 2023-02-09 | Are Computers Psychotropic Substances | [[컴퓨터는 향정신성 약물인가]] | Tweet |     |"
+        "Harry Stebbings Challenge": "| 2023-02-09 | Are Computers Psychotropic Substances | [[컴퓨터는 향정신성 약물인가]] | Tweet |"
     },
     "Lesser Known Tricks": {
         "2022-10-21": "- [[Lesser Known Tricks]]",
