@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "pages/In search of my domain.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -146,15 +146,15 @@
   },
   "active": "569ea8d75865ca7b",
   "lastOpenFiles": [
+    "pages/Untitled.md",
+    "pages/In search of my domain.md",
     "pages/Harry Stebbings Challenge.md",
     "journals/2023-02-10.md",
-    "pages/In search of my domain.md",
     "pages/Enable Bing Chat on Other Browsers.md",
     "pages/Potential Writing Topics.md",
     "pages/글감.md",
     "pages/Uniform Distributions (Discrete).md",
     "pages/Ignoring $ for copy-pasting online resources to terminal.md",
-    "pages/Lesser Known Trick.md",
-    "pages/Sudo with Touch ID.md"
+    "pages/Lesser Known Trick.md"
   ]
 }
