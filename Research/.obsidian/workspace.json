@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "bd5558cc2e04965a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/도메인 찾아 삼만리.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/In search of my domain.md",
+                "file": "pages/도메인 찾아 삼만리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/In search of my domain.md"
+                "file": "pages/도메인 찾아 삼만리.md"
               }
             }
           },
@@ -144,17 +158,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "569ea8d75865ca7b",
+  "active": "bd5558cc2e04965a",
   "lastOpenFiles": [
-    "pages/Untitled.md",
     "pages/In search of my domain.md",
     "pages/Harry Stebbings Challenge.md",
+    "pages/도메인 찾아 삼만리.md",
+    "pages/Untitled.md",
     "journals/2023-02-10.md",
     "pages/Enable Bing Chat on Other Browsers.md",
     "pages/Potential Writing Topics.md",
     "pages/글감.md",
     "pages/Uniform Distributions (Discrete).md",
-    "pages/Ignoring $ for copy-pasting online resources to terminal.md",
-    "pages/Lesser Known Trick.md"
+    "pages/Ignoring $ for copy-pasting online resources to terminal.md"
   ]
 }
