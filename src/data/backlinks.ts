@@ -154,6 +154,7 @@ export const backlinks = {
         "Mathematics under The Library of Babel": "## [[2022-11-26]]"
     },
     "2023-02-10": {
+        "Harry Stebbings Challenge": "| [[2023-02-10]] | [[In search of my domain]]      ...",
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-10]]: 면접 도우미"
     },
     "2022-12-08": {
@@ -508,8 +509,7 @@ export const backlinks = {
         "2022-11-03": "- [[Aldehyde]]",
         "2022-12-04": "- [[Aldehyde]]",
         "Better Aldehyde": "- [[Aldehyde]]",
-        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨",
-        "In search of my domain": "- I registered [[Aldehyde|cho.sh]] in 2018 and even experimented with GitHub Pages, but I did ..."
+        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨"
     },
     "Book Metadata as a Service": {
         "Fiercely Overpriced": "[[Book Metadata as a Service]] could also be one example."
@@ -829,7 +829,8 @@ export const backlinks = {
         "유난한 도전": "## [[Financial Technology|핀테크]]란"
     },
     "In search of my domain": {
-        "2023-01-09": "- [[In search of my domain]]"
+        "2023-01-09": "- [[In search of my domain]]",
+        "Harry Stebbings Challenge": "| 2023-02-10 | [[In search of my domain]]            ..."
     },
     "Project Core ML Foundation": {
         "2023-01-26": "- [[Project Core ML Foundation]]",
@@ -1477,6 +1478,9 @@ export const backlinks = {
         "2022-11-04": "- [[Caching]]",
         "Cache Conscious Programming": "... slower than `for (i=0;i<N;i++) for (j=0;j<M;j++)` due to the way of [[caching]]",
         "Computer Systems": "- [[Caching]]"
+    },
+    "Enable Bing Chat on Other Browsers": {
+        "2023-02-10": "- [[Enable Bing Chat on Other Browsers]]"
     },
     "0232 Implement Queue using Stacks": {
         "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",

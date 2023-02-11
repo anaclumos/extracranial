@@ -492,6 +492,7 @@ export const filenames = {
     "Emails and Decentralized Protocols": "B26538",
     "Embeddable GitHub Repo Card But It Looks Great": "724BDE",
     "Emojis": "1E10E6",
+    "Enable Bing Chat on Other Browsers": "E4C6F6",
     "Endianness": "D86534",
     "Engine": "766886",
     "Entropy": "A796F1",
