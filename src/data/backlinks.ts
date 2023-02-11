@@ -1831,7 +1831,8 @@ export const backlinks = {
     "GA": {
         "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview",
         "2022-12-06": "- [[GA]]: [[Nigh]]",
-        "2022-12-24": "- Rewind is [[GA]]"
+        "2022-12-24": "- Rewind is [[GA]]",
+        "In search of my domain": "... most available one. A year later, Google made the `.dev` domain [[GA]], and I also tried `cho.dev`, but ① the prices were too ..."
     },
     "Poisson Approximation": {
         "2023-01-26": "- [[Poisson Approximation]]",
