@@ -21,3 +21,4 @@ slug: '/18728A'
 | [[2023-02-07]] | [[A Massive Mystery]]                     | [[관성 질량과 중력 질량]]      | [Tweet](https://twitter.com/anaclumos/status/1623227887632646144) |
 | [[2023-02-08]] | [[Powerfully Powerless Tools]]            | [[강력하게 미약한 도구들]]     | [Tweet](https://twitter.com/anaclumos/status/1623522946034847745) |
 | [[2023-02-09]] | [[Are Computers Psychotropic Substances]] | [[컴퓨터는 향정신성 약물인가]] | [Tweet](https://twitter.com/anaclumos/status/1623798629155713024) |
+| [[2023-02-10]] | [[In search of my domain]]                |                                |                                                                   |
