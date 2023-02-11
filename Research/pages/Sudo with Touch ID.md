@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/88B68D'
 ---
 
+[[Lesser Known Trick]]
+
 ```
 sudo vim /etc/pam.d/sudo
 ```

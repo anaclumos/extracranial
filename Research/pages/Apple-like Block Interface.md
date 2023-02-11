@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/A18D7B'
 ---
 
+[[UIUX]]
+
 ![[398CA8.png]]
 
 ## [[Amie]]

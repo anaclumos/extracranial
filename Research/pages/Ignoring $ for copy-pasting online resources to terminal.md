@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/558CF5'
 ---
 
+[[Lesser Known Trick]].
+
 I was extremely surprised and glad that this worked.
 
 ```bash
