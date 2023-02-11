@@ -1832,7 +1832,8 @@ export const backlinks = {
         "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview",
         "2022-12-06": "- [[GA]]: [[Nigh]]",
         "2022-12-24": "- Rewind is [[GA]]",
-        "In search of my domain": "... most available one. A year later, Google made the `.dev` domain [[GA]], and I also tried `cho.dev`, but ① the prices were too ..."
+        "In search of my domain": "... most available one. A year later, Google made the `.dev` domain [[GA]], and I also tried `cho.dev`, but ① the prices were too ...",
+        "도메인 찾아 삼만리": "... most available one. A year later, Google made the `.dev` domain [[GA]], and I also tried `cho.dev`, but ① the prices were too ..."
     },
     "Poisson Approximation": {
         "2023-01-26": "- [[Poisson Approximation]]",
@@ -3984,6 +3985,9 @@ export const backlinks = {
     },
     "Using System Haptics and Sounds in Swift": {
         "2023-01-22": "- [[Using System Haptics and Sounds in Swift]]"
+    },
+    "도메인 찾아 삼만리": {
+        "Harry Stebbings Challenge": "...     |       [[도메인 찾아 삼만리]]            ..."
     },
     "Naver": {
         "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ..."
