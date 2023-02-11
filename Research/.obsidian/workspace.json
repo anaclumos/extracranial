@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Newline in GitHub Bio.md",
+                "file": "journals/2023-02-10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e539dcc618953380",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Potential Writing Topics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Newline in GitHub Bio.md",
+                "file": "pages/Potential Writing Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Newline in GitHub Bio.md"
+                "file": "pages/Potential Writing Topics.md"
               }
             }
           },
@@ -158,17 +171,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3eba47ad76e55697",
+  "active": "e539dcc618953380",
   "lastOpenFiles": [
+    "pages/글감.md",
     "journals/2023-02-10.md",
-    "pages/Harry Stebbings Challenge.md",
     "pages/Uniform Distributions (Discrete).md",
-    "pages/Probability.md",
-    "pages/Jog 25 minutes (Jan-Feb 2023).md",
-    "journals/2023-02-09.md",
-    "pages/날씨 요정.md",
-    "pages/Cloudflare Pages.md",
-    "pages/Are Computers Psychotropic Substances.md",
-    "pages/Aldehyde Landing Page 2023.md"
+    "pages/Ignoring $ for copy-pasting online resources to terminal.md",
+    "pages/Lesser Known Trick.md",
+    "pages/Sudo with Touch ID.md",
+    "pages/Redirecting READMEs.md",
+    "pages/Setting different images for Light & Dark mode.md",
+    "pages/Adding a Verified Mark on Apple Mail & Gmail.md",
+    "pages/Apple-like Block Interface.md"
   ]
 }

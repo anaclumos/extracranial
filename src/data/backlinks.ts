@@ -538,8 +538,7 @@ export const backlinks = {
         "Universal Identity": "- Super App accounts can be another. See [[Super App and Democracy]]."
     },
     "Redirecting READMEs": {
-        "2022-10-21": "- [[Redirecting READMEs]]",
-        "Lesser Known Tricks": "- [[Redirecting READMEs]]"
+        "2022-10-21": "- [[Redirecting READMEs]]"
     },
     "TCP vs UDP": {
         "Internet Protocol Stack": "- Transport. TCP. UDP. [[TCP vs UDP]]. Handles Segments.",
@@ -1528,12 +1527,14 @@ export const backlinks = {
     "UIUX": {
         "2022-12-24": "### [[UIUX|UI]] Design Example By sulley (@svlleyy)",
         "Andy Matuschak": "- ex-Apple [[UIUX|UI]]-Kit developer",
+        "Apple-like Block Interface": "[[UIUX]]",
         "ChatGPT": "> Turned out to be a chat [[UIUX|UI]] that got people to start tinkering with text.",
         "Confectionery": "> A minimalistic Web Browser|browser without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty of your designs, not the Web ...",
         "Diagram Labs": "- [[UIUX]]",
         "Downloading Any Recordings from Zoom": "... We have reproduced the behavior you have reported. However, while this [[UIUX|UI]] does not expose the download URL for recordings which have opted ...",
         "Dynamic Viewport Units": "... 60fps. In all Web Browser|browsers updating is throttled as the UA [[UIUX|UI]] expands or retracts. Some Web Browser|browsers even debounce updating entirely depending ...",
         "Magician": "- an [[UIUX]] experiment.",
+        "Menu Hover Effects": "- Cool [[UIUX]] [[Lesser Known Trick]].",
         "Modern MacPaint": "- an [[UIUX]] experiment.",
         "Mr. Doob": "- an [[UIUX]] experiment.",
         "Person 1E6ABA": "Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media researcher, and engineering intern.",
@@ -1544,6 +1545,7 @@ export const backlinks = {
         "Svelte": "... by the compiler, inserting calls to automatically recompute data and re-render [[UIUX|UI]] elements when the data they depend on is modified. This also ...",
         "Toss Product Sans": "- 퍼센트, 쉼표, 더하기, 빼기, 화살표 등 [[UIUX|UI]] 요소로 활용되는 기호들의 가독성을 높여, 넓은 여백으로 디자인했죠. 또한 다른 글자와의 ...",
         "UI AI": "- an [[UIUX]] experiment.",
+        "날씨 요정": "[[UIUX]]",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 반영할 수 있나요?"
     },
     "0235 LCA of a Binary Search Tree": {
@@ -1878,8 +1880,7 @@ export const backlinks = {
         "Tools for Thought": "- [[Collaboration-based Tools for Thought]]: for teams."
     },
     "Adding a Verified Mark on Apple Mail & Gmail": {
-        "2022-10-21": "- [[Adding a Verified Mark on Apple Mail & Gmail]]",
-        "Lesser Known Tricks": "- [[Adding a Verified Mark on Apple Mail & Gmail]]"
+        "2022-10-21": "- [[Adding a Verified Mark on Apple Mail & Gmail]]"
     },
     "Cache Average Access Time": {
         "2022-11-04": "- [[Cache Average Access Time]]",
@@ -3085,8 +3086,7 @@ export const backlinks = {
         "2022-12-17": "- [[Riffusion]]: Mesmerizing. Whenever I see something made with [[LLM]] like GPT or ..."
     },
     "Setting different images for Light & Dark mode": {
-        "2022-10-21": "- [[Setting different images for Light & Dark mode]]",
-        "Lesser Known Tricks": "- [[Setting different images for Light & Dark mode]]"
+        "2022-10-21": "- [[Setting different images for Light & Dark mode]]"
     },
     "Real Exams": {
         "2022-09-05": "- [[Real Exams]]",
@@ -3301,6 +3301,16 @@ export const backlinks = {
     },
     "Maserati Problem": {
         "2022-11-02": "- [[Maserati Problem]]"
+    },
+    "Lesser Known Trick": {
+        "2022-10-21": "- [[Lesser Known Trick]]",
+        "2022-11-30": "- [[Lesser Known Trick]]: [[Sudo with Touch ID]]",
+        "Adding a Verified Mark on Apple Mail & Gmail": "- [[Lesser Known Trick]]",
+        "Ignoring $ for copy-pasting online resources to terminal": "[[Lesser Known Trick]].",
+        "Menu Hover Effects": "- Cool UIUX [[Lesser Known Trick]].",
+        "Redirecting READMEs": "[[Lesser Known Trick]]. Just make an alias for the file.",
+        "Setting different images for Light & Dark mode": "[[Lesser Known Trick]]",
+        "Sudo with Touch ID": "[[Lesser Known Trick]]"
     },
     "Aldehyde Backlinks Outage (January 2023)": {
         "2023-01-30": "- [[Aldehyde Backlinks Outage (January 2023)]]",
@@ -3983,8 +3993,7 @@ export const backlinks = {
         "Vannevar Bush": "... 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 ..."
     },
     "Ignoring $ for copy-pasting online resources to terminal": {
-        "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]",
-        "Lesser Known Tricks": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
+        "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
     },
     "Total Probability": {
         "2023-01-23": "- [[Total Probability]]",
@@ -4084,8 +4093,7 @@ export const backlinks = {
         "2023-02-08": "- [[Atopic Zeropoint]]"
     },
     "Sudo with Touch ID": {
-        "2022-11-30": "- Lesser Known Tricks: [[Sudo with Touch ID]]",
-        "Lesser Known Tricks": "- [[Sudo with Touch ID]]"
+        "2022-11-30": "- Lesser Known Trick: [[Sudo with Touch ID]]"
     },
     "Comparing BLIP and CLIP": {
         "Project Alter": "- [[Comparing BLIP and CLIP]]"
@@ -4443,7 +4451,6 @@ export const backlinks = {
     "Tools Must Vanish": {
         "2022-07-07": "- [[Tools Must Vanish]]",
         "2022-12-28": "- [[Tools Must Vanish]]",
-        "Potential Writing Topics": "- [[Tools Must Vanish]]",
         "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter — essentially solving the [[Digital Addiction]]."
     },
     "Counting": {
@@ -4527,10 +4534,6 @@ export const backlinks = {
         "2023-02-09": "- [[컴퓨터는 향정신성 약물인가]]",
         "Harry Stebbings Challenge": "| 2023-02-09 | Are Computers Psychotropic Substances | [[컴퓨터는 향정신성 약물인가]] | Tweet |"
     },
-    "Lesser Known Tricks": {
-        "2022-10-21": "- [[Lesser Known Tricks]]",
-        "2022-11-30": "- [[Lesser Known Tricks]]: [[Sudo with Touch ID]]"
-    },
     "Pragmatic Engineer": {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]",
         "2022-07-14": "## Today's [[Pragmatic Engineer]]"
@@ -4611,6 +4614,9 @@ export const backlinks = {
     },
     "Confectionery": {
         "2022-11-11": "- [[Confectionery]]"
+    },
+    "Menu Hover Effects": {
+        "2023-02-10": "- [[Menu Hover Effects]]"
     },
     "Stories Behind Satori": {
         "2022-10-13": "  - [x] [[Stories Behind Satori]]",
@@ -6001,6 +6007,9 @@ export const backlinks = {
     },
     "900A33.gif": {
         "Tome": "![[900A33.gif]]"
+    },
+    "3735AF.gif": {
+        "Menu Hover Effects": "![[3735AF.gif]]"
     },
     "ABCEC0.png": {
         "To Kill a Night Owl": "![[ABCEC0.png]]"
