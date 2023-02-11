@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/89C19F'
 ---
 
-Just make an alias for the file.
+[[Lesser Known Trick]]. Just make an alias for the file.
 
 ![[3555AC.png]]
 

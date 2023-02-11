@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/519D85'
 ---
 
+[[Lesser Known Trick]]
+
 ## One way of doing it (wrong)
 
 - Using `#gh-dark-mode-only` for [[GitHub]]
