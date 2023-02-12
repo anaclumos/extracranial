@@ -26,28 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-11.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ad18a57af26a00e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Bing Chat for All Browsers.md",
-                "mode": "source",
+                "file": "pages/Harry Stebbings Challenge.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Bing Chat for All Browsers.md",
+                "file": "pages/Harry Stebbings Challenge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Bing Chat for All Browsers.md"
+                "file": "pages/Harry Stebbings Challenge.md"
               }
             }
           },
@@ -171,10 +158,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad18a57af26a00e9",
+  "active": "fe5aacb03cfb3cf7",
   "lastOpenFiles": [
-    "pages/도메인 찾아 삼만리.md",
     "journals/2023-02-11.md",
+    "pages/도메인 찾아 삼만리.md",
     "pages/Harry Stebbings Challenge.md",
     "pages/Bing Chat for All Browsers.md",
     "pages/In search of my domain.md",
