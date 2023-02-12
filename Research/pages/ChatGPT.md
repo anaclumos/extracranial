@@ -11,7 +11,7 @@ slug: '/85E9E7'
 
 ## [Microsoft Teams Premium: Cut costs and add AI-powered productivity](https://www.microsoft.com/en-us/microsoft-365/blog/2023/02/01/microsoft-teams-premium-cut-costs-and-add-ai-powered-productivity/)
 
-- I'm excited to share that [Microsoft Teams Premium](https://www.microsoft.com/microsoft-teams/premium) is generally available. Built on the familiar, all-in-one collaborative experience of Microsoft Teams, Teams Premium brings the latest technologies, including Large Language Models powered by OpenAI's GPT-3.5, to make meetings more intelligent, personalized, and protected—whether it's one-on-one, large meetings, virtual appointments, or webinars
+- I'm excited to share that [Microsoft Teams Premium](https://www.microsoft.com/microsoft-teams/premium) is generally available. Built on the familiar, all-in-one collaborative experience of Microsoft Teams, Teams Premium brings the latest technologies, including Large Language Models powered by [[OpenAI]]'s GPT-3.5, to make meetings more intelligent, personalized, and protected—whether it's one-on-one, large meetings, virtual appointments, or webinars
 
 ## [ChatGPT: Optimizing Language Models for Dialogue](https://openai.com/blog/chatgpt/)
 

@@ -70,7 +70,7 @@ On the other hand, AI never forgets, and it can duplicate itself. Imagine:
 
 _SEOUL (Reuters) - South Korea's parliament on late Friday passed a controversial bill to limit ride-hailing service Tada, dealing a blow to a company that has been a smash hit since its launch in late 2018 but faced a backlash from taxi drivers angry over new mobility services._ - [South Korea passes bill limiting Softbank-backed ride-hailing service Tada](https://www.reuters.com/article/us-socar-taxi/south-korea-passes-bill-limiting-softbank-backed-ride-hailing-service-tada-idUSKBN20T30P)
 
-Recent TADA Warfare exhibited a classic Alliance-versus-Megacorporation style of conflict. Taxi drivers eventually won, but it was a victory without victory --- since the winner was another conglomerate Kakao Mobility which finally took over the market.
+Recent TADA Warfare exhibited a classic Alliance-versus-Megacorporation style of conflict. Taxi drivers eventually won, but it was a victory without victory --- since the winner was another conglomerate [[Kakao]] Mobility which finally took over the market.
 
 Physicians and lawyers also show strong industry resistance. However, they also possess immense social power; one can easily imagine such scenarios:
 

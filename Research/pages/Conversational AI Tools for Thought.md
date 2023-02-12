@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/F75804'
 ---
 
-- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. However, it has the potential to be one. See [[Search Engine using Generative AI]]
+- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. However, it has the potential to be one. See [[Search AI]]
 
 ### [Poe beta test starting - Quora](https://www.quora.com/profile/Adam-DAngelo/Poe-beta-test-starting)
 

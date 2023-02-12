@@ -27,4 +27,4 @@ slug: '/2FFA86'
 
 > CLOVA Voice's Yoo In-na voice is the same model. Do you know what happened to Yoo In-na's voice contract? [Seo Sanghyeon](https://twitter.com/sanxiyn/status/1580026854739542016)
 
-> "보이스 메이커를 통해 제작된 AI 보이스는 네이버 클로바더빙 서비스에서 누구나 무료로 이용할 수 있게 제공합니다. 향후에는 클로바더빙 유료 버전 등 클로바 보이스 연계 유료 상품에도 확대 제공하여 발생하는 수익을 배분하는 방식도 고려하고 있습니다." I think it was a lump sum payment. [TEXTHOLIC](https://twitter.com/TextholicJ/status/1580028575708639234)
+> "보이스 메이커를 통해 제작된 AI 보이스는 [[Naver|네이버]] 클로바더빙 서비스에서 누구나 무료로 이용할 수 있게 제공합니다. 향후에는 클로바더빙 유료 버전 등 클로바 보이스 연계 유료 상품에도 확대 제공하여 발생하는 수익을 배분하는 방식도 고려하고 있습니다." I think it was a lump sum payment. [TEXTHOLIC](https://twitter.com/TextholicJ/status/1580028575708639234)
