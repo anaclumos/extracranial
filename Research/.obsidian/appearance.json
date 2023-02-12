@@ -2,7 +2,7 @@
   "theme": "obsidian",
   "interfaceFontFamily": "SF Mono",
   "textFontFamily": "SF Mono",
-  "monospaceFontFamily": "SF Mono,D2Coding ligature",
+  "monospaceFontFamily": "D2Coding ligature",
   "cssTheme": "",
   "translucency": false,
   "baseFontSize": 19,

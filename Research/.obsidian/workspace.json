@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "940e8174bd25b994",
+        "id": "1a1809dbdc144762",
         "type": "tabs",
         "children": [
           {
-            "id": "569ea8d75865ca7b",
+            "id": "e825f9046511190e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/In search of my domain.md",
+                "file": "journals/2023-02-11.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "bd5558cc2e04965a",
+            "id": "fe5aacb03cfb3cf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/도메인 찾아 삼만리.md",
+                "file": "journals/2023-02-11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ad18a57af26a00e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Bing Chat for All Browsers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/도메인 찾아 삼만리.md",
+                "file": "pages/Bing Chat for All Browsers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/도메인 찾아 삼만리.md"
+                "file": "pages/Bing Chat for All Browsers.md"
               }
             }
           },
@@ -158,17 +171,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd5558cc2e04965a",
+  "active": "ad18a57af26a00e9",
   "lastOpenFiles": [
-    "pages/In search of my domain.md",
-    "pages/Harry Stebbings Challenge.md",
     "pages/도메인 찾아 삼만리.md",
+    "journals/2023-02-11.md",
+    "pages/Harry Stebbings Challenge.md",
+    "pages/Bing Chat for All Browsers.md",
+    "pages/In search of my domain.md",
     "pages/Untitled.md",
     "journals/2023-02-10.md",
-    "pages/Enable Bing Chat on Other Browsers.md",
     "pages/Potential Writing Topics.md",
     "pages/글감.md",
-    "pages/Uniform Distributions (Discrete).md",
-    "pages/Ignoring $ for copy-pasting online resources to terminal.md"
+    "pages/Uniform Distributions (Discrete).md"
   ]
 }
