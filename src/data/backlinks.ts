@@ -412,12 +412,14 @@ export const backlinks = {
         "2022-12-02": "- [[ChatGPT]]",
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "2023-02-02": "- [[ChatGPT]]",
+        "Bing": "... real questions, and get complete answers). The same OpenAI technology behind [[ChatGPT]] powers this feature.",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
         "Cool GPT Applications": "- [[ChatGPT]]",
         "Readwise Reader": "- uses [[ChatGPT]]",
-        "Search Engine using Generative AI": "## On [[ChatGPT]]",
+        "Search AI": "## On [[ChatGPT]]",
+        "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 Bing [[ChatGPT]]에 검색을 해보았다.",
         "Synthote": "- [[ChatGPT]]",
         "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
         "The Era of Invites": "... an invitation system will never reach your attention. For example, did [[ChatGPT]] require an invite? Nope.",
@@ -574,7 +576,7 @@ export const backlinks = {
     "CDN": {
         "2022-08-28": "... builds faster (~3m) than Cloudflare Pages (~5m). Vercel has Seoul region [[CDN]].",
         "2022-12-28": "- [[CDN]]",
-        "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as [[Microsoft]] Bing or Cloudflare's AMP caches, which allows pages ...",
+        "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as [[Microsoft]] [[Bing]] or Cloudflare's AMP caches, which allows pages ...",
         "Cloudflare": "> Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded in 2010. It primarily acts as ...",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
         "The Architecture of Mastodon": "  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process ..."
@@ -625,6 +627,11 @@ export const backlinks = {
         "Logseq": "... privacy-first, open-source knowledge base that works on top of local plain-text [[Markdown]] and Org-mode files. Use it to write, organize and share your ...",
         "Markdown Email Client": "Someday Project. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as a beautiful ...",
         "Toss Product Sans": "- 디자인 플랫폼 팀과 함께 제작한 [[Markdown|마크다운]] 규칙으로 특수 문자를 쓸 수 있도록"
+    },
+    "Metadream": {
+        "2023-02-12": "- [[Metadream]]",
+        "Bondee": "... is a virtual avatar social app created by Singapore-based tech firm [[Metadream]]. Users can chat and interact with each other on this social ...",
+        "Bondee and Zheli": "[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. Bondee launched ..."
     },
     "0104 Maximum Depth of Binary Tree": {
         "Coding Tests": "- [x] [[0104 Maximum Depth of Binary Tree]]"
@@ -850,11 +857,6 @@ export const backlinks = {
         "2022-10-17": "- [[SendGrid]]",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[SendGrid]]",
         "Newsletter Network": "- Alexander Obenauer [[SendGrid]]"
-    },
-    "Search Engine using Generative AI": {
-        "2022-12-04": "- [[Search Engine using Generative AI]]",
-        "Conversational AI Tools for Thought": "... for now. However, it has the potential to be one. See [[Search Engine using Generative AI]]",
-        "Generative AI": "- [[Search Engine using Generative AI]]"
     },
     "Search Engine Indexing Your Life": {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]",
@@ -1212,7 +1214,7 @@ export const backlinks = {
         "2022-11-23": "- [[Desire-Compatible Growth & Preservation]]"
     },
     "OCR": {
-        "Letter to Mr. Matt Rickard on 2022-10-03": "- Applying [[OCR]] to Naver Vibe, 'moving third-party music list in seconds' Electronic Times.",
+        "Letter to Mr. Matt Rickard on 2022-10-03": "- Applying [[OCR]] to [[Naver]] Vibe, 'moving third-party music list in seconds' Electronic Times.",
         "Screenshot as an API": "    - text ([[OCR]])",
         "Using an iPad as my Ebook": "... I fell in love with Book Scanning as a PDF with [[OCR]], and I figured it is very lovable. I can't understand why ..."
     },
@@ -1322,6 +1324,7 @@ export const backlinks = {
         "2022-06-12": "... can be used to describe interfaces intended to be implemented in [[Web Browser|web browsers]]. Web IDL is an IDL variant with several features that allow ...",
         "2022-07-01": "- Most GitHub users use fairly up-to-date [[Web Browser|browsers]].",
         "2022-10-20": "2.  This [[Web Browser|browser]] is forked by a couple of other [[Web Browser|browsers]] that are ...",
+        "Bing Chat for All Browsers": "- Bing Chat for all [[Web Browser|browser]]",
         "Brane": "- Parties that create [[Web Browser|browsers]] do not own these limitations; Brane aims to democratize these privileges ...",
         "Confectionery": "> A minimalistic [[Web Browser|browser]] without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty ...",
         "Downloading Any Recordings from Zoom": "... both play the video and scroll through the chat list—open the [[Web Browser|browser]] console.",
@@ -1523,10 +1526,12 @@ export const backlinks = {
         "React Native": "> React Native is an open-source [[UIUX|UI]] software framework created by Meta Platforms, Inc. It is used to ...",
         "Simulated Annealing for Designs": "- we ditched all the lights, shadows, and textures in our [[UIUX|UI]] designs. And now we are slowly adding them back. This is ...",
         "Svelte": "... by the compiler, inserting calls to automatically recompute data and re-render [[UIUX|UI]] elements when the data they depend on is modified. This also ...",
+        "The Sudden Rise of Bondee": "... when checking out status updates on the Townhall. Sometimes, a single [[UIUX]] makes a huge difference.",
         "Toss Product Sans": "- 퍼센트, 쉼표, 더하기, 빼기, 화살표 등 [[UIUX|UI]] 요소로 활용되는 기호들의 가독성을 높여, 넓은 여백으로 디자인했죠. 또한 다른 글자와의 ...",
         "UI AI": "- an [[UIUX]] experiment.",
         "날씨 요정": "[[UIUX]]",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 반영할 수 있나요?"
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 반영할 수 있나요?",
+        "혜성처럼 나타난 본디": "... 쓸 때보다 훨씬 더 많이 사진을 찍어서 주고 받았다. 가끔 하나의 [[UIUX]]가 큰 차이를 만든다."
     },
     "0235 LCA of a Binary Search Tree": {
         "2022-09-25": "- [[0235 LCA of a Binary Search Tree]]",
@@ -1547,6 +1552,13 @@ export const backlinks = {
     },
     "G++": {
         "Internetworking": "- [[G++]]"
+    },
+    "OpenAI": {
+        "2023-02-08": "- Companies building foundational models have partnered with cloud providers: [[OpenAI]] (Microsoft) and Anthropic (Google). These companies spend vast amounts on computing ...",
+        "Bing": "... with Bing, ask real questions, and get complete answers). The same [[OpenAI]] technology behind [[ChatGPT]] powers this feature.",
+        "ChatGPT": "... Premium brings the latest technologies, including Large Language Models powered by [[OpenAI]]'s GPT-3.5, to make meetings more intelligent, personalized, and protected—whether it's one-on-one, ...",
+        "Proposal of Research to Professor Cote": "... Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and ...",
+        "Search AI": "... 되어가고 있어요. 그럼 검색은 더 이상 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 ChatGPT에 많은 사람들이 놀라고 있어요. 모든 것의 정답을 주지는 못 하는데요. ..."
     },
     "Neo Korea": {
         "2022-12-20": "- [[Neo Korea]]",
@@ -1571,7 +1583,7 @@ export const backlinks = {
         "JavaScript": "... third-party libraries. All major Web Browser|web browsers have a dedicated JavaScript [[engine]] to execute the code on users' devices. JavaScript",
         "Letter to Mr. Matt Rickard on 2022-10-03": "Naver services as the omnipotent search [[engine]] for Korea (bigger market cap than Google Korea) and [[Kakao]] services ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... App Review. Firefox has this talent, as seen in the Gecko [[engine]].",
-        "Naver": "... portal in South Korea to develop and use its own search [[engine]]. It was also the world's first operator to introduce the comprehensive ...",
+        "Naver": "... web portal in South Korea to develop and use its search [[engine]]. It was also the world's first operator to introduce the comprehensive ...",
         "Proposal of Research to Professor Cote": "... performs a heavy computation, it can cause the Web Browser|browser's JavaScript [[engine]] to become unresponsive. As a result, the entire web page will ...",
         "Satori": "### [[Engine]]",
         "Stories Behind Satori": "We can calculate the elements' positions through a layout [[engine]] and convert them into [[SVG]] markups.",
@@ -1624,7 +1636,8 @@ export const backlinks = {
         "2023-02-08": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-09": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-10": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
-        "2023-02-11": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
+        "2023-02-11": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
+        "2023-02-12": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "Building Habit": "- [[Jog 25 minutes (Jan-Feb 2023)]]"
     },
     "I travel the World Wide Web": {
@@ -1891,6 +1904,9 @@ export const backlinks = {
         "WebGPU": "- It's a stand-alone TypeScript+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "Write Once Run Everywhere": "- [[Rust]]"
     },
+    "Bondee and Zheli": {
+        "2023-02-12": "- [[Bondee and Zheli]]"
+    },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]",
         "2023-01-09": "- [[Off The Record]]"
@@ -2046,6 +2062,12 @@ export const backlinks = {
         "Svelte": "... instead, Svelte compiles HTML templates to specialized code that manipulates the [[DOM]] directly, which may reduce the size of transferred files and give ...",
         "Treehouse": "... back to 2012-, Treehouse was the first attempt to run a [[DOM]] within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]].",
         "WorkerDOM": "Google's take on providing [[DOM]] access to [[Web Worker]] Threads."
+    },
+    "Bondee": {
+        "2023-02-12": "- [[Bondee]]",
+        "Bondee and Zheli": "Metadream, the company behind [[Bondee]], was founded in Sep 2022. Bondee launched on January 7, 2023, ...",
+        "The Sudden Rise of Bondee": "[[Bondee]] is a [[metaverse]] social app, going crazy in Korea, Japan, Singapore, ...",
+        "혜성처럼 나타난 본디": "[[Bondee|본디]]는 한국, 일본, 싱가포르, 타이완 등에서 앱스토어 1위를 하며 인기를 얻고 있는 ..."
     },
     "CELLO (Product)": {
         "2022-07-18": "- [[CELLO (Product)]]",
@@ -2352,7 +2374,7 @@ export const backlinks = {
         "Point-E": "- [[Generative AI]]",
         "Prompt Marketplace": "With [[Generative AI]] and [[Prompt Engineering]] blooming, people now sell and buy prompts.",
         "Ray.st": "A Collection of 26 Beautiful 3D Emojis Generated by [[Generative AI]].",
-        "Search Engine using Generative AI": "- [[Generative AI]]",
+        "Search AI": "- [[Generative AI]]",
         "Search in a Latent Space": "- [[Generative AI]]",
         "The Demise of Chatbots in 2017": "... making the same mistakes as in 2016 in the era of [[generative AI]]. Some companies are solving for distribution using someone else's proprietary model ...",
         "Tome": "Create presentation decks with [[Generative AI]]."
@@ -2438,6 +2460,10 @@ export const backlinks = {
         "2022-07-10": "- Solved [[0020 Valid Parentheses]]",
         "Coding Tests": "- [x] [[0020 Valid Parentheses]]"
     },
+    "혜성처럼 나타난 본디": {
+        "2023-02-12": "- [[혜성처럼 나타난 본디]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 12 | 🇬🇧 The Sudden Rise of Bondee <br/> 🇰🇷 [[혜성처럼 나타난 본디]]            ..."
+    },
     "Porting a Chrome Extension to Firefox Add-on": {
         "2022-11-19": "  - [[Porting a Chrome Extension to Firefox Add-on]]"
     },
@@ -2507,7 +2533,8 @@ export const backlinks = {
     },
     "Bing Chat for All Browsers": {
         "2023-02-10": "- [[Bing Chat for All Browsers]]",
-        "2023-02-11": "- [[Bing Chat for All Browsers]]"
+        "2023-02-11": "- [[Bing Chat for All Browsers]]",
+        "Search AI": "- [[Bing Chat for All Browsers]]"
     },
     "하늘땅사람": {
         "2023-01-19": "- [[하늘땅사람]]",
@@ -2544,6 +2571,12 @@ export const backlinks = {
     },
     "Limit of a Sequence": {
         "2023-01-31": "- [[Limit of a Sequence]]"
+    },
+    "Search AI": {
+        "2022-12-04": "- [[Search AI]]",
+        "2023-02-12": "- [[Search AI]]",
+        "Conversational AI Tools for Thought": "... for now. However, it has the potential to be one. See [[Search AI]]",
+        "Generative AI": "- [[Search AI]]"
     },
     "http 없는 http 서버 만들기": {
         "2022-11-19": "  - [[http 없는 http 서버 만들기]]"
@@ -2688,7 +2721,8 @@ export const backlinks = {
         "2023-02-08": "## [[Building Habit]]",
         "2023-02-09": "## [[Building Habit]]",
         "2023-02-10": "## [[Building Habit]]",
-        "2023-02-11": "## [[Building Habit]]"
+        "2023-02-11": "## [[Building Habit]]",
+        "2023-02-12": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -2795,6 +2829,9 @@ export const backlinks = {
         "2022-09-13": "- [[Person CC8297]]",
         "Project PEOPLE": "- [[Person CC8297]]"
     },
+    "Club Penguin": {
+        "The Sudden Rise of Bondee": "... create a 3d character and design rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in a modern messenger form. It is ..."
+    },
     "Firefox": {
         "2022-10-10": "... responsiveness on macOS - Mozilla Hacks - the Web developer blog [[Firefox]]"
     },
@@ -2868,7 +2905,7 @@ export const backlinks = {
         "2022-12-04": "- [[Search in a Latent Space]]",
         "Atomic Habits": "- Plateau of Latent Potential: Sounds astoundingly similar to [[Search in a Latent Space]]",
         "Prompt Marketplace": "... keywords can be the key to finding Information amongst Data or [[Search in a Latent Space]].",
-        "Search Engine using Generative AI": "- [[Search in a Latent Space]]",
+        "Search AI": "- [[Search in a Latent Space]]",
         "Thesephist Work Case Study": "### [[Search in a Latent Space]]"
     },
     "Vercel": {
@@ -3028,6 +3065,9 @@ export const backlinks = {
     },
     "조선왕조실록": {
         "2022-08-28": "- [[조선왕조실록]]"
+    },
+    "Search AI와 인터넷의 한국어": {
+        "2023-02-12": "- [[Search AI와 인터넷의 한국어]]"
     },
     "Height": {
         "Linear": "- An issue tracking service, like [[Height]], or [[Jira]]"
@@ -3193,6 +3233,9 @@ export const backlinks = {
         "IntelliJ": "> IntelliJ IDEA is an integrated development environment (IDE) written in [[Java]] for developing computer software written in Java, Kotlin, Groovy, and other ...",
         "Write Once Run Everywhere": "... created by Sun Microsystems to illustrate the cross-platform benefits of the [[Java]] language. Ideally, a Java program could be developed on any device, ...",
         "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
+    },
+    "Habbo Hotel": {
+        "The Sudden Rise of Bondee": "... character and design rooms of their own. Imagine Club Penguin or [[Habbo Hotel]] but in a modern messenger form. It is one of the ..."
     },
     "Digital Addiction": {
         "2022-07-13": "- [[Digital Addiction]]",
@@ -3366,15 +3409,19 @@ export const backlinks = {
         "2022-05-30": "- [[Kakao]] will announce its remote work policy today.",
         "2022-05-31": "- [[Kakao]] announced [[Metaverse]] Remote Work Policy.",
         "2022-06-26": "  - To push the limits, we can try [[Kakao]] Map SDK (or any Map SDK like Open Layer)",
+        "2022-07-05": "- [[Kakao|카카오]]는 자사가 운영 중인 메신저 [[Kakao|카카오톡]]의 프로필 개편방안 중 하나로 'NFT 전시 ...",
         "2022-10-16": "### [[Kakao]]",
+        "AI replaces expensive jobs first": "... a victory without victory --- since the winner was another conglomerate [[Kakao]] Mobility which finally took over the market.",
         "AI는 고가 노동부터 점령한다": "... 승리했지만, 승리 아닌 승리를 거두고 말았다. 타다가 멸망한 탓에 그 옆의 [[Kakao|카카오]]모빌리티가 시장을 독점하는 결과를 가져왔기 때문이다.",
         "Brunch": "- Korean Writing Service operated by [[Kakao]]",
         "How to Build Software like an SRE": "  - do you see [[Kakao]]?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in Korea, Naver, and [[Kakao]].",
+        "Letter to Mr. Matt Rickard on 2022-12-23": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + ...",
         "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
         "Mental Simulation of Firefox and Signal as a Super App": "... onboard cannot stop. Especially with group chat, as we learned from [[Kakao]].",
-        "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 카카오라는 간편결제를 시작한다는 이야기를 들었다."
+        "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 Kakao|카카오라는 간편결제를 시작한다는 이야기를 들었다.",
+        "프로젝트 어덕행덕": "... - 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 [[Kakao|카카오]]페이나 토스에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 ..."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
@@ -3418,6 +3465,10 @@ export const backlinks = {
         "2023-02-04": "- [[Potential Writing Topics]]",
         "2023-02-07": "- [[Potential Writing Topics]]"
     },
+    "The Sudden Rise of Bondee": {
+        "2023-02-12": "- [[The Sudden Rise of Bondee]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 12 | 🇬🇧 [[The Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]]       ..."
+    },
     "Karrot NX Team Mission Statement": {
         "2023-02-08": "- [[Karrot NX Team Mission Statement]]"
     },
@@ -3450,7 +3501,7 @@ export const backlinks = {
         "2022-08-01": "... as a golden goose need to realize something. While Adobe Photoshop, [[Microsoft]] Word, and other established design and productivity tools are invaluable necessities ...",
         "2022-10-18": "> [[Microsoft]] has started layoffs today. Some in Experiences + Devices, Xbox, legal, ...",
         "2023-01-13": "- [[Microsoft]]",
-        "AMP": "... faster. AMP pages may be cached by a CDN, such as [[Microsoft]] Bing or Cloudflare's AMP caches, which allows pages to be served ...",
+        "AMP": "... faster. AMP pages may be cached by a CDN, such as [[Microsoft]] [[Bing]] or Cloudflare's AMP caches, which allows pages to be served ...",
         "C++": "... many vendors provide C++ compilers, including the Free Software Foundation, LLVM, [[Microsoft]], Intel, Embarcadero, Oracle, and IBM, so it is available on many ...",
         "Collecting Data": "... private data you might want to keep is being sent to [[Microsoft]].",
         "GitHub": "... every project. Headquartered in California, it has been a subsidiary of [[Microsoft]] since 2018. GitHub",
@@ -3641,6 +3692,11 @@ export const backlinks = {
     "Greedy Algorithm": {
         "Real Exams": "- 1 [[Greedy Algorithm]]"
     },
+    "한민족의 문화": {
+        "서낭당": "서낭당은 [[한민족의 문화]] 건축물로 마을의 수호신인 서낭신을 모신 신단이나 나무이다. 성황당이라고도 한다.",
+        "솟대": "[[한민족의 문화]] 건축물로,",
+        "장승": "[[한민족의 문화]] 건축물로,"
+    },
     "SharedArrayBuffer": {
         "2022-06-22": "  - WorkerDOM will harness [[SharedArrayBuffer]].",
         "2022-06-26": "- Explore [[SharedArrayBuffer]], Atomic, and [[WorkerDOM]]'s Binary [[DOM]] manipulation.",
@@ -3657,6 +3713,10 @@ export const backlinks = {
     },
     "Dijkstra": {
         "Internetworking": "- [[Dijkstra]]"
+    },
+    "서낭당": {
+        "2023-02-12": "- [[서낭당]]",
+        "장승": "비슷한 예시로 솟대나 [[서낭당]]이 있다."
     },
     "Ghost 테마를 자동 배포하는 방법": {
         "2022-11-19": "  - [[Ghost 테마를 자동 배포하는 방법]]"
@@ -3821,8 +3881,13 @@ export const backlinks = {
     },
     "Metaverse": {
         "2022-05-31": "- Kakao announced [[Metaverse]] Remote Work Policy.",
+        "Bondee": "... interact with each other on this social media platform via its [[metaverse]] environment. Users can also create and customize their 3D characters and ...",
+        "Club Penguin": "[[Metaverse]]",
+        "Habbo Hotel": "Habbo Hotel is also a part of the [[metaverse]]. It is a virtual world and social networking site where users ...",
         "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can be attained within years with Prompt Engineering.",
-        "Spacial Cognition": "- Very important for [[Metaverse]]"
+        "Spacial Cognition": "- Very important for [[Metaverse]]",
+        "The Sudden Rise of Bondee": "Bondee is a [[metaverse]] social app, going crazy in Korea, Japan, Singapore, Taiwan, etc., ranking ...",
+        "혜성처럼 나타난 본디": "... 한국, 일본, 싱가포르, 타이완 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
     },
     "Better Docusaurus": {
         "2022-07-11": "- [[Better Docusaurus]]",
@@ -3908,6 +3973,12 @@ export const backlinks = {
         "CODE Procedure": "- Often used with [[PARA]].",
         "PKM": "| [[PARA]]       | Architecture for Second Brain. ..."
     },
+    "Bing": {
+        "AMP": "... AMP pages may be cached by a CDN, such as Microsoft [[Bing]] or Cloudflare's AMP caches, which allows pages to be served more ...",
+        "Bing Chat for All Browsers": "- [[Bing]] Chat for all [[Web Browser|browser]]",
+        "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 [[Bing]] [[ChatGPT]]에 검색을 해보았다.",
+        "Super App": "... sources say CEO Satya Nadella is laying the groundwork by pushing [[Bing]] to work better with Microsoft's other mobile products"
+    },
     "OS": {
         "2022-06-14": "- Brane은 타사 앱을 참여시켜 플랫폼을 확장하고 [[OS]] 수준을 경험하는 모든 과정(웹앱 렌더링, 레지스트리 설치, 프리로딩, 위젯 등)을 포함하는 ...",
         "Apple Newsroom 서체 따라하기": "- 단어 하나만으로 [[OS]]의 기본 서체로 설정할 수 있는 `system-ui`라는 CSS 코드를 표준화 하고 있다고 ...",
@@ -3965,7 +4036,15 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 10 | 🇬🇧 In search of my domain <br/> 🇰🇷 [[도메인 찾아 삼만리]]            ..."
     },
     "Naver": {
-        "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ..."
+        "Krafton Way": "... 첫눈을 매각한 이후 장병규는 종종 \"내가 아는 모든 좋은 사람들까지 다 [[Naver|네이버]]에 매각됐다\"고 말했다. 돈 말고는 아무것도 없는 것처럼 느껴졌다.",
+        "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in Korea, [[Naver]], and [[Kakao]].",
+        "Personal Training Corpus": "> \"보이스 메이커를 통해 제작된 AI 보이스는 [[Naver|네이버]] 클로바더빙 서비스에서 누구나 무료로 이용할 수 있게 제공합니다. 향후에는 클로바더빙 유료 ...",
+        "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ...",
+        "Search AI와 인터넷의 한국어": "무엇보다 대부분의 자료가 [[Naver|네이버]]에 갇혀있고,",
+        "Service Shimming": "- [[Naver]] (≈ Korean Google), for a while, failed to make a News ...",
+        "서비스 시밍": "- [[Naver|네이버]]는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 매일 아침 찾아가며 뉴스를 ...",
+        "유난한 도전": "... 사용자도 많고 간편한 토스결제를 너나없이 이용하고 싶어 할 것이다. 그렇지 않았다. [[Naver|네이버]]페이, [[Kakao|카카오]]페이, 삼성페이 등 경쟁자가 너무 많았다. 토스페이의 설득력이 부족했다.",
+        "하늘땅사람 개발 기록": "- `( ••)` `⊹⋛⋋( ՞ਊ ՞)⋌⋚⊹) `와 같은 이모티콘. [[Naver|네이버]] 스마트 키보드의 기능 중 꽤 좋은 기능이었다."
     },
     "Memex": {
         "2022-10-17": "- [[Memex]]",
@@ -4110,7 +4189,8 @@ export const backlinks = {
         "2023-02-07": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-08": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-09": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-11": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-11": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-12": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -4162,7 +4242,7 @@ export const backlinks = {
         "Person 1E6ABA": "Finding [[Information amongst Data]].",
         "Prompt Marketplace": "Maybe specific keywords can be the key to finding [[Information amongst Data]] or [[Search in a Latent Space]].",
         "Rauno": "- Has alphanumeric morphing, as if it is finding [[Information amongst Data]]",
-        "Search Engine using Generative AI": "- [[Information amongst Data]]",
+        "Search AI": "- [[Information amongst Data]]",
         "Search in a Latent Space": "- Finding [[Information amongst Data]].",
         "The Library of Babel": "- [[Information amongst Data]]",
         "개성은 자연스레 주어지지 않는다": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
@@ -4278,7 +4358,7 @@ export const backlinks = {
         "2022-11-28": "- Matt Rickard: [[The Demise of Chatbots in 2017]], [[Generative Databases]]",
         "Generative AI": "Or would they make a similar trajectory like [[The Demise of Chatbots in 2017]]?",
         "Matt Rickard": "- [[The Demise of Chatbots in 2017]]",
-        "Search Engine using Generative AI": "We will never see [[The Demise of Chatbots in 2017]] again."
+        "Search AI": "We will never see [[The Demise of Chatbots in 2017]] again."
     },
     "Elo Rating": {
         "2022-12-09": "- Matt Rickard: [[Elo Rating]]",
@@ -4507,6 +4587,10 @@ export const backlinks = {
         "Project": "- [[하늘땅사람 개발 기록]]",
         "하늘땅사람": "- [[하늘땅사람 개발 기록]]"
     },
+    "솟대": {
+        "2023-02-12": "- [[솟대]]",
+        "장승": "비슷한 예시로 [[솟대]]나 [[서낭당]]이 있다."
+    },
     "AT&T Roaming Incident (December 2022)": {
         "2022-12-27": "- [[AT&T Roaming Incident (December 2022)]]"
     },
@@ -4722,6 +4806,11 @@ export const backlinks = {
     "Nation as a Service": {
         "2022-09-12": "- [[Nation as a Service]]"
     },
+    "장승": {
+        "2023-02-12": "- [[장승]]",
+        "Search AI와 인터넷의 한국어": "[[장승]]에 대한 정보를 찾아보려고 [[Bing]] [[ChatGPT]]에 검색을 해보았다.",
+        "서낭당": "국립민속박물관 앞 [[장승]]과 함께 있는 모습이다."
+    },
     "Convergence of Power Series": {
         "2023-01-31": "- [[Convergence of Power Series]]"
     },
@@ -4770,7 +4859,7 @@ export const backlinks = {
         "Ghost 테마를 자동 배포하는 방법": "... 다행히도 Ghost 2.25.5부터 GitHub Actions를 이용해 다음과 같이 Ghost 테마 개발을 [[Automation|자동화]]할 수 있게 되었다.",
         "GitHub Actions": "... continuous integration and continuous delivery (CI/CD) platform that allows you to [[Automation|automate]] your build, test, and deployment pipeline. You can create workflows that ...",
         "Scheduler": "... management system (DRMS), distributed resource manager (DRM), and, commonly today, workload [[automation]] (WLA). The data structure of jobs to run is known as ...",
-        "서비스 시밍": "- 네이버는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 매일 아침 찾아가며 뉴스를 배포할 권한을 ..."
+        "서비스 시밍": "- Naver|네이버는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 매일 아침 찾아가며 뉴스를 배포할 권한을 ..."
     },
     "Plausible Analytics": {
         "Google Analytics": "- Alternative: Simple Analytics, [[Plausible Analytics]]"
@@ -5075,6 +5164,9 @@ export const backlinks = {
     "801385.png": {
         "Interface (Jumpsite)": "![[801385.png]]"
     },
+    "C8903B.png": {
+        "Metadream": "![[C8903B.png]]"
+    },
     "4B6FDC.png": {
         "Deepnote": "![[4B6FDC.png]]"
     },
@@ -5128,15 +5220,6 @@ export const backlinks = {
     },
     "ABD734.png": {
         "Developing Review Notes for Obsidian": "![[ABD734.png]]"
-    },
-    "29DB9F.png": {
-        "Search Engine using Generative AI": "![[29DB9F.png]]"
-    },
-    "63CD9D.png": {
-        "Search Engine using Generative AI": "![[63CD9D.png]]"
-    },
-    "921CC5.png": {
-        "Search Engine using Generative AI": "![[921CC5.png]]"
     },
     "4B9CF4.png": {
         "Rewind": "![[4B9CF4.png]]",
@@ -5250,6 +5333,9 @@ export const backlinks = {
     },
     "10E67E.png": {
         "Domain Search Tools": "![[10E67E.png]]"
+    },
+    "57E3F2.png": {
+        "Domain Search Tools": "![[57E3F2.png]]"
     },
     "E4B175.png": {
         "Domain Search Tools": "![[E4B175.png]]"
@@ -5426,6 +5512,12 @@ export const backlinks = {
     "DEC72A.png": {
         "Adding a Verified Mark on Apple Mail & Gmail": "![[DEC72A.png]]"
     },
+    "5CD08D.png": {
+        "Bondee and Zheli": "![[5CD08D.png]]"
+    },
+    "EEABEE.png": {
+        "Bondee and Zheli": "![[EEABEE.png]]"
+    },
     "6ECA95.gif": {
         "UI Designs for Editing Messages": "![[6ECA95.gif]]"
     },
@@ -5447,6 +5539,9 @@ export const backlinks = {
     "CE4381.png": {
         "Roam Research": "![[CE4381.png]]",
         "Text-based Tools for Thought": "![[CE4381.png]]"
+    },
+    "30E678.png": {
+        "Bondee": "![[30E678.png]]"
     },
     "49BF36.png": {
         "Ray.st": "![[49BF36.png]]"
@@ -5491,6 +5586,30 @@ export const backlinks = {
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
     },
+    "21D071.png": {
+        "The Sudden Rise of Bondee": "![[21D071.png]]",
+        "혜성처럼 나타난 본디": "![[21D071.png]]"
+    },
+    "F86A64.png": {
+        "The Sudden Rise of Bondee": "![[F86A64.png]]",
+        "혜성처럼 나타난 본디": "![[F86A64.png]]"
+    },
+    "6B42A0.png": {
+        "The Sudden Rise of Bondee": "![[6B42A0.png]]",
+        "혜성처럼 나타난 본디": "![[6B42A0.png]]"
+    },
+    "9B0752.png": {
+        "The Sudden Rise of Bondee": "![[9B0752.png]]",
+        "혜성처럼 나타난 본디": "![[9B0752.png]]"
+    },
+    "689DA7.png": {
+        "The Sudden Rise of Bondee": "![[689DA7.png]]",
+        "혜성처럼 나타난 본디": "![[689DA7.png]]"
+    },
+    "13B6F7.png": {
+        "The Sudden Rise of Bondee": "![[13B6F7.png]]",
+        "혜성처럼 나타난 본디": "![[13B6F7.png]]"
+    },
     "6DFC4D.png": {
         "Notion AI": "![[6DFC4D.png]]"
     },
@@ -5502,6 +5621,15 @@ export const backlinks = {
     },
     "623CC4.png": {
         "Bing Chat for All Browsers": "![[623CC4.png]]"
+    },
+    "29DB9F.png": {
+        "Search AI": "![[29DB9F.png]]"
+    },
+    "63CD9D.png": {
+        "Search AI": "![[63CD9D.png]]"
+    },
+    "921CC5.png": {
+        "Search AI": "![[921CC5.png]]"
     },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",
@@ -5553,6 +5681,9 @@ export const backlinks = {
     },
     "669578.png": {
         "프로젝트 어덕행덕": "![[669578.png]]"
+    },
+    "29C0E6.png": {
+        "Club Penguin": "![[29C0E6.png]]"
     },
     "CD4751.png": {
         "San Francisco": "![[CD4751.png]]",
@@ -5758,6 +5889,9 @@ export const backlinks = {
     },
     "DAB721.png": {
         "My Raycast Wrapped of 2022": "![[DAB721.png]]"
+    },
+    "51C828.jpg": {
+        "서낭당": "![[51C828.jpg]]"
     },
     "8121DD.png": {
         "Horizontally Stacked Interface": "![[8121DD.png]]"
@@ -5995,6 +6129,9 @@ export const backlinks = {
     },
     "CB642E.png": {
         "하늘땅사람 개발 기록": "![[CB642E.png]]"
+    },
+    "392747.png": {
+        "솟대": "![[392747.png]]"
     },
     "A7416A.png": {
         "Three Column Design": "![[A7416A.png]]"
