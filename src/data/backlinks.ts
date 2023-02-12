@@ -183,6 +183,9 @@ export const backlinks = {
     "2023-02-01": {
         "Harry Stebbings Challenge": "| [[2023-02-01]] | [[Imoogi and Dragon Company]]       ..."
     },
+    "2023-02-11": {
+        "Harry Stebbings Challenge": "| [[2023-02-11]] | [[Bing Chat for All Browsers]]      ..."
+    },
     "2020-09-20": {
         "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
     },
@@ -956,6 +959,9 @@ export const backlinks = {
         "Project": "This is a [[Metapage]] for my projects.",
         "Readings": "This is a [[Metapage|meta-page]] that collects my to-read lists."
     },
+    "Privacy Policy for Bing Chat for All Browsers": {
+        "Bing Chat for All Browsers": "- [[Privacy Policy for Bing Chat for All Browsers]]"
+    },
     "How does File Alias work": {
         "2022-10-21": "- [[How does File Alias work]]",
         "Redirecting READMEs": "- [[How does File Alias work]]"
@@ -1479,9 +1485,6 @@ export const backlinks = {
         "Cache Conscious Programming": "... slower than `for (i=0;i<N;i++) for (j=0;j<M;j++)` due to the way of [[caching]]",
         "Computer Systems": "- [[Caching]]"
     },
-    "Enable Bing Chat on Other Browsers": {
-        "2023-02-10": "- [[Enable Bing Chat on Other Browsers]]"
-    },
     "0232 Implement Queue using Stacks": {
         "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",
         "Coding Tests": "- [x] [[0232 Implement Queue using Stacks]]"
@@ -1648,6 +1651,7 @@ export const backlinks = {
         "2023-02-08": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-09": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-10": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
+        "2023-02-11": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "Building Habit": "- [[Jog 25 minutes (Jan-Feb 2023)]]"
     },
     "I travel the World Wide Web": {
@@ -1833,7 +1837,7 @@ export const backlinks = {
         "2022-12-06": "- [[GA]]: [[Nigh]]",
         "2022-12-24": "- Rewind is [[GA]]",
         "In search of my domain": "... most available one. A year later, Google made the `.dev` domain [[GA]], and I also tried `cho.dev`, but ① the prices were too ...",
-        "도메인 찾아 삼만리": "... most available one. A year later, Google made the `.dev` domain [[GA]], and I also tried `cho.dev`, but ① the prices were too ..."
+        "도메인 찾아 삼만리": "... `.xyz`는 아이디어가 부족해 고른 것 같았다. 1년 뒤 구글이 `.dev` 도메인을 [[GA|공개]]했고, `cho.dev`을 사려 했지만 ▲ 가격이 너무 비쌌고(~800달러) ▲ 나는 개발자 이상이 ..."
     },
     "Poisson Approximation": {
         "2023-01-26": "- [[Poisson Approximation]]",
@@ -2148,6 +2152,7 @@ export const backlinks = {
         "2023-01-25": "## [[Project]]",
         "2023-01-31": "## [[Project]]",
         "2023-02-06": "## [[Project]]",
+        "2023-02-11": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter Network]] but you must",
         "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
@@ -2527,6 +2532,11 @@ export const backlinks = {
         "2022-09-17": "  - [[Android equivalent of div]]",
         "Android": "- [[Android equivalent of div]]"
     },
+    "Bing Chat for All Browsers": {
+        "2023-02-10": "- [[Bing Chat for All Browsers]]",
+        "2023-02-11": "- [[Bing Chat for All Browsers]]",
+        "Harry Stebbings Challenge": "| 2023-02-11 | [[Bing Chat for All Browsers]]            ..."
+    },
     "하늘땅사람": {
         "2023-01-19": "- [[하늘땅사람]]",
         "2023-01-31": "- [[하늘땅사람]]",
@@ -2705,7 +2715,8 @@ export const backlinks = {
         "2023-02-07": "## [[Building Habit]]",
         "2023-02-08": "## [[Building Habit]]",
         "2023-02-09": "## [[Building Habit]]",
-        "2023-02-10": "## [[Building Habit]]"
+        "2023-02-10": "## [[Building Habit]]",
+        "2023-02-11": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -3876,7 +3887,8 @@ export const backlinks = {
         "2023-02-06": "- [[Harry Stebbings Challenge]]",
         "2023-02-07": "- [[Harry Stebbings Challenge]]",
         "2023-02-08": "- [[Harry Stebbings Challenge]]",
-        "2023-02-09": "- [[Harry Stebbings Challenge]]"
+        "2023-02-09": "- [[Harry Stebbings Challenge]]",
+        "2023-02-11": "- [[Harry Stebbings Challenge]]"
     },
     "Ruby": {
         "Higher-Level Languages and Their Speeds": "## [[Ruby]]"
@@ -3987,7 +3999,8 @@ export const backlinks = {
         "2023-01-22": "- [[Using System Haptics and Sounds in Swift]]"
     },
     "도메인 찾아 삼만리": {
-        "Harry Stebbings Challenge": "...     |       [[도메인 찾아 삼만리]]            ..."
+        "2023-02-11": "- [[도메인 찾아 삼만리]]",
+        "Harry Stebbings Challenge": "...           | [[도메인 찾아 삼만리]]         | Tweet |"
     },
     "Naver": {
         "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ..."
@@ -5511,6 +5524,12 @@ export const backlinks = {
     },
     "094016.png": {
         "Android equivalent of div": "![[094016.png]]"
+    },
+    "675244.png": {
+        "Bing Chat for All Browsers": "![[675244.png]]"
+    },
+    "623CC4.png": {
+        "Bing Chat for All Browsers": "![[623CC4.png]]"
     },
     "65AE9A.png": {
         "Inter": "![[65AE9A.png]]",
