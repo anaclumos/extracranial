@@ -10,5 +10,5 @@ Or would they make a similar trajectory like [[The Demise of Chatbots in 2017]]?
 
 ## Use Cases
 
-- [[Search Engine using Generative AI]]
+- [[Search AI]]
 - [[Tome]]

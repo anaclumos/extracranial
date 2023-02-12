@@ -33,3 +33,4 @@ slug: '/18728A'
 | [09](../journals/2023-02-09.md) | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]     | [Tweet](https://twitter.com/anaclumos/status/1623798629155713024) |
 | [10](../journals/2023-02-10.md) | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]]                            | [Tweet](https://twitter.com/anaclumos/status/1624308920792776706) |
 | [11](../journals/2023-02-11.md) | 🇬🇧 [Bing Chat for All Browsers](https://github.com/anaclumos/bing-chat-for-all-browsers) | [Tweet](https://twitter.com/anaclumos/status/1624570931103547392) |
+| [12](../journals/2023-02-12.md) | 🇬🇧 [[The Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]]                       |                                                                   |
