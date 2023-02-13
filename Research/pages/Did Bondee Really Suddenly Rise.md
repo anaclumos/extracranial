@@ -6,7 +6,7 @@ slug: '/CFEB86'
 Yesterday, we took a closer look into [[Bondee]]: [[The Sudden Rise of Bondee]]. But did it suddenly rise?
 
 :::danger
-This article examines the connection between Bondee and Zheli, a now-shut-down Chinese service, and the allegations of personal information infringement regarding Zheli. Bondi has not yet encountered any information infringement cases or operational security problems. We cannot draw a definitive conclusion about Bondee simply from a few speculations. This article does not raise suspicions about the Bondi service. Please keep this part in mind and read it.
+This article examines the connection between Bondee and Zheli, a now-shut-down Chinese service, and the allegations of personal information infringement regarding Zheli. Bondee has not yet encountered any information infringement cases or operational security problems. We cannot draw a definitive conclusion about Bondee simply from a few speculations. This article does not raise suspicions about the Bondee service. Please keep this part in mind and read it.
 :::
 
 [[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. Bondee launched on January 7, 2023, with great quality. Bondee also topped multiple app store charts across Asia within a month. Such a Mega-hit for an early startup. They feel very **prepared** and well-established. Isn't it strange?
@@ -78,4 +78,4 @@ Metadream denied such accusations.
 
 ## Conclusion
 
-No personal information infringement cases or security-related incidents have been directly confirmed for Metadream and Bondi yet. It remains to be seen what kind of relationship Metadream has with the former Beijing Yidianshuo Entertainment Technology (whether it's a simple rebranding of Zheli or whether it just acquired the software and made full-fledged changes to its operating policies and policies). However, judging from Zheli and the stakeholders involved, it seems necessary to exercise caution when using Bondi.
+No personal information infringement cases or security-related incidents have been directly confirmed for Metadream and Bondee yet. It remains to be seen what kind of relationship Metadream has with the former Beijing Yidianshuo Entertainment Technology (whether it's a simple rebranding of Zheli or whether it just acquired the software and made full-fledged changes to its operating policies and policies). However, judging from Zheli and the stakeholders involved, it seems necessary to exercise caution when using Bondee.
