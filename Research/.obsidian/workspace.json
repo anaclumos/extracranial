@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "68127dabc126006b",
+            "id": "e659be7379fa16a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Did Bondee Really Suddenly Rise.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Did Bondee Really Suddenly Rise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Did Bondee Really Suddenly Rise.md"
+              }
             }
           },
           {
@@ -136,17 +144,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "68127dabc126006b",
+  "active": "e659be7379fa16a0",
   "lastOpenFiles": [
     "journals/2023-02-13.md",
-    "pages/Privacy Policy for My Chrome Extensions.md",
+    "pages/본디는 사실 혜성이 아니다.md",
+    "pages/Did Bondee Really Suddenly Rise.md",
+    "pages/Logseq.md",
+    "pages/Componentizing Views in Android.md",
+    "assets/5A4739.png",
     "pages/데이터베이스권.md",
+    "pages/Privacy Policy for My Chrome Extensions.md",
     "pages/Jog 25 minutes (Jan-Feb 2023).md",
-    "journals/2023-02-12.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/The Sudden Rise of Bondee.md",
-    "pages/혜성처럼 나타난 본디.md",
-    "pages/C++.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-12-23.md"
+    "journals/2023-02-12.md"
   ]
 }
