@@ -136,6 +136,9 @@ if __name__ == "__main__":
                     '’': "'",
                     " • TechCrunch": "",
                     " | Jay Mody": "",
+                    " | 중앙일보": "",
+                    " | The New York Times": "",
+                    "[단독] ": "",
                 }
 
                 for rule in REPLACE_RULES:
