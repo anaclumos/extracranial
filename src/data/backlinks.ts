@@ -198,6 +198,9 @@ export const backlinks = {
     "2022-11-10": {
         "Dynamic Island on the Web": "## [[2022-11-10]]"
     },
+    "2023-02-12": {
+        "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-12]]: 컨디션이 좋지 않았다. 하루 걸러 하루 못하고 있는 꼴인데 조금 더 ..."
+    },
     "2020-10-27": {
         "프로젝트 어덕행덕": "- [[2020-10-27]]"
     },
@@ -934,9 +937,6 @@ export const backlinks = {
         "Project": "This is a [[Metapage]] for my projects.",
         "Readings": "This is a [[Metapage|meta-page]] that collects my to-read lists."
     },
-    "Privacy Policy for Bing Chat for All Browsers": {
-        "Bing Chat for All Browsers": "- [[Privacy Policy for Bing Chat for All Browsers]]"
-    },
     "How does File Alias work": {
         "2022-10-21": "- [[How does File Alias work]]",
         "Redirecting READMEs": "- [[How does File Alias work]]"
@@ -1369,6 +1369,9 @@ export const backlinks = {
         "Multiplexing": "- In [[Internetworking]], it means having multiple sockets and juggling with data transmissions.",
         "Socket": "- used in [[Internetworking]]"
     },
+    "Privacy Policy for My Chrome Extensions": {
+        "Bing Chat for All Browsers": "- [[Privacy Policy for My Chrome Extensions]]"
+    },
     "Approximation": {
         "2023-01-24": "- [[Approximation]]"
     },
@@ -1638,6 +1641,7 @@ export const backlinks = {
         "2023-02-10": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-11": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-12": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
+        "2023-02-13": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "Building Habit": "- [[Jog 25 minutes (Jan-Feb 2023)]]"
     },
     "I travel the World Wide Web": {
@@ -1905,7 +1909,8 @@ export const backlinks = {
         "Write Once Run Everywhere": "- [[Rust]]"
     },
     "Bondee and Zheli": {
-        "2023-02-12": "- [[Bondee and Zheli]]"
+        "2023-02-12": "- [[Bondee and Zheli]]",
+        "2023-02-13": "- [[Bondee and Zheli]]"
     },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]",
@@ -2534,6 +2539,7 @@ export const backlinks = {
     "Bing Chat for All Browsers": {
         "2023-02-10": "- [[Bing Chat for All Browsers]]",
         "2023-02-11": "- [[Bing Chat for All Browsers]]",
+        "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
         "Search AI": "- [[Bing Chat for All Browsers]]"
     },
     "하늘땅사람": {
@@ -2722,7 +2728,8 @@ export const backlinks = {
         "2023-02-09": "## [[Building Habit]]",
         "2023-02-10": "## [[Building Habit]]",
         "2023-02-11": "## [[Building Habit]]",
-        "2023-02-12": "## [[Building Habit]]"
+        "2023-02-12": "## [[Building Habit]]",
+        "2023-02-13": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -2741,6 +2748,9 @@ export const backlinks = {
     "Ticket Bounty Model": {
         "2022-08-11": "- [[Ticket Bounty Model]]",
         "2022-09-12": "- [[Ticket Bounty Model]]"
+    },
+    "데이터베이스권": {
+        "2023-02-13": "- [[데이터베이스권]]"
     },
     "Clean Energy": {
         "2023-01-13": "- [[Clean Energy]]"
