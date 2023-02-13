@@ -634,7 +634,8 @@ export const backlinks = {
     "Metadream": {
         "2023-02-12": "- [[Metadream]]",
         "Bondee": "... is a virtual avatar social app created by Singapore-based tech firm [[Metadream]]. Users can chat and interact with each other on this social ...",
-        "Bondee and Zheli": "[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. Bondee launched ..."
+        "Did Bondee Really Suddenly Rise": "[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. Bondee launched ...",
+        "본디는 사실 혜성이 아니다": "본디를 운영하는 [[Metadream|메타드림]]은 2022년 9월에 설립되었다. 본디는 2023년 1월 7일에 놀라운 퀄리티로 출시되었다. 그리고 ..."
     },
     "0104 Maximum Depth of Binary Tree": {
         "Coding Tests": "- [x] [[0104 Maximum Depth of Binary Tree]]"
@@ -1464,6 +1465,10 @@ export const backlinks = {
         "Cache Conscious Programming": "... slower than `for (i=0;i<N;i++) for (j=0;j<M;j++)` due to the way of [[caching]]",
         "Computer Systems": "- [[Caching]]"
     },
+    "Did Bondee Really Suddenly Rise": {
+        "2023-02-12": "- [[Did Bondee Really Suddenly Rise]]",
+        "2023-02-13": "- [[Did Bondee Really Suddenly Rise]]"
+    },
     "0232 Implement Queue using Stacks": {
         "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",
         "Coding Tests": "- [x] [[0232 Implement Queue using Stacks]]"
@@ -1649,6 +1654,9 @@ export const backlinks = {
     },
     "Modern MacPaint": {
         "Diagram (Company)": "- Creator of [[Modern MacPaint]]"
+    },
+    "본디는 사실 혜성이 아니다": {
+        "2023-02-13": "- [[본디는 사실 혜성이 아니다]]"
     },
     "Bernoulli Distribution": {
         "2023-01-24": "- [[Bernoulli Distribution]]",
@@ -1908,10 +1916,6 @@ export const backlinks = {
         "WebGPU": "- It's a stand-alone TypeScript+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "Write Once Run Everywhere": "- [[Rust]]"
     },
-    "Bondee and Zheli": {
-        "2023-02-12": "- [[Bondee and Zheli]]",
-        "2023-02-13": "- [[Bondee and Zheli]]"
-    },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]",
         "2023-01-09": "- [[Off The Record]]"
@@ -2070,8 +2074,9 @@ export const backlinks = {
     },
     "Bondee": {
         "2023-02-12": "- [[Bondee]]",
-        "Bondee and Zheli": "Metadream, the company behind [[Bondee]], was founded in Sep 2022. Bondee launched on January 7, 2023, ...",
+        "Did Bondee Really Suddenly Rise": "Yesterday, we took a closer look into [[Bondee]]: [[The Sudden Rise of Bondee]]. But did it suddenly rise?",
         "The Sudden Rise of Bondee": "[[Bondee]] is a [[metaverse]] social app, going crazy in Korea, Japan, Singapore, ...",
+        "본디는 사실 혜성이 아니다": "어제 혜성처럼 나타난 본디 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 본디는 정말 혜성일까?",
         "혜성처럼 나타난 본디": "[[Bondee|본디]]는 한국, 일본, 싱가포르, 타이완 등에서 앱스토어 1위를 하며 인기를 얻고 있는 ..."
     },
     "CELLO (Product)": {
@@ -2467,7 +2472,8 @@ export const backlinks = {
     },
     "혜성처럼 나타난 본디": {
         "2023-02-12": "- [[혜성처럼 나타난 본디]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 12 | 🇬🇧 The Sudden Rise of Bondee <br/> 🇰🇷 [[혜성처럼 나타난 본디]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 12 | 🇬🇧 The Sudden Rise of Bondee <br/> 🇰🇷 [[혜성처럼 나타난 본디]]            ...",
+        "본디는 사실 혜성이 아니다": "어제 [[혜성처럼 나타난 본디]] 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 본디는 정말 혜성일까?"
     },
     "Porting a Chrome Extension to Firefox Add-on": {
         "2022-11-19": "  - [[Porting a Chrome Extension to Firefox Add-on]]"
@@ -3477,6 +3483,7 @@ export const backlinks = {
     },
     "The Sudden Rise of Bondee": {
         "2023-02-12": "- [[The Sudden Rise of Bondee]]",
+        "Did Bondee Really Suddenly Rise": "Yesterday, we took a closer look into Bondee: [[The Sudden Rise of Bondee]]. But did it suddenly rise?",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 12 | 🇬🇧 [[The Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]]       ..."
     },
     "Karrot NX Team Mission Statement": {
@@ -5373,6 +5380,30 @@ export const backlinks = {
         "Pretendard": "![[C42C4E.png]]",
         "San Francisco": "![[C42C4E.png]]"
     },
+    "17144A.png": {
+        "Did Bondee Really Suddenly Rise": "![[17144A.png]]",
+        "본디는 사실 혜성이 아니다": "![[17144A.png]]"
+    },
+    "5CD08D.png": {
+        "Did Bondee Really Suddenly Rise": "![[5CD08D.png]]",
+        "본디는 사실 혜성이 아니다": "![[5CD08D.png]]"
+    },
+    "EEABEE.png": {
+        "Did Bondee Really Suddenly Rise": "![[EEABEE.png]]",
+        "본디는 사실 혜성이 아니다": "![[EEABEE.png]]"
+    },
+    "C1EB1B.png": {
+        "Did Bondee Really Suddenly Rise": "![[C1EB1B.png]]",
+        "본디는 사실 혜성이 아니다": "![[C1EB1B.png]]"
+    },
+    "5A4739.png": {
+        "Did Bondee Really Suddenly Rise": "![[5A4739.png]]",
+        "본디는 사실 혜성이 아니다": "![[5A4739.png]]"
+    },
+    "474D9E.png": {
+        "Did Bondee Really Suddenly Rise": "![[474D9E.png]]",
+        "본디는 사실 혜성이 아니다": "![[474D9E.png]]"
+    },
     "3A6F7A.png": {
         "0232 Implement Queue using Stacks": "![[3A6F7A.png]]"
     },
@@ -5521,12 +5552,6 @@ export const backlinks = {
     },
     "DEC72A.png": {
         "Adding a Verified Mark on Apple Mail & Gmail": "![[DEC72A.png]]"
-    },
-    "5CD08D.png": {
-        "Bondee and Zheli": "![[5CD08D.png]]"
-    },
-    "EEABEE.png": {
-        "Bondee and Zheli": "![[EEABEE.png]]"
     },
     "6ECA95.gif": {
         "UI Designs for Editing Messages": "![[6ECA95.gif]]"
