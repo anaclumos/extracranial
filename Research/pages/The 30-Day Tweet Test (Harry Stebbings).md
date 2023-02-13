@@ -3,21 +3,6 @@ lang: 'en'
 slug: '/18728A'
 ---
 
-## Announcement
-
-> The two biggest reasons why people fail with content:
->
-> 1. They never start.
-> 2. They are not consistent.
->
-> Introducing "The 30-Day Tweet Test"
->
-> #1 Rule: Tweet every day for 30 days.
->
-> I will choose a winner after 30 days; they will get coaching with me and Team 20VC and $10K! [pic.twitter.com/5BRQElM0Cg](https://t.co/5BRQElM0Cg)
->
-> — Harry Stebbings (@HarryStebbings) [February 2, 2023](https://twitter.com/HarryStebbings/status/1621132368483598336?ref_src=twsrc%5Etfw)
-
 ## My contents
 
 | Feb 2023                        | Content                                                                                  | Tweet                                                             |
@@ -34,3 +19,18 @@ slug: '/18728A'
 | [10](../journals/2023-02-10.md) | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]]                            | [Tweet](https://twitter.com/anaclumos/status/1624308920792776706) |
 | [11](../journals/2023-02-11.md) | 🇬🇧 [Bing Chat for All Browsers](https://github.com/anaclumos/bing-chat-for-all-browsers) | [Tweet](https://twitter.com/anaclumos/status/1624570931103547392) |
 | [12](../journals/2023-02-12.md) | 🇬🇧 [[The Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]]                       | [Tweet](https://twitter.com/anaclumos/status/1624907125687455745) |
+
+## Announcement
+
+> The two biggest reasons why people fail with content:
+>
+> 1. They never start.
+> 2. They are not consistent.
+>
+> Introducing "The 30-Day Tweet Test"
+>
+> #1 Rule: Tweet every day for 30 days.
+>
+> I will choose a winner after 30 days; they will get coaching with me and Team 20VC and $10K! [pic.twitter.com/5BRQElM0Cg](https://t.co/5BRQElM0Cg)
+>
+> — Harry Stebbings (@HarryStebbings) [February 2, 2023](https://twitter.com/HarryStebbings/status/1621132368483598336?ref_src=twsrc%5Etfw)
