@@ -1467,7 +1467,8 @@ export const backlinks = {
     },
     "Did Bondee Really Suddenly Rise": {
         "2023-02-12": "- [[Did Bondee Really Suddenly Rise]]",
-        "2023-02-13": "- [[Did Bondee Really Suddenly Rise]]"
+        "2023-02-13": "- [[Did Bondee Really Suddenly Rise]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 13 | 🇬🇧 [[Did Bondee Really Suddenly Rise]] <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]      ..."
     },
     "0232 Implement Queue using Stacks": {
         "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",
@@ -1656,7 +1657,8 @@ export const backlinks = {
         "Diagram (Company)": "- Creator of [[Modern MacPaint]]"
     },
     "본디는 사실 혜성이 아니다": {
-        "2023-02-13": "- [[본디는 사실 혜성이 아니다]]"
+        "2023-02-13": "- [[본디는 사실 혜성이 아니다]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 13 | 🇬🇧 Did Bondee Really Suddenly Rise <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]            ..."
     },
     "Bernoulli Distribution": {
         "2023-01-24": "- [[Bernoulli Distribution]]",
@@ -4207,7 +4209,8 @@ export const backlinks = {
         "2023-02-08": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-09": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-11": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-12": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-12": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-13": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
