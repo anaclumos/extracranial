@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b2f914bebb585530",
+        "id": "5290f2fd276f9c66",
         "type": "tabs",
         "children": [
           {
-            "id": "740fbda360a8d675",
+            "id": "68127dabc126006b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,17 +136,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "740fbda360a8d675",
+  "active": "68127dabc126006b",
   "lastOpenFiles": [
+    "journals/2023-02-13.md",
+    "pages/Privacy Policy for My Chrome Extensions.md",
+    "pages/데이터베이스권.md",
+    "pages/Jog 25 minutes (Jan-Feb 2023).md",
     "journals/2023-02-12.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/The Sudden Rise of Bondee.md",
     "pages/혜성처럼 나타난 본디.md",
     "pages/C++.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/Letter to Mr. Matt Rickard on 2022-12-23.md",
-    "pages/Bondee and Zheli.md",
-    "pages/Bondee.md",
-    "pages/Metadream.md",
-    "pages/서낭당.md"
+    "pages/Letter to Mr. Matt Rickard on 2022-12-23.md"
   ]
 }
