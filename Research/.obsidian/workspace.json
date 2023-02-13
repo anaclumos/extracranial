@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Did Bondee Really Suddenly Rise.md",
+                "file": "journals/2023-02-13.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a8860699e5bba73d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-13.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Did Bondee Really Suddenly Rise.md",
+                "file": "journals/2023-02-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Did Bondee Really Suddenly Rise.md"
+                "file": "journals/2023-02-13.md"
               }
             }
           },
@@ -144,7 +158,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b6cb4cccf212076b",
+  "active": "a8860699e5bba73d",
   "lastOpenFiles": [
     "journals/2023-02-13.md",
     "pages/본디는 사실 혜성이 아니다.md",
