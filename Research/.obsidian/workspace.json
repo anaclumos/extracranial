@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5290f2fd276f9c66",
+        "id": "2e6b595842c68922",
         "type": "tabs",
         "children": [
           {
-            "id": "e659be7379fa16a0",
+            "id": "b6cb4cccf212076b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -144,7 +144,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e659be7379fa16a0",
+  "active": "b6cb4cccf212076b",
   "lastOpenFiles": [
     "journals/2023-02-13.md",
     "pages/본디는 사실 혜성이 아니다.md",

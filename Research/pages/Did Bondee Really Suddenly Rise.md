@@ -9,7 +9,9 @@ Yesterday, we took a closer look into [[Bondee]]: [[The Sudden Rise of Bondee]].
 This article examines the connection between Bondee and Zheli, a now-shut-down Chinese service, and the allegations of personal information infringement regarding Zheli. Bondi has not yet encountered any information infringement cases or operational security problems. We cannot draw a definitive conclusion about Bondee simply from a few speculations. This article does not raise suspicions about the Bondi service. Please keep this part in mind and read it.
 :::
 
-[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. Bondee launched on January 7, 2023, with great quality. Bondee also topped multiple app store charts across Asia within a month. Such a Mega-hit for an early startup. They feel very **prepared** and well-established. Isn't it strange? Who's behind it?
+[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. Bondee launched on January 7, 2023, with great quality. Bondee also topped multiple app store charts across Asia within a month. Such a Mega-hit for an early startup. They feel very **prepared** and well-established. Isn't it strange?
+
+## Who's behind Metadream?
 
 ![[17144A.png]]
 
@@ -58,7 +60,7 @@ The Zheli app was recently accused of using users' private information, such as 
 However, its developers soon took down the app to "improve existing user experience," adding it faced "continuous and organized attacks," including the spread of "deliberate rumors and false information" online. They denied anything about data leaks or privacy concerns they were suffering.
 
 <details>
-<summary>Zheli taken down. 2022-02-11. (Screenshot)</summary>
+<summary>Zheli shuts down. 2022-02-13. (Screenshot)</summary>
 
 ![[474D9E.png]]
 
