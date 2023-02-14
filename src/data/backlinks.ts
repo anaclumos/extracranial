@@ -199,7 +199,7 @@ export const backlinks = {
         "Dynamic Island on the Web": "## [[2022-11-10]]"
     },
     "2023-02-12": {
-        "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-12]]: 컨디션이 좋지 않았다. 하루 걸러 하루 못하고 있는 꼴인데 조금 더 ..."
+        "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-12]]: 컨디션이 좋지 않았다."
     },
     "2020-10-27": {
         "프로젝트 어덕행덕": "- [[2020-10-27]]"
@@ -259,6 +259,9 @@ export const backlinks = {
     },
     "2023-01-09": {
         "2022년 11월 한 달간 일기 쓰기": "[[2023-01-09]]에 생각해보니 습관을 형성하기 위해서는 최소 2달 동안 지속해야 한다는 점을 알았다."
+    },
+    "2023-02-13": {
+        "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-13]]: 개인 사정"
     },
     "2023-01-12": {
         "Using an iPad as my Ebook": "... best ebook reader is yet to finish, a recent discovery on [[2023-01-12]] suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools ...",
@@ -427,6 +430,10 @@ export const backlinks = {
         "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
         "The Era of Invites": "... an invitation system will never reach your attention. For example, did [[ChatGPT]] require an invite? Nope.",
         "초대장의 시대": "... 가진 스타트업이 성공하지 못하면 우리의 관심에 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
+    },
+    "Optimistic Nihilist": {
+        "2023-02-14": "- [[Optimistic Nihilist]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 14 | 🇬🇧 [[Optimistic Nihilist]] <br/> 🇰🇷 [[긍정적 허무주의자]]        ..."
     },
     "Paracosm": {
         "Text-based Tools for Thought": "### [[Paracosm]]"
@@ -1648,6 +1655,7 @@ export const backlinks = {
         "2023-02-11": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-12": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-13": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
+        "2023-02-14": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "Building Habit": "- [[Jog 25 minutes (Jan-Feb 2023)]]"
     },
     "I travel the World Wide Web": {
@@ -2468,6 +2476,10 @@ export const backlinks = {
     "IRS": {
         "Screenshot as an API": "- The \"killer app\" for PDF was tax returns - the [[IRS]] adopted PDF in 1996 because of a rumored frustration with the ..."
     },
+    "긍정적 허무주의자": {
+        "2023-02-14": "- [[긍정적 허무주의자]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 14 | 🇬🇧 Optimistic Nihilist <br/> 🇰🇷 [[긍정적 허무주의자]]            ..."
+    },
     "0020 Valid Parentheses": {
         "2022-07-10": "- Solved [[0020 Valid Parentheses]]",
         "Coding Tests": "- [x] [[0020 Valid Parentheses]]"
@@ -2737,7 +2749,8 @@ export const backlinks = {
         "2023-02-10": "## [[Building Habit]]",
         "2023-02-11": "## [[Building Habit]]",
         "2023-02-12": "## [[Building Habit]]",
-        "2023-02-13": "## [[Building Habit]]"
+        "2023-02-13": "## [[Building Habit]]",
+        "2023-02-14": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
@@ -4210,7 +4223,8 @@ export const backlinks = {
         "2023-02-09": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-11": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-12": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-13": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-13": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-14": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"

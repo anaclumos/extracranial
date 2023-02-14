@@ -26,7 +26,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-13.md",
+                "file": "journals/2023-02-14.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "197ef356195d8f8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-14.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "07ebf38cb3e69d34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-14.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1a5376d1c6741c68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-02-13.md",
+                "file": "journals/2023-02-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-02-13.md"
+                "file": "journals/2023-02-14.md"
               }
             }
           },
@@ -158,17 +197,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a8860699e5bba73d",
+  "active": "197ef356195d8f8d",
   "lastOpenFiles": [
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "journals/2023-02-14.md",
+    "pages/긍정적 허무주의자.md",
+    "pages/Optimistic Nihilist.md",
+    "pages/Jog 25 minutes (Jan-Feb 2023).md",
+    "pages/Potential Writing Topics.md",
     "journals/2023-02-13.md",
     "pages/본디는 사실 혜성이 아니다.md",
     "pages/Did Bondee Really Suddenly Rise.md",
-    "pages/Logseq.md",
-    "pages/Componentizing Views in Android.md",
-    "assets/5A4739.png",
-    "pages/데이터베이스권.md",
-    "pages/Privacy Policy for My Chrome Extensions.md",
-    "pages/Jog 25 minutes (Jan-Feb 2023).md",
-    "journals/2023-02-12.md"
+    "pages/Logseq.md"
   ]
 }
