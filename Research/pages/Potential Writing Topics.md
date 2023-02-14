@@ -14,4 +14,3 @@ aliases: ['글감']
 - Why is Swift String like that
 - Tech Now Pay Later
 - 미래는 결국 미성숙한 우리가 만들어낸다
-- Optimistic Nihilism
