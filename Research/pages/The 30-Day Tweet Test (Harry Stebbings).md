@@ -20,6 +20,7 @@ slug: '/18728A'
 | [11](../journals/2023-02-11.md) | 🇬🇧 [Bing Chat for All Browsers](https://github.com/anaclumos/bing-chat-for-all-browsers) | [Tweet](https://twitter.com/anaclumos/status/1624570931103547392) |
 | [12](../journals/2023-02-12.md) | 🇬🇧 [[The Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]]                       | [Tweet](https://twitter.com/anaclumos/status/1624907125687455745) |
 | [13](../journals/2023-02-13.md) | 🇬🇧 [[Did Bondee Really Suddenly Rise]] <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]            | [Tweet](https://twitter.com/anaclumos/status/1625228572792352769) |
+| [14](../journals/2023-02-14.md) | 🇬🇧 [[Optimistic Nihilist]] <br/> 🇰🇷 [[긍정적 허무주의자]]                                |                                                                   |
 
 ## Announcement
 
