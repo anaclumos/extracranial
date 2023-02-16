@@ -1298,6 +1298,14 @@ export const backlinks = {
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
     },
+    "Stable Alternative": {
+        "2022-10-03": "- [[Stable Alternative]]",
+        "2022-11-29": "- [[Stable Alternative]]",
+        "2022-11-30": "- [[Stable Alternative]]",
+        "2022-12-18": "- [[Stable Alternative]]",
+        "Project": "- [[Stable Alternative]]",
+        "Proposal of Research to Professor Cote": "## 1. [[Stable Alternative|Let's Alter]]"
+    },
     "Dioxus": {
         "2022-12-28": "- [[Dioxus]]"
     },
@@ -1842,7 +1850,7 @@ export const backlinks = {
         "2023-01-31": "- [[Absolute Convergence]]"
     },
     "Example References for Alter": {
-        "Project Alter": "- [[Example References for Alter]]"
+        "Stable Alternative": "- [[Example References for Alter]]"
     },
     "코드클럽": {
         "2019-03-04": "- [[코드클럽]]",
@@ -2366,6 +2374,7 @@ export const backlinks = {
         "2022-10-13": "- [x] [[Jumpsite]]",
         "2022-11-29": "- [[Jumpsite]]",
         "2023-02-02": "- [[Jumpsite]]",
+        "Feed One": "... to all the sources—LinkedIn, Twitter, Insta, Facebook, etc. It's similar to [[Jumpsite]], but not the same; you never need to escape the website.",
         "Interface (Jumpsite)": "- [[Jumpsite]]"
     },
     "POP3 vs IMAP": {
@@ -2577,7 +2586,7 @@ export const backlinks = {
         "2023-01-23": "- [[Partition Problem]]"
     },
     "Hugging Face": {
-        "Project Alter": "... [ ] Inference Server to `image → text`. AWS SageMaker? Or [[Hugging Face]] as an API server?"
+        "Stable Alternative": "... [ ] Inference Server to `image → text`. AWS SageMaker? Or [[Hugging Face]] as an API server?"
     },
     "Tesla Release Models": {
         "2022-09-06": "- [[Tesla Release Models]]"
@@ -3032,14 +3041,6 @@ export const backlinks = {
     "Classic Blogs": {
         "Tools for Thought": "- [[Classic Blogs]]: just make a post and let Google do the job."
     },
-    "Project Alter": {
-        "2022-10-03": "- [[Project Alter]]",
-        "2022-11-29": "- [[Project Alter]]",
-        "2022-11-30": "- [[Project Alter]]",
-        "2022-12-18": "- [[Project Alter]]",
-        "Project": "- [[Project Alter]]",
-        "Proposal of Research to Professor Cote": "## 1. [[Project Alter|Let's Alter]]"
-    },
     "Diagram Labs": {
         "2022-12-16": "- [[Diagram Labs]]"
     },
@@ -3083,7 +3084,7 @@ export const backlinks = {
         "Neo Korea": "- [[UBI for Scholars]]"
     },
     "phash.wasm": {
-        "Project Alter": "- [ ] Perceptual Hashing On Device: [[phash.wasm]]"
+        "Stable Alternative": "- [ ] Perceptual Hashing On Device: [[phash.wasm]]"
     },
     "Shortcuts": {
         "2022-11-19": "  - [[Shortcuts]]"
@@ -4238,7 +4239,7 @@ export const backlinks = {
         "2022-11-30": "- Lesser Known Trick: [[Sudo with Touch ID]]"
     },
     "Comparing BLIP and CLIP": {
-        "Project Alter": "- [[Comparing BLIP and CLIP]]"
+        "Stable Alternative": "- [[Comparing BLIP and CLIP]]"
     },
     "Docker": {
         "2022-06-15": "... Now we can expect Lab Infrastructure as code like Terraform or [[Docker]] images for science labs.",
@@ -4284,7 +4285,7 @@ export const backlinks = {
         "Better Aldehyde": "- [[Transactional Globe]]"
     },
     "Letter to Mr. Matt Rickard on 2022-11-28": {
-        "Project Alter": "- [[Letter to Mr. Matt Rickard on 2022-11-28]]"
+        "Stable Alternative": "- [[Letter to Mr. Matt Rickard on 2022-11-28]]"
     },
     "Person A3BA1A": {
         "2022-11-25": "- [[Person A3BA1A]]",
@@ -4667,7 +4668,6 @@ export const backlinks = {
         "2023-01-15": "- [[하늘땅사람 개발 기록]]",
         "2023-01-16": "- [[하늘땅사람 개발 기록]]",
         "2023-01-18": "- [[하늘땅사람 개발 기록]]",
-        "Project": "- [[하늘땅사람 개발 기록]]",
         "하늘땅사람": "- [[하늘땅사람 개발 기록]]"
     },
     "솟대": {
@@ -5663,6 +5663,9 @@ export const backlinks = {
         "0542 01 Matrix": "    func updateMatrix( matrix: [[Int]]) -> Int {",
         "0973 K Closest Points to Origin": "    func kClosest( points: [[Int]],  k: Int) -> Int {"
     },
+    "1FA88B.png": {
+        "Jumpsite": "![[1FA88B.png]]"
+    },
     "288AE0.png": {
         "Jumpsite": "![[288AE0.png]]"
     },
@@ -5979,9 +5982,6 @@ export const backlinks = {
     },
     "webserver": {
         "Port": "- [[webserver]] → 80"
-    },
-    "1FA88B.png": {
-        "Feed One": "![[1FA88B.png]]"
     },
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"
