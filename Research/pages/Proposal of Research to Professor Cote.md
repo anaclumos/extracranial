@@ -9,7 +9,7 @@ slug: '/E6D1EA'
 
 Many images on the web have empty alt text, which usually occurs when the person who created the web page either forgets to add it or doesn't have the proper writing knowledge. If many images on a website have empty alt text, it makes the site less accessible to visually impaired users. This situation can make it difficult for the visually impaired to navigate and understand the website's content, leading to poor user experience and web accessibility problems.
 
-I wanted to create a more accessible web environment for everyone and brainstormed potential methods to counter this. I eventually thought of a distributed intelligence system that, given an image input, can describe what is inside the picture. I have studied underlying technologies on this and found several layers for the project.
+I wanted to create a more accessible web environment for everyone and brainstormed potential methods to counter this. I eventually thought of a distributed intelligence system that, given an image input, can describe what is inside the picture. I have studied underlying technologies on this and found several layers for the [[project]].
 
 The first layer we need is Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and return the descriptive text. Some similar alternative open-sourced technologies include Bootstrapping Language–Image Pre-training (BLIP) by Salesforce. However, this inference requires a significant amount of computer power to complete—it takes at least a minute to generate the complete text, even with the latest GPU. Therefore, for the system to scale, we will need a clever way to make things faster.
 

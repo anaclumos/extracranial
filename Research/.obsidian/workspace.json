@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Project.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "385bca6dedf8d2c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Stable Alternative.md",
+                "file": "journals/2023-02-16.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Stable Alternative.md",
+                "file": "journals/2023-02-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Stable Alternative.md"
+                "file": "journals/2023-02-16.md"
               }
             }
           },
@@ -158,17 +145,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "385bca6dedf8d2c1",
+  "active": "0b1d80848aa5a1c5",
   "lastOpenFiles": [
+    "pages/Computational Linguistics.md",
     "pages/Project.md",
-    "pages/Feed One.md",
     "journals/2023-02-15.md",
-    "pages/Jumpsite.md",
-    "pages/Conversation with Mr. Kyle Park on 2023-02-15.md",
-    "pages/Binary Search.md",
-    "pages/Swift String 조작은 왜 그 모양인가.md",
-    "pages/Geohot Twitter Mayhem.md",
-    "pages/10x.md",
-    "pages/Twitter.md"
+    "journals/2023-02-16.md",
+    "pages/Conversational Generative AI as Search Engine.md",
+    "pages/Search AI.md",
+    "pages/Natural Language Processing.md",
+    "journals/2022-07-10.md",
+    "pages/의료 인공지능과 의대 쏠림.md",
+    "pages/신한국.md"
   ]
 }
