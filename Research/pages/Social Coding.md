@@ -13,5 +13,5 @@ slug: '/7C28C7'
 - [[GitHub]] is removing the trending tab at the end of this month due to low usage
 - Anecdotally, developers choose libraries in part based on social proof from other developers
 - Chat, a key component of social, is important for open-source projects. Most of the activity happens off [[GitHub]] (in Slack or Discord
-- [[GitHub]] profiles are sometimes used for recruiting and resumes. However, professional networks are rarely reflected on the [[GitHub]] follower model compared to LinkedIn (or Twitter
+- [[GitHub]] profiles are sometimes used for recruiting and resumes. However, professional networks are rarely reflected on the [[GitHub]] follower model compared to LinkedIn (or [[Twitter]]
 - [[Software as a Service]] businesses with network effects are rare, but when they work, they grow huge (e.g., [[Figma]], Slack)

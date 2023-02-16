@@ -11,7 +11,7 @@ I'm on my way back to my home from Seoul to Daejeon in Korea, and I just got thi
 
 <blockquote class="twitter-tweet"><p lang="tl" dir="ltr">haha <a href="https://t.co/I0yligR81h">pic.twitter.com/I0yligR81h</a></p>&mdash; Jane Manchun Wong (@wongmjane) <a href="https://twitter.com/wongmjane/status/1606206050322915329?ref_src=twsrc%5Etfw">December 23, 2022</a></blockquote>
 
-There are countless cases where Twitter troubled up, but the above point is the most prominent one. Musk does seem to desire "free money," as you pointed out, based on his track record for a couple of weeks. But before that, he hinted at his desire for a Super App. What concerns me more is the "Super App" that Musk wanted to build.
+There are countless cases where [[Twitter]] troubled up, but the above point is the most prominent one. Musk does seem to desire "free money," as you pointed out, based on his track record for a couple of weeks. But before that, he hinted at his desire for a Super App. What concerns me more is the "Super App" that Musk wanted to build.
 
 > [Buying Twitter is an accelerant to creating X, the everything app](https://twitter.com/elonmusk/status/1577428272056389633)
 
@@ -37,4 +37,4 @@ Sunghyun
 - Best chance is WhatsApp, but realistically, the conditions seem wrong.
 - Not sure what conditions are needed for a super app
 - Musk doesn't seem to be making as much progress, even regressing in many vital areas: moderation, rules, and uptime.
-- Musk/Twitter needs a better strategy than Super App. It's a bit reminiscent of some bad pitches. He's given himself a bit more time to figure it out by reducing the workforce, but at the same time, his actions make many people ask questions. Interesting to observe, regardless.
+- Musk/[[Twitter]] needs a better strategy than Super App. It's a bit reminiscent of some bad pitches. He's given himself a bit more time to figure it out by reducing the workforce, but at the same time, his actions make many people ask questions. Interesting to observe, regardless.
