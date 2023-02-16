@@ -4466,10 +4466,10 @@ export const backlinks = {
         "2023-01-30": "- Also got invited to [[Amie]].",
         "Apple-like Block Interface": "## [[Amie]]"
     },
-    "binary search": {
-        "0704 Binary Search": "- [[binary search]]",
-        "2022-09-05": "- [[binary search]]",
-        "Real Exams": "- 1 binary tree construction & [[binary search]] traversal"
+    "Binary Search": {
+        "0704 Binary Search": "- [[Binary Search]]",
+        "2022-09-05": "- [[Binary Search]]",
+        "Real Exams": "- 1 binary tree construction & [[Binary Search]] traversal"
     },
     "바이올린 켜면 바이올레이션": {
         "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
@@ -5979,6 +5979,9 @@ export const backlinks = {
     },
     "webserver": {
         "Port": "- [[webserver]] → 80"
+    },
+    "1FA88B.png": {
+        "Feed One": "![[1FA88B.png]]"
     },
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"

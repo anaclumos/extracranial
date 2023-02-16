@@ -19,35 +19,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "4627f71588826455",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Conversation with Mr. Kyle Park on 2023-02-15.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5b12e122250fafce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Swift String 조작은 왜 그 모양인가.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Swift String 조작은 왜 그 모양인가.md",
+                "file": "journals/2023-02-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Swift String 조작은 왜 그 모양인가.md"
+                "file": "journals/2023-02-15.md"
               }
             }
           },
@@ -171,17 +144,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b12e122250fafce",
+  "active": "0b1d80848aa5a1c5",
   "lastOpenFiles": [
-    "journals/2023-02-15.md",
-    "pages/Feed One.md",
     "pages/Conversation with Mr. Kyle Park on 2023-02-15.md",
+    "pages/Binary Search.md",
+    "pages/Feed One.md",
+    "pages/Swift String 조작은 왜 그 모양인가.md",
+    "journals/2023-02-15.md",
     "pages/Geohot Twitter Mayhem.md",
     "pages/10x.md",
     "pages/Twitter.md",
     "pages/Things (3D).md",
-    "pages/Mastodon.md",
-    "pages/Why is Swift String Manipulation like that.md",
-    "pages/Swift String 조작은 왜 그 모양인가.md"
+    "pages/Mastodon.md"
   ]
 }
