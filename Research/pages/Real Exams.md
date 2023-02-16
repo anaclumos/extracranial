@@ -58,7 +58,7 @@ slug: '/75CB18'
 
 ### [Valkyrie Trading](https://www.valkyrietrading.com/)
 
-- 1 binary tree construction & [[binary search]] traversal
+- 1 binary tree construction & [[Binary Search]] traversal
 - 1 [[Simulations]]
 
 ### CodeSignal ([HRT](https://www.hudsonrivertrading.com/), [Databricks](https://www.databricks.com/))
