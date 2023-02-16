@@ -588,7 +588,7 @@ export const backlinks = {
         "IP Spoofing": "- Faking an [[IP]] by sending packet with false source address",
         "Internetworking": "- [[IP]]",
         "Preservation of Data": "- Find another [[IP]] without restrictions you are facing.",
-        "Protocol Wars": "... admit. The U.S. Department of Defense was an early adopter of TCP/[[IP]]",
+        "Protocol Wars": "... States of America|U.S. Department of Defense was an early adopter of TCP/[[IP]]",
         "http 없는 http 서버 만들기": "`http` 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ...",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ..."
     },
@@ -705,6 +705,14 @@ export const backlinks = {
     },
     "GDB": {
         "Internetworking": "- [[GDB]]"
+    },
+    "Singapore": {
+        "2023-02-16": "- [[Singapore]]",
+        "Bondee": "Bondee is a virtual avatar social app created by [[Singapore]]-based tech firm [[Metadream]]. Users can chat and interact with each other ...",
+        "Metadream": "Metadream is a private company in [[Singapore]], established on September 9, 2022, and has offices and data centers ...",
+        "The Sudden Rise of Bondee": "Bondee is a metaverse social app, going crazy in 대한민국|Korea, 일본|Japan, [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in the App Store. Users can create ...",
+        "본디는 사실 혜성이 아니다": "메타드림은 [[Singapore|싱가포르]] 기반의 회사다 보니 싱가포르 금융당국의 서류에서 답을 알 수 있었다. 예상대로 ...",
+        "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, 일본, [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
     },
     "The New Era of macOS Applications": {
         "2022-09-29": "- [[The New Era of macOS Applications]]",
@@ -1369,7 +1377,7 @@ export const backlinks = {
         "Mental Simulation of Firefox and Signal as a Super App": "- [[Twitter]], Facebook, Instagram, and Snapchat cannot be super apps because they have ...",
         "Mood.surf": "> Discover expert insights from tech [[Twitter]]",
         "Musk and Twitter": "... wanted to reach out personally to share my motivation for acquiring [[Twitter]]. There has been much speculation about why I bought Twitter and ...",
-        "Regulation of Fake News": "- The United States government pressured [[Twitter]] to elevate certain content and suppress other content about Covid-19 and ...",
+        "Regulation of Fake News": "- The United States of America|United States government pressured [[Twitter]] to elevate certain content and suppress other content about Covid-19 and ...",
         "Social Coding": "... rarely reflected on the GitHub follower model compared to LinkedIn (or [[Twitter]]",
         "유난한 도전": "이후 약간의 입질이 오자 홈페이지를 열고 [[Twitter|트위터]]에 링크를 올리니 반응이 확실했다."
     },
@@ -1784,7 +1792,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "... it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?",
         "Intracranial": "  - 👍 [[Apple]]-ish design language",
         "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[Apple]] Music have a market penetration of next to nothing.",
-        "Mental Simulation of Firefox and Signal as a Super App": "... conditions for a Super App in the United States are vague. [[Apple]] and [[Google]] divide the tech market into two, not only in ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... Super App in the United States of America|United States are vague. [[Apple]] and [[Google]] divide the tech market into two, not only in ...",
         "Perceptual Hashing": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.",
@@ -2161,9 +2169,9 @@ export const backlinks = {
     "Bondee": {
         "2023-02-12": "- [[Bondee]]",
         "Did Bondee Really Suddenly Rise": "Yesterday, we took a closer look into [[Bondee]]: [[The Sudden Rise of Bondee]]. But did it suddenly rise?",
-        "The Sudden Rise of Bondee": "[[Bondee]] is a [[metaverse]] social app, going crazy in [[대한민국|Korea]], Japan, Singapore, ...",
+        "The Sudden Rise of Bondee": "[[Bondee]] is a [[metaverse]] social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], ...",
         "본디는 사실 혜성이 아니다": "어제 혜성처럼 나타난 본디 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 본디는 정말 혜성일까?",
-        "혜성처럼 나타난 본디": "[[Bondee|본디]]는 [[대한민국|한국]], 일본, 싱가포르, 타이완 등에서 앱스토어 1위를 하며 인기를 얻고 있는 ..."
+        "혜성처럼 나타난 본디": "[[Bondee|본디]]는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 ..."
     },
     "CELLO (Product)": {
         "2022-07-18": "- [[CELLO (Product)]]",
@@ -2367,7 +2375,7 @@ export const backlinks = {
         "Symbol (Computer Systems)": "- initialize global variables (take advantage of the linker for [[dx]])"
     },
     "한민족": {
-        "2022-07-05": "- 미국 국적이지만 대한민국|한국 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
+        "2022-07-05": "- United States of America|미국 국적이지만 대한민국|한국 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
         "2023-02-15": "- [[한민족]]",
         "국가와 민족의 분리": "- 대한민국과 [[한민족]]을 분리하여 생각하여야 한다.",
         "대한민국": "대한민국은 동아시아의 한반도 남부에 위치한 국가이다. 주 민족은 [[한민족]]이며, [[한국어]]를 주로 사용한다.",
@@ -2718,7 +2726,7 @@ export const backlinks = {
         "San Francisco": "### [[Inter]]"
     },
     "한국인": {
-        "2022-07-05": "- 미국 국적이지만 대한민국|한국 수학자로서는 최초 수상이다. 이전까지 한민족|한국계나 [[한국인]]이 이 상을 받은 적은 없었다.",
+        "2022-07-05": "... United States of America|미국 국적이지만 대한민국|한국 수학자로서는 최초 수상이다. 이전까지 한민족|한국계나 [[한국인]]이 이 상을 받은 적은 없었다.",
         "2023-02-15": "- [[한국인]]",
         "국가와 민족의 분리": "- 한민족|한국계와 [[한국인]]이 다르다. 한민족|한국계는 [한민족]을 뜻하며, 한국인은 [[대한민국]] 국적자를 의미한다."
     },
@@ -2960,32 +2968,32 @@ export const backlinks = {
         "Internetworking": "- [[File Descriptor]]"
     },
     "대한민국": {
-        "2022-06-14": "...   - This shows how resumes differ in US and [[대한민국|Korea]].",
-        "2022-07-05": "- 미국 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
+        "2022-06-14": "... This shows how resumes differ in United States of America|US and [[대한민국|Korea]].",
+        "2022-07-05": "- United States of America|미국 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
         "AI replaces expensive jobs first": "SEOUL (Reuters) - [[대한민국|South Korea]]'s parliament on late Friday passed a controversial bill to limit ride-hailing ...",
         "AT&T Roaming Incident (December 2022)": "On December 15th, I landed in [[대한민국|Korea]] and did not have my phone service, so I used 600MB ...",
-        "Downloading Any Recordings from Zoom": "- Both the United States and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted material for educational use.",
+        "Downloading Any Recordings from Zoom": "... Both the United States of America|United States and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted material for educational use.",
         "Finally, Apple Pay in Korea": "After a decade of waiting, Apple Pay has expanded to [[대한민국|Korea]]. 대한민국|Korea remained the only developed nation country that did not support ...",
         "Karrot": "> 당근마켓(Karrot)은 [[대한민국]]의 중고 거래, 소상공인 홍보 등 생활정보 소프트웨어이다. 중고거래, 지역업체, 질문답변, 부동산, ...",
         "Krafton Way": "좁은 [[대한민국|한국]] 시장에서 벗어나, 해외 시장에 곧바로 배급할 수 있는 파괴력 있는 PC ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in [[대한민국|Korea]], [[Naver]], and [[Kakao]].",
         "Letter to Mr. Matt Rickard on 2022-12-23": "... my way back to my home from Seoul to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... my way back to my home from Seoul to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!",
-        "Metadream": "... 9, 2022, and has offices and data centers in Singapore, Japan, [[대한민국|South Korea]], and the United States. One of Metadream's directors is Chinese national ...",
+        "Metadream": "... 9, 2022, and has offices and data centers in Singapore, 일본|Japan, [[대한민국|South Korea]], and the [[United States of America|United States]]. One of Metadream's directors ...",
         "Naver": "... Corporation. It debuted in 1999 as the first web portal in [[대한민국|Korea]] to develop and use its search [[engine]]. It was also the ...",
-        "Pretendard의 아쉬운 점": "허나 [[대한민국|한국]] 한문은 자주 사용되지 않는다는 이유로 일본 한문을 그대로 가져오는 경우가 빈번하다.",
+        "Pretendard의 아쉬운 점": "허나 [[대한민국|한국]] 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
         "Search AI와 인터넷의 한국어": "[[대한민국|한국]] 정도라면 충분히 많은 정보가 있을 것이다.",
-        "The Sudden Rise of Bondee": "Bondee is a metaverse social app, going crazy in [[대한민국|Korea]], Japan, Singapore, Taiwan, etc., ranking #1 in the App Store. Users ...",
+        "The Sudden Rise of Bondee": "Bondee is a metaverse social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in the App Store. Users ...",
         "Toss": "- Financial Technology|FinTech Unicorn of [[대한민국|Korea]].",
         "개성은 자연스레 주어지지 않는다": "[[대한민국]]에는 독립적인 자아가 부족하다 — 14성현이 중학교 암기 과목을 공부하며 한 생각입니다.",
-        "경제 개발의 길목에서": "- [[대한민국|한국]]에서는 자고로 선거 때만 되면 통화량이 급팽창했다. 정부의 선심 행정으로 예산이 팽창하고 ...",
+        "경제 개발의 길목에서": "[[대한민국|한국]]에서는 자고로 선거 때만 되면 통화량이 급팽창했다. 정부의 선심 행정으로 예산이 팽창하고 ...",
         "국가와 민족의 분리": "- [[대한민국]]은 민족과 국가를 종종 혼동한다.",
         "드디어, 한국 애플페이": "... 기다림 끝에 애플페이가 들어온다. 2023년 2월 3일자 금융위원회에서 애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 유일하게 애플페이가 지원되지 않은 유일한 나라였다. 2015년부터 시작된 물밑 ...",
         "서낭당": "서낭당은 [[대한민국|한국]]의 산간 마을에 흔히 볼 수 있으며, 마을의 안녕과 평안을 위해 제사를 ...",
         "솟대": "솟대는 [[대한민국|한국]]의 민속신앙에서 새해의 풍년을 기원하며 세우거나 마을 입구에 마을의 수호신의 상징으로 세운 ...",
         "유난한 도전": "... 금융 서비스를 만드는 것이다. 금융 회사가 테크를 배우는 게 아니다. 아직 [[대한민국|한국]]에는 제대로 된 핀테크 서비스가 없다.",
         "이무기 기업, 청룡 기업": "Unicorn|유니콘 기업이라는 단어는 마치 성공이 정해진 양 너무 마법적인 기운을 준다. [[대한민국|한국]] 민담처럼 잉어 🐟 → 이무기 🐍 → 청룡 🐉 기업이면 어떨까.",
-        "일본 과학기술 총력전": "그리고 [[대한민국|한국]] 전쟁이 발발하자 일본은 미군의 병참 기지 역할을 수행한다.",
+        "일본 과학기술 총력전": "그리고 [[대한민국|한국]] 전쟁이 발발하자 [[일본]]은 미군의 병참 기지 역할을 수행한다.",
         "장승": "장승은 현재 [[대한민국|한국]]의 전통문화로 인식되고 있으며, 장승제, 장승마을, 돌하르방, 벅수 등의 형태로 전승되고 있다.",
         "컴퓨터는 향정신성 약물인가": "... 향정신성 의약품이라고 정의한다면 접근 방식을 조금 달리 할 수 있지 않을까. [[대한민국]]에서 향정신성 의약품은 다음과 같이 정의된다.",
         "코드클럽": "1. CodeClub [[대한민국|Korea]]의 2019 상반기 코드클럽 SW교육기부단 활동 참여",
@@ -2997,7 +3005,7 @@ export const backlinks = {
         "한국인": "[[대한민국]]의 국적자이다. [[한민족]]과 다르다.",
         "한민족": "한민족은 [[대한민국]]과 북한의 주류가 되는 민족으로,",
         "한민족의 동족상잔": "... 조선은 노예제 사회(Slavery Society)\"라고 주장했습니다. 반면 이영훈 전 서울대 교수를 비롯한 [[대한민국|한국]] 학자들은 노비가 양인과 결혼을 할 수 있다는 점이나, 주인과 떨어져 살며 ...",
-        "혜성처럼 나타난 본디": "Bondee|본디는 [[대한민국|한국]], 일본, 싱가포르, 타이완 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] ..."
+        "혜성처럼 나타난 본디": "Bondee|본디는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] ..."
     },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
@@ -3013,6 +3021,14 @@ export const backlinks = {
     },
     "Downloading Any Recordings from Zoom": {
         "2022-11-19": "  - [[Downloading Any Recordings from Zoom]]"
+    },
+    "대만": {
+        "2023-02-16": "- [[대만]]",
+        "Readings": "- [ ] 도해 [[대만|타이완]]사",
+        "The Sudden Rise of Bondee": "... is a metaverse social app, going crazy in 대한민국|Korea, 일본|Japan, Singapore, [[대만|Taiwan]], etc., ranking #1 in the App Store. Users can create a ...",
+        "Welcome to the Neo Block Economy": "- The father of [[대만|Taiwan]]'s chip industry said geopolitics have drastically changed the situation facing semiconductor ...",
+        "젠리의 성공 공식": "... 한 학교에서 25%의 사용자를 넘기면 일주일 안에 전교생이 사용한다는 것을 관찰했다. [[대만]] 대학에 유학 간 [[일본]] 학생들로부터 대만 전체로 앱이 퍼지는 것 같은 ...",
+        "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, 일본, Singapore|싱가포르, [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
     },
     "Person CC8297": {
         "2022-09-13": "- [[Person CC8297]]",
@@ -3865,7 +3881,8 @@ export const backlinks = {
         "2022-11-30": "- [[MessageBird]]"
     },
     "Welcome to the Neo Block Economy": {
-        "2022-12-08": "- [[Welcome to the Neo Block Economy]]"
+        "2022-12-08": "- [[Welcome to the Neo Block Economy]]",
+        "신한국": "- [[Welcome to the Neo Block Economy|신블록경제에 오신 것을 환영합니다]]"
     },
     "서비스 시밍": {
         "2023-02-02": "- [[서비스 시밍]]",
@@ -3964,7 +3981,7 @@ export const backlinks = {
     },
     "Mental Simulation of Firefox and Signal as a Super App": {
         "2023-01-09": "- [[Mental Simulation of Firefox and Signal as a Super App]]",
-        "Texts": "Potential Super App for the United States. [[Mental Simulation of Firefox and Signal as a Super App]]"
+        "Texts": "Potential Super App for the United States of America|United States. [[Mental Simulation of Firefox and Signal as a Super App]]"
     },
     "Apple-like Block Interface": {
         "2022-12-16": "- [[Apple-like Block Interface]]",
@@ -3990,6 +4007,47 @@ export const backlinks = {
         "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Korean Banks Suck|troubled Korean banking system]].",
         "글감": "- [[Korean Banks Suck]]",
         "드디어, 한국 애플페이": "... 이는 무엇을 의미할까? 몇 가지 시사점이 있지만, 오늘 할 이야기는 아니다. [[Korean Banks Suck|한국 은행계]]에 새로운 자극이 되기를 바란다."
+    },
+    "United States of America": {
+        "2022-06-10": "... said Wednesday it will include pay ranges in all of its [[United States of America|U.S.]] job listings, a move that likely foreshadows a range of big ...",
+        "2022-06-14": "    - This shows how resumes differ in [[United States of America|US]] and [[대한민국|Korea]].",
+        "2022-07-05": "- [[United States of America|미국]] 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 ...",
+        "2023-02-16": "- [[United States of America]]",
+        "AT&T Roaming Incident (December 2022)": "... me who grew up in 대한민국|Korea, to see that in the [[United States of America|United States]] you should protect and exercise your own rights proactively.",
+        "Biden-Harris Administration National Security Strategy 2022": "... the law. And we will take further measures to ensure the [[United States of America|United States]] remains the world's top destination for talent.",
+        "CCPA": "... to enhance privacy rights and consumer protection for residents of California, [[United States of America|United States]]. The bill was passed by the California State Legislature and signed ...",
+        "Downloading Any Recordings from Zoom": "- Both the [[United States of America|United States]] and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted material ...",
+        "FinTech and Justice": "... Alipay as their primary payment methods, ahead of cash. In the [[United States of America|US]], the use of money is just 16% of total transactions and ...",
+        "Frames Per Second": "... at 23.976 fps instead of 24P was audio post in the [[United States of America|U.S.]]",
+        "IRS": "... The Internal Revenue Service (IRS) is the revenue service for the [[United States of America|United States]] federal government, which is responsible for collecting [[United States of America|U.S.]] ...",
+        "Krafton Way": "> 우리는 과거에 B급 제품을 만들어왔습니다. 일본이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. 우리는 우리 자신의 실력이 B급이라서 B급 ...",
+        "Letter to Mr. Matt Rickard on 2022-12-23": "... a couple of times about a potential Super App in the [[United States of America|US]], but this may be a very alarming scenario for the people ...",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "... a couple of times about a potential Super App in the [[United States of America|US]], but this may be a very alarming scenario for the people ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... Rickard on 2022-12-23, the conditions for a Super App in the [[United States of America|United States]] are vague. [[Apple]] and [[Google]] divide the tech market into two, ...",
+        "Metadream": "... offices and data centers in Singapore, 일본|Japan, 대한민국|South Korea, and the [[United States of America|United States]]. One of Metadream's directors is Chinese national Yang Yuxiang, the CEO ...",
+        "Nuclear Fusion": "- The [[United States of America|U.S.]] Department of Energy (DOE) and DOE's National Nuclear Security Administration (NNSA) ...",
+        "Palantir Apollo": "... offerings authorized for Mission Critical National Security Systems (IL5) by the [[United States of America|U.S.]] Department of Defense. Palantir Technologies",
+        "Palantir Gotham": "... Palantir Gotham is used by counter-terrorism analysts at offices in the [[United States of America|United States]] Intelligence Community (USIC) and United States of America|United States Department of ...",
+        "Person A3BA1A": "An American company, Carta, already dominates the [[United States of America|U.S.]] market.",
+        "Protocol Wars": "... a more prominent role than technologists would like to admit. The [[United States of America|U.S.]] Department of Defense was an early adopter of TCP/[[IP]]",
+        "Regulation of Fake News": "- The [[United States of America|United States]] government pressured [[Twitter]] to elevate certain content and suppress other content ...",
+        "Screenshot as an API": "... adopted PDF in 1996 because of a rumored frustration with the [[United States of America|US]] Postal Service.",
+        "Self Driving": "... current Level 2 partially automated driving suite that's available in the [[United States of America|United States]]",
+        "Texts": "Potential Super App for the [[United States of America|United States]]. [[Mental Simulation of Firefox and Signal as a Super App]]",
+        "Toss": "... most innovative Financial Super App I've ever seen in 대한민국|Korea and [[United States of America|U.S.]]",
+        "Vannevar Bush": "... inventor, and science administrator who, during World War II, headed the [[United States of America|U.S.]] Office of Scientific Research and Development (OSRD), through which almost all ...",
+        "雅號를 찾아서": "[[United States of America|미국]]의 친구들이 Sunghyun을 발음하기 어려워하기에, 기왕이면 영어로 발음하기 편한 아호를 찾아",
+        "경제 개발의 길목에서": "... 보지 않았다. 재무부 장관으로 취임한 직후 박 대통령을 만났을 때 내가 [[United States of America|미국]]에서 공부했고 교수 출신인 점을 인식해서인지 나에게 이런 말을 하는 것이었다.",
+        "공기 청정 비행선": "### [[United States of America|미국]]의 특허 US5147429A",
+        "국가와 민족의 분리": "... 국가가 통제 기준을 제시하지 않고 국민이 알아서 본인의 권리를 주장해야 합니다. [[United States of America|미국]] 같은 나라는 자유를 위시한 하이 리스크 하이 리턴식 사회, 영국은 최소한의 ...",
+        "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> [[United States of America|미국]], [[일본]]의 기술 수준을 따라갈 수 있을까,",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "모두 입력했으면 Download balenaOS를 누른 뒤 다운로드를 시작한다. (팁: [[United States of America|미국]] VPN 서버를 사용하면 다운로드 속도가 빨라진다.) 다운을 받는 동안 balenaEtcher를 설치하면 ...",
+        "벌금과 물가": "## [[United States of America|미국]]",
+        "일본 과학기술 총력전": "패전 당시 [[United States of America|미국]]의 점령 정책이 완전한 비군사화에서 경제 안정으로 전환되며 대부분의 군사 생산 능력이 ...",
+        "젠리의 성공 공식": "... App과 함께 젠리 팀 또한 해산되었다. 나는 스냅의 큰 실수라고 생각한다. [[United States of America|미국]] 대학생 사이에서도 더 이상 스냅을 쓰지 않는다. 젠리는 쓴다. 페이스북이 감원하며 ...",
+        "한국의 입시와 거짓된 명예": "오히려 [[United States of America|미국]]의 청소년들이 돈을 가지고 불장난을 하며 투자와 금융의 기본기를 익히고",
+        "한민족": "중국, [[United States of America|미국]], [[일본]] 등에 많이 살고 있다.",
+        "한민족의 동족상잔": "... 주인과 떨어져 살며 일정량의 현물만 바치면 되는 납공노비가 있었다는 점에서 과거 [[United States of America|미국]] 흑인노예나 혹은 중국과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 점을 강조합니다."
     },
     "Palantir Foundry": {
         "Palantir": "- [[Palantir Foundry]]"
@@ -4042,7 +4100,7 @@ export const backlinks = {
         "2022-07-14": "... more. One wrong info that I found: Uber didn't make Kubernetes. [[Google]] did.",
         "2022-07-21": "### [[Google]], really? Come on.",
         "Kubernetes": "... open-source container orchestration system for automating software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the Cloud Native Computing Foundation now maintains ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... a Super App in the United States are vague. Apple and [[Google]] divide the tech market into two, not only in terms of ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... in the United States of America|United States are vague. Apple and [[Google]] divide the tech market into two, not only in terms of ...",
         "Perceptual Hashing": "... the change of hash collision to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ...",
@@ -4076,8 +4134,8 @@ export const backlinks = {
         "Habbo Hotel": "Habbo Hotel is also a part of the [[metaverse]]. It is a virtual world and social networking site where users ...",
         "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can be attained within years with Prompt Engineering.",
         "Spacial Cognition": "- Very important for [[Metaverse]]",
-        "The Sudden Rise of Bondee": "Bondee is a [[metaverse]] social app, going crazy in [[대한민국|Korea]], Japan, Singapore, Taiwan, etc., ranking ...",
-        "혜성처럼 나타난 본디": "... 대한민국|한국, 일본, 싱가포르, 타이완 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
+        "The Sudden Rise of Bondee": "Bondee is a [[metaverse]] social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking ...",
+        "혜성처럼 나타난 본디": "... 대한민국|한국, 일본, Singapore|싱가포르, 대만|타이완 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
     },
     "Better Docusaurus": {
         "2022-07-11": "- [[Better Docusaurus]]",
@@ -4426,6 +4484,7 @@ export const backlinks = {
         "2022-10-27": "- [[Small yet Powerful]]",
         "The Era of Invites": "... observation is that these 'successful, invite-based' software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big techs use an invite-based system when ...",
         "The Zenly Playbook": "... app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?",
+        "신한국": "- [[Small yet Powerful|작지만 강력한]]",
         "젠리의 성공 공식": "... 젠리가 문을 닫았다. 프랑스의 한 개발자로부터 시작해 3천억에 스냅에 인수된 기술 [[Small yet Powerful|강소]] 기업은 어떻게 성장하고 어떻게 사라졌을까. 그리고 우리는 무엇을 배울 수 있을까?",
         "초대장의 시대": "또 하나 흥미로운 관찰은 이런 성공적인 초대장 기반 소프트웨어 기업은 대부분 [[Small yet Powerful|소수정예]] 엘리트 팀이라는 점이다. 빅테크들은 왜 초대장 시스템을 사용하지 않을까? 어쩌면 이것은 ..."
     },
@@ -4643,6 +4702,26 @@ export const backlinks = {
         "The Great Struggle of Gumroad": "... would work on it until I died—something like that. Posting on [[Hacker News]], the reaction exceeded my grandest aspirations. Over 52,000 people checked it ...",
         "Using an iPad as my Ebook": "... search never ended to find the perfect ebook. Refer to this [[Hacker News]] thread"
     },
+    "일본": {
+        "2023-02-16": "- [[일본]]",
+        "Biden-Harris Administration National Security Strategy 2022": "... States of America|US reaffirms its unwavering commitment to the defense of [[일본|Japan]] under the mutual security treaty, which covers the Senkaku Islands.",
+        "Finally, Apple Pay in Korea": "... would've likely become an exceptional NFC standard in 대한민국|Korea, such as [[일본|Japan]]'s Suica. But they never succeeded.) Eventually, the new wave of payment ...",
+        "Haruki Murakami": "... writer. His novels, essays, and short stories have been bestsellers in [[일본|Japan]] and internationally, with his work translated into 50 languages and selling ...",
+        "Krafton Way": "> 우리는 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. 우리는 우리 ...",
+        "Metadream": "... September 9, 2022, and has offices and data centers in Singapore, [[일본|Japan]], [[대한민국|South Korea]], and the [[United States of America|United States]]. One of ...",
+        "Pretendard의 아쉬운 점": "허나 대한민국|한국 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
+        "Ruby": "... It was developed in the mid-1990s by Yukihiro \"Matz\" Matsumoto in [[일본|Japan]]. Ruby (programming language)>)",
+        "The Sudden Rise of Bondee": "Bondee is a metaverse social app, going crazy in 대한민국|Korea, [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in the App Store. Users can ...",
+        "경제 개발의 길목에서": "\"[[일본]]의 지도자들은 나라와 민족의 명운을 걸고 세계를 상대로 전쟁을 하다가 패망했다. 그러나 ...",
+        "국가와 민족의 분리": "... 선진국을 봐도 우리나라만큼 강력한 중앙정부 집원 국가는 없죠. 설령 연방제가 아닌 [[일본]]조차도 국민의 삶에 가장 큰 영향을 끼치는 건 정치적 수장인 총리보다 도도부현 ...",
+        "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> United States of America|미국, [[일본]]의 기술 수준을 따라갈 수 있을까,",
+        "드디어, 한국 애플페이": "... 집중하는 것. 첫 번째 전략이 결국 실패한 \"저스터치\"이다 (이때 저스터치가 성공했다면 [[일본]]의 스이카와 같이 예외적인 NFC 규격으로 자리 잡았을 가능성이 높다) 결국 카드 ...",
+        "일본 과학기술 총력전": "Approximately translates to 150 Years of Modern [[일본|Japan]]: The Bankruptcy of Science, Technology, and the Total War System.",
+        "젠리의 성공 공식": "... 넘기면 일주일 안에 전교생이 사용한다는 것을 관찰했다. 대만 대학에 유학 간 [[일본]] 학생들로부터 대만 전체로 앱이 퍼지는 것 같은 서브 그룹 주도의 성장에 ...",
+        "한민족": "중국, United States of America|미국, [[일본]] 등에 많이 살고 있다.",
+        "한민족의 동족상잔": "... 납공노비가 있었다는 점에서 과거 United States of America|미국 흑인노예나 혹은 중국과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 점을 강조합니다.",
+        "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 ..."
+    },
     "Treehouse": {
         "Conversational AI Tools for Thought": "- [[Treehouse]]"
     },
@@ -4700,7 +4779,7 @@ export const backlinks = {
     "Letter to Mr. Matt Rickard on 2022-12-23": {
         "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-23]]",
         "2023-01-09": "- [[Letter to Mr. Matt Rickard on 2022-12-23]]",
-        "Mental Simulation of Firefox and Signal as a Super App": "- As noted on the [[Letter to Mr. Matt Rickard on 2022-12-23]], the conditions for a [[Super App]] in the United States are ..."
+        "Mental Simulation of Firefox and Signal as a Super App": "- As noted on the [[Letter to Mr. Matt Rickard on 2022-12-23]], the conditions for a [[Super App]] in the [[United States of ..."
     },
     "Person 392196": {
         "Project PEOPLE": "- [[Person 392196]]"
@@ -5005,10 +5084,10 @@ export const backlinks = {
     "Super App": {
         "2022-12-09": "- [[Super App]]",
         "Letter to Mr. Matt Rickard on 2022-12-23": "- Interesting on the downsides of the [[super app]]",
-        "Mental Simulation of Firefox and Signal as a Super App": "... Letter to Mr. Matt Rickard on 2022-12-23, the conditions for a [[Super App]] in the United States are vague. [[Apple]] and [[Google]] divide the ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... Letter to Mr. Matt Rickard on 2022-12-23, the conditions for a [[Super App]] in the [[United States of America|United States]] are vague. [[Apple]] and ...",
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
-        "Texts": "Potential [[Super App]] for the United States. [[Mental Simulation of Firefox and Signal as ...",
-        "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in [[대한민국|Korea]] and U.S.",
+        "Texts": "Potential [[Super App]] for the [[United States of America|United States]]. [[Mental Simulation of Firefox ...",
+        "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in [[대한민국|Korea]] and [[United States of America|U.S.]]",
         "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
     },
     "Nation as a Service": {
@@ -6406,6 +6485,9 @@ export const backlinks = {
     },
     "CCC92A.png": {
         "Simulated Annealing for Designs": "![[CCC92A.png]]"
+    },
+    "United States of America\\": {
+        "Memory Hierarchy": "| [[United States of America\\|US]]-EU Roundtrip | 150ms   |"
     },
     "2B301F.png": {
         "Linear README": "![[2B301F.png]]"

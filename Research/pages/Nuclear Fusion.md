@@ -8,7 +8,7 @@ aliases: ['핵융합']
 
 ### [DOE National Laboratory Makes History by Achieving Fusion Ignition](https://www.energy.gov/articles/doe-national-laboratory-makes-history-achieving-fusion-ignition)
 
-- The U.S. Department of Energy (DOE) and DOE's National Nuclear Security Administration (NNSA) today announced the achievement of fusion ignition at Lawrence Livermore National Laboratory (LLNL)—a significant scientific breakthrough decades in the making that will pave the way for advancements in national defense and the future of clean power
+- The [[United States of America|U.S.]] Department of Energy (DOE) and DOE's National Nuclear Security Administration (NNSA) today announced the achievement of fusion ignition at Lawrence Livermore National Laboratory (LLNL)—a significant scientific breakthrough decades in the making that will pave the way for advancements in national defense and the future of clean power
 - To pursue this concept, LLNL built a series of increasingly powerful laser systems, leading to the creation of NIF, the world's largest and most energetic laser system. NIF—located at LLNL in Livermore, Calif.—is the size of a sports stadium and uses powerful laser beams to create temperatures and pressures like those in the cores of stars and giant planets and inside exploding nuclear weapons
 
 ### [More invested in nuclear fusion in last 12 months than a past decade](https://www.growthbusiness.co.uk/more-invested-in-nuclear-fusion-in-last-12-months-than-past-decade-2560528/)
