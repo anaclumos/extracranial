@@ -15,7 +15,7 @@ There are countless cases where [[Twitter]] troubled up, but the above point is 
 
 > [Buying Twitter is an accelerant to creating X, the everything app](https://twitter.com/elonmusk/status/1577428272056389633)
 
-You mentioned a couple of times about a potential Super App in the US, but this may be a very alarming scenario for the people in the United States.
+You mentioned a couple of times about a potential Super App in the [[United States of America|US]], but this may be a very alarming scenario for the people in the [[United States of America|United States]].
 
 From my native Korean experience, the Super App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + Uber Eats + Netflix + Spotify + AirBnB. Unfortunately, [[Kakao]] had an outage for about a week last October, and... It wasn't pleasant. All of the economies stopped.
 

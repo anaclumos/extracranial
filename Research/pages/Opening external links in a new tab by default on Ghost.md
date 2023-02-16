@@ -29,6 +29,6 @@ Changing the `target` to `_blank` will do the job. However, this will run the ex
 
 While modifying every link with JavaScript whenever accessing the page might slow down your Ghost, the performance impact will be ignorable unless the page has many external links. This trick will do its job until Ghost provides us a default option to open links in a new tab.
 
-## Additional readings
+## Additional Readings
 
 - [Links to cross-origin destinations are unsafe; Google Developers](https://developers.google.com/web/tools/lighthouse/audits/noopener)
