@@ -31,7 +31,7 @@ The video is in Korean, but it's a 30-second visual tutorial video, so you'll ge
 - Tutorial: How to easily import playlists from other music apps. [Video](https://www.youtube.com/watch?v=lIs51GVQnDw)
 
 The Korean tech market has these random unheard intriguing stories.
-I'm at @anaclumos on GitHub, Twitter, and any other platform.
+I'm at @anaclumos on GitHub, [[Twitter]], and any other platform.
 Hope we can keep in touch.
 
 Best Regards,

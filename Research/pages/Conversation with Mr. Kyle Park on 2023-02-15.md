@@ -1,0 +1,10 @@
+---
+lang: 'en'
+slug: '/648442'
+---
+
+- Talked about the fragmented nature of [[Twitter]].
+- [[Twitter]] has so many uncharted insightful tweets.
+- Aggregate, make it searchable
+- Make a full [[Memex]] with [[Twitter]]
+- Possible exit strategy — Twitter's Non-existent Search Engine: [[Geohot Twitter Mayhem]]
