@@ -179,6 +179,9 @@ export const backlinks = {
     "2020-09-20": {
         "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
     },
+    "2023-02-15": {
+        "Jog 25 minutes (Jan-Feb 2023)": "## [[2023-02-15]] 잠정 중단"
+    },
     "2022-11-23": {
         "Person 1E6ABA": "- Interviewed on [[2022-11-23]]"
     },
@@ -1490,6 +1493,9 @@ export const backlinks = {
         "Internetworking": "- [[Packet Loss]]",
         "Packet Switching vs Circuit Switching": "- Packet Switching can have [[Packet Loss]] (Some clients can leave if the restaurant is full)"
     },
+    "WebNPU": {
+        "2023-02-14": "- [[WebNPU]]"
+    },
     "Thesephist Work Case Study": {
         "2022-12-04": "- [[Thesephist Work Case Study]]"
     },
@@ -1925,6 +1931,10 @@ export const backlinks = {
         "Dioxus": "They are written in [[Rust]], inspired by [[React]].",
         "WebGPU": "- It's a stand-alone TypeScript+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "Write Once Run Everywhere": "- [[Rust]]"
+    },
+    "Why is Swift String Manipulation like that": {
+        "2023-02-15": "- [[Why is Swift String Manipulation like that]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 15 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] |   ..."
     },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]",
@@ -2618,6 +2628,12 @@ export const backlinks = {
         "Meta Theme Color for Spacial Cognition": "- Meta Theme Color for [[Spacial Cognition]]",
         "Tools for Thought": "... for Thought: add infinite canvas to text-based versions. involves and exploits [[spacial cognition]]."
     },
+    "글감": {
+        "2023-02-02": "- [[글감]]",
+        "2023-02-03": "- [[글감]]",
+        "2023-02-04": "- [[글감]]",
+        "2023-02-07": "- [[글감]]"
+    },
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
         "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
@@ -2843,7 +2859,7 @@ export const backlinks = {
     },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
-        "Potential Writing Topics": "- [[Effective Accelerationism]]",
+        "글감": "- [[Effective Accelerationism]]",
         "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
     },
     "0002 Add Two Numbers": {
@@ -3234,7 +3250,8 @@ export const backlinks = {
         "2022-12-06": "- [[Link Preview for Arc]]"
     },
     "Cool GPT Applications": {
-        "2023-01-27": "- [[Cool GPT Applications]]"
+        "2023-01-27": "- [[Cool GPT Applications]]",
+        "2023-02-14": "- [[Cool GPT Applications]]"
     },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
@@ -3490,12 +3507,6 @@ export const backlinks = {
         "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, [[Heptabase]].",
         "강력하게 미약한 도구들": "현 [[Tools for Thought]] [[Software as a Service|SaaS]] 시장에는 반복적인 패러다임이 있다. 도구들이 너무 많은 ..."
     },
-    "Potential Writing Topics": {
-        "2023-02-02": "- [[Potential Writing Topics]]",
-        "2023-02-03": "- [[Potential Writing Topics]]",
-        "2023-02-04": "- [[Potential Writing Topics]]",
-        "2023-02-07": "- [[Potential Writing Topics]]"
-    },
     "The Sudden Rise of Bondee": {
         "2023-02-12": "- [[The Sudden Rise of Bondee]]",
         "Did Bondee Really Suddenly Rise": "Yesterday, we took a closer look into Bondee: [[The Sudden Rise of Bondee]]. But did it suddenly rise?",
@@ -3557,6 +3568,10 @@ export const backlinks = {
         "Letter to the Heptabase Team on 2022-10-11": "> On [[Heptabase]] and its Developer Ecosystem",
         "Spacial Cognition": "- Dozens of Tools for Thought use it. For example, [[Heptabase]].",
         "Visual-based Tools for Thought": "### [[Heptabase]]"
+    },
+    "Swift String 조작은 왜 그 모양인가": {
+        "2023-02-15": "- [[Swift String 조작은 왜 그 모양인가]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Why is Swift String Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] |           ..."
     },
     "0021 Merge Two Sorted Lists": {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
@@ -3830,7 +3845,7 @@ export const backlinks = {
     "Korean Banks Suck": {
         "2023-01-09": "- [[Korean Banks Suck]]",
         "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Korean Banks Suck|troubled Korean banking system]].",
-        "Potential Writing Topics": "- [[Korean Banks Suck]]",
+        "글감": "- [[Korean Banks Suck]]",
         "드디어, 한국 애플페이": "... 이는 무엇을 의미할까? 몇 가지 시사점이 있지만, 오늘 할 이야기는 아니다. [[Korean Banks Suck|한국 은행계]]에 새로운 자극이 되기를 바란다."
     },
     "Palantir Foundry": {
@@ -4224,7 +4239,8 @@ export const backlinks = {
         "2023-02-11": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-12": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-13": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-14": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-14": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-15": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -4336,7 +4352,7 @@ export const backlinks = {
     },
     "Are Computers Psychotropic Substances": {
         "2023-02-09": "- [[Are Computers Psychotropic Substances]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 09 | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]     | Tweet ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 09 | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]       ..."
     },
     "Text AI and Information Density": {
         "2022-12-27": "- [[Text AI and Information Density]]"
@@ -4644,7 +4660,7 @@ export const backlinks = {
     },
     "컴퓨터는 향정신성 약물인가": {
         "2023-02-09": "- [[컴퓨터는 향정신성 약물인가]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 09 | 🇬🇧 Are Computers Psychotropic Substances <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]     | Tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 09 | 🇬🇧 Are Computers Psychotropic Substances <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]            ..."
     },
     "Pragmatic Engineer": {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]",
