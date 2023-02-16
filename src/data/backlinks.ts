@@ -580,6 +580,10 @@ export const backlinks = {
         "하늘땅사람": "- [[활자]]",
         "하늘땅사람 개발 기록": "Subproject로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 구현체"
     },
+    "The Engine Equation": {
+        "2023-02-16": "- [[The Engine Equation]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 16 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진의 함수]]        ..."
+    },
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]"
     },
@@ -2675,6 +2679,7 @@ export const backlinks = {
     "Bing Chat for All Browsers": {
         "2023-02-10": "- [[Bing Chat for All Browsers]]",
         "2023-02-11": "- [[Bing Chat for All Browsers]]",
+        "2023-02-16": "Updated [[Bing Chat for All Browsers]] to 1.0.1!",
         "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
         "Search AI": "- [[Bing Chat for All Browsers]]"
     },
@@ -3587,6 +3592,10 @@ export const backlinks = {
     "SHAP": {
         "2022-12-24": "- [[SHAP]]"
     },
+    "엔진의 함수": {
+        "2023-02-16": "- [[엔진의 함수]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 16 | 🇬🇧 The Engine Equation <br/> 🇰🇷 [[엔진의 함수]]            ..."
+    },
     "Government Services should have full API support": {
         "2022-10-27": "- [[Government Services should have full API support]]",
         "API Economy": "- [[Government Services should have full API support]]"
@@ -4451,7 +4460,8 @@ export const backlinks = {
         "2023-02-12": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-13": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-14": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-15": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-15": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-16": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -5324,6 +5334,12 @@ export const backlinks = {
     },
     "8B7073.png": {
         "2022-11-14": "![[8B7073.png]]"
+    },
+    "0ED929.png": {
+        "2023-02-16": "![[0ED929.png]]"
+    },
+    "FE262D.png": {
+        "2023-02-16": "![[FE262D.png]]"
     },
     "9DAC5E.png": {
         "2022-08-04": "![[9DAC5E.png]]"
