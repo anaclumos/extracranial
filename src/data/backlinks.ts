@@ -227,6 +227,9 @@ export const backlinks = {
         "0383 Ransom Note": "Solved at: [[2023-01-28]]",
         "0409 Longest Palindrome": "Solved at: [[2023-01-28]]"
     },
+    "2023-02-16": {
+        "Link Coefficient": "For example, as of [[2023-02-16]], [[Aldehyde]] has a 0.592% of Link Coefficient."
+    },
     "2019-11-06": {
         "프로젝트 어덕행덕": "- [[2019-11-06]]"
     },
@@ -507,7 +510,8 @@ export const backlinks = {
         "2022-11-03": "- [[Aldehyde]]",
         "2022-12-04": "- [[Aldehyde]]",
         "Better Aldehyde": "- [[Aldehyde]]",
-        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨"
+        "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨",
+        "Link Coefficient": "For example, as of 2023-02-16, [[Aldehyde]] has a 0.592% of Link Coefficient."
     },
     "Book Metadata as a Service": {
         "Fiercely Overpriced": "[[Book Metadata as a Service]] could also be one example."
@@ -1743,6 +1747,7 @@ export const backlinks = {
         "국제 계열과 계열 변경 이야기": "... 진학 반(이하 국제계열)로, 그리고 1명이 반대로 계열을 변경했습니다. 많은 분들이 아시다시피 [[민사고]]는 국제계열과 국내계열로 나뉘어 있습니다. 오늘은 그 둘의 특징과 변경 과정에 대해 ...",
         "기숙사 생활과 방 배정": "... 저녁 무렵, 어둠이 내리고 나면 우리는 또 다른 학교생활을 직면하게 됩니다. [[민사고|민족사관고등학교]] 기숙사인 덕고관은 또 다른 배움의 장소입니다. 학문적인 공부를 하는 다산관과 충무관 ...",
         "바이올린 켜면 바이올레이션": "상벌점 제도는 어느 학교에나 있는 제도입니다. [[민사고|민족사관고등학교]]도 마찬가지입니다. 오늘은 민사고|민족사관고등학교의 상벌점 제도에 대해서 소개해보고자 합니다.",
+        "불가사리": "[[민사고]] 재학 시절 만들었던 아트워크",
         "식영부원의 관점에서 바라본 치킨데이": "아시다시피 [[민사고|민족사관고등학교]]는 외부 음식을 구하기 어려운 산골 외딴 곳에 위치한 기숙사 학교입니다. 그렇기 ...",
         "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "... 기숙사 외부에서 만나게 될 평생 친구도 있을 것입니다. 오늘은 제가 느낀, [[민사고|민족사관고등학교]] (이하 [[민사고]]) 에서의 외부 친구 관계에 대해서 가볍게 이야기해보려고 합니다.",
         "재학생일기": "[[민사고]]에 있던 학교 공식 일기 모음집이다.",
@@ -3600,6 +3605,9 @@ export const backlinks = {
     "Decoy Effect": {
         "2022-11-08": "- [[Decoy Effect]]",
         "Action Required Newsletter Networks": "... pay $0.9 per month (not aimed to generate money, it's for [[decoy effect]] — to encourage networking effects)"
+    },
+    "Link Coefficient": {
+        "2023-02-16": "- [[Link Coefficient]]"
     },
     "Better Aldehyde": {
         "2022-07-12": "- [[Better Aldehyde]]",
