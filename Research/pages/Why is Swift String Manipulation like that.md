@@ -20,7 +20,7 @@ To this in Swift:
 
 ```swift
 // ...
-if String(string[String.Index(string.startIndex, offsetBy: index)]) != String(string[String.Index(string.endIndex, offsetBy: -index)]) // What is wrong with you?
+if String(string[String.Index(string.startIndex, offsetBy: i)]) != String(string[String.Index(string.endIndex, offsetBy: -i)]) // What is wrong with you?
 // ...
 ```
 
