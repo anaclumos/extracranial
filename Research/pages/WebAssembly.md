@@ -8,6 +8,60 @@ aliases: ['WASM']
 
 - [Introduction to WebAssembly • rsms](https://rsms.me/wasm-intro)
 
+[[Assembly]] languages in general consists of simple and atomic operations that the processor can follow.
+For example, let's consider the following `add.c` C code.
+
+```c
+#include <stdio.h>
+
+int add(int x, int y) { return x + y; }
+
+int main() {
+	printf("Hello World\n");
+	printf("1 + 2 = %d \n", add(1, 2));
+	return 0;
+}
+```
+
+```bash
+❯ gcc add.c
+❯ ./a.out
+Hello World
+1 + 2 = 3
+```
+
+It is a very straightforward C code that returns the sum of the two integers provided as input.
+We can convert this C code into [[WebAssembly]] with a build tool called [Emscripten](https://emscripten.org/index.html).
+After running the following command, we can get the WASM version of the function `int add(int x, int y)`.
+
+```bash
+emcc add.c -o index.html
+```
+
+![[8692F9.png]]
+
+We can now create a local server to test this example.
+
+```bash
+❯ npx serve .
+
+   ┌───────────────────────────────────────────────────┐
+   │                                                   │
+   │   Serving!                                        │
+   │                                                   │
+   │   - Local:            http://localhost:3000       │
+   │   - On Your Network:  http://192.168.8.100:3000   │
+   │                                                   │
+   │   Copied local address to clipboard!              │
+   │                                                   │
+   └───────────────────────────────────────────────────┘
+
+```
+
+And we can confirm that it is working as expected.
+
+![[56155E.png]]
+
 ## Interesting Implementations
 
 - [[Satori]]

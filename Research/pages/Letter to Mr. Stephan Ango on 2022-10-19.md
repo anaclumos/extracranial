@@ -7,7 +7,7 @@ slug: '/4890CA'
 
 Dear Engineer Ango,
 
-I am Sunghyun Cho, a computer science student based in Los Angeles.
+I am Sunghyun Cho, a computer science student based in [[Los Angeles]].
 I recently came across your article on [[Photoshop for Text]] and was deeply inspired by it.
 I am also heavily interested in Tools for Thought and Digital Brains and would like to keep in touch.
 I also have a [[Memex]] or, in my term, _[[Extracranial]]_ at [https://cho.sh](https://cho.sh/).

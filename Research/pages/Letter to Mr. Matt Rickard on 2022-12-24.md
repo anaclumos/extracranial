@@ -9,7 +9,7 @@ This is a reply on [Software Rewrites](https://matt-rickard.ghost.io/software-re
 
 Dear Mr. [[Matt Rickard|Rickard]],
 
-I'm on my way back to my home from Seoul to Daejeon in Korea, and I just got this post — I love this post!
+I'm on my way back to my home from Seoul to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!
 
 <blockquote class="twitter-tweet"><p lang="tl" dir="ltr">haha <a href="https://t.co/I0yligR81h">pic.twitter.com/I0yligR81h</a></p>&mdash; Jane Manchun Wong (@wongmjane) <a href="https://twitter.com/wongmjane/status/1606206050322915329?ref_src=twsrc%5Etfw">December 23, 2022</a></blockquote>
 
