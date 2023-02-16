@@ -1934,7 +1934,7 @@ export const backlinks = {
     },
     "Why is Swift String Manipulation like that": {
         "2023-02-15": "- [[Why is Swift String Manipulation like that]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 15 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] |   ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 15 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] | Tweet |"
     },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]",
@@ -3571,7 +3571,7 @@ export const backlinks = {
     },
     "Swift String 조작은 왜 그 모양인가": {
         "2023-02-15": "- [[Swift String 조작은 왜 그 모양인가]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Why is Swift String Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] |           ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Why is Swift String Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] | Tweet |"
     },
     "0021 Merge Two Sorted Lists": {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
