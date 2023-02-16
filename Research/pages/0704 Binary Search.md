@@ -33,7 +33,7 @@ class Solution:
         return self._search(nums, target, 0, len(nums)-1)
 ```
 
-- [[binary search]]
+- [[Binary Search]]
 
 ## Results
 
