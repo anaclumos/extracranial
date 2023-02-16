@@ -12,7 +12,7 @@ Quota Labs has two divisions.
 The VC side tool and the Startup side tool.
 VC investment procedures are old and antiquated.
 It is done through handwriting, fax, and email.
-An American company, Carta, already dominates the U.S. market.
+An American company, Carta, already dominates the [[United States of America|U.S.]] market.
 But unlike regulated stock markets, Private Equity regulations vastly differ across markets.
 Considering that, Carta cannot ever penetrate the Korean market.
 The essential advantage is speed.

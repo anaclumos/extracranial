@@ -10,6 +10,6 @@ slug: '/6CC3EF'
 - Working code is often better than a draft by a standards committee. See Clark's quote
 - For example, Mosaic had a feature that automatically converted Gopher menus into [[HTML]]
 - Simplicity
-- Politics plays a more prominent role than technologists would like to admit. The U.S. Department of Defense was an early adopter of TCP/[[IP]]
+- Politics plays a more prominent role than technologists would like to admit. The [[United States of America|U.S.]] Department of Defense was an early adopter of TCP/[[IP]]
 - Meanwhile, the University of Minnesota charged licensing fees for Gopher servers
 - Competing protocols often make different trade-offs, i.e., optimizing for computing or storage

@@ -17,6 +17,6 @@ After days of back and forth and a two-hour support session, they finally admitt
 ## Takeaways
 
 For AT&T customers, never take away your International Data Pass.
-It was interesting for me who grew up in [[대한민국|Korea]], to see that in the United States you should protect and exercise your own rights proactively.
+It was interesting for me who grew up in [[대한민국|Korea]], to see that in the [[United States of America|United States]] you should protect and exercise your own rights proactively.
 If a similar thing happened in [[대한민국|Korea]], I could've simply filed a dispute to the local government on my phone and they will basically autopilot everything to the conclusion.
-Whereas in the United States, it is my job to negotiate and discuss the terms proactively, for my best interest.
+Whereas in the [[United States of America|United States]], it is my job to negotiate and discuss the terms proactively, for my best interest.
