@@ -678,6 +678,7 @@ export const filenames = {
     "Linear README": "888590",
     "Lingua Franca": "F7BBFF",
     "Link (Computer Systems)": "FC49CE",
+    "Link Coefficient": "AC990C",
     "Link Preview for Arc": "A06AB5",
     "Linkflags": "E688AF",
     "Linux": "2658BE",
