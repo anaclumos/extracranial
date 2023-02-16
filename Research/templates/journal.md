@@ -9,7 +9,3 @@ slug: '/{{title}}'
 ## [[Hacker News]]
 
 ## [[Project]]
-
-## [[Building Habit]]
-
-- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]
