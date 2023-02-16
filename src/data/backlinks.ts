@@ -384,6 +384,9 @@ export const backlinks = {
     "The Photo Library of Babel": {
         "Proposal of Research to Professor Cote": "## 3. [[The Photo Library of Babel]]"
     },
+    "Geohot Twitter Mayhem": {
+        "Conversation with Mr. Kyle Park on 2023-02-15": "- Possible exit strategy — Twitter's Non-existent Search Engine: [[Geohot Twitter Mayhem]]"
+    },
     "사회과부도": {
         "2022-08-28": "- [[사회과부도]]"
     },
@@ -447,7 +450,8 @@ export const backlinks = {
         "The Photo Library of Babel": "[[The Library of Babel]]"
     },
     "Texts": {
-        "2023-01-31": "Got Invited to [[Texts]]"
+        "2023-01-31": "Got Invited to [[Texts]]",
+        "Feed One": "Like [[Texts]], it pulls from all the sources and posts to all the ..."
     },
     "Emails and Decentralized Protocols": {
         "2022-09-05": "- [[Emails and Decentralized Protocols]]",
@@ -1327,6 +1331,25 @@ export const backlinks = {
     "Separation of Computer Scientists and Computer Technologists": {
         "2022-08-24": "- [[Separation of Computer Scientists and Computer Technologists]]"
     },
+    "Twitter": {
+        "2022-06-21": "[[Twitter]] implemented a much more strict agile model with Sprint work models.",
+        "2022-07-28": "... 2008 recession, Internet culture and economy were formed around Facebook and [[Twitter]]",
+        "2022-10-14": "  - Linear has been popping up on my [[Twitter]] threads.",
+        "2022-10-22": "...  - A lot of people sent me solid proposals on [[Twitter]].",
+        "2022-10-27": "## [[Twitter]]",
+        "Conversation with Mr. Kyle Park on 2023-02-15": "- Talked about the fragmented nature of [[Twitter]].",
+        "Cube": "- Feature: [[Twitter]]-to-Instagram-Card Mode?",
+        "Letter to Mr. Matt Rickard on 2022-10-03": "I'm at @anaclumos on GitHub, [[Twitter]], and any other platform.",
+        "Letter to Mr. Matt Rickard on 2022-12-23": "There are countless cases where [[Twitter]] troubled up, but the above point is the most prominent one. ...",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "There are countless cases where [[Twitter]] troubled up, but the above point is the most prominent one. ...",
+        "Mastodon": "... self-hosted social networking services. It has microblogging features similar to the [[Twitter]] service, which are offered by a large number of independently run ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "- [[Twitter]], Facebook, Instagram, and Snapchat cannot be super apps because they have ...",
+        "Mood.surf": "> Discover expert insights from tech [[Twitter]]",
+        "Musk and Twitter": "... wanted to reach out personally to share my motivation for acquiring [[Twitter]]. There has been much speculation about why I bought Twitter and ...",
+        "Regulation of Fake News": "- The United States government pressured [[Twitter]] to elevate certain content and suppress other content about Covid-19 and ...",
+        "Social Coding": "... rarely reflected on the GitHub follower model compared to LinkedIn (or [[Twitter]]",
+        "유난한 도전": "이후 약간의 입질이 오자 홈페이지를 열고 [[Twitter|트위터]]에 링크를 올리니 반응이 확실했다."
+    },
     "SVG": {
         "CSS": "... language such as HTML or XML (including XML dialects such as [[SVG]], MathML, or XHTML). CSS is a cornerstone technology of the World ...",
         "Stories Behind Satori": "- [[SVG]]-based solutions were the perfect balance of the two, being fast and ..."
@@ -2199,6 +2222,7 @@ export const backlinks = {
         "Embeddable GitHub Repo Card But It Looks Great": "Someday [[Project]].",
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
         "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
+        "Feed One": "Someday [[Project]]. Ideated during [[Conversation with Mr. Kyle Park on 2023-02-15]]",
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
         "GitHub": "... software feature requests, task management, continuous integration, and wikis for every [[project]]. Headquartered in California, it has been a subsidiary of [[Microsoft]] since ...",
         "Goongoom": "- Side startup [[project]] that never made it to the market.",
@@ -2732,6 +2756,10 @@ export const backlinks = {
     },
     "Conditional Compilation": {
         "2023-01-25": "- [[Conditional Compilation]]"
+    },
+    "Conversation with Mr. Kyle Park on 2023-02-15": {
+        "2023-02-15": "- [[Conversation with Mr. Kyle Park on 2023-02-15]]",
+        "Feed One": "Someday Project. Ideated during [[Conversation with Mr. Kyle Park on 2023-02-15]]"
     },
     "Dynamically Linked Libraries": {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
@@ -3611,6 +3639,9 @@ export const backlinks = {
     "WeCrashed": {
         "2022-07-18": "- Finished [[WeCrashed]]"
     },
+    "Feed One": {
+        "2023-02-15": "- [[Feed One]]"
+    },
     "Shopify Analyzes CSS Frameworks": {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
@@ -4096,6 +4127,7 @@ export const backlinks = {
     "Memex": {
         "2022-10-17": "- [[Memex]]",
         "As We May Think": "... a sort of collective memory machine with his concept of the [[memex]] that would make knowledge more accessible, believing that it would help ...",
+        "Conversation with Mr. Kyle Park on 2023-02-15": "- Make a full [[Memex]] with [[Twitter]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a [[Memex]] or, in my term, [[Extracranial]] at https://cho.sh.",
         "Memex is more than a Memex": "- [[Memex]] is more than a Memex",
         "Plateau of Latent Potential": "It could be a form of Extracranial, a [[Memex]], or even [[Conversational AI Tools for Thought]].",
@@ -4318,6 +4350,7 @@ export const backlinks = {
         "ElonPet": "- [[Someday]] [[Project]]. Uses GPT-3 to write good things about Elon (Sarcastically) randomly",
         "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
         "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
+        "Feed One": "[[Someday]] [[Project]]. Ideated during [[Conversation with Mr. Kyle Park on 2023-02-15]]",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
         "Guestbook": "- [[Someday]] [[Project]]",
         "Intracranial": "[[Someday]] [[Project]]. Infinite Canvas for Zettlekasten.",
@@ -4509,7 +4542,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "- [[하늘땅사람 개인 정보 보호 정책]]"
     },
     "Linear": {
-        "2022-10-14": "  - [[Linear]] has been popping up on my Twitter threads."
+        "2022-10-14": "  - [[Linear]] has been popping up on my [[Twitter]] threads."
     },
     "Sliding Panes": {
         "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].",
@@ -4944,6 +4977,7 @@ export const backlinks = {
     "10x": {
         "2022-06-06": "- Early in your career, you can learn [[10x]] more in a supportive team in 1 year than coding on ...",
         "2022-12-09": "- [[10x]]",
+        "Geohot Twitter Mayhem": "... But it still poses a question for ① being a superintelligent [[10x]] developer and ② being a cooperative team player developer. Geohot was ...",
         "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying attention already knows this — Nat ...",
         "The Zenly Playbook": "... had not only exceptional engineers but also outstanding designers and operators. [[10x]] people don't join a startup upfront, so Zenly made them involved ..."
     },
@@ -5165,6 +5199,12 @@ export const backlinks = {
     "837555.jpg": {
         "2022-10-15": "![[837555.jpg]]",
         "Dynamic Island on the Web": "![[837555.jpg]]"
+    },
+    "3A5769.png": {
+        "Geohot Twitter Mayhem": "![[3A5769.png]]"
+    },
+    "BE855B.png": {
+        "Geohot Twitter Mayhem": "![[BE855B.png]]"
     },
     "F9FC1A.png": {
         "Swift": "![[F9FC1A.png]]"
