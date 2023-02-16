@@ -27,6 +27,6 @@ slug: '/9A0D39'
 - Merge conflict resolution
 - Automatic linting and style checking
 - Placeholder documentation
-- Project scaffolding
+- [[Project]] scaffolding
 - Test suites and fuzzing
 - Infrastructure as code

@@ -15,7 +15,7 @@ However, [[SVG]] solutions lacked layout support.
 Given that [[SVG]] and [[HTML]] + [[CSS]] are alike, we can convert [[HTML]] and [[CSS]] to [[SVG]].
 We can calculate the elements' positions through a layout [[engine]] and convert them into [[SVG]] markups.
 
-This is already done by an open-source project [facebook/yoga](https://github.com/facebook/yoga).
+This is already done by an open-source [[project]] [facebook/yoga](https://github.com/facebook/yoga).
 Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].
 Using a [[WebAssembly|WASM]]-based approach also unlocked the possibility of running it on edge. [Introducing support for WebAssembly at the Edge](https://vercel.com/blog/introducing-support-for-webassembly-at-the-edge).
 

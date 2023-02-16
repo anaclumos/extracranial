@@ -49,11 +49,11 @@ I also open-sourced the [research notes](/r/C222D1) for this project.
 
 </Admonition>
 
-## 📜 Patents and legal rights
+## 📜 Patents and Legal Rights
 
 First of all, I checked the legal rights. I found that the patent holder, [조관현 (Cho Kwan-Hyeon)](https://doi.org/10.8080/1019960047925), had donated the patent to the Korean government, and Cheon-Ji-In had become the national standard for input methods, [publicizing the legal rights to the keyboard](https://www.korea.kr/news/policyBriefingView.do?newsId=148700827). So I confirmed these details and then moved on to the development process.
 
-## 🛠 Readying the tech
+## 🛠 Readying the Tech
 
 I first read through Apple's [Creating a Custom Keyboard](https://developer.apple.com/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard) document. It was similar to creating a regular iOS app — create ViewControllers and embed the logic inside. However, I wanted to try SwiftUI since it was my first time using it. Moreover, [SwiftUI Grid](https://developer.apple.com/documentation/swiftui/grid) would be a clean approach to organizing buttons. Still, I figured that this class is more suitable for things like the Photos app, which has numerous elements to lay out, and a simple HStack and VStack (similar to display: flex on the Web ecosystem) would suffice my needs.
 
@@ -95,7 +95,7 @@ The gray background of "ㅇ" was iOS's NSRange and setMarkedText. It helped ente
 
 Another interesting observation was that the colors of the default iPhone keyboards differed from any default system colors provided with iOS. I had to extract the color with Color Meters one by one.
 
-## 😶‍🌫️ But then how do we make Cheon-Ji-In?
+## 😶‍🌫️ But how do we make Cheon-Ji-In?
 
 <details>
 <summary>Supplementary YouTube video on how Hangul system works.</summary>

@@ -5,7 +5,7 @@ aliases: ['Personal Knowledge Management']
 ---
 
 - Usually, Nonlinear, spider-web-like notes
-- On [[2022-07-01]], I noted that PKM is for building a personal knowledge base. Its needs are different from a project base.
+- On [[2022-07-01]], I noted that PKM is for building a personal knowledge base. Its needs are different from a [[project]] base.
 
 | Term           | Meaning                                          |
 | -------------- | ------------------------------------------------ |
@@ -18,7 +18,7 @@ aliases: ['Personal Knowledge Management']
 
 | Second Brain                                                            | Digital Garden                                                                            |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| Project-oriented                                                        | Knowledge-oriented                                                                        |
+| [[Project]]-oriented                                                    | Knowledge-oriented                                                                        |
 | Notes are in Britannica Style                                           | Notes are in Wikipedia Style                                                              |
 | Allows foldering                                                        | Prohibits foldering                                                                       |
 | Allows archiving                                                        | Prohibits archiving                                                                       |

@@ -13,8 +13,8 @@ Unlike the Western market, the Korean music market is heavily independent.
 Although YouTube Music has gobbled up the market cap quite significantly, most people still use Korean services to listen to music, primarily due to copyright issues for foreign Music services (they don't have Korean songs).
 That being said, Spotify and [[Apple]] Music have a market penetration of next to nothing.
 
-There are two behemoths in Korea, [[Naver]], and [[Kakao]].
-[[Naver]] services as the omnipotent search [[engine]] for Korea (bigger market cap than Google Korea) and [[Kakao]] services as an almighty chatting app (more than 95% of Koreans use it).
+There are two behemoths in [[대한민국|Korea]], [[Naver]], and [[Kakao]].
+[[Naver]] services as the omnipotent search [[engine]] for [[대한민국|Korea]] (bigger market cap than Google [[대한민국|Korea]]) and [[Kakao]] services as an almighty chatting app (more than 95% of Koreans use it).
 They always fight each other for market superiority.
 
 [[Kakao]] currently operates the #1 music streaming service, Melon.
