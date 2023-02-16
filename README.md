@@ -22,10 +22,10 @@ Welcome to my **Personal Wikipedia** (Digital Garden & Second Brain). This is ev
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1195     34638     8650         0    25988          0
+Markdown                  1195     34636     8649         0    25987          0
 CSS                         68     20066      173        27    19866          0
 TypeScript                  53      9685      145        65     9475        142
-JSON                        42      2209        0         0     2209          0
+JSON                        42      2172        0         0     2172          0
 Python                       7       770       54        41      675        107
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -35,13 +35,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1389     94386     9503      5084    79799       1086
+Total                     1389     94347     9502      5084    79761       1086
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,683,444
+Estimated Cost to Develop (organic) $2,682,102
 Estimated Schedule Effort (organic) 20.01 months
 Estimated People Required (organic) 11.91
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6417210 bytes, 6.417 megabytes (SI)
+Processed 6416011 bytes, 6.416 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
