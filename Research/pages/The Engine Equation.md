@@ -23,6 +23,6 @@ What is interesting about this definition is that engines are simply functions t
 
 Eventually, the universe will be a tree of the chain-reacting engines, where the primal origin is the Big Bang, and the final output is heat. Ultimately, in a physical sense, an engine is the path for entropies to flow.
 
-> The sacred engine prescribes eternal order: all things flow from the sacred engine, all items in their place, all passengers in their section, all water flowing. Therefore, all heat rising pays homage to the holy engine in its preordained position...
+> Eternal order is prescribed by the sacred engine: all things flow from the sacred engine, all things in their place, all passengers in their section, all water flowing. all heat rising, pays homage to the sacred engine, in its own particular preordained position...
 >
 > — Snowpiercer (2013)
