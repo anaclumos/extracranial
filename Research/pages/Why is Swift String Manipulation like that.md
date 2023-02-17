@@ -11,9 +11,7 @@ slug: '/9AA043'
 So a simple palindrome search goes from this in Python:
 
 ```python
-# ...
 if string[i] != string[length - 1 - i]:
-# ...
 ```
 
 To this in Swift:
