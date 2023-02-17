@@ -583,7 +583,7 @@ export const backlinks = {
     },
     "The Engine Equation": {
         "2023-02-16": "- [[The Engine Equation]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 16 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진의 함수]]        ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 16 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]        ..."
     },
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]"
@@ -3593,10 +3593,6 @@ export const backlinks = {
     "SHAP": {
         "2022-12-24": "- [[SHAP]]"
     },
-    "엔진의 함수": {
-        "2023-02-16": "- [[엔진의 함수]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 16 | 🇬🇧 The Engine Equation <br/> 🇰🇷 [[엔진의 함수]]            ..."
-    },
     "Government Services should have full API support": {
         "2022-10-27": "- [[Government Services should have full API support]]",
         "API Economy": "- [[Government Services should have full API support]]"
@@ -4791,6 +4787,10 @@ export const backlinks = {
     },
     "Social Coding": {
         "Matt Rickard": "- [[Social Coding]]"
+    },
+    "엔진 방정식": {
+        "2023-02-16": "- [[엔진 방정식]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 16 | 🇬🇧 The Engine Equation <br/> 🇰🇷 [[엔진 방정식]]            ..."
     },
     "Snowpack으로 WASM 시작하기": {
         "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"

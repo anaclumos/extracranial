@@ -22,7 +22,7 @@ slug: '/18728A'
 | [13](../journals/2023-02-13.md) | 🇬🇧 [[Did Bondee Really Suddenly Rise]] <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]                     | [Tweet](https://twitter.com/anaclumos/status/1625228572792352769) |
 | [14](../journals/2023-02-14.md) | 🇬🇧 [[Optimistic Nihilist]] <br/> 🇰🇷 [[긍정적 허무주의자]]                                         | [Tweet](https://twitter.com/anaclumos/status/1625641155655512066) |
 | [15](../journals/2023-02-15.md) | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] | [Tweet](https://twitter.com/anaclumos/status/1626032333387354112) |
-| [16](../journals/2023-02-16.md) | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진의 함수]]                                               | [Tweet](https://twitter.com/anaclumos/status/1626357891006619648) |
+| [16](../journals/2023-02-16.md) | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]                                               | [Tweet](https://twitter.com/anaclumos/status/1626357891006619648) |
 
 ## Announcement
 
