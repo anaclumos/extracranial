@@ -509,6 +509,7 @@ export const backlinks = {
     "Aldehyde": {
         "2022-11-03": "- [[Aldehyde]]",
         "2022-12-04": "- [[Aldehyde]]",
+        "2023-02-16": "On [[Aldehyde]], one user wrote, \"When you have interest to write a tutorial ...",
         "Better Aldehyde": "- [[Aldehyde]]",
         "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨",
         "Link Coefficient": "For example, as of 2023-02-16, [[Aldehyde]] has a 0.592% of Link Coefficient."
