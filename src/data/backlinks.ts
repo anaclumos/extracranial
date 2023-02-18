@@ -445,7 +445,7 @@ export const backlinks = {
     },
     "Optimistic Nihilist": {
         "2023-02-14": "- [[Optimistic Nihilist]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 14 | 🇬🇧 [[Optimistic Nihilist]] <br/> 🇰🇷 [[긍정적 허무주의자]]        ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0214 | 🇬🇧 [[Optimistic Nihilist]] <br/> 🇰🇷 [[긍정적 허무주의자]]        ..."
     },
     "Paracosm": {
         "Text-based Tools for Thought": "### [[Paracosm]]"
@@ -503,7 +503,8 @@ export const backlinks = {
     },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02 | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]]        ...",
+        "Tech Now Pay Later": "This approach is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you make it.  But what is ...",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0202 | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]]        ...",
         "서비스 시밍": "[[Service Shimming]]"
     },
     "Aldehyde": {
@@ -583,7 +584,8 @@ export const backlinks = {
     },
     "The Engine Equation": {
         "2023-02-16": "- [[The Engine Equation]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 16 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]        ..."
+        "Tech Now Pay Later": "[[The Engine Equation]] comes handy here. ",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0216 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]        ..."
     },
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]"
@@ -614,7 +616,7 @@ export const backlinks = {
     },
     "관성 질량과 중력 질량": {
         "2023-02-07": "- [[관성 질량과 중력 질량]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 07 | 🇬🇧 A Massive Mystery <br/> 🇰🇷 [[관성 질량과 중력 질량]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0207 | 🇬🇧 A Massive Mystery <br/> 🇰🇷 [[관성 질량과 중력 질량]]            ..."
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., layout) and APIs."
@@ -863,7 +865,7 @@ export const backlinks = {
     },
     "In search of my domain": {
         "2023-01-09": "- [[In search of my domain]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 10 | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]]       ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0210 | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]]       ..."
     },
     "Project Core ML Foundation": {
         "2023-01-26": "- [[Project Core ML Foundation]]",
@@ -922,7 +924,7 @@ export const backlinks = {
     },
     "초대장의 시대": {
         "2023-02-05": "- [[초대장의 시대]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 05 | 🇬🇧 The Era of Invites <br/> 🇰🇷 [[초대장의 시대]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0205 | 🇬🇧 The Era of Invites <br/> 🇰🇷 [[초대장의 시대]]            ..."
     },
     "Forward Declaration": {
         "2023-01-25": "- [[Forward Declaration]]",
@@ -1146,7 +1148,7 @@ export const backlinks = {
     },
     "드디어, 한국 애플페이": {
         "2023-02-04": "- [[드디어, 한국 애플페이]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 04 | 🇬🇧 Finally, Apple Pay in Korea <br/> 🇰🇷 [[드디어, 한국 애플페이]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0204 | 🇬🇧 Finally, Apple Pay in Korea <br/> 🇰🇷 [[드디어, 한국 애플페이]]            ..."
     },
     "Rewind": {
         "2022-12-24": "- [[Rewind]] is [[GA]]",
@@ -1290,7 +1292,7 @@ export const backlinks = {
     },
     "Finally, Apple Pay in Korea": {
         "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 04 | 🇬🇧 [[Finally, Apple Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]]       ...",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0204 | 🇬🇧 [[Finally, Apple Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]]       ...",
         "드디어, 한국 애플페이": "[[Finally, Apple Pay in Korea]]"
     },
     "Slow Down Your Clock Cycle Speed": {
@@ -1425,7 +1427,7 @@ export const backlinks = {
     },
     "A Massive Mystery": {
         "2023-02-07": "- [[A Massive Mystery]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 07 | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 질량]]      ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0207 | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 질량]]      ..."
     },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]",
@@ -1544,7 +1546,7 @@ export const backlinks = {
     "Did Bondee Really Suddenly Rise": {
         "2023-02-12": "- [[Did Bondee Really Suddenly Rise]]",
         "2023-02-13": "- [[Did Bondee Really Suddenly Rise]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 13 | 🇬🇧 [[Did Bondee Really Suddenly Rise]] <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]      ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0213 | 🇬🇧 [[Did Bondee Really Suddenly Rise]] <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]      ..."
     },
     "0232 Implement Queue using Stacks": {
         "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",
@@ -1737,7 +1739,7 @@ export const backlinks = {
     },
     "본디는 사실 혜성이 아니다": {
         "2023-02-13": "- [[본디는 사실 혜성이 아니다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 13 | 🇬🇧 Did Bondee Really Suddenly Rise <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0213 | 🇬🇧 Did Bondee Really Suddenly Rise <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]            ..."
     },
     "Bernoulli Distribution": {
         "2023-01-24": "- [[Bernoulli Distribution]]",
@@ -2017,7 +2019,7 @@ export const backlinks = {
     },
     "Why is Swift String Manipulation like that": {
         "2023-02-15": "- [[Why is Swift String Manipulation like that]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 15 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] | Tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0215 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] | Tweet |"
     },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]",
@@ -2354,6 +2356,11 @@ export const backlinks = {
     "한민족은 해적되었다": {
         "2023-01-26": "- [[한민족은 해적되었다]]"
     },
+    "Time to Market": {
+        "Service Shimming": "... engineering might not be as crucial as we developers think. Maybe [[Time to Market]] is more critical. Here are a few examples:",
+        "Tech Now Pay Later": "... by right now incurring a tech debt. This significantly reduces the [[Time to Market]], which is more important than brilliant engineering. Alas, your service must ...",
+        "기술 할부 결제": "이는 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 스타트업에서 완전무결한 엔지니어링보다 훨씬 중요하다."
+    },
     "0973 K Closest Points to Origin": {
         "Coding Tests": "- [x] [[0973 K Closest Points to Origin]]"
     },
@@ -2408,7 +2415,7 @@ export const backlinks = {
     },
     "Imoogi and Dragon Company": {
         "2023-02-01": "- [[Imoogi and Dragon Company]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 01 | 🇬🇧 [[Imoogi and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 기업]]      ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0201 | 🇬🇧 [[Imoogi and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 기업]]      ..."
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
@@ -2435,7 +2442,7 @@ export const backlinks = {
     },
     "The Zenly Playbook": {
         "2023-02-03": "- [[The Zenly Playbook]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 03 | 🇬🇧 [[The Zenly Playbook]] <br/> 🇰🇷 [[젠리의 성공 공식]]       ...",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0203 | 🇬🇧 [[The Zenly Playbook]] <br/> 🇰🇷 [[젠리의 성공 공식]]       ...",
         "젠리의 성공 공식": "[[The Zenly Playbook]]"
     },
     "0704 Binary Search": {
@@ -2598,7 +2605,7 @@ export const backlinks = {
     },
     "긍정적 허무주의자": {
         "2023-02-14": "- [[긍정적 허무주의자]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 14 | 🇬🇧 Optimistic Nihilist <br/> 🇰🇷 [[긍정적 허무주의자]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0214 | 🇬🇧 Optimistic Nihilist <br/> 🇰🇷 [[긍정적 허무주의자]]            ..."
     },
     "0020 Valid Parentheses": {
         "2022-07-10": "- Solved [[0020 Valid Parentheses]]",
@@ -2606,7 +2613,7 @@ export const backlinks = {
     },
     "혜성처럼 나타난 본디": {
         "2023-02-12": "- [[혜성처럼 나타난 본디]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 12 | 🇬🇧 The Sudden Rise of Bondee <br/> 🇰🇷 [[혜성처럼 나타난 본디]]            ...",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0212 | 🇬🇧 The Sudden Rise of Bondee <br/> 🇰🇷 [[혜성처럼 나타난 본디]]            ...",
         "본디는 사실 혜성이 아니다": "어제 [[혜성처럼 나타난 본디]] 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 본디는 정말 혜성일까?"
     },
     "Porting a Chrome Extension to Firefox Add-on": {
@@ -2717,6 +2724,10 @@ export const backlinks = {
         "Separation of Computer Scientists and Computer Technologists": "... A self-taught dev can use React to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...",
         "TypeScript": "- Typed [[JavaScript]].",
         "Write Once Run Everywhere": "- [[JavaScript]]"
+    },
+    "기술 할부 결제": {
+        "2023-02-17": "- [[기술 할부 결제]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0217 | 🇬🇧 Tech Now Pay Later <br/> 🇰🇷 [[기술 할부 결제]]            ..."
     },
     "Grotesque": {
         "Akzidenz": "- A type of [[Grotesque]] [[font]].",
@@ -3461,7 +3472,7 @@ export const backlinks = {
     },
     "강력하게 미약한 도구들": {
         "2023-02-08": "- [[강력하게 미약한 도구들]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 08 | 🇬🇧 Powerfully Powerless Tools <br/> 🇰🇷 [[강력하게 미약한 도구들]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0208 | 🇬🇧 Powerfully Powerless Tools <br/> 🇰🇷 [[강력하게 미약한 도구들]]            ..."
     },
     "Open Graph Image as a Service": {
         "2022-07-10": "... longer make any improvements in `og-image.cho.sh`, and invest those time in [[Open Graph Image as a Service]].",
@@ -3683,7 +3694,7 @@ export const backlinks = {
     "The Sudden Rise of Bondee": {
         "2023-02-12": "- [[The Sudden Rise of Bondee]]",
         "Did Bondee Really Suddenly Rise": "Yesterday, we took a closer look into Bondee: [[The Sudden Rise of Bondee]]. But did it suddenly rise?",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 12 | 🇬🇧 [[The Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]]       ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0212 | 🇬🇧 [[The Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]]       ..."
     },
     "Karrot NX Team Mission Statement": {
         "2023-02-08": "- [[Karrot NX Team Mission Statement]]"
@@ -3807,7 +3818,7 @@ export const backlinks = {
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
     "이무기 기업, 청룡 기업": {
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 01 | 🇬🇧 Imoogi and Dragon Company <br/> 🇰🇷 [[이무기 기업, 청룡 기업]]            ...",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0201 | 🇬🇧 Imoogi and Dragon Company <br/> 🇰🇷 [[이무기 기업, 청룡 기업]]            ...",
         "신한국": "- [[이무기 기업, 청룡 기업]]"
     },
     "기숙사 생활과 방 배정": {
@@ -3906,7 +3917,8 @@ export const backlinks = {
     },
     "서비스 시밍": {
         "2023-02-02": "- [[서비스 시밍]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02 | 🇬🇧 Service Shimming <br/> 🇰🇷 [[서비스 시밍]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0202 | 🇬🇧 Service Shimming <br/> 🇰🇷 [[서비스 시밍]]            ...",
+        "기술 할부 결제": "이 접근 방식은 만들 때까지 만든 척하는 [[서비스 시밍]]과 유사하다."
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -4301,7 +4313,7 @@ export const backlinks = {
     },
     "도메인 찾아 삼만리": {
         "2023-02-11": "- [[도메인 찾아 삼만리]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 10 | 🇬🇧 In search of my domain <br/> 🇰🇷 [[도메인 찾아 삼만리]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0210 | 🇬🇧 In search of my domain <br/> 🇰🇷 [[도메인 찾아 삼만리]]            ..."
     },
     "Naver": {
         "Krafton Way": "... 첫눈을 매각한 이후 장병규는 종종 \"내가 아는 모든 좋은 사람들까지 다 [[Naver|네이버]]에 매각됐다\"고 말했다. 돈 말고는 아무것도 없는 것처럼 느껴졌다.",
@@ -4310,7 +4322,7 @@ export const backlinks = {
         "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ...",
         "Search AI와 인터넷의 한국어": "무엇보다 대부분의 자료가 [[Naver|네이버]]에 갇혀있고,",
         "Service Shimming": "- [[Naver]] (≈ Korean Google), for a while, failed to make a News ...",
-        "서비스 시밍": "- [[Naver|네이버]]는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 매일 아침 찾아가며 뉴스를 ...",
+        "서비스 시밍": "- [[Naver|네이버]]는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 일일이 찾아가며 뉴스를 배포할 ...",
         "유난한 도전": "... 사용자도 많고 간편한 토스결제를 너나없이 이용하고 싶어 할 것이다. 그렇지 않았다. [[Naver|네이버]]페이, [[Kakao|카카오]]페이, 삼성페이 등 경쟁자가 너무 많았다. 토스페이의 설득력이 부족했다.",
         "하늘땅사람 개발 기록": "- `( ••)` `⊹⋛⋋( ՞ਊ ՞)⋌⋚⊹) `와 같은 이모티콘. [[Naver|네이버]] 스마트 키보드의 기능 중 꽤 좋은 기능이었다."
     },
@@ -4366,7 +4378,7 @@ export const backlinks = {
     },
     "The Era of Invites": {
         "2023-02-05": "- [[The Era of Invites]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 05 | 🇬🇧 [[The Era of Invites]] <br/> 🇰🇷 [[초대장의 시대]]        ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0205 | 🇬🇧 [[The Era of Invites]] <br/> 🇰🇷 [[초대장의 시대]]        ..."
     },
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]"
@@ -4464,7 +4476,8 @@ export const backlinks = {
         "2023-02-13": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-14": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-15": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-16": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-16": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-17": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -4528,7 +4541,7 @@ export const backlinks = {
     "방지된 폭탄에 대한 경의": {
         "2023-02-01": "- [[방지된 폭탄에 대한 경의]]",
         "2023-02-06": "- [[방지된 폭탄에 대한 경의]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 06 | 🇬🇧 Remembering that Disarmed Bomb <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0206 | 🇬🇧 Remembering that Disarmed Bomb <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]            ..."
     },
     "Someday": {
         "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter Network]] but you must",
@@ -4578,7 +4591,7 @@ export const backlinks = {
     },
     "Are Computers Psychotropic Substances": {
         "2023-02-09": "- [[Are Computers Psychotropic Substances]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 09 | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]       ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0209 | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]       ..."
     },
     "산업적 개척, 청결, 정화": {
         "2023-01-09": "- [[산업적 개척, 청결, 정화]]"
@@ -4796,7 +4809,8 @@ export const backlinks = {
     },
     "엔진 방정식": {
         "2023-02-16": "- [[엔진 방정식]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 16 | 🇬🇧 The Engine Equation <br/> 🇰🇷 [[엔진 방정식]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0216 | 🇬🇧 The Engine Equation <br/> 🇰🇷 [[엔진 방정식]]            ...",
+        "기술 할부 결제": "여기서 [[엔진 방정식]]이 유용하게 다가온다."
     },
     "Snowpack으로 WASM 시작하기": {
         "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
@@ -4814,7 +4828,7 @@ export const backlinks = {
     },
     "젠리의 성공 공식": {
         "2023-02-03": "- [[젠리의 성공 공식]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 03 | 🇬🇧 The Zenly Playbook <br/> 🇰🇷 [[젠리의 성공 공식]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0203 | 🇬🇧 The Zenly Playbook <br/> 🇰🇷 [[젠리의 성공 공식]]            ..."
     },
     "하얼빈": {
         "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
@@ -4916,7 +4930,7 @@ export const backlinks = {
     },
     "컴퓨터는 향정신성 약물인가": {
         "2023-02-09": "- [[컴퓨터는 향정신성 약물인가]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 09 | 🇬🇧 Are Computers Psychotropic Substances <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0209 | 🇬🇧 Are Computers Psychotropic Substances <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]            ..."
     },
     "Pragmatic Engineer": {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]",
@@ -4928,7 +4942,7 @@ export const backlinks = {
     },
     "Powerfully Powerless Tools": {
         "2023-02-08": "- [[Powerfully Powerless Tools]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 08 | 🇬🇧 [[Powerfully Powerless Tools]] <br/> 🇰🇷 [[강력하게 미약한 도구들]]       ...",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0208 | 🇬🇧 [[Powerfully Powerless Tools]] <br/> 🇰🇷 [[강력하게 미약한 도구들]]       ...",
         "Tools Must Vanish": "- [[Powerfully Powerless Tools]]"
     },
     "Interactive ML Models": {
@@ -4949,7 +4963,7 @@ export const backlinks = {
     },
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 06 | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]      ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0206 | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]      ..."
     },
     "하늘땅사람 업데이트 기록": {
         "2023-01-19": "- [[하늘땅사람 업데이트 기록]]",
@@ -4972,6 +4986,10 @@ export const backlinks = {
     },
     "Fix Your Posture": {
         "2022-12-27": "- [[Fix Your Posture]]"
+    },
+    "Tech Now Pay Later": {
+        "2023-02-17": "- [[Tech Now Pay Later]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0217 | 🇬🇧 [[Tech Now Pay Later]] <br/> 🇰🇷 [[기술 할부 결제]]       ..."
     },
     "Three Column Design": {
         "Horizontally Stacked Interface": "- [[Three Column Design]]: Discord-Like Interface.",
@@ -5171,7 +5189,7 @@ export const backlinks = {
         "Ghost 테마를 자동 배포하는 방법": "... 다행히도 Ghost 2.25.5부터 GitHub Actions를 이용해 다음과 같이 Ghost 테마 개발을 [[Automation|자동화]]할 수 있게 되었다.",
         "GitHub Actions": "... continuous integration and continuous delivery (CI/CD) platform that allows you to [[Automation|automate]] your build, test, and deployment pipeline. You can create workflows that ...",
         "Scheduler": "... management system (DRMS), distributed resource manager (DRM), and, commonly today, workload [[automation]] (WLA). The data structure of jobs to run is known as ...",
-        "서비스 시밍": "- Naver|네이버는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 매일 아침 찾아가며 뉴스를 배포할 권한을 ..."
+        "서비스 시밍": "- Naver|네이버는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 일일이 찾아가며 뉴스를 배포할 권한을 받아왔다."
     },
     "Plausible Analytics": {
         "Google Analytics": "- Alternative: Simple Analytics, [[Plausible Analytics]]"
