@@ -503,7 +503,7 @@ export const backlinks = {
     },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
-        "Tech Now Pay Later": "This approach is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you make it.  But what is ...",
+        "Tech Now Pay Later": "This approach is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you make it. But what is the ...",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0202 | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]]        ...",
         "서비스 시밍": "[[Service Shimming]]"
     },
@@ -584,7 +584,7 @@ export const backlinks = {
     },
     "The Engine Equation": {
         "2023-02-16": "- [[The Engine Equation]]",
-        "Tech Now Pay Later": "[[The Engine Equation]] comes handy here. ",
+        "Tech Now Pay Later": "[[The Engine Equation]] comes handy here.",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0216 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]        ..."
     },
     "How is WebAssembly cross-platform when Assembly is not": {
@@ -2358,7 +2358,7 @@ export const backlinks = {
     },
     "Time to Market": {
         "Service Shimming": "... engineering might not be as crucial as we developers think. Maybe [[Time to Market]] is more critical. Here are a few examples:",
-        "Tech Now Pay Later": "... by right now incurring a tech debt. This significantly reduces the [[Time to Market]], which is more important than brilliant engineering. Alas, your service must ...",
+        "Tech Now Pay Later": "... by incurring a tech debt right now. This significantly reduces the [[Time to Market]], which is more important than brilliant engineering. Alas, your service must ...",
         "기술 할부 결제": "이는 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 스타트업에서 완전무결한 엔지니어링보다 훨씬 중요하다."
     },
     "0973 K Closest Points to Origin": {
