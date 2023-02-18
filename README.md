@@ -18,10 +18,10 @@ Extracranial means **situated outside the cranium** in medical contexts. This is
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1227     34392     8779         0    25613          0
+Markdown                  1227     34396     8779         0    25617          0
 CSS                         68     20066      173        27    19866          0
 TypeScript                  53     10034      145        65     9824        143
-JSON                        42      2187        0         0     2187          0
+JSON                        42      2173        0         0     2173          0
 Python                       7       770       54        41      675        107
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -31,13 +31,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1421     94467     9632      5084    79751       1087
+Total                     1421     94457     9632      5084    79741       1087
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,681,749
+Estimated Cost to Develop (organic) $2,681,396
 Estimated Schedule Effort (organic) 20.01 months
 Estimated People Required (organic) 11.91
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6437060 bytes, 6.437 megabytes (SI)
+Processed 6436793 bytes, 6.437 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

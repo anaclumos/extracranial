@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "5b39a79ed52199d3",
+        "id": "80b510a0c1b53784",
         "type": "tabs",
         "children": [
           {
-            "id": "d50908ab98b8d120",
+            "id": "b2757fa6f9f87282",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-17.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d7a088fad3bffe19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+                "file": "pages/The Engine Equation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+                "file": "pages/The Engine Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md"
+                "file": "pages/The Engine Equation.md"
               }
             }
           },
@@ -159,17 +145,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d7a088fad3bffe19",
+  "active": "b2757fa6f9f87282",
   "lastOpenFiles": [
-    "journals/2023-02-17.md",
-    "pages/기술 할부 결제.md",
     "pages/Tech Now Pay Later.md",
-    "pages/서비스 시밍.md",
+    "journals/2023-02-17.md",
     "pages/엔진 방정식.md",
+    "journals/2023-02-16.md",
+    "pages/기술 할부 결제.md",
+    "pages/서비스 시밍.md",
     "pages/Time to Market.md",
     "pages/Service Shimming.md",
     "pages/The Engine Equation.md",
-    "pages/글감.md",
-    "pages/민사고와 쇼비니즘.md"
+    "pages/글감.md"
   ]
 }
