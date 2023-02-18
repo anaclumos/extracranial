@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/The Engine Equation.md",
-                "mode": "source",
+                "file": "pages/기술 할부 결제.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/The Engine Equation.md",
+                "file": "pages/기술 할부 결제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/The Engine Equation.md"
+                "file": "pages/기술 할부 결제.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "b2757fa6f9f87282",
   "lastOpenFiles": [
-    "pages/Tech Now Pay Later.md",
+    "journals/2023-02-18.md",
+    "pages/기술 할부 결제.md",
     "journals/2023-02-17.md",
+    "pages/The Engine Equation.md",
+    "pages/Tech Now Pay Later.md",
     "pages/엔진 방정식.md",
     "journals/2023-02-16.md",
-    "pages/기술 할부 결제.md",
     "pages/서비스 시밍.md",
     "pages/Time to Market.md",
-    "pages/Service Shimming.md",
-    "pages/The Engine Equation.md",
-    "pages/글감.md"
+    "pages/Service Shimming.md"
   ]
 }
