@@ -2359,7 +2359,7 @@ export const backlinks = {
     "Time to Market": {
         "Service Shimming": "... engineering might not be as crucial as we developers think. Maybe [[Time to Market]] is more critical. Here are a few examples:",
         "Tech Now Pay Later": "... by incurring a tech debt right now. This significantly reduces the [[Time to Market]], which is more important than brilliant engineering. Alas, your service must ...",
-        "기술 할부 결제": "이는 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 스타트업에서 완전무결한 엔지니어링보다 훨씬 중요하다."
+        "기술 할부 결제": "이는 서비스의 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 스타트업에서 완전무결한 엔지니어링보다 훨씬 중요하다."
     },
     "0973 K Closest Points to Origin": {
         "Coding Tests": "- [x] [[0973 K Closest Points to Origin]]"
