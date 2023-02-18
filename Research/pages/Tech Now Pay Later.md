@@ -11,7 +11,7 @@ $$
 \text{asset} = \text{equity} + \text{liability}
 $$
 
-Businesses intentionally create debts to boost liquidity. Similarly, you get a **functional code** right away by right now incurring a tech debt. This significantly reduces the [[Time to Market]], which is more important than brilliant engineering. Alas, your service must first **serve someone** for that elegant code to run!
+Businesses intentionally create debts to boost liquidity. Similarly, you get a **functional code** right away by incurring a tech debt right now. This significantly reduces the [[Time to Market]], which is more important than brilliant engineering. Alas, your service must first **serve someone** for that elegant code to run!
 
 $$
 \text{Engine} \Leftrightarrow f(\text{resource}, ~\text{time}) \to \text{utility}
