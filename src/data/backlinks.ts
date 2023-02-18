@@ -4021,6 +4021,7 @@ export const backlinks = {
         "2022-12-27": "- [[Apple-like Block Interface]]",
         "2023-02-01": "- [[Apple-like Block Interface]]",
         "2023-02-02": "- [[Apple-like Block Interface]]",
+        "2023-02-18": "- [[Apple-like Block Interface]]",
         "Aldehyde Landing Page 2023": "- [[Apple-like Block Interface]]"
     },
     "Toss Product Sans": {
@@ -5592,6 +5593,10 @@ export const backlinks = {
     "1A746C.png": {
         "The Era of Invites": "![[1A746C.png]]",
         "초대장의 시대": "![[1A746C.png]]"
+    },
+    "351A7A.png": {
+        "Aldehyde Landing Page 2023": "![[351A7A.png]]",
+        "Apple-like Block Interface": "![[351A7A.png]]"
     },
     "74CA20.png": {
         "Aldehyde Landing Page 2023": "![[74CA20.png]]",
