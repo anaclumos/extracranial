@@ -8,7 +8,7 @@ In thermodynamics, an engine is a machine that converts one or more forms of ene
 I would define an engine as a **mathematical equation** that takes in asset and time and turns it into utility.
 
 $$
-\text{Engine} \Leftrightarrow f(\text{asset}, ~\text{time}) \to \text{utility}
+\text{Engine} \Leftrightarrow f(\text{resource}, ~\text{time}) \to \text{utility}
 $$
 
 The engine consumes assets and time to convert them to something else "useful." Of course, this notion of usefulness is entirely subjective to the human race, just like how information is defined as "useful data." Some examples:
