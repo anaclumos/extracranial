@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a56e733968e1a1f0",
+        "id": "a2096ba14e51c31a",
         "type": "tabs",
         "children": [
           {
-            "id": "759766ab81204095",
+            "id": "bc7877566c902f98",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/GPU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/GPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/GPU.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,12 +136,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "759766ab81204095",
+  "active": "bc7877566c902f98",
   "lastOpenFiles": [
+    "pages/GPU.md",
     "pages/CPU.md",
     "pages/NPU.md",
     "pages/Imagining WebNPU API.md",
-    "pages/GPU.md",
     "journals/2023-02-18.md",
     "pages/WebNPU API를 상상하다.md",
     "pages/WebNPU.md",
