@@ -11,8 +11,13 @@
             "id": "bc7877566c902f98",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Bing Chat for All Browsers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Bing Chat for All Browsers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Bing Chat for All Browsers.md"
+              }
             }
           },
           {
@@ -138,15 +146,15 @@
   },
   "active": "bc7877566c902f98",
   "lastOpenFiles": [
+    "journals/2023-02-19.md",
+    "assets/971BA5.png",
+    "pages/Bing Chat for All Browsers.md",
     "pages/GPU.md",
     "pages/CPU.md",
     "pages/NPU.md",
     "pages/Imagining WebNPU API.md",
     "journals/2023-02-18.md",
     "pages/WebNPU API를 상상하다.md",
-    "pages/WebNPU.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/Write Once Run Everywhere.md",
-    "pages/WebGPU.md"
+    "pages/WebNPU.md"
   ]
 }

@@ -9,3 +9,7 @@ slug: '/E4C6F6'
 
 ![[675244.png]]
 ![[623CC4.png]]
+
+Unsure what happened, but it seems like a lot of 🇯🇵 people like my extension!
+
+![[971BA5.png]]
