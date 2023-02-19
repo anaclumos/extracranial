@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "80b510a0c1b53784",
+        "id": "a56e733968e1a1f0",
         "type": "tabs",
         "children": [
           {
-            "id": "3a4b4603f55c9706",
+            "id": "759766ab81204095",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Imagining WebNPU API.md",
+                "file": "pages/GPU.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0753eacc6ab5b518",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-18.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1e8f65870de6a498",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/WebNPU API를 상상하다.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/WebNPU API를 상상하다.md",
+                "file": "pages/GPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/WebNPU API를 상상하다.md"
+                "file": "pages/GPU.md"
               }
             }
           },
@@ -171,17 +144,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1e8f65870de6a498",
+  "active": "759766ab81204095",
   "lastOpenFiles": [
+    "pages/CPU.md",
     "pages/NPU.md",
-    "pages/WebNPU API를 상상하다.md",
-    "pages/Write Once Run Everywhere.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "journals/2023-02-18.md",
     "pages/Imagining WebNPU API.md",
-    "pages/WebGPU.md",
-    "pages/VP9 vs HEVC.md",
-    "pages/USDZ vs glTF.md",
-    "pages/glTF.md"
+    "pages/GPU.md",
+    "journals/2023-02-18.md",
+    "pages/WebNPU API를 상상하다.md",
+    "pages/WebNPU.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/Write Once Run Everywhere.md",
+    "pages/WebGPU.md"
   ]
 }

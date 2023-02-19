@@ -1087,7 +1087,7 @@ export const backlinks = {
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "Dioxus": "Use [[WebAssembly|WASM]]",
         "How is WebAssembly cross-platform when Assembly is not": "- [[WebAssembly]] is like [[Assembly]], except that",
-        "Imagining WebNPU API": "- [[WebAssembly]] unlocks the bare-metal power of [[CPU]]s.",
+        "Imagining WebNPU API": "-   [[WebAssembly]] unlocks the bare-metal power of [[CPU]]s.",
         "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
@@ -2586,16 +2586,16 @@ export const backlinks = {
         "Neural Engine": "... of NPU, which stands for Neural Processing Unit. It's like a [[GPU]], but instead of accelerating graphics, an NPU accelerates neural network operations ...",
         "Point-E": "... generation has shown promising results, the state-of-the-art methods typically require multiple [[GPU]] hours to produce a single sample. This contrasts with state-of-the-art generative ...",
         "Proposal of Research to Professor Cote": "... a minute to generate the complete text, even with the latest [[GPU]]. Therefore, for the system to scale, we will need a clever ...",
+        "VP9 vs HEVC": "... 4K videos on macOS Safari and iOS YouTube using this. Apple [[GPU]] also now supports VP9 decoding.",
         "Vertex Buffer": "- Graphics: How to pass instructions from CPU to [[GPU]].",
         "WebGPU": "- Use.[[GPU]] is a set of declarative, reactive WebGPU legos. Compose live graphs, ...",
-        "WebNPU API를 상상하다": "- WebGPU는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
+        "WebNPU API를 상상하다": "... 및 계산 작업 등을 처리하는 Direct3D 12, Metal, Vulkan과 같은 현대 [[GPU]] 기능에 접근할 수 있는 API이다."
     },
     "Clock skew detected": {
         "Internetworking": "- [[Clock skew detected]]"
     },
     "Write Once Run Everywhere": {
         "Dioxus": "[[Write Once Run Everywhere]]",
-        "Imagining WebNPU API": "... can also simplify the development process for developers, as they can [[Write Once Run Everywhere]].",
         "WebNPU API를 상상하다": "... 서비스를 출시하기 위해 추론 서버를 생성할 필요가 없다. WebNPU는 또한 개발자들이 [[Write Once Run Everywhere]]를 이루어주기 때문에 개발 프로세스를 단순화할 수 있다."
     },
     "Bayes Theorem": {
@@ -3195,7 +3195,7 @@ export const backlinks = {
     },
     "WebGPU": {
         "2022-09-09": "[[WebGPU]]",
-        "Imagining WebNPU API": "- [[WebGPU]] unlocks the bare-metal power of [[GPU]]s.",
+        "Imagining WebNPU API": "-   [[WebGPU]] unlocks the bare-metal power of [[GPU]]s.",
         "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]",
         "WebNPU API를 상상하다": "- [[WebGPU]]는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
     },
@@ -3314,9 +3314,6 @@ export const backlinks = {
     "Layoff": {
         "2023-01-13": "- [[Layoff]]"
     },
-    "Cloud-Native": {
-        "Imagining WebNPU API": "At one point in the future, when AI-native (just like us [[Cloud-Native]]s) become the norm, there will be more and more need for ..."
-    },
     "Page Size and Address Translations": {
         "2022-11-04": "- [[Page Size and Address Translations]]",
         "Computer Systems": "- [[Page Size and Address Translations]]",
@@ -3341,7 +3338,7 @@ export const backlinks = {
     },
     "USDZ vs glTF": {
         "2023-02-18": "- [[USDZ vs glTF]]",
-        "Imagining WebNPU API": "... battle between Apple and Google, just like VP9 vs HEVC or [[USDZ vs glTF]] battles.",
+        "Imagining WebNPU API": "... a battle between Apple and Google, just like VP9 vs HEVCor [[USDZ vs glTF]] battles.",
         "VP9 vs HEVC": "- Similar to [[USDZ vs glTF]]",
         "WebNPU API를 상상하다": "... 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 VP9 vs HEVC 또는 [[USDZ vs glTF]]의 싸움처럼 애플과 구글의 싸움을 다시 보게 될 것 같다."
     },
@@ -3571,7 +3568,7 @@ export const backlinks = {
         "SVG": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
         "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex ...",
         "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
-        "Vertex Buffer": "- [[Graphics]]: How to pass instructions from CPU to [[GPU]].",
+        "Vertex Buffer": "- [[Graphics]]: How to pass instructions from [[CPU]] to [[GPU]].",
         "Web Graphics": "- [[Graphics]] on Web",
         "glTF": "> glTF (derivative short form of [[Graphics]] Language Transmission Format or GL Transmission Format) is a standard file ..."
     },
@@ -4414,7 +4411,6 @@ export const backlinks = {
     "Neural Engine": {
         "CalliFontia": "- Apple [[Neural Engine]] 적극 활용, 기기 자체에서 폰트 추론하기",
         "Engine": "- [[Neural Engine]]",
-        "Imagining WebNPU API": "We are already observing blooming on-device inferencing ML technology with Apple's [[Neural Engine]]. This includes many jobs, from simple Siri commands to full-blown Stable ...",
         "NPU": "Neural Processing Units, such as the [[Neural Engine]].",
         "WebNPU API를 상상하다": "우리는 이미 애플의 [[Neural Engine]]으로 온디바이스 ML 기술의 시작을 관찰하고 있다. 여기에는 단순한 Siri 명령에서 완전한 ..."
     },
@@ -4558,7 +4554,7 @@ export const backlinks = {
         "Web Typography": "... fonts on the World Wide Web. When HTML was first created, [[font]] faces and styles were controlled exclusively by the settings of each ..."
     },
     "NPU": {
-        "Imagining WebNPU API": "... computations on the GPU. What if we could do this with [[NPU]]? I hereby suggest a hypothetical idea WebNPU. Think this way:",
+        "Imagining WebNPU API": "... more advanced GPU features. What if we could do this with [[NPU]]? I hereby suggest a hypothetical WebNPU API. Think this way:",
         "Neural Engine": "- The Apple Neural Engine (or ANE) is a type of [[NPU]], which stands for Neural Processing Unit. It's like a [[GPU]], but ...",
         "WebNPU API를 상상하다": "만약 이걸 [[NPU]]에도 똑같이 할 수 있다면 어떨까?"
     },
@@ -4733,7 +4729,7 @@ export const backlinks = {
     },
     "VP9 vs HEVC": {
         "2023-02-18": "- [[VP9 vs HEVC]]",
-        "Imagining WebNPU API": "... will again see a battle between Apple and Google, just like [[VP9 vs HEVC]] or [[USDZ vs glTF]] battles.",
+        "Imagining WebNPU API": "... will again see a battle between Apple and Google, just like [[VP9 vs HEVC]]or [[USDZ vs glTF]] battles.",
         "WebNPU API를 상상하다": "... ML 모델을 사용하는 반면 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 [[VP9 vs HEVC]] 또는 [[USDZ vs glTF]]의 싸움처럼 애플과 구글의 싸움을 다시 보게 될 ..."
     },
     "바이올린 켜면 바이올레이션": {
@@ -5133,12 +5129,16 @@ export const backlinks = {
         "2023-01-13": "- [[CPU]]",
         "How is WebAssembly cross-platform when Assembly is not": "...  - Does it pack multiple precompiled binary executables for multiple [[CPU]] vendors, like [[Apple]]'s Universal Binary?",
         "How to Build Software like an SRE": "- keep error logs, [[CPU]] usage, and request error rates",
-        "Imagining WebNPU API": "- WebAssembly unlocks the bare-metal power of [[CPU]]s.",
+        "Imagining WebNPU API": "-   WebAssembly unlocks the bare-metal power of [[CPU]]s.",
         "Meltdown": "Meltdown is one of the two original transient execution [[CPU]] vulnerabilities (the other being [[Spectre]]). Meltdown affects Intel x86 microprocessors, IBM ...",
         "Meltdown and Spectre": "- Spectre makes the [[CPU]] jump to the wrong place and runs instructions there to leak ...",
         "Preemptive Multitasking": "... which process should execute next. Therefore, all processes will get some [[CPU]] time at any given time. Preemption (computing)#PREEMPTIVE>)",
         "Principles of Inclusion": "- Higher level (closer to [[CPU]]) always contains a subset of lower level (closer to memory)",
+        "SIMD": "- Pushes many data into [[CPU]] channels in a parallel way",
         "Spectre": "Spectre refers to one of the two original transient execution [[CPU]] vulnerabilities ([[Meltdown]]), which involve microarchitectural timing side-channel attacks. These affect modern ...",
+        "VP9 vs HEVC": "... videos using Chrome on MacBooks, but the videos were decoded on [[CPU|CPUs]], using the [[CPU]] 400%.",
+        "Vertex Buffer": "- Graphics: How to pass instructions from [[CPU]] to [[GPU]].",
+        "Web Worker": "... same HTML page. Web workers are often able to utilize multi-core [[CPU|CPUs]] more effectively. Web worker",
         "WebNPU API를 상상하다": "- WebAssembly는 웹에서 [[CPU]]의 온전한 성능을 개방한다."
     },
     "HTML": {

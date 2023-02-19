@@ -1775,10 +1775,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:^4.20230214.0":
-  version: 4.20230214.0
-  resolution: "@cloudflare/workers-types@npm:4.20230214.0"
-  checksum: f0889b56cc0a28903b1e494f3f12ca578e3634acbb31a8192fd618ae545c91f420f7271424e220c6d94281ebb3ee6a4dcf221e921fa1536890c527c90d76bfbd
+"@cloudflare/workers-types@npm:^4.20230215.0":
+  version: 4.20230215.0
+  resolution: "@cloudflare/workers-types@npm:4.20230215.0"
+  checksum: a5589a36110ca2fd1bfbfe990d40a5eeba33d6a973b3e21dc64861daa1e994a975535f9663b2a226d5e82463deec6fbe8e68473d1e661e36142bc980355c2a72
   languageName: node
   linkType: hard
 
@@ -3909,10 +3909,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.13.0":
-  version: 18.13.0
-  resolution: "@types/node@npm:18.13.0"
-  checksum: 4ea10f8802848b01672bce938f678b6774ca2cee0c9774f12275ab064ae07818419c3e2e41d6257ce7ba846d1ea26c63214aa1dfa4166fa3746291752b8c6416
+"@types/node@npm:^18.14.0":
+  version: 18.14.0
+  resolution: "@types/node@npm:18.14.0"
+  checksum: d83fcf5e4ed544755dd9028f5cbb6b9d46235043159111bb2ad62223729aee581c0144a9f6df8ba73d74011db9ed4ebd7af2fd5e0996714e3beb508a5da8ac5c
   languageName: node
   linkType: hard
 
@@ -5595,7 +5595,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cho-sh@workspace:."
   dependencies:
-    "@cloudflare/workers-types": ^4.20230214.0
+    "@cloudflare/workers-types": ^4.20230215.0
     "@docusaurus/core": ^2.3.1
     "@docusaurus/module-type-aliases": ^2.3.1
     "@docusaurus/plugin-client-redirects": ^2.3.1
@@ -5609,7 +5609,7 @@ __metadata:
     "@swc/cli": ^0.1.62
     "@swc/core": ^1.3.35
     "@tsconfig/docusaurus": ^1.0.6
-    "@types/node": ^18.13.0
+    "@types/node": ^18.14.0
     "@typescript-eslint/eslint-plugin": ^5.52.0
     "@typescript-eslint/parser": ^5.52.0
     babel-eslint: ^10.1.0
