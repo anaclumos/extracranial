@@ -10,7 +10,7 @@ Extracranial means **situated outside the cranium** in medical contexts. This is
 엑스트라크래니얼은 의학에서 **두개(頭蓋) 외부**를 뜻하는 단어입니다. 여기는 제 백과사전(디지털 가든, 두번째 뇌)입니다. 제가 알고 있는 모든 것이 있어요! [토끼굴에 뛰어들어 보세요](https://cho.sh/random)!
 
 > **Note**<br/>
-> The Favicon image is Tossface's U+E109 (<img alt="Emoji of 'Palaces of Korea'" width="16px" src="https://raw.githubusercontent.com/anaclumos/extracranial/main/static/img/favicon.svg"/>) Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
+> The Favicon image is Tossface's U+E109 (<img alt="Emoji of 'Palaces of Korea'" width="24px" src="https://raw.githubusercontent.com/anaclumos/extracranial/main/static/img/favicon.svg"/>) Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
 
 ## Stats
 
