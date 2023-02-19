@@ -20,6 +20,7 @@ export interface Env {
 }
 
 export default {
+  // @ts-ignore
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     return new Response('Hello World!')
   },
