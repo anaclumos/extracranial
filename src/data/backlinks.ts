@@ -1087,7 +1087,7 @@ export const backlinks = {
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "Dioxus": "Use [[WebAssembly|WASM]]",
         "How is WebAssembly cross-platform when Assembly is not": "- [[WebAssembly]] is like [[Assembly]], except that",
-        "Imagining WebNPU API": "-   [[WebAssembly]] unlocks the bare-metal power of [[CPU]]s.",
+        "Imagining WebNPU API": "- [[WebAssembly]] unlocks the bare-metal power of [[CPU]]s.",
         "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
@@ -3195,7 +3195,7 @@ export const backlinks = {
     },
     "WebGPU": {
         "2022-09-09": "[[WebGPU]]",
-        "Imagining WebNPU API": "-   [[WebGPU]] unlocks the bare-metal power of [[GPU]]s.",
+        "Imagining WebNPU API": "- [[WebGPU]] unlocks the bare-metal power of [[GPU]]s.",
         "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]",
         "WebNPU API를 상상하다": "- [[WebGPU]]는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
     },
@@ -5129,7 +5129,7 @@ export const backlinks = {
         "2023-01-13": "- [[CPU]]",
         "How is WebAssembly cross-platform when Assembly is not": "...  - Does it pack multiple precompiled binary executables for multiple [[CPU]] vendors, like [[Apple]]'s Universal Binary?",
         "How to Build Software like an SRE": "- keep error logs, [[CPU]] usage, and request error rates",
-        "Imagining WebNPU API": "-   WebAssembly unlocks the bare-metal power of [[CPU]]s.",
+        "Imagining WebNPU API": "- WebAssembly unlocks the bare-metal power of [[CPU]]s.",
         "Meltdown": "Meltdown is one of the two original transient execution [[CPU]] vulnerabilities (the other being [[Spectre]]). Meltdown affects Intel x86 microprocessors, IBM ...",
         "Meltdown and Spectre": "- Spectre makes the [[CPU]] jump to the wrong place and runs instructions there to leak ...",
         "Preemptive Multitasking": "... which process should execute next. Therefore, all processes will get some [[CPU]] time at any given time. Preemption (computing)#PREEMPTIVE>)",
