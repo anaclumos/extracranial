@@ -14,11 +14,23 @@ type Props = {
   link?: string
 }
 
-const WidgetItem = ({ title, link = "https://github.com/anaclumos", description, image, icon, width = 1, gradientStart = '#FB5C74', gradientEnd = '#FA233D' }: Props): JSX.Element => {
+const WidgetItem = ({
+  title,
+  link = 'https://github.com/anaclumos',
+  description,
+  image,
+  icon,
+  width = 1,
+  gradientStart = '#FB5C74',
+  gradientEnd = '#FA233D',
+}: Props): JSX.Element => {
   return (
     <Link to={link} className={styles.link}>
-      <div className={clsx(styles.item, width === 2 && styles.wide)} style={{ background: `linear-gradient(160deg, ${gradientStart} 0%, ${gradientEnd} 100%)` }}>
-        <div className={styles.flex} >
+      <div
+        className={clsx(styles.item, width === 2 && styles.wide)}
+        style={{ background: `linear-gradient(160deg, ${gradientStart} 0%, ${gradientEnd} 100%)` }}
+      >
+        <div className={styles.flex}>
           <img className={styles.photo} src={image} alt={title} />
           <img className={styles.icon} src={icon} alt={title} />
         </div>
@@ -26,7 +38,7 @@ const WidgetItem = ({ title, link = "https://github.com/anaclumos", description,
           <h2 className={styles.title}>{title}</h2>
           <p className={styles.description}>{description}</p>
         </div>
-      </div >
+      </div>
     </Link>
   )
 }

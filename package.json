@@ -58,10 +58,10 @@
     "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230214.0",
+    "@cloudflare/workers-types": "^4.20230215.0",
     "@docusaurus/module-type-aliases": "^2.3.1",
     "@tsconfig/docusaurus": "^1.0.6",
-    "@types/node": "^18.13.0",
+    "@types/node": "^18.14.0",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "babel-eslint": "^10.1.0",
