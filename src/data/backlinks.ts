@@ -2713,6 +2713,7 @@ export const backlinks = {
         "2023-02-10": "- [[Bing Chat for All Browsers]]",
         "2023-02-11": "- [[Bing Chat for All Browsers]]",
         "2023-02-16": "Updated [[Bing Chat for All Browsers]] to 1.0.1!",
+        "2023-02-19": "- [[Bing Chat for All Browsers]]",
         "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
         "Search AI": "- [[Bing Chat for All Browsers]]"
     },
@@ -5518,6 +5519,10 @@ export const backlinks = {
     },
     "3AB4D2.png": {
         "2022-07-06": "![[3AB4D2.png]]"
+    },
+    "971BA5.png": {
+        "2023-02-19": "![[971BA5.png]]",
+        "Bing Chat for All Browsers": "![[971BA5.png]]"
     },
     "837555.jpg": {
         "2022-10-15": "![[837555.jpg]]",
