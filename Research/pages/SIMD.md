@@ -4,7 +4,7 @@ slug: '/CA6D6C'
 ---
 
 - Simple Instructions Multiple Data.
-- Pushes many data into CPU channels in a parallel way
+- Pushes many data into [[CPU]] channels in a parallel way
 
 import Admonition from '@theme/Admonition';
 

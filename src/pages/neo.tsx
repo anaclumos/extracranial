@@ -15,7 +15,9 @@ import profile from '../../static/img/profile.jpg'
 import { AppleMusicAttrribute, AppleMusicData } from '../AppleMusic/type'
 
 export const NowPlaying = async (): Promise<AppleMusicData> => {
-  const data = await fetch('https://raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json').then((res) => res.json())
+  const data = await fetch('https://raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json').then(
+    (res) => res.json()
+  )
   return data
 }
 
@@ -42,18 +44,97 @@ export default function Home(): JSX.Element {
     <Layout title={`${siteConfig.title}`} description={siteConfig.tagline}>
       <main className={styles.mainContainer}>
         <div className={styles.grid}>
-          <WidgetItem title="Sunghyun" description="Hey There!" image={profile} icon={githubIcon} gradientStart='#020304' gradientEnd='#010204' />
-          <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
-          <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
-          <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
-          <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
-          <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
-          <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
-          <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
-          <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
-          <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
-        </div >
-      </main >
-    </Layout >
+          <WidgetItem
+            title="Sunghyun"
+            description="Hey There!"
+            image={profile}
+            icon={githubIcon}
+            gradientStart="#020304"
+            gradientEnd="#010204"
+          />
+          <WidgetItem
+            title={song?.name}
+            description={song?.artistName}
+            image={imgSrc}
+            icon={musicIcon}
+            gradientStart="#FB5C74"
+            gradientEnd="#FA233D"
+            link={song?.url}
+          />
+          <WidgetItem
+            title={song?.name}
+            description={song?.artistName}
+            image={imgSrc}
+            icon={musicIcon}
+            gradientStart="#FB5C74"
+            gradientEnd="#FA233D"
+            link={song?.url}
+          />
+          <WidgetItem
+            title={song?.name}
+            description={song?.artistName}
+            image={imgSrc}
+            icon={musicIcon}
+            gradientStart="#FB5C74"
+            gradientEnd="#FA233D"
+            link={song?.url}
+          />
+          <WidgetItem
+            title={song?.name}
+            description={song?.artistName}
+            image={imgSrc}
+            icon={musicIcon}
+            gradientStart="#FB5C74"
+            gradientEnd="#FA233D"
+            link={song?.url}
+          />
+          <WidgetItem
+            title={song?.name}
+            description={song?.artistName}
+            image={imgSrc}
+            icon={musicIcon}
+            gradientStart="#FB5C74"
+            gradientEnd="#FA233D"
+            link={song?.url}
+          />
+          <WidgetItem
+            title={song?.name}
+            description={song?.artistName}
+            image={imgSrc}
+            icon={musicIcon}
+            gradientStart="#FB5C74"
+            gradientEnd="#FA233D"
+            link={song?.url}
+          />
+          <WidgetItem
+            title={song?.name}
+            description={song?.artistName}
+            image={imgSrc}
+            icon={musicIcon}
+            gradientStart="#FB5C74"
+            gradientEnd="#FA233D"
+            link={song?.url}
+          />
+          <WidgetItem
+            title={song?.name}
+            description={song?.artistName}
+            image={imgSrc}
+            icon={musicIcon}
+            gradientStart="#FB5C74"
+            gradientEnd="#FA233D"
+            link={song?.url}
+          />
+          <WidgetItem
+            title={song?.name}
+            description={song?.artistName}
+            image={imgSrc}
+            icon={musicIcon}
+            gradientStart="#FB5C74"
+            gradientEnd="#FA233D"
+            link={song?.url}
+          />
+        </div>
+      </main>
+    </Layout>
   )
 }

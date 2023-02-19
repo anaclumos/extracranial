@@ -24,7 +24,7 @@ slug: '/18728A'
 | [0215](../journals/2023-02-15.md) | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] | [Tweet](https://twitter.com/anaclumos/status/1626032333387354112) |
 | [0216](../journals/2023-02-16.md) | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]                                               | [Tweet](https://twitter.com/anaclumos/status/1626357891006619648) |
 | [0217](../journals/2023-02-17.md) | 🇬🇧 [[Tech Now Pay Later]] <br/> 🇰🇷 [[기술 할부 결제]]                                             | [Tweet](https://twitter.com/anaclumos/status/1626765287814225920) |
-| [0218](../journals/2023-02-18.md) | 🇬🇧 [[Imagining WebNPU API]] <br/> 🇰🇷 [[WebNPU API를 상상하다]]                                    |                                                                   |
+| [0218](../journals/2023-02-18.md) | 🇬🇧 [[Imagining WebNPU API]] <br/> 🇰🇷 [[WebNPU API를 상상하다]]                                    | [Tweet](https://twitter.com/anaclumos/status/1627161630080659460) |
 
 ## Announcement
 
