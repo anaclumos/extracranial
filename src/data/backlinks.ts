@@ -430,6 +430,7 @@ export const backlinks = {
         "2022-12-02": "- [[ChatGPT]]",
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "2023-02-02": "- [[ChatGPT]]",
+        "AI-native": "Especially with the emergence of [[ChatGPT]].",
         "Bing": "... real questions, and get complete answers). The same OpenAI technology behind [[ChatGPT]] powers this feature.",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
@@ -1086,6 +1087,7 @@ export const backlinks = {
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "Dioxus": "Use [[WebAssembly|WASM]]",
         "How is WebAssembly cross-platform when Assembly is not": "- [[WebAssembly]] is like [[Assembly]], except that",
+        "Imagining WebNPU API": "- [[WebAssembly]] unlocks the bare-metal power of [[CPU]]s.",
         "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
@@ -1093,7 +1095,8 @@ export const backlinks = {
         "WasmEdge": "WasmEdge: Edge for [[WebAssembly]]",
         "Web Graphics": "- Usually uses WebGPU and [[WebAssembly|WASM]]",
         "WebAssembly": "We can convert this C code into [[WebAssembly]] with a build tool called Emscripten.",
-        "WebGPU": "- It's a stand-alone TypeScript+Rust/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ..."
+        "WebGPU": "- It's a stand-alone TypeScript+Rust/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
+        "WebNPU API를 상상하다": "- [[WebAssembly]]는 웹에서 [[CPU]]의 온전한 성능을 개방한다."
     },
     "Now Runs On": {
         "2022-11-20": "- [[Now Runs On]]"
@@ -1176,9 +1179,13 @@ export const backlinks = {
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly (HTML/[[CSS]])",
         "Tailwind": "... Rapidly build modern websites without ever leaving your HTML. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, and rotate-90 that ..."
     },
+    "Microservices Architecture": {
+        "Cloud-Native": "... as AWS, instead of traditional on-premise infrastructure. They are comfortable building [[Microservices Architecture]], containerization, and automation using tools like Kubernetes, Docker, and Terraform."
+    },
     "USDZ": {
         "3D": "- [[USDZ]] for [[Apple]]",
-        "Things (3D)": "> Nice. What's the edge on Things over glTF and [[USDZ]]?<br/>"
+        "Things (3D)": "> Nice. What's the edge on Things over glTF and [[USDZ]]?<br/>",
+        "USDZ vs glTF": "[[USDZ]] and [[glTF]] are two 3D file formats used for different purposes. ..."
     },
     "Chromium": {
         "2023-01-13": "- [[Chromium]]",
@@ -1560,9 +1567,6 @@ export const backlinks = {
     "Packet Loss": {
         "Internetworking": "- [[Packet Loss]]",
         "Packet Switching vs Circuit Switching": "- Packet Switching can have [[Packet Loss]] (Some clients can leave if the restaurant is full)"
-    },
-    "WebNPU": {
-        "2023-02-14": "- [[WebNPU]]"
     },
     "Thesephist Work Case Study": {
         "2022-12-04": "- [[Thesephist Work Case Study]]"
@@ -1950,6 +1954,10 @@ export const backlinks = {
         "2022-10-29": "- Matt Rickard: Ethereum RPC as a Service, [[Is AWS a Dumb Pipe]]",
         "Matt Rickard": "- [[Is AWS a Dumb Pipe]]"
     },
+    "WebNPU API를 상상하다": {
+        "2023-02-18": "- [[WebNPU API를 상상하다]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0218 | 🇬🇧 Imagining WebNPU API <br/> 🇰🇷 [[WebNPU API를 상상하다]]            ..."
+    },
     "Frames Per Second": {
         "2022-10-10": "... 23.976 and not 24 fps?? - AC's & DIT's - Cinematography.com. [[Frames Per Second]].",
         "Graphics Engine Process": "...   - Limit Updating Frequency to 16ms, which yields 60 [[Frames Per Second]]."
@@ -2189,6 +2197,11 @@ export const backlinks = {
         "2022-08-04": "### [[CELLO (Product)]]",
         "CELLO": "- [[CELLO (Product)]]"
     },
+    "Imagining WebNPU API": {
+        "2023-02-14": "- [[Imagining WebNPU API]]",
+        "2023-02-18": "- [[Imagining WebNPU API]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0218 | 🇬🇧 [[Imagining WebNPU API]] <br/> 🇰🇷 [[WebNPU API를 상상하다]]       ..."
+    },
     "Wikipedia": {
         "2022-06-12": "- Current PKM software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays a crucial role in graphing. ...",
         "2022-07-01": "...        | Notes are in [[Wikipedia]] Style           ...",
@@ -2357,6 +2370,7 @@ export const backlinks = {
         "2023-01-26": "- [[한민족은 해적되었다]]"
     },
     "Time to Market": {
+        "AI-native": "An AI-native approach's benefits include faster [[Time to Market]], increased scalability and availability, and improved cost-effectiveness. However, it also requires ...",
         "Service Shimming": "... engineering might not be as crucial as we developers think. Maybe [[Time to Market]] is more critical. Here are a few examples:",
         "Tech Now Pay Later": "... by incurring a tech debt right now. This significantly reduces the [[Time to Market]], which is more important than brilliant engineering. Alas, your service must ...",
         "기술 할부 결제": "이는 서비스의 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 스타트업에서 완전무결한 엔지니어링보다 훨씬 중요하다."
@@ -2566,11 +2580,23 @@ export const backlinks = {
         "Tossface": "- Emoji Font by [[Toss]]",
         "유난한 도전": "[[Toss|토스]]는 더이상 장기자랑에 나가는 초등학생일 수 없었다."
     },
+    "GPU": {
+        "Effective Accelerationism": "... 줄이지 않고 있어요. 당신은 이것을 피하기 위해 경제를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 온라인으로 해결해야 합니다.",
+        "Imagining WebNPU API": "... developed web interface that provides access to modern graphics processing unit ([[GPU]]) capabilities, such as Direct3D 12, Metal, and Vulkan, for rendering and ...",
+        "Neural Engine": "... of NPU, which stands for Neural Processing Unit. It's like a [[GPU]], but instead of accelerating graphics, an NPU accelerates neural network operations ...",
+        "Point-E": "... generation has shown promising results, the state-of-the-art methods typically require multiple [[GPU]] hours to produce a single sample. This contrasts with state-of-the-art generative ...",
+        "Proposal of Research to Professor Cote": "... a minute to generate the complete text, even with the latest [[GPU]]. Therefore, for the system to scale, we will need a clever ...",
+        "Vertex Buffer": "- Graphics: How to pass instructions from CPU to [[GPU]].",
+        "WebGPU": "- Use.[[GPU]] is a set of declarative, reactive WebGPU legos. Compose live graphs, ...",
+        "WebNPU API를 상상하다": "- WebGPU는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
+    },
     "Clock skew detected": {
         "Internetworking": "- [[Clock skew detected]]"
     },
     "Write Once Run Everywhere": {
-        "Dioxus": "[[Write Once Run Everywhere]]"
+        "Dioxus": "[[Write Once Run Everywhere]]",
+        "Imagining WebNPU API": "... can also simplify the development process for developers, as they can [[Write Once Run Everywhere]].",
+        "WebNPU API를 상상하다": "... 서비스를 출시하기 위해 추론 서버를 생성할 필요가 없다. WebNPU는 또한 개발자들이 [[Write Once Run Everywhere]]를 이루어주기 때문에 개발 프로세스를 단순화할 수 있다."
     },
     "Bayes Theorem": {
         "2023-01-23": "- [[Bayes Theorem]]",
@@ -2908,6 +2934,9 @@ export const backlinks = {
     "Dumbest Person in the Room": {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
     },
+    "AI-native": {
+        "Cloud-Native": "I am cloud-native, but not [[AI-native]]."
+    },
     "Self Driving": {
         "2023-01-13": "- [[Self Driving]]",
         "Self Driving": "- He was driving V-1 on I-80 eastbound in Full [[Self Driving]] Mode Beta Version traveling at approximately 55 miles per hour…When V-1 ..."
@@ -3166,7 +3195,9 @@ export const backlinks = {
     },
     "WebGPU": {
         "2022-09-09": "[[WebGPU]]",
-        "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]"
+        "Imagining WebNPU API": "- [[WebGPU]] unlocks the bare-metal power of [[GPU]]s.",
+        "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]",
+        "WebNPU API를 상상하다": "- [[WebGPU]]는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
     },
     "Cross-Origin Embedder Policy": {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Embedder Policy]]: `require-corp`"
@@ -3283,6 +3314,9 @@ export const backlinks = {
     "Layoff": {
         "2023-01-13": "- [[Layoff]]"
     },
+    "Cloud-Native": {
+        "Imagining WebNPU API": "At one point in the future, when AI-native (just like us [[Cloud-Native]]s) become the norm, there will be more and more need for ..."
+    },
     "Page Size and Address Translations": {
         "2022-11-04": "- [[Page Size and Address Translations]]",
         "Computer Systems": "- [[Page Size and Address Translations]]",
@@ -3304,6 +3338,12 @@ export const backlinks = {
     },
     "Project Core ML Inference": {
         "2023-01-30": "- [[Project Core ML Inference]]"
+    },
+    "USDZ vs glTF": {
+        "2023-02-18": "- [[USDZ vs glTF]]",
+        "Imagining WebNPU API": "... battle between Apple and Google, just like VP9 vs HEVC or [[USDZ vs glTF]] battles.",
+        "VP9 vs HEVC": "- Similar to [[USDZ vs glTF]]",
+        "WebNPU API를 상상하다": "... 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 VP9 vs HEVC 또는 [[USDZ vs glTF]]의 싸움처럼 애플과 구글의 싸움을 다시 보게 될 것 같다."
     },
     "DoS": {
         "Internetworking": "- [[DoS]]"
@@ -3531,7 +3571,7 @@ export const backlinks = {
         "SVG": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
         "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex ...",
         "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
-        "Vertex Buffer": "- [[Graphics]]: How to pass instructions from CPU to GPU.",
+        "Vertex Buffer": "- [[Graphics]]: How to pass instructions from CPU to [[GPU]].",
         "Web Graphics": "- [[Graphics]] on Web",
         "glTF": "> glTF (derivative short form of [[Graphics]] Language Transmission Format or GL Transmission Format) is a standard file ..."
     },
@@ -4215,7 +4255,8 @@ export const backlinks = {
     },
     "glTF": {
         "3D": "- [[glTF]] for [[Android]]",
-        "Things (3D)": "> Nice. What's the edge on Things over [[glTF]] and [[USDZ]]?<br/>"
+        "Things (3D)": "> Nice. What's the edge on Things over [[glTF]] and [[USDZ]]?<br/>",
+        "USDZ vs glTF": "USDZ and [[glTF]] are two 3D file formats used for different purposes. USDZ is ..."
     },
     "GitHub Package Manager": {
         "Matt Rickard": "- [[GitHub Package Manager]]"
@@ -4372,7 +4413,10 @@ export const backlinks = {
     },
     "Neural Engine": {
         "CalliFontia": "- Apple [[Neural Engine]] 적극 활용, 기기 자체에서 폰트 추론하기",
-        "Engine": "- [[Neural Engine]]"
+        "Engine": "- [[Neural Engine]]",
+        "Imagining WebNPU API": "We are already observing blooming on-device inferencing ML technology with Apple's [[Neural Engine]]. This includes many jobs, from simple Siri commands to full-blown Stable ...",
+        "NPU": "Neural Processing Units, such as the [[Neural Engine]].",
+        "WebNPU API를 상상하다": "우리는 이미 애플의 [[Neural Engine]]으로 온디바이스 ML 기술의 시작을 관찰하고 있다. 여기에는 단순한 Siri 명령에서 완전한 ..."
     },
     "designOS": {
         "Diagram (Company)": "- Creator of [[designOS]]"
@@ -4478,7 +4522,8 @@ export const backlinks = {
         "2023-02-14": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-15": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-16": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-17": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-17": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-18": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -4511,6 +4556,11 @@ export const backlinks = {
         "Toss Product Sans": "- [[Font]] by [[Toss]].",
         "Tossface": "- Emoji [[Font]] by [[Toss]]",
         "Web Typography": "... fonts on the World Wide Web. When HTML was first created, [[font]] faces and styles were controlled exclusively by the settings of each ..."
+    },
+    "NPU": {
+        "Imagining WebNPU API": "... computations on the GPU. What if we could do this with [[NPU]]? I hereby suggest a hypothetical idea WebNPU. Think this way:",
+        "Neural Engine": "- The Apple Neural Engine (or ANE) is a type of [[NPU]], which stands for Neural Processing Unit. It's like a [[GPU]], but ...",
+        "WebNPU API를 상상하다": "만약 이걸 [[NPU]]에도 똑같이 할 수 있다면 어떨까?"
     },
     "Small yet Powerful": {
         "10x": "- [[Small yet Powerful]]",
@@ -4680,6 +4730,11 @@ export const backlinks = {
         "0704 Binary Search": "- [[Binary Search]]",
         "2022-09-05": "- [[Binary Search]]",
         "Real Exams": "- 1 binary tree construction & [[Binary Search]] traversal"
+    },
+    "VP9 vs HEVC": {
+        "2023-02-18": "- [[VP9 vs HEVC]]",
+        "Imagining WebNPU API": "... will again see a battle between Apple and Google, just like [[VP9 vs HEVC]] or [[USDZ vs glTF]] battles.",
+        "WebNPU API를 상상하다": "... ML 모델을 사용하는 반면 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 [[VP9 vs HEVC]] 또는 [[USDZ vs glTF]]의 싸움처럼 애플과 구글의 싸움을 다시 보게 될 ..."
     },
     "바이올린 켜면 바이올레이션": {
         "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
@@ -5078,11 +5133,13 @@ export const backlinks = {
         "2023-01-13": "- [[CPU]]",
         "How is WebAssembly cross-platform when Assembly is not": "...  - Does it pack multiple precompiled binary executables for multiple [[CPU]] vendors, like [[Apple]]'s Universal Binary?",
         "How to Build Software like an SRE": "- keep error logs, [[CPU]] usage, and request error rates",
+        "Imagining WebNPU API": "- WebAssembly unlocks the bare-metal power of [[CPU]]s.",
         "Meltdown": "Meltdown is one of the two original transient execution [[CPU]] vulnerabilities (the other being [[Spectre]]). Meltdown affects Intel x86 microprocessors, IBM ...",
         "Meltdown and Spectre": "- Spectre makes the [[CPU]] jump to the wrong place and runs instructions there to leak ...",
         "Preemptive Multitasking": "... which process should execute next. Therefore, all processes will get some [[CPU]] time at any given time. Preemption (computing)#PREEMPTIVE>)",
         "Principles of Inclusion": "- Higher level (closer to [[CPU]]) always contains a subset of lower level (closer to memory)",
-        "Spectre": "Spectre refers to one of the two original transient execution [[CPU]] vulnerabilities ([[Meltdown]]), which involve microarchitectural timing side-channel attacks. These affect modern ..."
+        "Spectre": "Spectre refers to one of the two original transient execution [[CPU]] vulnerabilities ([[Meltdown]]), which involve microarchitectural timing side-channel attacks. These affect modern ...",
+        "WebNPU API를 상상하다": "- WebAssembly는 웹에서 [[CPU]]의 온전한 성능을 개방한다."
     },
     "HTML": {
         "2022-06-12": "... rehydration is a technique in which client-side JavaScript converts a static [[HTML]] web page, delivered either through static hosting or server-side rendering, into ...",

@@ -8,7 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2757fa6f9f87282",
+            "id": "3a4b4603f55c9706",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Imagining WebNPU API.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0753eacc6ab5b518",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,20 +34,20 @@
             }
           },
           {
-            "id": "8f0f97527680db16",
+            "id": "1e8f65870de6a498",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-18.md",
-                "mode": "source",
+                "file": "pages/WebNPU API를 상상하다.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-02-18.md",
+                "file": "pages/WebNPU API를 상상하다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-02-18.md"
+                "file": "pages/WebNPU API를 상상하다.md"
               }
             }
           },
@@ -159,17 +171,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8f0f97527680db16",
+  "active": "1e8f65870de6a498",
   "lastOpenFiles": [
-    "pages/Aldehyde Landing Page 2023.md",
-    "pages/Aldehyde.md",
+    "pages/NPU.md",
+    "pages/WebNPU API를 상상하다.md",
+    "pages/Write Once Run Everywhere.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "journals/2023-02-18.md",
-    "pages/Apple-like Block Interface.md",
-    "pages/Ghost 테마를 자동 배포하는 방법.md",
-    "pages/기술 할부 결제.md",
-    "journals/2023-02-17.md",
-    "pages/The Engine Equation.md",
-    "pages/Tech Now Pay Later.md",
-    "pages/엔진 방정식.md"
+    "pages/Imagining WebNPU API.md",
+    "pages/WebGPU.md",
+    "pages/VP9 vs HEVC.md",
+    "pages/USDZ vs glTF.md",
+    "pages/glTF.md"
   ]
 }

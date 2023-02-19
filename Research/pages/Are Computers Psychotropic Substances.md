@@ -19,8 +19,6 @@ This is called designing dependencies.
 Services use several psychological strategies to increase their revenues.
 Examples include likes/comments, viral contents, infinite scrollings, autoplays, and personalized feeds.
 [Potential's "Attention Setting" Proposal](https://attentionsettings.com/) suggests potential solutions to these problems for the platform operators.
-So, what can the you do?
-First of all, don't use these services on your phone.
 The phone is so accessible and the program can't be modified, making you use the service the way the service provider wants you to.
 If you use these services on your computer, actively use extension programs to control invasive addiction manipulations.
 
