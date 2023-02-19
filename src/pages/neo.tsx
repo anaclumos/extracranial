@@ -42,7 +42,7 @@ export default function Home(): JSX.Element {
     <Layout title={`${siteConfig.title}`} description={siteConfig.tagline}>
       <main className={styles.mainContainer}>
         <div className={styles.grid}>
-          <WidgetItem title="Sunghyun" description="Hello" image={profile} icon={githubIcon} gradientStart='#020304' gradientEnd='#010204' />
+          <WidgetItem title="Sunghyun" description="Hey There!" image={profile} icon={githubIcon} gradientStart='#020304' gradientEnd='#010204' />
           <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
           <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
           <WidgetItem title={song?.name} description={song?.artistName} image={imgSrc} icon={musicIcon} gradientStart='#FB5C74' gradientEnd='#FA233D' link={song?.url} />
