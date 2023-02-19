@@ -14,5 +14,5 @@
   "newFileFolderPath": "pages",
   "tabSize": 4,
   "alwaysUpdateLinks": true,
-  "readableLineLength": false
+  "readableLineLength": true
 }

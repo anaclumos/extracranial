@@ -24,10 +24,11 @@ aliases: ['효과적 가속주의']
 2. 기술과 시장의 힘(기술적 자본주의)은 힘과 능력이 더더욱 강해지고 있다.
 3. 이는 멈출 수 없다.
 
-<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">
-저는 이 모든 것에 대해 약간 걱정이 되고, 다른 사람들도 왜 그러는지 이해할 수 있습니다.<br/><br/>
-하지만 기차가 속도를 줄이지 않고 있어요. 당신은 이것을 피하기 위해 경제를 재설계할 수 없습니다. GPU를 없앨 수 없습니다. 모든 문제는 온라인으로 해결해야 합니다.<br/>
-</p>&mdash; bayeslord (@bayeslord) <a href="https://twitter.com/bayeslord/status/1531424790224855040?ref_src=twsrc%5Etfw">May 30, 2022</a></blockquote>
+> 저는 이 모든 것에 대해 약간 걱정이 되고, 다른 사람들도 왜 그러는지 이해할 수 있습니다.
+>
+> 하지만 기차가 속도를 줄이지 않고 있어요. 당신은 이것을 피하기 위해 경제를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 온라인으로 해결해야 합니다.
+>
+> — bayeslord (@bayeslord) [May 30, 2022](https://twitter.com/bayeslord/status/1531424790224855040?ref_src=twsrc%5Etfw)
 
 4. 기술적 자본은 우리를 의식의 다음 진화로 인도할 수 있다. 이는 상상할 수 없는 차세대 생명체 (Unthinkable next-generation lifeforms) 및 컴퓨터 상의 의식(Silicon-based awareness)의 창조를 포함한다.
 5. 새로운 형태의 의식은 본질적으로 지각(Sentience)을 더 다양하고 견고하게 만들 것이다. 우리는 이를 원한다.
