@@ -131,6 +131,9 @@ export const backlinks = {
         "Safari is the new Internet Explorer": "  - At least [[2022-12-28]] now they do: Sending web push notifications in Safari and other ...",
         "하늘땅사람 개발 기록": "## [[2022-12-28]]"
     },
+    "2023-02-20": {
+        "기술 발전의 속도": "[[2023-02-20]]에 작성한 에세이"
+    },
     "2022-11-22": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-22]] 과제의 홍수"
     },
@@ -442,6 +445,7 @@ export const backlinks = {
         "Synthote": "- [[ChatGPT]]",
         "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
         "The Era of Invites": "... an invitation system will never reach your attention. For example, did [[ChatGPT]] require an invite? Nope.",
+        "기술 발전의 속도": "그런데 고작 3개월도 되지 않아 [[ChatGPT]]가 등장하며... 모든 것을 뒤바꾸어 놓았다. 역사는 갈수록 빠르게 흐르는가? 기술적 특이점은 ...",
         "초대장의 시대": "... 가진 스타트업이 성공하지 못하면 우리의 관심에 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
     },
     "Optimistic Nihilist": {
@@ -3655,7 +3659,8 @@ export const backlinks = {
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
-        "Real Interviews": "- Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])"
+        "Real Interviews": "- Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
+        "기술 발전의 속도": "그래서 [[Grammarly]] 등의 텍스트 인공지능 회사에 열심히 지원했고."
     },
     "SHAP": {
         "2022-12-24": "- [[SHAP]]"
@@ -4422,7 +4427,8 @@ export const backlinks = {
         "Screenshot as an API": "...  - (encoder) diffusion-based models like Stable Diffusion and DALL-E (text-to-image) [[Prompt Engineering]]",
         "Search in a Latent Space": "- Maybe it's another name for [[Prompt Engineering]]",
         "Synthography": "- Needs [[Prompt Engineering]]",
-        "Synthote": "- Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?"
+        "Synthote": "- Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?",
+        "기술 발전의 속도": "... AI만 있었을 뿐이다. Stable Diffusion이나, DALL-E 같은... 그마저도 엄청난 대격변이었기 때문에 [[Prompt Engineering]]이라는 새로운 분야가 각광 받으며 인공지능에게 원하는 것을 정확하게 설명할 수 있는 ..."
     },
     "Ethereum RPC as a Service": {
         "2022-10-29": "- Matt Rickard: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
@@ -4478,7 +4484,8 @@ export const backlinks = {
     "Photoshop for Text": {
         "Letter to Mr. Stephan Ango on 2022-10-19": "I recently came across your article on [[Photoshop for Text]] and was deeply inspired by it.",
         "Project Core ML Foundation": "- [[Photoshop for Text]]",
-        "Synthote": "- [[Photoshop for Text]]"
+        "Synthote": "- [[Photoshop for Text]]",
+        "기술 발전의 속도": "당시에도 나는 [[Photoshop for Text]]를 상상하며 언젠가 미래에 도래할 텍스트 인공지능의 미래를 상상하며 점차 인공지능을 꿈꾸고 ..."
     },
     "Nuclear Fission": {
         "2022-10-18": "- [[Nuclear Fission]]"
@@ -4736,6 +4743,9 @@ export const backlinks = {
     "Locking your Mac with Command+L": {
         "2022-11-19": "  - [[Locking your Mac with Command+L]]",
         "Mac을 Command+L로 잠그는 방법": "- [[Locking your Mac with Command+L]]"
+    },
+    "기술 발전의 속도": {
+        "2023-02-20": "- [[기술 발전의 속도]]"
     },
     "CODE Procedure": {
         "2022-07-01": "I like the [[CODE Procedure]] in [[PARA]] architecture as a [[project]] management system, which does more ...",
@@ -6502,6 +6512,66 @@ export const backlinks = {
     },
     "FED5B0.png": {
         "The Demise of Chatbots in 2017": "![[FED5B0.png]]"
+    },
+    "76B360.png": {
+        "기술 발전의 속도": "![[76B360.png]]"
+    },
+    "A9AA12.png": {
+        "기술 발전의 속도": "![[A9AA12.png]]"
+    },
+    "BEF88B.png": {
+        "기술 발전의 속도": "![[BEF88B.png]]"
+    },
+    "D65051.png": {
+        "기술 발전의 속도": "![[D65051.png]]"
+    },
+    "B6676B.png": {
+        "기술 발전의 속도": "![[B6676B.png]]"
+    },
+    "83C5B9.png": {
+        "기술 발전의 속도": "![[83C5B9.png]]"
+    },
+    "C7A3F1.png": {
+        "기술 발전의 속도": "![[C7A3F1.png]]"
+    },
+    "AE867F.png": {
+        "기술 발전의 속도": "![[AE867F.png]]"
+    },
+    "E6D4FC.png": {
+        "기술 발전의 속도": "![[E6D4FC.png]]"
+    },
+    "4A56DD.png": {
+        "기술 발전의 속도": "![[4A56DD.png]]"
+    },
+    "BA9820.png": {
+        "기술 발전의 속도": "![[BA9820.png]]"
+    },
+    "27155E.png": {
+        "기술 발전의 속도": "![[27155E.png]]"
+    },
+    "D9F9E6.png": {
+        "기술 발전의 속도": "![[D9F9E6.png]]"
+    },
+    "5D8752.png": {
+        "기술 발전의 속도": "![[5D8752.png]]"
+    },
+    "BB4FE4.png": {
+        "기술 발전의 속도": "![[BB4FE4.png]]"
+    },
+    "70401B.png": {
+        "기술 발전의 속도": "![[70401B.png]]"
+    },
+    "72C3AE.png": {
+        "기술 발전의 속도": "![[72C3AE.png]]"
+    },
+    "34EEA3.png": {
+        "기술 발전의 속도": "![[34EEA3.png]]"
+    },
+    "1675E2.png": {
+        "기술 발전의 속도": "![[1675E2.png]]"
+    },
+    "DF32FA.png": {
+        "기술 발전의 속도": "![[DF32FA.png]]"
     },
     "E01067.png": {
         "React Email": "![[E01067.png]]"

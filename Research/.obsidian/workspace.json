@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/심리역사학.md",
+                "file": "journals/2023-02-20.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/심리역사학.md",
+                "file": "journals/2023-02-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/심리역사학.md"
+                "file": "journals/2023-02-20.md"
               }
             }
           },
@@ -161,15 +161,15 @@
   },
   "active": "f41c26cd4dc917cb",
   "lastOpenFiles": [
+    "pages/기술 발전의 속도.md",
+    "pages/ChatGPT.md",
+    "pages/Photoshop for Text.md",
+    "pages/Prompt Engineering.md",
+    "pages/Stable Diffusion.md",
+    "journals/2023-02-20.md",
+    "pages/심리역사학.md",
     "journals/2023-02-19.md",
     "pages/Knoah AI.md",
-    "pages/0141 Linked List Cycle.md",
-    "pages/Watchings.md",
-    "pages/Readings.md",
-    "pages/글감.md",
-    "pages/심리역사학.md",
-    "pages/Psychohistory.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/Cut the Fat.md"
+    "pages/0141 Linked List Cycle.md"
   ]
 }
