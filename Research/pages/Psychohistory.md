@@ -4,7 +4,6 @@ slug: '/B1CDB5'
 ---
 
 In Isaac Asimov's Foundation series, Hari Seldon, a mathematician, predicts that the mighty Galactic Empire, which ruled the galaxy for thousands of years, is on the verge of collapse and that the ensuing chaos will lead to a dark age lasting 30,000 years. However, Seldon also finds that "a carefully designed nudge can change that path". Therefore, Seldon plans to create a "Foundation" that will preserve human knowledge and culture through the dark age and eventually pave the way for a new era of enlightenment. The core concept of such Seldon Plan is Psychohistory: a mathematical and scientific approach to predicting the behavior of large populations of people over time.
-
 Before Hari Seldon, a group of mathematicians and scientists developed the psychohistory concept but failed due to individual human beings' unpredictable and chaotic nature. Hari Seldon developed a new approach to psychohistory: we can eradicate the chaoticity with certain preconditions:
 
 1. **Large populations**: Psychohistory assumes that it can only make accurate predictions about large populations of people. The larger the population, the more accurate the forecast.
