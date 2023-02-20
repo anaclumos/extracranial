@@ -1754,7 +1754,8 @@ export const backlinks = {
         "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
     },
     "Psychohistory": {
-        "2023-02-19": "- [[Psychohistory]]"
+        "2023-02-19": "- [[Psychohistory]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0219 | 🇬🇧 [[Psychohistory]] <br/> 🇰🇷 [[심리역사학]]         ..."
     },
     "민사고": {
         "2023-01-12": "- [[민사고]]",
@@ -2957,7 +2958,8 @@ export const backlinks = {
         "2022-09-12": "- [[Ticket Bounty Model]]"
     },
     "심리역사학": {
-        "2023-02-19": "- [[심리역사학]]"
+        "2023-02-19": "- [[심리역사학]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0219 | 🇬🇧 Psychohistory <br/> 🇰🇷 [[심리역사학]]            ..."
     },
     "데이터베이스권": {
         "2023-02-13": "- [[데이터베이스권]]"
@@ -4533,7 +4535,8 @@ export const backlinks = {
         "2023-02-15": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-16": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-17": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-18": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-18": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-19": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
