@@ -25,6 +25,7 @@ slug: '/18728A'
 | [0216](../journals/2023-02-16.md) | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]                                               | [Tweet](https://twitter.com/anaclumos/status/1626357891006619648) |
 | [0217](../journals/2023-02-17.md) | 🇬🇧 [[Tech Now Pay Later]] <br/> 🇰🇷 [[기술 할부 결제]]                                             | [Tweet](https://twitter.com/anaclumos/status/1626765287814225920) |
 | [0218](../journals/2023-02-18.md) | 🇬🇧 [[Imagining WebNPU API]] <br/> 🇰🇷 [[WebNPU API를 상상하다]]                                    | [Tweet](https://twitter.com/anaclumos/status/1627161630080659460) |
+| [0219](../journals/2023-02-19.md) | 🇬🇧 [[Psychohistory]] <br/> 🇰🇷 [[심리역사학]]                                                      | [Tweet](https://twitter.com/anaclumos/status/1627497814250102784) |
 
 ## Announcement
 

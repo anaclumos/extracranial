@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a2096ba14e51c31a",
+        "id": "4488fedd7d3e2f02",
         "type": "tabs",
         "children": [
           {
-            "id": "bc7877566c902f98",
+            "id": "5fca2ea405b4002c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Cut the Fat.md",
+                "file": "journals/2023-02-19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,46 +21,20 @@
             }
           },
           {
-            "id": "db19be20e06aacec",
+            "id": "95d253aca40397c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "pages/Psychohistory.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c64f5dfae3056fff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Copenhagen Interpretation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d3f79ca105e8d283",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Psychohistory.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,17 +158,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d3f79ca105e8d283",
+  "active": "95d253aca40397c0",
   "lastOpenFiles": [
-    "pages/Copenhagen Interpretation.md",
     "journals/2023-02-19.md",
-    "pages/Effective Accelerationism.md",
     "pages/심리역사학.md",
-    "pages/Psychohistory.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/Cut the Fat.md",
+    "pages/Psychohistory.md",
+    "pages/Copenhagen Interpretation.md",
+    "pages/Effective Accelerationism.md",
     "pages/신한국.md",
     "pages/強力反權.md",
-    "pages/Small yet Powerful.md",
-    "pages/Bing Chat for All Browsers.md"
+    "pages/Small yet Powerful.md"
   ]
 }
