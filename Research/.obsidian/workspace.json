@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "4488fedd7d3e2f02",
+        "id": "0f90102afa45c66b",
         "type": "tabs",
         "children": [
           {
-            "id": "5fca2ea405b4002c",
+            "id": "1977a89024111eae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-19.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f41c26cd4dc917cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-20.md",
+                "file": "pages/기술 발전의 속도.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-02-20.md",
+                "file": "pages/기술 발전의 속도.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-02-20.md"
+                "file": "pages/기술 발전의 속도.md"
               }
             }
           },
@@ -159,16 +145,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f41c26cd4dc917cb",
+  "active": "1977a89024111eae",
   "lastOpenFiles": [
+    "journals/2023-02-20.md",
+    "journals/2023-02-19.md",
     "pages/기술 발전의 속도.md",
     "pages/ChatGPT.md",
     "pages/Photoshop for Text.md",
     "pages/Prompt Engineering.md",
     "pages/Stable Diffusion.md",
-    "journals/2023-02-20.md",
     "pages/심리역사학.md",
-    "journals/2023-02-19.md",
     "pages/Knoah AI.md",
     "pages/0141 Linked List Cycle.md"
   ]
