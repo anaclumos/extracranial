@@ -1753,6 +1753,9 @@ export const backlinks = {
     "Journal is a Waypoint, nothing more": {
         "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
     },
+    "Psychohistory": {
+        "2023-02-19": "- [[Psychohistory]]"
+    },
     "민사고": {
         "2023-01-12": "- [[민사고]]",
         "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "... Heroku가 AWS에 비해 몇몇 장점이 있다는 것을 알게 되었다. 예전에 개발했던 [[민사고]] 공문서 모음집을 Heroku로 옮겼다.",
@@ -2953,6 +2956,9 @@ export const backlinks = {
         "2022-08-11": "- [[Ticket Bounty Model]]",
         "2022-09-12": "- [[Ticket Bounty Model]]"
     },
+    "심리역사학": {
+        "2023-02-19": "- [[심리역사학]]"
+    },
     "데이터베이스권": {
         "2023-02-13": "- [[데이터베이스권]]"
     },
@@ -3066,7 +3072,9 @@ export const backlinks = {
     },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
+        "Psychohistory": "... can we do in this chaotic era to build our foundation? [[Effective Accelerationism|How would we preserve the light of sentience in this galaxy]]?",
         "글감": "- [[Effective Accelerationism]]",
+        "심리역사학": "... 우리는 이런 암흑기에서 우리의 파운데이션을 건설하기 위해 무엇을 할 수 있을까? [[Effective Accelerationism|우리는 이 은하에서 지성의 빛을 어떻게 보전할 수 있을까?]]?",
         "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
     },
     "0002 Add Two Numbers": {
@@ -4136,6 +4144,11 @@ export const backlinks = {
         "2022-10-17": "### [[Better Obsidian]]",
         "Developing Review Notes for Obsidian": "[[Better Obsidian]] 문서를 보면 알 수 있듯이 별별 아이디어들을 다 쌓아뒀는데 오늘 저녁에 ..."
     },
+    "Copenhagen Interpretation": {
+        "2023-02-19": "- [[Copenhagen Interpretation|코펜하겐 효과]]",
+        "Psychohistory": "... the future also affects history in the long term (Just like [[Copenhagen Interpretation]] in Quantum Physics) and would become increasingly less reliable as the ...",
+        "심리역사학": "... 심리역사학의 관측 행위가 관측 대상에 영향을 준다는 사실 또한 알아냈다 (양자물리학의 [[Copenhagen Interpretation|코펜하겐 효과]]와 비슷하게). 이를 위해 셀던은 두 개의 분리된 파운데이션을 구축해서 상호 보완될 ..."
+    },
     "Code Quality for Game Programming": {
         "2022-09-12": "- [[Code Quality for Game Programming]]",
         "Game Programming": "- [[Code Quality for Game Programming]]"
@@ -4564,8 +4577,10 @@ export const backlinks = {
         "10x Technologist": "... developers are a term that describes an exceptionally skilled and productive, [[small yet powerful]] group of software developers. It is a colloquial term used to ...",
         "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the ...",
         "2022-10-27": "- [[Small yet Powerful]]",
+        "Cut the Fat": "- [[Small yet Powerful]]",
         "The Era of Invites": "... observation is that these 'successful, invite-based' software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big techs use an invite-based system when ...",
         "The Zenly Playbook": "... app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?",
+        "強力反權": "- [[Small yet Powerful]]",
         "신한국": "- [[Small yet Powerful|작지만 강력한]]",
         "젠리의 성공 공식": "... 젠리가 문을 닫았다. 프랑스의 한 개발자로부터 시작해 3천억에 스냅에 인수된 기술 [[Small yet Powerful|강소]] 기업은 어떻게 성장하고 어떻게 사라졌을까. 그리고 우리는 무엇을 배울 수 있을까?",
         "초대장의 시대": "또 하나 흥미로운 관찰은 이런 성공적인 초대장 기반 소프트웨어 기업은 대부분 [[Small yet Powerful|소수정예]] 엘리트 팀이라는 점이다. 빅테크들은 왜 초대장 시스템을 사용하지 않을까? 어쩌면 이것은 ..."
