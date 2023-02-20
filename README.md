@@ -18,10 +18,10 @@ Extracranial means **situated outside the cranium** in medical contexts. This is
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1240     34598     8829         0    25769          0
+Markdown                  1242     34638     8840         0    25798          0
 CSS                         70     20239      266        28    19945          0
-TypeScript                  57     10412      160        70    10182        150
-JSON                        42      2172        0         0     2172          0
+TypeScript                  57     10425      160        70    10195        150
+JSON                        42      2184        0         0     2184          0
 Python                       7       770       54        41      675        107
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -31,13 +31,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1440     95209     9790      5090    80329       1094
+Total                     1442     95274     9801      5090    80383       1094
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,702,161
+Estimated Cost to Develop (organic) $2,704,068
 Estimated Schedule Effort (organic) 20.07 months
-Estimated People Required (organic) 11.96
+Estimated People Required (organic) 11.97
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6477167 bytes, 6.477 megabytes (SI)
+Processed 6479675 bytes, 6.480 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

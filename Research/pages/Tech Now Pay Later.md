@@ -36,3 +36,5 @@ In that sense, **Tech Now Pay Later** might be better terminology.
 > - cool
 >
 > — clip studio pain (@freezydorito) [January 29, 2023](https://twitter.com/freezydorito/status/1619734004793769984?ref_src=twsrc%5Etfw)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The initial version of <a href="https://t.co/7lv0YYHdVO">https://t.co/7lv0YYHdVO</a> used TXT files as its &quot;database&quot;.<br/><br/>Instead of worrying about which DB to use for your project and/or if it scales – sometimes you just gotta ship it and iterate later.<br/><br/>&quot;Avoid premature optimization&quot; – wise words by <a href="https://twitter.com/Levelsfyi?ref_src=twsrc%5Etfw">@Levelsfyi</a> 👏 <a href="https://t.co/QTT9qIoVHS">https://t.co/QTT9qIoVHS</a></p>&mdash; Steven Tey (@steventey) <a href="https://twitter.com/steventey/status/1627419415754022915?ref_src=twsrc%5Etfw">February 19, 2023</a></blockquote>
