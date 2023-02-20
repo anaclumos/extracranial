@@ -985,7 +985,8 @@ export const backlinks = {
     },
     "Metapage": {
         "Project": "This is a [[Metapage]] for my projects.",
-        "Readings": "This is a [[Metapage|meta-page]] that collects my to-read lists."
+        "Readings": "This is a [[Metapage|meta-page]] that collects my to-read lists.",
+        "Watchings": "This is a [[metapage]] for all the media I've seen, starting from Feb 2023. Just ..."
     },
     "How does File Alias work": {
         "2022-10-21": "- [[How does File Alias work]]",
@@ -1663,7 +1664,8 @@ export const backlinks = {
         "2022-12-21": "- [[Readings]]: [[이 땅에 태어나서]], [[하얼빈]]",
         "2022-12-24": "- [[Readings]]",
         "2023-01-03": "## [[Readings]]",
-        "2023-01-23": "- [[Readings]]"
+        "2023-01-23": "- [[Readings]]",
+        "Watchings": "... all the media I've seen, starting from Feb 2023. Just like [[Readings]]"
     },
     "Engine": {
         "2023-02-03": "- [[Engine]]",
@@ -3076,7 +3078,7 @@ export const backlinks = {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
         "Psychohistory": "... can we do in this chaotic era to build our foundation? [[Effective Accelerationism|How would we preserve the light of sentience in this galaxy]]?",
         "글감": "- [[Effective Accelerationism]]",
-        "심리역사학": "... 우리는 이런 암흑기에서 우리의 파운데이션을 건설하기 위해 무엇을 할 수 있을까? [[Effective Accelerationism|우리는 이 은하에서 지성의 빛을 어떻게 보전할 수 있을까?]]?",
+        "심리역사학": "... 우리는 이런 암흑기에서 우리의 파운데이션을 건설하기 위해 무엇을 할 수 있을까? [[Effective Accelerationism|우리는 이 은하에서 지성의 빛을 어떻게 보전할 수 있을까]]?",
         "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
     },
     "0002 Add Two Numbers": {
@@ -3747,6 +3749,9 @@ export const backlinks = {
     "Karrot NX Team Mission Statement": {
         "2023-02-08": "- [[Karrot NX Team Mission Statement]]"
     },
+    "Knoah AI": {
+        "2023-02-19": "- [[Knoah AI]]"
+    },
     "Graphics Engine Process": {
         "Game Programming": "- [[Graphics Engine Process]]"
     },
@@ -4132,6 +4137,9 @@ export const backlinks = {
     },
     "Palantir Foundry": {
         "Palantir": "- [[Palantir Foundry]]"
+    },
+    "Watchings": {
+        "2023-02-19": "- [[Watchings]]"
     },
     "Reminder Tools": {
         "Tools for Thought": "- [[Reminder Tools]]"
@@ -6281,6 +6289,9 @@ export const backlinks = {
     },
     "B8FECA.png": {
         "sem.sh": "  - ![[B8FECA.png]]"
+    },
+    "C3DD64.png": {
+        "Knoah AI": "![[C3DD64.png]]"
     },
     "Graphic Window": {
         "Graphics Engine Process": "  - Create a [[Graphic Window]]"

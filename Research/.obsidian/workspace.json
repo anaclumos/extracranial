@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/글감.md",
+                "file": "journals/2023-02-19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f41c26cd4dc917cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/심리역사학.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "time-to-market",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/글감.md",
+                "file": "pages/심리역사학.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/글감.md"
+                "file": "pages/심리역사학.md"
               }
             }
           },
@@ -144,17 +159,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5fca2ea405b4002c",
+  "active": "f41c26cd4dc917cb",
   "lastOpenFiles": [
     "journals/2023-02-19.md",
+    "pages/Knoah AI.md",
+    "pages/0141 Linked List Cycle.md",
+    "pages/Watchings.md",
+    "pages/Readings.md",
+    "pages/글감.md",
     "pages/심리역사학.md",
     "pages/Psychohistory.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/Cut the Fat.md",
-    "pages/Copenhagen Interpretation.md",
-    "pages/Effective Accelerationism.md",
-    "pages/신한국.md",
-    "pages/強力反權.md",
-    "pages/Small yet Powerful.md"
+    "pages/Cut the Fat.md"
   ]
 }
