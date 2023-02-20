@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-19.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "95d253aca40397c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Psychohistory.md",
+                "file": "pages/글감.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Psychohistory.md",
+                "file": "pages/글감.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Psychohistory.md"
+                "file": "pages/글감.md"
               }
             }
           },
@@ -158,13 +144,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "95d253aca40397c0",
+  "active": "5fca2ea405b4002c",
   "lastOpenFiles": [
     "journals/2023-02-19.md",
     "pages/심리역사학.md",
+    "pages/Psychohistory.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/Cut the Fat.md",
-    "pages/Psychohistory.md",
     "pages/Copenhagen Interpretation.md",
     "pages/Effective Accelerationism.md",
     "pages/신한국.md",
