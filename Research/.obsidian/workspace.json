@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Bing Chat for All Browsers.md",
+                "file": "pages/Cut the Fat.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
+          },
+          {
+            "id": "db19be20e06aacec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Psychohistory.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c64f5dfae3056fff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Copenhagen Interpretation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d3f79ca105e8d283",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Psychohistory.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Bing Chat for All Browsers.md",
+                "file": "pages/Psychohistory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Bing Chat for All Browsers.md"
+                "file": "pages/Psychohistory.md"
               }
             }
           },
@@ -144,17 +184,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bc7877566c902f98",
+  "active": "d3f79ca105e8d283",
   "lastOpenFiles": [
+    "pages/Copenhagen Interpretation.md",
     "journals/2023-02-19.md",
-    "assets/971BA5.png",
-    "pages/Bing Chat for All Browsers.md",
-    "pages/GPU.md",
-    "pages/CPU.md",
-    "pages/NPU.md",
-    "pages/Imagining WebNPU API.md",
-    "journals/2023-02-18.md",
-    "pages/WebNPU API를 상상하다.md",
-    "pages/WebNPU.md"
+    "pages/Effective Accelerationism.md",
+    "pages/심리역사학.md",
+    "pages/Psychohistory.md",
+    "pages/Cut the Fat.md",
+    "pages/신한국.md",
+    "pages/強力反權.md",
+    "pages/Small yet Powerful.md",
+    "pages/Bing Chat for All Browsers.md"
   ]
 }
