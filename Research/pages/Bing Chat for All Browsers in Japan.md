@@ -21,6 +21,6 @@ Unsure what happened, but it seems like a lot of 🇯🇵 people like my extensi
 >
 > — Sunghyun Cho (@anaclumos) [February 21, 2023](https://twitter.com/anaclumos/status/1627974844385206273?ref_src=twsrc%5Etfw)
 
-- ["Bing Chat for All Browsers" that can use Bing's chat AI in Chrome and Firefox appeared (ASCII)-Yahoo! News](https://news.yahoo.co.jp/articles/fa91cea4b421a3147e3345bb74f552fd3066e74f)
+- [Chrome や Firefox で Bing のチャット AI が使える「Bing Chat for All Browsers」登場（アスキー） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/fa91cea4b421a3147e3345bb74f552fd3066e74f)
 - [Google Chrome で Bing の AI チャットが使える拡張（Impress Watch） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/7b4bc16e99c8cb430851d18337fa9957e8dd9b07)
 - [Chrome で Bing の AI チャットを使う方法](https://jabrek.net/bing_ai_chrome/)

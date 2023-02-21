@@ -124,6 +124,9 @@ export const backlinks = {
     "2020-03-07": {
         "프로젝트 어덕행덕": "- [[2020-03-07]]"
     },
+    "2022-08-16": {
+        "이루다": "[[2022-08-16]] [[Los Angeles|LA]]로 오는 비행기에서 우연히 만났다. KCON 가는 길이었다고."
+    },
     "2016-12-08": {
         "졸업을 앞둔 중학교 3학년들에게": "[[2016-12-08]]에 게재된 [[재학생일기]]이다."
     },
@@ -1055,6 +1058,9 @@ export const backlinks = {
         "Now Page": "### [[Stephan Ango]]",
         "Synthote": "- Coined by [[Stephan Ango]]"
     },
+    "Beehiiv": {
+        "2023-02-21": "- [[Beehiiv]]"
+    },
     "Svelte": {
         "Extracranial": "Seems like using [[Svelte]]"
     },
@@ -1372,7 +1378,8 @@ export const backlinks = {
         "Heap (Computer Systems)": "- align blocks, similar to [[Structs and Unions]]"
     },
     "벌금과 물가": {
-        "2022-10-21": "- [[벌금과 물가]]"
+        "2022-10-21": "- [[벌금과 물가]]",
+        "신한국": "- [[벌금과 물가]]"
     },
     "Latency and Throughput": {
         "2022-11-03": "- [[Latency and Throughput]]",
@@ -2350,6 +2357,7 @@ export const backlinks = {
         "PDF": "... needed to display it. PDF has its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John Warnock in 1991. PDF",
         "PKM": "... building a personal knowledge base. Its needs are different from a [[project]] base.",
         "Person 1B5A5B": "- Junior = [[Project]] Executors.",
+        "PineApple Pay": "Someday [[Project]].",
         "Preservation of Data": "> The LOCKSS (\"Lots of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford University, is a peer-to-peer network that ...",
         "Problem": "Leads to a Someday [[Project]].",
         "Project PEOPLE": "- [[Project]]",
@@ -3312,6 +3320,9 @@ export const backlinks = {
     },
     "phash.wasm": {
         "Stable Alternative": "- [ ] Perceptual Hashing On Device: [[phash.wasm]]"
+    },
+    "PineApple Pay": {
+        "2023-02-21": "- [[PineApple Pay]]"
     },
     "Shortcuts": {
         "2022-11-19": "  - [[Shortcuts]]"
@@ -4676,6 +4687,7 @@ export const backlinks = {
         "Off The Record": "[[Someday]] [[Project]]. Disappearing message for iMessage.",
         "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
         "Open Graph Image as a Service": "[[Someday]] [[Project]]. Request Open Graph Images with URI, `POST` payload.",
+        "PineApple Pay": "[[Someday]] [[Project]].",
         "Problem": "Leads to a [[Someday]] [[Project]].",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
@@ -5121,7 +5133,8 @@ export const backlinks = {
     "Los Angeles": {
         "Biden-Harris Administration National Security Strategy 2022": "- Reviewed in-flight to [[Los Angeles]] on [[2023-01-08]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I am Sunghyun Cho, a computer science student based in [[Los Angeles]].",
-        "Letter to the Heptabase Team on 2022-10-11": "很高興見到你! I am Sunghyun Cho, a computer scientist based in [[Los Angeles|LA]] and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], ..."
+        "Letter to the Heptabase Team on 2022-10-11": "很高興見到你! I am Sunghyun Cho, a computer scientist based in [[Los Angeles|LA]] and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], ...",
+        "이루다": "2022-08-16 [[Los Angeles|LA]]로 오는 비행기에서 우연히 만났다. KCON 가는 길이었다고."
     },
     "0409 Longest Palindrome": {
         "Coding Tests": "- [x] [[0409 Longest Palindrome]]"
@@ -5797,6 +5810,12 @@ export const backlinks = {
     "EC7EEF.png": {
         "Python": "![[EC7EEF.png]]"
     },
+    "70C429.png": {
+        "Beehiiv": "![[70C429.png]]"
+    },
+    "35D4CC.png": {
+        "Beehiiv": "![[35D4CC.png]]"
+    },
     "8692F9.png": {
         "WebAssembly": "![[8692F9.png]]"
     },
@@ -6391,6 +6410,9 @@ export const backlinks = {
     },
     "webserver": {
         "Port": "- [[webserver]] → 80"
+    },
+    "970206.png": {
+        "이루다": "![[970206.png]]"
     },
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"

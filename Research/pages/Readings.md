@@ -40,6 +40,7 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
+- [ ] The Righteous Mind
 - [ ] MAKE
 - [ ] Where is my flying car?
 - [ ] Diaspora

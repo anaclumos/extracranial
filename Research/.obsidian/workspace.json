@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "8464da8085f359ef",
+        "id": "c775792b49f2e82c",
         "type": "tabs",
         "children": [
           {
-            "id": "8b4703765cd8e000",
+            "id": "1fd4762ec0ef7291",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-21.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e302fb4500baccb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Readings.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Readings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Readings.md"
+              }
             }
           },
           {
@@ -138,17 +160,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b4703765cd8e000",
+  "active": "e302fb4500baccb8",
   "lastOpenFiles": [
-    "pages/Eventually, Diligent Immatures build the Future.md",
     "journals/2023-02-21.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/글감.md",
     "pages/Bing Chat for All Browsers in Japan.md",
-    "pages/미래는 결국 미성숙한 우리가 만들어낸다.md",
-    "pages/R=VD and Generative AIs.md",
-    "journals/2023-02-19.md",
-    "journals/2023-02-20.md",
-    "pages/Bing Chat for All Browsers.md"
+    "pages/이루다.md",
+    "journals/2022-08-16.md",
+    "pages/민사고.md",
+    "pages/신한국.md",
+    "pages/PineApple Pay.md",
+    "pages/Eventually, Diligent Immatures build the Future.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/글감.md"
   ]
 }
