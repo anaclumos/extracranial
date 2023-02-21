@@ -2142,6 +2142,7 @@ export const backlinks = {
         "2023-01-09": "- [[Why Korean Banks Suck]]",
         "2023-02-20": "- [[Why Korean Banks Suck]]",
         "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Why Korean Banks Suck|troubled Korean banking system]].",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0220 | 🇬🇧 [[Why Korean Banks Suck]] <br/> 🇰🇷 [[국내 은행 서비스가 나쁜 이유]]     ...",
         "글감": "- [[Why Korean Banks Suck]]",
         "드디어, 한국 애플페이": "... 이는 무엇을 의미할까? 몇 가지 시사점이 있지만, 오늘 할 이야기는 아니다. [[Why Korean Banks Suck|한국 은행계]]에 새로운 자극이 되기를 바란다."
     },
@@ -2812,7 +2813,8 @@ export const backlinks = {
         "2023-02-07": "- [[글감]]"
     },
     "국내 은행 서비스가 나쁜 이유": {
-        "2023-02-20": "- [[국내 은행 서비스가 나쁜 이유]]"
+        "2023-02-20": "- [[국내 은행 서비스가 나쁜 이유]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0220 | 🇬🇧 Why Korean Banks Suck <br/> 🇰🇷 [[국내 은행 서비스가 나쁜 이유]]            ..."
     },
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
@@ -4554,7 +4556,8 @@ export const backlinks = {
         "2023-02-16": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-17": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-18": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-19": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-19": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-20": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
