@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/기술 발전의 속도.md",
+                "file": "journals/2023-02-21.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b2e1847d6baa30ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Bing Chat for All Browsers in Japan.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "671efab22281c13c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "763c540aa79dd135",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Bing Chat for All Browsers in Japan.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/기술 발전의 속도.md",
+                "file": "pages/Bing Chat for All Browsers in Japan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/기술 발전의 속도.md"
+                "file": "pages/Bing Chat for All Browsers in Japan.md"
               }
             }
           },
@@ -146,17 +186,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "87afd85d7f4f4f48",
+  "active": "763c540aa79dd135",
   "lastOpenFiles": [
+    "journals/2023-02-19.md",
     "journals/2023-02-20.md",
+    "journals/2023-02-21.md",
+    "pages/Bing Chat for All Browsers in Japan.md",
+    "pages/Bing Chat for All Browsers.md",
+    "pages/기술 발전의 속도.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/도메인 찾아 삼만리.md",
     "pages/Why Korean Banks Suck.md",
-    "pages/국내 은행 서비스가 나쁜 이유.md",
-    "pages/기술 발전의 속도.md",
-    "journals/2023-02-19.md",
-    "pages/ChatGPT.md",
-    "pages/Photoshop for Text.md",
-    "pages/Prompt Engineering.md"
+    "pages/국내 은행 서비스가 나쁜 이유.md"
   ]
 }

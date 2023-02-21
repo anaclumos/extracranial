@@ -185,6 +185,9 @@ export const backlinks = {
     "2023-02-15": {
         "Jog 25 minutes (Jan-Feb 2023)": "## [[2023-02-15]] 잠정 중단"
     },
+    "2023-02-21": {
+        "Bing Chat for All Browsers in Japan": "## [[2023-02-21]]"
+    },
     "2022-11-23": {
         "Person 1E6ABA": "- Interviewed on [[2022-11-23]]"
     },
@@ -379,6 +382,9 @@ export const backlinks = {
     "2022-10-21": {
         "Curve Fitting for Charts": "## On [[2022-10-21]], with [[Simple Analytics]]"
     },
+    "2023-02-19": {
+        "Bing Chat for All Browsers in Japan": "## [[2023-02-19]]"
+    },
     "2023-01-03": {
         "하늘땅사람 개발 기록": "## [[2023-01-03]]"
     },
@@ -532,6 +538,10 @@ export const backlinks = {
         "Internetworking": "- [[HTTP]]",
         "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does that change the request-response rate?",
         "Techs Actually Simple": "- Not to mention plaintext protocols. [[HTTP]], SMTP, FTP, and Redis Serialization Protocol (RESP) are a few examples"
+    },
+    "Bing Chat for All Browsers in Japan": {
+        "2023-02-19": "- [[Bing Chat for All Browsers in Japan]]",
+        "2023-02-21": "- [[Bing Chat for All Browsers in Japan]]"
     },
     "Framer": {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 장점"
@@ -2731,6 +2741,7 @@ export const backlinks = {
         "2023-02-11": "- [[Bing Chat for All Browsers]]",
         "2023-02-16": "Updated [[Bing Chat for All Browsers]] to 1.0.1!",
         "2023-02-19": "- [[Bing Chat for All Browsers]]",
+        "Bing Chat for All Browsers in Japan": "- [[Bing Chat for All Browsers]]",
         "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
         "Search AI": "- [[Bing Chat for All Browsers]]"
     },
@@ -5562,10 +5573,6 @@ export const backlinks = {
     "3AB4D2.png": {
         "2022-07-06": "![[3AB4D2.png]]"
     },
-    "971BA5.png": {
-        "2023-02-19": "![[971BA5.png]]",
-        "Bing Chat for All Browsers": "![[971BA5.png]]"
-    },
     "837555.jpg": {
         "2022-10-15": "![[837555.jpg]]",
         "Dynamic Island on the Web": "![[837555.jpg]]"
@@ -5601,6 +5608,9 @@ export const backlinks = {
     "339420.gif": {
         "Aldehyde Landing Page 2023": "![[339420.gif]]",
         "날씨 요정": "![[339420.gif]]"
+    },
+    "971BA5.png": {
+        "Bing Chat for All Browsers in Japan": "![[971BA5.png]]"
     },
     "A3BB1E.png": {
         "Framer": "![[A3BB1E.png]]"
