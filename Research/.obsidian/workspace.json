@@ -45,22 +45,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "763c540aa79dd135",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Bing Chat for All Browsers in Japan.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Bing Chat for All Browsers in Japan.md",
+                "file": "journals/2023-02-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Bing Chat for All Browsers in Japan.md"
+                "file": "journals/2023-02-19.md"
               }
             }
           },
@@ -186,11 +173,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "763c540aa79dd135",
+  "active": "671efab22281c13c",
   "lastOpenFiles": [
+    "journals/2023-02-21.md",
     "journals/2023-02-19.md",
     "journals/2023-02-20.md",
-    "journals/2023-02-21.md",
     "pages/Bing Chat for All Browsers in Japan.md",
     "pages/Bing Chat for All Browsers.md",
     "pages/기술 발전의 속도.md",
