@@ -21,6 +21,58 @@
             }
           },
           {
+            "id": "8b5ec79d9cafd213",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-21.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b941c415f0ca90fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/글감.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bd20c1d8dc0f2b8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-21.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a2bd7487054cc005",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/글감.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
             "id": "b2e1847d6baa30ff",
             "type": "leaf",
             "state": {
@@ -39,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-19.md",
+                "file": "pages/Eventually, Diligent Immatures build the Future.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -47,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -115,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-02-19.md",
+                "file": "pages/글감.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-02-19.md"
+                "file": "pages/글감.md"
               }
             }
           },
@@ -173,17 +225,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "671efab22281c13c",
+  "active": "a2bd7487054cc005",
   "lastOpenFiles": [
     "journals/2023-02-21.md",
+    "pages/R=VD and Generative AIs.md",
+    "pages/글감.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/미래는 결국 미성숙한 우리가 만들어낸다.md",
+    "pages/Bing Chat for All Browsers in Japan.md",
+    "pages/Eventually, Diligent Immatures build the Future.md",
     "journals/2023-02-19.md",
     "journals/2023-02-20.md",
-    "pages/Bing Chat for All Browsers in Japan.md",
-    "pages/Bing Chat for All Browsers.md",
-    "pages/기술 발전의 속도.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/도메인 찾아 삼만리.md",
-    "pages/Why Korean Banks Suck.md",
-    "pages/국내 은행 서비스가 나쁜 이유.md"
+    "pages/Bing Chat for All Browsers.md"
   ]
 }
