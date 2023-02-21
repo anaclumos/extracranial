@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/국내 은행 서비스가 나쁜 이유.md",
-                "mode": "preview",
+                "file": "pages/Why Korean Banks Suck.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -24,16 +24,12 @@
             "id": "3e79b66545caa9fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Why Korean Banks Suck.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 237.5,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -100,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/국내 은행 서비스가 나쁜 이유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/국내 은행 서비스가 나쁜 이유.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,17 +152,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1977a89024111eae",
+  "active": "3e79b66545caa9fb",
   "lastOpenFiles": [
+    "pages/도메인 찾아 삼만리.md",
+    "journals/2023-02-20.md",
     "pages/Why Korean Banks Suck.md",
     "pages/국내 은행 서비스가 나쁜 이유.md",
-    "journals/2023-02-20.md",
     "pages/기술 발전의 속도.md",
     "journals/2023-02-19.md",
     "pages/ChatGPT.md",
     "pages/Photoshop for Text.md",
     "pages/Prompt Engineering.md",
-    "pages/Stable Diffusion.md",
-    "pages/심리역사학.md"
+    "pages/Stable Diffusion.md"
   ]
 }

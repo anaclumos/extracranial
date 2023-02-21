@@ -7,17 +7,15 @@ Banks falling behind the tech is a familiar story in the U.S., But I am confiden
 
 ## Where it all began
 
-It all starts with the [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). When the internet was booming in 1999, Korea couldn't correctly use the 128-bit AES encryption technology, so they started from a weakened 40-bit security system. They then later developed their version of a 128-bit security system which required ActiveX and made it a standard (SEED.) In 2000, the U.S. lifted export restrictions, but Korea continued to use SEED and ActiveX. While they later removed ActiveX systems, they switched to mandating .exe security programs running on the device constantly.
+It all starts with the [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). When the internet was booming in 1999, Korea couldn't correctly use the 128-bit AES encryption technology, so they started from a weakened 40-bit security system. They then later developed their version of a 128-bit security system which required ActiveX and made it a standard (SEED.)
 
-As [Wladimir Palant found out](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/), these programs are uncomfortable and do not even conform to ancient security techniques. Moreover, they are developed with 15-year-old Visual Studio, causing avoidable security problems like simple Buffer Overflows Attacks.
-
-But why? Why are they still not improving things? Some key observations:
+In 2000, the U.S. lifted export restrictions, but Korea continued to use SEED and ActiveX. While they later removed ActiveX systems, they switched to mandating .exe security programs running on the device constantly. As [Wladimir Palant found out](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/), these programs are uncomfortable and do not even conform to ancient security techniques. Moreover, they are developed with 15-year-old Visual Studio, causing avoidable security problems like simple Buffer Overflows Attacks. **But why**? Why are they still not improving things? Some key observations:
 
 ## Dodging Responsibilities
 
 There is a Korean law stating:
 
-A financial institution or electronic financial provider shall be responsible for compensating the user for damages caused by accident caused by forgery or alteration of an access medium, contract signing, or electronic transmission or processing of transaction instructions.
+> A financial institution or electronic financial provider shall be responsible for compensating the user for damages caused by accident caused by forgery or alteration of an access medium, contract signing, or electronic transmission or processing of transaction instructions.
 
 However, some Korean banks figured they could use their security systems' complexity to shift responsibility onto customers during a security breach. Paired with highly vague terms and conditions, the bank points to these terms and conditions as evidence that the customer was aware of the risks and agreed to assume responsibility for any damages.
 
