@@ -2507,7 +2507,7 @@ export const backlinks = {
     },
     "Eventually, Diligent Immatures build the Future": {
         "2023-02-21": "- [[Eventually, Diligent Immatures build the Future]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 0221 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] |    ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0221 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | Tweet |"
     },
     "POP3 vs IMAP": {
         "Internetworking": "- [[POP3 vs IMAP]]"
@@ -3443,7 +3443,7 @@ export const backlinks = {
     },
     "미래는 결국 미성숙한 우리가 만들어낸다": {
         "2023-02-21": "- [[미래는 결국 미성숙한 우리가 만들어낸다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... 0221 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] |           ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "... 0221 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | Tweet |"
     },
     "0059 Spiral Matrix II": {
         "2023-02-09": "- [[0059 Spiral Matrix II]]",
