@@ -1907,6 +1907,9 @@ export const backlinks = {
         "Hugging Face": "... learning. It is most notable for its Transformers library built for [[natural language processing]] applications and its platform that allows users to share machine learning ...",
         "Search AI": "... and write code for you. I'm powered by artificial intelligence and [[natural language processing]], allowing you to have human-like conversations with me. I am constantly ..."
     },
+    "R=VD and Generative AIs": {
+        "글감": "- [[R=VD and Generative AIs]]"
+    },
     "Mr. Doob": {
         "2022-12-16": "- [[Mr. Doob]]"
     },
@@ -2047,7 +2050,7 @@ export const backlinks = {
     },
     "Why is Swift String Manipulation like that": {
         "2023-02-15": "- [[Why is Swift String Manipulation like that]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 0215 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] | Tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0215 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]]    ..."
     },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]",
@@ -2502,6 +2505,10 @@ export const backlinks = {
         "Feed One": "... to all the sources—LinkedIn, Twitter, Insta, Facebook, etc. It's similar to [[Jumpsite]], but not the same; you never need to escape the website.",
         "Interface (Jumpsite)": "- [[Jumpsite]]"
     },
+    "Eventually, Diligent Immatures build the Future": {
+        "2023-02-21": "- [[Eventually, Diligent Immatures build the Future]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0221 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] |    ..."
+    },
     "POP3 vs IMAP": {
         "Internetworking": "- [[POP3 vs IMAP]]"
     },
@@ -2821,7 +2828,8 @@ export const backlinks = {
         "2023-02-02": "- [[글감]]",
         "2023-02-03": "- [[글감]]",
         "2023-02-04": "- [[글감]]",
-        "2023-02-07": "- [[글감]]"
+        "2023-02-07": "- [[글감]]",
+        "2023-02-21": "- [[글감]]"
     },
     "국내 은행 서비스가 나쁜 이유": {
         "2023-02-20": "- [[국내 은행 서비스가 나쁜 이유]]",
@@ -3433,6 +3441,10 @@ export const backlinks = {
     "P2P": {
         "Internetworking": "- [[P2P]]"
     },
+    "미래는 결국 미성숙한 우리가 만들어낸다": {
+        "2023-02-21": "- [[미래는 결국 미성숙한 우리가 만들어낸다]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "... 0221 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] |           ..."
+    },
     "0059 Spiral Matrix II": {
         "2023-02-09": "- [[0059 Spiral Matrix II]]",
         "Coding Tests": "- [[0059 Spiral Matrix II]]"
@@ -3835,7 +3847,7 @@ export const backlinks = {
     },
     "Swift String 조작은 왜 그 모양인가": {
         "2023-02-15": "- [[Swift String 조작은 왜 그 모양인가]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Why is Swift String Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]] | Tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Why is Swift String Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]]          | Tweet ..."
     },
     "0021 Merge Two Sorted Lists": {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
@@ -4568,7 +4580,8 @@ export const backlinks = {
         "2023-02-17": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-18": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-19": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-20": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-20": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-21": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -5426,6 +5439,9 @@ export const backlinks = {
     "770154.png": {
         "2022-08-03": "![[770154.png]]",
         "Adding a Verified Mark on Apple Mail & Gmail": "![[770154.png]]"
+    },
+    "613BFB.png": {
+        "2023-02-21": "![[613BFB.png]]"
     },
     "B22093.png": {
         "2022-06-27": "![[B22093.png]]"
