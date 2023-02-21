@@ -1,0 +1,39 @@
+---
+lang: 'en'
+slug: '/C8EA6C'
+---
+
+Banks falling behind the tech is a familiar story in the U.S., But I am confident Korea will take it to the next level. You need to install seven different programs and plugins that constantly run, slowing down your computer to check your account balance; you need to create a non-exportable digital certificate file to make any transactions.
+
+## Where it all began
+
+It all starts with the [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). When the internet was booming in 1999, Korea couldn't correctly use the 128-bit AES encryption technology, so they started from a weakened 40-bit security system. They then later developed their version of a 128-bit security system which required ActiveX and made it a standard (SEED.) In 2000, the U.S. lifted export restrictions, but Korea continued to use SEED and ActiveX. While they later removed ActiveX systems, they switched to mandating .exe security programs running on the device constantly.
+
+As [Wladimir Palant found out](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/), these programs are uncomfortable and do not even conform to ancient security techniques. Moreover, they are developed with 15-year-old Visual Studio, causing avoidable security problems like simple Buffer Overflows Attacks.
+
+But why? Why are they still not improving things? Some key observations:
+
+## Dodging Responsibilities
+
+There is a Korean law stating:
+
+A financial institution or electronic financial provider shall be responsible for compensating the user for damages caused by accident caused by forgery or alteration of an access medium, contract signing, or electronic transmission or processing of transaction instructions.
+
+However, some Korean banks figured that they could use their security systems' complexity to shift responsibility onto customers in the event of a security breach. Paired with highly vague terms and conditions, the bank points to these terms and conditions as evidence that the customer was aware of the risks and agreed to assume responsibility for any damages.
+
+## Limited Room for FDS
+
+Korean banks, by default, do not have a deferred transfer system, unlike the U.S., which has a tipping system. That means every transaction is instant and irreversible. Therefore, implementing a fraud detection system (FDS) makes it more challenging, as there is limited time to detect and stop fraudulent transactions before the transaction. In contrast, a deferred transfer system like the one used in the United States can provide more time for banks to identify and prevent fraudulent transactions, as transfers can be canceled or reversed before they are processed. Instead, Korean banks rely on individual customers to monitor their accounts for suspicious activity and report it to the bank. This means that customers are responsible for detecting fraudulent transactions, and the bank will only act after the customer says it.
+
+## Lack of Competitions
+
+The Korean market is known to have limited competition in some industries, including the banking sector. Several factors contribute to this, including:
+
+- **Linguistic and regional barriers**. The Korean language is unique, and many Korean consumers prefer to do business with companies fluent in Korean and understand Korean culture. This makes it difficult for foreign companies to enter the market, as they may need to gain the language skills or cultural understanding required to compete effectively.
+- **Resistance to external influence**. Koreans have great national pride and are often wary of external parties playing a significant role in their economy. This can lead to resistance to foreign companies and ideas, making it more difficult for outside players to enter the market.
+- **Lobbying and Corruptions**. Allegations of corruption have been made against Korea Financial Telecommunications and Clearings (KFTC), a private company that is one of five authorized certification system companies and makes tens of millions of dollars. The KFTC should be a public interest organization created by the state. Still, high-ranking officials from the Financial Services Commission and the Ministry of Economy and Finance are accused of colluding with the company after retirement, leading to questions about why they are attracted to such positions.
+- **Perception of overseas banks**. Finally, there is often a perception in Korea that using overseas banks or doing business with foreign companies is "unpatriotic" or "unethical." This can make it difficult for foreign banks to gain a foothold in the Korean market, even if they can overcome linguistic and cultural barriers.
+
+For these reasons, the Korean market, including the banking sector, has limited competition.
+
+Despite the challenges and limited competition in the Korean banking sector, the emergence of new fintech companies like Toss and KakaoBank has brought some positive changes. These companies have disrupted the traditional banking industry with innovative digital solutions and customer-centric approaches, providing more options for Korean consumers. With the rise of fintech and the changing expectations of consumers, traditional Korean banks may need to adapt to stay competitive. While the industry still faces obstacles, the growth of these new players shows the potential for more competition and innovation in the Korean banking sector.

@@ -2138,6 +2138,13 @@ export const backlinks = {
     "Regulation of Fake News": {
         "2022-12-28": "- [[Regulation of Fake News]]"
     },
+    "Why Korean Banks Suck": {
+        "2023-01-09": "- [[Why Korean Banks Suck]]",
+        "2023-02-20": "- [[Why Korean Banks Suck]]",
+        "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Why Korean Banks Suck|troubled Korean banking system]].",
+        "글감": "- [[Why Korean Banks Suck]]",
+        "드디어, 한국 애플페이": "... 이는 무엇을 의미할까? 몇 가지 시사점이 있지만, 오늘 할 이야기는 아니다. [[Why Korean Banks Suck|한국 은행계]]에 새로운 자극이 되기를 바란다."
+    },
     "식영부원의 관점에서 바라본 치킨데이": {
         "2016-07-01": "- [[식영부원의 관점에서 바라본 치킨데이]]"
     },
@@ -2583,7 +2590,6 @@ export const backlinks = {
         "ULLO": "- Unsplash [[CELLO]]"
     },
     "Toss": {
-        "Korean Banks Suck": "This is why I like [[Toss]]...",
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve this information inequality in the financial ...",
         "Supergravity Products": "... 작은 아이디어 (금융 슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Toss Product Sans": "- Font by [[Toss]].",
@@ -4092,12 +4098,6 @@ export const backlinks = {
     },
     "Preprocessor": {
         "2023-01-25": "- [[Preprocessor]]"
-    },
-    "Korean Banks Suck": {
-        "2023-01-09": "- [[Korean Banks Suck]]",
-        "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Korean Banks Suck|troubled Korean banking system]].",
-        "글감": "- [[Korean Banks Suck]]",
-        "드디어, 한국 애플페이": "... 이는 무엇을 의미할까? 몇 가지 시사점이 있지만, 오늘 할 이야기는 아니다. [[Korean Banks Suck|한국 은행계]]에 새로운 자극이 되기를 바란다."
     },
     "United States of America": {
         "2022-06-10": "... said Wednesday it will include pay ranges in all of its [[United States of America|U.S.]] job listings, a move that likely foreshadows a range of big ...",
