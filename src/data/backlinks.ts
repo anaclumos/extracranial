@@ -2811,6 +2811,9 @@ export const backlinks = {
         "2023-02-04": "- [[글감]]",
         "2023-02-07": "- [[글감]]"
     },
+    "국내 은행 서비스가 나쁜 이유": {
+        "2023-02-20": "- [[국내 은행 서비스가 나쁜 이유]]"
+    },
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
         "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
