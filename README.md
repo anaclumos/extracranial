@@ -18,10 +18,10 @@ Extracranial means **situated outside the cranium** in medical contexts. This is
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1244     34715     8850         0    25865          0
+Markdown                  1244     34753     8864         0    25889          0
 CSS                         70     20239      266        28    19945          0
 TypeScript                  57     10497      160        70    10267        150
-JSON                        42      2170        0         0     2170          0
+JSON                        42      2184        0         0     2184          0
 Python                       7       770       54        41      675        107
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -31,13 +31,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1444     95409     9811      5090    80508       1094
+Total                     1444     95461     9825      5090    80546       1094
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,708,484
-Estimated Schedule Effort (organic) 20.08 months
+Estimated Cost to Develop (organic) $2,709,826
+Estimated Schedule Effort (organic) 20.09 months
 Estimated People Required (organic) 11.98
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6485269 bytes, 6.485 megabytes (SI)
+Processed 6490755 bytes, 6.491 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
