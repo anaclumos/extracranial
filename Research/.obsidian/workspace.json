@@ -13,28 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-20.md",
-                "mode": "source",
+                "file": "pages/국내 은행 서비스가 나쁜 이유.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "2e46197958d30bb7",
+            "id": "3e79b66545caa9fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/기술 발전의 속도.md",
-                "mode": "source",
+                "file": "pages/Why Korean Banks Suck.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/기술 발전의 속도.md",
+                "file": "pages/국내 은행 서비스가 나쁜 이유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/기술 발전의 속도.md"
+                "file": "pages/국내 은행 서비스가 나쁜 이유.md"
               }
             }
           },
@@ -159,17 +158,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2e46197958d30bb7",
+  "active": "1977a89024111eae",
   "lastOpenFiles": [
     "pages/Why Korean Banks Suck.md",
+    "pages/국내 은행 서비스가 나쁜 이유.md",
     "journals/2023-02-20.md",
-    "journals/2023-02-19.md",
     "pages/기술 발전의 속도.md",
+    "journals/2023-02-19.md",
     "pages/ChatGPT.md",
     "pages/Photoshop for Text.md",
     "pages/Prompt Engineering.md",
     "pages/Stable Diffusion.md",
-    "pages/심리역사학.md",
-    "pages/Knoah AI.md"
+    "pages/심리역사학.md"
   ]
 }
