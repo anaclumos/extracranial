@@ -4,32 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0f90102afa45c66b",
+        "id": "eb72b11580d57ed4",
         "type": "tabs",
         "children": [
           {
-            "id": "1977a89024111eae",
+            "id": "87afd85d7f4f4f48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Why Korean Banks Suck.md",
-                "mode": "source",
+                "file": "pages/기술 발전의 속도.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
-          },
-          {
-            "id": "3e79b66545caa9fb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/기술 발전의 속도.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/기술 발전의 속도.md"
+              }
             }
           },
           {
@@ -152,17 +146,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e79b66545caa9fb",
+  "active": "87afd85d7f4f4f48",
   "lastOpenFiles": [
-    "pages/도메인 찾아 삼만리.md",
     "journals/2023-02-20.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/도메인 찾아 삼만리.md",
     "pages/Why Korean Banks Suck.md",
     "pages/국내 은행 서비스가 나쁜 이유.md",
     "pages/기술 발전의 속도.md",
     "journals/2023-02-19.md",
     "pages/ChatGPT.md",
     "pages/Photoshop for Text.md",
-    "pages/Prompt Engineering.md",
-    "pages/Stable Diffusion.md"
+    "pages/Prompt Engineering.md"
   ]
 }
