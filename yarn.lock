@@ -1775,10 +1775,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:^4.20230215.0":
-  version: 4.20230215.0
-  resolution: "@cloudflare/workers-types@npm:4.20230215.0"
-  checksum: a5589a36110ca2fd1bfbfe990d40a5eeba33d6a973b3e21dc64861daa1e994a975535f9663b2a226d5e82463deec6fbe8e68473d1e661e36142bc980355c2a72
+"@cloudflare/workers-types@npm:^4.20230221.0":
+  version: 4.20230221.0
+  resolution: "@cloudflare/workers-types@npm:4.20230221.0"
+  checksum: 765f5a6b3ad5b45f2d83aabbf50b8d023f7049dad3614d59d181fb14d87d472866fc285a81c28e0921772dad253e4d6b7652ad52e7df770a70a5f85bf2dd5204
   languageName: node
   linkType: hard
 
@@ -2799,204 +2799,204 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@miniflare/cache@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/cache@npm:2.12.0"
+"@miniflare/cache@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/cache@npm:2.12.1"
   dependencies:
-    "@miniflare/core": 2.12.0
-    "@miniflare/shared": 2.12.0
+    "@miniflare/core": 2.12.1
+    "@miniflare/shared": 2.12.1
     http-cache-semantics: ^4.1.0
-    undici: 5.11.0
-  checksum: 2fa31433573a48edda15b21bed7fe0e7d1239fa57eaff747bfcd6e944a91f28781e94d609a6b92893859b0e6e2b87cf62311f22422f709a026071cdbce8c1f15
+    undici: 5.20.0
+  checksum: c1d8d5ce63e858ad940f7c943436d2eceaddabbfcab9b1afb81f4b85d0215425eac535339dc85624366513fe2876d1f48d553d3d2424bec38a2fa608c10fa54a
   languageName: node
   linkType: hard
 
-"@miniflare/cli-parser@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/cli-parser@npm:2.12.0"
+"@miniflare/cli-parser@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/cli-parser@npm:2.12.1"
   dependencies:
-    "@miniflare/shared": 2.12.0
+    "@miniflare/shared": 2.12.1
     kleur: ^4.1.4
-  checksum: ac36d64296aa6b90bbf9ba8a192d8bfcd29917eb6b6a3074103f4652ae1b2328709aba6743f8f4c6088519604c02085b1d242918586a94048f9bbaf58addd767
+  checksum: c79de3770b173bfb881cb68cfbb06ca8c0243d04488bbdcf2b58e6178112c2c50423938fa5b1a9a1331e54778b0039206322fbc1003775efa17c87a8f9d6f245
   languageName: node
   linkType: hard
 
-"@miniflare/core@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/core@npm:2.12.0"
+"@miniflare/core@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/core@npm:2.12.1"
   dependencies:
     "@iarna/toml": ^2.2.5
-    "@miniflare/queues": 2.12.0
-    "@miniflare/shared": 2.12.0
-    "@miniflare/watcher": 2.12.0
+    "@miniflare/queues": 2.12.1
+    "@miniflare/shared": 2.12.1
+    "@miniflare/watcher": 2.12.1
     busboy: ^1.6.0
     dotenv: ^10.0.0
     kleur: ^4.1.4
     set-cookie-parser: ^2.4.8
-    undici: 5.11.0
+    undici: 5.20.0
     urlpattern-polyfill: ^4.0.3
-  checksum: 69d09b784daa59e64d165d79e2df9b2c86dfab1a3b190a6288ad4765707668178480dce1f1e3a2f9eebb16bcd3db8a5b004d12db4a80a6cbaf9b5f2dbb5051d7
+  checksum: cb2647cb171e92fc8653f2a07719e4d7eaf4f555e2d8fbb8fba8be88ec1a0d4cb8281b623297d4bd634ba3f618caedc394366c6713a843236bf10b53de12f8d6
   languageName: node
   linkType: hard
 
-"@miniflare/d1@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/d1@npm:2.12.0"
+"@miniflare/d1@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/d1@npm:2.12.1"
   dependencies:
-    "@miniflare/core": 2.12.0
-    "@miniflare/shared": 2.12.0
-  checksum: 2e33eebadca0cbb5ec6dc936829987e520188e95b06709c07426d8d659753f82c706cae76391b98ab86c46a3e43ce947afac37fba719bd63b31541199170bfa8
+    "@miniflare/core": 2.12.1
+    "@miniflare/shared": 2.12.1
+  checksum: 98113d1392ac710a7bf04df4cb10a2b80df23f06089b4780b2e46049c5b13b082ab265b08b090bf461e1bb2db60487e5ecee24b4a99b7485bc439f10fc69828d
   languageName: node
   linkType: hard
 
-"@miniflare/durable-objects@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/durable-objects@npm:2.12.0"
+"@miniflare/durable-objects@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/durable-objects@npm:2.12.1"
   dependencies:
-    "@miniflare/core": 2.12.0
-    "@miniflare/shared": 2.12.0
-    "@miniflare/storage-memory": 2.12.0
-    undici: 5.11.0
-  checksum: 056ca5f9c6df88f0686827088ba07749f37c66e17ced1e60cfa255101161e61def40e70d85d36dd643565f2292bab24bf4e50b68b8639dadfbb40a147c787279
+    "@miniflare/core": 2.12.1
+    "@miniflare/shared": 2.12.1
+    "@miniflare/storage-memory": 2.12.1
+    undici: 5.20.0
+  checksum: cc0bc92b3165544d35af6a409622a2b1f66de96de7445bdd8b4417d5726ebd9dd5bb79a97923ad7cf5a9f3edee131c94143e6d1f7d7db2aae2ec73eab0102bdf
   languageName: node
   linkType: hard
 
-"@miniflare/html-rewriter@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/html-rewriter@npm:2.12.0"
+"@miniflare/html-rewriter@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/html-rewriter@npm:2.12.1"
   dependencies:
-    "@miniflare/core": 2.12.0
-    "@miniflare/shared": 2.12.0
+    "@miniflare/core": 2.12.1
+    "@miniflare/shared": 2.12.1
     html-rewriter-wasm: ^0.4.1
-    undici: 5.11.0
-  checksum: 4c8d64f68421981d635e5d02d54b6114fda813db06cdcab9a00b3675bc59e175bd3bdd131f37155602807e9f82b7bc0ddfcae52882442af236d3636a3483693f
+    undici: 5.20.0
+  checksum: 2fe84e624a1b4f574f291ea09c74f3069c3ad144f161b2c395b74e37910239224373acfddc4843526cf2aa9f227664c39adf14d8c9342f288db1a437a535aa7a
   languageName: node
   linkType: hard
 
-"@miniflare/http-server@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/http-server@npm:2.12.0"
+"@miniflare/http-server@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/http-server@npm:2.12.1"
   dependencies:
-    "@miniflare/core": 2.12.0
-    "@miniflare/shared": 2.12.0
-    "@miniflare/web-sockets": 2.12.0
+    "@miniflare/core": 2.12.1
+    "@miniflare/shared": 2.12.1
+    "@miniflare/web-sockets": 2.12.1
     kleur: ^4.1.4
     selfsigned: ^2.0.0
-    undici: 5.11.0
+    undici: 5.20.0
     ws: ^8.2.2
     youch: ^2.2.2
-  checksum: 8d57613fcaa493fae28892b1afa9ab2fc84239f59a89eb2f506526df0a4bc86735ea53b8dab1e10de9ebd6aef329ab9cd375470d2e8e4523affe71001561b46f
+  checksum: 83153917d0319e3a400749aae6fd12fc4e356dd2de8ec85360ca0ea89e1bdcef9a17433ddf4b3689a62ee39f86e05f840f4fae105efc441d55524e414ddd574a
   languageName: node
   linkType: hard
 
-"@miniflare/kv@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/kv@npm:2.12.0"
+"@miniflare/kv@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/kv@npm:2.12.1"
   dependencies:
-    "@miniflare/shared": 2.12.0
-  checksum: c8268d81d6fd25871dde42d10f5542f7c679a5be60a2a71d913c7b5fdeb40f664dd14cc670180be49a913bffb86d5d31bca1ae0279c34bd254007fdae1abad29
+    "@miniflare/shared": 2.12.1
+  checksum: 186e80be7fbf76649ca6ab848aafbbc4804a6c320182c89afa8dd9980a6853f2d6ab5eba9da98b22a3c5fe841fe1aeb10c7dec1b9989e22e815491c909708e16
   languageName: node
   linkType: hard
 
-"@miniflare/queues@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/queues@npm:2.12.0"
+"@miniflare/queues@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/queues@npm:2.12.1"
   dependencies:
-    "@miniflare/shared": 2.12.0
-  checksum: d2c42dae8bc7afc9cc4e88f32ccc45e0b979493aa23e0d16256884d9e9e0dc5a1a58429a866e267c5ca55743ce976a725c142c6cbce93e7415f64b5ce97282e5
+    "@miniflare/shared": 2.12.1
+  checksum: d72e700c8f615ab4798d99a434184fbfac444352dbbbc7cecc47256e656a1a355bd0a560a26612ebe9f8c0c523102f986a0787c3c4074bcc3a3a1faf35f34a5f
   languageName: node
   linkType: hard
 
-"@miniflare/r2@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/r2@npm:2.12.0"
+"@miniflare/r2@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/r2@npm:2.12.1"
   dependencies:
-    "@miniflare/shared": 2.12.0
-    undici: 5.11.0
-  checksum: 043ab7dee89514105b1d01a7ba9b345f069e540bff13fe784e7cda6820dcb1329e6a2ff786a8b5a403b15f2c694d7c67890ed1209dc66dc40aecfaac6edd7332
+    "@miniflare/shared": 2.12.1
+    undici: 5.20.0
+  checksum: 6b7add136e8a543f5aa68d004687180b8eadd698d027da7ad94fc24190a6bb22c86e400db9179b77cb9d3dbf486b0f1e587c4c6e445fd6fd9b1e473c7794cb36
   languageName: node
   linkType: hard
 
-"@miniflare/runner-vm@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/runner-vm@npm:2.12.0"
+"@miniflare/runner-vm@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/runner-vm@npm:2.12.1"
   dependencies:
-    "@miniflare/shared": 2.12.0
-  checksum: 1822a9aa8ad714c38d730eb668da90cb068851c8d2536eb470f8496c8e0b61b80e3a2a20b85b7f035cb5ab7779884b45ed2b66af7de3083bde1116793aded3d1
+    "@miniflare/shared": 2.12.1
+  checksum: f13ec3fa995d53f48ad47b00665ee2ce8d4efc1a28d1b0c2eaabec59dc964c8d38fbf0deed4081a028f7ddb2f1451c271e1f59099a7989f3d67930a002f17d77
   languageName: node
   linkType: hard
 
-"@miniflare/scheduler@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/scheduler@npm:2.12.0"
+"@miniflare/scheduler@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/scheduler@npm:2.12.1"
   dependencies:
-    "@miniflare/core": 2.12.0
-    "@miniflare/shared": 2.12.0
+    "@miniflare/core": 2.12.1
+    "@miniflare/shared": 2.12.1
     cron-schedule: ^3.0.4
-  checksum: 18b8b6334400b8192cb786ea69e0e5d0c0176271b4b92f6e37a883fa64e8861204d8f557ad5df970b74a33b6129b5fac57b89d25099f4280f7012750a190a3a4
+  checksum: afee3a3e7916139c9735b33257d91faab1a6db431dae24aa34834f3f0ba083becc5a8f1780891ad43a47ea0df3d58b1dad8f8e8532300db406c14278c67f458b
   languageName: node
   linkType: hard
 
-"@miniflare/shared@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/shared@npm:2.12.0"
+"@miniflare/shared@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/shared@npm:2.12.1"
   dependencies:
     "@types/better-sqlite3": ^7.6.0
     kleur: ^4.1.4
     npx-import: ^1.1.4
     picomatch: ^2.3.1
-  checksum: 9b57769e2da828513fd1c16871831aef07042e8cddc634599287e57acccd740159818e810e339e923975f6d6d8d14ba355b7905e10eafee21dd32c540ab6fdbf
+  checksum: 3091baefed4a6f0571e71014ab31306d24484c0a4a9f85c4c6c17b0315d9defedbeac50eb9d7aa16923d4ca9f29482243e8dd259e22b9d367142cfb6784627d5
   languageName: node
   linkType: hard
 
-"@miniflare/sites@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/sites@npm:2.12.0"
+"@miniflare/sites@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/sites@npm:2.12.1"
   dependencies:
-    "@miniflare/kv": 2.12.0
-    "@miniflare/shared": 2.12.0
-    "@miniflare/storage-file": 2.12.0
-  checksum: 28a81b29953c16d38ac6fe45f120d7ca74791bd3ddc217023f4221638f8be79944df1c46f5f50a1caf4b1d41d47eba79be3b4374915a144951de0a082c46bb8d
+    "@miniflare/kv": 2.12.1
+    "@miniflare/shared": 2.12.1
+    "@miniflare/storage-file": 2.12.1
+  checksum: 9dd95a1f8754fdb4b87d7c72e1d7b5cce2f98d565f428266426f6d1d2a127f291838a1393c44143867b4afbea954d433fd2db37f3e71f7a0c4f19211e9e8b8ec
   languageName: node
   linkType: hard
 
-"@miniflare/storage-file@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/storage-file@npm:2.12.0"
+"@miniflare/storage-file@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/storage-file@npm:2.12.1"
   dependencies:
-    "@miniflare/shared": 2.12.0
-    "@miniflare/storage-memory": 2.12.0
-  checksum: 6c3fa565e24c95c73fcabb37446f1e9a90a949dc534e7d95d9463e0f58391c8906e8bc88138f974e25321176d9ae3d146d067246bfa604404733270c9021f412
+    "@miniflare/shared": 2.12.1
+    "@miniflare/storage-memory": 2.12.1
+  checksum: dc2e548ad1f40f9b2c15b5456f809f2d18df9d78ed13dd59faef5c7308a8b9651d6e7e5cd5b24d5babd4eca1915259f5d26ec53e10346e65cd6111fa4f677179
   languageName: node
   linkType: hard
 
-"@miniflare/storage-memory@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/storage-memory@npm:2.12.0"
+"@miniflare/storage-memory@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/storage-memory@npm:2.12.1"
   dependencies:
-    "@miniflare/shared": 2.12.0
-  checksum: 5d5f6b3c28bfa9e3658563105572435e24358725e8037d13fe496df50346d6b2af794a151144d76cc066b0ce5dd154f1929c6be6c39adf81142e7bc7a8a0cc54
+    "@miniflare/shared": 2.12.1
+  checksum: cc85a0f8cb6fd7050da05fc2aa4fae4e2fea57f1a9df0b7c0486c02d7419ce5b6ce90020cf154b70ab5be88f5f5b055185b2c0abd7fcb71f64f23e80e5f0ed2d
   languageName: node
   linkType: hard
 
-"@miniflare/watcher@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/watcher@npm:2.12.0"
+"@miniflare/watcher@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/watcher@npm:2.12.1"
   dependencies:
-    "@miniflare/shared": 2.12.0
-  checksum: ef65b67a29b45041934b844d8d7e49a4fc98e96f134e63eaeda38a8b64abf2bd54f543ee5d736645cc9de3fbbb66f24ac05e4bbcfeeb729342132222a28b1a78
+    "@miniflare/shared": 2.12.1
+  checksum: 579aa350cdf4279065eb359e8f5cd3406041553c507d5e4cd563ea6b809bc44ea60fb54735227116f62c1f42d982ce2671b923651785eb2eba59f8ef5a36a904
   languageName: node
   linkType: hard
 
-"@miniflare/web-sockets@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@miniflare/web-sockets@npm:2.12.0"
+"@miniflare/web-sockets@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@miniflare/web-sockets@npm:2.12.1"
   dependencies:
-    "@miniflare/core": 2.12.0
-    "@miniflare/shared": 2.12.0
-    undici: 5.11.0
+    "@miniflare/core": 2.12.1
+    "@miniflare/shared": 2.12.1
+    undici: 5.20.0
     ws: ^8.2.2
-  checksum: 2ba60ed6f715656232ecfe14525aab3c89f81e8ad5f25b89fddc99fee422fb05f236151d859b83884162592e7b8ff9816e5b166f7de0e34ffdb4a5bb385fc133
+  checksum: ec44a419d302b3063470c231fd1a883ecfc2c4e817317601d6e56a9542a860bbdcbaaf08bbce4e70ef3f9dd516cf260f7918f4499eaef3379201ac031a84e5b0
   languageName: node
   linkType: hard
 
@@ -3497,90 +3497,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-darwin-arm64@npm:1.3.35"
+"@swc/core-darwin-arm64@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-darwin-arm64@npm:1.3.36"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-darwin-x64@npm:1.3.35"
+"@swc/core-darwin-x64@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-darwin-x64@npm:1.3.36"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.35"
+"@swc/core-linux-arm-gnueabihf@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.36"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.35"
+"@swc/core-linux-arm64-gnu@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.36"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-linux-arm64-musl@npm:1.3.35"
+"@swc/core-linux-arm64-musl@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-linux-arm64-musl@npm:1.3.36"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-linux-x64-gnu@npm:1.3.35"
+"@swc/core-linux-x64-gnu@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-linux-x64-gnu@npm:1.3.36"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-linux-x64-musl@npm:1.3.35"
+"@swc/core-linux-x64-musl@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-linux-x64-musl@npm:1.3.36"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.35"
+"@swc/core-win32-arm64-msvc@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.36"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.35"
+"@swc/core-win32-ia32-msvc@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.36"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core-win32-x64-msvc@npm:1.3.35"
+"@swc/core-win32-x64-msvc@npm:1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core-win32-x64-msvc@npm:1.3.36"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core@npm:^1.3.35":
-  version: 1.3.35
-  resolution: "@swc/core@npm:1.3.35"
+"@swc/core@npm:^1.3.36":
+  version: 1.3.36
+  resolution: "@swc/core@npm:1.3.36"
   dependencies:
-    "@swc/core-darwin-arm64": 1.3.35
-    "@swc/core-darwin-x64": 1.3.35
-    "@swc/core-linux-arm-gnueabihf": 1.3.35
-    "@swc/core-linux-arm64-gnu": 1.3.35
-    "@swc/core-linux-arm64-musl": 1.3.35
-    "@swc/core-linux-x64-gnu": 1.3.35
-    "@swc/core-linux-x64-musl": 1.3.35
-    "@swc/core-win32-arm64-msvc": 1.3.35
-    "@swc/core-win32-ia32-msvc": 1.3.35
-    "@swc/core-win32-x64-msvc": 1.3.35
+    "@swc/core-darwin-arm64": 1.3.36
+    "@swc/core-darwin-x64": 1.3.36
+    "@swc/core-linux-arm-gnueabihf": 1.3.36
+    "@swc/core-linux-arm64-gnu": 1.3.36
+    "@swc/core-linux-arm64-musl": 1.3.36
+    "@swc/core-linux-x64-gnu": 1.3.36
+    "@swc/core-linux-x64-musl": 1.3.36
+    "@swc/core-win32-arm64-msvc": 1.3.36
+    "@swc/core-win32-ia32-msvc": 1.3.36
+    "@swc/core-win32-x64-msvc": 1.3.36
   dependenciesMeta:
     "@swc/core-darwin-arm64":
       optional: true
@@ -3602,7 +3602,7 @@ __metadata:
       optional: true
     "@swc/core-win32-x64-msvc":
       optional: true
-  checksum: 263e01904fe4f4d6cbf6deef90439d6d93f28c04252d917fc290aadde131a1716820eb488a615b3c0dbe3f48d6d7ac0f1c886e2c2acd07a72e3d99e4a245b3de
+  checksum: 36e96e86d1ab8fd84eb51e7264a7ae781ee7e507d36b9ccc028d7f31a2ccf2949f074656e34139c970196774d24d55a54c3aa5c53d04eb6e3569c71cbfed0c0d
   languageName: node
   linkType: hard
 
@@ -4100,13 +4100,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.52.0":
-  version: 5.52.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:5.52.0"
+"@typescript-eslint/eslint-plugin@npm:^5.53.0":
+  version: 5.53.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:5.53.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.52.0
-    "@typescript-eslint/type-utils": 5.52.0
-    "@typescript-eslint/utils": 5.52.0
+    "@typescript-eslint/scope-manager": 5.53.0
+    "@typescript-eslint/type-utils": 5.53.0
+    "@typescript-eslint/utils": 5.53.0
     debug: ^4.3.4
     grapheme-splitter: ^1.0.4
     ignore: ^5.2.0
@@ -4120,7 +4120,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: cff07ee94d8ab2a1b6c33b5c5bf641eff2bf2bebc0f35a9d8b3f128fd610e27a4aaf620bc2ad23608ad161b1810b7e32e5a2e0f746cc5094c3f506f7a14daa34
+  checksum: 12dffe65969d8e5248c86a700fe46a737e55ecafb276933e747b4731eab6266fe55e2d43a34b8b340179fe248e127d861cd016a7614b1b9804cd0687c99616d1
   languageName: node
   linkType: hard
 
@@ -4141,20 +4141,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.52.0":
-  version: 5.52.0
-  resolution: "@typescript-eslint/parser@npm:5.52.0"
+"@typescript-eslint/parser@npm:^5.53.0":
+  version: 5.53.0
+  resolution: "@typescript-eslint/parser@npm:5.53.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.52.0
-    "@typescript-eslint/types": 5.52.0
-    "@typescript-eslint/typescript-estree": 5.52.0
+    "@typescript-eslint/scope-manager": 5.53.0
+    "@typescript-eslint/types": 5.53.0
+    "@typescript-eslint/typescript-estree": 5.53.0
     debug: ^4.3.4
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 1d8ff6e932f9c9db8d24b16ce89fd963f0982c38559e500aa1f8dc5cd66abd02f1659dd1a1361ce550def05331803caa69a69a039b54c94fc0f22919a2305c12
+  checksum: 979e5d63793a9e64998b1f956ba0f00f8a2674db3a664fafce7b2433323f5248bd776af8305e2419d73a9d94c55176fee099abc5c153b4cc52e5765c725c1edd
   languageName: node
   linkType: hard
 
@@ -4168,22 +4168,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/scope-manager@npm:5.52.0":
-  version: 5.52.0
-  resolution: "@typescript-eslint/scope-manager@npm:5.52.0"
+"@typescript-eslint/scope-manager@npm:5.53.0":
+  version: 5.53.0
+  resolution: "@typescript-eslint/scope-manager@npm:5.53.0"
   dependencies:
-    "@typescript-eslint/types": 5.52.0
-    "@typescript-eslint/visitor-keys": 5.52.0
-  checksum: 9a03fe30f8e90a5106c482478f213eefdd09f2f74e24d9dc59b453885466a758fe6d1cd24d706aed6188fb03c84b16ca6491cf20da6b16b8fc53cad8b8c327f2
+    "@typescript-eslint/types": 5.53.0
+    "@typescript-eslint/visitor-keys": 5.53.0
+  checksum: 51f31dc01e95908611f402441f58404da80a338c0237b2b82f4a7b0b2e8868c4bfe8f7cf44b2567dd56533de609156a5d4ac54bb1f9f09c7014b99428aef2543
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:5.52.0":
-  version: 5.52.0
-  resolution: "@typescript-eslint/type-utils@npm:5.52.0"
+"@typescript-eslint/type-utils@npm:5.53.0":
+  version: 5.53.0
+  resolution: "@typescript-eslint/type-utils@npm:5.53.0"
   dependencies:
-    "@typescript-eslint/typescript-estree": 5.52.0
-    "@typescript-eslint/utils": 5.52.0
+    "@typescript-eslint/typescript-estree": 5.53.0
+    "@typescript-eslint/utils": 5.53.0
     debug: ^4.3.4
     tsutils: ^3.21.0
   peerDependencies:
@@ -4191,7 +4191,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: ac5422040461febab8a2eeec76d969024ccff76203dec357f7220c9b5e0dde96e3e3a76fd4118d42b50bd5bfb3a194aaceeb63417a2ac4e1ebf5e687558a9a10
+  checksum: 52c40967c5fabd58c2ae8bf519ef89e4feb511e4df630aeaeac8335661a79b6b3a32d30a61a5f1d8acc703f21c4d90751a5d41cda1b35d08867524da11bc2e1d
   languageName: node
   linkType: hard
 
@@ -4202,10 +4202,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:5.52.0":
-  version: 5.52.0
-  resolution: "@typescript-eslint/types@npm:5.52.0"
-  checksum: 018940d61aebf7cf3f7de1b9957446e2ea01f08fe950bef4788c716a3a88f7c42765fe7d80152b0d0428fcd4bd3ace2dfa8c459ba1c59d9a84e951642180f869
+"@typescript-eslint/types@npm:5.53.0":
+  version: 5.53.0
+  resolution: "@typescript-eslint/types@npm:5.53.0"
+  checksum: b0eaf23de4ab13697d4d2095838c959a3f410c30f0d19091e5ca08e62320c3cc3c72bcb631823fb6a4fbb31db0a059e386a0801244930d0a88a6a698e5f46548
   languageName: node
   linkType: hard
 
@@ -4227,12 +4227,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:5.52.0":
-  version: 5.52.0
-  resolution: "@typescript-eslint/typescript-estree@npm:5.52.0"
+"@typescript-eslint/typescript-estree@npm:5.53.0":
+  version: 5.53.0
+  resolution: "@typescript-eslint/typescript-estree@npm:5.53.0"
   dependencies:
-    "@typescript-eslint/types": 5.52.0
-    "@typescript-eslint/visitor-keys": 5.52.0
+    "@typescript-eslint/types": 5.53.0
+    "@typescript-eslint/visitor-keys": 5.53.0
     debug: ^4.3.4
     globby: ^11.1.0
     is-glob: ^4.0.3
@@ -4241,25 +4241,25 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 67d396907fee3d6894e26411a5098a37f07e5d50343189e6361ff7db91c74a7ffe2abd630d11f14c2bda1f4af13edf52b80b11cbccb55b44079c7cec14c9e108
+  checksum: 6e119c8e4167c8495d728c5556a834545a9c064918dd5e7b79b0d836726f4f8e2a0297b0ac82bf2b71f1e5427552217d0b59d8fb1406fd79bd3bf91b75dca873
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.52.0":
-  version: 5.52.0
-  resolution: "@typescript-eslint/utils@npm:5.52.0"
+"@typescript-eslint/utils@npm:5.53.0":
+  version: 5.53.0
+  resolution: "@typescript-eslint/utils@npm:5.53.0"
   dependencies:
     "@types/json-schema": ^7.0.9
     "@types/semver": ^7.3.12
-    "@typescript-eslint/scope-manager": 5.52.0
-    "@typescript-eslint/types": 5.52.0
-    "@typescript-eslint/typescript-estree": 5.52.0
+    "@typescript-eslint/scope-manager": 5.53.0
+    "@typescript-eslint/types": 5.53.0
+    "@typescript-eslint/typescript-estree": 5.53.0
     eslint-scope: ^5.1.1
     eslint-utils: ^3.0.0
     semver: ^7.3.7
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 01906be5262ece36537e9d586e4d2d4791e05752a9354bcb42b1f5bf965f53daa13309c61c3dff5e201ea28c298e4e01cf0c93738afa0099fea0da3b1d8cb3a5
+  checksum: 18e6bac14ae853385a74123759850bca367904723e170c37416fc014673eb714afb6bb090367bff61494a8387e941b6af65ee5f4f845f7177fabb4df85e01643
   languageName: node
   linkType: hard
 
@@ -4273,13 +4273,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/visitor-keys@npm:5.52.0":
-  version: 5.52.0
-  resolution: "@typescript-eslint/visitor-keys@npm:5.52.0"
+"@typescript-eslint/visitor-keys@npm:5.53.0":
+  version: 5.53.0
+  resolution: "@typescript-eslint/visitor-keys@npm:5.53.0"
   dependencies:
-    "@typescript-eslint/types": 5.52.0
+    "@typescript-eslint/types": 5.53.0
     eslint-visitor-keys: ^3.3.0
-  checksum: 33b44f0cd35b7b47f34e89d52e47b8d8200f55af306b22db4de104d79f65907458ea022e548f50d966e32fea150432ac9c1ae65b3001b0ad2ac8a17c0211f370
+  checksum: 090695883c15364c6f401e97f56b13db0f31c1114f3bd22562bd41734864d27f6a3c80de33957e9dedab2d5f94b0f4480ba3fde1d4574e74dca4593917b7b54a
   languageName: node
   linkType: hard
 
@@ -5595,7 +5595,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cho-sh@workspace:."
   dependencies:
-    "@cloudflare/workers-types": ^4.20230215.0
+    "@cloudflare/workers-types": ^4.20230221.0
     "@docusaurus/core": ^2.3.1
     "@docusaurus/module-type-aliases": ^2.3.1
     "@docusaurus/plugin-client-redirects": ^2.3.1
@@ -5607,11 +5607,11 @@ __metadata:
     "@giscus/react": ^2.2.6
     "@mdx-js/react": ^1.6.22
     "@swc/cli": ^0.1.62
-    "@swc/core": ^1.3.35
+    "@swc/core": ^1.3.36
     "@tsconfig/docusaurus": ^1.0.6
     "@types/node": ^18.14.0
-    "@typescript-eslint/eslint-plugin": ^5.52.0
-    "@typescript-eslint/parser": ^5.52.0
+    "@typescript-eslint/eslint-plugin": ^5.53.0
+    "@typescript-eslint/parser": ^5.53.0
     babel-eslint: ^10.1.0
     clsx: ^1.2.1
     cobe: ^0.6.3
@@ -5639,7 +5639,7 @@ __metadata:
     ts-node: ^10.9.1
     typescript: ^4.9.5
     webpack: ^5.75.0
-    wrangler: 2.10.0
+    wrangler: 2.11.0
   languageName: unknown
   linkType: soft
 
@@ -10771,33 +10771,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:2.12.0":
-  version: 2.12.0
-  resolution: "miniflare@npm:2.12.0"
+"miniflare@npm:2.12.1":
+  version: 2.12.1
+  resolution: "miniflare@npm:2.12.1"
   dependencies:
-    "@miniflare/cache": 2.12.0
-    "@miniflare/cli-parser": 2.12.0
-    "@miniflare/core": 2.12.0
-    "@miniflare/d1": 2.12.0
-    "@miniflare/durable-objects": 2.12.0
-    "@miniflare/html-rewriter": 2.12.0
-    "@miniflare/http-server": 2.12.0
-    "@miniflare/kv": 2.12.0
-    "@miniflare/queues": 2.12.0
-    "@miniflare/r2": 2.12.0
-    "@miniflare/runner-vm": 2.12.0
-    "@miniflare/scheduler": 2.12.0
-    "@miniflare/shared": 2.12.0
-    "@miniflare/sites": 2.12.0
-    "@miniflare/storage-file": 2.12.0
-    "@miniflare/storage-memory": 2.12.0
-    "@miniflare/web-sockets": 2.12.0
+    "@miniflare/cache": 2.12.1
+    "@miniflare/cli-parser": 2.12.1
+    "@miniflare/core": 2.12.1
+    "@miniflare/d1": 2.12.1
+    "@miniflare/durable-objects": 2.12.1
+    "@miniflare/html-rewriter": 2.12.1
+    "@miniflare/http-server": 2.12.1
+    "@miniflare/kv": 2.12.1
+    "@miniflare/queues": 2.12.1
+    "@miniflare/r2": 2.12.1
+    "@miniflare/runner-vm": 2.12.1
+    "@miniflare/scheduler": 2.12.1
+    "@miniflare/shared": 2.12.1
+    "@miniflare/sites": 2.12.1
+    "@miniflare/storage-file": 2.12.1
+    "@miniflare/storage-memory": 2.12.1
+    "@miniflare/web-sockets": 2.12.1
     kleur: ^4.1.4
     semiver: ^1.1.0
     source-map-support: ^0.5.20
-    undici: 5.11.0
+    undici: 5.20.0
   peerDependencies:
-    "@miniflare/storage-redis": 2.12.0
+    "@miniflare/storage-redis": 2.12.1
     cron-schedule: ^3.0.4
     ioredis: ^4.27.9
   peerDependenciesMeta:
@@ -10809,7 +10809,7 @@ __metadata:
       optional: true
   bin:
     miniflare: bootstrap.js
-  checksum: ec3df8c76383f0299fe8dec6e801547e613cc94c8ee8be9ab79c7f2a31b46ef922a87a0d24bdc26dcfb53a95280f91994f3b5c22d192274fc94e608e6734eff3
+  checksum: 6f3fcc7b240ae945e2521146c053923296c9119efdd435830e1366bc52cf046f511c3cd51238de269a9fed0afddb19a6f27aa139f22c6022868eecde2b0ddb64
   languageName: node
   linkType: hard
 
@@ -14899,12 +14899,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:5.11.0":
-  version: 5.11.0
-  resolution: "undici@npm:5.11.0"
+"undici@npm:5.20.0":
+  version: 5.20.0
+  resolution: "undici@npm:5.20.0"
   dependencies:
     busboy: ^1.6.0
-  checksum: 20669ef4023d24a75e81ed8142829f525f16af14d61f833b5f19cfc6bed7c706adde343a190d764dcceb227eba3211222d2b194010462a2ca221a7da0487f563
+  checksum: 25412a785b2bd0b12f0bb0ec47ef00aa7a611ca0e570cb7af97cffe6a42e0d78e4b15190363a43771e9002defc3c6647c1b2d52201b3f64e2196819db4d150d3
   languageName: node
   linkType: hard
 
@@ -15936,21 +15936,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:2.10.0":
-  version: 2.10.0
-  resolution: "wrangler@npm:2.10.0"
+"wrangler@npm:2.11.0":
+  version: 2.11.0
+  resolution: "wrangler@npm:2.11.0"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.2.0
     "@esbuild-plugins/node-globals-polyfill": ^0.1.1
     "@esbuild-plugins/node-modules-polyfill": ^0.1.4
-    "@miniflare/core": 2.12.0
-    "@miniflare/d1": 2.12.0
-    "@miniflare/durable-objects": 2.12.0
+    "@miniflare/core": 2.12.1
+    "@miniflare/d1": 2.12.1
+    "@miniflare/durable-objects": 2.12.1
     blake3-wasm: ^2.1.5
     chokidar: ^3.5.3
     esbuild: 0.16.3
     fsevents: ~2.3.2
-    miniflare: 2.12.0
+    miniflare: 2.12.1
     nanoid: ^3.3.3
     path-to-regexp: ^6.2.0
     selfsigned: ^2.0.1
@@ -15962,7 +15962,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: c7161ba59eea331139e793d84c8f278a447516bca2ad2e7656c698f942b49d987a14301eb32331b9c910f8a69db6f81f6b069ff815d6db43ab23ec6d3529a0fd
+  checksum: a1db8bfbc7a5834ab3697609bc51f0a70a2e22d4049d0dc21831e5164a5e8717a5ad96c85474f6530d1da2870c44c3a119eb38c8ec517d0d9399effd15d2465f
   languageName: node
   linkType: hard
 

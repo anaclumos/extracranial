@@ -294,9 +294,6 @@ export const backlinks = {
     "2023-01-26": {
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-01-26]]: 면접 준비하느라 하지 못했다. 하지만 30분 산책했다."
     },
-    "2022-12-24": {
-        "In-house and Free Market": "- [[2022-12-24]]: Can independent scientists ever win again?"
-    },
     "2022-09-14": {
         "Person E7CFC5": "- Interviewed on [[2022-09-14]]"
     },
@@ -1731,7 +1728,9 @@ export const backlinks = {
     },
     "In-house and Free Market": {
         "2022-12-24": "- [[In-house and Free Market]]: Can independent scientists ever win again?",
-        "I travel the World Wide Web": "- [[In-house and Free Market]]"
+        "2023-02-22": "- [[In-house and Free Market]]",
+        "I travel the World Wide Web": "- [[In-house and Free Market]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0222 | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]        ..."
     },
     "Handling files in Unix": {
         "Internetworking": "- [[Handling files in Unix]]"
@@ -1802,6 +1801,7 @@ export const backlinks = {
     },
     "민사고": {
         "2023-01-12": "- [[민사고]]",
+        "In-house and Free Market": "This is a question I asked at [[민사고|KMLA]].",
         "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "... Heroku가 AWS에 비해 몇몇 장점이 있다는 것을 알게 되었다. 예전에 개발했던 [[민사고]] 공문서 모음집을 Heroku로 옮겼다.",
         "공강에서 보내는 공강 활용법": "공강에서 보내는 공강 활용법이라니, 조금 이상하게 들리는 말인 것 같습니다. [[민사고|민족사관고등학교]]에서 공강은 두 가지 의미를 가지고 있습니다. 첫 번째는 누구나 사용할 수 ...",
         "국가와 민족": "- [[민사고|민족사관고등학교]]에서 배운 것 중 하나이다.",
@@ -1812,6 +1812,7 @@ export const backlinks = {
         "불가사리": "[[민사고]] 재학 시절 만들었던 아트워크",
         "식영부원의 관점에서 바라본 치킨데이": "아시다시피 [[민사고|민족사관고등학교]]는 외부 음식을 구하기 어려운 산골 외딴 곳에 위치한 기숙사 학교입니다. 그렇기 ...",
         "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "... 기숙사 외부에서 만나게 될 평생 친구도 있을 것입니다. 오늘은 제가 느낀, [[민사고|민족사관고등학교]] (이하 [[민사고]]) 에서의 외부 친구 관계에 대해서 가볍게 이야기해보려고 합니다.",
+        "인하우스와 자유경쟁": "이 질문은 [[민사고]]에서 내가 던진 질문이었다.",
         "재학생일기": "[[민사고]]에 있던 학교 공식 일기 모음집이다.",
         "졸업을 앞둔 중학교 3학년들에게": "... 무렵이라고 할 수 있는 1월에 저는 가장 느슨해졌었는데, 마지막 2주 정도는 [[민사고]] 입학 준비하겠다고 과제로 나온 책 읽고, 한자 공부를 하고 그랬습니다. 그러고 ...",
         "코드클럽": "- [[민사고]] 3학년 때 설립한 동아리"
@@ -1891,6 +1892,7 @@ export const backlinks = {
         "2022-10-18": "- [[Preservation of Data]]"
     },
     "Antifragile": {
+        "Antifragily": "In an [[antifragile]] manner.",
         "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다."
     },
     "Pipelining": {
@@ -2223,6 +2225,9 @@ export const backlinks = {
         "Forward Declaration": "- [[Compiling|Compile]] time improvements",
         "How is WebAssembly cross-platform when Assembly is not": "- To run WebAssembly|WASM, the Web Browser|browser must still [[Compiling|compile]] the WebAssembly|WASM code into ASM code when executing; in that way, ...",
         "Preprocessor": "`#ifdef DEBUG` and `#endif` also exclude that block when [[compiling]] the production version."
+    },
+    "Antifragily": {
+        "In-house and Free Market": "Thankfully, I [[antifragily]] acquired uniqueness and my style."
     },
     "배달의민족 FE 개발자가 일하는 법 Q&A": {
         "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
@@ -3904,6 +3909,10 @@ export const backlinks = {
         "Visual Studio Code": "... Studio Code, also commonly referred to as VS Code, made by [[Microsoft]] with the Electron Framework, for Windows, [[Linux]] and macOS. Features include ...",
         "Workbench": "- For [[Microsoft]] Products, use App Store."
     },
+    "인하우스와 자유경쟁": {
+        "2023-02-22": "- [[인하우스와 자유경쟁]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0222 | 🇬🇧 In-house and Free Market <br/> 🇰🇷 [[인하우스와 자유경쟁]]            ..."
+    },
     "Port": {
         "Internetworking": "- [[Port]]",
         "Master Socket": "- binds it to a [[port]] and waits for a connection request.",
@@ -4498,11 +4507,13 @@ export const backlinks = {
         "2022-10-17": "- [[Memex]]",
         "As We May Think": "... a sort of collective memory machine with his concept of the [[memex]] that would make knowledge more accessible, believing that it would help ...",
         "Conversation with Mr. Kyle Park on 2023-02-15": "- Make a full [[Memex]] with [[Twitter]]",
+        "In-house and Free Market": "... insights and research on the web should be more accessible. This [[Memex]] is one branch of that thought.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a [[Memex]] or, in my term, [[Extracranial]] at https://cho.sh.",
         "Memex is more than a Memex": "- [[Memex]] is more than a Memex",
         "Plateau of Latent Potential": "It could be a form of Extracranial, a [[Memex]], or even [[Conversational AI Tools for Thought]].",
         "Preservation of Data": "- An important concept for [[Memex]] and [[Extracranial]]",
-        "Vannevar Bush": "... 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 ..."
+        "Vannevar Bush": "... 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 ...",
+        "인하우스와 자유경쟁": "... 사려 깊은 통찰과 연구를 작성하고 게시하는 것이 더 쉬워져야 한다. 이 [[Memex]]는 그 생각의 한 걸음이다."
     },
     "Ignoring $ for copy-pasting online resources to terminal": {
         "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
@@ -4653,7 +4664,8 @@ export const backlinks = {
         "2023-02-18": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-19": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-20": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-21": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-21": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-22": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -4921,7 +4933,6 @@ export const backlinks = {
         "2023-02-02": "## [[Hacker News]]",
         "2023-02-06": "## [[Hacker News]]",
         "2023-02-08": "## [[Hacker News]]",
-        "2023-02-22": "## [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing email server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -6477,6 +6488,9 @@ export const backlinks = {
     },
     "94972C.png": {
         "Rauno": "![[94972C.png]]"
+    },
+    "안티프래질": {
+        "인하우스와 자유경쟁": "나는 다행히도 [[안티프래질]]하게 독창성과 나만의 스타일을 가지게 되었다."
     },
     "webserver": {
         "Port": "- [[webserver]] → 80"
