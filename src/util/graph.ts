@@ -6,7 +6,7 @@ export type Node = {
   nodeRelSize: number
 }
 
-const includeJournalsInGraph = true
+const includeJournalsInGraph = false
 
 export const processBacklinksToGraph = (backlinks) => {
   const nodes: Node[] = []
