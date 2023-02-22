@@ -7,7 +7,7 @@ slug: '/93AA11'
 
 **Extracranial**. Situated or occurring outside the cranium.
 
-Extracranial is my term for an organized knowledge base on the web that aims to aid the creator's brain function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use [Docusaurus](https://docusaurus.io/) and [Obsidian](https://obsidian.md/). It is working reasonably well.
+Extracranial is my term for an organized knowledge base on the web that aims to aid the creator's brain function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use [Docusaurus](https://docusaurus.io/) and [[Obsidian]]. It is working reasonably well.
 
 ## State-of-the-art References
 

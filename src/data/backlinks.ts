@@ -442,18 +442,23 @@ export const backlinks = {
         "2022-12-02": "- [[ChatGPT]]",
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "2023-02-02": "- [[ChatGPT]]",
+        "2023-02-10": "- ChatGPT Is a Blurry JPEG of the Web. Think of [[ChatGPT]] as a blurry jpeg of all the text on the Web. ...",
+        "2023-02-21": "> [[ChatGPT]] is my best buddy for exploring and refining my thoughts. It ...",
         "AI-native": "Especially with the emergence of [[ChatGPT]].",
+        "Algorithmic Recommendation Engine for Texts": "- The tech that enabled [[ChatGPT]] also created new possibilities for social networks",
         "Bing": "... real questions, and get complete answers). The same OpenAI technology behind [[ChatGPT]] powers this feature.",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
         "Cool GPT Applications": "- [[ChatGPT]]",
+        "Proposal of Research to Professor Cote": "... given the recent boom of generative AIs, such as the recent [[ChatGPT]] (i.e., we now have the infinite AI monkey making infinite keystrokes). ...",
         "Readwise Reader": "- uses [[ChatGPT]]",
-        "Search AI": "## On [[ChatGPT]]",
+        "Search AI": "- In many ways, one might say that [[ChatGPT]] never \"truly understands\" things; it just \"knows how to produce stuff ...",
         "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 Bing [[ChatGPT]]에 검색을 해보았다.",
         "Synthote": "- [[ChatGPT]]",
         "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
         "The Era of Invites": "... an invitation system will never reach your attention. For example, did [[ChatGPT]] require an invite? Nope.",
+        "The Problems of ChatGPT": "- [[ChatGPT]] writes believable scientific abstracts",
         "기술 발전의 속도": "그런데 고작 3개월도 되지 않아 [[ChatGPT]]가 등장하며... 모든 것을 뒤바꾸어 놓았다. 역사는 갈수록 빠르게 흐르는가? 기술적 특이점은 ...",
         "초대장의 시대": "... 가진 스타트업이 성공하지 못하면 우리의 관심에 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
     },
@@ -467,6 +472,7 @@ export const backlinks = {
     "The Library of Babel": {
         "2022-11-24": "- [[The Library of Babel]]",
         "Information amongst Data": "[[The Library of Babel]] holds all data.",
+        "Proposal of Research to Professor Cote": "\"[[The Library of Babel]]\" by Jorge Luis Borges is a short story in which Borges ...",
         "The Photo Library of Babel": "[[The Library of Babel]]"
     },
     "Texts": {
@@ -538,9 +544,17 @@ export const backlinks = {
         "개성은 자연스레 주어지지 않는다": "- [[In The End Trust Yourself|결국에는 본인을 믿자]]"
     },
     "HTTP": {
+        "2023-02-16": "  - Development server. Spin up [[HTTP]] servers on-demand inside the WebContainer and receive a preview URL that ...",
+        "Cross-Origin Embedder Policy": "[[HTTP]] `Cross-Origin-Embedder-Policy` (COEP) 응답 헤더는 명시적으로 허용되지 않은 리소스를 불러오는 것을 차단합니다.",
+        "Cross-Origin Opener Policy": "[[HTTP]] `Cross-Origin-Opener-Policy` 응답 헤더는 최상위 문서가 Cross-Origin 문서와 Browsing Context를 공유하지 않도록 ...",
+        "DASH Protocol": "## Dynamic, Adaptive Streaming over [[HTTP]]",
+        "HTMX": "... tells HTMX: \"When a user clicks on this button, issue an [[HTTP]] POST request to '/clicked' and use the content from the response ...",
+        "Internet Protocol Stack": "- Application. FTP, SMTP, [[HTTP]]. Handles Messages. SSL belongs here",
         "Internetworking": "- [[HTTP]]",
         "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does that change the request-response rate?",
-        "Techs Actually Simple": "- Not to mention plaintext protocols. [[HTTP]], SMTP, FTP, and Redis Serialization Protocol (RESP) are a few examples"
+        "Proposal of Research to Professor Cote": "... developers to include. These can be embeddable JavaScript libraries or an [[HTTP]] API layer.",
+        "Techs Actually Simple": "- Not to mention plaintext protocols. [[HTTP]], SMTP, FTP, and Redis Serialization Protocol (RESP) are a few examples",
+        "http 없는 http 서버 만들기": "우아한테크캠프 2일차 Project|프로젝트 중 http 모듈 (당연히 `express` 모듈도) 없이 [[http]] 서버를 구현하는 Project|프로젝트가 있었다. 인터넷에 검색해 봐도 관련된 자료가 전혀 나오지 ..."
     },
     "Bing Chat for All Browsers in Japan": {
         "2023-02-19": "- [[Bing Chat for All Browsers in Japan]]",
@@ -618,7 +632,7 @@ export const backlinks = {
         "Internetworking": "- [[IP]]",
         "Preservation of Data": "- Find another [[IP]] without restrictions you are facing.",
         "Protocol Wars": "... States of America|U.S. Department of Defense was an early adopter of TCP/[[IP]]",
-        "http 없는 http 서버 만들기": "`http` 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ...",
+        "http 없는 http 서버 만들기": "http 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ...",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ..."
     },
     "CDN": {
@@ -733,6 +747,7 @@ export const backlinks = {
         "Web3": "- Censorship-resistant\" [[blockchain]] social networks became saturated with spam, driving away their actual users"
     },
     "GDB": {
+        "Inspecting Assembly": "| [[gdb]] `executable`   | starts executable      ...",
         "Internetworking": "- [[GDB]]"
     },
     "Singapore": {
@@ -825,7 +840,10 @@ export const backlinks = {
         "Uniform Distributions (Discrete)": "In [[Probability]],"
     },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
-        "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]"
+        "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]",
+        "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-24]]",
+        "2023-01-09": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]",
+        "Mental Simulation of Firefox and Signal as a Super App": "- As noted on the [[Letter to Mr. Matt Rickard on 2022-12-24]], the conditions for a [[Super App]] in the [[United States of ..."
     },
     "HLSL": {
         "2023-01-23": "- [[HLSL]]"
@@ -1220,6 +1238,8 @@ export const backlinks = {
         "2022-12-20": "- [[Unsemantic]]"
     },
     "Data Science": {
+        "2022-12-28": "- Facebook Notifications [[Data Science]] team at Meta",
+        "AI-native": "... scalability and availability, and improved cost-effectiveness. However, it also requires specialized [[data science]], ML, and cloud computing skills. In addition, it presents challenges around ...",
         "Deepnote": "- [[Data Science]] [[Collaboration-based Tools for Thought]]."
     },
     "Letter to Mr. Alexander Obenauer on 2022-10-12": {
@@ -1414,7 +1434,6 @@ export const backlinks = {
         "Conversation with Mr. Kyle Park on 2023-02-15": "- Talked about the fragmented nature of [[Twitter]].",
         "Cube": "- Feature: [[Twitter]]-to-Instagram-Card Mode?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "I'm at @anaclumos on GitHub, [[Twitter]], and any other platform.",
-        "Letter to Mr. Matt Rickard on 2022-12-23": "There are countless cases where [[Twitter]] troubled up, but the above point is the most prominent one. ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "There are countless cases where [[Twitter]] troubled up, but the above point is the most prominent one. ...",
         "Mastodon": "... self-hosted social networking services. It has microblogging features similar to the [[Twitter]] service, which are offered by a large number of independently run ...",
         "Mental Simulation of Firefox and Signal as a Super App": "- [[Twitter]], Facebook, Instagram, and Snapchat cannot be super apps because they have ...",
@@ -1677,7 +1696,7 @@ export const backlinks = {
         "Bing": "... with Bing, ask real questions, and get complete answers). The same [[OpenAI]] technology behind [[ChatGPT]] powers this feature.",
         "ChatGPT": "... Premium brings the latest technologies, including Large Language Models powered by [[OpenAI]]'s GPT-3.5, to make meetings more intelligent, personalized, and protected—whether it's one-on-one, ...",
         "Proposal of Research to Professor Cote": "... Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and ...",
-        "Search AI": "... 되어가고 있어요. 그럼 검색은 더 이상 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 ChatGPT에 많은 사람들이 놀라고 있어요. 모든 것의 정답을 주지는 못 하는데요. ..."
+        "Search AI": "... 되어가고 있어요. 그럼 검색은 더 이상 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 [[ChatGPT]]에 많은 사람들이 놀라고 있어요. 모든 것의 정답을 주지는 못 하는데요. ..."
     },
     "Readings": {
         "2022-09-07": "- [[Readings]]",
@@ -1686,6 +1705,7 @@ export const backlinks = {
         "2022-12-24": "- [[Readings]]",
         "2023-01-03": "## [[Readings]]",
         "2023-01-23": "- [[Readings]]",
+        "2023-02-21": "- [[Readings]]",
         "Watchings": "... all the media I've seen, starting from Feb 2023. Just like [[Readings]]"
     },
     "Engine": {
@@ -2050,7 +2070,7 @@ export const backlinks = {
     "Rust": {
         "2022-06-14": "## [[Rust]]의 사용에 대하여",
         "2022-09-05": "- Unreal Rust Unreal [[Rust]]",
-        "2022-11-30": "- Will this be enough to match Go's or [[Rust]]'s performance? Unlikely, but the thing is that the current JavaScript tools ...",
+        "2022-11-30": "- Will this be enough to match Go's or [[Rust]]'s performance? Unlikely, but the thing is that the current [[JavaScript]] tools ...",
         "Dioxus": "They are written in [[Rust]], inspired by [[React]].",
         "WebGPU": "- It's a stand-alone TypeScript+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "Write Once Run Everywhere": "- [[Rust]]"
@@ -2196,6 +2216,7 @@ export const backlinks = {
     },
     "Compiling": {
         "2023-01-25": "- [[Compiling]]",
+        "Clock skew detected": "... than the current system time. Since make decides which files to [[Compiling|compile]] when performing an incremental build by checking if a source file ...",
         "Forward Declaration": "- [[Compiling|Compile]] time improvements",
         "How is WebAssembly cross-platform when Assembly is not": "- To run WebAssembly|WASM, the Web Browser|browser must still [[Compiling|compile]] the WebAssembly|WASM code into ASM code when executing; in that way, ...",
         "Preprocessor": "`#ifdef DEBUG` and `#endif` also exclude that block when [[compiling]] the production version."
@@ -2379,7 +2400,7 @@ export const backlinks = {
         "Vannevar Bush": "... in radar and the initiation and early administration of the Manhattan [[Project]]. He emphasized the importance of scientific research to national security and ...",
         "Wikiversity": "> Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning projects, and research for use in ...",
         "elevatorpitch.com": "Someday [[Project]]. Simple Demo Website Creator to gauge market interest.",
-        "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 `http` 모듈 (당연히 `express` 모듈도) 없이 `http` 서버를 구현하는 Project|프로젝트가 ...",
+        "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 http 모듈 (당연히 `express` 모듈도) 없이 [[http]] 서버를 구현하는 Project|프로젝트가 ...",
         "iiframe": "Someday [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
         "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert the equation into $\\TeX$.",
         "linkflags.crx": "Packing Linkflags as Chrome Extensions Someday [[Project]]",
@@ -2522,6 +2543,7 @@ export const backlinks = {
     },
     "React Native": {
         "Configuring Jest for React Native": "- Configuring Jest for [[React Native]]",
+        "Hyperview": "- Hyperview is a new hypermedia format and [[React Native]] client for developing server-driven mobile apps. Hyperview · Native mobile apps, ...",
         "Write Once Run Everywhere": "- React and [[React Native]]"
     },
     "Person 5DBDAE": {
@@ -2617,7 +2639,7 @@ export const backlinks = {
     },
     "Toss": {
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve this information inequality in the financial ...",
-        "Supergravity Products": "... 작은 아이디어 (금융 슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
+        "Supergravity Products": "... 아이디어 (금융 Super App|슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Toss Product Sans": "- Font by [[Toss]].",
         "Tossface": "- Emoji Font by [[Toss]]",
         "유난한 도전": "[[Toss|토스]]는 더이상 장기자랑에 나가는 초등학생일 수 없었다."
@@ -2625,7 +2647,7 @@ export const backlinks = {
     "GPU": {
         "Effective Accelerationism": "... 줄이지 않고 있어요. 당신은 이것을 피하기 위해 경제를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 온라인으로 해결해야 합니다.",
         "Imagining WebNPU API": "... developed web interface that provides access to modern graphics processing unit ([[GPU]]) capabilities, such as Direct3D 12, Metal, and Vulkan, for rendering and ...",
-        "Neural Engine": "... of NPU, which stands for Neural Processing Unit. It's like a [[GPU]], but instead of accelerating graphics, an NPU accelerates neural network operations ...",
+        "Neural Engine": "... of NPU, which stands for Neural Processing Unit. It's like a [[GPU]], but instead of accelerating [[graphics]], an NPU accelerates neural network operations ...",
         "Point-E": "... generation has shown promising results, the state-of-the-art methods typically require multiple [[GPU]] hours to produce a single sample. This contrasts with state-of-the-art generative ...",
         "Proposal of Research to Professor Cote": "... a minute to generate the complete text, even with the latest [[GPU]]. Therefore, for the system to scale, we will need a clever ...",
         "VP9 vs HEVC": "... 4K videos on macOS Safari and iOS YouTube using this. Apple [[GPU]] also now supports VP9 decoding.",
@@ -2706,15 +2728,20 @@ export const backlinks = {
         "2022-07-18": "- [[Obsidian]]-like [[Tools for Thought]]",
         "2022-10-13": "- [[Obsidian]] is now out of beta",
         "2022-10-21": "- Stephan Ango: also created [[Obsidian]] Minimal Settings.",
+        "2023-02-16": "... to write a tutorial how to replicate your publishing workflow with [[Obsidian]] and Docusaurus, please count me as one enthusiast reader, I'd love ...",
         "Better Obsidian": "## Extension Ideas for [[Obsidian]]",
         "Developing Review Notes for Obsidian": "이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 API 문서를 탐독하면서 이런 저런 발견 ...",
+        "Extracranial": "... Thought and Online platforms. For this system, I use Docusaurus and [[Obsidian]]. It is working reasonably well.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application ...",
         "Letter to the Heptabase Team on 2022-10-11": "... the web. My entire research page (https://cho.sh/r/) runs on heavily customized [[Obsidian]], Nota, and [[Docusaurus]], serving as my daily note-taking platform after figuring ...",
         "Nota": "Awesome alternative to [[Obsidian]].",
         "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]",
         "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer",
         "Stephan Ango": "- Currently works at [[Obsidian]]",
-        "The New Era of macOS Applications": "- Notes. Notion → [[Obsidian]] → Nota."
+        "Text-based Tools for Thought": "### [[Obsidian]]",
+        "The Dilemmas of Technopreneur": "... examples, like the early days of Mark Zuckerberg, the creators of [[Obsidian]], or even Mr. Levels.",
+        "The New Era of macOS Applications": "- Notes. Notion → [[Obsidian]] → Nota.",
+        "Tools Must Vanish": "- And I look up blog and forum posts where [[Obsidian]] and Roam power users explain their setup. And most of what ..."
     },
     "Mapping keys to set different input languages on macOS": {
         "2022-11-19": "  - [[Mapping keys to set different input languages on macOS]]"
@@ -2788,8 +2815,12 @@ export const backlinks = {
         "2022-07-12": "1. Demo [[JavaScript]] animation works as expected.",
         "2022-07-18": "- No trackers, no [[JavaScript]], no stylesheets. Just your words",
         "2022-07-20": "- [[JavaScript]] → [[TypeScript]]",
+        "2022-11-30": "... or Rust's performance? Unlikely, but the thing is that the current [[JavaScript]] tools could be faster than they are today. And the things ...",
+        "Boring Technologies": "- It didn't matter if you were writing in Ruby, [[JavaScript]], or Objective-C. Your code had to have a level of \"magic\" ...",
+        "CSS": "... a cornerstone technology of the World Wide Web, alongside HTML and [[JavaScript]]. CSS",
         "Classic Blogs": "- Bear Blog: No trackers, no [[JavaScript]], no stylesheets blog for hackers",
         "Deno Deploy": "- Deploy [[JavaScript]] Globally",
+        "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "물론 이렇게 매번 [[JavaScript]]를 통해 링크를 조작하는 방법은 웹 성능에 영향을 줄 수 있으나 많은 ...",
         "HTMX": "- Implementation itself is [[JavaScript]]",
         "Separation of Computer Scientists and Computer Technologists": "... A self-taught dev can use React to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...",
         "TypeScript": "- Typed [[JavaScript]].",
@@ -3086,7 +3117,6 @@ export const backlinks = {
         "Karrot": "> 당근마켓(Karrot)은 [[대한민국]]의 중고 거래, 소상공인 홍보 등 생활정보 소프트웨어이다. 중고거래, 지역업체, 질문답변, 부동산, ...",
         "Krafton Way": "좁은 [[대한민국|한국]] 시장에서 벗어나, 해외 시장에 곧바로 배급할 수 있는 파괴력 있는 PC ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in [[대한민국|Korea]], [[Naver]], and [[Kakao]].",
-        "Letter to Mr. Matt Rickard on 2022-12-23": "... my way back to my home from Seoul to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... my way back to my home from Seoul to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!",
         "Metadream": "... 9, 2022, and has offices and data centers in Singapore, 일본|Japan, [[대한민국|South Korea]], and the [[United States of America|United States]]. One of Metadream's directors ...",
         "Naver": "... Corporation. It debuted in 1999 as the first web portal in [[대한민국|Korea]] to develop and use its search [[engine]]. It was also the ...",
@@ -3213,7 +3243,7 @@ export const backlinks = {
         "2023-02-10": "- [[Uniform Distributions (Discrete)]]"
     },
     "Shader": {
-        "HLSL": "- Used for [[Shader]] Stuffs.",
+        "HLSL": "- High-Level [[Shader]] Language.",
         "Transactional Globe": "> How is it created? Time for a WebGL & [[shader]] thread! pic.twitter.com/7SW4vE5tTJ",
         "WebGPU": "- It has a built-in [[shader]] linker and binding generator, which means a lot of the tedium ..."
     },
@@ -3258,7 +3288,8 @@ export const backlinks = {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Embedder Policy]]: `require-corp`"
     },
     "Palantir Gotham": {
-        "Palantir": "- [[Palantir Gotham]]"
+        "Palantir": "- [[Palantir Gotham]]",
+        "Palantir Apollo": "... Palantir Apollo is a continuous delivery system that manages and deploys [[Palantir Gotham]] and Foundry. Apollo was built out of the need for customers ..."
     },
     "MOBI": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB, [[MOBI]] for texts. For generic use cases, [[DjVu]]."
@@ -3325,7 +3356,12 @@ export const backlinks = {
         "2023-02-21": "- [[PineApple Pay]]"
     },
     "Shortcuts": {
-        "2022-11-19": "  - [[Shortcuts]]"
+        "2022-07-05": "- Clever workaround for sending delayed messages in iOS with [[Shortcuts]] and [[Automation]].",
+        "2022-11-19": "  - [[Shortcuts]]",
+        "Autosave Everything": "Paid for customizing autosave intervals or setting different [[shortcuts]] for each app.",
+        "ChatGPT": "> A GPT voice assistant built entirely with [[Shortcuts]]",
+        "Locking your Mac with Command+L": "2. Go to Keyboard → [[Shortcuts]] → App Shortcuts and press + at the bottom.",
+        "Visual Studio Code": "... code refactoring, and embedded Git. Users can change the theme, keyboard [[shortcuts]], preferences, and install extensions that add additional functionality. Visual Studio Code"
     },
     "Search-based Tools for Thought": {
         "Tools for Thought": "- [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature ..."
@@ -3340,7 +3376,7 @@ export const backlinks = {
         "2022-12-04": "- [[San Francisco]]",
         "2022-12-06": "- [[San Francisco]]",
         "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter]].",
-        "Apple Newsroom 서체 따라하기": "... 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.",
+        "Apple Newsroom 서체 따라하기": "## [[San Francisco]]를 사용하고 싶었다",
         "Brunch violates SF terms of use": "... Korean writing service Brunch violates Apple's Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].",
         "Font Features": "- [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.",
         "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
@@ -3616,18 +3652,22 @@ export const backlinks = {
         "Horizontally Stacked Interface": "  - [[Better Hacker News]]?"
     },
     "Graphics": {
+        "2023-02-10": "- Screenstab: Cut down on time and effort by auto-generating quality [[graphics]] from ordinary screenshots",
         "CDN": "... large portion of the Internet content today, including web objects (text, [[graphics]], and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), ...",
         "Compiling": "In [[Graphics]], Compiling generates object codes, except it does not have addresses.",
         "Conditional Compilation": "In [[Graphics]], Conditional Compilation can be used for multi-platform [[engine]]",
         "Figma": "... experience design, emphasizing real-time collaboration and utilizing a variety of vector [[graphics]] editors and prototyping tools. The Figma mobile app for [[Android]] and ...",
         "Forward Declaration": "- In [[Graphics]]",
+        "GPU": "[[Graphics]] Processing Unit",
         "Graphic Renderer": "... to be processed and output to a digital image or raster [[graphics]] image file. The term \"rendering\" is analogous to the concept of ...",
         "Graphics Engine Process": "The general process of a [[graphics]] [[engine]] follows:",
+        "Imagining WebNPU API": "... is a recently developed web interface that provides access to modern [[graphics]] processing unit ([[GPU]]) capabilities, such as Direct3D 12, Metal, and Vulkan, ...",
+        "Neural Engine": "... Neural Processing Unit. It's like a GPU, but instead of accelerating [[graphics]], an NPU accelerates neural network operations such as convolutions and matrix ...",
         "PDF": "... description of a fixed-layout flat document, including the text, fonts, vector [[graphics]], raster images and other information needed to display it. PDF has ...",
-        "PNG": "> Portable Network Graphics is a raster-[[graphics]] file format that supports lossless data compression. PNG was developed as ...",
+        "PNG": "> Portable Network [[Graphics]] is a raster-[[graphics]] file format that supports lossless data compression. PNG ...",
         "Preprocessor": "In [[Graphics]], preprocessors are the directives to tell the compiler before turning them ...",
         "Profiling": "In [[Graphics]], profiling is needed when trying a lookup table.",
-        "SVG": "... Graphics (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], supporting interactivity, and animation. The SVG specification is an open standard ...",
+        "SVG": "> Scalable Vector [[Graphics]] (SVG) is an XML-based vector image format for defining two-dimensional [[graphics]], ...",
         "Shader": "- In [[Graphics]], a shader is a small program that runs once per vertex ...",
         "USDZ": "... Universal Scene Description (USD) is a framework for interchange 3D computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, and enabling ...",
         "Vertex Buffer": "- [[Graphics]]: How to pass instructions from [[CPU]] to [[GPU]].",
@@ -3638,8 +3678,10 @@ export const backlinks = {
         "2022-07-20": "A successor language for [[C++]] requires:",
         "Coding Tests": "- Will use Python (main language) and [[C++]] (supplementary language)",
         "Handling files in Unix": "- handling networking in [[C++]] is also using [[File Descriptor]] for sockets.",
+        "Heap (Computer Systems)": "C and [[C++]] use explicit allocators, which the developers must explicitly free the memory ...",
         "Mathematics under The Library of Babel": "- Also made a [[C++]] variant, but a meaningful difference is unlikely.",
-        "Real Exams": "  - required a deep understanding of [[C++]] recent specs"
+        "Memory Allocation": "For C and [[C++]], calling library functions like `printf` make a system call under the ...",
+        "Real Exams": "### Akuna Capital [[C++]]"
     },
     "Sources of Packet Delay": {
         "Internetworking": "- [[Sources of Packet Delay]]"
@@ -3748,7 +3790,6 @@ export const backlinks = {
         "Brunch": "- Korean Writing Service operated by [[Kakao]]",
         "How to Build Software like an SRE": "  - do you see [[Kakao]]?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in 대한민국|Korea, Naver, and [[Kakao]].",
-        "Letter to Mr. Matt Rickard on 2022-12-23": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + ...",
         "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
         "Mental Simulation of Firefox and Signal as a Super App": "... onboard cannot stop. Especially with group chat, as we learned from [[Kakao]].",
@@ -3780,7 +3821,7 @@ export const backlinks = {
         "2022-11-11": "- Lazy: [[Tools for Thought]]",
         "2022-11-14": "- [[Tools for Thought]]",
         "Conversational AI Tools for Thought": "- ChatGPT and Generative AI are not exactly [[Tools for Thought]] for now. However, it has the potential to be one. See ...",
-        "Extracranial": "... function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use Docusaurus and Obsidian. ...",
+        "Extracranial": "... function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use Docusaurus and [[Obsidian]]. ...",
         "Handwriting Tools for Thoughts": "- A specific [[Tools for Thought]] with handwriting.",
         "PKM": "Check [[Tools for Thought]] for PKM tools in the market.",
         "Paracosm": "Paracosm is an experimental documentation toolkit & Extracranial [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
@@ -3912,7 +3953,9 @@ export const backlinks = {
     },
     "Virtual Memory": {
         "2022-11-04": "- [[Virtual Memory]]",
-        "Computer Systems": "- [[Virtual Memory]]"
+        "Cache and Virtual Memory": "...           | [[Virtual Memory]]    |",
+        "Computer Systems": "- [[Virtual Memory]]",
+        "Page Faults": "| Translation Look-aside Buffers | [[Virtual Memory]] | Cache | Possible?        ..."
     },
     "Mathematics under The Library of Babel": {
         "2022-11-24": "- [[Mathematics under The Library of Babel]]",
@@ -3966,7 +4009,7 @@ export const backlinks = {
         "Techs Actually Simple": "- Yet [[Git]]'s object model is pretty simple - content-addressed blobs (file-like), trees (folder-like), ...",
         "UUIDs are Awesome": "... even if a hash collision occurs, all records remain in the [[Git]] history, so we don't need any collision checks.",
         "Vercel": "... Vercel's architecture is built around Jamstack, and deployments are handled through [[Git]] repositories. Vercel",
-        "Visual Studio Code": "... debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [[Git]]. Users can change the theme, keyboard shortcuts, preferences, and install extensions ..."
+        "Visual Studio Code": "... debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded [[Git]]. Users can change the theme, keyboard [[shortcuts]], preferences, and install extensions ..."
     },
     "Higher-Level Languages and Their Speeds": {
         "2022-11-09": "- [[Higher-Level Languages and Their Speeds]]"
@@ -4151,9 +4194,8 @@ export const backlinks = {
         "Frames Per Second": "... at 23.976 fps instead of 24P was audio post in the [[United States of America|U.S.]]",
         "IRS": "... The Internal Revenue Service (IRS) is the revenue service for the [[United States of America|United States]] federal government, which is responsible for collecting [[United States of America|U.S.]] ...",
         "Krafton Way": "> 우리는 과거에 B급 제품을 만들어왔습니다. 일본이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. 우리는 우리 자신의 실력이 B급이라서 B급 ...",
-        "Letter to Mr. Matt Rickard on 2022-12-23": "... a couple of times about a potential Super App in the [[United States of America|US]], but this may be a very alarming scenario for the people ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... a couple of times about a potential Super App in the [[United States of America|US]], but this may be a very alarming scenario for the people ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... Rickard on 2022-12-23, the conditions for a Super App in the [[United States of America|United States]] are vague. [[Apple]] and [[Google]] divide the tech market into two, ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... Rickard on 2022-12-24, the conditions for a Super App in the [[United States of America|United States]] are vague. [[Apple]] and [[Google]] divide the tech market into two, ...",
         "Metadream": "... offices and data centers in Singapore, 일본|Japan, 대한민국|South Korea, and the [[United States of America|United States]]. One of Metadream's directors is Chinese national Yang Yuxiang, the CEO ...",
         "Nuclear Fusion": "- The [[United States of America|U.S.]] Department of Energy (DOE) and DOE's National Nuclear Security Administration (NNSA) ...",
         "Palantir Apollo": "... offerings authorized for Mission Critical National Security Systems (IL5) by the [[United States of America|U.S.]] Department of Defense. Palantir Technologies",
@@ -4748,9 +4790,6 @@ export const backlinks = {
         "2022-11-19": "  - [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
         "Setting different fonts by language in CSS": "- [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]"
     },
-    "2022-12-30": {
-        "Letter to Mr. Matt Rickard on 2022-12-23": "## Reply on [[2022-12-30]]"
-    },
     "Quoridor Game": {
         "2022-07-31": "- [[Quoridor Game]]",
         "2022-10-18": "- [[Quoridor Game]]"
@@ -4815,7 +4854,9 @@ export const backlinks = {
         "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
     },
     "JSX": {
-        "Stories Behind Satori": "After simplifying the syntax with [[JSX]] and simple [[CSS]], Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the ..."
+        "Boring Technologies": "... dropped in favor of a strict inline XML-like markup format called [[JSX]]",
+        "Stories Behind Satori": "After simplifying the syntax with [[JSX]] and simple [[CSS]], Shu used RazrFalcon/resvg and yisibl/resvg-js to convert the ...",
+        "Tailwind": "- When reading [[JSX]], I am comfortable imagining a 1-to-1 match with the UI. I ..."
     },
     "Convergence of Alternating Series": {
         "2023-01-31": "- [[Convergence of Alternating Series]]"
@@ -4915,12 +4956,13 @@ export const backlinks = {
         "신한국": "- [[의료 인공지능과 의대 쏠림]]"
     },
     "Jetbrains": {
-        "Apple Newsroom 서체 따라하기": "- 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.",
+        "Apple Newsroom 서체 따라하기": "- 이 블로그의 코드 글씨체는 더 이상 San Francisco|SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.",
         "IntelliJ": "... Java, Kotlin, Groovy, and other JVM-based languages. It is produced by [[JetBrains]] (formerly known as IntelliJ) and is available as an Apache 2 ...",
         "Jetbrains Fleet": "... weight multi-purpose IDE, with support for collaboration and remote workflows by [[Jetbrains]]. JetBrains"
     },
     "Mastodon": {
         "2022-11-07": "- [[Mastodon]]",
+        "2022-11-30": "... support a vast number of client-side (in this case, client meaning [[Mastodon]]) connections with only a few actual database connections",
         "2022-12-21": "- [[Mastodon]]",
         "2023-01-13": "- Medium joins [[Mastodon]]"
     },
@@ -4945,11 +4987,6 @@ export const backlinks = {
     },
     "Snowpack으로 WASM 시작하기": {
         "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
-    },
-    "Letter to Mr. Matt Rickard on 2022-12-23": {
-        "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-23]]",
-        "2023-01-09": "- [[Letter to Mr. Matt Rickard on 2022-12-23]]",
-        "Mental Simulation of Firefox and Signal as a Super App": "- As noted on the [[Letter to Mr. Matt Rickard on 2022-12-23]], the conditions for a [[Super App]] in the [[United States of ..."
     },
     "Person 392196": {
         "Project PEOPLE": "- [[Person 392196]]"
@@ -5264,11 +5301,14 @@ export const backlinks = {
     },
     "Super App": {
         "2022-12-09": "- [[Super App]]",
-        "Letter to Mr. Matt Rickard on 2022-12-23": "- Interesting on the downsides of the [[super app]]",
-        "Mental Simulation of Firefox and Signal as a Super App": "... Letter to Mr. Matt Rickard on 2022-12-23, the conditions for a [[Super App]] in the [[United States of America|United States]] are vague. [[Apple]] and ...",
+        "Brane": "... aims to democratize these privileges from mega-corporates creating Web Browser|browsers to [[Super App]] developers, who are much smaller in scale.",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "... weeks. But before that, he hinted at his desire for a [[Super App]]. What concerns me more is the \"Super App\" that Musk wanted ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... Letter to Mr. Matt Rickard on 2022-12-24, the conditions for a [[Super App]] in the [[United States of America|United States]] are vague. [[Apple]] and ...",
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
+        "Supergravity Products": "  - 작은 아이디어 (금융 [[Super App|슈퍼 앱]] x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Texts": "Potential [[Super App]] for the [[United States of America|United States]]. [[Mental Simulation of Firefox ...",
         "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in [[대한민국|Korea]] and [[United States of America|U.S.]]",
+        "Universal Identity": "- [[Super App]] accounts can be another. See [[Super App and Democracy]].",
         "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
     },
     "Nation as a Service": {
@@ -5454,6 +5494,7 @@ export const backlinks = {
         "Adding a Verified Mark on Apple Mail & Gmail": "![[770154.png]]"
     },
     "613BFB.png": {
+        "2023-02-02": "![[613BFB.png]]",
         "2023-02-21": "![[613BFB.png]]"
     },
     "B22093.png": {

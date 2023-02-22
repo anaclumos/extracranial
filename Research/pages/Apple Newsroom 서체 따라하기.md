@@ -22,17 +22,17 @@ font-family: /* 코드용 서체 */ 'SF Mono', 'Consolas', 'Menlo', monospace;
 
 Import 잊지 마세요!
 
-## [San Francisco](https://developer.apple.com/fonts/)를 사용하고 싶었다
+## [[San Francisco]]를 사용하고 싶었다
 
-나는 [San Francisco 폰트](https://developer.apple.com/fonts/)를 가장 좋아한다. 최근 Apple 제품의 기본 서체로 사용되고 있고 [Apple Newsroom](https://www.apple.com/kr/newsroom)에서도 사용하는 그 폰트이다. 나는 [Apple Newsroom](https://www.apple.com/kr/newsroom)의 디자인을 정말 좋아하기 때문에 최대한 그 느낌을 살리고 싶었다. 하지만 San Francisco 폰트의 사용 약관에는 약간의 문제가 있었으니...
+나는 [[San Francisco]]를 가장 좋아한다. 최근 Apple 제품의 기본 서체로 사용되고 있고 [Apple Newsroom](https://www.apple.com/kr/newsroom)에서도 사용하는 그 폰트이다. 나는 [Apple Newsroom](https://www.apple.com/kr/newsroom)의 디자인을 정말 좋아하기 때문에 최대한 그 느낌을 살리고 싶었다. 하지만 [[San Francisco]] 폰트의 사용 약관에는 약간의 문제가 있었으니...
 
 ![SF Pro Font Use License](../assets/F8252C.png)
 
 _Except as otherwise expressly permitted \[...\] you may not make the Apple Font available over a network where it could be run or used by multiple computers at the same time. (명시적으로 허용되지 않은 이상, Apple의 폰트를 네트워크 상에서 제공하여 여러 컴퓨터에서 동시에 사용할 수 없습니다.)_
 
-일반 사용자는 San Francisco를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.
+일반 사용자는 [[San Francisco]]를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.
 
-## 1\. Apple 제품에서는 내장된 SF 폰트를 불러오자
+## 1\. Apple 제품에서는 내장된 [[San Francisco|SF]] 폰트를 불러오자
 
 기업들은 종종 제품 폰트로 시스템 기본 폰트를 사용하려 한다. 그럴 때마다 흔하게 사용되는 방식이다. 대표적으로 GitHub이 이와 같은 방식을 사용한다.
 
@@ -45,7 +45,7 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple Font
 
 Apple은 한글 폰트로 **산돌고딕 네오**를 사용한다. Safari와 Chrome은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 Firefox 계열은 그러지 못한다. 때문에 Firefox에서 알맞은 한글 서체를 사용하도록 `Apple SD Gothic Neo`를 지정해주는 것이다.
 
-## 2\. 그 외에는 SF 폰트와 닮은 폰트를 사용하자
+## 2\. 그 외에는 [[San Francisco|SF]] 폰트와 닮은 폰트를 사용하자
 
 ### 영문: [Inter Font](https://rsms.me/inter/)
 
@@ -92,9 +92,9 @@ Apple은 한글 폰트로 **산돌고딕 네오**를 사용한다. Safari와 Chr
     font-family:
       "SF Mono", "Consolas", "Menlo", monospace;
 
-코드 서체도 마찬가지로 San Francisco 계열의 SF Mono를 사용하도록 지정했다. WWDC16에서 첫 공개된 SF Mono는 여전히 Mac 터미널과 Xcode의 기본 코드 서체로 사용된다. 그 외의 경우에는 큰 차이가 없을 것 같아 보편적인 Consolas, Menlo를 지정했다.
+코드 서체도 마찬가지로 [[San Francisco]] 계열의 [[San Francisco|SF]] Mono를 사용하도록 지정했다. WWDC16에서 첫 공개된 [[San Francisco|SF]] Mono는 여전히 Mac 터미널과 Xcode의 기본 코드 서체로 사용된다. 그 외의 경우에는 큰 차이가 없을 것 같아 보편적인 Consolas, Menlo를 지정했다.
 
-GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두었는데, 이렇게 설정하면 Chrome에서는 SF Mono를 인식하지만 Firefox에서 SF Mono를 인식하지 못한다. 반면 `SF Mono`로 설정하면 Firefox와 Chrome 모두 인식한다. 와중에 Safari는 둘 다 인식 못 한다. (...)
+GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두었는데, 이렇게 설정하면 Chrome에서는 [[San Francisco|SF]] Mono를 인식하지만 Firefox에서 [[San Francisco|SF]] Mono를 인식하지 못한다. 반면 [[San Francisco|SF]] Mono로 설정하면 Firefox와 Chrome 모두 인식한다. 와중에 Safari는 둘 다 인식 못 한다. (...)
 
 ## 결론
 
@@ -121,5 +121,5 @@ GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두�
 
 ## Updated Nov 19, 2020
 
-- 이 블로그의 코드 글씨체는 더 이상 SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.
+- 이 블로그의 코드 글씨체는 더 이상 [[San Francisco|SF]] Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.
 - 이 글을 업데이트하지 않고 불시에 블로그의 글씨체를 업데이트할 수도 있다. 즉 지금 보고 있는 화면의 글씨체가 [[San Francisco|SF Pro]]가 아닐수도 있다. 하지만 이 글의 내용은 여전히 유효할테니, 위의 스크린샷 화면을 참고하면 된다.

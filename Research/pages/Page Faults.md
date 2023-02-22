@@ -20,13 +20,13 @@ slug: '/BEE2D2'
   - use pseudo-LRU algorithm
 - Reference: H & P, "Computer Organizations," 3rd, Ed.
 
-| Translation Look-aside Buffers | Virtual Memory | Cache | Possible?                                                       |
-| ------------------------------ | -------------- | ----- | --------------------------------------------------------------- |
-| Hit                            | Hit            | Hit   | Possible. Best Case!                                            |
-| Hit                            | Hit            | Miss  | Possible. TLB Hits. VM Hit is implied. Cache Miss.              |
-| Miss                           | Hit            | Hit   | TLB Misses, then hits in page table, then cache hits.           |
-| Miss                           | Hit            | Miss  | TLB Misses, then hits in page table, then cache misses.         |
-| Miss                           | Miss           | Miss  | TLB Misses, then page fault, then cache misses.                 |
-| Hit                            | Miss           | Miss  | Impossible. Cannot hit in TLB if page is not present.           |
-| Hit                            | Miss           | Hit   | Impossible. Cannot hit in TLB if page is not present.           |
-| Miss                           | Miss           | Hit   | Impossible. Data cannot be in cache if the page is not present. |
+| Translation Look-aside Buffers | [[Virtual Memory]] | Cache | Possible?                                                       |
+| ------------------------------ | ------------------ | ----- | --------------------------------------------------------------- |
+| Hit                            | Hit                | Hit   | Possible. Best Case!                                            |
+| Hit                            | Hit                | Miss  | Possible. TLB Hits. VM Hit is implied. Cache Miss.              |
+| Miss                           | Hit                | Hit   | TLB Misses, then hits in page table, then cache hits.           |
+| Miss                           | Hit                | Miss  | TLB Misses, then hits in page table, then cache misses.         |
+| Miss                           | Miss               | Miss  | TLB Misses, then page fault, then cache misses.                 |
+| Hit                            | Miss               | Miss  | Impossible. Cannot hit in TLB if page is not present.           |
+| Hit                            | Miss               | Hit   | Impossible. Cannot hit in TLB if page is not present.           |
+| Miss                           | Miss               | Hit   | Impossible. Data cannot be in cache if the page is not present. |

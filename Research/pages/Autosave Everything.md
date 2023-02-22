@@ -7,4 +7,4 @@ slug: '/AC45A4'
 
 How would it be [[Fiercely Overpriced]]?
 Free for `command s`-ing every 1 minute.
-Paid for customizing autosave intervals or setting different shortcuts for each app.
+Paid for customizing autosave intervals or setting different [[shortcuts]] for each app.
