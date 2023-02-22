@@ -46,7 +46,7 @@ slug: '/75CB18'
 - 1 text compression & [[Optimized Simulations]]
 - 1, which seemed [[Greedy Algorithm]] (I didn't have the time to solve it)
 
-### [Akuna Capital C++](https://akunacapital.com/)
+### [Akuna Capital](https://akunacapital.com/) [[C++]]
 
 - 10 multiple choice questions
   - required a deep understanding of [[C++]] recent specs

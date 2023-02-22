@@ -14,7 +14,7 @@ This can mean good and bad things for them:
 **On the bright side.**
 If the technopreneurs are lean enough, it may be much more efficient to check the [[Product-Market Fit]].
 Essentially, they can [[Cut the Fat]].
-There are dozens of examples, like the early days of Mark Zuckerberg, the creators of Obsidian, or even Mr. Levels.
+There are dozens of examples, like the early days of Mark Zuckerberg, the creators of [[Obsidian]], or even Mr. Levels.
 
 **On the dark side.**
 Whether that can be sustainable enough — it's a different story. If the technopreneurs are genuinely talented, they can beef up the speed of innovation and continue the steam.

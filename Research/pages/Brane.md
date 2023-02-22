@@ -14,7 +14,7 @@ Brane's idea loosely follows the Progressive Web App and MiniApp Standardization
 - PWAs possess critical weakness compared to Native Apps; it fails to deliver a coherent experience on a native platform.
 - Therefore Brane works as building blocks for web-based third-party app stores, creating new markets and lowering the bar for new developers.
 - It may be worthwhile to implement the Mini App white paper. However, the white paper compromised the security model and diverged from the web standard. The Mini App white paper aims at significantly different goals.
-- Parties that create [[Web Browser|browsers]] do not own these limitations; Brane aims to democratize these privileges from mega-corporates creating [[Web Browser|browsers]] to Super App developers, who are much smaller in scale.
+- Parties that create [[Web Browser|browsers]] do not own these limitations; Brane aims to democratize these privileges from mega-corporates creating [[Web Browser|browsers]] to [[Super App]] developers, who are much smaller in scale.
 
 ## Brane MVP
 
