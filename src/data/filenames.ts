@@ -495,6 +495,7 @@ export const filenames = {
     "Diminishing Cost of Service": "2EEFB7",
     "Dioxus": "535542",
     "Disable Screenshot Drop Shadow in macOS": "EE88B1",
+    "Discuss on Social Media Button": "69BE1E",
     "Displaying exact datetimes on Ghost": "522AED",
     "Dither": "5E76A3",
     "DjVu": "1B755C",
