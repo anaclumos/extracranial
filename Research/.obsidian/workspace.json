@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b5357ff67f6266bc",
+        "id": "414286a4ec1ce692",
         "type": "tabs",
         "children": [
           {
-            "id": "64d5030c1dc47dd5",
+            "id": "fb18a2b0235f3331",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/P vs NP.md",
-                "mode": "source",
+                "file": "pages/In-house and Free Market.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/P vs NP.md",
+                "file": "pages/In-house and Free Market.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/P vs NP.md"
+                "file": "pages/In-house and Free Market.md"
               }
             }
           },
@@ -144,13 +144,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "64d5030c1dc47dd5",
+  "active": "fb18a2b0235f3331",
   "lastOpenFiles": [
     "journals/2023-02-22.md",
-    "pages/Antifragily.md",
-    "pages/In-house and Free Market.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/인하우스와 자유경쟁.md",
+    "pages/In-house and Free Market.md",
+    "pages/P vs NP.md",
+    "pages/Antifragily.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "journals/2023-02-21.md",
     "journals/2022-05-29.md",
     "journals/2022-05-28.md",
