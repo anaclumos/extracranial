@@ -3324,6 +3324,9 @@ export const backlinks = {
     "Diagram Labs": {
         "2022-12-16": "- [[Diagram Labs]]"
     },
+    "Discuss on Social Media Button": {
+        "2023-02-21": "- [[Discuss on Social Media Button]]"
+    },
     "Brunch violates SF terms of use": {
         "San Francisco": "- Although [[Brunch violates SF terms of use]]"
     },
@@ -6292,6 +6295,9 @@ export const backlinks = {
     },
     "CE91F0.png": {
         "洪民憙雜記": "![[CE91F0.png]]"
+    },
+    "8766D6.png": {
+        "Discuss on Social Media Button": "![[8766D6.png]]"
     },
     "317954.png": {
         "Repeated Designs": "![[317954.png]]"
