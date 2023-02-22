@@ -11,13 +11,8 @@
             "id": "18ef252e1aa0c815",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-21.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -70,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 237.5,
+    "collapsed": true
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-02-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-02-21.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,15 +138,15 @@
   },
   "active": "18ef252e1aa0c815",
   "lastOpenFiles": [
-    "pages/전방위 포위.md",
+    "pages/Peter the Great.md",
     "journals/2023-02-21.md",
+    "pages/Catherine the Great.md",
+    "pages/Alexander I.md",
+    "pages/Nicholas I.md",
+    "pages/전방위 포위.md",
     "pages/Karrot.md",
     "pages/Karrot NX Team Mission Statement.md",
     "journals/2022-05-31.md",
-    "journals/2022-08-03.md",
-    "pages/Paracosm.md",
-    "pages/Nigh.md",
-    "pages/Starlink.md",
-    "pages/Jumpsite.md"
+    "journals/2022-08-03.md"
   ]
 }
