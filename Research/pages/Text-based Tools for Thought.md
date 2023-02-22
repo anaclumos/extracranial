@@ -9,7 +9,7 @@ slug: '/671680'
 
 ![[60F80D.png]]
 
-### [Obsidian](https://obsidian.md/)
+### [[Obsidian]]
 
 ![[80B963.png]]
 

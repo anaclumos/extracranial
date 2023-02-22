@@ -8,7 +8,7 @@ slug: '/D8FB8E'
 After a few years of technical writing, I felt limitations on writing platforms that hindered me from writing the best-class articles. Technological knowledge is dynamic and intertwined in that none of the current formats - academic papers, lecture videos, code examples, or straightforward posts - can best represent the knowledge. I have examined and observed some attempts that addressed this issue, namely, stuff called the **second brain** or **digital gardens**, but none of them seemed to correctly solve the problem. Therefore, I have distilled my inconveniences into this huge mega-post and imagined **_what I would've done if I had created the new incarnations of digital brains._**
 
 :::info **Update 2022-06-12**
-Since this post, I have extensively studied non-linear PKM software, such as [Roam](https://roamresearch.com/), [Obsidian](https://obsidian.md/), [Logseq](https://logseq.com/), and [Foam](https://foambubble.github.io/foam/). I acknowledge that I misunderstood the concept of manual linking; that PKM software performs a fuzzy search to intelligently identify linked and unlinked references. I found some PKM software with automatic linkings, such as [Saga](https://saga.so) or [Weavit](https://www.weavit.ai/). But none of them worked how I expected. Manual linking helps refine the database. So, even if I make a Next-gen digital brain, I will not remove the linking process.
+Since this post, I have extensively studied non-linear PKM software, such as [Roam](https://roamresearch.com/), [[Obsidian]], [Logseq](https://logseq.com/), and [Foam](https://foambubble.github.io/foam/). I acknowledge that I misunderstood the concept of manual linking; that PKM software performs a fuzzy search to intelligently identify linked and unlinked references. I found some PKM software with automatic linkings, such as [Saga](https://saga.so) or [Weavit](https://www.weavit.ai/). But none of them worked how I expected. Manual linking helps refine the database. So, even if I make a Next-gen digital brain, I will not remove the linking process.
 :::
 
 :::tip **Update 2022-07-01**
@@ -72,7 +72,7 @@ Use algorithmic inspections to analyze how the posts may interrelate with each o
 
 Therefore, creating a cluster of posts, not classified by me, but bots and algorithms.
 [WordPress also has this plugin.](https://wordpress.org/plugins/related-posts-for-wp/)
-This is similar to backlinking, which most so-called digital brains such as [Obsidian](https://obsidian.md/) and [Dendron](https://www.dendron.so/) are doing.
+This is similar to backlinking, which most so-called digital brains such as [[Obsidian]] and [Dendron](https://www.dendron.so/) are doing.
 
 ![Example of backlinking from Dendron](D9987E.png)
 

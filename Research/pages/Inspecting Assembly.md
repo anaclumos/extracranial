@@ -7,7 +7,7 @@ slug: '/A6DBE3'
 
 | Command                | Description                                                                                     |
 | ---------------------- | ----------------------------------------------------------------------------------------------- |
-| `gdb executable`       | starts executable                                                                               |
+| [[gdb]] `executable`   | starts executable                                                                               |
 | `layout asm`           | prints [[Assembly]] codes                                                                       |
 | CTRL+L                 | reformats terminal                                                                              |
 | `b function_name`      | sets a breakpoint at function_name                                                              |
@@ -25,7 +25,7 @@ slug: '/A6DBE3'
 | `where`                | returns a function call trace of how you got to this point and shows line numbers inside files. |
 | `list`                 | prints surrounding code.                                                                        |
 | `cont`                 | continues execution from the current location.                                                  |
-| `quit`                 | quits `gdb`                                                                                     |
+| `quit`                 | quits [[gdb]]                                                                                   |
 | `"%d %[^\n]"`          | integer + string                                                                                |
 | `layout regs`          | layout all registers                                                                            |
 | `disas function`       | jump to that function                                                                           |

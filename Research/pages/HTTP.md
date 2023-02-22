@@ -5,7 +5,7 @@ slug: '/407AD6'
 
 - Each line of the HTTP header should end in `\r\n` (`<CR><LF>`)
   - Therefore, an empty line should be two characters long.
-  - If the line starts with a space, it's a continuation of the previous line. Must remove the `\r\n` from the previous line.
+  - If the line starts with a space, it continues the previous line. Must remove the `\r\n` from the previous line.
 - First line of HTTP Request → Request Line.
   - Has `METHOD URI VERSION` format.
 - First line of HTTP Response → Status Line

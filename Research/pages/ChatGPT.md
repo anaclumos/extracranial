@@ -33,7 +33,7 @@ slug: '/85E9E7'
 
 > Introducing SiriGPT
 >
-> A GPT voice assistant built entirely with Shortcuts
+> A GPT voice assistant built entirely with [[Shortcuts]]
 >
 > Tap in for setup [https://t.co/orh6Wj1XMd](https://t.co/orh6Wj1XMd) [pic.twitter.com/hlkwKoAOmq](https://t.co/hlkwKoAOmq)
 >

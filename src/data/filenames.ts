@@ -683,7 +683,6 @@ export const filenames = {
     "Letter to Mr. Matt Rickard on 2022-10-03": "D2DFA4",
     "Letter to Mr. Matt Rickard on 2022-11-28": "BD4464",
     "Letter to Mr. Matt Rickard on 2022-12-21": "96B109",
-    "Letter to Mr. Matt Rickard on 2022-12-23": "CD501A",
     "Letter to Mr. Matt Rickard on 2022-12-24": "D6C559",
     "Letter to Mr. Stephan Ango on 2022-10-19": "4890CA",
     "Letter to the Heptabase Team on 2022-10-11": "24D60B",

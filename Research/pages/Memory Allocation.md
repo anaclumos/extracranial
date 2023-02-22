@@ -12,7 +12,7 @@ User mode should make system calls (call OS codes) to open files, create process
 On the other side, the kernel mode is when the OS code runs.
 It can make direct file or network access without a system call.
 Each thread has a separate kernel stack.
-For C and C++, calling library functions like `printf` make a system call under the hood.
+For C and [[C++]], calling library functions like `printf` make a system call under the hood.
 We can also set registers to make a system call.
 For example, x86 defines `rax` or `eax` as set to 1 as a `write` system call.
 

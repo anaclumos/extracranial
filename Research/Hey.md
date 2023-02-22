@@ -13,7 +13,11 @@ slug: '/'
 
 ![my http request origin map 🌏 🌎 🌍](assets/5BE46A.png)
 
-<figcaption>my http request origin map 🌏 🌎 🌍</figcaption>
+<figcaption>
+
+my [[http]] request origin map 🌏 🌎 🌍
+
+</figcaption>
 </figure>
 
 Welcome to my research note.

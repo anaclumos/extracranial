@@ -11,7 +11,7 @@ The only thing I missed about my Windows computer was locking the screen since I
 
 ![Go to System Preferences.](../assets/F85C1B.png)
 
-2. Go to **Keyboard → Shortcuts → App Shortcuts** and press **+** at the bottom.
+2. Go to **Keyboard → [[Shortcuts]] → App [[Shortcuts]]** and press **+** at the bottom.
 
 ![Keyboard → Shortcuts → App Shortcuts](../assets/348DC5.png)
 
@@ -29,7 +29,7 @@ The only thing I missed about my Windows computer was locking the screen since I
 
 This method works in almost every case. Sometimes, the app will have **⌘Command+L** as its Keyboard Shortcut. One example is the System Preferences app that uses the **⌘Command+L** as going to the Lobby of System Preferences. I have never seen any other cases where **⌘Command+L** doesn't work as expected.
 
-- If some app uses **⌘Command+L** as their default shortcuts, you can set them to some other random shortcuts, clearing the path for the **Lock Screen** shortcut.
+- If some app uses **⌘Command+L** as their default [[shortcuts]], you can set them to some other random [[shortcuts]], clearing the path for the **Lock Screen** shortcut.
 
 ![Shortcuts Setting](../assets/888669.png)
 
