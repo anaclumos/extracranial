@@ -28,7 +28,7 @@ slug: '/18728A'
 | [0219](../journals/2023-02-19.md) | 🇬🇧 [[Psychohistory]] <br/> 🇰🇷 [[심리역사학]]                                                               | [Tweet](https://twitter.com/anaclumos/status/1627497814250102784) |
 | [0220](../journals/2023-02-20.md) | 🇬🇧 [[Why Korean Banks Suck]] <br/> 🇰🇷 [[국내 은행 서비스가 나쁜 이유]]                                     | [Tweet](https://twitter.com/anaclumos/status/1627918892143345664) |
 | [0221](../journals/2023-02-21.md) | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | [Tweet](https://twitter.com/anaclumos/status/1628153470099529728) |
-| [0222](../journals/2023-02-22.md) | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]                                           |                                                                   |
+| [0222](../journals/2023-02-22.md) | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]                                           | [Tweet](https://twitter.com/anaclumos/status/1628479680595775488) |
 
 ## Announcement
 

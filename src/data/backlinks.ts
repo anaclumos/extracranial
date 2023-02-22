@@ -1801,7 +1801,7 @@ export const backlinks = {
     },
     "민사고": {
         "2023-01-12": "- [[민사고]]",
-        "In-house and Free Market": "This is a question I asked at [[민사고|KMLA]].",
+        "In-house and Free Market": "- In-house. my [[민사고|high school]] society with limited in-house research resources, making it hard to find ...",
         "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "... Heroku가 AWS에 비해 몇몇 장점이 있다는 것을 알게 되었다. 예전에 개발했던 [[민사고]] 공문서 모음집을 Heroku로 옮겼다.",
         "공강에서 보내는 공강 활용법": "공강에서 보내는 공강 활용법이라니, 조금 이상하게 들리는 말인 것 같습니다. [[민사고|민족사관고등학교]]에서 공강은 두 가지 의미를 가지고 있습니다. 첫 번째는 누구나 사용할 수 ...",
         "국가와 민족": "- [[민사고|민족사관고등학교]]에서 배운 것 중 하나이다.",
@@ -1812,7 +1812,7 @@ export const backlinks = {
         "불가사리": "[[민사고]] 재학 시절 만들었던 아트워크",
         "식영부원의 관점에서 바라본 치킨데이": "아시다시피 [[민사고|민족사관고등학교]]는 외부 음식을 구하기 어려운 산골 외딴 곳에 위치한 기숙사 학교입니다. 그렇기 ...",
         "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "... 기숙사 외부에서 만나게 될 평생 친구도 있을 것입니다. 오늘은 제가 느낀, [[민사고|민족사관고등학교]] (이하 [[민사고]]) 에서의 외부 친구 관계에 대해서 가볍게 이야기해보려고 합니다.",
-        "인하우스와 자유경쟁": "이 질문은 [[민사고]]에서 내가 던진 질문이었다.",
+        "인하우스와 자유경쟁": "- 인하우스. [[민사고]]에서는 사내 연구 자원이 제한되어 있어 기술 애호가를 찾기가 어려웠다. 다행히도 [[Antifragile|안티프래질]]하게 ...",
         "재학생일기": "[[민사고]]에 있던 학교 공식 일기 모음집이다.",
         "졸업을 앞둔 중학교 3학년들에게": "... 무렵이라고 할 수 있는 1월에 저는 가장 느슨해졌었는데, 마지막 2주 정도는 [[민사고]] 입학 준비하겠다고 과제로 나온 책 읽고, 한자 공부를 하고 그랬습니다. 그러고 ...",
         "코드클럽": "- [[민사고]] 3학년 때 설립한 동아리"
@@ -1893,7 +1893,8 @@ export const backlinks = {
     },
     "Antifragile": {
         "Antifragily": "In an [[antifragile]] manner.",
-        "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다."
+        "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다.",
+        "인하우스와 자유경쟁": "... 민사고에서는 사내 연구 자원이 제한되어 있어 기술 애호가를 찾기가 어려웠다. 다행히도 [[Antifragile|안티프래질]]하게 독창성을 기를 수 있었다."
     },
     "Pipelining": {
         "2022-12-08": "- [[Pipelining]]",
@@ -2227,7 +2228,7 @@ export const backlinks = {
         "Preprocessor": "`#ifdef DEBUG` and `#endif` also exclude that block when [[compiling]] the production version."
     },
     "Antifragily": {
-        "In-house and Free Market": "Thankfully, I [[antifragily]] acquired uniqueness and my style."
+        "In-house and Free Market": "... surprised by the recent boom in AI/CS. Despite the limitations, I [[antifragily]] developed my unique style."
     },
     "배달의민족 FE 개발자가 일하는 법 Q&A": {
         "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 Q&A]]"
@@ -6488,9 +6489,6 @@ export const backlinks = {
     },
     "94972C.png": {
         "Rauno": "![[94972C.png]]"
-    },
-    "안티프래질": {
-        "인하우스와 자유경쟁": "나는 다행히도 [[안티프래질]]하게 독창성과 나만의 스타일을 가지게 되었다."
     },
     "webserver": {
         "Port": "- [[webserver]] → 80"
