@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Discuss on Social Media Button.md",
-                "mode": "preview",
+                "file": "journals/2022-05-30.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Discuss on Social Media Button.md",
+                "file": "journals/2022-05-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Discuss on Social Media Button.md"
+                "file": "journals/2022-05-30.md"
               }
             }
           },
@@ -160,15 +160,15 @@
   },
   "active": "f66f2b081e3e4fe2",
   "lastOpenFiles": [
-    "journals/2023-02-21.md",
-    "pages/Peter the Great.md",
-    "pages/Catherine the Great.md",
-    "pages/Alexander I.md",
-    "pages/Nicholas I.md",
-    "pages/전방위 포위.md",
-    "pages/Karrot.md",
-    "pages/Karrot NX Team Mission Statement.md",
-    "journals/2022-05-31.md",
-    "journals/2022-08-03.md"
+    "journals/2022-05-29.md",
+    "journals/2022-05-28.md",
+    "journals/2022-05-27.md",
+    "journals/2021-06-23.md",
+    "journals/2021-02-26.md",
+    "journals/2020-11-20.md",
+    "journals/2020-11-19.md",
+    "journals/2020-11-13.md",
+    "journals/2020-11-09.md",
+    "journals/2020-11-06.md"
   ]
 }
