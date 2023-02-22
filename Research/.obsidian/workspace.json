@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fb18a2b0235f3331",
+            "id": "3435cc32d4a31d31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/In-house and Free Market.md",
-                "mode": "preview",
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/In-house and Free Market.md",
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/In-house and Free Market.md"
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md"
               }
             }
           },
@@ -144,7 +144,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb18a2b0235f3331",
+  "active": "3435cc32d4a31d31",
   "lastOpenFiles": [
     "journals/2023-02-22.md",
     "pages/인하우스와 자유경쟁.md",
