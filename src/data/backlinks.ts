@@ -1920,6 +1920,9 @@ export const backlinks = {
     "Visual-based Tools for Thought": {
         "Tools for Thought": "- [[Visual-based Tools for Thought]]: add [[infinite canvas]] to text-based versions. involves and exploits [[spacial cognition]]."
     },
+    "Alexander I": {
+        "2023-02-21": "- [[Alexander I]]"
+    },
     "Noumenon": {
         "Are Computers Psychotropic Substances": "... making a living out of it? How dare you!\" However, a [[Noumenon]] itself, and Noumenon's fanatical destructive nature deserve to be considered separately. ...",
         "The Library of Babel": "... a few concepts, it can hold the idea, but not the [[Noumenon]]."
@@ -2700,6 +2703,9 @@ export const backlinks = {
     "0020 Valid Parentheses": {
         "2022-07-10": "- Solved [[0020 Valid Parentheses]]",
         "Coding Tests": "- [x] [[0020 Valid Parentheses]]"
+    },
+    "Catherine the Great": {
+        "2023-02-21": "- [[Catherine the Great]]"
     },
     "혜성처럼 나타난 본디": {
         "2023-02-12": "- [[혜성처럼 나타난 본디]]",
@@ -5072,6 +5078,9 @@ export const backlinks = {
         "2022-11-29": "- UUIDs are Awesome: [[XUID]]?",
         "UUIDs are Awesome": "- [[XUID]]"
     },
+    "Nicholas I": {
+        "2023-02-21": "- [[Nicholas I]]"
+    },
     "하늘땅사람 개발 기록": {
         "2022-12-19": "### [[하늘땅사람 개발 기록]]",
         "2022-12-20": "- [[하늘땅사람 개발 기록]]",
@@ -5163,6 +5172,9 @@ export const backlinks = {
     },
     "Fix Your Posture": {
         "2022-12-27": "- [[Fix Your Posture]]"
+    },
+    "Peter the Great": {
+        "2023-02-21": "- [[Peter the Great]]"
     },
     "Tech Now Pay Later": {
         "2023-02-17": "- [[Tech Now Pay Later]]",
