@@ -3017,6 +3017,9 @@ export const backlinks = {
     "AI-native": {
         "Cloud-Native": "I am cloud-native, but not [[AI-native]]."
     },
+    "전방위 포위": {
+        "2023-02-21": "- [[전방위 포위]]"
+    },
     "Self Driving": {
         "2023-01-13": "- [[Self Driving]]",
         "Self Driving": "- He was driving V-1 on I-80 eastbound in Full [[Self Driving]] Mode Beta Version traveling at approximately 55 miles per hour…When V-1 ..."
@@ -3275,8 +3278,14 @@ export const backlinks = {
         "2023-01-25": "- [[Clustering]]"
     },
     "Karrot": {
+        "2022-05-31": "... 수량의 문제를 모두 해결하는 것입니다. 굳이 레거시 기업들에 빗대고 싶진 않지만, \"[[Karrot|당근마켓]] + 배달의민족 + 쿠팡\"이라고 생각하면 됩니다. -",
+        "2022-06-14": "- [[Karrot|당근]] 베타 [[Project|프로젝트]]에서 [[Karrot]] Frame 데모 앱을 돌려보며 터지던 부분들을 나열해 보았다.",
+        "2022-08-03": "I never expected to get an internship at [[Karrot]] four months ago.",
+        "2023-02-21": "- [[Karrot]]",
         "Height": "- Used at [[Karrot]]",
-        "Jira": "- Used at [[Karrot]]"
+        "Jira": "- Used at [[Karrot]]",
+        "Karrot NX Team Mission Statement": "> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 이 팀이 Role & Responsibility가 확장되어요.Karrot|당근마켓 ...",
+        "초대장의 시대": "... 규격화된 방식으로 하는 것이다. 원래는 그것이 위치 기반이었거나 (초기 페이스북, 요즘 [[Karrot|당근]]) 그룹 스터디 (대부분의 게임) 이었을 뿐이다."
     },
     "WebGPU": {
         "2022-09-09": "[[WebGPU]]",
@@ -3953,7 +3962,7 @@ export const backlinks = {
     },
     "Virtual Memory": {
         "2022-11-04": "- [[Virtual Memory]]",
-        "Cache and Virtual Memory": "...           | [[Virtual Memory]]    |",
+        "Cache and Virtual Memory": "...           | [[Virtual Memory]] |",
         "Computer Systems": "- [[Virtual Memory]]",
         "Page Faults": "| Translation Look-aside Buffers | [[Virtual Memory]] | Cache | Possible?        ..."
     },
@@ -4411,7 +4420,7 @@ export const backlinks = {
     "OS": {
         "2022-06-14": "- Brane은 타사 앱을 참여시켜 플랫폼을 확장하고 [[OS]] 수준을 경험하는 모든 과정(웹앱 렌더링, 레지스트리 설치, 프리로딩, 위젯 등)을 포함하는 ...",
         "Apple Newsroom 서체 따라하기": "- 단어 하나만으로 [[OS]]의 기본 서체로 설정할 수 있는 `system-ui`라는 CSS 코드를 표준화 하고 있다고 ...",
-        "Cache and Virtual Memory": "...           | Software([[OS]])  |",
+        "Cache and Virtual Memory": "...           | Software([[OS]])   |",
         "Docker": "> Docker is a set of platform-as-a-service (PaaS) products that use [[OS]]-level virtualization to deliver software in packages called containers. The service has ...",
         "File Descriptor": "- it is an index of an array in the [[OS]] (file descriptor table)",
         "Handling files in Unix": "... in the first n bytes of the buffer are consumed by [[OS]]",
@@ -5494,7 +5503,7 @@ export const backlinks = {
         "Adding a Verified Mark on Apple Mail & Gmail": "![[770154.png]]"
     },
     "613BFB.png": {
-        "2023-02-02": "![[613BFB.png]]",
+        "2023-02-02": "  ![[613BFB.png]]",
         "2023-02-21": "![[613BFB.png]]"
     },
     "B22093.png": {
