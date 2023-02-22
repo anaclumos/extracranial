@@ -19,8 +19,7 @@ Thankfully, I [[antifragily]] acquired uniqueness and my style.
 On the other hand, I am in a free market competition at a university that involves competition among students for funding, recognition, and academic positions: a stimulating and dynamic environment that fosters innovation and encourages researchers and students to strive for excellence in their work. Wouldn't this be the best edge of being in a University?
 
 **In-house: enterprise research centers**.
-While universities are often collaborative environments where researchers exchange ideas and work together to advance knowledge, company research centers often focus on developing new products or improving existing ones to generate profit for the company. As such, company research centers have access to more financial resources, technology, and expertise than universities, enabling them to impact new technologies' development significantly.
-In recent years, much of the research and development in many fields has shifted away from individual efforts towards collaborative research in company labs. This is due to several factors, including the increased focus on commercialization and profit-driven innovation and the need to develop new technologies to keep up with competitors rapidly. It is known that internal labs like Google's are already at least several years ahead of the available research but do not publish them to heat the competition.
+Company research centers, unlike universities, focus on developing profitable products using their greater financial resources, technology, and expertise. Collaborative research in company labs has become more prevalent as a result of the focus on commercialization and profit-driven innovation, with internal labs being years ahead of available research. For instance, Google's internal labs keep their cutting-edge research unpublished to maintain a competitive edge.
 
 Then it poses a concerning question:
 
@@ -31,12 +30,7 @@ Then it poses a concerning question:
 That said, it's the best time to do independent research.
 
 **Open-Competition: The Internet**.
-
-The internet provides a platform for independent scientists to share their research findings and connect with other researchers, regardless of their location. This fosters collaboration and provides access to broader perspectives and expertise. Additionally, the internet has enabled independent scientists to access a wealth of information and resources previously only available to larger organizations or institutions. Online resources such as open-access journals, scientific databases, and research forums provide independent scientists with the tools they need to conduct high-quality research.
-
-Moreover, the internet has also enabled new ways of funding and crowdsourcing research, allowing independent scientists to access financial support from a broader range of sources, including individual donors and foundations.
-
-Basically, if you have a computer, nothing can stop you.
+The internet has transformed the landscape of scientific research by providing independent scientists with the tools they need to pursue their research goals, including online resources such as open-access journals, scientific databases, and research forums. With the ability to share their findings, collaborate, access resources, and obtain funding, independent scientists have the potential to make significant contributions to scientific progress and innovation. You can do anything if you have your laptop.
 
 ## The need for a Neo Infrastructure
 
