@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c775792b49f2e82c",
+        "id": "afceb269f3e08b3c",
         "type": "tabs",
         "children": [
           {
-            "id": "1fd4762ec0ef7291",
+            "id": "18ef252e1aa0c815",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,30 +19,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "e302fb4500baccb8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f8ff2d488a4b9f3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/솟대.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,8 +49,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "12-23",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -88,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -109,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Web Analyzer Tool.md",
+                "file": "journals/2023-02-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Web Analyzer Tool.md"
+                "file": "journals/2023-02-21.md"
               }
             }
           },
@@ -150,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 415.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,17 +143,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8ff2d488a4b9f3b",
+  "active": "18ef252e1aa0c815",
   "lastOpenFiles": [
+    "pages/전방위 포위.md",
+    "journals/2023-02-21.md",
+    "pages/Karrot.md",
+    "pages/Karrot NX Team Mission Statement.md",
+    "journals/2022-05-31.md",
     "journals/2022-08-03.md",
     "pages/Paracosm.md",
     "pages/Nigh.md",
     "pages/Starlink.md",
-    "pages/Jumpsite.md",
-    "journals/2022-08-18.md",
-    "pages/Multiplication Theorem.md",
-    "pages/Musk and Twitter.md",
-    "journals/2022-12-10.md",
-    "pages/CELLO (Product).md"
+    "pages/Jumpsite.md"
   ]
 }
