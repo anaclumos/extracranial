@@ -13,28 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-22.md",
-                "mode": "source",
+                "file": "journals/2022-06-10.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "6c96b9d65f448552",
+            "id": "b4889a14197bc779",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/사발통문.md",
+                "file": "pages/United States of America.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/사발통문.md",
+                "file": "journals/2022-06-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/사발통문.md"
+                "file": "journals/2022-06-10.md"
               }
             }
           },
@@ -158,9 +157,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c96b9d65f448552",
+  "active": "3435cc32d4a31d31",
   "lastOpenFiles": [
+    "journals/2022-06-22.md",
+    "journals/2023-02-23.md",
+    "pages/2022-06-33.md",
+    "pages/민사고.md",
+    "pages/글 10,000장 써서 해결 안 될 문제는 정말 없는가.md",
+    "pages/이 땅에 태어나서.md",
     "journals/2023-02-22.md",
+    "pages/안티프래질.md",
+    "pages/Node.js 앱을 AWS EB에서 Heroku로 옮기기.md",
+    "pages/United States of America.md",
     "pages/사발통문.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/인하우스와 자유경쟁.md",
@@ -176,7 +184,6 @@
     "journals/2020-11-20.md",
     "journals/2020-11-19.md",
     "journals/2020-11-13.md",
-    "journals/2020-11-09.md",
-    "journals/2020-11-06.md"
+    "journals/2020-11-09.md"
   ]
 }

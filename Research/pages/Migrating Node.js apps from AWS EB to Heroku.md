@@ -9,7 +9,7 @@ This post was written when I had little experience with Node.js. This is not an 
 
 - [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]
 
-I have used AWS Elastic Beanstalk for a while and figured Heroku has several advantages over AWS. So I have migrated my AWS EB app called **KMLA Forms** to Heroku. For your information, KMLA Forms is a web app that simplifies writing necessary official documents in my school, KMLA.
+I have used AWS Elastic Beanstalk for a while and figured Heroku has several advantages over AWS. So I have migrated my AWS EB app called **[[민사고|KMLA]] Forms** to Heroku. For your information, [[민사고|KMLA]] Forms is a web app that simplifies writing necessary official documents in my school, [[민사고|KMLA]].
 
 Few advantages I found:
 
