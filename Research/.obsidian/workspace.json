@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/이 땅에 태어나서.md",
-                "mode": "source",
+                "file": "pages/Born of this land - The Founding Legend of Hyundai.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/이 땅에 태어나서.md",
+                "file": "pages/Born of this land - The Founding Legend of Hyundai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/이 땅에 태어나서.md"
+                "file": "pages/Born of this land - The Founding Legend of Hyundai.md"
               }
             }
           },
@@ -146,9 +146,10 @@
   },
   "active": "cde0ba6752f4a17b",
   "lastOpenFiles": [
+    "pages/이 땅에 태어나서.md",
+    "pages/Born of this land - The Founding Legend of Hyundai.md",
     "journals/2023-02-23.md",
     "pages/코리안 디스카운트.md",
-    "pages/이 땅에 태어나서.md",
     "pages/한민족.md",
     "pages/민사고.md",
     "pages/대한민국.md",
@@ -170,7 +171,6 @@
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/인하우스와 자유경쟁.md",
     "pages/In-house and Free Market.md",
-    "pages/P vs NP.md",
-    "pages/Antifragily.md"
+    "pages/P vs NP.md"
   ]
 }
