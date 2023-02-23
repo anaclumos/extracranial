@@ -3,13 +3,13 @@ lang: 'en'
 slug: '/C8EA6C'
 ---
 
-Banks falling behind the tech is a familiar story in the U.S., But I am confident Korea will take it to the next level. You need to install seven different programs and plugins that constantly run, slowing down your computer to check your account balance; you need to create a non-exportable digital certificate file to make any transactions.
+Banks falling behind the tech is a familiar story in the U.S., But I am confident [[대한민국|Korea]] will take it to the next level. You need to install seven different programs and plugins that constantly run, slowing down your computer to check your account balance; you need to create a non-exportable digital certificate file to make any transactions.
 
 ## Where it all began
 
-It all starts with the [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). When the internet was booming in 1999, Korea couldn't correctly use the 128-bit AES encryption technology, so they started from a weakened 40-bit security system. They then later developed their version of a 128-bit security system which required ActiveX and made it a standard (SEED.)
+It all starts with the [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). When the internet was booming in 1999, [[대한민국|Korea]] couldn't correctly use the 128-bit AES encryption technology, so they started from a weakened 40-bit security system. They then later developed their version of a 128-bit security system which required ActiveX and made it a standard (SEED.)
 
-In 2000, the U.S. lifted export restrictions, but Korea continued to use SEED and ActiveX. While they later removed ActiveX systems, they switched to mandating .exe security programs running on the device constantly. As [Wladimir Palant found out](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/), these programs are uncomfortable and do not even conform to ancient security techniques. Moreover, they are developed with 15-year-old Visual Studio, causing avoidable security problems like simple Buffer Overflows Attacks. **But why**? Why are they still not improving things? Some key observations:
+In 2000, the U.S. lifted export restrictions, but [[대한민국|Korea]] continued to use SEED and ActiveX. While they later removed ActiveX systems, they switched to mandating .exe security programs running on the device constantly. As [Wladimir Palant found out](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/), these programs are uncomfortable and do not even conform to ancient security techniques. Moreover, they are developed with 15-year-old Visual Studio, causing avoidable security problems like simple Buffer Overflows Attacks. **But why**? Why are they still not improving things? Some key observations:
 
 ## Dodging Responsibilities
 
@@ -29,8 +29,8 @@ The Korean market is known to have limited competition in some industries, inclu
 
 - **Linguistic and regional barriers**. The Korean language is unique, and many Korean consumers prefer to do business with companies fluent in Korean and understand Korean culture.
 - **Resistance to external influence**. Koreans have great national pride and are often wary of external parties playing a significant role in their economy.
-- **Lobbying and Corruptions**. Allegations of corruption have been made against Korea Financial Telecommunications and Clearings (KFTC). This company is one of five authorized certification system companies and makes millions of dollars. The KFTC should be a public interest organization created by the state. Still, high-ranking officials from the Financial Services Commission are accused of colluding with the company after retirement, leading to questions about why they are attracted to such positions.
-- **Perception of overseas banks**. Finally, there is often a perception in Korea that using overseas banks or doing business with foreign companies is _unpatriotic_ or _unethical_.
+- **Lobbying and Corruptions**. Allegations of corruption have been made against [[대한민국|Korea]] Financial Telecommunications and Clearings (KFTC). This company is one of five authorized certification system companies and makes millions of dollars. The KFTC should be a public interest organization created by the state. Still, high-ranking officials from the Financial Services Commission are accused of colluding with the company after retirement, leading to questions about why they are attracted to such positions.
+- **Perception of overseas banks**. Finally, there is often a perception in [[대한민국|Korea]] that using overseas banks or doing business with foreign companies is _unpatriotic_ or _unethical_.
 
 For these reasons, the Korean market, including the banking sector, has limited competition.
 
