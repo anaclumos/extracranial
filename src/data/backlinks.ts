@@ -1695,6 +1695,9 @@ export const backlinks = {
         "Proposal of Research to Professor Cote": "... Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and ...",
         "Search AI": "... 되어가고 있어요. 그럼 검색은 더 이상 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 [[ChatGPT]]에 많은 사람들이 놀라고 있어요. 모든 것의 정답을 주지는 못 하는데요. ..."
     },
+    "Born of this land - The Founding Legend of Hyundai": {
+        "2023-02-23": "- [[Born of this land - The Founding Legend of Hyundai]]"
+    },
     "Readings": {
         "2022-09-07": "- [[Readings]]",
         "2022-12-04": "- [[Readings]]",
