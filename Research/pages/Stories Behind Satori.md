@@ -23,4 +23,4 @@ After simplifying the syntax with [[JSX]] and simple [[CSS]], Shu used [RazrFalc
 
 The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.
 They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library and rendering things on the fly.
-The same applies to [[Emojis|emojis]].
+The same applies to [[Emoji|emojis]].

@@ -11,7 +11,7 @@ $$
 P(B|A) = P(B)
 $$
 
-Whether $A$ happens or not does not affect the probability of $B$.
+Whether $A$ happens or not does not affect the [[probability]] of $B$.
 
 By definition of $P(B|A)$,
 

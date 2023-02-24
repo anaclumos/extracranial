@@ -14,7 +14,7 @@ $$
 P(X=x) = P^x (1-P)^{1-x}
 $$
 
-where $X$ is the number of heads and $x \in \{0, ~1\}$. $P$ is the probability of success.
+where $X$ is the number of heads and $x \in \{0, ~1\}$. $P$ is the [[probability]] of success.
 
 ## Bernoulli Trials
 

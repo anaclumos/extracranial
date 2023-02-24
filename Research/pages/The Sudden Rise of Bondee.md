@@ -3,13 +3,13 @@ lang: 'en'
 slug: '/E93D46'
 ---
 
-[[Bondee]] is a [[metaverse]] social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in the App Store. Users can create a 3d character and design rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in a modern messenger form. It is one of the superior metaverse apps, with great modeling, natural interactions, and millions of 3D styles and assets. It feels better than Facebook and Instagram's 3D avatar.
+[[Bondee]] is a [[metaverse]] social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in the App Store. Users can create a [[3d]] character and design rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in a modern messenger form. It is one of the superior metaverse apps, with great modeling, natural interactions, and millions of [[3D]] styles and assets. It feels better than Facebook and Instagram's [[3D]] avatar.
 
 ![[21D071.png]]
 
 Then what makes it so good? My observations:
 
-**3D character creation**. Bondee has so many trendy presets that it took me 5 seconds to create my avatar. Customizability is always great, but I was always scared of Instagram giving me a bare-face avatar that I had to go through 49 different layers of facial features.
+**[[3D]] character creation**. Bondee has so many trendy presets that it took me 5 seconds to create my avatar. Customizability is always great, but I was always scared of Instagram giving me a bare-face avatar that I had to go through 49 different layers of facial features.
 
 ![[F86A64.png]]
 

@@ -8,7 +8,7 @@ slug: '/B26538'
 ### [After self-hosting my email for twenty-three years, I have thrown in the towel. The oligopoly has won.](https://cfenollosa.com/blog/after-self-hosting-my-email-for-twenty-three-years-i-have-thrown-in-the-towel-the-oligopoly-has-won.html)
 
 - Email is now an oligopoly, a service gatekept by a few big companies which do not follow net neutrality principles.
-- Google has half a billion results for "[my email goes directly to spam](https://www.google.com/search?q=my+email+goes+directly+to+spam)
+- [[Google]] has half a billion results for "[my email goes directly to spam](https://www.google.com/search?q=my+email+goes+directly+to+spam)
 - email servers run bayesian filtering algorithms, which protect you, and most spam doesn't reach your inbox.
 - Big Tech deliberately nerfs email deliverability.
 - if you want to build services on top of the email, you have to pay for an email-sending API which others in the industry have blessed. One of **them**.

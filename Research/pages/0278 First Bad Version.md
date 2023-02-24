@@ -50,4 +50,4 @@ Space Complexity: $O(n)$
 
 ## Takeaways
 
-When using binary search, we must consider the case where `low < high` but when `low = high - 1` and thus never exiting the loop.
+When using [[binary search]], we must consider the case where `low < high` but when `low = high - 1` and thus never exiting the loop.

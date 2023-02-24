@@ -39,11 +39,11 @@ class Solution:
 
 ### Runtime
 
-- 542 ms, faster than 6.00% of Python3 online submissions for Binary Search.
+- 542 ms, faster than 6.00% of Python3 online submissions for [[Binary Search]].
 
 ### Memory Usage
 
-- 15.5 MB, less than 73.17% of Python3 online submissions for Binary Search.
+- 15.5 MB, less than 73.17% of Python3 online submissions for [[Binary Search]].
 
 ## Complexity Analysis
 

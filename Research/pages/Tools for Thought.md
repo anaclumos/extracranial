@@ -14,4 +14,4 @@ slug: '/872B83'
 - [[Handwriting Tools for Thoughts]]
 - [[Reminder Tools]]
 - [[Data Capturers]]
-- [[Classic Blogs]]: just make a post and let Google do the job.
+- [[Classic Blogs]]: just make a post and let [[Google]] do the job.

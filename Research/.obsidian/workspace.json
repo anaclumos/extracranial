@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Born of this Land - The Founding Story of Hyundai.md",
+                "file": "journals/2023-02-24.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "54ff1d65eb0234a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Mastodon.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Born of this Land - The Founding Story of Hyundai.md",
+                "file": "pages/Mastodon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Born of this Land - The Founding Story of Hyundai.md"
+                "file": "pages/Mastodon.md"
               }
             }
           },
@@ -143,33 +157,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cde0ba6752f4a17b",
+  "active": "54ff1d65eb0234a8",
   "lastOpenFiles": [
-    "journals/2023-02-23.md",
-    "pages/Born of this Land - The Founding Story of Hyundai.md",
-    "pages/북한.md",
-    "pages/대한민국.md",
-    "pages/한국어.md",
-    "pages/한민족.md",
-    "pages/배달의민족 FE 개발자가 일하는 법 발표.md",
-    "pages/한국인.md",
-    "pages/Unified Korea.md",
-    "pages/AI replaces expensive jobs first.md",
-    "pages/이 땅에 태어나서.md",
-    "pages/Korean Discount.md",
-    "pages/글 10,000장 써서 해결 안 될 문제는 정말 없는가.md",
-    "pages/민사고.md",
-    "pages/HTML 텍스트 위에 덧말 강조점 쓰기.md",
-    "journals/2022-07-05.md",
-    "pages/Search AI와 인터넷의 한국어.md",
-    "pages/국내 은행 서비스가 나쁜 이유.md",
-    "pages/United States of America.md",
+    "journals/2022-12-07.md",
+    "pages/Mastodon.md",
+    "journals/2022-09-27.md",
+    "pages/Fiercely Overpriced.md",
+    "pages/Powerfully Powerless Tools.md",
+    "pages/Ethereum RPC as a Service.md",
+    "pages/AI and ML.md",
+    "pages/Setting different fonts by language in CSS.md",
+    "pages/GitHub Actions.md",
+    "pages/Letter to Mr. Matt Rickard on 2022-12-21.md",
+    "journals/2022-06-06.md",
+    "pages/Page Faults.md",
+    "pages/태백산맥 계획.md",
+    "journals/2022-06-26.md",
+    "pages/WeCrashed.md",
+    "pages/Edge.md",
+    "pages/Vercel.md",
+    "journals/2022-07-10.md",
+    "pages/Cloudflare.md",
+    "journals/2023-02-24.md",
     "journals/2022-06-10.md",
-    "journals/2022-06-22.md",
-    "pages/2022-06-33.md",
-    "journals/2023-02-22.md",
-    "pages/안티프래질.md",
-    "pages/Node.js 앱을 AWS EB에서 Heroku로 옮기기.md",
-    "pages/사발통문.md"
+    "pages/Nation as a Service.md",
+    "pages/Infinite Canvas.md",
+    "pages/Adding a Verified Mark on Apple Mail & Gmail.md",
+    "journals/2022-10-10.md",
+    "pages/Figma.md"
   ]
 }

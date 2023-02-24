@@ -42,7 +42,7 @@ Merged! [Add Unicode Private Area Support #161](https://github.com/vercel/satori
 
 - Basic [[CSS]] layout, styling, and typography.
 - Works with any framework or [[Front-end|frontend]] application
-- [[Font]] and [[Emojis]] Subsets from Google Fonts and other CDNs
+- [[Font]] and [[Emoji]] Subsets from [[Google]] Fonts and other CDNs
 - [[Tailwind]] [[CSS]] with the `tw` prop
 - Handles Cache automatically
 

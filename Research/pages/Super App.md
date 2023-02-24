@@ -10,6 +10,6 @@ aliases: ['Everything App', '슈퍼 앱', '슈퍼앱']
 
 ### [Microsoft considering 'super app' to fight Apple & Google mobile dominance](https://appleinsider.com/articles/22/12/06/microsoft-considering-super-app-to-fight-apple-google-mobile-dominance)
 
-- [[Microsoft]] may build an all-in-one "super app" to combine various services and fight the mobile search partnership between Apple and Google
+- [[Microsoft]] may build an all-in-one "super app" to combine various services and fight the mobile search partnership between [[Apple]] and [[Google]]
 - According to a report on Tuesday, the company has considered building an app that combines shopping, messaging, web search, news, and other services
 - Whether [[Microsoft]] will ever launch such an app is still being determined. Still, sources say CEO Satya Nadella is laying the groundwork by pushing [[Bing]] to work better with [[Microsoft]]'s other mobile products
