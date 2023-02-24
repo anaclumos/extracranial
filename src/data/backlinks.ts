@@ -1065,6 +1065,11 @@ export const backlinks = {
     "FFMpeg for iPad": {
         "2022-10-20": "- [[FFMpeg for iPad]]"
     },
+    "북한": {
+        "2023-02-23": "- [[북한]]",
+        "경제 개발의 길목에서": "... 열었다. 그는 \"나는 대한민국|한국의 방침이 무엇인지 도무지 알 수가 없다. 대한민국|한국은 [[북한]]의 핵화를 반대하는 동시에 북한의 핵화를 저지하려는 [[United States of America|미국]]의 방침에도 ...",
+        "한민족": "한민족은 대한민국과 [[북한]]의 주류가 되는 민족으로,"
+    },
     "Stephan Ango": {
         "2022-10-19": "- [[Stephan Ango]]",
         "2022-10-21": "- [[Stephan Ango]]: also created [[Obsidian]] Minimal Settings.",
@@ -1853,7 +1858,7 @@ export const backlinks = {
         "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports.",
         "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
         "Apple Silicon": "- Chips made by [[Apple]]",
-        "Brunch violates SF terms of use": "- Korean writing service Brunch violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web ...",
+        "Brunch violates SF terms of use": "- 한민족|Korean writing service Brunch violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web ...",
         "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If you still use `OSSpinLock`, you'll get ...",
         "Google": "... one of the Big Five American information technology companies, alongside Amazon, [[Apple]], Meta, and [[Microsoft]]. Google",
@@ -2059,9 +2064,21 @@ export const backlinks = {
         "Translation Look-aside Buffers": "- Similar to [[Cache Average Access Time]],"
     },
     "한국어": {
+        "Aldehyde Backlinks Outage (January 2023)": "Backlinks were not working for [[한국어|Korean]] Pages.",
         "Antifragile": "[[한국어]]로는 쉽게 정리된다.",
+        "Better Docusaurus": "- Algolia [[한국어|Korean]] Translations",
+        "Brunch": "- [[한국어|Korean]] Writing Service operated by [[Kakao]]",
+        "CJK": "... CJK character is a collective term for the Chinese, Japanese, and [[한국어|Korean]] languages, which include Chinese characters and derivatives in their writing systems, ...",
         "Developing Review Notes for Obsidian": "영어로 작성하려다가 옵시디언 플러그인 개발 자료는 [[한국어]]로 거의 없어 그냥 한국어로 작성한다.",
+        "Letter to the Heptabase Team on 2022-10-11": "... → English translation evolved so well! Anyways, if you need any [[한국어|Korean]] 🇰🇷 translation support or anything I can help with, I'm more ...",
+        "Mapping keys to set different input languages on macOS": "- Press `Right Command` to set Mac's input method to [[한국어|Korean]].",
+        "Ridi": "> Ridi Corporation ([[한국어|Korean]]: 리디주식회사) is a content platform company established in March 2008. Ridi ...",
         "Search AI와 인터넷의 한국어": "나는 [[한국어]] 자료가 인터넷에 부족한 탓이라고 생각하지 않는다.",
+        "Setting different fonts by language in CSS": "`U+AC00-D7AF`is the Unicode range of [[한국어|Korean]] glyphs.",
+        "Shortcuts": "... I made, which uses the Caps Lock key or 한/영 키 ([[한국어|Korean]]-English Key). That is, because, I never use the Caps Lock key ...",
+        "TossFace Playground": "- Celebrating Redistribution of [[한국어|Korean]] and Futuristic [[Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 ...",
+        "Tossface": "- Introduced several divergent designs, overwriting Japanese cultural images with [[한국어|Korean]] equivalents and outdated symbols with modern ones.",
+        "Why Korean Banks Suck": "- Linguistic and regional barriers. The [[한국어|Korean language]] is unique, and many [[대한민국|Korean]] consumers prefer to do business with ...",
         "국내 은행 서비스가 나쁜 이유": "- 언어 및 지역적 장벽. [[한국어]]는 고유한 언어이며, 많은 [[대한민국|한국]] 소비자는 한국어에 능통하고 [[대한민국|한국]] 문화를 이해하는 회사와 ...",
         "대한민국": "대한민국은 동아시아의 한반도 남부에 위치한 국가이다. 주 민족은 한민족이며, [[한국어]]를 주로 사용한다.",
         "월급만큼 중요한 것은 자존급이다": "[[한국어]]에서 적합한 번역은 덕업일치일 것이다.",
@@ -2245,6 +2262,11 @@ export const backlinks = {
         "Better Obsidian": "  - List view for Daily Notes like [[Roam Research]] and [[Logseq]].",
         "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser",
         "Text-based Tools for Thought": "### [[Roam Research]]"
+    },
+    "Korean Discount": {
+        "Born of this land - The Founding Legend of Hyundai": "... earnings are often cited as one of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do not pay dividends to shareholders but ...",
+        "글감": "- [[Korean Discount]]",
+        "이 땅에 태어나서": "정주영은 [[Korean Discount|코리안 디스카운트]]의 원인 중 하나로 지목되는 사내 유보금 문제에 대해, 배당 대신 사내 ..."
     },
     "DOM": {
         "2022-06-14": "- Brane에서 Brane [[DOM]]을 만드는 것은 구현 전략의 일부일 뿐, Brane DOM 자체는 Brane이 아니다.",
@@ -2484,12 +2506,21 @@ export const backlinks = {
         "Symbol (Computer Systems)": "- initialize global variables (take advantage of the linker for [[dx]])"
     },
     "한민족": {
+        "2022-06-14": "- Translations are now available for discussion comments in Spanish, Portuguese, [[한민족|Korean]], and English. - Translations for Discussions",
+        "2022-06-28": "- [[한민족|Koreans]] have a sharp question obsession — they feel obsessed that they ...",
         "2022-07-05": "- United States of America|미국 국적이지만 대한민국|한국 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
         "2023-02-15": "- [[한민족]]",
+        "Born of this land - The Founding Legend of Hyundai": "... any further losses. However, controlling the project would have prevented other [[한민족|Korean]] construction companies from entering overseas markets. Despite suffering considerable losses in ...",
+        "Brunch violates SF terms of use": "- [[한민족|Korean]] writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San ...",
+        "Imoogi and Dragon Company": "... Carp 🐟 → Imoogi 🐍 → Dragon 🐉 company, as in [[한민족|Korean]] folklore.",
+        "Korean Discount": "... discount is a term that refers to the lower valuation of [[한민족|Korean]] stocks compared to their global peers.",
+        "Letter to Mr. Matt Rickard on 2022-10-03": "Unlike the Western market, the [[한민족|Korean]] music market is heavily independent.",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "From my native [[한민족|Korean]] experience, the [[Super App]] is mighty and dangerous. We have a ...",
         "국가와 민족": "- 대한민국은 [[한민족|민족]]과 국가를 종종 혼동한다.",
         "대한민국": "대한민국은 동아시아의 한반도 남부에 위치한 국가이다. 주 민족은 [[한민족]]이며, [[한국어]]를 주로 사용한다.",
         "민사고": "> [[한민족]]의 모든 욕망을 충실하게 형체화한 모습.",
         "민사고와 쇼비니즘": "... 아니라 문화나 경제로 어떤 나라든 침략하고 통치할 수 있다. 그렇다면 강력한 [[한민족|민족]] 정체성을 가지지 않는 한 어떤 나라든 정치적, 경제적 초강대국의 노예가 될 ...",
+        "이 땅에 태어나서": "... 위한 차관을 도입하기 위해 힘쓸 때도, 주머니 속 화폐의 거북선을 보여주며 [[한민족]]은 1500년대부터 철갑선을 만들었으며, 쇄국 정책으로 산업화 가 늦어져 국민의 능력과 아이디어가 ...",
         "한국어": "[[한민족]]과 [[대한민국]]의 언어이다.",
         "한국인": "대한민국의 국적자이다. [[한민족]]과 다르다.",
         "한민족은 해적되었다": "[[한민족]]은 해적되었다.",
@@ -2926,7 +2957,7 @@ export const backlinks = {
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "이 글은 Balena 주식회사가 개발한 `balenaOS` 및 `balenaSound` Project|프로젝트를 활용한다. Balena는 [[Linux]] 장치들로 사물인터넷(IoT) 시스템을 구축할 수 있도록 도와주는 플랫폼이다. 이러한 Project|프로젝트를 진행해 ..."
     },
     "Brunch": {
-        "Brunch violates SF terms of use": "- Korean writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as ..."
+        "Brunch violates SF terms of use": "- 한민족|Korean writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as ..."
     },
     "0733 Flood Fill": {
         "2022-09-05": "- [[0733 Flood Fill]]",
@@ -3138,20 +3169,29 @@ export const backlinks = {
     "대한민국": {
         "2022-06-14": "... This shows how resumes differ in United States of America|US and [[대한민국|Korea]].",
         "2022-07-05": "- United States of America|미국 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
-        "AI replaces expensive jobs first": "SEOUL (Reuters) - [[대한민국|South Korea]]'s parliament on late Friday passed a controversial bill to limit ride-hailing ...",
+        "AI replaces expensive jobs first": "SEOUL (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed a controversial bill to limit ride-hailing ...",
         "AT&T Roaming Incident (December 2022)": "On December 15th, I landed in [[대한민국|Korea]] and did not have my phone service, so I used 600MB ...",
+        "Born of this land - The Founding Legend of Hyundai": "... then on, all of our work for the US Army in [[대한민국|Korea]] was Hyundai's.",
         "Downloading Any Recordings from Zoom": "... Both the United States of America|United States and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted material for educational use.",
         "Finally, Apple Pay in Korea": "After a decade of waiting, Apple Pay has expanded to [[대한민국|Korea]]. 대한민국|Korea remained the only developed nation country that did not support ...",
         "Karrot": "> 당근마켓(Karrot)은 [[대한민국]]의 중고 거래, 소상공인 홍보 등 생활정보 소프트웨어이다. 중고거래, 지역업체, 질문답변, 부동산, ...",
+        "Korean Discount": "The [[대한민국|Korea]] discount is a term that refers to the lower valuation of ...",
         "Krafton Way": "좁은 [[대한민국|한국]] 시장에서 벗어나, 해외 시장에 곧바로 배급할 수 있는 파괴력 있는 PC ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in [[대한민국|Korea]], [[Naver]], and [[Kakao]].",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... my way back to my home from Seoul to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!",
-        "Metadream": "... 9, 2022, and has offices and data centers in Singapore, 일본|Japan, [[대한민국|South Korea]], and the [[United States of America|United States]]. One of Metadream's directors ...",
+        "Metadream": "... 9, 2022, and has offices and data centers in Singapore, 일본|Japan, [[대한민국|Korea]], and the [[United States of America|United States]]. One of Metadream's directors ...",
         "Naver": "... Corporation. It debuted in 1999 as the first web portal in [[대한민국|Korea]] to develop and use its search [[engine]]. It was also the ...",
+        "Person 1E6ABA": "Why would the [[대한민국|Korean]] Govs and 대한민국|Korean Banks promote any terrible news for the 대한민국|Korean ...",
+        "Person A3BA1A": "Considering that, Carta cannot ever penetrate the [[대한민국|Korean]] market.",
         "Pretendard의 아쉬운 점": "허나 [[대한민국|한국]] 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
+        "Ridi": "Ridi is a [[대한민국|Korean]] [[Unicorn]] specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
         "Search AI와 인터넷의 한국어": "[[대한민국|한국]] 정도라면 충분히 많은 정보가 있을 것이다.",
+        "Separation of Computer Scientists and Computer Technologists": "... different types of musicians, from street-performing rappers to classical oboists, from [[대한민국|Korean]] idols to shamanist drummers.",
+        "Service Shimming": "- Naver (≈ [[대한민국|Korean]] Google), for a while, failed to make a News automation service, ...",
+        "Setting different fonts by language in CSS": "I recently came across a [[대한민국|Korean]] font called Spoqa Han Sans. It attracted me due to its ...",
         "The Sudden Rise of Bondee": "Bondee is a metaverse social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in the App Store. Users ...",
         "Toss": "- Financial Technology|FinTech Unicorn of [[대한민국|Korea]].",
+        "Using an iPad as my Ebook": "... would love to see multiple e-book vendors. I also read many [[대한민국|Korean]] books, and the Kindle store lacks 대한민국|Korean titles. Knowing that Amazon ...",
         "Why Korean Banks Suck": "... is a familiar story in the U.S., But I am confident [[대한민국|Korea]] will take it to the next level. You need to install ...",
         "개성은 자연스레 주어지지 않는다": "[[대한민국]]에는 독립적인 자아가 부족하다 — 14성현이 중학교 암기 과목을 공부하며 한 생각입니다.",
         "경제 개발의 길목에서": "[[대한민국|한국]]에서는 자고로 선거 때만 되면 통화량이 급팽창했다. 정부의 선심 행정으로 예산이 팽창하고 ...",
@@ -3163,6 +3203,7 @@ export const backlinks = {
         "서낭당": "서낭당은 [[대한민국|한국]]의 산간 마을에 흔히 볼 수 있으며, 마을의 안녕과 평안을 위해 제사를 ...",
         "솟대": "솟대는 [[대한민국|한국]]의 민속신앙에서 새해의 풍년을 기원하며 세우거나 마을 입구에 마을의 수호신의 상징으로 세운 ...",
         "유난한 도전": "... 금융 서비스를 만드는 것이다. 금융 회사가 테크를 배우는 게 아니다. 아직 [[대한민국|한국]]에는 제대로 된 핀테크 서비스가 없다.",
+        "이 땅에 태어나서": "... 받고 편견의 대상이 되는 것은 떳떳하지 못한 정부가 만들어놓은 결과이며, 국민들이 [[대한민국]]이 세계 경제에서 경쟁력을 갖추기 위해 기업의 성장을 원하면서도, 기업이 커지는 것을 ...",
         "이공계": "그러나 현재 [[대한민국|한국]]에서는 이공계와 산업에 대한 관심과 지원이 부족한 상황이다.",
         "이무기 기업, 청룡 기업": "Unicorn|유니콘 기업이라는 단어는 마치 성공이 정해진 양 너무 마법적인 기운을 준다. [[대한민국|한국]] 민담처럼 잉어 🐟 → 이무기 🐍 → 청룡 🐉 기업이면 어떨까.",
         "일본 과학기술 총력전": "그리고 [[대한민국|한국]] 전쟁이 발발하자 [[일본]]은 미군의 병참 기지 역할을 수행한다.",
@@ -3175,7 +3216,7 @@ export const backlinks = {
         "한국어": "한민족과 [[대한민국]]의 언어이다.",
         "한국의 입시와 거짓된 명예": "[[대한민국|한국]]의 입시가 물론 시간을 낭비하는 것은 맞다.",
         "한국인": "[[대한민국]]의 국적자이다. [[한민족]]과 다르다.",
-        "한민족": "한민족은 [[대한민국]]과 북한의 주류가 되는 민족으로,",
+        "한민족": "한민족은 [[대한민국]]과 [[북한]]의 주류가 되는 민족으로,",
         "한민족의 동족상잔": "... 조선은 노예제 사회(Slavery Society)\"라고 주장했습니다. 반면 이영훈 전 서울대 교수를 비롯한 [[대한민국|한국]] 학자들은 노비가 양인과 결혼을 할 수 있다는 점이나, 주인과 떨어져 살며 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] ..."
     },
@@ -3419,7 +3460,7 @@ export const backlinks = {
         "2022-12-06": "- [[San Francisco]]",
         "Akzidenz": "- Akin to [[San Francisco|SF Pro]] and [[Inter]].",
         "Apple Newsroom 서체 따라하기": "## [[San Francisco]]를 사용하고 싶었다",
-        "Brunch violates SF terms of use": "... Korean writing service Brunch violates Apple's Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].",
+        "Brunch violates SF terms of use": "... 한민족|Korean writing service Brunch violates Apple's Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].",
         "Font Features": "- [[San Francisco]], [[Inter]], and [[Pretendard]] has awesome support.",
         "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
         "Pretendard": "  - He should've put it as Cross-platform [[San Francisco]] alternative",
@@ -3829,7 +3870,7 @@ export const backlinks = {
         "2022-10-16": "### [[Kakao]]",
         "AI replaces expensive jobs first": "... a victory without victory --- since the winner was another conglomerate [[Kakao]] Mobility which finally took over the market.",
         "AI는 고가 노동부터 점령한다": "... 승리했지만, 승리 아닌 승리를 거두고 말았다. 타다가 멸망한 탓에 그 옆의 [[Kakao|카카오]]모빌리티가 시장을 독점하는 결과를 가져왔기 때문이다.",
-        "Brunch": "- Korean Writing Service operated by [[Kakao]]",
+        "Brunch": "- 한국어|Korean Writing Service operated by [[Kakao]]",
         "How to Build Software like an SRE": "  - do you see [[Kakao]]?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in 대한민국|Korea, Naver, and [[Kakao]].",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + ...",
@@ -3958,7 +3999,7 @@ export const backlinks = {
     "eBook": {
         "ACSM": "... other digital publications. It contains data to activate and download an [[eBook]]. It does not include the eBook itself.",
         "EPUB": "... standard of the IDPF in September 2007, superseding the older Open [[eBook]] (OEB) standard. EPUB",
-        "Ridi": "Ridi is a Korean Unicorn specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
+        "Ridi": "Ridi is a 대한민국|Korean Unicorn specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
         "Using an iPad as my Ebook": "The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker News]] thread"
     },
     "이루다": {
@@ -4242,7 +4283,7 @@ export const backlinks = {
         "Krafton Way": "> 우리는 과거에 B급 제품을 만들어왔습니다. 일본이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. 우리는 우리 자신의 실력이 B급이라서 B급 ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... a couple of times about a potential Super App in the [[United States of America|US]], but this may be a very alarming scenario for the people ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... Rickard on 2022-12-24, the conditions for a Super App in the [[United States of America|United States]] are vague. [[Apple]] and [[Google]] divide the tech market into two, ...",
-        "Metadream": "... offices and data centers in Singapore, 일본|Japan, 대한민국|South Korea, and the [[United States of America|United States]]. One of Metadream's directors is Chinese national Yang Yuxiang, the CEO ...",
+        "Metadream": "... has offices and data centers in Singapore, 일본|Japan, 대한민국|Korea, and the [[United States of America|United States]]. One of Metadream's directors is Chinese national Yang Yuxiang, the CEO ...",
         "Nuclear Fusion": "- The [[United States of America|U.S.]] Department of Energy (DOE) and DOE's National Nuclear Security Administration (NNSA) ...",
         "Palantir Apollo": "... offerings authorized for Mission Critical National Security Systems (IL5) by the [[United States of America|U.S.]] Department of Defense. Palantir Technologies",
         "Palantir Gotham": "... Palantir Gotham is used by counter-terrorism analysts at offices in the [[United States of America|United States]] Intelligence Community (USIC) and United States of America|United States Department of ...",
@@ -4519,7 +4560,7 @@ export const backlinks = {
         "Personal Training Corpus": "> \"보이스 메이커를 통해 제작된 AI 보이스는 [[Naver|네이버]] 클로바더빙 서비스에서 누구나 무료로 이용할 수 있게 제공합니다. 향후에는 클로바더빙 유료 ...",
         "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ...",
         "Search AI와 인터넷의 한국어": "무엇보다 대부분의 자료가 [[Naver|네이버]]에 갇혀있고,",
-        "Service Shimming": "- [[Naver]] (≈ Korean Google), for a while, failed to make a News ...",
+        "Service Shimming": "- [[Naver]] (≈ [[대한민국|Korean]] Google), for a while, failed to make a News ...",
         "서비스 시밍": "- [[Naver|네이버]]는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 일일이 찾아가며 뉴스를 배포할 ...",
         "유난한 도전": "... 사용자도 많고 간편한 토스결제를 너나없이 이용하고 싶어 할 것이다. 그렇지 않았다. [[Naver|네이버]]페이, [[Kakao|카카오]]페이, 삼성페이 등 경쟁자가 너무 많았다. 토스페이의 설득력이 부족했다.",
         "하늘땅사람 개발 기록": "- `( ••)` `⊹⋛⋋( ՞ਊ ՞)⋌⋚⊹) `와 같은 이모티콘. [[Naver|네이버]] 스마트 키보드의 기능 중 꽤 좋은 기능이었다."
@@ -4610,7 +4651,7 @@ export const backlinks = {
     "Emojis": {
         "Satori": "- Font and [[Emojis]] Subsets from Google Fonts and other CDNs",
         "Stories Behind Satori": "The same applies to [[Emojis|emojis]].",
-        "TossFace Playground": "- Celebrating Redistribution of Korean and Futuristic [[Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ...",
+        "TossFace Playground": "- Celebrating Redistribution of 한국어|Korean and Futuristic [[Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ...",
         "Tossface": "- Toss once withdrew the [[emojis]], but I submitted a request to put them back on Unicode ..."
     },
     "Photoshop for Text": {
@@ -4753,10 +4794,6 @@ export const backlinks = {
     },
     "배달의민족 FE 개발자가 일하는 법 발표": {
         "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 발표]]"
-    },
-    "코리안 디스카운트": {
-        "글감": "- [[코리안 디스카운트]]",
-        "이 땅에 태어나서": "정주영은 [[코리안 디스카운트]]의 원인 중 하나로 지목되는 사내 유보금 문제에 대해, 배당 대신 사내 ..."
     },
     "방지된 폭탄에 대한 경의": {
         "2023-02-01": "- [[방지된 폭탄에 대한 경의]]",
@@ -4971,7 +5008,7 @@ export const backlinks = {
         "Finally, Apple Pay in Korea": "... would've likely become an exceptional NFC standard in 대한민국|Korea, such as [[일본|Japan]]'s Suica. But they never succeeded.) Eventually, the new wave of payment ...",
         "Haruki Murakami": "... writer. His novels, essays, and short stories have been bestsellers in [[일본|Japan]] and internationally, with his work translated into 50 languages and selling ...",
         "Krafton Way": "> 우리는 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. 우리는 우리 ...",
-        "Metadream": "... September 9, 2022, and has offices and data centers in Singapore, [[일본|Japan]], [[대한민국|South Korea]], and the [[United States of America|United States]]. One of ...",
+        "Metadream": "... September 9, 2022, and has offices and data centers in Singapore, [[일본|Japan]], [[대한민국|Korea]], and the [[United States of America|United States]]. One of Metadream's ...",
         "Pretendard의 아쉬운 점": "허나 대한민국|한국 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
         "Ruby": "... It was developed in the mid-1990s by Yukihiro \"Matz\" Matsumoto in [[일본|Japan]]. Ruby (programming language)>)",
         "The Sudden Rise of Bondee": "Bondee is a metaverse social app, going crazy in 대한민국|Korea, [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in the App Store. Users can ...",
@@ -5078,7 +5115,7 @@ export const backlinks = {
     },
     "Unicorn": {
         "Imoogi and Dragon Company": "The word [[Unicorn]] Company gives the company too much of a magical sentiment as ...",
-        "Ridi": "Ridi is a Korean [[Unicorn]] specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
+        "Ridi": "Ridi is a 대한민국|Korean [[Unicorn]] specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
         "Toss": "- Financial Technology|FinTech [[Unicorn]] of [[대한민국|Korea]].",
         "이무기 기업, 청룡 기업": "[[Unicorn|유니콘]] 기업이라는 단어는 마치 성공이 정해진 양 너무 마법적인 기운을 준다. [[대한민국|한국]] ..."
     },
@@ -5190,6 +5227,10 @@ export const backlinks = {
     "Rewrite it in Rust": {
         "2022-10-19": "- [[Rewrite it in Rust]]",
         "Rust": "- [[Rewrite it in Rust]]"
+    },
+    "Unified Korea": {
+        "Born of this land - The Founding Legend of Hyundai": "... growth possible, and to reform politics to create an advanced and [[Unified Korea]]. No matter what, he was determined to prevent the country from ...",
+        "이 땅에 태어나서": "... 중심 국가가 되고, 세계의 모범 국가가 될 수 있다고 본다. 특히 [[Unified Korea|통일]]이 되면 [[한민족]]은 6-7천만 명의 다부지고 지혜로운 인구를 얻을 수 있음을 강조했다. ..."
     },
     "0079 Word Search": {
         "Coding Tests": "- [ ] [[0079 Word Search]]"

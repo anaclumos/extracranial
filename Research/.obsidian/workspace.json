@@ -11,13 +11,8 @@
             "id": "cde0ba6752f4a17b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Born of this land - The Founding Legend of Hyundai.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Born of this land - The Founding Legend of Hyundai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Born of this land - The Founding Legend of Hyundai.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5,
-    "collapsed": true
+    "width": 415.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,31 +137,31 @@
   },
   "active": "cde0ba6752f4a17b",
   "lastOpenFiles": [
-    "pages/이 땅에 태어나서.md",
-    "pages/Born of this land - The Founding Legend of Hyundai.md",
     "journals/2023-02-23.md",
-    "pages/코리안 디스카운트.md",
-    "pages/한민족.md",
-    "pages/민사고.md",
+    "pages/북한.md",
     "pages/대한민국.md",
+    "pages/한국어.md",
+    "pages/한민족.md",
+    "pages/Born of this land - The Founding Legend of Hyundai.md",
+    "pages/배달의민족 FE 개발자가 일하는 법 발표.md",
+    "pages/한국인.md",
+    "pages/Unified Korea.md",
+    "pages/AI replaces expensive jobs first.md",
+    "pages/이 땅에 태어나서.md",
+    "pages/Korean Discount.md",
+    "pages/글 10,000장 써서 해결 안 될 문제는 정말 없는가.md",
+    "pages/민사고.md",
     "pages/HTML 텍스트 위에 덧말 강조점 쓰기.md",
     "journals/2022-07-05.md",
     "pages/Search AI와 인터넷의 한국어.md",
-    "pages/한국인.md",
-    "pages/한국어.md",
     "pages/국내 은행 서비스가 나쁜 이유.md",
     "pages/United States of America.md",
-    "pages/글 10,000장 써서 해결 안 될 문제는 정말 없는가.md",
     "journals/2022-06-10.md",
     "journals/2022-06-22.md",
     "pages/2022-06-33.md",
     "journals/2023-02-22.md",
     "pages/안티프래질.md",
     "pages/Node.js 앱을 AWS EB에서 Heroku로 옮기기.md",
-    "pages/사발통문.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/인하우스와 자유경쟁.md",
-    "pages/In-house and Free Market.md",
-    "pages/P vs NP.md"
+    "pages/사발통문.md"
   ]
 }

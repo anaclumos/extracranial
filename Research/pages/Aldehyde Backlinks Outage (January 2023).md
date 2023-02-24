@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/DF5A6E'
 ---
 
-Backlinks were not working for Korean Pages.
+Backlinks were not working for [[한국어|Korean]] Pages.
 
 Found that:
 

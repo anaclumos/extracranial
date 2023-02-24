@@ -83,7 +83,7 @@ Fortunately, I met a friend with the same intent—our vision and idea about the
 <details>
 <summary>Details that my team considered</summary>
 
-- We won't be able to use any payment gateway or third-party payment service since we are not officially registered, and we will use it for a single day. Some students don't own smartphones, so we won't be able to use Toss or KakaoPay (Both are well-known P2P payment services in South Korea, just like Venmo). Therefore, there cannot be any devices on the client-side. We would need to install computers on the merchant's side.
+- We won't be able to use any payment gateway or third-party payment service since we are not officially registered, and we will use it for a single day. Some students don't own smartphones, so we won't be able to use Toss or KakaoPay (Both are well-known P2P payment services in Korea, just like Venmo). Therefore, there cannot be any devices on the client-side. We would need to install computers on the merchant's side.
 - It is impossible to build a completely automated system. Especially in dealing with cash, we would need some help from the student council and the Department of Finances and Information. Trusted members from the committee will manually count and deposit the money.
 - There must be no errors in at least the merchant and customer fields since they would be the most difficult errors to fix later. But, of course, we cannot expect that people will make no mistakes. So, instead, we need to engineer an environment where no one can make a mistake even if they want to.
 - The booths may be congested. If each customer needs to input their username and password every time, that will pose a severe inconvenience. For user experience, some sort of one-touch payment would be ideal.

@@ -13,7 +13,7 @@ While I agreed, I asked how we would solve it since information devalues when wi
 
 Koreans also have a language barrier.
 The sources and the quality of the sources differ a lot.
-Why would the Korean Govs and Korean Banks promote any terrible news for the Korean economy?
+Why would the [[대한민국|Korean]] Govs and [[대한민국|Korean]] Banks promote any terrible news for the [[대한민국|Korean]] economy?
 While that is understandable, as an individual, that can have a detrimental effect.
 See [1997 Asian financial crisis](https://en.wikipedia.org/wiki/1997_Asian_financial_crisis)
 The quality of the news dilutes drastically through the language barrier.
@@ -26,7 +26,7 @@ The quality of the news dilutes drastically through the language barrier.
 1E6ABA thinks a good ranking and curation may be the solution.
 Finding [[Information amongst Data]].
 
-1E6ABA first targeted the Korean market but now considers the American market due to sheer market volume.
+1E6ABA first targeted the [[대한민국|Korean]] market but now considers the American market due to sheer market volume.
 
 1E6ABA says selling a financial product is the easiest.
 Most banks already spend at least $300 to acquire a customer.
