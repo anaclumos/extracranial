@@ -16,9 +16,10 @@ function TOCItemTree({ toc, className, linkClassName, isChild }: Props): JSX.Ele
             className={linkClassName ?? undefined}
             // Developer provided the HTML, so assume it's safe.
             // eslint-disable-next-line react/no-danger
-          >
-            {heading.value}
-          </a>
+            dangerouslySetInnerHTML={{
+              __html: heading.value,
+            }}
+          />
           <TOCItemTree isChild toc={heading.children} className={className} linkClassName={linkClassName} />
         </li>
       ))}
