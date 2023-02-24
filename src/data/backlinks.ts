@@ -1700,9 +1700,6 @@ export const backlinks = {
         "Proposal of Research to Professor Cote": "... Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and ...",
         "Search AI": "... 되어가고 있어요. 그럼 검색은 더 이상 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 [[ChatGPT]]에 많은 사람들이 놀라고 있어요. 모든 것의 정답을 주지는 못 하는데요. ..."
     },
-    "Born of this land - The Founding Legend of Hyundai": {
-        "2023-02-23": "- [[Born of this land - The Founding Legend of Hyundai]]"
-    },
     "Readings": {
         "2022-09-07": "- [[Readings]]",
         "2022-12-04": "- [[Readings]]",
@@ -2264,7 +2261,7 @@ export const backlinks = {
         "Text-based Tools for Thought": "### [[Roam Research]]"
     },
     "Korean Discount": {
-        "Born of this land - The Founding Legend of Hyundai": "... earnings are often cited as one of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do not pay dividends to shareholders but ...",
+        "Born of this Land - The Founding Story of Hyundai": "... earnings are often cited as one of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do not pay dividends to shareholders but ...",
         "글감": "- [[Korean Discount]]",
         "이 땅에 태어나서": "정주영은 [[Korean Discount|코리안 디스카운트]]의 원인 중 하나로 지목되는 사내 유보금 문제에 대해, 배당 대신 사내 ..."
     },
@@ -2510,7 +2507,7 @@ export const backlinks = {
         "2022-06-28": "- [[한민족|Koreans]] have a sharp question obsession — they feel obsessed that they ...",
         "2022-07-05": "- United States of America|미국 국적이지만 대한민국|한국 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
         "2023-02-15": "- [[한민족]]",
-        "Born of this land - The Founding Legend of Hyundai": "... any further losses. However, controlling the project would have prevented other [[한민족|Korean]] construction companies from entering overseas markets. Despite suffering considerable losses in ...",
+        "Born of this Land - The Founding Story of Hyundai": "... any further losses. However, controlling the project would have prevented other [[한민족|Korean]] construction companies from entering overseas markets. Despite suffering considerable losses in ...",
         "Brunch violates SF terms of use": "- [[한민족|Korean]] writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San ...",
         "Imoogi and Dragon Company": "... Carp 🐟 → Imoogi 🐍 → Dragon 🐉 company, as in [[한민족|Korean]] folklore.",
         "Korean Discount": "... discount is a term that refers to the lower valuation of [[한민족|Korean]] stocks compared to their global peers.",
@@ -3171,7 +3168,7 @@ export const backlinks = {
         "2022-07-05": "- United States of America|미국 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
         "AI replaces expensive jobs first": "SEOUL (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed a controversial bill to limit ride-hailing ...",
         "AT&T Roaming Incident (December 2022)": "On December 15th, I landed in [[대한민국|Korea]] and did not have my phone service, so I used 600MB ...",
-        "Born of this land - The Founding Legend of Hyundai": "... then on, all of our work for the US Army in [[대한민국|Korea]] was Hyundai's.",
+        "Born of this Land - The Founding Story of Hyundai": "... then on, all of our work for the US Army in [[대한민국|Korea]] was Hyundai's.",
         "Downloading Any Recordings from Zoom": "... Both the United States of America|United States and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted material for educational use.",
         "Finally, Apple Pay in Korea": "After a decade of waiting, Apple Pay has expanded to [[대한민국|Korea]]. 대한민국|Korea remained the only developed nation country that did not support ...",
         "Karrot": "> 당근마켓(Karrot)은 [[대한민국]]의 중고 거래, 소상공인 홍보 등 생활정보 소프트웨어이다. 중고거래, 지역업체, 질문답변, 부동산, ...",
@@ -4053,6 +4050,10 @@ export const backlinks = {
     "이무기 기업, 청룡 기업": {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0201 | 🇬🇧 Imoogi and Dragon Company <br/> 🇰🇷 [[이무기 기업, 청룡 기업]]            ...",
         "신한국": "- [[이무기 기업, 청룡 기업]]"
+    },
+    "Born of this Land - The Founding Story of Hyundai": {
+        "2023-02-23": "- [[Born of this Land - The Founding Story of Hyundai]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0223 | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]]       ..."
     },
     "기숙사 생활과 방 배정": {
         "2016-11-11": "- [[기숙사 생활과 방 배정]]",
@@ -5131,7 +5132,8 @@ export const backlinks = {
         "2022-12-21": "- Readings: [[이 땅에 태어나서]], [[하얼빈]]",
         "2023-02-22": "- [[이 땅에 태어나서]]",
         "2023-02-23": "- [[이 땅에 태어나서]]",
-        "Readings": "- [ ] [[이 땅에 태어나서]]"
+        "Readings": "- [ ] [[이 땅에 태어나서]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "... of this Land - The Founding Story of Hyundai <br/> 🇰🇷 [[이 땅에 태어나서]]            ..."
     },
     "Almost Monospaced": {
         "2022-11-07": "- [[Almost Monospaced]]"
@@ -5229,7 +5231,7 @@ export const backlinks = {
         "Rust": "- [[Rewrite it in Rust]]"
     },
     "Unified Korea": {
-        "Born of this land - The Founding Legend of Hyundai": "... growth possible, and to reform politics to create an advanced and [[Unified Korea]]. No matter what, he was determined to prevent the country from ...",
+        "Born of this Land - The Founding Story of Hyundai": "... growth possible, and to reform politics to create an advanced and [[Unified Korea]]. No matter what, he was determined to prevent the country from ...",
         "이 땅에 태어나서": "... 중심 국가가 되고, 세계의 모범 국가가 될 수 있다고 본다. 특히 [[Unified Korea|통일]]이 되면 [[한민족]]은 6-7천만 명의 다부지고 지혜로운 인구를 얻을 수 있음을 강조했다. ..."
     },
     "0079 Word Search": {
