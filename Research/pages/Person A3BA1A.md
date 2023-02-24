@@ -9,14 +9,14 @@ slug: '/A3BA1A'
 Quota Labs specializes in B2B Equity management SaaS tools for Asia.
 Think as [Carta: Equity Management Solutions](https://carta.com/) for Asia.
 Quota Labs has two divisions.
-The VC side tool and the Startup side tool.
-VC investment procedures are old and antiquated.
+The [[Venture Capital|VC]] side tool and the Startup side tool.
+[[Venture Capital|VC]] investment procedures are old and antiquated.
 It is done through handwriting, fax, and email.
 An American company, Carta, already dominates the [[United States of America|U.S.]] market.
 But unlike regulated stock markets, Private Equity regulations vastly differ across markets.
 Considering that, Carta cannot ever penetrate the [[대한민국|Korean]] market.
 The essential advantage is speed.
-Competitors in this VC scene are slow.
+Competitors in this [[Venture Capital|VC]] scene are slow.
 While we have a small engineering team, we are full of the best in their type.
 The critical point is to hold trust among businesses.
 That is the key to B2B software.

@@ -22,10 +22,10 @@ When there are multiple global variables, we classify them into strong and weak 
 Weak variables mean uninitialized variables.
 When there are multiple "strong" symbols, it errors.
 When there are strong and weak symbols combined, the [[Link (Computer Systems)|linker]] chooses the strong one.
-The linker will arbitrarily select the symbol when there are multiple weak symbols, depending on the implementation.
+The [[Link (Computer Systems)|linker]] will arbitrarily select the symbol when there are multiple weak symbols, depending on the implementation.
 
 When dealing with global variables, it is good to
 
 - use `static` if possible
-- initialize global variables (take advantage of the linker for [[dx]])
+- initialize global variables (take advantage of the [[Link (Computer Systems)|linker]] for [[dx]])
 - use `extern` keyword when referencing outside static global variables

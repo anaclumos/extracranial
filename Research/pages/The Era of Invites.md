@@ -17,7 +17,7 @@ That being said, invitation systems do harness some social engineering technique
 
 **Association with friends**. When we invite our friend to the app, that friend will likely download and try out the service, knowing that my buddy recommended the service. After all, it can't go wrong from word of mouth. Similarly, there is a network effect; if I get an invite, I am more prone to share it with my friends, thinking about who would be a good fit for this app.
 
-**Avoid operational hazards**. Early startups mostly do not have a proper load-balancing system, not to mention the myriad of bugs and errors inside the system. First impressions always last. For me, it was Notion. I first tried Notion in early 2018, and my experience was extremely sluggish and frustrating. It took me two whole years to retry Notion. It will also save the Ops team a lot of work.
+**Avoid operational hazards**. Early startups mostly do not have a proper load-balancing system, not to mention the myriad of bugs and errors inside the system. First impressions always last. For me, it was [[Notion]]. I first tried [[Notion]] in early 2018, and my experience was extremely sluggish and frustrating. It took me two whole years to retry [[Notion]]. It will also save the Ops team a lot of work.
 
 **Excite and gather the core audience**. People crave the unpossessables. With an invite, the company can build a whole experience outside of the company's reach, making a hype-based fan group on social media. Invites are one of the best ways to make people actively seek other users on the platform, echoing more interest throughout the internet. Of course, this eventually builds a Fear of Missing Out (FOMO) — a topic for another day.
 

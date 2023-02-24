@@ -6,7 +6,7 @@ slug: '/1C362F'
 :::tip
 이하 모든 내용은 2020년 기준으로 작성되었다.
 2022년 기준, **그냥 [[Pretendard]]를 사용**하면 된다.
-가장 애플을 잘 모방한 서체이다.
+가장 [[Apple|애플]]을 잘 모방한 서체이다.
 :::
 
 아주 오랜 기간 나에게 딱 맞는 폰트 CSS를 찾아왔다. 이 글에서는 드디어 찾은 나만의 폰트 CSS에 대해서 다뤄볼 것이다.
@@ -24,7 +24,7 @@ Import 잊지 마세요!
 
 ## [[San Francisco]]를 사용하고 싶었다
 
-나는 [[San Francisco]]를 가장 좋아한다. 최근 Apple 제품의 기본 서체로 사용되고 있고 [Apple Newsroom](https://www.apple.com/kr/newsroom)에서도 사용하는 그 폰트이다. 나는 [Apple Newsroom](https://www.apple.com/kr/newsroom)의 디자인을 정말 좋아하기 때문에 최대한 그 느낌을 살리고 싶었다. 하지만 [[San Francisco]] 폰트의 사용 약관에는 약간의 문제가 있었으니...
+나는 [[San Francisco]]를 가장 좋아한다. 최근 [[Apple]] 제품의 기본 서체로 사용되고 있고 [Apple Newsroom](https://www.apple.com/kr/newsroom)에서도 사용하는 그 폰트이다. 나는 [Apple Newsroom](https://www.apple.com/kr/newsroom)의 디자인을 정말 좋아하기 때문에 최대한 그 느낌을 살리고 싶었다. 하지만 [[San Francisco]] 폰트의 사용 약관에는 약간의 문제가 있었으니...
 
 ![SF Pro Font Use License](../assets/F8252C.png)
 
@@ -32,7 +32,7 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple Font
 
 일반 사용자는 [[San Francisco]]를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.
 
-## 1\. Apple 제품에서는 내장된 [[San Francisco|SF]] 폰트를 불러오자
+## 1\. [[Apple]] 제품에서는 내장된 [[San Francisco|SF]] 폰트를 불러오자
 
 기업들은 종종 제품 폰트로 시스템 기본 폰트를 사용하려 한다. 그럴 때마다 흔하게 사용되는 방식이다. 대표적으로 GitHub이 이와 같은 방식을 사용한다.
 
@@ -43,7 +43,7 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple Font
     3. Apple SD Gothic Neo,
     /* Firefox에서 SF 한글(산돌 고딕 네오) 폰트*/
 
-Apple은 한글 폰트로 **산돌고딕 네오**를 사용한다. Safari와 Chrome은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 Firefox 계열은 그러지 못한다. 때문에 Firefox에서 알맞은 한글 서체를 사용하도록 `Apple SD Gothic Neo`를 지정해주는 것이다.
+[[Apple]]은 한글 폰트로 **산돌고딕 네오**를 사용한다. Safari와 Chrome은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 Firefox 계열은 그러지 못한다. 때문에 Firefox에서 알맞은 한글 서체를 사용하도록 `Apple SD Gothic Neo`를 지정해주는 것이다.
 
 ## 2\. 그 외에는 [[San Francisco|SF]] 폰트와 닮은 폰트를 사용하자
 
@@ -102,7 +102,7 @@ GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두�
 
 ![비 Apple 제품에서 Inter, Spoqa Han Sans, 그리고 Consolas가 사용될 때. 이 이미지는 MacBook에서 서체만 수정하여 찍은 스크린샷이다.](../assets/49E133.png)
 
-약간의 자간 차이와 글자 두께 차이가 존재한다. [[San Francisco|SF]] 폰트들이 대체로 글자가 더 촘촘하며 얇다. 하지만 Apple 제품에서는 @2x 등의 HiDPI 화면이 흔한데 반해 비 Apple 제품에는 HiDPI가 드물기 때문에 두껍고 넓은 폰트는 가독성을 높여주는 장점으로 작용할 것 같았다. 또한 전반적인 느낌이 매우 비슷하다고 생각이 들기 때문에 만족스럽다. 아마 당분간은 이 규칙을 그대로 사용할 것 같다.
+약간의 자간 차이와 글자 두께 차이가 존재한다. [[San Francisco|SF]] 폰트들이 대체로 글자가 더 촘촘하며 얇다. 하지만 [[Apple]] 제품에서는 @2x 등의 HiDPI 화면이 흔한데 반해 비 [[Apple]] 제품에는 HiDPI가 드물기 때문에 두껍고 넓은 폰트는 가독성을 높여주는 장점으로 작용할 것 같았다. 또한 전반적인 느낌이 매우 비슷하다고 생각이 들기 때문에 만족스럽다. 아마 당분간은 이 규칙을 그대로 사용할 것 같다.
 
 한 가지 아쉬운 점은 네트워크 폰트를 2개나, 그것도 서로 다른 서버에서 불러온다는 점이다. 하지만 두 폰트는 모두 0.5초 이내에 비동기적으로 로드되며 이후에는 브라우저에 캐시된다는 점을 고려할 때 큰 문제는 아닌 것 같았다.
 

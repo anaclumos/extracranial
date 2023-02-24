@@ -31,13 +31,13 @@ We can use a state space graph to represent the search problem mathematically. T
 - BFS
 - DFS
 - Iterative DFS: Run DFS with level 1. If not found, run DFS with level 2. This may be redundant if not found, but most of the work is spent in the lower level, so it is okay.
-- Uniform Cost Search: Priority Queue. Dijkstra is a variant of UCS, where there is no goal node; you continue until the PQ is empty & extract the minimum distance to all nodes.
+- Uniform Cost Search: [[Priority Queue]]. [[Dijkstra]] is a variant of UCS, where there is no goal node; you continue until the [[Priority Queue|PQ]] is empty & extract the minimum distance to all nodes.
 
 ### Informed Search
 
 - UCS searches in all direction
 - Greedy: Go straight to what you think is the best
-- A\*: UCS + Greedy PQ. Heuristics should be less than the actual cost. If a heuristic satisfies $0 \leq h(n) \leq h ^{\ast} (n)$, where $h^{\ast}(n)$ is the real-world cost, the heuristic is admissible.
+- A\*: UCS + Greedy [[Priority Queue|PQ]]. Heuristics should be less than the actual cost. If a heuristic satisfies $0 \leq h(n) \leq h ^{\ast} (n)$, where $h^{\ast}(n)$ is the real-world cost, the heuristic is admissible.
 
 ## Adversarial Agent
 
@@ -128,7 +128,7 @@ An ANN is based on a collection of connected units or nodes called artificial ne
 **Data-Driven**.
 Used to find patterns in the set of data given.
 In this, we don't have any dependent variable or label to predict.
-Clustering.
+[[Clustering]].
 Anomaly Detection.
 Neural Networks.
 Latent Variable Models.

@@ -9,7 +9,7 @@ $$
 b(n, ~2n, ~p) \approx {(4pq) \over \sqrt{\pi n}}
 $$
 
-where $n$ is the number of heads, $2n$ is the number of trials, and $p$ is the probability of success.
+where $n$ is the number of heads, $2n$ is the number of trials, and $p$ is the [[probability]] of success.
 
 $$
 b(n, ~2n, ~p) = {2n \choose n} p^n (1-p)^{2n-n}

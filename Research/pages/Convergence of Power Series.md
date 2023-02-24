@@ -11,7 +11,7 @@ $$
 
 Find the reason for convergence (RFC) with respect to $x$
 
-- Ratio Test
+- [[Ratio Test]]
 - Test the boundaries
 
 $$

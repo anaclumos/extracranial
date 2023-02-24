@@ -64,5 +64,5 @@ class Solution:
 
 - Sort first, $O(n \log n)$
 - For all elements, $O(n)$
-  - Perform binary search $O(\log n)$
+  - Perform [[binary search]] $O(\log n)$
 - In total: $O(n \log n)$

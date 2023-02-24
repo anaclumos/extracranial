@@ -78,7 +78,7 @@ export const backlinks = {
         "0141 Linked List Cycle": "Solved at: [[2022-10-23]]"
     },
     "2022-10-17": {
-        "Backlinking for Aldehyde": "- Links to This Note feature is complete on [[2022-10-17]].",
+        "Backlinking for Aldehyde": "- Backlink|Links to This Note feature is complete on [[2022-10-17]].",
         "Better Obsidian": "- Functional Templating (Done on [[2022-10-17]])",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Reply on [[2022-10-17]]"
     },
@@ -483,6 +483,7 @@ export const backlinks = {
     },
     "Backlink": {
         "2022-10-17": "[[Backlink|Links to This Note]] feature is complete.",
+        "Aldehyde Backlinks Outage (January 2023)": "The [[backlink]] table was 완성형, but the text was 조합형.",
         "Andy Matuschak": "Introduced novel concepts, such as Sliding Panes, [[Backlink|links to this note]], and [[Atomic Notes]].",
         "Backlinking for Aldehyde": "- [[Backlink]]"
     },
@@ -590,7 +591,8 @@ export const backlinks = {
     },
     "Link (Computer Systems)": {
         "2022-12-08": "- [[Link (Computer Systems)]]",
-        "Symbol (Computer Systems)": "When there are strong and weak symbols combined, the [[Link (Computer Systems)|linker]] chooses the strong one."
+        "Symbol (Computer Systems)": "When there are strong and weak symbols combined, the [[Link (Computer Systems)|linker]] chooses the strong one.",
+        "WebGPU": "- It has a built-in shader [[Link (Computer Systems)|linker]] and binding generator, which means a lot of the tedium of ..."
     },
     "Satori": {
         "2022-10-11": "- [[Satori]]",
@@ -637,11 +639,12 @@ export const backlinks = {
         "2022-12-28": "- [[CDN]]",
         "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as [[Microsoft]] [[Bing]] or Cloudflare's AMP caches, which allows pages ...",
         "Cloudflare": "> Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded in 2010. It primarily acts as ...",
-        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
+        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WebAssembly|WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
         "The Architecture of Mastodon": "  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process ..."
     },
     "New York City": {
-        "2023-01-13": "- [[New York City]]"
+        "2023-01-13": "- [[New York City]]",
+        "SendGrid": "... and London. The company went public with a debut on the [[New York City|New York]] Stock Exchange on November 16, 2017. Twilio acquired SendGrid in February ..."
     },
     "관성 질량과 중력 질량": {
         "2023-02-07": "- [[관성 질량과 중력 질량]]",
@@ -816,6 +819,7 @@ export const backlinks = {
         "Bernoulli Distribution": "In [[Probability]],",
         "Binomial Distribution": "In [[Probability]],",
         "Binomial Theorem": "In [[Probability]],",
+        "Clustering": "... to a method in which each data point is assigned a [[probability]] of belonging to each cluster rather than a final cluster assignment. ...",
         "Conditional Probability": "In [[Probability]],",
         "Convergence of Alternating Series": "In [[Probability]],",
         "Convergence of Geometric Series": "In [[Probability]],",
@@ -832,9 +836,13 @@ export const backlinks = {
         "Partition Problem": "In [[Probability]],",
         "Pascal Triangle": "In [[Probability]],",
         "Poisson Approximation": "In [[Probability]],",
+        "Probability Of Queueing (Internetworking)": "- Each has a [[probability]] of $p$ being active",
         "Ratio Test": "In [[Probability]],",
+        "Stirling Approximation": "... heads, $2n$ is the number of trials, and $p$ is the [[probability]] of success.",
         "Total Probability": "In [[Probability]],",
-        "Uniform Distributions (Discrete)": "In [[Probability]],"
+        "UUIDs are Awesome": "... 1 billion UUIDs every second for the next 100 years, the [[probability]] of creating just one duplicate would be about 50%. Or, to ...",
+        "Uniform Distributions (Discrete)": "In [[Probability]],",
+        "XUID": "... 1 billion UUIDs every second for the next 100 years, the [[probability]] of creating just one duplicate would be about 50%. Or, to ..."
     },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
         "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]",
@@ -894,6 +902,8 @@ export const backlinks = {
         "FinTech and Justice": "- Does [[Financial Technology|FinTech]] increase Justice in this world?",
         "Person 1E6ABA": "- Currently works at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager.",
         "Toss": "- [[Financial Technology|FinTech]] [[Unicorn]] of [[대한민국|Korea]].",
+        "Why Korean Banks Suck": "... limited competition in the 대한민국|Korean banking sector, the emergence of new [[Financial Technology|fintech]] companies like [[Toss]] and KakaoBank has brought some positive changes. These ...",
+        "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 Toss|토스, 카카오뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 가져왔다. 이들 기업은 혁신적인 디지털 ...",
         "유난한 도전": "## [[Financial Technology|핀테크]]란"
     },
     "In search of my domain": {
@@ -920,11 +930,17 @@ export const backlinks = {
         "2022-11-30": "- [[Blind Illness]]"
     },
     "Docusaurus": {
+        "2022-10-17": "> Thanks! I want [[Docusaurus]] to have this feature built-in 😃",
+        "2023-01-27": "It turns out to be it was [[Docusaurus]]'s recent bug: Using Tabs will break with React 18 and Docusaurus ...",
+        "2023-02-16": "... a tutorial how to replicate your publishing workflow with Obsidian and [[Docusaurus]], please count me as one enthusiast reader, I'd love to learn ...",
+        "Aldehyde Outage (January 2023)": "## [[Docusaurus]] 2.3.0 `useSyncExternalStore` Bug",
         "Better Docusaurus": "- Fixing some things that I currently don't like about [[Docusaurus]]",
+        "In search of my domain": "... thoughts online. I migrated my blog from WordPress to Ghost to [[Docusaurus]], making several contributions and almost hacking the framework along the way.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... have some personal Python scripts that convert Obsidian MD files to [[Docusaurus]] MD files since they have slightly different specs.",
         "Letter to the Heptabase Team on 2022-10-11": "... Los Angeles|LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak ...",
         "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
-        "Redirect": "## Redirects in [[Docusaurus]]"
+        "Redirect": "## Redirects in [[Docusaurus]]",
+        "도메인 찾아 삼만리": "... 온라인에서 보여줄 준비가 되어 있다는 자신감을 느꼈다. 나는 블로그를 WordPress에서 Ghost, [[Docusaurus]]로 마이그레이션하면서 여러 기여를 했고 프레임워크를 거의 해킹하다시피 해서 블로그를 개설했다."
     },
     "雅號를 찾아서": {
         "2023-01-09": "- [[雅號를 찾아서]]"
@@ -1020,6 +1036,10 @@ export const backlinks = {
         "Readings": "This is a [[Metapage|meta-page]] that collects my to-read lists.",
         "Watchings": "This is a [[metapage]] for all the media I've seen, starting from Feb 2023. Just ..."
     },
+    "Priority Queue": {
+        "2023-02-24": "- [[Priority Queue]]",
+        "Project Core ML Foundation": "- Uniform Cost Search: [[Priority Queue]]. [[Dijkstra]] is a variant of UCS, where there is no goal ..."
+    },
     "How does File Alias work": {
         "2022-10-21": "- [[How does File Alias work]]",
         "Redirecting READMEs": "- [[How does File Alias work]]"
@@ -1082,7 +1102,9 @@ export const backlinks = {
         "2023-02-21": "- [[Beehiiv]]"
     },
     "Svelte": {
-        "Extracranial": "Seems like using [[Svelte]]"
+        "Extracranial": "Seems like using [[Svelte]]",
+        "Jest": "... works with projects using Babel, TypeScript, Node.js, React, Angular, Vue.js, and [[Svelte]]. Jest doesn't require a lot of configuration for first-time users of ...",
+        "Virtual DOM": "... similar programming model without using virtual DOM — and that's where [[Svelte]] comes in"
     },
     "Synthography": {
         "2022-10-19": "- [[Synthography]]",
@@ -1125,13 +1147,15 @@ export const backlinks = {
         "2022-10-14": "- [[WebAssembly]]",
         "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten",
         "2023-01-13": "- [[WebAssembly|WASM]]",
+        "2023-02-16": "- In 2021 we announced WebContainers, a novel [[WebAssembly]]-based operating system that enables Node.js to run entirely inside the browser. ...",
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "Dioxus": "Use [[WebAssembly|WASM]]",
         "How is WebAssembly cross-platform when Assembly is not": "- [[WebAssembly]] is like [[Assembly]], except that",
         "Imagining WebNPU API": "- [[WebAssembly]] unlocks the bare-metal power of [[CPU]]s.",
         "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
+        "Proposal of Research to Professor Cote": "In addition, the world is now watching the very beginning of [[WebAssembly]], which allows high-performance applications to run in [[Web Browser|web browsers]]. Before ...",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
-        "Snowpack으로 WASM 시작하기": "- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)",
+        "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 [[WebAssembly|WASM]] 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 ...",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
         "WasmEdge": "WasmEdge: Edge for [[WebAssembly]]",
         "Web Graphics": "- Usually uses WebGPU and [[WebAssembly|WASM]]",
@@ -1221,12 +1245,12 @@ export const backlinks = {
         "Tailwind": "... Rapidly build modern websites without ever leaving your HTML. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, and rotate-90 that ..."
     },
     "Microservices Architecture": {
-        "Cloud-Native": "... as AWS, instead of traditional on-premise infrastructure. They are comfortable building [[Microservices Architecture]], containerization, and automation using tools like Kubernetes, Docker, and Terraform."
+        "Cloud-Native": "... as AWS, instead of traditional on-premise infrastructure. They are comfortable building [[Microservices Architecture]], containerization, and automation using tools like Kubernetes, [[Docker]], and Terraform."
     },
     "USDZ": {
         "3D": "- [[USDZ]] for [[Apple]]",
         "Things (3D)": "> Nice. What's the edge on Things over glTF and [[USDZ]]?<br/>",
-        "USDZ vs glTF": "[[USDZ]] and [[glTF]] are two 3D file formats used for different purposes. ..."
+        "USDZ vs glTF": "[[USDZ]] and [[glTF]] are two [[3D]] file formats used for different purposes. ..."
     },
     "Chromium": {
         "2023-01-13": "- [[Chromium]]",
@@ -1694,7 +1718,7 @@ export const backlinks = {
         "Internetworking": "- [[G++]]"
     },
     "OpenAI": {
-        "2023-02-08": "- Companies building foundational models have partnered with cloud providers: [[OpenAI]] (Microsoft) and Anthropic (Google). These companies spend vast amounts on computing ...",
+        "2023-02-08": "- Companies building foundational models have partnered with cloud providers: [[OpenAI]] ([[Microsoft]]) and Anthropic ([[Google]]). These companies spend vast amounts on computing ...",
         "Bing": "... with Bing, ask real questions, and get complete answers). The same [[OpenAI]] technology behind [[ChatGPT]] powers this feature.",
         "ChatGPT": "... Premium brings the latest technologies, including Large Language Models powered by [[OpenAI]]'s GPT-3.5, to make meetings more intelligent, personalized, and protected—whether it's one-on-one, ...",
         "Proposal of Research to Professor Cote": "... Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and ...",
@@ -1719,7 +1743,7 @@ export const backlinks = {
         "Google": "... LLC is an American multinational technology company that focuses on search [[engine]] technology, online advertising, cloud computing, computer software, quantum computing, e-commerce, artificial ...",
         "Graphics Engine Process": "The general process of a graphics [[engine]] follows:",
         "JavaScript": "... third-party libraries. All major Web Browser|web browsers have a dedicated JavaScript [[engine]] to execute the code on users' devices. JavaScript",
-        "Letter to Mr. Matt Rickard on 2022-10-03": "Naver services as the omnipotent search [[engine]] for [[대한민국|Korea]] (bigger market cap than Google [[대한민국|Korea]]) and [[Kakao]] services ...",
+        "Letter to Mr. Matt Rickard on 2022-10-03": "Naver services as the omnipotent search [[engine]] for [[대한민국|Korea]] (bigger market cap than [[Google]] [[대한민국|Korea]]) and [[Kakao]] services ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... App Review. Firefox has this talent, as seen in the Gecko [[engine]].",
         "Naver": "... first web portal in 대한민국|Korea to develop and use its search [[engine]]. It was also the world's first operator to introduce the comprehensive ...",
         "Proposal of Research to Professor Cote": "... performs a heavy computation, it can cause the Web Browser|browser's JavaScript [[engine]] to become unresponsive. As a result, the entire web page will ...",
@@ -1851,33 +1875,56 @@ export const backlinks = {
         "2022-10-13": "... iPhone to be their next phone; 31% of teens own an [[Apple]] Watch: Taking Stock With Teens® - Fall 2022",
         "2022-10-18": "- [[Apple]] bought all of the advertising space in Newsweek's November/December special election ...",
         "3D": "- USDZ for [[Apple]]",
+        "AIs.txt": "Technically, [[Apple]]'s App Tracking Transparency does not ban all tracking activity; it never ...",
+        "AMP": "... Google created it as a competitor to Facebook Instant Articles and [[Apple]] News. AMP is optimized for mobile web browsing and intended to ...",
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
         "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports.",
         "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
+        "Apple Newsroom 서체 따라하기": "가장 [[Apple|애플]]을 잘 모방한 서체이다.",
         "Apple Silicon": "- Chips made by [[Apple]]",
         "Brunch violates SF terms of use": "- 한민족|Korean writing service Brunch violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web ...",
         "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
+        "Dynamic Island": "... and system-level notifications, media playback data, and other app-specific functionality that [[Apple]] calls Live Activities. These icons may appear as an expansion on ...",
+        "Finally, Apple Pay in Korea": "After a decade of waiting, [[Apple]] Pay has expanded to [[대한민국|Korea]]. [[대한민국|Korea]] remained the only developed nation ...",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If you still use `OSSpinLock`, you'll get ...",
         "Google": "... one of the Big Five American information technology companies, alongside Amazon, [[Apple]], Meta, and [[Microsoft]]. Google",
         "Horizontally Stacked Interface": "## [[Apple]] Concierge App for Genius Bars",
         "How is WebAssembly cross-platform when Assembly is not": "... it pack multiple precompiled binary executables for multiple CPU vendors, like [[Apple]]'s Universal Binary?",
+        "Imagining WebNPU API": "We are already observing blooming on-device inferencing ML technology with [[Apple]]'s Neural Engine. This includes many jobs, from simple Siri commands to ...",
         "Intracranial": "  - 👍 [[Apple]]-ish design language",
         "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[Apple]] Music have a market penetration of next to nothing.",
+        "Locking your Mac with Command+L": "3. On your Menu Bar, press the  [[Apple]] Logo. Check the name of ^Control+⌘Command+Q. It is responsible for locking ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... Super App in the United States of America|United States are vague. [[Apple]] and [[Google]] divide the tech market into two, not only in ...",
+        "Neural Engine": "- The [[Apple]] Neural Engine (or ANE) is a type of [[NPU]], which stands ...",
+        "Now Runs On": "- Quake Now Runs On [[Apple]] Watch: ByteOverlord/WatchQuake: Quake 1 port for Apple Watch",
         "Perceptual Hashing": "... detect similar images. Used by Google's Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.",
+        "PineApple Pay": "As [[Apple]] slowly moves to open up the Apple Pay restriction, what if ...",
+        "Proposal of Research to Professor Cote": "... these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, Microsoft, and [[Apple]]) decided to disable SharedArrayBuffer by default to avoid the potential exploitation ...",
+        "Reverse Engineering Apple Music API": "## Registering for [[Apple]] Developer Key",
+        "Safari is the new Internet Explorer": "- [[Apple]] has a [[Web Browser|browser]] monopoly on iOS, which is something [[Microsoft]] ...",
         "San Francisco": "- Font by [[Apple]]",
         "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] iOS 16 update.",
+        "Super App": "... to combine various services and fight the mobile search partnership between [[Apple]] and [[Google]]",
         "Swift": "- Programming Language for [[Apple]] platforms",
+        "The Dilemmas of Technopreneur": "... and could make a full-blown product, but it never would've become [[Apple]] if it weren't for Steve Jobs.",
+        "USDZ vs glTF": "... is a subset of USD, created by Pixar and operated by [[Apple]] for iOS AR applications. It is a zip file with USD ...",
+        "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] only supports VP9.",
+        "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 온디바이스 ML 기술의 시작을 관찰하고 있다. 여기에는 단순한 Siri ...",
+        "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 금융위원회에서 Apple|애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 ...",
         "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다.",
-        "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "[[Apple|애플]] 아이폰의 국내 인기는 점점 상승하고 있다."
+        "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "[[Apple|애플]] 아이폰의 국내 인기는 점점 상승하고 있다.",
+        "잡스와 생존 편향": "대학을 중퇴하고 [[Apple|애플]]을 무작정 시작할 때, 워즈니악이 없었다면 잡스는 기회조차 없었을 것이다.",
+        "하늘땅사람 개발 기록": "[[Apple]] QuickType과 비슷한 자동완성 기능은 필수적인데, 보니까 Apple에서는 QuickType을 제삼자에게 열어주지 않은 ..."
     },
     "Person 88B488": {
         "Project PEOPLE": "- [[Person 88B488]]"
     },
     "Figma": {
+        "Alternatives to After Effects": "- Adobe XD → [[Figma]]",
         "Magician": "- Magician is a [[Figma]] plugin that lets you design with the power of AI to ...",
+        "Prototyper": "... prototyping with code. Bring your design to life with code in [[Figma]].",
         "Social Coding": "... effects are rare, but when they work, they grow huge (e.g., [[Figma]], Slack)"
     },
     "Reverse Engineering Apple Music API": {
@@ -1901,7 +1948,7 @@ export const backlinks = {
     },
     "Antifragile": {
         "Antifragily": "In an [[antifragile]] manner.",
-        "민사고": "... 그런 것이 아닌, 그냥 각계에서 뛰어난 학생들이 불합리성을 기회로 발판 삼아 [[Antifragile|안티프래질]]하게 열심히 노력한 것에 지나지 않는다.",
+        "민사고": "## [[Antifragile|안티프래질]]",
         "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다.",
         "인하우스와 자유경쟁": "... 인하우스. 민사고에서는 연구 자원이 제한되어 있어 기술 애호가를 찾기가 어려웠다. 다행히도 [[Antifragile|안티프래질]]하게 독창성을 기를 수 있었다."
     },
@@ -1997,7 +2044,7 @@ export const backlinks = {
         "2022-12-06": "- [[GA]]: [[Nigh]]",
         "2022-12-24": "- Rewind is [[GA]]",
         "In search of my domain": "... most available one. A year later, Google made the `.dev` domain [[GA]], and I also tried `cho.dev`, but ① the prices were too ...",
-        "도메인 찾아 삼만리": "... `.xyz`는 아이디어가 부족해 고른 것 같았다. 1년 뒤 구글이 `.dev` 도메인을 [[GA|공개]]했고, `cho.dev`을 사려 했지만 ▲ 가격이 너무 비쌌고(~800달러) ▲ 나는 개발자 이상이 ..."
+        "도메인 찾아 삼만리": "... `.xyz`는 아이디어가 부족해 고른 것 같았다. 1년 뒤 Google|구글이 `.dev` 도메인을 [[GA|공개]]했고, `cho.dev`을 사려 했지만 ▲ 가격이 너무 비쌌고(~800달러) ▲ 나는 개발자 이상이 ..."
     },
     "Poisson Approximation": {
         "2023-01-26": "- [[Poisson Approximation]]",
@@ -2073,7 +2120,7 @@ export const backlinks = {
         "Search AI와 인터넷의 한국어": "나는 [[한국어]] 자료가 인터넷에 부족한 탓이라고 생각하지 않는다.",
         "Setting different fonts by language in CSS": "`U+AC00-D7AF`is the Unicode range of [[한국어|Korean]] glyphs.",
         "Shortcuts": "... I made, which uses the Caps Lock key or 한/영 키 ([[한국어|Korean]]-English Key). That is, because, I never use the Caps Lock key ...",
-        "TossFace Playground": "- Celebrating Redistribution of [[한국어|Korean]] and Futuristic [[Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 ...",
+        "TossFace Playground": "- Celebrating Redistribution of [[한국어|Korean]] and Futuristic [[Emoji]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 ...",
         "Tossface": "- Introduced several divergent designs, overwriting Japanese cultural images with [[한국어|Korean]] equivalents and outdated symbols with modern ones.",
         "Why Korean Banks Suck": "- Linguistic and regional barriers. The [[한국어|Korean language]] is unique, and many [[대한민국|Korean]] consumers prefer to do business with ...",
         "국내 은행 서비스가 나쁜 이유": "- 언어 및 지역적 장벽. [[한국어]]는 고유한 언어이며, 많은 [[대한민국|한국]] 소비자는 한국어에 능통하고 [[대한민국|한국]] 문화를 이해하는 회사와 ...",
@@ -2211,7 +2258,6 @@ export const backlinks = {
         "2023-02-20": "- [[Why Korean Banks Suck]]",
         "Finally, Apple Pay in Korea": "... another day. I hope Apple Pay becomes a new stimulus for [[Why Korean Banks Suck|troubled Korean banking system]].",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0220 | 🇬🇧 [[Why Korean Banks Suck]] <br/> 🇰🇷 [[국내 은행 서비스가 나쁜 이유]]     ...",
-        "글감": "- [[Why Korean Banks Suck]]",
         "드디어, 한국 애플페이": "... 이는 무엇을 의미할까? 몇 가지 시사점이 있지만, 오늘 할 이야기는 아니다. [[Why Korean Banks Suck|한국 은행계]]에 새로운 자극이 되기를 바란다."
     },
     "식영부원의 관점에서 바라본 치킨데이": {
@@ -2374,9 +2420,9 @@ export const backlinks = {
         "2023-02-11": "## [[Project]]",
         "2023-02-22": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
-        "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. Google created it as a competitor to Facebook Instant Articles and ...",
+        "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. [[Google]] created it as a competitor to Facebook Instant Articles and ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter Network]] but you must",
-        "Apple Earth": "Someday [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
+        "Apple Earth": "Someday [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
         "Autosave Everything": "Someday [[Project]]. A small Mac App that presses `command s` every defined interval.",
         "Better Aldehyde": "- [[Project]]",
@@ -2424,7 +2470,7 @@ export const backlinks = {
         "Redactor for iPhone": "Someday [[Project]].",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
         "Stories Behind Satori": "This is already done by an open-source [[project]] facebook/yoga.",
-        "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
+        "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
         "Synthote": "- [[Project]] scaffolding",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "The Great Battle of Flow and Asana": "... Basecamp was to build great software that scratched their own itch ([[project]] management,) and charge a monthly recurring amount to give them access ...",
@@ -2500,7 +2546,7 @@ export const backlinks = {
         "Grammarly": "- [[dx]] team",
         "Heap (Computer Systems)": "- [[DX]]",
         "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's.",
-        "Symbol (Computer Systems)": "- initialize global variables (take advantage of the linker for [[dx]])"
+        "Symbol (Computer Systems)": "... initialize global variables (take advantage of the Link (Computer Systems)|linker for [[dx]])"
     },
     "한민족": {
         "2022-06-14": "- Translations are now available for discussion comments in Spanish, Portuguese, [[한민족|Korean]], and English. - Translations for Discussions",
@@ -2648,7 +2694,7 @@ export const backlinks = {
         "Midjourney": "- Art focused Prompt Engineering [[Generative AI]] Platform",
         "Point-E": "- [[Generative AI]]",
         "Prompt Marketplace": "With [[Generative AI]] and [[Prompt Engineering]] blooming, people now sell and buy prompts.",
-        "Ray.st": "A Collection of 26 Beautiful 3D Emojis Generated by [[Generative AI]].",
+        "Ray.st": "A Collection of 26 Beautiful 3D Emoji Generated by [[Generative AI]].",
         "Search AI": "- [[Generative AI]]",
         "Search in a Latent Space": "- [[Generative AI]]",
         "The Demise of Chatbots in 2017": "... making the same mistakes as in 2016 in the era of [[generative AI]]. Some companies are solving for distribution using someone else's proprietary model ...",
@@ -2676,9 +2722,14 @@ export const backlinks = {
         "2022-07-10": "- [[Notion]] opened a new paradigm for low-code websites. [[Project PEOPLE]] now create ...",
         "2022-11-16": "- Notion AI: [[Notion]]'s [[Synthote]]",
         "Collaboration-based Tools for Thought": "### [[Notion]]",
+        "Intellisense for Knowledge Management": "- More like Notion AI? What if [[Notion]] AI got super powerful, giving insight into your written documents?",
+        "Letter to the Heptabase Team on 2022-10-11": "- API support ([[Notion]]-like?)",
+        "Nota": "> Love Child Between [[Notion]] and [[Obsidian]]",
         "Notion AI": "[[Notion]]'s [[Synthote]]",
         "Powerfully Powerless Tools": "Even [[Notion]] is too complicated for personal task management.",
         "Text-based Tools for Thought": "### [[Notion]]",
+        "The Era of Invites": "... inside the system. First impressions always last. For me, it was [[Notion]]. I first tried Notion in early 2018, and my experience was ...",
+        "The New Era of macOS Applications": "- Notes. [[Notion]] → [[Obsidian]] → Nota.",
         "강력하게 미약한 도구들": "... 우리의 두뇌가 생산성 도구보다 일을 더 많이 해야한다는 것을 의미한다. 하물며 [[Notion|노션]]마저도 개인 생산성 도구로 쓰기에는 너무 기능이 많다."
     },
     "CELLO": {
@@ -2688,10 +2739,15 @@ export const backlinks = {
     },
     "Toss": {
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve this information inequality in the financial ...",
+        "Service Shimming": "- [[Toss]] (≈ [[대한민국|Korean]] Paypal) failed to make the transaction system, so the ...",
         "Supergravity Products": "... 아이디어 (금융 Super App|슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Toss Product Sans": "- Font by [[Toss]].",
         "Tossface": "- Emoji Font by [[Toss]]",
-        "유난한 도전": "[[Toss|토스]]는 더이상 장기자랑에 나가는 초등학생일 수 없었다."
+        "Why Korean Banks Suck": "... 대한민국|Korean banking sector, the emergence of new Financial Technology|fintech companies like [[Toss]] and KakaoBank has brought some positive changes. These companies have disrupted ...",
+        "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 [[Toss|토스]], 카카오뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 ...",
+        "서비스 시밍": "- [[Toss|토스]]도 송금 시스템을 완성하지 못해 하루에 3번 이승건이 직접 은행에 가서 송금 ...",
+        "유난한 도전": "이승건은 \"앱 하나만 만들어보는 거야, 개원은 반년만 미루자\"라는 마음으로 [[Toss|토스]]를 시작했다.",
+        "프로젝트 어덕행덕": "... 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 Kakao|카카오페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 것. ..."
     },
     "GPU": {
         "Effective Accelerationism": "... 줄이지 않고 있어요. 당신은 이것을 피하기 위해 경제를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 온라인으로 해결해야 합니다.",
@@ -2770,6 +2826,7 @@ export const backlinks = {
     "Done": {
         "Dynamic Island on the Web": "- [[Done]] [[Project]]",
         "TossFace Playground": "- Project [[Done]]",
+        "Watchings": "## [[Done]]",
         "하늘땅사람": "... 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 Project|프로젝트. [[Done]]."
     },
     "Inliner": {
@@ -2780,7 +2837,7 @@ export const backlinks = {
         "2022-07-18": "- [[Obsidian]]-like [[Tools for Thought]]",
         "2022-10-13": "- [[Obsidian]] is now out of beta",
         "2022-10-21": "- Stephan Ango: also created [[Obsidian]] Minimal Settings.",
-        "2023-02-16": "... to write a tutorial how to replicate your publishing workflow with [[Obsidian]] and Docusaurus, please count me as one enthusiast reader, I'd love ...",
+        "2023-02-16": "... to write a tutorial how to replicate your publishing workflow with [[Obsidian]] and [[Docusaurus]], please count me as one enthusiast reader, I'd love ...",
         "Better Obsidian": "## Extension Ideas for [[Obsidian]]",
         "Developing Review Notes for Obsidian": "이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 API 문서를 탐독하면서 이런 저런 발견 ...",
         "Extracranial": "... Thought and Online platforms. For this system, I use Docusaurus and [[Obsidian]]. It is working reasonably well.",
@@ -2824,7 +2881,7 @@ export const backlinks = {
     },
     "Notion AI": {
         "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Synthote]]",
-        "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if Notion AI got super powerful, giving insight into your ..."
+        "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if [[Notion]] AI got super powerful, giving insight into your ..."
     },
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
@@ -2855,7 +2912,20 @@ export const backlinks = {
     },
     "3D": {
         "2022-10-21": "- [[3D]]",
-        "Point-E": "- [[3D]]"
+        "Bondee": "... via its metaverse environment. Users can also create and customize their [[3D]] characters and design rooms that can resemble their own or their ...",
+        "Canvas (HTML5)": "... 2D drawing API, it also supports the WebGL API to allow [[3D]] rendering with OpenGL ES.",
+        "Graphic Renderer": "... of generating a photorealistic or non-photorealistic image from a 2D or [[3D]] model by means of a computer program. The resulting image is ...",
+        "Metaverse": "... (AR) headsets. In everyday use, a metaverse is a network of [[3D]] virtual worlds focused on social connection. Metaverse",
+        "Point-E": "> While recent work on text-conditional [[3D]] object generation has shown promising results, the state-of-the-art methods typically require ...",
+        "Ray.st": "A Collection of 26 Beautiful [[3D]] [[Emoji]] Generated by [[Generative AI]].",
+        "Repeated Designs": "... you're an encryption company, so the hero needs to be a [[3D]] model of the logo rendered as encrypted text.<br/><br/>Some early previews of ...",
+        "The Sudden Rise of Bondee": "... etc., ranking #1 in the App Store. Users can create a [[3d]] character and design rooms of their own. Imagine [[Club Penguin]] or ...",
+        "The Zenly Playbook": "From the Stay Home challenge in 2020 to a mass-scale [[3D]] map update in 2022, Zenly prepared for its upcoming future. However, ...",
+        "USDZ": "> Universal Scene Description (USD) is a framework for interchange [[3D]] computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, ...",
+        "USDZ vs glTF": "USDZ and glTF are two [[3D]] file formats used for different purposes. USDZ is a subset of ...",
+        "glTF": "... open standard developed and maintained by the Khronos Group; it supports [[3D]] model geometry, appearance, scene graph hierarchy, and animation. It is intended ...",
+        "젠리의 성공 공식": "2020년 코로나 집콕 챌린지부터 2022년 대규모 [[3D]] 지도 업데이트까지 미래를 준비했지만 최근 Snap의 대규모 정리해고에 Snap Mini App과 ...",
+        "혜성처럼 나타난 본디": "[[3D]] 캐릭터를 만들 수 있고 자신의 방을 꾸밀 수 있다."
     },
     "JavaScript": {
         "2022-06-12": "... web development, hydration or rehydration is a technique in which client-side [[JavaScript]] converts a static [[HTML]] web page, delivered either through static hosting ...",
@@ -2932,7 +3002,8 @@ export const backlinks = {
         "Using an iPad as my Ebook": "... to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)"
     },
     "Ratio Test": {
-        "2023-01-31": "- [[Ratio Test]]"
+        "2023-01-31": "- [[Ratio Test]]",
+        "Convergence of Power Series": "- [[Ratio Test]]"
     },
     "Iterative and Incremental Development": {
         "Toss Product Sans": "- [[Iterative and Incremental Development|반복적 개발]]"
@@ -2978,7 +3049,9 @@ export const backlinks = {
         "Internetworking": "- [[Linux Commands]]"
     },
     "Socket": {
-        "Internetworking": "- [[Socket]]"
+        "Internetworking": "- [[Socket]]",
+        "Master Socket": "- listening [[socket]]\" (a.k.a. a \"master socket\")",
+        "Multiplexing": "... Similarly, demultiplexing means identifying the header information to find the correct [[socket]] to send and receive data."
     },
     "Why the halting problem is unsolvable": {
         "2022-11-19": "  - [[Why the halting problem is unsolvable]]"
@@ -3078,7 +3151,12 @@ export const backlinks = {
         "Self Driving": "- He was driving V-1 on I-80 eastbound in Full [[Self Driving]] Mode Beta Version traveling at approximately 55 miles per hour…When V-1 ..."
     },
     "Venture Capital": {
-        "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]"
+        "2022-06-21": "... these layoffs remain predictable: most are cash-burning companies that rely on [[Venture Capital|VC]] money to sustain the business.",
+        "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]",
+        "Person A3BA1A": "The [[Venture Capital|VC]] side tool and the Startup side tool.",
+        "The Dilemmas of Technopreneur": "> If you are in a competitive [[Venture Capital|VC]]-funded space, it's foolish to compete without raising money. Don't bring a ...",
+        "The Great Battle of Flow and Asana": "... We consistently spending 2-3x our monthly revenue and losing money. Not [[venture capital]]. Out of my personal bank account, hopes in making much more.",
+        "The Great Struggle of Gumroad": "... I raised $1.1M from an all-star cast of angel investors and [[venture capital]] firms, including Max Levchin, Chris Sacca, Ron Conway, Naval Ravikant, Collaborative ..."
     },
     "HTMX": {
         "2022-10-18": "- [[HTMX]]",
@@ -3195,11 +3273,11 @@ export const backlinks = {
         "공강에서 보내는 공강 활용법": "필수 모듈이 아닌 선택 모듈에는 [[대한민국|한국]]화, 실무영어, 시사영어, 물리실험 등의 \"필수가 아닌\" 수업들이 들어가기 때문에, 이 수업을 ...",
         "국가와 민족": "- [[대한민국]]은 [[한민족|민족]]과 국가를 종종 혼동한다.",
         "국내 은행 서비스가 나쁜 이유": "은행이 기술에 뒤처지는 것은 미국에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 더 정수를 보여준다고 확신한다. 계좌 잔액 확인에도 7가지 프로그램을 ...",
-        "드디어, 한국 애플페이": "... 기다림 끝에 애플페이가 들어온다. 2023년 2월 3일자 금융위원회에서 애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 유일하게 애플페이가 지원되지 않은 유일한 나라였다. 2015년부터 시작된 물밑 ...",
+        "드디어, 한국 애플페이": "... 기다림 끝에 Apple|애플페이가 들어온다. 2023년 2월 3일자 금융위원회에서 Apple|애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 유일하게 Apple|애플페이가 지원되지 않은 유일한 나라였다. 2015년부터 시작된 물밑 ...",
         "민사고": "... 어디 각계각층이든 지도자 혹은 권한 있는 누군가를 정말 알고 지내는 사회다. [[대한민국|한국]] 학연 사회의 정점이다.",
         "서낭당": "서낭당은 [[대한민국|한국]]의 산간 마을에 흔히 볼 수 있으며, 마을의 안녕과 평안을 위해 제사를 ...",
         "솟대": "솟대는 [[대한민국|한국]]의 민속신앙에서 새해의 풍년을 기원하며 세우거나 마을 입구에 마을의 수호신의 상징으로 세운 ...",
-        "유난한 도전": "... 금융 서비스를 만드는 것이다. 금융 회사가 테크를 배우는 게 아니다. 아직 [[대한민국|한국]]에는 제대로 된 핀테크 서비스가 없다.",
+        "유난한 도전": "... 금융 서비스를 만드는 것이다. 금융 회사가 테크를 배우는 게 아니다. 아직 [[대한민국|한국]]에는 제대로 된 Financial Technology|핀테크 서비스가 없다.",
         "이 땅에 태어나서": "... 받고 편견의 대상이 되는 것은 떳떳하지 못한 정부가 만들어놓은 결과이며, 국민들이 [[대한민국]]이 세계 경제에서 경쟁력을 갖추기 위해 기업의 성장을 원하면서도, 기업이 커지는 것을 ...",
         "이공계": "그러나 현재 [[대한민국|한국]]에서는 이공계와 산업에 대한 관심과 지원이 부족한 상황이다.",
         "이무기 기업, 청룡 기업": "Unicorn|유니콘 기업이라는 단어는 마치 성공이 정해진 양 너무 마법적인 기운을 준다. [[대한민국|한국]] 민담처럼 잉어 🐟 → 이무기 🐍 → 청룡 🐉 기업이면 어떨까.",
@@ -3220,7 +3298,6 @@ export const backlinks = {
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
         "Psychohistory": "... can we do in this chaotic era to build our foundation? [[Effective Accelerationism|How would we preserve the light of sentience in this galaxy]]?",
-        "글감": "- [[Effective Accelerationism]]",
         "심리역사학": "... 우리는 이런 암흑기에서 우리의 파운데이션을 건설하기 위해 무엇을 할 수 있을까? [[Effective Accelerationism|우리는 이 은하에서 지성의 빛을 어떻게 보전할 수 있을까]]?",
         "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
     },
@@ -3316,7 +3393,7 @@ export const backlinks = {
     "Shader": {
         "HLSL": "- High-Level [[Shader]] Language.",
         "Transactional Globe": "> How is it created? Time for a WebGL & [[shader]] thread! pic.twitter.com/7SW4vE5tTJ",
-        "WebGPU": "- It has a built-in [[shader]] linker and binding generator, which means a lot of the tedium ..."
+        "WebGPU": "- It has a built-in [[shader]] [[Link (Computer Systems)|linker]] and binding generator, which means a lot of ..."
     },
     "Search in a Latent Space": {
         "2022-12-04": "- [[Search in a Latent Space]]",
@@ -3343,7 +3420,9 @@ export const backlinks = {
         "dub.sh": "  - [[Vercel]] hosting"
     },
     "Clustering": {
-        "2023-01-25": "- [[Clustering]]"
+        "2023-01-25": "- [[Clustering]]",
+        "Project Core ML Foundation": "[[Clustering]].",
+        "Project Core ML Inference": "- How would you transfer data from one Hadoop [[Clustering|cluster]] to another?"
     },
     "Karrot": {
         "2022-05-31": "... 수량의 문제를 모두 해결하는 것입니다. 굳이 레거시 기업들에 빗대고 싶진 않지만, \"[[Karrot|당근마켓]] + 배달의민족 + 쿠팡\"이라고 생각하면 됩니다. -",
@@ -3381,7 +3460,7 @@ export const backlinks = {
         "2022-10-25": "- [[洪民憙雜記]]"
     },
     "Classic Blogs": {
-        "Tools for Thought": "- [[Classic Blogs]]: just make a post and let Google do the job."
+        "Tools for Thought": "- [[Classic Blogs]]: just make a post and let [[Google]] do the job."
     },
     "Diagram Labs": {
         "2022-12-16": "- [[Diagram Labs]]"
@@ -3514,7 +3593,7 @@ export const backlinks = {
         "2023-02-18": "- [[USDZ vs glTF]]",
         "Imagining WebNPU API": "... a battle between Apple and Google, just like VP9 vs HEVCor [[USDZ vs glTF]] battles.",
         "VP9 vs HEVC": "- Similar to [[USDZ vs glTF]]",
-        "WebNPU API를 상상하다": "... 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 VP9 vs HEVC 또는 [[USDZ vs glTF]]의 싸움처럼 애플과 구글의 싸움을 다시 보게 될 것 같다."
+        "WebNPU API를 상상하다": "... 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 VP9 vs HEVC 또는 [[USDZ vs glTF]]의 싸움처럼 [[Apple|애플]]과 [[Google|구글]]의 싸움을 다시 보게 될 것 같다."
     },
     "DoS": {
         "Internetworking": "- [[DoS]]"
@@ -3633,6 +3712,7 @@ export const backlinks = {
     },
     "Buttondown": {
         "2022-10-19": "- [[Buttondown]]",
+        "Boring Technologies": "- I wrote last month about migrating [[Buttondown]] from several separate micro repositories to a single monorepo. I've since ...",
         "Newsletter Network": "- Stephan Ango uses [[Buttondown]]"
     },
     "Symlink": {
@@ -3870,11 +3950,11 @@ export const backlinks = {
         "Brunch": "- 한국어|Korean Writing Service operated by [[Kakao]]",
         "How to Build Software like an SRE": "  - do you see [[Kakao]]?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in 대한민국|Korea, Naver, and [[Kakao]].",
-        "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's Google + Facebook + Uber + ...",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's [[Google]] + Facebook + Uber + ...",
         "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
         "Mental Simulation of Firefox and Signal as a Super App": "... onboard cannot stop. Especially with group chat, as we learned from [[Kakao]].",
         "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 Kakao|카카오라는 간편결제를 시작한다는 이야기를 들었다.",
-        "프로젝트 어덕행덕": "... - 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 [[Kakao|카카오]]페이나 토스에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 ..."
+        "프로젝트 어덕행덕": "... - 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 [[Kakao|카카오]]페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 ..."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
@@ -3952,18 +4032,23 @@ export const backlinks = {
         "2022-08-01": "... as a golden goose need to realize something. While Adobe Photoshop, [[Microsoft]] Word, and other established design and productivity tools are invaluable necessities ...",
         "2022-10-18": "> [[Microsoft]] has started layoffs today. Some in Experiences + Devices, Xbox, legal, ...",
         "2023-01-13": "- [[Microsoft]]",
+        "2023-02-08": "- Companies building foundational models have partnered with cloud providers: OpenAI ([[Microsoft]]) and Anthropic ([[Google]]). These companies spend vast amounts on computing to ...",
         "AMP": "... faster. AMP pages may be cached by a CDN, such as [[Microsoft]] [[Bing]] or Cloudflare's AMP caches, which allows pages to be served ...",
+        "Bing": "Bing is a web search engine developed by [[Microsoft]] that helps you find trusted search results fast, collect Microsoft Rewards ...",
         "C++": "... many vendors provide C++ compilers, including the Free Software Foundation, LLVM, [[Microsoft]], Intel, Embarcadero, Oracle, and IBM, so it is available on many ...",
         "Collecting Data": "... private data you might want to keep is being sent to [[Microsoft]].",
         "GitHub": "... every project. Headquartered in California, it has been a subsidiary of [[Microsoft]] since 2018. GitHub",
         "Google": "... Big Five American information technology companies, alongside Amazon, Apple, Meta, and [[Microsoft]]. Google",
+        "HTML 텍스트 위에 덧말 강조점 쓰기": "... '글자 위의 글자'는 phonetic guide, 후리가나, 루비 문자, 덧말 (한컴오피스), 또는 윗주([[Microsoft|MS]] Word)라고도 한다. HTML에서는 `<ruby>` 태그를 통해 이 기능을 사용할 수 있다.",
         "Person 392196": "- [[Microsoft]]",
-        "Proposal of Research to Professor Cote": "... result of these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, [[Microsoft]], and Apple) decided to disable SharedArrayBuffer by default to avoid the ...",
+        "Proposal of Research to Professor Cote": "... result of these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, [[Microsoft]], and [[Apple]]) decided to disable SharedArrayBuffer by default to avoid the ...",
         "Safari is the new Internet Explorer": "... Apple has a Web Browser|browser monopoly on iOS, which is something [[Microsoft]] was never able to achieve with IE",
+        "Search AI": "... 있어요. 아참, 새 시대도 [Google|구글]가 열 가능성이 꽤 크긴 해요. Google|구글이 ([[Microsoft|마이크로소프트]] 등이 그랬던 것처럼) 자기 스스로를 죽일 수 있다면 Google|구글에게도 기회가 있을 ...",
         "Super App": "- [[Microsoft]] may build an all-in-one \"super app\" to combine various services and ...",
         "TypeScript": "... is a free and open-source programming language developed and maintained by [[Microsoft]]. It is a strict syntactical superset of JavaScript and adds optional ...",
         "Visual Studio Code": "... Studio Code, also commonly referred to as VS Code, made by [[Microsoft]] with the Electron Framework, for Windows, [[Linux]] and macOS. Features include ...",
-        "Workbench": "- For [[Microsoft]] Products, use App Store."
+        "Workbench": "- For [[Microsoft]] Products, use App Store.",
+        "원숭이와 꽃신": "- [[Microsoft|마이크로소프트]]도 이런 '원숭이 꽃신 경제학'에 충실한 기업이다. Microsoft|마이크로소프트는 대학을 상대로 마케팅 사업을 ..."
     },
     "인하우스와 자유경쟁": {
         "2023-02-22": "- [[인하우스와 자유경쟁]]",
@@ -4125,7 +4210,7 @@ export const backlinks = {
         "Front-end": "- [[React]]",
         "Get Job Done": "  - Coding [[React]]",
         "JSX": "... Syntax Extension and occasionally referred to as JavaScript XML) is a [[React]] extension to the JavaScript language syntax, which provides a way to ...",
-        "Jest": "... large web applications. It works with projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and Svelte. Jest doesn't require a lot of configuration ...",
+        "Jest": "... large web applications. It works with projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and [[Svelte]]. Jest doesn't require a lot of configuration ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... use Obsidian for my Memex, but I have built a custom [[React]] application for presenting on the web instead of Obsidian Publish.",
         "Next.js": "... Next.js is an open-source web development framework created by Vercel enabling [[React]]-based web applications with server-side rendering and generating static websites. React documentation ...",
         "React App on GitHub Pages": "Recently I came across the idea of publishing a [[React]] App on GitHub Pages. I can distribute my React App using ...",
@@ -4181,7 +4266,8 @@ export const backlinks = {
         "WorkerDOM": "WorkerDOM doesn't use [[SharedArrayBuffer]], most likely to [[Spectre]]."
     },
     "Dijkstra": {
-        "Internetworking": "- [[Dijkstra]]"
+        "Internetworking": "- [[Dijkstra]]",
+        "Project Core ML Foundation": "- Uniform Cost Search: Priority Queue. [[Dijkstra]] is a variant of UCS, where there is no goal node; ..."
     },
     "서낭당": {
         "2023-02-12": "- [[서낭당]]",
@@ -4340,7 +4426,7 @@ export const backlinks = {
     "PDF": {
         "2022-06-05": "- Convert ACSM files to [[PDF]]/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software ...",
         "Screenshot as an API": "    - No need to understand [[PDF]] data format",
-        "Synonym-based Fuzzy Search": "Someday Project. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
+        "Synonym-based Fuzzy Search": "Someday Project. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
         "Using an iPad as my Ebook": "Furthermore, I fell in love with Book Scanning as a [[PDF]] with [[OCR]], and I figured it is very lovable. I can't ..."
     },
     "LLM": {
@@ -4367,12 +4453,46 @@ export const backlinks = {
         "2022-06-22": "[[Google]]'s [[WorkerDOM]] has no event algorithm.",
         "2022-07-14": "... more. One wrong info that I found: Uber didn't make Kubernetes. [[Google]] did.",
         "2022-07-21": "### [[Google]], really? Come on.",
+        "2022-12-28": "... trying to look at some old youtube videos on an old [[google]] account. I accidentally stumble into the world's worst security flow instead",
+        "2023-02-02": "... Once users login to Hermes, they can create document drafts using [[Google]] Docs",
+        "2023-02-08": "... foundational models have partnered with cloud providers: OpenAI (Microsoft) and Anthropic ([[Google]]). These companies spend vast amounts on computing to train the models, ...",
+        "AI replaces expensive jobs first": "... issues that become databases, lawyers can search for similar topics like \"[[Google]] Search.\" For example, if a fraud case comes in, the lawyer ...",
+        "AI는 고가 노동부터 점령한다": "... 교통 딱지 위반)로 시작한다. 하지만 점차 데이터베이스화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] 검색\"처럼 유사 사례들을 검색할 수 있다. 예를 들어 사기죄 사건이 들어온다면 ...",
+        "AMP": "... an open-source HTML framework developed by the AMP Open Source Project. [[Google]] created it as a competitor to Facebook Instant Articles and [[Apple]] ...",
+        "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports.",
+        "Boring Technologies": "... you are running a software business and you aren't at, like, [[Google]]-tier scale, throw it all in a mono repo",
+        "Chromium": "... various textures inside of MathML code,\" points out Ian Kilpatrick of [[Google]]. \"Things like backgrounds working consistently so you can highlight or style ...",
+        "Emails and Decentralized Protocols": "- [[Google]] has half a billion results for \"my email goes directly to ...",
+        "Ethereum RPC as a Service": "- [[Google]] Cloud announced Blockchain Node Engine, a hosted RPC node for Ethereum. ...",
+        "GeoCheatCode": "- I noticed that when I manually typed things into the [[Google]] Maps search bar, it forgave a myriad of sins and did ...",
+        "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "- Links to cross-origin destinations are unsafe, [[Google]] Developers\\",
+        "Google Analytics": "> [[Google]] Analytics is a web analytics service offered by Google that tracks ...",
+        "Imagining WebNPU API": "... for some specific jobs. Other companies are catching up, such as [[Google]]'s Tensor. Unfortunately, so far, these chips are only accessible through native ...",
+        "In search of my domain": "... of ideas and picked the most available one. A year later, [[Google]] made the `.dev` domain [[GA]], and I also tried `cho.dev`, but ...",
+        "In-house and Free Market": "... are ahead of published research for a competitive edge. For instance, [[Google]]'s internal labs keep their cutting-edge research unpublished to maintain a competitive ...",
         "Kubernetes": "... open-source container orchestration system for automating software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the Cloud Native Computing Foundation now maintains ...",
+        "Letter to Mr. Matt Rickard on 2022-10-03": "... as the omnipotent search engine for 대한민국|Korea (bigger market cap than [[Google]] 대한민국|Korea) and [[Kakao]] services as an almighty chatting app (more than ...",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "... have a Super App called Kakao, a go-to for everything. It's [[Google]] + Facebook + Uber + Uber Eats + Netflix + Spotify ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... in the United States of America|United States are vague. Apple and [[Google]] divide the tech market into two, not only in terms of ...",
+        "Microsoft": "... latest partnership could be a blessing for Microsoft considering its counterpart [[Google]] has been exploring the AI ecosystem. Consequently, the increased demand for ...",
         "Perceptual Hashing": "... the change of hash collision to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
+        "Person 392196": "- Will work at [[Google]] soon",
+        "Proposal of Research to Professor Cote": "... collisions. This method is used to search by image, such as [[Google]] Photos, or detect child sexual abuse materials. The perceptual hashing layer ...",
+        "Satori": "- Font and Emoji Subsets from [[Google]] Fonts and other CDNs",
+        "Search AI": "This can kill [[Google]].",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ...",
-        "WorkerDOM": "[[Google]]'s take on providing [[DOM]] access to [[Web Worker]] Threads."
+        "Super App": "... various services and fight the mobile search partnership between Apple and [[Google]]",
+        "Synonym-based Fuzzy Search": "Someday Project. Fuzzy Search + Synonym Search in PDF/Databases. Just like [[Google]]",
+        "Tools for Thought": "- Classic Blogs: just make a post and let [[Google]] do the job.",
+        "Universal Identity": "- [[Google]] Account is the de facto Universal Identity on modern websites, with ...",
+        "VP9 vs HEVC": "- Apple only supports HEVC, while [[Google]] only supports VP9.",
+        "WebNPU API를 상상하다": "... ML에 비해 성능은 약하지만, 레이턴시나 개인 정보 보호의 면에서 훨씬 우수하다. [[Google|구글]] 등의 다른 회사들도 텐서와 같은 칩을 개발하며 따라잡고 있다. 불행하게도 지금까지 ...",
+        "WorkerDOM": "[[Google]]'s take on providing [[DOM]] access to [[Web Worker]] Threads.",
+        "도메인 찾아 삼만리": "... 비싸고 장난처럼 느껴졌고 `.xyz`는 아이디어가 부족해 고른 것 같았다. 1년 뒤 [[Google|구글]]이 `.dev` 도메인을 [[GA|공개]]했고, `cho.dev`을 사려 했지만 ▲ 가격이 너무 비쌌고(~800달러) ▲ ...",
+        "배달의민족 FE 개발자가 일하는 법 발표": "- [[Google]], Line",
+        "식영부원의 관점에서 바라본 치킨데이": "... 신청 과정은 민사고 전교생이 가입된 페이스북 그룹인 \"민사고|KMLA 전체공지\"를 이용해서 공지하고, [[Google]] Form의 설문지를 이용해 설문을 하게 됩니다. 설문이 완료되고 나면 식영부원들은 이 ...",
+        "인하우스와 자유경쟁": "... 우선시한다. 이런 기업 연구소의 기술은 몇 년 앞서 있다. 예를 들어, [[Google]]의 내부 연구소는 경쟁 우위를 유지하기 위해 최첨단 연구를 공개하지 않고 있다. ..."
     },
     "Handwriting Grammarly": {
         "Handwriting Tools for Thoughts": "- We might need [[Handwriting Grammarly]]"
@@ -4397,7 +4517,7 @@ export const backlinks = {
     },
     "Metaverse": {
         "2022-05-31": "- Kakao announced [[Metaverse]] Remote Work Policy.",
-        "Bondee": "... interact with each other on this social media platform via its [[metaverse]] environment. Users can also create and customize their 3D characters and ...",
+        "Bondee": "... interact with each other on this social media platform via its [[metaverse]] environment. Users can also create and customize their [[3D]] characters and ...",
         "Club Penguin": "[[Metaverse]]",
         "Habbo Hotel": "Habbo Hotel is also a part of the [[metaverse]]. It is a virtual world and social networking site where users ...",
         "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can be attained within years with Prompt Engineering.",
@@ -4451,7 +4571,7 @@ export const backlinks = {
     "glTF": {
         "3D": "- [[glTF]] for [[Android]]",
         "Things (3D)": "> Nice. What's the edge on Things over [[glTF]] and [[USDZ]]?<br/>",
-        "USDZ vs glTF": "USDZ and [[glTF]] are two 3D file formats used for different purposes. USDZ is ..."
+        "USDZ vs glTF": "USDZ and [[glTF]] are two [[3D]] file formats used for different purposes. USDZ is ..."
     },
     "GitHub Package Manager": {
         "Matt Rickard": "- [[GitHub Package Manager]]"
@@ -4563,7 +4683,7 @@ export const backlinks = {
         "Search AI와 인터넷의 한국어": "무엇보다 대부분의 자료가 [[Naver|네이버]]에 갇혀있고,",
         "Service Shimming": "- [[Naver]] (≈ [[대한민국|Korean]] Google), for a while, failed to make a News ...",
         "서비스 시밍": "- [[Naver|네이버]]는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 일일이 찾아가며 뉴스를 배포할 ...",
-        "유난한 도전": "... 사용자도 많고 간편한 토스결제를 너나없이 이용하고 싶어 할 것이다. 그렇지 않았다. [[Naver|네이버]]페이, [[Kakao|카카오]]페이, 삼성페이 등 경쟁자가 너무 많았다. 토스페이의 설득력이 부족했다.",
+        "유난한 도전": "... 사용자도 많고 간편한 Toss|토스결제를 너나없이 이용하고 싶어 할 것이다. 그렇지 않았다. [[Naver|네이버]]페이, [[Kakao|카카오]]페이, 삼성페이 등 경쟁자가 너무 많았다. Toss|토스페이의 설득력이 부족했다.",
         "하늘땅사람 개발 기록": "- `( ••)` `⊹⋛⋋( ՞ਊ ՞)⋌⋚⊹) `와 같은 이모티콘. [[Naver|네이버]] 스마트 키보드의 기능 중 꽤 좋은 기능이었다."
     },
     "Memex": {
@@ -4616,7 +4736,7 @@ export const backlinks = {
         "CalliFontia": "- Apple [[Neural Engine]] 적극 활용, 기기 자체에서 폰트 추론하기",
         "Engine": "- [[Neural Engine]]",
         "NPU": "Neural Processing Units, such as the [[Neural Engine]].",
-        "WebNPU API를 상상하다": "우리는 이미 애플의 [[Neural Engine]]으로 온디바이스 ML 기술의 시작을 관찰하고 있다. 여기에는 단순한 Siri 명령에서 완전한 ..."
+        "WebNPU API를 상상하다": "우리는 이미 Apple|애플의 [[Neural Engine]]으로 온디바이스 ML 기술의 시작을 관찰하고 있다. 여기에는 단순한 Siri 명령에서 완전한 ..."
     },
     "designOS": {
         "Diagram (Company)": "- Creator of [[designOS]]"
@@ -4648,12 +4768,6 @@ export const backlinks = {
     },
     "Poisson Law": {
         "2023-02-02": "- [[Poisson Law]]"
-    },
-    "Emojis": {
-        "Satori": "- Font and [[Emojis]] Subsets from Google Fonts and other CDNs",
-        "Stories Behind Satori": "The same applies to [[Emojis|emojis]].",
-        "TossFace Playground": "- Celebrating Redistribution of 한국어|Korean and Futuristic [[Emojis]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ...",
-        "Tossface": "- Toss once withdrew the [[emojis]], but I submitted a request to put them back on Unicode ..."
     },
     "Photoshop for Text": {
         "Letter to Mr. Stephan Ango on 2022-10-19": "I recently came across your article on [[Photoshop for Text]] and was deeply inspired by it.",
@@ -4691,6 +4805,8 @@ export const backlinks = {
     },
     "Docker": {
         "2022-06-15": "... Now we can expect Lab Infrastructure as code like Terraform or [[Docker]] images for science labs.",
+        "CDN": "... one from \"scratch\". The CDN we will design uses: Nginx, Lua, [[docker]], docker-compose, Prometheus, grafana, and wrk.",
+        "Cloud-Native": "... comfortable building Microservices Architecture, containerization, and automation using tools like Kubernetes, [[Docker]], and Terraform.",
         "How to Build Software like an SRE": "- use [[Docker]]"
     },
     "AI는 고가 노동부터 점령한다": {
@@ -4755,7 +4871,7 @@ export const backlinks = {
         "Pretendard": "- [[Font]] by orioncactus (Kil Hyung-jin)",
         "Pretendard의 아쉬운 점": "## [[Font]] Family의 Font Weight 매칭 문제",
         "San Francisco": "- [[Font]] by [[Apple]]",
-        "Satori": "- [[Font]] and [[Emojis]] Subsets from Google Fonts and other CDNs",
+        "Satori": "- [[Font]] and [[Emoji]] Subsets from [[Google]] Fonts and other CDNs",
         "Satoshi": "- A type of Grotesque [[font]]",
         "Stories Behind Satori": "They also added Google [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library and ...",
         "Toss Product Sans": "- [[Font]] by [[Toss]].",
@@ -4803,7 +4919,7 @@ export const backlinks = {
     },
     "Someday": {
         "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter Network]] but you must",
-        "Apple Earth": "[[Someday]] [[Project]]. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
+        "Apple Earth": "[[Someday]] [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
         "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
         "Book Metadata as a Service": "[[Someday]] [[Project]]. Open API that returns Book Metadata when given an ISBN.",
@@ -4827,7 +4943,7 @@ export const backlinks = {
         "Problem": "Leads to a [[Someday]] [[Project]].",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
-        "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like Google",
+        "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute URI.",
         "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator to gauge market interest.",
@@ -4936,6 +5052,9 @@ export const backlinks = {
         "Apple-like Block Interface": "## [[Amie]]"
     },
     "Binary Search": {
+        "0001 Two Sum": "  - Perform [[binary search]] $O(\\log n)$",
+        "0235 LCA of a Binary Search Tree": "Given a [[binary search]] tree (BST), find the lowest common ancestor (LCA) node of two ...",
+        "0278 First Bad Version": "When using [[binary search]], we must consider the case where `low < high` but when ...",
         "0704 Binary Search": "- [[Binary Search]]",
         "2022-09-05": "- [[Binary Search]]",
         "Real Exams": "- 1 binary tree construction & [[Binary Search]] traversal"
@@ -4943,7 +5062,7 @@ export const backlinks = {
     "VP9 vs HEVC": {
         "2023-02-18": "- [[VP9 vs HEVC]]",
         "Imagining WebNPU API": "... will again see a battle between Apple and Google, just like [[VP9 vs HEVC]]or [[USDZ vs glTF]] battles.",
-        "WebNPU API를 상상하다": "... ML 모델을 사용하는 반면 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 [[VP9 vs HEVC]] 또는 [[USDZ vs glTF]]의 싸움처럼 애플과 구글의 싸움을 다시 보게 될 ..."
+        "WebNPU API를 상상하다": "... ML 모델을 사용하는 반면 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 [[VP9 vs HEVC]] 또는 [[USDZ vs glTF]]의 싸움처럼 [[Apple|애플]]과 [[Google|구글]]의 싸움을 다시 보게 될 ..."
     },
     "바이올린 켜면 바이올레이션": {
         "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
@@ -5079,6 +5198,16 @@ export const backlinks = {
         "2023-02-16": "- [[엔진 방정식]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0216 | 🇬🇧 The Engine Equation <br/> 🇰🇷 [[엔진 방정식]]            ...",
         "기술 할부 결제": "여기서 [[엔진 방정식]]이 유용하게 다가온다."
+    },
+    "Emoji": {
+        "Ray.st": "A Collection of 26 Beautiful 3D [[Emoji]] Generated by [[Generative AI]].",
+        "Satori": "- Font and [[Emoji]] Subsets from [[Google]] Fonts and other CDNs",
+        "Shopify Analyzes CSS Frameworks": "| [[Emoji]] class names          ...",
+        "Stories Behind Satori": "The same applies to [[Emoji|emojis]].",
+        "The Zenly Playbook": "... Life Friend vibe: pop interface, Gen-Z copywriting, cute colors, and smiley [[emoji]] everywhere. When asking for the actual location, it emphasized spending good ...",
+        "TossFace Playground": "- Celebrating Redistribution of 한국어|Korean and Futuristic [[Emoji]]. 유니코드 Private Use Area를 이용해 한국적, 시대적 가치를 담은 이모지 재배포 ...",
+        "Tossface": "- [[Emoji]] [[Font]] by [[Toss]]",
+        "Why is Swift String Manipulation like that": "... Strings are Unicode-Correct, which means they can handle complex characters and [[Emoji]]; ever experienced where complex Emoji are 3-4 characters combined in length? ..."
     },
     "Snowpack으로 WASM 시작하기": {
         "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
@@ -5523,6 +5652,8 @@ export const backlinks = {
         "2022-10-19": "- [[Playing Sounds in SDL]]"
     },
     "10x": {
+        "10x Technologist": "[[10x]] developers are a term that describes an exceptionally skilled and productive, ...",
+        "10x Technopreneurs": "[[10x]] technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x ...",
         "2022-06-06": "- Early in your career, you can learn [[10x]] more in a supportive team in 1 year than coding on ...",
         "2022-12-09": "- [[10x]]",
         "Geohot Twitter Mayhem": "... But it still poses a question for ① being a superintelligent [[10x]] developer and ② being a cooperative team player developer. Geohot was ...",
@@ -5577,7 +5708,7 @@ export const backlinks = {
         "Dynamic Island on the Web": "![[AA04D0.gif]]"
     },
     "wikilink": {
-        "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which Docusaurus does not support. I have another python ..."
+        "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does not support. I have another python ..."
     },
     "81F6FA.png": {
         "2023-01-31": "![[81F6FA.png]]"
@@ -6793,6 +6924,9 @@ export const backlinks = {
     },
     "AE63DD.png": {
         "Sliding Panes": "![[AE63DD.png]]"
+    },
+    "Zettelkasten": {
+        "Tools Must Vanish": "... And most of what I see is junk. It's never the [[Zettelkasten]] of the next [[Vannevar Bush]]; it's always a setup with tens ..."
     },
     "A02D58.png": {
         "하늘땅사람 개발 기록": "![[A02D58.png]]"

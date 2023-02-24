@@ -19,7 +19,7 @@ slug: '/E0C34F'
 npx create-snowpack-app gif-converter --template @snowpack/app-template-react
 ```
 
-- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)
+- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 [[WebAssembly|WASM]] 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)
 
 ```bash
 npm install @ffmpeg/ffmpeg @ffmpeg/core

@@ -7,7 +7,7 @@ This is a [[metapage]] for all the media I've seen, starting from Feb 2023. Just
 
 import Shuffle from '@site/src/components/Shuffle'
 
-## Done
+## [[Done]]
 
 <Shuffle>
 
