@@ -10,7 +10,7 @@ slug: '/903D31'
 ## Final Goal
 
 - Press `Left Command` to set Mac's input method to English.
-- Press `Right Command` to set Mac's input method to Korean.
+- Press `Right Command` to set Mac's input method to [[한국어|Korean]].
 - Any other shortcut combinations would perform as usual.
 
 ## Instructions
@@ -72,4 +72,4 @@ slug: '/903D31'
 ## Update Mar 7th, 2022
 
 - If you're bilingual, try looking into [Eikana](https://ei-kana.appspot.com/).
-- I switched to Eikana + [Gureum](https://gureum.io/) configuration; there's a notorious [자소 분리 bug](https://www.google.com/search?q=%EB%A7%A5%EB%B6%81+%ED%82%A4%EB%B3%B4%EB%93%9C+%EC%9E%90%EC%86%8C+%EB%B6%84%EB%A6%AC) in macOS Korean Keyboard.
+- I switched to Eikana + [Gureum](https://gureum.io/) configuration; there's a notorious [자소 분리 bug](https://www.google.com/search?q=%EB%A7%A5%EB%B6%81+%ED%82%A4%EB%B3%B4%EB%93%9C+%EC%9E%90%EC%86%8C+%EB%B6%84%EB%A6%AC) in macOS [[한국어|Korean]] Keyboard.

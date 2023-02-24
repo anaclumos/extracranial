@@ -13,27 +13,27 @@ In 2000, the U.S. lifted export restrictions, but [[대한민국|Korea]] continu
 
 ## Dodging Responsibilities
 
-There is a Korean law stating:
+There is a [[대한민국|Korean]] law stating:
 
 > A financial institution or electronic financial provider shall be responsible for compensating the user for damages caused by accident caused by forgery or alteration of an access medium, contract signing, or electronic transmission or processing of transaction instructions.
 
-However, some Korean banks figured they could use their security systems' complexity to shift responsibility onto customers during a security breach. Paired with highly vague terms and conditions, the bank points to these terms and conditions as evidence that the customer was aware of the risks and agreed to assume responsibility for any damages.
+However, some [[대한민국|Korean]] banks figured they could use their security systems' complexity to shift responsibility onto customers during a security breach. Paired with highly vague terms and conditions, the bank points to these terms and conditions as evidence that the customer was aware of the risks and agreed to assume responsibility for any damages.
 
 ## Limited Room for FDS
 
-Korean banks, by default, do not have a deferred transfer system, unlike the U.S., which has a tipping system. That means every transaction is instant and irreversible. Therefore, implementing a fraud detection system (FDS) makes it more challenging, as there is limited time to detect and stop fraudulent transactions before the transaction. In contrast, a deferred transfer system like the one used in the United States can provide more time for banks to identify and prevent fraudulent transactions, as banks can cancel or reverse transactions before they are processed. Instead, Korean banks rely on individual customers to monitor their accounts for suspicious activity and report it to the bank, meaning that customers are responsible for detecting fraudulent transactions.
+[[대한민국|Korean]] banks, by default, do not have a deferred transfer system, unlike the U.S., which has a tipping system. That means every transaction is instant and irreversible. Therefore, implementing a fraud detection system (FDS) makes it more challenging, as there is limited time to detect and stop fraudulent transactions before the transaction. In contrast, a deferred transfer system like the one used in the United States can provide more time for banks to identify and prevent fraudulent transactions, as banks can cancel or reverse transactions before they are processed. Instead, [[대한민국|Korean]] banks rely on individual customers to monitor their accounts for suspicious activity and report it to the bank, meaning that customers are responsible for detecting fraudulent transactions.
 
 ## Lack of Competitions
 
-The Korean market is known to have limited competition in some industries, including the banking sector. Several factors contribute to this, including:
+The [[대한민국|Korean]] market is known to have limited competition in some industries, including the banking sector. Several factors contribute to this, including:
 
-- **Linguistic and regional barriers**. The Korean language is unique, and many Korean consumers prefer to do business with companies fluent in Korean and understand Korean culture.
+- **Linguistic and regional barriers**. The [[한국어|Korean language]] is unique, and many [[대한민국|Korean]] consumers prefer to do business with companies fluent in [[대한민국|Korean]] and understand [[대한민국|Korean]] culture.
 - **Resistance to external influence**. Koreans have great national pride and are often wary of external parties playing a significant role in their economy.
 - **Lobbying and Corruptions**. Allegations of corruption have been made against [[대한민국|Korea]] Financial Telecommunications and Clearings (KFTC). This company is one of five authorized certification system companies and makes millions of dollars. The KFTC should be a public interest organization created by the state. Still, high-ranking officials from the Financial Services Commission are accused of colluding with the company after retirement, leading to questions about why they are attracted to such positions.
 - **Perception of overseas banks**. Finally, there is often a perception in [[대한민국|Korea]] that using overseas banks or doing business with foreign companies is _unpatriotic_ or _unethical_.
 
-For these reasons, the Korean market, including the banking sector, has limited competition.
+For these reasons, the [[대한민국|Korean]] market, including the banking sector, has limited competition.
 
 ## Conclusion
 
-Despite the challenges and limited competition in the Korean banking sector, the emergence of new fintech companies like Toss and KakaoBank has brought some positive changes. These companies have disrupted the traditional banking industry with innovative digital solutions and customer-centric approaches, providing more options for Korean consumers. With the rise of fintech and the changing expectations of consumers, traditional Korean banks must adapt to stay competitive. While the industry still faces obstacles, the growth of these new players shows the potential for more competition and innovation in the Korean banking sector.
+Despite the challenges and limited competition in the [[대한민국|Korean]] banking sector, the emergence of new fintech companies like Toss and KakaoBank has brought some positive changes. These companies have disrupted the traditional banking industry with innovative digital solutions and customer-centric approaches, providing more options for [[대한민국|Korean]] consumers. With the rise of fintech and the changing expectations of consumers, traditional [[대한민국|Korean]] banks must adapt to stay competitive. While the industry still faces obstacles, the growth of these new players shows the potential for more competition and innovation in the [[대한민국|Korean]] banking sector.

@@ -19,7 +19,7 @@ The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker New
 > - Decent software (Onyx fails here)
 > - Pretty easy way to send & open files on the device (for PDFs, PPTXs, [[EPUB]]s)
 >
-> Recent [[Kindle]] versions check almost all checkboxes here, but I would love to see multiple e-book vendors. I also read many Korean books, and the [[Kindle]] store lacks Korean titles. Knowing that Amazon loses money for each [[Kindle]] sale to boost their [[Kindle]] store revenue, it seems unlikely that [[Kindle]] will open up external app support.
+> Recent [[Kindle]] versions check almost all checkboxes here, but I would love to see multiple e-book vendors. I also read many [[대한민국|Korean]] books, and the [[Kindle]] store lacks [[대한민국|Korean]] titles. Knowing that Amazon loses money for each [[Kindle]] sale to boost their [[Kindle]] store revenue, it seems unlikely that [[Kindle]] will open up external app support.
 >
 > What E-Reader devices do you recommend?
 

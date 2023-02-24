@@ -35,7 +35,7 @@ slug: '/E203C9'
 - As much as developers in the industry can impact the world by improving page load time by 25%,
 - People in the academic fields support those works.
 
-> So, simply wrapping all developers as _Software Engineers_ is like categorizing all musicians as singers, including incredibly different types of musicians, from street-performing rappers to classical oboists, from Korean idols to shamanist drummers.
+> So, simply wrapping all developers as _Software Engineers_ is like categorizing all musicians as singers, including incredibly different types of musicians, from street-performing rappers to classical oboists, from [[대한민국|Korean]] idols to shamanist drummers.
 
 ## Conclusion
 

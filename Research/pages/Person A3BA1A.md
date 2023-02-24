@@ -14,7 +14,7 @@ VC investment procedures are old and antiquated.
 It is done through handwriting, fax, and email.
 An American company, Carta, already dominates the [[United States of America|U.S.]] market.
 But unlike regulated stock markets, Private Equity regulations vastly differ across markets.
-Considering that, Carta cannot ever penetrate the Korean market.
+Considering that, Carta cannot ever penetrate the [[대한민국|Korean]] market.
 The essential advantage is speed.
 Competitors in this VC scene are slow.
 While we have a small engineering team, we are full of the best in their type.

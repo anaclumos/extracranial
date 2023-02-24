@@ -5,7 +5,7 @@ slug: '/37A187'
 
 - [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]
 
-I recently came across a Korean font called [Spoqa Han Sans](https://spoqa.github.io/spoqa-han-sans/en-US/). It attracted me due to its simplicity and readability. However, I didn't like its English glyph (based on Noto Sans, which I didn't love to death.)
+I recently came across a [[대한민국|Korean]] font called [Spoqa Han Sans](https://spoqa.github.io/spoqa-han-sans/en-US/). It attracted me due to its simplicity and readability. However, I didn't like its English glyph (based on Noto Sans, which I didn't love to death.)
 
 After a while, I figured out how to define a language range for each font. While importing a font face, we need to add `unicode-range`.
 
@@ -17,7 +17,7 @@ After a while, I figured out how to define a language range for each font. While
 }
 ```
 
-`U+AC00-D7AF`is the Unicode range of Korean glyphs.
+`U+AC00-D7AF`is the Unicode range of [[한국어|Korean]] glyphs.
 
 ## **Can't find `@font-face`?**
 
