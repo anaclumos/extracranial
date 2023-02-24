@@ -26,7 +26,7 @@ Now I would like to ask: Would there be some sort of... in the near future (with
 - Free-to-use Service
 - Extension APIs
 
-P.S. I love your work and blog and have always enjoyed reading your English/Taiwanese articles. I never knew Taiwanese → English translation evolved so well! Anyways, if you need any Korean 🇰🇷 translation support or anything I can help with, I'm more than happy to! I know a community of 900+ individuals interested in [[Heptabase]] & Visual Thinking.
+P.S. I love your work and blog and have always enjoyed reading your English/Taiwanese articles. I never knew Taiwanese → English translation evolved so well! Anyways, if you need any [[한국어|Korean]] 🇰🇷 translation support or anything I can help with, I'm more than happy to! I know a community of 900+ individuals interested in [[Heptabase]] & Visual Thinking.
 
 感謝您, and I look forward to your response! 🇹🇼🇰🇷🇺🇸
 

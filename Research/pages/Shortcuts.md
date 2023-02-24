@@ -155,7 +155,7 @@ See https://github.com/anaclumos/karabiner.json/ for more up-to-date configs.
 }
 ```
 
-Then I configured a bunch of shortcuts to fly through my Mac. Remember ⌃⌥⇧ is the so-called **Hyper Key** that I made, which uses the Caps Lock key or 한/영 키 (Korean-English Key). That is, because, I never use the Caps Lock key (I use shift) and I click the right command key to type Korean and click the left command key to type English, inspired by the [Japanese Apple keyboard's Kana (かな) and English Key (英数)](https://en.wikipedia.org/wiki/Language_input_keys#:~:text=Apple%20keyboards%20designed%20for%20Mac%20OS%20X%20have%20two%20language%20input%20keys).
+Then I configured a bunch of shortcuts to fly through my Mac. Remember ⌃⌥⇧ is the so-called **Hyper Key** that I made, which uses the Caps Lock key or 한/영 키 ([[한국어|Korean]]-English Key). That is, because, I never use the Caps Lock key (I use shift) and I click the right command key to type [[한국어|Korean]] and click the left command key to type English, inspired by the [Japanese Apple keyboard's Kana (かな) and English Key (英数)](https://en.wikipedia.org/wiki/Language_input_keys#:~:text=Apple%20keyboards%20designed%20for%20Mac%20OS%20X%20have%20two%20language%20input%20keys).
 
 ![Rectangle.app](../assets/114E35.png)
 ![Keyboard Maestro.app](../assets/D8503F.png)
