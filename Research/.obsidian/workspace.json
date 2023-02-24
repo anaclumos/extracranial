@@ -11,8 +11,13 @@
             "id": "cde0ba6752f4a17b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Born of this Land - The Founding Story of Hyundai.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Born of this Land - The Founding Story of Hyundai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Born of this Land - The Founding Story of Hyundai.md"
+              }
             }
           },
           {
@@ -138,11 +146,11 @@
   "active": "cde0ba6752f4a17b",
   "lastOpenFiles": [
     "journals/2023-02-23.md",
+    "pages/Born of this Land - The Founding Story of Hyundai.md",
     "pages/북한.md",
     "pages/대한민국.md",
     "pages/한국어.md",
     "pages/한민족.md",
-    "pages/Born of this land - The Founding Legend of Hyundai.md",
     "pages/배달의민족 FE 개발자가 일하는 법 발표.md",
     "pages/한국인.md",
     "pages/Unified Korea.md",
