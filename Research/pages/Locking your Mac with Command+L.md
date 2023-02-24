@@ -15,7 +15,7 @@ The only thing I missed about my Windows computer was locking the screen since I
 
 ![Keyboard → Shortcuts → App Shortcuts](../assets/348DC5.png)
 
-3. On your Menu Bar, press the ** Apple Logo**. Check the name of **^Control+⌘Command+Q**. It is responsible for locking your Mac. Remember the name of the menu.
+3. On your Menu Bar, press the ** [[Apple]] Logo**. Check the name of **^Control+⌘Command+Q**. It is responsible for locking your Mac. Remember the name of the menu.
 
 ![Menu Bar](../assets/2AC5DC.png)
 

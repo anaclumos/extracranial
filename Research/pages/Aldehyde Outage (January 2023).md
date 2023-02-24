@@ -5,13 +5,13 @@ slug: '/AB70E4'
 
 Multiple issues are combined.
 
-## Docusaurus 2.3.0 `useSyncExternalStore` Bug
+## [[Docusaurus]] 2.3.0 `useSyncExternalStore` Bug
 
 [Using Tabs will break with React 18 and Docusaurus v2.3 · Issue #8592 · facebook/docusaurus](https://github.com/facebook/docusaurus/issues/8592#event-8378524686)
 
-## Vercel and Cloudflare Build Errors
+## [[Vercel]] and [[Cloudflare]] Build Errors
 
-On Cloudflare's side:
+On [[Cloudflare]]'s side:
 
 ```
 16:49:17.136	✔ Server: Compiled successfully in 3.74m
@@ -20,7 +20,7 @@ On Cloudflare's side:
 16:50:23.859	Failed: an internal error occurred
 ```
 
-On Vercel's Side:
+On [[Vercel]]'s Side:
 
 ```
 [success] [webpackbar] Server: Compiled successfully in 3.49m
@@ -43,11 +43,11 @@ Did not help.
 
 OH FIGURED IT OUT.
 It was because of insufficient RAM.
-When Docusaurus seals the assets (at the end of the build cycle), the RAM usage spikes to ~4.5 GB.
+When [[Docusaurus]] seals the assets (at the end of the build cycle), the RAM usage spikes to ~4.5 GB.
 
 ![[8FBB85.png]]
 
-Configuring [[Cloudflare Pages]] and Vercel with the following argument fixed the problem!
+Configuring [[Cloudflare Pages]] and [[Vercel]] with the following argument fixed the problem!
 
 ```
 --max-old-space-size=8192
@@ -57,4 +57,4 @@ Configuring [[Cloudflare Pages]] and Vercel with the following argument fixed th
 
 ![[695A13.png]]
 
-So I ended up using Cloudflare Wrangler to build on my device and then sending the build result to Cloudflare. Anyways, the issue seems to be resolved.
+So I ended up using [[Cloudflare]] Wrangler to build on my device and then sending the build result to [[Cloudflare]]. Anyways, the issue seems to be resolved.

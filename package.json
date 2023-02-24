@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "$npm_execpath run prepare && docusaurus start",
-    "build": "$npm_execpath run prepare && docusaurus build && $npm_execpath run redirects",
+    "build": "$npm_execpath run prepare && docusaurus build --no-minify && $npm_execpath run redirects",
     "redirects": "cp _redirects build/_redirects",
     "swizzle": "docusaurus swizzle",
     "deploy": "$npm_execpath run build && wrangler pages publish ./build --commit-dirty=true --project-name=memex",

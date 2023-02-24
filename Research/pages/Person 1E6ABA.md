@@ -35,7 +35,7 @@ Possible side revenues include selling curated content with subscriptions, charg
 Recently closed $4M in funding, estimated burn rate $1.2M a year approx.
 Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media researcher, and engineering intern.
 
-1E6ABA's experience at Google involved multiple teams, from Chrome to TensorFlow.
+1E6ABA's experience at [[Google]] involved multiple teams, from Chrome to TensorFlow.
 Learned a lot about soft skills.
 The TensorFlow team had weird, intertangled relationships across groups.
 For example, the Tensorflow compiler team wanted to make everything as static as possible, whereas the Tensorflow Python team wanted to make everything as dynamic as possible.

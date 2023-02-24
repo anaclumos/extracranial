@@ -31,4 +31,4 @@ While modifying every link with JavaScript whenever accessing the page might slo
 
 ## Additional Readings
 
-- [Links to cross-origin destinations are unsafe; Google Developers](https://developers.google.com/web/tools/lighthouse/audits/noopener)
+- [Links to cross-origin destinations are unsafe; [Google Developers](https://developers.google.com/web/tools/lighthouse/audits/noopener)

@@ -13,7 +13,7 @@ Source: [Apple AI Interview Questions — Acing the AI Interview](https://medium
 - What is the difference between Python and Scala?
 - Explain LRU Cache.
 - How would you design a client-server model where the client sends location data every minute?
-- How would you transfer data from one Hadoop cluster to another?
+- How would you transfer data from one Hadoop [[Clustering|cluster]] to another?
 - What are the different types of memories in Java?
 - How can you handle the daily tedious tasks that go hand in hand with processing metadata for hundreds of titles?
 - In terms of data flow and accessibility, how do you measure success in a hidden time frame where the nucleus overloads the border structure of the over-complicated file system that redirects computer energy to the cellar dome?

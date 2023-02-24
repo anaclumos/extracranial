@@ -26,5 +26,5 @@ aliases: ['overengineer', 'over-engineer', 'Boring']
 
 ### [Use a monorepo](https://buttondown.email/blog/just-use-a-monorepo)
 
-- I wrote [last month](https://buttondown.email/blog/on-monorepos) about migrating Buttondown from several separate micro repositories to a single monorepo. I've since completed the migration, and the slight irritation I felt from having to unwind many technical choices with deployment + continuous integration has faded.
-- I am here to tell you: if you are running a software business and you aren't at, like, Google-tier scale, throw it all in a mono repo
+- I wrote [last month](https://buttondown.email/blog/on-monorepos) about migrating [[Buttondown]] from several separate micro repositories to a single monorepo. I've since completed the migration, and the slight irritation I felt from having to unwind many technical choices with deployment + continuous integration has faded.
+- I am here to tell you: if you are running a software business and you aren't at, like, [[Google]]-tier scale, throw it all in a mono repo

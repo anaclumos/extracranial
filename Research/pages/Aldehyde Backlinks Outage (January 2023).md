@@ -61,7 +61,7 @@ Found that:
 4523
 ```
 
-The backlink table was 완성형, but the text was 조합형.
+The [[backlink]] table was 완성형, but the text was 조합형.
 
 So I added:
 

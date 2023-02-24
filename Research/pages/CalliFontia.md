@@ -18,7 +18,7 @@ slug: '/3B14B7'
 ### 아이디어
 
 - 영문 폰트 핵심으로
-- 아이패드와 애플펜슬만으로 쉽고 빠르게
+- 아이패드와 [[Apple|애플]]펜슬만으로 쉽고 빠르게
 - PencilKit 적극 활용
 - [[Apple]] [[Neural Engine]] 적극 활용, 기기 자체에서 폰트 추론하기
 - [[Project]] 기반 (like Procreate)

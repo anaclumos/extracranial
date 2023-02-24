@@ -9,7 +9,7 @@ It doesn't mention how to get that token!
 
 ![[DD7F56.png]]
 
-## Registering for Apple Developer Key
+## Registering for [[Apple]] Developer Key
 
 - Create an Identifier for your Service.
 - Register a Key.
@@ -24,7 +24,7 @@ It doesn't mention how to get that token!
 
 ## Using MusicKit to extract the User Token
 
-- By creating a demo website, I could authenticate with my Apple ID and get the User Token.
+- By creating a demo website, I could authenticate with my [[Apple]] ID and get the User Token.
 
 ![[D45B2B.png]]
 ![[C0AA6C.png]]
