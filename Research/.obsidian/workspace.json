@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Renaissance.md",
-                "mode": "preview",
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Renaissance.md",
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Renaissance.md"
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md"
               }
             }
           },
@@ -197,11 +197,11 @@
   },
   "active": "3cba55847f1f23f3",
   "lastOpenFiles": [
+    "journals/2023-02-24.md",
     "pages/르네상스.md",
     "pages/Renaissance.md",
     "pages/Antifragile.md",
     "pages/민사고.md",
-    "journals/2023-02-24.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/Spiritual Development.md",
     "pages/Economy.md",
