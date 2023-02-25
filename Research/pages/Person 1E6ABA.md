@@ -13,7 +13,7 @@ While I agreed, I asked how we would solve it since information devalues when wi
 
 Koreans also have a language barrier.
 The sources and the quality of the sources differ a lot.
-Why would the [[대한민국|Korean]] Govs and [[대한민국|Korean]] Banks promote any terrible news for the [[대한민국|Korean]] economy?
+Why would the [[대한민국|Korean]] Govs and [[대한민국|Korean]] Banks promote any terrible news for the [[대한민국|Korean]] [[economy]]?
 While that is understandable, as an individual, that can have a detrimental effect.
 See [1997 Asian financial crisis](https://en.wikipedia.org/wiki/1997_Asian_financial_crisis)
 The quality of the news dilutes drastically through the language barrier.

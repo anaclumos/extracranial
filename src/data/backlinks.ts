@@ -495,9 +495,9 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0110 Balanced Binary Tree]]"
     },
     "Cloudflare Pages": {
-        "2023-01-27": "I had to migrate Extracranial to [[Cloudflare Pages]] for Vercel for now...",
+        "2023-01-27": "I had to migrate Extracranial to [[Cloudflare Pages]] for [[Vercel]] for now...",
         "2023-02-02": "- [[Cloudflare Pages]]",
-        "Aldehyde Outage (January 2023)": "Configuring [[Cloudflare Pages]] and Vercel with the following argument fixed the problem!"
+        "Aldehyde Outage (January 2023)": "Configuring [[Cloudflare Pages]] and [[Vercel]] with the following argument fixed the problem!"
     },
     "Solar": {
         "2023-01-13": "- [[Solar]]",
@@ -637,7 +637,7 @@ export const backlinks = {
     "CDN": {
         "2022-08-28": "... builds faster (~3m) than Cloudflare Pages (~5m). Vercel has Seoul region [[CDN]].",
         "2022-12-28": "- [[CDN]]",
-        "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as [[Microsoft]] [[Bing]] or Cloudflare's AMP caches, which allows pages ...",
+        "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as [[Microsoft]] [[Bing]] or [[Cloudflare]]'s AMP caches, which allows pages ...",
         "Cloudflare": "> Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded in 2010. It primarily acts as ...",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WebAssembly|WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
         "The Architecture of Mastodon": "  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process ..."
@@ -1948,6 +1948,8 @@ export const backlinks = {
     },
     "Antifragile": {
         "Antifragily": "In an [[antifragile]] manner.",
+        "Renaissance": "... and upheaval periods, including the Black Death and political instability. Perfectly [[antifragile]].",
+        "르네상스": "... 불안정 등 엄청난 고통과 격변의 시기를 겪은 후에 등장했다는 것이다. 완전 [[Antifragile|안티프래질]].",
         "민사고": "## [[Antifragile|안티프래질]]",
         "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다.",
         "인하우스와 자유경쟁": "... 인하우스. 민사고에서는 연구 자원이 제한되어 있어 기술 애호가를 찾기가 어려웠다. 다행히도 [[Antifragile|안티프래질]]하게 독창성을 기를 수 있었다."
@@ -2273,6 +2275,11 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "... designed similarly to ASM. Therefore, compiling WebAssembly|WASM to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can ...",
         "Meltdown": "... Spectre). Meltdown affects Intel x86 microprocessors, IBM POWER processors, and some [[ARM Architecture|ARM]]-based microprocessors. It allows a rogue process to read all memory, even ..."
     },
+    "Spiritual Development": {
+        "Renaissance": "... I felt that this historical event was sending me a message: [[Spiritual Development]] always comes in the face of challenges and adversity. Living day ...",
+        "르네상스": "[[Spiritual Development|영적 성장]]은 도전과 역경에 직면할 때만 이루어진다는 것.",
+        "민사고": "> 그들이 그토록 추구했던 것은 사실 [[Spiritual Development|영적 성장]] ([[Spiritual Development]]) 이었을 것."
+    },
     "Palantir Apollo": {
         "Palantir": "- [[Palantir Apollo]]"
     },
@@ -2562,7 +2569,7 @@ export const backlinks = {
         "국가와 민족": "- 대한민국은 [[한민족|민족]]과 국가를 종종 혼동한다.",
         "대한민국": "대한민국은 동아시아의 한반도 남부에 위치한 국가이다. 주 민족은 [[한민족]]이며, [[한국어]]를 주로 사용한다.",
         "민사고": "> [[한민족]]의 모든 욕망을 충실하게 형체화한 모습.",
-        "민사고와 쇼비니즘": "... 아니라 문화나 경제로 어떤 나라든 침략하고 통치할 수 있다. 그렇다면 강력한 [[한민족|민족]] 정체성을 가지지 않는 한 어떤 나라든 정치적, 경제적 초강대국의 노예가 될 ...",
+        "민사고와 쇼비니즘": "... 아니라 문화나 Economy|경제로 어떤 나라든 침략하고 통치할 수 있다. 그렇다면 강력한 [[한민족|민족]] 정체성을 가지지 않는 한 어떤 나라든 정치적, Economy|경제적 초강대국의 노예가 될 ...",
         "이 땅에 태어나서": "... 위한 차관을 도입하기 위해 힘쓸 때도, 주머니 속 화폐의 거북선을 보여주며 [[한민족]]은 1500년대부터 철갑선을 만들었으며, 쇄국 정책으로 산업화 가 늦어져 국민의 능력과 아이디어가 ...",
         "한국어": "[[한민족]]과 [[대한민국]]의 언어이다.",
         "한국인": "대한민국의 국적자이다. [[한민족]]과 다르다.",
@@ -2750,7 +2757,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "... 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 Kakao|카카오페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 것. ..."
     },
     "GPU": {
-        "Effective Accelerationism": "... 줄이지 않고 있어요. 당신은 이것을 피하기 위해 경제를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 온라인으로 해결해야 합니다.",
+        "Effective Accelerationism": "... 줄이지 않고 있어요. 당신은 이것을 피하기 위해 Economy|경제를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 온라인으로 해결해야 합니다.",
         "Imagining WebNPU API": "... developed web interface that provides access to modern graphics processing unit ([[GPU]]) capabilities, such as Direct3D 12, Metal, and Vulkan, for rendering and ...",
         "Neural Engine": "... of NPU, which stands for Neural Processing Unit. It's like a [[GPU]], but instead of accelerating [[graphics]], an NPU accelerates neural network operations ...",
         "Point-E": "... generation has shown promising results, the state-of-the-art methods typically require multiple [[GPU]] hours to produce a single sample. This contrasts with state-of-the-art generative ...",
@@ -3278,14 +3285,14 @@ export const backlinks = {
         "서낭당": "서낭당은 [[대한민국|한국]]의 산간 마을에 흔히 볼 수 있으며, 마을의 안녕과 평안을 위해 제사를 ...",
         "솟대": "솟대는 [[대한민국|한국]]의 민속신앙에서 새해의 풍년을 기원하며 세우거나 마을 입구에 마을의 수호신의 상징으로 세운 ...",
         "유난한 도전": "... 금융 서비스를 만드는 것이다. 금융 회사가 테크를 배우는 게 아니다. 아직 [[대한민국|한국]]에는 제대로 된 Financial Technology|핀테크 서비스가 없다.",
-        "이 땅에 태어나서": "... 받고 편견의 대상이 되는 것은 떳떳하지 못한 정부가 만들어놓은 결과이며, 국민들이 [[대한민국]]이 세계 경제에서 경쟁력을 갖추기 위해 기업의 성장을 원하면서도, 기업이 커지는 것을 ...",
+        "이 땅에 태어나서": "... 받고 편견의 대상이 되는 것은 떳떳하지 못한 정부가 만들어놓은 결과이며, 국민들이 [[대한민국]]이 세계 [[Economy|경제]]에서 경쟁력을 갖추기 위해 기업의 성장을 원하면서도, 기업이 커지는 것을 ...",
         "이공계": "그러나 현재 [[대한민국|한국]]에서는 이공계와 산업에 대한 관심과 지원이 부족한 상황이다.",
         "이무기 기업, 청룡 기업": "Unicorn|유니콘 기업이라는 단어는 마치 성공이 정해진 양 너무 마법적인 기운을 준다. [[대한민국|한국]] 민담처럼 잉어 🐟 → 이무기 🐍 → 청룡 🐉 기업이면 어떨까.",
         "일본 과학기술 총력전": "그리고 [[대한민국|한국]] 전쟁이 발발하자 [[일본]]은 미군의 병참 기지 역할을 수행한다.",
         "장승": "장승은 현재 [[대한민국|한국]]의 전통문화로 인식되고 있으며, 장승제, 장승마을, 돌하르방, 벅수 등의 형태로 전승되고 있다.",
         "컴퓨터는 향정신성 약물인가": "... 향정신성 의약품이라고 정의한다면 접근 방식을 조금 달리 할 수 있지 않을까. [[대한민국]]에서 향정신성 의약품은 다음과 같이 정의된다.",
         "코드클럽": "1. CodeClub [[대한민국|Korea]]의 2019 상반기 코드클럽 SW교육기부단 활동 참여",
-        "태백산맥 계획": "[[대한민국]]의 정치, 사회, 경제, 문화, 세대, 성별의 갈등을 축소하기 위한 가설적인 계획이다.",
+        "태백산맥 계획": "[[대한민국]]의 정치, 사회, [[Economy|경제]], 문화, 세대, 성별의 갈등을 축소하기 위한 가설적인 계획이다.",
         "퍼블리시티권": "- [[대한민국|한국]]에서는 지난 1982년 서울 민사지방법원에서 본인의 동의 없이 사진을 낸 책을 판매금지한다는 ...",
         "하늘땅사람 개발 기록": "보아하니 [[대한민국|한국]] 대학 컴공과에서는 State Machine 수업을 할 때 천지인을 하나의 예제로 사용하나보다.",
         "한국어": "한민족과 [[대한민국]]의 언어이다.",
@@ -3410,14 +3417,18 @@ export const backlinks = {
         "2022-10-10": "  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
         "2022-12-04": "- The Verge is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, ...",
+        "2022-12-28": "- Frontend web framework: NextJS/[[Vercel]] (Past: Ruby on Rails/Heroku)",
+        "2023-01-27": "I had to migrate Extracranial to Cloudflare Pages for [[Vercel]] for now...",
+        "Aldehyde Outage (January 2023)": "## [[Vercel]] and [[Cloudflare]] Build Errors",
         "Edge": "- [[Vercel]] & Vercel Edge Functions",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... recently — Brand Indicators for Message Identification BIMI) Just like what [[Vercel]] did to Heroku.",
         "Letter to the Heptabase Team on 2022-10-11": "... Angeles|LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
         "Paracosm": "... & Extracranial Tools for Thought that aims to replace Docusaurus with [[Vercel]]'s tech stacks.",
         "Redirect": "## Redirect in [[Vercel]]",
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting ...",
         "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.",
-        "dub.sh": "  - [[Vercel]] hosting"
+        "dub.sh": "- Built with [[Vercel]] [[Edge]] Functions + Upstash Redis"
     },
     "Clustering": {
         "2023-01-25": "- [[Clustering]]",
@@ -3474,7 +3485,7 @@ export const backlinks = {
     "BIMI": {
         "2022-10-14": "- [[BIMI]]",
         "2023-01-09": "- Should I consider [[BIMI]] for my email?",
-        "Letter to Mr. Matt Rickard on 2022-12-21": "... i.e., SMIME or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just like what Vercel did to Heroku."
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... i.e., SMIME or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just like what [[Vercel]] did to Heroku."
     },
     "Repeated Designs": {
         "2022-11-30": "- [[Repeated Designs]]"
@@ -3739,6 +3750,38 @@ export const backlinks = {
     "Game Programming": {
         "Back Buffer": "Used in [[Game Programming]], you write data on the back buffer."
     },
+    "Economy": {
+        "2022-07-08": "- It's normal for an early-stage communist [[economy]] to boom. They can reach a certain ceiling fast, but they ...",
+        "2022-07-28": "- After the 2008 recession, Internet culture and [[economy]] were formed around Facebook and [[Twitter]]",
+        "2023-02-08": "... elite (and the media in tow) attempts to reframe a \"rough [[economy]]\" as a time that puts workers in their place. Boss erotica ...",
+        "2023-02-24": "- [[Economy]]",
+        "AI는 고가 노동부터 점령한다": "노동 가치가 고가인 경우 [[Economy|경제]]학적으로 수요가 매우 많은데 공급을 키울 수 없는 경우가 해당한다. 의료와 법률 ...",
+        "API Economy": "> The API [[economy]] is a business model built around the use of APIs in ...",
+        "Accelerationism": "... 사회적 변혁을 일으키기 위해 기존의 사회를 약체화하는 강력한 기술적 변화 혹은 [[Economy|경제]]적 발전을 이루어야 한다는 마르크스주의 혹은 그 마르크스주의의 개선적 사상이다.",
+        "Atomic Habits": "... 하루 1%씩 성장하면 1년이면 37.78배에 도달한다고 한다. 놀라운 숫자이지만, 나는 그보다 [[Economy|경제]] 성장 모델을 적용해야 한다고 본다. 예를 들어 1년에 7% 성장하면 엄청난 ...",
+        "Born of this Land - The Founding Story of Hyundai": "... want them to grow so 대한민국|Korea can compete in the global [[economy]].",
+        "Effective Accelerationism": "> 하지만 기차가 속도를 줄이지 않고 있어요. 당신은 이것을 피하기 위해 [[Economy|경제]]를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 온라인으로 해결해야 ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... only in terms of iOS vs. Android but also as App [[Economy]] vs. Web Economy, Closed vs. (fairly) Open, [[Edge]]-first AI vs. Cloud-first ...",
+        "Person 1E6ABA": "... Govs and 대한민국|Korean Banks promote any terrible news for the 대한민국|Korean [[economy]]?",
+        "Why Korean Banks Suck": "... often wary of external parties playing a significant role in their [[economy]].",
+        "경제 개발의 길목에서": "## [[Economy|경제]] 개발의 길목에서",
+        "국내 은행 서비스가 나쁜 이유": "- 외부 영향에 대한 저항력. 대한민국|한국인은 국가적 자부심이 강하고 외국에서 [[Economy|경제]]에 중요한 역할을 하는 것을 경계하는 경우가 많다.",
+        "미래는 결국 미성숙한 우리가 만들어낸다": "- 행동[[Economy|경제]]학에서 계획 오류는 사람들이 과제를 완수하거나 목표를 달성하는 데 필요한 시간, 노력, ...",
+        "민사고": "... 호소하는 것은 더 이상 효과가 없다. 한민족|민족에 기여하는 것이 엘리트들에게 가장 [[Economy|경제]]적이고 합리적인 선택지가 될 수 있도록 '한민족|민족적 설득력'을 갖추어야 한다. 이것이 민사고에서 ...",
+        "민사고와 쇼비니즘": "... 했다. 그러나 이 작은 세계의 시대에 초강대국들은 과거처럼 군사력이 아니라 문화나 [[Economy|경제]]로 어떤 나라든 침략하고 통치할 수 있다. 그렇다면 강력한 [[한민족|민족]] 정체성을 가지지 ...",
+        "벌금과 물가": "- 물가와 [[Economy|경제]] 성장이 일어남에 따라 Penalty (벌금, 과태료, etc)도 일정하게 인상되어야 하지 않을까?",
+        "심리역사학": "심리역사학의 핵심 개념들이 [[Economy|경제]]학과 사회학에 영향을 준 사실도 흥미롭다. 예를 들어, [2008년 노벨 Economy|경제학상을 수상한 ...",
+        "엔진 방정식": "- [[Economy|경제]]는 노동, 자본, 천연자원, 시간 등의 자산을 산출물과 서비스로 생산하는 엔진이다.",
+        "원숭이와 꽃신": "- Microsoft|마이크로소프트도 이런 '원숭이 꽃신 [[Economy|경제]]학'에 충실한 기업이다. Microsoft|마이크로소프트는 대학을 상대로 마케팅 사업을 많이 벌이고 있는데 그 ...",
+        "월급만큼 중요한 것은 자존급이다": "그에 반해 자존급은, 단순한 [[Economy|경제]]적 자유를 넘어 물질주의의 공허함을 느끼는 사람들에게서 시작된 것이다.",
+        "의료 인공지능과 의대 쏠림": "어떤 인위적인 제약이 아닌 자연적, [[Economy|경제]]적 원리로 그렇게 되게끔 만들어야 한다.",
+        "이 땅에 태어나서": "... 대상이 되는 것은 떳떳하지 못한 정부가 만들어놓은 결과이며, 국민들이 대한민국이 세계 [[Economy|경제]]에서 경쟁력을 갖추기 위해 기업의 성장을 원하면서도, 기업이 커지는 것을 싫어하는 자가당착에 ...",
+        "이공계": "이공계와 산업은 국가의 [[Economy|경제]]발전과 혁신을 주도하는 중요한 역할을 한다.",
+        "일본 과학기술 총력전": "... 150년에 걸쳐 정치, 관료, 군사, 산업, 학문, 언론의 뿌리 깊은 유착으로 [[Economy|경제]] 성장, 국력 증진을 우선시하는 대국주의, 열강주의 내셔널리즘에 입각하여 성장했다.",
+        "태백산맥 계획": "대한민국의 정치, 사회, [[Economy|경제]], 문화, 세대, 성별의 갈등을 축소하기 위한 가설적인 계획이다.",
+        "퍼블리시티권": "... 스스로의 노력에 의하여 획득한 명성, 사회적인 평가, 지명도 등으로부터 생기는 독립한 [[Economy|경제]]적 이익 또는 가치는 그 자체로 보호할 가치가 충분한 점 등에 비추어 ...",
+        "프로젝트 어덕행덕": "- 적은 돈으로 (제작) 큰 [[Economy|경제]]적 효과 (팬들에게 홍보 효과) 를 낼 수 있음"
+    },
     "Space in LaTeX": {
         "2022-10-18": "- [[Space in LaTeX]]"
     },
@@ -3768,6 +3811,10 @@ export const backlinks = {
     "강력하게 미약한 도구들": {
         "2023-02-08": "- [[강력하게 미약한 도구들]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0208 | 🇬🇧 Powerfully Powerless Tools <br/> 🇰🇷 [[강력하게 미약한 도구들]]            ..."
+    },
+    "르네상스": {
+        "2023-02-24": "- [[르네상스]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0224 | 🇬🇧 Renaissance <br/> 🇰🇷 [[르네상스]]            ..."
     },
     "Open Graph Image as a Service": {
         "2022-07-10": "... longer make any improvements in `og-image.cho.sh`, and invest those time in [[Open Graph Image as a Service]].",
@@ -4033,7 +4080,7 @@ export const backlinks = {
         "2022-10-18": "> [[Microsoft]] has started layoffs today. Some in Experiences + Devices, Xbox, legal, ...",
         "2023-01-13": "- [[Microsoft]]",
         "2023-02-08": "- Companies building foundational models have partnered with cloud providers: OpenAI ([[Microsoft]]) and Anthropic ([[Google]]). These companies spend vast amounts on computing to ...",
-        "AMP": "... faster. AMP pages may be cached by a CDN, such as [[Microsoft]] [[Bing]] or Cloudflare's AMP caches, which allows pages to be served ...",
+        "AMP": "... faster. AMP pages may be cached by a CDN, such as [[Microsoft]] [[Bing]] or [[Cloudflare]]'s AMP caches, which allows pages to be served ...",
         "Bing": "Bing is a web search engine developed by [[Microsoft]] that helps you find trusted search results fast, collect Microsoft Rewards ...",
         "C++": "... many vendors provide C++ compilers, including the Free Software Foundation, LLVM, [[Microsoft]], Intel, Embarcadero, Oracle, and IBM, so it is available on many ...",
         "Collecting Data": "... private data you might want to keep is being sent to [[Microsoft]].",
@@ -4048,7 +4095,7 @@ export const backlinks = {
         "TypeScript": "... is a free and open-source programming language developed and maintained by [[Microsoft]]. It is a strict syntactical superset of JavaScript and adds optional ...",
         "Visual Studio Code": "... Studio Code, also commonly referred to as VS Code, made by [[Microsoft]] with the Electron Framework, for Windows, [[Linux]] and macOS. Features include ...",
         "Workbench": "- For [[Microsoft]] Products, use App Store.",
-        "원숭이와 꽃신": "- [[Microsoft|마이크로소프트]]도 이런 '원숭이 꽃신 경제학'에 충실한 기업이다. Microsoft|마이크로소프트는 대학을 상대로 마케팅 사업을 ..."
+        "원숭이와 꽃신": "- [[Microsoft|마이크로소프트]]도 이런 '원숭이 꽃신 [[Economy|경제]]학'에 충실한 기업이다. Microsoft|마이크로소프트는 대학을 상대로 마케팅 사업을 ..."
     },
     "인하우스와 자유경쟁": {
         "2023-02-22": "- [[인하우스와 자유경쟁]]",
@@ -4107,6 +4154,10 @@ export const backlinks = {
     },
     "WeCrashed": {
         "2022-07-18": "- Finished [[WeCrashed]]"
+    },
+    "Renaissance": {
+        "2023-02-24": "- [[Renaissance]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0224 | 🇬🇧 [[Renaissance]] <br/> 🇰🇷 [[르네상스]]         ..."
     },
     "Feed One": {
         "2023-02-15": "- [[Feed One]]"
@@ -4389,7 +4440,7 @@ export const backlinks = {
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> [[United States of America|미국]], [[일본]]의 기술 수준을 따라갈 수 있을까,",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "모두 입력했으면 Download balenaOS를 누른 뒤 다운로드를 시작한다. (팁: [[United States of America|미국]] VPN 서버를 사용하면 다운로드 속도가 빨라진다.) 다운을 받는 동안 balenaEtcher를 설치하면 ...",
         "벌금과 물가": "## [[United States of America|미국]]",
-        "일본 과학기술 총력전": "패전 당시 [[United States of America|미국]]의 점령 정책이 완전한 비군사화에서 경제 안정으로 전환되며 대부분의 군사 생산 능력이 ...",
+        "일본 과학기술 총력전": "패전 당시 [[United States of America|미국]]의 점령 정책이 완전한 비군사화에서 [[Economy|경제]] 안정으로 전환되며 대부분의 군사 생산 능력이 ...",
         "젠리의 성공 공식": "... App과 함께 젠리 팀 또한 해산되었다. 나는 스냅의 큰 실수라고 생각한다. [[United States of America|미국]] 대학생 사이에서도 더 이상 스냅을 쓰지 않는다. 젠리는 쓴다. 페이스북이 감원하며 ...",
         "한국의 입시와 거짓된 명예": "오히려 [[United States of America|미국]]의 청소년들이 돈을 가지고 불장난을 하며 투자와 금융의 기본기를 익히고",
         "한민족": "중국, [[United States of America|미국]], [[일본]] 등에 많이 살고 있다.",
@@ -4544,7 +4595,8 @@ export const backlinks = {
     "Cloudflare": {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open ...",
         "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded that [[Vercel]] is better.",
-        "Aldehyde Outage (January 2023)": "Investigating RAM Options. Supported a ticket to [[Cloudflare]]",
+        "AMP": "... may be cached by a CDN, such as Microsoft Bing or [[Cloudflare]]'s AMP caches, which allows pages to be served more quickly. Accelerated ...",
+        "Aldehyde Outage (January 2023)": "## Vercel and [[Cloudflare]] Build Errors",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
         "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-end]] [[Front-end]]",
         "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions",
@@ -4611,7 +4663,7 @@ export const backlinks = {
         "PKM": "| [[PARA]]       | Architecture for Second Brain. ..."
     },
     "Bing": {
-        "AMP": "... AMP pages may be cached by a CDN, such as Microsoft [[Bing]] or Cloudflare's AMP caches, which allows pages to be served more ...",
+        "AMP": "... AMP pages may be cached by a CDN, such as Microsoft [[Bing]] or [[Cloudflare]]'s AMP caches, which allows pages to be served more ...",
         "Bing Chat for All Browsers": "- [[Bing]] Chat for all [[Web Browser|browser]]",
         "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 [[Bing]] [[ChatGPT]]에 검색을 해보았다.",
         "Super App": "... sources say CEO Satya Nadella is laying the groundwork by pushing [[Bing]] to work better with Microsoft's other mobile products"
@@ -4844,7 +4896,8 @@ export const backlinks = {
         "2023-02-19": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-20": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-21": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-22": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-22": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-24": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -5017,7 +5070,8 @@ export const backlinks = {
     "GitHub Actions": {
         "Finding out Ghost version with JS": "... theme package and re-upload those. While I automated theme deployment with [[GitHub Actions]] (you can find the post here), it was a hassle to ...",
         "Ghost 테마를 자동 배포하는 방법": "... 것은? 테마 개발을 통한 블로그 방문 경험 개선이다. 다행히도 Ghost 2.25.5부터 [[GitHub Actions]]를 이용해 다음과 같이 Ghost 테마 개발을 [[Automation|자동화]]할 수 있게 되었다.",
-        "Reverse Engineering Apple Music API": "## Making it into a [[GitHub Actions]]"
+        "Reverse Engineering Apple Music API": "## Making it into a [[GitHub Actions]]",
+        "YAML": "... in GitHub Actions. I would be interested to know whether the [[GitHub Actions]] parser looks at `\"on\"` or `true` under the hood"
     },
     "The Demise of Chatbots in 2017": {
         "2022-11-28": "- Matt Rickard: [[The Demise of Chatbots in 2017]], [[Generative Databases]]",
