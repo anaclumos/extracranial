@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
-  "interfaceFontFamily": "SF Mono",
-  "textFontFamily": "SF Mono,LINE Seed Sans KR",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
   "monospaceFontFamily": "D2Coding ligature",
   "cssTheme": "",
   "translucency": false,

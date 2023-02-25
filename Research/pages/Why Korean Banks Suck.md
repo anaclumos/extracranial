@@ -28,7 +28,7 @@ However, some [[대한민국|Korean]] banks figured they could use their securit
 The [[대한민국|Korean]] market is known to have limited competition in some industries, including the banking sector. Several factors contribute to this, including:
 
 - **Linguistic and regional barriers**. The [[한국어|Korean language]] is unique, and many [[대한민국|Korean]] consumers prefer to do business with companies fluent in [[대한민국|Korean]] and understand [[대한민국|Korean]] culture.
-- **Resistance to external influence**. Koreans have great national pride and are often wary of external parties playing a significant role in their economy.
+- **Resistance to external influence**. Koreans have great national pride and are often wary of external parties playing a significant role in their [[economy]].
 - **Lobbying and Corruptions**. Allegations of corruption have been made against [[대한민국|Korea]] Financial Telecommunications and Clearings (KFTC). This company is one of five authorized certification system companies and makes millions of dollars. The KFTC should be a public interest organization created by the state. Still, high-ranking officials from the Financial Services Commission are accused of colluding with the company after retirement, leading to questions about why they are attracted to such positions.
 - **Perception of overseas banks**. Finally, there is often a perception in [[대한민국|Korea]] that using overseas banks or doing business with foreign companies is _unpatriotic_ or _unethical_.
 

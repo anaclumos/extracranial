@@ -26,15 +26,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Mastodon.md",
+                "file": "journals/2023-02-24.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0a222687e2a08fa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-24.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3cba55847f1f23f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Renaissance.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "02792e29e3d64b16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/르네상스.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -84,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 237.5
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -101,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Mastodon.md",
+                "file": "pages/Renaissance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Mastodon.md"
+                "file": "pages/Renaissance.md"
               }
             }
           },
@@ -142,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +195,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "54ff1d65eb0234a8",
+  "active": "3cba55847f1f23f3",
   "lastOpenFiles": [
+    "pages/르네상스.md",
+    "pages/Renaissance.md",
+    "pages/Antifragile.md",
+    "pages/민사고.md",
+    "journals/2023-02-24.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/Spiritual Development.md",
+    "pages/Economy.md",
+    "pages/심리역사학.md",
+    "pages/Mental Simulation of Firefox and Signal as a Super App.md",
+    "pages/일본 과학기술 총력전.md",
+    "pages/API Economy.md",
     "journals/2022-12-07.md",
     "pages/Mastodon.md",
     "journals/2022-09-27.md",
@@ -172,18 +222,6 @@
     "journals/2022-06-06.md",
     "pages/Page Faults.md",
     "pages/태백산맥 계획.md",
-    "journals/2022-06-26.md",
-    "pages/WeCrashed.md",
-    "pages/Edge.md",
-    "pages/Vercel.md",
-    "journals/2022-07-10.md",
-    "pages/Cloudflare.md",
-    "journals/2023-02-24.md",
-    "journals/2022-06-10.md",
-    "pages/Nation as a Service.md",
-    "pages/Infinite Canvas.md",
-    "pages/Adding a Verified Mark on Apple Mail & Gmail.md",
-    "journals/2022-10-10.md",
-    "pages/Figma.md"
+    "journals/2022-06-26.md"
   ]
 }
