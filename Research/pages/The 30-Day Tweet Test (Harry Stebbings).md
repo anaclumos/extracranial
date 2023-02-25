@@ -30,7 +30,7 @@ slug: '/18728A'
 | [0221](../journals/2023-02-21.md) | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | [Tweet](https://twitter.com/anaclumos/status/1628153470099529728) |
 | [0222](../journals/2023-02-22.md) | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]                                           | [Tweet](https://twitter.com/anaclumos/status/1628479680595775488) |
 | [0223](../journals/2023-02-23.md) | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]]                     | [Tweet](https://twitter.com/anaclumos/status/1628918514391334912) |
-| [0224](../journals/2023-02-24.md) | 🇬🇧 [[Renaissance]] <br/> 🇰🇷 [[르네상스]]                                                                   |                                                                   |
+| [0224](../journals/2023-02-24.md) | 🇬🇧 [[Renaissance]] <br/> 🇰🇷 [[르네상스]]                                                                   | [Tweet](https://twitter.com/anaclumos/status/1629314279295049729) |
 
 ## Announcement
 
