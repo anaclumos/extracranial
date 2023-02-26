@@ -4,50 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "acc75a1a7aea883b",
+        "id": "940786869234abbb",
         "type": "tabs",
         "children": [
           {
-            "id": "cde0ba6752f4a17b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "54ff1d65eb0234a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0a222687e2a08fa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-24.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3cba55847f1f23f3",
+            "id": "248adf7d391fc705",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,22 +19,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "02792e29e3d64b16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/르네상스.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,14 +142,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3cba55847f1f23f3",
+  "active": "248adf7d391fc705",
   "lastOpenFiles": [
-    "journals/2023-02-24.md",
+    "pages/Spirits do not Inherit.md",
+    "journals/2023-02-25.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/개성은 쟁취하는 것.md",
     "pages/르네상스.md",
+    "journals/2023-02-24.md",
+    "pages/Disable Firefox Safe Mode Trigger.md",
+    "pages/ContentLayer.md",
+    "pages/JSON.md",
+    "pages/Markdown.md",
     "pages/Renaissance.md",
     "pages/Antifragile.md",
     "pages/민사고.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/Spiritual Development.md",
     "pages/Economy.md",
     "pages/심리역사학.md",
@@ -215,13 +169,6 @@
     "pages/Fiercely Overpriced.md",
     "pages/Powerfully Powerless Tools.md",
     "pages/Ethereum RPC as a Service.md",
-    "pages/AI and ML.md",
-    "pages/Setting different fonts by language in CSS.md",
-    "pages/GitHub Actions.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-12-21.md",
-    "journals/2022-06-06.md",
-    "pages/Page Faults.md",
-    "pages/태백산맥 계획.md",
-    "journals/2022-06-26.md"
+    "pages/AI and ML.md"
   ]
 }
