@@ -8,7 +8,7 @@ Real estate differentiates wealthy people from rich people. During the economic 
 Intellectual property (IP) is a new form of real estate because it represents a property right that can generate economic benefits over an extended period. Like real estate, intellectual property can be bought, sold, licensed, and leased to generate income and returns for its owners. Here are some similarities between the two:
 
 - **Scarcity** — Just as only a limited amount of land is available in a particular location, a limited amount of intellectual property is available in a given field or industry.
-- **Licenability** — Real estate and intellectual property can be rented, leased, or licensed to generate income.
+- **Licensability** — Real estate and intellectual property can be rented, leased, or licensed to generate income.
 - **Appreciation over time** — Real estate and intellectual property can appreciate over time. For example, a well-located piece of land or a valuable patent can increase as demand for the resource increases.
 - **Steady Stream of Income** — Real estate and intellectual property can generate a steady income stream over an extended period. For example, a landlord can collect rent from a tenant each month, while an intellectual property owner can collect royalties from licensees or users of their IP.
 - **Requires Maintenance** — Real estate and intellectual property require care and maintenance to preserve value. A landlord must maintain their property to keep it in good condition, while an intellectual property owner must keep their IP up to date and enforce their rights to prevent infringement.
@@ -20,7 +20,7 @@ This edge is why Naver and Kakao, two Korean Google, are so paranoid about purch
 - Webtoons can be produced by a single person, lowering the opportunity cost compared to a full-on production studio.
 - Competing in the OTT market is too expensive (both in customer money and time.)
 - Webtoons generally profit from advertising & collab & IP revenue, not customer payment.
-- modern people have a lower attention span to read texts or watching extended TV shows.
+- Modern people have a lower attention span to read texts or watch extended TV shows.
 - Webtoon creates habit.
 
 For example, for free, I can watch 20 episodes of different Webtoons in 10 minutes on Naver Webtoon and Kakao Webtoon. Remember when Quibi failed? ... but that's a story for another day.

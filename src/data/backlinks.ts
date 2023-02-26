@@ -927,7 +927,8 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0210 | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]]       ..."
     },
     "IP is the new Real Estate": {
-        "2023-02-26": "- [[IP is the new Real Estate]]"
+        "2023-02-26": "- [[IP is the new Real Estate]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0226 | 🇬🇧 [[IP is the new Real Estate]] <br/> 🇰🇷 [[새로운 부동산은 지적 재산이다]]      ..."
     },
     "Project Core ML Foundation": {
         "2023-01-26": "- [[Project Core ML Foundation]]",
@@ -1332,7 +1333,8 @@ export const backlinks = {
         "2022-09-14": "- [[Project PEOPLE]]"
     },
     "새로운 부동산은 지적 재산이다": {
-        "2023-02-26": "- [[새로운 부동산은 지적 재산이다]]"
+        "2023-02-26": "- [[새로운 부동산은 지적 재산이다]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "... 0226 | 🇬🇧 IP is the new Real Estate <br/> 🇰🇷 [[새로운 부동산은 지적 재산이다]]            ..."
     },
     "태백산맥 계획": {
         "2022-12-11": "- [[태백산맥 계획]]",
@@ -2671,7 +2673,8 @@ export const backlinks = {
         "Virtual Memory": "- [[Cache and Virtual Memory]]"
     },
     "Spirits do not Inherit": {
-        "2023-02-25": "- [[Spirits do not Inherit]]"
+        "2023-02-25": "- [[Spirits do not Inherit]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 [[Spirits do not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]]       ..."
     },
     "GeoCheatCode": {
         "2022-10-17": "- [[GeoCheatCode]]"
@@ -5562,7 +5565,7 @@ export const backlinks = {
         "2021-06-23": "- [[개성은 쟁취하는 것]]",
         "2022-12-06": "- [[개성은 쟁취하는 것]]",
         "2023-02-25": "- [[개성은 쟁취하는 것]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 Spirits do  not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 Spirits do not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]            ..."
     },
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
@@ -7046,9 +7049,6 @@ export const backlinks = {
     },
     "87640C.png": {
         "Comparing BLIP and CLIP": "![[87640C.png]]"
-    },
-    "Spirits do  not Inherit": {
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 [[Spirits do  not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]]       ..."
     },
     "F7ADEB.png": {
         "Transactional Globe": "![[F7ADEB.png]]"
