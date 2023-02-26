@@ -35,7 +35,7 @@ slug: '/30CC03'
 - [What is a Secure Enclave? (Apple)](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)
 - [Storing Keys in the Secure Enclave (Apple)](https://developer.apple.com/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_secure_enclave)
 - Deploy the app without a secret key.
-- Access your server, download the information via HTTPS, and save it to the iOS secure enclave whenever you need the key.
+- Access your server, download the information via HTTPS, and save it to the [[iOS]] secure enclave whenever you need the key.
 - But do you really want this layer of complexity?
 
 ## Another possible (and probably the correct) way

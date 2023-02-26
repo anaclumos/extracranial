@@ -23,7 +23,7 @@ slug: '/8B4F7C'
   - Universally available, easily copyable
     - Images aren't the most efficient encoding method for text.
     - But they can be the simplest for humans
-    - You can copy objects from photos in the latest [[Apple]] iOS 16 update.
+    - You can copy objects from photos in the latest [[Apple]] [[iOS]] 16 update.
 - Permissionless.
   - Many applications won't allow you to export data.
   - Screenshots are always available.

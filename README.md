@@ -18,10 +18,10 @@ Extracranial means **situated outside the cranium** in medical contexts. This is
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1278     35515     9091         0    26424          0
-CSS                         70     20239      266        28    19945          0
-TypeScript                  57     10944      160        70    10714        209
-JSON                        42      2183        0         0     2183          0
+Markdown                  1288     35691     9142         0    26549          0
+CSS                         71     20249      267        28    19954          0
+TypeScript                  58     11167      166        70    10931        214
+JSON                        42      2200        0         0     2200          0
 Python                       7       770       54        41      675        107
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -31,13 +31,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1478     96669    10052      5090    81527       1153
+Total                     1490     97095    10110      5090    81895       1158
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,744,491
-Estimated Schedule Effort (organic) 20.19 months
-Estimated People Required (organic) 12.08
+Estimated Cost to Develop (organic) $2,757,500
+Estimated Schedule Effort (organic) 20.22 months
+Estimated People Required (organic) 12.11
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6632071 bytes, 6.632 megabytes (SI)
+Processed 6661094 bytes, 6.661 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

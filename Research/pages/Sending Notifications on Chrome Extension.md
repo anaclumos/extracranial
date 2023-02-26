@@ -5,7 +5,7 @@ slug: '/D1B35D'
 
 The goal is to...
 
-1. Send notifications on Installation and Updates of a given Chrome Extension (with different content, of course)
+1. Send notifications on Installation and Updates of a given [[Chrome]] [[WebExtension|Extension]] (with different content, of course)
 2. Open specific links when notifications are clicked.
 
 ## Sending Notifications
@@ -36,7 +36,7 @@ chrome.runtime.onInstalled.addListener(function (object) {
 Also available on [GitHub](https://github.com/anaclumos/youtube-comment-language-filter/blob/master/extension/scripts/background.js)
 
 - Note that `iconUrl` should be the path from `manifest.json` to the image file, **not from the background script**.
-- You can use `chrome.runtime.getManifest().version` it to get the version of the extension.
+- You can use `chrome.runtime.getManifest().version` it to get the version of the [[WebExtension|extension]].
 - If you want to send notifications from anywhere else than the background script, you must have a communication module between the notification sender and the background script to pass the notification details. Create a notification at `background.js` with that given detail. Sending notifications directly from `content.js` seems restricted. Check this [post](https://medium.com/@moshfeu/notifications-in-chrome-extension-50aac17b3b7d) for more information.
 
 ## Opening Links when notifications are clicked

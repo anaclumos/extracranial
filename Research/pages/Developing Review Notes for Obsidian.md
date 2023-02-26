@@ -20,7 +20,7 @@ slug: '/DAF673'
 
 - [anaclumos/daily-notes-review-for-obsidian: Roam-like Review page for Daily Notes on Obsidian](https://github.com/anaclumos/daily-notes-review-for-obsidian)
 
-스토어에 올라온 몇몇 플러그인을 보니 다음과 같은 간단한 구조였다. Chrome Extension과 유사하게 번들된 `main.js`와 `manifest.json`으로 이루어져 있다.
+스토어에 올라온 몇몇 플러그인을 보니 다음과 같은 간단한 구조였다. [[Chrome]] [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 이루어져 있다.
 
 ```bash
 /plugin
@@ -240,7 +240,7 @@ dailyNotes.sort((a, b) => {
 
 일주일 만에 다시 진행해본다.
 우선 옵시디안으로 개발하는 것은 HMR — Hot Module Reload가 안 되는 듯 하다.
-매번 익스텐션을 삭제하고 다시 설치해야 한다.
+매번 [[WebExtension|익스텐션]]을 삭제하고 다시 설치해야 한다.
 수정: `yarn package` 이후 옵시디언 개발자 메뉴에서 새로고침하면 된다.
 
 ### [[React]] 전환

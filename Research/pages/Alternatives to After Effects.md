@@ -11,3 +11,11 @@ What is the alternative to After Effects?
 - Adobe After Effects → ???
 
 [[The New Era of macOS Applications]]?
+
+## [[Letter to Mr. Gustav Ekerot on 2023-02-24]]
+
+- [https://jitter.video/](https://jitter.video/)
+- [https://artboard.studio/](https://artboard.studio/)
+- [https://www.veed.io/](https://www.veed.io/)
+
+Jitter looks like something I was looking for.
