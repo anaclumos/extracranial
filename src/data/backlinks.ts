@@ -48,7 +48,7 @@ export const backlinks = {
         "Dynamic Island on the Web": "## [[2022-10-16]]"
     },
     "2021-06-23": {
-        "개성은 자연스레 주어지지 않는다": "— [[2021-06-23]]에 작성된 기록 중 발췌."
+        "개성은 쟁취하는 것": "— [[2021-06-23]]에 작성된 기록 중 발췌."
     },
     "2022-11-09": {
         "Dynamic Island on the Web": "## [[2022-11-09]]"
@@ -539,7 +539,7 @@ export const backlinks = {
     "In The End Trust Yourself": {
         "2022-11-23": "- [[In The End Trust Yourself]]",
         "Antipilot": "  - [[In The End Trust Yourself]]",
-        "개성은 자연스레 주어지지 않는다": "- [[In The End Trust Yourself|결국에는 본인을 믿자]]"
+        "개성은 쟁취하는 것": "- [[In The End Trust Yourself|결국에는 본인을 믿자]]"
     },
     "HTTP": {
         "2023-02-16": "  - Development server. Spin up [[HTTP]] servers on-demand inside the WebContainer and receive a preview URL that ...",
@@ -686,6 +686,7 @@ export const backlinks = {
     },
     "Markdown": {
         "2022-07-09": "- I worked on a plugin for converting wikilinks to [[Markdown]] links. For example, this is a wikilink to [[Hacker News]].",
+        "ContentLayer": "... layer SDK tool helps you process your content data (such as [[Markdown]] files or CMS) into type-safe [[JSON]] data that you can easily ...",
         "Inliner": "... Inliner aims to separate the editing and reading experience by utilizing [[Markdown]]'s strict line change mode.",
         "Letter to the Heptabase Team on 2022-10-11": "- [[Markdown]]-Wikilink import/export",
         "Logseq": "... privacy-first, open-source knowledge base that works on top of local plain-text [[Markdown]] and Org-mode files. Use it to write, organize and share your ...",
@@ -2034,6 +2035,7 @@ export const backlinks = {
         "2022-07-20": "... The client must know what each field indicates to parse a [[JSON]] response. Therefore, the message is not self-describing",
         "2022-10-17": "... links. After that, the corresponding component will read the indexed backlink [[JSON]] to display it on the client side.",
         "2022-11-29": "- [[JSON]]",
+        "ContentLayer": "... your content data (such as Markdown files or CMS) into type-safe [[JSON]] data that you can easily import into your application's pages. It ...",
         "Dynamic Island on the Web": "... need to do now is to pack them with an API-style [[JSON]] payload.",
         "Mapping keys to set different input languages on macOS": "- Create a [[JSON]] file like the following here (open any text editor and save ...",
         "MessagePack": "... serialization format. It lets you exchange data among multiple languages like [[JSON]]. But it's faster and smaller. Small integers are encoded into a ...",
@@ -2603,6 +2605,10 @@ export const backlinks = {
         "Computer Systems": "- [[Cache and Virtual Memory]]",
         "Virtual Memory": "- [[Cache and Virtual Memory]]"
     },
+    "Spirits do not Inherit": {
+        "2023-02-25": "- [[Spirits do not Inherit]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 [[Spirits do not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]]       ..."
+    },
     "GeoCheatCode": {
         "2022-10-17": "- [[GeoCheatCode]]"
     },
@@ -2624,10 +2630,6 @@ export const backlinks = {
     "0704 Binary Search": {
         "2022-09-05": "- [[0704 Binary Search]]",
         "Coding Tests": "- [x] [[0704 Binary Search]]"
-    },
-    "개성은 자연스레 주어지지 않는다": {
-        "2021-06-23": "- [[개성은 자연스레 주어지지 않는다]]",
-        "2022-12-06": "- [[개성은 자연스레 주어지지 않는다]]"
     },
     "Jumpsite": {
         "2022-10-13": "- [x] [[Jumpsite]]",
@@ -3275,7 +3277,7 @@ export const backlinks = {
         "Toss": "- Financial Technology|FinTech Unicorn of [[대한민국|Korea]].",
         "Using an iPad as my Ebook": "... would love to see multiple e-book vendors. I also read many [[대한민국|Korean]] books, and the Kindle store lacks 대한민국|Korean titles. Knowing that Amazon ...",
         "Why Korean Banks Suck": "... is a familiar story in the U.S., But I am confident [[대한민국|Korea]] will take it to the next level. You need to install ...",
-        "개성은 자연스레 주어지지 않는다": "[[대한민국]]에는 독립적인 자아가 부족하다 — 14성현이 중학교 암기 과목을 공부하며 한 생각입니다.",
+        "개성은 쟁취하는 것": "[[대한민국]]에는 독립적인 자아가 부족하다 — 14성현이 중학교 암기 과목을 공부하며 한 생각입니다.",
         "경제 개발의 길목에서": "[[대한민국|한국]]에서는 자고로 선거 때만 되면 통화량이 급팽창했다. 정부의 선심 행정으로 예산이 팽창하고 ...",
         "공강에서 보내는 공강 활용법": "필수 모듈이 아닌 선택 모듈에는 [[대한민국|한국]]화, 실무영어, 시사영어, 물리실험 등의 \"필수가 아닌\" 수업들이 들어가기 때문에, 이 수업을 ...",
         "국가와 민족": "- [[대한민국]]은 [[한민족|민족]]과 국가를 종종 혼동한다.",
@@ -4015,6 +4017,9 @@ export const backlinks = {
     "0543 Diameter of Binary Tree": {
         "Coding Tests": "- [x] [[0543 Diameter of Binary Tree]]"
     },
+    "ContentLayer": {
+        "2023-02-24": "- [[ContentLayer]]"
+    },
     "Alan Chan": {
         "Conversation with Alan Chan on 2022-12-27": "Had a conversation with [[Alan Chan]] on [[2022-12-27]]."
     },
@@ -4133,6 +4138,9 @@ export const backlinks = {
     },
     "이루다": {
         "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected & spitted out the same information"
+    },
+    "Disable Firefox Safe Mode Trigger": {
+        "2023-02-24": "- [[Disable Firefox Safe Mode Trigger]]"
     },
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
@@ -4551,7 +4559,7 @@ export const backlinks = {
     "Ideas are worthless": {
         "2022-10-03": "- [[Ideas are worthless]]",
         "Supergravity Products": "- (아이디어는 흔하고 그걸 실제로 만드는 사람은 귀하다) [[Ideas are worthless]]",
-        "개성은 자연스레 주어지지 않는다": "하지만 이제는 [[Ideas are worthless|정보의 존재보다 실체의 발현]]이 중요한 세상입니다.",
+        "개성은 쟁취하는 것": "하지만 이제는 [[Ideas are worthless|정보의 존재보다 실체의 발현]]이 중요한 세상입니다.",
         "프로젝트 어덕행덕": "어차피 [[Ideas are worthless|아이디어는 가치가 없다]]."
     },
     "Graphic Renderer": {
@@ -4897,7 +4905,8 @@ export const backlinks = {
         "2023-02-20": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-21": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-22": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-24": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-24": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-25": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -4960,7 +4969,7 @@ export const backlinks = {
         "Search AI": "- [[Information amongst Data]]",
         "Search in a Latent Space": "- Finding [[Information amongst Data]].",
         "The Library of Babel": "- [[Information amongst Data]]",
-        "개성은 자연스레 주어지지 않는다": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
+        "개성은 쟁취하는 것": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
     },
     "배달의민족 FE 개발자가 일하는 법 발표": {
         "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 발표]]"
@@ -5420,6 +5429,12 @@ export const backlinks = {
     "0079 Word Search": {
         "Coding Tests": "- [ ] [[0079 Word Search]]"
     },
+    "개성은 쟁취하는 것": {
+        "2021-06-23": "- [[개성은 쟁취하는 것]]",
+        "2022-12-06": "- [[개성은 쟁취하는 것]]",
+        "2023-02-25": "- [[개성은 쟁취하는 것]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 Spirits do not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]            ..."
+    },
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0206 | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]      ..."
@@ -5591,7 +5606,7 @@ export const backlinks = {
     },
     "한국의 입시와 거짓된 명예": {
         "2022-11-25": "- [[한국의 입시와 거짓된 명예]]",
-        "개성은 자연스레 주어지지 않는다": "- [[한국의 입시와 거짓된 명예]]"
+        "개성은 쟁취하는 것": "- [[한국의 입시와 거짓된 명예]]"
     },
     "Super App": {
         "2022-12-09": "- [[Super App]]",
