@@ -26,54 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-26.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "88470f94ac1ac508",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Love Software.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "828ab7c0bf5cacac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-26.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4de93fb4c77a4f21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-02-26.md",
+                "file": "pages/새로운 부동산은 지적 재산이다.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 408.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,10 +156,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4de93fb4c77a4f21",
+  "active": "396ccb3497d90469",
   "lastOpenFiles": [
-    "pages/Love Software.md",
+    "pages/IP is the new Real Estate.md",
     "journals/2023-02-26.md",
+    "pages/새로운 부동산은 지적 재산이다.md",
+    "pages/Love Software.md",
     "pages/Fiercely Overpriced.md",
     "pages/Love Obsidian.md",
     "assets/834593.png",
@@ -222,8 +185,6 @@
     "journals/2023-01-25.md",
     "journals/2023-01-26.md",
     "journals/2023-01-27.md",
-    "journals/2023-01-28.md",
-    "journals/2023-01-29.md",
     "assets/9A6171.png",
     "assets/9EA5FE.gif",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S",
