@@ -5,4 +5,8 @@ slug: '/4C1317'
 
 - [[Meta Theme Color]] for [[Spacial Cognition]]
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tinted Safari theme-color based on user action <a href="https://t.co/OZ20jSvW9X">pic.twitter.com/OZ20jSvW9X</a></p>&mdash; Paco (@pacocoursey) <a href="https://twitter.com/pacocoursey/status/1591151080628682752?ref_src=twsrc%5Etfw">November 11, 2022</a></blockquote>
+![[9EA5FE.gif]]
+
+> Tinted [[Safari]] theme color based on user action [pic.twitter.com/OZ20jSvW9X](https://t.co/OZ20jSvW9X)
+>
+> — Paco (@pacocoursey) [November 11, 2022](https://twitter.com/pacocoursey/status/1591151080628682752?ref_src=twsrc%5Etfw)

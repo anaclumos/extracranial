@@ -1,0 +1,10 @@
+.graphView {
+  font-family: var(--font-family-sans-serif) !important;
+}
+
+.mainContainer {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

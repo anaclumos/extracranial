@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/9E4E7C'
 ---
 
-## Extension Ideas for [[Obsidian]]
+## [[WebExtension|Extension]] Ideas for [[Obsidian]]
 
 - Exclude URLs in Unlinked Mentions
   - See [Obsidian Forum 7092](https://forum.obsidian.md/t/exclude-backlink-mentions-in-link-markup-from-suggested-backlinks/7092).
