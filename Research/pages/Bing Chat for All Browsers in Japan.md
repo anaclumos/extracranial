@@ -7,13 +7,13 @@ slug: '/6AA0FE'
 
 ## [[2023-02-19]]
 
-Unsure what happened, but it seems like a lot of 🇯🇵 people like my extension!
+Unsure what happened, but it seems like a lot of 🇯🇵 people like my [[WebExtension|extension]]!
 
 ![[971BA5.png]]
 
 ## [[2023-02-21]]
 
-> My extension now has 2K+ users, where 50% of the users are from 🇯🇵.
+> My [[WebExtension|extension]] now has 2K+ users, where 50% of the users are from 🇯🇵.
 >
 > After some research, I found that I was featured on the main page of [@Yahoo_JAPAN_PR](https://twitter.com/Yahoo_JAPAN_PR?ref_src=twsrc%5Etfw) (the #1 internet site in Japan)💖
 >

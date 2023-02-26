@@ -8,7 +8,7 @@ slug: '/BB0A88'
 [[Someday]] [[Project]]. Open-sourced [Code Time](https://www.software.com/product/code-time) or [WakaTime](https://wakatime.com/). Time Tracking per language, per repository, per editor, etc
 
 - Self-hostable dashboard server
-- Your data, your own (no paywall if self-hosted)
+- Your data, your own (no [[Fiercely Overpriced|paywall]] if self-hosted)
 - terminal program gets all the data (the .sh name)
 - [[JSON]] API
 - [[GitHub]] Profile Widget
@@ -19,7 +19,7 @@ slug: '/BB0A88'
 
 - [swdotcom/visualstudio-codetime: Code Time for MS Visual Studio](https://github.com/swdotcom/visualstudio-codetime)
   - Although the plugins are open-sourced, it seems like the server or dashboard themselves are closed-sourced.
-- Both Code Time and Wakatime has serious paywall problem
+- Both Code Time and Wakatime has serious [[Fiercely Overpriced|paywall]] problem
   - Free versions can only access up to 2 weeks of data
 - [The DevOps Intelligence Platform - Codacy](https://www.codacy.com/)
   - ![[8E739B.png]]

@@ -150,6 +150,9 @@ export const backlinks = {
     "2020-09-25": {
         "프로젝트 어덕행덕": "- [[2020-09-25]]"
     },
+    "2023-02-24": {
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "## [[2023-02-24]]"
+    },
     "2022-10-28": {
         "Dynamic Island on the Web": "## [[2022-10-28]]"
     },
@@ -182,6 +185,9 @@ export const backlinks = {
     "2022-12-19": {
         "하늘땅사람 개발 기록": "## [[2022-12-19]]"
     },
+    "2023-02-25": {
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "## [[2023-02-25]]"
+    },
     "2020-09-20": {
         "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
     },
@@ -206,6 +212,9 @@ export const backlinks = {
     },
     "2022-11-24": {
         "Mathematics under The Library of Babel": "## [[2022-11-24]]"
+    },
+    "2023-02-26": {
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "## [[2023-02-26]]"
     },
     "2022-11-10": {
         "Dynamic Island on the Web": "## [[2022-11-10]]"
@@ -447,7 +456,7 @@ export const backlinks = {
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
-        "Cool GPT Applications": "- [[ChatGPT]]",
+        "Cool Generative AI Applications": "- [[ChatGPT]]",
         "Proposal of Research to Professor Cote": "... given the recent boom of generative AIs, such as the recent [[ChatGPT]] (i.e., we now have the infinite AI monkey making infinite keystrokes). ...",
         "Readwise Reader": "- uses [[ChatGPT]]",
         "Search AI": "- In many ways, one might say that [[ChatGPT]] never \"truly understands\" things; it just \"knows how to produce stuff ...",
@@ -706,7 +715,8 @@ export const backlinks = {
         "신한국": "- [[불가사리]]"
     },
     "Alternatives to After Effects": {
-        "2023-01-22": "- [[Alternatives to After Effects]]"
+        "2023-01-22": "- [[Alternatives to After Effects]]",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "### [[Alternatives to After Effects]]"
     },
     "Computer Systems": {
         "2022-11-03": "- [[Computer Systems]]",
@@ -1223,6 +1233,9 @@ export const backlinks = {
         "2022-12-24": "- [[Rewind]] is [[GA]]",
         "Search Engine Indexing Your Life": "## [[Rewind]]"
     },
+    "tabOS": {
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "- Current works: [[tabOS]]"
+    },
     "Font Features": {
         "2022-08-01": "- Just realized that this enables Font [[Font Features|Ligature]] Settings.",
         "CalliFontia": "- 추출 전 여러가지 [[Font Features]]을 켜고 끄며 미리보기 대조 가능",
@@ -1489,15 +1502,15 @@ export const backlinks = {
         "JavaScript": "... client side for webpage behavior, often incorporating third-party libraries. All major [[Web Browser|web browsers]] have a dedicated JavaScript [[engine]] to execute the code on users' ...",
         "Next.js": "... traditional React apps can only render their content in the client-side [[Web Browser|browser]], Next.js extends this functionality to include applications rendered on the server ...",
         "Pensieve": "- Targeted as the intermediary bridge between [[web browser]] data stream (ephemeral) and long-term [[PKM]] data storage.",
-        "Porting a Chrome Extension to Firefox Add-on": "While Chrome and Firefox are two very different [[Web Browser|browsers]], Chrome Extension and Firefox Add-on are now more similar than ever. ...",
+        "Porting a Chrome Extension to Firefox Add-on": "While Chrome and Firefox are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and Firefox Add-on are now more similar than ever. ...",
         "Preservation of Data": "... your personal details in any forms, and perhaps using a special [[Web Browser|browser]] session (or even a different computer)",
         "Proposal of Research to Professor Cote": "\"Alt text\" briefly describes an image and is used if the [[Web Browser|browser]] cannot display the picture. Alt text is typically used in Web ...",
-        "Safari is the new Internet Explorer": "- Apple has a [[Web Browser|browser]] monopoly on iOS, which is something [[Microsoft]] was never able to ...",
+        "Safari is the new Internet Explorer": "- Apple has a [[Web Browser|browser]] monopoly on [[iOS]], which is something [[Microsoft]] was never able to ...",
         "Satori": "- Expensive: Spinning up an entire [[Web Browser|browser]] to take a screenshot was not efficient. This led to large ...",
         "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version ...",
         "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow",
         "Svelte": "... out the bulk of their work at runtime, i.e., in the [[Web Browser|browser]]. The compiler itself is written in [[TypeScript]]. Its source code is ...",
-        "The New Era of macOS Applications": "- [[Web Browser|Browsers]]. Chrome → Arc.",
+        "The New Era of macOS Applications": "- [[Web Browser|Browsers]]. [[Chrome]] → Arc.",
         "Web Typography": "... faces and styles were controlled exclusively by the settings of each [[web browser]]. There was no mechanism for individual Web pages to control font ..."
     },
     "A Massive Mystery": {
@@ -1603,9 +1616,9 @@ export const backlinks = {
         "2022-09-17": "- [[Android]]",
         "2022-10-20": "... It tries to download filter updates on every startup, and on [[Android]], it may happen many times daily. It can even happen when ...",
         "3D": "- glTF for [[Android]]",
-        "Figma": "... vector graphics editors and prototyping tools. The Figma mobile app for [[Android]] and iOS allows viewing and interacting with Figma prototypes in real ...",
-        "React Native": "... by Meta Platforms, Inc. It is used to develop applications for [[Android]], Android TV, iOS, macOS, tvOS, Web, Windows, and UWP by enabling ...",
-        "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
+        "Figma": "... vector graphics editors and prototyping tools. The Figma mobile app for [[Android]] and [[iOS]] allows viewing and interacting with Figma prototypes in real ...",
+        "React Native": "... by Meta Platforms, Inc. It is used to develop applications for [[Android]], Android TV, [[iOS]], macOS, tvOS, Web, Windows, and UWP by enabling ...",
+        "Simple DirectMedia Layer": "... multimedia applications that can run on many operating systems such as [[Android]], [[iOS]], [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
         "Torvalds": "... kernel, used by Linux distributions and other operating systems such as [[Android]]. He also created the distributed version control system Git. Linus Torvalds",
         "하늘땅사람 개발 기록": "반면에 State Machine 기반으로 가장 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
@@ -1879,7 +1892,7 @@ export const backlinks = {
         "AIs.txt": "Technically, [[Apple]]'s App Tracking Transparency does not ban all tracking activity; it never ...",
         "AMP": "... Google created it as a competitor to Facebook Instant Articles and [[Apple]] News. AMP is optimized for mobile web browsing and intended to ...",
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
-        "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports.",
+        "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] Widget Supports.",
         "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
         "Apple Newsroom 서체 따라하기": "가장 [[Apple|애플]]을 잘 모방한 서체이다.",
         "Apple Silicon": "- Chips made by [[Apple]]",
@@ -1904,13 +1917,14 @@ export const backlinks = {
         "PineApple Pay": "As [[Apple]] slowly moves to open up the Apple Pay restriction, what if ...",
         "Proposal of Research to Professor Cote": "... these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, Microsoft, and [[Apple]]) decided to disable SharedArrayBuffer by default to avoid the potential exploitation ...",
         "Reverse Engineering Apple Music API": "## Registering for [[Apple]] Developer Key",
-        "Safari is the new Internet Explorer": "- [[Apple]] has a [[Web Browser|browser]] monopoly on iOS, which is something [[Microsoft]] ...",
+        "Safari": "Safari is a web browser developed by [[Apple]] Inc. It was first released in 2003 as the default browser ...",
+        "Safari is the new Internet Explorer": "- [[Apple]] has a [[Web Browser|browser]] monopoly on [[iOS]], which is something [[Microsoft]] ...",
         "San Francisco": "- Font by [[Apple]]",
-        "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] iOS 16 update.",
+        "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] [[iOS]] 16 update.",
         "Super App": "... to combine various services and fight the mobile search partnership between [[Apple]] and [[Google]]",
         "Swift": "- Programming Language for [[Apple]] platforms",
         "The Dilemmas of Technopreneur": "... and could make a full-blown product, but it never would've become [[Apple]] if it weren't for Steve Jobs.",
-        "USDZ vs glTF": "... is a subset of USD, created by Pixar and operated by [[Apple]] for iOS AR applications. It is a zip file with USD ...",
+        "USDZ vs glTF": "... is a subset of USD, created by Pixar and operated by [[Apple]] for [[iOS]] AR applications. It is a zip file with USD ...",
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] only supports VP9.",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 온디바이스 ML 기술의 시작을 관찰하고 있다. 여기에는 단순한 Siri ...",
         "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 금융위원회에서 Apple|애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 ...",
@@ -1927,6 +1941,18 @@ export const backlinks = {
         "Magician": "- Magician is a [[Figma]] plugin that lets you design with the power of AI to ...",
         "Prototyper": "... prototyping with code. Bring your design to life with code in [[Figma]].",
         "Social Coding": "... effects are rare, but when they work, they grow huge (e.g., [[Figma]], Slack)"
+    },
+    "Safari": {
+        "2023-02-16": "... browser technologies like `SharedArrayBuffer`, which makes it impossible to run in [[Safari]] and requires the user to set additional `Cross-Origin-Isolation` headers on the ...",
+        "2023-02-26": "- [[Safari]]",
+        "Apple Newsroom 서체 따라하기": "Apple은 한글 폰트로 산돌고딕 네오를 사용한다. [[Safari]]와 [[Chrome]]은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. ...",
+        "Browser Company Hackathon": "- Idea: [[Safari]]-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... if there was \"The One and Only WebExtension\" for Firefox and [[Safari]]. It will essentially be a VM of [[Chrome]] Extensions — This ...",
+        "Meta Theme Color for Spacial Cognition": "> Tinted [[Safari]] theme color based on user action pic.twitter.com/OZ20jSvW9X",
+        "Safari is the new Internet Explorer": "... The reality is if you have an iOS device, you use [[Safari]] and are bound by its limitations",
+        "Snowpack으로 WASM 시작하기": "- 다만 [[Safari]]와 [[Firefox]]에서는 작동되지 않았다. \"SharedArrayBuffer is not defined\"이라는 오류가 발생했다.",
+        "The One and Only WebExtension": "- A [[Safari]] and [[Firefox]] [[WebExtension|extension]] that disguises itself as [[Chrome]] and runs all ...",
+        "VP9 vs HEVC": "... VP9 only for 4K videos, essentially banning 4K videos on Apple [[Safari]] and [[iOS]] YouTube."
     },
     "Reverse Engineering Apple Music API": {
         "2022-10-28": "- [[Reverse Engineering Apple Music API]]",
@@ -2074,6 +2100,20 @@ export const backlinks = {
         "2023-02-18": "- [[WebNPU API를 상상하다]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0218 | 🇬🇧 Imagining WebNPU API <br/> 🇰🇷 [[WebNPU API를 상상하다]]            ..."
     },
+    "WebExtension": {
+        "2022-05-30": "... to capture special moments. - Print Your Places Great Digital Brain [[WebExtension|Extension]].",
+        "Are Computers Psychotropic Substances": "If you use these services on your computer, actively use [[WebExtension|extension]] programs to control invasive addiction manipulations.",
+        "Better Obsidian": "## [[WebExtension|Extension]] Ideas for [[Obsidian]]",
+        "Bing Chat for All Browsers in Japan": "... but it seems like a lot of 🇯🇵 people like my [[WebExtension|extension]]!",
+        "Developing Review Notes for Obsidian": "스토어에 올라온 몇몇 플러그인을 보니 다음과 같은 간단한 구조였다. Chrome [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 이루어져 있다.",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "I have a question about your [[WebExtension|extension]], tabExtend. I recently switched to [[Firefox]] and noticed the WebExtension|extension is ...",
+        "Letter to the Heptabase Team on 2022-10-11": "- [[WebExtension|Extension]] APIs",
+        "Porting a Chrome Extension to Firefox Add-on": "While Chrome and Firefox are two very different Web Browser|browsers, Chrome [[WebExtension|Extension]] and Firefox Add-on are now more similar than ever. Therefore, it ...",
+        "Privacy Policy for My Chrome Extensions": "- I do not collect any data from this Chrome [[WebExtension|Extension]].",
+        "Sending Notifications on Chrome Extension": "1. Send notifications on Installation and Updates of a given Chrome [[WebExtension|Extension]] (with different content, of course)",
+        "The One and Only WebExtension": "- A Safari and Firefox [[WebExtension|extension]] that disguises itself as [[Chrome]] and runs all [[Chrome]] Extensions.",
+        "YCLF 주간 사용자 1000명": "## 1. Chrome|크롬 [[WebExtension|익스텐션]] 스토어의 집계"
+    },
     "Frames Per Second": {
         "2022-10-10": "... 23.976 and not 24 fps?? - AC's & DIT's - Cinematography.com. [[Frames Per Second]].",
         "Graphics Engine Process": "...   - Limit Updating Frequency to 16ms, which yields 60 [[Frames Per Second]]."
@@ -2198,6 +2238,11 @@ export const backlinks = {
     },
     "CMDK": {
         "2022-12-18": "- [[CMDK]]"
+    },
+    "Cool Generative AI Applications": {
+        "2023-01-27": "- [[Cool Generative AI Applications]]",
+        "2023-02-14": "- [[Cool Generative AI Applications]]",
+        "2023-02-26": "- [[Cool Generative AI Applications]]"
     },
     "Squircle": {
         "2022-11-11": "- Applied [[Squircle]]",
@@ -2431,7 +2476,7 @@ export const backlinks = {
         "AIs.txt": "- [[Project]]",
         "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. [[Google]] created it as a competitor to Facebook Instant Articles and ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter Network]] but you must",
-        "Apple Earth": "Someday [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget ...",
+        "Apple Earth": "Someday [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
         "Autosave Everything": "Someday [[Project]]. A small Mac App that presses `command s` every defined interval.",
         "Better Aldehyde": "- [[Project]]",
@@ -2483,6 +2528,7 @@ export const backlinks = {
         "Synthote": "- [[Project]] scaffolding",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "The Great Battle of Flow and Asana": "... Basecamp was to build great software that scratched their own itch ([[project]] management,) and charge a monthly recurring amount to give them access ...",
+        "The One and Only WebExtension": "- Someday [[Project]]",
         "The Zenly Playbook": "... Zenly shows surprising accuracy and battery efficiency from a 3-year research [[project]] for a child safety app before founding Zenly. Even from the ...",
         "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
         "Tools Must Vanish": "... a list of links that are the launching-off point of a [[project]]—is drowned in an ocean of banality. Most of our thoughts appear ...",
@@ -2606,8 +2652,7 @@ export const backlinks = {
         "Virtual Memory": "- [[Cache and Virtual Memory]]"
     },
     "Spirits do not Inherit": {
-        "2023-02-25": "- [[Spirits do not Inherit]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 [[Spirits do not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]]       ..."
+        "2023-02-25": "- [[Spirits do not Inherit]]"
     },
     "GeoCheatCode": {
         "2022-10-17": "- [[GeoCheatCode]]"
@@ -2776,6 +2821,24 @@ export const backlinks = {
         "Dioxus": "[[Write Once Run Everywhere]]",
         "WebNPU API를 상상하다": "... 서비스를 출시하기 위해 추론 서버를 생성할 필요가 없다. WebNPU는 또한 개발자들이 [[Write Once Run Everywhere]]를 이루어주기 때문에 개발 프로세스를 단순화할 수 있다."
     },
+    "Chrome": {
+        "2022-09-30": "### [[Chrome]] `renderBlockingStatus`",
+        "2023-02-26": "- [[Chrome]]",
+        "Apple Newsroom 서체 따라하기": "Apple은 한글 폰트로 산돌고딕 네오를 사용한다. Safari와 [[Chrome]]은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. 때문에 ...",
+        "Developing Review Notes for Obsidian": "스토어에 올라온 몇몇 플러그인을 보니 다음과 같은 간단한 구조였다. [[Chrome]] [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 이루어져 있다.",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... it? As far as I know, Firefox can \"straight up\" run [[Chrome]] extensions, so I imagine uploading it to the Firefox Add-ons Store ...",
+        "Person 1E6ABA": "1E6ABA's experience at Google involved multiple teams, from [[Chrome]] to TensorFlow.",
+        "Porting a Chrome Extension to Firefox Add-on": "While [[Chrome]] and [[Firefox]] are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and ...",
+        "Privacy Policy for My Chrome Extensions": "- I do not collect any data from this [[Chrome]] [[WebExtension|Extension]].",
+        "Sending Notifications on Chrome Extension": "1. Send notifications on Installation and Updates of a given [[Chrome]] [[WebExtension|Extension]] (with different content, of course)",
+        "Snowpack으로 WASM 시작하기": "- 조사해본 결과 ffmpeg.wasm은 현재 [[Chrome]]에서만 동작하기 때문이라고 한다 (참고 링크 1.) ffmpeg.wasm 공식 데모 사이트에 [[Safari]]나 ...",
+        "The New Era of macOS Applications": "- Web Browser|Browsers. [[Chrome]] → Arc.",
+        "The One and Only WebExtension": "- A Safari and Firefox WebExtension|extension that disguises itself as [[Chrome]] and runs all Chrome Extensions.",
+        "Toss Product Sans": "- 안드로이드, iOS, 윈도우, [[Chrome|크롬]], 사파리 등 다양한 환경에서 원활하게 작동할 수 있도록 최적화된 버티컬 메트릭스를 ...",
+        "VP9 vs HEVC": "... in MacBook Pro 2019. Technically we could watch 4K+ videos using [[Chrome]] on MacBooks, but the videos were decoded on [[CPU|CPUs]], using the ...",
+        "YCLF 주간 사용자 1000명": "## 1. [[Chrome|크롬]] [[WebExtension|익스텐션]] 스토어의 집계",
+        "linkflags.crx": "Packing Linkflags as [[Chrome]] Extensions [[Someday]] [[Project]]"
+    },
     "Bayes Theorem": {
         "2023-01-23": "- [[Bayes Theorem]]",
         "Probability": "- $P(H|E)$ → [[Bayes Theorem]]"
@@ -2847,7 +2910,7 @@ export const backlinks = {
         "2022-10-13": "- [[Obsidian]] is now out of beta",
         "2022-10-21": "- Stephan Ango: also created [[Obsidian]] Minimal Settings.",
         "2023-02-16": "... to write a tutorial how to replicate your publishing workflow with [[Obsidian]] and [[Docusaurus]], please count me as one enthusiast reader, I'd love ...",
-        "Better Obsidian": "## Extension Ideas for [[Obsidian]]",
+        "Better Obsidian": "## WebExtension|Extension Ideas for [[Obsidian]]",
         "Developing Review Notes for Obsidian": "이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 API 문서를 탐독하면서 이런 저런 발견 ...",
         "Extracranial": "... Thought and Online platforms. For this system, I use Docusaurus and [[Obsidian]]. It is working reasonably well.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application ...",
@@ -3094,7 +3157,7 @@ export const backlinks = {
         "2022-07-11": "## [[Brane]] Notes",
         "2022-07-12": "On 2022-07-11, I analyzed that [[Brane]] is harder than it seems.",
         "2022-08-03": "[[Brane]] is a vast [[project]] that a single intern can't finish.",
-        "Mental Simulation of Firefox and Signal as a Super App": "... a new platform, server techs, emulation techs, etc., as learned in [[Brane]] and Web.dev Mini App Review. Firefox has this talent, as seen ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... a new platform, server techs, emulation techs, etc., as learned in [[Brane]] and Web.dev Mini App Review. [[Firefox]] has this talent, as seen ...",
         "Providing DOM API to Worker Threads": "- Part of [[Brane]]",
         "Treehouse": "... run a DOM within a Web Worker. Later affected WorkerDOM and [[Brane]].",
         "WorkerDOM": "[[Brane]] will follow WorkerDOM's core model.",
@@ -3152,6 +3215,10 @@ export const backlinks = {
     "AI-native": {
         "Cloud-Native": "I am cloud-native, but not [[AI-native]]."
     },
+    "The One and Only WebExtension": {
+        "2023-02-26": "- [[The One and Only WebExtension]]",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "That said, you made me have a shower-thought if there was \"[[The One and Only WebExtension]]\" for [[Firefox]] and [[Safari]]. It will essentially be a VM of ..."
+    },
     "전방위 포위": {
         "2023-02-21": "- [[전방위 포위]]"
     },
@@ -3188,7 +3255,7 @@ export const backlinks = {
     "Linkflags": {
         "2022-12-07": "- [[Linkflags]]",
         "2022-12-12": "- Submitted [[Linkflags]] to [[Browser Company Hackathon]]",
-        "linkflags.crx": "Packing [[Linkflags]] as Chrome Extensions [[Someday]] [[Project]]"
+        "linkflags.crx": "Packing [[Linkflags]] as [[Chrome]] Extensions [[Someday]] [[Project]]"
     },
     "Multiplexing": {
         "Internetworking": "- [[Multiplexing]]"
@@ -3336,7 +3403,14 @@ export const backlinks = {
         "The Sudden Rise of Bondee": "... create a 3d character and design rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in a modern messenger form. It is ..."
     },
     "Firefox": {
-        "2022-10-10": "... responsiveness on macOS - Mozilla Hacks - the Web developer blog [[Firefox]]"
+        "2022-10-10": "... responsiveness on macOS - Mozilla Hacks - the Web developer blog [[Firefox]]",
+        "Apple Newsroom 서체 따라하기": "... 산돌고딕 네오를 사용한다. Safari와 Chrome은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. 때문에 Firefox에서 알맞은 한글 서체를 사용하도록 `Apple SD ...",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... have a question about your WebExtension|extension, tabExtend. I recently switched to [[Firefox]] and noticed the WebExtension|extension is unavailable on the Firefox Add-ons Store. ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "... instantly absorbable mass of users. The main target of Signal and [[Firefox]] are people who are flexible to switch platforms if they satisfy ...",
+        "Porting a Chrome Extension to Firefox Add-on": "While Chrome and [[Firefox]] are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and Firefox Add-on ...",
+        "Safari is the new Internet Explorer": "... best. Blink\\-based Web Browser|browsers update every six weeks (soon every four), [[Firefox]] releases every four weeks, and Brave releases every three. This means ...",
+        "Snowpack으로 WASM 시작하기": "- 다만 Safari와 [[Firefox]]에서는 작동되지 않았다. \"SharedArrayBuffer is not defined\"이라는 오류가 발생했다.",
+        "The One and Only WebExtension": "- A Safari and [[Firefox]] [[WebExtension|extension]] that disguises itself as [[Chrome]] and runs all [[Chrome]] Extensions."
     },
     "One Bit Display": {
         "2023-01-13": "- [[One Bit Display]]"
@@ -3460,6 +3534,10 @@ export const backlinks = {
         "Palantir": "- [[Palantir Gotham]]",
         "Palantir Apollo": "... Palantir Apollo is a continuous delivery system that manages and deploys [[Palantir Gotham]] and Foundry. Apollo was built out of the need for customers ..."
     },
+    "tabExtend": {
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... who sent you 10s of emails since the early days of [[tabExtend]]. I hope you are doing well. It's been a long time ...",
+        "tabOS": "a successor to [[tabExtend]]"
+    },
     "MOBI": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB, [[MOBI]] for texts. For generic use cases, [[DjVu]]."
     },
@@ -3526,6 +3604,10 @@ export const backlinks = {
     },
     "PineApple Pay": {
         "2023-02-21": "- [[PineApple Pay]]"
+    },
+    "Letter to Mr. Gustav Ekerot on 2023-02-24": {
+        "2023-02-26": "- [[Letter to Mr. Gustav Ekerot on 2023-02-24]]",
+        "Alternatives to After Effects": "## [[Letter to Mr. Gustav Ekerot on 2023-02-24]]"
     },
     "Shortcuts": {
         "2022-07-05": "- Clever workaround for sending delayed messages in iOS with [[Shortcuts]] and [[Automation]].",
@@ -3734,10 +3816,6 @@ export const backlinks = {
     "Link Preview for Arc": {
         "2022-12-06": "- [[Link Preview for Arc]]"
     },
-    "Cool GPT Applications": {
-        "2023-01-27": "- [[Cool GPT Applications]]",
-        "2023-02-14": "- [[Cool GPT Applications]]"
-    },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
     },
@@ -3903,8 +3981,11 @@ export const backlinks = {
         "CalliFontia": "## [[Fiercely Overpriced]]",
         "Captivating Products": "Making Supergravity Products and making them [[Fiercely Overpriced]] are two ways of measuring the captivation of a product. i.e., ...",
         "Jetski": "- [[fiercely overpriced]]: time limit for recording. watermarks?",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... to Firefox and Safari. Maybe I'll build it one day and [[Fiercely Overpriced|paywall]] it to install more than 5 extensions or so. 🤣",
+        "Letter to the Heptabase Team on 2022-10-11": "... it doesn't seem that's feasible shortly, considering there is still a [[Fiercely Overpriced|paywall]] upfront. However, I would love to explore Heptabase's native APIs and ...",
         "Off The Record": "- [[Fiercely Overpriced]]: disappears after opening. max 10 seconds (or message length)? Or even ...",
-        "Open Graph Image as a Service": "## How would it be [[Fiercely Overpriced]]?"
+        "Open Graph Image as a Service": "## How would it be [[Fiercely Overpriced]]?",
+        "sem.sh": "- Your data, your own (no [[Fiercely Overpriced|paywall]] if self-hosted)"
     },
     "Maserati Problem": {
         "2022-11-02": "- [[Maserati Problem]]"
@@ -4199,6 +4280,9 @@ export const backlinks = {
         "2023-02-23": "- [[Born of this Land - The Founding Story of Hyundai]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0223 | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]]       ..."
     },
+    "The Site On Which the Sun Never Sets": {
+        "2023-02-26": "- [[The Site On Which the Sun Never Sets]]"
+    },
     "기숙사 생활과 방 배정": {
         "2016-11-11": "- [[기숙사 생활과 방 배정]]",
         "2016-11-15": "- [[기숙사 생활과 방 배정]]"
@@ -4331,6 +4415,28 @@ export const backlinks = {
     "서낭당": {
         "2023-02-12": "- [[서낭당]]",
         "장승": "비슷한 예시로 솟대나 [[서낭당]]이 있다."
+    },
+    "iOS": {
+        "2023-02-08": "... with several templates to help pinpoint various potential issues in a macOS/[[iOS]] application",
+        "2023-02-16": "... modern browser technologies to make it run in any browser (like [[iOS]] and [[Safari]]) with minimal setup. The disadvantage is that Nodebox will ...",
+        "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth Apple Maps and [[iOS]] Widget Supports.",
+        "Chrome": "... for desktop and mobile devices, including Windows, macOS, Linux, Android, and [[iOS]].",
+        "Conversational AI Tools for Thought": "... have back-and-forth dialogue with AI. Poe will initially be available on [[iOS]], and it will be invite only until we work out scalability, ...",
+        "Figma": "... editors and prototyping tools. The Figma mobile app for Android and [[iOS]] allows viewing and interacting with Figma prototypes in real time on ...",
+        "Letter to the Heptabase Team on 2022-10-11": "- Handwriting/Pen Support ([[iOS]] App)?",
+        "Mental Simulation of Firefox and Signal as a Super App": "... divide the tech market into two, not only in terms of [[iOS]] vs. Android but also as App [[Economy]] vs. Web [[Economy]], Closed ...",
+        "React Native": "... Inc. It is used to develop applications for Android, Android TV, [[iOS]], macOS, tvOS, Web, Windows, and UWP by enabling developers to use ...",
+        "Reimagining Emails": "... launch. It is available today as a native app for macOS, [[iOS|iPadOS]], and [[iOS]].",
+        "Safari": "... browser for Apple's macOS operating system and later became available for [[iOS]] devices. Safari is also open for Windows, but the most recent ...",
+        "Safari is the new Internet Explorer": "- Apple has a Web Browser|browser monopoly on [[iOS]], which is something [[Microsoft]] was never able to achieve with IE",
+        "Screenshot as an API": "... - You can copy objects from photos in the latest Apple [[iOS]] 16 update.",
+        "Simple DirectMedia Layer": "... applications that can run on many operating systems such as Android, [[iOS]], [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
+        "Storing sensitive data in iOS Apps": "... server, download the information via HTTPS, and save it to the [[iOS]] secure enclave whenever you need the key.",
+        "Toss Product Sans": "- 안드로이드, [[iOS]], 윈도우, [[Chrome|크롬]], 사파리 등 다양한 환경에서 원활하게 작동할 수 있도록 최적화된 ...",
+        "USDZ vs glTF": "... subset of USD, created by Pixar and operated by Apple for [[iOS]] AR applications. It is a zip file with USD and image ...",
+        "VP9 vs HEVC": "... for 4K videos, essentially banning 4K videos on Apple Safari and [[iOS]] YouTube.",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "AirPlay를 지원하는 [[iOS]] / [[iOS|iPadOS]] 기기를 사용하는 경우 컨트롤 센터에서 바로 스피커를 확인할 수 ...",
+        "하늘땅사람 업데이트 기록": "- [[iOS]] 15에서도 하늘땅사람 키보드를 사용할 수 있습니다."
     },
     "Ghost 테마를 자동 배포하는 방법": {
         "2022-11-19": "  - [[Ghost 테마를 자동 배포하는 방법]]"
@@ -4518,7 +4624,7 @@ export const backlinks = {
         "AI replaces expensive jobs first": "... issues that become databases, lawyers can search for similar topics like \"[[Google]] Search.\" For example, if a fraud case comes in, the lawyer ...",
         "AI는 고가 노동부터 점령한다": "... 교통 딱지 위반)로 시작한다. 하지만 점차 데이터베이스화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] 검색\"처럼 유사 사례들을 검색할 수 있다. 예를 들어 사기죄 사건이 들어온다면 ...",
         "AMP": "... an open-source HTML framework developed by the AMP Open Source Project. [[Google]] created it as a competitor to Facebook Instant Articles and [[Apple]] ...",
-        "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and iOS Widget Supports.",
+        "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] Widget Supports.",
         "Boring Technologies": "... you are running a software business and you aren't at, like, [[Google]]-tier scale, throw it all in a mono repo",
         "Chromium": "... various textures inside of MathML code,\" points out Ian Kilpatrick of [[Google]]. \"Things like backgrounds working consistently so you can highlight or style ...",
         "Emails and Decentralized Protocols": "- [[Google]] has half a billion results for \"my email goes directly to ...",
@@ -4981,7 +5087,7 @@ export const backlinks = {
     },
     "Someday": {
         "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter Network]] but you must",
-        "Apple Earth": "[[Someday]] [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and iOS ...",
+        "Apple Earth": "[[Someday]] [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] ...",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
         "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
         "Book Metadata as a Service": "[[Someday]] [[Project]]. Open API that returns Book Metadata when given an ISBN.",
@@ -5006,6 +5112,7 @@ export const backlinks = {
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding AI system.",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
+        "The One and Only WebExtension": "- [[Someday]] [[Project]]",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute URI.",
         "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator to gauge market interest.",
@@ -5433,7 +5540,7 @@ export const backlinks = {
         "2021-06-23": "- [[개성은 쟁취하는 것]]",
         "2022-12-06": "- [[개성은 쟁취하는 것]]",
         "2023-02-25": "- [[개성은 쟁취하는 것]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 Spirits do not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 Spirits do  not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]            ..."
     },
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
@@ -5514,7 +5621,7 @@ export const backlinks = {
         "AI는 고가 노동부터 점령한다": "- 마치, 의료 법률계의 GitHub [[Copilot]] (2021년에 출시되어 이미 보급된 인공지능 코드 작성기.)",
         "Antipilot": "- [[Copilot]] looks like increasing your productivity, but it",
         "Collecting Data": "- [[Copilot]]",
-        "Cool GPT Applications": "- [[Copilot]]",
+        "Cool Generative AI Applications": "- [[Copilot]]",
         "GitHub Copilot Investigation": "- How it started: [[Copilot]]",
         "Intellisense for Knowledge Management": "- Like [[Copilot]] or [[IntelliJ]]",
         "Pensieve": "... automatically collects your expertise in a hierarchy powered by an AI [[copilot]]. Whenever you are starting a search journey that entails multiple tabs ...",
@@ -6577,6 +6684,9 @@ export const backlinks = {
         "San Francisco": "![[CD4751.png]]",
         "Satoshi": "![[CD4751.png]]"
     },
+    "16CE9C.png": {
+        "tabExtend": "![[16CE9C.png]]"
+    },
     "42FE5D.png": {
         "洪民憙雜記": "![[42FE5D.png]]"
     },
@@ -6907,6 +7017,9 @@ export const backlinks = {
     "87640C.png": {
         "Comparing BLIP and CLIP": "![[87640C.png]]"
     },
+    "Spirits do  not Inherit": {
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0225 | 🇬🇧 [[Spirits do  not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]]       ..."
+    },
     "F7ADEB.png": {
         "Transactional Globe": "![[F7ADEB.png]]"
     },
@@ -7122,5 +7235,8 @@ export const backlinks = {
     },
     "2B301F.png": {
         "Linear README": "![[2B301F.png]]"
+    },
+    "9EA5FE.gif": {
+        "Meta Theme Color for Spacial Cognition": "![[9EA5FE.gif]]"
     }
 }

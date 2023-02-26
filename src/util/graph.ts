@@ -6,9 +6,7 @@ export type Node = {
   nodeRelSize: number
 }
 
-const includeJournalsInGraph = false
-
-export const processBacklinksToGraph = (backlinks) => {
+export const processBacklinksToGraph = (backlinks, includeJournalsInGraph: boolean) => {
   const nodes: Node[] = []
   const links: { source: string; target: string }[] = []
   for (const key in backlinks) {

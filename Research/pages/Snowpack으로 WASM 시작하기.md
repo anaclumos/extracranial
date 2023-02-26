@@ -153,8 +153,8 @@ mount: {
 - 웹앱이 업데이트되고 난 후 `_snowpack_/env.js`가 정상적으로 로딩됨을 확인했다. 하지만 여전히 `web_modules`는 404 Not Found가 나타났다.
 - create-snowpack-app을 쓸 경우 `.gitignore`에 `web_modues`가 추가되는 문제 때문이었다. 원래 `web_modules`는 GitHub에 `node_module`처럼 안 올라가야 맞는데, 지금의 경우에는 GitHub을 [[CDN]]처럼 활용하는 것으므로 `web_modules`가 필요하다.
 - 정상적으로 동작함을 확인했다.
-- 다만 Safari와 Firefox에서는 작동되지 않았다. "SharedArrayBuffer is not defined"이라는 오류가 발생했다.
-- 조사해본 결과 ffmpeg.wasm은 현재 Chrome에서만 동작하기 때문이라고 한다 ([참고 링크 1](https://github.com/ffmpegwasm/ffmpeg.wasm/issues/63#issuecomment-621103820).) [ffmpeg.wasm 공식 데모 사이트](https://ffmpegwasm.github.io/#demo)에 Safari나 Firefox로 접근하면 다음 오류가 나타난다.
+- 다만 [[Safari]]와 [[Firefox]]에서는 작동되지 않았다. "SharedArrayBuffer is not defined"이라는 오류가 발생했다.
+- 조사해본 결과 ffmpeg.wasm은 현재 [[Chrome]]에서만 동작하기 때문이라고 한다 ([참고 링크 1](https://github.com/ffmpegwasm/ffmpeg.wasm/issues/63#issuecomment-621103820).) [ffmpeg.wasm 공식 데모 사이트](https://ffmpegwasm.github.io/#demo)에 [[Safari]]나 [[Firefox]]로 접근하면 다음 오류가 나타난다.
 
 > Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other [[Web Browser|browser]] supports SharedArrayBuffer.
 
@@ -165,12 +165,12 @@ Create-Snowpack-App을 GitHub Pages에 올리기 위해서는 다음을 해야�
 - 빌드 결과물에 .nojekyll 파일 추가하기
 - snowpack.config.js에 buildOptions.baseUrl 추가하기
 - GitHub Pages는 업데이트에 시간이 조금 걸리니 충분히 기다리기
-- ffmpeg.[[WebAssembly|wasm]]은 Chrome을 사용해 구동하기 (2020/11 기준)
+- ffmpeg.[[WebAssembly|wasm]]은 [[Chrome]]을 사용해 구동하기 (2020/11 기준)
 
 ## 완성본
 
 - [github.com/anaclumos/ffmpeg-wasm-gif-converter-study/](https://github.com/anaclumos/ffmpeg-wasm-gif-converter-study/)
-- [chosunghyun.com/ffmpeg-wasm-gif-converter-study/](https://chosunghyun.com/ffmpeg-wasm-gif-converter-study/) (Chrome Only)
+- [chosunghyun.com/ffmpeg-wasm-gif-converter-study/](https://chosunghyun.com/ffmpeg-wasm-gif-converter-study/) ([[Chrome]] Only)
 
 ## 아쉬운 점
 

@@ -43,7 +43,7 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple Font
     3. Apple SD Gothic Neo,
     /* Firefox에서 SF 한글(산돌 고딕 네오) 폰트*/
 
-[[Apple]]은 한글 폰트로 **산돌고딕 네오**를 사용한다. Safari와 Chrome은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 Firefox 계열은 그러지 못한다. 때문에 Firefox에서 알맞은 한글 서체를 사용하도록 `Apple SD Gothic Neo`를 지정해주는 것이다.
+[[Apple]]은 한글 폰트로 **산돌고딕 네오**를 사용한다. [[Safari]]와 [[Chrome]]은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. 때문에 [[Firefox]]에서 알맞은 한글 서체를 사용하도록 `Apple SD Gothic Neo`를 지정해주는 것이다.
 
 ## 2\. 그 외에는 [[San Francisco|SF]] 폰트와 닮은 폰트를 사용하자
 
@@ -94,7 +94,7 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple Font
 
 코드 서체도 마찬가지로 [[San Francisco]] 계열의 [[San Francisco|SF]] Mono를 사용하도록 지정했다. WWDC16에서 첫 공개된 [[San Francisco|SF]] Mono는 여전히 Mac 터미널과 Xcode의 기본 코드 서체로 사용된다. 그 외의 경우에는 큰 차이가 없을 것 같아 보편적인 Consolas, Menlo를 지정했다.
 
-GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두었는데, 이렇게 설정하면 Chrome에서는 [[San Francisco|SF]] Mono를 인식하지만 Firefox에서 [[San Francisco|SF]] Mono를 인식하지 못한다. 반면 [[San Francisco|SF]] Mono로 설정하면 Firefox와 Chrome 모두 인식한다. 와중에 Safari는 둘 다 인식 못 한다. (...)
+GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두었는데, 이렇게 설정하면 [[Chrome]]에서는 [[San Francisco|SF]] Mono를 인식하지만 [[Firefox]]에서 [[San Francisco|SF]] Mono를 인식하지 못한다. 반면 [[San Francisco|SF]] Mono로 설정하면 [[Firefox]]와 [[Chrome]] 모두 인식한다. 와중에 [[Safari]]는 둘 다 인식 못 한다. (...)
 
 ## 결론
 

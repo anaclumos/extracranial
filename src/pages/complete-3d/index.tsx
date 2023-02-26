@@ -14,7 +14,7 @@ export const GraphView3d = (props: { width: number; height: number }) => {
     return null
   }
 
-  const gData = processBacklinksToGraph(backlinks, false)
+  const gData = processBacklinksToGraph(backlinks, true)
 
   return (
     <div className={styles.graphView}>
