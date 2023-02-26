@@ -483,7 +483,8 @@ export const backlinks = {
     },
     "Texts": {
         "2023-01-31": "Got Invited to [[Texts]]",
-        "Feed One": "Like [[Texts]], it pulls from all the sources and posts to all the ..."
+        "Feed One": "Like [[Texts]], it pulls from all the sources and posts to all the ...",
+        "Love Software": "- (Fiercely Overpriced|paywalled) [[texts]]"
     },
     "Emails and Decentralized Protocols": {
         "2022-09-05": "- [[Emails and Decentralized Protocols]]",
@@ -614,6 +615,10 @@ export const backlinks = {
     "Krafton Way": {
         "2022-11-23": "- Finished reading [[Krafton Way]]",
         "Readings": "- [x] [[Krafton Way]]"
+    },
+    "Love Obsidian": {
+        "2023-02-26": "- [[Love Obsidian]]",
+        "Love Software": "- [[Love Obsidian]]"
     },
     "Logseq": {
         "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]]."
@@ -1662,6 +1667,9 @@ export const backlinks = {
     "First Two Months of a Startup": {
         "The Dilemmas of Technopreneur": "That means the [[First Two Months of a Startup]] can be spent making the product rather than focusing on the ..."
     },
+    "Love Software": {
+        "2023-02-26": "- [[Love Software]]"
+    },
     "Person ECC2CB": {
         "2022-12-08": "- [[Person ECC2CB]]",
         "Project PEOPLE": "- [[Person ECC2CB]]"
@@ -2277,6 +2285,10 @@ export const backlinks = {
     "0876 Middle of the Linked List": {
         "Coding Tests": "- [x] [[0876 Middle of the Linked List]]"
     },
+    "Love Wikipedia": {
+        "2023-02-26": "- [[Love Wikipedia]]",
+        "Love Software": "- [[Love Wikipedia]]"
+    },
     "PKM": {
         "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays ...",
         "2022-07-01": "... realized that the term Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.",
@@ -2402,7 +2414,8 @@ export const backlinks = {
         "2022-07-01": "...        | Notes are in [[Wikipedia]] Style           ...",
         "2022-12-08": "- [[Wikipedia]]",
         "2023-01-23": "It seems like [[Wikipedia]] updated its [[CSS]]...",
-        "Are.na (Service)": "... People describe Are.na as a garden of ideas or Tumblr meets [[Wikipedia]]."
+        "Are.na (Service)": "... People describe Are.na as a garden of ideas or Tumblr meets [[Wikipedia]].",
+        "Love Wikipedia": "i love [[wikipedia]]"
     },
     "Math-based Coding": {
         "2022-09-05": "- [[Math-based Coding]]",
@@ -2915,6 +2928,7 @@ export const backlinks = {
         "Extracranial": "... Thought and Online platforms. For this system, I use Docusaurus and [[Obsidian]]. It is working reasonably well.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application ...",
         "Letter to the Heptabase Team on 2022-10-11": "... the web. My entire research page (https://cho.sh/r/) runs on heavily customized [[Obsidian]], Nota, and [[Docusaurus]], serving as my daily note-taking platform after figuring ...",
+        "Love Obsidian": "i love [[obsidian]]",
         "Nota": "Awesome alternative to [[Obsidian]].",
         "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]",
         "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer",
@@ -3406,6 +3420,7 @@ export const backlinks = {
         "2022-10-10": "... responsiveness on macOS - Mozilla Hacks - the Web developer blog [[Firefox]]",
         "Apple Newsroom 서체 따라하기": "... 산돌고딕 네오를 사용한다. Safari와 Chrome은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. 때문에 Firefox에서 알맞은 한글 서체를 사용하도록 `Apple SD ...",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... have a question about your WebExtension|extension, tabExtend. I recently switched to [[Firefox]] and noticed the WebExtension|extension is unavailable on the Firefox Add-ons Store. ...",
+        "Love Firefox": "i love [[firefox]]",
         "Mental Simulation of Firefox and Signal as a Super App": "... instantly absorbable mass of users. The main target of Signal and [[Firefox]] are people who are flexible to switch platforms if they satisfy ...",
         "Porting a Chrome Extension to Firefox Add-on": "While Chrome and [[Firefox]] are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and Firefox Add-on ...",
         "Safari is the new Internet Explorer": "... best. Blink\\-based Web Browser|browsers update every six weeks (soon every four), [[Firefox]] releases every four weeks, and Brave releases every three. This means ...",
@@ -3983,6 +3998,7 @@ export const backlinks = {
         "Jetski": "- [[fiercely overpriced]]: time limit for recording. watermarks?",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... to Firefox and Safari. Maybe I'll build it one day and [[Fiercely Overpriced|paywall]] it to install more than 5 extensions or so. 🤣",
         "Letter to the Heptabase Team on 2022-10-11": "... it doesn't seem that's feasible shortly, considering there is still a [[Fiercely Overpriced|paywall]] upfront. However, I would love to explore Heptabase's native APIs and ...",
+        "Love Software": "- ([[Fiercely Overpriced|paywalled]]) [[texts]]",
         "Off The Record": "- [[Fiercely Overpriced]]: disappears after opening. max 10 seconds (or message length)? Or even ...",
         "Open Graph Image as a Service": "## How would it be [[Fiercely Overpriced]]?",
         "sem.sh": "- Your data, your own (no [[Fiercely Overpriced|paywall]] if self-hosted)"
@@ -5821,6 +5837,10 @@ export const backlinks = {
     "Binomial Distribution": {
         "2023-01-24": "- [[Binomial Distribution]]"
     },
+    "Love Firefox": {
+        "2023-02-26": "- [[Love Firefox]]",
+        "Love Software": "- [[Love Firefox]]"
+    },
     "Meta Theme Color for Spacial Cognition": {
         "2022-11-11": "- [[Meta Theme Color for Spacial Cognition]]"
     },
@@ -5891,6 +5911,7 @@ export const backlinks = {
     },
     "94861D.png": {
         "2022-12-08": "![[94861D.png]]",
+        "Love Wikipedia": "![[94861D.png]]",
         "Wikipedia": "![[94861D.png]]"
     },
     "5B9AFC.png": {
@@ -6108,6 +6129,9 @@ export const backlinks = {
     },
     "E64653.png": {
         "Redirecting READMEs": "![[E64653.png]]"
+    },
+    "834593.png": {
+        "Love Obsidian": "![[834593.png]]"
     },
     "CD56C6.png": {
         "하늘땅사람 개발 기록": "![[CD56C6.png]]",
@@ -7235,6 +7259,9 @@ export const backlinks = {
     },
     "2B301F.png": {
         "Linear README": "![[2B301F.png]]"
+    },
+    "9A6171.png": {
+        "Love Firefox": "![[9A6171.png]]"
     },
     "9EA5FE.gif": {
         "Meta Theme Color for Spacial Cognition": "![[9EA5FE.gif]]"
