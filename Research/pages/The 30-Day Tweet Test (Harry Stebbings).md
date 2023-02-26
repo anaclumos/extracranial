@@ -31,6 +31,7 @@ slug: '/18728A'
 | [0222](../journals/2023-02-22.md) | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]                                           | [Tweet](https://twitter.com/anaclumos/status/1628479680595775488) |
 | [0223](../journals/2023-02-23.md) | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]]                     | [Tweet](https://twitter.com/anaclumos/status/1628918514391334912) |
 | [0224](../journals/2023-02-24.md) | 🇬🇧 [[Renaissance]] <br/> 🇰🇷 [[르네상스]]                                                                   | [Tweet](https://twitter.com/anaclumos/status/1629314279295049729) |
+| [0225](../journals/2023-02-25.md) | 🇬🇧 [[Spirits do not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]]                                              |                                                                   |
 
 ## Announcement
 
