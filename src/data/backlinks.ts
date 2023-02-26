@@ -926,6 +926,9 @@ export const backlinks = {
         "2023-01-09": "- [[In search of my domain]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0210 | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]]       ..."
     },
+    "IP is the new Real Estate": {
+        "2023-02-26": "- [[IP is the new Real Estate]]"
+    },
     "Project Core ML Foundation": {
         "2023-01-26": "- [[Project Core ML Foundation]]",
         "2023-01-27": "- [[Project Core ML Foundation]]",
@@ -1327,6 +1330,9 @@ export const backlinks = {
         "2022-07-10": "- Notion opened a new paradigm for low-code websites. [[Project PEOPLE]] now create personal websites, event RSVPs, blogs, databases, and much more, ...",
         "2022-09-08": "- [[Project PEOPLE]]",
         "2022-09-14": "- [[Project PEOPLE]]"
+    },
+    "새로운 부동산은 지적 재산이다": {
+        "2023-02-26": "- [[새로운 부동산은 지적 재산이다]]"
     },
     "태백산맥 계획": {
         "2022-12-11": "- [[태백산맥 계획]]",
