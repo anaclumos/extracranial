@@ -1,8 +1,10 @@
 ---
 lang: 'en'
 slug: '/451356'
-aliases: ['신블록경제에 오신 것을 환영합니다']
+aliases: ['신블록경제']
 ---
+
+[[Neo]] Block Economy
 
 ### [TSMC founder Morris Chang says globalization 'almost dead'](https://asia.nikkei.com/Business/Tech/Semiconductors/TSMC-founder-Morris-Chang-says-globalization-almost-dead)
 

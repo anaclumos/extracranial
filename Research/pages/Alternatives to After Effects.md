@@ -10,7 +10,7 @@ What is the alternative to After Effects?
 - Adobe XD → [[Figma]]
 - Adobe After Effects → ???
 
-[[The New Era of macOS Applications]]?
+[[Neo Apps]]?
 
 ## [[Letter to Mr. Gustav Ekerot on 2023-02-24]]
 

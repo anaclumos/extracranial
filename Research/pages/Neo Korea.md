@@ -3,6 +3,8 @@ lang: 'ko'
 slug: '/DF4E38'
 ---
 
+[[Neo]] [[대한민국|Korea]]
+
 import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
@@ -22,6 +24,6 @@ import Shuffle from '@site/src/components/Shuffle'
 - [[Small yet Powerful|작지만 강력한]]
 - [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]
 - [[I just want it fixed|그냥 고치면 좋겠다]]
-- [[Welcome to the Neo Block Economy|신블록경제에 오신 것을 환영합니다]]
+- [[Neo Block Economy|신블록경제에 오신 것을 환영합니다]]
 
 </Shuffle>
