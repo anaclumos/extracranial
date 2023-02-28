@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5ba09542ce85e573",
+        "id": "bebfde21898d3dc5",
         "type": "tabs",
         "children": [
           {
-            "id": "396ccb3497d90469",
+            "id": "200f5f1c6d94285f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Spirits do not Inherit.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "51e2544d1a0b4a59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/새로운 부동산은 지적 재산이다.md",
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Spirits do not Inherit.md",
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Spirits do not Inherit.md"
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md"
               }
             }
           },
@@ -156,12 +143,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "396ccb3497d90469",
+  "active": "200f5f1c6d94285f",
   "lastOpenFiles": [
+    "journals/2023-02-27.md",
+    "pages/우린 글 기반 틱톡을 평생 만들 수 있을까.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/Can we ever build TikTok for Text.md",
+    "pages/곰단.md",
+    "pages/Effective Accelerationism.md",
+    "pages/News App with Friendly Chatbot.md",
+    "pages/Bing Chat.md",
+    "assets/9C5106.png",
+    "pages/Algorithmic Recommendation Engine for Texts.md",
+    "pages/Artifact.md",
+    "pages/The Era of Invites.md",
+    "pages/글감.md",
+    "pages/초대장의 시대.md",
+    "pages/새로운 부동산은 지적 재산이다.md",
     "journals/2023-02-26.md",
     "pages/IP is the new Real Estate.md",
-    "pages/새로운 부동산은 지적 재산이다.md",
     "pages/Love Software.md",
     "pages/Fiercely Overpriced.md",
     "pages/Love Obsidian.md",
@@ -173,18 +173,6 @@
     "journals/2023-01-12.md",
     "journals/2023-01-13.md",
     "journals/2023-01-14.md",
-    "journals/2023-01-15.md",
-    "journals/2023-01-16.md",
-    "journals/2023-01-17.md",
-    "journals/2023-01-18.md",
-    "journals/2023-01-19.md",
-    "journals/2023-01-20.md",
-    "journals/2023-01-21.md",
-    "journals/2023-01-22.md",
-    "journals/2023-01-23.md",
-    "journals/2023-01-24.md",
-    "journals/2023-01-25.md",
-    "journals/2023-01-26.md",
     "assets/9A6171.png",
     "assets/9EA5FE.gif",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S",
