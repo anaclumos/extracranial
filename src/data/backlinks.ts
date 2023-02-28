@@ -490,6 +490,7 @@ export const backlinks = {
     "Emails and Decentralized Protocols": {
         "2022-09-05": "- [[Emails and Decentralized Protocols]]",
         "2022-10-19": "- [[Emails and Decentralized Protocols]]",
+        "Neo Email": "- [[Emails and Decentralized Protocols]]",
         "Reimagining Emails": "- [[Emails and Decentralized Protocols]]"
     },
     "Backlink": {
@@ -657,6 +658,9 @@ export const backlinks = {
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 WebAssembly|WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 것 같다.)",
         "The Architecture of Mastodon": "  - Rails is hard to serve at the edge. [[CDN]] can host static assets, but templates in the core RoR process ..."
     },
+    "Neo Email": {
+        "2023-02-27": "- [[Neo Email]]"
+    },
     "New York City": {
         "2023-01-13": "- [[New York City]]",
         "SendGrid": "... and London. The company went public with a debut on the [[New York City|New York]] Stock Exchange on November 16, 2017. Twilio acquired SendGrid in February ..."
@@ -718,7 +722,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0104 Maximum Depth of Binary Tree]]"
     },
     "불가사리": {
-        "신한국": "- [[불가사리]]"
+        "Neo Korea": "- [[불가사리]]"
     },
     "Alternatives to After Effects": {
         "2023-01-22": "- [[Alternatives to After Effects]]",
@@ -774,10 +778,6 @@ export const backlinks = {
         "The Sudden Rise of Bondee": "Bondee is a metaverse social app, going crazy in 대한민국|Korea, 일본|Japan, [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in the App Store. Users can create ...",
         "본디는 사실 혜성이 아니다": "메타드림은 [[Singapore|싱가포르]] 기반의 회사다 보니 싱가포르 금융당국의 서류에서 답을 알 수 있었다. 예상대로 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, 일본, [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
-    },
-    "The New Era of macOS Applications": {
-        "2022-09-29": "- [[The New Era of macOS Applications]]",
-        "Alternatives to After Effects": "[[The New Era of macOS Applications]]?"
     },
     "Magician": {
         "2022-11-21": "- [[Magician]]: I thought they would generate user interface designs akin to Tailwind ...",
@@ -869,11 +869,6 @@ export const backlinks = {
     },
     "HLSL": {
         "2023-01-23": "- [[HLSL]]"
-    },
-    "신한국": {
-        "2022-12-20": "- [[신한국]]",
-        "2023-01-09": "- [[신한국]]",
-        "의료 인공지능과 의대 쏠림": "[[신한국]]으로 성장하기 위해선 [[이공계]]에 대한 전폭적인 지원이 필요하다."
     },
     "Meltdown and Spectre": {
         "2022-12-09": "- [[Meltdown and Spectre]]",
@@ -974,6 +969,13 @@ export const backlinks = {
     },
     "Blitzscaling": {
         "2022-06-06": "- [[Blitzscaling]] will not work, starting now. User Growth ≠ Valuation."
+    },
+    "Neo": {
+        "Grotesque": "## [[Neo]]-grotesque",
+        "Neo Apps": "The earth of macOS Applications is changing. [[Neo]] Apps.",
+        "Neo Block Economy": "[[Neo]] Block Economy",
+        "Neo Email": "- [[Neo]] Email",
+        "Neo Korea": "[[Neo]] [[대한민국|Korea]]"
     },
     "SendGrid": {
         "2022-10-17": "- [[SendGrid]]",
@@ -1339,8 +1341,8 @@ export const backlinks = {
     },
     "태백산맥 계획": {
         "2022-12-11": "- [[태백산맥 계획]]",
-        "Regulation of Fake News": "- [[태백산맥 계획]]",
-        "신한국": "- [[태백산맥 계획]]"
+        "Neo Korea": "- [[태백산맥 계획]]",
+        "Regulation of Fake News": "- [[태백산맥 계획]]"
     },
     "AIs.txt": {
         "2022-10-21": "- [[AIs.txt]]",
@@ -1375,6 +1377,7 @@ export const backlinks = {
         "2022-05-31": "- [[Spellbound]]",
         "2022-12-06": "- Reimagining Emails: React Email, AMP, AMP Email, [[Spellbound]]",
         "AMP Email": "- [[Spellbound]]",
+        "Neo Email": "- [[Spellbound]]",
         "Reimagining Emails": "- Interactive Emails using AMP Email. Example: [[Spellbound]]"
     },
     "방송 장비 담당자로 할 일": {
@@ -1453,7 +1456,7 @@ export const backlinks = {
     },
     "벌금과 물가": {
         "2022-10-21": "- [[벌금과 물가]]",
-        "신한국": "- [[벌금과 물가]]"
+        "Neo Korea": "- [[벌금과 물가]]"
     },
     "Latency and Throughput": {
         "2022-11-03": "- [[Latency and Throughput]]",
@@ -1514,6 +1517,7 @@ export const backlinks = {
         "HTML": "... standard markup language for documents designed to be displayed in a [[web browser]]. It can be assisted by technologies such as Cascading Style Sheets ...",
         "How is WebAssembly cross-platform when Assembly is not": "  - it runs on [[Web Browser|browsers]]",
         "JavaScript": "... client side for webpage behavior, often incorporating third-party libraries. All major [[Web Browser|web browsers]] have a dedicated JavaScript [[engine]] to execute the code on users' ...",
+        "Neo Apps": "- [[Web Browser|Browsers]]. [[Chrome]] → Arc.",
         "Next.js": "... traditional React apps can only render their content in the client-side [[Web Browser|browser]], Next.js extends this functionality to include applications rendered on the server ...",
         "Pensieve": "- Targeted as the intermediary bridge between [[web browser]] data stream (ephemeral) and long-term [[PKM]] data storage.",
         "Porting a Chrome Extension to Firefox Add-on": "While Chrome and Firefox are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and Firefox Add-on are now more similar than ever. ...",
@@ -1524,7 +1528,6 @@ export const backlinks = {
         "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version ...",
         "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow",
         "Svelte": "... out the bulk of their work at runtime, i.e., in the [[Web Browser|browser]]. The compiler itself is written in [[TypeScript]]. Its source code is ...",
-        "The New Era of macOS Applications": "- [[Web Browser|Browsers]]. [[Chrome]] → Arc.",
         "Web Typography": "... faces and styles were controlled exclusively by the settings of each [[web browser]]. There was no mechanism for individual Web pages to control font ..."
     },
     "A Massive Mystery": {
@@ -1754,6 +1757,11 @@ export const backlinks = {
         "ChatGPT": "... Premium brings the latest technologies, including Large Language Models powered by [[OpenAI]]'s GPT-3.5, to make meetings more intelligent, personalized, and protected—whether it's one-on-one, ...",
         "Proposal of Research to Professor Cote": "... Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and ...",
         "Search AI": "... 되어가고 있어요. 그럼 검색은 더 이상 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 [[ChatGPT]]에 많은 사람들이 놀라고 있어요. 모든 것의 정답을 주지는 못 하는데요. ..."
+    },
+    "Neo Korea": {
+        "2022-12-20": "- [[Neo Korea]]",
+        "2023-01-09": "- [[Neo Korea]]",
+        "의료 인공지능과 의대 쏠림": "[[Neo Korea]]으로 성장하기 위해선 [[이공계]]에 대한 전폭적인 지원이 필요하다."
     },
     "Readings": {
         "2022-09-07": "- [[Readings]]",
@@ -2809,12 +2817,12 @@ export const backlinks = {
         "Collaboration-based Tools for Thought": "### [[Notion]]",
         "Intellisense for Knowledge Management": "- More like Notion AI? What if [[Notion]] AI got super powerful, giving insight into your written documents?",
         "Letter to the Heptabase Team on 2022-10-11": "- API support ([[Notion]]-like?)",
+        "Neo Apps": "- Notes. [[Notion]] → [[Obsidian]] → Nota.",
         "Nota": "> Love Child Between [[Notion]] and [[Obsidian]]",
         "Notion AI": "[[Notion]]'s [[Synthote]]",
         "Powerfully Powerless Tools": "Even [[Notion]] is too complicated for personal task management.",
         "Text-based Tools for Thought": "### [[Notion]]",
         "The Era of Invites": "... inside the system. First impressions always last. For me, it was [[Notion]]. I first tried Notion in early 2018, and my experience was ...",
-        "The New Era of macOS Applications": "- Notes. [[Notion]] → [[Obsidian]] → Nota.",
         "강력하게 미약한 도구들": "... 우리의 두뇌가 생산성 도구보다 일을 더 많이 해야한다는 것을 의미한다. 하물며 [[Notion|노션]]마저도 개인 생산성 도구로 쓰기에는 너무 기능이 많다."
     },
     "CELLO": {
@@ -2858,12 +2866,12 @@ export const backlinks = {
         "Apple Newsroom 서체 따라하기": "Apple은 한글 폰트로 산돌고딕 네오를 사용한다. Safari와 [[Chrome]]은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. 때문에 ...",
         "Developing Review Notes for Obsidian": "스토어에 올라온 몇몇 플러그인을 보니 다음과 같은 간단한 구조였다. [[Chrome]] [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 이루어져 있다.",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... it? As far as I know, Firefox can \"straight up\" run [[Chrome]] extensions, so I imagine uploading it to the Firefox Add-ons Store ...",
+        "Neo Apps": "- Web Browser|Browsers. [[Chrome]] → Arc.",
         "Person 1E6ABA": "1E6ABA's experience at Google involved multiple teams, from [[Chrome]] to TensorFlow.",
         "Porting a Chrome Extension to Firefox Add-on": "While [[Chrome]] and [[Firefox]] are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and ...",
         "Privacy Policy for My Chrome Extensions": "- I do not collect any data from this [[Chrome]] [[WebExtension|Extension]].",
         "Sending Notifications on Chrome Extension": "1. Send notifications on Installation and Updates of a given [[Chrome]] [[WebExtension|Extension]] (with different content, of course)",
         "Snowpack으로 WASM 시작하기": "- 조사해본 결과 ffmpeg.wasm은 현재 [[Chrome]]에서만 동작하기 때문이라고 한다 (참고 링크 1.) ffmpeg.wasm 공식 데모 사이트에 [[Safari]]나 ...",
-        "The New Era of macOS Applications": "- Web Browser|Browsers. [[Chrome]] → Arc.",
         "The One and Only WebExtension": "- A Safari and Firefox WebExtension|extension that disguises itself as [[Chrome]] and runs all Chrome Extensions.",
         "Toss Product Sans": "- 안드로이드, iOS, 윈도우, [[Chrome|크롬]], 사파리 등 다양한 환경에서 원활하게 작동할 수 있도록 최적화된 버티컬 메트릭스를 ...",
         "VP9 vs HEVC": "... in MacBook Pro 2019. Technically we could watch 4K+ videos using [[Chrome]] on MacBooks, but the videos were decoded on [[CPU|CPUs]], using the ...",
@@ -2947,13 +2955,13 @@ export const backlinks = {
         "Letter to Mr. Stephan Ango on 2022-10-19": "If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application ...",
         "Letter to the Heptabase Team on 2022-10-11": "... the web. My entire research page (https://cho.sh/r/) runs on heavily customized [[Obsidian]], Nota, and [[Docusaurus]], serving as my daily note-taking platform after figuring ...",
         "Love Obsidian": "i love [[obsidian]]",
+        "Neo Apps": "- Notes. Notion → [[Obsidian]] → Nota.",
         "Nota": "Awesome alternative to [[Obsidian]].",
         "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]",
         "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer",
         "Stephan Ango": "- Currently works at [[Obsidian]]",
         "Text-based Tools for Thought": "### [[Obsidian]]",
         "The Dilemmas of Technopreneur": "... examples, like the early days of Mark Zuckerberg, the creators of [[Obsidian]], or even Mr. Levels.",
-        "The New Era of macOS Applications": "- Notes. Notion → [[Obsidian]] → Nota.",
         "Tools Must Vanish": "- And I look up blog and forum posts where [[Obsidian]] and Roam power users explain their setup. And most of what ..."
     },
     "Mapping keys to set different input languages on macOS": {
@@ -3364,6 +3372,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-12-24": "... my way back to my home from Seoul to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!",
         "Metadream": "... 9, 2022, and has offices and data centers in Singapore, 일본|Japan, [[대한민국|Korea]], and the [[United States of America|United States]]. One of Metadream's directors ...",
         "Naver": "... Corporation. It debuted in 1999 as the first web portal in [[대한민국|Korea]] to develop and use its search [[engine]]. It was also the ...",
+        "Neo Korea": "Neo [[대한민국|Korea]]",
         "Person 1E6ABA": "Why would the [[대한민국|Korean]] Govs and 대한민국|Korean Banks promote any terrible news for the 대한민국|Korean ...",
         "Person A3BA1A": "Considering that, Carta cannot ever penetrate the [[대한민국|Korean]] market.",
         "Pretendard의 아쉬운 점": "허나 [[대한민국|한국]] 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
@@ -3430,9 +3439,9 @@ export const backlinks = {
     },
     "대만": {
         "2023-02-16": "- [[대만]]",
+        "Neo Block Economy": "- The father of [[대만|Taiwan]]'s chip industry said geopolitics have drastically changed the situation facing semiconductor ...",
         "Readings": "- [ ] 도해 [[대만|타이완]]사",
         "The Sudden Rise of Bondee": "... is a metaverse social app, going crazy in 대한민국|Korea, 일본|Japan, Singapore, [[대만|Taiwan]], etc., ranking #1 in the App Store. Users can create a ...",
-        "Welcome to the Neo Block Economy": "- The father of [[대만|Taiwan]]'s chip industry said geopolitics have drastically changed the situation facing semiconductor ...",
         "젠리의 성공 공식": "... 한 학교에서 25%의 사용자를 넘기면 일주일 안에 전교생이 사용한다는 것을 관찰했다. [[대만]] 대학에 유학 간 [[일본]] 학생들로부터 대만 전체로 앱이 퍼지는 것 같은 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, 일본, Singapore|싱가포르, [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
     },
@@ -3642,7 +3651,7 @@ export const backlinks = {
     },
     "UBI For Scholars": {
         "2022-07-18": "- [[UBI For Scholars]]",
-        "신한국": "- [[UBI For Scholars]]",
+        "Neo Korea": "- [[UBI For Scholars]]",
         "이공계": "[[UBI For Scholars|과학자연금]]이 있다면 어떨까?"
     },
     "phash.wasm": {
@@ -3822,6 +3831,7 @@ export const backlinks = {
     },
     "AMP Email": {
         "2022-12-06": "- Reimagining Emails: React Email, AMP, [[AMP Email]], [[Spellbound]]",
+        "Neo Email": "- [[AMP Email]]",
         "React Email": "Seems like instead of making emails interactive like [[AMP Email]]",
         "Reimagining Emails": "- Interactive Emails using [[AMP Email]]. Example: [[Spellbound]]",
         "Spellbound": "- [[AMP Email]]"
@@ -3908,6 +3918,10 @@ export const backlinks = {
         "퍼블리시티권": "... 스스로의 노력에 의하여 획득한 명성, 사회적인 평가, 지명도 등으로부터 생기는 독립한 [[Economy|경제]]적 이익 또는 가치는 그 자체로 보호할 가치가 충분한 점 등에 비추어 ...",
         "프로젝트 어덕행덕": "- 적은 돈으로 (제작) 큰 [[Economy|경제]]적 효과 (팬들에게 홍보 효과) 를 낼 수 있음"
     },
+    "Neo Apps": {
+        "2022-09-29": "- [[Neo Apps]]",
+        "Alternatives to After Effects": "[[Neo Apps]]?"
+    },
     "Space in LaTeX": {
         "2022-10-18": "- [[Space in LaTeX]]"
     },
@@ -3930,6 +3944,10 @@ export const backlinks = {
         "2022-07-13": "- [[Digital Addiction]]",
         "2022-07-29": "  - [[Digital Addiction]]",
         "Using an iPad as my Ebook": "... Must Vanish|vanishes, digital tools no longer matter — essentially solving the [[Digital Addiction]]."
+    },
+    "Neo Block Economy": {
+        "2022-12-08": "- [[Neo Block Economy]]",
+        "Neo Korea": "- [[Neo Block Economy|신블록경제에 오신 것을 환영합니다]]"
     },
     "Safari is the new Internet Explorer": {
         "2022-12-28": "- [[Safari is the new Internet Explorer]]"
@@ -3976,7 +3994,7 @@ export const backlinks = {
         "Cooperative Multitasking": "Antonym of [[Preemptive Multitasking]]."
     },
     "간판법": {
-        "신한국": "- [[간판법]]"
+        "Neo Korea": "- [[간판법]]"
     },
     "Better Hacker News": {
         "2022-07-12": "- [[Better Hacker News]]",
@@ -4324,8 +4342,8 @@ export const backlinks = {
         "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
     "이무기 기업, 청룡 기업": {
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 0201 | 🇬🇧 Imoogi and Dragon Company <br/> 🇰🇷 [[이무기 기업, 청룡 기업]]            ...",
-        "신한국": "- [[이무기 기업, 청룡 기업]]"
+        "Neo Korea": "- [[이무기 기업, 청룡 기업]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0201 | 🇬🇧 Imoogi and Dragon Company <br/> 🇰🇷 [[이무기 기업, 청룡 기업]]            ..."
     },
     "Born of this Land - The Founding Story of Hyundai": {
         "2023-02-23": "- [[Born of this Land - The Founding Story of Hyundai]]",
@@ -4424,10 +4442,6 @@ export const backlinks = {
     "MessageBird": {
         "2022-11-30": "- [[MessageBird]]"
     },
-    "Welcome to the Neo Block Economy": {
-        "2022-12-08": "- [[Welcome to the Neo Block Economy]]",
-        "신한국": "- [[Welcome to the Neo Block Economy|신블록경제에 오신 것을 환영합니다]]"
-    },
     "서비스 시밍": {
         "2023-02-02": "- [[서비스 시밍]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0202 | 🇬🇧 Service Shimming <br/> 🇰🇷 [[서비스 시밍]]            ...",
@@ -4440,9 +4454,9 @@ export const backlinks = {
         "Real Exams": "- 1 [[Greedy Algorithm]]"
     },
     "한민족의 문화": {
+        "Neo Korea": "- [[한민족의 문화]]",
         "서낭당": "서낭당은 [[한민족의 문화]] 건축물로 마을의 수호신인 서낭신을 모신 신단이나 나무이다. 성황당이라고도 한다.",
         "솟대": "[[한민족의 문화]] 건축물로,",
-        "신한국": "- [[한민족의 문화]]",
         "장승": "[[한민족의 문화]] 건축물로,"
     },
     "SharedArrayBuffer": {
@@ -4543,8 +4557,8 @@ export const backlinks = {
     },
     "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": {
         "2022-12-11": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
+        "Neo Korea": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
         "공기 청정 비행선": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
-        "신한국": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
         "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
     },
     "Mental Simulation of Firefox and Signal as a Super App": {
@@ -4924,7 +4938,7 @@ export const backlinks = {
     },
     "공기 청정 비행선": {
         "2022-12-17": "- [[공기 청정 비행선]]",
-        "신한국": "- [[공기 청정 비행선]]"
+        "Neo Korea": "- [[공기 청정 비행선]]"
     },
     "Prompt Engineering": {
         "2022-09-03": "- [[Prompt Engineering]]",
@@ -5109,10 +5123,10 @@ export const backlinks = {
         "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the ...",
         "2022-10-27": "- [[Small yet Powerful]]",
         "Cut the Fat": "- [[Small yet Powerful]]",
+        "Neo Korea": "- [[Small yet Powerful|작지만 강력한]]",
         "The Era of Invites": "... observation is that these 'successful, invite-based' software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big techs use an invite-based system when ...",
         "The Zenly Playbook": "... app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?",
         "強力反權": "- [[Small yet Powerful]]",
-        "신한국": "- [[Small yet Powerful|작지만 강력한]]",
         "젠리의 성공 공식": "... 젠리가 문을 닫았다. 프랑스의 한 개발자로부터 시작해 3천억에 스냅에 인수된 기술 [[Small yet Powerful|강소]] 기업은 어떻게 성장하고 어떻게 사라졌을까. 그리고 우리는 무엇을 배울 수 있을까?",
         "초대장의 시대": "또 하나 흥미로운 관찰은 이런 성공적인 초대장 기반 소프트웨어 기업은 대부분 [[Small yet Powerful|소수정예]] 엘리트 팀이라는 점이다. 빅테크들은 왜 초대장 시스템을 사용하지 않을까? 어쩌면 이것은 ..."
     },
@@ -5216,7 +5230,7 @@ export const backlinks = {
     },
     "強力反權": {
         "2023-01-09": "- [[強力反權]]",
-        "신한국": "- [[強力反權]]"
+        "Neo Korea": "- [[強力反權]]"
     },
     "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {
         "2022-11-19": "  - [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
@@ -5389,7 +5403,7 @@ export const backlinks = {
     },
     "의료 인공지능과 의대 쏠림": {
         "2023-02-15": "- [[의료 인공지능과 의대 쏠림]]",
-        "신한국": "- [[의료 인공지능과 의대 쏠림]]"
+        "Neo Korea": "- [[의료 인공지능과 의대 쏠림]]"
     },
     "Jetbrains": {
         "Apple Newsroom 서체 따라하기": "- 이 블로그의 코드 글씨체는 더 이상 San Francisco|SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.",
@@ -5758,8 +5772,8 @@ export const backlinks = {
         "코드클럽": "또한 BCD의 모든 수업 자료는 [[HTML]] 문법과 Code Snippet을 활용한 Markdown 문서로 제작되며, 누구나 사용할 수 있도록 ..."
     },
     "I just want it fixed": {
-        "공기 청정 비행선": "원인이 뭐든, 누가 원인을 제공했든, 그런 것을 다 떠나서 [[I just want it fixed|그냥 고치면 좋겠다]].",
-        "신한국": "- [[I just want it fixed|그냥 고치면 좋겠다]]"
+        "Neo Korea": "- [[I just want it fixed|그냥 고치면 좋겠다]]",
+        "공기 청정 비행선": "원인이 뭐든, 누가 원인을 제공했든, 그런 것을 다 떠나서 [[I just want it fixed|그냥 고치면 좋겠다]]."
     },
     "AI replaces expensive jobs first": {
         "2022-10-20": "- [[AI replaces expensive jobs first]]",
@@ -5854,10 +5868,10 @@ export const backlinks = {
     },
     "이공계": {
         "2023-02-15": "- [[이공계]]",
+        "Neo Korea": "- [[이공계]]",
         "민사고와 쇼비니즘": "[[이공계]] 문제와 [[의대 쏠림]] 문제, 그리고 [[국가와 민족]]에 대해서 지적한다.",
-        "신한국": "- [[이공계]]",
         "의대 쏠림": "... 의사가 우리 사회에서 '안정적인 성공의 보증수표'로 인식되면서 의대는 이 씨와 같은 [[이공계]] 인재들까지 블랙홀처럼 빨아들이고 있다. 종로학원 등에 따르면 KAIST를 포함한 4대 과학기술원과 ...",
-        "의료 인공지능과 의대 쏠림": "신한국으로 성장하기 위해선 [[이공계]]에 대한 전폭적인 지원이 필요하다.",
+        "의료 인공지능과 의대 쏠림": "Neo Korea으로 성장하기 위해선 [[이공계]]에 대한 전폭적인 지원이 필요하다.",
         "일본 과학기술 총력전": "[[이공계]] 학자 대부분은 연구비가 윤택하던 전시 과학 기술 붐에 만족했던 것이다."
     },
     "Nextra": {
@@ -5865,8 +5879,8 @@ export const backlinks = {
     },
     "Small Government vs Big Government": {
         "2022-10-27": "- [[Small Government vs Big Government]]",
-        "Small yet Powerful": "- This could be a potential answer to [[Small Government vs Big Government]]",
-        "신한국": "- [[Small Government vs Big Government]]"
+        "Neo Korea": "- [[Small Government vs Big Government]]",
+        "Small yet Powerful": "- This could be a potential answer to [[Small Government vs Big Government]]"
     },
     "Memory Hierarchy": {
         "2022-11-03": "- [[Memory Hierarchy]]",
