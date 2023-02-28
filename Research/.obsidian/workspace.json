@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2a84915041c0fc68",
+        "id": "6987d6b9ad1a09e2",
         "type": "tabs",
         "children": [
           {
-            "id": "eeb7df4b3ea434b1",
+            "id": "5da85bee72ed5b85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-02-27.md",
+                "file": "pages/Can we ever build TikTok for Text.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b4852ae0d191fe58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Neo Email.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "84669ae7d1e61ad5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Neo Email.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Neo Email.md",
+                "file": "pages/Can we ever build TikTok for Text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Neo Email.md"
+                "file": "pages/Can we ever build TikTok for Text.md"
               }
             }
           },
@@ -169,18 +142,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "84669ae7d1e61ad5",
+  "active": "5da85bee72ed5b85",
   "lastOpenFiles": [
     "journals/2023-02-27.md",
+    "pages/우린 텍스트 틱톡을 평생 만들 수 있을까.md",
+    "pages/Can we ever build TikTok for Text.md",
+    "journals/2023-02-26.md",
+    "pages/Neo Email.md",
     "pages/Neo.md",
     "pages/Neo Apps.md",
     "pages/Binomial Theorem.md",
     "pages/Neo Block Economy.md",
     "pages/Neo Korea.md",
-    "pages/Neo Email.md",
     "pages/AMP Email.md",
-    "pages/Can we ever build TikTok for Text.md",
-    "pages/우린 텍스트 틱톡을 평생 만들 수 있을까.md",
     "pages/Bing.md",
     "pages/Bing Chat.md",
     "pages/Bing Chat for All Browsers.md",
@@ -196,7 +170,6 @@
     "pages/글감.md",
     "pages/초대장의 시대.md",
     "pages/새로운 부동산은 지적 재산이다.md",
-    "journals/2023-02-26.md",
     "pages/IP is the new Real Estate.md",
     "assets/834593.png",
     "assets/9A6171.png",
