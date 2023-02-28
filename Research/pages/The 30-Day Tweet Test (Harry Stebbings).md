@@ -33,6 +33,7 @@ slug: '/18728A'
 | [0224](../journals/2023-02-24.md) | 🇬🇧 [[Renaissance]] <br/> 🇰🇷 [[르네상스]]                                                                   | [Tweet](https://twitter.com/anaclumos/status/1629314279295049729) |
 | [0225](../journals/2023-02-25.md) | 🇬🇧 [[Spirits do not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]]                                              | [Tweet](https://twitter.com/anaclumos/status/1629666023900352513) |
 | [0226](../journals/2023-02-26.md) | 🇬🇧 [[IP is the new Real Estate]] <br/> 🇰🇷 [[새로운 부동산은 지적 재산이다]]                                | [Tweet](https://twitter.com/anaclumos/status/1629916767547174912) |
+| [0227](../journals/2023-02-27.md) | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 글 기반 틱톡을 평생 만들 수 있을까]]              |                                                                   |
 
 ## Announcement
 
