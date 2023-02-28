@@ -453,6 +453,7 @@ export const backlinks = {
         "AI-native": "Especially with the emergence of [[ChatGPT]].",
         "Algorithmic Recommendation Engine for Texts": "- The tech that enabled [[ChatGPT]] also created new possibilities for social networks",
         "Bing": "... real questions, and get complete answers). The same OpenAI technology behind [[ChatGPT]] powers this feature.",
+        "Bing Chat": "- Uses [[ChatGPT]]",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
@@ -2380,6 +2381,10 @@ export const backlinks = {
         "Our tools also shape us": "  - [[Roam Research]] makes you a connector + databaser",
         "Text-based Tools for Thought": "### [[Roam Research]]"
     },
+    "Can we ever build TikTok for Text": {
+        "2023-02-27": "- [[Can we ever build TikTok for Text]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0227 | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 글 기반 틱톡을 평생 만들 수 있을까]]  ..."
+    },
     "Korean Discount": {
         "Born of this Land - The Founding Story of Hyundai": "... earnings are often cited as one of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do not pay dividends to shareholders but ...",
         "글감": "- [[Korean Discount]]",
@@ -2784,6 +2789,10 @@ export const backlinks = {
         "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
         "Synthography": "- [[Stable Diffusion]]"
     },
+    "News App with Friendly Chatbot": {
+        "Can we ever build TikTok for Text": "... is no better. They should've done something more \"breaking,\" for example [[News App with Friendly Chatbot]].",
+        "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 추천 기능을 제공하고 있는데, 아티팩트도 크게 다르지 않다고 느꼈다. 예를 들어 [[News App with Friendly Chatbot|챗봇 기반 뉴스 앱]]과 같이 좀 더 \"획기적인\" 무언가를 했어야 했다."
+    },
     "Pretendard의 아쉬운 점": {
         "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
         "서울 프로": "- [[Pretendard의 아쉬운 점]]"
@@ -2964,6 +2973,10 @@ export const backlinks = {
         "2022-10-27": "- [[Interoperability]]",
         "Government Services should have full API support": "- Of course, we would need a Universal Identity and [[Interoperability]] to prevent any lock-ins.",
         "Super App and Democracy": "  - Promote open public digital infrastructure with [[interoperability]]."
+    },
+    "우린 글 기반 틱톡을 평생 만들 수 있을까": {
+        "2023-02-27": "- [[우린 글 기반 틱톡을 평생 만들 수 있을까]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Can we ever build TikTok for Text <br/> 🇰🇷 [[우린 글 기반 틱톡을 평생 만들 수 있을까]]            ..."
     },
     "Partition Problem": {
         "2023-01-23": "- [[Partition Problem]]"
@@ -3394,10 +3407,19 @@ export const backlinks = {
         "한민족의 동족상잔": "... 조선은 노예제 사회(Slavery Society)\"라고 주장했습니다. 반면 이영훈 전 서울대 교수를 비롯한 [[대한민국|한국]] 학자들은 노비가 양인과 결혼을 할 수 있다는 점이나, 주인과 떨어져 살며 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] ..."
     },
+    "Artifact": {
+        "Algorithmic Recommendation Engine for Texts": "- [[Artifact]] can feel like a throwback. Inspired by TikTok's success, big social ...",
+        "Can we ever build TikTok for Text": "... Mike Krieger, the co-founders of Instagram, launched a new app called [[Artifact]]. Artifact is a personalized news feed app that uses machine learning ...",
+        "The Era of Invites": "... people asked me if I had any invites for Texts, Tana, [[Artifact]], and so on. But things did not work this way before ...",
+        "우린 글 기반 틱톡을 평생 만들 수 있을까": "한 달 전, 인스타그램의 공동 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. Artifact|아티팩트는 머신 러닝으로 관심사 기반 뉴스를 추천해주는 앱이다. ...",
+        "초대장의 시대": "Amie 뿐만 아니라 Texts, Tana, [[Artifact]]까지 초대장이 있냐고 연락을 받았다. 하지만 원래는 이렇게 복잡하지 않았는데! 내부 알파 ..."
+    },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
+        "Can we ever build TikTok for Text": "... such changes in human media and preserve intelligence, as seen in [[Effective Accelerationism]].",
         "Psychohistory": "... can we do in this chaotic era to build our foundation? [[Effective Accelerationism|How would we preserve the light of sentience in this galaxy]]?",
         "심리역사학": "... 우리는 이런 암흑기에서 우리의 파운데이션을 건설하기 위해 무엇을 할 수 있을까? [[Effective Accelerationism|우리는 이 은하에서 지성의 빛을 어떻게 보전할 수 있을까]]?",
+        "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 개탄스럽지만, 이는 순수한 의지로 바꿀 수 없는 역사의 흐름이라 생각한다. 대신 [[Effective Accelerationism|효과적 가속주의]]에서 보듯 이런 어쩔 수 없는 시대적 변화와 공존하며 지능을 보존하는 방법을 ...",
         "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
     },
     "0002 Add Two Numbers": {
@@ -4163,6 +4185,9 @@ export const backlinks = {
     },
     "Graphics Engine Process": {
         "Game Programming": "- [[Graphics Engine Process]]"
+    },
+    "Bing Chat": {
+        "News App with Friendly Chatbot": "... and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers."
     },
     "Pensieve": {
         "2022-11-07": "- [[Pensieve]]",
@@ -5037,7 +5062,8 @@ export const backlinks = {
         "2023-02-21": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-22": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-24": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-25": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-02-25": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-27": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -5434,6 +5460,11 @@ export const backlinks = {
         "2022-07-07": "- [[Tools Must Vanish]]",
         "2022-12-28": "- [[Tools Must Vanish]]",
         "Using an iPad as my Ebook": "... a recent discovery on 2023-01-12 suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter — essentially solving the [[Digital Addiction]]."
+    },
+    "곰단": {
+        "2023-02-27": "- [[곰단]]",
+        "Can we ever build TikTok for Text": "... Facebook's Suggested for You, and Apple's News app. Even I also [[곰단|tried once]]. However, none has been as successful as \"TikTok\" in creating an ...",
+        "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 뉴스 앱처럼 개인화된 뉴스 피드를 만들려는 다른 시도는 이미 충분히 있었다. [[곰단|나도 했었다.]] 하지만 '틱톡'만큼 매력적이고 중독성 있는 사용자 경험을 만드는 데 성공한 사례는 ..."
     },
     "Counting": {
         "2023-01-24": "- [[Counting]]"
@@ -5872,7 +5903,8 @@ export const backlinks = {
         "Software as a Service": "We expect we could attain [[FIRE]] through [[Software as a Service]]."
     },
     "The Problems of ChatGPT": {
-        "2023-01-13": "- [[The Problems of ChatGPT]]"
+        "2023-01-13": "- [[The Problems of ChatGPT]]",
+        "Bing Chat": "- Solves [[The Problems of ChatGPT]]"
     },
     "Educational Technology": {
         "Person 1E6ABA": "- Currently works at a Financial Technology|FinTech + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager."
