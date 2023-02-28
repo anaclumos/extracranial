@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bebfde21898d3dc5",
+        "id": "2a84915041c0fc68",
         "type": "tabs",
         "children": [
           {
-            "id": "200f5f1c6d94285f",
+            "id": "eeb7df4b3ea434b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+                "file": "journals/2023-02-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+                "file": "journals/2023-02-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md"
+                "file": "journals/2023-02-27.md"
               }
             }
           },
@@ -127,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,16 +142,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "200f5f1c6d94285f",
+  "active": "eeb7df4b3ea434b1",
   "lastOpenFiles": [
-    "journals/2023-02-27.md",
-    "pages/우린 글 기반 틱톡을 평생 만들 수 있을까.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/Can we ever build TikTok for Text.md",
+    "journals/2023-02-27.md",
+    "pages/우린 텍스트 틱톡을 평생 만들 수 있을까.md",
+    "pages/Bing.md",
+    "pages/Bing Chat.md",
+    "pages/Bing Chat for All Browsers.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/Neural Engine.md",
     "pages/곰단.md",
     "pages/Effective Accelerationism.md",
     "pages/News App with Friendly Chatbot.md",
-    "pages/Bing Chat.md",
     "assets/9C5106.png",
     "pages/Algorithmic Recommendation Engine for Texts.md",
     "pages/Artifact.md",
@@ -170,9 +172,6 @@
     "pages/Love Wikipedia.md",
     "pages/Love Firefox.md",
     "journals/2023-01-11.md",
-    "journals/2023-01-12.md",
-    "journals/2023-01-13.md",
-    "journals/2023-01-14.md",
     "assets/9A6171.png",
     "assets/9EA5FE.gif",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S",

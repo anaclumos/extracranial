@@ -2383,7 +2383,7 @@ export const backlinks = {
     },
     "Can we ever build TikTok for Text": {
         "2023-02-27": "- [[Can we ever build TikTok for Text]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 0227 | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 글 기반 틱톡을 평생 만들 수 있을까]]  ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0227 | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]   ..."
     },
     "Korean Discount": {
         "Born of this Land - The Founding Story of Hyundai": "... earnings are often cited as one of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do not pay dividends to shareholders but ...",
@@ -2712,7 +2712,7 @@ export const backlinks = {
     },
     "Eventually, Diligent Immatures build the Future": {
         "2023-02-21": "- [[Eventually, Diligent Immatures build the Future]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 0221 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | Tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 0221 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | Tweet   ..."
     },
     "POP3 vs IMAP": {
         "Internetworking": "- [[POP3 vs IMAP]]"
@@ -2790,8 +2790,8 @@ export const backlinks = {
         "Synthography": "- [[Stable Diffusion]]"
     },
     "News App with Friendly Chatbot": {
-        "Can we ever build TikTok for Text": "... is no better. They should've done something more \"breaking,\" for example [[News App with Friendly Chatbot]].",
-        "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 추천 기능을 제공하고 있는데, 아티팩트도 크게 다르지 않다고 느꼈다. 예를 들어 [[News App with Friendly Chatbot|챗봇 기반 뉴스 앱]]과 같이 좀 더 \"획기적인\" 무언가를 했어야 했다."
+        "Can we ever build TikTok for Text": "... no better. They should've done something more breaking, for example, a [[News App with Friendly Chatbot]].",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 알고리즘 추천 기능을 제공하고 있는데, 아티팩트도 크게 다르지 않다. 예를 들어 [[News App with Friendly Chatbot|챗봇 기반 뉴스 앱]]과 같이 좀 더 획기적인 무언가를 했어야 했다."
     },
     "Pretendard의 아쉬운 점": {
         "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
@@ -2973,10 +2973,6 @@ export const backlinks = {
         "2022-10-27": "- [[Interoperability]]",
         "Government Services should have full API support": "- Of course, we would need a Universal Identity and [[Interoperability]] to prevent any lock-ins.",
         "Super App and Democracy": "  - Promote open public digital infrastructure with [[interoperability]]."
-    },
-    "우린 글 기반 틱톡을 평생 만들 수 있을까": {
-        "2023-02-27": "- [[우린 글 기반 틱톡을 평생 만들 수 있을까]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Can we ever build TikTok for Text <br/> 🇰🇷 [[우린 글 기반 틱톡을 평생 만들 수 있을까]]            ..."
     },
     "Partition Problem": {
         "2023-01-23": "- [[Partition Problem]]"
@@ -3411,7 +3407,7 @@ export const backlinks = {
         "Algorithmic Recommendation Engine for Texts": "- [[Artifact]] can feel like a throwback. Inspired by TikTok's success, big social ...",
         "Can we ever build TikTok for Text": "... Mike Krieger, the co-founders of Instagram, launched a new app called [[Artifact]]. Artifact is a personalized news feed app that uses machine learning ...",
         "The Era of Invites": "... people asked me if I had any invites for Texts, Tana, [[Artifact]], and so on. But things did not work this way before ...",
-        "우린 글 기반 틱톡을 평생 만들 수 있을까": "한 달 전, 인스타그램의 공동 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. Artifact|아티팩트는 머신 러닝으로 관심사 기반 뉴스를 추천해주는 앱이다. ...",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "한 달 전, 인스타그램의 공동 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. Artifact|아티팩트는 머신 러닝으로 관심사 기반 뉴스를 추천해주는 앱이다. ...",
         "초대장의 시대": "Amie 뿐만 아니라 Texts, Tana, [[Artifact]]까지 초대장이 있냐고 연락을 받았다. 하지만 원래는 이렇게 복잡하지 않았는데! 내부 알파 ..."
     },
     "Effective Accelerationism": {
@@ -3419,7 +3415,7 @@ export const backlinks = {
         "Can we ever build TikTok for Text": "... such changes in human media and preserve intelligence, as seen in [[Effective Accelerationism]].",
         "Psychohistory": "... can we do in this chaotic era to build our foundation? [[Effective Accelerationism|How would we preserve the light of sentience in this galaxy]]?",
         "심리역사학": "... 우리는 이런 암흑기에서 우리의 파운데이션을 건설하기 위해 무엇을 할 수 있을까? [[Effective Accelerationism|우리는 이 은하에서 지성의 빛을 어떻게 보전할 수 있을까]]?",
-        "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 개탄스럽지만, 이는 순수한 의지로 바꿀 수 없는 역사의 흐름이라 생각한다. 대신 [[Effective Accelerationism|효과적 가속주의]]에서 보듯 이런 어쩔 수 없는 시대적 변화와 공존하며 지능을 보존하는 방법을 ...",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 것이 무척이나 개탄스럽지만, 의지로 바꿀 수 없는 역사의 흐름이라 생각한다. 대신 [[Effective Accelerationism|효과적 가속주의]]에서 보듯 이런 어쩔 수 없는 시대적 변화와 공존하며 지능을 보존하는 방법을 ...",
         "태백산맥 계획": "[[Effective Accelerationism|효과적 가속주의]]에 기반한다."
     },
     "0002 Add Two Numbers": {
@@ -3598,6 +3594,10 @@ export const backlinks = {
     },
     "Classic Blogs": {
         "Tools for Thought": "- [[Classic Blogs]]: just make a post and let [[Google]] do the job."
+    },
+    "우린 텍스트 틱톡을 평생 만들 수 있을까": {
+        "2023-02-27": "- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Can we ever build TikTok for Text <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]            ..."
     },
     "Diagram Labs": {
         "2022-12-16": "- [[Diagram Labs]]"
@@ -3790,7 +3790,7 @@ export const backlinks = {
     },
     "미래는 결국 미성숙한 우리가 만들어낸다": {
         "2023-02-21": "- [[미래는 결국 미성숙한 우리가 만들어낸다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... 0221 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | Tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "... 0221 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | Tweet      |"
     },
     "0059 Spiral Matrix II": {
         "2023-02-09": "- [[0059 Spiral Matrix II]]",
@@ -4187,6 +4187,7 @@ export const backlinks = {
         "Game Programming": "- [[Graphics Engine Process]]"
     },
     "Bing Chat": {
+        "Bing Chat for All Browsers": "- [[Bing Chat]] for all [[Web Browser|browser]]",
         "News App with Friendly Chatbot": "... and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers."
     },
     "Pensieve": {
@@ -4828,7 +4829,7 @@ export const backlinks = {
     },
     "Bing": {
         "AMP": "... AMP pages may be cached by a CDN, such as Microsoft [[Bing]] or [[Cloudflare]]'s AMP caches, which allows pages to be served more ...",
-        "Bing Chat for All Browsers": "- [[Bing]] Chat for all [[Web Browser|browser]]",
+        "Bing Chat": "- [[Bing]]",
         "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 [[Bing]] [[ChatGPT]]에 검색을 해보았다.",
         "Super App": "... sources say CEO Satya Nadella is laying the groundwork by pushing [[Bing]] to work better with Microsoft's other mobile products"
     },
@@ -5463,8 +5464,8 @@ export const backlinks = {
     },
     "곰단": {
         "2023-02-27": "- [[곰단]]",
-        "Can we ever build TikTok for Text": "... Facebook's Suggested for You, and Apple's News app. Even I also [[곰단|tried once]]. However, none has been as successful as \"TikTok\" in creating an ...",
-        "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 뉴스 앱처럼 개인화된 뉴스 피드를 만들려는 다른 시도는 이미 충분히 있었다. [[곰단|나도 했었다.]] 하지만 '틱톡'만큼 매력적이고 중독성 있는 사용자 경험을 만드는 데 성공한 사례는 ..."
+        "Can we ever build TikTok for Text": "... Facebook's Suggested for You, and Apple's News app. Even I also [[곰단|tried once]]. However, none has been as successful as TikTok in creating an ...",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 뉴스 앱처럼 개인화된 뉴스 피드를 만들려는 다른 시도는 이미 충분히 있었다. [[곰단|나도 했었다.]] 하지만 틱톡만큼 매력적이고 중독성 있는 사용자 경험을 만드는 데 성공한 사례는 ..."
     },
     "Counting": {
         "2023-01-24": "- [[Counting]]"
