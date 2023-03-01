@@ -85,9 +85,6 @@ export const backlinks = {
     "2023-01-21": {
         "하늘땅사람 업데이트 기록": "## 1.0.5 [[2023-01-21]]"
     },
-    "2022-10-03": {
-        "Letter to Mr. Matt Rickard on 2022-10-03": "- Written: [[2022-10-03]]"
-    },
     "2023-01-15": {
         "하늘땅사람 개발 기록": "... 입력 불가. 초성이 없는 경우에도 모음과 이중모음까지는 조합이 가능하도록 만들어야겠다. ← [[2023-01-15]] 해결"
     },
@@ -502,6 +499,17 @@ export const backlinks = {
     "Migrating Node.js apps from AWS EB to Heroku": {
         "2022-11-19": "  - [[Migrating Node.js apps from AWS EB to Heroku]]"
     },
+    "Newsletter": {
+        "2022-07-28": "... from these spam sites and subscribe them all to the various [[Newsletter|newsletters]].",
+        "2022-10-19": "- [[Newsletter]]",
+        "2023-01-09": "- Can we use GitHub's subscribe feature as a [[Newsletter]]?",
+        "2023-02-28": "- [[Newsletter]]",
+        "Action Required Newsletter Networks": "Someday Project. It's a [[Newsletter]] but you must",
+        "Buttondown": "> Buttondown is a small, elegant tool for producing [[Newsletter|newsletters]]. The minimalist interface makes it easy for you to write great ...",
+        "Letter to Mr. Alexander Obenauer on 2022-10-12": "I do not currently have a [[newsletter]]. I was looking for a developer-friendly mailing platform (Substack knocks off ...",
+        "Reimagining Emails": "- [[Newsletter]]",
+        "Tailwind": "... with reasonable defaults for raw content like a blog or a [[newsletter]]"
+    },
     "0110 Balanced Binary Tree": {
         "2022-09-25": "- [[0110 Balanced Binary Tree]]",
         "Coding Tests": "- [x] [[0110 Balanced Binary Tree]]"
@@ -536,6 +544,9 @@ export const backlinks = {
         "Tech Now Pay Later": "This approach is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you make it. But what is the ...",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0202 | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]]        ...",
         "서비스 시밍": "[[Service Shimming]]"
+    },
+    "Newtonian Mail": {
+        "2023-02-28": "- [[Newtonian Mail]]"
     },
     "Aldehyde": {
         "2022-11-03": "- [[Aldehyde]]",
@@ -709,7 +720,7 @@ export const backlinks = {
         "Inliner": "... Inliner aims to separate the editing and reading experience by utilizing [[Markdown]]'s strict line change mode.",
         "Letter to the Heptabase Team on 2022-10-11": "- [[Markdown]]-Wikilink import/export",
         "Logseq": "... privacy-first, open-source knowledge base that works on top of local plain-text [[Markdown]] and Org-mode files. Use it to write, organize and share your ...",
-        "Markdown Email Client": "Someday Project. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as a beautiful ...",
+        "Markdown Email Client": "Someday Project. You write an Mail|email in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as a beautiful ...",
         "Toss Product Sans": "- 디자인 플랫폼 팀과 함께 제작한 [[Markdown|마크다운]] 규칙으로 특수 문자를 쓸 수 있도록"
     },
     "Metadream": {
@@ -974,13 +985,13 @@ export const backlinks = {
         "Grotesque": "## [[Neo]]-grotesque",
         "Neo Apps": "The earth of macOS Applications is changing. [[Neo]] Apps.",
         "Neo Block Economy": "[[Neo]] Block Economy",
-        "Neo Email": "- [[Neo]] Email",
+        "Neo Email": "- [[Neo]] [[Mail|Email]]",
         "Neo Korea": "[[Neo]] [[대한민국|Korea]]"
     },
     "SendGrid": {
         "2022-10-17": "- [[SendGrid]]",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[SendGrid]]",
-        "Newsletter Network": "- Alexander Obenauer [[SendGrid]]"
+        "Newsletter": "- Alexander Obenauer [[SendGrid]]"
     },
     "Search Engine Indexing Your Life": {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]",
@@ -1117,7 +1128,7 @@ export const backlinks = {
         "2022-10-19": "- [[Stephan Ango]]",
         "2022-10-21": "- [[Stephan Ango]]: also created [[Obsidian]] Minimal Settings.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Stephan Ango]]",
-        "Newsletter Network": "- [[Stephan Ango]] uses [[Buttondown]]",
+        "Newsletter": "- [[Stephan Ango]] uses [[Buttondown]]",
         "Now Page": "### [[Stephan Ango]]",
         "Synthote": "- Coined by [[Stephan Ango]]"
     },
@@ -1214,7 +1225,7 @@ export const backlinks = {
     "SMIME": {
         "2022-08-03": "### [[SMIME|S/MIME]] Certificates",
         "2022-12-21": "- [[SMIME]]",
-        "Adding a Verified Mark on Apple Mail & Gmail": "- Use a [[SMIME|S/MIME]] certificate to sign an email",
+        "Adding a Verified Mark on Apple Mail & Gmail": "- Use a [[SMIME|S/MIME]] certificate to sign an [[Mail|email]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... API (as in doing slightly more than Nodemailer or EmailEngine, i.e., [[SMIME]] or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just ..."
     },
     "ShadowRealm": {
@@ -1265,7 +1276,7 @@ export const backlinks = {
     "CSS": {
         "2023-01-23": "It seems like Wikipedia updated its [[CSS]]...",
         "Font Features": "- [[CSS]] property to enhance legibilities of a [[Font]].",
-        "Markdown Email Client": "... Project. You write an email in Markdown. Before sending, select one [[CSS]]. Then... it sends as a beautiful and clean [[HTML]] email!",
+        "Markdown Email Client": "... Project. You write an Mail|email in Markdown. Before sending, select one [[CSS]]. Then... it sends as a beautiful and clean [[HTML]] Mail|email!",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting HTML/[[CSS]] into SVGs.",
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly (HTML/[[CSS]])",
         "Tailwind": "... Rapidly build modern websites without ever leaving your HTML. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, and rotate-90 that ..."
@@ -1297,7 +1308,7 @@ export const backlinks = {
     "Letter to Mr. Alexander Obenauer on 2022-10-12": {
         "2022-10-12": "- [[Letter to Mr. Alexander Obenauer on 2022-10-12]]",
         "2022-10-17": "### [[Letter to Mr. Alexander Obenauer on 2022-10-12]]",
-        "Newsletter Network": "- Mentioned in [[Letter to Mr. Alexander Obenauer on 2022-10-12]]"
+        "Newsletter": "- Mentioned in [[Letter to Mr. Alexander Obenauer on 2022-10-12]]"
     },
     "Negative Binomial": {
         "2023-02-02": "- [[Negative Binomial]]"
@@ -1378,7 +1389,7 @@ export const backlinks = {
         "2022-12-06": "- Reimagining Emails: React Email, AMP, AMP Email, [[Spellbound]]",
         "AMP Email": "- [[Spellbound]]",
         "Neo Email": "- [[Spellbound]]",
-        "Reimagining Emails": "- Interactive Emails using AMP Email. Example: [[Spellbound]]"
+        "Reimagining Emails": "- Interactive Mail|Emails using AMP Email. Example: [[Spellbound]]"
     },
     "방송 장비 담당자로 할 일": {
         "2022-12-26": "- [[방송 장비 담당자로 할 일]]"
@@ -1699,7 +1710,7 @@ export const backlinks = {
     },
     "Alexander Obenauer": {
         "Emails and Decentralized Protocols": "- [[Alexander Obenauer]]: My career began with [[Reimagining Emails]] and finding ways to build ...",
-        "Newsletter Network": "- [[Alexander Obenauer]] [[SendGrid]]",
+        "Newsletter": "- [[Alexander Obenauer]] [[SendGrid]]",
         "Reimagining Emails": "## [[Alexander Obenauer]]"
     },
     "Collecting Data": {
@@ -2457,7 +2468,7 @@ export const backlinks = {
         "2022-06-22": "## Brane [[Project]] Demo Spec",
         "2022-07-01": "| [[Project]]-oriented            ...",
         "2022-08-03": "Brane is a vast [[project]] that a single intern can't finish.",
-        "2022-10-02": "- Got an email from the WorkerDOM team that the [[project]] will not have any major updates",
+        "2022-10-02": "- Got an Mail|email from the WorkerDOM team that the [[project]] will not have any major updates",
         "2022-10-27": "- Goongoom is a side startup [[project]] that never made it to the market.",
         "2022-10-31": "## [[Project]]",
         "2022-11-03": "## [[Project]]",
@@ -2509,7 +2520,7 @@ export const backlinks = {
         "2023-02-22": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. [[Google]] created it as a competitor to Facebook Instant Articles and ...",
-        "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter Network]] but you must",
+        "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you must",
         "Apple Earth": "Someday [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
         "Autosave Everything": "Someday [[Project]]. A small Mac App that presses `command s` every defined interval.",
@@ -2540,7 +2551,7 @@ export const backlinks = {
         "Krafton Way": "... 능력을 검증해야 한다\"고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
         "Kubernetes": "... designed Kubernetes, but the Cloud Native Computing Foundation now maintains the [[project]].",
         "Linux": "... software and libraries, many of which are provided by the GNU [[Project]]. Many Linux distributions use the word \"Linux\" in their name, but ...",
-        "Markdown Email Client": "Someday [[Project]]. You write an email in [[Markdown]]. Before sending, select one [[CSS]]. ...",
+        "Markdown Email Client": "Someday [[Project]]. You write an [[Mail|email]] in [[Markdown]]. Before sending, select one [[CSS]]. ...",
         "Not-So-Procrastinating Lazy Loading": "Someday [[Project]]. `img loading=lazy`, but if the network idles for a given timespan, ...",
         "Notion": "> Notion is a [[project]] management and note-taking software platform designed to help members of companies ...",
         "Off The Record": "Someday [[Project]]. Disappearing message for iMessage.",
@@ -2660,13 +2671,13 @@ export const backlinks = {
         "한민족의 문화": "[[한민족]]의 문화에 대해서 다룬다."
     },
     "GitHub": {
-        "2023-01-09": "- Can we use [[GitHub]]'s subscribe feature as a [[Newsletter Network]]?",
+        "2023-01-09": "- Can we use [[GitHub]]'s subscribe feature as a [[Newsletter]]?",
         "Apple-like Block Interface": "## [[GitHub]]",
         "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
         "Snowpack으로 WASM 시작하기": "## [[GitHub]] Pages에 Snowpack App 호스팅 및 시행착오",
         "Social Coding": "- [[GitHub]] is removing the trending tab at the end of this month ...",
         "Svelte": "... Its source code is licensed under MIT License and hosted on [[GitHub]]. Svelte",
-        "YCLF 주간 사용자 1000명": "[[GitHub]] 이슈를 남겨준 분들도 계셨고 메일을 보내주신 분들도 계셨다. 유용한 피드백을 많이 ...",
+        "YCLF 주간 사용자 1000명": "[[GitHub]] 이슈를 남겨준 분들도 계셨고 [[Mail|메일]]을 보내주신 분들도 계셨다. 유용한 피드백을 많이 ...",
         "sem.sh": "- [[GitHub]] Profile Widget",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "우선 balenaSound GitHub Repository에 들어가서 저장소를 내려받는다. [[GitHub]]을 사용하지 않는 사람이라면 웹사이트에 있는 Clone or Download 버튼을 누른 뒤 ...",
         "배달의민족 FE 개발자가 일하는 법 발표": "... 사용했다. 빠른 것 같고 좋은데, 장애를 겪고 나면 생각이 달라진다. 예전에는 [[GitHub]]를 사용하다가 요즘에는 비슷한 도구 (GitLab) 을 사용한다. 그래서 PR을 하고 올리면 ..."
@@ -3493,7 +3504,7 @@ export const backlinks = {
         "2022-07-12": "### Scheduler|Schedulers in [[WorkerDOM]]",
         "2022-07-19": "오늘은 반드시 [[WorkerDOM]] [[Scheduler]]를 잡아내자.",
         "2022-08-03": "Also, I succeeded on fooling `getBoundingClientRect()` on top of [[WorkerDOM]].",
-        "2022-10-02": "- Got an email from the [[WorkerDOM]] team that the [[project]] will not have any major updates",
+        "2022-10-02": "- Got an Mail|email from the [[WorkerDOM]] team that the [[project]] will not have any major updates",
         "AMP": "Uses [[WorkerDOM]] under the hood.",
         "Treehouse": "... attempt to run a DOM within a Web Worker. Later affected [[WorkerDOM]] and [[Brane]].",
         "iiframe": "- Does not extend [[WorkerDOM]]."
@@ -3586,7 +3597,7 @@ export const backlinks = {
         "Palantir Apollo": "... Palantir Apollo is a continuous delivery system that manages and deploys [[Palantir Gotham]] and Foundry. Apollo was built out of the need for customers ..."
     },
     "tabExtend": {
-        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... who sent you 10s of emails since the early days of [[tabExtend]]. I hope you are doing well. It's been a long time ...",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... who sent you 10s of Mail|emails since the early days of [[tabExtend]]. I hope you are doing well. It's been a long time ...",
         "tabOS": "a successor to [[tabExtend]]"
     },
     "MOBI": {
@@ -3619,7 +3630,7 @@ export const backlinks = {
     },
     "BIMI": {
         "2022-10-14": "- [[BIMI]]",
-        "2023-01-09": "- Should I consider [[BIMI]] for my email?",
+        "2023-01-09": "- Should I consider [[BIMI]] for my [[Mail|email]]?",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... i.e., SMIME or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just like what [[Vercel]] did to Heroku."
     },
     "Repeated Designs": {
@@ -3832,8 +3843,8 @@ export const backlinks = {
     "AMP Email": {
         "2022-12-06": "- Reimagining Emails: React Email, AMP, [[AMP Email]], [[Spellbound]]",
         "Neo Email": "- [[AMP Email]]",
-        "React Email": "Seems like instead of making emails interactive like [[AMP Email]]",
-        "Reimagining Emails": "- Interactive Emails using [[AMP Email]]. Example: [[Spellbound]]",
+        "React Email": "Seems like instead of making Mail|emails interactive like [[AMP Email]]",
+        "Reimagining Emails": "- Interactive Mail|Emails using [[AMP Email]]. Example: [[Spellbound]]",
         "Spellbound": "- [[AMP Email]]"
     },
     "Apple Silicon": {
@@ -3864,7 +3875,7 @@ export const backlinks = {
     "Buttondown": {
         "2022-10-19": "- [[Buttondown]]",
         "Boring Technologies": "- I wrote last month about migrating [[Buttondown]] from several separate micro repositories to a single monorepo. I've since ...",
-        "Newsletter Network": "- Stephan Ango uses [[Buttondown]]"
+        "Newsletter": "- Stephan Ango uses [[Buttondown]]"
     },
     "Symlink": {
         "How does File Alias work": "It seems like it is [[Symlink]]s under the hood."
@@ -4122,6 +4133,16 @@ export const backlinks = {
         "Intracranial": "- [[FIRE Engine]]",
         "Old Fashioned Camera": "- 백엔드와 Front-end|프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임"
     },
+    "Super Brain": {
+        "Dumbest Person in the Room": "> Surround yourself with more [[Super Brain|intelligent people]], and you'll all win. More ideas, energy, connections, and smarter people ...",
+        "Newtonian Mail": "... was a prolific Mail|letter writer and corresponded with numerous scientists and [[Super Brain|intellectuals]]. Newton's [[Mail|letters]] were often highly technical and discussed his scientific research ...",
+        "경제 개발의 길목에서": "... 선행되지 않고서는 불가능하다고 믿고 있었기 때문이다. 그래서 그는 관념적으로 민주화를 앞세우는 [[Super Brain|지식인]]들을 좋게 보지 않았다. 재무부 장관으로 취임한 직후 박 대통령을 만났을 때 ...",
+        "뉴턴의 서신": "뉴턴은 수많은 과학자 및 [[Super Brain|지식인]]들과 엄청난 양의 [[Mail|서신]]을 주고 받았다.",
+        "민사고": "... 감명 깊은 부분이 많았다. 편향되지 않고, 암기식 교육도 아니었으며, '올바른 한민족|민족적 [[Super Brain|지식인]]은 무엇인가'하는 질문을 많이 던지게끔 하셨다. 어디까지가 식민사관이고 어디까지가 우리 한민족|민족의 부끄러운 ...",
+        "심리역사학": "... 정확하게 예측되고 있다면 사람들은 행동을 바꾸기 때문. 때문에 작중에서도 굉장히 극소수의 [[Super Brain|지식인]]들만 심리역사학의 존재를 알고 있고, 심리역사학은 이미 사장되어 실패한 학문처럼 대중들에게 알려져 ...",
+        "전방위 포위": "- 앞: 순식간에 초격차를 벌려나가는 업계 [[Super Brain|지식인]]들",
+        "조선의 노비제도에 관한 보고": "... 동물보다 조금 나은 노비에게 신경을 써야 하는 이유가 무엇이 있겠습니까? 가장 [[Super Brain|지식인]]이라고 존경받는 사람들조차도 이러한 논리에서 벗어나지 못하고 있습니다."
+    },
     "Decoy Effect": {
         "2022-11-08": "- [[Decoy Effect]]",
         "Action Required Newsletter Networks": "... pay $0.9 per month (not aimed to generate money, it's for [[decoy effect]] — to encourage networking effects)"
@@ -4157,6 +4178,55 @@ export const backlinks = {
     "As We May Think": {
         "Memex": "> In [[As We May Think]], [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
     },
+    "Mail": {
+        "2022-05-31": "  - Interactive [[Mail|Emails]] using [[AMP]] under the hood.",
+        "2022-06-27": "... days and don't respond to Kubera's attempt to reach you, a [[mail]] with all your information in downloadable format will be sent to ...",
+        "2022-07-06": "- contact [[mail]] and signup mail -- separation necessary?",
+        "2022-07-28": "- Submit the spammer's [[Mail|email]]",
+        "2022-08-03": "Integrated Actalis SMIME|S/MIME certificate with iCloud Custom [[Mail|Email]] Domain.",
+        "2022-10-02": "- Got an [[Mail|email]] from the [[WorkerDOM]] team that the [[project]] will not have any ...",
+        "2022-10-14": "Today I got this [[Mail|email]] (although it seems like it was sent by mistake)",
+        "2023-01-09": "- Should I consider BIMI for my [[Mail|email]]?",
+        "2023-02-02": "... leverages several Google Workspace services for creating and modifying documents, sending [[Mail|email]], etc.",
+        "2023-02-28": "- [[Mail]]",
+        "AMP Email": "> AMP for [[Mail|email]] allows senders to include AMP components inside rich, engaging [[Mail|emails]], making ...",
+        "Adding a Verified Mark on Apple Mail & Gmail": "- Use a SMIME|S/MIME certificate to sign an [[Mail|email]]",
+        "Blind Illness": "... that the registered users work in the company through their work [[Mail|email]] and claims to keep user identities untraceable. Blind (app)>)",
+        "Buttondown": "... The minimalist interface makes it easy for you to write great [[Mail|emails]]; the [[automation]] acts like the editorial assistant you wish you had ...",
+        "CELLO (Product)": "- Let's go agile, mainly with [[Mail|emails]]",
+        "Canary Trap": "... quite an interesting story. We sent what appeared to be identical [[Mail|emails]] to all, but each was actually coded with either one or ...",
+        "Emails and Decentralized Protocols": "- [[Mail|Email]] is now an oligopoly, a service gatekept by a few big ...",
+        "Krafton Way": "... 왕복 항공권, 원룸 오피스텔 임대, 통번역 서비스 등 여러 조건을 통째로 [[Mail|메일]]에 포함해 경영진에게 전달했다. 짐짓 점잖은 형식을 취했으나 사실상 통보였다. 어서 브랜든을 ...",
+        "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Mail|Letter]] to Mr. Alexander Obenauer on 2022-10-12",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "- [[Mail|Letter]] to Mr. Gustav Ekerot on 2023-02-24",
+        "Letter to Mr. Matt Rickard on 2022-10-03": "- [[Mail|Letter]] to Mr. Matt Rickard on 2022-10-03",
+        "Letter to Mr. Matt Rickard on 2022-11-28": "- [[Mail|Letter]] to Mr. Matt Rickard on 2022-11-28",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "[[Mail|Letter]] to Mr. Matt Rickard on 2022-12-21",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "- [[Mail|Letter]] to Mr. Matt Rickard on 2022-12-24",
+        "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Mail|Letter]] to Mr. Stephan Ango on 2022-10-19",
+        "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the Heptabase Team on 2022-10-11",
+        "Markdown Email Client": "Someday Project. You write an [[Mail|email]] in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as ...",
+        "Mastodon": "... only people IN your kerflunk can quark your nerps. Kinda like [[Mail|email]].\" https://mas.to/@Ciaraioch@mastodon.ie/109287825141624121",
+        "Naver": "... since added many new services ranging from basic features such as [[Mail|e-mail]] and news to the world's first online Q&A platform, Knowledge iN. ...",
+        "Neo Email": "- Neo [[Mail|Email]]",
+        "Newsletter": "- [[Mail]]",
+        "Newtonian Mail": "Isaac Newton communicated with his peers through the [[mail]]. He was a prolific [[Mail|letter]] writer and corresponded with numerous scientists ...",
+        "POP3 vs IMAP": "## Internet [[Mail]] Access Protocol",
+        "Person A3BA1A": "It is done through handwriting, fax, and [[Mail|email]].",
+        "Port": "- [[mail]] server → 25",
+        "React Email": "Seems like instead of making [[Mail|emails]] interactive like [[AMP Email]]",
+        "Regulation of Fake News": "... content and suppress other content about Covid-19 and the pandemic. Internal [[Mail|emails]] that I viewed on Twitter showed that both the Trump and ...",
+        "Reimagining Emails": "- [[Mail|Email]] is the the-most-successful-decentralized (to an extent) communication protocol",
+        "Reminder Tools": "- Braintoss: [[mail]] to self.",
+        "SMIME": "> S/MIME (Secure/Multipurpose Internet [[Mail]] Extensions) is a standard for public key encryption and signing of ...",
+        "SMTP": "- MIME: Multipurpose Internet [[Mail]] Extensions",
+        "Safari": "... makes it easy to share content on social media or via [[Mail|email]], and a built-in password manager that can securely store and autofill ...",
+        "Search AI": "... answer general questions, explain things, suggest ideas, translate, summarize text, compose [[Mail|emails]], and write code for you. I'm powered by artificial intelligence and ...",
+        "SendGrid": "... is a Denver, Colorado-based customer communication platform for transactional and marketing [[Mail|email]]. The company was founded by Isaac Saldana, Jose Lopez, and Tim ...",
+        "YCLF 주간 사용자 1000명": "GitHub 이슈를 남겨준 분들도 계셨고 [[Mail|메일]]을 보내주신 분들도 계셨다. 유용한 피드백을 많이 주셨다. 정말 감사했다. 지금 여름 ...",
+        "뉴턴의 서신": "아이작 뉴턴은 [[Mail|편지]]을 통해 동료들과 소통했다.",
+        "프로젝트 어덕행덕": "  - 그래서 학생 할인은 없냐고 [[Mail|메일]]로 물어봄"
+    },
     "Finding out Ghost version with JS": {
         "2022-11-19": "  - [[Finding out Ghost version with JS]]"
     },
@@ -4181,6 +4251,7 @@ export const backlinks = {
         "Conversational AI Tools for Thought": "- ChatGPT and Generative AI are not exactly [[Tools for Thought]] for now. However, it has the potential to be one. See ...",
         "Extracranial": "... function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use Docusaurus and [[Obsidian]]. ...",
         "Handwriting Tools for Thoughts": "- A specific [[Tools for Thought]] with handwriting.",
+        "Newtonian Mail": "... Robert Boyle, Christiaan Huygens, and Gottfried Wilhelm Leibniz. Mail|Mails were Newton's [[Tools for Thought]].",
         "PKM": "Check [[Tools for Thought]] for PKM tools in the market.",
         "Paracosm": "Paracosm is an experimental documentation toolkit & Extracranial [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
         "Pensieve": "- An experimental [[tools for thought]] for capturing the context of information.",
@@ -4188,7 +4259,8 @@ export const backlinks = {
         "Powerfully Powerless Tools": "There is a repeated paradigm in the [[Tools for Thought]] [[Software as a Service]] market.",
         "Rauno": "Interesting Extracranial [[Tools for Thought]] ([[Data Capturers]])",
         "Spacial Cognition": "- Dozens of [[Tools for Thought]] use it. For example, [[Heptabase]].",
-        "강력하게 미약한 도구들": "현 [[Tools for Thought]] [[Software as a Service|SaaS]] 시장에는 반복적인 패러다임이 있다. 도구들이 너무 많은 ..."
+        "강력하게 미약한 도구들": "현 [[Tools for Thought]] [[Software as a Service|SaaS]] 시장에는 반복적인 패러다임이 있다. 도구들이 너무 많은 ...",
+        "뉴턴의 서신": "Mail|편지이야말로 뉴턴의 [[Tools for Thought|사고 도구]]였다."
     },
     "The Sudden Rise of Bondee": {
         "2023-02-12": "- [[The Sudden Rise of Bondee]]",
@@ -4876,13 +4948,6 @@ export const backlinks = {
     "Setting different fonts by language in CSS": {
         "2022-11-19": "  - [[Setting different fonts by language in CSS]]"
     },
-    "Newsletter Network": {
-        "2022-10-19": "- [[Newsletter Network]]",
-        "2023-01-09": "- Can we use GitHub's subscribe feature as a [[Newsletter Network]]?",
-        "Action Required Newsletter Networks": "Someday Project. It's a [[Newsletter Network]] but you must",
-        "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Newsletter Network]]",
-        "Reimagining Emails": "- [[Newsletter Network]]"
-    },
     "Negative Binomial Series": {
         "2023-02-02": "- [[Negative Binomial Series]]"
     },
@@ -4890,9 +4955,9 @@ export const backlinks = {
         "2022-11-23": "- [[Antipilot]]"
     },
     "AMP": {
-        "2022-05-31": "  - Interactive Emails using [[AMP]] under the hood.",
+        "2022-05-31": "  - Interactive Mail|Emails using [[AMP]] under the hood.",
         "2022-12-06": "- Reimagining Emails: React Email, [[AMP]], [[AMP Email]], [[Spellbound]]",
-        "AMP Email": "... within the email. The AMP email format provides a subset of [[AMP]] [[HTML]] components for use in email messages, allowing recipients of AMP ..."
+        "AMP Email": "... within the Mail|email. The AMP Mail|email format provides a subset of [[AMP]] [[HTML]] components for use in Mail|email messages, allowing recipients of AMP ..."
     },
     "Text-based Tools for Thought": {
         "Tana": "[[Text-based Tools for Thought]].",
@@ -5152,7 +5217,7 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 0206 | 🇬🇧 Remembering that Disarmed Bomb <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]            ..."
     },
     "Someday": {
-        "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter Network]] but you must",
+        "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter]] but you must",
         "Apple Earth": "[[Someday]] [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] ...",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
         "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
@@ -5168,7 +5233,7 @@ export const backlinks = {
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
         "Guestbook": "- [[Someday]] [[Project]]",
         "Intracranial": "[[Someday]] [[Project]]. Infinite Canvas for Zettlekasten.",
-        "Markdown Email Client": "[[Someday]] [[Project]]. You write an email in [[Markdown]]. Before sending, select one ...",
+        "Markdown Email Client": "[[Someday]] [[Project]]. You write an [[Mail|email]] in [[Markdown]]. Before sending, select one ...",
         "Not-So-Procrastinating Lazy Loading": "[[Someday]] [[Project]]. `img loading=lazy`, but if the network idles for a given ...",
         "Off The Record": "[[Someday]] [[Project]]. Disappearing message for iMessage.",
         "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.",
@@ -5353,7 +5418,7 @@ export const backlinks = {
         "2023-02-06": "## [[Hacker News]]",
         "2023-02-08": "## [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
-        "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing email server.",
+        "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing [[Mail|email]] server.",
         "Jumpsite": "## [[Hacker News]]",
         "The Great Struggle of Gumroad": "... would work on it until I died—something like that. Posting on [[Hacker News]], the reaction exceeded my grandest aspirations. Over 52,000 people checked it ...",
         "Using an iPad as my Ebook": "... search never ended to find the perfect ebook. Refer to this [[Hacker News]] thread"
@@ -5747,13 +5812,13 @@ export const backlinks = {
     },
     "HTML": {
         "2022-06-12": "... rehydration is a technique in which client-side JavaScript converts a static [[HTML]] web page, delivered either through static hosting or server-side rendering, into ...",
-        "AMP Email": "... the email. The AMP email format provides a subset of AMP [[HTML]] components for use in email messages, allowing recipients of AMP emails ...",
+        "AMP Email": "... the Mail|email. The AMP Mail|email format provides a subset of AMP [[HTML]] components for use in Mail|email messages, allowing recipients of AMP Mail|emails ...",
         "CSS": "... presentation of a document written in a markup language such as [[HTML]] or XML (including XML dialects such as [[SVG]], MathML, or XHTML). ...",
         "DOM": "... is a cross-platform and language-independent interface that treats an XML or [[HTML]] document as a tree structure wherein each node is an object ...",
         "HTML 텍스트 위에 덧말 강조점 쓰기": "그동안 글자 위에 글자를 어떻게 적는지 궁금했는데 [[HTML]]의 기본 기능 만으로도 해결 가능하다는 것을 알게 되었다. 참고로 이런 '글자 ...",
         "JSX": "... syntax familiar to many developers. It is similar in appearance to [[HTML]]. React components are typically written using JSX, although they do not ...",
         "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
-        "Markdown Email Client": "... select one CSS. Then... it sends as a beautiful and clean [[HTML]] email!",
+        "Markdown Email Client": "... select one CSS. Then... it sends as a beautiful and clean [[HTML]] Mail|email!",
         "Preservation of Data": "Save the raw [[HTML]] and process it later.",
         "Protocol Wars": "... example, Mosaic had a feature that automatically converted Gopher menus into [[HTML]]",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
@@ -5849,7 +5914,7 @@ export const backlinks = {
         "2022-07-05": "... Clever workaround for sending delayed messages in iOS with Shortcuts and [[Automation]].",
         "2023-02-02": "- [[Automation]]",
         "AI replaces expensive jobs first": "... management headcount as a means of freeing up money for implementing [[automation]]",
-        "Buttondown": "... interface makes it easy for you to write great emails; the [[automation]] acts like the editorial assistant you wish you had by checking ...",
+        "Buttondown": "... interface makes it easy for you to write great Mail|emails; the [[automation]] acts like the editorial assistant you wish you had by checking ...",
         "Computer Science": "> Computer science is the study of computation, [[automation]], and information. Computer science spans theoretical disciplines (such as algorithms, theory ...",
         "Ghost 테마를 자동 배포하는 방법": "... 다행히도 Ghost 2.25.5부터 GitHub Actions를 이용해 다음과 같이 Ghost 테마 개발을 [[Automation|자동화]]할 수 있게 되었다.",
         "GitHub Actions": "... continuous integration and continuous delivery (CI/CD) platform that allows you to [[Automation|automate]] your build, test, and deployment pipeline. You can create workflows that ...",
@@ -5888,6 +5953,9 @@ export const backlinks = {
     },
     "Linear README": {
         "2022-10-14": "  - Especially [[Linear README]]"
+    },
+    "뉴턴의 서신": {
+        "2023-02-28": "- [[뉴턴의 서신]]"
     },
     "Binomial Distribution": {
         "2023-01-24": "- [[Binomial Distribution]]"
@@ -6880,6 +6948,9 @@ export const backlinks = {
     },
     "D11FF4.png": {
         "SHAP": "![[D11FF4.png]]"
+    },
+    "C25819.png": {
+        "Super Brain": "![[C25819.png]]"
     },
     "3584FF.png": {
         "sem.sh": "![[3584FF.png]]"

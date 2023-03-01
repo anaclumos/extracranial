@@ -4,7 +4,7 @@ slug: '/CB6043'
 ---
 
 - [[Lesser Known Trick]]
-- Use a [[SMIME|S/MIME]] certificate to sign an email
+- Use a [[SMIME|S/MIME]] certificate to sign an [[Mail|email]]
 
 <DisplayFlex>
 

@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/25BA57'
 ---
 
+- [[Mail|Letter]] to Mr. Alexander Obenauer on 2022-10-12
+
 Dear Mr. Obenauer,
 
 I am Sunghyun Cho. I am a current CS university student at USC.
@@ -31,7 +33,7 @@ Got a positive response.
 
 Dear Mr. Obenauer,
 
-I do not currently have a newsletter. I was looking for a developer-friendly mailing platform (Substack knocks off here).
+I do not currently have a [[newsletter]]. I was looking for a developer-friendly mailing platform (Substack knocks off here).
 I tried using Mailgun before and didn't like it, but I don't want to bother dealing with AWS SES.
 I've heard good things about Revue, although I haven't tried it.
 Is there any good platform you would recommend?
@@ -42,4 +44,4 @@ Sunghyun Cho
 ## Reply on [[2022-10-17]]
 
 - [[SendGrid]]
-- [[Newsletter Network]]
+- [[Newsletter]]

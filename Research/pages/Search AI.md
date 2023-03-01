@@ -18,7 +18,7 @@ slug: '/FB73DE'
 
 ### [who are you - You. com](https://you.com/search?q=who+are+you&tbm=youchat)
 
-- Hello! My name is YouChat; I'm an AI that can answer general questions, explain things, suggest ideas, translate, summarize text, compose emails, and write code for you. I'm powered by artificial intelligence and [[natural language processing]], allowing you to have human-like conversations with me. I am constantly learning from vast amounts of online information, so I sometimes need to correct some answers. My AI is constantly improving, and I often share sources for my answers.
+- Hello! My name is YouChat; I'm an AI that can answer general questions, explain things, suggest ideas, translate, summarize text, compose [[Mail|emails]], and write code for you. I'm powered by artificial intelligence and [[natural language processing]], allowing you to have human-like conversations with me. I am constantly learning from vast amounts of online information, so I sometimes need to correct some answers. My AI is constantly improving, and I often share sources for my answers.
 
 ### [Introducing NeevaAI - Neeva](https://neeva.com/blog/introducing-neevaai)
 

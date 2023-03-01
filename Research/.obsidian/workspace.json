@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6987d6b9ad1a09e2",
+        "id": "2b45ed582ce6a0b7",
         "type": "tabs",
         "children": [
           {
-            "id": "5da85bee72ed5b85",
+            "id": "8bdb07d35e16b949",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Can we ever build TikTok for Text.md",
+                "file": "journals/2023-02-28.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -81,29 +81,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d8fcfa116cdddff",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "pages/Can we ever build TikTok for Text.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "59bace770cf9ea54",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Can we ever build TikTok for Text.md"
+                "file": "journals/2023-02-28.md"
               }
             }
           },
@@ -142,35 +125,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5da85bee72ed5b85",
+  "active": "8bdb07d35e16b949",
   "lastOpenFiles": [
-    "journals/2023-02-27.md",
-    "pages/우린 텍스트 틱톡을 평생 만들 수 있을까.md",
-    "pages/Can we ever build TikTok for Text.md",
-    "journals/2023-02-26.md",
-    "pages/Neo Email.md",
-    "pages/Neo.md",
-    "pages/Neo Apps.md",
-    "pages/Binomial Theorem.md",
-    "pages/Neo Block Economy.md",
-    "pages/Neo Korea.md",
-    "pages/AMP Email.md",
-    "pages/Bing.md",
-    "pages/Bing Chat.md",
-    "pages/Bing Chat for All Browsers.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/Neural Engine.md",
-    "pages/곰단.md",
-    "pages/Effective Accelerationism.md",
-    "pages/News App with Friendly Chatbot.md",
-    "assets/9C5106.png",
-    "pages/Algorithmic Recommendation Engine for Texts.md",
-    "pages/Artifact.md",
-    "pages/The Era of Invites.md",
     "pages/글감.md",
-    "pages/초대장의 시대.md",
-    "pages/새로운 부동산은 지적 재산이다.md",
-    "pages/IP is the new Real Estate.md",
+    "journals/2023-02-28.md",
+    "pages/Newsletter.md",
+    "pages/Mail.md",
+    "pages/조선의 노비제도에 관한 보고.md",
+    "pages/Super Brain.md",
+    "pages/뉴턴의 서신.md",
+    "pages/Newtonian Mail.md",
+    "pages/intellectuals.md",
+    "pages/Buttondown.md",
+    "pages/Letter to Mr. Alexander Obenauer on 2022-10-12.md",
+    "pages/Letter to the Heptabase Team on 2022-10-11.md",
+    "pages/Letter to Mr. Gustav Ekerot on 2023-02-24.md",
+    "pages/Letter to Mr. Matt Rickard on 2022-10-03.md",
+    "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
+    "pages/Letter to Mr. Matt Rickard on 2022-12-21.md",
+    "pages/Letter to Mr. Matt Rickard on 2022-12-24.md",
+    "pages/Letter to Mr. Stephan Ango on 2022-10-19.md",
+    "pages/0079 Word Search.md",
+    "pages/0383 Ransom Note.md",
+    "pages/Tools for Thought.md",
+    "pages/Super App.md",
+    "journals/2022-07-28.md",
+    "pages/Boring Technologies.md",
+    "pages/BIMI.md",
+    "pages/Canary Trap.md",
+    "assets/C25819.png",
+    "assets/9C5106.png",
     "assets/834593.png",
     "assets/9A6171.png",
     "assets/9EA5FE.gif",
