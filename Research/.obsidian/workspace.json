@@ -19,8 +19,35 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "998cb602784ade37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-26.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3b00c110bfcdb5f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-02-16.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "stackbl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-02-28.md"
+                "file": "journals/2023-02-16.md"
               }
             }
           },
@@ -125,10 +153,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8bdb07d35e16b949",
+  "active": "3b00c110bfcdb5f7",
   "lastOpenFiles": [
-    "pages/글감.md",
+    "pages/Sandbox.md",
+    "pages/Super App.md",
+    "pages/The One and Only.md",
+    "pages/Z-Fellows.md",
     "journals/2023-02-28.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "journals/2023-02-23.md",
+    "journals/2023-02-10.md",
+    "journals/2023-02-02.md",
+    "journals/2023-02-01.md",
+    "journals/2023-02-26.md",
+    "journals/2021-02-26.md",
+    "pages/30 dat.md",
+    "pages/글감.md",
     "pages/Newsletter.md",
     "pages/Mail.md",
     "pages/조선의 노비제도에 관한 보고.md",
@@ -141,18 +181,6 @@
     "pages/Letter to the Heptabase Team on 2022-10-11.md",
     "pages/Letter to Mr. Gustav Ekerot on 2023-02-24.md",
     "pages/Letter to Mr. Matt Rickard on 2022-10-03.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-12-21.md",
-    "pages/Letter to Mr. Matt Rickard on 2022-12-24.md",
-    "pages/Letter to Mr. Stephan Ango on 2022-10-19.md",
-    "pages/0079 Word Search.md",
-    "pages/0383 Ransom Note.md",
-    "pages/Tools for Thought.md",
-    "pages/Super App.md",
-    "journals/2022-07-28.md",
-    "pages/Boring Technologies.md",
-    "pages/BIMI.md",
-    "pages/Canary Trap.md",
     "assets/C25819.png",
     "assets/9C5106.png",
     "assets/834593.png",
