@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/BD4464'
 ---
 
+- [[Mail|Letter]] to Mr. Matt Rickard on 2022-11-28
+
 Dear Mr. [[Rickard]],
 
 It's Sunghyun. I hope you had a great Thanksgiving break — I've been great! I hope to work on some projects on curating human knowledge and sentience, which I've been delving into these days.

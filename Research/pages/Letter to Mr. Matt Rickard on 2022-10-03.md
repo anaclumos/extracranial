@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/D2DFA4'
 ---
 
-- Written: [[2022-10-03]]
+- [[Mail|Letter]] to Mr. Matt Rickard on 2022-10-03
 
 Dear Mr. Rickard,
 

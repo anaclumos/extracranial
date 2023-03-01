@@ -44,7 +44,7 @@ slug: '/177B14'
 ## Things to consider
 
 - Avoid local confinement, as seen in most [[K-Pop App]].
-- Let's go agile, mainly with emails
+- Let's go agile, mainly with [[Mail|emails]]
 - Show some level of kindness:
   - Invite codes? Invite networks?
   - Student discounts

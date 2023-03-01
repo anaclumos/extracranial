@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/ABA1BD'
 ---
 
-Seems like instead of making emails interactive like [[AMP Email]]
+Seems like instead of making [[Mail|emails]] interactive like [[AMP Email]]
 
 - [React Email](https://react.email/)
 

@@ -9,7 +9,7 @@ slug: '/7C11AF'
 - no syncing, cannot re-download when changing clients
 - stateless
 
-## Internet Mail Access Protocol
+## Internet [[Mail]] Access Protocol
 
 - keeps the message at the server
 - keeps user state

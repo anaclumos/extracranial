@@ -3,13 +3,15 @@ lang: 'en'
 slug: '/8AAC37'
 ---
 
+- [[Mail|Letter]] to Mr. Gustav Ekerot on 2023-02-24
+
 ## [[2023-02-24]]
 
 Dear Mr. Ekerot,
 
-I am Sunghyun — The one who sent you 10s of emails since the early days of [[tabExtend]]. I hope you are doing well. It's been a long time since we last spoke, and I'm reaching out to see how you've been doing.
+I am Sunghyun — The one who sent you 10s of [[Mail|emails]] since the early days of [[tabExtend]]. I hope you are doing well. It's been a long time since we last spoke, and I'm reaching out to see how you've been doing.
 
-I wanted to let you know that I recently changed my email address from [mail@chosunghyun.com](mailto:mail@chosunghyun.com) to [hey@cho.sh](mailto:hey@cho.sh). If you need to reach me, please use this new email address.
+I wanted to let you know that I recently changed my [[Mail|email]] address from [mail@chosunghyun.com](mailto:mail@chosunghyun.com) to [hey@cho.sh](mailto:hey@cho.sh). If you need to reach me, please use this new [[Mail|email]] address.
 
 Also, I've been keeping a research journal on [https://cho.sh](https://cho.sh/) these days. It's a convenient platform for me to organize my thoughts and ideas. If you're interested, feel free to check it out.
 
