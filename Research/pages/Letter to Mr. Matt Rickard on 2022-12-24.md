@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/D6C559'
 ---
 
+- [[Mail|Letter]] to Mr. Matt Rickard on 2022-12-24
+
 :::info
 This is a reply on [Software Rewrites](https://matt-rickard.ghost.io/software-rewrites/)
 :::
@@ -29,7 +31,7 @@ As Jobs said, Musk can "put a dent" in the universe. Would that be the rise of t
 
 I don't know — perhaps Musk fired too much to rewrite stuff!
 
-P.S. I hope my emails are okay with you! I love thought-invoking posts, and I pay massive attention to the Silicon Valley stories — I have been, and still to this day, loving your posts!
+P.S. I hope my [[Mail|emails]] are okay with you! I love thought-invoking posts, and I pay massive attention to the Silicon Valley stories — I have been, and still to this day, loving your posts!
 
 Best regards,
 

@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/96B109'
 ---
 
+[[Mail|Letter]] to Mr. Matt Rickard on 2022-12-21
+
 :::info
 This is an reply to [[The Architecture of Mastodon]]
 :::
@@ -15,7 +17,7 @@ AFAIK Ghost is Node.js, not Rails! [https://github.com/TryGhost/Ghost](https://g
 
 But you have a great point; you once mentioned that most tech services could be abstracted to an [[edge]]-served Front-end and back-end as [[edge]]-replicated simple data storage. I was also a long-time Ghost user, and I agree that Ghost's tech stack can be vastly simplified as such. Ghost's central-hosted-ness was helpful in some niches (ex: I can keep writing where I left off on my other devices), but Ghost, or "Writing Services," can be much better.
 
-It would be much better to see a first-class serverless email API (as in doing slightly more than Nodemailer or EmailEngine, i.e., [[SMIME]] or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just like what [[Vercel]] did to Heroku.
+It would be much better to see a first-class serverless [[Mail|email]] API (as in doing slightly more than Nodemailer or EmailEngine, i.e., [[SMIME]] or, more recently — Brand Indicators for Message Identification [[BIMI]]) Just like what [[Vercel]] did to Heroku.
 
 Best Regards,
 

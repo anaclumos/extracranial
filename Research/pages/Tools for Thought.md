@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/872B83'
+aliases: ['사고 도구']
 ---
 
 ## Types
