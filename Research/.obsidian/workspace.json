@@ -11,8 +11,13 @@
             "id": "8b333aa17c3c74d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/글감.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -72,7 +77,41 @@
   "right": {
     "id": "1bb7f4a449135cb3",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "22b90362396e095e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "694e35ab7d7a4b32",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/글감.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "be5c6ba52dcdd28f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/글감.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 408.5,
     "collapsed": true
@@ -93,6 +132,12 @@
   "active": "8b333aa17c3c74d4",
   "lastOpenFiles": [
     "journals/2023-03-01.md",
+    "pages/OpenAI enthroned as the Levis of Tech.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/글감.md",
+    "pages/OpenAI가 새로운 테크 리바이스로 등극하다.md",
+    "pages/AI-native.md",
+    "pages/Cloud-Native.md",
     "pages/GitHub.md",
     "pages/Space Terraforming.md",
     "journals/2022-12-18.md",
@@ -112,12 +157,6 @@
     "pages/Naver.md",
     "pages/Disable Screenshot Drop Shadow in macOS.md",
     "pages/IP.md",
-    "journals/2022-11-14.md",
-    "pages/In The End Trust Yourself.md",
-    "pages/Swift String 조작은 왜 그 모양인가.md",
-    "journals/2023-02-26.md",
-    "pages/Ghost 테마를 자동 배포하는 방법.md",
-    "pages/C++.md",
     "assets/C25819.png",
     "assets/9C5106.png",
     "assets/834593.png",
