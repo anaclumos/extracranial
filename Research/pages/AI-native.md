@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/4130FD'
-aliases: ['AI Native']
+aliases: ['AI native', 'AI 네이티브', 'AI-natives', 'AI natives']
 ---
 
 Especially with the emergence of [[ChatGPT]].

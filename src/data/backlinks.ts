@@ -1292,8 +1292,8 @@ export const backlinks = {
     },
     "Microservices Architecture": {
         "Cloud-Native": "... as AWS, instead of traditional on-premise infrastructure. They are comfortable building [[Microservices Architecture]], containerization, and [[automation]] using tools like Kubernetes, [[Docker]], and Terraform.",
-        "OpenAI enthroned as the Levis of Tech": "- Rise of [[Microservices Architecture|MSA]] and [[Serverless]]. [[AWS]] made it easy to spin up and manage ...",
-        "OpenAI가 새로운 테크 리바이스로 등극하다": "... 부상\\\\. AWS는 소규모의 독립적인 서비스를 쉽게 실행하고 관리할 수 있도록 하여 [[Microservices Architecture|마이크로서비스 아키텍처]]의 등장으로 이어졌다. 이 아키텍처를 통해 개발자는 독립적으로 확장할 수 있는 소규모 ..."
+        "OpenAI enthroned as the Levis of Tech": "- Rise of [[Microservices Architecture|MSA]] and [[Serverless]] — [[AWS]] made it easy to spin up and ...",
+        "OpenAI가 새로운 테크 리바이스로 등극하다": "... — AWS는 소규모의 독립적인 서비스를 쉽게 실행하고 관리할 수 있도록 하여 [[Microservices Architecture|마이크로서비스 아키텍처]]의 등장으로 이어졌다. 이 아키텍처를 통해 개발자는 독립적으로 확장할 수 있는 소규모 ..."
     },
     "USDZ": {
         "3D": "- [[USDZ]] for [[Apple]]",
@@ -1343,7 +1343,7 @@ export const backlinks = {
     },
     "OpenAI가 새로운 테크 리바이스로 등극하다": {
         "2023-03-01": "- [[OpenAI가 새로운 테크 리바이스로 등극하다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 OpenAI enthroned as the Levis of Tech <br/> 🇰🇷 [[OpenAI가 새로운 테크 리바이스로 등극하다]]         |   ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 OpenAI enthroned as the Levis of Tech <br/> 🇰🇷 [[OpenAI가 새로운 테크 리바이스로 등극하다]]         | tweet |"
     },
     "Pascal Triangle": {
         "2023-01-24": "- [[Pascal Triangle]]"
@@ -1408,8 +1408,8 @@ export const backlinks = {
         "Hugging Face": "... is an American company that develops tools for building applications using [[ML|machine learning]]. It is most notable for its Transformers library built for [[natural ...",
         "Imagining WebNPU API": "We are already observing blooming On-device inferencing [[ML]] technology with [[Apple]]'s Neural Engine. This includes many jobs, from simple ...",
         "Karrot NX Team Mission Statement": "... 유저가 Discovery 할 수 있게 돕는 일도 할거거든요. 피드 & 추천 [[ML]] & 검색 & NX 가 묶이는 하나의 조직 아래로 들어가는거예요. 그래서 ...",
-        "OpenAI enthroned as the Levis of Tech": "- Fewer expensive Data Engineers & [[ML]] Engineers. The rise of [[AI-native]] platforms makes it easier for non-experts ...",
-        "OpenAI가 새로운 테크 리바이스로 등극하다": "- 값비싼 데이터 엔지니어 및 [[ML]] 엔지니어 감소. [[AI]] 네이티브 플랫폼의 등장으로 비전문가도 [[AI]] 모델을 쉽게 구축하고 ...",
+        "OpenAI enthroned as the Levis of Tech": "- Fewer expensive Data Engineers & [[ML]] Engineers — The rise of [[AI-native]] platforms makes it easier for ...",
+        "OpenAI가 새로운 테크 리바이스로 등극하다": "- 값비싼 데이터 엔지니어 및 [[ML]] 엔지니어 감소 — [[AI]] 네이티브 플랫폼의 등장으로 비전문가도 [[AI]] 모델을 쉽게 ...",
         "Person 392196": "  - felt like a giant [[ML|machine-learning]] research facility",
         "Person E7CFC5": "  - Healthcare [[ML]]",
         "Project Core ML Foundation": "## Different Types of [[ML]]",
@@ -2783,7 +2783,7 @@ export const backlinks = {
     },
     "Eventually, Diligent Immatures build the Future": {
         "2023-02-21": "- [[Eventually, Diligent Immatures build the Future]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-21 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | Tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-21 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | tweet |"
     },
     "POP3 vs IMAP": {
         "Internetworking": "- [[POP3 vs IMAP]]"
@@ -3166,7 +3166,8 @@ export const backlinks = {
         "2023-02-03": "- [[글감]]",
         "2023-02-04": "- [[글감]]",
         "2023-02-07": "- [[글감]]",
-        "2023-02-21": "- [[글감]]"
+        "2023-02-21": "- [[글감]]",
+        "2023-03-01": "- [[글감]]"
     },
     "국내 은행 서비스가 나쁜 이유": {
         "2023-02-20": "- [[국내 은행 서비스가 나쁜 이유]]",
@@ -3316,10 +3317,10 @@ export const backlinks = {
         "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
     },
     "AI-native": {
-        "Cloud-Native": "I am cloud-native, but not [[AI-native]].",
+        "Cloud-Native": "I am cloud-native, and [[AI-native]], and that is my edge.",
         "Imagining WebNPU API": "At one point in the future, when [[AI-native]] (just like us Cloud-Natives) become the norm, there will be more ...",
         "OpenAI enthroned as the Levis of Tech": "... Quizlet, and Snap. This is another cornerstone moment for software. The [[AI-native]]-era gold rush has just begun.",
-        "글감": "- [[AI-native]] Era is coming"
+        "OpenAI가 새로운 테크 리바이스로 등극하다": "## [[AI-native|AI 네이티브]]의 부상"
     },
     "The One and Only WebExtension": {
         "2023-02-26": "- [[The One and Only WebExtension]]",
@@ -3865,7 +3866,7 @@ export const backlinks = {
     },
     "미래는 결국 미성숙한 우리가 만들어낸다": {
         "2023-02-21": "- [[미래는 결국 미성숙한 우리가 만들어낸다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... 02-21 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | Tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "... 02-21 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | tweet |"
     },
     "0059 Spiral Matrix II": {
         "2023-02-09": "- [[0059 Spiral Matrix II]]",
@@ -4403,13 +4404,13 @@ export const backlinks = {
     },
     "Swift String 조작은 왜 그 모양인가": {
         "2023-02-15": "- [[Swift String 조작은 왜 그 모양인가]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Why is Swift String Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]]          | Tweet ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Why is Swift String Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]]          | tweet ..."
     },
     "Serverless": {
         "Cloud-Native": "... and practices, such as DevOps, continuous integration and deployment (CI/CD), and [[serverless]] computing. They leverage these practices to build applications that can be ...",
         "Letter to Mr. Matt Rickard on 2022-12-21": "It would be much better to see a first-class [[serverless]] [[Mail|email]] API (as in doing slightly more than Nodemailer or EmailEngine, ...",
-        "OpenAI enthroned as the Levis of Tech": "- Rise of Microservices Architecture|MSA and [[Serverless]]. [[AWS]] made it easy to spin up and manage small, independent ...",
-        "OpenAI가 새로운 테크 리바이스로 등극하다": "- [Microservices Architecture|마이크로서비스 아키텍처]와 [[Serverless|서버리스]]의 부상\\\\. [[AWS]]는 소규모의 독립적인 서비스를 쉽게 실행하고 관리할 수 있도록 하여 ...",
+        "OpenAI enthroned as the Levis of Tech": "- Rise of Microservices Architecture|MSA and [[Serverless]] — [[AWS]] made it easy to spin up and manage small, ...",
+        "OpenAI가 새로운 테크 리바이스로 등극하다": "- [Microservices Architecture|마이크로서비스 아키텍처]와 [[Serverless|서버리스]]의 부상 — [[AWS]]는 소규모의 독립적인 서비스를 쉽게 실행하고 관리할 수 있도록 ...",
         "Satori": "... by taking a screenshot of an HTML page inside of a [[Serverless]] Function"
     },
     "0021 Merge Two Sorted Lists": {
