@@ -133,7 +133,7 @@ mount: {
 },
 ```
 
-- 이는 또한 public/index.html에서 src를 변경해주었다. 위의 Discussion Post들을 볼 때 여기를 `%PUBLIC_URL%`으로 해야하는 것 같은데, 일단 ./static/index.js을 사용했다. 이를 통해서 index.html은 로딩되었다.
+- 이는 또한 public/index.html에서 src를 변경해주었다. 위의 Discussion Post들을 볼 때 여기를 `%PUBLIC_URL%`으로 해야하는 것 같은데, 일단 ./static/index.js을 사용했다. 이를 통해서 index.[[html]]은 로딩되었다.
 
 ```html
 <script type="module" src="./static/index.js"></script>
@@ -148,7 +148,7 @@ mount: {
 ... && touch docs/.nojekyll
 ```
 
-- 여전히 문제가 발생했다. 조사를 해보니 GitHub Pages가 Environment 탭에서는 Deploy 되었다고 나오는데 실제로는 업데이트되는데 시간이 더 걸리는 문제인 것 같았다. [참고 링크](https://stackoverflow.com/questions/47356997/pushed-nojekyll-file-to-github-pages-no-effect)
+- 여전히 문제가 발생했다. 조사를 해보니 [[GitHub]] Pages가 Environment 탭에서는 Deploy 되었다고 나오는데 실제로는 업데이트되는데 시간이 더 걸리는 문제인 것 같았다. [참고 링크](https://stackoverflow.com/questions/47356997/pushed-nojekyll-file-to-github-pages-no-effect)
 - 웹앱의 `title`도 바꿔봤는데 Production 웹사이트에서는 변경되지 않는 것을 볼 때 업데이트에 약간의 시간이 걸리는 것이라고 판단했다.
 - 웹앱이 업데이트되고 난 후 `_snowpack_/env.js`가 정상적으로 로딩됨을 확인했다. 하지만 여전히 `web_modules`는 404 Not Found가 나타났다.
 - create-snowpack-app을 쓸 경우 `.gitignore`에 `web_modues`가 추가되는 문제 때문이었다. 원래 `web_modules`는 GitHub에 `node_module`처럼 안 올라가야 맞는데, 지금의 경우에는 GitHub을 [[CDN]]처럼 활용하는 것으므로 `web_modules`가 필요하다.

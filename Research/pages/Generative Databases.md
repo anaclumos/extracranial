@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/5593D7'
 ---
 
-In the world of [[Generative AI]]s, can we think Database as Gen AI models instead of key-value storages?
+In the world of [[Generative AI]]s, can we think Database as Gen [[AI]] models instead of key-value storages?
 
 ### [Fuzzy Databases](https://matt-rickard.ghost.io/fuzzy-databases/)
 

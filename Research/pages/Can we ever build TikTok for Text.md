@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/157EC6'
 ---
 
-A month ago, Kevin Systrom and Mike Krieger, the co-founders of Instagram, launched a new app called [[Artifact]]. [[Artifact]] is a personalized news feed app that uses machine learning to understand users' interests and offer a feed of popular articles from a curated list of publishers. The app is described as a **TikTok for text**, where users tap on articles that interest them, and [[Artifact]] will serve similar posts and stories in the future. There have been other attempts to create personalized news feeds, including Google's Home feed, Facebook's Suggested for You, and Apple's News app. Even I also [[곰단|tried once]]. However, none has been as successful as TikTok in creating an engaging and addictive user experience.
+A month ago, Kevin Systrom and Mike Krieger, the co-founders of Instagram, launched a new app called [[Artifact]]. [[Artifact]] is a personalized news feed app that uses [[ML|machine learning]] to understand users' interests and offer a feed of popular articles from a curated list of publishers. The app is described as a **TikTok for text**, where users tap on articles that interest them, and [[Artifact]] will serve similar posts and stories in the future. There have been other attempts to create personalized news feeds, including Google's Home feed, Facebook's Suggested for You, and Apple's News app. Even I also [[곰단|tried once]]. However, none has been as successful as TikTok in creating an engaging and addictive user experience.
 
 While I most admire Kevin Systrom and Mike Krieger, it's a **flop** this time. They attempted to solve the problem of needing more good reads in recent days. They sought a solution by recommending good texts, but I see this as an **inherent problem** of reading texts. Reading and parsing articles take much more mental energy, making it difficult for text-based apps to be as engaging as video-based apps like TikTok.
 
@@ -12,7 +12,7 @@ There have been numerous attempts to resolve this, such as:
 - **Chat interface**. Chat-like ebook services like Hooked use text message format, presenting stories in short, bite-sized messages.
 - **Summary Bot**. Include tl;dr bots to summarize news articles automatically.
 - **Interactive Articles**. Use interactive components like touchable graphs and scroll-reacting elements to make text-based content more engaging and interactive.
-- **Illustrations**. Hire an illustrator or use generative AI to create visual elements for text-based content.
+- **Illustrations**. Hire an illustrator or use generative [[AI]] to create visual elements for text-based content.
 - **... Or Give Up**. Run full-time short-form YouTube or TikTok channels rather than trying to make texts more engaging.
 
 Artifact, as of right now, is fundamentally not different from any other news app. All internet companies now have some algorithmic recommendations, and I felt Artifact is no better. They should've done something more breaking, for example, a [[News App with Friendly Chatbot]].

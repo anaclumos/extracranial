@@ -91,7 +91,7 @@ Regression deals with continuous data.
 - Easy to implement & Adapts easily & Few hyperparameters
 - Does not scale well & Curse of dimensionality & Prone to overfitting
 
-## Different Types of ML
+## Different Types of [[ML]]
 
 ## Supervised
 

@@ -13,7 +13,7 @@ slug: '/8481ED'
 ## Team
 
 - client team
-- ml team
+- [[ml]] team
 - business team
 - testing team
 - [[dx]] team

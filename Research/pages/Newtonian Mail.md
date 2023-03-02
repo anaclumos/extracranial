@@ -9,6 +9,6 @@ In 1672, Newton first presented his theory of light and color in a [[Mail|letter
 
 Many of Newton's [[Mail|letters]] have been preserved and are [still available today](https://www.newtonproject.ox.ac.uk/texts/correspondence/all), providing valuable insights into his scientific thinking and the scientific community of his time. Newton's correspondence offers a fascinating glimpse into the intellectual world of the 17th and 18th centuries. Moreover, it demonstrates the critical role that [[Mail|letters]] played in the scientific and academic communities of the time.
 
-[[Mail|Emails]] can be considered modern-day [[Mail|letters]]. I enjoy exchanging thought-provoking emails about technology and science with [[Super Brain|intellectuals]] worldwide.
+[[Mail|Emails]] can be considered modern-day [[Mail|letters]]. I enjoy exchanging thought-provoking [[Mail|emails]] about technology and science with [[Super Brain|intellectuals]] worldwide.
 
 If this sounds like you, please shoot me a Newtonian [[Mail]] to my [email](https://mailhide.io/e/IXndXpED) 😉
