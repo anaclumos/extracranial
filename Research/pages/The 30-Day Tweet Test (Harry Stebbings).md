@@ -35,6 +35,7 @@ slug: '/18728A'
 | [02-26](../journals/2023-02-26.md) | 🇬🇧 [[IP is the new Real Estate]] <br/> 🇰🇷 [[새로운 부동산은 지적 재산이다]]                                | [Tweet](https://twitter.com/anaclumos/status/1629916767547174912) |
 | [02-27](../journals/2023-02-27.md) | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]               | [Tweet](https://twitter.com/anaclumos/status/1630370788422610945) |
 | [02-28](../journals/2023-02-28.md) | 🇬🇧 [[Newtonian Mail]] <br/> 🇰🇷 [[뉴턴의 서신]]                                                             | [Tweet](https://twitter.com/anaclumos/status/1630727695826046976) |
+| [03-01](../journals/2023-03-01.md) | 🇬🇧 [[OpenAI enthroned as the Levis of Tech]] <br/> 🇰🇷 [[OpenAI가 새로운 테크 리바이스로 등극하다]]         |                                                                   |
 
 ## Announcement
 

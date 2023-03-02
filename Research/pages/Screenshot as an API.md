@@ -9,7 +9,7 @@ slug: '/8B4F7C'
 
 ### [Screenshots as the Universal API](https://matt-rickard.ghost.io/screenshots-as-the-universal-api/?ref=Matt+Rickard-newsletter)
 
-- With ML advancements, screenshots are now a universal data format.
+- With [[ML]] advancements, screenshots are now a universal data format.
   - (decoder) relatively easy to extract...
     - meaning (image-to-text)
     - layout information (object recognition)
@@ -32,7 +32,7 @@ slug: '/8B4F7C'
     - ['타사 음원 리스트 수초만에 이동' 네이버 바이브에 OCR 적용 - 전자신문](https://www.etnews.com/20190410000104)
 - More complex metadata
   - Look how effective image search is on mobile. Dogs, City, Oceans...
-  - Some come from the actual image metadata, and others are inferred with on-device models.
+  - Some come from the actual image metadata, and others are inferred with [[On-device]] models.
   - Automatically encoding this data in traditional formats like [[PDF]] takes much longer.
 - I wrote a reply like the following. [[Letter to Mr. Matt Rickard on 2022-10-03]]
 

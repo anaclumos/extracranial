@@ -5,8 +5,8 @@ slug: '/F9F706'
 
 - [[Project]]
 
-`AIs.txt` is a mental model of a machine learning permission system.
-Intuitively, question this: what if we could make a human-readable file that declines machine learning (a.k.a. [[Copilot]] use)?
+`AIs.txt` is a mental model of a [[ML|machine learning]] permission system.
+Intuitively, question this: what if we could make a human-readable file that declines [[ML|machine learning]] (a.k.a. [[Copilot]] use)?
 It's like robots.txt, but for [[Copilot]].
 
 ```txt
@@ -40,12 +40,12 @@ Technically, [[Apple]]'s **App Tracking Transparency** does not ban all tracking
 ### Why not `LICENSE` or `COPYING.txt`?
 
 Both are mainly written in human language and cannot provide granular scraping permissions depending on the collector.
-Also, GitHub Copilot _ignores_ `LICENSE` or `COPYING.txt`,
-claiming we consented to Copilot using our codes for machine learning by signing up and pushing code to GitHub,
-We may expand the `LICENSE` system to include the terms for machine learning use,
+Also, [[GitHub]] Copilot _ignores_ `LICENSE` or `COPYING.txt`,
+claiming we consented to Copilot using our codes for [[ML|machine learning]] by signing up and pushing code to [[GitHub]],
+We may expand the `LICENSE` system to include the terms for [[ML|machine learning]] use,
 but that would even more edge case and chaotic licensing systems.
 
-### Does machine learning purposes of copyrighted works require a license?
+### Does [[ML|machine learning]] purposes of copyrighted works require a license?
 
 This question is still under debate.
 Opt-out should be the default if it _requires_ a license, making such a license system meaningless.
@@ -60,7 +60,7 @@ See [HIQ LABS, INC., Plaintiff-Appellee, v. LINKEDIN CORPORATION, Defendant-Appe
 
 ### Any industry trends?
 
-[W3](https://www.w3.org/community/tdmrep/) has been working on `robots.txt` for machine learning, aligning with EU Copyright Directives.
+[W3](https://www.w3.org/community/tdmrep/) has been working on `robots.txt` for [[ML|machine learning]], aligning with EU Copyright Directives.
 
 > The goal of this [Community Group](https://www.w3.org/community/tdmrep/) is to facilitate TDM in Europe and elsewhere by specifying a simple and practical machine-readable solution capable of expressing the reservation of TDM rights. [w3c/tdm-reservation-protocol: Repository of the Text and Data Mining Reservation Protocol Community Group](https://github.com/w3c/tdm-reservation-protocol)
 
@@ -68,7 +68,7 @@ See [HIQ LABS, INC., Plaintiff-Appellee, v. LINKEDIN CORPORATION, Defendant-Appe
 
 No.
 One could reasonably argue that AI is doing the same as humans, much better and more efficiently.
-However, that claim goes against the fundamentals of intellectual property.
+However, that claim goes against the fundamentals of [[IP|intellectual property]].
 If any [[IP]] is legally protected, machine-generated code must also have the same level of awareness system to respect it and prevent any plagiarism.
 Otherwise, they must bear legal duties.
 
