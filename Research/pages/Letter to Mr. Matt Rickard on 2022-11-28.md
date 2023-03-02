@@ -11,7 +11,7 @@ It's Sunghyun. I hope you had a great Thanksgiving break — I've been great! I 
 
 I recently had an idea for a hypothetical product, "Let's Alter." I have a vision but need clarification on where to start.
 
-Let's Alter is a non-profit product that uses Generative AIs to describe any image on the web. For example, given an idea of dogs playing frisbee, AI will put the following as such.
+Let's Alter is a non-profit product that uses Generative AIs to describe any image on the web. For example, given an idea of dogs playing frisbee, [[AI]] will put the following as such.
 
 > ALT: Three white dogs are playing frisbee on a lawn with a woman wearing a red skirt
 

@@ -6,8 +6,8 @@ aliases: ['마이크로소프트', 'MS']
 
 ### [Microsoft in talks to acquire a 49% stake in ChatGPT owner OpenAI](https://watcher.guru/news/microsoft-plans-to-acquire-a-49-stake-in-chatgpt-owner-openai)
 
-- The ChatGPT owner hopes to garner $1 billion in revenue by 2024. Therefore, the latest partnership could be a blessing for Microsoft considering its counterpart [[Google]] has been exploring the AI ecosystem. Consequently, the increased demand for AI products could drive Microsoft to greater heights
-- Over the weekend, news broke out about Microsoft incorporating ChartGPT into its office software which includes Word, Outlook, and PowerPoint. The Information reported the possibility of this inclusion
+- The [[ChatGPT]] owner hopes to garner $1 billion in revenue by 2024. Therefore, the latest partnership could be a blessing for Microsoft, considering its counterpart [[Google]] has been exploring the [[AI]] ecosystem. Consequently, the increased demand for [[AI]] products could drive Microsoft to greater heights
+- Over the weekend, news broke out about Microsoft incorporating [[ChatGPT]] into its office software, including Word, Outlook, and PowerPoint. The Information reported the possibility of this inclusion
 
 ### [How Microsoft attempted to make the Xbox 360 dashboard load faster](https://eaton-works.com/2023/01/09/how-microsoft-attempted-to-make-the-xbox-360-dashboard-load-faster/)
 

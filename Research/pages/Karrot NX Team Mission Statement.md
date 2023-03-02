@@ -5,7 +5,7 @@ slug: '/1B7CFB'
 
 ## Task given
 
-> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 이 팀이 Role & Responsibility가 확장되어요.[[Karrot|당근마켓]] 내 여러 서비스들이 만들어내는 컨텐츠를 유저가 Discovery 할 수 있게 돕는 일도 할거거든요. 피드 & 추천 ML & 검색 & NX 가 묶이는 하나의 조직 아래로 들어가는거예요. 그래서 미션과 비전을 수정하려는데요. "앱이 꺼져있어도 늘 동네와 연결될 수 있도록" 같은 느낌으로 작문.
+> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 이 팀이 Role & Responsibility가 확장되어요.[[Karrot|당근마켓]] 내 여러 서비스들이 만들어내는 컨텐츠를 유저가 Discovery 할 수 있게 돕는 일도 할거거든요. 피드 & 추천 [[ML]] & 검색 & NX 가 묶이는 하나의 조직 아래로 들어가는거예요. 그래서 미션과 비전을 수정하려는데요. "앱이 꺼져있어도 늘 동네와 연결될 수 있도록" 같은 느낌으로 작문.
 
 ## Ideas
 

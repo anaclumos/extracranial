@@ -4,12 +4,12 @@ slug: '/E7CFC5'
 ---
 
 - Interviewed on [[2022-09-14]]
-- Currently studying at Stanford Grad School, prev Scale AI engineer
+- Currently studying at Stanford Grad School, prev Scale [[AI]] engineer
   - Policy Fairness
   - Federative Learning
   - HCI
   - Optimized Learning
-  - Healthcare ML
+  - Healthcare [[ML]]
 - Didn't feel much interest in the industry
 - Worked in Stanford Lab during undergrad, helped a lot applying Grad School
 

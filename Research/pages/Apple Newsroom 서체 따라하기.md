@@ -34,7 +34,7 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple Font
 
 ## 1\. [[Apple]] 제품에서는 내장된 [[San Francisco|SF]] 폰트를 불러오자
 
-기업들은 종종 제품 폰트로 시스템 기본 폰트를 사용하려 한다. 그럴 때마다 흔하게 사용되는 방식이다. 대표적으로 GitHub이 이와 같은 방식을 사용한다.
+기업들은 종종 제품 폰트로 시스템 기본 폰트를 사용하려 한다. 그럴 때마다 흔하게 사용되는 방식이다. 대표적으로 [[GitHub]]이 이와 같은 방식을 사용한다.
 
     1. -apple-system,
     /* Safari에서 SF 한글/영문 폰트. Firefox에서 SF 영문 폰트 */
