@@ -9,4 +9,4 @@ These software engineers are accustomed to deploying applications on cloud infra
 
 Cloud Native software engineers are familiar with modern application design patterns and practices, such as DevOps, continuous integration and deployment (CI/CD), and [[serverless]] computing. They leverage these practices to build applications that can be deployed and scaled quickly and efficiently in the cloud.
 
-I am cloud-native, but not [[AI-native]].
+I am cloud-native, and [[AI-native]], and that is my edge.
