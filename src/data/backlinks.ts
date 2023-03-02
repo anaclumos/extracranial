@@ -455,6 +455,9 @@ export const backlinks = {
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
         "Cool Generative AI Applications": "- [[ChatGPT]]",
+        "Microsoft": "- The [[ChatGPT]] owner hopes to garner $1 billion in revenue by 2024. Therefore, ...",
+        "OpenAI enthroned as the Levis of Tech": "OpenAI has launched its [[ChatGPT]] API service, powered by the GPT-3.5-turbo [[AI]] model. The model is ...",
+        "OpenAI가 새로운 테크 리바이스로 등극하다": "OpenAI가 방금 GPT-3.5-터보 모델을 기반으로 한 [[ChatGPT]] API 서비스를 출시했다.",
         "Proposal of Research to Professor Cote": "... given the recent boom of generative AIs, such as the recent [[ChatGPT]] (i.e., we now have the infinite [[AI]] monkey making infinite keystrokes). ...",
         "Readwise Reader": "- uses [[ChatGPT]]",
         "Search AI": "- In many ways, one might say that [[ChatGPT]] never \"truly understands\" things; it just \"knows how to produce stuff ...",
@@ -654,13 +657,18 @@ export const backlinks = {
         "Jumpsite": "- [[Interface (Jumpsite)]]"
     },
     "IP": {
-        "AIs.txt": "If any [[IP]] is legally protected, machine-generated code must also have the same level ...",
+        "2022-11-14": "... after 3.5 years 😓. If anyone is interested in buying the [[IP]], please reach out.",
+        "AIs.txt": "However, that claim goes against the fundamentals of [[IP|intellectual property]].",
         "IP Spoofing": "- Faking an [[IP]] by sending packet with false source address",
+        "IP is the new Real Estate": "[[IP|Intellectual property]] ([[IP]]) is a new form of real estate because it represents ...",
+        "Internet Protocol Stack": "- Network. [[IP]]. Routing Protocols. Handles Datagrams.",
         "Internetworking": "- [[IP]]",
+        "Metadream": "... of Yidian Zixun, a Chinese news aggregator. Metadream also acquired the [[IP|intellectual property]] rights of the app True.ly in May 2022 and has since ...",
         "Preservation of Data": "- Find another [[IP]] without restrictions you are facing.",
         "Protocol Wars": "... States of America|U.S. Department of Defense was an early adopter of TCP/[[IP]]",
         "http 없는 http 서버 만들기": "http 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 사용하면 이를 해결할 수 있다. `net` ...",
-        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ..."
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ...",
+        "새로운 부동산은 지적 재산이다": "지적 재산([[IP]])은 장기간에 걸쳐 경제적 이익을 창출할 수 있는 재산권이라는 점에서 새로운 형태의 ..."
     },
     "CDN": {
         "2022-08-28": "... builds faster (~3m) than Cloudflare Pages (~5m). Vercel has Seoul region [[CDN]].",
@@ -927,7 +935,7 @@ export const backlinks = {
         "Person 1E6ABA": "- Currently works at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager.",
         "Toss": "- [[Financial Technology|FinTech]] [[Unicorn]] of [[대한민국|Korea]].",
         "Why Korean Banks Suck": "... limited competition in the 대한민국|Korean banking sector, the emergence of new [[Financial Technology|fintech]] companies like [[Toss]] and KakaoBank has brought some positive changes. These ...",
-        "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 Toss|토스, 카카오뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 가져왔다. 이들 기업은 혁신적인 디지털 ...",
+        "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 Toss|토스, Kakao|카카오뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 가져왔다. 이들 기업은 혁신적인 디지털 ...",
         "유난한 도전": "## [[Financial Technology|핀테크]]란"
     },
     "In search of my domain": {
@@ -1798,8 +1806,8 @@ export const backlinks = {
         "Bing": "... with Bing, ask real questions, and get complete answers). The same [[OpenAI]] technology behind [[ChatGPT]] powers this feature.",
         "ChatGPT": "... Premium brings the latest technologies, including Large Language Models powered by [[OpenAI]]'s GPT-3.5, to make meetings more intelligent, personalized, and protected—whether it's one-on-one, ...",
         "Musk": "... Inc.; founder of The Boring Company; and co-founder of Neuralink and [[OpenAI]]. With an estimated net worth of around $210 billion as of ...",
-        "OpenAI enthroned as the Levis of Tech": "[[OpenAI]] has launched its ChatGPT API service, powered by the GPT-3.5-turbo [[AI]] ...",
-        "OpenAI가 새로운 테크 리바이스로 등극하다": "[[OpenAI]]가 방금 GPT-3.5-터보 모델을 기반으로 한 ChatGPT API 서비스를 출시했다.",
+        "OpenAI enthroned as the Levis of Tech": "[[OpenAI]] has launched its [[ChatGPT]] API service, powered by the GPT-3.5-turbo [[AI]] ...",
+        "OpenAI가 새로운 테크 리바이스로 등극하다": "[[OpenAI]]가 방금 GPT-3.5-터보 모델을 기반으로 한 [[ChatGPT]] API 서비스를 출시했다.",
         "Personal Training Corpus": "... at the end of the day, the files are processed with [[OpenAi]]'s Whisper and transformed into text files from which the information is ...",
         "Proposal of Research to Professor Cote": "... Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and ...",
         "Search AI": "... 되어가고 있어요. 그럼 검색은 더 이상 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 [[ChatGPT]]에 많은 사람들이 놀라고 있어요. 모든 것의 정답을 주지는 못 하는데요. ..."
@@ -2708,7 +2716,13 @@ export const backlinks = {
     },
     "GitHub": {
         "2023-01-09": "- Can we use [[GitHub]]'s subscribe feature as a [[Newsletter]]?",
+        "2023-02-16": "I got invited to [[GitHub]] Blocks!",
+        "AI replaces expensive jobs first": "- Like [[GitHub]] [[Copilot]] but for medical and legal cases.",
+        "AIs.txt": "Also, [[GitHub]] Copilot ignores `LICENSE` or `COPYING.txt`,",
+        "AI는 고가 노동부터 점령한다": "- 마치, 의료 법률계의 [[GitHub]] [[Copilot]] (2021년에 출시되어 이미 보급된 [[AI|인공지능]] 코드 작성기.)",
+        "Apple Newsroom 서체 따라하기": "... 시스템 기본 폰트를 사용하려 한다. 그럴 때마다 흔하게 사용되는 방식이다. 대표적으로 [[GitHub]]이 이와 같은 방식을 사용한다.",
         "Apple-like Block Interface": "## [[GitHub]]",
+        "Ghost 테마를 자동 배포하는 방법": "6.  완성된 테마 파일을 [[GitHub]] Repository에 Push한다.",
         "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
         "Snowpack으로 WASM 시작하기": "## [[GitHub]] Pages에 Snowpack App 호스팅 및 시행착오",
         "Social Coding": "- [[GitHub]] is removing the trending tab at the end of this month ...",
@@ -2716,7 +2730,9 @@ export const backlinks = {
         "YCLF 주간 사용자 1000명": "[[GitHub]] 이슈를 남겨준 분들도 계셨고 [[Mail|메일]]을 보내주신 분들도 계셨다. 유용한 피드백을 많이 ...",
         "sem.sh": "- [[GitHub]] Profile Widget",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "우선 balenaSound GitHub Repository에 들어가서 저장소를 내려받는다. [[GitHub]]을 사용하지 않는 사람이라면 웹사이트에 있는 Clone or Download 버튼을 누른 뒤 ...",
-        "배달의민족 FE 개발자가 일하는 법 발표": "... 사용했다. 빠른 것 같고 좋은데, 장애를 겪고 나면 생각이 달라진다. 예전에는 [[GitHub]]를 사용하다가 요즘에는 비슷한 도구 (GitLab) 을 사용한다. 그래서 PR을 하고 올리면 ..."
+        "배달의민족 FE 개발자가 일하는 법 발표": "... 사용했다. 빠른 것 같고 좋은데, 장애를 겪고 나면 생각이 달라진다. 예전에는 [[GitHub]]를 사용하다가 요즘에는 비슷한 도구 (GitLab) 을 사용한다. 그래서 PR을 하고 올리면 ...",
+        "초대장의 시대": "그럼에도 나는 [[GitHub]]의 전 CEO Nat의 관점에 동의한다. 특히 ② 써보기 엄청 쉽다라는 항목. ...",
+        "코드클럽": "   제가 우리 학교에서 가장 잡다한 코딩과 [[GitHub]] 자료 공유 활동을 활발히 한다는 것은 알고 계시지요? 저는 지난 1년 ..."
     },
     "Imoogi and Dragon Company": {
         "2023-02-01": "- [[Imoogi and Dragon Company]]",
@@ -2884,7 +2900,7 @@ export const backlinks = {
         "Toss Product Sans": "- Font by [[Toss]].",
         "Tossface": "- Emoji Font by [[Toss]]",
         "Why Korean Banks Suck": "... 대한민국|Korean banking sector, the emergence of new Financial Technology|fintech companies like [[Toss]] and KakaoBank has brought some positive changes. These companies have disrupted ...",
-        "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 [[Toss|토스]], 카카오뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 ...",
+        "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 [[Toss|토스]], [[Kakao|카카오]]뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 ...",
         "서비스 시밍": "- [[Toss|토스]]도 송금 시스템을 완성하지 못해 하루에 3번 이승건이 직접 은행에 가서 송금 ...",
         "유난한 도전": "이승건은 \"앱 하나만 만들어보는 거야, 개원은 반년만 미루자\"라는 마음으로 [[Toss|토스]]를 시작했다.",
         "프로젝트 어덕행덕": "... 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 Kakao|카카오페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 것. ..."
@@ -4204,10 +4220,13 @@ export const backlinks = {
         "AI는 고가 노동부터 점령한다": "... 승리했지만, 승리 아닌 승리를 거두고 말았다. 타다가 멸망한 탓에 그 옆의 [[Kakao|카카오]]모빌리티가 시장을 독점하는 결과를 가져왔기 때문이다.",
         "Brunch": "- 한국어|Korean Writing Service operated by [[Kakao]]",
         "How to Build Software like an SRE": "  - do you see [[Kakao]]?",
+        "IP is the new Real Estate": "This edge is why Naver and [[Kakao]], two Korean Google, are so paranoid about purchasing IPs. For example, ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in 대한민국|Korea, Naver, and [[Kakao]].",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... App is mighty and dangerous. We have a Super App called [[Kakao]], a go-to for everything. It's [[Google]] + Facebook + Uber + ...",
         "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
         "Mental Simulation of Firefox and Signal as a Super App": "... onboard cannot stop. Especially with group chat, as we learned from [[Kakao]].",
+        "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 Toss|토스, [[Kakao|카카오]]뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 가져왔다. ...",
+        "새로운 부동산은 지적 재산이다": "이러한 장점 때문에 한국의 구글이라 불리는 Naver|네이버와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 것이다. 예를 들어 Naver|네이버는 와트패드를, Kakao|카카오는 타파스와 ...",
         "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 Kakao|카카오라는 간편결제를 시작한다는 이야기를 들었다.",
         "프로젝트 어덕행덕": "... - 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 [[Kakao|카카오]]페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 ..."
     },
@@ -4829,7 +4848,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-10-03": "... as the omnipotent search engine for 대한민국|Korea (bigger market cap than [[Google]] 대한민국|Korea) and [[Kakao]] services as an almighty chatting app (more than ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... have a Super App called Kakao, a go-to for everything. It's [[Google]] + Facebook + Uber + Uber Eats + Netflix + Spotify ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... in the United States of America|United States are vague. Apple and [[Google]] divide the tech market into two, not only in terms of ...",
-        "Microsoft": "... latest partnership could be a blessing for Microsoft considering its counterpart [[Google]] has been exploring the [[AI]] ecosystem. Consequently, the increased demand for ...",
+        "Microsoft": "... latest partnership could be a blessing for Microsoft, considering its counterpart [[Google]] has been exploring the [[AI]] ecosystem. Consequently, the increased demand for ...",
         "Perceptual Hashing": "... the change of hash collision to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
         "Person 392196": "- Will work at [[Google]] soon",
@@ -5032,12 +5051,14 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-10 | 🇬🇧 In search of my domain <br/> 🇰🇷 [[도메인 찾아 삼만리]]            ..."
     },
     "Naver": {
+        "IP is the new Real Estate": "This edge is why [[Naver]] and [[Kakao]], two Korean Google, are so paranoid about purchasing IPs. ...",
         "Krafton Way": "... 첫눈을 매각한 이후 장병규는 종종 \"내가 아는 모든 좋은 사람들까지 다 [[Naver|네이버]]에 매각됐다\"고 말했다. 돈 말고는 아무것도 없는 것처럼 느껴졌다.",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in 대한민국|Korea, [[Naver]], and [[Kakao]].",
         "Personal Training Corpus": "> \"보이스 메이커를 통해 제작된 AI 보이스는 [[Naver|네이버]] 클로바더빙 서비스에서 누구나 무료로 이용할 수 있게 제공합니다. 향후에는 클로바더빙 유료 ...",
         "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ...",
         "Search AI와 인터넷의 한국어": "무엇보다 대부분의 자료가 [[Naver|네이버]]에 갇혀있고,",
         "Service Shimming": "- [[Naver]] (≈ [[대한민국|Korean]] Google), for a while, failed to make a News ...",
+        "새로운 부동산은 지적 재산이다": "이러한 장점 때문에 한국의 구글이라 불리는 [[Naver|네이버]]와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 것이다. 예를 들어 Naver|네이버는 와트패드를, [[Kakao|카카오]]는 ...",
         "서비스 시밍": "- [[Naver|네이버]]는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 일일이 찾아가며 뉴스를 배포할 ...",
         "유난한 도전": "... 사용자도 많고 간편한 Toss|토스결제를 너나없이 이용하고 싶어 할 것이다. 그렇지 않았다. [[Naver|네이버]]페이, [[Kakao|카카오]]페이, 삼성페이 등 경쟁자가 너무 많았다. Toss|토스페이의 설득력이 부족했다.",
         "하늘땅사람 개발 기록": "- `( ••)` `⊹⋛⋋( ՞ਊ ՞)⋌⋚⊹) `와 같은 이모티콘. [[Naver|네이버]] 스마트 키보드의 기능 중 꽤 좋은 기능이었다."
@@ -5907,10 +5928,12 @@ export const backlinks = {
         "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
         "Markdown Email Client": "... select one CSS. Then... it sends as a beautiful and clean [[HTML]] Mail|email!",
         "Preservation of Data": "Save the raw [[HTML]] and process it later.",
+        "Proposal of Research to Professor Cote": "An inline frame, often shortened to iframe, is an [[HTML]] element that allows you to embed one HTML document within another. ...",
         "Protocol Wars": "... example, Mosaic had a feature that automatically converted Gopher menus into [[HTML]]",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Setting different images for Light & Dark mode": "Using `preferred color scheme` CSS property and [[HTML]] Picture `srcset` property.",
         "Shopify Analyzes CSS Frameworks": "... solution across Rails, React, Next.js, React-Native, rollup, Vite, esbuild, webpack, sewing-kit [[HTML]], and Native applications. | 2    | 2  ...",
+        "Snowpack으로 WASM 시작하기": "... 때 여기를 `%PUBLICURL%`으로 해야하는 것 같은데, 일단 ./static/index.js을 사용했다. 이를 통해서 index.[[html]]은 로딩되었다.",
         "Stories Behind Satori": "... were the perfect balance of the two, being fast and dev-friendly ([[HTML]]/[[CSS]])",
         "Svelte": "... not a monolithic JavaScript library imported by applications: instead, Svelte compiles [[HTML]] templates to specialized code that manipulates the [[DOM]] directly, which may ...",
         "Tailwind": "> Rapidly build modern websites without ever leaving your [[HTML]]. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, ...",
@@ -5921,7 +5944,8 @@ export const backlinks = {
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 IP 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 포토샵으로 삭제했다.",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 것이라고 판단하고 API 서버를 제작하기 시작했다. 즉, 이전에는 php로 렌더링 하는 [[html]] 문서뿐이었던 웹이 한순간에 또 다른 클라이언트가 된 것이다. 이때까지만 해도 우아한 ...",
         "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 작업이다. 특정 텍스트를 강조하고 싶다면 다음과 ...",
-        "코드클럽": "또한 BCD의 모든 수업 자료는 [[HTML]] 문법과 Code Snippet을 활용한 Markdown 문서로 제작되며, 누구나 사용할 수 있도록 ..."
+        "코드클럽": "또한 BCD의 모든 수업 자료는 [[HTML]] 문법과 Code Snippet을 활용한 Markdown 문서로 제작되며, 누구나 사용할 수 있도록 ...",
+        "하늘땅사람 개발 기록": "- [[HTML]] input 태그에서 `아`를 입력 불가능함. `누`, `노` 등도 불가능함. ← [[2023-01-15]] ..."
     },
     "I just want it fixed": {
         "Neo Korea": "- [[I just want it fixed|그냥 고치면 좋겠다]]",
@@ -5984,7 +6008,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-11-28": "... the web. For example, given an idea of dogs playing frisbee, [[AI]] will put the following as such.",
         "Magician": "... a Figma plugin that lets you design with the power of [[AI]] to do everything from copywriting to generating unique icons from the ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... as App Economy vs. Web Economy, Closed vs. (fairly) Open, Edge-first [[AI]] vs. Cloud-first AI, etc.",
-        "Microsoft": "... blessing for Microsoft considering its counterpart Google has been exploring the [[AI]] ecosystem. Consequently, the increased demand for AI products could drive Microsoft ...",
+        "Microsoft": "... blessing for Microsoft, considering its counterpart Google has been exploring the [[AI]] ecosystem. Consequently, the increased demand for AI products could drive Microsoft ...",
         "OpenAI": "OpenAI is an [[AI]] research and deployment company that aims to ensure that artificial general ...",
         "OpenAI enthroned as the Levis of Tech": "OpenAI has launched its ChatGPT API service, powered by the GPT-3.5-turbo [[AI]] model. The model is available for $0.002 per 1,000 tokens and ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "방금 [[AI]] 네이티브 시대의 골드러시가 시작되었다.",
