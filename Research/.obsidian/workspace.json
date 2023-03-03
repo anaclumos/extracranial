@@ -4,23 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "d34591a0a3dab050",
+        "id": "3e2f806c2d52ad5f",
         "type": "tabs",
         "children": [
           {
-            "id": "8b333aa17c3c74d4",
+            "id": "bdafe5a4660283e0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2bba9a7c9f19bc6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/글감.md",
+                "file": "pages/National Crises and Intellectual Individuals — A Review Focused on GB and KR.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/글감.md",
+                "file": "pages/National Crises and Intellectual Individuals — A Review Focused on GB and KR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/글감.md"
+                "file": "pages/National Crises and Intellectual Individuals — A Review Focused on GB and KR.md"
               }
             }
           }
@@ -129,12 +138,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b333aa17c3c74d4",
+  "active": "2bba9a7c9f19bc6a",
   "lastOpenFiles": [
-    "journals/2023-03-01.md",
-    "pages/OpenAI enthroned as the Levis of Tech.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "journals/2023-03-02.md",
+    "pages/National Crises and Intellectual Individuals — A Review Focused on GB and KR.md",
     "pages/글감.md",
+    "pages/OpenAI enthroned as the Levis of Tech.md",
+    "journals/2023-03-01.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/OpenAI가 새로운 테크 리바이스로 등극하다.md",
     "pages/AI-native.md",
     "pages/Cloud-Native.md",
@@ -155,8 +166,6 @@
     "pages/Prompt Marketplace.md",
     "pages/Kakao.md",
     "pages/Naver.md",
-    "pages/Disable Screenshot Drop Shadow in macOS.md",
-    "pages/IP.md",
     "assets/C25819.png",
     "assets/9C5106.png",
     "assets/834593.png",
