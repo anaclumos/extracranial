@@ -779,7 +779,7 @@ export const filenames = {
     "My Raycast Wrapped of 2022": "C066BC",
     "NPU": "E4F413",
     "Nation as a Service": "A95793",
-    "National Crises and Intellectual Individuals — A Review Focused on GB and KR": "48A308",
+    "National Crises and Intellectual Individuals — Focused on GB and KR": "48A308",
     "Natural Language Processing": "F9C081",
     "Naver": "E01F8B",
     "Negative Binomial": "51577A",

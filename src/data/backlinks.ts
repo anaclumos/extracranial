@@ -1593,9 +1593,6 @@ export const backlinks = {
         "2022-11-30": "- [[Centering]]",
         "Android": "- [[Centering]]"
     },
-    "National Crises and Intellectual Individuals — A Review Focused on GB and KR": {
-        "2023-03-02": "- [[National Crises and Intellectual Individuals — A Review Focused on GB and KR]]"
-    },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
         "2022-08-29": "- [[Internetworking]]",
@@ -2276,6 +2273,10 @@ export const backlinks = {
         "Dioxus": "They are written in [[Rust]], inspired by [[React]].",
         "WebGPU": "- It's a stand-alone TypeScript+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "Write Once Run Everywhere": "- [[Rust]]"
+    },
+    "National Crises and Intellectual Individuals — Focused on GB and KR": {
+        "2023-03-02": "- [[National Crises and Intellectual Individuals — Focused on GB and KR]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 03—02 | 🇬🇧 [[National Crises and Intellectual Individuals — Focused on GB and KR]]            ..."
     },
     "Why is Swift String Manipulation like that": {
         "2023-02-15": "- [[Why is Swift String Manipulation like that]]",

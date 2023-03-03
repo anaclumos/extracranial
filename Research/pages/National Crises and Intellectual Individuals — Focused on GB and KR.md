@@ -9,7 +9,7 @@ Today marks the thirtieth day of my challenge to post meaningful content on the 
 
 But the question remains - **what can an individual do to impact the ominous trajectory of a nation**? It may seem daunting, even overwhelming, to contemplate the scale of these challenges. And yet, in the words of the great Irish poet William Butler Yeats, "Think where man's glory most begins and ends, and say my glory was I had such friends." We must recognize the power of the individual to effect change and to be a catalyst for progress, no matter how small our contribution may seem.
 
-# National Difficulties
+## National Difficulties
 
 Let us first embark on a journey of discovery, exploring the trials and tribulations that beset our nations. For it is only by shining a light on the challenges, we face that we can begin to overcome them.
 
@@ -20,7 +20,7 @@ Let us first embark on a journey of discovery, exploring the trials and tribulat
 
 As I outline the trials and tribulations plaguing our nations, a sense of sorrow overcomes me. For I cannot help but lament the foreboding future that lies ahead. The weight of our collective struggles feels heavy upon my heart, casting a shadow over any glimmer of hope that may flicker within. Oh, how I wish for brighter days to come, yet the clouds of uncertainty loom ever closer, threatening to engulf us in their darkness.
 
-# What can we intellects do?
+## The duties of intellectual individuals
 
 To make a lasting impact on the trajectory of a nation, we must not only have the desire for change but also wield influence and power. We must strive to obtain the necessary resources, knowledge, and expertise to make a meaningful impact. With our efforts, we can shape the direction of our nation, contributing to progress and development. Wielding influence and shaping a nation's trajectory is no small feat. It demands a careful and considered approach grounded in a deep understanding of the challenges. And yet, it is a goal worth striving towards, a noble aspiration that speaks to the very heart of our humanity.
 
@@ -34,15 +34,15 @@ All of these combined, we find ourselves within the realm of polymaths. A polyma
 
 Throughout the annals of British and Korean history, we can uncover remarkable examples of polymaths whose expansive knowledge and deep understanding of diverse fields were matched only by their sense of social responsibility. These individuals, whose mighty intellects spanned the sciences, humanities, and arts, left an indelible mark on their respective societies and continue to inspire generations to this day. Moreover, through their unwavering commitment to learning and persistent sense of duty to their fellow human beings, these polymaths embodied what it means to be an actual Renaissance person.
 
-# Rising to a Polymaths
+## Rising to Polymaths
 
-## _Knowledge is power_ — Francis Bacon.
+### _Knowledge is power_ — Francis Bacon
 
 Francis Bacon was a visionary whose intellectual contributions impacted the trajectory of England, leaving an enduring legacy that can still be felt today. His advocacy of the scientific method and emphasis on empirical observation and experimentation broke down the limitations of traditional academic learning, opening up new avenues for interdisciplinary research. This helped England to progress in science and technology and develop a more evidence-based and innovative approach to knowledge.
 
 Bacon's influence, however, extended far beyond the realm of science. His contributions to English politics and law helped shape the legal system and political institutions that have played a vital role in English society today. He played a significant role in developing the standard law legal system. His ideas about the separation of powers and the importance of individual liberty have continued to shape political discourse in England and beyond.
 
-## _Reading is our proper duty_ — Dasan
+### _Reading is our proper duty_ — Dasan
 
 > This one thing, reading, enables us to keep company with the sages of old, to enlighten the people on the path, to master the divine law, to assist the king in his affairs, and to raise men above the class of beasts and worms, and to sustain the vast universe so that reading is our proper duty. (오직 독서 이 한 가지 일이 위로는 옛 성현(聖賢)을 좇아 함께 할 수 있게 하고 아래로는 백성을 길이 깨우칠 수 있게 하며 신명에 통달하게 하고 임금의 정사를 도울 수 있게 할 뿐 아니라 인간으로 하여금 짐승과 벌레의 부류를 벗어나 저 광대한 우주를 지탱하게 만드니 독서야말로 우리들의 본분(本分)이라 하겠다.)
 
@@ -54,9 +54,11 @@ Dasan's contributions extended to various fields, from science and agriculture t
 
 Moreover, Dasan was a crucial figure in the Silhak movement, which sought to incorporate modern Western knowledge and scientific principles into Korean society. He recognized that Korea's reliance on ancient and traditional knowledge hindered progress and advocated for incorporating modern scientific methods and ideas to drive Korea's advancement.
 
-# Conclusion
+## Conclusion — P vs. NP Problems
 
 As we contemplate the challenges facing our nations, the Republic of Korea and the United Kingdom, we must recognize the power of our collective efforts to shape the future of our countries. We must work together to build a peaceful and prosperous future in a world beset by uncertainty and conflict. We must harness the power of our knowledge and expertise to overcome the economic, social, geopolitical, and administrative difficulties that beset us. We must build bridges of understanding and cooperation, using our diverse perspectives to find innovative solutions to complex problems. But, most importantly, we must remain committed to the pursuit of progress and enlightenment, grounded in our shared values of intellectual curiosity, social responsibility, and the pursuit of justice.
+
+As I pondered the intricacies of real-world problems, I couldn't help but draw a comparison to the enigmatic P vs. NP problem in computational theory. The notion of polynomial reductions, whereby a complex problem can be broken down into smaller, more manageable sub-problems, is akin to the intricate threads that weave together the fabric of our society. Just as a chain of reductions can lead to the efficient solution of a problem, so too can a singular solution be applied to a myriad of issues, much like a key that unlocks multiple doors. This ability to identify reductions and use them across a range of social and national problems holds the key to solving the complex challenges that face our world. By classifying problems into complexity classes, we gain a deeper understanding of the underlying mechanisms that drive them, providing a solid foundation for developing effective and sustainable solutions. Indeed, the search for reductions is the most powerful strategy for tackling the complex social problems that confront us and, in doing so, creating a better and more prosperous society for all.
 
 Let us embrace the legacy of polymaths, such as Francis Bacon and Dasan, who used their vast knowledge and influence to shape the trajectory of their respective societies. Let us emulate their commitment to progress and innovation, using our talents to drive positive change and create a better future for all. To do so, we must invest in education and diverse perspectives, build networks and relationships with like-minded individuals, mentor the next generation, and advocate for policy change. We must use our writing, research, and advocacy to promote social justice, human rights, and sustainable development, leaving a legacy of progress and enlightenment for future generations.
 
