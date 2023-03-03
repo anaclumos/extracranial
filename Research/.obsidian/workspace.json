@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8ee5e7221ca52013",
+        "id": "cbf019d06c88dfaa",
         "type": "tabs",
         "children": [
           {
-            "id": "5d1dd0cf82f152d6",
+            "id": "19b387a13bd99a68",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/On National Crises and the Intellectuals — Focused on GB and KR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -83,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/On National Crises and the Intellectuals — Focused on GB and KR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/On National Crises and the Intellectuals — Focused on GB and KR.md"
+              }
             }
           }
         ]
@@ -121,12 +129,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5d1dd0cf82f152d6",
+  "active": "19b387a13bd99a68",
   "lastOpenFiles": [
-    "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md",
-    "journals/2023-03-03.md",
-    "pages/On National Crises and Intellectual Individuals — Focused on GB and KR.md",
     "journals/2023-03-02.md",
+    "journals/2023-03-03.md",
+    "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md",
+    "pages/On National Crises and the Intellectuals — Focused on GB and KR.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/글감.md",
     "pages/OpenAI enthroned as the Levis of Tech.md",
