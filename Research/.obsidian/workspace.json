@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "912c0d80a82356a4",
+        "id": "8ee5e7221ca52013",
         "type": "tabs",
         "children": [
           {
-            "id": "2bba9a7c9f19bc6a",
+            "id": "5d1dd0cf82f152d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -129,11 +121,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2bba9a7c9f19bc6a",
+  "active": "5d1dd0cf82f152d6",
   "lastOpenFiles": [
-    "pages/On National Crises and Intellectual Individuals — Focused on GB and KR.md",
     "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md",
     "journals/2023-03-03.md",
+    "pages/On National Crises and Intellectual Individuals — Focused on GB and KR.md",
     "journals/2023-03-02.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/글감.md",
