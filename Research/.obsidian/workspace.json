@@ -4,32 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3e2f806c2d52ad5f",
+        "id": "912c0d80a82356a4",
         "type": "tabs",
         "children": [
-          {
-            "id": "bdafe5a4660283e0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
           {
             "id": "2bba9a7c9f19bc6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/National Crises and Intellectual Individuals — Focused on GB and KR.md",
-                "mode": "source",
+                "file": "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/National Crises and Intellectual Individuals — Focused on GB and KR.md",
+                "file": "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/National Crises and Intellectual Individuals — Focused on GB and KR.md"
+                "file": "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md"
               }
             }
           }
@@ -140,9 +131,11 @@
   },
   "active": "2bba9a7c9f19bc6a",
   "lastOpenFiles": [
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
+    "pages/On National Crises and Intellectual Individuals — Focused on GB and KR.md",
+    "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md",
+    "journals/2023-03-03.md",
     "journals/2023-03-02.md",
-    "pages/National Crises and Intellectual Individuals — Focused on GB and KR.md",
+    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/글감.md",
     "pages/OpenAI enthroned as the Levis of Tech.md",
     "journals/2023-03-01.md",
@@ -164,8 +157,6 @@
     "pages/VP9 vs HEVC.md",
     "pages/Brunch violates SF terms of use.md",
     "pages/Prompt Marketplace.md",
-    "pages/Kakao.md",
-    "pages/Naver.md",
     "assets/C25819.png",
     "assets/9C5106.png",
     "assets/834593.png",

@@ -1343,7 +1343,7 @@ export const backlinks = {
     },
     "OpenAI가 새로운 테크 리바이스로 등극하다": {
         "2023-03-01": "- [[OpenAI가 새로운 테크 리바이스로 등극하다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 OpenAI enthroned as the Levis of Tech <br/> 🇰🇷 [[OpenAI가 새로운 테크 리바이스로 등극하다]]         | tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 OpenAI enthroned as the Levis of Tech <br/> 🇰🇷 [[OpenAI가 새로운 테크 리바이스로 등극하다]]            ..."
     },
     "Pascal Triangle": {
         "2023-01-24": "- [[Pascal Triangle]]"
@@ -1528,6 +1528,11 @@ export const backlinks = {
     "Symbol (Computer Systems)": {
         "2022-12-08": "- [[Symbol (Computer Systems)]]",
         "Link (Computer Systems)": "- [[Symbol (Computer Systems)|Symbol]] Resolution (Function names, Global variables, Static variables ... )"
+    },
+    "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": {
+        "2023-03-03": "- [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]]",
+        "On National Crises and Intellectual Individuals — Focused on GB and KR": "[[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로|한국어 🇰🇷 버전은 여기에 있습니다.]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "... and Intellectual Individuals — Focused on GB and KR <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | tweet |"
     },
     "Separation of Computer Scientists and Computer Technologists": {
         "2022-08-24": "- [[Separation of Computer Scientists and Computer Technologists]]"
@@ -2149,6 +2154,11 @@ export const backlinks = {
         "glTF": "... A glTF file uses one of two possible file extensions: .gltf ([[JSON]]/ASCII) or .glb (binary). Both .gltf and .glb files may reference external ...",
         "sem.sh": "- [[JSON]] API"
     },
+    "On National Crises and Intellectual Individuals — Focused on GB and KR": {
+        "2023-03-02": "- [[On National Crises and Intellectual Individuals — Focused on GB and KR]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 03-02 | 🇬🇧 [[On National Crises and Intellectual Individuals — Focused on GB and KR]] <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "[[On National Crises and Intellectual Individuals — Focused on GB and KR|You can find the English 🇬🇧 version here.]]"
+    },
     "GA": {
         "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview",
         "2022-12-06": "- [[GA]]: [[Nigh]]",
@@ -2273,10 +2283,6 @@ export const backlinks = {
         "Dioxus": "They are written in [[Rust]], inspired by [[React]].",
         "WebGPU": "- It's a stand-alone TypeScript+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "Write Once Run Everywhere": "- [[Rust]]"
-    },
-    "National Crises and Intellectual Individuals — Focused on GB and KR": {
-        "2023-03-02": "- [[National Crises and Intellectual Individuals — Focused on GB and KR]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 03—02 | 🇬🇧 [[National Crises and Intellectual Individuals — Focused on GB and KR]]            ..."
     },
     "Why is Swift String Manipulation like that": {
         "2023-02-15": "- [[Why is Swift String Manipulation like that]]",
@@ -2787,7 +2793,7 @@ export const backlinks = {
     },
     "Eventually, Diligent Immatures build the Future": {
         "2023-02-21": "- [[Eventually, Diligent Immatures build the Future]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-21 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-21 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]     ..."
     },
     "POP3 vs IMAP": {
         "Internetworking": "- [[POP3 vs IMAP]]"
@@ -3870,7 +3876,7 @@ export const backlinks = {
     },
     "미래는 결국 미성숙한 우리가 만들어낸다": {
         "2023-02-21": "- [[미래는 결국 미성숙한 우리가 만들어낸다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... 02-21 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]] | tweet |"
+        "The 30-Day Tweet Test (Harry Stebbings)": "... 02-21 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]            ..."
     },
     "0059 Spiral Matrix II": {
         "2023-02-09": "- [[0059 Spiral Matrix II]]",
@@ -4408,7 +4414,7 @@ export const backlinks = {
     },
     "Swift String 조작은 왜 그 모양인가": {
         "2023-02-15": "- [[Swift String 조작은 왜 그 모양인가]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Why is Swift String Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]]          | tweet ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Why is Swift String Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]]            ..."
     },
     "Serverless": {
         "Cloud-Native": "... and practices, such as DevOps, continuous integration and deployment (CI/CD), and [[serverless]] computing. They leverage these practices to build applications that can be ...",
@@ -5251,7 +5257,8 @@ export const backlinks = {
         "2023-02-26": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-27": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-28": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-03-01": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-03-01": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-03-02": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
