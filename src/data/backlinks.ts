@@ -1593,6 +1593,9 @@ export const backlinks = {
         "2022-11-30": "- [[Centering]]",
         "Android": "- [[Centering]]"
     },
+    "National Crises and Intellectual Individuals — A Review Focused on GB and KR": {
+        "2023-03-02": "- [[National Crises and Intellectual Individuals — A Review Focused on GB and KR]]"
+    },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
         "2022-08-29": "- [[Internetworking]]",
