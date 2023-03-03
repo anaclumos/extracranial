@@ -11,7 +11,7 @@ import Admonition from '@theme/Admonition';
 
 </Admonition>
 
-Dear Mr. Stebbings,
+## Dear Mr. Stebbings,
 
 Today marks the thirtieth day of my challenge to post meaningful content on the web, and as I sit down to write my final piece, my thoughts turn to the crisis facing my home country, the Republic of Korea. As a student, I feel a deep sense of responsibility for the foreboding challenges that lie ahead. The Republic of Korea and the United Kingdom share many similarities in our struggles. As intellectuals, we must consider what we can do to help our nations overcome these crises.
 
