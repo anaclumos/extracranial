@@ -36,6 +36,7 @@ slug: '/18728A'
 | [02-27](../journals/2023-02-27.md) | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]               | [tweet](https://twitter.com/anaclumos/status/1630370788422610945) |
 | [02-28](../journals/2023-02-28.md) | 🇬🇧 [[Newtonian Mail]] <br/> 🇰🇷 [[뉴턴의 서신]]                                                             | [tweet](https://twitter.com/anaclumos/status/1630727695826046976) |
 | [03-01](../journals/2023-03-01.md) | 🇬🇧 [[OpenAI enthroned as the Levis of Tech]] <br/> 🇰🇷 [[OpenAI가 새로운 테크 리바이스로 등극하다]]         | [tweet](https://twitter.com/anaclumos/status/1631087532338290689) |
+| [03—02](../journals/2023-03-02.md) | 🇬🇧 [[National Crises and Intellectual Individuals — Focused on GB and KR]]                                 | [tweet](https://twitter.com/anaclumos/status/1631534753710247936) |
 
 ## Announcement
 

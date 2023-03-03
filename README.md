@@ -18,9 +18,9 @@ Extracranial means **situated outside the cranium** in medical contexts. This is
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1320     36230     9268         0    26962          0
+Markdown                  1320     36233     9269         0    26964          0
 CSS                         71     20249      267        28    19954          0
-TypeScript                  58     11525      166        70    11289        213
+TypeScript                  58     11526      166        70    11290        213
 JSON                        42      2189        0         0     2189          0
 Python                       7       770       54        41      675        107
 SVG                          7         7        0         0        7          0
@@ -31,13 +31,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1522     97981    10236      5090    82655       1157
+Total                     1522     97985    10237      5090    82658       1157
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,784,376
+Estimated Cost to Develop (organic) $2,784,482
 Estimated Schedule Effort (organic) 20.30 months
 Estimated People Required (organic) 12.19
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6757227 bytes, 6.757 megabytes (SI)
+Processed 6758690 bytes, 6.759 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
