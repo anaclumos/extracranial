@@ -13,7 +13,11 @@ slug: '/961C8F'
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Obsessed with our website <a href="https://t.co/DKhAcubq1V">pic.twitter.com/DKhAcubq1V</a></p>&mdash; Brendan Falk ◧ (@BrendanFalk) <a href="https://twitter.com/BrendanFalk/status/1597727837305569280?ref_src=twsrc%5Etfw">November 29, 2022</a></blockquote>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Weekend side project: A gallery of the best looking devtool landing pages<br/><br/>Coming soon! <a href="https://t.co/eIn1ItPhLB">pic.twitter.com/eIn1ItPhLB</a></p>&mdash; Hassan El Mghari (@nutlope) <a href="https://twitter.com/nutlope/status/1594494331507085312?ref_src=twsrc%5Etfw">November 21, 2022</a></blockquote>
+> Weekend side [[project]]: A gallery of the best looking devtool landing pages
+>
+> Coming soon! [pic.twitter.com/eIn1ItPhLB](https://t.co/eIn1ItPhLB)
+>
+> — Hassan El Mghari (@nutlope) [November 21, 2022](https://twitter.com/nutlope/status/1594494331507085312?ref_src=twsrc%5Etfw)
 
 ![[317954.png]]
 ![[8F9910.png]]

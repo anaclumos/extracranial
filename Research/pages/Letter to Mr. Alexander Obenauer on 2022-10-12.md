@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/25BA57'
 ---
 
-- [[Mail|Letter]] to Mr. Alexander Obenauer on 2022-10-12
+- [[Mail|Letter]] to Mr. Alexander Obenauer on [[2022-10-12]]
 
 Dear Mr. Obenauer,
 

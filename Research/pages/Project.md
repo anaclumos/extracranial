@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/1E1016'
-aliases: ['프로젝트']
+aliases: ['프로젝트', '계획', '사업']
 ---
 
 This is a [[Metapage]] for my projects.
