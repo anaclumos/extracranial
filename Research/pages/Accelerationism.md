@@ -15,7 +15,7 @@ slug: '/F16535'
 
 - Gilles Deleuze와 Félix Guattari의 **비영토화** (Deterritorialization)
 - Jean Baudrillard의 **치명적 전략**에 대한 제안
-- 영국의 철학자 및 이후 어두운 계몽주의 (Dark Enlightenment)에 대한 주해자 Nick Land의 이론적 체계 및 절차
+- [[United Kingdom|영국]]의 철학자 및 이후 어두운 계몽주의 (Dark Enlightenment)에 대한 주해자 Nick Land의 이론적 체계 및 절차
 
 가속주의는 이후 좌익적 가속주의와 우익적 가속주의로 분파되었다.
 두 사상 모두 자본주의와 그 체계의 극대화 및 기술적 특이점(기술의 발전 속도가 통제 불가능해지는 지점)을 지지한다.

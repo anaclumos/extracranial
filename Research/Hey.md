@@ -24,7 +24,13 @@ Welcome to my research note.
 I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research.
 I am thrilled to present you with the incarnation of this vision.
 You will find my most up-to-date interests here.
-If you seek internationalized content, check out my [articles](/w/archive).
+Check out my [articles](/w/archive) if you seek internationalized content.
+
+:::caution
+
+Please note that while I strive to provide accurate and up-to-date information on this website, there may be times when the information presented needs to be corrected or updated. Therefore, I cannot guarantee the accuracy or completeness of the information provided on this website. Additionally, the information presented on this website should not be construed as professional advice. If you rely on any data presented on this website, you do so at your own risk. I am not legally liable for errors, omissions, or damages arising from using or relying on this website's information.
+
+:::
 
 ## Nonlinearity
 

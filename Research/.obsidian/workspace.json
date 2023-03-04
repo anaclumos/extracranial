@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cbf019d06c88dfaa",
+        "id": "3e018e227c5052b6",
         "type": "tabs",
         "children": [
           {
-            "id": "19b387a13bd99a68",
+            "id": "8b0ba9276531931c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/On National Crises and the Intellectuals — Focused on GB and KR.md",
+                "file": "journals/2023-03-03.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -88,14 +88,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/On National Crises and the Intellectuals — Focused on GB and KR.md",
+                "file": "journals/2023-03-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/On National Crises and the Intellectuals — Focused on GB and KR.md"
+                "file": "journals/2023-03-03.md"
               }
             }
           }
@@ -113,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -129,40 +128,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19b387a13bd99a68",
+  "active": "8b0ba9276531931c",
   "lastOpenFiles": [
-    "journals/2023-03-02.md",
+    "pages/Conversation with Yejun Choi on 2023-03-03.md",
     "journals/2023-03-03.md",
-    "pages/국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로.md",
-    "pages/On National Crises and the Intellectuals — Focused on GB and KR.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/글감.md",
-    "pages/OpenAI enthroned as the Levis of Tech.md",
-    "journals/2023-03-01.md",
-    "pages/OpenAI가 새로운 테크 리바이스로 등극하다.md",
-    "pages/AI-native.md",
-    "pages/Cloud-Native.md",
-    "pages/GitHub.md",
-    "pages/Space Terraforming.md",
-    "journals/2022-12-18.md",
-    "pages/초대장의 시대.md",
-    "pages/Confectionery.md",
-    "pages/雅號를 찾아서.md",
-    "pages/HTML.md",
+    "pages/Project.md",
+    "pages/Tech Now Pay Later.md",
+    "pages/Repeated Designs.md",
     "pages/Letter to Mr. Stephan Ango on 2022-10-19.md",
+    "pages/HTML.md",
+    "pages/GitHub Actions.md",
+    "pages/GDB.md",
+    "pages/My Raycast Wrapped of 2022.md",
+    "journals/2023-02-07.md",
+    "journals/2022-10-12.md",
     "pages/Autosave Everything.md",
-    "pages/Monolithic Model.md",
-    "pages/USDZ vs glTF.md",
-    "pages/Everyprompt.md",
-    "pages/VP9 vs HEVC.md",
-    "pages/Brunch violates SF terms of use.md",
-    "pages/Prompt Marketplace.md",
+    "pages/API Economy.md",
+    "pages/Intellisense for Knowledge Management.md",
+    "pages/Mail.md",
+    "pages/Neo Email.md",
+    "pages/Resend.md",
+    "assets/3FB92F.png",
+    "assets/E74AF7.png",
+    "assets/FF159D.png",
+    "assets/C1D4F8.png",
+    "pages/Simple Analytics.md",
+    "pages/Jog 25 minutes (Jan-Feb 2023).md",
+    "pages/React.md",
+    "journals/2022-11-01.md",
+    "pages/Deadlock.md",
+    "pages/Composing Mail in SwiftUI.md",
+    "pages/Space Terraforming.md",
+    "pages/Binomial Theorem.md",
+    "assets/2BBBDE.jpg",
+    "assets/753C2F.png",
+    "assets/F6A265.png",
+    "assets/19F478.png",
     "assets/C25819.png",
     "assets/9C5106.png",
-    "assets/834593.png",
-    "assets/9A6171.png",
-    "assets/9EA5FE.gif",
-    "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S",
-    "assets/16CE9C.png"
+    "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S"
   ]
 }

@@ -3,13 +3,13 @@ lang: 'en'
 slug: '/C8EA6C'
 ---
 
-Banks falling behind the tech is a familiar story in the U.S., But I am confident [[대한민국|Korea]] will take it to the next level. You need to install seven different programs and plugins that constantly run, slowing down your computer to check your account balance; you need to create a non-exportable digital certificate file to make any transactions.
+Banks falling behind the tech is a familiar story in the [[United States of America|U.S.]], But I am confident [[대한민국|Korea]] will take it to the next level. You need to install seven different programs and plugins that constantly run, slowing down your computer to check your account balance; you need to create a non-exportable digital certificate file to make any transactions.
 
 ## Where it all began
 
 It all starts with the [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). When the internet was booming in 1999, [[대한민국|Korea]] couldn't correctly use the 128-bit AES encryption technology, so they started from a weakened 40-bit security system. They then later developed their version of a 128-bit security system which required ActiveX and made it a standard (SEED.)
 
-In 2000, the U.S. lifted export restrictions, but [[대한민국|Korea]] continued to use SEED and ActiveX. While they later removed ActiveX systems, they switched to mandating .exe security programs running on the device constantly. As [Wladimir Palant found out](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/), these programs are uncomfortable and do not even conform to ancient security techniques. Moreover, they are developed with 15-year-old Visual Studio, causing avoidable security problems like simple Buffer Overflows Attacks. **But why**? Why are they still not improving things? Some key observations:
+In 2000, the [[United States of America|U.S.]] lifted export restrictions, but [[대한민국|Korea]] continued to use SEED and ActiveX. While they later removed ActiveX systems, they switched to mandating .exe security programs running on the device constantly. As [Wladimir Palant found out](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/), these programs are uncomfortable and do not even conform to ancient security techniques. Moreover, they are developed with 15-year-old Visual Studio, causing avoidable security problems like simple Buffer Overflows Attacks. **But why**? Why are they still not improving things? Some key observations:
 
 ## Dodging Responsibilities
 
@@ -21,7 +21,7 @@ However, some [[대한민국|Korean]] banks figured they could use their securit
 
 ## Limited Room for FDS
 
-[[대한민국|Korean]] banks, by default, do not have a deferred transfer system, unlike the U.S., which has a tipping system. That means every transaction is instant and irreversible. Therefore, implementing a fraud detection system (FDS) makes it more challenging, as there is limited time to detect and stop fraudulent transactions before the transaction. In contrast, a deferred transfer system like the one used in the United States can provide more time for banks to identify and prevent fraudulent transactions, as banks can cancel or reverse transactions before they are processed. Instead, [[대한민국|Korean]] banks rely on individual customers to monitor their accounts for suspicious activity and report it to the bank, meaning that customers are responsible for detecting fraudulent transactions.
+[[대한민국|Korean]] banks, by default, do not have a deferred transfer system, unlike the [[United States of America|U.S.]], which has a tipping system. That means every transaction is instant and irreversible. Therefore, implementing a fraud detection system (FDS) makes it more challenging, as there is limited time to detect and stop fraudulent transactions before the transaction. In contrast, a deferred transfer system like the one used in the [[United States of America|United States]] can provide more time for banks to identify and prevent fraudulent transactions, as banks can cancel or reverse transactions before they are processed. Instead, [[대한민국|Korean]] banks rely on individual customers to monitor their accounts for suspicious activity and report it to the bank, meaning that customers are responsible for detecting fraudulent transactions.
 
 ## Lack of Competitions
 

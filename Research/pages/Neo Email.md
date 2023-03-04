@@ -8,3 +8,4 @@ slug: '/994348'
 - [[Emails and Decentralized Protocols]]
 - [[AMP Email]]
 - [[Spellbound]]
+- [[Resend]] looks promising.

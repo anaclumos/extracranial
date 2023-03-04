@@ -16,7 +16,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- [[2020-02-13]]"
     },
     "2022-10-12": {
-        "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Update on [[2022-10-12]]"
+        "Letter to Mr. Alexander Obenauer on 2022-10-12": "- Mail|Letter to Mr. Alexander Obenauer on [[2022-10-12]]"
     },
     "2023-01-30": {
         "0003 Longest Substring Without Repeating Characters": "Solved at: [[2023-01-30]]",
@@ -343,6 +343,9 @@ export const backlinks = {
     "2023-01-17": {
         "하늘땅사람 개발 기록": "## [[2023-01-17]]"
     },
+    "2023-03-03": {
+        "Conversation with Yejun Choi on 2023-03-03": "- [[2023-03-03]]"
+    },
     "2022-09-25": {
         "0110 Balanced Binary Tree": "Solved at: [[2022-09-25]]",
         "0235 LCA of a Binary Search Tree": "Solved at: [[2022-09-25]]. Took 17m 09s",
@@ -625,7 +628,7 @@ export const backlinks = {
         "2022-10-11": "- [[Satori]]",
         "2022-11-14": "- [[Satori]]: Create OG images for your blog with Next.js",
         "Embeddable GitHub Repo Card But It Looks Great": "I can use [[Satori]]",
-        "Letter to the Heptabase Team on 2022-10-11": "... Angeles|LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, Vercel/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... Angeles|LA and 서울|Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, Vercel/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Stories Behind Satori": "The potential candidates for [[Satori]] included:",
         "WebAssembly": "- [[Satori]]"
     },
@@ -671,7 +674,7 @@ export const backlinks = {
         "새로운 부동산은 지적 재산이다": "지적 재산([[IP]])은 장기간에 걸쳐 경제적 이익을 창출할 수 있는 재산권이라는 점에서 새로운 형태의 ..."
     },
     "CDN": {
-        "2022-08-28": "... builds faster (~3m) than Cloudflare Pages (~5m). Vercel has Seoul region [[CDN]].",
+        "2022-08-28": "... builds faster (~3m) than Cloudflare Pages (~5m). Vercel has 서울|Seoul region [[CDN]].",
         "2022-12-28": "- [[CDN]]",
         "AMP": "... help webpages load faster. AMP pages may be cached by a [[CDN]], such as [[Microsoft]] [[Bing]] or [[Cloudflare]]'s AMP caches, which allows pages ...",
         "Cloudflare": "> Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded in 2010. It primarily acts as ...",
@@ -695,7 +698,7 @@ export const backlinks = {
     "Tossface": {
         "Toss": "- Creators of Toss Product Sans and [[Tossface]]",
         "TossFace Playground": "- [[Tossface|토스페이스]]",
-        "불가사리": "[[Tossface|토스페이스]] 같은 곳에 언젠가 들어갔으면..."
+        "불가사리": "[[Tossface|토스페이스]] 같은 곳에 언젠가 들어갔으면"
     },
     "PECR": {
         "Plausible Analytics": "... web analytics. No cookies and fully compliant with GDPR, CCPA, and [[PECR]]. Made and hosted in the EU, powered by European-owned cloud infrastructure ...",
@@ -738,11 +741,15 @@ export const backlinks = {
         "Did Bondee Really Suddenly Rise": "[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. Bondee launched ...",
         "본디는 사실 혜성이 아니다": "본디를 운영하는 [[Metadream|메타드림]]은 2022년 9월에 설립되었다. 본디는 2023년 1월 7일에 놀라운 퀄리티로 출시되었다. 그리고 ..."
     },
+    "Resend": {
+        "Neo Email": "- [[Resend]] looks promising."
+    },
     "0104 Maximum Depth of Binary Tree": {
         "Coding Tests": "- [x] [[0104 Maximum Depth of Binary Tree]]"
     },
     "불가사리": {
-        "Neo Korea": "- [[불가사리]]"
+        "Neo Korea": "- [[불가사리]]",
+        "불가사리 재단": "[[불가사리]]"
     },
     "Alternatives to After Effects": {
         "2023-01-22": "- [[Alternatives to After Effects]]",
@@ -973,13 +980,10 @@ export const backlinks = {
         "Better Docusaurus": "- Fixing some things that I currently don't like about [[Docusaurus]]",
         "In search of my domain": "... thoughts online. I migrated my blog from WordPress to Ghost to [[Docusaurus]], making several contributions and almost hacking the framework along the way.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... have some personal Python scripts that convert Obsidian MD files to [[Docusaurus]] MD files since they have slightly different specs.",
-        "Letter to the Heptabase Team on 2022-10-11": "... Los Angeles|LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... Los Angeles|LA and 서울|Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak ...",
         "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
         "Redirect": "## Redirects in [[Docusaurus]]",
         "도메인 찾아 삼만리": "... 온라인에서 보여줄 준비가 되어 있다는 자신감을 느꼈다. 나는 블로그를 WordPress에서 Ghost, [[Docusaurus]]로 마이그레이션하면서 여러 기여를 했고 프레임워크를 거의 해킹하다시피 해서 블로그를 개설했다."
-    },
-    "雅號를 찾아서": {
-        "2023-01-09": "- [[雅號를 찾아서]]"
     },
     "Developing Review Notes for Obsidian": {
         "2022-07-19": "- [[Developing Review Notes for Obsidian]]",
@@ -1183,7 +1187,9 @@ export const backlinks = {
     "P vs NP": {
         "2022-07-01": "- [[P vs NP]]",
         "2022-11-19": "  - [[P vs NP]]",
-        "Matt Rickard": "- [[P vs NP]]"
+        "Matt Rickard": "- [[P vs NP]]",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "## Conclusion — [[P vs NP|P vs. NP]] Problems",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "## 결론 — [[P vs NP|P 대 NP]] 문제"
     },
     "WebAssembly": {
         "2022-06-14": "- [[WebAssembly|WASM]]과는 당장은 무관하다.",
@@ -1205,6 +1211,15 @@ export const backlinks = {
         "WebAssembly": "We can convert this C code into [[WebAssembly]] with a build tool called Emscripten.",
         "WebGPU": "- It's a stand-alone TypeScript+Rust/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "WebNPU API를 상상하다": "- [[WebAssembly]]는 웹에서 [[CPU]]의 온전한 성능을 개방한다."
+    },
+    "United Kingdom": {
+        "2023-03-03": "- [[United Kingdom]]",
+        "Accelerationism": "- [[United Kingdom|영국]]의 철학자 및 이후 어두운 계몽주의 (Dark Enlightenment)에 대한 주해자 Nick Land의 ...",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... foreboding challenges that lie ahead. The Republic of 대한민국|Korea and the [[United Kingdom]] share many similarities in our struggles. As [[Super Brain|intellectuals]], we must ...",
+        "PECR": "... Electronic Communications (EC Directive) Regulations 2003 is a law in the [[United Kingdom]] which made it unlawful to, amongst other things, transmit an automated ...",
+        "The Site On Which the Sun Never Sets": "... global nature and constant activity of the internet. Just as the [[United Kingdom|British]] Empire once had territories and colonies across multiple continents and time ...",
+        "국가와 민족": "... of America|미국 같은 나라는 자유를 위시한 하이 리스크 하이 리턴식 사회, [[United Kingdom|영국]]은 최소한의 기본권을 제도화한 후 통제 기준을 제시하지 않는 사회, 독일은 통제 ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "대한민국과 [[United Kingdom|영국]]은 많은 유사점을 가지고 있습니다."
     },
     "Now Runs On": {
         "2022-11-20": "- [[Now Runs On]]"
@@ -1442,6 +1457,12 @@ export const backlinks = {
         "2022-10-04": "- [[Markdown Email Client]]",
         "Reimagining Emails": "- [[Markdown Email Client]]"
     },
+    "Harry Stebbings": {
+        "2023-03-03": "- [[Harry Stebbings]]",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "## Dear [[Harry Stebbings|Mr. Stebbings]],",
+        "The 30-Day Tweet Test (Harry Stebbings)": "> — [[Harry Stebbings]] (@HarryStebbings) February 2, 2023",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "## [[Harry Stebbings|Stebbings]] 님께"
+    },
     "Install Yarn Silently": {
         "2022-10-18": "- [[Install Yarn Silently]]"
     },
@@ -1499,6 +1520,9 @@ export const backlinks = {
     "Dioxus": {
         "2022-12-28": "- [[Dioxus]]"
     },
+    "불가사리 재단": {
+        "Conversation with Yejun Choi on 2023-03-03": "- [[불가사리 재단]]?"
+    },
     "Structs and Unions": {
         "2022-11-03": "- [[Structs and Unions]]",
         "Computer Systems": "- [[Structs and Unions]]",
@@ -1531,8 +1555,8 @@ export const backlinks = {
     },
     "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": {
         "2023-03-03": "- [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]]",
-        "On National Crises and Intellectual Individuals — Focused on GB and KR": "[[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로|한국어 🇰🇷 버전은 여기에 있습니다.]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... and Intellectual Individuals — Focused on GB and KR <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | tweet |"
+        "On National Crises and the Intellectuals — Focused on GB and KR": "[[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로|한국어 🇰🇷 버전은 여기에 있습니다.]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "... and the Intellectuals — Focused on GB and KR <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | tweet |"
     },
     "Separation of Computer Scientists and Computer Technologists": {
         "2022-08-24": "- [[Separation of Computer Scientists and Computer Technologists]]"
@@ -1584,6 +1608,9 @@ export const backlinks = {
         "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow",
         "Svelte": "... out the bulk of their work at runtime, i.e., in the [[Web Browser|browser]]. The compiler itself is written in [[TypeScript]]. Its source code is ...",
         "Web Typography": "... faces and styles were controlled exclusively by the settings of each [[web browser]]. There was no mechanism for individual Web pages to control font ..."
+    },
+    "대한민국의 저출산": {
+        "Conversation with Yejun Choi on 2023-03-03": "- [[대한민국의 저출산]]"
     },
     "A Massive Mystery": {
         "2023-02-07": "- [[A Massive Mystery]]",
@@ -1914,6 +1941,10 @@ export const backlinks = {
         "2023-02-13": "- [[본디는 사실 혜성이 아니다]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-13 | 🇬🇧 Did Bondee Really Suddenly Rise <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]            ..."
     },
+    "雅號": {
+        "2023-01-09": "- [[雅號]]",
+        "서울": "... the final candidates for the city's name were 우남(雩南, Woo-Nam, President's [[雅號|Ho]]), 한양(漢陽, Han-Yang), 한경(韓京, Han-Kyeong), and 한성(漢城, Han-Sung). The name \"Seoul\" eventually ..."
+    },
     "Bernoulli Distribution": {
         "2023-01-24": "- [[Bernoulli Distribution]]",
         "2023-01-26": "- [[Bernoulli Distribution]]",
@@ -2153,11 +2184,6 @@ export const backlinks = {
         "Migrating Node.js apps from AWS EB to Heroku": "I had to make only minimal changes to app.js and package.[[json]].",
         "glTF": "... A glTF file uses one of two possible file extensions: .gltf ([[JSON]]/ASCII) or .glb (binary). Both .gltf and .glb files may reference external ...",
         "sem.sh": "- [[JSON]] API"
-    },
-    "On National Crises and Intellectual Individuals — Focused on GB and KR": {
-        "2023-03-02": "- [[On National Crises and Intellectual Individuals — Focused on GB and KR]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 03-02 | 🇬🇧 [[On National Crises and Intellectual Individuals — Focused on GB and KR]] <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | ...",
-        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "[[On National Crises and Intellectual Individuals — Focused on GB and KR|You can find the English 🇬🇧 version here.]]"
     },
     "GA": {
         "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview",
@@ -2581,6 +2607,7 @@ export const backlinks = {
         "Better Aldehyde": "- [[Project]]",
         "Better Hacker News": "Someday [[Project]]. Improving HN.",
         "Book Metadata as a Service": "Someday [[Project]]. Open API that returns Book Metadata when given an ISBN.",
+        "Born of this Land - The Founding Story of Hyundai": "For example, when bidding for a [[project]] in the Middle East, he intentionally bid slightly lower, even with ...",
         "Brane": "Brane is an experimental [[project]] that aims to build a secure, convenient third-party app environment based ...",
         "CELLO": "- [[Project]]",
         "CalliFontia": "Someday [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
@@ -2592,6 +2619,7 @@ export const backlinks = {
         "Dynamic Island on the Web": "- Done [[Project]]",
         "ElonPet": "- Someday [[Project]]. Uses GPT-3 to write good things about Elon (Sarcastically) randomly",
         "Embeddable GitHub Repo Card But It Looks Great": "Someday [[Project]].",
+        "Eventually, Diligent Immatures build the Future": "... overly optimistic about their abilities or the potential success of a [[project]] or goal, which can cause them to take on more risk ...",
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
         "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
@@ -2601,6 +2629,7 @@ export const backlinks = {
         "Intracranial": "Someday [[Project]]. Infinite Canvas for Zettlekasten.",
         "Jira": "... issue-tracking product developed by Atlassian that allows bug tracking and agile [[project]] management. Jira (software)>)",
         "Jog 25 minutes (Jan-Feb 2023)": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
+        "Jupyter": "> [[Project]] Jupyter aims to develop open-source software, open standards, and services for ...",
         "Krafton Way": "... 능력을 검증해야 한다\"고 말했다. 경영진은 김창한에게 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 수준을 결정한다. Project|프로젝트의 책임자인 PD는 거기에 ...",
         "Kubernetes": "... designed Kubernetes, but the Cloud Native Computing Foundation now maintains the [[project]].",
         "Linux": "... software and libraries, many of which are provided by the GNU [[Project]]. Many Linux distributions use the word \"Linux\" in their name, but ...",
@@ -2620,11 +2649,13 @@ export const backlinks = {
         "Proposal of Research to Professor Cote": "... studied underlying technologies on this and found several layers for the [[project]].",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding [[AI]] system.",
         "Redactor for iPhone": "Someday [[Project]].",
+        "Repeated Designs": "> Weekend side [[project]]: A gallery of the best looking devtool landing pages  ",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
         "Stories Behind Satori": "This is already done by an open-source [[project]] facebook/yoga.",
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
         "Synthote": "- [[Project]] scaffolding",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
+        "Tech Now Pay Later": "> Instead of worrying about which DB to use for your [[project]] and/or if it scales – sometimes you just gotta ship it ...",
         "The Great Battle of Flow and Asana": "... Basecamp was to build great software that scratched their own itch ([[project]] management,) and charge a monthly recurring amount to give them access ...",
         "The One and Only": "Someday [[Project]]. Ideated during [[Conversation with Mr. Kyle Park on 2023-02-15]]",
         "The One and Only WebExtension": "- Someday [[Project]]",
@@ -2646,10 +2677,13 @@ export const backlinks = {
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> 그러나 누군가가 온갖 어려움을 무릅쓰고 반드시 성취해야하는 [[Project|프로젝트]]이다.",
         "두 번째 뇌": "나는 더 간단하게 [[Project|프로젝트]], 연구, 그리고 독서록으로 분리했다.",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "하지만 이렇게 떠나보낼 수는 없다. 최근 알게 된 [[Project|프로젝트]] 중 라즈베리 파이로 스마트 오디오 시스템을 구축하는 Project|프로젝트가 있었다. 블루투스, 에어플레이, ...",
+        "미래는 결국 미성숙한 우리가 만들어낸다": "... 목표를 달성하는 데 필요한 시간, 노력, 자원을 과소평가하는 경향을 말한다. 사람들이 [[Project|프로젝트]]를 제시간에 또는 예산 범위 내에서 완료할 수 있다고 지나치게 낙관하게 만드는 ...",
+        "민사고": "... 필수과목 코딩 → AP 컴퓨터과학 → 여름학기 아두이노 → 3학년 졸업 [[Project|프로젝트]])을 따라가며 기본기를 쌓았고 앞서 언급한 '학업의 진공' 아래 일주일에 수십 시간씩 ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 여러 이유로 못하는 팀도 있다. 물론 e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, 품질 관리) 팀 같은 경우에는 e2e ...",
         "사발통문": "Someday [[Project]]",
         "사회과부도": "Someday [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
         "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
+        "심리역사학": "... 문화를 총망라하여 계몽을 향한 새 시대를 이루어갈 수 있도록 준비한다. 셀던 [[Project|계획]]의 핵심 개념은 심리역사학인데, 전 인류의 심리를 과학과 수학을 이용해 모델링하면 인류의 ...",
         "역사의 집대성": "흩어진 개인사를 하나의 기록소 안에 모두 집대성하는 [[Project|프로젝트]]이다.",
         "조선왕조실록": "Someday [[Project]]. Fast and Modern version of sillok.history.go.kr.",
         "코드클럽": "   - 전 세계에서 인증한 만국 공통 코드클럽 [[Project|프로젝트]] 커리큘럼으로 활동",
@@ -2760,7 +2794,8 @@ export const backlinks = {
     },
     "Spirits do not Inherit": {
         "2023-02-25": "- [[Spirits do not Inherit]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-25 | 🇬🇧 [[Spirits do not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]]       ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-25 | 🇬🇧 [[Spirits do not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]]       ...",
+        "딱 봐도 조성현": "- [[Spirits do not Inherit]]"
     },
     "GeoCheatCode": {
         "2022-10-17": "- [[GeoCheatCode]]"
@@ -3151,6 +3186,23 @@ export const backlinks = {
         "Conversational Generative AI as Search Engine": "- [[Search AI]]",
         "Generative AI": "- [[Search AI]]"
     },
+    "서울": {
+        "2022-05-31": "... 소비하는 제품 만들기 - 두잇 관악구 전역으로 확대 \\(~22.07\\) - 두잇 [[서울]], 수도권 전역 확대 \\(22.07~22.12\\) - 배달음식 서울, 수도권 점유율 1등 \\(~23.12\\) ...",
+        "2022-08-28": "... Pages. Vercel builds faster (~3m) than Cloudflare Pages (~5m). Vercel has [[서울|Seoul]] region [[CDN]].",
+        "2023-03-03": "- [[서울]]",
+        "AI replaces expensive jobs first": "[[서울|SEOUL]] (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed a controversial bill ...",
+        "Born of this Land - The Founding Story of Hyundai": "When hosting the Olympic Games in [[서울|Seoul]] ('88), Hyundai planned and constructed with the principle of preparing thoroughly ...",
+        "Krafton Way": "## [[서울]]과 [[대한민국]]",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "I'm on my way back to my home from [[서울|Seoul]] to Daejeon in [[대한민국|Korea]], and I just got this post — ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... am Sunghyun Cho, a computer scientist based in Los Angeles|LA and [[서울|Seoul]]. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. ...",
+        "Spirits do not Inherit": "Rome wasn't built in a day, [[서울|Seoul]] wasn't in a day, and your vast and glorious culture is ...",
+        "개성은 쟁취하는 것": "[[서울]]도 하루아침에 이루어지지 않았습니다.",
+        "공기 청정 비행선": "[[서울]]의 공기는 최악이다.",
+        "데이터베이스권": "- [[서울]]중앙지법 민사합의62부(부장 이영광)는 \"방픽은 크롤링으로 얻은 데이터를 폐기하고, 직방에 2000만원을 지급하라\"고 지난 ...",
+        "유난한 도전": "팀원들이 [[서울]] 각지로 흩어져 새로운 아이템을 찾아보기로 했다.",
+        "조선의 노비제도에 관한 보고": "[[서울]],",
+        "퍼블리시티권": "- 대한민국|한국에서는 지난 1982년 [[서울]] 민사지방법원에서 본인의 동의 없이 사진을 낸 책을 판매금지한다는 최초의 초상권 침해 ..."
+    },
     "http 없는 http 서버 만들기": {
         "2022-11-19": "  - [[http 없는 http 서버 만들기]]"
     },
@@ -3437,19 +3489,21 @@ export const backlinks = {
     "대한민국": {
         "2022-06-14": "... This shows how resumes differ in United States of America|US and [[대한민국|Korea]].",
         "2022-07-05": "- United States of America|미국 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
-        "AI replaces expensive jobs first": "SEOUL (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed a controversial bill to limit ride-hailing ...",
+        "AI replaces expensive jobs first": "서울|SEOUL (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed a controversial bill to limit ride-hailing ...",
         "AT&T Roaming Incident (December 2022)": "On December 15th, I landed in [[대한민국|Korea]] and did not have my phone service, so I used 600MB ...",
-        "Born of this Land - The Founding Story of Hyundai": "... then on, all of our work for the US Army in [[대한민국|Korea]] was Hyundai's.",
+        "Born of this Land - The Founding Story of Hyundai": "... of our work for the United States of America|US Army in [[대한민국|Korea]] was Hyundai's.",
+        "Conversation with Yejun Choi on 2023-03-03": "- possible market expansion outside [[대한민국|Korea]], garnering uncharted markets, leveraging the global purchasing power.",
         "Downloading Any Recordings from Zoom": "... Both the United States of America|United States and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted material for educational use.",
         "Finally, Apple Pay in Korea": "After a decade of waiting, Apple Pay has expanded to [[대한민국|Korea]]. 대한민국|Korea remained the only developed nation country that did not support ...",
         "Karrot": "> 당근마켓(Karrot)은 [[대한민국]]의 중고 거래, 소상공인 홍보 등 생활정보 소프트웨어이다. 중고거래, 지역업체, 질문답변, 부동산, ...",
         "Korean Discount": "The [[대한민국|Korea]] discount is a term that refers to the lower valuation of ...",
         "Krafton Way": "좁은 [[대한민국|한국]] 시장에서 벗어나, 해외 시장에 곧바로 배급할 수 있는 파괴력 있는 PC ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in [[대한민국|Korea]], [[Naver]], and [[Kakao]].",
-        "Letter to Mr. Matt Rickard on 2022-12-24": "... my way back to my home from Seoul to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "... my way back to my home from 서울|Seoul to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!",
         "Metadream": "... 9, 2022, and has offices and data centers in Singapore, 일본|Japan, [[대한민국|Korea]], and the [[United States of America|United States]]. One of Metadream's directors ...",
-        "Naver": "... Corporation. It debuted in 1999 as the first web portal in [[대한민국|Korea]] to develop and use its search [[engine]]. It was also the ...",
+        "Naver": "> Naver (Hangul: 네이버) is a [[대한민국|Korean]] online platform operated by the Naver Corporation. It debuted in 1999 ...",
         "Neo Korea": "Neo [[대한민국|Korea]]",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... turn to the crisis facing my home country, the Republic of [[대한민국|Korea]]. As a student, I feel a deep sense of responsibility for ...",
         "Person 1E6ABA": "Why would the [[대한민국|Korean]] Govs and 대한민국|Korean Banks promote any terrible news for the 대한민국|Korean ...",
         "Person A3BA1A": "Considering that, Carta cannot ever penetrate the [[대한민국|Korean]] market.",
         "Pretendard의 아쉬운 점": "허나 [[대한민국|한국]] 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
@@ -3461,14 +3515,16 @@ export const backlinks = {
         "The Sudden Rise of Bondee": "Bondee is a metaverse social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in the App Store. Users ...",
         "Toss": "- Financial Technology|FinTech Unicorn of [[대한민국|Korea]].",
         "Using an iPad as my Ebook": "... would love to see multiple e-book vendors. I also read many [[대한민국|Korean]] books, and the Kindle store lacks 대한민국|Korean titles. Knowing that Amazon ...",
-        "Why Korean Banks Suck": "... is a familiar story in the U.S., But I am confident [[대한민국|Korea]] will take it to the next level. You need to install ...",
+        "Why Korean Banks Suck": "... story in the United States of America|U.S., But I am confident [[대한민국|Korea]] will take it to the next level. You need to install ...",
         "개성은 쟁취하는 것": "[[대한민국]]에는 독립적인 자아가 부족하다 — 14성현이 중학교 암기 과목을 공부하며 한 생각입니다.",
         "경제 개발의 길목에서": "[[대한민국|한국]]에서는 자고로 선거 때만 되면 통화량이 급팽창했다. 정부의 선심 행정으로 예산이 팽창하고 ...",
         "공강에서 보내는 공강 활용법": "필수 모듈이 아닌 선택 모듈에는 [[대한민국|한국]]화, 실무영어, 시사영어, 물리실험 등의 \"필수가 아닌\" 수업들이 들어가기 때문에, 이 수업을 ...",
         "국가와 민족": "- [[대한민국]]은 [[한민족|민족]]과 국가를 종종 혼동한다.",
-        "국내 은행 서비스가 나쁜 이유": "은행이 기술에 뒤처지는 것은 미국에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 더 정수를 보여준다고 확신한다. 계좌 잔액 확인에도 7가지 프로그램을 ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "마지막 글을 쓰기 위해 앉아 고민하면서, 제 조국, [[대한민국]]이 직면한 위기에 대해 생각하지 않을 수 없었습니다.",
+        "국내 은행 서비스가 나쁜 이유": "은행이 기술에 뒤처지는 것은 United States of America|미국에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 더 정수를 보여준다고 확신한다. 계좌 잔액 확인에도 7가지 프로그램을 ...",
         "드디어, 한국 애플페이": "... 기다림 끝에 Apple|애플페이가 들어온다. 2023년 2월 3일자 금융위원회에서 Apple|애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 유일하게 Apple|애플페이가 지원되지 않은 유일한 나라였다. 2015년부터 시작된 물밑 ...",
         "민사고": "... 어디 각계각층이든 지도자 혹은 권한 있는 누군가를 정말 알고 지내는 사회다. [[대한민국|한국]] 학연 사회의 정점이다.",
+        "새로운 부동산은 지적 재산이다": "이러한 장점 때문에 [[대한민국|한국]]의 구글이라 불리는 [[Naver|네이버]]와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 것이다. 예를 들어 ...",
         "서낭당": "서낭당은 [[대한민국|한국]]의 산간 마을에 흔히 볼 수 있으며, 마을의 안녕과 평안을 위해 제사를 ...",
         "솟대": "솟대는 [[대한민국|한국]]의 민속신앙에서 새해의 풍년을 기원하며 세우거나 마을 입구에 마을의 수호신의 상징으로 세운 ...",
         "유난한 도전": "... 금융 서비스를 만드는 것이다. 금융 회사가 테크를 배우는 게 아니다. 아직 [[대한민국|한국]]에는 제대로 된 Financial Technology|핀테크 서비스가 없다.",
@@ -3480,7 +3536,7 @@ export const backlinks = {
         "컴퓨터는 향정신성 약물인가": "... 향정신성 의약품이라고 정의한다면 접근 방식을 조금 달리 할 수 있지 않을까. [[대한민국]]에서 향정신성 의약품은 다음과 같이 정의된다.",
         "코드클럽": "1. CodeClub [[대한민국|Korea]]의 2019 상반기 코드클럽 SW교육기부단 활동 참여",
         "태백산맥 계획": "[[대한민국]]의 정치, 사회, [[Economy|경제]], 문화, 세대, 성별의 갈등을 축소하기 위한 가설적인 계획이다.",
-        "퍼블리시티권": "- [[대한민국|한국]]에서는 지난 1982년 서울 민사지방법원에서 본인의 동의 없이 사진을 낸 책을 판매금지한다는 ...",
+        "퍼블리시티권": "- [[대한민국|한국]]에서는 지난 1982년 [[서울]] 민사지방법원에서 본인의 동의 없이 사진을 낸 책을 판매금지한다는 ...",
         "하늘땅사람 개발 기록": "보아하니 [[대한민국|한국]] 대학 컴공과에서는 State Machine 수업을 할 때 천지인을 하나의 예제로 사용하나보다.",
         "한국어": "한민족과 [[대한민국]]의 언어이다.",
         "한국의 입시와 거짓된 명예": "[[대한민국|한국]]의 입시가 물론 시간을 낭비하는 것은 맞다.",
@@ -3626,7 +3682,7 @@ export const backlinks = {
         "Aldehyde Outage (January 2023)": "## [[Vercel]] and [[Cloudflare]] Build Errors",
         "Edge": "- [[Vercel]] & Vercel Edge Functions",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... recently — Brand Indicators for Message Identification BIMI) Just like what [[Vercel]] did to Heroku.",
-        "Letter to the Heptabase Team on 2022-10-11": "... Angeles|LA and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... Angeles|LA and 서울|Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
         "Paracosm": "... & Extracranial Tools for Thought that aims to replace Docusaurus with [[Vercel]]'s tech stacks.",
         "Redirect": "## Redirect in [[Vercel]]",
@@ -3704,6 +3760,11 @@ export const backlinks = {
     },
     "Readwise Reader": {
         "2022-12-16": "- [[Readwise Reader]]"
+    },
+    "Polymath": {
+        "2023-03-03": "- [[Polymath]]",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... these combined, we find ourselves within the realm of polymaths. A [[polymath]] is a person who has expertise in multiple fields of study, ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "이 모든 것을 종합할 수 있다면 우리는 [[Polymath|박식가]]<sub>[[Polymath]]</sub>의 영역에 속합니다. Polymath|박식가는 과학, 공학, 인문학, 예술, 사회과학 등 여러 학문 ..."
     },
     "Book Scanning": {
         "Using an iPad as my Ebook": "Furthermore, I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], and I figured it is very ..."
@@ -4202,7 +4263,9 @@ export const backlinks = {
     "Super Brain": {
         "Dumbest Person in the Room": "> Surround yourself with more [[Super Brain|intelligent people]], and you'll all win. More ideas, energy, connections, and smarter people ...",
         "Newtonian Mail": "... was a prolific Mail|letter writer and corresponded with numerous scientists and [[Super Brain|intellectuals]]. Newton's [[Mail|letters]] were often highly technical and discussed his scientific research ...",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... and the United Kingdom share many similarities in our struggles. As [[Super Brain|intellectuals]], we must consider how to help our nations overcome these crises.",
         "경제 개발의 길목에서": "... 선행되지 않고서는 불가능하다고 믿고 있었기 때문이다. 그래서 그는 관념적으로 민주화를 앞세우는 [[Super Brain|지식인]]들을 좋게 보지 않았다. 재무부 장관으로 취임한 직후 박 대통령을 만났을 때 ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "[[Super Brain|지식인]]으로서 우리는 양국의 위기 극복을 위해 무엇을 할 수 있을지 고민해야만합니다.",
         "뉴턴의 서신": "뉴턴은 수많은 과학자 및 [[Super Brain|지식인]]들과 엄청난 양의 [[Mail|서신]]을 주고 받았다.",
         "민사고": "... 감명 깊은 부분이 많았다. 편향되지 않고, 암기식 교육도 아니었으며, '올바른 한민족|민족적 [[Super Brain|지식인]]은 무엇인가'하는 질문을 많이 던지게끔 하셨다. 어디까지가 식민사관이고 어디까지가 우리 한민족|민족의 부끄러운 ...",
         "심리역사학": "... 정확하게 예측되고 있다면 사람들은 행동을 바꾸기 때문. 때문에 작중에서도 굉장히 극소수의 [[Super Brain|지식인]]들만 심리역사학의 존재를 알고 있고, 심리역사학은 이미 사장되어 실패한 학문처럼 대중들에게 알려져 ...",
@@ -4237,15 +4300,27 @@ export const backlinks = {
         "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 잠금 단축키로 사용한다!",
         "Mental Simulation of Firefox and Signal as a Super App": "... onboard cannot stop. Especially with group chat, as we learned from [[Kakao]].",
         "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 Toss|토스, [[Kakao|카카오]]뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 가져왔다. ...",
-        "새로운 부동산은 지적 재산이다": "이러한 장점 때문에 한국의 구글이라 불리는 Naver|네이버와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 것이다. 예를 들어 Naver|네이버는 와트패드를, Kakao|카카오는 타파스와 ...",
+        "새로운 부동산은 지적 재산이다": "이러한 장점 때문에 대한민국|한국의 구글이라 불리는 Naver|네이버와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 것이다. 예를 들어 Naver|네이버는 와트패드를, Kakao|카카오는 타파스와 ...",
         "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 Kakao|카카오라는 간편결제를 시작한다는 이야기를 들었다.",
         "프로젝트 어덕행덕": "... - 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 [[Kakao|카카오]]페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 ..."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
     },
+    "Conversation with Yejun Choi on 2023-03-03": {
+        "2023-03-03": "- [[Conversation with Yejun Choi on 2023-03-03]]"
+    },
     "As We May Think": {
         "Memex": "> In [[As We May Think]], [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
+    },
+    "K-Pop": {
+        "2023-03-03": "- [[K-Pop]]",
+        "CELLO": "- [[K-Pop|케이팝]]",
+        "Conversation with Yejun Choi on 2023-03-03": "- problems with the [[K-Pop]] industry (how unfair the system is)",
+        "Spirits do not Inherit": "... and without any shame. So, for example, I send you guys [[K-pop]] videos without trying, and I add all kinds of praise to ...",
+        "개성은 쟁취하는 것": "예를 들어, 저는 여러분들께 시도때도 없이 [[K-Pop|케이팝]] 영상을 보내곤 합니다.",
+        "퍼블리시티권": "- 홈마는 좋은 사진을 생산하기 위해, [[K-Pop|아이돌]] 스케줄 정보를 얻어야 하고, 발품을 팔아야 하고, 좋은 장비를 마련해야 한다. ...",
+        "프로젝트 어덕행덕": "놀랍게도 [[K-Pop|아이돌]] 팬들은 제발 내 돈을 가져가 하는 분야들이 있다."
     },
     "Mail": {
         "2022-05-31": "  - Interactive [[Mail|Emails]] using [[AMP]] under the hood.",
@@ -4266,7 +4341,7 @@ export const backlinks = {
         "Canary Trap": "... quite an interesting story. We sent what appeared to be identical [[Mail|emails]] to all, but each was actually coded with either one or ...",
         "Emails and Decentralized Protocols": "- [[Mail|Email]] is now an oligopoly, a service gatekept by a few big ...",
         "Krafton Way": "... 왕복 항공권, 원룸 오피스텔 임대, 통번역 서비스 등 여러 조건을 통째로 [[Mail|메일]]에 포함해 경영진에게 전달했다. 짐짓 점잖은 형식을 취했으나 사실상 통보였다. 어서 브랜든을 ...",
-        "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Mail|Letter]] to Mr. Alexander Obenauer on 2022-10-12",
+        "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Mail|Letter]] to Mr. Alexander Obenauer on [[2022-10-12]]",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "- [[Mail|Letter]] to Mr. Gustav Ekerot on 2023-02-24",
         "Letter to Mr. Matt Rickard on 2022-10-03": "- [[Mail|Letter]] to Mr. Matt Rickard on 2022-10-03",
         "Letter to Mr. Matt Rickard on 2022-11-28": "- [[Mail|Letter]] to Mr. Matt Rickard on 2022-11-28",
@@ -4563,12 +4638,14 @@ export const backlinks = {
         "활자": "하늘땅사람의 [[Subproject|하위 계획]]."
     },
     "React": {
+        "2022-08-03": "For my internship's next and final step, I will containerize [[React]] Flip Toolkit on top of [[WorkerDOM]] using the same technique.",
         "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 중이다.",
         "2022-09-10": "- [[React]] components library with native dark theme support",
         "Developing Review Notes for Obsidian": "### [[React]] 전환",
         "Dioxus": "They are written in Rust, inspired by [[React]].",
         "Front-end": "- [[React]]",
         "Get Job Done": "  - Coding [[React]]",
+        "GitHub Pages에 React 앱 띄우기": "최근 [[React]] 앱을 GitHub Pages에 띄우면 좋겠다는 생각을 했다. 그렇게 된다면 배포 과정을 ...",
         "JSX": "... Syntax Extension and occasionally referred to as JavaScript XML) is a [[React]] extension to the JavaScript language syntax, which provides a way to ...",
         "Jest": "... large web applications. It works with projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and [[Svelte]]. Jest doesn't require a lot of configuration ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... use Obsidian for my Memex, but I have built a custom [[React]] application for presenting on the web instead of Obsidian Publish.",
@@ -4740,16 +4817,19 @@ export const backlinks = {
         "2023-02-16": "- [[United States of America]]",
         "AT&T Roaming Incident (December 2022)": "... me who grew up in 대한민국|Korea, to see that in the [[United States of America|United States]] you should protect and exercise your own rights proactively.",
         "Biden-Harris Administration National Security Strategy 2022": "... the law. And we will take further measures to ensure the [[United States of America|United States]] remains the world's top destination for talent.",
+        "Born of this Land - The Founding Story of Hyundai": "... is that when Jung first started working outsourcing jobs for the [[United States of America|US]] military, Jung had to put fresh green grass on a UN ...",
         "CCPA": "... to enhance privacy rights and consumer protection for residents of California, [[United States of America|United States]]. The bill was passed by the California State Legislature and signed ...",
         "Downloading Any Recordings from Zoom": "- Both the [[United States of America|United States]] and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted material ...",
         "FinTech and Justice": "... Alipay as their primary payment methods, ahead of cash. In the [[United States of America|US]], the use of money is just 16% of total transactions and ...",
         "Frames Per Second": "... at 23.976 fps instead of 24P was audio post in the [[United States of America|U.S.]]",
+        "IP is the new Real Estate": "... as the Japanese economy recovered and the yen appreciated against the [[United States of America|US]] dollar, Japanese investors reinvested in foreign real estate, particularly in the ...",
         "IRS": "... The Internal Revenue Service (IRS) is the revenue service for the [[United States of America|United States]] federal government, which is responsible for collecting [[United States of America|U.S.]] ...",
         "Krafton Way": "> 우리는 과거에 B급 제품을 만들어왔습니다. 일본이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. 우리는 우리 자신의 실력이 B급이라서 B급 ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... a couple of times about a potential Super App in the [[United States of America|US]], but this may be a very alarming scenario for the people ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... Rickard on 2022-12-24, the conditions for a Super App in the [[United States of America|United States]] are vague. [[Apple]] and [[Google]] divide the tech market into two, ...",
         "Metadream": "... has offices and data centers in Singapore, 일본|Japan, 대한민국|Korea, and the [[United States of America|United States]]. One of Metadream's directors is Chinese national Yang Yuxiang, the CEO ...",
         "Nuclear Fusion": "- The [[United States of America|U.S.]] Department of Energy (DOE) and DOE's National Nuclear Security Administration (NNSA) ...",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... Meanwhile, in 대한민국|Korea, the ongoing trade tensions between China and the [[United States of America|United States]] have dealt a heavy blow to the economy, leaving the nation ...",
         "Palantir Apollo": "... offerings authorized for Mission Critical National Security Systems (IL5) by the [[United States of America|U.S.]] Department of Defense. Palantir Technologies",
         "Palantir Gotham": "... Palantir Gotham is used by counter-terrorism analysts at offices in the [[United States of America|United States]] Intelligence Community (USIC) and United States of America|United States Department of ...",
         "Person A3BA1A": "An American company, Carta, already dominates the [[United States of America|U.S.]] market.",
@@ -4760,13 +4840,18 @@ export const backlinks = {
         "Texts": "Potential Super App for the [[United States of America|United States]]. [[Mental Simulation of Firefox and Signal as a Super App]]",
         "Toss": "... most innovative Financial Super App I've ever seen in 대한민국|Korea and [[United States of America|U.S.]]",
         "Vannevar Bush": "... inventor, and science administrator who, during World War II, headed the [[United States of America|U.S.]] Office of Scientific Research and Development (OSRD), through which almost all ...",
-        "雅號를 찾아서": "[[United States of America|미국]]의 친구들이 Sunghyun을 발음하기 어려워하기에, 기왕이면 영어로 발음하기 편한 아호를 찾아",
+        "Why Korean Banks Suck": "Banks falling behind the tech is a familiar story in the [[United States of America|U.S.]], But I am confident [[대한민국|Korea]] will take it to the next ...",
+        "雅號": "[[United States of America|미국]]의 친구들이 Sunghyun을 발음하기 어려워하기에, 기왕이면 영어로 발음하기 편한 아호를 찾아",
         "경제 개발의 길목에서": "... 보지 않았다. 재무부 장관으로 취임한 직후 박 대통령을 만났을 때 내가 [[United States of America|미국]]에서 공부했고 교수 출신인 점을 인식해서인지 나에게 이런 말을 하는 것이었다.",
         "공기 청정 비행선": "### [[United States of America|미국]]의 특허 US5147429A",
-        "국가와 민족": "... 국가가 통제 기준을 제시하지 않고 국민이 알아서 본인의 권리를 주장해야 합니다. [[United States of America|미국]] 같은 나라는 자유를 위시한 하이 리스크 하이 리턴식 사회, 영국은 최소한의 ...",
+        "국가와 민족": "... 국가가 통제 기준을 제시하지 않고 국민이 알아서 본인의 권리를 주장해야 합니다. [[United States of America|미국]] 같은 나라는 자유를 위시한 하이 리스크 하이 리턴식 사회, [[United Kingdom|영국]]은 ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... Kingdom|영국은 혼란 속에서 제자리를 찾기 위해 고군분투하고 있습니다. 한편, 대한민국|한국은 중국과 [[United States of America|미국]] 간의 무역 긴장이 지속되면서 경제에 큰 타격을 입고 있고, 그 여파에 ...",
+        "국내 은행 서비스가 나쁜 이유": "은행이 기술에 뒤처지는 것은 [[United States of America|미국]]에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 더 정수를 보여준다고 확신한다. 계좌 잔액 ...",
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> [[United States of America|미국]], [[일본]]의 기술 수준을 따라갈 수 있을까,",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "모두 입력했으면 Download balenaOS를 누른 뒤 다운로드를 시작한다. (팁: [[United States of America|미국]] VPN 서버를 사용하면 다운로드 속도가 빨라진다.) 다운을 받는 동안 balenaEtcher를 설치하면 ...",
+        "민사고": "... 'Fear and Loathing in Las Vegas'라는 책을 읽고 분석하는 시간을 가지며 [[United States of America|미국]]사의 여러 인물들을 분석했다. 해당 작품은 주인공이 환각으로 술집에서 '파충류(Reptile)'로 변한 사람들을 ...",
         "벌금과 물가": "## [[United States of America|미국]]",
+        "새로운 부동산은 지적 재산이다": "... 엔화가 평가절상되면서 일본 투자자들은 투자 다각화와 고수익을 위해 해외 부동산, 특히 [[United States of America|미국]]과 유럽의 부동산에 재투자했다.",
         "일본 과학기술 총력전": "패전 당시 [[United States of America|미국]]의 점령 정책이 완전한 비군사화에서 [[Economy|경제]] 안정으로 전환되며 대부분의 군사 생산 능력이 ...",
         "젠리의 성공 공식": "... App과 함께 젠리 팀 또한 해산되었다. 나는 스냅의 큰 실수라고 생각한다. [[United States of America|미국]] 대학생 사이에서도 더 이상 스냅을 쓰지 않는다. 젠리는 쓴다. 페이스북이 감원하며 ...",
         "한국의 입시와 거짓된 명예": "오히려 [[United States of America|미국]]의 청소년들이 돈을 가지고 불장난을 하며 투자와 금융의 기본기를 익히고",
@@ -5069,7 +5154,7 @@ export const backlinks = {
         "Screenshot as an API": "  - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot ...",
         "Search AI와 인터넷의 한국어": "무엇보다 대부분의 자료가 [[Naver|네이버]]에 갇혀있고,",
         "Service Shimming": "- [[Naver]] (≈ [[대한민국|Korean]] Google), for a while, failed to make a News ...",
-        "새로운 부동산은 지적 재산이다": "이러한 장점 때문에 한국의 구글이라 불리는 [[Naver|네이버]]와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 것이다. 예를 들어 Naver|네이버는 와트패드를, [[Kakao|카카오]]는 ...",
+        "새로운 부동산은 지적 재산이다": "이러한 장점 때문에 대한민국|한국의 구글이라 불리는 [[Naver|네이버]]와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 것이다. 예를 들어 Naver|네이버는 와트패드를, [[Kakao|카카오]]는 ...",
         "서비스 시밍": "- [[Naver|네이버]]는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 일일이 찾아가며 뉴스를 배포할 ...",
         "유난한 도전": "... 사용자도 많고 간편한 Toss|토스결제를 너나없이 이용하고 싶어 할 것이다. 그렇지 않았다. [[Naver|네이버]]페이, [[Kakao|카카오]]페이, 삼성페이 등 경쟁자가 너무 많았다. Toss|토스페이의 설득력이 부족했다.",
         "하늘땅사람 개발 기록": "- `( ••)` `⊹⋛⋋( ՞ਊ ՞)⋌⋚⊹) `와 같은 이모티콘. [[Naver|네이버]] 스마트 키보드의 기능 중 꽤 좋은 기능이었다."
@@ -5185,6 +5270,11 @@ export const backlinks = {
     "Atopic Zeropoint": {
         "2023-02-08": "- [[Atopic Zeropoint]]"
     },
+    "On National Crises and the Intellectuals — Focused on GB and KR": {
+        "2023-03-02": "- [[On National Crises and the Intellectuals — Focused on GB and KR]]",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 03-02 | 🇬🇧 [[On National Crises and the Intellectuals — Focused on GB and KR]] <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "[[On National Crises and the Intellectuals — Focused on GB and KR|You can find the English 🇬🇧 version here.]]"
+    },
     "Sudo with Touch ID": {
         "2022-11-30": "- Lesser Known Trick: [[Sudo with Touch ID]]"
     },
@@ -5258,7 +5348,9 @@ export const backlinks = {
         "2023-02-27": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-02-28": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-03-01": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-03-02": "- [[The 30-Day Tweet Test (Harry Stebbings)]]"
+        "2023-03-02": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "Today marks the thirtieth day of [[The 30-Day Tweet Test (Harry Stebbings)|my challenge to post meaningful content on the web]], and as I sit down to write my final piece, my ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "오늘은 [[The 30-Day Tweet Test (Harry Stebbings)|웹에 유의미한 콘텐츠를 올리기 위해 도전한지 30일째]] 되는 날입니다."
     },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
@@ -5791,7 +5883,8 @@ export const backlinks = {
         "2021-06-23": "- [[개성은 쟁취하는 것]]",
         "2022-12-06": "- [[개성은 쟁취하는 것]]",
         "2023-02-25": "- [[개성은 쟁취하는 것]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-25 | 🇬🇧 Spirits do not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-25 | 🇬🇧 Spirits do not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]            ...",
+        "딱 봐도 조성현": "- [[개성은 쟁취하는 것]]"
     },
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
@@ -5842,7 +5935,7 @@ export const backlinks = {
     "Los Angeles": {
         "Biden-Harris Administration National Security Strategy 2022": "- Reviewed in-flight to [[Los Angeles]] on [[2023-01-08]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I am Sunghyun Cho, a computer science student based in [[Los Angeles]].",
-        "Letter to the Heptabase Team on 2022-10-11": "很高興見到你! I am Sunghyun Cho, a computer scientist based in [[Los Angeles|LA]] and Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], ...",
+        "Letter to the Heptabase Team on 2022-10-11": "很高興見到你! I am Sunghyun Cho, a computer scientist based in [[Los Angeles|LA]] and [[서울|Seoul]]. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], ...",
         "이루다": "2022-08-16 [[Los Angeles|LA]]로 오는 비행기에서 우연히 만났다. KCON 가는 길이었다고."
     },
     "0409 Longest Palindrome": {
@@ -6112,6 +6205,11 @@ export const backlinks = {
     },
     "Biden-Harris Administration National Security Strategy 2022": {
         "2023-02-15": "- [[Biden-Harris Administration National Security Strategy 2022]]"
+    },
+    "딱 봐도 조성현": {
+        "2023-03-03": "- [[딱 봐도 조성현]]",
+        "Spirits do not Inherit": "... you guys, so my favorite thing to hear is, \"This is [[딱 봐도 조성현|obviously Sunghyun]], hahaha.\"",
+        "개성은 쟁취하는 것": "그래서 제가 가장 듣기 좋아하는 말도 「이건 [[딱 봐도 조성현]] ㅋㅋㅋㅋ」 이라는 말이었습니다."
     },
     "이공계": {
         "2023-02-15": "- [[이공계]]",
@@ -6449,6 +6547,15 @@ export const backlinks = {
     },
     "C8903B.png": {
         "Metadream": "![[C8903B.png]]"
+    },
+    "FF159D.png": {
+        "Resend": "![[FF159D.png]]"
+    },
+    "3FB92F.png": {
+        "Resend": "![[3FB92F.png]]"
+    },
+    "C1D4F8.png": {
+        "Resend": "![[C1D4F8.png]]"
     },
     "315C50.png": {
         "불가사리": "![[315C50.png]]"
@@ -7560,6 +7667,12 @@ export const backlinks = {
     },
     "CCC92A.png": {
         "Simulated Annealing for Designs": "![[CCC92A.png]]"
+    },
+    "19F478.png": {
+        "딱 봐도 조성현": "![[19F478.png]]"
+    },
+    "2BBBDE.jpg": {
+        "딱 봐도 조성현": "![[2BBBDE.jpg]]"
     },
     "United States of America\\": {
         "Memory Hierarchy": "| [[United States of America\\|US]]-EU Roundtrip | 150ms   |"
