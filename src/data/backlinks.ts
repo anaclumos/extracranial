@@ -55,7 +55,7 @@ export const backlinks = {
     },
     "2022-12-27": {
         "2022년 11월 한 달간 일기 쓰기": "[[2022-12-27]] 회고를 해본다.",
-        "Conversation with Alan Chan on 2022-12-27": "Had a conversation with Alan Chan on [[2022-12-27]].",
+        "Person 542AD7": "Had a conversation with Alan Chan on [[2022-12-27]].",
         "하늘땅사람 개발 기록": "## [[2022-12-27]]"
     },
     "2023-01-25": {
@@ -189,7 +189,8 @@ export const backlinks = {
         "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
     },
     "2023-02-15": {
-        "Jog 25 minutes (Jan-Feb 2023)": "## [[2023-02-15]] 잠정 중단"
+        "Jog 25 minutes (Jan-Feb 2023)": "## [[2023-02-15]] 잠정 중단",
+        "Person 648442": "- [[2023-02-15]]"
     },
     "2023-02-21": {
         "Bing Chat for All Browsers in Japan": "## [[2023-02-21]]"
@@ -344,7 +345,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "## [[2023-01-17]]"
     },
     "2023-03-03": {
-        "Conversation with Yejun Choi on 2023-03-03": "- [[2023-03-03]]"
+        "Person 960D1D": "- [[2023-03-03]]"
     },
     "2022-09-25": {
         "0110 Balanced Binary Tree": "Solved at: [[2022-09-25]]",
@@ -409,7 +410,7 @@ export const backlinks = {
         "Proposal of Research to Professor Cote": "## 3. [[The Photo Library of Babel]]"
     },
     "Geohot Twitter Mayhem": {
-        "Conversation with Mr. Kyle Park on 2023-02-15": "- Possible exit strategy — Twitter's Non-existent Search Engine: [[Geohot Twitter Mayhem]]"
+        "Person 648442": "- Possible exit strategy — Twitter's Non-existent Search Engine: [[Geohot Twitter Mayhem]]"
     },
     "사회과부도": {
         "2022-08-28": "- [[사회과부도]]"
@@ -709,7 +710,11 @@ export const backlinks = {
         "Android": "- [[Adding Space in Android]]"
     },
     "Palantir": {
-        "2022-10-21": "- [[Palantir]]"
+        "2022-10-21": "- [[Palantir]]",
+        "Palantir Apollo": "> [[Palantir]] Apollo is the operating system for continuous delivery and deployment across ...",
+        "Palantir Foundry": "> [[Palantir]] Foundry is an enterprise data management platform offering comprehensive tooling for ...",
+        "Palantir Gotham": "> [[Palantir]] Gotham is an enterprise platform for planning missions and running investigations ...",
+        "Person 392196": "- [[Palantir]]"
     },
     "Kubernetes": {
         "2022-07-14": "... and more. One wrong info that I found: Uber didn't make [[Kubernetes]]. [[Google]] did.",
@@ -900,6 +905,11 @@ export const backlinks = {
     "Meltdown and Spectre": {
         "2022-12-09": "- [[Meltdown and Spectre]]",
         "Computer Systems": "- [[Meltdown and Spectre]]"
+    },
+    "Person 648442": {
+        "2023-02-15": "- [[Person 648442]]",
+        "Project PEOPLE": "- [[Person 648442]]",
+        "The One and Only": "Someday Project. Ideated during [[Person 648442]]"
     },
     "잡스와 생존 편향": {
         "2019-10-13": "- [[잡스와 생존 편향]]",
@@ -1363,6 +1373,10 @@ export const backlinks = {
     "Pascal Triangle": {
         "2023-01-24": "- [[Pascal Triangle]]"
     },
+    "Person 960D1D": {
+        "2023-03-03": "- [[Person 960D1D]]",
+        "Project PEOPLE": "- [[Person 960D1D]]"
+    },
     "Pure Component Model": {
         "2022-09-03": "- [[Pure Component Model]]",
         "Monolithic Model": "- Solution [[Pure Component Model]]"
@@ -1374,7 +1388,8 @@ export const backlinks = {
     "Project PEOPLE": {
         "2022-07-10": "- Notion opened a new paradigm for low-code websites. [[Project PEOPLE]] now create personal websites, event RSVPs, blogs, databases, and much more, ...",
         "2022-09-08": "- [[Project PEOPLE]]",
-        "2022-09-14": "- [[Project PEOPLE]]"
+        "2022-09-14": "- [[Project PEOPLE]]",
+        "2023-03-03": "- [[Project PEOPLE]]"
     },
     "새로운 부동산은 지적 재산이다": {
         "2023-02-26": "- [[새로운 부동산은 지적 재산이다]]",
@@ -1521,7 +1536,7 @@ export const backlinks = {
         "2022-12-28": "- [[Dioxus]]"
     },
     "불가사리 재단": {
-        "Conversation with Yejun Choi on 2023-03-03": "- [[불가사리 재단]]?"
+        "Person 960D1D": "- [[불가사리 재단]]?"
     },
     "Structs and Unions": {
         "2022-11-03": "- [[Structs and Unions]]",
@@ -1567,7 +1582,6 @@ export const backlinks = {
         "2022-10-14": "  - Linear has been popping up on my [[Twitter]] threads.",
         "2022-10-22": "...  - A lot of people sent me solid proposals on [[Twitter]].",
         "2022-10-27": "## [[Twitter]]",
-        "Conversation with Mr. Kyle Park on 2023-02-15": "- Talked about the fragmented nature of [[Twitter]].",
         "Cube": "- Feature: [[Twitter]]-to-Instagram-Card Mode?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "I'm at @anaclumos on GitHub, [[Twitter]], and any other platform.",
         "Letter to Mr. Matt Rickard on 2022-12-24": "There are countless cases where [[Twitter]] troubled up, but the above point is the most prominent one. ...",
@@ -1575,6 +1589,7 @@ export const backlinks = {
         "Mental Simulation of Firefox and Signal as a Super App": "- [[Twitter]], Facebook, Instagram, and Snapchat cannot be super apps because they have ...",
         "Mood.surf": "> Discover expert insights from tech [[Twitter]]",
         "Musk and Twitter": "... wanted to reach out personally to share my motivation for acquiring [[Twitter]]. There has been much speculation about why I bought Twitter and ...",
+        "Person 648442": "- Talked about the fragmented nature of [[Twitter]].",
         "Regulation of Fake News": "- The United States of America|United States government pressured [[Twitter]] to elevate certain content and suppress other content about Covid-19 and ...",
         "Social Coding": "... rarely reflected on the GitHub follower model compared to LinkedIn (or [[Twitter]]",
         "유난한 도전": "이후 약간의 입질이 오자 홈페이지를 열고 [[Twitter|트위터]]에 링크를 올리니 반응이 확실했다."
@@ -1610,7 +1625,7 @@ export const backlinks = {
         "Web Typography": "... faces and styles were controlled exclusively by the settings of each [[web browser]]. There was no mechanism for individual Web pages to control font ..."
     },
     "대한민국의 저출산": {
-        "Conversation with Yejun Choi on 2023-03-03": "- [[대한민국의 저출산]]"
+        "Person 960D1D": "- [[대한민국의 저출산]]"
     },
     "A Massive Mystery": {
         "2023-02-07": "- [[A Massive Mystery]]",
@@ -1996,6 +2011,10 @@ export const backlinks = {
         "Tools for Thought": "- Visual-based Tools for Thought: add [[infinite canvas]] to text-based versions. involves and exploits [[spacial cognition]].",
         "Visual-based Tools for Thought": "## [[Infinite Canvas]]"
     },
+    "Person 542AD7": {
+        "2022-12-28": "- [[Person 542AD7]]",
+        "Project PEOPLE": "- [[Person 542AD7]]"
+    },
     "Apple": {
         "2022-06-10": "  - [[Apple]] has implemented pointer authentication on all of its custom [[ARM Architecture|ARM]]-based ...",
         "2022-06-20": "Note that this is not [[Apple]] Passkey. This is the Privacy Pass standard. Apple Passkey is a ...",
@@ -2242,9 +2261,6 @@ export const backlinks = {
     },
     "Reading Files in Swift": {
         "2023-01-22": "- [[Reading Files in Swift]]"
-    },
-    "Conversation with Alan Chan on 2022-12-27": {
-        "2022-12-28": "- [[Conversation with Alan Chan on 2022-12-27]]"
     },
     "Protocol Wars": {
         "2022-11-16": "- [[Protocol Wars]]: [[Matt Rickard]]",
@@ -2649,7 +2665,7 @@ export const backlinks = {
         "Proposal of Research to Professor Cote": "... studied underlying technologies on this and found several layers for the [[project]].",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding [[AI]] system.",
         "Redactor for iPhone": "Someday [[Project]].",
-        "Repeated Designs": "> Weekend side [[project]]: A gallery of the best looking devtool landing pages  ",
+        "Repeated Designs": "> Weekend side [[project]]: A gallery of the best looking devtool landing pages",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
         "Stories Behind Satori": "This is already done by an open-source [[project]] facebook/yoga.",
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
@@ -2657,7 +2673,7 @@ export const backlinks = {
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "Tech Now Pay Later": "> Instead of worrying about which DB to use for your [[project]] and/or if it scales – sometimes you just gotta ship it ...",
         "The Great Battle of Flow and Asana": "... Basecamp was to build great software that scratched their own itch ([[project]] management,) and charge a monthly recurring amount to give them access ...",
-        "The One and Only": "Someday [[Project]]. Ideated during [[Conversation with Mr. Kyle Park on 2023-02-15]]",
+        "The One and Only": "Someday [[Project]]. Ideated during [[Person 648442]]",
         "The One and Only WebExtension": "- Someday [[Project]]",
         "The Zenly Playbook": "... Zenly shows surprising accuracy and battery efficiency from a 3-year research [[project]] for a child safety app before founding Zenly. Even from the ...",
         "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
@@ -3336,10 +3352,6 @@ export const backlinks = {
     "Conditional Compilation": {
         "2023-01-25": "- [[Conditional Compilation]]"
     },
-    "Conversation with Mr. Kyle Park on 2023-02-15": {
-        "2023-02-15": "- [[Conversation with Mr. Kyle Park on 2023-02-15]]",
-        "The One and Only": "Someday Project. Ideated during [[Conversation with Mr. Kyle Park on 2023-02-15]]"
-    },
     "Dynamically Linked Libraries": {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
     },
@@ -3376,7 +3388,7 @@ export const backlinks = {
         "2023-02-14": "## [[Building Habit]]"
     },
     "Dumbest Person in the Room": {
-        "Conversation with Alan Chan on 2022-12-27": "Felt like I was the [[Dumbest Person in the Room]]."
+        "Person 542AD7": "Felt like I was the [[Dumbest Person in the Room]]."
     },
     "AI-native": {
         "Cloud-Native": "I am cloud-native, and [[AI-native]], and that is my edge.",
@@ -3492,7 +3504,6 @@ export const backlinks = {
         "AI replaces expensive jobs first": "서울|SEOUL (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed a controversial bill to limit ride-hailing ...",
         "AT&T Roaming Incident (December 2022)": "On December 15th, I landed in [[대한민국|Korea]] and did not have my phone service, so I used 600MB ...",
         "Born of this Land - The Founding Story of Hyundai": "... of our work for the United States of America|US Army in [[대한민국|Korea]] was Hyundai's.",
-        "Conversation with Yejun Choi on 2023-03-03": "- possible market expansion outside [[대한민국|Korea]], garnering uncharted markets, leveraging the global purchasing power.",
         "Downloading Any Recordings from Zoom": "... Both the United States of America|United States and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted material for educational use.",
         "Finally, Apple Pay in Korea": "After a decade of waiting, Apple Pay has expanded to [[대한민국|Korea]]. 대한민국|Korea remained the only developed nation country that did not support ...",
         "Karrot": "> 당근마켓(Karrot)은 [[대한민국]]의 중고 거래, 소상공인 홍보 등 생활정보 소프트웨어이다. 중고거래, 지역업체, 질문답변, 부동산, ...",
@@ -3505,6 +3516,7 @@ export const backlinks = {
         "Neo Korea": "Neo [[대한민국|Korea]]",
         "On National Crises and the Intellectuals — Focused on GB and KR": "... turn to the crisis facing my home country, the Republic of [[대한민국|Korea]]. As a student, I feel a deep sense of responsibility for ...",
         "Person 1E6ABA": "Why would the [[대한민국|Korean]] Govs and 대한민국|Korean Banks promote any terrible news for the 대한민국|Korean ...",
+        "Person 960D1D": "- possible market expansion outside [[대한민국|Korea]], garnering uncharted markets, leveraging the global purchasing power.",
         "Person A3BA1A": "Considering that, Carta cannot ever penetrate the [[대한민국|Korean]] market.",
         "Pretendard의 아쉬운 점": "허나 [[대한민국|한국]] 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
         "Ridi": "Ridi is a [[대한민국|Korean]] [[Unicorn]] specializing in [[eBook]] distribution, online contents & intellectual properties. Reference",
@@ -4307,16 +4319,13 @@ export const backlinks = {
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
     },
-    "Conversation with Yejun Choi on 2023-03-03": {
-        "2023-03-03": "- [[Conversation with Yejun Choi on 2023-03-03]]"
-    },
     "As We May Think": {
         "Memex": "> In [[As We May Think]], [[Vannevar Bush]] describes a memex as an electromechanical device enabling individuals ..."
     },
     "K-Pop": {
         "2023-03-03": "- [[K-Pop]]",
         "CELLO": "- [[K-Pop|케이팝]]",
-        "Conversation with Yejun Choi on 2023-03-03": "- problems with the [[K-Pop]] industry (how unfair the system is)",
+        "Person 960D1D": "- problems with the [[K-Pop]] industry (how unfair the system is)",
         "Spirits do not Inherit": "... and without any shame. So, for example, I send you guys [[K-pop]] videos without trying, and I add all kinds of praise to ...",
         "개성은 쟁취하는 것": "예를 들어, 저는 여러분들께 시도때도 없이 [[K-Pop|케이팝]] 영상을 보내곤 합니다.",
         "퍼블리시티권": "- 홈마는 좋은 사진을 생산하기 위해, [[K-Pop|아이돌]] 스케줄 정보를 얻어야 하고, 발품을 팔아야 하고, 좋은 장비를 마련해야 한다. ...",
@@ -4381,7 +4390,7 @@ export const backlinks = {
         "2023-02-24": "- [[ContentLayer]]"
     },
     "Alan Chan": {
-        "Conversation with Alan Chan on 2022-12-27": "Had a conversation with [[Alan Chan]] on [[2022-12-27]]."
+        "Person 542AD7": "Had a conversation with [[Alan Chan]] on [[2022-12-27]]."
     },
     "Apple vs Spotify": {
         "2022-10-27": "### [[Apple vs Spotify]]"
@@ -5162,10 +5171,10 @@ export const backlinks = {
     "Memex": {
         "2022-10-17": "- [[Memex]]",
         "As We May Think": "... a sort of collective memory machine with his concept of the [[memex]] that would make knowledge more accessible, believing that it would help ...",
-        "Conversation with Mr. Kyle Park on 2023-02-15": "- Make a full [[Memex]] with [[Twitter]]",
         "In-house and Free Market": "... insights and research on the web should be more accessible. This [[Memex]] is one branch of that thought.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a [[Memex]] or, in my term, [[Extracranial]] at https://cho.sh.",
         "Memex is more than a Memex": "- [[Memex]] is more than a Memex",
+        "Person 648442": "- Make a full [[Memex]] with [[Twitter]]",
         "Plateau of Latent Potential": "It could be a form of Extracranial, a [[Memex]], or even [[Conversational AI Tools for Thought]].",
         "Preservation of Data": "- An important concept for [[Memex]] and [[Extracranial]]",
         "Vannevar Bush": "... 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 ...",
@@ -5449,7 +5458,7 @@ export const backlinks = {
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding [[AI]] system.",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
-        "The One and Only": "[[Someday]] [[Project]]. Ideated during [[Conversation with Mr. Kyle Park on 2023-02-15]]",
+        "The One and Only": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
         "The One and Only WebExtension": "- [[Someday]] [[Project]]",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute URI.",
         "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
@@ -5977,7 +5986,7 @@ export const backlinks = {
         "Synthote": "- [[Copilot]] is already doing it for codes"
     },
     "Intellisense for Knowledge Management": {
-        "Conversation with Alan Chan on 2022-12-27": "We talked about [[Intellisense for Knowledge Management]]"
+        "Person 542AD7": "We talked about [[Intellisense for Knowledge Management]]"
     },
     "Markovity": {
         "2023-01-23": "- [[Markovity]]"

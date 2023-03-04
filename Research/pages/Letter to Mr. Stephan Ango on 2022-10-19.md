@@ -4,7 +4,7 @@ slug: '/4890CA'
 ---
 
 - [[Stephan Ango]]
-- [[Mail|Letter]] to Mr. Stephan Ango on 2022-10-19
+- [[Mail|Letter]] to Mr. Stephan Ango on [[2022-10-19]]
 
 Dear Engineer Ango,
 
@@ -20,8 +20,6 @@ You also have your page there!
 
 If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application for presenting on the web instead of [[Obsidian]] Publish.
 You are located here :)
-
-![[4BE5E2.png]]
 
 I hope we can keep in touch!
 
