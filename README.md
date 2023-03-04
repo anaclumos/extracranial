@@ -10,9 +10,9 @@ Think this as a **exoskeleton** for my brain: personal wikipedia, digital garden
 everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 엑스트라크래니얼은 의학에서 **두개(頭蓋) 외부**를 뜻하는 단어입니다.
-제 두뇌를 위한 강화 외골격 슈트인 셈입니다. 또는 개인 위키, 디지털 가든, 두번째 뇌, 메멕스라고도 부릅니다.
-여기는 제 백과사전(디지털 가든, 두번째 뇌)입니다.
-제가 알고 있는 모든 것이 있어요! [토끼굴에 뛰어들어 보세요](https://cho.sh/random)!
+제 두뇌를 위한 강화 외골격 슈트인 셈입니다.
+또는 개인 위키, 디지털 가든, 두번째 뇌, 메멕스 등등... 제가 알고 있는 모든 것이 있는 그런 곳입니다.
+[토끼굴에 뛰어들어 보세요](https://cho.sh/random)!
 
 > **Note**<br/>
 > The Favicon image is Tossface's U+E109 (<img alt="Emoji of 'Palaces of Korea'" width="12px" src="https://raw.githubusercontent.com/anaclumos/extracranial/main/static/img/favicon.svg"/>) Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
@@ -26,7 +26,7 @@ Language                 Files     Lines   Blanks  Comments     Code Complexity
 Markdown                  1332     36508     9327         0    27181          0
 CSS                         71     20249      267        28    19954          0
 TypeScript                  58     11667      166        70    11431        211
-JSON                        42      2183        0         0     2183          0
+JSON                        42      2172        0         0     2172          0
 Python                       7       770       54        41      675        107
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -36,13 +36,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1534     98395    10295      5090    83010       1155
+Total                     1534     98384    10295      5090    82999       1155
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,796,934
+Estimated Cost to Develop (organic) $2,796,545
 Estimated Schedule Effort (organic) 20.33 months
 Estimated People Required (organic) 12.22
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6800858 bytes, 6.801 megabytes (SI)
+Processed 6800444 bytes, 6.800 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

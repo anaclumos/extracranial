@@ -192,6 +192,9 @@ export const backlinks = {
         "Jog 25 minutes (Jan-Feb 2023)": "## [[2023-02-15]] 잠정 중단",
         "Person 648442": "- [[2023-02-15]]"
     },
+    "2022-10-19": {
+        "Letter to Mr. Stephan Ango on 2022-10-19": "- Mail|Letter to Mr. Stephan Ango on [[2022-10-19]]"
+    },
     "2023-02-21": {
         "Bing Chat for All Browsers in Japan": "## [[2023-02-21]]"
     },
@@ -4356,7 +4359,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-11-28": "- [[Mail|Letter]] to Mr. Matt Rickard on 2022-11-28",
         "Letter to Mr. Matt Rickard on 2022-12-21": "[[Mail|Letter]] to Mr. Matt Rickard on 2022-12-21",
         "Letter to Mr. Matt Rickard on 2022-12-24": "- [[Mail|Letter]] to Mr. Matt Rickard on 2022-12-24",
-        "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Mail|Letter]] to Mr. Stephan Ango on 2022-10-19",
+        "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Mail|Letter]] to Mr. Stephan Ango on [[2022-10-19]]",
         "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the Heptabase Team on 2022-10-11",
         "Markdown Email Client": "Someday Project. You write an [[Mail|email]] in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as ...",
         "Mastodon": "... only people IN your kerflunk can quark your nerps. Kinda like [[Mail|email]].\" https://mas.to/@Ciaraioch@mastodon.ie/109287825141624121",
@@ -7193,9 +7196,6 @@ export const backlinks = {
     "E0A8DC.png": {
         "San Francisco": "![[E0A8DC.png]]",
         "Toss Product Sans": "![[E0A8DC.png]]"
-    },
-    "4BE5E2.png": {
-        "Letter to Mr. Stephan Ango on 2022-10-19": "![[4BE5E2.png]]"
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
