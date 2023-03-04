@@ -7,7 +7,7 @@ slug: '/1B5A5B'
 - Currently works at Lyft, Identity & Platform Team
 - Majored in CS
 - Researched for two years
-- Worked as different types of engineers
+- Worked with different types of engineers
   - Found each position didn't fit them
 - Junior Engineers tend to execute more things
 - Senior Engineers deal with ambiguity.

@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3e018e227c5052b6",
+        "id": "3f07f9d7bcf0377c",
         "type": "tabs",
         "children": [
           {
-            "id": "8b0ba9276531931c",
+            "id": "974074c5d7f60eb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-03.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-03-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-03-03.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,14 +120,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b0ba9276531931c",
+  "active": "974074c5d7f60eb5",
   "lastOpenFiles": [
-    "pages/Conversation with Yejun Choi on 2023-03-03.md",
+    "pages/Letter to Mr. Stephan Ango on 2022-10-19.md",
     "journals/2023-03-03.md",
+    "pages/Project PEOPLE.md",
+    "pages/Palantir.md",
+    "pages/Person 392196.md",
+    "pages/Person 960D1D.md",
+    "pages/Person 648442.md",
+    "pages/Person 542AD7.md",
+    "pages/Person A3BA1A.md",
+    "pages/Person 1B5A5B.md",
     "pages/Project.md",
     "pages/Tech Now Pay Later.md",
     "pages/Repeated Designs.md",
-    "pages/Letter to Mr. Stephan Ango on 2022-10-19.md",
     "pages/HTML.md",
     "pages/GitHub Actions.md",
     "pages/GDB.md",
@@ -153,13 +152,6 @@
     "assets/FF159D.png",
     "assets/C1D4F8.png",
     "pages/Simple Analytics.md",
-    "pages/Jog 25 minutes (Jan-Feb 2023).md",
-    "pages/React.md",
-    "journals/2022-11-01.md",
-    "pages/Deadlock.md",
-    "pages/Composing Mail in SwiftUI.md",
-    "pages/Space Terraforming.md",
-    "pages/Binomial Theorem.md",
     "assets/2BBBDE.jpg",
     "assets/753C2F.png",
     "assets/F6A265.png",
