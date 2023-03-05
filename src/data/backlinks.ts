@@ -934,7 +934,7 @@ export const backlinks = {
         "2022-10-17": "Heavily inspired by [[Andy Matuschak]].",
         "Andy Matuschak": "... he describes the history and ideas behind the Atomic Notes|Zettelkasten technique. [[Andy Matuschak]] advanced ideas in Ahrens' book by introducing the concept of \"[[Evergreen ...",
         "Evergreen notes": "## [[Andy Matuschak]]",
-        "Extracranial": "### [[Andy Matuschak]]",
+        "Second Brain": "### [[Andy Matuschak]]",
         "Sliding Panes": "- It seems like it was first introduced by [[Andy Matuschak]], at least his version made it the trend."
     },
     "Multiplication Theorem": {
@@ -1120,8 +1120,9 @@ export const backlinks = {
         "2022-10-13": "- [[Extracranial]]",
         "2022-10-18": "- [[Extracranial]]",
         "2022-11-07": "- [[Extracranial]]",
+        "2023-03-04": "- [[Extracranial]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a Memex or, in my term, [[Extracranial]] at https://cho.sh.",
-        "Memex": "Synonym with [[Extracranial]], Digital Brain, Second Brain, etc.",
+        "Memex": "Synonym with [[Extracranial]], [[Second Brain|Digital Brain]], [[Second Brain]], etc.",
         "Nextra": "- Potential [[Extracranial]]",
         "Paracosm": "Paracosm is an experimental documentation toolkit & [[Extracranial]] [[Tools for Thought]] that aims to replace [[Docusaurus]] with [[Vercel]]'s tech ...",
         "Plateau of Latent Potential": "It could be a form of [[Extracranial]], a [[Memex]], or even [[Conversational AI Tools for Thought]].",
@@ -1162,8 +1163,8 @@ export const backlinks = {
         "2023-02-21": "- [[Beehiiv]]"
     },
     "Svelte": {
-        "Extracranial": "Seems like using [[Svelte]]",
         "Jest": "... works with projects using Babel, TypeScript, Node.js, React, Angular, Vue.js, and [[Svelte]]. Jest doesn't require a lot of configuration for first-time users of ...",
+        "Second Brain": "Seems like using [[Svelte]]",
         "Virtual DOM": "... similar programming model without using virtual DOM — and that's where [[Svelte]] comes in"
     },
     "Synthography": {
@@ -1228,7 +1229,7 @@ export const backlinks = {
     "United Kingdom": {
         "2023-03-03": "- [[United Kingdom]]",
         "Accelerationism": "- [[United Kingdom|영국]]의 철학자 및 이후 어두운 계몽주의 (Dark Enlightenment)에 대한 주해자 Nick Land의 ...",
-        "On National Crises and the Intellectuals — Focused on GB and KR": "... foreboding challenges that lie ahead. The Republic of 대한민국|Korea and the [[United Kingdom]] share many similarities in our struggles. As [[Super Brain|intellectuals]], we must ...",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... foreboding challenges that lie ahead. The Republic of 대한민국|Korea and the [[United Kingdom]] share many similarities in our struggles. As [[Superbrain|intellectuals]], we must consider ...",
         "PECR": "... Electronic Communications (EC Directive) Regulations 2003 is a law in the [[United Kingdom]] which made it unlawful to, amongst other things, transmit an automated ...",
         "The Site On Which the Sun Never Sets": "... global nature and constant activity of the internet. Just as the [[United Kingdom|British]] Empire once had territories and colonies across multiple continents and time ...",
         "국가와 민족": "... of America|미국 같은 나라는 자유를 위시한 하이 리스크 하이 리턴식 사회, [[United Kingdom|영국]]은 최소한의 기본권을 제도화한 후 통제 기준을 제시하지 않는 사회, 독일은 통제 ...",
@@ -1299,7 +1300,7 @@ export const backlinks = {
     "Font Features": {
         "2022-08-01": "- Just realized that this enables Font [[Font Features|Ligature]] Settings.",
         "CalliFontia": "- 추출 전 여러가지 [[Font Features]]을 켜고 끄며 미리보기 대조 가능",
-        "Toss Product Sans": "- I figured it did not fully support [[Font Features]]."
+        "Toss Product Sans": "[[Font Features|폰트 피쳐]]를 온전하게 지원하지 않는다."
     },
     "Sandbox": {
         "2022-06-22": "- Use [[Sandbox]] for the outer side.",
@@ -1724,6 +1725,7 @@ export const backlinks = {
         "Font Features": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
         "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.",
         "San Francisco": "### [[Pretendard]]",
+        "Toss Product Sans": "비슷한 서체를 찾는다면 [[Pretendard]] 쪽을 확인!",
         "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Use Your Mac as your Bluetooth Speaker": {
@@ -2239,7 +2241,7 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-18 | 🇬🇧 Imagining WebNPU API <br/> 🇰🇷 [[WebNPU API를 상상하다]]            ..."
     },
     "WebExtension": {
-        "2022-05-30": "... to capture special moments. - Print Your Places Great Digital Brain [[WebExtension|Extension]].",
+        "2022-05-30": "... capture special moments. - Print Your Places Great Second Brain|Digital Brain [[WebExtension|Extension]].",
         "Are Computers Psychotropic Substances": "If you use these services on your computer, actively use [[WebExtension|extension]] programs to control invasive addiction manipulations.",
         "Better Obsidian": "## [[WebExtension|Extension]] Ideas for [[Obsidian]]",
         "Bing Chat for All Browsers in Japan": "... but it seems like a lot of 🇯🇵 people like my [[WebExtension|extension]]!",
@@ -2418,10 +2420,11 @@ export const backlinks = {
     },
     "PKM": {
         "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays ...",
-        "2022-07-01": "... realized that the term Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.",
-        "Better Obsidian": "  - `Personal Knowledge Management` and `[[PKM]]` should act the same.",
-        "PKM": "| [[PKM]]        | Architecture for Digital ...",
-        "Pensieve": "... the intermediary bridge between web browser data stream (ephemeral) and long-term [[PKM]] data storage."
+        "2022-07-01": "... that the term Second Brain|Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.",
+        "PKM": "| [[PKM]]        | Architecture for [[Digital ...",
+        "Pensieve": "... the intermediary bridge between web browser data stream (ephemeral) and long-term [[PKM]] data storage.",
+        "Powerfully Powerless Tools": "Some tools must choose to be dumbed down. [[PKM]] tools are one example.",
+        "강력하게 미약한 도구들": "어떤 도구들은 의도적으로 바보 같아져야 한다. [[PKM]] 도구들이 한 예다."
     },
     "Tools I will use one day": {
         "2022-08-04": "- [[Tools I will use one day]]",
@@ -2534,6 +2537,17 @@ export const backlinks = {
         "2022-07-18": "- [[CELLO (Product)]]",
         "2022-08-04": "### [[CELLO (Product)]]",
         "CELLO": "- [[CELLO (Product)]]"
+    },
+    "Second Brain": {
+        "2022-05-30": "... perfect gift to capture special moments. - Print Your Places Great [[Second Brain|Digital Brain]] [[WebExtension|Extension]].",
+        "2022-05-31": "- SAY HELLO TO YOUR [[Second Brain|Digital Brain]]. Type out any thought, and we'll organize it for you. - ...",
+        "2022-07-01": "... the middle of reading this book, I realized that the term [[Second Brain|Digital Brain]], [[Second Brain]], [[Digital Garden]], and [[PKM]] are used interchangeably, they are ...",
+        "2022-07-21": "... succeeded from pure intellect without the help of note-taking or some [[second brain]]?",
+        "2023-03-04": "- [[Second Brain]]",
+        "Building a Second Brain": "The so-called [[second brain]] is recreating the same concept on a digital device.",
+        "In search of my domain": "... ready.\" I wanted to make a fully customizable digital garden & [[second brain]]: I laid out my vision before starting to work on the ...",
+        "Memex": "Synonym with Extracranial, [[Second Brain|Digital Brain]], [[Second Brain]], etc.",
+        "PKM": "| [[Second Brain]]   | Implementation for augmenting your thoughts.   |"
     },
     "Imagining WebNPU API": {
         "2023-02-14": "- [[Imagining WebNPU API]]",
@@ -2961,7 +2975,7 @@ export const backlinks = {
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve this information inequality in the financial ...",
         "Service Shimming": "- [[Toss]] (≈ [[대한민국|Korean]] Paypal) failed to make the transaction system, so the ...",
         "Supergravity Products": "... 아이디어 (금융 Super App|슈퍼 앱 x 친구에게 송금 쉬운 앱 o) [[Toss]]",
-        "Toss Product Sans": "- Font by [[Toss]].",
+        "Toss Product Sans": "- [[Toss]]의 [[Font|글꼴]]",
         "Tossface": "- Emoji Font by [[Toss]]",
         "Why Korean Banks Suck": "... 대한민국|Korean banking sector, the emergence of new Financial Technology|fintech companies like [[Toss]] and KakaoBank has brought some positive changes. These companies have disrupted ...",
         "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 [[Toss|토스]], [[Kakao|카카오]]뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 ...",
@@ -3078,7 +3092,6 @@ export const backlinks = {
         "2023-02-16": "... to write a tutorial how to replicate your publishing workflow with [[Obsidian]] and [[Docusaurus]], please count me as one enthusiast reader, I'd love ...",
         "Better Obsidian": "## WebExtension|Extension Ideas for [[Obsidian]]",
         "Developing Review Notes for Obsidian": "이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 API 문서를 탐독하면서 이런 저런 발견 ...",
-        "Extracranial": "... Thought and Online platforms. For this system, I use Docusaurus and [[Obsidian]]. It is working reasonably well.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application ...",
         "Letter to the Heptabase Team on 2022-10-11": "... the web. My entire research page (https://cho.sh/r/) runs on heavily customized [[Obsidian]], Nota, and [[Docusaurus]], serving as my daily note-taking platform after figuring ...",
         "Love Obsidian": "i love [[obsidian]]",
@@ -3844,7 +3857,7 @@ export const backlinks = {
         "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
         "Pretendard": "  - He should've put it as Cross-platform [[San Francisco]] alternative",
         "Satoshi": "- Font similar to [[San Francisco|SF Pro]]",
-        "Toss Product Sans": "- Looks bizarrely similar to [[San Francisco]]",
+        "Toss Product Sans": "- [[San Francisco]]와 놀랍도록 유사",
         "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Letter to Mr. Stephan Ango on 2022-10-19": {
@@ -4225,7 +4238,7 @@ export const backlinks = {
     "Interactive Articles": {
         "2022-10-18": "- [[Interactive Articles]]",
         "2022-12-07": "- Framer Motion, [[Interactive Articles]]: Inside Framer's Magic Motion",
-        "Extracranial": "## [[Interactive Articles]]"
+        "Second Brain": "## [[Interactive Articles]]"
     },
     "Are.na (Service)": {
         "Jumpsite": "## [[Are.na (Service)]]"
@@ -4274,18 +4287,6 @@ export const backlinks = {
         "FIRE": "- [[FIRE Engine]]",
         "Intracranial": "- [[FIRE Engine]]",
         "Old Fashioned Camera": "- 백엔드와 Front-end|프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임"
-    },
-    "Super Brain": {
-        "Dumbest Person in the Room": "> Surround yourself with more [[Super Brain|intelligent people]], and you'll all win. More ideas, energy, connections, and smarter people ...",
-        "Newtonian Mail": "... was a prolific Mail|letter writer and corresponded with numerous scientists and [[Super Brain|intellectuals]]. Newton's [[Mail|letters]] were often highly technical and discussed his scientific research ...",
-        "On National Crises and the Intellectuals — Focused on GB and KR": "... and the United Kingdom share many similarities in our struggles. As [[Super Brain|intellectuals]], we must consider how to help our nations overcome these crises.",
-        "경제 개발의 길목에서": "... 선행되지 않고서는 불가능하다고 믿고 있었기 때문이다. 그래서 그는 관념적으로 민주화를 앞세우는 [[Super Brain|지식인]]들을 좋게 보지 않았다. 재무부 장관으로 취임한 직후 박 대통령을 만났을 때 ...",
-        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "[[Super Brain|지식인]]으로서 우리는 양국의 위기 극복을 위해 무엇을 할 수 있을지 고민해야만합니다.",
-        "뉴턴의 서신": "뉴턴은 수많은 과학자 및 [[Super Brain|지식인]]들과 엄청난 양의 [[Mail|서신]]을 주고 받았다.",
-        "민사고": "... 감명 깊은 부분이 많았다. 편향되지 않고, 암기식 교육도 아니었으며, '올바른 한민족|민족적 [[Super Brain|지식인]]은 무엇인가'하는 질문을 많이 던지게끔 하셨다. 어디까지가 식민사관이고 어디까지가 우리 한민족|민족의 부끄러운 ...",
-        "심리역사학": "... 정확하게 예측되고 있다면 사람들은 행동을 바꾸기 때문. 때문에 작중에서도 굉장히 극소수의 [[Super Brain|지식인]]들만 심리역사학의 존재를 알고 있고, 심리역사학은 이미 사장되어 실패한 학문처럼 대중들에게 알려져 ...",
-        "전방위 포위": "- 앞: 순식간에 초격차를 벌려나가는 업계 [[Super Brain|지식인]]들",
-        "조선의 노비제도에 관한 보고": "... 동물보다 조금 나은 노비에게 신경을 써야 하는 이유가 무엇이 있겠습니까? 가장 [[Super Brain|지식인]]이라고 존경받는 사람들조차도 이러한 논리에서 벗어나지 못하고 있습니다."
     },
     "Decoy Effect": {
         "2022-11-08": "- [[Decoy Effect]]",
@@ -4405,7 +4406,6 @@ export const backlinks = {
         "2022-11-11": "- Lazy: [[Tools for Thought]]",
         "2022-11-14": "- [[Tools for Thought]]",
         "Conversational AI Tools for Thought": "- ChatGPT and Generative AI are not exactly [[Tools for Thought]] for now. However, it has the potential to be one. See ...",
-        "Extracranial": "... function while acting as a searchable Wikipedia. It usually tightly integrates [[Tools for Thought]] and Online platforms. For this system, I use Docusaurus and [[Obsidian]]. ...",
         "Handwriting Tools for Thoughts": "- A specific [[Tools for Thought]] with handwriting.",
         "Newtonian Mail": "... Robert Boyle, Christiaan Huygens, and Gottfried Wilhelm Leibniz. Mail|Mails were Newton's [[Tools for Thought]].",
         "PKM": "Check [[Tools for Thought]] for PKM tools in the market.",
@@ -4690,6 +4690,19 @@ export const backlinks = {
     "Greedy Algorithm": {
         "Real Exams": "- 1 [[Greedy Algorithm]]"
     },
+    "Superbrain": {
+        "Dumbest Person in the Room": "> Surround yourself with more [[Superbrain|intelligent people]], and you'll all win. More ideas, energy, connections, and smarter people ...",
+        "Extracranial": "Extracranial. The Exosuit for [[Superbrain|Superbrains]]",
+        "Newtonian Mail": "... was a prolific Mail|letter writer and corresponded with numerous scientists and [[Superbrain|intellectuals]]. Newton's [[Mail|letters]] were often highly technical and discussed his scientific research ...",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... and the United Kingdom share many similarities in our struggles. As [[Superbrain|intellectuals]], we must consider how to help our nations overcome these crises.",
+        "경제 개발의 길목에서": "... 선행되지 않고서는 불가능하다고 믿고 있었기 때문이다. 그래서 그는 관념적으로 민주화를 앞세우는 [[Superbrain|지식인]]들을 좋게 보지 않았다. 재무부 장관으로 취임한 직후 박 대통령을 만났을 때 ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "[[Superbrain|지식인]]으로서 우리는 양국의 위기 극복을 위해 무엇을 할 수 있을지 고민해야만합니다.",
+        "뉴턴의 서신": "뉴턴은 수많은 과학자 및 [[Superbrain|지식인]]들과 엄청난 양의 [[Mail|서신]]을 주고 받았다.",
+        "민사고": "... 감명 깊은 부분이 많았다. 편향되지 않고, 암기식 교육도 아니었으며, '올바른 한민족|민족적 [[Superbrain|지식인]]은 무엇인가'하는 질문을 많이 던지게끔 하셨다. 어디까지가 식민사관이고 어디까지가 우리 한민족|민족의 부끄러운 ...",
+        "심리역사학": "... 정확하게 예측되고 있다면 사람들은 행동을 바꾸기 때문. 때문에 작중에서도 굉장히 극소수의 [[Superbrain|지식인]]들만 심리역사학의 존재를 알고 있고, 심리역사학은 이미 사장되어 실패한 학문처럼 대중들에게 알려져 ...",
+        "전방위 포위": "- 앞: 순식간에 초격차를 벌려나가는 업계 [[Superbrain|지식인]]들",
+        "조선의 노비제도에 관한 보고": "... 동물보다 조금 나은 노비에게 신경을 써야 하는 이유가 무엇이 있겠습니까? 가장 [[Superbrain|지식인]]이라고 존경받는 사람들조차도 이러한 논리에서 벗어나지 못하고 있습니다."
+    },
     "한민족의 문화": {
         "Neo Korea": "- [[한민족의 문화]]",
         "서낭당": "서낭당은 [[한민족의 문화]] 건축물로 마을의 수호신인 서낭신을 모신 신단이나 나무이다. 성황당이라고도 한다.",
@@ -4814,6 +4827,7 @@ export const backlinks = {
     "Toss Product Sans": {
         "2022-10-14": "- [[Toss Product Sans]]",
         "2022-12-06": "- [[Toss Product Sans]]",
+        "2023-03-05": "- [[Toss Product Sans]]",
         "Pretendard": "- Just like [[Toss Product Sans]] it is bizarrely similar to [[San Francisco]]",
         "Pretendard의 아쉬운 점": "이는 유사한 폰트 Interop 및 [[Toss Product Sans]]에는 반영되어 있는 사항이다.",
         "San Francisco": "### [[Toss Product Sans]]",
@@ -5094,11 +5108,11 @@ export const backlinks = {
     },
     "PARA": {
         "2022-06-26": "- [[PARA]]",
-        "2022-07-01": "| [[PARA]]       | Architecture for Second Brain. ...",
+        "2022-07-01": "| [[PARA]]       | Architecture for [[Second Brain]]. ...",
         "2022-07-03": "- Partially implemented [[PARA]] on this brain.",
         "2022-07-06": "- [[PARA]]... might be worse than I thought?",
         "CODE Procedure": "- Often used with [[PARA]].",
-        "PKM": "| [[PARA]]       | Architecture for Second Brain. ..."
+        "PKM": "| [[PARA]]       | Architecture for [[Second Brain]]. ..."
     },
     "Bing": {
         "AMP": "... AMP pages may be cached by a CDN, such as Microsoft [[Bing]] or [[Cloudflare]]'s AMP caches, which allows pages to be served more ...",
@@ -5238,6 +5252,14 @@ export const backlinks = {
     },
     "Turing Machine": {
         "Assembly": "It follows how [[Turing Machine]]s would work in the real world."
+    },
+    "Digital Garden": {
+        "2022-07-01": "... book, I realized that the term Second Brain|Digital Brain, Second Brain, [[Digital Garden]], and [[PKM]] are used interchangeably, they are not quite the same.",
+        "2022-07-02": "...  - Not surprisingly, the dev behind this website moved his [[digital garden]] to here. Splendid website, made with VuePress.",
+        "In search of my domain": "... by \"tech is ready.\" I wanted to make a fully customizable [[digital garden]] & [[second brain]]: I laid out my vision before starting to ...",
+        "Logseq": "... share your thoughts, keep your to-do list, and build your own [[digital garden]]. Logseq",
+        "PKM": "| [[Digital Garden]] | Implementation for documenting your knowledge. |",
+        "Second Brain": "  - These notes are the first attempt at a [[Digital Garden]] and, as such, are a little wild and untamed. There's no ..."
     },
     "Atomicity": {
         "Internetworking": "- [[Atomicity]]"
@@ -5392,7 +5414,7 @@ export const backlinks = {
         "Satori": "- [[Font]] and [[Emoji]] Subsets from [[Google]] Fonts and other CDNs",
         "Satoshi": "- A type of Grotesque [[font]]",
         "Stories Behind Satori": "They also added Google [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library and ...",
-        "Toss Product Sans": "- [[Font]] by [[Toss]].",
+        "Toss Product Sans": "- Toss의 [[Font|글꼴]]",
         "Tossface": "- Emoji [[Font]] by [[Toss]]",
         "Web Typography": "... fonts on the World Wide Web. When HTML was first created, [[font]] faces and styles were controlled exclusively by the settings of each ..."
     },
@@ -5681,8 +5703,8 @@ export const backlinks = {
     },
     "Sliding Panes": {
         "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].",
-        "Extracranial": "- [[sliding panes]]",
         "Horizontally Stacked Interface": "- [[Sliding Panes]]: Have multiple-scrollable columns.",
+        "Second Brain": "- [[sliding panes]]",
         "Spacial Cognition": "- Three Column Design and [[Sliding Panes]] are a few ways of giving spacial cognition."
     },
     "의료 인공지능과 의대 쏠림": {
@@ -6683,39 +6705,6 @@ export const backlinks = {
         "Aldehyde Landing Page 2023": "![[341F72.gif]]",
         "Apple-like Block Interface": "![[341F72.gif]]"
     },
-    "EB6370.png": {
-        "Extracranial": "![[EB6370.png]]"
-    },
-    "C82B1C.png": {
-        "Extracranial": "![[C82B1C.png]]"
-    },
-    "53CB8D.png": {
-        "Extracranial": "![[53CB8D.png]]"
-    },
-    "1C6716.png": {
-        "Extracranial": "![[1C6716.png]]"
-    },
-    "3C4B24.png": {
-        "Extracranial": "![[3C4B24.png]]"
-    },
-    "6A5DEA.png": {
-        "Extracranial": "![[6A5DEA.png]]"
-    },
-    "5D9FD8.png": {
-        "Extracranial": "![[5D9FD8.png]]"
-    },
-    "030D1A.png": {
-        "Extracranial": "![[030D1A.png]]"
-    },
-    "1541BC.png": {
-        "Extracranial": "![[1541BC.png]]"
-    },
-    "EC5497.png": {
-        "Extracranial": "![[EC5497.png]]"
-    },
-    "DA4882.png": {
-        "Extracranial": "![[DA4882.png]]"
-    },
     "EC7EEF.png": {
         "Python": "![[EC7EEF.png]]"
     },
@@ -6985,6 +6974,39 @@ export const backlinks = {
     "30E678.png": {
         "Bondee": "![[30E678.png]]"
     },
+    "EB6370.png": {
+        "Second Brain": "![[EB6370.png]]"
+    },
+    "C82B1C.png": {
+        "Second Brain": "![[C82B1C.png]]"
+    },
+    "53CB8D.png": {
+        "Second Brain": "![[53CB8D.png]]"
+    },
+    "1C6716.png": {
+        "Second Brain": "![[1C6716.png]]"
+    },
+    "3C4B24.png": {
+        "Second Brain": "![[3C4B24.png]]"
+    },
+    "6A5DEA.png": {
+        "Second Brain": "![[6A5DEA.png]]"
+    },
+    "5D9FD8.png": {
+        "Second Brain": "![[5D9FD8.png]]"
+    },
+    "030D1A.png": {
+        "Second Brain": "![[030D1A.png]]"
+    },
+    "1541BC.png": {
+        "Second Brain": "![[1541BC.png]]"
+    },
+    "EC5497.png": {
+        "Second Brain": "![[EC5497.png]]"
+    },
+    "DA4882.png": {
+        "Second Brain": "![[DA4882.png]]"
+    },
     "49BF36.png": {
         "Ray.st": "![[49BF36.png]]"
     },
@@ -7248,9 +7270,6 @@ export const backlinks = {
     "D11FF4.png": {
         "SHAP": "![[D11FF4.png]]"
     },
-    "C25819.png": {
-        "Super Brain": "![[C25819.png]]"
-    },
     "3584FF.png": {
         "sem.sh": "![[3584FF.png]]"
     },
@@ -7346,6 +7365,9 @@ export const backlinks = {
     },
     "DAB721.png": {
         "My Raycast Wrapped of 2022": "![[DAB721.png]]"
+    },
+    "C25819.png": {
+        "Superbrain": "![[C25819.png]]"
     },
     "51C828.jpg": {
         "서낭당": "![[51C828.jpg]]"
