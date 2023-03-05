@@ -13,7 +13,7 @@ import Admonition from '@theme/Admonition';
 
 ## Dear [[Harry Stebbings|Mr. Stebbings]],
 
-Today marks the thirtieth day of [[The 30-Day Tweet Test (Harry Stebbings)|my challenge to post meaningful content on the web]], and as I sit down to write my final piece, my thoughts turn to the crisis facing my home country, the Republic of [[대한민국|Korea]]. As a student, I feel a deep sense of responsibility for the foreboding challenges that lie ahead. The Republic of [[대한민국|Korea]] and the [[United Kingdom]] share many similarities in our struggles. As [[Super Brain|intellectuals]], we must consider how to help our nations overcome these crises.
+Today marks the thirtieth day of [[The 30-Day Tweet Test (Harry Stebbings)|my challenge to post meaningful content on the web]], and as I sit down to write my final piece, my thoughts turn to the crisis facing my home country, the Republic of [[대한민국|Korea]]. As a student, I feel a deep sense of responsibility for the foreboding challenges that lie ahead. The Republic of [[대한민국|Korea]] and the [[United Kingdom]] share many similarities in our struggles. As [[Superbrain|intellectuals]], we must consider how to help our nations overcome these crises.
 
 But the question remains — **what can an individual do to impact the ominous trajectory of a nation**? It may seem daunting, even overwhelming, to contemplate the scale of these challenges. And yet, in the words of the great Irish poet William Butler Yeats, "Think where man's glory most begins and ends, and say my glory was I had such friends." We must recognize the power of the individual to effect change and to be a catalyst for progress, no matter how small our contribution may seem.
 
@@ -28,7 +28,7 @@ Let us first embark on a journey of discovery, exploring the trials and tribulat
 
 As I outline the trials and tribulations plaguing our nations, a sense of sorrow overcomes me. For I cannot help but lament the foreboding future that lies ahead. The weight of our collective struggles feels heavy upon my heart, casting a shadow over any glimmer of hope that may flicker within. Oh, how I wish for brighter days to come, yet the clouds of uncertainty loom ever closer, threatening to engulf us in their darkness.
 
-## The duties of the [[Super Brain|Intellectuals]]
+## The duties of the [[Superbrain|Intellectuals]]
 
 To make a lasting impact on the trajectory of a nation, we must not only have the desire for change but also wield influence and power. We must strive to obtain the necessary resources, knowledge, and expertise to make a meaningful impact. With our efforts, we can shape the direction of our nation, contributing to progress and development. Wielding influence and shaping a nation's trajectory is no small feat. It demands a careful and considered approach grounded in a deep understanding of the challenges. And yet, it is a goal worth striving towards, a noble aspiration that speaks to the very heart of our humanity.
 

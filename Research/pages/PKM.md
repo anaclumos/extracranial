@@ -9,14 +9,14 @@ aliases: ['Personal Knowledge Management']
 
 | Term           | Meaning                                          |
 | -------------- | ------------------------------------------------ |
-| Second Brain   | Implementation for _augmenting_ your thoughts.   |
-| Digital Garden | Implementation for _documenting_ your knowledge. |
-| [[PKM]]        | Architecture for Digital Garden.                 |
-| [[PARA]]       | Architecture for Second Brain.                   |
+| [[Second Brain]]   | Implementation for _augmenting_ your thoughts.   |
+| [[Digital Garden]] | Implementation for _documenting_ your knowledge. |
+| [[PKM]]        | Architecture for [[Digital Garden]].                 |
+| [[PARA]]       | Architecture for [[Second Brain]].                   |
 
-- Digital Brain is a digitally implemented Second Brain.
+- [[Second Brain|Digital Brain]] is a digitally implemented [[Second Brain]].
 
-| Second Brain                                                            | Digital Garden                                                                            |
+| [[Second Brain]]                                                            | [[[[Second Brain]]|[[Digital Garden]]]]                                                                            |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | [[Project]]-oriented                                                    | Knowledge-oriented                                                                        |
 | Notes are in Britannica Style                                           | Notes are in Wikipedia Style                                                              |
