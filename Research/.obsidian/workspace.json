@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3f07f9d7bcf0377c",
+        "id": "4d24584cbad0495a",
         "type": "tabs",
         "children": [
           {
-            "id": "974074c5d7f60eb5",
+            "id": "a2e83d1b64a10e33",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-04.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -83,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-03-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-03-04.md"
+              }
             }
           }
         ]
@@ -120,8 +128,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "974074c5d7f60eb5",
+  "active": "a2e83d1b64a10e33",
   "lastOpenFiles": [
+    "pages/Second Brain.md",
+    "journals/2023-03-05.md",
+    "pages/Toss Product Sans.md",
+    "pages/Pretendard.md",
+    "pages/Untitled.md",
+    "pages/Extracranial.md",
+    "journals/2023-03-04.md",
+    "pages/Superbrain.md",
+    "pages/Digital Garden.md",
+    "journals/2022-05-30.md",
+    "pages/PKM.md",
+    "pages/Unicorn.md",
     "pages/Letter to Mr. Stephan Ango on 2022-10-19.md",
     "journals/2023-03-03.md",
     "pages/Project PEOPLE.md",
@@ -136,22 +156,10 @@
     "pages/Tech Now Pay Later.md",
     "pages/Repeated Designs.md",
     "pages/HTML.md",
-    "pages/GitHub Actions.md",
-    "pages/GDB.md",
-    "pages/My Raycast Wrapped of 2022.md",
-    "journals/2023-02-07.md",
-    "journals/2022-10-12.md",
-    "pages/Autosave Everything.md",
-    "pages/API Economy.md",
-    "pages/Intellisense for Knowledge Management.md",
-    "pages/Mail.md",
-    "pages/Neo Email.md",
-    "pages/Resend.md",
     "assets/3FB92F.png",
     "assets/E74AF7.png",
     "assets/FF159D.png",
     "assets/C1D4F8.png",
-    "pages/Simple Analytics.md",
     "assets/2BBBDE.jpg",
     "assets/753C2F.png",
     "assets/F6A265.png",

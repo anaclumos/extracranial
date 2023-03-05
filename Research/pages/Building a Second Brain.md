@@ -14,14 +14,14 @@ It's more about how to take thorough notes habitually.
 
 The origin goes back to the commonplace book used by ancient scholars.
 They always carried a commonplace book, taking notes like a canvas synced with their brain.
-The so-called second brain is recreating the same concept on a digital device.
+The so-called [[second brain]] is recreating the same concept on a digital device.
 Then, we can use such notes as cheat sheets for our lives.
 But in the real world, you can never expect what type of exam you'll face, what topics it will cover, and what answer it will require.
 This book gives one methodology for such a problem.
 
 ## Functions
 
-A second brain can:
+A [[second brain]] can:
 
 - Detail ideas.
 - Interrelate ideas.

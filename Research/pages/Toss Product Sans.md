@@ -1,16 +1,12 @@
 ---
-lang: 'en'
+lang: 'ko'
 slug: '/5C159C'
 ---
 
-![[6F64BE.png]]
-![[E0A8DC.png]]
-![[BFDBF9.png]]
+- [[Toss]]의 [[Font|글꼴]]
+- [[San Francisco]]와 놀랍도록 유사
 
-- [[Font]] by [[Toss]].
-- Looks bizarrely similar to [[San Francisco]]
-
-## Usage
+## 사용
 
 ```css
 @import url('https://static.toss.im/tps/main.css');
@@ -21,8 +17,31 @@ slug: '/5C159C'
 }
 ```
 
-- I figured it did not fully support [[Font Features]].
-- Also, [[Toss]] Employee once told me not to use it 😔
+[[Font Features|폰트 피쳐]]를 온전하게 지원하지 않는다.
+
+:::caution
+
+[[Toss]] 팀에서 쓰지 말라고 한다 😔 2021년 중반에 말씀하시길:
+
+> "외부에 공개할 계획은 없습니다. 토스 서체에 대한 자세한 소개는 8월 말에 진행되는 디자인 컨퍼런스에서 공개될 예정이고, 추후에 브랜드 서체를 제작하게 된다면 오픈소스로 개발할 여지도 있다고 하시네요"
+
+여기에서 "8월 말에 진행되는 디자인 컨퍼런스"는 [Simplicity 21](https://toss.im/simplicity-21)를 의미했다. 아래는 해당 영상.
+
+import YouTube from '@site/src/components/YouTube'
+
+<YouTube id="9R701Rc3rJc"/>
+
+비슷한 서체를 찾는다면 [[Pretendard]] 쪽을 확인!
+
+:::
+
+
+
+---
+
+![[6F64BE.png]]
+![[E0A8DC.png]]
+![[BFDBF9.png]]
 
 ## [서체 고민 없이 본질에만 집중할 수 있도록](https://blog.toss.im/article/beginning-of-tps)
 
