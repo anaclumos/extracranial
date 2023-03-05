@@ -7,16 +7,16 @@ aliases: ['Personal Knowledge Management']
 - Usually, Nonlinear, spider-web-like notes
 - On [[2022-07-01]], I noted that PKM is for building a personal knowledge base. Its needs are different from a [[project]] base.
 
-| Term           | Meaning                                          |
-| -------------- | ------------------------------------------------ |
+| Term               | Meaning                                          |
+| ------------------ | ------------------------------------------------ |
 | [[Second Brain]]   | Implementation for _augmenting_ your thoughts.   |
 | [[Digital Garden]] | Implementation for _documenting_ your knowledge. |
-| [[PKM]]        | Architecture for [[Digital Garden]].                 |
-| [[PARA]]       | Architecture for [[Second Brain]].                   |
+| [[PKM]]            | Architecture for [[Digital Garden]].             |
+| [[PARA]]           | Architecture for [[Second Brain]].               |
 
-- [[Second Brain|Digital Brain]] is a digitally implemented [[Second Brain]].
+- Digital Brain is a digitally implemented [[Second Brain]].
 
-| [[Second Brain]]                                                            | [[[[Second Brain]]|[[Digital Garden]]]]                                                                            |
+| [[Second Brain]]                                                        | [[Digital Garden]]                                                                        |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | [[Project]]-oriented                                                    | Knowledge-oriented                                                                        |
 | Notes are in Britannica Style                                           | Notes are in Wikipedia Style                                                              |

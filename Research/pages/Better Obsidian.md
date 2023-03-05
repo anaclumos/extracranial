@@ -27,7 +27,7 @@ slug: '/9E4E7C'
 ### Discarded
 
 - Aliases Link Consistency with Standard links
-  - `Personal Knowledge Management` and `[[PKM]]` should act the same.
+  - `Personal Knowledge Management` and `PKM` should act the same.
   - Not in some weird format like `PKM|Personal Knowledge Management.`
   - At least convert one to another.
 - [[Developing Review Notes for Obsidian]]

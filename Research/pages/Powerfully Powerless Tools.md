@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/E06055'
 ---
 
-Some tools must choose to be dumbed down. PKM tools are one example.
+Some tools must choose to be dumbed down. [[PKM]] tools are one example.
 
 There is a repeated paradigm in the [[Tools for Thought]] [[Software as a Service]] market.
 They are **too complicated** to use. Calendars, Objects, Comments, Backnotes, Blocks, Tasks, etc, etc, etc...

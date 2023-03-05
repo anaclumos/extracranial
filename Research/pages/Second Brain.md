@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/A48088'
-aliases: ["Digital Brain"]
+aliases: ['Digital Brain']
 ---
 
 ## State-of-the-art References
