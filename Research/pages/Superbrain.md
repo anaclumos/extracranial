@@ -10,6 +10,8 @@ aliases:
     '브레인',
     '인텔리',
     'Super Brains',
+    'Super Brain',
+    'Superbrains',
     'Intelligent People',
     '지식인',
     'intellectuals',
