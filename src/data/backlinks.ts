@@ -3615,6 +3615,7 @@ export const backlinks = {
     },
     "Firefox": {
         "2022-10-10": "... responsiveness on macOS - Mozilla Hacks - the Web developer blog [[Firefox]]",
+        "2023-03-05": "- [[Firefox]]",
         "Apple Newsroom 서체 따라하기": "... 산돌고딕 네오를 사용한다. Safari와 Chrome은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. 때문에 Firefox에서 알맞은 한글 서체를 사용하도록 `Apple SD ...",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... have a question about your WebExtension|extension, tabExtend. I recently switched to [[Firefox]] and noticed the WebExtension|extension is unavailable on the Firefox Add-ons Store. ...",
         "Love Firefox": "i love [[firefox]]",
