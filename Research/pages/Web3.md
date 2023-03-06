@@ -50,7 +50,7 @@ slug: '/451E1C'
 
 ### [You Can Forget About Crypto Now - The Atlantic](https://www.theatlantic.com/technology/archive/2022/11/sam-bankman-fried-bankruptcy-crypto-ftx/672104/)
 
-- This week, Bankman-Fried lost his entire fortune virtually over a single day, in what Bloomberg [has called](https://www.bloomberg.com/news/articles/2022-11-11/sam-bankman-fried-s-assets-go-from-16-billion-to-zero-after-ftx-collapse) "one of history's greatest-ever destructions of wealth
+- This week, Bankman-Fried lost his entire fortune virtually over a single day, in what [[Bloomberg]] [has called](https://www.bloomberg.com/news/articles/2022-11-11/sam-bankman-fried-s-assets-go-from-16-billion-to-zero-after-ftx-collapse) "one of history's greatest-ever destructions of wealth
 - But now, crypto feels less ready for the mainstream than it has in years
 - The fall began with [a story](https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/) from the CoinDesk reporter Ian Allison suggesting that SBF's companies were far more interconnected than anyone knew
 - FTX found itself having trouble paying out withdrawals to customers. Suddenly, a company once worth $32 billion was $8 billion in the hole. Zhao initially said Binance would buy FTX for scrap but backed out once he got a look at the books. FTX was never a bank; customers will be lucky to get even a fraction of their money back in bankruptcy court over the next few years, and it seems possible that SBF will face serious legal repercussions

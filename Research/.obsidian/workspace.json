@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5646ee3283606029",
+        "id": "bb450b02ff871fb2",
         "type": "tabs",
         "children": [
           {
-            "id": "1aad7cd0b6557856",
+            "id": "e1f19a5c12f629e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-03-06.md",
+                "file": "pages/NewsGPT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -81,29 +81,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "694e35ab7d7a4b32",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "journals/2023-03-06.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "be5c6ba52dcdd28f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-03-06.md"
+                "file": "pages/NewsGPT.md"
+              }
+            }
+          },
+          {
+            "id": "4432bb74290dc492",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/NewsGPT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -126,44 +126,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1aad7cd0b6557856",
+  "active": "e1f19a5c12f629e3",
   "lastOpenFiles": [
-    "journals/2023-03-05.md",
     "journals/2023-03-06.md",
-    "pages/Bing Chat for All Browsers in Japan.md",
     "pages/Firefox.md",
+    "journals/2023-03-05.md",
+    "pages/Hacker.md",
+    "pages/Engine Equation.md",
+    "assets/C5B7B8.png",
+    "pages/Pasted image 20230306131000.png.md",
+    "assets/9F56CB.png",
+    "assets/C03F68.png",
+    "assets/663379.png",
+    "pages/The Engine Equation.md",
+    "pages/EU.md",
+    "pages/Bloomberg Terminal.md",
+    "pages/Bloomberg.md",
+    "pages/EU and AI.md",
+    "pages/Public Transport.md",
+    "pages/HEEx.md",
+    "pages/Real Interviews.md",
+    "assets/30E62A.png",
+    "pages/Self-hosted SaaS Alternatives.md",
+    "pages/ChromeOS Packer.md",
+    "pages/Project.md",
+    "pages/NewsGPT.md",
+    "pages/Generative Open Graph.md",
+    "pages/Internet Computer.md",
+    "pages/Bing Chat for All Browsers in Japan.md",
     "pages/Toss Product Sans.md",
     "pages/0141 Linked List Cycle.md",
     "journals/2023-02-26.md",
     "pages/Better Obsidian.md",
     "pages/PKM.md",
-    "pages/Digital Garden.md",
-    "journals/2022-05-30.md",
-    "pages/Second Brain.md",
-    "journals/2023-03-04.md",
-    "pages/Pretendard.md",
-    "pages/Untitled.md",
-    "pages/Extracranial.md",
-    "pages/Superbrain.md",
-    "pages/Unicorn.md",
-    "pages/Letter to Mr. Stephan Ango on 2022-10-19.md",
-    "journals/2023-03-03.md",
-    "pages/Project PEOPLE.md",
-    "pages/Palantir.md",
-    "pages/Person 392196.md",
-    "pages/Person 960D1D.md",
-    "pages/Person 648442.md",
-    "pages/Person 542AD7.md",
     "assets/3FB92F.png",
     "assets/E74AF7.png",
     "assets/FF159D.png",
     "assets/C1D4F8.png",
     "assets/2BBBDE.jpg",
-    "assets/753C2F.png",
-    "assets/F6A265.png",
-    "assets/19F478.png",
-    "assets/C25819.png",
-    "assets/9C5106.png",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S"
   ]
 }

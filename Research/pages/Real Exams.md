@@ -107,6 +107,6 @@ slug: '/75CB18'
 
 - [[Get Job Done]] Data Parsing
 
-### Bloomberg
+### [[Bloomberg]]
 
 - [[BFS]]

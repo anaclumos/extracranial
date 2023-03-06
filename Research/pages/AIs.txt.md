@@ -60,7 +60,7 @@ See [HIQ LABS, INC., Plaintiff-Appellee, v. LINKEDIN CORPORATION, Defendant-Appe
 
 ### Any industry trends?
 
-[W3](https://www.w3.org/community/tdmrep/) has been working on `robots.txt` for [[ML|machine learning]], aligning with EU Copyright Directives.
+[W3](https://www.w3.org/community/tdmrep/) has been working on `robots.txt` for [[ML|machine learning]], aligning with [[EU]] Copyright Directives.
 
 > The goal of this [Community Group](https://www.w3.org/community/tdmrep/) is to facilitate TDM in Europe and elsewhere by specifying a simple and practical machine-readable solution capable of expressing the reservation of TDM rights. [w3c/tdm-reservation-protocol: Repository of the Text and Data Mining Reservation Protocol Community Group](https://github.com/w3c/tdm-reservation-protocol)
 
