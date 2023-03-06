@@ -18,7 +18,7 @@ $$
 $$
 
 [[The Engine Equation]] comes handy here.
-An engine takes time (a type of resource) and assets to create utility. Interestingly, this engine equation is a function that takes time. If you want to put in less value (help or time) right now, you need to pay it later. Therefore, incurring technical debt is an optimizing technique for the engine function equation by prioritizing time over other resources in the short term.
+An engine takes time (a type of resource) and assets to create utility. Interestingly, this [[engine equation]] is a function that takes time. If you want to put in less value (help or time) right now, you need to pay it later. Therefore, incurring technical debt is an optimizing technique for the engine function equation by prioritizing time over other resources in the short term.
 
 This approach is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you make it. But what is the same is creating market value (liquidity of the service) before the tech is ready.
 In that sense, **Tech Now Pay Later** might be better terminology.

@@ -5,6 +5,10 @@ slug: '/654898'
 
 See also: [[Real Exams]]
 
+![[30E62A.png]]
+
+[Source](https://www.reddit.com/r/ProgrammerHumor/comments/l6wnvt/interview_vs_job/)
+
 ## For 2023
 
 ### [Apple](https://apple.com)

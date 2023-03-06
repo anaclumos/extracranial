@@ -15,7 +15,7 @@ There have been numerous attempts to resolve this, such as:
 - **Illustrations**. Hire an illustrator or use generative [[AI]] to create visual elements for text-based content.
 - **... Or Give Up**. Run full-time short-form YouTube or TikTok channels rather than trying to make texts more engaging.
 
-Artifact, as of right now, is fundamentally not different from any other news app. All internet companies now have some algorithmic recommendations, and I felt Artifact is no better. They should've done something more breaking, for example, a [[News App with Friendly Chatbot]].
+Artifact, as of right now, is fundamentally not different from any other news app. All internet companies now have some algorithmic recommendations, and I felt Artifact is no better. They should've done something more breaking, for example, a [[NewsGPT]].
 
 Perhaps Systrom and Krieger are bibliophiles who wanted to reintroduce long-form texts' beauty. I agree; I am also a bibliophile. But we must understand that the notion of texts changes over time. For example, when Confucius was alive, texts were cryptic and poetic, and writing and distributing a commentary was largely forbidden as it undermined critical thinking. They will gasp at modern-day books' detail and kindness if they read the current books.
 

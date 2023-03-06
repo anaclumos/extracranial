@@ -17,7 +17,7 @@ Why would the [[대한민국|Korean]] Govs and [[대한민국|Korean]] Banks pro
 While that is understandable, as an individual, that can have a detrimental effect.
 See [1997 Asian financial crisis](https://en.wikipedia.org/wiki/1997_Asian_financial_crisis)
 The quality of the news dilutes drastically through the language barrier.
-1E6ABA's team's financial expert used Bloomberg as their primary source while in the industry.
+1E6ABA's team's financial expert used [[Bloomberg]] as their primary source while in the industry.
 
 1E6ABA exemplified Robinhood and Robo-advisors, promoting passive investments.
 [[Toss]] Invest also tries to solve this information inequality in the financial market, but they target active investors (who are more straightforward to profit from via transaction fees)
@@ -30,7 +30,7 @@ Finding [[Information amongst Data]].
 
 1E6ABA says selling a financial product is the easiest.
 Most banks already spend at least $300 to acquire a customer.
-Possible side revenues include selling curated content with subscriptions, charging portions of the margin, or providing access to analyst information (Bloomberg model.)
+Possible side revenues include selling curated content with subscriptions, charging portions of the margin, or providing access to analyst information ([[Bloomberg]] model.)
 
 Recently closed $4M in funding, estimated burn rate $1.2M a year approx.
 Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media researcher, and engineering intern.

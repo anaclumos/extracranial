@@ -11,4 +11,6 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 ## Ongoing Projects
 
 - [[Stable Alternative]]
+- [[Generative Open Graph]]
+- [[NewsGPT]]
 - [[역사의 집대성]]
