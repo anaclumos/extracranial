@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4d24584cbad0495a",
+        "id": "b7877bcc4c2f13f8",
         "type": "tabs",
         "children": [
           {
-            "id": "a2e83d1b64a10e33",
+            "id": "8fa1b480f67d9225",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-03-05.md",
-                "mode": "source",
+                "file": "pages/Toss Product Sans.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linkedin",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,13 +66,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 237.5
   },
   "right": {
     "id": "1bb7f4a449135cb3",
@@ -88,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-03-05.md",
+                "file": "pages/Toss Product Sans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-03-05.md"
+                "file": "pages/Toss Product Sans.md"
               }
             }
           }
@@ -128,16 +126,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a2e83d1b64a10e33",
+  "active": "8fa1b480f67d9225",
   "lastOpenFiles": [
+    "journals/2023-03-05.md",
+    "pages/Toss Product Sans.md",
+    "pages/0141 Linked List Cycle.md",
+    "journals/2023-02-26.md",
     "pages/Better Obsidian.md",
     "pages/PKM.md",
     "pages/Digital Garden.md",
     "journals/2022-05-30.md",
     "pages/Second Brain.md",
     "journals/2023-03-04.md",
-    "journals/2023-03-05.md",
-    "pages/Toss Product Sans.md",
     "pages/Pretendard.md",
     "pages/Untitled.md",
     "pages/Extracranial.md",
@@ -154,8 +154,6 @@
     "pages/Person A3BA1A.md",
     "pages/Person 1B5A5B.md",
     "pages/Project.md",
-    "pages/Tech Now Pay Later.md",
-    "pages/Repeated Designs.md",
     "assets/3FB92F.png",
     "assets/E74AF7.png",
     "assets/FF159D.png",
