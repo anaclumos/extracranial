@@ -435,6 +435,9 @@ export const backlinks = {
         "2022-08-18": "- [[Cube]]",
         "2022-10-13": "- [[Cube]]"
     },
+    "Self-hosted SaaS Alternatives": {
+        "2023-03-06": "- [[Self-hosted SaaS Alternatives]]"
+    },
     "SwiftUI": {
         "2022-08-04": "### Explored [[SwiftUI]].",
         "2022-11-28": "- [[SwiftUI]]: SwiftUI is convenient, but slow",
@@ -636,6 +639,10 @@ export const backlinks = {
         "Stories Behind Satori": "The potential candidates for [[Satori]] included:",
         "WebAssembly": "- [[Satori]]"
     },
+    "Hacker": {
+        "2023-03-06": "- [[Hacker]]",
+        "Geohot Twitter Mayhem": "George Hotz, also known as Geohot, is a famous [[hacker]] and founder of Comma.[[ai]]. Elon Musk hired him to work on ..."
+    },
     "Krafton Way": {
         "2022-11-23": "- Finished reading [[Krafton Way]]",
         "Readings": "- [x] [[Krafton Way]]"
@@ -653,6 +660,8 @@ export const backlinks = {
     },
     "The Engine Equation": {
         "2023-02-16": "- [[The Engine Equation]]",
+        "2023-03-06": "    - Mega rich. Start your own business [[The Engine Equation]]. It's almost impossible to get rich working for someone else. Riches ...",
+        "Engine Equation": "- [[The Engine Equation]] [[엔진 방정식]]",
         "Tech Now Pay Later": "[[The Engine Equation]] comes handy here.",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-16 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]        ..."
     },
@@ -705,7 +714,7 @@ export const backlinks = {
         "불가사리": "[[Tossface|토스페이스]] 같은 곳에 언젠가 들어갔으면"
     },
     "PECR": {
-        "Plausible Analytics": "... web analytics. No cookies and fully compliant with GDPR, CCPA, and [[PECR]]. Made and hosted in the EU, powered by European-owned cloud infrastructure ...",
+        "Plausible Analytics": "... web analytics. No cookies and fully compliant with GDPR, CCPA, and [[PECR]]. Made and hosted in the [[EU]], powered by European-owned cloud infrastructure ...",
         "Simple Analytics": "- GDPR, [[PECR]], [[CCPA]] Compliant"
     },
     "Adding Space in Android": {
@@ -1072,6 +1081,9 @@ export const backlinks = {
         "2023-02-09": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
+    "Bloomberg Terminal": {
+        "2023-03-06": "- [[Bloomberg Terminal]]"
+    },
     "HQ Proximity": {
         "2023-01-13": "- [[HQ Proximity]]"
     },
@@ -1172,6 +1184,9 @@ export const backlinks = {
         "Obsidian Ava": "- Early Stage [[Synthography]] tool for [[Obsidian]]",
         "Search in a Latent Space": "- Related to [[Synthography]] and [[Stable Diffusion]]",
         "Synthote": "- Just like what we call [[Synthography]] for synthetic imagery"
+    },
+    "HEEx": {
+        "2023-03-06": "- [[HEEx]]"
     },
     "Synthote": {
         "2022-10-19": "- [[Synthote]]",
@@ -1349,6 +1364,9 @@ export const backlinks = {
         "2022-10-12": "- [[Letter to Mr. Alexander Obenauer on 2022-10-12]]",
         "2022-10-17": "### [[Letter to Mr. Alexander Obenauer on 2022-10-12]]",
         "Newsletter": "- Mentioned in [[Letter to Mr. Alexander Obenauer on 2022-10-12]]"
+    },
+    "Public Transport": {
+        "2023-03-06": "- [[Public Transport]]"
     },
     "Negative Binomial": {
         "2023-02-02": "- [[Negative Binomial]]"
@@ -2165,6 +2183,9 @@ export const backlinks = {
         "Hugging Face": "... learning. It is most notable for its Transformers library built for [[natural language processing]] applications and its platform that allows users to share ML|machine learning ...",
         "Search AI": "... and write code for you. I'm powered by AI|artificial intelligence and [[natural language processing]], allowing you to have human-like conversations with me. I am constantly ..."
     },
+    "Internet Computer": {
+        "2023-03-06": "- [[Internet Computer]]"
+    },
     "R=VD and Generative AIs": {
         "글감": "- [[R=VD and Generative AIs]]"
     },
@@ -2631,6 +2652,7 @@ export const backlinks = {
         "2023-02-06": "## [[Project]]",
         "2023-02-11": "## [[Project]]",
         "2023-02-22": "## [[Project]]",
+        "2023-03-06": "- [[Project]]",
         "AIs.txt": "- [[Project]]",
         "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. [[Google]] created it as a competitor to Facebook Instant Articles and ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you must",
@@ -2656,6 +2678,7 @@ export const backlinks = {
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
         "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
+        "Generative Open Graph": "Someday [[Project]]. [[Open Graph Image as a Service]]. Use [[Generative AI]] to create ...",
         "GitHub": "... software feature requests, task management, continuous integration, and wikis for every [[project]]. Headquartered in California, it has been a subsidiary of [[Microsoft]] since ...",
         "Goongoom": "- Side startup [[project]] that never made it to the market.",
         "Guestbook": "- Someday [[Project]]",
@@ -2723,6 +2746,9 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 오랜 기간 방치되었다.",
         "하늘땅사람": "... 없이 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 [[Project|프로젝트]]. [[Done]].",
         "하늘땅사람 개발 기록": "활자 [[Project|프로젝트]]에 대해 이성광 님께서 \"NFD로 문자열 정규화를 해서 초중종성을 떼어놓고 만들면 좀 ..."
+    },
+    "EU and AI": {
+        "2023-03-06": "- [[EU and AI]]"
     },
     "조선의 노비제도에 관한 보고": {
         "2023-01-09": "- 한민족의 동족상잔에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
@@ -2921,6 +2947,7 @@ export const backlinks = {
         "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
         "Conversational AI Tools for Thought": "- ChatGPT and [[Generative AI]] are not exactly [[Tools for Thought]] for now. However, it has ...",
         "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as Gen [[AI]] models instead of key-value ...",
+        "Generative Open Graph": "Someday Project. Open Graph Image as a Service. Use [[Generative AI]] to create Open Graph images, desc, summary, etc.",
         "Midjourney": "- Art focused Prompt Engineering [[Generative AI]] Platform",
         "Point-E": "- [[Generative AI]]",
         "Prompt Marketplace": "With [[Generative AI]] and [[Prompt Engineering]] blooming, people now sell and buy prompts.",
@@ -2937,10 +2964,6 @@ export const backlinks = {
         "Screenshot as an API": "  - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]",
         "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
         "Synthography": "- [[Stable Diffusion]]"
-    },
-    "News App with Friendly Chatbot": {
-        "Can we ever build TikTok for Text": "... no better. They should've done something more breaking, for example, a [[News App with Friendly Chatbot]].",
-        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 알고리즘 추천 기능을 제공하고 있는데, 아티팩트도 크게 다르지 않다. 예를 들어 [[News App with Friendly Chatbot|챗봇 기반 뉴스 앱]]과 같이 좀 더 획기적인 무언가를 했어야 했다."
     },
     "Pretendard의 아쉬운 점": {
         "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
@@ -3628,6 +3651,14 @@ export const backlinks = {
     "One Bit Display": {
         "2023-01-13": "- [[One Bit Display]]"
     },
+    "Bloomberg": {
+        "2023-03-06": "- [[Bloomberg]]",
+        "Bloomberg Terminal": "The [[Bloomberg]] Terminal, or Bloomberg Professional, is a computer software system that provides ...",
+        "Musk": "... Musk is the wealthiest person in the world according to the [[Bloomberg]] Billionaires Index and Forbes' real-time billionaire list. Elon Musk",
+        "Person 1E6ABA": "1E6ABA's team's financial expert used [[Bloomberg]] as their primary source while in the industry.",
+        "Real Exams": "### [[Bloomberg]]",
+        "Web3": "... lost his entire fortune virtually over a single day, in what [[Bloomberg]] has called \"one of history's greatest-ever destructions of wealth"
+    },
     "Probability Of Queueing (Internetworking)": {
         "Internetworking": "- [[Probability Of Queueing (Internetworking)]]"
     },
@@ -3949,6 +3980,10 @@ export const backlinks = {
     "Setting different images for Light & Dark mode": {
         "2022-10-21": "- [[Setting different images for Light & Dark mode]]"
     },
+    "Engine Equation": {
+        "2023-03-06": "- [[Engine Equation]]",
+        "Tech Now Pay Later": "... (a type of resource) and assets to create utility. Interestingly, this [[engine equation]] is a function that takes time. If you want to put ..."
+    },
     "Real Exams": {
         "2022-09-05": "- [[Real Exams]]",
         "2022-09-07": "- [[Real Exams]]",
@@ -4131,6 +4166,7 @@ export const backlinks = {
         "2022-07-10": "... longer make any improvements in `og-image.cho.sh`, and invest those time in [[Open Graph Image as a Service]].",
         "2022-07-18": "- Fiercely Overpriced for [[Open Graph Image as a Service]] could be public-key-encrypting query strings.",
         "2022-10-10": "- [[Open Graph Image as a Service]]",
+        "Generative Open Graph": "Someday Project. [[Open Graph Image as a Service]]. Use [[Generative AI]] to create Open Graph images, desc, summary, etc.",
         "Satori": "... this for a while. anaclumos/cho-sh-og-image: Open Graph Image as a Service. [[Open Graph Image as a Service]]"
     },
     "Matt Rickard": {
@@ -4435,7 +4471,7 @@ export const backlinks = {
     },
     "Bing Chat": {
         "Bing Chat for All Browsers": "- [[Bing Chat]] for all [[Web Browser|browser]]",
-        "News App with Friendly Chatbot": "... and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers."
+        "NewsGPT": "... and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers."
     },
     "Pensieve": {
         "2022-11-07": "- [[Pensieve]]",
@@ -5224,6 +5260,10 @@ export const backlinks = {
         "Synthote": "- Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?",
         "기술 발전의 속도": "... AI만 있었을 뿐이다. Stable Diffusion이나, DALL-E 같은... 그마저도 엄청난 대격변이었기 때문에 [[Prompt Engineering]]이라는 새로운 분야가 각광 받으며 AI|인공지능에게 원하는 것을 정확하게 설명할 수 있는 ..."
     },
+    "Generative Open Graph": {
+        "2023-03-06": "- [[Generative Open Graph]]",
+        "Project": "- [[Generative Open Graph]]"
+    },
     "Ethereum RPC as a Service": {
         "2022-10-29": "- Matt Rickard: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
         "Matt Rickard": "- [[Ethereum RPC as a Service]]"
@@ -5472,6 +5512,7 @@ export const backlinks = {
         "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
         "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
+        "Generative Open Graph": "[[Someday]] [[Project]]. [[Open Graph Image as a Service]]. Use [[Generative AI]] to ...",
         "Guestbook": "- [[Someday]] [[Project]]",
         "Intracranial": "[[Someday]] [[Project]]. Infinite Canvas for Zettlekasten.",
         "Markdown Email Client": "[[Someday]] [[Project]]. You write an [[Mail|email]] in [[Markdown]]. Before sending, select one ...",
@@ -5497,6 +5538,14 @@ export const backlinks = {
         "사발통문": "[[Someday]] [[Project]]",
         "사회과부도": "[[Someday]] [[Project]]. 마음대로 변형을 가할 수 있는 지도.",
         "조선왕조실록": "[[Someday]] [[Project]]. Fast and Modern version of sillok.history.go.kr."
+    },
+    "EU": {
+        "2023-03-06": "- [[EU]]",
+        "AIs.txt": "W3 has been working on `robots.txt` for ML|machine learning, aligning with [[EU]] Copyright Directives.",
+        "GDPR": "> The General Data Protection Regulation ([[EU]]) (GDPR) is a regulation in EU law on data protection and ...",
+        "Memory Hierarchy": "| United States of America\\|US-[[EU]] Roundtrip | 150ms   |",
+        "PECR": "... without the prior consent of the subscriber. The law implements an [[EU]] directive, the Privacy and Electronic Communications Directive 2002. Privacy and Electronic ...",
+        "Plausible Analytics": "... compliant with GDPR, CCPA, and PECR. Made and hosted in the [[EU]], powered by European-owned cloud infrastructure 🇪🇺 Plausible Analytics"
     },
     "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
         "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
@@ -5548,7 +5597,7 @@ export const backlinks = {
         "2022-10-18": "- [[Quoridor Game]]"
     },
     "CCPA": {
-        "Plausible Analytics": "... and open-source web analytics. No cookies and fully compliant with GDPR, [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by European-owned ...",
+        "Plausible Analytics": "... and open-source web analytics. No cookies and fully compliant with GDPR, [[CCPA]], and [[PECR]]. Made and hosted in the [[EU]], powered by European-owned ...",
         "Simple Analytics": "- GDPR, PECR, [[CCPA]] Compliant"
     },
     "Jetski": {
@@ -5659,6 +5708,7 @@ export const backlinks = {
         "2023-02-02": "## [[Hacker News]]",
         "2023-02-06": "## [[Hacker News]]",
         "2023-02-08": "## [[Hacker News]]",
+        "2023-03-06": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing [[Mail|email]] server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -5739,8 +5789,15 @@ export const backlinks = {
     },
     "엔진 방정식": {
         "2023-02-16": "- [[엔진 방정식]]",
+        "Engine Equation": "- The Engine Equation [[엔진 방정식]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-16 | 🇬🇧 The Engine Equation <br/> 🇰🇷 [[엔진 방정식]]            ...",
         "기술 할부 결제": "여기서 [[엔진 방정식]]이 유용하게 다가온다."
+    },
+    "NewsGPT": {
+        "2023-03-06": "- [[NewsGPT]]",
+        "Can we ever build TikTok for Text": "... no better. They should've done something more breaking, for example, a [[NewsGPT]].",
+        "Project": "- [[NewsGPT]]",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 알고리즘 추천 기능을 제공하고 있는데, 아티팩트도 크게 다르지 않다. 예를 들어 [[NewsGPT|챗봇 기반 뉴스 앱]]과 같이 좀 더 획기적인 무언가를 했어야 했다."
     },
     "Emoji": {
         "Ray.st": "A Collection of 26 Beautiful 3D [[Emoji]] Generated by [[Generative AI]].",
@@ -5977,7 +6034,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0409 Longest Palindrome]]"
     },
     "GDPR": {
-        "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the EU, powered by ...",
+        "Plausible Analytics": "... lightweight and open-source web analytics. No cookies and fully compliant with [[GDPR]], [[CCPA]], and [[PECR]]. Made and hosted in the [[EU]], powered by ...",
         "Simple Analytics": "- [[GDPR]], [[PECR]], [[CCPA]] Compliant"
     },
     "Binomial Theorem": {
@@ -6182,6 +6239,9 @@ export const backlinks = {
     "Ghost에서 외부 링크를 새로운 창에서 여는 방법": {
         "2022-11-19": "  - [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]",
         "Opening external links in a new tab by default on Ghost": "- [[Ghost에서 외부 링크를 새로운 창에서 여는 방법]]"
+    },
+    "ChromeOS Packer": {
+        "2023-03-06": "- [[ChromeOS Packer]]"
     },
     "React App on GitHub Pages": {
         "2022-11-19": "  - [[React App on GitHub Pages]]"
@@ -7223,6 +7283,15 @@ export const backlinks = {
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
     },
+    "C5B7B8.png": {
+        "Engine Equation": "![[C5B7B8.png]]"
+    },
+    "C03F68.png": {
+        "Engine Equation": "![[C03F68.png]]"
+    },
+    "9F56CB.png": {
+        "Engine Equation": "![[9F56CB.png]]"
+    },
     "33434F.png": {
         "AMP Email": "![[33434F.png]]"
     },
@@ -7496,6 +7565,9 @@ export const backlinks = {
     "Rickard": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "Dear Mr. [[Rickard]],"
     },
+    "30E62A.png": {
+        "Real Interviews": "![[30E62A.png]]"
+    },
     "D8DCB4.png": {
         "Prototyper": "![[D8DCB4.png]]"
     },
@@ -7707,7 +7779,7 @@ export const backlinks = {
         "딱 봐도 조성현": "![[2BBBDE.jpg]]"
     },
     "United States of America\\": {
-        "Memory Hierarchy": "| [[United States of America\\|US]]-EU Roundtrip | 150ms   |"
+        "Memory Hierarchy": "| [[United States of America\\|US]]-[[EU]] Roundtrip | 150ms   |"
     },
     "2B301F.png": {
         "Linear README": "![[2B301F.png]]"
