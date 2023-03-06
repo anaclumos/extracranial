@@ -4,6 +4,17 @@ slug: '/9B00D1'
 aliases: ['파이어폭스', '불여우', 'FF', '🔥🦊', '❤️‍🔥']
 ---
 
+## Some quick hacks
+
+### userContent & userChrome
+
+- https://github.com/anaclumos/firefox
+
+### Make Browser Tab Bar More Compact
+
+- `about:config`
+- `browser.uidensity`: 0 is the default, 1 is compact, 2 is touch (sparser)
+
 ## [Improving Firefox responsiveness on macOS - Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2022/10/improving-firefox-responsiveness-on-macos/)
 
 - This improvement was achieved via a slight change in how locking is implemented within Firefox's memory allocator.
