@@ -1300,7 +1300,7 @@ export const backlinks = {
     "Font Features": {
         "2022-08-01": "- Just realized that this enables Font [[Font Features|Ligature]] Settings.",
         "CalliFontia": "- 추출 전 여러가지 [[Font Features]]을 켜고 끄며 미리보기 대조 가능",
-        "Toss Product Sans": "[[Font Features|폰트 피쳐]]를 온전하게 지원하지 않는다."
+        "Toss Product Sans": "- [[Font Features|폰트 피처]]를 일부 지원"
     },
     "Sandbox": {
         "2022-06-22": "- Use [[Sandbox]] for the outer side.",
@@ -1725,7 +1725,7 @@ export const backlinks = {
         "Font Features": "- San Francisco, Inter, and [[Pretendard]] has awesome support.",
         "Pretendard의 아쉬운 점": "[[Pretendard]]를 자세하게 확인해보면, 한글 글자의 크기가 살짝 더 크다.",
         "San Francisco": "### [[Pretendard]]",
-        "Toss Product Sans": "비슷한 서체를 찾는다면 [[Pretendard]] 쪽을 확인!",
+        "Toss Product Sans": "비슷한 서체를 찾는다면 [[Pretendard]] 쪽을 확인하자.",
         "서울 프로": "본 목적은 [[Pretendard]]와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Use Your Mac as your Bluetooth Speaker": {
@@ -2421,7 +2421,7 @@ export const backlinks = {
     "PKM": {
         "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays ...",
         "2022-07-01": "... that the term Second Brain|Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.",
-        "PKM": "| [[PKM]]        | Architecture for [[Digital ...",
+        "PKM": "| [[PKM]]            ...",
         "Pensieve": "... the intermediary bridge between web browser data stream (ephemeral) and long-term [[PKM]] data storage.",
         "Powerfully Powerless Tools": "Some tools must choose to be dumbed down. [[PKM]] tools are one example.",
         "강력하게 미약한 도구들": "어떤 도구들은 의도적으로 바보 같아져야 한다. [[PKM]] 도구들이 한 예다."
@@ -3857,7 +3857,7 @@ export const backlinks = {
         "Inter": "- bizarrely similar to [[San Francisco]], but it now has its own style",
         "Pretendard": "  - He should've put it as Cross-platform [[San Francisco]] alternative",
         "Satoshi": "- Font similar to [[San Francisco|SF Pro]]",
-        "Toss Product Sans": "- [[San Francisco]]와 놀랍도록 유사",
+        "Toss Product Sans": "- [[San Francisco]]와 유사",
         "서울 프로": "본 목적은 Pretendard와 비슷하게 Apple의 [[San Francisco]] 폰트와 유사한 오픈 소스 글씨체를 만드는 것이었다."
     },
     "Letter to Mr. Stephan Ango on 2022-10-19": {
@@ -5108,11 +5108,11 @@ export const backlinks = {
     },
     "PARA": {
         "2022-06-26": "- [[PARA]]",
-        "2022-07-01": "| [[PARA]]       | Architecture for [[Second Brain]]. ...",
+        "2022-07-01": "| [[PARA]]           | ...",
         "2022-07-03": "- Partially implemented [[PARA]] on this brain.",
         "2022-07-06": "- [[PARA]]... might be worse than I thought?",
         "CODE Procedure": "- Often used with [[PARA]].",
-        "PKM": "| [[PARA]]       | Architecture for [[Second Brain]]. ..."
+        "PKM": "| [[PARA]]           | ..."
     },
     "Bing": {
         "AMP": "... AMP pages may be cached by a CDN, such as Microsoft [[Bing]] or [[Cloudflare]]'s AMP caches, which allows pages to be served more ...",
