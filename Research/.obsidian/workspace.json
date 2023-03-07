@@ -13,14 +13,132 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-03-06.md",
+                "file": "journals/2023-03-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d4a901136ffd14f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "20dfe8a409ad3735",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b9039c35c90ca78f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "022bf322faee99a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "09df50bc81062c27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Gaussian Integral.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "85e6bd275713eb00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "212cb51e34a993cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Standard Normal.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "145234b4ef2f0c5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Variance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "869d18c1b7cbb10d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Gaussian Distribution.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -86,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-03-06.md"
+                "file": "pages/Gaussian Integral.md"
               }
             }
           },
@@ -96,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-03-06.md",
+                "file": "pages/Gaussian Integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,39 +244,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b59953a4698f7b49",
+  "active": "09df50bc81062c27",
   "lastOpenFiles": [
-    "pages/The Site On Which the Sun Never Sets.md",
+    "journals/2023-03-07.md",
+    "pages/Gaussian Distribution.md",
+    "pages/Probability.md",
+    "pages/Elo Rating.md",
+    "pages/Statistics.md",
+    "pages/Standard Cauchy.md",
+    "pages/Continuity.md",
+    "pages/Cauchy.md",
+    "pages/Q Function.md",
+    "pages/Standard Normal.md",
+    "pages/Variance.md",
+    "pages/Gaussian.md",
+    "pages/Gaussian Integral.md",
+    "pages/Normal Tables.md",
+    "pages/Sticker Party.md",
+    "journals/2016-04-01.md",
     "journals/2023-03-06.md",
+    "journals/2023-03-05.md",
+    "pages/ChromeOS Packer.md",
+    "pages/The Site On Which the Sun Never Sets.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/Harry Stebbings.md",
     "pages/NewsGPT.md",
     "pages/Firefox.md",
-    "journals/2023-03-05.md",
     "pages/Hacker.md",
     "pages/Engine Equation.md",
     "assets/C5B7B8.png",
-    "pages/Pasted image 20230306131000.png.md",
     "assets/9F56CB.png",
     "assets/C03F68.png",
     "assets/663379.png",
-    "pages/The Engine Equation.md",
-    "pages/EU.md",
-    "pages/Bloomberg Terminal.md",
-    "pages/Bloomberg.md",
-    "pages/EU and AI.md",
-    "pages/Public Transport.md",
-    "pages/HEEx.md",
-    "pages/Real Interviews.md",
     "assets/30E62A.png",
-    "pages/Self-hosted SaaS Alternatives.md",
-    "pages/ChromeOS Packer.md",
-    "pages/Project.md",
-    "pages/Generative Open Graph.md",
-    "pages/Internet Computer.md",
-    "pages/Bing Chat for All Browsers in Japan.md",
-    "pages/Toss Product Sans.md",
-    "pages/0141 Linked List Cycle.md",
     "assets/3FB92F.png",
     "assets/E74AF7.png",
     "assets/FF159D.png",
