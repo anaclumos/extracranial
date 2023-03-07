@@ -660,7 +660,7 @@ export const backlinks = {
     },
     "The Engine Equation": {
         "2023-02-16": "- [[The Engine Equation]]",
-        "2023-03-06": "    - Mega rich. Start your own business [[The Engine Equation]]. It's almost impossible to get rich working for someone else. Riches ...",
+        "2023-03-06": "  - Mega rich. Start your own business [[The Engine Equation]]. It's almost impossible to get rich working for someone else. Riches ...",
         "Engine Equation": "- [[The Engine Equation]] [[엔진 방정식]]",
         "Tech Now Pay Later": "[[The Engine Equation]] comes handy here.",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-16 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]        ..."
