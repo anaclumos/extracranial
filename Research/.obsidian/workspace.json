@@ -11,8 +11,13 @@
             "id": "b59953a4698f7b49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-06.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-03-06.md"
+              }
             }
           },
           {
@@ -89,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-03-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,10 +128,11 @@
   },
   "active": "b59953a4698f7b49",
   "lastOpenFiles": [
+    "pages/The Site On Which the Sun Never Sets.md",
+    "journals/2023-03-06.md",
     "pages/The 30-Day Tweet Test (Harry Stebbings).md",
     "pages/Harry Stebbings.md",
     "pages/NewsGPT.md",
-    "journals/2023-03-06.md",
     "pages/Firefox.md",
     "journals/2023-03-05.md",
     "pages/Hacker.md",
@@ -150,7 +159,6 @@
     "pages/Bing Chat for All Browsers in Japan.md",
     "pages/Toss Product Sans.md",
     "pages/0141 Linked List Cycle.md",
-    "journals/2023-02-26.md",
     "assets/3FB92F.png",
     "assets/E74AF7.png",
     "assets/FF159D.png",

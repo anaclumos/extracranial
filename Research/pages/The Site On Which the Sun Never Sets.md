@@ -15,3 +15,7 @@ $$
 $$
 
 If this number exceeds 1, someone is always on the website at any given time. This is similar to how the [[United Kingdom|British]] Empire was said to have had territories in every time zone and, therefore, always had some part of it experiencing daylight.
+
+## The week-long version
+
+Given my website has ~15s average screen-on-time, there should be 40K WAU to maintain such status. We can also add a probabilistic model, where the probability of no one on the site at any given time is less than < $x$%. I guess the number should go approximately 100K WAU.
