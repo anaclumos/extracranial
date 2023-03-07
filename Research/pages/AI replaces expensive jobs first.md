@@ -79,7 +79,7 @@ Physicians and lawyers also show strong industry resistance. However, they also 
 - Medical [[AI]] _kills_ its patient! Can we bet our lives on such a lacking machine?
   - Regardless of the context, such social fear can lead to Tech Luddites.
 - Lawyer [[AI]] deemed discriminating? Can we let such biased agents take over our nation?
-  - The bias of precedents can appear depending on how statistics are captured. If you maliciously capture statistics and frame specific vested Research as biased, it can spread to [[AI|artificial intelligence]] distrust and rejection movements regardless of the context.
+  - The bias of precedents can appear depending on how [[statistics]] are captured. If you maliciously capture [[statistics]] and frame specific vested Research as biased, it can spread to [[AI|artificial intelligence]] distrust and rejection movements regardless of the context.
 
 ## Potential Strategy
 
