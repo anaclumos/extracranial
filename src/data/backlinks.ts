@@ -874,12 +874,14 @@ export const backlinks = {
     },
     "Probability": {
         "2023-01-24": "- [[Probability]]",
+        "2023-03-07": "- [[Probability]]",
         "Absolute Convergence": "In [[Probability]],",
         "Approximation": "In [[Probability]],",
         "Bayes Theorem": "In [[Probability]],",
         "Bernoulli Distribution": "In [[Probability]],",
         "Binomial Distribution": "In [[Probability]],",
         "Binomial Theorem": "In [[Probability]],",
+        "Cauchy": "The Cauchy distribution is a continuous [[probability]] distribution named after the French mathematician Augustin Cauchy. It is also ...",
         "Clustering": "... to a method in which each data point is assigned a [[probability]] of belonging to each cluster rather than a final cluster assignment. ...",
         "Conditional Probability": "In [[Probability]],",
         "Convergence of Alternating Series": "In [[Probability]],",
@@ -887,19 +889,24 @@ export const backlinks = {
         "Convergence of Infinite Series": "In [[Probability]],",
         "Convergence of Power Series": "In [[Probability]],",
         "Counting": "In [[Probability]],",
+        "Gaussian Distribution": "... Gaussian distribution, also known as the normal distribution, is a continuous [[probability]] distribution commonly used in statistical analysis. It is defined by the ...",
         "Geometric Series": "In [[Probability]],",
         "Independence": "In [[Probability]],",
         "Limit of a Sequence": "In [[Probability]],",
         "Markovity": "In [[Probability]],",
         "Multiplication Theorem": "In [[Probability]],",
+        "Normal Tables": "... and column for a given Z-score and then read off the [[probability]] associated with that value of Z.",
         "Odds": "In [[Probability]],",
         "P-series Test": "In [[Probability]],",
         "Partition Problem": "In [[Probability]],",
         "Pascal Triangle": "In [[Probability]],",
         "Poisson Approximation": "In [[Probability]],",
         "Probability Of Queueing (Internetworking)": "- Each has a [[probability]] of $p$ being active",
+        "Q Function": "In [[probability]] theory and [[statistics]], the Q function is the tail probability of ...",
         "Ratio Test": "In [[Probability]],",
+        "Standard Normal": "... (CDF) of the standard normal distribution, denoted by $\\Phi(z)$, gives the [[probability]] that a random variable from this distribution is less than or ...",
         "Stirling Approximation": "... heads, $2n$ is the number of trials, and $p$ is the [[probability]] of success.",
+        "The Site On Which the Sun Never Sets": "... such status. We can also add a probabilistic model, where the [[probability]] of no one on the site at any given time is ...",
         "Total Probability": "In [[Probability]],",
         "UUIDs are Awesome": "... 1 billion UUIDs every second for the next 100 years, the [[probability]] of creating just one duplicate would be about 50%. Or, to ...",
         "Uniform Distributions (Discrete)": "In [[Probability]],",
@@ -1454,7 +1461,7 @@ export const backlinks = {
         "AIs.txt": "`AIs.txt` is a mental model of a [[ML|machine learning]] permission system.",
         "Artifact": "... the co-founders of Instagram, Kevin Systrom and Mike Krieger. It uses [[ML|machine learning]] to understand users' interests and offer them a feed of popular ...",
         "Can we ever build TikTok for Text": "... called Artifact. Artifact is a personalized news feed app that uses [[ML|machine learning]] to understand users' interests and offer a feed of popular articles ...",
-        "Data Science": "... across various application domains. Data science is related to data mining, [[ML|machine learning]], big data, computational statistics, and analytics.",
+        "Data Science": "... across various application domains. Data science is related to data mining, [[ML|machine learning]], big data, computational [[statistics]], and analytics.",
         "Deepfake": "... While fake content is not new, deepfakes leverage powerful techniques from [[ML|machine learning]] and [[AI|artificial intelligence]] to manipulate or generate visual and audio content ...",
         "Grammarly": "- [[ml]] team",
         "Hugging Face": "... is an American company that develops tools for building applications using [[ML|machine learning]]. It is most notable for its Transformers library built for [[natural ...",
@@ -1930,6 +1937,12 @@ export const backlinks = {
     "Buffer Overflow Attacks": {
         "2022-11-03": "- [[Buffer Overflow Attacks]]",
         "Computer Systems": "- [[Buffer Overflow Attacks]]"
+    },
+    "Gaussian": {
+        "2023-03-07": "- [[Gaussian]]",
+        "Gaussian Distribution": "The [[Gaussian]] distribution, also known as the normal distribution, is a continuous [[probability]] ...",
+        "Gaussian Integral": "The [[Gaussian]] integral is the integral of the function $e^{-x^2}$ over the entire ...",
+        "Standard Normal": "... normal distribution, also known as the standard normal distribution or the [[Gaussian]] distribution with mean 0 and [[variance]] 1. The symbol $Z$ denotes ..."
     },
     "Jog 25 minutes (Jan-Feb 2023)": {
         "2023-01-10": "- [x] [[Jog 25 minutes (Jan-Feb 2023)]]",
@@ -2667,6 +2680,7 @@ export const backlinks = {
         "CELLO": "- [[Project]]",
         "CalliFontia": "Someday [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
         "Chopstick Game": "Someday [[Project]]. Digital implementation of the chopstick game with competitive [[AI]]",
+        "ChromeOS Packer": "- Someday [[Project]]",
         "Coding Tests": "- [[Project]]",
         "Cube": "Someday [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
         "Developing Review Notes for Obsidian": "2022-07-19 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
@@ -2707,6 +2721,7 @@ export const backlinks = {
         "Redactor for iPhone": "Someday [[Project]].",
         "Repeated Designs": "> Weekend side [[project]]: A gallery of the best looking devtool landing pages",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
+        "Sticker Party": "Someday [[Project]] GitHub README에 박을 수 있음. 하지만 그 스티커는 한정판. 노트북 뒷판에 ...",
         "Stories Behind Satori": "This is already done by an open-source [[project]] facebook/yoga.",
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
         "Synthote": "- [[Project]] scaffolding",
@@ -3089,6 +3104,15 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-12 | 🇬🇧 The Sudden Rise of Bondee <br/> 🇰🇷 [[혜성처럼 나타난 본디]]            ...",
         "본디는 사실 혜성이 아니다": "어제 [[혜성처럼 나타난 본디]] 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 본디는 정말 혜성일까?"
     },
+    "Statistics": {
+        "2023-03-07": "- [[Statistics]]",
+        "AI replaces expensive jobs first": "...  - The bias of precedents can appear depending on how [[statistics]] are captured. If you maliciously capture statistics and frame specific vested ...",
+        "Cauchy": "... distribution is used in various fields, such as physics, finance, and [[statistics]], as it is often used to model phenomena with \"thick-tailed\" behavior ...",
+        "Data Science": "... science is related to data mining, ML|machine learning, big data, computational [[statistics]], and analytics.",
+        "Normal Tables": "In [[statistics]], a normal table, also known as a [[standard normal]] table or ...",
+        "Q Function": "In probability theory and [[statistics]], the Q function is the tail probability of the [[standard normal]] ...",
+        "Standard Normal": "In [[statistics]], the term \"standard normal\" usually refers to a specific type of ..."
+    },
     "Porting a Chrome Extension to Firefox Add-on": {
         "2022-11-19": "  - [[Porting a Chrome Extension to Firefox Add-on]]"
     },
@@ -3289,6 +3313,9 @@ export const backlinks = {
     "국내 은행 서비스가 나쁜 이유": {
         "2023-02-20": "- [[국내 은행 서비스가 나쁜 이유]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-20 | 🇬🇧 Why Korean Banks Suck <br/> 🇰🇷 [[국내 은행 서비스가 나쁜 이유]]            ..."
+    },
+    "Continuity": {
+        "2023-03-07": "- [[Continuity]]"
     },
     "EPUB": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].",
@@ -3818,6 +3845,9 @@ export const backlinks = {
     "Repeated Designs": {
         "2022-11-30": "- [[Repeated Designs]]"
     },
+    "Normal Tables": {
+        "2023-03-07": "- [[Normal Tables]]"
+    },
     "Readwise Reader": {
         "2022-12-16": "- [[Readwise Reader]]"
     },
@@ -3828,6 +3858,9 @@ export const backlinks = {
     },
     "Book Scanning": {
         "Using an iPad as my Ebook": "Furthermore, I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], and I figured it is very ..."
+    },
+    "Q Function": {
+        "2023-03-07": "- [[Q Function]]"
     },
     "공강에서 보내는 공강 활용법": {
         "2016-06-24": "- [[공강에서 보내는 공강 활용법]]"
@@ -4006,6 +4039,9 @@ export const backlinks = {
     "0059 Spiral Matrix II": {
         "2023-02-09": "- [[0059 Spiral Matrix II]]",
         "Coding Tests": "- [[0059 Spiral Matrix II]]"
+    },
+    "Gaussian Distribution": {
+        "2023-03-07": "- [[Gaussian Distribution]]"
     },
     "Amdahl Law": {
         "2022-12-09": "- [[Amdahl Law]]"
@@ -4622,7 +4658,8 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-23 | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]]       ..."
     },
     "The Site On Which the Sun Never Sets": {
-        "2023-02-26": "- [[The Site On Which the Sun Never Sets]]"
+        "2023-02-26": "- [[The Site On Which the Sun Never Sets]]",
+        "2023-03-06": "- [[The Site On Which the Sun Never Sets]]"
     },
     "기숙사 생활과 방 배정": {
         "2016-11-11": "- [[기숙사 생활과 방 배정]]",
@@ -5222,6 +5259,9 @@ export const backlinks = {
         "유난한 도전": "... 사용자도 많고 간편한 Toss|토스결제를 너나없이 이용하고 싶어 할 것이다. 그렇지 않았다. [[Naver|네이버]]페이, [[Kakao|카카오]]페이, 삼성페이 등 경쟁자가 너무 많았다. Toss|토스페이의 설득력이 부족했다.",
         "하늘땅사람 개발 기록": "- `( ••)` `⊹⋛⋋( ՞ਊ ՞)⋌⋚⊹) `와 같은 이모티콘. [[Naver|네이버]] 스마트 키보드의 기능 중 꽤 좋은 기능이었다."
     },
+    "Sticker Party": {
+        "2023-03-07": "- [[Sticker Party]]"
+    },
     "Memex": {
         "2022-10-17": "- [[Memex]]",
         "As We May Think": "... a sort of collective memory machine with his concept of the [[memex]] that would make knowledge more accessible, believing that it would help ...",
@@ -5383,6 +5423,10 @@ export const backlinks = {
         "OpenAI가 새로운 테크 리바이스로 등극하다": "[[AWS]]는 AT&T와 같은 통신 회사에 이어 기술 업계의 최신 리바이스였다.",
         "Stable Alternative": "- [ ] Inference Server to `image → text`. [[AWS]] SageMaker? Or [[Hugging Face]] as an API server?"
     },
+    "Cauchy": {
+        "2023-03-07": "- [[Cauchy]]",
+        "Standard Cauchy": "The standard [[Cauchy]] distribution, also known as the standard Lorentzian distribution, is a special ..."
+    },
     "Xcode Clear Cache": {
         "2022-11-06": "- [[Xcode Clear Cache]]"
     },
@@ -5490,6 +5534,11 @@ export const backlinks = {
         "The Library of Babel": "- [[Information amongst Data]]",
         "개성은 쟁취하는 것": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
     },
+    "Variance": {
+        "2023-03-07": "- [[Variance]]",
+        "Cauchy": "... is the scale parameter. The Cauchy distribution has no mean or [[variance]], as the moments do not exist for this distribution. The Cauchy ...",
+        "Standard Normal": "... standard normal distribution or the Gaussian distribution with mean 0 and [[variance]] 1. The symbol $Z$ denotes it."
+    },
     "배달의민족 FE 개발자가 일하는 법 발표": {
         "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 발표]]"
     },
@@ -5506,6 +5555,7 @@ export const backlinks = {
         "Book Metadata as a Service": "[[Someday]] [[Project]]. Open API that returns Book Metadata when given an ISBN.",
         "CalliFontia": "[[Someday]] [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
         "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the chopstick game with competitive [[AI]]",
+        "ChromeOS Packer": "- [[Someday]] [[Project]]",
         "Cube": "[[Someday]] [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 앱.",
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical books with digital devices? i.e. scan ...",
         "ElonPet": "- [[Someday]] [[Project]]. Uses GPT-3 to write good things about Elon (Sarcastically) randomly",
@@ -5524,6 +5574,7 @@ export const backlinks = {
         "Problem": "Leads to a [[Someday]] [[Project]].",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game and its corresponding [[AI]] system.",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
+        "Sticker Party": "[[Someday]] [[Project]] GitHub README에 박을 수 있음. 하지만 그 스티커는 한정판. 노트북 ...",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
         "The One and Only": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
         "The One and Only WebExtension": "- [[Someday]] [[Project]]",
@@ -5547,6 +5598,9 @@ export const backlinks = {
         "PECR": "... without the prior consent of the subscriber. The law implements an [[EU]] directive, the Privacy and Electronic Communications Directive 2002. Privacy and Electronic ...",
         "Plausible Analytics": "... compliant with GDPR, CCPA, and PECR. Made and hosted in the [[EU]], powered by European-owned cloud infrastructure 🇪🇺 Plausible Analytics"
     },
+    "Standard Cauchy": {
+        "2023-03-07": "- [[Standard Cauchy]]"
+    },
     "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
         "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
     },
@@ -5565,6 +5619,9 @@ export const backlinks = {
     },
     "Text AI and Information Density": {
         "2022-12-27": "- [[Text AI and Information Density]]"
+    },
+    "Gaussian Integral": {
+        "2023-03-07": "- [[Gaussian Integral]]"
     },
     "Dynamic Island": {
         "2022-09-30": "### [[Dynamic Island]] Concepts for Desktops",
@@ -5655,6 +5712,11 @@ export const backlinks = {
         "2023-02-18": "- [[VP9 vs HEVC]]",
         "Imagining WebNPU API": "... will again see a battle between Apple and Google, just like [[VP9 vs HEVC]]or [[USDZ vs glTF]] battles.",
         "WebNPU API를 상상하다": "... ML 모델을 사용하는 반면 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 [[VP9 vs HEVC]] 또는 [[USDZ vs glTF]]의 싸움처럼 [[Apple|애플]]과 [[Google|구글]]의 싸움을 다시 보게 될 ..."
+    },
+    "Standard Normal": {
+        "2023-03-07": "- [[Standard Normal]]",
+        "Normal Tables": "In statistics, a normal table, also known as a [[standard normal]] table or a z-table, is a table that provides probabilities associated ...",
+        "Q Function": "... and statistics, the Q function is the tail probability of the [[standard normal]] distribution, also known as the complementary cumulative distribution function (CCDF) of ..."
     },
     "바이올린 켜면 바이올레이션": {
         "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
