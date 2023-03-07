@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/NewsGPT.md",
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/NewsGPT.md"
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/NewsGPT.md",
+                "file": "pages/The 30-Day Tweet Test (Harry Stebbings).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +128,8 @@
   },
   "active": "e1f19a5c12f629e3",
   "lastOpenFiles": [
+    "pages/Harry Stebbings.md",
+    "pages/NewsGPT.md",
     "journals/2023-03-06.md",
     "pages/Firefox.md",
     "journals/2023-03-05.md",
@@ -150,7 +152,6 @@
     "pages/Self-hosted SaaS Alternatives.md",
     "pages/ChromeOS Packer.md",
     "pages/Project.md",
-    "pages/NewsGPT.md",
     "pages/Generative Open Graph.md",
     "pages/Internet Computer.md",
     "pages/Bing Chat for All Browsers in Japan.md",
@@ -158,7 +159,6 @@
     "pages/0141 Linked List Cycle.md",
     "journals/2023-02-26.md",
     "pages/Better Obsidian.md",
-    "pages/PKM.md",
     "assets/3FB92F.png",
     "assets/E74AF7.png",
     "assets/FF159D.png",
