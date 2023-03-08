@@ -78,8 +78,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Gaussian Integral.md",
-                "mode": "preview",
+                "file": "pages/Continuity.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "limit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +184,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -204,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Gaussian Integral.md"
+                "file": "pages/Continuity.md"
               }
             }
           },
@@ -214,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Gaussian Integral.md",
+                "file": "pages/Continuity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,19 +248,20 @@
   "active": "09df50bc81062c27",
   "lastOpenFiles": [
     "journals/2023-03-07.md",
-    "pages/Gaussian Distribution.md",
     "pages/Probability.md",
-    "pages/Elo Rating.md",
     "pages/Statistics.md",
     "pages/Standard Cauchy.md",
-    "pages/Continuity.md",
     "pages/Cauchy.md",
+    "pages/Gaussian Integral.md",
     "pages/Q Function.md",
+    "pages/Normal Tables.md",
     "pages/Standard Normal.md",
     "pages/Variance.md",
+    "pages/Gaussian Distribution.md",
     "pages/Gaussian.md",
-    "pages/Gaussian Integral.md",
-    "pages/Normal Tables.md",
+    "pages/Continuity.md",
+    "pages/Absolute Convergence.md",
+    "pages/Elo Rating.md",
     "pages/Sticker Party.md",
     "journals/2016-04-01.md",
     "journals/2023-03-06.md",
@@ -271,7 +273,6 @@
     "pages/NewsGPT.md",
     "pages/Firefox.md",
     "pages/Hacker.md",
-    "pages/Engine Equation.md",
     "assets/C5B7B8.png",
     "assets/9F56CB.png",
     "assets/C03F68.png",
