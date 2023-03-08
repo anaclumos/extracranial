@@ -22,5 +22,9 @@
   "item.label.Random": {
     "message": "Random",
     "description": "Navbar item with label Random"
+  },
+  "item.label.Newsletter": {
+    "message": "Newsletter",
+    "description": "Navbar item with label Newsletter"
   }
 }

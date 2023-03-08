@@ -1,3 +1,5 @@
+Research/.obsidian/workspace.json
+
 *.config.js
 *.js.map
 *.stylesheet.js
@@ -31,8 +33,6 @@ yarn-error.log*
 .DS_Store
 .AppleDouble
 .LSOverride
-
-
 
 # Thumbnails
 ._*
@@ -231,7 +231,6 @@ dist
 # Icon must end with two \r
 Icon
 
-
 # Thumbnails
 ._*
 
@@ -290,3 +289,4 @@ $RECYCLE.BIN/
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 .vercel
+Research/.obsidian/workspace.json

@@ -45,6 +45,11 @@ const navbar = {
       position: 'left',
     },
     {
+      href: 'https://newsletters.cho.sh/subscription/form',
+      label: 'Newsletter',
+      position: 'left',
+    },
+    {
       href: 'https://github.com/anaclumos',
       position: 'right',
       className: 'navbar-github-link',

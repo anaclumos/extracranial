@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
@@ -118,7 +118,7 @@ const HeroText = () => {
             })}
             showByDefault="emoji"
           />
-          {/* <Translate>{', soon joining decacorn '}</Translate>
+          <Translate>{', soon joining decacorn '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Grammarly' })}
             photo={GrammarlyLogo}
@@ -126,7 +126,7 @@ const HeroText = () => {
               message: '🅖',
             })}
             showByDefault="emoji"
-          /> */}
+          />
           <Translate>{'. He previously worked at '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Karrot' })}
