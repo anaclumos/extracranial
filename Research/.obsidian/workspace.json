@@ -4,141 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "98b46dd5c775242e",
+        "id": "be27744a015c9853",
         "type": "tabs",
         "children": [
           {
-            "id": "b59953a4698f7b49",
+            "id": "7fb4f925bb5fcc76",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-07.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d4a901136ffd14f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-07.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "20dfe8a409ad3735",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-07.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b9039c35c90ca78f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-07.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "022bf322faee99a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-07.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "09df50bc81062c27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Continuity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "85e6bd275713eb00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-07.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "212cb51e34a993cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Standard Normal.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "145234b4ef2f0c5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Variance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "869d18c1b7cbb10d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Gaussian Distribution.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "limit",
+                "query": "\\lim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Continuity.md"
-              }
+              "state": {}
             }
           },
           {
@@ -215,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Continuity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,9 +119,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "09df50bc81062c27",
+  "active": "7fb4f925bb5fcc76",
   "lastOpenFiles": [
+    "pages/Gaussian Distribution.md",
+    "pages/Variance.md",
+    "pages/Standard Normal.md",
     "journals/2023-03-07.md",
+    "pages/Continuity.md",
     "pages/Probability.md",
     "pages/Statistics.md",
     "pages/Standard Cauchy.md",
@@ -255,11 +133,7 @@
     "pages/Gaussian Integral.md",
     "pages/Q Function.md",
     "pages/Normal Tables.md",
-    "pages/Standard Normal.md",
-    "pages/Variance.md",
-    "pages/Gaussian Distribution.md",
     "pages/Gaussian.md",
-    "pages/Continuity.md",
     "pages/Absolute Convergence.md",
     "pages/Elo Rating.md",
     "pages/Sticker Party.md",
