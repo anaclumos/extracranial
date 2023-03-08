@@ -26,7 +26,7 @@ Language                 Files     Lines   Blanks  Comments     Code Complexity
 Markdown                  1362     36991     9454         0    27537          0
 CSS                         71     20483      499        41    19943          0
 TypeScript                  58     11854      166        70    11618        209
-JSON                        42      2303        0         0     2303          0
+JSON                        42      2180        0         0     2180          0
 Python                       7       770       54        41      675        107
 SVG                          7         7        0         0        7          0
 YAML                         6        30        2         0       28          0
@@ -36,13 +36,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       292       73        70      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1564     99419    10654      5103    83662       1153
+Total                     1564     99296    10654      5103    83539       1153
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,820,005
-Estimated Schedule Effort (organic) 20.39 months
-Estimated People Required (organic) 12.28
+Estimated Cost to Develop (organic) $2,815,652
+Estimated Schedule Effort (organic) 20.38 months
+Estimated People Required (organic) 12.27
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6845188 bytes, 6.845 megabytes (SI)
+Processed 6841708 bytes, 6.842 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
