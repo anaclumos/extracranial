@@ -8,7 +8,10 @@ The [[Gaussian]] distribution, also known as the normal distribution, is a conti
 The PDF of the [[Gaussian]] distribution is given by:
 
 $$
+
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+
+
 $$
 
 where $x$ is an actual number, $\mu$ is the mean of the distribution, $\sigma$ is the standard deviation, $\pi$ is the mathematical constant π, and $e$ is the mathematical constant e.
