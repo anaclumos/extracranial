@@ -23,6 +23,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [x] [[Atomic Habits]]
 - [x] [[유난한 도전]]
 - [x] 상대적이며 절대적인 고양이 백과사전
+- [x] [[이 땅에 태어나서]]
 
 </Shuffle>
 
@@ -30,7 +31,6 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
-- [ ] [[이 땅에 태어나서]]
 - [ ] [[Exhalation]]
 - [ ] [[하얼빈]]
 
@@ -48,8 +48,8 @@ import Shuffle from '@site/src/components/Shuffle'
 - [ ] 도해 [[대만|타이완]]사
 - [ ] 허삼관 매혈기
 - [ ] 삼체
-- [ ] black swan
-- [ ] Hatching Twitter
+- [ ] Black Swan
+- [ ] Space Odyssey Series
 
 </Shuffle>
 
