@@ -4765,6 +4765,7 @@ export const backlinks = {
         "Real Exams": "- 1 [[Greedy Algorithm]]"
     },
     "Superbrain": {
+        "2023-03-08": "- [[Superbrain]]",
         "Dumbest Person in the Room": "> Surround yourself with more [[Superbrain|intelligent people]], and you'll all win. More ideas, energy, connections, and smarter people ...",
         "Extracranial": "Extracranial. The Exosuit for [[Superbrain|Superbrains]]",
         "Newtonian Mail": "... was a prolific Mail|letter writer and corresponded with numerous scientists and [[Superbrain|intellectuals]]. Newton's [[Mail|letters]] were often highly technical and discussed his scientific research ...",
