@@ -552,6 +552,9 @@ export const backlinks = {
         "2023-02-09": "- [[날씨 요정]]",
         "Aldehyde Landing Page 2023": "- [[날씨 요정]]"
     },
+    "장단점이 아닌 특색": {
+        "2023-03-08": "- [[장단점이 아닌 특색]]"
+    },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
         "Tech Now Pay Later": "This approach is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you make it. But what is the ...",
@@ -1902,6 +1905,7 @@ export const backlinks = {
         "2023-01-03": "## [[Readings]]",
         "2023-01-23": "- [[Readings]]",
         "2023-02-21": "- [[Readings]]",
+        "2023-03-08": "- [[Readings]]",
         "Watchings": "... all the media I've seen, starting from Feb 2023. Just like [[Readings]]"
     },
     "Engine": {
@@ -3976,6 +3980,9 @@ export const backlinks = {
         "VP9 vs HEVC": "- Similar to [[USDZ vs glTF]]",
         "WebNPU API를 상상하다": "... 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 VP9 vs HEVC 또는 [[USDZ vs glTF]]의 싸움처럼 [[Apple|애플]]과 [[Google|구글]]의 싸움을 다시 보게 될 것 같다."
     },
+    "자아는 발굴되는 것이다": {
+        "2023-03-08": "- [[자아는 발굴되는 것이다]]"
+    },
     "DoS": {
         "Internetworking": "- [[DoS]]"
     },
@@ -4963,7 +4970,8 @@ export const backlinks = {
         "Palantir": "- [[Palantir Foundry]]"
     },
     "Watchings": {
-        "2023-02-19": "- [[Watchings]]"
+        "2023-02-19": "- [[Watchings]]",
+        "2023-03-08": "- [[Watchings]]"
     },
     "Reminder Tools": {
         "Tools for Thought": "- [[Reminder Tools]]"
@@ -5929,7 +5937,7 @@ export const backlinks = {
         "2022-12-21": "- Readings: [[이 땅에 태어나서]], [[하얼빈]]",
         "2023-02-22": "- [[이 땅에 태어나서]]",
         "2023-02-23": "- [[이 땅에 태어나서]]",
-        "Readings": "- [ ] [[이 땅에 태어나서]]",
+        "Readings": "- [x] [[이 땅에 태어나서]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "... of this Land - The Founding Story of Hyundai <br/> 🇰🇷 [[이 땅에 태어나서]]            ..."
     },
     "Almost Monospaced": {
@@ -6039,7 +6047,8 @@ export const backlinks = {
         "2022-12-06": "- [[개성은 쟁취하는 것]]",
         "2023-02-25": "- [[개성은 쟁취하는 것]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-25 | 🇬🇧 Spirits do not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]            ...",
-        "딱 봐도 조성현": "- [[개성은 쟁취하는 것]]"
+        "딱 봐도 조성현": "- [[개성은 쟁취하는 것]]",
+        "자아는 발굴되는 것이다": "[[개성은 쟁취하는 것]]."
     },
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
