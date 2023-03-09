@@ -15,6 +15,8 @@ aliases:
     'Intelligent People',
     '지식인',
     'intellectuals',
+    'hyper intelligent',
+    'hyperintelligent',
   ]
 ---
 
