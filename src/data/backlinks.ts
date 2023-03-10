@@ -15,6 +15,9 @@ export const backlinks = {
     "2020-02-13": {
         "프로젝트 어덕행덕": "- [[2020-02-13]]"
     },
+    "2023-03-10": {
+        "Bing Chat for All Browsers in Japan": "## [[2023-03-10]]"
+    },
     "2022-10-12": {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- Mail|Letter to Mr. Alexander Obenauer on [[2022-10-12]]"
     },
@@ -596,7 +599,8 @@ export const backlinks = {
     },
     "Bing Chat for All Browsers in Japan": {
         "2023-02-19": "- [[Bing Chat for All Browsers in Japan]]",
-        "2023-02-21": "- [[Bing Chat for All Browsers in Japan]]"
+        "2023-02-21": "- [[Bing Chat for All Browsers in Japan]]",
+        "2023-03-10": "- [[Bing Chat for All Browsers in Japan]]"
     },
     "Framer": {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 장점"
@@ -968,6 +972,9 @@ export const backlinks = {
         "2022-09-29": "- [[dub.sh]]",
         "2022-12-26": "- [[dub.sh]]",
         "AGPL": "## [[dub.sh]]"
+    },
+    "Unchained Bing": {
+        "2023-03-10": "- [[Unchained Bing]]"
     },
     "Financial Technology": {
         "FinTech and Justice": "- Does [[Financial Technology|FinTech]] increase Justice in this world?",
@@ -3197,7 +3204,8 @@ export const backlinks = {
         "2023-02-19": "- [[Bing Chat for All Browsers]]",
         "Bing Chat for All Browsers in Japan": "- [[Bing Chat for All Browsers]]",
         "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
-        "Search AI": "- [[Bing Chat for All Browsers]]"
+        "Search AI": "- [[Bing Chat for All Browsers]]",
+        "Unchained Bing": "A competitor to [[Bing Chat for All Browsers]]."
     },
     "의대 쏠림": {
         "2023-02-15": "- [[의대 쏠림]]",
@@ -5789,6 +5797,7 @@ export const backlinks = {
     "일본": {
         "2023-02-16": "- [[일본]]",
         "Biden-Harris Administration National Security Strategy 2022": "... States of America|US reaffirms its unwavering commitment to the defense of [[일본|Japan]] under the mutual security treaty, which covers the Senkaku Islands.",
+        "Bing Chat for All Browsers in Japan": "Still very dominant from [[일본|Japan]]",
         "Finally, Apple Pay in Korea": "... would've likely become an exceptional NFC standard in 대한민국|Korea, such as [[일본|Japan]]'s Suica. But they never succeeded.) Eventually, the new wave of payment ...",
         "Haruki Murakami": "... writer. His novels, essays, and short stories have been bestsellers in [[일본|Japan]] and internationally, with his work translated into 50 languages and selling ...",
         "Krafton Way": "> 우리는 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. 우리는 우리 ...",
@@ -6693,6 +6702,9 @@ export const backlinks = {
     "971BA5.png": {
         "Bing Chat for All Browsers in Japan": "![[971BA5.png]]"
     },
+    "737A1A.png": {
+        "Bing Chat for All Browsers in Japan": "![[737A1A.png]]"
+    },
     "A3BB1E.png": {
         "Framer": "![[A3BB1E.png]]"
     },
@@ -6756,6 +6768,9 @@ export const backlinks = {
     },
     "D17CFC.png": {
         "dub.sh": "![[D17CFC.png]]"
+    },
+    "FEA35E.png": {
+        "Unchained Bing": "![[FEA35E.png]]"
     },
     "73DAA4.png": {
         "Developing Review Notes for Obsidian": "![[73DAA4.png]]"
