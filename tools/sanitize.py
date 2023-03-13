@@ -24,6 +24,7 @@ if __name__ == "__main__":
 
     # NFC-normalize the file names
     import shutil
+
     for md_file in all_md_files:
         new_name = unicodedata.normalize("NFC", md_file)
         if new_name != md_file:
@@ -50,8 +51,11 @@ if __name__ == "__main__":
                     COUNTER += 1
 
                 # Replace Rules
+                # remove all 'invisible' characters
                 REPLACE_RULES = {
                     " ": " ",
+                    "️": "",
+                    "‍": "",
                     " | Hacker News": "",
                     " - The New York Times": "",
                     " | The New Yorker": "",
@@ -130,10 +134,10 @@ if __name__ == "__main__":
                     " | TAXLY.KR (택슬리)": "",
                     "<br>": "<br/>",
                     '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>': "",
-                    '“': '"',
-                    '”': '"',
-                    '‘': "'",
-                    '’': "'",
+                    "“": '"',
+                    "”": '"',
+                    "‘": "'",
+                    "’": "'",
                     " • TechCrunch": "",
                     " | Jay Mody": "",
                     " | 중앙일보": "",

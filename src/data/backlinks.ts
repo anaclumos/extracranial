@@ -814,7 +814,7 @@ export const backlinks = {
     "Blockchain": {
         "2022-10-27": "- [[Blockchain]]",
         "Ethereum RPC as a Service": "... RPC is the primary way that you query data on the [[blockchain]]. [[AWS]] offers a similar product, AWS Managed Blockchain. Essentially these are ...",
-        "Financial Technology": "... compete with traditional financial methods in delivering financial services. AI|Artificial intelligence, [[Blockchain]], Cloud computing, and big data are regarded as the \"ABCD\" (four ...",
+        "Financial Technology": "... compete with traditional financial methods in delivering financial services. AI|Artificial intelligence, [[Blockchain]], [[Cloud computing]], and big data are regarded as the \"ABCD\" (four ...",
         "Universal Identity": "- [[Blockchain]] wallets can be one potential solution",
         "Web3": "- Censorship-resistant\" [[blockchain]] social networks became saturated with spam, driving away their actual users"
     },
@@ -1374,7 +1374,7 @@ export const backlinks = {
     },
     "Data Science": {
         "2022-12-28": "- Facebook Notifications [[Data Science]] team at Meta",
-        "AI-native": "... scalability and availability, and improved cost-effectiveness. However, it also requires specialized [[data science]], [[ML]], and cloud computing skills. In addition, it presents challenges around ...",
+        "AI-native": "... scalability and availability, and improved cost-effectiveness. However, it also requires specialized [[data science]], [[ML]], and [[cloud computing]] skills. In addition, it presents challenges around ...",
         "Deepnote": "- [[Data Science]] [[Collaboration-based Tools for Thought]]."
     },
     "Letter to Mr. Alexander Obenauer on 2022-10-12": {
@@ -1666,6 +1666,9 @@ export const backlinks = {
     "대한민국의 저출산": {
         "Person 960D1D": "- [[대한민국의 저출산]]"
     },
+    "Local ChatGPT": {
+        "2023-03-12": "- [[Local ChatGPT]]"
+    },
     "A Massive Mystery": {
         "2023-02-07": "- [[A Massive Mystery]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-07 | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 질량]]      ..."
@@ -1816,6 +1819,9 @@ export const backlinks = {
     "First Two Months of a Startup": {
         "The Dilemmas of Technopreneur": "That means the [[First Two Months of a Startup]] can be spent making the product rather than focusing on the ..."
     },
+    "2016년 12월 5일 민족사관고등학교 교장 사임 사건": {
+        "2023-03-11": "- [[2016년 12월 5일 민족사관고등학교 교장 사임 사건]]"
+    },
     "Love Software": {
         "2023-02-26": "- [[Love Software]]"
     },
@@ -1921,7 +1927,7 @@ export const backlinks = {
         "Conditional Compilation": "In Graphics, Conditional Compilation can be used for multi-platform [[engine]]",
         "Docker": "... premium tiers. The software that hosts the containers is called Docker [[Engine]]. It was first started in 2013 and was developed by Docker, ...",
         "Finding out Ghost version with JS": "... update it every time manually. At first, I investigated the Ghost [[engine]] side to make the Node.js include the value before responding to ...",
-        "Google": "... LLC is an American multinational technology company that focuses on search [[engine]] technology, online advertising, cloud computing, computer software, quantum computing, e-commerce, [[AI|artificial ...",
+        "Google": "... LLC is an American multinational technology company that focuses on search [[engine]] technology, online advertising, [[cloud computing]], computer software, quantum computing, e-commerce, [[AI|artificial ...",
         "Graphics Engine Process": "The general process of a graphics [[engine]] follows:",
         "JavaScript": "... third-party libraries. All major Web Browser|web browsers have a dedicated JavaScript [[engine]] to execute the code on users' devices. JavaScript",
         "Letter to Mr. Matt Rickard on 2022-10-03": "Naver services as the omnipotent search [[engine]] for [[대한민국|Korea]] (bigger market cap than [[Google]] [[대한민국|Korea]]) and [[Kakao]] services ...",
@@ -2795,6 +2801,17 @@ export const backlinks = {
     "0973 K Closest Points to Origin": {
         "Coding Tests": "- [x] [[0973 K Closest Points to Origin]]"
     },
+    "Cloud Computing": {
+        "AI-native": "... cloud, leveraging the principles and practices of cloud-native development. It uses [[cloud computing]] infrastructure, services, and tools to build, train, and deploy AI models.",
+        "Cloud-Native": "... practices and technologies. They have grown up in an era where [[cloud computing]] is the norm and take for granted the benefits that cloud ...",
+        "Financial Technology": "... with traditional financial methods in delivering financial services. AI|Artificial intelligence, Blockchain, [[Cloud computing]], and big data are regarded as the \"ABCD\" (four key areas) ...",
+        "Google": "... multinational technology company that focuses on search engine technology, online advertising, [[cloud computing]], computer software, quantum computing, e-commerce, [[AI|artificial intelligence]], and consumer electronics. It ...",
+        "Krafton Way": "- [[Cloud Computing|클라우드]]를 이용하여 전세계 서비스 용이",
+        "On-Premise": "Opposite of [[Cloud Computing]]",
+        "OpenAI enthroned as the Levis of Tech": "... and hammers, the digital transformation has made an enormous demand for [[cloud computing]] services like AWS. [[OpenAI]] just officialized that they will be the ...",
+        "OpenAI가 새로운 테크 리바이스로 등극하다": "... 같은 물품에 대한 엄청난 수요를 창출한 것처럼, 디지털 혁신은 AWS와 같은 [[Cloud Computing|클라우드]] 컴퓨팅 서비스에 대한 엄청난 수요를 창출했다.",
+        "WebNPU API를 상상하다": "언젠가 AI 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 되면, 특히 웹 기술을 사용하여 [[NPU]]에 액세스하기 위한 API를 ..."
+    },
     "0070 Climbing Stairs": {
         "Coding Tests": "- [x] [[0070 Climbing Stairs]]"
     },
@@ -2951,6 +2968,9 @@ export const backlinks = {
         "Desire-Compatible Growth & Preservation": "- [[Nuclear Fusion]]",
         "불가사리": "[[Nuclear Fusion|핵융합]]"
     },
+    "Visual ChatGPT": {
+        "2023-03-10": "- [[Visual ChatGPT]]"
+    },
     "Meltdown": {
         "Meltdown and Spectre": "- [[Meltdown]] bypasses memory protection between user space and kernel",
         "Spectre": "... refers to one of the two original transient execution CPU vulnerabilities ([[Meltdown]]), which involve microarchitectural timing side-channel attacks. These affect modern microprocessors that ..."
@@ -2966,6 +2986,9 @@ export const backlinks = {
     },
     "Redactor for iPhone": {
         "2023-01-09": "- [[Redactor for iPhone]]"
+    },
+    "Common App for Resume": {
+        "2023-03-10": "- [[Common App for Resume]]"
     },
     "Generative AI": {
         "2022-12-17": "... the notion of \"feasibility\" changed once and for all as the [[Generative AI]] emerged?",
@@ -3179,6 +3202,13 @@ export const backlinks = {
         "2022-10-27": "- [[Interoperability]]",
         "Government Services should have full API support": "- Of course, we would need a Universal Identity and [[Interoperability]] to prevent any lock-ins.",
         "Super App and Democracy": "  - Promote open public digital infrastructure with [[interoperability]]."
+    },
+    "On-Premise": {
+        "2023-03-12": "- [[On-Premise]]",
+        "Cloud-Native": "... deploying applications on cloud infrastructure, such as AWS, instead of traditional [[on-premise]] infrastructure. They are comfortable building [[Microservices Architecture]], containerization, and [[automation]] using ...",
+        "OpenAI enthroned as the Levis of Tech": "- Fewer expensive [[On-Premise]] Engineers — Gone are the days we needed [[on-premise]] system engineers ...",
+        "OpenAI가 새로운 테크 리바이스로 등극하다": "- 값비싼 [[On-Premise|온프레미스]] 엔지니어 감소 — 서버를 구성하고 인프라를 관리하는 On-Premise|온프레미스 시스템 엔지니어가 필요하던 ...",
+        "Person A3BA1A": "Some customers require [[on-premise]] hardware, requiring us to adapt to such demands."
     },
     "Partition Problem": {
         "2023-01-23": "- [[Partition Problem]]"
@@ -3816,6 +3846,11 @@ export const backlinks = {
     "Palantir Gotham": {
         "Palantir": "- [[Palantir Gotham]]",
         "Palantir Apollo": "... Palantir Apollo is a continuous delivery system that manages and deploys [[Palantir Gotham]] and Foundry. Apollo was built out of the need for customers ..."
+    },
+    "DRM": {
+        "2023-03-10": "- [[DRM]]",
+        "Scheduler": "... include batch system, distributed resource management system (DRMS), distributed resource manager ([[DRM]]), and, commonly today, workload [[automation]] (WLA). The data structure of jobs ...",
+        "Web3": "- So-called web3 publishing firms sought to reinvent [[DRM]], imposing even more limits on how textbooks or other material could ..."
     },
     "tabExtend": {
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... who sent you 10s of Mail|emails since the early days of [[tabExtend]]. I hope you are doing well. It's been a long time ...",
@@ -5006,6 +5041,9 @@ export const backlinks = {
         "Stable Alternative": "- [ ] Perceptual Hashing [[On-Device|On Device]]: [[phash.wasm]]",
         "WebNPU API를 상상하다": "우리는 이미 Apple|애플의 Neural Engine으로 [[On-Device|온디바이스]] [[ML]] 기술의 시작을 관찰하고 있다. 여기에는 단순한 Siri 명령에서 완전한 Stable ..."
     },
+    "미지의 외계행성": {
+        "2016-02-21": "- [[미지의 외계행성]]"
+    },
     "Code Quality for Game Programming": {
         "2022-09-12": "- [[Code Quality for Game Programming]]",
         "Game Programming": "- [[Code Quality for Game Programming]]"
@@ -5429,7 +5467,7 @@ export const backlinks = {
         "2022-10-16": "... 몽키\"라는 시스템이 있다. 개발자들 몰래 서버를 끄는 봇이다. 카오스 킹콩은 한 [[AWS]] 리전 전체를 끈다. 그럼 자동으로 모든 리퀘스트가 다른 리전으로 리라우팅된다. 해일, ...",
         "2022-12-28": "- Scheduled Job: [[AWS]] Lambda (Linux + cron)",
         "AWS Nuke": "- rebuy-de/[[aws]]-nuke: Nuke a whole [[AWS]] account and delete all its resources. https://github.com/rebuy-de/aws-nuke",
-        "Cloud-Native": "... engineers are accustomed to deploying applications on cloud infrastructure, such as [[AWS]], instead of traditional on-premise infrastructure. They are comfortable building [[Microservices Architecture]], ...",
+        "Cloud-Native": "... engineers are accustomed to deploying applications on cloud infrastructure, such as [[AWS]], instead of traditional [[on-premise]] infrastructure. They are comfortable building [[Microservices Architecture]], ...",
         "Ethereum RPC as a Service": "... is the primary way that you query data on the blockchain. [[AWS]] offers a similar product, AWS Managed Blockchain. Essentially these are just ...",
         "Ghost 테마를 자동 배포하는 방법": "이 블로그는 Ghost Content Management System을 [[AWS]]에 호스팅하여 사용한다. Ghost CMS는 헤드리스하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 ...",
         "Is AWS a Dumb Pipe": "- Will [[AWS]] follow its track?",
@@ -5746,6 +5784,9 @@ export const backlinks = {
     "Convergence of Alternating Series": {
         "2023-01-31": "- [[Convergence of Alternating Series]]"
     },
+    "SVB Debacle": {
+        "2023-03-12": "- [[SVB Debacle]]"
+    },
     "Hacker News": {
         "2022-06-21": "## Today's [[Hacker News]]",
         "2022-06-22": "## Today's [[Hacker News]]",
@@ -5788,6 +5829,7 @@ export const backlinks = {
         "2023-02-06": "## [[Hacker News]]",
         "2023-02-08": "## [[Hacker News]]",
         "2023-03-06": "## [[Hacker News|HN]]",
+        "2023-03-10": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing [[Mail|email]] server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -6048,6 +6090,9 @@ export const backlinks = {
         "Born of this Land - The Founding Story of Hyundai": "... growth possible, and to reform politics to create an advanced and [[Unified Korea]]. No matter what, he was determined to prevent the country from ...",
         "이 땅에 태어나서": "... 중심 국가가 되고, 세계의 모범 국가가 될 수 있다고 본다. 특히 [[Unified Korea|통일]]이 되면 [[한민족]]은 6-7천만 명의 다부지고 지혜로운 인구를 얻을 수 있음을 강조했다. ..."
     },
+    "Adaptive Keyboard": {
+        "2023-03-10": "- [[Adaptive Keyboard]]"
+    },
     "0079 Word Search": {
         "Coding Tests": "- [ ] [[0079 Word Search]]"
     },
@@ -6275,7 +6320,7 @@ export const backlinks = {
         "Deepfake": "... is not new, deepfakes leverage powerful techniques from ML|machine learning and [[AI|artificial intelligence]] to manipulate or generate visual and audio content that can more ...",
         "Educational Technology": "... theoretical knowledge from various disciplines such as communication, education, psychology, sociology, [[AI|artificial intelligence]], and computer science. It encompasses several domains, including learning theory, computer-based ...",
         "Effective Accelerationism": "8. [[AI|인공지능]]과 기술적 자본의 초변수(hyper-parameters)를 먼저 통제하는 자는 이 의식의 미래에 강력한 대리 ...",
-        "Financial Technology": "... technology to compete with traditional financial methods in delivering financial services. [[AI|Artificial intelligence]], [[Blockchain]], Cloud computing, and big data are regarded as the \"ABCD\" ...",
+        "Financial Technology": "... technology to compete with traditional financial methods in delivering financial services. [[AI|Artificial intelligence]], [[Blockchain]], [[Cloud computing]], and big data are regarded as the \"ABCD\" ...",
         "Generative AI": "Instead of guessing the correct answer, [[AI]] creates something from [[Prompt Engineering]].",
         "Generative Databases": "... the world of Generative AIs, can we think Database as Gen [[AI]] models instead of key-value storages?",
         "Geohot Twitter Mayhem": "... also known as Geohot, is a famous hacker and founder of Comma.[[ai]]. Elon Musk hired him to work on Twitter to improve its ...",
@@ -6300,7 +6345,7 @@ export const backlinks = {
         "The Demise of Chatbots in 2017": "- In 2017, I saw too many Chatbot [[AI]] startups. Then in 2018, they suddenly disappeared.",
         "Tome": "It's like Text-based Presentations, but [[AI]] will draw & layout stuff for you!",
         "Unsemantic": "Instead of \"semanticizing\" the web, we must create an unsemantic [[AI]] (i.e., rigorous.)",
-        "WebNPU API를 상상하다": "언젠가 [[AI]] 네이티브(우리 클라우드 네이티브처럼)가 표준이 되면, 특히 웹 기술을 사용하여 [[NPU]]에 액세스하기 ...",
+        "WebNPU API를 상상하다": "언젠가 [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 되면, 특히 웹 기술을 사용하여 [[NPU]]에 ...",
         "기술 발전의 속도": "이게 반년도 되지 않았다. 2022년 가을만 해도 [[AI|인공지능]]이라고 해봐야 그림을 어느 정도 잘 그리는 [[AI]]만 있었을 뿐이다. Stable Diffusion이나, ...",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "- 일러스트레이션. 일러스트레이터를 고용하거나 생성 [[AI]]를 사용하여 일러스트레이션을 만든다.",
         "의료 인공지능과 의대 쏠림": "만약 의료 [[AI|인공지능]]이 대규모로 보급된다면 어떨까? 의대를 가려는 원동력이 사라지지 않을까?",
@@ -6426,6 +6471,9 @@ export const backlinks = {
     },
     "Playing Sounds in SDL": {
         "2022-10-19": "- [[Playing Sounds in SDL]]"
+    },
+    "OLED": {
+        "Adaptive Keyboard": "... keyboards. Then they scraped it, and rumors indicated they moved to [[OLED]], now seen on touch-bar macs. The rumor, however, did not end ..."
     },
     "10x": {
         "10x Technologist": "[[10x]] developers are a term that describes an exceptionally skilled and productive, ...",
@@ -6628,6 +6676,9 @@ export const backlinks = {
     },
     "AF38A6.png": {
         "2022-10-10": "    - ![[AF38A6.png]]"
+    },
+    "6A55AE.png": {
+        "2023-03-12": "![[6A55AE.png]]"
     },
     "5BE46A.png": {
         "2022-10-24": "![[5BE46A.png]]",
@@ -6975,6 +7026,18 @@ export const backlinks = {
     "6C2684.png": {
         "Thesephist Work Case Study": "![[6C2684.png]]"
     },
+    "44AE47.jpg": {
+        "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "![[44AE47.jpg]]"
+    },
+    "BF4114.jpg": {
+        "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "![[BF4114.jpg]]"
+    },
+    "9B7C47.jpg": {
+        "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "![[9B7C47.jpg]]"
+    },
+    "FC3EFC.jpg": {
+        "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "![[FC3EFC.jpg]]"
+    },
     "F59F47.png": {
         "Midjourney": "![[F59F47.png]]"
     },
@@ -7167,6 +7230,9 @@ export const backlinks = {
         "0542 01 Matrix": "    func updateMatrix( matrix: [[Int]]) -> Int {",
         "0973 K Closest Points to Origin": "    func kClosest( points: [[Int]],  k: Int) -> Int {"
     },
+    "B060EA.png": {
+        "Cloud Computing": "![[B060EA.png]]"
+    },
     "1FA88B.png": {
         "Jumpsite": "![[1FA88B.png]]"
     },
@@ -7194,6 +7260,9 @@ export const backlinks = {
     "people": {
         "Person 5DBDAE": "A lot of [[people]] are international.",
         "Person E7CFC5": "A lot of smart [[people]]."
+    },
+    "227D79.gif": {
+        "Visual ChatGPT": "![[227D79.gif]]"
     },
     "BD6DAB.png": {
         "Pretendard의 아쉬운 점": "![[BD6DAB.png]]"
@@ -7732,6 +7801,15 @@ export const backlinks = {
     },
     "3E4C69.png": {
         "Amie": "![[3E4C69.png]]"
+    },
+    "CCF7CC.png": {
+        "SVB Debacle": "![[CCF7CC.png]]"
+    },
+    "4BF876.png": {
+        "SVB Debacle": "![[4BF876.png]]"
+    },
+    "4DF74F.png": {
+        "SVB Debacle": "![[4DF74F.png]]"
     },
     "AE63DD.png": {
         "Sliding Panes": "![[AE63DD.png]]"
