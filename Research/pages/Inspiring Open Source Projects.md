@@ -7,7 +7,7 @@ slug: '/7442D2'
 - [jitsucom/jitsu: Jitsu is an open-source Segment alternative. Fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days](https://github.com/jitsucom/jitsu)
 - [meilisearch/meilisearch: A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.](https://github.com/meilisearch/meilisearch)
 - [Reflio-com/reflio](https://github.com/Reflio-com/reflio) (Referral Program)
-- [medusajs/medusa: The open-source Shopify alternative ⚡️](https://github.com/medusajs/medusa)
+- [medusajs/medusa: The open-source Shopify alternative ⚡](https://github.com/medusajs/medusa)
 - [boxyhq/jackson: SAML Jackson: A SAML SSO service designed as an OAuth 2.0 or OpenID Connect flow. Integrate SAML with just a few lines of code. Demo - https://saml-demo.boxyhq.com](https://github.com/boxyhq/jackson)
 - [AppFlowy-IO/AppFlowy: AppFlowy is an open-source alternative to Notion. You are in charge of your data and customizations. Built with Flutter and Rust.](https://github.com/AppFlowy-IO/appflowy)
 - [supabase/supabase: The open source Firebase alternative. Follow to stay updated about our public Beta.](https://github.com/supabase/supabase)
