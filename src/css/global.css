@@ -42,10 +42,6 @@ details {
   box-shadow: var(--box-shadow);
 }
 
-button {
-  box-shadow: var(--box-shadow);
-}
-
 [data-theme='dark'] * {
   --ifm-background-color: #121212 !important;
 }

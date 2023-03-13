@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3953ce7c8e2f7c01",
+        "id": "48f9774394d98342",
         "type": "tabs",
         "children": [
           {
-            "id": "9f067de102a2e269",
+            "id": "dcc6e90ee2a0f932",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/2016년 12월 5일 민족사관고등학교 교장 사임 사건.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/2016년 12월 5일 민족사관고등학교 교장 사임 사건.md"
-              }
+              "state": {}
             }
           },
           {
@@ -96,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/2016년 12월 5일 민족사관고등학교 교장 사임 사건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,15 +119,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9f067de102a2e269",
+  "active": "dcc6e90ee2a0f932",
   "lastOpenFiles": [
-    "assets/714B8B.png",
+    "journals/2023-03-13.md",
+    "pages/Add Shadow to Transparent PNG.md",
     "pages/2016년 12월 5일 민족사관고등학교 교장 사임 사건.md",
+    "assets/714B8B.png",
     "journals/2023-03-11.md",
     "journals/2023-03-12.md",
     "pages/미지의 외계행성.md",
     "journals/2016-02-21.md",
-    "journals/2023-03-13.md",
     "pages/On-Premise.md",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
     "assets/FC3EFC.jpg",
