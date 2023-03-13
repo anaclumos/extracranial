@@ -11,6 +11,7 @@
 }
 
 .intro {
+  font-family: var(--font-family-headline);
   padding: 0 2rem;
   font-size: 2rem;
   font-weight: normal;
@@ -43,6 +44,7 @@
     padding: 0 1rem;
     font-size: 1.5rem;
   }
+
   .intro img {
     height: 28px;
     width: 28px;
