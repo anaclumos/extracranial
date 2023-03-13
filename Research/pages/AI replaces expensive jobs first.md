@@ -7,8 +7,8 @@ slug: '/D6C7BA'
 
 Notably:
 
-- Doctors 🧑‍⚕️
-- Lawyers 🧑‍⚖️
+- Doctors 🧑⚕
+- Lawyers 🧑⚖
 
 ## Why are expensive jobs expensive 💰?
 

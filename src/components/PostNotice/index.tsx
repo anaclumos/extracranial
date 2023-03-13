@@ -3,7 +3,7 @@ import { translate } from '@docusaurus/Translate'
 import Admonition from '@theme/Admonition'
 import PostNotice from './PostNotice.module.css'
 
-const title = translate({ message: 'Old Post Ahead!' })
+const title = translate({ message: 'Heads Up!' })
 
 type Props = {
   metadata: any
@@ -68,7 +68,7 @@ const index = (props: Props) => {
   const { metadata } = props
   return (
     isOldPost(metadata.date) && (
-      <Admonition type="caution" title={title} icon="📜">
+      <Admonition type="caution" title={title}>
         <ul>
           <li>
             {bulletOneFront}

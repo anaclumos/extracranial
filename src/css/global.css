@@ -30,7 +30,20 @@ code {
   --padding: 1rem;
   --border-radius: 0.5rem;
   --ifm-container-width-xxl: 1600px;
+  --box-shadow: 0 0.1rem 0.15rem rgba(0, 0, 0, 0.3);
   max-width: 100dvw;
+}
+
+details {
+  box-shadow: var(--box-shadow);
+}
+
+.theme-admonition {
+  box-shadow: var(--box-shadow);
+}
+
+button {
+  box-shadow: var(--box-shadow);
 }
 
 [data-theme='dark'] * {
