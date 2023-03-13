@@ -2274,6 +2274,9 @@ export const backlinks = {
     "Archiving-based Tools for Thoughts": {
         "Tools for Thought": "- [[Archiving-based Tools for Thoughts]]: takes a full copy of a page for archiving purposes."
     },
+    "Add Shadow to Transparent PNG": {
+        "2023-03-13": "- [[Add Shadow to Transparent PNG]]"
+    },
     "Autosave Everything": {
         "2022-07-19": "- [[Autosave Everything]]"
     },
