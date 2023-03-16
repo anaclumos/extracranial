@@ -11,8 +11,13 @@
             "id": "dcc6e90ee2a0f932",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-16.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-03-16.md"
+              }
             }
           },
           {
@@ -89,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-03-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +129,8 @@
   },
   "active": "dcc6e90ee2a0f932",
   "lastOpenFiles": [
+    "pages/Dear AIs, I have a question..md",
+    "journals/2023-03-16.md",
     "journals/2023-03-13.md",
     "pages/Add Shadow to Transparent PNG.md",
     "pages/2016년 12월 5일 민족사관고등학교 교장 사임 사건.md",
@@ -156,8 +166,6 @@
     "pages/Japan.md",
     "pages/Unchained Bing.md",
     "pages/Watchings.md",
-    "pages/Readings.md",
-    "pages/자아는 발굴되는 것이다.md",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S"
   ]
 }
