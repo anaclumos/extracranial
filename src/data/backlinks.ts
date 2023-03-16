@@ -1942,6 +1942,9 @@ export const backlinks = {
         "2022-08-04": "### [[Optimistic Nihilism]]",
         "2022-08-10": "- [[Optimistic Nihilism]]"
     },
+    "Dear AIs, I have a question.": {
+        "2023-03-16": "- [[Dear AIs, I have a question.]]"
+    },
     "In-house and Free Market": {
         "2022-12-24": "- [[In-house and Free Market]]: Can independent scientists ever win again?",
         "2023-02-22": "- [[In-house and Free Market]]",
