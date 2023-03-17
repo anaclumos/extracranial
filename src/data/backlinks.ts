@@ -872,6 +872,9 @@ export const backlinks = {
         "2022-12-08": "- [[Heap (Computer Systems)]]",
         "Computer Systems": "- [[Heap (Computer Systems)]]"
     },
+    "Wael AbdAlmageed": {
+        "2023-03-16": "- [[Wael AbdAlmageed]]"
+    },
     "Embeddable GitHub Repo Card But It Looks Great": {
         "2023-01-25": "- [[Embeddable GitHub Repo Card But It Looks Great]]"
     },
@@ -1372,6 +1375,10 @@ export const backlinks = {
     "Unsemantic": {
         "2022-12-20": "- [[Unsemantic]]"
     },
+    "역사의 종말 오류": {
+        "2023-03-16": "- [[역사의 종말 오류]]",
+        "The Newtonian Correspondence": "| 03-16 | 🇬🇧 The End of History Fallacy <br/> 🇰🇷 [[역사의 종말 오류]] | Tweet | Post | Post | "
+    },
     "Data Science": {
         "2022-12-28": "- Facebook Notifications [[Data Science]] team at Meta",
         "AI-native": "... scalability and availability, and improved cost-effectiveness. However, it also requires specialized [[data science]], [[ML]], and [[cloud computing]] skills. In addition, it presents challenges around ...",
@@ -1562,6 +1569,9 @@ export const backlinks = {
     },
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
+    },
+    "The Enduring Question of Cicada": {
+        "2023-03-16": "- [[The Enduring Question of Cicada]]"
     },
     "Stable Alternative": {
         "2022-10-03": "- [[Stable Alternative]]",
@@ -1894,6 +1904,9 @@ export const backlinks = {
     "G++": {
         "Internetworking": "- [[G++]]"
     },
+    "Seed": {
+        "2023-03-16": "- [[Seed]]"
+    },
     "OpenAI": {
         "2023-02-08": "- Companies building foundational models have partnered with cloud providers: [[OpenAI]] ([[Microsoft]]) and Anthropic ([[Google]]). These companies spend vast amounts on computing ...",
         "Bing": "... with Bing, ask real questions, and get complete answers). The same [[OpenAI]] technology behind [[ChatGPT]] powers this feature.",
@@ -2051,6 +2064,12 @@ export const backlinks = {
     },
     "Joining Thread": {
         "Internetworking": "- [[Joining Thread]]"
+    },
+    "University of Southern California": {
+        "2023-03-16": "- [[University of Southern California]]",
+        "Letter to Mr. Alexander Obenauer on 2022-10-12": "... am Sunghyun Cho. I am a current CS university student at [[University of Southern California|USC]].",
+        "Seed": "I am Sunghyun Cho, a B.S. student in computer science at [[University of Southern California|USC]], graduating on 05/2024. My primary interests are Computational Linguistics and organizing ...",
+        "Wael AbdAlmageed": "- Researcher at [[University of Southern California]]"
     },
     "Entropy": {
         "Text AI and Information Density": "Text AI, for example ChatGPT, tends to have low [[Entropy|information density]]."
@@ -2403,6 +2422,9 @@ export const backlinks = {
     },
     "Improving Cache Average Access Time": {
         "2022-11-04": "- [[Improving Cache Average Access Time]]"
+    },
+    "Letter to Modos team on 2023-03-16": {
+        "2023-03-16": "- [[Letter to Modos team on 2023-03-16]]"
     },
     "Next.js": {
         "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
@@ -2936,7 +2958,8 @@ export const backlinks = {
     },
     "Eventually, Diligent Immatures build the Future": {
         "2023-02-21": "- [[Eventually, Diligent Immatures build the Future]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-21 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]     ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-21 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]     ...",
+        "The End of History Fallacy": "... fresh start. But remember, your today is also your medieval age. [[Eventually, Diligent Immatures build the Future]]."
     },
     "POP3 vs IMAP": {
         "Internetworking": "- [[POP3 vs IMAP]]"
@@ -3256,6 +3279,9 @@ export const backlinks = {
         "하늘땅사람 개인 정보 보호 정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다.",
         "하늘땅사람 지원 문서": "[[하늘땅사람]]의 지원 문서입니다.",
         "활자": "[[하늘땅사람]]의 [[Subproject|하위 계획]]."
+    },
+    "Researcher": {
+        "Wael AbdAlmageed": "- [[Researcher]] at [[University of Southern California]]"
     },
     "3D": {
         "2022-10-21": "- [[3D]]",
@@ -3991,6 +4017,9 @@ export const backlinks = {
         "2022-12-09": "- [[Survivorship Biased]]",
         "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]"
     },
+    "The Newtonian Correspondence": {
+        "2023-03-16": "- [[The Newtonian Correspondence]]"
+    },
     "Product-Market Fit": {
         "2022-06-06": "... and startups have little or no tests. When struggling to find [[Product-Market Fit]] or fighting for survival, many companies need to test early on. ...",
         "Captivating Products": "... the product? Captivating products, by definitions, are those who found the [[Product-Market Fit]].",
@@ -4090,7 +4119,8 @@ export const backlinks = {
     },
     "미래는 결국 미성숙한 우리가 만들어낸다": {
         "2023-02-21": "- [[미래는 결국 미성숙한 우리가 만들어낸다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... 02-21 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "... 02-21 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]            ...",
+        "역사의 종말 오류": "... 늦은 순간이라고 생각한다. 하지만 당신의 오늘 또한 훗날의 중세가 됨을 기억하자. [[미래는 결국 미성숙한 우리가 만들어낸다]]."
     },
     "0059 Spiral Matrix II": {
         "2023-02-09": "- [[0059 Spiral Matrix II]]",
@@ -5530,6 +5560,7 @@ export const backlinks = {
         "2023-03-01": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "2023-03-02": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
         "On National Crises and the Intellectuals — Focused on GB and KR": "Today marks the thirtieth day of [[The 30-Day Tweet Test (Harry Stebbings)|my challenge to post meaningful content on the web]], and as I sit down to write my final piece, my ...",
+        "The Newtonian Correspondence": "A spiritual successor to [[The 30-Day Tweet Test (Harry Stebbings)]]! Subscribe at https://newsletters.cho.sh 😉",
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "오늘은 [[The 30-Day Tweet Test (Harry Stebbings)|웹에 유의미한 콘텐츠를 올리기 위해 도전한지 30일째]] 되는 날입니다."
     },
     "0542 01 Matrix": {
@@ -6003,6 +6034,10 @@ export const backlinks = {
     "0199 Binary Tree Right Side View": {
         "Coding Tests": "- [[0199 Binary Tree Right Side View]]"
     },
+    "The End of History Fallacy": {
+        "2023-03-16": "- [[The End of History Fallacy]]",
+        "The Newtonian Correspondence": "| 03-16 | 🇬🇧 [[The End of History Fallacy]] <br/> 🇰🇷 [[역사의 종말 오류]] | Tweet | Post | Post ..."
+    },
     "AGPL": {
         "dub.sh": "  - [[AGPL]]"
     },
@@ -6131,6 +6166,9 @@ export const backlinks = {
         "2022-11-04": "- [[Virtual Address Space and Physical Address Space]]",
         "Computer Systems": "- [[Virtual Address Space and Physical Address Space]]",
         "Virtual Memory": "- [[Virtual Address Space and Physical Address Space]]"
+    },
+    "Matrix Network": {
+        "2023-03-16": "- [[Matrix Network]]"
     },
     "0278 First Bad Version": {
         "Coding Tests": "- [x] [[0278 First Bad Version]]"
