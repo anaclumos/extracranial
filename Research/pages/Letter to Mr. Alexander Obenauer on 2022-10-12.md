@@ -7,7 +7,7 @@ slug: '/25BA57'
 
 Dear Mr. Obenauer,
 
-I am Sunghyun Cho. I am a current CS university student at USC.
+I am Sunghyun Cho. I am a current CS university student at [[University of Southern California|USC]].
 I want to become a computer scientist in the future, just like you!
 
 I just wanted to say that your website is 🔥.
