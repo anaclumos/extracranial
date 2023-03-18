@@ -620,6 +620,7 @@ export const filenames = {
     "Gaussian": "97776F",
     "Gaussian Distribution": "B532ED",
     "Gaussian Integral": "977C5C",
+    "Generalist": "C27361",
     "Generative AI": "8D922B",
     "Generative Databases": "5593D7",
     "Generative Open Graph": "8272B1",

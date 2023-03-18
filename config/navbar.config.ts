@@ -45,7 +45,7 @@ const navbar = {
       position: 'left',
     },
     {
-      href: 'https://newsletters.cho.sh/subscription/form',
+      to: '/newsletters',
       label: 'Newsletter',
       position: 'left',
     },
