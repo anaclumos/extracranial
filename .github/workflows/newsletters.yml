@@ -1,4 +1,4 @@
-name: Send Yesterday's Newsletter
+name: Schedule Newsletter
 on:
   schedule:
     - cron: '0 0 * * *'
