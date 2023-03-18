@@ -58,9 +58,6 @@ def create_campaign(title, body, lang="en"):
 def find_today_newsletters(lang):
     """Find the newsletter for today in the Research folder. All UTC."""
     today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
-    today = (datetime.datetime.utcnow() + datetime.timedelta(days=1)).strftime(
-        "%Y-%m-%d"
-    )
     all_md_files = []
     newsletters = []
     for root, _, files in os.walk("./Research/pages"):
