@@ -1377,7 +1377,7 @@ export const backlinks = {
     },
     "역사의 종말 오류": {
         "2023-03-16": "- [[역사의 종말 오류]]",
-        "The Newtonian Correspondence": "| 03-16 | 🇬🇧 The End of History Fallacy <br/> 🇰🇷 [[역사의 종말 오류]] | Tweet | Post | Post | "
+        "The Newtonian Correspondence": "| 03-16 | 🇬🇧 The End of History Fallacy <br/> 🇰🇷 [[역사의 종말 오류]] | Tweet | Post | Post |"
     },
     "Data Science": {
         "2022-12-28": "- Facebook Notifications [[Data Science]] team at Meta",
@@ -2584,6 +2584,9 @@ export const backlinks = {
     "Can we ever build TikTok for Text": {
         "2023-02-27": "- [[Can we ever build TikTok for Text]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-27 | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]   ..."
+    },
+    "CSS Inject": {
+        "2023-03-17": "- [[CSS Inject]]"
     },
     "Korean Discount": {
         "Born of this Land - The Founding Story of Hyundai": "... earnings are often cited as one of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do not pay dividends to shareholders but ...",
