@@ -1,31 +1,20 @@
-import React, { useMemo } from 'react';
+import React, { useMemo } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './NewsletterForm.module.css'
 // @ts-ignore
 
 const NewsletterForm = () => {
-
   const { i18n } = useDocusaurusContext()
 
   const [isKoreanLocale, setIsKoreanLocale] = React.useState(i18n.currentLocale.startsWith('ko'))
   const [isEnglishLocale, setIsEnglishLocale] = React.useState(i18n.currentLocale.startsWith('en'))
 
   return (
-    <form
-      method="post"
-      action="https://newsletters.cho.sh/subscription/form"
-      className={styles.formContainer}
-    >
+    <form method="post" action="https://newsletters.cho.sh/subscription/form" className={styles.formContainer}>
       <div>
         <h3 className={styles.subscribeHeader}>Subscribe</h3>
         <p>
-          <input
-            type="email"
-            name="email"
-            required
-            placeholder="Mail"
-            className={styles.emailInput}
-          />
+          <input type="email" name="email" required placeholder="Mail" className={styles.emailInput} />
         </p>
         <p className="mb-4">
           <input
@@ -64,16 +53,11 @@ const NewsletterForm = () => {
           </label>
         </p>
         <p>
-          <input
-            type="submit"
-            value="Subscribe"
-            className={styles.submitButton}
-          />
+          <input type="submit" value="Subscribe" className={styles.submitButton} />
         </p>
       </div>
     </form>
-  );
-};
+  )
+}
 
-
-export default NewsletterForm;
+export default NewsletterForm

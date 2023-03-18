@@ -1004,6 +1004,7 @@ export const filenames = {
     "Riffusion": "AF4344",
     "Roam Research": "B88D74",
     "Ruby": "EC5C58",
+    "Ruffle": "B324D5",
     "Rust": "32FB07",
     "SHAP": "585E5B",
     "SIMD": "CA6D6C",
