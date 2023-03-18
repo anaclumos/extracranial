@@ -2,6 +2,9 @@ name: Send Yesterday's Newsletter
 on:
   schedule:
     - cron: '0 0 * * *'
+  push:
+    branches:
+      - main
 
 jobs:
   send-newsletter:
