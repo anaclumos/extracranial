@@ -13,6 +13,7 @@ import githubIcon from '../../static/img/github-mark-white.png'
 import profile from '../../static/img/profile.jpg'
 
 import { AppleMusicAttrribute, AppleMusicData } from '../AppleMusic/type'
+import NewsletterForm from '../components/NewsletterForm/index'
 
 export const NowPlaying = async (): Promise<AppleMusicData> => {
   const data = await fetch('https://raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json').then(
@@ -43,6 +44,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout title={`${siteConfig.title}`} description={siteConfig.tagline}>
       <main className={styles.mainContainer}>
+        <NewsletterForm />
         <div className={styles.grid}>
           <WidgetItem
             title="Sunghyun"
