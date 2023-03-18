@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9de175af25af5025",
+            "id": "e45f028941f50b08",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/2023-03-18 Newsletter Automation Test.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/2023-03-18 Newsletter Automation Test.md"
+              }
             }
           },
           {
@@ -89,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/2023-03-18 Newsletter Automation Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,10 +127,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9de175af25af5025",
+  "active": "e45f028941f50b08",
   "lastOpenFiles": [
-    "pages/CSS Inject.md",
+    "templates/grind template.md",
+    "templates/journal template.md",
+    "templates/note template.md",
+    "templates/person template.md",
+    "templates/newsletter template.md",
+    "journals/2023-03-18.md",
+    "pages/2023-03-18 뉴스레터 자동화 테스트.md",
+    "pages/2023-03-18 Newsletter Automation Test.md",
     "journals/2023-03-17.md",
+    "pages/Hello.md",
+    "pages/CSS Inject.md",
     "pages/Self-hosted SaaS Alternatives.md",
     "journals/2023-03-06.md",
     "journals/2023-03-05.md",
@@ -138,15 +155,6 @@
     "pages/Wael AbdAlmageed.md",
     "pages/역사의 종말 오류.md",
     "pages/The Newtonian Correspondence.md",
-    "pages/Eventually, Diligent Immatures build the Future.md",
-    "pages/The 30-Day Tweet Test (Harry Stebbings).md",
-    "pages/Seed.md",
-    "pages/미래는 결국 미성숙한 우리가 만들어낸다.md",
-    "pages/Harry Stebbings.md",
-    "pages/The Enduring Question of Cicada.md",
-    "pages/University of Southern California.md",
-    "pages/ARM Architecture.md",
-    "pages/Researcher.md",
     "assets/714B8B.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
     "assets/FC3EFC.jpg",
