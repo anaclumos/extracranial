@@ -19,8 +19,48 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "900e36cdb8ce69e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-18.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "50190288adf01717",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-18.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "314a297410618ab2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Generalist.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-03-18.md"
+                "file": "pages/Generalist.md"
               }
             }
           },
@@ -96,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-03-18.md",
+                "file": "pages/Generalist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -127,11 +167,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e45f028941f50b08",
+  "active": "314a297410618ab2",
   "lastOpenFiles": [
+    "journals/2023-03-18.md",
+    "pages/Generalist.md",
+    "pages/React.md",
+    "pages/Ruffle.md",
+    "pages/Dear AIs, I have a question..md",
     "pages/Untitled.md",
     "pages/2023-03-18 뉴스레터 자동화 테스트.md",
-    "journals/2023-03-18.md",
     "pages/2023-03-18 Newsletter Automation Test.md",
     "templates/grind template.md",
     "templates/journal template.md",
@@ -151,10 +195,6 @@
     "journals/2023-03-12.md",
     "journals/2023-03-13.md",
     "journals/2023-03-16.md",
-    "pages/The End of History Fallacy.md",
-    "pages/Matrix Network.md",
-    "pages/Wael AbdAlmageed.md",
-    "pages/역사의 종말 오류.md",
     "assets/714B8B.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
     "assets/FC3EFC.jpg",
