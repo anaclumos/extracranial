@@ -30,3 +30,4 @@ jobs:
         env:
           NEWSLETTERS_CHO_SH_USERNAME: ${{ secrets.NEWSLETTERS_CHO_SH_USERNAME }}
           NEWSLETTERS_CHO_SH_PASSWORD: ${{ secrets.NEWSLETTERS_CHO_SH_PASSWORD }}
+          RESEND_KEY: ${{ secrets.RESEND_KEY }}
