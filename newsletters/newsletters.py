@@ -24,10 +24,17 @@ CONFIG = {
 }
 
 
+def get_campaigns():
+    """Get all campaigns"""
+    return requests.get(server, auth=(username, password)).json()
+
+
 def create_campaign(title, body, lang="en"):
     """Create a new campaign"""
-    today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
-    return requests.post(
+    tomorrow = (datetime.datetime.utcnow() + datetime.timedelta(days=1)).strftime(
+        "%Y-%m-%d"
+    )
+    res = requests.post(
         server,
         auth=(username, password),
         json={
@@ -38,14 +45,22 @@ def create_campaign(title, body, lang="en"):
             "body": body,
             "altbody": body,
             "lists": [CONFIG[lang]["audience"]],
-            "send_at": today + CONFIG[lang]["time"],
+            "send_at": tomorrow + CONFIG[lang]["time"],
         },
     ).json()
+    requests.put(
+        server + "/" + str(res["data"]["id"]) + "/status",
+        auth=(username, password),
+        json={"status": "scheduled"},
+    )
 
 
 def find_today_newsletters(lang):
     """Find the newsletter for today in the Research folder. All UTC."""
     today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+    today = (datetime.datetime.utcnow() + datetime.timedelta(days=1)).strftime(
+        "%Y-%m-%d"
+    )
     all_md_files = []
     newsletters = []
     for root, _, files in os.walk("./Research/pages"):
@@ -68,11 +83,17 @@ def find_today_newsletters(lang):
 def schedule_newsletter(lang):
     """Schedule the newsletter for today."""
     newsletters = find_today_newsletters(lang)
-    print(newsletters)
     if newsletters:
-        print("Scheduling newsletter for today...")
+        campaigns = get_campaigns()["data"]["results"]
         for title, post in newsletters:
-            create_campaign(title, post, lang)
+            duplicate = False
+            for campaign in campaigns:
+                if title in campaign["name"]:
+                    print("Duplicate...", title)
+                    duplicate = True
+            if not duplicate:
+                print("Scheduling...", title)
+                create_campaign(title, post, lang)
     else:
         print("No newsletter for today.")
 
