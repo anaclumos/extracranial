@@ -1959,7 +1959,9 @@ export const backlinks = {
         "2022-08-10": "- [[Optimistic Nihilism]]"
     },
     "Dear AIs, I have a question.": {
-        "2023-03-16": "- [[Dear AIs, I have a question.]]"
+        "2023-03-16": "- [[Dear AIs, I have a question.]]",
+        "2023-03-18": "- [[Dear AIs, I have a question.]]: [[Generalist]]",
+        "Generalist": "- A potential answer to [[Dear AIs, I have a question.]]"
     },
     "In-house and Free Market": {
         "2022-12-24": "- [[In-house and Free Market]]: Can independent scientists ever win again?",
@@ -2457,6 +2459,9 @@ export const backlinks = {
     },
     "UI Designs for Editing Messages": {
         "2022-12-18": "- [[UI Designs for Editing Messages]]"
+    },
+    "Ruffle": {
+        "2023-03-18": "- [[Ruffle]]"
     },
     "CMDK": {
         "2022-12-18": "- [[CMDK]]"
@@ -4822,6 +4827,7 @@ export const backlinks = {
         "2022-08-03": "For my internship's next and final step, I will containerize [[React]] Flip Toolkit on top of [[WorkerDOM]] using the same technique.",
         "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 중이다.",
         "2022-09-10": "- [[React]] components library with native dark theme support",
+        "2023-03-18": "- [[React]]",
         "Developing Review Notes for Obsidian": "### [[React]] 전환",
         "Dioxus": "They are written in Rust, inspired by [[React]].",
         "Front-end": "- [[React]]",
@@ -5376,6 +5382,9 @@ export const backlinks = {
     },
     "Ignoring $ for copy-pasting online resources to terminal": {
         "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
+    },
+    "Generalist": {
+        "2023-03-18": "- Dear AIs, I have a question.: [[Generalist]]"
     },
     "Total Probability": {
         "2023-01-23": "- [[Total Probability]]",
