@@ -44,7 +44,6 @@ export default function Home(): JSX.Element {
   return (
     <Layout title={`${siteConfig.title}`} description={siteConfig.tagline}>
       <main className={styles.mainContainer}>
-        <NewsletterForm />
         <div className={styles.grid}>
           <WidgetItem
             title="Sunghyun"
