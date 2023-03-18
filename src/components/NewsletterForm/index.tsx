@@ -1,13 +1,14 @@
-import React from 'react';
-
-import styles from './index.module.css'
+import React, { useMemo } from 'react';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import styles from './NewsletterForm.module.css'
 // @ts-ignore
-const { i18n } = useDocusaurusContext()
 
 const NewsletterForm = () => {
 
-  const isEnglishLocale = i18n.currentLocale.startsWith('en');
-  const isKoreanLocale = i18n.currentLocale.startsWith('ko');
+  const { i18n } = useDocusaurusContext()
+
+  const [isKoreanLocale, setIsKoreanLocale] = React.useState(i18n.currentLocale.startsWith('ko'))
+  const [isEnglishLocale, setIsEnglishLocale] = React.useState(i18n.currentLocale.startsWith('en'))
 
   return (
     <form
@@ -22,7 +23,7 @@ const NewsletterForm = () => {
             type="email"
             name="email"
             required
-            placeholder="E-mail"
+            placeholder="Mail"
             className={styles.emailInput}
           />
         </p>
@@ -33,7 +34,10 @@ const NewsletterForm = () => {
             name="l"
             value="ed372c11-9f49-4d41-aecf-d8893bf48996"
             className={styles.checkbox}
-            checked={isKoreanLocale || (!isEnglishLocale && !isKoreanLocale)}
+            checked={isKoreanLocale}
+            onChange={() => {
+              setIsKoreanLocale(!isKoreanLocale)
+            }}
           />
           <label htmlFor="ed372" className={styles.checkboxLabel}>
             한국어 (ko-KR)
@@ -49,6 +53,9 @@ const NewsletterForm = () => {
             value="5ebfb430-82b5-47b8-b74b-c7b7d17bb97b"
             className={styles.checkbox}
             checked={isEnglishLocale}
+            onChange={() => {
+              setIsEnglishLocale(!isEnglishLocale)
+            }}
           />
           <label htmlFor="5ebfb" className={styles.checkboxLabel}>
             English (en-US)
