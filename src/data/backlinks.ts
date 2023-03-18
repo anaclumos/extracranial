@@ -1107,6 +1107,9 @@ export const backlinks = {
     "HQ Proximity": {
         "2023-01-13": "- [[HQ Proximity]]"
     },
+    "2023-03-18 Newsletter Automation Test": {
+        "2023-03-18": "- [[2023-03-18 Newsletter Automation Test]]"
+    },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
         "Simple Analytics": "> The privacy-first [[Google Analytics]] alternative. Simple Analytics",
@@ -2333,6 +2336,9 @@ export const backlinks = {
     "Frames Per Second": {
         "2022-10-10": "... 23.976 and not 24 fps?? - AC's & DIT's - Cinematography.com. [[Frames Per Second]].",
         "Graphics Engine Process": "...   - Limit Updating Frequency to 16ms, which yields 60 [[Frames Per Second]]."
+    },
+    "2023-03-18 뉴스레터 자동화 테스트": {
+        "2023-03-18": "- [[2023-03-18 뉴스레터 자동화 테스트]]"
     },
     "Canary Trap": {
         "2022-10-18": "- [[Canary Trap]]"
