@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "342e0cbf90e2746a",
+        "id": "b64a4deb1229334f",
         "type": "tabs",
         "children": [
           {
-            "id": "e45f028941f50b08",
+            "id": "c30a31b0b488e437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-03-18.md",
+                "file": "journals/2023-03-19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,38 +21,12 @@
             }
           },
           {
-            "id": "900e36cdb8ce69e0",
+            "id": "31694bcedcce981e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-03-18.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "50190288adf01717",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-18.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "314a297410618ab2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Generalist.md",
+                "file": "journals/2023-03-19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -60,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Generalist.md"
+                "file": "journals/2023-03-19.md"
               }
             }
           },
@@ -136,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Generalist.md",
+                "file": "journals/2023-03-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 434.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,9 +142,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "314a297410618ab2",
+  "active": "31694bcedcce981e",
   "lastOpenFiles": [
+    "pages/9-min Snooze of Alarm Clocks.md",
+    "pages/The Newtonian Correspondence.md",
+    "journals/2023-03-19.md",
+    "pages/Z-Fellows.md",
+    "assets/145F1C.png",
+    "assets/B8943C.png",
+    "assets/898E88.png",
+    "pages/Seed.md",
+    "pages/Internet Computer.md",
+    "pages/Super App.md",
+    "pages/Mini App.md",
+    "pages/Supergravity Products.md",
+    "pages/알람 시계의 9분 스누즈.md",
+    "pages/글감.md",
     "journals/2023-03-18.md",
+    "pages/Neo.md",
+    "assets/25771A.png",
     "pages/Generalist.md",
     "pages/React.md",
     "pages/Ruffle.md",
@@ -183,18 +174,6 @@
     "templates/person template.md",
     "templates/newsletter template.md",
     "journals/2023-03-17.md",
-    "pages/Hello.md",
-    "pages/CSS Inject.md",
-    "pages/Self-hosted SaaS Alternatives.md",
-    "journals/2023-03-06.md",
-    "journals/2023-03-05.md",
-    "journals/2023-03-07.md",
-    "journals/2023-03-08.md",
-    "journals/2023-03-10.md",
-    "journals/2023-03-11.md",
-    "journals/2023-03-12.md",
-    "journals/2023-03-13.md",
-    "journals/2023-03-16.md",
     "assets/714B8B.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
     "assets/FC3EFC.jpg",
@@ -202,10 +181,6 @@
     "assets/BF4114.jpg",
     "assets/44AE47.jpg",
     "assets/B060EA.png",
-    "assets/4DF74F.png",
-    "assets/4BF876.png",
-    "assets/CCF7CC.png",
-    "assets/6A55AE.png",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S"
   ]
 }
