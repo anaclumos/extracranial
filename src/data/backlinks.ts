@@ -275,6 +275,9 @@ export const backlinks = {
         "0876 Middle of the Linked List": "Solved at: [[2023-01-29]]",
         "Aldehyde Outage (January 2023)": "## [[2023-01-29]]"
     },
+    "2023-03-19": {
+        "Z-Fellows": "... Had an interview with Z-Fellows with The One and Only on [[2023-03-19]]"
+    },
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
@@ -1324,6 +1327,10 @@ export const backlinks = {
         "2022-08-01": "- [[서울 프로]]",
         "Pretendard의 아쉬운 점": "이는 자세하게 확인하지 못했으나 [[서울 프로]]를 개발할 때 알아보고 고려하려고 했던 문제이다."
     },
+    "9-min Snooze of Alarm Clocks": {
+        "2023-03-19": "- [[9-min Snooze of Alarm Clocks]]",
+        "The Newtonian Correspondence": "| 03-19 | `EN` [[9-min Snooze of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 스누즈]] | Tweet <br/> Linkedin  ..."
+    },
     "드디어, 한국 애플페이": {
         "2023-02-04": "- [[드디어, 한국 애플페이]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-04 | 🇬🇧 Finally, Apple Pay in Korea <br/> 🇰🇷 [[드디어, 한국 애플페이]]            ..."
@@ -1380,7 +1387,7 @@ export const backlinks = {
     },
     "역사의 종말 오류": {
         "2023-03-16": "- [[역사의 종말 오류]]",
-        "The Newtonian Correspondence": "| 03-16 | 🇬🇧 The End of History Fallacy <br/> 🇰🇷 [[역사의 종말 오류]] | Tweet | Post | Post |"
+        "The Newtonian Correspondence": "| 03-16 | `EN` The End of History Fallacy <br/> `KO` [[역사의 종말 오류]]         | Tweet <br/> ..."
     },
     "Data Science": {
         "2022-12-28": "- Facebook Notifications [[Data Science]] team at Meta",
@@ -2073,7 +2080,7 @@ export const backlinks = {
     "University of Southern California": {
         "2023-03-16": "- [[University of Southern California]]",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... am Sunghyun Cho. I am a current CS university student at [[University of Southern California|USC]].",
-        "Seed": "I am Sunghyun Cho, a B.S. student in computer science at [[University of Southern California|USC]], graduating on 05/2024. My primary interests are Computational Linguistics and organizing ...",
+        "Seed": "... am Sunghyun Cho, a B.S. student in computer science at the [[University of Southern California|USC]], graduating on 05/2024. My primary interests are Computational Linguistics and organizing ...",
         "Wael AbdAlmageed": "- Researcher at [[University of Southern California]]"
     },
     "Entropy": {
@@ -2241,7 +2248,8 @@ export const backlinks = {
         "Search AI": "... and write code for you. I'm powered by AI|artificial intelligence and [[natural language processing]], allowing you to have human-like conversations with me. I am constantly ..."
     },
     "Internet Computer": {
-        "2023-03-06": "- [[Internet Computer]]"
+        "2023-03-06": "- [[Internet Computer]]",
+        "2023-03-19": "- [[Internet Computer]]"
     },
     "R=VD and Generative AIs": {
         "글감": "- [[R=VD and Generative AIs]]"
@@ -3311,7 +3319,7 @@ export const backlinks = {
         "USDZ": "> Universal Scene Description (USD) is a framework for interchange [[3D]] computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, ...",
         "USDZ vs glTF": "USDZ and glTF are two [[3D]] file formats used for different purposes. USDZ is a subset of ...",
         "glTF": "... open standard developed and maintained by the Khronos Group; it supports [[3D]] model geometry, appearance, scene graph hierarchy, and animation. It is intended ...",
-        "젠리의 성공 공식": "2020년 코로나 집콕 챌린지부터 2022년 대규모 [[3D]] 지도 업데이트까지 미래를 준비했지만 최근 Snap의 대규모 정리해고에 Snap Mini App과 ...",
+        "젠리의 성공 공식": "2020년 코로나 집콕 챌린지부터 2022년 대규모 [[3D]] 지도 업데이트까지 미래를 준비했지만 최근 Snap의 대규모 정리해고에 Snap [[Mini App]]과 ...",
         "혜성처럼 나타난 본디": "[[3D]] 캐릭터를 만들 수 있고 자신의 방을 꾸밀 수 있다."
     },
     "JavaScript": {
@@ -3396,7 +3404,9 @@ export const backlinks = {
         "2023-02-04": "- [[글감]]",
         "2023-02-07": "- [[글감]]",
         "2023-02-21": "- [[글감]]",
-        "2023-03-01": "- [[글감]]"
+        "2023-03-01": "- [[글감]]",
+        "2023-03-18": "- [[글감]]",
+        "2023-03-19": "- [[글감]]"
     },
     "국내 은행 서비스가 나쁜 이유": {
         "2023-02-20": "- [[국내 은행 서비스가 나쁜 이유]]",
@@ -3996,6 +4006,10 @@ export const backlinks = {
         "Locking your Mac with Command+L": "2. Go to Keyboard → [[Shortcuts]] → App Shortcuts and press + at the bottom.",
         "Visual Studio Code": "... code refactoring, and embedded Git. Users can change the theme, keyboard [[shortcuts]], preferences, and install extensions that add additional functionality. Visual Studio Code"
     },
+    "알람 시계의 9분 스누즈": {
+        "2023-03-19": "- [[알람 시계의 9분 스누즈]]",
+        "The Newtonian Correspondence": "| 03-19 | `EN` 9-min Snooze of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]] | Tweet <br/> Linkedin        ..."
+    },
     "Search-based Tools for Thought": {
         "Tools for Thought": "- [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature ..."
     },
@@ -4032,7 +4046,8 @@ export const backlinks = {
         "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]"
     },
     "The Newtonian Correspondence": {
-        "2023-03-16": "- [[The Newtonian Correspondence]]"
+        "2023-03-16": "- [[The Newtonian Correspondence]]",
+        "2023-03-19": "- [[The Newtonian Correspondence]]"
     },
     "Product-Market Fit": {
         "2022-06-06": "... and startups have little or no tests. When struggling to find [[Product-Market Fit]] or fighting for survival, many companies need to test early on. ...",
@@ -4623,7 +4638,8 @@ export const backlinks = {
         "졸업을 앞둔 중학교 3학년들에게": "2016-12-08에 게재된 [[재학생일기]]이다."
     },
     "The One and Only": {
-        "2023-02-15": "- [[The One and Only]]"
+        "2023-02-15": "- [[The One and Only]]",
+        "Z-Fellows": "- Had an interview with Z-Fellows with [[The One and Only]] on [[2023-03-19]]"
     },
     "elevatorpitch.com": {
         "2022-12-20": "- [[elevatorpitch.com]]"
@@ -4764,6 +4780,14 @@ export const backlinks = {
     "기숙사 생활과 방 배정": {
         "2016-11-11": "- [[기숙사 생활과 방 배정]]",
         "2016-11-15": "- [[기숙사 생활과 방 배정]]"
+    },
+    "Mini App": {
+        "2022-06-14": "- [[Mini App|미니앱]] 시스템을 만들기 위해서는 부가적으로 패키징, 로케이팅 등을 고려해야 한다.",
+        "2023-03-19": "- [[Mini App]]",
+        "Brane": "- It may be worthwhile to implement the [[Mini App]] white paper. However, the white paper compromised the security model and ...",
+        "Internet Computer": "- Strong ties to Super App [[Mini App]]",
+        "The Zenly Playbook": "... layoff at Snap wiped out the Zenly team alongside the Snap [[Mini App]] team. I do think this is Snap's mistake. Even my university ...",
+        "젠리의 성공 공식": "... 대규모 3D 지도 업데이트까지 미래를 준비했지만 최근 Snap의 대규모 정리해고에 Snap [[Mini App]]과 함께 젠리 팀 또한 해산되었다. 나는 스냅의 큰 실수라고 생각한다. [[United ..."
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
@@ -5218,6 +5242,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0003 Longest Substring Without Repeating Characters]]"
     },
     "Z-Fellows": {
+        "2023-03-19": "## [[Z-Fellows]]",
         "The One and Only": "## [[Z-Fellows]]"
     },
     "Cloudflare": {
@@ -6054,7 +6079,7 @@ export const backlinks = {
     },
     "The End of History Fallacy": {
         "2023-03-16": "- [[The End of History Fallacy]]",
-        "The Newtonian Correspondence": "| 03-16 | 🇬🇧 [[The End of History Fallacy]] <br/> 🇰🇷 [[역사의 종말 오류]] | Tweet | Post | Post ..."
+        "The Newtonian Correspondence": "| 03-16 | `EN` [[The End of History Fallacy]] <br/> `KO` [[역사의 종말 오류]]       ..."
     },
     "AGPL": {
         "dub.sh": "  - [[AGPL]]"
@@ -6350,8 +6375,10 @@ export const backlinks = {
     "Super App": {
         "2022-12-09": "- [[Super App]]",
         "Brane": "... aims to democratize these privileges from mega-corporates creating Web Browser|browsers to [[Super App]] developers, who are much smaller in scale.",
+        "Internet Computer": "- Strong ties to [[Super App]] [[Mini App]]",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... weeks. But before that, he hinted at his desire for a [[Super App]]. What concerns me more is the \"Super App\" that Musk wanted ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... Letter to Mr. Matt Rickard on 2022-12-24, the conditions for a [[Super App]] in the [[United States of America|United States]] are vague. [[Apple]] and ...",
+        "Mini App": "... a lightweight, simplified application that runs within a more extensive, comprehensive [[Super App]]. Mini Apps are designed to offer specific features or services without ...",
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
         "Supergravity Products": "  - 작은 아이디어 (금융 [[Super App|슈퍼 앱]] x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Texts": "Potential [[Super App]] for the [[United States of America|United States]]. [[Mental Simulation of Firefox ...",
@@ -6685,6 +6712,16 @@ export const backlinks = {
     "17D859.png": {
         "2022-08-04": "![[17D859.png]]"
     },
+    "145F1C.png": {
+        "2023-03-19": "![[145F1C.png]]",
+        "Z-Fellows": "![[145F1C.png]]"
+    },
+    "898E88.png": {
+        "2023-03-19": "![[898E88.png]]"
+    },
+    "B8943C.png": {
+        "2023-03-19": "![[B8943C.png]]"
+    },
     "356 Official SSH Server": {
         "2022-08-25": "- [[356 Official SSH Server]]"
     },
@@ -6992,6 +7029,10 @@ export const backlinks = {
     },
     "6E5C4F.png": {
         "Web Graphics": "![[6E5C4F.png]]"
+    },
+    "25771A.png": {
+        "9-min Snooze of Alarm Clocks": "![[25771A.png]]",
+        "알람 시계의 9분 스누즈": "![[25771A.png]]"
     },
     "4FA1C6.png": {
         "Font Features": "![[4FA1C6.png]]"
