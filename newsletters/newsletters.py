@@ -20,10 +20,12 @@ CONFIG = {
     "ko": {
         "audience": 3,
         "time": "T01:00:00Z",  # 10 AM KST
+        "Read More": "cho.sh에서 원본 읽기",
     },
     "en": {
         "audience": 4,
         "time": "T17:00:00Z",  # 10 AM LA time, 1 PM NYC time, 5 PM London time
+        "Read More": "Read the original text on cho.sh",
     },
 }
 
@@ -80,8 +82,14 @@ def find_today_newsletters(lang):
             and post["lang"] == lang
         ):
             title = ".".join(md_file.split("/")[-1].split(".")[:-1])
-            newsletters.append((title, post.content))
+            content = process_content(post.content, post["slug"], lang)
+            newsletters.append((title, content))
     return newsletters
+
+
+def process_content(body, slug, lang):
+    body += f"\n\n[{CONFIG[lang]['Read More']}](https://cho.sh/{lang if lang != 'en' else ''}/research/{slug})"
+    return body
 
 
 def collect_device_info():

@@ -9,7 +9,12 @@ slug: '/46508E'
 - [Adding a social layer across the web](https://www.charliegedeon.com/adding-a-social-layer-across-the-web/)
 - [Parallelz raises $3M to instantly run any mobile app or game in a browser without quality loss or changes | VentureBeat](https://venturebeat.com/games/parallelz-raises-3m-to-instantly-run-any-mobile-app-or-game-in-a-browser-without-quality-loss-or-changes/)
 - [Arc web browser review: a new way of using the internet - The Verge](https://www.theverge.com/23462235/arc-web-browser-review)
+- [Everything is a Browser](https://matt-rickard.com/everything-is-a-browser)
 - [Internet Computer](https://internetcomputer.org/)
+- [Build for a new era of mobile commerce](https://shop.app/minis/)
+- Strong ties to [[Super App]] [[Mini App]]
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We need a new mobile OS that's web-only.</p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/1595864501437583367?ref_src=twsrc%5Etfw">November 24, 2022</a></blockquote>
 
 import YouTube from '@site/src/components/YouTube'
 
