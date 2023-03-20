@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b64a4deb1229334f",
+        "id": "0dc3ae2321d89b86",
         "type": "tabs",
         "children": [
           {
-            "id": "c30a31b0b488e437",
+            "id": "12a75d0ad8dcb848",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-19.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "31694bcedcce981e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-19.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-03-19.md"
-              }
+              "state": {}
             }
           },
           {
@@ -110,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-03-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,11 +120,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "31694bcedcce981e",
+  "active": "12a75d0ad8dcb848",
   "lastOpenFiles": [
-    "pages/9-min Snooze of Alarm Clocks.md",
-    "pages/The Newtonian Correspondence.md",
     "journals/2023-03-19.md",
+    "pages/Snooze Time of Alarm Clocks.md",
+    "pages/알람 시계의 9분 스누즈.md",
+    "pages/Domain Search Tools.md",
+    "pages/The Newtonian Correspondence.md",
     "pages/Z-Fellows.md",
     "assets/145F1C.png",
     "assets/B8943C.png",
@@ -156,7 +136,6 @@
     "pages/Super App.md",
     "pages/Mini App.md",
     "pages/Supergravity Products.md",
-    "pages/알람 시계의 9분 스누즈.md",
     "pages/글감.md",
     "journals/2023-03-18.md",
     "pages/Neo.md",
@@ -173,7 +152,6 @@
     "templates/note template.md",
     "templates/person template.md",
     "templates/newsletter template.md",
-    "journals/2023-03-17.md",
     "assets/714B8B.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
     "assets/FC3EFC.jpg",
