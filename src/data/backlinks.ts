@@ -1327,10 +1327,6 @@ export const backlinks = {
         "2022-08-01": "- [[서울 프로]]",
         "Pretendard의 아쉬운 점": "이는 자세하게 확인하지 못했으나 [[서울 프로]]를 개발할 때 알아보고 고려하려고 했던 문제이다."
     },
-    "9-min Snooze of Alarm Clocks": {
-        "2023-03-19": "- [[9-min Snooze of Alarm Clocks]]",
-        "The Newtonian Correspondence": "| 03-19 | `EN` [[9-min Snooze of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 스누즈]] | Tweet <br/> Linkedin  ..."
-    },
     "드디어, 한국 애플페이": {
         "2023-02-04": "- [[드디어, 한국 애플페이]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-04 | 🇬🇧 Finally, Apple Pay in Korea <br/> 🇰🇷 [[드디어, 한국 애플페이]]            ..."
@@ -1387,7 +1383,7 @@ export const backlinks = {
     },
     "역사의 종말 오류": {
         "2023-03-16": "- [[역사의 종말 오류]]",
-        "The Newtonian Correspondence": "| 03-16 | `EN` The End of History Fallacy <br/> `KO` [[역사의 종말 오류]]         | Tweet <br/> ..."
+        "The Newtonian Correspondence": "| 03-16 | `EN` The End of History Fallacy <br/> `KO` [[역사의 종말 오류]]        | Tweet <br/> Linkedin ..."
     },
     "Data Science": {
         "2022-12-28": "- Facebook Notifications [[Data Science]] team at Meta",
@@ -3758,6 +3754,10 @@ export const backlinks = {
         "2022-09-13": "- [[Person CC8297]]",
         "Project PEOPLE": "- [[Person CC8297]]"
     },
+    "Snooze Time of Alarm Clocks": {
+        "2023-03-19": "- [[Snooze Time of Alarm Clocks]]",
+        "The Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 스누즈]] | Tweet <br/> Linkedin  ..."
+    },
     "Club Penguin": {
         "The Sudden Rise of Bondee": "... create a 3d character and design rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in a modern messenger form. It is ..."
     },
@@ -4008,7 +4008,7 @@ export const backlinks = {
     },
     "알람 시계의 9분 스누즈": {
         "2023-03-19": "- [[알람 시계의 9분 스누즈]]",
-        "The Newtonian Correspondence": "| 03-19 | `EN` 9-min Snooze of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]] | Tweet <br/> Linkedin        ..."
+        "The Newtonian Correspondence": "| 03-19 | `EN` Snooze Time of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]] | Tweet <br/> Linkedin        ..."
     },
     "Search-based Tools for Thought": {
         "Tools for Thought": "- [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature ..."
@@ -7030,10 +7030,6 @@ export const backlinks = {
     "6E5C4F.png": {
         "Web Graphics": "![[6E5C4F.png]]"
     },
-    "25771A.png": {
-        "9-min Snooze of Alarm Clocks": "![[25771A.png]]",
-        "알람 시계의 9분 스누즈": "![[25771A.png]]"
-    },
     "4FA1C6.png": {
         "Font Features": "![[4FA1C6.png]]"
     },
@@ -7468,6 +7464,10 @@ export const backlinks = {
     },
     "669578.png": {
         "프로젝트 어덕행덕": "![[669578.png]]"
+    },
+    "25771A.png": {
+        "Snooze Time of Alarm Clocks": "![[25771A.png]]",
+        "알람 시계의 9분 스누즈": "![[25771A.png]]"
     },
     "29C0E6.png": {
         "Club Penguin": "![[29C0E6.png]]"
