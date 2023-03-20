@@ -67,6 +67,9 @@ def find_today_newsletters(lang):
     tomorrow = (datetime.datetime.utcnow() + datetime.timedelta(days=1)).strftime(
         "%Y-%m-%d"
     )
+    yesterday = (datetime.datetime.utcnow() - datetime.timedelta(days=1)).strftime(
+        "%Y-%m-%d"
+    )
     all_md_files = []
     newsletters = []
     for root, _, files in os.walk("./Research/pages"):
@@ -78,7 +81,11 @@ def find_today_newsletters(lang):
             post = frontmatter.load(f)
         if (
             "newsletter" in post.keys()
-            and (post["newsletter"] == today or post["newsletter"] == tomorrow)
+            and (
+                post["newsletter"] == today
+                or post["newsletter"] == tomorrow
+                or post["newsletter"] == yesterday
+            )
             and post["lang"] == lang
         ):
             title = ".".join(md_file.split("/")[-1].split(".")[:-1])
