@@ -23,11 +23,11 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1407     37976     9724         0    28252          0
+Markdown                  1411     38032     9737         0    28295          0
 CSS                         73     20571      511        41    20019          0
-TypeScript                  60     12195      172        64    11959        211
+TypeScript                  60     12206      172        64    11970        211
 JSON                        42      2187        0         0     2187          0
-Python                       8       933       58        43      832        109
+Python                       8       940       58        43      839        109
 SVG                          7         7        0         0        7          0
 YAML                         7        63        3         0       60          0
 JavaScript                   5     26577      388      4877    21312        837
@@ -36,13 +36,13 @@ TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       286       69        69      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1616    100913    10943      5098    84872       1157
+Total                     1620    100987    10956      5098    84933       1157
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,862,845
-Estimated Schedule Effort (organic) 20.51 months
-Estimated People Required (organic) 12.40
+Estimated Cost to Develop (organic) $2,865,006
+Estimated Schedule Effort (organic) 20.52 months
+Estimated People Required (organic) 12.41
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6945131 bytes, 6.945 megabytes (SI)
+Processed 6948417 bytes, 6.948 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

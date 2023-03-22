@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0dc3ae2321d89b86",
+        "id": "fdfe49c1f6ee1266",
         "type": "tabs",
         "children": [
           {
-            "id": "12a75d0ad8dcb848",
+            "id": "a22399343f8d7a45",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -120,11 +120,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "12a75d0ad8dcb848",
+  "active": "a22399343f8d7a45",
   "lastOpenFiles": [
+    "journals/2023-03-20.md",
+    "journals/2023-03-21.md",
+    "pages/prettierrc.md",
+    "pages/Bitwarden.md",
+    "pages/Product Skills.md",
+    "pages/알람 시계의 9분 스누즈.md",
     "journals/2023-03-19.md",
     "pages/Snooze Time of Alarm Clocks.md",
-    "pages/알람 시계의 9분 스누즈.md",
     "pages/Domain Search Tools.md",
     "pages/The Newtonian Correspondence.md",
     "pages/Z-Fellows.md",
@@ -147,11 +152,6 @@
     "pages/Untitled.md",
     "pages/2023-03-18 뉴스레터 자동화 테스트.md",
     "pages/2023-03-18 Newsletter Automation Test.md",
-    "templates/grind template.md",
-    "templates/journal template.md",
-    "templates/note template.md",
-    "templates/person template.md",
-    "templates/newsletter template.md",
     "assets/714B8B.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
     "assets/FC3EFC.jpg",
