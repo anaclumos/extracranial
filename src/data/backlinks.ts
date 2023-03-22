@@ -3166,6 +3166,9 @@ export const backlinks = {
         "PKM": "... grow into a creative garage | Focuses on creating and tending [[Evergreen notes]] posts that grow into a knowledge base |",
         "Transient Notes": "- Antonym: [[Evergreen notes]]"
     },
+    "Product Skills": {
+        "2023-03-20": "- [[Product Skills]]"
+    },
     "IRS": {
         "Screenshot as an API": "- The \"killer app\" for PDF was tax returns - the [[IRS]] adopted PDF in 1996 because of a rumored frustration with the ..."
     },
@@ -5024,6 +5027,9 @@ export const backlinks = {
         "2023-02-18": "- [[Apple-like Block Interface]]",
         "Aldehyde Landing Page 2023": "- [[Apple-like Block Interface]]"
     },
+    "prettierrc": {
+        "2023-03-21": "- [[prettierrc]]"
+    },
     "Toss Product Sans": {
         "2022-10-14": "- [[Toss Product Sans]]",
         "2022-12-06": "- [[Toss Product Sans]]",
@@ -5910,6 +5916,7 @@ export const backlinks = {
         "2023-02-08": "## [[Hacker News]]",
         "2023-03-06": "## [[Hacker News|HN]]",
         "2023-03-10": "## [[Hacker News|HN]]",
+        "2023-03-20": "## [[Hacker News|HN]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing [[Mail|email]] server.",
         "Jumpsite": "## [[Hacker News]]",
