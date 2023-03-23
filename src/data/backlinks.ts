@@ -1693,6 +1693,9 @@ export const backlinks = {
         "2022-10-07": "- [[eBPF]]",
         "Matt Rickard": "- [[eBPF]]"
     },
+    "CS Colloquium": {
+        "DNS": "- USC [[CS Colloquium]]"
+    },
     "Centering": {
         "2022-09-17": "  - [[Centering]]",
         "2022-11-30": "- [[Centering]]",
@@ -2075,6 +2078,7 @@ export const backlinks = {
     },
     "University of Southern California": {
         "2023-03-16": "- [[University of Southern California]]",
+        "CS Colloquium": "CS Colloquium at [[University of Southern California|USC]]",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... am Sunghyun Cho. I am a current CS university student at [[University of Southern California|USC]].",
         "Seed": "... am Sunghyun Cho, a B.S. student in computer science at the [[University of Southern California|USC]], graduating on 05/2024. My primary interests are Computational Linguistics and organizing ...",
         "Wael AbdAlmageed": "- Researcher at [[University of Southern California]]"
@@ -2240,6 +2244,7 @@ export const backlinks = {
         "AI-native": "... They also use cloud-based tools such as ML|machine learning (ML) frameworks, [[natural language processing]] ([[Natural Language Processing|NLP]]) services, and computer vision APIs to develop and ...",
         "Bing": "... mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a [[natural language processing]] tool driven by [[AI]] technology that allows you to have human-like ...",
         "Computational Linguistics": "... language. It involves applying computational methods to language study, including developing [[Natural Language Processing]] ([[Natural Language Processing|NLP]]) technologies, machine translation, speech recognition, and text analysis.",
+        "Grammarly AI-NLP Club": "AI [[Natural Language Processing|NLP]] Club at [[Grammarly]].",
         "Hugging Face": "... learning. It is most notable for its Transformers library built for [[natural language processing]] applications and its platform that allows users to share ML|machine learning ...",
         "Search AI": "... and write code for you. I'm powered by AI|artificial intelligence and [[natural language processing]], allowing you to have human-like conversations with me. I am constantly ..."
     },
@@ -2729,6 +2734,7 @@ export const backlinks = {
         "2023-02-11": "## [[Project]]",
         "2023-02-22": "## [[Project]]",
         "2023-03-06": "- [[Project]]",
+        "2023-03-22": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. [[Google]] created it as a competitor to Facebook Instant Articles and ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you must",
@@ -4180,6 +4186,7 @@ export const backlinks = {
         "iiframe": "Someday Project. Improved `iframe` that containerizes an embedded web inside [[Web Worker]]."
     },
     "DNS": {
+        "2023-03-23": "- [[DNS]]",
         "Internetworking": "- [[DNS]]"
     },
     "Deadlock": {
@@ -4457,6 +4464,7 @@ export const backlinks = {
     },
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
+        "Grammarly AI-NLP Club": "AI Natural Language Processing|NLP Club at [[Grammarly]].",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
         "Real Interviews": "- Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
         "기술 발전의 속도": "그래서 [[Grammarly]] 등의 텍스트 [[AI|인공지능]] 회사에 열심히 지원했고."
@@ -4613,6 +4621,9 @@ export const backlinks = {
         "2023-02-12": "- [[The Sudden Rise of Bondee]]",
         "Did Bondee Really Suddenly Rise": "Yesterday, we took a closer look into Bondee: [[The Sudden Rise of Bondee]]. But did it suddenly rise?",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-12 | 🇬🇧 [[The Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]]       ..."
+    },
+    "Grammarly AI-NLP Club": {
+        "2023-03-23": "- Attended [[Grammarly AI-NLP Club]]."
     },
     "Karrot NX Team Mission Statement": {
         "2023-02-08": "- [[Karrot NX Team Mission Statement]]"
@@ -5917,6 +5928,7 @@ export const backlinks = {
         "2023-03-06": "## [[Hacker News|HN]]",
         "2023-03-10": "## [[Hacker News|HN]]",
         "2023-03-20": "## [[Hacker News|HN]]",
+        "2023-03-22": "## [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing [[Mail|email]] server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -6421,6 +6433,7 @@ export const backlinks = {
         "Generative Databases": "... the world of Generative AIs, can we think Database as Gen [[AI]] models instead of key-value storages?",
         "Geohot Twitter Mayhem": "... also known as Geohot, is a famous hacker and founder of Comma.[[ai]]. Elon Musk hired him to work on Twitter to improve its ...",
         "Google": "... engine technology, online advertising, cloud computing, computer software, quantum computing, e-commerce, [[AI|artificial intelligence]], and consumer electronics. It has been referred to as the \"most ...",
+        "Grammarly AI-NLP Club": "[[AI]] [[Natural Language Processing|NLP]] Club at [[Grammarly]].",
         "Imagining WebNPU API": "... local, fast, and secure—no need to install an app for an [[AI]] to be tailored to their specific preferences and behavior. Visiting a ...",
         "In-house and Free Market": "... wasn't necessarily bad, I was surprised by the recent boom in [[AI]]/CS. Despite the limitations, I [[antifragily]] developed my unique style.",
         "Intellisense for Knowledge Management": "- More like Notion AI? What if Notion [[AI]] got super powerful, giving insight into your written documents?",
@@ -7620,6 +7633,18 @@ export const backlinks = {
     },
     "B8FECA.png": {
         "sem.sh": "  - ![[B8FECA.png]]"
+    },
+    "21BCA4.png": {
+        "Grammarly AI-NLP Club": "![[21BCA4.png]]"
+    },
+    "3F79CC.png": {
+        "Grammarly AI-NLP Club": "![[3F79CC.png]]"
+    },
+    "9EEB88.png": {
+        "Grammarly AI-NLP Club": "![[9EEB88.png]]"
+    },
+    "6C0C3A.png": {
+        "Grammarly AI-NLP Club": "![[6C0C3A.png]]"
     },
     "C3DD64.png": {
         "Knoah AI": "![[C3DD64.png]]"
