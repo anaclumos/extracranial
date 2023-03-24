@@ -11,7 +11,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 I feel like it's too late to write a review in 2021 when I finished the program in August 2020, but since the [4th selection](https://www.woowahan.com/#/recruit/TechCamp) is underway, I feel like if I don't post it now, I will never publish it. Therefore, most of the information released on the Internet will be brief, and I will focus on the things I was curious about when I applied.
 
-**Woowa TechCamp is a program for aspiring programmers to intern for the summer at Woowa Brothers, a tech unicorn company that operates **배달의민족\*\*, like Uber Eats in Korea, to study development and programming in the industry. The number of interns is 30, and the competition ratio is approximately 43 to 1.
+Woowa TechCamp is a program for aspiring programmers to intern for the summer at Woowa Brothers, a tech unicorn company that operates **배달의민족**, like Uber Eats in Korea, to study development and programming in the industry. The number of interns is 30, and the competition ratio is approximately 43 to 1.
 
 <figure>
 
