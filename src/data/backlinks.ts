@@ -619,7 +619,8 @@ export const backlinks = {
         "Universal Identity": "- Super App accounts can be another. See [[Super App and Democracy]]."
     },
     "Redirecting READMEs": {
-        "2022-10-21": "- [[Redirecting READMEs]]"
+        "2022-10-21": "- [[Redirecting READMEs]]",
+        "2023-03-24": "- [[Redirecting READMEs]]"
     },
     "TCP vs UDP": {
         "Internet Protocol Stack": "- Transport. TCP. UDP. [[TCP vs UDP]]. Handles Segments.",
@@ -1140,7 +1141,7 @@ export const backlinks = {
     },
     "How does File Alias work": {
         "2022-10-21": "- [[How does File Alias work]]",
-        "Redirecting READMEs": "- [[How does File Alias work]]"
+        "Redirecting READMEs": "Lesser Known Trick. It's a symlink. [[How does File Alias work]]?"
     },
     "ULLO": {
         "2022-08-04": "- Intermediary Proof of Concept|PoC Product: [[ULLO]]",
@@ -1700,6 +1701,9 @@ export const backlinks = {
         "2022-09-17": "  - [[Centering]]",
         "2022-11-30": "- [[Centering]]",
         "Android": "- [[Centering]]"
+    },
+    "hn.cho.sh": {
+        "2023-03-24": "- [[hn.cho.sh]]"
     },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
@@ -4425,7 +4429,7 @@ export const backlinks = {
         "Adding a Verified Mark on Apple Mail & Gmail": "- [[Lesser Known Trick]]",
         "Ignoring $ for copy-pasting online resources to terminal": "[[Lesser Known Trick]].",
         "Menu Hover Effects": "- Cool UIUX [[Lesser Known Trick]].",
-        "Redirecting READMEs": "[[Lesser Known Trick]]. Just make an alias for the file.",
+        "Redirecting READMEs": "[[Lesser Known Trick]]. It's a symlink. [[How does File Alias work]]?",
         "Setting different images for Light & Dark mode": "[[Lesser Known Trick]]",
         "Sudo with Touch ID": "[[Lesser Known Trick]]"
     },
@@ -6619,6 +6623,14 @@ export const backlinks = {
         "2022-10-12": "![[418938.jpeg]]",
         "Better Hacker News": "![[418938.jpeg]]",
         "Handwriting Tools for Thoughts": "![[418938.jpeg]]"
+    },
+    "173737.png": {
+        "2023-03-24": "![[173737.png]]",
+        "hn.cho.sh": "![[173737.png]]"
+    },
+    "F28530.png": {
+        "2023-03-24": "![[F28530.png]]",
+        "hn.cho.sh": "![[F28530.png]]"
     },
     "B5F9BB.png": {
         "2022-11-08": "![[B5F9BB.png]]"

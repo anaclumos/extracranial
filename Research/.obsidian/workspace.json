@@ -4,63 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8eec72e9937e539c",
+        "id": "f5ae9c2f76a43301",
         "type": "tabs",
         "children": [
           {
-            "id": "8f6ddafe99205b5c",
+            "id": "63f034f24448110e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-23.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2b6c328af2efac0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-23.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f87e65888d1cf0b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-23.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "543925f3e72afc19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/DNS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-03-23.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-03-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,10 +120,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f87e65888d1cf0b8",
+  "active": "63f034f24448110e",
   "lastOpenFiles": [
-    "journals/2023-03-23.md",
+    "journals/2023-03-24.md",
+    "pages/hn.cho.sh.md",
+    "assets/F28530.png.sb-a3cb3f05-JcLh4U",
+    "assets/173737.png.sb-a3cb3f05-ZUt44x",
+    "assets/F28530.png",
+    "assets/173737.png",
     "pages/DNS.md",
+    "journals/2023-03-23.md",
+    "pages/Redirecting READMEs.md",
     "pages/CS Colloquium.md",
     "pages/Grammarly AI-NLP Club.md",
     "pages/Grammarly.md",
@@ -199,14 +158,8 @@
     "pages/Internet Computer.md",
     "pages/Super App.md",
     "pages/Mini App.md",
-    "pages/Supergravity Products.md",
-    "pages/글감.md",
-    "journals/2023-03-18.md",
-    "pages/Neo.md",
     "assets/25771A.png",
-    "assets/714B8B.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
-    "assets/FC3EFC.jpg",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S"
   ]
 }
