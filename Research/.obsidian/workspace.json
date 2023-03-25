@@ -4,18 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "f5ae9c2f76a43301",
+        "id": "0ba94b8c178f3d54",
         "type": "tabs",
         "children": [
           {
-            "id": "63f034f24448110e",
+            "id": "926002c73499838d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-24.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e86cba423d4d59cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-24.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1ca3a3ad4eb98af6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Watchings.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-03-24.md"
+              }
             }
           },
           {
@@ -89,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-03-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,9 +155,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "63f034f24448110e",
+  "active": "e86cba423d4d59cc",
   "lastOpenFiles": [
+    "pages/Playings.md",
     "journals/2023-03-24.md",
+    "pages/Watchings.md",
+    "pages/Untitled.md",
     "pages/hn.cho.sh.md",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
@@ -156,8 +194,6 @@
     "assets/898E88.png",
     "pages/Seed.md",
     "pages/Internet Computer.md",
-    "pages/Super App.md",
-    "pages/Mini App.md",
     "assets/25771A.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S"

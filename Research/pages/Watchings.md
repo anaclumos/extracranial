@@ -11,6 +11,7 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
+- [헤어질 결심](https://www.netflix.com/title/81646755)
 - [스마트폰을 떨어뜨렸을 뿐인데](https://www.netflix.com/title/81640988)
 - [킹덤 시즌 1](https://www.netflix.com/title/80180171)
 - [인간수업](https://www.netflix.com/title/80990668)
