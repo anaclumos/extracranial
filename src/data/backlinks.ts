@@ -1131,6 +1131,7 @@ export const backlinks = {
         "Internetworking": "- [[Makefile]]"
     },
     "Metapage": {
+        "Playings": "This is a [[metapage]] for all the media I've played, starting from Mar 2023. Just ...",
         "Project": "This is a [[Metapage]] for my projects.",
         "Readings": "This is a [[Metapage|meta-page]] that collects my to-read lists.",
         "Watchings": "This is a [[metapage]] for all the media I've seen, starting from Feb 2023. Just ..."
@@ -1945,6 +1946,7 @@ export const backlinks = {
         "2023-01-23": "- [[Readings]]",
         "2023-02-21": "- [[Readings]]",
         "2023-03-08": "- [[Readings]]",
+        "Playings": "... all the media I've played, starting from Mar 2023. Just like [[Readings]] and [[Watchings]].",
         "Watchings": "... all the media I've seen, starting from Feb 2023. Just like [[Readings]]"
     },
     "Engine": {
@@ -5110,7 +5112,9 @@ export const backlinks = {
     },
     "Watchings": {
         "2023-02-19": "- [[Watchings]]",
-        "2023-03-08": "- [[Watchings]]"
+        "2023-03-08": "- [[Watchings]]",
+        "2023-03-24": "- [[Watchings]]",
+        "Playings": "... media I've played, starting from Mar 2023. Just like Readings and [[Watchings]]."
     },
     "Reminder Tools": {
         "Tools for Thought": "- [[Reminder Tools]]"
@@ -6072,6 +6076,9 @@ export const backlinks = {
     },
     "Counting": {
         "2023-01-24": "- [[Counting]]"
+    },
+    "Playings": {
+        "2023-03-24": "- [[Playings]]"
     },
     "Unicorn": {
         "Imoogi and Dragon Company": "The word [[Unicorn]] Company gives the company too much of a magical sentiment as ...",
