@@ -930,6 +930,7 @@ export const filenames = {
     "Plateau of Latent Potential": "D69A4A",
     "Plausible Analytics": "7230C5",
     "Playing Sounds in SDL": "4DC268",
+    "Playings": "AE80A9",
     "Point-E": "81D3BC",
     "Poisson Approximation": "3FBE18",
     "Poisson Law": "A01F3A",
