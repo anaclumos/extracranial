@@ -6663,6 +6663,12 @@ export const backlinks = {
     "wikilink": {
         "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does not support. I have another python ..."
     },
+    "819907.png": {
+        "2023-03-25": "![[819907.png]]"
+    },
+    "DF78E9.png": {
+        "2023-03-25": "![[DF78E9.png]]"
+    },
     "81F6FA.png": {
         "2023-01-31": "![[81F6FA.png]]"
     },
