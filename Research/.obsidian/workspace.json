@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "83a7513917ad7047",
+        "id": "d078119a47b8d028",
         "type": "tabs",
         "children": [
           {
-            "id": "365dcdcc47ea3a3d",
+            "id": "89353b8e824242ae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-25.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-03-25.md"
-              }
+              "state": {}
             }
           },
           {
@@ -97,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-03-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,8 +121,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "365dcdcc47ea3a3d",
+  "active": "89353b8e824242ae",
   "lastOpenFiles": [
+    "journals/2023-03-26.md",
     "journals/2023-03-25.md",
     "pages/Watchings.md",
     "journals/2023-03-24.md",

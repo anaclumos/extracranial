@@ -47,7 +47,7 @@ const navbar = {
     {
       to: '/newsletters',
       label: 'Newsletter',
-      position: 'left',
+      position: 'right',
     },
     {
       href: 'https://github.com/anaclumos',
