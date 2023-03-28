@@ -1169,6 +1169,7 @@ export const filenames = {
     "TossFace Playground": "92B47B",
     "Tossface": "2F562A",
     "Total Probability": "AA1394",
+    "TourScout Identity Management Development Proposal": "598D73",
     "Transactional Globe": "B80EAF",
     "Transient Notes": "C80182",
     "Translation Look-aside Buffers": "50E78E",
