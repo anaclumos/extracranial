@@ -1592,6 +1592,9 @@ export const backlinks = {
     "Dioxus": {
         "2022-12-28": "- [[Dioxus]]"
     },
+    "TourScout Identity Management Development Proposal": {
+        "2023-03-27": "[[TourScout Identity Management Development Proposal]]"
+    },
     "불가사리 재단": {
         "Person 960D1D": "- [[불가사리 재단]]?"
     },
@@ -7119,6 +7122,9 @@ export const backlinks = {
     },
     "60A69F.png": {
         "Dioxus": "![[60A69F.png]]"
+    },
+    "AEC99E.png": {
+        "TourScout Identity Management Development Proposal": "![[AEC99E.png]]"
     },
     "BA8C9D.png": {
         "벌금과 물가": "- ![[BA8C9D.png]]"
