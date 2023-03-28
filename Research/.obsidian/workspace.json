@@ -11,11 +11,43 @@
             "id": "89353b8e824242ae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-27.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ef3ce043642e1674",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-27.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2ceaa9399a5af83d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Entropy.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "complex modif",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -81,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Entropy.md"
+              }
             }
           },
           {
@@ -90,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5,
-    "collapsed": true
+    "width": 434.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -121,8 +154,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "89353b8e824242ae",
+  "active": "2ceaa9399a5af83d",
   "lastOpenFiles": [
+    "journals/2023-03-27.md",
+    "pages/Maximum A Posteriori.md",
+    "pages/Maximum Likelihood Estimation.md",
     "journals/2023-03-26.md",
     "journals/2023-03-25.md",
     "pages/Watchings.md",
@@ -156,9 +192,6 @@
     "pages/알람 시계의 9분 스누즈.md",
     "journals/2023-03-19.md",
     "pages/Snooze Time of Alarm Clocks.md",
-    "pages/Domain Search Tools.md",
-    "pages/The Newtonian Correspondence.md",
-    "pages/Z-Fellows.md",
     "assets/145F1C.png",
     "assets/B8943C.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
