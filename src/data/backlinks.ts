@@ -2090,6 +2090,7 @@ export const backlinks = {
         "Wael AbdAlmageed": "- Researcher at [[University of Southern California]]"
     },
     "Entropy": {
+        "2023-03-27": "[[Entropy]]",
         "Text AI and Information Density": "Text AI, for example ChatGPT, tends to have low [[Entropy|information density]]."
     },
     "Now Page": {
@@ -2741,7 +2742,6 @@ export const backlinks = {
         "2023-02-22": "## [[Project]]",
         "2023-03-06": "- [[Project]]",
         "2023-03-22": "## [[Project]]",
-        "2023-03-26": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. [[Google]] created it as a competitor to Facebook Instant Articles and ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you must",
@@ -3669,6 +3669,9 @@ export const backlinks = {
     },
     "Dither": {
         "One Bit Display": "- [[Dither]]"
+    },
+    "Maximum A Posteriori": {
+        "2023-03-27": "[[Maximum A Posteriori]]"
     },
     "File Descriptor": {
         "Handling files in Unix": "- `open()` returns a [[file descriptor]]",
@@ -5938,7 +5941,6 @@ export const backlinks = {
         "2023-03-10": "## [[Hacker News|HN]]",
         "2023-03-20": "## [[Hacker News|HN]]",
         "2023-03-22": "## [[Hacker News]]",
-        "2023-03-26": "## [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing [[Mail|email]] server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -6325,6 +6327,10 @@ export const backlinks = {
     },
     "To Kill a Night Owl": {
         "2022-10-24": "- [[To Kill a Night Owl]]"
+    },
+    "Maximum Likelihood Estimation": {
+        "2023-03-27": "[[Maximum Likelihood Estimation]]",
+        "Maximum A Posteriori": "Can be thought of as \"regularized\" [[Maximum Likelihood Estimation|MLE]] (?)"
     },
     "Inspecting Assembly": {
         "2022-09-25": "- [[Inspecting Assembly]]",
