@@ -214,6 +214,9 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "## [[2023-01-18]]",
         "하늘땅사람 업데이트 기록": "## 1.0.4 [[2023-01-18]]"
     },
+    "2023-03-28": {
+        "Learning Execution Semantics from Micro-Traces for Binary Similarity": "- Attended CS Colloquium on [[2023-03-28]]."
+    },
     "2022-11-24": {
         "Mathematics under The Library of Babel": "## [[2022-11-24]]"
     },
@@ -416,7 +419,7 @@ export const backlinks = {
         "2022-10-20": "- [[Tailscale]]"
     },
     "The Photo Library of Babel": {
-        "Proposal of Research to Professor Cote": "## 3. [[The Photo Library of Babel]]"
+        "Proposal of Research 2023-01-10": "## 3. [[The Photo Library of Babel]]"
     },
     "Geohot Twitter Mayhem": {
         "Person 648442": "- Possible exit strategy — Twitter's Non-existent Search Engine: [[Geohot Twitter Mayhem]]"
@@ -474,7 +477,7 @@ export const backlinks = {
         "Microsoft": "- The [[ChatGPT]] owner hopes to garner $1 billion in revenue by 2024. Therefore, ...",
         "OpenAI enthroned as the Levis of Tech": "OpenAI has launched its [[ChatGPT]] API service, powered by the GPT-3.5-turbo [[AI]] model. The model is ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "OpenAI가 방금 GPT-3.5-터보 모델을 기반으로 한 [[ChatGPT]] API 서비스를 출시했다.",
-        "Proposal of Research to Professor Cote": "... given the recent boom of generative AIs, such as the recent [[ChatGPT]] (i.e., we now have the infinite [[AI]] monkey making infinite keystrokes). ...",
+        "Proposal of Research 2023-01-10": "... given the recent boom of generative AIs, such as the recent [[ChatGPT]] (i.e., we now have the infinite [[AI]] monkey making infinite keystrokes). ...",
         "Readwise Reader": "- uses [[ChatGPT]]",
         "Search AI": "- In many ways, one might say that [[ChatGPT]] never \"truly understands\" things; it just \"knows how to produce stuff ...",
         "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 Bing [[ChatGPT]]에 검색을 해보았다.",
@@ -495,7 +498,7 @@ export const backlinks = {
     "The Library of Babel": {
         "2022-11-24": "- [[The Library of Babel]]",
         "Information amongst Data": "[[The Library of Babel]] holds all data.",
-        "Proposal of Research to Professor Cote": "\"[[The Library of Babel]]\" by Jorge Luis Borges is a short story in which Borges ...",
+        "Proposal of Research 2023-01-10": "\"[[The Library of Babel]]\" by Jorge Luis Borges is a short story in which Borges ...",
         "The Photo Library of Babel": "[[The Library of Babel]]"
     },
     "Texts": {
@@ -575,6 +578,7 @@ export const backlinks = {
         "2022-11-03": "- [[Aldehyde]]",
         "2022-12-04": "- [[Aldehyde]]",
         "2023-02-16": "On [[Aldehyde]], one user wrote, \"When you have interest to write a tutorial ...",
+        "2023-03-28": "- [[Aldehyde]]",
         "Better Aldehyde": "- [[Aldehyde]]",
         "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨",
         "Link Coefficient": "For example, as of 2023-02-16, [[Aldehyde]] has a 0.592% of Link Coefficient."
@@ -596,7 +600,7 @@ export const backlinks = {
         "Internet Protocol Stack": "- Application. FTP, SMTP, [[HTTP]]. Handles Messages. SSL belongs here",
         "Internetworking": "- [[HTTP]]",
         "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does that change the request-response rate?",
-        "Proposal of Research to Professor Cote": "... developers to include. These can be embeddable JavaScript libraries or an [[HTTP]] API layer.",
+        "Proposal of Research 2023-01-10": "... developers to include. These can be embeddable JavaScript libraries or an [[HTTP]] API layer.",
         "Techs Actually Simple": "- Not to mention plaintext protocols. [[HTTP]], SMTP, FTP, and Redis Serialization Protocol (RESP) are a few examples",
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 Project|프로젝트 중 http 모듈 (당연히 `express` 모듈도) 없이 [[http]] 서버를 구현하는 Project|프로젝트가 있었다. 인터넷에 검색해 봐도 관련된 자료가 전혀 나오지 ..."
     },
@@ -1068,9 +1072,15 @@ export const backlinks = {
         "2023-02-05": "- [[초대장의 시대]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-05 | 🇬🇧 The Era of Invites <br/> 🇰🇷 [[초대장의 시대]]            ..."
     },
+    "Proposal of Research 2023-03-28": {
+        "2023-03-28": "- [[Proposal of Research 2023-03-28]]"
+    },
     "Forward Declaration": {
         "2023-01-25": "- [[Forward Declaration]]",
         "Game Programming": "- [[Forward Declaration]]"
+    },
+    "Automemoji": {
+        "2023-03-28": "- [[Automemoji]]"
     },
     "Coding Tests": {
         "2022-06-06": "- [[Coding Tests]] questions - Grind 75 - A better Blind 75 you can ...",
@@ -1207,6 +1217,9 @@ export const backlinks = {
         "Second Brain": "Seems like using [[Svelte]]",
         "Virtual DOM": "... similar programming model without using virtual DOM — and that's where [[Svelte]] comes in"
     },
+    "Learning Execution Semantics from Micro-Traces for Binary Similarity": {
+        "2023-03-28": "- [[Learning Execution Semantics from Micro-Traces for Binary Similarity]]"
+    },
     "Synthography": {
         "2022-10-19": "- [[Synthography]]",
         "Obsidian Ava": "- Early Stage [[Synthography]] tool for [[Obsidian]]",
@@ -1259,7 +1272,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "- [[WebAssembly]] is like [[Assembly]], except that",
         "Imagining WebNPU API": "- [[WebAssembly]] unlocks the bare-metal power of [[CPU]]s.",
         "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
-        "Proposal of Research to Professor Cote": "In addition, the world is now watching the very beginning of [[WebAssembly]], which allows high-performance applications to run in [[Web Browser|web browsers]]. Before ...",
+        "Proposal of Research 2023-01-10": "In addition, the world is now watching the very beginning of [[WebAssembly]], which allows high-performance applications to run in [[Web Browser|web browsers]]. Before ...",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 [[WebAssembly|WASM]] 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 ...",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
@@ -1366,6 +1379,10 @@ export const backlinks = {
         "Cloud-Native": "... as AWS, instead of traditional on-premise infrastructure. They are comfortable building [[Microservices Architecture]], containerization, and [[automation]] using tools like Kubernetes, [[Docker]], and Terraform.",
         "OpenAI enthroned as the Levis of Tech": "- Rise of [[Microservices Architecture|MSA]] and [[Serverless]] — [[AWS]] made it easy to spin up and ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "... — AWS는 소규모의 독립적인 서비스를 쉽게 실행하고 관리할 수 있도록 하여 [[Microservices Architecture|마이크로서비스 아키텍처]]의 등장으로 이어졌다. 이 아키텍처를 통해 개발자는 독립적으로 확장할 수 있는 소규모 ..."
+    },
+    "Prompt Injection": {
+        "2023-03-20": "... between trusted and untrusted inputs for LLMs have been underestimated, and [[Prompt Injection]] is a serious security threat that needs to be addressed. Bing ...",
+        "글감": "- [[Prompt Injection]]"
     },
     "USDZ": {
         "3D": "- [[USDZ]] for [[Apple]]",
@@ -1587,7 +1604,7 @@ export const backlinks = {
         "2022-11-30": "- [[Stable Alternative]]",
         "2022-12-18": "- [[Stable Alternative]]",
         "Project": "- [[Stable Alternative]]",
-        "Proposal of Research to Professor Cote": "## 1. [[Stable Alternative|Let's Alter]]"
+        "Proposal of Research 2023-01-10": "## 1. [[Stable Alternative]]"
     },
     "Dioxus": {
         "2022-12-28": "- [[Dioxus]]"
@@ -1676,7 +1693,7 @@ export const backlinks = {
         "Pensieve": "- Targeted as the intermediary bridge between [[web browser]] data stream (ephemeral) and long-term [[PKM]] data storage.",
         "Porting a Chrome Extension to Firefox Add-on": "While Chrome and Firefox are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and Firefox Add-on are now more similar than ever. ...",
         "Preservation of Data": "... your personal details in any forms, and perhaps using a special [[Web Browser|browser]] session (or even a different computer)",
-        "Proposal of Research to Professor Cote": "\"Alt text\" briefly describes an image and is used if the [[Web Browser|browser]] cannot display the picture. Alt text is typically used in Web ...",
+        "Proposal of Research 2023-01-10": "\"Alt text\" briefly describes an image and is used if the [[Web Browser|browser]] cannot display the picture. Alt text is typically used in Web ...",
         "Safari is the new Internet Explorer": "- Apple has a [[Web Browser|browser]] monopoly on [[iOS]], which is something [[Microsoft]] was never able to ...",
         "Satori": "- Expensive: Spinning up an entire [[Web Browser|browser]] to take a screenshot was not efficient. This led to large ...",
         "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version ...",
@@ -1699,7 +1716,8 @@ export const backlinks = {
         "Matt Rickard": "- [[eBPF]]"
     },
     "CS Colloquium": {
-        "DNS": "- USC [[CS Colloquium]]"
+        "DNS": "- USC [[CS Colloquium]]",
+        "Learning Execution Semantics from Micro-Traces for Binary Similarity": "- Attended [[CS Colloquium]] on [[2023-03-28]]."
     },
     "Centering": {
         "2022-09-17": "  - [[Centering]]",
@@ -1718,6 +1736,9 @@ export const backlinks = {
         "Endianness": "- [[Internetworking]]",
         "Multiplexing": "- In [[Internetworking]], it means having multiple sockets and juggling with data transmissions.",
         "Socket": "- used in [[Internetworking]]"
+    },
+    "The Sparkle Button": {
+        "글감": "- [[The Sparkle Button]]"
     },
     "Privacy Policy for My Chrome Extensions": {
         "Bing Chat for All Browsers": "- [[Privacy Policy for My Chrome Extensions]]"
@@ -1932,7 +1953,7 @@ export const backlinks = {
         "OpenAI enthroned as the Levis of Tech": "[[OpenAI]] has launched its [[ChatGPT]] API service, powered by the GPT-3.5-turbo [[AI]] ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "[[OpenAI]]가 방금 GPT-3.5-터보 모델을 기반으로 한 [[ChatGPT]] API 서비스를 출시했다.",
         "Personal Training Corpus": "... at the end of the day, the files are processed with [[OpenAi]]'s Whisper and transformed into text files from which the information is ...",
-        "Proposal of Research to Professor Cote": "... Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and ...",
+        "Proposal of Research 2023-01-10": "... Contrastive Language–Image Pre-training (CLIP), a vast dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference server to take the image and ...",
         "Search AI": "... 되어가고 있어요. 그럼 검색은 더 이상 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 [[ChatGPT]]에 많은 사람들이 놀라고 있어요. 모든 것의 정답을 주지는 못 하는데요. ..."
     },
     "Neo Korea": {
@@ -1964,7 +1985,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-10-03": "Naver services as the omnipotent search [[engine]] for [[대한민국|Korea]] (bigger market cap than [[Google]] [[대한민국|Korea]]) and [[Kakao]] services ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... App Review. Firefox has this talent, as seen in the Gecko [[engine]].",
         "Naver": "... first web portal in 대한민국|Korea to develop and use its search [[engine]]. It was also the world's first operator to introduce the comprehensive ...",
-        "Proposal of Research to Professor Cote": "... performs a heavy computation, it can cause the Web Browser|browser's JavaScript [[engine]] to become unresponsive. As a result, the entire web page will ...",
+        "Proposal of Research 2023-01-10": "... performs a heavy computation, it can cause the Web Browser|browser's JavaScript [[engine]] to become unresponsive. As a result, the entire web page will ...",
         "Satori": "### [[Engine]]",
         "Stories Behind Satori": "We can calculate the elements' positions through a layout [[engine]] and convert them into [[SVG]] markups.",
         "프로젝트 어덕행덕": "  - Stage Mix [[Engine]]"
@@ -2146,7 +2167,7 @@ export const backlinks = {
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.",
         "PineApple Pay": "As [[Apple]] slowly moves to open up the Apple Pay restriction, what if ...",
-        "Proposal of Research to Professor Cote": "... these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, Microsoft, and [[Apple]]) decided to disable SharedArrayBuffer by default to avoid the potential exploitation ...",
+        "Proposal of Research 2023-01-10": "... these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, Microsoft, and [[Apple]]) decided to disable SharedArrayBuffer by default to avoid the potential exploitation ...",
         "Reverse Engineering Apple Music API": "## Registering for [[Apple]] Developer Key",
         "Safari": "Safari is a web browser developed by [[Apple]] Inc. It was first released in 2003 as the default browser ...",
         "Safari is the new Internet Explorer": "- [[Apple]] has a [[Web Browser|browser]] monopoly on [[iOS]], which is something [[Microsoft]] ...",
@@ -2750,6 +2771,7 @@ export const backlinks = {
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you must",
         "Apple Earth": "Someday [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
+        "Automemoji": "Someday [[Project]].",
         "Autosave Everything": "Someday [[Project]]. A small Mac App that presses `command s` every defined interval.",
         "Better Aldehyde": "- [[Project]]",
         "Better Hacker News": "Someday [[Project]]. Improving HN.",
@@ -2795,7 +2817,7 @@ export const backlinks = {
         "Preservation of Data": "> The LOCKSS (\"Lots of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford University, is a peer-to-peer network that ...",
         "Problem": "Leads to a Someday [[Project]].",
         "Project PEOPLE": "- [[Project]]",
-        "Proposal of Research to Professor Cote": "... studied underlying technologies on this and found several layers for the [[project]].",
+        "Proposal of Research 2023-01-10": "... studied underlying technologies on this and found several layers for the [[project]].",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding [[AI]] system.",
         "Redactor for iPhone": "Someday [[Project]].",
         "Repeated Designs": "> Weekend side [[project]]: A gallery of the best looking devtool landing pages",
@@ -3123,7 +3145,7 @@ export const backlinks = {
         "Imagining WebNPU API": "... developed web interface that provides access to modern graphics processing unit ([[GPU]]) capabilities, such as Direct3D 12, Metal, and Vulkan, for rendering and ...",
         "Neural Engine": "... of NPU, which stands for Neural Processing Unit. It's like a [[GPU]], but instead of accelerating [[graphics]], an NPU accelerates neural network operations ...",
         "Point-E": "... generation has shown promising results, the state-of-the-art methods typically require multiple [[GPU]] hours to produce a single sample. This contrasts with state-of-the-art generative ...",
-        "Proposal of Research to Professor Cote": "... a minute to generate the complete text, even with the latest [[GPU]]. Therefore, for the system to scale, we will need a clever ...",
+        "Proposal of Research 2023-01-10": "... a minute to generate the complete text, even with the latest [[GPU]]. Therefore, for the system to scale, we will need a clever ...",
         "VP9 vs HEVC": "... 4K videos on macOS Safari and iOS YouTube using this. Apple [[GPU]] also now supports VP9 decoding.",
         "Vertex Buffer": "- Graphics: How to pass instructions from CPU to [[GPU]].",
         "WebGPU": "- Use.[[GPU]] is a set of declarative, reactive WebGPU legos. Compose live graphs, ...",
@@ -3421,7 +3443,8 @@ export const backlinks = {
         "2023-02-21": "- [[글감]]",
         "2023-03-01": "- [[글감]]",
         "2023-03-18": "- [[글감]]",
-        "2023-03-19": "- [[글감]]"
+        "2023-03-19": "- [[글감]]",
+        "2023-03-28": "- [[글감]]"
     },
     "국내 은행 서비스가 나쁜 이유": {
         "2023-02-20": "- [[국내 은행 서비스가 나쁜 이유]]",
@@ -3606,6 +3629,9 @@ export const backlinks = {
         "2023-02-19": "- [[심리역사학]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-19 | 🇬🇧 Psychohistory <br/> 🇰🇷 [[심리역사학]]            ..."
     },
+    "AI 단톡방": {
+        "글감": "- [[AI 단톡방]]"
+    },
     "데이터베이스권": {
         "2023-02-13": "- [[데이터베이스권]]"
     },
@@ -3775,6 +3801,9 @@ export const backlinks = {
     "Person CC8297": {
         "2022-09-13": "- [[Person CC8297]]",
         "Project PEOPLE": "- [[Person CC8297]]"
+    },
+    "Proposal of Research 2023-01-10": {
+        "2023-01-10": "- [[Proposal of Research 2023-01-10]]"
     },
     "Snooze Time of Alarm Clocks": {
         "2023-03-19": "- [[Snooze Time of Alarm Clocks]]",
@@ -4429,6 +4458,10 @@ export const backlinks = {
         "Open Graph Image as a Service": "## How would it be [[Fiercely Overpriced]]?",
         "sem.sh": "- Your data, your own (no [[Fiercely Overpriced|paywall]] if self-hosted)"
     },
+    "You can do everything on computers but you really should not": {
+        "2023-03-28": "- [[You can do everything on computers but you really should not]]",
+        "글감": "- [[You can do everything on computers but you really should not]]"
+    },
     "Maserati Problem": {
         "2022-11-02": "- [[Maserati Problem]]"
     },
@@ -4690,7 +4723,7 @@ export const backlinks = {
         "Google": "... Big Five American information technology companies, alongside Amazon, Apple, Meta, and [[Microsoft]]. Google",
         "HTML 텍스트 위에 덧말 강조점 쓰기": "... '글자 위의 글자'는 phonetic guide, 후리가나, 루비 문자, 덧말 (한컴오피스), 또는 윗주([[Microsoft|MS]] Word)라고도 한다. HTML에서는 `<ruby>` 태그를 통해 이 기능을 사용할 수 있다.",
         "Person 392196": "- [[Microsoft]]",
-        "Proposal of Research to Professor Cote": "... result of these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, [[Microsoft]], and [[Apple]]) decided to disable SharedArrayBuffer by default to avoid the ...",
+        "Proposal of Research 2023-01-10": "... result of these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, [[Microsoft]], and [[Apple]]) decided to disable SharedArrayBuffer by default to avoid the ...",
         "Safari is the new Internet Explorer": "... Apple has a Web Browser|browser monopoly on iOS, which is something [[Microsoft]] was never able to achieve with IE",
         "Search AI": "... 있어요. 아참, 새 시대도 [Google|구글]가 열 가능성이 꽤 크긴 해요. Google|구글이 ([[Microsoft|마이크로소프트]] 등이 그랬던 것처럼) 자기 스스로를 죽일 수 있다면 Google|구글에게도 기회가 있을 ...",
         "Super App": "- [[Microsoft]] may build an all-in-one \"super app\" to combine various services and ...",
@@ -5210,7 +5243,7 @@ export const backlinks = {
         "Perceptual Hashing": "... the change of hash collision to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
         "Person 1E6ABA": "... works at a Financial Technology|FinTech + Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
         "Person 392196": "- Will work at [[Google]] soon",
-        "Proposal of Research to Professor Cote": "... collisions. This method is used to search by image, such as [[Google]] Photos, or detect child sexual abuse materials. The perceptual hashing layer ...",
+        "Proposal of Research 2023-01-10": "... collisions. This method is used to search by image, such as [[Google]] Photos, or detect child sexual abuse materials. The perceptual hashing layer ...",
         "Satori": "- Font and Emoji Subsets from [[Google]] Fonts and other CDNs",
         "Search AI": "This can kill [[Google]].",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library ...",
@@ -5301,9 +5334,6 @@ export const backlinks = {
     },
     "Dynamic Viewport Units": {
         "2022-12-03": "- [[Dynamic Viewport Units]]"
-    },
-    "Proposal of Research to Professor Cote": {
-        "2023-01-10": "- [[Proposal of Research to Professor Cote]]"
     },
     "glTF": {
         "3D": "- [[glTF]] for [[Android]]",
@@ -5717,6 +5747,7 @@ export const backlinks = {
     "Someday": {
         "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter]] but you must",
         "Apple Earth": "[[Someday]] [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] ...",
+        "Automemoji": "[[Someday]] [[Project]].",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
         "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
         "Book Metadata as a Service": "[[Someday]] [[Project]]. Open API that returns Book Metadata when given an ISBN.",
@@ -6123,7 +6154,7 @@ export const backlinks = {
     },
     "iiframe": {
         "2022-08-03": "### [[iiframe]]",
-        "Proposal of Research to Professor Cote": "## 2. [[iiframe]]—improved iframe"
+        "Proposal of Research 2023-01-10": "## 2. [[iiframe]]—improved iframe"
     },
     "Deno Deploy": {
         "CELLO (Product)": "- Possibly [[Deno Deploy]]"
@@ -6379,7 +6410,7 @@ export const backlinks = {
         "JavaScript": "... one of the core technologies of the World Wide Web, alongside [[HTML]] and CSS. As of 2022, 98% of websites use JavaScript on ...",
         "Markdown Email Client": "... select one CSS. Then... it sends as a beautiful and clean [[HTML]] Mail|email!",
         "Preservation of Data": "Save the raw [[HTML]] and process it later.",
-        "Proposal of Research to Professor Cote": "An inline frame, often shortened to iframe, is an [[HTML]] element that allows you to embed one HTML document within another. ...",
+        "Proposal of Research 2023-01-10": "An inline frame, often shortened to iframe, is an [[HTML]] element that allows you to embed one HTML document within another. ...",
         "Protocol Wars": "... example, Mosaic had a feature that automatically converted Gopher menus into [[HTML]]",
         "Satori": "... Edge Functions, WebAssembly, and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Setting different images for Light & Dark mode": "Using `preferred color scheme` CSS property and [[HTML]] Picture `srcset` property.",
@@ -6469,7 +6500,7 @@ export const backlinks = {
         "Pensieve": "... that automatically collects your expertise in a hierarchy powered by an [[AI]] [[copilot]]. Whenever you are starting a search journey that entails multiple ...",
         "Person E7CFC5": "- Currently studying at Stanford Grad School, prev Scale [[AI]] engineer",
         "Personal Training Corpus": "  This is a fictional interview by having [[AI]] learn about thousands of Joe Rogan's podcasts and thousands of Steve ...",
-        "Proposal of Research to Professor Cote": "... such as the recent ChatGPT (i.e., we now have the infinite [[AI]] monkey making infinite keystrokes). Will AI eventually create all information creatable ...",
+        "Proposal of Research 2023-01-10": "... such as the recent ChatGPT (i.e., we now have the infinite [[AI]] monkey making infinite keystrokes). Will AI eventually create all information creatable ...",
         "Quoridor Game": "Someday Project. Creating a \"Quoridor\" game and its corresponding [[AI]] system.",
         "Search AI": "- Hello! My name is YouChat; I'm an [[AI]] that can answer general questions, explain things, suggest ideas, translate, summarize ...",
         "Text AI and Information Density": "Text [[AI]], for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
