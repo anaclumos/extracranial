@@ -23,26 +23,26 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1431     39167    10108         0    29059          0
-CSS                         73     20571      511        41    20019          0
-TypeScript                  60     12321      172        64    12085        211
-JSON                        42      2224        0         0     2224          0
+Markdown                  1438     39360    10152         0    29208          0
+CSS                         74     22199      515      1989    19695          0
+TypeScript                  60     12366      172        64    12130        211
+JSON                        43      2292        0         0     2292          0
 Python                       8       940       58        43      839        109
 SVG                          7         7        0         0        7          0
 YAML                         7        63        3         0       60          0
-JavaScript                   5     26577      388      4877    21312        837
+JavaScript                   5     27323      350      4814    22159        806
 Plain Text                   3       103       18         0       85          0
 TypeScript Typings           2        12        0         4        8          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       286       69        69      148          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1640    102274    11327      5098    85849       1157
+Total                     1649    104954    11337      6983    86634       1126
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,897,459
-Estimated Schedule Effort (organic) 20.61 months
-Estimated People Required (organic) 12.49
+Estimated Cost to Develop (organic) $2,925,284
+Estimated Schedule Effort (organic) 20.68 months
+Estimated People Required (organic) 12.57
 ───────────────────────────────────────────────────────────────────────────────
-Processed 7025410 bytes, 7.025 megabytes (SI)
+Processed 6967532 bytes, 6.968 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

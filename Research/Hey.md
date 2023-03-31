@@ -15,7 +15,7 @@ slug: '/'
 
 <figcaption>
 
-my [[http]] request origin map 🌏 🌎 🌍
+my [[http]] request origin [[Cartography|map]] 🌏 🌎 🌍
 
 </figcaption>
 </figure>

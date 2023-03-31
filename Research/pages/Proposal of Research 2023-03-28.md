@@ -147,7 +147,7 @@ This research will contribute to developing iiframe, an improved iframe version 
 
 ### Abstract
 
-Inspired by "The Library of Babel" by Jorge Luis Borges, this research proposal aims to investigate the concept of an "efficiently finite" map containing all possible pixel combinations and its implications on human creativity and Generative AI. By exploring the idea of a Photo Library of Babel, we will examine the role of AI in creating information and the philosophical aspects of creativity in the context of finite possibilities.
+Inspired by "The Library of Babel" by Jorge Luis Borges, this research proposal aims to investigate the concept of an "efficiently finite" [[Cartography|map]] containing all possible pixel combinations and its implications on human creativity and Generative AI. By exploring the idea of a Photo Library of Babel, we will examine the role of AI in creating information and the philosophical aspects of creativity in the context of finite possibilities.
 
 ### Background
 
@@ -155,7 +155,7 @@ The infinite monkey theorem and the concept of "The Library of Babel" have becom
 
 ### Research Questions
 
-- Can we create an "efficiently finite" map of all possible pixel combinations, forming a Photo Library of Babel?
+- Can we create an "efficiently finite" [[Cartography|map]] of all possible pixel combinations, forming a Photo Library of Babel?
 - What are the implications of the Photo Library of Babel for human creativity and Generative AI?
 - How does the finite nature of the Photo Library of Babel influence the search for specific information or images, and what does this mean for the proverb "A Needle in a Haystack"?
 
@@ -175,4 +175,4 @@ The infinite monkey theorem and the concept of "The Library of Babel" have becom
 
 ### Significance
 
-This research will contribute to understanding the relationship between human creativity, generative AI, and finite possibilities, as illustrated by the Photo Library of Babel concept. By examining the implications of a limited map of all possible pixel combinations, we can gain insights into the future of creation and the role of AI in generating information. This exploration has the potential to transform our understanding of creativity, knowledge discovery, and the impact of AI on various domains.
+This research will contribute to understanding the relationship between human creativity, generative AI, and finite possibilities, as illustrated by the Photo Library of Babel concept. By examining the implications of a limited [[Cartography|map]] of all possible pixel combinations, we can gain insights into the future of creation and the role of AI in generating information. This exploration has the potential to transform our understanding of creativity, knowledge discovery, and the impact of AI on various domains.

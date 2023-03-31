@@ -1,10 +1,10 @@
 {
-  "theme": "obsidian",
+  "theme": "moonstone",
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "monospaceFontFamily": "D2Coding ligature",
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "translucency": false,
   "baseFontSize": 21,
-  "accentColor": "#ff6d2e"
+  "accentColor": ""
 }

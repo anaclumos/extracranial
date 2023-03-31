@@ -11,7 +11,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 ![[5BE46A.png]]
 
-Map those into the globe on the main page:
+[[Cartography|Map]] those into the globe on the main page:
 
 ![[F7ADEB.png]]
 
