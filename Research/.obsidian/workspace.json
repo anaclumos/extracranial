@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7a2307a554f629da",
+        "id": "07fd2419350d6a7c",
         "type": "tabs",
         "children": [
           {
-            "id": "ff523f7c6469260c",
+            "id": "e917280735a2932f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-03-28.md",
+                "file": "journals/2022-07-05.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "115bb11034a30732",
+            "id": "160a69106c8fc82a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-03-28.md",
+                "file": "journals/2023-03-31.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,12 +34,38 @@
             }
           },
           {
-            "id": "4140f1e3ff4807c6",
+            "id": "604e04182a879779",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Aldehyde.md",
+                "file": "pages/ChatGPT is a Blurry JPEG and We Need That.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a320d0472b2e5876",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-03-31.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "af396a92930fad0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -47,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -76,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jwt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Aldehyde.md"
+                "file": "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md"
               }
             }
           },
@@ -124,18 +150,19 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Aldehyde.md",
+                "file": "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,9 +181,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4140f1e3ff4807c6",
+  "active": "af396a92930fad0d",
   "lastOpenFiles": [
+    "journals/2023-03-31.md",
+    "pages/The Newtonian Correspondence.md",
+    "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
+    "pages/ChatGPT is a Blurry JPEG and We Need That.md",
+    "journals/2023-02-10.md",
+    "pages/Blurry JPEG.md",
+    "pages/Cartography.md",
+    "assets/8DDFF2.png",
+    "assets/D26259.png",
+    "pages/Spacial Cognition.md",
+    "pages/YAML.md",
+    "journals/2022-07-05.md",
+    "journals/2023-03-30.md",
+    "journals/2023-03-29.md",
     "journals/2023-03-28.md",
+    "pages/Learning Execution Semantics from Micro-Traces for Binary Similarity.md",
+    "pages/Interactive ML Models.md",
     "pages/Automemoji.md",
     "pages/Someday.md",
     "pages/Project.md",
@@ -168,32 +211,16 @@
     "pages/Proposal of Research 2023-01-10.md",
     "pages/Prompt Injection.md",
     "journals/2023-03-27.md",
-    "pages/Learning Execution Semantics from Micro-Traces for Binary Similarity.md",
-    "pages/TourScout Identity Management Development Proposal.md",
-    "journals/2022-05-27.md",
     "assets/AEC99E.png",
-    "pages/Maximum A Posteriori.md",
-    "pages/Maximum Likelihood Estimation.md",
-    "journals/2023-03-26.md",
-    "journals/2023-03-25.md",
-    "pages/Watchings.md",
-    "journals/2023-03-24.md",
     "assets/DF78E9.png",
     "assets/819907.png",
-    "pages/Playings.md",
-    "pages/Untitled.md",
-    "pages/hn.cho.sh.md",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/F28530.png",
     "assets/173737.png",
-    "pages/DNS.md",
-    "journals/2023-03-23.md",
     "assets/6C0C3A.png",
     "assets/9EEB88.png",
     "assets/3F79CC.png",
-    "assets/21BCA4.png",
-    "assets/145F1C.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S"
   ]

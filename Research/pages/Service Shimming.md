@@ -8,7 +8,7 @@ In computer programming, **[[Shim|shimming]]** is a method of transparently inte
 People **really** don't care about how developers implement services. If you withdraw some money from an ATM, you don't care if it's an actual ATM, a secret terminator trying to assassinate you, or actually, there's a person inside a machine counting the money for you. The important thing is giving the **illusion** that everything is working. If this is true, engineering might not be as crucial as we developers think. Maybe [[Time to Market]] is more critical. Here are a few examples:
 
 - Edison faked his invention of the light bulb for more than 4 years.
-- The first iPhone failed to integrate individual apps, so Jobs had to prepare separate iPhones for calls, music, maps, etc. He had to switch between each iPhone, pretending it was the same device.
+- The first iPhone failed to integrate individual apps, so Jobs had to prepare separate iPhones for calls, music, [[Cartography|maps]], etc. He had to switch between each iPhone, pretending it was the same device.
 - Tesla is also a similar example; Elon always makes bold claims but never delivers something on that date. Where is our Cybertruck?
 - [[Naver]] (≈ [[대한민국|Korean]] Google), for a while, failed to make a News [[automation]] service, making the CEO visit Press organizations every morning to ask permission to distribute the articles.
 - Woowa Bros (≈ [[대한민국|Korean]] Doordash) failed to make an order relay system, so they had to call the restaurant one by one whenever they got an order request.

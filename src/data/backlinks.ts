@@ -425,7 +425,8 @@ export const backlinks = {
         "Person 648442": "- Possible exit strategy — Twitter's Non-existent Search Engine: [[Geohot Twitter Mayhem]]"
     },
     "사회과부도": {
-        "2022-08-28": "- [[사회과부도]]"
+        "2022-08-28": "- [[사회과부도]]",
+        "Cartography": "... heat maps, choropleth maps, and isopleth maps to represent data effectively. [[사회과부도]]"
     },
     "ELF": {
         "Link (Computer Systems)": "Linux uses [[ELF]]"
@@ -464,12 +465,12 @@ export const backlinks = {
         "2022-12-02": "- [[ChatGPT]]",
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
         "2023-02-02": "- [[ChatGPT]]",
-        "2023-02-10": "- ChatGPT Is a Blurry JPEG of the Web. Think of [[ChatGPT]] as a blurry jpeg of all the text on the Web. ...",
         "2023-02-21": "> [[ChatGPT]] is my best buddy for exploring and refining my thoughts. It ...",
         "AI-native": "Especially with the emergence of [[ChatGPT]].",
         "Algorithmic Recommendation Engine for Texts": "- The tech that enabled [[ChatGPT]] also created new possibilities for social networks",
         "Bing": "... real questions, and get complete answers). The same OpenAI technology behind [[ChatGPT]] powers this feature.",
         "Bing Chat": "- Uses [[ChatGPT]]",
+        "Blurry JPEG": "> Think of [[ChatGPT]] as a blurry jpeg of all the text on the Web. ...",
         "Browser Company Hackathon": "- Idea: Safari-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. ...",
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
@@ -956,6 +957,10 @@ export const backlinks = {
     "0242 Valid Anagram": {
         "2022-09-04": "- [[0242 Valid Anagram]]",
         "Coding Tests": "- [x] [[0242 Valid Anagram]]"
+    },
+    "Blurry JPEG": {
+        "2023-02-10": "- [[Blurry JPEG]]",
+        "ChatGPT는 흐릿한 이미지이지만 필요합니다": "[[Blurry JPEG]]은 SF계의 거장 테드 창이 작성한 훌륭한 글입니다."
     },
     "민사고와 쇼비니즘": {
         "2023-02-17": "- [[민사고와 쇼비니즘]]"
@@ -2144,7 +2149,7 @@ export const backlinks = {
         "AIs.txt": "Technically, [[Apple]]'s App Tracking Transparency does not ban all tracking activity; it never ...",
         "AMP": "... Google created it as a competitor to Facebook Instant Articles and [[Apple]] News. AMP is optimized for mobile web browsing and intended to ...",
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
-        "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] Widget Supports.",
+        "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth [[Apple]] [[Cartography|Maps]] and [[iOS]] Widget Supports.",
         "Apple Easter Egg": "of easter egg message in here for the hard core [[Apple]] fans that",
         "Apple Newsroom 서체 따라하기": "가장 [[Apple|애플]]을 잘 모방한 서체이다.",
         "Apple Silicon": "- Chips made by [[Apple]]",
@@ -2454,6 +2459,10 @@ export const backlinks = {
         "Dioxus": "They are written in [[Rust]], inspired by [[React]].",
         "WebGPU": "- It's a stand-alone TypeScript+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "Write Once Run Everywhere": "- [[Rust]]"
+    },
+    "ChatGPT는 흐릿한 이미지이지만 필요합니다": {
+        "2023-03-31": "- [[ChatGPT는 흐릿한 이미지이지만 필요합니다]]",
+        "The Newtonian Correspondence": "... ChatGPT is a Blurry JPEG and We Need That <br/> `KO` [[ChatGPT는 흐릿한 이미지이지만 필요합니다]] | Tweet <br/> Linkedin        ..."
     },
     "Why is Swift String Manipulation like that": {
         "2023-02-15": "- [[Why is Swift String Manipulation like that]]",
@@ -2766,10 +2775,11 @@ export const backlinks = {
         "2023-02-22": "## [[Project]]",
         "2023-03-06": "- [[Project]]",
         "2023-03-22": "## [[Project]]",
+        "2023-03-30": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. [[Google]] created it as a competitor to Facebook Instant Articles and ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you must",
-        "Apple Earth": "Someday [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] Widget ...",
+        "Apple Earth": "Someday [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] [[Cartography|Maps]] and [[iOS]] Widget ...",
         "Architectural Decision Records": "... meeting minutes; the collection of ADRs created and maintained in a [[project]] constitute its decision log. All these are within the topic of ...",
         "Automemoji": "Someday [[Project]].",
         "Autosave Everything": "Someday [[Project]]. A small Mac App that presses `command s` every defined interval.",
@@ -3352,7 +3362,7 @@ export const backlinks = {
         "Ray.st": "A Collection of 26 Beautiful [[3D]] [[Emoji]] Generated by [[Generative AI]].",
         "Repeated Designs": "... you're an encryption company, so the hero needs to be a [[3D]] model of the logo rendered as encrypted text.<br/><br/>Some early previews of ...",
         "The Sudden Rise of Bondee": "... etc., ranking #1 in the App Store. Users can create a [[3d]] character and design rooms of their own. Imagine [[Club Penguin]] or ...",
-        "The Zenly Playbook": "From the Stay Home challenge in 2020 to a mass-scale [[3D]] map update in 2022, Zenly prepared for its upcoming future. However, ...",
+        "The Zenly Playbook": "From the Stay Home challenge in 2020 to a mass-scale [[3D]] [[Cartography|map]] update in 2022, Zenly prepared for its upcoming future. However, ...",
         "USDZ": "> Universal Scene Description (USD) is a framework for interchange [[3D]] computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, ...",
         "USDZ vs glTF": "USDZ and glTF are two [[3D]] file formats used for different purposes. USDZ is a subset of ...",
         "glTF": "... open standard developed and maintained by the Khronos Group; it supports [[3D]] model geometry, appearance, scene graph hierarchy, and animation. It is intended ...",
@@ -3807,7 +3817,7 @@ export const backlinks = {
     },
     "Snooze Time of Alarm Clocks": {
         "2023-03-19": "- [[Snooze Time of Alarm Clocks]]",
-        "The Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 스누즈]] | Tweet <br/> Linkedin  ..."
+        "The Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 스누즈]] |     ..."
     },
     "Club Penguin": {
         "The Sudden Rise of Bondee": "... create a 3d character and design rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in a modern messenger form. It is ..."
@@ -4059,7 +4069,7 @@ export const backlinks = {
     },
     "알람 시계의 9분 스누즈": {
         "2023-03-19": "- [[알람 시계의 9분 스누즈]]",
-        "The Newtonian Correspondence": "| 03-19 | `EN` Snooze Time of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]] | Tweet <br/> Linkedin        ..."
+        "The Newtonian Correspondence": "| 03-19 | `EN` Snooze Time of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]] |           ..."
     },
     "Search-based Tools for Thought": {
         "Tools for Thought": "- [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature ..."
@@ -4098,7 +4108,8 @@ export const backlinks = {
     },
     "The Newtonian Correspondence": {
         "2023-03-16": "- [[The Newtonian Correspondence]]",
-        "2023-03-19": "- [[The Newtonian Correspondence]]"
+        "2023-03-19": "- [[The Newtonian Correspondence]]",
+        "2023-03-31": "- [[The Newtonian Correspondence]]"
     },
     "Product-Market Fit": {
         "2022-06-06": "... and startups have little or no tests. When struggling to find [[Product-Market Fit]] or fighting for survival, many companies need to test early on. ...",
@@ -4548,7 +4559,7 @@ export const backlinks = {
     "Kakao": {
         "2022-05-30": "- [[Kakao]] will announce its remote work policy today.",
         "2022-05-31": "- [[Kakao]] announced [[Metaverse]] Remote Work Policy.",
-        "2022-06-26": "  - To push the limits, we can try [[Kakao]] Map SDK (or any Map SDK like Open Layer)",
+        "2022-06-26": "  - To push the limits, we can try [[Kakao]] [[Cartography|Map]] SDK (or any [[Cartography|Map]] SDK like Open Layer)",
         "2022-07-05": "- [[Kakao|카카오]]는 자사가 운영 중인 메신저 [[Kakao|카카오톡]]의 프로필 개편방안 중 하나로 'NFT 전시 ...",
         "2022-10-16": "### [[Kakao]]",
         "AI replaces expensive jobs first": "... a victory without victory --- since the winner was another conglomerate [[Kakao]] Mobility which finally took over the market.",
@@ -4735,6 +4746,23 @@ export const backlinks = {
     "인하우스와 자유경쟁": {
         "2023-02-22": "- [[인하우스와 자유경쟁]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-22 | 🇬🇧 In-house and Free Market <br/> 🇰🇷 [[인하우스와 자유경쟁]]            ..."
+    },
+    "Cartography": {
+        "2022-05-30": "- A moment in time forever remembered. The original [[Cartography|map]] plaque is the perfect gift to capture special moments. - Print ...",
+        "2022-06-26": "  - To push the limits, we can try Kakao [[Cartography|Map]] SDK (or any Cartography|Map SDK like Open Layer)",
+        "2022-07-05": "- [[Cartography]]",
+        "2023-03-31": "- [[Cartography]]",
+        "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth Apple [[Cartography|Maps]] and [[iOS]] Widget Supports.",
+        "Dynamic Island": "... be tapped to view additional details; for example, ongoing activities like [[Cartography|Maps]] directions or sports scores can also be expanded by tapping and ...",
+        "GeoCheatCode": "... I noticed that when I manually typed things into the Google [[Cartography|Maps]] search bar, it forgave a myriad of sins and did a ...",
+        "Person ECC2CB": "Their [[Cartography|maps]] could be better organized, making GPS services almost impossible.",
+        "Proposal of Research 2023-01-10": "... on a website, such as a video from YouTube or a [[Cartography|map]] from [[Google]] [[Cartography|Maps]]. However, iframes can also lead to performance problems ...",
+        "Proposal of Research 2023-03-28": "... research proposal aims to investigate the concept of an \"efficiently finite\" [[Cartography|map]] containing all possible pixel combinations and its implications on human creativity ...",
+        "Service Shimming": "... apps, so Jobs had to prepare separate iPhones for calls, music, [[Cartography|maps]], etc. He had to switch between each iPhone, pretending it was ...",
+        "Spacial Cognition": "> testing [[Cartography|map]] as website navigation bar  ",
+        "The Zenly Playbook": "From the Stay Home challenge in 2020 to a mass-scale 3D [[Cartography|map]] update in 2022, Zenly prepared for its upcoming future. However, the ...",
+        "Transactional Globe": "[[Cartography|Map]] those into the globe on the main page:",
+        "사회과부도": "> Themed series of [[Cartography|maps]]"
     },
     "Port": {
         "Internetworking": "- [[Port]]",
@@ -4994,7 +5022,7 @@ export const backlinks = {
     "iOS": {
         "2023-02-08": "... with several templates to help pinpoint various potential issues in a macOS/[[iOS]] application",
         "2023-02-16": "... modern browser technologies to make it run in any browser (like [[iOS]] and [[Safari]]) with minimal setup. The disadvantage is that Nodebox will ...",
-        "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth Apple Maps and [[iOS]] Widget Supports.",
+        "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth Apple Cartography|Maps and [[iOS]] Widget Supports.",
         "Chrome": "... for desktop and mobile devices, including Windows, macOS, Linux, Android, and [[iOS]].",
         "Conversational AI Tools for Thought": "... have back-and-forth dialogue with AI. Poe will initially be available on [[iOS]], and it will be invite only until we work out scalability, ...",
         "Figma": "... editors and prototyping tools. The Figma mobile app for Android and [[iOS]] allows viewing and interacting with Figma prototypes in real time on ...",
@@ -5224,12 +5252,12 @@ export const backlinks = {
         "AI replaces expensive jobs first": "... issues that become databases, lawyers can search for similar topics like \"[[Google]] Search.\" For example, if a fraud case comes in, the lawyer ...",
         "AI는 고가 노동부터 점령한다": "... 교통 딱지 위반)로 시작한다. 하지만 점차 데이터베이스화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] 검색\"처럼 유사 사례들을 검색할 수 있다. 예를 들어 사기죄 사건이 들어온다면 ...",
         "AMP": "... an open-source HTML framework developed by the AMP Open Source Project. [[Google]] created it as a competitor to Facebook Instant Articles and [[Apple]] ...",
-        "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] Widget Supports.",
+        "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth [[Apple]] [[Cartography|Maps]] and [[iOS]] Widget Supports.",
         "Boring Technologies": "... you are running a software business and you aren't at, like, [[Google]]-tier scale, throw it all in a mono repo",
         "Chromium": "... various textures inside of MathML code,\" points out Ian Kilpatrick of [[Google]]. \"Things like backgrounds working consistently so you can highlight or style ...",
         "Emails and Decentralized Protocols": "- [[Google]] has half a billion results for \"my email goes directly to ...",
         "Ethereum RPC as a Service": "- [[Google]] Cloud announced Blockchain Node Engine, a hosted RPC node for Ethereum. ...",
-        "GeoCheatCode": "- I noticed that when I manually typed things into the [[Google]] Maps search bar, it forgave a myriad of sins and did ...",
+        "GeoCheatCode": "- I noticed that when I manually typed things into the [[Google]] [[Cartography|Maps]] search bar, it forgave a myriad of sins and did ...",
         "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "- Links to cross-origin destinations are unsafe, [[Google]] Developers\\",
         "Google Analytics": "> [[Google]] Analytics is a web analytics service offered by Google that tracks ...",
         "Imagining WebNPU API": "... for some specific jobs. Other companies are catching up, such as [[Google]]'s Tensor. Unfortunately, so far, these chips are only accessible through native ...",
@@ -5746,7 +5774,7 @@ export const backlinks = {
     },
     "Someday": {
         "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter]] but you must",
-        "Apple Earth": "[[Someday]] [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] Maps and [[iOS]] ...",
+        "Apple Earth": "[[Someday]] [[Project]]. [[Google]] Earth app but with Smoo-ooth [[Apple]] [[Cartography|Maps]] and [[iOS]] ...",
         "Automemoji": "[[Someday]] [[Project]].",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App that presses `command s` every defined ...",
         "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
@@ -5975,6 +6003,8 @@ export const backlinks = {
         "2023-03-10": "## [[Hacker News|HN]]",
         "2023-03-20": "## [[Hacker News|HN]]",
         "2023-03-22": "## [[Hacker News]]",
+        "2023-03-29": "## [[Hacker News]]",
+        "2023-03-30": "## [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing [[Mail|email]] server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -6117,6 +6147,10 @@ export const backlinks = {
     },
     "Playings": {
         "2023-03-24": "- [[Playings]]"
+    },
+    "ChatGPT is a Blurry JPEG and We Need That": {
+        "2023-03-31": "- [[ChatGPT is a Blurry JPEG and We Need That]]",
+        "The Newtonian Correspondence": "| 03-31 | `EN` [[ChatGPT is a Blurry JPEG and We Need That]] <br/> `KO` [[ChatGPT는 흐릿한 이미지이지만 필요합니다]] | Tweet <br/> Linkedin  ..."
     },
     "Unicorn": {
         "Imoogi and Dragon Company": "The word [[Unicorn]] Company gives the company too much of a magical sentiment as ...",
@@ -7348,6 +7382,10 @@ export const backlinks = {
     },
     "DEC72A.png": {
         "Adding a Verified Mark on Apple Mail & Gmail": "![[DEC72A.png]]"
+    },
+    "D26259.png": {
+        "ChatGPT is a Blurry JPEG and We Need That": "![[D26259.png]]",
+        "ChatGPT는 흐릿한 이미지이지만 필요합니다": "![[D26259.png]]"
     },
     "6ECA95.gif": {
         "UI Designs for Editing Messages": "![[6ECA95.gif]]"
