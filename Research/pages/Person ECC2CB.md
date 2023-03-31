@@ -17,7 +17,7 @@ they are harming the community in the long term.
 
 **Problems of the local community.**
 They heavily rely on folk remedies and unverified medical knowledge.
-Their maps could be better organized, making GPS services almost impossible.
+Their [[Cartography|maps]] could be better organized, making GPS services almost impossible.
 Their medical system needs to be digitized, making patients go through all of the hospitals in the city to see if there is capacity.
 
 **Fat NGOs.**
