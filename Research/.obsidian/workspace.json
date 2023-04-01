@@ -52,28 +52,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-03-31.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "af396a92930fad0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -181,12 +168,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "af396a92930fad0d",
+  "active": "a320d0472b2e5876",
   "lastOpenFiles": [
     "journals/2023-03-31.md",
-    "pages/The Newtonian Correspondence.md",
-    "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
     "pages/ChatGPT is a Blurry JPEG and We Need That.md",
+    "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
+    "pages/The Newtonian Correspondence.md",
     "journals/2023-02-10.md",
     "pages/Blurry JPEG.md",
     "pages/Cartography.md",
