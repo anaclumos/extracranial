@@ -1,7 +1,6 @@
 ---
 lang: 'ko'
 slug: '/1D93D4'
-newsletter: '2023-04-01'
 ---
 
 [[Blurry JPEG]]은 SF계의 거장 테드 창이 작성한 훌륭한 글입니다.

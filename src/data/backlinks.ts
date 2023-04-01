@@ -1407,7 +1407,7 @@ export const backlinks = {
     },
     "역사의 종말 오류": {
         "2023-03-16": "- [[역사의 종말 오류]]",
-        "The Newtonian Correspondence": "| 03-16 | `EN` The End of History Fallacy <br/> `KO` [[역사의 종말 오류]]        | Tweet <br/> Linkedin ..."
+        "The Newtonian Correspondence": "| 03-16 | `EN` The End of History Fallacy <br/> `KO` [[역사의 종말 오류]]            ..."
     },
     "Data Science": {
         "2022-12-28": "- Facebook Notifications [[Data Science]] team at Meta",
@@ -3817,7 +3817,7 @@ export const backlinks = {
     },
     "Snooze Time of Alarm Clocks": {
         "2023-03-19": "- [[Snooze Time of Alarm Clocks]]",
-        "The Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 스누즈]] |     ..."
+        "The Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 스누즈]]      ..."
     },
     "Club Penguin": {
         "The Sudden Rise of Bondee": "... create a 3d character and design rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in a modern messenger form. It is ..."
@@ -4069,7 +4069,7 @@ export const backlinks = {
     },
     "알람 시계의 9분 스누즈": {
         "2023-03-19": "- [[알람 시계의 9분 스누즈]]",
-        "The Newtonian Correspondence": "| 03-19 | `EN` Snooze Time of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]] |           ..."
+        "The Newtonian Correspondence": "| 03-19 | `EN` Snooze Time of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]]            ..."
     },
     "Search-based Tools for Thought": {
         "Tools for Thought": "- [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature ..."
@@ -4759,7 +4759,7 @@ export const backlinks = {
         "Proposal of Research 2023-01-10": "... on a website, such as a video from YouTube or a [[Cartography|map]] from [[Google]] [[Cartography|Maps]]. However, iframes can also lead to performance problems ...",
         "Proposal of Research 2023-03-28": "... research proposal aims to investigate the concept of an \"efficiently finite\" [[Cartography|map]] containing all possible pixel combinations and its implications on human creativity ...",
         "Service Shimming": "... apps, so Jobs had to prepare separate iPhones for calls, music, [[Cartography|maps]], etc. He had to switch between each iPhone, pretending it was ...",
-        "Spacial Cognition": "> testing [[Cartography|map]] as website navigation bar  ",
+        "Spacial Cognition": "> testing [[Cartography|map]] as website navigation bar",
         "The Zenly Playbook": "From the Stay Home challenge in 2020 to a mass-scale 3D [[Cartography|map]] update in 2022, Zenly prepared for its upcoming future. However, the ...",
         "Transactional Globe": "[[Cartography|Map]] those into the globe on the main page:",
         "사회과부도": "> Themed series of [[Cartography|maps]]"

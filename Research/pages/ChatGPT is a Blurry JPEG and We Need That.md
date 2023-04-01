@@ -1,10 +1,9 @@
 ---
 lang: 'en'
 slug: '/AC83DD'
-newsletter: '2023-04-01'
 ---
 
-[Blurry JPEG]] is a thought-provoking article by science fiction legend Ted Chang. Ted makes an interesting analogy between large-scale language models (LLMs) like ChatGPT and lossy compression algorithms like blurry JPEG images. Ted argues that LLMs provide only a superficial understanding of a topic and can ultimately hinder the pursuit of true knowledge. **I disagree with the conclusion of this article.** We need to recognize that even blurry images have value for learning and knowledge acquisition because taking data from the real world and processing it is a very time-consuming process. Sometimes we need less detailed but more efficient representations to facilitate faster understanding and progress.
+[Blurry JPEG]] is a thought-provoking article by science fiction legend Ted Chang. Ted makes an interesting analogy between large-scale language models (LLMs) like ChatGPT and lossy compression algorithms like blurry JPEG images. Ted argues that LLMs provide only a superficial understanding of a topic and can ultimately hinder the pursuit of proper knowledge. **I disagree with the conclusion of this article.** We need to recognize that even blurry images have value for learning and knowledge acquisition because taking data from the real world and processing it is very time-consuming. Sometimes we need less detailed but more efficient representations to facilitate faster understanding and progress.
 
 If we squint, learning is ultimately a process of fetching data from the world, just like a computer retrieves information from data storage. If that's the case, then the speed at which information is fetched from any storage medium significantly impacts learning. I once did an exciting thought experiment where I visualized the calendar scale of a CPU. Imagine that one cycle of a CPU takes one second in CPU terms. (That's 4 trillion times slower.) So how long do everyday computer tasks take?
 
@@ -31,8 +30,8 @@ Now, let us consider a scenario where you are the CPU, and you need to fetch an 
 
 ![I used a popular image compression tool, Optimage, and it made the file 98% smaller.](../assets/8DDFF2.png)
 
-Now let's come back to ChatGPT: the "blurry image" loses quality due to compression, but it's much smaller in size and tens of thousands of times faster to decode. The same is true for ChatGPT: the quality of the information is often compromised, but as long as we're careful about accuracy, it can revolutionize the way we learn and process information.
+Now let's come back to ChatGPT: the "blurry image" loses quality due to compression, but it's much smaller and tens of thousands of times faster to decode. The same is true for ChatGPT: the quality of the information is often compromised, but as long as we're careful about the accuracy, it can revolutionize how we learn and process information.
 
 **In this way, we must embrace blurry JPEGs and use them wherever possible. This is the approach taken by internet companies to compress information and make it more accessible. Just as we strive to develop better compression algorithms, we must also push LLMs like ChatGPT further to make knowledge compression more efficient and affordable.**
 
-However, there is still the importance of learning. Many people question the necessity of knowledge when we have LLMs. The need for education is because storing information in our brains, like registers and caches, allows us to access it in CPU hours, not months or years. Relying on LLMs may be faster than traditional learning mechanisms, but it still lags by orders of magnitude compared to memorizing and processing information within our minds. Thus, while LLMs can serve as valuable tools in our pursuit of knowledge, they should complement, rather than replace, our innate capacity for learning and understanding.
+However, there is still the importance of learning. Many people question the necessity of knowledge when we have LLMs. The need for education is because storing information in our brains, like registers and caches, allows us to access it in CPU hours, not months or years. Relying on LLMs may be faster than traditional learning mechanisms, but it still needs to catch up to orders of magnitude compared to memorizing and processing information within our minds. Thus, while LLMs can serve as valuable tools in our pursuit of knowledge, they should complement, rather than replace, our innate capacity for learning and understanding.
