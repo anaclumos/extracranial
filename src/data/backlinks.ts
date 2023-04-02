@@ -636,6 +636,9 @@ export const backlinks = {
         "Computer Systems": "- [[Page Faults]]",
         "Virtual Memory": "- [[Page Faults]]"
     },
+    "Obsidian Print Force Pagebreak": {
+        "2023-04-01": "- [[Obsidian Print Force Pagebreak]]"
+    },
     "Convergence of Infinite Series": {
         "2023-01-31": "- [[Convergence of Infinite Series]]"
     },
@@ -1730,7 +1733,8 @@ export const backlinks = {
         "Android": "- [[Centering]]"
     },
     "hn.cho.sh": {
-        "2023-03-24": "- [[hn.cho.sh]]"
+        "2023-03-24": "- [[hn.cho.sh]]",
+        "2023-04-01": "- [[hn.cho.sh]]"
     },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
