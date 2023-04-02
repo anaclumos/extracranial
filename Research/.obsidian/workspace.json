@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
+                "file": "journals/2023-04-01.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d826c69804cd675e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-04-01.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md"
+                "file": "journals/2023-04-01.md"
               }
             }
           },
@@ -137,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
+                "file": "journals/2023-04-01.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,11 +181,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a320d0472b2e5876",
+  "active": "d826c69804cd675e",
   "lastOpenFiles": [
+    "pages/PA3 Design Doc.md",
+    "journals/2023-04-01.md",
+    "pages/Obsidian Print Force Pagebreak.md",
+    "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
     "journals/2023-03-31.md",
     "pages/ChatGPT is a Blurry JPEG and We Need That.md",
-    "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
     "pages/The Newtonian Correspondence.md",
     "journals/2023-02-10.md",
     "pages/Blurry JPEG.md",
@@ -195,9 +211,6 @@
     "pages/AI 단톡방.md",
     "pages/The Sparkle Button.md",
     "pages/Proposal of Research 2023-03-28.md",
-    "pages/Proposal of Research 2023-01-10.md",
-    "pages/Prompt Injection.md",
-    "journals/2023-03-27.md",
     "assets/AEC99E.png",
     "assets/DF78E9.png",
     "assets/819907.png",
