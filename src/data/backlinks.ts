@@ -1734,7 +1734,8 @@ export const backlinks = {
     },
     "hn.cho.sh": {
         "2023-03-24": "- [[hn.cho.sh]]",
-        "2023-04-01": "- [[hn.cho.sh]]"
+        "2023-04-01": "- [[hn.cho.sh]]",
+        "2023-04-02": "... should probably add a sidebar chat feature and a self-promotion of [[hn.cho.sh]]."
     },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
@@ -3334,6 +3335,7 @@ export const backlinks = {
         "2023-02-11": "- [[Bing Chat for All Browsers]]",
         "2023-02-16": "Updated [[Bing Chat for All Browsers]] to 1.0.1!",
         "2023-02-19": "- [[Bing Chat for All Browsers]]",
+        "2023-04-02": "[[Bing Chat for All Browsers]] is about to break 100K WAU. I should probably add a ...",
         "Bing Chat for All Browsers in Japan": "- [[Bing Chat for All Browsers]]",
         "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
         "Search AI": "- [[Bing Chat for All Browsers]]",
