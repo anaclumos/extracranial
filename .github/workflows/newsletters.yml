@@ -1,11 +1,11 @@
 name: Schedule Newsletter
-on:
-  schedule:
-    - cron: '0 0 * * *'
-  push:
-    branches:
-      - main
-
+on: 
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Schedule Newsletter
+        default: v1.0.0
+        required: true
 jobs:
   send-newsletter:
     environment: production
