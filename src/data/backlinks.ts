@@ -1735,7 +1735,8 @@ export const backlinks = {
     "hn.cho.sh": {
         "2023-03-24": "- [[hn.cho.sh]]",
         "2023-04-01": "- [[hn.cho.sh]]",
-        "2023-04-02": "... should probably add a sidebar chat feature and a self-promotion of [[hn.cho.sh]]."
+        "2023-04-02": "... should probably add a sidebar chat feature and a self-promotion of [[hn.cho.sh]].",
+        "2023-04-03": "[[hn.cho.sh]]에 조금 더 예쁜 이름이 필요하다."
     },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
