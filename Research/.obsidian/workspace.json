@@ -4,76 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "07fd2419350d6a7c",
+        "id": "8a034a6867ad024b",
         "type": "tabs",
         "children": [
           {
-            "id": "e917280735a2932f",
+            "id": "539e5ac69dafc95e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-07-05.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "160a69106c8fc82a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-03-31.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "604e04182a879779",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/ChatGPT is a Blurry JPEG and We Need That.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a320d0472b2e5876",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-04-01.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d826c69804cd675e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-04-02.md",
+                "file": "journals/2023-04-03.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-04-02.md"
+                "file": "journals/2023-04-03.md"
               }
             }
           },
@@ -150,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-04-02.md",
+                "file": "journals/2023-04-03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,15 +128,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d826c69804cd675e",
+  "active": "539e5ac69dafc95e",
   "lastOpenFiles": [
-    "journals/2023-04-01.md",
     "journals/2023-04-02.md",
+    "journals/2023-04-03.md",
+    "journals/2022-07-05.md",
+    "pages/ChatGPT is a Blurry JPEG and We Need That.md",
+    "journals/2023-04-01.md",
     "pages/PA3 Design Doc.md",
     "pages/Obsidian Print Force Pagebreak.md",
     "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
     "journals/2023-03-31.md",
-    "pages/ChatGPT is a Blurry JPEG and We Need That.md",
     "pages/The Newtonian Correspondence.md",
     "journals/2023-02-10.md",
     "pages/Blurry JPEG.md",
@@ -198,7 +147,6 @@
     "assets/D26259.png",
     "pages/Spacial Cognition.md",
     "pages/YAML.md",
-    "journals/2022-07-05.md",
     "journals/2023-03-30.md",
     "journals/2023-03-29.md",
     "journals/2023-03-28.md",
@@ -210,7 +158,6 @@
     "pages/글감.md",
     "pages/You can do everything on computers but you really should not.md",
     "pages/AI 단톡방.md",
-    "pages/The Sparkle Button.md",
     "assets/AEC99E.png",
     "assets/DF78E9.png",
     "assets/819907.png",
