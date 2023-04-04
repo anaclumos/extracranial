@@ -30,3 +30,10 @@ Unsure what happened, but it seems like a lot of 🇯🇵 people like my [[WebEx
 Still very dominant from [[일본|Japan]]
 
 ![[737A1A.png]]
+
+## [[2023-04-03]]
+
+주간 사용자가 10만명이 돌파한 지금도 일본에서 가장 많이 사용되고 있다.
+
+![[979B83.png]]
+![[894BC3.png]]
