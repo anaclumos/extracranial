@@ -22,7 +22,7 @@ export const backlinks = {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- Mail|Letter to Mr. Alexander Obenauer on [[2022-10-12]]"
     },
     "2023-03-24": {
-        "Hacker News GPT": "## [[2023-03-24]]"
+        "hn.cho.sh 개발 기록": "## [[2023-03-24]]"
     },
     "2023-01-30": {
         "0003 Longest Substring Without Repeating Characters": "Solved at: [[2023-01-30]]",
@@ -51,7 +51,7 @@ export const backlinks = {
         "Person 88B488": "- Interviewed on [[2022-09-06]]"
     },
     "2023-03-20": {
-        "Hacker News GPT": "## [[2023-03-20]]"
+        "hn.cho.sh 개발 기록": "## [[2023-03-20]]"
     },
     "2022-10-16": {
         "Dynamic Island on the Web": "## [[2022-10-16]]"
@@ -68,7 +68,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "## [[2022-12-27]]"
     },
     "2023-03-31": {
-        "Hacker News GPT": "## [[2023-03-31]]"
+        "hn.cho.sh 개발 기록": "## [[2023-03-31]]"
     },
     "2023-01-25": {
         "하늘땅사람 업데이트 기록": "## 1.0.8 [[2023-01-25]]"
@@ -87,7 +87,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- [[2020-11-20]]"
     },
     "2023-03-21": {
-        "Hacker News GPT": "## [[2023-03-21]] — [[2023-03-23]]"
+        "hn.cho.sh 개발 기록": "## [[2023-03-21]] — [[2023-03-23]]"
     },
     "2022-10-23": {
         "0141 Linked List Cycle": "Solved at: [[2022-10-23]]"
@@ -124,7 +124,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- [[2020-02-12]]"
     },
     "2023-03-25": {
-        "Hacker News GPT": "## [[2023-03-25]]"
+        "hn.cho.sh 개발 기록": "## [[2023-03-25]]"
     },
     "2023-01-31": {
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-01-31]]: 2차 면접 봤다"
@@ -185,6 +185,9 @@ export const backlinks = {
     },
     "2016-04-01": {
         "바이올린 켜면 바이올레이션": "[[2016-04-01]]에 게재된 [[재학생일기]]이다."
+    },
+    "2023-04-04": {
+        "hn.cho.sh 개발 기록": "## [[2023-04-04]]"
     },
     "2022-09-29": {
         "한자 타자기": "- Started reading [[2022-09-29]]"
@@ -255,7 +258,7 @@ export const backlinks = {
     },
     "2023-04-03": {
         "Bing Chat for All Browsers in Japan": "## [[2023-04-03]]",
-        "Hacker News GPT": "## [[2023-04-03]]"
+        "hn.cho.sh 개발 기록": "## [[2023-04-03]]"
     },
     "2022-07-19": {
         "2022-07-21": "See [[2022-07-19]].",
@@ -285,7 +288,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- [[2020-11-19]]"
     },
     "2023-04-02": {
-        "Hacker News GPT": "## [[2023-04-02]]"
+        "hn.cho.sh 개발 기록": "## [[2023-04-02]]"
     },
     "2022-07-18": {
         "Better Docusaurus": "- Render `Figcaption` with `img alt` tags on [[2022-07-18]] Commit"
@@ -427,7 +430,7 @@ export const backlinks = {
         "Curve Fitting for Charts": "## On [[2022-10-21]], with [[Simple Analytics]]"
     },
     "2023-03-23": {
-        "Hacker News GPT": "## 2023-03-21 — [[2023-03-23]]"
+        "hn.cho.sh 개발 기록": "## 2023-03-21 — [[2023-03-23]]"
     },
     "2023-02-19": {
         "Bing Chat for All Browsers in Japan": "## [[2023-02-19]]"
@@ -436,7 +439,8 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "## [[2023-01-03]]"
     },
     "Algorithmic Recommendation Engine for Texts": {
-        "2023-02-02": "- [[Algorithmic Recommendation Engine for Texts]]"
+        "2023-02-02": "- [[Algorithmic Recommendation Engine for Texts]]",
+        "hn.cho.sh 개발 기록": "- [[Algorithmic Recommendation Engine for Texts]]"
     },
     "Tailscale": {
         "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, \"Best VPN for developers.\"",
@@ -634,7 +638,7 @@ export const backlinks = {
         "2023-02-19": "- [[Bing Chat for All Browsers in Japan]]",
         "2023-02-21": "- [[Bing Chat for All Browsers in Japan]]",
         "2023-03-10": "- [[Bing Chat for All Browsers in Japan]]",
-        "Hacker News GPT": "그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 일본에서 이런 프로덕트 반응이 잘 오는 것 같았다."
+        "hn.cho.sh 개발 기록": "그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 일본에서 이런 프로덕트 반응이 잘 오는 것 같았다."
     },
     "Framer": {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 장점"
@@ -747,7 +751,7 @@ export const backlinks = {
         "SendGrid": "... and London. The company went public with a debut on the [[New York City|New York]] Stock Exchange on November 16, 2017. Twilio acquired SendGrid in February ..."
     },
     "Twitter Link Preview": {
-        "Hacker News GPT": "[[Twitter Link Preview]]를 추가했다."
+        "hn.cho.sh 개발 기록": "[[Twitter Link Preview]]를 추가했다."
     },
     "관성 질량과 중력 질량": {
         "2023-02-07": "- [[관성 질량과 중력 질량]]",
@@ -1375,11 +1379,6 @@ export const backlinks = {
         "2022-10-27": "- [[Web Graphics]]",
         "2022-11-12": "- Bubbles: [[Web Graphics]]"
     },
-    "Hacker News GPT": {
-        "2023-03-20": "- [[Hacker News GPT]]",
-        "2023-04-02": "[[Hacker News GPT]]",
-        "2023-04-03": "[[Hacker News GPT]]"
-    },
     "서울 프로": {
         "2022-08-01": "- [[서울 프로]]",
         "Pretendard의 아쉬운 점": "이는 자세하게 확인하지 못했으나 [[서울 프로]]를 개발할 때 알아보고 고려하려고 했던 문제이다."
@@ -1766,7 +1765,7 @@ export const backlinks = {
     "hn.cho.sh": {
         "2023-03-24": "- [[hn.cho.sh]]",
         "2023-04-01": "- [[hn.cho.sh]]",
-        "Hacker News GPT": "... should probably add a sidebar chat feature and a self-promotion of [[hn.cho.sh]]."
+        "hn.cho.sh 개발 기록": "... Browsers가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
     },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
@@ -2679,7 +2678,8 @@ export const backlinks = {
     },
     "Can we ever build TikTok for Text": {
         "2023-02-27": "- [[Can we ever build TikTok for Text]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-27 | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]   ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-27 | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]   ...",
+        "hn.cho.sh 개발 기록": "- [[Can we ever build TikTok for Text]]"
     },
     "CSS Inject": {
         "2023-03-17": "- [[CSS Inject]]"
@@ -3365,10 +3365,10 @@ export const backlinks = {
         "2023-02-16": "Updated [[Bing Chat for All Browsers]] to 1.0.1!",
         "2023-02-19": "- [[Bing Chat for All Browsers]]",
         "Bing Chat for All Browsers in Japan": "- [[Bing Chat for All Browsers]]",
-        "Hacker News GPT": "[[Bing Chat for All Browsers]] is about to break 100K WAU. I should probably add a ...",
         "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
         "Search AI": "- [[Bing Chat for All Browsers]]",
-        "Unchained Bing": "A competitor to [[Bing Chat for All Browsers]]."
+        "Unchained Bing": "A competitor to [[Bing Chat for All Browsers]].",
+        "hn.cho.sh 개발 기록": "[[Bing Chat for All Browsers]]가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 ..."
     },
     "의대 쏠림": {
         "2023-02-15": "- [[의대 쏠림]]",
@@ -3814,6 +3814,7 @@ export const backlinks = {
         "Algorithmic Recommendation Engine for Texts": "- [[Artifact]] can feel like a throwback. Inspired by TikTok's success, big social ...",
         "Can we ever build TikTok for Text": "... Mike Krieger, the co-founders of Instagram, launched a new app called [[Artifact]]. Artifact is a personalized news feed app that uses [[ML|machine learning]] ...",
         "The Era of Invites": "... people asked me if I had any invites for Texts, Tana, [[Artifact]], and so on. But things did not work this way before ...",
+        "hn.cho.sh 개발 기록": "- [[Artifact]]",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "한 달 전, 인스타그램의 공동 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. Artifact|아티팩트는 [[ML|머신 러닝]]으로 관심사 기반 뉴스를 추천해주는 앱이다. ...",
         "초대장의 시대": "Amie 뿐만 아니라 Texts, Tana, [[Artifact]]까지 초대장이 있냐고 연락을 받았다. 하지만 원래는 이렇게 복잡하지 않았는데! 내부 알파 ..."
     },
@@ -4025,7 +4026,8 @@ export const backlinks = {
     },
     "우린 텍스트 틱톡을 평생 만들 수 있을까": {
         "2023-02-27": "- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Can we ever build TikTok for Text <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Can we ever build TikTok for Text <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]            ...",
+        "hn.cho.sh 개발 기록": "- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]"
     },
     "Diagram Labs": {
         "2022-12-16": "- [[Diagram Labs]]"
@@ -5005,6 +5007,12 @@ export const backlinks = {
         "2023-02-02": "- [[서비스 시밍]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-02 | 🇬🇧 Service Shimming <br/> 🇰🇷 [[서비스 시밍]]            ...",
         "기술 할부 결제": "이 접근 방식은 만들 때까지 만든 척하는 [[서비스 시밍]]과 유사하다."
+    },
+    "hn.cho.sh 개발 기록": {
+        "2023-03-20": "- [[hn.cho.sh 개발 기록]]",
+        "2023-04-02": "[[hn.cho.sh 개발 기록]]",
+        "2023-04-03": "[[hn.cho.sh 개발 기록]]",
+        "2023-04-04": "[[hn.cho.sh 개발 기록]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -6126,6 +6134,7 @@ export const backlinks = {
         "2023-03-06": "- [[NewsGPT]]",
         "Can we ever build TikTok for Text": "... no better. They should've done something more breaking, for example, a [[NewsGPT]].",
         "Project": "- [[NewsGPT]]",
+        "hn.cho.sh 개발 기록": "- [[NewsGPT]]",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 알고리즘 추천 기능을 제공하고 있는데, 아티팩트도 크게 다르지 않다. 예를 들어 [[NewsGPT|챗봇 기반 뉴스 앱]]과 같이 좀 더 획기적인 무언가를 했어야 했다."
     },
     "Emoji": {
@@ -6773,11 +6782,11 @@ export const backlinks = {
     },
     "819907.png": {
         "2023-03-25": "![[819907.png]]",
-        "Hacker News GPT": "![[819907.png]]"
+        "hn.cho.sh 개발 기록": "![[819907.png]]"
     },
     "DF78E9.png": {
         "2023-03-25": "![[DF78E9.png]]",
-        "Hacker News GPT": "![[DF78E9.png]]"
+        "hn.cho.sh 개발 기록": "![[DF78E9.png]]"
     },
     "81F6FA.png": {
         "2023-01-31": "![[81F6FA.png]]"
@@ -6855,7 +6864,7 @@ export const backlinks = {
     "979B83.png": {
         "2023-04-03": "![[979B83.png]]",
         "Bing Chat for All Browsers in Japan": "![[979B83.png]]",
-        "Hacker News GPT": "![[979B83.png]]"
+        "hn.cho.sh 개발 기록": "![[979B83.png]]"
     },
     "8B7073.png": {
         "2022-11-14": "![[8B7073.png]]"
@@ -7192,12 +7201,6 @@ export const backlinks = {
     },
     "6E5C4F.png": {
         "Web Graphics": "![[6E5C4F.png]]"
-    },
-    "DCE7FC.png": {
-        "Hacker News GPT": "![[DCE7FC.png]]"
-    },
-    "DC371E.png": {
-        "Hacker News GPT": "![[DC371E.png]]"
     },
     "4FA1C6.png": {
         "Font Features": "![[4FA1C6.png]]"
@@ -7879,6 +7882,15 @@ export const backlinks = {
     },
     "DAB721.png": {
         "My Raycast Wrapped of 2022": "![[DAB721.png]]"
+    },
+    "DCE7FC.png": {
+        "hn.cho.sh 개발 기록": "![[DCE7FC.png]]"
+    },
+    "DC371E.png": {
+        "hn.cho.sh 개발 기록": "![[DC371E.png]]"
+    },
+    "C1EA65.png": {
+        "hn.cho.sh 개발 기록": "![[C1EA65.png]]"
     },
     "C25819.png": {
         "Superbrain": "![[C25819.png]]"

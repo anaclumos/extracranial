@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "091c491360b82f18",
+        "id": "55703277f3e8aa7e",
         "type": "tabs",
         "children": [
           {
-            "id": "9e1191204affc85e",
+            "id": "9415bb5efbe42b64",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -120,10 +120,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4432bb74290dc492",
+  "active": "9415bb5efbe42b64",
   "lastOpenFiles": [
-    "pages/Hacker News GPT.md",
     "journals/2023-04-04.md",
+    "pages/hn.cho.sh 개발 기록.md",
+    "assets/C1EA65.png",
+    "pages/NewsGPT.md",
+    "pages/Artifact.md",
+    "pages/Algorithmic Recommendation Engine for Texts.md",
+    "pages/우린 텍스트 틱톡을 평생 만들 수 있을까.md",
+    "pages/Can we ever build TikTok for Text.md",
     "pages/Bing Chat for All Browsers in Japan.md",
     "assets/894BC3.png",
     "journals/2023-04-03.md",
@@ -147,16 +153,10 @@
     "journals/2023-03-22.md",
     "journals/2023-03-29.md",
     "journals/2023-03-30.md",
-    "pages/Twitter Link Preview.md",
-    "journals/2022-07-05.md",
-    "pages/ChatGPT is a Blurry JPEG and We Need That.md",
-    "pages/PA3 Design Doc.md",
-    "pages/Obsidian Print Force Pagebreak.md",
     "assets/8DDFF2.png",
     "assets/D26259.png",
     "assets/AEC99E.png",
     "assets/DF78E9.png",
-    "assets/819907.png",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
