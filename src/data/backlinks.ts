@@ -21,6 +21,9 @@ export const backlinks = {
     "2022-10-12": {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- Mail|Letter to Mr. Alexander Obenauer on [[2022-10-12]]"
     },
+    "2023-03-24": {
+        "Hacker News GPT": "## [[2023-03-24]]"
+    },
     "2023-01-30": {
         "0003 Longest Substring Without Repeating Characters": "Solved at: [[2023-01-30]]",
         "0015 3Sum": "Solved at: [[2023-01-30]]",
@@ -47,6 +50,9 @@ export const backlinks = {
         "Person 1B5A5B": "- Interviewed on [[2022-09-06]]",
         "Person 88B488": "- Interviewed on [[2022-09-06]]"
     },
+    "2023-03-20": {
+        "Hacker News GPT": "## [[2023-03-20]]"
+    },
     "2022-10-16": {
         "Dynamic Island on the Web": "## [[2022-10-16]]"
     },
@@ -60,6 +66,9 @@ export const backlinks = {
         "2022년 11월 한 달간 일기 쓰기": "[[2022-12-27]] 회고를 해본다.",
         "Person 542AD7": "Had a conversation with Alan Chan on [[2022-12-27]].",
         "하늘땅사람 개발 기록": "## [[2022-12-27]]"
+    },
+    "2023-03-31": {
+        "Hacker News GPT": "## [[2023-03-31]]"
     },
     "2023-01-25": {
         "하늘땅사람 업데이트 기록": "## 1.0.8 [[2023-01-25]]"
@@ -76,6 +85,9 @@ export const backlinks = {
     },
     "2020-11-20": {
         "프로젝트 어덕행덕": "- [[2020-11-20]]"
+    },
+    "2023-03-21": {
+        "Hacker News GPT": "## [[2023-03-21]] — [[2023-03-23]]"
     },
     "2022-10-23": {
         "0141 Linked List Cycle": "Solved at: [[2022-10-23]]"
@@ -110,6 +122,9 @@ export const backlinks = {
     },
     "2020-02-12": {
         "프로젝트 어덕행덕": "- [[2020-02-12]]"
+    },
+    "2023-03-25": {
+        "Hacker News GPT": "## [[2023-03-25]]"
     },
     "2023-01-31": {
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-01-31]]: 2차 면접 봤다"
@@ -238,6 +253,10 @@ export const backlinks = {
     "2020-11-09": {
         "프로젝트 어덕행덕": "- [[2020-11-09]]"
     },
+    "2023-04-03": {
+        "Bing Chat for All Browsers in Japan": "## [[2023-04-03]]",
+        "Hacker News GPT": "## [[2023-04-03]]"
+    },
     "2022-07-19": {
         "2022-07-21": "See [[2022-07-19]].",
         "Developing Review Notes for Obsidian": "[[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다."
@@ -264,6 +283,9 @@ export const backlinks = {
     },
     "2020-11-19": {
         "프로젝트 어덕행덕": "- [[2020-11-19]]"
+    },
+    "2023-04-02": {
+        "Hacker News GPT": "## [[2023-04-02]]"
     },
     "2022-07-18": {
         "Better Docusaurus": "- Render `Figcaption` with `img alt` tags on [[2022-07-18]] Commit"
@@ -403,6 +425,9 @@ export const backlinks = {
     },
     "2022-10-21": {
         "Curve Fitting for Charts": "## On [[2022-10-21]], with [[Simple Analytics]]"
+    },
+    "2023-03-23": {
+        "Hacker News GPT": "## 2023-03-21 — [[2023-03-23]]"
     },
     "2023-02-19": {
         "Bing Chat for All Browsers in Japan": "## [[2023-02-19]]"
@@ -608,7 +633,8 @@ export const backlinks = {
     "Bing Chat for All Browsers in Japan": {
         "2023-02-19": "- [[Bing Chat for All Browsers in Japan]]",
         "2023-02-21": "- [[Bing Chat for All Browsers in Japan]]",
-        "2023-03-10": "- [[Bing Chat for All Browsers in Japan]]"
+        "2023-03-10": "- [[Bing Chat for All Browsers in Japan]]",
+        "Hacker News GPT": "그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 일본에서 이런 프로덕트 반응이 잘 오는 것 같았다."
     },
     "Framer": {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 장점"
@@ -719,6 +745,9 @@ export const backlinks = {
     "New York City": {
         "2023-01-13": "- [[New York City]]",
         "SendGrid": "... and London. The company went public with a debut on the [[New York City|New York]] Stock Exchange on November 16, 2017. Twilio acquired SendGrid in February ..."
+    },
+    "Twitter Link Preview": {
+        "Hacker News GPT": "[[Twitter Link Preview]]를 추가했다."
     },
     "관성 질량과 중력 질량": {
         "2023-02-07": "- [[관성 질량과 중력 질량]]",
@@ -1346,6 +1375,11 @@ export const backlinks = {
         "2022-10-27": "- [[Web Graphics]]",
         "2022-11-12": "- Bubbles: [[Web Graphics]]"
     },
+    "Hacker News GPT": {
+        "2023-03-20": "- [[Hacker News GPT]]",
+        "2023-04-02": "[[Hacker News GPT]]",
+        "2023-04-03": "[[Hacker News GPT]]"
+    },
     "서울 프로": {
         "2022-08-01": "- [[서울 프로]]",
         "Pretendard의 아쉬운 점": "이는 자세하게 확인하지 못했으나 [[서울 프로]]를 개발할 때 알아보고 고려하려고 했던 문제이다."
@@ -1617,9 +1651,6 @@ export const backlinks = {
     "Dioxus": {
         "2022-12-28": "- [[Dioxus]]"
     },
-    "TourScout Identity Management Development Proposal": {
-        "2023-03-27": "[[TourScout Identity Management Development Proposal]]"
-    },
     "불가사리 재단": {
         "Person 960D1D": "- [[불가사리 재단]]?"
     },
@@ -1735,8 +1766,7 @@ export const backlinks = {
     "hn.cho.sh": {
         "2023-03-24": "- [[hn.cho.sh]]",
         "2023-04-01": "- [[hn.cho.sh]]",
-        "2023-04-02": "... should probably add a sidebar chat feature and a self-promotion of [[hn.cho.sh]].",
-        "2023-04-03": "[[hn.cho.sh]]에 조금 더 예쁜 이름이 필요하다."
+        "Hacker News GPT": "... should probably add a sidebar chat feature and a self-promotion of [[hn.cho.sh]]."
     },
     "Internetworking": {
         "2022-08-28": "- [[Internetworking]]",
@@ -2780,8 +2810,6 @@ export const backlinks = {
         "2023-02-11": "## [[Project]]",
         "2023-02-22": "## [[Project]]",
         "2023-03-06": "- [[Project]]",
-        "2023-03-22": "## [[Project]]",
-        "2023-03-30": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. [[Google]] created it as a competitor to Facebook Instant Articles and ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you must",
@@ -3336,8 +3364,8 @@ export const backlinks = {
         "2023-02-11": "- [[Bing Chat for All Browsers]]",
         "2023-02-16": "Updated [[Bing Chat for All Browsers]] to 1.0.1!",
         "2023-02-19": "- [[Bing Chat for All Browsers]]",
-        "2023-04-02": "[[Bing Chat for All Browsers]] is about to break 100K WAU. I should probably add a ...",
         "Bing Chat for All Browsers in Japan": "- [[Bing Chat for All Browsers]]",
+        "Hacker News GPT": "[[Bing Chat for All Browsers]] is about to break 100K WAU. I should probably add a ...",
         "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
         "Search AI": "- [[Bing Chat for All Browsers]]",
         "Unchained Bing": "A competitor to [[Bing Chat for All Browsers]]."
@@ -6009,9 +6037,6 @@ export const backlinks = {
         "2023-03-06": "## [[Hacker News|HN]]",
         "2023-03-10": "## [[Hacker News|HN]]",
         "2023-03-20": "## [[Hacker News|HN]]",
-        "2023-03-22": "## [[Hacker News]]",
-        "2023-03-29": "## [[Hacker News]]",
-        "2023-03-30": "## [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing [[Mail|email]] server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -6747,10 +6772,12 @@ export const backlinks = {
         "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does not support. I have another python ..."
     },
     "819907.png": {
-        "2023-03-25": "![[819907.png]]"
+        "2023-03-25": "![[819907.png]]",
+        "Hacker News GPT": "![[819907.png]]"
     },
     "DF78E9.png": {
-        "2023-03-25": "![[DF78E9.png]]"
+        "2023-03-25": "![[DF78E9.png]]",
+        "Hacker News GPT": "![[DF78E9.png]]"
     },
     "81F6FA.png": {
         "2023-01-31": "![[81F6FA.png]]"
@@ -6824,6 +6851,11 @@ export const backlinks = {
     "D0A35A.gif": {
         "2022-11-10": "![[D0A35A.gif]]",
         "Dynamic Island on the Web": "![[D0A35A.gif]]"
+    },
+    "979B83.png": {
+        "2023-04-03": "![[979B83.png]]",
+        "Bing Chat for All Browsers in Japan": "![[979B83.png]]",
+        "Hacker News GPT": "![[979B83.png]]"
     },
     "8B7073.png": {
         "2022-11-14": "![[8B7073.png]]"
@@ -6982,6 +7014,9 @@ export const backlinks = {
     },
     "737A1A.png": {
         "Bing Chat for All Browsers in Japan": "![[737A1A.png]]"
+    },
+    "894BC3.png": {
+        "Bing Chat for All Browsers in Japan": "![[894BC3.png]]"
     },
     "A3BB1E.png": {
         "Framer": "![[A3BB1E.png]]"
@@ -7158,6 +7193,12 @@ export const backlinks = {
     "6E5C4F.png": {
         "Web Graphics": "![[6E5C4F.png]]"
     },
+    "DCE7FC.png": {
+        "Hacker News GPT": "![[DCE7FC.png]]"
+    },
+    "DC371E.png": {
+        "Hacker News GPT": "![[DC371E.png]]"
+    },
     "4FA1C6.png": {
         "Font Features": "![[4FA1C6.png]]"
     },
@@ -7194,9 +7235,6 @@ export const backlinks = {
     },
     "60A69F.png": {
         "Dioxus": "![[60A69F.png]]"
-    },
-    "AEC99E.png": {
-        "TourScout Identity Management Development Proposal": "![[AEC99E.png]]"
     },
     "BA8C9D.png": {
         "벌금과 물가": "- ![[BA8C9D.png]]"

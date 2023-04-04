@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8a034a6867ad024b",
+        "id": "091c491360b82f18",
         "type": "tabs",
         "children": [
           {
-            "id": "539e5ac69dafc95e",
+            "id": "9e1191204affc85e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-04-03.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2023-04-03.md"
-              }
+              "state": {}
             }
           },
           {
@@ -97,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-04-03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,46 +120,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "539e5ac69dafc95e",
+  "active": "4432bb74290dc492",
   "lastOpenFiles": [
-    "journals/2023-04-02.md",
+    "pages/Hacker News GPT.md",
+    "journals/2023-04-04.md",
+    "pages/Bing Chat for All Browsers in Japan.md",
+    "assets/894BC3.png",
     "journals/2023-04-03.md",
+    "assets/248BD6.png",
+    "assets/979B83.png",
+    "journals/2023-04-02.md",
+    "journals/2023-04-01.md",
+    "journals/2023-03-31.md",
+    "journals/2023-03-28.md",
+    "journals/2023-03-27.md",
+    "pages/TourScout Identity Management Development Proposal.md",
+    "journals/2023-03-25.md",
+    "journals/2023-03-24.md",
+    "journals/2023-03-23.md",
+    "journals/2023-03-21.md",
+    "journals/2023-03-20.md",
+    "journals/2023-03-19.md",
+    "assets/DC371E.png",
+    "assets/DCE7FC.png",
+    "pages/Product Skills.md",
+    "journals/2023-03-22.md",
+    "journals/2023-03-29.md",
+    "journals/2023-03-30.md",
+    "pages/Twitter Link Preview.md",
     "journals/2022-07-05.md",
     "pages/ChatGPT is a Blurry JPEG and We Need That.md",
-    "journals/2023-04-01.md",
     "pages/PA3 Design Doc.md",
     "pages/Obsidian Print Force Pagebreak.md",
-    "pages/ChatGPT는 흐릿한 이미지이지만 필요합니다.md",
-    "journals/2023-03-31.md",
-    "pages/The Newtonian Correspondence.md",
-    "journals/2023-02-10.md",
-    "pages/Blurry JPEG.md",
-    "pages/Cartography.md",
     "assets/8DDFF2.png",
     "assets/D26259.png",
-    "pages/Spacial Cognition.md",
-    "pages/YAML.md",
-    "journals/2023-03-30.md",
-    "journals/2023-03-29.md",
-    "journals/2023-03-28.md",
-    "pages/Learning Execution Semantics from Micro-Traces for Binary Similarity.md",
-    "pages/Interactive ML Models.md",
-    "pages/Automemoji.md",
-    "pages/Someday.md",
-    "pages/Project.md",
-    "pages/글감.md",
-    "pages/You can do everything on computers but you really should not.md",
-    "pages/AI 단톡방.md",
     "assets/AEC99E.png",
     "assets/DF78E9.png",
     "assets/819907.png",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
-    "assets/F28530.png",
-    "assets/173737.png",
-    "assets/6C0C3A.png",
-    "assets/9EEB88.png",
-    "assets/3F79CC.png",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
     "assets/16CE9C.png.sb-dd74fcb5-3MEZ3S"
   ]
