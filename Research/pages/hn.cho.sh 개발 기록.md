@@ -3,6 +3,16 @@ lang: 'en'
 slug: '/8E98AE'
 ---
 
+## 이전
+
+아티팩트에 대한 내 대답.
+
+- [[Artifact]]
+- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]
+- [[Algorithmic Recommendation Engine for Texts]]
+- [[Can we ever build TikTok for Text]]
+- [[NewsGPT]]
+
 ## [[2023-03-20]]
 
 해커뉴스를 읽고 있다가 이걸 AI에게 요약해보고 있었다.
@@ -24,18 +34,22 @@ GitHub Actions로 빌드하는 방식으로.
 ![[819907.png]]
 ![[DF78E9.png]]
 
-This is honestly funny... But will need to figure out a solution soon.
+ㅋㅋㅋㅋㅋㅋ 진지해서 웃긴데 해결책은 찾아야겠다.
 
 ## [[2023-03-31]]
 
-거의 완성했다.
+며칠 전의 문제는 프롬프트를 조금 더 정교하게 설계하는 방향으로 어느 정도 해결했다. 안되면 모델을 Fine-tuning하려고 알아보고 있다. 참고해볼만한 자료:
+
+- [Fine-tune LLaMA to speak like Homer Simpson](https://replicate.com/blog/fine-tune-llama-to-speak-like-homer-simpson)
+- [Fine-tuning - OpenAI API](https://platform.openai.com/docs/guides/fine-tuning)
+
 OpenAI를 가지고 많이 놀았다.
 그와중에 DeepL은 API를 열어주지 않고 있었다.
 결제 과정에서 오류가 나는 것을 일주일 째 방치하는 SaaS 기업이라니.
 
 ## [[2023-04-02]]
 
-[[Bing Chat for All Browsers]] is about to break 100K WAU. I should probably add a sidebar chat feature and a self-promotion of [[hn.cho.sh]].
+[[Bing Chat for All Browsers]]가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다.
 
 ## [[2023-04-03]]
 
@@ -55,3 +69,13 @@ i18n을 Sitemap과 HTML Head `hreflang`으로 자동 생성되도록 만들었�
 그리고 [[Bing Chat for All Browsers]]도 WAU 10만을 넘었다.
 
 ![[979B83.png]]
+
+## [[2023-04-04]]
+
+구독자들의 이메일을 보며 되게 다양한 회사가 있음을 느꼈다.
+유럽에 기반한 [Proton](https://proton.me/)이라는 회사 및 덕덕고 이메일이 존재한다는 것도 이번에 알게 되었고,
+이메일에 `+tag` 오퍼레이터를 사용해서 이메일을 정리하는 사람들, 본인의 도메인을 사용하는 인디 해커들, 일회용 이메일이나 RSS 피드 변환 앱 ([Kill the Newsletter!](https://kill-the-newsletter.com/))을 적극 활용하시는 분도 있으셨다. 인공지능 회사, 자율주행 회사, 블록체인 회사, VC, 웹툰 회사, 고전적 자산운용사, 그 뿐만 아니라 연예기획사와 은행, 출판사 분들도 있었다.
+
+![[C1EA65.png]]
+
+그나저나 아직 조금 더 지켜봐야겠지만, 해외 시장에서는 전혀 반응이 없다. PMF에서 P랑 F는 찾았는데 아직 M을 뚫는 방법을 모르겠다. 생각해보면 미디어의 소유주에겐 항상 이렇게 많은 연결고리들이 열렸겠지?
