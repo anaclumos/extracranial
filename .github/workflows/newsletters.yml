@@ -8,7 +8,7 @@ on:
         required: true
 jobs:
   send-newsletter:
-    environment: production
+    environment: Production
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
