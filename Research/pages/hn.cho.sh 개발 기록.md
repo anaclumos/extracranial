@@ -84,6 +84,8 @@ i18n을 Sitemap과 HTML Head `hreflang`으로 자동 생성되도록 만들었�
 
 ## [[2023-04-05]]
 
+꿈결에 진짜 기가 막힌 프로젝트 이름이 생각 났는데 사라지고 말았다.
+
 링크드인과 레딧 광고를 시작했다. 트위터도 돌리기 위해서 노력하고 있는데 트위터 광고 기능도 엄청 망가졌다: [The Twitter API is now effectively unmaintained](https://news.ycombinator.com/item?id=35370152)
 
 상단에 "공유" - "구독" - "오늘의 뉴스"?로 하려고 했는데 이거 `getStaticProps`로 하면 될 것 같았는데 이상하게 잘 안 돼서 일단 포기.
@@ -97,3 +99,9 @@ i18n을 Sitemap과 HTML Head `hreflang`으로 자동 생성되도록 만들었�
 Jargon Manager를 만들어야겠다. Stable Diffusion을 '안정적인 확산'이라고 번역하다니! DeepL 기능에 Glossary를 지원하는 기능이 있는데, 문제는 API를 사용한다면 무조건 API를 사용해서 등록해야 한다고 🫤 이게 말이 되나 [DeepL API](https://www.deepl.com/docs-api/glossaries/list-glossaries/)
 
 ![[E9ED7C.png]]
+
+## [[2023-04-06]]
+
+덴마크에서 누군가 다녀가길래 드디어 완전 모르는 유럽 분이 구독하시나 했는데 아마 구독은 안 하신 듯 했다.
+
+![[F15692.png]]
