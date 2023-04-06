@@ -159,6 +159,9 @@ export const backlinks = {
         "Person 392196": "- Interviewed on [[2022-09-08]]",
         "Person A480C6": "- Interviewed on [[2022-09-08]]"
     },
+    "2023-04-05": {
+        "hn.cho.sh 개발 기록": "## [[2023-04-05]]"
+    },
     "2022-08-26": {
         "0079 Word Search": "Solved at: [[2022-08-26]]"
     },
@@ -687,6 +690,9 @@ export const backlinks = {
         "Letter to the Heptabase Team on 2022-10-11": "... Angeles|LA and 서울|Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, Vercel/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Stories Behind Satori": "The potential candidates for [[Satori]] included:",
         "WebAssembly": "- [[Satori]]"
+    },
+    "창의는 평온에서 나온다": {
+        "2023-04-05": "[[창의는 평온에서 나온다]]"
     },
     "Hacker": {
         "2023-03-06": "- [[Hacker]]",
@@ -2703,6 +2709,9 @@ export const backlinks = {
         "Svelte": "... instead, Svelte compiles HTML templates to specialized code that manipulates the [[DOM]] directly, which may reduce the size of transferred files and give ...",
         "Treehouse": "... back to 2012-, Treehouse was the first attempt to run a [[DOM]] within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]].",
         "WorkerDOM": "Google's take on providing [[DOM]] access to [[Web Worker]] Threads."
+    },
+    "Raycast": {
+        "2023-04-05": "[[Raycast]]는 이모지 피커는 참 좋은데 검색이 정말 구리다."
     },
     "Bondee": {
         "2023-02-12": "- [[Bondee]]",
@@ -5012,7 +5021,8 @@ export const backlinks = {
         "2023-03-20": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-02": "[[hn.cho.sh 개발 기록]]",
         "2023-04-03": "[[hn.cho.sh 개발 기록]]",
-        "2023-04-04": "[[hn.cho.sh 개발 기록]]"
+        "2023-04-04": "[[hn.cho.sh 개발 기록]]",
+        "2023-04-05": "[[hn.cho.sh 개발 기록]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -6780,16 +6790,20 @@ export const backlinks = {
     "wikilink": {
         "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does not support. I have another python ..."
     },
-    "819907.png": {
-        "2023-03-25": "![[819907.png]]",
-        "hn.cho.sh 개발 기록": "![[819907.png]]"
+    "8F40B3.png": {
+        "2023-03-25": "![[8F40B3.png]]",
+        "hn.cho.sh 개발 기록": "![[8F40B3.png]]"
     },
-    "DF78E9.png": {
-        "2023-03-25": "![[DF78E9.png]]",
-        "hn.cho.sh 개발 기록": "![[DF78E9.png]]"
+    "D6FAB7.png": {
+        "2023-03-25": "![[D6FAB7.png]]",
+        "hn.cho.sh 개발 기록": "![[D6FAB7.png]]"
     },
     "81F6FA.png": {
         "2023-01-31": "![[81F6FA.png]]"
+    },
+    "D358DA.png": {
+        "2023-04-05": "![[D358DA.png]]",
+        "Raycast": "![[D358DA.png]]"
     },
     "94861D.png": {
         "2022-12-08": "![[94861D.png]]",
@@ -6861,10 +6875,10 @@ export const backlinks = {
         "2022-11-10": "![[D0A35A.gif]]",
         "Dynamic Island on the Web": "![[D0A35A.gif]]"
     },
-    "979B83.png": {
-        "2023-04-03": "![[979B83.png]]",
-        "Bing Chat for All Browsers in Japan": "![[979B83.png]]",
-        "hn.cho.sh 개발 기록": "![[979B83.png]]"
+    "B0787B.png": {
+        "2023-04-03": "![[B0787B.png]]",
+        "Bing Chat for All Browsers in Japan": "![[B0787B.png]]",
+        "hn.cho.sh 개발 기록": "![[B0787B.png]]"
     },
     "8B7073.png": {
         "2022-11-14": "![[8B7073.png]]"
@@ -7883,14 +7897,26 @@ export const backlinks = {
     "DAB721.png": {
         "My Raycast Wrapped of 2022": "![[DAB721.png]]"
     },
-    "DCE7FC.png": {
-        "hn.cho.sh 개발 기록": "![[DCE7FC.png]]"
+    "719933.png": {
+        "hn.cho.sh 개발 기록": "![[719933.png]]"
     },
-    "DC371E.png": {
-        "hn.cho.sh 개발 기록": "![[DC371E.png]]"
+    "81E383.png": {
+        "hn.cho.sh 개발 기록": "![[81E383.png]]"
     },
-    "C1EA65.png": {
-        "hn.cho.sh 개발 기록": "![[C1EA65.png]]"
+    "39A2E8.png": {
+        "hn.cho.sh 개발 기록": "![[39A2E8.png]]"
+    },
+    "2A1312.png": {
+        "hn.cho.sh 개발 기록": "![[2A1312.png]]"
+    },
+    "17E092.png": {
+        "hn.cho.sh 개발 기록": "![[17E092.png]]"
+    },
+    "E73E46.png": {
+        "hn.cho.sh 개발 기록": "![[E73E46.png]]"
+    },
+    "E9ED7C.png": {
+        "hn.cho.sh 개발 기록": "![[E9ED7C.png]]"
     },
     "C25819.png": {
         "Superbrain": "![[C25819.png]]"
