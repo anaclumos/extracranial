@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "55703277f3e8aa7e",
+        "id": "3a85cfb68e2051fb",
         "type": "tabs",
         "children": [
           {
-            "id": "9415bb5efbe42b64",
+            "id": "af6a0cde583063c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Raycast.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Raycast.md"
+              }
             }
           },
           {
@@ -90,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Raycast.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,11 +128,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9415bb5efbe42b64",
+  "active": "af6a0cde583063c7",
   "lastOpenFiles": [
-    "journals/2023-04-04.md",
+    "journals/2023-04-05.md",
     "pages/hn.cho.sh 개발 기록.md",
-    "assets/C1EA65.png",
+    "assets/E9ED7C.png",
+    "assets/E73E46.png",
+    "assets/17E092.png",
+    "assets/2A1312.png",
+    "pages/hn.cho.sh.md",
+    "pages/창의는 평온에서 나온다.md",
+    "pages/Raycast.md",
+    "assets/D358DA.png",
+    "journals/2023-04-04.md",
+    "journals/2023-04-03.md",
+    "assets/39A2E8.png",
     "pages/NewsGPT.md",
     "pages/Artifact.md",
     "pages/Algorithmic Recommendation Engine for Texts.md",
@@ -132,9 +150,8 @@
     "pages/Can we ever build TikTok for Text.md",
     "pages/Bing Chat for All Browsers in Japan.md",
     "assets/894BC3.png",
-    "journals/2023-04-03.md",
     "assets/248BD6.png",
-    "assets/979B83.png",
+    "assets/B0787B.png",
     "journals/2023-04-02.md",
     "journals/2023-04-01.md",
     "journals/2023-03-31.md",
@@ -147,16 +164,7 @@
     "journals/2023-03-21.md",
     "journals/2023-03-20.md",
     "journals/2023-03-19.md",
-    "assets/DC371E.png",
-    "assets/DCE7FC.png",
-    "pages/Product Skills.md",
-    "journals/2023-03-22.md",
-    "journals/2023-03-29.md",
-    "journals/2023-03-30.md",
-    "assets/8DDFF2.png",
-    "assets/D26259.png",
-    "assets/AEC99E.png",
-    "assets/DF78E9.png",
+    "assets/81E383.png",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
