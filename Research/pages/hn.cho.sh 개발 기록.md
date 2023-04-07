@@ -105,3 +105,9 @@ Jargon Manager를 만들어야겠다. Stable Diffusion을 '안정적인 확산'�
 덴마크에서 누군가 다녀가길래 드디어 완전 모르는 유럽 분이 구독하시나 했는데 아마 구독은 안 하신 듯 했다.
 
 ![[F15692.png]]
+
+og.cho.sh로 OG 생성을 옮기면서 Pretendard를 적용하려고 했는데.
+
+![[5FBC3A.png]]
+
+폰트 파일 때문에 용량이 초과되었다. [Tips for optimizing font size? · vercel/satori · Discussion #434](https://github.com/vercel/satori/discussions/434)
