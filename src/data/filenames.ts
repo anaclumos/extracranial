@@ -339,6 +339,7 @@ export const filenames = {
     "AI-native": "4130FD",
     "AIs.txt": "F9F706",
     "AI는 고가 노동부터 점령한다": "0FF73F",
+    "AI로 변할 세상에 필요한 것": "C800CB",
     "AMP": "E24BB0",
     "AMP Email": "3EF954",
     "API Economy": "6BBE57",

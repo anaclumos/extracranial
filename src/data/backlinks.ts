@@ -310,6 +310,7 @@ export const backlinks = {
         "Z-Fellows": "... Had an interview with Z-Fellows with The One and Only on [[2023-03-19]]"
     },
     "2023-04-06": {
+        "AI로 변할 세상에 필요한 것": "[[2023-04-06]] 오늘 친구랑 이야기하다 굉장히 인상 깊은 이야기를 들었다.",
         "hn.cho.sh 개발 기록": "## [[2023-04-06]]",
         "하늘땅사람 업데이트 기록": "## 1.0.9 [[2023-04-06]]"
     },
@@ -6234,6 +6235,9 @@ export const backlinks = {
     },
     "0199 Binary Tree Right Side View": {
         "Coding Tests": "- [[0199 Binary Tree Right Side View]]"
+    },
+    "AI로 변할 세상에 필요한 것": {
+        "2023-04-06": "- [[AI로 변할 세상에 필요한 것]]"
     },
     "The End of History Fallacy": {
         "2023-03-16": "- [[The End of History Fallacy]]",

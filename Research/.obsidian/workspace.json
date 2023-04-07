@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "afbd4869007b489b",
+        "id": "68ea8c94ce464c99",
         "type": "tabs",
         "children": [
           {
-            "id": "453d9c9cf83cc2f5",
+            "id": "2474b3d876e9d5b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/hn.cho.sh 개발 기록.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/hn.cho.sh 개발 기록.md"
-              }
+              "state": {}
             }
           },
           {
@@ -97,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/hn.cho.sh 개발 기록.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,9 +120,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "453d9c9cf83cc2f5",
+  "active": "2474b3d876e9d5b4",
   "lastOpenFiles": [
     "journals/2023-04-06.md",
+    "pages/AI로 변할 세상에 필요한 것.md",
     "assets/5FBC3A.png",
     "pages/GitHub Pages에 React 앱 띄우기.md",
     "pages/Cloudflare.md",
