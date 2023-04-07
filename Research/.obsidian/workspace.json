@@ -11,9 +11,12 @@
             "id": "453d9c9cf83cc2f5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/5191FF.png"
+                "file": "pages/hn.cho.sh 개발 기록.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
               }
             }
           }
@@ -84,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/5191FF.png"
+                "file": "pages/hn.cho.sh 개발 기록.md"
               }
             }
           },
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/5191FF.png",
+                "file": "pages/hn.cho.sh 개발 기록.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +131,9 @@
   "active": "453d9c9cf83cc2f5",
   "lastOpenFiles": [
     "journals/2023-04-06.md",
+    "assets/5FBC3A.png",
+    "pages/GitHub Pages에 React 앱 띄우기.md",
+    "pages/Cloudflare.md",
     "journals/2022-11-03.md",
     "pages/하늘땅사람 업데이트 기록.md",
     "assets/5191FF.png",
@@ -154,15 +160,11 @@
     "pages/Can we ever build TikTok for Text.md",
     "pages/Bing Chat for All Browsers in Japan.md",
     "assets/894BC3.png",
-    "assets/248BD6.png",
     "journals/2023-04-02.md",
     "journals/2023-04-01.md",
     "journals/2023-03-31.md",
     "journals/2023-03-28.md",
     "journals/2023-03-27.md",
-    "pages/TourScout Identity Management Development Proposal.md",
-    "journals/2023-03-25.md",
-    "journals/2023-03-24.md",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
