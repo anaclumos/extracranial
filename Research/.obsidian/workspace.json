@@ -11,8 +11,10 @@
             "id": "2474b3d876e9d5b4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "assets/64EC74.png"
+              }
             }
           }
         ]
@@ -81,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "assets/64EC74.png"
+              }
             }
           },
           {
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "assets/64EC74.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +127,8 @@
   },
   "active": "2474b3d876e9d5b4",
   "lastOpenFiles": [
+    "journals/2023-04-08.md",
+    "assets/64EC74.png",
     "journals/2023-04-06.md",
     "pages/AI로 변할 세상에 필요한 것.md",
     "assets/5FBC3A.png",
@@ -152,12 +159,9 @@
     "pages/우린 텍스트 틱톡을 평생 만들 수 있을까.md",
     "pages/Can we ever build TikTok for Text.md",
     "pages/Bing Chat for All Browsers in Japan.md",
-    "assets/894BC3.png",
     "journals/2023-04-02.md",
     "journals/2023-04-01.md",
     "journals/2023-03-31.md",
-    "journals/2023-03-28.md",
-    "journals/2023-03-27.md",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
