@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "68ea8c94ce464c99",
+        "id": "62698357ed766ea6",
         "type": "tabs",
         "children": [
           {
-            "id": "2474b3d876e9d5b4",
+            "id": "24369c7aec7262ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-04-08.md",
+                "file": "pages/Downloading Any Recordings from Zoom.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-04-08.md"
+                "file": "pages/Downloading Any Recordings from Zoom.md"
               }
             }
           },
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-04-08.md",
+                "file": "pages/Downloading Any Recordings from Zoom.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,9 +127,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2474b3d876e9d5b4",
+  "active": "24369c7aec7262ee",
   "lastOpenFiles": [
+    "journals/2023-04-09.md",
     "journals/2023-04-08.md",
+    "pages/Adaptive Keyboard.md",
+    "pages/Nigh.md",
+    "pages/Proebsting.md",
+    "pages/SinglePage.md",
+    "pages/Mundivagant.md",
+    "pages/Sapiophile.md",
+    "pages/Color Palette.md",
+    "pages/Club Penguin.md",
+    "pages/CJK.md",
+    "pages/Chrome.md",
+    "pages/CBR vs VBR.md",
+    "pages/Vocab.md",
     "assets/64EC74.png",
     "journals/2023-04-06.md",
     "pages/AI로 변할 세상에 필요한 것.md",
@@ -151,20 +163,8 @@
     "assets/17E092.png",
     "assets/2A1312.png",
     "pages/hn.cho.sh.md",
-    "pages/창의는 평온에서 나온다.md",
     "assets/D358DA.png",
-    "journals/2023-04-04.md",
-    "journals/2023-04-03.md",
     "assets/39A2E8.png",
-    "pages/NewsGPT.md",
-    "pages/Artifact.md",
-    "pages/Algorithmic Recommendation Engine for Texts.md",
-    "pages/우린 텍스트 틱톡을 평생 만들 수 있을까.md",
-    "pages/Can we ever build TikTok for Text.md",
-    "pages/Bing Chat for All Browsers in Japan.md",
-    "journals/2023-04-02.md",
-    "journals/2023-04-01.md",
-    "journals/2023-03-31.md",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
