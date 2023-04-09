@@ -17,9 +17,9 @@ const RandomUrl = () => {
           <meta property="og:description" content={siteConfig.tagline} />
           <meta
             property="og:image"
-            content={`https://og-image.cho.sh/**${encodeURIComponent(
+            content={`https://og.cho.sh/api/og?title=${encodeURIComponent(
               'To Infinity and Beyond'
-            )}**.png?theme=%235597ec&md=1&fontSize=100px&images=https%3A%2F%2Fcho.sh%2Fimg%2Ffavicon.png`}
+            )}&subheading=${encodeURIComponent(siteConfig.tagline)}`}
           />
         </Head>
         <main>
