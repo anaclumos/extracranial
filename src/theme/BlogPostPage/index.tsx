@@ -17,9 +17,9 @@ export default function BlogPostPageWrapper(props: Props): JSX.Element {
         <meta property="og:description" content={description} />
         <meta
           property="og:image"
-          content={`https://og-image.cho.sh/**${encodeURIComponent(
-            title
-          )}**.png?theme=%235597ec&md=1&fontSize=100px&images=https%3A%2F%2Fcho.sh%2Fimg%2Ffavicon.png`}
+          content={`https://og.cho.sh/api/og?title=${encodeURIComponent(title)}&subheading=${encodeURIComponent(
+            "Sunghyun Cho"
+          )}`}
         />
       </Head>
       <noscript>
