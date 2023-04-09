@@ -1523,6 +1523,9 @@ export const backlinks = {
         "Neo Korea": "- [[태백산맥 계획]]",
         "Regulation of Fake News": "- [[태백산맥 계획]]"
     },
+    "Mundivagant": {
+        "2023-04-09": "[[Mundivagant]]"
+    },
     "AIs.txt": {
         "2022-10-21": "- [[AIs.txt]]",
         "2022-10-22": "- [[AIs.txt]]",
@@ -2183,6 +2186,9 @@ export const backlinks = {
     "Person 542AD7": {
         "2022-12-28": "- [[Person 542AD7]]",
         "Project PEOPLE": "- [[Person 542AD7]]"
+    },
+    "Sapiophile": {
+        "2023-04-09": "[[Sapiophile]],"
     },
     "Apple": {
         "2022-06-10": "  - [[Apple]] has implemented pointer authentication on all of its custom [[ARM Architecture|ARM]]-based ...",
@@ -4034,6 +4040,11 @@ export const backlinks = {
     },
     "洪民憙雜記": {
         "2022-10-25": "- [[洪民憙雜記]]"
+    },
+    "Vocab": {
+        "Mundivagant": "[[Vocab]]. Wandering around the world.",
+        "Nigh": "> The end is nigh! > nigh - Wiktionary [[Vocab]]",
+        "Sapiophile": "[[Vocab]]. Those who love smart people."
     },
     "Classic Blogs": {
         "Tools for Thought": "- [[Classic Blogs]]: just make a post and let [[Google]] do the job."
