@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "62698357ed766ea6",
+        "id": "005a7c307f52796d",
         "type": "tabs",
         "children": [
           {
-            "id": "24369c7aec7262ee",
+            "id": "e2c30086041b439b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Downloading Any Recordings from Zoom.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Downloading Any Recordings from Zoom.md"
-              }
+              "state": {}
             }
           },
           {
@@ -96,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Downloading Any Recordings from Zoom.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,9 +119,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "24369c7aec7262ee",
+  "active": "e2c30086041b439b",
   "lastOpenFiles": [
     "journals/2023-04-09.md",
+    "assets/B48728.png",
+    "pages/Bing Chat for All Browsers.md",
+    "pages/Downloading Any Recordings from Zoom.md",
     "journals/2023-04-08.md",
     "pages/Adaptive Keyboard.md",
     "pages/Nigh.md",
@@ -156,15 +151,11 @@
     "pages/하늘.md",
     "pages/hn.cho.sh 개발 기록.md",
     "assets/F15692.png",
-    "pages/Raycast.md",
-    "journals/2023-04-05.md",
     "assets/E9ED7C.png",
     "assets/E73E46.png",
     "assets/17E092.png",
     "assets/2A1312.png",
-    "pages/hn.cho.sh.md",
     "assets/D358DA.png",
-    "assets/39A2E8.png",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
