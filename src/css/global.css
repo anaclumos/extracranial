@@ -30,16 +30,7 @@ code {
   --padding: 1rem;
   --border-radius: 0.5rem;
   --ifm-container-width-xxl: 1600px;
-  --box-shadow: 0 0.1rem 0.15rem rgba(0, 0, 0, 0.3);
   max-width: 100dvw;
-}
-
-details {
-  box-shadow: var(--box-shadow);
-}
-
-.theme-admonition {
-  box-shadow: var(--box-shadow);
 }
 
 [data-theme='dark'] * {
@@ -108,15 +99,15 @@ img {
   width: auto;
 }
 
-figure > p {
+figure>p {
   margin: 0;
 }
 
-figure > figure {
+figure>figure {
   margin: 0;
 }
 
-figure > p > img {
+figure>p>img {
   display: block;
   margin: 0.5rem auto;
   padding: 0;
@@ -149,7 +140,7 @@ table {
   filter: brightness(1);
 }
 
-.navbar__logo > img {
+.navbar__logo>img {
   filter: none;
 }
 
