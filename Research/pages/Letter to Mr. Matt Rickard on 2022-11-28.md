@@ -11,11 +11,11 @@ It's Sunghyun. I hope you had a great Thanksgiving break — I've been great! I 
 
 I recently had an idea for a hypothetical product, "Let's Alter." I have a vision but need clarification on where to start.
 
-Let's Alter is a non-profit product that uses Generative AIs to describe any image on the web. For example, given an idea of dogs playing frisbee, [[AI]] will put the following as such.
+Let's Alter is a non-profit product that uses [[Generative AI|Generative AIs]] to describe any image on the web. For example, given an idea of dogs playing frisbee, [[AI]] will put the following as such.
 
 > ALT: Three white dogs are playing frisbee on a lawn with a woman wearing a red skirt
 
-Facebook and Instagram have been doing this for a while, but AFAIK there are no open-source products. As Generative AIs evolved, I expected it to be possible to reverse Gen AIs to take images and spit out different variations of descriptive texts.
+Facebook and Instagram have been doing this for a while, but AFAIK there are no open-source products. As [[Generative AI|Generative AIs]] evolved, I expected it to be possible to reverse [[Generative AI|Gen AIs]] to take images and spit out different variations of descriptive texts.
 
 The final goal is to create a product like Let's Encrypt, which heavily contributed to removing unencrypted websites on the web. I imagine a future where no single image on the web is missing the `alt` tag with this technology.
 
