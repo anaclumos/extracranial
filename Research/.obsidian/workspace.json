@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/hn.cho.sh 개발 기록.md",
-                "mode": "source",
+                "file": "pages/DeepL vs. GPT 3.5 vs. GPT 4 벤치마크.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/hn.cho.sh 개발 기록.md"
+                "file": "pages/DeepL vs. GPT 3.5 vs. GPT 4 벤치마크.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/hn.cho.sh 개발 기록.md",
+                "file": "pages/DeepL vs. GPT 3.5 vs. GPT 4 벤치마크.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,8 +130,10 @@
   "active": "2d7c13ea1eef3231",
   "lastOpenFiles": [
     "journals/2023-04-11.md",
-    "journals/2023-04-10.md",
     "pages/hn.cho.sh 개발 기록.md",
+    "pages/DeepL vs. GPT 3.5 vs. GPT 4 벤치마크.md",
+    "journals/2022-12-16.md",
+    "journals/2023-04-10.md",
     "pages/Vercel Block Incident (April 2023).md",
     "pages/Untitled.md",
     "pages/Gall Law.md",
@@ -158,8 +160,6 @@
     "pages/Useful ChatGPT Prompts.md",
     "pages/latexify.cho.sh.md",
     "pages/LaTeX.md",
-    "pages/Space in LaTeX.md",
-    "pages/D-ID.md",
     "assets/B48728.png",
     "assets/64EC74.png",
     "assets/5FBC3A.png",

@@ -14,7 +14,7 @@
   "newFileFolderPath": "pages",
   "tabSize": 4,
   "alwaysUpdateLinks": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
