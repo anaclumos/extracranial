@@ -1,5 +1,5 @@
 name: Schedule Newsletter
-on: 
+on:
   workflow_dispatch:
     inputs:
       version:
