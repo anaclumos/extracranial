@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3dcdec87e88036cb",
+        "id": "9d3bd01b504502ba",
         "type": "tabs",
         "children": [
           {
-            "id": "4aef40554d85774b",
+            "id": "2d7c13ea1eef3231",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/hn.cho.sh 개발 기록.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/hn.cho.sh 개발 기록.md"
+              }
             }
           },
           {
@@ -89,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/hn.cho.sh 개발 기록.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,12 +107,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 434.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -119,13 +127,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4aef40554d85774b",
+  "active": "2d7c13ea1eef3231",
   "lastOpenFiles": [
-    "pages/Untitled.md",
+    "journals/2023-04-11.md",
     "journals/2023-04-10.md",
+    "pages/hn.cho.sh 개발 기록.md",
+    "pages/Vercel Block Incident (April 2023).md",
+    "pages/Untitled.md",
     "pages/Gall Law.md",
     "pages/lovearc.net.md",
-    "pages/Vercel Block Incident (April 2023).md",
     "pages/Arc Browser.md",
     "assets/64EC74.png.sb-b9e6d624-gAkzfM",
     "pages/The Browser Company.md",
@@ -150,8 +160,6 @@
     "pages/LaTeX.md",
     "pages/Space in LaTeX.md",
     "pages/D-ID.md",
-    "pages/Eleven Labs.md",
-    "pages/Midjourney.md",
     "assets/B48728.png",
     "assets/64EC74.png",
     "assets/5FBC3A.png",
