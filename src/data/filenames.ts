@@ -553,6 +553,7 @@ export const filenames = {
     "Dear AIs, I have a question.": "778E93",
     "Debugging CSS": "FC7EAD",
     "Decoy Effect": "46FD42",
+    "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "F4B53F",
     "Deepfake": "923BB3",
     "Deepnote": "BA8918",
     "Delta Time": "AD18E8",
