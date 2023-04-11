@@ -585,7 +585,7 @@ export const backlinks = {
         "2023-01-27": "I had to migrate Extracranial to [[Cloudflare Pages]] for [[Vercel]] for now...",
         "2023-02-02": "- [[Cloudflare Pages]]",
         "Aldehyde Outage (January 2023)": "Configuring [[Cloudflare Pages]] and [[Vercel]] with the following argument fixed the problem!",
-        "Vercel Block Incident (April 2023)": "... got it resolved by deleting lovearc.net, but now I lean towards [[Cloudflare Pages]]",
+        "Vercel Incident Report (April 2023)": "... got it resolved by deleting lovearc.net, but now I lean towards [[Cloudflare Pages]]",
         "lovearc.net": "... from Vercel that I turned off image proxies when migrating to [[Cloudflare Pages]]. All the profiles will now show square boxes."
     },
     "Gall Law": {
@@ -1138,10 +1138,6 @@ export const backlinks = {
     },
     "Proposal of Research 2023-03-28": {
         "2023-03-28": "- [[Proposal of Research 2023-03-28]]"
-    },
-    "Vercel Block Incident (April 2023)": {
-        "2023-04-08": "[[Vercel Block Incident (April 2023)]]",
-        "2023-04-10": "- [[Vercel Block Incident (April 2023)]]"
     },
     "Forward Declaration": {
         "2023-01-25": "- [[Forward Declaration]]",
@@ -1799,7 +1795,7 @@ export const backlinks = {
     "hn.cho.sh": {
         "2023-03-24": "- [[hn.cho.sh]]",
         "2023-04-01": "- [[hn.cho.sh]]",
-        "Vercel Block Incident (April 2023)": "... from Vercel under \"violating fair use\" with two projects: lovearc.net and [[hn.cho.sh]].",
+        "Vercel Incident Report (April 2023)": "... from Vercel under \"violating fair use\" with two projects: lovearc.net and [[hn.cho.sh]].",
         "hn.cho.sh 개발 기록": "... Browsers가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
     },
     "Internetworking": {
@@ -3134,7 +3130,7 @@ export const backlinks = {
         "2023-01-12": "- [[Disable Screenshot Drop Shadow in macOS]]"
     },
     "lovearc.net": {
-        "Vercel Block Incident (April 2023)": "... got blocked from Vercel under \"violating fair use\" with two projects: [[lovearc.net]] and [[hn.cho.sh]]."
+        "Vercel Incident Report (April 2023)": "... got blocked from Vercel under \"violating fair use\" with two projects: [[lovearc.net]] and [[hn.cho.sh]]."
     },
     "Nuclear Fusion": {
         "2022-07-26": "- [[Nuclear Fusion]]",
@@ -3821,7 +3817,7 @@ export const backlinks = {
         "2022-06-14": "... This shows how resumes differ in United States of America|US and [[대한민국|Korea]].",
         "2022-07-05": "- United States of America|미국 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
         "AI replaces expensive jobs first": "서울|SEOUL (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed a controversial bill to limit ride-hailing ...",
-        "AT&T Roaming Incident (December 2022)": "On December 15th, I landed in [[대한민국|Korea]] and did not have my phone service, so I used 600MB ...",
+        "AT&T Roaming Incident Report (December 2022)": "On December 15th, I landed in [[대한민국|Korea]] and did not have my phone service, so I used 600MB ...",
         "Born of this Land - The Founding Story of Hyundai": "... of our work for the United States of America|US Army in [[대한민국|Korea]] was Hyundai's.",
         "Downloading Any Recordings from Zoom": "... Both the United States of America|United States and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted material for educational use.",
         "Finally, Apple Pay in Korea": "After a decade of waiting, Apple Pay has expanded to [[대한민국|Korea]]. 대한민국|Korea remained the only developed nation country that did not support ...",
@@ -4037,7 +4033,7 @@ export const backlinks = {
         "Redirect": "## Redirect in [[Vercel]]",
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting ...",
         "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.",
-        "Vercel Block Incident (April 2023)": "For comparison, this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
+        "Vercel Incident Report (April 2023)": "For comparison, this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
         "dub.sh": "- Built with [[Vercel]] [[Edge]] Functions + Upstash Redis",
         "lovearc.net": "- It drained too much Image Proxy Bandwidth from [[Vercel]] that I turned off image proxies when migrating to [[Cloudflare Pages]]. ..."
     },
@@ -5266,7 +5262,7 @@ export const backlinks = {
         "2022-06-14": "    - This shows how resumes differ in [[United States of America|US]] and [[대한민국|Korea]].",
         "2022-07-05": "- [[United States of America|미국]] 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 ...",
         "2023-02-16": "- [[United States of America]]",
-        "AT&T Roaming Incident (December 2022)": "... me who grew up in 대한민국|Korea, to see that in the [[United States of America|United States]] you should protect and exercise your own rights proactively.",
+        "AT&T Roaming Incident Report (December 2022)": "... me who grew up in 대한민국|Korea, to see that in the [[United States of America|United States]] you should protect and exercise your own rights proactively.",
         "Biden-Harris Administration National Security Strategy 2022": "... the law. And we will take further measures to ensure the [[United States of America|United States]] remains the world's top destination for talent.",
         "Born of this Land - The Founding Story of Hyundai": "... is that when Jung first started working outsourcing jobs for the [[United States of America|US]] military, Jung had to put fresh green grass on a UN ...",
         "CCPA": "... to enhance privacy rights and consumer protection for residents of California, [[United States of America|United States]]. The bill was passed by the California State Legislature and signed ...",
@@ -5482,7 +5478,7 @@ export const backlinks = {
         "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-end]] [[Front-end]]",
         "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions",
         "Redirect": "## Redirect in [[Cloudflare]]",
-        "Vercel Block Incident (April 2023)": "> When [[Cloudflare]] says free unlimited bandwidth, they're not messing around pic.twitter.com/X7RMPmSrr4"
+        "Vercel Incident Report (April 2023)": "> When [[Cloudflare]] says free unlimited bandwidth, they're not messing around pic.twitter.com/X7RMPmSrr4"
     },
     "Daily Dev": {
         "Jumpsite": "## [[Daily Dev]]"
@@ -5783,7 +5779,7 @@ export const backlinks = {
         "OpenAI enthroned as the Levis of Tech": "... actual competition. They were the arms dealer in this silent war. [[AWS]] was the latest Levi's of the tech industry, after the comms ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "[[AWS]]는 AT&T와 같은 통신 회사에 이어 기술 업계의 최신 리바이스였다.",
         "Stable Alternative": "- [ ] Inference Server to `image → text`. [[AWS]] SageMaker? Or [[Hugging Face]] as an API server?",
-        "Vercel Block Incident (April 2023)": "For comparison, this would cost $9,600 with Vercel and $2,017 in [[AWS]] CloudFront."
+        "Vercel Incident Report (April 2023)": "For comparison, this would cost $9,600 with Vercel and $2,017 in [[AWS]] CloudFront."
     },
     "Cauchy": {
         "2023-03-07": "- [[Cauchy]]",
@@ -5865,6 +5861,10 @@ export const backlinks = {
         "Toss Product Sans": "- Toss의 [[Font|글꼴]]",
         "Tossface": "- Emoji [[Font]] by [[Toss]]",
         "Web Typography": "... fonts on the World Wide Web. When HTML was first created, [[font]] faces and styles were controlled exclusively by the settings of each ..."
+    },
+    "Vercel Incident Report (April 2023)": {
+        "2023-04-08": "[[Vercel Incident Report (April 2023)]]",
+        "2023-04-10": "- [[Vercel Incident Report (April 2023)]]"
     },
     "NPU": {
         "Imagining WebNPU API": "... more advanced GPU features. What if we could do this with [[NPU]]? I hereby suggest a hypothetical WebNPU API. Think this way:",
@@ -5983,6 +5983,9 @@ export const backlinks = {
     },
     "Text AI and Information Density": {
         "2022-12-27": "- [[Text AI and Information Density]]"
+    },
+    "AT&T Roaming Incident Report (December 2022)": {
+        "2022-12-27": "- [[AT&T Roaming Incident Report (December 2022)]]"
     },
     "Gaussian Integral": {
         "2023-03-07": "- [[Gaussian Integral]]"
@@ -6363,9 +6366,6 @@ export const backlinks = {
     "솟대": {
         "2023-02-12": "- [[솟대]]",
         "장승": "비슷한 예시로 [[솟대]]나 [[서낭당]]이 있다."
-    },
-    "AT&T Roaming Incident (December 2022)": {
-        "2022-12-27": "- [[AT&T Roaming Incident (December 2022)]]"
     },
     "TypeScript": {
         "2022-07-06": "- Bundle, transpile, install and run JavaScript & [[TypeScript]] projects — all in Bun. Bun is a new JavaScript runtime ...",
@@ -6926,11 +6926,11 @@ export const backlinks = {
     },
     "B28551.png": {
         "2023-04-10": "> ![[B28551.png]]",
-        "Vercel Block Incident (April 2023)": "> ![[B28551.png]]"
+        "Vercel Incident Report (April 2023)": "> ![[B28551.png]]"
     },
     "FD02CB.png": {
         "2023-04-10": "> ![[FD02CB.png]]",
-        "Vercel Block Incident (April 2023)": "> ![[FD02CB.png]]"
+        "Vercel Incident Report (April 2023)": "> ![[FD02CB.png]]"
     },
     "B22093.png": {
         "2022-06-27": "![[B22093.png]]"
@@ -7258,9 +7258,6 @@ export const backlinks = {
     "1A746C.png": {
         "The Era of Invites": "![[1A746C.png]]",
         "초대장의 시대": "![[1A746C.png]]"
-    },
-    "64EC74.png": {
-        "Vercel Block Incident (April 2023)": "![[64EC74.png]]"
     },
     "351A7A.png": {
         "Aldehyde Landing Page 2023": "![[351A7A.png]]",
@@ -8168,6 +8165,9 @@ export const backlinks = {
     },
     "Rickard": {
         "Letter to Mr. Matt Rickard on 2022-11-28": "Dear Mr. [[Rickard]],"
+    },
+    "64EC74.png": {
+        "Vercel Incident Report (April 2023)": "![[64EC74.png]]"
     },
     "30E62A.png": {
         "Real Interviews": "![[30E62A.png]]"
