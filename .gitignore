@@ -284,3 +284,7 @@ $RECYCLE.BIN/
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 .vercel
+Research/.obsidian/workspace.json
+Research/.obsidian/app.json
+Research/.obsidian/workspace.json
+Research/.obsidian/plugins/obsidian-minimal-settings/data.json

@@ -15,7 +15,7 @@
     "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko",
     "write-heading-ids": "docusaurus write-heading-ids",
     "prepare": "$npm_execpath run clear && $npm_execpath run sanitize && $npm_execpath run bundle && $npm_execpath run wikilinks && $npm_execpath run backlinks && $npm_execpath run swc && $npm_execpath run figcaption && $npm_execpath run readme && $npm_execpath run scc && $npm_execpath run format",
-    "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,js,jsx,svg}'",
+    "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,js,jsx}'",
     "ko": "$npm_execpath run start --locale ko",
     "dev": "$npm_execpath run start",
     "ko:instant": "docusaurus start --locale ko",
