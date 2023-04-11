@@ -155,6 +155,9 @@ export const backlinks = {
     "2022-11-22": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-22]] 과제의 홍수"
     },
+    "2023-04-11": {
+        "hn.cho.sh 개발 기록": "## [[2023-04-11]]: DeepL vs. GPT 3.5 vs. GPT 4 벤치마크"
+    },
     "2022-09-08": {
         "Person 392196": "- Interviewed on [[2022-09-08]]",
         "Person A480C6": "- Interviewed on [[2022-09-08]]"
@@ -5088,7 +5091,8 @@ export const backlinks = {
         "2023-04-04": "[[hn.cho.sh 개발 기록]]",
         "2023-04-05": "[[hn.cho.sh 개발 기록]]",
         "2023-04-06": "- [[hn.cho.sh 개발 기록]]",
-        "2023-04-10": "- [[hn.cho.sh 개발 기록]]"
+        "2023-04-10": "- [[hn.cho.sh 개발 기록]]",
+        "2023-04-11": "- [[hn.cho.sh 개발 기록]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
