@@ -111,3 +111,15 @@ og.cho.sh로 OG 생성을 옮기면서 Pretendard를 적용하려고 했는데.
 ![[5FBC3A.png]]
 
 폰트 파일 때문에 용량이 초과되었다. [Tips for optimizing font size? · vercel/satori · Discussion #434](https://github.com/vercel/satori/discussions/434)
+
+## [[2023-04-10]]
+
+트위터와 링크드인에 자동 업그레이드 기능을 만들었다.
+
+받은 피드백:
+
+> I subscribed for a bit and appreciated the detail, but I felt the descriptions were lengthy. I like this AI [newsletter](https://www.bensbites.co/): pretty easy-to-follow section, and it feels super readable. Understanding whether you are trying to source lesser-known information, summarize long-form, or do both might be helpful.
+
+- [Ben's Bites](https://www.bensbites.co/)
+
+모델 파인 튜닝과 더 정교한 번역이 갈수록 필요해진다. 아무래도 GPT-4가 나오면 번역 작업을 DeepL에서 GPT-4로 갈아타고, 그리고 몇 가지 좋은 예시를 이용해서 파인튜닝 작업을 해야겠다.
