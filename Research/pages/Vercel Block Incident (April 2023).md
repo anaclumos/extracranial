@@ -1,18 +1,13 @@
 ---
-date: '2023-04-10'
 lang: 'en'
-slug: '/2023-04-10'
+slug: '/B1F73D'
 ---
 
-## Research
+I got blocked from Vercel under "violating fair use" with two projects: [[lovearc.net]] and [[hn.cho.sh]].
 
-- [[hn.cho.sh 개발 기록]]
-- [[Replicating Balenciaga Harry Potter Advertisement]]
-- [[언어학과 우주적 소음]]
-- [[글감]]
-- [[Useful ChatGPT Prompts]]
-- [[Vercel Block Incident (April 2023)]]
-- [[Gall Law]]
+![[64EC74.png]]
+
+I got it resolved by deleting [[lovearc.net]], but now I lean towards [[Cloudflare Pages]]
 
 > When [[Cloudflare]] says free unlimited bandwidth, they're not messing around [pic.twitter.com/X7RMPmSrr4](https://t.co/X7RMPmSrr4)
 >

@@ -4,63 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "00e19a3954405f03",
+        "id": "3dcdec87e88036cb",
         "type": "tabs",
         "children": [
           {
-            "id": "150ecb59da5b124d",
+            "id": "4aef40554d85774b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-04-10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6d7edb404e6f0fd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-04-10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2a0268af4ed46953",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Replicating Balenciaga Harry Potter Advertisement.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9e1c3b8d2e6d7f08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Replicating Balenciaga Harry Potter Advertisement.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Replicating Balenciaga Harry Potter Advertisement.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Replicating Balenciaga Harry Potter Advertisement.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,44 +119,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9e1c3b8d2e6d7f08",
+  "active": "4aef40554d85774b",
   "lastOpenFiles": [
+    "pages/Untitled.md",
     "journals/2023-04-10.md",
-    "pages/D-ID.md",
+    "pages/Gall Law.md",
+    "pages/lovearc.net.md",
+    "pages/Vercel Block Incident (April 2023).md",
+    "pages/Arc Browser.md",
+    "assets/64EC74.png.sb-b9e6d624-gAkzfM",
+    "pages/The Browser Company.md",
+    "pages/Cloudflare Pages.md",
+    "assets/F0B126.png",
+    "assets/0D84D3.png",
+    "journals/2023-04-08.md",
+    "journals/2023-04-09.md",
+    "pages/Internet Computer.md",
+    "pages/Twitter.md",
     "pages/Replicating Balenciaga Harry Potter Advertisement.md",
+    "pages/Edge.md",
+    "pages/Cloudflare.md",
+    "pages/AWS.md",
+    "pages/Is AWS a Dumb Pipe.md",
+    "pages/OpenAI enthroned as the Levis of Tech.md",
+    "pages/Vercel.md",
+    "assets/B28551.png",
+    "assets/FD02CB.png",
+    "pages/Useful ChatGPT Prompts.md",
+    "pages/latexify.cho.sh.md",
+    "pages/LaTeX.md",
+    "pages/Space in LaTeX.md",
+    "pages/D-ID.md",
     "pages/Eleven Labs.md",
     "pages/Midjourney.md",
-    "pages/ChatGPT.md",
-    "pages/Generative AI.md",
-    "pages/글감.md",
-    "pages/언어학과 우주적 소음.md",
-    "pages/Cosmic noises of life.md",
-    "journals/2023-04-09.md",
-    "journals/2023-04-08.md",
-    "pages/hn.cho.sh 개발 기록.md",
-    "pages/hn.cho.sh.md",
     "assets/B48728.png",
-    "pages/Bing Chat for All Browsers.md",
-    "pages/Downloading Any Recordings from Zoom.md",
-    "pages/Adaptive Keyboard.md",
-    "pages/Nigh.md",
-    "pages/Proebsting.md",
-    "pages/SinglePage.md",
-    "pages/Mundivagant.md",
-    "pages/Sapiophile.md",
-    "pages/Color Palette.md",
-    "pages/Club Penguin.md",
-    "pages/CJK.md",
-    "pages/Chrome.md",
     "assets/64EC74.png",
     "assets/5FBC3A.png",
     "assets/5191FF.png",
     "assets/F15692.png",
     "assets/E9ED7C.png",
-    "assets/E73E46.png",
-    "assets/17E092.png",
-    "assets/2A1312.png",
-    "assets/D358DA.png",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",

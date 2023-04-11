@@ -581,7 +581,12 @@ export const backlinks = {
     "Cloudflare Pages": {
         "2023-01-27": "I had to migrate Extracranial to [[Cloudflare Pages]] for [[Vercel]] for now...",
         "2023-02-02": "- [[Cloudflare Pages]]",
-        "Aldehyde Outage (January 2023)": "Configuring [[Cloudflare Pages]] and [[Vercel]] with the following argument fixed the problem!"
+        "Aldehyde Outage (January 2023)": "Configuring [[Cloudflare Pages]] and [[Vercel]] with the following argument fixed the problem!",
+        "Vercel Block Incident (April 2023)": "... got it resolved by deleting lovearc.net, but now I lean towards [[Cloudflare Pages]]",
+        "lovearc.net": "... from Vercel that I turned off image proxies when migrating to [[Cloudflare Pages]]. All the profiles will now show square boxes."
+    },
+    "Gall Law": {
+        "2023-04-10": "- [[Gall Law]]"
     },
     "Solar": {
         "2023-01-13": "- [[Solar]]",
@@ -1131,6 +1136,10 @@ export const backlinks = {
     "Proposal of Research 2023-03-28": {
         "2023-03-28": "- [[Proposal of Research 2023-03-28]]"
     },
+    "Vercel Block Incident (April 2023)": {
+        "2023-04-08": "[[Vercel Block Incident (April 2023)]]",
+        "2023-04-10": "- [[Vercel Block Incident (April 2023)]]"
+    },
     "Forward Declaration": {
         "2023-01-25": "- [[Forward Declaration]]",
         "Game Programming": "- [[Forward Declaration]]"
@@ -1173,6 +1182,9 @@ export const backlinks = {
     },
     "Bloomberg Terminal": {
         "2023-03-06": "- [[Bloomberg Terminal]]"
+    },
+    "The Browser Company": {
+        "Arc Browser": "[[The Browser Company]]"
     },
     "HQ Proximity": {
         "2023-01-13": "- [[HQ Proximity]]"
@@ -1725,6 +1737,7 @@ export const backlinks = {
         "Person 648442": "- Talked about the fragmented nature of [[Twitter]].",
         "Regulation of Fake News": "- The United States of America|United States government pressured [[Twitter]] to elevate certain content and suppress other content about Covid-19 and ...",
         "Social Coding": "... rarely reflected on the GitHub follower model compared to LinkedIn (or [[Twitter]]",
+        "lovearc.net": "1. practice with [[Twitter]] scraping technologies",
         "유난한 도전": "이후 약간의 입질이 오자 홈페이지를 열고 [[Twitter|트위터]]에 링크를 올리니 반응이 확실했다."
     },
     "SVG": {
@@ -1783,6 +1796,7 @@ export const backlinks = {
     "hn.cho.sh": {
         "2023-03-24": "- [[hn.cho.sh]]",
         "2023-04-01": "- [[hn.cho.sh]]",
+        "Vercel Block Incident (April 2023)": "... from Vercel under \"violating fair use\" with two projects: lovearc.net and [[hn.cho.sh]].",
         "hn.cho.sh 개발 기록": "... Browsers가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
     },
     "Internetworking": {
@@ -2343,7 +2357,8 @@ export const backlinks = {
     },
     "Internet Computer": {
         "2023-03-06": "- [[Internet Computer]]",
-        "2023-03-19": "- [[Internet Computer]]"
+        "2023-03-19": "- [[Internet Computer]]",
+        "The Browser Company": "Based in NY, tries to make the [[Internet Computer]]"
     },
     "R=VD and Generative AIs": {
         "글감": "- [[R=VD and Generative AIs]]"
@@ -2911,7 +2926,7 @@ export const backlinks = {
         "elevatorpitch.com": "Someday [[Project]]. Simple Demo Website Creator to gauge market interest.",
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 http 모듈 (당연히 `express` 모듈도) 없이 [[http]] 서버를 구현하는 Project|프로젝트가 ...",
         "iiframe": "Someday [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
-        "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert the equation into $\\TeX$.",
+        "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert the equation into $\\TeX$ [[LaTeX]]",
         "linkflags.crx": "Packing Linkflags as Chrome Extensions Someday [[Project]]",
         "postcredit.info": "Someday [[Project]]. 영화 쿠키 있나요?",
         "sem.sh": "Someday [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per repository, ...",
@@ -3114,6 +3129,9 @@ export const backlinks = {
     },
     "Disable Screenshot Drop Shadow in macOS": {
         "2023-01-12": "- [[Disable Screenshot Drop Shadow in macOS]]"
+    },
+    "lovearc.net": {
+        "Vercel Block Incident (April 2023)": "... got blocked from Vercel under \"violating fair use\" with two projects: [[lovearc.net]] and [[hn.cho.sh]]."
     },
     "Nuclear Fusion": {
         "2022-07-26": "- [[Nuclear Fusion]]",
@@ -3388,6 +3406,11 @@ export const backlinks = {
     "Notion AI": {
         "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Synthote]]",
         "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if [[Notion]] [[AI]] got super powerful, giving insight into your ..."
+    },
+    "LaTeX": {
+        "Space in LaTeX": "Space in [[LaTeX]]",
+        "Useful ChatGPT Prompts": "## Use [[LaTeX]]",
+        "latexify.cho.sh": "Someday Project. Drop an image to convert the equation into $\\TeX$ [[LaTeX]]"
     },
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
@@ -3997,6 +4020,7 @@ export const backlinks = {
         "2022-12-04": "- The Verge is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, ...",
         "2022-12-28": "- Frontend web framework: NextJS/[[Vercel]] (Past: Ruby on Rails/Heroku)",
         "2023-01-27": "I had to migrate Extracranial to Cloudflare Pages for [[Vercel]] for now...",
+        "2023-04-10": "For comparison, this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
         "Aldehyde Outage (January 2023)": "## [[Vercel]] and [[Cloudflare]] Build Errors",
         "Edge": "- [[Vercel]] & Vercel Edge Functions",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... recently — Brand Indicators for Message Identification BIMI) Just like what [[Vercel]] did to Heroku.",
@@ -4006,7 +4030,9 @@ export const backlinks = {
         "Redirect": "## Redirect in [[Vercel]]",
         "Satori": "- This approach is 5x faster than existing solutions by using [[Vercel]] [[Edge]] Functions, [[WebAssembly]], and a brand new core library for converting ...",
         "Stories Behind Satori": "The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.",
-        "dub.sh": "- Built with [[Vercel]] [[Edge]] Functions + Upstash Redis"
+        "Vercel Block Incident (April 2023)": "For comparison, this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
+        "dub.sh": "- Built with [[Vercel]] [[Edge]] Functions + Upstash Redis",
+        "lovearc.net": "- It drained too much Image Proxy Bandwidth from [[Vercel]] that I turned off image proxies when migrating to [[Cloudflare Pages]]. ..."
     },
     "Clustering": {
         "2023-01-25": "- [[Clustering]]",
@@ -4266,6 +4292,9 @@ export const backlinks = {
     },
     "Setting different images for Light & Dark mode": {
         "2022-10-21": "- [[Setting different images for Light & Dark mode]]"
+    },
+    "Arc Browser": {
+        "lovearc.net": "2. get some [[Arc Browser]] stickers"
     },
     "Engine Equation": {
         "2023-03-06": "- [[Engine Equation]]",
@@ -4843,7 +4872,7 @@ export const backlinks = {
         "사회과부도": "> Themed series of [[Cartography|maps]]"
     },
     "Eleven Labs": {
-        "Replicating Balenciaga Harry Potter Advertisement": "3. Used [[Eleven Labs]] for voice generation. Extracting a good voice for Donald Trump proved ..."
+        "Replicating Balenciaga Harry Potter Advertisement": "3.  Used [[Eleven Labs]] for voice generation. Extracting a good voice for Donald Trump proved ..."
     },
     "Port": {
         "Internetworking": "- [[Port]]",
@@ -5136,6 +5165,9 @@ export const backlinks = {
     },
     "Using an iPad as my Ebook": {
         "2023-01-12": "- [[Using an iPad as my Ebook]]"
+    },
+    "Useful ChatGPT Prompts": {
+        "2023-04-10": "- [[Useful ChatGPT Prompts]]"
     },
     "P-series Test": {
         "2023-01-31": "- [[P-series Test]]"
@@ -5435,12 +5467,14 @@ export const backlinks = {
     "Cloudflare": {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open ...",
         "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded that [[Vercel]] is better.",
+        "2023-04-10": "> When [[Cloudflare]] says free unlimited bandwidth, they're not messing around pic.twitter.com/X7RMPmSrr4",
         "AMP": "... may be cached by a CDN, such as Microsoft Bing or [[Cloudflare]]'s AMP caches, which allows pages to be served more quickly. Accelerated ...",
         "Aldehyde Outage (January 2023)": "## Vercel and [[Cloudflare]] Build Errors",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
         "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-end]] [[Front-end]]",
         "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions",
-        "Redirect": "## Redirect in [[Cloudflare]]"
+        "Redirect": "## Redirect in [[Cloudflare]]",
+        "Vercel Block Incident (April 2023)": "> When [[Cloudflare]] says free unlimited bandwidth, they're not messing around pic.twitter.com/X7RMPmSrr4"
     },
     "Daily Dev": {
         "Jumpsite": "## [[Daily Dev]]"
@@ -5729,6 +5763,7 @@ export const backlinks = {
     "AWS": {
         "2022-10-16": "... 몽키\"라는 시스템이 있다. 개발자들 몰래 서버를 끄는 봇이다. 카오스 킹콩은 한 [[AWS]] 리전 전체를 끈다. 그럼 자동으로 모든 리퀘스트가 다른 리전으로 리라우팅된다. 해일, ...",
         "2022-12-28": "- Scheduled Job: [[AWS]] Lambda (Linux + cron)",
+        "2023-04-10": "For comparison, this would cost $9,600 with Vercel and $2,017 in [[AWS]] CloudFront.",
         "AWS Nuke": "- rebuy-de/[[aws]]-nuke: Nuke a whole [[AWS]] account and delete all its resources. https://github.com/rebuy-de/aws-nuke",
         "Cloud-Native": "... engineers are accustomed to deploying applications on cloud infrastructure, such as [[AWS]], instead of traditional [[on-premise]] infrastructure. They are comfortable building [[Microservices Architecture]], ...",
         "Ethereum RPC as a Service": "... is the primary way that you query data on the blockchain. [[AWS]] offers a similar product, AWS Managed Blockchain. Essentially these are just ...",
@@ -5739,7 +5774,8 @@ export const backlinks = {
         "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "예전부터 [[AWS]] Elastic Beanstalk 앱을 사용해왔지만 최근 Heroku가 AWS에 비해 몇몇 장점이 있다는 ...",
         "OpenAI enthroned as the Levis of Tech": "... actual competition. They were the arms dealer in this silent war. [[AWS]] was the latest Levi's of the tech industry, after the comms ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "[[AWS]]는 AT&T와 같은 통신 회사에 이어 기술 업계의 최신 리바이스였다.",
-        "Stable Alternative": "- [ ] Inference Server to `image → text`. [[AWS]] SageMaker? Or [[Hugging Face]] as an API server?"
+        "Stable Alternative": "- [ ] Inference Server to `image → text`. [[AWS]] SageMaker? Or [[Hugging Face]] as an API server?",
+        "Vercel Block Incident (April 2023)": "For comparison, this would cost $9,600 with Vercel and $2,017 in [[AWS]] CloudFront."
     },
     "Cauchy": {
         "2023-03-07": "- [[Cauchy]]",
@@ -5902,7 +5938,7 @@ export const backlinks = {
         "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator to gauge market interest.",
         "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes an embedded web inside [[Web Worker]].",
-        "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to convert the equation into $\\TeX$.",
+        "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to convert the equation into $\\TeX$ [[LaTeX]]",
         "linkflags.crx": "Packing Linkflags as Chrome Extensions [[Someday]] [[Project]]",
         "postcredit.info": "[[Someday]] [[Project]]. 영화 쿠키 있나요?",
         "sem.sh": "[[Someday]] [[Project]]. Open-sourced Code Time or WakaTime. Time Tracking per language, per ...",
@@ -6880,6 +6916,14 @@ export const backlinks = {
         "2023-02-02": "  ![[613BFB.png]]",
         "2023-02-21": "![[613BFB.png]]"
     },
+    "B28551.png": {
+        "2023-04-10": "> ![[B28551.png]]",
+        "Vercel Block Incident (April 2023)": "> ![[B28551.png]]"
+    },
+    "FD02CB.png": {
+        "2023-04-10": "> ![[FD02CB.png]]",
+        "Vercel Block Incident (April 2023)": "> ![[FD02CB.png]]"
+    },
     "B22093.png": {
         "2022-06-27": "![[B22093.png]]"
     },
@@ -7027,9 +7071,6 @@ export const backlinks = {
     },
     "D815DD.jpeg": {
         "2022-07-12": "![[D815DD.jpeg]]"
-    },
-    "64EC74.png": {
-        "2023-04-08": "![[64EC74.png]]"
     },
     "9467DA.png": {
         "2022-10-25": "![[9467DA.png]]"
@@ -7209,6 +7250,9 @@ export const backlinks = {
     "1A746C.png": {
         "The Era of Invites": "![[1A746C.png]]",
         "초대장의 시대": "![[1A746C.png]]"
+    },
+    "64EC74.png": {
+        "Vercel Block Incident (April 2023)": "![[64EC74.png]]"
     },
     "351A7A.png": {
         "Aldehyde Landing Page 2023": "![[351A7A.png]]",
@@ -7607,6 +7651,12 @@ export const backlinks = {
     "people": {
         "Person 5DBDAE": "A lot of [[people]] are international.",
         "Person E7CFC5": "A lot of smart [[people]]."
+    },
+    "0D84D3.png": {
+        "lovearc.net": "![[0D84D3.png]]"
+    },
+    "F0B126.png": {
+        "lovearc.net": "![[F0B126.png]]"
     },
     "227D79.gif": {
         "Visual ChatGPT": "![[227D79.gif]]"
