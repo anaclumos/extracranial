@@ -16,33 +16,3 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 > **Note**<br/>
 > The Favicon image is Tossface's U+E109 (<img alt="Emoji of 'Palaces of Korea'" width="12px" src="https://raw.githubusercontent.com/anaclumos/extracranial/main/static/img/favicon.svg"/>) Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
-
-## Stats
-
-```
-───────────────────────────────────────────────────────────────────────────────
-Language                 Files     Lines   Blanks  Comments     Code Complexity
-───────────────────────────────────────────────────────────────────────────────
-Markdown                  1456     39672    10231         0    29441          0
-CSS                         74     28593      513      1989    26091          0
-TypeScript                  60     12531      172        64    12295        211
-JSON                        43      2278        0         0     2278          0
-Python                       8       940       58        43      839        109
-SVG                          7         7        0         0        7          0
-YAML                         7        63        2         0       61          0
-JavaScript                   5     27323      350      4814    22159        806
-Plain Text                   3       103       18         0       85          0
-TypeScript Typings           2        12        0         4        8          0
-TOML                         1         3        0         0        3          0
-gitignore                    1       286       69        69      148          0
-───────────────────────────────────────────────────────────────────────────────
-Total                     1667    111811    11413      6983    93415       1126
-───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,166,159
-Estimated Schedule Effort (organic) 21.31 months
-Estimated People Required (organic) 13.20
-───────────────────────────────────────────────────────────────────────────────
-Processed 7005652 bytes, 7.006 megabytes (SI)
-───────────────────────────────────────────────────────────────────────────────
-
-```
