@@ -316,6 +316,7 @@ export const backlinks = {
         "Z-Fellows": "... Had an interview with Z-Fellows with The One and Only on [[2023-03-19]]"
     },
     "2023-04-12": {
+        "Z-Fellows": "- On [[2023-04-12]], Rejected. But I was the top 10% 😉",
         "hn.cho.sh 개발 기록": "## [[2023-04-12]]"
     },
     "2023-04-06": {
@@ -674,6 +675,7 @@ export const backlinks = {
         "2022-10-10": "- [[Super App and Democracy]]",
         "2022-10-11": "- [[Super App and Democracy]]",
         "2022-10-27": "### [[Super App and Democracy]]",
+        "2023-04-12": "- [[Super App and Democracy]]: Twitter is now X Corp.",
         "Universal Identity": "- Super App accounts can be another. See [[Super App and Democracy]]."
     },
     "Redirecting READMEs": {
@@ -5477,6 +5479,7 @@ export const backlinks = {
     },
     "Z-Fellows": {
         "2023-03-19": "## [[Z-Fellows]]",
+        "2023-04-12": "- [[Z-Fellows]]: Rejected. But I was in the top 10% 😉",
         "The One and Only": "## [[Z-Fellows]]"
     },
     "Cloudflare": {
@@ -7015,6 +7018,10 @@ export const backlinks = {
     },
     "B8943C.png": {
         "2023-03-19": "![[B8943C.png]]"
+    },
+    "DCA5E9.png": {
+        "2023-04-12": "![[DCA5E9.png]]",
+        "Z-Fellows": "![[DCA5E9.png]]"
     },
     "5191FF.png": {
         "2023-04-06": "![[5191FF.png]]"
