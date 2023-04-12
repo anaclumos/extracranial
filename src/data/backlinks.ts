@@ -315,6 +315,9 @@ export const backlinks = {
     "2023-03-19": {
         "Z-Fellows": "... Had an interview with Z-Fellows with The One and Only on [[2023-03-19]]"
     },
+    "2023-04-12": {
+        "hn.cho.sh 개발 기록": "## [[2023-04-12]]"
+    },
     "2023-04-06": {
         "AI로 변할 세상에 필요한 것": "[[2023-04-06]] 오늘 친구랑 이야기하다 굉장히 인상 깊은 이야기를 들었다.",
         "hn.cho.sh 개발 기록": "## [[2023-04-06]]",
@@ -2527,6 +2530,7 @@ export const backlinks = {
         "2022-06-14": "## [[Rust]]의 사용에 대하여",
         "2022-09-05": "- Unreal Rust Unreal [[Rust]]",
         "2022-11-30": "- Will this be enough to match Go's or [[Rust]]'s performance? Unlikely, but the thing is that the current [[JavaScript]] tools ...",
+        "2023-04-12": "- [[Rust]]",
         "Dioxus": "They are written in [[Rust]], inspired by [[React]].",
         "WebGPU": "- It's a stand-alone TypeScript+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like run-time. If you're familiar with [[React]], ...",
         "Write Once Run Everywhere": "- [[Rust]]"
@@ -3622,6 +3626,9 @@ export const backlinks = {
     "Internet Protocol Stack": {
         "Internetworking": "- [[Internet Protocol Stack]]"
     },
+    "Time-Space Continuum (Physics)": {
+        "2023-04-12": "- [[Time-Space Continuum (Physics)]]"
+    },
     "XTML": {
         "2022-12-04": "- [[XTML]]"
     },
@@ -3660,6 +3667,9 @@ export const backlinks = {
     },
     "Conditional Compilation": {
         "2023-01-25": "- [[Conditional Compilation]]"
+    },
+    "Time-Space Continuum (Philosophy)": {
+        "2023-04-12": "- [[Time-Space Continuum (Philosophy)]]"
     },
     "Dynamically Linked Libraries": {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
@@ -5092,7 +5102,8 @@ export const backlinks = {
         "2023-04-05": "[[hn.cho.sh 개발 기록]]",
         "2023-04-06": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-10": "- [[hn.cho.sh 개발 기록]]",
-        "2023-04-11": "- [[hn.cho.sh 개발 기록]]"
+        "2023-04-11": "- [[hn.cho.sh 개발 기록]]",
+        "2023-04-12": "- [[hn.cho.sh 개발 기록]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -6882,13 +6893,13 @@ export const backlinks = {
     "wikilink": {
         "2022-10-17": "... document before building the site. This is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does not support. I have another python ..."
     },
-    "8F40B3.png": {
-        "2023-03-25": "![[8F40B3.png]]",
-        "hn.cho.sh 개발 기록": "![[8F40B3.png]]"
+    "21691E.png": {
+        "2023-03-25": "![[21691E.png]]",
+        "hn.cho.sh 개발 기록": "![[21691E.png]]"
     },
-    "D6FAB7.png": {
-        "2023-03-25": "![[D6FAB7.png]]",
-        "hn.cho.sh 개발 기록": "![[D6FAB7.png]]"
+    "A77E29.png": {
+        "2023-03-25": "![[A77E29.png]]",
+        "hn.cho.sh 개발 기록": "![[A77E29.png]]"
     },
     "81F6FA.png": {
         "2023-01-31": "![[81F6FA.png]]"
@@ -6975,10 +6986,10 @@ export const backlinks = {
         "2022-11-10": "![[D0A35A.gif]]",
         "Dynamic Island on the Web": "![[D0A35A.gif]]"
     },
-    "B0787B.png": {
-        "2023-04-03": "![[B0787B.png]]",
-        "Bing Chat for All Browsers in Japan": "![[B0787B.png]]",
-        "hn.cho.sh 개발 기록": "![[B0787B.png]]"
+    "1E5861.png": {
+        "2023-04-03": "![[1E5861.png]]",
+        "Bing Chat for All Browsers in Japan": "![[1E5861.png]]",
+        "hn.cho.sh 개발 기록": "![[1E5861.png]]"
     },
     "8B7073.png": {
         "2022-11-14": "![[8B7073.png]]"
@@ -8010,32 +8021,35 @@ export const backlinks = {
     "DAB721.png": {
         "My Raycast Wrapped of 2022": "![[DAB721.png]]"
     },
-    "719933.png": {
-        "hn.cho.sh 개발 기록": "![[719933.png]]"
+    "F2D317.png": {
+        "hn.cho.sh 개발 기록": "![[F2D317.png]]"
     },
-    "81E383.png": {
-        "hn.cho.sh 개발 기록": "![[81E383.png]]"
+    "48945A.png": {
+        "hn.cho.sh 개발 기록": "![[48945A.png]]"
     },
-    "39A2E8.png": {
-        "hn.cho.sh 개발 기록": "![[39A2E8.png]]"
+    "2B6DD8.png": {
+        "hn.cho.sh 개발 기록": "![[2B6DD8.png]]"
     },
-    "2A1312.png": {
-        "hn.cho.sh 개발 기록": "![[2A1312.png]]"
+    "80B8B6.png": {
+        "hn.cho.sh 개발 기록": "![[80B8B6.png]]"
     },
-    "17E092.png": {
-        "hn.cho.sh 개발 기록": "![[17E092.png]]"
+    "E81189.png": {
+        "hn.cho.sh 개발 기록": "![[E81189.png]]"
     },
-    "E73E46.png": {
-        "hn.cho.sh 개발 기록": "![[E73E46.png]]"
+    "A48C93.png": {
+        "hn.cho.sh 개발 기록": "![[A48C93.png]]"
     },
-    "E9ED7C.png": {
-        "hn.cho.sh 개발 기록": "![[E9ED7C.png]]"
+    "95C2B4.png": {
+        "hn.cho.sh 개발 기록": "![[95C2B4.png]]"
     },
-    "F15692.png": {
-        "hn.cho.sh 개발 기록": "![[F15692.png]]"
+    "B6C990.png": {
+        "hn.cho.sh 개발 기록": "![[B6C990.png]]"
     },
-    "5FBC3A.png": {
-        "hn.cho.sh 개발 기록": "![[5FBC3A.png]]"
+    "73A162.png": {
+        "hn.cho.sh 개발 기록": "![[73A162.png]]"
+    },
+    "A4937B.png": {
+        "hn.cho.sh 개발 기록": "![[A4937B.png]]"
     },
     "C25819.png": {
         "Superbrain": "![[C25819.png]]"

@@ -8,7 +8,7 @@
     "build": "$npm_execpath run prepare && docusaurus build && $npm_execpath run redirects",
     "redirects": "cp _redirects build/_redirects",
     "swizzle": "docusaurus swizzle",
-    "deploy": "$npm_execpath run build && wrangler pages publish ./build --commit-dirty=true --project-name=memex",
+    "ship": "$npm_execpath run build && wrangler pages publish ./build --commit-dirty=true --project-name=memex",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear && rm -rf 'blog' && rm -rf 'docs' && rm -f '**/*.config.js' && rm -f '**/*.config.js.map' && rm -rf 'i18n /**/*.md' && cp tools/안녕하세요.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n /**/*.png' && rm -rf 'i18n /**/*.svg' && rm -rf 'i18n /**/*.jpg' && rm -rf 'i18n /**/*.jpeg'",
     "clean": "$npm_execpath run clear",
@@ -32,6 +32,7 @@
   "dependencies": {
     "@docusaurus/core": "^2.4.0",
     "@docusaurus/plugin-client-redirects": "^2.4.0",
+    "@docusaurus/plugin-content-docs": "^2.4.0",
     "@docusaurus/plugin-google-gtag": "^2.4.0",
     "@docusaurus/plugin-pwa": "^2.4.0",
     "@docusaurus/preset-classic": "^2.4.0",
@@ -55,7 +56,7 @@
     "swc-loader": "^0.2.3",
     "three": "^0.151.3",
     "ts-node": "^10.9.1",
-    "webpack": "^5.78.0"
+    "webpack": "^5.79.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230404.0",
