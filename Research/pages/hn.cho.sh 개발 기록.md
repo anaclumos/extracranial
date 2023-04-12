@@ -31,8 +31,8 @@ GitHub Actions로 빌드하는 방식으로.
 
 ## [[2023-03-25]]
 
-![[8F40B3.png]]
-![[D6FAB7.png]]
+![[21691E.png]]
+![[A77E29.png]]
 
 ㅋㅋㅋㅋㅋㅋ 진지해서 웃긴데 해결책은 찾아야겠다.
 
@@ -63,12 +63,12 @@ OpenAI를 가지고 많이 놀았다.
 
 i18n을 Sitemap과 HTML Head `hreflang`으로 자동 생성되도록 만들었다. Nextra의 i18n 구조에 호환되게 만들려고 하니 링크 변형 함수를 많이 만들어야 했다.
 
-![[719933.png]]
-![[81E383.png]]
+![[F2D317.png]]
+![[48945A.png]]
 
 그리고 [[Bing Chat for All Browsers]]도 WAU 10만을 넘었다.
 
-![[B0787B.png]]
+![[1E5861.png]]
 
 ## [[2023-04-04]]
 
@@ -76,7 +76,7 @@ i18n을 Sitemap과 HTML Head `hreflang`으로 자동 생성되도록 만들었�
 유럽에 기반한 [Proton](https://proton.me/)이라는 회사 및 덕덕고 이메일이 존재한다는 것도 이번에 알게 되었고,
 이메일에 `+tag` 오퍼레이터를 사용해서 이메일을 정리하는 사람들, 본인의 도메인을 사용하는 인디 해커들, 일회용 이메일이나 RSS 피드 변환 앱 ([Kill the Newsletter!](https://kill-the-newsletter.com/))을 적극 활용하시는 분도 있으셨다. 인공지능 회사, 자율주행 회사, 블록체인 회사, VC, 웹툰 회사, 고전적 자산운용사, 그 뿐만 아니라 연예기획사와 은행, 출판사 분들도 있었다.
 
-![[39A2E8.png]]
+![[2B6DD8.png]]
 
 그나저나 아직 조금 더 지켜봐야겠지만, 해외 시장에서는 전혀 반응이 없다. PMF에서 P랑 F는 찾았는데 아직 M을 뚫는 방법을 모르겠다.
 
@@ -92,23 +92,23 @@ i18n을 Sitemap과 HTML Head `hreflang`으로 자동 생성되도록 만들었�
 
 프롬프트를 조금 개선했더니 요약 품질이 많이 좋아졌다. 오늘거 좀 마음에 든다.
 
-![[2A1312.png]]
-![[17E092.png]]
-![[E73E46.png]]
+![[80B8B6.png]]
+![[E81189.png]]
+![[A48C93.png]]
 
 Jargon Manager를 만들어야겠다. Stable Diffusion을 '안정적인 확산'이라고 번역하다니! DeepL 기능에 Glossary를 지원하는 기능이 있는데, 문제는 API를 사용한다면 무조건 API를 사용해서 등록해야 한다고 🫤 이게 말이 되나 [DeepL API](https://www.deepl.com/docs-api/glossaries/list-glossaries/)
 
-![[E9ED7C.png]]
+![[95C2B4.png]]
 
 ## [[2023-04-06]]
 
 덴마크에서 누군가 다녀가길래 드디어 완전 모르는 유럽 분이 구독하시나 했는데 아마 구독은 안 하신 듯 했다.
 
-![[F15692.png]]
+![[B6C990.png]]
 
 og.cho.sh로 OG 생성을 옮기면서 Pretendard를 적용하려고 했는데.
 
-![[5FBC3A.png]]
+![[73A162.png]]
 
 폰트 파일 때문에 용량이 초과되었다. [Tips for optimizing font size? · vercel/satori · Discussion #434](https://github.com/vercel/satori/discussions/434)
 
@@ -128,3 +128,12 @@ og.cho.sh로 OG 생성을 옮기면서 Pretendard를 적용하려고 했는데.
 
 - [[DeepL vs. GPT 3.5 vs. GPT 4 벤치마크]]
 - 꿈에서 첨성대, 심마니라는 이름이 들려왔다. 근데 심마니는 검색 엔진이었잖아?
+- 결국 DB 기반으로 옮겨가야하는 것은 맞다. SPA 기반으로.
+
+## [[2023-04-12]]
+
+LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수준에 머물러 있다.
+
+![[A4937B.png]]
+
+Headless Chrome을 사용하도록 GitHub Actions를 개편했다.

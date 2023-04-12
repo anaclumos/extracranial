@@ -35,5 +35,5 @@ Still very dominant from [[일본|Japan]]
 
 주간 사용자가 10만명이 돌파한 지금도 일본에서 가장 많이 사용되고 있다.
 
-![[B0787B.png]]
+![[1E5861.png]]
 ![[894BC3.png]]

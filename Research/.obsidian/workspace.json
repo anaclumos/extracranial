@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "c45f84cfa710b656",
+        "id": "478f821aa5208d9b",
         "type": "tabs",
         "children": [
           {
-            "id": "35ccdf30c88c1755",
+            "id": "473771e8122985dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-04-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7658649c4511c5c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-04-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +100,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2023-04-12.md"
+              }
             }
           },
           {
@@ -90,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2023-04-12.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,12 +142,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "35ccdf30c88c1755",
+  "active": "7658649c4511c5c5",
   "lastOpenFiles": [
-    "pages/AT&T Roaming Incident Report (December 2022).md",
-    "pages/Vercel Incident Report (April 2023).md",
+    "pages/Time-Space Continuum (Philosophy).md",
+    "journals/2023-04-12.md",
+    "pages/Time-Space Continuum (Physics).md",
     "journals/2023-04-11.md",
     "pages/hn.cho.sh 개발 기록.md",
+    "assets/A4937B.png",
+    "pages/AT&T Roaming Incident Report (December 2022).md",
+    "pages/Vercel Incident Report (April 2023).md",
     "pages/DeepL vs. GPT 3.5 vs. GPT 4 벤치마크.md",
     "journals/2022-12-16.md",
     "journals/2023-04-10.md",
@@ -148,17 +174,13 @@
     "pages/AWS.md",
     "pages/Is AWS a Dumb Pipe.md",
     "pages/OpenAI enthroned as the Levis of Tech.md",
-    "pages/Vercel.md",
     "assets/B28551.png",
     "assets/FD02CB.png",
-    "pages/Useful ChatGPT Prompts.md",
-    "pages/latexify.cho.sh.md",
     "assets/B48728.png",
     "assets/64EC74.png",
-    "assets/5FBC3A.png",
+    "assets/73A162.png",
     "assets/5191FF.png",
-    "assets/F15692.png",
-    "assets/E9ED7C.png",
+    "assets/B6C990.png",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
