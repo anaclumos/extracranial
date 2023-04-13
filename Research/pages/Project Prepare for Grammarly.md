@@ -13,6 +13,6 @@ slug: '/561193'
 - [lifeomic/sparkflow: Easy to use library to bring Tensorflow on Apache Spark](https://github.com/lifeomic/sparkflow)
 - [The Scala Programming Language](https://scala-lang.org/)
 - [Optimizely](https://github.com/optimizely)
-- [[Grammarly Go]]
+- [[GrammarlyGO]]: [GrammarlyGO](https://www.grammarly.com/grammarlygo)
 
 ![[B6D2F1.gif]]

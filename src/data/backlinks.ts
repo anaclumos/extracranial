@@ -2549,9 +2549,6 @@ export const backlinks = {
         "2022-09-11": "- [[Off The Record]]",
         "2023-01-09": "- [[Off The Record]]"
     },
-    "Grammarly Go": {
-        "Project Prepare for Grammarly": "- [[Grammarly Go]]"
-    },
     "Our tools also shape us": {
         "2022-10-13": "- [[Our tools also shape us]]",
         "Memex is more than a Memex": "- [[Our tools also shape us]]",
@@ -5056,6 +5053,9 @@ export const backlinks = {
         "2022-10-28": "- Reversed Engineered [[Apple Music API]] to get my personal request key.",
         "Reverse Engineering Apple Music API": "As a part of Dynamic Island on the Web, I reverse-engineered [[Apple Music API]] to get the undocumented Personal Token."
     },
+    "GrammarlyGO": {
+        "Project Prepare for Grammarly": "- [[GrammarlyGO]]: GrammarlyGO"
+    },
     "latexify.cho.sh": {
         "2022-12-27": "- [[latexify.cho.sh]]"
     },
@@ -5109,7 +5109,8 @@ export const backlinks = {
         "2023-04-06": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-10": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-11": "- [[hn.cho.sh 개발 기록]]",
-        "2023-04-12": "- [[hn.cho.sh 개발 기록]]"
+        "2023-04-12": "- [[hn.cho.sh 개발 기록]]",
+        "2023-04-13": "[[hn.cho.sh 개발 기록]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -7010,6 +7011,10 @@ export const backlinks = {
     "FE262D.png": {
         "2023-02-16": "![[FE262D.png]]"
     },
+    "EC9948.png": {
+        "2023-04-13": "![[EC9948.png]]",
+        "hn.cho.sh 개발 기록": "![[EC9948.png]]"
+    },
     "9DAC5E.png": {
         "2022-08-04": "![[9DAC5E.png]]"
     },
@@ -7581,10 +7586,6 @@ export const backlinks = {
         "ChatGPT is a Blurry JPEG and We Need That": "![[D26259.png]]",
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "![[D26259.png]]"
     },
-    "B6D2F1.gif": {
-        "Grammarly Go": "![[B6D2F1.gif]]",
-        "Project Prepare for Grammarly": "![[B6D2F1.gif]]"
-    },
     "6ECA95.gif": {
         "UI Designs for Editing Messages": "![[6ECA95.gif]]"
     },
@@ -8024,6 +8025,10 @@ export const backlinks = {
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"
     },
+    "B6D2F1.gif": {
+        "GrammarlyGO": "![[B6D2F1.gif]]",
+        "Project Prepare for Grammarly": "![[B6D2F1.gif]]"
+    },
     "2D239A.png": {
         "My Raycast Wrapped of 2022": "![[2D239A.png]]"
     },
@@ -8068,6 +8073,12 @@ export const backlinks = {
     },
     "A4937B.png": {
         "hn.cho.sh 개발 기록": "![[A4937B.png]]"
+    },
+    "2023-04-14": {
+        "hn.cho.sh 개발 기록": "## [[2023-04-14]]"
+    },
+    "E66AB1.png": {
+        "hn.cho.sh 개발 기록": "![[E66AB1.png]]"
     },
     "C25819.png": {
         "Superbrain": "![[C25819.png]]"
