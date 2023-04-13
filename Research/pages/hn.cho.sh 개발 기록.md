@@ -147,3 +147,9 @@ Headless Chrome을 사용하도록 GitHub Actions를 개편했다.
 ![[E66AB1.png]]
 
 이렇게 개선했다.
+
+그리고 중국 친구가
+
+![[BFE9DE.png]]
+
+라고 하는데 CSS 같은거로 간단하게 처리할 수 있는지 알아봐야겠다.
