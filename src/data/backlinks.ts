@@ -2549,6 +2549,9 @@ export const backlinks = {
         "2022-09-11": "- [[Off The Record]]",
         "2023-01-09": "- [[Off The Record]]"
     },
+    "Grammarly Go": {
+        "Project Prepare for Grammarly": "- [[Grammarly Go]]"
+    },
     "Our tools also shape us": {
         "2022-10-13": "- [[Our tools also shape us]]",
         "Memex is more than a Memex": "- [[Our tools also shape us]]",
@@ -2906,6 +2909,7 @@ export const backlinks = {
         "Preservation of Data": "> The LOCKSS (\"Lots of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford University, is a peer-to-peer network that ...",
         "Problem": "Leads to a Someday [[Project]].",
         "Project PEOPLE": "- [[Project]]",
+        "Project Prepare for Grammarly": "[[Project]] to prepare for my Grammarly Data Engineering team employment.",
         "Proposal of Research 2023-01-10": "... studied underlying technologies on this and found several layers for the [[project]].",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and its corresponding [[AI]] system.",
         "Redactor for iPhone": "Someday [[Project]].",
@@ -6805,6 +6809,9 @@ export const backlinks = {
     "Linear README": {
         "2022-10-14": "  - Especially [[Linear README]]"
     },
+    "Project Prepare for Grammarly": {
+        "2023-04-12": "- [[Project Prepare for Grammarly]]"
+    },
     "뉴턴의 서신": {
         "2023-02-28": "- [[뉴턴의 서신]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-28 | 🇬🇧 Newtonian Mail <br/> 🇰🇷 [[뉴턴의 서신]]            ..."
@@ -7573,6 +7580,10 @@ export const backlinks = {
     "D26259.png": {
         "ChatGPT is a Blurry JPEG and We Need That": "![[D26259.png]]",
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "![[D26259.png]]"
+    },
+    "B6D2F1.gif": {
+        "Grammarly Go": "![[B6D2F1.gif]]",
+        "Project Prepare for Grammarly": "![[B6D2F1.gif]]"
     },
     "6ECA95.gif": {
         "UI Designs for Editing Messages": "![[6ECA95.gif]]"
