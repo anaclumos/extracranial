@@ -19,35 +19,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "e2434fd3973be7b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-04-13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "aadd89b99ce3a2ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/GrammarlyGO.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "import ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -113,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/GrammarlyGO.md"
+                "file": "journals/2023-04-12.md"
               }
             }
           },
@@ -123,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/GrammarlyGO.md",
+                "file": "journals/2023-04-12.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,11 +128,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aadd89b99ce3a2ad",
+  "active": "203ae844ddd23148",
   "lastOpenFiles": [
-    "pages/Project Prepare for Grammarly.md",
-    "journals/2023-04-12.md",
+    "pages/hn.cho.sh 개발 기록.md",
+    "assets/BFE9DE.png",
     "journals/2023-04-13.md",
+    "journals/2023-04-12.md",
+    "journals/2023-04-11.md",
+    "pages/0141 Linked List Cycle.md",
+    "pages/Project Prepare for Grammarly.md",
     "assets/E66AB1.png",
     "assets/EC9948.png",
     "pages/GrammarlyGO.md",
@@ -171,8 +149,6 @@
     "assets/DCA5E9.png",
     "pages/Time-Space Continuum (Philosophy).md",
     "pages/Time-Space Continuum (Physics).md",
-    "journals/2023-04-11.md",
-    "pages/hn.cho.sh 개발 기록.md",
     "assets/A4937B.png",
     "pages/AT&T Roaming Incident Report (December 2022).md",
     "pages/Vercel Incident Report (April 2023).md",
@@ -188,10 +164,8 @@
     "pages/Cloudflare Pages.md",
     "assets/F0B126.png",
     "assets/0D84D3.png",
-    "journals/2023-04-08.md",
     "assets/B28551.png",
     "assets/FD02CB.png",
-    "assets/B48728.png",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
