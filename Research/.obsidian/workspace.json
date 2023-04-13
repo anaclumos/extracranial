@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Project Prepare for Grammarly.md",
-                "mode": "preview",
+                "file": "journals/2023-04-12.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e2434fd3973be7b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-04-13.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "aadd89b99ce3a2ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/GrammarlyGO.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -50,7 +77,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -66,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Project Prepare for Grammarly.md"
+                "file": "pages/GrammarlyGO.md"
               }
             }
           },
@@ -97,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Project Prepare for Grammarly.md",
+                "file": "pages/GrammarlyGO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,11 +154,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "203ae844ddd23148",
+  "active": "aadd89b99ce3a2ad",
   "lastOpenFiles": [
-    "pages/Grammarly Go.md",
     "pages/Project Prepare for Grammarly.md",
     "journals/2023-04-12.md",
+    "journals/2023-04-13.md",
+    "assets/E66AB1.png",
+    "assets/EC9948.png",
+    "pages/GrammarlyGO.md",
     "assets/B6D2F1.gif",
     "pages/Super App and Democracy.md",
     "pages/Musk.md",
@@ -160,12 +189,9 @@
     "assets/F0B126.png",
     "assets/0D84D3.png",
     "journals/2023-04-08.md",
-    "journals/2023-04-09.md",
     "assets/B28551.png",
     "assets/FD02CB.png",
     "assets/B48728.png",
-    "assets/64EC74.png",
-    "assets/73A162.png",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
     "assets/IMG_0474.jpg.sb-ed29425f-96L3xt",
