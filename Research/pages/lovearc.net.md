@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/4CFF9A'
 ---
 
-A small project I've done over the weekend
+A small [[done]] project I've done over the weekend
 
 ## Objectives
 
@@ -19,3 +19,4 @@ A small project I've done over the weekend
 
 ![[0D84D3.png]]
 ![[F0B126.png]]
+![[DB7394.jpeg]]
