@@ -212,6 +212,9 @@ export const backlinks = {
     "2023-02-25": {
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "## [[2023-02-25]]"
     },
+    "2023-04-14": {
+        "hn.cho.sh 개발 기록": "## [[2023-04-14]]"
+    },
     "2020-09-20": {
         "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
     },
@@ -3137,6 +3140,7 @@ export const backlinks = {
         "2023-01-12": "- [[Disable Screenshot Drop Shadow in macOS]]"
     },
     "lovearc.net": {
+        "2023-04-14": "[[lovearc.net]] 종료!",
         "Vercel Incident Report (April 2023)": "... got blocked from Vercel under \"violating fair use\" with two projects: [[lovearc.net]] and [[hn.cho.sh]]."
     },
     "Nuclear Fusion": {
@@ -3351,6 +3355,7 @@ export const backlinks = {
         "Dynamic Island on the Web": "- [[Done]] [[Project]]",
         "TossFace Playground": "- Project [[Done]]",
         "Watchings": "## [[Done]]",
+        "lovearc.net": "A small [[done]] project I've done over the weekend",
         "하늘땅사람": "... 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 Project|프로젝트. [[Done]]."
     },
     "Inliner": {
@@ -6928,6 +6933,10 @@ export const backlinks = {
         "2022-12-19": "![[5B9AFC.png]]",
         "하늘땅사람 개발 기록": "![[5B9AFC.png]]"
     },
+    "DB7394.jpeg": {
+        "2023-04-14": "![[DB7394.jpeg]]",
+        "lovearc.net": "![[DB7394.jpeg]]"
+    },
     "F1F845.png": {
         "2022-08-03": "![[F1F845.png]]"
     },
@@ -8073,9 +8082,6 @@ export const backlinks = {
     },
     "A4937B.png": {
         "hn.cho.sh 개발 기록": "![[A4937B.png]]"
-    },
-    "2023-04-14": {
-        "hn.cho.sh 개발 기록": "## [[2023-04-14]]"
     },
     "E66AB1.png": {
         "hn.cho.sh 개발 기록": "![[E66AB1.png]]"
