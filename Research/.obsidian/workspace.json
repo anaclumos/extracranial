@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-04-14.md",
+                "file": "pages/lovearc.net.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-04-14.md"
+                "file": "pages/lovearc.net.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-04-14.md",
+                "file": "pages/lovearc.net.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,10 +129,10 @@
   },
   "active": "744e7ed427852323",
   "lastOpenFiles": [
+    "journals/2023-04-14.md",
     "journals/2023-04-13.md",
     "journals/2023-04-12.md",
     "pages/lovearc.net.md",
-    "journals/2023-04-14.md",
     "assets/DB7394.jpeg",
     "pages/hn.cho.sh 개발 기록.md",
     "assets/BFE9DE.png",
