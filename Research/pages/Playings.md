@@ -10,6 +10,6 @@ import Shuffle from '@site/src/components/Shuffle'
 <Shuffle>
 
 - Splatoon 3
-- Detroit: Become Human
+- [[Detroit Become Human]]
 
 </Shuffle>
