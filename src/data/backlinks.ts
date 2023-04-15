@@ -1191,7 +1191,8 @@ export const backlinks = {
         "2023-03-06": "- [[Bloomberg Terminal]]"
     },
     "The Browser Company": {
-        "Arc Browser": "[[The Browser Company]]"
+        "Arc Browser": "[[The Browser Company]]",
+        "Browser Company Hackathon": "- [[The Browser Company]]"
     },
     "HQ Proximity": {
         "2023-01-13": "- [[HQ Proximity]]"
@@ -4315,6 +4316,7 @@ export const backlinks = {
         "2022-10-21": "- [[Setting different images for Light & Dark mode]]"
     },
     "Arc Browser": {
+        "Browser Company Hackathon": "- [[Arc Browser]]",
         "lovearc.net": "2. get some [[Arc Browser]] stickers"
     },
     "Engine Equation": {
