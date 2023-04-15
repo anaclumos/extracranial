@@ -56,8 +56,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-force-graph:
-    specifier: ^1.42.1
-    version: 1.42.1(react@18.2.0)(three@0.151.3)
+    specifier: ^1.42.2
+    version: 1.42.2(react@18.2.0)(three@0.151.3)
   react-spring:
     specifier: ^9.7.1
     version: 9.7.1(@react-three/fiber@8.12.1)(konva@9.0.0)(react-dom@18.2.0)(react-konva@18.2.7)(react-native@0.71.6)(react-zdog@1.0.11)(react@18.2.0)(three@0.151.3)(zdog@1.1.3)
@@ -146,26 +146,26 @@ devDependencies:
     version: 2.15.0
 
 packages:
-  /3d-force-graph-ar@1.8.2(three@0.151.3):
+  /3d-force-graph-ar@1.8.3(three@0.151.3):
     resolution:
-      { integrity: sha512-UNZczOAxJGHWv597nKAJjSZ7y55v0oLd3+uwHZt+Zg34TdnPl4U2Bn9npepzO8OM5dzmEyWSlqeemdpctzp4VA== }
+      { integrity: sha512-irj1Kk2qsRGSMsddSXdiVzzwtsNMZRbsJYBg+0ypkk5t5arZpo3h/PoN9Gfusvlu5fCAOk1wKVPUWN9Vkwrn7g== }
     engines: { node: '>=12' }
     dependencies:
-      aframe-forcegraph-component: 3.0.7(three@0.151.3)
+      aframe-forcegraph-component: 3.0.8(three@0.151.3)
       kapsule: 1.14.2
     transitivePeerDependencies:
       - three
     dev: false
 
-  /3d-force-graph-vr@2.2.1(three@0.151.3):
+  /3d-force-graph-vr@2.2.2(three@0.151.3):
     resolution:
-      { integrity: sha512-0gR/R+AavoUkEmqddJFF814b985xFsy1VUFmgv2ubA8Hgl0eR0RaTAFmtWS9DTSJCS7d4OHfYWZeE9SsmtRkjw== }
+      { integrity: sha512-LSI24ugjT7SUE8JCusV5pmFHaFZ51EgGH1B7KMOK4JEgmUvogFwkJcXg7Go2mHI28WXDzFyBvrckWiwv5yLUeA== }
     engines: { node: '>=12' }
     dependencies:
       accessor-fn: 1.4.1
       aframe: 1.4.1
       aframe-extras: 6.1.1(aframe@1.4.1)
-      aframe-forcegraph-component: 3.0.7(three@0.151.3)
+      aframe-forcegraph-component: 3.0.8(three@0.151.3)
       kapsule: 1.14.2
       polished: 4.2.2
     transitivePeerDependencies:
@@ -173,15 +173,15 @@ packages:
       - three
     dev: false
 
-  /3d-force-graph@1.71.2:
+  /3d-force-graph@1.71.3:
     resolution:
-      { integrity: sha512-5FUQCow5LNpBryV5h7rdu6B5HgrlXocVrRSEwj/NQWNr0fJXpHnnXmy7T7/yTMvr6ypzXDQGn0sjge1/RsUALQ== }
+      { integrity: sha512-cPM2d8Lbf7VJ8SgRE5BDcpy5wOxrsIILwEseD3OdAITcM/3zGbuKzJdDQ98DHM6Ne3iHxl7F4v0A3IJuyqXYXQ== }
     engines: { node: '>=12' }
     dependencies:
       accessor-fn: 1.4.1
       kapsule: 1.14.2
       three: 0.151.3
-      three-forcegraph: 1.41.5(three@0.151.3)
+      three-forcegraph: 1.41.7(three@0.151.3)
       three-render-objects: 1.28.2(three@0.151.3)
     dev: false
 
@@ -2016,7 +2016,7 @@ packages:
       fs-extra: 10.1.0
       html-minifier-terser: 6.1.0
       html-tags: 3.3.1
-      html-webpack-plugin: 5.5.0(webpack@5.79.0)
+      html-webpack-plugin: 5.5.1(webpack@5.79.0)
       import-fresh: 3.3.0
       leven: 3.1.0
       lodash: 4.17.21
@@ -2044,7 +2044,7 @@ packages:
       wait-on: 6.0.1
       webpack: 5.79.0(@swc/core@1.3.50)(esbuild@0.16.3)
       webpack-bundle-analyzer: 4.8.0
-      webpack-dev-server: 4.13.2(webpack@5.79.0)
+      webpack-dev-server: 4.13.3(webpack@5.79.0)
       webpack-merge: 5.8.0
       webpackbar: 5.0.2(webpack@5.79.0)
     transitivePeerDependencies:
@@ -5132,12 +5132,12 @@ packages:
       three-pathfinding: 0.7.0
     dev: false
 
-  /aframe-forcegraph-component@3.0.7(three@0.151.3):
+  /aframe-forcegraph-component@3.0.8(three@0.151.3):
     resolution:
-      { integrity: sha512-MqosccaPaW8fGKmHiDAmHj/HKK/p+uUMpUt341uJjoja5LpoSEq5ks/NvTv4NculMMdHkblmA8G5Cj4WX6R5Ew== }
+      { integrity: sha512-ir1SzOYWYVQ4wtG18QwZRR/aVeZlZDXDbcRgFxSIc8A1YB6Mz3Mh0f0zMFKE3jAq481xNgpktxMvsWGZTPi63Q== }
     dependencies:
       accessor-fn: 1.4.1
-      three-forcegraph: 1.41.5(three@0.151.3)
+      three-forcegraph: 1.41.7(three@0.151.3)
     transitivePeerDependencies:
       - three
     dev: false
@@ -5934,7 +5934,7 @@ packages:
       caniuse-lite: 1.0.30001478
       electron-to-chromium: 1.4.365
       node-releases: 2.0.10
-      update-browserslist-db: 1.0.10(browserslist@4.21.5)
+      update-browserslist-db: 1.0.11(browserslist@4.21.5)
 
   /bser@2.1.1:
     resolution:
@@ -6613,7 +6613,7 @@ packages:
       glob-parent: 6.0.2
       globby: 13.1.4
       normalize-path: 3.0.0
-      schema-utils: 4.0.0
+      schema-utils: 4.0.1
       serialize-javascript: 6.0.1
       webpack: 5.79.0(@swc/core@1.3.50)(esbuild@0.16.3)
     dev: false
@@ -6818,7 +6818,7 @@ packages:
       esbuild: 0.16.3
       jest-worker: 29.5.0
       postcss: 8.4.21
-      schema-utils: 4.0.0
+      schema-utils: 4.0.1
       serialize-javascript: 6.0.1
       source-map: 0.6.1
       webpack: 5.79.0(@swc/core@1.3.50)(esbuild@0.16.3)
@@ -8543,7 +8543,7 @@ packages:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
       loader-utils: 2.0.4
-      schema-utils: 3.1.1
+      schema-utils: 3.1.2
       webpack: 5.79.0(@swc/core@1.3.50)(esbuild@0.16.3)
     dev: false
 
@@ -9423,9 +9423,9 @@ packages:
       { integrity: sha512-uE/TxKuyNIcx44cIWnjr/rfIATDH7ZaOMmstu0CwhFG1Dunhlp4OC6/NMbhiwoq5BpW0ubi303qnEk/PZj614w== }
     dev: false
 
-  /html-webpack-plugin@5.5.0(webpack@5.79.0):
+  /html-webpack-plugin@5.5.1(webpack@5.79.0):
     resolution:
-      { integrity: sha512-sy88PC2cRTVxvETRgUHFrL4No3UxvcH8G1NepGhqaTT+GXN2kTamqasot0inS5hXeg1cMbFDt27zzo9p35lZVw== }
+      { integrity: sha512-cTUzZ1+NqjGEKjmVgZKLMdiFg3m9MdRXkZW2OEe69WYVi5ONLMmlnSZdXzGGMOq0C8jGDrL6EWyEDDUioHO/pA== }
     engines: { node: '>=10.13.0' }
     peerDependencies:
       webpack: ^5.20.0
@@ -11472,7 +11472,7 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      schema-utils: 4.0.0
+      schema-utils: 4.0.1
       webpack: 5.79.0(@swc/core@1.3.50)(esbuild@0.16.3)
     dev: false
 
@@ -13238,16 +13238,16 @@ packages:
     resolution:
       { integrity: sha512-xTYf9zFim2pEif/Fw16dBiXpe0hoy5PxcD8+OwBnTtNLfIm3g6WxhKNurY+6OmdH1u6Ta/W/Vl6vjbYP1MFnDg== }
 
-  /react-force-graph@1.42.1(react@18.2.0)(three@0.151.3):
+  /react-force-graph@1.42.2(react@18.2.0)(three@0.151.3):
     resolution:
-      { integrity: sha512-NgGajgkbrjkx9gYSBze5j2sAoCAKD0Lx7px5MiUmMs4qKok9i0M1vkxMFTGnQn+RuQCz/WqVSes78Rkxm5GqLg== }
+      { integrity: sha512-RVUDmE+6xfC3Yya4K7LRvPGLHBzp1r3SJ00VBjSc37UQ5h9S2zoliH3qie1TcyTscQysarMr/GvVUhfkO2mCjQ== }
     engines: { node: '>=12' }
     peerDependencies:
       react: '*'
     dependencies:
-      3d-force-graph: 1.71.2
-      3d-force-graph-ar: 1.8.2(three@0.151.3)
-      3d-force-graph-vr: 2.2.1(three@0.151.3)
+      3d-force-graph: 1.71.3
+      3d-force-graph-ar: 1.8.3(three@0.151.3)
+      3d-force-graph-vr: 2.2.2(three@0.151.3)
       force-graph: 1.43.1
       prop-types: 15.8.1
       react: 18.2.0
@@ -14185,18 +14185,18 @@ packages:
       ajv-keywords: 3.5.2(ajv@6.12.6)
     dev: false
 
-  /schema-utils@3.1.1:
+  /schema-utils@3.1.2:
     resolution:
-      { integrity: sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw== }
+      { integrity: sha512-pvjEHOgWc9OWA/f/DE3ohBWTD6EleVLf7iFUkoSwAxttdBhB9QUebQgxER2kWueOvRJXPHNnyrvvh9eZINB8Eg== }
     engines: { node: '>= 10.13.0' }
     dependencies:
       '@types/json-schema': 7.0.11
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  /schema-utils@4.0.0:
+  /schema-utils@4.0.1:
     resolution:
-      { integrity: sha512-1edyXKgh6XnJsJSQ8mKWXnN/BVaIbFMLpouRUrXgVq7WYne5kw3MW7UPhO44uRXQSIpTSXoJbmrR2X0w9kUTyg== }
+      { integrity: sha512-lELhBAAly9NowEsX0yZBlw9ahZG+sK/1RJ21EpzdYHKEs13Vku3LJ+MIPhh4sMs0oCCeufZQEQbMekiA4vuVIQ== }
     engines: { node: '>= 12.13.0' }
     dependencies:
       '@types/json-schema': 7.0.11
@@ -15113,7 +15113,7 @@ packages:
       '@swc/core': 1.3.50
       esbuild: 0.16.3
       jest-worker: 27.5.1
-      schema-utils: 3.1.1
+      schema-utils: 3.1.2
       serialize-javascript: 6.0.1
       terser: 5.16.9
       webpack: 5.79.0(@swc/core@1.3.50)(esbuild@0.16.3)
@@ -15133,9 +15133,9 @@ packages:
     resolution:
       { integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw== }
 
-  /three-forcegraph@1.41.5(three@0.151.3):
+  /three-forcegraph@1.41.7(three@0.151.3):
     resolution:
-      { integrity: sha512-CJ2Wlbd3QjEsaXbLu+RrpY/c1uKb0zslbEfQHygTVO5/dZw76H9Oy7kWUUXwYt+3x0lVzktYxvczcuWvUZ/hPw== }
+      { integrity: sha512-gnMhvj/NjIWqnke+ZPPqFhIpWc0W+KJwVF2Y16bO2FBObHWgYYBAA8yNhvilPAzOK4FyOUaA62CsTObQRgdMDA== }
     engines: { node: '>=12' }
     peerDependencies:
       three: '>=0.118.3'
@@ -15665,9 +15665,9 @@ packages:
     engines: { node: '>=4' }
     dev: false
 
-  /update-browserslist-db@1.0.10(browserslist@4.21.5):
+  /update-browserslist-db@1.0.11(browserslist@4.21.5):
     resolution:
-      { integrity: sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ== }
+      { integrity: sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA== }
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -15723,7 +15723,7 @@ packages:
       file-loader: 6.2.0(webpack@5.79.0)
       loader-utils: 2.0.4
       mime-types: 2.1.35
-      schema-utils: 3.1.1
+      schema-utils: 3.1.2
       webpack: 5.79.0(@swc/core@1.3.50)(esbuild@0.16.3)
     dev: false
 
@@ -15973,13 +15973,13 @@ packages:
       memfs: 3.5.0
       mime-types: 2.1.35
       range-parser: 1.2.1
-      schema-utils: 4.0.0
+      schema-utils: 4.0.1
       webpack: 5.79.0(@swc/core@1.3.50)(esbuild@0.16.3)
     dev: false
 
-  /webpack-dev-server@4.13.2(webpack@5.79.0):
+  /webpack-dev-server@4.13.3(webpack@5.79.0):
     resolution:
-      { integrity: sha512-5i6TrGBRxG4vnfDpB6qSQGfnB6skGBXNL5/542w2uRGLimX6qeE5BQMLrzIC3JYV/xlGOv+s+hTleI9AZKUQNw== }
+      { integrity: sha512-KqqzrzMRSRy5ePz10VhjyL27K2dxqwXQLP5rAKwRJBPUahe7Z2bBWzHw37jeb8GCPKxZRO79ZdQUAPesMh/Nug== }
     engines: { node: '>= 12.13.0' }
     hasBin: true
     peerDependencies:
@@ -16014,7 +16014,7 @@ packages:
       open: 8.4.2
       p-retry: 4.6.2
       rimraf: 3.0.2
-      schema-utils: 4.0.0
+      schema-utils: 4.0.1
       selfsigned: 2.1.1
       serve-index: 1.9.1
       sockjs: 0.3.24
@@ -16072,7 +16072,7 @@ packages:
       loader-runner: 4.3.0
       mime-types: 2.1.35
       neo-async: 2.6.2
-      schema-utils: 3.1.1
+      schema-utils: 3.1.2
       tapable: 2.2.1
       terser-webpack-plugin: 5.3.7(@swc/core@1.3.50)(esbuild@0.16.3)(webpack@5.79.0)
       watchpack: 2.4.0

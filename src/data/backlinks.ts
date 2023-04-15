@@ -3683,6 +3683,10 @@ export const backlinks = {
     "Dynamically Linked Libraries": {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
     },
+    "Detroit Become Human": {
+        "2023-04-15": "[[Detroit Become Human]]",
+        "Playings": "- [[Detroit Become Human]]"
+    },
     "Building Habit": {
         "2023-01-15": "## [[Building Habit]]",
         "2023-01-16": "## [[Building Habit]]",
@@ -6311,7 +6315,8 @@ export const backlinks = {
         "2023-01-24": "- [[Counting]]"
     },
     "Playings": {
-        "2023-03-24": "- [[Playings]]"
+        "2023-03-24": "- [[Playings]]",
+        "2023-04-15": "[[Playings]]"
     },
     "ChatGPT is a Blurry JPEG and We Need That": {
         "2023-03-31": "- [[ChatGPT is a Blurry JPEG and We Need That]]",
@@ -7778,6 +7783,12 @@ export const backlinks = {
     "BB86F6.png": {
         "Data Capturers": "![[BB86F6.png]]",
         "Lazy": "![[BB86F6.png]]"
+    },
+    "EFC07C.png": {
+        "Detroit Become Human": "![[EFC07C.png]]"
+    },
+    "5E92AA.gif": {
+        "Detroit Become Human": "![[5E92AA.gif]]"
     },
     "115932.png": {
         "Linkflags": "![[115932.png]]"
