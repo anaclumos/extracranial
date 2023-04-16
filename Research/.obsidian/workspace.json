@@ -37,9 +37,12 @@
             "id": "2dfbb86ebb559365",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/EFC07C.png"
+                "file": "journals/2023-04-15.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
               }
             }
           }
@@ -110,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/EFC07C.png"
+                "file": "journals/2023-04-15.md"
               }
             }
           },
@@ -120,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/EFC07C.png",
+                "file": "journals/2023-04-15.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
