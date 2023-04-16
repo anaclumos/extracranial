@@ -4,63 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "68b221bbe948d470",
+        "id": "8f82a4a7e93abc1d",
         "type": "tabs",
         "children": [
           {
-            "id": "744e7ed427852323",
+            "id": "f21c60947da0c14e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-04-15.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9e8f0382a9657811",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-04-15.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2dfbb86ebb559365",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2023-04-15.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9feafdf2f4ae120c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구.md"
-              }
+              "state": {}
             }
           },
           {
@@ -137,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,9 +120,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9feafdf2f4ae120c",
+  "active": "f21c60947da0c14e",
   "lastOpenFiles": [
     "journals/2023-04-15.md",
+    "assets/30ADF3.png",
     "pages/감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구.md",
     "pages/Antifragile.md",
     "pages/국가와 민족.md",
@@ -201,12 +154,10 @@
     "pages/Super App.md",
     "pages/super ap.md",
     "pages/Z-Fellows.md",
-    "assets/DCA5E9.png",
     "pages/Time-Space Continuum (Philosophy).md",
     "pages/Time-Space Continuum (Physics).md",
     "pages/AT&T Roaming Incident Report (December 2022).md",
     "pages/Vercel Incident Report (April 2023).md",
-    "pages/DeepL vs. GPT 3.5 vs. GPT 4 벤치마크.md",
     "assets/64EC74.png.sb-b9e6d624-gAkzfM",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",

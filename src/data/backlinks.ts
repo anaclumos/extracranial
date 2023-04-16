@@ -6940,6 +6940,9 @@ export const backlinks = {
         "Love Wikipedia": "![[94861D.png]]",
         "Wikipedia": "![[94861D.png]]"
     },
+    "30ADF3.png": {
+        "2023-04-15": "![[30ADF3.png]]"
+    },
     "5B9AFC.png": {
         "2022-12-19": "![[5B9AFC.png]]",
         "하늘땅사람 개발 기록": "![[5B9AFC.png]]"
