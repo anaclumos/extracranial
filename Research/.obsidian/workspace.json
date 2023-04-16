@@ -45,9 +45,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "9feafdf2f4ae120c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "import ",
+                "query": "주민",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -113,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-04-15.md"
+                "file": "pages/감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구.md"
               }
             }
           },
@@ -123,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2023-04-15.md",
+                "file": "pages/감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,20 +168,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2dfbb86ebb559365",
+  "active": "9feafdf2f4ae120c",
   "lastOpenFiles": [
+    "journals/2023-04-15.md",
+    "pages/감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구.md",
+    "pages/Antifragile.md",
+    "pages/국가와 민족.md",
+    "journals/2023-04-12.md",
+    "journals/2023-04-13.md",
+    "journals/2023-04-14.md",
     "pages/Detroit Become Human.md",
     "assets/EFC07C.png",
     "assets/5E92AA.gif",
-    "journals/2023-04-15.md",
     "pages/Playings.md",
     "pages/Browser Company Hackathon.md",
-    "journals/2023-04-14.md",
     "assets/A3C7C7.png.sb-b9e6d624-BQQje9",
     "assets/1B99A7.png",
     "assets/A3C7C7.png",
-    "journals/2023-04-13.md",
-    "journals/2023-04-12.md",
     "pages/lovearc.net.md",
     "assets/DB7394.jpeg",
     "pages/hn.cho.sh 개발 기록.md",
@@ -190,8 +207,6 @@
     "pages/AT&T Roaming Incident Report (December 2022).md",
     "pages/Vercel Incident Report (April 2023).md",
     "pages/DeepL vs. GPT 3.5 vs. GPT 4 벤치마크.md",
-    "journals/2022-12-16.md",
-    "journals/2023-04-10.md",
     "assets/64EC74.png.sb-b9e6d624-gAkzfM",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
