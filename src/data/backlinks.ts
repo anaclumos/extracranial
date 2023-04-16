@@ -3684,7 +3684,7 @@ export const backlinks = {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
     },
     "Detroit Become Human": {
-        "2023-04-15": "[[Detroit Become Human]]",
+        "2023-04-15": "- [[Detroit Become Human]]",
         "Playings": "- [[Detroit Become Human]]"
     },
     "Building Habit": {
@@ -6316,7 +6316,7 @@ export const backlinks = {
     },
     "Playings": {
         "2023-03-24": "- [[Playings]]",
-        "2023-04-15": "[[Playings]]"
+        "2023-04-15": "- [[Playings]]"
     },
     "ChatGPT is a Blurry JPEG and We Need That": {
         "2023-03-31": "- [[ChatGPT is a Blurry JPEG and We Need That]]",
