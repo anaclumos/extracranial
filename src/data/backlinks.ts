@@ -346,6 +346,9 @@ export const backlinks = {
     "2023-02-13": {
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-13]]: 개인 사정"
     },
+    "2023-04-16": {
+        "hn.cho.sh 개발 기록": "## [[2023-04-16]]"
+    },
     "2023-01-12": {
         "Using an iPad as my Ebook": "... best ebook reader is yet to finish, a recent discovery on [[2023-01-12]] suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools ...",
         "재학생일기": "[[2023-01-12]]에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
@@ -1286,7 +1289,8 @@ export const backlinks = {
         "Synthote": "- Coined by [[Stephan Ango]]"
     },
     "Beehiiv": {
-        "2023-02-21": "- [[Beehiiv]]"
+        "2023-02-21": "- [[Beehiiv]]",
+        "hn.cho.sh 개발 기록": "[[Beehiiv]]의 Referral 도구가 좋다고 하는데, 가장 큰 단점은 Beehiiv는 Multiregion을 지원하지 않는다는 ..."
     },
     "Svelte": {
         "Jest": "... works with projects using Babel, TypeScript, Node.js, React, Angular, Vue.js, and [[Svelte]]. Jest doesn't require a lot of configuration for first-time users of ...",
@@ -5122,7 +5126,8 @@ export const backlinks = {
         "2023-04-10": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-11": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-12": "- [[hn.cho.sh 개발 기록]]",
-        "2023-04-13": "[[hn.cho.sh 개발 기록]]"
+        "2023-04-13": "[[hn.cho.sh 개발 기록]]",
+        "2023-04-16": "[[hn.cho.sh 개발 기록]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -7357,6 +7362,10 @@ export const backlinks = {
     },
     "EC7EEF.png": {
         "Python": "![[EC7EEF.png]]"
+    },
+    "D65958.png": {
+        "Beehiiv": "![[D65958.png]]",
+        "hn.cho.sh 개발 기록": "![[D65958.png]]"
     },
     "70C429.png": {
         "Beehiiv": "![[70C429.png]]"
