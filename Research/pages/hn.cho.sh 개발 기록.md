@@ -166,3 +166,5 @@ Headless Chrome을 사용하도록 GitHub Actions를 개편했다.
 - 광고 재개하기 (자동 광고?)
 - [SparkLoop: The #1 Newsletter Growth Platform](https://sparkloop.app/) 알아보기
 - 스토리별로 쪼개보기?
+- [supastarter - The SaaS starter template for Next.js and Supabase](https://supastarter.dev/) 살펴보기
+- 광고를 돌리는게 큰 의미가 있는지 모르겠다. 클릭 당 지출이 1-2달러 수준인데.
