@@ -11,8 +11,13 @@
             "id": "f21c60947da0c14e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/hn.cho.sh 개발 기록.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "주민",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/hn.cho.sh 개발 기록.md"
+              }
             }
           },
           {
@@ -90,22 +97,23 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/hn.cho.sh 개발 기록.md",
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 434.5,
-    "collapsed": true
+    "width": 434.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -122,6 +130,11 @@
   },
   "active": "f21c60947da0c14e",
   "lastOpenFiles": [
+    "pages/Beehiiv.md",
+    "pages/hn.cho.sh 개발 기록.md",
+    "journals/2023-04-16.md",
+    "assets/3F33D9.png",
+    "assets/D65958.png",
     "journals/2023-04-15.md",
     "assets/30ADF3.png",
     "pages/감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구.md",
@@ -140,15 +153,12 @@
     "assets/A3C7C7.png",
     "pages/lovearc.net.md",
     "assets/DB7394.jpeg",
-    "pages/hn.cho.sh 개발 기록.md",
     "assets/BFE9DE.png",
     "journals/2023-04-11.md",
     "pages/0141 Linked List Cycle.md",
     "pages/Project Prepare for Grammarly.md",
     "assets/E66AB1.png",
-    "assets/EC9948.png",
     "pages/GrammarlyGO.md",
-    "assets/B6D2F1.gif",
     "pages/Super App and Democracy.md",
     "pages/Musk.md",
     "pages/Super App.md",
@@ -156,8 +166,6 @@
     "pages/Z-Fellows.md",
     "pages/Time-Space Continuum (Philosophy).md",
     "pages/Time-Space Continuum (Physics).md",
-    "pages/AT&T Roaming Incident Report (December 2022).md",
-    "pages/Vercel Incident Report (April 2023).md",
     "assets/64EC74.png.sb-b9e6d624-gAkzfM",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",
