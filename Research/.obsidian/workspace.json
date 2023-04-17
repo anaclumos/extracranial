@@ -39,15 +39,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/hn.cho.sh 개발 기록.md",
+                "file": "journals/2023-04-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bcece5e502500cd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-04-17.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d4efab34edcd7a15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Sprachraum.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/hn.cho.sh 개발 기록.md"
+                "file": "journals/2023-04-17.md"
               }
             }
           },
@@ -124,14 +149,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/hn.cho.sh 개발 기록.md",
+                "file": "journals/2023-04-17.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -155,12 +180,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7f487ed1150a426e",
+  "active": "f21c60947da0c14e",
   "lastOpenFiles": [
+    "pages/Premature Optimizations.md",
     "journals/2023-04-17.md",
+    "pages/Sprachraum.md",
+    "pages/hn.cho.sh 개발 기록.md",
+    "pages/Bootstrap.md",
+    "pages/Untitled.md",
+    "pages/The Battle of Flow and Asana.md",
     "journals/2023-04-16.md",
     "pages/Beehiiv.md",
-    "pages/hn.cho.sh 개발 기록.md",
     "assets/3F33D9.png",
     "assets/D65958.png",
     "journals/2023-04-15.md",
@@ -189,11 +219,6 @@
     "pages/GrammarlyGO.md",
     "pages/Super App and Democracy.md",
     "pages/Musk.md",
-    "pages/Super App.md",
-    "pages/super ap.md",
-    "pages/Z-Fellows.md",
-    "pages/Time-Space Continuum (Philosophy).md",
-    "pages/Time-Space Continuum (Physics).md",
     "assets/64EC74.png.sb-b9e6d624-gAkzfM",
     "assets/F28530.png.sb-a3cb3f05-JcLh4U",
     "assets/173737.png.sb-a3cb3f05-ZUt44x",

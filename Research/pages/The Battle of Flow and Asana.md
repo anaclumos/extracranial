@@ -22,7 +22,7 @@ He implied—in the nicest possible terms—that they were going to crush us.
 He walked me through who was backing them, how much cash they had, how they had hired top executives from huge companies, and that it was only a matter of time until they beat us on product and outspend us on marketing.
 
 **I laughed!**
-I was on the bootstrapping train. He was drinking Silicon Valley KoolAid.
+I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon Valley KoolAid.
 "Nice try!"
 I told him "let the games begin" and we left with a friendly handshake.
 Flow kept growing quickly, but our customers were demanding.
@@ -45,4 +45,4 @@ We lost the war, due to inexperience, product myopia, and a lack of capital in a
 7. R&D is EXPENSIVE. Especially when competing with venture.
 8. If you're competing on features, it never stops and is an ever-increasing line item.
 9. Good product with great marketing beats amazing product with no marketing.
-10. Bootstrapping works best in uncompetitive spaces/niches or if you have an unfair advantage (a personal brand, unique customer acquisition channel, etc).
+10. [[Bootstrap|Bootstrapping]] works best in uncompetitive spaces/niches or if you have an unfair advantage (a personal brand, unique customer acquisition channel, etc).

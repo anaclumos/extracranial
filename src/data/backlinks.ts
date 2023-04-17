@@ -629,6 +629,7 @@ export const backlinks = {
     },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
+        "Premature Optimizations": "- [[Service Shimming]], [[서비스 시밍]]",
         "Tech Now Pay Later": "This approach is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you make it. But what is the ...",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-02 | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]]        ...",
         "서비스 시밍": "[[Service Shimming]]"
@@ -1085,10 +1086,6 @@ export const backlinks = {
         "2023-01-26": "- [[Project Core ML Foundation]]",
         "2023-01-27": "- [[Project Core ML Foundation]]",
         "2023-01-30": "- [[Project Core ML Foundation]]"
-    },
-    "The Great Battle of Flow and Asana": {
-        "2022-12-09": "- [[The Great Battle of Flow and Asana]]",
-        "Survivorship Biased": "- [[The Great Battle of Flow and Asana]]"
     },
     "SMTP": {
         "Internetworking": "- [[SMTP]]",
@@ -2929,7 +2926,7 @@ export const backlinks = {
         "Synthote": "- [[Project]] scaffolding",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "Tech Now Pay Later": "> Instead of worrying about which DB to use for your [[project]] and/or if it scales – sometimes you just gotta ship it ...",
-        "The Great Battle of Flow and Asana": "... Basecamp was to build great software that scratched their own itch ([[project]] management,) and charge a monthly recurring amount to give them access ...",
+        "The Battle of Flow and Asana": "... Basecamp was to build great software that scratched their own itch ([[project]] management,) and charge a monthly recurring amount to give them access ...",
         "The One and Only": "Someday [[Project]]. Ideated during [[Person 648442]]",
         "The One and Only WebExtension": "- Someday [[Project]]",
         "The Zenly Playbook": "... Zenly shows surprising accuracy and battery efficiency from a 3-year research [[project]] for a child safety app before founding Zenly. Even from the ...",
@@ -3646,6 +3643,9 @@ export const backlinks = {
     "Time-Space Continuum (Physics)": {
         "2023-04-12": "- [[Time-Space Continuum (Physics)]]"
     },
+    "Sprachraum": {
+        "2023-04-17": "- [[Sprachraum]]"
+    },
     "XTML": {
         "2022-12-04": "- [[XTML]]"
     },
@@ -3751,8 +3751,8 @@ export const backlinks = {
         "2022-06-21": "... these layoffs remain predictable: most are cash-burning companies that rely on [[Venture Capital|VC]] money to sustain the business.",
         "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]",
         "Person A3BA1A": "The [[Venture Capital|VC]] side tool and the Startup side tool.",
+        "The Battle of Flow and Asana": "... We consistently spending 2-3x our monthly revenue and losing money. Not [[venture capital]]. Out of my personal bank account, hopes in making much more.",
         "The Dilemmas of Technopreneur": "> If you are in a competitive [[Venture Capital|VC]]-funded space, it's foolish to compete without raising money. Don't bring a ...",
-        "The Great Battle of Flow and Asana": "... We consistently spending 2-3x our monthly revenue and losing money. Not [[venture capital]]. Out of my personal bank account, hopes in making much more.",
         "The Great Struggle of Gumroad": "... I raised $1.1M from an all-star cast of angel investors and [[venture capital]] firms, including Max Levchin, Chris Sacca, Ron Conway, Naval Ravikant, Collaborative ..."
     },
     "HTMX": {
@@ -3792,6 +3792,11 @@ export const backlinks = {
     },
     "Ancestors of C": {
         "Internetworking": "- [[Ancestors of C]]"
+    },
+    "The Battle of Flow and Asana": {
+        "2022-12-09": "- [[The Battle of Flow and Asana]]",
+        "Bootstrap": "- [[The Battle of Flow and Asana]]",
+        "Survivorship Biased": "- [[The Battle of Flow and Asana]]"
     },
     "水適穿石": {
         "2022-06-12": "- [[水適穿石]]",
@@ -4671,6 +4676,9 @@ export const backlinks = {
     "SHAP": {
         "2022-12-24": "- [[SHAP]]"
     },
+    "Premature Optimizations": {
+        "2023-04-17": "- [[Premature Optimizations]]"
+    },
     "Government Services should have full API support": {
         "2022-10-27": "- [[Government Services should have full API support]]",
         "API Economy": "- [[Government Services should have full API support]]"
@@ -4884,6 +4892,11 @@ export const backlinks = {
         "Visual Studio Code": "... Studio Code, also commonly referred to as VS Code, made by [[Microsoft]] with the Electron Framework, for Windows, [[Linux]] and macOS. Features include ...",
         "Workbench": "- For [[Microsoft]] Products, use App Store.",
         "원숭이와 꽃신": "- [[Microsoft|마이크로소프트]]도 이런 '원숭이 꽃신 [[Economy|경제]]학'에 충실한 기업이다. Microsoft|마이크로소프트는 대학을 상대로 마케팅 사업을 ..."
+    },
+    "Bootstrap": {
+        "2023-04-17": "- [[Bootstrap]]",
+        "Premature Optimizations": "- [[Bootstrap]]",
+        "The Battle of Flow and Asana": "I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon Valley KoolAid."
     },
     "인하우스와 자유경쟁": {
         "2023-02-22": "- [[인하우스와 자유경쟁]]",
@@ -5116,6 +5129,7 @@ export const backlinks = {
     },
     "서비스 시밍": {
         "2023-02-02": "- [[서비스 시밍]]",
+        "Premature Optimizations": "- Service Shimming, [[서비스 시밍]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-02 | 🇬🇧 Service Shimming <br/> 🇰🇷 [[서비스 시밍]]            ...",
         "기술 할부 결제": "이 접근 방식은 만들 때까지 만든 척하는 [[서비스 시밍]]과 유사하다."
     },
@@ -5131,7 +5145,9 @@ export const backlinks = {
         "2023-04-12": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-13": "[[hn.cho.sh 개발 기록]]",
         "2023-04-16": "[[hn.cho.sh 개발 기록]]",
-        "2023-04-17": "[[hn.cho.sh 개발 기록]]: 당근 PM 론과의 대화"
+        "2023-04-17": "- [[hn.cho.sh 개발 기록]]: 당근 PM 론과의 대화",
+        "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
+        "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
