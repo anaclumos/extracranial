@@ -1,9 +1,9 @@
 {
-  "theme": "moonstone",
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
+  "theme": "obsidian",
+  "interfaceFontFamily": "SF Pro",
+  "textFontFamily": "SF Pro",
   "monospaceFontFamily": "D2Coding ligature",
-  "cssTheme": "Minimal",
+  "cssTheme": "Things",
   "translucency": false,
   "baseFontSize": 21,
   "accentColor": ""
