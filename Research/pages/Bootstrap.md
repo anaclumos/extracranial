@@ -12,7 +12,7 @@ While bootstrapping is more common in the US, it was historically less popular i
 
 Korean startups often perceive that they must receive seed funding from accelerators, angel investors, or venture capital firms to succeed. This mindset can lead to a "shock" when entrepreneurs face increased risk and personal investment in their businesses. In addition, venture capital firms may push startups to grow faster than necessary, given their fund structures and the competitive nature of the industry. Recent news about the Korean startup industry has been negative, but focusing on revenue and cash flow is a normal part of running a business.
 
-## Also Read
+## Related
 
 - [[The Battle of Flow and Asana]]
 - [부트스트래핑: 스타트업이 투자를 받지 않고 살아남는 법](https://outstanding.kr/bootstrapping20230417)
