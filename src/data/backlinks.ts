@@ -3644,7 +3644,7 @@ export const backlinks = {
         "2023-04-12": "- [[Time-Space Continuum (Physics)]]"
     },
     "Sprachraum": {
-        "2023-04-17": "- [[Sprachraum]], [[Bootstrap]]"
+        "2023-04-17": "- [[Sprachraum]]"
     },
     "XTML": {
         "2022-12-04": "- [[XTML]]"
@@ -4677,7 +4677,7 @@ export const backlinks = {
         "2022-12-24": "- [[SHAP]]"
     },
     "Premature Optimizations": {
-        "2023-04-17": "- [[Premature Optimizations]]"
+        "2023-04-17": "- [[Premature Optimizations]], [[Bootstrap]]"
     },
     "Government Services should have full API support": {
         "2022-10-27": "- [[Government Services should have full API support]]",
@@ -4894,7 +4894,7 @@ export const backlinks = {
         "원숭이와 꽃신": "- [[Microsoft|마이크로소프트]]도 이런 '원숭이 꽃신 [[Economy|경제]]학'에 충실한 기업이다. Microsoft|마이크로소프트는 대학을 상대로 마케팅 사업을 ..."
     },
     "Bootstrap": {
-        "2023-04-17": "- Sprachraum, [[Bootstrap]]",
+        "2023-04-17": "- Premature Optimizations, [[Bootstrap]]",
         "Premature Optimizations": "- [[Bootstrap]]",
         "The Battle of Flow and Asana": "I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon Valley KoolAid."
     },
