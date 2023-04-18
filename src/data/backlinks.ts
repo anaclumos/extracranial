@@ -425,6 +425,9 @@ export const backlinks = {
     "2019-10-13": {
         "잡스와 생존 편향": "[[2019-10-13]]의 에세이."
     },
+    "2023-04-18": {
+        "hn.cho.sh 개발 기록": "## [[2023-04-18]]"
+    },
     "2022-10-11": {
         "Open Graph Image as a Service": "- [[2022-10-11]]"
     },
@@ -4607,6 +4610,7 @@ export const backlinks = {
     "Fiercely Overpriced": {
         "2022-07-14": "- Moved to [[Fiercely Overpriced]]",
         "2022-07-18": "- [[Fiercely Overpriced]] for [[Open Graph Image as a Service]] could be public-key-encrypting query ...",
+        "2023-04-18": "- [[Fiercely Overpriced|Paywall]]",
         "Autosave Everything": "How would it be [[Fiercely Overpriced]]?",
         "CELLO (Product)": "## How would it be [[Fiercely Overpriced]]?",
         "CalliFontia": "## [[Fiercely Overpriced]]",
@@ -5149,6 +5153,7 @@ export const backlinks = {
         "2023-04-13": "[[hn.cho.sh 개발 기록]]",
         "2023-04-16": "[[hn.cho.sh 개발 기록]]",
         "2023-04-17": "- [[hn.cho.sh 개발 기록]]: 당근 PM 론과의 대화",
+        "2023-04-18": "- [[hn.cho.sh 개발 기록]]",
         "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
         "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]"
     },
@@ -7971,6 +7976,9 @@ export const backlinks = {
     },
     "E437D9.png": {
         "Digital Addiction": "![[E437D9.png]]"
+    },
+    "3F9675.png": {
+        "Fiercely Overpriced": "![[3F9675.png]]"
     },
     "3BD418.png": {
         "Interactive Articles": "![[3BD418.png]]"
