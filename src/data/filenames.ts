@@ -1142,6 +1142,7 @@ export const filenames = {
     "Stirling Approximation": "BC8DA5",
     "Stories Behind Satori": "5CC699",
     "Storing sensitive data in iOS Apps": "30CC03",
+    "Stripe Sessions 2023": "160B2B",
     "Structs and Unions": "9AF47D",
     "Subproject": "A46FA5",
     "Substack is the new Medium": "A4DEA3",
