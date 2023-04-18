@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "redirects": "cp _redirects build/_redirects",
-    "ship": "$npm_execpath run wrangler pages publish ./build --commit-dirty=true --project-name=memex",
+    "ship": "wrangler pages publish ./build --commit-dirty=true --project-name=memex",
     "swizzle": "docusaurus swizzle",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear && rm -rf 'blog' && rm -rf 'docs' && rm -f '**/*.config.js' && rm -f '**/*.config.js.map' && rm -rf 'i18n /**/*.md' && cp tools/안녕하세요.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n /**/*.png' && rm -rf 'i18n /**/*.svg' && rm -rf 'i18n /**/*.jpg' && rm -rf 'i18n /**/*.jpeg'",
