@@ -24,7 +24,7 @@ slug: '/DDC33D'
 - Too hot: [Automatisch](https://automatisch.io) is the closest thing to a direct open-source variant of Zapier at this time, as its design carries the spirit of the paid tool's interface, but it is brand new, having just launched only in November, and doesn't have many apps. It feels like one to watch, though. However, unlike other options, it falls under a standard AGPL license. So I had no trouble installing this locally.
 - Too cold: [N8n](https://n8n.io) has the correct number of apps, a larger community, and is much more mature than many of its competitors, but its less-intuitive design is potentially a turnoff. (Despite being free to self-host via a community option, it also [does not have an open-source license](https://github.com/n8n-io/n8n/blob/master/LICENSE.md).) It can be run inside a desktop application, which is a plus.
 - Just right: [ActivePieces](https://www.activepieces.com) seems to have the right momentum to get things going in a good direction; it also has a reasonably priced cloud option, and while it is still new, it has a lot of potential and a quickly growing app list. (It, too, [doesn't use](https://github.com/activepieces/activepieces/blob/main/packages/ee/LICENSE) a pure GPL-style license, however. Another responsive-to-feedback team, however.)
-- Outside the box: If your goal is automating some basic tasks, the browser extension [Automa](https://www.automa.site) also has much potential.
+- Outside the box: If your goal is automating some basic tasks, the [[Web Browser|browser]] extension [Automa](https://www.automa.site) also has much potential.
 
 ### Self-hosted Calendly alternatives
 

@@ -10,7 +10,7 @@ aliases: ['파이어폭스', '불여우', 'FF', '🔥🦊', '❤🔥']
 
 - https://github.com/anaclumos/firefox
 
-### Make Browser Tab Bar More Compact
+### Make [[Web Browser|Browser]] Tab Bar More Compact
 
 - `about:config`
 - `browser.uidensity`: 0 is the default, 1 is compact, 2 is touch (sparser)

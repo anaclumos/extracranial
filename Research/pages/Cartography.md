@@ -32,7 +32,7 @@ Despite these challenges, digital maps have revolutionized how we access and use
 
 Felt is a modern map-making platform designed for creating, visualizing, and collaborating on maps.
 
-1.  Powerful Tools: Felt provides browser-based tools for customizing maps, allowing users to draw, drop pins, leave notes, trace boundaries, find routes, and even add videos.
+1.  Powerful Tools: Felt provides [[Web Browser|browser]]-based tools for customizing maps, allowing users to draw, drop pins, leave notes, trace boundaries, find routes, and even add videos.
 2.  Team Collaboration: Felt enables real-time collaboration with team members, clients, students, or colleagues, allowing users to annotate and edit maps.
 3.  Data Visualization: The platform simplifies importing, editing, and exporting data layers, supporting drag-and-drop functionality for various file formats.
 4.  Map Organization: Felt stores maps and data in one place, enabling users to structure and share their work with others while ensuring easy access to necessary files.
