@@ -4,7 +4,7 @@ slug: '/451356'
 aliases: ['신블록경제']
 ---
 
-[[Neo]] Block Economy
+[[Neo]] Block [[Economy]]
 
 ### [TSMC founder Morris Chang says globalization 'almost dead'](https://asia.nikkei.com/Business/Tech/Semiconductors/TSMC-founder-Morris-Chang-says-globalization-almost-dead)
 

@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/8D922B'
-aliases: ['Gen-AI', 'Gen AI', 'Gen-AIs', 'Gen AIs', 'Generative AIs']
+aliases: ['Gen-AI', 'Gen AI', 'Gen-AIs', 'Gen AIs', 'Generative AIs', 'Generative Text AI']
 ---
 
 The year 2022 marked the year of Generative AIs.

@@ -7,6 +7,8 @@ slug: '/88A3F5'
 
 If a higher-rated player beats a lower-rated player, their rating will go up, while the loser's rating will go down. Improving Elo is relatively easy but usually comes at the cost of complexity.
 
+[[Probability]]
+
 ```
 New rating = Old rating + K * (outcome - expected outcome)
 

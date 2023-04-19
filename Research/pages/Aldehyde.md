@@ -22,5 +22,5 @@ followed by files
 
 ## 비판
 
-알데하이드는 아직 인문행정적 프로젝트 운영에 약하다.
-알데하이드 이후 "프로젝트"의 맥락이 Maker's Projects로 바뀌었다.
+알데하이드는 아직 인문행정적 [[Project|프로젝트]] 운영에 약하다.
+알데하이드 이후 "[[Project|프로젝트]]"의 맥락이 Maker's Projects로 바뀌었다.

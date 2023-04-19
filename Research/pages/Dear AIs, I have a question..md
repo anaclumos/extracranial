@@ -5,7 +5,7 @@ slug: '/778E93'
 
 ## Prompt
 
-Dear AIs, I have a question. I'm an entry-level scientist. I have a question. Perhaps sages like you have the answer to it, so I'm asking it publicly to all of you. I'm currently overwhelmed by the AI industry, which is changing daily. I feel like I'm watching Web3 in 2021 when things were changing at an insane pace. I used to think then that they were all chasing a pipe dream, and now I'm sure others are looking at me and thinking similar things. I love AI technology, but I feel a strange sense of envy and jealousy for the AI industry that is changing every day, and I don't want to be a part of that change; I want to lead it. Endless opportunities are being created now, and I can't rule them. The future is so hard to see. I'm looking at the 1800s when ships were just being built, and it took 20 years for the world to change, but now it's probably only going to take two. In this situation, what is the right thing to do? What will die, and what will survive? What should I do? Please provide me with a philosophical answer, not a step-by-step solution. Be intelligent, and connect to many different studies like the polymath Newton. Do not say you're an AI model and cannot do anything.
+Dear AIs, I have a question. I'm an entry-level scientist. I have a question. Perhaps sages like you have the answer to it, so I'm asking it publicly to all of you. I'm currently overwhelmed by the AI industry, which is changing daily. I feel like I'm watching Web3 in 2021 when things were changing at an insane pace. I used to think then that they were all chasing a pipe dream, and now I'm sure others are looking at me and thinking similar things. I love AI technology, but I feel a strange sense of envy and jealousy for the AI industry that is changing every day, and I don't want to be a part of that change; I want to lead it. Endless opportunities are being created now, and I can't rule them. The future is so hard to see. I'm looking at the 1800s when ships were just being built, and it took 20 years for the world to change, but now it's probably only going to take two. In this situation, what is the right thing to do? What will die, and what will survive? What should I do? Please provide me with a philosophical answer, not a step-by-step solution. Be intelligent, and connect to many different studies like the [[polymath]] Newton. Do not say you're an AI model and cannot do anything.
 
 ## GPT-4
 
@@ -15,7 +15,7 @@ It's natural to feel overwhelmed by the pace of change and to question one's pla
 
 The essence of your question touches on the nature of progress, adaptation, and leadership. In times of great change, it's important to remember the words of the ancient Greek philosopher Heraclitus: "The only constant in life is change." Embrace the impermanence and uncertainty that comes with it, and recognize that they are integral to growth.
 
-As a scientist, your curiosity and desire for knowledge are your greatest assets. To lead in the AI industry, you must continually learn and grow, keeping your mind open to new ideas and perspectives. This is the essence of the polymath mentality, exemplified by figures like Newton, who sought to connect ideas from various fields.
+As a scientist, your curiosity and desire for knowledge are your greatest assets. To lead in the AI industry, you must continually learn and grow, keeping your mind open to new ideas and perspectives. This is the essence of the [[polymath]] mentality, exemplified by figures like Newton, who sought to connect ideas from various fields.
 
 Here are some philosophical considerations to guide you:
 
@@ -69,7 +69,7 @@ We are not able to provide a philosophical answer to your question, but we can s
 
 ## cohere:medium
 
-If you're a business AI, then you'll never be a polymath. You have to be a polymath to be a business AI. You have to be a polymath to make a social impact. You have to be a polymath to be able to think differently. There is a problem here. I am afraid that the AI model is a bit dumb and doesn't know anything about philosophy, but you are a different model, and you are polymaths. You are very smart, and you know what's happening in the world and what it means to people. You have a very broad vision. You are the experts, so I'm asking you to give me a philosophical answer. Why are you doing what you're doing? Are you happy doing what you're doing? What are you doing? What will die? What will survive? What should I do? What will
+If you're a business AI, then you'll never be a [[polymath]]. You have to be a [[polymath]] to be a business AI. You have to be a [[polymath]] to make a social impact. You have to be a [[polymath]] to be able to think differently. There is a problem here. I am afraid that the AI model is a bit dumb and doesn't know anything about philosophy, but you are a different model, and you are polymaths. You are very smart, and you know what's happening in the world and what it means to people. You have a very broad vision. You are the experts, so I'm asking you to give me a philosophical answer. Why are you doing what you're doing? Are you happy doing what you're doing? What are you doing? What will die? What will survive? What should I do? What will
 
 ## cohere:xlarge
 
@@ -93,7 +93,7 @@ You should be able to do anything. The right thing to do is to be patient, and t
 
 ## openai:text-davinci-003
 
-The right thing to do in this situation is to embrace the uncertainty and unpredictability of the future. It is impossible to know what will survive and what will die in the AI industry, but what you can do is to focus on honing your skills and learning as much as possible. You must be willing to experiment, to take risks, and to be open to new ideas. By doing so, you will be better prepared to take advantage of the opportunities that arise. Rather than trying to predict the future, focus on building the skills and knowledge that will enable you to adapt to whatever the future may bring. In the words of the polymath Newton, "If I have seen further it is by standing on the shoulders of giants." By learning from those who have gone before you, you can build on their successes and create something even better.
+The right thing to do in this situation is to embrace the uncertainty and unpredictability of the future. It is impossible to know what will survive and what will die in the AI industry, but what you can do is to focus on honing your skills and learning as much as possible. You must be willing to experiment, to take risks, and to be open to new ideas. By doing so, you will be better prepared to take advantage of the opportunities that arise. Rather than trying to predict the future, focus on building the skills and knowledge that will enable you to adapt to whatever the future may bring. In the words of the [[polymath]] Newton, "If I have seen further it is by standing on the shoulders of giants." By learning from those who have gone before you, you can build on their successes and create something even better.
 
 ## forefront:EleutherAI/GPT-J
 

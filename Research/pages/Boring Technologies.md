@@ -13,8 +13,8 @@ aliases: ['overengineer', 'over-engineer', 'Boring']
 
 ### [Your tech stack is not the product](https://hoho.com/posts/your-stack-is-not-the-product/)
 
-- At most software startups, customers typically don't care if your product runs on Heroku, Kubernetes, or a brittle singly-homed machine in Joe's closet
-- No purchasing decisions hinge on your commitment to write servers in Rust or use Nix for hermetic everything
+- At most software startups, customers typically don't care if your product runs on Heroku, [[Kubernetes]], or a brittle singly-homed machine in Joe's closet
+- No purchasing decisions hinge on your commitment to write servers in [[Rust]] or use Nix for hermetic everything
 - Customers want software that delivers problem-solving impact
 - But there are many instances where an innocent, ill-considered early decision turned out much worse over the longer term. It becomes a time-sucking, success-hindering mess requiring costly correction later
 - Ship the product. Frequently and reliably.

@@ -711,6 +711,7 @@ export const filenames = {
     "Haruki Murakami": "95B3B1",
     "Hashflags": "4DF0BA",
     "Headers Include Order": "802B9D",
+    "Headless": "65C03C",
     "Heap (Computer Systems)": "F03966",
     "Height": "178F11",
     "Heptabase": "5A8160",

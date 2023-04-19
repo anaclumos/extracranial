@@ -4,7 +4,7 @@ slug: '/3E4C5F'
 ---
 
 - The closer to this bullet, the higher level it is.
-- **Application**. FTP, SMTP, [[HTTP]]. Handles _Messages_. SSL belongs here
+- **Application**. FTP, [[SMTP]], [[HTTP]]. Handles _Messages_. SSL belongs here
 - **Presentation**. Encryption, Compression. Machine specific.
 - **Session**. Synchronization, Checkpointing, Recovery.
 - **Transport**. TCP. UDP. [[TCP vs UDP]]. Handles **Segments**.

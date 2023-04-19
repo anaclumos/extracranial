@@ -14,7 +14,7 @@ aliases: ['Personal Knowledge Management']
 | [[PKM]]            | Architecture for [[Digital Garden]].             |
 | [[PARA]]           | Architecture for [[Second Brain]].               |
 
-- Digital Brain is a digitally implemented [[Second Brain]].
+- [[Second Brain|Digital Brain]] is a digitally implemented [[Second Brain]].
 
 | [[Second Brain]]                                                        | [[Digital Garden]]                                                                        |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |

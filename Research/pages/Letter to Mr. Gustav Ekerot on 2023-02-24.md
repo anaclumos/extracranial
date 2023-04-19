@@ -39,12 +39,12 @@ Dear Mr. Ekerot,
 
 Wow, I have not heard of such things. Jitter looks precisely like what I was looking for. I'll take a closer look later and update the website.
 
-tabOS looks way cleaner, and I like the interface a lot. I used it for a couple of minutes, and some first thoughts:
+[[tabOS]] looks way cleaner, and I like the interface a lot. I used it for a couple of minutes, and some first thoughts:
 
 - Love the double-click interface. It does feel like an OS. If I were using a Chromebook, this is the first [[WebExtension|extension]] I would install.
-- Animations are way more fluid and polished, pushing further from the already-masterpiece tabExtend.
+- [[Animations]] are way more fluid and polished, pushing further from the already-masterpiece tabExtend.
 - That being said, some of the space does seem redundant and may be utilized better. For example, the lack of Kanban like tabExtend is a huge dealbreaker for me.
-- Finally, I would like the possibility of tabExtend or tabOS coming to [[Firefox|FF]] [[Firefox|🔥🦊]] [[Firefox|❤🔥]]
+- Finally, I would like the possibility of tabExtend or [[tabOS]] coming to [[Firefox|FF]] [[Firefox|🔥🦊]] [[Firefox|❤🔥]]
 
 That said, you made me have a shower-thought if there was "[[The One and Only WebExtension]]" for [[Firefox]] and [[Safari]]. It will essentially be a VM of [[Chrome]] Extensions — This One and Only [[WebExtension]] will install [[Chrome]] [[WebExtension|Extension]] within itself and proxy all of the requests to [[Safari]] & [[Firefox|FF]]. Ultimately it will bring the entire [[Chrome]] [[WebExtension|Extension]] Library to [[Firefox]] and [[Safari]]. Maybe I'll build it one day and [[Fiercely Overpriced|paywall]] it to install more than 5 extensions or so. 🤣
 

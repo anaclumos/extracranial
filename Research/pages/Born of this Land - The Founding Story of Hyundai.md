@@ -69,13 +69,13 @@ Although President Park was a flawed leader who came to power through a coup d'�
 
 ## Luck is Mostly Timing
 
-Jung believes luck doesn't exist and is mostly about timing. For example, the timely construction of a shipyard in the early 1970s, against everyone's odds, allowed Hyundai E&C to become active in the Middle East in the mid-1970s. The company's presence there helped revitalize a heavy industry that the oil shocks had stranded.
+Jung believes luck doesn't exist and is mostly about timing. For example, the timely construction of a shipyard in the early 1970s, against everyone's [[odds]], allowed Hyundai E&C to become active in the Middle East in the mid-1970s. The company's presence there helped revitalize a heavy industry that the oil shocks had stranded.
 
 ## Hyundai's goal
 
 > Hyundai aims to create wealth in [[대한민국|Korea]] by earning money overseas.
 
-Rags to riches is a race against the odds. To win this game, the poor must put in more effort than the rich to overcome their disadvantages. 'Hyundai' is a living example of success through sheer hard work.
+Rags to riches is a race against the [[odds]]. To win this game, the poor must put in more effort than the rich to overcome their disadvantages. 'Hyundai' is a living example of success through sheer hard work.
 
 ## Challenges and politics of the impossible
 
