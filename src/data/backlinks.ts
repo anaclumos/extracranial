@@ -1377,7 +1377,7 @@ export const backlinks = {
         "2022-10-14": "- [[WebAssembly]]",
         "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for WebAssembly/Emscripten",
         "2023-01-13": "- [[WebAssembly|WASM]]",
-        "2023-02-16": "- In 2021 we announced WebContainers, a novel [[WebAssembly]]-based operating system that enables Node.js to run entirely inside the browser. ...",
+        "2023-02-16": "- In 2021 we announced WebContainers, a novel [[WebAssembly]]-based operating system that enables Node.js to run entirely inside the [[Web ...",
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "Dioxus": "Use [[WebAssembly|WASM]]",
         "How is WebAssembly cross-platform when Assembly is not": "- [[WebAssembly]] is like [[Assembly]], except that",
@@ -1385,7 +1385,7 @@ export const backlinks = {
         "Programmable Web": "- Maybe running something like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure way to access selective parts of ...",
         "Proposal of Research 2023-01-10": "In addition, the world is now watching the very beginning of [[WebAssembly]], which allows high-performance applications to run in [[Web Browser|web browsers]]. Before ...",
         "Proposal of Research 2023-03-28": "... web applications. By leveraging technologies such as Web Workers, SharedArrayBuffer, and [[WebAssembly]], iiframe will revolutionize how web applications are built and deployed, offering ...",
-        "Ruffle": "... Flash content running safely in modern web browsers via Rust and [[WebAssembly]]",
+        "Ruffle": "... content running safely in modern Web Browser|web browsers via Rust and [[WebAssembly]]",
         "Satori": "... is 5x faster than existing solutions by using Vercel Edge Functions, [[WebAssembly]], and a brand new core library for converting [[HTML]]/[[CSS]] into SVGs.",
         "Snowpack으로 WASM 시작하기": "- 다음 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 [[WebAssembly|WASM]] 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 것은 Wrapper인 ...",
         "Stories Behind Satori": "Converting it into [[WebAssembly|WASM]] will also benefit by targeting [[Web Worker|Web Workers]].",
@@ -1793,13 +1793,20 @@ export const backlinks = {
         "2022-06-12": "... can be used to describe interfaces intended to be implemented in [[Web Browser|web browsers]]. Web IDL is an IDL variant with several features that allow ...",
         "2022-07-01": "- Most GitHub users use fairly up-to-date [[Web Browser|browsers]].",
         "2022-10-20": "2.  This [[Web Browser|browser]] is forked by a couple of other [[Web Browser|browsers]] that are ...",
+        "2023-02-16": "... Node.js runtime that allows you to run server-side code in any [[Web Browser|browser]]",
+        "2023-03-20": "... with Bing Chat except while the website is open in the [[Web Browser|browser]].",
         "Bing Chat for All Browsers": "- Bing Chat for all [[Web Browser|browser]]",
         "Brane": "- Parties that create [[Web Browser|browsers]] do not own these limitations; Brane aims to democratize these privileges ...",
+        "Cartography": "1.  Powerful Tools: Felt provides [[Web Browser|browser]]-based tools for customizing maps, allowing users to draw, drop pins, leave ...",
+        "Chrome": "Chrome is a [[web browser]] developed by Google. It was first released in 2008 and has ...",
         "Confectionery": "> A minimalistic [[Web Browser|browser]] without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty ...",
+        "DRM": "- In the instance of Chrome, the [[Web Browser|browser]] doesn't implement the DRM itself, but delegates it to a native ...",
         "Downloading Any Recordings from Zoom": "... both play the video and scroll through the chat list—open the [[Web Browser|browser]] console.",
         "Dynamic Viewport Units": "... for the dynamic viewport do not update at 60fps. In all [[Web Browser|browsers]] updating is throttled as the UA [[UIUX|UI]] expands or retracts. Some ...",
         "Finding out Ghost version with JS": "... make the Node.js include the value before responding to the client [[Web Browser|browser]], but I figured that there was a much simpler way after ...",
+        "Firefox": "### Make [[Web Browser|Browser]] Tab Bar More Compact",
         "HTML": "... standard markup language for documents designed to be displayed in a [[web browser]]. It can be assisted by technologies such as Cascading Style Sheets ...",
+        "Headless": "... APIs, or other forms of remote access. For example, a headless [[Web Browser|browser]] is a [[web browser]] that can operate without a graphical user ...",
         "How is WebAssembly cross-platform when Assembly is not": "  - it runs on [[Web Browser|browsers]]",
         "JavaScript": "... client side for webpage behavior, often incorporating third-party libraries. All major [[Web Browser|web browsers]] have a dedicated JavaScript [[engine]] to execute the code on users' ...",
         "Neo Apps": "- [[Web Browser|Browsers]]. [[Chrome]] → Arc.",
@@ -1808,12 +1815,16 @@ export const backlinks = {
         "Porting a Chrome Extension to Firefox Add-on": "While Chrome and Firefox are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and Firefox Add-on are now more similar than ever. ...",
         "Preservation of Data": "... your personal details in any forms, and perhaps using a special [[Web Browser|browser]] session (or even a different computer)",
         "Proposal of Research 2023-01-10": "\"Alt text\" briefly describes an image and is used if the [[Web Browser|browser]] cannot display the picture. Alt text is typically used in Web ...",
+        "Ruffle": "- Ruffle is getting Adobe Flash content running safely in modern [[Web Browser|web browsers]] via [[Rust]] and [[WebAssembly]]",
+        "Safari": "Safari is a [[web browser]] developed by [[Apple]] Inc. It was first released in 2003 as ...",
         "Safari is the new Internet Explorer": "- Apple has a [[Web Browser|browser]] monopoly on [[iOS]], which is something [[Microsoft]] was never able to ...",
         "Satori": "- Expensive: Spinning up an entire [[Web Browser|browser]] to take a screenshot was not efficient. This led to large ...",
+        "Self-hosted SaaS Alternatives": "... the box: If your goal is automating some basic tasks, the [[Web Browser|browser]] extension Automa also has much potential.",
         "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version ...",
         "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow",
         "Svelte": "... out the bulk of their work at runtime, i.e., in the [[Web Browser|browser]]. The compiler itself is written in [[TypeScript]]. Its source code is ...",
-        "Web Typography": "... faces and styles were controlled exclusively by the settings of each [[web browser]]. There was no mechanism for individual Web pages to control font ..."
+        "Web Typography": "... faces and styles were controlled exclusively by the settings of each [[web browser]]. There was no mechanism for individual Web pages to control font ...",
+        "WebExtension": "... web extension is a software module that adds functionality to a [[web browser]]. It's a type of [[Web Browser|browser]] extension that can modify or ..."
     },
     "대한민국의 저출산": {
         "Person 960D1D": "- [[대한민국의 저출산]]"
@@ -2303,7 +2314,7 @@ export const backlinks = {
         "PineApple Pay": "As [[Apple]] slowly moves to open up the Apple Pay restriction, what if ...",
         "Proposal of Research 2023-01-10": "... these vulnerabilities, the major Web Browser|browser vendors (Google, Mozilla, Microsoft, and [[Apple]]) decided to disable SharedArrayBuffer by default to avoid the potential exploitation ...",
         "Reverse Engineering Apple Music API": "## Registering for [[Apple]] Developer Key",
-        "Safari": "Safari is a web browser developed by [[Apple]] Inc. It was first released in 2003 as the default browser ...",
+        "Safari": "Safari is a web browser developed by [[Apple]] Inc. It was first released in 2003 as the default [[Web ...",
         "Safari is the new Internet Explorer": "- [[Apple]] has a [[Web Browser|browser]] monopoly on [[iOS]], which is something [[Microsoft]] ...",
         "San Francisco": "- Font by [[Apple]]",
         "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] [[iOS]] 16 update.",
@@ -2329,7 +2340,7 @@ export const backlinks = {
         "Social Coding": "... effects are rare, but when they work, they grow huge (e.g., [[Figma]], Slack)"
     },
     "Safari": {
-        "2023-02-16": "... browser technologies like `SharedArrayBuffer`, which makes it impossible to run in [[Safari]] and requires the user to set additional `Cross-Origin-Isolation` headers on the ...",
+        "2023-02-16": "... Browser|browser technologies like `SharedArrayBuffer`, which makes it impossible to run in [[Safari]] and requires the user to set additional `Cross-Origin-Isolation` headers on the ...",
         "2023-02-26": "- [[Safari]]",
         "Apple Newsroom 서체 따라하기": "Apple은 한글 폰트로 산돌고딕 네오를 사용한다. [[Safari]]와 [[Chrome]]은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. ...",
         "Browser Company Hackathon": "- Idea: [[Safari]]-like Reader Mode + SummarizationBot using [[ChatGPT]]?",
@@ -3337,7 +3348,7 @@ export const backlinks = {
         "Apple Newsroom 서체 따라하기": "Apple은 한글 폰트로 산돌고딕 네오를 사용한다. Safari와 [[Chrome]]은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. 때문에 ...",
         "Bing Chat for All Browsers Widespread Unavailability Incident (April 2023)": "- While some reported that the [[Chrome]]/[[Firefox]] version did not work and changing the user agent manually worked, ...",
         "ChromeOS Packer": "- Run [[Chrome]] OS or Chromium OS as an App.",
-        "DRM": "- In the instance of [[Chrome]], the browser doesn't implement the DRM itself, but delegates it to ...",
+        "DRM": "- In the instance of [[Chrome]], the [[Web Browser|browser]] doesn't implement the DRM itself, but delegates it ...",
         "Developing Review Notes for Obsidian": "스토어에 올라온 몇몇 플러그인을 보니 다음과 같은 간단한 구조였다. [[Chrome]] [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 이루어져 있다.",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... it? As far as I know, Firefox can \"straight up\" run [[Chrome]] extensions, so I imagine uploading it to the Firefox Add-ons Store ...",
         "Neo Apps": "- Web Browser|Browsers. [[Chrome]] → Arc.",
@@ -3350,7 +3361,7 @@ export const backlinks = {
         "Toss Product Sans": "- 안드로이드, iOS, 윈도우, [[Chrome|크롬]], 사파리 등 다양한 환경에서 원활하게 작동할 수 있도록 최적화된 버티컬 메트릭스를 ...",
         "Unchained Bing": "It was removed from the store for \"Violating [[Chrome]] Web Store Policy\"",
         "VP9 vs HEVC": "... in MacBook Pro 2019. Technically we could watch 4K+ videos using [[Chrome]] on MacBooks, but the videos were decoded on [[CPU|CPUs]], using the ...",
-        "WebExtension": "... and browser platforms. In addition, many popular web browsers, such as [[Chrome|Google Chrome]], Mozilla [[Firefox]], and Microsoft Edge, support the development and use of ...",
+        "WebExtension": "... Browser|browser platforms. In addition, many popular Web Browser|web browsers, such as [[Chrome|Google Chrome]], Mozilla [[Firefox]], and Microsoft Edge, support the development and use of ...",
         "YCLF 주간 사용자 1000명": "## 1. [[Chrome|크롬]] [[WebExtension|익스텐션]] 스토어의 집계",
         "hn.cho.sh 개발 기록": "Headless [[Chrome]]을 사용하도록 GitHub Actions를 개편했다.",
         "linkflags.crx": "Packing Linkflags as [[Chrome]] Extensions [[Someday]] [[Project]]"
@@ -4046,7 +4057,7 @@ export const backlinks = {
         "Safari is the new Internet Explorer": "... best. Blink\\-based Web Browser|browsers update every six weeks (soon every four), [[Firefox]] releases every four weeks, and Brave releases every three. This means ...",
         "Snowpack으로 WASM 시작하기": "- 다만 Safari와 [[Firefox]]에서는 작동되지 않았다. \"SharedArrayBuffer is not defined\"이라는 오류가 발생했다.",
         "The One and Only WebExtension": "- A Safari and [[Firefox]] [[WebExtension|extension]] that disguises itself as [[Chrome]] and runs all [[Chrome]] Extensions.",
-        "WebExtension": "... In addition, many popular web browsers, such as Chrome|Google Chrome, Mozilla [[Firefox]], and Microsoft Edge, support the development and use of web extensions."
+        "WebExtension": "... addition, many popular Web Browser|web browsers, such as Chrome|Google Chrome, Mozilla [[Firefox]], and Microsoft Edge, support the development and use of web extensions."
     },
     "One Bit Display": {
         "2023-01-13": "- [[One Bit Display]]"
@@ -5308,7 +5319,7 @@ export const backlinks = {
     },
     "iOS": {
         "2023-02-08": "... with several templates to help pinpoint various potential issues in a macOS/[[iOS]] application",
-        "2023-02-16": "... modern browser technologies to make it run in any browser (like [[iOS]] and [[Safari]]) with minimal setup. The disadvantage is that Nodebox will ...",
+        "2023-02-16": "... Browser|browser technologies to make it run in any Web Browser|browser (like [[iOS]] and [[Safari]]) with minimal setup. The disadvantage is that Nodebox will ...",
         "Apple Earth": "Someday Project. Google Earth app but with Smoo-ooth Apple Cartography|Maps and [[iOS]] Widget Supports.",
         "Chrome": "... for desktop and mobile devices, including Windows, macOS, Linux, Android, and [[iOS]].",
         "Conversational AI Tools for Thought": "... have back-and-forth dialogue with AI. Poe will initially be available on [[iOS]], and it will be invite only until we work out scalability, ...",
@@ -5317,7 +5328,7 @@ export const backlinks = {
         "Mental Simulation of Firefox and Signal as a Super App": "... divide the tech market into two, not only in terms of [[iOS]] vs. Android but also as App [[Economy]] vs. Web [[Economy]], Closed ...",
         "React Native": "... Inc. It is used to develop applications for Android, Android TV, [[iOS]], macOS, tvOS, Web, Windows, and UWP by enabling developers to use ...",
         "Reimagining Emails": "... launch. It is available today as a native app for macOS, [[iOS|iPadOS]], and [[iOS]].",
-        "Safari": "... browser for Apple's macOS operating system and later became available for [[iOS]] devices. Safari is also open for Windows, but the most recent ...",
+        "Safari": "... Browser|browser for Apple's macOS operating system and later became available for [[iOS]] devices. Safari is also open for Windows, but the most recent ...",
         "Safari is the new Internet Explorer": "- Apple has a Web Browser|browser monopoly on [[iOS]], which is something [[Microsoft]] was never able to achieve with IE",
         "Screenshot as an API": "... - You can copy objects from photos in the latest Apple [[iOS]] 16 update.",
         "Simple DirectMedia Layer": "... applications that can run on many operating systems such as Android, [[iOS]], [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
@@ -7910,6 +7921,9 @@ export const backlinks = {
     },
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
+    },
+    "Web Browser                                                                                                              ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "| HN users discuss energy efficiency of [[Web Browser                                                                                                              | web browsers]], ad-blockers, browser compatibility on Windows.       ..."
     },
     "21D071.png": {
         "The Sudden Rise of Bondee": "![[21D071.png]]",
