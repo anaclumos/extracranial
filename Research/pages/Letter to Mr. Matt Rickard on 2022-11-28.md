@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/BD4464'
 ---
 
-- [[Mail|Letter]] to Mr. Matt Rickard on 2022-11-28
+- [[Mail|Letter]] to Mr. Matt Rickard on [[2022-11-28]]
 
 Dear Mr. [[Rickard]],
 

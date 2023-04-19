@@ -9,7 +9,7 @@ slug: '/4EF9FC'
 ![[4BF876.png]]
 ![[4DF74F.png]]
 
-- A larger bank comes in to acquire them, perhaps as soon as next week, and the situation will look like the WaMu case study.
+- A larger bank comes in to acquire them, perhaps as soon as next week, and the situation will look like the WaMu [[case study]].
 - But are more banks vulnerable to the effect of rising rates? In the 1980s, several banks failed during the Savings and Loans crisis, triggered by the Federal Reserve raising interest rates. SVB's collapse has echoes of the same period.
 
 ### [An Update on USDC and Silicon Valley Bank](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank)

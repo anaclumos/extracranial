@@ -9,7 +9,7 @@ slug: '/E93D46'
 
 Then what makes it so good? My observations:
 
-**[[3D]] character creation**. Bondee has so many trendy presets that it took me 5 seconds to create my avatar. Customizability is always great, but I was always scared of Instagram giving me a bare-face avatar that I had to go through 49 different layers of facial features.
+**[[3D]] character creation**. [[Bondee]] has so many trendy presets that it took me 5 seconds to create my avatar. Customizability is always great, but I was always scared of Instagram giving me a bare-face avatar that I had to go through 49 different layers of facial features.
 
 ![[F86A64.png]]
 

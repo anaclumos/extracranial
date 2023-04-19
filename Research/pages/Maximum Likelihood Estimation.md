@@ -32,6 +32,6 @@ $$
 
 ## Maximum Likelihood Estimation
 
-1. consistent (convergent in probability)
+1. consistent (convergent in [[probability]])
 2. Asymptotically Normal
 3. Invariance Principle $\hat{g(\theta)_{ML}} = g(\hat\theta_{ML})$

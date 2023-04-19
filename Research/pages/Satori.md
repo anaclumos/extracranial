@@ -34,7 +34,7 @@ Merged! [Add Unicode Private Area Support #161](https://github.com/vercel/satori
 
 ### @vercel/og
 
-- Easy: No headless [[Web Browser|browser]] is needed. Using [[Vercel]] OG, you can define your images using [[HTML]] and [[CSS]] and automatically generate dynamic images from the generated SVGs
+- Easy: No [[headless]] [[Web Browser|browser]] is needed. Using [[Vercel]] OG, you can define your images using [[HTML]] and [[CSS]] and automatically generate dynamic images from the generated SVGs
 - Affordable: [[Vercel]] [[Edge]] Functions are ~160x cheaper than running [[Chromium]] in a [[Serverless]] Function. Further, generated images can be cached and stored at the [[Edge]]
 - Fast: [[Vercel]] OG (500KB) is 100x more lightweight than [[Chromium]] + Puppeteer (50MB). 5x faster in P99 TTFB (4.96s → 0.99s) and 5.3x faster in P90 (4s → 0.75s).
 

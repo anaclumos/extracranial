@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/48209B'
-aliases: ['크롬']
+aliases: ['크롬', 'Google Chrome']
 ---
 
 Chrome is a web browser developed by Google. It was first released in 2008 and has since become one of the most popular web browsers in the world. Chrome is available for desktop and mobile devices, including Windows, macOS, Linux, Android, and [[iOS]].

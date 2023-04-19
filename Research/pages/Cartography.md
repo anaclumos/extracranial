@@ -16,7 +16,7 @@ Cartography is the art, science, and technology of making and using maps. It inv
 The proliferation of digital cartography has greatly impacted the way geographic information is accessed and utilized in various fields. Despite its many advantages, the development of digital maps presents several challenges. This review discusses the key challenges encountered in the process of creating digital maps, including data collection and accuracy, map projections, spatial resolution, data integration, generalization, data visualization, legal and ethical considerations, and accessibility and usability.
 
 1. Data collection and accuracy: Acquiring accurate and up-to-date geographical data is critical for creating reliable digital maps. Data can be collected using various methods, such as ground surveys, remote sensing, and crowd-sourced efforts. However, ensuring data accuracy, completeness, and currency can be time-consuming and resource-intensive.
-2. Map projections: Choosing the appropriate map projection can be difficult, as each project has its trade-offs.
+2. Map projections: Choosing the appropriate map projection can be difficult, as each [[project]] has its trade-offs.
 3. Spatial resolution: Digital maps are composed of pixels or vector elements that represent real-world features.
 4. Data integration: Digital maps often require data integration from multiple sources and formats.
 5. Generalization: Simplifying complex geographic information for digital maps enhances legibility and usability.

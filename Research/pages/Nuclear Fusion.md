@@ -13,6 +13,6 @@ aliases: ['핵융합']
 
 ### [More invested in nuclear fusion in last 12 months than a past decade](https://www.growthbusiness.co.uk/more-invested-in-nuclear-fusion-in-last-12-months-than-past-decade-2560528/)
 
-- The clean energy solution has attracted about $2.8bn (£2.5bn) in global investment over the past year, compared with $1.9bn (£1.6bn) over the past decade.
+- The [[clean energy]] solution has attracted about $2.8bn (£2.5bn) in global investment over the past year, compared with $1.9bn (£1.6bn) over the past decade.
 
 * There was also a breakthrough in late 2021 when researchers at the Joint European Torus (JET) facility in Oxford released a record-breaking 59 megajoules of fusion - almost tripling the previous 21.7-megajoule record from 1997.

@@ -6,16 +6,16 @@ slug: '/CFEB86'
 Yesterday, we took a closer look into [[Bondee]]: [[The Sudden Rise of Bondee]]. But did it suddenly rise?
 
 :::danger
-This article examines the connection between Bondee and Zheli, a now-shut-down Chinese service, and the allegations of personal information infringement regarding Zheli. Bondee has not yet encountered any information infringement cases or operational security problems. We cannot draw a definitive conclusion about Bondee simply from a few speculations. This article does not raise suspicions about the Bondee service. Please keep this part in mind and read it.
+This article examines the connection between [[Bondee]] and Zheli, a now-shut-down Chinese service, and the allegations of personal information infringement regarding Zheli. [[Bondee]] has not yet encountered any information infringement cases or operational security problems. We cannot draw a definitive conclusion about [[Bondee]] simply from a few speculations. This article does not raise suspicions about the [[Bondee]] service. Please keep this part in mind and read it.
 :::
 
-[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. Bondee launched on January 7, 2023, with great quality. Bondee also topped multiple app store charts across Asia within a month. Such a Mega-hit for an early startup. They feel very **prepared** and well-established. Isn't it strange?
+[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. [[Bondee]] launched on January 7, 2023, with great quality. [[Bondee]] also topped multiple app store charts across Asia within a month. Such a Mega-hit for an early startup. They feel very **prepared** and well-established. Isn't it strange?
 
-## Who's behind Metadream?
+## Who's behind [[Metadream]]?
 
 ![[17144A.png]]
 
-Indeed, based on the [Singaporean regulatory files](https://drive.google.com/file/d/1eIgAcVLUHA7luzCGZT_ed0R27Slwjd03/view), one of the directors is Yang Yuxiang, a Chinese CEO who acquired True.ly in May 2022, the parent company of Zheli. Zheli (Jelly, or 这里, "here" in Chinese), a popular social app in China, looks identical to Bondee.
+Indeed, based on the [Singaporean regulatory files](https://drive.google.com/file/d/1eIgAcVLUHA7luzCGZT_ed0R27Slwjd03/view), one of the directors is Yang Yuxiang, a Chinese CEO who acquired True.ly in May 2022, the parent company of Zheli. Zheli (Jelly, or 这里, "here" in Chinese), a popular social app in China, looks identical to [[Bondee]].
 
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
@@ -68,14 +68,14 @@ Zheli is a new app that has faced continuous and organized attacks, causing rumo
 
 </details>
 
-## But Bondee should be fine, right?
+## But [[Bondee]] should be fine, right?
 
 We also need some skepticism. Users claimed that [their credit card was misused after signing up to Bondee](https://www.thestar.com.my/aseanplus/aseanplus-news/2023/01/28/singapore-based-social-networking-app-bondee-hit-with-allegations-of-credit-card-misuse)
 
 ![Users claiming their credit card was misused](../assets/116268.png)
 
-Metadream denied such accusations.
+[[Metadream]] denied such accusations.
 
 ## Conclusion
 
-No personal information infringement cases or security-related incidents have been directly confirmed for Metadream and Bondee yet. It remains to be seen what kind of relationship Metadream has with the former Beijing Yidianshuo Entertainment Technology (whether it's a simple rebranding of Zheli or whether it just acquired the software and made full-fledged changes to its operating policies and policies). However, judging from Zheli and the stakeholders involved, it seems necessary to exercise caution when using Bondee.
+No personal information infringement cases or security-related incidents have been directly confirmed for [[Metadream]] and [[Bondee]] yet. It remains to be seen what kind of relationship [[Metadream]] has with the former Beijing Yidianshuo Entertainment Technology (whether it's a simple rebranding of Zheli or whether it just acquired the software and made full-fledged changes to its operating policies and policies). However, judging from Zheli and the stakeholders involved, caution is necessary when using [[Bondee]].

@@ -11,7 +11,7 @@ When navigating to www.amazon.com, the client asks
 
 ## Debugging DNS
 
-- USC [[CS Colloquium]]
+- [[University of Southern California|USC]] [[CS Colloquium]]
 - DNS debugging are problematic because
   - no one-size-fit-all oracle (detector)
   - does not have a specification

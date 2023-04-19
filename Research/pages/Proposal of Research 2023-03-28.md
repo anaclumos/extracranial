@@ -3,28 +3,28 @@ lang: 'en'
 slug: '/F54015'
 ---
 
-## Investigating Authority Systems to Mitigate Prompt Injection Attacks in Generative Text AI Models
+## Investigating Authority Systems to Mitigate Prompt Injection Attacks in [[Generative AI|Generative Text AI]] Models
 
 ### Abstract
 
-Large Language Models (LLMs) have demonstrated impressive capabilities in answering natural language questions and adapting to new tasks through clever prompting. However, this adaptability might expose LLMs to security risks, such as Prompt Injection (PI) attacks. In this research proposal, we seek to investigate an authority system for LLMs to differentiate instructions from trusted sources and unknown figures. Furthermore, we aim to assess the feasibility of such an authority system and explore potential mitigation techniques to defend LLMs against PI attacks.
+Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities in answering natural language questions and adapting to new tasks through clever prompting. However, this adaptability might expose [[LLM|LLMs]] to security risks, such as Prompt Injection (PI) attacks. In this research proposal, we seek to investigate an authority system for [[LLM|LLMs]] to differentiate instructions from trusted sources and unknown figures. Furthermore, we aim to assess the feasibility of such an authority system and explore potential mitigation techniques to defend [[LLM|LLMs]] against PI attacks.
 
 ### Background
 
-Recent studies have shown that LLMs can be susceptible to PI attacks, which prompted the model to produce malicious content or override the original instructions. These attacks are brutal to mitigate due to the LLM's nature of following instructions. As LLMs are integrated into various applications and systems, including those with retrieval and API calling capabilities, new attack vectors arise, posing a threat to the security and privacy of users.
+Recent studies have shown that [[LLM|LLMs]] can be susceptible to PI attacks, which prompted the model to produce malicious content or override the original instructions. These attacks are brutal to mitigate due to the [[LLM]]'s nature of following instructions. As [[LLM|LLMs]] are integrated into various applications and systems, including those with retrieval and API calling capabilities, new attack vectors arise, posing a threat to the security and privacy of users.
 
 ### Research Questions
 
 - How can we design an authority system for Generative Text AIs to differentiate between trusted and untrusted instructions?
 - Can the authority system efficiently mitigate Prompt Injection attacks in various scenarios?
-- How can mitigation techniques defend LLMs against PI attacks in an authority system?
+- How can mitigation techniques defend [[LLM|LLMs]] against PI attacks in an authority system?
 
 ### Methodology
 
 - Literature review: Conduct a comprehensive review of current PI attack techniques and mitigation strategies to identify gaps in existing knowledge and potential areas for improvement.
 - Design an authority system: Develop a conceptual model of an authority system for Generative Text AIs, focusing on differentiating between trusted and untrusted instructions.
-- Test the authority system: Implement the designed authority system on a selected LLM and assess its performance in mitigating PI attacks.
-- Evaluate mitigation techniques: Investigate potential mitigation techniques that can be integrated with the authority system to enhance the LLM's defense against PI attacks.
+- Test the authority system: Implement the designed authority system on a selected [[LLM]] and assess its performance in mitigating PI attacks.
+- Evaluate mitigation techniques: Investigate potential mitigation techniques that can be integrated with the authority system to enhance the [[LLM]]'s defense against PI attacks.
 - Validation and improvement: Refine the authority system and mitigation techniques to achieve optimal performance based on the results.
 
 ### Expected Outcomes
@@ -32,11 +32,11 @@ Recent studies have shown that LLMs can be susceptible to PI attacks, which prom
 - A comprehensive understanding of the current PI attack landscape and existing mitigation techniques.
 - A proposed authority system for Generative Text AIs capable of differentiating between trusted and untrusted instructions.
 - An evaluation of the authority system's effectiveness in mitigating PI attacks in different scenarios.
-- A set of potential mitigation techniques that can enhance the LLM's defense against PI attacks when integrated with the authority system.
+- A set of potential mitigation techniques that can enhance the [[LLM]]'s defense against PI attacks when integrated with the authority system.
 
 ### Significance
 
-This research will contribute to understanding PI attacks and their potential consequences in the context of LLMs. Furthermore, it will help develop an authority system for Generative Text AIs and propose mitigation techniques that can be employed to enhance the security and privacy of users as LLMs are integrated into more applications and systems.
+This research will contribute to understanding PI attacks and their potential consequences in the context of [[LLM|LLMs]]. Furthermore, it will help develop an authority system for Generative Text AIs and propose mitigation techniques that can be employed to enhance the security and privacy of users as [[LLM|LLMs]] are integrated into more applications and systems.
 
 ## Dynamic Font Generation with [[Generative AI]]: Replicating Handwriting Fonts and Their Natural Flow
 
@@ -77,7 +77,7 @@ This research will contribute to developing more realistic and versatile handwri
 
 ### Abstract
 
-The lack of descriptive alt text for images on the web poses accessibility challenges for visually impaired users and negatively impacts search engine optimization. This research proposal aims to develop a distributed intelligence system utilizing [[Generative AI]], such as CLIP or BLIP, and perceptual hashing techniques to automatically generate alt text for images, making the internet more accessible and inclusive. In addition, the project will involve developing wrapping libraries and toolkits for easy integration by developers.
+The lack of descriptive alt text for images on the web poses accessibility challenges for visually impaired users and negatively impacts search [[engine]] optimization. This research proposal aims to develop a distributed intelligence system utilizing [[Generative AI]], such as CLIP or BLIP, and perceptual hashing techniques to automatically generate alt text for images, making the internet more accessible and inclusive. In addition, the project will involve developing wrapping libraries and toolkits for easy integration by developers.
 
 ### Background
 
@@ -106,42 +106,42 @@ Alt text is crucial for web accessibility, especially for visually impaired user
 
 ### Significance
 
-This research will contribute to developing a distributed intelligence system capable of automatically generating descriptive alt text for images on the web. Doing so will enhance web accessibility for visually impaired users and improve search engine optimization. In addition, the project's user-friendly libraries and toolkits will encourage adoption by web developers, leading to a more inclusive and accessible internet experience for all users.
+This research will contribute to developing a distributed intelligence system capable of automatically generating descriptive alt text for images on the web. Doing so will enhance web accessibility for visually impaired users and improve search [[engine]] optimization. In addition, the project's user-friendly libraries and toolkits will encourage adoption by web developers, leading to a more inclusive and accessible internet experience for all users.
 
 ## Revolutionizing Web Applications through Secure, High-Performance Multi-Threading iframes
 
 ### Abstract
 
-Traditional iframes face performance and security challenges, limiting their potential in the evolving internet-computer era. This research proposal aims to develop iiframe, an improved iframe version that runs on Worker Threads, providing secure, high-performance multi-threading capabilities for web applications. By leveraging technologies such as Web Workers, SharedArrayBuffer, and WebAssembly, iiframe will revolutionize how web applications are built and deployed, offering enhanced responsiveness, interactivity, and user experience.
+Traditional iframes face performance and security challenges, limiting their potential in the evolving internet-computer era. This research proposal aims to develop [[iiframe]], an improved iframe version that runs on Worker Threads, providing secure, high-performance multi-threading capabilities for web applications. By leveraging technologies such as Web Workers, SharedArrayBuffer, and [[WebAssembly]], [[iiframe]] will revolutionize how web applications are built and deployed, offering enhanced responsiveness, interactivity, and user experience.
 
 ### Background
 
-The current iframe technology poses performance and security issues due to its single-threaded design and potential for cross-site scripting attacks. With advancements in web technologies such as Web Workers, SharedArrayBuffer, and WebAssembly, we can create an improved iframe version that addresses these limitations and paves the way for secure, high-performance web applications.
+The current iframe technology poses performance and security issues due to its single-threaded design and potential for cross-site scripting attacks. With advancements in web technologies such as Web Workers, SharedArrayBuffer, and [[WebAssembly]], we can create an improved iframe version that addresses these limitations and paves the way for secure, high-performance web applications.
 
 ### Research Questions
 
-- How can we design and implement iiframe, an improved iframe version that runs on Worker Threads and offers secure, high-performance multi-threading for web applications?
-- How can we leverage Web Workers, SharedArrayBuffer, and WebAssembly to optimize iiframe's performance, responsiveness, and security?
-- What are the potential use cases and benefits of iiframe in the context of modern web applications and the internet-computer era?
+- How can we design and implement [[iiframe]], an improved iframe version that runs on Worker Threads and offers secure, high-performance multi-threading for web applications?
+- How can we leverage Web Workers, SharedArrayBuffer, and [[WebAssembly]] to optimize [[iiframe]]'s performance, responsiveness, and security?
+- What are the potential use cases and benefits of [[iiframe]] in the context of modern web applications and the internet-computer era?
 
 ### Methodology
 
-- Literature review: Conduct a comprehensive review of existing iframe technology and its limitations, as well as recent advancements in Web Workers, SharedArrayBuffer, and WebAssembly.
-- Design iiframe: Develop a conceptual model for iiframe, outlining its architecture, components, and communication mechanisms between Worker Threads and the main thread.
-- Implement iiframe prototype: Build a prototype of iiframe that leverages Web Workers, SharedArrayBuffer, and WebAssembly to offer secure, high-performance multi-threading for web applications.
-- Evaluate iiframe performance: Assess iiframe's performance, responsiveness, and security by comparing it with traditional iframe technology in various web application scenarios.
-- Identify potential use cases: Explore the possible applications and benefits of iiframe in modern web development, particularly in the internet-computer era.
+- Literature review: Conduct a comprehensive review of existing iframe technology and its limitations, as well as recent advancements in Web Workers, SharedArrayBuffer, and [[WebAssembly]].
+- Design [[iiframe]]: Develop a conceptual model for [[iiframe]], outlining its architecture, components, and communication mechanisms between Worker Threads and the main thread.
+- Implement [[iiframe]] prototype: Build a prototype of [[iiframe]] that leverages Web Workers, SharedArrayBuffer, and [[WebAssembly]] to offer secure, high-performance multi-threading for web applications.
+- Evaluate [[iiframe]] performance: Assess [[iiframe]]'s performance, responsiveness, and security by comparing it with traditional iframe technology in various web application scenarios.
+- Identify potential use cases: Explore the possible applications and benefits of [[iiframe]] in modern web development, particularly in the internet-computer era.
 
 ### Expected Outcomes
 
-- A comprehensive understanding of the limitations of traditional iframes and the potential of Web Workers, SharedArrayBuffer, and WebAssembly in addressing these issues.
-- A secure, high-performance iiframe prototype that runs on Worker Threads and offers multi-threading capabilities for web applications.
-- An evaluation of iiframe's performance, responsiveness, and security compared to traditional iframe technology.
-- Identification of potential use cases and benefits of iiframe in the context of modern web applications and the internet-computer era.
+- A comprehensive understanding of the limitations of traditional iframes and the potential of Web Workers, SharedArrayBuffer, and [[WebAssembly]] in addressing these issues.
+- A secure, high-performance [[iiframe]] prototype that runs on Worker Threads and offers multi-threading capabilities for web applications.
+- An evaluation of [[iiframe]]'s performance, responsiveness, and security compared to traditional iframe technology.
+- Identification of potential use cases and benefits of [[iiframe]] in the context of modern web applications and the internet-computer era.
 
 ### Significance
 
-This research will contribute to developing iiframe, an improved iframe version to address performance and security limitations. By offering secure, high-performance multi-threading for web applications, iiframe will revolutionize web development practices and enable the creation of more responsive, interactive, and immersive web applications. This will ultimately lead to a better user experience and pave the way for new possibilities in the internet-computer era.
+This research will contribute to developing [[iiframe]], an improved iframe version to address performance and security limitations. By offering secure, high-performance multi-threading for web applications, [[iiframe]] will revolutionize web development practices and enable the creation of more responsive, interactive, and immersive web applications. This will ultimately lead to a better user experience and pave the way for new possibilities in the internet-computer era.
 
 ## The Photo Library of Babel: Exploring the Implications of Finite Pixel Combinations on Human Creativity and [[Generative AI|Generative AIs]]
 
@@ -151,7 +151,7 @@ Inspired by "The Library of Babel" by Jorge Luis Borges, this research proposal 
 
 ### Background
 
-The infinite monkey theorem and the concept of "The Library of Babel" have become increasingly relevant with the rise of [[generative AI]] technologies, such as ChatGPT. _Given infinite monkeys making infinite keystrokes, wouldn't they write all of Shakespeare's work?_ As AI advances, it raises questions about the future of human creativity, the nature of creation, and the potential for AI to generate all possible information.
+The infinite monkey theorem and the concept of "The Library of Babel" have become increasingly relevant with the rise of [[generative AI]] technologies, such as [[ChatGPT]]. _Given infinite monkeys making infinite keystrokes, wouldn't they write all of Shakespeare's work?_ As AI advances, it raises questions about the future of human creativity, the nature of creation, and the potential for AI to generate all possible information.
 
 ### Research Questions
 

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/D3342A'
 ---
 
-**Twitter's Missing Search Engine**.
+**Twitter's Missing Search [[Engine]]**.
 
 George Hotz, also known as Geohot, is a famous [[hacker]] and founder of Comma.[[ai]]. Elon Musk hired him to work on Twitter to improve its search functionality. However, after only a month, he resigned from his Twitter internship, saying he was unhappy with the work environment and lack of freedom.
 
