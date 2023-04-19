@@ -8,4 +8,4 @@ A web extension is a software module that adds functionality to a web browser. I
 
 Web extensions are typically built using web technologies such as HTML, CSS, and JavaScript. They can interact with the content of web pages and the browser itself, allowing them to add or modify functionality in various ways.
 
-Examples of common web extensions include ad-blockers, password managers, and social media integrations. They can be installed directly from the browser's extension store and typically work across multiple operating systems and browser platforms. In addition, many popular web browsers, such as Google Chrome, Mozilla Firefox, and Microsoft Edge, support the development and use of web extensions.
+Examples of common web extensions include ad-blockers, password managers, and social media integrations. They can be installed directly from the browser's extension store and typically work across multiple operating systems and browser platforms. In addition, many popular web browsers, such as [[Chrome|Google Chrome]], Mozilla [[Firefox]], and Microsoft Edge, support the development and use of web extensions.

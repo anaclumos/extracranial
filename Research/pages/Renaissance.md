@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/E0D970'
 ---
 
+[[르네상스]]
+
 The Renaissance was a period of European history that began in Italy in the 14th century and lasted until the 17th century. It is often considered a time of great cultural and intellectual rebirth as artists, scholars, and thinkers began to rediscover the classical traditions of ancient Greece and Rome. In addition, during the Renaissance, there was a renewed interest in humanism, which emphasized the value and agency of human beings, and a shift towards individualism and secularism. As a result, art, literature, and science flourished during this time. Artists like Leonardo da Vinci and Michelangelo created some of their most famous works, and writers such as Shakespeare and Cervantes produced enduring masterpieces. **But how did the renaissance start**?
 
 **Rediscovery of Classical Text**s — Classical texts were lost in Europe during the Middle Ages. During the 14th and 15th centuries, scholars began to rediscover ancient Greek and Roman literature and philosophy, which sparked a renewed interest in the ideas and values of the classical world. This rediscovery of classical texts was closely linked to the rise of humanism, a movement that emphasized the importance and agency of human beings. Humanists believed that individuals had the power to shape their destinies and that intellectual and artistic pursuits were just as important as religious or political ones.

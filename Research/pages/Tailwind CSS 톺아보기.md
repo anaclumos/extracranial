@@ -172,7 +172,7 @@ export default chatbubble
 - `text-xl`: 폰트 사이즈 1.25rem (20px) 그리고 line-height 1.75rem (28px)
 - `font-medium` font-weight 500
 
-### 2\. Case Study Card
+### 2\. [[Case Study]] Card
 
 ```ts
 import Image from 'next/image'
@@ -281,7 +281,7 @@ export default UserEmailForm
 그에 반해서 다음과 같은 단점이 있었다.
 
 1.  Style code를 간편하게 재활용하고 싶은 때가 있다. 예를 들어 `styled-component`로 `StyledButton`를 만든 후 하나의 `tsx` 페이지 안에서 재활용하고 싶은 경우가 있는데 [[Tailwind]]의 기본적인 사용법으로는 Style code를 빠르게 재활용할 수 없다. 물론 이 문제를 해결하기 위해서는 Template Literal로 코드를 분리해서 사용하면 된다.
-2.  코드 `className`의 순서가 섞인다. 이 문제는 VS Code를 사용할 경우 [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)라는 확장 프로그램으로 해결할 수 있다.
+2.  코드 `className`의 순서가 섞인다. 이 문제는 [[Visual Studio Code|VS Code]]를 사용할 경우 [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)라는 확장 프로그램으로 해결할 수 있다.
 3.  [코드가 옆으로 길어지고 가독성이 떨어짐](https://github.com/anaclumos/tailwind-shadowboxing/blob/39ed43f0079645686a1321022b5820b3a5f9f828/pages/tailwind-docs/user-email-form.tsx#L22). 이 문제가 특히 신경 쓰였다. 물론 다음과 같이 강제로 접을 수는 있겠으나 조금 번거로웠다. 이 문제를 해결할 방법을 알아보고 있다.
 
 ```

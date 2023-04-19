@@ -18,11 +18,11 @@ aliases: ['P vs. NP', 'P 대 NP']
 - Before [[LLM|LLMs]], generating the associated image took time if you were given a prompt. A talented artist could take a few hours (minutes, days, etc.) to create a polished piece. Once created, it would be easy to verify if it fits the criteria - is this an image of a horse wearing sunglasses?
 - There are no problems that are easy to compute yet hard to verify. If such a problem existed, you could just re-run the computation again.
 
-One such thing of **easy to compute yet hard to verify** can be tracking the time-based hash seed, but this is only true depending on the definition of **confirming**. If verifying means giving input and comparing the output, yes, it is easy. It will be hard if verifying includes _finding_ the information **and** comparing the production. But then again, it also falls into another _hard-to-compute_ problem.
+One such thing of **easy to compute yet hard to verify** can be tracking the time-based hash [[seed]], but this is only true depending on the definition of **confirming**. If verifying means giving input and comparing the output, yes, it is easy. It will be hard if verifying includes _finding_ the information **and** comparing the production. But then again, it also falls into another _hard-to-compute_ problem.
 
 ## P: Poly-time Solvable
 
-- Class of solvable and verifiable problems in polynomial time by a deterministic Turing machine.
+- Class of solvable and verifiable problems in polynomial time by a deterministic [[Turing machine]].
 
 ## NP: Nondeterministic Polynomial Time
 

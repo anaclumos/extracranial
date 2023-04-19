@@ -7,9 +7,9 @@ Banks falling behind the tech is a familiar story in the [[United States of Amer
 
 ## Where it all began
 
-It all starts with the [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). When the internet was booming in 1999, [[대한민국|Korea]] couldn't correctly use the 128-bit AES encryption technology, so they started from a weakened 40-bit security system. They then later developed their version of a 128-bit security system which required ActiveX and made it a standard (SEED.)
+It all starts with the [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). When the internet was booming in 1999, [[대한민국|Korea]] couldn't correctly use the 128-bit AES encryption technology, so they started from a weakened 40-bit security system. They then later developed their version of a 128-bit security system which required ActiveX and made it a standard ([[SEED]].)
 
-In 2000, the [[United States of America|U.S.]] lifted export restrictions, but [[대한민국|Korea]] continued to use SEED and ActiveX. While they later removed ActiveX systems, they switched to mandating .exe security programs running on the device constantly. As [Wladimir Palant found out](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/), these programs are uncomfortable and do not even conform to ancient security techniques. Moreover, they are developed with 15-year-old Visual Studio, causing avoidable security problems like simple Buffer Overflows Attacks. **But why**? Why are they still not improving things? Some key observations:
+In 2000, the [[United States of America|U.S.]] lifted export restrictions, but [[대한민국|Korea]] continued to use [[SEED]] and ActiveX. While they later removed ActiveX systems, they switched to mandating .exe security programs running on the device constantly. As [Wladimir Palant found out](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/), these programs are uncomfortable and do not even conform to ancient security techniques. Moreover, they are developed with 15-year-old Visual Studio, causing avoidable security problems like simple Buffer Overflows Attacks. **But why**? Why are they still not improving things? Some key observations:
 
 ## Dodging Responsibilities
 

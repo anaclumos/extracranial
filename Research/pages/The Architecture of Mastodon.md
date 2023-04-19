@@ -9,7 +9,7 @@ slug: '/BEF810'
 
 - Ruby on Rails Web App
 - PostgreSQL Persistence Layer
-- Agnostic S3/SMTP File Storage and Mailer
+- Agnostic S3/[[SMTP]] File Storage and Mailer
 - Redis for Precomputed Social Feed Cache and Worker Queue
 - Sidekiq for Background Processing
 - Node Handler for Streaming (Notifications, New posts, etc.)

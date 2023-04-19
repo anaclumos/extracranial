@@ -21,4 +21,4 @@ slug: '/4332D0'
 - can understand and respond to our messages
 - has the file that we want, or at least knows what we're talking about
 - Therefore, it's essential to pipeline our requests to keep up with the constant pressure of some unfulfilled requests. This can increase the [[throughput]] of our connection by order of magnitude
-- Notably, I left out all the glue code, parsing, unit tests, and the boring parts that build character. View my [full implementation](https://github.com/veggiedefender/torrent-client) if you're interested
+- Notably, I left out all the glue code, parsing, unit tests, and the [[Boring Technologies|boring]] parts that build character. View my [full implementation](https://github.com/veggiedefender/torrent-client) if you're interested

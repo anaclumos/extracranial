@@ -16,4 +16,4 @@ collections of exquisite software that i happily paid for premium
 - ([[Fiercely Overpriced|paywalled]]) [[texts]]
 - ([[Fiercely Overpriced|paywalled]]) optimage
 - ([[Fiercely Overpriced|paywalled]]) clean my mac
-- ([[Fiercely Overpriced|paywalled]]) alfred (now using raycast)
+- ([[Fiercely Overpriced|paywalled]]) alfred (now using [[raycast]])

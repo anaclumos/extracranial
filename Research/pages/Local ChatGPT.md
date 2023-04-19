@@ -9,5 +9,5 @@ slug: '/56AB8C'
 - People could now generate images from the text on their hardware!
 - More importantly, developers could mess around with the guts of what was going on
 - LLaMA
-  - Somewhat surprisingly, language models like GPT-3 that power tools like ChatGPT are a lot larger and more expensive to build and operate than image generation models
+  - Somewhat surprisingly, language models like GPT-3 that power tools like [[ChatGPT]] are a lot larger and more expensive to build and operate than image generation models
   - LLaMA on its own isn't much good if it's still too hard to run it on a personal laptop

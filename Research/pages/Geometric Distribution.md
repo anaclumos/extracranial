@@ -11,6 +11,8 @@ $x \in \mathbb{Z}^{+}$
 
 $P = \text{Probability of Success}$
 
+[[Probability]]
+
 ## $P(X=x)$
 
 $P(X=x) = (1-p)^{x-1} p$

@@ -9,7 +9,7 @@ While I most admire Kevin Systrom and Mike Krieger, it's a **flop** this time. T
 
 There have been numerous attempts to resolve this, such as:
 
-- **Chat interface**. Chat-like ebook services like Hooked use text message format, presenting stories in short, bite-sized messages.
+- **Chat interface**. Chat-like [[ebook]] services like Hooked use text message format, presenting stories in short, bite-sized messages.
 - **Summary Bot**. Include tl;dr bots to summarize news articles automatically.
 - **Interactive Articles**. Use interactive components like touchable graphs and scroll-reacting elements to make text-based content more engaging and interactive.
 - **Illustrations**. Hire an illustrator or use generative [[AI]] to create visual elements for text-based content.

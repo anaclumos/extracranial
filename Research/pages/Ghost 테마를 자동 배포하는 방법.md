@@ -3,7 +3,7 @@ date: 2019-11-16
 slug: '/0F1FE2'
 ---
 
-이 블로그는 [Ghost Content Management System](https://github.com/TryGhost/Ghost)을 [[AWS]]에 호스팅하여 사용한다. Ghost CMS는 **헤드리스**하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 수 있다는 것이다. 하지만 Ghost 2까지는 다음과 같이 그 '헤드'를 Deploy하는 과정이 무척 번거로웠다.
+이 블로그는 [Ghost Content Management System](https://github.com/TryGhost/Ghost)을 [[AWS]]에 호스팅하여 사용한다. Ghost CMS는 **[[Headless|헤드리스]]**하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 수 있다는 것이다. 하지만 Ghost 2까지는 다음과 같이 그 '헤드'를 Deploy하는 과정이 무척 번거로웠다.
 
 1.  완성된 테마 폴더를 압축한다.
 2.  Ghost Admin에 접속한다.
