@@ -3511,6 +3511,7 @@ export const backlinks = {
     },
     "기술 할부 결제": {
         "2023-02-17": "- [[기술 할부 결제]]",
+        "Premature Optimizations": "- Tech Now Pay Later [[기술 할부 결제]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-17 | 🇬🇧 Tech Now Pay Later <br/> 🇰🇷 [[기술 할부 결제]]            ..."
     },
     "Grotesque": {
@@ -6537,6 +6538,7 @@ export const backlinks = {
     },
     "Tech Now Pay Later": {
         "2023-02-17": "- [[Tech Now Pay Later]]",
+        "Premature Optimizations": "- [[Tech Now Pay Later]] [[기술 할부 결제]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-17 | 🇬🇧 [[Tech Now Pay Later]] <br/> 🇰🇷 [[기술 할부 결제]]       ..."
     },
     "Three Column Design": {
@@ -8160,6 +8162,12 @@ export const backlinks = {
     },
     "BFE9DE.png": {
         "hn.cho.sh 개발 기록": "![[BFE9DE.png]]"
+    },
+    "3B44E2.png": {
+        "hn.cho.sh 개발 기록": "![[3B44E2.png]]"
+    },
+    "3CD8AD.png": {
+        "hn.cho.sh 개발 기록": "![[3CD8AD.png]]"
     },
     "C25819.png": {
         "Superbrain": "![[C25819.png]]"
