@@ -556,6 +556,7 @@ export const backlinks = {
         "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
         "The Era of Invites": "... an invitation system will never reach your attention. For example, did [[ChatGPT]] require an invite? Nope.",
         "The Problems of ChatGPT": "- [[ChatGPT]] writes believable scientific abstracts",
+        "Unsemantic": "This only lived for a while 😁 [[ChatGPT]] is very unsemantic",
         "기술 발전의 속도": "그런데 고작 3개월도 되지 않아 [[ChatGPT]]가 등장하며... 모든 것을 뒤바꾸어 놓았다. 역사는 갈수록 빠르게 흐르는가? 기술적 특이점은 ...",
         "초대장의 시대": "... 가진 스타트업이 성공하지 못하면 우리의 관심에 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
     },
