@@ -5247,6 +5247,10 @@ export const backlinks = {
     "MessageBird": {
         "2022-11-30": "- [[MessageBird]]"
     },
+    "Differential Privacy": {
+        "2023-04-19": "- [[Differential Privacy]]",
+        "Federated Training": "To preserve privacy, [[differential privacy]] adds noise to the updates before they are sent to the ..."
+    },
     "서비스 시밍": {
         "2023-02-02": "- [[서비스 시밍]]",
         "Premature Optimizations": "- Service Shimming, [[서비스 시밍]]",
@@ -6366,6 +6370,9 @@ export const backlinks = {
     },
     "SIMD": {
         "2023-01-23": "- [[SIMD]]"
+    },
+    "Federated Training": {
+        "2023-04-19": "- [[Federated Training]]"
     },
     "Torvalds": {
         "Linux": "... operating system kernel first released on September 17, 1991, by Linus [[Torvalds]]. Linux is typically packaged as a Linux distribution, which includes the ..."
