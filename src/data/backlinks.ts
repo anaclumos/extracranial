@@ -605,7 +605,8 @@ export const backlinks = {
         "lovearc.net": "... from Vercel that I turned off image proxies when migrating to [[Cloudflare Pages]]. All the profiles will now show square boxes."
     },
     "Gall Law": {
-        "2023-04-10": "- [[Gall Law]]"
+        "2023-04-10": "- [[Gall Law]]",
+        "Premature Optimizations": "- [[Gall Law]]"
     },
     "Solar": {
         "2023-01-13": "- [[Solar]]",
@@ -4689,7 +4690,8 @@ export const backlinks = {
         "2022-12-24": "- [[SHAP]]"
     },
     "Premature Optimizations": {
-        "2023-04-17": "- [[Premature Optimizations]], [[Bootstrap]]"
+        "2023-04-17": "- [[Premature Optimizations]], [[Bootstrap]]",
+        "2023-04-19": "- [[Premature Optimizations]]"
     },
     "Government Services should have full API support": {
         "2022-10-27": "- [[Government Services should have full API support]]",
