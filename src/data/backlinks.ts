@@ -2969,6 +2969,9 @@ export const backlinks = {
         "하늘땅사람": "... 없이 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 [[Project|프로젝트]]. [[Done]].",
         "하늘땅사람 개발 기록": "활자 [[Project|프로젝트]]에 대해 이성광 님께서 \"NFD로 문자열 정규화를 해서 초중종성을 떼어놓고 만들면 좀 ..."
     },
+    "Bing Chat for All Browsers Widespread Unavailability Incident (April 2023)": {
+        "2023-04-19": "- [[Bing Chat for All Browsers Widespread Unavailability Incident (April 2023)]]"
+    },
     "EU and AI": {
         "2023-03-06": "- [[EU and AI]]"
     },
@@ -3282,6 +3285,7 @@ export const backlinks = {
         "2022-09-30": "### [[Chrome]] `renderBlockingStatus`",
         "2023-02-26": "- [[Chrome]]",
         "Apple Newsroom 서체 따라하기": "Apple은 한글 폰트로 산돌고딕 네오를 사용한다. Safari와 [[Chrome]]은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. 때문에 ...",
+        "Bing Chat for All Browsers Widespread Unavailability Incident (April 2023)": "- While some reported that the [[Chrome]]/[[Firefox]] version did not work and changing the user agent manually worked, ...",
         "Developing Review Notes for Obsidian": "스토어에 올라온 몇몇 플러그인을 보니 다음과 같은 간단한 구조였다. [[Chrome]] [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 이루어져 있다.",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... it? As far as I know, Firefox can \"straight up\" run [[Chrome]] extensions, so I imagine uploading it to the Firefox Add-ons Store ...",
         "Neo Apps": "- Web Browser|Browsers. [[Chrome]] → Arc.",
@@ -3969,6 +3973,7 @@ export const backlinks = {
         "2022-10-10": "... responsiveness on macOS - Mozilla Hacks - the Web developer blog [[Firefox]]",
         "2023-03-05": "- [[Firefox]]",
         "Apple Newsroom 서체 따라하기": "... 산돌고딕 네오를 사용한다. Safari와 Chrome은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 반면 [[Firefox]] 계열은 그러지 못한다. 때문에 Firefox에서 알맞은 한글 서체를 사용하도록 `Apple SD ...",
+        "Bing Chat for All Browsers Widespread Unavailability Incident (April 2023)": "- While some reported that the Chrome/[[Firefox]] version did not work and changing the user agent manually worked, ...",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... have a question about your WebExtension|extension, tabExtend. I recently switched to [[Firefox]] and noticed the WebExtension|extension is unavailable on the Firefox Add-ons Store. ...",
         "Love Firefox": "i love [[firefox]]",
         "Mental Simulation of Firefox and Signal as a Super App": "... instantly absorbable mass of users. The main target of Signal and [[Firefox]] are people who are flexible to switch platforms if they satisfy ...",
@@ -4257,9 +4262,6 @@ export const backlinks = {
         "2022-07-05": "- Dropout success stories are typically [[survivorship biased]].",
         "2022-12-09": "- [[Survivorship Biased]]",
         "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]"
-    },
-    "Bing Chat Widespread Unavailability Incident (April 2023)": {
-        "2023-04-19": "- [[Bing Chat Widespread Unavailability Incident (April 2023)]]"
     },
     "The Newtonian Correspondence": {
         "2023-03-16": "- [[The Newtonian Correspondence]]",
@@ -5615,6 +5617,7 @@ export const backlinks = {
     "Bing": {
         "AMP": "... AMP pages may be cached by a CDN, such as Microsoft [[Bing]] or [[Cloudflare]]'s AMP caches, which allows pages to be served more ...",
         "Bing Chat": "- [[Bing]]",
+        "Bing Chat for All Browsers Widespread Unavailability Incident (April 2023)": "What the hell, [[Bing]]...",
         "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 [[Bing]] [[ChatGPT]]에 검색을 해보았다.",
         "Super App": "... sources say CEO Satya Nadella is laying the groundwork by pushing [[Bing]] to work better with Microsoft's other mobile products"
     },
@@ -7739,6 +7742,12 @@ export const backlinks = {
     "53E519.png": {
         "Ray.st": "![[53E519.png]]"
     },
+    "38BB75.png": {
+        "Bing Chat for All Browsers Widespread Unavailability Incident (April 2023)": "![[38BB75.png]]"
+    },
+    "FF32E1.png": {
+        "Bing Chat for All Browsers Widespread Unavailability Incident (April 2023)": "![[FF32E1.png]]"
+    },
     "Int": {
         "0015 3Sum": "    func threeSum( numsOriginal: [Int]) -> [[Int]] {",
         "0057 Insert Interval": "    func insert( intervals: [[Int]],  newInterval: [Int]) -> Int {",
@@ -7966,12 +7975,6 @@ export const backlinks = {
     "E0A8DC.png": {
         "San Francisco": "![[E0A8DC.png]]",
         "Toss Product Sans": "![[E0A8DC.png]]"
-    },
-    "38BB75.png": {
-        "Bing Chat Widespread Unavailability Incident (April 2023)": "![[38BB75.png]]"
-    },
-    "FF32E1.png": {
-        "Bing Chat Widespread Unavailability Incident (April 2023)": "![[FF32E1.png]]"
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"

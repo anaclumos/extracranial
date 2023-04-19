@@ -104,6 +104,12 @@ const config: Config = {
       async: true,
       'data-cf-beacon': '{"token": "53278117b8c44edeb9eeb9af447d5529"}',
     },
+    {
+      src: 'https://platform.twitter.com/widgets.js',
+      async: true,
+      defer: true,
+      charset: 'utf-8',
+    },
   ],
 }
 
