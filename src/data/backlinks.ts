@@ -4256,6 +4256,9 @@ export const backlinks = {
         "2022-12-09": "- [[Survivorship Biased]]",
         "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]"
     },
+    "Bing Chat Widespread Unavailability Incident (April 2023)": {
+        "2023-04-19": "- [[Bing Chat Widespread Unavailability Incident (April 2023)]]"
+    },
     "The Newtonian Correspondence": {
         "2023-03-16": "- [[The Newtonian Correspondence]]",
         "2023-03-19": "- [[The Newtonian Correspondence]]",
@@ -7951,6 +7954,12 @@ export const backlinks = {
     "E0A8DC.png": {
         "San Francisco": "![[E0A8DC.png]]",
         "Toss Product Sans": "![[E0A8DC.png]]"
+    },
+    "38BB75.png": {
+        "Bing Chat Widespread Unavailability Incident (April 2023)": "![[38BB75.png]]"
+    },
+    "FF32E1.png": {
+        "Bing Chat Widespread Unavailability Incident (April 2023)": "![[FF32E1.png]]"
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
