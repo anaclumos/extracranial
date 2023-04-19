@@ -45,11 +45,6 @@ const navbar = {
       position: 'left',
     },
     {
-      to: '/newsletters',
-      label: 'Newsletter',
-      position: 'right',
-    },
-    {
       href: 'https://github.com/anaclumos',
       position: 'right',
       className: 'navbar-github-link',

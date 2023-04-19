@@ -25,3 +25,4 @@ slug: '/37067D'
 - [[hn.cho.sh 개발 기록]]
 - [[Tech Now Pay Later]] [[기술 할부 결제]]
 - [How Levels.fyi scaled to millions of users with Google Sheets as a backend](https://www.levels.fyi/blog/scaling-to-millions-with-google-sheets.html)
+- [[Gall Law]]
