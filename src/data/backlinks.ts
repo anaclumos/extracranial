@@ -1107,6 +1107,7 @@ export const backlinks = {
         "2022-10-17": "> Thanks! I want [[Docusaurus]] to have this feature built-in 😃",
         "2023-01-27": "It turns out to be it was [[Docusaurus]]'s recent bug: Using Tabs will break with React 18 and Docusaurus ...",
         "2023-02-16": "... a tutorial how to replicate your publishing workflow with Obsidian and [[Docusaurus]], please count me as one enthusiast reader, I'd love to learn ...",
+        "2023-04-19": "- [[Docusaurus]]",
         "Aldehyde Outage (January 2023)": "## [[Docusaurus]] 2.3.0 `useSyncExternalStore` Bug",
         "Better Docusaurus": "- Fixing some things that I currently don't like about [[Docusaurus]]",
         "In search of my domain": "... thoughts online. I migrated my blog from WordPress to Ghost to [[Docusaurus]], making several contributions and almost hacking the framework along the way.",
@@ -7317,6 +7318,15 @@ export const backlinks = {
     },
     "FEA35E.png": {
         "Unchained Bing": "![[FEA35E.png]]"
+    },
+    "1AB465.png": {
+        "Docusaurus": "... 'to select'이고 그 아래에 간단한 설명이 포함되어 있습니다(이런 설명도 과분한 상황이죠). ![[1AB465.png]]"
+    },
+    "23ED7D.png": {
+        "Docusaurus": "... 사용되고 있습니다. 이렇게 보면 '선택하려면'도 나쁘지 않은 선택이지만 좀 어색하긴 합니다. ![[23ED7D.png]]"
+    },
+    "415984.png": {
+        "Docusaurus": "... 자연스러운 표현일겁니다. 그래서 해당 UI 번역도 아래와 같이 사용할 수 있습니다. ![[415984.png]]"
     },
     "73DAA4.png": {
         "Developing Review Notes for Obsidian": "![[73DAA4.png]]"
