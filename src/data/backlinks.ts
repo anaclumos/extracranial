@@ -353,6 +353,9 @@ export const backlinks = {
     "2023-04-16": {
         "hn.cho.sh 개발 기록": "## [[2023-04-16]]"
     },
+    "2023-03-06": {
+        "hn.cho.sh 개발 기록": "## [[2023-03-06]]"
+    },
     "2023-01-12": {
         "Using an iPad as my Ebook": "... best ebook reader is yet to finish, a recent discovery on [[2023-01-12]] suggested that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools ...",
         "재학생일기": "[[2023-01-12]]에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 늦-중2병이었나 싶다."
@@ -651,6 +654,7 @@ export const backlinks = {
     },
     "Newtonian Mail": {
         "2023-02-28": "- [[Newtonian Mail]]",
+        "METI Engine": "I see a strikingly coincidental overlap between [[Newtonian Mail]] and the METI. Both actively seek intellectual handshakes and communications, pursuing ...",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-28 | 🇬🇧 [[Newtonian Mail]] <br/> 🇰🇷 [[뉴턴의 서신]]        ..."
     },
     "Aldehyde": {
@@ -1641,6 +1645,10 @@ export const backlinks = {
         "Screenshot as an API": "    - text ([[OCR]])",
         "Using an iPad as my Ebook": "... I fell in love with Book Scanning as a PDF with [[OCR]], and I figured it is very lovable. I can't understand why ..."
     },
+    "일일일": {
+        "2023-04-19": "- [[일일일]]",
+        "Oneliner News": "An AI-powered news portal? Reference: [[일일일]]"
+    },
     "Spellbound": {
         "2022-05-31": "- [[Spellbound]]",
         "2022-12-06": "- Reimagining Emails: React Email, AMP, AMP Email, [[Spellbound]]",
@@ -1850,9 +1858,17 @@ export const backlinks = {
         "2022-11-30": "- [[Centering]]",
         "Android": "- [[Centering]]"
     },
+    "Oneliner News": {
+        "2023-04-19": "- [[Oneliner News]]",
+        "METI Engine": "... current generation is hn.cho.sh — and plan to scale it to [[Oneliner News]].",
+        "일일일": "NewsGPT Model. A competitor to [[Oneliner News]]."
+    },
     "hn.cho.sh": {
         "2023-03-24": "- [[hn.cho.sh]]",
         "2023-04-01": "- [[hn.cho.sh]]",
+        "METI Engine": "The current generation is [[hn.cho.sh]] — and plan to scale it to [[Oneliner News]].",
+        "Oneliner News": "Where would [[hn.cho.sh]] lead us?",
+        "Project": "- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]]",
         "Vercel Incident Report (April 2023)": "... from Vercel under \"violating fair use\" with two projects: lovearc.net and [[hn.cho.sh]].",
         "hn.cho.sh 개발 기록": "... Browsers가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
     },
@@ -2548,6 +2564,10 @@ export const backlinks = {
     },
     "Geometric Distribution": {
         "2023-02-02": "- [[Geometric Distribution]]"
+    },
+    "METI Engine": {
+        "2023-04-19": "- [[METI Engine]]",
+        "일일일": "\t- Oneliner News aims to build the International mesh of [[METI Engine]]. If humans get involved in the pipeline"
     },
     "Collaboration-based Tools for Thought": {
         "Deepnote": "- Data Science [[Collaboration-based Tools for Thought]].",
@@ -4952,7 +4972,7 @@ export const backlinks = {
     },
     "Bing Chat": {
         "Bing Chat for All Browsers": "- [[Bing Chat]] for all [[Web Browser|browser]]",
-        "NewsGPT": "... and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers."
+        "hn.cho.sh 개발 기록": "... and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers."
     },
     "Pensieve": {
         "2022-11-07": "- [[Pensieve]]",
@@ -5272,7 +5292,8 @@ export const backlinks = {
         "2023-04-17": "- [[hn.cho.sh 개발 기록]]: 당근 PM 론과의 대화",
         "2023-04-18": "- [[hn.cho.sh 개발 기록]]",
         "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
-        "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]"
+        "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]",
+        "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -5284,6 +5305,7 @@ export const backlinks = {
         "2023-03-08": "- [[Superbrain]]",
         "Dumbest Person in the Room": "> Surround yourself with more [[Superbrain|intelligent people]], and you'll all win. More ideas, energy, connections, and smarter people ...",
         "Extracranial": "Extracranial. The Exosuit for [[Superbrain|Superbrains]]",
+        "METI Engine": "... need for a mass-scale general network of knowledge... linking extra intelligent [[Superbrain|superbrains]]...",
         "Newtonian Mail": "... was a prolific Mail|letter writer and corresponded with numerous scientists and [[Superbrain|intellectuals]]. Newton's [[Mail|letters]] were often highly technical and discussed his scientific research ...",
         "On National Crises and the Intellectuals — Focused on GB and KR": "... and the United Kingdom share many similarities in our struggles. As [[Superbrain|intellectuals]], we must consider how to help our nations overcome these crises.",
         "경제 개발의 길목에서": "... 선행되지 않고서는 불가능하다고 믿고 있었기 때문이다. 그래서 그는 관념적으로 민주화를 앞세우는 [[Superbrain|지식인]]들을 좋게 보지 않았다. 재무부 장관으로 취임한 직후 박 대통령을 만났을 때 ...",
@@ -6429,9 +6451,9 @@ export const backlinks = {
     "NewsGPT": {
         "2023-03-06": "- [[NewsGPT]]",
         "Can we ever build TikTok for Text": "... no better. They should've done something more breaking, for example, a [[NewsGPT]].",
-        "Project": "- [[NewsGPT]]",
         "hn.cho.sh 개발 기록": "- [[NewsGPT]]",
-        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 알고리즘 추천 기능을 제공하고 있는데, 아티팩트도 크게 다르지 않다. 예를 들어 [[NewsGPT|챗봇 기반 뉴스 앱]]과 같이 좀 더 획기적인 무언가를 했어야 했다."
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 알고리즘 추천 기능을 제공하고 있는데, 아티팩트도 크게 다르지 않다. 예를 들어 [[NewsGPT|챗봇 기반 뉴스 앱]]과 같이 좀 더 획기적인 무언가를 했어야 했다.",
+        "일일일": "[[NewsGPT]] Model. A competitor to [[Oneliner News]]."
     },
     "Emoji": {
         "Ray.st": "A Collection of 26 Beautiful 3D [[Emoji]] Generated by [[Generative AI]].",
@@ -7601,6 +7623,24 @@ export const backlinks = {
     },
     "254AFC.png": {
         "AIs.txt": "![[254AFC.png]]"
+    },
+    "74C9EE.png": {
+        "일일일": "![[74C9EE.png]]"
+    },
+    "1E7361.png": {
+        "일일일": "![[1E7361.png]]"
+    },
+    "3B5A7A.png": {
+        "일일일": "![[3B5A7A.png]]"
+    },
+    "9884A4.png": {
+        "일일일": "![[9884A4.png]]"
+    },
+    "C4CCCC.png": {
+        "일일일": "![[C4CCCC.png]]"
+    },
+    "2718AD.png": {
+        "일일일": "![[2718AD.png]]"
     },
     "2576C7.png": {
         "Spellbound": "![[2576C7.png]]"

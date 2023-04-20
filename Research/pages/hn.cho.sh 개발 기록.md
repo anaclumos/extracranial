@@ -13,6 +13,15 @@ slug: '/8E98AE'
 - [[Can we ever build TikTok for Text]]
 - [[NewsGPT]]
 
+## [[2023-03-06]]
+
+News app, but all critical information is in chat bubbles—short, informative, and friendly chats. You can ask follow-up questions, and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers.
+
+- Send message (share)
+- Chatbot will answer and give contexts
+- 그냥 인터페이스 다 없애고 nudge처럼 100% 문자 기반?
+- 하루에 한두개 비슷한 뉴스 채팅으로 던져주기
+
 ## [[2023-03-20]]
 
 해커뉴스를 읽고 있다가 이걸 AI에게 요약해보고 있었다.

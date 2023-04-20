@@ -12,5 +12,5 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 
 - [[Stable Alternative]]
 - [[Generative Open Graph]]
-- [[NewsGPT]]
+- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]]
 - [[역사의 집대성]]
