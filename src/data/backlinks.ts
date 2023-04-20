@@ -1784,7 +1784,6 @@ export const backlinks = {
         "Cube": "- Feature: [[Twitter]]-to-Instagram-Card Mode?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "I'm at @anaclumos on GitHub, [[Twitter]], and any other platform.",
         "Letter to Mr. Matt Rickard on 2022-12-24": "There are countless cases where [[Twitter]] troubled up, but the above point is the most prominent one. ...",
-        "Mastodon": "... self-hosted social networking services. It has microblogging features similar to the [[Twitter]] service, which are offered by a large number of independently run ...",
         "Mental Simulation of Firefox and Signal as a Super App": "- [[Twitter]], Facebook, Instagram, and Snapchat cannot be super apps because they have ...",
         "Mood.surf": "> Discover expert insights from tech [[Twitter]]",
         "Musk and Twitter": "... wanted to reach out personally to share my motivation for acquiring [[Twitter]]. There has been much speculation about why I bought Twitter and ...",
@@ -2567,7 +2566,7 @@ export const backlinks = {
     },
     "METI Engine": {
         "2023-04-19": "- [[METI Engine]]",
-        "일일일": "\t- Oneliner News aims to build the International mesh of [[METI Engine]]. If humans get involved in the pipeline"
+        "일일일": "...  - Oneliner News aims to build the International mesh of [[METI Engine]]. If humans get involved in the pipeline"
     },
     "Collaboration-based Tools for Thought": {
         "Deepnote": "- Data Science [[Collaboration-based Tools for Thought]].",
@@ -2736,8 +2735,7 @@ export const backlinks = {
         "2022-10-10": "- [[Tools I will use one day]]. Found tremor."
     },
     "ActivityPub": {
-        "2022-10-10": "- [[ActivityPub]]",
-        "Mastodon": "> Mastodon is a free, open-source social network server based on [[ActivityPub]] where users can follow friends and discover new ones. On Mastodon, ..."
+        "2022-10-10": "- [[ActivityPub]]"
     },
     "Case Study": {
         "Rauno": "- [[Case Study]]",
@@ -3160,7 +3158,6 @@ export const backlinks = {
     },
     "The Architecture of Mastodon": {
         "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
-        "Mastodon": "- [[The Architecture of Mastodon]]",
         "Matt Rickard": "- [[The Architecture of Mastodon]]"
     },
     "Cache and Virtual Memory": {
@@ -4898,7 +4895,6 @@ export const backlinks = {
         "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Mail|Letter]] to Mr. Stephan Ango on [[2022-10-19]]",
         "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the Heptabase Team on 2022-10-11",
         "Markdown Email Client": "Someday Project. You write an [[Mail|email]] in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as ...",
-        "Mastodon": "... only people IN your kerflunk can quark your nerps. Kinda like [[Mail|email]].\" https://mas.to/@Ciaraioch@mastodon.ie/109287825141624121",
         "Naver": "... since added many new services ranging from basic features such as [[Mail|e-mail]] and news to the world's first online Q&A platform, Knowledge iN. ...",
         "Neo Email": "- Neo [[Mail|Email]]",
         "Newsletter": "- [[Mail]]",

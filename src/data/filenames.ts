@@ -836,7 +836,6 @@ export const filenames = {
     "Markovity": "D2988F",
     "Maserati Problem": "6EB336",
     "Master Socket": "9F6699",
-    "Mastodon": "13E435",
     "Math-based Coding": "598CA9",
     "Mathematics under The Library of Babel": "B4B12B",
     "Matrix Network": "EEDB6C",
