@@ -5,11 +5,11 @@ slug: '/812334'
 
 - [prose.sh](https://prose.sh/): a blog platform for hackers in terminal
 - [Bear Blog](https://bearblog.dev/): No trackers, no [[JavaScript]], no stylesheets blog for hackers
-- [Medium](https://medium.com/): Writing platform.
+- [[Medium]]): Writing platform.
 - [Mirror](https://mirror.xyz/): Medium on [[Web3]].
-- [DEV.to](https://dev.to/): Medium but for Devs.
-- [Hashnode](https://hashnode.com/): Medium but for even more Devs.
-- [Velog](https://velog.io/)
+- [[DEV.to]]: https://dev.to/
+- [[Hashnode]] https://hashnode.com/
+- [[Velog]]
 - [Tistory](https://www.tistory.com/)
 - [Naver Blog](https://blog.naver.com)
 - [WordPress](https://wordpress.org/)
