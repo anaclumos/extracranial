@@ -571,6 +571,7 @@ export const backlinks = {
         "The Era of Invites": "... an invitation system will never reach your attention. For example, did [[ChatGPT]] require an invite? Nope.",
         "The Problems of ChatGPT": "- [[ChatGPT]] writes believable scientific abstracts",
         "Unsemantic": "This only lived for a while 😁 [[ChatGPT]] is very unsemantic",
+        "Wolfram Alpha": "## Wolfram's [[ChatGPT]] prompt",
         "기술 발전의 속도": "그런데 고작 3개월도 되지 않아 [[ChatGPT]]가 등장하며... 모든 것을 뒤바꾸어 놓았다. 역사는 갈수록 빠르게 흐르는가? 기술적 특이점은 ...",
         "초대장의 시대": "... 가진 스타트업이 성공하지 못하면 우리의 관심에 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
     },
@@ -3574,6 +3575,7 @@ export const backlinks = {
         "2023-02-19": "- [[Bing Chat for All Browsers]]",
         "2023-04-09": "What a nice review to get. [[Bing Chat for All Browsers]]",
         "Bing Chat for All Browsers in Japan": "- [[Bing Chat for All Browsers]]",
+        "Edge Browser": "Microsoft Edge Browser. Officially required for Bing Chat, although bypassable with [[Bing Chat for All Browsers]]",
         "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
         "Search AI": "- [[Bing Chat for All Browsers]]",
         "Unchained Bing": "A competitor to [[Bing Chat for All Browsers]].",
@@ -4141,6 +4143,7 @@ export const backlinks = {
     "Edge": {
         "2022-10-24": "- [[Edge]]",
         "2023-01-13": "- [[Edge]]",
+        "2023-04-21": "- [[Edge]]",
         "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-end]] [[Front-end]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... once mentioned that most tech services could be abstracted to an [[edge]]-served Front-end and back-end as edge-replicated simple data storage. I was also ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... also as App Economy vs. Web Economy, Closed vs. (fairly) Open, [[Edge]]-first [[AI]] vs. Cloud-first [[AI]], etc.",
@@ -4217,7 +4220,7 @@ export const backlinks = {
         "2023-01-27": "I had to migrate Extracranial to Cloudflare Pages for [[Vercel]] for now...",
         "2023-04-10": "For comparison, this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
         "Aldehyde Outage (January 2023)": "## [[Vercel]] and [[Cloudflare]] Build Errors",
-        "Edge": "- [[Vercel]] & Vercel Edge Functions",
+        "Edge Network": "- [[Vercel]] & Vercel Edge Functions",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... recently — BIMI|Brand Indicators for Message Identification BIMI) Just like what [[Vercel]] did to Heroku.",
         "Letter to the Heptabase Team on 2022-10-11": "... Angeles|LA and 서울|Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Next.js": "> Next.js is an open-source web development framework created by [[Vercel]] enabling [[React]]-based web applications with server-side rendering and generating static websites. ...",
@@ -4228,6 +4231,10 @@ export const backlinks = {
         "Vercel Incident Report (April 2023)": "For comparison, this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
         "dub.sh": "- Built with [[Vercel]] [[Edge]] Functions + Upstash Redis",
         "lovearc.net": "- It drained too much Image Proxy Bandwidth from [[Vercel]] that I turned off image proxies when migrating to [[Cloudflare Pages]]. ..."
+    },
+    "Wolfram Alpha": {
+        "2023-04-21": "- [[Wolfram Alpha]]",
+        "Search AI": "... that's useful\". But it's a different story with Wolfram|Alpha. Because once [[Wolfram Alpha]] has converted something to Wolfram Language, what it's got is a ..."
     },
     "Clustering": {
         "2023-01-25": "- [[Clustering]]",
@@ -4496,6 +4503,9 @@ export const backlinks = {
     "Setting different images for Light & Dark mode": {
         "2022-10-21": "- [[Setting different images for Light & Dark mode]]"
     },
+    "Edge Network": {
+        "Edge": "- [[Edge Network]]"
+    },
     "Arc Browser": {
         "Browser Company Hackathon": "- [[Arc Browser]]",
         "lovearc.net": "2. get some [[Arc Browser]] stickers"
@@ -4730,6 +4740,9 @@ export const backlinks = {
     },
     "Wikiversity": {
         "2022-10-17": "- [[Wikiversity]]"
+    },
+    "Edge Browser": {
+        "Edge": "- [[Edge Browser]]"
     },
     "Across the Sprachraums": {
         "2023-04-21": "- [[Across the Sprachraums]]",
@@ -5032,6 +5045,7 @@ export const backlinks = {
     },
     "Bing Chat": {
         "Bing Chat for All Browsers": "- [[Bing Chat]] for all [[Web Browser|browser]]",
+        "Edge Browser": "Microsoft Edge Browser. Officially required for [[Bing Chat]], although bypassable with [[Bing Chat for All Browsers]]",
         "hn.cho.sh 개발 기록": "... and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers."
     },
     "Pensieve": {
@@ -5076,6 +5090,7 @@ export const backlinks = {
         "C++": "... many vendors provide C++ compilers, including the Free Software Foundation, LLVM, [[Microsoft]], Intel, Embarcadero, Oracle, and IBM, so it is available on many ...",
         "Collecting Data": "... private data you might want to keep is being sent to [[Microsoft]].",
         "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "| [[Microsoft]] fixes 5-year-old Defender bug, reducing [[Firefox]]-related CPU use by 75%  ...",
+        "Edge Browser": "[[Microsoft]] Edge Browser. Officially required for [[Bing Chat]], although bypassable with [[Bing ...",
         "GitHub": "... every project. Headquartered in California, it has been a subsidiary of [[Microsoft]] since 2018. GitHub",
         "Google": "... Big Five American information technology companies, alongside Amazon, Apple, Meta, and [[Microsoft]]. Google",
         "HTML 텍스트 위에 덧말 강조점 쓰기": "... '글자 위의 글자'는 phonetic guide, 후리가나, 루비 문자, 덧말 (한컴오피스), 또는 윗주([[Microsoft|MS]] Word)라고도 한다. HTML에서는 `<ruby>` 태그를 통해 이 기능을 사용할 수 있다.",
@@ -5748,7 +5763,7 @@ export const backlinks = {
         "Aldehyde Outage (January 2023)": "## Vercel and [[Cloudflare]] Build Errors",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
         "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-end]] [[Front-end]]",
-        "Edge": "- [[Cloudflare]] Pages & Cloudflare Functions",
+        "Edge Network": "- [[Cloudflare]] Pages & Cloudflare Functions",
         "Redirect": "## Redirect in [[Cloudflare]]",
         "Vercel Incident Report (April 2023)": "> When [[Cloudflare]] says free unlimited bandwidth, they're not messing around pic.twitter.com/X7RMPmSrr4"
     },
@@ -8241,6 +8256,9 @@ export const backlinks = {
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
+    },
+    "2128CA.png": {
+        "Edge Network": "![[2128CA.png]]"
     },
     "C5B7B8.png": {
         "Engine Equation": "![[C5B7B8.png]]"
