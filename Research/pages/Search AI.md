@@ -13,7 +13,7 @@ slug: '/FB73DE'
 
 - It's always amazing when things suddenly "just work". It happened to us with [Wolfram|Alpha](https://www.wolframalpha.com/) back in 2009. It happened with our [Physics Project](https://www.wolframphysics.org/) in 2020. And it's happening now with [OpenAI](https://openai.com/)'s [ChatGPT](https://chat.openai.com/chat)
 - a fascinating, essay-style response. But the actual result is wrong
-- In many ways, one might say that [[ChatGPT]] never "truly understands" things; it just "knows how to produce stuff that's useful". But it's a different story with Wolfram|Alpha. Because once Wolfram|Alpha has converted something to Wolfram Language, what it's got is a complete, precise, formal representation from which one can reliably compute things
+- In many ways, one might say that [[ChatGPT]] never "truly understands" things; it just "knows how to produce stuff that's useful". But it's a different story with Wolfram|Alpha. Because once [[Wolfram Alpha]] has converted something to Wolfram Language, what it's got is a complete, precise, formal representation from which one can reliably compute things
 - But just like us humans, there are times when [[ChatGPT]] needs a more formal and precise "power assist."
 
 ### [who are you - You. com](https://you.com/search?q=who+are+you&tbm=youchat)
