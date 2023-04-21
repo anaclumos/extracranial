@@ -10,7 +10,7 @@ slug: '/DDC33D'
 - Too hot: [Umami](https://app.umami.is/share/8rmHaheU/umami.is) is slightly warmer than the winner in this category and is quite similar in many ways. However, Umami's hosted cloud service is not ready for mainstream use yet, giving its competitor the edge. But watch this space.
 - Too cold: [Matomo](https://matomo.org/) is only a little more complicated than the alternatives, not by much. It's still quite good. Its interface, [which can be viewed in demo form here](https://demo.matomo.cloud/), is more like Google Analytics than the alternatives, but in a way that makes sense.
 - Just right: [Plausible](https://plausible.io) strikes the perfect balance in cost and usability. The company makes an open-source version that is quite good but also offers a paid version that costs enough that you know you're the customer, not the product. Easy to set up and friendly to use.
-- Outside the box: You could always do with Mastodon does and eschew analytics entirely.
+- Outside the box: You could always do with [[Mastodon]] does and eschew analytics entirely.
 
 ### Self-hosted Email newsletter platforms
 
