@@ -5,7 +5,7 @@ slug: '/664F0C'
 
 - Attended [[CS Colloquium]] on [[2023-03-28]].
 - [[2012.08680] Trex: Learning Execution Semantics from Micro-Traces for Binary Similarity](https://arxiv.org/abs/2012.08680)
-- In Natural Language, semantics usually release info about surroundings
+- In [[Natural Language]], semantics usually release info about surroundings
 - In Binary, not so much.
 - We can't do Dynamic Analysis due to Scalability problems.
 - Teach AI approximate learning on binary code instructions and make mental executions.

@@ -190,6 +190,9 @@ export const backlinks = {
     "2022-11-12": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-12]] 실패"
     },
+    "2023-04-21": {
+        "hn.cho.sh 개발 기록": "## [[2023-04-21]]"
+    },
     "2016-04-01": {
         "바이올린 켜면 바이올레이션": "[[2016-04-01]]에 게재된 [[재학생일기]]이다."
     },
@@ -500,6 +503,11 @@ export const backlinks = {
     "ELF": {
         "Link (Computer Systems)": "Linux uses [[ELF]]"
     },
+    "Language": {
+        "0232 Implement Queue using Stacks": "- Depending on your [[language]], the stack may not be supported natively. Using only a stack's ...",
+        "2022-06-12": "  - This standard defines an interface definition [[language]], Web IDL, that can be used to describe interfaces intended to ...",
+        "Across the Sprachraums": "- The detachment of IP|Intellectual Property and [[Language]]."
+    },
     "Swift": {
         "2023-01-13": "- [[Swift]]",
         "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]]",
@@ -785,6 +793,7 @@ export const backlinks = {
     "IP": {
         "2022-11-14": "... after 3.5 years 😓. If anyone is interested in buying the [[IP]], please reach out.",
         "AIs.txt": "However, that claim goes against the fundamentals of [[IP|intellectual property]].",
+        "Across the Sprachraums": "- The detachment of [[IP|Intellectual Property]] and [[Language]].",
         "IP Spoofing": "- Faking an [[IP]] by sending packet with false source address",
         "IP is the new Real Estate": "[[IP|Intellectual property]] ([[IP]]) is a new form of real estate because it represents ...",
         "Internet Protocol Stack": "- Network. [[IP]]. Routing Protocols. Handles Datagrams.",
@@ -1078,7 +1087,7 @@ export const backlinks = {
         "2022-10-13": "- [[Either be the best-in-class or the most efficient]]"
     },
     "DEV.to": {
-        "2023-04-20 Conversation with Velopert": "... 새로운 서비스를 성장시킨 뒤 Velog를 편입하는 방향으로 생각하고 계시고, Substack, Hashnode, [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 고려 중. 지적 자산의 보급과 연결에 ...",
+        "2023-04-20 Conversation with Velopert": "... 새로운 서비스를 성장시킨 뒤 벨로그|Velog를 편입하는 방향으로 생각하고 계시고, Substack, Hashnode, [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 고려 중. 지적 자산의 보급과 연결에 ...",
         "Classic Blogs": "- [[DEV.to]]: https://dev.to/"
     },
     "Andy Matuschak": {
@@ -1250,6 +1259,13 @@ export const backlinks = {
         "GA": "- [[Google Analytics]]",
         "Simple Analytics": "> The privacy-first [[Google Analytics]] alternative. Simple Analytics",
         "YCLF 주간 사용자 1000명": "[[Google Analytics]] Referrals 추적 기능을 통해 어느 링크를 타고 들어오는지 파악이 가능했다. 댓글로 ..."
+    },
+    "Natural Language": {
+        "2022-07-10": "- Uses GPT to convert the [[natural language]] to RegEx.",
+        "2023-03-20": "Large Language Models (LLM|LLMs) have demonstrated impressive abilities to answer [[natural language]] questions and change their behavior through prompting. However, the security boundaries ...",
+        "Language": "- for context in information delivery: [[Natural Language]]",
+        "Learning Execution Semantics from Micro-Traces for Binary Similarity": "- In [[Natural Language]], semantics usually release info about surroundings",
+        "Proposal of Research 2023-03-28": "Large Language Models (LLM|LLMs) have demonstrated impressive capabilities in answering [[natural language]] questions and adapting to new tasks through clever prompting. However, this ..."
     },
     "Aldehyde Landing Page 2023": {
         "2023-01-31": "- [[Aldehyde Landing Page 2023]]",
@@ -1658,7 +1674,8 @@ export const backlinks = {
         "Oneliner News": "An AI-powered news portal? Reference: [[일일일]]"
     },
     "벨로그": {
-        "2023-04-20 Conversation with Velopert": "[[벨로그]]의 초기 성장에는 [[벨로퍼트]]의 글이 가장 큰 역할을 했다. 2023년 기준 매달 ..."
+        "2023-04-20 Conversation with Velopert": "[[벨로그]]의 초기 성장에는 [[벨로퍼트]]님의 글이 가장 큰 역할을 했다. 2023년 기준 매달 ...",
+        "Classic Blogs": "- [[벨로그|Velog]]"
     },
     "Spellbound": {
         "2022-05-31": "- [[Spellbound]]",
@@ -2450,6 +2467,7 @@ export const backlinks = {
         "Computational Linguistics": "... language. It involves applying computational methods to language study, including developing [[Natural Language Processing]] ([[Natural Language Processing|NLP]]) technologies, machine translation, speech recognition, and text analysis.",
         "Grammarly AI-NLP Club": "AI [[Natural Language Processing|NLP]] Club at [[Grammarly]].",
         "Hugging Face": "... learning. It is most notable for its Transformers library built for [[natural language processing]] applications and its platform that allows users to share ML|machine learning ...",
+        "Natural Language": "[[Natural Language Processing|NLP]]",
         "Search AI": "... and write code for you. I'm powered by AI|artificial intelligence and [[natural language processing]], allowing you to have human-like conversations with me. I am constantly ..."
     },
     "Internet Computer": {
@@ -2577,6 +2595,7 @@ export const backlinks = {
     },
     "METI Engine": {
         "2023-04-19": "- [[METI Engine]]",
+        "hn.cho.sh 개발 기록": "2023-04-20 Conversation with Velopert에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. [[Sprachraum]]에 구애받지 않는 [[Across the Sprachraums]].",
         "일일일": "...  - Oneliner News aims to build the International mesh of [[METI Engine]]. If humans get involved in the pipeline"
     },
     "Collaboration-based Tools for Thought": {
@@ -3137,14 +3156,14 @@ export const backlinks = {
         "민사고": "> [[한민족]]의 모든 욕망을 충실하게 형체화한 모습.",
         "민사고와 쇼비니즘": "... 아니라 문화나 Economy|경제로 어떤 나라든 침략하고 통치할 수 있다. 그렇다면 강력한 [[한민족|민족]] 정체성을 가지지 않는 한 어떤 나라든 정치적, Economy|경제적 초강대국의 노예가 될 ...",
         "이 땅에 태어나서": "... 위한 차관을 도입하기 위해 힘쓸 때도, 주머니 속 화폐의 거북선을 보여주며 [[한민족]]은 1500년대부터 철갑선을 만들었으며, 쇄국 정책으로 산업화 가 늦어져 국민의 능력과 아이디어가 ...",
-        "한국어": "[[한민족]]과 [[대한민국]]의 언어이다.",
+        "한국어": "[[한민족]]과 [[대한민국]]의 [[Native Language|모국어]]이다.",
         "한국인": "대한민국의 국적자이다. [[한민족]]과 다르다.",
         "한민족은 해적되었다": "[[한민족]]은 해적되었다.",
         "한민족의 동족상잔": "- 이것은 전쟁 포로나 다른 [[한민족|민족]]을 노예로 삼았던 사례와 많은 차이를 보입니다.",
         "한민족의 문화": "[[한민족]]의 문화에 대해서 다룬다."
     },
     "벨로퍼트": {
-        "2023-04-20 Conversation with Velopert": "벨로그의 초기 성장에는 [[벨로퍼트]]의 글이 가장 큰 역할을 했다. 2023년 기준 매달 방문자 수는 600만명 ..."
+        "2023-04-20 Conversation with Velopert": "벨로그의 초기 성장에는 [[벨로퍼트]]님의 글이 가장 큰 역할을 했다. 2023년 기준 매달 방문자 수는 600만명 ..."
     },
     "GitHub": {
         "2023-01-09": "- Can we use [[GitHub]]'s subscribe feature as a [[Newsletter]]?",
@@ -3210,7 +3229,7 @@ export const backlinks = {
         "2022-10-13": "- [x] [[Jumpsite]]",
         "2022-11-29": "- [[Jumpsite]]",
         "2023-02-02": "- [[Jumpsite]]",
-        "2023-04-20 Conversation with Velopert": "... Cloudflare와 Backblaze로 Bandwidth Alliance를 설정하고, 이미지 서버 최적화를 진행했다. Veltrends와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 창출과 흐름의 변화를 원하신다. Velog의 국제화를 ...",
+        "2023-04-20 Conversation with Velopert": "... Cloudflare와 Backblaze로 Bandwidth Alliance를 설정하고, 이미지 서버 최적화를 진행하셨다. Veltrends와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 창출과 흐름의 변화를 원하신다. [[벨로그|Velog]]의 국제화를 ...",
         "Interface (Jumpsite)": "- [[Jumpsite]]",
         "The One and Only": "... to all the sources—LinkedIn, Twitter, Insta, Facebook, etc. It's similar to [[Jumpsite]], but not the same; you never need to escape the website."
     },
@@ -3757,7 +3776,10 @@ export const backlinks = {
         "2023-04-12": "- [[Time-Space Continuum (Physics)]]"
     },
     "Sprachraum": {
-        "2023-04-17": "- [[Sprachraum]]"
+        "2023-04-17": "- [[Sprachraum]]",
+        "Across the Sprachraums": "- Inter-[[sprachraum]].",
+        "Lingua Franca": "- [[Sprachraum]]",
+        "hn.cho.sh 개발 기록": "2023-04-20 Conversation with Velopert에서, METI Engine 네트워크의 필요성을 더더욱 절실히 느꼈다. [[Sprachraum]]에 구애받지 않는 [[Across the Sprachraums]]."
     },
     "XTML": {
         "2022-12-04": "- [[XTML]]"
@@ -4023,7 +4045,7 @@ export const backlinks = {
         "태백산맥 계획": "[[대한민국]]의 정치, 사회, [[Economy|경제]], 문화, 세대, 성별의 갈등을 축소하기 위한 가설적인 계획이다.",
         "퍼블리시티권": "- [[대한민국|한국]]에서는 지난 1982년 [[서울]] 민사지방법원에서 본인의 동의 없이 사진을 낸 책을 판매금지한다는 ...",
         "하늘땅사람 개발 기록": "보아하니 [[대한민국|한국]] 대학 컴공과에서는 State Machine 수업을 할 때 천지인을 하나의 예제로 사용하나보다.",
-        "한국어": "한민족과 [[대한민국]]의 언어이다.",
+        "한국어": "한민족과 [[대한민국]]의 [[Native Language|모국어]]이다.",
         "한국의 입시와 거짓된 명예": "[[대한민국|한국]]의 입시가 물론 시간을 낭비하는 것은 맞다.",
         "한국인": "[[대한민국]]의 국적자이다. [[한민족]]과 다르다.",
         "한민족": "한민족은 [[대한민국]]과 [[북한]]의 주류가 되는 민족으로,",
@@ -4069,7 +4091,7 @@ export const backlinks = {
         "Project PEOPLE": "- [[Person CC8297]]"
     },
     "Substack": {
-        "2023-04-20 Conversation with Velopert": "... 고려하고 계시지만 새로운 서비스를 성장시킨 뒤 Velog를 편입하는 방향으로 생각하고 계시고, [[Substack]], [[Hashnode]], [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 고려 중. 지적 자산의 ...",
+        "2023-04-20 Conversation with Velopert": "... 고려하고 계시지만 새로운 서비스를 성장시킨 뒤 벨로그|Velog를 편입하는 방향으로 생각하고 계시고, [[Substack]], [[Hashnode]], [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 고려 중. 지적 자산의 ...",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... have a newsletter. I was looking for a developer-friendly mailing platform ([[Substack]] knocks off here).",
         "Newsletter": "- [[Substack]], Newneek을 필두로 엄청난 뉴스레터 성장",
         "Substack is the new Medium": "- [[Substack]] is the new [[Medium]]"
@@ -4303,7 +4325,9 @@ export const backlinks = {
         "Using an iPad as my Ebook": "Furthermore, I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], and I figured it is very ..."
     },
     "2023-04-20 Conversation with Velopert": {
-        "2023-04-20": "[[2023-04-20 Conversation with Velopert]]"
+        "2023-04-20": "[[2023-04-20 Conversation with Velopert]]",
+        "Across the Sprachraums": "- Inspired by [[2023-04-20 Conversation with Velopert]].",
+        "hn.cho.sh 개발 기록": "[[2023-04-20 Conversation with Velopert]]에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. [[Sprachraum]]에 구애받지 않는 [[Across ..."
     },
     "Q Function": {
         "2023-03-07": "- [[Q Function]]"
@@ -4504,6 +4528,12 @@ export const backlinks = {
         "2023-02-09": "- [[0059 Spiral Matrix II]]",
         "Coding Tests": "- [[0059 Spiral Matrix II]]"
     },
+    "Native Language": {
+        "2022-06-28": "... and how do we bridge the gap between thinking in the [[native language]]?",
+        "Foreign Language": "[[Native Language]]",
+        "Lingua Franca": "... communication possible between groups of people who do not share a [[native language]] or dialect, particularly when it is a third language that is ...",
+        "한국어": "한민족과 대한민국의 [[Native Language|모국어]]이다."
+    },
     "Gaussian Distribution": {
         "2023-03-07": "- [[Gaussian Distribution]]"
     },
@@ -4700,6 +4730,11 @@ export const backlinks = {
     },
     "Wikiversity": {
         "2022-10-17": "- [[Wikiversity]]"
+    },
+    "Across the Sprachraums": {
+        "2023-04-21": "- [[Across the Sprachraums]]",
+        "Language": "- for context in [[Across the Sprachraums|intersprachraum]] communication: [[Foreign Language]]",
+        "hn.cho.sh 개발 기록": "... Velopert에서, METI Engine 네트워크의 필요성을 더더욱 절실히 느꼈다. Sprachraum에 구애받지 않는 [[Across the Sprachraums]]."
     },
     "Preemptive Multitasking": {
         "2022-07-11": "However, a guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks a thread.",
@@ -5317,6 +5352,7 @@ export const backlinks = {
         "2023-04-17": "- [[hn.cho.sh 개발 기록]]: 당근 PM 론과의 대화",
         "2023-04-18": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-20": "[[hn.cho.sh 개발 기록]]",
+        "2023-04-21": "- [[hn.cho.sh 개발 기록]]",
         "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
         "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]",
         "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]]"
@@ -5583,13 +5619,13 @@ export const backlinks = {
     "LLM": {
         "2022-11-14": "- Synthote: LLMs for Code: [[LLM|LLMs]]",
         "2022-12-17": "- Riffusion: Mesmerizing. Whenever I see something made with [[LLM]] like GPT or [[Stable Diffusion]]... it just blows my mind. Has ...",
-        "2023-03-20": "Large Language Models ([[LLM|LLMs]]) have demonstrated impressive abilities to answer natural language questions and change ...",
+        "2023-03-20": "Large Language Models ([[LLM|LLMs]]) have demonstrated impressive abilities to answer [[natural language]] questions and change ...",
         "Antipilot": "- Generative AI and [[LLM]] are already unstoppable. This is not to stop them.",
         "ChatGPT is a Blurry JPEG and We Need That": "... Ted Chang. Ted makes an interesting analogy between large-scale language models ([[LLM|LLMs]]) like [[ChatGPT]] and lossy compression algorithms like blurry JPEG images. Ted ...",
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "테드 창은 ChatGPT와 같은 대규모 언어 모델([[LLM]])을 흐릿한 JPEG 이미지로 흥미롭게 비유합니다.",
         "Generative Databases": "- If you squint, [[LLM|LLMs]] resemble something like a vector search database. Items are stored as ...",
         "P vs NP": "- Before [[LLM|LLMs]], generating the associated image took time if you were given a ...",
-        "Proposal of Research 2023-03-28": "Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities in answering natural language questions and adapting ...",
+        "Proposal of Research 2023-03-28": "Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities in answering [[natural language]] questions and adapting ...",
         "The Demise of Chatbots in 2017": "... to customers today – with no human in the loop. If [[LLM]] performance plateaued, these companies would likely still have some intrinsic value."
     },
     "Point-E": {
@@ -5707,7 +5743,7 @@ export const backlinks = {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open ...",
         "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded that [[Vercel]] is better.",
         "2023-04-10": "> When [[Cloudflare]] says free unlimited bandwidth, they're not messing around pic.twitter.com/X7RMPmSrr4",
-        "2023-04-20 Conversation with Velopert": "... 초기에는 이미지가 가장 비용이 많이 나갔으며, 핫링킹으로 인한 과금이 많이 발생했다. [[Cloudflare]]와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 서버 최적화를 진행했다. Veltrends와 같은 [[Jumpsite]]를 ...",
+        "2023-04-20 Conversation with Velopert": "... 초기에는 이미지가 가장 비용이 많이 나갔으며, 핫링킹으로 인한 과금이 많이 발생했다. [[Cloudflare]]와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 서버 최적화를 진행하셨다. Veltrends와 같은 [[Jumpsite]]를 ...",
         "AMP": "... may be cached by a CDN, such as Microsoft Bing or [[Cloudflare]]'s AMP caches, which allows pages to be served more quickly. Accelerated ...",
         "Aldehyde Outage (January 2023)": "## Vercel and [[Cloudflare]] Build Errors",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
@@ -6206,6 +6242,10 @@ export const backlinks = {
     "Standard Cauchy": {
         "2023-03-07": "- [[Standard Cauchy]]"
     },
+    "Foreign Language": {
+        "2022-06-28": "- What is the notion of thinking in a [[foreign language]]? What is the difference, and how do we bridge the gap ...",
+        "Language": "- for context in Across the Sprachraums|intersprachraum communication: [[Foreign Language]]"
+    },
     "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
         "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
     },
@@ -6317,7 +6357,7 @@ export const backlinks = {
         "Real Exams": "- 1 binary tree construction & [[Binary Search]] traversal"
     },
     "Backblaze": {
-        "2023-04-20 Conversation with Velopert": "... 이미지가 가장 비용이 많이 나갔으며, 핫링킹으로 인한 과금이 많이 발생했다. Cloudflare와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 서버 최적화를 진행했다. Veltrends와 같은 [[Jumpsite]]를 제작하셨으며, ..."
+        "2023-04-20 Conversation with Velopert": "... 이미지가 가장 비용이 많이 나갔으며, 핫링킹으로 인한 과금이 많이 발생했다. Cloudflare와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 서버 최적화를 진행하셨다. Veltrends와 같은 [[Jumpsite]]를 제작하셨으며, ..."
     },
     "VP9 vs HEVC": {
         "2023-02-18": "- [[VP9 vs HEVC]]",
@@ -6488,7 +6528,7 @@ export const backlinks = {
         "일일일": "[[NewsGPT]] Model. A competitor to [[Oneliner News]]."
     },
     "Hashnode": {
-        "2023-04-20 Conversation with Velopert": "... 계시지만 새로운 서비스를 성장시킨 뒤 Velog를 편입하는 방향으로 생각하고 계시고, Substack, [[Hashnode]], [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 고려 중. 지적 자산의 보급과 ...",
+        "2023-04-20 Conversation with Velopert": "... 계시지만 새로운 서비스를 성장시킨 뒤 벨로그|Velog를 편입하는 방향으로 생각하고 계시고, Substack, [[Hashnode]], [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 고려 중. 지적 자산의 보급과 ...",
         "Classic Blogs": "- [[Hashnode]] https://hashnode.com/"
     },
     "Emoji": {
@@ -6737,7 +6777,7 @@ export const backlinks = {
     },
     "Medium": {
         "2023-01-13": "- [[Medium]] joins [[Mastodon]]",
-        "Classic Blogs": "- [[Medium]]): Writing platform.",
+        "Classic Blogs": "- [[Medium]]: Writing platform.",
         "DEV.to": "[[Medium]] for Devs.",
         "Hashnode": "[[Medium]] but for even more Devs.",
         "Substack is the new Medium": "- Substack is the new [[Medium]]"
@@ -8144,9 +8184,6 @@ export const backlinks = {
     },
     "CE91F0.png": {
         "洪民憙雜記": "![[CE91F0.png]]"
-    },
-    "Velog": {
-        "Classic Blogs": "- [[Velog]]"
     },
     "8766D6.png": {
         "Discuss on Social Media Button": "![[8766D6.png]]"
