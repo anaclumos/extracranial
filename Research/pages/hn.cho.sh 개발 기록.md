@@ -5,8 +5,6 @@ slug: '/8E98AE'
 
 ## 이전
 
-아티팩트에 대한 내 대답.
-
 - [[Artifact]]
 - [[우린 텍스트 틱톡을 평생 만들 수 있을까]]
 - [[Algorithmic Recommendation Engine for Texts]]
@@ -229,3 +227,7 @@ LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수
 ![[FB31AC.png]]
 
 무진장 저렴하다.
+
+## [[2023-04-21]]
+
+[[2023-04-20 Conversation with Velopert]]에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. [[Sprachraum]]에 구애받지 않는 [[Across the Sprachraums]].

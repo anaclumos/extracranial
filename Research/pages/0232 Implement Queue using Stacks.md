@@ -17,7 +17,7 @@ Implement a first in, first out (FIFO) queue using only two stacks. The implemen
   - `int peek()` Returns the element at the front of the queue.
   - `boolean empty()` Returns `true` if the queue is empty, `false` otherwise.
 - You must use **only** standard operations of a stack, which means only `push to top`, `peek/pop from top`, `size`, and `is empty` operations are valid.
-- Depending on your language, the stack may not be supported natively. Using only a stack's standard operations, you may simulate a stack using a list or deque (double-ended queue).
+- Depending on your [[language]], the stack may not be supported natively. Using only a stack's standard operations, you may simulate a stack using a list or deque (double-ended queue).
 
 ## Solution
 

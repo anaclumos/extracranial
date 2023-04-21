@@ -7,7 +7,7 @@ slug: '/F54015'
 
 ### Abstract
 
-Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities in answering natural language questions and adapting to new tasks through clever prompting. However, this adaptability might expose [[LLM|LLMs]] to security risks, such as Prompt Injection (PI) attacks. In this research proposal, we seek to investigate an authority system for [[LLM|LLMs]] to differentiate instructions from trusted sources and unknown figures. Furthermore, we aim to assess the feasibility of such an authority system and explore potential mitigation techniques to defend [[LLM|LLMs]] against PI attacks.
+Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities in answering [[natural language]] questions and adapting to new tasks through clever prompting. However, this adaptability might expose [[LLM|LLMs]] to security risks, such as Prompt Injection (PI) attacks. In this research proposal, we seek to investigate an authority system for [[LLM|LLMs]] to differentiate instructions from trusted sources and unknown figures. Furthermore, we aim to assess the feasibility of such an authority system and explore potential mitigation techniques to defend [[LLM|LLMs]] against PI attacks.
 
 ### Background
 
