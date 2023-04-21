@@ -36,5 +36,3 @@ Jumpsite Service, or Web Linking Network Service, is a collective term for a [[S
 ![[412774.png]]
 
 ## [[Mood.surf]]
-
-![[42DC28.png]]
