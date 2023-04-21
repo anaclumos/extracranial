@@ -4692,7 +4692,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-12-21": "Dear Mr. [[Matt Rickard|Rickard]],",
         "Letter to Mr. Matt Rickard on 2022-12-24": "Dear Mr. [[Matt Rickard|Rickard]],",
         "Programmable Web": "### I Miss The Programmable Web — [[Matt Rickard]]",
-        "The Architecture of Mastodon": "## [[Matt Rickard]]",
+        "The Architecture of Mastodon": "- [[Matt Rickard]]",
         "eBPF": "- [[Matt Rickard]]"
     },
     "Storing sensitive data in iOS Apps": {
@@ -6456,7 +6456,9 @@ export const backlinks = {
         "2022-11-07": "- [[Mastodon]]",
         "2022-11-30": "... support a vast number of client-side (in this case, client meaning [[Mastodon]]) connections with only a few actual database connections",
         "2022-12-21": "- [[Mastodon]]",
-        "2023-01-13": "- Medium joins [[Mastodon]]"
+        "2023-01-13": "- Medium joins [[Mastodon]]",
+        "Self-hosted SaaS Alternatives": "- Outside the box: You could always do with [[Mastodon]] does and eschew analytics entirely.",
+        "The Architecture of Mastodon": "- [[Mastodon]]"
     },
     "MessagePack": {
         "2022-07-11": "Candidates include [[MessagePack]] and [[CBOR]].",

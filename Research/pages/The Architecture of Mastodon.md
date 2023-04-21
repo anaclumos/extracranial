@@ -3,10 +3,10 @@ lang: 'en'
 slug: '/BEF810'
 ---
 
-## [[Matt Rickard]]
-
 ### [The Architecture of Mastodon](https://matt-rickard.ghost.io/the-architecture-of-mastodon/)
 
+- [[Mastodon]]
+- [[Matt Rickard]]
 - Ruby on Rails Web App
 - PostgreSQL Persistence Layer
 - Agnostic S3/[[SMTP]] File Storage and Mailer
