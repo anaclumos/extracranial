@@ -37,7 +37,7 @@ const Intersprachraum = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex === texts.length - 1 ? 0 : prevIndex + 1))
-    }, 50)
+    }, 200)
     return () => clearInterval(interval)
   }, [texts])
 
