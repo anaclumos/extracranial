@@ -15,4 +15,4 @@ slug: '/561193'
 - [Optimizely](https://github.com/optimizely)
 - [[GrammarlyGO]]: [GrammarlyGO](https://www.grammarly.com/grammarlygo)
 
-![[B6D2F1.gif]]
+![[3CDD1D.gif]]

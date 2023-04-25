@@ -342,6 +342,7 @@ export const filenames = {
     "2023-04-20 Conversation with Velopert": "9078DC",
     "2023-04-21": "2023-04-21",
     "2023-04-24": "2023-04-24",
+    "2023-04-25": "2023-04-25",
     "3D": "82C83C",
     "3d Globe on the Web": "432EF8",
     "A Massive Mystery": "8EA625",
