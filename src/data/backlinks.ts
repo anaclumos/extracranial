@@ -8293,9 +8293,6 @@ export const backlinks = {
     "33434F.png": {
         "AMP Email": "![[33434F.png]]"
     },
-    "C8AA99.png": {
-        "이완용": "![[C8AA99.png]]"
-    },
     "277486.gif": {
         "Link Preview for Arc": "![[277486.gif]]"
     },
