@@ -8050,6 +8050,9 @@ export const backlinks = {
     "8E9FDF.png": {
         "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": "![[8E9FDF.png]]"
     },
+    "E89E3E.png": {
+        "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": "![[E89E3E.png]]"
+    },
     "B060EA.png": {
         "Cloud Computing": "![[B060EA.png]]"
     },
