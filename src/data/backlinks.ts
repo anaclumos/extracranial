@@ -2151,6 +2151,7 @@ export const backlinks = {
         "2023-01-23": "- [[Readings]]",
         "2023-02-21": "- [[Readings]]",
         "2023-03-08": "- [[Readings]]",
+        "2023-04-24": "- [[Readings]]",
         "Playings": "... all the media I've played, starting from Mar 2023. Just like [[Readings]] and [[Watchings]].",
         "Watchings": "... all the media I've seen, starting from Feb 2023. Just like [[Readings]]"
     },
@@ -2285,6 +2286,7 @@ export const backlinks = {
         "식영부원의 관점에서 바라본 치킨데이": "아시다시피 [[민사고|민족사관고등학교]]는 외부 음식을 구하기 어려운 산골 외딴 곳에 위치한 기숙사 학교입니다. 그렇기 ...",
         "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "... 기숙사 외부에서 만나게 될 평생 친구도 있을 것입니다. 오늘은 제가 느낀, [[민사고|민족사관고등학교]] (이하 [[민사고]]) 에서의 외부 친구 관계에 대해서 가볍게 이야기해보려고 합니다.",
         "역사의 집대성": "- [[민사고]] 사제동행 리포트들",
+        "이완용": "[[민사고|고등학교]]에 처음 들어갔을 때 받은 오리엔테이션 중 한 가지 기억에 남는 것은 ...",
         "인하우스와 자유경쟁": "- 인하우스. [[민사고]]에서는 연구 자원이 제한되어 있어 기술 애호가를 찾기가 어려웠다. 다행히도 [[Antifragile|안티프래질]]하게 독창성을 ...",
         "재학생일기": "[[민사고]]에 있던 학교 공식 일기 모음집이다.",
         "졸업을 앞둔 중학교 3학년들에게": "... 무렵이라고 할 수 있는 1월에 저는 가장 느슨해졌었는데, 마지막 2주 정도는 [[민사고]] 입학 준비하겠다고 과제로 나온 책 읽고, 한자 공부를 하고 그랬습니다. 그러고 ...",
@@ -2298,7 +2300,8 @@ export const backlinks = {
         "CS Colloquium": "CS Colloquium at [[University of Southern California|USC]]",
         "DNS": "- [[University of Southern California|USC]] [[CS Colloquium]]",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... am Sunghyun Cho. I am a current CS university student at [[University of Southern California|USC]].",
-        "Wael AbdAlmageed": "- Researcher at [[University of Southern California]]"
+        "Wael AbdAlmageed": "- Researcher at [[University of Southern California]]",
+        "이완용": "... 이완용 = 매국노라는 공식을 완성하고 의문을 던지지 않는다. 그러다 얼마 전 [[University of Southern California|학교]] 도서관 동아시아관을 거닐던 중 우연히 발견한 책의 문구가 매우 인상적이었다."
     },
     "Entropy": {
         "2023-03-27": "[[Entropy]]",
@@ -3104,6 +3107,9 @@ export const backlinks = {
     "0973 K Closest Points to Origin": {
         "Coding Tests": "- [x] [[0973 K Closest Points to Origin]]"
     },
+    "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": {
+        "2023-04-24": "- [[동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건]]"
+    },
     "Cloud Computing": {
         "AI-native": "... cloud, leveraging the principles and practices of cloud-native development. It uses [[cloud computing]] infrastructure, services, and tools to build, train, and deploy AI models.",
         "Cloud-Native": "... practices and technologies. They have grown up in an era where [[cloud computing]] is the norm and take for granted the benefits that cloud ...",
@@ -3486,6 +3492,9 @@ export const backlinks = {
     },
     "Mac을 Command+L로 잠그는 방법": {
         "2022-11-19": "  - [[Mac을 Command+L로 잠그는 방법]]"
+    },
+    "Neuroplasticity": {
+        "2023-04-24": "- [[Neuroplasticity]]"
     },
     "Done": {
         "Dynamic Island on the Web": "- [[Done]] [[Project]]",
@@ -4604,6 +4613,11 @@ export const backlinks = {
     "Letter to the Heptabase Team on 2022-10-11": {
         "2022-10-11": "- [[Letter to the Heptabase Team on 2022-10-11]]"
     },
+    "이완용": {
+        "2023-04-24": "- [[이완용]]",
+        "Readings": "- [x] [[이완용]] 평전 (윤덕한 저)",
+        "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": "[[이완용]]에 대한 자료를 조사하던 중 묘하게 이상한 점을 발견했다. 이완용 사망 즉시 ..."
+    },
     "Buttondown": {
         "2022-10-19": "- [[Buttondown]]",
         "Boring Technologies": "- I wrote last month about migrating [[Buttondown]] from several separate micro repositories to a single monorepo. I've since ...",
@@ -5061,6 +5075,9 @@ export const backlinks = {
         "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "2016-11-28에 게재된 [[재학생일기]]이다.",
         "졸업을 앞둔 중학교 3학년들에게": "2016-12-08에 게재된 [[재학생일기]]이다."
     },
+    "헤이그 특사": {
+        "이완용": "한민족의 동족상잔와 [[헤이그 특사]] 항목에서 볼 수 있듯이 20세기 초 관리들 사이에서는 일제에 대한 거부감 ..."
+    },
     "Headless": {
         "2023-04-19": "- [[Headless]]",
         "Ghost 테마를 자동 배포하는 방법": "이 블로그는 Ghost Content Management System을 AWS에 호스팅하여 사용한다. Ghost CMS는 [[Headless|헤드리스]]하다. 말 그대로 머리가 없다는 뜻으로, 백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 ...",
@@ -5468,6 +5485,7 @@ export const backlinks = {
     },
     "한민족의 동족상잔": {
         "2023-01-09": "- [[한민족의 동족상잔]]에 대한 흥미로운 문서 [[조선의 노비제도에 관한 보고]]를 발견했다.",
+        "이완용": "[[한민족의 동족상잔]]와 [[헤이그 특사]] 항목에서 볼 수 있듯이 20세기 초 관리들 사이에서는 일제에 ...",
         "한민족은 해적되었다": "그것이 [[한민족의 동족상잔|동족]]이든 [[일본 과학기술 총력전|외세]]이든..."
     },
     "Handwriting Tools for Thoughts": {
@@ -8029,6 +8047,9 @@ export const backlinks = {
         "0542 01 Matrix": "    func updateMatrix( matrix: [[Int]]) -> Int {",
         "0973 K Closest Points to Origin": "    func kClosest( points: [[Int]],  k: Int) -> Int {"
     },
+    "8E9FDF.png": {
+        "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": "![[8E9FDF.png]]"
+    },
     "B060EA.png": {
         "Cloud Computing": "![[B060EA.png]]"
     },
@@ -8271,6 +8292,9 @@ export const backlinks = {
     },
     "33434F.png": {
         "AMP Email": "![[33434F.png]]"
+    },
+    "C8AA99.png": {
+        "이완용": "![[C8AA99.png]]"
     },
     "277486.gif": {
         "Link Preview for Arc": "![[277486.gif]]"
