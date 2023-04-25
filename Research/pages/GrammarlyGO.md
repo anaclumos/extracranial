@@ -14,7 +14,6 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 <DisplayFlex>
 
 ![[BB5160.png]]
-
 ![[23C059.png]]
 
 </DisplayFlex>
