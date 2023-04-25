@@ -24,6 +24,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [x] [[유난한 도전]]
 - [x] 상대적이며 절대적인 고양이 백과사전
 - [x] [[이 땅에 태어나서]]
+- [x] [[이완용]] 평전 (윤덕한 저)
 
 </Shuffle>
 
