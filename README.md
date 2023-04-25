@@ -23,9 +23,9 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1513     40692    10512         0    30180          0
-CSS                         69     20131      686        41    19404          0
-TypeScript                  61     13160      176        64    12920        216
+Markdown                  1515     40706    10518         0    30188          0
+CSS                         69     20209      687        41    19481          0
+TypeScript                  61     13156      176        64    12916        216
 JSON                        15      1524        0         0     1524          0
 Python                       8       940       58        43      839        109
 YAML                         8     16912     1836         0    15076          0
@@ -36,13 +36,13 @@ JavaScript                   1        19        3        12        4          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1689     93817    13358       233    80226        325
+Total                     1691     93905    13365       233    80307        325
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,698,523
+Estimated Cost to Develop (organic) $2,701,384
 Estimated Schedule Effort (organic) 20.06 months
-Estimated People Required (organic) 11.95
+Estimated People Required (organic) 11.96
 ───────────────────────────────────────────────────────────────────────────────
-Processed 4336896 bytes, 4.337 megabytes (SI)
+Processed 4337020 bytes, 4.337 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
