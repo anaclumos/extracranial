@@ -163,6 +163,9 @@ export const backlinks = {
         "Person 392196": "- Interviewed on [[2022-09-08]]",
         "Person A480C6": "- Interviewed on [[2022-09-08]]"
     },
+    "2023-04-25": {
+        "GrammarlyGO": "## [[2023-04-25]] Announcement Demo"
+    },
     "2023-04-05": {
         "hn.cho.sh 개발 기록": "## [[2023-04-05]]"
     },
@@ -5318,6 +5321,7 @@ export const backlinks = {
         "Reverse Engineering Apple Music API": "As a part of Dynamic Island on the Web, I reverse-engineered [[Apple Music API]] to get the undocumented Personal Token."
     },
     "GrammarlyGO": {
+        "2023-04-25": "- [[GrammarlyGO]]",
         "Project Prepare for Grammarly": "- [[GrammarlyGO]]: GrammarlyGO"
     },
     "latexify.cho.sh": {
@@ -8437,9 +8441,15 @@ export const backlinks = {
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"
     },
-    "B6D2F1.gif": {
-        "GrammarlyGO": "![[B6D2F1.gif]]",
-        "Project Prepare for Grammarly": "![[B6D2F1.gif]]"
+    "3CDD1D.gif": {
+        "GrammarlyGO": "![[3CDD1D.gif]]",
+        "Project Prepare for Grammarly": "![[3CDD1D.gif]]"
+    },
+    "BB5160.png": {
+        "GrammarlyGO": "![[BB5160.png]]"
+    },
+    "23C059.png": {
+        "GrammarlyGO": "![[23C059.png]]"
     },
     "2D239A.png": {
         "My Raycast Wrapped of 2022": "![[2D239A.png]]"
