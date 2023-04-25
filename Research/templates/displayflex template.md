@@ -1,4 +1,4 @@
-import DisplayFlex from '@site/src/components/DisplayFlex'
+kdimport DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 
