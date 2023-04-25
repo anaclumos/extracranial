@@ -23,9 +23,9 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1508     40544    10466         0    30078          0
-CSS                         69     20131      618        41    19472          0
-TypeScript                  61     13127      176        64    12887        216
+Markdown                  1513     40692    10512         0    30180          0
+CSS                         69     20131      686        41    19404          0
+TypeScript                  61     13160      176        64    12920        216
 JSON                        15      1524        0         0     1524          0
 Python                       8       940       58        43      839        109
 YAML                         8     16912     1836         0    15076          0
@@ -36,13 +36,13 @@ JavaScript                   1        19        3        12        4          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1684     93636    13244       233    80159        325
+Total                     1689     93817    13358       233    80226        325
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,696,157
-Estimated Schedule Effort (organic) 20.05 months
+Estimated Cost to Develop (organic) $2,698,523
+Estimated Schedule Effort (organic) 20.06 months
 Estimated People Required (organic) 11.95
 ───────────────────────────────────────────────────────────────────────────────
-Processed 4310089 bytes, 4.310 megabytes (SI)
+Processed 4336896 bytes, 4.337 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
