@@ -9,20 +9,20 @@ source: hackingwithswift.com
 
 ```swift
 let weeks = 465 / 7
-print("There are \(weeks) weeks until the event.")
+print("There are (weeks) weeks until the event.")
 // 66
 ```
 
 ```swift
 let weeks: Double = 465 / 7
-print("There are \(weeks) weeks until the event.")
+print("There are (weeks) weeks until the event.")
 // 66.42857142857143
 ```
 
 ```
 let weeks = 465 / 7
 let days = 465 % 7
-print("There are \(weeks) weeks and \(days) days until the event.")
+print("There are (weeks) weeks and (days) days until the event.")
 ```
 
 ## While
@@ -97,7 +97,7 @@ someDict[2] = nil
 // enumerate
 var myDictionary:[String:Int] = ["Mohan":75, "Raghu":82, "John":79]
 for (idx, (key, value)) in myDictionary.enumerated() {
-   print("\(idx): key is \(key), value is \(value)")
+   print("(idx): key is (key), value is (value)")
 }
 ```
 
@@ -118,7 +118,7 @@ let shortNames = cast.filter { $0.count < 5 }
 var ingredients: Set = ["cocoa beans", "sugar", "cocoa butter", "salt"]
 let toRemove = "sugar"
 if let removed = ingredients.remove(toRemove) {
-    print("The recipe is now \(removed)-free.")
+    print("The recipe is now (removed)-free.")
 }
 ```
 

@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/9A0D39'
 ---
 
+## Synthotes
+
 - Just like what we call [[Synthography]] for synthetic imagery
 - Synthetic Anecdotes
 - Coined by [[Stephan Ango]]

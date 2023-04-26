@@ -133,7 +133,7 @@ JavaScript does not check for the authenticity of the navigator.
 Therefore, we can inject whatever behavior we want.
 This methodology is called Shim.
 
-> In computer programming, a shim is a library that transparently intercepts API calls and changes the arguments passed, handles the operation itself, or redirects the operation elsewhere. — [Shim \(computing\) - Wikipedia](<https://en.wikipedia.org/wiki/Shim_(computing)>)
+> In computer programming, a shim is a library that transparently intercepts API calls and changes the arguments passed, handles the operation itself, or redirects the operation elsewhere. — [Shim (computing) - Wikipedia](<https://en.wikipedia.org/wiki/Shim_(computing)>)
 
 I have created a demo website where a cat gif asks for location permission.
 
