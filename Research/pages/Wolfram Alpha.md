@@ -27,7 +27,7 @@ General guidelines:
 
 - ALWAYS use {\"input\": query} structure for queries to Wolfram endpoints; `query` must ONLY be a single-line string.
 
-- ALWAYS use proper Markdown formatting for all math, scientific, and chemical formulas, symbols, etc.: '$$\[expression]\$$' for standalone cases and '\\( [expression] \\)' when inline.
+- ALWAYS use proper Markdown formatting for all math, scientific, and chemical formulas, symbols, etc.: '$$\[expression]\$$' for standalone cases and '( [expression] \)' when inline.
 
 - Format inline Wolfram Language code with Markdown code formatting.
 

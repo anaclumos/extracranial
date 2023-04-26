@@ -4,7 +4,7 @@ slug: '/6A9784'
 aliases: ['kepano']
 ---
 
-- Currently works at [[Obsidian]]
+- CEO of [[Obsidian]]
 - [[extracranial]] @ [Stephan Ango](https://stephanango.com/)
-- Coined the term [[Synthote]]
+- Coined the term [[Generative Intelligence]]
 - [[Now Page]]: [What I'm doing now — Stephan Ango](https://stephanango.com/now)

@@ -329,7 +329,7 @@ export const backlinks = {
         "Aldehyde Outage (January 2023)": "## [[2023-01-29]]"
     },
     "2023-03-19": {
-        "Z-Fellows": "... Had an interview with Z-Fellows with The One and Only on [[2023-03-19]]"
+        "Z-Fellows": "... interview with Z-Fellows with The One and Only (Social App) on [[2023-03-19]]"
     },
     "2023-04-12": {
         "Z-Fellows": "- On [[2023-04-12]], Rejected. But I was the top 10% 😉",
@@ -486,6 +486,7 @@ export const backlinks = {
     },
     "Algorithmic Recommendation Engine for Texts": {
         "2023-02-02": "- [[Algorithmic Recommendation Engine for Texts]]",
+        "LavaLab Cohort of Spring 2023": "... into the article. A similar approach to Oneliner News, by attempting [[Algorithmic Recommendation Engine for Texts]].",
         "hn.cho.sh 개발 기록": "- [[Algorithmic Recommendation Engine for Texts]]"
     },
     "Tailscale": {
@@ -559,6 +560,7 @@ export const backlinks = {
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
         "Cool Generative AI Applications": "- [[ChatGPT]]",
         "EU and AI": "... is grappling with how to regulate general-purpose AI, such as OpenAI's [[ChatGPT]], which can generate human-like text with no single intended use. The ...",
+        "Generative Intelligence": "- [[ChatGPT]]",
         "Local ChatGPT": "... - Somewhat surprisingly, language models like GPT-3 that power tools like [[ChatGPT]] are a lot larger and more expensive to build and operate ...",
         "Microsoft": "- The [[ChatGPT]] owner hopes to garner $1 billion in revenue by 2024. Therefore, ...",
         "OpenAI enthroned as the Levis of Tech": "OpenAI has launched its [[ChatGPT]] API service, powered by the GPT-3.5-turbo [[AI]] model. The model is ...",
@@ -569,7 +571,6 @@ export const backlinks = {
         "Replicating Balenciaga Harry Potter Advertisement": "1.  Used [[ChatGPT]] to generate prompts for dressing 10 Harry Potter characters in 1990s ...",
         "Search AI": "- In many ways, one might say that [[ChatGPT]] never \"truly understands\" things; it just \"knows how to produce stuff ...",
         "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 Bing [[ChatGPT]]에 검색을 해보았다.",
-        "Synthote": "- [[ChatGPT]]",
         "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
         "The Era of Invites": "... an invitation system will never reach your attention. For example, did [[ChatGPT]] require an invite? Nope.",
         "The Problems of ChatGPT": "- [[ChatGPT]] writes believable scientific abstracts",
@@ -594,7 +595,8 @@ export const backlinks = {
     "Texts": {
         "2023-01-31": "Got Invited to [[Texts]]",
         "Love Software": "- (Fiercely Overpriced|paywalled) [[texts]]",
-        "The One and Only": "Like [[Texts]], it pulls from all the sources and posts to all the ..."
+        "The One and Only (Social App)": "Like [[Texts]], it pulls from all the sources and posts to all the ...",
+        "The one and only": "[[Texts]] aims to be the one and only texting app."
     },
     "Emails and Decentralized Protocols": {
         "2022-09-05": "- [[Emails and Decentralized Protocols]]",
@@ -757,6 +759,9 @@ export const backlinks = {
         "Letter to the Heptabase Team on 2022-10-11": "... Angeles|LA and 서울|Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/docusaurus, Vercel/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with ...",
         "Stories Behind Satori": "The potential candidates for [[Satori]] included:",
         "WebAssembly": "- [[Satori]]"
+    },
+    "Channel.io": {
+        "LavaLab Cohort of Spring 2023": "... super easy to collect user feedback with technical details — like [[Channel.io]] level easy."
     },
     "창의는 평온에서 나온다": {
         "2023-04-05": "[[창의는 평온에서 나온다]]"
@@ -965,7 +970,8 @@ export const backlinks = {
         "Readings": "- [x] [[유난한 도전]]"
     },
     "IntelliJ": {
-        "Intellisense for Knowledge Management": "- Like Copilot or [[IntelliJ]]"
+        "Intellisense for Knowledge Management": "- Like Copilot or [[IntelliJ]]",
+        "LavaLab Cohort of Spring 2023": "Visualizes the dependencies of internal code and function calls. Similar to [[IntelliJ]] Flow."
     },
     "Providing DOM API to Worker Threads": {
         "2022-07-28": "- [[Providing DOM API to Worker Threads]]",
@@ -1062,6 +1068,10 @@ export const backlinks = {
     "HLSL": {
         "2023-01-23": "- [[HLSL]]"
     },
+    "The Broken Feedback Loop": {
+        "2022-06-21": "[[The Broken Feedback Loop]]",
+        "LavaLab Cohort of Spring 2023": "- Firefly captures lost information of [[The Broken Feedback Loop]]."
+    },
     "Meltdown and Spectre": {
         "2022-12-09": "- [[Meltdown and Spectre]]",
         "Computer Systems": "- [[Meltdown and Spectre]]"
@@ -1069,7 +1079,7 @@ export const backlinks = {
     "Person 648442": {
         "2023-02-15": "- [[Person 648442]]",
         "Project PEOPLE": "- [[Person 648442]]",
-        "The One and Only": "Someday Project. Ideated during [[Person 648442]]"
+        "The One and Only (Social App)": "Someday Project. Ideated during [[Person 648442]]"
     },
     "잡스와 생존 편향": {
         "2019-10-13": "- [[잡스와 생존 편향]]",
@@ -1160,6 +1170,7 @@ export const backlinks = {
         "Aldehyde Outage (January 2023)": "## [[Docusaurus]] 2.3.0 `useSyncExternalStore` Bug",
         "Better Docusaurus": "- Fixing some things that I currently don't like about [[Docusaurus]]",
         "In search of my domain": "... thoughts online. I migrated my blog from WordPress to Ghost to [[Docusaurus]], making several contributions and almost hacking the framework along the way.",
+        "LavaLab Cohort of Spring 2023": "Documentations tool that generates a [[Docusaurus]]-like website, given a PDF. Integrated GPT for semantic searches and Chat ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... have some personal Python scripts that convert Obsidian MD files to [[Docusaurus]] MD files since they have slightly different specs.",
         "Letter to the Heptabase Team on 2022-10-11": "... Los Angeles|LA and 서울|Seoul. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak ...",
         "Paracosm": "... documentation toolkit & Extracranial Tools for Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
@@ -1346,10 +1357,10 @@ export const backlinks = {
     "Stephan Ango": {
         "2022-10-19": "- [[Stephan Ango]]",
         "2022-10-21": "- [[Stephan Ango]]: also created [[Obsidian]] Minimal Settings.",
+        "Generative Intelligence": "- Coined by [[Stephan Ango]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Stephan Ango]]",
         "Newsletter": "- [[Stephan Ango]] uses [[Buttondown]]",
-        "Now Page": "### [[Stephan Ango]]",
-        "Synthote": "- Coined by [[Stephan Ango]]"
+        "Now Page": "### [[Stephan Ango]]"
     },
     "Beehiiv": {
         "2023-02-21": "- [[Beehiiv]]",
@@ -1365,28 +1376,12 @@ export const backlinks = {
     },
     "Synthography": {
         "2022-10-19": "- [[Synthography]]",
+        "Generative Intelligence": "- Just like what we call [[Synthography]] for synthetic imagery",
         "Obsidian Ava": "- Early Stage [[Synthography]] tool for [[Obsidian]]",
-        "Search in a Latent Space": "- Related to [[Synthography]] and [[Stable Diffusion]]",
-        "Synthote": "- Just like what we call [[Synthography]] for synthetic imagery"
+        "Search in a Latent Space": "- Related to [[Synthography]] and [[Stable Diffusion]]"
     },
     "HEEx": {
         "2023-03-06": "- [[HEEx]]"
-    },
-    "Synthote": {
-        "2022-10-19": "- [[Synthote]]",
-        "2022-10-24": "- [[Synthote]]",
-        "2022-11-14": "- [[Synthote]]: LLMs for Code: [[LLM|LLMs]]",
-        "2022-11-16": "- Notion AI: Notion's [[Synthote]]",
-        "Copilot": "- A [[Synthote]] for developers.",
-        "Everyprompt": "- [[Synthote]]",
-        "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Synthote]]: https://cho.sh/r/9A0D39",
-        "Notion": "- Notion AI: [[Synthote]]",
-        "Notion AI": "Notion's [[Synthote]]",
-        "Real Interviews": "- Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
-        "Reimagining Emails": "- Potential links to [[Synthote]]?",
-        "Search in a Latent Space": "- Related to [[Synthote]]: Finding the exact text that contains the desired info in this ...",
-        "Stephan Ango": "- Coined the term [[Synthote]]",
-        "Thesephist Work Case Study": "### The \"Length\" dimension of [[Synthote]]s"
     },
     "Web3": {
         "2022-11-09": "- [[Web3]]",
@@ -1396,7 +1391,8 @@ export const backlinks = {
         "2022-12-09": "- [[Web3]]",
         "2023-02-08": "- [[Web3]]",
         "Classic Blogs": "- Mirror: Medium on [[Web3]].",
-        "Ethereum RPC as a Service": "... enterprise RPC providers are one of the more profitable and real [[web3]] businesses. There's Alchemy ($10.2B valuation, Feb 22), ConsenSys ($7B valuation, Mar ..."
+        "Ethereum RPC as a Service": "... enterprise RPC providers are one of the more profitable and real [[web3]] businesses. There's Alchemy ($10.2B valuation, Feb 22), ConsenSys ($7B valuation, Mar ...",
+        "LavaLab Cohort of Spring 2023": "### No More Crypto & [[Web3]] Startups"
     },
     "P vs NP": {
         "2022-07-01": "- [[P vs NP]]",
@@ -1575,8 +1571,9 @@ export const backlinks = {
     "Conversational AI Tools for Thought": {
         "2022-12-04": "- Elicit: The AI Research Assistant: [[Conversational AI Tools for Thought]]",
         "2022-12-24": "- [[Conversational AI Tools for Thought]]: Poe beta test starting - Quora",
+        "Generative Intelligence": "- [[Conversational AI Tools for Thought]]",
+        "LavaLab Cohort of Spring 2023": "... given a PDF. Integrated GPT for semantic searches and Chat explanation: [[Conversational AI Tools for Thought]].",
         "Plateau of Latent Potential": "It could be a form of Extracranial, a Memex, or even [[Conversational AI Tools for Thought]].",
-        "Synthote": "- [[Conversational AI Tools for Thought]]",
         "Tools for Thought": "- [[Conversational AI Tools for Thought]]"
     },
     "Domain Search Tools": {
@@ -1808,7 +1805,7 @@ export const backlinks = {
         "2022-08-24": "- [[Separation of Computer Scientists and Computer Technologists]]"
     },
     "Twitter": {
-        "2022-06-21": "[[Twitter]] implemented a much more strict agile model with Sprint work models.",
+        "2022-06-21": "[[Twitter]] implemented a more strict agile model with Sprint work models.",
         "2022-07-28": "... 2008 recession, Internet culture and economy were formed around Facebook and [[Twitter]]",
         "2022-10-14": "  - Linear has been popping up on my [[Twitter]] threads.",
         "2022-10-22": "...  - A lot of people sent me solid proposals on [[Twitter]].",
@@ -1891,6 +1888,7 @@ export const backlinks = {
     },
     "Oneliner News": {
         "2023-04-19": "- [[Oneliner News]]",
+        "LavaLab Cohort of Spring 2023": "... don't need to dive into the article. A similar approach to [[Oneliner News]], by attempting [[Algorithmic Recommendation Engine for Texts]].",
         "METI Engine": "... current generation is hn.cho.sh — and plan to scale it to [[Oneliner News]].",
         "일일일": "NewsGPT Model. A competitor to [[Oneliner News]]."
     },
@@ -2332,7 +2330,6 @@ export const backlinks = {
     "Apple": {
         "2022-06-10": "  - [[Apple]] has implemented pointer authentication on all of its custom [[ARM Architecture|ARM]]-based ...",
         "2022-06-20": "Note that this is not [[Apple]] Passkey. This is the Privacy Pass standard. Apple Passkey is a ...",
-        "2022-06-21": "However, [[Apple]] Feedback Assistant is not a developer Q&A platform.",
         "2022-07-18": "- [[Apple]] seems (pretty much) always right...",
         "2022-10-13": "... iPhone to be their next phone; 31% of teens own an [[Apple]] Watch: Taking Stock With Teens® - Fall 2022",
         "2022-10-18": "- [[Apple]] bought all of the advertising space in Newsweek's November/December special election ...",
@@ -2371,6 +2368,7 @@ export const backlinks = {
         "Screenshot as an API": "...  - You can copy objects from photos in the latest [[Apple]] [[iOS]] 16 update.",
         "Super App": "... to combine various services and fight the mobile search partnership between [[Apple]] and [[Google]]",
         "Swift": "- Programming Language for [[Apple]] platforms",
+        "The Broken Feedback Loop": "However, [[Apple]] Feedback Assistant is not a developer Q&A platform.",
         "The Dilemmas of Technopreneur": "... and could make a full-blown product, but it never would've become [[Apple]] if it weren't for Steve Jobs.",
         "USDZ vs glTF": "... is a subset of USD, created by Pixar and operated by [[Apple]] for [[iOS]] AR applications. It is a zip file with USD ...",
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] only supports VP9.",
@@ -2407,7 +2405,7 @@ export const backlinks = {
         "Dynamic Island on the Web": "- [[Reverse Engineering Apple Music API]]"
     },
     "Shim": {
-        "2022-06-26": "- API [[Shim|Shimming]] will be hard enough. Shim \\(computing\\) - Wikipedia>)",
+        "2022-06-26": "- API [[Shim|Shimming]] will be hard enough. Shim (computing) - Wikipedia>)",
         "Realm Shim": "> [[Shim]] implementation of the Realm API Proposal ([[ShadowRealm]])",
         "Service Shimming": "In computer programming, [[Shim|shimming]] is a method of transparently intercepting, modifying, and redirecting the API ...",
         "서비스 시밍": "[[Shim]]은 컴퓨터 프로그래밍에서 요청을 가로채서 변조해서 되돌려주는 기법을 뜻한다. 매끄러운 Shim은 알아차리지 ..."
@@ -2640,9 +2638,9 @@ export const backlinks = {
     "Personal Training Corpus": {
         "2022-10-12": "- [[Personal Training Corpus]]",
         "2022-11-15": "- [[Personal Training Corpus]]: I record myself on audio 24x7 and use an AI to ...",
+        "Generative Intelligence": "- Relates to Prompt Engineering and [[Personal Training Corpus]]?",
         "Matt Rickard": "- [[Personal Training Corpus]]",
-        "Prompt Engineering": "- [[Personal Training Corpus]]",
-        "Synthote": "- Relates to Prompt Engineering and [[Personal Training Corpus]]?"
+        "Prompt Engineering": "- [[Personal Training Corpus]]"
     },
     "Lingua Franca": {
         "2022-09-30": "- [[Lingua Franca]]"
@@ -2734,7 +2732,7 @@ export const backlinks = {
         "Web Graphics": "- [[3d Globe on the Web]]"
     },
     "ACSM": {
-        "2022-06-05": "- Convert [[ACSM]] files to [[PDF]]/EPUBs with one command on [[Linux]] \\(and macOS very ..."
+        "2022-06-05": "- Convert [[ACSM]] files to [[PDF]]/EPUBs with one command on [[Linux]] (and macOS very ..."
     },
     "Meta Theme Color": {
         "Meta Theme Color for Spacial Cognition": "- [[Meta Theme Color]] for [[Spacial Cognition]]",
@@ -2882,6 +2880,7 @@ export const backlinks = {
     "Bondee": {
         "2023-02-12": "- [[Bondee]]",
         "Did Bondee Really Suddenly Rise": "Yesterday, we took a closer look into [[Bondee]]: [[The Sudden Rise of Bondee]]. But did it suddenly rise?",
+        "LavaLab Cohort of Spring 2023": "Similar to [[Bondee]] and [[Zenly]].",
         "The Sudden Rise of Bondee": "[[Bondee]] is a [[metaverse]] social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], ...",
         "본디는 사실 혜성이 아니다": "어제 혜성처럼 나타난 본디 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 Bondee|본디는 정말 혜성일까?",
         "혜성처럼 나타난 본디": "[[Bondee|본디]]는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 얻고 있는 ..."
@@ -3014,6 +3013,7 @@ export const backlinks = {
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
         "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
+        "Generative Intelligence": "- [[Project]] scaffolding",
         "Generative Open Graph": "Someday [[Project]]. [[Open Graph Image as a Service]]. Use [[Generative AI]] to create ...",
         "GitHub": "... software feature requests, task management, continuous integration, and wikis for every [[project]]. Headquartered in California, it has been a subsidiary of [[Microsoft]] since ...",
         "Goongoom": "- Side startup [[project]] that never made it to the market.",
@@ -3047,11 +3047,10 @@ export const backlinks = {
         "Sticker Party": "Someday [[Project]] GitHub README에 박을 수 있음. 하지만 그 스티커는 한정판. 노트북 뒷판에 ...",
         "Stories Behind Satori": "This is already done by an open-source [[project]] facebook/yoga.",
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
-        "Synthote": "- [[Project]] scaffolding",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "Tech Now Pay Later": "> Instead of worrying about which DB to use for your [[project]] and/or if it scales – sometimes you just gotta ship it ...",
         "The Battle of Flow and Asana": "... Basecamp was to build great software that scratched their own itch ([[project]] management,) and charge a monthly recurring amount to give them access ...",
-        "The One and Only": "Someday [[Project]]. Ideated during [[Person 648442]]",
+        "The One and Only (Social App)": "Someday [[Project]]. Ideated during [[Person 648442]]",
         "The One and Only WebExtension": "- Someday [[Project]]",
         "The Zenly Playbook": "... Zenly shows surprising accuracy and battery efficiency from a 3-year research [[project]] for a child safety app before founding Zenly. Even from the ...",
         "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
@@ -3147,6 +3146,7 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
         "Grammarly": "- [[dx]] team",
         "Heap (Computer Systems)": "- [[DX]]",
+        "LavaLab Cohort of Spring 2023": "### More [[DX]] Startups.",
         "Reverse Engineering Apple Music API": "Apple Music API [[DX]] is way worse than Spotify's.",
         "Symbol (Computer Systems)": "... initialize global variables (take advantage of the Link (Computer Systems)|linker for [[dx]])"
     },
@@ -3229,6 +3229,7 @@ export const backlinks = {
     "The Zenly Playbook": {
         "2023-02-03": "- [[The Zenly Playbook]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-03 | 🇬🇧 [[The Zenly Playbook]] <br/> 🇰🇷 [[젠리의 성공 공식]]       ...",
+        "Zenly": "... parent company of Snapchat) in 2018 and shut down in 2023. [[The Zenly Playbook]] [[젠리의 성공 공식]]",
         "젠리의 성공 공식": "[[The Zenly Playbook]]"
     },
     "0704 Binary Search": {
@@ -3241,7 +3242,7 @@ export const backlinks = {
         "2023-02-02": "- [[Jumpsite]]",
         "2023-04-20 Conversation with Velopert": "... Cloudflare와 Backblaze로 Bandwidth Alliance를 설정하고, 이미지 서버 최적화를 진행하셨다. Veltrends와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 창출과 흐름의 변화를 원하신다. [[벨로그|Velog]]의 국제화를 ...",
         "Interface (Jumpsite)": "- [[Jumpsite]]",
-        "The One and Only": "... to all the sources—LinkedIn, Twitter, Insta, Facebook, etc. It's similar to [[Jumpsite]], but not the same; you never need to escape the website."
+        "The One and Only (Social App)": "... to all the sources—LinkedIn, Twitter, Insta, Facebook, etc. It's similar to [[Jumpsite]], but not the same; you never need to escape the website."
     },
     "Eventually, Diligent Immatures build the Future": {
         "2023-02-21": "- [[Eventually, Diligent Immatures build the Future]]",
@@ -3357,13 +3358,13 @@ export const backlinks = {
     },
     "Notion": {
         "2022-07-10": "- [[Notion]] opened a new paradigm for low-code websites. [[Project PEOPLE]] now create ...",
-        "2022-11-16": "- Notion AI: [[Notion]]'s [[Synthote]]",
+        "2022-11-16": "- Notion AI: [[Notion]]'s [[Generative Intelligence]]",
         "Collaboration-based Tools for Thought": "### [[Notion]]",
         "Intellisense for Knowledge Management": "- More like Notion AI? What if [[Notion]] [[AI]] got super powerful, giving insight into your written documents?",
         "Letter to the Heptabase Team on 2022-10-11": "- API support ([[Notion]]-like?)",
         "Neo Apps": "- Notes. [[Notion]] → [[Obsidian]] → Nota.",
         "Nota": "> Love Child Between [[Notion]] and [[Obsidian]]",
-        "Notion AI": "[[Notion]]'s [[Synthote]]",
+        "Notion AI": "[[Notion]]'s [[Generative Intelligence]]",
         "Powerfully Powerless Tools": "Even [[Notion]] is too complicated for personal task management.",
         "Text-based Tools for Thought": "### [[Notion]]",
         "The Era of Invites": "... inside the system. First impressions always last. For me, it was [[Notion]]. I first tried Notion in early 2018, and my experience was ...",
@@ -3466,6 +3467,11 @@ export const backlinks = {
         "2023-02-14": "- [[긍정적 허무주의자]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-14 | 🇬🇧 Optimistic Nihilist <br/> 🇰🇷 [[긍정적 허무주의자]]            ..."
     },
+    "Zenly": {
+        "LavaLab Cohort of Spring 2023": "After [[Zenly]] shut down, many players target that power void. It will be ...",
+        "The Zenly Playbook": "[[Zenly]], a popular Gen-Z location-sharing social app, shut down two days ago. ...",
+        "젠리의 성공 공식": "어제 [[Zenly|젠리]]가 문을 닫았다. 프랑스의 한 개발자로부터 시작해 3천억에 스냅에 인수된 기술 [[Small ..."
+    },
     "0020 Valid Parentheses": {
         "2022-07-10": "- Solved [[0020 Valid Parentheses]]",
         "Coding Tests": "- [x] [[0020 Valid Parentheses]]"
@@ -3524,7 +3530,7 @@ export const backlinks = {
         "Nota": "Awesome alternative to [[Obsidian]].",
         "Obsidian Ava": "- Early Stage Synthography tool for [[Obsidian]]",
         "Our tools also shape us": "  - [[Obsidian]] makes you a connector + writer",
-        "Stephan Ango": "- Currently works at [[Obsidian]]",
+        "Stephan Ango": "- CEO of [[Obsidian]]",
         "Text-based Tools for Thought": "### [[Obsidian]]",
         "The Dilemmas of Technopreneur": "... examples, like the early days of Mark Zuckerberg, the creators of [[Obsidian]], or even Mr. Levels.",
         "Tools Must Vanish": "- And I look up blog and forum posts where [[Obsidian]] and Roam power users explain their setup. And most of what ..."
@@ -3567,8 +3573,12 @@ export const backlinks = {
     "Tesla Release Models": {
         "2022-09-06": "- [[Tesla Release Models]]"
     },
+    "Nudge": {
+        "LavaLab Cohort of Spring 2023": "[[Nudge]]?",
+        "hn.cho.sh 개발 기록": "- 그냥 인터페이스 다 없애고 [[nudge]]처럼 100% 문자 기반?"
+    },
     "Notion AI": {
-        "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Synthote]]",
+        "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Generative Intelligence]]",
         "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if [[Notion]] [[AI]] got super powerful, giving insight into your ..."
     },
     "LaTeX": {
@@ -3612,7 +3622,7 @@ export const backlinks = {
     },
     "3D": {
         "2022-10-21": "- [[3D]]",
-        "Bondee": "... via its metaverse environment. Users can also create and customize their [[3D]] characters and design rooms that can resemble their own or their ...",
+        "Bondee": "... metaverse environment. In addition, users can also create and customize their [[3D]] characters and design rooms resembling their dreams. Bondee was launched on ...",
         "Canvas (HTML5)": "... 2D drawing API, it also supports the WebGL API to allow [[3D]] rendering with OpenGL ES.",
         "Graphic Renderer": "... of generating a photorealistic or non-photorealistic image from a 2D or [[3D]] model by means of a computer program. The resulting image is ...",
         "Metaverse": "... (AR) headsets. In everyday use, a metaverse is a network of [[3D]] virtual worlds focused on social connection. Metaverse",
@@ -3620,7 +3630,7 @@ export const backlinks = {
         "Ray.st": "A Collection of 26 Beautiful [[3D]] [[Emoji]] Generated by [[Generative AI]].",
         "Repeated Designs": "... you're an encryption company, so the hero needs to be a [[3D]] model of the logo rendered as encrypted text.<br/><br/>Some early previews of ...",
         "The Sudden Rise of Bondee": "... etc., ranking #1 in the App Store. Users can create a [[3d]] character and design rooms of their own. Imagine [[Club Penguin]] or ...",
-        "The Zenly Playbook": "From the Stay Home challenge in 2020 to a mass-scale [[3D]] [[Cartography|map]] update in 2022, Zenly prepared for its upcoming future. However, ...",
+        "The Zenly Playbook": "From the Stay Home challenge in 2020 to a mass-scale [[3D]] [[Cartography|map]] update in 2022, [[Zenly]] prepared for its upcoming future. However, ...",
         "USDZ": "> Universal Scene Description (USD) is a framework for interchange [[3D]] computer [[graphics]] data interchange. The framework focuses on collaboration, non-destructive editing, ...",
         "USDZ vs glTF": "USDZ and glTF are two [[3D]] file formats used for different purposes. USDZ is a subset of ...",
         "glTF": "... open standard developed and maintained by the Khronos Group; it supports [[3D]] model geometry, appearance, scene graph hierarchy, and animation. It is intended ...",
@@ -3668,7 +3678,7 @@ export const backlinks = {
         "Generative AI": "- [[Search AI]]"
     },
     "서울": {
-        "2022-05-31": "... 소비하는 제품 만들기 - 두잇 관악구 전역으로 확대 \\(~22.07\\) - 두잇 [[서울]], 수도권 전역 확대 \\(22.07~22.12\\) - 배달음식 서울, 수도권 점유율 1등 \\(~23.12\\) ...",
+        "2022-05-31": "... 소비하는 제품 만들기 - 두잇 관악구 전역으로 확대 (~22.07) - 두잇 [[서울]], 수도권 전역 확대 (22.07~22.12) - 배달음식 서울, 수도권 점유율 1등 (~23.12) ...",
         "2022-08-28": "... Pages. Vercel builds faster (~3m) than Cloudflare Pages (~5m). Vercel has [[서울|Seoul]] region [[CDN]].",
         "2023-03-03": "- [[서울]]",
         "AI replaces expensive jobs first": "[[서울|SEOUL]] (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed a controversial bill ...",
@@ -3742,7 +3752,7 @@ export const backlinks = {
         "2022-11-19": "  - [[When TSC suddenly errors with cannot find module]]"
     },
     "Linux": {
-        "2022-06-05": "- Convert ACSM files to PDF/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software does not utilize Adobe Digital ...",
+        "2022-06-05": "- Convert ACSM files to PDF/EPUBs with one command on [[Linux]] (and macOS very soon). This software does not utilize Adobe Digital ...",
         "ELF": "- Executable and Linked Format, used in [[Linux]]",
         "Linux Permissions for Keys": "Note that [[Linux]] SSH manual says:",
         "Simple DirectMedia Layer": "... that can run on many operating systems such as Android, iOS, [[Linux]], macOS, and Windows. Simple DirectMedia Layer",
@@ -4069,6 +4079,7 @@ export const backlinks = {
     "Artifact": {
         "Algorithmic Recommendation Engine for Texts": "- [[Artifact]] can feel like a throwback. Inspired by TikTok's success, big social ...",
         "Can we ever build TikTok for Text": "... Mike Krieger, the co-founders of Instagram, launched a new app called [[Artifact]]. Artifact is a personalized news feed app that uses [[ML|machine learning]] ...",
+        "LavaLab Cohort of Spring 2023": "News recommending app, just like [[Artifact]], but it shows a one-liner explanation, so you don't need to ...",
         "The Era of Invites": "... people asked me if I had any invites for Texts, Tana, [[Artifact]], and so on. But things did not work this way before ...",
         "hn.cho.sh 개발 기록": "- [[Artifact]]",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "한 달 전, 인스타그램의 공동 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. Artifact|아티팩트는 [[ML|머신 러닝]]으로 관심사 기반 뉴스를 추천해주는 앱이다. ...",
@@ -4181,6 +4192,10 @@ export const backlinks = {
         "AMP": "Uses [[WorkerDOM]] under the hood.",
         "Treehouse": "... attempt to run a DOM within a Web Worker. Later affected [[WorkerDOM]] and [[Brane]].",
         "iiframe": "- Does not extend [[WorkerDOM]]."
+    },
+    "The One and Only (Social App)": {
+        "2023-02-15": "- [[The One and Only (Social App)]]",
+        "Z-Fellows": "- Had an interview with Z-Fellows with [[The One and Only (Social App)]] on [[2023-03-19]]"
     },
     "Geometric Series": {
         "2023-01-31": "- [[Geometric Series]]"
@@ -4365,6 +4380,10 @@ export const backlinks = {
     "Things (3D)": {
         "3D": "- [[Things (3D)]]"
     },
+    "LavaLab": {
+        "2023-04-25": "- [[LavaLab]]",
+        "LavaLab Cohort of Spring 2023": "[[LavaLab]] Cohort of Spring 2023."
+    },
     "Person E7CFC5": {
         "2022-09-14": "  - [[Person E7CFC5]]",
         "Project PEOPLE": "- [[Person E7CFC5]]"
@@ -4397,6 +4416,7 @@ export const backlinks = {
         "The Newtonian Correspondence": "| 03-19 | `EN` Snooze Time of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]]            ..."
     },
     "Search-based Tools for Thought": {
+        "LavaLab Cohort of Spring 2023": "[[Search-based Tools for Thought]] for Teams. Given you connect your Google Workspace, Slack, Figma, etc., ...",
         "Tools for Thought": "- [[Search-based Tools for Thought]]: indexes user's activity in the background and provides a search feature ..."
     },
     "Data Capturers": {
@@ -4438,7 +4458,7 @@ export const backlinks = {
         "2023-03-31": "- [[The Newtonian Correspondence]]"
     },
     "Product-Market Fit": {
-        "2022-06-06": "... and startups have little or no tests. When struggling to find [[Product-Market Fit]] or fighting for survival, many companies need to test early on. ...",
+        "2022-06-06": "... Many companies need to test early on when struggling to find [[Product-Market Fit]] or fight for survival. - 7 Absolute Truths I Unlearned as ...",
         "Captivating Products": "... the product? Captivating products, by definitions, are those who found the [[Product-Market Fit]].",
         "The Dilemmas of Technopreneur": "... lean enough, it may be much more efficient to check the [[Product-Market Fit]].",
         "The Great Struggle of Gumroad": "... fault. It always looked like change was right around the corner. [[Product-market fit]] is excellent, but we needed to find a new, more oversized ...",
@@ -4537,6 +4557,24 @@ export const backlinks = {
         "2022-10-12": "  - [x] [[Real Exams]]",
         "Coding Tests": "- [[Real Exams]]",
         "Real Interviews": "See also: [[Real Exams]]"
+    },
+    "Generative Intelligence": {
+        "2022-10-19": "- [[Generative Intelligence]]",
+        "2022-10-24": "- [[Generative Intelligence]]",
+        "2022-11-14": "- [[Generative Intelligence]]: LLMs for Code: [[LLM|LLMs]]",
+        "2022-11-16": "- Notion AI: Notion's [[Generative Intelligence]]",
+        "2023-04-25": "- [[Generative Intelligence]]",
+        "Copilot": "- A [[Generative Intelligence]] for developers.",
+        "Everyprompt": "- [[Generative Intelligence]]",
+        "LavaLab Cohort of Spring 2023": "With the recent advent of GPT APIs, people can now [[Generative Intelligence|generate intelligence]] on the fly, tailored for insights.",
+        "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Generative Intelligence]]: https://cho.sh/r/9A0D39",
+        "Notion": "- Notion AI: [[Generative Intelligence]]",
+        "Notion AI": "Notion's [[Generative Intelligence]]",
+        "Real Interviews": "- Learned that Grammarly has internal projects, Readerly (summarizing) and Speakerly ([[Generative Intelligence]])",
+        "Reimagining Emails": "- Potential links to [[Generative Intelligence]]?",
+        "Search in a Latent Space": "- Related to [[Generative Intelligence]]: Finding the exact text that contains the desired info in this ...",
+        "Stephan Ango": "- Coined the term [[Generative Intelligence]]",
+        "Thesephist Work Case Study": "### The \"Length\" dimension of [[Generative Intelligence]]s"
     },
     "P2P": {
         "Internetworking": "- [[P2P]]"
@@ -4637,6 +4675,9 @@ export const backlinks = {
     },
     "DASH Protocol": {
         "Internetworking": "- [[DASH Protocol]]"
+    },
+    "LavaLab Cohort of Spring 2023": {
+        "2023-04-25": "- [[LavaLab Cohort of Spring 2023]]"
     },
     "Diagram (Company)": {
         "2022-12-16": "- [[Diagram (Company)]]",
@@ -4854,6 +4895,8 @@ export const backlinks = {
     "Interactive Articles": {
         "2022-10-18": "- [[Interactive Articles]]",
         "2022-12-07": "- Framer Motion, [[Interactive Articles]]: Inside Framer's Magic Motion",
+        "Can we ever build TikTok for Text": "- [[Interactive Articles]]. Use interactive components like touchable graphs and scroll-reacting elements to make ...",
+        "LavaLab Cohort of Spring 2023": "### [[Interactive Articles|Interactive Instructions]]",
         "Second Brain": "## [[Interactive Articles]]"
     },
     "Are.na (Service)": {
@@ -4889,7 +4932,7 @@ export const backlinks = {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
         "Grammarly AI-NLP Club": "AI Natural Language Processing|NLP Club at [[Grammarly]].",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
-        "Real Interviews": "- Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Synthote]])",
+        "Real Interviews": "- Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Generative Intelligence]])",
         "기술 발전의 속도": "그래서 [[Grammarly]] 등의 텍스트 [[AI|인공지능]] 회사에 열심히 지원했고."
     },
     "SHAP": {
@@ -5087,9 +5130,9 @@ export const backlinks = {
         "Satori": "- Easy: No [[headless]] [[Web Browser|browser]] is needed. Using [[Vercel]] OG, you can define your ...",
         "hn.cho.sh 개발 기록": "[[Headless]] [[Chrome]]을 사용하도록 GitHub Actions를 개편했다."
     },
-    "The One and Only": {
-        "2023-02-15": "- [[The One and Only]]",
-        "Z-Fellows": "- Had an interview with Z-Fellows with [[The One and Only]] on [[2023-03-19]]"
+    "The one and only": {
+        "LavaLab Cohort of Spring 2023": "- Hive gives [[the one and only]] search interface to fish your query.",
+        "The One and Only (Social App)": "... different social media apps? I have the solution for you. Introducing '[[The One and Only]],' the ultimate social media app that combines all your social media ..."
     },
     "elevatorpitch.com": {
         "2022-12-20": "- [[elevatorpitch.com]]"
@@ -5146,7 +5189,7 @@ export const backlinks = {
         "Proposal of Research 2023-03-28": "... research proposal aims to investigate the concept of an \"efficiently finite\" [[Cartography|map]] containing all possible pixel combinations and its implications on human creativity ...",
         "Service Shimming": "... apps, so Jobs had to prepare separate iPhones for calls, music, [[Cartography|maps]], etc. He had to switch between each iPhone, pretending it was ...",
         "Spacial Cognition": "> testing [[Cartography|map]] as website navigation bar",
-        "The Zenly Playbook": "From the Stay Home challenge in 2020 to a mass-scale 3D [[Cartography|map]] update in 2022, Zenly prepared for its upcoming future. However, the ...",
+        "The Zenly Playbook": "From the Stay Home challenge in 2020 to a mass-scale 3D [[Cartography|map]] update in 2022, [[Zenly]] prepared for its upcoming future. However, the ...",
         "Transactional Globe": "[[Cartography|Map]] those into the globe on the main page:",
         "사회과부도": "> Themed series of [[Cartography|maps]]"
     },
@@ -5267,7 +5310,7 @@ export const backlinks = {
         "Brane": "- It may be worthwhile to implement the [[Mini App]] white paper. However, the white paper compromised the security model and ...",
         "Internet Computer": "- Strong ties to Super App [[Mini App]]",
         "The Zenly Playbook": "... layoff at Snap wiped out the Zenly team alongside the Snap [[Mini App]] team. I do think this is Snap's mistake. Even my university ...",
-        "젠리의 성공 공식": "... 대규모 3D 지도 업데이트까지 미래를 준비했지만 최근 Snap의 대규모 정리해고에 Snap [[Mini App]]과 함께 젠리 팀 또한 해산되었다. 나는 스냅의 큰 실수라고 생각한다. [[United ..."
+        "젠리의 성공 공식": "... 대규모 3D 지도 업데이트까지 미래를 준비했지만 최근 Snap의 대규모 정리해고에 Snap [[Mini App]]과 함께 [[Zenly|젠리]] 팀 또한 해산되었다. 나는 스냅의 큰 실수라고 생각한다. [[United ..."
     },
     "Dynamic Island on the Web": {
         "2022-10-12": "- [[Dynamic Island on the Web]]",
@@ -5601,7 +5644,7 @@ export const backlinks = {
         "벌금과 물가": "## [[United States of America|미국]]",
         "새로운 부동산은 지적 재산이다": "... 엔화가 평가절상되면서 일본 투자자들은 투자 다각화와 고수익을 위해 해외 부동산, 특히 [[United States of America|미국]]과 유럽의 부동산에 재투자했다.",
         "일본 과학기술 총력전": "패전 당시 [[United States of America|미국]]의 점령 정책이 완전한 비군사화에서 [[Economy|경제]] 안정으로 전환되며 대부분의 군사 생산 능력이 ...",
-        "젠리의 성공 공식": "... App과 함께 젠리 팀 또한 해산되었다. 나는 스냅의 큰 실수라고 생각한다. [[United States of America|미국]] 대학생 사이에서도 더 이상 스냅을 쓰지 않는다. 젠리는 쓴다. 페이스북이 감원하며 ...",
+        "젠리의 성공 공식": "... App과 함께 Zenly|젠리 팀 또한 해산되었다. 나는 스냅의 큰 실수라고 생각한다. [[United States of America|미국]] 대학생 사이에서도 더 이상 스냅을 쓰지 않는다. Zenly|젠리는 쓴다. 페이스북이 감원하며 ...",
         "한국의 입시와 거짓된 명예": "오히려 [[United States of America|미국]]의 청소년들이 돈을 가지고 불장난을 하며 투자와 금융의 기본기를 익히고",
         "한민족": "중국, [[United States of America|미국]], [[일본]] 등에 많이 살고 있다.",
         "한민족의 동족상잔": "... 주인과 떨어져 살며 일정량의 현물만 바치면 되는 납공노비가 있었다는 점에서 과거 [[United States of America|미국]] 흑인노예나 혹은 중국과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 점을 강조합니다."
@@ -5648,13 +5691,13 @@ export const backlinks = {
         "Game Programming": "- [[Code Quality for Game Programming]]"
     },
     "PDF": {
-        "2022-06-05": "- Convert ACSM files to [[PDF]]/EPUBs with one command on [[Linux]] \\(and macOS very soon\\). This software ...",
+        "2022-06-05": "- Convert ACSM files to [[PDF]]/EPUBs with one command on [[Linux]] (and macOS very soon). This software ...",
         "Screenshot as an API": "    - No need to understand [[PDF]] data format",
         "Synonym-based Fuzzy Search": "Someday Project. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
         "Using an iPad as my Ebook": "Furthermore, I fell in love with Book Scanning as a [[PDF]] with [[OCR]], and I figured it is very lovable. I can't ..."
     },
     "LLM": {
-        "2022-11-14": "- Synthote: LLMs for Code: [[LLM|LLMs]]",
+        "2022-11-14": "- Generative Intelligence: LLMs for Code: [[LLM|LLMs]]",
         "2022-12-17": "- Riffusion: Mesmerizing. Whenever I see something made with [[LLM]] like GPT or [[Stable Diffusion]]... it just blows my mind. Has ...",
         "2023-03-20": "Large Language Models ([[LLM|LLMs]]) have demonstrated impressive abilities to answer [[natural language]] questions and change ...",
         "Antipilot": "- Generative AI and [[LLM]] are already unstoppable. This is not to stop them.",
@@ -5747,7 +5790,7 @@ export const backlinks = {
     },
     "Metaverse": {
         "2022-05-31": "- Kakao announced [[Metaverse]] Remote Work Policy.",
-        "Bondee": "... interact with each other on this social media platform via its [[metaverse]] environment. Users can also create and customize their [[3D]] characters and ...",
+        "Bondee": "... interact with each other on this social media platform via its [[metaverse]] environment. In addition, users can also create and customize their [[3D]] ...",
         "Club Penguin": "[[Metaverse]]",
         "Habbo Hotel": "Habbo Hotel is also a part of the [[metaverse]]. It is a virtual world and social networking site where users ...",
         "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can be attained within years with Prompt Engineering.",
@@ -5774,7 +5817,7 @@ export const backlinks = {
     "Z-Fellows": {
         "2023-03-19": "## [[Z-Fellows]]",
         "2023-04-12": "- [[Z-Fellows]]: Rejected. But I was in the top 10% 😉",
-        "The One and Only": "## [[Z-Fellows]]"
+        "The One and Only (Social App)": "## [[Z-Fellows]]"
     },
     "Cloudflare": {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs on iPhones and Macs with open ...",
@@ -5956,6 +5999,7 @@ export const backlinks = {
         "2022-09-03": "- [[Prompt Engineering]]",
         "2022-09-30": "- Human Motion Diffusion Model [[Prompt Engineering]]",
         "Generative AI": "Instead of guessing the correct answer, AI creates something from [[Prompt Engineering]].",
+        "Generative Intelligence": "- Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?",
         "Metaverse": "... to my mind that Metaverse can be attained within years with [[Prompt Engineering]].",
         "Midjourney": "- Art focused [[Prompt Engineering]] [[Generative AI]] Platform",
         "Obsidian Ava": "- [[Prompt Engineering]]",
@@ -5964,7 +6008,6 @@ export const backlinks = {
         "Screenshot as an API": "...  - (encoder) diffusion-based models like Stable Diffusion and DALL-E (text-to-image) [[Prompt Engineering]]",
         "Search in a Latent Space": "- Maybe it's another name for [[Prompt Engineering]]",
         "Synthography": "- Needs [[Prompt Engineering]]",
-        "Synthote": "- Relates to [[Prompt Engineering]] and [[Personal Training Corpus]]?",
         "기술 발전의 속도": "... AI만 있었을 뿐이다. Stable Diffusion이나, DALL-E 같은... 그마저도 엄청난 대격변이었기 때문에 [[Prompt Engineering]]이라는 새로운 분야가 각광 받으며 AI|인공지능에게 원하는 것을 정확하게 설명할 수 있는 ..."
     },
     "Generative Open Graph": {
@@ -6028,9 +6071,9 @@ export const backlinks = {
         "2023-02-02": "- [[Poisson Law]]"
     },
     "Photoshop for Text": {
+        "Generative Intelligence": "- [[Photoshop for Text]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "I recently came across your article on [[Photoshop for Text]] and was deeply inspired by it.",
         "Project Core ML Foundation": "- [[Photoshop for Text]]",
-        "Synthote": "- [[Photoshop for Text]]",
         "기술 발전의 속도": "당시에도 나는 [[Photoshop for Text]]를 상상하며 언젠가 미래에 도래할 텍스트 [[AI|인공지능]]의 미래를 상상하며 점차 [[AI|인공지능]]을 꿈꾸고 ..."
     },
     "Nuclear Fission": {
@@ -6195,7 +6238,7 @@ export const backlinks = {
         "The Era of Invites": "... observation is that these 'successful, invite-based' software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big techs use an invite-based system when ...",
         "The Zenly Playbook": "... app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?",
         "強力反權": "- [[Small yet Powerful]]",
-        "젠리의 성공 공식": "... 젠리가 문을 닫았다. 프랑스의 한 개발자로부터 시작해 3천억에 스냅에 인수된 기술 [[Small yet Powerful|강소]] 기업은 어떻게 성장하고 어떻게 사라졌을까. 그리고 우리는 무엇을 배울 수 있을까?",
+        "젠리의 성공 공식": "... Zenly|젠리가 문을 닫았다. 프랑스의 한 개발자로부터 시작해 3천억에 스냅에 인수된 기술 [[Small yet Powerful|강소]] 기업은 어떻게 성장하고 어떻게 사라졌을까. 그리고 우리는 무엇을 배울 수 있을까?",
         "초대장의 시대": "또 하나 흥미로운 관찰은 이런 성공적인 초대장 기반 소프트웨어 기업은 대부분 [[Small yet Powerful|소수정예]] 엘리트 팀이라는 점이다. 빅테크들은 왜 초대장 시스템을 사용하지 않을까? 어쩌면 이것은 ..."
     },
     "Vertex Buffer": {
@@ -6254,7 +6297,7 @@ export const backlinks = {
         "Redactor for iPhone": "[[Someday]] [[Project]].",
         "Sticker Party": "[[Someday]] [[Project]] GitHub README에 박을 수 있음. 하지만 그 스티커는 한정판. 노트북 ...",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
-        "The One and Only": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
+        "The One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
         "The One and Only WebExtension": "- [[Someday]] [[Project]]",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute URI.",
         "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
@@ -6589,7 +6632,8 @@ export const backlinks = {
     },
     "젠리의 성공 공식": {
         "2023-02-03": "- [[젠리의 성공 공식]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-03 | 🇬🇧 The Zenly Playbook <br/> 🇰🇷 [[젠리의 성공 공식]]            ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-03 | 🇬🇧 The Zenly Playbook <br/> 🇰🇷 [[젠리의 성공 공식]]            ...",
+        "Zenly": "... Snapchat) in 2018 and shut down in 2023. The Zenly Playbook [[젠리의 성공 공식]]"
     },
     "하얼빈": {
         "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
@@ -6799,7 +6843,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0278 First Bad Version]]"
     },
     "AI Garbage Data Flooding": {
-        "Synthote": "- [[AI Garbage Data Flooding]]"
+        "Generative Intelligence": "- [[AI Garbage Data Flooding]]"
     },
     "Fix Your Posture": {
         "2022-12-27": "- [[Fix Your Posture]]"
@@ -6866,10 +6910,10 @@ export const backlinks = {
         "Antipilot": "- [[Copilot]] looks like increasing your productivity, but it",
         "Collecting Data": "- [[Copilot]]",
         "Cool Generative AI Applications": "- [[Copilot]]",
+        "Generative Intelligence": "- [[Copilot]] is already doing it for codes",
         "GitHub Copilot Investigation": "- How it started: [[Copilot]]",
         "Intellisense for Knowledge Management": "- Like [[Copilot]] or [[IntelliJ]]",
-        "Pensieve": "... automatically collects your expertise in a hierarchy powered by an AI [[copilot]]. Whenever you are starting a search journey that entails multiple tabs ...",
-        "Synthote": "- [[Copilot]] is already doing it for codes"
+        "Pensieve": "... automatically collects your expertise in a hierarchy powered by an AI [[copilot]]. Whenever you are starting a search journey that entails multiple tabs ..."
     },
     "Intellisense for Knowledge Management": {
         "Person 542AD7": "We talked about [[Intellisense for Knowledge Management]]"
@@ -6976,7 +7020,8 @@ export const backlinks = {
         "Super App and Democracy": "- Many technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will deliver everything to everyone on the ...",
         "Supergravity Products": "  - 작은 아이디어 (금융 [[Super App|슈퍼 앱]] x 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Texts": "Potential [[Super App]] for the [[United States of America|United States]]. [[Mental Simulation of Firefox ...",
-        "The One and Only": "I will change the world by creating a [[Super App]] in the US. China has a highly successful Super App (WeChat) ...",
+        "The One and Only (Social App)": "I will change the world by creating a [[Super App]] in the US. China has a highly successful Super App (WeChat) ...",
+        "The one and only": "An approach for startups. Aggregate all data into one place—the [[Super App]] approach.",
         "Toss": "- I'd say the most innovative Financial [[Super App]] I've ever seen in [[대한민국|Korea]] and [[United States of America|U.S.]]",
         "Universal Identity": "- [[Super App]] accounts can be another. See [[Super App and Democracy]].",
         "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
@@ -7539,6 +7584,9 @@ export const backlinks = {
     "E64653.png": {
         "Redirecting READMEs": "![[E64653.png]]"
     },
+    "355531.png": {
+        "Channel.io": "![[355531.png]]"
+    },
     "834593.png": {
         "Love Obsidian": "![[834593.png]]"
     },
@@ -7729,6 +7777,9 @@ export const backlinks = {
     },
     "22EB14.png": {
         "Font Features": "![[22EB14.png]]"
+    },
+    "62525D.png": {
+        "Conversational AI Tools for Thought": "![[62525D.png]]"
     },
     "5BFF3F.png": {
         "Conversational AI Tools for Thought": "![[5BFF3F.png]]"
@@ -8127,6 +8178,15 @@ export const backlinks = {
         "The Sudden Rise of Bondee": "![[13B6F7.png]]",
         "혜성처럼 나타난 본디": "![[13B6F7.png]]"
     },
+    "2A7F74.png": {
+        "Nudge": "![[2A7F74.png]]"
+    },
+    "2FC4F2.png": {
+        "Nudge": "![[2FC4F2.png]]"
+    },
+    "3C14C4.png": {
+        "Nudge": "![[3C14C4.png]]"
+    },
     "6DFC4D.png": {
         "Notion AI": "![[6DFC4D.png]]"
     },
@@ -8264,6 +8324,9 @@ export const backlinks = {
     "D765C4.png": {
         "Things (3D)": "![[D765C4.png]]"
     },
+    "USC": {
+        "LavaLab": "- The only club I am attached to at [[USC]]."
+    },
     "9C8F45.png": {
         "Search-based Tools for Thought": "![[9C8F45.png]]"
     },
@@ -8314,9 +8377,6 @@ export const backlinks = {
     },
     "3F9675.png": {
         "Fiercely Overpriced": "![[3F9675.png]]"
-    },
-    "3BD418.png": {
-        "Interactive Articles": "![[3BD418.png]]"
     },
     "B59279.png": {
         "Interactive Articles": "![[B59279.png]]"
