@@ -10,7 +10,7 @@ slug: '/31A35D'
 ![[5CCDE2.png]]
 ![[1866C8.png]]
 
-### The "Length" dimension of [[Synthote]]s
+### The "Length" dimension of [[Generative Intelligence]]s
 
 ![[A933EB.png]]
 

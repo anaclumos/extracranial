@@ -16,6 +16,6 @@ slug: '/E6DB5B'
 
 ## References
 
-- [Sandbox \(computer security\) - Wikipedia](<https://en.wikipedia.org/wiki/Sandbox_(computer_security)>)
+- [Sandbox (computer security) - Wikipedia](<https://en.wikipedia.org/wiki/Sandbox_(computer_security)>)
   - A sandbox is implemented by executing the software in a restricted operating system environment, thus controlling the resources.
 - [google/sandboxed-api: Generates sandboxes for C/C++ libraries automatically](https://github.com/google/sandboxed-api)

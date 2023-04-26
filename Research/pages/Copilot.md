@@ -3,5 +3,5 @@ lang: 'en'
 slug: '/9745EA'
 ---
 
-- A [[Synthote]] for developers.
+- A [[Generative Intelligence]] for developers.
 - [[GitHub Copilot Investigation]]

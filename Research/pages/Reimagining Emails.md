@@ -7,7 +7,7 @@ slug: '/BD5933'
 - [[Emails and Decentralized Protocols]]
 - [[SMTP]]
 - [[Newsletter]]
-- Potential links to [[Synthote]]?
+- Potential links to [[Generative Intelligence]]?
 - Interactive [[Mail|Emails]] using [[AMP Email]]. Example: [[Spellbound]]
 - [[React Email]]
 

@@ -21,11 +21,11 @@ class Solution {
         var map = [Character: Int]()
         for (_, char) in magazine.enumerated() {
             if map.keys.contains(char) {
-                print("\(char) is in map")
+                print("(char) is in map")
                 map[char]! += 1
             }
             else {
-                print("\(char) is not in map")
+                print("(char) is not in map")
                 map[char] = 1
             }
         }
