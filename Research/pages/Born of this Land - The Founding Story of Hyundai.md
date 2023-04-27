@@ -3,17 +3,17 @@ lang: 'en'
 slug: '/9BA15D'
 ---
 
-Below is the book "Born of this Land" by Jung Joo-young. I've read the book and am just summarizing it for reference. I hope it helps you too.
+Below is the book **Born of this Land** by Jung Joo-young. I've read the book and am just summarizing it for reference. I hope it helps you too.
 
 ## Overcoming Education With Flexible Ideas
 
 Jung Joo-young only finished elementary school, but he left his hometown to escape the fate of being a farmer. He did not have any higher education, but he had a brain that thought harder than others, a calculation ability that was more precise than others, a sense of adventure that was more active than others, and courage and conviction.
 
-He especially disliked not thinking flexibly. For example, when someone thought that a mixer truck was a finished product and mindlessly waited for a crane, he scolded the worker, asking him why he didn't think of modifying the height of the mixer truck's concrete outlet to the size of the formwork, eliminating the cumbersome crane, shortening the working time and eliminating unnecessary waste of workforce. Jung believed that being a "slave" to having stereotypes (fixed thoughts) makes you less adaptable. A textbook mindset is a stereotype, a trap that makes us stupid. He felt that if you look for a way, you will find it; if you don't see a way, it's because you haven't thought about it enough. For example, Hyundai Shipbuilding was able to build a shipyard and build ships in two years and three months, which would have taken others five years, because it broke the common sense of 'Hyundai can only build ships after completing building the shipyard'; Hyundai did it side by side. If you're used to avoiding obstacles, you'll only work around them when facing something you must overcome. Another example is that when Jung first started working outsourcing jobs for the [[United States of America|US]] military, Jung had to put fresh green grass on a UN cemetery in the middle of winter. Jung faked it with barley as if it were grass and won the favor of the [[United States of America|US]] military, and from then on, all of our work for the [[United States of America|US]] Army in [[대한민국|Korea]] was Hyundai's.
+He especially disliked not thinking flexibly. For example, when someone thought that a mixer truck was a finished product and mindlessly waited for a crane, he scolded the worker, asking him why he didn't think of modifying the height of the mixer truck's concrete outlet to the size of the formwork, eliminating the cumbersome crane, shortening the working time and eliminating unnecessary waste of workforce. Jung believed that being a **slave** to having stereotypes (fixed thoughts) makes you less adaptable. A textbook mindset is a stereotype, a trap that makes us stupid. He felt that if you look for a way, you will find it; if you don't see a way, it's because you haven't thought about it enough. For example, Hyundai Shipbuilding was able to build a shipyard and build ships in two years and three months, which would have taken others five years, because it broke the common sense of 'Hyundai can only build ships after completing building the shipyard'; Hyundai did it side by side. If you're used to avoiding obstacles, you'll only work around them when facing something you must overcome. Another example is that when Jung first started working outsourcing jobs for the [[United States of America|US]] military, Jung had to put fresh green grass on a UN cemetery in the middle of winter. Jung faked it with barley as if it were grass and won the favor of the [[United States of America|US]] military, and from then on, all of our work for the [[United States of America|US]] Army in [[대한민국|Korea]] was Hyundai's.
 
 ## Give up Short-term Gains for Long-term Vision.
 
-> In any endeavor, new challenges require "tuition". A smooth ride is not a challenge.
+> In any endeavor, new challenges require **tuition**. A smooth ride is not a challenge.
 
 For example, when bidding for a [[project]] in the Middle East, he intentionally bid slightly lower, even with a slight loss, to create a workplace where our artisans can earn dollars. The dollars they make are the dollars our country earns. And just by completing this [[project]], Hyundai would've gained an international reputation, which would be very helpful in winning overseas projects in the future. Therefore, winning the bid, even at a low price, was wiser than missing out on the job by focusing on immediate profits.
 
@@ -33,9 +33,9 @@ During the [[한민족|Korean]] War, Jung was deeply disappointed by how politic
 
 When hosting the Olympic Games in [[서울|Seoul]] ('88), Hyundai planned and constructed with the principle of preparing thoroughly so there would be no deficit and no regrets. The facilities of a country that invests taxpayer money should be designed and constructed to be the most efficient facilities with the least amount of money.
 
-## "不恥下問."
+## **不恥下問.**
 
-There's a saying that goes something like "不恥下問". It means there is no shame in asking someone younger than you, or someone with a lower status than you, what you don't know. During the various construction projects, Hyundai learned a lot from the American engineers, who were very serious and willing to learn everything they could.
+There's a saying that goes something like **不恥下問**. It means there is no shame in asking someone younger than you, or someone with a lower status than you, what you don't know. During the various construction projects, Hyundai learned a lot from the American engineers, who were very serious and willing to learn everything they could.
 
 ## Time is money
 
@@ -65,7 +65,7 @@ Jung Joo-young is constantly thinking about what to do with his tail. He harbors
 
 Although President Park was a flawed leader who came to power through a coup d'état, Jung admired Park's determination and commitment to national development, as well as his intelligence and thoroughness in implementing it. Park accurately assessed the state of the [[한민족|Korean]] [[economy]] at the time and made bold, groundbreaking decisions to modernize the [[economy]]. Park decided to trust [[한민족|Korean]] entrepreneurs, who had no experience and a weak foundation, and the government guaranteed the payment of foreign loans based on business plans submitted by entrepreneurs. There was no other thought for Jung but to help the president, selflessly thinking of the country.
 
-> Park: "I said, the president of a country and the deputy prime minister of the [[economy]] is helping you. And you can't do that one thing, so you give up? So you thought this would be easy when you first said you would do it? Of course, you knew it would be difficult. And still, if you made a promise, you should do it no matter what, no matter how you do it, and now you're saying you can't do it because you can't just try it once more?" Jung had no words.
+> Park: **I said, the president of a country and the deputy prime minister of the [[economy]] is helping you. And you can't do that one thing, so you give up? So you thought this would be easy when you first said you would do it? Of course, you knew it would be difficult. And still, if you made a promise, you should do it no matter what, no matter how you do it, and now you're saying you can't do it because you can't just try it once more?** Jung had no words.
 
 ## Luck is Mostly Timing
 
@@ -91,7 +91,7 @@ In industrial societies, farming is considered a livelihood, and there are many 
 
 ## Unions and collective selfishness at Hyundai Heavy Industries (HHI)
 
-> It was excruciating for the unions at HHI to suffer humiliation year after year, even though their treatment was so harsh, their working environment so harmful, and their welfare so inferior that they played a leading role in national union activities. They worked very hard, but I was doing my best. I felt an unspeakable sense of betrayal from them as if I had become a rogue entrepreneur who had achieved "modernity" by exploiting their wages. Their demands had nothing to do with the company's difficult situation and were endless. I miss those days when the country was united in its desire to escape poverty, and people worked day and night like fighters for independence. Even though they worked in much worse conditions, were treated much worse, had no proper equipment, and did almost manual labor, they had a sense of duty and pride in being an industrial force that played a role in the country's economic development. Their hard work should not be sacrificed to collective selfishness, which has made this country worth living in. Do we want to return to the poverty of the past? Without a country, there are no people; without companies, there is no workplace.
+> It was excruciating for the unions at HHI to suffer humiliation year after year, even though their treatment was so harsh, their working environment so harmful, and their welfare so inferior that they played a leading role in national union activities. They worked very hard, but I was doing my best. I felt an unspeakable sense of betrayal from them as if I had become a rogue entrepreneur who had achieved **modernity** by exploiting their wages. Their demands had nothing to do with the company's difficult situation and were endless. I miss those days when the country was united in its desire to escape poverty, and people worked day and night like fighters for independence. Even though they worked in much worse conditions, were treated much worse, had no proper equipment, and did almost manual labor, they had a sense of duty and pride in being an industrial force that played a role in the country's economic development. Their hard work should not be sacrificed to collective selfishness, which has made this country worth living in. Do we want to return to the poverty of the past? Without a country, there are no people; without companies, there is no workplace.
 
 ## Temporary Hardships may Exist; but never a Complete failure.
 
