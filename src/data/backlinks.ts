@@ -6842,6 +6842,9 @@ export const backlinks = {
     "Matrix Network": {
         "2023-03-16": "- [[Matrix Network]]"
     },
+    "CITATION.cff": {
+        "2023-04-27": "- [[CITATION.cff]]"
+    },
     "0278 First Bad Version": {
         "Coding Tests": "- [x] [[0278 First Bad Version]]"
     },
