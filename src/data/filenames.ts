@@ -472,6 +472,7 @@ export const filenames = {
     "CDN": "71ED47",
     "CELLO": "1D64EA",
     "CELLO (Product)": "177B14",
+    "CITATION.cff": "7A357B",
     "CJK": "F13C58",
     "CMDK": "9D1F64",
     "CODE Procedure": "D6FDF3",
