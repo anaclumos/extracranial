@@ -490,7 +490,7 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "- [[Algorithmic Recommendation Engine for Texts]]"
     },
     "Tailscale": {
-        "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, \"Best VPN for developers.\"",
+        "2022-06-26": "- Got [[Tailscale]] recommended from work. Quote, Best VPN for developers.",
         "2022-10-13": "- Taildrop · Tailscale: Cross-Platform AirDrops [[Tailscale]]",
         "2022-10-20": "- [[Tailscale]]"
     },
@@ -678,7 +678,7 @@ export const backlinks = {
     "Aldehyde": {
         "2022-11-03": "- [[Aldehyde]]",
         "2022-12-04": "- [[Aldehyde]]",
-        "2023-02-16": "On [[Aldehyde]], one user wrote, \"When you have interest to write a tutorial ...",
+        "2023-02-16": "On [[Aldehyde]], one user wrote, When you have interest to write a tutorial ...",
         "2023-03-28": "- [[Aldehyde]]",
         "Better Aldehyde": "- [[Aldehyde]]",
         "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨",
@@ -870,6 +870,9 @@ export const backlinks = {
     },
     "Digital Bookmarks for Physical Books": {
         "2023-01-09": "- [[Digital Bookmarks for Physical Books]]"
+    },
+    "Bikeshed": {
+        "2023-04-27": "- [[Bikeshed]]"
     },
     "Digital Signature": {
         "2022-10-23": "- [[Digital Signature]]"
@@ -1452,7 +1455,7 @@ export const backlinks = {
     },
     "Tailwind": {
         "2022-11-29": "- [[Tailwind]]",
-        "2022-12-04": "- The Verge is now built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, @vercel, and ...",
+        "2022-12-04": "- The Verge is now built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: The Verge: new version built with @nextjs, @vercel, and ...",
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
         "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용",
@@ -2257,7 +2260,7 @@ export const backlinks = {
     },
     "雅號": {
         "2023-01-09": "- [[雅號]]",
-        "서울": "... the final candidates for the city's name were 우남(雩南, Woo-Nam, President's [[雅號|Ho]]), 한양(漢陽, Han-Yang), 한경(韓京, Han-Kyeong), and 한성(漢城, Han-Sung). The name \"Seoul\" eventually ..."
+        "서울": "... the final candidates for the city's name were 우남(雩南, Woo-Nam, President's [[雅號|Ho]]), 한양(漢陽, Han-Yang), 한경(韓京, Han-Kyeong), and 한성(漢城, Han-Sung). The name Seoul eventually ..."
     },
     "Bernoulli Distribution": {
         "2023-01-24": "- [[Bernoulli Distribution]]",
@@ -2686,7 +2689,7 @@ export const backlinks = {
     "Next.js": {
         "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
         "2022-10-25": "## [[Next.js]] Conf",
-        "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with ...",
+        "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: The Verge: new version built with ...",
         "Apple-like Block Interface": "## [[Next.js]]",
         "Front-end": "- [[Next.js]]",
         "Vercel": "... American cloud platform as a service company. The company maintains the [[Next.js]] web development framework. Vercel's architecture is built around Jamstack, and deployments ...",
@@ -2758,7 +2761,7 @@ export const backlinks = {
         "Love Software": "- [[Love Wikipedia]]"
     },
     "PKM": {
-        "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays ...",
+        "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like graphs, where there the term plays ...",
         "2022-07-01": "... that the term Second Brain|Digital Brain, Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are not quite the same.",
         "PKM": "| [[PKM]]            ...",
         "Pensieve": "... the intermediary bridge between web browser data stream (ephemeral) and long-term [[PKM]] data storage.",
@@ -2798,7 +2801,7 @@ export const backlinks = {
         "2022-11-19": "  - [[라즈베리 파이로 스마트 오디오 시스템 만들기]]"
     },
     "ARM Architecture": {
-        "2022-06-10": "... — which has \"massive implications for future security work on all [[ARM Architecture|ARM]] systems with pointer authentication enabled,\" says Joseph Ravichandran, a PhD student ...",
+        "2022-06-10": "... — which has massive implications for future security work on all [[ARM Architecture|ARM]] systems with pointer authentication enabled, says Joseph Ravichandran, a PhD student ...",
         "2022-11-03": "- [[ARM Architecture]]",
         "Computer Systems": "- [[ARM Architecture]]",
         "How is WebAssembly cross-platform when Assembly is not": "... designed similarly to ASM. Therefore, compiling WebAssembly|WASM to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can ...",
@@ -2907,7 +2910,7 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-18 | 🇬🇧 [[Imagining WebNPU API]] <br/> 🇰🇷 [[WebNPU API를 상상하다]]       ..."
     },
     "Wikipedia": {
-        "2022-06-12": "- Current PKM software tries to make [[Wikipedia]]-like graphs, where there the \"term\" plays a crucial role in graphing. ...",
+        "2022-06-12": "- Current PKM software tries to make [[Wikipedia]]-like graphs, where there the term plays a crucial role in graphing. ...",
         "2022-07-01": "...        | Notes are in [[Wikipedia]] Style           ...",
         "2022-12-08": "- [[Wikipedia]]",
         "2023-01-23": "It seems like [[Wikipedia]] updated its [[CSS]]...",
@@ -3312,7 +3315,7 @@ export const backlinks = {
         "2023-03-10": "- [[Common App for Resume]]"
     },
     "Generative AI": {
-        "2022-12-17": "... the notion of \"feasibility\" changed once and for all as the [[Generative AI]] emerged?",
+        "2022-12-17": "... the notion of feasibility changed once and for all as the [[Generative AI]] emerged?",
         "2022-12-24": "- [[Generative AI]]",
         "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. This is not to stop them.",
         "Conversational AI Tools for Thought": "- ChatGPT and [[Generative AI]] are not exactly [[Tools for Thought]] for now. However, it has ...",
@@ -3336,7 +3339,7 @@ export const backlinks = {
     },
     "Stable Diffusion": {
         "2022-11-29": "### [[Stable Diffusion]]",
-        "2022-12-17": "... Mesmerizing. Whenever I see something made with LLM like GPT or [[Stable Diffusion]]... it just blows my mind. Has the notion of \"feasibility\" changed ...",
+        "2022-12-17": "... Mesmerizing. Whenever I see something made with LLM like GPT or [[Stable Diffusion]]... it just blows my mind. Has the notion of feasibility changed ...",
         "Prompt Engineering": "- [[Stable Diffusion]]",
         "Screenshot as an API": "  - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]",
         "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
@@ -3384,7 +3387,7 @@ export const backlinks = {
         "Why Korean Banks Suck": "... 대한민국|Korean banking sector, the emergence of new Financial Technology|fintech companies like [[Toss]] and KakaoBank has brought some positive changes. These companies have disrupted ...",
         "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 [[Toss|토스]], [[Kakao|카카오]]뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 ...",
         "서비스 시밍": "- [[Toss|토스]]도 송금 시스템을 완성하지 못해 하루에 3번 이승건이 직접 은행에 가서 송금 ...",
-        "유난한 도전": "이승건은 \"앱 하나만 만들어보는 거야, 개원은 반년만 미루자\"라는 마음으로 [[Toss|토스]]를 시작했다.",
+        "유난한 도전": "이승건은 앱 하나만 만들어보는 거야, 개원은 반년만 미루자라는 마음으로 [[Toss|토스]]를 시작했다.",
         "프로젝트 어덕행덕": "... 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 Kakao|카카오페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 것. ..."
     },
     "GPU": {
@@ -3648,7 +3651,7 @@ export const backlinks = {
         "2022-07-18": "- No trackers, no [[JavaScript]], no stylesheets. Just your words",
         "2022-07-20": "- [[JavaScript]] → [[TypeScript]]",
         "2022-11-30": "... or Rust's performance? Unlikely, but the thing is that the current [[JavaScript]] tools could be faster than they are today. And the things ...",
-        "Boring Technologies": "- It didn't matter if you were writing in Ruby, [[JavaScript]], or Objective-C. Your code had to have a level of \"magic\" ...",
+        "Boring Technologies": "- It didn't matter if you were writing in Ruby, [[JavaScript]], or Objective-C. Your code had to have a level of magic ...",
         "CSS": "... a cornerstone technology of the World Wide Web, alongside HTML and [[JavaScript]]. CSS",
         "Classic Blogs": "- Bear Blog: No trackers, no [[JavaScript]], no stylesheets blog for hackers",
         "Deno Deploy": "- Deploy [[JavaScript]] Globally",
@@ -4242,7 +4245,7 @@ export const backlinks = {
         "2022-09-30": "- [[Vercel]] Serving millions of users on the new MrBeast storefront - Vercel",
         "2022-10-10": "  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
-        "2022-12-04": "- The Verge is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: \"The Verge: new version built with @nextjs, ...",
+        "2022-12-04": "- The Verge is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: The Verge: new version built with @nextjs, ...",
         "2022-12-28": "- Frontend web framework: NextJS/[[Vercel]] (Past: Ruby on Rails/Heroku)",
         "2023-01-27": "I had to migrate Extracranial to Cloudflare Pages for [[Vercel]] for now...",
         "2023-04-10": "For comparison, this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
@@ -4269,7 +4272,7 @@ export const backlinks = {
         "Project Core ML Inference": "- How would you transfer data from one Hadoop [[Clustering|cluster]] to another?"
     },
     "Karrot": {
-        "2022-05-31": "... 수량의 문제를 모두 해결하는 것입니다. 굳이 레거시 기업들에 빗대고 싶진 않지만, \"[[Karrot|당근마켓]] + 배달의민족 + 쿠팡\"이라고 생각하면 됩니다. -",
+        "2022-05-31": "... 수량의 문제를 모두 해결하는 것입니다. 굳이 레거시 기업들에 빗대고 싶진 않지만, [[Karrot|당근마켓]] + 배달의민족 + 쿠팡이라고 생각하면 됩니다. -",
         "2022-06-14": "- [[Karrot|당근]] 베타 [[Project|프로젝트]]에서 [[Karrot]] Frame 데모 앱을 돌려보며 터지던 부분들을 나열해 보았다.",
         "2022-08-03": "I never expected to get an internship at [[Karrot]] four months ago.",
         "2023-02-21": "- [[Karrot]]",
@@ -4690,7 +4693,7 @@ export const backlinks = {
     "Economy": {
         "2022-07-08": "- It's normal for an early-stage communist [[economy]] to boom. They can reach a certain ceiling fast, but they ...",
         "2022-07-28": "- After the 2008 recession, Internet culture and [[economy]] were formed around Facebook and [[Twitter]]",
-        "2023-02-08": "... elite (and the media in tow) attempts to reframe a \"rough [[economy]]\" as a time that puts workers in their place. Boss erotica ...",
+        "2023-02-08": "... elite (and the media in tow) attempts to reframe a rough [[economy]] as a time that puts workers in their place. Boss erotica ...",
         "2023-02-24": "- [[Economy]]",
         "AI는 고가 노동부터 점령한다": "노동 가치가 고가인 경우 [[Economy|경제]]학적으로 수요가 매우 많은데 공급을 키울 수 없는 경우가 해당한다. 의료와 법률 ...",
         "API Economy": "> The API [[economy]] is a business model built around the use of APIs in ...",
@@ -5764,7 +5767,7 @@ export const backlinks = {
         "WorkerDOM": "[[Google]]'s take on providing [[DOM]] access to [[Web Worker]] Threads.",
         "도메인 찾아 삼만리": "... 비싸고 장난처럼 느껴졌고 `.xyz`는 아이디어가 부족해 고른 것 같았다. 1년 뒤 [[Google|구글]]이 `.dev` 도메인을 [[GA|공개]]했고, `cho.dev`을 사려 했지만 ▲ 가격이 너무 비쌌고(~800달러) ▲ ...",
         "배달의민족 FE 개발자가 일하는 법 발표": "- [[Google]], Line",
-        "식영부원의 관점에서 바라본 치킨데이": "... 신청 과정은 민사고 전교생이 가입된 페이스북 그룹인 \"민사고|KMLA 전체공지\"를 이용해서 공지하고, [[Google]] Form의 설문지를 이용해 설문을 하게 됩니다. 설문이 완료되고 나면 식영부원들은 이 ...",
+        "식영부원의 관점에서 바라본 치킨데이": "... 신청 과정은 민사고 전교생이 가입된 페이스북 그룹인 민사고|KMLA 전체공지를 이용해서 공지하고, [[Google]] Form의 설문지를 이용해 설문을 하게 됩니다. 설문이 완료되고 나면 식영부원들은 이 ...",
         "인하우스와 자유경쟁": "... 우선시한다. 이런 기업 연구소의 기술은 몇 년 앞서 있다. 예를 들어, [[Google]]의 내부 연구소는 경쟁 우위를 유지하기 위해 최첨단 연구를 공개하지 않고 있다. ..."
     },
     "Handwriting Grammarly": {
@@ -6041,7 +6044,7 @@ export const backlinks = {
         "Readings": "- [x] [[지구 끝의 온실]]"
     },
     "Fediverse": {
-        "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply \"join Mastodon.\" Instead, users ..."
+        "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply join Mastodon. Instead, users ..."
     },
     "Turing Machine": {
         "Assembly": "It follows how [[Turing Machine]]s would work in the real world.",
@@ -6122,7 +6125,7 @@ export const backlinks = {
         "Using an iPad as my Ebook": "> I just saw the [[Kindle]] Scribe launch, but it still does not satisfy my needed features, ..."
     },
     "AWS": {
-        "2022-10-16": "... 몽키\"라는 시스템이 있다. 개발자들 몰래 서버를 끄는 봇이다. 카오스 킹콩은 한 [[AWS]] 리전 전체를 끈다. 그럼 자동으로 모든 리퀘스트가 다른 리전으로 리라우팅된다. 해일, ...",
+        "2022-10-16": "... 몽키라는 시스템이 있다. 개발자들 몰래 서버를 끄는 봇이다. 카오스 킹콩은 한 [[AWS]] 리전 전체를 끈다. 그럼 자동으로 모든 리퀘스트가 다른 리전으로 리라우팅된다. 해일, ...",
         "2022-12-28": "- Scheduled Job: [[AWS]] Lambda (Linux + cron)",
         "2023-04-10": "For comparison, this would cost $9,600 with Vercel and $2,017 in [[AWS]] CloudFront.",
         "AWS Nuke": "- rebuy-de/[[aws]]-nuke: Nuke a whole [[AWS]] account and delete all its resources. https://github.com/rebuy-de/aws-nuke",

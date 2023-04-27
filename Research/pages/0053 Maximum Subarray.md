@@ -27,7 +27,7 @@ class Solution:
         return largest
 ```
 
-- try to see if keeping the previous "part" is worth it.
+- try to see if keeping the previous **part** is worth it.
 - if it is worth it, that means the part before is positive.
 
 ## Results

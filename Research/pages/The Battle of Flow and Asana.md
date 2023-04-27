@@ -23,8 +23,8 @@ He walked me through who was backing them, how much cash they had, how they had 
 
 **I laughed!**
 I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon Valley KoolAid.
-"Nice try!"
-I told him "let the games begin" and we left with a friendly handshake.
+**Nice try!**
+I told him **let the games begin** and we left with a friendly handshake.
 Flow kept growing quickly, but our customers were demanding.
 
 **Asana quickly released clients on all platforms.**
@@ -39,7 +39,7 @@ We lost the war, due to inexperience, product myopia, and a lack of capital in a
 1. If you are in a competitive [[Venture Capital|VC]]-funded space, it's foolish to compete without raising money. Don't bring a knife to a gun fight.
 2. The best product doesn't always win, and product is not a longterm competitive advantage.
 3. If a tree falls in the forest and nobody is around to hear it, it didn't fall.
-4. Every developer in the world wakes up thinking "I should build a to-do list app" and people love jumping between productivity apps and workflows. There is no moat in productivity—avoid it if you can.
+4. Every developer in the world wakes up thinking **I should build a to-do list app** and people love jumping between productivity apps and workflows. There is no moat in productivity—avoid it if you can.
 5. Running a SaaS business without deeply understanding churn, LTV, CAC etc, is like flying a plane without instrumentation—really stupid and dangerous.
 6. Failure sneaks up on you slowly, then all at once.
 7. R&D is EXPENSIVE. Especially when competing with venture.
