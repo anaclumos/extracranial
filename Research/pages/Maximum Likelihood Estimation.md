@@ -24,8 +24,6 @@ $\hat{1 \over p} = \overline{X_n} \Rightarrow \hat{p} = {1 \over \overline{x}}$
 
 ${\hat{\sigma^2}}^\text{ML} = {q \over p^2} = {\hat{{1-p} \over p^2}}^\text{ML} = 1 - {{1 \over \overline{x_n}}  \over {{1 \over \overline{x_n}}^2}}$
 
----
-
 Max-likelihood: Tries to give the best PDF.
 
 Max-likelihood parameter as $\hat \theta$

@@ -41,8 +41,6 @@ slug: '/7257B8'
 <ruby>國<rp>(</rp><rt>국</rt><rp>)</rp></ruby>이다.
 ```
 
----
-
 ## 응용
 
 매번 이렇게 쓰기 귀찮으니 나만의 문법을 만들어 util 함수를 작성해봤다.
@@ -77,8 +75,6 @@ const rubify = (text) => {
 }
 ```
 
----
-
 `{{`와 `}}` 사이에 `^`를 기준으로 오른쪽을 왼쪽 위에 중앙 정렬해서 올려 준다.
 
 ```js
@@ -88,8 +84,6 @@ processRuby('{{大韓民國^대한민국}}은 {{民主共和國^민주공화국}
 <div>
 <ruby>大韓民國<rp>(</rp><rt>대한민국</rt><rp>)</rp></ruby>은 <ruby>民主共和國<rp>(</rp><rt>민주공화국</rt><rp>)</rp></ruby>이다.
 </div>
-
----
 
 `^^`를 사용하면 글자마다 맞춰준다.
 
@@ -101,8 +95,6 @@ processRuby('{{大韓民國^^대한민국}}은 {{民主共和國^^민주공화�
 <ruby>大<rp>(</rp><rt>대</rt><rp>)</rp></ruby><ruby>韓<rp>(</rp><rt>한</rt><rp>)</rp></ruby><ruby>民<rp>(</rp><rt>민</rt><rp>)</rp></ruby><ruby>國<rp>(</rp><rt>국</rt><rp>)</rp></ruby>은 <ruby>民<rp>(</rp><rt>민</rt><rp>)</rp></ruby><ruby>主<rp>(</rp><rt>주</rt><rp>)</rp></ruby><ruby>共<rp>(</rp><rt>공</rt><rp>)</rp></ruby><ruby>和<rp>(</rp><rt>화</rt><rp>)</rp></ruby><ruby>國<rp>(</rp><rt>국</rt><rp>)</rp></ruby>이다.
 </div>
 
----
-
 대부분의 경우 `^^` 왼쪽과 오른쪽 글자 수를 같게 사용하겠지만, 아니라면 `^^` 왼쪽을 기준으로 왼쪽정렬된다. 왼쪽 글자 수를 넘어가면 무시된다.
 
 ```js
@@ -112,8 +104,6 @@ processRuby('{{大韓民國^^대한}}은 {{民主共和國^^민주공화국국}}
 <div>
 <ruby>大<rp>(</rp><rt>대</rt><rp>)</rp></ruby><ruby>韓<rp>(</rp><rt>한</rt><rp>)</rp></ruby><ruby>民<rp>(</rp><rt></rt><rp>)</rp></ruby><ruby>國<rp>(</rp><rt></rt><rp>)</rp></ruby>은 <ruby>民<rp>(</rp><rt>민</rt><rp>)</rp></ruby><ruby>主<rp>(</rp><rt>주</rt><rp>)</rp></ruby><ruby>共<rp>(</rp><rt>공</rt><rp>)</rp></ruby><ruby>和<rp>(</rp><rt>화</rt><rp>)</rp></ruby><ruby>國<rp>(</rp><rt>국</rt><rp>)</rp></ruby>이다.
 </div>
-
----
 
 `^` 를 사용할 때는 좌우 글자 수가 달라도 중앙 정렬되기에 상관 없다.
 
@@ -125,8 +115,6 @@ processRuby('{{大韓民國^대한}}은 {{民主共和國^민주공화국국}}�
 <ruby>大韓民國<rp>(</rp><rt>대한</rt><rp>)</rp></ruby>은 <ruby>民主共和國<rp>(</rp><rt>민주공화국국</rt><rp>)</rp></ruby>이다.
 </div>
 
----
-
 `^^` 오른쪽을 비워두면 강조점을 자동으로 왼쪽 길이에 맞춰 넣어준다. 강조점은 글자 위에 `•`가 매칭되어야 하므로 `^^`를 사용해야 강조점을 제대로 삽입할 수 있다.
 
 ```js
@@ -136,8 +124,6 @@ processRuby('{{大韓民國^^}}은 {{民主共和國^^}}이다.')
 <div>
 <ruby>大<rp>(</rp><rt>•</rt><rp>)</rp></ruby><ruby>韓<rp>(</rp><rt>•</rt><rp>)</rp></ruby><ruby>民<rp>(</rp><rt>•</rt><rp>)</rp></ruby><ruby>國<rp>(</rp><rt>•</rt><rp>)</rp></ruby>은 <ruby>民<rp>(</rp><rt>•</rt><rp>)</rp></ruby><ruby>主<rp>(</rp><rt>•</rt><rp>)</rp></ruby><ruby>共<rp>(</rp><rt>•</rt><rp>)</rp></ruby><ruby>和<rp>(</rp><rt>•</rt><rp>)</rp></ruby><ruby>國<rp>(</rp><rt>•</rt><rp>)</rp></ruby>이다.
 </div>
-
----
 
 [[Haruki Murakami|하루키]]처럼 강조점을 길게 넣는 것도 가능하다.
 
