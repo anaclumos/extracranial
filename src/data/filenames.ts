@@ -779,6 +779,7 @@ export const filenames = {
     "Interface (Jumpsite)": "DDCF81",
     "Internet Computer": "46508E",
     "Internet Protocol Stack": "3E4C5F",
+    "Internetworking": "6605BD",
     "Interoperability": "25F5EF",
     "InterviewKit": "D22464",
     "Intracranial": "009C77",
