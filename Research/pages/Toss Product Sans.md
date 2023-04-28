@@ -32,8 +32,6 @@ import YouTube from '@site/src/components/YouTube'
 }
 ```
 
----
-
 ![[6F64BE.png]]
 ![[E0A8DC.png]]
 ![[BFDBF9.png]]
