@@ -7,8 +7,6 @@ $P (\lambda) = {{e^{-\lambda} \lambda^x} \over x!}$
 
 $b \rightarrow^d p$ if $n >> 1$, $p << 1$ and $\lambda = np$
 
----
-
 In [[Probability]],
 
 $$
@@ -24,8 +22,6 @@ n \gg 1 ~\text{and} ~ p \ll 1
 $$
 
 approximates binomial distribution.
-
----
 
 $$
 b \rightarrow p \iff n \gg 1 ~ \& ~ p \ll 1 ~ \& ~ \lambda = np
