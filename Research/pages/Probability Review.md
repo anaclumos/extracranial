@@ -109,12 +109,60 @@ $\sum\limits_{k=1}^{\infty} k a^k = {a \over (1-a)^2}$
 
 $\lim\limits_{n \to \infty} ({1 + x \over n})^n = e^x$
 
-| Number of Outcomes | With Replacement                       | Without Replacements        |
-| ------------------ | -------------------------------------- | --------------------------- |
-| 2                  | Binomial (different when "until"\*...) | Hypergeometric              |
-| $\geq$ 3           | Multinomial                            | Multivariate Hypergeometric |
+| Number of Outcomes | With Replacement                                     | Without Replacements        |
+| ------------------ | ---------------------------------------------------- | --------------------------- |
+| 2                  | Binomial (different when $\text{until}^\text{*}$...) | Hypergeometric              |
+| $\geq$ 3           | Multinomial                                          | Multivariate Hypergeometric |
 
-## Until\*
+## $\text{until}^\text{*}$
 
 - $1^{\text{st}}$ success → geometric
 - $r^{\text{th}}$ success → negative binomial
+
+## Poisson Distribution
+
+$P (\lambda) = {{e^{-\lambda} \lambda^x} \over x!}$
+
+$b \rightarrow^d p$ if $n >> 1$, $p << 1$ and $\lambda = np$
+
+## Continuous
+
+If $X \sim N(0,1)$, then $\mathbb{Z} = X^2 \sim \mathcal{X}^2(1)$
+
+Beta($\alpha$, $\beta$) $0 < x < 1$
+
+Uniform ($\alpha$, $\beta$) $a < x < b$
+
+Gamma $\gamma(\alpha, \beta)$
+
+$f(x) = {x^{\alpha - 1} \over \Gamma(\alpha) \theta^\alpha} e^{-x \over \theta}$
+
+Exponential($\theta$) = $\gamma(\alpha = 1, theta)$
+
+Chi-squared($\gamma$) = $\gamma(\alpha = {\gamma \over 2}, \theta = 2)$
+
+$\mathcal{X} \sim N(\mu, \sigma_x^2)$ → ${1 \over \sqrt{2 \pi} \sigma} e^{-{(x-\mu)^2} \over {2\sigma_x^2}}$
+
+$Y=g(x)$
+
+$f_y(y) = \sum\limits_{x_k} f_x(x_k) |{dx \over dy}|_{\text{@} x = x_k}$
+
+## Moments
+
+$\mathbb{E}[aX+b] = a\mathbb{E}[X] + b$
+
+$\mathbb{V}[aX+b] = a^2 \mathbb{V}{X}$
+
+$X \sim \gamma(\alpha, \theta)$, $\mathbb{E}[X^k] = {\Gamma(\alpha+k) \over \Gamma(\alpha)} \theta^k$
+
+$\Gamma(\alpha+1) = \alpha \Gamma(\alpha)$, $\Gamma(1) = 1,~\Gamma({1 \over 2}) = \sqrt{\pi}$
+
+## Uncertainty Principle
+
+$\sigma_{xy}^2 \leq \sigma_{x}^2 \sigma_{y}^2$
+
+## Covariance
+
+$\sigma_xy = \mathbb{E}[XY] - \mathbb{E}[X] \mathbb{E}[Y]$ where $\mathbb{E}[XY]$ is the correlation.
+
+$\rho_{xy} = {\sigma_{xy} \over {\sigma_x \sigma_y}}$ $-1 \leq \rho_{xy} \leq 1$
