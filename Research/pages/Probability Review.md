@@ -1,0 +1,120 @@
+---
+lang: 'en'
+slug: '/BA45A9'
+---
+
+## Logic Table
+
+$P \& Q \rightarrow P$
+
+$P \rightarrow P \vee Q$
+
+$\sim (P \vee Q) \leftrightarrow \sim P \& \sim Q$
+
+$\sim (P \& Q) \leftrightarrow \sim P \vee \sim Q$
+
+## Set Theory
+
+$x \in A \subset \Omega$
+
+$A^C = \{x \in \Omega, ~ x \notin A \}$
+
+$A \cup B = \{x \in \Omega, ~ x \in A \vee ~ x \in B\}$
+
+$A \cap B = \{x \in \Omega, ~ x \in A \& ~ x \in B\}$
+
+$A \subset B \leftrightarrow \forall x \in A, x \in B$
+
+$A = B \leftrightarrow A \subset B, B \subset A$
+
+$A - B = A \cap B^C$
+
+$A \cap B \subset A \subset A \cup B$
+
+## De Morgan's Law
+
+${(A \cup B)}^C = A^C \cap B^C$
+
+${(A \cap B)}^C = A^C \cup B^C$
+
+## Probability
+
+$x \in A \subset \Omega \in \alpha \subset 2^{\Omega}$
+
+$\alpha$ is Sigma Alpha if and only if it is CUT
+
+$(\Omega, \alpha)$ is the measurable space.
+
+$P$, $\alpha \rightarrow [0, 1]$ and CA (Countably Additive)
+
+$P(\cup_{k=1}^{\infty} A_k) = \sum\limits_{k=1}^{\infty}P(A_k)$ if $A_1 \cap A_j = \emptyset, \forall i \neq j, P(\Omega) = 1$
+
+$(P, \alpha, \Omega)$ is the probability space.
+
+$A$ and $B$ are mutually exclusive.
+
+$A \cap B = \emptyset$
+
+$A$ and $B$ are independent
+
+$P(A \cap B) = P(A) P(B)$
+
+$P (A \cup B) = P (A) + P(B) - P (A \cap B)$
+
+## Multiplication Theorem
+
+$P (\cap_{k=1}^{n} A_k) = P(A_1) P(A_2 | A_1) \cdots P(A_n | A_1 \cap A_2 \cdots A_{n-1})$
+
+if independent
+
+$P (\cap_{k=1}^{n} A_k) = \prod\limits_{k=1}^n (A_k)$
+
+$P(A|B) = {P(A \cap B) \over P(B)} {=^{\text{ind}}} P(A)$
+
+## Partition
+
+${H_k}$ is a partition means
+
+$H_1 \cap H_j = \emptyset, \forall i \neq j$
+
+$\cup_{k=1}^{n} A_k = \Omega$
+
+## Total Probability
+
+$P(E) = \sum\limits_k P(H_k) P(E | H_k)$
+
+## Bayes' Theorem
+
+If ${H_k}$ partitions $\Omega$ then
+
+$P(H_j | E) = {{P(E|H_k) P(H_k)} \over {\sum\limits_{j} P(E|H_j) P(H_j)}}$
+
+## Binomial Theorem
+
+$(p + q)^n = \sum\limits_{k=0}^n {n \choose k} p^k q^{n-k}$
+
+$\sum\limits_{j=1}^{\infty} a^j = {a \over {1-a}}, |a| < 1$
+
+$S_N = \sum\limits_{j=1}^N a^j$
+
+$S_N = a + a^2 + \cdots + a^N$ — ①
+
+$aS_N = a^2 + \cdots a^{N+1}$ — ②
+
+If we subtract ② from ①, we get
+
+$S_N = {{a - a^{n+1}} \over {1-a}}$
+
+$\sum\limits_{k=1}^{\infty} k a^k = {a \over (1-a)^2}$
+
+$\lim\limits_{n \to \infty} ({1 + x \over n})^n = e^x$
+
+| Number of Outcomes | With Replacement                       | Without Replacements        |
+| ------------------ | -------------------------------------- | --------------------------- |
+| 2                  | Binomial (different when "until"\*...) | Hypergeometric              |
+| $\geq$ 3           | Multinomial                            | Multivariate Hypergeometric |
+
+## Until\*
+
+- $1^{\text{st}}$ success → geometric
+- $r^{\text{th}}$ success → negative binomial
