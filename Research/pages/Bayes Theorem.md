@@ -18,3 +18,9 @@ The [[Odds]] form of Bayes Theorem is
 $$
 O(H|E) = O(H) {P(E|H) \over P(E|H^C)}
 $$
+
+---
+
+If ${H_k}$ partitions $\Omega$ then
+
+$P(H_j | E) = {{P(E|H_k) P(H_k)} \over {\sum\limits_{j} P(E|H_j) P(H_j)}}$

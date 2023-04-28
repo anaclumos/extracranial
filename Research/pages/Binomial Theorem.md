@@ -3,6 +3,36 @@ lang: 'en'
 slug: '/B9D8EC'
 ---
 
+$(p + q)^n = \sum\limits_{k=0}^n {n \choose k} p^k q^{n-k}$
+
+$\sum\limits_{j=1}^{\infty} a^j = {a \over {1-a}}, |a| < 1$
+
+$S_N = \sum\limits_{j=1}^N a^j$
+
+$S_N = a + a^2 + \cdots + a^N$ — ①
+
+$aS_N = a^2 + \cdots a^{N+1}$ — ②
+
+If we subtract ② from ①, we get
+
+$S_N = {{a - a^{n+1}} \over {1-a}}$
+
+$\sum\limits_{k=1}^{\infty} k a^k = {a \over (1-a)^2}$
+
+$\lim\limits_{n \to \infty} ({1 + x \over n})^n = e^x$
+
+| Number of Outcomes | With Replacement                                     | Without Replacements        |
+| ------------------ | ---------------------------------------------------- | --------------------------- |
+| 2                  | Binomial (different when $\text{until}^\text{*}$...) | Hypergeometric              |
+| $\geq$ 3           | Multinomial                                          | Multivariate Hypergeometric |
+
+## $\text{until}^\text{*}$
+
+- $1^{\text{st}}$ success → geometric
+- $r^{\text{th}}$ success → negative binomial
+
+---
+
 In [[Probability]],
 
 $$
