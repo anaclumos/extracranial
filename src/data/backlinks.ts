@@ -5538,6 +5538,9 @@ export const backlinks = {
         "이완용": "[[한민족의 동족상잔]]와 [[헤이그 특사]] 항목에서 볼 수 있듯이 20세기 초 관리들 사이에서는 일제에 ...",
         "한민족은 해적되었다": "그것이 [[한민족의 동족상잔|동족]]이든 [[일본 과학기술 총력전|외세]]이든..."
     },
+    "Probability Review": {
+        "2023-04-27": "- [[Probability Review]]"
+    },
     "Handwriting Tools for Thoughts": {
         "2022-10-12": "- [[Handwriting Tools for Thoughts]]",
         "Handwriting Grammarly": "- Grammarly for [[Handwriting Tools for Thoughts]]",
