@@ -699,7 +699,6 @@ export const backlinks = {
         "DASH Protocol": "## Dynamic, Adaptive Streaming over [[HTTP]]",
         "HTMX": "... tells HTMX: \"When a user clicks on this button, issue an [[HTTP]] POST request to '/clicked' and use the content from the response ...",
         "Internet Protocol Stack": "- Application. FTP, SMTP, [[HTTP]]. Handles Messages. SSL belongs here",
-        "Internetworking": "- [[HTTP]]",
         "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does that change the request-response rate?",
         "Proposal of Research 2023-01-10": "... developers to include. These can be embeddable JavaScript libraries or an [[HTTP]] API layer.",
         "Techs Actually Simple": "- Not to mention plaintext protocols. [[HTTP]], [[SMTP]], FTP, and Redis Serialization Protocol (RESP) are a few examples",
@@ -730,8 +729,7 @@ export const backlinks = {
         "2023-03-24": "- [[Redirecting READMEs]]"
     },
     "TCP vs UDP": {
-        "Internet Protocol Stack": "- Transport. TCP. UDP. [[TCP vs UDP]]. Handles Segments.",
-        "Internetworking": "- [[TCP vs UDP]]"
+        "Internet Protocol Stack": "- Transport. TCP. UDP. [[TCP vs UDP]]. Handles Segments."
     },
     "Page Faults": {
         "2022-11-04": "- [[Page Faults]]",
@@ -806,7 +804,6 @@ export const backlinks = {
         "IP Spoofing": "- Faking an [[IP]] by sending packet with false source address",
         "IP is the new Real Estate": "[[IP|Intellectual property]] ([[IP]]) is a new form of real estate because it represents ...",
         "Internet Protocol Stack": "- Network. [[IP]]. Routing Protocols. Handles Datagrams.",
-        "Internetworking": "- [[IP]]",
         "Metadream": "... of Yidian Zixun, a Chinese news aggregator. Metadream also acquired the [[IP|intellectual property]] rights of the app True.ly in May 2022 and has since ...",
         "Preservation of Data": "- Find another [[IP]] without restrictions you are facing.",
         "Protocol Wars": "... States of America|U.S. Department of Defense was an early adopter of TCP/[[IP]]",
@@ -953,8 +950,7 @@ export const backlinks = {
         "Web3": "- Censorship-resistant\" [[blockchain]] social networks became saturated with spam, driving away their actual users"
     },
     "GDB": {
-        "Inspecting Assembly": "| [[gdb]] `executable`   | starts executable      ...",
-        "Internetworking": "- [[GDB]]"
+        "Inspecting Assembly": "| [[gdb]] `executable`   | starts executable      ..."
     },
     "Singapore": {
         "2023-02-16": "- [[Singapore]]",
@@ -1155,7 +1151,6 @@ export const backlinks = {
     },
     "SMTP": {
         "Internet Protocol Stack": "- Application. FTP, [[SMTP]], [[HTTP]]. Handles Messages. SSL belongs here",
-        "Internetworking": "- [[SMTP]]",
         "Reimagining Emails": "- [[SMTP]]",
         "Techs Actually Simple": "- Not to mention plaintext protocols. HTTP, [[SMTP]], FTP, and Redis Serialization Protocol (RESP) are a few examples",
         "The Architecture of Mastodon": "- Agnostic S3/[[SMTP]] File Storage and Mailer"
@@ -1294,9 +1289,6 @@ export const backlinks = {
     "Displaying exact datetimes on Ghost": {
         "2022-11-19": "  - [[Displaying exact datetimes on Ghost]]"
     },
-    "Makefile": {
-        "Internetworking": "- [[Makefile]]"
-    },
     "Metapage": {
         "Playings": "This is a [[metapage]] for all the media I've played, starting from Mar 2023. Just ...",
         "Project": "This is a [[Metapage]] for my projects.",
@@ -1337,9 +1329,6 @@ export const backlinks = {
         "Rauno": "Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])",
         "Stephan Ango": "- [[extracranial]] @ Stephan Ango",
         "Vannevar Bush": "- Early creator of Memex and [[Extracranial]]."
-    },
-    "Master Socket": {
-        "Internetworking": "- [[Master Socket]]"
     },
     "Python": {
         "0001 Two Sum": "I used [[Python]] Dictionary to store complementing values. Python Dictionary will have $O(1)$ access ...",
@@ -1724,6 +1713,9 @@ export const backlinks = {
     "브라우저 콘솔에 경고 문구 띄우는 방법": {
         "2022-11-19": "  - [[브라우저 콘솔에 경고 문구 띄우는 방법]]"
     },
+    "Uncertainty Principle": {
+        "Probability": "- [[Uncertainty Principle]]"
+    },
     "Newline in GitHub Bio": {
         "2023-02-10": "- [[Newline in GitHub Bio]]"
     },
@@ -1739,9 +1731,6 @@ export const backlinks = {
     "Tana": {
         "2023-01-30": "- Got invited to [[Tana]].",
         "Text-based Tools for Thought": "### [[Tana]]"
-    },
-    "Cookie": {
-        "Internetworking": "- [[Cookie]]"
     },
     "10x Technopreneurs": {
         "2022-12-09": "- [[10x Technopreneurs]]",
@@ -1793,7 +1782,6 @@ export const backlinks = {
         "WebAssembly": "[[Assembly]] languages in general consists of simple and atomic operations that the ..."
     },
     "Endianness": {
-        "Internetworking": "- [[Endianness]]",
         "Structs and Unions": "- Bytes can be stored in reversed order depending on the [[endianness]]."
     },
     "Symbol (Computer Systems)": {
@@ -2029,7 +2017,6 @@ export const backlinks = {
         "한민족은 해적되었다": "그것이 한민족의 동족상잔|동족이든 [[일본 과학기술 총력전|외세]]이든..."
     },
     "Packet Loss": {
-        "Internetworking": "- [[Packet Loss]]",
         "Packet Switching vs Circuit Switching": "- Packet Switching can have [[Packet Loss]] (Some clients can leave if the restaurant is full)"
     },
     "Thesephist Work Case Study": {
@@ -2119,9 +2106,6 @@ export const backlinks = {
         "How to Build Software like an SRE": "- stringent [[Remote Procedure Call]] settings.",
         "Providing DOM API to Worker Threads": "## [[Remote Procedure Call]]"
     },
-    "G++": {
-        "Internetworking": "- [[G++]]"
-    },
     "Seed": {
         "2023-03-16": "- [[Seed]]",
         "Bootstrap": "Korean startups often perceive that they must receive [[seed]] funding from accelerators, angel investors, or venture capital firms to succeed. ...",
@@ -2187,6 +2171,9 @@ export const backlinks = {
         "2022-08-04": "### [[Optimistic Nihilism]]",
         "2022-08-10": "- [[Optimistic Nihilism]]"
     },
+    "De Morgan Law": {
+        "Probability": "- [[De Morgan Law]]"
+    },
     "Dear AIs, I have a question.": {
         "2023-03-16": "- [[Dear AIs, I have a question.]]",
         "2023-03-18": "- [[Dear AIs, I have a question.]]: [[Generalist]]",
@@ -2197,9 +2184,6 @@ export const backlinks = {
         "2023-02-22": "- [[In-house and Free Market]]",
         "I travel the World Wide Web": "- [[In-house and Free Market]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-22 | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]        ..."
-    },
-    "Handling files in Unix": {
-        "Internetworking": "- [[Handling files in Unix]]"
     },
     "Buffer Overflow Attacks": {
         "2022-11-03": "- [[Buffer Overflow Attacks]]",
@@ -2296,9 +2280,6 @@ export const backlinks = {
         "재학생일기": "[[민사고]]에 있던 학교 공식 일기 모음집이다.",
         "졸업을 앞둔 중학교 3학년들에게": "... 무렵이라고 할 수 있는 1월에 저는 가장 느슨해졌었는데, 마지막 2주 정도는 [[민사고]] 입학 준비하겠다고 과제로 나온 책 읽고, 한자 공부를 하고 그랬습니다. 그러고 ...",
         "코드클럽": "- [[민사고]] 3학년 때 설립한 동아리"
-    },
-    "Joining Thread": {
-        "Internetworking": "- [[Joining Thread]]"
     },
     "University of Southern California": {
         "2023-03-16": "- [[University of Southern California]]",
@@ -2537,7 +2518,8 @@ export const backlinks = {
     },
     "Poisson Approximation": {
         "2023-01-26": "- [[Poisson Approximation]]",
-        "2023-01-31": "- [[Poisson Approximation]]"
+        "2023-01-31": "- [[Poisson Approximation]]",
+        "Probability": "- [[Poisson Approximation]]"
     },
     "Archiving-based Tools for Thoughts": {
         "Tools for Thought": "- [[Archiving-based Tools for Thoughts]]: takes a full copy of a page for archiving purposes."
@@ -2675,6 +2657,9 @@ export const backlinks = {
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]",
         "2023-01-09": "- [[Off The Record]]"
+    },
+    "Set Theory": {
+        "Probability": "- [[Set Theory]]"
     },
     "Our tools also shape us": {
         "2022-10-13": "- [[Our tools also shape us]]",
@@ -2918,6 +2903,9 @@ export const backlinks = {
         "Are.na (Service)": "... People describe Are.na as a garden of ideas or Tumblr meets [[Wikipedia]].",
         "Love Wikipedia": "i love [[wikipedia]]"
     },
+    "Central Limit Theorem": {
+        "Probability": "- [[Central Limit Theorem]]"
+    },
     "Math-based Coding": {
         "2022-09-05": "- [[Math-based Coding]]",
         "Real Exams": "- 1 [[Math-based Coding]]"
@@ -3130,9 +3118,6 @@ export const backlinks = {
     "0070 Climbing Stairs": {
         "Coding Tests": "- [x] [[0070 Climbing Stairs]]"
     },
-    "Mutex": {
-        "Internetworking": "- [[Mutex]]"
-    },
     "Spectre": {
         "Meltdown": "... of the two original transient execution CPU vulnerabilities (the other being [[Spectre]]). Meltdown affects Intel x86 microprocessors, IBM POWER processors, and some [[ARM ...",
         "Meltdown and Spectre": "- [[Spectre]] makes the [[CPU]] jump to the wrong place and runs instructions ...",
@@ -3253,9 +3238,6 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-21 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]     ...",
         "The End of History Fallacy": "... fresh start. But remember, your today is also your medieval age. [[Eventually, Diligent Immatures build the Future]]."
     },
-    "POP3 vs IMAP": {
-        "Internetworking": "- [[POP3 vs IMAP]]"
-    },
     "React Native": {
         "Configuring Jest for React Native": "- Configuring Jest for [[React Native]]",
         "Hyperview": "- Hyperview is a new hypermedia format and [[React Native]] client for developing server-driven mobile apps. Hyperview · Native mobile apps, ...",
@@ -3302,9 +3284,6 @@ export const backlinks = {
     },
     "GitHub Copilot Investigation": {
         "Copilot": "- [[GitHub Copilot Investigation]]"
-    },
-    "Packet Switching vs Circuit Switching": {
-        "Internetworking": "- [[Packet Switching vs Circuit Switching]]"
     },
     "Synonym-based Fuzzy Search": {
         "2022-12-12": "- [[Synonym-based Fuzzy Search]]"
@@ -3401,9 +3380,6 @@ export const backlinks = {
         "Vertex Buffer": "- Graphics: How to pass instructions from CPU to [[GPU]].",
         "WebGPU": "- Use.[[GPU]] is a set of declarative, reactive WebGPU legos. Compose live graphs, ...",
         "WebNPU API를 상상하다": "... 및 계산 작업 등을 처리하는 Direct3D 12, Metal, Vulkan과 같은 현대 [[GPU]] 기능에 접근할 수 있는 API이다."
-    },
-    "Clock skew detected": {
-        "Internetworking": "- [[Clock skew detected]]"
     },
     "Write Once Run Everywhere": {
         "Dioxus": "[[Write Once Run Everywhere]]",
@@ -3662,6 +3638,9 @@ export const backlinks = {
         "TypeScript": "- Typed [[JavaScript]].",
         "Write Once Run Everywhere": "- [[JavaScript]]"
     },
+    "Random Variable": {
+        "Probability": "- [[Random Variable]]"
+    },
     "기술 할부 결제": {
         "2023-02-17": "- [[기술 할부 결제]]",
         "Premature Optimizations": "- Tech Now Pay Later [[기술 할부 결제]]",
@@ -3786,19 +3765,12 @@ export const backlinks = {
         "2022-11-02": "## [[TODO]]",
         "Coding Tests": "- QuickSelect [[TODO]]"
     },
-    "Linux Commands": {
-        "Internetworking": "- [[Linux Commands]]"
-    },
     "Socket": {
-        "Internetworking": "- [[Socket]]",
         "Master Socket": "- listening [[socket]]\" (a.k.a. a \"master socket\")",
         "Multiplexing": "... Similarly, demultiplexing means identifying the header information to find the correct [[socket]] to send and receive data."
     },
     "Why the halting problem is unsolvable": {
         "2022-11-19": "  - [[Why the halting problem is unsolvable]]"
-    },
-    "Internet Protocol Stack": {
-        "Internetworking": "- [[Internet Protocol Stack]]"
     },
     "Time-Space Continuum (Physics)": {
         "2023-04-12": "- [[Time-Space Continuum (Physics)]]"
@@ -3945,17 +3917,11 @@ export const backlinks = {
         "2022-12-12": "- Submitted [[Linkflags]] to [[Browser Company Hackathon]]",
         "linkflags.crx": "Packing [[Linkflags]] as [[Chrome]] Extensions [[Someday]] [[Project]]"
     },
-    "Multiplexing": {
-        "Internetworking": "- [[Multiplexing]]"
-    },
     "Digital Signature for Videos": {
         "Digital Signature": "- [[Digital Signature for Videos]]"
     },
     "Back Buffer": {
         "Graphics Engine Process": "    - [[Back Buffer]] is filled in Update Game State."
-    },
-    "Ancestors of C": {
-        "Internetworking": "- [[Ancestors of C]]"
     },
     "The Battle of Flow and Asana": {
         "2022-12-09": "- [[The Battle of Flow and Asana]]",
@@ -3971,9 +3937,6 @@ export const backlinks = {
     },
     "Person 1B5A5B": {
         "Project PEOPLE": "- [[Person 1B5A5B]]"
-    },
-    "IP Spoofing": {
-        "Internetworking": "- [[IP Spoofing]]"
     },
     "프로젝트 어덕행덕": {
         "2019-11-06": "- [[프로젝트 어덕행덕]]",
@@ -4010,8 +3973,7 @@ export const backlinks = {
         "2023-03-27": "[[Maximum A Posteriori]]"
     },
     "File Descriptor": {
-        "Handling files in Unix": "- `open()` returns a [[file descriptor]]",
-        "Internetworking": "- [[File Descriptor]]"
+        "Handling files in Unix": "- `open()` returns a [[file descriptor]]"
     },
     "대한민국": {
         "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "[[대한민국]]의 두뇌라고 하는 이들조차 어찌 이리 선동과 소문에 취약한가!",
@@ -4125,6 +4087,9 @@ export const backlinks = {
         "Newsletter": "- [[Substack]], Newneek을 필두로 엄청난 뉴스레터 성장",
         "Substack is the new Medium": "- [[Substack]] is the new [[Medium]]"
     },
+    "Weak Law of Large Number": {
+        "Probability": "- [[Weak Law of Large Number]]"
+    },
     "Proposal of Research 2023-01-10": {
         "2023-01-10": "- [[Proposal of Research 2023-01-10]]"
     },
@@ -4164,9 +4129,6 @@ export const backlinks = {
         "Real Exams": "### [[Bloomberg]]",
         "Web3": "... lost his entire fortune virtually over a single day, in what [[Bloomberg]] has called \"one of history's greatest-ever destructions of wealth"
     },
-    "Probability Of Queueing (Internetworking)": {
-        "Internetworking": "- [[Probability Of Queueing (Internetworking)]]"
-    },
     "Edge": {
         "2022-10-24": "- [[Edge]]",
         "2023-01-13": "- [[Edge]]",
@@ -4178,9 +4140,6 @@ export const backlinks = {
         "The Architecture of Mastodon": "  - Rails is hard to serve at the [[edge]]. [[CDN]] can host static assets, but templates in the core RoR ...",
         "WasmEdge": "WasmEdge: [[Edge]] for [[WebAssembly]]",
         "dub.sh": "- Built with Vercel [[Edge]] Functions + Upstash Redis"
-    },
-    "CBR vs VBR": {
-        "Internetworking": "- [[CBR vs VBR]]"
     },
     "WorkerDOM": {
         "2022-06-14": "  - 이 세부 전략으로 [[WorkerDOM]]을 쓸 수도 있고, 고쳐서 쓸 수도 있고, 새로 만들 수도 있고, ...",
@@ -4310,9 +4269,6 @@ export const backlinks = {
     "Creating Observable Object in SwiftUI": {
         "2023-01-22": "- [[Creating Observable Object in SwiftUI]]"
     },
-    "Checksum": {
-        "Internetworking": "- [[Checksum]]"
-    },
     "洪民憙雜記": {
         "2022-10-25": "- [[洪民憙雜記]]"
     },
@@ -4352,6 +4308,9 @@ export const backlinks = {
     },
     "Readwise Reader": {
         "2022-12-16": "- [[Readwise Reader]]"
+    },
+    "Partition": {
+        "Probability": "- [[Partition]]"
     },
     "Polymath": {
         "2023-03-03": "- [[Polymath]]",
@@ -4502,9 +4461,6 @@ export const backlinks = {
     "자아는 발굴되는 것이다": {
         "2023-03-08": "- [[자아는 발굴되는 것이다]]"
     },
-    "DoS": {
-        "Internetworking": "- [[DoS]]"
-    },
     "Architectural Decision Records": {
         "2022-11-02": "- [[Architectural Decision Records]]"
     },
@@ -4580,9 +4536,6 @@ export const backlinks = {
         "Stephan Ango": "- Coined the term [[Generative Intelligence]]",
         "Thesephist Work Case Study": "### The \"Length\" dimension of [[Generative Intelligence]]s"
     },
-    "P2P": {
-        "Internetworking": "- [[P2P]]"
-    },
     "미래는 결국 미성숙한 우리가 만들어낸다": {
         "2023-02-21": "- [[미래는 결국 미성숙한 우리가 만들어낸다]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "... 02-21 | 🇬🇧 Eventually, Diligent Immatures build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]            ...",
@@ -4620,11 +4573,7 @@ export const backlinks = {
         "iiframe": "Someday Project. Improved `iframe` that containerizes an embedded web inside [[Web Worker]]."
     },
     "DNS": {
-        "2023-03-23": "- [[DNS]]",
-        "Internetworking": "- [[DNS]]"
-    },
-    "Deadlock": {
-        "Internetworking": "- [[Deadlock]]"
+        "2023-03-23": "- [[DNS]]"
     },
     "AMP Email": {
         "2022-12-06": "- Reimagining Emails: React Email, AMP, [[AMP Email]], [[Spellbound]]",
@@ -4644,7 +4593,6 @@ export const backlinks = {
         "2022-07-11": "Wouldn't this yield much higher [[throughput]]? (No, it wouldn't.)",
         "BitTorrent": "... the constant pressure of some unfulfilled requests. This can increase the [[throughput]] of our connection by order of magnitude",
         "Heap (Computer Systems)": "- [[throughput]] (as fast as possible)",
-        "Internetworking": "- [[Throughput]]",
         "Latency and Throughput": "## [[Throughput]]",
         "Memory Wall": "  - Improve [[Throughput]]"
     },
@@ -4676,9 +4624,6 @@ export const backlinks = {
     },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
-    },
-    "DASH Protocol": {
-        "Internetworking": "- [[DASH Protocol]]"
     },
     "LavaLab Cohort of Spring 2023": {
         "2023-04-25": "- [[LavaLab Cohort of Spring 2023]]"
@@ -4855,9 +4800,6 @@ export const backlinks = {
         "Mathematics under The Library of Babel": "- Also made a [[C++]] variant, but a meaningful difference is unlikely.",
         "Memory Allocation": "For C and [[C++]], calling library functions like `printf` make a system call under the ...",
         "Real Exams": "### Akuna Capital [[C++]]"
-    },
-    "Sources of Packet Delay": {
-        "Internetworking": "- [[Sources of Packet Delay]]"
     },
     "Fiercely Overpriced": {
         "2022-07-14": "- Moved to [[Fiercely Overpriced]]",
@@ -5201,7 +5143,6 @@ export const backlinks = {
         "Replicating Balenciaga Harry Potter Advertisement": "3.  Used [[Eleven Labs]] for voice generation. Extracting a good voice for Donald Trump proved ..."
     },
     "Port": {
-        "Internetworking": "- [[Port]]",
         "Master Socket": "- binds it to a [[port]] and waits for a connection request.",
         "SMTP": "- [[Port]] 25",
         "Socket": "- needs to be bound to a [[Port]]"
@@ -5328,9 +5269,6 @@ export const backlinks = {
     },
     "Composing Mail in SwiftUI": {
         "2023-01-22": "- [[Composing Mail in SwiftUI]]"
-    },
-    "Queueing in Internetworking and Congestions": {
-        "Internetworking": "- [[Queueing in Internetworking and Congestions]]"
     },
     "DjVu": {
         "Screenshot as an API": "... loads. Better alternatives: EPUB, MOBI for texts. For generic use cases, [[DjVu]]."
@@ -5482,7 +5420,6 @@ export const backlinks = {
         "WorkerDOM": "WorkerDOM doesn't use [[SharedArrayBuffer]], most likely to [[Spectre]]."
     },
     "Dijkstra": {
-        "Internetworking": "- [[Dijkstra]]",
         "Project Core ML Foundation": "- Uniform Cost Search: Priority Queue. [[Dijkstra]] is a variant of UCS, where there is no goal node; ..."
     },
     "서낭당": {
@@ -5723,6 +5660,9 @@ export const backlinks = {
         "Algorithmic Recommendation Engine for Texts": "- [[Mood.surf]]",
         "Jumpsite": "## [[Mood.surf]]"
     },
+    "Beta Binomial Conjugacy": {
+        "Probability": "- [[Beta Binomial Conjugacy]]"
+    },
     "Realm Shim": {
         "2022-05-30": "- What is [[Realm Shim]]?"
     },
@@ -5841,6 +5781,9 @@ export const backlinks = {
     },
     "Ruby": {
         "Higher-Level Languages and Their Speeds": "## [[Ruby]]"
+    },
+    "Covariance": {
+        "Probability": "- [[Covariance]]"
     },
     "FFMpeg": {
         "2022-11-21": "- [[FFMpeg]]",
@@ -6044,6 +5987,9 @@ export const backlinks = {
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]"
     },
+    "Distribution": {
+        "Probability": "- [[Distribution]]"
+    },
     "Fediverse": {
         "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People cannot simply join Mastodon. Instead, users ..."
     },
@@ -6059,9 +6005,6 @@ export const backlinks = {
         "PKM": "| [[Digital Garden]] | Implementation for documenting your knowledge. |",
         "Second Brain": "  - These notes are the first attempt at a [[Digital Garden]] and, as such, are a little wild and untamed. There's no ..."
     },
-    "Atomicity": {
-        "Internetworking": "- [[Atomicity]]"
-    },
     "Processes and Threads": {
         "Computer Systems": "- [[Processes and Threads]]",
         "Memory Allocation": "First, we must define the key difference between [[Processes and Threads]]."
@@ -6072,7 +6015,8 @@ export const backlinks = {
         "Page Faults": "- Similarly, we have LRU, FIFO, Random approach like [[Cache Evictions]]"
     },
     "Poisson Law": {
-        "2023-02-02": "- [[Poisson Law]]"
+        "2023-02-02": "- [[Poisson Law]]",
+        "Probability": "- [[Poisson Law]]"
     },
     "Photoshop for Text": {
         "Generative Intelligence": "- [[Photoshop for Text]]",
@@ -6145,6 +6089,9 @@ export const backlinks = {
     "Cauchy": {
         "2023-03-07": "- [[Cauchy]]",
         "Standard Cauchy": "The standard [[Cauchy]] distribution, also known as the standard Lorentzian distribution, is a special ..."
+    },
+    "Sigma Alpha": {
+        "Probability": "- [[Sigma Alpha]]"
     },
     "Xcode Clear Cache": {
         "2022-11-06": "- [[Xcode Clear Cache]]"
@@ -6335,9 +6282,6 @@ export const backlinks = {
     },
     "Captivating Products": {
         "2022-12-09": "- [[Captivating Products]]"
-    },
-    "Headers Include Order": {
-        "Internetworking": "- [[Headers Include Order]]"
     },
     "Are Computers Psychotropic Substances": {
         "2023-02-09": "- [[Are Computers Psychotropic Substances]]",
@@ -6643,9 +6587,6 @@ export const backlinks = {
         "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
         "Readings": "- [ ] [[하얼빈]]"
     },
-    "Packet Sniffing": {
-        "Internetworking": "- [[Packet Sniffing]]"
-    },
     "Intellisense": {
         "Intellisense for Knowledge Management": "- [[Intellisense]] but for Knowledge Management"
     },
@@ -6821,6 +6762,9 @@ export const backlinks = {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-06 | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]      ..."
     },
+    "Logic Table": {
+        "Probability": "- [[Logic Table]]"
+    },
     "Core ML": {
         "2023-03-01": "- [[Core ML]]",
         "Imagining WebNPU API": "... as different hardware vendors have different approaches and requirements. For example, [[Core ML]] uses Core ML model formats, whereas TensorFlow Lite uses FlatBuffers formats. ...",
@@ -6892,7 +6836,8 @@ export const backlinks = {
         "Simple Analytics": "- [[GDPR]], [[PECR]], [[CCPA]] Compliant"
     },
     "Binomial Theorem": {
-        "2023-01-24": "- [[Binomial Theorem]]"
+        "2023-01-24": "- [[Binomial Theorem]]",
+        "Probability": "- [[Binomial Theorem]]"
     },
     "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
         "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
@@ -6937,7 +6882,8 @@ export const backlinks = {
     },
     "Maximum Likelihood Estimation": {
         "2023-03-27": "[[Maximum Likelihood Estimation]]",
-        "Maximum A Posteriori": "Can be thought of as \"regularized\" [[Maximum Likelihood Estimation|MLE]] (?)"
+        "Maximum A Posteriori": "Can be thought of as \"regularized\" [[Maximum Likelihood Estimation|MLE]] (?)",
+        "Probability": "- [[Maximum Likelihood Estimation]]"
     },
     "Inspecting Assembly": {
         "2022-09-25": "- [[Inspecting Assembly]]",
@@ -7163,6 +7109,9 @@ export const backlinks = {
         "CELLO (Product)": "- Avoid local confinement, as seen in most [[K-Pop App]].",
         "프로젝트 어덕행덕": "[[K-Pop App]]에 큰 실망을 하고 구상해본 가설적 팬덤 앱의 비전."
     },
+    "Moments": {
+        "Probability": "- [[Moments]]"
+    },
     "Biden-Harris Administration National Security Strategy 2022": {
         "2023-02-15": "- [[Biden-Harris Administration National Security Strategy 2022]]"
     },
@@ -7196,6 +7145,9 @@ export const backlinks = {
     },
     "Project Prepare for Grammarly": {
         "2023-04-12": "- [[Project Prepare for Grammarly]]"
+    },
+    "SIT Technique": {
+        "Probability": "- [[SIT Technique]]"
     },
     "뉴턴의 서신": {
         "2023-02-28": "- [[뉴턴의 서신]]",

@@ -5,12 +5,10 @@ slug: '/E77CE1'
 
 In [[Probability]],
 
-$$
-{P(A \cap B)} = P(A)P(B|A)
-$$
+$P (\cap_{k=1}^{n} A_k) = P(A_1) P(A_2 | A_1) \cdots P(A_n | A_1 \cap A_2 \cdots A_{n-1})$
 
-$$
-{P(A \cap B \cap C)} = P(A)P(B|A)P(C|A \cup B)
-$$
+if independent
 
-If $A$, $B$, and $C$ are all independent, it would be a simple multiplication of $P(A)P(B)P(C)$ and so on.
+$P (\cap_{k=1}^{n} A_k) = \prod\limits_{k=1}^n (A_k)$
+
+$P(A|B) = {P(A \cap B) \over P(B)} {=^{\text{ind}}} P(A)$
