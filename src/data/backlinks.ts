@@ -1759,6 +1759,9 @@ export const backlinks = {
     "The Enduring Question of Cicada": {
         "2023-03-16": "- [[The Enduring Question of Cicada]]"
     },
+    "앎의 그릇": {
+        "2023-04-30": "- [[앎의 그릇]]"
+    },
     "Stable Alternative": {
         "2022-10-03": "- [[Stable Alternative]]",
         "2022-11-29": "- [[Stable Alternative]]",
@@ -3281,6 +3284,10 @@ export const backlinks = {
     "Technocapital and Biocapital": {
         "2022-12-06": "- [[Technocapital and Biocapital]]"
     },
+    "슈퍼자판기": {
+        "2023-04-30": "- [[슈퍼자판기]]",
+        "MetroPunk": "- [[슈퍼자판기]]: 항목 참조."
+    },
     "BitTorrent": {
         "2022-11-07": "- [[BitTorrent]]",
         "P2P": "- [[BitTorrent]] Algorithm"
@@ -4520,6 +4527,10 @@ export const backlinks = {
         "Imagining WebNPU API": "... a battle between Apple and Google, just like VP9 vs HEVCor [[USDZ vs glTF]] battles.",
         "VP9 vs HEVC": "- Similar to [[USDZ vs glTF]]",
         "WebNPU API를 상상하다": "... 텐서플로 라이트는 FlatBuffer 모델을 사용한다. 아무래도 우리는 VP9 vs HEVC 또는 [[USDZ vs glTF]]의 싸움처럼 [[Apple|애플]]과 [[Google|구글]]의 싸움을 다시 보게 될 것 같다."
+    },
+    "Death Stranding": {
+        "Playings": "- [[Death Stranding]]",
+        "슈퍼자판기": "[[Death Stranding|데스 스트랜딩]]을 하며 자판기의 미래를 상상했다. 그리고 궁극적으로 자판기는 다가오는 [[MetroPunk|메트로펑크]]적 미래에 반드시 ..."
     },
     "자아는 발굴되는 것이다": {
         "2023-03-08": "- [[자아는 발굴되는 것이다]]"
@@ -6430,6 +6441,9 @@ export const backlinks = {
         "2022-12-06": "- [[Jetski]]",
         "2022-12-24": "- [[Jetski]]"
     },
+    "강기업": {
+        "MetroPunk": "## 메트로펑크의 차세대 [[강기업]]"
+    },
     "GitHub Actions": {
         "Finding out Ghost version with JS": "... theme package and re-upload those. While I automated theme deployment with [[GitHub Actions]] (you can find the post here), it was a hassle to ...",
         "Ghost 테마를 자동 배포하는 방법": "... 것은? 테마 개발을 통한 블로그 방문 경험 개선이다. 다행히도 Ghost 2.25.5부터 [[GitHub Actions]]를 이용해 다음과 같이 Ghost 테마 개발을 [[Automation|자동화]]할 수 있게 되었다.",
@@ -6571,6 +6585,7 @@ export const backlinks = {
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> United States of America|미국, [[일본]]의 기술 수준을 따라갈 수 있을까,",
         "드디어, 한국 애플페이": "... 집중하는 것. 첫 번째 전략이 결국 실패한 \"저스터치\"이다 (이때 저스터치가 성공했다면 [[일본]]의 스이카와 같이 예외적인 NFC 규격으로 자리 잡았을 가능성이 높다) 결국 카드 ...",
         "새로운 부동산은 지적 재산이다": "[[일본]] 기업과 투자자들은 1980년대 [[Economy|경제]] 호황기에 많은 현금을 보유하고 있었으며 해외에서 투자 ...",
+        "슈퍼자판기": "[[일본]]의 잃어버린 몇십년을 한국은 이제서야 마주하고 있다. 일본처럼 한국에서도 자판기 산업은 이런 ...",
         "일본 과학기술 총력전": "Approximately translates to 150 Years of Modern [[일본|Japan]]: The Bankruptcy of Science, Technology, and the Total War System.",
         "젠리의 성공 공식": "... 넘기면 일주일 안에 전교생이 사용한다는 것을 관찰했다. 대만 대학에 유학 간 [[일본]] 학생들로부터 대만 전체로 앱이 퍼지는 것 같은 서브 그룹 주도의 성장에 ...",
         "한민족": "중국, United States of America|미국, [[일본]] 등에 많이 살고 있다.",
@@ -6703,7 +6718,8 @@ export const backlinks = {
     },
     "Playings": {
         "2023-03-24": "- [[Playings]]",
-        "2023-04-15": "- [[Playings]]"
+        "2023-04-15": "- [[Playings]]",
+        "2023-04-30": "- [[Playings]]"
     },
     "ChatGPT is a Blurry JPEG and We Need That": {
         "2023-03-31": "- [[ChatGPT is a Blurry JPEG and We Need That]]",
@@ -6896,6 +6912,10 @@ export const backlinks = {
     },
     "Peter the Great": {
         "2023-02-21": "- [[Peter the Great]]"
+    },
+    "MetroPunk": {
+        "2023-04-30": "- [[MetroPunk]]",
+        "슈퍼자판기": "Death Stranding|데스 스트랜딩을 하며 자판기의 미래를 상상했다. 그리고 궁극적으로 자판기는 다가오는 [[MetroPunk|메트로펑크]]적 미래에 반드시 필수적일 것이다. 그렇다면 이 슈퍼자판기는 무엇을 할 수 있을까."
     },
     "Tech Now Pay Later": {
         "2023-02-17": "- [[Tech Now Pay Later]]",
@@ -8404,6 +8424,9 @@ export const backlinks = {
     "E0A8DC.png": {
         "San Francisco": "![[E0A8DC.png]]",
         "Toss Product Sans": "![[E0A8DC.png]]"
+    },
+    "8F4764.png": {
+        "Death Stranding": "![[8F4764.png]]"
     },
     "901660.gif": {
         "Setting different images for Light & Dark mode": "![[901660.gif]]"
