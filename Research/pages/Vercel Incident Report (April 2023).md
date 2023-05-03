@@ -24,3 +24,7 @@ I got it resolved by deleting [[lovearc.net]], but now I lean towards [[Cloudfla
 For comparison, this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.
 
 Reference: [We Need To Talk About Vercel - Max Countryman](https://www.maxcountryman.com/articles/we-need-to-talk-about-vercel)
+
+## Update
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I don&#39;t think I&#39;ve been very transparent about all of work happening around usage controls and pricing at Vercel. So I&#39;d like to do that now.<br/><br/>The tl;dr of the feedback is: more visibility into usage and more ways to control spending. And I think I haven&#39;t done a job good about…</p>&mdash; Lee Robinson (@leeerob) <a href="https://twitter.com/leeerob/status/1653636931291602953?ref_src=twsrc%5Etfw">May 3, 2023</a></blockquote>

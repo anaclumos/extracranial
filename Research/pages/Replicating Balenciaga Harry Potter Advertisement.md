@@ -5,7 +5,7 @@ slug: '/B4930B'
 
 - An [[Generative AI|Gen AI]] Experiment done by [SuppMon104](https://github.com/suppmon104)
 - Tested [[Generative AI|generative AIs]] to create content for a fictional scenario involving Harry Potter and Donald Trump.
-- Utilized various AI tools for character design, voice generation, and animation.
+- Utilized various [[AI]] tools for character design, voice generation, and animation.
 - Although facing challenges in the process, the result was satisfactory.
 
 ## Key Points
