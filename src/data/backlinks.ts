@@ -384,6 +384,9 @@ export const backlinks = {
     "2022-09-14": {
         "Person E7CFC5": "- Interviewed on [[2022-09-14]]"
     },
+    "2023-05-03": {
+        "Passkey": "Passkey for Google is GA as of [[2023-05-03]]"
+    },
     "2020-02-15": {
         "프로젝트 어덕행덕": "- [[2020-02-15]]"
     },
@@ -2366,7 +2369,7 @@ export const backlinks = {
     },
     "Apple": {
         "2022-06-10": "  - [[Apple]] has implemented pointer authentication on all of its custom [[ARM Architecture|ARM]]-based ...",
-        "2022-06-20": "Note that this is not [[Apple]] Passkey. This is the Privacy Pass standard. Apple Passkey is a ...",
+        "2022-06-20": "Note that this is not [[Apple]] [[Passkey]]. This is the Privacy Pass standard. Apple [[Passkey]] is a ...",
         "2022-07-18": "- [[Apple]] seems (pretty much) always right...",
         "2022-10-13": "... iPhone to be their next phone; 31% of teens own an [[Apple]] Watch: Taking Stock With Teens® - Fall 2022",
         "2022-10-18": "- [[Apple]] bought all of the advertising space in Newsweek's November/December special election ...",
@@ -2577,6 +2580,7 @@ export const backlinks = {
         "2022-12-06": "- [[GA]]: [[Nigh]]",
         "2022-12-24": "- Rewind is [[GA]]",
         "In search of my domain": "... most available one. A year later, Google made the `.dev` domain [[GA]], and I also tried `cho.dev`, but ① the prices were too ...",
+        "Passkey": "Passkey for Google is [[GA]] as of [[2023-05-03]]",
         "도메인 찾아 삼만리": "... `.xyz`는 아이디어가 부족해 고른 것 같았다. 1년 뒤 Google|구글이 `.dev` 도메인을 [[GA|공개]]했고, `cho.dev`을 사려 했지만 ▲ 가격이 너무 비쌌고(~800달러) ▲ 나는 개발자 이상이 ..."
     },
     "Poisson Approximation": {
@@ -5748,6 +5752,10 @@ export const backlinks = {
     "Palantir Foundry": {
         "Palantir": "- [[Palantir Foundry]]"
     },
+    "Passkey": {
+        "2022-06-20": "Note that this is not Apple [[Passkey]]. This is the Privacy Pass standard. Apple Passkey is a [[Passkey|FIDO]] ...",
+        "2023-05-03": "- [[Passkey]]"
+    },
     "Watchings": {
         "2023-02-19": "- [[Watchings]]",
         "2023-03-08": "- [[Watchings]]",
@@ -8760,6 +8768,9 @@ export const backlinks = {
     },
     "BFDBF9.png": {
         "Toss Product Sans": "![[BFDBF9.png]]"
+    },
+    "EBEF28.png": {
+        "Passkey": "![[EBEF28.png]]"
     },
     "4A4A25.gif": {
         "Hashflags": "![[4A4A25.gif]]"
