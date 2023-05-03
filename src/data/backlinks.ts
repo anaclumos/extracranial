@@ -3387,6 +3387,9 @@ export const backlinks = {
         "Search in a Latent Space": "- Related to Synthography and [[Stable Diffusion]]",
         "Synthography": "- [[Stable Diffusion]]"
     },
+    "Quarrelsome": {
+        "2023-05-03": "- [[Quarrelsome]]"
+    },
     "Pretendard의 아쉬운 점": {
         "Toss Product Sans": "  - [[Pretendard의 아쉬운 점]]",
         "서울 프로": "- [[Pretendard의 아쉬운 점]]"
@@ -4366,8 +4369,11 @@ export const backlinks = {
         "2022-10-25": "- [[洪民憙雜記]]"
     },
     "Vocab": {
+        "Cantankerous": "[[vocab]]",
+        "Flamboyant": "- [[vocab]]. Flamboyant is an adjective to describe someone or something characterized by ...",
         "Mundivagant": "[[Vocab]]. Wandering around the world.",
         "Nigh": "> The end is nigh! > nigh - Wiktionary [[Vocab]]",
+        "Quarrelsome": "[[vocab]]. Quarrelsome is an adjective that describes someone prone to engaging in ...",
         "Sapiophile": "[[Vocab]]. Those who love smart people."
     },
     "Classic Blogs": {
@@ -5585,6 +5591,9 @@ export const backlinks = {
     },
     "Independence": {
         "2023-01-23": "- [[Independence]]"
+    },
+    "Flamboyant": {
+        "2023-05-03": "- [[Flamboyant]]"
     },
     "UUIDs are Awesome": {
         "2022-09-28": "- [[UUIDs are Awesome]]",
