@@ -984,7 +984,7 @@ export const backlinks = {
         "2022-07-29": "- [[Providing DOM API to Worker Threads]] Complete"
     },
     "MAKE": {
-        "2023-05-02": "[[MAKE]]에서 다음과 같은 구절을 읽었다. 내가 생각하고 있는 것과 완벽하게 합치한다. 나는 ...",
+        "2023-05-02": "[[MAKE]]를 읽었다. 내가 생각하고 있는 것과 완벽하게 합치한다. 나는 [[Small yet Powerful|강소]]기업을 ...",
         "Readings": "- [ ] [[MAKE]]"
     },
     "Intracranial": {
@@ -6308,7 +6308,7 @@ export const backlinks = {
         "10x Technologist": "... developers are a term that describes an exceptionally skilled and productive, [[small yet powerful]] group of software developers. It is a colloquial term used to ...",
         "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the ...",
         "2022-10-27": "- [[Small yet Powerful]]",
-        "2023-05-02": "... 다음과 같은 구절을 읽었다. 내가 생각하고 있는 것과 완벽하게 합치한다. 나는 [[Small yet Powerful|강소]]기업을 만들고 싶다. 대기업이 아니라.",
+        "2023-05-02": "MAKE를 읽었다. 내가 생각하고 있는 것과 완벽하게 합치한다. 나는 [[Small yet Powerful|강소]]기업을 만들고 싶다. 대기업이 아니라. [[The Antipreneur|강소기업가]]가 되자.",
         "Cut the Fat": "- [[Small yet Powerful]]",
         "Neo Korea": "- [[Small yet Powerful|작지만 강력한]]",
         "The Antipreneur": "- 강기업이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].",
@@ -6753,7 +6753,7 @@ export const backlinks = {
     },
     "The Antipreneur": {
         "2023-03-05": "- [[The Antipreneur]]",
-        "2023-05-02": "- [[The Antipreneur]]"
+        "2023-05-02": "... 것과 완벽하게 합치한다. 나는 Small yet Powerful|강소기업을 만들고 싶다. 대기업이 아니라. [[The Antipreneur|강소기업가]]가 되자."
     },
     "ChatGPT is a Blurry JPEG and We Need That": {
         "2023-03-31": "- [[ChatGPT is a Blurry JPEG and We Need That]]",
