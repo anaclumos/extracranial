@@ -33,7 +33,7 @@ import Shuffle from '@site/src/components/Shuffle'
 <Shuffle>
 
 - [ ] [[Exhalation]]
-- [ ] [[하얼빈]]
+- [ ] [[MAKE]]
 
 </Shuffle>
 
@@ -42,7 +42,6 @@ import Shuffle from '@site/src/components/Shuffle'
 <Shuffle>
 
 - [ ] The Righteous Mind
-- [ ] MAKE
 - [ ] Where is my flying car?
 - [ ] Diaspora
 - [ ] Zero to One
@@ -60,6 +59,7 @@ import Shuffle from '@site/src/components/Shuffle'
 
 - [x] [[지구 끝의 온실]]
 - [x] [[한자 타자기]]
+- [ ] [[하얼빈]]
 
 </Shuffle>
 
