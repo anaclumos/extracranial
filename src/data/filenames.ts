@@ -1001,6 +1001,7 @@ export const filenames = {
     "Partition": "7B2DAB",
     "Partition Problem": "F57598",
     "Pascal Triangle": "FFE63F",
+    "Passkey": "3B6740",
     "Pensieve": "803226",
     "Perceptual Hashing": "E6617C",
     "Person 1B5A5B": "1B5A5B",
