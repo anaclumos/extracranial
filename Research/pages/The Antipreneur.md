@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/221166'
+aliases: ['강소기업가']
 ---
 
 - [[The Dilemmas of Free stuffs]]
@@ -14,8 +15,8 @@ slug: '/221166'
 - [[強力反權|강력반권]]
 - [[강력하게 미약한 도구들]]: Do one small thing, but surprisingly well
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Here&#39;s the number I used to win the lottery&quot;<br/><br/>–Entrepreneurs giving advice</p>&mdash; Andrew Wilkinson (@awilkinson) <a href="https://twitter.com/awilkinson/status/1575941514567774208?ref_src=twsrc%5Etfw">September 30, 2022</a></blockquote>
-
 > "I want to write a book, if only because I see so much bullshit going around in the world of startups and tech. The media is presenting startups in the wrong way. People think they need to build billion-dollar companies. They must fly to San Francisco, build a "network," and get a 10 million dollar investment from old rich guys. They need to hire [[10x]] power developers and work them for 100-hour work weeks while feeding them pizza and soda. It will be great, they said.
 >
 > But it won't. It'll probably suck. And you won't get rich because the odds of a venture capital (VC) funded startup are stacked against you. Only 10% or less exit doesn't tell you if the founders make good money. There are giant company exits where the founders barely make money. That's why I'm writing this. To show you, you might be able to do it differently." — [MAKE: The Indie Maker Handbook](https://readmake.com/), by Pieter Levels.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Here&#39;s the number I used to win the lottery&quot;<br/><br/>–Entrepreneurs giving advice</p>&mdash; Andrew Wilkinson (@awilkinson) <a href="https://twitter.com/awilkinson/status/1575941514567774208?ref_src=twsrc%5Etfw">September 30, 2022</a></blockquote>
