@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/221166'
-aliases: ['강소기업가']
+aliases: ["강소기업가"'강소기업가']
 ---
 
 - [[The Dilemmas of Free stuffs]]
