@@ -46,7 +46,7 @@ The advent of [[Generative AI|Generative AIs]] presents new opportunities for fo
 
 ### Background
 
-Dynamic font features are crucial in creating high-quality, natural-looking handwriting fonts. However, current AI font generation methods often overlook these features, focusing primarily on static character styles. By leveraging the capabilities of [[Generative AI]], we can create more realistic, adaptable fonts that better represent natural handwriting.
+Dynamic font features are crucial in creating high-quality, natural-looking handwriting fonts. However, current [[AI]] font generation methods often overlook these features, focusing primarily on static character styles. By leveraging the capabilities of [[Generative AI]], we can create more realistic, adaptable fonts that better represent natural handwriting.
 
 ### Research Questions
 
@@ -147,11 +147,11 @@ This research will contribute to developing [[iiframe]], an improved iframe vers
 
 ### Abstract
 
-Inspired by "The Library of Babel" by Jorge Luis Borges, this research proposal aims to investigate the concept of an "efficiently finite" [[Cartography|map]] containing all possible pixel combinations and its implications on human creativity and [[Generative AI]]. By exploring the idea of a Photo Library of Babel, we will examine the role of AI in creating information and the philosophical aspects of creativity in the context of finite possibilities.
+Inspired by "The Library of Babel" by Jorge Luis Borges, this research proposal aims to investigate the concept of an "efficiently finite" [[Cartography|map]] containing all possible pixel combinations and its implications on human creativity and [[Generative AI]]. By exploring the idea of a Photo Library of Babel, we will examine the role of [[AI]] in creating information and the philosophical aspects of creativity in the context of finite possibilities.
 
 ### Background
 
-The infinite monkey theorem and the concept of "The Library of Babel" have become increasingly relevant with the rise of [[generative AI]] technologies, such as [[ChatGPT]]. _Given infinite monkeys making infinite keystrokes, wouldn't they write all of Shakespeare's work?_ As AI advances, it raises questions about the future of human creativity, the nature of creation, and the potential for AI to generate all possible information.
+The infinite monkey theorem and the concept of "The Library of Babel" have become increasingly relevant with the rise of [[generative AI]] technologies, such as [[ChatGPT]]. _Given infinite monkeys making infinite keystrokes, wouldn't they write all of Shakespeare's work?_ As [[AI]] advances, it raises questions about the future of human creativity, the nature of creation, and the potential for [[AI]] to generate all possible information.
 
 ### Research Questions
 
@@ -175,4 +175,4 @@ The infinite monkey theorem and the concept of "The Library of Babel" have becom
 
 ### Significance
 
-This research will contribute to understanding the relationship between human creativity, [[generative AI]], and finite possibilities, as illustrated by the Photo Library of Babel concept. By examining the implications of a limited [[Cartography|map]] of all possible pixel combinations, we can gain insights into the future of creation and the role of AI in generating information. This exploration has the potential to transform our understanding of creativity, knowledge discovery, and the impact of AI on various domains.
+This research will contribute to understanding the relationship between human creativity, [[generative AI]], and finite possibilities, as illustrated by the Photo Library of Babel concept. By examining the implications of a limited [[Cartography|map]] of all possible pixel combinations, we can gain insights into the future of creation and the role of [[AI]] in generating information. This exploration has the potential to transform our understanding of creativity, knowledge discovery, and the impact of [[AI]] on various domains.

@@ -22,7 +22,7 @@ News app, but all critical information is in chat bubbles—short, informative, 
 
 ## [[2023-03-20]]
 
-해커뉴스를 읽고 있다가 이걸 AI에게 요약해보고 있었다.
+해커뉴스를 읽고 있다가 이걸 [[AI]]에게 요약해보고 있었다.
 그냥 이걸 파이프라인으로 만들면 어때?
 
 ## [[2023-03-21]] — [[2023-03-23]]
@@ -56,7 +56,7 @@ OpenAI를 가지고 많이 놀았다.
 
 ## [[2023-04-02]]
 
-[[Bing Chat for All Browsers]]가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다.
+[[Bing Chat for All Browsers]]가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 [[AI]]를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다.
 
 ## [[2023-04-03]]
 
@@ -81,7 +81,7 @@ i18n을 Sitemap과 HTML Head `hreflang`으로 자동 생성되도록 만들었�
 
 구독자들의 이메일을 보며 되게 다양한 회사가 있음을 느꼈다.
 유럽에 기반한 [Proton](https://proton.me/)이라는 회사 및 덕덕고 이메일이 존재한다는 것도 이번에 알게 되었고,
-이메일에 `+tag` 오퍼레이터를 사용해서 이메일을 정리하는 사람들, 본인의 도메인을 사용하는 인디 해커들, 일회용 이메일이나 RSS 피드 변환 앱 ([Kill the Newsletter!](https://kill-the-newsletter.com/))을 적극 활용하시는 분도 있으셨다. 인공지능 회사, 자율주행 회사, 블록체인 회사, VC, 웹툰 회사, 고전적 자산운용사, 그 뿐만 아니라 연예기획사와 은행, 출판사 분들도 있었다.
+이메일에 `+tag` 오퍼레이터를 사용해서 이메일을 정리하는 사람들, 본인의 도메인을 사용하는 인디 해커들, 일회용 이메일이나 RSS 피드 변환 앱 ([Kill the Newsletter!](https://kill-the-newsletter.com/))을 적극 활용하시는 분도 있으셨다. [[AI|인공지능]] 회사, 자율주행 회사, 블록체인 회사, VC, 웹툰 회사, 고전적 자산운용사, 그 뿐만 아니라 연예기획사와 은행, 출판사 분들도 있었다.
 
 ![[2B6DD8.png]]
 
@@ -125,7 +125,7 @@ og.cho.sh로 OG 생성을 옮기면서 Pretendard를 적용하려고 했는데.
 
 받은 피드백:
 
-> I subscribed for a bit and appreciated the detail, but I felt the descriptions were lengthy. I like this AI [newsletter](https://www.bensbites.co/): pretty easy-to-follow section, and it feels super readable. Understanding whether you are trying to source lesser-known information, summarize long-form, or do both might be helpful.
+> I subscribed for a bit and appreciated the detail, but I felt the descriptions were lengthy. I like this [[AI]] [newsletter](https://www.bensbites.co/): pretty easy-to-follow section, and it feels super readable. Understanding whether you are trying to source lesser-known information, summarize long-form, or do both might be helpful.
 
 - [Ben's Bites](https://www.bensbites.co/)
 
