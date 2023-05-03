@@ -2227,6 +2227,9 @@ export const backlinks = {
         "2022-11-03": "- [[Buffer Overflow Attacks]]",
         "Computer Systems": "- [[Buffer Overflow Attacks]]"
     },
+    "Retroactive (Software)": {
+        "2023-05-02": "- [[Retroactive (Software)]]"
+    },
     "Gaussian": {
         "2023-03-07": "- [[Gaussian]]",
         "Gaussian Distribution": "The [[Gaussian]] distribution, also known as the normal distribution, is a continuous [[probability]] ...",
@@ -8018,6 +8021,9 @@ export const backlinks = {
     },
     "F59F47.png": {
         "Midjourney": "![[F59F47.png]]"
+    },
+    "8B08CD.png": {
+        "Retroactive (Software)": "![[8B08CD.png]]"
     },
     "DCF75C.png": {
         "Modern MacPaint": "![[DCF75C.png]]"
