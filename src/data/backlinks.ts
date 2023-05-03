@@ -548,6 +548,7 @@ export const backlinks = {
         "2023-02-02": "- [[ChatGPT]]",
         "2023-02-21": "> [[ChatGPT]] is my best buddy for exploring and refining my thoughts. It ...",
         "2023-03-12": "- Unlike fluffy thought pieces on how [[CHATGPT]] WILL CHANGE EVERYTHING",
+        "AI and Ecommerce": "These breakthroughs, like the rise of [[ChatGPT]], allow businesses to provide seamless and personalized experiences, helping them evolve ...",
         "AI-native": "Especially with the emergence of [[ChatGPT]].",
         "Algorithmic Recommendation Engine for Texts": "- The tech that enabled [[ChatGPT]] also created new possibilities for social networks",
         "Bing": "... real questions, and get complete answers). The same OpenAI technology behind [[ChatGPT]] powers this feature.",
@@ -900,6 +901,7 @@ export const backlinks = {
         "본디는 사실 혜성이 아니다": "Bondee|본디를 운영하는 [[Metadream|메타드림]]은 2022년 9월에 설립되었다. Bondee|본디는 2023년 1월 7일에 놀라운 퀄리티로 출시되었다. 그리고 ..."
     },
     "Resend": {
+        "2023-05-03": "- [[Resend]]",
         "Neo Email": "- [[Resend]] looks promising."
     },
     "0104 Maximum Depth of Binary Tree": {
@@ -954,6 +956,9 @@ export const backlinks = {
         "Financial Technology": "... compete with traditional financial methods in delivering financial services. AI|Artificial intelligence, [[Blockchain]], [[Cloud computing]], and big data are regarded as the \"ABCD\" (four ...",
         "Universal Identity": "- [[Blockchain]] wallets can be one potential solution",
         "Web3": "- Censorship-resistant\" [[blockchain]] social networks became saturated with spam, driving away their actual users"
+    },
+    "AI and Ecommerce": {
+        "2023-05-03": "- [[AI and Ecommerce]]"
     },
     "GDB": {
         "Inspecting Assembly": "| [[gdb]] `executable`   | starts executable      ...",
@@ -1227,6 +1232,9 @@ export const backlinks = {
         "2023-02-05": "- [[초대장의 시대]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-05 | 🇬🇧 The Era of Invites <br/> 🇰🇷 [[초대장의 시대]]            ..."
     },
+    "American Bank Problems": {
+        "2023-05-03": "- [[American Bank Problems]]"
+    },
     "Proposal of Research 2023-03-28": {
         "2023-03-28": "- [[Proposal of Research 2023-03-28]]"
     },
@@ -1460,7 +1468,7 @@ export const backlinks = {
     "YAML": {
         "2023-01-13": "- [[YAML]]",
         "Ghost 테마를 자동 배포하는 방법": "... up a workflow yourself`를 누른다. 새로운 workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 [[YAML]] 코드를 복사하여 붙여넣는다. GitHub Secrets에 Key 이름을 다르게 저장했다면 마지막 두 ...",
-        "Higher-Level Languages and Their Speeds": "... entire product catalog of the e-commerce site can be a single [[YAML]] read on boot? This goes for many more objects than I ..."
+        "Higher-Level Languages and Their Speeds": "... entire product catalog of the ecommerce|e-commerce site can be a single [[YAML]] read on boot? This goes for many more objects than I ..."
     },
     "Monolithic Model": {
         "2022-09-03": "- [[Monolithic Model]]",
@@ -2187,7 +2195,7 @@ export const backlinks = {
         "Docker": "... premium tiers. The software that hosts the containers is called Docker [[Engine]]. It was first started in 2013 and was developed by Docker, ...",
         "Finding out Ghost version with JS": "... update it every time manually. At first, I investigated the Ghost [[engine]] side to make the Node.js include the value before responding to ...",
         "Geohot Twitter Mayhem": "Twitter's Missing Search [[Engine]].",
-        "Google": "... LLC is an American multinational technology company that focuses on search [[engine]] technology, online advertising, [[cloud computing]], computer software, quantum computing, e-commerce, [[AI|artificial ...",
+        "Google": "... LLC is an American multinational technology company that focuses on search [[engine]] technology, online advertising, [[cloud computing]], computer software, quantum computing, [[ecommerce|e-commerce]], [[AI|artificial ...",
         "Graphics Engine Process": "The general process of a graphics [[engine]] follows:",
         "JavaScript": "... third-party libraries. All major Web Browser|web browsers have a dedicated JavaScript [[engine]] to execute the code on users' devices. JavaScript",
         "Letter to Mr. Matt Rickard on 2022-10-03": "Naver services as the omnipotent search [[engine]] for [[대한민국|Korea]] (bigger market cap than [[Google]] [[대한민국|Korea]]) and [[Kakao]] services ...",
@@ -2457,6 +2465,16 @@ export const backlinks = {
         "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다.",
         "인하우스와 자유경쟁": "... 인하우스. 민사고에서는 연구 자원이 제한되어 있어 기술 애호가를 찾기가 어려웠다. 다행히도 [[Antifragile|안티프래질]]하게 독창성을 기를 수 있었다."
     },
+    "ecommerce": {
+        "2022-05-31": "... 점유율 1등 (~23.12) 2) 이걸 인류의 모든 소비로 확장 - 두잇 [[ecommerce|이커머스]] 전체로 카테고리 확장 (23.07~) - ecommerce|이커머스 서울, 수도권 점유율 1등 (~25.01) ...",
+        "AI and Ecommerce": "ai and [[ecommerce]]",
+        "CDN": "... (text, graphics, and scripts), downloadable objects (media files, software, documents), applications ([[ecommerce|e-commerce]], portals), live streaming media, on-demand streaming media, and social media sites. ...",
+        "Google": "... search engine technology, online advertising, cloud computing, computer software, quantum computing, [[ecommerce|e-commerce]], [[AI|artificial intelligence]], and consumer electronics. It has been referred to as ...",
+        "Higher-Level Languages and Their Speeds": "... read on boot. Hell, maybe your entire product catalog of the [[ecommerce|e-commerce]] site can be a single [[YAML]] read on boot? This goes ...",
+        "Mini App": "... Apps include WeChat in China. These platforms incorporate services like messaging, [[ecommerce|e-commerce]], ride-hailing, food delivery, and digital payments within a single app, making ...",
+        "Separation of Computer Scientists and Computer Technologists": "... self-taught dev can use React to make a cool-looking Single-Page-App JavaScript [[ecommerce|e-commerce]] website...",
+        "The One and Only (Social App)": "... App (WeChat) that combines various functionalities such as messaging, social media, [[ecommerce|e-commerce]], and mobile payments into a single app. Super Apps do not ..."
+    },
     "Pipelining": {
         "2022-12-08": "- [[Pipelining]]",
         "Computer Systems": "- [[Pipelining]]"
@@ -2668,7 +2686,7 @@ export const backlinks = {
     },
     "Personal Training Corpus": {
         "2022-10-12": "- [[Personal Training Corpus]]",
-        "2022-11-15": "- [[Personal Training Corpus]]: I record myself on audio 24x7 and use an AI to ...",
+        "2022-11-15": "- [[Personal Training Corpus]]: [I record myself on audio 24x7 and use an [AI]] to ...",
         "Generative Intelligence": "- Relates to Prompt Engineering and [[Personal Training Corpus]]?",
         "Matt Rickard": "- [[Personal Training Corpus]]",
         "Prompt Engineering": "- [[Personal Training Corpus]]"
@@ -3153,7 +3171,7 @@ export const backlinks = {
         "AI-native": "... cloud, leveraging the principles and practices of cloud-native development. It uses [[cloud computing]] infrastructure, services, and tools to build, train, and deploy AI models.",
         "Cloud-Native": "... practices and technologies. They have grown up in an era where [[cloud computing]] is the norm and take for granted the benefits that cloud ...",
         "Financial Technology": "... with traditional financial methods in delivering financial services. AI|Artificial intelligence, Blockchain, [[Cloud computing]], and big data are regarded as the \"ABCD\" (four key areas) ...",
-        "Google": "... multinational technology company that focuses on search engine technology, online advertising, [[cloud computing]], computer software, quantum computing, e-commerce, [[AI|artificial intelligence]], and consumer electronics. It ...",
+        "Google": "... multinational technology company that focuses on search engine technology, online advertising, [[cloud computing]], computer software, quantum computing, [[ecommerce|e-commerce]], [[AI|artificial intelligence]], and consumer electronics. It ...",
         "Krafton Way": "- [[Cloud Computing|클라우드]]를 이용하여 전세계 서비스 용이",
         "On-Premise": "Opposite of [[Cloud Computing]]",
         "OpenAI enthroned as the Levis of Tech": "... and hammers, the digital transformation has made an enormous demand for [[cloud computing]] services like AWS. [[OpenAI]] just officialized that they will be the ...",
@@ -3332,6 +3350,7 @@ export const backlinks = {
         "2022-12-16": "- [[Nuclear Fusion]]",
         "Clean Energy": "- [[Nuclear Fusion]]",
         "Desire-Compatible Growth & Preservation": "- [[Nuclear Fusion]]",
+        "MetroPunk": "... 스마트폰 시장 등의 근미래적 첨단 기술이 등장하지만, 사이버펑크에서 등장하는 상용화된 AI|인공지능, [[Nuclear Fusion|핵융합]], 사이버네틱스, [[Metaverse|메타버스]] 등의 미래적 기술 요소는 등장하지 않는다. 반면 메트로펑크 스토리에는 ...",
         "불가사리": "[[Nuclear Fusion|핵융합]]"
     },
     "Visual ChatGPT": {
@@ -3649,7 +3668,7 @@ export const backlinks = {
         "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
         "Search AI": "- [[Bing Chat for All Browsers]]",
         "Unchained Bing": "A competitor to [[Bing Chat for All Browsers]].",
-        "hn.cho.sh 개발 기록": "[[Bing Chat for All Browsers]]가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 ..."
+        "hn.cho.sh 개발 기록": "[[Bing Chat for All Browsers]]가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 [[AI]]를 추가하고 [[hn.cho.sh]]에 ..."
     },
     "의대 쏠림": {
         "2023-02-15": "- [[의대 쏠림]]",
@@ -3702,7 +3721,7 @@ export const backlinks = {
         "Deno Deploy": "- Deploy [[JavaScript]] Globally",
         "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "물론 이렇게 매번 [[JavaScript]]를 통해 링크를 조작하는 방법은 웹 성능에 영향을 줄 수 있으나 많은 ...",
         "HTMX": "- Implementation itself is [[JavaScript]]",
-        "Separation of Computer Scientists and Computer Technologists": "... A self-taught dev can use React to make a cool-looking Single-Page-App [[JavaScript]] e-commerce website...",
+        "Separation of Computer Scientists and Computer Technologists": "... A self-taught dev can use React to make a cool-looking Single-Page-App [[JavaScript]] [[ecommerce|e-commerce]] website...",
         "TypeScript": "- Typed [[JavaScript]].",
         "Write Once Run Everywhere": "- [[JavaScript]]"
     },
@@ -4258,6 +4277,9 @@ export const backlinks = {
     },
     "Satoshi": {
         "San Francisco": "### [[Satoshi]]"
+    },
+    "Mojo": {
+        "2023-05-03": "- [[Mojo]]"
     },
     "Primary-Recency Effect": {
         "2022-10-17": "- [[Primary-Recency Effect]]"
@@ -4889,7 +4911,7 @@ export const backlinks = {
     },
     "Graphics": {
         "2023-02-10": "- Screenstab: Cut down on time and effort by auto-generating quality [[graphics]] from ordinary screenshots",
-        "CDN": "... large portion of the Internet content today, including web objects (text, [[graphics]], and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), ...",
+        "CDN": "... large portion of the Internet content today, including web objects (text, [[graphics]], and scripts), downloadable objects (media files, software, documents), applications ([[ecommerce|e-commerce]], portals), ...",
         "Compiling": "In [[Graphics]], Compiling generates object codes, except it does not have addresses.",
         "Conditional Compilation": "In [[Graphics]], Conditional Compilation can be used for multi-platform [[engine]]",
         "Figma": "... experience design, emphasizing real-time collaboration and utilizing a variety of vector [[graphics]] editors and prototyping tools. The Figma mobile app for [[Android]] and ...",
@@ -5680,6 +5702,7 @@ export const backlinks = {
         "2022-07-05": "- [[United States of America|미국]] 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 ...",
         "2023-02-16": "- [[United States of America]]",
         "AT&T Roaming Incident Report (December 2022)": "... me who grew up in 대한민국|Korea, to see that in the [[United States of America|United States]] you should protect and exercise your own rights proactively.",
+        "American Bank Problems": "[[United States of America|US]] has the most banks...",
         "Biden-Harris Administration National Security Strategy 2022": "... the law. And we will take further measures to ensure the [[United States of America|United States]] remains the world's top destination for talent.",
         "Born of this Land - The Founding Story of Hyundai": "... is that when Jung first started working outsourcing jobs for the [[United States of America|US]] military, Jung had to put fresh green grass on a UN ...",
         "CCPA": "... to enhance privacy rights and consumer protection for residents of California, [[United States of America|United States]]. The bill was passed by the California State Legislature and signed ...",
@@ -5870,6 +5893,7 @@ export const backlinks = {
         "Bondee": "... interact with each other on this social media platform via its [[metaverse]] environment. In addition, users can also create and customize their [[3D]] ...",
         "Club Penguin": "[[Metaverse]]",
         "Habbo Hotel": "Habbo Hotel is also a part of the [[metaverse]]. It is a virtual world and social networking site where users ...",
+        "MetroPunk": "... 근미래적 첨단 기술이 등장하지만, 사이버펑크에서 등장하는 상용화된 AI|인공지능, Nuclear Fusion|핵융합, 사이버네틱스, [[Metaverse|메타버스]] 등의 미래적 기술 요소는 등장하지 않는다. 반면 메트로펑크 스토리에는 도쿄나 서울과 ...",
         "Prompt Engineering": "- It has now come to my mind that [[Metaverse]] can be attained within years with Prompt Engineering.",
         "Spacial Cognition": "- Very important for [[Metaverse]]",
         "The Sudden Rise of Bondee": "Bondee is a [[metaverse]] social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking ...",
@@ -6308,7 +6332,8 @@ export const backlinks = {
     },
     "Vercel Incident Report (April 2023)": {
         "2023-04-08": "[[Vercel Incident Report (April 2023)]]",
-        "2023-04-10": "- [[Vercel Incident Report (April 2023)]]"
+        "2023-04-10": "- [[Vercel Incident Report (April 2023)]]",
+        "2023-05-03": "- [[Vercel Incident Report (April 2023)]]"
     },
     "NPU": {
         "Imagining WebNPU API": "... more advanced GPU features. What if we could do this with [[NPU]]? I hereby suggest a hypothetical WebNPU API. Think this way:",
@@ -6557,7 +6582,8 @@ export const backlinks = {
         "2023-01-31": "- [[Convergence of Alternating Series]]"
     },
     "SVB Debacle": {
-        "2023-03-12": "- [[SVB Debacle]]"
+        "2023-03-12": "- [[SVB Debacle]]",
+        "American Bank Problems": "- [[SVB Debacle]]"
     },
     "Hacker News": {
         "2022-06-21": "## Today's [[Hacker News]]",
@@ -7144,14 +7170,19 @@ export const backlinks = {
         "2022-09-12": "- [[Nation as a Service]]"
     },
     "AI": {
+        "2022-05-31": "... we'll organize it for you. - Capture your thoughts from anywhere. Weavit.[[ai]]",
+        "2022-11-14": "... work on making new kinds of creative tools using advances in [[AI]]. A new kind of Adobe Creative Suite.",
         "2022-11-22": "- From 2014 to 2021, Kite was a startup using [[AI]] to help developers write code. We have stopped working on Kite ...",
+        "2023-02-06": "- [[AI]] used these human-made source images to generate this image.",
         "2023-02-16": "  - [[AI]] applications",
         "2023-03-01": "- [[AI]]",
         "AI Garbage Data Flooding": "... we must treat anything we see on the Internet as potential [[AI]] garbage. The picture gallery from an artist? The very cool sounding ...",
+        "AI and Ecommerce": "[[ai]] and [[ecommerce]]",
         "AI and ML": "How are [[AI]] and [[ML]] different? AI is the general terminology of machine mimicking ...",
         "AI replaces expensive jobs first": "## Then why can [[AI]] replace expensive jobs?",
         "AI-native": "[[AI]]-native refers to developing and deploying [[AI|artificial intelligence]] (AI) technologies in a ...",
         "AI는 고가 노동부터 점령한다": "## 그렇다면 왜 [[AI|인공지능]]이 2가지 고가 노동을 잘 할 수 있는가?",
+        "AI로 변할 세상에 필요한 것": "> [[AI]] 자체도 아니고,",
         "Artifact": "... not been successful, Artifact hopes to leverage the recent advances in [[AI|artificial intelligence]] to improve proposals and offer high-quality news and information. The founders ...",
         "Bing": "... inappropriate requests. ChatGPT is a natural language processing tool driven by [[AI]] technology that allows you to have human-like conversations and much more ...",
         "Can we ever build TikTok for Text": "- Illustrations. Hire an illustrator or use generative [[AI]] to create visual elements for text-based content.",
@@ -7159,22 +7190,28 @@ export const backlinks = {
         "Chopstick Game": "Someday Project. Digital implementation of the chopstick game with competitive [[AI]]",
         "Computational Linguistics": "Computational linguistics combines linguistics, computer science, and [[AI|artificial intelligence]] to develop algorithms, models, and systems that can process and analyze ...",
         "Conversational AI Tools for Thought": "... people ask questions, get instant answers, and have back-and-forth dialogue with [[AI]]. Poe will initially be available on [[iOS]], and it will be ...",
+        "Dear AIs, I have a question.": "... it publicly to all of you. I'm currently overwhelmed by the [[AI]] industry, which is changing daily. I feel like I'm watching Web3 ...",
         "Deepfake": "... is not new, deepfakes leverage powerful techniques from ML|machine learning and [[AI|artificial intelligence]] to manipulate or generate visual and audio content that can more ...",
+        "EU and AI": "The EU is grappling with how to regulate general-purpose [[AI]], such as OpenAI's [[ChatGPT]], which can generate human-like text with no ...",
         "Educational Technology": "... theoretical knowledge from various disciplines such as communication, education, psychology, sociology, [[AI|artificial intelligence]], and computer science. It encompasses several domains, including learning theory, computer-based ...",
         "Effective Accelerationism": "8. [[AI|인공지능]]과 기술적 자본의 초변수(hyper-parameters)를 먼저 통제하는 자는 이 의식의 미래에 강력한 대리 ...",
         "Financial Technology": "... technology to compete with traditional financial methods in delivering financial services. [[AI|Artificial intelligence]], [[Blockchain]], [[Cloud computing]], and big data are regarded as the \"ABCD\" ...",
         "Generative AI": "Instead of guessing the correct answer, [[AI]] creates something from [[Prompt Engineering]].",
         "Generative Databases": "... the world of Generative AIs, can we think Database as Gen [[AI]] models instead of key-value storages?",
         "Geohot Twitter Mayhem": "... also known as Geohot, is a famous hacker and founder of Comma.[[ai]]. Elon Musk hired him to work on Twitter to improve its ...",
-        "Google": "... engine technology, online advertising, cloud computing, computer software, quantum computing, e-commerce, [[AI|artificial intelligence]], and consumer electronics. It has been referred to as the \"most ...",
+        "Google": "... engine technology, online advertising, cloud computing, computer software, quantum computing, ecommerce|e-commerce, [[AI|artificial intelligence]], and consumer electronics. It has been referred to as the \"most ...",
         "Grammarly AI-NLP Club": "[[AI]] [[Natural Language Processing|NLP]] Club at [[Grammarly]].",
         "Imagining WebNPU API": "... local, fast, and secure—no need to install an app for an [[AI]] to be tailored to their specific preferences and behavior. Visiting a ...",
         "In-house and Free Market": "... wasn't necessarily bad, I was surprised by the recent boom in [[AI]]/CS. Despite the limitations, I [[antifragily]] developed my unique style.",
         "Intellisense for Knowledge Management": "- More like Notion AI? What if Notion [[AI]] got super powerful, giving insight into your written documents?",
+        "Learning Execution Semantics from Micro-Traces for Binary Similarity": "- Teach [[AI]] approximate learning on binary code instructions and make mental executions.",
         "Letter to Mr. Matt Rickard on 2022-11-28": "... the web. For example, given an idea of dogs playing frisbee, [[AI]] will put the following as such.",
         "Magician": "... a Figma plugin that lets you design with the power of [[AI]] to do everything from copywriting to generating unique icons from the ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... as App Economy vs. Web Economy, Closed vs. (fairly) Open, Edge-first [[AI]] vs. Cloud-first AI, etc.",
+        "MetroPunk": "... 급감, 정치적 급진화, 계층 간의 갈등 같은 문제를 다룬다. 메트로펑크에서는 초보적인 [[AI]]와 발달한 스마트폰 시장 등의 근미래적 첨단 기술이 등장하지만, 사이버펑크에서 등장하는 상용화된 ...",
         "Microsoft": "... blessing for Microsoft, considering its counterpart Google has been exploring the [[AI]] ecosystem. Consequently, the increased demand for AI products could drive Microsoft ...",
+        "Mojo": "... Mojo is a new programming language designed specifically for artificial intelligence ([[AI]]) developers, with features that streamline the AI development process and make ...",
+        "Oneliner News": "An [[AI]]-powered news portal? Reference: [[일일일]]",
         "OpenAI": "OpenAI is an [[AI]] research and deployment company that aims to ensure that artificial general ...",
         "OpenAI enthroned as the Levis of Tech": "OpenAI has launched its ChatGPT API service, powered by the GPT-3.5-turbo [[AI]] model. The model is available for $0.002 per 1,000 tokens and ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "방금 [[AI]] 네이티브 시대의 골드러시가 시작되었다.",
@@ -7182,14 +7219,18 @@ export const backlinks = {
         "Person E7CFC5": "- Currently studying at Stanford Grad School, prev Scale [[AI]] engineer",
         "Personal Training Corpus": "  This is a fictional interview by having [[AI]] learn about thousands of Joe Rogan's podcasts and thousands of Steve ...",
         "Proposal of Research 2023-01-10": "... such as the recent ChatGPT (i.e., we now have the infinite [[AI]] monkey making infinite keystrokes). Will AI eventually create all information creatable ...",
+        "Proposal of Research 2023-03-28": "... features are crucial in creating high-quality, natural-looking handwriting fonts. However, current [[AI]] font generation methods often overlook these features, focusing primarily on static ...",
         "Quoridor Game": "Someday Project. Creating a \"Quoridor\" game and its corresponding [[AI]] system.",
+        "Replicating Balenciaga Harry Potter Advertisement": "- Utilized various [[AI]] tools for character design, voice generation, and animation.",
         "Search AI": "- Hello! My name is YouChat; I'm an [[AI]] that can answer general questions, explain things, suggest ideas, translate, summarize ...",
         "Text AI and Information Density": "Text [[AI]], for example [[ChatGPT]], tends to have low [[Entropy|information density]].",
         "The Demise of Chatbots in 2017": "- In 2017, I saw too many Chatbot [[AI]] startups. Then in 2018, they suddenly disappeared.",
         "Tome": "It's like Text-based Presentations, but [[AI]] will draw & layout stuff for you!",
         "Unsemantic": "Instead of \"semanticizing\" the web, we must create an unsemantic [[AI]] (i.e., rigorous.)",
         "WebNPU API를 상상하다": "언젠가 [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 되면, 특히 웹 기술을 사용하여 [[NPU]]에 ...",
-        "기술 발전의 속도": "이게 반년도 되지 않았다. 2022년 가을만 해도 [[AI|인공지능]]이라고 해봐야 그림을 어느 정도 잘 그리는 [[AI]]만 있었을 뿐이다. Stable Diffusion이나, ...",
+        "hn.cho.sh 개발 기록": "해커뉴스를 읽고 있다가 이걸 [[AI]]에게 요약해보고 있었다.",
+        "기술 발전의 속도": "2022년 여름의 [[AI|인공지능]] 업계를 대표적으로 나타내는 글이다",
+        "슈퍼자판기": "... 범죄 탐지 및 예방: CCTV로 주변 환경을 실시간으로 촬영. 이러한 카메라는 [[AI]] 기반 행동 분석 시스템과 통합되어 의심스러운 활동이나 개인을 감지.",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "- 일러스트레이션. 일러스트레이터를 고용하거나 생성 [[AI]]를 사용하여 일러스트레이션을 만든다.",
         "의료 인공지능과 의대 쏠림": "만약 의료 [[AI|인공지능]]이 대규모로 보급된다면 어떨까? 의대를 가려는 원동력이 사라지지 않을까?",
         "이루다": "## [[AI|인공지능]]",
@@ -7736,6 +7777,9 @@ export const backlinks = {
     },
     "C1D4F8.png": {
         "Resend": "![[C1D4F8.png]]"
+    },
+    "605BED.png": {
+        "Resend": "![[605BED.png]]"
     },
     "E22245.png": {
         "Stripe Sessions 2023": "![[E22245.png]]"
