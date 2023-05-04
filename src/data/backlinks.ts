@@ -111,6 +111,9 @@ export const backlinks = {
         "Person 5DBDAE": "- Interviewed on [[2022-09-13]]",
         "Person CC8297": "- Interviewed on [[2022-09-13]]"
     },
+    "2023-05-04": {
+        "hn.cho.sh 개발 기록": "## [[2023-05-04]]"
+    },
     "2022-07-10": {
         "0001 Two Sum": "Solved at: [[2022-07-10]]",
         "0020 Valid Parentheses": "Solved at: [[2022-07-10]]"
@@ -2746,11 +2749,17 @@ export const backlinks = {
         "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
         "2022-10-25": "## [[Next.js]] Conf",
         "2022-12-04": "- The Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: The Verge: new version built with ...",
+        "2022-12-28": "- Frontend web framework: [[Next.js|NextJS]]/[[Vercel]] (Past: Ruby on Rails/Heroku)",
+        "2023-02-16": "... level, as Nodebox allows running server-side examples. Go ahead and add [[Next.js]] or any Vite-based examples and tutorials for Node scripts… all of ...",
         "Apple-like Block Interface": "## [[Next.js]]",
         "Front-end": "- [[Next.js]]",
+        "React": "... the development of single-page, mobile, or server-rendered applications with frameworks like [[Next.js]]. However, React is only concerned with state management and rendering that ...",
+        "Shopify Analyzes CSS Frameworks": "... a developer, I want to use this solution across Rails, React, [[Next.js]], React-Native, rollup, Vite, esbuild, webpack, sewing-kit [[HTML]], and Native applications. | ...",
+        "Tailwind CSS 톺아보기": "- 기초적인 TypeScript [[Next.js|Next]] App 설정",
         "Vercel": "... American cloud platform as a service company. The company maintains the [[Next.js]] web development framework. Vercel's architecture is built around Jamstack, and deployments ...",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]",
-        "dub.sh": "  - [[Next.js]] framework"
+        "dub.sh": "  - [[Next.js]] framework",
+        "hn.cho.sh 개발 기록": "- supastarter - The SaaS starter template for [[Next.js]] and [[Supabase]] 살펴보기"
     },
     "Jupyter": {
         "Deepnote": "- [[Jupyter]] compatible"
@@ -4332,7 +4341,7 @@ export const backlinks = {
         "2022-10-10": "  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? Building an interactive WebGL experience in Next.js ...",
         "2022-12-04": "- The Verge is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: The Verge: new version built with @nextjs, ...",
-        "2022-12-28": "- Frontend web framework: NextJS/[[Vercel]] (Past: Ruby on Rails/Heroku)",
+        "2022-12-28": "- Frontend web framework: Next.js|NextJS/[[Vercel]] (Past: Ruby on Rails/Heroku)",
         "2023-01-27": "I had to migrate Extracranial to Cloudflare Pages for [[Vercel]] for now...",
         "2023-04-10": "For comparison, this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
         "Aldehyde Outage (January 2023)": "## [[Vercel]] and [[Cloudflare]] Build Errors",
@@ -4742,6 +4751,11 @@ export const backlinks = {
         "Internetworking": "- [[Throughput]]",
         "Latency and Throughput": "## [[Throughput]]",
         "Memory Wall": "  - Improve [[Throughput]]"
+    },
+    "Supabase": {
+        "2022-12-28": "- Backend as a Service: [[Supabase]] (past: Firebase)",
+        "2023-05-04": "[[Supabase]]",
+        "hn.cho.sh 개발 기록": "- supastarter - The SaaS starter template for Next.js and [[Supabase]] 살펴보기"
     },
     "Delta Time": {
         "Game Programming": "- [[Delta Time]]",
@@ -5535,6 +5549,7 @@ export const backlinks = {
         "2023-04-18": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-20": "[[hn.cho.sh 개발 기록]]",
         "2023-04-21": "- [[hn.cho.sh 개발 기록]]",
+        "2023-05-04": "[[hn.cho.sh 개발 기록]]",
         "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
         "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]",
         "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]]"
@@ -8766,6 +8781,9 @@ export const backlinks = {
     },
     "3CD8AD.png": {
         "hn.cho.sh 개발 기록": "![[3CD8AD.png]]"
+    },
+    "8E5236.png": {
+        "hn.cho.sh 개발 기록": "![[8E5236.png]]"
     },
     "C25819.png": {
         "Superbrain": "![[C25819.png]]"
