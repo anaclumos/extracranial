@@ -2531,6 +2531,9 @@ export const backlinks = {
         "2023-03-19": "- [[Internet Computer]]",
         "The Browser Company": "Based in NY, tries to make the [[Internet Computer]]"
     },
+    "빙글": {
+        "2023-05-03": "- [[빙글]]"
+    },
     "R=VD and Generative AIs": {
         "글감": "- [[R=VD and Generative AIs]]"
     },
@@ -3454,6 +3457,7 @@ export const backlinks = {
         "Tossface": "- Emoji Font by [[Toss]]",
         "Why Korean Banks Suck": "... 대한민국|Korean banking sector, the emergence of new Financial Technology|fintech companies like [[Toss]] and KakaoBank has brought some positive changes. These companies have disrupted ...",
         "국내 은행 서비스가 나쁜 이유": "대한민국|한국 은행권의 어려움과 제한적인 경쟁에도 불구하고 [[Toss|토스]], [[Kakao|카카오]]뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 등장은 몇 가지 긍정적인 변화를 ...",
+        "북스페이스": "[[Toss|토스]] 기획자가 설립했던 작문 플랫폼 스타트업. [[곰단]]의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 ...",
         "서비스 시밍": "- [[Toss|토스]]도 송금 시스템을 완성하지 못해 하루에 3번 이승건이 직접 은행에 가서 송금 ...",
         "유난한 도전": "이승건은 앱 하나만 만들어보는 거야, 개원은 반년만 미루자라는 마음으로 [[Toss|토스]]를 시작했다.",
         "프로젝트 어덕행덕": "... 결제 자체는 매우매우 쉬워야하기 때문에 간편결제 위주로 할 예정. 특히 Kakao|카카오페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 혜택을 누릴 수 있도록 할 것. ..."
@@ -3546,6 +3550,9 @@ export const backlinks = {
     "0020 Valid Parentheses": {
         "2022-07-10": "- Solved [[0020 Valid Parentheses]]",
         "Coding Tests": "- [x] [[0020 Valid Parentheses]]"
+    },
+    "북스페이스": {
+        "2023-05-03": "- [[북스페이스]]"
     },
     "Catherine the Great": {
         "2023-02-21": "- [[Catherine the Great]]"
@@ -6149,6 +6156,10 @@ export const backlinks = {
         "2023-02-05": "- [[The Era of Invites]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-05 | 🇬🇧 [[The Era of Invites]] <br/> 🇰🇷 [[초대장의 시대]]        ..."
     },
+    "뤼튼": {
+        "2023-05-03": "- [[뤼튼]]",
+        "북스페이스": "Toss|토스 기획자가 설립했던 작문 플랫폼 스타트업. 곰단의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 것이다. 결과는 북스페이스의 피봇: \"원고를 한글, 워드, 브런치북 URL 등 ..."
+    },
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]"
     },
@@ -6787,6 +6798,8 @@ export const backlinks = {
     "곰단": {
         "2023-02-27": "- [[곰단]]",
         "Can we ever build TikTok for Text": "... Facebook's Suggested for You, and Apple's News app. Even I also [[곰단|tried once]]. However, none has been as successful as TikTok in creating an ...",
+        "뤼튼": "[[곰단]]의 (나만의) 경쟁자였다. 결과는 싸워보지도 못하고 나의 패배.",
+        "북스페이스": "Toss|토스 기획자가 설립했던 작문 플랫폼 스타트업. [[곰단]]의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 것이다. 결과는 북스페이스의 피봇: \"원고를 한글, ...",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 뉴스 앱처럼 개인화된 뉴스 피드를 만들려는 다른 시도는 이미 충분히 있었다. [[곰단|나도 했었다.]] 하지만 틱톡만큼 매력적이고 중독성 있는 사용자 경험을 만드는 데 성공한 사례는 ..."
     },
     "Counting": {
