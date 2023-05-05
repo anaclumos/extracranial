@@ -1550,6 +1550,7 @@ export const backlinks = {
     },
     "Microservices Architecture": {
         "Cloud-Native": "... as AWS, instead of traditional on-premise infrastructure. They are comfortable building [[Microservices Architecture]], containerization, and [[automation]] using tools like [[Kubernetes]], [[Docker]], and Terraform.",
+        "Monolith": "...Server. opposite of [[Microservices Architecture|MSA]]",
         "OpenAI enthroned as the Levis of Tech": "- Rise of [[Microservices Architecture|MSA]] and [[Serverless]] — [[AWS]] made it easy to spin up and ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "... — AWS는 소규모의 독립적인 서비스를 쉽게 실행하고 관리할 수 있도록 하여 [[Microservices Architecture|마이크로서비스 아키텍처]]의 등장으로 이어졌다. 이 아키텍처를 통해 개발자는 독립적으로 확장할 수 있는 소규모 ..."
     },
@@ -4754,7 +4755,7 @@ export const backlinks = {
     },
     "Supabase": {
         "2022-12-28": "- Backend as a Service: [[Supabase]] (past: Firebase)",
-        "2023-05-04": "[[Supabase]]",
+        "2023-05-04": "- [[Supabase]]",
         "hn.cho.sh 개발 기록": "- supastarter - The SaaS starter template for Next.js and [[Supabase]] 살펴보기"
     },
     "Delta Time": {
@@ -5549,7 +5550,7 @@ export const backlinks = {
         "2023-04-18": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-20": "[[hn.cho.sh 개발 기록]]",
         "2023-04-21": "- [[hn.cho.sh 개발 기록]]",
-        "2023-05-04": "[[hn.cho.sh 개발 기록]]",
+        "2023-05-04": "- [[hn.cho.sh 개발 기록]]",
         "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
         "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]",
         "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]]"
@@ -7036,6 +7037,11 @@ export const backlinks = {
         "DEV.to": "[[Medium]] for Devs.",
         "Hashnode": "[[Medium]] but for even more Devs.",
         "Substack is the new Medium": "- Substack is the new [[Medium]]"
+    },
+    "Monolith": {
+        "2023-05-04": "- [[Monolith]]",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "> Another example of this is Ghost... another Rails [[monolith]].",
+        "The Architecture of Mastodon": "  - Rails [[monolith]] is harder to scale."
     },
     "Three Column Design": {
         "Horizontally Stacked Interface": "- [[Three Column Design]]: Discord-Like Interface.",
