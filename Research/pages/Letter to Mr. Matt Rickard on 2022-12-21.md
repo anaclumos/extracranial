@@ -11,7 +11,7 @@ This is an reply to [[The Architecture of Mastodon]]
 
 Dear Mr. [[Matt Rickard|Rickard]],
 
-> Another example of this is Ghost... another Rails monolith.
+> Another example of this is Ghost... another Rails [[monolith]].
 
 AFAIK Ghost is Node.js, not Rails! [https://github.com/TryGhost/Ghost](https://github.com/TryGhost/Ghost)
 
@@ -25,4 +25,4 @@ Sunghyun Cho
 
 ## Reply on [[2022-12-21]]
 
-> Maybe the tech will steer us towards a backward compatible path at some point (i.e., automatically split a monolith for popular frameworks)
+> Maybe the tech will steer us towards a backward compatible path at some point (i.e., automatically split a [[monolith]] for popular frameworks)
