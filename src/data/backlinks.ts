@@ -1226,6 +1226,7 @@ export const backlinks = {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]",
         "2022-11-01": "- [[Search Engine Indexing Your Life]]",
         "2022-12-24": "- [[Search Engine Indexing Your Life]]",
+        "Autopedia": "[[Search Engine Indexing Your Life]]... but more like Encyclopedia of Life",
         "Rewind": "- Rewind is a [[Search Engine Indexing Your Life]].",
         "Search-based Tools for Thought": "- [[Search Engine Indexing Your Life]]",
         "Thesephist Work Case Study": "### Monocle: [[Search Engine Indexing Your Life]]"
@@ -2983,6 +2984,9 @@ export const backlinks = {
         "Are.na (Service)": "... People describe Are.na as a garden of ideas or Tumblr meets [[Wikipedia]].",
         "Love Wikipedia": "i love [[wikipedia]]"
     },
+    "Autopedia": {
+        "2023-05-06": "- [[Autopedia]]"
+    },
     "Central Limit Theorem": {
         "Probability": "- [[Central Limit Theorem]]"
     },
@@ -3599,6 +3603,9 @@ export const backlinks = {
         "Watchings": "## [[Done]]",
         "lovearc.net": "A small [[done]] project I've done over the weekend",
         "하늘땅사람": "... 아이폰에서도 갤럭시와 동일한 키보드 경험을 할 수 있도록 키보드를 제작하는 Project|프로젝트. [[Done]]."
+    },
+    "Bluesky": {
+        "After Steve": "... a familiar concept and reimagine it. The school called it the \"[[Bluesky|blue sky]]\" project, a name that encouraged students to imagine futuristic products that ..."
     },
     "Inliner": {
         "2022-10-04": "- [[Inliner]]"
@@ -4258,6 +4265,9 @@ export const backlinks = {
     },
     "Probability Of Queueing (Internetworking)": {
         "Internetworking": "- [[Probability Of Queueing (Internetworking)]]"
+    },
+    "After Steve": {
+        "2023-05-06": "[[After Steve]]를 읽고 있는데"
     },
     "Edge": {
         "2022-10-24": "- [[Edge]]",
