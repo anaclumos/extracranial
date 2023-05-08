@@ -75,7 +75,7 @@ const config: Config = {
       debug: false,
     },
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: 'dark',
       disableSwitch: true,
       respectPrefersColorScheme: true,
     },
