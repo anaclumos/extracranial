@@ -716,6 +716,7 @@ export const filenames = {
     "Geometric Distribution": "E412DA",
     "Geometric Series": "448491",
     "Get Job Done": "51BF0E",
+    "Getting Verified on Gmail": "BEBA2C",
     "Ghost 테마를 자동 배포하는 방법": "0F1FE2",
     "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "A11B23",
     "Git": "8E65E2",
