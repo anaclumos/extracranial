@@ -81,6 +81,9 @@ export const backlinks = {
     "2020-03-08": {
         "프로젝트 어덕행덕": "- [[2020-03-08]]"
     },
+    "2023-05-10": {
+        "hn.cho.sh 개발 기록": "## [[2023-05-10]]"
+    },
     "2020-02-22": {
         "프로젝트 어덕행덕": "- [[2020-02-22]]"
     },
@@ -496,7 +499,7 @@ export const backlinks = {
     },
     "Algorithmic Recommendation Engine for Texts": {
         "2023-02-02": "- [[Algorithmic Recommendation Engine for Texts]]",
-        "LavaLab Cohort of Spring 2023": "... into the article. A similar approach to Oneliner News, by attempting [[Algorithmic Recommendation Engine for Texts]].",
+        "LavaLab Cohort of Spring 2023": "... into the article. A similar approach to Project Heimdall, by attempting [[Algorithmic Recommendation Engine for Texts]].",
         "hn.cho.sh 개발 기록": "- [[Algorithmic Recommendation Engine for Texts]]"
     },
     "Tailscale": {
@@ -697,6 +700,12 @@ export const backlinks = {
         "Better Aldehyde": "- [[Aldehyde]]",
         "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 Aldehyde를 더 많이 사용하게 됨",
         "Link Coefficient": "For example, as of 2023-02-16, [[Aldehyde]] has a 0.592% of Link Coefficient."
+    },
+    "Prehistoric": {
+        "2023-05-10": "- [[Prehistoric]]",
+        "FFMpeg for iPad": "## [[Prehistoric]]",
+        "Project Heimdall": "## [[Prehistoric]]",
+        "hn.cho.sh 개발 기록": "## [[Prehistoric]]"
     },
     "Book Metadata as a Service": {
         "Fiercely Overpriced": "[[Book Metadata as a Service]] could also be one example."
@@ -1714,7 +1723,7 @@ export const backlinks = {
     },
     "일일일": {
         "2023-04-19": "- [[일일일]]",
-        "Oneliner News": "An AI-powered news portal? Reference: [[일일일]]"
+        "Project Heimdall": "Where would hn.cho.sh lead us? An AI-powered news portal? Reference: [[일일일]], [[News Minimalist]]"
     },
     "벨로그": {
         "2023-04-20 Conversation with Velopert": "[[벨로그]]의 초기 성장에는 [[벨로퍼트]]님의 글이 가장 큰 역할을 했다. 2023년 기준 매달 ...",
@@ -1934,18 +1943,12 @@ export const backlinks = {
         "2022-11-30": "- [[Centering]]",
         "Android": "- [[Centering]]"
     },
-    "Oneliner News": {
-        "2023-04-19": "- [[Oneliner News]]",
-        "LavaLab Cohort of Spring 2023": "... don't need to dive into the article. A similar approach to [[Oneliner News]], by attempting [[Algorithmic Recommendation Engine for Texts]].",
-        "METI Engine": "... current generation is hn.cho.sh — and plan to scale it to [[Oneliner News]].",
-        "일일일": "NewsGPT Model. A competitor to [[Oneliner News]]."
-    },
     "hn.cho.sh": {
         "2023-03-24": "- [[hn.cho.sh]]",
         "2023-04-01": "- [[hn.cho.sh]]",
-        "METI Engine": "The current generation is [[hn.cho.sh]] — and plan to scale it to [[Oneliner News]].",
-        "Oneliner News": "Where would [[hn.cho.sh]] lead us?",
+        "METI Engine": "The current generation is [[hn.cho.sh]] — and plan to scale it to [[Project Heimdall]].",
         "Project": "- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]]",
+        "Project Heimdall": "Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news portal? Reference: [[일일일]], [[News Minimalist]]",
         "Vercel Incident Report (April 2023)": "... from Vercel under \"violating fair use\" with two projects: lovearc.net and [[hn.cho.sh]].",
         "hn.cho.sh 개발 기록": "... Browsers가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
     },
@@ -2671,7 +2674,7 @@ export const backlinks = {
     "METI Engine": {
         "2023-04-19": "- [[METI Engine]]",
         "hn.cho.sh 개발 기록": "2023-04-20 Conversation with Velopert에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. [[Sprachraum]]에 구애받지 않는 [[Across the Sprachraums]].",
-        "일일일": "...  - Oneliner News aims to build the International mesh of [[METI Engine]]. If humans get involved in the pipeline"
+        "일일일": "...  - Project Heimdall aims to build the International mesh of [[METI Engine]]. If humans get involved in the pipeline"
     },
     "Collaboration-based Tools for Thought": {
         "Deepnote": "- Data Science [[Collaboration-based Tools for Thought]].",
@@ -4418,6 +4421,9 @@ export const backlinks = {
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... who sent you 10s of Mail|emails since the early days of [[tabExtend]]. I hope you are doing well. It's been a long time ...",
         "tabOS": "a successor to [[tabExtend]]"
     },
+    "Anti-Tiktok": {
+        "Project Heimdall": "... ourselves up to date on various topics, but in a non-aggressive, [[Anti-Tiktok]] manner? Users can define:"
+    },
     "MOBI": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB, [[MOBI]] for texts. For generic use cases, [[DjVu]]."
     },
@@ -5676,6 +5682,9 @@ export const backlinks = {
         "이완용": "[[한민족의 동족상잔]]와 [[헤이그 특사]] 항목에서 볼 수 있듯이 20세기 초 관리들 사이에서는 일제에 ...",
         "한민족은 해적되었다": "그것이 [[한민족의 동족상잔|동족]]이든 [[일본 과학기술 총력전|외세]]이든..."
     },
+    "News Minimalist": {
+        "Project Heimdall": "Where would hn.cho.sh lead us? An AI-powered news portal? Reference: 일일일, [[News Minimalist]]"
+    },
     "Handwriting Tools for Thoughts": {
         "2022-10-12": "- [[Handwriting Tools for Thoughts]]",
         "Handwriting Grammarly": "- Grammarly for [[Handwriting Tools for Thoughts]]",
@@ -6779,7 +6788,7 @@ export const backlinks = {
         "Can we ever build TikTok for Text": "... no better. They should've done something more breaking, for example, a [[NewsGPT]].",
         "hn.cho.sh 개발 기록": "- [[NewsGPT]]",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 알고리즘 추천 기능을 제공하고 있는데, 아티팩트도 크게 다르지 않다. 예를 들어 [[NewsGPT|챗봇 기반 뉴스 앱]]과 같이 좀 더 획기적인 무언가를 했어야 했다.",
-        "일일일": "[[NewsGPT]] Model. A competitor to [[Oneliner News]]."
+        "일일일": "[[NewsGPT]] Model. A competitor to [[Project Heimdall]]."
     },
     "Hashnode": {
         "2023-04-20 Conversation with Velopert": "... 계시지만 새로운 서비스를 성장시킨 뒤 벨로그|Velog를 편입하는 방향으로 생각하고 계시고, Substack, [[Hashnode]], [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 고려 중. 지적 자산의 보급과 ...",
@@ -7142,6 +7151,14 @@ export const backlinks = {
         "Computer Systems": "- [[Inspecting Assembly]]",
         "GDB": "- [[Inspecting Assembly]]"
     },
+    "Project Heimdall": {
+        "2023-04-19": "- [[Project Heimdall]]",
+        "2023-05-10": "- [[Project Heimdall]]",
+        "LavaLab Cohort of Spring 2023": "... don't need to dive into the article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine for Texts]].",
+        "METI Engine": "... current generation is hn.cho.sh — and plan to scale it to [[Project Heimdall]].",
+        "hn.cho.sh 개발 기록": "[[Project Heimdall]]",
+        "일일일": "NewsGPT Model. A competitor to [[Project Heimdall]]."
+    },
     "Freedom of Speech and Regulation of Fake News": {
         "Regulation of Fake News": "- [[Freedom of Speech and Regulation of Fake News]]"
     },
@@ -7274,13 +7291,13 @@ export const backlinks = {
         "MetroPunk": "... 급감, 정치적 급진화, 계층 간의 갈등 같은 문제를 다룬다. 메트로펑크에서는 초보적인 [[AI]]와 발달한 스마트폰 시장 등의 근미래적 첨단 기술이 등장하지만, 사이버펑크에서 등장하는 상용화된 ...",
         "Microsoft": "... blessing for Microsoft, considering its counterpart Google has been exploring the [[AI]] ecosystem. Consequently, the increased demand for AI products could drive Microsoft ...",
         "Mojo": "... Mojo is a new programming language designed specifically for artificial intelligence ([[AI]]) developers, with features that streamline the AI development process and make ...",
-        "Oneliner News": "An [[AI]]-powered news portal? Reference: [[일일일]]",
         "OpenAI": "OpenAI is an [[AI]] research and deployment company that aims to ensure that artificial general ...",
         "OpenAI enthroned as the Levis of Tech": "OpenAI has launched its ChatGPT API service, powered by the GPT-3.5-turbo [[AI]] model. The model is available for $0.002 per 1,000 tokens and ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "방금 [[AI]] 네이티브 시대의 골드러시가 시작되었다.",
         "Pensieve": "... that automatically collects your expertise in a hierarchy powered by an [[AI]] [[copilot]]. Whenever you are starting a search journey that entails multiple ...",
         "Person E7CFC5": "- Currently studying at Stanford Grad School, prev Scale [[AI]] engineer",
         "Personal Training Corpus": "  This is a fictional interview by having [[AI]] learn about thousands of Joe Rogan's podcasts and thousands of Steve ...",
+        "Project Heimdall": "Where would hn.cho.sh lead us? An [[AI]]-powered news portal? Reference: [[일일일]], [[News Minimalist]]",
         "Proposal of Research 2023-01-10": "... such as the recent ChatGPT (i.e., we now have the infinite [[AI]] monkey making infinite keystrokes). Will AI eventually create all information creatable ...",
         "Proposal of Research 2023-03-28": "... features are crucial in creating high-quality, natural-looking handwriting fonts. However, current [[AI]] font generation methods often overlook these features, focusing primarily on static ...",
         "Quoridor Game": "Someday Project. Creating a \"Quoridor\" game and its corresponding [[AI]] system.",
@@ -8821,6 +8838,9 @@ export const backlinks = {
     "51C828.jpg": {
         "서낭당": "![[51C828.jpg]]"
     },
+    "E09DAA.png": {
+        "News Minimalist": "![[E09DAA.png]]"
+    },
     "8121DD.png": {
         "Horizontally Stacked Interface": "![[8121DD.png]]"
     },
@@ -9159,6 +9179,12 @@ export const backlinks = {
     },
     "ABCEC0.png": {
         "To Kill a Night Owl": "![[ABCEC0.png]]"
+    },
+    "78DD5F.png": {
+        "Project Heimdall": "![[78DD5F.png]]"
+    },
+    "5FD1BE.png": {
+        "Project Heimdall": "![[5FD1BE.png]]"
     },
     "E1AF2F.png": {
         "Simulated Annealing for Designs": "![[E1AF2F.png]]"

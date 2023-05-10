@@ -3,7 +3,7 @@ lang: 'ko'
 slug: '/8E98AE'
 ---
 
-## 이전
+## [[Prehistoric]]
 
 - [[Artifact]]
 - [[우린 텍스트 틱톡을 평생 만들 수 있을까]]
@@ -236,3 +236,7 @@ LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수
 
 ![[8E5236.png]]
 ![[8A583A.png]]
+
+## [[2023-05-10]]
+
+[[Project Heimdall]]
