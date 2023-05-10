@@ -13,7 +13,7 @@ slug: '/451E1C'
 - A gambling contract
 - No matter which crypto narrative one picks, following these ideas to their logical conclusions ends up in economic absurdities or the revelation that the narrative is based on misrepresentation and is thus a scam. Nevertheless, scams and absurd belief systems are universal fixtures of the human condition. The cynical opportunist stance is that it's better to position oneself as running the gambling parlor or selling indulgences to prey on fellow man's ignorance
 - Crypto is a morbid symptom of a society obsessed with wealth and so disheartened by the lack of opportunities for upward mobility that they spend their meager savings gambling on lumps of nothingness; however, their participation in the market only enriches the casino and inevitably deepens their conditions of despair
-- it's incredibly bleak, and the biggest scam of crypto is not financial; it's the anti-humanist philosophy at its core that turns victims into victimizers, rejects the premise of progress, and normalizes nihilism
+- it's incredibly bleak, and the biggest scam of crypto is not financial; it's the [[anti]]-humanist philosophy at its core that turns victims into victimizers, rejects the premise of progress, and normalizes nihilism
 
 ### [Why I'm Less Than Infinitely Hostile To Cryptocurrency](https://astralcodexten.substack.com/p/why-im-less-than-infinitely-hostile)
 
