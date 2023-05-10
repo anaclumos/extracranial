@@ -4,6 +4,7 @@ slug: '/221166'
 aliases: ['강소기업가']
 ---
 
+- [[anti]]-preneur
 - [[The Dilemmas of Free stuffs]]
 - [[잡스와 생존 편향]]을 생각하며 항상 의구심을 가지자
 - [[강기업]]이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].

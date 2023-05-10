@@ -1123,7 +1123,7 @@ export const backlinks = {
         "2019-10-13": "- [[잡스와 생존 편향]]",
         "2022-12-20": "- [[잡스와 생존 편향]]",
         "2022-12-21": "- [[잡스와 생존 편향]]",
-        "The Antipreneur": "- [[잡스와 생존 편향]]을 생각하며 항상 의구심을 가지자"
+        "Antipreneur": "- [[잡스와 생존 편향]]을 생각하며 항상 의구심을 가지자"
     },
     "0242 Valid Anagram": {
         "2022-09-04": "- [[0242 Valid Anagram]]",
@@ -1197,7 +1197,7 @@ export const backlinks = {
     },
     "The Dilemmas of Technopreneur": {
         "2022-12-09": "- [[The Dilemmas of Technopreneur]]",
-        "The Antipreneur": "- [[The Dilemmas of Technopreneur]]: 하지만 기술 중독에 걸리지 않도록 조심하자."
+        "Antipreneur": "- [[The Dilemmas of Technopreneur]]: 하지만 기술 중독에 걸리지 않도록 조심하자."
     },
     "Blind Illness": {
         "2022-11-30": "- [[Blind Illness]]"
@@ -1316,7 +1316,7 @@ export const backlinks = {
     },
     "Groupthink": {
         "2023-05-02": "- [[Groupthink]]",
-        "The Antipreneur": "- [[Groupthink]]: 자신만 믿는 비전을 굳세게 미는 사람은 실패할 수 밖에 없다"
+        "Antipreneur": "- [[Groupthink]]: 자신만 믿는 비전을 굳세게 미는 사람은 실패할 수 밖에 없다"
     },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
@@ -2465,6 +2465,20 @@ export const backlinks = {
         "2022-10-28": "- [[Reverse Engineering Apple Music API]]",
         "Dynamic Island on the Web": "- [[Reverse Engineering Apple Music API]]"
     },
+    "Anti": {
+        "2023-03-06": "The author highlights the [[anti]]-patterns of technical interviewing, including evaluating memory and speed, and suggests some ...",
+        "2023-05-10": "- [[Anti]]",
+        "Anti-Tiktok": "[[anti]]-tiktok",
+        "Antifragile": "[[Anti]]fragile is a concept introduced by Nassim Nicholas Taleb in his book ...",
+        "Antifragily": "In an antifragile manner. [[anti]]fragily",
+        "Antipreneur": "- [[anti]]-preneur",
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "| [[Anti]]-virus products caused similar but less severe CPU impact.    ...",
+        "Digital Addiction": "- The [[Anti]]-Smartphone Revolution YouTube",
+        "Finally, Apple Pay in Korea": "... privilege after the Financial Services Commission determined this could fall under [[anti]]-competitive action.",
+        "Mental Simulation of Firefox and Signal as a Super App": "... cannot be super apps because they have specific fan groups and [[anti]]-fan groups. So the [[Super app]] needs to be universal.",
+        "Super App and Democracy": "> Is the centralization of data [[anti]]-democratic?",
+        "Web3": "... and the biggest scam of crypto is not financial; it's the [[anti]]-humanist philosophy at its core that turns victims into victimizers, rejects the ..."
+    },
     "Shim": {
         "2022-06-26": "- API [[Shim|Shimming]] will be hard enough. Shim (computing) - Wikipedia>)",
         "Realm Shim": "> [[Shim]] implementation of the Realm API Proposal ([[ShadowRealm]])",
@@ -2481,9 +2495,9 @@ export const backlinks = {
         "2022-10-18": "- [[Preservation of Data]]"
     },
     "Antifragile": {
-        "Antifragily": "In an [[antifragile]] manner.",
+        "Antifragily": "In an [[antifragile]] manner. [[anti]]fragily",
+        "Antipreneur": "- [[Antifragile]]: 위기가 아니라 버그 리포트이다",
         "Renaissance": "... and upheaval periods, including the Black Death and political instability. Perfectly [[antifragile]].",
-        "The Antipreneur": "- [[Antifragile]]: 위기가 아니라 버그 리포트이다",
         "르네상스": "... 불안정 등 엄청난 고통과 격변의 시기를 겪은 후에 등장했다는 것이다. 완전 [[Antifragile|안티프래질]].",
         "민사고": "## [[Antifragile|안티프래질]]",
         "역사의 집대성": "즉, 본질적으로 [[Antifragile|안티프래질]]이다.",
@@ -3374,7 +3388,7 @@ export const backlinks = {
     },
     "The Dilemmas of Free stuffs": {
         "2023-05-02": "- [[The Dilemmas of Free stuffs]]",
-        "The Antipreneur": "- [[The Dilemmas of Free stuffs]]"
+        "Antipreneur": "- [[The Dilemmas of Free stuffs]]"
     },
     "Disable Screenshot Drop Shadow in macOS": {
         "2023-01-12": "- [[Disable Screenshot Drop Shadow in macOS]]"
@@ -4071,9 +4085,9 @@ export const backlinks = {
     },
     "The Battle of Flow and Asana": {
         "2022-12-09": "- [[The Battle of Flow and Asana]]",
+        "Antipreneur": "- [[The Battle of Flow and Asana]]: 하지만 이런 예시도 있다는 것을 기억하자",
         "Bootstrap": "- [[The Battle of Flow and Asana]]",
-        "Survivorship Biased": "- [[The Battle of Flow and Asana]]",
-        "The Antipreneur": "- [[The Battle of Flow and Asana]]: 하지만 이런 예시도 있다는 것을 기억하자"
+        "Survivorship Biased": "- [[The Battle of Flow and Asana]]"
     },
     "水適穿石": {
         "2022-06-12": "- [[水適穿石]]",
@@ -4908,8 +4922,8 @@ export const backlinks = {
     },
     "강력하게 미약한 도구들": {
         "2023-02-08": "- [[강력하게 미약한 도구들]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-08 | 🇬🇧 Powerfully Powerless Tools <br/> 🇰🇷 [[강력하게 미약한 도구들]]            ...",
-        "The Antipreneur": "- [[강력하게 미약한 도구들]]: Do one small thing, but surprisingly well"
+        "Antipreneur": "- [[강력하게 미약한 도구들]]: Do one small thing, but surprisingly well",
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-08 | 🇬🇧 Powerfully Powerless Tools <br/> 🇰🇷 [[강력하게 미약한 도구들]]            ..."
     },
     "르네상스": {
         "2023-02-24": "- [[르네상스]]",
@@ -5317,9 +5331,9 @@ export const backlinks = {
     },
     "Bootstrap": {
         "2023-04-17": "- Premature Optimizations, [[Bootstrap]]",
+        "Antipreneur": "- [[Bootstrap]]: 결국 VC는 외부인이다",
         "MAKE": "This is called [[Bootstrap|bootstrapping]]. The good part is that it leaves the door open to ...",
         "Premature Optimizations": "- [[Bootstrap]]",
-        "The Antipreneur": "- [[Bootstrap]]: 결국 VC는 외부인이다",
         "The Battle of Flow and Asana": "I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon Valley KoolAid."
     },
     "인하우스와 자유경쟁": {
@@ -5389,6 +5403,10 @@ export const backlinks = {
     },
     "Disable Firefox Safe Mode Trigger": {
         "2023-02-24": "- [[Disable Firefox Safe Mode Trigger]]"
+    },
+    "Antipreneur": {
+        "2023-03-05": "- [[Antipreneur]]",
+        "2023-05-02": "... 것과 완벽하게 합치한다. 나는 Small yet Powerful|강소기업을 만들고 싶다. 대기업이 아니라. [[Antipreneur|강소기업가]]가 되자."
     },
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize Your Digital Life and Unlock Your ...",
@@ -6416,10 +6434,10 @@ export const backlinks = {
         "10x Technologist": "... developers are a term that describes an exceptionally skilled and productive, [[small yet powerful]] group of software developers. It is a colloquial term used to ...",
         "10x Technopreneurs": "10x technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x Technologist|10x Tecnhologists]], and have the ...",
         "2022-10-27": "- [[Small yet Powerful]]",
-        "2023-05-02": "MAKE를 읽었다. 내가 생각하고 있는 것과 완벽하게 합치한다. 나는 [[Small yet Powerful|강소]]기업을 만들고 싶다. 대기업이 아니라. [[The Antipreneur|강소기업가]]가 되자.",
+        "2023-05-02": "MAKE를 읽었다. 내가 생각하고 있는 것과 완벽하게 합치한다. 나는 [[Small yet Powerful|강소]]기업을 만들고 싶다. 대기업이 아니라. [[Antipreneur|강소기업가]]가 되자.",
+        "Antipreneur": "- 강기업이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].",
         "Cut the Fat": "- [[Small yet Powerful]]",
         "Neo Korea": "- [[Small yet Powerful|작지만 강력한]]",
-        "The Antipreneur": "- 강기업이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].",
         "The Era of Invites": "... observation is that these 'successful, invite-based' software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big techs use an invite-based system when ...",
         "The Zenly Playbook": "... app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?",
         "強力反權": "- [[Small yet Powerful]]",
@@ -6554,8 +6572,8 @@ export const backlinks = {
     },
     "強力反權": {
         "2023-01-09": "- [[強力反權]]",
-        "Neo Korea": "- [[強力反權]]",
-        "The Antipreneur": "- [[強力反權|강력반권]]"
+        "Antipreneur": "- [[強力反權|강력반권]]",
+        "Neo Korea": "- [[強力反權]]"
     },
     "CSS에서 언어마다 다른 글씨체를 설정하는 방법": {
         "2022-11-19": "  - [[CSS에서 언어마다 다른 글씨체를 설정하는 방법]]",
@@ -6575,9 +6593,9 @@ export const backlinks = {
         "2022-12-24": "- [[Jetski]]"
     },
     "강기업": {
+        "Antipreneur": "- [[강기업]]이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].",
         "MAKE": "- [[강기업]]",
-        "MetroPunk": "## 메트로펑크의 차세대 [[강기업]]",
-        "The Antipreneur": "- [[강기업]]이 목표다. 가급적이면 [[Small yet Powerful|강소기업]]."
+        "MetroPunk": "## 메트로펑크의 차세대 [[강기업]]"
     },
     "GitHub Actions": {
         "Finding out Ghost version with JS": "... theme package and re-upload those. While I automated theme deployment with [[GitHub Actions]] (you can find the post here), it was a hassle to ...",
@@ -6858,10 +6876,6 @@ export const backlinks = {
         "2023-03-24": "- [[Playings]]",
         "2023-04-15": "- [[Playings]]",
         "2023-04-30": "- [[Playings]]"
-    },
-    "The Antipreneur": {
-        "2023-03-05": "- [[The Antipreneur]]",
-        "2023-05-02": "... 것과 완벽하게 합치한다. 나는 Small yet Powerful|강소기업을 만들고 싶다. 대기업이 아니라. [[The Antipreneur|강소기업가]]가 되자."
     },
     "ChatGPT is a Blurry JPEG and We Need That": {
         "2023-03-31": "- [[ChatGPT is a Blurry JPEG and We Need That]]",
@@ -7468,9 +7482,9 @@ export const backlinks = {
         "10x Technopreneurs": "[[10x]] technoprenuers are [[Small yet Powerful]] people those who qualify as [[10x ...",
         "2022-06-06": "- Early in your career, you can learn [[10x]] more in a supportive team in 1 year than coding on ...",
         "2022-12-09": "- [[10x]]",
+        "Antipreneur": "... million dollar investment from old rich guys. They need to hire [[10x]] power developers and work them for 100-hour work weeks while feeding ...",
         "Geohot Twitter Mayhem": "... But it still poses a question for ① being a superintelligent [[10x]] developer and ② being a cooperative team player developer. Geohot was ...",
         "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying attention already knows this — Nat ...",
-        "The Antipreneur": "... million dollar investment from old rich guys. They need to hire [[10x]] power developers and work them for 100-hour work weeks while feeding ...",
         "The Zenly Playbook": "... had not only exceptional engineers but also outstanding designers and operators. [[10x]] people don't join a startup upfront, so Zenly made them involved ...",
         "강기업": "... million dollar investment from old rich guys. They need to hire [[10x]] power developers and work them for 100-hour work weeks while feeding ..."
     },
