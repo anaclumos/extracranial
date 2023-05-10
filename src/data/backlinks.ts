@@ -250,6 +250,10 @@ export const backlinks = {
     "2016-06-24": {
         "공강에서 보내는 공강 활용법": "[[2016-06-24]]에 게재된 [[재학생일기]]이다."
     },
+    "2023-05-09": {
+        "FFMpeg for iPad": "## [[2023-05-09]]",
+        "Seaflooding": "## [[2023-05-09]]"
+    },
     "2020-09-27": {
         "프로젝트 어덕행덕": "- [[2020-09-27]]"
     },
@@ -1379,7 +1383,8 @@ export const backlinks = {
         "Real Exams": "- Get Job Done SQL, React, [[Python]]"
     },
     "FFMpeg for iPad": {
-        "2022-10-20": "- [[FFMpeg for iPad]]"
+        "2022-10-20": "- [[FFMpeg for iPad]]",
+        "2023-05-09": "- [[FFMpeg for iPad]]"
     },
     "북한": {
         "2023-02-23": "- [[북한]]",
@@ -1588,6 +1593,10 @@ export const backlinks = {
         "2022-10-12": "- [[Letter to Mr. Alexander Obenauer on 2022-10-12]]",
         "2022-10-17": "### [[Letter to Mr. Alexander Obenauer on 2022-10-12]]",
         "Newsletter": "- Mentioned in [[Letter to Mr. Alexander Obenauer on 2022-10-12]]"
+    },
+    "Seaflooding": {
+        "2023-01-09": "- [[Seaflooding]]",
+        "2023-05-09": "- [[Seaflooding]]"
     },
     "Public Transport": {
         "2023-03-06": "- [[Public Transport]]"
@@ -3060,7 +3069,6 @@ export const backlinks = {
         "2023-02-11": "## [[Project]]",
         "2023-02-22": "## [[Project]]",
         "2023-03-06": "- [[Project]]",
-        "2023-05-07": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "AMP": "... is an open-source HTML framework developed by the AMP Open Source [[Project]]. [[Google]] created it as a competitor to Facebook Instant Articles and ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you must",
@@ -3088,7 +3096,7 @@ export const backlinks = {
         "Embeddable GitHub Repo Card But It Looks Great": "Someday [[Project]].",
         "Eventually, Diligent Immatures build the Future": "... overly optimistic about their abilities or the potential success of a [[project]] or goal, which can cause them to take on more risk ...",
         "FFMpeg": "> FFmpeg is a free, open-source software [[project]] comprising a suite of libraries and programs for handling video, audio, ...",
-        "FFMpeg for iPad": "Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
+        "FFMpeg for iPad": "- Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds you to fix your posture.",
         "Generative Intelligence": "- [[Project]] scaffolding",
         "Generative Open Graph": "Someday [[Project]]. [[Open Graph Image as a Service]]. Use [[Generative AI]] to create ...",
@@ -5987,7 +5995,7 @@ export const backlinks = {
     "FFMpeg": {
         "2022-11-21": "- [[FFMpeg]]",
         "2022-11-28": "- [[FFMpeg]]: FFmpeg - Ultimate Guide",
-        "FFMpeg for iPad": "Someday Project. [[FFMpeg]] equivalent for iPads!",
+        "FFMpeg for iPad": "- Someday Project. [[FFMpeg]] equivalent for iPads!",
         "Jetski": "- [[ffmpeg]] optimization for sharing",
         "프로젝트 어덕행덕": "  - 애초에 [[FFMpeg]]도 그렇게 Reliable하게 전천후 돌아가지 않고 \"적당히\" 압축을 시켜주는 바람에 예상치 못한 ..."
     },
@@ -6442,7 +6450,7 @@ export const backlinks = {
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical books with digital devices? i.e. scan ...",
         "ElonPet": "- [[Someday]] [[Project]]. Uses GPT-3 to write good things about Elon (Sarcastically) randomly",
         "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
-        "FFMpeg for iPad": "[[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
+        "FFMpeg for iPad": "- [[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that reminds you to fix your posture.",
         "Generative Open Graph": "[[Someday]] [[Project]]. [[Open Graph Image as a Service]]. Use [[Generative AI]] to ...",
         "Guestbook": "- [[Someday]] [[Project]]",
@@ -6499,9 +6507,6 @@ export const backlinks = {
     "Are Computers Psychotropic Substances": {
         "2023-02-09": "- [[Are Computers Psychotropic Substances]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-09 | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]       ..."
-    },
-    "산업적 개척, 청결, 정화": {
-        "2023-01-09": "- [[산업적 개척, 청결, 정화]]"
     },
     "Text AI and Information Density": {
         "2022-12-27": "- [[Text AI and Information Density]]"
@@ -6675,7 +6680,6 @@ export const backlinks = {
         "2023-03-06": "## [[Hacker News|HN]]",
         "2023-03-10": "## [[Hacker News|HN]]",
         "2023-03-20": "## [[Hacker News|HN]]",
-        "2023-05-07": "## [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "- An excellent recommendation from the original discussion on [[Hacker News]] was to use ImprovMX as an outgoing [[Mail|email]] server.",
         "Jumpsite": "## [[Hacker News]]",
@@ -6898,6 +6902,11 @@ export const backlinks = {
     },
     "Tree Style": {
         "2022-11-20": "- [[Tree Style]]"
+    },
+    "Final Cut Pro": {
+        "Alternatives to After Effects": "- Adobe Premiere Pro → [[Final Cut Pro|Final Cut Pro X]]",
+        "FFMpeg for iPad": "Apple announces [[Final Cut Pro]]. It's about time.",
+        "Retroactive (Software)": "... macOS Big Sur, and macOS Catalina. Xcode 11.7 on macOS Mojave. [[Final Cut Pro]] 7, Logic Pro 9, and iWork '09 on macOS Mojave or ..."
     },
     "사발통문": {
         "2023-02-22": "- [[사발통문]]"
