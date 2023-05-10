@@ -13,7 +13,7 @@ Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news portal? Reference: [[�
 
 Would it eventually lead to a portal? Or should I remain as a newsletter? Would there be any other form?
 
-## ... After some Contemplation
+## After some contemplation...
 
 It should be `Airborne Early Warning` `Protoss's Observers` `Zerg's Overseer`, `Terran's Orbital Command`, `Super Long Range Radar`, `The Watchman`, `The Oracle's Eye`, `The ALL-SEER` that keeps you up to date on specific topics.
 
@@ -25,11 +25,11 @@ In Karrot, scraping the news over the internet was a daily activity.
 
 ![[5FD1BE.png]]
 
-What if we can ask the `Allseer` to check for keywords `당근마켓` `캐롯` and `Karrot` every day?
+What if we can ask the `All-seer` to check for keywords `당근마켓` `캐롯` and `Karrot` every day?
 
 ### Themed Newsletters
 
-What if we want to keep ourselves up to date on various topics, but in a non-aggressive, [[Anti-Tiktok]] manner? Users can define:
+What if we want to keep ourselves up to date on various topics but in a non-aggressive, [[Anti-Tiktok]] manner? Users can define:
 
 - Hey Heimdall, give me daily reports on **Hacker News** (the current [[hn.cho.sh]] service)
 - Hey Heimdall, give me daily reports on **TechCrunch**
