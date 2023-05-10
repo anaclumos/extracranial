@@ -21,7 +21,6 @@ if __name__ == "__main__":
     for root, dirs, files in os.walk(target_directory):
         for file in files:
             if file.endswith(".md") or file.endswith(".mdx"):
-
                 if "templates" in root.lower():
                     continue
                 if "templates" in file.lower():
@@ -78,8 +77,8 @@ if __name__ == "__main__":
                         print("Error processing " + md_file + " line " + line)
                         print(e)
                         exit(1)
-                    # only leave 12 words before and after the first mention
-                    words_to_keep = 12
+                    # only leave 6 words before and after the first mention
+                    words_to_keep = 6
                     before_original = line.split("[[" + mentioned_file + "]]")[0]
                     before = " ".join(before_original.split(" ")[-words_to_keep:])
                     if before_original != before:
@@ -111,7 +110,6 @@ if __name__ == "__main__":
 
     # delete keys with empty values
 
-
     # normalize unicode in keys for backlink_map
     backlink_map = {
         unicodedata.normalize("NFC", key): value for key, value in backlink_map.items()
@@ -123,22 +121,24 @@ if __name__ == "__main__":
         else:
             # normalize unicode in values
             for key2 in list(backlink_map[key].keys()):
-                backlink_map[key][key2] = unicodedata.normalize("NFC", backlink_map[key][key2])
+                backlink_map[key][key2] = unicodedata.normalize(
+                    "NFC", backlink_map[key][key2]
+                )
                 backlink_map = {
-                    unicodedata.normalize("NFC", key): value for key, value in backlink_map.items()
+                    unicodedata.normalize("NFC", key): value
+                    for key, value in backlink_map.items()
                 }
     # normalize unicode in keys for filename_uid_map
     filename_uid_map = {
         unicodedata.normalize("NFC", key): value
         for key, value in filename_uid_map.items()
     }
-    
+
     for key in backlink_map:
         backlink_map[key] = dict(
             sorted(backlink_map[key].items(), key=lambda item: item[0])
         )
     filename_uid_map = dict(sorted(filename_uid_map.items(), key=lambda item: item[0]))
-
 
     with open("./src/data/backlinks.ts", "w") as f:
         f.write(
