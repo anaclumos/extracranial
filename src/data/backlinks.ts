@@ -4422,7 +4422,7 @@ export const backlinks = {
         "tabOS": "a successor to [[tabExtend]]"
     },
     "Anti-Tiktok": {
-        "Project Heimdall": "... ourselves up to date on various topics, but in a non-aggressive, [[Anti-Tiktok]] manner? Users can define:"
+        "Project Heimdall": "... ourselves up to date on various topics but in a non-aggressive, [[Anti-Tiktok]] manner? Users can define:"
     },
     "MOBI": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB, [[MOBI]] for texts. For generic use cases, [[DjVu]]."
