@@ -4394,9 +4394,12 @@ export const backlinks = {
         "2022-06-14": "- [[Karrot|당근]] 베타 [[Project|프로젝트]]에서 [[Karrot]] Frame 데모 앱을 돌려보며 터지던 부분들을 나열해 보았다.",
         "2022-08-03": "I never expected to get an internship at [[Karrot]] four months ago.",
         "2023-02-21": "- [[Karrot]]",
+        "2023-04-17": "- hn.cho.sh 개발 기록: [[Karrot|당근]] PM 론과의 대화",
         "Height": "- Used at [[Karrot]]",
         "Jira": "- Used at [[Karrot]]",
         "Karrot NX Team Mission Statement": "> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 이 팀이 Role & Responsibility가 확장되어요.Karrot|당근마켓 ...",
+        "Project Heimdall": "At [[Karrot]], scraping the news over the internet was a daily activity.",
+        "hn.cho.sh 개발 기록": "### [[Karrot|당근]] PM 론과의 대화",
         "초대장의 시대": "... 규격화된 방식으로 하는 것이다. 원래는 그것이 위치 기반이었거나 (초기 페이스북, 요즘 [[Karrot|당근]]) 그룹 스터디 (대부분의 게임) 이었을 뿐이다."
     },
     "WebGPU": {
@@ -4422,7 +4425,7 @@ export const backlinks = {
         "tabOS": "a successor to [[tabExtend]]"
     },
     "Anti-Tiktok": {
-        "Project Heimdall": "... ourselves up to date on various topics but in a non-aggressive, [[Anti-Tiktok]] manner? Users can define:"
+        "Project Heimdall": "... ourselves up to date on various topics but in a non-aggressive, [[Anti-Tiktok]] manner? Users can ask:"
     },
     "MOBI": {
         "Screenshot as an API": "  - Slow page loads. Better alternatives: EPUB, [[MOBI]] for texts. For generic use cases, [[DjVu]]."
@@ -5571,7 +5574,7 @@ export const backlinks = {
         "2023-04-12": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-13": "[[hn.cho.sh 개발 기록]]",
         "2023-04-16": "[[hn.cho.sh 개발 기록]]",
-        "2023-04-17": "- [[hn.cho.sh 개발 기록]]: 당근 PM 론과의 대화",
+        "2023-04-17": "- [[hn.cho.sh 개발 기록]]: [[Karrot|당근]] PM 론과의 대화",
         "2023-04-18": "- [[hn.cho.sh 개발 기록]]",
         "2023-04-20": "[[hn.cho.sh 개발 기록]]",
         "2023-04-21": "- [[hn.cho.sh 개발 기록]]",
