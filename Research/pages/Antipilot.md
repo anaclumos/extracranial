@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/D91B80'
 ---
 
+- antipilot
 - [[Copilot]] looks like increasing your productivity, but it
   - deteriorates your thinking powers
   - sneaks in a bug that you will spend 2x time to find out

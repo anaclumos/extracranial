@@ -5,7 +5,7 @@ slug: '/8794DD'
 
 - [[Musk and Twitter]]
 
-> Is the centralization of data anti-democratic?
+> Is the centralization of data [[anti]]-democratic?
 
 > [Buying Twitter is an accelerant to creating X, the everything app](https://twitter.com/elonmusk/status/1577428272056389633)
 
