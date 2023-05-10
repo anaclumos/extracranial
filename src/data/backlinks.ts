@@ -1396,7 +1396,8 @@ export const backlinks = {
     },
     "FFMpeg for iPad": {
         "2022-10-20": "- [[FFMpeg for iPad]]",
-        "2023-05-09": "- [[FFMpeg for iPad]]"
+        "2023-05-09": "- [[FFMpeg for iPad]]",
+        "Project": "- [[FFMpeg for iPad]]"
     },
     "북한": {
         "2023-02-23": "- [[북한]]",
@@ -1950,7 +1951,7 @@ export const backlinks = {
         "2023-03-24": "- [[hn.cho.sh]]",
         "2023-04-01": "- [[hn.cho.sh]]",
         "METI Engine": "The current generation is [[hn.cho.sh]] — and plan to scale it to [[Project Heimdall]].",
-        "Project": "- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]]",
+        "Project": "- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]] [[Project Heimdall]]",
         "Project Heimdall": "Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news portal? Reference: [[일일일]], [[News Minimalist]]",
         "Vercel Incident Report (April 2023)": "... from Vercel under \"violating fair use\" with two projects: lovearc.net and [[hn.cho.sh]].",
         "hn.cho.sh 개발 기록": "... Browsers가 10만 주간 사용자를 돌파하기 직전이다. 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
@@ -5585,7 +5586,7 @@ export const backlinks = {
         "2023-05-04": "- [[hn.cho.sh 개발 기록]]",
         "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
         "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]",
-        "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]]"
+        "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]] [[Project Heimdall]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -7163,6 +7164,7 @@ export const backlinks = {
         "2023-05-10": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... don't need to dive into the article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine for Texts]].",
         "METI Engine": "... current generation is hn.cho.sh — and plan to scale it to [[Project Heimdall]].",
+        "Project": "- hn.cho.sh hn.cho.sh 개발 기록 [[Project Heimdall]]",
         "hn.cho.sh 개발 기록": "[[Project Heimdall]]",
         "일일일": "NewsGPT Model. A competitor to [[Project Heimdall]]."
     },
