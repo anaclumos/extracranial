@@ -804,6 +804,9 @@ export const backlinks = {
     "Logseq": {
         "Better Obsidian": "...  - List view for Daily Notes like Roam Research and [[Logseq]]."
     },
+    "Getting Verified on Gmail": {
+        "2023-05-10": "- [[Getting Verified on Gmail]]"
+    },
     "활자": {
         "하늘땅사람": "- [[활자]]",
         "하늘땅사람 개발 기록": "Subproject로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 가장 단순한 천지인 구현체"
@@ -2681,7 +2684,8 @@ export const backlinks = {
         "Tools for Thought": "- [[Collaboration-based Tools for Thought]]: for teams."
     },
     "Adding a Verified Mark on Apple Mail & Gmail": {
-        "2022-10-21": "- [[Adding a Verified Mark on Apple Mail & Gmail]]"
+        "2022-10-21": "- [[Adding a Verified Mark on Apple Mail & Gmail]]",
+        "Getting Verified on Gmail": "While we have previously discussed [[adding a Verified Mark on Apple Mail & Gmail]], getting a checkmark on Gmail requires a VMC — Verified Mark ..."
     },
     "Cache Average Access Time": {
         "2022-11-04": "- [[Cache Average Access Time]]",
@@ -7841,6 +7845,12 @@ export const backlinks = {
     },
     "834593.png": {
         "Love Obsidian": "![[834593.png]]"
+    },
+    "A1C626.png": {
+        "Getting Verified on Gmail": "![[A1C626.png]]"
+    },
+    "E62FF8.png": {
+        "Getting Verified on Gmail": "![[E62FF8.png]]"
     },
     "CD56C6.png": {
         "하늘땅사람 개발 기록": "![[CD56C6.png]]",
