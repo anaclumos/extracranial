@@ -15,7 +15,7 @@ Would it eventually lead to a portal? Or should I remain as a newsletter? Would 
 
 ## After some contemplation...
 
-It should be **Airborne Early Warning** **Protoss's Observers** **Zerg's Overseer**, **Terran's Orbital Command**, **Super Long Range Radar**, **The Watchman**, **The Oracle's Eye**, **The ALL-SEER** that keeps you up to date on specific topics.
+It should be **Airborne Early Warning**, **Protoss's Observers**, **Zerg's Overseer**, **Terran's Orbital Command**, **Super Long Range Radar**, **The Watchman**, **The Oracle's Eye**, **The ALL-SEER** that keeps you up to date on specific topics.
 
 [[AI]]-powered news portal can never be the answer; it should be a platform where people can proactively seek and search foreign intelligence.
 
