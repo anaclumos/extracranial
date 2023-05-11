@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/561193'
 ---
 
-[[Project]] to prepare for my Grammarly Data Engineering team employment.
+[[Project]] to prepare for my [[Grammarly]] Data Engineering team employment.
 
 ## Suggested Topics to Study
 

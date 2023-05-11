@@ -21,7 +21,7 @@ See also: [[Real Exams]]
 - technical design of a class registration system (higher level engineering)
 - technical design of a package manager proxy server (multithreading)
 
-### [Grammarly](https://grammarly.com)
+### [[Grammarly]]
 
 - 1 Q on removing adjacent duplicates
   - simple $O(n^2)$ algorithm

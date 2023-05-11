@@ -50,7 +50,7 @@ GitHub Actions로 빌드하는 방식으로.
 - [Fine-tune LLaMA to speak like Homer Simpson](https://replicate.com/blog/fine-tune-llama-to-speak-like-homer-simpson)
 - [Fine-tuning - OpenAI API](https://platform.openai.com/docs/guides/fine-tuning)
 
-OpenAI를 가지고 많이 놀았다.
+[[OpenAI]]를 가지고 많이 놀았다.
 그와중에 DeepL은 API를 열어주지 않고 있었다.
 결제 과정에서 오류가 나는 것을 일주일 째 방치하는 SaaS 기업이라니.
 
@@ -222,7 +222,7 @@ LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수
 
 ## [[2023-04-20]]
 
-졸업 과제로 OpenAI 모델 파인 튜닝을 하고 있는데.
+졸업 과제로 [[OpenAI]] 모델 파인 튜닝을 하고 있는데.
 
 ![[FB31AC.png]]
 

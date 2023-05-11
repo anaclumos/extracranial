@@ -44,6 +44,9 @@ export const backlinks = {
     "2020-02-17": {
         "프로젝트 어덕행덕": "- [[2020-02-17]]"
     },
+    "2023-05-11": {
+        "Project FFMpeg for iPad": "## [[2023-05-11]]"
+    },
     "2020-02-23": {
         "프로젝트 어덕행덕": "- [[2020-02-23]]"
     },
@@ -254,7 +257,7 @@ export const backlinks = {
         "공강에서 보내는 공강 활용법": "[[2016-06-24]]에 게재된 [[재학생일기]]이다."
     },
     "2023-05-09": {
-        "FFMpeg for iPad": "## [[2023-05-09]]",
+        "Project FFMpeg for iPad": "## [[2023-05-09]]",
         "Seaflooding": "## [[2023-05-09]]"
     },
     "2020-09-27": {
@@ -703,7 +706,7 @@ export const backlinks = {
     },
     "Prehistoric": {
         "2023-05-10": "- [[Prehistoric]]",
-        "FFMpeg for iPad": "## [[Prehistoric]]",
+        "Project FFMpeg for iPad": "## [[Prehistoric]]",
         "Project Heimdall": "## [[Prehistoric]]",
         "hn.cho.sh 개발 기록": "## [[Prehistoric]]"
     },
@@ -726,7 +729,8 @@ export const backlinks = {
         "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does ...",
         "Proposal of Research 2023-01-10": "... embeddable JavaScript libraries or an [[HTTP]] API layer.",
         "Techs Actually Simple": "... Not to mention plaintext protocols. [[HTTP]], [[SMTP]], FTP, and Redis Serialization ...",
-        "http 없는 http 서버 만들기": "... 모듈 (당연히 `express` 모듈도) 없이 [[http]] 서버를 구현하는 Project|프로젝트가 있었다. 인터넷에 ..."
+        "http 없는 http 서버 만들기": "... 모듈 (당연히 `express` 모듈도) 없이 [[http]] 서버를 구현하는 Project|프로젝트가 있었다. 인터넷에 ...",
+        "tRPC": "... without considering implementation details like [[HTTP]]/REST."
     },
     "Bing Chat for All Browsers in Japan": {
         "2023-02-19": "- [[Bing Chat for All Browsers in Japan]]",
@@ -1316,7 +1320,8 @@ export const backlinks = {
     },
     "Groupthink": {
         "2023-05-02": "- [[Groupthink]]",
-        "Antipreneur": "- [[Groupthink]]: 자신만 믿는 비전을 굳세게 미는 ..."
+        "Antipreneur": "- [[Groupthink]]: 자신만 믿는 비전을 굳세게 미는 ...",
+        "MAKE": "- don't [[groupthink]] -- visionary people always fail."
     },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
@@ -1393,11 +1398,6 @@ export const backlinks = {
         "Higher-Level Languages and Their Speeds": "- [[Python]]",
         "Python": "You can offset with [[Python]]'s `enumerate` function with list splitting.",
         "Real Exams": "... Get Job Done SQL, React, [[Python]]"
-    },
-    "FFMpeg for iPad": {
-        "2022-10-20": "- [[FFMpeg for iPad]]",
-        "2023-05-09": "- [[FFMpeg for iPad]]",
-        "Project": "- [[FFMpeg for iPad]]"
     },
     "북한": {
         "2023-02-23": "- [[북한]]",
@@ -1505,8 +1505,9 @@ export const backlinks = {
         "2022-12-04": "... built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: The Verge: new ...",
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
-        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 ...",
-        "dub.sh": "  - [[Tailwind]] CSS"
+        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 ...",
+        "dub.sh": "  - [[Tailwind]] CSS",
+        "henrymakesapps": "3.  [[Tailwind]] CSS: Reduces time spent on ..."
     },
     "SMIME": {
         "2022-08-03": "### [[SMIME|S/MIME]] Certificates",
@@ -2186,12 +2187,15 @@ export const backlinks = {
         "2023-02-08": "... have partnered with cloud providers: [[OpenAI]] ([[Microsoft]]) and Anthropic ([[Google]]). These ...",
         "Bing": "... get complete answers). The same [[OpenAI]] technology behind [[ChatGPT]] powers this ...",
         "ChatGPT": "... Large Language Models powered by [[OpenAI]]'s GPT-3.5, to make meetings more ...",
+        "Dear AIs, I have a question.": "## [[openai]]:gpt-3.5-turbo",
+        "EU and AI": "... regulate general-purpose AI, such as [[OpenAI]]'s [[ChatGPT]], which can generate human-like ...",
         "Musk": "... and co-founder of Neuralink and [[OpenAI]]. With an estimated net worth ...",
         "OpenAI enthroned as the Levis of Tech": "[[OpenAI]] has launched its [[ChatGPT]] API ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "[[OpenAI]]가 방금 GPT-3.5-터보 모델을 기반으로 한 ...",
         "Personal Training Corpus": "... the files are processed with [[OpenAi]]'s Whisper and transformed into text ...",
         "Proposal of Research 2023-01-10": "... dataset of image-to-text created by [[OpenAI]]. We need a CLIP inference ...",
-        "Search AI": "... 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 [[ChatGPT]]에 많은 사람들이 놀라고 있어요. ..."
+        "Search AI": "... 필요 없어지는 것이지요. 엊그제 나온 [[OpenAI]]의 [[ChatGPT]]에 많은 사람들이 놀라고 있어요. ...",
+        "hn.cho.sh 개발 기록": "[[OpenAI]]를 가지고 많이 놀았다."
     },
     "Neo Korea": {
         "2022-12-20": "- [[Neo Korea]]",
@@ -2374,8 +2378,9 @@ export const backlinks = {
         "Stephan Ango": "- [[Now Page]]: What I'm doing now — ..."
     },
     "Infinite Canvas": {
+        "2022-07-26": "- Given this, simonbs/InfiniteCanvas: [[Infinite canvas]] using PencilKit, it seems relatively ...",
         "2022-10-10": "- [[Infinite Canvas]]",
-        "Intracranial": "  - [[Infinite Canvas]]",
+        "Intracranial": "Someday Project. [[Infinite Canvas]] for Zettlekasten.",
         "Rauno": "- Clipboard goes into [[Infinite Canvas]]",
         "Spacial Cognition": "- Key reason of [[Infinite Canvas]]. Gives spacial understanding & relevancy",
         "Tools for Thought": "... Visual-based Tools for Thought: add [[infinite canvas]] to text-based versions. involves and ...",
@@ -2679,6 +2684,9 @@ export const backlinks = {
     "Reading Files in Swift": {
         "2023-01-22": "- [[Reading Files in Swift]]"
     },
+    "Vector DB": {
+        "2023-05-11": "- [[Vector DB]]"
+    },
     "Protocol Wars": {
         "2022-11-16": "- [[Protocol Wars]]: [[Matt Rickard]]",
         "Matt Rickard": "- [[Protocol Wars]]"
@@ -2756,6 +2764,11 @@ export const backlinks = {
         "2023-03-31": "- [[ChatGPT는 흐릿한 이미지이지만 필요합니다]]",
         "The Newtonian Correspondence": "... We Need That <br/> `KO` [[ChatGPT는 흐릿한 이미지이지만 필요합니다]] | Tweet <br/> Linkedin  ..."
     },
+    "Project FFMpeg for iPad": {
+        "2022-10-20": "- [[Project FFMpeg for iPad]]",
+        "2023-05-09": "- [[Project FFMpeg for iPad]]",
+        "Project": "- [[Project FFMpeg for iPad]]"
+    },
     "Why is Swift String Manipulation like that": {
         "2023-02-15": "- [[Why is Swift String Manipulation like that]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-15 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 ..."
@@ -2788,10 +2801,11 @@ export const backlinks = {
         "Front-end": "- [[Next.js]]",
         "React": "... server-rendered applications with frameworks like [[Next.js]]. However, React is only concerned ...",
         "Shopify Analyzes CSS Frameworks": "... this solution across Rails, React, [[Next.js]], React-Native, rollup, Vite, esbuild, webpack, ...",
-        "Tailwind CSS 톺아보기": "- 기초적인 TypeScript [[Next.js|Next]] App 설정",
+        "Tailwind CSS 톺아보기": "- Tailwind CSS를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 적용",
         "Vercel": "... company. The company maintains the [[Next.js]] web development framework. Vercel's architecture ...",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]",
         "dub.sh": "  - [[Next.js]] framework",
+        "henrymakesapps": "1.  [[Next.js]]: Used for both front-end and ...",
         "hn.cho.sh 개발 기록": "... The SaaS starter template for [[Next.js]] and [[Supabase]] 살펴보기"
     },
     "Jupyter": {
@@ -2986,6 +3000,9 @@ export const backlinks = {
         "본디는 사실 혜성이 아니다": "어제 혜성처럼 나타난 본디 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 Bondee|본디는 정말 ...",
         "혜성처럼 나타난 본디": "[[Bondee|본디]]는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 ..."
     },
+    "henrymakesapps": {
+        "2023-05-11": "- [[henrymakesapps]]"
+    },
     "CELLO (Product)": {
         "2022-07-18": "- [[CELLO (Product)]]",
         "2022-08-04": "### [[CELLO (Product)]]",
@@ -3091,6 +3108,7 @@ export const backlinks = {
         "2023-02-11": "## [[Project]]",
         "2023-02-22": "## [[Project]]",
         "2023-03-06": "- [[Project]]",
+        "2023-05-11": "## [[Project]]",
         "AIs.txt": "- [[Project]]",
         "AMP": "... by the AMP Open Source [[Project]]. [[Google]] created it as a ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you ...",
@@ -3118,14 +3136,13 @@ export const backlinks = {
         "Embeddable GitHub Repo Card But It Looks Great": "Someday [[Project]].",
         "Eventually, Diligent Immatures build the Future": "... the potential success of a [[project]] or goal, which can cause ...",
         "FFMpeg": "... is a free, open-source software [[project]] comprising a suite of libraries ...",
-        "FFMpeg for iPad": "- Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds ...",
         "Generative Intelligence": "- [[Project]] scaffolding",
         "Generative Open Graph": "Someday [[Project]]. [[Open Graph Image as a ...",
         "GitHub": "... integration, and wikis for every [[project]]. Headquartered in California, it has ...",
         "Goongoom": "- Side startup [[project]] that never made it to ...",
         "Guestbook": "- Someday [[Project]]",
-        "Intracranial": "Someday [[Project]]. Infinite Canvas for Zettlekasten.",
+        "Intracranial": "Someday [[Project]]. [[Infinite Canvas]] for Zettlekasten.",
         "Jira": "... allows bug tracking and agile [[project]] management. Jira (software)>)",
         "Jog 25 minutes (Jan-Feb 2023)": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "Jupyter": "> [[Project]] Jupyter aims to develop open-source ...",
@@ -3144,8 +3161,9 @@ export const backlinks = {
         "PineApple Pay": "Someday [[Project]].",
         "Preservation of Data": "... of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford ...",
         "Problem": "Leads to a Someday [[Project]].",
+        "Project FFMpeg for iPad": "- Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Project PEOPLE": "- [[Project]]",
-        "Project Prepare for Grammarly": "[[Project]] to prepare for my Grammarly ...",
+        "Project Prepare for Grammarly": "[[Project]] to prepare for my [[Grammarly]] ...",
         "Proposal of Research 2023-01-10": "... found several layers for the [[project]].",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and ...",
         "Redactor for iPhone": "Someday [[Project]].",
@@ -3246,6 +3264,7 @@ export const backlinks = {
         "Matt Rickard": "- [[Post Git]]"
     },
     "Vannevar Bush": {
+        "As We May Think": "... is a 1945 essay by [[Vannevar Bush]], described as visionary and influential, ...",
         "Memex": "... 친밀한 보조 장치일 것입니다. — [[Vannevar Bush|버니바 부시]].",
         "Tools Must Vanish": "... the Zettelkasten of the next [[Vannevar Bush]]; it's always a setup with ..."
     },
@@ -3375,6 +3394,9 @@ export const backlinks = {
         "2023-04-30": "- [[슈퍼자판기]]",
         "MetroPunk": "- [[슈퍼자판기]]: 항목 참조."
     },
+    "tRPC": {
+        "henrymakesapps": "2.  [[tRPC]]: Simplifies server-client communication without needing ..."
+    },
     "BitTorrent": {
         "2022-11-07": "- [[BitTorrent]]",
         "P2P": "- [[BitTorrent]] Algorithm"
@@ -3436,7 +3458,7 @@ export const backlinks = {
         "Eleven Labs": "- [[Generative AI]] for Voice. The most realistic ...",
         "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as ...",
         "Generative Open Graph": "... Image as a Service. Use [[Generative AI]] to create Open Graph images, ...",
-        "GrammarlyGO": "GrammarlyGO is a suite of [[generative AI]] capabilities from Grammarly. It considers ...",
+        "GrammarlyGO": "GrammarlyGO is a suite of [[generative AI]] capabilities from [[Grammarly]]. It considers ...",
         "Letter to Mr. Matt Rickard on 2022-11-28": "... a non-profit product that uses [[Generative AI|Generative AIs]] to describe any image on ...",
         "Midjourney": "- Art focused Prompt Engineering [[Generative AI]] Platform",
         "Point-E": "- [[Generative AI]]",
@@ -3873,6 +3895,7 @@ export const backlinks = {
         "Convergence of Power Series": "- [[Ratio Test]]"
     },
     "Iterative and Incremental Development": {
+        "Project Core ML Foundation": "- [[Iterative and Incremental Development|Iterative]] DFS: Run DFS with level ...",
         "Toss Product Sans": "- [[Iterative and Incremental Development|반복적 개발]]"
     },
     "Cache Conscious Programming": {
@@ -3910,7 +3933,8 @@ export const backlinks = {
         "2022-10-13": "## [[TODO]]",
         "2022-11-01": "## [[TODO]]",
         "2022-11-02": "## [[TODO]]",
-        "Coding Tests": "- QuickSelect [[TODO]]"
+        "Coding Tests": "- QuickSelect [[TODO]]",
+        "Stable Alternative": "## [[TODO]]"
     },
     "Linux Commands": {
         "Internetworking": "- [[Linux Commands]]"
@@ -4803,6 +4827,7 @@ export const backlinks = {
     "Supabase": {
         "2022-12-28": "- Backend as a Service: [[Supabase]] (past: Firebase)",
         "2023-05-04": "- [[Supabase]]",
+        "henrymakesapps": "4.  [[Supabase]]: Offers an easy-to-use database with ...",
         "hn.cho.sh 개발 기록": "... starter template for Next.js and [[Supabase]] 살펴보기"
     },
     "Delta Time": {
@@ -5085,6 +5110,9 @@ export const backlinks = {
     "Inspiring Open Source Projects": {
         "2022-09-29": "- [[Inspiring Open Source Projects]]"
     },
+    "Google IO": {
+        "Vector DB": "... announced their Vector DB in [[Google IO]] 2023"
+    },
     "국가와 민족": {
         "2023-02-15": "- [[국가와 민족]]",
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "결국 [[국가와 민족]]의 운명은 우리 손에 달려 있습니다.",
@@ -5093,8 +5121,11 @@ export const backlinks = {
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
         "Grammarly AI-NLP Club": "... Natural Language Processing|NLP Club at [[Grammarly]].",
+        "GrammarlyGO": "... of generative AI capabilities from [[Grammarly]]. It considers your context, preferences, ...",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
-        "Real Interviews": "- Learned that [[Grammarly]] has internal projects, Readerly (summarizing) ...",
+        "Project Prepare for Grammarly": "Project to prepare for my [[Grammarly]] Data Engineering team employment.",
+        "Real Exams": "### [[Grammarly]]",
+        "Real Interviews": "### [[Grammarly]]",
         "기술 발전의 속도": "그래서 [[Grammarly]] 등의 텍스트 [[AI|인공지능]] 회사에 열심히 ..."
     },
     "SHAP": {
@@ -5888,7 +5919,8 @@ export const backlinks = {
         "Generative Databases": "- If you squint, [[LLM|LLMs]] resemble something like a vector ...",
         "P vs NP": "- Before [[LLM|LLMs]], generating the associated image took ...",
         "Proposal of Research 2023-03-28": "Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities in ...",
-        "The Demise of Chatbots in 2017": "... human in the loop. If [[LLM]] performance plateaued, these companies would ..."
+        "The Demise of Chatbots in 2017": "... human in the loop. If [[LLM]] performance plateaued, these companies would ...",
+        "Vector DB": "... used for Long-Term Memory for [[LLM|LLMs]]."
     },
     "Point-E": {
         "2022-12-27": "- [[Point-E]]"
@@ -6030,8 +6062,8 @@ export const backlinks = {
     "FFMpeg": {
         "2022-11-21": "- [[FFMpeg]]",
         "2022-11-28": "- [[FFMpeg]]: FFmpeg - Ultimate Guide",
-        "FFMpeg for iPad": "- Someday Project. [[FFMpeg]] equivalent for iPads!",
         "Jetski": "- [[ffmpeg]] optimization for sharing",
+        "Project FFMpeg for iPad": "- Someday Project. [[FFMpeg]] equivalent for iPads!",
         "프로젝트 어덕행덕": "  - 애초에 [[FFMpeg]]도 그렇게 Reliable하게 전천후 돌아가지 않고 ..."
     },
     "Dynamic Viewport Units": {
@@ -6063,6 +6095,8 @@ export const backlinks = {
     "Translation Look-aside Buffers": {
         "2022-11-04": "- [[Translation Look-aside Buffers]]",
         "Computer Systems": "- [[Translation Look-aside Buffers]]",
+        "Page Faults": "... make sure page table and [[translation look-aside buffers]] are updated",
+        "Page Size and Address Translations": "... potential solution: cache this! called [[translation look-aside buffers]].",
         "Virtual Memory": "- [[Translation Look-aside Buffers]]"
     },
     "DOM Reflow": {
@@ -6143,6 +6177,7 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "... of my domain <br/> 🇰🇷 [[도메인 찾아 삼만리]]      ..."
     },
     "Naver": {
+        "CalliFontia": "- 새로운 나눔손글씨 글꼴 - [[Naver|네이버]] 클로바: https://clova.ai/handwriting",
         "IP is the new Real Estate": "This edge is why [[Naver]] and [[Kakao]], two [[대한민국|Korean]] Google, ...",
         "Krafton Way": "... 아는 모든 좋은 사람들까지 다 [[Naver|네이버]]에 매각됐다\"고 말했다. 돈 말고는 아무것도 ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "... are two behemoths in 대한민국|Korea, [[Naver]], and [[Kakao]].",
@@ -6485,11 +6520,10 @@ export const backlinks = {
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical ...",
         "ElonPet": "- [[Someday]] [[Project]]. Uses GPT-3 to write ...",
         "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
-        "FFMpeg for iPad": "- [[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that ...",
         "Generative Open Graph": "[[Someday]] [[Project]]. [[Open Graph Image as ...",
         "Guestbook": "- [[Someday]] [[Project]]",
-        "Intracranial": "[[Someday]] [[Project]]. Infinite Canvas for Zettlekasten.",
+        "Intracranial": "[[Someday]] [[Project]]. [[Infinite Canvas]] for Zettlekasten.",
         "Markdown Email Client": "[[Someday]] [[Project]]. You write an [[Mail|email]] ...",
         "Not-So-Procrastinating Lazy Loading": "[[Someday]] [[Project]]. `img loading=lazy`, but if ...",
         "Off The Record": "[[Someday]] [[Project]]. Disappearing message for iMessage.",
@@ -6497,6 +6531,7 @@ export const backlinks = {
         "Open Graph Image as a Service": "[[Someday]] [[Project]]. Request Open Graph Images ...",
         "PineApple Pay": "[[Someday]] [[Project]].",
         "Problem": "Leads to a [[Someday]] [[Project]].",
+        "Project FFMpeg for iPad": "- [[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game ...",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
         "Sticker Party": "[[Someday]] [[Project]] GitHub README에 박을 수 ...",
@@ -6936,7 +6971,7 @@ export const backlinks = {
     },
     "Final Cut Pro": {
         "Alternatives to After Effects": "- Adobe Premiere Pro → [[Final Cut Pro|Final Cut Pro X]]",
-        "FFMpeg for iPad": "Apple announces [[Final Cut Pro]]. It's about time.",
+        "Project FFMpeg for iPad": "Apple announces [[Final Cut Pro]]. It's about time.",
         "Retroactive (Software)": "... Xcode 11.7 on macOS Mojave. [[Final Cut Pro]] 7, Logic Pro 9, and ..."
     },
     "사발통문": {
@@ -7195,6 +7230,7 @@ export const backlinks = {
     },
     "CPU": {
         "2023-01-13": "- [[CPU]]",
+        "ChatGPT is a Blurry JPEG and We Need That": "... the calendar scale of a [[CPU]]. Imagine that one cycle of ...",
         "How is WebAssembly cross-platform when Assembly is not": "... precompiled binary executables for multiple [[CPU]] vendors, like [[Apple]]'s Universal Binary?",
         "How to Build Software like an SRE": "- keep error logs, [[CPU]] usage, and request error rates",
         "Imagining WebNPU API": "... unlocks the bare-metal power of [[CPU]]s.",
@@ -7295,7 +7331,7 @@ export const backlinks = {
         "Conversational AI Tools for Thought": "... and have back-and-forth dialogue with [[AI]]. Poe will initially be available ...",
         "Dear AIs, I have a question.": "... I'm currently overwhelmed by the [[AI]] industry, which is changing daily. ...",
         "Deepfake": "... techniques from ML|machine learning and [[AI|artificial intelligence]] to manipulate or generate visual ...",
-        "EU and AI": "... with how to regulate general-purpose [[AI]], such as OpenAI's [[ChatGPT]], which ...",
+        "EU and AI": "... with how to regulate general-purpose [[AI]], such as [[OpenAI]]'s [[ChatGPT]], which ...",
         "Educational Technology": "... as communication, education, psychology, sociology, [[AI|artificial intelligence]], and computer science. It encompasses ...",
         "Effective Accelerationism": "8. [[AI|인공지능]]과 기술적 자본의 초변수(hyper-parameters)를 먼저 통제하는 ...",
         "Financial Technology": "... methods in delivering financial services. [[AI|Artificial intelligence]], [[Blockchain]], [[Cloud computing]], and big ...",
@@ -9211,9 +9247,6 @@ export const backlinks = {
     },
     "78DD5F.png": {
         "Project Heimdall": "![[78DD5F.png]]"
-    },
-    "5FD1BE.png": {
-        "Project Heimdall": "![[5FD1BE.png]]"
     },
     "E1AF2F.png": {
         "Simulated Annealing for Designs": "![[E1AF2F.png]]"
