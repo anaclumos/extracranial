@@ -35,7 +35,7 @@ slug: '/3B14B7'
 ## Slack Thread & 리소스
 
 - [periannath/neural-fonts: GAN을 활용한 한글 폰트 제작 프로젝트](https://github.com/periannath/neural-fonts)
-- [새로운 나눔손글씨 글꼴 - 네이버 클로바](https://clova.ai/handwriting)
+- 새로운 나눔손글씨 글꼴 - [[Naver|네이버]] 클로바: https://clova.ai/handwriting
 - [List of typographic features - Wikipedia](https://en.wikipedia.org/wiki/List_of_typographic_features)
 - [Implementing OpenType features on the web - Fonts Knowledge - Google Fonts](https://fonts.google.com/knowledge/using_type/implementing_open_type_features_on_the_web)
 - 영문 폰트에 대해서 조금 찾아봤어요. 확실히 훠얼씬 쉽네요. 나이브하게 접근해도 아스키에 해당하는 128개 글자만 있으면 되니까요.

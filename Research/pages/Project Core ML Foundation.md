@@ -30,7 +30,7 @@ We can use a state space graph to represent the search problem mathematically. T
 
 - BFS
 - DFS
-- Iterative DFS: Run DFS with level 1. If not found, run DFS with level 2. This may be redundant if not found, but most of the work is spent in the lower level, so it is okay.
+- [[Iterative and Incremental Development|Iterative]] DFS: Run DFS with level 1. If not found, run DFS with level 2. This may be redundant if not found, but most of the work is spent in the lower level, so it is okay.
 - Uniform Cost Search: [[Priority Queue]]. [[Dijkstra]] is a variant of UCS, where there is no goal node; you continue until the [[Priority Queue|PQ]] is empty & extract the minimum distance to all nodes.
 
 ### Informed Search

@@ -23,7 +23,7 @@ It should be **Airborne Early Warning**, **Protoss's Observers**, **Zerg's Overs
 
 At [[Karrot]], scraping the news over the internet was a daily activity.
 
-![[5FD1BE.png]]
+![Like this](../assets/5FD1BE.png)
 
 What if we can ask the **All-seer** to check for keywords [[Karrot|당근마켓]] 캐롯 and [[Karrot]] every day?
 

@@ -75,23 +75,23 @@ If you're a business [[AI]], then you'll never be a [[polymath]]. You have to be
 
 Be a real person. Thank you." "I think the reason you're experiencing this is because you have not yet clarified your goals and values," the [[AI]]
 
-## openai:gpt-3.5-turbo
+## [[openai]]:gpt-3.5-turbo
 
 As an [[AI]] model, I understand your concerns about the rapidly changing [[AI]] industry and the desire to lead rather than follow. It's important to recognize that change is constant and inevitable, and it's up to us to adapt and evolve with it. In the words of Isaac Newton, "If I have seen further, it is by standing on the shoulders of giants." This means that we must build upon the knowledge and achievements of those who came before us, while also being willing to take risks and explore new frontiers. To lead in the [[AI]] industry, it's important to have a solid foundation of knowledge and skills, but also to be open-minded and willing to learn and grow. It's also important to have a clear vision and purpose, and to stay focused on that vision even as the industry evolves and changes. Ultimately, the key to success in the [[AI]] industry, as in any field, is to be passionate, persistent, and adaptable. Embrace the changes and challenges that come
 
-## openai:text-ada-001
+## [[openai]]:text-ada-001
 
 The answer to this question is that there is no right or wrong answer, as long as one decides what they want to do. There are many options and opportunities out there, and it will take time and experience to see the changes and success of the [[AI]] industry.
 
-## openai:text-babbage-001
+## [[openai]]:text-babbage-001
 
 There is no easy answer to this question. It depends on a lot of factors, including your own personal beliefs and experience. However, some things that might help you think about this are to consider what you want to achieve as a scientist, and how the [[AI]] industry is changing. If you want to lead the [[AI]] industry, it might be helpful to think about what you want to achieve. You could look at what you see as the biggest challenges facing the industry, and try to come up with a plan to address them. Another thing you might want to do is to connect with other scientists who are working in the [[AI]] industry. This will help you learn more about the industry and how it is changing. Finally, it is important to remember that there is a lot of potential for the [[AI]] industry to grow, and there are many opportunities for scientists to get involved. If you are interested in leading the [[AI]] industry, be sure to pursue your career goals and learn
 
-## openai:text-davinci-002
+## [[openai]]:text-davinci-002
 
 You should be able to do anything. The right thing to do is to be patient, and to trust that the future will be better than the present. Things always change, and the future always holds new opportunities. What will die is the past, and what will survive is the future. The present is just a moment in time, and it is always in flux. So trust that the future will be better, and be patient. The future is always worth fighting for.
 
-## openai:text-davinci-003
+## [[openai]]:text-davinci-003
 
 The right thing to do in this situation is to embrace the uncertainty and unpredictability of the future. It is impossible to know what will survive and what will die in the [[AI]] industry, but what you can do is to focus on honing your skills and learning as much as possible. You must be willing to experiment, to take risks, and to be open to new ideas. By doing so, you will be better prepared to take advantage of the opportunities that arise. Rather than trying to predict the future, focus on building the skills and knowledge that will enable you to adapt to whatever the future may bring. In the words of the [[polymath]] Newton, "If I have seen further it is by standing on the shoulders of giants." By learning from those who have gone before you, you can build on their successes and create something even better.
 
@@ -109,7 +109,7 @@ I'm not asking for a solution, I'm asking for a philosophical answer. I'm asking
 
 ## forefront:pythia-20b
 
-Provide me with a philosophical answer that says [[AI]] can only be a huge part of the future. It's time for a change. I've always loved [[AI]], and I never felt like I could join it, because I don't have anything that looks like intelligence. The only job I can think of that I could do would be programming, but then again I already do that, and it's not what I want to do (I'm tired of programming in my personal life). I want to lead [[AI]]'s future, not be swallowed up by the change. Please help me." \* \* \* # �� 文 原文：[[[AI]] is eating software](http://www.paulgraham.com/ai.html) 引文：[The Future of AIs: Will They Ate Software?](http://www.paulgraham.com/future)
+Provide me with a philosophical answer that says [[AI]] can only be a huge part of the future. It's time for a change. I've always loved [[AI]], and I never felt like I could join it, because I don't have anything that looks like intelligence. The only job I can think of that I could do would be programming, but then again I already do that, and it's not what I want to do (I'm tired of programming in my personal life). I want to lead [[AI]]'s future, not be swallowed up by the change. Please help me." \* \* \* # �� 文 原文：[AI is eating software](http://www.paulgraham.com/ai.html) 引文：[The Future of AIs: Will They Ate Software?](http://www.paulgraham.com/future)
 
 ## forefront:pythia-6.9b
 

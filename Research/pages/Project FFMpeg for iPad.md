@@ -12,3 +12,7 @@ slug: '/696FEF'
 ## [[2023-05-09]]
 
 Apple announces [[Final Cut Pro]]. It's about time.
+
+## [[2023-05-11]]
+
+[arthenica/ffmpeg-kit: FFmpeg Kit for applications. Supports Android, Flutter, iOS, Linux, macOS, React Native and tvOS. Supersedes MobileFFmpeg, flutter_ffmpeg and react-native-ffmpeg.](https://github.com/arthenica/ffmpeg-kit)
