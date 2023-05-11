@@ -572,7 +572,7 @@ export const backlinks = {
         "Blurry JPEG": "> Think of [[ChatGPT]] as a blurry jpeg of ...",
         "Browser Company Hackathon": "... Reader Mode + SummarizationBot using [[ChatGPT]]?",
         "ChatGPT is a Blurry JPEG and We Need That": "... large-scale language models (LLM|LLMs) like [[ChatGPT]] and lossy compression algorithms like ...",
-        "ChatGPT는 흐릿한 이미지이지만 필요합니다": "테드 창은 [[ChatGPT]]와 같은 대규모 언어 모델([[LLM]])을 흐릿한 ...",
+        "ChatGPT는 흐릿한 이미지이지만 필요합니다": "Ted Chiang|테드 창은 [[ChatGPT]]와 같은 대규모 언어 모델([[LLM]])을 흐릿한 ...",
         "Conversational AI Tools for Thought": "- [[ChatGPT]] and [[Generative AI]] are not ...",
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
         "Cool Generative AI Applications": "- [[ChatGPT]]",
@@ -1016,7 +1016,7 @@ export const backlinks = {
     },
     "MAKE": {
         "2023-05-02": "[[MAKE]]를 읽었다. 내가 생각하고 있는 것과 ...",
-        "Readings": "- [ ] [[MAKE]]"
+        "Readings": "- [x] [[MAKE]]"
     },
     "Intracranial": {
         "2022-07-26": "### [[Intracranial]]",
@@ -1135,7 +1135,7 @@ export const backlinks = {
     },
     "Blurry JPEG": {
         "2023-02-10": "- [[Blurry JPEG]]",
-        "ChatGPT는 흐릿한 이미지이지만 필요합니다": "[[Blurry JPEG]]은 SF계의 거장 테드 창이 작성한 ..."
+        "ChatGPT는 흐릿한 이미지이지만 필요합니다": "[[Blurry JPEG]]은 SF계의 거장 [[Ted Chiang|테드 창]]이 ..."
     },
     "민사고와 쇼비니즘": {
         "2023-02-17": "- [[민사고와 쇼비니즘]]"
@@ -1247,6 +1247,7 @@ export const backlinks = {
         "2022-11-01": "- [[Search Engine Indexing Your Life]]",
         "2022-12-24": "- [[Search Engine Indexing Your Life]]",
         "Autopedia": "[[Search Engine Indexing Your Life]]... but more like Encyclopedia of ...",
+        "Exhalation": "### [[Search Engine Indexing Your Life]]",
         "Rewind": "- Rewind is a [[Search Engine Indexing Your Life]].",
         "Search-based Tools for Thought": "- [[Search Engine Indexing Your Life]]",
         "Thesephist Work Case Study": "### Monocle: [[Search Engine Indexing Your Life]]"
@@ -1322,6 +1323,10 @@ export const backlinks = {
         "2023-05-02": "- [[Groupthink]]",
         "Antipreneur": "- [[Groupthink]]: 자신만 믿는 비전을 굳세게 미는 ...",
         "MAKE": "- don't [[groupthink]] -- visionary people always fail."
+    },
+    "Ted Chiang": {
+        "ChatGPT는 흐릿한 이미지이지만 필요합니다": "Blurry JPEG은 SF계의 거장 [[Ted Chiang|테드 창]]이 작성한 훌륭한 글입니다.",
+        "Exhalation": "Very impressive. Surely [[Ted Chiang]] is a genius."
     },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
@@ -1803,7 +1808,8 @@ export const backlinks = {
         "The Dilemmas of Technopreneur": "For [[10x Technopreneurs]], the [[Cost of Engineering]] is ..."
     },
     "Exhalation": {
-        "Readings": "- [ ] [[Exhalation]]"
+        "2023-05-11": "- [[Exhalation]]",
+        "Readings": "- [x] [[Exhalation]]"
     },
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
