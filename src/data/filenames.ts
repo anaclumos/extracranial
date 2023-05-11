@@ -1255,6 +1255,7 @@ export const filenames = {
     "Tech Now Pay Later": "529EDD",
     "Technocapital and Biocapital": "D59EC7",
     "Techs Actually Simple": "1E19E0",
+    "Ted Chiang": "EED9A2",
     "Tesla Release Models": "C85882",
     "Text AI and Information Density": "D23959",
     "Text Graphics": "5FB613",

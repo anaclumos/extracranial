@@ -25,6 +25,8 @@ import Shuffle from '@site/src/components/Shuffle'
 - [x] 상대적이며 절대적인 고양이 백과사전
 - [x] [[이 땅에 태어나서]]
 - [x] [[이완용]] 평전 (윤덕한 저)
+- [x] [[Exhalation]]
+- [x] [[MAKE]]
 
 </Shuffle>
 
@@ -32,8 +34,7 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
-- [ ] [[Exhalation]]
-- [ ] [[MAKE]]
+- [ ] Space Odyssey Series
 
 </Shuffle>
 
@@ -49,7 +50,6 @@ import Shuffle from '@site/src/components/Shuffle'
 - [ ] 허삼관 매혈기
 - [ ] 삼체
 - [ ] Black Swan
-- [ ] Space Odyssey Series
 
 </Shuffle>
 
