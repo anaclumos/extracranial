@@ -11,4 +11,4 @@ slug: '/6A6DF1'
 - using multi-level page table can save space.
 - example: for 32-bit virtual address, 1 GB physical memory, and 4 kB pages how many bits do we need for the frame number? 1GB = 30 physical address bits. 4KB is 12 offset bits. Thus we need 30-12 = 18 bits for the frame number.
 - but this multi-level can also be very expensive, because we need to lookup that many times
-  - potential solution: cache this! called **translation look-aside buffers**.
+  - potential solution: cache this! called **[[translation look-aside buffers]]**.

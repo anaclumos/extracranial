@@ -15,7 +15,7 @@ slug: '/75CB18'
 - 1 [[Simulations]] that had a bunch of edge cases (solved 9/10)
 - 1 [[Optimized Simulations]]
 
-### [Grammarly](https://grammarly.com/)
+### [[Grammarly]]
 
 - 1 [[Simulations]]
 - 2 [[Optimized Simulations]]

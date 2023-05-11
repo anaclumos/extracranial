@@ -5,7 +5,7 @@ slug: '/009C77'
 
 ## Definition
 
-[[Someday]] [[Project]]. Infinite Canvas for Zettlekasten.
+[[Someday]] [[Project]]. [[Infinite Canvas]] for Zettlekasten.
 
 - [[FIRE Engine]]
 - Aim to implement Zettlekasten
@@ -25,7 +25,7 @@ slug: '/009C77'
 ## Prodrafts
 
 - I was using [Prodrafts](https://apps.apple.com/us/app/prodrafts/id1545810067), but it has limits:
-  - 👍 Infinite canvas
+  - 👍 [[Infinite canvas]]
   - 👍 Native PencilKit support
   - 👍 [[Apple]]-ish design language
   - 👎 Unable to construct Zettlekasten

@@ -8,7 +8,7 @@ aliases: ["Let's Alter"]
 
 - [ ] Perceptual Hashing [[On-Device|On Device]]: [[phash.wasm]]
 
-## TODO
+## [[TODO]]
 
 - [ ] PlanetScale Federated Server to store `hash → text`
 - [ ] Inference Server to `image → text`. [[AWS]] SageMaker? Or [[Hugging Face]] as an API server?

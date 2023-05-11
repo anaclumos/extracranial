@@ -5,7 +5,7 @@ slug: '/4B15E0'
 
 ## [[Project|프로젝트]] 목표
 
-- [[Tailwind]] CSS를 임의의 TypeScript Next [[Project|프로젝트]]에 적용
+- [[Tailwind]] CSS를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 적용
 - [[Tailwind]] CSS 디자인 패턴에 대한 기초적인 이해
 - [[Tailwind]] CSS 디자인 시스템에 대한 기초적인 이해
 

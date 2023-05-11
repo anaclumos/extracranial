@@ -11,7 +11,7 @@ slug: '/1F25A6'
 - monetize by asking users for money
 - automate, but only things that are worth the time
 - price aggressively high
-- don't groupthink -- visionary people always fail.
+- don't [[groupthink]] -- visionary people always fail.
 - [[강기업]]
 - 완료가 완벽보다 낫다
 
