@@ -45,7 +45,8 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- [[2020-02-17]]"
     },
     "2023-05-11": {
-        "Project FFMpeg for iPad": "## [[2023-05-11]]"
+        "Project FFMpeg for iPad": "## [[2023-05-11]]",
+        "Project Heimdall": "## [[2023-05-11]]"
     },
     "2020-02-23": {
         "프로젝트 어덕행덕": "- [[2020-02-23]]"
