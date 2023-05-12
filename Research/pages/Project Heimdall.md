@@ -41,3 +41,7 @@ What if we want to keep ourselves up to date on various topics but in a non-aggr
 - Hey Heimdall, give me daily reports on **European Fashion Market**
 
 Then Heimdall will give reports every day.
+
+## [[2023-05-11]]
+
+[Boring Report](https://www.boringreport.org/)
