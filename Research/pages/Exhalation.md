@@ -3,9 +3,7 @@ lang: 'en'
 slug: '/6C8C05'
 ---
 
-Very impressive. Surely [[Ted Chiang]] is a genius.
-
-I especially liked **The Truth of Fact, the Truth of Feeling**.
+Very impressive. Surely [[Ted Chiang]] is a genius. I especially liked **The Truth of Fact, the Truth of Feeling**.
 
 ## The Truth of Fact, the Truth of Feeling
 

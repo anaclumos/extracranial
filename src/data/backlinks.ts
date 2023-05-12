@@ -1326,7 +1326,7 @@ export const backlinks = {
     },
     "Ted Chiang": {
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "Blurry JPEG은 SF계의 거장 [[Ted Chiang|테드 창]]이 작성한 훌륭한 글입니다.",
-        "Exhalation": "Very impressive. Surely [[Ted Chiang]] is a genius."
+        "Exhalation": "Very impressive. Surely [[Ted Chiang]] is a genius. I especially ..."
     },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
