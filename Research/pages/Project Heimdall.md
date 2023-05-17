@@ -44,4 +44,18 @@ Then Heimdall will give reports every day.
 
 ## [[2023-05-11]]
 
-[Boring Report](https://www.boringreport.org/)
+[[Boring Report]]
+
+## [[2023-05-16]]
+
+Some random names...
+
+- Omniscient
+- clairvoyance
+- Allseer
+- Providence
+- Heimdall
+- Eye of Ra
+- Horus
+- Wedjat Eye
+- Supernatural.news
