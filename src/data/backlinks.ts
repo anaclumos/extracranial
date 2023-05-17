@@ -461,6 +461,9 @@ export const backlinks = {
     "2023-04-18": {
         "hn.cho.sh 개발 기록": "## [[2023-04-18]]"
     },
+    "2023-05-16": {
+        "Project Heimdall": "## [[2023-05-16]]"
+    },
     "2022-10-11": {
         "Open Graph Image as a Service": "- [[2022-10-11]]"
     },
@@ -1500,6 +1503,9 @@ export const backlinks = {
         "2023-01-13": "- [[YAML]]",
         "Ghost 테마를 자동 배포하는 방법": "... workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 [[YAML]] 코드를 복사하여 붙여넣는다. GitHub Secrets에 ...",
         "Higher-Level Languages and Their Speeds": "... site can be a single [[YAML]] read on boot? This goes ..."
+    },
+    "aaaa.coffee": {
+        "2023-05-16": "- [[aaaa.coffee]]"
     },
     "Monolithic Model": {
         "2022-09-03": "- [[Monolithic Model]]",
@@ -3192,6 +3198,7 @@ export const backlinks = {
         "Use Your Mac as your Bluetooth Speaker": "Someday [[Project]]",
         "Vannevar Bush": "... early administration of the Manhattan [[Project]]. He emphasized the importance of ...",
         "Wikiversity": "... Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning ...",
+        "aaaa.coffee": "Someday [[Project]]. \"Buy me a coffee\" but ...",
         "elevatorpitch.com": "Someday [[Project]]. Simple Demo Website Creator to ...",
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 http 모듈 (당연히 `express` ...",
         "iiframe": "Someday [[Project]]. Improved `iframe` that containerizes an ...",
@@ -3446,6 +3453,10 @@ export const backlinks = {
     },
     "Packet Switching vs Circuit Switching": {
         "Internetworking": "- [[Packet Switching vs Circuit Switching]]"
+    },
+    "Boring Report": {
+        "2023-05-16": "- [[Boring Report]]",
+        "Project Heimdall": "[[Boring Report]]"
     },
     "Synonym-based Fuzzy Search": {
         "2022-12-12": "- [[Synonym-based Fuzzy Search]]"
@@ -6547,6 +6558,7 @@ export const backlinks = {
         "The One and Only WebExtension": "- [[Someday]] [[Project]]",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute ...",
         "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
+        "aaaa.coffee": "[[Someday]] [[Project]]. \"Buy me a coffee\" ...",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator ...",
         "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes ...",
         "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to ...",
@@ -7218,6 +7230,7 @@ export const backlinks = {
     "Project Heimdall": {
         "2023-04-19": "- [[Project Heimdall]]",
         "2023-05-10": "- [[Project Heimdall]]",
+        "2023-05-16": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- hn.cho.sh hn.cho.sh 개발 기록 [[Project Heimdall]]",
@@ -8471,6 +8484,9 @@ export const backlinks = {
     },
     "227D79.gif": {
         "Visual ChatGPT": "![[227D79.gif]]"
+    },
+    "B92798.gif": {
+        "Boring Report": "![[B92798.gif]]"
     },
     "BD6DAB.png": {
         "Pretendard의 아쉬운 점": "![[BD6DAB.png]]"
