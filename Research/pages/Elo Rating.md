@@ -52,7 +52,7 @@ def calculate_elo(player_A, player_B, result):
 
 ## Use Cases
 
-- Matching players in online multiplayer games
+- Matching players in online [[multiplayer]] games
 - Ranking professional sports teams or players
 - Evaluating the performance of political candidates in an election
 - Predicting the success of romantic relationships in online dating (Zuckerberg allegedly used Elo in his "Face Mash" app to rank students).
