@@ -618,6 +618,7 @@ export const backlinks = {
     },
     "Texts": {
         "2023-01-31": "Got Invited to [[Texts]]",
+        "Beeper": "An alternative to [[Texts]]. A better approach with iMessage, ...",
         "Love Software": "- (Fiercely Overpriced|paywalled) [[texts]]",
         "The One and Only (Social App)": "Like [[Texts]], it pulls from all the ...",
         "The one and only": "[[Texts]] aims to be the one ..."
@@ -6331,6 +6332,9 @@ export const backlinks = {
         "Computer Systems": "- [[Processes and Threads]]",
         "Memory Allocation": "... define the key difference between [[Processes and Threads]]."
     },
+    "Beeper": {
+        "2023-05-18": "- [[Beeper]]"
+    },
     "Cache Evictions": {
         "2022-11-04": "- [[Cache Evictions]]",
         "Caching": "- [[Cache Evictions]]",
@@ -7133,7 +7137,8 @@ export const backlinks = {
         "Virtual Memory": "- [[Virtual Address Space and Physical Address Space]]"
     },
     "Matrix Network": {
-        "2023-03-16": "- [[Matrix Network]]"
+        "2023-03-16": "- [[Matrix Network]]",
+        "Beeper": "Uses [[Matrix Network]]: Matrix is the holy grail ..."
     },
     "CITATION.cff": {
         "2023-04-27": "- [[CITATION.cff]]"
