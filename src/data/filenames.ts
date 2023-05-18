@@ -451,6 +451,7 @@ export const filenames = {
     "Base Frame Pointer": "81AD46",
     "Bayes Theorem": "EAFD95",
     "Beehiiv": "44E6DF",
+    "Beeper": "2DBC4A",
     "Bernoulli Distribution": "5CFA0D",
     "Beta Binomial Conjugacy": "B56933",
     "Better Aldehyde": "84776A",
