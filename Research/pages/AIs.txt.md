@@ -31,7 +31,7 @@ License: MIT
 ### Would it be legally binding?
 
 For now, no.
-It would be a polite way to mark my preference to opt-out of such data mining.
+It would be a polite way to mark my preference to opt out of such data mining.
 It's closer to the **Ask BigTechs Not to Track** option rather than a legal license.
 Technically, [[Apple]]'s **App Tracking Transparency** does not ban all tracking activity; it never can.
 
