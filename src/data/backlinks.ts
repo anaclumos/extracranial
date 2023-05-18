@@ -1689,7 +1689,9 @@ export const backlinks = {
         "2022-10-21": "- [[AIs.txt]]",
         "2022-10-22": "- [[AIs.txt]]",
         "2022-10-24": "- [[AIs.txt]]",
-        "GitHub Copilot Investigation": "  - [[AIs.txt]]"
+        "2023-05-17": "I got an interesting [[AIs.txt]] proposal: [[QA.json]]",
+        "GitHub Copilot Investigation": "  - [[AIs.txt]]",
+        "QA.json": "An alternative approach to [[AIs.txt]], proposed by Robert Reich"
     },
     "Finding the size of the directory in Python": {
         "2022-11-19": "  - [[Finding the size of the directory in Python]]"
@@ -3015,6 +3017,9 @@ export const backlinks = {
     },
     "henrymakesapps": {
         "2023-05-11": "- [[henrymakesapps]]"
+    },
+    "sitemap.xml": {
+        "QA.json": "... to an RSS feed or [[sitemap.xml]]. Finally, the structured data format ..."
     },
     "CELLO (Product)": {
         "2022-07-18": "- [[CELLO (Product)]]",
@@ -7247,6 +7252,9 @@ export const backlinks = {
         "Dynamic Island on the Web": "- Applied Quick Clipping with [[Framer Motion]] for performance",
         "Framer": "- Creator of [[Framer Motion]]",
         "dub.sh": "  - [[Framer Motion|Framer Animation]]"
+    },
+    "QA.json": {
+        "2023-05-17": "... got an interesting AIs.txt proposal: [[QA.json]]"
     },
     "CPU": {
         "2023-01-13": "- [[CPU]]",
