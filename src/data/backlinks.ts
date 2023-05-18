@@ -373,6 +373,9 @@ export const backlinks = {
     "2023-02-13": {
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-13]]: 개인 사정"
     },
+    "2023-05-18": {
+        "Project Heimdall": "## [[2023-05-18]]: [[Hacker News]]"
+    },
     "2023-04-16": {
         "hn.cho.sh 개발 기록": "## [[2023-04-16]]"
     },
@@ -821,10 +824,10 @@ export const backlinks = {
     },
     "The Engine Equation": {
         "2023-02-16": "- [[The Engine Equation]]",
-        "2023-03-06": "... rich. Start your own business [[The Engine Equation]]. It's almost impossible to get ...",
         "Engine Equation": "- [[The Engine Equation]] [[엔진 방정식]]",
         "Tech Now Pay Later": "[[The Engine Equation]] comes handy here.",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-16 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]  ..."
+        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-16 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]  ...",
+        "Willpower": "... rich. Start your own business [[The Engine Equation]]. It's almost impossible to get ..."
     },
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]"
@@ -1020,6 +1023,7 @@ export const backlinks = {
     },
     "MAKE": {
         "2023-05-02": "[[MAKE]]를 읽었다. 내가 생각하고 있는 것과 ...",
+        "Fiercely Overpriced": "[[MAKE]] suggests asking for money directly ...",
         "Readings": "- [x] [[MAKE]]"
     },
     "Intracranial": {
@@ -2400,6 +2404,9 @@ export const backlinks = {
         "Spacial Cognition": "- Key reason of [[Infinite Canvas]]. Gives spacial understanding & relevancy",
         "Tools for Thought": "... Visual-based Tools for Thought: add [[infinite canvas]] to text-based versions. involves and ...",
         "Visual-based Tools for Thought": "## [[Infinite Canvas]]"
+    },
+    "Glitch": {
+        "2023-05-18": "- [[Glitch]]"
     },
     "Person 542AD7": {
         "2022-12-28": "- [[Person 542AD7]]",
@@ -5069,6 +5076,7 @@ export const backlinks = {
         "2022-07-14": "- Moved to [[Fiercely Overpriced]]",
         "2022-07-18": "- [[Fiercely Overpriced]] for [[Open Graph Image as ...",
         "2023-04-18": "- [[Fiercely Overpriced|Paywall]]",
+        "2023-05-18": "- [[Fiercely Overpriced]]",
         "Autosave Everything": "How would it be [[Fiercely Overpriced]]?",
         "CELLO (Product)": "## How would it be [[Fiercely Overpriced]]?",
         "CalliFontia": "## [[Fiercely Overpriced]]",
@@ -5080,6 +5088,10 @@ export const backlinks = {
         "Off The Record": "- [[Fiercely Overpriced]]: disappears after opening. max 10 ...",
         "Open Graph Image as a Service": "## How would it be [[Fiercely Overpriced]]?",
         "sem.sh": "... Your data, your own (no [[Fiercely Overpriced|paywall]] if self-hosted)"
+    },
+    "Multiplayer": {
+        "2022-07-05": "- [[Multiplayer]]",
+        "Elo Rating": "- Matching players in online [[multiplayer]] games"
     },
     "You can do everything on computers but you really should not": {
         "2023-03-28": "- [[You can do everything on computers but you really should not]]",
@@ -5120,12 +5132,12 @@ export const backlinks = {
         "Readings": "- [x] [[한자 타자기]]"
     },
     "Animations": {
-        "2022-07-05": "- Use spring [[animations]] for smooth cursors with a ...",
         "2022-11-21": "- [[Animations]]",
         "2022-11-23": "- Rive Use Cases: [[Animations]]",
         "2022-12-24": "- Add easing to your [[animations]] to help add a responsive ...",
         "Are Computers Psychotropic Substances": "Vibrant colors, popping vibrations, smooth [[animations]], and constant notifications relentlessly demand ...",
-        "Letter to Mr. Gustav Ekerot on 2023-02-24": "- [[Animations]] are way more fluid and ..."
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "- [[Animations]] are way more fluid and ...",
+        "Multiplayer": "- Use spring [[animations]] for smooth cursors with a ..."
     },
     "Dogfooding": {
         "Stories Behind Satori": "The Vercel team [[Dogfooding|dogfooded]] this for a while."
@@ -6257,6 +6269,9 @@ export const backlinks = {
         "Synthography": "- Needs [[Prompt Engineering]]",
         "기술 발전의 속도": "... 같은... 그마저도 엄청난 대격변이었기 때문에 [[Prompt Engineering]]이라는 새로운 분야가 각광 받으며 AI|인공지능에게 ..."
     },
+    "Willpower": {
+        "2023-05-18": "- [[Willpower]]"
+    },
     "Generative Open Graph": {
         "2023-03-06": "- [[Generative Open Graph]]",
         "Project": "- [[Generative Open Graph]]"
@@ -6774,9 +6789,11 @@ export const backlinks = {
         "2023-03-06": "## [[Hacker News|HN]]",
         "2023-03-10": "## [[Hacker News|HN]]",
         "2023-03-20": "## [[Hacker News|HN]]",
+        "2023-05-18": "- [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "... from the original discussion on [[Hacker News]] was to use ImprovMX as ...",
         "Jumpsite": "## [[Hacker News]]",
+        "Project Heimdall": "## 2023-05-18: [[Hacker News]]",
         "The Great Struggle of Gumroad": "... died—something like that. Posting on [[Hacker News]], the reaction exceeded my grandest ...",
         "Using an iPad as my Ebook": "... perfect ebook. Refer to this [[Hacker News]] thread"
     },
@@ -7236,6 +7253,7 @@ export const backlinks = {
         "2023-04-19": "- [[Project Heimdall]]",
         "2023-05-10": "- [[Project Heimdall]]",
         "2023-05-16": "- [[Project Heimdall]]",
+        "2023-05-18": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- hn.cho.sh hn.cho.sh 개발 기록 [[Project Heimdall]]",
