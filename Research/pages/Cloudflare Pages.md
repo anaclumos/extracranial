@@ -9,4 +9,4 @@ slug: '/52985A'
 | ---------------- | --------------------------- |
 | `NODE_OPTIONS`   | `--max-old-space-size=7680` |
 | `NODE_VERSION`   | `16.19.0`                   |
-| `PYTHON_VERSION` | `3.7`                       |
+| `PYTHON_VERSION` | `'3.7'`                     |
