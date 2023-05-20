@@ -4188,6 +4188,10 @@ export const backlinks = {
     "Dither": {
         "One Bit Display": "- [[Dither]]"
     },
+    "Supastarter": {
+        "2023-05-20": "... investigating. This is similar to [[Supastarter]] but better packaged. At the ...",
+        "hn.cho.sh 개발 기록": "- [[supastarter]] - The SaaS starter template ..."
+    },
     "Maximum A Posteriori": {
         "2023-03-27": "[[Maximum A Posteriori]]"
     },
@@ -4316,6 +4320,9 @@ export const backlinks = {
     "Snooze Time of Alarm Clocks": {
         "2023-03-19": "- [[Snooze Time of Alarm Clocks]]",
         "The Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 ..."
+    },
+    "Render.com": {
+        "2023-05-20": "... I want to check out [[Render.com]]. It feels something like [[Railway]], ..."
     },
     "Club Penguin": {
         "The Sudden Rise of Bondee": "... rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in ..."
@@ -7155,6 +7162,9 @@ export const backlinks = {
     "Peter the Great": {
         "2023-02-21": "- [[Peter the Great]]"
     },
+    "Railway": {
+        "2023-05-20": "... Render.com. It feels something like [[Railway]], but I will have to ..."
+    },
     "MetroPunk": {
         "2023-04-30": "- [[MetroPunk]]",
         "슈퍼자판기": "... 상상했다. 그리고 궁극적으로 자판기는 다가오는 [[MetroPunk|메트로펑크]]적 미래에 반드시 필수적일 것이다. 그렇다면 ..."
@@ -8648,9 +8658,15 @@ export const backlinks = {
     "669578.png": {
         "프로젝트 어덕행덕": "![[669578.png]]"
     },
+    "2CC6D3.png": {
+        "Supastarter": "![[2CC6D3.png]]"
+    },
     "25771A.png": {
         "Snooze Time of Alarm Clocks": "![[25771A.png]]",
         "알람 시계의 9분 스누즈": "![[25771A.png]]"
+    },
+    "FD1ABE.png": {
+        "Render.com": "![[FD1ABE.png]]"
     },
     "29C0E6.png": {
         "Club Penguin": "![[29C0E6.png]]"
@@ -9289,6 +9305,9 @@ export const backlinks = {
     },
     "392747.png": {
         "솟대": "![[392747.png]]"
+    },
+    "47B4B6.png": {
+        "Railway": "![[47B4B6.png]]"
     },
     "A7416A.png": {
         "Three Column Design": "![[A7416A.png]]"

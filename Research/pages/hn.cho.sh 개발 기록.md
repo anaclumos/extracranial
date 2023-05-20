@@ -173,7 +173,7 @@ LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수
 - 광고 재개하기 (자동 광고?)
 - [SparkLoop: The #1 Newsletter Growth Platform](https://sparkloop.app/) 알아보기
 - 스토리별로 쪼개보기?
-- [supastarter](https://supastarter.dev/) - The SaaS starter template for [[Next.js]] and [[Supabase]] 살펴보기
+- [[supastarter]] - The SaaS starter template for [[Next.js]] and [[Supabase]] 살펴보기
 - 광고를 돌리는게 큰 의미가 있는지 모르겠다. 클릭 당 지출이 1-2달러 수준인데.
 
 ## [[2023-04-17]]
