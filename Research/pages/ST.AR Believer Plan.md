@@ -7,7 +7,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="korean" label="한국어" default>
+<TabItem value="korean" label="한국어" default>
 
 ## 소개
 
@@ -25,8 +25,8 @@ hn.cho.sh의 유지비를 위해 서포터 플랜을 도입합니다. 자세한 
     2.  연간 결제 회원 : 연 기준은 12개월이고 잔여 이용료는 전체 연간결제 이용료를 12로 나누고 하루라도 이용한 월은 제외하고 남은 금액을 환불합니다.
     3.  본조의 환불 금액 기준은 연간 결제 회원이라 하더라도 정기결제 금액으로 계산 후 진행됩니다. 따라서 환불 시점에 따라 환불금액이 존재하지 않는 경우도 있을 수 있습니다.
 
-  </TabItem>
-  <TabItem value="english" label="English">
+</TabItem>
+<TabItem value="english" label="English">
 
 ## Intro
 
@@ -44,6 +44,5 @@ These numbers grow by 3% every day, and the newsletter open rate is an impressiv
    2. Annual payment members: The annual base is 12 months, and the remaining fee is the total yearly payment fee divided by 12, and the remaining amount is refunded, excluding months that are used even for one day.
    3. Even if you are an annual payment member, the refund amount in this section will be calculated based on the periodic payment amount. Therefore, depending on the refund time, there may be cases where the refund amount does not exist.
 
-  </TabItem>
-
+</TabItem>
 </Tabs>
