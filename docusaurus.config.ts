@@ -86,14 +86,34 @@ const config: Config = {
       additionalLanguages: ['java', 'swift'],
     },
     footer: {
-      logo: {
-        alt: 'Meta Open Source Logo',
-        src: 'img/meta_oss_logo.png',
-        href: 'https://opensource.fb.com',
-        width: 160,
-        height: 51,
-      },
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      links: [
+        {
+          title: '© ★, inc',
+          items: [
+            {
+              label: '상호명: 불가사리',
+              to: '#',
+            },
+            {
+              label: '대표자명: 조성현',
+              to: '#',
+            },
+            {
+              label: '사업자등록번호: 624-08-02343',
+              to: '#',
+            },
+            {
+              label: '사업장 주소: 대전광역시 서구 봉우로 8번길 23 2층 220호 (관저디펠리체)',
+              to: '#',
+            },
+            {
+              label: '사업장 번호: +82-10-2541-9828',
+              to: '#',
+            },
+          ],
+        },
+      ],
+      copyright: '© ★, inc',
     },
     docs: {
       sidebar: {

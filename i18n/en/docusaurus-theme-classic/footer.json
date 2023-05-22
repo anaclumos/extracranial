@@ -1,6 +1,30 @@
 {
+  "link.item.label.상호명: 불가사리": {
+    "message": "상호명: 불가사리",
+    "description": "The label of footer link with label=상호명: 불가사리 linking to #"
+  },
+  "link.item.label.대표자명: 조성현": {
+    "message": "대표자명: 조성현",
+    "description": "The label of footer link with label=대표자명: 조성현 linking to #"
+  },
+  "link.item.label.사업자등록번호: 624-08-02343": {
+    "message": "사업자등록번호: 624-08-02343",
+    "description": "The label of footer link with label=사업자등록번호: 624-08-02343 linking to #"
+  },
+  "link.item.label.사업장 주소: 대전광역시 서구 봉우로 8번길 23 2층 220호 (관저디펠리체)": {
+    "message": "사업장 주소: 대전광역시 서구 봉우로 8번길 23 2층 220호 (관저디펠리체)",
+    "description": "The label of footer link with label=사업장 주소: 대전광역시 서구 봉우로 8번길 23 2층 220호 (관저디펠리체) linking to #"
+  },
+  "link.item.label.사업장 번호: +82-10-2541-9828": {
+    "message": "사업장 번호: +82-10-2541-9828",
+    "description": "The label of footer link with label=사업장 번호: +82-10-2541-9828 linking to #"
+  },
   "copyright": {
-    "message": "© 2022 Sunghyun Cho",
+    "message": "",
     "description": "The footer copyright"
+  },
+  "link.title.© ★, inc": {
+    "message": "© ★, inc",
+    "description": "The title of the footer links column with title=© ★, inc in the footer"
   }
 }

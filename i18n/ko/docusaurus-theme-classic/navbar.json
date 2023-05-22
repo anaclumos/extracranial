@@ -23,8 +23,8 @@
     "message": "무작위",
     "description": "Navbar item with label Random"
   },
-  "item.label.Newsletter": {
-    "message": "뉴스레터",
-    "description": "Navbar item with label Newsletter"
+  "logo.alt": {
+    "message": "Sunghyun Cho Logo",
+    "description": "The alt text of navbar logo"
   }
 }

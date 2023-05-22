@@ -23,8 +23,8 @@
     "message": "Random",
     "description": "Navbar item with label Random"
   },
-  "item.label.Newsletter": {
-    "message": "Newsletter",
-    "description": "Navbar item with label Newsletter"
+  "logo.alt": {
+    "message": "Sunghyun Cho Logo",
+    "description": "The alt text of navbar logo"
   }
 }
