@@ -3389,6 +3389,9 @@ export const backlinks = {
         "2022-09-05": "- [[0704 Binary Search]]",
         "Coding Tests": "- [x] [[0704 Binary Search]]"
     },
+    "ST.AR Believer Plan": {
+        "2023-05-22": "- [[ST.AR Believer Plan]]"
+    },
     "Jumpsite": {
         "2022-10-13": "- [x] [[Jumpsite]]",
         "2022-11-29": "- [[Jumpsite]]",
@@ -4601,9 +4604,6 @@ export const backlinks = {
     "Person E7CFC5": {
         "2022-09-14": "  - [[Person E7CFC5]]",
         "Project PEOPLE": "- [[Person E7CFC5]]"
-    },
-    "hn.cho.sh Believer Plan": {
-        "2023-05-22": "- [[hn.cho.sh Believer Plan]]"
     },
     "UBI For Scholars": {
         "2022-07-18": "- [[UBI For Scholars]]",

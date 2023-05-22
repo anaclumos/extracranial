@@ -85,6 +85,16 @@ const config: Config = {
       darkTheme: darkCodeTheme,
       additionalLanguages: ['java', 'swift'],
     },
+    footer: {
+      logo: {
+        alt: 'Meta Open Source Logo',
+        src: 'img/meta_oss_logo.png',
+        href: 'https://opensource.fb.com',
+        width: 160,
+        height: 51,
+      },
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+    },
     docs: {
       sidebar: {
         hideable: true,
