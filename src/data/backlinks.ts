@@ -4322,7 +4322,7 @@ export const backlinks = {
         "The Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 ..."
     },
     "Render.com": {
-        "2023-05-20": "... I want to check out [[Render.com]]. It feels something like [[Railway]], ..."
+        "2023-05-20": "... I want to check out [[Render.com]]. It feels like [[Railway]], but ..."
     },
     "Club Penguin": {
         "The Sudden Rise of Bondee": "... rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in ..."
@@ -4601,6 +4601,9 @@ export const backlinks = {
     "Person E7CFC5": {
         "2022-09-14": "  - [[Person E7CFC5]]",
         "Project PEOPLE": "- [[Person E7CFC5]]"
+    },
+    "hn.cho.sh Believer Plan": {
+        "2023-05-22": "- [[hn.cho.sh Believer Plan]]"
     },
     "UBI For Scholars": {
         "2022-07-18": "- [[UBI For Scholars]]",
@@ -7163,7 +7166,7 @@ export const backlinks = {
         "2023-02-21": "- [[Peter the Great]]"
     },
     "Railway": {
-        "2023-05-20": "... Render.com. It feels something like [[Railway]], but I will have to ..."
+        "2023-05-20": "... out Render.com. It feels like [[Railway]], but I must try it ..."
     },
     "MetroPunk": {
         "2023-04-30": "- [[MetroPunk]]",
