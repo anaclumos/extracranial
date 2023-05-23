@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "redirects": "cp _redirects build/_redirects",
-    "ship": "wrangler pages publish ./build --commit-dirty=true --project-name=memex",
+    "ship": "wrangler pages deploy ./build --commit-dirty=true --project-name=memex",
     "swizzle": "docusaurus swizzle",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear && rm -rf 'blog' && rm -rf 'docs' && rm -f '**/*.config.js' && rm -f '**/*.config.js.map' && rm -rf 'i18n /**/*.md' && cp tools/안녕하세요.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n /**/*.png' && rm -rf 'i18n /**/*.svg' && rm -rf 'i18n /**/*.jpg' && rm -rf 'i18n /**/*.jpeg'",
@@ -40,7 +40,7 @@
     "@giscus/react": "^2.2.8",
     "@mdx-js/react": "^1.6.22",
     "@swc/cli": "^0.1.62",
-    "@swc/core": "^1.3.58",
+    "@swc/core": "^1.3.59",
     "clsx": "^1.2.1",
     "cobe": "^0.6.3",
     "iframe-resizer-react": "^1.1.0",
@@ -55,19 +55,19 @@
     "swc-loader": "^0.2.3",
     "three": "^0.152.2",
     "ts-node": "^10.9.1",
-    "webpack": "^5.82.1"
+    "webpack": "^5.83.1"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230511.0",
+    "@cloudflare/workers-types": "^4.20230518.0",
     "@docusaurus/module-type-aliases": "^2.4.1",
     "@mixer/parallel-prettier": "^2.0.3",
     "@prettier/plugin-xml": "^2.2.0",
     "@tsconfig/docusaurus": "^1.0.7",
-    "@types/node": "^20.1.7",
-    "@typescript-eslint/eslint-plugin": "^5.59.6",
-    "@typescript-eslint/parser": "^5.59.6",
+    "@types/node": "^20.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.40.0",
+    "eslint": "^8.41.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-standard-with-typescript": "^34.0.1",
     "eslint-plugin-import": "^2.27.5",
@@ -78,7 +78,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4",
-    "wrangler": "2.20.0"
+    "wrangler": "3.0.1"
   },
   "browserslist": {
     "production": [
