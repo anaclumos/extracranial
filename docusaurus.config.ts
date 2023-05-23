@@ -88,7 +88,7 @@ const config: Config = {
     footer: {
       links: [
         {
-          title: '© ★, inc',
+          title: '© ★',
           items: [
             {
               label:
@@ -98,7 +98,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: '© ★, inc',
+      copyright: '© ★',
     },
     docs: {
       sidebar: {
