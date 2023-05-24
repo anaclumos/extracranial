@@ -10,7 +10,7 @@ slug: '/31A35D'
 ![[5CCDE2.png]]
 ![[1866C8.png]]
 
-### The "Length" dimension of [[Generative Intelligence]]s
+### The "Length" dimension of [[Generative Intelligence]]
 
 ![[A933EB.png]]
 
