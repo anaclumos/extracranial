@@ -1315,6 +1315,9 @@ export const backlinks = {
         "2023-02-09": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
+    "Believer Plan": {
+        "2023-05-22": "- [[Believer Plan]]"
+    },
     "Bloomberg Terminal": {
         "2023-03-06": "- [[Bloomberg Terminal]]"
     },
@@ -2012,7 +2015,7 @@ export const backlinks = {
         "Satori": "... Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "... is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris ...",
         "The Architecture of Mastodon": "... harder. Containerization, Kubernetes, and modern [[front-end]] stacks are challenging to work ...",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트]]엔드에는 리액트와 타입스크립트를 쓰고 있다. 하지만 ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 타입스크립트를 쓰고 있다. 하지만 ...",
         "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 ..."
     },
     "2022년 11월 한 달간 일기 쓰기": {
@@ -3388,9 +3391,6 @@ export const backlinks = {
     "0704 Binary Search": {
         "2022-09-05": "- [[0704 Binary Search]]",
         "Coding Tests": "- [x] [[0704 Binary Search]]"
-    },
-    "ST.AR Believer Plan": {
-        "2023-05-22": "- [[ST.AR Believer Plan]]"
     },
     "Jumpsite": {
         "2022-10-13": "- [x] [[Jumpsite]]",
@@ -4795,7 +4795,7 @@ export const backlinks = {
         "Reimagining Emails": "- Potential links to [[Generative Intelligence]]?",
         "Search in a Latent Space": "- Related to [[Generative Intelligence]]: Finding the exact text that ...",
         "Stephan Ango": "- Coined the term [[Generative Intelligence]]",
-        "Thesephist Work Case Study": "### The \"Length\" dimension of [[Generative Intelligence]]s"
+        "Thesephist Work Case Study": "### The \"Length\" dimension of [[Generative Intelligence]]"
     },
     "P2P": {
         "Internetworking": "- [[P2P]]"
@@ -5110,6 +5110,9 @@ export const backlinks = {
     },
     "Maserati Problem": {
         "2022-11-02": "- [[Maserati Problem]]"
+    },
+    "Grammarly Experimentation Platform Overview": {
+        "2023-05-24": "- [[Grammarly Experimentation Platform Overview]]"
     },
     "Lesser Known Trick": {
         "2022-10-21": "- [[Lesser Known Trick]]",
@@ -5598,6 +5601,9 @@ export const backlinks = {
         "UUIDs are Awesome": "... all records remain in the [[Git]] history, so we don't need ...",
         "Vercel": "... and deployments are handled through [[Git]] repositories. Vercel",
         "Visual Studio Code": "... snippets, code refactoring, and embedded [[Git]]. Users can change the theme, ..."
+    },
+    "Removing Last Login on Mac Terminal": {
+        "2023-05-24": "- [[Removing Last Login on Mac Terminal]]"
     },
     "Higher-Level Languages and Their Speeds": {
         "2022-11-09": "- [[Higher-Level Languages and Their Speeds]]"

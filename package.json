@@ -55,7 +55,7 @@
     "swc-loader": "^0.2.3",
     "three": "^0.152.2",
     "ts-node": "^10.9.1",
-    "webpack": "^5.83.1"
+    "webpack": "^5.84.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230518.0",
