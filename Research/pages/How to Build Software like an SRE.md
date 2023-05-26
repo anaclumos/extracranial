@@ -29,7 +29,7 @@ slug: '/C7113C'
   - prevents silent breakage
 - validate at the same time
 - instant deploy
-  - it may sound counterintuitive, but it buys us early time to disable a problematic feature flag
+  - it may sound counterintuitive, but it buys us early time to disable a problematic [[Feature Flag]]
 
 ## Operating
 
