@@ -47,7 +47,7 @@ See also: [[Real Exams]]
   - Involved in Game State Change, Constructing Adjacency List of Game States, and Pathfinding
   - Given a Game Board, find a list of moves from the start state to the end state
 
-### [Databricks](https://www.databricks.com/)
+### [[Databricks]]
 
 - 2 1-hour interview
   - 1 conceptual, technical design (data pipelines & tradeoffs)

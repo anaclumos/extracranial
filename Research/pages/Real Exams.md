@@ -61,7 +61,7 @@ slug: '/75CB18'
 - 1 binary tree construction & [[Binary Search]] traversal
 - 1 [[Simulations]]
 
-### CodeSignal ([HRT](https://www.hudsonrivertrading.com/), [Databricks](https://www.databricks.com/))
+### CodeSignal ([HRT](https://www.hudsonrivertrading.com/), [[Databricks]]
 
 - 2 [[Simulations]]s
 - 2 [[Optimized Simulations]]s

@@ -23,12 +23,12 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1614     42322    10971         0    31351          0
+Markdown                  1628     42597    11036         0    31561          0
 CSS                         70     20210      686        45    19479          0
-TypeScript                  62     13798      179        64    13555        196
+TypeScript                  62     13884      179        64    13641        196
 JSON                        15      1565        1         0     1564          0
 Python                       8       961       57        43      861        109
-YAML                         8     15010     1839         0    13171          0
+YAML                         8     16846     1838         0    15008          0
 SVG                          7        34        0         0       34          0
 Plain Text                   3       103       18         0       85          0
 TypeScript Typings           2        12        0         4        8          0
@@ -36,13 +36,13 @@ JavaScript                   1        19        3        12        4          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1792     94324    13823       237    80264        305
+Total                     1806     96521    13887       237    82397        305
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,699,865
-Estimated Schedule Effort (organic) 20.06 months
-Estimated People Required (organic) 11.96
+Estimated Cost to Develop (organic) $2,775,251
+Estimated Schedule Effort (organic) 20.27 months
+Estimated People Required (organic) 12.16
 ───────────────────────────────────────────────────────────────────────────────
-Processed 4350006 bytes, 4.350 megabytes (SI)
+Processed 4381893 bytes, 4.382 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
