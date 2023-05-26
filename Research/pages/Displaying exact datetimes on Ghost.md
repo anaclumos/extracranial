@@ -52,7 +52,7 @@ For months, use `MM` for short notations (like 09) and `MMMM` for more extended 
 </time>
 ```
 
-## Further Readings
+## Further [[Readings]]
 
 - [Handlebars Themes, API Reference on Ghost Docs](https://ghost.org/docs/api/v3/handlebars-themes/helpers/date/)
 - [Moment.js Docs](https://momentjs.com/docs/)

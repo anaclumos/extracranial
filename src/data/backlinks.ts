@@ -521,7 +521,8 @@ export const backlinks = {
         "2022-10-20": "- [[Tailscale]]"
     },
     "The Photo Library of Babel": {
-        "Proposal of Research 2023-01-10": "## 3. [[The Photo Library of Babel]]"
+        "Proposal of Research 2023-01-10": "## 3. [[The Photo Library of Babel]]",
+        "Proposal of Research 2023-03-28": "## [[The Photo Library of Babel]]: Exploring the Implications of Finite ..."
     },
     "Geohot Twitter Mayhem": {
         "Person 648442": "... — Twitter's Non-existent Search Engine: [[Geohot Twitter Mayhem]]"
@@ -535,7 +536,7 @@ export const backlinks = {
     },
     "Language": {
         "0232 Implement Queue using Stacks": "- Depending on your [[language]], the stack may not be ...",
-        "2022-06-12": "... standard defines an interface definition [[language]], Web IDL, that can be ...",
+        "2022-06-12": "... standard defines an interface definition [[language]], web IDL, that can be ...",
         "Across the Sprachraums": "... detachment of IP|Intellectual Property and [[Language]]."
     },
     "Swift": {
@@ -905,7 +906,8 @@ export const backlinks = {
         "Palantir Apollo": "> [[Palantir]] Apollo is the operating system ...",
         "Palantir Foundry": "> [[Palantir]] Foundry is an enterprise data ...",
         "Palantir Gotham": "> [[Palantir]] Gotham is an enterprise platform ...",
-        "Person 392196": "- [[Palantir]]"
+        "Person 392196": "- [[Palantir]]",
+        "Real Interviews": "### [[Palantir]]"
     },
     "Kubernetes": {
         "2022-07-14": "... I found: Uber didn't make [[Kubernetes]]. [[Google]] did.",
@@ -1584,6 +1586,8 @@ export const backlinks = {
     "Font Features": {
         "2022-08-01": "... realized that this enables Font [[Font Features|Ligature]] Settings.",
         "CalliFontia": "- 추출 전 여러가지 [[Font Features]]을 켜고 끄며 미리보기 대조 가능",
+        "Font Features": "... in the font file, using [[font features]] is the highest quality way ...",
+        "Proposal of Research 2023-03-28": "... handwriting fonts that consider dynamic [[font features]], such as variations in character ...",
         "Toss Product Sans": "- [[Font Features|폰트 피처]]를 일부 지원"
     },
     "Sandbox": {
@@ -1864,6 +1868,9 @@ export const backlinks = {
         "Project": "- [[Stable Alternative]]",
         "Proposal of Research 2023-01-10": "## 1. [[Stable Alternative]]"
     },
+    "Grammarly Work Note 2023-05-26": {
+        "2023-05-26": "[[Grammarly Work Note 2023-05-26]]"
+    },
     "Dioxus": {
         "2022-12-28": "- [[Dioxus]]"
     },
@@ -1934,7 +1941,7 @@ export const backlinks = {
         "Grammarly Work Note 2023-05-25": "- [[Interaction Effect]]: when two experiments affect each ..."
     },
     "Web Browser": {
-        "2022-06-12": "... intended to be implemented in [[Web Browser|web browsers]]. Web IDL is an IDL ...",
+        "2022-06-12": "... intended to be implemented in [[web Browser|web browsers]]. Web IDL is an IDL ...",
         "2022-07-01": "... GitHub users use fairly up-to-date [[Web Browser|browsers]].",
         "2022-10-20": "2.  This [[Web Browser|browser]] is forked by a couple ...",
         "2023-02-16": "... run server-side code in any [[Web Browser|browser]]",
@@ -2174,12 +2181,16 @@ export const backlinks = {
         "2022-11-07": "- [[Collecting Data]]"
     },
     "UIUX": {
+        "2022-11-30": "... at some build tools, but [[UIUX|UI]] components or other libraries usually ...",
         "2022-12-24": "### [[UIUX|UI]] Design Example By sulley (@svlleyy)",
+        "2023-02-02": "... Hermes uses Helios for its [[UIUX|UI]] components, which allows it to ...",
+        "2023-03-12": "... access to the ChatGPT web [[UIUX|UI]], but unless you are somehow ...",
         "Andy Matuschak": "- ex-Apple [[UIUX|UI]]-Kit developer",
         "Apple-like Block Interface": "[[UIUX]]",
         "ChatGPT": "... out to be a chat [[UIUX|UI]] that got people to start ...",
         "Confectionery": "... without the clutter of standard [[UIUX|UI]] elements. Focus on the beauty ...",
         "Diagram Labs": "- [[UIUX]]",
+        "Docusaurus": "... 더 자연스러운 표현일겁니다. 그래서 해당 [[UIUX|UI]] 번역도 아래와 같이 사용할 수 ...",
         "Downloading Any Recordings from Zoom": "... have reported. However, while this [[UIUX|UI]] does not expose the download ...",
         "Dynamic Viewport Units": "... is throttled as the UA [[UIUX|UI]] expands or retracts. Some Web ...",
         "Magician": "- an [[UIUX]] experiment.",
@@ -2187,16 +2198,20 @@ export const backlinks = {
         "Modern MacPaint": "- an [[UIUX]] experiment.",
         "Mr. Doob": "- an [[UIUX]] experiment.",
         "Person 1E6ABA": "... of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media ...",
+        "Proposal of Research 2023-01-10": "... time-consuming tasks without blocking the [[UIUX|UI]], which can lead to a ...",
         "Rauno": "## Miscellany related to [[UIUX|UI]]",
         "React": "... building user interfaces based on [[UIUX|UI]] components. It is maintained by ...",
         "React Native": "... React Native is an open-source [[UIUX|UI]] software framework created by Meta ...",
         "Simulated Annealing for Designs": "... shadows, and textures in our [[UIUX|UI]] designs. And now we are ...",
         "Svelte": "... automatically recompute data and re-render [[UIUX|UI]] elements when the data they ...",
+        "Tailwind": "... a 1-to-1 match with the [[UIUX|UI]]. I can easily navigate through ...",
         "The Sudden Rise of Bondee": "... the Townhall. Sometimes, a single [[UIUX]] makes a huge difference.",
         "Toss Product Sans": "... 쉼표, 더하기, 빼기, 화살표 등 [[UIUX|UI]] 요소로 활용되는 기호들의 가독성을 높여, ...",
         "UI AI": "- an [[UIUX]] experiment.",
+        "Virtual DOM": "... the end being declarative, state-driven [[UIUX|UI]] development. Virtual DOM is valuable ...",
         "날씨 요정": "[[UIUX]]",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "## Q. Front-end|프론트엔드 개발자가 [[UIUX|UI]]나 [[UIUX|UX]]에 대한 아이디어가 있다면 이를 ...",
+        "빙글": "## [[UIUX|UI]]의 변경",
         "혜성처럼 나타난 본디": "... 찍어서 주고 받았다. 가끔 하나의 [[UIUX]]가 큰 차이를 만든다."
     },
     "0235 LCA of a Binary Search Tree": {
@@ -2257,7 +2272,12 @@ export const backlinks = {
         "2023-02-21": "- [[Readings]]",
         "2023-03-08": "- [[Readings]]",
         "2023-04-24": "- [[Readings]]",
+        "Building a Second Brain": "... it into Projects, Research, and [[Readings]].",
+        "Displaying exact datetimes on Ghost": "## Further [[Readings]]",
+        "Opening external links in a new tab by default on Ghost": "## Additional [[Readings]]",
         "Playings": "... from Mar 2023. Just like [[Readings]] and [[Watchings]].",
+        "Sending Notifications on Chrome Extension": "## Additional [[Readings]]",
+        "Storing sensitive data in iOS Apps": "## Advanced [[Readings]]",
         "Watchings": "... from Feb 2023. Just like [[Readings]]"
     },
     "Engine": {
@@ -4283,7 +4303,7 @@ export const backlinks = {
         "Seed": "... outdated 128-bit security system of [[대한민국|Korea]]",
         "Separation of Computer Scientists and Computer Technologists": "... rappers to classical oboists, from [[대한민국|Korean]] idols to shamanist drummers.",
         "Service Shimming": "- Naver (≈ [[대한민국|Korean]] Google), for a while, failed ...",
-        "Setting different fonts by language in CSS": "I recently came across a [[대한민국|Korean]] font called Spoqa Han Sans. ...",
+        "Setting different fonts by language in CSS": "I recently came across a [[대한민국|Korean]] [[font]] called Spoqa Han Sans. ...",
         "The Sudden Rise of Bondee": "... social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking ...",
         "Toss": "- Financial Technology|FinTech Unicorn of [[대한민국|Korea]].",
         "Using an iPad as my Ebook": "... vendors. I also read many [[대한민국|Korean]] books, and the Kindle store ...",
@@ -5022,6 +5042,7 @@ export const backlinks = {
         "Heap (Computer Systems)": "On the other hand, [[Java]], Python, or other higher-level languages ...",
         "How is WebAssembly cross-platform when Assembly is not": "... WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the ...",
         "IntelliJ": "... development environment (IDE) written in [[Java]] for developing computer software written ...",
+        "Render.com": "... Ruby, PHP, Python, Node, and [[Java]].",
         "Write Once Run Everywhere": "... the cross-platform benefits of the [[Java]] language. Ideally, a Java program ...",
         "하늘땅사람 개발 기록": "... 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
@@ -5315,8 +5336,10 @@ export const backlinks = {
         "Buttondown": "... for you to write great [[Mail|emails]]; the [[automation]] acts like the ...",
         "CELLO (Product)": "... Let's go agile, mainly with [[Mail|emails]]",
         "Canary Trap": "... what appeared to be identical [[Mail|emails]] to all, but each was ...",
+        "Common App for Resume": "2. Send updates via [[Mail|email]]",
         "Emails and Decentralized Protocols": "- [[Mail|Email]] is now an oligopoly, a ...",
         "Krafton Way": "... 서비스 등 여러 조건을 통째로 [[Mail|메일]]에 포함해 경영진에게 전달했다. 짐짓 점잖은 ...",
+        "Letter to Modos team on 2023-03-16": "## A Love [[Mail|Letter]] to Modos: The E-Ink Laptop ...",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Mail|Letter]] to Mr. [[Alexander Obenauer]] on ...",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "- [[Mail|Letter]] to Mr. Gustav Ekerot on ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "- [[Mail|Letter]] to Mr. Matt Rickard on ...",
@@ -5341,6 +5364,7 @@ export const backlinks = {
         "SMTP": "- MIME: Multipurpose Internet [[Mail]] Extensions",
         "Safari": "... on social media or via [[Mail|email]], and a built-in password manager ...",
         "Search AI": "... ideas, translate, summarize text, compose [[Mail|emails]], and write code for you. ...",
+        "Self-hosted SaaS Alternatives": "### Self-hosted [[Mail|Email]] newsletter platforms",
         "SendGrid": "... platform for transactional and marketing [[Mail|email]]. The company was founded by ...",
         "YCLF 주간 사용자 1000명": "GitHub 이슈를 남겨준 분들도 계셨고 [[Mail|메일]]을 보내주신 분들도 계셨다. 유용한 피드백을 ...",
         "뉴턴의 서신": "아이작 뉴턴은 [[Mail|편지]]을 통해 동료들과 소통했다.",
@@ -6434,7 +6458,8 @@ export const backlinks = {
         "2022-10-18": "- [[Nuclear Fission]]"
     },
     "원숭이와 꽃신": {
-        "2022-08-10": "- [[원숭이와 꽃신]]"
+        "2022-08-10": "- [[원숭이와 꽃신]]",
+        "AI는 고가 노동부터 점령한다": "## [[원숭이와 꽃신]]"
     },
     "Universal Identity": {
         "2022-10-27": "- [[Universal Identity]]",
@@ -6561,17 +6586,23 @@ export const backlinks = {
         "Project PEOPLE": "- [[Person A3BA1A]]"
     },
     "Font": {
+        "2022-08-01": "... Just realized that this enables [[Font]] [[Font Features|Ligature]] Settings.",
         "Akzidenz": "- A type of Grotesque [[font]].",
+        "Almost Monospaced": "... the readability of a proportional [[font]] with the rough draft feel ...",
+        "Apple Newsroom 서체 따라하기": "... may not make the Apple [[Font]] available over a network where ...",
         "CalliFontia": "... Project. Apple Pencil Handwriting → [[Font]].",
-        "Font Features": "... to enhance legibilities of a [[Font]].",
+        "Font Features": "... effects as designed by the [[font]] author. A font may support ...",
         "Grotesque": "... are usually horizontal, and the [[Font|typeface]] frequently has a spurred \"G\" ...",
         "Inter": "- [[Font]] by rsms",
         "Pretendard": "- [[Font]] by orioncactus (Kil Hyung-jin)",
         "Pretendard의 아쉬운 점": "## [[Font]] Family의 Font Weight 매칭 문제",
+        "Proposal of Research 2023-03-28": "## Dynamic [[Font]] Generation with [[Generative AI]]: Replicating ...",
         "San Francisco": "- [[Font]] by [[Apple]]",
         "Satori": "- [[Font]] and [[Emoji]] Subsets from [[Google]] ...",
         "Satoshi": "- A type of Grotesque [[font]]",
+        "Setting different fonts by language in CSS": "... recently came across a 대한민국|Korean [[font]] called Spoqa Han Sans. It ...",
         "Stories Behind Satori": "They also added Google [[Font]]'s `?text=` API, containing a specific ...",
+        "Text Graphics": "... ASCII art require a fixed-width [[font]] (non-proportional fonts, as on a ...",
         "Toss Product Sans": "- Toss의 [[Font|글꼴]]",
         "Tossface": "- Emoji [[Font]] by [[Toss]]",
         "Web Typography": "... When HTML was first created, [[font]] faces and styles were controlled ..."
@@ -6792,7 +6823,9 @@ export const backlinks = {
     },
     "Amie": {
         "2023-01-30": "- Also got invited to [[Amie]].",
-        "Apple-like Block Interface": "## [[Amie]]"
+        "Apple-like Block Interface": "## [[Amie]]",
+        "The Era of Invites": "Not only [[Amie]], people asked me if I ...",
+        "초대장의 시대": "[[Amie]] 뿐만 아니라 Texts, Tana, [[Artifact]]까지 ..."
     },
     "Binary Search": {
         "0001 Two Sum": "  - Perform [[binary search]] $O(\\log n)$",
@@ -7493,7 +7526,7 @@ export const backlinks = {
         "Personal Training Corpus": "... a fictional interview by having [[AI]] learn about thousands of Joe ...",
         "Project Heimdall": "... would hn.cho.sh lead us? An [[AI]]-powered news portal? Reference: [[일일일]], [[News ...",
         "Proposal of Research 2023-01-10": "... we now have the infinite [[AI]] monkey making infinite keystrokes). Will ...",
-        "Proposal of Research 2023-03-28": "... natural-looking handwriting fonts. However, current [[AI]] font generation methods often overlook ...",
+        "Proposal of Research 2023-03-28": "... natural-looking handwriting fonts. However, current [[AI]] [[font]] generation methods often overlook ...",
         "Quoridor Game": "... \"Quoridor\" game and its corresponding [[AI]] system.",
         "Replicating Balenciaga Harry Potter Advertisement": "- Utilized various [[AI]] tools for character design, voice ...",
         "Search AI": "... name is YouChat; I'm an [[AI]] that can answer general questions, ...",
@@ -8622,8 +8655,26 @@ export const backlinks = {
     "EF6FE0.gif": {
         "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
     },
+    "Firefox                                                                            ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 5년 된 디펜더 버그 수정으로 [[Firefox                                                                            | 파이어폭스]] 관련 CPU 사용량 75% 감소 ..."
+    },
+    "Firefox                                                                   ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 마이크로소프트, 5년전 디펜더 버그 수정으로 [[Firefox                                                                   | 파이어폭스]] CPU 사용량 75% 감소  ..."
+    },
+    "Firefox                                                                         ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 5년 된 디펜더 버그를 수정하여 [[Firefox                                                                         | 파이어폭스]] CPU 사용량을 줄였습니다.   ..."
+    },
+    "Firefox                                                         ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 5년전 버그를 수정하여 디펜더를 통해 [[Firefox                                                         | 파이어폭스]]의 CPU 사용량을 줄였습니다. |"
+    },
     "Web Browser                                                                                                              ": {
         "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... users discuss energy efficiency of [[Web Browser                                                                                                              | web browsers]], ad-blockers, browser compatibility on Windows. ..."
+    },
+    "Firefox                                                                                                                 ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "...    | 맥에서 [[Firefox                                                                                                                 | 파이어폭스]]에서 유튜브의 \"앰비언트 모드\"를 끄면 CPU ..."
+    },
+    "Firefox                                                                                                        ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "...   | 크롬과 비교하여 [[Firefox                                                                                                        | 파이어폭스]]의 높은 CPU 사용량에 대한 비판과 ..."
     },
     "21D071.png": {
         "The Sudden Rise of Bondee": "![[21D071.png]]",

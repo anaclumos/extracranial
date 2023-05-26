@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/9E7D2B'
 ---
 
-## A Love Letter to Modos: The E-Ink Laptop Revolutionizing Focus
+## A Love [[Mail|Letter]] to Modos: The E-Ink Laptop Revolutionizing Focus
 
 Dear Modos Team,
 

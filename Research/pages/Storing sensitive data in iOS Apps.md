@@ -52,6 +52,6 @@ slug: '/30CC03'
 - I am unsure if I can store data in Keychain without exposing it to the end-user or application (`.ipa`) file.
 - [Apple Docs](https://developer.apple.com/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_keychain)
 
-## Advanced Readings
+## Advanced [[Readings]]
 
 - [Secret Management on iOS](https://nshipster.com/secrets/)
