@@ -49,7 +49,7 @@ Generally, you would need an event listener for each notification. However, ther
 
 The trick is to store the link in `notificationId` field and attach an event listener to the notifications. This way, you can only use one event listener to open multiple types of links.
 
-## Additional Readings
+## Additional [[Readings]]
 
 - [`chrome.notifications` section on Google Chrome Developer Docs](https://developer.chrome.com/extensions/notifications)
 - [Open URLs in Chrome Notifications on Stack Overflow](https://stackoverflow.com/questions/25956441/open-urls-in-chrome-notifications/25958876)

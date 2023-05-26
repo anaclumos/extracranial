@@ -7,7 +7,7 @@ A few days ago, I found people were sharing a website listing the apps they pinn
 
 ![[1A746C.png]]
 
-Not only [Amie](https://amie.so/), people asked me if I had any invites for [Texts](https://texts.com/), [Tana](https://tana.inc/), [[Artifact]], and so on. But things did not work this way before — we had an internal alpha phase, then a closed beta as a secretive survey, or an open beta, where I could simply sign up and enjoy the testing. Now an invitation comes in as a somewhat closed-but-open beta. So that leaves us with a question:
+Not only [[Amie]], people asked me if I had any invites for [Texts](https://texts.com/), [Tana](https://tana.inc/), [[Artifact]], and so on. But things did not work this way before — we had an internal alpha phase, then a closed beta as a secretive survey, or an open beta, where I could simply sign up and enjoy the testing. Now an invitation comes in as a somewhat closed-but-open beta. So that leaves us with a question:
 
 > Why are all successful startup companies use invitations now?
 

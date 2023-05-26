@@ -11,7 +11,7 @@ slug: '/3A9FCD'
 
 - [jhaemin/Interop: The Interop font family](https://github.com/jhaemin/Interop)
 
-## [[Font]] Family의 Font Weight 매칭 문제
+## [[Font]] Family의 [[Font]] Weight 매칭 문제
 
 ![[BD6DAB.png]]
 

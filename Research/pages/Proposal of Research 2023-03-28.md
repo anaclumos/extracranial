@@ -38,40 +38,40 @@ Recent studies have shown that [[LLM|LLMs]] can be susceptible to PI attacks, wh
 
 This research will contribute to understanding PI attacks and their potential consequences in the context of [[LLM|LLMs]]. Furthermore, it will help develop an authority system for Generative Text AIs and propose mitigation techniques that can be employed to enhance the security and privacy of users as [[LLM|LLMs]] are integrated into more applications and systems.
 
-## Dynamic Font Generation with [[Generative AI]]: Replicating Handwriting Fonts and Their Natural Flow
+## Dynamic [[Font]] Generation with [[Generative AI]]: Replicating Handwriting Fonts and Their Natural Flow
 
 ### Abstract
 
-The advent of [[Generative AI|Generative AIs]] presents new opportunities for font generation, specifically in replicating handwriting fonts and their dynamic features. Unfortunately, traditional font-generating services have been limited in capturing the natural flow of handwritten text, resulting in less realistic and less aesthetically pleasing fonts. This study explores the implementation of [[Generative AI]] in creating handwriting fonts that consider dynamic font features, such as variations in character appearance based on their position within a word.
+The advent of [[Generative AI|Generative AIs]] presents new opportunities for [[font]] generation, specifically in replicating handwriting fonts and their dynamic features. Unfortunately, traditional [[font]]-generating services have been limited in capturing the natural flow of handwritten text, resulting in less realistic and less aesthetically pleasing fonts. This study explores the implementation of [[Generative AI]] in creating handwriting fonts that consider dynamic [[font features]], such as variations in character appearance based on their position within a word.
 
 ### Background
 
-Dynamic font features are crucial in creating high-quality, natural-looking handwriting fonts. However, current [[AI]] font generation methods often overlook these features, focusing primarily on static character styles. By leveraging the capabilities of [[Generative AI]], we can create more realistic, adaptable fonts that better represent natural handwriting.
+Dynamic [[font features]] are crucial in creating high-quality, natural-looking handwriting fonts. However, current [[AI]] [[font]] generation methods often overlook these features, focusing primarily on static character styles. By leveraging the capabilities of [[Generative AI]], we can create more realistic, adaptable fonts that better represent natural handwriting.
 
 ### Research Questions
 
-- How can [[Generative AI]] create handwriting fonts that incorporate dynamic font features?
+- How can [[Generative AI]] create handwriting fonts that incorporate dynamic [[font features]]?
 - What are the key considerations in designing a [[Generative AI]] model that captures the natural flow of handwritten text?
-- How do dynamic font-generation techniques compare to traditional font-generating services regarding quality and versatility?
+- How do dynamic [[font]]-generation techniques compare to traditional [[font]]-generating services regarding quality and versatility?
 
 ### Methodology
 
-- Literature review: Conduct a comprehensive review of research on [[Generative AI]], font generation, and dynamic font features.
+- Literature review: Conduct a comprehensive review of research on [[Generative AI]], [[font]] generation, and dynamic [[font features]].
 - Dataset creation: Compile a dataset of handwriting samples that exhibit variations in character appearance based on their position within a word.
-- Model development: Design and train a [[Generative AI]] model that considers dynamic font features and learns from the dataset of handwriting samples.
-- Evaluation: Assess the quality and versatility of the generated fonts by comparing them to traditional font-generating services and high-quality fonts produced by professional font studios.
-- Case studies: Explore potential applications of dynamic font generation in various domains, such as graphic design, marketing, and personalized communication.
+- Model development: Design and train a [[Generative AI]] model that considers dynamic [[font features]] and learns from the dataset of handwriting samples.
+- Evaluation: Assess the quality and versatility of the generated fonts by comparing them to traditional [[font]]-generating services and high-quality fonts produced by professional [[font]] studios.
+- Case studies: Explore potential applications of dynamic [[font]] generation in various domains, such as graphic design, marketing, and personalized communication.
 
 ### Expected Outcomes
 
-- A [[Generative AI]] model capable of creating handwriting fonts that consider dynamic font features and replicate the natural flow of handwritten text.
-- A comprehensive understanding of the critical considerations in designing a [[Generative AI]] model for dynamic font generation.
-- A comparison of dynamic font generation techniques and traditional font generating services in terms of quality and versatility.
-- Case studies showcasing the potential applications of dynamic font generation in various domains.
+- A [[Generative AI]] model capable of creating handwriting fonts that consider dynamic [[font features]] and replicate the natural flow of handwritten text.
+- A comprehensive understanding of the critical considerations in designing a [[Generative AI]] model for dynamic [[font]] generation.
+- A comparison of dynamic [[font]] generation techniques and traditional [[font]] generating services in terms of quality and versatility.
+- Case studies showcasing the potential applications of dynamic [[font]] generation in various domains.
 
 ### Significance
 
-This research will contribute to developing more realistic and versatile handwriting fonts by leveraging [[Generative AI]] and considering dynamic font features. The resulting fonts will better represent the natural flow of handwritten text and offer more aesthetically pleasing options for designers and content creators. This exploration has the potential to transform the field of font generation and expand the applications of [[Generative AI]] in graphic design and personalized communication.
+This research will contribute to developing more realistic and versatile handwriting fonts by leveraging [[Generative AI]] and considering dynamic [[font features]]. The resulting fonts will better represent the natural flow of handwritten text and offer more aesthetically pleasing options for designers and content creators. This exploration has the potential to transform the field of [[font]] generation and expand the applications of [[Generative AI]] in graphic design and personalized communication.
 
 ## Enhancing Web Accessibility: Utilizing [[Generative AI]] to Generate Descriptive Alt Text for Images Automatically
 
@@ -143,7 +143,7 @@ The current iframe technology poses performance and security issues due to its s
 
 This research will contribute to developing [[iiframe]], an improved iframe version to address performance and security limitations. By offering secure, high-performance multi-threading for web applications, [[iiframe]] will revolutionize web development practices and enable the creation of more responsive, interactive, and immersive web applications. This will ultimately lead to a better user experience and pave the way for new possibilities in the internet-computer era.
 
-## The Photo Library of Babel: Exploring the Implications of Finite Pixel Combinations on Human Creativity and [[Generative AI|Generative AIs]]
+## [[The Photo Library of Babel]]: Exploring the Implications of Finite Pixel Combinations on Human Creativity and [[Generative AI|Generative AIs]]
 
 ### Abstract
 
@@ -156,23 +156,23 @@ The infinite monkey theorem and the concept of "The Library of Babel" have becom
 ### Research Questions
 
 - Can we create an "efficiently finite" [[Cartography|map]] of all possible pixel combinations, forming a Photo Library of Babel?
-- What are the implications of the Photo Library of Babel for human creativity and [[Generative AI]]?
-- How does the finite nature of the Photo Library of Babel influence the search for specific information or images, and what does this mean for the proverb "A Needle in a Haystack"?
+- What are the implications of [[the Photo Library of Babel]] for human creativity and [[Generative AI]]?
+- How does the finite nature of [[the Photo Library of Babel]] influence the search for specific information or images, and what does this mean for the proverb "A Needle in a Haystack"?
 
 ### Methodology
 
 - Literature review: Conduct a comprehensive review of existing research on "The Library of Babel", the infinite monkey theorem, and [[generative AI]] technologies.
-- Develop a theoretical model: Create a theoretical model of the Photo Library of Babel that encompasses all possible pixel combinations and their efficient representation.
-- Analyze implications: Investigate the philosophical and practical implications of the Photo Library of Babel for human creativity and [[Generative AI]], and explore the relationship between finite possibilities and the search for specific information.
-- Case studies: Develop case studies demonstrating the potential applications and consequences of the Photo Library of Babel in various domains, such as art, design, and technology.
+- Develop a theoretical model: Create a theoretical model of [[the Photo Library of Babel]] that encompasses all possible pixel combinations and their efficient representation.
+- Analyze implications: Investigate the philosophical and practical implications of [[the Photo Library of Babel]] for human creativity and [[Generative AI]], and explore the relationship between finite possibilities and the search for specific information.
+- Case studies: Develop case studies demonstrating the potential applications and consequences of [[the Photo Library of Babel]] in various domains, such as art, design, and technology.
 
 ### Expected Outcomes
 
-- A theoretical model of the Photo Library of Babel, representing all possible pixel combinations in an efficiently finite manner.
-- A comprehensive understanding of the implications of the Photo Library of Babel on human creativity and [[Generative AI]].
+- A theoretical model of [[the Photo Library of Babel]], representing all possible pixel combinations in an efficiently finite manner.
+- A comprehensive understanding of the implications of [[the Photo Library of Babel]] on human creativity and [[Generative AI]].
 - Insights into the relationship between finite possibilities and searching for specific information, challenging the infinite monkey theorem.
-- Case studies showcasing the potential applications and consequences of the Photo Library of Babel in various domains.
+- Case studies showcasing the potential applications and consequences of [[the Photo Library of Babel]] in various domains.
 
 ### Significance
 
-This research will contribute to understanding the relationship between human creativity, [[generative AI]], and finite possibilities, as illustrated by the Photo Library of Babel concept. By examining the implications of a limited [[Cartography|map]] of all possible pixel combinations, we can gain insights into the future of creation and the role of [[AI]] in generating information. This exploration has the potential to transform our understanding of creativity, knowledge discovery, and the impact of [[AI]] on various domains.
+This research will contribute to understanding the relationship between human creativity, [[generative AI]], and finite possibilities, as illustrated by [[the Photo Library of Babel]] concept. By examining the implications of a limited [[Cartography|map]] of all possible pixel combinations, we can gain insights into the future of creation and the role of [[AI]] in generating information. This exploration has the potential to transform our understanding of creativity, knowledge discovery, and the impact of [[AI]] on various domains.
