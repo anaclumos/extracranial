@@ -44,6 +44,9 @@ export const backlinks = {
     "2020-02-17": {
         "프로젝트 어덕행덕": "- [[2020-02-17]]"
     },
+    "2023-05-25": {
+        "hn.cho.sh 개발 기록": "## [[2023-05-25]]"
+    },
     "2023-05-11": {
         "Project FFMpeg for iPad": "## [[2023-05-11]]",
         "Project Heimdall": "## [[2023-05-11]]"
@@ -657,6 +660,9 @@ export const backlinks = {
         "2022-09-25": "- [[0110 Balanced Binary Tree]]",
         "Coding Tests": "- [x] [[0110 Balanced Binary Tree]]"
     },
+    "Grammarly Work Note": {
+        "Grammarly Work Note 2023-05-25": "[[Grammarly Work Note]]"
+    },
     "Cloudflare Pages": {
         "2023-01-27": "... had to migrate Extracranial to [[Cloudflare Pages]] for [[Vercel]] for now...",
         "2023-02-02": "- [[Cloudflare Pages]]",
@@ -797,6 +803,9 @@ export const backlinks = {
     },
     "Channel.io": {
         "LavaLab Cohort of Spring 2023": "... with technical details — like [[Channel.io]] level easy."
+    },
+    "JavaScript heap out of memory": {
+        "2023-05-24": "- [[JavaScript heap out of memory]]"
     },
     "창의는 평온에서 나온다": {
         "2023-04-05": "[[창의는 평온에서 나온다]]"
@@ -1110,6 +1119,9 @@ export const backlinks = {
         "Uniform Distributions (Discrete)": "In [[Probability]],",
         "XUID": "... the next 100 years, the [[probability]] of creating just one duplicate ..."
     },
+    "Vanity Metrics": {
+        "Grammarly Work Note 2023-05-25": "... we should be careful about [[Vanity Metrics]]"
+    },
     "Letter to Mr. Matt Rickard on 2022-12-24": {
         "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]",
         "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-24]]",
@@ -1214,6 +1226,9 @@ export const backlinks = {
     },
     "Blind Illness": {
         "2022-11-30": "- [[Blind Illness]]"
+    },
+    "Mermaid.js": {
+        "2023-05-25": "- [[Mermaid.js]]"
     },
     "Docusaurus": {
         "2022-10-17": "> Thanks! I want [[Docusaurus]] to have this feature built-in ...",
@@ -1775,6 +1790,10 @@ export const backlinks = {
         "2022-10-04": "- [[Markdown Email Client]]",
         "Reimagining Emails": "- [[Markdown Email Client]]"
     },
+    "E2E testing": {
+        "Grammarly Work Note 2023-05-25": "- [[E2E testing]] should be something we must ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 이유로 못하는 팀도 있다. 물론 [[E2E testing|e2e 테스트]]는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 ..."
+    },
     "Harry Stebbings": {
         "2023-03-03": "- [[Harry Stebbings]]",
         "On National Crises and the Intellectuals — Focused on GB and KR": "## Dear [[Harry Stebbings|Mr. Stebbings]],",
@@ -1910,6 +1929,9 @@ export const backlinks = {
     "SVG": {
         "CSS": "... (including XML dialects such as [[SVG]], MathML, or XHTML). CSS is ...",
         "Stories Behind Satori": "- [[SVG]]-based solutions were the perfect balance ..."
+    },
+    "Interaction Effect": {
+        "Grammarly Work Note 2023-05-25": "- [[Interaction Effect]]: when two experiments affect each ..."
     },
     "Web Browser": {
         "2022-06-12": "... intended to be implemented in [[Web Browser|web browsers]]. Web IDL is an IDL ...",
@@ -2790,6 +2812,18 @@ export const backlinks = {
         "2023-03-31": "- [[ChatGPT는 흐릿한 이미지이지만 필요합니다]]",
         "The Newtonian Correspondence": "... We Need That <br/> `KO` [[ChatGPT는 흐릿한 이미지이지만 필요합니다]] | Tweet <br/> Linkedin  ..."
     },
+    "Work Note": {
+        "2022-05-27": "## [[Work Note|Work Notes]]",
+        "2022-06-07": "## [[Work Note|Work Notes]]",
+        "2022-06-12": "## [[Work Note|Work Notes]]",
+        "2022-06-14": "## Brane [[Work Note]]",
+        "2022-06-27": "## [[Work Note|Work Notes]]",
+        "2022-07-05": "## [[Work Note|Work Notes]]",
+        "2022-07-06": "## [[Work Note|Work Notes]]",
+        "2022-07-10": "## [[Work Note|Work Notes]]",
+        "2022-07-12": "## [[Work Note|Work Notes]]",
+        "2023-05-25": "- [[Work Note]]"
+    },
     "Project FFMpeg for iPad": {
         "2022-10-20": "- [[Project FFMpeg for iPad]]",
         "2023-05-09": "- [[Project FFMpeg for iPad]]",
@@ -3157,6 +3191,7 @@ export const backlinks = {
         "Chopstick Game": "Someday [[Project]]. Digital implementation of the chopstick ...",
         "ChromeOS Packer": "- Someday [[Project]]",
         "Coding Tests": "- [[Project]]",
+        "Confession in Slack": "Someday [[Project]] idea",
         "Cube": "Someday [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 ...",
         "Developing Review Notes for Obsidian": "... 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
         "Digital Bookmarks for Physical Books": "Someday [[Project]]. Can we bookmark physical books ...",
@@ -3227,7 +3262,7 @@ export const backlinks = {
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 수는 없다. 최근 알게 된 [[Project|프로젝트]] 중 라즈베리 파이로 스마트 오디오 ...",
         "미래는 결국 미성숙한 우리가 만들어낸다": "... 자원을 과소평가하는 경향을 말한다. 사람들이 [[Project|프로젝트]]를 제시간에 또는 예산 범위 내에서 ...",
         "민사고": "... 여름학기 아두이노 → 3학년 졸업 [[Project|프로젝트]])을 따라가며 기본기를 쌓았고 앞서 언급한 ...",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "... e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... testing|e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, ...",
         "사발통문": "Someday [[Project]]",
         "사회과부도": "Someday [[Project]]. 마음대로 변형을 가할 수 있는 ...",
         "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
@@ -3633,6 +3668,12 @@ export const backlinks = {
         "PKM": "... Focuses on creating and tending [[Evergreen notes]] posts that grow into a ...",
         "Transient Notes": "- Antonym: [[Evergreen notes]]"
     },
+    "Databricks": {
+        "Grammarly Work Note 2023-05-25": "... move away from GNAR to [[Databricks]].",
+        "Project Prepare for Grammarly": "- [[Databricks]]",
+        "Real Exams": "### CodeSignal (HRT, [[Databricks]]",
+        "Real Interviews": "### [[Databricks]]"
+    },
     "Product Skills": {
         "2023-03-20": "- [[Product Skills]]"
     },
@@ -3690,6 +3731,9 @@ export const backlinks = {
         "Watchings": "## [[Done]]",
         "lovearc.net": "A small [[done]] project I've done over the ...",
         "하늘땅사람": "... 수 있도록 키보드를 제작하는 Project|프로젝트. [[Done]]."
+    },
+    "Confession in Slack": {
+        "2023-05-24": "- [[Confession in Slack]]"
     },
     "Bluesky": {
         "After Steve": "... The school called it the \"[[Bluesky|blue sky]]\" project, a name that encouraged ..."
@@ -3755,6 +3799,10 @@ export const backlinks = {
     "Tesla Release Models": {
         "2022-09-06": "- [[Tesla Release Models]]"
     },
+    "p-value Hacking": {
+        "2023-05-25": "- [[p-value Hacking]]",
+        "Grammarly Work Note 2023-05-25": "- [[p-value hacking]]"
+    },
     "Nudge": {
         "LavaLab Cohort of Spring 2023": "[[Nudge]]?",
         "hn.cho.sh 개발 기록": "- 그냥 인터페이스 다 없애고 [[nudge]]처럼 100% 문자 기반?"
@@ -3818,6 +3866,11 @@ export const backlinks = {
         "glTF": "... the Khronos Group; it supports [[3D]] model geometry, appearance, scene graph ...",
         "젠리의 성공 공식": "... 코로나 집콕 챌린지부터 2022년 대규모 [[3D]] 지도 업데이트까지 미래를 준비했지만 최근 ...",
         "혜성처럼 나타난 본디": "[[3D]] 캐릭터를 만들 수 있고 자신의 ..."
+    },
+    "Feature Flag": {
+        "Grammarly Work Note 2023-05-25": "- [[Feature Flag]]",
+        "How to Build Software like an SRE": "... time to disable a problematic [[Feature Flag]]",
+        "Inspiring Open Source Projects": "... open source feature toggle service. ([[Feature Flag]])"
     },
     "JavaScript": {
         "2022-06-12": "... a technique in which client-side [[JavaScript]] converts a static [[HTML]] web ...",
@@ -4011,7 +4064,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0141 Linked List Cycle]]"
     },
     "Brane": {
-        "2022-06-14": "## [[Brane]]",
+        "2022-06-14": "## [[Brane]] [[Work Note]]",
         "2022-06-22": "## [[Brane]] [[Project]] Demo Spec",
         "2022-06-26": "## [[Brane]] Notes",
         "2022-07-05": "... never been done before, i.e., [[Brane]]",
@@ -4325,7 +4378,8 @@ export const backlinks = {
         "The Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 ..."
     },
     "Render.com": {
-        "2023-05-20": "... I want to check out [[Render.com]]. It feels like [[Railway]], but ..."
+        "2023-05-20": "... I want to check out [[Render.com]]. It feels like [[Railway]], but ...",
+        "2023-05-24": "- [[Render.com]]"
     },
     "Club Penguin": {
         "The Sudden Rise of Bondee": "... rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in ..."
@@ -5111,9 +5165,6 @@ export const backlinks = {
     "Maserati Problem": {
         "2022-11-02": "- [[Maserati Problem]]"
     },
-    "Grammarly Experimentation Platform Overview": {
-        "2023-05-24": "- [[Grammarly Experimentation Platform Overview]]"
-    },
     "Lesser Known Trick": {
         "2022-10-21": "- [[Lesser Known Trick]]",
         "2022-11-30": "- [[Lesser Known Trick]]: [[Sudo with Touch ID]]",
@@ -5170,6 +5221,7 @@ export const backlinks = {
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
         "Grammarly AI-NLP Club": "... Natural Language Processing|NLP Club at [[Grammarly]].",
+        "Grammarly Work Note": "... notes during my work at [[Grammarly]].",
         "GrammarlyGO": "... of generative AI capabilities from [[Grammarly]]. It considers your context, preferences, ...",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
         "Project Prepare for Grammarly": "Project to prepare for my [[Grammarly]] Data Engineering team employment.",
@@ -5597,6 +5649,7 @@ export const backlinks = {
     "Git": {
         "2022-11-28": "- [[Git]]: Git Notes: git's coolest, most ...",
         "How to Build Software like an SRE": "- use [[Git]]",
+        "Make Git Case Sensitive": "Make [[Git]] Case Sensitive",
         "Techs Actually Simple": "- Yet [[Git]]'s object model is pretty simple ...",
         "UUIDs are Awesome": "... all records remain in the [[Git]] history, so we don't need ...",
         "Vercel": "... and deployments are handled through [[Git]] repositories. Vercel",
@@ -5685,6 +5738,7 @@ export const backlinks = {
         "2023-04-20": "[[hn.cho.sh 개발 기록]]",
         "2023-04-21": "- [[hn.cho.sh 개발 기록]]",
         "2023-05-04": "- [[hn.cho.sh 개발 기록]]",
+        "2023-05-25": "- [[hn.cho.sh 개발 기록]]",
         "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
         "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]",
         "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]] [[Project Heimdall]]"
@@ -5773,7 +5827,8 @@ export const backlinks = {
         "2023-01-31": "- [[P-series Test]]"
     },
     "Independence": {
-        "2023-01-23": "- [[Independence]]"
+        "2023-01-23": "- [[Independence]]",
+        "Interaction Effect": "... level of another variable. Related: [[Independence]]"
     },
     "Flamboyant": {
         "2023-05-03": "- [[Flamboyant]]"
@@ -6216,6 +6271,9 @@ export const backlinks = {
         "2022-12-06": "- Reimagining Emails: React Email, [[AMP]], [[AMP Email]], [[Spellbound]]",
         "AMP Email": "... format provides a subset of [[AMP]] [[HTML]] components for use in ..."
     },
+    "Veil of Ignorance": {
+        "p-value Hacking": "... it is related to the [[Veil of Ignorance]]."
+    },
     "Text-based Tools for Thought": {
         "Tana": "[[Text-based Tools for Thought]].",
         "Thesephist Work Case Study": "### Notation: [[Text-based Tools for Thought]] that automatically links",
@@ -6301,6 +6359,9 @@ export const backlinks = {
         "2022-08-01": "- [[Programmable Web]]",
         "Matt Rickard": "- [[Programmable Web]]"
     },
+    "Make Git Case Sensitive": {
+        "2023-05-24": "- [[Make Git Case Sensitive]]"
+    },
     "Neural Engine": {
         "CalliFontia": "- Apple [[Neural Engine]] 적극 활용, 기기 자체에서 폰트 ...",
         "Engine": "- [[Neural Engine]]",
@@ -6322,6 +6383,9 @@ export const backlinks = {
     },
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]"
+    },
+    "Grammarly Work Note 2023-05-25": {
+        "2023-05-25": "- [[Grammarly Work Note 2023-05-25]]"
     },
     "Distribution": {
         "Probability": "- [[Distribution]]"
@@ -6574,6 +6638,7 @@ export const backlinks = {
         "CalliFontia": "[[Someday]] [[Project]]. [[Apple]] Pencil Handwriting → ...",
         "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the ...",
         "ChromeOS Packer": "- [[Someday]] [[Project]]",
+        "Confession in Slack": "[[Someday]] [[Project]] idea",
         "Cube": "[[Someday]] [[Project]]. 인스타 스토리/포스트 글 업로드용 ...",
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical ...",
         "ElonPet": "- [[Someday]] [[Project]]. Uses GPT-3 to write ...",
@@ -7641,6 +7706,10 @@ export const backlinks = {
     },
     "17CFA2.png": {
         "2022-07-21": "![[17CFA2.png]]"
+    },
+    "65B61A.png": {
+        "2023-05-25": "![[65B61A.png]]",
+        "hn.cho.sh 개발 기록": "![[65B61A.png]]"
     },
     "5FB7C1.png": {
         "2022-10-16": "![[5FB7C1.png]]",
@@ -9098,6 +9167,9 @@ export const backlinks = {
     },
     "717AC9.png": {
         "designOS": "![[717AC9.png]]"
+    },
+    "57FF25.png": {
+        "Grammarly Work Note 2023-05-25": "![[57FF25.png]]"
     },
     "123AA1.png": {
         "Aldehyde Outage (January 2023)": "![[123AA1.png]]"
