@@ -16,7 +16,7 @@ See also: [[Real Exams]]
 - a lot of CS fundamental questions (e.g. what is a Hash Table (pros/cons)?)
 - `isPalindrome` with a few edge cases
 
-### [Palantir](https://www.palantir.com/)
+### [[Palantir]]
 
 - technical design of a class registration system (higher level engineering)
 - technical design of a package manager proxy server (multithreading)
@@ -32,7 +32,7 @@ See also: [[Real Exams]]
   - Had even more time left, so I discussed with the interviewer and improved to $O(n)$ algorithm 😃
 - Learned that [[Grammarly]] has internal projects, Readerly (summarizing) and Speakerly ([[Generative Intelligence]])
 
-### [Palantir](https://www.palantir.com/) with [Karat](https://karat.com/)
+### [[Palantir]] with [Karat](https://karat.com/)
 
 - 3 basic questions (analyzing algorithms and complexities)
 - 3 [[Leetcode]] Easy to Medium Problem

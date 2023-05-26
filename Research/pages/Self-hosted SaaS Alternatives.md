@@ -12,12 +12,12 @@ slug: '/DDC33D'
 - Just right: [Plausible](https://plausible.io) strikes the perfect balance in cost and usability. The company makes an open-source version that is quite good but also offers a paid version that costs enough that you know you're the customer, not the product. Easy to set up and friendly to use.
 - Outside the box: You could always do with [[Mastodon]] does and eschew analytics entirely.
 
-### Self-hosted Email newsletter platforms
+### Self-hosted [[Mail|Email]] newsletter platforms
 
-- Too hot: [Keila](https://www.keila.io), a very-polished-looking email sender that will fit many users' needs, but its emphasis on a single flexible template makes it difficult to recommend for power users. (They are working on it, however—and the team seemed responsive to feedback.) [Sendportal](https://sendportal.io) also has potential, but the fact it hasn't been updated in more than a year gives us pause.
-- Too cold: [Mailtrain](https://github.com/Mailtrain-org/mailtrain) has most of the features one might expect out of an email-sending tool, including power-user features like support for MJML, but its user interface can feel imposing to new users. A less-imposing but still-complex alternative is [Mautic](https://www.mautic.org).
+- Too hot: [Keila](https://www.keila.io), a very-polished-looking [[Mail|email]] sender that will fit many users' needs, but its emphasis on a single flexible template makes it difficult to recommend for power users. (They are working on it, however—and the team seemed responsive to feedback.) [Sendportal](https://sendportal.io) also has potential, but the fact it hasn't been updated in more than a year gives us pause.
+- Too cold: [Mailtrain](https://github.com/Mailtrain-org/mailtrain) has most of the features one might expect out of an [[Mail|email]]-sending tool, including power-user features like support for MJML, but its user interface can feel imposing to new users. A less-imposing but still-complex alternative is [Mautic](https://www.mautic.org).
 - Just right: [Listmonk](https://listmonk.app) has a clean interface and lightweight feature set. It lacks some bells and whistles that some users might expect, like on-the-fly segmentation, but it's closer to being a daily driver than any other tool in this category.
-- Outside the box: Hosting something through your CMS is a good idea. [Ghost](https://ghost.org), while not anywhere near as full-featured as the other tools mentioned for email use cases, strikes a good balance for the average creator.
+- Outside the box: Hosting something through your CMS is a good idea. [Ghost](https://ghost.org), while not anywhere near as full-featured as the other tools mentioned for [[Mail|email]] use cases, strikes a good balance for the average creator.
 
 ### Self-hosted Zapier alternatives
 

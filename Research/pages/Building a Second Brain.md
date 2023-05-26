@@ -55,9 +55,9 @@ If you optimize too much for search, sorting takes too long.
 It would be best if you had a middle ground.
 I am skeptical on [PARA](/r/B4364B).
 Area and Resource feel redundant.
-I simplified it into Projects, Research, and Readings.
-The author claimed that classifying such things as Readings and Quotes as their own is like organizing food ingredients by their color.
-However, I think it makes sense to occasionally separate Readings.
+I simplified it into Projects, Research, and [[Readings]].
+The author claimed that classifying such things as [[Readings]] and Quotes as their own is like organizing food ingredients by their color.
+However, I think it makes sense to occasionally separate [[Readings]].
 
 ### Distill
 
