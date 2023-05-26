@@ -137,6 +137,10 @@ const config: Config = {
       charset: 'utf-8',
     },
   ],
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 }
 
 module.exports = config
