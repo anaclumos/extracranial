@@ -4840,6 +4840,9 @@ export const backlinks = {
         "Playings": "- [[Death Stranding]]",
         "슈퍼자판기": "[[Death Stranding|데스 스트랜딩]]을 하며 자판기의 미래를 상상했다. 그리고 ..."
     },
+    "Grammarly Experimentations Team": {
+        "Project Prepare for Grammarly": "Project to prepare for my [[Grammarly Experimentations Team]] team employment."
+    },
     "자아는 발굴되는 것이다": {
         "2023-03-08": "- [[자아는 발굴되는 것이다]]"
     },
@@ -6715,9 +6718,6 @@ export const backlinks = {
         "2023-04-08": "[[Vercel Incident Report (April 2023)]]",
         "2023-04-10": "- [[Vercel Incident Report (April 2023)]]",
         "2023-05-03": "- [[Vercel Incident Report (April 2023)]]"
-    },
-    "Grammarly Experimentations": {
-        "Project Prepare for Grammarly": "Project to prepare for my [[Grammarly Experimentations]] team employment."
     },
     "NPU": {
         "Imagining WebNPU API": "... we could do this with [[NPU]]? I hereby suggest a hypothetical ...",

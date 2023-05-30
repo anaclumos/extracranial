@@ -764,7 +764,7 @@ export const filenames = {
     "Government Services should have full API support": "3E1771",
     "Grammarly": "8481ED",
     "Grammarly AI-NLP Club": "D45361",
-    "Grammarly Experimentations": "8AF0EE",
+    "Grammarly Experimentations Team": "8AF0EE",
     "Grammarly Work Note": "F3D790",
     "Grammarly Work Note 2023-05-25": "B6CED2",
     "Grammarly Work Note 2023-05-26": "17D18B",
