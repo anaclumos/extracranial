@@ -627,6 +627,10 @@ export const backlinks = {
         "The One and Only (Social App)": "Like [[Texts]], it pulls from all the ...",
         "The one and only": "[[Texts]] aims to be the one ..."
     },
+    "Styled Components": {
+        "Grammarly Work Note 2023-05-26": "5. Ad-hoc [[Styled Components]]. While we have a `components` ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 아까 코드를 잠깐 보니 리액트와 [[Styled Components|스타일드 컴포넌트]]를 사용하시는 것 같은데, 리액트를 메인스트림으로 ..."
+    },
     "Emails and Decentralized Protocols": {
         "2022-09-05": "- [[Emails and Decentralized Protocols]]",
         "2022-10-19": "- [[Emails and Decentralized Protocols]]",
@@ -673,7 +677,7 @@ export const backlinks = {
     },
     "Gall Law": {
         "2023-04-10": "- [[Gall Law]]",
-        "Premature Optimizations": "- [[Gall Law]]"
+        "Avoid Premature Optimizations": "- [[Gall Law]]"
     },
     "Solar": {
         "2023-01-13": "- [[Solar]]",
@@ -700,7 +704,7 @@ export const backlinks = {
     },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
-        "Premature Optimizations": "- [[Service Shimming]], [[서비스 시밍]]",
+        "Avoid Premature Optimizations": "- [[Service Shimming]], [[서비스 시밍]]",
         "Tech Now Pay Later": "... is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you ...",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-02 | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]]  ...",
         "서비스 시밍": "[[Service Shimming]]"
@@ -1178,6 +1182,9 @@ export const backlinks = {
         "Second Brain": "### [[Andy Matuschak]]",
         "Sliding Panes": "... it was first introduced by [[Andy Matuschak]], at least his version made ..."
     },
+    "Apollo (GraphQL)": {
+        "Redwood.js": "... API built with Prisma and [[Apollo (GraphQL)]] Server. Prisma is used for ..."
+    },
     "Multiplication Theorem": {
         "2023-01-23": "- [[Multiplication Theorem]]",
         "Probability": "- $P(A1 \\cap A2)$ → [[Multiplication Theorem]]"
@@ -1231,6 +1238,9 @@ export const backlinks = {
     },
     "Mermaid.js": {
         "2023-05-25": "- [[Mermaid.js]]"
+    },
+    "Husky": {
+        "Grammarly Work Note 2023-05-26": "... Pull Request with tools like [[Husky]]."
     },
     "Docusaurus": {
         "2022-10-17": "> Thanks! I want [[Docusaurus]] to have this feature built-in ...",
@@ -1490,7 +1500,7 @@ export const backlinks = {
         "2022-10-14": "- [[WebAssembly]]",
         "2022-10-15": "- [[WebAssembly]]: paradust7/minetest-wasm: Experimental Minetest build for ...",
         "2023-01-13": "- [[WebAssembly|WASM]]",
-        "2023-02-16": "... we announced WebContainers, a novel [[WebAssembly]]-based operating system that enables Node.js ...",
+        "2023-02-16": "... we announced WebContainers, a novel [[WebAssembly]]-based operating system that enables [[Node.js]] ...",
         "Deno Deploy": "- TypeScript, [[WebAssembly|Wasm]], ES Modules",
         "Dioxus": "Use [[WebAssembly|WASM]]",
         "How is WebAssembly cross-platform when Assembly is not": "- [[WebAssembly]] is like [[Assembly]], except that",
@@ -1869,7 +1879,8 @@ export const backlinks = {
         "Proposal of Research 2023-01-10": "## 1. [[Stable Alternative]]"
     },
     "Grammarly Work Note 2023-05-26": {
-        "2023-05-26": "[[Grammarly Work Note 2023-05-26]]"
+        "2023-05-26": "- [[Grammarly Work Note 2023-05-26]]",
+        "2023-05-27": "[[Grammarly Work Note 2023-05-26]]"
     },
     "Dioxus": {
         "2022-12-28": "- [[Dioxus]]"
@@ -2234,6 +2245,12 @@ export const backlinks = {
     "G++": {
         "Internetworking": "- [[G++]]"
     },
+    "Yarn": {
+        "2023-05-29": "- [[Yarn]]",
+        "PNPM": "... improve aspects of npm and [[Yarn]]. It was designed to speed ...",
+        "Redwood.js": "While I prefer PNPM over [[Yarn]], due to the workspace support, ...",
+        "Try Removing": "## Then finally [[Yarn]] will freak out"
+    },
     "Seed": {
         "2023-03-16": "- [[Seed]]",
         "Bootstrap": "... perceive that they must receive [[seed]] funding from accelerators, angel investors, ...",
@@ -2286,7 +2303,7 @@ export const backlinks = {
         "Chromium": "... \"The integration with the CSS [[engine]] leads to some extraordinary use ...",
         "Conditional Compilation": "... can be used for multi-platform [[engine]]",
         "Docker": "... the containers is called Docker [[Engine]]. It was first started in ...",
-        "Finding out Ghost version with JS": "... first, I investigated the Ghost [[engine]] side to make the Node.js ...",
+        "Finding out Ghost version with JS": "... first, I investigated the Ghost [[engine]] side to make the [[Node.js]] ...",
         "Geohot Twitter Mayhem": "Twitter's Missing Search [[Engine]].",
         "Google": "... company that focuses on search [[engine]] technology, online advertising, [[cloud computing]], ...",
         "Graphics Engine Process": "... general process of a graphics [[engine]] follows:",
@@ -2948,6 +2965,9 @@ export const backlinks = {
     "0876 Middle of the Linked List": {
         "Coding Tests": "- [x] [[0876 Middle of the Linked List]]"
     },
+    "Prisma": {
+        "Redwood.js": "- It utilizes [[Prisma]] as an Object-Relational Mapping (ORM) ..."
+    },
     "Love Wikipedia": {
         "2023-02-26": "- [[Love Wikipedia]]",
         "Love Software": "- [[Love Wikipedia]]"
@@ -3247,7 +3267,7 @@ export const backlinks = {
         "Problem": "Leads to a Someday [[Project]].",
         "Project FFMpeg for iPad": "- Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Project PEOPLE": "- [[Project]]",
-        "Project Prepare for Grammarly": "[[Project]] to prepare for my [[Grammarly]] ...",
+        "Project Prepare for Grammarly": "[[Project]] to prepare for my [[Grammarly ...",
         "Proposal of Research 2023-01-10": "... found several layers for the [[project]].",
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and ...",
         "Redactor for iPhone": "Someday [[Project]].",
@@ -3689,6 +3709,7 @@ export const backlinks = {
         "Transient Notes": "- Antonym: [[Evergreen notes]]"
     },
     "Databricks": {
+        "GNAR": "... move away from GNAR to [[Databricks]].",
         "Grammarly Work Note 2023-05-25": "... move away from GNAR to [[Databricks]].",
         "Project Prepare for Grammarly": "- [[Databricks]]",
         "Real Exams": "### CodeSignal (HRT, [[Databricks]]",
@@ -3909,6 +3930,8 @@ export const backlinks = {
         "Deno Deploy": "- Deploy [[JavaScript]] Globally",
         "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "물론 이렇게 매번 [[JavaScript]]를 통해 링크를 조작하는 방법은 웹 ...",
         "HTMX": "- Implementation itself is [[JavaScript]]",
+        "NPM": "... default package manager for the [[JavaScript]] runtime environment [[Node.js]]. NPM is ...",
+        "Node.js": "Node.js is an open-source, server-side [[JavaScript]] runtime environment allowing developers to ...",
         "Separation of Computer Scientists and Computer Technologists": "... to make a cool-looking Single-Page-App [[JavaScript]] [[ecommerce|e-commerce]] website...",
         "TypeScript": "- Typed [[JavaScript]].",
         "Write Once Run Everywhere": "- [[JavaScript]]"
@@ -3918,7 +3941,7 @@ export const backlinks = {
     },
     "기술 할부 결제": {
         "2023-02-17": "- [[기술 할부 결제]]",
-        "Premature Optimizations": "- Tech Now Pay Later [[기술 할부 결제]]",
+        "Avoid Premature Optimizations": "- Tech Now Pay Later [[기술 할부 결제]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "... Now Pay Later <br/> 🇰🇷 [[기술 할부 결제]]      ..."
     },
     "Grotesque": {
@@ -4034,6 +4057,9 @@ export const backlinks = {
     "Starlink": {
         "2022-10-19": "- [[Starlink]]"
     },
+    "Brian Lovin": {
+        "2023-05-29": "- [[Brian Lovin]]"
+    },
     "TODO": {
         "0215 Kth Largest Element in an Array": "[[TODO]]",
         "2022-10-12": "## [[TODO]]",
@@ -4107,6 +4133,10 @@ export const backlinks = {
     },
     "Time-Space Continuum (Philosophy)": {
         "2023-04-12": "- [[Time-Space Continuum (Philosophy)]]"
+    },
+    "Apache Spark": {
+        "Databricks": "... data analytics platform powered by [[Apache Spark]]. The platform supports various data ...",
+        "Project Prepare for Grammarly": "... library to bring Tensorflow on [[Apache Spark]]"
     },
     "Dynamically Linked Libraries": {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
@@ -4422,6 +4452,9 @@ export const backlinks = {
         "The One and Only WebExtension": "- A Safari and [[Firefox]] [[WebExtension|extension]] that disguises itself as ...",
         "WebExtension": "... such as Chrome|Google Chrome, Mozilla [[Firefox]], and Microsoft Edge, support the ..."
     },
+    "Bad Interview Experience with Replo": {
+        "2023-05-29": "- [[Bad Interview Experience with Replo]]"
+    },
     "One Bit Display": {
         "2023-01-13": "- [[One Bit Display]]"
     },
@@ -4453,6 +4486,13 @@ export const backlinks = {
     },
     "CBR vs VBR": {
         "Internetworking": "- [[CBR vs VBR]]"
+    },
+    "Server-side Rendering": {
+        "2022-06-12": "... either through static hosting or [[server-side rendering]], into a dynamic web page ...",
+        "Create React App": "... due to its lack of [[Server-side Rendering]], it is now discouraged to ...",
+        "Next.js": "... enabling React-based web applications with [[server-side rendering]] and generating static websites. React ...",
+        "React": "... whose flagship feature is not [[Server-side Rendering|SSR]], but rather the abstraction of ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 해도 PHP를 주로 사용했다. 전부 [[Server-side Rendering|서버 사이드 렌더링]]이었다. 그때는 이것이 당연했다. 백엔드는 자바를 ..."
     },
     "WorkerDOM": {
         "2022-06-14": "...  - 이 세부 전략으로 [[WorkerDOM]]을 쓸 수도 있고, 고쳐서 쓸 ...",
@@ -4671,6 +4711,12 @@ export const backlinks = {
     "Things (3D)": {
         "3D": "- [[Things (3D)]]"
     },
+    "Avoid Premature Optimizations": {
+        "2023-04-17": "- [[Avoid Premature Optimizations]], [[Bootstrap]]",
+        "2023-04-19": "- [[Avoid Premature Optimizations]]",
+        "Grammarly Work Note 2023-05-26": "> [[Avoid Premature Optimizations]]. Even further, can we avoid ...",
+        "Tech Now Pay Later": "> \"[[Avoid Premature Optimizations]]\" – wise words by @Levelsfyi ..."
+    },
     "LavaLab": {
         "2023-04-25": "- [[LavaLab]]",
         "LavaLab Cohort of Spring 2023": "[[LavaLab]] Cohort of Spring 2023."
@@ -4747,6 +4793,10 @@ export const backlinks = {
         "2023-03-16": "- [[The Newtonian Correspondence]]",
         "2023-03-19": "- [[The Newtonian Correspondence]]",
         "2023-03-31": "- [[The Newtonian Correspondence]]"
+    },
+    "GNAR": {
+        "2023-05-30": "Grammarly Work Note 2023-05-30 on [[GNAR]]",
+        "Grammarly Work Note 2023-05-25": "- [[GNAR]] is the single source of ..."
     },
     "Product-Market Fit": {
         "2022-06-06": "... on when struggling to find [[Product-Market Fit]] or fight for survival. - ...",
@@ -5241,21 +5291,20 @@ export const backlinks = {
     },
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
+        "GNAR": "... all of the relevant data. [[Grammarly]] is trying to move away ...",
         "Grammarly AI-NLP Club": "... Natural Language Processing|NLP Club at [[Grammarly]].",
         "Grammarly Work Note": "... notes during my work at [[Grammarly]].",
+        "Grammarly Work Note 2023-05-25": "... all of the relevant data. [[Grammarly]] is trying to move away ...",
+        "Grammarly Work Note 2023-05-26": "... as an internal-facing product of [[Grammarly]], has many spaces to improve.",
         "GrammarlyGO": "... of generative AI capabilities from [[Grammarly]]. It considers your context, preferences, ...",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
-        "Project Prepare for Grammarly": "Project to prepare for my [[Grammarly]] Data Engineering team employment.",
+        "Manakin": "... is the infrastructure that runs [[Grammarly]]'s Experiment Service.",
         "Real Exams": "### [[Grammarly]]",
         "Real Interviews": "### [[Grammarly]]",
         "기술 발전의 속도": "그래서 [[Grammarly]] 등의 텍스트 [[AI|인공지능]] 회사에 열심히 ..."
     },
     "SHAP": {
         "2022-12-24": "- [[SHAP]]"
-    },
-    "Premature Optimizations": {
-        "2023-04-17": "- [[Premature Optimizations]], [[Bootstrap]]",
-        "2023-04-19": "- [[Premature Optimizations]]"
     },
     "Government Services should have full API support": {
         "2022-10-27": "- [[Government Services should have full API support]]",
@@ -5369,6 +5418,19 @@ export const backlinks = {
         "YCLF 주간 사용자 1000명": "GitHub 이슈를 남겨준 분들도 계셨고 [[Mail|메일]]을 보내주신 분들도 계셨다. 유용한 피드백을 ...",
         "뉴턴의 서신": "아이작 뉴턴은 [[Mail|편지]]을 통해 동료들과 소통했다.",
         "프로젝트 어덕행덕": "... - 그래서 학생 할인은 없냐고 [[Mail|메일]]로 물어봄"
+    },
+    "Node.js": {
+        "2022-09-30": "> — Luciano Mammino 📕 [[Node.js]] Design Patterns (@loige) September 27, ...",
+        "2023-02-16": "- Nodebox—a fast [[Node.js]] runtime that allows you to ...",
+        "Finding out Ghost version with JS": "... engine side to make the [[Node.js]] include the value before responding ...",
+        "Grammarly Work Note 2023-05-26": "... and React. Manakin runs on [[Node.js]] 16 with [[Create React App]]. ...",
+        "Jest": "... with projects using Babel, TypeScript, [[Node.js]], [[React]], Angular, Vue.js, and [[Svelte]]. ...",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "AFAIK Ghost is [[Node.js]], not Rails! https://github.com/TryGhost/Ghost",
+        "Migrating Node.js apps from AWS EB to Heroku": "... I had little experience with [[Node.js]]. This is not an advisable ...",
+        "NPM": "... for the JavaScript runtime environment [[Node.js]]. NPM is used to install, ...",
+        "Next.js": "... \"Building a server-rendered website with [[Node.js]]\". Where traditional React apps can ...",
+        "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "이 글은 [[Node.js]]에 대한 경험이 별로 없을 때 ...",
+        "Satori": "... used in modern Web Browser|browsers, [[Node.js]], and [[Web Worker|Web Workers]]. Building ..."
     },
     "Finding out Ghost version with JS": {
         "2022-11-19": "  - [[Finding out Ghost version with JS]]"
@@ -5485,11 +5547,20 @@ export const backlinks = {
         "Workbench": "- For [[Microsoft]] Products, use App Store.",
         "원숭이와 꽃신": "- [[Microsoft|마이크로소프트]]도 이런 '원숭이 꽃신 [[Economy|경제]]학'에 충실한 ..."
     },
+    "Pull Request": {
+        "2022-09-13": "... by anaclumos #1 · junhoyeo/vercel-submodules [[Pull Request]]",
+        "2022-10-10": "  - Opened a [[Pull Request|PR]]: Add Unicode Private Area Support ...",
+        "2022-10-17": "... the functionality and made a [[Pull Request|PR]]: add {{hex6}} and {{uuid}} #23",
+        "Better Docusaurus": "... anaclumos · #7727 · facebook/docusaurus [[Pull Request]]",
+        "GitHub Actions": "... that build and test every [[pull request]] to your repository or deploy ...",
+        "Grammarly Work Note 2023-05-26": "... it automatically check before every [[Pull Request]] with tools like [[Husky]].",
+        "배달의민족 FE 개발자가 일하는 법 발표": "- Upsource & [[Pull Request|PR]] & Root"
+    },
     "Bootstrap": {
-        "2023-04-17": "- Premature Optimizations, [[Bootstrap]]",
+        "2023-04-17": "- Avoid Premature Optimizations, [[Bootstrap]]",
         "Antipreneur": "- [[Bootstrap]]: 결국 VC는 외부인이다",
+        "Avoid Premature Optimizations": "- [[Bootstrap]]",
         "MAKE": "This is called [[Bootstrap|bootstrapping]]. The good part is that ...",
-        "Premature Optimizations": "- [[Bootstrap]]",
         "The Battle of Flow and Asana": "I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon ..."
     },
     "인하우스와 자유경쟁": {
@@ -5591,6 +5662,10 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-24 | 🇬🇧 [[Renaissance]] <br/> 🇰🇷 [[르네상스]]   ...",
         "The End of History Fallacy": "... at the similarities between the [[Renaissance]] view of the Middle Ages ..."
     },
+    "PNPM": {
+        "2023-05-29": "- [[PNPM]]",
+        "Redwood.js": "While I prefer [[PNPM]] over [[Yarn]], due to the ..."
+    },
     "Shopify Analyzes CSS Frameworks": {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
@@ -5619,6 +5694,13 @@ export const backlinks = {
     "Born of this Land - The Founding Story of Hyundai": {
         "2023-02-23": "- [[Born of this Land - The Founding Story of Hyundai]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-23 | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]] ..."
+    },
+    "GraphQL": {
+        "Inspiring Open Source Projects": "... platform built using Node.js, React, [[GraphQL]]. Deployed via Docker and Kubernetes.",
+        "Redwood.js": "... For the back-end, Redwood uses [[GraphQL]], a query language for APIs ...",
+        "Vector DB": "... cloud-native database, all accessible through [[GraphQL]], REST, and various language clients.",
+        "henrymakesapps": "... communication without needing REST or [[GraphQL]].",
+        "tRPC": "... alternative to traditional REST or [[GraphQL]], designed specifically for full-stack TypeScript ..."
     },
     "The Site On Which the Sun Never Sets": {
         "2023-02-26": "- [[The Site On Which the Sun Never Sets]]",
@@ -5661,10 +5743,15 @@ export const backlinks = {
         "Tailwind CSS 톺아보기": "... `className`의 순서가 섞인다. 이 문제는 [[Visual Studio Code|VS Code]]를 사용할 경우 Headwind라는 확장 프로그램으로 ..."
     },
     "Jest": {
-        "Configuring Jest for React Native": "- Configuring [[Jest]] for [[React Native]]"
+        "Configuring Jest for React Native": "- Configuring [[Jest]] for [[React Native]]",
+        "Redwood.js": "- [[Jest]]"
     },
     "Debugging CSS": {
         "2023-01-27": "- [[Debugging CSS]]"
+    },
+    "Spring Boot": {
+        "Grammarly Work Note 2023-05-26": "... Testings. The back-end, written in [[Spring Boot]], does not have a local ...",
+        "Project Prepare for Grammarly": "- spring-projects/spring-boot [[Spring Boot]]"
     },
     "0125 Valid Palindrome": {
         "2022-07-26": "- [x] [[0125 Valid Palindrome]]",
@@ -5714,10 +5801,11 @@ export const backlinks = {
         "Front-end": "- [[React]]",
         "Get Job Done": "  - Coding [[React]]",
         "GitHub Pages에 React 앱 띄우기": "최근 [[React]] 앱을 GitHub Pages에 띄우면 좋겠다는 ...",
+        "Grammarly Work Note 2023-05-26": "... is already discouraged from the [[React]] team.",
         "JSX": "... as JavaScript XML) is a [[React]] extension to the JavaScript language ...",
         "Jest": "... projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and [[Svelte]]. Jest ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... I have built a custom [[React]] application for presenting on the ...",
-        "Next.js": "... framework created by Vercel enabling [[React]]-based web applications with server-side rendering ...",
+        "Next.js": "... framework created by Vercel enabling [[React]]-based web applications with [[server-side rendering]] ...",
         "React App on GitHub Pages": "... the idea of publishing a [[React]] App on GitHub Pages. I ...",
         "React Native": "> [[React]] Native is an open-source [[UIUX|UI]] ...",
         "Real Exams": "- Get Job Done SQL, [[React]], [[Python]]",
@@ -5741,7 +5829,7 @@ export const backlinks = {
     },
     "서비스 시밍": {
         "2023-02-02": "- [[서비스 시밍]]",
-        "Premature Optimizations": "- Service Shimming, [[서비스 시밍]]",
+        "Avoid Premature Optimizations": "- Service Shimming, [[서비스 시밍]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Service Shimming <br/> 🇰🇷 [[서비스 시밍]]      ...",
         "기술 할부 결제": "... 방식은 만들 때까지 만든 척하는 [[서비스 시밍]]과 유사하다."
     },
@@ -5763,8 +5851,8 @@ export const backlinks = {
         "2023-04-21": "- [[hn.cho.sh 개발 기록]]",
         "2023-05-04": "- [[hn.cho.sh 개발 기록]]",
         "2023-05-25": "- [[hn.cho.sh 개발 기록]]",
+        "Avoid Premature Optimizations": "- [[hn.cho.sh 개발 기록]]",
         "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
-        "Premature Optimizations": "- [[hn.cho.sh 개발 기록]]",
         "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]] [[Project Heimdall]]"
     },
     "Minimaximalism": {
@@ -5772,6 +5860,9 @@ export const backlinks = {
     },
     "Greedy Algorithm": {
         "Real Exams": "- 1 [[Greedy Algorithm]]"
+    },
+    "Block Protocol": {
+        "2023-05-29": "- [[Block Protocol]]"
     },
     "Superbrain": {
         "2023-03-08": "- [[Superbrain]]",
@@ -5843,6 +5934,10 @@ export const backlinks = {
     },
     "Using an iPad as my Ebook": {
         "2023-01-12": "- [[Using an iPad as my Ebook]]"
+    },
+    "Manakin": {
+        "Grammarly Work Note 2023-05-25": "- [[Manakin]] has 4 versions: `Dev`, `QA`, ...",
+        "Grammarly Work Note 2023-05-26": "[[Manakin]], as an internal-facing product of ..."
     },
     "Useful ChatGPT Prompts": {
         "2023-04-10": "- [[Useful ChatGPT Prompts]]"
@@ -5923,9 +6018,6 @@ export const backlinks = {
         "2023-02-02": "- [[Apple-like Block Interface]]",
         "2023-02-18": "- [[Apple-like Block Interface]]",
         "Aldehyde Landing Page 2023": "- [[Apple-like Block Interface]]"
-    },
-    "prettierrc": {
-        "2023-03-21": "- [[prettierrc]]"
     },
     "Toss Product Sans": {
         "2022-10-14": "- [[Toss Product Sans]]",
@@ -6018,6 +6110,9 @@ export const backlinks = {
         "2023-02-19": "- [[Copenhagen Interpretation|코펜하겐 효과]]",
         "Psychohistory": "... the long term (Just like [[Copenhagen Interpretation]] in Quantum Physics) and would ...",
         "심리역사학": "... 준다는 사실 또한 알아냈다 (양자물리학의 [[Copenhagen Interpretation|코펜하겐 효과]]와 비슷하게). 이를 위해 셀던은 두 ..."
+    },
+    "React Router": {
+        "Redwood.js": "- [[React Router]]: Redwood's router is declarative, built ..."
     },
     "On-Device": {
         "2023-03-01": "- [[On-Device]]",
@@ -6488,6 +6583,12 @@ export const backlinks = {
     "Comparing BLIP and CLIP": {
         "Stable Alternative": "- [[Comparing BLIP and CLIP]]"
     },
+    "NPM": {
+        "2022-07-06": "... bundler, transpiler, task runner and [[npm]] client built-in",
+        "2023-05-29": "- [[NPM]]",
+        "PNPM": "... aims to improve aspects of [[npm]] and [[Yarn]]. It was designed ...",
+        "Yarn": "... efficient and reliable alternative to [[npm]]. It was released in 2016, ..."
+    },
     "Docker": {
         "2022-06-15": "... as code like Terraform or [[Docker]] images for science labs.",
         "CDN": "... will design uses: Nginx, Lua, [[docker]], docker-compose, Prometheus, grafana, and wrk.",
@@ -6507,15 +6608,18 @@ export const backlinks = {
         "AWS Nuke": "- rebuy-de/[[aws]]-nuke: Nuke a whole [[AWS]] account ...",
         "Cloud-Native": "... on cloud infrastructure, such as [[AWS]], instead of traditional [[on-premise]] infrastructure. ...",
         "Ethereum RPC as a Service": "... query data on the blockchain. [[AWS]] offers a similar product, AWS ...",
+        "Fiercely Overpriced": "... of public cloud providers like [[AWS]] or Microsoft Azure to minimize ...",
         "Ghost 테마를 자동 배포하는 방법": "... 블로그는 Ghost Content Management System을 [[AWS]]에 호스팅하여 사용한다. Ghost CMS는 [[Headless|헤드리스]]하다. ...",
         "Is AWS a Dumb Pipe": "- Will [[AWS]] follow its track?",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... want to bother dealing with [[AWS]] SES.",
         "Migrating Node.js apps from AWS EB to Heroku": "I have used [[AWS]] Elastic Beanstalk for a while ...",
+        "Monolith": "... of distributed components orchestrated by [[AWS]] Step Functions, but this approach ...",
         "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "예전부터 [[AWS]] Elastic Beanstalk 앱을 사용해왔지만 최근 ...",
         "OpenAI enthroned as the Levis of Tech": "... dealer in this silent war. [[AWS]] was the latest Levi's of ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "[[AWS]]는 AT&T와 같은 통신 회사에 이어 ...",
         "Stable Alternative": "... Server to `image → text`. [[AWS]] SageMaker? Or [[Hugging Face]] as ...",
-        "Vercel Incident Report (April 2023)": "... with Vercel and $2,017 in [[AWS]] CloudFront."
+        "Vercel Incident Report (April 2023)": "... with Vercel and $2,017 in [[AWS]] CloudFront.",
+        "henrymakesapps": "5.  [[AWS]] Copilot: Provides hosting for the ..."
     },
     "Cauchy": {
         "2023-03-07": "- [[Cauchy]]",
@@ -6611,6 +6715,9 @@ export const backlinks = {
         "2023-04-08": "[[Vercel Incident Report (April 2023)]]",
         "2023-04-10": "- [[Vercel Incident Report (April 2023)]]",
         "2023-05-03": "- [[Vercel Incident Report (April 2023)]]"
+    },
+    "Grammarly Experimentations": {
+        "Project Prepare for Grammarly": "Project to prepare for my [[Grammarly Experimentations]] team employment."
     },
     "NPU": {
         "Imagining WebNPU API": "... we could do this with [[NPU]]? I hereby suggest a hypothetical ...",
@@ -6817,6 +6924,10 @@ export const backlinks = {
         "2022-07-01": "I like the [[CODE Procedure]] in [[PARA]] architecture as a ...",
         "PARA": "- Often used with [[CODE Procedure]]"
     },
+    "Create React App": {
+        "Grammarly Work Note 2023-05-26": "... runs on Node.js 16 with [[Create React App]]. Node.js 16 sunsets on September ...",
+        "React": "... using bundlers like Vite or [[Create React App|CRA]] is fairly strongly discouraged"
+    },
     "React Email": {
         "2022-12-06": "- Reimagining Emails: [[React Email]], [[AMP]], [[AMP Email]], [[Spellbound]]",
         "Reimagining Emails": "- [[React Email]]"
@@ -6943,6 +7054,9 @@ export const backlinks = {
     "Treehouse": {
         "Conversational AI Tools for Thought": "- [[Treehouse]]"
     },
+    "ESLint": {
+        "Grammarly Work Note 2023-05-26": "... with Prettier, we could link [[ESLint]] and make it automatically check ..."
+    },
     "SIMD": {
         "2023-01-23": "- [[SIMD]]"
     },
@@ -6956,6 +7070,11 @@ export const backlinks = {
         "2023-01-18": "- [[하늘땅사람 개인 정보 보호 정책]]",
         "하늘땅사람": "- [[하늘땅사람 개인 정보 보호 정책]]",
         "하늘땅사람 개발 기록": "- [[하늘땅사람 개인 정보 보호 정책]]"
+    },
+    "Prettier": {
+        "2023-03-21": "- [[Prettier]]",
+        "Better Obsidian": "- [[Prettier]] for Code Blocks",
+        "Grammarly Work Note 2023-05-26": "... prettier --write`. On par with [[Prettier]], we could link [[ESLint]] and ..."
     },
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on ..."
@@ -7055,6 +7174,10 @@ export const backlinks = {
         "2022-07-07": "- [[Tools Must Vanish]]",
         "2022-12-28": "- [[Tools Must Vanish]]",
         "Using an iPad as my Ebook": "... that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter ..."
+    },
+    "Apache": {
+        "Apache Spark": "[[Apache]] Spark is an open-source, distributed ...",
+        "IntelliJ": "... and is available as an [[Apache]] 2 Licensed community edition and ..."
     },
     "곰단": {
         "2023-02-27": "- [[곰단]]",
@@ -7167,6 +7290,7 @@ export const backlinks = {
         "2022-07-20": "- JavaScript → [[TypeScript]]",
         "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations",
         "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules",
+        "Redwood.js": "- [[TypeScript]]",
         "Svelte": "... compiler itself is written in [[TypeScript]]. Its source code is licensed ...",
         "WebGPU": "- It's a stand-alone [[TypeScript]]+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like ..."
     },
@@ -7205,6 +7329,11 @@ export const backlinks = {
     "Rewrite it in Rust": {
         "2022-10-19": "- [[Rewrite it in Rust]]",
         "Rust": "- [[Rewrite it in Rust]]"
+    },
+    "Redwood.js": {
+        "2023-05-20": "This looks promising. redwoodjs/redwood: [[Redwood.js|Redwood]] The App Framework for Startups. ...",
+        "2023-05-26": "- [[Redwood.js]]",
+        "2023-05-29": "- [[Redwood.js]]"
     },
     "Unified Korea": {
         "Born of this Land - The Founding Story of Hyundai": "... to create an advanced and [[Unified Korea]]. No matter what, he was ...",
@@ -7278,7 +7407,7 @@ export const backlinks = {
     },
     "Tech Now Pay Later": {
         "2023-02-17": "- [[Tech Now Pay Later]]",
-        "Premature Optimizations": "- [[Tech Now Pay Later]] [[기술 할부 결제]]",
+        "Avoid Premature Optimizations": "- [[Tech Now Pay Later]] [[기술 할부 결제]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-17 | 🇬🇧 [[Tech Now Pay Later]] <br/> 🇰🇷 [[기술 할부 결제]] ..."
     },
     "Medium": {
@@ -7317,6 +7446,9 @@ export const backlinks = {
     "Binomial Theorem": {
         "2023-01-24": "- [[Binomial Theorem]]",
         "Probability": "- [[Binomial Theorem]]"
+    },
+    "Storybook": {
+        "Redwood.js": "- [[Storybook]]"
     },
     "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": {
         "2022-12-19": "- [[아이폰 천지인 자판 프로젝트의 실현 가능성 연구]]",
@@ -7628,6 +7760,9 @@ export const backlinks = {
         "2023-03-03": "- [[딱 봐도 조성현]]",
         "Spirits do not Inherit": "... to hear is, \"This is [[딱 봐도 조성현|obviously Sunghyun]], hahaha.\"",
         "개성은 쟁취하는 것": "... 가장 듣기 좋아하는 말도 「이건 [[딱 봐도 조성현]] ㅋㅋㅋㅋ」 이라는 말이었습니다."
+    },
+    "Grammarly Work Note 2023-05-30": {
+        "2023-05-30": "[[Grammarly Work Note 2023-05-30]] on [[GNAR]]"
     },
     "이공계": {
         "2023-02-15": "- [[이공계]]",
@@ -8737,6 +8872,21 @@ export const backlinks = {
     "0 for i in image[0": {
         "0733 Flood Fill": "...    visited = [[0 for i in image[0]] for j in image]"
     },
+    "529EA6.png": {
+        "Brian Lovin": "![[529EA6.png]]"
+    },
+    "755E31.png": {
+        "Brian Lovin": "![[755E31.png]]"
+    },
+    "21B15D.png": {
+        "Brian Lovin": "![[21B15D.png]]"
+    },
+    "4DEA85.png": {
+        "Brian Lovin": "![[4DEA85.png]]"
+    },
+    "FE1E2B.png": {
+        "Brian Lovin": "![[FE1E2B.png]]"
+    },
     "BC7E6A.png": {
         "Akzidenz": "![[BC7E6A.png]]",
         "San Francisco": "![[BC7E6A.png]]"
@@ -8802,6 +8952,18 @@ export const backlinks = {
     },
     "162BA2.png": {
         "Chaf Games": "![[162BA2.png]]"
+    },
+    "909816.png": {
+        "Bad Interview Experience with Replo": "![[909816.png]]"
+    },
+    "B7C2B7.png": {
+        "Bad Interview Experience with Replo": "![[B7C2B7.png]]"
+    },
+    "523F9D.png": {
+        "Bad Interview Experience with Replo": "![[523F9D.png]]"
+    },
+    "553DCB.png": {
+        "Bad Interview Experience with Replo": "![[553DCB.png]]"
     },
     "CD4751.png": {
         "San Francisco": "![[CD4751.png]]",
@@ -9104,6 +9266,18 @@ export const backlinks = {
     },
     "8A583A.png": {
         "hn.cho.sh 개발 기록": "![[8A583A.png]]"
+    },
+    "558FEC.png": {
+        "Block Protocol": "![[558FEC.png]]"
+    },
+    "DC2775.png": {
+        "Block Protocol": "![[DC2775.png]]"
+    },
+    "101C04.png": {
+        "Block Protocol": "![[101C04.png]]"
+    },
+    "4E18FE.png": {
+        "Block Protocol": "![[4E18FE.png]]"
     },
     "C25819.png": {
         "Superbrain": "![[C25819.png]]"

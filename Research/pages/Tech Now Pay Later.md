@@ -41,6 +41,6 @@ In that sense, **Tech Now Pay Later** might be better terminology.
 >
 > Instead of worrying about which DB to use for your [[project]] and/or if it scales – sometimes you just gotta ship it and iterate later.
 >
-> "Avoid premature optimization" – wise words by [@Levelsfyi](https://twitter.com/Levelsfyi?ref_src=twsrc%5Etfw) 👏 [https://t.co/QTT9qIoVHS](https://t.co/QTT9qIoVHS)
+> "[[Avoid Premature Optimizations]]" – wise words by [@Levelsfyi](https://twitter.com/Levelsfyi?ref_src=twsrc%5Etfw) 👏 [https://t.co/QTT9qIoVHS](https://t.co/QTT9qIoVHS)
 >
 > — Steven Tey (@steventey) [February 19, 2023](https://twitter.com/steventey/status/1627419415754022915?ref_src=twsrc%5Etfw)

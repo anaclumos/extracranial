@@ -26,7 +26,7 @@ This will prevent ZSH from complaining when no match is found.
 
 - [zsh - How to get rid of "No match found" when running "rm \*" - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/310540/how-to-get-rid-of-no-match-found-when-running-rm)
 
-## Then finally Yarn will freak out
+## Then finally [[Yarn]] will freak out
 
 ```js
 {
@@ -34,9 +34,9 @@ This will prevent ZSH from complaining when no match is found.
 }
 ```
 
-But still, this time, Yarn will complain when you run the `rm` command
+But still, this time, [[Yarn]] will complain when you run the `rm` command
 You need to explicitly quote it to avoid glob expansion.
-This is because Yarn will try to expand the blob instead of delegating it to the terminal (which we want.)
+This is because [[Yarn]] will try to expand the blob instead of delegating it to the terminal (which we want.)
 
 ```js
 {

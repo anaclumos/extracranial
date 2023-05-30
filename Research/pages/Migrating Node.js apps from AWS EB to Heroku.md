@@ -4,7 +4,7 @@ slug: '/C855D4'
 ---
 
 :::danger
-This post was written when I had little experience with Node.js. This is not an advisable way. This post simply serves as a departure post for my journey.
+This post was written when I had little experience with [[Node.js]]. This is not an advisable way. This post simply serves as a departure post for my journey.
 :::
 
 - [[Node.js 앱을 AWS EB에서 Heroku로 옮기기]]
