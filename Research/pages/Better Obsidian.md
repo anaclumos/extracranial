@@ -13,7 +13,7 @@ slug: '/9E4E7C'
 - Auto Delete Empty Files
 - Lint Supports
 - MDX Supports
-- Prettier for Code Blocks
+- [[Prettier]] for Code Blocks
 - Anonymized Images
   - Not `Pasted Image YYYY`
   - Not `Original Name Whatsoever`
