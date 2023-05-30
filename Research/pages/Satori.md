@@ -48,7 +48,7 @@ Merged! [Add Unicode Private Area Support #161](https://github.com/vercel/satori
 
 ### [[Engine]]
 
-- The core [[engine]], [Satori](https://github.com/vercel/satori), can be used in modern [[Web Browser|browsers]], Node.js, and [[Web Worker|Web Workers]]. Building on top of the core [[engine]], [[Vercel]] OG can be used inside [[Edge]] environments through [[WebAssembly]] to create social card images easily.
+- The core [[engine]], [Satori](https://github.com/vercel/satori), can be used in modern [[Web Browser|browsers]], [[Node.js]], and [[Web Worker|Web Workers]]. Building on top of the core [[engine]], [[Vercel]] OG can be used inside [[Edge]] environments through [[WebAssembly]] to create social card images easily.
 
 ### Backstory by [Shu](https://twitter.com/shuding_/status/1579607964549513217)
 

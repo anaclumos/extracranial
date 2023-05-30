@@ -21,7 +21,7 @@ Error: Cannot find module '{project}/dist'
 }
 ```
 
-Then I stashed my works and started traveling back in time with `git checkout HASH`. Comes out, the error started when I added MongoDB Models at `src/models`.
+Then I stashed my work and started traveling back in time with `git checkout HASH`. Comes out, the error started when I added MongoDB Models at `src/models`.
 
 It seemed **strange** since it had nothing to do with adding new modules or dependencies. Reinstalling `node_modules` did not do the job for me ([Relevant Stack Overflow Question here](https://stackoverflow.com/questions/53545800)). Please take a look at my folder structure.
 
@@ -33,8 +33,8 @@ It seemed **strange** since it had nothing to do with adding new modules or depe
 ├── package-lock.json
 ├── package.json
 ├── src
-│   ├── models (Newly added. Started to cause error.)
-│   │   └── user.ts (Newly added. Started to cause error.)
+│   ├── models (Newly added. Started to cause an error.)
+│   │   └── user.ts (Newly added. Started to cause an error.)
 │   └── server
 │       ├── config
 │       │   ├── config.ts
@@ -55,7 +55,7 @@ Long story short, it was the problem in my `tsconfig`. I have previously declare
 }
 ```
 
-However, since there was only `/server` folder before creating the model, it seems that TSC has automatically set the root directory to `src/server`. Therefore the `dist` output seemed like the following.
+However, since there was only a `/server` folder before creating the model, it seems that TSC has automatically set the root directory to `src/server`. Therefore the `dist` output seemed like the following.
 
 ```bash
 dist
