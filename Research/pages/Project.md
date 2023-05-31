@@ -10,8 +10,8 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 
 ## Ongoing Projects
 
-- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]] [[Project Heimdall]]
+- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]]
+- [[Project Heimdall]]
 - [[Project FFMpeg for iPad]]
 - [[Stable Alternative]]
-- [[Generative Open Graph]]
 - [[역사의 집대성]]
