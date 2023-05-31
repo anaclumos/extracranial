@@ -3345,6 +3345,11 @@ export const backlinks = {
     "한민족은 해적되었다": {
         "2023-01-26": "- [[한민족은 해적되었다]]"
     },
+    "Case-Sensitivity": {
+        "0409 Longest Palindrome": "Letters are [[Case-Sensitivity|case sensitive]], for example, `\"Aa\"` is not ...",
+        "Grammarly Work Note 2023-05-30": "## [[Case-Sensitivity]]",
+        "Make Git Case Sensitive": "Make Git [[Case-Sensitivity|Case Sensitive]]"
+    },
     "Time to Market": {
         "AI-native": "... AI-native approach's benefits include faster [[Time to Market]], increased scalability and availability, and ...",
         "Service Shimming": "... as we developers think. Maybe [[Time to Market]] is more critical. Here are ...",
@@ -3726,6 +3731,7 @@ export const backlinks = {
     "Databricks": {
         "GNAR": "... move away from GNAR to [[Databricks]].",
         "Grammarly Work Note 2023-05-25": "... move away from GNAR to [[Databricks]].",
+        "Grammarly Work Note 2023-05-30": "... and Cost Reduction Strategies for [[Databricks]] Clusters",
         "Project Prepare for Grammarly": "- [[Databricks]]",
         "Real Exams": "### CodeSignal (HRT, [[Databricks]]",
         "Real Interviews": "### [[Databricks]]"
@@ -4812,7 +4818,8 @@ export const backlinks = {
     },
     "GNAR": {
         "2023-05-30": "... Grammarly Work Note 2023-05-30 on [[GNAR]]",
-        "Grammarly Work Note 2023-05-25": "- [[GNAR]] is the single source of ..."
+        "Grammarly Work Note 2023-05-25": "- [[GNAR]] is the single source of ...",
+        "Grammarly Work Note 2023-05-30": "... Reduction of Cluster Spinning for Non-[[GNAR]] Runtime Jobs. For tasks that ..."
     },
     "Product-Market Fit": {
         "2022-06-06": "... on when struggling to find [[Product-Market Fit]] or fight for survival. - ...",
@@ -4857,6 +4864,7 @@ export const backlinks = {
         "슈퍼자판기": "[[Death Stranding|데스 스트랜딩]]을 하며 자판기의 미래를 상상했다. 그리고 ..."
     },
     "Grammarly Experimentations Team": {
+        "Grammarly Work Note 2023-05-30": "Today [[Grammarly Experimentations Team]] discussed strategies to reduce cost ...",
         "Project Prepare for Grammarly": "Project to prepare for my [[Grammarly Experimentations Team]] team employment."
     },
     "자아는 발굴되는 것이다": {
@@ -5785,7 +5793,7 @@ export const backlinks = {
     "Git": {
         "2022-11-28": "- [[Git]]: Git Notes: git's coolest, most ...",
         "How to Build Software like an SRE": "- use [[Git]]",
-        "Make Git Case Sensitive": "Make [[Git]] Case Sensitive",
+        "Make Git Case Sensitive": "Make [[Git]] [[Case-Sensitivity|Case Sensitive]]",
         "Techs Actually Simple": "- Yet [[Git]]'s object model is pretty simple ...",
         "UUIDs are Awesome": "... all records remain in the [[Git]] history, so we don't need ...",
         "Vercel": "... and deployments are handled through [[Git]] repositories. Vercel",
@@ -6429,6 +6437,9 @@ export const backlinks = {
     "도메인 찾아 삼만리": {
         "2023-02-11": "- [[도메인 찾아 삼만리]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "... of my domain <br/> 🇰🇷 [[도메인 찾아 삼만리]]      ..."
+    },
+    "Grammarly Work Note 2023-05-31": {
+        "2023-05-31": "[[Grammarly Work Note 2023-05-31]]"
     },
     "Naver": {
         "CalliFontia": "- 새로운 나눔손글씨 글꼴 - [[Naver|네이버]] 클로바: https://clova.ai/handwriting",
