@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/B5828C'
 ---
 
 [[Someday]] [[Project]]. It's this [[Aldehyde]].

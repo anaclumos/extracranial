@@ -686,6 +686,9 @@ export const backlinks = {
     "0206 Reverse Linked List": {
         "Coding Tests": "- [x] [[0206 Reverse Linked List]]"
     },
+    "Aldehyde SaaS": {
+        "2023-05-30": "- [[Aldehyde SaaS]]"
+    },
     "Person A480C6": {
         "Apple Silicon": "- [[Person A480C6]]",
         "Project PEOPLE": "- [[Person A480C6]]"
@@ -719,6 +722,7 @@ export const backlinks = {
         "2022-12-04": "- [[Aldehyde]]",
         "2023-02-16": "On [[Aldehyde]], one user wrote, When you ...",
         "2023-03-28": "- [[Aldehyde]]",
+        "Aldehyde SaaS": "Someday Project. It's this [[Aldehyde]].",
         "Better Aldehyde": "- [[Aldehyde]]",
         "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 ...",
         "Link Coefficient": "For example, as of 2023-02-16, [[Aldehyde]] has a 0.592% of Link ..."
@@ -2015,7 +2019,7 @@ export const backlinks = {
         "2023-03-24": "- [[hn.cho.sh]]",
         "2023-04-01": "- [[hn.cho.sh]]",
         "METI Engine": "The current generation is [[hn.cho.sh]] — and plan to scale ...",
-        "Project": "- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]] [[Project Heimdall]]",
+        "Project": "- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]]",
         "Project Heimdall": "Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news ...",
         "Vercel Incident Report (April 2023)": "... with two projects: lovearc.net and [[hn.cho.sh]].",
         "hn.cho.sh 개발 기록": "... 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
@@ -2529,6 +2533,9 @@ export const backlinks = {
         "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "[[Apple|애플]] 아이폰의 국내 인기는 점점 상승하고 ...",
         "잡스와 생존 편향": "대학을 중퇴하고 [[Apple|애플]]을 무작정 시작할 때, 워즈니악이 없었다면 ...",
         "하늘땅사람 개발 기록": "[[Apple]] QuickType과 비슷한 자동완성 기능은 필수적인데, ..."
+    },
+    "Research Paper NPM System": {
+        "2023-05-30": "- [[Research Paper NPM System]]"
     },
     "Person 88B488": {
         "Project PEOPLE": "- [[Person 88B488]]"
@@ -3092,6 +3099,9 @@ export const backlinks = {
         "Love Software": "... (Fiercely Overpriced|paywalled) alfred (now using [[raycast]])",
         "Neo Apps": "... Search. Spotlight → Alfred → [[Raycast]]"
     },
+    "Research Paper Hub": {
+        "2023-05-30": "- [[Research Paper Hub]]"
+    },
     "Bondee": {
         "2023-02-12": "- [[Bondee]]",
         "Did Bondee Really Suddenly Rise": "... took a closer look into [[Bondee]]: [[The Sudden Rise of Bondee]]. ...",
@@ -3216,6 +3226,7 @@ export const backlinks = {
         "AMP": "... by the AMP Open Source [[Project]]. [[Google]] created it as a ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you ...",
         "Aldehyde": "알데하이드는 아직 인문행정적 [[Project|프로젝트]] 운영에 약하다.",
+        "Aldehyde SaaS": "Someday [[Project]]. It's this [[Aldehyde]].",
         "Apple Earth": "Someday [[Project]]. [[Google]] Earth app but with ...",
         "Architectural Decision Records": "... created and maintained in a [[project]] constitute its decision log. All ...",
         "Automemoji": "Someday [[Project]].",
@@ -3272,6 +3283,7 @@ export const backlinks = {
         "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and ...",
         "Redactor for iPhone": "Someday [[Project]].",
         "Repeated Designs": "> Weekend side [[project]]: A gallery of the best ...",
+        "Research Paper NPM System": "Someday [[Project]]. It's an [[npm]] system for ...",
         "Snowpack으로 WASM 시작하기": "... 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
         "Sticker Party": "Someday [[Project]] GitHub README에 박을 수 있음. ...",
         "Stories Behind Satori": "... already done by an open-source [[project]] facebook/yoga.",
@@ -3889,6 +3901,7 @@ export const backlinks = {
         "활자": "[[하늘땅사람]]의 [[Subproject|하위 계획]]."
     },
     "Researcher": {
+        "Research Paper NPM System": "... It's an npm system for [[Researcher|Researchers]]. Citations are npm `install`s. Embedded ...",
         "Wael AbdAlmageed": "- [[Researcher]] at [[University of Southern California]]"
     },
     "3D": {
@@ -4795,7 +4808,7 @@ export const backlinks = {
         "2023-03-31": "- [[The Newtonian Correspondence]]"
     },
     "GNAR": {
-        "2023-05-30": "Grammarly Work Note 2023-05-30 on [[GNAR]]",
+        "2023-05-30": "... Grammarly Work Note 2023-05-30 on [[GNAR]]",
         "Grammarly Work Note 2023-05-25": "- [[GNAR]] is the single source of ..."
     },
     "Product-Market Fit": {
@@ -5161,7 +5174,8 @@ export const backlinks = {
     "Across the Sprachraums": {
         "2023-04-21": "- [[Across the Sprachraums]]",
         "Language": "- for context in [[Across the Sprachraums|intersprachraum]] communication: [[Foreign Language]]",
-        "hn.cho.sh 개발 기록": "... 절실히 느꼈다. Sprachraum에 구애받지 않는 [[Across the Sprachraums]]."
+        "hn.cho.sh 개발 기록": "... 절실히 느꼈다. Sprachraum에 구애받지 않는 [[Across the Sprachraums]].",
+        "무제한번역": "- [[Across the Sprachraums]]"
     },
     "Preemptive Multitasking": {
         "2022-07-11": "... guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks ...",
@@ -5617,6 +5631,9 @@ export const backlinks = {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
         "Coding Tests": "- [x] [[0021 Merge Two Sorted Lists]]"
     },
+    "무제한번역": {
+        "2023-05-30": "- [[무제한번역]]"
+    },
     "GitHub Pages에 React 앱 띄우기": {
         "2022-11-19": "  - [[GitHub Pages에 React 앱 띄우기]]",
         "React App on GitHub Pages": "- [[GitHub Pages에 React 앱 띄우기]]"
@@ -5856,7 +5873,7 @@ export const backlinks = {
         "2023-05-25": "- [[hn.cho.sh 개발 기록]]",
         "Avoid Premature Optimizations": "- [[hn.cho.sh 개발 기록]]",
         "Bootstrap": "- [[hn.cho.sh 개발 기록]]",
-        "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]] [[Project Heimdall]]"
+        "Project": "- hn.cho.sh [[hn.cho.sh 개발 기록]]"
     },
     "Minimaximalism": {
         "2022-07-18": "- [[Minimaximalism]]: Let's remove every unnecessaries."
@@ -6470,8 +6487,7 @@ export const backlinks = {
         "2023-05-18": "- [[Willpower]]"
     },
     "Generative Open Graph": {
-        "2023-03-06": "- [[Generative Open Graph]]",
-        "Project": "- [[Generative Open Graph]]"
+        "2023-03-06": "- [[Generative Open Graph]]"
     },
     "Ethereum RPC as a Service": {
         "2022-10-29": "- Matt Rickard: [[Ethereum RPC as a Service]], [[Is AWS a Dumb Pipe]]",
@@ -6590,6 +6606,7 @@ export const backlinks = {
         "2022-07-06": "... bundler, transpiler, task runner and [[npm]] client built-in",
         "2023-05-29": "- [[NPM]]",
         "PNPM": "... aims to improve aspects of [[npm]] and [[Yarn]]. It was designed ...",
+        "Research Paper NPM System": "Someday Project. It's an [[npm]] system for [[Researcher|Researchers]]. Citations are ...",
         "Yarn": "... efficient and reliable alternative to [[npm]]. It was released in 2016, ..."
     },
     "Docker": {
@@ -6768,6 +6785,7 @@ export const backlinks = {
     },
     "Someday": {
         "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter]] but ...",
+        "Aldehyde SaaS": "[[Someday]] [[Project]]. It's this [[Aldehyde]].",
         "Apple Earth": "[[Someday]] [[Project]]. [[Google]] Earth app but ...",
         "Automemoji": "[[Someday]] [[Project]].",
         "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App ...",
@@ -6795,6 +6813,7 @@ export const backlinks = {
         "Project FFMpeg for iPad": "- [[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game ...",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
+        "Research Paper NPM System": "[[Someday]] [[Project]]. It's an [[npm]] system ...",
         "Sticker Party": "[[Someday]] [[Project]] GitHub README에 박을 수 ...",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym ...",
         "The One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
@@ -7510,7 +7529,7 @@ export const backlinks = {
         "2023-05-18": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
-        "Project": "- hn.cho.sh hn.cho.sh 개발 기록 [[Project Heimdall]]",
+        "Project": "- [[Project Heimdall]]",
         "hn.cho.sh 개발 기록": "[[Project Heimdall]]",
         "일일일": "NewsGPT Model. A competitor to [[Project Heimdall]]."
     },
@@ -7762,7 +7781,7 @@ export const backlinks = {
         "개성은 쟁취하는 것": "... 가장 듣기 좋아하는 말도 「이건 [[딱 봐도 조성현]] ㅋㅋㅋㅋ」 이라는 말이었습니다."
     },
     "Grammarly Work Note 2023-05-30": {
-        "2023-05-30": "[[Grammarly Work Note 2023-05-30]] on [[GNAR]]"
+        "2023-05-30": "- [[Grammarly Work Note 2023-05-30]] on [[GNAR]]"
     },
     "이공계": {
         "2023-02-15": "- [[이공계]]",
@@ -7889,6 +7908,9 @@ export const backlinks = {
     },
     "wikilink": {
         "2022-10-17": "... is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does ..."
+    },
+    "Research Paper Language System": {
+        "2023-05-30": "- [[Research Paper Language System]]"
     },
     "21691E.png": {
         "2023-03-25": "![[21691E.png]]",
