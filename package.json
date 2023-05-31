@@ -15,7 +15,7 @@
     "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,js,jsx}'",
     "format:parallel": "pprettier --write '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,js,jsx}'",
     "clean": "$npm_execpath run clear",
-    "all-in-one": "$npm_execpath run clear && $npm_execpath run prepare && $npm_execpath run format:parallel && $npm_execpath run build && $npm_execpath run redirects && $npm_execpath run ship",
+    "all-in-one": "$npm_execpath run prepare; $npm_execpath run format:parallel; git add .; git commit -m 'wrote something'; git push; $npm_execpath run build; until $npm_execpath ship; do :; done",
     "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko",
     "write-heading-ids": "docusaurus write-heading-ids",
     "ko": "$npm_execpath run start --locale ko",
