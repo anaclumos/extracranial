@@ -2645,6 +2645,9 @@ export const backlinks = {
         "The Library of Babel": "... the idea, but not the [[Noumenon]].",
         "컴퓨터는 향정신성 약물인가": "... 얘기할 수 있다. 하지만 하나의 [[Noumenon|물자체]] 그 스스로와 그 Noumenon|물자체의 광적 ..."
     },
+    "Research Paper Language System": {
+        "2023-05-30": "- [[Research Paper Language System]]"
+    },
     "Generative Databases": {
         "2022-11-28": "... Demise of Chatbots in 2017, [[Generative Databases]]"
     },
@@ -5174,6 +5177,7 @@ export const backlinks = {
     "Across the Sprachraums": {
         "2023-04-21": "- [[Across the Sprachraums]]",
         "Language": "- for context in [[Across the Sprachraums|intersprachraum]] communication: [[Foreign Language]]",
+        "Research Paper Language System": "무제한번역 [[Across the Sprachraums]]",
         "hn.cho.sh 개발 기록": "... 절실히 느꼈다. Sprachraum에 구애받지 않는 [[Across the Sprachraums]].",
         "무제한번역": "- [[Across the Sprachraums]]"
     },
@@ -5632,7 +5636,8 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0021 Merge Two Sorted Lists]]"
     },
     "무제한번역": {
-        "2023-05-30": "- [[무제한번역]]"
+        "2023-05-30": "- [[무제한번역]]",
+        "Research Paper Language System": "[[무제한번역]] [[Across the Sprachraums]]"
     },
     "GitHub Pages에 React 앱 띄우기": {
         "2022-11-19": "  - [[GitHub Pages에 React 앱 띄우기]]",
@@ -7908,9 +7913,6 @@ export const backlinks = {
     },
     "wikilink": {
         "2022-10-17": "... is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does ..."
-    },
-    "Research Paper Language System": {
-        "2023-05-30": "- [[Research Paper Language System]]"
     },
     "21691E.png": {
         "2023-03-25": "![[21691E.png]]",
