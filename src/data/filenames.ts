@@ -1186,6 +1186,7 @@ export const filenames = {
     "Replicating Balenciaga Harry Potter Advertisement": "B4930B",
     "Requesting Review in Swift": "2D9A7C",
     "Research Paper Hub": "269115",
+    "Research Paper Language System": "35EB78",
     "Research Paper NPM System": "266623",
     "Researcher": "BB6D21",
     "Resend": "98A351",
