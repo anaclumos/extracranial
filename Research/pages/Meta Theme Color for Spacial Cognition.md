@@ -5,7 +5,7 @@ slug: '/4C1317'
 
 - [[Meta Theme Color]] for [[Spacial Cognition]]
 
-![[9EA5FE.gif]]
+![[9EA5FE.mp4]]
 
 > Tinted [[Safari]] theme color based on user action [pic.twitter.com/OZ20jSvW9X](https://t.co/OZ20jSvW9X)
 >

@@ -10,19 +10,19 @@ slug: '/502A78'
 - Resembles an [[OS]] with a magnifying dock at the bottom.
 - Has alphanumeric morphing, as if it is finding [[Information amongst Data]]
 
-![[CD52BB.gif]]
+![[CD52BB.mp4]]
 
 ## [https://flow.rest](https://flow.rest/)
 
 Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])
 
-![[C0147C.gif]]
+![[C0147C.mp4]]
 
 ## [Ultra](https://ultra.tf/)
 
 - Clipboard goes into [[Infinite Canvas]]
 
-![[FDD149.gif]]
+![[FDD149.mp4]]
 
 ## Miscellany related to [[UIUX|UI]]
 

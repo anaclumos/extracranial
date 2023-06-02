@@ -16,9 +16,6 @@ if __name__ == "__main__":
 
     print("Found " + str(len(all_md_files)) + " MD and MDX files.")
 
-    # replace ![alt text](file.ext) with
-    # <figure><img alt="alt text" src="file.ext"><figcaption>alt text</figcaption></figure>
-
     for md_file in all_md_files:
         if md_file.endswith("Hey.md"):
             continue
@@ -59,6 +56,11 @@ if __name__ == "__main__":
 </figure>
 """
                     COUNTER += 1
+                    # replace mp4, webm with video tag
+                    if filename.endswith(".mp4") or filename.endswith(".webm"):
+                        hex = filename.split("/")[-1].split(".")[0]
+                        line = f"""\n\nimport Video{hex} from "{filename}";\n<figure><video controls muted autoplay playsinline><source src={{Video{hex}}} type="video/{filename.split('.')[-1]}"/></video>{f'<figcaption>{alt_text}</figcaption>' if not filename.endswith(alt_text) else ''}</figure>"""
+
                 f.write(line)
 
     print("Replaced " + str(COUNTER) + " alt texts.")

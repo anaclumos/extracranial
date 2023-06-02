@@ -34,4 +34,4 @@ Using `preferred color scheme` CSS property and [[HTML]] Picture `srcset` proper
 </a>
 ```
 
-![[901660.gif]]
+![[901660.mp4]]

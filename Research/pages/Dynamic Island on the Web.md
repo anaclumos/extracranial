@@ -13,9 +13,9 @@ slug: '/B21605'
 - Applied Quick Clipping with [[Framer Motion]] for performance
 
 ![[D09A61.png]]
-![[EAC31F.gif]]
-![[A2A1AF.gif]]
-![[FA5FEC.gif]]
+![[EAC31F.mp4]]
+![[A2A1AF.mp4]]
+![[FA5FEC.mp4]]
 
 ## [[2022-11-10]]
 
@@ -25,21 +25,21 @@ slug: '/B21605'
 - Removed Scrubber Toggle
 - Squircle — failed
 
-![[CCDCB3.gif]]
-![[289F7E.gif]]
-![[926E3C.gif]]
-![[529667.gif]]
-![[332758.gif]]
-![[699391.gif]]
-![[737F76.gif]]
-![[CDE11C.gif]]
-![[D0A35A.gif]]
+![[CCDCB3.mp4]]
+![[289F7E.mp4]]
+![[926E3C.mp4]]
+![[529667.mp4]]
+![[332758.mp4]]
+![[699391.mp4]]
+![[737F76.mp4]]
+![[CDE11C.mp4]]
+![[D0A35A.mp4]]
 
 ## [[2022-11-09]]
 
 - Finally, as the last step, the only thing left is the integration with my website!
 
-![[5A3846.gif]]
+![[5A3846.mp4]]
 
 ## [[2022-10-28]]
 
@@ -54,11 +54,11 @@ I finally got the knack for how to animate and accelerate things.
 All I need to do now is to pack them with an API-style [[JSON]] payload.
 That way, anyone can put whatever data they want...
 
-![[E91526.gif]]
+![[E91526.mp4]]
 
 ## [[2022-10-16]]
 
-![[AA04D0.gif]]
+![[AA04D0.mp4]]
 
 ## Stack
 

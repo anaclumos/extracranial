@@ -5,7 +5,7 @@ slug: '/D92A3A'
 
 GrammarlyGO is a suite of [[generative AI]] capabilities from [[Grammarly]]. It considers your context, preferences, and goals to instantly generate high-quality drafts, outlines, replies, and revisions.
 
-![[3CDD1D.gif]]
+![[3CDD1D.mp4]]
 
 ## [[2023-04-25]] Announcement Demo
 
