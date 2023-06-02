@@ -859,7 +859,7 @@ export const filenames = {
     "Interoperability": "25F5EF",
     "InterviewKit": "D22464",
     "Intracranial": "009C77",
-    "Invalid type any of template literal expression": "{{hex}}",
+    "Invalid type any of template literal expression": "FF4DEF",
     "Iron Law of Processor Performance": "F4AC28",
     "Is AWS a Dumb Pipe": "32C1A4",
     "Is DevOps Overrated": "863FF2",
