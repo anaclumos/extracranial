@@ -10,5 +10,5 @@ A software generalist is a software developer or engineer rather than specializi
 ### [The Value of Software Generalists](https://matt-rickard.ghost.io/the-value-of-software-generalists/)
 
 - A familiar story: taking software engineering's best principles and injecting them into auxiliary technical stacks – the modern data stack (data observability, versioning, orchestrators rebased on [[Kubernetes]]), the [[ML|machine learning]] stack (cloud-native distributed training and inference on [[Kubernetes]]), or even domain-specific "Ops" like FinOps and HRMs (human resource management).
-- There's immense value in being a software engineering generalist and learning how to build and deploy a service—learning how to write a script to transform some data—learning how to do everyday tasks like authentication, querying a database, setting up a developer environment, SSH-ing into a machine, compiling software, debugging, and more.
+- There's immense value in being a software engineering generalist and learning how to build and deploy a service—learning how to write a script to transform some data—learning how to do everyday tasks like authentication, querying a [[database]], setting up a developer environment, SSH-ing into a machine, compiling software, debugging, and more.
 - A potential answer to [[Dear AIs, I have a question.]]
