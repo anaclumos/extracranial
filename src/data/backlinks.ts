@@ -4836,6 +4836,7 @@ export const backlinks = {
         "2023-05-30": "... Grammarly Work Note 2023-05-30 on [[GNAR]]",
         "Grammarly Work Note 2023-05-25": "- [[GNAR]] is the single source of ...",
         "Grammarly Work Note 2023-05-30": "... Reduction of Cluster Spinning for Non-[[GNAR]] Runtime Jobs. For tasks that ...",
+        "Grammarly Work Note 2023-05-31": "... method for ingesting analytical data, [[GNAR]], is being deprecated by 60% ...",
         "Sungari": "... Grammarly. The old system at [[GNAR]] had several significant issues, including ..."
     },
     "Product-Market Fit": {
@@ -6560,7 +6561,8 @@ export const backlinks = {
         "북스페이스": "... 스타트업. 곰단의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 것이다. 결과는 북스페이스의 피봇: ..."
     },
     "Sungari": {
-        "2023-05-31": "- [[Sungari]]"
+        "2023-05-31": "- [[Sungari]]",
+        "Grammarly Work Note 2023-05-31": "... of data ingestion is called '[[Sungari]].' The data ingestion process follows ..."
     },
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]"
