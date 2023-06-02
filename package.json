@@ -71,7 +71,7 @@
   "name": "cho-sh",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "all-in-one": "$npm_execpath run prepare && $npm_execpath run format:parallel && git add . && git commit -m 'wrote something' && git push && $npm_execpath run build && until $npm_execpath ship; do :; done",
+    "all-in-one": "$npm_execpath run prepare && $npm_execpath run format:parallel && git add . && git commit -m 'wrote something' && git push && $npm_execpath run build && $npm_execpath redirects && until $npm_execpath ship; do :; done",
     "backlinks": "python3 tools/process-backlinks.py",
     "build": "docusaurus build",
     "bundle": "python3 tools/bundle.py",
