@@ -59,7 +59,7 @@ if __name__ == "__main__":
                     # replace mp4, webm with video tag
                     if filename.endswith(".mp4") or filename.endswith(".webm"):
                         hex = filename.split("/")[-1].split(".")[0]
-                        line = f"""\n\nimport Video{hex} from "{filename}";\n<figure><video controls muted autoplay playsinline><source src={{Video{hex}}} type="video/{filename.split('.')[-1]}"/></video>{f'<figcaption>{alt_text}</figcaption>' if not filename.endswith(alt_text) else ''}</figure>"""
+                        line = f"""\n\nimport Video{hex} from "{filename}";\n<figure><video controls muted autoplay playsinline><source src={{Video{hex}}} type="video/{filename.split('.')[-1]}"/></video>{f'<figcaption>{alt_text}</figcaption>' if not filename.lower().endswith(alt_text.lower()) else ''}</figure>"""
 
                 f.write(line)
 
