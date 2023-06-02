@@ -779,6 +779,9 @@ export const backlinks = {
         "2022-10-21": "- [[Redirecting READMEs]]",
         "2023-03-24": "- [[Redirecting READMEs]]"
     },
+    "Invalid type any of template literal expression": {
+        "2023-06-02": "- [[Invalid type any of template literal expression]]"
+    },
     "TCP vs UDP": {
         "Internet Protocol Stack": "- Transport. TCP. UDP. [[TCP vs UDP]]. Handles Segments.",
         "Internetworking": "- [[TCP vs UDP]]"
@@ -1346,6 +1349,9 @@ export const backlinks = {
         "2023-02-09": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
+    "Project Florence": {
+        "2023-06-02": "- [[Project Florence]]"
+    },
     "Believer Plan": {
         "2023-05-22": "- [[Believer Plan]]"
     },
@@ -1370,6 +1376,9 @@ export const backlinks = {
     "Ted Chiang": {
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "Blurry JPEG은 SF계의 거장 [[Ted Chiang|테드 창]]이 작성한 훌륭한 글입니다.",
         "Exhalation": "Very impressive. Surely [[Ted Chiang]] is a genius. I especially ..."
+    },
+    "Unexpected number value in conditional. An explicit zero NaN check is required": {
+        "2023-06-02": "- [[Unexpected number value in conditional. An explicit zero NaN check is required]]"
     },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
@@ -1768,7 +1777,7 @@ export const backlinks = {
         "Data Science": "... is related to data mining, [[ML|machine learning]], big data, computational [[statistics]], and ...",
         "Databricks": "... data engineering, data exploration, and [[ML|machine learning]] tasks, all in a collaborative ...",
         "Deepfake": "... deepfakes leverage powerful techniques from [[ML|machine learning]] and [[AI|artificial intelligence]] to manipulate ...",
-        "Federated Training": "Federated learning is a privacy-preserving [[ML|machine learning]] approach that enables multiple parties ...",
+        "Federated Learning": "Federated learning is a privacy-preserving [[ML|machine learning]] approach that enables multiple parties ...",
         "Generalist": "... orchestrators rebased on Kubernetes), the [[ML|machine learning]] stack (cloud-native distributed training and ...",
         "Grammarly": "- [[ml]] team",
         "Hugging Face": "... tools for building applications using [[ML|machine learning]]. It is most notable for ...",
@@ -3305,7 +3314,7 @@ export const backlinks = {
         "Stories Behind Satori": "... already done by an open-source [[project]] facebook/yoga.",
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search ...",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
-        "Tech Now Pay Later": "... DB to use for your [[project]] and/or if it scales – ...",
+        "Tech Now Pay Later": "... Database|DB to use for your [[project]] and/or if it scales – ...",
         "The Battle of Flow and Asana": "... that scratched their own itch ([[project]] management,) and charge a monthly ...",
         "The One and Only (Social App)": "Someday [[Project]]. Ideated during [[Person 648442]]",
         "The One and Only WebExtension": "- Someday [[Project]]",
@@ -3598,7 +3607,7 @@ export const backlinks = {
         "Conversational AI Tools for Thought": "- ChatGPT and [[Generative AI]] are not exactly [[Tools for ...",
         "D-ID": "- [[Generative AI]] for Videos",
         "Eleven Labs": "- [[Generative AI]] for Voice. The most realistic ...",
-        "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as ...",
+        "Generative Databases": "In the world of [[Generative AI]]s, can we think [[Database]] as ...",
         "Generative Open Graph": "... Image as a Service. Use [[Generative AI]] to create Open Graph images, ...",
         "GrammarlyGO": "GrammarlyGO is a suite of [[generative AI]] capabilities from [[Grammarly]]. It considers ...",
         "Letter to Mr. Matt Rickard on 2022-11-28": "... a non-profit product that uses [[Generative AI|Generative AIs]] to describe any image on ...",
@@ -3949,7 +3958,7 @@ export const backlinks = {
     "Feature Flag": {
         "Grammarly Work Note 2023-05-25": "- [[Feature Flag]]",
         "How to Build Software like an SRE": "... time to disable a problematic [[Feature Flag]]",
-        "Inspiring Open Source Projects": "... open source feature toggle service. ([[Feature Flag]])"
+        "Inspiring Open Source Projects": "- Unleash/unleashh ([[Feature Flag]]) Unleash is the open source ..."
     },
     "JavaScript": {
         "2022-06-12": "... a technique in which client-side [[JavaScript]] converts a static [[HTML]] web ...",
@@ -4094,6 +4103,9 @@ export const backlinks = {
     },
     "Starlink": {
         "2022-10-19": "- [[Starlink]]"
+    },
+    "Grammarly Work Note 2023-06-02": {
+        "2023-06-02": "- [[Grammarly Work Note 2023-06-02]]"
     },
     "Brian Lovin": {
         "2023-05-29": "- [[Brian Lovin]]"
@@ -5040,7 +5052,7 @@ export const backlinks = {
     "Supabase": {
         "2022-12-28": "- Backend as a Service: [[Supabase]] (past: Firebase)",
         "2023-05-04": "- [[Supabase]]",
-        "henrymakesapps": "4.  [[Supabase]]: Offers an easy-to-use database with ...",
+        "henrymakesapps": "4.  [[Supabase]]: Offers an easy-to-use [[database]] with ...",
         "hn.cho.sh 개발 기록": "... starter template for Next.js and [[Supabase]] 살펴보기"
     },
     "Delta Time": {
@@ -5332,7 +5344,7 @@ export const backlinks = {
         "2022-09-29": "- [[Inspiring Open Source Projects]]"
     },
     "Google IO": {
-        "Vector DB": "... announced their Vector DB in [[Google IO]] 2023"
+        "Vector DB": "... announced their Vector Database|DB in [[Google IO]] 2023"
     },
     "국가와 민족": {
         "2023-02-15": "- [[국가와 민족]]",
@@ -5751,7 +5763,7 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-23 | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]] ..."
     },
     "GraphQL": {
-        "Inspiring Open Source Projects": "... platform built using Node.js, React, [[GraphQL]]. Deployed via Docker and Kubernetes.",
+        "Inspiring Open Source Projects": "... platform built using Node.js, React, [[GraphQL]]",
         "Redwood.js": "... For the back-end, Redwood uses [[GraphQL]], a query language for APIs ...",
         "Vector DB": "... cloud-native database, all accessible through [[GraphQL]], REST, and various language clients.",
         "henrymakesapps": "... communication without needing REST or [[GraphQL]].",
@@ -5880,7 +5892,7 @@ export const backlinks = {
     },
     "Differential Privacy": {
         "2023-04-19": "- [[Differential Privacy]]",
-        "Federated Training": "To preserve privacy, [[differential privacy]] adds noise to the updates ..."
+        "Federated Learning": "To preserve privacy, [[differential privacy]] adds noise to the updates ..."
     },
     "서비스 시밍": {
         "2023-02-02": "- [[서비스 시밍]]",
@@ -6228,7 +6240,7 @@ export const backlinks = {
         "2023-02-02": "... can create document drafts using [[Google]] Docs",
         "2023-02-08": "... providers: OpenAI (Microsoft) and Anthropic ([[Google]]). These companies spend vast amounts ...",
         "AI replaces expensive jobs first": "... search for similar topics like \"[[Google]] Search.\" For example, if a ...",
-        "AI는 고가 노동부터 점령한다": "... 데이터베이스화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] 검색\"처럼 유사 사례들을 검색할 수 ...",
+        "AI는 고가 노동부터 점령한다": "... Database|데이터베이스화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] 검색\"처럼 유사 사례들을 검색할 수 ...",
         "AMP": "... the AMP Open Source Project. [[Google]] created it as a competitor ...",
         "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth ...",
         "Boring Technologies": "... and you aren't at, like, [[Google]]-tier scale, throw it all in ...",
@@ -6279,6 +6291,10 @@ export const backlinks = {
     },
     "HTML 텍스트 위에 덧말 강조점 쓰기": {
         "2022-11-19": "  - [[HTML 텍스트 위에 덧말 강조점 쓰기]]"
+    },
+    "Federated Learning": {
+        "2023-04-19": "- [[Federated Learning]]",
+        "Project Florence": "... is a research project on [[Federated Learning]]."
     },
     "Deepfake": {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]]."
@@ -7124,9 +7140,6 @@ export const backlinks = {
     "SIMD": {
         "2023-01-23": "- [[SIMD]]"
     },
-    "Federated Training": {
-        "2023-04-19": "- [[Federated Training]]"
-    },
     "Torvalds": {
         "Linux": "... September 17, 1991, by Linus [[Torvalds]]. Linux is typically packaged as ..."
     },
@@ -7673,6 +7686,9 @@ export const backlinks = {
     "Nation as a Service": {
         "2022-09-12": "- [[Nation as a Service]]"
     },
+    "Database vs Datalake": {
+        "2023-06-02": "- [[Database vs Datalake]]"
+    },
     "AI": {
         "2022-05-31": "... Capture your thoughts from anywhere. Weavit.[[ai]]",
         "2022-11-14": "... creative tools using advances in [[AI]]. A new kind of Adobe ...",
@@ -7818,6 +7834,10 @@ export const backlinks = {
     "Moments": {
         "Probability": "- [[Moments]]"
     },
+    "Datalake": {
+        "Database vs Datalake": "## [[Datalake]]:",
+        "Datahouse": "... as a control layer for [[Datalake]], allowing for centralized management of ..."
+    },
     "Biden-Harris Administration National Security Strategy 2022": {
         "2023-02-15": "- [[Biden-Harris Administration National Security Strategy 2022]]"
     },
@@ -7844,6 +7864,40 @@ export const backlinks = {
         "2022-10-27": "- [[Small Government vs Big Government]]",
         "Neo Korea": "- [[Small Government vs Big Government]]",
         "Small yet Powerful": "... be a potential answer to [[Small Government vs Big Government]]"
+    },
+    "Database": {
+        "2022-06-05": "... friction. I strongly dislike slow [[Database|DB]] queries and slow web-based admin ...",
+        "2022-11-30": "... with only a few actual [[database]] connections",
+        "2022-12-28": "- SQL [[Database]]: SQLite (Past: PostgreSQL)",
+        "2023-02-02": "... end. It uses a PostgreSQL [[database]] for storage and Algolia to ...",
+        "AI는 고가 노동부터 점령한다": "... 딱지 위반)로 시작한다. 하지만 점차 [[Database|데이터베이스]]화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] ...",
+        "Cookie": "... that corresponds to the backend [[database]].",
+        "Database vs Datalake": "## [[Database]]:",
+        "Digital Bookmarks for Physical Books": "... to collect it as a [[database]] on your phone? Reference: Why ...",
+        "FIRE Engine": "... has turned into a colossal [[database]] of everything on the internet",
+        "Generalist": "... tasks like authentication, querying a [[database]], setting up a developer environment, ...",
+        "Generative Databases": "... Generative AIs, can we think [[Database]] as Gen [[AI]] models instead ...",
+        "HEEx": "... of dynamic data, such as [[database]] queries or API responses, directly ...",
+        "Higher-Level Languages and Their Speeds": "- Don't use the [[database]] when avoidable, which is always ...",
+        "Letter to Mr. Matt Rickard on 2022-11-28": "... maybe image is stored in [[Database|DB]])",
+        "Link Coefficient": "Given a [[database]], how interconnected is the database?",
+        "Now Page": "... rather keep improving my back-end [[database]] work.\"",
+        "Preservation of Data": "... sometimes curl, and a MySQL [[database]] to store the results in.",
+        "Prisma": "Prisma is an open-source [[database]] toolkit developed to make it ...",
+        "Proposal of Research 2023-01-10": "... the pixel combinations on the [[database]]. So, I explored clamping the ...",
+        "React": "... functionality from UIUX|UI to the [[database]], with extra features such as ...",
+        "Redwood.js": "... (ORM) solution to manage the [[database]] layer. Prisma helps developers build ...",
+        "Render.com": "... backend-intensive tasks such as migrating [[database]] data in bulk.",
+        "Supabase": "... utilizes PostgreSQL as its core [[database]] engine, providing developers with a ...",
+        "Tech Now Pay Later": "... used TXT files as its \"[[database]]\".",
+        "Tools Must Vanish": "... across your filesystem, Dropbox, and [[database]] rows in six different proprietary ...",
+        "Vector DB": "... lang=\"en\" dir=\"ltr\">Google killing all vector [[Database|db]] startups lmao <a href=\"https://t.co/CR0kD3eekD\">pic.twitter.com/CR0kD3eekD</a></p>&mdash; Techno-Dharma ...",
+        "dub.sh": "  - upstash [[database]]",
+        "henrymakesapps": "...  Supabase: Offers an easy-to-use [[database]] with PostgreSQL and type-injected clients.",
+        "hn.cho.sh 개발 기록": "- 결국 [[Database|DB]] 기반으로 옮겨가야하는 것은 맞다. SPA ...",
+        "데이터베이스권": "... 크롤링 분쟁이 늘어나는 가운데 법원이 '[[Database|데이터베이스]] ([[Database|DB]]) 권' 침해에 대해 엄격하게 ...",
+        "잡스와 생존 편향": "지식 탐색기는 거대한 네트워크 [[Database|데이터베이스]]에 하이퍼텍스트 방식으로 접근할 수 있으며 ...",
+        "프로젝트 어덕행덕": "## Facial [[Database]]"
     },
     "Memory Hierarchy": {
         "2022-11-03": "- [[Memory Hierarchy]]",
@@ -9736,6 +9790,12 @@ export const backlinks = {
     },
     "78DD5F.png": {
         "Project Heimdall": "![[78DD5F.png]]"
+    },
+    "371542.png": {
+        "Database vs Datalake": "![[371542.png]]"
+    },
+    "1E54F8.png": {
+        "Database vs Datalake": "![[1E54F8.png]]"
     },
     "E1AF2F.png": {
         "Simulated Annealing for Designs": "![[E1AF2F.png]]"
