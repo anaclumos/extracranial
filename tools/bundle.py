@@ -3,7 +3,6 @@ import os
 
 EN_DIR = "./blog"
 KO_DIR = "./i18n/ko/docusaurus-plugin-content-blog"
-# SOURCE_DIR = "./legacy"
 NEW_SOURCE_DIR = "./posts"
 
 # first, remove all files in the target directory
@@ -24,19 +23,6 @@ def remove_dir(dir):
 remove_dir(KO_DIR)
 remove_dir(EN_DIR)
 
-
-# # copy all files from the source directory to the target directory
-# for file in os.listdir(SOURCE_DIR):
-#     file_path = os.path.join(SOURCE_DIR, file)
-#     if os.path.isfile(file_path):
-#         shutil.copy(file_path, KO_DIR)
-#         shutil.copy(file_path, EN_DIR)
-#     elif os.path.isdir(file_path):
-#         shutil.copytree(file_path, os.path.join(KO_DIR, file))
-#         shutil.copytree(file_path, os.path.join(EN_DIR, file))
-#     else:
-#         print("Unknown file type: " + file_path)
-
 for file in os.listdir(NEW_SOURCE_DIR):
     file_path = os.path.join(NEW_SOURCE_DIR, file)
     if os.path.isfile(file_path):
@@ -48,9 +34,7 @@ for file in os.listdir(NEW_SOURCE_DIR):
     else:
         print("Unknown file type: " + file_path)
 
-# copy config/english.yml to EN_DIR/authors.yml
 shutil.copy("./config/english.yml", EN_DIR + "/authors.yml")
-# copy config/korean.yml to KO_DIR/authors.yml
 shutil.copy("./config/korean.yml", KO_DIR + "/authors.yml")
 
 
