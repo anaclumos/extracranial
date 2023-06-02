@@ -257,7 +257,8 @@ article a[href*='https://www.gitkraken.com']::before
 }
 
 article a[href*='https://gitlab.com']::before,
-article a[href*='https://www.gitlab.com']::before
+article a[href*='https://www.gitlab.com']::before,
+article a[href*='https://gitlab.grammarly.io']::before,
 {
   content: '\00a0';
   -webkit-mask-image: url('https://simpleicons.org/icons/gitlab.svg');

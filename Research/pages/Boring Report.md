@@ -9,4 +9,4 @@ slug: '/9705B1'
 >
 > Boring Report relies on your support to keep the app running smoothly. So if you'd like to help us out, please consider buying us a coffee to cover the costs.
 
-![[B92798.gif]]
+![[B92798.mp4]]

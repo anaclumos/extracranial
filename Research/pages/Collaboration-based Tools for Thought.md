@@ -31,4 +31,4 @@ slug: '/811E08'
 
 ### [mmhmm](https://www.mmhmm.app/home)
 
-![[6A89D8.gif]]
+![[6A89D8.mp4]]

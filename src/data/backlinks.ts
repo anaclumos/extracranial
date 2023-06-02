@@ -921,7 +921,7 @@ export const backlinks = {
         "2022-07-14": "... I found: Uber didn't make [[Kubernetes]]. [[Google]] did.",
         "Boring Technologies": "... your product runs on Heroku, [[Kubernetes]], or a brittle singly-homed machine ...",
         "Cloud-Native": "... and automation using tools like [[Kubernetes]], [[Docker]], and Terraform.",
-        "Generalist": "... observability, versioning, orchestrators rebased on [[Kubernetes]]), the machine learning stack (cloud-native ...",
+        "Generalist": "... observability, versioning, orchestrators rebased on [[Kubernetes]]), the [[ML|machine learning]] stack (cloud-native ...",
         "How to Build Software like an SRE": "- use [[Kubernetes]]",
         "The Architecture of Mastodon": "... make developer workflow harder. Containerization, [[Kubernetes]], and modern [[front-end]] stacks are ..."
     },
@@ -1597,6 +1597,11 @@ export const backlinks = {
     "tabOS": {
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "- Current works: [[tabOS]]"
     },
+    "Airship": {
+        "2023-05-31": "- [[Airship]]",
+        "공기 청정 비행선": "그냥 공기를 정화하는 [[Airship|비행선]]을 단체로 다같이 띄워 올려서 공기 ...",
+        "미지의 외계행성": "나는 분명 애플파이라는 우주[[Airship|비행선]]을 타고 장거리 도약을 준비하고 있었다. ..."
+    },
     "Font Features": {
         "2022-08-01": "... realized that this enables Font [[Font Features|Ligature]] Settings.",
         "CalliFontia": "- 추출 전 여러가지 [[Font Features]]을 켜고 끄며 미리보기 대조 가능",
@@ -1761,11 +1766,16 @@ export const backlinks = {
         "Artifact": "... and Mike Krieger. It uses [[ML|machine learning]] to understand users' interests and ...",
         "Can we ever build TikTok for Text": "... news feed app that uses [[ML|machine learning]] to understand users' interests and ...",
         "Data Science": "... is related to data mining, [[ML|machine learning]], big data, computational [[statistics]], and ...",
+        "Databricks": "... data engineering, data exploration, and [[ML|machine learning]] tasks, all in a collaborative ...",
         "Deepfake": "... deepfakes leverage powerful techniques from [[ML|machine learning]] and [[AI|artificial intelligence]] to manipulate ...",
+        "Federated Training": "Federated learning is a privacy-preserving [[ML|machine learning]] approach that enables multiple parties ...",
+        "Generalist": "... orchestrators rebased on Kubernetes), the [[ML|machine learning]] stack (cloud-native distributed training and ...",
         "Grammarly": "- [[ml]] team",
         "Hugging Face": "... tools for building applications using [[ML|machine learning]]. It is most notable for ...",
         "Imagining WebNPU API": "... already observing blooming On-device inferencing [[ML]] technology with [[Apple]]'s [[Neural Engine]]. ...",
         "Karrot NX Team Mission Statement": "... 일도 할거거든요. 피드 & 추천 [[ML]] & 검색 & NX 가 ...",
+        "Kinesis": "... and IoT telemetry data, for [[ML|machine learning]], analytics, and other applications.",
+        "Mojo": "... a new programming language for [[ML]] that is high-performance and backward ...",
         "OpenAI enthroned as the Levis of Tech": "... Fewer expensive Data Engineers & [[ML]] Engineers — The rise of ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "- 값비싼 데이터 엔지니어 및 [[ML]] 엔지니어 감소 — [[AI]] 네이티브 ...",
         "Person 392196": "... - felt like a giant [[ML|machine-learning]] research facility",
@@ -4904,6 +4914,9 @@ export const backlinks = {
     "Riffusion": {
         "2022-12-17": "- [[Riffusion]]: Mesmerizing. Whenever I see something ..."
     },
+    "Grammarly Work Note 2023-06-01": {
+        "2023-06-01": "[[Grammarly Work Note 2023-06-01]]"
+    },
     "Setting different images for Light & Dark mode": {
         "2022-10-21": "- [[Setting different images for Light & Dark mode]]"
     },
@@ -6439,7 +6452,7 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "... of my domain <br/> 🇰🇷 [[도메인 찾아 삼만리]]      ..."
     },
     "Grammarly Work Note 2023-05-31": {
-        "2023-05-31": "[[Grammarly Work Note 2023-05-31]]"
+        "2023-05-31": "- [[Grammarly Work Note 2023-05-31]]"
     },
     "Naver": {
         "CalliFontia": "- 새로운 나눔손글씨 글꼴 - [[Naver|네이버]] 클로바: https://clova.ai/handwriting",
@@ -6534,6 +6547,9 @@ export const backlinks = {
     "뤼튼": {
         "2023-05-03": "- [[뤼튼]]",
         "북스페이스": "... 스타트업. 곰단의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 것이다. 결과는 북스페이스의 피봇: ..."
+    },
+    "Sungari": {
+        "2023-05-31": "- [[Sungari]]"
     },
     "지구 끝의 온실": {
         "Readings": "- [x] [[지구 끝의 온실]]"
@@ -7211,6 +7227,7 @@ export const backlinks = {
         "Using an iPad as my Ebook": "... that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter ..."
     },
     "Apache": {
+        "Apache Kafka": "[[Apache]] Kafka is an open-source distributed ...",
         "Apache Spark": "[[Apache]] Spark is an open-source, distributed ...",
         "IntelliJ": "... and is available as an [[Apache]] 2 Licensed community edition and ..."
     },
@@ -7918,9 +7935,9 @@ export const backlinks = {
         "2022-10-16": "![[5FB7C1.png]]",
         "Backlinking for Aldehyde": "![[5FB7C1.png]]"
     },
-    "AA04D0.gif": {
-        "2022-10-16": "![[AA04D0.gif]]",
-        "Dynamic Island on the Web": "![[AA04D0.gif]]"
+    "AA04D0.mp4": {
+        "2022-10-16": "![[AA04D0.mp4]]",
+        "Dynamic Island on the Web": "![[AA04D0.mp4]]"
     },
     "wikilink": {
         "2022-10-17": "... is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does ..."
@@ -7944,6 +7961,42 @@ export const backlinks = {
         "2022-12-08": "![[94861D.png]]",
         "Love Wikipedia": "![[94861D.png]]",
         "Wikipedia": "![[94861D.png]]"
+    },
+    "1c6908.mp4": {
+        "2023-06-01": "![[1c6908.mp4]]"
+    },
+    "2e4ae2.mp4": {
+        "2023-06-01": "![[2e4ae2.mp4]]"
+    },
+    "3c1863.mp4": {
+        "2023-06-01": "![[3c1863.mp4]]"
+    },
+    "3e6349.mp4": {
+        "2023-06-01": "![[3e6349.mp4]]"
+    },
+    "5a8157.mp4": {
+        "2023-06-01": "![[5a8157.mp4]]"
+    },
+    "5be90a.mp4": {
+        "2023-06-01": "![[5be90a.mp4]]"
+    },
+    "5c1df3.mp4": {
+        "2023-06-01": "![[5c1df3.mp4]]"
+    },
+    "39f935.mp4": {
+        "2023-06-01": "![[39f935.mp4]]"
+    },
+    "2096df.mp4": {
+        "2023-06-01": "![[2096df.mp4]]"
+    },
+    "170004.mp4": {
+        "2023-06-01": "![[170004.mp4]]"
+    },
+    "c2563c.mp4": {
+        "2023-06-01": "![[c2563c.mp4]]"
+    },
+    "f6bb1b.mp4": {
+        "2023-06-01": "![[f6bb1b.mp4]]"
     },
     "30ADF3.png": {
         "2023-04-15": "![[30ADF3.png]]"
@@ -7995,45 +8048,45 @@ export const backlinks = {
     "B22093.png": {
         "2022-06-27": "![[B22093.png]]"
     },
-    "5A3846.gif": {
-        "2022-11-10": "![[5A3846.gif]]",
-        "Dynamic Island on the Web": "![[5A3846.gif]]"
+    "5A3846.mp4": {
+        "2022-11-10": "![[5A3846.mp4]]",
+        "Dynamic Island on the Web": "![[5A3846.mp4]]"
     },
-    "CCDCB3.gif": {
-        "2022-11-10": "![[CCDCB3.gif]]",
-        "Dynamic Island on the Web": "![[CCDCB3.gif]]"
+    "CCDCB3.mp4": {
+        "2022-11-10": "![[CCDCB3.mp4]]",
+        "Dynamic Island on the Web": "![[CCDCB3.mp4]]"
     },
-    "289F7E.gif": {
-        "2022-11-10": "![[289F7E.gif]]",
-        "Dynamic Island on the Web": "![[289F7E.gif]]"
+    "289F7E.mp4": {
+        "2022-11-10": "![[289F7E.mp4]]",
+        "Dynamic Island on the Web": "![[289F7E.mp4]]"
     },
-    "926E3C.gif": {
-        "2022-11-10": "![[926E3C.gif]]",
-        "Dynamic Island on the Web": "![[926E3C.gif]]"
+    "926E3C.mp4": {
+        "2022-11-10": "![[926E3C.mp4]]",
+        "Dynamic Island on the Web": "![[926E3C.mp4]]"
     },
-    "529667.gif": {
-        "2022-11-10": "![[529667.gif]]",
-        "Dynamic Island on the Web": "![[529667.gif]]"
+    "529667.mp4": {
+        "2022-11-10": "![[529667.mp4]]",
+        "Dynamic Island on the Web": "![[529667.mp4]]"
     },
-    "332758.gif": {
-        "2022-11-10": "![[332758.gif]]",
-        "Dynamic Island on the Web": "![[332758.gif]]"
+    "332758.mp4": {
+        "2022-11-10": "![[332758.mp4]]",
+        "Dynamic Island on the Web": "![[332758.mp4]]"
     },
-    "699391.gif": {
-        "2022-11-10": "![[699391.gif]]",
-        "Dynamic Island on the Web": "![[699391.gif]]"
+    "699391.mp4": {
+        "2022-11-10": "![[699391.mp4]]",
+        "Dynamic Island on the Web": "![[699391.mp4]]"
     },
-    "737F76.gif": {
-        "2022-11-10": "![[737F76.gif]]",
-        "Dynamic Island on the Web": "![[737F76.gif]]"
+    "737F76.mp4": {
+        "2022-11-10": "![[737F76.mp4]]",
+        "Dynamic Island on the Web": "![[737F76.mp4]]"
     },
-    "CDE11C.gif": {
-        "2022-11-10": "![[CDE11C.gif]]",
-        "Dynamic Island on the Web": "![[CDE11C.gif]]"
+    "CDE11C.mp4": {
+        "2022-11-10": "![[CDE11C.mp4]]",
+        "Dynamic Island on the Web": "![[CDE11C.mp4]]"
     },
-    "D0A35A.gif": {
-        "2022-11-10": "![[D0A35A.gif]]",
-        "Dynamic Island on the Web": "![[D0A35A.gif]]"
+    "D0A35A.mp4": {
+        "2022-11-10": "![[D0A35A.mp4]]",
+        "Dynamic Island on the Web": "![[D0A35A.mp4]]"
     },
     "FB4548.png": {
         "2023-05-19": "![[FB4548.png]]"
@@ -8092,20 +8145,20 @@ export const backlinks = {
         "2022-11-11": "![[D09A61.png]]",
         "Dynamic Island on the Web": "![[D09A61.png]]"
     },
-    "EAC31F.gif": {
-        "2022-11-11": "![[EAC31F.gif]]",
-        "Dynamic Island on the Web": "![[EAC31F.gif]]"
+    "EAC31F.mp4": {
+        "2022-11-11": "![[EAC31F.mp4]]",
+        "Dynamic Island on the Web": "![[EAC31F.mp4]]"
     },
-    "A2A1AF.gif": {
-        "2022-11-11": "![[A2A1AF.gif]]",
-        "Dynamic Island on the Web": "![[A2A1AF.gif]]"
+    "A2A1AF.mp4": {
+        "2022-11-11": "![[A2A1AF.mp4]]",
+        "Dynamic Island on the Web": "![[A2A1AF.mp4]]"
     },
-    "FA5FEC.gif": {
-        "2022-11-11": "![[FA5FEC.gif]]",
-        "Dynamic Island on the Web": "![[FA5FEC.gif]]"
+    "FA5FEC.mp4": {
+        "2022-11-11": "![[FA5FEC.mp4]]",
+        "Dynamic Island on the Web": "![[FA5FEC.mp4]]"
     },
-    "D4C125.gif": {
-        "2022-08-01": "![[D4C125.gif]]"
+    "D4C125.mp4": {
+        "2022-08-01": "![[D4C125.mp4]]"
     },
     "E8341D.png": {
         "2023-02-08": "![[E8341D.png]]"
@@ -8119,9 +8172,9 @@ export const backlinks = {
     "6343BC.png": {
         "2023-04-29": "![[6343BC.png]]"
     },
-    "E91526.gif": {
-        "2022-10-20": "![[E91526.gif]]",
-        "Dynamic Island on the Web": "![[E91526.gif]]"
+    "E91526.mp4": {
+        "2022-10-20": "![[E91526.mp4]]",
+        "Dynamic Island on the Web": "![[E91526.mp4]]"
     },
     "0335E4.jpeg": {
         "2022-10-14": "![[0335E4.jpeg]]"
@@ -8132,9 +8185,9 @@ export const backlinks = {
     "D8D74F.png": {
         "2022-10-14": "![[D8D74F.png]]"
     },
-    "EAADF1.gif": {
-        "2023-01-02": "![[EAADF1.gif]]",
-        "하늘땅사람 개발 기록": "![[EAADF1.gif]]"
+    "EAADF1.mp4": {
+        "2023-01-02": "![[EAADF1.mp4]]",
+        "하늘땅사람 개발 기록": "![[EAADF1.mp4]]"
     },
     "E13484.png": {
         "2022-12-20": "![[E13484.png]]"
@@ -8221,9 +8274,9 @@ export const backlinks = {
     "CEE458.png": {
         "Texts": "![[CEE458.png]]"
     },
-    "339420.gif": {
-        "Aldehyde Landing Page 2023": "![[339420.gif]]",
-        "날씨 요정": "![[339420.gif]]"
+    "339420.mp4": {
+        "Aldehyde Landing Page 2023": "![[339420.mp4]]",
+        "날씨 요정": "![[339420.mp4]]"
     },
     "971BA5.png": {
         "Bing Chat for All Browsers in Japan": "![[971BA5.png]]"
@@ -8405,9 +8458,9 @@ export const backlinks = {
         "Aldehyde Landing Page 2023": "![[339CE9.png]]",
         "Apple-like Block Interface": "![[339CE9.png]]"
     },
-    "341F72.gif": {
-        "Aldehyde Landing Page 2023": "![[341F72.gif]]",
-        "Apple-like Block Interface": "![[341F72.gif]]"
+    "341F72.mp4": {
+        "Aldehyde Landing Page 2023": "![[341F72.mp4]]",
+        "Apple-like Block Interface": "![[341F72.mp4]]"
     },
     "EC7EEF.png": {
         "Python": "![[EC7EEF.png]]"
@@ -8614,9 +8667,9 @@ export const backlinks = {
     "1D64A6.png": {
         "Visual-based Tools for Thought": "![[1D64A6.png]]"
     },
-    "F414E3.gif": {
-        "Heptabase": "![[F414E3.gif]]",
-        "Visual-based Tools for Thought": "![[F414E3.gif]]"
+    "F414E3.mp4": {
+        "Heptabase": "![[F414E3.mp4]]",
+        "Visual-based Tools for Thought": "![[F414E3.mp4]]"
     },
     "B4ED9A.png": {
         "Visual-based Tools for Thought": "![[B4ED9A.png]]"
@@ -8678,8 +8731,8 @@ export const backlinks = {
     "133EBF.png": {
         "Collaboration-based Tools for Thought": "![[133EBF.png]]"
     },
-    "6A89D8.gif": {
-        "Collaboration-based Tools for Thought": "![[6A89D8.gif]]"
+    "6A89D8.mp4": {
+        "Collaboration-based Tools for Thought": "![[6A89D8.mp4]]"
     },
     "7A151F.jpeg": {
         "Adding a Verified Mark on Apple Mail & Gmail": "![[7A151F.jpeg]]"
@@ -8697,11 +8750,11 @@ export const backlinks = {
         "ChatGPT is a Blurry JPEG and We Need That": "![[D26259.png]]",
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "![[D26259.png]]"
     },
-    "6ECA95.gif": {
-        "UI Designs for Editing Messages": "![[6ECA95.gif]]"
+    "6ECA95.mp4": {
+        "UI Designs for Editing Messages": "![[6ECA95.mp4]]"
     },
-    "377FC7.gif": {
-        "CMDK": "![[377FC7.gif]]"
+    "377FC7.mp4": {
+        "CMDK": "![[377FC7.mp4]]"
     },
     "D6F77F.png": {
         "Squircle": "![[D6F77F.png]]"
@@ -8813,17 +8866,17 @@ export const backlinks = {
     "F0B126.png": {
         "lovearc.net": "![[F0B126.png]]"
     },
-    "227D79.gif": {
-        "Visual ChatGPT": "![[227D79.gif]]"
+    "227D79.mp4": {
+        "Visual ChatGPT": "![[227D79.mp4]]"
     },
-    "B92798.gif": {
-        "Boring Report": "![[B92798.gif]]"
+    "B92798.mp4": {
+        "Boring Report": "![[B92798.mp4]]"
     },
     "BD6DAB.png": {
         "Pretendard의 아쉬운 점": "![[BD6DAB.png]]"
     },
-    "EF6FE0.gif": {
-        "Pretendard의 아쉬운 점": "![[EF6FE0.gif]]"
+    "EF6FE0.mp4": {
+        "Pretendard의 아쉬운 점": "![[EF6FE0.mp4]]"
     },
     "Firefox                                                                            ": {
         "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 5년 된 디펜더 버그 수정으로 [[Firefox                                                                            | 파이어폭스]] 관련 CPU 사용량 75% 감소 ..."
@@ -8933,8 +8986,8 @@ export const backlinks = {
     "EFC07C.png": {
         "Detroit Become Human": "![[EFC07C.png]]"
     },
-    "5E92AA.gif": {
-        "Detroit Become Human": "![[5E92AA.gif]]"
+    "5E92AA.mp4": {
+        "Detroit Become Human": "![[5E92AA.mp4]]"
     },
     "115932.png": {
         "Linkflags": "![[115932.png]]"
@@ -8963,8 +9016,8 @@ export const backlinks = {
     "C035D8.png": {
         "Linkflags": "![[C035D8.png]]"
     },
-    "2E6CEB.gif": {
-        "Linkflags": "![[2E6CEB.gif]]"
+    "2E6CEB.mp4": {
+        "Linkflags": "![[2E6CEB.mp4]]"
     },
     "2A2DC6.png": {
         "프로젝트 어덕행덕": "![[2A2DC6.png]]"
@@ -9055,9 +9108,9 @@ export const backlinks = {
     "9C8F45.png": {
         "Search-based Tools for Thought": "![[9C8F45.png]]"
     },
-    "C0147C.gif": {
-        "Data Capturers": "![[C0147C.gif]]",
-        "Rauno": "![[C0147C.gif]]"
+    "C0147C.mp4": {
+        "Data Capturers": "![[C0147C.mp4]]",
+        "Rauno": "![[C0147C.mp4]]"
     },
     "13ED2A.png": {
         "Data Capturers": "![[13ED2A.png]]",
@@ -9073,8 +9126,8 @@ export const backlinks = {
     "8F4764.png": {
         "Death Stranding": "![[8F4764.png]]"
     },
-    "901660.gif": {
-        "Setting different images for Light & Dark mode": "![[901660.gif]]"
+    "901660.mp4": {
+        "Setting different images for Light & Dark mode": "![[901660.mp4]]"
     },
     "2128CA.png": {
         "Edge Network": "![[2128CA.png]]"
@@ -9091,8 +9144,8 @@ export const backlinks = {
     "33434F.png": {
         "AMP Email": "![[33434F.png]]"
     },
-    "277486.gif": {
-        "Link Preview for Arc": "![[277486.gif]]"
+    "277486.mp4": {
+        "Link Preview for Arc": "![[277486.mp4]]"
     },
     "48C71E.png": {
         "Diagram (Company)": "![[48C71E.png]]"
@@ -9169,11 +9222,11 @@ export const backlinks = {
     "Graphic Window": {
         "Graphics Engine Process": "  - Create a [[Graphic Window]]"
     },
-    "CD52BB.gif": {
-        "Rauno": "![[CD52BB.gif]]"
+    "CD52BB.mp4": {
+        "Rauno": "![[CD52BB.mp4]]"
     },
-    "FDD149.gif": {
-        "Rauno": "![[FDD149.gif]]"
+    "FDD149.mp4": {
+        "Rauno": "![[FDD149.mp4]]"
     },
     "729C95.png": {
         "Rauno": "![[729C95.png]]"
@@ -9229,9 +9282,9 @@ export const backlinks = {
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"
     },
-    "3CDD1D.gif": {
-        "GrammarlyGO": "![[3CDD1D.gif]]",
-        "Project Prepare for Grammarly": "![[3CDD1D.gif]]"
+    "3CDD1D.mp4": {
+        "GrammarlyGO": "![[3CDD1D.mp4]]",
+        "Project Prepare for Grammarly": "![[3CDD1D.mp4]]"
     },
     "BB5160.png": {
         "GrammarlyGO": "![[BB5160.png]]"
@@ -9335,8 +9388,8 @@ export const backlinks = {
     "EBEF28.png": {
         "Passkey": "![[EBEF28.png]]"
     },
-    "4A4A25.gif": {
-        "Hashflags": "![[4A4A25.gif]]"
+    "4A4A25.mp4": {
+        "Hashflags": "![[4A4A25.mp4]]"
     },
     "A01C1B.png": {
         "Hashflags": "![[A01C1B.png]]"
@@ -9659,11 +9712,11 @@ export const backlinks = {
     "6BD54D.png": {
         "Three Column Design": "![[6BD54D.png]]"
     },
-    "900A33.gif": {
-        "Tome": "![[900A33.gif]]"
+    "900A33.mp4": {
+        "Tome": "![[900A33.mp4]]"
     },
-    "3735AF.gif": {
-        "Menu Hover Effects": "![[3735AF.gif]]"
+    "3735AF.mp4": {
+        "Menu Hover Effects": "![[3735AF.mp4]]"
     },
     "ABCEC0.png": {
         "To Kill a Night Owl": "![[ABCEC0.png]]"
@@ -9692,7 +9745,7 @@ export const backlinks = {
     "9A6171.png": {
         "Love Firefox": "![[9A6171.png]]"
     },
-    "9EA5FE.gif": {
-        "Meta Theme Color for Spacial Cognition": "![[9EA5FE.gif]]"
+    "9EA5FE.mp4": {
+        "Meta Theme Color for Spacial Cognition": "![[9EA5FE.mp4]]"
     }
 }
