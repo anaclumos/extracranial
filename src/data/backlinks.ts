@@ -2485,6 +2485,9 @@ export const backlinks = {
     "Glitch": {
         "2023-05-18": "- [[Glitch]]"
     },
+    "Upsert": {
+        "Sungari": "... non-GNAR query engines and supports [[Upsert]] operations. Also, analytic data will ..."
+    },
     "Person 542AD7": {
         "2022-12-28": "- [[Person 542AD7]]",
         "Project PEOPLE": "- [[Person 542AD7]]"
@@ -3752,6 +3755,9 @@ export const backlinks = {
     "IRS": {
         "Screenshot as an API": "... was tax returns - the [[IRS]] adopted PDF in 1996 because ..."
     },
+    "Apache Kafka": {
+        "Sungari": "... and Stability: The switch to [[Apache Kafka]] from [[Kinesis]], along with decoupling ..."
+    },
     "긍정적 허무주의자": {
         "2023-02-14": "- [[긍정적 허무주의자]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Optimistic Nihilist <br/> 🇰🇷 [[긍정적 허무주의자]]      ..."
@@ -4829,7 +4835,8 @@ export const backlinks = {
     "GNAR": {
         "2023-05-30": "... Grammarly Work Note 2023-05-30 on [[GNAR]]",
         "Grammarly Work Note 2023-05-25": "- [[GNAR]] is the single source of ...",
-        "Grammarly Work Note 2023-05-30": "... Reduction of Cluster Spinning for Non-[[GNAR]] Runtime Jobs. For tasks that ..."
+        "Grammarly Work Note 2023-05-30": "... Reduction of Cluster Spinning for Non-[[GNAR]] Runtime Jobs. For tasks that ...",
+        "Sungari": "... Grammarly. The old system at [[GNAR]] had several significant issues, including ..."
     },
     "Product-Market Fit": {
         "2022-06-06": "... on when struggling to find [[Product-Market Fit]] or fight for survival. - ...",
@@ -5343,6 +5350,7 @@ export const backlinks = {
         "Manakin": "... is the infrastructure that runs [[Grammarly]]'s Experiment Service.",
         "Real Exams": "### [[Grammarly]]",
         "Real Interviews": "### [[Grammarly]]",
+        "Sungari": "... Schema Managed Data Ingestion at [[Grammarly]]. The old system at [[GNAR]] ...",
         "기술 발전의 속도": "그래서 [[Grammarly]] 등의 텍스트 [[AI|인공지능]] 회사에 열심히 ..."
     },
     "SHAP": {
@@ -6330,6 +6338,9 @@ export const backlinks = {
     },
     "Covariance": {
         "Probability": "- [[Covariance]]"
+    },
+    "Kinesis": {
+        "Sungari": "... switch to Apache Kafka from [[Kinesis]], along with decoupling ingestion from ..."
     },
     "FFMpeg": {
         "2022-11-21": "- [[FFMpeg]]",
