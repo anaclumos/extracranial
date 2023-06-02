@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/7A2A8B'
+aliases: ['Federative Training', 'FL']
 ---
 
 ```

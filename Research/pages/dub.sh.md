@@ -15,7 +15,7 @@ slug: '/D74768'
   - [[Next.js]] framework
   - [[Vercel]] hosting
   - [[Tailwind]] CSS
-  - upstash database
+  - upstash [[database]]
   - nextauthjs
   - [[Framer Motion|Framer Animation]]
   - stripe payments
