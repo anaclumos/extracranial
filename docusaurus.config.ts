@@ -92,19 +92,19 @@ const config: Config = {
           items: [
             {
               label: '대표 조성현',
-              to: 'https://st.ar',
+              to: 'https://cho.sh',
             },
             {
               label: '사업자 등록번호 624-08-02343',
-              to: 'https://st.ar',
+              to: 'https://cho.sh',
             },
             {
               label: '대전광역시 서구 봉우로8번길 23 220',
-              to: 'https://st.ar',
+              to: 'https://cho.sh',
             },
             {
               label: '(+82)10-2541-9828',
-              to: 'https://st.ar',
+              to: 'https://cho.sh',
             },
           ],
         },
