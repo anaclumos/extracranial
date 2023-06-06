@@ -764,6 +764,9 @@ export const backlinks = {
     "Framer": {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 ..."
     },
+    "visionOS": {
+        "Apple Vision Pro": "- Featuring [[visionOS]], the world's first spatial operating ..."
+    },
     "0001 Two Sum": {
         "2022-07-10": "- Solved [[0001 Two Sum]]",
         "Coding Tests": "- [x] [[0001 Two Sum]]"
@@ -1443,6 +1446,12 @@ export const backlinks = {
         "Rauno": "Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])",
         "Stephan Ango": "- [[extracranial]] @ Stephan Ango",
         "Vannevar Bush": "... Early creator of Memex and [[Extracranial]]."
+    },
+    "Virtual Reality": {
+        "Augmented Reality": "[[Virtual Reality]]",
+        "Extended Reality": "[[Virtual Reality|VR]] + [[Augmented Reality|AR]]",
+        "Metaverse": "... facilitated by the use of [[virtual reality]] ([[Virtual Reality|VR]]) and [[augmented reality]] ...",
+        "React Native": "... also being used to develop [[virtual reality]] applications at Oculus."
     },
     "Master Socket": {
         "Internetworking": "- [[Master Socket]]"
@@ -2547,7 +2556,7 @@ export const backlinks = {
         "Swift": "- Programming Language for [[Apple]] platforms",
         "The Broken Feedback Loop": "However, [[Apple]] Feedback Assistant is not a ...",
         "The Dilemmas of Technopreneur": "... but it never would've become [[Apple]] if it weren't for Steve ...",
-        "USDZ vs glTF": "... by Pixar and operated by [[Apple]] for [[iOS]] AR applications. It ...",
+        "USDZ vs glTF": "... by Pixar and operated by [[Apple]] for [[iOS]] [[Augmented Reality]] applications. ...",
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] ...",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 ...",
         "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 금융위원회에서 ...",
@@ -2699,6 +2708,9 @@ export const backlinks = {
     },
     "linkflags.crx": {
         "2023-01-16": "- [[linkflags.crx]]"
+    },
+    "Apple Vision Pro": {
+        "2023-06-05": "The interesting fact about [[Apple Vision Pro]] is that Apple never used ..."
     },
     "Surfit": {
         "Jumpsite": "## [[Surfit]]"
@@ -3378,6 +3390,12 @@ export const backlinks = {
         "Tech Now Pay Later": "... now. This significantly reduces the [[Time to Market]], which is more important than ...",
         "기술 할부 결제": "이는 서비스의 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 스타트업에서 완전무결한 ..."
     },
+    "Augmented Reality": {
+        "Apple Vision Pro": "... cases in various fields, including [[Augmented Reality]]‐based instruction, home decoration, and watching ...",
+        "Extended Reality": "Virtual Reality|VR + [[Augmented Reality|AR]]",
+        "Metaverse": "... virtual reality (Virtual Reality|VR) and [[augmented reality]] ([[Augmented Reality]]) headsets. In everyday ...",
+        "USDZ vs glTF": "... operated by Apple for iOS [[Augmented Reality]] applications. It is a zip ..."
+    },
     "0973 K Closest Points to Origin": {
         "Coding Tests": "- [x] [[0973 K Closest Points to Origin]]"
     },
@@ -4040,6 +4058,7 @@ export const backlinks = {
     "Spacial Cognition": {
         "2022-10-27": "- [[Spacial Cognition]]",
         "Meta Theme Color for Spacial Cognition": "- Meta Theme Color for [[Spacial Cognition]]",
+        "Spatial Computer": "Metaverse and [[Spacial Cognition]]. ",
         "Tools for Thought": "... text-based versions. involves and exploits [[spacial cognition]]."
     },
     "글감": {
@@ -4603,6 +4622,10 @@ export const backlinks = {
         "Prompt Marketplace": "... finding Information amongst Data or [[Search in a Latent Space]].",
         "Search AI": "- [[Search in a Latent Space]]",
         "Thesephist Work Case Study": "### [[Search in a Latent Space]]"
+    },
+    "Spatial Computer": {
+        "2023-06-05": "... or \"Headset\" anywhere. It's a [[Spatial Computer]].",
+        "Apple Vision Pro": "... the Apple Vision Pro, a [[Spatial Computer]] that seamlessly combines digital content ..."
     },
     "Vercel": {
         "2022-06-22": "Deno envisions a [[Vercel]]-like experience for the backend (FaaS.)",
@@ -5991,7 +6014,7 @@ export const backlinks = {
         "Simple DirectMedia Layer": "... operating systems such as Android, [[iOS]], [[Linux]], macOS, and Windows. Simple ...",
         "Storing sensitive data in iOS Apps": "... and save it to the [[iOS]] secure enclave whenever you need ...",
         "Toss Product Sans": "- 안드로이드, [[iOS]], 윈도우, [[Chrome|크롬]], 사파리 등 다양한 ...",
-        "USDZ vs glTF": "... and operated by Apple for [[iOS]] AR applications. It is a ...",
+        "USDZ vs glTF": "... and operated by Apple for [[iOS]] [[Augmented Reality]] applications. It is ...",
         "VP9 vs HEVC": "... videos on Apple Safari and [[iOS]] YouTube.",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "AirPlay를 지원하는 [[iOS]] / [[iOS|iPadOS]] 기기를 사용하는 경우 ...",
         "하늘땅사람 업데이트 기록": "- [[iOS]] 15에서도 하늘땅사람 키보드를 사용할 수 ..."
@@ -6001,6 +6024,9 @@ export const backlinks = {
     },
     "Using an iPad as my Ebook": {
         "2023-01-12": "- [[Using an iPad as my Ebook]]"
+    },
+    "Extended Reality": {
+        "Spatial Computer": "[[Extended Reality]]"
     },
     "Manakin": {
         "Grammarly Work Note 2023-05-25": "- [[Manakin]] has 4 versions: `Dev`, `QA`, ...",
@@ -6310,6 +6336,7 @@ export const backlinks = {
         "MetroPunk": "... 상용화된 AI|인공지능, Nuclear Fusion|핵융합, 사이버네틱스, [[Metaverse|메타버스]] 등의 미래적 기술 요소는 등장하지 ...",
         "Prompt Engineering": "... come to my mind that [[Metaverse]] can be attained within years ...",
         "Spacial Cognition": "- Very important for [[Metaverse]]",
+        "Spatial Computer": "[[Metaverse]] and [[Spacial Cognition]]. ",
         "The Sudden Rise of Bondee": "Bondee is a [[metaverse]] social app, going crazy in ...",
         "혜성처럼 나타난 본디": "... 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
     },
@@ -8357,6 +8384,10 @@ export const backlinks = {
     "A3BB1E.png": {
         "Framer": "![[A3BB1E.png]]"
     },
+    "52A9CC.png": {
+        "Apple Vision Pro": "![[52A9CC.png]]",
+        "visionOS": "![[52A9CC.png]]"
+    },
     "3555AC.png": {
         "Redirecting READMEs": "![[3555AC.png]]"
     },
@@ -9123,6 +9154,9 @@ export const backlinks = {
     "CD4751.png": {
         "San Francisco": "![[CD4751.png]]",
         "Satoshi": "![[CD4751.png]]"
+    },
+    "AAA36B.jpg": {
+        "Spatial Computer": "![[AAA36B.jpg]]"
     },
     "16CE9C.png": {
         "tabExtend": "![[16CE9C.png]]"
