@@ -22,6 +22,7 @@ import KarrotLogo from '@site/static/fonts/emoji/karrot.png'
 import BaeminLogo from '@site/static/fonts/emoji/baemin.png'
 import RobotEmoji from '@site/static/fonts/emoji/robot.png'
 import Link from '@docusaurus/Link'
+import { Globe } from '../components/Globe'
 
 const HeroText = () => {
   const { siteConfig } = useDocusaurusContext()
@@ -231,6 +232,7 @@ export default function Home(): JSX.Element {
     <Layout title={`${siteConfig.title}`} description={siteConfig.tagline}>
       <main className={styles.mainContainer}>
         <HeroText />
+        <Globe />
       </main>
     </Layout>
   )

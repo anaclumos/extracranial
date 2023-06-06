@@ -21,23 +21,19 @@ const navbar = {
   },
   items: [
     {
-      type: 'dropdown',
-      label: 'Research',
+      to: getMostRecentJournalLink(),
+      label: 'Today',
       position: 'left',
-      items: [
-        {
-          to: getMostRecentJournalLink(),
-          label: 'Today',
-        },
-        {
-          to: '/random',
-          label: 'Random',
-        },
-        {
-          to: '/3d',
-          label: 'Graph',
-        },
-      ],
+    },
+    {
+      to: '/random',
+      label: 'Random',
+      position: 'left',
+    },
+    {
+      to: '/3d',
+      label: 'Graph',
+      position: 'left',
     },
     {
       to: '/w/archive',
