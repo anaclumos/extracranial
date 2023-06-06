@@ -31,7 +31,7 @@
     "cobe": "^0.6.3",
     "dracula": "link:prism-react-renderer/themes/dracula",
     "iframe-resizer-react": "^1.1.0",
-    "prism-react-renderer": "^2.0.4",
+    "prism-react-renderer": "^1.3.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-force-graph": "^1.43.0",
