@@ -268,7 +268,7 @@ export default UserEmailForm
 
 ## 분석
 
-개인적으로 매우 마음에 들었다. 이전에는 [TypeScript Next에 ](https://github.com/anaclumos/typescript-next-styled-component)`[styled-component](https://github.com/anaclumos/typescript-next-styled-component)`를 집중적으로 사용했었는데 그에 비한 [[Tailwind]]의 장점으로 다음 느낌이 들었다.
+개인적으로 매우 마음에 들었다. 이전에는 [TypeScript Next에](https://github.com/anaclumos/typescript-next-styled-component) [`styled-component`](https://github.com/anaclumos/typescript-next-styled-component)를 집중적으로 사용했었는데 그에 비한 [[Tailwind]]의 장점으로 다음 느낌이 들었다.
 
 (개인적인 분석으로, 개발자 혹은 기업체의 코딩 스타일과 컨벤션에 따라 크게 달라질 수 있음.)
 

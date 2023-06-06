@@ -147,11 +147,11 @@ This research will contribute to developing [[iiframe]], an improved iframe vers
 
 ### Abstract
 
-Inspired by "The Library of Babel" by Jorge Luis Borges, this research proposal aims to investigate the concept of an "efficiently finite" [[Cartography|map]] containing all possible pixel combinations and its implications on human creativity and [[Generative AI]]. By exploring the idea of a Photo Library of Babel, we will examine the role of [[AI]] in creating information and the philosophical aspects of creativity in the context of finite possibilities.
+Inspired by "[[The Library of Babel]]" by Jorge Luis Borges, this research proposal aims to investigate the concept of an "efficiently finite" [[Cartography|map]] containing all possible pixel combinations and its implications on human creativity and [[Generative AI]]. By exploring the idea of a Photo Library of Babel, we will examine the role of [[AI]] in creating information and the philosophical aspects of creativity in the context of finite possibilities.
 
 ### Background
 
-The infinite monkey theorem and the concept of "The Library of Babel" have become increasingly relevant with the rise of [[generative AI]] technologies, such as [[ChatGPT]]. _Given infinite monkeys making infinite keystrokes, wouldn't they write all of Shakespeare's work?_ As [[AI]] advances, it raises questions about the future of human creativity, the nature of creation, and the potential for [[AI]] to generate all possible information.
+The infinite monkey theorem and the concept of "[[The Library of Babel]]" have become increasingly relevant with the rise of [[generative AI]] technologies, such as [[ChatGPT]]. _Given infinite monkeys making infinite keystrokes, wouldn't they write all of Shakespeare's work?_ As [[AI]] advances, it raises questions about the future of human creativity, the nature of creation, and the potential for [[AI]] to generate all possible information.
 
 ### Research Questions
 
@@ -161,7 +161,7 @@ The infinite monkey theorem and the concept of "The Library of Babel" have becom
 
 ### Methodology
 
-- Literature review: Conduct a comprehensive review of existing research on "The Library of Babel", the infinite monkey theorem, and [[generative AI]] technologies.
+- Literature review: Conduct a comprehensive review of existing research on "[[The Library of Babel]]", the infinite monkey theorem, and [[generative AI]] technologies.
 - Develop a theoretical model: Create a theoretical model of [[the Photo Library of Babel]] that encompasses all possible pixel combinations and their efficient representation.
 - Analyze implications: Investigate the philosophical and practical implications of [[the Photo Library of Babel]] for human creativity and [[Generative AI]], and explore the relationship between finite possibilities and the search for specific information.
 - Case studies: Develop case studies demonstrating the potential applications and consequences of [[the Photo Library of Babel]] in various domains, such as art, design, and technology.
