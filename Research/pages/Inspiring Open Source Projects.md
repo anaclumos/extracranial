@@ -21,4 +21,4 @@ slug: '/7442D2'
 - [mattermost/mattermost-server](https://github.com/mattermost/mattermost-server) Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.
 - [mattermost/focalboard](https://github.com/mattermost/focalboard) Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
 - [zulip/zulip](https://github.com/zulip/zulip) Zulip server and web app—powerful open source team chat
-- [reactioncommerce/reaction](https://github.com/reactioncommerce/reaction/). Deployed via Docker and Kubernetes. Mailchimp Open Commerce is an API-first, headless commerce platform built using Node.js, React, [[GraphQL]]
+- [reactioncommerce/reaction](https://github.com/reactioncommerce/reaction/). Deployed via Docker and Kubernetes. Mailchimp Open Commerce is an API-first, [[headless]] commerce platform built using Node.js, React, [[GraphQL]]

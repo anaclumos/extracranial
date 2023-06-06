@@ -5,7 +5,7 @@ slug: '/322744'
 
 - Jobs did not want Apple to wither, like Disney.
 
-## Ive
+## [[Ive]]
 
 - Grew up in a Maker's family.
 - Interest in Dieter Rams.
