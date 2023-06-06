@@ -12,7 +12,7 @@
 
 .intro {
   font-family: var(--font-family-headline);
-  padding: 0 2rem;
+  padding: 2rem;
   font-size: 2rem;
   font-weight: normal;
   line-height: 1.5;
@@ -61,11 +61,4 @@
 
 .nowrap {
   white-space: nowrap;
-}
-
-.musicplayer {
-  width: 100%;
-  overflow: visible;
-  margin: 1rem auto;
-  height: 76px;
 }
