@@ -1335,6 +1335,7 @@ export const filenames = {
     "Synthography": "40A58E",
     "TCP vs UDP": "B8F089",
     "TODO": "618130",
+    "TS1208 All files must be modules when the --isolatedModules flag is provided.": "84A817",
     "Tailscale": "C7F303",
     "Tailwind": "A331BF",
     "Tailwind CSS 톺아보기": "4B15E0",
