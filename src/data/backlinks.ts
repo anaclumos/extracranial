@@ -7447,6 +7447,9 @@ export const backlinks = {
     "Adaptive Keyboard": {
         "2023-03-10": "- [[Adaptive Keyboard]]"
     },
+    "TS1208 All files must be modules when the --isolatedModules flag is provided.": {
+        "2023-06-06": "[[TS1208 All files must be modules when the --isolatedModules flag is provided.]]"
+    },
     "0079 Word Search": {
         "Coding Tests": "- [ ] [[0079 Word Search]]"
     },
