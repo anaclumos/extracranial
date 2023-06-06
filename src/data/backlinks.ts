@@ -4058,7 +4058,7 @@ export const backlinks = {
     "Spacial Cognition": {
         "2022-10-27": "- [[Spacial Cognition]]",
         "Meta Theme Color for Spacial Cognition": "- Meta Theme Color for [[Spacial Cognition]]",
-        "Spatial Computer": "Metaverse and [[Spacial Cognition]]. ",
+        "Spatial Computer": "Metaverse and [[Spacial Cognition]].",
         "Tools for Thought": "... text-based versions. involves and exploits [[spacial cognition]]."
     },
     "글감": {
@@ -6336,7 +6336,7 @@ export const backlinks = {
         "MetroPunk": "... 상용화된 AI|인공지능, Nuclear Fusion|핵융합, 사이버네틱스, [[Metaverse|메타버스]] 등의 미래적 기술 요소는 등장하지 ...",
         "Prompt Engineering": "... come to my mind that [[Metaverse]] can be attained within years ...",
         "Spacial Cognition": "- Very important for [[Metaverse]]",
-        "Spatial Computer": "[[Metaverse]] and [[Spacial Cognition]]. ",
+        "Spatial Computer": "[[Metaverse]] and [[Spacial Cognition]].",
         "The Sudden Rise of Bondee": "Bondee is a [[metaverse]] social app, going crazy in ...",
         "혜성처럼 나타난 본디": "... 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
     },
