@@ -618,6 +618,7 @@ export const backlinks = {
         "2022-11-24": "- [[The Library of Babel]]",
         "Information amongst Data": "[[The Library of Babel]] holds all data.",
         "Proposal of Research 2023-01-10": "\"[[The Library of Babel]]\" by Jorge Luis Borges is ...",
+        "Proposal of Research 2023-03-28": "Inspired by \"[[The Library of Babel]]\" by Jorge Luis Borges, this ...",
         "The Photo Library of Babel": "[[The Library of Babel]]"
     },
     "Texts": {
@@ -967,6 +968,10 @@ export const backlinks = {
     "0104 Maximum Depth of Binary Tree": {
         "Coding Tests": "- [x] [[0104 Maximum Depth of Binary Tree]]"
     },
+    "Ive": {
+        "2023-05-06": "> [[Ive]] said... Ive was conflicted... Ive ...",
+        "After Steve": "## [[Ive]]"
+    },
     "Stripe Sessions 2023": {
         "2023-04-17": "- [[Stripe Sessions 2023]]"
     },
@@ -1005,7 +1010,7 @@ export const backlinks = {
         "2022-10-20": "- [[Memex is more than a Memex]]"
     },
     "Jira": {
-        "Linear": "... tracking service, like Height, or [[Jira]]"
+        "Linear": "... service, like Height (App), or [[Jira]]"
     },
     "ElonPet": {
         "2023-02-06": "- [[ElonPet]]"
@@ -4270,10 +4275,14 @@ export const backlinks = {
     "Venture Capital": {
         "2022-06-21": "... cash-burning companies that rely on [[Venture Capital|VC]] money to sustain the business.",
         "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]",
+        "Harry Stebbings": "... who started \"The Twenty Minute [[Venture Capital|VC]]\" podcast and launched his [[venture ...",
         "Person A3BA1A": "The [[Venture Capital|VC]] side tool and the Startup ...",
+        "SVB Debacle": "... That worked brilliantly in the [[Venture Capital|VC]] funding boom but could cut ...",
         "The Battle of Flow and Asana": "... revenue and losing money. Not [[venture capital]]. Out of my personal bank ...",
         "The Dilemmas of Technopreneur": "... you are in a competitive [[Venture Capital|VC]]-funded space, it's foolish to compete ...",
-        "The Great Struggle of Gumroad": "... cast of angel investors and [[venture capital]] firms, including Max Levchin, Chris ..."
+        "The Great Struggle of Gumroad": "... cast of angel investors and [[venture capital]] firms, including Max Levchin, Chris ...",
+        "hn.cho.sh 개발 기록": "... 회사, 자율주행 회사, 블록체인 회사, [[Venture Capital|VC]], 웹툰 회사, 고전적 자산운용사, 그 ...",
+        "강기업": "... because the odds of a [[venture capital]] ([[Venture Capital|VC]]) funded startup are ..."
     },
     "HTMX": {
         "2022-10-18": "- [[HTMX]]",
@@ -4464,6 +4473,7 @@ export const backlinks = {
     },
     "Static (Computer Systems)": {
         "2022-12-08": "- [[Static (Computer Systems)]]",
+        "Atomics (JavaScript)": "- 생성자 없음. [[Static (Computer Systems)|Static]].",
         "Symbol (Computer Systems)": "... are symbols that are not [[Static (Computer Systems)|static]]."
     },
     "Downloading Any Recordings from Zoom": {
@@ -4634,7 +4644,7 @@ export const backlinks = {
         "2022-08-28": "... both used Cloudflare Pages and [[Vercel]] and concluded that Vercel is ...",
         "2022-09-30": "- [[Vercel]] Serving millions of users on ...",
         "2022-10-10": "...  - I just love [[Vercel]]... they know stuff.",
-        "2022-10-21": "- Does [[Vercel]] not rest or something? Building ...",
+        "2022-10-21": "- Does [[Vercel]] not rest or something? [Building ...",
         "2022-12-04": "... is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: The ...",
         "2022-12-28": "- Frontend web framework: Next.js|NextJS/[[Vercel]] (Past: Ruby on Rails/Heroku)",
         "2023-01-27": "... Extracranial to Cloudflare Pages for [[Vercel]] for now...",
@@ -4667,7 +4677,7 @@ export const backlinks = {
         "2022-08-03": "... to get an internship at [[Karrot]] four months ago.",
         "2023-02-21": "- [[Karrot]]",
         "2023-04-17": "- hn.cho.sh 개발 기록: [[Karrot|당근]] PM 론과의 대화",
-        "Height": "- Used at [[Karrot]]",
+        "Height (App)": "- Used at [[Karrot]]",
         "Jira": "- Used at [[Karrot]]",
         "Karrot NX Team Mission Statement": "> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 ...",
         "Project Heimdall": "At [[Karrot]], scraping the news over the ...",
@@ -4676,7 +4686,7 @@ export const backlinks = {
     },
     "WebGPU": {
         "2022-09-09": "[[WebGPU]]",
-        "Imagining WebNPU API": "- [[WebGPU]] unlocks the bare-metal power of ...",
+        "Imagining WebNPU API": "... comparable to WebGL APIs, but [[WebGPU]] offers access to more advanced ...",
         "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]",
         "WebNPU API를 상상하다": "- [[WebGPU]]는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
     },
@@ -4896,9 +4906,6 @@ export const backlinks = {
     "Search AI와 인터넷의 한국어": {
         "2023-02-12": "- [[Search AI와 인터넷의 한국어]]"
     },
-    "Height": {
-        "Linear": "... An issue tracking service, like [[Height]], or [[Jira]]"
-    },
     "Base Frame Pointer": {
         "2022-11-03": "- [[Base Frame Pointer]]",
         "ARM Architecture": "... of `x29`. Same as `rbp` ([[Base Frame Pointer]])",
@@ -4950,6 +4957,9 @@ export const backlinks = {
     },
     "Apple Earth": {
         "2022-08-23": "- [[Apple Earth]]"
+    },
+    "Height (App)": {
+        "Linear": "... An issue tracking service, like [[Height (App)]], or [[Jira]]"
     },
     "Cooperative Multitasking": {
         "2022-07-11": "We aim to build [[Cooperative Multitasking]].",
@@ -5248,7 +5258,7 @@ export const backlinks = {
     },
     "Preemptive Multitasking": {
         "2022-07-11": "... guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks ...",
-        "Cooperative Multitasking": "Antonym of [[Preemptive Multitasking]]."
+        "Cooperative Multitasking": "... Cooperative multitasking, also known as non-[[preemptive multitasking]], is a style of computer ..."
     },
     "간판법": {
         "Neo Korea": "- [[간판법]]"
@@ -5483,7 +5493,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-12-21": "[[Mail|Letter]] to Mr. Matt Rickard on ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "- [[Mail|Letter]] to Mr. Matt Rickard on ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Mail|Letter]] to Mr. Stephan Ango on ...",
-        "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the Heptabase Team on ...",
+        "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the [[Heptabase]] Team on ...",
         "Markdown Email Client": "Someday Project. You write an [[Mail|email]] in [[Markdown]]. Before sending, select ...",
         "Naver": "... from basic features such as [[Mail|e-mail]] and news to the world's ...",
         "Neo Email": "- Neo [[Mail|Email]]",
@@ -5589,11 +5599,12 @@ export const backlinks = {
         "졸업을 앞둔 중학교 3학년들에게": "2016-12-08에 게재된 [[재학생일기]]이다."
     },
     "헤이그 특사": {
-        "이완용": "한민족의 동족상잔와 [[헤이그 특사]] 항목에서 볼 수 있듯이 20세기 ..."
+        "이완용": "... 입장에서 최후의 몸부림이었다는 주장도 있지만, [[헤이그 특사]] 파견이 1907년이니, 25년 동안 변화한 ..."
     },
     "Headless": {
         "2023-04-19": "- [[Headless]]",
         "Ghost 테마를 자동 배포하는 방법": "... AWS에 호스팅하여 사용한다. Ghost CMS는 [[Headless|헤드리스]]하다. 말 그대로 머리가 없다는 뜻으로, ...",
+        "Inspiring Open Source Projects": "... Open Commerce is an API-first, [[headless]] commerce platform built using Node.js, ...",
         "Satori": "- Easy: No [[headless]] [[Web Browser|browser]] is needed. Using ...",
         "hn.cho.sh 개발 기록": "[[Headless]] [[Chrome]]을 사용하도록 GitHub Actions를 개편했다."
     },
@@ -5682,7 +5693,7 @@ export const backlinks = {
     },
     "Heptabase": {
         "Alan Chan": "- CEO of [[Heptabase]]",
-        "Letter to the Heptabase Team on 2022-10-11": "> On [[Heptabase]] and its Developer Ecosystem",
+        "Letter to the Heptabase Team on 2022-10-11": "- Mail|Letter to the [[Heptabase]] Team on 2022-10-11",
         "Spacial Cognition": "... Thought use it. For example, [[Heptabase]].",
         "Visual-based Tools for Thought": "### [[Heptabase]]"
     },
@@ -7508,7 +7519,8 @@ export const backlinks = {
         "2023-02-21": "- [[Peter the Great]]"
     },
     "Railway": {
-        "2023-05-20": "... out Render.com. It feels like [[Railway]], but I must try it ..."
+        "2023-05-20": "... out Render.com. It feels like [[Railway]], but I must try it ...",
+        "Render.com": "1. [[Railway]]: ???"
     },
     "MetroPunk": {
         "2023-04-30": "- [[MetroPunk]]",
