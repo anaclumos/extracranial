@@ -765,6 +765,7 @@ export const backlinks = {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 ..."
     },
     "visionOS": {
+        "2023-06-06": "[[visionOS]]",
         "Apple Vision Pro": "- Featuring [[visionOS]], the world's first spatial operating ..."
     },
     "0001 Two Sum": {
@@ -8387,9 +8388,8 @@ export const backlinks = {
     "A3BB1E.png": {
         "Framer": "![[A3BB1E.png]]"
     },
-    "52A9CC.png": {
-        "Apple Vision Pro": "![[52A9CC.png]]",
-        "visionOS": "![[52A9CC.png]]"
+    "D2A8B7.png": {
+        "visionOS": "![[D2A8B7.png]]"
     },
     "3555AC.png": {
         "Redirecting READMEs": "![[3555AC.png]]"
@@ -8783,6 +8783,9 @@ export const backlinks = {
     },
     "50A17A.png": {
         "Mr. Doob": "![[50A17A.png]]"
+    },
+    "52A9CC.png": {
+        "Apple Vision Pro": "![[52A9CC.png]]"
     },
     "2A5C23.png": {
         "Jumpsite": "![[2A5C23.png]]",

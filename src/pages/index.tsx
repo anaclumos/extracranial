@@ -4,7 +4,6 @@ import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import EmojiReplaceableText from '../components/EmojiReplaceableText'
 import Translate, { translate } from '@docusaurus/Translate'
-import { Globe } from '../components/Globe'
 import Head from '@docusaurus/Head'
 
 import Profile from '@site/static/img/profile.jpg'
@@ -23,22 +22,6 @@ import KarrotLogo from '@site/static/fonts/emoji/karrot.png'
 import BaeminLogo from '@site/static/fonts/emoji/baemin.png'
 import RobotEmoji from '@site/static/fonts/emoji/robot.png'
 import Link from '@docusaurus/Link'
-import IframeResizer from 'iframe-resizer-react'
-import BrowserOnly from '@docusaurus/BrowserOnly'
-
-const MusicPlayer = () => {
-  return (
-    <BrowserOnly>
-      {() => (
-        <IframeResizer
-          id="dynamic-island"
-          src="https://dynamic-island.cho.sh/embed-player"
-          className={styles.musicplayer}
-        />
-      )}
-    </BrowserOnly>
-  )
-}
 
 const HeroText = () => {
   const { siteConfig } = useDocusaurusContext()
@@ -77,7 +60,6 @@ const HeroText = () => {
         <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png" />
         <meta name="naver-site-verification" content="15b31306fd3391cd0bf411b1d49160aa02dd3cad" />
       </Head>
-      <MusicPlayer />
       <main>
         <p className={styles.intro}>
           <EmojiReplaceableText
@@ -249,7 +231,6 @@ export default function Home(): JSX.Element {
     <Layout title={`${siteConfig.title}`} description={siteConfig.tagline}>
       <main className={styles.mainContainer}>
         <HeroText />
-        <Globe />
       </main>
     </Layout>
   )
