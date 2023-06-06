@@ -151,7 +151,7 @@ const HeroText = () => {
           <Translate>{', '}</Translate>
           <EmojiReplaceableText
             text={translate({
-              message: 'computer graphics',
+              message: 'spacial computing',
             })}
             photo={AlienMonsterEmoji}
             photoAlt={translate({
