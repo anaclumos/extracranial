@@ -53,6 +53,9 @@ dependencies:
   cobe:
     specifier: ^0.6.3
     version: 0.6.3
+  dracula:
+    specifier: link:prism-react-renderer/themes/dracula
+    version: link:prism-react-renderer/themes/dracula
   iframe-resizer-react:
     specifier: ^1.1.0
     version: 1.1.0(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
@@ -4094,7 +4097,7 @@ packages:
     peerDependencies:
       react: '*'
     dependencies:
-      '@types/react': 18.2.7
+      '@types/react': 18.2.8
       prop-types: 15.8.1
       react: 18.2.0
 
@@ -6034,7 +6037,7 @@ packages:
       { integrity: sha512-jGjmu/ZqS7FjSH6owMcD5qpq19+1RS9DeVRqfl1FeBMxTDQAGwlMWOcs52NDoXaNKyG3d1cYQFMs9rCrb88o9Q== }
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.7
+      '@types/react': 18.2.8
 
   /@types/react@18.2.7:
     resolution:
@@ -6051,7 +6054,6 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
       csstype: 3.1.2
-    dev: false
 
   /@types/resolve@1.17.1:
     resolution:
