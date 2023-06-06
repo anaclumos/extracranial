@@ -23,7 +23,7 @@ But then this happened.
 
 ![[553DCB.png]]
 
-This shows the unprofessionalism of the company. I feel significantly less valued and ignored. Especially, words can make a huge difference — "a bit more experienced"? That's just poor communication as a core member of the company. Also, "realized"?
+This shows the unprofessionalism of the company. I feel significantly less valued and ignored. Especially, words can make a huge difference — "a bit more experienced"? That's just poor communication as a core company member. Also, "realized"?
 
 Some might ask —
 
@@ -41,8 +41,12 @@ They should've told me we might be looking for someone else, but not canceling t
 
 Even if I become a genuinely 10x dev, I will never work for Replo. This terrible communication experience, I'm just fed up.
 
-Listen founders —
+Listen, founders —
 
 - Do not reschedule meetings with applicants.
 - Do not renege with what you tell your applicants.
 - Don't bullshit with your applicants. Have some respect and decency.
+
+## Update
+
+They sent me another email that they are "following up" to schedule an interview. I have let them know that I have already tried to schedule a meeting, and you canceled, and following up as if I did not respond is inappropriate and unprofessional. They understood it.
