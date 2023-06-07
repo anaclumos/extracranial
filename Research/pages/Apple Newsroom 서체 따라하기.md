@@ -9,7 +9,7 @@ slug: '/1C362F'
 가장 [[Apple|애플]]을 잘 모방한 서체이다.
 :::
 
-아주 오랜 기간 나에게 딱 맞는 폰트 CSS를 찾아왔다. 이 글에서는 드디어 찾은 나만의 폰트 CSS에 대해서 다뤄볼 것이다.
+아주 오랜 기간 나에게 딱 맞는 폰트 [[CSS]]를 찾아왔다. 이 글에서는 드디어 찾은 나만의 폰트 [[CSS]]에 대해서 다뤄볼 것이다.
 
 ## 한줄정리
 
@@ -47,7 +47,7 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple [[Fo
 
 ## 2\. 그 외에는 [[San Francisco|SF]] 폰트와 닮은 폰트를 사용하자
 
-### 영문: [Inter Font](https://rsms.me/inter/)
+### 영문: [[Inter]]
 
     4. Inter
     /* 비 Apple 제품에서 영문 폰트 */
@@ -92,7 +92,7 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple [[Fo
     font-family:
       "SF Mono", "Consolas", "Menlo", monospace;
 
-코드 서체도 마찬가지로 [[San Francisco]] 계열의 [[San Francisco|SF]] Mono를 사용하도록 지정했다. WWDC16에서 첫 공개된 [[San Francisco|SF]] Mono는 여전히 Mac 터미널과 Xcode의 기본 코드 서체로 사용된다. 그 외의 경우에는 큰 차이가 없을 것 같아 보편적인 Consolas, Menlo를 지정했다.
+코드 서체도 마찬가지로 [[San Francisco]] 계열의 [[San Francisco|SF]] Mono를 사용하도록 지정했다. WWDC16에서 첫 공개된 [[San Francisco|SF]] Mono는 여전히 Mac 터미널과 [[Xcode]]의 기본 코드 서체로 사용된다. 그 외의 경우에는 큰 차이가 없을 것 같아 보편적인 Consolas, Menlo를 지정했다.
 
 GitHub의 경우에는 기본 코드 서체로 `SFMono-Regular`을 지정해두었는데, 이렇게 설정하면 [[Chrome]]에서는 [[San Francisco|SF]] Mono를 인식하지만 [[Firefox]]에서 [[San Francisco|SF]] Mono를 인식하지 못한다. 반면 [[San Francisco|SF]] Mono로 설정하면 [[Firefox]]와 [[Chrome]] 모두 인식한다. 와중에 [[Safari]]는 둘 다 인식 못 한다. (...)
 

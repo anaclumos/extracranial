@@ -68,7 +68,7 @@ GitHub Actions로 빌드하는 방식으로.
 
 그리고 GitHub Actions에는 현재 돌고 있는 액션의 로그가 보이지 않는 버그가 있다. [Log lines for an active step are inaccessible · Issue #2131 · actions/runner](https://github.com/actions/runner/issues/2131)
 
-i18n을 Sitemap과 HTML Head `hreflang`으로 자동 생성되도록 만들었다. Nextra의 i18n 구조에 호환되게 만들려고 하니 링크 변형 함수를 많이 만들어야 했다.
+[[Internationalization|i18n]]을 Sitemap과 HTML Head `hreflang`으로 자동 생성되도록 만들었다. Nextra의 [[Internationalization|i18n]] 구조에 호환되게 만들려고 하니 링크 변형 함수를 많이 만들어야 했다.
 
 ![[F2D317.png]]
 ![[48945A.png]]
@@ -159,7 +159,7 @@ LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수
 
 ![[BFE9DE.png]]
 
-라고 하는데 CSS 같은거로 간단하게 처리할 수 있는지 알아봐야겠다.
+라고 하는데 [[CSS]] 같은거로 간단하게 처리할 수 있는지 알아봐야겠다.
 
 ## [[2023-04-16]]
 

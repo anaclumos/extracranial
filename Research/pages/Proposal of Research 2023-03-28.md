@@ -73,15 +73,15 @@ Dynamic [[font features]] are crucial in creating high-quality, natural-looking 
 
 This research will contribute to developing more realistic and versatile handwriting fonts by leveraging [[Generative AI]] and considering dynamic [[font features]]. The resulting fonts will better represent the natural flow of handwritten text and offer more aesthetically pleasing options for designers and content creators. This exploration has the potential to transform the field of [[font]] generation and expand the applications of [[Generative AI]] in graphic design and personalized communication.
 
-## Enhancing Web Accessibility: Utilizing [[Generative AI]] to Generate Descriptive Alt Text for Images Automatically
+## Enhancing Web [[Accessibility]]: Utilizing [[Generative AI]] to Generate Descriptive Alt Text for Images Automatically
 
 ### Abstract
 
-The lack of descriptive alt text for images on the web poses accessibility challenges for visually impaired users and negatively impacts search [[engine]] optimization. This research proposal aims to develop a distributed intelligence system utilizing [[Generative AI]], such as CLIP or BLIP, and perceptual hashing techniques to automatically generate alt text for images, making the internet more accessible and inclusive. In addition, the project will involve developing wrapping libraries and toolkits for easy integration by developers.
+The lack of descriptive alt text for images on the web poses [[accessibility]] challenges for visually impaired users and negatively impacts search [[engine]] optimization. This research proposal aims to develop a distributed intelligence system utilizing [[Generative AI]], such as CLIP or BLIP, and perceptual hashing techniques to automatically generate alt text for images, making the internet more accessible and inclusive. In addition, the project will involve developing wrapping libraries and toolkits for easy integration by developers.
 
 ### Background
 
-Alt text is crucial for web accessibility, especially for visually impaired users who rely on screen readers and other assistive technologies. However, many images on the web have empty alt text due to oversight or lack of knowledge by content creators. By automatically generating descriptive alt text for images, we can improve the user experience and web accessibility.
+Alt text is crucial for web [[accessibility]], especially for visually impaired users who rely on screen readers and other assistive technologies. However, many images on the web have empty alt text due to oversight or lack of knowledge by content creators. By automatically generating descriptive alt text for images, we can improve the user experience and web [[accessibility]].
 
 ### Research Questions
 
@@ -106,7 +106,7 @@ Alt text is crucial for web accessibility, especially for visually impaired user
 
 ### Significance
 
-This research will contribute to developing a distributed intelligence system capable of automatically generating descriptive alt text for images on the web. Doing so will enhance web accessibility for visually impaired users and improve search [[engine]] optimization. In addition, the project's user-friendly libraries and toolkits will encourage adoption by web developers, leading to a more inclusive and accessible internet experience for all users.
+This research will contribute to developing a distributed intelligence system capable of automatically generating descriptive alt text for images on the web. Doing so will enhance web [[accessibility]] for visually impaired users and improve search [[engine]] optimization. In addition, the project's user-friendly libraries and toolkits will encourage adoption by web developers, leading to a more inclusive and accessible internet experience for all users.
 
 ## Revolutionizing Web Applications through Secure, High-Performance Multi-Threading iframes
 

@@ -18,7 +18,7 @@ slug: '/519D85'
 
 ## The proper way
 
-Using `preferred color scheme` CSS property and [[HTML]] Picture `srcset` property.
+Using `preferred color scheme` [[CSS]] property and [[HTML]] Picture `srcset` property.
 
 ```html
 <a title="Simple Analytics" href="" referrerpolicy="origin" target="_blank">

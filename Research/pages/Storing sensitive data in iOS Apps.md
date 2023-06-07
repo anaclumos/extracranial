@@ -5,7 +5,7 @@ slug: '/30CC03'
 
 ## One way that doesn't work: Using environment variables
 
-- If you click the app name from the top bar in Xcode, you can `edit scheme`.
+- If you click the app name from the top bar in [[Xcode]], you can `edit scheme`.
 
 ![edit scheme](../assets/78CCD8.png)
 

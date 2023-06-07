@@ -7,5 +7,5 @@ slug: '/EC9167'
 
 1. **Scalability and Stability**: The switch to [[Apache Kafka]] from [[Kinesis]], along with decoupling ingestion from indexing, will improve the scalability and stability of the system.
 2. **Mixed Events and CPU Consumption**: By replacing JSON with Avro encoding and introducing event-level schema registration, the new pipeline will consume less CPU time and avoid data inconsistencies.
-3. **Data Accessibility**: By making data land into rawEventTables at DeltaLake, the new pipeline allows data to be accessible to non-[[GNAR]] query engines and supports [[Upsert]] operations. Also, analytic data will be stored in parquet format in partitioned storage, eliminating the need for [[GNAR]] indexing jobs and further increasing data accessibility.
+3. **Data Accessibility**: By making data land into rawEventTables at DeltaLake, the new pipeline allows data to be accessible to non-[[GNAR]] query engines and supports [[Upsert]] operations. Also, analytic data will be stored in parquet format in partitioned storage, eliminating the need for [[GNAR]] indexing jobs and further increasing data [[accessibility]].
 4. **Consolidation and Simplification**: The new pipeline also plans to migrate all types of ingestion pipelines to the schema-based pipeline, reducing the number of schemas to under 2000 during migration.

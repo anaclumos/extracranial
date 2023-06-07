@@ -14,7 +14,7 @@ slug: '/D74768'
 - You can use your domain for links (e.g., http://stey.me/devrel) even on free plans. This is made possible by the Platforms Starter Kit that I launched at [[Vercel]] earlier this year: [vercel/platforms: A template for site builders and low-code tools.](https://github.com/vercel/platforms)
   - [[Next.js]] framework
   - [[Vercel]] hosting
-  - [[Tailwind]] CSS
+  - [[Tailwind]] [[CSS]]
   - upstash [[database]]
   - nextauthjs
   - [[Framer Motion|Framer Animation]]

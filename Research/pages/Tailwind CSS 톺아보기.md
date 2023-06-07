@@ -5,9 +5,9 @@ slug: '/4B15E0'
 
 ## [[Project|프로젝트]] 목표
 
-- [[Tailwind]] CSS를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 적용
-- [[Tailwind]] CSS 디자인 패턴에 대한 기초적인 이해
-- [[Tailwind]] CSS 디자인 시스템에 대한 기초적인 이해
+- [[Tailwind]] [[CSS]]를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 적용
+- [[Tailwind]] [[CSS]] 디자인 패턴에 대한 기초적인 이해
+- [[Tailwind]] [[CSS]] 디자인 시스템에 대한 기초적인 이해
 
 ## 완성본 미리 보기
 
@@ -28,7 +28,7 @@ slug: '/4B15E0'
 ```
 
 - `./styles/*` 삭제
-- `pages/_app.tsx` CSS 관련 코드 삭제 (또는 아래와 같이 입력)
+- `pages/_app.tsx` [[CSS]] 관련 코드 삭제 (또는 아래와 같이 입력)
 
 ```ts
 import type { AppProps } from 'next/app'
@@ -38,7 +38,7 @@ const App = ({ Component, pageProps }: AppProps) => <Component {...pageProps} />
 export default App
 ```
 
-- `pages/index.tsx` CSS 관련 코드 삭제 (또는 아래와 같이 입력)
+- `pages/index.tsx` [[CSS]] 관련 코드 삭제 (또는 아래와 같이 입력)
 
 ```ts
 import Head from 'next/head'
@@ -87,7 +87,7 @@ module.exports = {
 }
 ```
 
-- 최종적으로 Tailwind CSS를 `pages/_app.tsx`에 추가
+- 최종적으로 Tailwind [[CSS]]를 `pages/_app.tsx`에 추가
 
 ```ts
 import type { AppProps } from 'next/app'
@@ -273,9 +273,9 @@ export default UserEmailForm
 (개인적인 분석으로, 개발자 혹은 기업체의 코딩 스타일과 컨벤션에 따라 크게 달라질 수 있음.)
 
 1.  클래스 네이밍에 신경을 쓰지 않음. `styled-component`의 경우 `StyledContainer`, `StyledLink`, `StyledContent` 등의 이름을 반복해서 작성했었다.
-2.  짧아진 코드. 코드가 위아래로 길어지는 것을 방지한다. `styled-component`의 경우 ```으로 CSS 코드를 감싼 후 CSS 코드를 줄바꿈하여 작성하기 때문에 코드가 길어지곤 했었다.
+2.  짧아진 코드. 코드가 위아래로 길어지는 것을 방지한다. `styled-component`의 경우 ```으로 [[CSS]] 코드를 감싼 후 [[CSS]] 코드를 줄바꿈하여 작성하기 때문에 코드가 길어지곤 했었다.
 3.  스타일의 변경이 비교적 안전. 스타일을 수정해도 컴포넌트의 `className`을 변경하는 것이기 때문에 다른 컴포넌트의 디자인이 바뀔 일이 없다.
-4.  낮은 러닝커브. 예전에는 [[Tailwind]]의 `className` 속성 이름을 일일이 외워야 하는 줄 알고 러닝커브가 높을 줄 알았는데 대부분의 `className`이 CSS 속성들로 네이밍되어 있을 뿐만 아니라 확장 프로그램을 사용하여 자동완성을 사용하면 됐다.
+4.  낮은 러닝커브. 예전에는 [[Tailwind]]의 `className` 속성 이름을 일일이 외워야 하는 줄 알고 러닝커브가 높을 줄 알았는데 대부분의 `className`이 [[CSS]] 속성들로 네이밍되어 있을 뿐만 아니라 확장 프로그램을 사용하여 자동완성을 사용하면 됐다.
 5.  [완성도 높은 기본 색상 템플릿](https://tailwindcss.com/docs/customizing-colors). `font-weight`를 고르듯이, 기본 색상 템플릿만으로도 충분히 완성도 높은 디자인이 완성된다.
 
 그에 반해서 다음과 같은 단점이 있었다.
