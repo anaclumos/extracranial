@@ -13,7 +13,7 @@ Cartography is the art, science, and technology of making and using maps. It inv
 5. GIS and Remote Sensing: Modern cartography heavily relies on Geographic Information Systems (GIS) and remote sensing technologies. GIS enables spatial data analysis, management, and visualization, while remote sensing involves collecting information about the Earth's surface through satellites or aerial photography.
 6. Thematic maps: Thematic maps focus on specific topics or themes, such as population density, climate, or natural resources. They often use visualization techniques like heat maps, choropleth maps, and isopleth maps to represent data effectively. [[사회과부도]]
 
-The proliferation of digital cartography has greatly impacted the way geographic information is accessed and utilized in various fields. Despite its many advantages, the development of digital maps presents several challenges. This review discusses the key challenges encountered in the process of creating digital maps, including data collection and accuracy, map projections, spatial resolution, data integration, generalization, data visualization, legal and ethical considerations, and accessibility and usability.
+The proliferation of digital cartography has greatly impacted the way geographic information is accessed and utilized in various fields. Despite its many advantages, the development of digital maps presents several challenges. This review discusses the key challenges encountered in the process of creating digital maps, including data collection and accuracy, map projections, spatial resolution, data integration, generalization, data visualization, legal and ethical considerations, and [[accessibility]] and usability.
 
 1. Data collection and accuracy: Acquiring accurate and up-to-date geographical data is critical for creating reliable digital maps. Data can be collected using various methods, such as ground surveys, remote sensing, and crowd-sourced efforts. However, ensuring data accuracy, completeness, and currency can be time-consuming and resource-intensive.
 2. Map projections: Choosing the appropriate map projection can be difficult, as each [[project]] has its trade-offs.
@@ -22,7 +22,7 @@ The proliferation of digital cartography has greatly impacted the way geographic
 5. Generalization: Simplifying complex geographic information for digital maps enhances legibility and usability.
 6. Data visualization: Effectively representing geographic data in digital maps requires careful consideration of symbology, color schemes, and layering.
 7. Legal and ethical considerations: Digital maps can sometimes involve privacy, intellectual property, and data ownership issues.
-8. Accessibility and usability: Creating digital maps accessible to users with different abilities and devices is essential.
+8. [[Accessibility]] and usability: Creating digital maps accessible to users with different abilities and devices is essential.
 
 Despite these challenges, digital maps have revolutionized how we access and use geographic information.
 

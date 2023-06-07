@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/2D9A7C'
 ---
 
-Requesting Review in [[Swift]]
+Requesting Review in [[Swift]] [[StoreKit]]
 
 ```swift
 import StoreKit
