@@ -7,7 +7,7 @@ slug: '/D7EA90'
 - Thread-safe.
 - Thread 사이 데이터를 복사하지 않아도 됨.
 - 이벤트 루프 없이 통신 가능. 빠름.
-- 생성자 없음. Static.
+- 생성자 없음. [[Static (Computer Systems)|Static]].
 - 여러 Thread 사이 연산 정합성 보장.
 - `wait()`와 `notify`로 blocking construct 만들 수 있음.
 - Linux를 본따 만듦.
