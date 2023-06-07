@@ -122,6 +122,7 @@ const config: Config = {
       src: 'https://sa.cho.sh/latest.js',
       async: true,
       defer: true,
+      'data-collect-dnt': 'true',
     },
     {
       src: 'https://static.cloudflareinsights.com/beacon.min.js',
