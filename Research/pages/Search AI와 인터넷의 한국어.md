@@ -10,8 +10,8 @@ slug: '/B1CED1'
 
 > 나무로 만들고 마을 앞에 있는게 뭐지
 
-- Searching for: `나무로 만들고 마을 앞에 있는게 뭐지`
-- Searching for: `나무로 만든 건축물`
+- Searching for: **나무로 만들고 마을 앞에 있는게 뭐지**
+- Searching for: **나무로 만든 건축물**
 - Generating answers for you…
 
 안녕하세요, 이것은 빙입니다. 😊
@@ -24,7 +24,7 @@ Received message. 얼굴이 있고 신령 같은 것이라면, 토템이나 조�
 
 > 그니까 그 한국에 있고 마을 앞에 있는 나무로 만든 토템이 뭐지
 
-- Searching for: `한국에 있는 나무로 만든 토템`
+- Searching for: **한국에 있는 나무로 만든 토템**
 - Generating answers for you…
 
 한국에 있는 나무로 만든 토템이라면, 다음과 같은 것들이 있습니다.
@@ -35,7 +35,7 @@ Received message. 얼굴이 있고 신령 같은 것이라면, 토템이나 조�
 
 > 아냐 다시 찾아봐 나무로 만든 한국의 토템. 마을 앞에 있어
 
-- Searching for: `나무로 만든 한국의 토템 마을 앞`
+- Searching for: **나무로 만든 한국의 토템 마을 앞**
 - Generating answers for you…
 
 나무로 만든 한국의 토템이라면, 다음과 같은 것들이 있습니다.
@@ -44,16 +44,16 @@ Received message. 얼굴이 있고 신령 같은 것이라면, 토템이나 조�
 - 깔레타 토르텔은 파타고니아 깊숙이 숨겨진 작은 마을입니다. 이 마을은 흙이 없고 나무로 만든 집들로 이루어져 있습니다. 마을 앞에는 나무로 만든 토템 같은 조각이 있습니다. 이 조각은 마을의 역사와 문화를 상징합니다[2](https://brunch.co.kr/@yookeunchang/1462).
 - 꽃술은 꽃이 필 때를 이용하여 만드는 술입니다. 꽃술은 주로 봄에 도화주나 두견주, 가을에는 국화주를 만듭니다. 꽃술은 나무로 만든 통이나 대에 담아서 숙성시킵니다. [꽃술은 한국의 전통주 중 하나입니다](https://www.omynara.com/%ED%95%9C%EA%B5%AD%EC%9D%98-%EC%88%A0-%EC%9D%B4%EC%95%BC%EA%B8%B0-4-%ED%95%9C%EA%B5%AD%EC%9D%98-%EC%A0%84%ED%86%B5%EC%A3%BC-%EA%BD%83%EC%88%A0-%EC%86%8C%EB%82%98%EB%AC%B4%EC%88%A0-%EB%B0%B1/)[3](https://www.omynara.com/%ED%95%9C%EA%B5%AD%EC%9D%98-%EC%88%A0-%EC%9D%B4%EC%95%BC%EA%B8%B0-4-%ED%95%9C%EA%B5%AD%EC%9D%98-%EC%A0%84%ED%86%B5%EC%A3%BC-%EA%BD%83%EC%88%A0-%EC%86%8C%EB%82%98%EB%AC%B4%EC%88%A0-%EB%B0%B1/).
 
-> 장승이라고 해. 장승에 대해서 알려줘.
+> [[장승]]이라고 해. [[장승]]에 대해서 알려줘.
 
-- Searching for: `장승`
+- Searching for: **[[장승]]**
 - Generating answers for you…
 
-장승이라고 하면, 다음과 같은 내용을 알 수 있습니다.
+[[장승]]이라고 하면, 다음과 같은 내용을 알 수 있습니다.
 
-- 장승은 마을 또는 절 입구 등에 세운 사람의 얼굴 모양을 새긴 기둥입니다. 장승은 마을의 경계를 표시하거나 귀신을 쫓는 마을의 수호신 역할을 합니다. [장승은 돌로 만든 석장승과 나무로 만든 목장승이 있으며, 지방에 따라 장승, 정성, 벅수, 법수, 당산할아버지, 수살목 등의 이름으로 불립니다](https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%8A%B9)[1](https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%8A%B9)[2](https://blog.naver.com/PostView.nhn?blogId=lesbul&logNo=202507655).
-- 장승은 신라와 고려시대에는 역참 제도의 일부로, 국도나 관로를 안내하는 푯말로 사용되었습니다. 장승은 후, 장생, 장생표주, 목방장생표, 석적장생표, 석비장생표, 국장생, 황장생 등의 명칭으로 기록되었습니다. 장승은 조선시대에도 계속 사용되었으나, 1895년에 역참 제도가 폐지되면서 사라졌습니다[3](http://encykorea.aks.ac.kr/Contents/Index?contents_id=E0048619)[4](http://www.ns-times.com/news/view.php?bIdx=3326).
-- 장승은 일제강점기에 조선총독부에 의해 미신적인 것으로 간주되어 철거되었습니다. 그러나 일부 지역에서는 장승을 보존하거나 새로 세우기도 하였습니다. 장승은 현재도 한국의 전통문화로 인식되고 있으며, 장승제, 장승마을, 돌하르방, 벅수 등의 형태로 전승되고 있습니다[5](https://m.blog.naver.com/9339june/221203778772)[6](https://blog.naver.com/PostView.nhn?blogId=miraclefish&logNo=30156458935).
+- [[장승]]은 마을 또는 절 입구 등에 세운 사람의 얼굴 모양을 새긴 기둥입니다. [[장승]]은 마을의 경계를 표시하거나 귀신을 쫓는 마을의 수호신 역할을 합니다. [[[장승]]은 돌로 만든 석[[장승]]과 나무로 만든 목[[장승]]이 있으며, 지방에 따라 [[장승]], 정성, 벅수, 법수, 당산할아버지, 수살목 등의 이름으로 불립니다](https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%8A%B9)[1](https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%8A%B9)[2](https://blog.naver.com/PostView.nhn?blogId=lesbul&logNo=202507655).
+- [[장승]]은 신라와 고려시대에는 역참 제도의 일부로, 국도나 관로를 안내하는 푯말로 사용되었습니다. [[장승]]은 후, 장생, 장생표주, 목방장생표, 석적장생표, 석비장생표, 국장생, 황장생 등의 명칭으로 기록되었습니다. [[장승]]은 조선시대에도 계속 사용되었으나, 1895년에 역참 제도가 폐지되면서 사라졌습니다[3](http://encykorea.aks.ac.kr/Contents/Index?contents_id=E0048619)[4](http://www.ns-times.com/news/view.php?bIdx=3326).
+- [[장승]]은 일제강점기에 조선총독부에 의해 미신적인 것으로 간주되어 철거되었습니다. 그러나 일부 지역에서는 [[장승]]을 보존하거나 새로 세우기도 하였습니다. [[장승]]은 현재도 한국의 전통문화로 인식되고 있으며, [[장승]]제, [[장승]]마을, 돌하르방, 벅수 등의 형태로 전승되고 있습니다[5](https://m.blog.naver.com/9339june/221203778772)[6](https://blog.naver.com/PostView.nhn?blogId=miraclefish&logNo=30156458935).
 
 </details>
 

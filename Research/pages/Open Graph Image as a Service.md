@@ -11,5 +11,5 @@ slug: '/2531E5'
 
 ## Found...
 
-- [vercel/satori: Enlightened library to convert HTML and CSS to SVG](https://github.com/vercel/satori)
+- [vercel/satori](https://github.com/vercel/satori): Enlightened library to convert [[HTML]] and [[CSS]] to [[SVG]]
 - [[2022-10-11]]

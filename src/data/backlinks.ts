@@ -189,7 +189,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- [[2020-09-25]]"
     },
     "2023-02-24": {
-        "Letter to Mr. Gustav Ekerot on 2023-02-24": "## [[2023-02-24]]"
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... to Mr. Gustav Ekerot on [[2023-02-24]]"
     },
     "2022-10-28": {
         "Dynamic Island on the Web": "## [[2022-10-28]]"
@@ -471,6 +471,7 @@ export const backlinks = {
         "Project Heimdall": "## [[2023-05-16]]"
     },
     "2022-10-11": {
+        "Letter to the Heptabase Team on 2022-10-11": "... to the Heptabase Team on [[2022-10-11]]",
         "Open Graph Image as a Service": "- [[2022-10-11]]"
     },
     "2023-01-13": {
@@ -544,7 +545,7 @@ export const backlinks = {
         "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]]",
         "Coding Tests in Swift": "Accessing the value of a [[Swift]] Dict will return Optional.",
         "Reading Files in Swift": "Reading Files in [[Swift]]",
-        "Requesting Review in Swift": "Requesting Review in [[Swift]]",
+        "Requesting Review in Swift": "Requesting Review in [[Swift]] [[StoreKit]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]",
         "Using System Haptics and Sounds in Swift": "... System Haptics and Sounds in [[Swift]]",
         "하늘땅사람 개발 기록": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
@@ -606,6 +607,9 @@ export const backlinks = {
         "Wolfram Alpha": "## Wolfram's [[ChatGPT]] prompt",
         "기술 발전의 속도": "그런데 고작 3개월도 되지 않아 [[ChatGPT]]가 등장하며... 모든 것을 뒤바꾸어 놓았다. ...",
         "초대장의 시대": "... 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
+    },
+    "containerBackground": {
+        "WWDC23": "- [[containerBackground]] modifier using gradient fills, giving ..."
     },
     "Optimistic Nihilist": {
         "2023-02-14": "- [[Optimistic Nihilist]]",
@@ -687,6 +691,9 @@ export const backlinks = {
     "0206 Reverse Linked List": {
         "Coding Tests": "- [x] [[0206 Reverse Linked List]]"
     },
+    "WidgetKit": {
+        "WWDC23": "- [[WidgetKit]] → Interactivity. Also possible to ..."
+    },
     "Aldehyde SaaS": {
         "2023-05-30": "- [[Aldehyde SaaS]]"
     },
@@ -766,7 +773,7 @@ export const backlinks = {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 ..."
     },
     "visionOS": {
-        "2023-06-06": "[[visionOS]]",
+        "2023-06-06": "- [[visionOS]]",
         "Apple Vision Pro": "- Featuring [[visionOS]], the world's first spatial operating ..."
     },
     "0001 Two Sum": {
@@ -1033,6 +1040,7 @@ export const backlinks = {
         "2023-02-16": "- [[Singapore]]",
         "Bondee": "... avatar social app created by [[Singapore]]-based tech firm [[Metadream]]. Users can ...",
         "Metadream": "... is a private company in [[Singapore]], established on September 9, 2022, ...",
+        "On-Premise": "... rented colocation data center in [[Singapore]] with a relatively homogenous infrastructure",
         "The Sudden Rise of Bondee": "... going crazy in 대한민국|Korea, 일본|Japan, [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in ...",
         "본디는 사실 혜성이 아니다": "Metadream|메타드림은 [[Singapore|싱가포르]] 기반의 회사다 보니 싱가포르 금융당국의 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, 일본, [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 ..."
@@ -1200,6 +1208,10 @@ export const backlinks = {
     },
     "Apollo (GraphQL)": {
         "Redwood.js": "... API built with Prisma and [[Apollo (GraphQL)]] Server. Prisma is used for ..."
+    },
+    "AirDrop": {
+        "WWDC23": "- [[AirDrop]] improvements for in-app contents",
+        "iOS": "... also includes features such as [[AirDrop]], which allows users to easily ..."
     },
     "Multiplication Theorem": {
         "2023-01-23": "- [[Multiplication Theorem]]",
@@ -1484,6 +1496,9 @@ export const backlinks = {
         "Newsletter": "- [[Stephan Ango]] uses [[Buttondown]]",
         "Now Page": "### [[Stephan Ango]]"
     },
+    "Xcode Cloud": {
+        "WWDC23": "- [[Xcode Cloud]]: 2x faster workflows. Share Tester ..."
+    },
     "Beehiiv": {
         "2023-02-21": "- [[Beehiiv]]",
         "hn.cho.sh 개발 기록": "[[Beehiiv]]의 Referral 도구가 좋다고 하는데, 가장 ..."
@@ -1580,9 +1595,9 @@ export const backlinks = {
         "2022-12-04": "... built on Next.js, Vercel, and [[Tailwind]]. Lee Robinson: The Verge: new ...",
         "Satori": "- [[Tailwind]] [[CSS]] with the `tw` prop",
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
-        "Tailwind CSS 톺아보기": "- [[Tailwind]] CSS를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 ...",
-        "dub.sh": "  - [[Tailwind]] CSS",
-        "henrymakesapps": "3.  [[Tailwind]] CSS: Reduces time spent on ..."
+        "Tailwind CSS 톺아보기": "- [[Tailwind]] [[CSS]]를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 ...",
+        "dub.sh": "  - [[Tailwind]] [[CSS]]",
+        "henrymakesapps": "3.  [[Tailwind]] [[CSS]]: Reduces time spent on ..."
     },
     "SMIME": {
         "2022-08-03": "### [[SMIME|S/MIME]] Certificates",
@@ -1644,11 +1659,27 @@ export const backlinks = {
     },
     "CSS": {
         "2023-01-23": "... seems like Wikipedia updated its [[CSS]]...",
+        "Apple Newsroom 서체 따라하기": "... 기간 나에게 딱 맞는 폰트 [[CSS]]를 찾아왔다. 이 글에서는 드디어 찾은 ...",
+        "Boring Technologies": "... languages seen as less rigorous. [[CSS]] is dropped in favor of ...",
+        "Chrome": "... of web technologies, including HTML5, [[CSS]], and JavaScript. In addition, it ...",
+        "Chromium": "- \"The integration with the [[CSS]] [[engine]] leads to some extraordinary ...",
         "Font Features": "- [[CSS]] property to enhance legibilities of ...",
         "Markdown Email Client": "... Markdown. Before sending, select one [[CSS]]. Then... it sends as a ...",
+        "Mini App": "... using web-based technologies like HTML, [[CSS]], and JavaScript hosted by the ...",
+        "Open Graph Image as a Service": "... library to convert HTML and [[CSS]] to [[SVG]]",
+        "Proposal of Research 2023-01-10": "... load and display its HTML, [[CSS]], and JavaScript. One everyday use ...",
+        "Safari": "... of web technologies, including HTML5, [[CSS]], and JavaScript. It includes features ...",
         "Satori": "... new core library for converting HTML/[[CSS]] into SVGs.",
+        "Setting different images for Light & Dark mode": "Using `preferred color scheme` [[CSS]] property and [[HTML]] Picture `srcset` ...",
         "Stories Behind Satori": "... two, being fast and dev-friendly (HTML/[[CSS]])",
-        "Tailwind": "... leaving your HTML. A utility-first [[CSS]] framework packed with classes like ..."
+        "Tailwind": "... leaving your HTML. A utility-first [[CSS]] framework packed with classes like ...",
+        "Tailwind CSS 톺아보기": "- Tailwind [[CSS]]를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 적용",
+        "WebExtension": "... web technologies such as HTML, [[CSS]], and JavaScript. They can interact ...",
+        "dub.sh": "  - Tailwind [[CSS]]",
+        "henrymakesapps": "3.  Tailwind [[CSS]]: Reduces time spent on styling ...",
+        "hn.cho.sh 개발 기록": "라고 하는데 [[CSS]] 같은거로 간단하게 처리할 수 있는지 ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 재사용성에 집중하는 것이다. 예를 들어 [[CSS]]는 큰 [[Project|프로젝트]]에서 깨지기가 너무 쉽다. ...",
+        "브라우저 콘솔에 경고 문구 띄우는 방법": "... 텍스트를 강조하고 싶다면 다음과 같이 [[CSS]]를 정의해주는 것도 가능하다."
     },
     "Microservices Architecture": {
         "Cloud-Native": "... infrastructure. They are comfortable building [[Microservices Architecture]], containerization, and [[automation]] using tools ...",
@@ -1728,6 +1759,9 @@ export const backlinks = {
     "Person 960D1D": {
         "2023-03-03": "- [[Person 960D1D]]",
         "Project PEOPLE": "- [[Person 960D1D]]"
+    },
+    "AVCapture": {
+        "WWDC23": "- [[AVCapture]] is faster and better → ..."
     },
     "Pure Component Model": {
         "2022-09-03": "- [[Pure Component Model]]",
@@ -1984,6 +2018,7 @@ export const backlinks = {
     },
     "SVG": {
         "CSS": "... (including XML dialects such as [[SVG]], MathML, or XHTML). CSS is ...",
+        "Open Graph Image as a Service": "... convert HTML and CSS to [[SVG]]",
         "Stories Behind Satori": "- [[SVG]]-based solutions were the perfect balance ..."
     },
     "Interaction Effect": {
@@ -2048,6 +2083,9 @@ export const backlinks = {
         "2022-09-17": "  - [[Centering]]",
         "2022-11-30": "- [[Centering]]",
         "Android": "- [[Centering]]"
+    },
+    "Privacy Supply Chains": {
+        "WWDC23": "- [[Privacy Supply Chains]]: Signature for third-party SDKs."
     },
     "hn.cho.sh": {
         "2023-03-24": "- [[hn.cho.sh]]",
@@ -2489,6 +2527,9 @@ export const backlinks = {
         "Wael AbdAlmageed": "- Researcher at [[University of Southern California]]",
         "이완용": "... 던지지 않는다. 그러다 얼마 전 [[University of Southern California|학교]] 도서관 동아시아관을 거닐던 중 우연히 ..."
     },
+    "Privacy Manifest": {
+        "WWDC23": "- [[Privacy Manifest]] that automatically aggregates third-party analytics ..."
+    },
     "Entropy": {
         "2023-03-27": "[[Entropy]]",
         "Text AI and Information Density": "... ChatGPT, tends to have low [[Entropy|information density]]."
@@ -2564,6 +2605,7 @@ export const backlinks = {
         "The Dilemmas of Technopreneur": "... but it never would've become [[Apple]] if it weren't for Steve ...",
         "USDZ vs glTF": "... by Pixar and operated by [[Apple]] for [[iOS]] [[Augmented Reality]] applications. ...",
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] ...",
+        "WWDC": "[[Apple]]'s Worldwide Developer Conference",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 ...",
         "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 금융위원회에서 ...",
         "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 ...",
@@ -2795,7 +2837,7 @@ export const backlinks = {
         "Better Obsidian": "## [[WebExtension|Extension]] Ideas for [[Obsidian]]",
         "Bing Chat for All Browsers in Japan": "... of 🇯🇵 people like my [[WebExtension|extension]]!",
         "Developing Review Notes for Obsidian": "... 다음과 같은 간단한 구조였다. Chrome [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 이루어져 ...",
-        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... have a question about your [[WebExtension|extension]], tabExtend. I recently switched to ...",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... have a question about your [[WebExtension|extension]], [[tabExtend]]. I recently switched to ...",
         "Letter to the Heptabase Team on 2022-10-11": "- [[WebExtension|Extension]] APIs",
         "Porting a Chrome Extension to Firefox Add-on": "... very different Web Browser|browsers, Chrome [[WebExtension|Extension]] and Firefox Add-on are now ...",
         "Privacy Policy for My Chrome Extensions": "... any data from this Chrome [[WebExtension|Extension]].",
@@ -2815,6 +2857,9 @@ export const backlinks = {
     },
     "Pivot": {
         "2022-12-21": "- [[Pivot]]"
+    },
+    "Sensitive Content Analysis Framework": {
+        "WWDC23": "- [[Sensitive Content Analysis Framework]]: On-device nudity detection & Sensitive ..."
     },
     "Reading Files in Swift": {
         "2023-01-22": "- [[Reading Files in Swift]]"
@@ -3533,6 +3578,16 @@ export const backlinks = {
         "2022-09-05": "- [[0704 Binary Search]]",
         "Coding Tests": "- [x] [[0704 Binary Search]]"
     },
+    "Accessibility": {
+        "Are Computers Psychotropic Substances": "Try out [[accessibility]] features such as Color Filters ...",
+        "Cartography": "... legal and ethical considerations, and [[accessibility]] and usability.",
+        "Project Core ML Inference": "... terms of data flow and [[accessibility]], how do you measure success ...",
+        "Proposal of Research 2023-01-10": "... other assistive technology to provide [[accessibility]] to visually impaired users. Search ...",
+        "Proposal of Research 2023-03-28": "## Enhancing Web [[Accessibility]]: Utilizing [[Generative AI]] to Generate ...",
+        "QA.json": "2. Enhanced [[Accessibility]] ([[Accessibility|a11y]]). The proposed QA pairs ...",
+        "Sungari": "... jobs and further increasing data [[accessibility]].",
+        "WWDC23": "## [[Accessibility]]"
+    },
     "Jumpsite": {
         "2022-10-13": "- [x] [[Jumpsite]]",
         "2022-11-29": "- [[Jumpsite]]",
@@ -3560,6 +3615,9 @@ export const backlinks = {
     },
     "Technocapital and Biocapital": {
         "2022-12-06": "- [[Technocapital and Biocapital]]"
+    },
+    "Limit Access for Photos": {
+        "WWDC23": "- [[Limit Access for Photos]]: New photo picker component"
     },
     "슈퍼자판기": {
         "2023-04-30": "- [[슈퍼자판기]]",
@@ -3846,6 +3904,9 @@ export const backlinks = {
     "Confession in Slack": {
         "2023-05-24": "- [[Confession in Slack]]"
     },
+    "Game Porting Toolkit": {
+        "WWDC23": "- [[Game Porting Toolkit]] → automatic HLSL conversion"
+    },
     "Bluesky": {
         "After Steve": "... The school called it the \"[[Bluesky|blue sky]]\" project, a name that encouraged ..."
     },
@@ -3922,10 +3983,17 @@ export const backlinks = {
         "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Generative Intelligence]]",
         "Intellisense for Knowledge Management": "- More like [[Notion AI]]? What if [[Notion]] [[AI]] got ..."
     },
+    "NavigationSplitView": {
+        "WWDC23": "- NavigationStack → [[NavigationSplitView]]: a renewed focus on pagination, ..."
+    },
     "LaTeX": {
         "Space in LaTeX": "Space in [[LaTeX]]",
         "Useful ChatGPT Prompts": "## Use [[LaTeX]]",
         "latexify.cho.sh": "... convert the equation into $\\TeX$ [[LaTeX]]"
+    },
+    "StoreKit": {
+        "Requesting Review in Swift": "Requesting Review in Swift [[StoreKit]]",
+        "WWDC23": "- [[StoreKit]] → Now provides a general ..."
     },
     "Android equivalent of div": {
         "2022-09-17": "  - [[Android equivalent of div]]",
@@ -4051,6 +4119,7 @@ export const backlinks = {
     },
     "Inter": {
         "Akzidenz": "... to San Francisco|SF Pro and [[Inter]].",
+        "Apple Newsroom 서체 따라하기": "### 영문: [[Inter]]",
         "Font Features": "- San Francisco, [[Inter]], and [[Pretendard]] has awesome support.",
         "Pretendard의 아쉬운 점": "... Noto Sans CJK KR Black은 [[Inter]] Extra Bold와 무게가 비슷하다.",
         "San Francisco": "### [[Inter]]"
@@ -4460,6 +4529,9 @@ export const backlinks = {
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. Artifact|아티팩트는 [[ML|머신 ...",
         "초대장의 시대": "Amie 뿐만 아니라 Texts, Tana, [[Artifact]]까지 초대장이 있냐고 연락을 받았다. 하지만 ..."
     },
+    "Dim Flashing Lights": {
+        "WWDC23": "- [[Dim Flashing Lights]] for Photosensitive users (AVFoundation includes ..."
+    },
     "Effective Accelerationism": {
         "2022-11-28": "- [[Effective Accelerationism]]: [[Effective Accelerationism|효율적 가속주의]]",
         "Can we ever build TikTok for Text": "... preserve intelligence, as seen in [[Effective Accelerationism]].",
@@ -4531,6 +4603,9 @@ export const backlinks = {
         "Snowpack으로 WASM 시작하기": "- 다만 Safari와 [[Firefox]]에서는 작동되지 않았다. \"SharedArrayBuffer is not ...",
         "The One and Only WebExtension": "- A Safari and [[Firefox]] [[WebExtension|extension]] that disguises itself as ...",
         "WebExtension": "... such as Chrome|Google Chrome, Mozilla [[Firefox]], and Microsoft Edge, support the ..."
+    },
+    "TipKit": {
+        "WWDC23": "- [[TipKit]] → Displays some Tooltips"
     },
     "Bad Interview Experience with Replo": {
         "2023-05-29": "- [[Bad Interview Experience with Replo]]"
@@ -4724,6 +4799,7 @@ export const backlinks = {
     "Vocab": {
         "Cantankerous": "[[vocab]]",
         "Flamboyant": "- [[vocab]]. Flamboyant is an adjective to ...",
+        "Frivolous": "[[vocab]]",
         "Mundivagant": "[[Vocab]]. Wandering around the world.",
         "Nigh": "... nigh! > nigh - Wiktionary [[Vocab]]",
         "Quarrelsome": "[[vocab]]. Quarrelsome is an adjective that ...",
@@ -4933,6 +5009,14 @@ export const backlinks = {
     },
     "DoS": {
         "Internetworking": "- [[DoS]]"
+    },
+    "Xcode": {
+        "2022-08-04": "3. [[Xcode]] is still heavy.",
+        "2023-02-08": "... highlight bottlenecks and surface them. [[Xcode]] instruments, a part of Xcode, ...",
+        "Apple Newsroom 서체 따라하기": "... Francisco|SF Mono는 여전히 Mac 터미널과 [[Xcode]]의 기본 코드 서체로 사용된다. 그 ...",
+        "Retroactive (Software)": "... Big Sur, and macOS Catalina. [[Xcode]] 11.7 on macOS Mojave. [[Final ...",
+        "Storing sensitive data in iOS Apps": "... from the top bar in [[Xcode]], you can `edit scheme`.",
+        "WWDC23": "## [[Xcode]]"
     },
     "Architectural Decision Records": {
         "2022-11-02": "- [[Architectural Decision Records]]"
@@ -5332,6 +5416,10 @@ export const backlinks = {
     "Maserati Problem": {
         "2022-11-02": "- [[Maserati Problem]]"
     },
+    "Reduced Motion": {
+        "Shopify Analyzes CSS Frameworks": "... component for hover, active easily, [[reduced motion]], color scheme, etc.   ...",
+        "WWDC23": "- [[Reduced Motion|Paused Animated Images]] → Stop motions in animated ..."
+    },
     "Lesser Known Trick": {
         "2022-10-21": "- [[Lesser Known Trick]]",
         "2022-11-30": "- [[Lesser Known Trick]]: [[Sudo with Touch ID]]",
@@ -5642,7 +5730,7 @@ export const backlinks = {
         "Super App": "- [[Microsoft]] may build an all-in-one \"super ...",
         "TypeScript": "... language developed and maintained by [[Microsoft]]. It is a strict syntactical ...",
         "Visual Studio Code": "... as VS Code, made by [[Microsoft]] with the Electron Framework, for ...",
-        "Workbench": "- For [[Microsoft]] Products, use App Store.",
+        "Workbench": "- For [[Microsoft]] Products, use [[App Store]].",
         "원숭이와 꽃신": "- [[Microsoft|마이크로소프트]]도 이런 '원숭이 꽃신 [[Economy|경제]]학'에 충실한 ..."
     },
     "Pull Request": {
@@ -5693,7 +5781,7 @@ export const backlinks = {
     },
     "Heptabase": {
         "Alan Chan": "- CEO of [[Heptabase]]",
-        "Letter to the Heptabase Team on 2022-10-11": "- Mail|Letter to the [[Heptabase]] Team on 2022-10-11",
+        "Letter to the Heptabase Team on 2022-10-11": "- Mail|Letter to the [[Heptabase]] Team on [[2022-10-11]]",
         "Spacial Cognition": "... Thought use it. For example, [[Heptabase]].",
         "Visual-based Tools for Thought": "### [[Heptabase]]"
     },
@@ -5803,6 +5891,9 @@ export const backlinks = {
         "Vector DB": "... cloud-native database, all accessible through [[GraphQL]], REST, and various language clients.",
         "henrymakesapps": "... communication without needing REST or [[GraphQL]].",
         "tRPC": "... alternative to traditional REST or [[GraphQL]], designed specifically for full-stack TypeScript ..."
+    },
+    "ScreenCaptureKit": {
+        "WWDC23": "- Video Conferencing → [[ScreenCaptureKit]]"
     },
     "The Site On Which the Sun Never Sets": {
         "2023-02-26": "- [[The Site On Which the Sun Never Sets]]",
@@ -6005,9 +6096,15 @@ export const backlinks = {
         "Internetworking": "- [[Dijkstra]]",
         "Project Core ML Foundation": "... Uniform Cost Search: Priority Queue. [[Dijkstra]] is a variant of UCS, ..."
     },
+    "SwiftData": {
+        "WWDC23": "- [[SwiftData]]"
+    },
     "서낭당": {
         "2023-02-12": "- [[서낭당]]",
         "장승": "비슷한 예시로 솟대나 [[서낭당]]이 있다."
+    },
+    "NavigationStack": {
+        "WWDC23": "- [[NavigationStack]] → [[NavigationSplitView]]: a renewed focus ..."
     },
     "iOS": {
         "2023-02-08": "... various potential issues in a macOS/[[iOS]] application",
@@ -6053,6 +6150,13 @@ export const backlinks = {
     "Independence": {
         "2023-01-23": "- [[Independence]]",
         "Interaction Effect": "... level of another variable. Related: [[Independence]]"
+    },
+    "Internationalization": {
+        "2023-06-06": "- [[Internationalization]]",
+        "CJK": "> In [[internationalization]], CJK character is a collective ...",
+        "Intracranial": "  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for Chinese ...",
+        "WWDC23": "\t- Accessibility|a11y, and [[Internationalization|i18n]] built-in",
+        "hn.cho.sh 개발 기록": "[[Internationalization|i18n]]을 Sitemap과 HTML Head `hreflang`으로 자동 ..."
     },
     "Flamboyant": {
         "2023-05-03": "- [[Flamboyant]]"
@@ -6187,6 +6291,9 @@ export const backlinks = {
     },
     "Palantir Foundry": {
         "Palantir": "- [[Palantir Foundry]]"
+    },
+    "CoreMotion API": {
+        "WWDC23": "- [[CoreMotion API]] → higher fidelity data"
     },
     "Passkey": {
         "2022-06-20": "... that this is not Apple [[Passkey]]. This is the Privacy Pass ...",
@@ -6489,11 +6596,17 @@ export const backlinks = {
     "0215 Kth Largest Element in an Array": {
         "Coding Tests": "- [[0215 Kth Largest Element in an Array]] [[TODO]]"
     },
+    "Smart Stack": {
+        "WWDC23": "... the top of the new [[Smart Stack]]. "
+    },
     "Setting different fonts by language in CSS": {
         "2022-11-19": "  - [[Setting different fonts by language in CSS]]"
     },
     "Negative Binomial Series": {
         "2023-02-02": "- [[Negative Binomial Series]]"
+    },
+    "ToolbarItem": {
+        "WWDC23": "- [[ToolbarItem]] → Using corners of Apple ..."
     },
     "Antipilot": {
         "2022-11-23": "- [[Antipilot]]"
@@ -6593,8 +6706,24 @@ export const backlinks = {
         "2022-08-01": "- [[Programmable Web]]",
         "Matt Rickard": "- [[Programmable Web]]"
     },
+    "App Store": {
+        "Bondee": "... 2023, and has topped multiple [[app store]] charts across Asia.",
+        "Did Bondee Really Suddenly Rise": "... quality. Bondee also topped multiple [[app store]] charts across Asia within a ...",
+        "Grammarly Work Note 2023-05-31": "... user base, often through an [[app store]] release. This approach typically takes ...",
+        "Reimagining Emails": "... paid app in the Mac [[App Store]] at launch. It is available ...",
+        "The Sudden Rise of Bondee": "... etc., ranking #1 in the [[App Store]]. Users can create a [[3d]] ...",
+        "WWDC23": "## [[App Store]]",
+        "Workbench": "4. [[App Store]] Install",
+        "iOS": "... voice-activated virtual assistant, and the [[App Store]], which allows users to download ..."
+    },
+    "Swift Macro": {
+        "WWDC23": "- [[Swift Macro]]"
+    },
     "Make Git Case Sensitive": {
         "2023-05-24": "- [[Make Git Case Sensitive]]"
+    },
+    "WWDC23": {
+        "2023-06-06": "- [[WWDC23]]"
     },
     "Neural Engine": {
         "CalliFontia": "- Apple [[Neural Engine]] 적극 활용, 기기 자체에서 폰트 ...",
@@ -6687,6 +6816,9 @@ export const backlinks = {
         "2023-01-27": "- [[Aldehyde Outage (January 2023)]]",
         "2023-01-29": "- [[Aldehyde Outage (January 2023)]]",
         "2023-01-30": "- [[Aldehyde Outage (January 2023)]]"
+    },
+    "SKAdNetwork": {
+        "WWDC23": "- [[SKAdNetwork]]: [[App Store]]'s more in-depth analytics: ..."
     },
     "Atopic Zeropoint": {
         "2023-02-08": "- [[Atopic Zeropoint]]"
@@ -7065,6 +7197,9 @@ export const backlinks = {
         "2022-09-05": "- [[Binary Search]]",
         "Real Exams": "... 1 binary tree construction & [[Binary Search]] traversal"
     },
+    "Custom Workout API": {
+        "WWDC23": "- [[Custom Workout API]] → Will show up on ..."
+    },
     "Backblaze": {
         "2023-04-20 Conversation with Velopert": "... 인한 과금이 많이 발생했다. Cloudflare와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 서버 ..."
     },
@@ -7414,6 +7549,9 @@ export const backlinks = {
     "Floyd Cycle Finding Algorithm": {
         "0141 Linked List Cycle": "- [[Floyd Cycle Finding Algorithm]]"
     },
+    "App Intents": {
+        "WWDC23": "- [[App Intents]] → Can be used as ..."
+    },
     "Screenplay": {
         "2022-10-18": "- Screenplays [[Screenplay]]"
     },
@@ -7460,7 +7598,7 @@ export const backlinks = {
         "2023-03-10": "- [[Adaptive Keyboard]]"
     },
     "TS1208 All files must be modules when the --isolatedModules flag is provided.": {
-        "2023-06-06": "[[TS1208 All files must be modules when the --isolatedModules flag is provided.]]"
+        "2023-06-06": "- [[TS1208 All files must be modules when the --isolatedModules flag is provided.]]"
     },
     "0079 Word Search": {
         "Coding Tests": "- [ ] [[0079 Word Search]]"
@@ -7516,7 +7654,8 @@ export const backlinks = {
         "2022-12-27": "- [[Fix Your Posture]]"
     },
     "Peter the Great": {
-        "2023-02-21": "- [[Peter the Great]]"
+        "2023-02-21": "- [[Peter the Great]]",
+        "Petersburg": "Pushkin put [[Peter the Great]] as the Bronze Horseman: a ..."
     },
     "Railway": {
         "2023-05-20": "... out Render.com. It feels like [[Railway]], but I must try it ...",
@@ -7675,6 +7814,7 @@ export const backlinks = {
         "JSX": "... is similar in appearance to [[HTML]]. React components are typically written ...",
         "JavaScript": "... the World Wide Web, alongside [[HTML]] and CSS. As of 2022, ...",
         "Markdown Email Client": "... as a beautiful and clean [[HTML]] Mail|email!",
+        "Open Graph Image as a Service": "... vercel/satori: Enlightened library to convert [[HTML]] and [[CSS]] to [[SVG]]",
         "Preservation of Data": "Save the raw [[HTML]] and process it later.",
         "Proposal of Research 2023-01-10": "... shortened to iframe, is an [[HTML]] element that allows you to ...",
         "Protocol Wars": "... automatically converted Gopher menus into [[HTML]]",
@@ -8328,6 +8468,9 @@ export const backlinks = {
     },
     "D815DD.jpeg": {
         "2022-07-12": "![[D815DD.jpeg]]"
+    },
+    "i18n": {
+        "2022-10-11": "Merged 2! docs: Add Korean [[i18n]] support #31"
     },
     "9467DA.png": {
         "2022-10-25": "![[9467DA.png]]"

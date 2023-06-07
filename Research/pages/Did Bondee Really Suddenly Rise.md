@@ -9,7 +9,7 @@ Yesterday, we took a closer look into [[Bondee]]: [[The Sudden Rise of Bondee]].
 This article examines the connection between [[Bondee]] and Zheli, a now-shut-down Chinese service, and the allegations of personal information infringement regarding Zheli. [[Bondee]] has not yet encountered any information infringement cases or operational security problems. We cannot draw a definitive conclusion about [[Bondee]] simply from a few speculations. This article does not raise suspicions about the [[Bondee]] service. Please keep this part in mind and read it.
 :::
 
-[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. [[Bondee]] launched on January 7, 2023, with great quality. [[Bondee]] also topped multiple app store charts across Asia within a month. Such a Mega-hit for an early startup. They feel very **prepared** and well-established. Isn't it strange?
+[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. [[Bondee]] launched on January 7, 2023, with great quality. [[Bondee]] also topped multiple [[app store]] charts across Asia within a month. Such a Mega-hit for an early startup. They feel very **prepared** and well-established. Isn't it strange?
 
 ## Who's behind [[Metadream]]?
 
@@ -64,7 +64,7 @@ However, its developers soon took down the app to "improve existing user experie
 
 ![[474D9E.png]]
 
-Zheli is a new app that has faced continuous and organized attacks, causing rumors to be spread and negative reviews to be posted on various platforms. The company has taken legal action to defend its reputation. However, the app also has technical issues, such as freezes, crashes, and delays, which still need to be resolved. To improve the user experience, the company has decided to remove the app from the app store for a large-scale system upgrade and focus on fixing existing problems. The company hopes to hear from users through their question and suggestion channels and their official Weibo account.
+Zheli is a new app that has faced continuous and organized attacks, causing rumors to be spread and negative reviews to be posted on various platforms. The company has taken legal action to defend its reputation. However, the app also has technical issues, such as freezes, crashes, and delays, which still need to be resolved. To improve the user experience, the company has decided to remove the app from the [[app store]] for a large-scale system upgrade and focus on fixing existing problems. The company hopes to hear from users through their question and suggestion channels and their official Weibo account.
 
 </details>
 
