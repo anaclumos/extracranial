@@ -87,7 +87,7 @@ const config: Config = {
     footer: {
       links: [
         {
-          title: '© 불가사리',
+          title: '© ★',
           items: [
             {
               label: '대표 조성현',
@@ -99,10 +99,6 @@ const config: Config = {
             },
             {
               label: '대전광역시 서구 봉우로8번길 23 220',
-              to: 'https://cho.sh',
-            },
-            {
-              label: '+821025419828',
               to: 'https://cho.sh',
             },
           ],
