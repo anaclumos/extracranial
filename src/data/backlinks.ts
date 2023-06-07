@@ -6155,7 +6155,7 @@ export const backlinks = {
         "2023-06-06": "- [[Internationalization]]",
         "CJK": "> In [[internationalization]], CJK character is a collective ...",
         "Intracranial": "  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for Chinese ...",
-        "WWDC23": "\t- Accessibility|a11y, and [[Internationalization|i18n]] built-in",
+        "WWDC23": "  - Accessibility|a11y, and [[Internationalization|i18n]] built-in",
         "hn.cho.sh 개발 기록": "[[Internationalization|i18n]]을 Sitemap과 HTML Head `hreflang`으로 자동 ..."
     },
     "Flamboyant": {
@@ -6597,7 +6597,7 @@ export const backlinks = {
         "Coding Tests": "- [[0215 Kth Largest Element in an Array]] [[TODO]]"
     },
     "Smart Stack": {
-        "WWDC23": "... the top of the new [[Smart Stack]]. "
+        "WWDC23": "... the top of the new [[Smart Stack]]."
     },
     "Setting different fonts by language in CSS": {
         "2022-11-19": "  - [[Setting different fonts by language in CSS]]"
