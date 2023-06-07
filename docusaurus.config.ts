@@ -102,7 +102,7 @@ const config: Config = {
               to: 'https://cho.sh',
             },
             {
-              label: '(+82)10-2541-9828',
+              label: '+821025419828',
               to: 'https://cho.sh',
             },
           ],
