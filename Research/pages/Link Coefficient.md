@@ -3,11 +3,11 @@ lang: 'en'
 slug: '/AC990C'
 ---
 
-Given a database, how interconnected is the database?
+Given a [[database]], how interconnected is the [[database]]?
 
 ## Key Idea
 
-Given $n$ nodes, there can be $n(n-1) \over 2$ total possible links if every single node is connected to the other. How many links exist compared to that fully-linked database?
+Given $n$ nodes, there can be $n(n-1) \over 2$ total possible links if every single node is connected to the other. How many links exist compared to that fully-linked [[database]]?
 
 $$
 \text{Link Coefficient} = {\text{Existing Number of Links} \over \text{Total Possible Number of Links}}

@@ -618,6 +618,7 @@ export const backlinks = {
         "2022-11-24": "- [[The Library of Babel]]",
         "Information amongst Data": "[[The Library of Babel]] holds all data.",
         "Proposal of Research 2023-01-10": "\"[[The Library of Babel]]\" by Jorge Luis Borges is ...",
+        "Proposal of Research 2023-03-28": "Inspired by \"[[The Library of Babel]]\" by Jorge Luis Borges, this ...",
         "The Photo Library of Babel": "[[The Library of Babel]]"
     },
     "Texts": {
@@ -764,6 +765,10 @@ export const backlinks = {
     "Framer": {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 ..."
     },
+    "visionOS": {
+        "2023-06-06": "[[visionOS]]",
+        "Apple Vision Pro": "- Featuring [[visionOS]], the world's first spatial operating ..."
+    },
     "0001 Two Sum": {
         "2022-07-10": "- Solved [[0001 Two Sum]]",
         "Coding Tests": "- [x] [[0001 Two Sum]]"
@@ -778,6 +783,9 @@ export const backlinks = {
     "Redirecting READMEs": {
         "2022-10-21": "- [[Redirecting READMEs]]",
         "2023-03-24": "- [[Redirecting READMEs]]"
+    },
+    "Invalid type any of template literal expression": {
+        "2023-06-02": "- [[Invalid type any of template literal expression]]"
     },
     "TCP vs UDP": {
         "Internet Protocol Stack": "- Transport. TCP. UDP. [[TCP vs UDP]]. Handles Segments.",
@@ -960,6 +968,10 @@ export const backlinks = {
     "0104 Maximum Depth of Binary Tree": {
         "Coding Tests": "- [x] [[0104 Maximum Depth of Binary Tree]]"
     },
+    "Ive": {
+        "2023-05-06": "> [[Ive]] said... Ive was conflicted... Ive ...",
+        "After Steve": "## [[Ive]]"
+    },
     "Stripe Sessions 2023": {
         "2023-04-17": "- [[Stripe Sessions 2023]]"
     },
@@ -998,7 +1010,7 @@ export const backlinks = {
         "2022-10-20": "- [[Memex is more than a Memex]]"
     },
     "Jira": {
-        "Linear": "... tracking service, like Height, or [[Jira]]"
+        "Linear": "... service, like Height (App), or [[Jira]]"
     },
     "ElonPet": {
         "2023-02-06": "- [[ElonPet]]"
@@ -1346,6 +1358,9 @@ export const backlinks = {
         "2023-02-09": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
     },
+    "Project Florence": {
+        "2023-06-02": "- [[Project Florence]]"
+    },
     "Believer Plan": {
         "2023-05-22": "- [[Believer Plan]]"
     },
@@ -1370,6 +1385,9 @@ export const backlinks = {
     "Ted Chiang": {
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "Blurry JPEG은 SF계의 거장 [[Ted Chiang|테드 창]]이 작성한 훌륭한 글입니다.",
         "Exhalation": "Very impressive. Surely [[Ted Chiang]] is a genius. I especially ..."
+    },
+    "Unexpected number value in conditional. An explicit zero NaN check is required": {
+        "2023-06-02": "- [[Unexpected number value in conditional. An explicit zero NaN check is required]]"
     },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
@@ -1434,6 +1452,12 @@ export const backlinks = {
         "Rauno": "Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])",
         "Stephan Ango": "- [[extracranial]] @ Stephan Ango",
         "Vannevar Bush": "... Early creator of Memex and [[Extracranial]]."
+    },
+    "Virtual Reality": {
+        "Augmented Reality": "[[Virtual Reality]]",
+        "Extended Reality": "[[Virtual Reality|VR]] + [[Augmented Reality|AR]]",
+        "Metaverse": "... facilitated by the use of [[virtual reality]] ([[Virtual Reality|VR]]) and [[augmented reality]] ...",
+        "React Native": "... also being used to develop [[virtual reality]] applications at Oculus."
     },
     "Master Socket": {
         "Internetworking": "- [[Master Socket]]"
@@ -1768,7 +1792,7 @@ export const backlinks = {
         "Data Science": "... is related to data mining, [[ML|machine learning]], big data, computational [[statistics]], and ...",
         "Databricks": "... data engineering, data exploration, and [[ML|machine learning]] tasks, all in a collaborative ...",
         "Deepfake": "... deepfakes leverage powerful techniques from [[ML|machine learning]] and [[AI|artificial intelligence]] to manipulate ...",
-        "Federated Training": "Federated learning is a privacy-preserving [[ML|machine learning]] approach that enables multiple parties ...",
+        "Federated Learning": "Federated learning is a privacy-preserving [[ML|machine learning]] approach that enables multiple parties ...",
         "Generalist": "... orchestrators rebased on Kubernetes), the [[ML|machine learning]] stack (cloud-native distributed training and ...",
         "Grammarly": "- [[ml]] team",
         "Hugging Face": "... tools for building applications using [[ML|machine learning]]. It is most notable for ...",
@@ -2538,7 +2562,7 @@ export const backlinks = {
         "Swift": "- Programming Language for [[Apple]] platforms",
         "The Broken Feedback Loop": "However, [[Apple]] Feedback Assistant is not a ...",
         "The Dilemmas of Technopreneur": "... but it never would've become [[Apple]] if it weren't for Steve ...",
-        "USDZ vs glTF": "... by Pixar and operated by [[Apple]] for [[iOS]] AR applications. It ...",
+        "USDZ vs glTF": "... by Pixar and operated by [[Apple]] for [[iOS]] [[Augmented Reality]] applications. ...",
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] ...",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 ...",
         "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 금융위원회에서 ...",
@@ -2690,6 +2714,9 @@ export const backlinks = {
     },
     "linkflags.crx": {
         "2023-01-16": "- [[linkflags.crx]]"
+    },
+    "Apple Vision Pro": {
+        "2023-06-05": "The interesting fact about [[Apple Vision Pro]] is that Apple never used ..."
     },
     "Surfit": {
         "Jumpsite": "## [[Surfit]]"
@@ -3305,7 +3332,7 @@ export const backlinks = {
         "Stories Behind Satori": "... already done by an open-source [[project]] facebook/yoga.",
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search ...",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
-        "Tech Now Pay Later": "... DB to use for your [[project]] and/or if it scales – ...",
+        "Tech Now Pay Later": "... Database|DB to use for your [[project]] and/or if it scales – ...",
         "The Battle of Flow and Asana": "... that scratched their own itch ([[project]] management,) and charge a monthly ...",
         "The One and Only (Social App)": "Someday [[Project]]. Ideated during [[Person 648442]]",
         "The One and Only WebExtension": "- Someday [[Project]]",
@@ -3368,6 +3395,12 @@ export const backlinks = {
         "Service Shimming": "... as we developers think. Maybe [[Time to Market]] is more critical. Here are ...",
         "Tech Now Pay Later": "... now. This significantly reduces the [[Time to Market]], which is more important than ...",
         "기술 할부 결제": "이는 서비스의 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 스타트업에서 완전무결한 ..."
+    },
+    "Augmented Reality": {
+        "Apple Vision Pro": "... cases in various fields, including [[Augmented Reality]]‐based instruction, home decoration, and watching ...",
+        "Extended Reality": "Virtual Reality|VR + [[Augmented Reality|AR]]",
+        "Metaverse": "... virtual reality (Virtual Reality|VR) and [[augmented reality]] ([[Augmented Reality]]) headsets. In everyday ...",
+        "USDZ vs glTF": "... operated by Apple for iOS [[Augmented Reality]] applications. It is a zip ..."
     },
     "0973 K Closest Points to Origin": {
         "Coding Tests": "- [x] [[0973 K Closest Points to Origin]]"
@@ -3598,7 +3631,7 @@ export const backlinks = {
         "Conversational AI Tools for Thought": "- ChatGPT and [[Generative AI]] are not exactly [[Tools for ...",
         "D-ID": "- [[Generative AI]] for Videos",
         "Eleven Labs": "- [[Generative AI]] for Voice. The most realistic ...",
-        "Generative Databases": "In the world of [[Generative AI]]s, can we think Database as ...",
+        "Generative Databases": "In the world of [[Generative AI]]s, can we think [[Database]] as ...",
         "Generative Open Graph": "... Image as a Service. Use [[Generative AI]] to create Open Graph images, ...",
         "GrammarlyGO": "GrammarlyGO is a suite of [[generative AI]] capabilities from [[Grammarly]]. It considers ...",
         "Letter to Mr. Matt Rickard on 2022-11-28": "... a non-profit product that uses [[Generative AI|Generative AIs]] to describe any image on ...",
@@ -3949,7 +3982,7 @@ export const backlinks = {
     "Feature Flag": {
         "Grammarly Work Note 2023-05-25": "- [[Feature Flag]]",
         "How to Build Software like an SRE": "... time to disable a problematic [[Feature Flag]]",
-        "Inspiring Open Source Projects": "... open source feature toggle service. ([[Feature Flag]])"
+        "Inspiring Open Source Projects": "- Unleash/unleashh ([[Feature Flag]]) Unleash is the open source ..."
     },
     "JavaScript": {
         "2022-06-12": "... a technique in which client-side [[JavaScript]] converts a static [[HTML]] web ...",
@@ -4031,6 +4064,7 @@ export const backlinks = {
     "Spacial Cognition": {
         "2022-10-27": "- [[Spacial Cognition]]",
         "Meta Theme Color for Spacial Cognition": "- Meta Theme Color for [[Spacial Cognition]]",
+        "Spatial Computer": "Metaverse and [[Spacial Cognition]].",
         "Tools for Thought": "... text-based versions. involves and exploits [[spacial cognition]]."
     },
     "글감": {
@@ -4094,6 +4128,9 @@ export const backlinks = {
     },
     "Starlink": {
         "2022-10-19": "- [[Starlink]]"
+    },
+    "Grammarly Work Note 2023-06-02": {
+        "2023-06-02": "- [[Grammarly Work Note 2023-06-02]]"
     },
     "Brian Lovin": {
         "2023-05-29": "- [[Brian Lovin]]"
@@ -4238,10 +4275,14 @@ export const backlinks = {
     "Venture Capital": {
         "2022-06-21": "... cash-burning companies that rely on [[Venture Capital|VC]] money to sustain the business.",
         "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]",
+        "Harry Stebbings": "... who started \"The Twenty Minute [[Venture Capital|VC]]\" podcast and launched his [[venture ...",
         "Person A3BA1A": "The [[Venture Capital|VC]] side tool and the Startup ...",
+        "SVB Debacle": "... That worked brilliantly in the [[Venture Capital|VC]] funding boom but could cut ...",
         "The Battle of Flow and Asana": "... revenue and losing money. Not [[venture capital]]. Out of my personal bank ...",
         "The Dilemmas of Technopreneur": "... you are in a competitive [[Venture Capital|VC]]-funded space, it's foolish to compete ...",
-        "The Great Struggle of Gumroad": "... cast of angel investors and [[venture capital]] firms, including Max Levchin, Chris ..."
+        "The Great Struggle of Gumroad": "... cast of angel investors and [[venture capital]] firms, including Max Levchin, Chris ...",
+        "hn.cho.sh 개발 기록": "... 회사, 자율주행 회사, 블록체인 회사, [[Venture Capital|VC]], 웹툰 회사, 고전적 자산운용사, 그 ...",
+        "강기업": "... because the odds of a [[venture capital]] ([[Venture Capital|VC]]) funded startup are ..."
     },
     "HTMX": {
         "2022-10-18": "- [[HTMX]]",
@@ -4432,6 +4473,7 @@ export const backlinks = {
     },
     "Static (Computer Systems)": {
         "2022-12-08": "- [[Static (Computer Systems)]]",
+        "Atomics (JavaScript)": "- 생성자 없음. [[Static (Computer Systems)|Static]].",
         "Symbol (Computer Systems)": "... are symbols that are not [[Static (Computer Systems)|static]]."
     },
     "Downloading Any Recordings from Zoom": {
@@ -4592,13 +4634,17 @@ export const backlinks = {
         "Search AI": "- [[Search in a Latent Space]]",
         "Thesephist Work Case Study": "### [[Search in a Latent Space]]"
     },
+    "Spatial Computer": {
+        "2023-06-05": "... or \"Headset\" anywhere. It's a [[Spatial Computer]].",
+        "Apple Vision Pro": "... the Apple Vision Pro, a [[Spatial Computer]] that seamlessly combines digital content ..."
+    },
     "Vercel": {
         "2022-06-22": "Deno envisions a [[Vercel]]-like experience for the backend (FaaS.)",
         "2022-07-10": "- [[Vercel]] hid the compilation process with ...",
         "2022-08-28": "... both used Cloudflare Pages and [[Vercel]] and concluded that Vercel is ...",
         "2022-09-30": "- [[Vercel]] Serving millions of users on ...",
         "2022-10-10": "...  - I just love [[Vercel]]... they know stuff.",
-        "2022-10-21": "- Does [[Vercel]] not rest or something? Building ...",
+        "2022-10-21": "- Does [[Vercel]] not rest or something? [Building ...",
         "2022-12-04": "... is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: The ...",
         "2022-12-28": "- Frontend web framework: Next.js|NextJS/[[Vercel]] (Past: Ruby on Rails/Heroku)",
         "2023-01-27": "... Extracranial to Cloudflare Pages for [[Vercel]] for now...",
@@ -4631,7 +4677,7 @@ export const backlinks = {
         "2022-08-03": "... to get an internship at [[Karrot]] four months ago.",
         "2023-02-21": "- [[Karrot]]",
         "2023-04-17": "- hn.cho.sh 개발 기록: [[Karrot|당근]] PM 론과의 대화",
-        "Height": "- Used at [[Karrot]]",
+        "Height (App)": "- Used at [[Karrot]]",
         "Jira": "- Used at [[Karrot]]",
         "Karrot NX Team Mission Statement": "> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 ...",
         "Project Heimdall": "At [[Karrot]], scraping the news over the ...",
@@ -4640,7 +4686,7 @@ export const backlinks = {
     },
     "WebGPU": {
         "2022-09-09": "[[WebGPU]]",
-        "Imagining WebNPU API": "- [[WebGPU]] unlocks the bare-metal power of ...",
+        "Imagining WebNPU API": "... comparable to WebGL APIs, but [[WebGPU]] offers access to more advanced ...",
         "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]",
         "WebNPU API를 상상하다": "- [[WebGPU]]는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
     },
@@ -4860,9 +4906,6 @@ export const backlinks = {
     "Search AI와 인터넷의 한국어": {
         "2023-02-12": "- [[Search AI와 인터넷의 한국어]]"
     },
-    "Height": {
-        "Linear": "... An issue tracking service, like [[Height]], or [[Jira]]"
-    },
     "Base Frame Pointer": {
         "2022-11-03": "- [[Base Frame Pointer]]",
         "ARM Architecture": "... of `x29`. Same as `rbp` ([[Base Frame Pointer]])",
@@ -4914,6 +4957,9 @@ export const backlinks = {
     },
     "Apple Earth": {
         "2022-08-23": "- [[Apple Earth]]"
+    },
+    "Height (App)": {
+        "Linear": "... An issue tracking service, like [[Height (App)]], or [[Jira]]"
     },
     "Cooperative Multitasking": {
         "2022-07-11": "We aim to build [[Cooperative Multitasking]].",
@@ -5040,7 +5086,7 @@ export const backlinks = {
     "Supabase": {
         "2022-12-28": "- Backend as a Service: [[Supabase]] (past: Firebase)",
         "2023-05-04": "- [[Supabase]]",
-        "henrymakesapps": "4.  [[Supabase]]: Offers an easy-to-use database with ...",
+        "henrymakesapps": "4.  [[Supabase]]: Offers an easy-to-use [[database]] with ...",
         "hn.cho.sh 개발 기록": "... starter template for Next.js and [[Supabase]] 살펴보기"
     },
     "Delta Time": {
@@ -5212,7 +5258,7 @@ export const backlinks = {
     },
     "Preemptive Multitasking": {
         "2022-07-11": "... guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks ...",
-        "Cooperative Multitasking": "Antonym of [[Preemptive Multitasking]]."
+        "Cooperative Multitasking": "... Cooperative multitasking, also known as non-[[preemptive multitasking]], is a style of computer ..."
     },
     "간판법": {
         "Neo Korea": "- [[간판법]]"
@@ -5332,7 +5378,7 @@ export const backlinks = {
         "2022-09-29": "- [[Inspiring Open Source Projects]]"
     },
     "Google IO": {
-        "Vector DB": "... announced their Vector DB in [[Google IO]] 2023"
+        "Vector DB": "... announced their Vector Database|DB in [[Google IO]] 2023"
     },
     "국가와 민족": {
         "2023-02-15": "- [[국가와 민족]]",
@@ -5447,7 +5493,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-12-21": "[[Mail|Letter]] to Mr. Matt Rickard on ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "- [[Mail|Letter]] to Mr. Matt Rickard on ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Mail|Letter]] to Mr. Stephan Ango on ...",
-        "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the Heptabase Team on ...",
+        "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the [[Heptabase]] Team on ...",
         "Markdown Email Client": "Someday Project. You write an [[Mail|email]] in [[Markdown]]. Before sending, select ...",
         "Naver": "... from basic features such as [[Mail|e-mail]] and news to the world's ...",
         "Neo Email": "- Neo [[Mail|Email]]",
@@ -5553,11 +5599,12 @@ export const backlinks = {
         "졸업을 앞둔 중학교 3학년들에게": "2016-12-08에 게재된 [[재학생일기]]이다."
     },
     "헤이그 특사": {
-        "이완용": "한민족의 동족상잔와 [[헤이그 특사]] 항목에서 볼 수 있듯이 20세기 ..."
+        "이완용": "... 입장에서 최후의 몸부림이었다는 주장도 있지만, [[헤이그 특사]] 파견이 1907년이니, 25년 동안 변화한 ..."
     },
     "Headless": {
         "2023-04-19": "- [[Headless]]",
         "Ghost 테마를 자동 배포하는 방법": "... AWS에 호스팅하여 사용한다. Ghost CMS는 [[Headless|헤드리스]]하다. 말 그대로 머리가 없다는 뜻으로, ...",
+        "Inspiring Open Source Projects": "... Open Commerce is an API-first, [[headless]] commerce platform built using Node.js, ...",
         "Satori": "- Easy: No [[headless]] [[Web Browser|browser]] is needed. Using ...",
         "hn.cho.sh 개발 기록": "[[Headless]] [[Chrome]]을 사용하도록 GitHub Actions를 개편했다."
     },
@@ -5646,7 +5693,7 @@ export const backlinks = {
     },
     "Heptabase": {
         "Alan Chan": "- CEO of [[Heptabase]]",
-        "Letter to the Heptabase Team on 2022-10-11": "> On [[Heptabase]] and its Developer Ecosystem",
+        "Letter to the Heptabase Team on 2022-10-11": "- Mail|Letter to the [[Heptabase]] Team on 2022-10-11",
         "Spacial Cognition": "... Thought use it. For example, [[Heptabase]].",
         "Visual-based Tools for Thought": "### [[Heptabase]]"
     },
@@ -5751,7 +5798,7 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-23 | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]] ..."
     },
     "GraphQL": {
-        "Inspiring Open Source Projects": "... platform built using Node.js, React, [[GraphQL]]. Deployed via Docker and Kubernetes.",
+        "Inspiring Open Source Projects": "... platform built using Node.js, React, [[GraphQL]]",
         "Redwood.js": "... For the back-end, Redwood uses [[GraphQL]], a query language for APIs ...",
         "Vector DB": "... cloud-native database, all accessible through [[GraphQL]], REST, and various language clients.",
         "henrymakesapps": "... communication without needing REST or [[GraphQL]].",
@@ -5880,7 +5927,7 @@ export const backlinks = {
     },
     "Differential Privacy": {
         "2023-04-19": "- [[Differential Privacy]]",
-        "Federated Training": "To preserve privacy, [[differential privacy]] adds noise to the updates ..."
+        "Federated Learning": "To preserve privacy, [[differential privacy]] adds noise to the updates ..."
     },
     "서비스 시밍": {
         "2023-02-02": "- [[서비스 시밍]]",
@@ -5979,7 +6026,7 @@ export const backlinks = {
         "Simple DirectMedia Layer": "... operating systems such as Android, [[iOS]], [[Linux]], macOS, and Windows. Simple ...",
         "Storing sensitive data in iOS Apps": "... and save it to the [[iOS]] secure enclave whenever you need ...",
         "Toss Product Sans": "- 안드로이드, [[iOS]], 윈도우, [[Chrome|크롬]], 사파리 등 다양한 ...",
-        "USDZ vs glTF": "... and operated by Apple for [[iOS]] AR applications. It is a ...",
+        "USDZ vs glTF": "... and operated by Apple for [[iOS]] [[Augmented Reality]] applications. It is ...",
         "VP9 vs HEVC": "... videos on Apple Safari and [[iOS]] YouTube.",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "AirPlay를 지원하는 [[iOS]] / [[iOS|iPadOS]] 기기를 사용하는 경우 ...",
         "하늘땅사람 업데이트 기록": "- [[iOS]] 15에서도 하늘땅사람 키보드를 사용할 수 ..."
@@ -5989,6 +6036,9 @@ export const backlinks = {
     },
     "Using an iPad as my Ebook": {
         "2023-01-12": "- [[Using an iPad as my Ebook]]"
+    },
+    "Extended Reality": {
+        "Spatial Computer": "[[Extended Reality]]"
     },
     "Manakin": {
         "Grammarly Work Note 2023-05-25": "- [[Manakin]] has 4 versions: `Dev`, `QA`, ...",
@@ -6228,7 +6278,7 @@ export const backlinks = {
         "2023-02-02": "... can create document drafts using [[Google]] Docs",
         "2023-02-08": "... providers: OpenAI (Microsoft) and Anthropic ([[Google]]). These companies spend vast amounts ...",
         "AI replaces expensive jobs first": "... search for similar topics like \"[[Google]] Search.\" For example, if a ...",
-        "AI는 고가 노동부터 점령한다": "... 데이터베이스화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] 검색\"처럼 유사 사례들을 검색할 수 ...",
+        "AI는 고가 노동부터 점령한다": "... Database|데이터베이스화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] 검색\"처럼 유사 사례들을 검색할 수 ...",
         "AMP": "... the AMP Open Source Project. [[Google]] created it as a competitor ...",
         "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth ...",
         "Boring Technologies": "... and you aren't at, like, [[Google]]-tier scale, throw it all in ...",
@@ -6280,6 +6330,10 @@ export const backlinks = {
     "HTML 텍스트 위에 덧말 강조점 쓰기": {
         "2022-11-19": "  - [[HTML 텍스트 위에 덧말 강조점 쓰기]]"
     },
+    "Federated Learning": {
+        "2023-04-19": "- [[Federated Learning]]",
+        "Project Florence": "... is a research project on [[Federated Learning]]."
+    },
     "Deepfake": {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]]."
     },
@@ -6294,6 +6348,7 @@ export const backlinks = {
         "MetroPunk": "... 상용화된 AI|인공지능, Nuclear Fusion|핵융합, 사이버네틱스, [[Metaverse|메타버스]] 등의 미래적 기술 요소는 등장하지 ...",
         "Prompt Engineering": "... come to my mind that [[Metaverse]] can be attained within years ...",
         "Spacial Cognition": "- Very important for [[Metaverse]]",
+        "Spatial Computer": "[[Metaverse]] and [[Spacial Cognition]].",
         "The Sudden Rise of Bondee": "Bondee is a [[metaverse]] social app, going crazy in ...",
         "혜성처럼 나타난 본디": "... 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
     },
@@ -7124,9 +7179,6 @@ export const backlinks = {
     "SIMD": {
         "2023-01-23": "- [[SIMD]]"
     },
-    "Federated Training": {
-        "2023-04-19": "- [[Federated Training]]"
-    },
     "Torvalds": {
         "Linux": "... September 17, 1991, by Linus [[Torvalds]]. Linux is typically packaged as ..."
     },
@@ -7407,6 +7459,9 @@ export const backlinks = {
     "Adaptive Keyboard": {
         "2023-03-10": "- [[Adaptive Keyboard]]"
     },
+    "TS1208 All files must be modules when the --isolatedModules flag is provided.": {
+        "2023-06-06": "[[TS1208 All files must be modules when the --isolatedModules flag is provided.]]"
+    },
     "0079 Word Search": {
         "Coding Tests": "- [ ] [[0079 Word Search]]"
     },
@@ -7464,7 +7519,8 @@ export const backlinks = {
         "2023-02-21": "- [[Peter the Great]]"
     },
     "Railway": {
-        "2023-05-20": "... out Render.com. It feels like [[Railway]], but I must try it ..."
+        "2023-05-20": "... out Render.com. It feels like [[Railway]], but I must try it ...",
+        "Render.com": "1. [[Railway]]: ???"
     },
     "MetroPunk": {
         "2023-04-30": "- [[MetroPunk]]",
@@ -7673,6 +7729,9 @@ export const backlinks = {
     "Nation as a Service": {
         "2022-09-12": "- [[Nation as a Service]]"
     },
+    "Database vs Datalake": {
+        "2023-06-02": "- [[Database vs Datalake]]"
+    },
     "AI": {
         "2022-05-31": "... Capture your thoughts from anywhere. Weavit.[[ai]]",
         "2022-11-14": "... creative tools using advances in [[AI]]. A new kind of Adobe ...",
@@ -7818,6 +7877,10 @@ export const backlinks = {
     "Moments": {
         "Probability": "- [[Moments]]"
     },
+    "Datalake": {
+        "Database vs Datalake": "## [[Datalake]]:",
+        "Datahouse": "... as a control layer for [[Datalake]], allowing for centralized management of ..."
+    },
     "Biden-Harris Administration National Security Strategy 2022": {
         "2023-02-15": "- [[Biden-Harris Administration National Security Strategy 2022]]"
     },
@@ -7844,6 +7907,40 @@ export const backlinks = {
         "2022-10-27": "- [[Small Government vs Big Government]]",
         "Neo Korea": "- [[Small Government vs Big Government]]",
         "Small yet Powerful": "... be a potential answer to [[Small Government vs Big Government]]"
+    },
+    "Database": {
+        "2022-06-05": "... friction. I strongly dislike slow [[Database|DB]] queries and slow web-based admin ...",
+        "2022-11-30": "... with only a few actual [[database]] connections",
+        "2022-12-28": "- SQL [[Database]]: SQLite (Past: PostgreSQL)",
+        "2023-02-02": "... end. It uses a PostgreSQL [[database]] for storage and Algolia to ...",
+        "AI는 고가 노동부터 점령한다": "... 딱지 위반)로 시작한다. 하지만 점차 [[Database|데이터베이스]]화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] ...",
+        "Cookie": "... that corresponds to the backend [[database]].",
+        "Database vs Datalake": "## [[Database]]:",
+        "Digital Bookmarks for Physical Books": "... to collect it as a [[database]] on your phone? Reference: Why ...",
+        "FIRE Engine": "... has turned into a colossal [[database]] of everything on the internet",
+        "Generalist": "... tasks like authentication, querying a [[database]], setting up a developer environment, ...",
+        "Generative Databases": "... Generative AIs, can we think [[Database]] as Gen [[AI]] models instead ...",
+        "HEEx": "... of dynamic data, such as [[database]] queries or API responses, directly ...",
+        "Higher-Level Languages and Their Speeds": "- Don't use the [[database]] when avoidable, which is always ...",
+        "Letter to Mr. Matt Rickard on 2022-11-28": "... maybe image is stored in [[Database|DB]])",
+        "Link Coefficient": "Given a [[database]], how interconnected is the database?",
+        "Now Page": "... rather keep improving my back-end [[database]] work.\"",
+        "Preservation of Data": "... sometimes curl, and a MySQL [[database]] to store the results in.",
+        "Prisma": "Prisma is an open-source [[database]] toolkit developed to make it ...",
+        "Proposal of Research 2023-01-10": "... the pixel combinations on the [[database]]. So, I explored clamping the ...",
+        "React": "... functionality from UIUX|UI to the [[database]], with extra features such as ...",
+        "Redwood.js": "... (ORM) solution to manage the [[database]] layer. Prisma helps developers build ...",
+        "Render.com": "... backend-intensive tasks such as migrating [[database]] data in bulk.",
+        "Supabase": "... utilizes PostgreSQL as its core [[database]] engine, providing developers with a ...",
+        "Tech Now Pay Later": "... used TXT files as its \"[[database]]\".",
+        "Tools Must Vanish": "... across your filesystem, Dropbox, and [[database]] rows in six different proprietary ...",
+        "Vector DB": "... lang=\"en\" dir=\"ltr\">Google killing all vector [[Database|db]] startups lmao <a href=\"https://t.co/CR0kD3eekD\">pic.twitter.com/CR0kD3eekD</a></p>&mdash; Techno-Dharma ...",
+        "dub.sh": "  - upstash [[database]]",
+        "henrymakesapps": "...  Supabase: Offers an easy-to-use [[database]] with PostgreSQL and type-injected clients.",
+        "hn.cho.sh 개발 기록": "- 결국 [[Database|DB]] 기반으로 옮겨가야하는 것은 맞다. SPA ...",
+        "데이터베이스권": "... 크롤링 분쟁이 늘어나는 가운데 법원이 '[[Database|데이터베이스]] ([[Database|DB]]) 권' 침해에 대해 엄격하게 ...",
+        "잡스와 생존 편향": "지식 탐색기는 거대한 네트워크 [[Database|데이터베이스]]에 하이퍼텍스트 방식으로 접근할 수 있으며 ...",
+        "프로젝트 어덕행덕": "## Facial [[Database]]"
     },
     "Memory Hierarchy": {
         "2022-11-03": "- [[Memory Hierarchy]]",
@@ -8303,6 +8400,9 @@ export const backlinks = {
     "A3BB1E.png": {
         "Framer": "![[A3BB1E.png]]"
     },
+    "D2A8B7.png": {
+        "visionOS": "![[D2A8B7.png]]"
+    },
     "3555AC.png": {
         "Redirecting READMEs": "![[3555AC.png]]"
     },
@@ -8696,6 +8796,9 @@ export const backlinks = {
     "50A17A.png": {
         "Mr. Doob": "![[50A17A.png]]"
     },
+    "52A9CC.png": {
+        "Apple Vision Pro": "![[52A9CC.png]]"
+    },
     "2A5C23.png": {
         "Jumpsite": "![[2A5C23.png]]",
         "Surfit": "![[2A5C23.png]]"
@@ -9069,6 +9172,9 @@ export const backlinks = {
     "CD4751.png": {
         "San Francisco": "![[CD4751.png]]",
         "Satoshi": "![[CD4751.png]]"
+    },
+    "AAA36B.jpg": {
+        "Spatial Computer": "![[AAA36B.jpg]]"
     },
     "16CE9C.png": {
         "tabExtend": "![[16CE9C.png]]"
@@ -9736,6 +9842,12 @@ export const backlinks = {
     },
     "78DD5F.png": {
         "Project Heimdall": "![[78DD5F.png]]"
+    },
+    "371542.png": {
+        "Database vs Datalake": "![[371542.png]]"
+    },
+    "1E54F8.png": {
+        "Database vs Datalake": "![[1E54F8.png]]"
     },
     "E1AF2F.png": {
         "Simulated Annealing for Designs": "![[E1AF2F.png]]"
