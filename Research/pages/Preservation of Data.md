@@ -30,7 +30,7 @@ Better if large, unique, accessible, and insightful.
 
 ### Metadata Scraping
 
-We use Python scripts, sometimes curl, and a MySQL database to store the results in.
+We use Python scripts, sometimes curl, and a MySQL [[database]] to store the results in.
 Go through a few dozen pages yourself, to get a sense for how that works.
 To get around restrictions, there are a few things you can try.
 

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/24D60B'
 ---
 
-- [[Mail|Letter]] to the Heptabase Team on 2022-10-11
+- [[Mail|Letter]] to the [[Heptabase]] Team on 2022-10-11
 
 > On [[Heptabase]] and its Developer Ecosystem
 

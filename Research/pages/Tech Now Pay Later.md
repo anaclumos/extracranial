@@ -37,9 +37,9 @@ In that sense, **Tech Now Pay Later** might be better terminology.
 >
 > — clip studio pain (@freezydorito) [January 29, 2023](https://twitter.com/freezydorito/status/1619734004793769984?ref_src=twsrc%5Etfw)
 
-> The initial version of [https://t.co/7lv0YYHdVO](https://t.co/7lv0YYHdVO) used TXT files as its "database".
+> The initial version of [https://t.co/7lv0YYHdVO](https://t.co/7lv0YYHdVO) used TXT files as its "[[database]]".
 >
-> Instead of worrying about which DB to use for your [[project]] and/or if it scales – sometimes you just gotta ship it and iterate later.
+> Instead of worrying about which [[Database|DB]] to use for your [[project]] and/or if it scales – sometimes you just gotta ship it and iterate later.
 >
 > "[[Avoid Premature Optimizations]]" – wise words by [@Levelsfyi](https://twitter.com/Levelsfyi?ref_src=twsrc%5Etfw) 👏 [https://t.co/QTT9qIoVHS](https://t.co/QTT9qIoVHS)
 >

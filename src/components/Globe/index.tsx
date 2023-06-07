@@ -54,7 +54,7 @@ export const Globe = () => {
       markers: markers,
       onRender: (state) => {
         state.phi = phi + r.get()
-        phi += 0.005
+        phi += 0.001
         state.width = width * 2
         state.height = width * 2
       },

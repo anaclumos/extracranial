@@ -163,6 +163,10 @@ if __name__ == "__main__":
                     " | 중앙일보": "",
                     " | The New York Times": "",
                     "[단독] ": "",
+                    " – arXiv Vanity": "",
+                    " – arXiv Vanity": "",
+                    " | npj Digital Medicine": "",
+                    " - Databricks": "",
                     "background-color: rgb(228, 228, 228);": "",
                 }
 
