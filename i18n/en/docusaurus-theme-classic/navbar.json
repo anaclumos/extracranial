@@ -3,10 +3,6 @@
     "message": "Sunghyun Cho",
     "description": "The title in the navbar"
   },
-  "item.label.Research": {
-    "message": "Research",
-    "description": "Navbar item with label Research"
-  },
   "item.label.Articles": {
     "message": "Articles",
     "description": "Navbar item with label Articles"

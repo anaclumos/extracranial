@@ -3,10 +3,6 @@
     "message": "조성현",
     "description": "The title in the navbar"
   },
-  "item.label.Research": {
-    "message": "연구실",
-    "description": "Navbar item with label Research"
-  },
   "item.label.Articles": {
     "message": "열람실",
     "description": "Navbar item with label Articles"
