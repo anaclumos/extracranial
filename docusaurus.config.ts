@@ -87,7 +87,7 @@ const config: Config = {
     footer: {
       links: [
         {
-          title: '© 불가사리',
+          title: '© 불가사리 ★',
           items: [
             {
               label: '대표 조성현',
@@ -101,14 +101,10 @@ const config: Config = {
               label: '대전광역시 서구 봉우로8번길 23 220',
               to: 'https://cho.sh',
             },
-            {
-              label: '(+82)10-2541-9828',
-              to: 'https://cho.sh',
-            },
           ],
         },
       ],
-      copyright: '© ★',
+      copyright: '© 불가사리 ★',
     },
     docs: {
       sidebar: {
@@ -122,6 +118,7 @@ const config: Config = {
       src: 'https://sa.cho.sh/latest.js',
       async: true,
       defer: true,
+      'data-collect-dnt': 'true',
     },
     {
       src: 'https://static.cloudflareinsights.com/beacon.min.js',
