@@ -72,3 +72,27 @@ yarn rw g cell Articles
 ```
 yarn rw g types
 ```
+
+## Setting up Auth
+
+```
+rw setup auth supabase  
+```
+
+```
+The table `...` does not exist in the current database.
+```
+
+You need to `yarn rw prisma migrate dev`
+
+## Set up Storybook
+
+```
+yarn rw storybook
+```
+
+## Set up Jest
+
+```
+yarn rw test
+```
