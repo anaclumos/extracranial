@@ -101,7 +101,7 @@ const HeroText = () => {
             })}
             showByDefault="emoji"
           />
-          <Translate>{', soon joining decacorn '}</Translate>
+          <Translate>{', working at decacorn '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Grammarly' })}
             photo={GrammarlyLogo}
