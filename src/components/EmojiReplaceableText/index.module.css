@@ -2,7 +2,7 @@
   color: var(--ifm-color-primary);
 }
 
-.emojiReplaceableText > img {
+.emojiReplaceableText>img {
   filter: none;
   filter: drop-shadow(0 0.1rem 0.15rem rgba(0, 0, 0, 0.3));
   -webkit-filter: drop-shadow(0 0.1rem 0.15rem rgba(0, 0, 0, 0.3));
@@ -13,7 +13,7 @@
 }
 
 .photo {
-  border-radius: 50%;
+  border-radius: 25%;
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   filter: none;
