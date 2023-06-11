@@ -25,24 +25,24 @@ Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
 Markdown                  1729     43717    11284         0    32433          0
 CSS                         70     20204      685        45    19474          0
-TypeScript                  62     14554      177        64    14313        198
-JSON                        15      1552        1         0     1551          0
-YAML                         8     18687     1993         0    16694          0
+TypeScript                  60     14532      185        32    14315        203
+JSON                        16      1580        0         0     1580          0
+YAML                         8     15467     1891         0    13576          0
 Python                       7       847       47        24      776         83
 SVG                          7         7        0         0        7          0
 Plain Text                   3       103       18         0       85          0
-TypeScript Typings           2        12        0         4        8          0
+TypeScript Typings           2        15        1         4       10          0
 JavaScript                   1        19        3        12        4          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1906     99992    14277       218    85497        281
+Total                     1905     96781    14183       186    82412        286
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,884,986
-Estimated Schedule Effort (organic) 20.57 months
-Estimated People Required (organic) 12.46
+Estimated Cost to Develop (organic) $2,775,781
+Estimated Schedule Effort (organic) 20.27 months
+Estimated People Required (organic) 12.16
 ───────────────────────────────────────────────────────────────────────────────
-Processed 4536645 bytes, 4.537 megabytes (SI)
+Processed 4467711 bytes, 4.468 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

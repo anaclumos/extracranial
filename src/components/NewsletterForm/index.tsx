@@ -1,7 +1,6 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './NewsletterForm.module.css'
-// @ts-ignore
 
 const NewsletterForm = () => {
   const { i18n } = useDocusaurusContext()

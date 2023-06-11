@@ -1,7 +1,7 @@
 import React from 'react'
 import clsx from 'clsx'
 import Link from '@docusaurus/Link'
-// @ts-ignore
+
 import { useBlogPost } from '@docusaurus/theme-common/internal'
 import type { Props } from '@theme/BlogPostItem/Header/Title'
 import Balancer from 'react-wrap-balancer'

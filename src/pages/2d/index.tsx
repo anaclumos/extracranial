@@ -19,8 +19,7 @@ export const GraphView2d = (props: { width: number; height: number }) => {
     <div className={styles.graphView}>
       <BrowserOnly>
         {() => {
-          const { ForceGraph2D } = require('react-force-graph')
-
+          const { ForceGraph2D } = import('react-force-graph')
           return (
             <ForceGraph2D
               rendererConfig={{
