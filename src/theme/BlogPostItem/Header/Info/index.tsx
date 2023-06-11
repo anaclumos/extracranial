@@ -2,7 +2,7 @@ import React from 'react'
 import clsx from 'clsx'
 import { translate } from '@docusaurus/Translate'
 import { usePluralForm } from '@docusaurus/theme-common'
-// @ts-ignore
+
 import { useBlogPost } from '@docusaurus/theme-common/internal'
 import type { Props } from '@theme/BlogPostItem/Header/Info'
 
@@ -49,7 +49,7 @@ function Spacer() {
 async function getViewCount(path: string) {
   const viewCountPath = path.split('?')[0]
   const viewCountKey = viewCountPath.split('/').slice(-1)[0]
-  let viewCount: Number = 0
+  let viewCount = 0
   if (viewCountKey.length === 6 && /^[a-fA-F0-9]+$/.test(viewCountKey)) {
     await fetch(
       `https://simpleanalytics.com/cho.sh.json?version=5&info=false&start=2022-06-01&fields=pages&pages=*${viewCountKey}*`

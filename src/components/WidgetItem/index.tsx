@@ -1,6 +1,6 @@
 import Link from '@docusaurus/Link'
 import clsx from 'clsx'
-import React, { ComponentClass, SVGProps } from 'react'
+import React from 'react'
 import styles from './styles.module.css'
 
 type Props = {

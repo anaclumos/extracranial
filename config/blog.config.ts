@@ -11,7 +11,7 @@ const blog = {
   remarkPlugins: [latex.math],
   rehypePlugins: [latex.katex],
   authorsMapPath: 'authors.yml',
-  editUrl: ({ locale, blogDirPath, blogPath }) => {
+  editUrl: ({ locale, blogPath }) => {
     return `https://github.com/anaclumos/extracranial/tree/main/posts/${blogPath.replace('/index.md', '')}/${locale}.md`
   },
 }

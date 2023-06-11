@@ -1,19 +1,18 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './neo.module.css'
 import WidgetItem from '../components/WidgetItem'
-// @ts-ignore
+
 import emptyAlbumCover from '../AppleMusic/empty.png'
-// @ts-ignore
+
 import musicIcon from '../AppleMusic/music.png'
-// @ts-ignore
+
 import githubIcon from '../../static/img/github-mark-white.png'
-// @ts-ignore
+
 import profile from '../../static/img/profile.jpg'
 
 import { AppleMusicAttrribute, AppleMusicData } from '../AppleMusic/type'
-import NewsletterForm from '../components/NewsletterForm/index'
 
 export const NowPlaying = async (): Promise<AppleMusicData> => {
   const data = await fetch('https://raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json').then(
