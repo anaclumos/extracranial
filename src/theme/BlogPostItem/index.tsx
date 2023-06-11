@@ -4,7 +4,7 @@ import type BlogPostItemType from '@theme/BlogPostItem'
 import type { WrapperProps } from '@docusaurus/types'
 import Giscus from '@site/src/components/Giscus'
 import PostNotice from '@site/src/components/PostNotice'
-// @ts-ignore
+
 import { useBlogPost } from '@docusaurus/theme-common/internal'
 
 type Props = WrapperProps<typeof BlogPostItemType>

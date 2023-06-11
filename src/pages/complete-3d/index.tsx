@@ -20,10 +20,10 @@ export const GraphView3d = (props: { width: number; height: number }) => {
     <div className={styles.graphView}>
       <BrowserOnly>
         {() => {
-          const { ForceGraph3D } = require('react-force-graph')
+          const ForceGraph3D = import('react-force-graph')
 
           const FocusGraph = () => {
-            const fgRef = useRef<any>()
+            const fgRef = useRef<unknown>()
 
             useEffect(() => {
               const bloomPass = new UnrealBloomPass()

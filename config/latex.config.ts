@@ -1,5 +1,5 @@
-const math = require('remark-math')
-const katex = require('rehype-katex')
+import math from 'remark-math'
+import katex from 'rehype-katex'
 
 export default {
   math: math,
