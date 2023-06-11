@@ -2093,6 +2093,7 @@ export const backlinks = {
         "METI Engine": "The current generation is [[hn.cho.sh]] — and plan to scale ...",
         "Project": "- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]]",
         "Project Heimdall": "Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news ...",
+        "Reddit-Apollo Mayhem": "## Summarizations from [[hn.cho.sh]]",
         "Vercel Incident Report (April 2023)": "... with two projects: lovearc.net and [[hn.cho.sh]].",
         "hn.cho.sh 개발 기록": "... 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
     },
@@ -7592,7 +7593,7 @@ export const backlinks = {
         "2023-05-20": "This looks promising. redwoodjs/redwood: [[Redwood.js|Redwood]] The App Framework for Startups. ...",
         "2023-05-26": "- [[Redwood.js]]",
         "2023-05-29": "- [[Redwood.js]]",
-        "2023-06-10": "[[Redwood.js]]"
+        "2023-06-10": "- [[Redwood.js]]"
     },
     "Unified Korea": {
         "Born of this Land - The Founding Story of Hyundai": "... to create an advanced and [[Unified Korea]]. No matter what, he was ...",
@@ -8020,6 +8021,9 @@ export const backlinks = {
     },
     "Moments": {
         "Probability": "- [[Moments]]"
+    },
+    "Reddit-Apollo Mayhem": {
+        "2023-06-10": "- [[Reddit-Apollo Mayhem]]"
     },
     "Datalake": {
         "Database vs Datalake": "## [[Datalake]]:",
