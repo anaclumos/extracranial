@@ -4,7 +4,7 @@ import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import { backlinks } from '@site/src/data/backlinks'
-import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass'
+import { UnrealBloomPass } from '@site/src/components/UnrealBloomPass'
 import Head from '@docusaurus/Head'
 import { useScreenSize } from '@site/src/util/useScreenSize'
 import { processBacklinksToGraph } from '@site/src/util/graph'
@@ -20,8 +20,8 @@ export const GraphView3d = (props: { width: number; height: number }) => {
     <div className={styles.graphView}>
       <BrowserOnly>
         {() => {
-          const ForceGraph3D = import('react-force-graph')
-
+          // eslint-disable-next-line @typescript-eslint/no-var-requires
+          const { ForceGraph3D } = require('react-force-graph')
           const FocusGraph = () => {
             const fgRef = useRef<unknown>()
 
