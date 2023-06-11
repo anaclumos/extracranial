@@ -3,11 +3,11 @@ lang: 'en'
 slug: '/F54015'
 ---
 
-## Investigating Authority Systems to Mitigate Prompt Injection Attacks in [[Generative AI|Generative Text AI]] Models
+## Investigating Authority Systems to Mitigate [[Prompt Injection]] Attacks in [[Generative AI|Generative Text AI]] Models
 
 ### Abstract
 
-Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities in answering [[natural language]] questions and adapting to new tasks through clever prompting. However, this adaptability might expose [[LLM|LLMs]] to security risks, such as Prompt Injection (PI) attacks. In this research proposal, we seek to investigate an authority system for [[LLM|LLMs]] to differentiate instructions from trusted sources and unknown figures. Furthermore, we aim to assess the feasibility of such an authority system and explore potential mitigation techniques to defend [[LLM|LLMs]] against PI attacks.
+Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities in answering [[natural language]] questions and adapting to new tasks through clever prompting. However, this adaptability might expose [[LLM|LLMs]] to security risks, such as [[Prompt Injection]] (PI) attacks. In this research proposal, we seek to investigate an authority system for [[LLM|LLMs]] to differentiate instructions from trusted sources and unknown figures. Furthermore, we aim to assess the feasibility of such an authority system and explore potential mitigation techniques to defend [[LLM|LLMs]] against PI attacks.
 
 ### Background
 
@@ -16,7 +16,7 @@ Recent studies have shown that [[LLM|LLMs]] can be susceptible to PI attacks, wh
 ### Research Questions
 
 - How can we design an authority system for Generative Text AIs to differentiate between trusted and untrusted instructions?
-- Can the authority system efficiently mitigate Prompt Injection attacks in various scenarios?
+- Can the authority system efficiently mitigate [[Prompt Injection]] attacks in various scenarios?
 - How can mitigation techniques defend [[LLM|LLMs]] against PI attacks in an authority system?
 
 ### Methodology
