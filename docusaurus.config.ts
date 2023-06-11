@@ -87,7 +87,7 @@ const config: Config = {
     footer: {
       links: [
         {
-          title: '★ 불가사리',
+          title: '불가사리 ★ Starfish Company',
           items: [
             {
               label: '대표 조성현',
@@ -104,7 +104,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: '★ 불가사리',
+      copyright: '불가사리 ★ Starfish Company',
     },
     docs: {
       sidebar: {
