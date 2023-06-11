@@ -19,7 +19,8 @@ export const GraphView2d = (props: { width: number; height: number }) => {
     <div className={styles.graphView}>
       <BrowserOnly>
         {() => {
-          const { ForceGraph2D } = import('react-force-graph')
+          // eslint-disable-next-line @typescript-eslint/no-var-requires
+          const { ForceGraph2D } = require('react-force-graph')
           return (
             <ForceGraph2D
               rendererConfig={{
