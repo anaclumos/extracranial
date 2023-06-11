@@ -766,6 +766,9 @@ export const backlinks = {
         "2023-03-10": "- [[Bing Chat for All Browsers in Japan]]",
         "hn.cho.sh 개발 기록": "그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 일본에서 이런 프로덕트 ..."
     },
+    "Refine (Framework)": {
+        "Meta Meta Framework": "... Meta Meta Framework: Redwood.js, Keystone.js, [[Refine (Framework)]]"
+    },
     "Framer": {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 ..."
     },
@@ -4087,6 +4090,9 @@ export const backlinks = {
         "2023-02-17": "- [[기술 할부 결제]]",
         "Avoid Premature Optimizations": "- Tech Now Pay Later [[기술 할부 결제]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "... Now Pay Later <br/> 🇰🇷 [[기술 할부 결제]]      ..."
+    },
+    "Keystone.js": {
+        "Meta Meta Framework": "- Meta Meta Framework: Redwood.js, [[Keystone.js]], [[Refine (Framework)]]"
     },
     "Grotesque": {
         "Akzidenz": "- A type of [[Grotesque]] [[font]].",
@@ -7435,6 +7441,9 @@ export const backlinks = {
     "Convergence of Geometric Series": {
         "2023-01-31": "- [[Convergence of Geometric Series]]"
     },
+    "Meta Meta Framework": {
+        "2023-06-10": "- [[Meta Meta Framework]]"
+    },
     "Tools Must Vanish": {
         "2022-07-07": "- [[Tools Must Vanish]]",
         "2022-12-28": "- [[Tools Must Vanish]]",
@@ -7608,7 +7617,8 @@ export const backlinks = {
         "2023-05-20": "This looks promising. redwoodjs/redwood: [[Redwood.js|Redwood]] The App Framework for Startups. ...",
         "2023-05-26": "- [[Redwood.js]]",
         "2023-05-29": "- [[Redwood.js]]",
-        "2023-06-10": "- [[Redwood.js]]"
+        "2023-06-10": "- [[Redwood.js]]",
+        "Meta Meta Framework": "- Meta Meta Framework: [[Redwood.js]], [[Keystone.js]], [[Refine (Framework)]]"
     },
     "Unified Korea": {
         "Born of this Land - The Founding Story of Hyundai": "... to create an advanced and [[Unified Korea]]. No matter what, he was ...",
