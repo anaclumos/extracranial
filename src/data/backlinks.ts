@@ -525,9 +525,6 @@ export const backlinks = {
         "Proposal of Research 2023-01-10": "## 3. [[The Photo Library of Babel]]",
         "Proposal of Research 2023-03-28": "## [[The Photo Library of Babel]]: Exploring the Implications of Finite ..."
     },
-    "Geohot Twitter Mayhem": {
-        "Person 648442": "... — Twitter's Non-existent Search Engine: [[Geohot Twitter Mayhem]]"
-    },
     "사회과부도": {
         "2022-08-28": "- [[사회과부도]]",
         "Cartography": "... maps to represent data effectively. [[사회과부도]]"
@@ -837,7 +834,7 @@ export const backlinks = {
     },
     "Hacker": {
         "2023-03-06": "- [[Hacker]]",
-        "Geohot Twitter Mayhem": "... as Geohot, is a famous [[hacker]] and founder of Comma.[[ai]]. Elon ..."
+        "Geohot-Twitter Mayhem": "... as Geohot, is a famous [[hacker]] and founder of Comma.[[ai]]. Elon ..."
     },
     "Krafton Way": {
         "2022-11-23": "- Finished reading [[Krafton Way]]",
@@ -2388,14 +2385,14 @@ export const backlinks = {
         "Conditional Compilation": "... can be used for multi-platform [[engine]]",
         "Docker": "... the containers is called Docker [[Engine]]. It was first started in ...",
         "Finding out Ghost version with JS": "... first, I investigated the Ghost [[engine]] side to make the [[Node.js]] ...",
-        "Geohot Twitter Mayhem": "Twitter's Missing Search [[Engine]].",
+        "Geohot-Twitter Mayhem": "Twitter's Missing Search [[Engine]].",
         "Google": "... company that focuses on search [[engine]] technology, online advertising, [[cloud computing]], ...",
         "Graphics Engine Process": "... general process of a graphics [[engine]] follows:",
         "JavaScript": "... browsers have a dedicated JavaScript [[engine]] to execute the code on ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "... services as the omnipotent search [[engine]] for [[대한민국|Korea]] (bigger market cap ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... as seen in the Gecko [[engine]].",
         "Naver": "... develop and use its search [[engine]]. It was also the world's ...",
-        "Person 648442": "... strategy — Twitter's Non-existent Search [[Engine]]: [[Geohot Twitter Mayhem]]",
+        "Person 648442": "... strategy — Twitter's Non-existent Search [[Engine]]: [[Geohot-Twitter Mayhem]]",
         "Proposal of Research 2023-01-10": "... cause the Web Browser|browser's JavaScript [[engine]] to become unresponsive. As a ...",
         "Proposal of Research 2023-03-28": "... users and negatively impacts search [[engine]] optimization. This research proposal aims ...",
         "Satori": "### [[Engine]]",
@@ -5864,6 +5861,9 @@ export const backlinks = {
         "2023-05-29": "- [[PNPM]]",
         "Redwood.js": "While I prefer [[PNPM]] over [[Yarn]], due to the ..."
     },
+    "Geohot-Twitter Mayhem": {
+        "Person 648442": "... — Twitter's Non-existent Search Engine: [[Geohot-Twitter Mayhem]]"
+    },
     "Shopify Analyzes CSS Frameworks": {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
@@ -7921,7 +7921,7 @@ export const backlinks = {
         "Financial Technology": "... methods in delivering financial services. [[AI|Artificial intelligence]], [[Blockchain]], [[Cloud computing]], and big ...",
         "Generative AI": "... of guessing the correct answer, [[AI]] creates something from [[Prompt Engineering]].",
         "Generative Databases": "... we think Database as Gen [[AI]] models instead of key-value storages?",
-        "Geohot Twitter Mayhem": "... famous hacker and founder of Comma.[[ai]]. Elon Musk hired him to ...",
+        "Geohot-Twitter Mayhem": "... famous hacker and founder of Comma.[[ai]]. Elon Musk hired him to ...",
         "Google": "... computer software, quantum computing, ecommerce|e-commerce, [[AI|artificial intelligence]], and consumer electronics. It has ...",
         "Grammarly AI-NLP Club": "[[AI]] [[Natural Language Processing|NLP]] Club at ...",
         "Imagining WebNPU API": "... install an app for an [[AI]] to be tailored to their ...",
@@ -8148,7 +8148,7 @@ export const backlinks = {
         "2022-06-06": "... your career, you can learn [[10x]] more in a supportive team ...",
         "2022-12-09": "- [[10x]]",
         "Antipreneur": "... guys. They need to hire [[10x]] power developers and work them ...",
-        "Geohot Twitter Mayhem": "... for ① being a superintelligent [[10x]] developer and ② being a ...",
+        "Geohot-Twitter Mayhem": "... for ① being a superintelligent [[10x]] developer and ② being a ...",
         "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying ...",
         "The Zenly Playbook": "... also outstanding designers and operators. [[10x]] people don't join a startup ...",
         "강기업": "... guys. They need to hire [[10x]] power developers and work them ..."
@@ -8522,12 +8522,6 @@ export const backlinks = {
     "837555.jpg": {
         "2022-10-15": "![[837555.jpg]]",
         "Dynamic Island on the Web": "![[837555.jpg]]"
-    },
-    "3A5769.png": {
-        "Geohot Twitter Mayhem": "![[3A5769.png]]"
-    },
-    "BE855B.png": {
-        "Geohot Twitter Mayhem": "![[BE855B.png]]"
     },
     "F9FC1A.png": {
         "Swift": "![[F9FC1A.png]]"
@@ -9564,6 +9558,12 @@ export const backlinks = {
     },
     "970206.png": {
         "이루다": "![[970206.png]]"
+    },
+    "3A5769.png": {
+        "Geohot-Twitter Mayhem": "![[3A5769.png]]"
+    },
+    "BE855B.png": {
+        "Geohot-Twitter Mayhem": "![[BE855B.png]]"
     },
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"
