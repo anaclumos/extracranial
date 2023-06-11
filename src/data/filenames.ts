@@ -772,7 +772,7 @@ export const filenames = {
     "Generative Intelligence": "9A0D39",
     "Generative Open Graph": "8272B1",
     "GeoCheatCode": "9FB506",
-    "Geohot Twitter Mayhem": "D3342A",
+    "Geohot-Twitter Mayhem": "D3342A",
     "Geometric Distribution": "E412DA",
     "Geometric Series": "448491",
     "Get Job Done": "51BF0E",
