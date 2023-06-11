@@ -76,7 +76,7 @@ yarn rw g types
 ## Setting up Auth
 
 ```
-rw setup auth supabase  
+rw setup auth supabase
 ```
 
 ```

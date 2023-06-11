@@ -1,4 +1,4 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/A98ACB'
 ---
