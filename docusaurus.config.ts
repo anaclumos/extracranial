@@ -98,7 +98,7 @@ const config: Config = {
               to: 'https://cho.sh',
             },
             {
-              label: '대전광역시 서구 봉우로8번길 23 220',
+              label: '대전광역시 서구 둔산중로 66 메트로팰리스 311',
               to: 'https://cho.sh',
             },
           ],
