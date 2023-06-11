@@ -16,9 +16,9 @@ slug: '/7442D2'
 - [Unleash/unleashh](https://github.com/Unleash/unleash/) ([[Feature Flag]]) Unleash is the open source feature toggle service.
 - [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API.
 - [supertokens/supertokens-core](https://github.com/supertokens/supertokens-core) Open source alternative to Auth0 / Firebase Auth / AWS Cognito
-- [bitwarden/server](https://github.com/bitwarden/server) The core infrastructure backend (API, database, Docker, etc).
+- [bitwarden/server](https://github.com/bitwarden/server) The core infrastructure backend (API, database, [[Docker]], etc).
 - [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) The communications platform that puts data protection first.
 - [mattermost/mattermost-server](https://github.com/mattermost/mattermost-server) Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.
 - [mattermost/focalboard](https://github.com/mattermost/focalboard) Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.
 - [zulip/zulip](https://github.com/zulip/zulip) Zulip server and web app—powerful open source team chat
-- [reactioncommerce/reaction](https://github.com/reactioncommerce/reaction/). Deployed via Docker and Kubernetes. Mailchimp Open Commerce is an API-first, [[headless]] commerce platform built using Node.js, React, [[GraphQL]]
+- [reactioncommerce/reaction](https://github.com/reactioncommerce/reaction/). Deployed via [[Docker]] and Kubernetes. Mailchimp Open Commerce is an API-first, [[headless]] commerce platform built using Node.js, React, [[GraphQL]]

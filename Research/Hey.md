@@ -48,8 +48,8 @@ import Link from '@docusaurus/Link'
 </Link>
 
 One scientist envisioned something called [[Memex]] when transistors were invented.
-Memex, as a device that stores and indexes all information and knowledge of a person, is known to be the first description of the internet.
-This place **faithfully** implements Memex with modern technology.
+[[Memex]], as a device that stores and indexes all information and knowledge of a person, is known to be the first description of the internet.
+This place **faithfully** implements [[Memex]] with modern technology.
 Unlike ordinary websites, this place is non-linear.
 There are no next/previous posts, parent/child folders, or domain structures, and everything gets regularly rearranged.
 No information retains its _physical_ form; everything is handled by metadata, with front matters and hyperlinks.

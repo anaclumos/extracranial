@@ -774,7 +774,8 @@ export const backlinks = {
     },
     "visionOS": {
         "2023-06-06": "- [[visionOS]]",
-        "Apple Vision Pro": "- Featuring [[visionOS]], the world's first spatial operating ..."
+        "Apple Vision Pro": "- Featuring [[visionOS]], the world's first spatial operating ...",
+        "WWDC23": "## [[visionOS]]"
     },
     "0001 Two Sum": {
         "2022-07-10": "- Solved [[0001 Two Sum]]",
@@ -898,8 +899,11 @@ export const backlinks = {
     },
     "New York City": {
         "2023-01-13": "- [[New York City]]",
+        "Fiercely Overpriced": "... Wilensky, a web developer from [[New York City]], narrates his experience creating and ...",
         "IP is the new Real Estate": "... in global cities such as [[New York City|New York]], London, and Paris were seen ...",
-        "SendGrid": "... with a debut on the [[New York City|New York]] Stock Exchange on November 16, ..."
+        "SendGrid": "... with a debut on the [[New York City|New York]] Stock Exchange on November 16, ...",
+        "이완용": "... The Independent, Vol. 63, No.3064, [[New York City|New York]], 1907.8.22. 이선근, 한국사 : 현대편, ...",
+        "헤이그 특사": "... The Independent, Vol. 63, No.3064, [[New York City|New York]], 1907.8.22. 이선근, 한국사 : 현대편, ..."
     },
     "Twitter Link Preview": {
         "hn.cho.sh 개발 기록": "[[Twitter Link Preview]]를 추가했다."
@@ -1485,7 +1489,9 @@ export const backlinks = {
     },
     "북한": {
         "2023-02-23": "- [[북한]]",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... of power in the region. [[북한|North Korea]]'s missile and nuclear weapons tests ...",
         "경제 개발의 길목에서": "... 도무지 알 수가 없다. 대한민국|한국은 [[북한]]의 핵화를 반대하는 동시에 북한의 핵화를 ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 있는 것입니다. 날이 갈수록 커져가는 [[북한]]의 미사일과 핵무기 실험은 북핵 위기를 ...",
         "한민족": "한민족은 대한민국과 [[북한]]의 주류가 되는 민족으로,"
     },
     "Stephan Ango": {
@@ -1689,6 +1695,7 @@ export const backlinks = {
     },
     "Prompt Injection": {
         "2023-03-20": "... LLM|LLMs have been underestimated, and [[Prompt Injection]] is a serious security threat ...",
+        "Proposal of Research 2023-03-28": "... Investigating Authority Systems to Mitigate [[Prompt Injection]] Attacks in [[Generative AI|Generative Text ...",
         "글감": "- [[Prompt Injection]]"
     },
     "USDZ": {
@@ -2132,7 +2139,7 @@ export const backlinks = {
         "Satori": "... Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "... is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris ...",
         "The Architecture of Mastodon": "... harder. Containerization, Kubernetes, and modern [[front-end]] stacks are challenging to work ...",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 타입스크립트를 쓰고 있다. 하지만 ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 [[TypeScript|타입스크립트]]를 쓰고 있다. 하지만 ...",
         "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 ..."
     },
     "2022년 11월 한 달간 일기 쓰기": {
@@ -6849,7 +6856,9 @@ export const backlinks = {
         "2022-06-15": "... as code like Terraform or [[Docker]] images for science labs.",
         "CDN": "... will design uses: Nginx, Lua, [[docker]], docker-compose, Prometheus, grafana, and wrk.",
         "Cloud-Native": "... automation using tools like Kubernetes, [[Docker]], and Terraform.",
-        "How to Build Software like an SRE": "- use [[Docker]]"
+        "How to Build Software like an SRE": "- use [[Docker]]",
+        "Inspiring Open Source Projects": "... core infrastructure backend (API, database, [[Docker]], etc).",
+        "Render.com": "... programming languages, and has robust [[Docker]] support. good scalability features. Free ..."
     },
     "AI는 고가 노동부터 점령한다": {
         "2022-11-19": "  - [[AI는 고가 노동부터 점령한다]]"
@@ -7008,7 +7017,7 @@ export const backlinks = {
     },
     "Variance": {
         "2023-03-07": "- [[Variance]]",
-        "Cauchy": "... distribution has no mean or [[variance]], as the moments do not ...",
+        "Cauchy": "... distribution has no mean or [[variance]], as the [[moments]] do not ...",
         "Standard Normal": "... distribution with mean 0 and [[variance]] 1. The symbol $Z$ denotes ..."
     },
     "배달의민족 FE 개발자가 일하는 법 발표": {
@@ -7070,6 +7079,7 @@ export const backlinks = {
     "EU": {
         "2023-03-06": "- [[EU]]",
         "AIs.txt": "... for ML|machine learning, aligning with [[EU]] Copyright Directives.",
+        "EU and AI": "The [[EU]] is grappling with how to ...",
         "GDPR": "... The General Data Protection Regulation ([[EU]]) (GDPR) is a regulation in ...",
         "Memory Hierarchy": "| United States of America\\|US-[[EU]] Roundtrip | 150ms   ...",
         "PECR": "... subscriber. The law implements an [[EU]] directive, the Privacy and Electronic ...",
@@ -7546,9 +7556,14 @@ export const backlinks = {
         "2022-07-20": "- JavaScript → [[TypeScript]]",
         "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations",
         "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules",
+        "Jest": "... works with projects using Babel, [[TypeScript]], [[Node.js]], [[React]], Angular, Vue.js, and ...",
+        "Prisma": "... query builder for Node.js & [[TypeScript]].",
         "Redwood.js": "- [[TypeScript]]",
+        "Shopify Analyzes CSS Frameworks": "| [[Typescript]] support     ...",
         "Svelte": "... compiler itself is written in [[TypeScript]]. Its source code is licensed ...",
-        "WebGPU": "- It's a stand-alone [[TypeScript]]+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like ..."
+        "Tailwind CSS 톺아보기": "- 기초적인 [[TypeScript]] [[Next.js|Next]] App 설정",
+        "WebGPU": "- It's a stand-alone [[TypeScript]]+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "Front-end|프론트엔드에는 리액트와 [[TypeScript|타입스크립트]]를 쓰고 있다. 하지만 권장 사항일 ..."
     },
     "Floyd Cycle Finding Algorithm": {
         "0141 Linked List Cycle": "- [[Floyd Cycle Finding Algorithm]]"
@@ -8020,6 +8035,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "[[K-Pop App]]에 큰 실망을 하고 구상해본 가설적 ..."
     },
     "Moments": {
+        "Cauchy": "... mean or variance, as the [[moments]] do not exist for this ...",
         "Probability": "- [[Moments]]"
     },
     "Reddit-Apollo Mayhem": {
