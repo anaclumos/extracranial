@@ -525,9 +525,6 @@ export const backlinks = {
         "Proposal of Research 2023-01-10": "## 3. [[The Photo Library of Babel]]",
         "Proposal of Research 2023-03-28": "## [[The Photo Library of Babel]]: Exploring the Implications of Finite ..."
     },
-    "Geohot Twitter Mayhem": {
-        "Person 648442": "... — Twitter's Non-existent Search Engine: [[Geohot Twitter Mayhem]]"
-    },
     "사회과부도": {
         "2022-08-28": "- [[사회과부도]]",
         "Cartography": "... maps to represent data effectively. [[사회과부도]]"
@@ -769,12 +766,16 @@ export const backlinks = {
         "2023-03-10": "- [[Bing Chat for All Browsers in Japan]]",
         "hn.cho.sh 개발 기록": "그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 일본에서 이런 프로덕트 ..."
     },
+    "Refine (Framework)": {
+        "Meta Meta Framework": "... Meta Meta Framework: Redwood.js, Keystone.js, [[Refine (Framework)]]"
+    },
     "Framer": {
         "Toss Product Sans": "- 특히 서체 테스트를 프레이머([[Framer]])에서 할 수 있다는 것도 큰 ..."
     },
     "visionOS": {
         "2023-06-06": "- [[visionOS]]",
-        "Apple Vision Pro": "- Featuring [[visionOS]], the world's first spatial operating ..."
+        "Apple Vision Pro": "- Featuring [[visionOS]], the world's first spatial operating ...",
+        "WWDC23": "## [[visionOS]]"
     },
     "0001 Two Sum": {
         "2022-07-10": "- Solved [[0001 Two Sum]]",
@@ -836,7 +837,7 @@ export const backlinks = {
     },
     "Hacker": {
         "2023-03-06": "- [[Hacker]]",
-        "Geohot Twitter Mayhem": "... as Geohot, is a famous [[hacker]] and founder of Comma.[[ai]]. Elon ..."
+        "Geohot-Twitter Mayhem": "... as Geohot, is a famous [[hacker]] and founder of Comma.[[ai]]. Elon ..."
     },
     "Krafton Way": {
         "2022-11-23": "- Finished reading [[Krafton Way]]",
@@ -898,8 +899,11 @@ export const backlinks = {
     },
     "New York City": {
         "2023-01-13": "- [[New York City]]",
+        "Fiercely Overpriced": "... Wilensky, a web developer from [[New York City]], narrates his experience creating and ...",
         "IP is the new Real Estate": "... in global cities such as [[New York City|New York]], London, and Paris were seen ...",
-        "SendGrid": "... with a debut on the [[New York City|New York]] Stock Exchange on November 16, ..."
+        "SendGrid": "... with a debut on the [[New York City|New York]] Stock Exchange on November 16, ...",
+        "이완용": "... The Independent, Vol. 63, No.3064, [[New York City|New York]], 1907.8.22. 이선근, 한국사 : 현대편, ...",
+        "헤이그 특사": "... The Independent, Vol. 63, No.3064, [[New York City|New York]], 1907.8.22. 이선근, 한국사 : 현대편, ..."
     },
     "Twitter Link Preview": {
         "hn.cho.sh 개발 기록": "[[Twitter Link Preview]]를 추가했다."
@@ -1485,7 +1489,9 @@ export const backlinks = {
     },
     "북한": {
         "2023-02-23": "- [[북한]]",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... of power in the region. [[북한|North Korea]]'s missile and nuclear weapons tests ...",
         "경제 개발의 길목에서": "... 도무지 알 수가 없다. 대한민국|한국은 [[북한]]의 핵화를 반대하는 동시에 북한의 핵화를 ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 있는 것입니다. 날이 갈수록 커져가는 [[북한]]의 미사일과 핵무기 실험은 북핵 위기를 ...",
         "한민족": "한민족은 대한민국과 [[북한]]의 주류가 되는 민족으로,"
     },
     "Stephan Ango": {
@@ -1689,6 +1695,7 @@ export const backlinks = {
     },
     "Prompt Injection": {
         "2023-03-20": "... LLM|LLMs have been underestimated, and [[Prompt Injection]] is a serious security threat ...",
+        "Proposal of Research 2023-03-28": "... Investigating Authority Systems to Mitigate [[Prompt Injection]] Attacks in [[Generative AI|Generative Text ...",
         "글감": "- [[Prompt Injection]]"
     },
     "USDZ": {
@@ -2093,6 +2100,7 @@ export const backlinks = {
         "METI Engine": "The current generation is [[hn.cho.sh]] — and plan to scale ...",
         "Project": "- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]]",
         "Project Heimdall": "Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news ...",
+        "Reddit-Apollo Mayhem": "## Summarizations from [[hn.cho.sh]]",
         "Vercel Incident Report (April 2023)": "... with two projects: lovearc.net and [[hn.cho.sh]].",
         "hn.cho.sh 개발 기록": "... 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
     },
@@ -2131,7 +2139,7 @@ export const backlinks = {
         "Satori": "... Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "... is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris ...",
         "The Architecture of Mastodon": "... harder. Containerization, Kubernetes, and modern [[front-end]] stacks are challenging to work ...",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 타입스크립트를 쓰고 있다. 하지만 ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 [[TypeScript|타입스크립트]]를 쓰고 있다. 하지만 ...",
         "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 ..."
     },
     "2022년 11월 한 달간 일기 쓰기": {
@@ -2380,14 +2388,14 @@ export const backlinks = {
         "Conditional Compilation": "... can be used for multi-platform [[engine]]",
         "Docker": "... the containers is called Docker [[Engine]]. It was first started in ...",
         "Finding out Ghost version with JS": "... first, I investigated the Ghost [[engine]] side to make the [[Node.js]] ...",
-        "Geohot Twitter Mayhem": "Twitter's Missing Search [[Engine]].",
+        "Geohot-Twitter Mayhem": "Twitter's Missing Search [[Engine]].",
         "Google": "... company that focuses on search [[engine]] technology, online advertising, [[cloud computing]], ...",
         "Graphics Engine Process": "... general process of a graphics [[engine]] follows:",
         "JavaScript": "... browsers have a dedicated JavaScript [[engine]] to execute the code on ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "... services as the omnipotent search [[engine]] for [[대한민국|Korea]] (bigger market cap ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... as seen in the Gecko [[engine]].",
         "Naver": "... develop and use its search [[engine]]. It was also the world's ...",
-        "Person 648442": "... strategy — Twitter's Non-existent Search [[Engine]]: [[Geohot Twitter Mayhem]]",
+        "Person 648442": "... strategy — Twitter's Non-existent Search [[Engine]]: [[Geohot-Twitter Mayhem]]",
         "Proposal of Research 2023-01-10": "... cause the Web Browser|browser's JavaScript [[engine]] to become unresponsive. As a ...",
         "Proposal of Research 2023-03-28": "... users and negatively impacts search [[engine]] optimization. This research proposal aims ...",
         "Satori": "### [[Engine]]",
@@ -4082,6 +4090,9 @@ export const backlinks = {
         "2023-02-17": "- [[기술 할부 결제]]",
         "Avoid Premature Optimizations": "- Tech Now Pay Later [[기술 할부 결제]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "... Now Pay Later <br/> 🇰🇷 [[기술 할부 결제]]      ..."
+    },
+    "Keystone.js": {
+        "Meta Meta Framework": "- Meta Meta Framework: Redwood.js, [[Keystone.js]], [[Refine (Framework)]]"
     },
     "Grotesque": {
         "Akzidenz": "- A type of [[Grotesque]] [[font]].",
@@ -5856,6 +5867,9 @@ export const backlinks = {
         "2023-05-29": "- [[PNPM]]",
         "Redwood.js": "While I prefer [[PNPM]] over [[Yarn]], due to the ..."
     },
+    "Geohot-Twitter Mayhem": {
+        "Person 648442": "... — Twitter's Non-existent Search Engine: [[Geohot-Twitter Mayhem]]"
+    },
     "Shopify Analyzes CSS Frameworks": {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
@@ -6820,6 +6834,9 @@ export const backlinks = {
     "SKAdNetwork": {
         "WWDC23": "- [[SKAdNetwork]]: [[App Store]]'s more in-depth analytics: ..."
     },
+    "Project Padme": {
+        "2023-06-08": "[[Project Padme]]"
+    },
     "Atopic Zeropoint": {
         "2023-02-08": "- [[Atopic Zeropoint]]"
     },
@@ -6845,7 +6862,9 @@ export const backlinks = {
         "2022-06-15": "... as code like Terraform or [[Docker]] images for science labs.",
         "CDN": "... will design uses: Nginx, Lua, [[docker]], docker-compose, Prometheus, grafana, and wrk.",
         "Cloud-Native": "... automation using tools like Kubernetes, [[Docker]], and Terraform.",
-        "How to Build Software like an SRE": "- use [[Docker]]"
+        "How to Build Software like an SRE": "- use [[Docker]]",
+        "Inspiring Open Source Projects": "... core infrastructure backend (API, database, [[Docker]], etc).",
+        "Render.com": "... programming languages, and has robust [[Docker]] support. good scalability features. Free ..."
     },
     "AI는 고가 노동부터 점령한다": {
         "2022-11-19": "  - [[AI는 고가 노동부터 점령한다]]"
@@ -7004,7 +7023,7 @@ export const backlinks = {
     },
     "Variance": {
         "2023-03-07": "- [[Variance]]",
-        "Cauchy": "... distribution has no mean or [[variance]], as the moments do not ...",
+        "Cauchy": "... distribution has no mean or [[variance]], as the [[moments]] do not ...",
         "Standard Normal": "... distribution with mean 0 and [[variance]] 1. The symbol $Z$ denotes ..."
     },
     "배달의민족 FE 개발자가 일하는 법 발표": {
@@ -7066,6 +7085,7 @@ export const backlinks = {
     "EU": {
         "2023-03-06": "- [[EU]]",
         "AIs.txt": "... for ML|machine learning, aligning with [[EU]] Copyright Directives.",
+        "EU and AI": "The [[EU]] is grappling with how to ...",
         "GDPR": "... The General Data Protection Regulation ([[EU]]) (GDPR) is a regulation in ...",
         "Memory Hierarchy": "| United States of America\\|US-[[EU]] Roundtrip | 150ms   ...",
         "PECR": "... subscriber. The law implements an [[EU]] directive, the Privacy and Electronic ...",
@@ -7421,6 +7441,9 @@ export const backlinks = {
     "Convergence of Geometric Series": {
         "2023-01-31": "- [[Convergence of Geometric Series]]"
     },
+    "Meta Meta Framework": {
+        "2023-06-10": "- [[Meta Meta Framework]]"
+    },
     "Tools Must Vanish": {
         "2022-07-07": "- [[Tools Must Vanish]]",
         "2022-12-28": "- [[Tools Must Vanish]]",
@@ -7542,9 +7565,14 @@ export const backlinks = {
         "2022-07-20": "- JavaScript → [[TypeScript]]",
         "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations",
         "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules",
+        "Jest": "... works with projects using Babel, [[TypeScript]], [[Node.js]], [[React]], Angular, Vue.js, and ...",
+        "Prisma": "... query builder for Node.js & [[TypeScript]].",
         "Redwood.js": "- [[TypeScript]]",
+        "Shopify Analyzes CSS Frameworks": "| [[Typescript]] support     ...",
         "Svelte": "... compiler itself is written in [[TypeScript]]. Its source code is licensed ...",
-        "WebGPU": "- It's a stand-alone [[TypeScript]]+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like ..."
+        "Tailwind CSS 톺아보기": "- 기초적인 [[TypeScript]] [[Next.js|Next]] App 설정",
+        "WebGPU": "- It's a stand-alone [[TypeScript]]+[[Rust]]/[[WebAssembly|WASM]] library with its own [[React]]-like ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "Front-end|프론트엔드에는 리액트와 [[TypeScript|타입스크립트]]를 쓰고 있다. 하지만 권장 사항일 ..."
     },
     "Floyd Cycle Finding Algorithm": {
         "0141 Linked List Cycle": "- [[Floyd Cycle Finding Algorithm]]"
@@ -7588,7 +7616,9 @@ export const backlinks = {
     "Redwood.js": {
         "2023-05-20": "This looks promising. redwoodjs/redwood: [[Redwood.js|Redwood]] The App Framework for Startups. ...",
         "2023-05-26": "- [[Redwood.js]]",
-        "2023-05-29": "- [[Redwood.js]]"
+        "2023-05-29": "- [[Redwood.js]]",
+        "2023-06-10": "- [[Redwood.js]]",
+        "Meta Meta Framework": "- Meta Meta Framework: [[Redwood.js]], [[Keystone.js]], [[Refine (Framework)]]"
     },
     "Unified Korea": {
         "Born of this Land - The Founding Story of Hyundai": "... to create an advanced and [[Unified Korea]]. No matter what, he was ...",
@@ -7901,7 +7931,7 @@ export const backlinks = {
         "Financial Technology": "... methods in delivering financial services. [[AI|Artificial intelligence]], [[Blockchain]], [[Cloud computing]], and big ...",
         "Generative AI": "... of guessing the correct answer, [[AI]] creates something from [[Prompt Engineering]].",
         "Generative Databases": "... we think Database as Gen [[AI]] models instead of key-value storages?",
-        "Geohot Twitter Mayhem": "... famous hacker and founder of Comma.[[ai]]. Elon Musk hired him to ...",
+        "Geohot-Twitter Mayhem": "... famous hacker and founder of Comma.[[ai]]. Elon Musk hired him to ...",
         "Google": "... computer software, quantum computing, ecommerce|e-commerce, [[AI|artificial intelligence]], and consumer electronics. It has ...",
         "Grammarly AI-NLP Club": "[[AI]] [[Natural Language Processing|NLP]] Club at ...",
         "Imagining WebNPU API": "... install an app for an [[AI]] to be tailored to their ...",
@@ -8015,7 +8045,11 @@ export const backlinks = {
         "프로젝트 어덕행덕": "[[K-Pop App]]에 큰 실망을 하고 구상해본 가설적 ..."
     },
     "Moments": {
+        "Cauchy": "... mean or variance, as the [[moments]] do not exist for this ...",
         "Probability": "- [[Moments]]"
+    },
+    "Reddit-Apollo Mayhem": {
+        "2023-06-10": "- [[Reddit-Apollo Mayhem]]"
     },
     "Datalake": {
         "Database vs Datalake": "## [[Datalake]]:",
@@ -8124,7 +8158,7 @@ export const backlinks = {
         "2022-06-06": "... your career, you can learn [[10x]] more in a supportive team ...",
         "2022-12-09": "- [[10x]]",
         "Antipreneur": "... guys. They need to hire [[10x]] power developers and work them ...",
-        "Geohot Twitter Mayhem": "... for ① being a superintelligent [[10x]] developer and ② being a ...",
+        "Geohot-Twitter Mayhem": "... for ① being a superintelligent [[10x]] developer and ② being a ...",
         "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying ...",
         "The Zenly Playbook": "... also outstanding designers and operators. [[10x]] people don't join a startup ...",
         "강기업": "... guys. They need to hire [[10x]] power developers and work them ..."
@@ -8498,12 +8532,6 @@ export const backlinks = {
     "837555.jpg": {
         "2022-10-15": "![[837555.jpg]]",
         "Dynamic Island on the Web": "![[837555.jpg]]"
-    },
-    "3A5769.png": {
-        "Geohot Twitter Mayhem": "![[3A5769.png]]"
-    },
-    "BE855B.png": {
-        "Geohot Twitter Mayhem": "![[BE855B.png]]"
     },
     "F9FC1A.png": {
         "Swift": "![[F9FC1A.png]]"
@@ -9540,6 +9568,12 @@ export const backlinks = {
     },
     "970206.png": {
         "이루다": "![[970206.png]]"
+    },
+    "3A5769.png": {
+        "Geohot-Twitter Mayhem": "![[3A5769.png]]"
+    },
+    "BE855B.png": {
+        "Geohot-Twitter Mayhem": "![[BE855B.png]]"
     },
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"

@@ -1,0 +1,6 @@
+node_modules
+dist
+build
+*.config.js
+*.stylesheet.js
+sidebars.js

@@ -58,7 +58,7 @@ function YearsSection({ years }: { years: YearProp[] }) {
     <section className="margin-vert--lg">
       <div className={clsx('container', styles.container)}>
         <div className="row">
-          {years.reverse().map((_props, idx) => (
+          {years.reverse().map((_props) => (
             <div key={useId()} className="col col--4 margin-vert--md">
               <Year {..._props} />
             </div>
@@ -71,7 +71,7 @@ function YearsSection({ years }: { years: YearProp[] }) {
 
 function listPostsByYears(blogPosts: readonly ArchiveBlogPost[]): YearProp[] {
   const postsByYear = blogPosts.reduceRight((posts, post) => {
-    const year = post.metadata.date.split('-')[0]!
+    const year = post.metadata.date.split('-')[0] ?? 'unknown'
     const yearPosts = posts.get(year) ?? []
     return posts.set(year, [post, ...yearPosts])
   }, new Map<string, ArchiveBlogPost[]>())

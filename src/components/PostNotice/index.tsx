@@ -6,7 +6,7 @@ import PostNotice from './PostNotice.module.css'
 const title = translate({ message: 'Heads Up!' })
 
 type Props = {
-  metadata: any
+  metadata: unknown
 }
 
 const bulletOneFront = translate({

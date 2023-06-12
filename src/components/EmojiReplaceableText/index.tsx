@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, MouseEvent } from 'react'
 import styles from './index.module.css'
 
 type Props = {
@@ -13,8 +13,8 @@ type Props = {
 
 const EmojiReplaceableText = (props: Props) => {
   const { text, emoji, photo, showByDefault, border, photoAlt } = props
-  const [showEmoji, setShowEmoji] = React.useState(showByDefault === 'emoji')
-  const handleClick = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
+  const [showEmoji, setShowEmoji] = useState(showByDefault === 'emoji')
+  const handleClick = (e: MouseEvent<HTMLSpanElement, MouseEvent>) => {
     e.preventDefault()
     setShowEmoji(!showEmoji)
   }

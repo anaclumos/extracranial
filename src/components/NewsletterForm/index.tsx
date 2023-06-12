@@ -1,13 +1,12 @@
-import React, { useMemo } from 'react'
+import React, { useState } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './NewsletterForm.module.css'
-// @ts-ignore
 
 const NewsletterForm = () => {
   const { i18n } = useDocusaurusContext()
 
-  const [isKoreanLocale, setIsKoreanLocale] = React.useState(i18n.currentLocale.startsWith('ko'))
-  const [isEnglishLocale, setIsEnglishLocale] = React.useState(i18n.currentLocale.startsWith('en'))
+  const [isKoreanLocale, setIsKoreanLocale] = useState(i18n.currentLocale.startsWith('ko'))
+  const [isEnglishLocale, setIsEnglishLocale] = useState(i18n.currentLocale.startsWith('en'))
 
   return (
     <form method="post" action="https://newsletters.cho.sh/subscription/form" className={styles.formContainer}>

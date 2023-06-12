@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
@@ -26,6 +26,19 @@ import { Globe } from '../components/Globe'
 
 const HeroText = () => {
   const { siteConfig } = useDocusaurusContext()
+
+  const [music, setMusic] = useState(false)
+
+  useEffect(() => {
+    fetch('https://raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json')
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.data) {
+          setMusic(data.data?.[0] ?? false)
+        }
+      })
+  }, [])
+
   return (
     <>
       <Head>
@@ -209,6 +222,19 @@ const HeroText = () => {
             showByDefault="emoji"
           />
           <Translate>{'. '}</Translate>
+          {music && (
+            <>
+              <Translate>{'By the way, he was just listening to '}</Translate>{' '}
+              <EmojiReplaceableText
+                text={`${music?.attributes?.name} — ${music?.attributes?.artistName}`}
+                photo={music?.attributes?.artwork?.url.replace('{w}x{h}bb', '256x256bb')}
+                photoAlt={music?.attributes?.name ?? 'Unknown Artist'}
+                showByDefault="emoji"
+                border={true}
+              />
+              <Translate>{' on Apple Music. '}</Translate>
+            </>
+          )}
           <a href="https://mailhide.io/e/IXndXpED" target="_blank" rel="noopener noreferrer" className={styles.gray}>
             <span className={styles.nowrap}>
               <Translate>Get in touch</Translate>
