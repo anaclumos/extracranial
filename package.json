@@ -70,7 +70,7 @@
     "wrangler": "3.1.0"
   },
   "license": "MIT",
-  "main": "index.js",
+  "main": "src/index.tsx",
   "name": "cho-sh",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
