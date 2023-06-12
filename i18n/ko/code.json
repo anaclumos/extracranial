@@ -573,12 +573,6 @@
   ". His academic interest spans ": {
     "message": "으로 재밌는 것들을 만들었습니다. 그 외에도 "
   },
-  "Get in touch": {
-    "message": "연락하기"
-  },
-  "or dive down the rabbit hole.": {
-    "message": "또는 토끼굴에 뛰어들기."
-  },
   "theme.NavBar.navAriaLabel": {
     "message": "Main",
     "description": "The ARIA label for the main navigation"
