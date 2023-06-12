@@ -34,10 +34,19 @@ const HeroText = () => {
       .then((response) => response.json())
       .then((data) => {
         if (data.data) {
-          setMusic(data.data?.[0] ?? false)
+          setMusic(data.data ?? false)
         }
       })
   }, [])
+
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex === music.length - 1 ? 0 : prevIndex + 1))
+    }, 1000)
+    return () => clearInterval(interval)
+  }, [music])
 
   return (
     <>
@@ -226,9 +235,9 @@ const HeroText = () => {
             <>
               <Translate>{'By the way, he was just listening to '}</Translate>{' '}
               <EmojiReplaceableText
-                text={`${music?.attributes?.name} — ${music?.attributes?.artistName}`}
-                photo={music?.attributes?.artwork?.url.replace('{w}x{h}bb', '256x256bb')}
-                photoAlt={music?.attributes?.name ?? 'Unknown Artist'}
+                text={`${music[currentIndex]?.attributes?.name} — ${music[currentIndex]?.attributes?.artistName}`}
+                photo={music[currentIndex]?.attributes?.artwork?.url.replace('{w}x{h}bb', '256x256bb')}
+                photoAlt={music[currentIndex]?.attributes?.name ?? 'Unknown Artist'}
                 showByDefault="emoji"
                 border={true}
               />
