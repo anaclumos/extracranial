@@ -87,7 +87,7 @@ const config: Config = {
     footer: {
       links: [
         {
-          title: '© 불가사리 ★',
+          title: '불가사리 ★ Starfish Company',
           items: [
             {
               label: '대표 조성현',
@@ -98,13 +98,13 @@ const config: Config = {
               to: 'https://cho.sh',
             },
             {
-              label: '대전광역시 서구 봉우로8번길 23 220',
+              label: '대전광역시 서구 둔산중로 66 메트로팰리스 311',
               to: 'https://cho.sh',
             },
           ],
         },
       ],
-      copyright: '© 불가사리 ★',
+      copyright: '불가사리 ★ Starfish Company',
     },
     docs: {
       sidebar: {

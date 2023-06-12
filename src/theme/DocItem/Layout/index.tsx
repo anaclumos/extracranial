@@ -1,7 +1,7 @@
 import React from 'react'
 import clsx from 'clsx'
 import { useWindowSize } from '@docusaurus/theme-common'
-// @ts-ignore
+
 import { useDoc } from '@docusaurus/theme-common/internal'
 import DocItemPaginator from '@theme/DocItem/Paginator'
 import DocVersionBanner from '@theme/DocVersionBanner'

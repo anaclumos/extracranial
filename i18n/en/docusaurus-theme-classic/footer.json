@@ -3,15 +3,10 @@
     "message": "",
     "description": "The footer copyright"
   },
-  "link.title.© 불가사리": {
-    "message": "© 불가사리",
-    "description": "The title of the footer links column with title=© 불가사리 in the footer"
+  "link.item.label.대전광역시 서구 둔산중로 66 메트로팰리스 311": {
+    "message": "대전광역시 서구 둔산중로 66 메트로팰리스 311",
+    "description": "The label of footer link with label=대전광역시 서구 둔산중로 66 메트로팰리스 311 linking to https://cho.sh"
   },
-  "link.item.label.대전광역시 서구 봉우로8번길 23 220": {
-    "message": "대전광역시 서구 봉우로8번길 23 220",
-    "description": "The label of footer link with label=대전광역시 서구 봉우로8번길 23 220 linking to https://cho.sh"
-  },
-
   "link.item.label.대표 조성현": {
     "message": "대표 조성현",
     "description": "The label of footer link with label=대표 조성현 linking to https://cho.sh"
@@ -19,5 +14,9 @@
   "link.item.label.사업자 등록번호 624-08-02343": {
     "message": "사업자 등록번호 624-08-02343",
     "description": "The label of footer link with label=사업자 등록번호 624-08-02343 linking to https://cho.sh"
+  },
+  "link.title.불가사리 ★ Starfish Company": {
+    "message": "불가사리 ★ Starfish Company",
+    "description": "The title of the footer links column with title=불가사리 ★ Starfish Company in the footer"
   }
 }

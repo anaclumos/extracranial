@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import clsx from 'clsx'
 import { translate } from '@docusaurus/Translate'
 import { usePluralForm } from '@docusaurus/theme-common'
-// @ts-ignore
+
 import { useBlogPost } from '@docusaurus/theme-common/internal'
 import type { Props } from '@theme/BlogPostItem/Header/Info'
 
 import styles from './styles.module.css'
 
 import { previousAnalyticsData } from '@site/static/previous'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 // Very simple pluralization: probably good enough for now
 function useReadingTimePlural() {
@@ -49,7 +50,7 @@ function Spacer() {
 async function getViewCount(path: string) {
   const viewCountPath = path.split('?')[0]
   const viewCountKey = viewCountPath.split('/').slice(-1)[0]
-  let viewCount: Number = 0
+  let viewCount = 0
   if (viewCountKey.length === 6 && /^[a-fA-F0-9]+$/.test(viewCountKey)) {
     await fetch(
       `https://simpleanalytics.com/cho.sh.json?version=5&info=false&start=2022-06-01&fields=pages&pages=*${viewCountKey}*`
@@ -105,10 +106,12 @@ const getViewString = (viewCount: number, locale: string) => {
 
 export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Element {
   const { metadata } = useBlogPost()
-  const { date, formattedDate, readingTime, permalink, locale } = metadata
+  const { date, formattedDate, readingTime, permalink } = metadata
+  const { i18n } = useDocusaurusContext()
+  const locale = i18n.currentLocale ?? 'en'
 
-  const [viewCount, setViewCount] = React.useState(-1)
-  React.useEffect(() => {
+  const [viewCount, setViewCount] = useState(-1)
+  useEffect(() => {
     getViewCount(permalink).then((viewcount) => {
       if (typeof viewcount === 'number') setViewCount(viewcount)
     })

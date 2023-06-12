@@ -73,7 +73,7 @@ const Backlink = (props: Props) => {
             .sort()
             .reverse()
             .map((backlink) => {
-              let backlinkTitle = backlink.normalize('NFC')
+              const backlinkTitle = backlink.normalize('NFC')
               if (!filenames[backlinkTitle]) {
                 console.warn(`Backlink title not found: ${backlinkTitle}`)
               }
