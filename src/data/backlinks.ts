@@ -974,6 +974,7 @@ export const backlinks = {
     },
     "Resend": {
         "2023-05-03": "- [[Resend]]",
+        "2023-06-12": "I never knew that [[Resend]]'s API is comparable to [[AWS ...",
         "Neo Email": "- [[Resend]] looks promising."
     },
     "0104 Maximum Depth of Binary Tree": {
@@ -7725,6 +7726,9 @@ export const backlinks = {
         "Letter to Mr. Stephan Ango on 2022-10-19": "... computer science student based in [[Los Angeles]].",
         "Letter to the Heptabase Team on 2022-10-11": "... a computer scientist based in [[Los Angeles|LA]] and [[서울|Seoul]]. I am also ...",
         "이루다": "2022-08-16 [[Los Angeles|LA]]로 오는 비행기에서 우연히 만났다. KCON ..."
+    },
+    "AWS SES": {
+        "2023-06-12": "... Resend's API is comparable to [[AWS SES]]."
     },
     "0409 Longest Palindrome": {
         "Coding Tests": "- [x] [[0409 Longest Palindrome]]"
