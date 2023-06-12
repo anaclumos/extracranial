@@ -91,15 +91,15 @@ const config: Config = {
           items: [
             {
               label: '대표 조성현',
-              to: 'https://cho.sh',
+              to: 'https://mailhide.io/en/e/IXndXpED',
             },
             {
-              label: '사업자 등록번호 624-08-02343',
-              to: 'https://cho.sh',
+              label: '사업자등록번호 624-08-02343',
+              to: 'https://mailhide.io/en/e/IXndXpED',
             },
             {
               label: '대전광역시 서구 둔산중로 66 메트로팰리스 311',
-              to: 'https://cho.sh',
+              to: 'https://mailhide.io/en/e/IXndXpED',
             },
           ],
         },
