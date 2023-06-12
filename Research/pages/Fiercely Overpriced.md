@@ -28,7 +28,7 @@ A book recommendation web app, but _you need to pay to use it_.
 
 ### [How I Built a Website to Earn Passive Income With Google AdSense](https://www.businessinsider.com/passive-income-built-website-google-adsense-2023-5)
 
-Avi Wilensky, a web developer from New York City, narrates his experience creating and monetizing the Up Hail web application, a comparison site for ride-sharing services and taxis. Initially, Wilensky built the website as a weekend side project to fulfill a niche need he identified. When featured in Mashable's list of best web tools, the application garnered attention, encouraging Wilensky to enhance the site further. He monetized the platform with increased traffic using Google AdSense, leading to significant passive income.
+Avi Wilensky, a web developer from [[New York City]], narrates his experience creating and monetizing the Up Hail web application, a comparison site for ride-sharing services and taxis. Initially, Wilensky built the website as a weekend side project to fulfill a niche need he identified. When featured in Mashable's list of best web tools, the application garnered attention, encouraging Wilensky to enhance the site further. He monetized the platform with increased traffic using Google AdSense, leading to significant passive income.
 
 1.  Automate your infrastructure
 2.  Monetize your site with ad networks: Utilize ad networks like Google's AdSense

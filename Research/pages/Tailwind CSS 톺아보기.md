@@ -21,7 +21,7 @@ slug: '/4B15E0'
 
 ### #0 [[Project|프로젝트]] 설정
 
-- 기초적인 TypeScript [[Next.js|Next]] App 설정
+- 기초적인 [[TypeScript]] [[Next.js|Next]] App 설정
 
 ```bash
  yarn create next-app --typescript
