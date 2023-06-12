@@ -1,6 +1,5 @@
 import React from 'react'
 import Translate from '@docusaurus/Translate'
-import { ThemeClassNames } from '@docusaurus/theme-common'
 import type { Props } from '@theme/EditThisPage'
 import clsx from 'clsx'
 import styles from './styles.module.css'

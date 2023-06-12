@@ -1,6 +1,6 @@
 import React from 'react'
 import clsx from 'clsx'
-// @ts-ignore
+
 import { useBlogPost } from '@docusaurus/theme-common/internal'
 import BlogPostItemHeaderAuthor from '@theme/BlogPostItem/Header/Author'
 import type { Props } from '@theme/BlogPostItem/Header/Authors'

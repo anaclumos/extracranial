@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import type { Props } from '@theme/TOCItems/Tree'
 
 // Recursive component rendering the toc tree
@@ -10,12 +10,9 @@ function TOCItemTree({ toc, className, linkClassName, isChild }: Props): JSX.Ele
     <ul className={isChild ? undefined : className}>
       {toc.map((heading) => (
         <li key={heading.id}>
-          {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
           <a
             href={`#${heading.id}`}
             className={linkClassName ?? undefined}
-            // Developer provided the HTML, so assume it's safe.
-            // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
               __html: heading.value,
             }}
@@ -28,4 +25,4 @@ function TOCItemTree({ toc, className, linkClassName, isChild }: Props): JSX.Ele
 }
 
 // Memo only the tree root is enough
-export default React.memo(TOCItemTree)
+export default memo(TOCItemTree)
