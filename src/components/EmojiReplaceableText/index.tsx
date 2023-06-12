@@ -4,7 +4,7 @@ import styles from './index.module.css'
 type Props = {
   text: string
   emoji?: string
-  photo?: string
+  photo?: string | unknown
   photoAlt?: string
   showByDefault?: 'emoji' | 'text'
   countdown?: number
