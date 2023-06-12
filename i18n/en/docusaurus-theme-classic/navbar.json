@@ -22,5 +22,9 @@
   "logo.alt": {
     "message": "Sunghyun Cho Logo",
     "description": "The alt text of navbar logo"
+  },
+  "item.label.Email": {
+    "message": "Email",
+    "description": "Navbar item with label Email"
   }
 }

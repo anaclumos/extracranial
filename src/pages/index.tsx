@@ -21,7 +21,6 @@ import GrammarlyLogo from '@site/static/fonts/emoji/grammarly.png'
 import KarrotLogo from '@site/static/fonts/emoji/karrot.png'
 import BaeminLogo from '@site/static/fonts/emoji/baemin.png'
 import RobotEmoji from '@site/static/fonts/emoji/robot.png'
-import Link from '@docusaurus/Link'
 import { Globe } from '../components/Globe'
 
 const HeroText = () => {
@@ -44,7 +43,7 @@ const HeroText = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex === music.length - 1 ? 0 : prevIndex + 1))
-    }, 1000)
+    }, 500)
     return () => clearInterval(interval)
   }, [music])
 
@@ -244,17 +243,6 @@ const HeroText = () => {
               <Translate>{' on Apple Music. '}</Translate>
             </>
           )}
-          <a href="https://mailhide.io/e/IXndXpED" target="_blank" rel="noopener noreferrer" className={styles.gray}>
-            <span className={styles.nowrap}>
-              <Translate>Get in touch</Translate>
-            </span>
-          </a>
-          <span className={styles.gray}>{', '}</span>
-          <Link className={styles.gray} href="/random">
-            <span>
-              <Translate>or dive down the rabbit hole.</Translate>
-            </span>
-          </Link>
         </p>
       </main>
     </>

@@ -41,6 +41,12 @@ const navbar = {
       position: 'left',
     },
     {
+      href: 'https://mailhide.io/en/e/IXndXpED',
+      label: 'Email',
+      position: 'right',
+      className: 'navbar-mail-link',
+    },
+    {
       href: 'https://github.com/anaclumos',
       position: 'right',
       className: 'navbar-github-link',
