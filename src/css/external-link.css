@@ -54,7 +54,7 @@ article a[href^='http']::before {
 
 article a[href^='http']::after {
   content: '↗';
-  margin-left: 0.2em;
+  margin-left: 0.1em;
 }
 
 article a[href*='cho.sh']::before {

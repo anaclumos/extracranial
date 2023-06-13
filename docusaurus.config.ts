@@ -87,7 +87,7 @@ const config: Config = {
     footer: {
       links: [
         {
-          title: '★ 불가사리 (Inextinguishable, Co.)',
+          title: '★ 불가사리',
           items: [
             {
               label: '대표 조성현',
@@ -104,7 +104,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: '★ 불가사리 (Inextinguishable, Co.)',
+      copyright: '★ 불가사리',
     },
     docs: {
       sidebar: {
