@@ -3,6 +3,5 @@
 }
 
 .iconExternalLink::after {
-  content: '↗';
-  margin: 0.1em;
+  content: ' ↗';
 }
