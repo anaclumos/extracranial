@@ -35,6 +35,10 @@ const processBacklinkItem = (text: string, title: string) => {
     // Replace [[other]] with other
     const regex4 = new RegExp(`\\[\\[(.+?)\\]\\]`, 'g')
     text = text.replace(regex4, '$1')
+
+    //Replace word|display with `display` with regex
+    const regex5 = new RegExp(`\\b${title}\\|(.+?)\\b`, 'g')
+    text = text.replace(regex5, '$1')
   } catch (e) {
     // console.warn(`Error processing backlink item with text: ${text} and title: ${title}\n${e}`)
   }
