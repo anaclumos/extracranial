@@ -4,7 +4,7 @@ import styles from './index.module.css'
 type Props = {
   text: string
   emoji?: string
-  photo?: string | unknown
+  photo?: string
   photoAlt?: string
   showByDefault?: 'emoji' | 'text'
   countdown?: number
@@ -27,12 +27,12 @@ const EmojiReplaceableText = (props: Props) => {
             text
           ) : border === true ? (
             <>
-              <img className={styles.photo} src={photo as string} alt={photoAlt} width="28" height="28" />
+              <img className={styles.photo} src={photo} alt={photoAlt} width="28" height="28" />
               <span className={styles.allyText}>{text}</span>
             </>
           ) : (
             <>
-              <img className={styles.emoji} src={photo as string} alt={photoAlt} width="28" height="28" />
+              <img className={styles.emoji} src={photo} alt={photoAlt} width="28" height="28" />
               <span className={styles.allyText}>{text}</span>
             </>
           )

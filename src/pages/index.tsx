@@ -235,7 +235,7 @@ const HeroText = () => {
               <Translate>{'By the way, he was just listening to '}</Translate>{' '}
               <EmojiReplaceableText
                 text={`${music[currentIndex]?.attributes?.name} — ${music[currentIndex]?.attributes?.artistName}`}
-                photo={music[currentIndex]?.attributes?.artwork?.url.replace('{w}x{h}bb', '256x256bb')}
+                photo={music[currentIndex]?.attributes?.artwork?.url?.replace('{w}x{h}bb', '256x256bb')}
                 photoAlt={music[currentIndex]?.attributes?.name ?? 'Unknown Artist'}
                 showByDefault="emoji"
                 border={true}
