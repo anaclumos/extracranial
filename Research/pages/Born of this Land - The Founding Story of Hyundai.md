@@ -35,7 +35,7 @@ When hosting the Olympic Games in [[서울|Seoul]] ('88), Hyundai planned and co
 
 ## **不恥下問.**
 
-There's a saying that goes something like **不恥下問**. It means there is no shame in asking someone younger than you, or someone with a lower status than you, what you don't know. During the various construction projects, Hyundai learned a lot from the American engineers, who were very serious and willing to learn everything they could.
+There's a saying that goes something like **不恥下問**. It means there is no shame in asking someone younger than you, or someone with a lower status than you, what you don't know. During the various construction projects, Hyundai learned a lot from the [[American]] engineers, who were very serious and willing to learn everything they could.
 
 ## Time is money
 
