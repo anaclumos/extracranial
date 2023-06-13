@@ -4,7 +4,7 @@ slug: '/65A667'
 aliases: ['아이디어는 가치가 없다', '정보의 존재보다 실체의 발현']
 ---
 
-> _Genius is one percent inspiration and ninety-nine percent perspiration_. Great accomplishments depend not so much on ingenuity as on hard work. This is a saying of the American inventor Thomas Edison. [Dictionary.com](https://www.dictionary.com/browse/genius-is-one-percent-inspiration-and-ninety-nine-percent-perspiration)
+> _Genius is one percent inspiration and ninety-nine percent perspiration_. Great accomplishments depend not so much on ingenuity as on hard work. This is a saying of the [[American]] inventor Thomas Edison. [Dictionary.com](https://www.dictionary.com/browse/genius-is-one-percent-inspiration-and-ninety-nine-percent-perspiration)
 
 일반적인 믿음과 다르게, 아이디어는 대개 가치가 없습니다.
 모든 것은 아이디어가 아닌 실행 그 자체에서 나옵니다.

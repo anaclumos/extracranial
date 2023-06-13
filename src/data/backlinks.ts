@@ -2504,8 +2504,10 @@ export const backlinks = {
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-19 | 🇬🇧 [[Psychohistory]] <br/> 🇰🇷 [[심리역사학]]   ..."
     },
     "민사고": {
+        "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "2016년 [[민사고|민족사관고등학교]]로 새로 오신 교장 선생님이셨다.",
         "2023-01-12": "- [[민사고]]",
         "2023-02-23": "- [[민사고]]",
+        "2023-06-12": "알고 있는 [[민사고]] 선배 한 분이 창업을 하셨었다. ...",
         "In-house and Free Market": "- In-house. my [[민사고|high school]] society with limited in-house research ...",
         "Migrating Node.js apps from AWS EB to Heroku": "... my AWS EB app called [[민사고|KMLA]] Forms to Heroku. For your ...",
         "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "... 것을 알게 되었다. 예전에 개발했던 [[민사고]] 공문서 모음집을 Heroku로 옮겼다.",
@@ -2913,6 +2915,7 @@ export const backlinks = {
         "Letter to the Heptabase Team on 2022-10-11": "... Anyways, if you need any [[한국어|Korean]] 🇰🇷 translation support or anything ...",
         "Mapping keys to set different input languages on macOS": "... set Mac's input method to [[한국어|Korean]].",
         "Ridi": "> Ridi Corporation ([[한국어|Korean]]: 리디주식회사) is a content platform ...",
+        "Seaflooding": "[[한국어]]로는 '큰물' '물마' 등의 단어가 있다. ...",
         "Search AI와 인터넷의 한국어": "나는 [[한국어]] 자료가 인터넷에 부족한 탓이라고 생각하지 ...",
         "Setting different fonts by language in CSS": "`U+AC00-D7AF`is the Unicode range of [[한국어|Korean]] glyphs.",
         "Shortcuts": "... Lock key or 한/영 키 ([[한국어|Korean]]-English Key). That is, because, I ...",
@@ -2922,7 +2925,8 @@ export const backlinks = {
         "국내 은행 서비스가 나쁜 이유": "- 언어 및 지역적 장벽. [[한국어]]는 고유한 언어이며, 많은 [[대한민국|한국]] 소비자는 ...",
         "대한민국": "... 위치한 국가이다. 주 민족은 한민족이며, [[한국어]]를 주로 사용한다.",
         "월급만큼 중요한 것은 자존급이다": "[[한국어]]에서 적합한 번역은 덕업일치일 것이다.",
-        "한민족": "공동 문화권을 형성하고 [[한국어]]를 사용하는 동아시아계 민족이다."
+        "한민족": "공동 문화권을 형성하고 [[한국어]]를 사용하는 동아시아계 민족이다.",
+        "헤이그 특사": "... 거 주지에만 설치되었다. 교육기관의 설치는 [[한국어]]를 근절시키고 일본어를 대 신 가르치려는 ..."
     },
     "Personal Training Corpus": {
         "2022-10-12": "- [[Personal Training Corpus]]",
@@ -3172,6 +3176,7 @@ export const backlinks = {
     "Korean Discount": {
         "Born of this Land - The Founding Story of Hyundai": "... of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do ...",
         "글감": "- [[Korean Discount]]",
+        "너 주식 해": "물론 심한 일반화이다. 분할 상장과 [[Korean Discount]] 같은 것이 없으니 가치투자만 해도 ...",
         "이 땅에 태어나서": "정주영은 [[Korean Discount|코리안 디스카운트]]의 원인 중 하나로 지목되는 사내 ..."
     },
     "DOM": {
@@ -3512,16 +3517,20 @@ export const backlinks = {
         "Korean Discount": "... to the lower valuation of [[한민족|Korean]] stocks compared to their global ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "Unlike the Western market, the [[한민족|Korean]] music market is heavily independent.",
         "Letter to Mr. Matt Rickard on 2022-12-24": "From my native [[한민족|Korean]] experience, the [[Super App]] is ...",
+        "경제 개발의 길목에서": "... 건설이 있다. 나는 지금 나라와 [[한민족|민족]]의 운명을 거는 것이 아니라, 다만 ...",
         "국가와 민족": "- 대한민국은 [[한민족|민족]]과 국가를 종종 혼동한다.",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "하지만 그럼에도 저는 이것이 [[한민족|민족]]의 심장과 맞닿아 있는 고귀한 열망이자 ...",
         "대한민국": "... 남부에 위치한 국가이다. 주 민족은 [[한민족]]이며, [[한국어]]를 주로 사용한다.",
         "민사고": "> [[한민족]]의 모든 욕망을 충실하게 형체화한 모습.",
         "민사고와 쇼비니즘": "... 통치할 수 있다. 그렇다면 강력한 [[한민족|민족]] 정체성을 가지지 않는 한 어떤 ...",
         "이 땅에 태어나서": "... 주머니 속 화폐의 거북선을 보여주며 [[한민족]]은 1500년대부터 철갑선을 만들었으며, 쇄국 정책으로 ...",
+        "이완용": "... 악취로 가득했다는 점이 매우 부끄러웠다. [[한민족]]으로 반성을 하게 되었다.",
         "한국어": "[[한민족]]과 [[대한민국]]의 [[Native Language|모국어]]이다.",
         "한국인": "대한민국의 국적자이다. [[한민족]]과 다르다.",
         "한민족은 해적되었다": "[[한민족]]은 해적되었다.",
         "한민족의 동족상잔": "- 이것은 전쟁 포로나 다른 [[한민족|민족]]을 노예로 삼았던 사례와 많은 차이를 ...",
-        "한민족의 문화": "[[한민족]]의 문화에 대해서 다룬다."
+        "한민족의 문화": "[[한민족]]의 문화에 대해서 다룬다.",
+        "헤이그 특사": "... 일본 자 신만이 아닌 모든 [[한민족|민족]]의 문명을 위한 싸움이라고 선전하였다. 그래서 ..."
     },
     "벨로퍼트": {
         "2023-04-20 Conversation with Velopert": "벨로그의 초기 성장에는 [[벨로퍼트]]님의 글이 가장 큰 역할을 했다. ..."
@@ -3897,6 +3906,29 @@ export const backlinks = {
     "0169 Majority Element": {
         "Coding Tests": "- [x] [[0169 Majority Element]]"
     },
+    "American": {
+        "Amdahl Law": "... and was presented at the [[American]] Federation of Information Processing Societies ...",
+        "Apache": "... Apache Software Foundation (ASF), an [[American]] nonprofit corporation that supports Apache ...",
+        "Biden-Harris Administration National Security Strategy 2022": "... underlying sources and tools of [[American]] power and influence and build ...",
+        "Born of this Land - The Founding Story of Hyundai": "... learned a lot from the [[American]] engineers, who were very serious ...",
+        "Cloudflare": "> Cloudflare, Inc. is an [[American]] [[CDN|content delivery network]] and DDoS ...",
+        "Google": "> Google LLC is an [[American]] multinational technology company that focuses ...",
+        "Hugging Face": "... Hugging Face, Inc. is an [[American]] company that develops tools for ...",
+        "Ideas are worthless": "... is a saying of the [[American]] inventor Thomas Edison. Dictionary.com",
+        "Palantir": "... Palantir Technologies is a public [[American]] software company specializing in big ...",
+        "Person 1E6ABA": "... market but now considers the [[American]] market due to sheer market ...",
+        "Person A3BA1A": "An [[American]] company, Carta, already dominates the ...",
+        "Ted Chiang": "> Ted Chiang is an [[American]] science fiction writer. His work ...",
+        "Torvalds": "Linus Benedict Torvalds is a Finnish-[[American]] software engineer who is the ...",
+        "United States of America": "[[American]]",
+        "Vannevar Bush": "... June 28, 1974) was an [[American]] engineer, inventor, and science administrator ...",
+        "Veil of Ignorance": "... a thought experiment introduced by [[American]] philosopher John Rawls in his ...",
+        "Vercel": "... , formerly Zeit, is an [[American]] cloud platform as a service ...",
+        "Wikipedia": "... by the Wikimedia Foundation, an [[American]] non-profit organization funded mainly through ...",
+        "Y Combinator": "... Y Combinator (YC) is an [[American]] technology startup accelerator launched in ...",
+        "너 주식 해": "... 흔하지 않다는 것이다. 몇 가지 [[American|미국인]]들에 대한 관찰:",
+        "이 땅에 태어나서": "... 있는 것은 모조리 배우겠다는 자세로 [[American|미국인]] 기술자들에게서 많은 것을 배웠다."
+    },
     "Mac을 Command+L로 잠그는 방법": {
         "2022-11-19": "  - [[Mac을 Command+L로 잠그는 방법]]"
     },
@@ -4140,7 +4172,10 @@ export const backlinks = {
         "2022-07-05": "... 수학자로서는 최초 수상이다. 이전까지 한민족|한국계나 [[한국인]]이 이 상을 받은 적은 없었다.",
         "2023-02-15": "- [[한국인]]",
         "국가와 민족": "- 한민족|한국계와 [[한국인]]이 다르다. 한민족|한국계는 [한민족]을 뜻하며, 한국인은 ...",
-        "민사고": "... 높으신 분들은 자기가 친한 '본토 [[한국인]]'들만 요직에 앉혔다고. 그로 인해 학교에 ..."
+        "도로명주소": "[[한국인]]에게 무슨 일이 일어나거나 생활하는 단위는 ...",
+        "민사고": "... 높으신 분들은 자기가 친한 '본토 [[한국인]]'들만 요직에 앉혔다고. 그로 인해 학교에 ...",
+        "이완용": "... 희망으로 일본인들을 환영하였다. 그 당시 [[한국인]]들은 일본이 부패한 정부 관리들을 엄격히 ...",
+        "헤이그 특사": "... 희망으로 일본인들을 환영하였다. 그 당시 [[한국인]]들은 일본이 부패한 정부 관리들을 엄격히 ..."
     },
     "Spacial Cognition": {
         "2022-10-27": "- [[Spacial Cognition]]",
@@ -4469,8 +4504,10 @@ export const backlinks = {
         "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "[[대한민국]]의 두뇌라고 하는 이들조차 어찌 이리 ...",
         "2022-06-14": "... United States of America|US and [[대한민국|Korea]].",
         "2022-07-05": "... United States of America|미국 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 ...",
+        "2023-05-19": "... more heavily tied to the [[대한민국|Korean]] Market.",
         "AI replaces expensive jobs first": "서울|SEOUL (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed ...",
         "AT&T Roaming Incident Report (December 2022)": "... December 15th, I landed in [[대한민국|Korea]] and did not have my ...",
+        "Bootstrap": "... was historically less popular in [[대한민국|Korea]], where startups typically relied on ...",
         "Born of this Land - The Founding Story of Hyundai": "... States of America|US Army in [[대한민국|Korea]] was Hyundai's.",
         "Downloading Any Recordings from Zoom": "... States and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted ...",
         "Finally, Apple Pay in Korea": "... Apple Pay has expanded to [[대한민국|Korea]]. 대한민국|Korea remained the only developed ...",
@@ -4518,7 +4555,9 @@ export const backlinks = {
         "이 땅에 태어나서": "... 못한 정부가 만들어놓은 결과이며, 국민들이 [[대한민국]]이 세계 [[Economy|경제]]에서 경쟁력을 갖추기 위해 ...",
         "이공계": "그러나 현재 [[대한민국|한국]]에서는 이공계와 산업에 대한 관심과 지원이 ...",
         "이무기 기업, 청룡 기업": "... 양 너무 마법적인 기운을 준다. [[대한민국|한국]] 민담처럼 잉어 🐟 → 이무기 ...",
+        "이완용": "... 일반화되어 가고 있기 때문이다. 당시 [[대한민국|한국]]은 러일전쟁에 출병했던 일본군에 의해 사실상 ...",
         "일본 과학기술 총력전": "그리고 [[대한민국|한국]] 전쟁이 발발하자 [[일본]]은 미군의 병참 ...",
+        "일일일": "- Too strong ties to [[대한민국|Korean]] Market",
         "장승": "장승은 현재 [[대한민국|한국]]의 전통문화로 인식되고 있으며, 장승제, 장승마을, ...",
         "컴퓨터는 향정신성 약물인가": "... 달리 할 수 있지 않을까. [[대한민국]]에서 향정신성 의약품은 다음과 같이 정의된다.",
         "코드클럽": "1. CodeClub [[대한민국|Korea]]의 2019 상반기 코드클럽 SW교육기부단 활동 ...",
@@ -4530,6 +4569,7 @@ export const backlinks = {
         "한국인": "[[대한민국]]의 국적자이다. [[한민족]]과 다르다.",
         "한민족": "한민족은 [[대한민국]]과 [[북한]]의 주류가 되는 민족으로,",
         "한민족의 동족상잔": "... 이영훈 전 서울대 교수를 비롯한 [[대한민국|한국]] 학자들은 노비가 양인과 결혼을 할 ...",
+        "헤이그 특사": "... 가지의 전쟁목적이 있다고 공언하였다. 첫째는 [[대한민국|한국]]의 독립유지와 영토보전이요, 둘째는 극동의 교역을 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 ..."
     },
     "Artifact": {
@@ -4769,6 +4809,7 @@ export const backlinks = {
         "Karrot NX Team Mission Statement": "> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 ...",
         "Project Heimdall": "At [[Karrot]], scraping the news over the ...",
         "hn.cho.sh 개발 기록": "### [[Karrot|당근]] PM 론과의 대화",
+        "도로명주소": "이에 대해서 [[Karrot|당근]]의 론께서 첨언을 해주셨는데, 확실히 해외에 ...",
         "초대장의 시대": "... 위치 기반이었거나 (초기 페이스북, 요즘 [[Karrot|당근]]) 그룹 스터디 (대부분의 게임) 이었을 ..."
     },
     "WebGPU": {
@@ -6298,6 +6339,7 @@ export const backlinks = {
         "민사고": "... 책을 읽고 분석하는 시간을 가지며 [[United States of America|미국]]사의 여러 인물들을 분석했다. 해당 작품은 ...",
         "벌금과 물가": "## [[United States of America|미국]]",
         "새로운 부동산은 지적 재산이다": "... 고수익을 위해 해외 부동산, 특히 [[United States of America|미국]]과 유럽의 부동산에 재투자했다.",
+        "이완용": "더군다나 [[United States of America|미국]]을 답사한 관리들이 악취로 가득했다는 점이 ...",
         "일본 과학기술 총력전": "패전 당시 [[United States of America|미국]]의 점령 정책이 완전한 비군사화에서 [[Economy|경제]] ...",
         "젠리의 성공 공식": "... 나는 스냅의 큰 실수라고 생각한다. [[United States of America|미국]] 대학생 사이에서도 더 이상 스냅을 ...",
         "한국의 입시와 거짓된 명예": "오히려 [[United States of America|미국]]의 청소년들이 돈을 가지고 불장난을 하며 ...",
@@ -7234,6 +7276,9 @@ export const backlinks = {
         "Normal Tables": "... table, also known as a [[standard normal]] table or a z-table, is ...",
         "Q Function": "... the tail probability of the [[standard normal]] distribution, also known as the ..."
     },
+    "도로명주소": {
+        "2023-06-12": "- [[도로명주소]]"
+    },
     "바이올린 켜면 바이올레이션": {
         "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
     },
@@ -7992,6 +8037,9 @@ export const backlinks = {
     },
     "React App on GitHub Pages": {
         "2022-11-19": "  - [[React App on GitHub Pages]]"
+    },
+    "너 주식 해": {
+        "2023-06-12": "- [[너 주식 해]]"
     },
     "Cross-Platform AirDrops": {
         "2022-10-13": "- Taildrop · Tailscale: [[Cross-Platform AirDrops]] [[Tailscale]]",
