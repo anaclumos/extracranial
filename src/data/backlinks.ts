@@ -810,6 +810,9 @@ export const backlinks = {
     "Convergence of Infinite Series": {
         "2023-01-31": "- [[Convergence of Infinite Series]]"
     },
+    "불가사리 (기업)": {
+        "2023-06-14": "- [[불가사리 (기업)]]"
+    },
     "0067 Add Binary": {
         "Coding Tests": "- [x] [[0067 Add Binary]]"
     },
@@ -989,6 +992,7 @@ export const backlinks = {
     },
     "불가사리": {
         "Neo Korea": "- [[불가사리]]",
+        "불가사리 (기업)": "... 하기 위해서 설립한 1인 기업이다. [[불가사리]]의 영문명으로는 무엇이 좋을까? 말그대로 \"Unkillable\"라는 ...",
         "불가사리 재단": "[[불가사리]]"
     },
     "Alternatives to After Effects": {
@@ -5401,7 +5405,7 @@ export const backlinks = {
         "2023-04-21": "- [[Across the Sprachraums]]",
         "Language": "- for context in [[Across the Sprachraums|intersprachraum]] communication: [[Foreign Language]]",
         "Research Paper Language System": "무제한번역 [[Across the Sprachraums]]",
-        "The IDOL Stack": "- Inlang + [[Across the Sprachraums|intersprachraum]] ",
+        "The IDOL Stack": "- Inlang + [[Across the Sprachraums|intersprachraum]]",
         "hn.cho.sh 개발 기록": "... 절실히 느꼈다. Sprachraum에 구애받지 않는 [[Across the Sprachraums]].",
         "무제한번역": "- [[Across the Sprachraums]]"
     },
@@ -8657,6 +8661,9 @@ export const backlinks = {
     },
     "E64653.png": {
         "Redirecting READMEs": "![[E64653.png]]"
+    },
+    "11AADD.png": {
+        "불가사리 (기업)": "![[11AADD.png]]"
     },
     "355531.png": {
         "Channel.io": "![[355531.png]]"
