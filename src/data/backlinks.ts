@@ -5405,7 +5405,7 @@ export const backlinks = {
         "2023-04-21": "- [[Across the Sprachraums]]",
         "Language": "- for context in [[Across the Sprachraums|intersprachraum]] communication: [[Foreign Language]]",
         "Research Paper Language System": "무제한번역 [[Across the Sprachraums]]",
-        "The IDOL Stack": "- Inlang + [[Across the Sprachraums|intersprachraum]]",
+        "The IDOL Stack": "... Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], GitHub CI/CD",
         "hn.cho.sh 개발 기록": "... 절실히 느꼈다. Sprachraum에 구애받지 않는 [[Across the Sprachraums]].",
         "무제한번역": "- [[Across the Sprachraums]]"
     },
@@ -6234,6 +6234,7 @@ export const backlinks = {
         "2023-06-06": "- [[Internationalization]]",
         "CJK": "> In [[internationalization]], CJK character is a collective ...",
         "Intracranial": "  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for Chinese ...",
+        "The IDOL Stack": "- Con: Their [[Internationalization|i18n]] sucks. Especially setting up subpath ...",
         "WWDC23": "  - Accessibility|a11y, and [[Internationalization|i18n]] built-in",
         "hn.cho.sh 개발 기록": "[[Internationalization|i18n]]을 Sitemap과 HTML Head `hreflang`으로 자동 ..."
     },
