@@ -6234,7 +6234,7 @@ export const backlinks = {
         "2023-06-06": "- [[Internationalization]]",
         "CJK": "> In [[internationalization]], CJK character is a collective ...",
         "Intracranial": "  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for Chinese ...",
-        "The IDOL Stack": "- Con: Their [[Internationalization|i18n]] sucks. Especially setting up subpath ...",
+        "The IDOL Stack": "- Their [[Internationalization|i18n]] sucks. Especially setting up subpath ...",
         "WWDC23": "  - Accessibility|a11y, and [[Internationalization|i18n]] built-in",
         "hn.cho.sh 개발 기록": "[[Internationalization|i18n]]을 Sitemap과 HTML Head `hreflang`으로 자동 ..."
     },
