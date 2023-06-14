@@ -19,11 +19,27 @@ slug: '/959D0A'
 ### Approach 1
 
 - Redwood, Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], GitHub CI/CD
-- Pro: ORM built-in
-- Con: Their [[Internationalization|i18n]] sucks. Especially setting up subpath routing for Redwood
+
+#### Pro
+
+- ORM built-in
+- Takes care of GraphQL fuzz
+
+#### Con
+
+- Their [[Internationalization|i18n]] sucks. Especially setting up subpath routing for Redwood.
+- Non-GPT-able, since v1 came out mid 2022
 
 ### Approach 2
 
 - Next.js, Supabase DB, Supabase Auth, Supabase Storage, CloudFlare, Chakra
-- Pro: Most resources, Good [[Internationalization|i18n]] support
-- Con: Need to set up the integration
+
+#### Pro
+
+- Most resources
+- Good [[Internationalization|i18n]] support
+
+#### Con
+
+- Need to set up the integration
+- Sometimes lack of a proper backend sucks
