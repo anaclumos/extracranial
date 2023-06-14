@@ -3080,6 +3080,9 @@ export const backlinks = {
         "2023-02-26": "- [[Love Wikipedia]]",
         "Love Software": "- [[Love Wikipedia]]"
     },
+    "The IDOL Stack": {
+        "2023-06-14": "- [[The IDOL Stack]]"
+    },
     "PKM": {
         "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like ...",
         "2022-07-01": "... Second Brain, Digital Garden, and [[PKM]] are used interchangeably, they are ...",
@@ -5398,6 +5401,7 @@ export const backlinks = {
         "2023-04-21": "- [[Across the Sprachraums]]",
         "Language": "- for context in [[Across the Sprachraums|intersprachraum]] communication: [[Foreign Language]]",
         "Research Paper Language System": "무제한번역 [[Across the Sprachraums]]",
+        "The IDOL Stack": "- Inlang + [[Across the Sprachraums|intersprachraum]] ",
         "hn.cho.sh 개발 기록": "... 절실히 느꼈다. Sprachraum에 구애받지 않는 [[Across the Sprachraums]].",
         "무제한번역": "- [[Across the Sprachraums]]"
     },
@@ -8387,6 +8391,9 @@ export const backlinks = {
     "770154.png": {
         "2022-08-03": "![[770154.png]]",
         "Adding a Verified Mark on Apple Mail & Gmail": "![[770154.png]]"
+    },
+    "5531C0.png": {
+        "2023-06-14": "![[5531C0.png]]"
     },
     "613BFB.png": {
         "2023-02-02": "  ![[613BFB.png]]",
