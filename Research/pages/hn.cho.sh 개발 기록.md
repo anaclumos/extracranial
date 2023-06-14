@@ -61,8 +61,8 @@ GitHub Actions로 빌드하는 방식으로.
 ## [[2023-04-03]]
 
 [[hn.cho.sh]]에 조금 더 예쁜 이름이 필요하다.
-그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 일본에서 이런 프로덕트 반응이 잘 오는 것 같았다.
-일본으로 진출하기 위해 오랜만에 일본인 친구들에게 이메일을 조금 돌렸다. 얘기를 들어보니 Zenn을 많이 쓴다는 것 같길래 여기에 가입해서 홍보를 해봤다. [Show Zenn: シリコンバレーを理解する最も簡単な方法](https://zenn.dev/anaclumos/scraps/5c6ffc58a1b1e9)
+그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 [[일본]]에서 이런 프로덕트 반응이 잘 오는 것 같았다.
+[[일본]]으로 진출하기 위해 오랜만에 [[일본인]] 친구들에게 이메일을 조금 돌렸다. 얘기를 들어보니 Zenn을 많이 쓴다는 것 같길래 여기에 가입해서 홍보를 해봤다. [Show Zenn: シリコンバレーを理解する最も簡単な方法](https://zenn.dev/anaclumos/scraps/5c6ffc58a1b1e9)
 
 [[Twitter Link Preview]]를 추가했다.
 

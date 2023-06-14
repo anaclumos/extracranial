@@ -764,7 +764,7 @@ export const backlinks = {
         "2023-02-19": "- [[Bing Chat for All Browsers in Japan]]",
         "2023-02-21": "- [[Bing Chat for All Browsers in Japan]]",
         "2023-03-10": "- [[Bing Chat for All Browsers in Japan]]",
-        "hn.cho.sh 개발 기록": "그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 일본에서 이런 프로덕트 ..."
+        "hn.cho.sh 개발 기록": "그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 [[일본]]에서 이런 프로덕트 ..."
     },
     "Refine (Framework)": {
         "Meta Meta Framework": "... Meta Meta Framework: Redwood.js, Keystone.js, [[Refine (Framework)]]"
@@ -2910,7 +2910,7 @@ export const backlinks = {
         "Antifragile": "[[한국어]]로는 쉽게 정리된다.",
         "Better Docusaurus": "- Algolia [[한국어|Korean]] Translations",
         "Brunch": "- [[한국어|Korean]] Writing Service operated by [[Kakao]]",
-        "CJK": "... for the Chinese, Japanese, and [[한국어|Korean]] languages, which include Chinese characters ...",
+        "CJK": "... for the Chinese, 일본어|Japanese, and [[한국어|Korean]] languages, which include Chinese characters ...",
         "Developing Review Notes for Obsidian": "... 작성하려다가 옵시디언 플러그인 개발 자료는 [[한국어]]로 거의 없어 그냥 한국어로 작성한다.",
         "Letter to the Heptabase Team on 2022-10-11": "... Anyways, if you need any [[한국어|Korean]] 🇰🇷 translation support or anything ...",
         "Mapping keys to set different input languages on macOS": "... set Mac's input method to [[한국어|Korean]].",
@@ -2926,7 +2926,7 @@ export const backlinks = {
         "대한민국": "... 위치한 국가이다. 주 민족은 한민족이며, [[한국어]]를 주로 사용한다.",
         "월급만큼 중요한 것은 자존급이다": "[[한국어]]에서 적합한 번역은 덕업일치일 것이다.",
         "한민족": "공동 문화권을 형성하고 [[한국어]]를 사용하는 동아시아계 민족이다.",
-        "헤이그 특사": "... 일본인 거주지에만 설치되었다. 교육기관의 설치는 [[한국어]]를 근절시키고 일본어를 대신 가르치려는 것이며, ..."
+        "헤이그 특사": "... 일본인 거주지에만 설치되었다. 교육기관의 설치는 [[한국어]]를 근절시키고 [[일본어]]를 대신 가르치려는 것이며, ..."
     },
     "Personal Training Corpus": {
         "2022-10-12": "- [[Personal Training Corpus]]",
@@ -3404,7 +3404,7 @@ export const backlinks = {
         "Vannevar Bush": "... early administration of the Manhattan [[Project]]. He emphasized the importance of ...",
         "Wikiversity": "... Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning ...",
         "aaaa.coffee": "Someday [[Project]]. \"Buy me a coffee\" but ...",
-        "elevatorpitch.com": "Someday [[Project]]. Simple Demo Website Creator to ...",
+        "elevatorpitch.com": "Someday [[Project]]. Simple Demo website Creator to ...",
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 http 모듈 (당연히 `express` ...",
         "iiframe": "Someday [[Project]]. Improved `iframe` that containerizes an ...",
         "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert ...",
@@ -4542,10 +4542,12 @@ export const backlinks = {
         "국가와 민족": "- [[대한민국]]은 [[한민족|민족]]과 국가를 종종 혼동한다.",
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 위해 앉아 고민하면서, 제 조국, [[대한민국]]이 직면한 위기에 대해 생각하지 않을 ...",
         "국내 은행 서비스가 나쁜 이유": "... States of America|미국에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 더 정수를 보여준다고 ...",
+        "너 주식 해": "미국에서 흥미로운 관찰 중 하나는 [[대한민국|한국]]에서 흔한 아이스 브레이커로 사용되는 \"너 ...",
         "대한민국의 저출산": "[[대한민국|Korea]]'s fertility rate has dropped to ...",
         "드디어, 한국 애플페이": "... 3일자 금융위원회에서 Apple|애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 유일하게 Apple|애플페이가 지원되지 ...",
         "민사고": "... 누군가를 정말 알고 지내는 사회다. [[대한민국|한국]] 학연 사회의 정점이다.",
         "벨로그": "벨로그는 [[대한민국]]의 블로깅 서비스이다.",
+        "빙글": "... 서비스로, 비키닷컴의 매각 후 창업한 [[대한민국|한국]] 스타트업이다. 이 서비스는 관심사를 중심으로 ...",
         "새로운 부동산은 지적 재산이다": "이러한 장점 때문에 [[대한민국|한국]]의 구글이라 불리는 [[Naver|네이버]]와 [[Kakao|카카오]]가 [[IP]] ...",
         "서낭당": "서낭당은 [[대한민국|한국]]의 산간 마을에 흔히 볼 수 ...",
         "서울": "Seoul, the capital of [[대한민국|Korea]], has a fascinating history behind ...",
@@ -4911,6 +4913,13 @@ export const backlinks = {
     },
     "공강에서 보내는 공강 활용법": {
         "2016-06-24": "- [[공강에서 보내는 공강 활용법]]"
+    },
+    "일본인": {
+        "hn.cho.sh 개발 기록": "일본으로 진출하기 위해 오랜만에 [[일본인]] 친구들에게 이메일을 조금 돌렸다. 얘기를 ...",
+        "이완용": "> 이완용의 이런 말에서 우리는 [[일본인]]의 주구 노릇을 하면서 그가 겪는 ...",
+        "일본": "[[일본인]]",
+        "일본 과학기술 총력전": "... 거대 발전소의 전력은 공업 단지와 [[일본인]] 주택지에만 사용되었다.",
+        "헤이그 특사": "... 대한민국|한국 국민과 정부는 애원과 희망으로 [[일본인]]들을 환영하였다. 그 당시 [[한국인]]들은 일본이 ..."
     },
     "Color Palette": {
         "2022-06-14": "- [[Color Palette]]",
@@ -5703,6 +5712,13 @@ export const backlinks = {
         "강력하게 미약한 도구들": "현 [[Tools for Thought]] [[Software as a Service|SaaS]] 시장에는 ...",
         "뉴턴의 서신": "Mail|편지이야말로 뉴턴의 [[Tools for Thought|사고 도구]]였다."
     },
+    "일본어": {
+        "CJK": "... collective term for the Chinese, [[일본어|Japanese]], and [[한국어|Korean]] languages, which include ...",
+        "Haruki Murakami": "... January 12, 1949) is a [[일본어|Japanese]] writer. His novels, essays, and ...",
+        "이완용": "... 원한 것도 아니거니와 일제 치하 [[일본어]] 의무교육을 도입한 것으로 미루어 보아 ...",
+        "일본": "[[일본어]]",
+        "헤이그 특사": "... 설치되었다. 교육기관의 설치는 한국어를 근절시키고 [[일본어]]를 대신 가르치려는 것이며, [[한국인]]의 해외유학은 ..."
+    },
     "The Sudden Rise of Bondee": {
         "2023-02-12": "- [[The Sudden Rise of Bondee]]",
         "Did Bondee Really Suddenly Rise": "... a closer look into Bondee: [[The Sudden Rise of Bondee]]. But did it suddenly rise?",
@@ -6308,7 +6324,7 @@ export const backlinks = {
         "Downloading Any Recordings from Zoom": "- Both the [[United States of America|United States]] and the Republic of [[대한민국|Korea]] ...",
         "FinTech and Justice": "... ahead of cash. In the [[United States of America|US]], the use of money is ...",
         "Frames Per Second": "... was audio post in the [[United States of America|U.S.]]",
-        "IP is the new Real Estate": "... the yen appreciated against the [[United States of America|US]] dollar, Japanese investors reinvested in ...",
+        "IP is the new Real Estate": "... the yen appreciated against the [[United States of America|US]] dollar, 일본|Japanese investors reinvested in ...",
         "IRS": "... the revenue service for the [[United States of America|United States]] federal government, which is responsible ...",
         "Krafton Way": "... 과거에 B급 제품을 만들어왔습니다. 일본이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... potential Super App in the [[United States of America|US]], but this may be a ...",
@@ -7114,7 +7130,7 @@ export const backlinks = {
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute ...",
         "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
         "aaaa.coffee": "[[Someday]] [[Project]]. \"Buy me a coffee\" ...",
-        "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo Website Creator ...",
+        "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo website Creator ...",
         "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes ...",
         "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to ...",
         "linkflags.crx": "Packing Linkflags as Chrome Extensions [[Someday]] [[Project]]",
@@ -7351,12 +7367,14 @@ export const backlinks = {
         "Bing Chat for All Browsers in Japan": "Still very dominant from [[일본|Japan]]",
         "Finally, Apple Pay in Korea": "... standard in 대한민국|Korea, such as [[일본|Japan]]'s Suica. But they never succeeded.) ...",
         "Haruki Murakami": "... stories have been bestsellers in [[일본|Japan]] and internationally, with his work ...",
-        "IP is the new Real Estate": "... and sought investment opportunities outside [[일본|Japan]]. Real estate markets in global ...",
+        "IP is the new Real Estate": "... economic boom of the 1980s, [[일본|Japanese]] corporations and investors had a ...",
         "Krafton Way": "... 우리는 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States of America|미국]] 기업들을 ...",
         "Metadream": "... and data centers in Singapore, [[일본|Japan]], [[대한민국|Korea]], and the [[United States ...",
         "Pretendard의 아쉬운 점": "... 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
         "Ruby": "... by Yukihiro \"Matz\" Matsumoto in [[일본|Japan]]. Ruby (programming language)>)",
         "The Sudden Rise of Bondee": "... app, going crazy in 대한민국|Korea, [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 ...",
+        "The Zenly Playbook": "... on sub-group-led growths; for example, [[일본|Japanese]] students studying abroad at Taiwanese ...",
+        "hn.cho.sh 개발 기록": "... Browsers in Japan에서 알듯이 뭔가 [[일본]]에서 이런 프로덕트 반응이 잘 오는 ...",
         "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "지정학적 어려움으로 [[일본]]과 중국, 동남아에서 탈출하고자 모색하는 유럽과 ...",
         "경제 개발의 길목에서": "\"[[일본]]의 지도자들은 나라와 민족의 명운을 걸고 ...",
         "국가와 민족": "... 국가는 없죠. 설령 연방제가 아닌 [[일본]]조차도 국민의 삶에 가장 큰 영향을 ...",
@@ -7364,10 +7382,12 @@ export const backlinks = {
         "드디어, 한국 애플페이": "... 실패한 \"저스터치\"이다 (이때 저스터치가 성공했다면 [[일본]]의 스이카와 같이 예외적인 NFC 규격으로 ...",
         "새로운 부동산은 지적 재산이다": "[[일본]] 기업과 투자자들은 1980년대 [[Economy|경제]] 호황기에 ...",
         "슈퍼자판기": "[[일본]]의 잃어버린 몇십년을 한국은 이제서야 마주하고 ...",
+        "이완용": "... 독립 유지와 영토 보존을 위해서라는 [[일본]]의 정중한 약속을 믿고 일본과 동맹관계를 ...",
         "일본 과학기술 총력전": "... to 150 Years of Modern [[일본|Japan]]: The Bankruptcy of Science, Technology, ...",
         "젠리의 성공 공식": "... 관찰했다. 대만 대학에 유학 간 [[일본]] 학생들로부터 대만 전체로 앱이 퍼지는 ...",
         "한민족": "중국, United States of America|미국, [[일본]] 등에 많이 살고 있다.",
         "한민족의 동족상잔": "... of America|미국 흑인노예나 혹은 중국과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 점을 ...",
+        "헤이그 특사": "> 러일전쟁 당시 [[일본]]은 두 가지의 전쟁목적이 있다고 공언하였다. ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 ..."
     },
     "Treehouse": {
