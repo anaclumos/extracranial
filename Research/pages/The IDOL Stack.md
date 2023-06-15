@@ -37,9 +37,9 @@ slug: '/959D0A'
 #### Pro
 
 - Most resources
-- Good [[Internationalization|i18n]] support
+- ~~Good [[Internationalization|i18n]] support~~ turns out Next 13 removed it and introduced a more manual one
 
 #### Con
 
 - Need to set up the integration
-- Sometimes lack of a proper backend sucks
+- Sometimes lack of a proper back-end sucks
