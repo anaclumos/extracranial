@@ -4175,6 +4175,9 @@ export const backlinks = {
         "Conversational Generative AI as Search Engine": "- [[Search AI]]",
         "Generative AI": "- [[Search AI]]"
     },
+    "i18n with Redwood": {
+        "2023-06-15": "[[i18n with Redwood]]"
+    },
     "서울": {
         "2022-05-31": "... 전역으로 확대 (~22.07) - 두잇 [[서울]], 수도권 전역 확대 (22.07~22.12) - ...",
         "2022-08-28": "... Cloudflare Pages (~5m). Vercel has [[서울|Seoul]] region [[CDN]].",
@@ -6264,7 +6267,8 @@ export const backlinks = {
         "Intracranial": "  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for Chinese ...",
         "The IDOL Stack": "- Their [[Internationalization|i18n]] sucks. Especially setting up subpath ...",
         "WWDC23": "  - Accessibility|a11y, and [[Internationalization|i18n]] built-in",
-        "hn.cho.sh 개발 기록": "[[Internationalization|i18n]]을 Sitemap과 HTML Head `hreflang`으로 자동 ..."
+        "hn.cho.sh 개발 기록": "[[Internationalization|i18n]]을 Sitemap과 HTML Head `hreflang`으로 자동 ...",
+        "i18n with Redwood": "... an opinionated guide of implementing [[Internationalization]] with [[Redwood.js]]"
     },
     "Flamboyant": {
         "2023-05-03": "- [[Flamboyant]]"
@@ -7724,7 +7728,8 @@ export const backlinks = {
         "2023-05-26": "- [[Redwood.js]]",
         "2023-05-29": "- [[Redwood.js]]",
         "2023-06-10": "- [[Redwood.js]]",
-        "Meta Meta Framework": "- Meta Meta Framework: [[Redwood.js]], [[Keystone.js]], [[Refine (Framework)]]"
+        "Meta Meta Framework": "- Meta Meta Framework: [[Redwood.js]], [[Keystone.js]], [[Refine (Framework)]]",
+        "i18n with Redwood": "... guide of implementing Internationalization with [[Redwood.js]]"
     },
     "Unified Korea": {
         "Born of this Land - The Founding Story of Hyundai": "... to create an advanced and [[Unified Korea]]. No matter what, he was ...",
