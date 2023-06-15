@@ -6176,7 +6176,8 @@ export const backlinks = {
         "Real Exams": "- 1 [[Greedy Algorithm]]"
     },
     "Block Protocol": {
-        "2023-05-29": "- [[Block Protocol]]"
+        "2023-05-29": "- [[Block Protocol]]",
+        "Apple-like Block Interface": "[[Block Protocol]]"
     },
     "Superbrain": {
         "2023-03-08": "- [[Superbrain]]",
@@ -6349,6 +6350,7 @@ export const backlinks = {
         "2023-02-01": "- [[Apple-like Block Interface]]",
         "2023-02-02": "- [[Apple-like Block Interface]]",
         "2023-02-18": "- [[Apple-like Block Interface]]",
+        "2023-06-15": "- [[Apple-like Block Interface]]",
         "Aldehyde Landing Page 2023": "- [[Apple-like Block Interface]]"
     },
     "Toss Product Sans": {
