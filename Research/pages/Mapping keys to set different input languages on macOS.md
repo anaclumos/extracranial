@@ -66,7 +66,7 @@ slug: '/903D31'
 
 ## Configuring more languages
 
-- Add a [[JSON]] Property with your language of choice. The language identifier is likely some combination of [ISO 639](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/to/select-input-source/) and [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166) (i.e., [BCP 47](https://en.wikipedia.org/wiki/IETF_language_tag)).
+- Add a [[JSON]] Property with your language of choice. The language identifier is likely some combination of [ISO 639](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/to/select-input-source/) and [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166) (i.e., [[BCP 47]]).
 - [https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/to/select-input-source/](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/to/select-input-source/)
 
 ## Update Mar 7th, 2022
