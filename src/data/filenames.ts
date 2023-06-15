@@ -1547,6 +1547,7 @@ export const filenames = {
     "hn.cho.sh": "710931",
     "hn.cho.sh 개발 기록": "8E98AE",
     "http 없는 http 서버 만들기": "940821",
+    "i18n with Redwood": "F980C8",
     "iOS": "1AD652",
     "iOS Style Toggle in CSS": "DDE8E8",
     "iiframe": "5F349B",
