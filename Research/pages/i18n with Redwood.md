@@ -114,6 +114,10 @@ export default HomePage
 
 This will gently redirect if the lang property does not exist.
 
+```tsx
+<Head lang={i18n.}
+```
+
 ## Consideration
 
 Can we redirect by inserting the current navigator language?
