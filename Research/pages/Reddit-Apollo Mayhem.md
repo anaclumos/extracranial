@@ -31,14 +31,14 @@ slug: '/C59A99'
 
 ### [Apollo Back end just made public](https://old.reddit.com/r/apolloapp/comments/144l6se/apollo_backend_just_made_public_the_goal_of/)
 
-- The developer of Apollo, a Reddit app for iPhone, has made the code for its backend repository publicly available to demonstrate that Apollo does not scrape any data and solely relies on authenticated Reddit API requests.
+- The developer of Apollo, a Reddit app for iPhone, has made the code for its [[Back-end|backend]] repository publicly available to demonstrate that Apollo does not scrape any data and solely relies on authenticated Reddit API requests.
 - Apollo respects Reddit API rate limits, giving users an enhanced experience while conforming to the requirements set out by Reddit.
-- The release of the backend code is in keeping with the transparency the project has shown throughout.
+- The release of the [[Back-end|backend]] code is in keeping with the transparency the project has shown throughout.
 
 ### [Archive your Reddit data before it's too late](https://xavd.id/blog/post/archive-your-reddit-data/)
 
 - Upcoming changes to Reddit's API may cause some subreddits to go dark indefinitely and affect third-party clients.
-- The non-monetary value of Reddit as a knowledge store is priceless, and users can archive their data using a Python tool called Reddit-user-to-sqlite.
+- The non-monetary value of Reddit as a knowledge store is priceless, and users can [[Preservation of Data|archive]] their data using a Python tool called Reddit-user-to-sqlite.
 - The tool allows users to store structured and searchable data in a single file that they can use to perform full-text searches on their comments and posts without relying on Reddit's search functionality.
 
 ### [Shreddit is a Python program to remove all your Reddit comments](https://github.com/x89/Shreddit)
