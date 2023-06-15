@@ -2456,6 +2456,9 @@ export const backlinks = {
         "I travel the World Wide Web": "- [[In-house and Free Market]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-22 | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]  ..."
     },
+    "Ethnologue 200": {
+        "Project Linguine": "## Candidate 2. [[Ethnologue 200]]"
+    },
     "Handling files in Unix": {
         "Internetworking": "- [[Handling files in Unix]]"
     },
@@ -5585,11 +5588,13 @@ export const backlinks = {
     },
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
+        "Ethnologue 200": "... list usually is $249, but [[Grammarly]] had a copy internally.",
         "GNAR": "... all of the relevant data. [[Grammarly]] is trying to move away ...",
         "Grammarly AI-NLP Club": "... Natural Language Processing|NLP Club at [[Grammarly]].",
         "Grammarly Work Note": "... notes during my work at [[Grammarly]].",
         "Grammarly Work Note 2023-05-25": "... all of the relevant data. [[Grammarly]] is trying to move away ...",
         "Grammarly Work Note 2023-05-26": "... as an internal-facing product of [[Grammarly]], has many spaces to improve.",
+        "Grammarly Work Note 2023-06-01": "... is generally performed offline. Currently, [[Grammarly]] uses two different feature stores ...",
         "GrammarlyGO": "... of generative AI capabilities from [[Grammarly]]. It considers your context, preferences, ...",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
         "Manakin": "... is the infrastructure that runs [[Grammarly]]'s Experiment Service.",
