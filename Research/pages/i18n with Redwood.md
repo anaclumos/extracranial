@@ -124,3 +124,7 @@ For example, if we land on `website.com/about`,
 - redirect to `website.com/ko/about` for Korean users
 - That is, maintaining user location and path context.
 - One way is to use `window.location.pathname`
+
+## Reference
+
+- [Implementing Internationalization with Redwood.js - Get Help and Help Others - RedwoodJS Community](https://community.redwoodjs.com/t/implementing-internationalization-with-redwood-js/5004?u=anaclumos)
