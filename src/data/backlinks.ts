@@ -883,7 +883,7 @@ export const backlinks = {
         "Internet Protocol Stack": "- Network. [[IP]]. Routing Protocols. Handles Datagrams.",
         "Internetworking": "- [[IP]]",
         "Metadream": "... aggregator. Metadream also acquired the [[IP|intellectual property]] rights of the app True.ly ...",
-        "Preservation of Data": "- Find another [[IP]] without restrictions you are facing.",
+        "Preservation of Data": "- Find another [[IP]] without the restrictions you are ...",
         "Protocol Wars": "... was an early adopter of TCP/[[IP]]",
         "http 없는 http 서버 만들기": "http 자체도 기본적으로는 tcp/[[ip]] 프로토콜을 사용하기 때문에 `net` 모듈을 ...",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 ...",
@@ -1378,6 +1378,32 @@ export const backlinks = {
         "2023-01-30": "- [[Coding Tests]]",
         "2023-02-09": "- [[Coding Tests]]",
         "Leetcode": "- [[Coding Tests]]"
+    },
+    "Back-end": {
+        "2022-06-22": "... a Vercel-like experience for the [[Back-end|backend]] (FaaS.)",
+        "2022-12-28": "- [[Back-end|Backend]] as a Service: [[Supabase]] (past: ...",
+        "2023-02-02": "... Hermes uses Golang for the [[Back-end|backend]] and Ember.js for the front ...",
+        "2023-06-15": "In the end, [[Back-end]] is just a way of ...",
+        "CDN": "... We'll start creating a single [[Back-end|backend]] service and expand to a ...",
+        "ChatGPT": "... of the code for the [[Back-end|backend]] if I wanted it to:",
+        "Cookie": "... value that corresponds to the [[Back-end|backend]] [[database]].",
+        "Feature Flag": "... toggle the flag on the [[Back-end|backend]] side",
+        "Generalist": "... domains, such as front-end and [[back-end]] development, mobile app development, desktop ...",
+        "Ghost 테마를 자동 배포하는 방법": "... 말 그대로 머리가 없다는 뜻으로, [[Back-end|백엔드]]는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 ...",
+        "Grammarly Work Note 2023-05-26": "2. The Lack of Local [[Back-end]] Testings. The [[back-end]], written in ...",
+        "Grammarly Work Note 2023-05-31": "... interfaces are controlled by the [[back-end]] and gradually enabled throughout the ...",
+        "Inspiring Open Source Projects": "- bitwarden/server The core infrastructure [[Back-end|backend]] (API, database, [[Docker]], etc).",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... to an edge-served Front-end and [[back-end]] as edge-replicated simple data storage. ...",
+        "Now Page": "... I'd rather keep improving my [[back-end]] [[database]] work.\"",
+        "Old Fashioned Camera": "- [[Back-end|백엔드]]와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE ...",
+        "Reddit-Apollo Mayhem": "... made the code for its [[Back-end|backend]] repository publicly available to demonstrate ...",
+        "Redwood.js": "- For the [[back-end]], Redwood uses [[GraphQL]], a query ...",
+        "Refine (Framework)": "- [[Back-end|Backend]] (REST API, Supabase, Strapi, NestJS, ...",
+        "Render.com": "... meaning it does not support [[back-end]] services like Python, [[Java]], or ...",
+        "Supabase": "Supabase is an open-source [[Back-end|backend]]-as-a-service (BaaS) platform that simplifies application ...",
+        "The IDOL Stack": "... Sometimes lack of a proper [[back-end]] sucks",
+        "tRPC": "... packages and set up a [[Back-end|backend]] router. You can then define ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 사이드 렌더링이었다. 그때는 이것이 당연했다. [[Back-end|백엔드]]는 자바를 사용했다. 이후 마이크로 서비스 ..."
     },
     "Project Florence": {
         "2023-06-02": "- [[Project Florence]]"
@@ -2060,7 +2086,7 @@ export const backlinks = {
         "Next.js": "... their content in the client-side [[Web Browser|browser]], Next.js extends this functionality to ...",
         "Pensieve": "... as the intermediary bridge between [[web browser]] data stream (ephemeral) and long-term ...",
         "Porting a Chrome Extension to Firefox Add-on": "... Firefox are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and Firefox Add-on ...",
-        "Preservation of Data": "... and perhaps using a special [[Web Browser|browser]] session (or even a different ...",
+        "Preservation of Data": "... and perhaps using a particular [[web Browser|browser]] sessions (or even a different ...",
         "Proposal of Research 2023-01-10": "... and is used if the [[Web Browser|browser]] cannot display the picture. Alt ...",
         "Ruffle": "... content running safely in modern [[Web Browser|web browsers]] via [[Rust]] and [[WebAssembly]]",
         "Safari": "Safari is a [[web browser]] developed by [[Apple]] Inc. It ...",
@@ -2137,9 +2163,9 @@ export const backlinks = {
     },
     "Front-end": {
         "Cloudflare Pages": "- Cloudflare Edge [[Front-end]] Front-end",
-        "Ghost 테마를 자동 배포하는 방법": "... 머리가 없다는 뜻으로, 백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 ...",
+        "Ghost 테마를 자동 배포하는 방법": "... 머리가 없다는 뜻으로, Back-end|백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 ...",
         "HTMX": "- A [[Front-end]]",
-        "Old Fashioned Camera": "- 백엔드와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE Engine]]을 ...",
+        "Old Fashioned Camera": "- Back-end|백엔드와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE Engine]]을 ...",
         "React": "... is a free and open-source [[Front-end|front-end]] JavaScript library for building user ...",
         "Satori": "... Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "... is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris ...",
@@ -2439,7 +2465,7 @@ export const backlinks = {
     },
     "Gaussian": {
         "2023-03-07": "- [[Gaussian]]",
-        "Gaussian Distribution": "The [[Gaussian]] distribution, also known as the ...",
+        "Gaussian Distribution": "The [[Gaussian]] [[distribution]], also known as the ...",
         "Gaussian Integral": "The [[Gaussian]] integral is the integral of ...",
         "Standard Normal": "... standard normal distribution or the [[Gaussian]] distribution with mean 0 and ..."
     },
@@ -2683,7 +2709,8 @@ export const backlinks = {
         "2022-11-07": "- [[Text Graphics]]"
     },
     "Preservation of Data": {
-        "2022-10-18": "- [[Preservation of Data]]"
+        "2022-10-18": "- [[Preservation of Data]]",
+        "Reddit-Apollo Mayhem": "... is priceless, and users can [[Preservation of Data|archive]] their data using a Python ..."
     },
     "Antifragile": {
         "Antifragily": "In an [[antifragile]] manner. [[anti]]fragily",
@@ -3802,6 +3829,7 @@ export const backlinks = {
     },
     "Write Once Run Everywhere": {
         "Dioxus": "[[Write Once Run Everywhere]]",
+        "Imagining WebNPU API": "... for developers, as they can [[Write Once Run Everywhere]].",
         "WebNPU API를 상상하다": "... 필요가 없다. WebNPU는 또한 개발자들이 [[Write Once Run Everywhere]]를 이루어주기 때문에 개발 프로세스를 단순화할 ..."
     },
     "Chrome": {
@@ -4692,7 +4720,7 @@ export const backlinks = {
         "2023-01-13": "- [[Edge]]",
         "2023-04-21": "- [[Edge]]",
         "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-end]] [[Front-end]]",
-        "Letter to Mr. Matt Rickard on 2022-12-21": "... could be abstracted to an [[edge]]-served Front-end and back-end as edge-replicated ...",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... could be abstracted to an [[edge]]-served Front-end and [[back-end]] as edge-replicated ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... Economy, Closed vs. (fairly) Open, [[Edge]]-first [[AI]] vs. Cloud-first [[AI]], etc.",
         "Satori": "... existing solutions by using Vercel [[Edge]] Functions, [[WebAssembly]], and a brand ...",
         "The Architecture of Mastodon": "... hard to serve at the [[edge]]. [[CDN]] can host static assets, ...",
@@ -4707,7 +4735,7 @@ export const backlinks = {
         "Create React App": "... due to its lack of [[Server-side Rendering]], it is now discouraged to ...",
         "Next.js": "... enabling React-based web applications with [[server-side rendering]] and generating static websites. React ...",
         "React": "... whose flagship feature is not [[Server-side Rendering|SSR]], but rather the abstraction of ...",
-        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 해도 PHP를 주로 사용했다. 전부 [[Server-side Rendering|서버 사이드 렌더링]]이었다. 그때는 이것이 당연했다. 백엔드는 자바를 ..."
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 해도 PHP를 주로 사용했다. 전부 [[Server-side Rendering|서버 사이드 렌더링]]이었다. 그때는 이것이 당연했다. [[Back-end|백엔드]]는 자바를 ..."
     },
     "WorkerDOM": {
         "2022-06-14": "...  - 이 세부 전략으로 [[WorkerDOM]]을 쓸 수도 있고, 고쳐서 쓸 ...",
@@ -4774,7 +4802,7 @@ export const backlinks = {
         "Apple Vision Pro": "... the Apple Vision Pro, a [[Spatial Computer]] that seamlessly combines digital content ..."
     },
     "Vercel": {
-        "2022-06-22": "Deno envisions a [[Vercel]]-like experience for the backend (FaaS.)",
+        "2022-06-22": "Deno envisions a [[Vercel]]-like experience for the [[Back-end|backend]] (FaaS.)",
         "2022-07-10": "- [[Vercel]] hid the compilation process with ...",
         "2022-08-28": "... both used Cloudflare Pages and [[Vercel]] and concluded that Vercel is ...",
         "2022-09-30": "- [[Vercel]] Serving millions of users on ...",
@@ -5236,7 +5264,7 @@ export const backlinks = {
         "Memory Wall": "  - Improve [[Throughput]]"
     },
     "Supabase": {
-        "2022-12-28": "- Backend as a Service: [[Supabase]] (past: Firebase)",
+        "2022-12-28": "- Back-end|Backend as a Service: [[Supabase]] (past: Firebase)",
         "2023-05-04": "- [[Supabase]]",
         "henrymakesapps": "4.  [[Supabase]]: Offers an easy-to-use [[database]] with ...",
         "hn.cho.sh 개발 기록": "... starter template for Next.js and [[Supabase]] 살펴보기"
@@ -5339,7 +5367,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "... WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the ...",
         "IntelliJ": "... development environment (IDE) written in [[Java]] for developing computer software written ...",
         "Render.com": "... Ruby, PHP, Python, Node, and [[Java]].",
-        "Write Once Run Everywhere": "... the cross-platform benefits of the [[Java]] language. Ideally, a Java program ...",
+        "Write Once Run Everywhere": "... the cross-platform benefits of the [[Java]] language. Ideally, a Java programs ...",
         "하늘땅사람 개발 기록": "... 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "Habbo Hotel": {
@@ -5573,7 +5601,7 @@ export const backlinks = {
         "Cube": "- [[FIRE Engine]]",
         "FIRE": "- [[FIRE Engine]]",
         "Intracranial": "- [[FIRE Engine]]",
-        "Old Fashioned Camera": "... 백엔드와 Front-end|프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임"
+        "Old Fashioned Camera": "... Back-end|백엔드와 Front-end|프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임"
     },
     "Decoy Effect": {
         "2022-11-08": "- [[Decoy Effect]]",
@@ -6836,6 +6864,10 @@ export const backlinks = {
         "2023-05-25": "- [[Grammarly Work Note 2023-05-25]]"
     },
     "Distribution": {
+        "Cauchy": "The Cauchy [[distribution]] is a continuous [[probability]] distribution ...",
+        "Gaussian Distribution": "The Gaussian [[distribution]], also known as the normal ...",
+        "Normal Tables": "... associated with the standard normal [[distribution]]. The table lists values of ...",
+        "Poisson Approximation": "approximates binomial [[distribution]].",
         "Probability": "- [[Distribution]]"
     },
     "Fediverse": {
@@ -6930,7 +6962,7 @@ export const backlinks = {
         "CDN": "... will design uses: Nginx, Lua, [[docker]], docker-compose, Prometheus, grafana, and wrk.",
         "Cloud-Native": "... automation using tools like Kubernetes, [[Docker]], and Terraform.",
         "How to Build Software like an SRE": "- use [[Docker]]",
-        "Inspiring Open Source Projects": "... core infrastructure backend (API, database, [[Docker]], etc).",
+        "Inspiring Open Source Projects": "... core infrastructure Back-end|backend (API, database, [[Docker]], etc).",
         "Render.com": "... programming languages, and has robust [[Docker]] support. good scalability features. Free ..."
     },
     "AI는 고가 노동부터 점령한다": {
@@ -8168,7 +8200,7 @@ export const backlinks = {
         "2022-12-28": "- SQL [[Database]]: SQLite (Past: PostgreSQL)",
         "2023-02-02": "... end. It uses a PostgreSQL [[database]] for storage and Algolia to ...",
         "AI는 고가 노동부터 점령한다": "... 딱지 위반)로 시작한다. 하지만 점차 [[Database|데이터베이스]]화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] ...",
-        "Cookie": "... that corresponds to the backend [[database]].",
+        "Cookie": "... that corresponds to the Back-end|backend [[database]].",
         "Database vs Datalake": "## [[Database]]:",
         "Digital Bookmarks for Physical Books": "... to collect it as a [[database]] on your phone? Reference: Why ...",
         "FIRE Engine": "... has turned into a colossal [[database]] of everything on the internet",
@@ -8179,12 +8211,12 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-11-28": "... maybe image is stored in [[Database|DB]])",
         "Link Coefficient": "Given a [[database]], how interconnected is the database?",
         "Now Page": "... rather keep improving my back-end [[database]] work.\"",
-        "Preservation of Data": "... sometimes curl, and a MySQL [[database]] to store the results in.",
+        "Preservation of Data": "... scripts, sometimes curl, and MySQL [[database]] to store the results.",
         "Prisma": "Prisma is an open-source [[database]] toolkit developed to make it ...",
         "Proposal of Research 2023-01-10": "... the pixel combinations on the [[database]]. So, I explored clamping the ...",
         "React": "... functionality from UIUX|UI to the [[database]], with extra features such as ...",
         "Redwood.js": "... (ORM) solution to manage the [[database]] layer. Prisma helps developers build ...",
-        "Render.com": "... backend-intensive tasks such as migrating [[database]] data in bulk.",
+        "Render.com": "... Back-end|backend-intensive tasks such as migrating [[database]] data in bulk.",
         "Supabase": "... utilizes PostgreSQL as its core [[database]] engine, providing developers with a ...",
         "Tech Now Pay Later": "... used TXT files as its \"[[database]]\".",
         "Tools Must Vanish": "... across your filesystem, Dropbox, and [[database]] rows in six different proprietary ...",

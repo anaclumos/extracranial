@@ -21,7 +21,7 @@ $$
 n \gg 1 ~\text{and} ~ p \ll 1
 $$
 
-approximates binomial distribution.
+approximates binomial [[distribution]].
 
 $$
 b \rightarrow p \iff n \gg 1 ~ \& ~ p \ll 1 ~ \& ~ \lambda = np

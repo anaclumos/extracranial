@@ -10,4 +10,4 @@ aliases: ['Content Delivery Network']
 
 - CDN Up and Running
 - This repo aims to build a body of knowledge on how CDNs work by coding one from "scratch". The CDN we will design uses: Nginx, Lua, [[docker]], [[docker]]-compose, Prometheus, grafana, and wrk.
-- We'll start creating a single backend service and expand to a multi-node, latency-simulated, observable, and testable CDN. In each section, there are discussions regarding the challenges and trade-offs of building/managing/operating a CDN
+- We'll start creating a single [[Back-end|backend]] service and expand to a multi-node, latency-simulated, observable, and testable CDN. In each section, there are discussions regarding the challenges and trade-offs of building/managing/operating a CDN

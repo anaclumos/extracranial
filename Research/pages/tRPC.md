@@ -11,4 +11,4 @@ tRPC provides full static type safety and auto-completion on the client for inpu
 
 RPC (Remote Procedure Call) is a way of calling functions on one computer (the server) from another computer (the client). tRPC allows you to call functions and receive responses without considering implementation details like [[HTTP]]/REST.
 
-To start with RPC, you'll need to install the necessary packages and set up a backend router. You can then define your API procedures (queries, mutations, and subscriptions) and serve the API using an adapter. Finally, you can use the RPC client to interact with the API on the client side, leveraging complete type safety and auto-completion.
+To start with RPC, you'll need to install the necessary packages and set up a [[Back-end|backend]] router. You can then define your API procedures (queries, mutations, and subscriptions) and serve the API using an adapter. Finally, you can use the RPC client to interact with the API on the client side, leveraging complete type safety and auto-completion.
