@@ -70,7 +70,7 @@ slug: '/C1CF90'
 | zh-HK        | Chinese    | Hond Kong          | Hong Kong, traditional characters                       |
 | zh-TW        | Chinese    | Taiwan             | Taiwan, traditional characters                          |
 
-## Candidate 2. Ethnologue 200
+## Candidate 2. [[Ethnologue 200]]
 
 - Pro: Super-maximalist; no one will make requests now
 - Con: Some locale variants are missing, such as Taiwanese

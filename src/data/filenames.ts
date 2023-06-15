@@ -722,6 +722,7 @@ export const filenames = {
     "Engine Equation": "39BFED",
     "Entropy": "A796F1.",
     "Ethereum RPC as a Service": "B03A6A",
+    "Ethnologue 200": "8C04B8",
     "Eventually, Diligent Immatures build the Future": "8C1A00",
     "Evergreen notes": "B0B79F",
     "Everyprompt": "F4C6F5",
