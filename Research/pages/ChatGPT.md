@@ -41,4 +41,4 @@ slug: '/85E9E7'
 
 ### [Using ChatGPT As a Co-Founder](https://www.atomic14.com/2022/12/05/using-chatgpt-as-a-co-founder.html)
 
-- It's pretty impressive stuff, some of it is a bit overly verbose and a bit generic, but I could probably drill into the answers and get more detail. It would probably generate most of the code for the backend if I wanted it to:
+- It's pretty impressive stuff, some of it is a bit overly verbose and a bit generic, but I could probably drill into the answers and get more detail. It would probably generate most of the code for the [[Back-end|backend]] if I wanted it to:

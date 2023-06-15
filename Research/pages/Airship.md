@@ -4,7 +4,7 @@ slug: '/58C46D'
 aliases: ['비행선', 'Hindenburg', 'Zeppelin', '제플린', '비행선', 'Dirigible', 'Blimp']
 ---
 
-An airship, also known as a dirigible or blimp, is a type of lighter-than-air aircraft that can be steered and propelled through the air using rudders and propellers, or other thrust mechanisms. Unlike aerodynamic aircraft such as airplanes and helicopters, airships are lifted off the ground by lighter gases, such as helium or hydrogen. Airships were famous in the early 20th century before the development of large airplanes and helicopters. They were often used for long-distance travel, cargo transport, and military surveillance.
+An airship, also known as a dirigible or blimp, is a type of lighter-than-air aircraft that can be steered and propelled through the air using rudders and propellers or other thrust mechanisms. Unlike aerodynamic aircraft such as airplanes and helicopters, airships are lifted off the ground by lighter gases, such as helium or hydrogen. Airships were famous in the early 20th century before the development of large airplanes and helicopters. They were often used for long-distance travel, cargo transport, and military surveillance.
 
 There are three main types of airships:
 

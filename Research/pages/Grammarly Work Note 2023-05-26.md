@@ -6,7 +6,7 @@ slug: '/17D18B'
 [[Manakin]], as an internal-facing product of [[Grammarly]], has many spaces to improve.
 
 1. **Outdated Node and React**. [[Manakin]] runs on [[Node.js]] 16 with [[Create React App]]. [[Node.js]] 16 sunsets on September of 2023 and [[Create React App|CRA]] is already discouraged from the [[React]] team.
-2. **The Lack of Local Back-end Testings**. The back-end, written in [[Spring Boot]], does not have a local testing method.
+2. **The Lack of Local [[Back-end]] Testings**. The [[back-end]], written in [[Spring Boot]], does not have a local testing method.
 3. **The Lack of Unit Testings**. A lack of testing suites can lead to future fiascos.
 4. **Inconsistent Style Enforcements**. Some files do not have style enforced, discovered by running `npx prettier --write`. On par with [[Prettier]], we could link [[ESLint]] and make it automatically check before every [[Pull Request]] with tools like [[Husky]].
 5. **Ad-hoc [[Styled Components]]**. While we have a `components` folder, many elements are designed ad-hoc with [[Styled Components]].
