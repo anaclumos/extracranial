@@ -5,6 +5,8 @@ slug: '/A18D7B'
 
 [[UIUX]]
 
+[[Block Protocol]]
+
 ![[398CA8.png]]
 
 ## [[Amie]]
