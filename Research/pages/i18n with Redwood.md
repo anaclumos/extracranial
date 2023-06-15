@@ -112,11 +112,17 @@ const HomePage = ({ lang }) => {
 export default HomePage
 ```
 
+## Headers
+
 This will gently redirect if the lang property does not exist.
 
 ```tsx
-<Head lang={i18n.}
+<Head lang={/* Current Language*/}>// hreflang to others, using allowedLanguageList</Head>
 ```
+
+## Sitemap.xml
+
+... Should be generated accordingly
 
 ## Consideration
 
