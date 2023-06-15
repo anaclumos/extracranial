@@ -931,6 +931,9 @@ export const backlinks = {
         "2022-09-17": "  - [[Adding Space in Android]]",
         "Android": "- [[Adding Space in Android]]"
     },
+    "Project Linguine": {
+        "2023-06-15": "- [[Project Linguine]]"
+    },
     "Palantir": {
         "2022-10-21": "- [[Palantir]]",
         "Palantir Apollo": "> [[Palantir]] Apollo is the operating system ...",
@@ -4176,7 +4179,7 @@ export const backlinks = {
         "Generative AI": "- [[Search AI]]"
     },
     "i18n with Redwood": {
-        "2023-06-15": "[[i18n with Redwood]]"
+        "2023-06-15": "- [[i18n with Redwood]]"
     },
     "서울": {
         "2022-05-31": "... 전역으로 확대 (~22.07) - 두잇 [[서울]], 수도권 전역 확대 (22.07~22.12) - ...",
@@ -4318,6 +4321,7 @@ export const backlinks = {
         "2023-04-17": "- [[Sprachraum]]",
         "Across the Sprachraums": "- Inter-[[sprachraum]].",
         "Lingua Franca": "- [[Sprachraum]]",
+        "Project Linguine": "... Recipe) to cover all linguistic [[Sprachraum]]. That is,",
         "hn.cho.sh 개발 기록": "... 네트워크의 필요성을 더더욱 절실히 느꼈다. [[Sprachraum]]에 구애받지 않는 [[Across the Sprachraums]]."
     },
     "XTML": {
@@ -4355,6 +4359,10 @@ export const backlinks = {
     "Lazy": {
         "2022-11-11": "- [[Lazy]]: [[Tools for Thought]]",
         "Data Capturers": "### [[Lazy]]"
+    },
+    "BCP 47": {
+        "Mapping keys to set different input languages on macOS": "... 639 and ISO 3166 (i.e., [[BCP 47]]).",
+        "Project Linguine": "## Candidate 1. [[BCP 47]]"
     },
     "Conditional Compilation": {
         "2023-01-25": "- [[Conditional Compilation]]"
