@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/959D0A'
 ---
 
-## IDOL — _Indie Developers' Opinionated Libraries_
+## [[K-Pop|Idol]] — _Indie Developers' Opinionated Libraries_
 
 - Huge focus on an international-first approach
   - HTTP content negotiation
@@ -19,6 +19,7 @@ slug: '/959D0A'
 ### Approach 1
 
 - Redwood, Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], GitHub CI/CD
+- [[i18n with Redwood]]
 
 #### Pro
 

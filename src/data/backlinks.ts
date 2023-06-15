@@ -4179,7 +4179,8 @@ export const backlinks = {
         "Generative AI": "- [[Search AI]]"
     },
     "i18n with Redwood": {
-        "2023-06-15": "- [[i18n with Redwood]]"
+        "2023-06-15": "- [[i18n with Redwood]]",
+        "The IDOL Stack": "- [[i18n with Redwood]]"
     },
     "서울": {
         "2022-05-31": "... 전역으로 확대 (~22.07) - 두잇 [[서울]], 수도권 전역 확대 (22.07~22.12) - ...",
@@ -5657,6 +5658,7 @@ export const backlinks = {
         "CELLO": "- [[K-Pop|케이팝]]",
         "Person 960D1D": "- problems with the [[K-Pop]] industry (how unfair the system ...",
         "Spirits do not Inherit": "... example, I send you guys [[K-pop]] videos without trying, and I ...",
+        "The IDOL Stack": "## [[K-Pop|Idol]] — Indie Developers' Opinionated Libraries",
         "개성은 쟁취하는 것": "... 들어, 저는 여러분들께 시도때도 없이 [[K-Pop|케이팝]] 영상을 보내곤 합니다.",
         "퍼블리시티권": "... 홈마는 좋은 사진을 생산하기 위해, [[K-Pop|아이돌]] 스케줄 정보를 얻어야 하고, 발품을 ...",
         "프로젝트 어덕행덕": "놀랍게도 [[K-Pop|아이돌]] 팬들은 제발 내 돈을 가져가 ..."
