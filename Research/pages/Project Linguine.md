@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/C1CF90'
 ---
 
-Project Linguine is an initiative to define a deterministic list (i.e., the Linguine Recipe) to cover all linguistic [[Sprachraum]]. That is,
+[[Project]] Linguine is an initiative to define a deterministic list (i.e., the **_Linguine Recipe_**) to cover all linguistic [[Sprachraum]]. That is,
 
 > How many people around the world do not speak any of the languages defined in Linguine?
 
