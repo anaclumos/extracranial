@@ -615,6 +615,9 @@ export const backlinks = {
     "Paracosm": {
         "Text-based Tools for Thought": "### [[Paracosm]]"
     },
+    "Datahouse": {
+        "Grammarly Work Note 2023-06-02": "... query the data in our [[Datahouse]] and index metadata. Our system ..."
+    },
     "The Library of Babel": {
         "2022-11-24": "- [[The Library of Babel]]",
         "Information amongst Data": "[[The Library of Babel]] holds all data.",
@@ -2708,6 +2711,10 @@ export const backlinks = {
         "Service Shimming": "In computer programming, [[Shim|shimming]] is a method of transparently ...",
         "서비스 시밍": "[[Shim]]은 컴퓨터 프로그래밍에서 요청을 가로채서 변조해서 ..."
     },
+    "Grammarly Work Note 2023-06-03": {
+        "2023-06-03": "[[Grammarly Work Note 2023-06-03]]",
+        "2023-06-16": "[[Grammarly Work Note 2023-06-03]]"
+    },
     "Cut the Fat": {
         "The Dilemmas of Technopreneur": "Essentially, they can [[Cut the Fat]]."
     },
@@ -2756,6 +2763,10 @@ export const backlinks = {
     },
     "국제 계열과 계열 변경 이야기": {
         "2016-10-22": "- [[국제 계열과 계열 변경 이야기]]"
+    },
+    "Grammarly Work Note 2023-06-13": {
+        "2023-06-13": "[[Grammarly Work Note 2023-06-13]]",
+        "2023-06-16": "[[Grammarly Work Note 2023-06-13]]"
     },
     "Atomic Notes": {
         "Andy Matuschak": "... a new vision of online [[Atomic Notes|Zettelkasten]].",
@@ -3056,6 +3067,10 @@ export const backlinks = {
     "1290 Convert Binary Number in a Linked List to Integer": {
         "2022-09-25": "- [[1290 Convert Binary Number in a Linked List to Integer]]",
         "Coding Tests": "- [[1290 Convert Binary Number in a Linked List to Integer]]"
+    },
+    "Grammarly Work Note 2023-06-07": {
+        "2023-06-07": "- [[Grammarly Work Note 2023-06-07]]",
+        "2023-06-16": "[[Grammarly Work Note 2023-06-07]]"
     },
     "Screenshot as an API": {
         "2022-10-03": "- Moved to [[Screenshot as an API]]",
@@ -4291,7 +4306,8 @@ export const backlinks = {
         "2022-10-19": "- [[Starlink]]"
     },
     "Grammarly Work Note 2023-06-02": {
-        "2023-06-02": "- [[Grammarly Work Note 2023-06-02]]"
+        "2023-06-02": "- [[Grammarly Work Note 2023-06-02]]",
+        "2023-06-16": "[[Grammarly Work Note 2023-06-02]]"
     },
     "Brian Lovin": {
         "2023-05-29": "- [[Brian Lovin]]"
@@ -6266,7 +6282,8 @@ export const backlinks = {
     },
     "Manakin": {
         "Grammarly Work Note 2023-05-25": "- [[Manakin]] has 4 versions: `Dev`, `QA`, ...",
-        "Grammarly Work Note 2023-05-26": "[[Manakin]], as an internal-facing product of ..."
+        "Grammarly Work Note 2023-05-26": "[[Manakin]], as an internal-facing product of ...",
+        "Project Padme": "... an interaction effects calculator for [[Manakin]]."
     },
     "Useful ChatGPT Prompts": {
         "2023-04-10": "- [[Useful ChatGPT Prompts]]"
@@ -8188,7 +8205,8 @@ export const backlinks = {
     },
     "Datalake": {
         "Database vs Datalake": "## [[Datalake]]:",
-        "Datahouse": "... as a control layer for [[Datalake]], allowing for centralized management of ..."
+        "Datahouse": "... as a control layer for [[Datalake]], allowing for centralized management of ...",
+        "Grammarly Work Note 2023-06-02": "... use the concept of a [[Datalake]] for ingesting data and defining ..."
     },
     "Biden-Harris Administration National Security Strategy 2022": {
         "2023-02-15": "- [[Biden-Harris Administration National Security Strategy 2022]]"
@@ -8229,6 +8247,7 @@ export const backlinks = {
         "FIRE Engine": "... has turned into a colossal [[database]] of everything on the internet",
         "Generalist": "... tasks like authentication, querying a [[database]], setting up a developer environment, ...",
         "Generative Databases": "... Generative AIs, can we think [[Database]] as Gen [[AI]] models instead ...",
+        "Grammarly Work Note 2023-06-02": "... the use of a Document [[Database|DB]], which houses 6000 different tables. ...",
         "HEEx": "... of dynamic data, such as [[database]] queries or API responses, directly ...",
         "Higher-Level Languages and Their Speeds": "- Don't use the [[database]] when avoidable, which is always ...",
         "Letter to Mr. Matt Rickard on 2022-11-28": "... maybe image is stored in [[Database|DB]])",
@@ -8542,6 +8561,9 @@ export const backlinks = {
     },
     "17D859.png": {
         "2022-08-04": "![[17D859.png]]"
+    },
+    "Grammarly Work Note 2023-06-08": {
+        "2023-06-16": "[[Grammarly Work Note 2023-06-08]]"
     },
     "145F1C.png": {
         "2023-03-19": "![[145F1C.png]]",
