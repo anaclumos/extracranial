@@ -53,7 +53,7 @@ article a[href^='http']::before {
 }
 
 article a[href^='http']::after {
-  content: ' ↗';
+  content: '↗';
 }
 
 article a[href*='cho.sh']::before {
