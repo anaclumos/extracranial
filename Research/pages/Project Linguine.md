@@ -75,35 +75,35 @@ slug: '/C1CF90'
 - Pro: Super-maximalist; no one will make requests now
 - Con: Some locale variants are missing, such as Taiwanese
 
-| ISO_639 | Language_Name           | Uninverted_Name        | L1_Users  | All_Users  |
-| ------- | ----------------------- | ---------------------- | --------- | ---------- |
-| eng     | English                 | English                | 379007140 | 1132366680 |
-| cmn     | Chinese, Mandarin       | Mandarin Chinese       | 917868640 | 1116596640 |
-| hin     | Hindi                   | Hindi                  | 341208640 | 615475540  |
-| spa     | Spanish                 | Spanish                | 460093030 | 534335730  |
-| fra     | French                  | French                 | 77177210  | 279821930  |
-| arb     | Arabic, Standard        | Standard Arabic        | 0         | 273989700  |
-| ben     | Bengali                 | Bengali                | 228289600 | 265042480  |
-| rus     | Russian                 | Russian                | 153746530 | 258227760  |
-| por     | Portuguese              | Portuguese             | 220762620 | 234168620  |
-| ind     | Indonesian              | Indonesian             | 43364600  | 198733600  |
-| urd     | Urdu                    | Urdu                   | 68622980  | 170208780  |
-| deu     | German, Standard        | Standard German        | 76090520  | 132176520  |
-| jpn     | Japanese                | Japanese               | 128229330 | 128350830  |
-| swh     | Swahili                 | Swahili                | 16027740  | 98327740   |
-| mar     | Marathi                 | Marathi                | 83112800  | 95312800   |
-| tel     | Telugu                  | Telugu                 | 82040340  | 93040340   |
-| pnb     | Punjabi, Western        | Western Punjabi        | 92725700  | 92725700   |
-| wuu     | Chinese, Wu             | Wu Chinese             | 81437890  | 81501290   |
-| tam     | Tamil                   | Tamil                  | 75039130  | 80989130   |
-| tur     | Turkish                 | Turkish                | 79399060  | 79779360   |
-| kor     | Korean                  | Korean                 | 77264890  | 77264890   |
-| vie     | Vietnamese              | Vietnamese             | 75950770  | 76950770   |
-| yue     | Chinese, Yue            | Yue Chinese            | 73136610  | 73538610   |
-| jav     | Javanese                | Javanese               | 68277600  | 68277600   |
-| ita     | Italian                 | Italian                | 64844820  | 67894920   |
-| arz     | Arabic, Egyptian Spoken | Egyptian Spoken Arabic | 64618100  | 64618100   |
-| hau     | Hausa                   | Hausa                  | 43928100  | 63428100   |
-| tha     | Thai                    | Thai                   | 20657660  | 60657660   |
-| guj     | Gujarati                | Gujarati               | 56408970  | 60588970   |
-| ...     | ...                     | ...                    | ...       | ...        |
+| ISO 639 | Language Name           | Uninverted Name        | L1 Users    | All Users     |
+| ------- | ----------------------- | ---------------------- | ----------- | ------------- |
+| eng     | English                 | English                | 379,007,140 | 1,132,366,680 |
+| cmn     | Chinese, Mandarin       | Mandarin Chinese       | 917,868,640 | 1,116,596,640 |
+| hin     | Hindi                   | Hindi                  | 341,208,640 | 615,475,540   |
+| spa     | Spanish                 | Spanish                | 460,093,030 | 534,335,730   |
+| fra     | French                  | French                 | 77,177,210  | 279,821,930   |
+| arb     | Arabic, Standard        | Standard Arabic        | -           | 273,989,700   |
+| ben     | Bengali                 | Bengali                | 228,289,600 | 265,042,480   |
+| rus     | Russian                 | Russian                | 153,746,530 | 258,227,760   |
+| por     | Portuguese              | Portuguese             | 220,762,620 | 234,168,620   |
+| ind     | Indonesian              | Indonesian             | 43,364,600  | 198,733,600   |
+| urd     | Urdu                    | Urdu                   | 68,622,980  | 170,208,780   |
+| deu     | German, Standard        | Standard German        | 76,090,520  | 132,176,520   |
+| jpn     | Japanese                | Japanese               | 128,229,330 | 128,350,830   |
+| swh     | Swahili                 | Swahili                | 16,027,740  | 98,327,740    |
+| mar     | Marathi                 | Marathi                | 83,112,800  | 95,312,800    |
+| tel     | Telugu                  | Telugu                 | 82,040,340  | 93,040,340    |
+| pnb     | Punjabi, Western        | Western Punjabi        | 92,725,700  | 92,725,700    |
+| wuu     | Chinese, Wu             | Wu Chinese             | 81,437,890  | 81,501,290    |
+| tam     | Tamil                   | Tamil                  | 75,039,130  | 80,989,130    |
+| tur     | Turkish                 | Turkish                | 79,399,060  | 79,779,360    |
+| kor     | Korean                  | Korean                 | 77,264,890  | 77,264,890    |
+| vie     | Vietnamese              | Vietnamese             | 75,950,770  | 76,950,770    |
+| yue     | Chinese, Yue            | Yue Chinese            | 73,136,610  | 73,538,610    |
+| jav     | Javanese                | Javanese               | 68,277,600  | 68,277,600    |
+| ita     | Italian                 | Italian                | 64,844,820  | 67,894,920    |
+| arz     | Arabic, Egyptian Spoken | Egyptian Spoken Arabic | 64,618,100  | 64,618,100    |
+| hau     | Hausa                   | Hausa                  | 43,928,100  | 63,428,100    |
+| tha     | Thai                    | Thai                   | 20,657,660  | 60,657,660    |
+| guj     | Gujarati                | Gujarati               | 56,408,970  | 60,588,970    |
+| ...     | ...                     | ...                    | ...         | ...           |
