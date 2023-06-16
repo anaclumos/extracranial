@@ -21,6 +21,13 @@ h6 {
   text-wrap: balance;
 }
 
+thead,
+tbody {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
 .theme-code-block,
 pre,
 code {

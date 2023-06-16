@@ -2713,7 +2713,7 @@ export const backlinks = {
     },
     "Grammarly Work Note 2023-06-03": {
         "2023-06-03": "[[Grammarly Work Note 2023-06-03]]",
-        "2023-06-16": "[[Grammarly Work Note 2023-06-03]]"
+        "2023-06-16": "- [[Grammarly Work Note 2023-06-03]]"
     },
     "Cut the Fat": {
         "The Dilemmas of Technopreneur": "Essentially, they can [[Cut the Fat]]."
@@ -2766,7 +2766,7 @@ export const backlinks = {
     },
     "Grammarly Work Note 2023-06-13": {
         "2023-06-13": "[[Grammarly Work Note 2023-06-13]]",
-        "2023-06-16": "[[Grammarly Work Note 2023-06-13]]"
+        "2023-06-16": "- [[Grammarly Work Note 2023-06-13]]"
     },
     "Atomic Notes": {
         "Andy Matuschak": "... a new vision of online [[Atomic Notes|Zettelkasten]].",
@@ -3070,7 +3070,7 @@ export const backlinks = {
     },
     "Grammarly Work Note 2023-06-07": {
         "2023-06-07": "- [[Grammarly Work Note 2023-06-07]]",
-        "2023-06-16": "[[Grammarly Work Note 2023-06-07]]"
+        "2023-06-16": "- [[Grammarly Work Note 2023-06-07]]"
     },
     "Screenshot as an API": {
         "2022-10-03": "- Moved to [[Screenshot as an API]]",
@@ -4307,7 +4307,7 @@ export const backlinks = {
     },
     "Grammarly Work Note 2023-06-02": {
         "2023-06-02": "- [[Grammarly Work Note 2023-06-02]]",
-        "2023-06-16": "[[Grammarly Work Note 2023-06-02]]"
+        "2023-06-16": "- [[Grammarly Work Note 2023-06-02]]"
     },
     "Brian Lovin": {
         "2023-05-29": "- [[Brian Lovin]]"
@@ -8561,9 +8561,6 @@ export const backlinks = {
     },
     "17D859.png": {
         "2022-08-04": "![[17D859.png]]"
-    },
-    "Grammarly Work Note 2023-06-08": {
-        "2023-06-16": "[[Grammarly Work Note 2023-06-08]]"
     },
     "145F1C.png": {
         "2023-03-19": "![[145F1C.png]]",
