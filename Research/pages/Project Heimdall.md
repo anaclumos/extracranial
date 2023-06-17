@@ -77,3 +77,7 @@ Your content needs to be either:
 4.  Enrich data and store it in an SQLite file with a cronjob
 5.  Send alerts with another cronjob to Twist API or Telegram API
 6.  Then add chatGPT in the mix and ask for a rating between 0-100 and why the article is getting that rating. We send ourselves alerts when the rating is 30+
+
+## [[2023-06-17]]
+
+[[Project Heimdall Table Structure]]

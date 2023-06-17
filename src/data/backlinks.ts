@@ -302,6 +302,9 @@ export const backlinks = {
         "Bing Chat for All Browsers in Japan": "## [[2023-04-03]]",
         "hn.cho.sh 개발 기록": "## [[2023-04-03]]"
     },
+    "2023-06-17": {
+        "Project Heimdall": "## [[2023-06-17]]"
+    },
     "2022-07-19": {
         "2022-07-21": "See [[2022-07-19]].",
         "Developing Review Notes for Obsidian": "[[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 ..."
@@ -5954,6 +5957,10 @@ export const backlinks = {
         "Ridi": "... a 대한민국|Korean Unicorn specializing in [[eBook]] distribution, online contents & intellectual ...",
         "Using an iPad as my Ebook": "... ended to find the perfect [[ebook]]. Refer to this [[Hacker News]] ..."
     },
+    "Project Heimdall Table Structure": {
+        "2023-06-17": "- [[Project Heimdall Table Structure]]",
+        "Project Heimdall": "[[Project Heimdall Table Structure]]"
+    },
     "이루다": {
         "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected ..."
     },
@@ -7947,6 +7954,7 @@ export const backlinks = {
         "2023-05-10": "- [[Project Heimdall]]",
         "2023-05-16": "- [[Project Heimdall]]",
         "2023-05-18": "- [[Project Heimdall]]",
+        "2023-06-17": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
