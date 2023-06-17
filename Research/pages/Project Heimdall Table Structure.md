@@ -94,7 +94,7 @@ erDiagram
 
 ```
 
-### 1. User Table
+### User Table
 
 - `UserId` (Primary Key): A unique identifier for each user.
 - `Username`: The username of the user.
@@ -106,35 +106,35 @@ erDiagram
 - `IsActive`
 - `EmailVerified`
 
-### 2. Curated Newsletters Table
+### Curated Newsletter Table
 
-- `NewsletterId` (Primary Key): A unique identifier for each pre-curated newsletter.
+- `NewsletterId` (Primary Key): A unique identifier for each pre-curated Newsletter.
 - `PublicNewsletterHandle`
-- `NewsletterName`: The name of the newsletter.
-- `Description`: A brief description of the newsletter.
+- `NewsletterName`: The name of the Newsletter.
+- `Description`: A brief description of the Newsletter.
 - `CreatedBy`: Who created it?
 
-### 3. Custom Newsletters Table
+### Custom Newsletter Table
 
-- `CustomNewsletterId` (Primary Key): A unique identifier for each custom newsletter.
+- `CustomNewsletterId` (Primary Key): A unique identifier for each custom Newsletter.
 - `PublicNewsletterHandle`
-- `Keyword`: The keyword related to the custom newsletter.
+- `Keyword`: The keyword related to the custom Newsletter.
 - `Target Region`: The Target Region to search the keyword.
-- `UserId` (Foreign Key): The user who created the custom newsletter.
+- `UserId` (Foreign Key): The user who created the custom Newsletter.
 - `CreatedAt`
 
-### 4. Subscription Table
+### Subscription Table
 
 - `SubscriptionId` (Primary Key): A unique identifier for each subscription.
 - `UserId` (Foreign Key): The user who owns the subscription.
-- `NewsletterId` (Foreign Key): The pre-curated newsletter being subscribed to (null if it's a custom newsletter).
-- `CustomNewsletterId` (Foreign Key): The custom newsletter being subscribed to (null if it's a pre-curated newsletter).
-- `Frequency`: How often the newsletter is sent. (`daily`, `weekly`, `biweekly`, `monthly`)
-- `Time`: When to receive the newsletter in UTC
-- `Length`: The desired length of the newsletter.
+- `NewsletterId` (Foreign Key): The pre-curated Newsletter being subscribed to (null if it's a custom Newsletter).
+- `CustomNewsletterId` (Foreign Key): The custom Newsletter being subscribed to (null if it's a pre-curated Newsletter).
+- `Frequency`: How often the Newsletter is sent. (`daily`, `weekly`, `biweekly`, `monthly`)
+- `Time`: When to receive the Newsletter in UTC
+- `Length`: The desired length of the Newsletter.
 - `BCP47`: The BCP-47 language tag represents the user's preferred language for this subscription.
 
-### 5. Template Table
+### Template Table
 
 - `TemplateId` (Primary Key): A unique identifier for each template.
 - `TemplateName`: The name of the template.
@@ -158,7 +158,7 @@ erDiagram
 - `ContentSubscriptionId` (Primary Key): A unique identifier for each Content-subscription relation.
 - `ContentId` (Foreign Key): The Content involved in the relation.
 - `SubscriptionId` (Foreign Key): The subscription involved in the relation.
-- `DateSent`: The date and time when the newsletter was sent.
+- `DateSent`: The date and time when the Newsletter was sent.
 
 ### LinkSummary Table
 
