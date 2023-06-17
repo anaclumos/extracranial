@@ -1,0 +1,170 @@
+---
+lang: 'en'
+slug: '/25C308'
+---
+
+```mermaid
+erDiagram
+    User ||--o{ Subscription : has
+    User ||--o{ CustomNewsletter : created
+    CustomNewsletter ||--o{ Subscription : belongs_to
+    CuratedNewsletter ||--o{ Subscription : belongs_to
+    CuratedNewsletter ||--o{ User : created_by
+    Subscription ||--o{ Outbox : has
+    Outbox ||--o{ Content : contains
+    Content ||--o{ Template : uses
+    Content ||--o{ ContentLinkSummary : has
+    ContentLinkSummary ||--o| LinkSummary : contains
+    Template ||--|{ Content : used_by
+
+    User {
+        int UserId
+        string Username
+        string Password
+        string Email
+        string DisplayName
+        string LastName
+        datetime CreatedAt
+        bool IsActive
+        bool EmailVerified
+    }
+
+    CuratedNewsletter {
+        int NewsletterId
+        string PublicNewsletterHandle
+        string NewsletterName
+        string Description
+        int CreatedBy
+    }
+
+    CustomNewsletter {
+        int CustomNewsletterId
+        string PublicNewsletterHandle
+        string Keyword
+        string TargetRegion
+        int UserId
+        datetime CreatedAt
+    }
+
+    Subscription {
+        int SubscriptionId
+        int UserId
+        int NewsletterId
+        int CustomNewsletterId
+        string Frequency
+        time Time
+        string Length
+        string BCP47
+    }
+
+    Template {
+        int TemplateId
+        string TemplateName
+        string TemplateHTML
+    }
+
+    Content {
+        int ContentId
+        int TemplateId
+        string MarkdownContent
+        string BCP47
+    }
+
+    ContentLinkSummary {
+        int ContentId
+        int LinkSummaryId
+        int Order
+    }
+
+    Outbox {
+        int ContentSubscriptionId
+        int ContentId
+        int SubscriptionId
+        datetime DateSent
+    }
+
+    LinkSummary {
+        int LinkSummaryId
+        string LinkUrl
+        string Title
+        string LinkSummary
+        datetime LastUpdatedAt
+        string BCP47
+    }
+
+```
+
+### 1. User Table
+
+- `UserId` (Primary Key): A unique identifier for each user.
+- `Username`: The username of the user.
+- `Password`: The user's password (hashed and stored securely).
+- `Email`: The user's email address.
+- `DisplayName`
+- `LastName`
+- `CreatedAt`
+- `IsActive`
+- `EmailVerified`
+
+### 2. Curated Newsletters Table
+
+- `NewsletterId` (Primary Key): A unique identifier for each pre-curated newsletter.
+- `PublicNewsletterHandle`
+- `NewsletterName`: The name of the newsletter.
+- `Description`: A brief description of the newsletter.
+- `CreatedBy`: Who created it?
+
+### 3. Custom Newsletters Table
+
+- `CustomNewsletterId` (Primary Key): A unique identifier for each custom newsletter.
+- `PublicNewsletterHandle`
+- `Keyword`: The keyword related to the custom newsletter.
+- `Target Region`: The Target Region to search the keyword.
+- `UserId` (Foreign Key): The user who created the custom newsletter.
+- `CreatedAt`
+
+### 4. Subscription Table
+
+- `SubscriptionId` (Primary Key): A unique identifier for each subscription.
+- `UserId` (Foreign Key): The user who owns the subscription.
+- `NewsletterId` (Foreign Key): The pre-curated newsletter being subscribed to (null if it's a custom newsletter).
+- `CustomNewsletterId` (Foreign Key): The custom newsletter being subscribed to (null if it's a pre-curated newsletter).
+- `Frequency`: How often the newsletter is sent. (`daily`, `weekly`, `biweekly`, `monthly`)
+- `Time`: When to receive the newsletter in UTC
+- `Length`: The desired length of the newsletter.
+- `BCP47`: The BCP-47 language tag represents the user's preferred language for this subscription.
+
+### 5. Template Table
+
+- `TemplateId` (Primary Key): A unique identifier for each template.
+- `TemplateName`: The name of the template.
+- `TemplateHTML`: The HTML of the template.
+
+### Content Table
+
+- `ContentId` (Primary Key)
+- `TemplateId` (Foreign Key, links to the Template that this Content uses)
+- `MarkdownContent` (optional field, a string containing the markdown-formatted Content)
+- `BCP47` (the BCP-47 language tag representing the language of the Content)
+
+### ContentLinkSummary Table
+
+- `ContentId` (Foreign Key, links to the Content that this link belongs to)
+- `LinkSummaryId` (Foreign Key, links to the LinkSummary that is included in the Content)
+- `Order` (An integer representing the order of this link in the Content)
+
+### Outbox Table
+
+- `ContentSubscriptionId` (Primary Key): A unique identifier for each Content-subscription relation.
+- `ContentId` (Foreign Key): The Content involved in the relation.
+- `SubscriptionId` (Foreign Key): The subscription involved in the relation.
+- `DateSent`: The date and time when the newsletter was sent.
+
+### LinkSummary Table
+
+- `LinkSummaryId` (Primary Key)
+- `LinkUrl`: The URL of the link.
+- `Title`: The title of the linked Content.
+- `LinkSummary`: The summary generated by the AI.
+- `LastUpdatedAt`: The time when the summary was generated.
+- `BCP47`: The BCP-47 language tag represents the language of the summary.
