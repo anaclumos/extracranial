@@ -5,92 +5,84 @@ slug: '/25C308'
 
 ```mermaid
 erDiagram
-    User ||--o{ Subscription : has
-    User ||--o{ CustomNewsletter : created
-    CustomNewsletter ||--o{ Subscription : belongs_to
-    CuratedNewsletter ||--o{ Subscription : belongs_to
-    CuratedNewsletter ||--o{ User : created_by
-    Subscription ||--o{ Outbox : has
-    Outbox ||--o{ Content : contains
-    Content ||--o{ Template : uses
-    Content ||--o{ ContentLinkSummary : has
-    ContentLinkSummary ||--o| LinkSummary : contains
-    Template ||--|{ Content : used_by
-
-    User {
-        int UserId
-        string Username
-        string Password
-        string Email
-        string DisplayName
-        string LastName
-        datetime CreatedAt
-        bool IsActive
-        bool EmailVerified
-    }
-
-    CuratedNewsletter {
-        int NewsletterId
-        string PublicNewsletterHandle
-        string NewsletterName
-        string Description
-        int CreatedBy
-    }
-
-    CustomNewsletter {
-        int CustomNewsletterId
-        string PublicNewsletterHandle
-        string Keyword
-        string TargetRegion
-        int UserId
-        datetime CreatedAt
-    }
-
-    Subscription {
-        int SubscriptionId
-        int UserId
-        int NewsletterId
-        int CustomNewsletterId
-        string Frequency
-        time Time
-        string Length
-        string BCP47
-    }
-
-    Template {
-        int TemplateId
-        string TemplateName
-        string TemplateHTML
-    }
-
-    Content {
-        int ContentId
-        int TemplateId
-        string MarkdownContent
-        string BCP47
-    }
-
-    ContentLinkSummary {
-        int ContentId
-        int LinkSummaryId
-        int Order
-    }
-
-    Outbox {
-        int ContentSubscriptionId
-        int ContentId
-        int SubscriptionId
-        datetime DateSent
-    }
-
-    LinkSummary {
-        int LinkSummaryId
-        string LinkUrl
-        string Title
-        string LinkSummary
-        datetime LastUpdatedAt
-        string BCP47
-    }
+  User ||--o{ Subscription : owns
+  User ||--o{ CustomNewsletter : creates
+  CustomNewsletter ||--o{ Subscription : has
+  CuratedNewsletter ||--o{ Subscription : has
+  CustomNewsletter ||--o{ Content : has
+  CuratedNewsletter ||--o{ Content : has
+  Content ||--o{ ContentLinkSummary : includes
+  Content ||--o{ Outbox : belongs_to
+  LinkSummary ||--o{ ContentLinkSummary : has
+  User {
+    int UserId
+    string Username
+    string Password
+    string Email
+    string DisplayName
+    datetime CreatedAt
+    boolean IsActive
+    boolean EmailVerified
+    string Timezone
+  }
+  CuratedNewsletter {
+    string NewsletterId
+    string PublicNewsletterHandle
+    string NewsletterName
+    string Description
+    string CreatedBy
+  }
+  CustomNewsletter {
+    string CustomNewsletterId
+    string PublicNewsletterHandle
+    string Keyword
+    string TargetRegion
+    string UserId
+    datetime CreatedAt
+    boolean Active
+  }
+  Subscription {
+    string SubscriptionId
+    string UserId
+    string CuratedNewsletterId
+    string CustomNewsletterId
+    string Frequency
+    string Time
+    string Length
+    string BCP47
+    boolean Active
+  }
+  Content {
+    string ContentId
+    string MarkdownContent
+    string BCP47
+    string CuratedNewsletterId
+    string CustomNewsletterId
+    datetime CreatedAt
+    datetime UpdatedAt
+  }
+  ContentLinkSummary {
+    string ContentId
+    string LinkSummaryId
+    int Order
+  }
+  Outbox {
+    string ContentSubscriptionId
+    string ContentId
+    string SubscriptionId
+    datetime DateSent
+    string Status
+    string ErrorMessage
+  }
+  LinkSummary {
+    string LinkSummaryId
+    string LinkUrl
+    string Title
+    string LinkSummary
+    datetime LastUpdatedAt
+    string BCP47
+    datetime CreatedAt
+  }
 
 ```
 
@@ -101,10 +93,10 @@ erDiagram
 - `Password`: The user's password (hashed and stored securely).
 - `Email`: The user's email address.
 - `DisplayName`
-- `LastName`
 - `CreatedAt`
 - `IsActive`
 - `EmailVerified`
+- `Timezone`
 
 ### Curated Newsletter Table
 
@@ -122,30 +114,29 @@ erDiagram
 - `Target Region`: The Target Region to search the keyword.
 - `UserId` (Foreign Key): The user who created the custom Newsletter.
 - `CreatedAt`
+- `Active`
 
 ### Subscription Table
 
 - `SubscriptionId` (Primary Key): A unique identifier for each subscription.
 - `UserId` (Foreign Key): The user who owns the subscription.
-- `NewsletterId` (Foreign Key): The pre-curated Newsletter being subscribed to (null if it's a custom Newsletter).
-- `CustomNewsletterId` (Foreign Key): The custom Newsletter being subscribed to (null if it's a pre-curated Newsletter).
+- `CuratedNewsletterId` (Foreign Key): The curated newsletter being subscribed to (null if it's a custom newsletter).
+- `CustomNewsletterId` (Foreign Key): The custom newsletter being subscribed to (null if it's a curated newsletter).
 - `Frequency`: How often the Newsletter is sent. (`daily`, `weekly`, `biweekly`, `monthly`)
-- `Time`: When to receive the Newsletter in UTC
+- `Time`: When to receive the Newsletter in UTC.
 - `Length`: The desired length of the Newsletter.
 - `BCP47`: The BCP-47 language tag represents the user's preferred language for this subscription.
-
-### Template Table
-
-- `TemplateId` (Primary Key): A unique identifier for each template.
-- `TemplateName`: The name of the template.
-- `TemplateHTML`: The HTML of the template.
+- `Active`: Whether the subscription is active.
 
 ### Content Table
 
 - `ContentId` (Primary Key)
-- `TemplateId` (Foreign Key, links to the Template that this Content uses)
 - `MarkdownContent` (optional field, a string containing the markdown-formatted Content)
 - `BCP47` (the BCP-47 language tag representing the language of the Content)
+- `CuratedNewsletterId` (Foreign Key): The curated newsletter that the content belongs to (null if it belongs to a custom newsletter).
+- `CustomNewsletterId` (Foreign Key): The custom newsletter that the content belongs to (null if it belongs to a curated newsletter).
+- `CreatedAt`
+- `UpdatedAt`
 
 ### ContentLinkSummary Table
 
@@ -159,12 +150,15 @@ erDiagram
 - `ContentId` (Foreign Key): The Content involved in the relation.
 - `SubscriptionId` (Foreign Key): The subscription involved in the relation.
 - `DateSent`: The date and time when the Newsletter was sent.
+- `Status` field: To track if the newsletter was sent, failed, pending, etc.
+- `ErrorMessage` field: If the send failed, store the reason for the failure.
 
 ### LinkSummary Table
 
 - `LinkSummaryId` (Primary Key)
-- `LinkUrl`: The URL of the link.
+- `LinkUrl`: The Normalized URL of the link.
 - `Title`: The title of the linked Content.
 - `LinkSummary`: The summary generated by the AI.
 - `LastUpdatedAt`: The time when the summary was generated.
 - `BCP47`: The BCP-47 language tag represents the language of the summary.
+- `CreatedAt` field: When was this link summary created?
