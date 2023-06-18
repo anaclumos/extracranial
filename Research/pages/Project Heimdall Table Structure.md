@@ -24,25 +24,30 @@ erDiagram
     boolean IsActive
     boolean EmailVerified
     string Timezone
+    datetime CreatedAt
+    datetime UpdatedAt
   }
   CuratedNewsletter {
-    string NewsletterId
+    int NewsletterId
     string PublicNewsletterHandle
     string NewsletterName
     string Description
     string CreatedBy
+    datetime CreatedAt
+    datetime UpdatedAt
   }
   CustomNewsletter {
-    string CustomNewsletterId
+    int CustomNewsletterId
     string PublicNewsletterHandle
     string Keyword
     string TargetRegion
     string UserId
-    datetime CreatedAt
     boolean Active
+    datetime CreatedAt
+    datetime UpdatedAt
   }
   Subscription {
-    string SubscriptionId
+    int SubscriptionId
     string UserId
     string CuratedNewsletterId
     string CustomNewsletterId
@@ -51,9 +56,11 @@ erDiagram
     string Length
     string BCP47
     boolean Active
+    datetime CreatedAt
+    datetime UpdatedAt
   }
   Content {
-    string ContentId
+    int ContentId
     string MarkdownContent
     string BCP47
     string CuratedNewsletterId
@@ -62,26 +69,29 @@ erDiagram
     datetime UpdatedAt
   }
   ContentLinkSummary {
-    string ContentId
+    int ContentId
     string LinkSummaryId
     int Order
+    datetime CreatedAt
+    datetime UpdatedAt
   }
   Outbox {
-    string ContentSubscriptionId
+    int ContentSubscriptionId
     string ContentId
     string SubscriptionId
-    datetime DateSent
     string Status
     string ErrorMessage
+    datetime CreatedAt
+    datetime UpdatedAt
   }
   LinkSummary {
-    string LinkSummaryId
+    int LinkSummaryId
     string LinkUrl
     string Title
     string LinkSummary
-    datetime LastUpdatedAt
     string BCP47
     datetime CreatedAt
+    datetime UpdatedAt
   }
 
 ```
