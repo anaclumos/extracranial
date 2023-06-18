@@ -7,77 +7,12 @@ slug: '/9DC5BA'
 
 > Heimdall's All-Seeing Eyes — Heimdall sees and hears, all thanks to his extrasensory capabilities. His sight can extend across all Nine Realms, and he can see 10 trillion souls from the Bifrost Observatory. Asgardians call him from other worlds, such as Earth, Jotunheim, and Sakaar. [Heimdall On Screen Powers, Enemies, History](https://www.marvel.com/characters/heimdall/on-screen)
 
-## [[Prehistoric]]
-
-Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news portal? Reference: [[일일일]], [[News Minimalist]]
-
-Would it eventually lead to a portal? Or should I remain as a newsletter? Would there be any other form?
-
-## After some contemplation...
-
-It should be **Airborne Early Warning**, **Protoss's Observers**, **Zerg's Overseer**, **Terran's Orbital Command**, **Super Long Range Radar**, **The Watchman**, **The Oracle's Eye**, **The ALL-SEER** that keeps you up to date on specific topics.
-
-[[AI]]-powered news portal can never be the answer; it should be a platform where people can proactively seek and search foreign intelligence.
-
-### Imagine a workflow...
-
-At [[Karrot]], scraping the news over the internet was a daily activity.
-
-![Like this](../assets/5FD1BE.png)
-
-What if we can ask the **All-seer** to check for keywords [[Karrot|당근마켓]] 캐롯 and [[Karrot]] every day?
-
-An example:
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">At Simple Analytics, we use AI to detect if new articles on Hacker News or Google Alerts are relevant to our business.<br/><br/>We ask for a rating between 0-100 and why the article is getting that rating.<br/><br/>We send ourselves alerts when rating is 30+ <a href="https://t.co/eqMLHcrAvX">https://t.co/eqMLHcrAvX</a>… <a href="https://t.co/V9rQwxPnxe">pic.twitter.com/V9rQwxPnxe</a></p>&mdash; Adriaan 📊 Simple Analytics (@AdriaanvRossum) <a href="https://twitter.com/AdriaanvRossum/status/1633318894508146689?ref_src=twsrc%5Etfw">March 8, 2023</a></blockquote>
-
-### Themed Newsletters
-
-What if we want to keep ourselves up to date on various topics but in a non-aggressive, [[Anti-Tiktok]] manner? Users can ask:
-
-- Hey Heimdall, give me daily reports on **Hacker News** (the current [[hn.cho.sh]] service)
-- Hey Heimdall, give me daily reports on **TechCrunch**
-- Hey Heimdall, give me daily reports on **대한민국 연예계 뉴스**
-- Hey Heimdall, give me daily reports on **European Fashion Market**
-
-Then Heimdall will give reports every day.
-
-## [[2023-05-11]]
-
-[[Boring Report]]
-
-## [[2023-05-16]]
-
-Some random names...
-
-- Omniscient
-- clairvoyance
-- Allseer
-- Providence
-- Heimdall
-- Eye of Ra
-- Horus
-- Wedjat Eye
-- Supernatural.news
-
-## [[2023-05-18]]: [[Hacker News]]
-
-### [How to hack Hacker News (and consistently hit the front page)](https://www.indiehackers.com/post/how-to-hack-hacker-news-and-consistently-hit-the-front-page-56b4a04e12)
-
-Your content needs to be either:
-
-- Newsworthy
-- Investigative (research)
-
-#### The War Room
-
-1.  Fetch data from Hacker News API
-2.  Set up Google Alerts for your query
-3.  Fetch data from Google Alerts XML
-4.  Enrich data and store it in an SQLite file with a cronjob
-5.  Send alerts with another cronjob to Twist API or Telegram API
-6.  Then add chatGPT in the mix and ask for a rating between 0-100 and why the article is getting that rating. We send ourselves alerts when the rating is 30+
-
-## [[2023-06-17]]
-
-[[Project Heimdall Table Structure]]
+- [[2023-04-19]]:[[Project Heimdall Initial Planning]]
+- [[2023-05-11]]: [[Boring Report]]
+- [[2023-05-16]]: [[Project Heimdall Random Names]]
+- [[2023-05-18]]: [[Simple Analytics War Room]] on [[Hacker News]]
+- [[2023-06-17]]: [[Project Heimdall Table Structure]]
+- [[2023-06-18]]
+  - Honestly, the GTM strategy for Heimdall is a considerable concern. How are we going to do that?
+  - [[Project Heimdall Locale Transition Strategy]]
+  - [[Project Linguine]]

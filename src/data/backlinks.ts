@@ -49,7 +49,7 @@ export const backlinks = {
     },
     "2023-05-11": {
         "Project FFMpeg for iPad": "## [[2023-05-11]]",
-        "Project Heimdall": "## [[2023-05-11]]"
+        "Project Heimdall": "- [[2023-05-11]]: [[Boring Report]]"
     },
     "2020-02-23": {
         "프로젝트 어덕행덕": "- [[2020-02-23]]"
@@ -303,7 +303,7 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "## [[2023-04-03]]"
     },
     "2023-06-17": {
-        "Project Heimdall": "## [[2023-06-17]]"
+        "Project Heimdall": "- [[2023-06-17]]: [[Project Heimdall Table Structure]]"
     },
     "2022-07-19": {
         "2022-07-21": "See [[2022-07-19]].",
@@ -380,7 +380,7 @@ export const backlinks = {
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-13]]: 개인 사정"
     },
     "2023-05-18": {
-        "Project Heimdall": "## [[2023-05-18]]: [[Hacker News]]"
+        "Project Heimdall": "- [[2023-05-18]]: [[Simple Analytics War Room]] on ..."
     },
     "2023-04-16": {
         "hn.cho.sh 개발 기록": "## [[2023-04-16]]"
@@ -441,6 +441,10 @@ export const backlinks = {
         "0021 Merge Two Sorted Lists": "Solved at: [[2022-07-13]]",
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]"
     },
+    "2023-04-19": {
+        "Project Heimdall": "- [[2023-04-19]]:[[Project Heimdall Initial Planning]]",
+        "Project Heimdall Initial Planning": "[[2023-04-19]]"
+    },
     "2020-11-13": {
         "프로젝트 어덕행덕": "- [[2020-11-13]]"
     },
@@ -471,7 +475,7 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "## [[2023-04-18]]"
     },
     "2023-05-16": {
-        "Project Heimdall": "## [[2023-05-16]]"
+        "Project Heimdall": "- [[2023-05-16]]: [[Project Heimdall Random Names]]"
     },
     "2022-10-11": {
         "Letter to the Heptabase Team on 2022-10-11": "... to the Heptabase Team on [[2022-10-11]]",
@@ -488,6 +492,9 @@ export const backlinks = {
     },
     "2020-04-01": {
         "프로젝트 어덕행덕": "- [[2020-04-01]]"
+    },
+    "2023-06-18": {
+        "Project Heimdall": "- [[2023-06-18]]"
     },
     "2020-11-06": {
         "프로젝트 어덕행덕": "- [[2020-11-06]]"
@@ -741,7 +748,7 @@ export const backlinks = {
     "Prehistoric": {
         "2023-05-10": "- [[Prehistoric]]",
         "Project FFMpeg for iPad": "## [[Prehistoric]]",
-        "Project Heimdall": "## [[Prehistoric]]",
+        "Project Heimdall Initial Planning": "## [[Prehistoric]]",
         "hn.cho.sh 개발 기록": "## [[Prehistoric]]"
     },
     "Book Metadata as a Service": {
@@ -938,7 +945,10 @@ export const backlinks = {
         "Android": "- [[Adding Space in Android]]"
     },
     "Project Linguine": {
-        "2023-06-15": "- [[Project Linguine]]"
+        "2023-06-15": "- [[Project Linguine]]",
+        "2023-06-18": "- [[Project Linguine]]",
+        "Project Heimdall": "\t- [[Project Linguine]]",
+        "Project Heimdall Locale Transition Strategy": "... on DeepL's 29 languages. On [[Project Linguine]], I decided to migrate to ..."
     },
     "Palantir": {
         "2022-10-21": "- [[Palantir]]",
@@ -1898,7 +1908,7 @@ export const backlinks = {
     },
     "일일일": {
         "2023-04-19": "- [[일일일]]",
-        "Project Heimdall": "... An AI-powered news portal? Reference: [[일일일]], [[News Minimalist]]"
+        "Project Heimdall Initial Planning": "... An AI-powered news portal? Reference: [[일일일]], [[News Minimalist]]. Would it eventually ..."
     },
     "벨로그": {
         "2023-04-20 Conversation with Velopert": "[[벨로그]]의 초기 성장에는 [[벨로퍼트]]님의 글이 가장 ...",
@@ -2139,7 +2149,9 @@ export const backlinks = {
         "2023-04-01": "- [[hn.cho.sh]]",
         "METI Engine": "The current generation is [[hn.cho.sh]] — and plan to scale ...",
         "Project": "- [[hn.cho.sh]] [[hn.cho.sh 개발 기록]]",
-        "Project Heimdall": "Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news ...",
+        "Project Heimdall Initial Planning": "Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news ...",
+        "Project Heimdall Locale Transition Strategy": "Project Heimdall's predecessor [[hn.cho.sh]] operated on DeepL's 29 languages. ...",
+        "Project Linguine": "... into the subscriber lists of [[hn.cho.sh]], I did notice that there ...",
         "Reddit-Apollo Mayhem": "## Summarizations from [[hn.cho.sh]]",
         "Vercel Incident Report (April 2023)": "... with two projects: lovearc.net and [[hn.cho.sh]].",
         "hn.cho.sh 개발 기록": "... 아마도 사이드바 채팅 AI를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
@@ -2165,6 +2177,9 @@ export const backlinks = {
     },
     "Problem": {
         "Digital Addiction": "[[Problem]]. I love software, but I ..."
+    },
+    "Project Heimdall Initial Planning": {
+        "Project Heimdall": "- 2023-04-19:[[Project Heimdall Initial Planning]]"
     },
     "0226 Invert Binary Tree": {
         "2022-07-26": "- [x] [[0226 Invert Binary Tree]]",
@@ -2461,9 +2476,6 @@ export const backlinks = {
         "2023-02-22": "- [[In-house and Free Market]]",
         "I travel the World Wide Web": "- [[In-house and Free Market]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-22 | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]  ..."
-    },
-    "Ethnologue 200": {
-        "Project Linguine": "## Candidate 2. [[Ethnologue 200]]"
     },
     "Handling files in Unix": {
         "Internetworking": "- [[Handling files in Unix]]"
@@ -3136,7 +3148,8 @@ export const backlinks = {
         "Love Software": "- [[Love Wikipedia]]"
     },
     "The IDOL Stack": {
-        "2023-06-14": "- [[The IDOL Stack]]"
+        "2023-06-14": "- [[The IDOL Stack]]",
+        "2023-06-18": "- [[The IDOL Stack]]"
     },
     "PKM": {
         "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like ...",
@@ -3747,7 +3760,7 @@ export const backlinks = {
     },
     "Boring Report": {
         "2023-05-16": "- [[Boring Report]]",
-        "Project Heimdall": "[[Boring Report]]"
+        "Project Heimdall": "- 2023-05-11: [[Boring Report]]"
     },
     "Synonym-based Fuzzy Search": {
         "2022-12-12": "- [[Synonym-based Fuzzy Search]]"
@@ -4221,6 +4234,9 @@ export const backlinks = {
         "조선의 노비제도에 관한 보고": "[[서울]],",
         "퍼블리시티권": "- 대한민국|한국에서는 지난 1982년 [[서울]] 민사지방법원에서 본인의 동의 없이 사진을 ..."
     },
+    "Simple Analytics War Room": {
+        "Project Heimdall": "- 2023-05-18: [[Simple Analytics War Room]] on [[Hacker News]]"
+    },
     "http 없는 http 서버 만들기": {
         "2022-11-19": "  - [[http 없는 http 서버 만들기]]"
     },
@@ -4386,7 +4402,7 @@ export const backlinks = {
     },
     "BCP 47": {
         "Mapping keys to set different input languages on macOS": "... 639 and ISO 3166 (i.e., [[BCP 47]]).",
-        "Project Linguine": "## Candidate 1. [[BCP 47]]"
+        "Project Heimdall Locale Transition Strategy": "... I decided to migrate to [[BCP 47]]. How will we transfer the ..."
     },
     "Conditional Compilation": {
         "2023-01-25": "- [[Conditional Compilation]]"
@@ -4878,7 +4894,7 @@ export const backlinks = {
         "Height (App)": "- Used at [[Karrot]]",
         "Jira": "- Used at [[Karrot]]",
         "Karrot NX Team Mission Statement": "> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 ...",
-        "Project Heimdall": "At [[Karrot]], scraping the news over the ...",
+        "Project Heimdall Initial Planning": "At [[Karrot]], scraping the news over the ...",
         "hn.cho.sh 개발 기록": "### [[Karrot|당근]] PM 론과의 대화",
         "도로명주소": "이에 대해서 [[Karrot|당근]]의 론께서 첨언을 해주셨는데, 확실히 해외에 ...",
         "초대장의 시대": "... 위치 기반이었거나 (초기 페이스북, 요즘 [[Karrot|당근]]) 그룹 스터디 (대부분의 게임) 이었을 ..."
@@ -4906,7 +4922,7 @@ export const backlinks = {
         "tabOS": "a successor to [[tabExtend]]"
     },
     "Anti-Tiktok": {
-        "Project Heimdall": "... topics but in a non-aggressive, [[Anti-Tiktok]] manner? Users can ask:"
+        "Project Heimdall Initial Planning": "... topics but in a non-aggressive, [[Anti-Tiktok]] manner? Users can ask:"
     },
     "MOBI": {
         "Screenshot as an API": "... page loads. Better alternatives: EPUB, [[MOBI]] for texts. For generic use ..."
@@ -4969,6 +4985,9 @@ export const backlinks = {
         "Dear AIs, I have a question.": "... many different studies like the [[polymath]] Newton. Do not say you're ...",
         "On National Crises and the Intellectuals — Focused on GB and KR": "... the realm of polymaths. A [[polymath]] is a person who has ...",
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 것을 종합할 수 있다면 우리는 [[Polymath|박식가]]<sub>[[Polymath]]</sub>의 영역에 속합니다. Polymath|박식가는 과학, 공학, ..."
+    },
+    "DeepL vs Google Translate vs Bing Translate Offering Comparison": {
+        "Project Linguine": "[[DeepL vs Google Translate vs Bing Translate Offering Comparison]]"
     },
     "Book Scanning": {
         "Using an iPad as my Ebook": "... I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], ..."
@@ -5755,6 +5774,9 @@ export const backlinks = {
     "Finding out Ghost version with JS": {
         "2022-11-19": "  - [[Finding out Ghost version with JS]]"
     },
+    "Project Heimdall Locale Transition Strategy": {
+        "Project Heimdall": "\t- [[Project Heimdall Locale Transition Strategy]]"
+    },
     "0543 Diameter of Binary Tree": {
         "Coding Tests": "- [x] [[0543 Diameter of Binary Tree]]"
     },
@@ -5763,6 +5785,9 @@ export const backlinks = {
     },
     "Alan Chan": {
         "Person 542AD7": "Had a conversation with [[Alan Chan]] on [[2022-12-27]]."
+    },
+    "Project Heimdall Random Names": {
+        "Project Heimdall": "- 2023-05-16: [[Project Heimdall Random Names]]"
     },
     "Apple vs Spotify": {
         "2022-10-27": "### [[Apple vs Spotify]]"
@@ -5959,7 +5984,7 @@ export const backlinks = {
     },
     "Project Heimdall Table Structure": {
         "2023-06-17": "- [[Project Heimdall Table Structure]]",
-        "Project Heimdall": "[[Project Heimdall Table Structure]]"
+        "Project Heimdall": "- 2023-06-17: [[Project Heimdall Table Structure]]"
     },
     "이루다": {
         "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected ..."
@@ -6328,7 +6353,7 @@ export const backlinks = {
         "한민족은 해적되었다": "그것이 [[한민족의 동족상잔|동족]]이든 [[일본 과학기술 총력전|외세]]이든..."
     },
     "News Minimalist": {
-        "Project Heimdall": "... AI-powered news portal? Reference: 일일일, [[News Minimalist]]"
+        "Project Heimdall Initial Planning": "... AI-powered news portal? Reference: 일일일, [[News Minimalist]]. Would it eventually lead to ..."
     },
     "Handwriting Tools for Thoughts": {
         "2022-10-12": "- [[Handwriting Tools for Thoughts]]",
@@ -7444,7 +7469,7 @@ export const backlinks = {
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "... from the original discussion on [[Hacker News]] was to use ImprovMX as ...",
         "Jumpsite": "## [[Hacker News]]",
-        "Project Heimdall": "## 2023-05-18: [[Hacker News]]",
+        "Project Heimdall": "... Simple Analytics War Room on [[Hacker News]]",
         "The Great Struggle of Gumroad": "... died—something like that. Posting on [[Hacker News]], the reaction exceeded my grandest ...",
         "Using an iPad as my Ebook": "... perfect ebook. Refer to this [[Hacker News]] thread"
     },
@@ -7955,6 +7980,7 @@ export const backlinks = {
         "2023-05-16": "- [[Project Heimdall]]",
         "2023-05-18": "- [[Project Heimdall]]",
         "2023-06-17": "- [[Project Heimdall]]",
+        "2023-06-18": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
@@ -8107,7 +8133,7 @@ export const backlinks = {
         "Pensieve": "... a hierarchy powered by an [[AI]] [[copilot]]. Whenever you are starting ...",
         "Person E7CFC5": "... Stanford Grad School, prev Scale [[AI]] engineer",
         "Personal Training Corpus": "... a fictional interview by having [[AI]] learn about thousands of Joe ...",
-        "Project Heimdall": "... would hn.cho.sh lead us? An [[AI]]-powered news portal? Reference: [[일일일]], [[News ...",
+        "Project Heimdall Initial Planning": "... would hn.cho.sh lead us? An [[AI]]-powered news portal? Reference: [[일일일]], [[News ...",
         "Proposal of Research 2023-01-10": "... we now have the infinite [[AI]] monkey making infinite keystrokes). Will ...",
         "Proposal of Research 2023-03-28": "... natural-looking handwriting fonts. However, current [[AI]] [[font]] generation methods often overlook ...",
         "Quoridor Game": "... \"Quoridor\" game and its corresponding [[AI]] system.",
