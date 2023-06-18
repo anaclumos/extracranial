@@ -112,6 +112,11 @@ const config: Config = {
         autoCollapseCategories: false,
       },
     },
+    mermaid: {
+      options: {
+        fontFamily: 'var(--font-family-monospace)',
+      },
+    },
   },
   scripts: [
     {
