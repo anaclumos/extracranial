@@ -44,3 +44,7 @@ slug: '/959D0A'
 
 - Need to set up the integration
 - Sometimes lack of a proper [[back-end]] sucks
+
+## Conclusion
+
+After cracking [[i18n with Redwood]], decided with approach 1

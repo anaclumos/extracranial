@@ -228,6 +228,16 @@ LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수
 
 무진장 저렴하다.
 
+> Ho trovato il servizio grazie al messaggio pubblicitario nella tua estensione di Bing Chat for All Browsers. Ritengo questo servizio molto innovativo e adoro soprattutto il fatto che sia nella mia lingua. Certamente condividerò questa notizia con i miei amici che sono appassionati di tecnologia. La prima volta che ho visitato il sito, ho avuto la sorprendente sensazione di essere catapultato in quel tipo di futuro che ho sempre sognato ma che non ho mai visto realizzato. Ti ringrazio per offrire quest'esperienza così straordinaria! Rendi il web davvero innovativo!
+>
+> Non saprei cosa potresti migliorare, lo trovo davvero un servizio perfetto. Forse sarebbe più ordinato scegliere un orario fisso nel quale fare arrivare le email, ma non è assolutamente qualcosa di necessario.
+>
+> Translation:
+>
+> I found the service thanks to the advertisement in your extension of Bing Chat for All Browsers. I find this service very innovative and I especially love the fact that it is in my language. I will certainly share this news with my friends who are tech enthusiasts. The first time I visited the site, I had the amazing feeling of being catapulted into the kind of future I've always dreamed of but never seen realized. Thank you for providing such an amazing experience! Make the web truly innovative!
+>
+> I don't know what you could improve, I really find it a perfect service. Perhaps it would be more orderly to choose a fixed time for the emails to arrive, but it is absolutely not something necessary.
+
 ## [[2023-04-21]]
 
 [[2023-04-20 Conversation with Velopert]]에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. [[Sprachraum]]에 구애받지 않는 [[Across the Sprachraums]].
