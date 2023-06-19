@@ -43,7 +43,7 @@ const HeroText = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex === music.length - 1 ? 0 : prevIndex + 1))
-    }, 2000)
+    }, 10000)
     return () => clearInterval(interval)
   }, [music])
 
