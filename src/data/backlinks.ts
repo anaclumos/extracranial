@@ -947,7 +947,7 @@ export const backlinks = {
     "Project Linguine": {
         "2023-06-15": "- [[Project Linguine]]",
         "2023-06-18": "- [[Project Linguine]]",
-        "Project Heimdall": "\t- [[Project Linguine]]",
+        "Project Heimdall": "  - [[Project Linguine]]",
         "Project Heimdall Locale Transition Strategy": "... on DeepL's 29 languages. On [[Project Linguine]], I decided to migrate to ..."
     },
     "Palantir": {
@@ -2941,6 +2941,9 @@ export const backlinks = {
     "Vector DB": {
         "2023-05-11": "- [[Vector DB]]"
     },
+    "서당개 3년이면 풍월을 읊는다": {
+        "2023-06-19": "[[서당개 3년이면 풍월을 읊는다]]"
+    },
     "Protocol Wars": {
         "2022-11-16": "- [[Protocol Wars]]: [[Matt Rickard]]",
         "Matt Rickard": "- [[Protocol Wars]]"
@@ -3514,7 +3517,8 @@ export const backlinks = {
         "Coding Tests": "- [[1448 Count Good Nodes in Binary Tree]]"
     },
     "한민족은 해적되었다": {
-        "2023-01-26": "- [[한민족은 해적되었다]]"
+        "2023-01-26": "- [[한민족은 해적되었다]]",
+        "서당개 3년이면 풍월을 읊는다": "... 우리의 능력은 발현되지 못하고 있다. [[한민족은 해적되었다]]."
     },
     "Case-Sensitivity": {
         "0409 Longest Palindrome": "Letters are [[Case-Sensitivity|case sensitive]], for example, `\"Aa\"` is not ...",
@@ -5775,7 +5779,7 @@ export const backlinks = {
         "2022-11-19": "  - [[Finding out Ghost version with JS]]"
     },
     "Project Heimdall Locale Transition Strategy": {
-        "Project Heimdall": "\t- [[Project Heimdall Locale Transition Strategy]]"
+        "Project Heimdall": "  - [[Project Heimdall Locale Transition Strategy]]"
     },
     "0543 Diameter of Binary Tree": {
         "Coding Tests": "- [x] [[0543 Diameter of Binary Tree]]"
