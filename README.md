@@ -2,6 +2,7 @@
 
 # [extracranial: the exosuit for my brain](https://cho.sh)
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial?ref=badge_shield)
 [![Cloudflare Pages](https://img.shields.io/website?down_color=lightgray&down_message=Offline&label=Cloudflare%20Pages&logo=Cloudflare%20Pages&logoColor=white&up_color=%23F38020&up_message=Online&url=https%3A%2F%2Fcho.sh)](https://dash.cloudflare.com/b3fd9c9d6ad1bc778e56659fccb63f7f/pages/view/memex)
 [![](https://img.shields.io/badge/dynamic/json?color=%23FF4F64&logoColor=white&label=Pageviews&&logo=simple%20analytics&&style=flat&query=pageviews&url=https%3A%2F%2Fsimpleanalytics.com%2Fcho.sh.json%3Fversion%3D5%26fields%3Dpageviews%26timezone%3DAmerica%2FLos_Angeles%26start%3D2020-01-01%26end%3Dyesterday%26info%3Dfalse)](https://simpleanalytics.com/cho.sh)
 
@@ -17,15 +18,19 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 > **Note**<br/>
 > The Favicon image is Tossface's U+E109 (<img alt="Emoji of 'Palaces of Korea'" width="12px" src="https://raw.githubusercontent.com/anaclumos/extracranial/main/static/img/favicon.svg"/>) Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
 
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial?ref=badge_large)
+
 ## Stats
 
 ```
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1764     44847    11448         0    33399          0
+Markdown                  1765     44864    11453         0    33411          0
 CSS                         70     20300      794        45    19461          0
-TypeScript                  61     14792      182        35    14575        207
+TypeScript                  61     14796      182        35    14579        207
 JSON                        16      1579        0         0     1579          0
 YAML                         8     17486     1897         0    15589          0
 Python                       7       847       47        24      776         83
@@ -36,13 +41,13 @@ JavaScript                   1        19        3        12        4          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     1941    100285    14459       189    85637        290
+Total                     1942    100306    14464       189    85653        290
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,889,946
+Estimated Cost to Develop (organic) $2,890,513
 Estimated Schedule Effort (organic) 20.59 months
 Estimated People Required (organic) 12.47
 ───────────────────────────────────────────────────────────────────────────────
-Processed 4578067 bytes, 4.578 megabytes (SI)
+Processed 4579091 bytes, 4.579 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
