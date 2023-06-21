@@ -112,15 +112,15 @@ img {
   width: auto;
 }
 
-figure>p {
+figure > p {
   margin: 0;
 }
 
-figure>figure {
+figure > figure {
   margin: 0;
 }
 
-figure>p>img {
+figure > p > img {
   display: block;
   margin: 0.5rem auto;
   padding: 0;
@@ -152,7 +152,7 @@ table {
   filter: brightness(1);
 }
 
-.navbar__logo>img {
+.navbar__logo > img {
   filter: none;
 }
 
