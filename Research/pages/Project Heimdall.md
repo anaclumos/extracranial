@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/9DC5BA'
 ---
 
-![[78DD5F.png]]
+![[F7BA33.png]]
 
 > Heimdall's All-Seeing Eyes — Heimdall sees and hears, all thanks to his extrasensory capabilities. His sight can extend across all Nine Realms, and he can see 10 trillion souls from the Bifrost Observatory. Asgardians call him from other worlds, such as Earth, Jotunheim, and Sakaar. [Heimdall On Screen Powers, Enemies, History](https://www.marvel.com/characters/heimdall/on-screen)
 
@@ -16,3 +16,6 @@ slug: '/9DC5BA'
   - Honestly, the GTM strategy for Heimdall is a considerable concern. How are we going to do that?
   - [[Project Heimdall Locale Transition Strategy]]
   - [[Project Linguine]]
+- [[2023-06-20]]
+  - ![[EBD79C.png]]
+  - ![[AC5118.png]]
