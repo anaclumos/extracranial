@@ -16,6 +16,13 @@ h1 {
   text-wrap: balance;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.05em;
+}
+
 thead,
 tbody {
   display: table;
@@ -105,19 +112,18 @@ img {
   width: auto;
 }
 
-figure > p {
+figure>p {
   margin: 0;
 }
 
-figure > figure {
+figure>figure {
   margin: 0;
 }
 
-figure > p > img {
+figure>p>img {
   display: block;
   margin: 0.5rem auto;
   padding: 0;
-  border: 2px solid var(--ifm-menu-color-background-active);
 }
 
 figcaption {
@@ -146,7 +152,7 @@ table {
   filter: brightness(1);
 }
 
-.navbar__logo > img {
+.navbar__logo>img {
   filter: none;
 }
 
