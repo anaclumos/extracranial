@@ -9335,6 +9335,9 @@ export const backlinks = {
     "B060EA.png": {
         "Cloud Computing": "![[B060EA.png]]"
     },
+    "76D06C.png": {
+        "당근미니 케이스 스터디": "![[76D06C.png]]"
+    },
     "1CDFA0.png": {
         "당근미니 케이스 스터디": "![[1CDFA0.png]]"
     },
@@ -9343,9 +9346,6 @@ export const backlinks = {
     },
     "9FA958.png": {
         "당근미니 케이스 스터디": "![[9FA958.png]]"
-    },
-    "76D06C.png": {
-        "당근미니 케이스 스터디": "![[76D06C.png]]"
     },
     "1FA88B.png": {
         "Jumpsite": "![[1FA88B.png]]"
