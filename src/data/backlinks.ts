@@ -238,6 +238,9 @@ export const backlinks = {
     "2023-04-14": {
         "hn.cho.sh 개발 기록": "## [[2023-04-14]]"
     },
+    "2023-06-20": {
+        "Project Heimdall": "- [[2023-06-20]]"
+    },
     "2020-09-20": {
         "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
     },
@@ -3172,7 +3175,8 @@ export const backlinks = {
     "Case Study": {
         "Rauno": "- [[Case Study]]",
         "SVB Debacle": "... will look like the WaMu [[case study]].",
-        "Tailwind CSS 톺아보기": "### 2\\. [[Case Study]] Card"
+        "Tailwind CSS 톺아보기": "### 2\\. [[Case Study]] Card",
+        "당근미니 케이스 스터디": "Karrot|당근Mini App|미니 Console [[Case Study|케이스 스터디]]"
     },
     "CBOR": {
         "2022-07-11": "Candidates include MessagePack and [[CBOR]].",
@@ -3553,6 +3557,9 @@ export const backlinks = {
         "OpenAI enthroned as the Levis of Tech": "... made an enormous demand for [[cloud computing]] services like AWS. [[OpenAI]] just ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "... 것처럼, 디지털 혁신은 AWS와 같은 [[Cloud Computing|클라우드]] 컴퓨팅 서비스에 대한 엄청난 수요를 ...",
         "WebNPU API를 상상하다": "언젠가 AI 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 되면, 특히 웹 ..."
+    },
+    "당근미니 케이스 스터디": {
+        "2023-06-20": "- [[당근미니 케이스 스터디]]"
     },
     "0070 Climbing Stairs": {
         "Coding Tests": "- [x] [[0070 Climbing Stairs]]"
@@ -4405,8 +4412,7 @@ export const backlinks = {
         "Data Capturers": "### [[Lazy]]"
     },
     "BCP 47": {
-        "Mapping keys to set different input languages on macOS": "... 639 and ISO 3166 (i.e., [[BCP 47]]).",
-        "Project Heimdall Locale Transition Strategy": "... I decided to migrate to [[BCP 47]]. How will we transfer the ..."
+        "Mapping keys to set different input languages on macOS": "... 639 and ISO 3166 (i.e., [[BCP 47]])."
     },
     "Conditional Compilation": {
         "2023-01-25": "- [[Conditional Compilation]]"
@@ -4900,6 +4906,7 @@ export const backlinks = {
         "Karrot NX Team Mission Statement": "> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 ...",
         "Project Heimdall Initial Planning": "At [[Karrot]], scraping the news over the ...",
         "hn.cho.sh 개발 기록": "### [[Karrot|당근]] PM 론과의 대화",
+        "당근미니 케이스 스터디": "[[Karrot|당근]][[Mini App|미니]] Console [[Case Study|케이스 스터디]]",
         "도로명주소": "이에 대해서 [[Karrot|당근]]의 론께서 첨언을 해주셨는데, 확실히 해외에 ...",
         "초대장의 시대": "... 위치 기반이었거나 (초기 페이스북, 요즘 [[Karrot|당근]]) 그룹 스터디 (대부분의 게임) 이었을 ..."
     },
@@ -6087,6 +6094,7 @@ export const backlinks = {
         "Brane": "... be worthwhile to implement the [[Mini App]] white paper. However, the white ...",
         "Internet Computer": "... Strong ties to Super App [[Mini App]]",
         "The Zenly Playbook": "... Zenly team alongside the Snap [[Mini App]] team. I do think this ...",
+        "당근미니 케이스 스터디": "Karrot|당근[[Mini App|미니]] Console [[Case Study|케이스 스터디]]",
         "젠리의 성공 공식": "... 최근 Snap의 대규모 정리해고에 Snap [[Mini App]]과 함께 [[Zenly|젠리]] 팀 또한 해산되었다. ..."
     },
     "Dynamic Island on the Web": {
@@ -7985,6 +7993,7 @@ export const backlinks = {
         "2023-05-18": "- [[Project Heimdall]]",
         "2023-06-17": "- [[Project Heimdall]]",
         "2023-06-18": "- [[Project Heimdall]]",
+        "2023-06-20": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
@@ -8509,8 +8518,8 @@ export const backlinks = {
         "2022-08-03": "![[770154.png]]",
         "Adding a Verified Mark on Apple Mail & Gmail": "![[770154.png]]"
     },
-    "517F7A.png": {
-        "2023-06-20": "![[517F7A.png]]"
+    "ED71F4.png": {
+        "2023-06-20": "![[ED71F4.png]]"
     },
     "5531C0.png": {
         "2023-06-14": "![[5531C0.png]]"
@@ -9325,6 +9334,18 @@ export const backlinks = {
     },
     "B060EA.png": {
         "Cloud Computing": "![[B060EA.png]]"
+    },
+    "1CDFA0.png": {
+        "당근미니 케이스 스터디": "![[1CDFA0.png]]"
+    },
+    "2AD3A8.png": {
+        "당근미니 케이스 스터디": "![[2AD3A8.png]]"
+    },
+    "9FA958.png": {
+        "당근미니 케이스 스터디": "![[9FA958.png]]"
+    },
+    "76D06C.png": {
+        "당근미니 케이스 스터디": "![[76D06C.png]]"
     },
     "1FA88B.png": {
         "Jumpsite": "![[1FA88B.png]]"
@@ -10221,8 +10242,14 @@ export const backlinks = {
     "ABCEC0.png": {
         "To Kill a Night Owl": "![[ABCEC0.png]]"
     },
-    "78DD5F.png": {
-        "Project Heimdall": "![[78DD5F.png]]"
+    "F7BA33.png": {
+        "Project Heimdall": "![[F7BA33.png]]"
+    },
+    "EBD79C.png": {
+        "Project Heimdall": "  - ![[EBD79C.png]]"
+    },
+    "AC5118.png": {
+        "Project Heimdall": "  - ![[AC5118.png]]"
     },
     "371542.png": {
         "Database vs Datalake": "![[371542.png]]"
