@@ -7997,7 +7997,7 @@ export const backlinks = {
         "2023-06-17": "- [[Project Heimdall]]",
         "2023-06-18": "- [[Project Heimdall]]",
         "2023-06-20": "- [[Project Heimdall]]",
-        "2023-06-21": "[[Project Heimdall]]",
+        "2023-06-21": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
@@ -8441,6 +8441,9 @@ export const backlinks = {
     },
     "81F6FA.png": {
         "2023-01-31": "![[81F6FA.png]]"
+    },
+    "642AA0.gif": {
+        "2023-06-21": "![[642AA0.gif]]"
     },
     "D358DA.png": {
         "2023-04-05": "![[D358DA.png]]",
