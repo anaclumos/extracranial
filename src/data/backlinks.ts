@@ -481,7 +481,7 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "## [[2023-04-18]]"
     },
     "2023-05-16": {
-        "Project Heimdall": "##  [[2023-05-16]]"
+        "Project Heimdall": "## [[2023-05-16]]"
     },
     "2022-10-11": {
         "Letter to the Heptabase Team on 2022-10-11": "... to the Heptabase Team on [[2022-10-11]]",
@@ -10256,7 +10256,7 @@ export const backlinks = {
         "Project Heimdall": "![[AC5118.png]]"
     },
     "11C976.png": {
-        "Project Heimdall": "\t\t- ![[11C976.png]]"
+        "Project Heimdall": "    - ![[11C976.png]]"
     },
     "371542.png": {
         "Database vs Datalake": "![[371542.png]]"
