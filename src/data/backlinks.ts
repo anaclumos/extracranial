@@ -49,7 +49,7 @@ export const backlinks = {
     },
     "2023-05-11": {
         "Project FFMpeg for iPad": "## [[2023-05-11]]",
-        "Project Heimdall": "- [[2023-05-11]]: [[Boring Report]]"
+        "Project Heimdall": "## [[2023-05-11]]"
     },
     "2020-02-23": {
         "프로젝트 어덕행덕": "- [[2020-02-23]]"
@@ -153,6 +153,9 @@ export const backlinks = {
     "2020-03-07": {
         "프로젝트 어덕행덕": "- [[2020-03-07]]"
     },
+    "2023-06-21": {
+        "Project Heimdall": "## [[2023-06-21]]"
+    },
     "2022-08-16": {
         "이루다": "[[2022-08-16]] [[Los Angeles|LA]]로 오는 비행기에서 우연히 ..."
     },
@@ -239,7 +242,7 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "## [[2023-04-14]]"
     },
     "2023-06-20": {
-        "Project Heimdall": "- [[2023-06-20]]"
+        "Project Heimdall": "## [[2023-06-20]]"
     },
     "2020-09-20": {
         "프로젝트 어덕행덕": "## [[2020-09-20]]의 메모"
@@ -306,7 +309,7 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "## [[2023-04-03]]"
     },
     "2023-06-17": {
-        "Project Heimdall": "- [[2023-06-17]]: [[Project Heimdall Table Structure]]"
+        "Project Heimdall": "## [[2023-06-17]]"
     },
     "2022-07-19": {
         "2022-07-21": "See [[2022-07-19]].",
@@ -383,7 +386,7 @@ export const backlinks = {
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-13]]: 개인 사정"
     },
     "2023-05-18": {
-        "Project Heimdall": "- [[2023-05-18]]: [[Simple Analytics War Room]] on ..."
+        "Project Heimdall": "## [[2023-05-18]]"
     },
     "2023-04-16": {
         "hn.cho.sh 개발 기록": "## [[2023-04-16]]"
@@ -445,7 +448,7 @@ export const backlinks = {
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]"
     },
     "2023-04-19": {
-        "Project Heimdall": "- [[2023-04-19]]:[[Project Heimdall Initial Planning]]",
+        "Project Heimdall": "## [[2023-04-19]]",
         "Project Heimdall Initial Planning": "[[2023-04-19]]"
     },
     "2020-11-13": {
@@ -478,7 +481,7 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "## [[2023-04-18]]"
     },
     "2023-05-16": {
-        "Project Heimdall": "- [[2023-05-16]]: [[Project Heimdall Random Names]]"
+        "Project Heimdall": "## [[2023-05-16]]"
     },
     "2022-10-11": {
         "Letter to the Heptabase Team on 2022-10-11": "... to the Heptabase Team on [[2022-10-11]]",
@@ -497,7 +500,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- [[2020-04-01]]"
     },
     "2023-06-18": {
-        "Project Heimdall": "- [[2023-06-18]]"
+        "Project Heimdall": "## [[2023-06-18]]"
     },
     "2020-11-06": {
         "프로젝트 어덕행덕": "- [[2020-11-06]]"
@@ -950,7 +953,7 @@ export const backlinks = {
     "Project Linguine": {
         "2023-06-15": "- [[Project Linguine]]",
         "2023-06-18": "- [[Project Linguine]]",
-        "Project Heimdall": "  - [[Project Linguine]]",
+        "Project Heimdall": "- [[Project Linguine]]",
         "Project Heimdall Locale Transition Strategy": "... on DeepL's 29 languages. On [[Project Linguine]], I decided to migrate to ..."
     },
     "Palantir": {
@@ -2182,7 +2185,7 @@ export const backlinks = {
         "Digital Addiction": "[[Problem]]. I love software, but I ..."
     },
     "Project Heimdall Initial Planning": {
-        "Project Heimdall": "- 2023-04-19:[[Project Heimdall Initial Planning]]"
+        "Project Heimdall": "- [[Project Heimdall Initial Planning]]"
     },
     "0226 Invert Binary Tree": {
         "2022-07-26": "- [x] [[0226 Invert Binary Tree]]",
@@ -3771,7 +3774,7 @@ export const backlinks = {
     },
     "Boring Report": {
         "2023-05-16": "- [[Boring Report]]",
-        "Project Heimdall": "- 2023-05-11: [[Boring Report]]"
+        "Project Heimdall": "- [[Boring Report]]"
     },
     "Synonym-based Fuzzy Search": {
         "2022-12-12": "- [[Synonym-based Fuzzy Search]]"
@@ -4246,7 +4249,7 @@ export const backlinks = {
         "퍼블리시티권": "- 대한민국|한국에서는 지난 1982년 [[서울]] 민사지방법원에서 본인의 동의 없이 사진을 ..."
     },
     "Simple Analytics War Room": {
-        "Project Heimdall": "- 2023-05-18: [[Simple Analytics War Room]] on [[Hacker News]]"
+        "Project Heimdall": "- [[Simple Analytics War Room]] on [[Hacker News]]"
     },
     "http 없는 http 서버 만들기": {
         "2022-11-19": "  - [[http 없는 http 서버 만들기]]"
@@ -5786,7 +5789,7 @@ export const backlinks = {
         "2022-11-19": "  - [[Finding out Ghost version with JS]]"
     },
     "Project Heimdall Locale Transition Strategy": {
-        "Project Heimdall": "  - [[Project Heimdall Locale Transition Strategy]]"
+        "Project Heimdall": "- [[Project Heimdall Locale Transition Strategy]]"
     },
     "0543 Diameter of Binary Tree": {
         "Coding Tests": "- [x] [[0543 Diameter of Binary Tree]]"
@@ -5798,7 +5801,7 @@ export const backlinks = {
         "Person 542AD7": "Had a conversation with [[Alan Chan]] on [[2022-12-27]]."
     },
     "Project Heimdall Random Names": {
-        "Project Heimdall": "- 2023-05-16: [[Project Heimdall Random Names]]"
+        "Project Heimdall": "- [[Project Heimdall Random Names]]"
     },
     "Apple vs Spotify": {
         "2022-10-27": "### [[Apple vs Spotify]]"
@@ -5995,7 +5998,7 @@ export const backlinks = {
     },
     "Project Heimdall Table Structure": {
         "2023-06-17": "- [[Project Heimdall Table Structure]]",
-        "Project Heimdall": "- 2023-06-17: [[Project Heimdall Table Structure]]"
+        "Project Heimdall": "- [[Project Heimdall Table Structure]]"
     },
     "이루다": {
         "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected ..."
@@ -7994,6 +7997,7 @@ export const backlinks = {
         "2023-06-17": "- [[Project Heimdall]]",
         "2023-06-18": "- [[Project Heimdall]]",
         "2023-06-20": "- [[Project Heimdall]]",
+        "2023-06-21": "[[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
@@ -10246,10 +10250,13 @@ export const backlinks = {
         "Project Heimdall": "![[F7BA33.png]]"
     },
     "EBD79C.png": {
-        "Project Heimdall": "  - ![[EBD79C.png]]"
+        "Project Heimdall": "![[EBD79C.png]]"
     },
     "AC5118.png": {
-        "Project Heimdall": "  - ![[AC5118.png]]"
+        "Project Heimdall": "![[AC5118.png]]"
+    },
+    "11C976.png": {
+        "Project Heimdall": "    - ![[11C976.png]]"
     },
     "371542.png": {
         "Database vs Datalake": "![[371542.png]]"
