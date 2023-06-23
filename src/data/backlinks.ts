@@ -5541,6 +5541,9 @@ export const backlinks = {
         "Web Graphics": "- [[Graphics]] on Web",
         "glTF": "... glTF (derivative short form of [[Graphics]] Language Transmission Format or GL ..."
     },
+    "Egregore": {
+        "2023-06-22": "- [[Egregore]]"
+    },
     "C++": {
         "2022-07-20": "A successor language for [[C++]] requires:",
         "Coding Tests": "... use Python (main language) and [[C++]] (supplementary language)",
