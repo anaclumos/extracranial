@@ -983,6 +983,7 @@ export const filenames = {
     "Mac을 Command+L로 잠그는 방법": "AD9D50",
     "Magician": "2352A7",
     "Mail": "6B58DB",
+    "Make GPT Print LaTeX": "A5E52C",
     "Make Git Case Sensitive": "1F9E2C",
     "Makefile": "4730F9",
     "Manakin": "DFCFC0",
