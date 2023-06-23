@@ -240,7 +240,7 @@ LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수
 
 ## [[2023-04-21]]
 
-[[2023-04-20 Conversation with Velopert]]에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. [[Sprachraum]]에 구애받지 않는 [[Across the Sprachraums]].
+[[Person 9078DC]]에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. [[Sprachraum]]에 구애받지 않는 [[Across the Sprachraums]].
 
 ## [[2023-05-04]]
 
