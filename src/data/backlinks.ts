@@ -304,6 +304,10 @@ export const backlinks = {
     "2020-11-09": {
         "프로젝트 어덕행덕": "- [[2020-11-09]]"
     },
+    "2023-06-23": {
+        "Person 9078DC": "- Interviewed on [[2023-06-23]]",
+        "Person ED7526": "- Interviewed on [[2023-06-23]]"
+    },
     "2023-04-03": {
         "Bing Chat for All Browsers in Japan": "## [[2023-04-03]]",
         "hn.cho.sh 개발 기록": "## [[2023-04-03]]"
@@ -1229,8 +1233,8 @@ export const backlinks = {
         "2022-10-13": "- [[Either be the best-in-class or the most efficient]]"
     },
     "DEV.to": {
-        "2023-04-20 Conversation with Velopert": "... 방향으로 생각하고 계시고, Substack, Hashnode, [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 ...",
-        "Classic Blogs": "- [[DEV.to]]: https://dev.to/"
+        "Classic Blogs": "- [[DEV.to]]: https://dev.to/",
+        "Person 9078DC": "... 방향으로 생각하고 계시고, Substack, Hashnode, [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 ..."
     },
     "Andy Matuschak": {
         "2022-06-26": "- Would love to dissect [[Andy Matuschak]]'s work...",
@@ -1339,6 +1343,9 @@ export const backlinks = {
         "2022-10-17": "- [[SendGrid]]",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[SendGrid]]",
         "Newsletter": "- Alexander Obenauer [[SendGrid]]"
+    },
+    "AMR": {
+        "Person ED7526": "... interest in semantics, especially in [[AMR]]."
     },
     "Search Engine Indexing Your Life": {
         "2022-10-04": "- [[Search Engine Indexing Your Life]]",
@@ -1907,6 +1914,10 @@ export const backlinks = {
         "WebNPU API를 상상하다": "... 이미 Apple|애플의 Neural Engine으로 On-Device|온디바이스 [[ML]] 기술의 시작을 관찰하고 있다. 여기에는 ...",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "... Artifact|아티팩트라는 새로운 앱을 출시했다. Artifact|아티팩트는 [[ML|머신 러닝]]으로 관심사 기반 뉴스를 추천해주는 앱이다. ..."
     },
+    "ACL 60-60": {
+        "Person ED7526": "... of computational linguistics, launched an [[ACL 60-60]] initiative. The initiative aims to ...",
+        "무제한번역": "- [[ACL 60-60]]"
+    },
     "OCR": {
         "Letter to Mr. Matt Rickard on 2022-10-03": "- Applying [[OCR]] to [[Naver]] Vibe, 'moving third-party ...",
         "Screenshot as an API": "...    - text ([[OCR]])",
@@ -1917,8 +1928,8 @@ export const backlinks = {
         "Project Heimdall Initial Planning": "... An AI-powered news portal? Reference: [[일일일]], [[News Minimalist]]. Would it eventually ..."
     },
     "벨로그": {
-        "2023-04-20 Conversation with Velopert": "[[벨로그]]의 초기 성장에는 [[벨로퍼트]]님의 글이 가장 ...",
-        "Classic Blogs": "- [[벨로그|Velog]]"
+        "Classic Blogs": "- [[벨로그|Velog]]",
+        "Person 9078DC": "[[벨로그]]의 초기 성장에는 [[벨로퍼트]]님의 글이 가장 ..."
     },
     "Spellbound": {
         "2022-05-31": "- [[Spellbound]]",
@@ -2962,7 +2973,7 @@ export const backlinks = {
     },
     "METI Engine": {
         "2023-04-19": "- [[METI Engine]]",
-        "hn.cho.sh 개발 기록": "2023-04-20 Conversation with Velopert에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. ...",
+        "hn.cho.sh 개발 기록": "Person 9078DC에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. ...",
         "일일일": "... build the International mesh of [[METI Engine]]. If humans get involved in ..."
     },
     "Collaboration-based Tools for Thought": {
@@ -3618,7 +3629,7 @@ export const backlinks = {
         "한민족의 문화": "[[한민족]]의 문화에 대해서 다룬다."
     },
     "벨로퍼트": {
-        "2023-04-20 Conversation with Velopert": "벨로그의 초기 성장에는 [[벨로퍼트]]님의 글이 가장 큰 역할을 했다. ..."
+        "Person 9078DC": "벨로그의 초기 성장에는 [[벨로퍼트]]님의 글이 가장 큰 역할을 했다. ..."
     },
     "GitHub": {
         "2023-01-09": "- Can we use [[GitHub]]'s subscribe feature as a [[Newsletter]]?",
@@ -3695,8 +3706,8 @@ export const backlinks = {
         "2022-10-13": "- [x] [[Jumpsite]]",
         "2022-11-29": "- [[Jumpsite]]",
         "2023-02-02": "- [[Jumpsite]]",
-        "2023-04-20 Conversation with Velopert": "... 서버 최적화를 진행하셨다. Veltrends와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 ...",
         "Interface (Jumpsite)": "- [[Jumpsite]]",
+        "Person 9078DC": "... 서버 최적화를 진행하셨다. Veltrends와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 ...",
         "The One and Only (Social App)": "... Facebook, etc. It's similar to [[Jumpsite]], but not the same; you ..."
     },
     "Eventually, Diligent Immatures build the Future": {
@@ -4716,9 +4727,9 @@ export const backlinks = {
         "Project PEOPLE": "- [[Person CC8297]]"
     },
     "Substack": {
-        "2023-04-20 Conversation with Velopert": "... 벨로그|Velog를 편입하는 방향으로 생각하고 계시고, [[Substack]], [[Hashnode]], [[DEV.to]]와 경쟁 방안으로 Packt과 ...",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... for a developer-friendly mailing platform ([[Substack]] knocks off here).",
         "Newsletter": "- [[Substack]], Newneek을 필두로 엄청난 뉴스레터 성장",
+        "Person 9078DC": "... 벨로그|Velog를 편입하는 방향으로 생각하고 계시고, [[Substack]], [[Hashnode]], [[DEV.to]]와 경쟁 방안으로 Packt과 ...",
         "Substack is the new Medium": "- [[Substack]] is the new [[Medium]]"
     },
     "Weak Law of Large Number": {
@@ -4739,7 +4750,7 @@ export const backlinks = {
         "The Sudden Rise of Bondee": "... rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in ..."
     },
     "Chaf Games": {
-        "2023-04-20 Conversation with Velopert": "... 보급과 연결에 대한 현 접근으로 [[Chaf Games]]를 창업."
+        "Person 9078DC": "- Currently works at[[Chaf Games]]"
     },
     "Firefox": {
         "2022-10-10": "... - the Web developer blog [[Firefox]]",
@@ -5000,16 +5011,16 @@ export const backlinks = {
         "On National Crises and the Intellectuals — Focused on GB and KR": "... the realm of polymaths. A [[polymath]] is a person who has ...",
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 것을 종합할 수 있다면 우리는 [[Polymath|박식가]]<sub>[[Polymath]]</sub>의 영역에 속합니다. Polymath|박식가는 과학, 공학, ..."
     },
+    "Person 9078DC": {
+        "2023-04-20": "[[Person 9078DC]]",
+        "Across the Sprachraums": "- Inspired by [[Person 9078DC]].",
+        "hn.cho.sh 개발 기록": "[[Person 9078DC]]에서, [[METI Engine]] 네트워크의 필요성을 더더욱 ..."
+    },
     "DeepL vs Google Translate vs Bing Translate Offering Comparison": {
         "Project Linguine": "[[DeepL vs Google Translate vs Bing Translate Offering Comparison]]"
     },
     "Book Scanning": {
         "Using an iPad as my Ebook": "... I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], ..."
-    },
-    "2023-04-20 Conversation with Velopert": {
-        "2023-04-20": "[[2023-04-20 Conversation with Velopert]]",
-        "Across the Sprachraums": "- Inspired by [[2023-04-20 Conversation with Velopert]].",
-        "hn.cho.sh 개발 기록": "[[2023-04-20 Conversation with Velopert]]에서, [[METI Engine]] 네트워크의 필요성을 더더욱 ..."
     },
     "Q Function": {
         "2023-03-07": "- [[Q Function]]"
@@ -5499,6 +5510,7 @@ export const backlinks = {
     },
     "Across the Sprachraums": {
         "2023-04-21": "- [[Across the Sprachraums]]",
+        "ACL 60-60": "[[Across the Sprachraums]]",
         "Language": "- for context in [[Across the Sprachraums|intersprachraum]] communication: [[Foreign Language]]",
         "Research Paper Language System": "무제한번역 [[Across the Sprachraums]]",
         "The IDOL Stack": "... Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], GitHub CI/CD",
@@ -6682,12 +6694,12 @@ export const backlinks = {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs ...",
         "2022-08-28": "- I both used [[Cloudflare]] Pages and [[Vercel]] and concluded ...",
         "2023-04-10": "> When [[Cloudflare]] says free unlimited bandwidth, they're ...",
-        "2023-04-20 Conversation with Velopert": "... 핫링킹으로 인한 과금이 많이 발생했다. [[Cloudflare]]와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 ...",
         "AMP": "... such as Microsoft Bing or [[Cloudflare]]'s AMP caches, which allows pages ...",
         "Aldehyde Outage (January 2023)": "## Vercel and [[Cloudflare]] Build Errors",
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
         "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-end]] [[Front-end]]",
         "Edge Network": "- [[Cloudflare]] Pages & Cloudflare Functions",
+        "Person 9078DC": "... 핫링킹으로 인한 과금이 많이 발생했다. [[Cloudflare]]와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 ...",
         "Redirect": "## Redirect in [[Cloudflare]]",
         "Vercel Incident Report (April 2023)": "> When [[Cloudflare]] says free unlimited bandwidth, they're ..."
     },
@@ -7286,6 +7298,9 @@ export const backlinks = {
         "2022-06-28": "... notion of thinking in a [[foreign language]]? What is the difference, and ...",
         "Language": "... in Across the Sprachraums|intersprachraum communication: [[Foreign Language]]"
     },
+    "Person ED7526": {
+        "2023-06-23": "[[Person ED7526]]"
+    },
     "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
         "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
     },
@@ -7409,7 +7424,7 @@ export const backlinks = {
         "WWDC23": "- [[Custom Workout API]] → Will show up on ..."
     },
     "Backblaze": {
-        "2023-04-20 Conversation with Velopert": "... 인한 과금이 많이 발생했다. Cloudflare와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 서버 ..."
+        "Person 9078DC": "... 인한 과금이 많이 발생했다. Cloudflare와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 서버 ..."
     },
     "VP9 vs HEVC": {
         "2023-02-18": "- [[VP9 vs HEVC]]",
@@ -7596,8 +7611,8 @@ export const backlinks = {
         "일일일": "[[NewsGPT]] Model. A competitor to [[Project ..."
     },
     "Hashnode": {
-        "2023-04-20 Conversation with Velopert": "... 편입하는 방향으로 생각하고 계시고, Substack, [[Hashnode]], [[DEV.to]]와 경쟁 방안으로 Packt과 같은 ...",
-        "Classic Blogs": "- [[Hashnode]] https://hashnode.com/"
+        "Classic Blogs": "- [[Hashnode]] https://hashnode.com/",
+        "Person 9078DC": "... 편입하는 방향으로 생각하고 계시고, Substack, [[Hashnode]], [[DEV.to]]와 경쟁 방안으로 Packt과 같은 ..."
     },
     "Emoji": {
         "Ray.st": "... Collection of 26 Beautiful 3D [[Emoji]] Generated by [[Generative AI]].",
