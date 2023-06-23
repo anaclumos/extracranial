@@ -4,9 +4,9 @@ slug: '/ED7526'
 ---
 
 - Interviewed on [[2023-06-23]]
-- Currently works at Grammarly
+- Currently works at [[Grammarly]]
 
-Computational linguists use NLP technology to make Grammarly suggestions. They focus on production readiness and use a dictionary, Ngram, pipeline, ML, and DL.
+Computational linguists use NLP technology to make [[Grammarly]] suggestions. They focus on production readiness and use a dictionary, Ngram, pipeline, ML, and DL.
 
 Currently, we are focusing on measuring the quality of LLM's results through the development of metrics and error correction methods. For example, let's say we need to transform the impolite text into polite text through research on politeness. There will be many subtasks and approaches, such as defining subtasks and considering the differences in politeness between British and American English.
 
