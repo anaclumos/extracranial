@@ -2096,6 +2096,7 @@ export const backlinks = {
         "Stories Behind Satori": "- [[SVG]]-based solutions were the perfect balance ..."
     },
     "Interaction Effect": {
+        "2023-06-23": "- [[Interaction Effect]]",
         "Grammarly Work Note 2023-05-25": "- [[Interaction Effect]]: when two experiments affect each ..."
     },
     "Web Browser": {
@@ -4038,6 +4039,9 @@ export const backlinks = {
         "Watchings": "## [[Done]]",
         "lovearc.net": "A small [[done]] project I've done over the ...",
         "하늘땅사람": "... 수 있도록 키보드를 제작하는 Project|프로젝트. [[Done]]."
+    },
+    "Make GPT Print LaTeX": {
+        "2023-06-23": "- [[Make GPT Print LaTeX]]"
     },
     "Confession in Slack": {
         "2023-05-24": "- [[Confession in Slack]]"
@@ -6355,7 +6359,7 @@ export const backlinks = {
     },
     "Independence": {
         "2023-01-23": "- [[Independence]]",
-        "Interaction Effect": "... level of another variable. Related: [[Independence]]"
+        "Interaction Effect": "... level of another variable. Related: [[Independence]]. Interaction can be examined in ..."
     },
     "Internationalization": {
         "2023-06-06": "- [[Internationalization]]",
