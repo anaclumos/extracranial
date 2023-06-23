@@ -691,7 +691,16 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0110 Balanced Binary Tree]]"
     },
     "Grammarly Work Note": {
-        "Grammarly Work Note 2023-05-25": "[[Grammarly Work Note]]"
+        "Grammarly Work Note 2023-05-25": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-05-26": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-05-30": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-05-31": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-06-01": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-06-02": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-06-03": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-06-07": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-06-13": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-06-23": "[[Grammarly Work Note]]"
     },
     "Cloudflare Pages": {
         "2023-01-27": "... had to migrate Extracranial to [[Cloudflare Pages]] for [[Vercel]] for now...",
@@ -1470,6 +1479,8 @@ export const backlinks = {
     },
     "Google Analytics": {
         "GA": "- [[Google Analytics]]",
+        "Inspiring Open Source Projects": "... privacy-friendly web analytics alternative to [[Google Analytics]].",
+        "Self-hosted SaaS Alternatives": "### Self-hosted [[Google Analytics]] alternatives",
         "Simple Analytics": "> The privacy-first [[Google Analytics]] alternative. Simple Analytics",
         "YCLF 주간 사용자 1000명": "[[Google Analytics]] Referrals 추적 기능을 통해 어느 ..."
     },
@@ -2096,8 +2107,8 @@ export const backlinks = {
         "Stories Behind Satori": "- [[SVG]]-based solutions were the perfect balance ..."
     },
     "Interaction Effect": {
-        "2023-06-23": "- [[Interaction Effect]]",
-        "Grammarly Work Note 2023-05-25": "- [[Interaction Effect]]: when two experiments affect each ..."
+        "Grammarly Work Note 2023-05-25": "- [[Interaction Effect]]: when two experiments affect each ...",
+        "Grammarly Work Note 2023-06-23": "- [[Interaction Effect]]"
     },
     "Web Browser": {
         "2022-06-12": "... intended to be implemented in [[web Browser|web browsers]]. Web IDL is an IDL ...",
@@ -3235,6 +3246,9 @@ export const backlinks = {
         "Memory Hierarchy": "- Implementation of [[Principles of Locality]].",
         "Memory Wall": "    - [[Principles of Locality]]"
     },
+    "Grammarly Work Note 2023-06-23": {
+        "2023-06-23": "- [[Grammarly Work Note 2023-06-23]]"
+    },
     "Coding Tests in Swift": {
         "2023-01-28": "- [[Coding Tests in Swift]]",
         "2023-01-29": "- [[Coding Tests in Swift]]",
@@ -4041,7 +4055,7 @@ export const backlinks = {
         "하늘땅사람": "... 수 있도록 키보드를 제작하는 Project|프로젝트. [[Done]]."
     },
     "Make GPT Print LaTeX": {
-        "2023-06-23": "- [[Make GPT Print LaTeX]]"
+        "Grammarly Work Note 2023-06-23": "- [[Make GPT Print LaTeX]]"
     },
     "Confession in Slack": {
         "2023-05-24": "- [[Confession in Slack]]"
@@ -4664,8 +4678,10 @@ export const backlinks = {
         "빙글": "... 서비스로, 비키닷컴의 매각 후 창업한 [[대한민국|한국]] 스타트업이다. 이 서비스는 관심사를 중심으로 ...",
         "새로운 부동산은 지적 재산이다": "이러한 장점 때문에 [[대한민국|한국]]의 구글이라 불리는 [[Naver|네이버]]와 [[Kakao|카카오]]가 [[IP]] ...",
         "서낭당": "서낭당은 [[대한민국|한국]]의 산간 마을에 흔히 볼 수 ...",
+        "서당개 3년이면 풍월을 읊는다": "... 살려 전업하신 분도 계신다. 그러니까, [[대한민국|한국]] 사회에서 일부 사람들이 무시하는 사람들에게서 ...",
         "서울": "Seoul, the capital of [[대한민국|Korea]], has a fascinating history behind ...",
         "솟대": "솟대는 [[대한민국|한국]]의 민속신앙에서 새해의 풍년을 기원하며 세우거나 ...",
+        "슈퍼자판기": "일본의 잃어버린 몇십년을 [[대한민국|한국]]은 이제서야 마주하고 있다. 일본처럼 대한민국|한국에서도 ...",
         "유난한 도전": "... 테크를 배우는 게 아니다. 아직 [[대한민국|한국]]에는 제대로 된 Financial Technology|핀테크 서비스가 ...",
         "이 땅에 태어나서": "... 못한 정부가 만들어놓은 결과이며, 국민들이 [[대한민국]]이 세계 [[Economy|경제]]에서 경쟁력을 갖추기 위해 ...",
         "이공계": "그러나 현재 [[대한민국|한국]]에서는 이공계와 산업에 대한 관심과 지원이 ...",
@@ -5449,7 +5465,10 @@ export const backlinks = {
         "Heap (Computer Systems)": "On the other hand, [[Java]], Python, or other higher-level languages ...",
         "How is WebAssembly cross-platform when Assembly is not": "... WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the ...",
         "IntelliJ": "... development environment (IDE) written in [[Java]] for developing computer software written ...",
+        "Project Core ML Inference": "... different types of memories in [[Java]]?",
+        "Project Padme": "- [[Java]], Spring Boot",
         "Render.com": "... Ruby, PHP, Python, Node, and [[Java]].",
+        "Spring Boot": "... Spring Framework, a popular enterprise-level [[Java]] framework that provides comprehensive infrastructure ...",
         "Write Once Run Everywhere": "... the cross-platform benefits of the [[Java]] language. Ideally, a Java programs ...",
         "하늘땅사람 개발 기록": "... 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
@@ -5666,9 +5685,11 @@ export const backlinks = {
         "Grammarly Work Note 2023-05-25": "... all of the relevant data. [[Grammarly]] is trying to move away ...",
         "Grammarly Work Note 2023-05-26": "... as an internal-facing product of [[Grammarly]], has many spaces to improve.",
         "Grammarly Work Note 2023-06-01": "... is generally performed offline. Currently, [[Grammarly]] uses two different feature stores ...",
+        "Grammarly Work Note 2023-06-02": "... access it rapidly and effectively. [[Grammarly]]'s journey started with a JSON ...",
         "GrammarlyGO": "... of generative AI capabilities from [[Grammarly]]. It considers your context, preferences, ...",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
         "Manakin": "... is the infrastructure that runs [[Grammarly]]'s Experiment Service.",
+        "Person ED7526": "- Currently works at [[Grammarly]]",
         "Real Exams": "### [[Grammarly]]",
         "Real Interviews": "### [[Grammarly]]",
         "Sungari": "... Schema Managed Data Ingestion at [[Grammarly]]. The old system at [[GNAR]] ...",
@@ -5893,6 +5914,8 @@ export const backlinks = {
         "2023-04-19": "- [[Headless]]",
         "Ghost 테마를 자동 배포하는 방법": "... AWS에 호스팅하여 사용한다. Ghost CMS는 [[Headless|헤드리스]]하다. 말 그대로 머리가 없다는 뜻으로, ...",
         "Inspiring Open Source Projects": "... Open Commerce is an API-first, [[headless]] commerce platform built using Node.js, ...",
+        "Keystone.js": "## keystonejs/keystone: The most powerful [[headless]] CMS for Node.js — built ...",
+        "Refine (Framework)": "... Ant Design, Chakra UI, Mantine, [[Headless]])",
         "Satori": "- Easy: No [[headless]] [[Web Browser|browser]] is needed. Using ...",
         "hn.cho.sh 개발 기록": "[[Headless]] [[Chrome]]을 사용하도록 GitHub Actions를 개편했다."
     },
@@ -6828,7 +6851,7 @@ export const backlinks = {
     "AMP": {
         "2022-05-31": "...  - Interactive Mail|Emails using [[AMP]] under the hood.",
         "2022-12-06": "- Reimagining Emails: React Email, [[AMP]], [[AMP Email]], [[Spellbound]]",
-        "AMP Email": "... format provides a subset of [[AMP]] [[HTML]] components for use in ..."
+        "AMP Email": "> [[AMP]] for [[Mail|email]] allows senders to ..."
     },
     "Veil of Ignorance": {
         "p-value Hacking": "... it is related to the [[Veil of Ignorance]]."
@@ -7228,7 +7251,9 @@ export const backlinks = {
     "Variance": {
         "2023-03-07": "- [[Variance]]",
         "Cauchy": "... distribution has no mean or [[variance]], as the [[moments]] do not ...",
-        "Standard Normal": "... distribution with mean 0 and [[variance]] 1. The symbol $Z$ denotes ..."
+        "Interaction Effect": "... regression analysis or analysis of [[variance]] (ANOVA), but the basic idea ...",
+        "Standard Normal": "... distribution with mean 0 and [[variance]] 1. The symbol $Z$ denotes ...",
+        "Weak Law of Large Number": "- [[Variance]] of the Sample Mean: $\\mathbb{V}[\\overline{X^n}]$"
     },
     "배달의민족 FE 개발자가 일하는 법 발표": {
         "2022-11-19": "  - [[배달의민족 FE 개발자가 일하는 법 발표]]"
@@ -7303,7 +7328,7 @@ export const backlinks = {
         "Language": "... in Across the Sprachraums|intersprachraum communication: [[Foreign Language]]"
     },
     "Person ED7526": {
-        "2023-06-23": "- [[Person ED7526]]"
+        "Grammarly Work Note 2023-06-23": "- [[Person ED7526]]"
     },
     "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
         "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
@@ -7530,7 +7555,7 @@ export const backlinks = {
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> United States of America|미국, [[일본]]의 기술 수준을 따라갈 수 있을까,",
         "드디어, 한국 애플페이": "... 실패한 \"저스터치\"이다 (이때 저스터치가 성공했다면 [[일본]]의 스이카와 같이 예외적인 NFC 규격으로 ...",
         "새로운 부동산은 지적 재산이다": "[[일본]] 기업과 투자자들은 1980년대 [[Economy|경제]] 호황기에 ...",
-        "슈퍼자판기": "[[일본]]의 잃어버린 몇십년을 한국은 이제서야 마주하고 ...",
+        "슈퍼자판기": "[[일본]]의 잃어버린 몇십년을 [[대한민국|한국]]은 이제서야 마주하고 ...",
         "이완용": "... 독립 유지와 영토 보존을 위해서라는 [[일본]]의 정중한 약속을 믿고 일본과 동맹관계를 ...",
         "일본 과학기술 총력전": "... to 150 Years of Modern [[일본|Japan]]: The Bankruptcy of Science, Technology, ...",
         "젠리의 성공 공식": "... 관찰했다. 대만 대학에 유학 간 [[일본]] 학생들로부터 대만 전체로 앱이 퍼지는 ...",
@@ -7599,8 +7624,8 @@ export const backlinks = {
         "Screenshot as an API": "- [[Letter to Mr. Matt Rickard on 2022-10-03]]"
     },
     "p-value": {
-        "2023-06-23": "- [[p-value]]",
         "Grammarly Work Note 2023-05-25": "... showed numbers and not the [[p-value]]. Our goal is to create ...",
+        "Grammarly Work Note 2023-06-23": "- [[p-value]]",
         "p-value Hacking": "\"[[P-value]] hacking,\" also known as \"p-hacking,\" ..."
     },
     "Social Coding": {
@@ -8093,7 +8118,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "- [[HTML]] input 태그에서 `아`를 입력 불가능함. ..."
     },
     "Sample Ratio Mismatch": {
-        "2023-06-23": "- [[Sample Ratio Mismatch]]"
+        "Grammarly Work Note 2023-06-23": "- [[Sample Ratio Mismatch]]"
     },
     "I just want it fixed": {
         "Neo Korea": "- [[I just want it fixed|그냥 고치면 좋겠다]]",

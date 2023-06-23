@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/7073A5'
 ---
 
+[[Grammarly Work Note]]
+
 - Add columns to the result table on Databricks.
 - metric results table in data bricks
 - Add more tables to `service.prod_experimentation.experiment_metrics_results.`

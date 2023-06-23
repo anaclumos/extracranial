@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/17D18B'
 ---
 
+[[Grammarly Work Note]]
+
 [[Manakin]], as an internal-facing product of [[Grammarly]], has many spaces to improve.
 
 1. **Outdated Node and React**. [[Manakin]] runs on [[Node.js]] 16 with [[Create React App]]. [[Node.js]] 16 sunsets on September of 2023 and [[Create React App|CRA]] is already discouraged from the [[React]] team.

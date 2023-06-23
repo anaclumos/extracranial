@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/7442D2'
 ---
 
-- [plausible/analytics](https://github.com/plausible/analytics): Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.
+- [plausible/analytics](https://github.com/plausible/analytics): Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to [[Google Analytics]].
 - [medusajs/medusa](https://github.com/medusajs/medusa): The open-source Shopify alternative ⚡
 - [boxyhq/jackson](https://github.com/boxyhq/jackson): SAML Jackson: A SAML SSO service designed as an OAuth 2.0 or OpenID Connect flow. Integrate SAML with just a few lines of code. Demo - https://saml-demo.boxyhq.com
 - [jitsucom/jitsu](https://github.com/jitsucom/jitsu) Jitsu is an open-source Segment alternative. Fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days

@@ -825,6 +825,7 @@ export const filenames = {
     "Grammarly Work Note 2023-06-03": "7073A5",
     "Grammarly Work Note 2023-06-07": "564602",
     "Grammarly Work Note 2023-06-13": "820313",
+    "Grammarly Work Note 2023-06-23": "166744",
     "GrammarlyGO": "D92A3A",
     "GraphQL": "A3D87E",
     "Graphic Renderer": "17ACA0",
