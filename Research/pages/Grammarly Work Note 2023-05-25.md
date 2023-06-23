@@ -112,7 +112,7 @@ flowchart TB
 
 ![[57FF25.png]]
 
-Managing metrics is easier with a scorecard as it serves as the front end. In the past, we didn't have a scorecard and relied on experimenting with birds to extract [[GNAR]] data, which only showed numbers and not the p-value. Our goal is to create historical lines to improve our metrics management.
+Managing metrics is easier with a scorecard as it serves as the front end. In the past, we didn't have a scorecard and relied on experimenting with birds to extract [[GNAR]] data, which only showed numbers and not the [[p-value]]. Our goal is to create historical lines to improve our metrics management.
 
 ## Why not buy a solution at [[Grammarly]]?
 

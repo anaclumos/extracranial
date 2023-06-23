@@ -7299,7 +7299,7 @@ export const backlinks = {
         "Language": "... in Across the Sprachraums|intersprachraum communication: [[Foreign Language]]"
     },
     "Person ED7526": {
-        "2023-06-23": "[[Person ED7526]]"
+        "2023-06-23": "- [[Person ED7526]]"
     },
     "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": {
         "2016-11-28": "- [[아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다]]"
@@ -7593,6 +7593,11 @@ export const backlinks = {
     "Letter to Mr. Matt Rickard on 2022-10-03": {
         "2022-10-04": "- [[Letter to Mr. Matt Rickard on 2022-10-03]]",
         "Screenshot as an API": "- [[Letter to Mr. Matt Rickard on 2022-10-03]]"
+    },
+    "p-value": {
+        "2023-06-23": "- [[p-value]]",
+        "Grammarly Work Note 2023-05-25": "... showed numbers and not the [[p-value]]. Our goal is to create ...",
+        "p-value Hacking": "\"[[P-value]] hacking,\" also known as \"p-hacking,\" ..."
     },
     "Social Coding": {
         "Matt Rickard": "- [[Social Coding]]"
@@ -8082,6 +8087,9 @@ export const backlinks = {
         "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 ...",
         "코드클럽": "또한 BCD의 모든 수업 자료는 [[HTML]] 문법과 Code Snippet을 활용한 Markdown ...",
         "하늘땅사람 개발 기록": "- [[HTML]] input 태그에서 `아`를 입력 불가능함. ..."
+    },
+    "Sample Ratio Mismatch": {
+        "2023-06-23": "- [[Sample Ratio Mismatch]]"
     },
     "I just want it fixed": {
         "Neo Korea": "- [[I just want it fixed|그냥 고치면 좋겠다]]",
