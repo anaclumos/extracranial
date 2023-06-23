@@ -720,6 +720,7 @@ export const filenames = {
     "Edge Network": "463E59",
     "Educational Technology": "6E7716",
     "Effective Accelerationism": "D344B2",
+    "Egregore": "745BA1",
     "Either be the best-in-class or the most efficient": "1F7327",
     "Eleven Labs": "5A10A1",
     "Elo Rating": "88A3F5",
