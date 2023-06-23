@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/F1A12C'
 ---
 
+[[Grammarly Work Note]]
+
 ## Gate vs. Publish
 
 The traditional 'Publish' release method involves rolling out a new application or feature across the entire user base, often through an [[app store]] release. This approach typically takes a considerable amount of time, often due to [[app store]] processes or user uptake. The 'Gate' mechanism, on the other hand, ships all of the code necessary for the new feature all at once, but the interfaces are controlled by the [[back-end]] and gradually enabled throughout the entire demographic. This method is more efficient between the experimental phase and the final roll-out.

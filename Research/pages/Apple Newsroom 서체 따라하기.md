@@ -49,7 +49,7 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple [[Fo
 
 ### 영문: [[Inter]]
 
-    4. Inter
+    4. [[Inter]]
     /* 비 Apple 제품에서 영문 폰트 */
 
 [Rasmus Andersson](https://rsms.me/about)이라는 분께서 제작하신 Inter Font가 [[San Francisco|SF Pro]]와 가장 닮았다는 생각이 들었다. SF 폰트와는 다르게 웹폰트로 자유롭게 사용할 수 있으며 [rsms.me](https://rsms.me/inter/inter.css)와 [Google Font](https://fonts.google.com/specimen/Inter)에서 모두 제공된다. [Mozilla](https://mozilla.org), [Figma](https://www.figma.com/), [GitHub](https://github.com), [프로그래머스](https://programmers.co.kr/) 등이 Inter Font를 사용한다.

@@ -11,7 +11,7 @@ Build an **interaction effects calculator** for [[Manakin]].
 
 ## Technologies and Languages
 
-- Java, Spring Boot
+- [[Java]], Spring Boot
 - TypeScript, React
 - SparkSQL, Scala, Python
 

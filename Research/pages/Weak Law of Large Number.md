@@ -4,7 +4,7 @@ slug: '/60C374'
 ---
 
 - Expectation of the Sample Mean: $\mathbb{E}[\overline{X^n}]$
-- Variance of the Sample Mean: $\mathbb{V}[\overline{X^n}]$
+- [[Variance]] of the Sample Mean: $\mathbb{V}[\overline{X^n}]$
 
 **Sample Mean** $\hat{\theta}_n$ is converging to **Population Mean** $\theta$: $\lim\limits_{n \to \infty} \mathbb{E}[(\hat{\theta}_n - \theta)^2] = 0$
 
