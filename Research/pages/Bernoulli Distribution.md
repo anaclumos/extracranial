@@ -35,10 +35,10 @@ $$
 - Number of Outcomes. Two or More?
 - With or Without Replacement?
 
-| Strategies        | With Replacement | Without Replacement         |
-| ----------------- | ---------------- | --------------------------- |
-| $2$ outcomes      | Binomial         | Hypergeometric              |
-| $\geq 3$ outcomes | Multinomial      | Multivariate hypergeometric |
+| [[Strategy        | Strategies]] | With Replacement            | Without Replacement |
+| ----------------- | ------------ | --------------------------- | ------------------- |
+| $2$ outcomes      | Binomial     | Hypergeometric              |
+| $\geq 3$ outcomes | Multinomial  | Multivariate hypergeometric |
 
 ## Multinomial
 

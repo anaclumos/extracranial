@@ -21,7 +21,7 @@ Recent studies have shown that [[LLM|LLMs]] can be susceptible to PI attacks, wh
 
 ### Methodology
 
-- Literature review: Conduct a comprehensive review of current PI attack techniques and mitigation strategies to identify gaps in existing knowledge and potential areas for improvement.
+- Literature review: Conduct a comprehensive review of current PI attack techniques and mitigation [[Strategy|strategies]] to identify gaps in existing knowledge and potential areas for improvement.
 - Design an authority system: Develop a conceptual model of an authority system for Generative Text AIs, focusing on differentiating between trusted and untrusted instructions.
 - Test the authority system: Implement the designed authority system on a selected [[LLM]] and assess its performance in mitigating PI attacks.
 - Evaluate mitigation techniques: Investigate potential mitigation techniques that can be integrated with the authority system to enhance the [[LLM]]'s defense against PI attacks.

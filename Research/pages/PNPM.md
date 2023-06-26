@@ -8,7 +8,7 @@ PNPM is a package manager for Node.js that aims to improve aspects of [[npm]] an
 Key Features of PNPM:
 
 1. **Efficient Disk Space Usage**: PNPM stores package files in a single location on the disk. When a package is installed, it creates a hard link from the global store, thus avoiding the need for duplicate files on the disk.
-2. **Fast**: Due to its linking strategy, installations is faster and less taxing on your system's resources.
+2. **Fast**: Due to its linking [[strategy]], installations is faster and less taxing on your system's resources.
 3. **Strict Package Linking**: PNPM creates a node_modules folder using symlinks, and it's structured so that packages don't have access to packages not declared in their dependencies. This helps catch missing dependencies before going into production.
 
 Comparison between [[npm]], [[Yarn]], and ppm:

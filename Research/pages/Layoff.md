@@ -12,7 +12,7 @@ slug: '/52F47B'
 - What are some myths or misunderstandings about layoffs
 - Layoffs often do not cut costs, as there are many instances of laid-off employees being hired back as contractors
 - Layoffs often do not increase stock prices, in part because layoffs can signal that a company is having difficulty
-- Layoffs do not increase productivity. Layoffs do not solve what is often the underlying problem, which is often an ineffective strategy, a loss of market share, or too little revenue. Layoffs are basically a bad decision
+- Layoffs do not increase productivity. Layoffs do not solve what is often the underlying problem, which is often an ineffective [[strategy]], a loss of market share, or too little revenue. Layoffs are basically a bad decision
 - We ought to place a higher priority on human life
 
 ### [Tech Companies Are Irrational Pop Cultures](https://softwarecrisis.dev/letters/tech-is-a-pop-culture/)
@@ -25,5 +25,5 @@ slug: '/52F47B'
 - These traits are deeply irrational, but they are the tech industry's default mode of operation
 - A recent example of a pop culture trend taking tech by storm is layoffs
 - The effect is even worse for software companies because [employee churn is lethal for software](https://www.baldurbjarnason.com/2022/theory-building/)
-- The only way to win is to refrain from participating. Don't chase trends. Don't copy your competitors. Evaluate strategies, tools, and technologies on their own merits. Look at how they affect your organization, systems, products, and markets
+- The only way to win is to refrain from participating. Don't chase trends. Don't copy your competitors. Evaluate [[Strategy|strategies]], tools, and technologies on their own merits. Look at how they affect your organization, systems, products, and markets
 - Don't let the industry's pop culture drag you into making poor decisions
