@@ -13,7 +13,7 @@ slug: '/F3D96B'
 
 - The world is at an inflection point.
 - The post-Cold War era is over, and competition exists between significant powers to shape what comes next.
-- The 2022 National Security Strategy aims to advance America's vital interests and position the [[United States of America|United States]] to outmaneuver geopolitical competitors.
+- The 2022 National Security [[Strategy]] aims to advance America's vital interests and position the [[United States of America|United States]] to outmaneuver geopolitical competitors.
 - The idea of competing with major autocratic powers to shape the international order enjoys broad support that is bipartisan at home and deepening abroad.
 - The [[United States of America|US]] will modernize and strengthen its military for the era of strategic competition with significant powers.
 - The [[United States of America|US]] will invest in the underlying sources and tools of [[American]] power and influence and build the most robust possible coalition of nations to enhance collective impact.

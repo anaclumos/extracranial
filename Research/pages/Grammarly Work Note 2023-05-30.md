@@ -5,9 +5,9 @@ slug: '/37F33F'
 
 [[Grammarly Work Note]]
 
-## Optimal Resource Utilization and Cost Reduction Strategies for [[Databricks]] Clusters
+## Optimal Resource Utilization and Cost Reduction [[Strategy|Strategies]] for [[Databricks]] Clusters
 
-Today [[Grammarly Experimentations Team]] discussed strategies to reduce cost in a large-scale [[Databricks]] environment, where we experienced a recent spike in usage.
+Today [[Grammarly Experimentations Team]] discussed [[Strategy|strategies]] to reduce cost in a large-scale [[Databricks]] environment, where we experienced a recent spike in usage.
 
 ### Background
 

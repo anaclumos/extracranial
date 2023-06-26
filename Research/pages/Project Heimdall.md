@@ -29,7 +29,7 @@ slug: '/9DC5BA'
 
 ## [[2023-06-18]]
 
-- Honestly, the GTM strategy for Heimdall is a considerable concern. How are we going to do that?
+- Honestly, the [[Go To Market|GTM]] [[strategy]] for Heimdall is a considerable concern. How are we going to do that?
 - [[Project Heimdall Locale Transition Strategy]]
 - [[Project Linguine]]
 
@@ -50,6 +50,7 @@ Implemented Nav bar!
 ## [[2023-06-21]]
 
 - Implemented Login with Clerk
+- ![[7BF55A.gif]]
 - The `useLocaleRedirect` caused some problems when a user lands on Heimdall in a non-English locale context and logged in
   - Clerk needs some initial load time, for example, 2s, for the Clerk Login SDK to load
   - After logging in, conditionally loading `<SignIn>` caused an Error on Clerk, that rendering `<SignIn>` when users are logged in is illegal. Thus, Clerk was redirected to the default locale. This happened within the after 2 seconds when Clerk figured that it was logged in, and when React was unmounting the `<SignIn>` widget.
