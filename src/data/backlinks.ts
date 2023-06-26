@@ -6061,7 +6061,8 @@ export const backlinks = {
     },
     "Antipreneur": {
         "2023-03-05": "- [[Antipreneur]]",
-        "2023-05-02": "... Powerful|강소기업을 만들고 싶다. 대기업이 아니라. [[Antipreneur|강소기업가]]가 되자."
+        "2023-05-02": "... Powerful|강소기업을 만들고 싶다. 대기업이 아니라. [[Antipreneur|강소기업가]]가 되자.",
+        "European Rhapsody": "[[Antipreneur]]"
     },
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize ...",
@@ -6701,7 +6702,6 @@ export const backlinks = {
         "AI replaces expensive jobs first": "## Potential [[Strategy]]",
         "Accelerationism": "... Jean Baudrillard's proposals for \"fatal [[Strategy|strategies]]\", and aspects of the theoretical ...",
         "Are Computers Psychotropic Substances": "Services use several psychological [[Strategy|strategies]] to increase their revenues.",
-        "Bernoulli Distribution": "| [[Strategy|Strategies]]      ...",
         "Biden-Harris Administration National Security Strategy 2022": "- The 2022 National Security [[Strategy]] aims to advance America's vital ...",
         "Case Study": "... might cover a particular firm's [[strategy]] or a broader market; similarly, ...",
         "Finally, Apple Pay in Korea": "... using IC chips. The first [[strategy]] is JUSTOUCH (If JUSTOUCH were ...",
@@ -9238,6 +9238,9 @@ export const backlinks = {
     },
     "DCF75C.png": {
         "Modern MacPaint": "![[DCF75C.png]]"
+    },
+    "Strategy        ": {
+        "Bernoulli Distribution": "| [[Strategy        | Strategies]] | With Replacement   ..."
     },
     "6982B6.png": {
         "Now Page": "![[6982B6.png]]"
