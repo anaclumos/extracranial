@@ -81,7 +81,7 @@ Physicians and lawyers also show strong industry resistance. However, they also 
 - Lawyer [[AI]] deemed discriminating? Can we let such biased agents take over our nation?
   - The bias of precedents can appear depending on how [[statistics]] are captured. If you maliciously capture [[statistics]] and frame specific vested Research as biased, it can spread to [[AI|artificial intelligence]] distrust and rejection movements regardless of the context.
 
-## Potential Strategy
+## Potential [[Strategy]]
 
 :::info 🐵
 In the animal kingdom, there was a naive monkey. One day, a badger came and presented colorful sneakers to a monkey. The monkey didn't need shoes but received them as a gift. After that, badgers continued offering sneakers, and the callus on the monkey's feet gradually thinned. Soon, the monkey, unable to go out without shoes, became dependent on the badger.

@@ -1243,7 +1243,7 @@ export const backlinks = {
     },
     "DEV.to": {
         "Classic Blogs": "- [[DEV.to]]: https://dev.to/",
-        "Person 9078DC": "... 방향으로 생각하고 계시고, Substack, Hashnode, [[DEV.to]]와 경쟁 방안으로 Packt과 같은 전략을 ..."
+        "Person 9078DC": "... 방향으로 생각하고 계시고, Substack, Hashnode, [[DEV.to]]와 경쟁 방안으로 Packt과 같은 [[Strategy|전략]]을 ..."
     },
     "Andy Matuschak": {
         "2022-06-26": "- Would love to dissect [[Andy Matuschak]]'s work...",
@@ -2506,6 +2506,13 @@ export const backlinks = {
         "I travel the World Wide Web": "- [[In-house and Free Market]]",
         "The 30-Day Tweet Test (Harry Stebbings)": "| 02-22 | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]  ..."
     },
+    "Go To Market": {
+        "10x Technopreneurs": "... and have the knowledge for [[Go To Market|Go-To-Market]] [[Strategy|strategies]] and monetization. They can ...",
+        "2023-06-26": "- [[Go To Market]]",
+        "Project Heimdall": "- Honestly, the [[Go To Market|GTM]] [[strategy]] for Heimdall is a ...",
+        "hn.cho.sh 개발 기록": "- PMF보다 [[Go To Market]] [[Strategy|전략]]이 훨씬 더 중요하다 (진짜 ...",
+        "서당개 3년이면 풍월을 읊는다": "... 엄청 많다. 경제가 좋으면 슈퍼마켓에서도 [[Go To Market|시장 전략]]과 리텐션, 소비자 분석을 전부 돌려야 ..."
+    },
     "Handling files in Unix": {
         "Internetworking": "- [[Handling files in Unix]]"
     },
@@ -2906,6 +2913,9 @@ export const backlinks = {
         "Passkey": "Passkey for Google is [[GA]] as of [[2023-05-03]]",
         "도메인 찾아 삼만리": "... 1년 뒤 Google|구글이 `.dev` 도메인을 [[GA|공개]]했고, `cho.dev`을 사려 했지만 ▲ 가격이 ..."
     },
+    "European Rhapsody": {
+        "2023-06-26": "- [[European Rhapsody]]"
+    },
     "Poisson Approximation": {
         "2023-01-26": "- [[Poisson Approximation]]",
         "2023-01-31": "- [[Poisson Approximation]]",
@@ -3287,7 +3297,7 @@ export const backlinks = {
         "이 땅에 태어나서": "정주영은 [[Korean Discount|코리안 디스카운트]]의 원인 중 하나로 지목되는 사내 ..."
     },
     "DOM": {
-        "2022-06-14": "- Brane에서 Brane [[DOM]]을 만드는 것은 구현 전략의 일부일 ...",
+        "2022-06-14": "- Brane에서 Brane [[DOM]]을 만드는 것은 구현 [[Strategy|전략]]의 일부일 ...",
         "2022-06-22": "... - the question revolves: what [[DOM]] API should [[WorkerDOM]] support?",
         "2022-06-26": "... SharedArrayBuffer, Atomic, and WorkerDOM's Binary [[DOM]] manipulation.",
         "2022-06-27": "- Confirm WorkerDOM's Binary [[DOM]] Manipulation channel.",
@@ -3562,7 +3572,8 @@ export const backlinks = {
         "AI-native": "... AI-native approach's benefits include faster [[Time to Market]], increased scalability and availability, and ...",
         "Service Shimming": "... as we developers think. Maybe [[Time to Market]] is more critical. Here are ...",
         "Tech Now Pay Later": "... now. This significantly reduces the [[Time to Market]], which is more important than ...",
-        "기술 할부 결제": "이는 서비스의 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 스타트업에서 완전무결한 ..."
+        "기술 할부 결제": "이는 서비스의 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 스타트업에서 완전무결한 ...",
+        "서비스 시밍": "... 그보다 더 중요한 것은 시장까지의 시간([[Time to Market|Time-to-market]])이다. 이런 사례는 기업의 운영에 있어서 ..."
     },
     "Augmented Reality": {
         "Apple Vision Pro": "... cases in various fields, including [[Augmented Reality]]‐based instruction, home decoration, and watching ...",
@@ -3965,7 +3976,7 @@ export const backlinks = {
     "Databricks": {
         "GNAR": "... move away from GNAR to [[Databricks]].",
         "Grammarly Work Note 2023-05-25": "... move away from GNAR to [[Databricks]].",
-        "Grammarly Work Note 2023-05-30": "... and Cost Reduction Strategies for [[Databricks]] Clusters",
+        "Grammarly Work Note 2023-05-30": "... and Cost Reduction Strategy|Strategies for [[Databricks]] Clusters",
         "Project Prepare for Grammarly": "- [[Databricks]]",
         "Real Exams": "### CodeSignal (HRT, [[Databricks]]",
         "Real Interviews": "### [[Databricks]]"
@@ -4833,7 +4844,7 @@ export const backlinks = {
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 해도 PHP를 주로 사용했다. 전부 [[Server-side Rendering|서버 사이드 렌더링]]이었다. 그때는 이것이 당연했다. [[Back-end|백엔드]]는 자바를 ..."
     },
     "WorkerDOM": {
-        "2022-06-14": "...  - 이 세부 전략으로 [[WorkerDOM]]을 쓸 수도 있고, 고쳐서 쓸 ...",
+        "2022-06-14": "...  - 이 세부 Strategy|전략으로 [[WorkerDOM]]을 쓸 수도 있고, 고쳐서 쓸 ...",
         "2022-06-22": "Google's [[WorkerDOM]] has no event algorithm.",
         "2022-06-26": "- Explore SharedArrayBuffer, Atomic, and [[WorkerDOM]]'s Binary [[DOM]] manipulation.",
         "2022-06-27": "- Confirm [[WorkerDOM]]'s Binary [[DOM]] Manipulation channel.",
@@ -5196,7 +5207,7 @@ export const backlinks = {
         "슈퍼자판기": "[[Death Stranding|데스 스트랜딩]]을 하며 자판기의 미래를 상상했다. 그리고 ..."
     },
     "Grammarly Experimentations Team": {
-        "Grammarly Work Note 2023-05-30": "Today [[Grammarly Experimentations Team]] discussed strategies to reduce cost ...",
+        "Grammarly Work Note 2023-05-30": "Today [[Grammarly Experimentations Team]] discussed [[Strategy|strategies]] to reduce cost ...",
         "Project Prepare for Grammarly": "Project to prepare for my [[Grammarly Experimentations Team]] team employment."
     },
     "자아는 발굴되는 것이다": {
@@ -6684,6 +6695,43 @@ export const backlinks = {
     "Prompt Marketplace": {
         "2022-12-28": "- [[Prompt Marketplace]]"
     },
+    "Strategy": {
+        "10x Technopreneurs": "... knowledge for Go To Market|Go-To-Market [[Strategy|strategies]] and monetization. They can run ...",
+        "2022-06-14": "... Brane DOM을 만드는 것은 구현 [[Strategy|전략]]의 일부일 뿐, Brane DOM 자체는 ...",
+        "AI replaces expensive jobs first": "## Potential [[Strategy]]",
+        "Accelerationism": "... Jean Baudrillard's proposals for \"fatal [[Strategy|strategies]]\", and aspects of the theoretical ...",
+        "Are Computers Psychotropic Substances": "Services use several psychological [[Strategy|strategies]] to increase their revenues.",
+        "Bernoulli Distribution": "| [[Strategy|Strategies]]      ...",
+        "Biden-Harris Administration National Security Strategy 2022": "- The 2022 National Security [[Strategy]] aims to advance America's vital ...",
+        "Case Study": "... might cover a particular firm's [[strategy]] or a broader market; similarly, ...",
+        "Finally, Apple Pay in Korea": "... using IC chips. The first [[strategy]] is JUSTOUCH (If JUSTOUCH were ...",
+        "First Two Months of a Startup": "... carefully plan and execute their [[Strategy|strategies]] during this initial phase to ...",
+        "Grammarly Work Note 2023-05-30": "... Resource Utilization and Cost Reduction [[Strategy|Strategies]] for [[Databricks]] Clusters",
+        "Greedy Algorithm": "... In many problems, a greedy [[strategy]] does not produce an optimal ...",
+        "Krafton Way": "... 똑똑하기 때문에 따르는 사람들이 생긴다. [[Strategy|전략]]적 판단과 그로 인한 성공적인 결과를 ...",
+        "Layoff": "... which is often an ineffective [[strategy]], a loss of market share, ...",
+        "Old Fashioned Camera": "- 인스타그램을 이용한 바이럴 [[Strategy|전략]] 활용",
+        "PNPM": "... Fast: Due to its linking [[strategy]], installations is faster and less ...",
+        "Person 648442": "- Possible exit [[strategy]] — Twitter's Non-existent Search [[Engine]]: ...",
+        "Person 9078DC": "... DEV.to와 경쟁 방안으로 Packt과 같은 [[Strategy|전략]]을 고려 중. 지적 자산의 보급과 ...",
+        "Pivot": "... to a significant change in [[strategy]] or direction.",
+        "Project Heimdall": "... Honestly, the Go To Market|GTM [[strategy]] for Heimdall is a considerable ...",
+        "Proposal of Research 2023-03-28": "... PI attack techniques and mitigation [[Strategy|strategies]] to identify gaps in existing ...",
+        "Quoridor Game": "... as well as a previous [[strategy]] using a GA.",
+        "The Engine Equation": "... of people and to develop [[Strategy|strategies]] to shape the course of ...",
+        "Vanity Metrics": "... as they can inform your [[strategy]] and tactics.",
+        "hn.cho.sh 개발 기록": "- PMF보다 Go To Market [[Strategy|전략]]이 훨씬 더 중요하다 (진짜 그런 ...",
+        "경제 개발의 길목에서": "... 목적은 하나이지만, 목적 달성을 위한 [[Strategy|전략]]을 논의하고자 하는 것\"이라고 응수했다. 그 ...",
+        "드디어, 한국 애플페이": "... 결제에 집중하는 것. 첫 번째 [[Strategy|전략]]이 결국 실패한 \"저스터치\"이다 (이때 저스터치가 ...",
+        "미지의 외계행성": "... 작업이 빠르게 진행된다는 것의 홍보 [[Strategy|전략]]인데, 순 엉터리다. 아마 내 탈출 ...",
+        "슈퍼자판기": "... 자원 할당 및 범죄 예방 [[Strategy|전략]]에 대해 활용.",
+        "엔진 방정식": "... 행동을 예측하고 역사의 흐름을 예측하는 [[Strategy|전략]]을 개발하는 가상의 과학)과 연결된다. 우주는 ...",
+        "원숭이와 꽃신": "... 무료 서비스를 열 때부터 이런 [[Strategy|전략]]을 가졌는지는 알 수 없으나 결과적으로 ...",
+        "유난한 도전": "- 제품의 [[Strategy|전략]]과 우선순위를 모델링이나 수학적 사고를 통해 ...",
+        "이공계": "[[Strategy|전략]]적 파트너십 협력관계로 발전하지 못하고 있다.",
+        "젠리의 성공 공식": "## [[Strategy|전략]]",
+        "컴퓨터는 향정신성 약물인가": "... 수익을 늘리기 위해서 여러 심리적 [[Strategy|전략]]을 사용한다."
+    },
     "Metaverse": {
         "2022-05-31": "- Kakao announced [[Metaverse]] Remote Work Policy.",
         "Bondee": "... social media platform via its [[metaverse]] environment. In addition, users can ...",
@@ -8050,9 +8098,11 @@ export const backlinks = {
         "2023-06-18": "- [[Project Heimdall]]",
         "2023-06-20": "- [[Project Heimdall]]",
         "2023-06-21": "- [[Project Heimdall]]",
+        "2023-06-26": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
+        "Project Heimdall Locale Transition Strategy": "[[Project Heimdall]]'s predecessor [[hn.cho.sh]] operated on DeepL's ...",
         "hn.cho.sh 개발 기록": "[[Project Heimdall]]",
         "일일일": "NewsGPT Model. A competitor to [[Project Heimdall]]."
     },
@@ -10312,6 +10362,9 @@ export const backlinks = {
     },
     "AC5118.png": {
         "Project Heimdall": "![[AC5118.png]]"
+    },
+    "7BF55A.gif": {
+        "Project Heimdall": "- ![[7BF55A.gif]]"
     },
     "11C976.png": {
         "Project Heimdall": "    - ![[11C976.png]]"

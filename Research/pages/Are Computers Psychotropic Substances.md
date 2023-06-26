@@ -16,7 +16,7 @@ Try out [[accessibility]] features such as Color Filters (grayscale), Reduce Mot
 
 **Services**.
 This is called designing dependencies.
-Services use several psychological strategies to increase their revenues.
+Services use several psychological [[Strategy|strategies]] to increase their revenues.
 Examples include likes/comments, viral contents, infinite scrollings, autoplays, and personalized feeds.
 [Potential's "Attention Setting" Proposal](https://attentionsettings.com/) suggests potential solutions to these problems for the platform operators.
 The phone is so accessible and the program can't be modified, making you use the service the way the service provider wants you to.
