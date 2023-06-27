@@ -41,3 +41,5 @@ true && <Error message={''} />
 and cause the error when the error is an empty string merely from `useState("")`, representing no error.
 
 In the end, we had to create an error-checking function that explicitly handles `React.ReactNode` and `String`.
+
+![[46FC40.png]]
