@@ -81,3 +81,14 @@ Implemented Nav bar!
     setSignInOpen(false)
   })
   ````
+
+## [[2023-06-26]]
+
+- Implemented [Create PostgreSQL DB Tables & ORM · Issue #24 · anaclumos/heimdall](https://github.com/anaclumos/heimdall/issues/24)
+- How can we scrape the web, with JavaScript enabled? Problems are Access Restricted SPAs like Twitter.
+- [Inngest - Effortless serverless queues, background jobs, and workflows](https://www.inngest.com/)
+- [Turns websites into data — Microlink](https://microlink.io/)
+- [microlinkhq/browserless](https://github.com/microlinkhq/browserless): browserless is an efficient way to interact with a headless browser built in top of Puppeteer.
+- [Creating a Background Worker with Exec and Faktory](https://redwoodjs.com/docs/how-to/creating-a-background-worker-with-exec-and-faktory)
+- [adamschwartz/web.scraper.workers.dev](https://github.com/adamschwartz/web.scraper.workers.dev): Scrape websites for text by CSS selector.
+- [anaclumos/parser-api](https://github.com/anaclumos/parser-api): 🚀 A drop-in replacement for the Postlight Parser API.
