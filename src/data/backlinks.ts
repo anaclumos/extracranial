@@ -270,6 +270,10 @@ export const backlinks = {
         "Project FFMpeg for iPad": "## [[2023-05-09]]",
         "Seaflooding": "## [[2023-05-09]]"
     },
+    "2023-06-27": {
+        "Grammarly Work Note 2023-06-27": "- Grammarly Work Note [[2023-06-27]]",
+        "Truthiness of Empty Strings": "On [[2023-06-27]], our team at [[Grammarly]] found ..."
+    },
     "2020-09-27": {
         "프로젝트 어덕행덕": "- [[2020-09-27]]"
     },
@@ -2896,6 +2900,9 @@ export const backlinks = {
     "Tailwind CSS 톺아보기": {
         "2022-11-19": "  - [[Tailwind CSS 톺아보기]]"
     },
+    "Grammarly Work Note 2023-06-27": {
+        "2023-06-27": "- [[Grammarly Work Note 2023-06-27]]"
+    },
     "JSON": {
         "2022-07-20": "... field indicates to parse a [[JSON]] response. Therefore, the message is ...",
         "2022-10-17": "... will read the indexed backlink [[JSON]] to display it on the ...",
@@ -3075,7 +3082,8 @@ export const backlinks = {
         "2022-07-06": "## [[Work Note|Work Notes]]",
         "2022-07-10": "## [[Work Note|Work Notes]]",
         "2022-07-12": "## [[Work Note|Work Notes]]",
-        "2023-05-25": "- [[Work Note]]"
+        "2023-05-25": "- [[Work Note]]",
+        "Grammarly Work Note 2023-06-27": "- Grammarly [[Work Note]] [[2023-06-27]]"
     },
     "Project FFMpeg for iPad": {
         "2022-10-20": "- [[Project FFMpeg for iPad]]",
@@ -5180,6 +5188,9 @@ export const backlinks = {
     "Layoff": {
         "2023-01-13": "- [[Layoff]]"
     },
+    "Truthiness of Empty Strings": {
+        "Grammarly Work Note 2023-06-27": "- [[Truthiness of Empty Strings]]"
+    },
     "Page Size and Address Translations": {
         "2022-11-04": "- [[Page Size and Address Translations]]",
         "Computer Systems": "- [[Page Size and Address Translations]]",
@@ -5700,6 +5711,7 @@ export const backlinks = {
         "Grammarly Work Note 2023-05-26": "... as an internal-facing product of [[Grammarly]], has many spaces to improve.",
         "Grammarly Work Note 2023-06-01": "... is generally performed offline. Currently, [[Grammarly]] uses two different feature stores ...",
         "Grammarly Work Note 2023-06-02": "... access it rapidly and effectively. [[Grammarly]]'s journey started with a JSON ...",
+        "Grammarly Work Note 2023-06-27": "- [[Grammarly]] [[Work Note]] [[2023-06-27]]",
         "GrammarlyGO": "... of generative AI capabilities from [[Grammarly]]. It considers your context, preferences, ...",
         "Handwriting Grammarly": "- [[Grammarly]] for [[Handwriting Tools for Thoughts]]",
         "Manakin": "... is the infrastructure that runs [[Grammarly]]'s Experiment Service.",
@@ -5707,6 +5719,7 @@ export const backlinks = {
         "Real Exams": "### [[Grammarly]]",
         "Real Interviews": "### [[Grammarly]]",
         "Sungari": "... Schema Managed Data Ingestion at [[Grammarly]]. The old system at [[GNAR]] ...",
+        "Truthiness of Empty Strings": "On 2023-06-27, our team at [[Grammarly]] found a bug where a ...",
         "기술 발전의 속도": "그래서 [[Grammarly]] 등의 텍스트 [[AI|인공지능]] 회사에 열심히 ..."
     },
     "SHAP": {
@@ -7619,7 +7632,8 @@ export const backlinks = {
         "Conversational AI Tools for Thought": "- [[Treehouse]]"
     },
     "ESLint": {
-        "Grammarly Work Note 2023-05-26": "... with Prettier, we could link [[ESLint]] and make it automatically check ..."
+        "Grammarly Work Note 2023-05-26": "... with Prettier, we could link [[ESLint]] and make it automatically check ...",
+        "Truthiness of Empty Strings": "But after we implemented [[ESLint]] in our framework, it started ..."
     },
     "SIMD": {
         "2023-01-23": "- [[SIMD]]"
