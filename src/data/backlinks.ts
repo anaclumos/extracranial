@@ -370,6 +370,9 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "## [[2023-04-06]]",
         "하늘땅사람 업데이트 기록": "## 1.0.9 [[2023-04-06]]"
     },
+    "2023-06-26": {
+        "Project Heimdall": "## [[2023-06-26]]"
+    },
     "2022-11-01": {
         "2022년 11월 한 달간 일기 쓰기": "- [[2022-11-01]] 실패. 과제가 너무 많았다."
     },
@@ -8099,6 +8102,7 @@ export const backlinks = {
         "2023-06-20": "- [[Project Heimdall]]",
         "2023-06-21": "- [[Project Heimdall]]",
         "2023-06-26": "- [[Project Heimdall]]",
+        "2023-06-27": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
