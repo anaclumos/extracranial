@@ -9771,6 +9771,9 @@ export const backlinks = {
         "San Francisco": "![[E0A8DC.png]]",
         "Toss Product Sans": "![[E0A8DC.png]]"
     },
+    "46FC40.png": {
+        "Truthiness of Empty Strings": "![[46FC40.png]]"
+    },
     "8F4764.png": {
         "Death Stranding": "![[8F4764.png]]"
     },
