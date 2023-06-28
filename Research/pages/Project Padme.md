@@ -24,10 +24,10 @@ Build an **interaction effects calculator** for [[Manakin]].
   - two experiment names
   - metric definition
   - range of dates
-- A table set up in Databricks with the proper schema to record the results of each job run
+- A table set up in [[Databricks]] with the proper schema to record the results of each job run
   - should consider multiple runs with the same parameters
   - should consider how the data displays in our UI for efficient layout
-- A library that combines given parameters to start a computation job on Databricks
+- A library that combines given parameters to start a computation job on [[Databricks]]
 - Limitations:
   - This could be limited to only one, but not all templates
   - The way to submit the job might be pretty manual
