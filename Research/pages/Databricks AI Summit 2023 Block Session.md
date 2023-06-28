@@ -37,15 +37,15 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 
-![[IMG_4508.jpg]]
-![[IMG_4509.jpg]]
+![[51DDDC.jpg]]
+![[CAA9AF.jpg]]
 
 </DisplayFlex>
 
 <DisplayFlex>
 
-![[IMG_4513.jpg]]
-![[IMG_4511.jpg]]
+![[1B8E12.jpg]]
+![[F912EE.jpg]]
 
 </DisplayFlex>
 

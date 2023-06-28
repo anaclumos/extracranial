@@ -8878,6 +8878,9 @@ export const backlinks = {
     "184D2B.png": {
         "2023-01-23": "![[184D2B.png]]"
     },
+    "2BC3E2.png": {
+        "2023-06-28": "![[2BC3E2.png]]"
+    },
     "D815DD.jpeg": {
         "2022-07-12": "![[D815DD.jpeg]]"
     },
@@ -10296,29 +10299,17 @@ export const backlinks = {
     "AE63DD.png": {
         "Sliding Panes": "![[AE63DD.png]]"
     },
-    "IMG_4508.jpg": {
-        "Databricks AI Summit 2023 Block Session": "![[IMG4508.jpg]][[IMG_4508.jpg]]"
+    "51DDDC.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[51DDDC.jpg]]"
     },
-    "IMG4508.jpg": {
-        "Databricks AI Summit 2023 Block Session": "![[IMG4508.jpg]]"
+    "CAA9AF.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[CAA9AF.jpg]]"
     },
-    "IMG_4509.jpg": {
-        "Databricks AI Summit 2023 Block Session": "![[IMG4509.jpg]][[IMG_4509.jpg]]"
+    "1B8E12.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[1B8E12.jpg]]"
     },
-    "IMG4509.jpg": {
-        "Databricks AI Summit 2023 Block Session": "![[IMG4509.jpg]]"
-    },
-    "IMG_4513.jpg": {
-        "Databricks AI Summit 2023 Block Session": "![[IMG4513.jpg]][[IMG_4513.jpg]]"
-    },
-    "IMG4513.jpg": {
-        "Databricks AI Summit 2023 Block Session": "![[IMG4513.jpg]]"
-    },
-    "IMG_4511.jpg": {
-        "Databricks AI Summit 2023 Block Session": "![[IMG4511.jpg]][[IMG_4511.jpg]]"
-    },
-    "IMG4511.jpg": {
-        "Databricks AI Summit 2023 Block Session": "![[IMG4511.jpg]]"
+    "F912EE.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[F912EE.jpg]]"
     },
     "Zettelkasten": {
         "Tools Must Vanish": "... is junk. It's never the [[Zettelkasten]] of the next [[Vannevar Bush]]; ..."
