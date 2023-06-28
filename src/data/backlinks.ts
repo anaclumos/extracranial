@@ -2530,6 +2530,9 @@ export const backlinks = {
     "Retroactive (Software)": {
         "2023-05-02": "- [[Retroactive (Software)]]"
     },
+    "Databricks AI Summit 2023 Definitive Healthcare Session": {
+        "Databricks AI Summit 2023": "- [[Databricks AI Summit 2023 Definitive Healthcare Session]]"
+    },
     "Gaussian": {
         "2023-03-07": "- [[Gaussian]]",
         "Gaussian Distribution": "The [[Gaussian]] [[distribution]], also known as the ...",
@@ -2626,6 +2629,9 @@ export const backlinks = {
     },
     "Joining Thread": {
         "Internetworking": "- [[Joining Thread]]"
+    },
+    "Databricks AI Summit 2023 Grammarly Session": {
+        "Databricks AI Summit 2023": "- [[Databricks AI Summit 2023 Grammarly Session]]"
     },
     "University of Southern California": {
         "2023-03-16": "- [[University of Southern California]]",
@@ -5173,9 +5179,12 @@ export const backlinks = {
     },
     "GNAR": {
         "2023-05-30": "... Grammarly Work Note 2023-05-30 on [[GNAR]]",
+        "Databricks AI Summit 2023 Grammarly Session": "... with its in-house data platform, [[Gnar]], and embarked on a redesign ...",
         "Grammarly Work Note 2023-05-25": "- [[GNAR]] is the single source of ...",
         "Grammarly Work Note 2023-05-30": "... Reduction of Cluster Spinning for Non-[[GNAR]] Runtime Jobs. For tasks that ...",
         "Grammarly Work Note 2023-05-31": "... method for ingesting analytical data, [[GNAR]], is being deprecated by 60% ...",
+        "Grammarly Work Note 2023-06-02": "... within it. Finally, we implement [[GNAR]] and GQL on top of ...",
+        "Grammarly Work Note 2023-06-13": "We encountered scalability problems with [[GNAR]] as it began receiving values ...",
         "Sungari": "... Grammarly. The old system at [[GNAR]] had several significant issues, including ..."
     },
     "Product-Market Fit": {
@@ -6402,6 +6411,9 @@ export const backlinks = {
         "Grammarly Work Note 2023-05-26": "[[Manakin]], as an internal-facing product of ...",
         "Project Padme": "... an interaction effects calculator for [[Manakin]]."
     },
+    "Databricks AI Summit 2023 Databricks Session": {
+        "Databricks AI Summit 2023": "- [[Databricks AI Summit 2023 Databricks Session]]"
+    },
     "Useful ChatGPT Prompts": {
         "2023-04-10": "- [[Useful ChatGPT Prompts]]"
     },
@@ -6465,6 +6477,9 @@ export const backlinks = {
     "Cache Mapping": {
         "2022-11-04": "- [[Cache Mapping]]",
         "Caching": "- [[Cache Mapping]]"
+    },
+    "Databricks AI Summit 2023": {
+        "2023-06-27": "- [[Databricks AI Summit 2023]]"
     },
     "Space Terraforming": {
         "2023-02-16": "- [[Space Terraforming]]"
@@ -7695,6 +7710,9 @@ export const backlinks = {
     },
     "Social Coding": {
         "Matt Rickard": "- [[Social Coding]]"
+    },
+    "Databricks AI Summit 2023 Block Session": {
+        "Databricks AI Summit 2023": "- [[Databricks AI Summit 2023 Block Session]]"
     },
     "엔진 방정식": {
         "2023-02-16": "- [[엔진 방정식]]",
@@ -10257,6 +10275,30 @@ export const backlinks = {
     },
     "AE63DD.png": {
         "Sliding Panes": "![[AE63DD.png]]"
+    },
+    "IMG_4508.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[IMG4508.jpg]][[IMG_4508.jpg]]"
+    },
+    "IMG4508.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[IMG4508.jpg]]"
+    },
+    "IMG_4509.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[IMG4509.jpg]][[IMG_4509.jpg]]"
+    },
+    "IMG4509.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[IMG4509.jpg]]"
+    },
+    "IMG_4513.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[IMG4513.jpg]][[IMG_4513.jpg]]"
+    },
+    "IMG4513.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[IMG4513.jpg]]"
+    },
+    "IMG_4511.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[IMG4511.jpg]][[IMG_4511.jpg]]"
+    },
+    "IMG4511.jpg": {
+        "Databricks AI Summit 2023 Block Session": "![[IMG4511.jpg]]"
     },
     "Zettelkasten": {
         "Tools Must Vanish": "... is junk. It's never the [[Zettelkasten]] of the next [[Vannevar Bush]]; ..."
