@@ -92,3 +92,9 @@ Implemented Nav bar!
 - [Creating a Background Worker with Exec and Faktory](https://redwoodjs.com/docs/how-to/creating-a-background-worker-with-exec-and-faktory)
 - [adamschwartz/web.scraper.workers.dev](https://github.com/adamschwartz/web.scraper.workers.dev): Scrape websites for text by CSS selector.
 - [anaclumos/parser-api](https://github.com/anaclumos/parser-api): 🚀 A drop-in replacement for the Postlight Parser API.
+
+## [[2023-06-27]]
+
+Created an [[Microservices Architecture|MSA]]-style micro worker that will continuously fetch, load, and summarize [[Hacker News|HN]] contents!
+
+![[3E60AC.gif]]
