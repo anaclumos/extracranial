@@ -21,9 +21,9 @@ Definitive Healthcare encountered a range of complex issues in its data manageme
 
 Definitive Healthcare's data ecosystem was vast, with tables ranging from 111 records for Patient Transactions to 15M Expert Profiles for Scientific Affairs Data. The company had various stakeholders, including product teams, data science teams, custom predictive analytics teams, and data analysts. This meant managing a wide variety of needs, from ETL ingestion to custom predictive modeling.
 
-### Databricks Lakehouse as a Solution:
+### [[Databricks]] [[Datalake|Lakehouse]] as a Solution:
 
-Databricks' Lakehouse proved to be the right solution for Definitive Healthcare, meeting all the key priorities:
+[[Databricks]]' [[Datalake|Lakehouse]] proved to be the right solution for Definitive Healthcare, meeting all the key priorities:
 
 1. Capability to handle robust data pipelines for large-scale daily ETL ingestions.
 2. Support for complete database restatements.
@@ -36,7 +36,7 @@ While query performance was identified as critical, it could not compromise data
 
 ### Key Features and Tools:
 
-Definitive Healthcare leveraged vital features and tools of the Databricks Lakehouse:
+Definitive Healthcare leveraged vital features and tools of the [[Databricks]] [[Datalake|Lakehouse]]:
 
 1. The Unity Catalog to support data changes and restatements.
 2. ACID transaction logs and time travel to monitor data changes and rollback if needed.
