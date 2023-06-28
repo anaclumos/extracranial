@@ -34,7 +34,7 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
-- [ ] Space Odyssey Series
+- [ ] [[American Prometheus]]
 
 </Shuffle>
 
@@ -42,13 +42,14 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
+- [ ] Space Odyssey Series
 - [ ] The Righteous Mind
 - [ ] Where is my flying car?
 - [ ] Diaspora
 - [ ] Zero to One
 - [ ] 도해 [[대만|타이완]]사
 - [ ] 허삼관 매혈기
-- [ ] 삼체
+- [ ] [[삼체]] (Re-read)
 - [ ] Black Swan
 
 </Shuffle>
@@ -62,7 +63,3 @@ import Shuffle from '@site/src/components/Shuffle'
 - [ ] [[하얼빈]]
 
 </Shuffle>
-
-## References
-
-- [The Best Books Apps and Products of 2022](https://www.producthunt.com/topics/books?order=most-upvoted)
