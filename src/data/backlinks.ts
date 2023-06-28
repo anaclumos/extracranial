@@ -2579,6 +2579,10 @@ export const backlinks = {
         "2023-02-14": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "Building Habit": "- [[Jog 25 minutes (Jan-Feb 2023)]]"
     },
+    "American Prometheus": {
+        "Readings": "- [ ] [[American Prometheus]]",
+        "서당개 3년이면 풍월을 읊는다": "... 않았다. 어떤 회사에서든 태생부터 남다른 [[American Prometheus|오펜하이머]]급 슈퍼브레인은 얼마 되지 않는 듯했다. ..."
+    },
     "I travel the World Wide Web": {
         "2022-10-25": "- [[I travel the World Wide Web]]"
     },
@@ -7789,6 +7793,10 @@ export const backlinks = {
         "Apache Kafka": "[[Apache]] Kafka is an open-source distributed ...",
         "Apache Spark": "[[Apache]] Spark is an open-source, distributed ...",
         "IntelliJ": "... and is available as an [[Apache]] 2 Licensed community edition and ..."
+    },
+    "삼체": {
+        "2023-06-28": "[[삼체]]",
+        "Readings": "- [ ] [[삼체]] (Re-read)"
     },
     "곰단": {
         "2023-02-27": "- [[곰단]]",
