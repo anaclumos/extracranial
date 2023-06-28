@@ -272,6 +272,7 @@ export const backlinks = {
     },
     "2023-06-27": {
         "Grammarly Work Note 2023-06-27": "- Grammarly Work Note [[2023-06-27]]",
+        "Project Heimdall": "## [[2023-06-27]]",
         "Truthiness of Empty Strings": "On [[2023-06-27]], our team at [[Grammarly]] found ..."
     },
     "2020-09-27": {
@@ -1772,7 +1773,8 @@ export const backlinks = {
         "Cloud-Native": "... infrastructure. They are comfortable building [[Microservices Architecture]], containerization, and [[automation]] using tools ...",
         "Monolith": "...Server. opposite of [[Microservices Architecture|MSA]]",
         "OpenAI enthroned as the Levis of Tech": "- Rise of [[Microservices Architecture|MSA]] and [[Serverless]] — [[AWS]] made ...",
-        "OpenAI가 새로운 테크 리바이스로 등극하다": "... 실행하고 관리할 수 있도록 하여 [[Microservices Architecture|마이크로서비스 아키텍처]]의 등장으로 이어졌다. 이 아키텍처를 통해 ..."
+        "OpenAI가 새로운 테크 리바이스로 등극하다": "... 실행하고 관리할 수 있도록 하여 [[Microservices Architecture|마이크로서비스 아키텍처]]의 등장으로 이어졌다. 이 아키텍처를 통해 ...",
+        "Project Heimdall": "Created an [[Microservices Architecture|MSA]]-style micro worker that will continuously ..."
     },
     "Prompt Injection": {
         "2023-03-20": "... LLM|LLMs have been underestimated, and [[Prompt Injection]] is a serious security threat ...",
@@ -10444,6 +10446,9 @@ export const backlinks = {
     },
     "11C976.png": {
         "Project Heimdall": "    - ![[11C976.png]]"
+    },
+    "3E60AC.gif": {
+        "Project Heimdall": "![[3E60AC.gif]]"
     },
     "371542.png": {
         "Database vs Datalake": "![[371542.png]]"
