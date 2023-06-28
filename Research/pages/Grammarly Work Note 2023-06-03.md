@@ -5,12 +5,12 @@ slug: '/7073A5'
 
 [[Grammarly Work Note]]
 
-- Add columns to the result table on Databricks.
+- Add columns to the result table on [[Databricks]].
 - metric results table in data bricks
 - Add more tables to `service.prod_experimentation.experiment_metrics_results.`
   and populate data
 
-1. update the table in Databricks
+1. update the table in [[Databricks]]
    1. [results_init](https://grammarly-data.cloud.databricks.com/?o=4547565018768595#notebook/2233269491653154/command/2233269491653155) is the notebook to init the table
    2. study 'Databricks Schema enforcement.' By default, doesn't allow updating the schema
 2. update how we write to the table

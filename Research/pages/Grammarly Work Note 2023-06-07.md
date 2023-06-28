@@ -30,9 +30,9 @@ graph LR
   end
 ```
 
-Databricks Notebooks are analytical tools that can extract information from the data lake.
+[[Databricks]] Notebooks are analytical tools that can extract information from the data lake.
 
-To create these notebooks on a mass scale, we use templates. The template will be filled out when a user attaches a metric to an experiment and then saved to Databricks.
+To create these notebooks on a mass scale, we use templates. The template will be filled out when a user attaches a metric to an experiment and then saved to [[Databricks]].
 
 Notebooks will have `expMetricUtils` and filled-out parameters.
 

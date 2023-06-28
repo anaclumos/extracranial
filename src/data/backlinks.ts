@@ -3991,9 +3991,16 @@ export const backlinks = {
         "Transient Notes": "- Antonym: [[Evergreen notes]]"
     },
     "Databricks": {
+        "Databricks AI Summit 2023 Block Session": "# [[Databricks]] AI Summit 2023: Block Session",
+        "Databricks AI Summit 2023 Databricks Session": "... and startups, solutions such as [[Databricks]] are evolving to bridge this ...",
+        "Databricks AI Summit 2023 Definitive Healthcare Session": "### [[Databricks]] [[Datalake|Lakehouse]] as a Solution:",
+        "Databricks AI Summit 2023 Grammarly Session": "... Structured Streaming, Delta Lake, and [[Databricks]] Unity Catalog. The migration process ...",
         "GNAR": "... move away from GNAR to [[Databricks]].",
         "Grammarly Work Note 2023-05-25": "... move away from GNAR to [[Databricks]].",
         "Grammarly Work Note 2023-05-30": "... and Cost Reduction Strategy|Strategies for [[Databricks]] Clusters",
+        "Grammarly Work Note 2023-06-03": "... to the result table on [[Databricks]].",
+        "Grammarly Work Note 2023-06-07": "[[Databricks]] Notebooks are analytical tools that ...",
+        "Project Padme": "... A table set up in [[Databricks]] with the proper schema to ...",
         "Project Prepare for Grammarly": "- [[Databricks]]",
         "Real Exams": "### CodeSignal (HRT, [[Databricks]]",
         "Real Interviews": "### [[Databricks]]"
@@ -8397,6 +8404,9 @@ export const backlinks = {
     },
     "Datalake": {
         "Database vs Datalake": "## [[Datalake]]:",
+        "Databricks AI Summit 2023 Block Session": "### [[Datalake|Lakehouse]] Layers",
+        "Databricks AI Summit 2023 Databricks Session": "### Databricks' [[Datalake|Lakehouse]]",
+        "Databricks AI Summit 2023 Definitive Healthcare Session": "### Databricks [[Datalake|Lakehouse]] as a Solution:",
         "Datahouse": "... as a control layer for [[Datalake]], allowing for centralized management of ...",
         "Grammarly Work Note 2023-06-02": "... use the concept of a [[Datalake]] for ingesting data and defining ..."
     },
