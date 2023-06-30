@@ -3997,7 +3997,7 @@ export const backlinks = {
         "Transient Notes": "- Antonym: [[Evergreen notes]]"
     },
     "Databricks": {
-        "Databricks AI Summit 2023 Block Session": "# [[Databricks]] AI Summit 2023: Block Session",
+        "Databricks AI Summit 2023 Block Session": "... and databases. In this case, [[Databricks]] serves as an intermediate gateway, ...",
         "Databricks AI Summit 2023 Databricks Session": "... and startups, solutions such as [[Databricks]] are evolving to bridge this ...",
         "Databricks AI Summit 2023 Definitive Healthcare Session": "### [[Databricks]] [[Datalake|Lakehouse]] as a Solution:",
         "Databricks AI Summit 2023 Grammarly Session": "... Structured Streaming, Delta Lake, and [[Databricks]] Unity Catalog. The migration process ...",
