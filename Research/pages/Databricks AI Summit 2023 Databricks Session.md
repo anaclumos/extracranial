@@ -3,8 +3,6 @@ lang: 'en'
 slug: '/B1F9D5'
 ---
 
-# Databricks AI Summit 2023: Databricks Session
-
 The landscape of data science and AI is rapidly changing, with key industry leaders like Google leading the charge. Despite the apparent gap in resources and budgets between technology giants and startups, solutions such as [[Databricks]] are evolving to bridge this gap. This report summarizes key points discussed in a recent conference around the same theme.
 
 ### Importance of Data and AI
