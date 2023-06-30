@@ -6221,7 +6221,8 @@ export const backlinks = {
         "Redwood.js": "- [[Jest]]"
     },
     "Debugging CSS": {
-        "2023-01-27": "- [[Debugging CSS]]"
+        "2023-01-27": "- [[Debugging CSS]]",
+        "2023-06-30": "[[Debugging CSS]]"
     },
     "Spring Boot": {
         "Grammarly Work Note 2023-05-26": "... Testings. The back-end, written in [[Spring Boot]], does not have a local ...",
@@ -9982,6 +9983,9 @@ export const backlinks = {
     },
     "126979.jpeg": {
         "Dynamic Island on the Web": "![[126979.jpeg]]"
+    },
+    "CFE15A.png": {
+        "Debugging CSS": "![[CFE15A.png]]"
     },
     "3CDD1D.mp4": {
         "GrammarlyGO": "![[3CDD1D.mp4]]",
