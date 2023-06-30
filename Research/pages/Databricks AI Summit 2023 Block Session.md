@@ -3,8 +3,6 @@ lang: 'en'
 slug: '/5F1646'
 ---
 
-# [[Databricks]] AI Summit 2023: Block Session
-
 - [Block](https://block.xyz/)
 
 Block Company outlined a series of real-world examples from applications like Square (payments), Cash App, Tidal, and TBD.

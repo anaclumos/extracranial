@@ -3,8 +3,6 @@ lang: 'en'
 slug: '/A659E3'
 ---
 
-# Databricks AI Summit 2023: Definitive Healthcare Session
-
 Definitive Healthcare, an AI health company, has faced several challenges in managing and optimizing large-scale data. They shared their experiences and the solutions they found in a recent presentation.
 
 ### Problems Faced:
