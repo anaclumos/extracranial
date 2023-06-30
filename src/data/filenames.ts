@@ -1139,6 +1139,7 @@ export const filenames = {
     "Palantir Gotham": "EA7C5D",
     "Paracosm": "AB0F3F",
     "Parallelism": "30A4AC",
+    "Parquet": "420297",
     "Partition": "7B2DAB",
     "Partition Problem": "F57598",
     "Pascal Triangle": "FFE63F",

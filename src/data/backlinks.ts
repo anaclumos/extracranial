@@ -4004,8 +4004,10 @@ export const backlinks = {
         "GNAR": "... move away from GNAR to [[Databricks]].",
         "Grammarly Work Note 2023-05-25": "... move away from GNAR to [[Databricks]].",
         "Grammarly Work Note 2023-05-30": "... and Cost Reduction Strategy|Strategies for [[Databricks]] Clusters",
+        "Grammarly Work Note 2023-05-31": "... Store → Serve data from [[Databricks]])",
         "Grammarly Work Note 2023-06-03": "... to the result table on [[Databricks]].",
         "Grammarly Work Note 2023-06-07": "[[Databricks]] Notebooks are analytical tools that ...",
+        "Parquet": "It is used for [[Databricks]] and [[Apache Spark]]",
         "Project Padme": "... A table set up in [[Databricks]] with the proper schema to ...",
         "Project Prepare for Grammarly": "- [[Databricks]]",
         "Real Exams": "### CodeSignal (HRT, [[Databricks]]",
@@ -4495,6 +4497,7 @@ export const backlinks = {
     },
     "Apache Spark": {
         "Databricks": "... data analytics platform powered by [[Apache Spark]]. The platform supports various data ...",
+        "Parquet": "... is used for Databricks and [[Apache Spark]]",
         "Project Prepare for Grammarly": "... library to bring Tensorflow on [[Apache Spark]]"
     },
     "Dynamically Linked Libraries": {
@@ -4798,6 +4801,9 @@ export const backlinks = {
     },
     "Proposal of Research 2023-01-10": {
         "2023-01-10": "- [[Proposal of Research 2023-01-10]]"
+    },
+    "Parquet": {
+        "2023-06-30": "- [[Parquet]]"
     },
     "Snooze Time of Alarm Clocks": {
         "2023-03-19": "- [[Snooze Time of Alarm Clocks]]",
@@ -6222,7 +6228,7 @@ export const backlinks = {
     },
     "Debugging CSS": {
         "2023-01-27": "- [[Debugging CSS]]",
-        "2023-06-30": "[[Debugging CSS]]"
+        "2023-06-30": "- [[Debugging CSS]]"
     },
     "Spring Boot": {
         "Grammarly Work Note 2023-05-26": "... Testings. The back-end, written in [[Spring Boot]], does not have a local ...",
