@@ -464,7 +464,7 @@ export const backlinks = {
         "Project Heimdall Initial Planning": "[[2023-04-19]]"
     },
     "2023-07-03": {
-        "The Funeral Playlist": "... Thus, I have decided on [[2023-07-03]] that I want a set ..."
+        "Funeral Playlist": "... Thus, I have decided on [[2023-07-03]] that I want a set ..."
     },
     "2020-11-13": {
         "프로젝트 어덕행덕": "- [[2020-11-13]]"
@@ -552,10 +552,6 @@ export const backlinks = {
         "2022-10-13": "... Taildrop · Tailscale: Cross-Platform AirDrops [[Tailscale]]",
         "2022-10-20": "- [[Tailscale]]"
     },
-    "The Photo Library of Babel": {
-        "Proposal of Research 2023-01-10": "## 3. [[The Photo Library of Babel]]",
-        "Proposal of Research 2023-03-28": "## [[The Photo Library of Babel]]: Exploring the Implications of Finite ..."
-    },
     "사회과부도": {
         "2022-08-28": "- [[사회과부도]]",
         "Cartography": "... maps to represent data effectively. [[사회과부도]]"
@@ -563,10 +559,18 @@ export const backlinks = {
     "ELF": {
         "Link (Computer Systems)": "Linux uses [[ELF]]"
     },
+    "Dilemmas of Free stuffs": {
+        "2023-05-02": "- [[Dilemmas of Free stuffs]]",
+        "Antipreneur": "- [[Dilemmas of Free stuffs]]"
+    },
     "Language": {
         "0232 Implement Queue using Stacks": "- Depending on your [[language]], the stack may not be ...",
         "2022-06-12": "... standard defines an interface definition [[language]], web IDL, that can be ...",
         "Across the Sprachraums": "... detachment of IP|Intellectual Property and [[Language]]."
+    },
+    "Site On Which the Sun Never Sets": {
+        "2023-02-26": "- [[Site On Which the Sun Never Sets]]",
+        "2023-03-06": "- [[Site On Which the Sun Never Sets]]"
     },
     "Swift": {
         "2023-01-13": "- [[Swift]]",
@@ -617,11 +621,13 @@ export const backlinks = {
         "Conversational Generative AI as Search Engine": "- [[ChatGPT]]",
         "Cool Generative AI Applications": "- [[ChatGPT]]",
         "EU and AI": "... general-purpose AI, such as OpenAI's [[ChatGPT]], which can generate human-like text ...",
+        "Era of Invites": "... your attention. For example, did [[ChatGPT]] require an invite? Nope.",
         "Generative Intelligence": "- [[ChatGPT]]",
         "Local ChatGPT": "... GPT-3 that power tools like [[ChatGPT]] are a lot larger and ...",
         "Microsoft": "- The [[ChatGPT]] owner hopes to garner $1 ...",
         "OpenAI enthroned as the Levis of Tech": "OpenAI has launched its [[ChatGPT]] API service, powered by the ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "... 방금 GPT-3.5-터보 모델을 기반으로 한 [[ChatGPT]] API 서비스를 출시했다.",
+        "Problems of ChatGPT": "- [[ChatGPT]] writes believable scientific abstracts",
         "Proposal of Research 2023-01-10": "... AIs, such as the recent [[ChatGPT]] (i.e., we now have the ...",
         "Proposal of Research 2023-03-28": "... generative AI technologies, such as [[ChatGPT]]. Given infinite monkeys making infinite ...",
         "Readwise Reader": "- uses [[ChatGPT]]",
@@ -629,8 +635,6 @@ export const backlinks = {
         "Search AI": "... ways, one might say that [[ChatGPT]] never \"truly understands\" things; it ...",
         "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 Bing [[ChatGPT]]에 검색을 해보았다.",
         "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information ...",
-        "The Era of Invites": "... your attention. For example, did [[ChatGPT]] require an invite? Nope.",
-        "The Problems of ChatGPT": "- [[ChatGPT]] writes believable scientific abstracts",
         "Unsemantic": "... lived for a while 😁 [[ChatGPT]] is very unsemantic",
         "Wolfram Alpha": "## Wolfram's [[ChatGPT]] prompt",
         "기술 발전의 속도": "그런데 고작 3개월도 되지 않아 [[ChatGPT]]가 등장하며... 모든 것을 뒤바꾸어 놓았다. ...",
@@ -641,7 +645,7 @@ export const backlinks = {
     },
     "Optimistic Nihilist": {
         "2023-02-14": "- [[Optimistic Nihilist]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-14 | 🇬🇧 [[Optimistic Nihilist]] <br/> 🇰🇷 [[긍정적 허무주의자]]  ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-14 | 🇬🇧 [[Optimistic Nihilist]] <br/> 🇰🇷 [[긍정적 허무주의자]]  ..."
     },
     "Paracosm": {
         "Text-based Tools for Thought": "### [[Paracosm]]"
@@ -649,19 +653,12 @@ export const backlinks = {
     "Datahouse": {
         "Grammarly Work Note 2023-06-02": "... query the data in our [[Datahouse]] and index metadata. Our system ..."
     },
-    "The Library of Babel": {
-        "2022-11-24": "- [[The Library of Babel]]",
-        "Information amongst Data": "[[The Library of Babel]] holds all data.",
-        "Proposal of Research 2023-01-10": "\"[[The Library of Babel]]\" by Jorge Luis Borges is ...",
-        "Proposal of Research 2023-03-28": "Inspired by \"[[The Library of Babel]]\" by Jorge Luis Borges, this ...",
-        "The Photo Library of Babel": "[[The Library of Babel]]"
-    },
     "Texts": {
         "2023-01-31": "Got Invited to [[Texts]]",
         "Beeper": "An alternative to [[Texts]]. A better approach with iMessage, ...",
         "Love Software": "- (Fiercely Overpriced|paywalled) [[texts]]",
-        "The One and Only (Social App)": "Like [[Texts]], it pulls from all the ...",
-        "The one and only": "[[Texts]] aims to be the one ..."
+        "One and Only (Social App)": "Like [[Texts]], it pulls from all the ...",
+        "One and only": "[[Texts]] aims to be the one ..."
     },
     "Styled Components": {
         "Grammarly Work Note 2023-05-26": "5. Ad-hoc [[Styled Components]]. While we have a `components` ...",
@@ -755,15 +752,15 @@ export const backlinks = {
     },
     "Service Shimming": {
         "2023-02-02": "- [[Service Shimming]]",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-02 | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]]  ...",
         "Avoid Premature Optimizations": "- [[Service Shimming]], [[서비스 시밍]]",
         "Tech Now Pay Later": "... is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you ...",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-02 | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]]  ...",
         "서비스 시밍": "[[Service Shimming]]"
     },
     "Newtonian Mail": {
         "2023-02-28": "- [[Newtonian Mail]]",
-        "METI Engine": "... a strikingly coincidental overlap between [[Newtonian Mail]] and the METI. Both actively ...",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-28 | 🇬🇧 [[Newtonian Mail]] <br/> 🇰🇷 [[뉴턴의 서신]]  ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-28 | 🇬🇧 [[Newtonian Mail]] <br/> 🇰🇷 [[뉴턴의 서신]]  ...",
+        "METI Engine": "... a strikingly coincidental overlap between [[Newtonian Mail]] and the METI. Both actively ..."
     },
     "Aldehyde": {
         "2022-11-03": "- [[Aldehyde]]",
@@ -780,6 +777,10 @@ export const backlinks = {
         "Project FFMpeg for iPad": "## [[Prehistoric]]",
         "Project Heimdall Initial Planning": "## [[Prehistoric]]",
         "hn.cho.sh 개발 기록": "## [[Prehistoric]]"
+    },
+    "One and Only (Social App)": {
+        "2023-02-15": "- [[One and Only (Social App)]]",
+        "Z-Fellows": "... an interview with Z-Fellows with [[One and Only (Social App)]] on [[2023-03-19]]"
     },
     "Book Metadata as a Service": {
         "Fiercely Overpriced": "[[Book Metadata as a Service]] could also be one example."
@@ -903,13 +904,6 @@ export const backlinks = {
         "하늘땅사람": "- [[활자]]",
         "하늘땅사람 개발 기록": "Subproject로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: anaclumos/hwalja: 활자: 세상에서 ..."
     },
-    "The Engine Equation": {
-        "2023-02-16": "- [[The Engine Equation]]",
-        "Engine Equation": "- [[The Engine Equation]] [[엔진 방정식]]",
-        "Tech Now Pay Later": "[[The Engine Equation]] comes handy here.",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-16 | 🇬🇧 [[The Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]  ...",
-        "Willpower": "... rich. Start your own business [[The Engine Equation]]. It's almost impossible to get ..."
-    },
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]"
     },
@@ -936,9 +930,9 @@ export const backlinks = {
         "2022-08-28": "... (~5m). Vercel has 서울|Seoul region [[CDN]].",
         "2022-12-28": "- [[CDN]]",
         "AMP": "... may be cached by a [[CDN]], such as [[Microsoft]] [[Bing]] or ...",
+        "Architecture of Mastodon": "... to serve at the edge. [[CDN]] can host static assets, but ...",
         "Cloudflare": "... Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded ...",
-        "Snowpack으로 WASM 시작하기": "... (실제 WebAssembly|WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 ...",
-        "The Architecture of Mastodon": "... to serve at the edge. [[CDN]] can host static assets, but ..."
+        "Snowpack으로 WASM 시작하기": "... (실제 WebAssembly|WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 ..."
     },
     "Neo Email": {
         "2023-02-27": "- [[Neo Email]]"
@@ -956,7 +950,7 @@ export const backlinks = {
     },
     "관성 질량과 중력 질량": {
         "2023-02-07": "- [[관성 질량과 중력 질량]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... A Massive Mystery <br/> 🇰🇷 [[관성 질량과 중력 질량]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... A Massive Mystery <br/> 🇰🇷 [[관성 질량과 중력 질량]]      ..."
     },
     "Canvas (HTML5)": {
         "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., ..."
@@ -990,11 +984,11 @@ export const backlinks = {
     },
     "Kubernetes": {
         "2022-07-14": "... I found: Uber didn't make [[Kubernetes]]. [[Google]] did.",
+        "Architecture of Mastodon": "... make developer workflow harder. Containerization, [[Kubernetes]], and modern [[front-end]] stacks are ...",
         "Boring Technologies": "... your product runs on Heroku, [[Kubernetes]], or a brittle singly-homed machine ...",
         "Cloud-Native": "... and automation using tools like [[Kubernetes]], [[Docker]], and Terraform.",
         "Generalist": "... observability, versioning, orchestrators rebased on [[Kubernetes]]), the [[ML|machine learning]] stack (cloud-native ...",
-        "How to Build Software like an SRE": "- use [[Kubernetes]]",
-        "The Architecture of Mastodon": "... make developer workflow harder. Containerization, [[Kubernetes]], and modern [[front-end]] stacks are ..."
+        "How to Build Software like an SRE": "- use [[Kubernetes]]"
     },
     "Digital Bookmarks for Physical Books": {
         "2023-01-09": "- [[Digital Bookmarks for Physical Books]]"
@@ -1099,7 +1093,7 @@ export const backlinks = {
         "Bondee": "... avatar social app created by [[Singapore]]-based tech firm [[Metadream]]. Users can ...",
         "Metadream": "... is a private company in [[Singapore]], established on September 9, 2022, ...",
         "On-Premise": "... rented colocation data center in [[Singapore]] with a relatively homogenous infrastructure",
-        "The Sudden Rise of Bondee": "... going crazy in 대한민국|Korea, 일본|Japan, [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in ...",
+        "Sudden Rise of Bondee": "... going crazy in 대한민국|Korea, 일본|Japan, [[Singapore]], [[대만|Taiwan]], etc., ranking #1 in ...",
         "본디는 사실 혜성이 아니다": "Metadream|메타드림은 [[Singapore|싱가포르]] 기반의 회사다 보니 싱가포르 금융당국의 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, 일본, [[Singapore|싱가포르]], [[대만|타이완]] 등에서 앱스토어 1위를 하며 ..."
     },
@@ -1128,6 +1122,10 @@ export const backlinks = {
         "2022-07-26": "### [[Intracranial]]",
         "Handwriting Tools for Thoughts": "- [[Intracranial]]",
         "Infinite Canvas": "- [[Intracranial]]"
+    },
+    "One and only": {
+        "LavaLab Cohort of Spring 2023": "- Hive gives [[One and only]] search interface to fish your ...",
+        "One and Only (Social App)": "... the solution for you. Introducing '[[One and only]],' the ultimate social media app ..."
     },
     "Software as a Service": {
         "FIRE Engine": "- [[Software as a Service]] that drives revenue streams for ...",
@@ -1199,9 +1197,9 @@ export const backlinks = {
         "Probability Of Queueing (Internetworking)": "- Each has a [[probability]] of $p$ being active",
         "Q Function": "In [[probability]] theory and [[statistics]], the Q ...",
         "Ratio Test": "In [[Probability]],",
+        "Site On Which the Sun Never Sets": "... a probabilistic model, where the [[probability]] of no one on the ...",
         "Standard Normal": "... denoted by $\\Phi(z)$, gives the [[probability]] that a random variable from ...",
         "Stirling Approximation": "... trials, and $p$ is the [[probability]] of success.",
-        "The Site On Which the Sun Never Sets": "... a probabilistic model, where the [[probability]] of no one on the ...",
         "Total Probability": "In [[Probability]],",
         "UUIDs are Awesome": "... the next 100 years, the [[probability]] of creating just one duplicate ...",
         "Uniform Distributions (Discrete)": "In [[Probability]],",
@@ -1219,18 +1217,14 @@ export const backlinks = {
     "HLSL": {
         "2023-01-23": "- [[HLSL]]"
     },
-    "The Broken Feedback Loop": {
-        "2022-06-21": "[[The Broken Feedback Loop]]",
-        "LavaLab Cohort of Spring 2023": "... Firefly captures lost information of [[The Broken Feedback Loop]]."
-    },
     "Meltdown and Spectre": {
         "2022-12-09": "- [[Meltdown and Spectre]]",
         "Computer Systems": "- [[Meltdown and Spectre]]"
     },
     "Person 648442": {
         "2023-02-15": "- [[Person 648442]]",
-        "Project PEOPLE": "- [[Person 648442]]",
-        "The One and Only (Social App)": "Someday Project. Ideated during [[Person 648442]]"
+        "One and Only (Social App)": "Someday Project. Ideated during [[Person 648442]]",
+        "Project PEOPLE": "- [[Person 648442]]"
     },
     "잡스와 생존 편향": {
         "2019-10-13": "- [[잡스와 생존 편향]]",
@@ -1248,6 +1242,10 @@ export const backlinks = {
     },
     "민사고와 쇼비니즘": {
         "2023-02-17": "- [[민사고와 쇼비니즘]]"
+    },
+    "Broken Feedback Loop": {
+        "2022-06-21": "[[Broken Feedback Loop]]",
+        "LavaLab Cohort of Spring 2023": "... Firefly captures lost information of [[Broken Feedback Loop]]."
     },
     "Either be the best-in-class or the most efficient": {
         "2022-10-13": "- [[Either be the best-in-class or the most efficient]]"
@@ -1297,11 +1295,11 @@ export const backlinks = {
     },
     "In search of my domain": {
         "2023-01-09": "- [[In search of my domain]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-10 | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-10 | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] ..."
     },
     "IP is the new Real Estate": {
         "2023-02-26": "- [[IP is the new Real Estate]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-26 | 🇬🇧 [[IP is the new Real Estate]] <br/> 🇰🇷 [[새로운 부동산은 지적 ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-26 | 🇬🇧 [[IP is the new Real Estate]] <br/> 🇰🇷 [[새로운 부동산은 지적 ..."
     },
     "Project Core ML Foundation": {
         "2023-01-26": "- [[Project Core ML Foundation]]",
@@ -1309,15 +1307,11 @@ export const backlinks = {
         "2023-01-30": "- [[Project Core ML Foundation]]"
     },
     "SMTP": {
+        "Architecture of Mastodon": "- Agnostic S3/[[SMTP]] File Storage and Mailer",
         "Internet Protocol Stack": "- Application. FTP, [[SMTP]], [[HTTP]]. Handles Messages. SSL belongs ...",
         "Internetworking": "- [[SMTP]]",
         "Reimagining Emails": "- [[SMTP]]",
-        "Techs Actually Simple": "... to mention plaintext protocols. HTTP, [[SMTP]], FTP, and Redis Serialization Protocol ...",
-        "The Architecture of Mastodon": "- Agnostic S3/[[SMTP]] File Storage and Mailer"
-    },
-    "The Dilemmas of Technopreneur": {
-        "2022-12-09": "- [[The Dilemmas of Technopreneur]]",
-        "Antipreneur": "- [[The Dilemmas of Technopreneur]]: 하지만 기술 중독에 걸리지 않도록 ..."
+        "Techs Actually Simple": "... to mention plaintext protocols. HTTP, [[SMTP]], FTP, and Redis Serialization Protocol ..."
     },
     "Blind Illness": {
         "2022-11-30": "- [[Blind Illness]]"
@@ -1383,7 +1377,7 @@ export const backlinks = {
     },
     "초대장의 시대": {
         "2023-02-05": "- [[초대장의 시대]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Era of Invites <br/> 🇰🇷 [[초대장의 시대]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Era of Invites <br/> 🇰🇷 [[초대장의 시대]]      ..."
     },
     "American Bank Problems": {
         "2023-05-03": "- [[American Bank Problems]]"
@@ -1394,6 +1388,13 @@ export const backlinks = {
     "Forward Declaration": {
         "2023-01-25": "- [[Forward Declaration]]",
         "Game Programming": "- [[Forward Declaration]]"
+    },
+    "Library of Babel": {
+        "2022-11-24": "- [[Library of Babel]]",
+        "Information amongst Data": "[[Library of Babel]] holds all data.",
+        "Photo Library of Babel": "[[Library of Babel]]",
+        "Proposal of Research 2023-01-10": "\"[[Library of Babel]]\" by Jorge Luis Borges is ...",
+        "Proposal of Research 2023-03-28": "Inspired by \"[[Library of Babel]]\" by Jorge Luis Borges, this ..."
     },
     "Automemoji": {
         "2023-03-28": "- [[Automemoji]]"
@@ -1444,6 +1445,7 @@ export const backlinks = {
         "Ghost 테마를 자동 배포하는 방법": "... 말 그대로 머리가 없다는 뜻으로, [[Back-end|백엔드]]는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 ...",
         "Grammarly Work Note 2023-05-26": "2. The Lack of Local [[Back-end]] Testings. The [[back-end]], written in ...",
         "Grammarly Work Note 2023-05-31": "... interfaces are controlled by the [[back-end]] and gradually enabled throughout the ...",
+        "IDOL Stack": "... Sometimes lack of a proper [[back-end]] sucks",
         "Inspiring Open Source Projects": "- bitwarden/server The core infrastructure [[Back-end|backend]] (API, database, [[Docker]], etc).",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... to an edge-served Front-end and [[back-end]] as edge-replicated simple data storage. ...",
         "Now Page": "... I'd rather keep improving my [[back-end]] [[database]] work.\"",
@@ -1453,7 +1455,6 @@ export const backlinks = {
         "Refine (Framework)": "- [[Back-end|Backend]] (REST API, Supabase, Strapi, NestJS, ...",
         "Render.com": "... meaning it does not support [[back-end]] services like Python, [[Java]], or ...",
         "Supabase": "Supabase is an open-source [[Back-end|backend]]-as-a-service (BaaS) platform that simplifies application ...",
-        "The IDOL Stack": "... Sometimes lack of a proper [[back-end]] sucks",
         "tRPC": "... packages and set up a [[Back-end|backend]] router. You can then define ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 사이드 렌더링이었다. 그때는 이것이 당연했다. [[Back-end|백엔드]]는 자바를 사용했다. 이후 마이크로 서비스 ..."
     },
@@ -1657,7 +1658,7 @@ export const backlinks = {
         "Accelerationism": "- [[United Kingdom|영국]]의 철학자 및 이후 어두운 계몽주의 ...",
         "On National Crises and the Intellectuals — Focused on GB and KR": "... Republic of 대한민국|Korea and the [[United Kingdom]] share many similarities in our ...",
         "PECR": "... is a law in the [[United Kingdom]] which made it unlawful to, ...",
-        "The Site On Which the Sun Never Sets": "... the internet. Just as the [[United Kingdom|British]] Empire once had territories and ...",
+        "Site On Which the Sun Never Sets": "... the internet. Just as the [[United Kingdom|British]] Empire once had territories and ...",
         "국가와 민족": "... 하이 리스크 하이 리턴식 사회, [[United Kingdom|영국]]은 최소한의 기본권을 제도화한 후 통제 ...",
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "대한민국과 [[United Kingdom|영국]]은 많은 유사점을 가지고 있습니다."
     },
@@ -1672,6 +1673,12 @@ export const backlinks = {
         "2023-01-13": "- [[YAML]]",
         "Ghost 테마를 자동 배포하는 방법": "... workflow의 이름은 `deploy-theme.yml`라고 설정하고 다음 [[YAML]] 코드를 복사하여 붙여넣는다. GitHub Secrets에 ...",
         "Higher-Level Languages and Their Speeds": "... site can be a single [[YAML]] read on boot? This goes ..."
+    },
+    "Battle of Flow and Asana": {
+        "2022-12-09": "- [[Battle of Flow and Asana]]",
+        "Antipreneur": "- [[Battle of Flow and Asana]]: 하지만 이런 예시도 있다는 것을 ...",
+        "Bootstrap": "- [[Battle of Flow and Asana]]",
+        "Survivorship Biased": "- [[Battle of Flow and Asana]]"
     },
     "aaaa.coffee": {
         "2023-05-16": "- [[aaaa.coffee]]"
@@ -1718,7 +1725,7 @@ export const backlinks = {
     },
     "드디어, 한국 애플페이": {
         "2023-02-04": "- [[드디어, 한국 애플페이]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Pay in Korea <br/> 🇰🇷 [[드디어, 한국 애플페이]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Pay in Korea <br/> 🇰🇷 [[드디어, 한국 애플페이]]      ..."
     },
     "Rewind": {
         "2022-12-24": "- [[Rewind]] is [[GA]]",
@@ -1747,6 +1754,12 @@ export const backlinks = {
     },
     "Implementing Karatsuba Algorithm in Python": {
         "2022-11-19": "  - [[Implementing Karatsuba Algorithm in Python]]"
+    },
+    "Demise of Chatbots in 2017": {
+        "2022-11-28": "- Matt Rickard: [[Demise of Chatbots in 2017]], [[Generative Databases]]",
+        "Generative AI": "... make a similar trajectory like [[Demise of Chatbots in 2017]]?",
+        "Matt Rickard": "- [[Demise of Chatbots in 2017]]",
+        "Search AI": "We will never see [[Demise of Chatbots in 2017]] again."
     },
     "CSS": {
         "2023-01-23": "... seems like Wikipedia updated its [[CSS]]...",
@@ -1802,7 +1815,7 @@ export const backlinks = {
     },
     "역사의 종말 오류": {
         "2023-03-16": "- [[역사의 종말 오류]]",
-        "The Newtonian Correspondence": "... of History Fallacy <br/> `KO` [[역사의 종말 오류]]      ..."
+        "Newtonian Correspondence": "... of History Fallacy <br/> `KO` [[역사의 종말 오류]]      ..."
     },
     "Data Science": {
         "2022-12-28": "- Facebook Notifications [[Data Science]] team at Meta",
@@ -1844,7 +1857,7 @@ export const backlinks = {
     },
     "OpenAI가 새로운 테크 리바이스로 등극하다": {
         "2023-03-01": "- [[OpenAI가 새로운 테크 리바이스로 등극하다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Levis of Tech <br/> 🇰🇷 [[OpenAI가 새로운 테크 리바이스로 등극하다]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Levis of Tech <br/> 🇰🇷 [[OpenAI가 새로운 테크 리바이스로 등극하다]]      ..."
     },
     "Pascal Triangle": {
         "2023-01-24": "- [[Pascal Triangle]]"
@@ -1872,7 +1885,7 @@ export const backlinks = {
     },
     "새로운 부동산은 지적 재산이다": {
         "2023-02-26": "- [[새로운 부동산은 지적 재산이다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... new Real Estate <br/> 🇰🇷 [[새로운 부동산은 지적 재산이다]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... new Real Estate <br/> 🇰🇷 [[새로운 부동산은 지적 재산이다]]      ..."
     },
     "태백산맥 계획": {
         "2022-12-11": "- [[태백산맥 계획]]",
@@ -1979,8 +1992,8 @@ export const backlinks = {
     },
     "Harry Stebbings": {
         "2023-03-03": "- [[Harry Stebbings]]",
+        "30-Day Tweet Test (Harry Stebbings)": "> — [[Harry Stebbings]] (@HarryStebbings) February 2, 2023",
         "On National Crises and the Intellectuals — Focused on GB and KR": "## Dear [[Harry Stebbings|Mr. Stebbings]],",
-        "The 30-Day Tweet Test (Harry Stebbings)": "> — [[Harry Stebbings]] (@HarryStebbings) February 2, 2023",
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "## [[Harry Stebbings|Stebbings]] 님께"
     },
     "Install Yarn Silently": {
@@ -1988,7 +2001,7 @@ export const backlinks = {
     },
     "Finally, Apple Pay in Korea": {
         "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-04 | 🇬🇧 [[Finally, Apple Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]] ...",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-04 | 🇬🇧 [[Finally, Apple Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]] ...",
         "드디어, 한국 애플페이": "[[Finally, Apple Pay in Korea]]"
     },
     "Slow Down Your Clock Cycle Speed": {
@@ -2024,7 +2037,7 @@ export const backlinks = {
     },
     "10x Technopreneurs": {
         "2022-12-09": "- [[10x Technopreneurs]]",
-        "The Dilemmas of Technopreneur": "For [[10x Technopreneurs]], the [[Cost of Engineering]] is ..."
+        "Dilemmas of Technopreneur": "For [[10x Technopreneurs]], the [[Cost of Engineering]] is ..."
     },
     "Exhalation": {
         "2023-05-11": "- [[Exhalation]]",
@@ -2032,9 +2045,6 @@ export const backlinks = {
     },
     "Remux": {
         "FFMpeg": "- ([[Remux]]ing, No \"Encoding\")"
-    },
-    "The Enduring Question of Cicada": {
-        "2023-03-16": "- [[The Enduring Question of Cicada]]"
     },
     "앎의 그릇": {
         "2023-04-30": "- [[앎의 그릇]]"
@@ -2089,8 +2099,8 @@ export const backlinks = {
     },
     "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": {
         "2023-03-03": "- [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]]",
-        "On National Crises and the Intellectuals — Focused on GB and KR": "[[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로|한국어 🇰🇷 버전은 여기에 있습니다.]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... GB and KR <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | tweet |"
+        "30-Day Tweet Test (Harry Stebbings)": "... GB and KR <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | tweet |",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "[[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로|한국어 🇰🇷 버전은 여기에 있습니다.]]"
     },
     "Separation of Computer Scientists and Computer Technologists": {
         "2022-08-24": "- [[Separation of Computer Scientists and Computer Technologists]]"
@@ -2167,7 +2177,7 @@ export const backlinks = {
     },
     "A Massive Mystery": {
         "2023-02-07": "- [[A Massive Mystery]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-07 | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-07 | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 ..."
     },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]",
@@ -2207,9 +2217,6 @@ export const backlinks = {
         "Multiplexing": "- In [[Internetworking]], it means having multiple sockets ...",
         "Socket": "- used in [[Internetworking]]"
     },
-    "The Sparkle Button": {
-        "글감": "- [[The Sparkle Button]]"
-    },
     "Privacy Policy for My Chrome Extensions": {
         "Bing Chat for All Browsers": "- [[Privacy Policy for My Chrome Extensions]]"
     },
@@ -2227,6 +2234,7 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
     },
     "Front-end": {
+        "Architecture of Mastodon": "... harder. Containerization, Kubernetes, and modern [[front-end]] stacks are challenging to work ...",
         "Cloudflare Pages": "- Cloudflare Edge [[Front-end]] Front-end",
         "Ghost 테마를 자동 배포하는 방법": "... 머리가 없다는 뜻으로, Back-end|백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 ...",
         "HTMX": "- A [[Front-end]]",
@@ -2234,7 +2242,6 @@ export const backlinks = {
         "React": "... is a free and open-source [[Front-end|front-end]] JavaScript library for building user ...",
         "Satori": "... Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "... is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris ...",
-        "The Architecture of Mastodon": "... harder. Containerization, Kubernetes, and modern [[front-end]] stacks are challenging to work ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 [[TypeScript|타입스크립트]]를 쓰고 있다. 하지만 ...",
         "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 ..."
     },
@@ -2312,7 +2319,7 @@ export const backlinks = {
     "Did Bondee Really Suddenly Rise": {
         "2023-02-12": "- [[Did Bondee Really Suddenly Rise]]",
         "2023-02-13": "- [[Did Bondee Really Suddenly Rise]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-13 | 🇬🇧 [[Did Bondee Really Suddenly Rise]] <br/> 🇰🇷 [[본디는 사실 혜성이 ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-13 | 🇬🇧 [[Did Bondee Really Suddenly Rise]] <br/> 🇰🇷 [[본디는 사실 혜성이 ..."
     },
     "0232 Implement Queue using Stacks": {
         "2022-11-28": "- Coding Tests: [[0232 Implement Queue using Stacks]]",
@@ -2338,7 +2345,7 @@ export const backlinks = {
         "Building a Second Brain": "- [[두 번째 뇌]]"
     },
     "First Two Months of a Startup": {
-        "The Dilemmas of Technopreneur": "That means the [[First Two Months of a Startup]] can be spent making the ..."
+        "Dilemmas of Technopreneur": "That means the [[First Two Months of a Startup]] can be spent making the ..."
     },
     "2016년 12월 5일 민족사관고등학교 교장 사임 사건": {
         "2023-03-11": "- [[2016년 12월 5일 민족사관고등학교 교장 사임 사건]]"
@@ -2394,9 +2401,9 @@ export const backlinks = {
         "React": "... building user interfaces based on [[UIUX|UI]] components. It is maintained by ...",
         "React Native": "... React Native is an open-source [[UIUX|UI]] software framework created by Meta ...",
         "Simulated Annealing for Designs": "... shadows, and textures in our [[UIUX|UI]] designs. And now we are ...",
+        "Sudden Rise of Bondee": "... the Townhall. Sometimes, a single [[UIUX]] makes a huge difference.",
         "Svelte": "... automatically recompute data and re-render [[UIUX|UI]] elements when the data they ...",
         "Tailwind": "... a 1-to-1 match with the [[UIUX|UI]]. I can easily navigate through ...",
-        "The Sudden Rise of Bondee": "... the Townhall. Sometimes, a single [[UIUX]] makes a huge difference.",
         "Toss Product Sans": "... 쉼표, 더하기, 빼기, 화살표 등 [[UIUX|UI]] 요소로 활용되는 기호들의 가독성을 높여, ...",
         "UI AI": "- an [[UIUX]] experiment.",
         "Virtual DOM": "... the end being declarative, state-driven [[UIUX|UI]] development. Virtual DOM is valuable ...",
@@ -2477,12 +2484,17 @@ export const backlinks = {
         "Storing sensitive data in iOS Apps": "## Advanced [[Readings]]",
         "Watchings": "... from Feb 2023. Just like [[Readings]]"
     },
+    "Architecture of Mastodon": {
+        "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[Architecture of Mastodon]]",
+        "Matt Rickard": "- [[Architecture of Mastodon]]"
+    },
     "Engine": {
         "2023-02-03": "- [[Engine]]",
         "Bing": "Bing is a web search [[engine]] developed by [[Microsoft]] that helps ...",
         "Chromium": "... \"The integration with the CSS [[engine]] leads to some extraordinary use ...",
         "Conditional Compilation": "... can be used for multi-platform [[engine]]",
         "Docker": "... the containers is called Docker [[Engine]]. It was first started in ...",
+        "Engine Equation": "In thermodynamics, an [[engine]] is a machine that converts ...",
         "Finding out Ghost version with JS": "... first, I investigated the Ghost [[engine]] side to make the [[Node.js]] ...",
         "Geohot-Twitter Mayhem": "Twitter's Missing Search [[Engine]].",
         "Google": "... company that focuses on search [[engine]] technology, online advertising, [[cloud computing]], ...",
@@ -2497,7 +2509,6 @@ export const backlinks = {
         "Satori": "### [[Engine]]",
         "Stories Behind Satori": "... elements' positions through a layout [[engine]] and convert them into [[SVG]] ...",
         "Tech Now Pay Later": "An [[engine]] takes time (a type of ...",
-        "The Engine Equation": "In thermodynamics, an [[engine]] is a machine that converts ...",
         "프로젝트 어덕행덕": "  - Stage Mix [[Engine]]"
     },
     "Optimistic Nihilism": {
@@ -2515,8 +2526,8 @@ export const backlinks = {
     "In-house and Free Market": {
         "2022-12-24": "- [[In-house and Free Market]]: Can independent scientists ever win ...",
         "2023-02-22": "- [[In-house and Free Market]]",
-        "I travel the World Wide Web": "- [[In-house and Free Market]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-22 | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]  ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-22 | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]  ...",
+        "I travel the World Wide Web": "- [[In-house and Free Market]]"
     },
     "Go To Market": {
         "10x Technopreneurs": "... and have the knowledge for [[Go To Market|Go-To-Market]] [[Strategy|strategies]] and monetization. They can ...",
@@ -2594,7 +2605,7 @@ export const backlinks = {
     },
     "본디는 사실 혜성이 아니다": {
         "2023-02-13": "- [[본디는 사실 혜성이 아니다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Really Suddenly Rise <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Really Suddenly Rise <br/> 🇰🇷 [[본디는 사실 혜성이 아니다]]      ..."
     },
     "雅號": {
         "2023-01-09": "- [[雅號]]",
@@ -2610,7 +2621,7 @@ export const backlinks = {
     },
     "Psychohistory": {
         "2023-02-19": "- [[Psychohistory]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-19 | 🇬🇧 [[Psychohistory]] <br/> 🇰🇷 [[심리역사학]]   ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-19 | 🇬🇧 [[Psychohistory]] <br/> 🇰🇷 [[심리역사학]]   ..."
     },
     "민사고": {
         "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "2016년 [[민사고|민족사관고등학교]]로 새로 오신 교장 선생님이셨다.",
@@ -2641,6 +2652,10 @@ export const backlinks = {
     },
     "Databricks AI Summit 2023 Grammarly Session": {
         "Databricks AI Summit 2023": "- [[Databricks AI Summit 2023 Grammarly Session]]"
+    },
+    "Photo Library of Babel": {
+        "Proposal of Research 2023-01-10": "## 3. [[Photo Library of Babel]]",
+        "Proposal of Research 2023-03-28": "## [[Photo Library of Babel]]: Exploring the Implications of Finite ..."
     },
     "University of Southern California": {
         "2023-03-16": "- [[University of Southern California]]",
@@ -2697,8 +2712,10 @@ export const backlinks = {
         "Apple Easter Egg": "... here for the hard core [[Apple]] fans that",
         "Apple Newsroom 서체 따라하기": "가장 [[Apple|애플]]을 잘 모방한 서체이다.",
         "Apple Silicon": "- Chips made by [[Apple]]",
+        "Broken Feedback Loop": "However, [[Apple]] Feedback Assistant is not a ...",
         "Brunch violates SF terms of use": "... 한민족|Korean writing service Brunch violates [[Apple]]'s Terms of Use by using ...",
         "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
+        "Dilemmas of Technopreneur": "... but it never would've become [[Apple]] if it weren't for Steve ...",
         "Dynamic Island": "... and other app-specific functionality that [[Apple]] calls Live Activities. These icons ...",
         "Finally, Apple Pay in Korea": "After a decade of waiting, [[Apple]] Pay has expanded to [[대한민국|Korea]]. ...",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If ...",
@@ -2724,8 +2741,6 @@ export const backlinks = {
         "Screenshot as an API": "... from photos in the latest [[Apple]] [[iOS]] 16 update.",
         "Super App": "... the mobile search partnership between [[Apple]] and [[Google]]",
         "Swift": "- Programming Language for [[Apple]] platforms",
-        "The Broken Feedback Loop": "However, [[Apple]] Feedback Assistant is not a ...",
-        "The Dilemmas of Technopreneur": "... but it never would've become [[Apple]] if it weren't for Steve ...",
         "USDZ vs glTF": "... by Pixar and operated by [[Apple]] for [[iOS]] [[Augmented Reality]] applications. ...",
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] ...",
         "WWDC": "[[Apple]]'s Worldwide Developer Conference",
@@ -2755,9 +2770,9 @@ export const backlinks = {
         "Browser Company Hackathon": "- Idea: [[Safari]]-like Reader Mode + SummarizationBot using ...",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... Only WebExtension\" for Firefox and [[Safari]]. It will essentially be a ...",
         "Meta Theme Color for Spacial Cognition": "> Tinted [[Safari]] theme color based on user ...",
+        "One and Only WebExtension": "- A [[Safari]] and [[Firefox]] [[WebExtension|extension]] that disguises ...",
         "Safari is the new Internet Explorer": "... an iOS device, you use [[Safari]] and are bound by its ...",
         "Snowpack으로 WASM 시작하기": "- 다만 [[Safari]]와 [[Firefox]]에서는 작동되지 않았다. \"SharedArrayBuffer is ...",
-        "The One and Only WebExtension": "- A [[Safari]] and [[Firefox]] [[WebExtension|extension]] that disguises ...",
         "VP9 vs HEVC": "... banning 4K videos on Apple [[Safari]] and [[iOS]] YouTube."
     },
     "Reverse Engineering Apple Music API": {
@@ -2789,7 +2804,7 @@ export const backlinks = {
         "2023-06-16": "- [[Grammarly Work Note 2023-06-03]]"
     },
     "Cut the Fat": {
-        "The Dilemmas of Technopreneur": "Essentially, they can [[Cut the Fat]]."
+        "Dilemmas of Technopreneur": "Essentially, they can [[Cut the Fat]]."
     },
     "Text Graphics": {
         "2022-11-07": "- [[Text Graphics]]"
@@ -2814,12 +2829,16 @@ export const backlinks = {
         "Google": "... computing, computer software, quantum computing, [[ecommerce|e-commerce]], [[AI|artificial intelligence]], and consumer electronics. ...",
         "Higher-Level Languages and Their Speeds": "... entire product catalog of the [[ecommerce|e-commerce]] site can be a single ...",
         "Mini App": "... platforms incorporate services like messaging, [[ecommerce|e-commerce]], ride-hailing, food delivery, and digital ...",
-        "Separation of Computer Scientists and Computer Technologists": "... make a cool-looking Single-Page-App JavaScript [[ecommerce|e-commerce]] website...",
-        "The One and Only (Social App)": "... such as messaging, social media, [[ecommerce|e-commerce]], and mobile payments into a ..."
+        "One and Only (Social App)": "... such as messaging, social media, [[ecommerce|e-commerce]], and mobile payments into a ...",
+        "Separation of Computer Scientists and Computer Technologists": "... make a cool-looking Single-Page-App JavaScript [[ecommerce|e-commerce]] website..."
     },
     "Pipelining": {
         "2022-12-08": "- [[Pipelining]]",
         "Computer Systems": "- [[Pipelining]]"
+    },
+    "IDOL Stack": {
+        "2023-06-14": "- [[IDOL Stack]]",
+        "2023-06-18": "- [[IDOL Stack]]"
     },
     "Cache Write Policy": {
         "2022-11-04": "- [[Cache Write Policy]]",
@@ -2841,6 +2860,10 @@ export const backlinks = {
         "2023-06-13": "[[Grammarly Work Note 2023-06-13]]",
         "2023-06-16": "- [[Grammarly Work Note 2023-06-13]]"
     },
+    "Problems of ChatGPT": {
+        "2023-01-13": "- [[Problems of ChatGPT]]",
+        "Bing Chat": "- Solves [[Problems of ChatGPT]]"
+    },
     "Atomic Notes": {
         "Andy Matuschak": "... a new vision of online [[Atomic Notes|Zettelkasten]].",
         "Intracranial": "  - [[Atomic Notes]]"
@@ -2853,7 +2876,7 @@ export const backlinks = {
     },
     "Noumenon": {
         "Are Computers Psychotropic Substances": "... How dare you!\" However, a [[Noumenon]] itself, and Noumenon's fanatical destructive ...",
-        "The Library of Babel": "... the idea, but not the [[Noumenon]].",
+        "Library of Babel": "... the idea, but not the [[Noumenon]].",
         "컴퓨터는 향정신성 약물인가": "... 얘기할 수 있다. 하지만 하나의 [[Noumenon|물자체]] 그 스스로와 그 Noumenon|물자체의 광적 ..."
     },
     "Research Paper Language System": {
@@ -2967,7 +2990,7 @@ export const backlinks = {
     },
     "WebNPU API를 상상하다": {
         "2023-02-18": "- [[WebNPU API를 상상하다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Imagining WebNPU API <br/> 🇰🇷 [[WebNPU API를 상상하다]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Imagining WebNPU API <br/> 🇰🇷 [[WebNPU API를 상상하다]]      ..."
     },
     "WebExtension": {
         "2022-05-30": "... Places Great Second Brain|Digital Brain [[WebExtension|Extension]].",
@@ -2977,10 +3000,10 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "... 다음과 같은 간단한 구조였다. Chrome [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 이루어져 ...",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... have a question about your [[WebExtension|extension]], [[tabExtend]]. I recently switched to ...",
         "Letter to the Heptabase Team on 2022-10-11": "- [[WebExtension|Extension]] APIs",
+        "One and Only WebExtension": "- A Safari and Firefox [[WebExtension|extension]] that disguises itself as [[Chrome]] ...",
         "Porting a Chrome Extension to Firefox Add-on": "... very different Web Browser|browsers, Chrome [[WebExtension|Extension]] and Firefox Add-on are now ...",
         "Privacy Policy for My Chrome Extensions": "... any data from this Chrome [[WebExtension|Extension]].",
         "Sending Notifications on Chrome Extension": "... Updates of a given Chrome [[WebExtension|Extension]] (with different content, of course)",
-        "The One and Only WebExtension": "- A Safari and Firefox [[WebExtension|extension]] that disguises itself as [[Chrome]] ...",
         "YCLF 주간 사용자 1000명": "## 1. Chrome|크롬 [[WebExtension|익스텐션]] 스토어의 집계"
     },
     "Frames Per Second": {
@@ -3085,7 +3108,7 @@ export const backlinks = {
     },
     "ChatGPT는 흐릿한 이미지이지만 필요합니다": {
         "2023-03-31": "- [[ChatGPT는 흐릿한 이미지이지만 필요합니다]]",
-        "The Newtonian Correspondence": "... We Need That <br/> `KO` [[ChatGPT는 흐릿한 이미지이지만 필요합니다]] | Tweet <br/> Linkedin  ..."
+        "Newtonian Correspondence": "... We Need That <br/> `KO` [[ChatGPT는 흐릿한 이미지이지만 필요합니다]] | Tweet <br/> Linkedin  ..."
     },
     "Work Note": {
         "2022-05-27": "## [[Work Note|Work Notes]]",
@@ -3107,7 +3130,7 @@ export const backlinks = {
     },
     "Why is Swift String Manipulation like that": {
         "2023-02-15": "- [[Why is Swift String Manipulation like that]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-15 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-15 | 🇬🇧 [[Why is Swift String Manipulation like that]] <br/> 🇰🇷 [[Swift String 조작은 ..."
     },
     "Off The Record": {
         "2022-09-11": "- [[Off The Record]]",
@@ -3196,10 +3219,6 @@ export const backlinks = {
     "UI AI": {
         "Diagram (Company)": "- Creator of [[UI AI]]"
     },
-    "The Great Struggle of Gumroad": {
-        "2022-12-09": "- [[The Great Struggle of Gumroad]]",
-        "Survivorship Biased": "- [[The Great Struggle of Gumroad]]"
-    },
     "Simple Analytics": {
         "2022-10-24": "- [[Simple Analytics]]",
         "Curve Fitting for Charts": "## On 2022-10-21, with [[Simple Analytics]]",
@@ -3214,10 +3233,6 @@ export const backlinks = {
     "Love Wikipedia": {
         "2023-02-26": "- [[Love Wikipedia]]",
         "Love Software": "- [[Love Wikipedia]]"
-    },
-    "The IDOL Stack": {
-        "2023-06-14": "- [[The IDOL Stack]]",
-        "2023-06-18": "- [[The IDOL Stack]]"
     },
     "PKM": {
         "2022-06-12": "- Current [[PKM]] software tries to make [[Wikipedia]]-like ...",
@@ -3250,8 +3265,8 @@ export const backlinks = {
     "Why Korean Banks Suck": {
         "2023-01-09": "- [[Why Korean Banks Suck]]",
         "2023-02-20": "- [[Why Korean Banks Suck]]",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-20 | 🇬🇧 [[Why Korean Banks Suck]] <br/> 🇰🇷 [[국내 은행 서비스가 ...",
         "Finally, Apple Pay in Korea": "... becomes a new stimulus for [[Why Korean Banks Suck|troubled Korean banking system]].",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-20 | 🇬🇧 [[Why Korean Banks Suck]] <br/> 🇰🇷 [[국내 은행 서비스가 ...",
         "드디어, 한국 애플페이": "... 있지만, 오늘 할 이야기는 아니다. [[Why Korean Banks Suck|한국 은행계]]에 새로운 자극이 되기를 바란다."
     },
     "식영부원의 관점에서 바라본 치킨데이": {
@@ -3310,7 +3325,7 @@ export const backlinks = {
     },
     "Can we ever build TikTok for Text": {
         "2023-02-27": "- [[Can we ever build TikTok for Text]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-27 | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 ...",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-27 | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 ...",
         "hn.cho.sh 개발 기록": "- [[Can we ever build TikTok for Text]]"
     },
     "CSS Inject": {
@@ -3349,9 +3364,9 @@ export const backlinks = {
     },
     "Bondee": {
         "2023-02-12": "- [[Bondee]]",
-        "Did Bondee Really Suddenly Rise": "... took a closer look into [[Bondee]]: [[The Sudden Rise of Bondee]]. ...",
+        "Did Bondee Really Suddenly Rise": "... took a closer look into [[Bondee]]: [[Sudden Rise of Bondee]]. But ...",
         "LavaLab Cohort of Spring 2023": "Similar to [[Bondee]] and [[Zenly]].",
-        "The Sudden Rise of Bondee": "[[Bondee]] is a [[metaverse]] social app, ...",
+        "Sudden Rise of Bondee": "[[Bondee]] is a [[metaverse]] social app, ...",
         "본디는 사실 혜성이 아니다": "어제 혜성처럼 나타난 본디 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 Bondee|본디는 정말 ...",
         "혜성처럼 나타난 본디": "[[Bondee|본디]]는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 ..."
     },
@@ -3380,7 +3395,7 @@ export const backlinks = {
     "Imagining WebNPU API": {
         "2023-02-14": "- [[Imagining WebNPU API]]",
         "2023-02-18": "- [[Imagining WebNPU API]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-18 | 🇬🇧 [[Imagining WebNPU API]] <br/> 🇰🇷 [[WebNPU API를 상상하다]] ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-18 | 🇬🇧 [[Imagining WebNPU API]] <br/> 🇰🇷 [[WebNPU API를 상상하다]] ..."
     },
     "Wikipedia": {
         "2022-06-12": "... PKM software tries to make [[Wikipedia]]-like graphs, where there the term ...",
@@ -3476,6 +3491,7 @@ export const backlinks = {
         "Architectural Decision Records": "... created and maintained in a [[project]] constitute its decision log. All ...",
         "Automemoji": "Someday [[Project]].",
         "Autosave Everything": "Someday [[Project]]. A small Mac App that ...",
+        "Battle of Flow and Asana": "... that scratched their own itch ([[project]] management,) and charge a monthly ...",
         "Better Aldehyde": "- [[Project]]",
         "Better Hacker News": "Someday [[Project]]. Improving HN.",
         "Book Metadata as a Service": "Someday [[Project]]. Open API that returns Book ...",
@@ -3514,6 +3530,8 @@ export const backlinks = {
         "Notion": "> Notion is a [[project]] management and note-taking software platform ...",
         "Off The Record": "Someday [[Project]]. Disappearing message for iMessage.",
         "Old Fashioned Camera": "Someday [[Project]]. iPhone 4 시절 그 구진 ...",
+        "One and Only (Social App)": "Someday [[Project]]. Ideated during [[Person 648442]]",
+        "One and Only WebExtension": "- Someday [[Project]]",
         "Open Graph Image as a Service": "Someday [[Project]]. Request Open Graph Images with ...",
         "PDF": "... its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John ...",
         "PKM": "... needs are different from a [[project]] base.",
@@ -3536,10 +3554,6 @@ export const backlinks = {
         "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search ...",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "Tech Now Pay Later": "... Database|DB to use for your [[project]] and/or if it scales – ...",
-        "The Battle of Flow and Asana": "... that scratched their own itch ([[project]] management,) and charge a monthly ...",
-        "The One and Only (Social App)": "Someday [[Project]]. Ideated during [[Person 648442]]",
-        "The One and Only WebExtension": "- Someday [[Project]]",
-        "The Zenly Playbook": "... efficiency from a 3-year research [[project]] for a child safety app ...",
         "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute URI.",
         "Tools Must Vanish": "... the launching-off point of a [[project]]—is drowned in an ocean of ...",
         "Toss Product Sans": "... 2020년 여름 산돌과 함께 서체 [[Project|프로젝트]]를 시작",
@@ -3547,6 +3561,7 @@ export const backlinks = {
         "Use Your Mac as your Bluetooth Speaker": "Someday [[Project]]",
         "Vannevar Bush": "... early administration of the Manhattan [[Project]]. He emphasized the importance of ...",
         "Wikiversity": "... Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning ...",
+        "Zenly Playbook": "... efficiency from a 3-year research [[project]] for a child safety app ...",
         "aaaa.coffee": "Someday [[Project]]. \"Buy me a coffee\" but ...",
         "elevatorpitch.com": "Someday [[Project]]. Simple Demo website Creator to ...",
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 http 모듈 (당연히 `express` ...",
@@ -3647,6 +3662,10 @@ export const backlinks = {
         "Memex": "... 친밀한 보조 장치일 것입니다. — [[Vannevar Bush|버니바 부시]].",
         "Tools Must Vanish": "... the Zettelkasten of the next [[Vannevar Bush]]; it's always a setup with ..."
     },
+    "Era of Invites": {
+        "2023-02-05": "- [[Era of Invites]]",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-05 | 🇬🇧 [[Era of Invites]] <br/> 🇰🇷 [[초대장의 시대]]  ..."
+    },
     "DX": {
         "Developing Review Notes for Obsidian": "- 옵시디언 API 문서의 [[DX]] 매우 불친절",
         "Grammarly": "- [[dx]] team",
@@ -3705,11 +3724,7 @@ export const backlinks = {
     },
     "Imoogi and Dragon Company": {
         "2023-02-01": "- [[Imoogi and Dragon Company]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-01 | 🇬🇧 [[Imoogi and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 ..."
-    },
-    "The Architecture of Mastodon": {
-        "Letter to Mr. Matt Rickard on 2022-12-21": "This is an reply to [[The Architecture of Mastodon]]",
-        "Matt Rickard": "- [[The Architecture of Mastodon]]"
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-01 | 🇬🇧 [[Imoogi and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 ..."
     },
     "Cache and Virtual Memory": {
         "2022-11-04": "- [[Cache and Virtual Memory]]",
@@ -3718,7 +3733,7 @@ export const backlinks = {
     },
     "Spirits do not Inherit": {
         "2023-02-25": "- [[Spirits do not Inherit]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-25 | 🇬🇧 [[Spirits do not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]] ...",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-25 | 🇬🇧 [[Spirits do not Inherit]] <br/> 🇰🇷 [[개성은 쟁취하는 것]] ...",
         "딱 봐도 조성현": "- [[Spirits do not Inherit]]"
     },
     "GeoCheatCode": {
@@ -3733,12 +3748,6 @@ export const backlinks = {
         "2022-12-08": "- [[Propagation Delay]]",
         "Computer Systems": "- [[Propagation Delay]]",
         "Sources of Packet Delay": "- [[Propagation Delay]]"
-    },
-    "The Zenly Playbook": {
-        "2023-02-03": "- [[The Zenly Playbook]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-03 | 🇬🇧 [[The Zenly Playbook]] <br/> 🇰🇷 [[젠리의 성공 공식]] ...",
-        "Zenly": "... and shut down in 2023. [[The Zenly Playbook]] [[젠리의 성공 공식]]",
-        "젠리의 성공 공식": "[[The Zenly Playbook]]"
     },
     "0704 Binary Search": {
         "2022-09-05": "- [[0704 Binary Search]]",
@@ -3759,13 +3768,13 @@ export const backlinks = {
         "2022-11-29": "- [[Jumpsite]]",
         "2023-02-02": "- [[Jumpsite]]",
         "Interface (Jumpsite)": "- [[Jumpsite]]",
-        "Person 9078DC": "... 서버 최적화를 진행하셨다. Veltrends와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 ...",
-        "The One and Only (Social App)": "... Facebook, etc. It's similar to [[Jumpsite]], but not the same; you ..."
+        "One and Only (Social App)": "... Facebook, etc. It's similar to [[Jumpsite]], but not the same; you ...",
+        "Person 9078DC": "... 서버 최적화를 진행하셨다. Veltrends와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 ..."
     },
     "Eventually, Diligent Immatures build the Future": {
         "2023-02-21": "- [[Eventually, Diligent Immatures build the Future]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-21 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 ...",
-        "The End of History Fallacy": "... is also your medieval age. [[Eventually, Diligent Immatures build the Future]]."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-21 | 🇬🇧 [[Eventually, Diligent Immatures build the Future]] <br/> 🇰🇷 [[미래는 결국 미성숙한 ...",
+        "End of History Fallacy": "... is also your medieval age. [[Eventually, Diligent Immatures build the Future]]."
     },
     "POP3 vs IMAP": {
         "Internetworking": "- [[POP3 vs IMAP]]"
@@ -3803,10 +3812,6 @@ export const backlinks = {
     "InterviewKit": {
         "2022-08-30": "- [[InterviewKit]]"
     },
-    "The Dilemmas of Free stuffs": {
-        "2023-05-02": "- [[The Dilemmas of Free stuffs]]",
-        "Antipreneur": "- [[The Dilemmas of Free stuffs]]"
-    },
     "Disable Screenshot Drop Shadow in macOS": {
         "2023-01-12": "- [[Disable Screenshot Drop Shadow in macOS]]"
     },
@@ -3832,9 +3837,6 @@ export const backlinks = {
     "GitHub Copilot Investigation": {
         "Copilot": "- [[GitHub Copilot Investigation]]"
     },
-    "The Funeral Playlist": {
-        "2023-07-03": "- [[The Funeral Playlist]]"
-    },
     "Packet Switching vs Circuit Switching": {
         "Internetworking": "- [[Packet Switching vs Circuit Switching]]"
     },
@@ -3857,6 +3859,7 @@ export const backlinks = {
         "Antipilot": "- [[Generative AI]] and [[LLM]] are already unstoppable. ...",
         "Conversational AI Tools for Thought": "- ChatGPT and [[Generative AI]] are not exactly [[Tools for ...",
         "D-ID": "- [[Generative AI]] for Videos",
+        "Demise of Chatbots in 2017": "... 2016 in the era of [[generative AI]]. Some companies are solving for ...",
         "Eleven Labs": "- [[Generative AI]] for Voice. The most realistic ...",
         "Generative Databases": "In the world of [[Generative AI]]s, can we think [[Database]] as ...",
         "Generative Open Graph": "... Image as a Service. Use [[Generative AI]] to create Open Graph images, ...",
@@ -3871,7 +3874,6 @@ export const backlinks = {
         "Replicating Balenciaga Harry Potter Advertisement": "- An [[Generative AI|Gen AI]] Experiment done by SuppMon104",
         "Search AI": "- [[Generative AI]]",
         "Search in a Latent Space": "- [[Generative AI]]",
-        "The Demise of Chatbots in 2017": "... 2016 in the era of [[generative AI]]. Some companies are solving for ...",
         "Tome": "Create presentation decks with [[Generative AI]]."
     },
     "Stable Diffusion": {
@@ -3903,6 +3905,7 @@ export const backlinks = {
         "2022-07-10": "- [[Notion]] opened a new paradigm for ...",
         "2022-11-16": "- Notion AI: [[Notion]]'s [[Generative Intelligence]]",
         "Collaboration-based Tools for Thought": "### [[Notion]]",
+        "Era of Invites": "... last. For me, it was [[Notion]]. I first tried Notion in ...",
         "Intellisense for Knowledge Management": "... like Notion AI? What if [[Notion]] [[AI]] got super powerful, giving ...",
         "Letter to the Heptabase Team on 2022-10-11": "- API support ([[Notion]]-like?)",
         "Neo Apps": "- Notes. [[Notion]] → [[Obsidian]] → Nota.",
@@ -3910,7 +3913,6 @@ export const backlinks = {
         "Notion AI": "[[Notion]]'s [[Generative Intelligence]]",
         "Powerfully Powerless Tools": "Even [[Notion]] is too complicated for personal ...",
         "Text-based Tools for Thought": "### [[Notion]]",
-        "The Era of Invites": "... last. For me, it was [[Notion]]. I first tried Notion in ...",
         "강력하게 미약한 도구들": "... 많이 해야한다는 것을 의미한다. 하물며 [[Notion|노션]]마저도 개인 생산성 도구로 쓰기에는 너무 ..."
     },
     "CELLO": {
@@ -3960,12 +3962,12 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "... 보니 다음과 같은 간단한 구조였다. [[Chrome]] [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 ...",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... Firefox can \"straight up\" run [[Chrome]] extensions, so I imagine uploading ...",
         "Neo Apps": "- Web Browser|Browsers. [[Chrome]] → Arc.",
+        "One and Only WebExtension": "... WebExtension|extension that disguises itself as [[Chrome]] and runs all Chrome Extensions.",
         "Person 1E6ABA": "... Google involved multiple teams, from [[Chrome]] to TensorFlow.",
         "Porting a Chrome Extension to Firefox Add-on": "While [[Chrome]] and [[Firefox]] are two very ...",
         "Privacy Policy for My Chrome Extensions": "... collect any data from this [[Chrome]] [[WebExtension|Extension]].",
         "Sending Notifications on Chrome Extension": "... and Updates of a given [[Chrome]] [[WebExtension|Extension]] (with different content, of ...",
         "Snowpack으로 WASM 시작하기": "- 조사해본 결과 ffmpeg.wasm은 현재 [[Chrome]]에서만 동작하기 때문이라고 한다 (참고 링크 ...",
-        "The One and Only WebExtension": "... WebExtension|extension that disguises itself as [[Chrome]] and runs all Chrome Extensions.",
         "Toss Product Sans": "- 안드로이드, iOS, 윈도우, [[Chrome|크롬]], 사파리 등 다양한 환경에서 원활하게 ...",
         "Unchained Bing": "... from the store for \"Violating [[Chrome]] Web Store Policy\"",
         "VP9 vs HEVC": "... could watch 4K+ videos using [[Chrome]] on MacBooks, but the videos ...",
@@ -4030,11 +4032,11 @@ export const backlinks = {
     },
     "긍정적 허무주의자": {
         "2023-02-14": "- [[긍정적 허무주의자]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Optimistic Nihilist <br/> 🇰🇷 [[긍정적 허무주의자]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Optimistic Nihilist <br/> 🇰🇷 [[긍정적 허무주의자]]      ..."
     },
     "Zenly": {
         "LavaLab Cohort of Spring 2023": "After [[Zenly]] shut down, many players target ...",
-        "The Zenly Playbook": "[[Zenly]], a popular Gen-Z location-sharing social ...",
+        "Zenly Playbook": "[[Zenly]], a popular Gen-Z location-sharing social ...",
         "젠리의 성공 공식": "어제 [[Zenly|젠리]]가 문을 닫았다. 프랑스의 한 개발자로부터 ..."
     },
     "0020 Valid Parentheses": {
@@ -4049,7 +4051,7 @@ export const backlinks = {
     },
     "혜성처럼 나타난 본디": {
         "2023-02-12": "- [[혜성처럼 나타난 본디]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Rise of Bondee <br/> 🇰🇷 [[혜성처럼 나타난 본디]]      ...",
+        "30-Day Tweet Test (Harry Stebbings)": "... Rise of Bondee <br/> 🇰🇷 [[혜성처럼 나타난 본디]]      ...",
         "본디는 사실 혜성이 아니다": "어제 [[혜성처럼 나타난 본디]] 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 ..."
     },
     "Statistics": {
@@ -4126,6 +4128,7 @@ export const backlinks = {
         "2023-02-16": "... replicate your publishing workflow with [[Obsidian]] and [[Docusaurus]], please count me ...",
         "Better Obsidian": "## WebExtension|Extension Ideas for [[Obsidian]]",
         "Developing Review Notes for Obsidian": "이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 ...",
+        "Dilemmas of Technopreneur": "... Mark Zuckerberg, the creators of [[Obsidian]], or even Mr. Levels.",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I ...",
         "Letter to the Heptabase Team on 2022-10-11": "... (https://cho.sh/r/) runs on heavily customized [[Obsidian]], Nota, and [[Docusaurus]], serving as ...",
         "Love Obsidian": "i love [[obsidian]]",
@@ -4135,7 +4138,6 @@ export const backlinks = {
         "Our tools also shape us": "  - [[Obsidian]] makes you a connector + ...",
         "Stephan Ango": "- CEO of [[Obsidian]]",
         "Text-based Tools for Thought": "### [[Obsidian]]",
-        "The Dilemmas of Technopreneur": "... Mark Zuckerberg, the creators of [[Obsidian]], or even Mr. Levels.",
         "Tools Must Vanish": "... blog and forum posts where [[Obsidian]] and Roam power users explain ..."
     },
     "Mapping keys to set different input languages on macOS": {
@@ -4244,10 +4246,10 @@ export const backlinks = {
         "Point-E": "... While recent work on text-conditional [[3D]] object generation has shown promising ...",
         "Ray.st": "A Collection of 26 Beautiful [[3D]] [[Emoji]] Generated by [[Generative AI]].",
         "Repeated Designs": "... hero needs to be a [[3D]] model of the logo rendered ...",
-        "The Sudden Rise of Bondee": "... Store. Users can create a [[3d]] character and design rooms of ...",
-        "The Zenly Playbook": "... in 2020 to a mass-scale [[3D]] [[Cartography|map]] update in 2022, [[Zenly]] ...",
+        "Sudden Rise of Bondee": "... Store. Users can create a [[3d]] character and design rooms of ...",
         "USDZ": "... is a framework for interchange [[3D]] computer [[graphics]] data interchange. The ...",
         "USDZ vs glTF": "USDZ and glTF are two [[3D]] file formats used for different ...",
+        "Zenly Playbook": "... in 2020 to a mass-scale [[3D]] [[Cartography|map]] update in 2022, [[Zenly]] ...",
         "glTF": "... the Khronos Group; it supports [[3D]] model geometry, appearance, scene graph ...",
         "젠리의 성공 공식": "... 코로나 집콕 챌린지부터 2022년 대규모 [[3D]] 지도 업데이트까지 미래를 준비했지만 최근 ...",
         "혜성처럼 나타난 본디": "[[3D]] 캐릭터를 만들 수 있고 자신의 ..."
@@ -4285,8 +4287,8 @@ export const backlinks = {
     },
     "기술 할부 결제": {
         "2023-02-17": "- [[기술 할부 결제]]",
-        "Avoid Premature Optimizations": "- Tech Now Pay Later [[기술 할부 결제]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Now Pay Later <br/> 🇰🇷 [[기술 할부 결제]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Now Pay Later <br/> 🇰🇷 [[기술 할부 결제]]      ...",
+        "Avoid Premature Optimizations": "- Tech Now Pay Later [[기술 할부 결제]]"
     },
     "Keystone.js": {
         "Meta Meta Framework": "- Meta Meta Framework: Redwood.js, [[Keystone.js]], [[Refine (Framework)]]"
@@ -4307,7 +4309,7 @@ export const backlinks = {
     },
     "i18n with Redwood": {
         "2023-06-15": "- [[i18n with Redwood]]",
-        "The IDOL Stack": "- [[i18n with Redwood]]"
+        "IDOL Stack": "- [[i18n with Redwood]]"
     },
     "서울": {
         "2022-05-31": "... 전역으로 확대 (~22.07) - 두잇 [[서울]], 수도권 전역 확대 (22.07~22.12) - ...",
@@ -4369,7 +4371,7 @@ export const backlinks = {
     },
     "국내 은행 서비스가 나쁜 이유": {
         "2023-02-20": "- [[국내 은행 서비스가 나쁜 이유]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Korean Banks Suck <br/> 🇰🇷 [[국내 은행 서비스가 나쁜 이유]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Korean Banks Suck <br/> 🇰🇷 [[국내 은행 서비스가 나쁜 이유]]      ..."
     },
     "Continuity": {
         "2023-03-07": "- [[Continuity]]"
@@ -4554,10 +4556,6 @@ export const backlinks = {
         "OpenAI enthroned as the Levis of Tech": "... cornerstone moment for software. The [[AI-native]]-era gold rush has just begun.",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "## [[AI-native|AI 네이티브]]의 부상"
     },
-    "The One and Only WebExtension": {
-        "2023-02-26": "- [[The One and Only WebExtension]]",
-        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... a shower-thought if there was \"[[The One and Only WebExtension]]\" for [[Firefox]] and [[Safari]]. It ..."
-    },
     "전방위 포위": {
         "2023-02-21": "- [[전방위 포위]]"
     },
@@ -4567,13 +4565,13 @@ export const backlinks = {
     },
     "Venture Capital": {
         "2022-06-21": "... cash-burning companies that rely on [[Venture Capital|VC]] money to sustain the business.",
+        "Battle of Flow and Asana": "... revenue and losing money. Not [[venture capital]]. Out of my personal bank ...",
+        "Dilemmas of Technopreneur": "... you are in a competitive [[Venture Capital|VC]]-funded space, it's foolish to compete ...",
         "Either be the best-in-class or the most efficient": "- [[Venture Capital|VC]]",
+        "Gumroad": "... cast of angel investors and [[venture capital]] firms, including Max Levchin, Chris ...",
         "Harry Stebbings": "... who started \"The Twenty Minute [[Venture Capital|VC]]\" podcast and launched his [[venture ...",
         "Person A3BA1A": "The [[Venture Capital|VC]] side tool and the Startup ...",
         "SVB Debacle": "... That worked brilliantly in the [[Venture Capital|VC]] funding boom but could cut ...",
-        "The Battle of Flow and Asana": "... revenue and losing money. Not [[venture capital]]. Out of my personal bank ...",
-        "The Dilemmas of Technopreneur": "... you are in a competitive [[Venture Capital|VC]]-funded space, it's foolish to compete ...",
-        "The Great Struggle of Gumroad": "... cast of angel investors and [[venture capital]] firms, including Max Levchin, Chris ...",
         "hn.cho.sh 개발 기록": "... 회사, 자율주행 회사, 블록체인 회사, [[Venture Capital|VC]], 웹툰 회사, 고전적 자산운용사, 그 ...",
         "강기업": "... because the odds of a [[venture capital]] ([[Venture Capital|VC]]) funded startup are ..."
     },
@@ -4587,7 +4585,7 @@ export const backlinks = {
     },
     "심리역사학": {
         "2023-02-19": "- [[심리역사학]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Psychohistory <br/> 🇰🇷 [[심리역사학]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Psychohistory <br/> 🇰🇷 [[심리역사학]]      ..."
     },
     "AI 단톡방": {
         "글감": "- [[AI 단톡방]]"
@@ -4610,17 +4608,14 @@ export const backlinks = {
     "Digital Signature for Videos": {
         "Digital Signature": "- [[Digital Signature for Videos]]"
     },
+    "Funeral Playlist": {
+        "2023-07-03": "- [[Funeral Playlist]]"
+    },
     "Back Buffer": {
         "Graphics Engine Process": "    - [[Back Buffer]] is filled in Update Game ..."
     },
     "Ancestors of C": {
         "Internetworking": "- [[Ancestors of C]]"
-    },
-    "The Battle of Flow and Asana": {
-        "2022-12-09": "- [[The Battle of Flow and Asana]]",
-        "Antipreneur": "- [[The Battle of Flow and Asana]]: 하지만 이런 예시도 있다는 것을 ...",
-        "Bootstrap": "- [[The Battle of Flow and Asana]]",
-        "Survivorship Biased": "- [[The Battle of Flow and Asana]]"
     },
     "水適穿石": {
         "2022-06-12": "- [[水適穿石]]",
@@ -4708,7 +4703,7 @@ export const backlinks = {
         "Separation of Computer Scientists and Computer Technologists": "... rappers to classical oboists, from [[대한민국|Korean]] idols to shamanist drummers.",
         "Service Shimming": "- Naver (≈ [[대한민국|Korean]] Google), for a while, failed ...",
         "Setting different fonts by language in CSS": "I recently came across a [[대한민국|Korean]] [[font]] called Spoqa Han Sans. ...",
-        "The Sudden Rise of Bondee": "... social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking ...",
+        "Sudden Rise of Bondee": "... social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking ...",
         "Toss": "- Financial Technology|FinTech Unicorn of [[대한민국|Korea]].",
         "Using an iPad as my Ebook": "... vendors. I also read many [[대한민국|Korean]] books, and the Kindle store ...",
         "Why Korean Banks Suck": "... America|U.S., But I am confident [[대한민국|Korea]] will take it to the ...",
@@ -4756,8 +4751,8 @@ export const backlinks = {
     "Artifact": {
         "Algorithmic Recommendation Engine for Texts": "- [[Artifact]] can feel like a throwback. ...",
         "Can we ever build TikTok for Text": "... launched a new app called [[Artifact]]. Artifact is a personalized news ...",
+        "Era of Invites": "... any invites for Texts, Tana, [[Artifact]], and so on. But things ...",
         "LavaLab Cohort of Spring 2023": "News recommending app, just like [[Artifact]], but it shows a one-liner ...",
-        "The Era of Invites": "... any invites for Texts, Tana, [[Artifact]], and so on. But things ...",
         "hn.cho.sh 개발 기록": "- [[Artifact]]",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. Artifact|아티팩트는 [[ML|머신 ...",
         "초대장의 시대": "Amie 뿐만 아니라 Texts, Tana, [[Artifact]]까지 초대장이 있냐고 연락을 받았다. 하지만 ..."
@@ -4788,7 +4783,7 @@ export const backlinks = {
         "2023-02-16": "- [[대만]]",
         "Neo Block Economy": "- The father of [[대만|Taiwan]]'s chip industry said geopolitics have ...",
         "Readings": "- [ ] 도해 [[대만|타이완]]사",
-        "The Sudden Rise of Bondee": "... crazy in 대한민국|Korea, 일본|Japan, Singapore, [[대만|Taiwan]], etc., ranking #1 in the ...",
+        "Sudden Rise of Bondee": "... crazy in 대한민국|Korea, 일본|Japan, Singapore, [[대만|Taiwan]], etc., ranking #1 in the ...",
         "젠리의 성공 공식": "... 안에 전교생이 사용한다는 것을 관찰했다. [[대만]] 대학에 유학 간 [[일본]] 학생들로부터 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, 일본, Singapore|싱가포르, [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 ..."
     },
@@ -4813,14 +4808,14 @@ export const backlinks = {
     },
     "Snooze Time of Alarm Clocks": {
         "2023-03-19": "- [[Snooze Time of Alarm Clocks]]",
-        "The Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 ..."
+        "Newtonian Correspondence": "| 03-19 | `EN` [[Snooze Time of Alarm Clocks]] <br/> `KO` [[알람 시계의 9분 ..."
     },
     "Render.com": {
         "2023-05-20": "... I want to check out [[Render.com]]. It feels like [[Railway]], but ...",
         "2023-05-24": "- [[Render.com]]"
     },
     "Club Penguin": {
-        "The Sudden Rise of Bondee": "... rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in ..."
+        "Sudden Rise of Bondee": "... rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in ..."
     },
     "Chaf Games": {
         "Person 9078DC": "- Currently works at[[Chaf Games]]"
@@ -4834,11 +4829,14 @@ export const backlinks = {
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... tabExtend. I recently switched to [[Firefox]] and noticed the WebExtension|extension is ...",
         "Love Firefox": "i love [[firefox]]",
         "Mental Simulation of Firefox and Signal as a Super App": "... main target of Signal and [[Firefox]] are people who are flexible ...",
+        "One and Only WebExtension": "- A Safari and [[Firefox]] [[WebExtension|extension]] that disguises itself as ...",
         "Porting a Chrome Extension to Firefox Add-on": "While Chrome and [[Firefox]] are two very different [[Web ...",
         "Safari is the new Internet Explorer": "... six weeks (soon every four), [[Firefox]] releases every four weeks, and ...",
         "Snowpack으로 WASM 시작하기": "- 다만 Safari와 [[Firefox]]에서는 작동되지 않았다. \"SharedArrayBuffer is not ...",
-        "The One and Only WebExtension": "- A Safari and [[Firefox]] [[WebExtension|extension]] that disguises itself as ...",
         "WebExtension": "... such as Chrome|Google Chrome, Mozilla [[Firefox]], and Microsoft Edge, support the ..."
+    },
+    "Sparkle Button": {
+        "글감": "- [[Sparkle Button]]"
     },
     "TipKit": {
         "WWDC23": "- [[TipKit]] → Displays some Tooltips"
@@ -4867,11 +4865,11 @@ export const backlinks = {
         "2022-10-24": "- [[Edge]]",
         "2023-01-13": "- [[Edge]]",
         "2023-04-21": "- [[Edge]]",
+        "Architecture of Mastodon": "... hard to serve at the [[edge]]. [[CDN]] can host static assets, ...",
         "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-end]] [[Front-end]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... could be abstracted to an [[edge]]-served Front-end and [[back-end]] as edge-replicated ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... Economy, Closed vs. (fairly) Open, [[Edge]]-first [[AI]] vs. Cloud-first [[AI]], etc.",
         "Satori": "... existing solutions by using Vercel [[Edge]] Functions, [[WebAssembly]], and a brand ...",
-        "The Architecture of Mastodon": "... hard to serve at the [[edge]]. [[CDN]] can host static assets, ...",
         "WasmEdge": "WasmEdge: [[Edge]] for [[WebAssembly]]",
         "dub.sh": "- Built with Vercel [[Edge]] Functions + Upstash Redis"
     },
@@ -4899,10 +4897,6 @@ export const backlinks = {
         "AMP": "Uses [[WorkerDOM]] under the hood.",
         "Treehouse": "... a Web Worker. Later affected [[WorkerDOM]] and [[Brane]].",
         "iiframe": "- Does not extend [[WorkerDOM]]."
-    },
-    "The One and Only (Social App)": {
-        "2023-02-15": "- [[The One and Only (Social App)]]",
-        "Z-Fellows": "... an interview with Z-Fellows with [[The One and Only (Social App)]] on [[2023-03-19]]"
     },
     "Geometric Series": {
         "2023-01-31": "- [[Geometric Series]]"
@@ -5049,7 +5043,7 @@ export const backlinks = {
     },
     "우린 텍스트 틱톡을 평생 만들 수 있을까": {
         "2023-02-27": "- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... TikTok for Text <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]      ...",
+        "30-Day Tweet Test (Harry Stebbings)": "... TikTok for Text <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]      ...",
         "hn.cho.sh 개발 기록": "- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]"
     },
     "Diagram Labs": {
@@ -5158,7 +5152,7 @@ export const backlinks = {
     },
     "알람 시계의 9분 스누즈": {
         "2023-03-19": "- [[알람 시계의 9분 스누즈]]",
-        "The Newtonian Correspondence": "... of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]]      ..."
+        "Newtonian Correspondence": "... of Alarm Clocks <br/> `KO` [[알람 시계의 9분 스누즈]]      ..."
     },
     "Search-based Tools for Thought": {
         "LavaLab Cohort of Spring 2023": "[[Search-based Tools for Thought]] for Teams. Given you connect ...",
@@ -5197,11 +5191,6 @@ export const backlinks = {
         "잡스와 생존 편향": "## 행운아의 [[Survivorship Biased|생존 편향]]",
         "초대장의 시대": "[[Survivorship Biased|생존자 편향]]. 성공적인 스타트업이 초대장이 없으면 기억을 ..."
     },
-    "The Newtonian Correspondence": {
-        "2023-03-16": "- [[The Newtonian Correspondence]]",
-        "2023-03-19": "- [[The Newtonian Correspondence]]",
-        "2023-03-31": "- [[The Newtonian Correspondence]]"
-    },
     "GNAR": {
         "2023-05-30": "... Grammarly Work Note 2023-05-30 on [[GNAR]]",
         "Databricks AI Summit 2023 Grammarly Session": "... with its in-house data platform, [[Gnar]], and embarked on a redesign ...",
@@ -5215,8 +5204,8 @@ export const backlinks = {
     "Product-Market Fit": {
         "2022-06-06": "... on when struggling to find [[Product-Market Fit]] or fight for survival. - ...",
         "Captivating Products": "... are those who found the [[Product-Market Fit]].",
-        "The Dilemmas of Technopreneur": "... more efficient to check the [[Product-Market Fit]].",
-        "The Great Struggle of Gumroad": "... was right around the corner. [[Product-market fit]] is excellent, but we needed ...",
+        "Dilemmas of Technopreneur": "... more efficient to check the [[Product-Market Fit]].",
+        "Gumroad": "... was right around the corner. [[Product-market fit]] is excellent, but we needed ...",
         "유난한 도전": "[[Product-Market Fit|PMF]]를 찾았다."
     },
     "Layoff": {
@@ -5320,8 +5309,11 @@ export const backlinks = {
         "lovearc.net": "2. get some [[Arc Browser]] stickers"
     },
     "Engine Equation": {
-        "2023-03-06": "- [[Engine Equation]]",
-        "Tech Now Pay Later": "... to create utility. Interestingly, this [[engine equation]] is a function that takes ..."
+        "2023-02-16": "- [[Engine Equation]]",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-16 | 🇬🇧 [[Engine Equation]] <br/> 🇰🇷 [[엔진 방정식]]  ...",
+        "Engine Equation (Metapage)": "- [[Engine Equation]] [[엔진 방정식]]",
+        "Tech Now Pay Later": "[[Engine Equation]] comes handy here.",
+        "Willpower": "... rich. Start your own business [[Engine Equation]]. It's almost impossible to get ..."
     },
     "Real Exams": {
         "2022-09-05": "- [[Real Exams]]",
@@ -5356,9 +5348,13 @@ export const backlinks = {
     "P2P": {
         "Internetworking": "- [[P2P]]"
     },
+    "Dilemmas of Technopreneur": {
+        "2022-12-09": "- [[Dilemmas of Technopreneur]]",
+        "Antipreneur": "- [[Dilemmas of Technopreneur]]: 하지만 기술 중독에 걸리지 않도록 ..."
+    },
     "미래는 결국 미성숙한 우리가 만들어낸다": {
         "2023-02-21": "- [[미래는 결국 미성숙한 우리가 만들어낸다]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]      ...",
+        "30-Day Tweet Test (Harry Stebbings)": "... build the Future <br/> 🇰🇷 [[미래는 결국 미성숙한 우리가 만들어낸다]]      ...",
         "역사의 종말 오류": "... 또한 훗날의 중세가 됨을 기억하자. [[미래는 결국 미성숙한 우리가 만들어낸다]]."
     },
     "0059 Spiral Matrix II": {
@@ -5532,7 +5528,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "... 가장 그럴 듯한 구현체로 김윤상님의 [[Java]] [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "Habbo Hotel": {
-        "The Sudden Rise of Bondee": "... own. Imagine Club Penguin or [[Habbo Hotel]] but in a modern messenger ..."
+        "Sudden Rise of Bondee": "... own. Imagine Club Penguin or [[Habbo Hotel]] but in a modern messenger ..."
     },
     "Digital Addiction": {
         "2022-07-13": "- [[Digital Addiction]]",
@@ -5548,13 +5544,13 @@ export const backlinks = {
     },
     "강력하게 미약한 도구들": {
         "2023-02-08": "- [[강력하게 미약한 도구들]]",
-        "Antipreneur": "- [[강력하게 미약한 도구들]]: Do one small thing, but ...",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Powerfully Powerless Tools <br/> 🇰🇷 [[강력하게 미약한 도구들]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Powerfully Powerless Tools <br/> 🇰🇷 [[강력하게 미약한 도구들]]      ...",
+        "Antipreneur": "- [[강력하게 미약한 도구들]]: Do one small thing, but ..."
     },
     "르네상스": {
         "2023-02-24": "- [[르네상스]]",
+        "30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Renaissance <br/> 🇰🇷 [[르네상스]]      ...",
         "Renaissance": "[[르네상스]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Renaissance <br/> 🇰🇷 [[르네상스]]      ...",
         "역사의 종말 오류": "... 주제 중 하나이다. 중세를 바라보는 [[르네상스]]적 관점과 르네상스를 바라보는 현대적 관점 ..."
     },
     "Open Graph Image as a Service": {
@@ -5572,13 +5568,13 @@ export const backlinks = {
         "2022-10-23": "- [[Matt Rickard]]",
         "2022-10-29": "- [[Matt Rickard]]: [[Ethereum RPC as a Service]], ...",
         "2022-11-16": "- Protocol Wars: [[Matt Rickard]]",
-        "2022-11-28": "- [[Matt Rickard]]: [[The Demise of Chatbots in ...",
+        "2022-11-28": "- [[Matt Rickard]]: [[Demise of Chatbots in 2017]], ...",
         "2022-12-09": "- [[Matt Rickard]]: [[Elo Rating]]",
+        "Architecture of Mastodon": "- [[Matt Rickard]]",
         "Decoy Effect": "## [[Matt Rickard]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "Dear Mr. [[Matt Rickard|Rickard]],",
         "Letter to Mr. Matt Rickard on 2022-12-24": "Dear Mr. [[Matt Rickard|Rickard]],",
         "Programmable Web": "... Miss The Programmable Web — [[Matt Rickard]]",
-        "The Architecture of Mastodon": "- [[Matt Rickard]]",
         "eBPF": "- [[Matt Rickard]]"
     },
     "Storing sensitive data in iOS Apps": {
@@ -5593,9 +5589,9 @@ export const backlinks = {
     "Across the Sprachraums": {
         "2023-04-21": "- [[Across the Sprachraums]]",
         "ACL 60-60": "[[Across the Sprachraums]]",
+        "IDOL Stack": "... Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], GitHub CI/CD",
         "Language": "- for context in [[Across the Sprachraums|intersprachraum]] communication: [[Foreign Language]]",
         "Research Paper Language System": "무제한번역 [[Across the Sprachraums]]",
-        "The IDOL Stack": "... Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], GitHub CI/CD",
         "hn.cho.sh 개발 기록": "... 절실히 느꼈다. Sprachraum에 구애받지 않는 [[Across the Sprachraums]].",
         "무제한번역": "- [[Across the Sprachraums]]"
     },
@@ -5809,15 +5805,19 @@ export const backlinks = {
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
     },
+    "End of History Fallacy": {
+        "2023-03-16": "- [[End of History Fallacy]]",
+        "Newtonian Correspondence": "| 03-16 | `EN` [[End of History Fallacy]] <br/> `KO` [[역사의 종말 오류]] ..."
+    },
     "As We May Think": {
         "Memex": "> In [[As We May Think]], [[Vannevar Bush]] describes a memex ..."
     },
     "K-Pop": {
         "2023-03-03": "- [[K-Pop]]",
         "CELLO": "- [[K-Pop|케이팝]]",
+        "IDOL Stack": "## [[K-Pop|Idol]] — Indie Developers' Opinionated Libraries",
         "Person 960D1D": "- problems with the [[K-Pop]] industry (how unfair the system ...",
         "Spirits do not Inherit": "... example, I send you guys [[K-pop]] videos without trying, and I ...",
-        "The IDOL Stack": "## [[K-Pop|Idol]] — Indie Developers' Opinionated Libraries",
         "개성은 쟁취하는 것": "... 들어, 저는 여러분들께 시도때도 없이 [[K-Pop|케이팝]] 영상을 보내곤 합니다.",
         "퍼블리시티권": "... 홈마는 좋은 사진을 생산하기 위해, [[K-Pop|아이돌]] 스케줄 정보를 얻어야 하고, 발품을 ...",
         "프로젝트 어덕행덕": "놀랍게도 [[K-Pop|아이돌]] 팬들은 제발 내 돈을 가져가 ..."
@@ -5933,11 +5933,6 @@ export const backlinks = {
         "일본": "[[일본어]]",
         "헤이그 특사": "... 설치되었다. 교육기관의 설치는 한국어를 근절시키고 [[일본어]]를 대신 가르치려는 것이며, [[한국인]]의 해외유학은 ..."
     },
-    "The Sudden Rise of Bondee": {
-        "2023-02-12": "- [[The Sudden Rise of Bondee]]",
-        "Did Bondee Really Suddenly Rise": "... a closer look into Bondee: [[The Sudden Rise of Bondee]]. But did it suddenly rise?",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-12 | 🇬🇧 [[The Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]] ..."
-    },
     "Grammarly AI-NLP Club": {
         "2023-03-23": "- Attended [[Grammarly AI-NLP Club]]."
     },
@@ -5979,10 +5974,6 @@ export const backlinks = {
         "Refine (Framework)": "... Ant Design, Chakra UI, Mantine, [[Headless]])",
         "Satori": "- Easy: No [[headless]] [[Web Browser|browser]] is needed. Using ...",
         "hn.cho.sh 개발 기록": "[[Headless]] [[Chrome]]을 사용하도록 GitHub Actions를 개편했다."
-    },
-    "The one and only": {
-        "LavaLab Cohort of Spring 2023": "- Hive gives [[the one and only]] search interface to fish your ...",
-        "The One and Only (Social App)": "... the solution for you. Introducing '[[The One and Only]],' the ultimate social media app ..."
     },
     "elevatorpitch.com": {
         "2022-12-20": "- [[elevatorpitch.com]]"
@@ -6030,12 +6021,12 @@ export const backlinks = {
         "2023-04-17": "- Avoid Premature Optimizations, [[Bootstrap]]",
         "Antipreneur": "- [[Bootstrap]]: 결국 VC는 외부인이다",
         "Avoid Premature Optimizations": "- [[Bootstrap]]",
-        "MAKE": "This is called [[Bootstrap|bootstrapping]]. The good part is that ...",
-        "The Battle of Flow and Asana": "I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon ..."
+        "Battle of Flow and Asana": "I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon ...",
+        "MAKE": "This is called [[Bootstrap|bootstrapping]]. The good part is that ..."
     },
     "인하우스와 자유경쟁": {
         "2023-02-22": "- [[인하우스와 자유경쟁]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... and Free Market <br/> 🇰🇷 [[인하우스와 자유경쟁]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... and Free Market <br/> 🇰🇷 [[인하우스와 자유경쟁]]      ..."
     },
     "Cartography": {
         "2022-05-30": "... time forever remembered. The original [[Cartography|map]] plaque is the perfect gift ...",
@@ -6050,8 +6041,8 @@ export const backlinks = {
         "Proposal of Research 2023-03-28": "... concept of an \"efficiently finite\" [[Cartography|map]] containing all possible pixel combinations ...",
         "Service Shimming": "... separate iPhones for calls, music, [[Cartography|maps]], etc. He had to switch ...",
         "Spacial Cognition": "> testing [[Cartography|map]] as website navigation bar",
-        "The Zenly Playbook": "... 2020 to a mass-scale 3D [[Cartography|map]] update in 2022, [[Zenly]] prepared ...",
         "Transactional Globe": "[[Cartography|Map]] those into the globe on ...",
+        "Zenly Playbook": "... 2020 to a mass-scale 3D [[Cartography|map]] update in 2022, [[Zenly]] prepared ...",
         "사회과부도": "> Themed series of [[Cartography|maps]]"
     },
     "Eleven Labs": {
@@ -6071,7 +6062,7 @@ export const backlinks = {
     },
     "Swift String 조작은 왜 그 모양인가": {
         "2023-02-15": "- [[Swift String 조작은 왜 그 모양인가]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Manipulation like that <br/> 🇰🇷 [[Swift String 조작은 왜 그 모양인가]]      ..."
     },
     "Serverless": {
         "Cloud-Native": "... integration and deployment (CI/CD), and [[serverless]] computing. They leverage these practices ...",
@@ -6137,9 +6128,9 @@ export const backlinks = {
     },
     "Renaissance": {
         "2023-02-24": "- [[Renaissance]]",
-        "Polymath": "... often referred to as a \"[[Renaissance]] person\" because they possess diverse ...",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-24 | 🇬🇧 [[Renaissance]] <br/> 🇰🇷 [[르네상스]]   ...",
-        "The End of History Fallacy": "... at the similarities between the [[Renaissance]] view of the Middle Ages ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-24 | 🇬🇧 [[Renaissance]] <br/> 🇰🇷 [[르네상스]]   ...",
+        "End of History Fallacy": "... at the similarities between the [[Renaissance]] view of the Middle Ages ...",
+        "Polymath": "... often referred to as a \"[[Renaissance]] person\" because they possess diverse ..."
     },
     "PNPM": {
         "2023-05-29": "- [[PNPM]]",
@@ -6167,15 +6158,15 @@ export const backlinks = {
         "2022-11-24": "- [[Mathematics under The Library of Babel]]",
         "2022-11-25": "- [[Mathematics under The Library of Babel]]",
         "2022-11-26": "- [[Mathematics under The Library of Babel]]",
-        "The Library of Babel": "- [[Mathematics under The Library of Babel]]"
+        "Library of Babel": "- [[Mathematics under The Library of Babel]]"
     },
     "이무기 기업, 청룡 기업": {
-        "Neo Korea": "- [[이무기 기업, 청룡 기업]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... and Dragon Company <br/> 🇰🇷 [[이무기 기업, 청룡 기업]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... and Dragon Company <br/> 🇰🇷 [[이무기 기업, 청룡 기업]]      ...",
+        "Neo Korea": "- [[이무기 기업, 청룡 기업]]"
     },
     "Born of this Land - The Founding Story of Hyundai": {
         "2023-02-23": "- [[Born of this Land - The Founding Story of Hyundai]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-23 | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]] ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-23 | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]] ..."
     },
     "GraphQL": {
         "Inspiring Open Source Projects": "... platform built using Node.js, React, [[GraphQL]]",
@@ -6187,10 +6178,6 @@ export const backlinks = {
     "ScreenCaptureKit": {
         "WWDC23": "- Video Conferencing → [[ScreenCaptureKit]]"
     },
-    "The Site On Which the Sun Never Sets": {
-        "2023-02-26": "- [[The Site On Which the Sun Never Sets]]",
-        "2023-03-06": "- [[The Site On Which the Sun Never Sets]]"
-    },
     "기숙사 생활과 방 배정": {
         "2016-11-11": "- [[기숙사 생활과 방 배정]]",
         "2016-11-15": "- [[기숙사 생활과 방 배정]]"
@@ -6200,7 +6187,7 @@ export const backlinks = {
         "2023-03-19": "- [[Mini App]]",
         "Brane": "... be worthwhile to implement the [[Mini App]] white paper. However, the white ...",
         "Internet Computer": "... Strong ties to Super App [[Mini App]]",
-        "The Zenly Playbook": "... Zenly team alongside the Snap [[Mini App]] team. I do think this ...",
+        "Zenly Playbook": "... Zenly team alongside the Snap [[Mini App]] team. I do think this ...",
         "당근미니 케이스 스터디": "Karrot|당근[[Mini App|미니]] Console [[Case Study|케이스 스터디]]",
         "젠리의 성공 공식": "... 최근 Snap의 대규모 정리해고에 Snap [[Mini App]]과 함께 [[Zenly|젠리]] 팀 또한 해산되었다. ..."
     },
@@ -6316,8 +6303,8 @@ export const backlinks = {
     },
     "서비스 시밍": {
         "2023-02-02": "- [[서비스 시밍]]",
+        "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Service Shimming <br/> 🇰🇷 [[서비스 시밍]]      ...",
         "Avoid Premature Optimizations": "- Service Shimming, [[서비스 시밍]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Service Shimming <br/> 🇰🇷 [[서비스 시밍]]      ...",
         "기술 할부 결제": "... 방식은 만들 때까지 만든 척하는 [[서비스 시밍]]과 유사하다."
     },
     "hn.cho.sh 개발 기록": {
@@ -6394,6 +6381,11 @@ export const backlinks = {
     "SwiftData": {
         "WWDC23": "- [[SwiftData]]"
     },
+    "Sudden Rise of Bondee": {
+        "2023-02-12": "- [[Sudden Rise of Bondee]]",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-12 | 🇬🇧 [[Sudden Rise of Bondee]] <br/> 🇰🇷 [[혜성처럼 나타난 본디]] ...",
+        "Did Bondee Really Suddenly Rise": "... a closer look into Bondee: [[Sudden Rise of Bondee]]. But did it suddenly rise?"
+    },
     "서낭당": {
         "2023-02-12": "- [[서낭당]]",
         "장승": "비슷한 예시로 솟대나 [[서낭당]]이 있다."
@@ -6453,8 +6445,8 @@ export const backlinks = {
     "Internationalization": {
         "2023-06-06": "- [[Internationalization]]",
         "CJK": "> In [[internationalization]], CJK character is a collective ...",
+        "IDOL Stack": "- Their [[Internationalization|i18n]] sucks. Especially setting up subpath ...",
         "Intracranial": "  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for Chinese ...",
-        "The IDOL Stack": "- Their [[Internationalization|i18n]] sucks. Especially setting up subpath ...",
         "WWDC23": "  - Accessibility|a11y, and [[Internationalization|i18n]] built-in",
         "hn.cho.sh 개발 기록": "[[Internationalization|i18n]]을 Sitemap과 HTML Head `hreflang`으로 자동 ...",
         "i18n with Redwood": "... an opinionated guide of implementing [[Internationalization]] with [[Redwood.js]]"
@@ -6660,10 +6652,10 @@ export const backlinks = {
         "Antipilot": "- Generative AI and [[LLM]] are already unstoppable. This is ...",
         "ChatGPT is a Blurry JPEG and We Need That": "... analogy between large-scale language models ([[LLM|LLMs]]) like [[ChatGPT]] and lossy compression ...",
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "... 창은 ChatGPT와 같은 대규모 언어 모델([[LLM]])을 흐릿한 JPEG 이미지로 흥미롭게 비유합니다.",
+        "Demise of Chatbots in 2017": "... human in the loop. If [[LLM]] performance plateaued, these companies would ...",
         "Generative Databases": "- If you squint, [[LLM|LLMs]] resemble something like a vector ...",
         "P vs NP": "- Before [[LLM|LLMs]], generating the associated image took ...",
         "Proposal of Research 2023-03-28": "Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities in ...",
-        "The Demise of Chatbots in 2017": "... human in the loop. If [[LLM]] performance plateaued, these companies would ...",
         "Vector DB": "... used for Long-Term Memory for [[LLM|LLMs]]."
     },
     "Point-E": {
@@ -6761,6 +6753,7 @@ export const backlinks = {
         "Are Computers Psychotropic Substances": "Services use several psychological [[Strategy|strategies]] to increase their revenues.",
         "Biden-Harris Administration National Security Strategy 2022": "- The 2022 National Security [[Strategy]] aims to advance America's vital ...",
         "Case Study": "... might cover a particular firm's [[strategy]] or a broader market; similarly, ...",
+        "Engine Equation": "... of people and to develop [[Strategy|strategies]] to shape the course of ...",
         "Finally, Apple Pay in Korea": "... using IC chips. The first [[strategy]] is JUSTOUCH (If JUSTOUCH were ...",
         "First Two Months of a Startup": "... carefully plan and execute their [[Strategy|strategies]] during this initial phase to ...",
         "Grammarly Work Note 2023-05-30": "... Resource Utilization and Cost Reduction [[Strategy|Strategies]] for [[Databricks]] Clusters",
@@ -6775,7 +6768,6 @@ export const backlinks = {
         "Project Heimdall": "... Honestly, the Go To Market|GTM [[strategy]] for Heimdall is a considerable ...",
         "Proposal of Research 2023-03-28": "... PI attack techniques and mitigation [[Strategy|strategies]] to identify gaps in existing ...",
         "Quoridor Game": "... as well as a previous [[strategy]] using a GA.",
-        "The Engine Equation": "... of people and to develop [[Strategy|strategies]] to shape the course of ...",
         "Vanity Metrics": "... as they can inform your [[strategy]] and tactics.",
         "hn.cho.sh 개발 기록": "- PMF보다 Go To Market [[Strategy|전략]]이 훨씬 더 중요하다 (진짜 그런 ...",
         "경제 개발의 길목에서": "... 목적은 하나이지만, 목적 달성을 위한 [[Strategy|전략]]을 논의하고자 하는 것\"이라고 응수했다. 그 ...",
@@ -6798,7 +6790,7 @@ export const backlinks = {
         "Prompt Engineering": "... come to my mind that [[Metaverse]] can be attained within years ...",
         "Spacial Cognition": "- Very important for [[Metaverse]]",
         "Spatial Computer": "[[Metaverse]] and [[Spacial Cognition]].",
-        "The Sudden Rise of Bondee": "Bondee is a [[metaverse]] social app, going crazy in ...",
+        "Sudden Rise of Bondee": "Bondee is a [[metaverse]] social app, going crazy in ...",
         "혜성처럼 나타난 본디": "... 1위를 하며 인기를 얻고 있는 [[metaverse|메타버스]] 소셜 앱이다."
     },
     "Better Docusaurus": {
@@ -6820,7 +6812,7 @@ export const backlinks = {
     "Z-Fellows": {
         "2023-03-19": "## [[Z-Fellows]]",
         "2023-04-12": "- [[Z-Fellows]]: Rejected. But I was in ...",
-        "The One and Only (Social App)": "## [[Z-Fellows]]"
+        "One and Only (Social App)": "## [[Z-Fellows]]"
     },
     "Cloudflare": {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs ...",
@@ -6895,7 +6887,7 @@ export const backlinks = {
     },
     "OpenAI enthroned as the Levis of Tech": {
         "2023-03-01": "- [[OpenAI enthroned as the Levis of Tech]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 03-01 | 🇬🇧 [[OpenAI enthroned as the Levis of Tech]] <br/> 🇰🇷 [[OpenAI가 새로운 테크 ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 03-01 | 🇬🇧 [[OpenAI enthroned as the Levis of Tech]] <br/> 🇰🇷 [[OpenAI가 새로운 테크 ..."
     },
     "PARA": {
         "2022-06-26": "- [[PARA]]",
@@ -6971,7 +6963,7 @@ export const backlinks = {
     },
     "도메인 찾아 삼만리": {
         "2023-02-11": "- [[도메인 찾아 삼만리]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... of my domain <br/> 🇰🇷 [[도메인 찾아 삼만리]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... of my domain <br/> 🇰🇷 [[도메인 찾아 삼만리]]      ..."
     },
     "Grammarly Work Note 2023-05-31": {
         "2023-05-31": "- [[Grammarly Work Note 2023-05-31]]"
@@ -7053,10 +7045,21 @@ export const backlinks = {
         "Did Bondee Really Suddenly Rise": "... quality. Bondee also topped multiple [[app store]] charts across Asia within a ...",
         "Grammarly Work Note 2023-05-31": "... user base, often through an [[app store]] release. This approach typically takes ...",
         "Reimagining Emails": "... paid app in the Mac [[App Store]] at launch. It is available ...",
-        "The Sudden Rise of Bondee": "... etc., ranking #1 in the [[App Store]]. Users can create a [[3d]] ...",
+        "Sudden Rise of Bondee": "... etc., ranking #1 in the [[App Store]]. Users can create a [[3d]] ...",
         "WWDC23": "## [[App Store]]",
         "Workbench": "4. [[App Store]] Install",
         "iOS": "... voice-activated virtual assistant, and the [[App Store]], which allows users to download ..."
+    },
+    "Newtonian Correspondence": {
+        "2023-03-16": "- [[Newtonian Correspondence]]",
+        "2023-03-19": "- [[Newtonian Correspondence]]",
+        "2023-03-31": "- [[Newtonian Correspondence]]"
+    },
+    "Zenly Playbook": {
+        "2023-02-03": "- [[Zenly Playbook]]",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-03 | 🇬🇧 [[Zenly Playbook]] <br/> 🇰🇷 [[젠리의 성공 공식]] ...",
+        "Zenly": "... and shut down in 2023. [[Zenly Playbook]] [[젠리의 성공 공식]]",
+        "젠리의 성공 공식": "[[Zenly Playbook]]"
     },
     "Swift Macro": {
         "WWDC23": "- [[Swift Macro]]"
@@ -7078,13 +7081,44 @@ export const backlinks = {
     "designOS": {
         "Diagram (Company)": "- Creator of [[designOS]]"
     },
-    "The Era of Invites": {
-        "2023-02-05": "- [[The Era of Invites]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-05 | 🇬🇧 [[The Era of Invites]] <br/> 🇰🇷 [[초대장의 시대]]  ..."
-    },
     "뤼튼": {
         "2023-05-03": "- [[뤼튼]]",
         "북스페이스": "... 스타트업. 곰단의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 것이다. 결과는 북스페이스의 피봇: ..."
+    },
+    "30-Day Tweet Test (Harry Stebbings)": {
+        "2023-02-01": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-02": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-03": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-04": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-05": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-06": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-07": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-08": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-09": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-10": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-11": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-12": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-13": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-14": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-15": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-16": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-17": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-18": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-19": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-20": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-21": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-22": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-23": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-24": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-25": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-26": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-27": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-02-28": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-03-01": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "2023-03-02": "- [[30-Day Tweet Test (Harry Stebbings)]]",
+        "Newtonian Correspondence": "A spiritual successor to [[30-Day Tweet Test (Harry Stebbings)]]! Subscribe at https://newsletters.cho.sh 😉",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... marks the thirtieth day of [[30-Day Tweet Test (Harry Stebbings)|my challenge to post meaningful content on the web]], and as I sit down ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "오늘은 [[30-Day Tweet Test (Harry Stebbings)|웹에 유의미한 콘텐츠를 올리기 위해 도전한지 30일째]] 되는 날입니다."
     },
     "Sungari": {
         "2023-05-31": "- [[Sungari]]",
@@ -7174,7 +7208,7 @@ export const backlinks = {
     },
     "On National Crises and the Intellectuals — Focused on GB and KR": {
         "2023-03-02": "- [[On National Crises and the Intellectuals — Focused on GB and KR]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 03-02 | 🇬🇧 [[On National Crises and the Intellectuals — Focused on GB and KR]] <br/> 🇰🇷 [[국가적 위기와 지식인에 ...",
+        "30-Day Tweet Test (Harry Stebbings)": "| 03-02 | 🇬🇧 [[On National Crises and the Intellectuals — Focused on GB and KR]] <br/> 🇰🇷 [[국가적 위기와 지식인에 ...",
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "[[On National Crises and the Intellectuals — Focused on GB and KR|You can find the English 🇬🇧 version here.]]"
     },
     "Sudo with Touch ID": {
@@ -7241,41 +7275,6 @@ export const backlinks = {
         "ULLO": "- [[Proof of Concept|PoC]] of [[SwiftUI]] Photo Widget App",
         "하늘땅사람 개발 기록": "다음과 같이 기술 [[Proof of Concept|개념 증명]] 완료."
     },
-    "The 30-Day Tweet Test (Harry Stebbings)": {
-        "2023-02-01": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-02": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-03": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-04": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-05": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-06": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-07": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-08": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-09": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-10": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-11": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-12": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-13": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-14": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-15": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-16": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-17": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-18": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-19": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-20": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-21": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-22": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-23": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-24": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-25": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-26": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-27": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-02-28": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-03-01": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "2023-03-02": "- [[The 30-Day Tweet Test (Harry Stebbings)]]",
-        "On National Crises and the Intellectuals — Focused on GB and KR": "... marks the thirtieth day of [[The 30-Day Tweet Test (Harry Stebbings)|my challenge to post meaningful content on the web]], and as I sit down ...",
-        "The Newtonian Correspondence": "A spiritual successor to [[The 30-Day Tweet Test (Harry Stebbings)]]! Subscribe at https://newsletters.cho.sh 😉",
-        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "오늘은 [[The 30-Day Tweet Test (Harry Stebbings)|웹에 유의미한 콘텐츠를 올리기 위해 도전한지 30일째]] 되는 날입니다."
-    },
     "0542 01 Matrix": {
         "Coding Tests": "- [x] [[0542 01 Matrix]]"
     },
@@ -7332,9 +7331,9 @@ export const backlinks = {
         "2023-05-02": "... 있는 것과 완벽하게 합치한다. 나는 [[Small yet Powerful|강소]]기업을 만들고 싶다. 대기업이 아니라. [[Antipreneur|강소기업가]]가 ...",
         "Antipreneur": "- 강기업이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].",
         "Cut the Fat": "- [[Small yet Powerful]]",
+        "Era of Invites": "... software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big ...",
         "Neo Korea": "- [[Small yet Powerful|작지만 강력한]]",
-        "The Era of Invites": "... software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big ...",
-        "The Zenly Playbook": "... So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what ...",
+        "Zenly Playbook": "... So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what ...",
         "強力反權": "- [[Small yet Powerful]]",
         "강기업": "우리의 목표는 [[Small yet Powerful|강소]]기업이다.",
         "젠리의 성공 공식": "... 시작해 3천억에 스냅에 인수된 기술 [[Small yet Powerful|강소]] 기업은 어떻게 성장하고 어떻게 사라졌을까. ...",
@@ -7345,12 +7344,12 @@ export const backlinks = {
     },
     "Information amongst Data": {
         "2022-11-24": "- [[Information amongst Data]]",
+        "Library of Babel": "- [[Information amongst Data]]",
         "Person 1E6ABA": "Finding [[Information amongst Data]].",
         "Prompt Marketplace": "... be the key to finding [[Information amongst Data]] or [[Search in a Latent ...",
         "Rauno": "... as if it is finding [[Information amongst Data]]",
         "Search AI": "- [[Information amongst Data]]",
         "Search in a Latent Space": "- Finding [[Information amongst Data]].",
-        "The Library of Babel": "- [[Information amongst Data]]",
         "개성은 쟁취하는 것": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
     },
     "Variance": {
@@ -7366,7 +7365,7 @@ export const backlinks = {
     "방지된 폭탄에 대한 경의": {
         "2023-02-01": "- [[방지된 폭탄에 대한 경의]]",
         "2023-02-06": "- [[방지된 폭탄에 대한 경의]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... that Disarmed Bomb <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... that Disarmed Bomb <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]      ..."
     },
     "Someday": {
         "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter]] but ...",
@@ -7392,6 +7391,8 @@ export const backlinks = {
         "Not-So-Procrastinating Lazy Loading": "[[Someday]] [[Project]]. `img loading=lazy`, but if ...",
         "Off The Record": "[[Someday]] [[Project]]. Disappearing message for iMessage.",
         "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 ...",
+        "One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
+        "One and Only WebExtension": "- [[Someday]] [[Project]]",
         "Open Graph Image as a Service": "[[Someday]] [[Project]]. Request Open Graph Images ...",
         "PineApple Pay": "[[Someday]] [[Project]].",
         "Problem": "Leads to a [[Someday]] [[Project]].",
@@ -7401,8 +7402,6 @@ export const backlinks = {
         "Research Paper NPM System": "[[Someday]] [[Project]]. It's an [[npm]] system ...",
         "Sticker Party": "[[Someday]] [[Project]] GitHub README에 박을 수 ...",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym ...",
-        "The One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
-        "The One and Only WebExtension": "- [[Someday]] [[Project]]",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute ...",
         "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
         "aaaa.coffee": "[[Someday]] [[Project]]. \"Buy me a coffee\" ...",
@@ -7446,7 +7445,7 @@ export const backlinks = {
     },
     "Are Computers Psychotropic Substances": {
         "2023-02-09": "- [[Are Computers Psychotropic Substances]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-09 | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]] ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-09 | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]] ..."
     },
     "Text AI and Information Density": {
         "2022-12-27": "- [[Text AI and Information Density]]"
@@ -7508,18 +7507,12 @@ export const backlinks = {
         "Reverse Engineering Apple Music API": "## Making it into a [[GitHub Actions]]",
         "YAML": "... interested to know whether the [[GitHub Actions]] parser looks at `\"on\"` or ..."
     },
-    "The Demise of Chatbots in 2017": {
-        "2022-11-28": "- Matt Rickard: [[The Demise of Chatbots in 2017]], [[Generative Databases]]",
-        "Generative AI": "... make a similar trajectory like [[The Demise of Chatbots in 2017]]?",
-        "Matt Rickard": "- [[The Demise of Chatbots in 2017]]",
-        "Search AI": "We will never see [[The Demise of Chatbots in 2017]] again."
-    },
     "Elo Rating": {
         "2022-12-09": "- Matt Rickard: [[Elo Rating]]",
         "Matt Rickard": "- [[Elo Rating]]"
     },
     "Cost of Engineering": {
-        "The Dilemmas of Technopreneur": "For 10x Technopreneurs, the [[Cost of Engineering]] is relatively cheap because they ..."
+        "Dilemmas of Technopreneur": "For 10x Technopreneurs, the [[Cost of Engineering]] is relatively cheap because they ..."
     },
     "Locking your Mac with Command+L": {
         "2022-11-19": "  - [[Locking your Mac with Command+L]]",
@@ -7527,6 +7520,10 @@ export const backlinks = {
     },
     "기술 발전의 속도": {
         "2023-02-20": "- [[기술 발전의 속도]]"
+    },
+    "Engine Equation (Metapage)": {
+        "2023-03-06": "- [[Engine Equation (Metapage)]]",
+        "Tech Now Pay Later": "... to create utility. Interestingly, this [[Engine Equation (Metapage)]] is a function that takes ..."
     },
     "CODE Procedure": {
         "2022-07-01": "I like the [[CODE Procedure]] in [[PARA]] architecture as a ...",
@@ -7543,7 +7540,7 @@ export const backlinks = {
     "Amie": {
         "2023-01-30": "- Also got invited to [[Amie]].",
         "Apple-like Block Interface": "## [[Amie]]",
-        "The Era of Invites": "Not only [[Amie]], people asked me if I ...",
+        "Era of Invites": "Not only [[Amie]], people asked me if I ...",
         "초대장의 시대": "[[Amie]] 뿐만 아니라 Texts, Tana, [[Artifact]]까지 ..."
     },
     "Binary Search": {
@@ -7635,9 +7632,9 @@ export const backlinks = {
         "2023-05-18": "- [[Hacker News]]",
         "Better Hacker News": "## [[Hacker News]] need some improvements",
         "Emails and Decentralized Protocols": "... from the original discussion on [[Hacker News]] was to use ImprovMX as ...",
+        "Gumroad": "... died—something like that. Posting on [[Hacker News]], the reaction exceeded my grandest ...",
         "Jumpsite": "## [[Hacker News]]",
         "Project Heimdall": "... Simple Analytics War Room on [[Hacker News]]",
-        "The Great Struggle of Gumroad": "... died—something like that. Posting on [[Hacker News]], the reaction exceeded my grandest ...",
         "Using an iPad as my Ebook": "... perfect ebook. Refer to this [[Hacker News]] thread"
     },
     "일본": {
@@ -7651,8 +7648,8 @@ export const backlinks = {
         "Metadream": "... and data centers in Singapore, [[일본|Japan]], [[대한민국|Korea]], and the [[United States ...",
         "Pretendard의 아쉬운 점": "... 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
         "Ruby": "... by Yukihiro \"Matz\" Matsumoto in [[일본|Japan]]. Ruby (programming language)>)",
-        "The Sudden Rise of Bondee": "... app, going crazy in 대한민국|Korea, [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 ...",
-        "The Zenly Playbook": "... on sub-group-led growths; for example, [[일본|Japanese]] students studying abroad at Taiwanese ...",
+        "Sudden Rise of Bondee": "... app, going crazy in 대한민국|Korea, [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 ...",
+        "Zenly Playbook": "... on sub-group-led growths; for example, [[일본|Japanese]] students studying abroad at Taiwanese ...",
         "hn.cho.sh 개발 기록": "... Browsers in Japan에서 알듯이 뭔가 [[일본]]에서 이런 프로덕트 반응이 잘 오는 ...",
         "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "지정학적 어려움으로 [[일본]]과 중국, 동남아에서 탈출하고자 모색하는 유럽과 ...",
         "경제 개발의 길목에서": "\"[[일본]]의 지도자들은 나라와 민족의 명운을 걸고 ...",
@@ -7705,6 +7702,9 @@ export const backlinks = {
         "2023-02-15": "- [[의료 인공지능과 의대 쏠림]]",
         "Neo Korea": "- [[의료 인공지능과 의대 쏠림]]"
     },
+    "Enduring Question of Cicada": {
+        "2023-03-16": "- [[Enduring Question of Cicada]]"
+    },
     "Jetbrains": {
         "Apple Newsroom 서체 따라하기": "... 이상 San Francisco|SF Mono가 아니다! [[Jetbrains]] Mono라는 폰트를 사용 중이다.",
         "IntelliJ": "... languages. It is produced by [[JetBrains]] (formerly known as IntelliJ) and ...",
@@ -7715,8 +7715,8 @@ export const backlinks = {
         "2022-11-30": "... (in this case, client meaning [[Mastodon]]) connections with only a few ...",
         "2022-12-21": "- [[Mastodon]]",
         "2023-01-13": "- Medium joins [[Mastodon]]",
-        "Self-hosted SaaS Alternatives": "... You could always do with [[Mastodon]] does and eschew analytics entirely.",
-        "The Architecture of Mastodon": "- [[Mastodon]]"
+        "Architecture of Mastodon": "- [[Mastodon]]",
+        "Self-hosted SaaS Alternatives": "... You could always do with [[Mastodon]] does and eschew analytics entirely."
     },
     "MessagePack": {
         "2022-07-11": "Candidates include [[MessagePack]] and [[CBOR]].",
@@ -7742,8 +7742,8 @@ export const backlinks = {
     },
     "엔진 방정식": {
         "2023-02-16": "- [[엔진 방정식]]",
-        "Engine Equation": "- The Engine Equation [[엔진 방정식]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... The Engine Equation <br/> 🇰🇷 [[엔진 방정식]]      ...",
+        "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Engine Equation <br/> 🇰🇷 [[엔진 방정식]]      ...",
+        "Engine Equation (Metapage)": "- Engine Equation [[엔진 방정식]]",
         "기술 할부 결제": "여기서 [[엔진 방정식]]이 유용하게 다가온다."
     },
     "NewsGPT": {
@@ -7762,10 +7762,10 @@ export const backlinks = {
         "Satori": "- Font and [[Emoji]] Subsets from [[Google]] Fonts and ...",
         "Shopify Analyzes CSS Frameworks": "| [[Emoji]] class names    ...",
         "Stories Behind Satori": "The same applies to [[Emoji|emojis]].",
-        "The Zenly Playbook": "... copywriting, cute colors, and smiley [[emoji]] everywhere. When asking for the ...",
         "TossFace Playground": "... Redistribution of 한국어|Korean and Futuristic [[Emoji]]. 유니코드 Private Use Area를 이용해 ...",
         "Tossface": "- [[Emoji]] [[Font]] by [[Toss]]",
-        "Why is Swift String Manipulation like that": "... can handle complex characters and [[Emoji]]; ever experienced where complex Emoji ..."
+        "Why is Swift String Manipulation like that": "... can handle complex characters and [[Emoji]]; ever experienced where complex Emoji ...",
+        "Zenly Playbook": "... copywriting, cute colors, and smiley [[emoji]] everywhere. When asking for the ..."
     },
     "Snowpack으로 WASM 시작하기": {
         "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
@@ -7778,8 +7778,8 @@ export const backlinks = {
     },
     "젠리의 성공 공식": {
         "2023-02-03": "- [[젠리의 성공 공식]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... The Zenly Playbook <br/> 🇰🇷 [[젠리의 성공 공식]]      ...",
-        "Zenly": "... in 2023. The Zenly Playbook [[젠리의 성공 공식]]"
+        "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Zenly Playbook <br/> 🇰🇷 [[젠리의 성공 공식]]      ...",
+        "Zenly": "... down in 2023. Zenly Playbook [[젠리의 성공 공식]]"
     },
     "하얼빈": {
         "2022-12-21": "- Readings: 이 땅에 태어나서, [[하얼빈]]",
@@ -7801,6 +7801,10 @@ export const backlinks = {
         "2022-07-07": "- [[Tools Must Vanish]]",
         "2022-12-28": "- [[Tools Must Vanish]]",
         "Using an iPad as my Ebook": "... that if the digital tool [[Tools Must Vanish|vanish]]es, digital tools no longer matter ..."
+    },
+    "Gumroad": {
+        "2022-12-09": "- [[Gumroad]]",
+        "Survivorship Biased": "- [[Gumroad]]"
     },
     "Apache": {
         "Apache Kafka": "[[Apache]] Kafka is an open-source distributed ...",
@@ -7828,7 +7832,7 @@ export const backlinks = {
     },
     "ChatGPT is a Blurry JPEG and We Need That": {
         "2023-03-31": "- [[ChatGPT is a Blurry JPEG and We Need That]]",
-        "The Newtonian Correspondence": "| 03-31 | `EN` [[ChatGPT is a Blurry JPEG and We Need That]] <br/> `KO` [[ChatGPT는 흐릿한 이미지이지만 ..."
+        "Newtonian Correspondence": "| 03-31 | `EN` [[ChatGPT is a Blurry JPEG and We Need That]] <br/> `KO` [[ChatGPT는 흐릿한 이미지이지만 ..."
     },
     "Unicorn": {
         "Imoogi and Dragon Company": "The word [[Unicorn]] Company gives the company too ...",
@@ -7850,8 +7854,8 @@ export const backlinks = {
         "2022-12-21": "- Readings: [[이 땅에 태어나서]], [[하얼빈]]",
         "2023-02-22": "- [[이 땅에 태어나서]]",
         "2023-02-23": "- [[이 땅에 태어나서]]",
-        "Readings": "- [x] [[이 땅에 태어나서]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Story of Hyundai <br/> 🇰🇷 [[이 땅에 태어나서]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Story of Hyundai <br/> 🇰🇷 [[이 땅에 태어나서]]      ...",
+        "Readings": "- [x] [[이 땅에 태어나서]]"
     },
     "Almost Monospaced": {
         "2022-11-07": "- [[Almost Monospaced]]"
@@ -7861,10 +7865,6 @@ export const backlinks = {
     },
     "AI로 변할 세상에 필요한 것": {
         "2023-04-06": "- [[AI로 변할 세상에 필요한 것]]"
-    },
-    "The End of History Fallacy": {
-        "2023-03-16": "- [[The End of History Fallacy]]",
-        "The Newtonian Correspondence": "| 03-16 | `EN` [[The End of History Fallacy]] <br/> `KO` [[역사의 종말 오류]] ..."
     },
     "AGPL": {
         "dub.sh": "  - [[AGPL]]"
@@ -7942,7 +7942,7 @@ export const backlinks = {
     },
     "컴퓨터는 향정신성 약물인가": {
         "2023-02-09": "- [[컴퓨터는 향정신성 약물인가]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... Computers Psychotropic Substances <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... Computers Psychotropic Substances <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]      ..."
     },
     "Pragmatic Engineer": {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]",
@@ -7954,7 +7954,7 @@ export const backlinks = {
     },
     "Powerfully Powerless Tools": {
         "2023-02-08": "- [[Powerfully Powerless Tools]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-08 | 🇬🇧 [[Powerfully Powerless Tools]] <br/> 🇰🇷 [[강력하게 미약한 도구들]] ...",
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-08 | 🇬🇧 [[Powerfully Powerless Tools]] <br/> 🇰🇷 [[강력하게 미약한 도구들]] ...",
         "Tools Must Vanish": "- [[Powerfully Powerless Tools]]"
     },
     "Interactive ML Models": {
@@ -7995,13 +7995,13 @@ export const backlinks = {
         "2021-06-23": "- [[개성은 쟁취하는 것]]",
         "2022-12-06": "- [[개성은 쟁취하는 것]]",
         "2023-02-25": "- [[개성은 쟁취하는 것]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... do not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]      ...",
+        "30-Day Tweet Test (Harry Stebbings)": "... do not Inherit <br/> 🇰🇷 [[개성은 쟁취하는 것]]      ...",
         "딱 봐도 조성현": "- [[개성은 쟁취하는 것]]",
         "자아는 발굴되는 것이다": "[[개성은 쟁취하는 것]]."
     },
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-06 | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-06 | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 ..."
     },
     "Logic Table": {
         "Probability": "- [[Logic Table]]"
@@ -8055,8 +8055,8 @@ export const backlinks = {
     },
     "Tech Now Pay Later": {
         "2023-02-17": "- [[Tech Now Pay Later]]",
-        "Avoid Premature Optimizations": "- [[Tech Now Pay Later]] [[기술 할부 결제]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "| 02-17 | 🇬🇧 [[Tech Now Pay Later]] <br/> 🇰🇷 [[기술 할부 결제]] ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-17 | 🇬🇧 [[Tech Now Pay Later]] <br/> 🇰🇷 [[기술 할부 결제]] ...",
+        "Avoid Premature Optimizations": "- [[Tech Now Pay Later]] [[기술 할부 결제]]"
     },
     "Medium": {
         "2023-01-13": "- [[Medium]] joins [[Mastodon]]",
@@ -8067,8 +8067,8 @@ export const backlinks = {
     },
     "Monolith": {
         "2023-05-04": "- [[Monolith]]",
-        "Letter to Mr. Matt Rickard on 2022-12-21": "... this is Ghost... another Rails [[monolith]].",
-        "The Architecture of Mastodon": "  - Rails [[monolith]] is harder to scale."
+        "Architecture of Mastodon": "  - Rails [[monolith]] is harder to scale.",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... this is Ghost... another Rails [[monolith]]."
     },
     "Three Column Design": {
         "Horizontally Stacked Interface": "- [[Three Column Design]]: Discord-Like Interface.",
@@ -8258,11 +8258,11 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-12-24": "... at his desire for a [[Super App]]. What concerns me more is ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... 2022-12-24, the conditions for a [[Super App]] in the [[United States of ...",
         "Mini App": "... within a more extensive, comprehensive [[Super App]]. Mini Apps are designed to ...",
+        "One and Only (Social App)": "... the world by creating a [[Super App]] in the US. China has ...",
+        "One and only": "... all data into one place—the [[Super App]] approach.",
         "Super App and Democracy": "... technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will ...",
         "Supergravity Products": "...  - 작은 아이디어 (금융 [[Super App|슈퍼 앱]] x 친구에게 송금 쉬운 앱 ...",
         "Texts": "Potential [[Super App]] for the [[United States of ...",
-        "The One and Only (Social App)": "... the world by creating a [[Super App]] in the US. China has ...",
-        "The one and only": "... all data into one place—the [[Super App]] approach.",
         "Toss": "... say the most innovative Financial [[Super App]] I've ever seen in [[대한민국|Korea]] ...",
         "Universal Identity": "- [[Super App]] accounts can be another. See ...",
         "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
@@ -8296,6 +8296,7 @@ export const backlinks = {
         "Conversational AI Tools for Thought": "... and have back-and-forth dialogue with [[AI]]. Poe will initially be available ...",
         "Dear AIs, I have a question.": "... I'm currently overwhelmed by the [[AI]] industry, which is changing daily. ...",
         "Deepfake": "... techniques from ML|machine learning and [[AI|artificial intelligence]] to manipulate or generate visual ...",
+        "Demise of Chatbots in 2017": "... I saw too many Chatbot [[AI]] startups. Then in 2018, they ...",
         "EU and AI": "... with how to regulate general-purpose [[AI]], such as [[OpenAI]]'s [[ChatGPT]], which ...",
         "Educational Technology": "... as communication, education, psychology, sociology, [[AI|artificial intelligence]], and computer science. It encompasses ...",
         "Effective Accelerationism": "8. [[AI|인공지능]]과 기술적 자본의 초변수(hyper-parameters)를 먼저 통제하는 ...",
@@ -8328,7 +8329,6 @@ export const backlinks = {
         "Replicating Balenciaga Harry Potter Advertisement": "- Utilized various [[AI]] tools for character design, voice ...",
         "Search AI": "... name is YouChat; I'm an [[AI]] that can answer general questions, ...",
         "Text AI and Information Density": "Text [[AI]], for example [[ChatGPT]], tends to ...",
-        "The Demise of Chatbots in 2017": "... I saw too many Chatbot [[AI]] startups. Then in 2018, they ...",
         "Tome": "It's like Text-based Presentations, but [[AI]] will draw & layout stuff ...",
         "Unsemantic": "... we must create an unsemantic [[AI]] (i.e., rigorous.)",
         "WebNPU API를 상상하다": "언젠가 [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 ...",
@@ -8417,6 +8417,10 @@ export const backlinks = {
     "K-Pop App": {
         "CELLO (Product)": "... confinement, as seen in most [[K-Pop App]].",
         "프로젝트 어덕행덕": "[[K-Pop App]]에 큰 실망을 하고 구상해본 가설적 ..."
+    },
+    "One and Only WebExtension": {
+        "2023-02-26": "- [[One and Only WebExtension]]",
+        "Letter to Mr. Gustav Ekerot on 2023-02-24": "... a shower-thought if there was \"[[One and Only WebExtension]]\" for [[Firefox]] and [[Safari]]. It ..."
     },
     "Moments": {
         "Cauchy": "... mean or variance, as the [[moments]] do not exist for this ...",
@@ -8510,7 +8514,7 @@ export const backlinks = {
     },
     "뉴턴의 서신": {
         "2023-02-28": "- [[뉴턴의 서신]]",
-        "The 30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Newtonian Mail <br/> 🇰🇷 [[뉴턴의 서신]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Newtonian Mail <br/> 🇰🇷 [[뉴턴의 서신]]      ..."
     },
     "Replicating Balenciaga Harry Potter Advertisement": {
         "2023-04-10": "- [[Replicating Balenciaga Harry Potter Advertisement]]"
@@ -8539,7 +8543,7 @@ export const backlinks = {
         "Antipreneur": "... guys. They need to hire [[10x]] power developers and work them ...",
         "Geohot-Twitter Mayhem": "... for ① being a superintelligent [[10x]] developer and ② being a ...",
         "Small yet Powerful": "> Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying ...",
-        "The Zenly Playbook": "... also outstanding designers and operators. [[10x]] people don't join a startup ...",
+        "Zenly Playbook": "... also outstanding designers and operators. [[10x]] people don't join a startup ...",
         "강기업": "... guys. They need to hire [[10x]] power developers and work them ..."
     },
     "FIRE": {
@@ -8547,10 +8551,6 @@ export const backlinks = {
         "FIRE Engine": "... that drives revenue streams for [[FIRE]]",
         "Fiercely Overpriced": "To attain [[FIRE]], we have previously explored that ...",
         "Software as a Service": "We expect we could attain [[FIRE]] through [[Software as a Service]]."
-    },
-    "The Problems of ChatGPT": {
-        "2023-01-13": "- [[The Problems of ChatGPT]]",
-        "Bing Chat": "- Solves [[The Problems of ChatGPT]]"
     },
     "Educational Technology": {
         "Person 1E6ABA": "... at a Financial Technology|FinTech + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as ..."
@@ -9106,7 +9106,7 @@ export const backlinks = {
         "Search Engine Indexing Your Life": "![[9CCA89.png]]"
     },
     "1A746C.png": {
-        "The Era of Invites": "![[1A746C.png]]",
+        "Era of Invites": "![[1A746C.png]]",
         "초대장의 시대": "![[1A746C.png]]"
     },
     "351A7A.png": {
@@ -9182,6 +9182,9 @@ export const backlinks = {
     },
     "22EB14.png": {
         "Font Features": "![[22EB14.png]]"
+    },
+    "FED5B0.png": {
+        "Demise of Chatbots in 2017": "![[FED5B0.png]]"
     },
     "62525D.png": {
         "Conversational AI Tools for Thought": "![[62525D.png]]"
@@ -9602,27 +9605,27 @@ export const backlinks = {
         "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "...   | 크롬과 비교하여 [[Firefox                                                                                                        | 파이어폭스]]의 높은 CPU 사용량에 대한 비판과 ..."
     },
     "21D071.png": {
-        "The Sudden Rise of Bondee": "![[21D071.png]]",
+        "Sudden Rise of Bondee": "![[21D071.png]]",
         "혜성처럼 나타난 본디": "![[21D071.png]]"
     },
     "F86A64.png": {
-        "The Sudden Rise of Bondee": "![[F86A64.png]]",
+        "Sudden Rise of Bondee": "![[F86A64.png]]",
         "혜성처럼 나타난 본디": "![[F86A64.png]]"
     },
     "6B42A0.png": {
-        "The Sudden Rise of Bondee": "![[6B42A0.png]]",
+        "Sudden Rise of Bondee": "![[6B42A0.png]]",
         "혜성처럼 나타난 본디": "![[6B42A0.png]]"
     },
     "9B0752.png": {
-        "The Sudden Rise of Bondee": "![[9B0752.png]]",
+        "Sudden Rise of Bondee": "![[9B0752.png]]",
         "혜성처럼 나타난 본디": "![[9B0752.png]]"
     },
     "689DA7.png": {
-        "The Sudden Rise of Bondee": "![[689DA7.png]]",
+        "Sudden Rise of Bondee": "![[689DA7.png]]",
         "혜성처럼 나타난 본디": "![[689DA7.png]]"
     },
     "13B6F7.png": {
-        "The Sudden Rise of Bondee": "![[13B6F7.png]]",
+        "Sudden Rise of Bondee": "![[13B6F7.png]]",
         "혜성처럼 나타난 본디": "![[13B6F7.png]]"
     },
     "2A7F74.png": {
@@ -9839,15 +9842,6 @@ export const backlinks = {
     },
     "2128CA.png": {
         "Edge Network": "![[2128CA.png]]"
-    },
-    "C5B7B8.png": {
-        "Engine Equation": "![[C5B7B8.png]]"
-    },
-    "C03F68.png": {
-        "Engine Equation": "![[C03F68.png]]"
-    },
-    "9F56CB.png": {
-        "Engine Equation": "![[9F56CB.png]]"
     },
     "33434F.png": {
         "AMP Email": "![[33434F.png]]"
@@ -10234,9 +10228,6 @@ export const backlinks = {
     "DED7BA.png": {
         "Jetski": "![[DED7BA.png]]"
     },
-    "FED5B0.png": {
-        "The Demise of Chatbots in 2017": "![[FED5B0.png]]"
-    },
     "76B360.png": {
         "기술 발전의 속도": "![[76B360.png]]"
     },
@@ -10296,6 +10287,15 @@ export const backlinks = {
     },
     "DF32FA.png": {
         "기술 발전의 속도": "![[DF32FA.png]]"
+    },
+    "C5B7B8.png": {
+        "Engine Equation (Metapage)": "![[C5B7B8.png]]"
+    },
+    "C03F68.png": {
+        "Engine Equation (Metapage)": "![[C03F68.png]]"
+    },
+    "9F56CB.png": {
+        "Engine Equation (Metapage)": "![[9F56CB.png]]"
     },
     "E01067.png": {
         "React Email": "![[E01067.png]]"

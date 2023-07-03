@@ -13,7 +13,7 @@ import Admonition from '@theme/Admonition';
 
 ## Dear [[Harry Stebbings|Mr. Stebbings]],
 
-Today marks the thirtieth day of [[The 30-Day Tweet Test (Harry Stebbings)|my challenge to post meaningful content on the web]], and as I sit down to write my final piece, my thoughts turn to the crisis facing my home country, the Republic of [[대한민국|Korea]]. As a student, I feel a deep sense of responsibility for the foreboding challenges that lie ahead. The Republic of [[대한민국|Korea]] and the [[United Kingdom]] share many similarities in our struggles. As [[Superbrain|intellectuals]], we must consider how to help our nations overcome these crises.
+Today marks the thirtieth day of [[30-Day Tweet Test (Harry Stebbings)|my challenge to post meaningful content on the web]], and as I sit down to write my final piece, my thoughts turn to the crisis facing my home country, the Republic of [[대한민국|Korea]]. As a student, I feel a deep sense of responsibility for the foreboding challenges that lie ahead. The Republic of [[대한민국|Korea]] and the [[United Kingdom]] share many similarities in our struggles. As [[Superbrain|intellectuals]], we must consider how to help our nations overcome these crises.
 
 But the question remains — **what can an individual do to impact the ominous trajectory of a nation**? It may seem daunting, even overwhelming, to contemplate the scale of these challenges. And yet, in the words of the great Irish poet William Butler Yeats, "Think where man's glory most begins and ends, and say my glory was I had such friends." We must recognize the power of the individual to effect change and to be a catalyst for progress, no matter how small our contribution may seem.
 

@@ -14,8 +14,8 @@ With the recent advent of GPT APIs, people can now [[Generative Intelligence|gen
 - Brief aims to solve info overload for news readers
 - Documate aims to solve info overload for PDF-manual based industry, most notably the hardware industry
 - Codeflow gives visual information about your codebase.
-- Hive gives [[the one and only]] search interface to fish your query.
-- Firefly captures lost information of [[The Broken Feedback Loop]].
+- Hive gives [[One and only]] search interface to fish your query.
+- Firefly captures lost information of [[Broken Feedback Loop]].
 - All tools use some GPT or Semantic Analysis.
 
 ### No More Crypto & [[Web3]] Startups
