@@ -41,7 +41,7 @@ code {
   color-scheme: dark light;
   --unhovered-transparency: 30%;
   --padding: 1rem;
-  --border-radius: 0.5rem;
+  --border-radius: 1rem;
   --ifm-container-width-xxl: 1600px;
   max-width: 100dvw;
 }
@@ -82,7 +82,7 @@ code {
 
 details {
   border: thin solid var(--ifm-menu-color-background-active);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 0.5rem 0.5rem 0;
 }
 
@@ -93,7 +93,7 @@ summary {
 figure {
   display: flex;
   flex-flow: column;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   overflow: hidden;
   margin: 0.2rem auto;
   max-width: 100dvw;
@@ -102,12 +102,12 @@ figure {
 iframe {
   max-width: 100dvw;
   margin: 0 auto;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 img {
   margin: 0 auto;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   max-height: 50rem;
   width: auto;
 }

@@ -463,6 +463,9 @@ export const backlinks = {
         "Project Heimdall": "## [[2023-04-19]]",
         "Project Heimdall Initial Planning": "[[2023-04-19]]"
     },
+    "2023-07-03": {
+        "The Funeral Playlist": "... Thus, I have decided on [[2023-07-03]] that I want a set ..."
+    },
     "2020-11-13": {
         "프로젝트 어덕행덕": "- [[2020-11-13]]"
     },
@@ -3828,6 +3831,9 @@ export const backlinks = {
     },
     "GitHub Copilot Investigation": {
         "Copilot": "- [[GitHub Copilot Investigation]]"
+    },
+    "The Funeral Playlist": {
+        "2023-07-03": "- [[The Funeral Playlist]]"
     },
     "Packet Switching vs Circuit Switching": {
         "Internetworking": "- [[Packet Switching vs Circuit Switching]]"
