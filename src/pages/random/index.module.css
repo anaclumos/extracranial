@@ -8,6 +8,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -31,5 +32,5 @@
 
 .dice {
   font-size: 4rem;
-  animation: rotating 2s linear infinite;
+  animation: rotating 1s linear infinite;
 }
