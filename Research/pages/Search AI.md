@@ -31,7 +31,7 @@ slug: '/FB73DE'
 ## On [[ChatGPT]]
 
 After playing with it for two days, It's marvelous.
-We will never see [[The Demise of Chatbots in 2017]] again.
+We will never see [[Demise of Chatbots in 2017]] again.
 This can kill [[Google]].
 People want information, not data.
 People, in the past, searched (and used [[Google]]) because it was the best bet to find information.
