@@ -1035,7 +1035,7 @@ export const backlinks = {
     },
     "불가사리": {
         "Neo Korea": "- [[불가사리]]",
-        "불가사리 (기업)": "... 하기 위해서 설립한 1인 기업이다. [[불가사리]]의 영문명으로는 무엇이 좋을까? 말그대로 \"Unkillable\"라는 ...",
+        "불가사리 (기업)": "... 하기 위해서 설립한 1인 기업이다. [[불가사리]]의 영문명으로는 무엇이 좋을까?",
         "불가사리 재단": "[[불가사리]]"
     },
     "Alternatives to After Effects": {
@@ -6059,6 +6059,9 @@ export const backlinks = {
         "Letter to the Heptabase Team on 2022-10-11": "- Mail|Letter to the [[Heptabase]] Team on [[2022-10-11]]",
         "Spacial Cognition": "... Thought use it. For example, [[Heptabase]].",
         "Visual-based Tools for Thought": "### [[Heptabase]]"
+    },
+    "Neon Genesis Evangelion": {
+        "2023-07-03": "- Started watching [[Neon Genesis Evangelion]]. OMG this is legendary. I ..."
     },
     "Swift String 조작은 왜 그 모양인가": {
         "2023-02-15": "- [[Swift String 조작은 왜 그 모양인가]]",
