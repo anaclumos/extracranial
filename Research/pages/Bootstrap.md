@@ -14,6 +14,6 @@ While bootstrapping is more common in the US, it was historically less popular i
 
 ## Related
 
-- [[The Battle of Flow and Asana]]
+- [[Battle of Flow and Asana]]
 - [부트스트래핑: 스타트업이 투자를 받지 않고 살아남는 법](https://outstanding.kr/bootstrapping20230417)
 - [[hn.cho.sh 개발 기록]]
