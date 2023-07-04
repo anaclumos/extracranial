@@ -41,7 +41,7 @@ code {
   color-scheme: dark light;
   --unhovered-transparency: 30%;
   --padding: 1rem;
-  --border-radius: 1rem;
+  --border-radius: 0.25rem;
   --ifm-container-width-xxl: 1600px;
   max-width: 100dvw;
 }
@@ -82,7 +82,7 @@ code {
 
 details {
   border: thin solid var(--ifm-menu-color-background-active);
-  border-radius: 1rem;
+  border-radius: var(--border-radius);
   padding: 0.5rem 0.5rem 0;
 }
 
@@ -93,7 +93,7 @@ summary {
 figure {
   display: flex;
   flex-flow: column;
-  border-radius: 1rem;
+  border-radius: var(--border-radius);
   overflow: hidden;
   margin: 0.2rem auto;
   max-width: 100dvw;
@@ -102,25 +102,25 @@ figure {
 iframe {
   max-width: 100dvw;
   margin: 0 auto;
-  border-radius: 1rem;
+  border-radius: var(--border-radius);
 }
 
 img {
   margin: 0 auto;
-  border-radius: 1rem;
+  border-radius: var(--border-radius);
   max-height: 50rem;
   width: auto;
 }
 
-figure > p {
+figure>p {
   margin: 0;
 }
 
-figure > figure {
+figure>figure {
   margin: 0;
 }
 
-figure > p > img {
+figure>p>img {
   display: block;
   margin: 0.5rem auto;
   padding: 0;
@@ -152,7 +152,7 @@ table {
   filter: brightness(1);
 }
 
-.navbar__logo > img {
+.navbar__logo>img {
   filter: none;
 }
 
