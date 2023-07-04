@@ -8,7 +8,7 @@ slug: '/5ADC58'
 import Admonition from '@theme/Admonition';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-# When Microsoft Battled My 230K User Extension
+# Microsoft Forces Me to Delete My 230K User Extension 🗑️
 
 import WIP from '@site/src/components/WIP'
 
