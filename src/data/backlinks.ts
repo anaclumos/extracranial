@@ -859,7 +859,7 @@ export const backlinks = {
     },
     "불가사리 (기업)": {
         "2023-06-14": "- [[불가사리 (기업)]]",
-        "2023-07-05": "- [[불가사리 (기업)]]: Apple과 NDA 서약을 체결해 이제부터 ..."
+        "2023-07-05": "- [[불가사리 (기업)|Starfish]]: Signed an NDA with Apple, ..."
     },
     "0067 Add Binary": {
         "Coding Tests": "- [x] [[0067 Add Binary]]"
