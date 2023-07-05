@@ -58,6 +58,9 @@ export const backlinks = {
         "Person 1B5A5B": "- Interviewed on [[2022-09-06]]",
         "Person 88B488": "- Interviewed on [[2022-09-06]]"
     },
+    "2023-07-05": {
+        "불가사리 (기업)": "- [[2023-07-05]] 업데이트 — Apple과 NDA 서약을 ..."
+    },
     "2023-03-20": {
         "hn.cho.sh 개발 기록": "## [[2023-03-20]]"
     },
@@ -855,7 +858,8 @@ export const backlinks = {
         "2023-01-31": "- [[Convergence of Infinite Series]]"
     },
     "불가사리 (기업)": {
-        "2023-06-14": "- [[불가사리 (기업)]]"
+        "2023-06-14": "- [[불가사리 (기업)]]",
+        "2023-07-05": "- [[불가사리 (기업)]]: Apple과 NDA 서약을 체결해 이제부터 ..."
     },
     "0067 Add Binary": {
         "Coding Tests": "- [x] [[0067 Add Binary]]"
