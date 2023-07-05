@@ -10,6 +10,7 @@ slug: '/959D0A'
   - International SEO built-in (hreflang)
   - Subpath routing
   - International payments built-in (PayPal + Toss)
+- Impact over Performance
 - Business Performance over Technical Performance
 - Day One Deploy
 - Perfect for Indie Developers
