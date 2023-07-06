@@ -1,8 +1,10 @@
 ---
 lang: 'en'
 slug: '/B8D890'
-aliases: ['overengineer', 'over-engineer', 'Boring']
+aliases: ['overengineer', 'over-engineer']
 ---
+
+[[IDOL Stack]]
 
 ### [Programming is a Pop Culture – Baldur Bjarnason](https://www.baldurbjarnason.com/2022/programming-is-a-pop-culture/)
 

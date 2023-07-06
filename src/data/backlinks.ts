@@ -59,6 +59,7 @@ export const backlinks = {
         "Person 88B488": "- Interviewed on [[2022-09-06]]"
     },
     "2023-07-05": {
+        "Impact over Performance": "Short essay on [[2023-07-05]]:",
         "불가사리 (기업)": "- [[2023-07-05]] 업데이트 — Apple과 NDA 서약을 ..."
     },
     "2023-03-20": {
@@ -118,7 +119,7 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "... 이중모음까지는 조합이 가능하도록 만들어야겠다. ← [[2023-01-15]] 해결"
     },
     "2022-07-24": {
-        "FIRE Engine": "... Do Indie Hackers Products Make? ([[2022-07-24]])"
+        "FIRE": "... Do Indie Hackers Products Make? ([[2022-07-24]])"
     },
     "2022-09-13": {
         "Person 5DBDAE": "- Interviewed on [[2022-09-13]]",
@@ -604,7 +605,6 @@ export const backlinks = {
         "하늘땅사람 개발 기록": "... 분산시키고 좋은 품질을 유지하기 위해 [[SwiftUI]]를 사용하는 방안을 연구 중."
     },
     "ChatGPT": {
-        "10x": "... exceptionally talented and productive individuals. [[ChatGPT]]",
         "10x Technologist": "... and influential in their work. [[ChatGPT]]",
         "2022-12-02": "- [[ChatGPT]]",
         "2022-12-07": "- [[ChatGPT]]: Using ChatGPT As a Co-Founder",
@@ -730,6 +730,10 @@ export const backlinks = {
     },
     "0206 Reverse Linked List": {
         "Coding Tests": "- [x] [[0206 Reverse Linked List]]"
+    },
+    "Impact over Performance": {
+        "2023-07-05": "- [[Impact over Performance]]",
+        "IDOL Stack": "- [[Impact over Performance]]"
     },
     "WidgetKit": {
         "WWDC23": "- [[WidgetKit]] → Interactivity. Also possible to ..."
@@ -860,6 +864,9 @@ export const backlinks = {
     "불가사리 (기업)": {
         "2023-06-14": "- [[불가사리 (기업)]]",
         "2023-07-05": "- [[불가사리 (기업)|Starfish]]: Signed an NDA with Apple, ..."
+    },
+    "jQuery": {
+        "Impact over Performance": "... revenue every month but with [[jQuery]]. Who cares about the tech ..."
     },
     "0067 Add Binary": {
         "Coding Tests": "- [x] [[0067 Add Binary]]"
@@ -1132,6 +1139,7 @@ export const backlinks = {
         "One and Only (Social App)": "... the solution for you. Introducing '[[One and only]],' the ultimate social media app ..."
     },
     "Software as a Service": {
+        "FIRE": "## Payment Infra for [[Software as a Service]]",
         "FIRE Engine": "- [[Software as a Service]] that drives revenue streams for ...",
         "Fiercely Overpriced": "... we have previously explored that [[Software as a Service]] would be one way to ...",
         "Powerfully Powerless Tools": "... in the Tools for Thought [[Software as a Service]] market.",
@@ -1163,6 +1171,7 @@ export const backlinks = {
     "Boring Technologies": {
         "2023-01-13": "- [[Boring Technologies]]",
         "BitTorrent": "... parsing, unit tests, and the [[Boring Technologies|boring]] parts that build character. View ...",
+        "Impact over Performance": "... the IDOL Stack. Remember, use [[Boring Technologies]].",
         "Tailwind": "... to be one of the [[Boring Technologies|boring]] established CSS solutions that enables ..."
     },
     "Probability": {
@@ -2041,7 +2050,8 @@ export const backlinks = {
     },
     "10x Technopreneurs": {
         "2022-12-09": "- [[10x Technopreneurs]]",
-        "Dilemmas of Technopreneur": "For [[10x Technopreneurs]], the [[Cost of Engineering]] is ..."
+        "Dilemmas of Technopreneur": "For [[10x Technopreneurs]], the [[Cost of Engineering]] is ...",
+        "Pieter Levels": "- [[10x Technopreneurs|10x Technopreneur]]"
     },
     "Exhalation": {
         "2023-05-11": "- [[Exhalation]]",
@@ -2238,16 +2248,25 @@ export const backlinks = {
         "Coding Tests": "- [x] [[0226 Invert Binary Tree]]"
     },
     "Front-end": {
+        "2022-12-28": "- [[Front-end|Frontend]] web framework: [[Next.js|NextJS]]/[[Vercel]] (Past: Ruby ...",
         "Architecture of Mastodon": "... harder. Containerization, Kubernetes, and modern [[front-end]] stacks are challenging to work ...",
         "Cloudflare Pages": "- Cloudflare Edge [[Front-end]] Front-end",
+        "Generalist": "... in various domains, such as [[front-end]] and [[back-end]] development, mobile app ...",
+        "Geohot-Twitter Mayhem": "... Then looked for a one-liner [[front-end]] solution for \"fixing the search ...",
         "Ghost 테마를 자동 배포하는 방법": "... 머리가 없다는 뜻으로, Back-end|백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 ...",
         "HTMX": "- A [[Front-end]]",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... be abstracted to an edge-served [[Front-end]] and [[back-end]] as edge-replicated simple ...",
         "Old Fashioned Camera": "- Back-end|백엔드와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE Engine]]을 ...",
         "React": "... is a free and open-source [[Front-end|front-end]] JavaScript library for building user ...",
+        "Redwood.js": "- The [[front-end]] is built with React, a ...",
+        "Render.com": "... Ruby. Instead, Cloudflare excels at [[front-end]] tasks through its Workers and ...",
         "Satori": "... Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "... is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris ...",
+        "Zenly Playbook": "... unparalleled tech talents. Server and [[Front-end]] engineers were mainly seniors, forming ...",
+        "henrymakesapps": "...  Next.js: Used for both [[front-end]] and server-side development.",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 [[TypeScript|타입스크립트]]를 쓰고 있다. 하지만 ...",
-        "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 ..."
+        "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 ...",
+        "젠리의 성공 공식": "... 채용하며 독자적인 기술력을 보유했다. 서버와 [[Front-end|프론트엔드]] 기술도 시니어 엔지니어 위주로 소수 ..."
     },
     "2022년 11월 한 달간 일기 쓰기": {
         "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
@@ -2842,7 +2861,9 @@ export const backlinks = {
     },
     "IDOL Stack": {
         "2023-06-14": "- [[IDOL Stack]]",
-        "2023-06-18": "- [[IDOL Stack]]"
+        "2023-06-18": "- [[IDOL Stack]]",
+        "Boring Technologies": "[[IDOL Stack]]",
+        "Impact over Performance": "... so I have devised the [[IDOL Stack]]. Remember, use [[Boring Technologies]]."
     },
     "Cache Write Policy": {
         "2022-11-04": "- [[Cache Write Policy]]",
@@ -3158,7 +3179,7 @@ export const backlinks = {
         "2022-09-30": "### Vercel [[Next.js]] Conf Interactions",
         "2022-10-25": "## [[Next.js]] Conf",
         "2022-12-04": "... Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: ...",
-        "2022-12-28": "- Frontend web framework: [[Next.js|NextJS]]/[[Vercel]] (Past: Ruby on Rails/Heroku)",
+        "2022-12-28": "- Front-end|Frontend web framework: [[Next.js|NextJS]]/[[Vercel]] (Past: Ruby on Rails/Heroku)",
         "2023-02-16": "... examples. Go ahead and add [[Next.js]] or any Vite-based examples and ...",
         "Apple-like Block Interface": "## [[Next.js]]",
         "Front-end": "- [[Next.js]]",
@@ -3168,7 +3189,7 @@ export const backlinks = {
         "Vercel": "... company. The company maintains the [[Next.js]] web development framework. Vercel's architecture ...",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]",
         "dub.sh": "  - [[Next.js]] framework",
-        "henrymakesapps": "1.  [[Next.js]]: Used for both front-end and ...",
+        "henrymakesapps": "1.  [[Next.js]]: Used for both [[front-end]] and ...",
         "hn.cho.sh 개발 기록": "... The SaaS starter template for [[Next.js]] and [[Supabase]] 살펴보기"
     },
     "Jupyter": {
@@ -4871,7 +4892,7 @@ export const backlinks = {
         "2023-04-21": "- [[Edge]]",
         "Architecture of Mastodon": "... hard to serve at the [[edge]]. [[CDN]] can host static assets, ...",
         "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-end]] [[Front-end]]",
-        "Letter to Mr. Matt Rickard on 2022-12-21": "... could be abstracted to an [[edge]]-served Front-end and [[back-end]] as edge-replicated ...",
+        "Letter to Mr. Matt Rickard on 2022-12-21": "... could be abstracted to an [[edge]]-served [[Front-end]] and [[back-end]] as edge-replicated ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... Economy, Closed vs. (fairly) Open, [[Edge]]-first [[AI]] vs. Cloud-first [[AI]], etc.",
         "Satori": "... existing solutions by using Vercel [[Edge]] Functions, [[WebAssembly]], and a brand ...",
         "WasmEdge": "WasmEdge: [[Edge]] for [[WebAssembly]]",
@@ -4955,7 +4976,7 @@ export const backlinks = {
         "2022-10-10": "...  - I just love [[Vercel]]... they know stuff.",
         "2022-10-21": "- Does [[Vercel]] not rest or something? [Building ...",
         "2022-12-04": "... is now built on Next.js, [[Vercel]], and [[Tailwind]]. Lee Robinson: The ...",
-        "2022-12-28": "- Frontend web framework: Next.js|NextJS/[[Vercel]] (Past: Ruby on Rails/Heroku)",
+        "2022-12-28": "- Front-end|Frontend web framework: Next.js|NextJS/[[Vercel]] (Past: Ruby on Rails/Heroku)",
         "2023-01-27": "... Extracranial to Cloudflare Pages for [[Vercel]] for now...",
         "2023-04-10": "... this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
         "Aldehyde Outage (January 2023)": "## [[Vercel]] and [[Cloudflare]] Build Errors",
@@ -5772,7 +5793,8 @@ export const backlinks = {
         "Cube": "- [[FIRE Engine]]",
         "FIRE": "- [[FIRE Engine]]",
         "Intracranial": "- [[FIRE Engine]]",
-        "Old Fashioned Camera": "... Back-end|백엔드와 Front-end|프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임"
+        "Old Fashioned Camera": "... Back-end|백엔드와 Front-end|프론트가 모두 필요 없기에 [[FIRE Engine]]을 실행하기에 적합해보임",
+        "Pieter Levels": "- [[FIRE Engine]]"
     },
     "Decoy Effect": {
         "2022-11-08": "- [[Decoy Effect]]",
@@ -6026,6 +6048,8 @@ export const backlinks = {
         "Antipreneur": "- [[Bootstrap]]: 결국 VC는 외부인이다",
         "Avoid Premature Optimizations": "- [[Bootstrap]]",
         "Battle of Flow and Asana": "I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon ...",
+        "IDOL Stack": "- [[Bootstrap]]",
+        "Impact over Performance": "- [[Bootstrap]]",
         "MAKE": "This is called [[Bootstrap|bootstrapping]]. The good part is that ..."
     },
     "인하우스와 자유경쟁": {
@@ -6082,6 +6106,9 @@ export const backlinks = {
         "2022-07-13": "- Solved [[0021 Merge Two Sorted Lists]]",
         "Coding Tests": "- [x] [[0021 Merge Two Sorted Lists]]"
     },
+    "Aesthete": {
+        "Impact over Performance": "... too much of a technophile [[aesthete]]... so I have devised the ..."
+    },
     "무제한번역": {
         "2023-05-30": "- [[무제한번역]]",
         "Research Paper Language System": "[[무제한번역]] [[Across the Sprachraums]]"
@@ -6110,7 +6137,8 @@ export const backlinks = {
     "Antipreneur": {
         "2023-03-05": "- [[Antipreneur]]",
         "2023-05-02": "... Powerful|강소기업을 만들고 싶다. 대기업이 아니라. [[Antipreneur|강소기업가]]가 되자.",
-        "European Rhapsody": "[[Antipreneur]]"
+        "European Rhapsody": "[[Antipreneur]]",
+        "Pieter Levels": "... work in the realm of [[Antipreneur|digital nomadism]]. He's the creator of several ..."
     },
     "Building a Second Brain": {
         "2022-06-14": "- [[Building a Second Brain]]: A Proven Method to Organize ...",
@@ -6878,6 +6906,11 @@ export const backlinks = {
         "Optimized Simulations": "- Optimized [[Simulations]] programming problem is when you ...",
         "Person 5DBDAE": "I create functional [[Simulations]] models for semiconductors. For fabless ...",
         "Real Exams": "- 1 [[Simulations]]"
+    },
+    "Pieter Levels": {
+        "Antipreneur": "... The Indie Maker Handbook, by [[Pieter Levels]].",
+        "Impact over Performance": "[[Pieter Levels]] generates millions of revenue every ...",
+        "강기업": "... The Indie Maker Handbook, by [[Pieter Levels]]."
     },
     "Translation Look-aside Buffers": {
         "2022-11-04": "- [[Translation Look-aside Buffers]]",
@@ -8480,7 +8513,7 @@ export const backlinks = {
         "Cookie": "... that corresponds to the Back-end|backend [[database]].",
         "Database vs Datalake": "## [[Database]]:",
         "Digital Bookmarks for Physical Books": "... to collect it as a [[database]] on your phone? Reference: Why ...",
-        "FIRE Engine": "... has turned into a colossal [[database]] of everything on the internet",
+        "FIRE": "... has turned into a colossal [[database]] of everything on the internet",
         "Generalist": "... tasks like authentication, querying a [[database]], setting up a developer environment, ...",
         "Generative Databases": "... Generative AIs, can we think [[Database]] as Gen [[AI]] models instead ...",
         "Grammarly Work Note 2023-06-02": "... the use of a Document [[Database|DB]], which houses 6000 different tables. ...",
@@ -8557,6 +8590,7 @@ export const backlinks = {
         "10x Technopreneurs": "... 10x Technopreneurs. They can attain [[FIRE]]",
         "FIRE Engine": "... that drives revenue streams for [[FIRE]]",
         "Fiercely Overpriced": "To attain [[FIRE]], we have previously explored that ...",
+        "Pieter Levels": "- [[FIRE]]",
         "Software as a Service": "We expect we could attain [[FIRE]] through [[Software as a Service]]."
     },
     "Educational Technology": {
