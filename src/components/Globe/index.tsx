@@ -1,29 +1,26 @@
-import createGlobe from 'cobe'
-import { Marker } from 'cobe'
+import createGlobe, { Marker } from 'cobe'
 import React from 'react'
 import { useEffect, useRef } from 'react'
 import styles from './index.module.css'
 import { useSpring } from 'react-spring'
+import { coordinates, travels } from '@site/src/util/travels'
 
-const seoul: Marker = {
-  location: [37.5665, 126.978],
-  size: 0.05,
-}
-const losangeles: Marker = {
-  location: [34.0522, 241.7563],
-  size: 0.05,
-}
+const markers: Marker[] = coordinates()
+const markersHistory: {
+  from: Marker
+  to: Marker
+}[] = travels
 
-const markers: Marker[] = [seoul, losangeles]
+const locationToAngles = (lat, long) => {
+  return [Math.PI - ((long * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180]
+}
 
 export const Globe = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
-  const pointerInteracting = useRef<number | null>(null)
-  const pointerInteractionMovement = useRef(0)
   if (!canvasRef) {
     return null
   }
-  const [{ r }, api] = useSpring(() => ({
+  const [api] = useSpring(() => ({
     r: 0,
     config: {
       mass: 0.1,
@@ -32,9 +29,12 @@ export const Globe = () => {
       precision: 0.001,
     },
   }))
+  const focusRef = useRef([0, 0])
   useEffect(() => {
-    let phi = 0
+    let currentPhi = 0
+    let currentTheta = 0
     let width = 0
+    const doublePi = Math.PI * 2
     const onResize = () => canvasRef.current && (width = canvasRef.current.offsetWidth)
     window.addEventListener('resize', onResize)
     onResize()
@@ -53,51 +53,40 @@ export const Globe = () => {
       glowColor: [0.5, 0.5, 0.5],
       markers: markers,
       onRender: (state) => {
-        state.phi = phi + r.get()
-        phi += 0.001
+        state.phi = currentPhi
+        state.theta = currentTheta
+        const [focusPhi, focusTheta] = focusRef.current
+        const distPositive = (focusPhi - currentPhi + doublePi) % doublePi
+        const distNegative = (currentPhi - focusPhi + doublePi) % doublePi
+        // Control the speed
+        if (distPositive < distNegative) {
+          currentPhi += distPositive * 0.08
+        } else {
+          currentPhi -= distNegative * 0.08
+        }
+        currentTheta = currentTheta * 0.92 + focusTheta * 0.08
         state.width = width * 2
         state.height = width * 2
       },
     })
     setTimeout(() => (canvasRef.current.style.opacity = '1'))
-    return () => globe.destroy()
+    const interval = setInterval(() => {
+      const { from, to } = markersHistory[0]
+      const [phiFrom, thetaFrom] = locationToAngles(from.location[0], from.location[1])
+      focusRef.current = [phiFrom, thetaFrom]
+      markersHistory.shift()
+      markersHistory.push({ from, to })
+    }, 1000)
+    return () => {
+      clearInterval(interval)
+      window.removeEventListener('resize', onResize)
+      globe.destroy()
+    }
   }, [])
+
   return (
     <div className={styles.container}>
-      <canvas
-        ref={canvasRef}
-        className={styles.globe}
-        onPointerDown={(e) => {
-          pointerInteracting.current = e.clientX - pointerInteractionMovement.current
-          canvasRef.current.style.cursor = 'grabbing'
-        }}
-        onPointerUp={() => {
-          pointerInteracting.current = null
-          canvasRef.current.style.cursor = 'grab'
-        }}
-        onPointerOut={() => {
-          pointerInteracting.current = null
-          canvasRef.current.style.cursor = 'grab'
-        }}
-        onMouseMove={(e) => {
-          if (pointerInteracting.current !== null) {
-            const delta = e.clientX - pointerInteracting.current
-            pointerInteractionMovement.current = delta
-            api.start({
-              r: delta / 200,
-            })
-          }
-        }}
-        onTouchMove={(e) => {
-          if (pointerInteracting.current !== null && e.touches[0]) {
-            const delta = e.touches[0].clientX - pointerInteracting.current
-            pointerInteractionMovement.current = delta
-            api.start({
-              r: delta / 100,
-            })
-          }
-        }}
-      />
+      <canvas ref={canvasRef} className={styles.globe} />
     </div>
   )
 }

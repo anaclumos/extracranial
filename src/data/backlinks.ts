@@ -5083,6 +5083,7 @@ export const backlinks = {
         "2022-10-25": "- [[洪民憙雜記]]"
     },
     "Vocab": {
+        "Aesthete": "... beautiful stuff—incredibly exquisite mechanical property. [[vocab]]",
         "Cantankerous": "[[vocab]]",
         "Flamboyant": "- [[vocab]]. Flamboyant is an adjective to ...",
         "Frivolous": "[[vocab]]",
