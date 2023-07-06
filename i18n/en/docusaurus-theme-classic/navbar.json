@@ -26,5 +26,9 @@
   "item.label.Email": {
     "message": "Email",
     "description": "Navbar item with label Email"
+  },
+  "item.label.Research": {
+    "message": "Research",
+    "description": "Navbar item with label Research"
   }
 }

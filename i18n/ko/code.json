@@ -24,7 +24,7 @@
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "열람실",
+    "message": "블로그",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
