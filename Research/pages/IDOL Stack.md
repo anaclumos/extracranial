@@ -5,12 +5,15 @@ slug: '/959D0A'
 
 ## [[K-Pop|Idol]] — _Indie Developers' Opinionated Libraries_
 
+- Use boring technologies
+- [[Bootstrap]]
+- Deliver day 1
 - Huge focus on an international-first approach
   - HTTP content negotiation
   - International SEO built-in (hreflang)
   - Subpath routing
   - International payments built-in (PayPal + Toss)
-- Impact over Performance
+- [[Impact over Performance]]
 - Business Performance over Technical Performance
 - Day One Deploy
 - Perfect for Indie Developers
