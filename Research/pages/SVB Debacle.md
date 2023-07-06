@@ -25,4 +25,4 @@ slug: '/4EF9FC'
 
 ### [NEW: Etsy Delays Seller Payouts due to Run on Silicon Valley Bank](https://www.ecommercebytes.com/C/abblog/blog.pl?/pl/2023/3/1678509907.html)
 
-- Some Etsy sellers failed to get disbursements on Friday, and in a letter that a seller forwarded to EcommerceBytes, Etsy explained it was due to the Silicon Valley Bank (SVB) debacle
+- Some Etsy sellers failed to get disbursements on Friday, and in a [[Mail|letter]] that a seller forwarded to EcommerceBytes, Etsy explained it was due to the Silicon Valley Bank (SVB) debacle

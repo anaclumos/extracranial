@@ -22,7 +22,7 @@ hn.cho.sh의 유지비를 위해 서포터 플랜을 도입합니다. 자세한 
 - '해커'란 해커뉴스 요약 서비스 'hn.cho.sh' 및 그 후신들의 구독자를 말합니다.
 - '빌리버 플랜'이란, 현재 연구용 베타 형태로 제공되는 인터넷 정보 요약 서비스의 취지에 공감하며, 향후 프로덕트의 발전에 응원을 기하기 위해 구매할 수 있는 상품을 뜻합니다.
 - '빌리버 플랜'을 구매하신 분의 혜택으로 '해커'들에게 매일 전송되는 뉴스레터에 일회성 메시지를 전송할 수 있는 혜택을 부여하며, 차후 변경될 수 있습니다. 메시지에는 인의 생각을 담을 수 있습니다. 공익성 홍보글은 작성할 수 있습니다만 상업적 홍보글은 작성하기 어렵습니다. 이는 회사와 회원의 조율로 합의합니다.
-- 회사와 회원의 합의는 이메일 혹은 영상전화로 가능합니다.
+- 회사와 회원의 합의는 [[Mail|이메일]] 혹은 영상전화로 가능합니다.
 - 해당 플랜을 구매하면 2주 내로 메시지 작성 가능하며 메시지 작성 이후 3일 내로 레터에 반영합니다.
 
 ## 환불 정책
@@ -47,8 +47,8 @@ These numbers grow by 3% daily, and the newsletter open rate is an impressive 50
 - "Hackers" refers to subscribers of the hacker news summarization service "hn.cho.sh" and its successors.
 - "Believer Plan" refers to a product that can be purchased to support the development of the product in the future while sympathizing with the purpose of the Internet information summarization service, which is currently available in research beta form.
 - As a benefit of purchasing the Believer Plan, "hackers" can send a one-time message to the daily newsletter, which is subject to change. The message can contain your thoughts. Public service announcements can be made, but not commercial announcements. The company and the member will agree upon this.
-- The agreement between the company and the member can be made via email or video call.
-- If you purchase this plan, you can write a message within two weeks, which will be reflected in the letter within three days after the notice is noted.
+- The agreement between the company and the member can be made via [[Mail|email]] or video call.
+- If you purchase this plan, you can write a message within two weeks, which will be reflected in the [[Mail|letter]] within three days after the notice is noted.
 
 ## Refund Policy
 
