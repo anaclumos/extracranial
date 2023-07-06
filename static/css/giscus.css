@@ -5,6 +5,7 @@
 
 @import url('../fonts/Pretendard/pretendard-subset.css');
 @import url('../fonts/JetbrainsMono/jetbrainsmono.css');
+@import url('../../src/css/external-link.css');
 
 * {
   --font-family-sans-serif: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple Color Emoji',
