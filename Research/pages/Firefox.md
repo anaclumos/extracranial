@@ -27,6 +27,6 @@ aliases: ['파이어폭스', '불여우', 'FF', '🔥🦊', '❤🔥']
 - So I used it, but the results were terrible. Performance in some of our automated tests [degraded by as much as 30%](https://bugzilla.mozilla.org/showbug.cgi?id=1774458).
 - As it turns out, `osunfairlock` doesn't spin on contention; it makes the calling thread [sleep right away when it finds a contended lock](https://github.com/apple/darwin-libplatform/blob/215b09856ab5765b7462a91be7076183076600df/src/os/lock.c#L536)
 - The function is [`osunfairlockwithoptions()`](https://searchfox.org/mozilla-central/rev/6ec440e105c2b75d5cae9d34f957a2f85a106d54/memory/build/Mutex.h#22-34) and the options I used are `OSUNFAIRLOCKDATASYNCHRONIZATION` and `OSUNFAIRLOCKADAPTIVESPIN`
-- The latter asks the kernel to use kernel-space adaptive spinning, and the former prevents it from spawning additional threads in the thread pools used by [[Apple]]'s libraries
+- The latter asks the kernel to use kernel-space adaptive spinning, and the former prevents it from spawning additional [[threads]] in the thread pools used by [[Apple]]'s libraries
 - Did they work? Yes! Performance on lightly loaded systems was about the same as `OSSpinLock`, but on loaded ones, they provided massively better responsiveness
 - I initially fell back to `OSSpinLock` as an intermediate solution on older systems. Later I managed to get rid of it for good by relying on `osunfairlock` plus [manual spinning in user space](https://bugzilla.mozilla.org/showbug.cgi?id=1784018)

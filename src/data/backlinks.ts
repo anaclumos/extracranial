@@ -654,7 +654,7 @@ export const backlinks = {
         "Text-based Tools for Thought": "### [[Paracosm]]"
     },
     "Datahouse": {
-        "Grammarly Work Note 2023-06-02": "... query the data in our [[Datahouse]] and index metadata. Our system ..."
+        "Grammarly Work Note 2023-06-02": "... query the data in our [[Datahouse]] and index [[metadata]]. Our system ..."
     },
     "Texts": {
         "2023-01-31": "Got Invited to [[Texts]]",
@@ -711,7 +711,8 @@ export const backlinks = {
         "Grammarly Work Note 2023-06-03": "[[Grammarly Work Note]]",
         "Grammarly Work Note 2023-06-07": "[[Grammarly Work Note]]",
         "Grammarly Work Note 2023-06-13": "[[Grammarly Work Note]]",
-        "Grammarly Work Note 2023-06-23": "[[Grammarly Work Note]]"
+        "Grammarly Work Note 2023-06-23": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-07-06": "[[Grammarly Work Note]]"
     },
     "Cloudflare Pages": {
         "2023-01-27": "... had to migrate Extracranial to [[Cloudflare Pages]] for [[Vercel]] for now...",
@@ -937,6 +938,11 @@ export const backlinks = {
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "또한 이 글에서 [[IP]] 주소와 디바이스 고유 주소 등은 ...",
         "새로운 부동산은 지적 재산이다": "지적 재산([[IP]])은 장기간에 걸쳐 [[Economy|경제]]적 이익을 창출할 ..."
     },
+    "Metaphor": {
+        "Meta": "- [[Metaphor]]",
+        "Spirits do not Inherit": "... survival that without individuality, the [[metaphor]] of me is as good ...",
+        "개성은 쟁취하는 것": "저는 개성이 없으면 나라는 [[Metaphor|메타포]]는 죽은 것이나 마찬가지라는 생존의 문제로 ..."
+    },
     "CDN": {
         "2022-08-28": "... (~5m). Vercel has 서울|Seoul region [[CDN]].",
         "2022-12-28": "- [[CDN]]",
@@ -1160,6 +1166,26 @@ export const backlinks = {
         "2023-01-23": "- [[Odds]]",
         "Bayes Theorem": "The [[Odds]] form of Bayes Theorem is",
         "Born of this Land - The Founding Story of Hyundai": "... the early 1970s, against everyone's [[odds]], allowed Hyundai E&C to become ..."
+    },
+    "Instagram": {
+        "2022-07-28": "... Facebook acquires or overtakes MySpace, [[Instagram]], and Snapchat, driving relationships into ...",
+        "2022-10-27": "... features like the Share to [[Instagram]] feature.",
+        "Artifact": "... app from the co-founders of [[Instagram]], Kevin Systrom and Mike Krieger. ...",
+        "Can we ever build TikTok for Text": "... Mike Krieger, the co-founders of [[Instagram]], launched a new app called ...",
+        "Cube": "Someday Project. [[Instagram|인스타]] 스토리/포스트 글 업로드용 글쓰기 앱.",
+        "Example References for Alter": "### [[Instagram]]",
+        "Goongoom": "... features like the Share to [[Instagram]] feature.",
+        "Letter to Mr. Matt Rickard on 2022-11-28": "Facebook and [[Instagram]] have been doing this for ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "- Twitter, Facebook, [[Instagram]], and Snapchat cannot be super ...",
+        "Meta (Company)": "- [[Instagram]]",
+        "Old Fashioned Camera": "- [[Instagram|인스타그램]]을 이용한 바이럴 [[Strategy|전략]] 활용",
+        "One and Only (Social App)": "... to all the sources—LinkedIn, Twitter, [[Instagram|Insta]], [[Facebook]], etc. It's similar to ...",
+        "Sudden Rise of Bondee": "... feels better than Facebook and [[Instagram]]'s 3D avatar.",
+        "Web3": "... they now decried, including Facebook, [[Instagram]], and others, went conspicuously unmentioned",
+        "Zenly Playbook": "... feels like Facebook is killing [[Instagram]] for Facebook. I hope Zenly's ...",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "한 달 전, [[Instagram|인스타그램]]의 공동 창업자인 케빈 시스트롬과 마이크 ...",
+        "젠리의 성공 공식": "... 않는다. Zenly|젠리는 쓴다. Facebook|페이스북이 감원하며 [[Instagram|인스타그램]]을 없애고 Facebook|페이스북만 남긴 느낌. Zenly|젠리의 ...",
+        "혜성처럼 나타난 본디": "Facebook|페이스북과 [[Instagram|인스타그램]]의 [[3D]] 아바타보다 낫다는 느낌까지 들었다."
     },
     "Web Analyzer Tool": {
         "Ray.st": "- [[Web Analyzer Tool]]."
@@ -1661,7 +1687,7 @@ export const backlinks = {
         "Imagining WebNPU API": "- [[WebAssembly]] unlocks the bare-metal power of ...",
         "Programmable Web": "... like the QuickJS Sandbox inside [[WebAssembly]] can provide a more secure ...",
         "Proposal of Research 2023-01-10": "... watching the very beginning of [[WebAssembly]], which allows high-performance applications to ...",
-        "Proposal of Research 2023-03-28": "... as Web Workers, SharedArrayBuffer, and [[WebAssembly]], iiframe will revolutionize how web ...",
+        "Proposal of Research 2023-03-28": "... Web Worker|Web Workers, SharedArrayBuffer, and [[WebAssembly]], iiframe will revolutionize how web ...",
         "Ruffle": "... Browser|web browsers via Rust and [[WebAssembly]]",
         "Satori": "... by using Vercel Edge Functions, [[WebAssembly]], and a brand new core ...",
         "Snowpack으로 WASM 시작하기": "... 문장을 통해 `ffmpeg.wasm`을 설치한다. (실제 [[WebAssembly|WASM]] 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 ...",
@@ -1837,7 +1863,7 @@ export const backlinks = {
         "Newtonian Correspondence": "... of History Fallacy <br/> `KO` [[역사의 종말 오류]]      ..."
     },
     "Data Science": {
-        "2022-12-28": "- Facebook Notifications [[Data Science]] team at Meta",
+        "2022-12-28": "- Facebook Notifications [[Data Science]] team at [[Meta (Company)|Meta]]",
         "AI-native": "... However, it also requires specialized [[data science]], [[ML]], and [[cloud computing]] skills. ...",
         "Deepnote": "- [[Data Science]] [[Collaboration-based Tools for Thought]]."
     },
@@ -2057,6 +2083,40 @@ export const backlinks = {
     "Cookie": {
         "Internetworking": "- [[Cookie]]"
     },
+    "Facebook": {
+        "2022-07-18": "... part of the URL, as [[Facebook]] merged it with part of ...",
+        "2022-07-28": "- [[Facebook]] used a social network model ...",
+        "2022-12-28": "- [[Facebook]] Notifications [[Data Science]] team at ...",
+        "AMP": "... it as a competitor to [[Facebook]] Instant Articles and [[Apple]] News. ...",
+        "Are Computers Psychotropic Substances": "... thinking. They're just stupid. Even [[Facebook]] later figured that making the ...",
+        "Can we ever build TikTok for Text": "... feeds, including Google's Home feed, [[Facebook]]'s Suggested for You, and Apple's ...",
+        "Create React App": "... line interface tool (CLI) from [[Facebook]] that helps developers create new ...",
+        "Era of Invites": "... used location-based beta tests (early [[Facebook]]) or group studies (most games.)",
+        "Example References for Alter": "### [[Facebook]]",
+        "GraphQL": "... data fetching capabilities. Developed by [[Facebook]] in 2012 and open-sourced in ...",
+        "JSX": "... created by Meta (Company)|Meta (formerly [[Facebook]]) for PHP called XHP. JSX ...",
+        "Jest": "... maintained by Meta (Company)|Meta (formerly [[Facebook]]). Christoph Nakazawa designed and made ...",
+        "Letter to Mr. Matt Rickard on 2022-11-28": "[[Facebook]] and [[Instagram]] have been doing ...",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "... for everything. It's Google + [[Facebook]] + Uber + Uber Eats ...",
+        "Letter to the Heptabase Team on 2022-10-11": "... also a contributor to GoogleChrome/web.dev, [[Facebook]]/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "- Twitter, [[Facebook]], [[Instagram]], and Snapchat cannot be ...",
+        "Meta (Company)": "- [[Facebook]]",
+        "One and Only (Social App)": "... all the sources—LinkedIn, Twitter, Instagram|Insta, [[Facebook]], etc. It's similar to [[Jumpsite]], ...",
+        "React": "... maintained by Meta (Company)|Meta (formerly [[Facebook]]) and a community of individual ...",
+        "Real Exams": "### [[Facebook]]",
+        "Sudden Rise of Bondee": "... assets. It feels better than [[Facebook]] and [[Instagram]]'s 3D avatar.",
+        "Three Column Design": "- [[Facebook]]",
+        "Web3": "... that they now decried, including [[Facebook]], [[Instagram]], and others, went conspicuously ...",
+        "Yarn": "... package manager for JavaScript that [[Facebook]] developed as a more efficient ...",
+        "Zenly Playbook": "... Zenly. It almost feels like [[Facebook]] is killing [[Instagram]] for Facebook. ...",
+        "브라우저 콘솔에 경고 문구 띄우는 방법": "[[Facebook|페이스북]]에서 개발자 콘솔을 열면 무시무시한 메시지가 ...",
+        "식영부원의 관점에서 바라본 치킨데이": "... 신청 과정은 민사고 전교생이 가입된 [[Facebook|페이스북]] 그룹인 [[민사고|KMLA]] 전체공지를 이용해서 공지하고, ...",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 홍보되고 있다. 구글의 홈 피드, [[Facebook|페이스북]]의 추천 피드, [[Apple|애플]]의 뉴스 앱처럼 ...",
+        "젠리의 성공 공식": "... 스냅을 쓰지 않는다. Zenly|젠리는 쓴다. [[Facebook|페이스북]]이 감원하며 [[Instagram|인스타그램]]을 없애고 Facebook|페이스북만 남긴 ...",
+        "초대장의 시대": "... 원래는 그것이 위치 기반이었거나 (초기 [[Facebook|페이스북]], 요즘 [[Karrot|당근]]) 그룹 스터디 (대부분의 ...",
+        "프로젝트 어덕행덕": "- [[Facebook|페이스북]] 액티비티처럼 큐레이팅 된 액티비티 타임라인.",
+        "혜성처럼 나타난 본디": "[[Facebook|페이스북]]과 [[Instagram|인스타그램]]의 [[3D]] 아바타보다 낫다는 느낌까지 ..."
+    },
     "10x Technopreneurs": {
         "2022-12-09": "- [[10x Technopreneurs]]",
         "Dilemmas of Technopreneur": "For [[10x Technopreneurs]], the [[Cost of Engineering]] is ...",
@@ -2120,6 +2180,9 @@ export const backlinks = {
         "2022-12-08": "- [[Symbol (Computer Systems)]]",
         "Link (Computer Systems)": "- [[Symbol (Computer Systems)|Symbol]] Resolution (Function names, Global variables, ..."
     },
+    "Grammarly Work Note 2023-07-06": {
+        "2023-07-06": "- [[Grammarly Work Note 2023-07-06]]"
+    },
     "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": {
         "2023-03-03": "- [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]]",
         "30-Day Tweet Test (Harry Stebbings)": "... GB and KR <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | tweet |",
@@ -2131,13 +2194,13 @@ export const backlinks = {
     "Twitter": {
         "2022-06-21": "[[Twitter]] implemented a more strict agile ...",
         "2022-07-28": "... were formed around Facebook and [[Twitter]]",
-        "2022-10-14": "... been popping up on my [[Twitter]] threads.",
+        "2022-10-14": "... been popping up on my [[Twitter]].",
         "2022-10-22": "... sent me solid proposals on [[Twitter]].",
         "2022-10-27": "## [[Twitter]]",
-        "Cube": "- Feature: [[Twitter]]-to-Instagram-Card Mode?",
+        "Cube": "- Feature: [[Twitter]]-to-[[Instagram]]-Card Mode?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "I'm at @anaclumos on GitHub, [[Twitter]], and any other platform.",
         "Letter to Mr. Matt Rickard on 2022-12-24": "There are countless cases where [[Twitter]] troubled up, but the above ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "- [[Twitter]], Facebook, Instagram, and Snapchat cannot ...",
+        "Mental Simulation of Firefox and Signal as a Super App": "- [[Twitter]], [[Facebook]], [[Instagram]], and Snapchat cannot ...",
         "Mood.surf": "... Discover expert insights from tech [[Twitter]]",
         "Musk and Twitter": "... share my motivation for acquiring [[Twitter]]. There has been much speculation ...",
         "Person 648442": "... about the fragmented nature of [[Twitter]].",
@@ -2186,7 +2249,7 @@ export const backlinks = {
         "Safari is the new Internet Explorer": "- Apple has a [[Web Browser|browser]] monopoly on [[iOS]], which is ...",
         "Satori": "... Expensive: Spinning up an entire [[Web Browser|browser]] to take a screenshot was ...",
         "Self-hosted SaaS Alternatives": "... automating some basic tasks, the [[Web Browser|browser]] extension Automa also has much ...",
-        "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm ...",
+        "Snowpack으로 WASM 시작하기": "> Your [[Web Browser|browser]] doesn't support [[SharedArrayBuffer]], thus ffmpeg.wasm ...",
         "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow",
         "Svelte": "... at runtime, i.e., in the [[Web Browser|browser]]. The compiler itself is written ...",
         "Web Typography": "... by the settings of each [[web browser]]. There was no mechanism for ...",
@@ -2436,7 +2499,7 @@ export const backlinks = {
         "Proposal of Research 2023-01-10": "... time-consuming tasks without blocking the [[UIUX|UI]], which can lead to a ...",
         "Rauno": "## Miscellany related to [[UIUX|UI]]",
         "React": "... building user interfaces based on [[UIUX|UI]] components. It is maintained by ...",
-        "React Native": "... React Native is an open-source [[UIUX|UI]] software framework created by Meta ...",
+        "React Native": "... React Native is an open-source [[UIUX|UI]] software framework created by [[Meta ...",
         "Simulated Annealing for Designs": "... shadows, and textures in our [[UIUX|UI]] designs. And now we are ...",
         "Sudden Rise of Bondee": "... the Townhall. Sometimes, a single [[UIUX]] makes a huge difference.",
         "Svelte": "... automatically recompute data and re-render [[UIUX|UI]] elements when the data they ...",
@@ -2548,6 +2611,16 @@ export const backlinks = {
         "Tech Now Pay Later": "An [[engine]] takes time (a type of ...",
         "프로젝트 어덕행덕": "  - Stage Mix [[Engine]]"
     },
+    "Meta (Company)": {
+        "2022-12-28": "... Notifications Data Science team at [[Meta (Company)|Meta]]",
+        "Google": "... technology companies, alongside Amazon, Apple, [[Meta (Company)|Meta]], and [[Microsoft]]. Google",
+        "JSX": "... another extension syntax created by [[Meta (Company)|Meta]] (formerly [[Facebook]]) for PHP called ...",
+        "Jest": "... of Jasmine and maintained by [[Meta (Company)|Meta]] (formerly [[Facebook]]). Christoph Nakazawa designed ...",
+        "Layoff": "... bubble in valuations? Absolutely. Did [[Meta (Company)|Meta]] overhire? Probably. But is that ...",
+        "Meta": "- [[Meta (Company)]]",
+        "React": "... components. It is maintained by [[Meta (Company)|Meta]] (formerly [[Facebook]]) and a community ...",
+        "React Native": "... UIUX|UI software framework created by [[Meta (Company)|Meta]] Platforms, Inc. It is used ..."
+    },
     "Optimistic Nihilism": {
         "2022-08-04": "### [[Optimistic Nihilism]]",
         "2022-08-10": "- [[Optimistic Nihilism]]"
@@ -2565,6 +2638,20 @@ export const backlinks = {
         "2023-02-22": "- [[In-house and Free Market]]",
         "30-Day Tweet Test (Harry Stebbings)": "| 02-22 | 🇬🇧 [[In-house and Free Market]] <br/> 🇰🇷 [[인하우스와 자유경쟁]]  ...",
         "I travel the World Wide Web": "- [[In-house and Free Market]]"
+    },
+    "Threads": {
+        "2022-07-06": "... Concept|PoC that two WorkerDOM upgraded [[threads]] don't block each other - ...",
+        "2023-02-16": "... memory when you spawn more [[threads]], and we cannot get full ...",
+        "2023-07-06": "- [[Threads]]",
+        "Amdahl Law": "... parallelized. Regardless of how many [[threads]] are devoted to a parallelized ...",
+        "Firefox": "... prevents it from spawning additional [[threads]] in the thread pools used ...",
+        "Mutex": "... resource when there are many [[threads]] of execution. A lock is ...",
+        "Parallelism": "... (TLP): Overlap execution of multiple processes/[[threads]]",
+        "Processes and Threads": "... owns a thread. Therefore, different [[threads]] can share virtual address space ...",
+        "Proposal of Research 2023-01-10": "... for sharing memory between multiple [[threads]], including [[Web Worker|Web Workers]]. It ...",
+        "Providing DOM API to Worker Threads": "... API Access to Web Worker [[Threads]]",
+        "Virtual Address Space and Physical Address Space": "... spaces are shared by all [[threads]] in the process, but protected ...",
+        "WorkerDOM": "... DOM access to Web Worker [[Threads]]."
     },
     "Go To Market": {
         "10x Technopreneurs": "... and have the knowledge for [[Go To Market|Go-To-Market]] [[Strategy|strategies]] and monetization. They can ...",
@@ -2763,7 +2850,7 @@ export const backlinks = {
         "Final Cut Pro": "Final Cut Pro by [[Apple]] Inc. is a professional video ...",
         "Finally, Apple Pay in Korea": "After a decade of waiting, [[Apple]] Pay has expanded to [[대한민국|Korea]]. ...",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If ...",
-        "Google": "... information technology companies, alongside Amazon, [[Apple]], Meta, and [[Microsoft]]. Google",
+        "Google": "... information technology companies, alongside Amazon, [[Apple]], [[Meta (Company)|Meta]], and [[Microsoft]]. Google",
         "Horizontally Stacked Interface": "## [[Apple]] Concierge App for Genius Bars",
         "How is WebAssembly cross-platform when Assembly is not": "... for multiple CPU vendors, like [[Apple]]'s Universal Binary?",
         "Imagining WebNPU API": "... On-device inferencing ML technology with [[Apple]]'s [[Neural Engine]]. This includes many ...",
@@ -2796,7 +2883,7 @@ export const backlinks = {
         "서당개 3년이면 풍월을 읊는다": "... 어떤 방식으로 얻었든 말이죠. — [[Apple|애플]]의 채용 문구",
         "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 ...",
         "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "[[Apple|애플]] 아이폰의 국내 인기는 점점 상승하고 ...",
-        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 홈 피드, 페이스북의 추천 피드, [[Apple|애플]]의 뉴스 앱처럼 개인화된 뉴스 피드를 ...",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 홈 피드, Facebook|페이스북의 추천 피드, [[Apple|애플]]의 뉴스 앱처럼 개인화된 뉴스 피드를 ...",
         "잡스와 생존 편향": "대학을 중퇴하고 [[Apple|애플]]을 무작정 시작할 때, 워즈니악이 없었다면 ...",
         "하늘땅사람 개발 기록": "[[Apple]] QuickType과 비슷한 자동완성 기능은 필수적인데, ..."
     },
@@ -2821,7 +2908,7 @@ export const backlinks = {
         "Meta Theme Color for Spacial Cognition": "> Tinted [[Safari]] theme color based on user ...",
         "One and Only WebExtension": "- A [[Safari]] and [[Firefox]] [[WebExtension|extension]] that disguises ...",
         "Safari is the new Internet Explorer": "... an iOS device, you use [[Safari]] and are bound by its ...",
-        "Snowpack으로 WASM 시작하기": "- 다만 [[Safari]]와 [[Firefox]]에서는 작동되지 않았다. \"SharedArrayBuffer is ...",
+        "Snowpack으로 WASM 시작하기": "- 다만 [[Safari]]와 [[Firefox]]에서는 작동되지 않았다. \"[[SharedArrayBuffer]] is ...",
         "VP9 vs HEVC": "... banning 4K videos on Apple [[Safari]] and [[iOS]] YouTube."
     },
     "Reverse Engineering Apple Music API": {
@@ -3068,6 +3155,9 @@ export const backlinks = {
     "Canary Trap": {
         "2022-10-18": "- [[Canary Trap]]"
     },
+    "상경과 상항": {
+        "2023-07-06": "- [[상경과 상항]]"
+    },
     "Pivot": {
         "2022-12-21": "- [[Pivot]]"
     },
@@ -3097,6 +3187,16 @@ export const backlinks = {
         "2023-04-19": "- [[METI Engine]]",
         "hn.cho.sh 개발 기록": "Person 9078DC에서, [[METI Engine]] 네트워크의 필요성을 더더욱 절실히 느꼈다. ...",
         "일일일": "... build the International mesh of [[METI Engine]]. If humans get involved in ..."
+    },
+    "Meta": {
+        "2023-07-06": "- [[Meta]]",
+        "Effective Accelerationism": "... 지능, 그리고 우리가 아는 모든 [[Meta|메타]] 유기체를 만든 도형적 최적화 알고리즘이 ...",
+        "Engine Equation": "... universe is a type of [[meta]]-[[engine]] that operates on the collective ...",
+        "Letter to Mr. Matt Rickard on 2022-11-28": "... this goal? Any ideas or [[meta]]-ideas that come to your mind?",
+        "Meta Meta Framework": "- [[Meta]] Framework: Next.js, Blitz",
+        "Metadata": "[[Meta]]",
+        "QA.json": "... can work in tandem with [[meta]] tag descriptions to enhance the ...",
+        "엔진 방정식": "... 행동에 따라 작동하는 일종의 엔진의 엔진([[Meta|메타]]-엔진)이다."
     },
     "Collaboration-based Tools for Thought": {
         "Deepnote": "- Data Science [[Collaboration-based Tools for Thought]].",
@@ -3230,6 +3330,9 @@ export const backlinks = {
         "2023-06-07": "- [[Grammarly Work Note 2023-06-07]]",
         "2023-06-16": "- [[Grammarly Work Note 2023-06-07]]"
     },
+    "거함거포주의": {
+        "2023-07-06": "- [[거함거포주의]]"
+    },
     "Screenshot as an API": {
         "2022-10-03": "- Moved to [[Screenshot as an API]]",
         "2022-10-10": "... open-source tools. This looks terrifying. [[Screenshot as an API]] all the way!",
@@ -3253,6 +3356,10 @@ export const backlinks = {
     "Squircle": {
         "2022-11-11": "- Applied [[Squircle]]",
         "Dynamic Island on the Web": "- Applied [[Squircle]]"
+    },
+    "함대결전": {
+        "2023-07-06": "- [[함대결전]]",
+        "거함거포주의": "... 크기를 경쟁력으로 여기던 사상을 뜻한다. [[함대결전]]과 연결된다."
     },
     "README Badges": {
         "2023-01-29": "- [[README Badges]]"
@@ -3404,7 +3511,7 @@ export const backlinks = {
         "Svelte": "... specialized code that manipulates the [[DOM]] directly, which may reduce the ...",
         "Treehouse": "... first attempt to run a [[DOM]] within a [[Web Worker]]. Later ...",
         "Virtual DOM": "... essential to understand that virtual [[DOM]] isn't a feature. It's a ...",
-        "WorkerDOM": "Google's take on providing [[DOM]] access to [[Web Worker]] Threads."
+        "WorkerDOM": "Google's take on providing [[DOM]] access to [[Web Worker]] [[Threads]]."
     },
     "Raycast": {
         "2023-04-05": "[[Raycast]]는 이모지 피커는 참 좋은데 검색이 ...",
@@ -3556,7 +3663,7 @@ export const backlinks = {
         "ChromeOS Packer": "- Someday [[Project]]",
         "Coding Tests": "- [[Project]]",
         "Confession in Slack": "Someday [[Project]] idea",
-        "Cube": "Someday [[Project]]. 인스타 스토리/포스트 글 업로드용 글쓰기 ...",
+        "Cube": "Someday [[Project]]. [[Instagram|인스타]] 스토리/포스트 글 업로드용 글쓰기 ...",
         "Developing Review Notes for Obsidian": "... 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
         "Digital Bookmarks for Physical Books": "Someday [[Project]]. Can we bookmark physical books ...",
         "Dynamic Island on the Web": "- Done [[Project]]",
@@ -3886,6 +3993,11 @@ export const backlinks = {
         "Meltdown and Spectre": "- [[Meltdown]] bypasses memory protection between user ...",
         "Spectre": "... original transient execution CPU vulnerabilities ([[Meltdown]]), which involve microarchitectural timing side-channel ..."
     },
+    "Metastore": {
+        "Grammarly Work Note 2023-06-02": "... GQL on top of the [[Metastore|meta store]] and Spark.",
+        "Hive Metastore": "Apache Hive|Hive [[Metastore]] is the central repository for ...",
+        "Meta": "- [[Metastore]]"
+    },
     "GitHub Copilot Investigation": {
         "Copilot": "- [[GitHub Copilot Investigation]]"
     },
@@ -4161,6 +4273,9 @@ export const backlinks = {
     "Make GPT Print LaTeX": {
         "Grammarly Work Note 2023-06-23": "- [[Make GPT Print LaTeX]]"
     },
+    "Metatag": {
+        "Meta": "- [[Metatag]]"
+    },
     "Confession in Slack": {
         "2023-05-24": "- [[Confession in Slack]]"
     },
@@ -4402,6 +4517,9 @@ export const backlinks = {
         "민사고": "... 높으신 분들은 자기가 친한 '본토 [[한국인]]'들만 요직에 앉혔다고. 그로 인해 학교에 ...",
         "이완용": "... 희망으로 일본인들을 환영하였다. 그 당시 [[한국인]]들은 일본이 부패한 정부 관리들을 엄격히 ...",
         "헤이그 특사": "... 희망으로 일본인들을 환영하였다. 그 당시 [[한국인]]들은 일본이 부패한 정부 관리들을 엄격히 ..."
+    },
+    "Apache Hive": {
+        "Hive Metastore": "[[Apache Hive|Hive]] [[Metastore]] is the central repository ..."
     },
     "Spacial Cognition": {
         "2022-10-27": "- [[Spacial Cognition]]",
@@ -4885,7 +5003,7 @@ export const backlinks = {
         "One and Only WebExtension": "- A Safari and [[Firefox]] [[WebExtension|extension]] that disguises itself as ...",
         "Porting a Chrome Extension to Firefox Add-on": "While Chrome and [[Firefox]] are two very different [[Web ...",
         "Safari is the new Internet Explorer": "... six weeks (soon every four), [[Firefox]] releases every four weeks, and ...",
-        "Snowpack으로 WASM 시작하기": "- 다만 Safari와 [[Firefox]]에서는 작동되지 않았다. \"SharedArrayBuffer is not ...",
+        "Snowpack으로 WASM 시작하기": "- 다만 Safari와 [[Firefox]]에서는 작동되지 않았다. \"[[SharedArrayBuffer]] is not ...",
         "WebExtension": "... such as Chrome|Google Chrome, Mozilla [[Firefox]], and Microsoft Edge, support the ..."
     },
     "Sparkle Button": {
@@ -4974,6 +5092,18 @@ export const backlinks = {
     "Virtual DOM": {
         "2023-02-02": "- [[Virtual DOM]]"
     },
+    "Metadata": {
+        "Book Metadata as a Service": "... Open API that returns Book [[Metadata]] when given an ISBN.",
+        "Developing Review Notes for Obsidian": "`manifest.json`에는 다음과 같이 플러그인의 [[Metadata|메타데이터]]를 넣을 수 있다.",
+        "Grammarly Work Note 2023-06-02": "... in our Datahouse and index [[metadata]]. Our system is built on ...",
+        "Hive Metastore": "... is the central repository for [[Metadata]] within [[Apache Hive]]",
+        "Link (Computer Systems)": "... (`.o`): Code + Data + [[Metadata]]",
+        "Meta": "- [[Metadata]]",
+        "Preservation of Data": "### [[Metadata]] Scraping",
+        "Project Core ML Inference": "... hand in hand with processing [[metadata]] for hundreds of titles?",
+        "QA.json": "... pairs, each accompanied by related [[metadata]].",
+        "Screenshot as an API": "...    - other [[metadata]] (formatting, fonts, etc.)"
+    },
     "Haruki Murakami": {
         "HTML 텍스트 위에 덧말 강조점 쓰기": "[[Haruki Murakami|하루키]]처럼 강조점을 길게 넣는 것도 가능하다.",
         "水適穿石": "### 직업으로서의 소설가 — [[Haruki Murakami|하루키]]"
@@ -5043,7 +5173,7 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "### [[Karrot|당근]] PM 론과의 대화",
         "당근미니 케이스 스터디": "[[Karrot|당근]][[Mini App|미니]] Console [[Case Study|케이스 스터디]]",
         "도로명주소": "이에 대해서 [[Karrot|당근]]의 론께서 첨언을 해주셨는데, 확실히 해외에 ...",
-        "초대장의 시대": "... 위치 기반이었거나 (초기 페이스북, 요즘 [[Karrot|당근]]) 그룹 스터디 (대부분의 게임) 이었을 ..."
+        "초대장의 시대": "... 위치 기반이었거나 (초기 Facebook|페이스북, 요즘 [[Karrot|당근]]) 그룹 스터디 (대부분의 게임) 이었을 ..."
     },
     "WebGPU": {
         "2022-09-09": "[[WebGPU]]",
@@ -5436,11 +5566,14 @@ export const backlinks = {
         "2022-07-25": "- [x] Inside [[Web Worker]] Thread `MutationTransfer.ts`, create a `transferSync` ...",
         "2022-08-03": "... specializes in containerizing iframes in [[Web Worker|Web Workers]].",
         "Atomics (JavaScript)": "- SharedArrayBuffer를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.",
-        "Providing DOM API to Worker Threads": "... synchronous DOM API Access to [[Web Worker]] Threads",
+        "Proposal of Research 2023-01-10": "... out a couple of years ago—[[Web Worker|Web Workers]]. Web Worker|Web Workers involve a ...",
+        "Proposal of Research 2023-03-28": "... iframe version that runs on [[Web Worker|Worker Threads]], providing secure, high-performance multi-threading capabilities ...",
+        "Providing DOM API to Worker Threads": "... synchronous DOM API Access to [[Web Worker]] [[Threads]]",
         "Satori": "... modern Web Browser|browsers, Node.js, and [[Web Worker|Web Workers]]. Building on top of the ...",
         "Stories Behind Satori": "... will also benefit by targeting [[Web Worker|Web Workers]].",
         "Treehouse": "... run a DOM within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]].",
-        "WorkerDOM": "... on providing DOM access to [[Web Worker]] Threads.",
+        "WebAssembly": "... lower-level APIs installed in a [[Web Worker|Worker thread]] and talking to them via ...",
+        "WorkerDOM": "... on providing DOM access to [[Web Worker]] [[Threads]].",
         "iiframe": "... containerizes an embedded web inside [[Web Worker]]."
     },
     "DNS": {
@@ -5504,6 +5637,10 @@ export const backlinks = {
     "Link Preview for Arc": {
         "2022-12-06": "- [[Link Preview for Arc]]"
     },
+    "HYBE": {
+        "Apache Hive": "Not to be confused with [[HYBE]]",
+        "프로젝트 어덕행덕": "- V LIVE - [[HYBE|하이브]]가 구매했기에 Weverse와의 통합을 기대함"
+    },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
     },
@@ -5523,7 +5660,7 @@ export const backlinks = {
     },
     "Economy": {
         "2022-07-08": "... normal for an early-stage communist [[economy]] to boom. They can reach ...",
-        "2022-07-28": "... 2008 recession, Internet culture and [[economy]] were formed around Facebook and ...",
+        "2022-07-28": "... 2008 recession, Internet culture and [[economy]] were formed around [[Facebook]] and ...",
         "2023-02-08": "... attempts to reframe a rough [[economy]] as a time that puts ...",
         "2023-02-24": "- [[Economy]]",
         "AI는 고가 노동부터 점령한다": "노동 가치가 고가인 경우 [[Economy|경제]]학적으로 수요가 매우 많은데 공급을 키울 ...",
@@ -6058,7 +6195,7 @@ export const backlinks = {
         "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "| [[Microsoft]] fixes 5-year-old Defender bug, reducing ...",
         "Edge Browser": "[[Microsoft]] Edge Browser. Officially required for ...",
         "GitHub": "... has been a subsidiary of [[Microsoft]] since 2018. GitHub",
-        "Google": "... alongside Amazon, Apple, Meta, and [[Microsoft]]. Google",
+        "Google": "... Amazon, Apple, Meta (Company)|Meta, and [[Microsoft]]. Google",
         "HTML 텍스트 위에 덧말 강조점 쓰기": "... 루비 문자, 덧말 (한컴오피스), 또는 윗주([[Microsoft|MS]] Word)라고도 한다. HTML에서는 `<ruby>` 태그를 ...",
         "Person 392196": "- [[Microsoft]]",
         "Proposal of Research 2023-01-10": "... Web Browser|browser vendors (Google, Mozilla, [[Microsoft]], and [[Apple]]) decided to disable ...",
@@ -6441,8 +6578,12 @@ export const backlinks = {
         "2022-07-21": "  - Allocate a [[SharedArrayBuffer]] inside `transferSync`.",
         "2022-07-25": "- [x] Allocate a [[SharedArrayBuffer]] inside `transferSync`.",
         "2022-08-03": "... synchronously using Atomics (JavaScript) and [[SharedArrayBuffer]].",
+        "2023-02-16": "... modern Web Browser|browser technologies like [[SharedArrayBuffer]], which makes it impossible to ...",
         "Atomics (JavaScript)": "- [[SharedArrayBuffer]]를 이용해 [[Web Worker]] 사이 메모리를 ...",
+        "Proposal of Research 2023-01-10": "... race conditions, we need a [[SharedArrayBuffer]] and Atomic operations. SharedArrayBuffer is ...",
+        "Proposal of Research 2023-03-28": "... such as Web Worker|Web Workers, [[SharedArrayBuffer]], and [[WebAssembly]], iiframe will revolutionize ...",
         "Providing DOM API to Worker Threads": "To enable [[SharedArrayBuffer]], we need a secure context ...",
+        "Snowpack으로 WASM 시작하기": "... 다만 Safari와 Firefox에서는 작동되지 않았다. \"[[SharedArrayBuffer]] is not defined\"이라는 오류가 발생했다.",
         "WorkerDOM": "WorkerDOM doesn't use [[SharedArrayBuffer]], most likely to [[Spectre]]."
     },
     "Dijkstra": {
@@ -6769,7 +6910,7 @@ export const backlinks = {
         "In-house and Free Market": "... a competitive edge. For instance, [[Google]]'s internal labs keep their cutting-edge ...",
         "Kubernetes": "... software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "... 대한민국|Korea (bigger market cap than [[Google]] 대한민국|Korea) and [[Kakao]] services as ...",
-        "Letter to Mr. Matt Rickard on 2022-12-24": "... a go-to for everything. It's [[Google]] + Facebook + Uber + ...",
+        "Letter to Mr. Matt Rickard on 2022-12-24": "... a go-to for everything. It's [[Google]] + [[Facebook]] + Uber + ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... States are vague. Apple and [[Google]] divide the tech market into ...",
         "Microsoft": "... for Microsoft, considering its counterpart [[Google]] has been exploring the [[AI]] ...",
         "Perceptual Hashing": "... detect similar images. Used by [[Google]]'s Search by Image feature or ...",
@@ -6831,7 +6972,7 @@ export const backlinks = {
         "Greedy Algorithm": "... In many problems, a greedy [[strategy]] does not produce an optimal ...",
         "Krafton Way": "... 똑똑하기 때문에 따르는 사람들이 생긴다. [[Strategy|전략]]적 판단과 그로 인한 성공적인 결과를 ...",
         "Layoff": "... which is often an ineffective [[strategy]], a loss of market share, ...",
-        "Old Fashioned Camera": "- 인스타그램을 이용한 바이럴 [[Strategy|전략]] 활용",
+        "Old Fashioned Camera": "- Instagram|인스타그램을 이용한 바이럴 [[Strategy|전략]] 활용",
         "PNPM": "... Fast: Due to its linking [[strategy]], installations is faster and less ...",
         "Person 648442": "- Possible exit [[strategy]] — Twitter's Non-existent Search [[Engine]]: ...",
         "Person 9078DC": "... DEV.to와 경쟁 방안으로 Packt과 같은 [[Strategy|전략]]을 고려 중. 지적 자산의 보급과 ...",
@@ -6857,6 +6998,7 @@ export const backlinks = {
         "Bondee": "... social media platform via its [[metaverse]] environment. In addition, users can ...",
         "Club Penguin": "[[Metaverse]]",
         "Habbo Hotel": "... also a part of the [[metaverse]]. It is a virtual world ...",
+        "Meta": "- [[Metaverse]]",
         "MetroPunk": "... 상용화된 AI|인공지능, Nuclear Fusion|핵융합, 사이버네틱스, [[Metaverse|메타버스]] 등의 미래적 기술 요소는 등장하지 ...",
         "Prompt Engineering": "... come to my mind that [[Metaverse]] can be attained within years ...",
         "Spacial Cognition": "- Very important for [[Metaverse]]",
@@ -6884,6 +7026,10 @@ export const backlinks = {
         "2023-03-19": "## [[Z-Fellows]]",
         "2023-04-12": "- [[Z-Fellows]]: Rejected. But I was in ...",
         "One and Only (Social App)": "## [[Z-Fellows]]"
+    },
+    "Metaknowledge": {
+        "Meta": "- [[Metaknowledge]]",
+        "민사고": "... Development|영혼의 부 (Spiritual Development|Spiritual Wealth), [[Metaknowledge|메타인지]] (Self-Knowledge, 자신에 대한 이해), 그리고 ..."
     },
     "Cloudflare": {
         "2022-06-20": "[[Cloudflare]]: Private Access Tokens: eliminating CAPTCHAs ...",
@@ -7220,6 +7366,9 @@ export const backlinks = {
         "Assembly": "It follows how [[Turing Machine]]s would work in the real ...",
         "P vs NP": "... polynomial time by a deterministic [[Turing machine]]."
     },
+    "Buzzword": {
+        "2023-07-06": "- [[Buzzword]]"
+    },
     "Digital Garden": {
         "2022-07-01": "... Second Brain|Digital Brain, Second Brain, [[Digital Garden]], and [[PKM]] are used interchangeably, ...",
         "2022-07-02": "... behind this website moved his [[digital garden]] to here. Splendid website, made ...",
@@ -7255,6 +7404,9 @@ export const backlinks = {
     },
     "Nuclear Fission": {
         "2022-10-18": "- [[Nuclear Fission]]"
+    },
+    "Hive Metastore": {
+        "Grammarly Work Note 2023-07-06": "- [[Hive Metastore]]"
     },
     "원숭이와 꽃신": {
         "2022-08-10": "- [[원숭이와 꽃신]]",
@@ -7455,7 +7607,7 @@ export const backlinks = {
         "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the ...",
         "ChromeOS Packer": "- [[Someday]] [[Project]]",
         "Confession in Slack": "[[Someday]] [[Project]] idea",
-        "Cube": "[[Someday]] [[Project]]. 인스타 스토리/포스트 글 업로드용 ...",
+        "Cube": "[[Someday]] [[Project]]. [[Instagram|인스타]] 스토리/포스트 글 업로드용 ...",
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical ...",
         "ElonPet": "- [[Someday]] [[Project]]. Uses GPT-3 to write ...",
         "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
@@ -7871,7 +8023,8 @@ export const backlinks = {
         "2023-01-31": "- [[Convergence of Geometric Series]]"
     },
     "Meta Meta Framework": {
-        "2023-06-10": "- [[Meta Meta Framework]]"
+        "2023-06-10": "- [[Meta Meta Framework]]",
+        "Meta": "- [[Meta Meta Framework]]"
     },
     "Tools Must Vanish": {
         "2022-07-07": "- [[Tools Must Vanish]]",
@@ -7944,6 +8097,11 @@ export const backlinks = {
     },
     "AGPL": {
         "dub.sh": "  - [[AGPL]]"
+    },
+    "Threads (Service)": {
+        "2023-07-05": "[[Threads (Service)]] App is out! Sunghyun Cho ...",
+        "Meta (Company)": "- [[Threads (Service)]]",
+        "Threads": "Not to be confused with [[Threads (Service)]]"
     },
     "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": {
         "2023-04-15": "- [[감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구]]"

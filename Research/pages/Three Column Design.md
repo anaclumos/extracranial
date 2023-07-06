@@ -14,5 +14,5 @@ slug: '/7DCFEA'
 
 ## Others
 
-- [Facebook](https://facebook.com)
+- [[Facebook]]
 - and many more

@@ -28,7 +28,7 @@ Think about your philosophy.
 
 Better if large, unique, accessible, and insightful.
 
-### Metadata Scraping
+### [[Metadata]] Scraping
 
 We use Python scripts, sometimes curl, and MySQL [[database]] to store the results.
 Go through a few dozen pages to understand how that works.
@@ -47,7 +47,7 @@ You should collect title, filename, location, id, ISBN, doi, size, hash (md5, sh
 
 Save the raw [[HTML]] and process it later.
 This way, you don't need to re-download the [[HTML]] if you figure you missed something
-Or use metadata to prioritize a reasonable subset of data to download
+Or use [[metadata]] to prioritize a reasonable subset of data to download
 Start by downloading files.
 Expand slowly.
 

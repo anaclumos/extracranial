@@ -37,7 +37,7 @@ slug: '/DAF673'
 }
 ```
 
-`manifest.json`에는 다음과 같이 플러그인의 메타데이터를 넣을 수 있다.
+`manifest.json`에는 다음과 같이 플러그인의 [[Metadata|메타데이터]]를 넣을 수 있다.
 
 ```json
 {

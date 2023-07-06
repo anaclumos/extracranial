@@ -8,7 +8,7 @@ slug: '/52F47B'
 - Why are so many tech companies laying people off right now
 - If you look for reasons for why companies do layoffs, the reason is that everybody else is doing it. Layoffs [are the result of imitative behavior](https://www.jstor.org/stable/2580324?origin=crossref#metadata_info_tab_contents) and are not particularly evidence-based
 - Do you think layoffs in tech are some indication of a tech bubble bursting or the company preparing for a recession
-- Could there be a tech recession? Yes. Was there a bubble in valuations? Absolutely. Did Meta overhire? Probably. But is that why they are laying people off? Of course not. Meta has plenty of money. These companies are all making money. They are doing it because other companies are doing it
+- Could there be a tech recession? Yes. Was there a bubble in valuations? Absolutely. Did [[Meta (Company)|Meta]] overhire? Probably. But is that why they are laying people off? Of course not. [[Meta (Company)|Meta]] has plenty of money. These companies are all making money. They are doing it because other companies are doing it
 - What are some myths or misunderstandings about layoffs
 - Layoffs often do not cut costs, as there are many instances of laid-off employees being hired back as contractors
 - Layoffs often do not increase stock prices, in part because layoffs can signal that a company is having difficulty

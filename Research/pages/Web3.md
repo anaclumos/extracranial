@@ -25,7 +25,7 @@ slug: '/451E1C'
 
 - There was this new word everywhere: "web3". The future of the web, I was being told, was going to be powered by crypto and blockchains. I was reading that, finally, we were going to fix the web
 - At that time, they were talking about the [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web). Some of you who watched the Centre stage talks earlier this morning probably saw [Tim Berners-Lee talking about Web 3.0](https://youtu.be/D5p2gt7htDM?t=2251), which, again, he defines very differently from the crypto version of web3
-- The oligopoly of Andreessen Horowitz, or its investments in the same Big Tech companies that they now decried, including Facebook, Instagram, and others, went conspicuously unmentioned
+- The oligopoly of Andreessen Horowitz, or its investments in the same Big Tech companies that they now decried, including [[Facebook]], [[Instagram]], and others, went conspicuously unmentioned
 - You see, if they can convince people that this is the future of the web, they'll be rich… richer than they already are
 - So-called web3 publishing firms sought to reinvent [[DRM]], imposing even more limits on how textbooks or other material could be resold so that companies could squeeze out even more money from their users at more steps along the way
 - Censorship-resistant" [[blockchain]] social networks became saturated with spam, driving away their actual users

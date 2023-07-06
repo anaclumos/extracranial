@@ -5,7 +5,7 @@ slug: '/8EA0CD'
 
 ## Virtual Address Space
 
-- virtual address spaces are shared by all threads in the process, but protected from other processes
+- virtual address spaces are shared by all [[threads]] in the process, but protected from other processes
 - process = program = thread + virtual address space
 - thread = register values + stack
 - because they are _logical_, they can be up to $2^{64}$ bits for 64 bit system, approximately 16 million terabytes.
