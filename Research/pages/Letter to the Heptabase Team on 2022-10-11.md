@@ -9,7 +9,7 @@ slug: '/24D60B'
 
 Dear Mr. Chan,
 
-很高興見到你! I am Sunghyun Cho, a computer scientist based in [[Los Angeles|LA]] and [[서울|Seoul]]. I am also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with you!
+很高興見到你! I am Sunghyun Cho, a computer scientist based in [[Los Angeles|LA]] and [[서울|Seoul]]. I am also a contributor to GoogleChrome/web.dev, [[Facebook]]/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came across [[Heptabase]] and wanted to speak with you!
 
 First of all, I want to show my support and love ❤ towards anyone contributing the rethinking the Extracranials (-- my terminology of external thinking support software)!
 

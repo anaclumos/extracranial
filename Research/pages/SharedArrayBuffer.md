@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/58CA40'
-aliases: ['SAB']
+aliases: ['SAB', 'Shared Array Buffer']
 ---
 
 - [SharedArrayBuffer - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)

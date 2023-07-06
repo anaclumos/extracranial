@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/C8868B'
 ---
 
-Artifact is a new personalized news feed app from the co-founders of Instagram, Kevin Systrom and Mike Krieger. It uses [[ML|machine learning]] to understand users' interests and offer them a feed of popular articles from a curated list of publishers. The app is being described as a TikTok for text, where users tap on articles that interest them, and Artifact will serve similar posts and stories in the future. The app will also have a direct message inbox to discuss the posts with friends.
+Artifact is a new personalized news feed app from the co-founders of [[Instagram]], Kevin Systrom and Mike Krieger. It uses [[ML|machine learning]] to understand users' interests and offer them a feed of popular articles from a curated list of publishers. The app is being described as a TikTok for text, where users tap on articles that interest them, and Artifact will serve similar posts and stories in the future. The app will also have a direct message inbox to discuss the posts with friends.
 
 The app is opening up its waiting list to the public, and users who come in from the waitlist today will see only that central ranked feed. However, Artifact beta users are currently testing two more features that Systrom expects to become core pillars of the app. One is a feed showing articles posted by users you have chosen to follow and their commentary on those posts. The second is a direct message inbox to discuss the posts you read privately with friends.
 

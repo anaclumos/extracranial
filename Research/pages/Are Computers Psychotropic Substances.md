@@ -22,7 +22,7 @@ Examples include likes/comments, viral contents, infinite scrollings, autoplays,
 The phone is so accessible and the program can't be modified, making you use the service the way the service provider wants you to.
 If you use these services on your computer, actively use [[WebExtension|extension]] programs to control invasive addiction manipulations.
 
-**Hanlon's Razor**. [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) applies to digital addiction. There are some people intentionally designing services to be addictive, but they are only looking for a myopic solution to increase service retentions and revenue; not with some grand malice to encroach on human thinking. They're just stupid. Even Facebook [later figured that making the platform less addictive is better in the long run](https://medium.com/@AnalyticsAtMeta/notifications-why-less-is-more-how-facebook-has-been-increasing-both-user-satisfaction-and-app-9463f7325e7d).
+**Hanlon's Razor**. [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) applies to digital addiction. There are some people intentionally designing services to be addictive, but they are only looking for a myopic solution to increase service retentions and revenue; not with some grand malice to encroach on human thinking. They're just stupid. Even [[Facebook]] [later figured that making the platform less addictive is better in the long run](https://medium.com/@AnalyticsAtMeta/notifications-why-less-is-more-how-facebook-has-been-increasing-both-user-satisfaction-and-app-9463f7325e7d).
 
 **Addictions**.
 Addictions are not self-curable.

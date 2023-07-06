@@ -17,7 +17,7 @@ slug: '/A33FA6'
 
 ## [[Zenly]], now part of history
 
-From the Stay Home challenge in 2020 to a mass-scale [[3D]] [[Cartography|map]] update in 2022, [[Zenly]] prepared for its upcoming future. However, the recent layoff at Snap wiped out the [[Zenly]] team alongside the Snap [[Mini App]] team. I do think this is Snap's mistake. Even my university peers do not use Snap anymore but still use [[Zenly]]. It almost feels like Facebook is killing Instagram for Facebook. I hope [[Zenly]]'s revolutionary DNA gets well-integrated into Snap, seeking revival.
+From the Stay Home challenge in 2020 to a mass-scale [[3D]] [[Cartography|map]] update in 2022, [[Zenly]] prepared for its upcoming future. However, the recent layoff at Snap wiped out the [[Zenly]] team alongside the Snap [[Mini App]] team. I do think this is Snap's mistake. Even my university peers do not use Snap anymore but still use [[Zenly]]. It almost feels like [[Facebook]] is killing [[Instagram]] for [[Facebook]]. I hope [[Zenly]]'s revolutionary DNA gets well-integrated into Snap, seeking revival.
 
 <details>
 <summary>More Info</summary>

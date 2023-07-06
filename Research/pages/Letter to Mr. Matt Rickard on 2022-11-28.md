@@ -15,11 +15,11 @@ Let's Alter is a non-profit product that uses [[Generative AI|Generative AIs]] t
 
 > ALT: Three white dogs are playing frisbee on a lawn with a woman wearing a red skirt
 
-Facebook and Instagram have been doing this for a while, but AFAIK there are no open-source products. As [[Generative AI|Generative AIs]] evolved, I expected it to be possible to reverse [[Generative AI|Gen AIs]] to take images and spit out different variations of descriptive texts.
+[[Facebook]] and [[Instagram]] have been doing this for a while, but AFAIK there are no open-source products. As [[Generative AI|Generative AIs]] evolved, I expected it to be possible to reverse [[Generative AI|Gen AIs]] to take images and spit out different variations of descriptive texts.
 
 The final goal is to create a product like Let's Encrypt, which heavily contributed to removing unencrypted websites on the web. I imagine a future where no single image on the web is missing the `alt` tag with this technology.
 
-What would be a logical first step to diving into this goal? Any ideas or meta-ideas that come to your mind?
+What would be a logical first step to diving into this goal? Any ideas or [[meta]]-ideas that come to your mind?
 
 Any help would be heavily appreciated.
 

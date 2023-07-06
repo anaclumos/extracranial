@@ -25,7 +25,7 @@ That being said, invitation systems do harness some social engineering technique
 
 **Clubhouse**. The most significant stimulus for companies must have been Clubhouse, a prime success example of invite-based growth. A picture is worth a thousand words, not to mention a $4B success.
 
-After all, the invitation system is a structured way of conducting beta tests, where it initially used location-based beta tests (early Facebook) or group studies (most games.)
+After all, the invitation system is a structured way of conducting beta tests, where it initially used location-based beta tests (early [[Facebook]]) or group studies (most games.)
 
 Another interesting observation is that these 'successful, invite-based' software companies are primarily elite [[Small yet Powerful|small yet mighty]] teams. So why don't big techs use an invite-based system when launching a new service? Does that imply that provided enough resources, invite-only is inferior to the mass-market opening?
 

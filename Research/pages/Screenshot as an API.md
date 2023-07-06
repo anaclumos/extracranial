@@ -14,7 +14,7 @@ slug: '/8B4F7C'
     - meaning (image-to-text)
     - layout information (object recognition)
     - text ([[OCR]])
-    - other metadata (formatting, fonts, etc.)
+    - other [[metadata]] (formatting, fonts, etc.)
   - (encoder) diffusion-based models like [[Stable Diffusion]] and DALL-E (text-to-image) [[Prompt Engineering]]
 - What's good:
   - Easier to parse than highly complex layout formats
@@ -30,9 +30,9 @@ slug: '/8B4F7C'
   - Related to when [[Naver]] Vibe attempted to steal other music players' market cap with Screenshot Recognition technology.
     - [[튜토리얼] 다른 뮤직앱 플레이리스트, 쉽게 가져오는 법](https://www.youtube.com/watch?v=lIs51GVQnDw)
     - ['타사 음원 리스트 수초만에 이동' 네이버 바이브에 OCR 적용 - 전자신문](https://www.etnews.com/20190410000104)
-- More complex metadata
+- More complex [[metadata]]
   - Look how effective image search is on mobile. Dogs, City, Oceans...
-  - Some come from the actual image metadata, and others are inferred with [[On-device]] models.
+  - Some come from the actual image [[metadata]], and others are inferred with [[On-device]] models.
   - Automatically encoding this data in traditional formats like [[PDF]] takes much longer.
 - I wrote a reply like the following. [[Letter to Mr. Matt Rickard on 2022-10-03]]
 

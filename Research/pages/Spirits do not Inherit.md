@@ -12,7 +12,7 @@ Individuality, creativity, and dreams are the three most essential elements of a
 
 Today, let's talk about the first of these, individuality. To get somewhere, I need to know where I'm coming from, and a big part of that personality is the realm of taste because we all become what we like.
 
-I took it as a matter of survival that without individuality, the metaphor of me is as good as dead, and I've more or less centered on who I am and what I'm about. But it's a world where the manifestation of substance is more important than the existence of information. It's a world where only information matters in a sea of data.
+I took it as a matter of survival that without individuality, the [[metaphor]] of me is as good as dead, and I've more or less centered on who I am and what I'm about. But it's a world where the manifestation of substance is more important than the existence of information. It's a world where only information matters in a sea of data.
 
 So I wished my personality had been replaced by something tangible, something physical that I could access — that's what I thought.
 

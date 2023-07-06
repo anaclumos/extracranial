@@ -7,12 +7,12 @@ An alternative approach to [[AIs.txt]], proposed by [Robert Reich](https://www.l
 
 ## Introduction
 
-The proposed standard provides a mechanism for transforming website content into question-answer (QA) pairs. It details a data format, including general dataset information, specific website details, and the QA pairs, each accompanied by related metadata.
+The proposed standard provides a mechanism for transforming website content into question-answer (QA) pairs. It details a data format, including general dataset information, specific website details, and the QA pairs, each accompanied by related [[metadata]].
 
 ## Key Advantages
 
 1. **Data Optimization and Efficiency**. A significant challenge for AI when processing web content is the sheer volume of data that needs to be read, parsed, and understood. Large websites can lead to performance issues due to token limitations and slow data processing. The proposed model, which transforms website content into structured QA pairs, provides a concise and meaningful summary of the web location. The AI doesn't need to read and process the entire document but can instead focus on the distilled and relevant data. This can significantly improve the speed and efficiency of AI operations.
-2. **Enhanced [[Accessibility]] ([[Accessibility|a11y]])**. The proposed QA pairs format can work in tandem with meta tag descriptions to enhance the [[accessibility]] of web content. By transforming content into a question-answer format, it becomes easier for assistive technologies (like screen readers) to parse and understand the content, making the information more accessible to users with disabilities.
+2. **Enhanced [[Accessibility]] ([[Accessibility|a11y]])**. The proposed QA pairs format can work in tandem with [[meta]] tag descriptions to enhance the [[accessibility]] of web content. By transforming content into a question-answer format, it becomes easier for assistive technologies (like screen readers) to parse and understand the content, making the information more accessible to users with disabilities.
 3. **Greater Publisher Control**. The Robots.txt file is primarily a directive for search engine crawlers, specifying which parts of a website should not be crawled. However, it gives limited control to the publisher over how the content is understood and used. In contrast, the proposed model allows publishers to dictate the QA pairs directly, which can be seen as giving more detailed instructions to the AI about the content. They can control which parts of their content are highlighted, how it is interpreted, and how it is presented to the end user. This shift gives more authority back to the publishers and can help ensure their content is utilized consistently with their intentions.
 4. **Legal Grounding**. Unlike Robots.txt, which has no legal bindings, the proposed model could have a structure that provides some legal grounding. This would provide website owners more protection about using their content.
 
@@ -26,7 +26,7 @@ The data format utilizes JSON with the following main objects:
 
 - `datasetInfo`: Provides general information about the dataset, such as its source, collection method, privacy-preserving technique, data balance, legal considerations, and contact info.
 - `website`: Contains specific details about each website, such as URL, crawl frequency, suggested crawl pages, compression techniques, privacy and legal considerations, compensation, and content.
-- `content`: An array under `website` that contains QA pairs each with its question, answer, keywords, rank, votes, metadata (like date added, source, language), augmented data, and data balance.
+- `content`: An array under `website` that contains QA pairs each with its question, answer, keywords, rank, votes, [[metadata]] (like date added, source, language), augmented data, and data balance.
 
 ## Detailed Design
 

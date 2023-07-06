@@ -52,7 +52,7 @@ One scientist envisioned something called [[Memex]] when transistors were invent
 This place **faithfully** implements [[Memex]] with modern technology.
 Unlike ordinary websites, this place is non-linear.
 There are no next/previous posts, parent/child folders, or domain structures, and everything gets regularly rearranged.
-No information retains its _physical_ form; everything is handled by metadata, with front matters and hyperlinks.
+No information retains its _physical_ form; everything is handled by [[metadata]], with front matters and hyperlinks.
 What's so good that way? Unparalleled flexibility.
 
 ## Tech Stacks
