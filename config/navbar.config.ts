@@ -21,19 +21,23 @@ const navbar = {
   },
   items: [
     {
-      to: getMostRecentJournalLink(),
-      label: 'Today',
+      type: 'dropdown',
+      label: 'Research',
       position: 'left',
-    },
-    {
-      to: '/random',
-      label: 'Random',
-      position: 'left',
-    },
-    {
-      to: '/3d',
-      label: 'Graph',
-      position: 'left',
+      items: [
+        {
+          to: getMostRecentJournalLink(),
+          label: 'Today',
+        },
+        {
+          to: '/random',
+          label: 'Random',
+        },
+        {
+          to: '/3d',
+          label: 'Graph',
+        },
+      ],
     },
     {
       to: '/w/archive',
@@ -43,7 +47,7 @@ const navbar = {
     {
       href: 'https://mailhide.io/en/e/IXndXpED',
       label: 'Email',
-      position: 'right',
+      position: 'left',
       className: 'navbar-mail-link',
     },
     {

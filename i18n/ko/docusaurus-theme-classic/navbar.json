@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "item.label.Articles": {
-    "message": "열람실",
+    "message": "블로그",
     "description": "Navbar item with label Articles"
   },
   "item.label.Today": {
@@ -26,5 +26,9 @@
   "item.label.Email": {
     "message": "이메일",
     "description": "Navbar item with label Email"
+  },
+  "item.label.Research": {
+    "message": "연구 노트",
+    "description": "Navbar item with label Research"
   }
 }

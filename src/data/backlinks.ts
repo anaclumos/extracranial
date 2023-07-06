@@ -60,7 +60,7 @@ export const backlinks = {
     },
     "2023-07-05": {
         "Impact over Performance": "Short essay on [[2023-07-05]]:",
-        "불가사리 (기업)": "- [[2023-07-05]] 업데이트 — Apple과 NDA 서약을 ..."
+        "불가사리 (기업)": "- [[2023-07-05]] 업데이트 — [[Apple]]과 [[NDA]] 서약을 ..."
     },
     "2023-03-20": {
         "hn.cho.sh 개발 기록": "## [[2023-03-20]]"
@@ -578,7 +578,7 @@ export const backlinks = {
     },
     "Swift": {
         "2023-01-13": "- [[Swift]]",
-        "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]]",
+        "Apple": "- Creator of [[Swift]], [[SwiftUI]], [[Apple Silicon]], [[Apple Vision ...",
         "Coding Tests in Swift": "Accessing the value of a [[Swift]] Dict will return Optional.",
         "Reading Files in Swift": "Reading Files in [[Swift]]",
         "Requesting Review in Swift": "Requesting Review in [[Swift]] [[StoreKit]]",
@@ -596,7 +596,7 @@ export const backlinks = {
     "SwiftUI": {
         "2022-08-04": "### Explored [[SwiftUI]].",
         "2022-11-28": "- [[SwiftUI]]: SwiftUI is convenient, but slow",
-        "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon]]",
+        "Apple": "- Creator of Swift, [[SwiftUI]], [[Apple Silicon]], [[Apple Vision Pro]], ...",
         "CELLO (Product)": "- [[SwiftUI]]",
         "Creating Next Keyboard Button in SwiftUI": "Creating Next Keyboard Button in [[SwiftUI]]",
         "Creating Observable Object in SwiftUI": "Creating Observable Object in [[SwiftUI]]",
@@ -863,7 +863,7 @@ export const backlinks = {
     },
     "불가사리 (기업)": {
         "2023-06-14": "- [[불가사리 (기업)]]",
-        "2023-07-05": "- [[불가사리 (기업)|Starfish]]: Signed an NDA with Apple, ..."
+        "2023-07-05": "- [[불가사리 (기업)|Starfish]]: Signed an [[NDA]] with [[Apple]], ..."
     },
     "jQuery": {
         "Impact over Performance": "... revenue every month but with [[jQuery]]. Who cares about the tech ..."
@@ -944,6 +944,11 @@ export const backlinks = {
         "Architecture of Mastodon": "... to serve at the edge. [[CDN]] can host static assets, but ...",
         "Cloudflare": "... Cloudflare, Inc. is an American [[CDN|content delivery network]] and DDoS mitigation company, founded ...",
         "Snowpack으로 WASM 시작하기": "... (실제 WebAssembly|WASM 파일은 사용자의 웹페이지에서는 [[CDN]]을 통해 async하게 로딩됨. 여기서 설치하는 ..."
+    },
+    "Apple Pay": {
+        "Apple": "... Apple Silicon, Apple Vision Pro, [[Apple Pay]]",
+        "iOS": "... with other iOS devices, and [[Apple Pay]], which allows users to make ...",
+        "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "2022년 연말 최근 [[Apple Pay]]가 도입된다는 소문으로 아이폰에 대한 관심은 ..."
     },
     "Neo Email": {
         "2023-02-27": "- [[Neo Email]]"
@@ -1032,6 +1037,7 @@ export const backlinks = {
     "Resend": {
         "2023-05-03": "- [[Resend]]",
         "2023-06-12": "I never knew that [[Resend]]'s API is comparable to [[AWS ...",
+        "AWS SES": "[[Resend]]",
         "Neo Email": "- [[Resend]] looks promising."
     },
     "0104 Maximum Depth of Binary Tree": {
@@ -2003,6 +2009,9 @@ export const backlinks = {
         "Grammarly Work Note 2023-05-25": "- [[E2E testing]] should be something we must ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 이유로 못하는 팀도 있다. 물론 [[E2E testing|e2e 테스트]]는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 ..."
     },
+    "Naver Pay": {
+        "유난한 도전": "... 싶어 할 것이다. 그렇지 않았다. [[Naver Pay]], [[KakaoPay]], 삼성페이 등 경쟁자가 너무 ..."
+    },
     "Harry Stebbings": {
         "2023-03-03": "- [[Harry Stebbings]]",
         "30-Day Tweet Test (Harry Stebbings)": "> — [[Harry Stebbings]] (@HarryStebbings) February 2, 2023",
@@ -2200,6 +2209,11 @@ export const backlinks = {
     "CS Colloquium": {
         "DNS": "- University of Southern California|USC [[CS Colloquium]]",
         "Learning Execution Semantics from Micro-Traces for Binary Similarity": "- Attended [[CS Colloquium]] on [[2023-03-28]]."
+    },
+    "KakaoPay": {
+        "Naver Pay": "- [[KakaoPay]]",
+        "유난한 도전": "... 것이다. 그렇지 않았다. Naver Pay, [[KakaoPay]], 삼성페이 등 경쟁자가 너무 많았다. ...",
+        "프로젝트 어덕행덕": "... 간편결제 위주로 할 예정. 특히 [[KakaoPay]]나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 ..."
     },
     "Centering": {
         "2022-09-17": "  - [[Centering]]",
@@ -2639,6 +2653,10 @@ export const backlinks = {
         "2023-01-26": "- [[Bernoulli Distribution]]",
         "2023-01-31": "- [[Bernoulli Distribution]]"
     },
+    "NDA": {
+        "2023-07-05": "- 불가사리 (기업)|Starfish: Signed an [[NDA]] with [[Apple]], can't say anything ...",
+        "불가사리 (기업)": "- 2023-07-05 업데이트 — Apple과 [[NDA]] 서약을 체결해 이제부터 관련 정보를 ..."
+    },
     "Journal is a Waypoint, nothing more": {
         "2022-11-20": "- [[Journal is a Waypoint, nothing more]]"
     },
@@ -2727,6 +2745,8 @@ export const backlinks = {
         "2022-07-18": "- [[Apple]] seems (pretty much) always right...",
         "2022-10-13": "... 31% of teens own an [[Apple]] Watch: Taking Stock With Teens® ...",
         "2022-10-18": "- [[Apple]] bought all of the advertising ...",
+        "2023-06-05": "... Apple Vision Pro is that [[Apple]] never used the term \"Goggles\" ...",
+        "2023-07-05": "... (기업)|Starfish: Signed an NDA with [[Apple]], can't say anything from now.",
         "3D": "- USDZ for [[Apple]]",
         "AIs.txt": "Technically, [[Apple]]'s App Tracking Transparency does not ...",
         "AMP": "... to Facebook Instant Articles and [[Apple]] News. AMP is optimized for ...",
@@ -2740,6 +2760,7 @@ export const backlinks = {
         "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
         "Dilemmas of Technopreneur": "... but it never would've become [[Apple]] if it weren't for Steve ...",
         "Dynamic Island": "... and other app-specific functionality that [[Apple]] calls Live Activities. These icons ...",
+        "Final Cut Pro": "Final Cut Pro by [[Apple]] Inc. is a professional video ...",
         "Finally, Apple Pay in Korea": "After a decade of waiting, [[Apple]] Pay has expanded to [[대한민국|Korea]]. ...",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If ...",
         "Google": "... information technology companies, alongside Amazon, [[Apple]], Meta, and [[Microsoft]]. Google",
@@ -2756,6 +2777,7 @@ export const backlinks = {
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.",
         "PineApple Pay": "As [[Apple]] slowly moves to open up ...",
+        "Project FFMpeg for iPad": "[[Apple]] announces [[Final Cut Pro]]. It's ...",
         "Proposal of Research 2023-01-10": "... vendors (Google, Mozilla, Microsoft, and [[Apple]]) decided to disable SharedArrayBuffer by ...",
         "Reverse Engineering Apple Music API": "## Registering for [[Apple]] Developer Key",
         "Safari": "... a web browser developed by [[Apple]] Inc. It was first released ...",
@@ -2768,9 +2790,13 @@ export const backlinks = {
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] ...",
         "WWDC": "[[Apple]]'s Worldwide Developer Conference",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 ...",
+        "iOS": "... mobile operating system developed by [[Apple]] Inc. The operating system powers ...",
         "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 금융위원회에서 ...",
+        "불가사리 (기업)": "... 설립의 필요성을 느꼈다. 예를 들어 [[Apple]]의 PassKit의 NFC 개발 도구는 기업이 ...",
+        "서당개 3년이면 풍월을 읊는다": "... 어떤 방식으로 얻었든 말이죠. — [[Apple|애플]]의 채용 문구",
         "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 ...",
         "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "[[Apple|애플]] 아이폰의 국내 인기는 점점 상승하고 ...",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 홈 피드, 페이스북의 추천 피드, [[Apple|애플]]의 뉴스 앱처럼 개인화된 뉴스 피드를 ...",
         "잡스와 생존 편향": "대학을 중퇴하고 [[Apple|애플]]을 무작정 시작할 때, 워즈니악이 없었다면 ...",
         "하늘땅사람 개발 기록": "[[Apple]] QuickType과 비슷한 자동완성 기능은 필수적인데, ..."
     },
@@ -2938,7 +2964,8 @@ export const backlinks = {
         "2023-01-16": "- [[linkflags.crx]]"
     },
     "Apple Vision Pro": {
-        "2023-06-05": "The interesting fact about [[Apple Vision Pro]] is that Apple never used ..."
+        "2023-06-05": "The interesting fact about [[Apple Vision Pro]] is that [[Apple]] never used ...",
+        "Apple": "... of Swift, SwiftUI, Apple Silicon, [[Apple Vision Pro]], [[Apple Pay]]"
     },
     "Surfit": {
         "Jumpsite": "## [[Surfit]]"
@@ -3946,6 +3973,7 @@ export const backlinks = {
         "ULLO": "- Unsplash [[CELLO]]"
     },
     "Toss": {
+        "Naver Pay": "- [[Toss]]",
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve ...",
         "Service Shimming": "- [[Toss]] (≈ [[대한민국|Korean]] Paypal) failed to ...",
         "Supergravity Products": "... 친구에게 송금 쉬운 앱 o) [[Toss]]",
@@ -3956,7 +3984,7 @@ export const backlinks = {
         "북스페이스": "[[Toss|토스]] 기획자가 설립했던 작문 플랫폼 스타트업. ...",
         "서비스 시밍": "- [[Toss|토스]]도 송금 시스템을 완성하지 못해 하루에 ...",
         "유난한 도전": "... 거야, 개원은 반년만 미루자라는 마음으로 [[Toss|토스]]를 시작했다.",
-        "프로젝트 어덕행덕": "... 위주로 할 예정. 특히 Kakao|카카오페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 ..."
+        "프로젝트 어덕행덕": "... 위주로 할 예정. 특히 KakaoPay나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 ..."
     },
     "GPU": {
         "Effective Accelerationism": "... 위해 Economy|경제를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 ...",
@@ -4933,7 +4961,8 @@ export const backlinks = {
         "2023-05-03": "- [[Mojo]]"
     },
     "Primary-Recency Effect": {
-        "2022-10-17": "- [[Primary-Recency Effect]]"
+        "2022-10-17": "- [[Primary-Recency Effect]]",
+        "2023-07-05": "- [[Primary-Recency Effect]]"
     },
     "WasmEdge": {
         "2022-11-30": "- [[WasmEdge]]",
@@ -5121,7 +5150,7 @@ export const backlinks = {
         "2016-06-24": "- [[공강에서 보내는 공강 활용법]]"
     },
     "일본인": {
-        "hn.cho.sh 개발 기록": "일본으로 진출하기 위해 오랜만에 [[일본인]] 친구들에게 이메일을 조금 돌렸다. 얘기를 ...",
+        "hn.cho.sh 개발 기록": "일본으로 진출하기 위해 오랜만에 [[일본인]] 친구들에게 [[Mail|이메일]]을 조금 돌렸다. 얘기를 ...",
         "이완용": "> 이완용의 이런 말에서 우리는 [[일본인]]의 주구 노릇을 하면서 그가 겪는 ...",
         "일본": "[[일본인]]",
         "일본 과학기술 총력전": "... 거대 발전소의 전력은 공업 단지와 [[일본인]] 주택지에만 사용되었다.",
@@ -5428,7 +5457,7 @@ export const backlinks = {
         "Spellbound": "- [[AMP Email]]"
     },
     "Apple Silicon": {
-        "Apple": "- Creator of Swift, SwiftUI, [[Apple Silicon]]"
+        "Apple": "- Creator of Swift, SwiftUI, [[Apple Silicon]], [[Apple Vision Pro]], [[Apple Pay]]"
     },
     "Cross-Origin Opener Policy": {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Opener Policy]]: `same-origin`"
@@ -5814,6 +5843,7 @@ export const backlinks = {
         "2022-06-26": "... the limits, we can try [[Kakao]] [[Cartography|Map]] SDK (or any [[Cartography|Map]] ...",
         "2022-07-05": "- [[Kakao|카카오]]는 자사가 운영 중인 메신저 [[Kakao|카카오톡]]의 ...",
         "2022-10-16": "### [[Kakao]]",
+        "2023-07-05": "... meeting with Professionals formerly from [[Kakao]] Brian Office (f.k.a Chairman's Office)",
         "AI replaces expensive jobs first": "... the winner was another conglomerate [[Kakao]] Mobility which finally took over ...",
         "AI는 고가 노동부터 점령한다": "... 타다가 멸망한 탓에 그 옆의 [[Kakao|카카오]]모빌리티가 시장을 독점하는 결과를 가져왔기 때문이다.",
         "Brunch": "... 한국어|Korean Writing Service operated by [[Kakao]]",
@@ -5825,8 +5855,7 @@ export const backlinks = {
         "Mental Simulation of Firefox and Signal as a Super App": "... chat, as we learned from [[Kakao]].",
         "국내 은행 서비스가 나쁜 이유": "... 어려움과 제한적인 경쟁에도 불구하고 Toss|토스, [[Kakao|카카오]]뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 ...",
         "새로운 부동산은 지적 재산이다": "... 때문에 대한민국|한국의 구글이라 불리는 Naver|네이버와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 것이다. ...",
-        "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 Kakao|카카오라는 간편결제를 시작한다는 ...",
-        "프로젝트 어덕행덕": "... 간편결제 위주로 할 예정. 특히 [[Kakao|카카오]]페이나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 ..."
+        "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 Kakao|카카오라는 간편결제를 시작한다는 ..."
     },
     "sem.sh": {
         "2022-10-03": "- [[sem.sh]]"
@@ -5860,7 +5889,10 @@ export const backlinks = {
         "2023-02-02": "... creating and modifying documents, sending [[Mail|email]], etc.",
         "2023-02-28": "- [[Mail]]",
         "AMP Email": "> AMP for [[Mail|email]] allows senders to include AMP ...",
+        "AWS SES": "AWS SES, or Amazon Simple [[Mail|Email]] Service, is a cloud-based [[Mail|email]]-sending ...",
         "Adding a Verified Mark on Apple Mail & Gmail": "... SMIME|S/MIME certificate to sign an [[Mail|email]]",
+        "Bad Interview Experience with Replo": "They once shot me an [[Mail|email]]...",
+        "Believer Plan": "- 회사와 회원의 합의는 [[Mail|이메일]] 혹은 영상전화로 가능합니다.",
         "Blind Illness": "... the company through their work [[Mail|email]] and claims to keep user ...",
         "Buttondown": "... for you to write great [[Mail|emails]]; the [[automation]] acts like the ...",
         "CELLO (Product)": "... Let's go agile, mainly with [[Mail|emails]]",
@@ -5878,6 +5910,7 @@ export const backlinks = {
         "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Mail|Letter]] to Mr. Stephan Ango on ...",
         "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the [[Heptabase]] Team on ...",
         "Markdown Email Client": "Someday Project. You write an [[Mail|email]] in [[Markdown]]. Before sending, select ...",
+        "Matrix Network": "... as Slack, IRC, or even [[Mail|email]], through bridges. This means users ...",
         "Naver": "... from basic features such as [[Mail|e-mail]] and news to the world's ...",
         "Neo Email": "- Neo [[Mail|Email]]",
         "Newsletter": "- [[Mail]]",
@@ -5891,11 +5924,13 @@ export const backlinks = {
         "Reminder Tools": "- Braintoss: [[mail]] to self.",
         "SMIME": "> S/MIME (Secure/Multipurpose Internet [[Mail]] Extensions) is a standard for ...",
         "SMTP": "- MIME: Multipurpose Internet [[Mail]] Extensions",
+        "SVB Debacle": "... on Friday, and in a [[Mail|letter]] that a seller forwarded to ...",
         "Safari": "... on social media or via [[Mail|email]], and a built-in password manager ...",
         "Search AI": "... ideas, translate, summarize text, compose [[Mail|emails]], and write code for you. ...",
         "Self-hosted SaaS Alternatives": "### Self-hosted [[Mail|Email]] newsletter platforms",
         "SendGrid": "... platform for transactional and marketing [[Mail|email]]. The company was founded by ...",
         "YCLF 주간 사용자 1000명": "GitHub 이슈를 남겨준 분들도 계셨고 [[Mail|메일]]을 보내주신 분들도 계셨다. 유용한 피드백을 ...",
+        "hn.cho.sh 개발 기록": "... 진출하기 위해 오랜만에 일본인 친구들에게 [[Mail|이메일]]을 조금 돌렸다. 얘기를 들어보니 Zenn을 ...",
         "뉴턴의 서신": "아이작 뉴턴은 [[Mail|편지]]을 통해 동료들과 소통했다.",
         "프로젝트 어덕행덕": "... - 그래서 학생 할인은 없냐고 [[Mail|메일]]로 물어봄"
     },
@@ -7017,9 +7052,9 @@ export const backlinks = {
         "Screenshot as an API": "...  - Related to when [[Naver]] Vibe attempted to steal other ...",
         "Search AI와 인터넷의 한국어": "무엇보다 대부분의 자료가 [[Naver|네이버]]에 갇혀있고,",
         "Service Shimming": "- [[Naver]] (≈ [[대한민국|Korean]] Google), for a ...",
+        "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": "... 떠나가나'의 원문을 찾아 읽어보고 싶었는데, [[Naver|네이버]] 뉴스 라이브러리에서는 이 항목이 검열되어 ...",
         "새로운 부동산은 지적 재산이다": "... 장점 때문에 대한민국|한국의 구글이라 불리는 [[Naver|네이버]]와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 ...",
         "서비스 시밍": "- [[Naver|네이버]]는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 ...",
-        "유난한 도전": "... 싶어 할 것이다. 그렇지 않았다. [[Naver|네이버]]페이, [[Kakao|카카오]]페이, 삼성페이 등 경쟁자가 너무 ...",
         "하늘땅사람 개발 기록": "... ՞ਊ ՞)⋌⋚⊹) `와 같은 이모티콘. [[Naver|네이버]] 스마트 키보드의 기능 중 꽤 ..."
     },
     "Sticker Party": {
