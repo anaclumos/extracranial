@@ -7,7 +7,7 @@ Replo is a company that specializes in no-code Shopify experiences.
 
 ![[909816.png]]
 
-They once shot me an email...
+They once shot me an [[Mail|email]]...
 
 ![[B7C2B7.png]]
 
@@ -29,7 +29,7 @@ Some might ask —
 
 > Hey, isn't it good that both saved time since they already know it's not a match?
 
-No. If you're cold-emailing people, at least do some research beforehand on who you want to cold-email. Don't reach out in the first place if you take my time seriously. Don't be like a 9-year-old boy who throws shit all around and sees how things go.
+No. If you're cold-emailing people, at least do some research beforehand on who you want to cold-[[Mail|email]]. Don't reach out in the first place if you take my time seriously. Don't be like a 9-year-old boy who throws shit all around and sees how things go.
 
 > Hey, but it's their right as a company to filter appropriate candidates and select the best.
 
@@ -49,4 +49,4 @@ Listen, founders —
 
 ## Update
 
-They sent me another email that they are "following up" to schedule an interview. I have let them know that I have already tried to schedule a meeting, and you canceled, and following up as if I did not respond is inappropriate and unprofessional. They understood it.
+They sent me another [[Mail|email]] that they are "following up" to schedule an interview. I have let them know that I have already tried to schedule a meeting, and you canceled, and following up as if I did not respond is inappropriate and unprofessional. They understood it.
