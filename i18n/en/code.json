@@ -573,9 +573,6 @@
   ". His academic interest spans ": {
     "message": ". His academic interest spans "
   },
-  "or dive down the rabbit hole.": {
-    "message": "or dive down the rabbit hole."
-  },
   "theme.NavBar.navAriaLabel": {
     "message": "Main",
     "description": "The ARIA label for the main navigation"
