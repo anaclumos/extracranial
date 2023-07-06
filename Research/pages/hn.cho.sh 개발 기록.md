@@ -62,7 +62,7 @@ GitHub Actions로 빌드하는 방식으로.
 
 [[hn.cho.sh]]에 조금 더 예쁜 이름이 필요하다.
 그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 [[일본]]에서 이런 프로덕트 반응이 잘 오는 것 같았다.
-[[일본]]으로 진출하기 위해 오랜만에 [[일본인]] 친구들에게 이메일을 조금 돌렸다. 얘기를 들어보니 Zenn을 많이 쓴다는 것 같길래 여기에 가입해서 홍보를 해봤다. [Show Zenn: シリコンバレーを理解する最も簡単な方法](https://zenn.dev/anaclumos/scraps/5c6ffc58a1b1e9)
+[[일본]]으로 진출하기 위해 오랜만에 [[일본인]] 친구들에게 [[Mail|이메일]]을 조금 돌렸다. 얘기를 들어보니 Zenn을 많이 쓴다는 것 같길래 여기에 가입해서 홍보를 해봤다. [Show Zenn: シリコンバレーを理解する最も簡単な方法](https://zenn.dev/anaclumos/scraps/5c6ffc58a1b1e9)
 
 [[Twitter Link Preview]]를 추가했다.
 
@@ -79,9 +79,9 @@ GitHub Actions로 빌드하는 방식으로.
 
 ## [[2023-04-04]]
 
-구독자들의 이메일을 보며 되게 다양한 회사가 있음을 느꼈다.
-유럽에 기반한 [Proton](https://proton.me/)이라는 회사 및 덕덕고 이메일이 존재한다는 것도 이번에 알게 되었고,
-이메일에 `+tag` 오퍼레이터를 사용해서 이메일을 정리하는 사람들, 본인의 도메인을 사용하는 인디 해커들, 일회용 이메일이나 RSS 피드 변환 앱 ([Kill the Newsletter!](https://kill-the-newsletter.com/))을 적극 활용하시는 분도 있으셨다. [[AI|인공지능]] 회사, 자율주행 회사, 블록체인 회사, [[Venture Capital|VC]], 웹툰 회사, 고전적 자산운용사, 그 뿐만 아니라 연예기획사와 은행, 출판사 분들도 있었다.
+구독자들의 [[Mail|이메일]]을 보며 되게 다양한 회사가 있음을 느꼈다.
+유럽에 기반한 [Proton](https://proton.me/)이라는 회사 및 덕덕고 [[Mail|이메일]]이 존재한다는 것도 이번에 알게 되었고,
+[[Mail|이메일]]에 `+tag` 오퍼레이터를 사용해서 [[Mail|이메일]]을 정리하는 사람들, 본인의 도메인을 사용하는 인디 해커들, 일회용 [[Mail|이메일]]이나 RSS 피드 변환 앱 ([Kill the Newsletter!](https://kill-the-newsletter.com/))을 적극 활용하시는 분도 있으셨다. [[AI|인공지능]] 회사, 자율주행 회사, 블록체인 회사, [[Venture Capital|VC]], 웹툰 회사, 고전적 자산운용사, 그 뿐만 아니라 연예기획사와 은행, 출판사 분들도 있었다.
 
 ![[2B6DD8.png]]
 
@@ -201,7 +201,7 @@ LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수
   - 인간 편집부는 좋은 주관을 가지고 유려하게 글을 쓰지만 방대한 양을 한 번에 처리를 못하고
   - 주관을 배제하기 어렵고...
 - 이용자 늘리기는 당연히 계속 고민해야겠지만 그 답은 잡아둔 유저를 이해하는것에 있다. 심지어 리텐션도 높잖아. 일단 뭘 좋아하고 얼마나 다양한지 알아보고...
-- 마케팅 더 하려면 차라리 그 비용으로 메일 내에서 바이럴 이벤트를 하자
+- 마케팅 더 하려면 차라리 그 비용으로 [[Mail|메일]] 내에서 바이럴 이벤트를 하자
   - 온라인 광고가 항상 이벤트보다 저렴하다는 생각이 바뀌었다.
   - CPC 2달러 CPA 5달러 나오는 것에 비하면
   - 차라리 그 돈으로 구독자에게 기프티콘 쏘는게 더 저렴하다.
@@ -230,13 +230,13 @@ LLaMa의 번역 성능을 확인해보았는데 아직 GPT 2 혹은 3 정도 수
 
 > Ho trovato il servizio grazie al messaggio pubblicitario nella tua estensione di Bing Chat for All Browsers. Ritengo questo servizio molto innovativo e adoro soprattutto il fatto che sia nella mia lingua. Certamente condividerò questa notizia con i miei amici che sono appassionati di tecnologia. La prima volta che ho visitato il sito, ho avuto la sorprendente sensazione di essere catapultato in quel tipo di futuro che ho sempre sognato ma che non ho mai visto realizzato. Ti ringrazio per offrire quest'esperienza così straordinaria! Rendi il web davvero innovativo!
 >
-> Non saprei cosa potresti migliorare, lo trovo davvero un servizio perfetto. Forse sarebbe più ordinato scegliere un orario fisso nel quale fare arrivare le email, ma non è assolutamente qualcosa di necessario.
+> Non saprei cosa potresti migliorare, lo trovo davvero un servizio perfetto. Forse sarebbe più ordinato scegliere un orario fisso nel quale fare arrivare le [[Mail|email]], ma non è assolutamente qualcosa di necessario.
 >
 > Translation:
 >
 > I found the service thanks to the advertisement in your extension of Bing Chat for All Browsers. I find this service very innovative and I especially love the fact that it is in my language. I will certainly share this news with my friends who are tech enthusiasts. The first time I visited the site, I had the amazing feeling of being catapulted into the kind of future I've always dreamed of but never seen realized. Thank you for providing such an amazing experience! Make the web truly innovative!
 >
-> I don't know what you could improve, I really find it a perfect service. Perhaps it would be more orderly to choose a fixed time for the emails to arrive, but it is absolutely not something necessary.
+> I don't know what you could improve, I really find it a perfect service. Perhaps it would be more orderly to choose a fixed time for the [[Mail|emails]] to arrive, but it is absolutely not something necessary.
 
 ## [[2023-04-21]]
 

@@ -11,7 +11,7 @@ slug: '/696FEF'
 
 ## [[2023-05-09]]
 
-Apple announces [[Final Cut Pro]]. It's about time.
+[[Apple]] announces [[Final Cut Pro]]. It's about time.
 
 ## [[2023-05-11]]
 
