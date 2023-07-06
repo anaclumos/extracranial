@@ -150,7 +150,7 @@ After all, there's **precedent** in the past...
 
 ### But This Isn't the First Time: MikeRoweSoft v. Microsoft
 
-Microsoft has a reputation for being a stickler for trademarks and rights. A case in point is the [2004 case where it filed a trademark infringement lawsuit against student Mike Rowe's domain, **MikeRoweSoft.com**](https://en.wikipedia.org/wiki/Microsoft_v._MikeRoweSoft), where Mike got a trademark complaint just like me. He declined first and settled for a small amount after a lengthy court battle. My situation was had a lot of similarities.
+Microsoft has a reputation for being a stickler for trademarks and rights. A case in point is the [2004 case where it filed a trademark infringement lawsuit against student Mike Rowe's domain, **MikeRoweSoft.com**](https://en.wikipedia.org/wiki/Microsoft_v._MikeRoweSoft), where Mike got a trademark complaint just like me. He declined first and settled for a small amount after a lengthy court battle. My situation had a lot of similarities.
 
 ### Conclusion
 
