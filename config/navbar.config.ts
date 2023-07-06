@@ -59,6 +59,12 @@ const navbar = {
       'aria-label': 'LinkedIn Account',
     },
     {
+      href: 'https://threads.net/@anaclumos',
+      position: 'right',
+      className: 'navbar-threads-link',
+      'aria-label': 'Threads Account',
+    },
+    {
       href: 'https://twitter.com/anaclumos',
       position: 'right',
       className: 'navbar-twitter-link',
