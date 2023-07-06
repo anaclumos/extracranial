@@ -153,10 +153,10 @@ mount: {
 - 웹앱이 업데이트되고 난 후 `_snowpack_/env.js`가 정상적으로 로딩됨을 확인했다. 하지만 여전히 `web_modules`는 404 Not Found가 나타났다.
 - create-snowpack-app을 쓸 경우 `.gitignore`에 `web_modues`가 추가되는 문제 때문이었다. 원래 `web_modules`는 GitHub에 `node_module`처럼 안 올라가야 맞는데, 지금의 경우에는 GitHub을 [[CDN]]처럼 활용하는 것으므로 `web_modules`가 필요하다.
 - 정상적으로 동작함을 확인했다.
-- 다만 [[Safari]]와 [[Firefox]]에서는 작동되지 않았다. "SharedArrayBuffer is not defined"이라는 오류가 발생했다.
+- 다만 [[Safari]]와 [[Firefox]]에서는 작동되지 않았다. "[[SharedArrayBuffer]] is not defined"이라는 오류가 발생했다.
 - 조사해본 결과 ffmpeg.wasm은 현재 [[Chrome]]에서만 동작하기 때문이라고 한다 ([참고 링크 1](https://github.com/ffmpegwasm/ffmpeg.wasm/issues/63#issuecomment-621103820).) [ffmpeg.wasm 공식 데모 사이트](https://ffmpegwasm.github.io/#demo)에 [[Safari]]나 [[Firefox]]로 접근하면 다음 오류가 나타난다.
 
-> Your [[Web Browser|browser]] doesn't support SharedArrayBuffer, thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other [[Web Browser|browser]] supports SharedArrayBuffer.
+> Your [[Web Browser|browser]] doesn't support [[SharedArrayBuffer]], thus ffmpeg.wasm cannot execute. Please use latest version of [[Chromium]] or any other [[Web Browser|browser]] supports [[SharedArrayBuffer]].
 
 ## 해결책 정리
 

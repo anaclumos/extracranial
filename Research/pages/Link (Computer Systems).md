@@ -14,7 +14,7 @@ aliases: ['Linker']
 
 ## Object Files
 
-- Relocatable (`.o`): Code + Data + Metadata
+- Relocatable (`.o`): Code + Data + [[Metadata]]
 - Executable (`./executable`): Binary that OS loader can read and execute
 - Shared Object File (`.so`): Dynamically linked at load & runtime
 

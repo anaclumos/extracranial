@@ -112,30 +112,30 @@ This research will contribute to developing a distributed intelligence system ca
 
 ### Abstract
 
-Traditional iframes face performance and security challenges, limiting their potential in the evolving internet-computer era. This research proposal aims to develop [[iiframe]], an improved iframe version that runs on Worker Threads, providing secure, high-performance multi-threading capabilities for web applications. By leveraging technologies such as Web Workers, SharedArrayBuffer, and [[WebAssembly]], [[iiframe]] will revolutionize how web applications are built and deployed, offering enhanced responsiveness, interactivity, and user experience.
+Traditional iframes face performance and security challenges, limiting their potential in the evolving internet-computer era. This research proposal aims to develop [[iiframe]], an improved iframe version that runs on [[Web Worker|Worker Threads]], providing secure, high-performance multi-threading capabilities for web applications. By leveraging technologies such as [[Web Worker|Web Workers]], [[SharedArrayBuffer]], and [[WebAssembly]], [[iiframe]] will revolutionize how web applications are built and deployed, offering enhanced responsiveness, interactivity, and user experience.
 
 ### Background
 
-The current iframe technology poses performance and security issues due to its single-threaded design and potential for cross-site scripting attacks. With advancements in web technologies such as Web Workers, SharedArrayBuffer, and [[WebAssembly]], we can create an improved iframe version that addresses these limitations and paves the way for secure, high-performance web applications.
+The current iframe technology poses performance and security issues due to its single-threaded design and potential for cross-site scripting attacks. With advancements in web technologies such as [[Web Worker|Web Workers]], [[SharedArrayBuffer]], and [[WebAssembly]], we can create an improved iframe version that addresses these limitations and paves the way for secure, high-performance web applications.
 
 ### Research Questions
 
-- How can we design and implement [[iiframe]], an improved iframe version that runs on Worker Threads and offers secure, high-performance multi-threading for web applications?
-- How can we leverage Web Workers, SharedArrayBuffer, and [[WebAssembly]] to optimize [[iiframe]]'s performance, responsiveness, and security?
+- How can we design and implement [[iiframe]], an improved iframe version that runs on [[Web Worker|Worker Threads]] and offers secure, high-performance multi-threading for web applications?
+- How can we leverage [[Web Worker|Web Workers]], [[SharedArrayBuffer]], and [[WebAssembly]] to optimize [[iiframe]]'s performance, responsiveness, and security?
 - What are the potential use cases and benefits of [[iiframe]] in the context of modern web applications and the internet-computer era?
 
 ### Methodology
 
-- Literature review: Conduct a comprehensive review of existing iframe technology and its limitations, as well as recent advancements in Web Workers, SharedArrayBuffer, and [[WebAssembly]].
-- Design [[iiframe]]: Develop a conceptual model for [[iiframe]], outlining its architecture, components, and communication mechanisms between Worker Threads and the main thread.
-- Implement [[iiframe]] prototype: Build a prototype of [[iiframe]] that leverages Web Workers, SharedArrayBuffer, and [[WebAssembly]] to offer secure, high-performance multi-threading for web applications.
+- Literature review: Conduct a comprehensive review of existing iframe technology and its limitations, as well as recent advancements in [[Web Worker|Web Workers]], [[SharedArrayBuffer]], and [[WebAssembly]].
+- Design [[iiframe]]: Develop a conceptual model for [[iiframe]], outlining its architecture, components, and communication mechanisms between [[Web Worker|Worker Threads]] and the main thread.
+- Implement [[iiframe]] prototype: Build a prototype of [[iiframe]] that leverages [[Web Worker|Web Workers]], [[SharedArrayBuffer]], and [[WebAssembly]] to offer secure, high-performance multi-threading for web applications.
 - Evaluate [[iiframe]] performance: Assess [[iiframe]]'s performance, responsiveness, and security by comparing it with traditional iframe technology in various web application scenarios.
 - Identify potential use cases: Explore the possible applications and benefits of [[iiframe]] in modern web development, particularly in the internet-computer era.
 
 ### Expected Outcomes
 
-- A comprehensive understanding of the limitations of traditional iframes and the potential of Web Workers, SharedArrayBuffer, and [[WebAssembly]] in addressing these issues.
-- A secure, high-performance [[iiframe]] prototype that runs on Worker Threads and offers multi-threading capabilities for web applications.
+- A comprehensive understanding of the limitations of traditional iframes and the potential of [[Web Worker|Web Workers]], [[SharedArrayBuffer]], and [[WebAssembly]] in addressing these issues.
+- A secure, high-performance [[iiframe]] prototype that runs on [[Web Worker|Worker Threads]] and offers multi-threading capabilities for web applications.
 - An evaluation of [[iiframe]]'s performance, responsiveness, and security compared to traditional iframe technology.
 - Identification of potential use cases and benefits of [[iiframe]] in the context of modern web applications and the internet-computer era.
 
