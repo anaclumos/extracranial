@@ -267,3 +267,9 @@ tracer.ai는 마이크로소프트가 고용한 브랜드권 보호 소프트웨
 </DisplayFlex>
 
 </details>
+
+<Admonition type="tip" title="마음에 드시나요?" icon="✅">
+
+커피챗은 언제나 환영입니다. [이메일](https://mailhide.io/e/IXndXpED) 보내주세요!
+
+</Admonition>

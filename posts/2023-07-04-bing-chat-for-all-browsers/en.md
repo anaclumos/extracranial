@@ -271,3 +271,9 @@ Weekly users over time. I had about 210K Chrome users and 20K Firefox user.
 </DisplayFlex>
 
 </details>
+
+<Admonition type="tip" title="Like My Work?" icon="✅">
+
+Let's chat! [Email](https://mailhide.io/e/IXndXpED) me to schedule a call.
+
+</Admonition>
