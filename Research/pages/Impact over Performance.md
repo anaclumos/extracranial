@@ -14,4 +14,10 @@ Short essay on [[2023-07-05]]:
 - Use [[boring technologies]]
 - [[Bootstrap]]
 - Deliver day 1
-- Sharable architectures
+- Sharable architectures: [[IDOL Stack]]
+- [[Antipreneur]]
+- [[Supergravity Products]]
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A super boring SaaS with $9,747 in monthly recurring revenue.<br/><br/>It converts your pdf bank statements into csv, xls.<br/><br/>👉 <a href="https://t.co/ARZEt2Ye4S">https://t.co/ARZEt2Ye4S</a><br/><br/>Good luck building your next web3 project 😂 <a href="https://t.co/GdCPLHiuhg">pic.twitter.com/GdCPLHiuhg</a></p>&mdash; Dimi ⚡ Startups.email (@tarasowski) <a href="https://twitter.com/tarasowski/status/1677197503018532865?ref_src=twsrc%5Etfw">July 7, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Over the weekend my side project, <a href="https://t.co/WBrKFiCovM">https://t.co/WBrKFiCovM</a>, blew up, becoming the #3 top referrer to <a href="https://twitter.com/vercel?ref_src=twsrc%5Etfw">@vercel</a> (second only to organic Google search and traffic from GitHub) 🤯 <a href="https://t.co/vQZmJUPIjT">pic.twitter.com/vQZmJUPIjT</a></p>&mdash; Steph Dietz (@steph_dietz_) <a href="https://twitter.com/steph_dietz_/status/1677328530613444610?ref_src=twsrc%5Etfw">July 7, 2023</a></blockquote>
