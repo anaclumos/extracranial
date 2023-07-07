@@ -734,6 +734,7 @@ export const backlinks = {
     },
     "Impact over Performance": {
         "2023-07-05": "- [[Impact over Performance]]",
+        "2023-07-07": "- [[Impact over Performance]]",
         "IDOL Stack": "- [[Impact over Performance]]"
     },
     "WidgetKit": {
@@ -6311,6 +6312,7 @@ export const backlinks = {
         "2023-03-05": "- [[Antipreneur]]",
         "2023-05-02": "... Powerful|강소기업을 만들고 싶다. 대기업이 아니라. [[Antipreneur|강소기업가]]가 되자.",
         "European Rhapsody": "[[Antipreneur]]",
+        "Impact over Performance": "- [[Antipreneur]]",
         "Pieter Levels": "... work in the realm of [[Antipreneur|digital nomadism]]. He's the creator of several ..."
     },
     "Building a Second Brain": {
@@ -7418,7 +7420,9 @@ export const backlinks = {
     },
     "Supergravity Products": {
         "2022-11-07": "- [[Supergravity Products]]",
-        "Captivating Products": "Making [[Supergravity Products]] and making them [[Fiercely Overpriced]] ..."
+        "2023-07-07": "- [[Supergravity Products]]",
+        "Captivating Products": "Making [[Supergravity Products]] and making them [[Fiercely Overpriced]] ...",
+        "Impact over Performance": "- [[Supergravity Products]]"
     },
     "Aldehyde Outage (January 2023)": {
         "2023-01-27": "- [[Aldehyde Outage (January 2023)]]",
