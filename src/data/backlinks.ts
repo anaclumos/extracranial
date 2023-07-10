@@ -712,7 +712,8 @@ export const backlinks = {
         "Grammarly Work Note 2023-06-07": "[[Grammarly Work Note]]",
         "Grammarly Work Note 2023-06-13": "[[Grammarly Work Note]]",
         "Grammarly Work Note 2023-06-23": "[[Grammarly Work Note]]",
-        "Grammarly Work Note 2023-07-06": "[[Grammarly Work Note]]"
+        "Grammarly Work Note 2023-07-06": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-07-10": "[[Grammarly Work Note]]"
     },
     "Cloudflare Pages": {
         "2023-01-27": "... had to migrate Extracranial to [[Cloudflare Pages]] for [[Vercel]] for now...",
@@ -8802,6 +8803,9 @@ export const backlinks = {
     "Love Firefox": {
         "2023-02-26": "- [[Love Firefox]]",
         "Love Software": "- [[Love Firefox]]"
+    },
+    "Grammarly Work Note 2023-07-10": {
+        "2023-07-10": "- [[Grammarly Work Note 2023-07-10]]"
     },
     "Meta Theme Color for Spacial Cognition": {
         "2022-11-11": "- [[Meta Theme Color for Spacial Cognition]]"
