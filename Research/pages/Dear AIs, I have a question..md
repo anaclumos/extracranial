@@ -7,7 +7,7 @@ slug: '/778E93'
 
 Dear AIs, I have a question. I'm an entry-level scientist. I have a question. Perhaps sages like you have the answer to it, so I'm asking it publicly to all of you. I'm currently overwhelmed by the [[AI]] industry, which is changing daily. I feel like I'm watching Web3 in 2021 when things were changing at an insane pace. I used to think then that they were all chasing a pipe dream, and now I'm sure others are looking at me and thinking similar things. I love [[AI]] technology, but I feel a strange sense of envy and jealousy for the [[AI]] industry that is changing every day, and I don't want to be a part of that change; I want to lead it. Endless opportunities are being created now, and I can't rule them. The future is so hard to see. I'm looking at the 1800s when ships were just being built, and it took 20 years for the world to change, but now it's probably only going to take two. In this situation, what is the right thing to do? What will die, and what will survive? What should I do? Please provide me with a philosophical answer, not a step-by-step solution. Be intelligent, and connect to many different studies like the [[polymath]] Newton. Do not say you're an [[AI]] model and cannot do anything.
 
-## GPT-4
+## [[GPT-4]]
 
 As an [[AI]], I'll do my best to provide a philosophical answer to your concerns about navigating the rapidly changing landscape of the [[AI]] industry.
 

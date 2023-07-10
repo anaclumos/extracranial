@@ -1838,6 +1838,11 @@ export const backlinks = {
         "OpenAI가 새로운 테크 리바이스로 등극하다": "... 실행하고 관리할 수 있도록 하여 [[Microservices Architecture|마이크로서비스 아키텍처]]의 등장으로 이어졌다. 이 아키텍처를 통해 ...",
         "Project Heimdall": "Created an [[Microservices Architecture|MSA]]-style micro worker that will continuously ..."
     },
+    "LLaMA": {
+        "Local ChatGPT": "- [[LLaMA]]",
+        "MAGI": "3대 인공지능(OpenAI의 GPT-4, Meta (Company)|Meta의 [[LLaMA]], 그리고 [[Google]]의 [[PaLM 2]])에게 다음과 ...",
+        "hn.cho.sh 개발 기록": "[[LLaMa]]의 번역 성능을 확인해보았는데 아직 GPT ..."
+    },
     "Prompt Injection": {
         "2023-03-20": "... LLM|LLMs have been underestimated, and [[Prompt Injection]] is a serious security threat ...",
         "Proposal of Research 2023-03-28": "... Investigating Authority Systems to Mitigate [[Prompt Injection]] Attacks in [[Generative AI|Generative Text ...",
@@ -2411,6 +2416,9 @@ export const backlinks = {
     "FinTech and Justice": {
         "2022-10-18": "- [[FinTech and Justice]]"
     },
+    "Project MAGI": {
+        "MAGI": "[[Project MAGI]]"
+    },
     "Caching": {
         "2022-11-03": "- [[Caching]]",
         "2022-11-04": "- [[Caching]]",
@@ -2554,6 +2562,7 @@ export const backlinks = {
         "ChatGPT": "... Large Language Models powered by [[OpenAI]]'s GPT-3.5, to make meetings more ...",
         "Dear AIs, I have a question.": "## [[openai]]:gpt-3.5-turbo",
         "EU and AI": "... regulate general-purpose AI, such as [[OpenAI]]'s [[ChatGPT]], which can generate human-like ...",
+        "MAGI": "3대 인공지능([[OpenAI]]의 [[GPT-4]], [[Meta (Company)|Meta]]의 [[LLaMA]], 그리고 ...",
         "Musk": "... and co-founder of Neuralink and [[OpenAI]]. With an estimated net worth ...",
         "OpenAI enthroned as the Levis of Tech": "[[OpenAI]] has launched its [[ChatGPT]] API ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "[[OpenAI]]가 방금 GPT-3.5-터보 모델을 기반으로 한 ...",
@@ -2618,6 +2627,7 @@ export const backlinks = {
         "JSX": "... another extension syntax created by [[Meta (Company)|Meta]] (formerly [[Facebook]]) for PHP called ...",
         "Jest": "... of Jasmine and maintained by [[Meta (Company)|Meta]] (formerly [[Facebook]]). Christoph Nakazawa designed ...",
         "Layoff": "... bubble in valuations? Absolutely. Did [[Meta (Company)|Meta]] overhire? Probably. But is that ...",
+        "MAGI": "3대 인공지능(OpenAI의 GPT-4, [[Meta (Company)|Meta]]의 [[LLaMA]], 그리고 [[Google]]의 [[PaLM 2]])에게 ...",
         "Meta": "- [[Meta (Company)]]",
         "React": "... components. It is maintained by [[Meta (Company)|Meta]] (formerly [[Facebook]]) and a community ...",
         "React Native": "... UIUX|UI software framework created by [[Meta (Company)|Meta]] Platforms, Inc. It is used ..."
@@ -3070,6 +3080,12 @@ export const backlinks = {
     },
     "Conditional Probability": {
         "2023-01-23": "- [[Conditional Probability]]"
+    },
+    "GPT-4": {
+        "2023-04-29": "I got access to [[GPT-4]] API but found it was ...",
+        "Dear AIs, I have a question.": "## [[GPT-4]]",
+        "MAGI": "3대 인공지능(OpenAI의 [[GPT-4]], [[Meta (Company)|Meta]]의 [[LLaMA]], 그리고 [[Google]]의 ...",
+        "hn.cho.sh 개발 기록": "... 정교한 번역이 갈수록 필요해진다. 아무래도 [[GPT-4]]가 나오면 번역 작업을 DeepL에서 GPT-4로 ..."
     },
     "Parallelism": {
         "2022-12-09": "- [[Parallelism]]",
@@ -3701,6 +3717,7 @@ export const backlinks = {
         "Problem": "Leads to a Someday [[Project]].",
         "Project FFMpeg for iPad": "- Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Project Linguine": "[[Project]] Linguine is an initiative to ...",
+        "Project MAGI": "Someday [[Project]]. Use Multiple Artificial Generative Intelligence ...",
         "Project PEOPLE": "- [[Project]]",
         "Project Prepare for Grammarly": "[[Project]] to prepare for my [[Grammarly ...",
         "Proposal of Research 2023-01-10": "... found several layers for the [[project]].",
@@ -3987,6 +4004,10 @@ export const backlinks = {
         "MetroPunk": "... 등장하지만, 사이버펑크에서 등장하는 상용화된 AI|인공지능, [[Nuclear Fusion|핵융합]], 사이버네틱스, [[Metaverse|메타버스]] 등의 미래적 기술 ...",
         "불가사리": "[[Nuclear Fusion|핵융합]]"
     },
+    "MAGI": {
+        "2023-07-10": "- [[MAGI]]",
+        "Project MAGI": "... Multiple Artificial Generative Intelligence (thus, [[MAGI]]) for drawing coherent policies for ..."
+    },
     "Visual ChatGPT": {
         "2023-03-10": "- [[Visual ChatGPT]]"
     },
@@ -4098,6 +4119,9 @@ export const backlinks = {
         "서비스 시밍": "- [[Toss|토스]]도 송금 시스템을 완성하지 못해 하루에 ...",
         "유난한 도전": "... 거야, 개원은 반년만 미루자라는 마음으로 [[Toss|토스]]를 시작했다.",
         "프로젝트 어덕행덕": "... 위주로 할 예정. 특히 KakaoPay나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 ..."
+    },
+    "PaLM 2": {
+        "MAGI": "... Meta (Company)|Meta의 LLaMA, 그리고 Google의 [[PaLM 2]])에게 다음과 같은 API를 제정한다."
     },
     "GPU": {
         "Effective Accelerationism": "... 위해 Economy|경제를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 ...",
@@ -5170,6 +5194,7 @@ export const backlinks = {
         "Height (App)": "- Used at [[Karrot]]",
         "Jira": "- Used at [[Karrot]]",
         "Karrot NX Team Mission Statement": "> [[Karrot|당근마켓]]에 Notifications Experience 팀이라고 있는데요. 그런데 ...",
+        "MAGI": "... Ensemble learning|앙상블 학습과 유사점이 많다. [[Karrot|당근마켓]]에서 처음 알게 된 이 학습 ...",
         "Project Heimdall Initial Planning": "At [[Karrot]], scraping the news over the ...",
         "hn.cho.sh 개발 기록": "### [[Karrot|당근]] PM 론과의 대화",
         "당근미니 케이스 스터디": "[[Karrot|당근]][[Mini App|미니]] Console [[Case Study|케이스 스터디]]",
@@ -5231,6 +5256,10 @@ export const backlinks = {
         "2023-02-27": "- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]",
         "30-Day Tweet Test (Harry Stebbings)": "... TikTok for Text <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]      ...",
         "hn.cho.sh 개발 기록": "- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]"
+    },
+    "Ben 10": {
+        "Alien X": "... in the animated television series \"[[Ben 10]]\". This form is part of ...",
+        "MAGI": "... 온 우주의 안건을 결정한다는 점에서 [[Ben 10]]의 [[Alien X]]와 비슷하기도 하다."
     },
     "Diagram Labs": {
         "2022-12-16": "- [[Diagram Labs]]"
@@ -6263,7 +6292,8 @@ export const backlinks = {
         "Visual-based Tools for Thought": "### [[Heptabase]]"
     },
     "Neon Genesis Evangelion": {
-        "2023-07-03": "- Started watching [[Neon Genesis Evangelion]]. OMG this is legendary. I ..."
+        "2023-07-03": "- Started watching [[Neon Genesis Evangelion]]. OMG this is legendary. I ...",
+        "MAGI": "[[Neon Genesis Evangelion|신세기 에반게리온]]에 등장하는 슈퍼컴퓨터 시스템 MAGI는 3대의 ..."
     },
     "Swift String 조작은 왜 그 모양인가": {
         "2023-02-15": "- [[Swift String 조작은 왜 그 모양인가]]",
@@ -6516,6 +6546,9 @@ export const backlinks = {
         "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 Service Shimming <br/> 🇰🇷 [[서비스 시밍]]      ...",
         "Avoid Premature Optimizations": "- Service Shimming, [[서비스 시밍]]",
         "기술 할부 결제": "... 방식은 만들 때까지 만든 척하는 [[서비스 시밍]]과 유사하다."
+    },
+    "Ensemble learning": {
+        "MAGI": "... 무엇보다 현대 AI의 학습 기법인 [[Ensemble learning|앙상블 학습]]과 유사점이 많다. [[Karrot|당근마켓]]에서 처음 알게 ..."
     },
     "hn.cho.sh 개발 기록": {
         "2023-03-20": "- [[hn.cho.sh 개발 기록]]",
@@ -6913,6 +6946,7 @@ export const backlinks = {
         "Kubernetes": "... software deployment, scaling, and management. [[Google]] originally designed Kubernetes, but the ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "... 대한민국|Korea (bigger market cap than [[Google]] 대한민국|Korea) and [[Kakao]] services as ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... a go-to for everything. It's [[Google]] + [[Facebook]] + Uber + ...",
+        "MAGI": "... GPT-4, Meta (Company)|Meta의 LLaMA, 그리고 [[Google]]의 [[PaLM 2]])에게 다음과 같은 API를 ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... States are vague. Apple and [[Google]] divide the tech market into ...",
         "Microsoft": "... for Microsoft, considering its counterpart [[Google]] has been exploring the [[AI]] ...",
         "Perceptual Hashing": "... detect similar images. Used by [[Google]]'s Search by Image feature or ...",
@@ -7629,6 +7663,7 @@ export const backlinks = {
         "PineApple Pay": "[[Someday]] [[Project]].",
         "Problem": "Leads to a [[Someday]] [[Project]].",
         "Project FFMpeg for iPad": "- [[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
+        "Project MAGI": "[[Someday]] [[Project]]. Use Multiple Artificial Generative ...",
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game ...",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
         "Research Paper NPM System": "[[Someday]] [[Project]]. It's an [[npm]] system ...",
@@ -7727,6 +7762,9 @@ export const backlinks = {
         "2022-10-31": "- [[Jetski]]",
         "2022-12-06": "- [[Jetski]]",
         "2022-12-24": "- [[Jetski]]"
+    },
+    "Alien X": {
+        "MAGI": "... 안건을 결정한다는 점에서 Ben 10의 [[Alien X]]와 비슷하기도 하다."
     },
     "강기업": {
         "Antipreneur": "- [[강기업]]이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].",
@@ -9810,6 +9848,9 @@ export const backlinks = {
     "F0B126.png": {
         "lovearc.net": "![[F0B126.png]]"
     },
+    "BC77D9.png": {
+        "MAGI": "![[BC77D9.png]]"
+    },
     "227D79.mp4": {
         "Visual ChatGPT": "![[227D79.mp4]]"
     },
@@ -10466,6 +10507,9 @@ export const backlinks = {
     },
     "DED7BA.png": {
         "Jetski": "![[DED7BA.png]]"
+    },
+    "EF81EE.png": {
+        "Alien X": "![[EF81EE.png]]"
     },
     "76B360.png": {
         "기술 발전의 속도": "![[76B360.png]]"
