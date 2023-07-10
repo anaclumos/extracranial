@@ -1460,7 +1460,7 @@ export const filenames = {
     "Super App": "81CE0D",
     "Super App and Democracy": "8794DD",
     "Superbrain": "4AED52",
-    "Supergravity Products": "BB903F",
+    "Supergravity Product": "BB903F",
     "Surfit": "5E26FF",
     "Survivorship Biased": "76B31C",
     "Svelte": "8D2E91",

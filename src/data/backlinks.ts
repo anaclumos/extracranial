@@ -735,7 +735,14 @@ export const backlinks = {
     "Impact over Performance": {
         "2023-07-05": "- [[Impact over Performance]]",
         "2023-07-07": "- [[Impact over Performance]]",
+        "2023-07-10": "- [[Impact over Performance]]",
         "IDOL Stack": "- [[Impact over Performance]]"
+    },
+    "Supergravity Product": {
+        "2022-11-07": "- [[Supergravity Product]]",
+        "2023-07-07": "- [[Supergravity Product]]",
+        "Captivating Products": "Making [[Supergravity Product]] and making them [[Fiercely Overpriced]] ...",
+        "Impact over Performance": "- [[Supergravity Product]]"
     },
     "WidgetKit": {
         "WWDC23": "- [[WidgetKit]] → Interactivity. Also possible to ..."
@@ -4110,7 +4117,7 @@ export const backlinks = {
         "Naver Pay": "- [[Toss]]",
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve ...",
         "Service Shimming": "- [[Toss]] (≈ [[대한민국|Korean]] Paypal) failed to ...",
-        "Supergravity Products": "... 친구에게 송금 쉬운 앱 o) [[Toss]]",
+        "Supergravity Product": "... 친구에게 송금 쉬운 앱 o) [[Toss]]",
         "Toss Product Sans": "- [[Toss]]의 [[Font|글꼴]]",
         "Tossface": "- Emoji Font by [[Toss]]",
         "Why Korean Banks Suck": "... new Financial Technology|fintech companies like [[Toss]] and KakaoBank has brought some ...",
@@ -5876,7 +5883,7 @@ export const backlinks = {
         "Autosave Everything": "How would it be [[Fiercely Overpriced]]?",
         "CELLO (Product)": "## How would it be [[Fiercely Overpriced]]?",
         "CalliFontia": "## [[Fiercely Overpriced]]",
-        "Captivating Products": "... Supergravity Products and making them [[Fiercely Overpriced]] are two ways of measuring ...",
+        "Captivating Products": "... Supergravity Product and making them [[Fiercely Overpriced]] are two ways of measuring ...",
         "Jetski": "- [[fiercely overpriced]]: time limit for recording. watermarks?",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... build it one day and [[Fiercely Overpriced|paywall]] it to install more than ...",
         "Letter to the Heptabase Team on 2022-10-11": "... considering there is still a [[Fiercely Overpriced|paywall]] upfront. However, I would love ...",
@@ -6973,7 +6980,7 @@ export const backlinks = {
     },
     "Ideas are worthless": {
         "2022-10-03": "- [[Ideas are worthless]]",
-        "Supergravity Products": "... 그걸 실제로 만드는 사람은 귀하다) [[Ideas are worthless]]",
+        "Supergravity Product": "... 그걸 실제로 만드는 사람은 귀하다) [[Ideas are worthless]]",
         "개성은 쟁취하는 것": "하지만 이제는 [[Ideas are worthless|정보의 존재보다 실체의 발현]]이 중요한 세상입니다.",
         "프로젝트 어덕행덕": "어차피 [[Ideas are worthless|아이디어는 가치가 없다]]."
     },
@@ -7451,12 +7458,6 @@ export const backlinks = {
     "Universal Identity": {
         "2022-10-27": "- [[Universal Identity]]",
         "Government Services should have full API support": "... course, we would need a [[Universal Identity]] and [[Interoperability]] to prevent any ..."
-    },
-    "Supergravity Products": {
-        "2022-11-07": "- [[Supergravity Products]]",
-        "2023-07-07": "- [[Supergravity Products]]",
-        "Captivating Products": "Making [[Supergravity Products]] and making them [[Fiercely Overpriced]] ...",
-        "Impact over Performance": "- [[Supergravity Products]]"
     },
     "Aldehyde Outage (January 2023)": {
         "2023-01-27": "- [[Aldehyde Outage (January 2023)]]",
@@ -8537,7 +8538,7 @@ export const backlinks = {
         "One and Only (Social App)": "... the world by creating a [[Super App]] in the US. China has ...",
         "One and only": "... all data into one place—the [[Super App]] approach.",
         "Super App and Democracy": "... technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will ...",
-        "Supergravity Products": "...  - 작은 아이디어 (금융 [[Super App|슈퍼 앱]] x 친구에게 송금 쉬운 앱 ...",
+        "Supergravity Product": "...  - 작은 아이디어 (금융 [[Super App|슈퍼 앱]] x 친구에게 송금 쉬운 앱 ...",
         "Texts": "Potential [[Super App]] for the [[United States of ...",
         "Toss": "... say the most innovative Financial [[Super App]] I've ever seen in [[대한민국|Korea]] ...",
         "Universal Identity": "- [[Super App]] accounts can be another. See ...",
