@@ -2425,7 +2425,7 @@ export const backlinks = {
         "2022-10-18": "- [[FinTech and Justice]]"
     },
     "Project MAGI": {
-        "MAGI": "[[Project MAGI]]"
+        "MAGI": "... 2)에게 다음과 같은 API를 제정한다: [[Project MAGI]]"
     },
     "Caching": {
         "2022-11-03": "- [[Caching]]",
@@ -4014,7 +4014,7 @@ export const backlinks = {
     },
     "MAGI": {
         "2023-07-10": "- [[MAGI]]",
-        "Project MAGI": "... Multiple Artificial Generative Intelligence (thus, [[MAGI]]) for drawing coherent policies for ..."
+        "Project MAGI": "... Multiple Autonomous GPT In-tandem (thus, [[MAGI]]) for drawing coherent policies for ..."
     },
     "Visual ChatGPT": {
         "2023-03-10": "- [[Visual ChatGPT]]"
@@ -4129,7 +4129,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "... 위주로 할 예정. 특히 KakaoPay나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 유료 ..."
     },
     "PaLM 2": {
-        "MAGI": "... Meta (Company)|Meta의 LLaMA, 그리고 Google의 [[PaLM 2]])에게 다음과 같은 API를 제정한다."
+        "MAGI": "... Meta (Company)|Meta의 LLaMA, 그리고 Google의 [[PaLM 2]])에게 다음과 같은 API를 제정한다: [[Project ..."
     },
     "GPU": {
         "Effective Accelerationism": "... 위해 Economy|경제를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 ...",
