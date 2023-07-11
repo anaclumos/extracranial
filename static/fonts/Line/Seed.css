@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'LINE Seed';
-  src: url('./WOFF2/LINESeedKR-Bd.woff2') format('woff2'), url('./WOFF/LINESeedKR-Bd.woff') format('woff');
+  src:
+    url('./WOFF2/LINESeedKR-Bd.woff2') format('woff2'),
+    url('./WOFF/LINESeedKR-Bd.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   unicode-range: U+AC00-D7AF;
@@ -9,7 +11,9 @@
 
 @font-face {
   font-family: 'LINE Seed';
-  src: url('./WOFF2/LINESeedKR-Rg.woff2') format('woff2'), url('./WOFF/LINESeedKR-Rg.woff') format('woff');
+  src:
+    url('./WOFF2/LINESeedKR-Rg.woff2') format('woff2'),
+    url('./WOFF/LINESeedKR-Rg.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   unicode-range: U+AC00-D7AF;
@@ -18,7 +22,9 @@
 
 @font-face {
   font-family: 'LINE Seed';
-  src: url('./WOFF2/LINESeedKR-Th.woff2') format('woff2'), url('./WOFF/LINESeedKR-Th.woff') format('woff');
+  src:
+    url('./WOFF2/LINESeedKR-Th.woff2') format('woff2'),
+    url('./WOFF/LINESeedKR-Th.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   unicode-range: U+AC00-D7AF;

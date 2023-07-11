@@ -8,7 +8,9 @@
   border-radius: 0.25rem;
   border-width: 1px;
   border-color: #9ca3af;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   margin-left: auto;
@@ -24,7 +26,9 @@
 [data-theme='dark'] .searchGoogleButton {
   background-color: rgb(118, 96, 35);
   border-color: #9ca3af;
-  box-shadow: 0 1px 3px 0 rgba(20, 20, 0, 0.1), 0 1px 2px 0 rgba(20, 20, 0, 0.06);
+  box-shadow:
+    0 1px 3px 0 rgba(20, 20, 0, 0.1),
+    0 1px 2px 0 rgba(20, 20, 0, 0.06);
 }
 
 [data-theme='dark'] .searchGoogleButton:hover {

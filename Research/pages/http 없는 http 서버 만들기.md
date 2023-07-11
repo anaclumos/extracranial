@@ -37,7 +37,7 @@ server.listen(8080)
 - project/public/index.html
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
