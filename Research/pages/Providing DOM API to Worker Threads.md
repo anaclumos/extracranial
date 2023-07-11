@@ -11,7 +11,7 @@ slug: '/C3CCC9'
 ## Start
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -75,7 +75,7 @@ This is so cool.
 ## Save Point 1
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
