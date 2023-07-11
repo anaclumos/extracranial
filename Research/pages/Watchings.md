@@ -22,6 +22,8 @@ import Shuffle from '@site/src/components/Shuffle'
 - [수리남](https://www.netflix.com/title/81416420)
 - [더 글로리](https://www.netflix.com/title/81519223)
 - [나는 신이다: 신이 배신한 사람들](https://www.netflix.com/title/81493078)
+- Neon Genesis Evangelion
+- The End of Evangelion
 
 </Shuffle>
 
