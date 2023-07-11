@@ -1448,6 +1448,7 @@ export const filenames = {
     "Storing sensitive data in iOS Apps": "30CC03",
     "Storybook": "BEDF93",
     "Strategy": "543BB1",
+    "Strictly Formatted Generative AI": "C22CAE",
     "Stripe Sessions 2023": "160B2B",
     "Structs and Unions": "9AF47D",
     "Styled Components": "AB8E82",
