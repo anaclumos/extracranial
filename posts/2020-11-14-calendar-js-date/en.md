@@ -58,7 +58,7 @@ Prettier helps write clean and neat codes with automatic formatting.
 
 ```html
 <!-- `index.html` -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

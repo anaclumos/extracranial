@@ -20,7 +20,7 @@ export const Globe = () => {
   if (!canvasRef) {
     return null
   }
-  const [api] = useSpring(() => ({
+  useSpring(() => ({
     r: 0,
     config: {
       mass: 0.1,
