@@ -8698,6 +8698,9 @@ export const backlinks = {
         "CELLO (Product)": "... confinement, as seen in most [[K-Pop App]].",
         "프로젝트 어덕행덕": "[[K-Pop App]]에 큰 실망을 하고 구상해본 가설적 ..."
     },
+    "Pyrrhus and Cinéas": {
+        "2023-07-11": "- [[Pyrrhus and Cinéas]]"
+    },
     "One and Only WebExtension": {
         "2023-02-26": "- [[One and Only WebExtension]]",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... a shower-thought if there was \"[[One and Only WebExtension]]\" for [[Firefox]] and [[Safari]]. It ..."

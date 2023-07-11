@@ -1291,6 +1291,7 @@ export const filenames = {
     "Public Transport": "E295D3",
     "Pull Request": "2FA1B7",
     "Pure Component Model": "59C7E5",
+    "Pyrrhus and Cinéas": "8D9BEE",
     "Python": "692460",
     "Q Function": "B4CD83",
     "QA.json": "9E7876",
