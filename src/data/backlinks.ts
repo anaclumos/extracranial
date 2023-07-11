@@ -742,7 +742,7 @@ export const backlinks = {
     "Supergravity Product": {
         "2022-11-07": "- [[Supergravity Product]]",
         "2023-07-07": "- [[Supergravity Product]]",
-        "2023-07-11": "[[Supergravity Product]]",
+        "2023-07-11": "- [[Supergravity Product]]",
         "Captivating Products": "Making [[Supergravity Product]] and making them [[Fiercely Overpriced]] ...",
         "Impact over Performance": "- [[Supergravity Product]]"
     },
@@ -4640,6 +4640,9 @@ export const backlinks = {
     },
     "Linux Commands": {
         "Internetworking": "- [[Linux Commands]]"
+    },
+    "Strictly Formatted Generative AI": {
+        "2023-07-11": "- [[Strictly Formatted Generative AI]]"
     },
     "Socket": {
         "Internetworking": "- [[Socket]]",
