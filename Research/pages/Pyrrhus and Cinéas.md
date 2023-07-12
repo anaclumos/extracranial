@@ -6,8 +6,8 @@ aliases:
     '피로스와 시네아스',
     'Pyrrhic victory',
     '피로스의 승리',
-    'Pyrrhus and Cineas',
-    'Pyrrhus et Cineas',
+    'Pyrrhus and Cinéas',
+    'Pyrrhus et Cinéas',
     'Pyrrhus et Cinéas',
   ]
 ---
@@ -19,23 +19,23 @@ import TabItem from '@theme/TabItem';
 <TabItem value="en" label="English 🇺🇸" lang="en-US" default>
 <div lang="en-US">
 
-**Pyrrhus and Cineas** is a philosophical essay by Simone de Beauvoir, a French philosopher, writer, and social theorist. Published in 1944, it was Beauvoir's first philosophical essay. The essay takes its name from the two historical figures, King Pyrrhus of Epirus and Cineas, his advisor, whose dialogue about ambition and the meaning of life is recounted in the work.
+**Pyrrhus and Cinéas** is a philosophical essay by Simone de Beauvoir, a French philosopher, writer, and social theorist. Published in 1944, it was Beauvoir's first philosophical essay. The essay takes its name from the two historical figures, King Pyrrhus of Epirus and Cinéas, his advisor, whose dialogue about ambition and the meaning of life is recounted in the work.
 
-> Now, there was a certain Cineas, a man of Thessaly, with a reputation for great wisdom, who had been a pupil of Demosthenes the orator and was quite the only public speaker of his day who was thought to remind his hearers, as a statue might, of that great orator's power and ability. Associating himself with Pyrrhus, and sent by him as ambassador to the cities, he confirmed the saying of Euripides, to wit, _All can be won by eloquence. That even the sword of warring enemies might gain._
+> Now, there was a certain Cinéas, a man of Thessaly, with a reputation for great wisdom, who had been a pupil of Demosthenes the orator and was quite the only public speaker of his day who was thought to remind his hearers, as a statue might, of that great orator's power and ability. Associating himself with Pyrrhus, and sent by him as ambassador to the cities, he confirmed the saying of Euripides, to wit, _All can be won by eloquence. That even the sword of warring enemies might gain._
 >
-> At any rate, Pyrrhus said that more cities had been won for him by the eloquence of Cineas than by his arms; and he continued to hold Cineas in special honor and demand his services. It was this Cineas, then, who, seeing that Pyrrhus was eagerly preparing an expedition at this time to Italy, and finding him at leisure for the moment, drew him into the following discourse. "The Romans, Pyrrhus, are said to be good fighters and to be rulers of many warlike nations; if, then, Heaven should permit us to conquer these men, how should we use our victory?"
+> At any rate, Pyrrhus said that more cities had been won for him by the eloquence of Cinéas than by his arms; and he continued to hold Cinéas in special honor and demand his services. It was this Cinéas, then, who, seeing that Pyrrhus was eagerly preparing an expedition at this time to Italy, and finding him at leisure for the moment, drew him into the following discourse. "The Romans, Pyrrhus, are said to be good fighters and to be rulers of many warlike nations; if, then, Heaven should permit us to conquer these men, how should we use our victory?"
 >
-> And Pyrrhus said: "Thy question, Cinéas, really needs no answer; the Romans once conquered, there is neither barbarian nor Greek city there which is a match for us, but we shall at once possess all Italy, the great size and richness and importance of which no man should know better than thyself." After a little pause, then, Cineas said: "And after taking Italy, King, what are we to do?"
+> And Pyrrhus said: "Thy question, Cinéas, really needs no answer; the Romans once conquered, there is neither barbarian nor Greek city there which is a match for us, but we shall at once possess all Italy, the great size and richness and importance of which no man should know better than thyself." After a little pause, then, Cinéas said: "And after taking Italy, King, what are we to do?"
 >
-> And Pyrrhus, not yet perceiving his intention, replied: "Sicily is near and holds out her hands to us, an island abounding in wealth and men, and very easy to capture, for all is faction there, her cities have no government, and demagogues are rampant now that Agathocles is gone." "What thou sayest," replied Cineas, "is probably true, but will our expedition stop with the taking of Sicily ?"
+> And Pyrrhus, not yet perceiving his intention, replied: "Sicily is near and holds out her hands to us, an island abounding in wealth and men, and very easy to capture, for all is faction there, her cities have no government, and demagogues are rampant now that Agathocles is gone." "What thou sayest," replied Cinéas, "is probably true, but will our expedition stop with the taking of Sicily ?"
 >
 > "Heaven grant us," said Pyrrhus, "victory and success so far, and we will make these contests but the preliminaries of great enterprises. For who could keep his hands off Libya or Carthage when that city got within his reach, a city which Agathocles, slipping stealthily out of Syracuse and crossing the sea with a few ships, narrowly missed taking? And when we have become masters here, no one of the enemies who now treat us with scorn will offer further resistance; there is no need to say that."
 >
-> "None whatever," said Cineas, "for it is plain that with so great a power, we shall be able to recover Macedonia and rule Greece securely. But when we have got everything subject to us, what are we going to do?" Then Pyrrhus smiled upon him and said: "We shall be much at ease, and we'll drink bumpers, my good man, every day, and we'll gladden one another's hearts with confidential talks."
+> "None whatever," said Cinéas, "for it is plain that with so great a power, we shall be able to recover Macedonia and rule Greece securely. But when we have got everything subject to us, what are we going to do?" Then Pyrrhus smiled upon him and said: "We shall be much at ease, and we'll drink bumpers, my good man, every day, and we'll gladden one another's hearts with confidential talks."
 >
-> And now that Cineas had brought Pyrrhus to this point in the argument, he said: "Then what stands in our way now if we want to drink bumpers and while away the time with one another? Surely this privilege is ours already, and we have at hand, without taking any trouble, those things to which we hope to attain by bloodshed and great toils and perils, after doing much harm to others and suffering much ourselves."
+> And now that Cinéas had brought Pyrrhus to this point in the argument, he said: "Then what stands in our way now if we want to drink bumpers and while away the time with one another? Surely this privilege is ours already, and we have at hand, without taking any trouble, those things to which we hope to attain by bloodshed and great toils and perils, after doing much harm to others and suffering much ourselves."
 >
-> By this reasoning of Cineas Pyrrhus was more troubled than he was converted; he saw plainly what great happiness he was leaving behind him, but was unable to renounce his hopes of what he eagerly desired.
+> By this reasoning of Cinéas Pyrrhus was more troubled than he was converted; he saw plainly what great happiness he was leaving behind him, but was unable to renounce his hopes of what he eagerly desired.
 
 </div>
 </TabItem>
