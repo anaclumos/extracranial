@@ -2,6 +2,10 @@ export const backlinks = {
     "2016-10-22": {
         "국제 계열과 계열 변경 이야기": "[[2016-10-22]]에 게재된 [[재학생일기]]이다."
     },
+    "2023-07-11": {
+        "Project Heimdall": "## [[2023-07-11]]",
+        "Project Heimdall Table Structure": "[[2023-07-11]] Version"
+    },
     "2022-07-11": {
         "2022-07-12": "On [[2022-07-11]], I analyzed that [[Brane]] is ...",
         "2022-07-19": "[[2022-07-11]]에 확인한 2가지 [[Scheduler|스케줄러]]를 확인한다."
@@ -493,6 +497,9 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "## [[2022-07-26]]",
         "Intracranial": "- [[2022-07-26]]"
     },
+    "2023-07-12": {
+        "Threads (Service)": "Thoughts on [[2023-07-12]]"
+    },
     "2019-10-13": {
         "잡스와 생존 편향": "[[2019-10-13]]의 에세이."
     },
@@ -519,7 +526,8 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- [[2020-04-01]]"
     },
     "2023-06-18": {
-        "Project Heimdall": "## [[2023-06-18]]"
+        "Project Heimdall": "## [[2023-06-18]]",
+        "Project Heimdall Table Structure": "[[2023-06-18]] Version"
     },
     "2020-11-06": {
         "프로젝트 어덕행덕": "- [[2020-11-06]]"
@@ -2221,6 +2229,7 @@ export const backlinks = {
         "Person 648442": "... about the fragmented nature of [[Twitter]].",
         "Regulation of Fake News": "... of America|United States government pressured [[Twitter]] to elevate certain content and ...",
         "Social Coding": "... model compared to LinkedIn (or [[Twitter]]",
+        "Threads (Service)": "- People I follow on [[Twitter]] are not my high school ...",
         "lovearc.net": "1. practice with [[Twitter]] scraping technologies",
         "유난한 도전": "... 약간의 입질이 오자 홈페이지를 열고 [[Twitter|트위터]]에 링크를 올리니 반응이 확실했다."
     },
@@ -2639,7 +2648,8 @@ export const backlinks = {
         "MAGI": "3대 인공지능(OpenAI의 GPT-4, [[Meta (Company)|Meta]]의 [[LLaMA]], 그리고 [[Google]]의 [[PaLM 2]])에게 ...",
         "Meta": "- [[Meta (Company)]]",
         "React": "... components. It is maintained by [[Meta (Company)|Meta]] (formerly [[Facebook]]) and a community ...",
-        "React Native": "... UIUX|UI software framework created by [[Meta (Company)|Meta]] Platforms, Inc. It is used ..."
+        "React Native": "... UIUX|UI software framework created by [[Meta (Company)|Meta]] Platforms, Inc. It is used ...",
+        "Threads (Service)": "... EU market with minimum regulations. [[Meta (Company)|FB]] will Meta (Company)|FB anyways, which ..."
     },
     "Optimistic Nihilism": {
         "2022-08-04": "### [[Optimistic Nihilism]]",
@@ -3432,7 +3442,8 @@ export const backlinks = {
         "2022-10-10": "- [[Tools I will use one day]]. Found tremor."
     },
     "ActivityPub": {
-        "2022-10-10": "- [[ActivityPub]]"
+        "2022-10-10": "- [[ActivityPub]]",
+        "Threads (Service)": "... with the AT protocol (Bluesky), [[ActivityPub]] protocol ([[Mastodon]]), and the [[Matrix ..."
     },
     "Case Study": {
         "Rauno": "- [[Case Study]]",
@@ -4316,7 +4327,8 @@ export const backlinks = {
         "WWDC23": "- [[Game Porting Toolkit]] → automatic HLSL conversion"
     },
     "Bluesky": {
-        "After Steve": "... The school called it the \"[[Bluesky|blue sky]]\" project, a name that encouraged ..."
+        "After Steve": "... The school called it the \"[[Bluesky|blue sky]]\" project, a name that encouraged ...",
+        "Threads (Service)": "... interoperate with the AT protocol ([[Bluesky]]), [[ActivityPub]] protocol ([[Mastodon]]), and the ..."
     },
     "Inliner": {
         "2022-10-04": "- [[Inliner]]"
@@ -7407,7 +7419,8 @@ export const backlinks = {
         "Probability": "- [[Distribution]]"
     },
     "Fediverse": {
-        "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People ..."
+        "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People ...",
+        "Threads (Service)": "... significant contributor would be the [[Fediverse]]. If they can interoperate with ..."
     },
     "Turing Machine": {
         "Assembly": "It follows how [[Turing Machine]]s would work in the real ...",
@@ -7691,10 +7704,12 @@ export const backlinks = {
         "2023-03-06": "- [[EU]]",
         "AIs.txt": "... for ML|machine learning, aligning with [[EU]] Copyright Directives.",
         "EU and AI": "The [[EU]] is grappling with how to ...",
+        "European Rhapsody": "... a 'Hostile State' due to [[EU]] regulations, stemming from a Silicon ...",
         "GDPR": "... The General Data Protection Regulation ([[EU]]) (GDPR) is a regulation in ...",
         "Memory Hierarchy": "| United States of America\\|US-[[EU]] Roundtrip | 150ms   ...",
         "PECR": "... subscriber. The law implements an [[EU]] directive, the Privacy and Electronic ...",
-        "Plausible Analytics": "... Made and hosted in the [[EU]], powered by European-owned cloud infrastructure ..."
+        "Plausible Analytics": "... Made and hosted in the [[EU]], powered by European-owned cloud infrastructure ...",
+        "Threads (Service)": "... PR show to enter the [[EU]] market with minimum regulations. [[Meta ..."
     },
     "Standard Cauchy": {
         "2023-03-07": "- [[Standard Cauchy]]"
@@ -7991,7 +8006,8 @@ export const backlinks = {
         "2022-12-21": "- [[Mastodon]]",
         "2023-01-13": "- Medium joins [[Mastodon]]",
         "Architecture of Mastodon": "- [[Mastodon]]",
-        "Self-hosted SaaS Alternatives": "... You could always do with [[Mastodon]] does and eschew analytics entirely."
+        "Self-hosted SaaS Alternatives": "... You could always do with [[Mastodon]] does and eschew analytics entirely.",
+        "Threads (Service)": "... AT protocol (Bluesky), ActivityPub protocol ([[Mastodon]]), and the [[Matrix Network]] (Instant ..."
     },
     "MessagePack": {
         "2022-07-11": "Candidates include [[MessagePack]] and [[CBOR]].",
@@ -8044,6 +8060,10 @@ export const backlinks = {
     },
     "Snowpack으로 WASM 시작하기": {
         "2022-11-19": "  - [[Snowpack으로 WASM 시작하기]]"
+    },
+    "AT protocol": {
+        "Bluesky": "... an open-source framework called the [[AT Protocol]], which allows transparency and external ...",
+        "Threads (Service)": "... they can interoperate with the [[AT protocol]] ([[Bluesky]]), [[ActivityPub]] protocol ([[Mastodon]]), and ..."
     },
     "Person 392196": {
         "Project PEOPLE": "- [[Person 392196]]"
@@ -8147,6 +8167,7 @@ export const backlinks = {
     },
     "Threads (Service)": {
         "2023-07-05": "[[Threads (Service)]] App is out! Sunghyun Cho ...",
+        "2023-07-12": "Thoughts on [[Threads (Service)|Threads]]",
         "Meta (Company)": "- [[Threads (Service)]]",
         "Threads": "Not to be confused with [[Threads (Service)]]"
     },
@@ -8308,7 +8329,8 @@ export const backlinks = {
     },
     "Matrix Network": {
         "2023-03-16": "- [[Matrix Network]]",
-        "Beeper": "Uses [[Matrix Network]]: Matrix is the holy grail ..."
+        "Beeper": "Uses [[Matrix Network]]: Matrix is the holy grail ...",
+        "Threads (Service)": "... ActivityPub protocol (Mastodon), and the [[Matrix Network]] (Instant Messaging Standard), Threads will ..."
     },
     "CITATION.cff": {
         "2023-04-27": "- [[CITATION.cff]]"
@@ -8446,6 +8468,7 @@ export const backlinks = {
         "2023-06-21": "- [[Project Heimdall]]",
         "2023-06-26": "- [[Project Heimdall]]",
         "2023-06-27": "- [[Project Heimdall]]",
+        "2023-07-11": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
@@ -10760,6 +10783,9 @@ export const backlinks = {
     },
     "3E60AC.gif": {
         "Project Heimdall": "![[3E60AC.gif]]"
+    },
+    "6D3186.png": {
+        "Project Heimdall": "![[6D3186.png]]"
     },
     "371542.png": {
         "Database vs Datalake": "![[371542.png]]"
