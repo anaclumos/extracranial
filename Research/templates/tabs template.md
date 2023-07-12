@@ -1,11 +1,11 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
-<TabItem value="ko" label="English 🇺🇸" lang="en-US" default>
+<Tabs groupId="lang" queryString>
+<TabItem value="en" label="English 🇺🇸" lang="en-US" default>
 
 </TabItem>
-<TabItem value="en" label="한국어 🇰🇷" lang="ko-KR">
+<TabItem value="ko" label="한국어 🇰🇷" lang="ko-KR">
 
 </TabItem>
 </Tabs>
