@@ -3,6 +3,96 @@ lang: 'en'
 slug: '/25C308'
 ---
 
+[[2023-07-11]] Version
+
+```mermaid
+erDiagram
+    User ||--o{ UserCredential : "HAS"
+    User ||--o{ Subscription : "SUBSCRIBES"
+    User ||--o{ Newsletter : "CREATES"
+    Subscription ||--o{ Newsletter : "SUBSCRIBED_TO"
+    Newsletter ||--o{ Summary : "HAS"
+
+    User {
+        int id
+        string name
+        string timezone
+        string handle
+        string email
+        string webAuthnChallenge
+        string hashedPassword
+        string salt
+        string resetToken
+        datetime resetTokenExpiresAt
+        datetime createdAt
+        datetime updatedAt
+        boolean deleted
+    }
+
+    UserCredential {
+        string id
+        int userId
+        byte publicKey
+        string transports
+        bigint counter
+        boolean deleted
+    }
+
+    Newsletter {
+        int id
+        string handle
+        string name
+        string keyword
+        string region
+        int userId
+        datetime createdAt
+        datetime updatedAt
+        boolean deleted
+    }
+
+    Subscription {
+        int id
+        int userId
+        int curatedNewsletterId
+        int newsletterId
+        string frequency
+        string time
+        string length
+        string locale
+        boolean active
+        datetime createdAt
+        datetime updatedAt
+        boolean deleted
+    }
+
+    Summary {
+        int id
+        string title
+        string origin
+        string originBody
+        string originSummary
+        string originLocale
+        string commentLink
+        string commentBody
+        string commentSummary
+        string commentLocale
+        string downloadMethod
+        int retryCount
+        datetime createdAt
+        datetime updatedAt
+        boolean deleted
+    }
+
+```
+
+<details>
+
+<summary>
+
+[[2023-06-18]] Version
+
+</summary>
+
 ```mermaid
 erDiagram
   User }o--o{ Subscription : ""
@@ -97,3 +187,5 @@ erDiagram
   }
 
 ```
+
+</details>

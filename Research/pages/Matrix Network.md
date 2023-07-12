@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/EEDB6C'
 ---
 
-I always wanted to create a social group for my core audience, but Discord was too sassy
+I always wanted to create a social group for my core audience, but Discord was too sassy...
 
 [Matrix](https://matrix.org/) is an open-source protocol for secure, decentralized, real-time communication. It provides a flexible and versatile platform for various communication services, such as instant messaging, VoIP, and the Internet of Things (IoT). The Matrix.org Foundation, a non-profit organization, maintains the project and its reference implementations.
 
