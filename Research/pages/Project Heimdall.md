@@ -51,15 +51,15 @@ Implemented Nav bar!
 
 - Implemented Login with Clerk
 - ![[7BF55A.gif]]
-- The `useLocaleRedirect` caused some problems when a user lands on Heimdall in a non-English locale context and logged in
+- The `useLocaleRedirect` caused some problems when a user landed on Heimdall in a non-English locale context and logged in
   - Clerk needs some initial load time, for example, 2s, for the Clerk Login SDK to load
-  - After logging in, conditionally loading `<SignIn>` caused an Error on Clerk, that rendering `<SignIn>` when users are logged in is illegal. Thus, Clerk was redirected to the default locale. This happened within the after 2 seconds when Clerk figured that it was logged in, and when React was unmounting the `<SignIn>` widget.
+  - After logging in, conditionally loading `<SignIn>` caused an Error on Clerk, that rendering `<SignIn>` when users are logged in is illegal. Thus, Clerk was redirected to the default locale. This happened within the next 2 seconds when Clerk figured that it was logged in and when React was unmounting the `<SignIn>` widget.
   - Because `useLocaleRedirect` sends to English by default, the original locale will be lost
   - To get over this, I created two features:
     - Save to local storage on the user's locale
     - redirect within the `useEffect` hook (Warning: Cannot update during an existing state transition (such as within `render`). Render methods should be a pure function of props and state.)
     - ![[11C976.png]]
-- Also used HOC to inject callback when `<SignIn>` gets dismissed. I have to do this? Really?
+- Also used HOC to inject callback when `<SignIn>` gets dismissed. Do I have to do this? Really?
 
   ````tsx
   const withUnmountFunction = (WrappedComponent, onUnmount) => {
@@ -84,8 +84,8 @@ Implemented Nav bar!
 
 ## [[2023-06-26]]
 
-- Implemented [Create PostgreSQL DB Tables & ORM · Issue #24 · anaclumos/heimdall](https://github.com/anaclumos/heimdall/issues/24)
-- How can we scrape the web, with JavaScript enabled? Problems are Access Restricted SPAs like Twitter.
+- Implemented [Create PostgreSQL DB Tables and ORM · Issue #24 · anaclumos/heimdall](https://github.com/anaclumos/heimdall/issues/24)
+- How can we scrape the web with JavaScript enabled? Problems are Access Restricted SPAs like Twitter.
 - [Inngest - Effortless serverless queues, background jobs, and workflows](https://www.inngest.com/)
 - [Turns websites into data — Microlink](https://microlink.io/)
 - [microlinkhq/browserless](https://github.com/microlinkhq/browserless): browserless is an efficient way to interact with a headless browser built in top of Puppeteer.
@@ -98,3 +98,24 @@ Implemented Nav bar!
 Created an [[Microservices Architecture|MSA]]-style micro worker that will continuously fetch, load, and summarize [[Hacker News|HN]] contents!
 
 ![[3E60AC.gif]]
+
+## [[2023-07-11]]
+
+I was very close to shutting down all small locales. It costs too much while driving me so little value. People are spamming the newsletter mailing list by enrolling in all lists. I thought all small locale lists were like that so far. But then... I found one Danish user.
+
+![[6D3186.png]]
+
+This person was the only one on the Danish list.
+
+But... it changed my mind. I was moved. Ok... I'll keep the small-medium sprachraums.
+
+Every hour, the processor will:
+
+- For all newsletter that is
+  - non-deleted
+  - has a non-deleted subscriber
+- Get content from the web
+- Generate Summary
+- Send Email
+
+Also, instead of having one newsletter that could be transformed into many languages, let's start with 30 different newsletters covering the same content. That is, separating the linguistic UI from the newsletter content. So in a Korean interface, you can go to Hacker News Japanese version and read the content accordingly.
