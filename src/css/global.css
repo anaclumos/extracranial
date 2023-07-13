@@ -23,13 +23,6 @@ h4 {
   letter-spacing: -0.025em;
 }
 
-thead,
-tbody {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-}
-
 .theme-code-block,
 pre,
 code {
