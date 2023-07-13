@@ -463,6 +463,10 @@ export const backlinks = {
     "2023-01-16": {
         "하늘땅사람 개발 기록": "## [[2023-01-16]]"
     },
+    "2023-07-13": {
+        "Project Heimdall": "## [[2023-07-13]]",
+        "Project Linguine": "## [[2023-07-13]]"
+    },
     "2022-07-13": {
         "0021 Merge Two Sorted Lists": "Solved at: [[2022-07-13]]",
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]"
@@ -1889,6 +1893,10 @@ export const backlinks = {
         "2022-12-28": "- Facebook Notifications [[Data Science]] team at [[Meta (Company)|Meta]]",
         "AI-native": "... However, it also requires specialized [[data science]], [[ML]], and [[cloud computing]] skills. ...",
         "Deepnote": "- [[Data Science]] [[Collaboration-based Tools for Thought]]."
+    },
+    "Linguine Engine Test Drive Result 2023-07-13": {
+        "Project Heimdall": "Completed the Project Linguine Engine: [[Linguine Engine Test Drive Result 2023-07-13]]",
+        "Project Linguine": "[[Linguine Engine Test Drive Result 2023-07-13]]"
     },
     "Letter to Mr. Alexander Obenauer on 2022-10-12": {
         "2022-10-12": "- [[Letter to Mr. Alexander Obenauer on 2022-10-12]]",
@@ -8470,6 +8478,7 @@ export const backlinks = {
         "2023-06-26": "- [[Project Heimdall]]",
         "2023-06-27": "- [[Project Heimdall]]",
         "2023-07-11": "- [[Project Heimdall]]",
+        "2023-07-13": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
