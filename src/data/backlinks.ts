@@ -7463,7 +7463,8 @@ export const backlinks = {
         "기술 발전의 속도": "당시에도 나는 [[Photoshop for Text]]를 상상하며 언젠가 미래에 도래할 텍스트 ..."
     },
     "Nuclear Fission": {
-        "2022-10-18": "- [[Nuclear Fission]]"
+        "2022-10-18": "- [[Nuclear Fission]]",
+        "2023-07-13": "- [[Nuclear Fission]]"
     },
     "Hive Metastore": {
         "Grammarly Work Note 2023-07-06": "- [[Hive Metastore]]"
