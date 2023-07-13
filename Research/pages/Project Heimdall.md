@@ -119,3 +119,7 @@ Every hour, the processor will:
 - Send Email
 
 Also, instead of having one newsletter that could be transformed into many languages, let's start with 30 different newsletters covering the same content. That is, separating the linguistic UI from the newsletter content. So in a Korean interface, you can go to Hacker News Japanese version and read the content accordingly.
+
+## [[2023-07-13]]
+
+Completed the [[Project Linguine]] Engine: [[Linguine Engine Test Drive Result 2023-07-13]]
