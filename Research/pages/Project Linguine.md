@@ -129,7 +129,7 @@ So, in conclusion:
 | `my` Myanmar (Burmese)             | `Bing`   |
 | `ne` Nepali                        | `Bing`   |
 | `nl` Dutch                         | `DeepL`  |
-| `no` Norwegian                     | `DeepL`  |
+| `nb` Norwegian Bokmål              | `DeepL`  |
 | `nso` Sepedi                       | `Google` |
 | `ny` Nyanja (Chichewa)             | `Google` |
 | `om` Oromo                         | `Google` |
@@ -189,3 +189,7 @@ So, in conclusion:
 4. There can be a button to request translation. Maybe this can be a pro feature?
 
 While comparing offerings, I found that `nb` and `no` are both used in the Norwegian Langauge. Interesting.
+
+## [[2023-07-13]]
+
+[[Linguine Engine Test Drive Result 2023-07-13]]
