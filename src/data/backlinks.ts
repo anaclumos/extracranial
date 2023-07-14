@@ -3449,6 +3449,9 @@ export const backlinks = {
         "2022-08-04": "- [[Tools I will use one day]]",
         "2022-10-10": "- [[Tools I will use one day]]. Found tremor."
     },
+    "Timed Terminal Commands": {
+        "2023-07-14": "[[Timed Terminal Commands]]"
+    },
     "ActivityPub": {
         "2022-10-10": "- [[ActivityPub]]",
         "Threads (Service)": "... with the AT protocol (Bluesky), [[ActivityPub]] protocol ([[Mastodon]]), and the [[Matrix ..."
@@ -5939,7 +5942,8 @@ export const backlinks = {
         "Menu Hover Effects": "- Cool UIUX [[Lesser Known Trick]].",
         "Redirecting READMEs": "[[Lesser Known Trick]]. It's a symlink. [[How does ...",
         "Setting different images for Light & Dark mode": "[[Lesser Known Trick]]",
-        "Sudo with Touch ID": "[[Lesser Known Trick]]"
+        "Sudo with Touch ID": "[[Lesser Known Trick]]",
+        "Timed Terminal Commands": "[[Lesser Known Trick]]. Add this to `~/.zshrc` or ..."
     },
     "Aldehyde Backlinks Outage (January 2023)": {
         "2023-01-30": "- [[Aldehyde Backlinks Outage (January 2023)]]",
