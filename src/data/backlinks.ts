@@ -42,6 +42,9 @@ export const backlinks = {
     "2016-11-28": {
         "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "[[2016-11-28]]에 게재된 [[재학생일기]]이다."
     },
+    "2023-07-15": {
+        "Project Heimdall": "## [[2023-07-15]]"
+    },
     "2016-07-01": {
         "식영부원의 관점에서 바라본 치킨데이": "[[2016-07-01]]에 게재된 [[재학생일기]]이다."
     },
@@ -528,6 +531,9 @@ export const backlinks = {
     },
     "2020-04-01": {
         "프로젝트 어덕행덕": "- [[2020-04-01]]"
+    },
+    "2023-07-16": {
+        "Project Heimdall": "## [[2023-07-16]]"
     },
     "2023-06-18": {
         "Project Heimdall": "## [[2023-06-18]]",
@@ -2787,7 +2793,8 @@ export const backlinks = {
     },
     "Psychohistory": {
         "2023-02-19": "- [[Psychohistory]]",
-        "30-Day Tweet Test (Harry Stebbings)": "| 02-19 | 🇬🇧 [[Psychohistory]] <br/> 🇰🇷 [[심리역사학]]   ..."
+        "30-Day Tweet Test (Harry Stebbings)": "| 02-19 | 🇬🇧 [[Psychohistory]] <br/> 🇰🇷 [[심리역사학]]   ...",
+        "Black-Scholes Model": "- Very interesting connections with [[Psychohistory]] [[심리역사학]]"
     },
     "민사고": {
         "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "2016년 [[민사고|민족사관고등학교]]로 새로 오신 교장 선생님이셨다.",
@@ -4815,7 +4822,8 @@ export const backlinks = {
     },
     "심리역사학": {
         "2023-02-19": "- [[심리역사학]]",
-        "30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Psychohistory <br/> 🇰🇷 [[심리역사학]]      ..."
+        "30-Day Tweet Test (Harry Stebbings)": "... | 🇬🇧 Psychohistory <br/> 🇰🇷 [[심리역사학]]      ...",
+        "Black-Scholes Model": "... Very interesting connections with Psychohistory [[심리역사학]]"
     },
     "AI 단톡방": {
         "글감": "- [[AI 단톡방]]"
@@ -6715,7 +6723,8 @@ export const backlinks = {
         "Databricks AI Summit 2023": "- [[Databricks AI Summit 2023 Databricks Session]]"
     },
     "Useful ChatGPT Prompts": {
-        "2023-04-10": "- [[Useful ChatGPT Prompts]]"
+        "2023-04-10": "- [[Useful ChatGPT Prompts]]",
+        "Make GPT Print LaTeX": "[[Useful ChatGPT Prompts]]"
     },
     "P-series Test": {
         "2023-01-31": "- [[P-series Test]]"
@@ -7867,6 +7876,7 @@ export const backlinks = {
     },
     "Standard Normal": {
         "2023-03-07": "- [[Standard Normal]]",
+        "Black-Scholes Model": "... can model the market with [[Standard Normal]]. ",
         "Normal Tables": "... table, also known as a [[standard normal]] table or a z-table, is ...",
         "Q Function": "... the tail probability of the [[standard normal]] distribution, also known as the ..."
     },
@@ -8483,6 +8493,8 @@ export const backlinks = {
         "2023-06-27": "- [[Project Heimdall]]",
         "2023-07-11": "- [[Project Heimdall]]",
         "2023-07-13": "- [[Project Heimdall]]",
+        "2023-07-15": "[[Project Heimdall]]",
+        "2023-07-16": "[[Project Heimdall]]: Float UI - Free open ...",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
@@ -8673,6 +8685,9 @@ export const backlinks = {
     },
     "ChromeOS Packer": {
         "2023-03-06": "- [[ChromeOS Packer]]"
+    },
+    "Black-Scholes Model": {
+        "2023-07-16": "[[Black-Scholes Model]]"
     },
     "React App on GitHub Pages": {
         "2022-11-19": "  - [[React App on GitHub Pages]]"
