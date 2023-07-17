@@ -10,11 +10,11 @@ slug: '/CC8297'
   - Battery design, testings, mass productions
 - Make sure that information on LinkedIn and resume is consistent.
 - Didn't have many exams during college:
-  - Capstone at Amazon Robotics.
-- Ethics intertwines with technology. Is creating Amazon Warehouse Robots unethical?
+  - Capstone at [[Amazon]] Robotics.
+- Ethics intertwines with technology. Is creating [[Amazon]] Warehouse Robots unethical?
   - Some believe so, that it takes jobs away from humans
-  - But what's the point of keeping the job if Amazon is already treating the employees like lifeless robots?
-  - "Amazon overall was an unethical company to work at"
+  - But what's the point of keeping the job if [[Amazon]] is already treating the employees like lifeless robots?
+  - "[[Amazon]] overall was an unethical company to work at"
 - Internships in CAD and Uber Autopilot program.
 - Mechanical Engineers usually interview design knowledge.
 - Initial phone screening and eight 45-minutes interviews.
