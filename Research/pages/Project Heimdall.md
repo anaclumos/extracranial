@@ -123,3 +123,11 @@ Also, instead of having one newsletter that could be transformed into many langu
 ## [[2023-07-13]]
 
 Completed the [[Project Linguine]] Engine: [[Linguine Engine Test Drive Result 2023-07-13]]
+
+## [[2023-07-15]]
+
+twitter과 마스토돈 따로 다루기
+
+## [[2023-07-16]]
+
+[Float UI - Free open source Tailwind UI components & Templates](https://floatui.com/)
