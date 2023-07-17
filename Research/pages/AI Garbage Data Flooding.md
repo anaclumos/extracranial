@@ -5,7 +5,7 @@ slug: '/F33662'
 
 ### [Drowning in AI-Generated Garbage: the silent war we are fighting](https://ploum.net/2022-12-05-drowning-in-ai-generated-garbage.html)
 
-- From now on, we must treat anything we see on the Internet as potential [[AI]] garbage. The picture gallery from an artist? The very cool sounding answer on Stackoverflow? This article in the newspaper? This short viral video? Is this book on Amazon? They are all potential [[AI]] garbage
+- From now on, we must treat anything we see on the Internet as potential [[AI]] garbage. The picture gallery from an artist? The very cool sounding answer on Stackoverflow? This article in the newspaper? This short viral video? Is this book on [[Amazon]]? They are all potential [[AI]] garbage
 - Fascinating garbage but garbage nonetheless
 
 ### [Fake books - lcamtuf's thing](https://lcamtuf.substack.com/p/fake-books)

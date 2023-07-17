@@ -900,6 +900,10 @@ export const backlinks = {
     "0067 Add Binary": {
         "Coding Tests": "- [x] [[0067 Add Binary]]"
     },
+    "EC2": {
+        "AWS": "[[EC2]]",
+        "Monolith": "... scalable instances provided by Amazon [[EC2]] and Amazon ECS. This architectural ..."
+    },
     "Link (Computer Systems)": {
         "2022-12-08": "- [[Link (Computer Systems)]]",
         "Symbol (Computer Systems)": "... and weak symbols combined, the [[Link (Computer Systems)|linker]] chooses the strong one.",
@@ -1417,7 +1421,8 @@ export const backlinks = {
         "Better Obsidian": "- [[Developing Review Notes for Obsidian]]"
     },
     "Blitzscaling": {
-        "2022-06-06": "- [[Blitzscaling]] will not work, starting now. ..."
+        "2022-06-06": "- [[Blitzscaling]] will not work, starting now. ...",
+        "LAH Case Study": "... 그리고 그렇게 만든 플랫폼 사업으로 [[Blitzscaling|패시브 블리츠스케일링]]하는 것이다. 다만 한국 시장에서 블리츠스케일링을 ..."
     },
     "Neo": {
         "Grotesque": "## [[Neo]]-grotesque",
@@ -1903,6 +1908,10 @@ export const backlinks = {
     "Linguine Engine Test Drive Result 2023-07-13": {
         "Project Heimdall": "Completed the Project Linguine Engine: [[Linguine Engine Test Drive Result 2023-07-13]]",
         "Project Linguine": "[[Linguine Engine Test Drive Result 2023-07-13]]"
+    },
+    "우아한테크캠프": {
+        "http 없는 http 서버 만들기": "[[우아한테크캠프]] 2일차 [[Project|프로젝트]] 중 http 모듈 ...",
+        "배달의민족": "[[우아한테크캠프]]"
     },
     "Letter to Mr. Alexander Obenauer on 2022-10-12": {
         "2022-10-12": "- [[Letter to Mr. Alexander Obenauer on 2022-10-12]]",
@@ -3625,6 +3634,19 @@ export const backlinks = {
     "Central Limit Theorem": {
         "Probability": "- [[Central Limit Theorem]]"
     },
+    "Amazon": {
+        "AI Garbage Data Flooding": "... video? Is this book on [[Amazon]]? They are all potential AI ...",
+        "DNS": "When navigating to www.[[amazon]].com, the client asks",
+        "EC2": "[[Amazon]] Elastic Compute Cloud",
+        "Google": "... American information technology companies, alongside [[Amazon]], [[Apple]], [[Meta (Company)|Meta]], and [[Microsoft]]. ...",
+        "Kindle": "> [[Amazon]] Kindle is a series of ...",
+        "Kinesis": "[[Amazon]] Kinesis is a fully managed ...",
+        "Monolith": "... video streaming service offered by [[Amazon]], implemented a tool to monitor ...",
+        "Person 392196": "- [[Amazon]]",
+        "Person CC8297": "  - Capstone at [[Amazon]] Robotics.",
+        "Using an iPad as my Ebook": "... lacks 대한민국|Korean titles. Knowing that [[Amazon]] loses money for each Kindle ...",
+        "쿠팡": "... often referred to as the \"[[Amazon]] of South Korea.\" The company ..."
+    },
     "Math-based Coding": {
         "2022-09-05": "- [[Math-based Coding]]",
         "Real Exams": "- 1 [[Math-based Coding]]"
@@ -3894,6 +3916,7 @@ export const backlinks = {
         "2022-06-28": "- [[한민족|Koreans]] have a sharp question obsession ...",
         "2022-07-05": "... 대한민국|한국 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 ...",
         "2023-02-15": "- [[한민족]]",
+        "2023-06-23": "- [[한민족]]이라는 관념을 사랑했던 것일까.",
         "Born of this Land - The Founding Story of Hyundai": "... project would have prevented other [[한민족|Korean]] construction companies from entering overseas ...",
         "Brunch violates SF terms of use": "- [[한민족|Korean]] writing service [[Brunch]] violates [[Apple]]'s ...",
         "Imoogi and Dragon Company": "... Dragon 🐉 company, as in [[한민족|Korean]] folklore.",
@@ -4575,9 +4598,11 @@ export const backlinks = {
     "한국인": {
         "2022-07-05": "... 수학자로서는 최초 수상이다. 이전까지 한민족|한국계나 [[한국인]]이 이 상을 받은 적은 없었다.",
         "2023-02-15": "- [[한국인]]",
+        "2023-06-23": "- 나는 [[한국인]]들을 사랑했던 것일까.",
         "국가와 민족": "- 한민족|한국계와 [[한국인]]이 다르다. 한민족|한국계는 [한민족]을 뜻하며, 한국인은 ...",
         "도로명주소": "[[한국인]]에게 무슨 일이 일어나거나 생활하는 단위는 ...",
         "민사고": "... 높으신 분들은 자기가 친한 '본토 [[한국인]]'들만 요직에 앉혔다고. 그로 인해 학교에 ...",
+        "박정희": "> 박정희의 가장 큰 공은 [[한국인]]에게 '우리도 할 수 있다'는 희망을 ...",
         "이완용": "... 희망으로 일본인들을 환영하였다. 그 당시 [[한국인]]들은 일본이 부패한 정부 관리들을 엄격히 ...",
         "헤이그 특사": "... 희망으로 일본인들을 환영하였다. 그 당시 [[한국인]]들은 일본이 부패한 정부 관리들을 엄격히 ..."
     },
@@ -4925,6 +4950,7 @@ export const backlinks = {
         "Karrot": "> 당근마켓(Karrot)은 [[대한민국]]의 중고 거래, 소상공인 홍보 등 ...",
         "Korean Discount": "The [[대한민국|Korea]] discount is a term that ...",
         "Krafton Way": "좁은 [[대한민국|한국]] 시장에서 벗어나, 해외 시장에 곧바로 ...",
+        "LAH Case Study": "흥미롭다. 아마 [[대한민국]]에서 스타트업을 하는 사람들은 대부분 이런 ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in [[대한민국|Korea]], [[Naver]], and [[Kakao]].",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... from 서울|Seoul to Daejeon in [[대한민국|Korea]], and I just got this ...",
         "Metadream": "... data centers in Singapore, 일본|Japan, [[대한민국|Korea]], and the [[United States of ...",
@@ -5228,7 +5254,7 @@ export const backlinks = {
         "Project Core ML Inference": "... transfer data from one Hadoop [[Clustering|cluster]] to another?"
     },
     "Karrot": {
-        "2022-05-31": "... 레거시 기업들에 빗대고 싶진 않지만, [[Karrot|당근마켓]] + 배달의민족 + 쿠팡이라고 생각하면 ...",
+        "2022-05-31": "... 레거시 기업들에 빗대고 싶진 않지만, [[Karrot|당근마켓]] + [[배달의민족]] + [[쿠팡]]이라고 생각하면 ...",
         "2022-06-14": "- [[Karrot|당근]] 베타 [[Project|프로젝트]]에서 [[Karrot]] Frame 데모 ...",
         "2022-08-03": "... to get an internship at [[Karrot]] four months ago.",
         "2023-02-21": "- [[Karrot]]",
@@ -7357,6 +7383,11 @@ export const backlinks = {
         "2023-03-19": "- [[Newtonian Correspondence]]",
         "2023-03-31": "- [[Newtonian Correspondence]]"
     },
+    "쿠팡": {
+        "2022-05-31": "... 않지만, Karrot|당근마켓 + 배달의민족 + [[쿠팡]]이라고 생각하면 됩니다. -",
+        "2023-07-17": "- [[쿠팡]]",
+        "Blitzscaling": "... market with platform power like [[쿠팡]] or [[배달의민족]]."
+    },
     "Zenly Playbook": {
         "2023-02-03": "- [[Zenly Playbook]]",
         "30-Day Tweet Test (Harry Stebbings)": "| 02-03 | 🇬🇧 [[Zenly Playbook]] <br/> 🇰🇷 [[젠리의 성공 공식]] ...",
@@ -7799,6 +7830,16 @@ export const backlinks = {
     "CCPA": {
         "Plausible Analytics": "... and fully compliant with GDPR, [[CCPA]], and [[PECR]]. Made and hosted ...",
         "Simple Analytics": "- GDPR, PECR, [[CCPA]] Compliant"
+    },
+    "배달의민족": {
+        "2022-05-31": "... 빗대고 싶진 않지만, Karrot|당근마켓 + [[배달의민족]] + [[쿠팡]]이라고 생각하면 됩니다. -",
+        "2023-07-17": "- [[배달의민족]]",
+        "Blitzscaling": "... platform power like 쿠팡 or [[배달의민족]].",
+        "Service Shimming": "- [[배달의민족|Woowa Bros]] (≈ [[대한민국|Korean]] Doordash) failed to ...",
+        "민사고": "... 고등학교를 졸업하자마자 대학 입학 전 [[배달의민족|우아한형제들]]에서 코딩테스트랑 기술면접까지 생짜로 통과하고 인턴으로 ...",
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "... 퍼블리셔라는 직군이 있는 회사도 있습니다. [[배달의민족|우아한형제들]]은 어떤가요?",
+        "배달의민족 FE 개발자가 일하는 법 발표": "2020년 7월 15일 [[배달의민족]] 김민태 개발자님께서 발표해주신 내용 전부를 ...",
+        "서비스 시밍": "- [[배달의민족]]도 주문 시스템을 완성하지 못해 앱으로 ..."
     },
     "Jetski": {
         "2022-10-31": "- [[Jetski]]",
@@ -8269,6 +8310,9 @@ export const backlinks = {
         "2023-02-09": "- [[컴퓨터는 향정신성 약물인가]]",
         "30-Day Tweet Test (Harry Stebbings)": "... Computers Psychotropic Substances <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]]      ..."
     },
+    "LAH Case Study": {
+        "2023-07-17": "- [[LAH Case Study]]"
+    },
     "Pragmatic Engineer": {
         "2022-06-21": "## Today's [[Pragmatic Engineer]]",
         "2022-07-14": "## Today's [[Pragmatic Engineer]]"
@@ -8383,6 +8427,11 @@ export const backlinks = {
         "2023-02-17": "- [[Tech Now Pay Later]]",
         "30-Day Tweet Test (Harry Stebbings)": "| 02-17 | 🇬🇧 [[Tech Now Pay Later]] <br/> 🇰🇷 [[기술 할부 결제]] ...",
         "Avoid Premature Optimizations": "- [[Tech Now Pay Later]] [[기술 할부 결제]]"
+    },
+    "박정희": {
+        "2023-07-17": "- [[박정희]]",
+        "Born of this Land - The Founding Story of Hyundai": "## President [[박정희|Park Chung-hee]]",
+        "이 땅에 태어나서": "## [[박정희]]"
     },
     "Medium": {
         "2023-01-13": "- [[Medium]] joins [[Mastodon]]",
@@ -9430,6 +9479,9 @@ export const backlinks = {
     },
     "ABD734.png": {
         "Developing Review Notes for Obsidian": "![[ABD734.png]]"
+    },
+    "222464.gif": {
+        "Blitzscaling": "![[222464.gif]]"
     },
     "4B9CF4.png": {
         "Rewind": "![[4B9CF4.png]]",
@@ -10773,6 +10825,15 @@ export const backlinks = {
     },
     "392747.png": {
         "솟대": "![[392747.png]]"
+    },
+    "784BE1.png": {
+        "LAH Case Study": "![[784BE1.png]]"
+    },
+    "FE52AF.png": {
+        "LAH Case Study": "![[FE52AF.png]]"
+    },
+    "3D775A.png": {
+        "LAH Case Study": "![[3D775A.png]]"
     },
     "47B4B6.png": {
         "Railway": "![[47B4B6.png]]"
