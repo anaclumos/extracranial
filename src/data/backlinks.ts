@@ -7876,7 +7876,7 @@ export const backlinks = {
     },
     "Standard Normal": {
         "2023-03-07": "- [[Standard Normal]]",
-        "Black-Scholes Model": "... can model the market with [[Standard Normal]]. ",
+        "Black-Scholes Model": "... can model the market with [[Standard Normal]].",
         "Normal Tables": "... table, also known as a [[standard normal]] table or a z-table, is ...",
         "Q Function": "... the tail probability of the [[standard normal]] distribution, also known as the ..."
     },
@@ -8494,7 +8494,7 @@ export const backlinks = {
         "2023-07-11": "- [[Project Heimdall]]",
         "2023-07-13": "- [[Project Heimdall]]",
         "2023-07-15": "[[Project Heimdall]]",
-        "2023-07-16": "[[Project Heimdall]]: Float UI - Free open ...",
+        "2023-07-16": "- [[Project Heimdall]]: Float UI - Free open ...",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
@@ -8687,7 +8687,7 @@ export const backlinks = {
         "2023-03-06": "- [[ChromeOS Packer]]"
     },
     "Black-Scholes Model": {
-        "2023-07-16": "[[Black-Scholes Model]]"
+        "2023-07-16": "- [[Black-Scholes Model]]"
     },
     "React App on GitHub Pages": {
         "2022-11-19": "  - [[React App on GitHub Pages]]"
