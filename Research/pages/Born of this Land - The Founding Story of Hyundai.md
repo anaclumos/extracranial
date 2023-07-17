@@ -61,7 +61,7 @@ Jung believes [[대한민국|Korea]] can become the center of Asia and a future 
 
 Jung Joo-young is constantly thinking about what to do with his tail. He harbors and nurtures multiple thoughts and multitasks them. For example, while working on a [[project]] for the [[United States of America|US]] military, Jung simultaneously thinks that Jung needs to get a government contract and that Jung needs to go to an overseas market soon. This desire to do big things is a source of energy for entrepreneurs.
 
-## President Park Chung-hee
+## President [[박정희|Park Chung-hee]]
 
 Although President Park was a flawed leader who came to power through a coup d'état, Jung admired Park's determination and commitment to national development, as well as his intelligence and thoroughness in implementing it. Park accurately assessed the state of the [[한민족|Korean]] [[economy]] at the time and made bold, groundbreaking decisions to modernize the [[economy]]. Park decided to trust [[한민족|Korean]] entrepreneurs, who had no experience and a weak foundation, and the government guaranteed the payment of foreign loans based on business plans submitted by entrepreneurs. There was no other thought for Jung but to help the president, selflessly thinking of the country.
 
