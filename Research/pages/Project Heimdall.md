@@ -131,3 +131,10 @@ twitter과 마스토돈 따로 다루기
 ## [[2023-07-16]]
 
 [Float UI - Free open source Tailwind UI components & Templates](https://floatui.com/)
+
+## [[2023-07-17]]
+
+I am having trouble dealing with the Subscription Recurrence problem. Given a subscription table, how would I find all currently scheduled jobs?
+
+- iCalendar RFC 5545?
+- Cron notation?

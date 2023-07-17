@@ -439,6 +439,9 @@ export const backlinks = {
     "2023-05-03": {
         "Passkey": "... Google is GA as of [[2023-05-03]]"
     },
+    "2023-07-17": {
+        "Project Heimdall": "## [[2023-07-17]]"
+    },
     "2020-02-15": {
         "프로젝트 어덕행덕": "- [[2020-02-15]]"
     },
@@ -8544,6 +8547,7 @@ export const backlinks = {
         "2023-07-13": "- [[Project Heimdall]]",
         "2023-07-15": "[[Project Heimdall]]",
         "2023-07-16": "- [[Project Heimdall]]: Float UI - Free open ...",
+        "2023-07-17": "- [[Project Heimdall]]",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
