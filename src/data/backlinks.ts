@@ -8435,7 +8435,6 @@ export const backlinks = {
         "Avoid Premature Optimizations": "- [[Tech Now Pay Later]] [[기술 할부 결제]]"
     },
     "박정희": {
-        "2023-07-17": "- [[박정희]]",
         "Born of this Land - The Founding Story of Hyundai": "## President [[박정희|Park Chung-hee]]",
         "이 땅에 태어나서": "## [[박정희]]"
     },
