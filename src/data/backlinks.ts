@@ -1050,6 +1050,9 @@ export const backlinks = {
     "Digital Bookmarks for Physical Books": {
         "2023-01-09": "- [[Digital Bookmarks for Physical Books]]"
     },
+    "Grammarly Work Note 2023-07-17": {
+        "2023-07-17": "- [[Grammarly Work Note 2023-07-17]]"
+    },
     "Bikeshed": {
         "2023-04-27": "- [[Bikeshed]]"
     },
