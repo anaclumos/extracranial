@@ -27,7 +27,7 @@ Even when Jung experienced a massive fire and was in debt, he pushed forward wit
 
 ## Disillusionment with politics and authority
 
-During the [[한민족|Korean]] War, Jung was deeply disappointed by how politicians treated the war casually. He also felt that the country's interests were neglected due to incompetent governments during the development of the modern era. He believes people who can do a good job should be given positions. Instead, every time there is political upheaval, the new regime, to comfort the people and cover up its weaknesses, arrests coddled businesspeople and falsely accuses businesspeople of fraudulent hoarding and tax evasion. Due to the government's lack of integrity, businesses have been prejudiced against. Unfortunately, many people have fallen into the irony that they don't want companies to grow, even though they want them to grow so [[대한민국|Korea]] can compete in the global [[economy]].
+During the [[한민족|Korean]] War, Jung was deeply disappointed by how politicians treated the war casually. He also felt that the country's interests were neglected due to incompetent governments during the development of the modern era. He believes people who can do a good job should be given positions. Instead, every time there is political upheaval, the new regime, to comfort the people and cover up its weaknesses, arrests coddled businesspeople and falsely accuses businesspeople of fraudulent hoarding and [[tax]] evasion. Due to the government's lack of integrity, businesses have been prejudiced against. Unfortunately, many people have fallen into the irony that they don't want companies to grow, even though they want them to grow so [[대한민국|Korea]] can compete in the global [[economy]].
 
 ## Efficiency is Key
 
@@ -43,7 +43,7 @@ In the early days of Hyundai Auto Services, Jung charged high repair fees by sho
 
 ## Entrepreneurship
 
-Jung believed that the purpose of a company is not only to pursue profit but also to contribute to national and social development. To this end, he argued that companies should pursue growth and profit and fulfill customer satisfaction and social responsibility. Companies are not there to increase the wealth of any individual but to contribute to the future of a more developed country and a more prosperous life for the people while contributing a large share of the taxes used for national welfare.
+Jung believed that the purpose of a company is not only to pursue profit but also to contribute to national and social development. To this end, he argued that companies should pursue growth and profit and fulfill customer satisfaction and social responsibility. Companies are not there to increase the wealth of any individual but to contribute to the future of a more developed country and a more prosperous life for the people while contributing a large share of the [[Tax|taxes]] used for national welfare.
 
 Jung rejects the argument that the size of companies is a problem, saying that it is essential to strengthening their growth and competitiveness (i.e., Too Big To Fall.) He emphasizes that the problem is companies that monopolize domestic markets and sell domestic products at prices higher than the international competition. Companies should grow by satisfying customers and fulfilling their social responsibilities.
 
@@ -83,7 +83,7 @@ Jung was proud of his contribution to [[대한민국|Korea]]'s economic developm
 
 ## Ownership
 
-In-house retained earnings are often cited as one of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do not pay dividends to shareholders but instead retain the profits in the company, causing the company's stock price to be lower than the market price. While this is known to be a social problem of the current day and age, Jung back in the days held that in-house retention is better than dividends. He believed that creating a company owned by shareholders would make the rich richer and that a reliable centralized company should be built to contribute to society. Again, this may be due to the social status of that time.
+In-house retained earnings are often cited as one of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do not pay dividends to shareholders but instead retain the profits in the company, causing the company's [[stock]] price to be lower than the market price. While this is known to be a social problem of the current day and age, Jung back in the days held that in-house retention is better than dividends. He believed that creating a company owned by shareholders would make the rich richer and that a reliable centralized company should be built to contribute to society. Again, this may be due to the social status of that time.
 
 ## Rural Modernization and Food Self-sufficiency
 

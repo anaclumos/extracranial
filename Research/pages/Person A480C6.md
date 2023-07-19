@@ -7,7 +7,7 @@ slug: '/A480C6'
 - Currently works at [[Apple]], [[Apple]] Silicon Team
 - Studied Electrical Engineering in school
   - Took a lot of science classes
-  - MS in Chips
+  - [[Microsoft|MS]] in Chips
 - Works as an SoC Engineer
   - Joined the M1 team just before the announcement
   - Worked on the A16 chip this year (2022)

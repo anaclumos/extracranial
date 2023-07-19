@@ -39,7 +39,7 @@ slug: '/8B4F7C'
 ### [Rethinking the PDF](https://matt-rickard.com/rethinking-the-pdf)
 
 - It's founder, John Warnock (co-founder of Adobe), prototyped a compatibility layer where documents would look and, most importantly, print (!) the same regardless of the computer they were viewed on ([1993 video](https://www.youtube.com/watch?v=qRrpyY8KPWE)). _This is the [[PDF]]._
-- The "killer app" for [[PDF]] was tax returns - the [[IRS]] adopted [[PDF]] in 1996 because of a rumored frustration with the [[United States of America|US]] Postal Service.
+- The "killer app" for [[PDF]] was [[tax]] returns - the [[IRS]] adopted [[PDF]] in 1996 because of a rumored frustration with the [[United States of America|US]] Postal Service.
 - Things that lack:
   - Enterprise-grade [[OCR]] for [[PDF]] documents still doesn't exist in 2022, albeit having state-of-the-art computer vision techniques.
   - Interactive and web-enabled forms. Sometimes it saves without the data filled in

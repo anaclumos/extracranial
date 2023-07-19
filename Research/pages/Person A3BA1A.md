@@ -13,7 +13,7 @@ The [[Venture Capital|VC]] side tool and the Startup side tool.
 [[Venture Capital|VC]] investment procedures are old and antiquated.
 It is done through handwriting, fax, and [[Mail|email]].
 An [[American]] company, Carta, already dominates the [[United States of America|U.S.]] market.
-But unlike regulated stock markets, Private Equity regulations vastly differ across markets.
+But unlike regulated [[stock]] markets, Private Equity regulations vastly differ across markets.
 Considering that, Carta cannot ever penetrate the [[대한민국|Korean]] market.
 The essential advantage is speed.
 Competitors in this [[Venture Capital|VC]] scene are slow.

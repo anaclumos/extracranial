@@ -5,7 +5,7 @@ slug: '/529EDD'
 
 Technical debt is a metaphorical term used in software development that refers to the cost of delaying necessary software maintenance, updates, or improvements to prioritize other tasks, such as meeting deadlines or delivering new features. Just as financial debt incurs interest, technical debt also accrues interest in increased complexity, decreased productivity, and increased risk of errors or failures.
 
-We always think **tech debt** is terrible. But as [Soojin Ro pointed out](https://soojin.ro/blog/technical-debt), we learn a thing in Finance 101.
+We always think **tech debt** is terrible. But as [Soojin Ro pointed out](https://soojin.ro/blog/technical-debt), we learn a thing in [[Finance]].
 
 $$
 \text{asset} = \text{equity} + \text{liability}

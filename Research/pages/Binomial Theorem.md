@@ -29,7 +29,7 @@ $\lim\limits_{n \to \infty} ({1 + x \over n})^n = e^x$
 ## $\text{until}^\text{*}$
 
 - $1^{\text{st}}$ success → geometric
-- $r^{\text{th}}$ success → negative binomial
+- $r^{\text{th}}$ success → [[negative binomial]]
 
 In [[Probability]],
 
