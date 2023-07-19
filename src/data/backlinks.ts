@@ -928,7 +928,8 @@ export const backlinks = {
         "LavaLab Cohort of Spring 2023": "... with technical details — like [[Channel.io]] level easy."
     },
     "JavaScript heap out of memory": {
-        "2023-05-24": "- [[JavaScript heap out of memory]]"
+        "2023-05-24": "- [[JavaScript heap out of memory]]",
+        "2023-07-19": "- [[JavaScript heap out of memory]]"
     },
     "창의는 평온에서 나온다": {
         "2023-04-05": "[[창의는 평온에서 나온다]]"
@@ -2004,8 +2005,8 @@ export const backlinks = {
         "Regulation of Fake News": "- [[태백산맥 계획]]"
     },
     "Mutual Fund": {
-        "Finance": "- [[Mutual Fund]] ",
-        "Index Fund": " These are like [[Mutual Fund|mutual funds]], but they're managed by a ..."
+        "Finance": "- [[Mutual Fund]]",
+        "Index Fund": "These are like [[Mutual Fund|mutual funds]], but they're managed by a ..."
     },
     "Mundivagant": {
         "2023-04-09": "[[Mundivagant]]"
@@ -5965,7 +5966,7 @@ export const backlinks = {
         "Engine Equation": "... take in resources such as [[Tax|taxes]], labor, and natural resources and ...",
         "FIRE": "... Toss Payments Systems due to [[tax]] & governance issues",
         "Finance": "- [[Tax]]",
-        "IRA vs 401k": "    - Pre-[[tax]] Contributions: The money you put ...",
+        "IRA vs 401k": "   - Pre-[[tax]] Contributions: The money you put ...",
         "IRS": "... United States of America|U.S. federal [[Tax|taxes]] and administering the Internal Revenue ...",
         "On National Crises and the Intellectuals — Focused on GB and KR": "... package of welfare cuts and [[tax]] cuts, which she ultimately took ...",
         "Screenshot as an API": "... \"killer app\" for PDF was [[tax]] returns - the [[IRS]] adopted ...",
