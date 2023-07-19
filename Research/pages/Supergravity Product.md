@@ -25,7 +25,9 @@ aliases: ['Boring Product']
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Over the weekend my side project, <a href="https://t.co/WBrKFiCovM">https://t.co/WBrKFiCovM</a>, blew up, becoming the #3 top referrer to <a href="https://twitter.com/vercel?ref_src=twsrc%5Etfw">@vercel</a> (second only to organic Google search and traffic from GitHub) 🤯 <a href="https://t.co/vQZmJUPIjT">pic.twitter.com/vQZmJUPIjT</a></p>&mdash; Steph Dietz (@steph_dietz_) <a href="https://twitter.com/steph_dietz_/status/1677328530613444610?ref_src=twsrc%5Etfw">July 7, 2023</a></blockquote>
 
-<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">좋은 스타트업 아이디어는 보통 <br/>- 작은 아이디어 (금융수퍼앱x 친구에게 송금쉬운 앱o) <br/>- 한마디로 설명 가능 (5초 이상 설명해야하면 대부분x)<br/>- 만들면 첫날에 쓸 사람 이름 대기 가능</p>&mdash; 설이원 (@e1e1e1_31) <a href="https://twitter.com/e1e1e1_31/status/1555809375712792576?ref_src=twsrc%5Etfw">August 6, 2022</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">
+좋은 스타트업 아이디어는 보통 <br/>- 작은 아이디어 ([[Finance|금융]]수퍼앱x 친구에게 송금쉬운 앱o)
+<br/>- 한마디로 설명 가능 (5초 이상 설명해야하면 대부분x)<br/>- 만들면 첫날에 쓸 사람 이름 대기 가능</p>&mdash; 설이원 (@e1e1e1_31) <a href="https://twitter.com/e1e1e1_31/status/1555809375712792576?ref_src=twsrc%5Etfw">August 6, 2022</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Pretty remarkable (in a good way) how little GitHub&#39;s core design system has evolved in a decade.<br/><br/>First screenshot taken in 2013; second one in 2023! <a href="https://t.co/v0xsoyi5Ds">pic.twitter.com/v0xsoyi5Ds</a></p>&mdash; Justin Duke (@jmduke) <a href="https://twitter.com/jmduke/status/1678071544751464448?ref_src=twsrc%5Etfw">July 9, 2023</a></blockquote>
 

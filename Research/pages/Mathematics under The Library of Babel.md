@@ -34,7 +34,7 @@ len: 1327
 
 - Not a drastic difference
 - Can we trim even further?
-- I tried making a Python script to backtrack the combinations.
+- I tried making a [[Python]] script to backtrack the combinations.
 - Killed by the [[OS]] for using too much RAM
 
 ```bash

@@ -11,7 +11,7 @@ slug: '/52F47B'
 - Could there be a tech recession? Yes. Was there a bubble in valuations? Absolutely. Did [[Meta (Company)|Meta]] overhire? Probably. But is that why they are laying people off? Of course not. [[Meta (Company)|Meta]] has plenty of money. These companies are all making money. They are doing it because other companies are doing it
 - What are some myths or misunderstandings about layoffs
 - Layoffs often do not cut costs, as there are many instances of laid-off employees being hired back as contractors
-- Layoffs often do not increase stock prices, in part because layoffs can signal that a company is having difficulty
+- Layoffs often do not increase [[stock]] prices, in part because layoffs can signal that a company is having difficulty
 - Layoffs do not increase productivity. Layoffs do not solve what is often the underlying problem, which is often an ineffective [[strategy]], a loss of market share, or too little revenue. Layoffs are basically a bad decision
 - We ought to place a higher priority on human life
 

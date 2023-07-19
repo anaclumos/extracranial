@@ -21,7 +21,7 @@ The proliferation of digital cartography has greatly impacted the way geographic
 4. Data integration: Digital maps often require data integration from multiple sources and formats.
 5. Generalization: Simplifying complex geographic information for digital maps enhances legibility and usability.
 6. Data visualization: Effectively representing geographic data in digital maps requires careful consideration of symbology, color schemes, and layering.
-7. Legal and ethical considerations: Digital maps can sometimes involve privacy, intellectual property, and data ownership issues.
+7. Legal and ethical considerations: Digital maps can sometimes involve privacy, [[IP|intellectual property]], and data ownership issues.
 8. [[Accessibility]] and usability: Creating digital maps accessible to users with different abilities and devices is essential.
 
 Despite these challenges, digital maps have revolutionized how we access and use geographic information.
@@ -45,13 +45,13 @@ Felt supports various use cases, including planning, technology, consulting, dis
 Mapbox is a platform that provides mapping, navigation, and location-based services for developers. Its primary offerings include:
 
 1.  Logistics: The Matrix API enables automatic calculation of travel distances and ETAs, facilitating delivery businesses' operations.
-2.  Navigation: The Navigation SDK offers turn-by-turn routing for iOS and Android, while the Navigation Solutions cover SDKs, APIs, EVs, and more.
+2.  Navigation: The Navigation SDK offers turn-by-turn routing for [[iOS]] and [[Android]], while the Navigation Solutions cover SDKs, APIs, EVs, and more.
 3.  Automotive: The ADAS SDK predicts road conditions, while Dash provides beautiful maps, live traffic, music, and voice for cars.
 4.  Mapbox Platform: The Infrastructure Platform ensures reliable infrastructure for apps.
 5.  Search: Geocoding geolocates and validates addresses, Address Autofill simplifies form filling, and Search covers points of interest, addresses, and places.
 6.  Data: Traffic Data, Movement Data, and Boundaries provide industry-leading data accuracy, population movement datasets, and global boundaries, respectively.
 7.  Self-hosted: Atlas offers on-premises Mapbox services.
-8.  Maps: Studio helps design custom maps, while Maps, Mapbox GL JS, Mobile Maps SDK, Static Maps, and Mapbox Tiling Service facilitate map creation and integration.
+8.  Maps: Studio helps design custom maps, while Maps, Mapbox GL [[JavaScript|JS]], Mobile Maps SDK, Static Maps, and Mapbox Tiling Service facilitate map creation and integration.
 9.  Solutions: Mapbox offers solutions for various industries, including logistics, automotive, outdoors, retail, travel, fleet management, business intelligence, and real estate.
 
 Mapbox offers extensive developer resources, including documentation, support, and community engagement.

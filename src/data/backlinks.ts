@@ -591,6 +591,7 @@ export const backlinks = {
     "Language": {
         "0232 Implement Queue using Stacks": "- Depending on your [[language]], the stack may not be ...",
         "2022-06-12": "... standard defines an interface definition [[language]], web IDL, that can be ...",
+        "ACL 60-60": "... The intent is to eliminate [[language]] barriers that may hinder scientific ...",
         "Across the Sprachraums": "... detachment of IP|Intellectual Property and [[Language]]."
     },
     "Site On Which the Sun Never Sets": {
@@ -702,6 +703,9 @@ export const backlinks = {
     },
     "Migrating Node.js apps from AWS EB to Heroku": {
         "2022-11-19": "  - [[Migrating Node.js apps from AWS EB to Heroku]]"
+    },
+    "Employee Stock Purchase Program": {
+        "Finance": "- [[Employee Stock Purchase Program]]"
     },
     "Newsletter": {
         "2022-07-28": "... them all to the various [[Newsletter|newsletters]].",
@@ -962,6 +966,7 @@ export const backlinks = {
         "2022-11-14": "... is interested in buying the [[IP]], please reach out.",
         "AIs.txt": "... goes against the fundamentals of [[IP|intellectual property]].",
         "Across the Sprachraums": "- The detachment of [[IP|Intellectual Property]] and [[Language]].",
+        "Cartography": "... maps can sometimes involve privacy, [[IP|intellectual property]], and data ownership issues.",
         "IP Spoofing": "- Faking an [[IP]] by sending packet with false ...",
         "IP is the new Real Estate": "[[IP|Intellectual property]] ([[IP]]) is a new form ...",
         "Internet Protocol Stack": "- Network. [[IP]]. Routing Protocols. Handles Datagrams.",
@@ -998,7 +1003,7 @@ export const backlinks = {
         "2023-01-13": "- [[New York City]]",
         "Fiercely Overpriced": "... Wilensky, a web developer from [[New York City]], narrates his experience creating and ...",
         "IP is the new Real Estate": "... in global cities such as [[New York City|New York]], London, and Paris were seen ...",
-        "SendGrid": "... with a debut on the [[New York City|New York]] Stock Exchange on November 16, ...",
+        "SendGrid": "... with a debut on the [[New York City|New York]] [[Stock]] Exchange on November 16, ...",
         "이완용": "... The Independent, Vol. 63, No.3064, [[New York City|New York]], 1907.8.22. 이선근, 한국사 : 현대편, ...",
         "헤이그 특사": "... The Independent, Vol. 63, No.3064, [[New York City|New York]], 1907.8.22. 이선근, 한국사 : 현대편, ..."
     },
@@ -1060,6 +1065,7 @@ export const backlinks = {
         "2022-10-23": "- [[Digital Signature]]"
     },
     "Leetcode": {
+        "2022-12-20": "[[Leetcode]] doesn't seem to work...",
         "Coding Tests": "## [[Leetcode]] 75",
         "Real Interviews": "- 3 [[Leetcode]] Easy to Medium Problem"
     },
@@ -1475,7 +1481,7 @@ export const backlinks = {
     },
     "Library of Babel": {
         "2022-11-24": "- [[Library of Babel]]",
-        "Information amongst Data": "[[Library of Babel]] holds all data.",
+        "Information among Data": "[[Library of Babel]] holds all data.",
         "Photo Library of Babel": "[[Library of Babel]]",
         "Proposal of Research 2023-01-10": "\"[[Library of Babel]]\" by Jorge Luis Borges is ...",
         "Proposal of Research 2023-03-28": "Inspired by \"[[Library of Babel]]\" by Jorge Luis Borges, this ..."
@@ -1654,6 +1660,7 @@ export const backlinks = {
         "Coding Tests": "- Will use [[Python]] (main language) and [[C++]] (supplementary ...",
         "Get Job Done": "  - Building [[Python]] Data Parser",
         "Higher-Level Languages and Their Speeds": "- [[Python]]",
+        "Mathematics under The Library of Babel": "- I tried making a [[Python]] script to backtrack the combinations.",
         "Python": "You can offset with [[Python]]'s `enumerate` function with list splitting.",
         "Real Exams": "... Get Job Done SQL, React, [[Python]]"
     },
@@ -1683,6 +1690,9 @@ export const backlinks = {
         "Jest": "... Node.js, React, Angular, Vue.js, and [[Svelte]]. Jest doesn't require a lot ...",
         "Second Brain": "Seems like using [[Svelte]]",
         "Virtual DOM": "... DOM — and that's where [[Svelte]] comes in"
+    },
+    "Index Fund": {
+        "Finance": "- [[Index Fund]]"
     },
     "Learning Execution Semantics from Micro-Traces for Binary Similarity": {
         "2023-03-28": "- [[Learning Execution Semantics from Micro-Traces for Binary Similarity]]"
@@ -1752,6 +1762,9 @@ export const backlinks = {
     "초상권 vs 저작권": {
         "CELLO": "- [[초상권 vs 저작권]]",
         "퍼블리시티권": "- [[초상권 vs 저작권]]"
+    },
+    "Short Position": {
+        "Finance": "- [[Short Position]]"
     },
     "YAML": {
         "2023-01-13": "- [[YAML]]",
@@ -1849,14 +1862,14 @@ export const backlinks = {
         "2023-01-23": "... seems like Wikipedia updated its [[CSS]]...",
         "Apple Newsroom 서체 따라하기": "... 기간 나에게 딱 맞는 폰트 [[CSS]]를 찾아왔다. 이 글에서는 드디어 찾은 ...",
         "Boring Technologies": "... languages seen as less rigorous. [[CSS]] is dropped in favor of ...",
-        "Chrome": "... of web technologies, including HTML5, [[CSS]], and JavaScript. In addition, it ...",
+        "Chrome": "... of web technologies, including HTML5, [[CSS]], and [[JavaScript]]. In addition, it ...",
         "Chromium": "- \"The integration with the [[CSS]] [[engine]] leads to some extraordinary ...",
         "Font Features": "- [[CSS]] property to enhance legibilities of ...",
         "Markdown Email Client": "... Markdown. Before sending, select one [[CSS]]. Then... it sends as a ...",
         "Mini App": "... using web-based technologies like HTML, [[CSS]], and JavaScript hosted by the ...",
         "Open Graph Image as a Service": "... library to convert HTML and [[CSS]] to [[SVG]]",
         "Proposal of Research 2023-01-10": "... load and display its HTML, [[CSS]], and JavaScript. One everyday use ...",
-        "Safari": "... of web technologies, including HTML5, [[CSS]], and JavaScript. It includes features ...",
+        "Safari": "... of web technologies, including HTML5, [[CSS]], and [[JavaScript]]. It includes features ...",
         "Satori": "... new core library for converting HTML/[[CSS]] into SVGs.",
         "Setting different images for Light & Dark mode": "Using `preferred color scheme` [[CSS]] property and [[HTML]] Picture `srcset` ...",
         "Stories Behind Satori": "... two, being fast and dev-friendly (HTML/[[CSS]])",
@@ -1932,7 +1945,8 @@ export const backlinks = {
         "2023-03-06": "- [[Public Transport]]"
     },
     "Negative Binomial": {
-        "2023-02-02": "- [[Negative Binomial]]"
+        "2023-02-02": "- [[Negative Binomial]]",
+        "Binomial Theorem": "- $r^{\\text{th}}$ success → [[negative binomial]]"
     },
     "Techs Actually Simple": {
         "Matt Rickard": "- [[Techs Actually Simple]]"
@@ -1988,6 +2002,10 @@ export const backlinks = {
         "2022-12-11": "- [[태백산맥 계획]]",
         "Neo Korea": "- [[태백산맥 계획]]",
         "Regulation of Fake News": "- [[태백산맥 계획]]"
+    },
+    "Mutual Fund": {
+        "Finance": "- [[Mutual Fund]] ",
+        "Index Fund": " These are like [[Mutual Fund|mutual funds]], but they're managed by a ..."
     },
     "Mundivagant": {
         "2023-04-09": "[[Mundivagant]]"
@@ -2280,7 +2298,7 @@ export const backlinks = {
         "Bing Chat for All Browsers": "- Bing Chat for all [[Web Browser|browser]]",
         "Brane": "- Parties that create [[Web Browser|browsers]] do not own these limitations; ...",
         "Cartography": "...  Powerful Tools: Felt provides [[Web Browser|browser]]-based tools for customizing maps, allowing ...",
-        "Chrome": "Chrome is a [[web browser]] developed by Google. It was ...",
+        "Chrome": "Chrome is a [[web browser]] developed by [[Google]]. It was ...",
         "Confectionery": "> A minimalistic [[Web Browser|browser]] without the clutter of standard ...",
         "DRM": "... the instance of Chrome, the [[Web Browser|browser]] doesn't implement the DRM itself, ...",
         "Downloading Any Recordings from Zoom": "... through the chat list—open the [[Web Browser|browser]] console.",
@@ -2306,7 +2324,8 @@ export const backlinks = {
         "Stories Behind Satori": "- [[Web Browser]]-based solutions were too slow",
         "Svelte": "... at runtime, i.e., in the [[Web Browser|browser]]. The compiler itself is written ...",
         "Web Typography": "... by the settings of each [[web browser]]. There was no mechanism for ...",
-        "WebExtension": "... that adds functionality to a [[web browser]]. It's a type of [[Web ..."
+        "WebExtension": "... that adds functionality to a [[web browser]]. It's a type of [[Web ...",
+        "jQuery": "... works across a multitude of [[Web Browser|browsers]]."
     },
     "대한민국의 저출산": {
         "Person 960D1D": "- [[대한민국의 저출산]]"
@@ -2454,7 +2473,10 @@ export const backlinks = {
         "2022-09-17": "- [[Android]]",
         "2022-10-20": "... on every startup, and on [[Android]], it may happen many times ...",
         "3D": "- glTF for [[Android]]",
+        "Cartography": "... turn-by-turn routing for iOS and [[Android]], while the Navigation Solutions cover ...",
+        "Chrome": "... devices, including Windows, macOS, Linux, [[Android]], and [[iOS]].",
         "Figma": "... The Figma mobile app for [[Android]] and [[iOS]] allows viewing and ...",
+        "Project FFMpeg for iPad": "... FFmpeg Kit for applications. Supports [[Android]], Flutter, [[iOS]], [[Linux]], macOS, [[React ...",
         "React Native": "... used to develop applications for [[Android]], Android TV, [[iOS]], macOS, tvOS, ...",
         "Simple DirectMedia Layer": "... many operating systems such as [[Android]], [[iOS]], [[Linux]], macOS, and Windows. ...",
         "Torvalds": "... other operating systems such as [[Android]]. He also created the distributed ...",
@@ -2514,7 +2536,8 @@ export const backlinks = {
         "Project PEOPLE": "- [[Person ECC2CB]]"
     },
     "Computational Linguistics": {
-        "2023-02-16": "- [[Computational Linguistics]]"
+        "2023-02-16": "- [[Computational Linguistics]]",
+        "ACL 60-60": "The Association for [[Computational Linguistics]] (ACL) recently announced the \"60-60\" ..."
     },
     "Midjourney": {
         "2022-12-28": "- [[Midjourney]]",
@@ -2665,6 +2688,7 @@ export const backlinks = {
         "Proposal of Research 2023-03-28": "... users and negatively impacts search [[engine]] optimization. This research proposal aims ...",
         "Satori": "### [[Engine]]",
         "Stories Behind Satori": "... elements' positions through a layout [[engine]] and convert them into [[SVG]] ...",
+        "Supabase": "... PostgreSQL as its core database [[engine]], providing developers with a hosted ...",
         "Tech Now Pay Later": "An [[engine]] takes time (a type of ...",
         "프로젝트 어덕행덕": "  - Stage Mix [[Engine]]"
     },
@@ -2924,7 +2948,7 @@ export const backlinks = {
         "Person A480C6": "- Currently works at [[Apple]], Apple Silicon Team",
         "Person CC8297": "- Currently works at [[Apple]] as a mechanical engineer.",
         "PineApple Pay": "As [[Apple]] slowly moves to open up ...",
-        "Project FFMpeg for iPad": "[[Apple]] announces [[Final Cut Pro]]. It's ...",
+        "Project FFMpeg for iPad": "[[Apple]] announces [[Final Cut Pro]].",
         "Proposal of Research 2023-01-10": "... vendors (Google, Mozilla, Microsoft, and [[Apple]]) decided to disable SharedArrayBuffer by ...",
         "Reverse Engineering Apple Music API": "## Registering for [[Apple]] Developer Key",
         "Safari": "... a web browser developed by [[Apple]] Inc. It was first released ...",
@@ -2938,7 +2962,7 @@ export const backlinks = {
         "WWDC": "[[Apple]]'s Worldwide Developer Conference",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 ...",
         "iOS": "... mobile operating system developed by [[Apple]] Inc. The operating system powers ...",
-        "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 금융위원회에서 ...",
+        "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 [[Finance|금융]]위원회에서 ...",
         "불가사리 (기업)": "... 설립의 필요성을 느꼈다. 예를 들어 [[Apple]]의 PassKit의 NFC 개발 도구는 기업이 ...",
         "서당개 3년이면 풍월을 읊는다": "... 어떤 방식으로 얻었든 말이죠. — [[Apple|애플]]의 채용 문구",
         "서울 프로": "본 목적은 Pretendard와 비슷하게 [[Apple]]의 [[San Francisco]] 폰트와 유사한 오픈 ...",
@@ -3151,6 +3175,7 @@ export const backlinks = {
         "2022-10-17": "... will read the indexed backlink [[JSON]] to display it on the ...",
         "2022-11-29": "- [[JSON]]",
         "ContentLayer": "... files or CMS) into type-safe [[JSON]] data that you can easily ...",
+        "Datalake": "... semi-structured data (CSV, logs, XML, [[JSON]]), unstructured data ([[Mail|emails]], documents, PDFs), ...",
         "Dynamic Island on the Web": "... pack them with an API-style [[JSON]] payload.",
         "Mapping keys to set different input languages on macOS": "- Create a [[JSON]] file like the following here ...",
         "MessagePack": "... data among multiple languages like [[JSON]]. But it's faster and smaller. ...",
@@ -3285,7 +3310,7 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "... 작성하려다가 옵시디언 플러그인 개발 자료는 [[한국어]]로 거의 없어 그냥 한국어로 작성한다.",
         "Letter to the Heptabase Team on 2022-10-11": "... Anyways, if you need any [[한국어|Korean]] 🇰🇷 translation support or anything ...",
         "Mapping keys to set different input languages on macOS": "... set Mac's input method to [[한국어|Korean]].",
-        "Ridi": "> Ridi Corporation ([[한국어|Korean]]: 리디주식회사) is a content platform ...",
+        "Ridi": "> Ridi Corporation ([[한국어|Korean]]: 리디[[Stock|주식]]회사) is a content platform ...",
         "Seaflooding": "[[한국어]]로는 '큰물' '물마' 등의 단어가 있다. ...",
         "Search AI와 인터넷의 한국어": "나는 [[한국어]] 자료가 인터넷에 부족한 탓이라고 생각하지 ...",
         "Setting different fonts by language in CSS": "`U+AC00-D7AF`is the Unicode range of [[한국어|Korean]] glyphs.",
@@ -4026,6 +4051,7 @@ export const backlinks = {
     "React Native": {
         "Configuring Jest for React Native": "- Configuring Jest for [[React Native]]",
         "Hyperview": "... a new hypermedia format and [[React Native]] client for developing server-driven mobile ...",
+        "Project FFMpeg for iPad": "... Android, Flutter, iOS, Linux, macOS, [[React Native]] and tvOS. Supersedes MobileFFmpeg, flutterffmpeg ...",
         "Write Once Run Everywhere": "- React and [[React Native]]"
     },
     "Person 5DBDAE": {
@@ -4246,6 +4272,10 @@ export const backlinks = {
         "2022-11-08": "- [[Text-based Presentations]]",
         "Tome": "It's like [[Text-based Presentations]], but [[AI]] will draw & ..."
     },
+    "Put Option": {
+        "Black-Scholes Model": "whereas for a European [[put option]] $P$, it is given as:",
+        "Finance": "- [[Put Option]]"
+    },
     "Plateau of Latent Potential": {
         "2022-12-04": "- [[Plateau of Latent Potential]] and [[Search in a Latent ...",
         "Atomic Habits": "- [[Plateau of Latent Potential]]: Sounds astoundingly similar to [[Search ..."
@@ -4363,6 +4393,9 @@ export const backlinks = {
     },
     "Make GPT Print LaTeX": {
         "Grammarly Work Note 2023-06-23": "- [[Make GPT Print LaTeX]]"
+    },
+    "한국 IT 산업의 내수 편중": {
+        "2023-07-19": "- [[한국 IT 산업의 내수 편중]]"
     },
     "Metatag": {
         "Meta": "- [[Metatag]]"
@@ -4532,18 +4565,23 @@ export const backlinks = {
         "2022-11-30": "... thing is that the current [[JavaScript]] tools could be faster than ...",
         "Boring Technologies": "... you were writing in Ruby, [[JavaScript]], or Objective-C. Your code had ...",
         "CSS": "... Wide Web, alongside HTML and [[JavaScript]]. CSS",
+        "Cartography": "... maps, while Maps, Mapbox GL [[JavaScript|JS]], Mobile Maps SDK, Static Maps, ...",
+        "Chrome": "... technologies, including HTML5, CSS, and [[JavaScript]]. In addition, it includes features ...",
         "Classic Blogs": "... Bear Blog: No trackers, no [[JavaScript]], no stylesheets blog for hackers",
         "Deno Deploy": "- Deploy [[JavaScript]] Globally",
         "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "물론 이렇게 매번 [[JavaScript]]를 통해 링크를 조작하는 방법은 웹 ...",
         "HTMX": "- Implementation itself is [[JavaScript]]",
         "NPM": "... default package manager for the [[JavaScript]] runtime environment [[Node.js]]. NPM is ...",
         "Node.js": "Node.js is an open-source, server-side [[JavaScript]] runtime environment allowing developers to ...",
+        "Safari": "... technologies, including HTML5, CSS, and [[JavaScript]]. It includes features such as ...",
         "Separation of Computer Scientists and Computer Technologists": "... to make a cool-looking Single-Page-App [[JavaScript]] [[ecommerce|e-commerce]] website...",
         "TypeScript": "- Typed [[JavaScript]].",
-        "Write Once Run Everywhere": "- [[JavaScript]]"
+        "Write Once Run Everywhere": "- [[JavaScript]]",
+        "jQuery": "... popular, fast, small, and feature-rich [[JavaScript]] library. It makes things like ..."
     },
     "Random Variable": {
-        "Probability": "- [[Random Variable]]"
+        "Probability": "- [[Random Variable]]",
+        "Q Function": "... calculates the probability that a [[random variable]] from a normal [[distribution]] with ..."
     },
     "기술 할부 결제": {
         "2023-02-17": "- [[기술 할부 결제]]",
@@ -4657,13 +4695,18 @@ export const backlinks = {
     "Cache Conscious Programming": {
         "2022-11-04": "- [[Cache Conscious Programming]]"
     },
+    "RSU": {
+        "Finance": "- [[RSU]]"
+    },
     "When TSC suddenly errors with cannot find module": {
         "2022-11-19": "  - [[When TSC suddenly errors with cannot find module]]"
     },
     "Linux": {
         "2022-06-05": "... PDF/EPUBs with one command on [[Linux]] (and macOS very soon). This ...",
+        "Chrome": "... mobile devices, including Windows, macOS, [[Linux]], [[Android]], and [[iOS]].",
         "ELF": "... and Linked Format, used in [[Linux]]",
         "Linux Permissions for Keys": "Note that [[Linux]] SSH manual says:",
+        "Project FFMpeg for iPad": "... applications. Supports Android, Flutter, iOS, [[Linux]], macOS, [[React Native]] and tvOS. ...",
         "Simple DirectMedia Layer": "... systems such as Android, iOS, [[Linux]], macOS, and Windows. Simple DirectMedia ...",
         "Symlink": "... operating systems, such as FreeBSD, [[Linux]], and macOS. Limited support also ...",
         "Torvalds": "... the lead developer of the [[Linux]] kernel, used by Linux distributions ...",
@@ -4967,7 +5010,7 @@ export const backlinks = {
         "Person 960D1D": "- possible market expansion outside [[대한민국|Korea]], garnering uncharted markets, leveraging the ...",
         "Person A3BA1A": "... Carta cannot ever penetrate the [[대한민국|Korean]] market.",
         "Pretendard의 아쉬운 점": "허나 [[대한민국|한국]] 한문은 자주 사용되지 않는다는 이유로 ...",
-        "Ridi": "Ridi is a [[대한민국|Korean]] [[Unicorn]] specializing in [[eBook]] distribution, ...",
+        "Ridi": "Ridi is a [[대한민국|Korean]] [[Unicorn]] specializing in [[eBook]] [[distribution]], ...",
         "Search AI와 인터넷의 한국어": "[[대한민국|한국]] 정도라면 충분히 많은 정보가 있을 ...",
         "Seed": "... outdated 128-bit security system of [[대한민국|Korea]]",
         "Separation of Computer Scientists and Computer Technologists": "... rappers to classical oboists, from [[대한민국|Korean]] idols to shamanist drummers.",
@@ -4987,7 +5030,7 @@ export const backlinks = {
         "국내 은행 서비스가 나쁜 이유": "... States of America|미국에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 더 정수를 보여준다고 ...",
         "너 주식 해": "미국에서 흥미로운 관찰 중 하나는 [[대한민국|한국]]에서 흔한 아이스 브레이커로 사용되는 \"너 ...",
         "대한민국의 저출산": "[[대한민국|Korea]]'s fertility rate has dropped to ...",
-        "드디어, 한국 애플페이": "... 3일자 금융위원회에서 Apple|애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 유일하게 Apple|애플페이가 지원되지 ...",
+        "드디어, 한국 애플페이": "... 3일자 Finance|금융위원회에서 Apple|애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 유일하게 Apple|애플페이가 지원되지 ...",
         "민사고": "... 누군가를 정말 알고 지내는 사회다. [[대한민국|한국]] 학연 사회의 정점이다.",
         "벨로그": "벨로그는 [[대한민국]]의 블로깅 서비스이다.",
         "빙글": "... 서비스로, 비키닷컴의 매각 후 창업한 [[대한민국|한국]] 스타트업이다. 이 서비스는 관심사를 중심으로 ...",
@@ -5010,6 +5053,7 @@ export const backlinks = {
         "태백산맥 계획": "[[대한민국]]의 정치, 사회, [[Economy|경제]], 문화, 세대, ...",
         "퍼블리시티권": "- [[대한민국|한국]]에서는 지난 1982년 [[서울]] 민사지방법원에서 본인의 ...",
         "하늘땅사람 개발 기록": "보아하니 [[대한민국|한국]] 대학 컴공과에서는 State Machine 수업을 ...",
+        "한국 IT 산업의 내수 편중": "[[대한민국|한국]]은 원래부터 수출 주도로 먹고 살던 ...",
         "한국어": "한민족과 [[대한민국]]의 [[Native Language|모국어]]이다.",
         "한국의 입시와 거짓된 명예": "[[대한민국|한국]]의 입시가 물론 시간을 낭비하는 것은 ...",
         "한국인": "[[대한민국]]의 국적자이다. [[한민족]]과 다르다.",
@@ -5218,7 +5262,7 @@ export const backlinks = {
     "Search in a Latent Space": {
         "2022-12-04": "- [[Search in a Latent Space]]",
         "Atomic Habits": "... Potential: Sounds astoundingly similar to [[Search in a Latent Space]]",
-        "Prompt Marketplace": "... finding Information amongst Data or [[Search in a Latent Space]].",
+        "Prompt Marketplace": "... finding Information among Data or [[Search in a Latent Space]].",
         "Search AI": "- [[Search in a Latent Space]]",
         "Thesephist Work Case Study": "### [[Search in a Latent Space]]"
     },
@@ -5377,6 +5421,25 @@ export const backlinks = {
     },
     "Book Scanning": {
         "Using an iPad as my Ebook": "... I fell in love with [[Book Scanning]] as a [[PDF]] with [[OCR]], ..."
+    },
+    "Finance": {
+        "2023-07-19": "- [[Finance]]",
+        "Cauchy": "... various fields, such as physics, [[finance]], and [[statistics]], as it is ...",
+        "Differential Privacy": "... It is essential in healthcare, [[finance]], and government, where the privacy ...",
+        "Finally, Apple Pay in Korea": "... and fixed the inconvenience. 대한민국|Korean [[finance]] market also used ancient architectures, ...",
+        "Nuclear Fission": "... directed the Economy, Environment, and [[Finance]] Ministries to develop a legal ...",
+        "Supergravity Product": "... 아이디어는 보통 <br/>- 작은 아이디어 ([[Finance|금융]]수퍼앱x 친구에게 송금쉬운 앱o)",
+        "Tech Now Pay Later": "... we learn a thing in [[Finance]].",
+        "Web3": "... \"invest\" into the \"future of [[finance]]\", the \"future of the web\", ...",
+        "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "벌금을 확대하되, 특히 [[Finance|금융]]사기와 강력범죄에 대해 범죄 수익 전체 ...",
+        "경제 개발의 길목에서": "... 정부의 선심 행정으로 예산이 팽창하고 [[Finance|금융]]이 방만해지기 때문이었다.",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "- [[Finance|금융계]]는 사회와 국가에 긍정적 선순환을 장려해야 ...",
+        "국내 은행 서비스가 나쁜 이유": "> [[Finance|금융기관]] 또는 [[Finance|전자금융업자]]는 접근매체의 위조나 변조로 ...",
+        "기술 할부 결제": "... 시킨 것에 대한 대가를 말한다. [[Finance|금융]]부채가 이자를 발생시키듯 기술부채도 복잡성 증가, ...",
+        "드디어, 한국 애플페이": "... Apple|애플페이가 들어온다. 2023년 2월 3일자 [[Finance|금융]]위원회에서 Apple|애플페이 도입을 승인했다. [[대한민국|한국]]은 선진국 ...",
+        "새로운 부동산은 지적 재산이다": "이러한 해외 부동산은 일본이 [[Finance|금융]] 위기에서 회복하는 데 중요한 역할을 ...",
+        "유난한 도전": "> 하나의 앱에서 [[Finance|금융]]의 모든 순간을 가능케 만들겠다",
+        "한국의 입시와 거짓된 명예": "... 돈을 가지고 불장난을 하며 투자와 [[Finance|금융]]의 기본기를 익히고"
     },
     "Q Function": {
         "2023-03-07": "- [[Q Function]]"
@@ -5895,6 +5958,24 @@ export const backlinks = {
         "2022-07-11": "... guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks ...",
         "Cooperative Multitasking": "... Cooperative multitasking, also known as non-[[preemptive multitasking]], is a style of computer ..."
     },
+    "Tax": {
+        "401k": "... you're 59. This money is [[tax]]-free today, but you pay [[Tax|taxes]] ...",
+        "Black-Scholes Model": "... are no transaction costs or [[Tax|taxes]].",
+        "Born of this Land - The Founding Story of Hyundai": "... businesspeople of fraudulent hoarding and [[tax]] evasion. Due to the government's ...",
+        "Engine Equation": "... take in resources such as [[Tax|taxes]], labor, and natural resources and ...",
+        "FIRE": "... Toss Payments Systems due to [[tax]] & governance issues",
+        "Finance": "- [[Tax]]",
+        "IRA vs 401k": "    - Pre-[[tax]] Contributions: The money you put ...",
+        "IRS": "... United States of America|U.S. federal [[Tax|taxes]] and administering the Internal Revenue ...",
+        "On National Crises and the Intellectuals — Focused on GB and KR": "... package of welfare cuts and [[tax]] cuts, which she ultimately took ...",
+        "Screenshot as an API": "... \"killer app\" for PDF was [[tax]] returns - the [[IRS]] adopted ...",
+        "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "... 만성적인 경영난에 시달리고 있으며, 비효율적인 [[Tax|세금]] 지출와 부적절한 증세로 인해 국민들의 ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 총리는 2022년 10월 복지 축소와 [[Tax|세금]] 인하라는 대규모 감세안을 발표했는데, United ...",
+        "엔진 방정식": "- 정부는 [[Tax|세금]], 노동 및 천연 자원과 시간 ...",
+        "이 땅에 태어나서": "... 해보자는 원칙으로 계획하고 시공하였으며, 국민의 [[Tax|세금]]을 투입하는 국가의 시설물은 가장 적은 ...",
+        "이완용": "... 시작한 보통학교의 건설비를 충당하기 위한 [[Tax|세금]]이었다. 이완용이 학부대신으로, 독립협회의 일원으로 우민(愚民) ...",
+        "헤이그 특사": "... 또 장기집권으로 인한 부패, 과도한 [[Tax|세금]]징수와 가혹한 행정에 허덕여왔던 대한민국|한국 국민과 ..."
+    },
     "간판법": {
         "Neo Korea": "- [[간판법]]"
     },
@@ -6141,6 +6222,7 @@ export const backlinks = {
         "CELLO (Product)": "... Let's go agile, mainly with [[Mail|emails]]",
         "Canary Trap": "... what appeared to be identical [[Mail|emails]] to all, but each was ...",
         "Common App for Resume": "2. Send updates via [[Mail|email]]",
+        "Datalake": "... logs, XML, JSON), unstructured data ([[Mail|emails]], documents, PDFs), and binary data ...",
         "Emails and Decentralized Protocols": "- [[Mail|Email]] is now an oligopoly, a ...",
         "Krafton Way": "... 서비스 등 여러 조건을 통째로 [[Mail|메일]]에 포함해 경영진에게 전달했다. 짐짓 점잖은 ...",
         "Letter to Modos team on 2023-03-16": "## A Love [[Mail|Letter]] to Modos: The E-Ink Laptop ...",
@@ -6188,6 +6270,7 @@ export const backlinks = {
         "NPM": "... for the JavaScript runtime environment [[Node.js]]. NPM is used to install, ...",
         "Next.js": "... \"Building a server-rendered website with [[Node.js]]\". Where traditional React apps can ...",
         "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "이 글은 [[Node.js]]에 대한 경험이 별로 없을 때 ...",
+        "PNPM": "... is a package manager for [[Node.js]] that aims to improve aspects ...",
         "Satori": "... used in modern Web Browser|browsers, [[Node.js]], and [[Web Worker|Web Workers]]. Building ..."
     },
     "Finding out Ghost version with JS": {
@@ -6303,6 +6386,7 @@ export const backlinks = {
         "Google": "... Amazon, Apple, Meta (Company)|Meta, and [[Microsoft]]. Google",
         "HTML 텍스트 위에 덧말 강조점 쓰기": "... 루비 문자, 덧말 (한컴오피스), 또는 윗주([[Microsoft|MS]] Word)라고도 한다. HTML에서는 `<ruby>` 태그를 ...",
         "Person 392196": "- [[Microsoft]]",
+        "Person A480C6": "  - [[Microsoft|MS]] in Chips",
         "Proposal of Research 2023-01-10": "... Web Browser|browser vendors (Google, Mozilla, [[Microsoft]], and [[Apple]]) decided to disable ...",
         "Safari is the new Internet Explorer": "... on iOS, which is something [[Microsoft]] was never able to achieve ...",
         "Search AI": "... 가능성이 꽤 크긴 해요. Google|구글이 ([[Microsoft|마이크로소프트]] 등이 그랬던 것처럼) 자기 스스로를 ...",
@@ -6400,7 +6484,7 @@ export const backlinks = {
         "ACSM": "... to activate and download an [[eBook]]. It does not include the ...",
         "Can we ever build TikTok for Text": "- Chat interface. Chat-like [[ebook]] services like Hooked use text ...",
         "EPUB": "... 2007, superseding the older Open [[eBook]] (OEB) standard. EPUB",
-        "Ridi": "... a 대한민국|Korean Unicorn specializing in [[eBook]] distribution, online contents & intellectual ...",
+        "Ridi": "... a 대한민국|Korean Unicorn specializing in [[eBook]] [[distribution]], online contents & intellectual ...",
         "Using an iPad as my Ebook": "... ended to find the perfect [[ebook]]. Refer to this [[Hacker News]] ..."
     },
     "Project Heimdall Table Structure": {
@@ -6609,6 +6693,10 @@ export const backlinks = {
     "Extracting string in Android": {
         "Android": "- [[Extracting string in Android]]"
     },
+    "Long Position": {
+        "Finance": "- [[Long Position]]",
+        "Short Position": "... return it, keeping the difference. [[Long Position]] is the opposite."
+    },
     "MessageBird": {
         "2022-11-30": "- [[MessageBird]]"
     },
@@ -6719,11 +6807,13 @@ export const backlinks = {
         "2023-02-08": "... various potential issues in a macOS/[[iOS]] application",
         "2023-02-16": "... in any Web Browser|browser (like [[iOS]] and [[Safari]]) with minimal setup. ...",
         "Apple Earth": "... with Smoo-ooth Apple Cartography|Maps and [[iOS]] Widget Supports.",
+        "Cartography": "... SDK offers turn-by-turn routing for [[iOS]] and [[Android]], while the Navigation ...",
         "Chrome": "... Windows, macOS, Linux, Android, and [[iOS]].",
         "Conversational AI Tools for Thought": "... will initially be available on [[iOS]], and it will be invite ...",
         "Figma": "... mobile app for Android and [[iOS]] allows viewing and interacting with ...",
         "Letter to the Heptabase Team on 2022-10-11": "- Handwriting/Pen Support ([[iOS]] App)?",
         "Mental Simulation of Firefox and Signal as a Super App": "... not only in terms of [[iOS]] vs. Android but also as ...",
+        "Project FFMpeg for iPad": "... for applications. Supports Android, Flutter, [[iOS]], [[Linux]], macOS, [[React Native]] and ...",
         "React Native": "... applications for Android, Android TV, [[iOS]], macOS, tvOS, Web, Windows, and ...",
         "Reimagining Emails": "... a native app for macOS, [[iOS|iPadOS]], and [[iOS]].",
         "Safari": "... and later became available for [[iOS]] devices. Safari is also open ...",
@@ -6888,6 +6978,7 @@ export const backlinks = {
         "Regulation of Fake News": "- The [[United States of America|United States]] government pressured [[Twitter]] to elevate ...",
         "Screenshot as an API": "... a rumored frustration with the [[United States of America|US]] Postal Service.",
         "Self Driving": "... suite that's available in the [[United States of America|United States]]",
+        "Tax": "In the [[United States of America|USA]], taxes on income and long-term ...",
         "Texts": "Potential Super App for the [[United States of America|United States]]. [[Mental Simulation of Firefox and ...",
         "Toss": "... ever seen in 대한민국|Korea and [[United States of America|U.S.]]",
         "Vannevar Bush": "... World War II, headed the [[United States of America|U.S.]] Office of Scientific Research and ...",
@@ -7010,6 +7101,7 @@ export const backlinks = {
         "AMP": "... the AMP Open Source Project. [[Google]] created it as a competitor ...",
         "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth ...",
         "Boring Technologies": "... and you aren't at, like, [[Google]]-tier scale, throw it all in ...",
+        "Chrome": "... a web browser developed by [[Google]]. It was first released in ...",
         "Chromium": "... points out Ian Kilpatrick of [[Google]]. \"Things like backgrounds working consistently ...",
         "Emails and Decentralized Protocols": "- [[Google]] has half a billion results ...",
         "Ethereum RPC as a Service": "- [[Google]] Cloud announced Blockchain Node Engine, ...",
@@ -7067,7 +7159,8 @@ export const backlinks = {
         "Digital Signature for Videos": "- Potential countermeasure to [[Deepfake]]."
     },
     "Prompt Marketplace": {
-        "2022-12-28": "- [[Prompt Marketplace]]"
+        "2022-12-28": "- [[Prompt Marketplace]]",
+        "2023-07-19": "- [[Prompt Marketplace]]"
     },
     "Strategy": {
         "10x Technopreneurs": "... knowledge for Go To Market|Go-To-Market [[Strategy|strategies]] and monetization. They can run ...",
@@ -7130,6 +7223,10 @@ export const backlinks = {
     "Hashflags": {
         "2022-12-07": "- [[Hashflags]]",
         "Linkflags": "- [[Hashflags]] for the web"
+    },
+    "Vesting": {
+        "Finance": "- [[Vesting]]",
+        "RSU": "... to team members over time ([[vesting]]). The number of shares and ..."
     },
     "0003 Longest Substring Without Repeating Characters": {
         "Coding Tests": "- [x] [[0003 Longest Substring Without Repeating Characters]]"
@@ -7222,6 +7319,9 @@ export const backlinks = {
     "OpenAI enthroned as the Levis of Tech": {
         "2023-03-01": "- [[OpenAI enthroned as the Levis of Tech]]",
         "30-Day Tweet Test (Harry Stebbings)": "| 03-01 | 🇬🇧 [[OpenAI enthroned as the Levis of Tech]] <br/> 🇰🇷 [[OpenAI가 새로운 테크 ..."
+    },
+    "IRA vs 401k": {
+        "Finance": "- [[IRA vs 401k]]"
     },
     "PARA": {
         "2022-06-26": "- [[PARA]]",
@@ -7474,7 +7574,9 @@ export const backlinks = {
         "Gaussian Distribution": "The Gaussian [[distribution]], also known as the normal ...",
         "Normal Tables": "... associated with the standard normal [[distribution]]. The table lists values of ...",
         "Poisson Approximation": "approximates binomial [[distribution]].",
-        "Probability": "- [[Distribution]]"
+        "Probability": "- [[Distribution]]",
+        "Q Function": "... probability of the standard normal [[distribution]], also known as the complementary ...",
+        "Ridi": "... 대한민국|Korean Unicorn specializing in eBook [[distribution]], online contents & intellectual properties. ..."
     },
     "Fediverse": {
         "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People ...",
@@ -7560,6 +7662,30 @@ export const backlinks = {
     "Comparing BLIP and CLIP": {
         "Stable Alternative": "- [[Comparing BLIP and CLIP]]"
     },
+    "Stock": {
+        "0121 Best Time to Buy and Sell Stock": "... the price of a given [[stock]] on the `ith` day.",
+        "Born of this Land - The Founding Story of Hyundai": "... the company, causing the company's [[stock]] price to be lower than ...",
+        "Call Option": "... the right to buy a [[stock]] at a certain price before ...",
+        "Employee Stock Purchase Program": "... you to buy your company's [[stock]] at a discount, usually 15%, ...",
+        "Figma": "... $20 billion in cash and [[stock]]. Figma (software)>)",
+        "Finance": "- [[Stock]]",
+        "Gumroad": "... I vested any of my [[stock]] — to work on what ...",
+        "Layoff": "... Layoffs often do not increase [[stock]] prices, in part because layoffs ...",
+        "Long Position": "When you think a [[stock]] will go up, you buy ...",
+        "Mutual Fund": "... many investors used to buy [[Stock|stocks]] or bonds, managed by a ...",
+        "Person A3BA1A": "But unlike regulated [[stock]] markets, Private Equity regulations vastly ...",
+        "Put Option": "... the right to sell a [[stock]] at a certain price before ...",
+        "RSU": "Restricted [[Stock]] Units (RSUs). These are shares ...",
+        "Ridi": "> Ridi Corporation (한국어|Korean: 리디[[Stock|주식]]회사) is a content platform company ...",
+        "SVB Debacle": "... (via puts or shorting the [[stock]]) makes a lot of sense, ...",
+        "SendGrid": "... the New York City|New York [[Stock]] Exchange on November 16, 2017. ...",
+        "Short Position": "When you think a [[stock]] will go down, you borrow ...",
+        "Stock Option": "... specific price. They aren't actual [[Stock|stocks]], but they can become Stock|stocks ...",
+        "Tax": "... (profits from selling assets like [[Stock|stocks]]) vary based on your income. ...",
+        "너 주식 해": "# 너 [[Stock|주식]]해?",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "이 글은 Balena [[Stock|주식]]회사가 개발한 `balenaOS` 및 `balenaSound` [[Project|프로젝트]]를 ...",
+        "퍼블리시티권": "... 연예인들은 E사가 해당 스타의 인기도를 [[Stock|주가]]로 표현하는 사이버증권거래소로 사이트에 자신들의 이름을 ..."
+    },
     "NPM": {
         "2022-07-06": "... bundler, transpiler, task runner and [[npm]] client built-in",
         "2023-05-29": "- [[NPM]]",
@@ -7604,6 +7730,10 @@ export const backlinks = {
     "Cauchy": {
         "2023-03-07": "- [[Cauchy]]",
         "Standard Cauchy": "The standard [[Cauchy]] distribution, also known as the ..."
+    },
+    "401k": {
+        "Finance": "- [[401k]]",
+        "IRA vs 401k": "3. [[401k|401(k)]]:"
     },
     "Sigma Alpha": {
         "Probability": "- [[Sigma Alpha]]"
@@ -7684,16 +7814,6 @@ export const backlinks = {
     },
     "Vertex Buffer": {
         "2023-01-23": "- [[Vertex Buffer]]"
-    },
-    "Information amongst Data": {
-        "2022-11-24": "- [[Information amongst Data]]",
-        "Library of Babel": "- [[Information amongst Data]]",
-        "Person 1E6ABA": "Finding [[Information amongst Data]].",
-        "Prompt Marketplace": "... be the key to finding [[Information amongst Data]] or [[Search in a Latent ...",
-        "Rauno": "... as if it is finding [[Information amongst Data]]",
-        "Search AI": "- [[Information amongst Data]]",
-        "Search in a Latent Space": "- Finding [[Information amongst Data]].",
-        "개성은 쟁취하는 것": "수많은 [[Information amongst Data|데이터 중 정보]]만이 중요한 세상입니다."
     },
     "Variance": {
         "2023-03-07": "- [[Variance]]",
@@ -7925,7 +8045,7 @@ export const backlinks = {
         "2023-03-07": "- [[Standard Normal]]",
         "Black-Scholes Model": "... can model the market with [[Standard Normal]].",
         "Normal Tables": "... table, also known as a [[standard normal]] table or a z-table, is ...",
-        "Q Function": "... the tail probability of the [[standard normal]] distribution, also known as the ..."
+        "Q Function": "... the tail probability of the [[standard normal]] [[distribution]], also known as the ..."
     },
     "도로명주소": {
         "2023-06-12": "- [[도로명주소]]"
@@ -8050,7 +8170,8 @@ export const backlinks = {
         "Grammarly Work Note 2023-05-26": "... prettier --write`. On par with [[Prettier]], we could link [[ESLint]] and ..."
     },
     "Linear": {
-        "2022-10-14": "  - [[Linear]] has been popping up on ..."
+        "2022-10-14": "  - [[Linear]] has been popping up on ...",
+        "Git": "... integrity, and support for distributed, non-[[linear]] workflows (thousands of parallel branches ..."
     },
     "Sliding Panes": {
         "Andy Matuschak": "Introduced novel concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and ...",
@@ -8202,7 +8323,7 @@ export const backlinks = {
     },
     "Unicorn": {
         "Imoogi and Dragon Company": "The word [[Unicorn]] Company gives the company too ...",
-        "Ridi": "Ridi is a 대한민국|Korean [[Unicorn]] specializing in [[eBook]] distribution, online ...",
+        "Ridi": "Ridi is a 대한민국|Korean [[Unicorn]] specializing in [[eBook]] [[distribution]], online ...",
         "Toss": "- Financial Technology|FinTech [[Unicorn]] of [[대한민국|Korea]].",
         "이무기 기업, 청룡 기업": "[[Unicorn|유니콘]] 기업이라는 단어는 마치 성공이 정해진 ..."
     },
@@ -8257,7 +8378,7 @@ export const backlinks = {
     },
     "Final Cut Pro": {
         "Alternatives to After Effects": "- Adobe Premiere Pro → [[Final Cut Pro|Final Cut Pro X]]",
-        "Project FFMpeg for iPad": "Apple announces [[Final Cut Pro]]. It's about time.",
+        "Project FFMpeg for iPad": "Apple announces [[Final Cut Pro]].",
         "Retroactive (Software)": "... Xcode 11.7 on macOS Mojave. [[Final Cut Pro]] 7, Logic Pro 9, and ..."
     },
     "사발통문": {
@@ -8338,6 +8459,9 @@ export const backlinks = {
     "Proebsting": {
         "2022-12-28": "- [[Proebsting]]"
     },
+    "Stock Option": {
+        "Finance": "- [[Stock Option]]"
+    },
     "Creating Next Keyboard Button in SwiftUI": {
         "2023-01-22": "- [[Creating Next Keyboard Button in SwiftUI]]"
     },
@@ -8408,8 +8532,22 @@ export const backlinks = {
     "CITATION.cff": {
         "2023-04-27": "- [[CITATION.cff]]"
     },
+    "Information among Data": {
+        "2022-11-24": "- [[Information among Data]]",
+        "Library of Babel": "- [[Information among Data]]",
+        "Person 1E6ABA": "Finding [[Information among Data]].",
+        "Prompt Marketplace": "... be the key to finding [[Information among Data]] or [[Search in a Latent ...",
+        "Rauno": "... as if it is finding [[Information among Data]]",
+        "Search AI": "- [[Information among Data]]",
+        "Search in a Latent Space": "- Finding [[Information among Data]].",
+        "개성은 쟁취하는 것": "수많은 [[Information among Data|데이터 중 정보]]만이 중요한 세상입니다."
+    },
     "0278 First Bad Version": {
         "Coding Tests": "- [x] [[0278 First Bad Version]]"
+    },
+    "Call Option": {
+        "Black-Scholes Model": "... Black-Scholes formula for a European [[call option]] $C$ (an option that can ...",
+        "Finance": "- [[Call Option]]"
     },
     "AI Garbage Data Flooding": {
         "Generative Intelligence": "- [[AI Garbage Data Flooding]]"
@@ -8612,6 +8750,7 @@ export const backlinks = {
         "Web Typography": "... the World Wide Web. When [[HTML]] was first created, [[font]] faces ...",
         "Web Worker": "... JavaScript script executed from an [[HTML]] page that runs in the ...",
         "XTML": "What if stale [[HTML]] elements can have some neat ...",
+        "jQuery": "... library. It makes things like [[HTML]] document traversal and manipulation, event ...",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 주소와 디바이스 고유 주소 등은 [[HTML]] 값 수정으로 `?` 로 변경하거나 ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 즉, 이전에는 php로 렌더링 하는 [[html]] 문서뿐이었던 웹이 한순간에 또 다른 ...",
         "브라우저 콘솔에 경고 문구 띄우는 방법": "[[HTML]] 어딘가에서 `console.log`를 해주면 되는 간단한 ...",
@@ -8878,7 +9017,7 @@ export const backlinks = {
         "React": "... functionality from UIUX|UI to the [[database]], with extra features such as ...",
         "Redwood.js": "... (ORM) solution to manage the [[database]] layer. Prisma helps developers build ...",
         "Render.com": "... Back-end|backend-intensive tasks such as migrating [[database]] data in bulk.",
-        "Supabase": "... utilizes PostgreSQL as its core [[database]] engine, providing developers with a ...",
+        "Supabase": "... utilizes PostgreSQL as its core [[database]] [[engine]], providing developers with a ...",
         "Tech Now Pay Later": "... used TXT files as its \"[[database]]\".",
         "Tools Must Vanish": "... across your filesystem, Dropbox, and [[database]] rows in six different proprietary ...",
         "Vector DB": "... lang=\"en\" dir=\"ltr\">Google killing all vector [[Database|db]] startups lmao <a href=\"https://t.co/CR0kD3eekD\">pic.twitter.com/CR0kD3eekD</a></p>&mdash; Techno-Dharma ...",
@@ -10498,6 +10637,9 @@ export const backlinks = {
     },
     "EBEF28.png": {
         "Passkey": "![[EBEF28.png]]"
+    },
+    "76BD99.png": {
+        "Prompt Marketplace": "![[76BD99.png]]"
     },
     "4A4A25.mp4": {
         "Hashflags": "![[4A4A25.mp4]]"

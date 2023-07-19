@@ -7,13 +7,13 @@ slug: '/9D4B52'
 - Some assumptions: There's a T-bill (US bond, usually) that gives fixed-rate profit with no danger. The market makes random walks, making a [[Standard Normal]]. The same asset possesses the same value. Free trade with minimum transaction fees.
 - Very interesting connections with [[Psychohistory]] [[심리역사학]]
 
-The Black-Scholes Model is a mathematical model used in financial markets to calculate the theoretical price of options, including put and call options. It was developed by economists Fischer Black and Myron Scholes, with notable contributions from Robert Merton. The Black-Scholes formula for a European call option $C$ (an option that can only be exercised at the end of its life) is given as:
+The Black-Scholes Model is a mathematical model used in financial markets to calculate the theoretical price of options, including put and call options. It was developed by economists Fischer Black and Myron Scholes, with notable contributions from Robert Merton. The Black-Scholes formula for a European [[call option]] $C$ (an option that can only be exercised at the end of its life) is given as:
 
 $$
 C = S_0 e^{-qT}N(d_1) - K e^{-rT}N(d_2)
 $$
 
-whereas for a European put option $P$, it is given as:
+whereas for a European [[put option]] $P$, it is given as:
 
 $$
 P = K e^{-rT}N(-d_2) - S_0 e^{-qT}N(-d_1)
@@ -44,7 +44,7 @@ where:
 
 The model assumes several things about the market and the asset, such as:
 
-- There are no transaction costs or taxes.
+- There are no transaction costs or [[Tax|taxes]].
 - The risk-free rate and volatility of the underlying are known and constant. (Usually US government bond)
 - The returns on the underlying asset are normally distributed.
 - The markets are efficient.

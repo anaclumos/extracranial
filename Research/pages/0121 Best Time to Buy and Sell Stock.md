@@ -7,9 +7,9 @@ Solved at: [[2022-07-13]]
 
 ## Question
 
-You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day.
+You are given an array `prices` where `prices[i]` is the price of a given [[stock]] on the `ith` day.
 
-You want to maximize your profit by choosing a **single day** to buy one stock and choosing a **different day in the future** to sell that stock.
+You want to maximize your profit by choosing a **single day** to buy one [[stock]] and choosing a **different day in the future** to sell that [[stock]].
 
 Return _the maximum profit you can achieve from this transaction_. If you cannot achieve any profit, return `0`.
 
@@ -40,8 +40,8 @@ I had to get a hint to keep the minimum value so far.
 
 ### Runtime
 
-- 1698 ms, faster than 38.38% of Python3 online submissions for Best Time to Buy and Sell Stock.
+- 1698 ms, faster than 38.38% of Python3 online submissions for Best Time to Buy and Sell [[Stock]].
 
 ### Memory Usage
 
-- 25 MB, less than 37.97% of Python3 online submissions for Best Time to Buy and Sell Stock.
+- 25 MB, less than 37.97% of Python3 online submissions for Best Time to Buy and Sell [[Stock]].
