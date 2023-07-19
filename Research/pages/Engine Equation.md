@@ -15,7 +15,7 @@ The [[engine]] consumes assets and time to convert them to something else **usef
 
 - **Economies** are engines that take in assets such as labor, capital, natural resources, and time and produce outputs goods and services, which can be seen as a measure of utility.
 - **Militaries** are engines that take in assets such as personnel, equipment, resources, and time and produce outputs of security and defense, which can be seen as a measure of utility.
-- **Governments** are engines that take in resources such as taxes, labor, and natural resources and use them over time to provide goods and services to citizens, such as education, healthcare, and infrastructure.
+- **Governments** are engines that take in resources such as [[Tax|taxes]], labor, and natural resources and use them over time to provide goods and services to citizens, such as education, healthcare, and infrastructure.
 - **Companies** are engines of various assets, such as capital, labor, and natural resources, and use them over time to produce goods or services that can be sold for profit.
 - **Universities** are engines that take in various assets, such as faculty, staff, students, and resources, and use them over time to produce outputs in education and research, and utility such as improved job prospects and higher levels of critical thinking and problem-solving skills.
 

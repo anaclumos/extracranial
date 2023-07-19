@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/8EA98F'
 ---
 
-PNPM is a package manager for Node.js that aims to improve aspects of [[npm]] and [[Yarn]]. It was designed to speed up package installation and reduce the disk space needed for projects while ensuring that the dependencies are correctly managed. The primary difference between pnpm and [[npm]] or [[Yarn]] is how it handles packages. PNPM uses a unique approach of storing a single copy of a module version in a global store on a disk and then uses hard links or symbolic links to reference those modules from your node_modules directory. This helps to save a significant amount of disk space when you are working on many projects or if the package size is large.
+PNPM is a package manager for [[Node.js]] that aims to improve aspects of [[npm]] and [[Yarn]]. It was designed to speed up package installation and reduce the disk space needed for projects while ensuring that the dependencies are correctly managed. The primary difference between pnpm and [[npm]] or [[Yarn]] is how it handles packages. PNPM uses a unique approach of storing a single copy of a module version in a global store on a disk and then uses hard links or symbolic links to reference those modules from your node_modules directory. This helps to save a significant amount of disk space when you are working on many projects or if the package size is large.
 
 Key Features of PNPM:
 

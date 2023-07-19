@@ -28,4 +28,4 @@ slug: '/CABA29'
 
 - [Stripe Payments JavaScript Course](https://fireship.io/courses/stripe-js/)
 - Stripe Atlas is a powerful, safe, easy-to-use platform for forming a company. Stripe Atlas helps you launch your startup from anywhere worldwide by removing lengthy paperwork, legal complexity, and numerous fees. - [Stripe Atlas](https://stripe.com/atlas)
-- Will go with Toss Payments Systems due to tax & governance issues
+- Will go with Toss Payments Systems due to [[tax]] & governance issues

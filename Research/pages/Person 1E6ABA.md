@@ -24,7 +24,7 @@ The quality of the news dilutes drastically through the language barrier.
 1E6ABA's team first found a middle ground as a non-profit organization.
 
 1E6ABA thinks a good ranking and curation may be the solution.
-Finding [[Information amongst Data]].
+Finding [[Information among Data]].
 
 1E6ABA first targeted the [[대한민국|Korean]] market but now considers the [[American]] market due to sheer market volume.
 

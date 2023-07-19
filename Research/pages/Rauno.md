@@ -8,7 +8,7 @@ slug: '/502A78'
 ## Home Page
 
 - Resembles an [[OS]] with a magnifying dock at the bottom.
-- Has alphanumeric morphing, as if it is finding [[Information amongst Data]]
+- Has alphanumeric morphing, as if it is finding [[Information among Data]]
 
 ![[CD52BB.mp4]]
 
