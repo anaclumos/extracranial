@@ -5,14 +5,14 @@ slug: '/959D0A'
 
 ## [[K-Pop|Idol]] — _Indie Developers' Opinionated Libraries_
 
-- Use boring technologies
+- Use [[boring technologies]]
 - [[Bootstrap]]
 - Deliver day 1
 - Huge focus on an international-first approach
-  - HTTP content negotiation
+  - [[HTTP]] content negotiation
   - International SEO built-in (hreflang)
   - Subpath routing
-  - International payments built-in (PayPal + Toss)
+  - International payments built-in (PayPal + [[Toss]])
 - [[Impact over Performance]]
 - Business Performance over Technical Performance
 - Day One Deploy
@@ -22,22 +22,22 @@ slug: '/959D0A'
 
 ### Approach 1
 
-- Redwood, Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], GitHub CI/CD
+- [[Redwood.js|Redwood]], Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], [[GitHub]] CI/CD
 - [[i18n with Redwood]]
 
 #### Pro
 
 - ORM built-in
-- Takes care of GraphQL fuzz
+- Takes care of [[GraphQL]] fuzz
 
 #### Con
 
-- Their [[Internationalization|i18n]] sucks. Especially setting up subpath routing for Redwood.
+- Their [[Internationalization|i18n]] sucks. Especially setting up subpath routing for [[Redwood.js|Redwood]].
 - Non-GPT-able, since v1 came out mid 2022
 
 ### Approach 2
 
-- Next.js, Supabase DB, Supabase Auth, Supabase Storage, CloudFlare, Chakra
+- [[Next.js]], [[Supabase]] [[Database|DB]], [[Supabase]] Auth, [[Supabase]] Storage, [[CloudFlare]], Chakra
 
 #### Pro
 

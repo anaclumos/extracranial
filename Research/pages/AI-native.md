@@ -6,7 +6,7 @@ aliases: ['AI native', 'AI 네이티브', 'AI-natives', 'AI natives']
 
 Especially with the emergence of [[ChatGPT]].
 
-[[AI]]-native refers to developing and deploying [[AI|artificial intelligence]] ([[AI]]) technologies in a way native to the cloud, leveraging the principles and practices of cloud-native development. It uses [[cloud computing]] infrastructure, services, and tools to build, train, and deploy [[AI]] models.
+[[AI]]-native refers to developing and deploying [[AI|artificial intelligence]] ([[AI]]) technologies in a way native to the cloud, leveraging the principles and practices of [[cloud-native]] development. It uses [[cloud computing]] infrastructure, services, and tools to build, train, and deploy [[AI]] models.
 
 [[AI]]-native systems are designed to leverage [[cloud computing]] resources for data storage, processing, and analysis. They typically use cloud-based services such as data lakes, data warehouses, and analytics platforms to store and manage large volumes of data. They also use cloud-based tools such as [[ML|machine learning]] ([[ML]]) frameworks, [[natural language processing]] ([[Natural Language Processing|NLP]]) services, and computer vision APIs to develop and train [[AI]] models.
 
