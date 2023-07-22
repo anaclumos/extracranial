@@ -8,9 +8,7 @@ https://github.com/toss/tossface
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src:
-    url('./TossFaceFontMac.woff2') format('woff2'),
-    url('./TossFaceFontMac.woff') format('woff'),
+  src: url('./TossFaceFontMac.woff2') format('woff2'), url('./TossFaceFontMac.woff') format('woff'),
     url('./TossFaceFontMac.ttf') format('truetype');
   unicode-range: U+00A0-1FAFF;
 }

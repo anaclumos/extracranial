@@ -25,7 +25,7 @@ slug: '/F522B3'
 ## 1. index.html 작성하기
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
