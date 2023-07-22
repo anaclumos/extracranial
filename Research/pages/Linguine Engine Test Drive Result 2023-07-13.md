@@ -67,7 +67,7 @@ slug: '/6AF7F7'
 | BING     | is       | Linguine Engine sameinar Google Translate, Azure Translate og DeepL til að þýða 150+ tungumál, sem nær til 99.9% áhorfenda á heimsvísu.                                                     |
 | DEEPL    | it       | Linguine Engine combina Google Translate, Azure Translate e DeepL per tradurre oltre 150 lingue, coprendo il 99,9% del pubblico globale.                                                    |
 | BING     | iu       | ᐅᖃᐅᓯᓕᕆᓂᖅ ᐊᐅᓚᐅᑎᑦ ᑲᑎᖦᖢᒋᑦ Google ᑐᑭᓕᐅᕆᓯᒪᔪᑦ, Azure Translate, ᐊᒻᒪ DeepL ᑐᑭᓕᐅᕆᓗᑎᒃ 150 ᐅᖓᑖᓄᑦ ᐅᖃᐅᓯᖅᑕᓂᒃ, 99.9% ᓄᓇᕐᔪᐊᕐᒥ ᓈᓚᒃᑎᓄᑦ.                                                                      |
-| DEEPL    | ja       | Linguine Engineは、Google翻訳、Azure翻訳、およびDeepLを組み合わせて150以上の言語を翻訳し、世界中の視聴者の99.9%をカバーしています。                                                         |
+| DEEPL    | ja       | Linguine Engine は、Google 翻訳、Azure 翻訳、および DeepL を組み合わせて 150 以上の言語を翻訳し、世界中の視聴者の 99.9%をカバーしています。                                                 |
 | BING     | jv       | undefined                                                                                                                                                                                   |
 | GOOGLE   | ka       | Linguine Engine აერთიანებს Google Translate-ს, Azure Translate-ს და DeepL-ს, რათა თარგმნოს 150+ ენა, რომელიც მოიცავს გლობალური აუდიტორიის 99,9%-ს.                                          |
 | BING     | kk       | Linguine Engine 150+ тілдерін аудару үшін Google Translate, Azure Translate және DeepL-ді біріктіреді, бұл әлемдік аудиторияның 99,9%-ын қамтиды.                                           |
@@ -150,7 +150,7 @@ slug: '/6AF7F7'
 | GOOGLE   | yi       | לינגווינע ענגינע קאַמביינז Google Translate, Azure Translate און DeepL צו איבערזעצן 150+ שפראַכן, קאַווערינג 99.9% פון די גלאבאלע וילעם.                                                    |
 | GOOGLE   | yo       | Enjini Linguine daapọ Google Translate, Azure Translate, ati DeepL lati tumọ awọn ede 150+, ti o bo 99.9% ti awọn olugbo agbaye.                                                            |
 | BING     | yua      | Linguine Engine combina Google Translate, Azure Translate yéetel DeepL utia'al u traducir 150 + t'aano'ob, pi'ixil le 99.9 ti chúumuk le audiencia global.                                  |
-| BING     | yue      | Linguine Engine結合Google Translate、Azure Translate、DeepL翻譯150+種語言，覆蓋全球99.9%嘅受眾。                                                                                            |
-| DEEPL    | zh-CN    | Linguine Engine结合了谷歌翻译、Azure翻译和DeepL，可翻译150多种语言，覆盖全球99.9%的受众。                                                                                                   |
+| BING     | yue      | Linguine Engine 結合 Google Translate、Azure Translate、DeepL 翻譯 150+種語言，覆蓋全球 99.9%嘅受眾。                                                                                       |
+| DEEPL    | zh-CN    | Linguine Engine 结合了谷歌翻译、Azure 翻译和 DeepL，可翻译 150 多种语言，覆盖全球 99.9%的受众。                                                                                             |
 | BING     | zh-TW    | Linguine Engine 結合 Google Translate、Azure Translate、DeepL 翻譯 150+ 種語言，覆蓋全球 99.9% 的受眾。                                                                                     |
 | BING     | zu       | I-Linguine Engine ihlanganisa i-Google Translate, i-Azure Translate, ne-DeepL ukuhumusha izilimi ze-150 +, ezihlanganisa i-99.9% yezilaleli zomhlaba wonke.                                 |

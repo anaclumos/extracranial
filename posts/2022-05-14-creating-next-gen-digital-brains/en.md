@@ -123,15 +123,8 @@ Also made some [contributions](https://github.com/shuding/cobe/pull/30)...
 I want to go with the standard SF Pro series with a powerful new font Pretendard.
 
 ```css
-font-family:
-  ui-sans-serif,
-  -apple-system,
-  BlinkMacSystemFont,
-  'Apple SD Gothic Neo',
-  Pretendard,
-  system-ui -system-ui,
-  sans-serif,
-  'Apple Color Emoji';
+font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, system-ui -system-ui,
+  sans-serif, 'Apple Color Emoji';
 ```
 
 However, I am exploring other options.
