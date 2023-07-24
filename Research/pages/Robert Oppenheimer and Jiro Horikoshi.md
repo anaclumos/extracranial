@@ -10,3 +10,5 @@ Both [[Jiro Horikoshi]] and [[J. Robert Oppenheimer]] were influential figures d
 Both [[Jiro Horikoshi|Horikoshi]] and [[J. Robert Oppenheimer|Oppenheimer]] faced moral dilemmas reflecting the profound ethical challenges faced by scientists and engineers whose inventions are used in war. They lived in the shadow of their work's ethical implications, navigating complex moral terrain.
 
 We conveniently consume [[Jiro Horikoshi|Horikoshi]] as a war criminal and [[J. Robert Oppenheimer|Oppenheimer]] as a war hero. If history unfolded differently, would we so conveniently say the same thing?
+
+Just to be clear, I am not advocating any of the war criminal activities. I'm making a point that a scientist's path may be swayed regardless of one's intent, and the two scientist's fates may have unfolded differently if the two had been born in different environments. And I'm feeling disgusted about the fact that however we try, we can never be set free from the string and ties of the nation we work for.
