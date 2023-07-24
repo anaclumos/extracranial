@@ -442,6 +442,9 @@ export const backlinks = {
     "2023-07-17": {
         "Project Heimdall": "## [[2023-07-17]]"
     },
+    "2023-07-23": {
+        "J. Robert Oppenheimer": "[[2023-07-23]]"
+    },
     "2020-02-15": {
         "프로젝트 어덕행덕": "- [[2020-02-15]]"
     },
@@ -1181,11 +1184,6 @@ export const backlinks = {
         "2022-07-28": "- [[Providing DOM API to Worker Threads]]",
         "2022-07-29": "- [[Providing DOM API to Worker Threads]] Complete"
     },
-    "MAKE": {
-        "2023-05-02": "[[MAKE]]를 읽었다. 내가 생각하고 있는 것과 ...",
-        "Fiercely Overpriced": "[[MAKE]] suggests asking for money directly ...",
-        "Readings": "- [x] [[MAKE]]"
-    },
     "Intracranial": {
         "2022-07-26": "### [[Intracranial]]",
         "Handwriting Tools for Thoughts": "- [[Intracranial]]",
@@ -1571,7 +1569,7 @@ export const backlinks = {
     "Groupthink": {
         "2023-05-02": "- [[Groupthink]]",
         "Antipreneur": "- [[Groupthink]]: 자신만 믿는 비전을 굳세게 미는 ...",
-        "MAKE": "- don't [[groupthink]] -- visionary people always fail."
+        "MAKE (Book)": "- don't [[groupthink]] -- visionary people always fail."
     },
     "Ted Chiang": {
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "Blurry JPEG은 SF계의 거장 [[Ted Chiang|테드 창]]이 작성한 훌륭한 글입니다.",
@@ -2481,6 +2479,7 @@ export const backlinks = {
         "React Native": "... used to develop applications for [[Android]], Android TV, [[iOS]], macOS, tvOS, ...",
         "Simple DirectMedia Layer": "... many operating systems such as [[Android]], [[iOS]], [[Linux]], macOS, and Windows. ...",
         "Torvalds": "... other operating systems such as [[Android]]. He also created the distributed ...",
+        "USDZ vs glTF": "... iOS Augmented Reality applications, but [[Android]] does not support USDZ yet. ...",
         "하늘땅사람 개발 기록": "... 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "FinTech and Justice": {
@@ -2635,6 +2634,7 @@ export const backlinks = {
         "EU and AI": "... regulate general-purpose AI, such as [[OpenAI]]'s [[ChatGPT]], which can generate human-like ...",
         "MAGI": "3대 인공지능([[OpenAI]]의 [[GPT-4]], [[Meta (Company)|Meta]]의 [[LLaMA]], 그리고 ...",
         "Musk": "... and co-founder of Neuralink and [[OpenAI]]. With an estimated net worth ...",
+        "Nuclear Fission": "... The SPAC was co-founded by [[OpenAI]] CEO Sam Altman, who also ...",
         "OpenAI enthroned as the Levis of Tech": "[[OpenAI]] has launched its [[ChatGPT]] API ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "[[OpenAI]]가 방금 GPT-3.5-터보 모델을 기반으로 한 ...",
         "Personal Training Corpus": "... the files are processed with [[OpenAi]]'s Whisper and transformed into text ...",
@@ -2800,10 +2800,6 @@ export const backlinks = {
         "2023-02-13": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "2023-02-14": "- [ ] [[Jog 25 minutes (Jan-Feb 2023)]]",
         "Building Habit": "- [[Jog 25 minutes (Jan-Feb 2023)]]"
-    },
-    "American Prometheus": {
-        "Readings": "- [ ] [[American Prometheus]]",
-        "서당개 3년이면 풍월을 읊는다": "... 않았다. 어떤 회사에서든 태생부터 남다른 [[American Prometheus|오펜하이머]]급 슈퍼브레인은 얼마 되지 않는 듯했다. ..."
     },
     "I travel the World Wide Web": {
         "2022-10-25": "- [[I travel the World Wide Web]]"
@@ -3097,6 +3093,11 @@ export const backlinks = {
     "Alexander I": {
         "2023-02-21": "- [[Alexander I]]"
     },
+    "MAKE (Book)": {
+        "2023-05-02": "[[MAKE (Book)]]를 읽었다. 내가 생각하고 있는 것과 ...",
+        "Fiercely Overpriced": "[[MAKE (Book)]] suggests asking for money directly ...",
+        "Readings": "- [x] [[MAKE (Book)]]"
+    },
     "Noumenon": {
         "Are Computers Psychotropic Substances": "... How dare you!\" However, a [[Noumenon]] itself, and Noumenon's fanatical destructive ...",
         "Library of Babel": "... the idea, but not the [[Noumenon]].",
@@ -3182,7 +3183,8 @@ export const backlinks = {
         "MessagePack": "... data among multiple languages like [[JSON]]. But it's faster and smaller. ...",
         "Migrating Node.js apps from AWS EB to Heroku": "... minimal changes to app.js and package.[[json]].",
         "glTF": "... two possible file extensions: .gltf ([[JSON]]/ASCII) or .glb (binary). Both .gltf ...",
-        "sem.sh": "- [[JSON]] API"
+        "sem.sh": "- [[JSON]] API",
+        "하늘땅사람 개발 기록": "천지인 로직을 그냥 선처리해놓고 [[json]]에 덤핑하여 사용하면 어떨까 실험을 해보았다."
     },
     "GA": {
         "2022-10-12": "- Jetbrains Fleet is [[GA]]: Introducing the Fleet Public Preview",
@@ -3817,6 +3819,7 @@ export const backlinks = {
         "Redactor for iPhone": "Someday [[Project]].",
         "Repeated Designs": "> Weekend side [[project]]: A gallery of the best ...",
         "Research Paper NPM System": "Someday [[Project]]. It's an [[npm]] system for ...",
+        "Robert Oppenheimer and Jiro Horikoshi": "... scientific team of the Manhattan [[Project]], which developed the first atomic ...",
         "Snowpack으로 WASM 시작하기": "... 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
         "Sticker Party": "Someday [[Project]] GitHub README에 박을 수 있음. ...",
         "Stories Behind Satori": "... already done by an open-source [[project]] facebook/yoga.",
@@ -3952,6 +3955,7 @@ export const backlinks = {
         "Born of this Land - The Founding Story of Hyundai": "... project would have prevented other [[한민족|Korean]] construction companies from entering overseas ...",
         "Brunch violates SF terms of use": "- [[한민족|Korean]] writing service [[Brunch]] violates [[Apple]]'s ...",
         "Imoogi and Dragon Company": "... Dragon 🐉 company, as in [[한민족|Korean]] folklore.",
+        "J. Robert Oppenheimer": "... have mixed feelings about my [[한민족|Korean]] background. Much like how Oppenheimer ...",
         "Korean Discount": "... to the lower valuation of [[한민족|Korean]] stocks compared to their global ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "Unlike the Western market, the [[한민족|Korean]] music market is heavily independent.",
         "Letter to Mr. Matt Rickard on 2022-12-24": "From my native [[한민족|Korean]] experience, the [[Super App]] is ...",
@@ -4096,6 +4100,7 @@ export const backlinks = {
         "Clean Energy": "- [[Nuclear Fusion]]",
         "Desire-Compatible Growth & Preservation": "- [[Nuclear Fusion]]",
         "MetroPunk": "... 등장하지만, 사이버펑크에서 등장하는 상용화된 AI|인공지능, [[Nuclear Fusion|핵융합]], 사이버네틱스, [[Metaverse|메타버스]] 등의 미래적 기술 ...",
+        "Nuclear Fission": "... nuclear projects, such as the [[nuclear fusion]] startup Helion.",
         "불가사리": "[[Nuclear Fusion|핵융합]]"
     },
     "MAGI": {
@@ -4365,6 +4370,7 @@ export const backlinks = {
         "Google": "> Google LLC is an [[American]] multinational technology company that focuses ...",
         "Hugging Face": "... Hugging Face, Inc. is an [[American]] company that develops tools for ...",
         "Ideas are worthless": "... is a saying of the [[American]] inventor Thomas Edison. Dictionary.com",
+        "J. Robert Oppenheimer": "## [[American]] Prometheus: The Triumph and Tragedy ...",
         "Palantir": "... Palantir Technologies is a public [[American]] software company specializing in big ...",
         "Person 1E6ABA": "... market but now considers the [[American]] market due to sheer market ...",
         "Person A3BA1A": "An [[American]] company, Carta, already dominates the ...",
@@ -4526,6 +4532,14 @@ export const backlinks = {
         "하늘땅사람 개인 정보 보호 정책": "[[하늘땅사람]]은 어떤 개인 정보도 수집하지 않습니다.",
         "하늘땅사람 지원 문서": "[[하늘땅사람]]의 지원 문서입니다.",
         "활자": "[[하늘땅사람]]의 [[Subproject|하위 계획]]."
+    },
+    "J. Robert Oppenheimer": {
+        "2023-07-23": "Watched [[J. Robert Oppenheimer|Oppenheimer]]. I was continuously disturbed by ...",
+        "Jiro Horikoshi": "... point in history, just like [[J. Robert Oppenheimer]]. [[Robert Oppenheimer and Jiro Horikoshi]]",
+        "Readings": "- [ ] [[J. Robert Oppenheimer]]",
+        "Robert Oppenheimer and Jiro Horikoshi": "Both Jiro Horikoshi and [[J. Robert Oppenheimer]] were influential figures during World ...",
+        "Watchings": "- [[J. Robert Oppenheimer|Oppenheimer]]",
+        "서당개 3년이면 풍월을 읊는다": "... 않았다. 어떤 회사에서든 태생부터 남다른 [[J. Robert Oppenheimer|오펜하이머]]급 슈퍼브레인은 얼마 되지 않는 듯했다. ..."
     },
     "Researcher": {
         "Research Paper NPM System": "... It's an npm system for [[Researcher|Researchers]]. Citations are npm `install`s. Embedded ...",
@@ -4817,7 +4831,7 @@ export const backlinks = {
     },
     "Apache Spark": {
         "Databricks": "... data analytics platform powered by [[Apache Spark]]. The platform supports various data ...",
-        "Parquet": "... is used for Databricks and [[Apache Spark]]",
+        "Parquet": "... processing frameworks such as Hadoop, [[Apache Spark|Spark]], and Impala. It is compatible ...",
         "Project Prepare for Grammarly": "... library to bring Tensorflow on [[Apache Spark]]"
     },
     "Dynamically Linked Libraries": {
@@ -5097,7 +5111,6 @@ export const backlinks = {
     "대만": {
         "2023-02-16": "- [[대만]]",
         "Neo Block Economy": "- The father of [[대만|Taiwan]]'s chip industry said geopolitics have ...",
-        "Readings": "- [ ] 도해 [[대만|타이완]]사",
         "Sudden Rise of Bondee": "... crazy in 대한민국|Korea, 일본|Japan, Singapore, [[대만|Taiwan]], etc., ranking #1 in the ...",
         "젠리의 성공 공식": "... 안에 전교생이 사용한다는 것을 관찰했다. [[대만]] 대학에 유학 간 [[일본]] 학생들로부터 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, 일본, Singapore|싱가포르, [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 ..."
@@ -5449,6 +5462,7 @@ export const backlinks = {
         "2016-06-24": "- [[공강에서 보내는 공강 활용법]]"
     },
     "일본인": {
+        "Jiro Horikoshi": "Jiro Horikoshi, a well-known [[일본인|Japanese]] aeronautical engineer, was responsible for ...",
         "hn.cho.sh 개발 기록": "일본으로 진출하기 위해 오랜만에 [[일본인]] 친구들에게 [[Mail|이메일]]을 조금 돌렸다. 얘기를 ...",
         "이완용": "> 이완용의 이런 말에서 우리는 [[일본인]]의 주구 노릇을 하면서 그가 겪는 ...",
         "일본": "[[일본인]]",
@@ -5839,6 +5853,7 @@ export const backlinks = {
         "Effective Accelerationism": "... 있어요. 당신은 이것을 피하기 위해 [[Economy|경제]]를 재설계할 수 없습니다. [[GPU]]를 없앨 ...",
         "Mental Simulation of Firefox and Signal as a Super App": "... Android but also as App [[Economy]] vs. Web Economy, Closed vs. ...",
         "Neo Block Economy": "Neo Block [[Economy]]",
+        "Nuclear Fission": "... power plants, Vice Chancellor and [[Economy]] Minister Robert Habeck of the ...",
         "On National Crises and the Intellectuals — Focused on GB and KR": "... a heavy blow to the [[economy]], leaving the nation reeling from ...",
         "Person 1E6ABA": "... terrible news for the 대한민국|Korean [[economy]]?",
         "Why Korean Banks Suck": "... a significant role in their [[economy]].",
@@ -6413,11 +6428,14 @@ export const backlinks = {
         "Battle of Flow and Asana": "I was on the [[Bootstrap|bootstrapping]] train. He was drinking Silicon ...",
         "IDOL Stack": "- [[Bootstrap]]",
         "Impact over Performance": "- [[Bootstrap]]",
-        "MAKE": "This is called [[Bootstrap|bootstrapping]]. The good part is that ..."
+        "MAKE (Book)": "This is called [[Bootstrap|bootstrapping]]. The good part is that ..."
     },
     "인하우스와 자유경쟁": {
         "2023-02-22": "- [[인하우스와 자유경쟁]]",
         "30-Day Tweet Test (Harry Stebbings)": "... and Free Market <br/> 🇰🇷 [[인하우스와 자유경쟁]]      ..."
+    },
+    "Jiro Horikoshi": {
+        "Robert Oppenheimer and Jiro Horikoshi": "Both [[Jiro Horikoshi]] and [[J. Robert Oppenheimer]] were ..."
     },
     "Cartography": {
         "2022-05-30": "... time forever remembered. The original [[Cartography|map]] plaque is the perfect gift ...",
@@ -6453,7 +6471,8 @@ export const backlinks = {
     },
     "Neon Genesis Evangelion": {
         "2023-07-03": "- Started watching [[Neon Genesis Evangelion]]. OMG this is legendary. I ...",
-        "MAGI": "[[Neon Genesis Evangelion|신세기 에반게리온]]에 등장하는 슈퍼컴퓨터 시스템 MAGI는 3대의 ..."
+        "MAGI": "[[Neon Genesis Evangelion|신세기 에반게리온]]에 등장하는 슈퍼컴퓨터 시스템 MAGI는 3대의 ...",
+        "Watchings": "- [[Neon Genesis Evangelion]]"
     },
     "Swift String 조작은 왜 그 모양인가": {
         "2023-02-15": "- [[Swift String 조작은 왜 그 모양인가]]",
@@ -6977,6 +6996,7 @@ export const backlinks = {
         "Person A3BA1A": "... company, Carta, already dominates the [[United States of America|U.S.]] market.",
         "Protocol Wars": "... would like to admit. The [[United States of America|U.S.]] Department of Defense was an ...",
         "Regulation of Fake News": "- The [[United States of America|United States]] government pressured [[Twitter]] to elevate ...",
+        "Robert Oppenheimer and Jiro Horikoshi": "... first atomic bomb for the [[United States of America|United States]]. Both men were technological pioneers, ...",
         "Screenshot as an API": "... a rumored frustration with the [[United States of America|US]] Postal Service.",
         "Self Driving": "... suite that's available in the [[United States of America|United States]]",
         "Tax": "In the [[United States of America|USA]], taxes on income and long-term ...",
@@ -7264,6 +7284,7 @@ export const backlinks = {
         "Probability": "- [[Covariance]]"
     },
     "Kinesis": {
+        "Is AWS a Dumb Pipe": "... can move up. Kafka → [[Kinesis]]. MongoDB → DocumentDB. Redis → ...",
         "Sungari": "... switch to Apache Kafka from [[Kinesis]], along with decoupling ingestion from ..."
     },
     "FFMpeg": {
@@ -7914,6 +7935,10 @@ export const backlinks = {
         "2023-02-09": "- [[Are Computers Psychotropic Substances]]",
         "30-Day Tweet Test (Harry Stebbings)": "| 02-09 | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]] ..."
     },
+    "Robert Oppenheimer and Jiro Horikoshi": {
+        "2023-07-23": "... thinking of the connections between [[Robert Oppenheimer and Jiro Horikoshi]].",
+        "Jiro Horikoshi": "... just like J. Robert Oppenheimer. [[Robert Oppenheimer and Jiro Horikoshi]]"
+    },
     "Text AI and Information Density": {
         "2022-12-27": "- [[Text AI and Information Density]]"
     },
@@ -7978,8 +8003,11 @@ export const backlinks = {
     },
     "강기업": {
         "Antipreneur": "- [[강기업]]이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].",
-        "MAKE": "- [[강기업]]",
+        "MAKE (Book)": "- [[강기업]]",
         "MetroPunk": "## 메트로펑크의 차세대 [[강기업]]"
+    },
+    "Grammarly Work Note 2023-07-21": {
+        "2023-07-21": "[[Grammarly Work Note 2023-07-21]]"
     },
     "GitHub Actions": {
         "Finding out Ghost version with JS": "... I automated theme deployment with [[GitHub Actions]] (you can find the post ...",
@@ -8125,9 +8153,11 @@ export const backlinks = {
         "Finally, Apple Pay in Korea": "... standard in 대한민국|Korea, such as [[일본|Japan]]'s Suica. But they never succeeded.) ...",
         "Haruki Murakami": "... stories have been bestsellers in [[일본|Japan]] and internationally, with his work ...",
         "IP is the new Real Estate": "... economic boom of the 1980s, [[일본|Japanese]] corporations and investors had a ...",
+        "Jiro Horikoshi": "... aircraft utilized by the Imperial [[일본|Japanese]] Navy throughout World War II. ...",
         "Krafton Way": "... 우리는 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States of America|미국]] 기업들을 ...",
         "Metadream": "... and data centers in Singapore, [[일본|Japan]], [[대한민국|Korea]], and the [[United States ...",
         "Pretendard의 아쉬운 점": "... 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
+        "Robert Oppenheimer and Jiro Horikoshi": "... Zero, a fighter plane representing [[일본|Japanese]] military power. [[J. Robert Oppenheimer|Oppenheimer]] ...",
         "Ruby": "... by Yukihiro \"Matz\" Matsumoto in [[일본|Japan]]. Ruby (programming language)>)",
         "Sudden Rise of Bondee": "... app, going crazy in 대한민국|Korea, [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 ...",
         "Zenly Playbook": "... on sub-group-led growths; for example, [[일본|Japanese]] students studying abroad at Taiwanese ...",
@@ -8713,6 +8743,7 @@ export const backlinks = {
     "CPU": {
         "2023-01-13": "- [[CPU]]",
         "ChatGPT is a Blurry JPEG and We Need That": "... the calendar scale of a [[CPU]]. Imagine that one cycle of ...",
+        "ChatGPT는 흐릿한 이미지이지만 필요합니다": "예전에 [[CPU]]의 달력 스케일을 시각화하는 흥미로운 사고 ...",
         "How is WebAssembly cross-platform when Assembly is not": "... precompiled binary executables for multiple [[CPU]] vendors, like [[Apple]]'s Universal Binary?",
         "How to Build Software like an SRE": "- keep error logs, [[CPU]] usage, and request error rates",
         "Imagining WebNPU API": "... unlocks the bare-metal power of [[CPU]]s.",
@@ -8840,6 +8871,7 @@ export const backlinks = {
         "MetroPunk": "... 같은 문제를 다룬다. 메트로펑크에서는 초보적인 [[AI]]와 발달한 스마트폰 시장 등의 근미래적 ...",
         "Microsoft": "... Google has been exploring the [[AI]] ecosystem. Consequently, the increased demand ...",
         "Mojo": "... designed specifically for artificial intelligence ([[AI]]) developers, with features that streamline ...",
+        "Nuclear Fission": "... his bet on energy alongside [[AI]], stating that the future depends ...",
         "OpenAI": "OpenAI is an [[AI]] research and deployment company that ...",
         "OpenAI enthroned as the Levis of Tech": "... service, powered by the GPT-3.5-turbo [[AI]] model. The model is available ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "방금 [[AI]] 네이티브 시대의 골드러시가 시작되었다.",
@@ -8930,6 +8962,7 @@ export const backlinks = {
         "Ghost 테마를 자동 배포하는 방법": "... 다음과 같이 Ghost 테마 개발을 [[Automation|자동화]]할 수 있게 되었다.",
         "GitHub Actions": "... platform that allows you to [[Automation|automate]] your build, test, and deployment ...",
         "Karrot": "- 찾고 연구하고 [[Automation|자동화]]하고 만들고 공개하고",
+        "MAKE (Book)": "- [[Automation|automate]], but only things that are ...",
         "OpenAI enthroned as the Levis of Tech": "... cattle – they invested in [[automation]] tools that allowed them to ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "... 번에 손쉽게 관리할 수 있는 [[Automation|자동화]] 도구에 투자하기 시작했다. 이러한 변화 ...",
         "Scheduler": "... (DRM), and, commonly today, workload [[automation]] (WLA). The data structure of ...",
