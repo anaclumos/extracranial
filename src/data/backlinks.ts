@@ -3254,6 +3254,9 @@ export const backlinks = {
     "Canary Trap": {
         "2022-10-18": "- [[Canary Trap]]"
     },
+    "Lombok": {
+        "2023-07-24": "... also had to look into [[Lombok]] and [[Twitter Recommendation Algorithms]]."
+    },
     "상경과 상항": {
         "2023-07-06": "- [[상경과 상항]]"
     },
@@ -5014,6 +5017,7 @@ export const backlinks = {
         "2022-06-14": "... United States of America|US and [[대한민국|Korea]].",
         "2022-07-05": "... United States of America|미국 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 ...",
         "2023-05-19": "... more heavily tied to the [[대한민국|Korean]] Market.",
+        "2023-07-24": "지난주에 오랜만에 [[대한민국|한국]] 면접을 볼 기회가 있었는데. 내 ...",
         "AI replaces expensive jobs first": "서울|SEOUL (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed ...",
         "AT&T Roaming Incident Report (December 2022)": "... December 15th, I landed in [[대한민국|Korea]] and did not have my ...",
         "Bootstrap": "... was historically less popular in [[대한민국|Korea]], where startups typically relied on ...",
@@ -5915,6 +5919,7 @@ export const backlinks = {
         "Heap (Computer Systems)": "On the other hand, [[Java]], [[Python]], or other higher-level languages ...",
         "How is WebAssembly cross-platform when Assembly is not": "... WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the ...",
         "IntelliJ": "... development environment (IDE) written in [[Java]] for developing computer software written ...",
+        "Lombok": "Lombok is a [[Java]] Annotation Toolkit that supports automatic ...",
         "Project Core ML Inference": "... different types of memories in [[Java]]?",
         "Project Padme": "- [[Java]], Spring Boot",
         "Render.com": "... Ruby, PHP, Python, Node, and [[Java]].",
@@ -8577,6 +8582,9 @@ export const backlinks = {
         "하늘땅사람": "- [[하늘땅사람 업데이트 기록]]",
         "하늘땅사람 지원 문서": "[[하늘땅사람 업데이트 기록]]도 확인해보세요."
     },
+    "Twitter Recommendation Algorithms": {
+        "2023-07-24": "... to look into Lombok and [[Twitter Recommendation Algorithms]]."
+    },
     "Virtual Address Space and Physical Address Space": {
         "2022-11-04": "- [[Virtual Address Space and Physical Address Space]]",
         "Computer Systems": "- [[Virtual Address Space and Physical Address Space]]",
@@ -11045,6 +11053,9 @@ export const backlinks = {
     },
     "3D775A.png": {
         "LAH Case Study": "![[3D775A.png]]"
+    },
+    "BF2F47.png": {
+        "Twitter Recommendation Algorithms": "![[BF2F47.png]]"
     },
     "47B4B6.png": {
         "Railway": "![[47B4B6.png]]"
