@@ -26,7 +26,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [x] [[이 땅에 태어나서]]
 - [x] [[이완용]] 평전 (윤덕한 저)
 - [x] [[Exhalation]]
-- [x] [[MAKE]]
+- [x] [[MAKE (Book)]]
 
 </Shuffle>
 
@@ -34,7 +34,7 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
-- [ ] [[American Prometheus]]
+- [ ] Space Odyssey Series
 
 </Shuffle>
 
@@ -42,12 +42,11 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
-- [ ] Space Odyssey Series
 - [ ] The Righteous Mind
 - [ ] Where is my flying car?
 - [ ] Diaspora
 - [ ] Zero to One
-- [ ] 도해 [[대만|타이완]]사
+- [ ] 도해 타이완사
 - [ ] 허삼관 매혈기
 - [ ] [[삼체]] (Re-read)
 - [ ] Black Swan
@@ -58,6 +57,7 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
+- [ ] [[J. Robert Oppenheimer]]
 - [x] [[지구 끝의 온실]]
 - [x] [[한자 타자기]]
 - [ ] [[하얼빈]]

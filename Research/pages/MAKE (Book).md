@@ -9,7 +9,7 @@ slug: '/1F25A6'
 - launch early and many times
 - grow organically
 - monetize by asking users for money
-- automate, but only things that are worth the time
+- [[Automation|automate]], but only things that are worth the time
 - price aggressively high
 - don't [[groupthink]] -- visionary people always fail.
 - [[강기업]]

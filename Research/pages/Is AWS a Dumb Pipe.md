@@ -13,7 +13,7 @@ slug: '/32C1A4'
   - Private markets will foster _some_ higher-level service that downgrades [[AWS]] as one pipe of many, like Snowflake.
 - No:
   - Product quality difference is very hard to notice these days. [[AWS]] has a huge business opportunity.
-  - [[AWS]] can move up. Kafka → Kinesis. MongoDB → DocumentDB. Redis → MemoryDB. ElasticSearch → OpenSearch.
+  - [[AWS]] can move up. Kafka → [[Kinesis]]. MongoDB → DocumentDB. Redis → MemoryDB. ElasticSearch → OpenSearch.
   - [[AWS]] engineers are already too tech-savvy. They will not miss a business opportunity.
   - Why would businesses add more vendors if they can use the [[AWS]] product?
   - Incentives are aligned between open source and hyperscalers (?)
