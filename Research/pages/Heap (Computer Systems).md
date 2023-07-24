@@ -11,7 +11,7 @@ For implementing a heap, we must consider the following.
 - Memory Utilization: how concise is the stored memory?
 - [[DX]]
 
-## Dynamic Memory Allocation in C
+## Dynamic [[Memory Allocation]] in C
 
 There are two types: `malloc` and `calloc`.
 The main difference between `malloc` and `calloc` is that `malloc` allocates a memory block with a specified size.
@@ -22,7 +22,7 @@ On the other hand, when releasing the memory, we can use `free(void *ptr)`
 
 To indicate the end of the heap, the kernel maintains a `brk` pointer.
 `brk` pointer will hold the virtual address of the end of the heap.
-In Linux, the `brk` pointer will be adjusted with `sbrk(intptr_t increment)`
+In [[Linux]], the `brk` pointer will be adjusted with `sbrk(intptr_t increment)`
 
 At startup, the C-library will allocate a default size of the heap.
 If there is not enough space, we must call `sbrk` to increase the heap.
@@ -35,7 +35,7 @@ heap = sbrk(1 << 20); // 1 MB, depends on compiler & system
 ## Allocators
 
 C and [[C++]] use explicit allocators, which the developers must explicitly free the memory when done using them.
-On the other hand, [[Java]], Python, or other higher-level languages use implicit allocators, which this memory free-ing is done automatically.
+On the other hand, [[Java]], [[Python]], or other higher-level languages use implicit allocators, which this memory free-ing is done automatically.
 This implicit allocators are also known as garbage collection.
 
 Allocators must satisfy the following:

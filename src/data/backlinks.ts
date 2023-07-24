@@ -595,7 +595,8 @@ export const backlinks = {
         "0232 Implement Queue using Stacks": "- Depending on your [[language]], the stack may not be ...",
         "2022-06-12": "... standard defines an interface definition [[language]], web IDL, that can be ...",
         "ACL 60-60": "... The intent is to eliminate [[language]] barriers that may hinder scientific ...",
-        "Across the Sprachraums": "... detachment of IP|Intellectual Property and [[Language]]."
+        "Across the Sprachraums": "... detachment of IP|Intellectual Property and [[Language]].",
+        "Native Language": "Native [[Language]]"
     },
     "Site On Which the Sun Never Sets": {
         "2023-02-26": "- [[Site On Which the Sun Never Sets]]",
@@ -842,6 +843,7 @@ export const backlinks = {
         "Cross-Origin Opener Policy": "[[HTTP]] `Cross-Origin-Opener-Policy` 응답 헤더는 최상위 문서가 ...",
         "DASH Protocol": "## Dynamic, Adaptive Streaming over [[HTTP]]",
         "HTMX": "... on this button, issue an [[HTTP]] POST request to '/clicked' and ...",
+        "IDOL Stack": "  - [[HTTP]] content negotiation",
         "Internet Protocol Stack": "- Application. FTP, SMTP, [[HTTP]]. Handles Messages. SSL belongs here",
         "Internetworking": "- [[HTTP]]",
         "Preservation of Data": "- Try using [[HTTP]]/2 to keep connections open. Does ...",
@@ -1246,6 +1248,7 @@ export const backlinks = {
     "Boring Technologies": {
         "2023-01-13": "- [[Boring Technologies]]",
         "BitTorrent": "... parsing, unit tests, and the [[Boring Technologies|boring]] parts that build character. View ...",
+        "IDOL Stack": "- Use [[boring technologies]]",
         "Impact over Performance": "... the IDOL Stack. Remember, use [[Boring Technologies]].",
         "Tailwind": "... to be one of the [[Boring Technologies|boring]] established CSS solutions that enables ..."
     },
@@ -1658,6 +1661,7 @@ export const backlinks = {
         "1046 Last Stone Weight": "- Space: $O(1)$ in [[Python]]",
         "Coding Tests": "- Will use [[Python]] (main language) and [[C++]] (supplementary ...",
         "Get Job Done": "  - Building [[Python]] Data Parser",
+        "Heap (Computer Systems)": "On the other hand, Java, [[Python]], or other higher-level languages use ...",
         "Higher-Level Languages and Their Speeds": "- [[Python]]",
         "Mathematics under The Library of Babel": "- I tried making a [[Python]] script to backtrack the combinations.",
         "Python": "You can offset with [[Python]]'s `enumerate` function with list splitting.",
@@ -2000,6 +2004,7 @@ export const backlinks = {
     "태백산맥 계획": {
         "2022-12-11": "- [[태백산맥 계획]]",
         "Neo Korea": "- [[태백산맥 계획]]",
+        "Reddit Place for Korea": "한국판 Reddit Place. [[태백산맥 계획]]",
         "Regulation of Fake News": "- [[태백산맥 계획]]"
     },
     "Mutual Fund": {
@@ -3404,6 +3409,7 @@ export const backlinks = {
         "2023-02-16": "... examples. Go ahead and add [[Next.js]] or any Vite-based examples and ...",
         "Apple-like Block Interface": "## [[Next.js]]",
         "Front-end": "- [[Next.js]]",
+        "IDOL Stack": "- [[Next.js]], [[Supabase]] [[Database|DB]], [[Supabase]] Auth, [[Supabase]] ...",
         "React": "... server-rendered applications with frameworks like [[Next.js]]. However, React is only concerned ...",
         "Shopify Analyzes CSS Frameworks": "... this solution across Rails, React, [[Next.js]], React-Native, rollup, Vite, esbuild, webpack, ...",
         "Tailwind CSS 톺아보기": "- Tailwind CSS를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 적용",
@@ -3985,6 +3991,7 @@ export const backlinks = {
         "Apple Newsroom 서체 따라하기": "... 때마다 흔하게 사용되는 방식이다. 대표적으로 [[GitHub]]이 이와 같은 방식을 사용한다.",
         "Apple-like Block Interface": "## [[GitHub]]",
         "Ghost 테마를 자동 배포하는 방법": "6.  완성된 테마 파일을 [[GitHub]] Repository에 Push한다.",
+        "IDOL Stack": "... Inlang + Across the Sprachraums, [[GitHub]] CI/CD",
         "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
         "Snowpack으로 WASM 시작하기": "## [[GitHub]] Pages에 Snowpack App 호스팅 및 ...",
         "Social Coding": "- [[GitHub]] is removing the trending tab ...",
@@ -4206,6 +4213,7 @@ export const backlinks = {
         "ULLO": "- Unsplash [[CELLO]]"
     },
     "Toss": {
+        "IDOL Stack": "... International payments built-in (PayPal + [[Toss]])",
         "Naver Pay": "- [[Toss]]",
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve ...",
         "Service Shimming": "- [[Toss]] (≈ [[대한민국|Korean]] Paypal) failed to ...",
@@ -4584,6 +4592,7 @@ export const backlinks = {
         "Chrome": "... technologies, including HTML5, CSS, and [[JavaScript]]. In addition, it includes features ...",
         "Classic Blogs": "... Bear Blog: No trackers, no [[JavaScript]], no stylesheets blog for hackers",
         "Deno Deploy": "- Deploy [[JavaScript]] Globally",
+        "ESLint": "ESLint is an open-source [[JavaScript]] linting utility. The primary objective ...",
         "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "물론 이렇게 매번 [[JavaScript]]를 통해 링크를 조작하는 방법은 웹 ...",
         "HTMX": "- Implementation itself is [[JavaScript]]",
         "NPM": "... default package manager for the [[JavaScript]] runtime environment [[Node.js]]. NPM is ...",
@@ -4720,6 +4729,7 @@ export const backlinks = {
         "2022-06-05": "... PDF/EPUBs with one command on [[Linux]] (and macOS very soon). This ...",
         "Chrome": "... mobile devices, including Windows, macOS, [[Linux]], [[Android]], and [[iOS]].",
         "ELF": "... and Linked Format, used in [[Linux]]",
+        "Heap (Computer Systems)": "In [[Linux]], the `brk` pointer will be ...",
         "Linux Permissions for Keys": "Note that [[Linux]] SSH manual says:",
         "Project FFMpeg for iPad": "... applications. Supports Android, Flutter, iOS, [[Linux]], macOS, [[React Native]] and tvOS. ...",
         "Simple DirectMedia Layer": "... systems such as Android, iOS, [[Linux]], macOS, and Windows. Simple DirectMedia ...",
@@ -5105,6 +5115,9 @@ export const backlinks = {
         "Atomics (JavaScript)": "- 생성자 없음. [[Static (Computer Systems)|Static]].",
         "Symbol (Computer Systems)": "... are symbols that are not [[Static (Computer Systems)|static]]."
     },
+    "Reddit Place": {
+        "Reddit Place for Korea": "한국판 [[Reddit Place]]. [[태백산맥 계획]]"
+    },
     "Downloading Any Recordings from Zoom": {
         "2022-11-19": "  - [[Downloading Any Recordings from Zoom]]"
     },
@@ -5338,6 +5351,9 @@ export const backlinks = {
         "Imagining WebNPU API": "... comparable to WebGL APIs, but [[WebGPU]] offers access to more advanced ...",
         "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]",
         "WebNPU API를 상상하다": "- [[WebGPU]]는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
+    },
+    "한국판": {
+        "Reddit Place for Korea": "[[한국판]] [[Reddit Place]]. [[태백산맥 계획]]"
     },
     "Cross-Origin Embedder Policy": {
         "Providing DOM API to Worker Threads": "- [[Cross-Origin Embedder Policy]]: `require-corp`"
@@ -5578,6 +5594,9 @@ export const backlinks = {
     "Layoff": {
         "2023-01-13": "- [[Layoff]]"
     },
+    "Cloud-Native": {
+        "AI-native": "... the principles and practices of [[cloud-native]] development. It uses [[cloud computing]] ..."
+    },
     "Truthiness of Empty Strings": {
         "Grammarly Work Note 2023-06-27": "- [[Truthiness of Empty Strings]]"
     },
@@ -5790,6 +5809,7 @@ export const backlinks = {
     "Supabase": {
         "2022-12-28": "- Back-end|Backend as a Service: [[Supabase]] (past: Firebase)",
         "2023-05-04": "- [[Supabase]]",
+        "IDOL Stack": "- Next.js, [[Supabase]] [[Database|DB]], Supabase Auth, Supabase Storage, ...",
         "henrymakesapps": "4.  [[Supabase]]: Offers an easy-to-use [[database]] with ...",
         "hn.cho.sh 개발 기록": "... starter template for Next.js and [[Supabase]] 살펴보기"
     },
@@ -5892,7 +5912,7 @@ export const backlinks = {
     },
     "Java": {
         "2022-07-20": "- [[Java]] → Kotlin",
-        "Heap (Computer Systems)": "On the other hand, [[Java]], Python, or other higher-level languages ...",
+        "Heap (Computer Systems)": "On the other hand, [[Java]], [[Python]], or other higher-level languages ...",
         "How is WebAssembly cross-platform when Assembly is not": "... WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the ...",
         "IntelliJ": "... development environment (IDE) written in [[Java]] for developing computer software written ...",
         "Project Core ML Inference": "... different types of memories in [[Java]]?",
@@ -5964,7 +5984,7 @@ export const backlinks = {
     "Across the Sprachraums": {
         "2023-04-21": "- [[Across the Sprachraums]]",
         "ACL 60-60": "[[Across the Sprachraums]]",
-        "IDOL Stack": "... Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], GitHub CI/CD",
+        "IDOL Stack": "... Render, Clerk, Chakra, Inlang + [[Across the Sprachraums]], [[GitHub]] CI/CD",
         "Language": "- for context in [[Across the Sprachraums|intersprachraum]] communication: [[Foreign Language]]",
         "Research Paper Language System": "무제한번역 [[Across the Sprachraums]]",
         "hn.cho.sh 개발 기록": "... 절실히 느꼈다. Sprachraum에 구애받지 않는 [[Across the Sprachraums]].",
@@ -6588,6 +6608,7 @@ export const backlinks = {
         "30-Day Tweet Test (Harry Stebbings)": "| 02-23 | 🇬🇧 [[Born of this Land - The Founding Story of Hyundai]] <br/> 🇰🇷 [[이 땅에 태어나서]] ..."
     },
     "GraphQL": {
+        "IDOL Stack": "- Takes care of [[GraphQL]] fuzz",
         "Inspiring Open Source Projects": "... platform built using Node.js, React, [[GraphQL]]",
         "Redwood.js": "... For the back-end, Redwood uses [[GraphQL]], a query language for APIs ...",
         "Vector DB": "... cloud-native database, all accessible through [[GraphQL]], REST, and various language clients.",
@@ -7075,6 +7096,7 @@ export const backlinks = {
     },
     "PDF": {
         "2022-06-05": "- Convert ACSM files to [[PDF]]/EPUBs with one command on [[Linux]] ...",
+        "Cauchy": "The Cauchy distribution has a [[PDF]] ([[probability]] density function) given by:",
         "Screenshot as an API": "... - No need to understand [[PDF]] data format",
         "Synonym-based Fuzzy Search": "... Search + Synonym Search in [[PDF]]/Databases. Just like [[Google]]",
         "Using an iPad as my Ebook": "... with Book Scanning as a [[PDF]] with [[OCR]], and I figured ...",
@@ -7270,6 +7292,7 @@ export const backlinks = {
         "CELLO (Product)": "- [[Cloudflare]] for serving high-res images",
         "Cloudflare Pages": "- [[Cloudflare]] [[Edge]] [[Front-end]] [[Front-end]]",
         "Edge Network": "- [[Cloudflare]] Pages & Cloudflare Functions",
+        "IDOL Stack": "... Database|DB, Supabase Auth, Supabase Storage, [[CloudFlare]], Chakra",
         "Person 9078DC": "... 핫링킹으로 인한 과금이 많이 발생했다. [[Cloudflare]]와 [[Backblaze]]로 Bandwidth Alliance를 설정하고, 이미지 ...",
         "Redirect": "## Redirect in [[Cloudflare]]",
         "Vercel Incident Report (April 2023)": "> When [[Cloudflare]] says free unlimited bandwidth, they're ..."
@@ -8007,7 +8030,7 @@ export const backlinks = {
         "MetroPunk": "## 메트로펑크의 차세대 [[강기업]]"
     },
     "Grammarly Work Note 2023-07-21": {
-        "2023-07-21": "[[Grammarly Work Note 2023-07-21]]"
+        "2023-07-21": "- [[Grammarly Work Note 2023-07-21]]"
     },
     "GitHub Actions": {
         "Finding out Ghost version with JS": "... I automated theme deployment with [[GitHub Actions]] (you can find the post ...",
@@ -8358,6 +8381,9 @@ export const backlinks = {
         "Toss": "- Financial Technology|FinTech [[Unicorn]] of [[대한민국|Korea]].",
         "이무기 기업, 청룡 기업": "[[Unicorn|유니콘]] 기업이라는 단어는 마치 성공이 정해진 ..."
     },
+    "Reddit Place for Korea": {
+        "2023-07-21": "- [[Reddit Place for Korea]]"
+    },
     "Accelerationism": {
         "Effective Accelerationism": "- [[Accelerationism]]"
     },
@@ -8505,6 +8531,7 @@ export const backlinks = {
         "2023-05-26": "- [[Redwood.js]]",
         "2023-05-29": "- [[Redwood.js]]",
         "2023-06-10": "- [[Redwood.js]]",
+        "IDOL Stack": "- [[Redwood.js|Redwood]], Render, Clerk, Chakra, Inlang + ...",
         "Meta Meta Framework": "- Meta Meta Framework: [[Redwood.js]], [[Keystone.js]], [[Refine (Framework)]]",
         "i18n with Redwood": "... guide of implementing Internationalization with [[Redwood.js]]"
     },
@@ -8934,7 +8961,8 @@ export const backlinks = {
     },
     "Memory Allocation": {
         "2022-12-07": "- Computer Systems: [[Memory Allocation]]",
-        "Computer Systems": "- [[Memory Allocation]]"
+        "Computer Systems": "- [[Memory Allocation]]",
+        "Heap (Computer Systems)": "## Dynamic [[Memory Allocation]] in C"
     },
     "Perceptual Hashing": {
         "2022-12-18": "- [[Perceptual Hashing]]",
@@ -9042,6 +9070,7 @@ export const backlinks = {
         "Grammarly Work Note 2023-06-02": "... the use of a Document [[Database|DB]], which houses 6000 different tables. ...",
         "HEEx": "... of dynamic data, such as [[database]] queries or API responses, directly ...",
         "Higher-Level Languages and Their Speeds": "- Don't use the [[database]] when avoidable, which is always ...",
+        "IDOL Stack": "- Next.js, Supabase [[Database|DB]], Supabase Auth, Supabase Storage, [[CloudFlare]], ...",
         "Letter to Mr. Matt Rickard on 2022-11-28": "... maybe image is stored in [[Database|DB]])",
         "Link Coefficient": "Given a [[database]], how interconnected is the database?",
         "Now Page": "... rather keep improving my back-end [[database]] work.\"",
