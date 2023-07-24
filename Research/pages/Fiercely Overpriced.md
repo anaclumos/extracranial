@@ -24,7 +24,7 @@ A book recommendation web app, but _you need to pay to use it_.
 
 ## Ads? Purchases?
 
-[[MAKE]] suggests asking for money directly from the customers.
+[[MAKE (Book)]] suggests asking for money directly from the customers.
 
 ### [How I Built a Website to Earn Passive Income With Google AdSense](https://www.businessinsider.com/passive-income-built-website-google-adsense-2023-5)
 
