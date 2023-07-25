@@ -7,7 +7,7 @@ slug: '/407AD6'
   - Therefore, an empty line should be two characters long.
   - If the line starts with a space, it continues the previous line. Must remove the `\r\n` from the previous line.
 - First line of HTTP Request → Request Line.
-  - Has `METHOD URI VERSION` format.
+  - Has METHOD [[URI]] VERSION format.
 - First line of HTTP Response → Status Line
   - Has `VERSION STATUS REASON`
 - Other lines have `KEY:VALUE`

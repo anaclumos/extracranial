@@ -15,7 +15,7 @@ slug: '/C59A99'
 
 - The developer of the famous "Rif is Fun for Reddit" Android app has announced that they will shut down on June 30, 2023, due to changes to Reddit's API and what they perceive as cruel treatment of developers.
 - Reddit has been accused of blocking ads in third-party apps, charging for API access, and removing sexually explicit content from third-party apps while keeping it on the official app, leading to disappointment and frustration among RIF users.
-- Some users are considering alternative Reddit apps and platforms, and Reddit's treatment of developers is facing scrutiny in light of recent accusations against the Apollo developer.
+- Some users are considering [[alternative]] Reddit apps and platforms, and Reddit's treatment of developers is facing scrutiny in light of recent accusations against the Apollo developer.
 
 ### [Sync will shut down on June 30](https://reddit.com/r/redditsync/comments/144jp3w/sync_will_shut_down_on_june_30_2023/)
 

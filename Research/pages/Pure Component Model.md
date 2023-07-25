@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/59C7E5'
 ---
 
-- Alternative approach to [[Monolithic Model]]
+- [[Alternative]] approach to [[Monolithic Model]]
 - Game Object
   - has-a `TransformComponent`
   - has-a `MeshComponent`

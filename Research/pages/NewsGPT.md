@@ -3,4 +3,4 @@ lang: 'en'
 slug: '/981CDF'
 ---
 
-News, but GPT-powered
+News, but [[Generative Pre-trained Transformer|GPT]]-powered

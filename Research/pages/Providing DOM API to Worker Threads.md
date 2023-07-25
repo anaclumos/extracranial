@@ -160,7 +160,7 @@ function heartbeat() {
 
 ## [[Remote Procedure Call]]
 
-- See [Remote procedure call - Wikipedia](https://en.m.wikipedia.org/wiki/Remote_procedure_call)
+- See [Remote procedure call](https://en.m.wikipedia.org/wiki/Remote_procedure_call)
 - _[[Remote Procedure Call|RPC]] is a [request-response](https://en.m.wikipedia.org/wiki/Request%E2%80%93response 'Request-response') protocol. An RPC is initiated by the *client*, which sends a request message to a known remote *server* to execute a specified procedure with supplied parameters. The remote server sends a response to the client, and the application continues its process. While the server is processing the call, the client is blocked (it waits until the server has finished processing before resuming execution) unless the client sends an asynchronous request to the server, such as an [XMLHttpRequest](https://en.m.wikipedia.org/wiki/XMLHttpRequest 'XMLHttpRequest')._
 
 Note that

@@ -49,7 +49,7 @@ A [[second brain]] can:
   - For example, tagging takes too much effort.
 - Author suggests [PARA](/r/B4364B). Refer to the note.
 
-Organizing was similar to Data Structures in Computer Science.
+Organizing was similar to Data Structures in [[Computer Science]].
 If you sort too less, it costs too much to search.
 If you optimize too much for search, sorting takes too long.
 It would be best if you had a middle ground.

@@ -13,6 +13,6 @@ slug: '/8DFCEE'
   - Probably No
   - No
 - Big Data with no intersection
-- Permalink for SEO
+- Permalink for [[Search Engine Optimization|SEO]]
 - Movie Data Source?
   - Is there an ISBN equivalent for Movies?

@@ -30,7 +30,7 @@ slug: '/F3D96B'
 - The People's Republic of China (PRC) presents America's most significant geopolitical challenge.
 - The PRC harbors the intention and increases the capacity to reshape the international order in favor of one that tilts the global playing field to its benefit.
 - Russia poses an immediate threat to the free and open international system, recklessly defying the fundamental laws of the international order.
-- The PRC is the only competitor intending to reshape the international order and, increasingly, the economic, diplomatic, military, and technological power to advance that objective.
+- The PRC is the only competitor intending to reshape the international order and, increasingly, the [[Economy|economic]], diplomatic, military, and technological power to advance that objective.
 - Russia's brutal and unprovoked war on its neighbor Ukraine has shattered peace in Europe and impacted stability everywhere, and its reckless nuclear threats endanger the global non-proliferation regime.
 
 ## [[United States of America|US]] Interests and Values
