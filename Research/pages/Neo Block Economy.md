@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/451356'
-aliases: ['신블록경제']
+aliases: ['신블록경제', '블록경제']
 ---
 
 [[Neo]] Block [[Economy]]

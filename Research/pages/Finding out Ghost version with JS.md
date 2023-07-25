@@ -7,7 +7,7 @@ So, this blog runs on [Ghost](https://github.com/TryGhost/Ghost). At the footer 
 
 ## Extracting the Ghost version on client-side
 
-Every Ghost blog includes a tag like the following for SEO and statistical reasons unless you manually disabled it.
+Every Ghost blog includes a tag like the following for [[Search Engine Optimization|SEO]] and statistical reasons unless you manually disabled it.
 
 ```html
 <meta name="generator" content="Ghost 3.13" />

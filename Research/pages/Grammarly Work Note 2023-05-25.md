@@ -116,7 +116,7 @@ Managing metrics is easier with a scorecard as it serves as the front end. In th
 
 ## Why not buy a solution at [[Grammarly]]?
 
-The reasons for this are mainly historical. First, [[Grammarly]] boasts a comprehensive, personalized architecture. The initial setup did not include a data lake. At its inception, there were no suitable public alternatives available. Additionally, the experimentation culture is ingrained in the user interface. Finally, choosing to purchase the product means adopting its unique work style. Our goal was to establish a work style that suited our needs.
+The reasons for this are mainly historical. First, [[Grammarly]] boasts a comprehensive, personalized architecture. The initial setup did not include a data lake. At its inception, there were no suitable public [[Alternative|alternatives]] available. Additionally, the experimentation culture is ingrained in the user interface. Finally, choosing to purchase the product means adopting its unique work style. Our goal was to establish a work style that suited our needs.
 
 ## Some things to keep in mind
 

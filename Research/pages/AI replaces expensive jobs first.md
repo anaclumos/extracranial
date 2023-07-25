@@ -31,9 +31,9 @@ In the end, supply always falls behind demand.
 
 ## Then why can [[AI]] replace expensive jobs?
 
-Two aspects ① Economic Efficiency ② Performance.
+Two aspects ① [[Economy|Economic]] Efficiency ② Performance.
 
-### Economic Efficiency
+### [[Economy|Economic]] Efficiency
 
 Making [[AI]] is expensive because:
 
@@ -54,7 +54,7 @@ Making an [[AI]] is also tricky regardless of the field. To slightly exaggerate,
     - Analyze and train millions of behaviors that contain and dispose of garbage
     - Analyze and train millions of behaviors that utilize vacuum cleaners very well
 
-As a result, cleaning [[AI|artificial intelligence]] also costs a lot of money. In other words, **if it will be challenging to produce [[AI|artificial intelligence]] anyways, you want a model that brings sufficient economic effects and versatile adaptability**. Therefore, it is appropriate to train [[AI|artificial intelligence]] for expensive labor to show this high financial return on investment level.
+As a result, cleaning [[AI|artificial intelligence]] also costs a lot of money. In other words, **if it will be challenging to produce [[AI|artificial intelligence]] anyways, you want a model that brings sufficient [[Economy|economic]] effects and versatile adaptability**. Therefore, it is appropriate to train [[AI|artificial intelligence]] for expensive labor to show this high financial return on investment level.
 
 ### Performance
 

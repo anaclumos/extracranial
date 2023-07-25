@@ -11,7 +11,7 @@ Definitive Healthcare encountered a range of complex issues in its data manageme
 
 1. The path toward data optimization was complicated and nuanced despite a clear goal.
 2. They had hundreds of different assets, each requiring additional ETL processing and moving through various zones from landing to curating.
-3. Data governance and compliance need under HIPAA/GDPR necessitated data silos.
+3. Data governance and compliance need under HIPAA/[[GDPR]] necessitated data silos.
 4. There were knowledge gaps among end users, particularly concerning query optimization.
 5. Humans and machines were constantly querying a significant volume of data.
 

@@ -32,5 +32,5 @@ Avi Wilensky, a web developer from [[New York City]], narrates his experience cr
 
 1.  Automate your infrastructure
 2.  Monetize your site with ad networks: Utilize ad networks like Google's AdSense
-3.  Keep user acquisition costs low: Organic channels, emphasizing Search Engine Optimization (SEO).
+3.  Keep user acquisition costs low: Organic channels, emphasizing [[Search Engine Optimization]] ([[Search Engine Optimization|SEO]]).
 4.  Keep infrastructure costs low: Utility of public cloud providers like [[AWS]] or Microsoft Azure to minimize recurring expenses.

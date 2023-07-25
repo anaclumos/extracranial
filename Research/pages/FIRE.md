@@ -18,7 +18,7 @@ slug: '/CABA29'
 - No idea like this had existed, and the domain BuiltWith was somehow not taken already
 - For instance, certain pieces of code can be used to identify if Adsense is used vs. Adzerk or some other advertising method
 - AboutUs was an internet domain directory containing information about millions of businesses. Gary showed Ray BuiltWith, and Ray immediately loved it. He added a BuiltWith.com link to every record in their index to provide BuiltWith information regarding each business
-- This added tens of millions of links; for those who aren't SEO experts, backlinks (pages that link to your site) are the key to ranking high. And BuiltWith just exploded with traffic
+- This added tens of millions of links; for those who aren't [[Search Engine Optimization|SEO]] experts, backlinks (pages that link to your site) are the key to ranking high. And BuiltWith just exploded with traffic
 - BuiltWith's value comes down to a straightforward concept.
 - Competitive Advantage. Aka, you'll earn more money from this
 - BuiltWith has turned into a colossal [[database]] of everything on the internet

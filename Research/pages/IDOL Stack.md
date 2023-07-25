@@ -9,8 +9,8 @@ slug: '/959D0A'
 - [[Bootstrap]]
 - Deliver day 1
 - Huge focus on an international-first approach
-  - [[HTTP]] content negotiation
-  - International SEO built-in (hreflang)
+  - [[HTTP]] [[content negotiation]]
+  - International [[Search Engine Optimization|SEO]] built-in ([[hreflang]])
   - Subpath routing
   - International payments built-in (PayPal + [[Toss]])
 - [[Impact over Performance]]
@@ -33,7 +33,7 @@ slug: '/959D0A'
 #### Con
 
 - Their [[Internationalization|i18n]] sucks. Especially setting up subpath routing for [[Redwood.js|Redwood]].
-- Non-GPT-able, since v1 came out mid 2022
+- Non-[[Generative Pre-trained Transformer|GPT]]-able, since v1 came out mid 2022
 
 ### Approach 2
 

@@ -40,6 +40,12 @@ src="https://dynamic-island.cho.sh/embed-player"
 
 </figcaption>
 
+:::note
+
+리버스엔지니어링한 Apple Music API가 변경되었고, 때문에 API를 더이상 업데이트하지 않을 예정입니다.
+
+:::
+
 **유능한 예술가는 모방하고 위대한 예술가는 훔친다** —
 그리고 이번에는 [Vercel](https://vercel.com)의 개발자 경험 담당 VP
 [Lee Robinson](https://github.com/leerob)의 아이디어 하나를 베껴보려 한다.

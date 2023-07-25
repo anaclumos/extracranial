@@ -13,11 +13,11 @@ The first building block is federation, which involves abstracting away the comp
 
 ### Data Streaming and Computation
 
-Each app is set to send all data to Kafka (provided by Confluent) with computation provided by [[Databricks]]. [[Databricks]] not only provides a compute layer but also handles historical data, which fuels the machine learning platform.
+Each app is set to send all data to Kafka (provided by Confluent) with computation provided by [[Databricks]]. [[Databricks]] not only provides a compute layer but also handles historical data, which fuels the [[ML|machine learning]] platform.
 
 ### Composability
 
-Composability is the concept of having small, interacting components. It allows high-level problems to be broken down into functional pieces, contributing to more efficient problem-solving. Examples mentioned include Marketing ML for personalized business experiences and Risk ML for fraud detection.
+Composability is the concept of having small, interacting components. It allows high-level problems to be broken down into functional pieces, contributing to more efficient problem-solving. Examples mentioned include Marketing [[ML]] for personalized business experiences and Risk [[ML]] for fraud detection.
 
 ### [[Datalake|Lakehouse]] Layers
 
@@ -25,11 +25,11 @@ The [[Datalake|Lakehouse]] model consists of several layers. The foundation is f
 
 ### Examples of [[Datalake|Lakehouse]] Layers
 
-The compute, and federated storage layers feature payment aggregation, while features such as connected users are used for calculating fraud patterns. Risk training exists on top of the MLFlow layer, and the marketing layer is placed on the model training layer. Several feature providers are involved in the system. The LLM, LangChain, enriches the context from data and sits on the model serving layer.
+The compute, and federated storage layers feature payment aggregation, while features such as connected users are used for calculating fraud patterns. Risk training exists on top of the MLFlow layer, and the marketing layer is placed on the model training layer. Several feature providers are involved in the system. The [[LLM]], LangChain, enriches the context from data and sits on the model serving layer.
 
 ### Support for Open Source Models
 
-The [[Datalake|Lakehouse]] model supports open-source models, allowing for swapping between CPU, GPU, and models like MPT.
+The [[Datalake|Lakehouse]] model supports open-source models, allowing for swapping between [[CPU]], [[GPU]], and models like MPT.
 
 import DisplayFlex from '@site/src/components/DisplayFlex'
 

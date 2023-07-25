@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/D2DFA4'
 ---
 
-- [[Mail|Letter]] to Mr. Matt Rickard on 2022-10-03
+- [[Mail|Letter]] to Mr. [[Matt Rickard]] on 2022-10-03
 
 Dear Mr. Rickard,
 
@@ -31,7 +31,7 @@ The video is in [[한민족|Korean]], but it's a 30-second visual tutorial video
 - Tutorial: How to easily import playlists from other music apps. [Video](https://www.youtube.com/watch?v=lIs51GVQnDw)
 
 The [[한민족|Korean]] tech market has these random unheard intriguing stories.
-I'm at @anaclumos on GitHub, [[Twitter]], and any other platform.
+I'm at @anaclumos on [[GitHub]], [[Twitter]], and any other platform.
 Hope we can keep in touch.
 
 Best Regards,

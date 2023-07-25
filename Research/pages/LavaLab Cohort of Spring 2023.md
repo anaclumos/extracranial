@@ -9,14 +9,14 @@ slug: '/CEEF6C'
 
 ### More Info-focused Startups
 
-With the recent advent of GPT APIs, people can now [[Generative Intelligence|generate intelligence]] on the fly, tailored for insights.
+With the recent advent of [[Generative Pre-trained Transformer|GPT]] APIs, people can now [[Generative Intelligence|generate intelligence]] on the fly, tailored for insights.
 
 - Brief aims to solve info overload for news readers
 - Documate aims to solve info overload for PDF-manual based industry, most notably the hardware industry
 - Codeflow gives visual information about your codebase.
 - Hive gives [[One and only]] search interface to fish your query.
 - Firefly captures lost information of [[Broken Feedback Loop]].
-- All tools use some GPT or Semantic Analysis.
+- All tools use some [[Generative Pre-trained Transformer|GPT]] or Semantic Analysis.
 
 ### No More Crypto & [[Web3]] Startups
 
@@ -46,7 +46,7 @@ News recommending app, just like [[Artifact]], but it shows a one-liner explanat
 
 ### Documate
 
-Documentations tool that generates a [[Docusaurus]]-like website, given a PDF. Integrated GPT for semantic searches and Chat explanation: [[Conversational AI Tools for Thought]].
+Documentations tool that generates a [[Docusaurus]]-like website, given a PDF. Integrated [[Generative Pre-trained Transformer|GPT]] for semantic searches and Chat explanation: [[Conversational AI Tools for Thought]].
 
 ### Codeflow
 
