@@ -116,8 +116,10 @@ export default HomePage
 
 This will gently redirect if the lang property does not exist.
 
+Below is [[hreflang]] to others, using allowedLanguageList
+
 ```tsx
-<Head lang={/* Current Language*/}>// hreflang to others, using allowedLanguageList</Head>
+<Head lang={/* Current Language*/}></Head>
 ```
 
 ## Sitemap.xml

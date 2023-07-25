@@ -40,6 +40,12 @@ Click on the black oval above!
 
 </figcaption>
 
+:::note
+
+There was a breaking change on the Apple Music API side, and I won't live-update the API anymore.
+
+:::
+
 _Good artists copy; great artists steal_ —
 and I am now replicating [Vercel](https://vercel.com)'s
 DX VP [Lee Robinson](https://github.com/leerob)'s idea,

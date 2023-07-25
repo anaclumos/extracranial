@@ -36,7 +36,7 @@ slug: '/3B14B7'
 
 - [periannath/neural-fonts: GAN을 활용한 한글 폰트 제작 프로젝트](https://github.com/periannath/neural-fonts)
 - 새로운 나눔손글씨 글꼴 - [[Naver|네이버]] 클로바: https://clova.ai/handwriting
-- [List of typographic features - Wikipedia](https://en.wikipedia.org/wiki/List_of_typographic_features)
+- [List of typographic features](https://en.wikipedia.org/wiki/List_of_typographic_features)
 - [Implementing OpenType features on the web - Fonts Knowledge - Google Fonts](https://fonts.google.com/knowledge/using_type/implementing_open_type_features_on_the_web)
 - 영문 폰트에 대해서 조금 찾아봤어요. 확실히 훠얼씬 쉽네요. 나이브하게 접근해도 아스키에 해당하는 128개 글자만 있으면 되니까요.
 - 근데 — 손글씨에 진짜 가까운 폰트를 만들려면 같은 character라도 variation이 좀 있어야 할 것 같아요. 예를 들어서 a가 단어의 시작에 있을때랑 끝에 있을때랑 가운데에 있을때랑 글자의 모양새가 조금씩 달라질 것 같거든요?

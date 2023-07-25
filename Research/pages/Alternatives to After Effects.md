@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/3E9BCC'
 ---
 
-What is the alternative to After Effects?
+What is the [[alternative]] to After Effects?
 
 - Adobe Premiere Pro → [[Final Cut Pro|Final Cut Pro X]]
 - Adobe Photoshop → Affinity Photos

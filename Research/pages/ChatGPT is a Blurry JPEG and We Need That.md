@@ -26,7 +26,7 @@ According to the imaginative CPU calendar scale, it would take a staggering 38 d
 
 ![[D26259.png]]
 
-Now, let us consider a scenario where you are the CPU, and you need to fetch an image of 130.8MB (this is the released version of the James Webb Space Telescope photo.) Bringing such a large image would take almost 14 CPU years to process. However, consider an alternative – a compressed version of the same image less than 2.5MB. Of course, it's a "blurry JPEG," but for most people, the difference in quality would be hardly noticeable.
+Now, let us consider a scenario where you are the CPU, and you need to fetch an image of 130.8MB (this is the released version of the James Webb Space Telescope photo.) Bringing such a large image would take almost 14 CPU years to process. However, consider an [[alternative]] – a compressed version of the same image less than 2.5MB. Of course, it's a "blurry JPEG," but for most people, the difference in quality would be hardly noticeable.
 
 ![I used a popular image compression tool, Optimage, and it made the file 98% smaller.](../assets/8DDFF2.png)
 

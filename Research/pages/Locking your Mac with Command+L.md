@@ -3,7 +3,7 @@ date: 2019-11-09
 slug: '/6AA962'
 ---
 
-The only thing I missed about my Windows computer was locking the screen since I was so used to locking my computer with **⊞Win+L**. Mac offered an alternative called the **Hot Corner**. But it never was so intuitive and fast as pressing **⊞Win+L**. However, Mac now supports locking the computer by pressing **⌘Command+L** from macOS Mojave.
+The only thing I missed about my Windows computer was locking the screen since I was so used to locking my computer with **⊞Win+L**. Mac offered an [[alternative]] called the **Hot Corner**. But it never was so intuitive and fast as pressing **⊞Win+L**. However, Mac now supports locking the computer by pressing **⌘Command+L** from macOS Mojave.
 
 ## How do I do it?
 
