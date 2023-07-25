@@ -580,11 +580,5 @@
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
-  },
-  "By the way, he was just listening to ": {
-    "message": "By the way, he was just listening to "
-  },
-  " on Apple Music. ": {
-    "message": " on Apple Music. "
   }
 }

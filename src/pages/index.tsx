@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
@@ -25,27 +25,6 @@ import { Globe } from '../components/Globe'
 
 const HeroText = () => {
   const { siteConfig } = useDocusaurusContext()
-
-  const [music, setMusic] = useState(false)
-
-  useEffect(() => {
-    fetch('https://raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json')
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.data) {
-          setMusic(data.data ?? false)
-        }
-      })
-  }, [])
-
-  const [currentIndex, setCurrentIndex] = useState(0)
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex === music.length - 1 ? 0 : prevIndex + 1))
-    }, 10000)
-    return () => clearInterval(interval)
-  }, [music])
 
   return (
     <>
@@ -230,19 +209,6 @@ const HeroText = () => {
             showByDefault="emoji"
           />
           <Translate>{'. '}</Translate>
-          {music && (
-            <>
-              <Translate>{'By the way, he was just listening to '}</Translate>{' '}
-              <EmojiReplaceableText
-                text={`${music[currentIndex]?.attributes?.name} — ${music[currentIndex]?.attributes?.artistName}`}
-                photo={music[currentIndex]?.attributes?.artwork?.url?.replace('{w}x{h}bb', '256x256bb')}
-                photoAlt={music[currentIndex]?.attributes?.name ?? 'Unknown Artist'}
-                showByDefault="emoji"
-                border={true}
-              />
-              <Translate>{' on Apple Music. '}</Translate>
-            </>
-          )}
         </p>
       </main>
     </>
