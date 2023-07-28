@@ -3322,7 +3322,8 @@ export const backlinks = {
         "2023-07-06": "- [[상경과 상항]]"
     },
     "Pivot": {
-        "2022-12-21": "- [[Pivot]]"
+        "2022-12-21": "- [[Pivot]]",
+        "북스페이스": "... 뤼튼과도 경쟁했을 것이다. 결과는 북스페이스의 [[Pivot|피봇]]: \"원고를 한글, 워드, 브런치북 URL ..."
     },
     "Sensitive Content Analysis Framework": {
         "WWDC23": "- [[Sensitive Content Analysis Framework]]: On-device nudity detection & Sensitive ..."
@@ -3459,6 +3460,9 @@ export const backlinks = {
         "2022-10-13": "- [[Our tools also shape us]]",
         "Memex is more than a Memex": "- [[Our tools also shape us]]",
         "We become what we do": "- [[Our tools also shape us]]"
+    },
+    "인공지능 번역의 한국어-대한민국 편향": {
+        "2023-07-28": "[[인공지능 번역의 한국어-대한민국 편향]]"
     },
     "Improving Cache Average Access Time": {
         "2022-11-04": "- [[Improving Cache Average Access Time]]"
@@ -5992,7 +5996,6 @@ export const backlinks = {
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "- [[Economy|경제]]적 난제 — 무역 장벽과 정치적 ...",
         "국내 은행 서비스가 나쁜 이유": "... 대한민국|한국인은 국가적 자부심이 강하고 외국에서 [[Economy|경제]]에 중요한 역할을 하는 것을 경계하는 ...",
         "르네상스": "[[Economy|경제]] 및 정치 발전 — 피렌체, ...",
-        "미래는 결국 미성숙한 우리가 만들어낸다": "- 행동[[Economy|경제]]학에서 계획 오류는 사람들이 과제를 완수하거나 ...",
         "민사고": "... 한민족|민족에 기여하는 것이 엘리트들에게 가장 [[Economy|경제]]적이고 합리적인 선택지가 될 수 있도록 ...",
         "민사고와 쇼비니즘": "... 초강대국들은 과거처럼 군사력이 아니라 문화나 [[Economy|경제]]로 어떤 나라든 침략하고 통치할 수 ...",
         "벌금과 물가": "- 매년 일괄적으로 법무부와 [[Economy|경제]] 부처의 협력 아래 벌금 \"배수\" ...",
@@ -7747,7 +7750,7 @@ export const backlinks = {
     },
     "뤼튼": {
         "2023-05-03": "- [[뤼튼]]",
-        "북스페이스": "... 스타트업. 곰단의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 것이다. 결과는 북스페이스의 피봇: ..."
+        "북스페이스": "... 스타트업. 곰단의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 것이다. 결과는 북스페이스의 [[Pivot|피봇]]: ..."
     },
     "30-Day Tweet Test (Harry Stebbings)": {
         "2023-02-01": "- [[30-Day Tweet Test (Harry Stebbings)]]",
