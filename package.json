@@ -73,7 +73,7 @@
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
     "ram16g": "export NODE_OPTIONS=\"--max-old-space-size=16384\"",
-    "all-in-one": "$npm_execpath run ram16g && $npm_execpath run prepare && $npm_execpath run format && git add . && git commit -m 'wrote something' && git push && $npm_execpath run build && $npm_execpath redirects && until $npm_execpath ship; do :; done",
+    "all-in-one": "$npm_execpath run ram16g && $npm_execpath run prepare && $npm_execpath run format && git add . && git commit -m 'wrote something' && git push && NODE_OPTIONS=\"--max-old-space-size=16384\" $npm_execpath run build && $npm_execpath redirects && until $npm_execpath ship; do :; done",
     "all-in-one:dev": "$npm_execpath run prepare && $npm_execpath run format && $npm_execpath run start",
     "backlinks": "python3 tools/process-backlinks.py",
     "build": "docusaurus build",
