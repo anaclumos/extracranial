@@ -2436,7 +2436,7 @@ export const backlinks = {
         "2023-01-24": "- [[Approximation]]"
     },
     "Problem": {
-        "Digital Addiction": "[[Problem]]. I love software, but I ..."
+        "Digital Addiction": "[[Problem]]. I [[love software]], but I ..."
     },
     "Project Heimdall Initial Planning": {
         "Project Heimdall": "- [[Project Heimdall Initial Planning]]"
@@ -2580,7 +2580,8 @@ export const backlinks = {
         "2023-03-11": "- [[2016년 12월 5일 민족사관고등학교 교장 사임 사건]]"
     },
     "Love Software": {
-        "2023-02-26": "- [[Love Software]]"
+        "2023-02-26": "- [[Love Software]]",
+        "Digital Addiction": "Problem. I [[love software]], but I am sometimes too ..."
     },
     "Person ECC2CB": {
         "2022-12-08": "- [[Person ECC2CB]]",
@@ -3834,6 +3835,7 @@ export const backlinks = {
         "2023-02-22": "## [[Project]]",
         "2023-03-06": "- [[Project]]",
         "2023-05-11": "## [[Project]]",
+        "2023-07-30": "... Dopamine Addiction|도파민 중독 때문이겠지. 모든 [[Project|프로젝트]]를 유지보수 없는 자동현상유지 상태로 만들거나 ...",
         "AIs.txt": "- [[Project]]",
         "AMP": "... by the AMP Open Source [[Project]]. [[Google]] created it as a ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you ...",
@@ -5255,6 +5257,9 @@ export const backlinks = {
     "Club Penguin": {
         "Sudden Rise of Bondee": "... rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in ..."
     },
+    "Dopamine Addiction": {
+        "2023-07-30": "... 감사하고 살고 있지 못하다. 아무래도 [[Dopamine Addiction|도파민 중독]] 때문이겠지. 모든 [[Project|프로젝트]]를 유지보수 없는 ..."
+    },
     "Chaf Games": {
         "Person 9078DC": "- Currently works at[[Chaf Games]]"
     },
@@ -5356,6 +5361,7 @@ export const backlinks = {
     "Computer Science": {
         "Are Computers Psychotropic Substances": "... bombs. Similarly, engineers attracted to [[computer science]] must not blindly support the ...",
         "Building a Second Brain": "... similar to Data Structures in [[Computer Science]].",
+        "Digital Addiction": "... new horizon of knowledge that [[Computer Science]] brings.",
         "Threads": "In [[computer science]], a thread is a minor ..."
     },
     "Petersburg": {
@@ -6043,6 +6049,7 @@ export const backlinks = {
         "2022-07-13": "- [[Digital Addiction]]",
         "2022-07-29": "  - [[Digital Addiction]]",
         "Are Computers Psychotropic Substances": "There's nothing new about [[digital addiction]] or information addiction. Still, millions ...",
+        "Dopamine Detox": "- [[Digital Addiction]]",
         "Dumb Phone": "- [[Digital Addiction]]",
         "Letter to Modos team on 2023-03-16": "I tried to combat [[digital addiction]] by using an old iPhone ...",
         "Using an iPad as my Ebook": "... matter — essentially solving the [[Digital Addiction]]."
@@ -9319,6 +9326,7 @@ export const backlinks = {
         "2023-01-24": "- [[Binomial Distribution]]"
     },
     "Dopamine Detox": {
+        "Dopamine Addiction": "[[Dopamine Detox]]",
         "Watch is the Greatest Dumb Phone": "... Phone in the context of [[Dopamine Detox]]. While most of the dumb ..."
     },
     "Love Firefox": {
@@ -10907,6 +10915,9 @@ export const backlinks = {
     },
     "EBEF28.png": {
         "Passkey": "![[EBEF28.png]]"
+    },
+    "Barbie": {
+        "Watchings": "- [[Barbie]]"
     },
     "76BD99.png": {
         "Prompt Marketplace": "![[76BD99.png]]"

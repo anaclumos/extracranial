@@ -25,9 +25,10 @@ import Shuffle from '@site/src/components/Shuffle'
 - [[Neon Genesis Evangelion]]
 - The End of Evangelion
 - [[J. Robert Oppenheimer|Oppenheimer]]
+- [[Barbie]]
 
 </Shuffle>
 
-## To Watch
+## To Watch?
 
 - Halt and Catch Fire

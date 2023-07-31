@@ -3,11 +3,11 @@ lang: 'en'
 slug: '/4AA0F0'
 ---
 
-[[Problem]]. I love software, but I am sometimes too addicted to tech!
+[[Problem]]. I [[love software]], but I am sometimes too addicted to tech!
 
 ## Outline
 
-I aspire to the new horizon of knowledge that Computer Science brings.
+I aspire to the new horizon of knowledge that [[Computer Science]] brings.
 However, I also despise the malicious use of that technology that preys upon human consciousness and infects human health.
 I also find myself addicted to digital media, knowing the very fact.
 I had difficulty consciously separating _I like software_ and _I like software by all means._
