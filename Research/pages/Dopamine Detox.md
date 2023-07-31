@@ -6,3 +6,4 @@ aliases: ['도파민 디톡스', '디톡스', '디지털 디톡스', '디지털�
 
 - [The 'Dopamine Detox' Is Having a Moment](https://time.com/6284428/does-dopamine-detox-work/)
 - And I think Smartphones and Tiktok-like media is the greatest danger, so I even aliased Digital Detox to this page. For me, they are synonymous.
+- [[Digital Addiction]]
