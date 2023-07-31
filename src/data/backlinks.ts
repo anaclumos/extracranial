@@ -3835,7 +3835,7 @@ export const backlinks = {
         "2023-02-22": "## [[Project]]",
         "2023-03-06": "- [[Project]]",
         "2023-05-11": "## [[Project]]",
-        "2023-07-30": "... Dopamine Addiction|도파민 중독 때문이겠지. 모든 [[Project|프로젝트]]를 유지보수 없는 자동현상유지 상태로 만들거나 ...",
+        "2023-07-30": "모든 [[Project|프로젝트]]를 유지보수 없는 자동현상유지 상태로 만들거나 ...",
         "AIs.txt": "- [[Project]]",
         "AMP": "... by the AMP Open Source [[Project]]. [[Google]] created it as a ...",
         "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you ...",
@@ -5258,7 +5258,7 @@ export const backlinks = {
         "Sudden Rise of Bondee": "... rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in ..."
     },
     "Dopamine Addiction": {
-        "2023-07-30": "... 감사하고 살고 있지 못하다. 아무래도 [[Dopamine Addiction|도파민 중독]] 때문이겠지. 모든 [[Project|프로젝트]]를 유지보수 없는 ..."
+        "2023-07-30": "... 감사하고 살고 있지 못하다. 아무래도 [[Dopamine Addiction|도파민 중독]] 때문이겠지"
     },
     "Chaf Games": {
         "Person 9078DC": "- Currently works at[[Chaf Games]]"
