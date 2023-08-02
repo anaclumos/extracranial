@@ -10,7 +10,7 @@ slug: '/A51A6A'
 - But how is [[WebAssembly|WASM]] _fast_ and cross-platform simultaneously?
   - Does it pack multiple precompiled binary executables for multiple [[CPU]] vendors, like [[Apple]]'s Universal Binary?
   - But then, whenever a new type of [[CPU]] gets announced, they wouldn't be able to run existing WASMs
-- [[WebAssembly]]'s runtime environments (RE) are low-level virtual stack machines (akin to JVM or Flash VM)
+- [[WebAssembly]]'s runtime environments (RE) are low-level virtual stack machines (akin to [[JVM]] or Flash VM)
 - Seems like [[WebAssembly|WASM]] is closer to intermediate [[Java]] Byte Code instead of the genuinely low-level [[Assembly]].
   - But then, why is it faster?
   - JS Interpreter can skip the parsing

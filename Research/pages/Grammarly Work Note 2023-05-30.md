@@ -17,9 +17,9 @@ Today [[Grammarly Experimentations Team]] discussed [[Strategy|strategies]] to r
 
 - **Auto-Scaling Reduction**. Given the considerable setup time, we can reduce the minimum number for auto-scaling from 10 to 1 as we use `4xlarge` nodes.
 - **Creation of Instance Pools**. [[Grammarly Experimentations Team]] aim to create instance pools for worker nodes with a minimum item instance set to 0. This configuration will ensure that nodes do not persist after job completion, improving cost efficiency. Instance pools also provide the flexibility to add new jobs on the fly.
-- **Utilization of Cheaper AWS Instances**. [[Grammarly Experimentations Team]] plans to explore using more cost-effective AWS instances. Our analysis suggests that the currently utilized `i3` nodes may not be necessary for these jobs. We could save costs by transitioning to more compute-optimized machines instead of the current storage-optimized ones.
-- **Reduction of Cluster Spinning for Non-[[GNAR]] Runtime Jobs**. For tasks that do not use the [[GNAR]] runtime, we can reduce the number of new clusters we spin up.
-- **[[GNAR]] Runtime across Multiple Notebooks**. [[Grammarly Experimentations Team]] plan to investigate running [[GNAR]] across multiple notebooks within the same cluster. Currently, the [[GNAR]] object requires reloading with every task, contributing significantly to setup time.
+- **Utilization of Cheaper [[AWS]] Instances**. [[Grammarly Experimentations Team]] plans to explore using more cost-effective [[AWS]] instances. Our analysis suggests that the currently utilized `i3` nodes may not be necessary for these jobs. We could save costs by transitioning to more compute-optimized machines instead of the current storage-optimized ones.
+- **Reduction of [[Clustering|Cluster]] Spinning for Non-[[GNAR]] Runtime Jobs**. For tasks that do not use the [[GNAR]] runtime, we can reduce the number of new clusters we spin up.
+- **[[GNAR]] Runtime across Multiple Notebooks**. [[Grammarly Experimentations Team]] plan to investigate running [[GNAR]] across multiple notebooks within the same [[Clustering|cluster]]. Currently, the [[GNAR]] object requires reloading with every task, contributing significantly to setup time.
 
 ## [[Case-Sensitivity]]
 
