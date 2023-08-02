@@ -15,7 +15,7 @@ Data ingestion, i.e., the process of importing data from existing sources, forms
 
 - Data Engineering (Extraction)
 - Data Processing
-- Featureization
+- Featurization
 - Analytics (Feature Store → Serve data from [[Databricks]])
 
 ## Linguistic Data Check and Scaling
