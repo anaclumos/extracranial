@@ -38,4 +38,4 @@ Notebooks will have `expMetricUtils` and filled-out parameters.
 
 Templates will have documentation + data pull + aggregation + calculation + writing to delta tables
 
-Functions are either in Python or Scala
+Functions are either in [[Python]] or [[Scala]]

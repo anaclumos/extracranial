@@ -417,6 +417,9 @@ export const backlinks = {
     "2023-04-16": {
         "hn.cho.sh 개발 기록": "## [[2023-04-16]]"
     },
+    "2023-08-01": {
+        "Grammarly Internal Conference with Executives 2023-08-01": "Grammarly Internal Conference with Executives [[2023-08-01]]"
+    },
     "2023-03-06": {
         "hn.cho.sh 개발 기록": "## [[2023-03-06]]"
     },
@@ -781,6 +784,7 @@ export const backlinks = {
         "2022-11-07": "- [[Supergravity Product]]",
         "2023-07-07": "- [[Supergravity Product]]",
         "2023-07-11": "- [[Supergravity Product]]",
+        "2023-08-02": "- [[Supergravity Product|Boring Product]]",
         "Captivating Products": "Making [[Supergravity Product]] and making them [[Fiercely Overpriced]] ...",
         "Impact over Performance": "- [[Supergravity Product]]"
     },
@@ -915,6 +919,9 @@ export const backlinks = {
     "불가사리 (기업)": {
         "2023-06-14": "- [[불가사리 (기업)]]",
         "2023-07-05": "- [[불가사리 (기업)|Starfish]]: Signed an [[NDA]] with [[Apple]], ..."
+    },
+    "Grammarly Internal Conference with Executives 2023-08-01": {
+        "2023-08-02": "- [[Grammarly Internal Conference with Executives 2023-08-01]]"
     },
     "jQuery": {
         "Impact over Performance": "... revenue every month but with [[jQuery]]. Who cares about the tech ..."
@@ -1585,6 +1592,7 @@ export const backlinks = {
         "Redwood.js": "- For the [[back-end]], Redwood uses [[GraphQL]], a query ...",
         "Refine (Framework)": "- [[Back-end|Backend]] (REST API, Supabase, Strapi, NestJS, ...",
         "Render.com": "... meaning it does not support [[back-end]] services like [[Python]], [[Java]], or ...",
+        "Scala": "... web applications and services, write [[back-end]] code for mobile apps, or ...",
         "Supabase": "Supabase is an open-source [[Back-end|backend]]-as-a-service (BaaS) platform that simplifies application ...",
         "tRPC": "... packages and set up a [[Back-end|backend]] router. You can then define ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 사이드 렌더링이었다. 그때는 이것이 당연했다. [[Back-end|백엔드]]는 자바를 사용했다. 이후 마이크로 서비스 ..."
@@ -1700,12 +1708,14 @@ export const backlinks = {
         "1046 Last Stone Weight": "- Space: $O(1)$ in [[Python]]",
         "Coding Tests": "- Will use [[Python]] (main language) and [[C++]] (supplementary ...",
         "Get Job Done": "  - Building [[Python]] Data Parser",
+        "Grammarly Work Note 2023-06-07": "Functions are either in [[Python]] or [[Scala]]",
         "Heap (Computer Systems)": "On the other hand, Java, [[Python]], or other higher-level languages use ...",
         "Higher-Level Languages and Their Speeds": "- [[Python]]",
         "Mathematics under The Library of Babel": "- I tried making a [[Python]] script to backtrack the combinations.",
         "Python": "You can offset with [[Python]]'s `enumerate` function with list splitting.",
         "Real Exams": "... Get Job Done SQL, React, [[Python]]",
-        "Render.com": "... languages such as Ruby, PHP, [[Python]], Node, and [[Java]]."
+        "Render.com": "... languages such as Ruby, PHP, [[Python]], Node, and [[Java]].",
+        "Scala": "... almost ten times faster than [[Python]] because it relies on the ..."
     },
     "북한": {
         "2023-02-23": "- [[북한]]",
@@ -1736,6 +1746,9 @@ export const backlinks = {
     },
     "Index Fund": {
         "Finance": "- [[Index Fund]]"
+    },
+    "Imposter Syndrome": {
+        "Grammarly Internal Conference with Executives 2023-08-01": "## Dealing with [[Imposter Syndrome]]"
     },
     "Learning Execution Semantics from Micro-Traces for Binary Similarity": {
         "2023-03-28": "- [[Learning Execution Semantics from Micro-Traces for Binary Similarity]]"
@@ -2095,6 +2108,7 @@ export const backlinks = {
         "Federated Learning": "Federated learning is a privacy-preserving [[ML|machine learning]] approach that enables multiple parties ...",
         "Generalist": "... orchestrators rebased on Kubernetes), the [[ML|machine learning]] stack (cloud-native distributed training and ...",
         "Grammarly": "- [[ml]] team",
+        "Grammarly Work Note 2023-06-01": "A large portion of [[ML]] Engineer's work is focused on ...",
         "Hugging Face": "... tools for building applications using [[ML|machine learning]]. It is most notable for ...",
         "Imagining WebNPU API": "... already observing blooming On-device inferencing [[ML]] technology with [[Apple]]'s [[Neural Engine]]. ...",
         "Karrot NX Team Mission Statement": "... 일도 할거거든요. 피드 & 추천 [[ML]] & 검색 & NX 가 ...",
@@ -2272,6 +2286,10 @@ export const backlinks = {
         "2022-11-03": "- [[Structs and Unions]]",
         "Computer Systems": "- [[Structs and Unions]]",
         "Heap (Computer Systems)": "- align blocks, similar to [[Structs and Unions]]"
+    },
+    "Jeff Bezos": {
+        "Amazon": "... Washington, and was founded by [[Jeff Bezos]] on July 5, 1994.",
+        "Grammarly Internal Conference with Executives 2023-08-01": "... Southern California. The CEO remembers [[Jeff Bezos]]'s firm handshake and the sharp ..."
     },
     "벌금과 물가": {
         "2022-10-21": "- [[벌금과 물가]]",
@@ -3110,6 +3128,7 @@ export const backlinks = {
         "CDN": "... (media files, software, documents), applications ([[ecommerce|e-commerce]], portals), live streaming media, on-demand ...",
         "Google": "... computing, computer software, quantum computing, [[ecommerce|e-commerce]], [[AI|artificial intelligence]], and consumer electronics. ...",
         "Higher-Level Languages and Their Speeds": "... entire product catalog of the [[ecommerce|e-commerce]] site can be a single ...",
+        "Jeff Bezos": "... of Amazon, the world's largest [[ecommerce|e-commerce]] and [[cloud computing]] company. He ...",
         "Mini App": "... platforms incorporate services like messaging, [[ecommerce|e-commerce]], ride-hailing, food delivery, and digital ...",
         "One and Only (Social App)": "... such as messaging, social media, [[ecommerce|e-commerce]], and mobile payments into a ...",
         "Separation of Computer Scientists and Computer Technologists": "... make a cool-looking Single-Page-App JavaScript [[ecommerce|e-commerce]] website..."
@@ -3347,6 +3366,9 @@ export const backlinks = {
     },
     "Geometric Distribution": {
         "2023-02-02": "- [[Geometric Distribution]]"
+    },
+    "Scala": {
+        "Grammarly Work Note 2023-06-07": "... are either in Python or [[Scala]]"
     },
     "METI Engine": {
         "2023-04-19": "- [[METI Engine]]",
@@ -3756,6 +3778,8 @@ export const backlinks = {
         "DNS": "When navigating to www.[[amazon]].com, the client asks",
         "EC2": "[[Amazon]] Elastic Compute Cloud",
         "Google": "... American information technology companies, alongside [[Amazon]], [[Apple]], [[Meta (Company)|Meta]], and [[Microsoft]]. ...",
+        "Grammarly Internal Conference with Executives 2023-08-01": "... off with an internship at [[Amazon]] during the company's early phase, ...",
+        "Jeff Bezos": "... former president and CEO of [[Amazon]], the world's largest [[ecommerce|e-commerce]] and ...",
         "Kindle": "> [[Amazon]] Kindle is a series of ...",
         "Kinesis": "[[Amazon]] Kinesis is a fully managed ...",
         "Monolith": "... video streaming service offered by [[Amazon]], implemented a tool to monitor ...",
@@ -3994,6 +4018,7 @@ export const backlinks = {
         "Cloud-Native": "... up in an era where [[cloud computing]] is the norm and take ...",
         "Financial Technology": "... financial services. AI|Artificial intelligence, Blockchain, [[Cloud computing]], and big data are regarded ...",
         "Google": "... search engine technology, online advertising, [[cloud computing]], computer software, quantum computing, [[ecommerce|e-commerce]], ...",
+        "Jeff Bezos": "... the world's largest ecommerce|e-commerce and [[cloud computing]] company. He also owns The ...",
         "Krafton Way": "- [[Cloud Computing|클라우드]]를 이용하여 전세계 서비스 용이",
         "On-Premise": "Opposite of [[Cloud Computing]]",
         "OpenAI enthroned as the Levis of Tech": "... made an enormous demand for [[cloud computing]] services like AWS. [[OpenAI]] just ...",
@@ -4435,6 +4460,12 @@ export const backlinks = {
     "북스페이스": {
         "2023-05-03": "- [[북스페이스]]"
     },
+    "JVM": {
+        "How is WebAssembly cross-platform when Assembly is not": "... virtual stack machines (akin to [[JVM]] or Flash VM)",
+        "IntelliJ": "... Java, Kotlin, Groovy, and other [[JVM]]-based languages. It is produced by ...",
+        "Scala": "... bytecode and executed by the [[JVM|Java virtual machine]] ([[JVM]]). ",
+        "Write Once Run Everywhere": "... with a Java virtual machines ([[JVM]]). Installing a JVM or Java ..."
+    },
     "Catherine the Great": {
         "2023-02-21": "- [[Catherine the Great]]"
     },
@@ -4468,6 +4499,7 @@ export const backlinks = {
         "Hugging Face": "... Hugging Face, Inc. is an [[American]] company that develops tools for ...",
         "Ideas are worthless": "... is a saying of the [[American]] inventor Thomas Edison. Dictionary.com",
         "J. Robert Oppenheimer": "## [[American]] Prometheus: The Triumph and Tragedy ...",
+        "Jeff Bezos": "Jeff Bezos is an [[American]] entrepreneur, media proprietor, and investor. ...",
         "Palantir": "... Palantir Technologies is a public [[American]] software company specializing in big ...",
         "Person 1E6ABA": "... market but now considers the [[American]] market due to sheer market ...",
         "Person A3BA1A": "An [[American]] company, Carta, already dominates the ...",
@@ -5240,6 +5272,9 @@ export const backlinks = {
     "Weak Law of Large Number": {
         "Probability": "- [[Weak Law of Large Number]]"
     },
+    "DynamoDB": {
+        "Grammarly Work Note 2023-06-01": "... our operations — one for [[DynamoDB]] (suitable for costs) and one ..."
+    },
     "Proposal of Research 2023-01-10": {
         "2023-01-10": "- [[Proposal of Research 2023-01-10]]"
     },
@@ -5436,6 +5471,7 @@ export const backlinks = {
     },
     "Clustering": {
         "2023-01-25": "- [[Clustering]]",
+        "Grammarly Work Note 2023-05-30": "- Reduction of [[Clustering|Cluster]] Spinning for Non-[[GNAR]] Runtime Jobs. ...",
         "Project Core ML Foundation": "[[Clustering]].",
         "Project Core ML Inference": "... transfer data from one Hadoop [[Clustering|cluster]] to another?"
     },
@@ -5687,7 +5723,7 @@ export const backlinks = {
         "2023-05-30": "... Grammarly Work Note 2023-05-30 on [[GNAR]]",
         "Databricks AI Summit 2023 Grammarly Session": "... with its in-house data platform, [[Gnar]], and embarked on a redesign ...",
         "Grammarly Work Note 2023-05-25": "- [[GNAR]] is the single source of ...",
-        "Grammarly Work Note 2023-05-30": "... Reduction of Cluster Spinning for Non-[[GNAR]] Runtime Jobs. For tasks that ...",
+        "Grammarly Work Note 2023-05-30": "... Reduction of Clustering|Cluster Spinning for Non-[[GNAR]] Runtime Jobs. For tasks that ...",
         "Grammarly Work Note 2023-05-31": "... method for ingesting analytical data, [[GNAR]], is being deprecated by 60% ...",
         "Grammarly Work Note 2023-06-02": "... within it. Finally, we implement [[GNAR]] and GQL on top of ...",
         "Grammarly Work Note 2023-06-13": "We encountered scalability problems with [[GNAR]] as it began receiving values ...",
@@ -6034,6 +6070,7 @@ export const backlinks = {
         "Heap (Computer Systems)": "On the other hand, [[Java]], [[Python]], or other higher-level languages ...",
         "How is WebAssembly cross-platform when Assembly is not": "... WebAssembly|WASM is closer to intermediate [[Java]] Byte Code instead of the ...",
         "IntelliJ": "... development environment (IDE) written in [[Java]] for developing computer software written ...",
+        "JVM": "... or runtime environment that allows [[Java]] programs to run on multiple ...",
         "Lombok": "Lombok is a [[Java]] Annotation Toolkit that supports automatic ...",
         "Project Core ML Inference": "... different types of memories in [[Java]]?",
         "Project Padme": "- [[Java]], Spring Boot",
@@ -6276,6 +6313,7 @@ export const backlinks = {
         "Ethnologue 200": "... list usually is $249, but [[Grammarly]] had a copy internally.",
         "GNAR": "... all of the relevant data. [[Grammarly]] is trying to move away ...",
         "Grammarly AI-NLP Club": "... Natural Language Processing|NLP Club at [[Grammarly]].",
+        "Grammarly Internal Conference with Executives 2023-08-01": "[[Grammarly]] Internal Conference with Executives [[2023-08-01]]",
         "Grammarly Work Note": "... notes during my work at [[Grammarly]].",
         "Grammarly Work Note 2023-05-25": "... all of the relevant data. [[Grammarly]] is trying to move away ...",
         "Grammarly Work Note 2023-05-26": "... as an internal-facing product of [[Grammarly]], has many spaces to improve.",
@@ -6844,7 +6882,7 @@ export const backlinks = {
         "Front-end": "- [[React]]",
         "Get Job Done": "  - Coding [[React]]",
         "GitHub Pages에 React 앱 띄우기": "최근 [[React]] 앱을 GitHub Pages에 띄우면 좋겠다는 ...",
-        "Grammarly Work Note 2023-05-26": "... is already discouraged from the [[React]] team.",
+        "Grammarly Work Note 2023-05-26": "1. Outdated Node and [[React]]. [[Manakin]] runs on [[Node.js]] 16 ...",
         "JSX": "... as JavaScript XML) is a [[React]] extension to the JavaScript language ...",
         "Jest": "... projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and [[Svelte]]. Jest ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... I have built a custom [[React]] application for presenting on the ...",
@@ -7372,6 +7410,7 @@ export const backlinks = {
         "Engine Equation": "... of people and to develop [[Strategy|strategies]] to shape the course of ...",
         "Finally, Apple Pay in Korea": "... using IC chips. The first [[strategy]] is JUSTOUCH (If JUSTOUCH were ...",
         "First Two Months of a Startup": "... carefully plan and execute their [[Strategy|strategies]] during this initial phase to ...",
+        "Grammarly Internal Conference with Executives 2023-08-01": "## Outlook and [[Strategy]]",
         "Grammarly Work Note 2023-05-30": "... Resource Utilization and Cost Reduction [[Strategy|Strategies]] for [[Databricks]] Clusters",
         "Greedy Algorithm": "... In many problems, a greedy [[strategy]] does not produce an optimal ...",
         "Krafton Way": "... 똑똑하기 때문에 따르는 사람들이 생긴다. [[Strategy|전략]]적 판단과 그로 인한 성공적인 결과를 ...",
@@ -7905,6 +7944,7 @@ export const backlinks = {
         "Figma": "... $20 billion in cash and [[stock]]. Figma (software)>)",
         "Finance": "- [[Stock]]",
         "Gumroad": "... I vested any of my [[stock]] — to work on what ...",
+        "Jeff Bezos": "... public offering in 1997, Amazon's [[stock]] shot up almost 40-fold, sending ...",
         "Layoff": "... Layoffs often do not increase [[stock]] prices, in part because layoffs ...",
         "Long Position": "When you think a [[stock]] will go up, you buy ...",
         "Mutual Fund": "... many investors used to buy [[Stock|stocks]] or bonds, managed by a ...",
@@ -7951,6 +7991,7 @@ export const backlinks = {
         "Ethereum RPC as a Service": "... query data on the blockchain. [[AWS]] offers a similar product, AWS ...",
         "Fiercely Overpriced": "... of public cloud providers like [[AWS]] or Microsoft Azure to minimize ...",
         "Ghost 테마를 자동 배포하는 방법": "... 블로그는 Ghost Content Management System을 [[AWS]]에 호스팅하여 사용한다. Ghost CMS는 [[Headless|헤드리스]]하다. ...",
+        "Grammarly Work Note 2023-05-30": "- Utilization of Cheaper [[AWS]] Instances. [[Grammarly Experimentations Team]] plans ...",
         "Is AWS a Dumb Pipe": "- Will [[AWS]] follow its track?",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... want to bother dealing with [[AWS]] SES.",
         "Migrating Node.js apps from AWS EB to Heroku": "I have used [[AWS]] Elastic Beanstalk for a while ...",
@@ -8418,7 +8459,7 @@ export const backlinks = {
     "Prettier": {
         "2023-03-21": "- [[Prettier]]",
         "Better Obsidian": "- [[Prettier]] for Code Blocks",
-        "Grammarly Work Note 2023-05-26": "... prettier --write`. On par with [[Prettier]], we could link [[ESLint]] and ..."
+        "Grammarly Work Note 2023-05-26": "... enforced, discovered by running npx [[prettier]] --write. On par with [[Prettier]], ..."
     },
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on ...",
@@ -8978,6 +9019,7 @@ export const backlinks = {
         "How is WebAssembly cross-platform when Assembly is not": "... precompiled binary executables for multiple [[CPU]] vendors, like [[Apple]]'s Universal Binary?",
         "How to Build Software like an SRE": "- keep error logs, [[CPU]] usage, and request error rates",
         "Imagining WebNPU API": "... unlocks the bare-metal power of [[CPU]]s.",
+        "JVM": "... of instructions that a computer's [[CPU]] executes directly.",
         "Meltdown": "... the two original transient execution [[CPU]] vulnerabilities (the other being [[Spectre]]). ...",
         "Meltdown and Spectre": "- Spectre makes the [[CPU]] jump to the wrong place ...",
         "Preemptive Multitasking": "... all processes will get some [[CPU]] time at any given time. ...",
