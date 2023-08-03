@@ -1,7 +1,8 @@
 ---
-date: 2020-10-17
 slug: '/383A01'
 ---
+
+[[2020-10-17]]
 
 ## Primary Objectives
 

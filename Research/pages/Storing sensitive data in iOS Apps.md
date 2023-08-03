@@ -1,7 +1,8 @@
 ---
-date: 2022-04-26
 slug: '/30CC03'
 ---
+
+[[2022-04-26]]
 
 ## One way that doesn't work: Using environment variables
 

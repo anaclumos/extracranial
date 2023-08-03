@@ -16,4 +16,4 @@ aliases:
   ]
 ---
 
-Final Cut Pro by [[Apple]] Inc. is a professional video editing software with timeline-based editing, multi-camera editing, color grading, visual effects, and audio editing. It's famous for its easy-to-use interface and robust editing capabilities and is a go-to for professional video editors, filmmakers, and content creators. Only available for macOS.
+Final Cut Pro by [[Apple]] Inc. is a professional video editing software with timeline-based editing, multi-camera editing, color grading, visual effects, and audio editing. It's famous for its easy-to-use interface and robust editing capabilities and is a go-to for professional video editors, filmmakers, and content creators. Only available for [[macOS]].

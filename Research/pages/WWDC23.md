@@ -54,7 +54,7 @@ slug: '/8B3C7F'
 - Testing: Test Report Result Overview page (Error Heat Map)
   - Test Live Replay (Timeline)
 - [[Accessibility]] Frames (HTML-like component descriptions within app scene)
-- [[Xcode Cloud]]: 2x faster workflows. Share Tester Notes. macOS notarization (check malicious components)
+- [[Xcode Cloud]]: 2x faster workflows. Share Tester Notes. [[macOS]] notarization (check malicious components)
 - Speed & Size improvements on [[Xcode]] Binaries
 
 ## [[visionOS]]

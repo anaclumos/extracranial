@@ -1,7 +1,8 @@
 ---
-date: 2018-10-28
 slug: '/C855D4'
 ---
+
+[[2018-10-28]]
 
 :::danger
 This post was written when I had little experience with [[Node.js]]. This is not an advisable way. This post simply serves as a departure post for my journey.

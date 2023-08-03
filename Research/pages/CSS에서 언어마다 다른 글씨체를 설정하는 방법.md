@@ -1,7 +1,8 @@
 ---
-date: 2019-11-08
 slug: '/B790F3'
 ---
+
+[[2019-11-08]]
 
 최근 [Spoqa Han Sans](https://spoqa.github.io/spoqa-han-sans/ko-KR/)라는 글씨체를 알게 되었다. 간결하면서 가독성이 높아 매력적이었다. 반면 Spoqa Han Sans의 영어 글씨체는 매력적인 느낌이 덜했다 (나는 Noto Sans의 영문 글씨체도 그렇게 좋아하지 않았다.)
 
