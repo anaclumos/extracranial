@@ -15,4 +15,4 @@ slug: '/696FEF'
 
 ## [[2023-05-11]]
 
-[arthenica/ffmpeg-kit](https://github.com/arthenica/ffmpeg-kit): [[FFmpeg]] Kit for applications. Supports [[Android]], Flutter, [[iOS]], [[Linux]], macOS, [[React Native]] and tvOS. Supersedes MobileFFmpeg, flutter_ffmpeg and react-native-ffmpeg.
+[arthenica/ffmpeg-kit](https://github.com/arthenica/ffmpeg-kit): [[FFmpeg]] Kit for applications. Supports [[Android]], Flutter, [[iOS]], [[Linux]], [[macOS]], [[React Native]] and tvOS. Supersedes MobileFFmpeg, flutter_ffmpeg and react-native-ffmpeg.

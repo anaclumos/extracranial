@@ -1,7 +1,8 @@
 ---
-date: 2022-05-07
 slug: '/067A7D'
 ---
+
+[[2022-05-07]]
 
 ## Path for Karabiner Advanced Settings
 

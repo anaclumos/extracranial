@@ -1,7 +1,8 @@
 ---
-date: 2020-01-20
 slug: '/4512BD'
 ---
+
+[[2020-01-20]]
 
 I recently found this:
 
