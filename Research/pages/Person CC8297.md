@@ -8,7 +8,7 @@ slug: '/CC8297'
   - Working on a future portable, preparing launch in 2024.
   - Recently worked on MacBook Pro 2021 models.
   - Battery design, testings, mass productions
-- Make sure that information on LinkedIn and resume is consistent.
+- Make sure that information on LinkedIn and [[resume]] is consistent.
 - Didn't have many exams during college:
   - Capstone at [[Amazon]] Robotics.
 - Ethics intertwines with technology. Is creating [[Amazon]] Warehouse Robots unethical?
