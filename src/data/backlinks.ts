@@ -294,6 +294,9 @@ export const backlinks = {
     "2023-04-20": {
         "hn.cho.sh 개발 기록": "## [[2023-04-20]]"
     },
+    "2023-08-03": {
+        "Grammarly Work Note 2023-08-03": "Grammarly Work Note [[2023-08-03]]"
+    },
     "2023-04-14": {
         "hn.cho.sh 개발 기록": "## [[2023-04-14]]"
     },
@@ -726,7 +729,7 @@ export const backlinks = {
         "Requesting Review in Swift": "Requesting Review in [[Swift]] [[StoreKit]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]",
         "Using System Haptics and Sounds in Swift": "... System Haptics and Sounds in [[Swift]]",
-        "iOS": "... supports Objective-C, C, C++, and [[Swift]] programming languages.  Major versions ...",
+        "iOS": "... supports Objective-C, C, C++, and [[Swift]] programming languages. Major versions of ...",
         "하늘땅사람 개발 기록": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
     },
     "Cube": {
@@ -864,7 +867,8 @@ export const backlinks = {
         "Grammarly Work Note 2023-06-13": "[[Grammarly Work Note]]",
         "Grammarly Work Note 2023-06-23": "[[Grammarly Work Note]]",
         "Grammarly Work Note 2023-07-06": "[[Grammarly Work Note]]",
-        "Grammarly Work Note 2023-07-10": "[[Grammarly Work Note]]"
+        "Grammarly Work Note 2023-07-10": "[[Grammarly Work Note]]",
+        "Grammarly Work Note 2023-08-03": "[[Grammarly Work Note]] [[2023-08-03]]"
     },
     "Cloudflare Pages": {
         "2023-01-27": "... had to migrate Extracranial to [[Cloudflare Pages]] for [[Vercel]] for now...",
@@ -1499,7 +1503,7 @@ export const backlinks = {
         "Redwood.js": "... API built with Prisma and [[Apollo (GraphQL)]] Server. Prisma is used for ..."
     },
     "AirDrop": {
-        "Adding a Verified Mark on Apple Mail & Gmail": "... key at the same time. [[AirDrop]] it to your phone, go ...",
+        "Adding a Verified Mark on Apple Mail and Gmail": "... key at the same time. [[AirDrop]] it to your phone, go ...",
         "WWDC23": "- [[AirDrop]] improvements for in-app contents"
     },
     "Multiplication Theorem": {
@@ -1964,7 +1968,7 @@ export const backlinks = {
     "SMIME": {
         "2022-08-03": "### [[SMIME|S/MIME]] Certificates",
         "2022-12-21": "- [[SMIME]]",
-        "Adding a Verified Mark on Apple Mail & Gmail": "- Use a [[SMIME|S/MIME]] certificate to sign an [[Mail|email]]",
+        "Adding a Verified Mark on Apple Mail and Gmail": "- Use a [[SMIME|S/MIME]] certificate to sign an [[Mail|email]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... than Nodemailer or EmailEngine, i.e., [[SMIME]] or, more recently — [[BIMI|Brand ..."
     },
     "ShadowRealm": {
@@ -2667,7 +2671,7 @@ export const backlinks = {
         "Simple DirectMedia Layer": "... many operating systems such as [[Android]], [[iOS]], [[Linux]], [[macOS]], and Windows. ...",
         "Torvalds": "... other operating systems such as [[Android]]. He also created the distributed ...",
         "USDZ vs glTF": "... iOS Augmented Reality applications, but [[Android]] does not support USDZ yet. ...",
-        "iOS": "... installed mobile operating system after [[Android]].  iOS is based on ...",
+        "iOS": "... installed mobile operating system after [[Android]]. iOS is based on the ...",
         "하늘땅사람 개발 기록": "... 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "FinTech and Justice": {
@@ -3122,7 +3126,7 @@ export const backlinks = {
         "3D": "- USDZ for [[Apple]]",
         "AIs.txt": "Technically, [[Apple]]'s App Tracking Transparency does not ...",
         "AMP": "... to Facebook Instant Articles and [[Apple]] News. AMP is optimized for ...",
-        "Adding a Verified Mark on Apple Mail & Gmail": "... and install it. Go to [[Apple]] [[Mail]] settings and turn on ...",
+        "Adding a Verified Mark on Apple Mail and Gmail": "... and install it. Go to [[Apple]] [[Mail]] settings and turn on ...",
         "AirDrop": "... wirelessly share files between nearby [[Apple]] devices. AirDrop uses Bluetooth low ...",
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
         "Apple Earth": "... Earth app but with Smoo-ooth [[Apple]] [[Cartography|Maps]] and [[iOS]] Widget Supports.",
@@ -3165,7 +3169,7 @@ export const backlinks = {
         "WWDC": "[[Apple]]'s Worldwide Developer Conference",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 ...",
         "iOS": "... system software that runs on [[Apple]]'s iPhone, iPad, iPod Touch, and ...",
-        "macOS": "... operating system (OS) that powers [[Apple]]'s Mac computers.  It's the ...",
+        "macOS": "... operating system (OS) that powers [[Apple]]'s Mac computers. It's the primary ...",
         "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 [[Finance|금융]]위원회에서 ...",
         "불가사리 (기업)": "... 설립의 필요성을 느꼈다. 예를 들어 [[Apple]]의 PassKit의 NFC 개발 도구는 기업이 ...",
         "서당개 3년이면 풍월을 읊는다": "... 어떤 방식으로 얻었든 말이죠. — [[Apple|애플]]의 채용 문구",
@@ -3527,11 +3531,6 @@ export const backlinks = {
         "Deepnote": "- Data Science [[Collaboration-based Tools for Thought]].",
         "Tools for Thought": "- [[Collaboration-based Tools for Thought]]: for teams."
     },
-    "Adding a Verified Mark on Apple Mail & Gmail": {
-        "2022-10-21": "- [[Adding a Verified Mark on Apple Mail & Gmail]]",
-        "2023-08-02": "- [[Adding a Verified Mark on Apple Mail & Gmail]]",
-        "Getting Verified on Gmail": "While we have previously discussed [[adding a Verified Mark on Apple Mail & Gmail]], getting a checkmark on Gmail ..."
-    },
     "Cache Average Access Time": {
         "2022-11-04": "- [[Cache Average Access Time]]",
         "Translation Look-aside Buffers": "- Similar to [[Cache Average Access Time]],"
@@ -3872,7 +3871,7 @@ export const backlinks = {
         "2023-05-11": "- [[henrymakesapps]]"
     },
     "Heimdall Bogus Subscribers Attack Incident": {
-        "2023-08-02": "- [[Heimdall Bogus Subscribers Attack Incident]]",
+        "2023-08-03": "- [[Heimdall Bogus Subscribers Attack Incident]]",
         "Project Heimdall": "[[Heimdall Bogus Subscribers Attack Incident]]"
     },
     "sitemap.xml": {
@@ -4819,7 +4818,7 @@ export const backlinks = {
         "Readings": "- [ ] [[J. Robert Oppenheimer]]",
         "Robert Oppenheimer and Jiro Horikoshi": "Both Jiro Horikoshi and [[J. Robert Oppenheimer]] were influential figures during World ...",
         "Watchings": "- [[J. Robert Oppenheimer|Oppenheimer]]",
-        "서당개 3년이면 풍월을 읊는다": "... 않았다. 어떤 회사에서든 태생부터 남다른 [[J. Robert Oppenheimer|오펜하이머]]급 슈퍼브레인은 얼마 되지 않는 듯했다. ..."
+        "서당개 3년이면 풍월을 읊는다": "... 않았다. 어떤 회사에서든 태생부터 남다른 [[J. Robert Oppenheimer|오펜하이머]]급 [[Superbrain|슈퍼브레인]]은 얼마 되지 않는 듯했다. ..."
     },
     "Researcher": {
         "Research Paper NPM System": "... It's an npm system for [[Researcher|Researchers]]. Citations are npm `install`s. Embedded ...",
@@ -4868,7 +4867,7 @@ export const backlinks = {
         "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "물론 이렇게 매번 [[JavaScript]]를 통해 링크를 조작하는 방법은 웹 ...",
         "HTMX": "- Implementation itself is [[JavaScript]]",
         "NPM": "... default package manager for the [[JavaScript]] runtime environment [[Node.js]]. NPM is ...",
-        "NanoID": "... unique string ID generator for [[JavaScript]].  It's 130 bytes minified, ...",
+        "NanoID": "... unique string ID generator for [[JavaScript]]. It's 130 bytes minified, has ...",
         "Node.js": "Node.js is an open-source, server-side [[JavaScript]] runtime environment allowing developers to ...",
         "Project Heimdall": "... we scrape the web with [[JavaScript]] enabled? Problems are Access Restricted ...",
         "Safari": "... technologies, including HTML5, CSS, and [[JavaScript]]. It includes features such as ...",
@@ -5395,6 +5394,14 @@ export const backlinks = {
         "Atomics (JavaScript)": "- 생성자 없음. [[Static (Computer Systems)|Static]].",
         "Symbol (Computer Systems)": "... are symbols that are not [[Static (Computer Systems)|static]]."
     },
+    "Resume": {
+        "2022-06-14": "... wants a detailed and expressive [[resume]].",
+        "2022-10-27": "Still the strongest [[resume]] I&#39;ve ever made. ",
+        "2023-08-03": "- [[Resume]]",
+        "InterviewKit": "- [[Resume]]",
+        "Person CC8297": "... that information on LinkedIn and [[resume]] is consistent.",
+        "SVB Debacle": "... USDC liquidity operations will usually [[resume]] when banks open in the ..."
+    },
     "Reddit Place": {
         "Reddit Place for Korea": "한국판 [[Reddit Place]]. [[태백산맥 계획]]"
     },
@@ -5655,6 +5662,15 @@ export const backlinks = {
     "Palantir Gotham": {
         "Palantir": "- [[Palantir Gotham]]",
         "Palantir Apollo": "... system that manages and deploys [[Palantir Gotham]] and Foundry. Apollo was built ..."
+    },
+    "Ph.D.": {
+        "2022-06-10": "... enabled, says Joseph Ravichandran, a [[Ph.D.|PhD]] student at MIT CSAIL and ...",
+        "2022-07-05": "- 허 교수는 [[Ph.D.|박사]] 과정을 위해 [[United States of ...",
+        "Resume": "- [[Ph.D.]]'s are a little different — ...",
+        "Zenly Playbook": "... the early days, Zenly hired [[Ph.D.]]-level researchers to acquire unparalleled tech ...",
+        "경제 개발의 길목에서": "양측의 토론을 듣고만 있던 브레진스키 [[Ph.D.|박사]]가 입을 열었다. 그는 \"나는 [[대한민국|한국]]의 ...",
+        "서당개 3년이면 풍월을 읊는다": "... 흔치 않다는 점이다. 물론 이민자들은 [[Ph.D.|석박]] 엘리트 코스가 많았지만 체류 문제 ...",
+        "젠리의 성공 공식": "... 위치 추적을 연구했다. Zenly|젠리 초기에도 [[Ph.D.|박사]]급 인재들을 채용하며 독자적인 기술력을 보유했다. ..."
     },
     "DRM": {
         "2023-03-10": "- [[DRM]]",
@@ -6393,7 +6409,7 @@ export const backlinks = {
         "Mathematics under The Library of Babel": "- Also made a [[C++]] variant, but a meaningful difference ...",
         "Memory Allocation": "For C and [[C++]], calling library functions like `printf` ...",
         "Real Exams": "### Akuna Capital [[C++]]",
-        "iOS": "... X and supports Objective-C, C, [[C++]], and [[Swift]] programming languages.  ..."
+        "iOS": "... X and supports Objective-C, C, [[C++]], and [[Swift]] programming languages. Major ..."
     },
     "Sources of Packet Delay": {
         "Internetworking": "- [[Sources of Packet Delay]]"
@@ -6433,7 +6449,7 @@ export const backlinks = {
     "Lesser Known Trick": {
         "2022-10-21": "- [[Lesser Known Trick]]",
         "2022-11-30": "- [[Lesser Known Trick]]: [[Sudo with Touch ID]]",
-        "Adding a Verified Mark on Apple Mail & Gmail": "- [[Lesser Known Trick]]",
+        "Adding a Verified Mark on Apple Mail and Gmail": "- [[Lesser Known Trick]]",
         "Ignoring $ for copy-pasting online resources to terminal": "[[Lesser Known Trick]].",
         "Menu Hover Effects": "- Cool UIUX [[Lesser Known Trick]].",
         "Redirecting READMEs": "[[Lesser Known Trick]]. It's a symlink. [[How does ...",
@@ -6508,6 +6524,9 @@ export const backlinks = {
     },
     "SHAP": {
         "2022-12-24": "- [[SHAP]]"
+    },
+    "Grammarly Work Note 2023-08-03": {
+        "2023-08-03": "- [[Grammarly Work Note 2023-08-03]]"
     },
     "Government Services should have full API support": {
         "2022-10-27": "- [[Government Services should have full API support]]",
@@ -6591,7 +6610,7 @@ export const backlinks = {
         "2023-02-28": "- [[Mail]]",
         "AMP Email": "> AMP for [[Mail|email]] allows senders to include AMP ...",
         "AWS SES": "AWS SES, or Amazon Simple [[Mail|Email]] Service, is a cloud-based [[Mail|email]]-sending ...",
-        "Adding a Verified Mark on Apple Mail & Gmail": "... SMIME|S/MIME certificate to sign an [[Mail|email]]",
+        "Adding a Verified Mark on Apple Mail and Gmail": "... SMIME|S/MIME certificate to sign an [[Mail|email]]",
         "Bad Interview Experience with Replo": "They once shot me an [[Mail|email]]...",
         "Believer Plan": "- 회사와 회원의 합의는 [[Mail|이메일]] 혹은 영상전화로 가능합니다.",
         "Blind Illness": "... the company through their work [[Mail|email]] and claims to keep user ...",
@@ -7160,6 +7179,7 @@ export const backlinks = {
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "[[Superbrain|지식인]]으로서 우리는 양국의 위기 극복을 위해 ...",
         "뉴턴의 서신": "뉴턴은 수많은 과학자 및 [[Superbrain|지식인]]들과 엄청난 양의 [[Mail|서신]]을 주고 받았다.",
         "민사고": "... 암기식 교육도 아니었으며, '올바른 한민족|민족적 [[Superbrain|지식인]]은 무엇인가'하는 질문을 많이 던지게끔 하셨다. ...",
+        "서당개 3년이면 풍월을 읊는다": "... 태생부터 남다른 J. Robert Oppenheimer|오펜하이머급 [[Superbrain|슈퍼브레인]]은 얼마 되지 않는 듯했다. 나머지는 ...",
         "심리역사학": "... 때문. 때문에 작중에서도 굉장히 극소수의 [[Superbrain|지식인]]들만 심리역사학의 존재를 알고 있고, 심리역사학은 ...",
         "전방위 포위": "... 앞: 순식간에 초격차를 벌려나가는 업계 [[Superbrain|지식인]]들",
         "조선의 노비제도에 관한 보고": "... 하는 이유가 무엇이 있겠습니까? 가장 [[Superbrain|지식인]]이라고 존경받는 사람들조차도 이러한 논리에서 벗어나지 ..."
@@ -7297,6 +7317,11 @@ export const backlinks = {
     },
     "Horizontally Stacked Interface": {
         "2022-10-19": "- [[Horizontally Stacked Interface]]"
+    },
+    "Adding a Verified Mark on Apple Mail and Gmail": {
+        "2022-10-21": "- [[Adding a Verified Mark on Apple Mail and Gmail]]",
+        "2023-08-03": "- [[Adding a Verified Mark on Apple Mail and Gmail]]",
+        "Getting Verified on Gmail": "While we have previously discussed [[Adding a Verified Mark on Apple Mail and Gmail]], getting a checkmark on Gmail ..."
     },
     "언어학과 우주적 소음": {
         "2023-04-10": "- [[언어학과 우주적 소음]]",
@@ -9524,7 +9549,7 @@ export const backlinks = {
         "IDOL Stack": "- Next.js, Supabase [[Database|DB]], Supabase Auth, Supabase Storage, [[CloudFlare]], ...",
         "Letter to Mr. Matt Rickard on 2022-11-28": "... maybe image is stored in [[Database|DB]])",
         "Link Coefficient": "Given a [[database]], how interconnected is the database?",
-        "Listmonk": "... Uses a PostgreSQL (⩾ 12) [[database]] as its data store ",
+        "Listmonk": "... Uses a PostgreSQL (⩾ 12) [[database]] as its data store",
         "Now Page": "... rather keep improving my back-end [[database]] work.\"",
         "Preservation of Data": "... scripts, sometimes curl, and MySQL [[database]] to store the results.",
         "Prisma": "Prisma is an open-source [[database]] toolkit developed to make it ...",
@@ -9746,11 +9771,11 @@ export const backlinks = {
     },
     "44E269.jpeg": {
         "2022-08-03": "![[44E269.jpeg]]",
-        "Adding a Verified Mark on Apple Mail & Gmail": "![[44E269.jpeg]]"
+        "Adding a Verified Mark on Apple Mail and Gmail": "![[44E269.jpeg]]"
     },
     "770154.png": {
         "2022-08-03": "![[770154.png]]",
-        "Adding a Verified Mark on Apple Mail & Gmail": "![[770154.png]]"
+        "Adding a Verified Mark on Apple Mail and Gmail": "![[770154.png]]"
     },
     "ED71F4.png": {
         "2023-06-20": "![[ED71F4.png]]"
@@ -10483,21 +10508,6 @@ export const backlinks = {
     "6A89D8.mp4": {
         "Collaboration-based Tools for Thought": "![[6A89D8.mp4]]"
     },
-    "7A151F.jpeg": {
-        "Adding a Verified Mark on Apple Mail & Gmail": "![[7A151F.jpeg]]"
-    },
-    "48FEB4.jpeg": {
-        "Adding a Verified Mark on Apple Mail & Gmail": "![[48FEB4.jpeg]]"
-    },
-    "BDC6C0.png": {
-        "Adding a Verified Mark on Apple Mail & Gmail": "![[BDC6C0.png]]"
-    },
-    "DEC72A.png": {
-        "Adding a Verified Mark on Apple Mail & Gmail": "![[DEC72A.png]]"
-    },
-    "BF3441.png": {
-        "Adding a Verified Mark on Apple Mail & Gmail": "![[BF3441.png]]"
-    },
     "D26259.png": {
         "ChatGPT is a Blurry JPEG and We Need That": "![[D26259.png]]",
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "![[D26259.png]]"
@@ -11157,6 +11167,21 @@ export const backlinks = {
     },
     "8121DD.png": {
         "Horizontally Stacked Interface": "![[8121DD.png]]"
+    },
+    "7A151F.jpeg": {
+        "Adding a Verified Mark on Apple Mail and Gmail": "![[7A151F.jpeg]]"
+    },
+    "48FEB4.jpeg": {
+        "Adding a Verified Mark on Apple Mail and Gmail": "![[48FEB4.jpeg]]"
+    },
+    "BDC6C0.png": {
+        "Adding a Verified Mark on Apple Mail and Gmail": "![[BDC6C0.png]]"
+    },
+    "DEC72A.png": {
+        "Adding a Verified Mark on Apple Mail and Gmail": "![[DEC72A.png]]"
+    },
+    "BF3441.png": {
+        "Adding a Verified Mark on Apple Mail and Gmail": "![[BF3441.png]]"
     },
     "6F64BE.png": {
         "Toss Product Sans": "![[6F64BE.png]]"
