@@ -422,7 +422,11 @@ article a[href*='https://www.messenger.com']::before
 }
 
 article a[href*='https://meta.discourse.org']::before,
-article a[href*='https://www.meta.discourse.org']::before
+article a[href*='https://www.meta.discourse.org']::before,
+article a[href*='https://ai.meta.com']::before,
+article a[href*='https://www.ai.meta.com']::before,
+article a[href*='https://meta.com']::before,
+article a[href*='https://www.meta.com']::before
 {
   content: '\00a0';
   -webkit-mask-image: url('https://simpleicons.org/icons/meta.svg');

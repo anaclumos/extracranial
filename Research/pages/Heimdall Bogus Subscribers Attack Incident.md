@@ -16,6 +16,7 @@ slug: '/E2CDEB'
 - ![[BB6677.png]]
 - One odd thing was that usually when a subscriber signs up for [[Project Heimdall|Heimdall]], the name field was the handle from the [[Mail|email]] company. These bogus subscribers had something like [[UUID]].
 - Anyways, so I had to inspect all subscribers and batch-delete 400 subscribers.
+- Also, blocked public subscription page.
 - [Under Attack? Spike in Bot Users · Issue #1413 · knadh/listmonk](https://github.com/knadh/listmonk/issues/1413)
 - Why did anyone do this?
 - I am not sure, but one thing for sure is that now I got a warning from [[AWS]]. A competitor in the space?

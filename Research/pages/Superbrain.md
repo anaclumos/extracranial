@@ -17,6 +17,7 @@ aliases:
     'intellectuals',
     'hyper intelligent',
     'hyperintelligent',
+    '석학',
   ]
 ---
 
