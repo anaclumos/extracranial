@@ -1,7 +1,8 @@
 ---
-date: 2020-04-08
 slug: '/440E43'
 ---
+
+[[2020-04-08]]
 
 While [[Chrome]] and [[Firefox]] are two very different [[Web Browser|browsers]], [[Chrome]] [[WebExtension|Extension]] and [[Firefox]] Add-on are now more similar than ever. Therefore, it is possible to transplant a [[Chrome]] [[WebExtension|extension]] to a [[Firefox]] Add-on and publish it to the Mozilla store with minor changes. This post is about how I transplanted my YouTube Comment Language Filter to [[Firefox]].
 
@@ -41,7 +42,7 @@ This was a minor hassle since [[Chrome]] could not recognize the above code bloc
 3. Visit [Firefox Submit a New Add-on](https://addons.mozilla.org/developers/addon/submit/) page.
 4. Follow the guidelines on the screen.
 
-One little tip: make sure you don't include any unnecessary files `.DS_Store` or anything like that. Using macOS's default Finder compressor will sometimes have these files. I recommend using [Keka](https://www.keka.io/).
+One little tip: make sure you don't include any unnecessary files `.DS_Store` or anything like that. Using [[macOS]]'s default Finder compressor will sometimes have these files. I recommend using [Keka](https://www.keka.io/).
 
 ## Update
 

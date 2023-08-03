@@ -1,4 +1,7 @@
 export const backlinks = {
+    "2021-08-11": {
+        "AI는 고가 노동부터 점령한다": "[[2021-08-11]]"
+    },
     "2016-10-22": {
         "국제 계열과 계열 변경 이야기": "[[2016-10-22]]에 게재된 [[재학생일기]]이다."
     },
@@ -28,6 +31,9 @@ export const backlinks = {
     "2022-10-12": {
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... to Mr. Alexander Obenauer on [[2022-10-12]]"
     },
+    "2020-08-01": {
+        "YCLF 주간 사용자 1000명": "[[2020-08-01]]"
+    },
     "2023-03-24": {
         "hn.cho.sh 개발 기록": "## [[2023-03-24]]"
     },
@@ -44,6 +50,9 @@ export const backlinks = {
     },
     "2016-11-28": {
         "아웃 오브 사이트가 항상 사람을 멀게 하는 것은 아닙니다": "[[2016-11-28]]에 게재된 [[재학생일기]]이다."
+    },
+    "2021-08-15": {
+        "Mapping keys to set different input languages on macOS": "[[2021-08-15]]"
     },
     "2023-07-15": {
         "Project Heimdall": "## [[2023-07-15]]"
@@ -64,6 +73,9 @@ export const backlinks = {
     "2020-02-23": {
         "프로젝트 어덕행덕": "- [[2020-02-23]]"
     },
+    "2022-05-11": {
+        "Why the halting problem is unsolvable": "[[2022-05-11]]"
+    },
     "2022-09-06": {
         "Person 1B5A5B": "- Interviewed on [[2022-09-06]]",
         "Person 88B488": "- Interviewed on [[2022-09-06]]"
@@ -74,6 +86,9 @@ export const backlinks = {
     },
     "2023-03-20": {
         "hn.cho.sh 개발 기록": "## [[2023-03-20]]"
+    },
+    "2020-04-26": {
+        "Displaying exact datetimes on Ghost": "[[2020-04-26]]"
     },
     "2022-10-16": {
         "Dynamic Island on the Web": "## [[2022-10-16]]"
@@ -102,6 +117,10 @@ export const backlinks = {
     "2020-03-08": {
         "프로젝트 어덕행덕": "- [[2020-03-08]]"
     },
+    "2023-07-30": {
+        "Heimdall Bogus Subscribers Attack Incident": "- Happened from [[2023-07-30]]-[[2023-08-01]], or something like that",
+        "Project Heimdall": "## [[2023-07-30]]"
+    },
     "2023-05-10": {
         "hn.cho.sh 개발 기록": "## [[2023-05-10]]"
     },
@@ -121,6 +140,9 @@ export const backlinks = {
         "Backlinking for Aldehyde": "... Note feature is complete on [[2022-10-17]].",
         "Better Obsidian": "- Functional Templating (Done on [[2022-10-17]])",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "## Reply on [[2022-10-17]]"
+    },
+    "2020-05-29": {
+        "Sending Notifications on Chrome Extension": "[[2020-05-29]]"
     },
     "2023-01-21": {
         "하늘땅사람 업데이트 기록": "## 1.0.5 [[2023-01-21]]"
@@ -164,6 +186,10 @@ export const backlinks = {
         "2022-10-27": "- Officially confirmed dead on [[2022-10-27]] due to NGL. Has the ...",
         "Goongoom": "- Officially confirmed dead on [[2022-10-27]] due to NGL. Has the ..."
     },
+    "2020-10-05": {
+        "GitHub Pages에 React 앱 띄우기": "[[2020-10-05]]",
+        "React App on GitHub Pages": "- [[2020-10-05]]"
+    },
     "2020-03-07": {
         "프로젝트 어덕행덕": "- [[2020-03-07]]"
     },
@@ -205,6 +231,10 @@ export const backlinks = {
     "2020-09-25": {
         "프로젝트 어덕행덕": "- [[2020-09-25]]"
     },
+    "2020-04-08": {
+        "Porting a Chrome Extension to Firefox Add-on": "[[2020-04-08]]",
+        "라즈베리 파이로 스마트 오디오 시스템 만들기": "[[2020-04-08]]"
+    },
     "2023-02-24": {
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... to Mr. Gustav Ekerot on [[2023-02-24]]"
     },
@@ -213,6 +243,9 @@ export const backlinks = {
     },
     "2022-11-26": {
         "Mathematics under The Library of Babel": "## [[2022-11-26]]"
+    },
+    "2020-04-18": {
+        "Finding the size of the directory in Python": "[[2020-04-18]]"
     },
     "2023-02-10": {
         "Jog 25 minutes (Jan-Feb 2023)": "- [[2023-02-10]]: 면접 도우미"
@@ -229,11 +262,17 @@ export const backlinks = {
     "2016-04-01": {
         "바이올린 켜면 바이올레이션": "[[2016-04-01]]에 게재된 [[재학생일기]]이다."
     },
+    "2023-08-02": {
+        "Project Heimdall": "## [[2023-08-02]]"
+    },
     "2023-04-04": {
         "hn.cho.sh 개발 기록": "## [[2023-04-04]]"
     },
     "2022-09-29": {
         "한자 타자기": "- Started reading [[2022-09-29]]"
+    },
+    "2021-01-16": {
+        "When TSC suddenly errors with cannot find module": "[[2021-01-16]]"
     },
     "2022-08-27": {
         "0002 Add Two Numbers": "Solved at: [[2022-08-27]]",
@@ -248,6 +287,9 @@ export const backlinks = {
     },
     "2023-02-25": {
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "## [[2023-02-25]]"
+    },
+    "2020-07-03": {
+        "http 없는 http 서버 만들기": "[[2020-07-03]]"
     },
     "2023-04-20": {
         "hn.cho.sh 개발 기록": "## [[2023-04-20]]"
@@ -284,6 +326,10 @@ export const backlinks = {
         "Project FFMpeg for iPad": "## [[2023-05-09]]",
         "Seaflooding": "## [[2023-05-09]]"
     },
+    "2018-10-28": {
+        "Migrating Node.js apps from AWS EB to Heroku": "[[2018-10-28]]",
+        "Node.js 앱을 AWS EB에서 Heroku로 옮기기": "[[2018-10-28]]"
+    },
     "2023-06-27": {
         "Grammarly Work Note 2023-06-27": "- Grammarly Work Note [[2023-06-27]]",
         "Project Heimdall": "## [[2023-06-27]]",
@@ -295,6 +341,9 @@ export const backlinks = {
     "2023-01-18": {
         "하늘땅사람 개발 기록": "## [[2023-01-18]]",
         "하늘땅사람 업데이트 기록": "## 1.0.4 [[2023-01-18]]"
+    },
+    "2021-05-04": {
+        "HTML 텍스트 위에 덧말 강조점 쓰기": "[[2021-05-04]]"
     },
     "2023-03-28": {
         "Learning Execution Semantics from Micro-Traces for Binary Similarity": "- Attended CS Colloquium on [[2023-03-28]]."
@@ -338,6 +387,12 @@ export const backlinks = {
         "2022-07-21": "See [[2022-07-19]].",
         "Developing Review Notes for Obsidian": "[[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 ..."
     },
+    "2019-11-16": {
+        "Ghost 테마를 자동 배포하는 방법": "[[2019-11-16]]"
+    },
+    "2021-07-14": {
+        "Tailwind CSS 톺아보기": "[[2021-07-14]]"
+    },
     "2023-01-28": {
         "0057 Insert Interval": "Solved at: [[2023-01-28]]",
         "0067 Add Binary": "Solved at: [[2023-01-28]]",
@@ -348,15 +403,25 @@ export const backlinks = {
         "0383 Ransom Note": "Solved at: [[2023-01-28]]",
         "0409 Longest Palindrome": "Solved at: [[2023-01-28]]"
     },
+    "2020-07-20": {
+        "배달의민족 FE 개발자가 일하는 법 Q&A": "[[2020-07-20]]",
+        "배달의민족 FE 개발자가 일하는 법 발표": "[[2020-07-20]]"
+    },
     "2023-02-16": {
         "Link Coefficient": "For example, as of [[2023-02-16]], [[Aldehyde]] has a 0.592% of ..."
     },
     "2019-11-06": {
         "프로젝트 어덕행덕": "- [[2019-11-06]]"
     },
+    "2020-10-17": {
+        "Implementing Karatsuba Algorithm in Python": "[[2020-10-17]]"
+    },
     "2022-08-30": {
         "0215 Kth Largest Element in an Array": "Solved at: [[2022-08-30]]",
         "1046 Last Stone Weight": "Solved at: [[2022-08-30]]"
+    },
+    "2019-12-28": {
+        "브라우저 콘솔에 경고 문구 띄우는 방법": "[[2019-12-28]]"
     },
     "2020-11-19": {
         "프로젝트 어덕행덕": "- [[2020-11-19]]"
@@ -380,9 +445,22 @@ export const backlinks = {
     "2023-03-19": {
         "Z-Fellows": "... and Only (Social App) on [[2023-03-19]]"
     },
+    "2019-11-07": {
+        "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "[[2019-11-07]]",
+        "Opening external links in a new tab by default on Ghost": "[[2019-11-07]]"
+    },
     "2023-04-12": {
         "Z-Fellows": "- On [[2023-04-12]], Rejected. But I was the ...",
         "hn.cho.sh 개발 기록": "## [[2023-04-12]]"
+    },
+    "2022-04-26": {
+        "Storing sensitive data in iOS Apps": "[[2022-04-26]]"
+    },
+    "2020-01-20": {
+        "Apple Easter Egg": "[[2020-01-20]]"
+    },
+    "2022-04-06": {
+        "Downloading Any Recordings from Zoom": "[[2022-04-06]]"
     },
     "2023-04-06": {
         "AI로 변할 세상에 필요한 것": "[[2023-04-06]] 오늘 친구랑 이야기하다 굉장히 인상 ...",
@@ -397,6 +475,9 @@ export const backlinks = {
     },
     "2016-11-15": {
         "기숙사 생활과 방 배정": "[[2016-11-15]]에 게재된 [[재학생일기]]이다."
+    },
+    "2020-07-11": {
+        "Finding out Ghost version with JS": "[[2020-07-11]]"
     },
     "2022-11-25": {
         "Mathematics under The Library of Babel": "## [[2022-11-25]]",
@@ -418,7 +499,9 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "## [[2023-04-16]]"
     },
     "2023-08-01": {
-        "Grammarly Internal Conference with Executives 2023-08-01": "Grammarly Internal Conference with Executives [[2023-08-01]]"
+        "Grammarly Internal Conference with Executives 2023-08-01": "Grammarly Internal Conference with Executives [[2023-08-01]]",
+        "Heimdall Bogus Subscribers Attack Incident": "- Happened from 2023-07-30-[[2023-08-01]], or something like that",
+        "Project Heimdall": "## [[2023-08-01]]"
     },
     "2023-03-06": {
         "hn.cho.sh 개발 기록": "## [[2023-03-06]]"
@@ -454,8 +537,16 @@ export const backlinks = {
     "2020-02-15": {
         "프로젝트 어덕행덕": "- [[2020-02-15]]"
     },
+    "2022-07-07": {
+        "Building a Second Brain": "[[2022-07-07]]",
+        "두 번째 뇌": "- [[2022-07-07]]"
+    },
     "2019-03-04": {
         "코드클럽": "[[2019-03-04]]"
+    },
+    "2019-11-08": {
+        "CSS에서 언어마다 다른 글씨체를 설정하는 방법": "[[2019-11-08]]",
+        "Setting different fonts by language in CSS": "[[2019-11-08]]"
     },
     "2022-09-04": {
         "0242 Valid Anagram": "Solved at: [[2022-09-04]]",
@@ -485,6 +576,12 @@ export const backlinks = {
     "2022-07-13": {
         "0021 Merge Two Sorted Lists": "Solved at: [[2022-07-13]]",
         "0121 Best Time to Buy and Sell Stock": "Solved at: [[2022-07-13]]"
+    },
+    "2022-05-07": {
+        "Shortcuts": "[[2022-05-07]]"
+    },
+    "2020-11-27": {
+        "Snowpack으로 WASM 시작하기": "[[2020-11-27]]"
     },
     "2023-04-19": {
         "Project Heimdall": "## [[2023-04-19]]",
@@ -525,12 +622,18 @@ export const backlinks = {
     "2023-04-18": {
         "hn.cho.sh 개발 기록": "## [[2023-04-18]]"
     },
+    "2022-04-18": {
+        "Linux Permissions for Keys": "[[2022-04-18]]"
+    },
     "2023-05-16": {
         "Project Heimdall": "## [[2023-05-16]]"
     },
     "2022-10-11": {
         "Letter to the Heptabase Team on 2022-10-11": "... to the Heptabase Team on [[2022-10-11]]",
         "Open Graph Image as a Service": "- [[2022-10-11]]"
+    },
+    "2020-04-15": {
+        "Apple Newsroom 서체 따라하기": "[[2020-04-15]]"
     },
     "2023-01-13": {
         "한민족은 해적되었다": "[[2023-01-13]]에 꾼 꿈에서 강력한 메시지를 받았다."
@@ -559,6 +662,10 @@ export const backlinks = {
     },
     "2022-07-06": {
         "2022-07-11": "... a demo script created on [[2022-07-06]] yields logs as above."
+    },
+    "2019-11-09": {
+        "Locking your Mac with Command+L": "[[2019-11-09]]",
+        "Mac을 Command+L로 잠그는 방법": "[[2019-11-09]]"
     },
     "2022-09-05": {
         "0053 Maximum Subarray": "Solved at: [[2022-09-05]]",
@@ -619,6 +726,7 @@ export const backlinks = {
         "Requesting Review in Swift": "Requesting Review in [[Swift]] [[StoreKit]]",
         "SwiftUI": "- Declarative Framework made with [[Swift]]",
         "Using System Haptics and Sounds in Swift": "... System Haptics and Sounds in [[Swift]]",
+        "iOS": "... supports Objective-C, C, C++, and [[Swift]] programming languages.  Major versions ...",
         "하늘땅사람 개발 기록": "일단 현재 생각한 케이스들은 모두 [[Swift]] Constant에 박아두었다."
     },
     "Cube": {
@@ -728,6 +836,8 @@ export const backlinks = {
         "Action Required Newsletter Networks": "Someday Project. It's a [[Newsletter]] but you must",
         "Buttondown": "... small, elegant tool for producing [[Newsletter|newsletters]]. The minimalist interface makes it ...",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... do not currently have a [[newsletter]]. I was looking for a ...",
+        "Listmonk": "... that allows you to send [[Newsletter|newsletters]], promotional [[Mail|emails]], and transactional [[Mail|emails]]. ...",
+        "Project Heimdall": "... value. People are spamming the [[newsletter]] mailing list by enrolling in ...",
         "Reimagining Emails": "- [[Newsletter]]",
         "Substack": "Substack is a [[Newsletter]] network and a blogging service.",
         "Tailwind": "... like a blog or a [[newsletter]]"
@@ -1022,7 +1132,6 @@ export const backlinks = {
     },
     "Apple Pay": {
         "Apple": "... Apple Silicon, Apple Vision Pro, [[Apple Pay]]",
-        "iOS": "... with other iOS devices, and [[Apple Pay]], which allows users to make ...",
         "아이폰 천지인 자판 프로젝트의 실현 가능성 연구": "2022년 연말 최근 [[Apple Pay]]가 도입된다는 소문으로 아이폰에 대한 관심은 ..."
     },
     "URI": {
@@ -1390,8 +1499,8 @@ export const backlinks = {
         "Redwood.js": "... API built with Prisma and [[Apollo (GraphQL)]] Server. Prisma is used for ..."
     },
     "AirDrop": {
-        "WWDC23": "- [[AirDrop]] improvements for in-app contents",
-        "iOS": "... also includes features such as [[AirDrop]], which allows users to easily ..."
+        "Adding a Verified Mark on Apple Mail & Gmail": "... key at the same time. [[AirDrop]] it to your phone, go ...",
+        "WWDC23": "- [[AirDrop]] improvements for in-app contents"
     },
     "Multiplication Theorem": {
         "2023-01-23": "- [[Multiplication Theorem]]",
@@ -1459,6 +1568,7 @@ export const backlinks = {
         "Letter to Mr. Stephan Ango on 2022-10-19": "... convert Obsidian MD files to [[Docusaurus]] MD files since they have ...",
         "Letter to the Heptabase Team on 2022-10-11": "... also a contributor to GoogleChrome/web.dev, Facebook/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came ...",
         "Paracosm": "... Thought that aims to replace [[Docusaurus]] with [[Vercel]]'s tech stacks.",
+        "Project Heimdall": "... switched to a more conventional [[Docusaurus]] with [[Listmonk]]. Consider [[Project]] [[Done]].",
         "Redirect": "## Redirects in [[Docusaurus]]",
         "도메인 찾아 삼만리": "... 느꼈다. 나는 블로그를 WordPress에서 Ghost, [[Docusaurus]]로 마이그레이션하면서 여러 기여를 했고 프레임워크를 ..."
     },
@@ -1586,6 +1696,7 @@ export const backlinks = {
         "IDOL Stack": "... Sometimes lack of a proper [[back-end]] sucks",
         "Inspiring Open Source Projects": "- bitwarden/server The core infrastructure [[Back-end|backend]] (API, database, [[Docker]], etc).",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... to an edge-served Front-end and [[back-end]] as edge-replicated simple data storage. ...",
+        "Listmonk": "- The [[back-end]] is written in Go, and ...",
         "Now Page": "... I'd rather keep improving my [[back-end]] [[database]] work.\"",
         "Old Fashioned Camera": "- [[Back-end|백엔드]]와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE ...",
         "Reddit-Apollo Mayhem": "... made the code for its [[Back-end|backend]] repository publicly available to demonstrate ...",
@@ -1921,9 +2032,11 @@ export const backlinks = {
         "Chrome": "... of web technologies, including HTML5, [[CSS]], and [[JavaScript]]. In addition, it ...",
         "Chromium": "- \"The integration with the [[CSS]] [[engine]] leads to some extraordinary ...",
         "Font Features": "- [[CSS]] property to enhance legibilities of ...",
+        "HTML": "... such as Cascading Style Sheets ([[CSS]]) and scripting languages such as ...",
         "Markdown Email Client": "... Markdown. Before sending, select one [[CSS]]. Then... it sends as a ...",
         "Mini App": "... using web-based technologies like HTML, [[CSS]], and JavaScript hosted by the ...",
         "Open Graph Image as a Service": "... library to convert HTML and [[CSS]] to [[SVG]]",
+        "Project Heimdall": "... Scrape websites for text by [[CSS]] selector.",
         "Proposal of Research 2023-01-10": "... load and display its HTML, [[CSS]], and JavaScript. One everyday use ...",
         "Safari": "... of web technologies, including HTML5, [[CSS]], and [[JavaScript]]. It includes features ...",
         "Satori": "... new core library for converting HTML/[[CSS]] into SVGs.",
@@ -1931,6 +2044,7 @@ export const backlinks = {
         "Stories Behind Satori": "... two, being fast and dev-friendly (HTML/[[CSS]])",
         "Tailwind": "... leaving your HTML. A utility-first [[CSS]] framework packed with classes like ...",
         "Tailwind CSS 톺아보기": "- Tailwind [[CSS]]를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 적용",
+        "Web Typography": "... would be used. The first [[CSS|Cascading Style Sheets]] specification was published in 1996 ...",
         "WebExtension": "... web technologies such as HTML, [[CSS]], and JavaScript. They can interact ...",
         "dub.sh": "  - Tailwind [[CSS]]",
         "henrymakesapps": "3.  Tailwind [[CSS]]: Reduces time spent on styling ...",
@@ -2340,6 +2454,7 @@ export const backlinks = {
         "Mood.surf": "... Discover expert insights from tech [[Twitter]]",
         "Musk and Twitter": "... share my motivation for acquiring [[Twitter]]. There has been much speculation ...",
         "Person 648442": "... about the fragmented nature of [[Twitter]].",
+        "Project Heimdall": "... are Access Restricted SPAs like [[Twitter]].",
         "Regulation of Fake News": "... of America|United States government pressured [[Twitter]] to elevate certain content and ...",
         "Social Coding": "... model compared to LinkedIn (or [[Twitter]]",
         "Threads (Service)": "- People I follow on [[Twitter]] are not my high school ...",
@@ -2381,6 +2496,7 @@ export const backlinks = {
         "Pensieve": "... as the intermediary bridge between [[web browser]] data stream (ephemeral) and long-term ...",
         "Porting a Chrome Extension to Firefox Add-on": "... Firefox are two very different [[Web Browser|browsers]], Chrome [[WebExtension|Extension]] and Firefox Add-on ...",
         "Preservation of Data": "... and perhaps using a particular [[web Browser|browser]] sessions (or even a different ...",
+        "Project Heimdall": "... to interact with a headless [[Web Browser|browser]] built in top of Puppeteer.",
         "Proposal of Research 2023-01-10": "... and is used if the [[Web Browser|browser]] cannot display the picture. Alt ...",
         "Ruffle": "... content running safely in modern [[Web Browser|web browsers]] via [[Rust]] and [[WebAssembly]]",
         "Safari": "Safari is a [[web browser]] developed by [[Apple]] Inc. It ...",
@@ -2454,7 +2570,8 @@ export const backlinks = {
         "2023-01-24": "- [[Approximation]]"
     },
     "Problem": {
-        "Digital Addiction": "[[Problem]]. I [[love software]], but I ..."
+        "Digital Addiction": "[[Problem]]. I [[love software]], but I ...",
+        "Project Heimdall": "... dealing with the Subscription Recurrence [[problem]]. Given a subscription table, how ..."
     },
     "Project Heimdall Initial Planning": {
         "Project Heimdall": "- [[Project Heimdall Initial Planning]]"
@@ -2472,6 +2589,7 @@ export const backlinks = {
         "Ghost 테마를 자동 배포하는 방법": "... 머리가 없다는 뜻으로, Back-end|백엔드는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 ...",
         "HTMX": "- A [[Front-end]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... be abstracted to an edge-served [[Front-end]] and [[back-end]] as edge-replicated simple ...",
+        "Listmonk": "... written in Go, and the [[front-end]] is Vue with Buefy for ...",
         "Old Fashioned Camera": "- Back-end|백엔드와 [[Front-end|프론트]]가 모두 필요 없기에 [[FIRE Engine]]을 ...",
         "React": "... is a free and open-source [[Front-end|front-end]] JavaScript library for building user ...",
         "Redwood.js": "- The [[front-end]] is built with React, a ...",
@@ -2544,11 +2662,12 @@ export const backlinks = {
         "Cartography": "... turn-by-turn routing for iOS and [[Android]], while the Navigation Solutions cover ...",
         "Chrome": "... devices, including Windows, macOS, Linux, [[Android]], and [[iOS]].",
         "Figma": "... The Figma mobile app for [[Android]] and [[iOS]] allows viewing and ...",
-        "Project FFMpeg for iPad": "... FFmpeg Kit for applications. Supports [[Android]], Flutter, [[iOS]], [[Linux]], macOS, [[React ...",
-        "React Native": "... used to develop applications for [[Android]], Android TV, [[iOS]], macOS, tvOS, ...",
-        "Simple DirectMedia Layer": "... many operating systems such as [[Android]], [[iOS]], [[Linux]], macOS, and Windows. ...",
+        "Project FFMpeg for iPad": "... FFmpeg Kit for applications. Supports [[Android]], Flutter, [[iOS]], [[Linux]], [[macOS]], [[React ...",
+        "React Native": "... used to develop applications for [[Android]], Android TV, [[iOS]], [[macOS]], tvOS, ...",
+        "Simple DirectMedia Layer": "... many operating systems such as [[Android]], [[iOS]], [[Linux]], [[macOS]], and Windows. ...",
         "Torvalds": "... other operating systems such as [[Android]]. He also created the distributed ...",
         "USDZ vs glTF": "... iOS Augmented Reality applications, but [[Android]] does not support USDZ yet. ...",
+        "iOS": "... installed mobile operating system after [[Android]].  iOS is based on ...",
         "하늘땅사람 개발 기록": "... 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
     "FinTech and Justice": {
@@ -2590,6 +2709,9 @@ export const backlinks = {
     "두 번째 뇌": {
         "2022-11-19": "  - [[두 번째 뇌]]",
         "Building a Second Brain": "- [[두 번째 뇌]]"
+    },
+    "NanoID": {
+        "UUID": "Alternative|Alternatives is CUID and [[NanoID]]"
     },
     "First Two Months of a Startup": {
         "Dilemmas of Technopreneur": "That means the [[First Two Months of a Startup]] can be spent making the ..."
@@ -2640,11 +2762,13 @@ export const backlinks = {
         "Docusaurus": "... 더 자연스러운 표현일겁니다. 그래서 해당 [[UIUX|UI]] 번역도 아래와 같이 사용할 수 ...",
         "Downloading Any Recordings from Zoom": "... have reported. However, while this [[UIUX|UI]] does not expose the download ...",
         "Dynamic Viewport Units": "... is throttled as the UA [[UIUX|UI]] expands or retracts. Some Web ...",
+        "Listmonk": "... is Vue with Buefy for [[UIUX|UI]]",
         "Magician": "- an [[UIUX]] experiment.",
         "Menu Hover Effects": "- Cool [[UIUX]] [[Lesser Known Trick]].",
         "Modern MacPaint": "- an [[UIUX]] experiment.",
         "Mr. Doob": "- an [[UIUX]] experiment.",
         "Person 1E6ABA": "... of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media ...",
+        "Project Heimdall": "... That is, separating the linguistic [[UIUX|UI]] from the newsletter content. So ...",
         "Proposal of Research 2023-01-10": "... time-consuming tasks without blocking the [[UIUX|UI]], which can lead to a ...",
         "Rauno": "## Miscellany related to [[UIUX|UI]]",
         "React": "... building user interfaces based on [[UIUX|UI]] components. It is maintained by ...",
@@ -2755,6 +2879,7 @@ export const backlinks = {
         "Mental Simulation of Firefox and Signal as a Super App": "... as seen in the Gecko [[engine]].",
         "Naver": "... develop and use its search [[engine]]. It was also the world's ...",
         "Person 648442": "... strategy — Twitter's Non-existent Search [[Engine]]: [[Geohot-Twitter Mayhem]]",
+        "Project Heimdall": "Completed the Project Linguine [[Engine]]: [[Linguine Engine Test Drive Result ...",
         "Proposal of Research 2023-01-10": "... cause the Web Browser|browser's JavaScript [[engine]] to become unresponsive. As a ...",
         "Proposal of Research 2023-03-28": "... users and negatively impacts search [[engine]] optimization. This research proposal aims ...",
         "Satori": "### [[Engine]]",
@@ -2997,6 +3122,8 @@ export const backlinks = {
         "3D": "- USDZ for [[Apple]]",
         "AIs.txt": "Technically, [[Apple]]'s App Tracking Transparency does not ...",
         "AMP": "... to Facebook Instant Articles and [[Apple]] News. AMP is optimized for ...",
+        "Adding a Verified Mark on Apple Mail & Gmail": "... and install it. Go to [[Apple]] [[Mail]] settings and turn on ...",
+        "AirDrop": "... wirelessly share files between nearby [[Apple]] devices. AirDrop uses Bluetooth low ...",
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
         "Apple Earth": "... Earth app but with Smoo-ooth [[Apple]] [[Cartography|Maps]] and [[iOS]] Widget Supports.",
         "Apple Easter Egg": "... here for the hard core [[Apple]] fans that",
@@ -3037,7 +3164,8 @@ export const backlinks = {
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] ...",
         "WWDC": "[[Apple]]'s Worldwide Developer Conference",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 ...",
-        "iOS": "... mobile operating system developed by [[Apple]] Inc. The operating system powers ...",
+        "iOS": "... system software that runs on [[Apple]]'s iPhone, iPad, iPod Touch, and ...",
+        "macOS": "... operating system (OS) that powers [[Apple]]'s Mac computers.  It's the ...",
         "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 [[Finance|금융]]위원회에서 ...",
         "불가사리 (기업)": "... 설립의 필요성을 느꼈다. 예를 들어 [[Apple]]의 PassKit의 NFC 개발 도구는 기업이 ...",
         "서당개 3년이면 풍월을 읊는다": "... 어떤 방식으로 얻었든 말이죠. — [[Apple|애플]]의 채용 문구",
@@ -3092,6 +3220,11 @@ export const backlinks = {
         "Mental Simulation of Firefox and Signal as a Super App": "... have specific fan groups and [[anti]]-fan groups. So the [[Super app]] ...",
         "Super App and Democracy": "... Is the centralization of data [[anti]]-democratic?",
         "Web3": "... is not financial; it's the [[anti]]-humanist philosophy at its core that ..."
+    },
+    "UUID": {
+        "Heimdall Bogus Subscribers Attack Incident": "... bogus subscribers had something like [[UUID]].",
+        "NanoID": "... it's not as well-known as [[UUID]], NanoID has recently expanded and ...",
+        "UUIDs are Awesome": "... Only after generating 1 billion [[UUID|UUIDs]] every second for the next ..."
     },
     "Shim": {
         "2022-06-26": "- API [[Shim|Shimming]] will be hard enough. Shim ...",
@@ -3357,6 +3490,10 @@ export const backlinks = {
     "서당개 3년이면 풍월을 읊는다": {
         "2023-06-19": "- [[서당개 3년이면 풍월을 읊는다]]"
     },
+    "Listmonk": {
+        "Heimdall Bogus Subscribers Attack Incident": "... were the last list on [[Listmonk]].",
+        "Project Heimdall": "... a more conventional Docusaurus with [[Listmonk]]. Consider [[Project]] [[Done]]."
+    },
     "Protocol Wars": {
         "2022-11-16": "- [[Protocol Wars]]: [[Matt Rickard]]",
         "Matt Rickard": "- [[Protocol Wars]]"
@@ -3392,6 +3529,7 @@ export const backlinks = {
     },
     "Adding a Verified Mark on Apple Mail & Gmail": {
         "2022-10-21": "- [[Adding a Verified Mark on Apple Mail & Gmail]]",
+        "2023-08-02": "- [[Adding a Verified Mark on Apple Mail & Gmail]]",
         "Getting Verified on Gmail": "While we have previously discussed [[adding a Verified Mark on Apple Mail & Gmail]], getting a checkmark on Gmail ..."
     },
     "Cache Average Access Time": {
@@ -3407,6 +3545,7 @@ export const backlinks = {
         "Developing Review Notes for Obsidian": "... 작성하려다가 옵시디언 플러그인 개발 자료는 [[한국어]]로 거의 없어 그냥 한국어로 작성한다.",
         "Letter to the Heptabase Team on 2022-10-11": "... Anyways, if you need any [[한국어|Korean]] 🇰🇷 translation support or anything ...",
         "Mapping keys to set different input languages on macOS": "... set Mac's input method to [[한국어|Korean]].",
+        "Project Heimdall": "... newsletter content. So in a [[한국어|Korean]] interface, you can go to ...",
         "Ridi": "> Ridi Corporation ([[한국어|Korean]]: 리디[[Stock|주식]]회사) is a content platform ...",
         "Seaflooding": "[[한국어]]로는 '큰물' '물마' 등의 단어가 있다. ...",
         "Search AI와 인터넷의 한국어": "나는 [[한국어]] 자료가 인터넷에 부족한 탓이라고 생각하지 ...",
@@ -3732,6 +3871,10 @@ export const backlinks = {
     "henrymakesapps": {
         "2023-05-11": "- [[henrymakesapps]]"
     },
+    "Heimdall Bogus Subscribers Attack Incident": {
+        "2023-08-02": "- [[Heimdall Bogus Subscribers Attack Incident]]",
+        "Project Heimdall": "[[Heimdall Bogus Subscribers Attack Incident]]"
+    },
     "sitemap.xml": {
         "QA.json": "... to an RSS feed or [[sitemap.xml]]. Finally, the structured data format ..."
     },
@@ -3890,7 +4033,7 @@ export const backlinks = {
         "Embeddable GitHub Repo Card But It Looks Great": "Someday [[Project]].",
         "Eventually, Diligent Immatures build the Future": "... the potential success of a [[project]] or goal, which can cause ...",
         "FFMpeg": "... is a free, open-source software [[project]] comprising a suite of libraries ...",
-        "Fix Your Posture": "Someday [[Project]]. Small macOS application that reminds ...",
+        "Fix Your Posture": "Someday [[Project]]. Small [[macOS]] application that reminds ...",
         "Generative Intelligence": "- [[Project]] scaffolding",
         "Generative Open Graph": "Someday [[Project]]. [[Open Graph Image as a ...",
         "GitHub": "... integration, and wikis for every [[project]]. Headquartered in California, it has ...",
@@ -3918,6 +4061,7 @@ export const backlinks = {
         "Preservation of Data": "... of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford ...",
         "Problem": "Leads to a Someday [[Project]].",
         "Project FFMpeg for iPad": "- Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
+        "Project Heimdall": "... conventional Docusaurus with Listmonk. Consider [[Project]] [[Done]].",
         "Project Linguine": "[[Project]] Linguine is an initiative to ...",
         "Project MAGI": "Someday [[Project]]. Use Multiple Artificial Generative Intelligence ...",
         "Project PEOPLE": "- [[Project]]",
@@ -4329,6 +4473,7 @@ export const backlinks = {
         "Naver Pay": "- [[Toss]]",
         "Person 1E6ABA": "[[Toss]] Invest also tries to solve ...",
         "Service Shimming": "- [[Toss]] (≈ [[대한민국|Korean]] Paypal) failed to ...",
+        "Toss Payments": "... electronic payments service provided by [[Toss]].",
         "Toss Product Sans": "- [[Toss]]의 [[Font|글꼴]]",
         "Tossface": "- Emoji Font by [[Toss]]",
         "Why Korean Banks Suck": "... new Financial Technology|fintech companies like [[Toss]] and KakaoBank has brought some ...",
@@ -4463,7 +4608,7 @@ export const backlinks = {
     "JVM": {
         "How is WebAssembly cross-platform when Assembly is not": "... virtual stack machines (akin to [[JVM]] or Flash VM)",
         "IntelliJ": "... Java, Kotlin, Groovy, and other [[JVM]]-based languages. It is produced by ...",
-        "Scala": "... bytecode and executed by the [[JVM|Java virtual machine]] ([[JVM]]). ",
+        "Scala": "... bytecode and executed by the [[JVM|Java virtual machine]] ([[JVM]]).",
         "Write Once Run Everywhere": "... with a Java virtual machines ([[JVM]]). Installing a JVM or Java ..."
     },
     "Catherine the Great": {
@@ -4522,6 +4667,7 @@ export const backlinks = {
     },
     "Done": {
         "Dynamic Island on the Web": "- [[Done]] [[Project]]",
+        "Project Heimdall": "... Docusaurus with Listmonk. Consider Project [[Done]].",
         "TossFace Playground": "- Project [[Done]]",
         "Watchings": "## [[Done]]",
         "lovearc.net": "A small [[done]] project I've done over the ...",
@@ -4722,7 +4868,9 @@ export const backlinks = {
         "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "물론 이렇게 매번 [[JavaScript]]를 통해 링크를 조작하는 방법은 웹 ...",
         "HTMX": "- Implementation itself is [[JavaScript]]",
         "NPM": "... default package manager for the [[JavaScript]] runtime environment [[Node.js]]. NPM is ...",
+        "NanoID": "... unique string ID generator for [[JavaScript]].  It's 130 bytes minified, ...",
         "Node.js": "Node.js is an open-source, server-side [[JavaScript]] runtime environment allowing developers to ...",
+        "Project Heimdall": "... we scrape the web with [[JavaScript]] enabled? Problems are Access Restricted ...",
         "Safari": "... technologies, including HTML5, CSS, and [[JavaScript]]. It includes features such as ...",
         "Separation of Computer Scientists and Computer Technologists": "... to make a cool-looking Single-Page-App [[JavaScript]] [[ecommerce|e-commerce]] website...",
         "TypeScript": "- Typed [[JavaScript]].",
@@ -4854,16 +5002,17 @@ export const backlinks = {
         "2022-11-19": "  - [[When TSC suddenly errors with cannot find module]]"
     },
     "Linux": {
-        "2022-06-05": "... PDF/EPUBs with one command on [[Linux]] (and macOS very soon). This ...",
+        "2022-06-05": "... PDF/EPUBs with one command on [[Linux]] (and [[macOS]] very soon). This ...",
         "Chrome": "... mobile devices, including Windows, macOS, [[Linux]], [[Android]], and [[iOS]].",
         "ELF": "... and Linked Format, used in [[Linux]]",
         "Heap (Computer Systems)": "In [[Linux]], the `brk` pointer will be ...",
         "Linux Permissions for Keys": "Note that [[Linux]] SSH manual says:",
-        "Project FFMpeg for iPad": "... applications. Supports Android, Flutter, iOS, [[Linux]], macOS, [[React Native]] and tvOS. ...",
-        "Simple DirectMedia Layer": "... systems such as Android, iOS, [[Linux]], macOS, and Windows. Simple DirectMedia ...",
-        "Symlink": "... operating systems, such as FreeBSD, [[Linux]], and macOS. Limited support also ...",
+        "Project FFMpeg for iPad": "... applications. Supports Android, Flutter, iOS, [[Linux]], [[macOS]], [[React Native]] and tvOS. ...",
+        "Simple DirectMedia Layer": "... systems such as Android, iOS, [[Linux]], [[macOS]], and Windows. Simple DirectMedia ...",
+        "Symlink": "... operating systems, such as FreeBSD, [[Linux]], and [[macOS]]. Limited support also ...",
         "Torvalds": "... the lead developer of the [[Linux]] kernel, used by Linux distributions ...",
-        "Visual Studio Code": "... the Electron Framework, for Windows, [[Linux]] and macOS. Features include support ...",
+        "Visual Studio Code": "... the Electron Framework, for Windows, [[Linux]] and [[macOS]]. Features include support ...",
+        "macOS": "... Microsoft Windows and ahead of [[Linux]]. macOS was the first mainstream ...",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 및 `balenaSound` Project|프로젝트를 활용한다. Balena는 [[Linux]] 장치들로 사물인터넷(IoT) 시스템을 구축할 수 ..."
     },
     "Brunch": {
@@ -5560,6 +5709,32 @@ export const backlinks = {
     "Discuss on Social Media Button": {
         "2023-02-21": "- [[Discuss on Social Media Button]]"
     },
+    "macOS": {
+        "2022-06-05": "... one command on Linux (and [[macOS]] very soon). This software does ...",
+        "2023-02-08": "... various potential issues in a [[macOS]]/[[iOS]] application",
+        "AirDrop": "... a feature in iOS and [[macOS]] that lets you wirelessly share ...",
+        "Chrome": "... and mobile devices, including Windows, [[macOS]], [[Linux]], [[Android]], and [[iOS]].",
+        "Disable Screenshot Drop Shadow in macOS": "[[macOS]]",
+        "Figma": "... enabled by desktop applications for [[macOS]] and Windows. The feature set ...",
+        "Final Cut Pro": "... content creators. Only available for [[macOS]].",
+        "Fix Your Posture": "Someday Project. Small [[macOS]] application that reminds you to ...",
+        "Locking your Mac with Command+L": "... computer by pressing ⌘Command+L from [[macOS]] Mojave.",
+        "Mac을 Command+L로 잠그는 방법": "... Win`+`L`처럼 직관적이고 빠르지 못했다. 하지만 [[macOS]] Mojave부터 Mac에서도 동일하게 `⌘ Command`+`L`을 ...",
+        "Mapping keys to set different input languages on macOS": "... notorious 자소 분리 bug in [[macOS]] [[한국어|Korean]] Keyboard.",
+        "Neo Apps": "The earth of [[macOS]] Applications is changing. [[Neo]] Apps.",
+        "Porting a Chrome Extension to Firefox Add-on": "... or anything like that. Using [[macOS]]'s default Finder compressor will sometimes ...",
+        "Project FFMpeg for iPad": "... Supports Android, Flutter, iOS, Linux, [[macOS]], [[React Native]] and tvOS. Supersedes ...",
+        "React Native": "... for Android, Android TV, iOS, [[macOS]], tvOS, Web, Windows, and UWP ...",
+        "Reimagining Emails": "... as a native app for [[macOS]], [[iOS|iPadOS]], and [[iOS]].",
+        "Retroactive (Software)": "... Aperture, iPhoto, and iTunes on [[macOS]] Ventura, macOS Monterey, macOS Big ...",
+        "Safari": "... default Web Browser|browser for Apple's [[macOS]] operating system and later became ...",
+        "Simple DirectMedia Layer": "... such as Android, iOS, Linux, [[macOS]], and Windows. Simple DirectMedia Layer",
+        "Symlink": "... such as FreeBSD, Linux, and [[macOS]]. Limited support also exists in ...",
+        "VP9 vs HEVC": "- Not only that, [[macOS]] devices only got VP9 decoders ...",
+        "Visual Studio Code": "... Framework, for Windows, Linux and [[macOS]]. Features include support for debugging, ...",
+        "WWDC23": "... faster workflows. Share Tester Notes. [[macOS]] notarization (check malicious components)",
+        "iOS": "... is based on the Macintosh [[macOS|OS X]] and supports Objective-C, C, [[C++]], ..."
+    },
     "Brunch violates SF terms of use": {
         "San Francisco": "- Although [[Brunch violates SF terms of use]]"
     },
@@ -6217,7 +6392,8 @@ export const backlinks = {
         "Heap (Computer Systems)": "C and [[C++]] use explicit allocators, which the ...",
         "Mathematics under The Library of Babel": "- Also made a [[C++]] variant, but a meaningful difference ...",
         "Memory Allocation": "For C and [[C++]], calling library functions like `printf` ...",
-        "Real Exams": "### Akuna Capital [[C++]]"
+        "Real Exams": "### Akuna Capital [[C++]]",
+        "iOS": "... X and supports Objective-C, C, [[C++]], and [[Swift]] programming languages.  ..."
     },
     "Sources of Packet Delay": {
         "Internetworking": "- [[Sources of Packet Delay]]"
@@ -6425,6 +6601,7 @@ export const backlinks = {
         "Common App for Resume": "2. Send updates via [[Mail|email]]",
         "Datalake": "... logs, XML, JSON), unstructured data ([[Mail|emails]], documents, PDFs), and binary data ...",
         "Emails and Decentralized Protocols": "- [[Mail|Email]] is now an oligopoly, a ...",
+        "Heimdall Bogus Subscribers Attack Incident": "- The [[Mail|emails]] were very authentic-looking, though. So ...",
         "Krafton Way": "... 서비스 등 여러 조건을 통째로 [[Mail|메일]]에 포함해 경영진에게 전달했다. 짐짓 점잖은 ...",
         "Letter to Modos team on 2023-03-16": "## A Love [[Mail|Letter]] to Modos: The E-Ink Laptop ...",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "- [[Mail|Letter]] to Mr. [[Alexander Obenauer]] on ...",
@@ -6435,6 +6612,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-12-24": "- [[Mail|Letter]] to Mr. Matt Rickard on ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "- [[Mail|Letter]] to Mr. Stephan Ango on ...",
         "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the [[Heptabase]] Team on ...",
+        "Listmonk": "... is a free and open-source [[Mail|email]] marketing tool that allows you ...",
         "MAGI": "- LLaMA: [[Mail|이메일]] 전송 요청",
         "Markdown Email Client": "Someday Project. You write an [[Mail|email]] in [[Markdown]]. Before sending, select ...",
         "Matrix Network": "... as Slack, IRC, or even [[Mail|email]], through bridges. This means users ...",
@@ -6445,6 +6623,7 @@ export const backlinks = {
         "POP3 vs IMAP": "## Internet [[Mail]] Access Protocol",
         "Person A3BA1A": "... done through handwriting, fax, and [[Mail|email]].",
         "Port": "- [[mail]] server → 25",
+        "Project Heimdall": "- Send [[Mail|Email]]",
         "React Email": "Seems like instead of making [[Mail|emails]] interactive like [[AMP Email]]",
         "Regulation of Fake News": "... Covid-19 and the pandemic. Internal [[Mail|emails]] that I viewed on Twitter ...",
         "Reimagining Emails": "- [[Mail|Email]] is the the-most-successful-decentralized (to an ...",
@@ -6518,6 +6697,7 @@ export const backlinks = {
     "일본어": {
         "CJK": "... collective term for the Chinese, [[일본어|Japanese]], and [[한국어|Korean]] languages, which include ...",
         "Haruki Murakami": "... January 12, 1949) is a [[일본어|Japanese]] writer. His novels, essays, and ...",
+        "Project Heimdall": "... can go to Hacker News [[일본어|Japanese]] version and read the content ...",
         "이완용": "... 원한 것도 아니거니와 일제 치하 [[일본어]] 의무교육을 도입한 것으로 미루어 보아 ...",
         "일본": "[[일본어]]",
         "일본 과학기술 총력전": "... 통일되며 대학 강의가 Foreign Language|외국어에서 [[일본어]]로 변경되었다.",
@@ -6561,6 +6741,7 @@ export const backlinks = {
         "Ghost 테마를 자동 배포하는 방법": "... AWS에 호스팅하여 사용한다. Ghost CMS는 [[Headless|헤드리스]]하다. 말 그대로 머리가 없다는 뜻으로, ...",
         "Inspiring Open Source Projects": "... Open Commerce is an API-first, [[headless]] commerce platform built using Node.js, ...",
         "Keystone.js": "## keystonejs/keystone: The most powerful [[headless]] CMS for Node.js — built ...",
+        "Project Heimdall": "... way to interact with a [[headless]] [[Web Browser|browser]] built in top ...",
         "Refine (Framework)": "... Ant Design, Chakra UI, Mantine, [[Headless]])",
         "Satori": "- Easy: No [[headless]] [[Web Browser|browser]] is needed. Using ...",
         "hn.cho.sh 개발 기록": "[[Headless]] [[Chrome]]을 사용하도록 GitHub Actions를 개편했다."
@@ -6595,8 +6776,10 @@ export const backlinks = {
         "Search AI": "... 가능성이 꽤 크긴 해요. Google|구글이 ([[Microsoft|마이크로소프트]] 등이 그랬던 것처럼) 자기 스스로를 ...",
         "Super App": "- [[Microsoft]] may build an all-in-one \"super ...",
         "TypeScript": "... language developed and maintained by [[Microsoft]]. It is a strict syntactical ...",
+        "UUID": "... is also used, mostly in [[Microsoft]] systems. The specification for UUIDs ...",
         "Visual Studio Code": "... as VS Code, made by [[Microsoft]] with the Electron Framework, for ...",
         "Workbench": "- For [[Microsoft]] Products, use [[App Store]].",
+        "macOS": "... widely used desktop OS, after [[Microsoft]] Windows and ahead of [[Linux]]. ...",
         "원숭이와 꽃신": "- [[Microsoft|마이크로소프트]]도 이런 '원숭이 꽃신 [[Economy|경제]]학'에 충실한 ..."
     },
     "Pull Request": {
@@ -6718,7 +6901,8 @@ export const backlinks = {
         "2022-11-19": "  - [[Building a Second Brain]]",
         "CODE Procedure": "... a second-brain-building procedure introduced in [[Building a Second Brain]].",
         "PARA": "... a second-brain framework, mentioned in [[Building a Second Brain]]",
-        "Readings": "- [x] [[Building a Second Brain]]"
+        "Readings": "- [x] [[Building a Second Brain]]",
+        "두 번째 뇌": "- [[Building a Second Brain]]"
     },
     "Iron Law of Processor Performance": {
         "2022-11-03": "- [[Iron Law of Processor Performance]]",
@@ -6850,6 +7034,9 @@ export const backlinks = {
     "Removing Last Login on Mac Terminal": {
         "2023-05-24": "- [[Removing Last Login on Mac Terminal]]"
     },
+    "Toss Payments": {
+        "Project Heimdall": "... Impossible to create subscriptions with [[Toss Payments]] with international audience"
+    },
     "Higher-Level Languages and Their Speeds": {
         "2022-11-09": "- [[Higher-Level Languages and Their Speeds]]"
     },
@@ -6887,6 +7074,7 @@ export const backlinks = {
         "Jest": "... projects using Babel, TypeScript, Node.js, [[React]], Angular, Vue.js, and [[Svelte]]. Jest ...",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... I have built a custom [[React]] application for presenting on the ...",
         "Next.js": "... framework created by Vercel enabling [[React]]-based web applications with [[server-side rendering]] ...",
+        "Project Heimdall": "... was logged in and when [[React]] was unmounting the `<SignIn>` widget.",
         "React App on GitHub Pages": "... the idea of publishing a [[React]] App on GitHub Pages. I ...",
         "React Native": "> [[React]] Native is an open-source [[UIUX|UI]] ...",
         "Real Exams": "- Get Job Done SQL, [[React]], [[Python]]",
@@ -7022,6 +7210,7 @@ export const backlinks = {
     "iOS": {
         "2023-02-08": "... various potential issues in a macOS/[[iOS]] application",
         "2023-02-16": "... in any Web Browser|browser (like [[iOS]] and [[Safari]]) with minimal setup. ...",
+        "AirDrop": "AirDrop is a feature in [[iOS]] and [[macOS]] that lets you ...",
         "Apple Earth": "... with Smoo-ooth Apple Cartography|Maps and [[iOS]] Widget Supports.",
         "Cartography": "... SDK offers turn-by-turn routing for [[iOS]] and [[Android]], while the Navigation ...",
         "Chrome": "... Windows, macOS, Linux, Android, and [[iOS]].",
@@ -7029,13 +7218,13 @@ export const backlinks = {
         "Figma": "... mobile app for Android and [[iOS]] allows viewing and interacting with ...",
         "Letter to the Heptabase Team on 2022-10-11": "- Handwriting/Pen Support ([[iOS]] App)?",
         "Mental Simulation of Firefox and Signal as a Super App": "... not only in terms of [[iOS]] vs. Android but also as ...",
-        "Project FFMpeg for iPad": "... for applications. Supports Android, Flutter, [[iOS]], [[Linux]], macOS, [[React Native]] and ...",
-        "React Native": "... applications for Android, Android TV, [[iOS]], macOS, tvOS, Web, Windows, and ...",
+        "Project FFMpeg for iPad": "... for applications. Supports Android, Flutter, [[iOS]], [[Linux]], [[macOS]], [[React Native]] and ...",
+        "React Native": "... applications for Android, Android TV, [[iOS]], [[macOS]], tvOS, Web, Windows, and ...",
         "Reimagining Emails": "... a native app for macOS, [[iOS|iPadOS]], and [[iOS]].",
         "Safari": "... and later became available for [[iOS]] devices. Safari is also open ...",
         "Safari is the new Internet Explorer": "... a Web Browser|browser monopoly on [[iOS]], which is something [[Microsoft]] was ...",
         "Screenshot as an API": "... photos in the latest Apple [[iOS]] 16 update.",
-        "Simple DirectMedia Layer": "... operating systems such as Android, [[iOS]], [[Linux]], macOS, and Windows. Simple ...",
+        "Simple DirectMedia Layer": "... operating systems such as Android, [[iOS]], [[Linux]], [[macOS]], and Windows. Simple ...",
         "Storing sensitive data in iOS Apps": "... and save it to the [[iOS]] secure enclave whenever you need ...",
         "Toss Product Sans": "- 안드로이드, [[iOS]], 윈도우, [[Chrome|크롬]], 사파리 등 다양한 ...",
         "USDZ vs glTF": "... and operated by Apple for [[iOS]] [[Augmented Reality]] applications. It is ...",
@@ -7593,6 +7782,7 @@ export const backlinks = {
         "Rauno": "- Resembles an [[OS]] with a magnifying dock at ...",
         "Virtual Address Space and Physical Address Space": "... memory is big enough, the [[OS]] uses the physical memory (RAM)",
         "dub.sh": "... each link's clicks (incl. location, device/[[os]]) with airbnb/visx: 🐯 visx",
+        "macOS": "... a proprietary, graphical operating system ([[OS]]) that powers [[Apple]]'s Mac computers. ...",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "... Device 버튼을 누르면 다음과 같이 [[OS]]를 다운로드할 수 있는 창이 나타난다."
     },
     "Musk and Twitter": {
@@ -7726,8 +7916,7 @@ export const backlinks = {
         "Reimagining Emails": "... paid app in the Mac [[App Store]] at launch. It is available ...",
         "Sudden Rise of Bondee": "... etc., ranking #1 in the [[App Store]]. Users can create a [[3d]] ...",
         "WWDC23": "## [[App Store]]",
-        "Workbench": "4. [[App Store]] Install",
-        "iOS": "... voice-activated virtual assistant, and the [[App Store]], which allows users to download ..."
+        "Workbench": "4. [[App Store]] Install"
     },
     "Newtonian Correspondence": {
         "2023-03-16": "- [[Newtonian Correspondence]]",
@@ -7764,6 +7953,7 @@ export const backlinks = {
         "Screenshot as an API": "... - Slow page loads. Better [[Alternative|alternatives]]: [[EPUB]], [[MOBI]] for texts. For ...",
         "Self-hosted SaaS Alternatives": "- [[Alternative|Alternatives]]",
         "Simple Analytics": "> The privacy-first Google Analytics [[alternative]]. Simple Analytics",
+        "UUID": "[[Alternative|Alternatives]] is [[CUID]] and [[NanoID]]",
         "Yarn": "... a more efficient and reliable [[alternative]] to [[npm]]. It was released ...",
         "tRPC": "... code generation. It is an [[alternative]] to traditional REST or [[GraphQL]], ...",
         "서울": "... linguist, 최현배, agreed and suggested [[alternative]] names like 한벌 (Han-Beol) or ..."
@@ -7992,6 +8182,7 @@ export const backlinks = {
         "Fiercely Overpriced": "... of public cloud providers like [[AWS]] or Microsoft Azure to minimize ...",
         "Ghost 테마를 자동 배포하는 방법": "... 블로그는 Ghost Content Management System을 [[AWS]]에 호스팅하여 사용한다. Ghost CMS는 [[Headless|헤드리스]]하다. ...",
         "Grammarly Work Note 2023-05-30": "- Utilization of Cheaper [[AWS]] Instances. [[Grammarly Experimentations Team]] plans ...",
+        "Heimdall Bogus Subscribers Attack Incident": "... I got a warning from [[AWS]]. A competitor in the space?",
         "Is AWS a Dumb Pipe": "- Will [[AWS]] follow its track?",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... want to bother dealing with [[AWS]] SES.",
         "Migrating Node.js apps from AWS EB to Heroku": "I have used [[AWS]] Elastic Beanstalk for a while ...",
@@ -8123,7 +8314,7 @@ export const backlinks = {
         "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical ...",
         "ElonPet": "- [[Someday]] [[Project]]. Uses GPT-3 to write ...",
         "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
-        "Fix Your Posture": "[[Someday]] [[Project]]. Small macOS application that ...",
+        "Fix Your Posture": "[[Someday]] [[Project]]. Small [[macOS]] application that ...",
         "Generative Open Graph": "[[Someday]] [[Project]]. [[Open Graph Image as ...",
         "Guestbook": "- [[Someday]] [[Project]]",
         "Intracranial": "[[Someday]] [[Project]]. [[Infinite Canvas]] for Zettlekasten.",
@@ -8631,6 +8822,7 @@ export const backlinks = {
         "2023-02-02": "- [[Redirect]]",
         "HTTP": "- 301 Moved Permanently → [[Redirect]]",
         "Install Yarn Silently": "Use [[redirect]] operators",
+        "Project Heimdall": "    - [[redirect]] within the `useEffect` hook (Warning: ...",
         "Space Terraforming": "... using mirrors or devices to [[redirect]] sunlight onto the planet's surface ..."
     },
     "이 땅에 태어나서": {
@@ -8685,6 +8877,7 @@ export const backlinks = {
     },
     "XUID": {
         "2022-11-29": "- UUIDs are Awesome: [[XUID]]?",
+        "UUID": "[[XUID]]?",
         "UUIDs are Awesome": "- [[XUID]]"
     },
     "Nicholas I": {
@@ -8799,6 +8992,9 @@ export const backlinks = {
     "Remembering that Disarmed Bomb": {
         "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
         "30-Day Tweet Test (Harry Stebbings)": "| 02-06 | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 ..."
+    },
+    "CUID": {
+        "UUID": "Alternative|Alternatives is [[CUID]] and [[NanoID]]"
     },
     "Logic Table": {
         "Probability": "- [[Logic Table]]"
@@ -8990,6 +9186,7 @@ export const backlinks = {
         "2023-07-15": "[[Project Heimdall]]",
         "2023-07-16": "- [[Project Heimdall]]: Float UI - Free open ...",
         "2023-07-17": "- [[Project Heimdall]]",
+        "Heimdall Bogus Subscribers Attack Incident": "... I moved forward with the [[Project Heimdall]] migration, added new languages",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
         "Project": "- [[Project Heimdall]]",
@@ -9035,6 +9232,7 @@ export const backlinks = {
         "2022-06-12": "... client-side JavaScript converts a static [[HTML]] web page, delivered either through ...",
         "AMP Email": "... provides a subset of AMP [[HTML]] components for use in Mail|email ...",
         "CSS": "... a markup language such as [[HTML]] or XML (including XML dialects ...",
+        "CUID": "... CUID can be used as [[HTML|HyperText Markup Language]] ([[HTML]]), element identifiers, and server-side ...",
         "DOM": "... that treats an XML or [[HTML]] document as a tree structure ...",
         "HTML 텍스트 위에 덧말 강조점 쓰기": "... 위에 글자를 어떻게 적는지 궁금했는데 [[HTML]]의 기본 기능 만으로도 해결 가능하다는 ...",
         "JSX": "... is similar in appearance to [[HTML]]. React components are typically written ...",
@@ -9326,6 +9524,7 @@ export const backlinks = {
         "IDOL Stack": "- Next.js, Supabase [[Database|DB]], Supabase Auth, Supabase Storage, [[CloudFlare]], ...",
         "Letter to Mr. Matt Rickard on 2022-11-28": "... maybe image is stored in [[Database|DB]])",
         "Link Coefficient": "Given a [[database]], how interconnected is the database?",
+        "Listmonk": "... Uses a PostgreSQL (⩾ 12) [[database]] as its data store ",
         "Now Page": "... rather keep improving my back-end [[database]] work.\"",
         "Preservation of Data": "... scripts, sometimes curl, and MySQL [[database]] to store the results.",
         "Prisma": "Prisma is an open-source [[database]] toolkit developed to make it ...",
@@ -9336,6 +9535,7 @@ export const backlinks = {
         "Supabase": "... utilizes PostgreSQL as its core [[database]] [[engine]], providing developers with a ...",
         "Tech Now Pay Later": "... used TXT files as its \"[[database]]\".",
         "Tools Must Vanish": "... across your filesystem, Dropbox, and [[database]] rows in six different proprietary ...",
+        "UUID": "... rows of data within a [[database]] table, where each row is ...",
         "Vector DB": "... lang=\"en\" dir=\"ltr\">Google killing all vector [[Database|db]] startups lmao <a href=\"https://t.co/CR0kD3eekD\">pic.twitter.com/CR0kD3eekD</a></p>&mdash; Techno-Dharma ...",
         "dub.sh": "  - upstash [[database]]",
         "henrymakesapps": "...  Supabase: Offers an easy-to-use [[database]] with PostgreSQL and type-injected clients.",
@@ -10295,6 +10495,9 @@ export const backlinks = {
     "DEC72A.png": {
         "Adding a Verified Mark on Apple Mail & Gmail": "![[DEC72A.png]]"
     },
+    "BF3441.png": {
+        "Adding a Verified Mark on Apple Mail & Gmail": "![[BF3441.png]]"
+    },
     "D26259.png": {
         "ChatGPT is a Blurry JPEG and We Need That": "![[D26259.png]]",
         "ChatGPT는 흐릿한 이미지이지만 필요합니다": "![[D26259.png]]"
@@ -10323,6 +10526,12 @@ export const backlinks = {
     },
     "30E678.png": {
         "Bondee": "![[30E678.png]]"
+    },
+    "BB6677.png": {
+        "Heimdall Bogus Subscribers Attack Incident": "- ![[BB6677.png]]"
+    },
+    "2F4DFC.png": {
+        "Heimdall Bogus Subscribers Attack Incident": "- ![[2F4DFC.png]]"
     },
     "EB6370.png": {
         "Second Brain": "![[EB6370.png]]"
@@ -11350,6 +11559,9 @@ export const backlinks = {
     },
     "6D3186.png": {
         "Project Heimdall": "![[6D3186.png]]"
+    },
+    "AA6185.png": {
+        "Project Heimdall": "![[AA6185.png]]"
     },
     "371542.png": {
         "Database vs Datalake": "![[371542.png]]"

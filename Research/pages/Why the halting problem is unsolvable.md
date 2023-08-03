@@ -1,7 +1,8 @@
 ---
-date: 2022-05-11
 slug: '/FFD937'
 ---
+
+[[2022-05-11]]
 
 - Imagine there is a function `bool doesItHalt({function f, input i})` that returns if the parameter function `f(i)` halts or not.
 - Now consider the following functions:
