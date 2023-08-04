@@ -12,7 +12,7 @@ slug: '/2FFA86'
 
 ### [I record myself on audio 24x7 and use an AI to process the information. Is this the future?](https://roberdam.com/en/wisper.html)
 
-- I bought a couple of Chinese microphones; I wear them and turn them on all day, recording everything I speak; at the end of the day, the files are processed with [[OpenAi]]'s Whisper and transformed into text files from which the information is extracted
+- I bought a couple of [[중국|Chinese]] microphones; I wear them and turn them on all day, recording everything I speak; at the end of the day, the files are processed with [[OpenAi]]'s Whisper and transformed into text files from which the information is extracted
 - Robert WEIGHT 62.8 end Robert
 - Robert SLEEP 7 hours 14 minutes end Robert
 - Robert LUNCH two toasts with a fried egg end Robert
