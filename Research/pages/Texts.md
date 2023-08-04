@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/395057'
 ---
 
-Potential [[Super App]] for the [[United States of America|United States]]. [[Mental Simulation of Firefox and Signal as a Super App]]
+Potential [[Super App]] for the [[United States of America|United States]]. [[Super App is a Universal Chat App]]
 
 ![[B4D18F.png]]
 

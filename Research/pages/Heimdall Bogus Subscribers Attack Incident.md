@@ -4,7 +4,7 @@ slug: '/E2CDEB'
 ---
 
 - Happened from [[2023-07-30]]-[[2023-08-01]], or something like that
-- Bunch of bots started to sign up for Simplified Chinese, like 300 people
+- Bunch of bots started to sign up for [[중국어|Simplified Chinese]], like 300 people
 - Felt great, yeah, here we go
 - So I moved forward with the [[Project Heimdall]] migration, added new languages
 - Now I got a bunch of people signing up for `ta` Tamil. Like 40 people

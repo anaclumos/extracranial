@@ -32,7 +32,7 @@ slug: '/009C77'
     - 👎 No graphing
     - 👎 No backlinking
     - 👎 No referencing
-  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for Chinese users.)
+  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for [[중국|Chinese]] users.)
     - 👎 Significant portion is untranslated
 
 ## Reference

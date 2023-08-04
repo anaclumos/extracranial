@@ -1238,6 +1238,14 @@ export const backlinks = {
         "AWS SES": "[[Resend]]",
         "Neo Email": "- [[Resend]] looks promising."
     },
+    "KakaoTalk": {
+        "2022-07-05": "... Kakao|카카오는 자사가 운영 중인 메신저 [[KakaoTalk|카카오톡]]의 프로필 개편방안 중 하나로 'NFT ...",
+        "Kakao": "- 어떤 사람들은 [[KakaoTalk|카카오톡]]이 타이밍을 잘 잡았을 뿐이라고 말합니다만 ...",
+        "Mac을 Command+L로 잠그는 방법": "- [[KakaoTalk|카카오톡]] Mac 버전에서 ⌘ Command+L을 KakaoTalk|카카오톡 ...",
+        "Universal Chat App": "2. [[KakaoTalk]] ([[대한민국|Korea]]): Developed by [[Kakao]] Corporation, ...",
+        "이루다": "... 한겨레모바일 이루다 개발사, 10년 전부터 [[KakaoTalk|카톡]] 수집…최대 600만명 데이터",
+        "일일일": "  - Ex) domain, [[kakaotalk]], website..."
+    },
     "0104 Maximum Depth of Binary Tree": {
         "Coding Tests": "- [x] [[0104 Maximum Depth of Binary Tree]]"
     },
@@ -1367,11 +1375,12 @@ export const backlinks = {
         "Example References for Alter": "### [[Instagram]]",
         "Goongoom": "... features like the Share to [[Instagram]] feature.",
         "Letter to Mr. Matt Rickard on 2022-11-28": "Facebook and [[Instagram]] have been doing this for ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "- Twitter, Facebook, [[Instagram]], and Snapchat cannot be super ...",
         "Meta (Company)": "- [[Instagram]]",
         "Old Fashioned Camera": "- [[Instagram|인스타그램]]을 이용한 바이럴 [[Strategy|전략]] 활용",
         "One and Only (Social App)": "... to all the sources—LinkedIn, Twitter, [[Instagram|Insta]], [[Facebook]], etc. It's similar to ...",
         "Sudden Rise of Bondee": "... feels better than Facebook and [[Instagram]]'s 3D avatar.",
+        "Super App is a Universal Chat App": "- Twitter, Facebook, [[Instagram]], and Snapchat cannot be super ...",
+        "Threads (Service)": "... school friends I follow on [[Instagram]].",
         "Web3": "... they now decried, including Facebook, [[Instagram]], and others, went conspicuously unmentioned",
         "Zenly Playbook": "... feels like Facebook is killing [[Instagram]] for Facebook. I hope Zenly's ...",
         "우린 텍스트 틱톡을 평생 만들 수 있을까": "한 달 전, [[Instagram|인스타그램]]의 공동 창업자인 케빈 시스트롬과 마이크 ...",
@@ -1449,7 +1458,7 @@ export const backlinks = {
         "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]",
         "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-24]]",
         "2023-01-09": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]",
-        "Mental Simulation of Firefox and Signal as a Super App": "- As noted on the [[Letter to Mr. Matt Rickard on 2022-12-24]], the conditions for a [[Super ..."
+        "Super App is a Universal Chat App": "- As noted on the [[Letter to Mr. Matt Rickard on 2022-12-24]], the conditions for a [[Super ..."
     },
     "HLSL": {
         "2023-01-23": "- [[HLSL]]"
@@ -1559,6 +1568,12 @@ export const backlinks = {
     },
     "Husky": {
         "Grammarly Work Note 2023-05-26": "... Pull Request with tools like [[Husky]]."
+    },
+    "한자": {
+        "2023-08-04": "- [[한자]]",
+        "CJK": "... and 한국어|Korean languages, which include [[한자|Chinese characters]] and derivatives in their writing ...",
+        "Pretendard의 아쉬운 점": "## CJK|한중일의 [[한자|한문]] 문제",
+        "졸업을 앞둔 중학교 3학년들에게": "... 준비하겠다고 과제로 나온 책 읽고, [[한자]] 공부를 하고 그랬습니다. 그러고 나서 ..."
     },
     "Docusaurus": {
         "2022-10-17": "> Thanks! I want [[Docusaurus]] to have this feature built-in ...",
@@ -2038,7 +2053,7 @@ export const backlinks = {
         "Font Features": "- [[CSS]] property to enhance legibilities of ...",
         "HTML": "... such as Cascading Style Sheets ([[CSS]]) and scripting languages such as ...",
         "Markdown Email Client": "... Markdown. Before sending, select one [[CSS]]. Then... it sends as a ...",
-        "Mini App": "... using web-based technologies like HTML, [[CSS]], and JavaScript hosted by the ...",
+        "Mini App": "... using web-based technologies like HTML, [[CSS]], and [[JavaScript]] hosted by the ...",
         "Open Graph Image as a Service": "... library to convert HTML and [[CSS]] to [[SVG]]",
         "Project Heimdall": "... Scrape websites for text by [[CSS]] selector.",
         "Proposal of Research 2023-01-10": "... load and display its HTML, [[CSS]], and JavaScript. One everyday use ...",
@@ -2327,6 +2342,17 @@ export const backlinks = {
         "2023-01-30": "- Got invited to [[Tana]].",
         "Text-based Tools for Thought": "### [[Tana]]"
     },
+    "WeChat": {
+        "Did Bondee Really Suddenly Rise": "... for Gen-Z. It even surpassed [[WeChat]] in downloads for a while, ...",
+        "FinTech and Justice": "... 90 percent of people use [[WeChat]] and Alipay as their primary ...",
+        "KakaoTalk": "... is similar to Line or [[WeChat]] and is primarily used in ...",
+        "Mini App": "... Examples of Super Apps include [[WeChat]] in China. These platforms incorporate ...",
+        "One and Only (Social App)": "... a highly successful Super App ([[WeChat]]) that combines various functionalities such ...",
+        "Super App": "... commercial life. Super-apps include Tencent's [[WeChat]] in China and Grab in ...",
+        "Super App and Democracy": "... to emulate the success of [[WeChat]], a [[중국|Chinese]] super-app.",
+        "Universal Chat App": "1. [[WeChat]] (China): Developed by Tencent, WeChat ...",
+        "본디는 사실 혜성이 아니다": "... 않아 190만 다운로드를 돌파하며 잠시나마 [[WeChat|위챗]]을 누르기도 했다."
+    },
     "Cookie": {
         "Internetworking": "- [[Cookie]]"
     },
@@ -2340,19 +2366,21 @@ export const backlinks = {
         "Create React App": "... line interface tool (CLI) from [[Facebook]] that helps developers create new ...",
         "Era of Invites": "... used location-based beta tests (early [[Facebook]]) or group studies (most games.)",
         "Example References for Alter": "### [[Facebook]]",
+        "Facebook Messenger": "... you communicate with friends on [[Facebook]] and with your phone contacts. ...",
         "GraphQL": "... data fetching capabilities. Developed by [[Facebook]] in 2012 and open-sourced in ...",
         "JSX": "... created by Meta (Company)|Meta (formerly [[Facebook]]) for PHP called XHP. JSX ...",
         "Jest": "... maintained by Meta (Company)|Meta (formerly [[Facebook]]). Christoph Nakazawa designed and made ...",
         "Letter to Mr. Matt Rickard on 2022-11-28": "[[Facebook]] and [[Instagram]] have been doing ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... for everything. It's Google + [[Facebook]] + Uber + Uber Eats ...",
         "Letter to the Heptabase Team on 2022-10-11": "... also a contributor to GoogleChrome/web.dev, [[Facebook]]/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "- Twitter, [[Facebook]], [[Instagram]], and Snapchat cannot be ...",
         "Meta (Company)": "- [[Facebook]]",
         "One and Only (Social App)": "... all the sources—LinkedIn, Twitter, Instagram|Insta, [[Facebook]], etc. It's similar to [[Jumpsite]], ...",
         "React": "... maintained by Meta (Company)|Meta (formerly [[Facebook]]) and a community of individual ...",
         "Real Exams": "### [[Facebook]]",
         "Sudden Rise of Bondee": "... assets. It feels better than [[Facebook]] and [[Instagram]]'s 3D avatar.",
+        "Super App is a Universal Chat App": "- Twitter, [[Facebook]], [[Instagram]], and Snapchat cannot be ...",
         "Three Column Design": "- [[Facebook]]",
+        "Universal Chat App": "... a news feed (similar to [[Facebook]]'s), [[Mini App|mini-programs]] (small apps that ...",
         "Web3": "... that they now decried, including [[Facebook]], [[Instagram]], and others, went conspicuously ...",
         "Yarn": "... package manager for JavaScript that [[Facebook]] developed as a more efficient ...",
         "Zenly Playbook": "... Zenly. It almost feels like [[Facebook]] is killing [[Instagram]] for Facebook. ...",
@@ -2454,14 +2482,16 @@ export const backlinks = {
         "Cube": "- Feature: [[Twitter]]-to-[[Instagram]]-Card Mode?",
         "Letter to Mr. Matt Rickard on 2022-10-03": "I'm at @anaclumos on GitHub, [[Twitter]], and any other platform.",
         "Letter to Mr. Matt Rickard on 2022-12-24": "There are countless cases where [[Twitter]] troubled up, but the above ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "- [[Twitter]], [[Facebook]], [[Instagram]], and Snapchat cannot ...",
+        "MLS": "... Meta (Company)|Facebook, INRIA, Google, and [[Twitter]]. Google is adopting the MLS ...",
         "Mood.surf": "... Discover expert insights from tech [[Twitter]]",
-        "Musk and Twitter": "... share my motivation for acquiring [[Twitter]]. There has been much speculation ...",
+        "Musk-Twitter Incident": "... share my motivation for acquiring [[Twitter]]. There has been much speculation ...",
         "Person 648442": "... about the fragmented nature of [[Twitter]].",
         "Project Heimdall": "... are Access Restricted SPAs like [[Twitter]].",
         "Regulation of Fake News": "... of America|United States government pressured [[Twitter]] to elevate certain content and ...",
         "Social Coding": "... model compared to LinkedIn (or [[Twitter]]",
+        "Super App is a Universal Chat App": "- [[Twitter]], [[Facebook]], [[Instagram]], and Snapchat cannot ...",
         "Threads (Service)": "- People I follow on [[Twitter]] are not my high school ...",
+        "Universal Chat App": "... proposed by Jack Dorsey from [[Twitter]], but after the [[Musk-Twitter Incident]], ...",
         "lovearc.net": "1. practice with [[Twitter]] scraping technologies",
         "유난한 도전": "... 약간의 입질이 오자 홈페이지를 열고 [[Twitter|트위터]]에 링크를 올리니 반응이 확실했다."
     },
@@ -2532,8 +2562,13 @@ export const backlinks = {
         "DNS": "- University of Southern California|USC [[CS Colloquium]]",
         "Learning Execution Semantics from Micro-Traces for Binary Similarity": "- Attended [[CS Colloquium]] on [[2023-03-28]]."
     },
+    "MLS": {
+        "2023-08-04": "- [[MLS]]",
+        "Universal Chat App": "- [[MLS]]: Backed by [[Google]] and IETF."
+    },
     "KakaoPay": {
         "Naver Pay": "- [[KakaoPay]]",
+        "Universal Chat App": "... services such as digital payments ([[KakaoPay]]), a news feed, music streaming, ...",
         "유난한 도전": "... 것이다. 그렇지 않았다. Naver Pay, [[KakaoPay]], 삼성페이 등 경쟁자가 너무 많았다. ...",
         "프로젝트 어덕행덕": "... 간편결제 위주로 할 예정. 특히 [[KakaoPay]]나 [[Toss|토스]]에 남는 짤짤이돈을 통해서 손쉽게 ..."
     },
@@ -2665,12 +2700,16 @@ export const backlinks = {
         "3D": "- glTF for [[Android]]",
         "Cartography": "... turn-by-turn routing for iOS and [[Android]], while the Navigation Solutions cover ...",
         "Chrome": "... devices, including Windows, macOS, Linux, [[Android]], and [[iOS]].",
+        "Facebook Messenger": "... standalone app for iOS and [[Android]] devices or integrated within the ...",
         "Figma": "... The Figma mobile app for [[Android]] and [[iOS]] allows viewing and ...",
+        "Line": "... for download on mobile phones ([[Android]] and [[iOS]]), PC, and Macs. ...",
         "Project FFMpeg for iPad": "... FFmpeg Kit for applications. Supports [[Android]], Flutter, [[iOS]], [[Linux]], [[macOS]], [[React ...",
+        "RCS": "... is a messaging protocol for [[Android]] devices that provides an upgraded ...",
         "React Native": "... used to develop applications for [[Android]], Android TV, [[iOS]], [[macOS]], tvOS, ...",
         "Simple DirectMedia Layer": "... many operating systems such as [[Android]], [[iOS]], [[Linux]], [[macOS]], and Windows. ...",
         "Torvalds": "... other operating systems such as [[Android]]. He also created the distributed ...",
         "USDZ vs glTF": "... iOS Augmented Reality applications, but [[Android]] does not support USDZ yet. ...",
+        "Universal Chat App": "... free messaging app available for [[Android]] and other smartphones. It uses ...",
         "iOS": "... installed mobile operating system after [[Android]]. iOS is based on the ...",
         "하늘땅사람 개발 기록": "... 그럴 듯한 구현체로 김윤상님의 Java [[Android]] 천지인 키보드(kys-zeda/chunjiin)를 발견했다."
     },
@@ -2880,7 +2919,6 @@ export const backlinks = {
         "Graphics Engine Process": "... general process of a graphics [[engine]] follows:",
         "JavaScript": "... browsers have a dedicated JavaScript [[engine]] to execute the code on ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "... services as the omnipotent search [[engine]] for [[대한민국|Korea]] (bigger market cap ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... as seen in the Gecko [[engine]].",
         "Naver": "... develop and use its search [[engine]]. It was also the world's ...",
         "Person 648442": "... strategy — Twitter's Non-existent Search [[Engine]]: [[Geohot-Twitter Mayhem]]",
         "Project Heimdall": "Completed the Project Linguine [[Engine]]: [[Linguine Engine Test Drive Result ...",
@@ -2889,19 +2927,23 @@ export const backlinks = {
         "Satori": "### [[Engine]]",
         "Stories Behind Satori": "... elements' positions through a layout [[engine]] and convert them into [[SVG]] ...",
         "Supabase": "... PostgreSQL as its core database [[engine]], providing developers with a hosted ...",
+        "Super App is a Universal Chat App": "... as seen in the Gecko [[engine]].",
         "Tech Now Pay Later": "An [[engine]] takes time (a type of ...",
         "프로젝트 어덕행덕": "  - Stage Mix [[Engine]]"
     },
     "Meta (Company)": {
         "2022-12-28": "... Notifications Data Science team at [[Meta (Company)|Meta]]",
+        "Facebook Messenger": "[[Meta (Company)|Facebook]] Messenger is a free mobile ...",
         "Google": "... technology companies, alongside Amazon, Apple, [[Meta (Company)|Meta]], and [[Microsoft]]. Google",
         "JSX": "... another extension syntax created by [[Meta (Company)|Meta]] (formerly [[Facebook]]) for PHP called ...",
         "Jest": "... of Jasmine and maintained by [[Meta (Company)|Meta]] (formerly [[Facebook]]). Christoph Nakazawa designed ...",
         "Layoff": "... bubble in valuations? Absolutely. Did [[Meta (Company)|Meta]] overhire? Probably. But is that ...",
+        "MLS": "... include the University of Oxford, [[Meta (Company)|Facebook]], INRIA, [[Google]], and [[Twitter]]. [[Google]] ...",
         "Meta": "- [[Meta (Company)]]",
         "React": "... components. It is maintained by [[Meta (Company)|Meta]] (formerly [[Facebook]]) and a community ...",
         "React Native": "... UIUX|UI software framework created by [[Meta (Company)|Meta]] Platforms, Inc. It is used ...",
-        "Threads (Service)": "... EU market with minimum regulations. [[Meta (Company)|FB]] will Meta (Company)|FB anyways, which ..."
+        "Threads (Service)": "... EU market with minimum regulations. [[Meta (Company)|FB]] will Meta (Company)|FB anyways, which ...",
+        "Universal Chat App": "1. WhatsApp: Owned by [[Meta (Company)|Facebook]], WhatsApp is a free messaging ..."
     },
     "Optimistic Nihilism": {
         "2022-08-04": "### [[Optimistic Nihilism]]",
@@ -3148,7 +3190,6 @@ export const backlinks = {
         "Intracranial": "  - 👍 [[Apple]]-ish design language",
         "Letter to Mr. Matt Rickard on 2022-10-03": "That being said, Spotify and [[Apple]] Music have a market penetration ...",
         "Locking your Mac with Command+L": "... Menu Bar, press the  [[Apple]] Logo. Check the name of ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... of America|United States are vague. [[Apple]] and [[Google]] divide the tech ...",
         "Neural Engine": "- The [[Apple]] [[Neural Engine]] (or ANE) is ...",
         "Now Runs On": "- Quake Now Runs On [[Apple]] Watch: ByteOverlord/WatchQuake: Quake 1 port ...",
         "Perceptual Hashing": "... Search by Image feature or [[Apple]]'s CSAM. Perceptual Hashing",
@@ -3163,8 +3204,10 @@ export const backlinks = {
         "San Francisco": "- Font by [[Apple]]",
         "Screenshot as an API": "... from photos in the latest [[Apple]] [[iOS]] 16 update.",
         "Super App": "... the mobile search partnership between [[Apple]] and [[Google]]",
+        "Super App is a Universal Chat App": "... of America|United States are vague. [[Apple]] and [[Google]] divide the tech ...",
         "Swift": "- Programming Language for [[Apple]] platforms",
         "USDZ vs glTF": "... by Pixar and operated by [[Apple]] for [[iOS]] [[Augmented Reality]] applications. ...",
+        "Universal Chat App": "... a built-in messaging service on [[Apple]] devices, including iPhones, iPads, and ...",
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] ...",
         "WWDC": "[[Apple]]'s Worldwide Developer Conference",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 ...",
@@ -3221,8 +3264,8 @@ export const backlinks = {
         "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "| [[Anti]]-virus products caused similar but less ...",
         "Digital Addiction": "- The [[Anti]]-Smartphone Revolution YouTube",
         "Finally, Apple Pay in Korea": "... determined this could fall under [[anti]]-competitive action.",
-        "Mental Simulation of Firefox and Signal as a Super App": "... have specific fan groups and [[anti]]-fan groups. So the [[Super app]] ...",
         "Super App and Democracy": "... Is the centralization of data [[anti]]-democratic?",
+        "Super App is a Universal Chat App": "... have specific fan groups and [[anti]]-fan groups. So the [[Super app]] ...",
         "Web3": "... is not financial; it's the [[anti]]-humanist philosophy at its core that ..."
     },
     "UUID": {
@@ -3540,7 +3583,7 @@ export const backlinks = {
         "Antifragile": "[[한국어]]로는 쉽게 정리된다.",
         "Better Docusaurus": "- Algolia [[한국어|Korean]] Translations",
         "Brunch": "- [[한국어|Korean]] Writing Service operated by [[Kakao]]",
-        "CJK": "... for the Chinese, 일본어|Japanese, and [[한국어|Korean]] languages, which include Chinese characters ...",
+        "CJK": "... for the 중국어|Chinese, 일본어|Japanese, and [[한국어|Korean]] languages, which include [[한자|Chinese characters]] ...",
         "Developing Review Notes for Obsidian": "... 작성하려다가 옵시디언 플러그인 개발 자료는 [[한국어]]로 거의 없어 그냥 한국어로 작성한다.",
         "Letter to the Heptabase Team on 2022-10-11": "... Anyways, if you need any [[한국어|Korean]] 🇰🇷 translation support or anything ...",
         "Mapping keys to set different input languages on macOS": "... set Mac's input method to [[한국어|Korean]].",
@@ -3551,12 +3594,13 @@ export const backlinks = {
         "Setting different fonts by language in CSS": "`U+AC00-D7AF`is the Unicode range of [[한국어|Korean]] glyphs.",
         "Shortcuts": "... Lock key or 한/영 키 ([[한국어|Korean]]-English Key). That is, because, I ...",
         "TossFace Playground": "- Celebrating Redistribution of [[한국어|Korean]] and Futuristic [[Emoji]]. 유니코드 Private ...",
-        "Tossface": "... overwriting Japanese cultural images with [[한국어|Korean]] equivalents and outdated symbols with ...",
+        "Tossface": "... overwriting 일본|Japanese cultural images with [[한국어|Korean]] equivalents and outdated symbols with ...",
         "Why Korean Banks Suck": "... Linguistic and regional barriers. The [[한국어|Korean language]] is unique, and many [[대한민국|Korean]] ...",
         "국내 은행 서비스가 나쁜 이유": "- 언어 및 지역적 장벽. [[한국어]]는 고유한 언어이며, 많은 [[대한민국|한국]] 소비자는 ...",
         "대한민국": "... 위치한 국가이다. 주 민족은 한민족이며, [[한국어]]를 주로 사용한다.",
         "월급만큼 중요한 것은 자존급이다": "[[한국어]]에서 적합한 번역은 덕업일치일 것이다.",
         "한민족": "공동 문화권을 형성하고 [[한국어]]를 사용하는 동아시아계 민족이다.",
+        "한자": "Hanja (한자, 漢字) is the [[한국어|Korean]] word for Chinese characters. Hanja ...",
         "헤이그 특사": "... 일본인 거주지에만 설치되었다. 교육기관의 설치는 [[한국어]]를 근절시키고 [[일본어]]를 대신 가르치려는 것이며, ..."
     },
     "Personal Training Corpus": {
@@ -3744,7 +3788,8 @@ export const backlinks = {
     "ActivityPub": {
         "2022-10-10": "- [[ActivityPub]]",
         "AT protocol": "... different from existing solutions like [[ActivityPub]] due to a focus on ...",
-        "Threads (Service)": "... with the AT protocol (Bluesky), [[ActivityPub]] protocol ([[Mastodon]]), and the [[Matrix ..."
+        "Threads (Service)": "... with the AT protocol (Bluesky), [[ActivityPub]] protocol ([[Mastodon]]), and the [[Matrix ...",
+        "Universal Chat App": " - [[ActivityPub]] protocol: Backed by [[Threads (Service)]] ..."
     },
     "Case Study": {
         "Rauno": "- [[Case Study]]",
@@ -4689,7 +4734,8 @@ export const backlinks = {
     },
     "Bluesky": {
         "After Steve": "... The school called it the \"[[Bluesky|blue sky]]\" project, a name that encouraged ...",
-        "Threads (Service)": "... interoperate with the AT protocol ([[Bluesky]]), [[ActivityPub]] protocol ([[Mastodon]]), and the ..."
+        "Threads (Service)": "... interoperate with the AT protocol ([[Bluesky]]), [[ActivityPub]] protocol ([[Mastodon]]), and the ...",
+        "Universal Chat App": "... the Musk-Twitter Incident, Dorsey founded [[Bluesky]]. [[AT Protocol]] is actively maintained ..."
     },
     "Inliner": {
         "2022-10-04": "- [[Inliner]]"
@@ -4734,6 +4780,7 @@ export const backlinks = {
         "2022-10-27": "- [[Interoperability]]",
         "AT protocol": "... known as Lexicon to enable [[interoperability]] across servers, allowing software from ...",
         "Government Services should have full API support": "... need a Universal Identity and [[Interoperability]] to prevent any lock-ins.",
+        "MLS": "... The latest specification allows for [[interoperability]] across messaging services, including WhatsApp, ...",
         "QA.json": "## Backwards Compatibility and [[Interoperability]]",
         "Super App and Democracy": "... open public digital infrastructure with [[interoperability]].",
         "USDZ vs glTF": "... some advantages in terms of [[interoperability]] and scalability with other USD ..."
@@ -4866,6 +4913,7 @@ export const backlinks = {
         "ESLint": "ESLint is an open-source [[JavaScript]] linting utility. The primary objective ...",
         "Ghost에서 외부 링크를 새로운 창에서 여는 방법": "물론 이렇게 매번 [[JavaScript]]를 통해 링크를 조작하는 방법은 웹 ...",
         "HTMX": "- Implementation itself is [[JavaScript]]",
+        "Mini App": "... technologies like HTML, CSS, and [[JavaScript]] hosted by the Super App, ...",
         "NPM": "... default package manager for the [[JavaScript]] runtime environment [[Node.js]]. NPM is ...",
         "NanoID": "... unique string ID generator for [[JavaScript]]. It's 130 bytes minified, has ...",
         "Node.js": "Node.js is an open-source, server-side [[JavaScript]] runtime environment allowing developers to ...",
@@ -4947,6 +4995,7 @@ export const backlinks = {
         "민사고": "... 높으신 분들은 자기가 친한 '본토 [[한국인]]'들만 요직에 앉혔다고. 그로 인해 학교에 ...",
         "박정희": "> 박정희의 가장 큰 공은 [[한국인]]에게 '우리도 할 수 있다'는 희망을 ...",
         "이완용": "... 희망으로 일본인들을 환영하였다. 그 당시 [[한국인]]들은 일본이 부패한 정부 관리들을 엄격히 ...",
+        "한자": "... the first Korean kingdom. Although [[한국인|Koreans]] use Hangul, a writing system ...",
         "헤이그 특사": "... 희망으로 일본인들을 환영하였다. 그 당시 [[한국인]]들은 일본이 부패한 정부 관리들을 엄격히 ..."
     },
     "Apache Hive": {
@@ -5096,8 +5145,8 @@ export const backlinks = {
         "2022-07-11": "## [[Brane]] Notes",
         "2022-07-12": "On 2022-07-11, I analyzed that [[Brane]] is harder than it seems.",
         "2022-08-03": "[[Brane]] is a vast [[project]] that ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... techs, etc., as learned in [[Brane]] and Web.dev Mini App Review. ...",
         "Providing DOM API to Worker Threads": "- Part of [[Brane]]",
+        "Super App is a Universal Chat App": "... techs, etc., as learned in [[Brane]] and Web.dev Mini App Review. ...",
         "Treehouse": "... Worker. Later affected WorkerDOM and [[Brane]].",
         "WorkerDOM": "[[Brane]] will follow WorkerDOM's core model.",
         "iiframe": "- Successor to [[Brane]]."
@@ -5225,6 +5274,12 @@ export const backlinks = {
     "Funeral Playlist": {
         "2023-07-03": "- [[Funeral Playlist]]"
     },
+    "중국인": {
+        "2023-08-04": "- [[중국인]]",
+        "Did Bondee Really Suddenly Rise": "... directors is Yang Yuxiang, a [[중국인|Chinese]] CEO who acquired True.ly in ...",
+        "본디는 사실 혜성이 아니다": "... 예상대로 이사 중 한 명으로 [[중국인]] Yang Yuxiang이 등재되어 있는데, 이 ...",
+        "일본 과학기술 총력전": "하지만 조선인과 [[중국인]], 그리고 연합군 포로가 열악한 노동조건 ..."
+    },
     "Back Buffer": {
         "Graphics Engine Process": "    - [[Back Buffer]] is filled in Update Game ..."
     },
@@ -5300,6 +5355,7 @@ export const backlinks = {
         "Finally, Apple Pay in Korea": "... Apple Pay has expanded to [[대한민국|Korea]]. 대한민국|Korea remained the only developed ...",
         "HYBE": "HYBE is a [[대한민국|Korean]] entertainment company founded in 2005 ...",
         "IP is the new Real Estate": "... why Naver and Kakao, two [[대한민국|Korean]] Google, are so paranoid about ...",
+        "KakaoTalk": "... and is primarily used in [[대한민국|Korea]]. KakaoTalk was launched in 2010 ...",
         "Karrot": "> 당근마켓(Karrot)은 [[대한민국]]의 중고 거래, 소상공인 홍보 등 ...",
         "Korean Discount": "The [[대한민국|Korea]] discount is a term that ...",
         "Krafton Way": "좁은 [[대한민국|한국]] 시장에서 벗어나, 해외 시장에 곧바로 ...",
@@ -5313,7 +5369,7 @@ export const backlinks = {
         "Person 1E6ABA": "Why would the [[대한민국|Korean]] Govs and 대한민국|Korean Banks promote ...",
         "Person 960D1D": "- possible market expansion outside [[대한민국|Korea]], garnering uncharted markets, leveraging the ...",
         "Person A3BA1A": "... Carta cannot ever penetrate the [[대한민국|Korean]] market.",
-        "Pretendard의 아쉬운 점": "허나 [[대한민국|한국]] 한문은 자주 사용되지 않는다는 이유로 ...",
+        "Pretendard의 아쉬운 점": "허나 [[대한민국|한국]] [[한자|한문]]은 자주 사용되지 않는다는 이유로 ...",
         "Ridi": "Ridi is a [[대한민국|Korean]] [[Unicorn]] specializing in [[eBook]] [[distribution]], ...",
         "Search AI와 인터넷의 한국어": "[[대한민국|한국]] 정도라면 충분히 많은 정보가 있을 ...",
         "Seed": "... outdated 128-bit security system of [[대한민국|Korea]]",
@@ -5322,6 +5378,7 @@ export const backlinks = {
         "Setting different fonts by language in CSS": "I recently came across a [[대한민국|Korean]] [[font]] called Spoqa Han Sans. ...",
         "Sudden Rise of Bondee": "... social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking ...",
         "Toss": "- Financial Technology|FinTech Unicorn of [[대한민국|Korea]].",
+        "Universal Chat App": "2. KakaoTalk ([[대한민국|Korea]]): Developed by [[Kakao]] Corporation, KakaoTalk ...",
         "Using an iPad as my Ebook": "... vendors. I also read many [[대한민국|Korean]] books, and the Kindle store ...",
         "Why Korean Banks Suck": "... America|U.S., But I am confident [[대한민국|Korea]] will take it to the ...",
         "hn.cho.sh 개발 기록": "Stripe도 붙이려다가 [[대한민국|한국]]이 지원되지 않아 포기했다.",
@@ -5396,7 +5453,7 @@ export const backlinks = {
     },
     "Resume": {
         "2022-06-14": "... wants a detailed and expressive [[resume]].",
-        "2022-10-27": "Still the strongest [[resume]] I&#39;ve ever made. ",
+        "2022-10-27": "Still the strongest [[resume]] I&#39;ve ever made.",
         "2023-08-03": "- [[Resume]]",
         "InterviewKit": "- [[Resume]]",
         "Person CC8297": "... that information on LinkedIn and [[resume]] is consistent.",
@@ -5412,6 +5469,7 @@ export const backlinks = {
         "2023-02-16": "- [[대만]]",
         "Neo Block Economy": "- The father of [[대만|Taiwan]]'s chip industry said geopolitics have ...",
         "Sudden Rise of Bondee": "... crazy in 대한민국|Korea, 일본|Japan, Singapore, [[대만|Taiwan]], etc., ranking #1 in the ...",
+        "Universal Chat App": "... is widely used in 일본|Japan, [[대만|Taiwan]], and Thailand. In addition to ...",
         "젠리의 성공 공식": "... 안에 전교생이 사용한다는 것을 관찰했다. [[대만]] 대학에 유학 간 [[일본]] 학생들로부터 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 대한민국|한국, 일본, Singapore|싱가포르, [[대만|타이완]] 등에서 앱스토어 1위를 하며 인기를 ..."
     },
@@ -5462,11 +5520,11 @@ export const backlinks = {
         "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... fixes 5-year-old Defender bug, reducing [[Firefox]]-related CPU use by 75%  ...",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... tabExtend. I recently switched to [[Firefox]] and noticed the WebExtension|extension is ...",
         "Love Firefox": "i love [[firefox]]",
-        "Mental Simulation of Firefox and Signal as a Super App": "... main target of Signal and [[Firefox]] are people who are flexible ...",
         "One and Only WebExtension": "- A Safari and [[Firefox]] [[WebExtension|extension]] that disguises itself as ...",
         "Porting a Chrome Extension to Firefox Add-on": "While Chrome and [[Firefox]] are two very different [[Web ...",
         "Safari is the new Internet Explorer": "... six weeks (soon every four), [[Firefox]] releases every four weeks, and ...",
         "Snowpack으로 WASM 시작하기": "- 다만 Safari와 [[Firefox]]에서는 작동되지 않았다. \"[[SharedArrayBuffer]] is not ...",
+        "Super App is a Universal Chat App": "... main target of Signal and [[Firefox]] are people who are flexible ...",
         "WebExtension": "... such as Chrome|Google Chrome, Mozilla [[Firefox]], and Microsoft Edge, support the ..."
     },
     "Sparkle Button": {
@@ -5502,8 +5560,8 @@ export const backlinks = {
         "Architecture of Mastodon": "... hard to serve at the [[edge]]. [[CDN]] can host static assets, ...",
         "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-end]] [[Front-end]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... could be abstracted to an [[edge]]-served [[Front-end]] and [[back-end]] as edge-replicated ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... Economy, Closed vs. (fairly) Open, [[Edge]]-first [[AI]] vs. Cloud-first [[AI]], etc.",
         "Satori": "... existing solutions by using Vercel [[Edge]] Functions, [[WebAssembly]], and a brand ...",
+        "Super App is a Universal Chat App": "... Economy, Closed vs. (fairly) Open, [[Edge]]-first [[AI]] vs. Cloud-first [[AI]], etc.",
         "WasmEdge": "WasmEdge: [[Edge]] for [[WebAssembly]]",
         "dub.sh": "- Built with Vercel [[Edge]] Functions + Upstash Redis"
     },
@@ -5704,7 +5762,8 @@ export const backlinks = {
         "Mundivagant": "[[Vocab]]. Wandering around the world.",
         "Nigh": "... nigh! > nigh - Wiktionary [[Vocab]]",
         "Quarrelsome": "[[vocab]]. Quarrelsome is an adjective that ...",
-        "Sapiophile": "[[Vocab]]. Those who love smart people."
+        "Sapiophile": "[[Vocab]]. Those who love smart people.",
+        "한자": "... Hanja can help master enough [[Vocab|vocabulary]] to become fluent in 한국어|Korean."
     },
     "Classic Blogs": {
         "Medium": "Medium is a [[Classic Blogs]] service. There's also a premium ...",
@@ -5819,6 +5878,7 @@ export const backlinks = {
         "이완용": "> 이완용의 이런 말에서 우리는 [[일본인]]의 주구 노릇을 하면서 그가 겪는 ...",
         "일본": "[[일본인]]",
         "일본 과학기술 총력전": "... 거대 발전소의 전력은 공업 단지와 [[일본인]] 주택지에만 사용되었다.",
+        "일본어": "일본 [[일본인]]",
         "헤이그 특사": "... 대한민국|한국 국민과 정부는 애원과 희망으로 [[일본인]]들을 환영하였다. 그 당시 [[한국인]]들은 일본이 ..."
     },
     "Color Palette": {
@@ -6004,7 +6064,7 @@ export const backlinks = {
     },
     "Musk": {
         "Canary Trap": "### [[Musk]]",
-        "Musk and Twitter": "## [[Musk]]",
+        "Musk-Twitter Incident": "## [[Musk]]",
         "Super App and Democracy": "- Elon [[Musk]] has become the latest investor ..."
     },
     "Apple Earth": {
@@ -6072,6 +6132,9 @@ export const backlinks = {
     },
     "P2P": {
         "Internetworking": "- [[P2P]]"
+    },
+    "RCS": {
+        "Universal Chat App": "- [[RCS]]: Backed by [[Google]] and Samsung."
     },
     "Dilemmas of Technopreneur": {
         "2022-12-09": "- [[Dilemmas of Technopreneur]]",
@@ -6217,12 +6280,12 @@ export const backlinks = {
         "Born of this Land - The Founding Story of Hyundai": "... can compete in the global [[economy]].",
         "Companies are Economic Organisms": "... I wrote that companies are [[Economy|economic]] [[engine]] of some sort. Engines, ...",
         "Effective Accelerationism": "... 있어요. 당신은 이것을 피하기 위해 [[Economy|경제]]를 재설계할 수 없습니다. [[GPU]]를 없앨 ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... Android but also as App [[Economy]] vs. Web Economy, Closed vs. ...",
         "MetroPunk": "... 도시의 연금과 은퇴 기금 고갈, [[Economy|경제]] 붕괴, 새로운 시대의 [[Neo Block ...",
         "Neo Block Economy": "Neo Block [[Economy]]",
         "Nuclear Fission": "... power plants, Vice Chancellor and [[Economy]] Minister Robert Habeck of the ...",
         "On National Crises and the Intellectuals — Focused on GB and KR": "... a heavy blow to the [[economy]], leaving the nation reeling from ...",
         "Person 1E6ABA": "... terrible news for the 대한민국|Korean [[economy]]?",
+        "Super App is a Universal Chat App": "... Android but also as App [[Economy]] vs. Web Economy, Closed vs. ...",
         "Why Korean Banks Suck": "... a significant role in their [[economy]].",
         "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "... 부적절한 증세로 인해 국민들의 실망과 [[Economy|경제]]계의 반발을 사고 있다. 그러나 21세기 ...",
         "경제 개발의 길목에서": "... 일본은 다시 일어나서 지금은 세계 [[Economy|경제]] 강국으로 부상했는데, 그 배후에는 중화학공업 ...",
@@ -6560,7 +6623,7 @@ export const backlinks = {
         "2022-05-30": "- [[Kakao]] will announce its remote work ...",
         "2022-05-31": "- [[Kakao]] announced [[Metaverse]] Remote Work Policy.",
         "2022-06-26": "... the limits, we can try [[Kakao]] [[Cartography|Map]] SDK (or any [[Cartography|Map]] ...",
-        "2022-07-05": "- [[Kakao|카카오]]는 자사가 운영 중인 메신저 [[Kakao|카카오톡]]의 ...",
+        "2022-07-05": "- [[Kakao|카카오]]는 자사가 운영 중인 메신저 [[KakaoTalk|카카오톡]]의 ...",
         "2022-10-16": "### [[Kakao]]",
         "2023-07-05": "... meeting with Professionals formerly from [[Kakao]] Brian Office (f.k.a Chairman's Office)",
         "AI replaces expensive jobs first": "... the winner was another conglomerate [[Kakao]] Mobility which finally took over ...",
@@ -6569,10 +6632,11 @@ export const backlinks = {
         "How to Build Software like an SRE": "...  - do you see [[Kakao]]?",
         "IP is the new Real Estate": "... edge is why Naver and [[Kakao]], two [[대한민국|Korean]] Google, are so ...",
         "KakaoPay": "[[Kakao]] [[Financial Technology|FinTech]]",
+        "KakaoTalk": "... 2010 and is operated by [[Kakao]] Corporation. It's available in 15 ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "... behemoths in 대한민국|Korea, Naver, and [[Kakao]].",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... have a Super App called [[Kakao]], a go-to for everything. It's ...",
-        "Mac을 Command+L로 잠그는 방법": "- [[Kakao|카카오톡]] Mac 버전에서 ⌘ Command+L을 Kakao|카카오톡 ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... chat, as we learned from [[Kakao]].",
+        "Super App is a Universal Chat App": "... chat, as we learned from [[Kakao]].",
+        "Universal Chat App": "2. KakaoTalk (대한민국|Korea): Developed by [[Kakao]] Corporation, KakaoTalk is a free ...",
         "국내 은행 서비스가 나쁜 이유": "... 어려움과 제한적인 경쟁에도 불구하고 Toss|토스, [[Kakao|카카오]]뱅크와 같은 새로운 [[Financial Technology|핀테크]] 기업의 ...",
         "새로운 부동산은 지적 재산이다": "... 때문에 대한민국|한국의 구글이라 불리는 Naver|네이버와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 것이다. ...",
         "유난한 도전": "반대쪽에서는 [[Kakao|카카오]]가 뱅크월렛 포 Kakao|카카오라는 간편결제를 시작한다는 ..."
@@ -6654,6 +6718,7 @@ export const backlinks = {
         "Search AI": "... ideas, translate, summarize text, compose [[Mail|emails]], and write code for you. ...",
         "Self-hosted SaaS Alternatives": "### Self-hosted [[Mail|Email]] newsletter platforms",
         "SendGrid": "... platform for transactional and marketing [[Mail|email]]. The company was founded by ...",
+        "Universal Chat App": "... ubiquitous social media network or [[Mail|email]] service. It facilitates communication among ...",
         "YCLF 주간 사용자 1000명": "GitHub 이슈를 남겨준 분들도 계셨고 [[Mail|메일]]을 보내주신 분들도 계셨다. 유용한 피드백을 ...",
         "hn.cho.sh 개발 기록": "... 진출하기 위해 오랜만에 일본인 친구들에게 [[Mail|이메일]]을 조금 돌렸다. 얘기를 들어보니 Zenn을 ...",
         "뉴턴의 서신": "아이작 뉴턴은 [[Mail|편지]]을 통해 동료들과 소통했다.",
@@ -6714,9 +6779,11 @@ export const backlinks = {
         "뉴턴의 서신": "Mail|편지이야말로 뉴턴의 [[Tools for Thought|사고 도구]]였다."
     },
     "일본어": {
-        "CJK": "... collective term for the Chinese, [[일본어|Japanese]], and [[한국어|Korean]] languages, which include ...",
+        "2023-08-04": "- [[일본어]]",
+        "CJK": "... collective term for the 중국어|Chinese, [[일본어|Japanese]], and [[한국어|Korean]] languages, which include ...",
         "Haruki Murakami": "... January 12, 1949) is a [[일본어|Japanese]] writer. His novels, essays, and ...",
         "Project Heimdall": "... can go to Hacker News [[일본어|Japanese]] version and read the content ...",
+        "Shortcuts": "... type English, inspired by the [[일본어|Japanese]] Apple keyboard's [[일본어|Kana]] ([[일본어|かな]]) and ...",
         "이완용": "... 원한 것도 아니거니와 일제 치하 [[일본어]] 의무교육을 도입한 것으로 미루어 보아 ...",
         "일본": "[[일본어]]",
         "일본 과학기술 총력전": "... 통일되며 대학 강의가 Foreign Language|외국어에서 [[일본어]]로 변경되었다.",
@@ -6896,6 +6963,11 @@ export const backlinks = {
         "Ridi": "... a 대한민국|Korean Unicorn specializing in [[eBook]] [[distribution]], online contents & intellectual ...",
         "Using an iPad as my Ebook": "... ended to find the perfect [[ebook]]. Refer to this [[Hacker News]] ..."
     },
+    "Musk-Twitter Incident": {
+        "2022-10-27": "- [[Musk-Twitter Incident]]",
+        "Super App and Democracy": "- [[Musk-Twitter Incident]]",
+        "Universal Chat App": "... from Twitter, but after the [[Musk-Twitter Incident]], Dorsey founded [[Bluesky]]. [[AT Protocol]] ..."
+    },
     "Project Heimdall Table Structure": {
         "2023-06-17": "- [[Project Heimdall Table Structure]]",
         "Project Heimdall": "- [[Project Heimdall Table Structure]]"
@@ -6997,6 +7069,7 @@ export const backlinks = {
         "2023-03-19": "- [[Mini App]]",
         "Brane": "... be worthwhile to implement the [[Mini App]] white paper. However, the white ...",
         "Internet Computer": "... Strong ties to Super App [[Mini App]]",
+        "Universal Chat App": "... news feed (similar to Facebook's), [[Mini App|mini-programs]] (small apps that run within ...",
         "Zenly Playbook": "... Zenly team alongside the Snap [[Mini App]] team. I do think this ...",
         "당근미니 케이스 스터디": "Karrot|당근[[Mini App|미니]] Console [[Case Study|케이스 스터디]]",
         "젠리의 성공 공식": "... 최근 Snap의 대규모 정리해고에 Snap [[Mini App]]과 함께 [[Zenly|젠리]] 팀 또한 해산되었다. ..."
@@ -7066,6 +7139,10 @@ export const backlinks = {
         "2022-10-28": "- Reversed Engineered [[Apple Music API]] to get my personal request ...",
         "Reverse Engineering Apple Music API": "... on the Web, I reverse-engineered [[Apple Music API]] to get the undocumented Personal ..."
     },
+    "Universal Chat App": {
+        "2023-08-04": "- [[Universal Chat App]]",
+        "MLS": "[[Universal Chat App]]"
+    },
     "GrammarlyGO": {
         "2023-04-25": "- [[GrammarlyGO]]",
         "Project Prepare for Grammarly": "- [[GrammarlyGO]]: GrammarlyGO"
@@ -7114,6 +7191,31 @@ export const backlinks = {
     },
     "MessageBird": {
         "2022-11-30": "- [[MessageBird]]"
+    },
+    "중국": {
+        "2023-08-04": "- [[중국]]",
+        "Did Bondee Really Suddenly Rise": "... Bondee and Zheli, a now-shut-down [[중국|Chinese]] service, and the allegations of ...",
+        "Intracranial": "... Internationalization|i18n support (initially targeted for [[중국|Chinese]] users.)",
+        "Metadream": "... One of Metadream's directors is [[중국|Chinese]] national Yang Yuxiang, the CEO ...",
+        "Personal Training Corpus": "... I bought a couple of [[중국|Chinese]] microphones; I wear them and ...",
+        "Pretendard의 아쉬운 점": "... 한자|한문 → 일본 한자|한문 → [[중국]] 한자|한문 순으로 Fallback 처리하려 했다.",
+        "Super App and Democracy": "... the success of WeChat, a [[중국|Chinese]] super-app.",
+        "WeChat": "WeChat is a [[중국|Chinese]] app that combines social media, ...",
+        "hn.cho.sh 개발 기록": "그리고 [[중국]] 친구가",
+        "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "지정학적 어려움으로 일본과 [[중국]], 동남아에서 탈출하고자 모색하는 유럽과 미국의 ...",
+        "경제 개발의 길목에서": "... 각종 천연자원도 많고, 일본, 대한민국|한국, [[중국]]이 세계에서 중요한 [[Economy|경제]]권을 형성하고 있다. ...",
+        "공기 청정 비행선": "### [[중국]]의 특허 CN204737020U",
+        "국가와 민족": "> 우리나라는 오랜 기간 [[중국]]형 중앙집권 통제 속에서 살아왔기에, 권력에 ...",
+        "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 위해 고군분투하고 있습니다. 한편, 대한민국|한국은 [[중국]]과 [[United States of America|미국]] 간의 ...",
+        "드디어, 한국 애플페이": "... 일본처럼 충성심이 높은 것도 아니고, [[중국]]처럼 잠재적 구매자가 넘쳐나는 것도 아니다. ...",
+        "본디는 사실 혜성이 아니다": "이 글은 Bondee|본디와 과거 [[중국]] 내 서비스 Zheli의 연관성을 조사하고",
+        "삼체": "\"삼체\"는 [[중국]] 작가 류츠신의 공상 과학 소설이다.",
+        "일본 과학기술 총력전": "일본은 근대화 이후 [[중국]], 조선은 근대화가 가망 없다고 단념하고 ...",
+        "중국어": "[[중국]]",
+        "중국인": "[[중국]]",
+        "한민족": "[[중국]], [[United States of America|미국]], [[일본]] ...",
+        "한민족의 동족상잔": "... States of America|미국 흑인노예나 혹은 [[중국]]과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 ...",
+        "한자": "... many Korean words come from [[중국|Chinese]] roots, knowing Hanja can help ..."
     },
     "Differential Privacy": {
         "2023-04-19": "- [[Differential Privacy]]",
@@ -7235,9 +7337,10 @@ export const backlinks = {
         "Cartography": "... SDK offers turn-by-turn routing for [[iOS]] and [[Android]], while the Navigation ...",
         "Chrome": "... Windows, macOS, Linux, Android, and [[iOS]].",
         "Conversational AI Tools for Thought": "... will initially be available on [[iOS]], and it will be invite ...",
+        "Facebook Messenger": "... as a standalone app for [[iOS]] and [[Android]] devices or integrated ...",
         "Figma": "... mobile app for Android and [[iOS]] allows viewing and interacting with ...",
         "Letter to the Heptabase Team on 2022-10-11": "- Handwriting/Pen Support ([[iOS]] App)?",
-        "Mental Simulation of Firefox and Signal as a Super App": "... not only in terms of [[iOS]] vs. Android but also as ...",
+        "Line": "... on mobile phones (Android and [[iOS]]), PC, and Macs. LINE uses ...",
         "Project FFMpeg for iPad": "... for applications. Supports Android, Flutter, [[iOS]], [[Linux]], [[macOS]], [[React Native]] and ...",
         "React Native": "... applications for Android, Android TV, [[iOS]], [[macOS]], tvOS, Web, Windows, and ...",
         "Reimagining Emails": "... a native app for macOS, [[iOS|iPadOS]], and [[iOS]].",
@@ -7246,6 +7349,7 @@ export const backlinks = {
         "Screenshot as an API": "... photos in the latest Apple [[iOS]] 16 update.",
         "Simple DirectMedia Layer": "... operating systems such as Android, [[iOS]], [[Linux]], [[macOS]], and Windows. Simple ...",
         "Storing sensitive data in iOS Apps": "... and save it to the [[iOS]] secure enclave whenever you need ...",
+        "Super App is a Universal Chat App": "... not only in terms of [[iOS]] vs. Android but also as ...",
         "Toss Product Sans": "- 안드로이드, [[iOS]], 윈도우, [[Chrome|크롬]], 사파리 등 다양한 ...",
         "USDZ vs glTF": "... and operated by Apple for [[iOS]] [[Augmented Reality]] applications. It is ...",
         "VP9 vs HEVC": "... videos on Apple Safari and [[iOS]] YouTube.",
@@ -7285,7 +7389,7 @@ export const backlinks = {
         "CJK": "> In [[internationalization]], CJK character is a collective ...",
         "Content Negotiation": "important for [[Internationalization|i18n]]",
         "IDOL Stack": "- Their [[Internationalization|i18n]] sucks. Especially setting up subpath ...",
-        "Intracranial": "  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for Chinese ...",
+        "Intracranial": "  - 👎 Poor [[Internationalization|i18n]] support (initially targeted for [[중국|Chinese]] ...",
         "WWDC23": "  - Accessibility|a11y, and [[Internationalization|i18n]] built-in",
         "hn.cho.sh 개발 기록": "[[Internationalization|i18n]]을 Sitemap과 HTML Head [[hreflang]]으로 자동 ...",
         "hreflang": "important for [[Internationalization|i18n]] with [[Content Negotiation]]",
@@ -7323,6 +7427,11 @@ export const backlinks = {
         "2023-08-03": "- [[Adding a Verified Mark on Apple Mail and Gmail]]",
         "Getting Verified on Gmail": "While we have previously discussed [[Adding a Verified Mark on Apple Mail and Gmail]], getting a checkmark on Gmail ..."
     },
+    "Super App is a Universal Chat App": {
+        "2023-01-09": "- [[Super App is a Universal Chat App]]",
+        "Texts": "... United States of America|United States. [[Super App is a Universal Chat App]]",
+        "Universal Chat App": "[[Super App is a Universal Chat App]]."
+    },
     "언어학과 우주적 소음": {
         "2023-04-10": "- [[언어학과 우주적 소음]]",
         "글감": "- [[언어학과 우주적 소음]]"
@@ -7358,10 +7467,6 @@ export const backlinks = {
         "Neo Korea": "- [[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]",
         "공기 청정 비행선": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
         "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
-    },
-    "Mental Simulation of Firefox and Signal as a Super App": {
-        "2023-01-09": "- [[Mental Simulation of Firefox and Signal as a Super App]]",
-        "Texts": "... United States of America|United States. [[Mental Simulation of Firefox and Signal as a Super App]]"
     },
     "Apple-like Block Interface": {
         "2022-12-16": "- [[Apple-like Block Interface]]",
@@ -7403,7 +7508,6 @@ export const backlinks = {
         "IRS": "... the revenue service for the [[United States of America|United States]] federal government, which is responsible ...",
         "Krafton Way": "... 과거에 B급 제품을 만들어왔습니다. 일본이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... potential Super App in the [[United States of America|US]], but this may be a ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... a Super App in the [[United States of America|United States]] are vague. [[Apple]] and [[Google]] ...",
         "Metadream": "... Singapore, 일본|Japan, 대한민국|Korea, and the [[United States of America|United States]]. One of Metadream's directors is ...",
         "Nuclear Fusion": "- The [[United States of America|U.S.]] Department of Energy (DOE) and ...",
         "On National Crises and the Intellectuals — Focused on GB and KR": "... tensions between China and the [[United States of America|United States]] have dealt a heavy blow ...",
@@ -7415,10 +7519,13 @@ export const backlinks = {
         "Robert Oppenheimer and Jiro Horikoshi": "... first atomic bomb for the [[United States of America|United States]]. Both men were technological pioneers, ...",
         "Screenshot as an API": "... a rumored frustration with the [[United States of America|US]] Postal Service.",
         "Self Driving": "... suite that's available in the [[United States of America|United States]]",
+        "Super App is a Universal Chat App": "... a Super App in the [[United States of America|United States]] are vague. [[Apple]] and [[Google]] ...",
         "Tax": "In the [[United States of America|USA]], taxes on income and long-term ...",
-        "Texts": "Potential Super App for the [[United States of America|United States]]. [[Mental Simulation of Firefox and ...",
+        "Texts": "Potential Super App for the [[United States of America|United States]]. [[Super App is a Universal ...",
         "Toss": "... ever seen in 대한민국|Korea and [[United States of America|U.S.]]",
+        "Universal Chat App": "## [[United States of America|U.S.]]",
         "Vannevar Bush": "... World War II, headed the [[United States of America|U.S.]] Office of Scientific Research and ...",
+        "WeChat": "... other countries, such as the [[United States of America|United States]], Indonesia, Vietnam, and Malaysia.",
         "Why Korean Banks Suck": "... a familiar story in the [[United States of America|U.S.]], But I am confident [[대한민국|Korea]] ...",
         "雅號": "[[United States of America|미국]]의 친구들이 Sunghyun을 발음하기 어려워하기에, 기왕이면 ...",
         "경제 개발의 길목에서": "... 박 대통령을 만났을 때 내가 [[United States of America|미국]]에서 공부했고 교수 출신인 점을 인식해서인지 ...",
@@ -7436,7 +7543,7 @@ export const backlinks = {
         "젠리의 성공 공식": "... 나는 스냅의 큰 실수라고 생각한다. [[United States of America|미국]] 대학생 사이에서도 더 이상 스냅을 ...",
         "한국의 입시와 거짓된 명예": "오히려 [[United States of America|미국]]의 청소년들이 돈을 가지고 불장난을 하며 ...",
         "한민족": "중국, [[United States of America|미국]], [[일본]] 등에 많이 살고 있다.",
-        "한민족의 동족상잔": "... 되는 납공노비가 있었다는 점에서 과거 [[United States of America|미국]] 흑인노예나 혹은 중국과 [[일본]]에 있었던 ..."
+        "한민족의 동족상잔": "... 되는 납공노비가 있었다는 점에서 과거 [[United States of America|미국]] 흑인노예나 혹은 [[중국]]과 [[일본]]에 있었던 ..."
     },
     "Palantir Foundry": {
         "Palantir": "- [[Palantir Foundry]]"
@@ -7527,6 +7634,13 @@ export const backlinks = {
         "2022-11-03": "- [[Diminishing Cost of Service]]",
         "2022-11-20": "- [[Diminishing Cost of Service]]"
     },
+    "중국어": {
+        "2023-08-04": "- [[중국어]]",
+        "CJK": "... a collective term for the [[중국어|Chinese]], [[일본어|Japanese]], and [[한국어|Korean]] languages, which ...",
+        "Did Bondee Really Suddenly Rise": "... (Jelly, or 这里, \"here\" in [[중국어|Chinese]]), a popular social app in ...",
+        "Heimdall Bogus Subscribers Attack Incident": "... started to sign up for [[중국어|Simplified Chinese]], like 300 people",
+        "하늘땅사람 개발 기록": "그리고 이거는 보니까 [[중국어]]처럼 글자 조합 후에 글씨가 입력되는 ..."
+    },
     "Mood.surf": {
         "Algorithmic Recommendation Engine for Texts": "- [[Mood.surf]]",
         "Jumpsite": "## [[Mood.surf]]"
@@ -7563,7 +7677,7 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-10-03": "... 대한민국|Korea (bigger market cap than [[Google]] 대한민국|Korea) and [[Kakao]] services as ...",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... a go-to for everything. It's [[Google]] + [[Facebook]] + Uber + ...",
         "MAGI": "3대 [AI|인공지능]|Meta]]의 LLaMA, 그리고 [[Google]]의 [[PaLM 2]])에게 다음과 같은 API를 ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... States are vague. Apple and [[Google]] divide the tech market into ...",
+        "MLS": "... of Oxford, Meta (Company)|Facebook, INRIA, [[Google]], and [[Twitter]]. Google is adopting ...",
         "Microsoft": "... for Microsoft, considering its counterpart [[Google]] has been exploring the [[AI]] ...",
         "Perceptual Hashing": "... detect similar images. Used by [[Google]]'s Search by Image feature or ...",
         "Person 1E6ABA": "... Educational Technology|EduTech Startup. Worked at [[Google]] as a Senior Manager.",
@@ -7575,8 +7689,10 @@ export const backlinks = {
         "Search Engine Optimization": "Rank higher in [[Google]]",
         "Stories Behind Satori": "They also added [[Google]] [[Font]]'s `?text=` API, containing a ...",
         "Super App": "... search partnership between Apple and [[Google]]",
+        "Super App is a Universal Chat App": "... States are vague. Apple and [[Google]] divide the tech market into ...",
         "Synonym-based Fuzzy Search": "... Search in PDF/Databases. Just like [[Google]]",
         "Tools for Thought": "... make a post and let [[Google]] do the job.",
+        "Universal Chat App": "- MLS: Backed by [[Google]] and IETF.",
         "Universal Identity": "- [[Google]] Account is the de facto ...",
         "VP9 vs HEVC": "... Apple only supports HEVC, while [[Google]] only supports VP9.",
         "WebNPU API를 상상하다": "... 정보 보호의 면에서 훨씬 우수하다. [[Google|구글]] 등의 다른 회사들도 텐서와 같은 ...",
@@ -7810,10 +7926,6 @@ export const backlinks = {
         "macOS": "... a proprietary, graphical operating system ([[OS]]) that powers [[Apple]]'s Mac computers. ...",
         "라즈베리 파이로 스마트 오디오 시스템 만들기": "... Device 버튼을 누르면 다음과 같이 [[OS]]를 다운로드할 수 있는 창이 나타난다."
     },
-    "Musk and Twitter": {
-        "2022-10-27": "- [[Musk and Twitter]]",
-        "Super App and Democracy": "- [[Musk and Twitter]]"
-    },
     "Curve Fitting for Charts": {
         "2022-10-21": "- [[Curve Fitting for Charts]]"
     },
@@ -7866,11 +7978,13 @@ export const backlinks = {
         "IP is the new Real Estate": "This edge is why [[Naver]] and [[Kakao]], two [[대한민국|Korean]] Google, ...",
         "Krafton Way": "... 아는 모든 좋은 사람들까지 다 [[Naver|네이버]]에 매각됐다\"고 말했다. 돈 말고는 아무것도 ...",
         "Letter to Mr. Matt Rickard on 2022-10-03": "... are two behemoths in 대한민국|Korea, [[Naver]], and [[Kakao]].",
+        "Line": "... a free app, built by [[Naver]], that offers messaging, voice chat, ...",
         "Personal Training Corpus": "... 메이커를 통해 제작된 AI 보이스는 [[Naver|네이버]] 클로바더빙 서비스에서 누구나 무료로 이용할 ...",
         "Screenshot as an API": "...  - Related to when [[Naver]] Vibe attempted to steal other ...",
         "Search AI와 인터넷의 한국어": "무엇보다 대부분의 자료가 [[Naver|네이버]]에 갇혀있고,",
         "Search Engine": "Google [[Naver]]",
         "Service Shimming": "- [[Naver]] (≈ [[대한민국|Korean]] Google), for a ...",
+        "Universal Chat App": "3. Line (일본|Japan): Developed by [[Naver]], a [[대한민국|Korean]] search portal, Line ...",
         "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": "... 떠나가나'의 원문을 찾아 읽어보고 싶었는데, [[Naver|네이버]] 뉴스 라이브러리에서는 이 항목이 검열되어 ...",
         "새로운 부동산은 지적 재산이다": "... 장점 때문에 대한민국|한국의 구글이라 불리는 [[Naver|네이버]]와 [[Kakao|카카오]]가 [[IP]] 구매에 열을 올리는 ...",
         "서비스 시밍": "- [[Naver|네이버]]는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 ...",
@@ -7974,6 +8088,7 @@ export const backlinks = {
         "Proposal of Research 2023-01-10": "... the descriptive text. Some similar [[alternative]] open-sourced technologies include Bootstrapping Language–Image ...",
         "Pure Component Model": "- [[Alternative]] approach to [[Monolithic Model]]",
         "QA.json": "An [[alternative]] approach to [[AIs.txt]], proposed by ...",
+        "RCS": "... experience.  RCS is an [[alternative]] to SMS and is similar ...",
         "Reddit-Apollo Mayhem": "- Some users are considering [[alternative]] Reddit apps and platforms, and ...",
         "Screenshot as an API": "... - Slow page loads. Better [[Alternative|alternatives]]: [[EPUB]], [[MOBI]] for texts. For ...",
         "Self-hosted SaaS Alternatives": "- [[Alternative|Alternatives]]",
@@ -8094,7 +8209,8 @@ export const backlinks = {
         "Memory Allocation": "... define the key difference between [[Processes and Threads]]."
     },
     "Beeper": {
-        "2023-05-18": "- [[Beeper]]"
+        "2023-05-18": "- [[Beeper]]",
+        "Universal Chat App": "- Matrix Network: Used by [[Beeper]]. Beeper aims to build a ..."
     },
     "Cache Evictions": {
         "2022-11-04": "- [[Cache Evictions]]",
@@ -8383,7 +8499,8 @@ export const backlinks = {
         "Memory Hierarchy": "| United States of America\\|US-[[EU]] Roundtrip | 150ms   ...",
         "PECR": "... subscriber. The law implements an [[EU]] directive, the Privacy and Electronic ...",
         "Plausible Analytics": "... Made and hosted in the [[EU]], powered by European-owned cloud infrastructure ...",
-        "Threads (Service)": "... PR show to enter the [[EU]] market with minimum regulations. [[Meta ..."
+        "Threads (Service)": "... PR show to enter the [[EU]] market with minimum regulations. [[Meta ...",
+        "Universal Chat App": "In the [[EU]], it's slightly more complicated. Most ..."
     },
     "Standard Cauchy": {
         "2023-03-07": "- [[Standard Cauchy]]"
@@ -8633,21 +8750,24 @@ export const backlinks = {
         "Jiro Horikoshi": "... aircraft utilized by the Imperial [[일본|Japanese]] Navy throughout World War II. ...",
         "Krafton Way": "... 우리는 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States of America|미국]] 기업들을 ...",
         "Metadream": "... and data centers in Singapore, [[일본|Japan]], [[대한민국|Korea]], and the [[United States ...",
-        "Pretendard의 아쉬운 점": "... 한문은 자주 사용되지 않는다는 이유로 [[일본]] 한문을 그대로 가져오는 경우가 빈번하다.",
+        "Pretendard의 아쉬운 점": "... 한자|한문은 자주 사용되지 않는다는 이유로 [[일본]] 한자|한문을 그대로 가져오는 경우가 빈번하다.",
         "Robert Oppenheimer and Jiro Horikoshi": "... Zero, a fighter plane representing [[일본|Japanese]] military power. [[J. Robert Oppenheimer|Oppenheimer]] ...",
         "Ruby": "... by Yukihiro \"Matz\" Matsumoto in [[일본|Japan]]. Ruby (programming language)>)",
         "Sudden Rise of Bondee": "... app, going crazy in 대한민국|Korea, [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking #1 ...",
+        "Tossface": "... Introduced several divergent designs, overwriting [[일본|Japanese]] cultural images with [[한국어|Korean]] equivalents ...",
+        "Universal Chat App": "3. Line ([[일본|Japan]]): Developed by [[Naver]], a [[대한민국|Korean]] ...",
         "Zenly Playbook": "... on sub-group-led growths; for example, [[일본|Japanese]] students studying abroad at Taiwanese ...",
         "hn.cho.sh 개발 기록": "... Browsers in Japan에서 알듯이 뭔가 [[일본]]에서 이런 프로덕트 반응이 잘 오는 ...",
-        "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "지정학적 어려움으로 [[일본]]과 중국, 동남아에서 탈출하고자 모색하는 유럽과 ...",
+        "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "지정학적 어려움으로 [[일본]]과 [[중국]], 동남아에서 탈출하고자 모색하는 유럽과 ...",
         "경제 개발의 길목에서": "\"[[일본]]의 지도자들은 나라와 민족의 명운을 걸고 ...",
         "국가와 민족": "... 국가는 없죠. 설령 연방제가 아닌 [[일본]]조차도 국민의 삶에 가장 큰 영향을 ...",
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> United States of America|미국, [[일본]]의 기술 수준을 따라갈 수 있을까,",
         "드디어, 한국 애플페이": "... 실패한 \"저스터치\"이다 (이때 저스터치가 성공했다면 [[일본]]의 스이카와 같이 예외적인 NFC 규격으로 ...",
         "새로운 부동산은 지적 재산이다": "[[일본]] 기업과 투자자들은 1980년대 [[Economy|경제]] 호황기에 ...",
         "슈퍼자판기": "[[일본]]의 잃어버린 몇십년을 [[대한민국|한국]]은 이제서야 마주하고 ...",
-        "이완용": "... 독립 유지와 영토 보존을 위해서라는 [[일본]]의 정중한 약속을 믿고 일본과 동맹관계를 ...",
+        "이완용": "... 타협의 대상이 될 수 없는 [[일본]]의 보호 조약 강요를 현실적으로 접근했다는 ...",
         "일본 과학기술 총력전": "... to 150 Years of Modern [[일본|Japan]]: The Bankruptcy of Science, Technology, ...",
+        "일본어": "[[일본]] [[일본인]]",
         "젠리의 성공 공식": "... 관찰했다. 대만 대학에 유학 간 [[일본]] 학생들로부터 대만 전체로 앱이 퍼지는 ...",
         "한민족": "중국, United States of America|미국, [[일본]] 등에 많이 살고 있다.",
         "한민족의 동족상잔": "... of America|미국 흑인노예나 혹은 중국과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 점을 ...",
@@ -8706,7 +8826,8 @@ export const backlinks = {
         "2023-01-13": "- Medium joins [[Mastodon]]",
         "Architecture of Mastodon": "- [[Mastodon]]",
         "Self-hosted SaaS Alternatives": "... You could always do with [[Mastodon]] does and eschew analytics entirely.",
-        "Threads (Service)": "... AT protocol (Bluesky), ActivityPub protocol ([[Mastodon]]), and the [[Matrix Network]] (Instant ..."
+        "Threads (Service)": "... AT protocol (Bluesky), ActivityPub protocol ([[Mastodon]]), and the [[Matrix Network]] (Instant ...",
+        "Universal Chat App": "... Backed by Threads (Service) and [[Mastodon]]."
     },
     "MessagePack": {
         "2022-07-11": "Candidates include [[MessagePack]] and [[CBOR]].",
@@ -8754,6 +8875,7 @@ export const backlinks = {
         "Stories Behind Satori": "The same applies to [[Emoji|emojis]].",
         "TossFace Playground": "... Redistribution of 한국어|Korean and Futuristic [[Emoji]]. 유니코드 Private Use Area를 이용해 ...",
         "Tossface": "- [[Emoji]] [[Font]] by [[Toss]]",
+        "WeChat": "... chat. Users can also send [[Emoji|emojis]] and pictures and form groups ...",
         "Why is Swift String Manipulation like that": "... can handle complex characters and [[Emoji]]; ever experienced where complex Emoji ...",
         "Zenly Playbook": "... copywriting, cute colors, and smiley [[emoji]] everywhere. When asking for the ..."
     },
@@ -8762,7 +8884,8 @@ export const backlinks = {
     },
     "AT protocol": {
         "Bluesky": "... an open-source framework called the [[AT Protocol]], which allows transparency and external ...",
-        "Threads (Service)": "... they can interoperate with the [[AT protocol]] ([[Bluesky]]), [[ActivityPub]] protocol ([[Mastodon]]), and ..."
+        "Threads (Service)": "... they can interoperate with the [[AT protocol]] ([[Bluesky]]), [[ActivityPub]] protocol ([[Mastodon]]), and ...",
+        "Universal Chat App": " - [[AT protocol]]: Initially proposed by Jack Dorsey ..."
     },
     "Person 392196": {
         "Project PEOPLE": "- [[Person 392196]]"
@@ -8873,7 +8996,8 @@ export const backlinks = {
         "2023-07-05": "[[Threads (Service)]] App is out! Sunghyun Cho ...",
         "2023-07-12": "Thoughts on [[Threads (Service)|Threads]]",
         "Meta (Company)": "- [[Threads (Service)]]",
-        "Threads": "Not to be confused with [[Threads (Service)]]"
+        "Threads": "Not to be confused with [[Threads (Service)]]",
+        "Universal Chat App": "... - ActivityPub protocol: Backed by [[Threads (Service)]] and [[Mastodon]]."
     },
     "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": {
         "2023-04-15": "- [[감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구]]"
@@ -9048,8 +9172,9 @@ export const backlinks = {
     },
     "Matrix Network": {
         "2023-03-16": "- [[Matrix Network]]",
-        "Beeper": "Uses [[Matrix Network]]: Matrix is the holy grail ...",
-        "Threads (Service)": "... ActivityPub protocol (Mastodon), and the [[Matrix Network]] (Instant Messaging Standard), Threads will ..."
+        "Beeper": "Uses [[Matrix Network]]",
+        "Threads (Service)": "... ActivityPub protocol (Mastodon), and the [[Matrix Network]] (Instant Messaging Standard), Threads will ...",
+        "Universal Chat App": "- [[Matrix Network]]: Used by [[Beeper]]. [[Beeper]] aims ..."
     },
     "CITATION.cff": {
         "2023-04-27": "- [[CITATION.cff]]"
@@ -9263,6 +9388,7 @@ export const backlinks = {
         "JSX": "... is similar in appearance to [[HTML]]. React components are typically written ...",
         "JavaScript": "... the World Wide Web, alongside [[HTML]] and CSS. As of 2022, ...",
         "Markdown Email Client": "... as a beautiful and clean [[HTML]] Mail|email!",
+        "Mini App": "... Apps using web-based technologies like [[HTML]], [[CSS]], and [[JavaScript]] hosted by ...",
         "Open Graph Image as a Service": "... vercel/satori: Enlightened library to convert [[HTML]] and [[CSS]] to [[SVG]]",
         "Preservation of Data": "Save the raw [[HTML]] and process it later.",
         "Proposal of Research 2023-01-10": "... shortened to iframe, is an [[HTML]] element that allows you to ...",
@@ -9309,13 +9435,14 @@ export const backlinks = {
         "Brane": "... mega-corporates creating Web Browser|browsers to [[Super App]] developers, who are much smaller ...",
         "Internet Computer": "- Strong ties to [[Super App]] [[Mini App]]",
         "Letter to Mr. Matt Rickard on 2022-12-24": "... at his desire for a [[Super App]]. What concerns me more is ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... 2022-12-24, the conditions for a [[Super App]] in the [[United States of ...",
         "Mini App": "... within a more extensive, comprehensive [[Super App]]. Mini Apps are designed to ...",
         "One and Only (Social App)": "... the world by creating a [[Super App]] in the US. China has ...",
         "One and only": "... all data into one place—the [[Super App]] approach.",
         "Super App and Democracy": "... technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will ...",
+        "Super App is a Universal Chat App": "... 2022-12-24, the conditions for a [[Super App]] in the [[United States of ...",
         "Texts": "Potential [[Super App]] for the [[United States of ...",
         "Toss": "... say the most innovative Financial [[Super App]] I've ever seen in [[대한민국|Korea]] ...",
+        "Universal Chat App": "## Connections: [[Super App]]",
         "Universal Identity": "- [[Super App]] accounts can be another. See ...",
         "유난한 도전": "## [[Super App|슈퍼 앱]]을 향해"
     },
@@ -9365,7 +9492,6 @@ export const backlinks = {
         "Letter to Mr. Matt Rickard on 2022-11-28": "... idea of dogs playing frisbee, [[AI]] will put the following as ...",
         "MAGI": "하지만 무엇보다 현대 [[AI]]의 학습 기법인 [[Ensemble learning|앙상블 학습]]과 ...",
         "Magician": "... design with the power of [[AI]] to do everything from copywriting ...",
-        "Mental Simulation of Firefox and Signal as a Super App": "... Closed vs. (fairly) Open, Edge-first [[AI]] vs. Cloud-first AI, etc.",
         "MetroPunk": "... 같은 문제를 다룬다. 메트로펑크에서는 초보적인 [[AI]]와 발달한 스마트폰 시장 등의 근미래적 ...",
         "Microsoft": "... Google has been exploring the [[AI]] ecosystem. Consequently, the increased demand ...",
         "Mojo": "... designed specifically for artificial intelligence ([[AI]]) developers, with features that streamline ...",
@@ -9383,6 +9509,7 @@ export const backlinks = {
         "Quoridor Game": "... \"Quoridor\" game and its corresponding [[AI]] system.",
         "Replicating Balenciaga Harry Potter Advertisement": "- Utilized various [[AI]] tools for character design, voice ...",
         "Search AI": "... name is YouChat; I'm an [[AI]] that can answer general questions, ...",
+        "Super App is a Universal Chat App": "... Closed vs. (fairly) Open, Edge-first [[AI]] vs. Cloud-first AI, etc.",
         "Text AI and Information Density": "Text [[AI]], for example [[ChatGPT]], tends to ...",
         "Tome": "It's like Text-based Presentations, but [[AI]] will draw & layout stuff ...",
         "Unsemantic": "... we must create an unsemantic [[AI]] (i.e., rigorous.)",
@@ -9444,6 +9571,9 @@ export const backlinks = {
         "2022-11-11": "- [[Simulated Annealing for Designs]]",
         "Repeated Designs": "[[Simulated Annealing for Designs]]: Good Design"
     },
+    "Line": {
+        "Universal Chat App": "3. [[Line]] ([[일본|Japan]]): Developed by [[Naver]], a ..."
+    },
     "Opening external links in a new tab by default on Ghost": {
         "2022-11-19": "  - [[Opening external links in a new tab by default on Ghost]]"
     },
@@ -9474,6 +9604,11 @@ export const backlinks = {
         "hn.cho.sh 개발 기록": "우선 [[Automation|자동화]]는 완료했으니 며칠간 손을 떼려고 한다.",
         "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "[[Automation|자동화]]는 마법적이다. Automation|자동화만 된다면 세수가 그렇게 ...",
         "서비스 시밍": "- Naver|네이버는 뉴스 [[Automation|자동화]] 시스템을 만들지 못해 온갖 언론사를 ..."
+    },
+    "Facebook Messenger": {
+        "MLS": "... across messaging services, including WhatsApp, [[Facebook Messenger|Messenger]], and Google Messages.",
+        "RCS": "... similar to iMessage, WhatsApp, and [[Facebook Messenger]].  RCS offers richer text ...",
+        "Universal Chat App": "2. [[Facebook Messenger]]: Also owned by [[Meta (Company)|Facebook]], ..."
     },
     "Plausible Analytics": {
         "Google Analytics": "- Alternative: Simple Analytics, [[Plausible Analytics]]"
