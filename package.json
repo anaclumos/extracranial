@@ -87,7 +87,7 @@
     "ko": "$npm_execpath run start --locale ko",
     "lint": "eslint .",
     "prepare": "$npm_execpath run clear && $npm_execpath run sanitize && $npm_execpath run bundle && $npm_execpath run wikilinks && $npm_execpath run backlinks && $npm_execpath run swc && $npm_execpath run figcaption && $npm_execpath run readme && $npm_execpath run scc",
-    "readme": "cp tools/README.src.md README.md",
+    "readme": "cp tools/README.src.md README.md && echo \"\n\n## Last updated \n\n$(date)\n\" >> README.md",
     "redirects": "cp _redirects build/_redirects",
     "sanitize": "python3 tools/sanitize.py",
     "scc": "printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
