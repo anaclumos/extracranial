@@ -3,12 +3,12 @@ lang: 'en'
 slug: '/3E9BCC'
 ---
 
-What is the [[alternative]] to After Effects?
+What is the [[alternative]] to [[Adobe After Effects|After Effects]]?
 
-- Adobe Premiere Pro → [[Final Cut Pro|Final Cut Pro X]]
+- [[Adobe Premiere Pro]] → [[Final Cut Pro|Final Cut Pro X]] [[Sequence Film]]
 - Adobe Photoshop → Affinity Photos
 - Adobe XD → [[Figma]]
-- Adobe After Effects → ???
+- [[Adobe After Effects]] → ???
 
 [[Neo Apps]]?
 
