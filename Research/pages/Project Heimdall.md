@@ -155,3 +155,7 @@ Halted, switched to a more conventional [[Docusaurus]] with [[Listmonk]]. Consid
 ## [[2023-08-02]]
 
 [[Heimdall Bogus Subscribers Attack Incident]]
+
+## [[2023-08-07]]
+
+Added RSS Support. [RSS Support · Issue #16 · anaclumos/heimdall](https://github.com/anaclumos/heimdall/issues/16)

@@ -19,11 +19,11 @@ As a scientist, your curiosity and desire for knowledge are your greatest assets
 
 Here are some philosophical considerations to guide you:
 
-1.  Humility: Recognize the limits of your knowledge and the vastness of what remains to be discovered. This will help you stay grounded and open to learning from others.
-2.  Adaptability: Embrace change as an opportunity for growth and innovation. Cultivate resilience in the face of uncertainty by remaining flexible and open-minded.
-3.  Collaboration: As a leader, your role is not only to excel individually but to inspire, motivate, and empower those around you. Foster a spirit of collaboration and knowledge-sharing to drive collective progress.
-4.  Vision: Develop a clear vision of what you want to achieve and the kind of impact you want to have on the world. This will help you stay focused and make strategic decisions in a rapidly evolving landscape.
-5.  Balance: Strive for balance between the pursuit of knowledge and the application of that knowledge to real-world challenges. Engage with both theory and practice, and remain attentive to the ethical implications of your work.
+1. Humility: Recognize the limits of your knowledge and the vastness of what remains to be discovered. This will help you stay grounded and open to learning from others.
+2. Adaptability: Embrace change as an opportunity for growth and innovation. Cultivate resilience in the face of uncertainty by remaining flexible and open-minded.
+3. Collaboration: As a leader, your role is not only to excel individually but to inspire, motivate, and empower those around you. Foster a spirit of collaboration and knowledge-sharing to drive collective progress.
+4. Vision: Develop a clear vision of what you want to achieve and the kind of impact you want to have on the world. This will help you stay focused and make strategic decisions in a rapidly evolving landscape.
+5. Balance: Strive for balance between the pursuit of knowledge and the application of that knowledge to real-world challenges. Engage with both theory and practice, and remain attentive to the ethical implications of your work.
 
 Ultimately, it's impossible to predict with certainty what will die and what will survive in the [[AI]] industry. Instead, focus on cultivating the qualities and skills that will enable you to adapt, innovate, and lead, regardless of the specific challenges that arise. Embrace the journey, and remember that your capacity for growth and transformation is what makes you uniquely human.
 

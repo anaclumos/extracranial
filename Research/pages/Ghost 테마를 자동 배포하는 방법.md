@@ -6,17 +6,17 @@ slug: '/0F1FE2'
 
 이 블로그는 [Ghost Content Management System](https://github.com/TryGhost/Ghost)을 [[AWS]]에 호스팅하여 사용한다. Ghost CMS는 **[[Headless|헤드리스]]**하다. 말 그대로 머리가 없다는 뜻으로, [[Back-end|백엔드]]는 존재하지만 [[Front-end|프론트엔드]] (헤드)는 내가 원하는 대로 제작할 수 있다는 것이다. 하지만 Ghost 2까지는 다음과 같이 그 '헤드'를 Deploy하는 과정이 무척 번거로웠다.
 
-1.  완성된 테마 폴더를 압축한다.
-2.  Ghost Admin에 접속한다.
-3.  Settings → Design → Upload a theme 메뉴에 들어간다.
-4.  압축된 테마 파일을 선택한다.
-5.  (테마 적용 완료)
-6.  완성된 테마 파일을 [[GitHub]] Repository에 Push한다.
+1. 완성된 테마 폴더를 압축한다.
+2. Ghost Admin에 접속한다.
+3. Settings → Design → Upload a theme 메뉴에 들어간다.
+4. 압축된 테마 파일을 선택한다.
+5. (테마 적용 완료)
+6. 완성된 테마 파일을 [[GitHub]] Repository에 Push한다.
 
 프로그래머의 핵심 자질이 무엇이던가. 반복 업무를 줄이고 중요한 문제에 집중하는 것이다. 여기서 군더더기는? 테마를 업로드하는 반복 업무이다. 여기서 중요한 것은? 테마 개발을 통한 블로그 방문 경험 개선이다. 다행히도 Ghost 2.25.5부터 [[GitHub Actions]]를 이용해 다음과 같이 Ghost 테마 개발을 [[Automation|자동화]]할 수 있게 되었다.
 
-1.  완성된 테마 파일을 [[GitHub]] Repository에 Push한다.
-2.  [[GitHub Actions]]가 완성된 테마를 자동으로 Deploy한다.
+1. 완성된 테마 파일을 [[GitHub]] Repository에 Push한다.
+2. [[GitHub Actions]]가 완성된 테마를 자동으로 Deploy한다.
 
 Ghost 테마 업로드 및 적용을 [[GitHub]] Action에게 맡겨 보자.
 
