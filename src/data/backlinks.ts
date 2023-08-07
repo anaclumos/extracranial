@@ -845,6 +845,9 @@ export const backlinks = {
         "Substack": "Substack is a [[Newsletter]] network and a blogging service.",
         "Tailwind": "... like a blog or a [[newsletter]]"
     },
+    "Sequence Film": {
+        "Alternatives to After Effects": "... Cut Pro|Final Cut Pro X [[Sequence Film]]"
+    },
     "Anti-lock Breaking System": {
         "2023-07-25": "- [[Anti-lock Breaking System]]"
     },
@@ -1263,6 +1266,7 @@ export const backlinks = {
     },
     "Alternatives to After Effects": {
         "2023-01-22": "- [[Alternatives to After Effects]]",
+        "Adobe After Effects": "[[Alternatives to After Effects]]",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "### [[Alternatives to After Effects]]"
     },
     "Computer Systems": {
@@ -2554,6 +2558,9 @@ export const backlinks = {
         "2023-02-07": "- [[A Massive Mystery]]",
         "30-Day Tweet Test (Harry Stebbings)": "| 02-07 | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 ..."
     },
+    "Backfill": {
+        "2023-08-04": "- [[Backfill]]"
+    },
     "eBPF": {
         "2022-10-07": "- [[eBPF]]",
         "Matt Rickard": "- [[eBPF]]"
@@ -3169,6 +3176,7 @@ export const backlinks = {
         "AIs.txt": "Technically, [[Apple]]'s App Tracking Transparency does not ...",
         "AMP": "... to Facebook Instant Articles and [[Apple]] News. AMP is optimized for ...",
         "Adding a Verified Mark on Apple Mail and Gmail": "... and install it. Go to [[Apple]] [[Mail]] settings and turn on ...",
+        "Adobe Premiere Pro": "... works on both Windows and [[Apple]] computers. It's comparable to Apple's ...",
         "AirDrop": "... wirelessly share files between nearby [[Apple]] devices. AirDrop uses Bluetooth low ...",
         "Andy Matuschak": "- ex-[[Apple]] [[UIUX|UI]]-Kit developer",
         "Apple Earth": "... Earth app but with Smoo-ooth [[Apple]] [[Cartography|Maps]] and [[iOS]] Widget Supports.",
@@ -3180,7 +3188,7 @@ export const backlinks = {
         "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
         "Dilemmas of Technopreneur": "... but it never would've become [[Apple]] if it weren't for Steve ...",
         "Dynamic Island": "... and other app-specific functionality that [[Apple]] calls Live Activities. These icons ...",
-        "Final Cut Pro": "Final Cut Pro by [[Apple]] Inc. is a professional video ...",
+        "Final Cut Pro": "Final Cut Pro by [[Apple]] Inc. is a professional [[Video ...",
         "Finally, Apple Pay in Korea": "After a decade of waiting, [[Apple]] Pay has expanded to [[대한민국|Korea]]. ...",
         "Firefox": "- Enter `osunfairlock`, [[Apple]]'s official replacement for `OSSpinLock`. If ...",
         "Google": "... information technology companies, alongside Amazon, [[Apple]], [[Meta (Company)|Meta]], and [[Microsoft]]. Google",
@@ -3387,6 +3395,10 @@ export const backlinks = {
         "2023-03-06": "- [[Internet Computer]]",
         "2023-03-19": "- [[Internet Computer]]",
         "The Browser Company": "... NY, tries to make the [[Internet Computer]]"
+    },
+    "Adobe After Effects": {
+        "Alternatives to After Effects": "What is the alternative to [[Adobe After Effects|After Effects]]?",
+        "Video Editor": "... Pro, Adobe Premiere Pro, and [[Adobe After Effects]]."
     },
     "빙글": {
         "2023-05-03": "- [[빙글]]"
@@ -3789,7 +3801,7 @@ export const backlinks = {
         "2022-10-10": "- [[ActivityPub]]",
         "AT protocol": "... different from existing solutions like [[ActivityPub]] due to a focus on ...",
         "Threads (Service)": "... with the AT protocol (Bluesky), [[ActivityPub]] protocol ([[Mastodon]]), and the [[Matrix ...",
-        "Universal Chat App": " - [[ActivityPub]] protocol: Backed by [[Threads (Service)]] ..."
+        "Universal Chat App": "- [[ActivityPub]] protocol: Backed by [[Threads (Service)]] ..."
     },
     "Case Study": {
         "Rauno": "- [[Case Study]]",
@@ -4873,6 +4885,7 @@ export const backlinks = {
     },
     "3D": {
         "2022-10-21": "- [[3D]]",
+        "Adobe After Effects": "... working knowledge of linear video, [[3D]] animation, and special effects before ...",
         "Bondee": "... also create and customize their [[3D]] characters and design rooms resembling ...",
         "Canvas (HTML5)": "... the WebGL API to allow [[3D]] rendering with OpenGL ES.",
         "Graphic Renderer": "... image from a 2D or [[3D]] model by means of a ...",
@@ -5787,6 +5800,7 @@ export const backlinks = {
     "macOS": {
         "2022-06-05": "... one command on Linux (and [[macOS]] very soon). This software does ...",
         "2023-02-08": "... various potential issues in a [[macOS]]/[[iOS]] application",
+        "Adobe After Effects": "... Effects is available on both [[macOS|Mac OS]] and Windows computers. Users can ...",
         "AirDrop": "... a feature in iOS and [[macOS]] that lets you wirelessly share ...",
         "Chrome": "... and mobile devices, including Windows, [[macOS]], [[Linux]], [[Android]], and [[iOS]].",
         "Disable Screenshot Drop Shadow in macOS": "[[macOS]]",
@@ -5991,7 +6005,8 @@ export const backlinks = {
         "2023-01-13": "- [[Layoff]]"
     },
     "Cloud-Native": {
-        "AI-native": "... the principles and practices of [[cloud-native]] development. It uses [[cloud computing]] ..."
+        "AI-native": "... the principles and practices of [[cloud-native]] development. It uses [[cloud computing]] ...",
+        "Sequence Film": "[[Cloud-Native]] [[Video Editor]]"
     },
     "Truthiness of Empty Strings": {
         "Grammarly Work Note 2023-06-27": "- [[Truthiness of Empty Strings]]"
@@ -6440,6 +6455,7 @@ export const backlinks = {
     },
     "Graphics": {
         "2023-02-10": "... and effort by auto-generating quality [[graphics]] from ordinary screenshots",
+        "Adobe After Effects": "... allows users to create motion [[graphics]] and special effects for videos, ...",
         "CDN": "... today, including web objects (text, [[graphics]], and scripts), downloadable objects (media ...",
         "Compiling": "In [[Graphics]], Compiling generates object codes, except ...",
         "Conditional Compilation": "In [[Graphics]], Conditional Compilation can be used ...",
@@ -6594,6 +6610,12 @@ export const backlinks = {
     "Government Services should have full API support": {
         "2022-10-27": "- [[Government Services should have full API support]]",
         "API Economy": "- [[Government Services should have full API support]]"
+    },
+    "Video Editor": {
+        "Adobe Premiere Pro": "... Pro CC is a timeline-based [[Video Editor|video editing application]] from Adobe Systems. It's used ...",
+        "Final Cut Pro": "... Apple Inc. is a professional [[Video Editor|video editing software]] with timeline-based editing, multi-camera editing, ...",
+        "Graphic Renderer": "... of calculating effects in a [[Video Editor|video editing program]] to produce the final video ...",
+        "Sequence Film": "Cloud-Native [[Video Editor]]"
     },
     "FIRE Engine": {
         "2022-07-18": "- [[FIRE Engine]]",
@@ -8070,7 +8092,7 @@ export const backlinks = {
     "Alternative": {
         "2022-12-07": "... and provide you with an [[alternative]] method of entering the building ...",
         "AT protocol": "... like Lexicon and XRPC over [[Alternative|alternatives]] like [[Resource Description Framework]] and ...",
-        "Alternatives to After Effects": "What is the [[alternative]] to After Effects?",
+        "Alternatives to After Effects": "What is the [[alternative]] to [[Adobe After Effects|After Effects]]?",
         "Alternatives to Hacker News": "- [[Alternative]] to [[Hacker News]]",
         "Beeper": "An [[alternative]] to [[Texts]]. A better approach ...",
         "ChatGPT": "... a model-written message, sampled several [[alternative]] completions, and had [[AI]] trainers ...",
@@ -8088,7 +8110,7 @@ export const backlinks = {
         "Proposal of Research 2023-01-10": "... the descriptive text. Some similar [[alternative]] open-sourced technologies include Bootstrapping Language–Image ...",
         "Pure Component Model": "- [[Alternative]] approach to [[Monolithic Model]]",
         "QA.json": "An [[alternative]] approach to [[AIs.txt]], proposed by ...",
-        "RCS": "... experience.  RCS is an [[alternative]] to SMS and is similar ...",
+        "RCS": "... messaging experience. RCS is an [[alternative]] to SMS and is similar ...",
         "Reddit-Apollo Mayhem": "- Some users are considering [[alternative]] Reddit apps and platforms, and ...",
         "Screenshot as an API": "... - Slow page loads. Better [[Alternative|alternatives]]: [[EPUB]], [[MOBI]] for texts. For ...",
         "Self-hosted SaaS Alternatives": "- [[Alternative|Alternatives]]",
@@ -8799,6 +8821,7 @@ export const backlinks = {
     },
     "Linear": {
         "2022-10-14": "  - [[Linear]] has been popping up on ...",
+        "Adobe After Effects": "... have a working knowledge of [[linear]] video, [[3D]] animation, and special ...",
         "Git": "... integrity, and support for distributed, non-[[linear]] workflows (thousands of parallel branches ..."
     },
     "Sliding Panes": {
@@ -8885,7 +8908,7 @@ export const backlinks = {
     "AT protocol": {
         "Bluesky": "... an open-source framework called the [[AT Protocol]], which allows transparency and external ...",
         "Threads (Service)": "... they can interoperate with the [[AT protocol]] ([[Bluesky]]), [[ActivityPub]] protocol ([[Mastodon]]), and ...",
-        "Universal Chat App": " - [[AT protocol]]: Initially proposed by Jack Dorsey ..."
+        "Universal Chat App": "- [[AT protocol]]: Initially proposed by Jack Dorsey ..."
     },
     "Person 392196": {
         "Project PEOPLE": "- [[Person 392196]]"
@@ -8997,7 +9020,7 @@ export const backlinks = {
         "2023-07-12": "Thoughts on [[Threads (Service)|Threads]]",
         "Meta (Company)": "- [[Threads (Service)]]",
         "Threads": "Not to be confused with [[Threads (Service)]]",
-        "Universal Chat App": "... - ActivityPub protocol: Backed by [[Threads (Service)]] and [[Mastodon]]."
+        "Universal Chat App": "- ActivityPub protocol: Backed by [[Threads (Service)]] and [[Mastodon]]."
     },
     "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": {
         "2023-04-15": "- [[감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구]]"
@@ -9014,9 +9037,11 @@ export const backlinks = {
         "2022-11-20": "- [[Tree Style]]"
     },
     "Final Cut Pro": {
-        "Alternatives to After Effects": "- Adobe Premiere Pro → [[Final Cut Pro|Final Cut Pro X]]",
+        "Adobe Premiere Pro": "... computers. It's comparable to Apple's [[Final Cut Pro]] [[Video Editor|video editing program]]. Many ...",
+        "Alternatives to After Effects": "- Adobe Premiere Pro → [[Final Cut Pro|Final Cut Pro X]] [[Sequence Film]]",
         "Project FFMpeg for iPad": "Apple announces [[Final Cut Pro]].",
-        "Retroactive (Software)": "... Xcode 11.7 on macOS Mojave. [[Final Cut Pro]] 7, Logic Pro 9, and ..."
+        "Retroactive (Software)": "... Xcode 11.7 on macOS Mojave. [[Final Cut Pro]] 7, Logic Pro 9, and ...",
+        "Video Editor": "... editing software programs include iMovie, [[Final Cut Pro]], [[Adobe Premiere Pro]], and [[Adobe ..."
     },
     "사발통문": {
         "2023-02-22": "- [[사발통문]]"
@@ -9222,6 +9247,11 @@ export const backlinks = {
     "박정희": {
         "Born of this Land - The Founding Story of Hyundai": "## President [[박정희|Park Chung-hee]]",
         "이 땅에 태어나서": "## [[박정희]]"
+    },
+    "Adobe Premiere Pro": {
+        "2023-08-07": "[[Adobe Premiere Pro]]",
+        "Alternatives to After Effects": "- [[Adobe Premiere Pro]] → [[Final Cut Pro|Final Cut ...",
+        "Video Editor": "... include iMovie, Final Cut Pro, [[Adobe Premiere Pro]], and [[Adobe After Effects]]."
     },
     "Medium": {
         "2023-01-13": "- [[Medium]] joins [[Mastodon]]",
@@ -9607,7 +9637,7 @@ export const backlinks = {
     },
     "Facebook Messenger": {
         "MLS": "... across messaging services, including WhatsApp, [[Facebook Messenger|Messenger]], and Google Messages.",
-        "RCS": "... similar to iMessage, WhatsApp, and [[Facebook Messenger]].  RCS offers richer text ...",
+        "RCS": "... similar to iMessage, WhatsApp, and [[Facebook Messenger]]. RCS offers richer text features, ...",
         "Universal Chat App": "2. [[Facebook Messenger]]: Also owned by [[Meta (Company)|Facebook]], ..."
     },
     "Plausible Analytics": {
@@ -10164,6 +10194,9 @@ export const backlinks = {
     },
     "CEE458.png": {
         "Texts": "![[CEE458.png]]"
+    },
+    "D0AE71.png": {
+        "Sequence Film": "![[D0AE71.png]]"
     },
     "339420.mp4": {
         "Aldehyde Landing Page 2023": "![[339420.mp4]]",
