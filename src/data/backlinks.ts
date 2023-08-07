@@ -322,6 +322,9 @@ export const backlinks = {
     "2023-04-10": {
         "hn.cho.sh 개발 기록": "## [[2023-04-10]]"
     },
+    "2023-08-07": {
+        "Project Heimdall": "## [[2023-08-07]]"
+    },
     "2016-06-24": {
         "공강에서 보내는 공강 활용법": "[[2016-06-24]]에 게재된 [[재학생일기]]이다."
     },
@@ -780,7 +783,7 @@ export const backlinks = {
         "Proposal of Research 2023-01-10": "... AIs, such as the recent [[ChatGPT]] (i.e., we now have the ...",
         "Proposal of Research 2023-03-28": "... generative AI technologies, such as [[ChatGPT]]. Given infinite monkeys making infinite ...",
         "Readwise Reader": "- uses [[ChatGPT]]",
-        "Replicating Balenciaga Harry Potter Advertisement": "1.  Used [[ChatGPT]] to generate prompts for dressing ...",
+        "Replicating Balenciaga Harry Potter Advertisement": "1. Used [[ChatGPT]] to generate prompts for dressing ...",
         "Search AI": "... ways, one might say that [[ChatGPT]] never \"truly understands\" things; it ...",
         "Search AI와 인터넷의 한국어": "장승에 대한 정보를 찾아보려고 Bing [[ChatGPT]]에 검색을 해보았다.",
         "Text AI and Information Density": "Text AI, for example [[ChatGPT]], tends to have low [[Entropy|information ...",
@@ -1982,7 +1985,7 @@ export const backlinks = {
         "Shopify Analyzes CSS Frameworks": "- Winner: [[Tailwind]]",
         "Tailwind CSS 톺아보기": "- [[Tailwind]] [[CSS]]를 임의의 [[Next.js|TypeScript Next]] [[Project|프로젝트]]에 ...",
         "dub.sh": "  - [[Tailwind]] [[CSS]]",
-        "henrymakesapps": "3.  [[Tailwind]] [[CSS]]: Reduces time spent on ..."
+        "henrymakesapps": "3. [[Tailwind]] [[CSS]]: Reduces time spent on ..."
     },
     "SMIME": {
         "2022-08-03": "### [[SMIME|S/MIME]] Certificates",
@@ -2070,7 +2073,7 @@ export const backlinks = {
         "Web Typography": "... would be used. The first [[CSS|Cascading Style Sheets]] specification was published in 1996 ...",
         "WebExtension": "... web technologies such as HTML, [[CSS]], and JavaScript. They can interact ...",
         "dub.sh": "  - Tailwind [[CSS]]",
-        "henrymakesapps": "3.  Tailwind [[CSS]]: Reduces time spent on styling ...",
+        "henrymakesapps": "3. Tailwind [[CSS]]: Reduces time spent on styling ...",
         "hn.cho.sh 개발 기록": "라고 하는데 [[CSS]] 같은거로 간단하게 처리할 수 있는지 ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... 재사용성에 집중하는 것이다. 예를 들어 [[CSS]]는 큰 [[Project|프로젝트]]에서 깨지기가 너무 쉽다. ...",
         "브라우저 콘솔에 경고 문구 띄우는 방법": "... 텍스트를 강조하고 싶다면 다음과 같이 [[CSS]]를 정의해주는 것도 가능하다."
@@ -2100,6 +2103,7 @@ export const backlinks = {
     "Chromium": {
         "2023-01-13": "- [[Chromium]]",
         "Apple Newsroom 서체 따라하기": "- 2020년 4월 업데이트된 [[Chromium]] 81에서 BlinkMacSystemFont의 font-weight가 무시되는 버그가 ...",
+        "Brave Browser": "... privacy. It is based on [[Chromium]], the same technology used by ...",
         "Developing Review Notes for Obsidian": "참고로 옵시디언은 [[Chromium]]이기 때문에 다음과 같이 Dev Console을 ...",
         "Porting a Chrome Extension to Firefox Add-on": "... Browser|browser (or on any equivalent [[Chromium]] [[Web Browser|browsers]],) visit `chrome://extensions`.",
         "Satori": "... Difficult: This solution required launching [[Chromium]] in a [[Serverless]] Function and ...",
@@ -2512,12 +2516,13 @@ export const backlinks = {
     "Web Browser": {
         "2022-06-12": "... intended to be implemented in [[web Browser|web browsers]]. Web IDL is an IDL ...",
         "2022-07-01": "... GitHub users use fairly up-to-date [[Web Browser|browsers]].",
-        "2022-10-20": "2.  This [[Web Browser|browser]] is forked by a couple ...",
+        "2022-10-20": "2. This [[Web Browser|browser]] is forked by a couple ...",
         "2023-02-16": "... run server-side code in any [[Web Browser|browser]]",
         "2023-03-20": "... website is open in the [[Web Browser|browser]].",
         "Bing Chat for All Browsers": "- Bing Chat for all [[Web Browser|browser]]",
         "Brane": "- Parties that create [[Web Browser|browsers]] do not own these limitations; ...",
-        "Cartography": "...  Powerful Tools: Felt provides [[Web Browser|browser]]-based tools for customizing maps, allowing ...",
+        "Brave Browser": "... is a free and open-source [[web browser]] that is focused on privacy. ...",
+        "Cartography": "1. Powerful Tools: Felt provides [[Web Browser|browser]]-based tools for customizing maps, allowing ...",
         "Chrome": "Chrome is a [[web browser]] developed by [[Google]]. It was ...",
         "Confectionery": "> A minimalistic [[Web Browser|browser]] without the clutter of standard ...",
         "DRM": "... the instance of Chrome, the [[Web Browser|browser]] doesn't implement the DRM itself, ...",
@@ -2643,7 +2648,7 @@ export const backlinks = {
         "Satori": "... Works with any framework or [[Front-end|frontend]] application",
         "Svelte": "... is a free and open-source [[Front-end|front-end]] compiler created by Rich Harris ...",
         "Zenly Playbook": "... unparalleled tech talents. Server and [[Front-end]] engineers were mainly seniors, forming ...",
-        "henrymakesapps": "...  Next.js: Used for both [[front-end]] and server-side development.",
+        "henrymakesapps": "1. Next.js: Used for both [[front-end]] and server-side development.",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 [[TypeScript|타입스크립트]]를 쓰고 있다. 하지만 ...",
         "배달의민족 FE 개발자가 일하는 법 발표": "[[Front-end|프론트엔드]] 개발자들 사이에서는 다양한 내용들이 자주 ...",
         "젠리의 성공 공식": "... 채용하며 독자적인 기술력을 보유했다. 서버와 [[Front-end|프론트엔드]] 기술도 시니어 엔지니어 위주로 소수 ..."
@@ -2783,7 +2788,7 @@ export const backlinks = {
     },
     "Midjourney": {
         "2022-12-28": "- [[Midjourney]]",
-        "Replicating Balenciaga Harry Potter Advertisement": "2.  Used [[Midjourney]] to create character images, but ...",
+        "Replicating Balenciaga Harry Potter Advertisement": "2. Used [[Midjourney]] to create character images, but ...",
         "하늘땅사람 개발 기록": "[[Midjourney]]를 이용해서 앱 아이콘을 그랬다."
     },
     "CalliFontia": {
@@ -3276,6 +3281,9 @@ export const backlinks = {
         "Super App is a Universal Chat App": "... have specific fan groups and [[anti]]-fan groups. So the [[Super app]] ...",
         "Web3": "... is not financial; it's the [[anti]]-humanist philosophy at its core that ..."
     },
+    "Brave Browser": {
+        "2023-08-07": "- Interestingly [[Brave Browser]] is blocklisted at [[Grammarly]] for ..."
+    },
     "UUID": {
         "Heimdall Bogus Subscribers Attack Incident": "... bogus subscribers had something like [[UUID]].",
         "NanoID": "... it's not as well-known as [[UUID]], NanoID has recently expanded and ...",
@@ -3702,7 +3710,7 @@ export const backlinks = {
         "Vercel": "... company. The company maintains the [[Next.js]] web development framework. Vercel's architecture ...",
         "Wildcard Image Domain on Next.js": "- [[Next.js]]",
         "dub.sh": "  - [[Next.js]] framework",
-        "henrymakesapps": "1.  [[Next.js]]: Used for both [[front-end]] and ...",
+        "henrymakesapps": "1. [[Next.js]]: Used for both [[front-end]] and ...",
         "hn.cho.sh 개발 기록": "... The SaaS starter template for [[Next.js]] and [[Supabase]] 살펴보기"
     },
     "Jupyter": {
@@ -4298,7 +4306,7 @@ export const backlinks = {
         "AI는 고가 노동부터 점령한다": "- 마치, 의료 법률계의 [[GitHub]] [[Copilot]] (2021년에 출시되어 이미 보급된 ...",
         "Apple Newsroom 서체 따라하기": "... 때마다 흔하게 사용되는 방식이다. 대표적으로 [[GitHub]]이 이와 같은 방식을 사용한다.",
         "Apple-like Block Interface": "## [[GitHub]]",
-        "Ghost 테마를 자동 배포하는 방법": "6.  완성된 테마 파일을 [[GitHub]] Repository에 Push한다.",
+        "Ghost 테마를 자동 배포하는 방법": "6. 완성된 테마 파일을 [[GitHub]] Repository에 Push한다.",
         "IDOL Stack": "... Inlang + Across the Sprachraums, [[GitHub]] CI/CD",
         "Letter to Mr. Matt Rickard on 2022-10-03": "I'm at @anaclumos on [[GitHub]], [[Twitter]], and any other platform.",
         "Setting different images for Light & Dark mode": "- Using `#gh-dark-mode-only` for [[GitHub]]",
@@ -4393,7 +4401,7 @@ export const backlinks = {
         "MetroPunk": "- [[슈퍼자판기]]: 항목 참조."
     },
     "tRPC": {
-        "henrymakesapps": "2.  [[tRPC]]: Simplifies server-client communication without needing ..."
+        "henrymakesapps": "2. [[tRPC]]: Simplifies server-client communication without needing ..."
     },
     "BitTorrent": {
         "2022-11-07": "- [[BitTorrent]]",
@@ -4567,6 +4575,7 @@ export const backlinks = {
         "2023-02-26": "- [[Chrome]]",
         "Apple Newsroom 서체 따라하기": "... 폰트로 산돌고딕 네오를 사용한다. Safari와 [[Chrome]]은 `-apple-system`만 있어도 산돌고딕 네오를 불러오는 ...",
         "Bing Chat for All Browsers Widespread Unavailability Incident (April 2023)": "... While some reported that the [[Chrome]]/[[Firefox]] version did not work and ...",
+        "Brave Browser": "... technology used by Google for [[Chrome]] and [[Microsoft]] for [[Edge]]. Brave ...",
         "ChromeOS Packer": "- Run [[Chrome]] OS or Chromium OS as ...",
         "DRM": "- In the instance of [[Chrome]], the [[Web Browser|browser]] doesn't implement ...",
         "Developing Review Notes for Obsidian": "... 보니 다음과 같은 간단한 구조였다. [[Chrome]] [[WebExtension|Extension]]과 유사하게 번들된 `main.js`와 `manifest.json`으로 ...",
@@ -4779,7 +4788,7 @@ export const backlinks = {
         "2022-11-19": "  - [[Apple Newsroom 서체 따라하기]]"
     },
     "D-ID": {
-        "Replicating Balenciaga Harry Potter Advertisement": "4.  [[D-ID]] was used for animation, with ..."
+        "Replicating Balenciaga Harry Potter Advertisement": "4. [[D-ID]] was used for animation, with ..."
     },
     "Fixing the Document Hell": {
         "2022-12-28": "- [[Fixing the Document Hell]]"
@@ -5571,6 +5580,7 @@ export const backlinks = {
         "2023-01-13": "- [[Edge]]",
         "2023-04-21": "- [[Edge]]",
         "Architecture of Mastodon": "... hard to serve at the [[edge]]. [[CDN]] can host static assets, ...",
+        "Brave Browser": "... for Chrome and Microsoft for [[Edge]]. Brave automatically blocks some ads ...",
         "Cloudflare Pages": "- Cloudflare [[Edge]] [[Front-end]] [[Front-end]]",
         "Letter to Mr. Matt Rickard on 2022-12-21": "... could be abstracted to an [[edge]]-served [[Front-end]] and [[back-end]] as edge-replicated ...",
         "Satori": "... existing solutions by using Vercel [[Edge]] Functions, [[WebAssembly]], and a brand ...",
@@ -6230,7 +6240,7 @@ export const backlinks = {
         "2022-12-28": "- Back-end|Backend as a Service: [[Supabase]] (past: Firebase)",
         "2023-05-04": "- [[Supabase]]",
         "IDOL Stack": "- Next.js, [[Supabase]] [[Database|DB]], Supabase Auth, Supabase Storage, ...",
-        "henrymakesapps": "4.  [[Supabase]]: Offers an easy-to-use [[database]] with ...",
+        "henrymakesapps": "4. [[Supabase]]: Offers an easy-to-use [[database]] with ...",
         "hn.cho.sh 개발 기록": "... starter template for Next.js and [[Supabase]] 살펴보기"
     },
     "Delta Time": {
@@ -6581,6 +6591,7 @@ export const backlinks = {
     },
     "Grammarly": {
         "2022-10-12": "- [x] Reply to [[Grammarly]] Recruiter",
+        "2023-08-07": "... Brave Browser is blocklisted at [[Grammarly]] for having too much security ...",
         "Ethnologue 200": "... list usually is $249, but [[Grammarly]] had a copy internally.",
         "GNAR": "... all of the relevant data. [[Grammarly]] is trying to move away ...",
         "Grammarly AI-NLP Club": "... Natural Language Processing|NLP Club at [[Grammarly]].",
@@ -6870,6 +6881,7 @@ export const backlinks = {
         "2023-02-08": "... partnered with cloud providers: OpenAI ([[Microsoft]]) and Anthropic ([[Google]]). These companies ...",
         "AMP": "... by a CDN, such as [[Microsoft]] [[Bing]] or [[Cloudflare]]'s AMP caches, ...",
         "Bing": "... web search engine developed by [[Microsoft]] that helps you find trusted ...",
+        "Brave Browser": "... by Google for Chrome and [[Microsoft]] for [[Edge]]. Brave automatically blocks ...",
         "C++": "... the Free Software Foundation, LLVM, [[Microsoft]], Intel, Embarcadero, Oracle, and IBM, ...",
         "Collecting Data": "... keep is being sent to [[Microsoft]].",
         "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "| [[Microsoft]] fixes 5-year-old Defender bug, reducing ...",
@@ -6933,7 +6945,7 @@ export const backlinks = {
         "사회과부도": "> Themed series of [[Cartography|maps]]"
     },
     "Eleven Labs": {
-        "Replicating Balenciaga Harry Potter Advertisement": "3.  Used [[Eleven Labs]] for voice generation. Extracting a ..."
+        "Replicating Balenciaga Harry Potter Advertisement": "3. Used [[Eleven Labs]] for voice generation. Extracting a ..."
     },
     "Port": {
         "Internetworking": "- [[Port]]",
@@ -7685,6 +7697,7 @@ export const backlinks = {
         "AMP": "... the AMP Open Source Project. [[Google]] created it as a competitor ...",
         "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth ...",
         "Boring Technologies": "... and you aren't at, like, [[Google]]-tier scale, throw it all in ...",
+        "Brave Browser": "... the same technology used by [[Google]] for [[Chrome]] and [[Microsoft]] for ...",
         "Chrome": "... a web browser developed by [[Google]]. It was first released in ...",
         "Chromium": "... points out Ian Kilpatrick of [[Google]]. \"Things like backgrounds working consistently ...",
         "Emails and Decentralized Protocols": "- [[Google]] has half a billion results ...",
@@ -8355,7 +8368,7 @@ export const backlinks = {
         "OpenAI가 새로운 테크 리바이스로 등극하다": "[[AWS]]는 AT&T와 같은 통신 회사에 이어 ...",
         "Stable Alternative": "... Server to `image → text`. [[AWS]] SageMaker? Or [[Hugging Face]] as ...",
         "Vercel Incident Report (April 2023)": "... with Vercel and $2,017 in [[AWS]] CloudFront.",
-        "henrymakesapps": "5.  [[AWS]] Copilot: Provides hosting for the ..."
+        "henrymakesapps": "5. [[AWS]] Copilot: Provides hosting for the ..."
     },
     "Cauchy": {
         "2023-03-07": "- [[Cauchy]]",
@@ -9249,7 +9262,7 @@ export const backlinks = {
         "이 땅에 태어나서": "## [[박정희]]"
     },
     "Adobe Premiere Pro": {
-        "2023-08-07": "[[Adobe Premiere Pro]]",
+        "2023-08-07": "- [[Adobe Premiere Pro]]",
         "Alternatives to After Effects": "- [[Adobe Premiere Pro]] → [[Final Cut Pro|Final Cut ...",
         "Video Editor": "... include iMovie, Final Cut Pro, [[Adobe Premiere Pro]], and [[Adobe After Effects]]."
     },
@@ -9728,7 +9741,7 @@ export const backlinks = {
         "UUID": "... rows of data within a [[database]] table, where each row is ...",
         "Vector DB": "... lang=\"en\" dir=\"ltr\">Google killing all vector [[Database|db]] startups lmao <a href=\"https://t.co/CR0kD3eekD\">pic.twitter.com/CR0kD3eekD</a></p>&mdash; Techno-Dharma ...",
         "dub.sh": "  - upstash [[database]]",
-        "henrymakesapps": "...  Supabase: Offers an easy-to-use [[database]] with PostgreSQL and type-injected clients.",
+        "henrymakesapps": "4. Supabase: Offers an easy-to-use [[database]] with PostgreSQL and type-injected clients.",
         "hn.cho.sh 개발 기록": "- 결국 [[Database|DB]] 기반으로 옮겨가야하는 것은 맞다. SPA ...",
         "데이터베이스권": "... 크롤링 분쟁이 늘어나는 가운데 법원이 '[[Database|데이터베이스]] ([[Database|DB]]) 권' 침해에 대해 엄격하게 ...",
         "잡스와 생존 편향": "지식 탐색기는 거대한 네트워크 [[Database|데이터베이스]]에 하이퍼텍스트 방식으로 접근할 수 있으며 ...",

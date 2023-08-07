@@ -273,17 +273,17 @@ export default UserEmailForm
 
 (개인적인 분석으로, 개발자 혹은 기업체의 코딩 스타일과 컨벤션에 따라 크게 달라질 수 있음.)
 
-1.  클래스 네이밍에 신경을 쓰지 않음. `styled-component`의 경우 `StyledContainer`, `StyledLink`, `StyledContent` 등의 이름을 반복해서 작성했었다.
-2.  짧아진 코드. 코드가 위아래로 길어지는 것을 방지한다. `styled-component`의 경우 ```으로 [[CSS]] 코드를 감싼 후 [[CSS]] 코드를 줄바꿈하여 작성하기 때문에 코드가 길어지곤 했었다.
-3.  스타일의 변경이 비교적 안전. 스타일을 수정해도 컴포넌트의 `className`을 변경하는 것이기 때문에 다른 컴포넌트의 디자인이 바뀔 일이 없다.
-4.  낮은 러닝커브. 예전에는 [[Tailwind]]의 `className` 속성 이름을 일일이 외워야 하는 줄 알고 러닝커브가 높을 줄 알았는데 대부분의 `className`이 [[CSS]] 속성들로 네이밍되어 있을 뿐만 아니라 확장 프로그램을 사용하여 자동완성을 사용하면 됐다.
-5.  [완성도 높은 기본 색상 템플릿](https://tailwindcss.com/docs/customizing-colors). `font-weight`를 고르듯이, 기본 색상 템플릿만으로도 충분히 완성도 높은 디자인이 완성된다.
+1. 클래스 네이밍에 신경을 쓰지 않음. `styled-component`의 경우 `StyledContainer`, `StyledLink`, `StyledContent` 등의 이름을 반복해서 작성했었다.
+2. 짧아진 코드. 코드가 위아래로 길어지는 것을 방지한다. `styled-component`의 경우 ```으로 [[CSS]] 코드를 감싼 후 [[CSS]] 코드를 줄바꿈하여 작성하기 때문에 코드가 길어지곤 했었다.
+3. 스타일의 변경이 비교적 안전. 스타일을 수정해도 컴포넌트의 `className`을 변경하는 것이기 때문에 다른 컴포넌트의 디자인이 바뀔 일이 없다.
+4. 낮은 러닝커브. 예전에는 [[Tailwind]]의 `className` 속성 이름을 일일이 외워야 하는 줄 알고 러닝커브가 높을 줄 알았는데 대부분의 `className`이 [[CSS]] 속성들로 네이밍되어 있을 뿐만 아니라 확장 프로그램을 사용하여 자동완성을 사용하면 됐다.
+5. [완성도 높은 기본 색상 템플릿](https://tailwindcss.com/docs/customizing-colors). `font-weight`를 고르듯이, 기본 색상 템플릿만으로도 충분히 완성도 높은 디자인이 완성된다.
 
 그에 반해서 다음과 같은 단점이 있었다.
 
-1.  Style code를 간편하게 재활용하고 싶은 때가 있다. 예를 들어 `styled-component`로 `StyledButton`를 만든 후 하나의 `tsx` 페이지 안에서 재활용하고 싶은 경우가 있는데 [[Tailwind]]의 기본적인 사용법으로는 Style code를 빠르게 재활용할 수 없다. 물론 이 문제를 해결하기 위해서는 Template Literal로 코드를 분리해서 사용하면 된다.
-2.  코드 `className`의 순서가 섞인다. 이 문제는 [[Visual Studio Code|VS Code]]를 사용할 경우 [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)라는 확장 프로그램으로 해결할 수 있다.
-3.  [코드가 옆으로 길어지고 가독성이 떨어짐](https://github.com/anaclumos/tailwind-shadowboxing/blob/39ed43f0079645686a1321022b5820b3a5f9f828/pages/tailwind-docs/user-email-form.tsx#L22). 이 문제가 특히 신경 쓰였다. 물론 다음과 같이 강제로 접을 수는 있겠으나 조금 번거로웠다. 이 문제를 해결할 방법을 알아보고 있다.
+1. Style code를 간편하게 재활용하고 싶은 때가 있다. 예를 들어 `styled-component`로 `StyledButton`를 만든 후 하나의 `tsx` 페이지 안에서 재활용하고 싶은 경우가 있는데 [[Tailwind]]의 기본적인 사용법으로는 Style code를 빠르게 재활용할 수 없다. 물론 이 문제를 해결하기 위해서는 Template Literal로 코드를 분리해서 사용하면 된다.
+2. 코드 `className`의 순서가 섞인다. 이 문제는 [[Visual Studio Code|VS Code]]를 사용할 경우 [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)라는 확장 프로그램으로 해결할 수 있다.
+3. [코드가 옆으로 길어지고 가독성이 떨어짐](https://github.com/anaclumos/tailwind-shadowboxing/blob/39ed43f0079645686a1321022b5820b3a5f9f828/pages/tailwind-docs/user-email-form.tsx#L22). 이 문제가 특히 신경 쓰였다. 물론 다음과 같이 강제로 접을 수는 있겠으나 조금 번거로웠다. 이 문제를 해결할 방법을 알아보고 있다.
 
 ```
 className={`w-full px-6 py-5 mx-auto space-y-1 overflow-hidden

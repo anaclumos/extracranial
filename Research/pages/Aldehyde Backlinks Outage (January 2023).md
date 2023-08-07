@@ -9,7 +9,7 @@ Found that:
 
 ```
 >>> for char in "바이올린 켜면 바이올레이션":
-...     print(ord(char))
+...    print(ord(char))
 ...
 48148
 51060
@@ -26,7 +26,7 @@ Found that:
 51060
 49496
 >>> for char in "바이올린 켜면 바이올레이션":
-...     print(ord(char))
+...    print(ord(char))
 ...
 4359
 4449

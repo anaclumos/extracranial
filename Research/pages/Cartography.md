@@ -32,11 +32,11 @@ Despite these challenges, digital maps have revolutionized how we access and use
 
 Felt is a modern map-making platform designed for creating, visualizing, and collaborating on maps.
 
-1.  Powerful Tools: Felt provides [[Web Browser|browser]]-based tools for customizing maps, allowing users to draw, drop pins, leave notes, trace boundaries, find routes, and even add videos.
-2.  Team Collaboration: Felt enables real-time collaboration with team members, clients, students, or colleagues, allowing users to annotate and edit maps.
-3.  Data Visualization: The platform simplifies importing, editing, and exporting data layers, supporting drag-and-drop functionality for various file formats.
-4.  Map Organization: Felt stores maps and data in one place, enabling users to structure and share their work with others while ensuring easy access to necessary files.
-5.  Security and Access Control: Felt encrypts web traffic, stores user credentials securely, and offers precise permission controls to manage map sharing and access.
+1. Powerful Tools: Felt provides [[Web Browser|browser]]-based tools for customizing maps, allowing users to draw, drop pins, leave notes, trace boundaries, find routes, and even add videos.
+2. Team Collaboration: Felt enables real-time collaboration with team members, clients, students, or colleagues, allowing users to annotate and edit maps.
+3. Data Visualization: The platform simplifies importing, editing, and exporting data layers, supporting drag-and-drop functionality for various file formats.
+4. Map Organization: Felt stores maps and data in one place, enabling users to structure and share their work with others while ensuring easy access to necessary files.
+5. Security and Access Control: Felt encrypts web traffic, stores user credentials securely, and offers precise permission controls to manage map sharing and access.
 
 Felt supports various use cases, including planning, technology, consulting, disaster management, utilities, and education. The platform offers a free tier for personal use and paid levels for professional teams, with plans to introduce paid team features in 2024.
 
@@ -44,14 +44,14 @@ Felt supports various use cases, including planning, technology, consulting, dis
 
 Mapbox is a platform that provides mapping, navigation, and location-based services for developers. Its primary offerings include:
 
-1.  Logistics: The Matrix API enables automatic calculation of travel distances and ETAs, facilitating delivery businesses' operations.
-2.  Navigation: The Navigation SDK offers turn-by-turn routing for [[iOS]] and [[Android]], while the Navigation Solutions cover SDKs, APIs, EVs, and more.
-3.  Automotive: The ADAS SDK predicts road conditions, while Dash provides beautiful maps, live traffic, music, and voice for cars.
-4.  Mapbox Platform: The Infrastructure Platform ensures reliable infrastructure for apps.
-5.  Search: Geocoding geolocates and validates addresses, Address Autofill simplifies form filling, and Search covers points of interest, addresses, and places.
-6.  Data: Traffic Data, Movement Data, and Boundaries provide industry-leading data accuracy, population movement datasets, and global boundaries, respectively.
-7.  Self-hosted: Atlas offers on-premises Mapbox services.
-8.  Maps: Studio helps design custom maps, while Maps, Mapbox GL [[JavaScript|JS]], Mobile Maps SDK, Static Maps, and Mapbox Tiling Service facilitate map creation and integration.
-9.  Solutions: Mapbox offers solutions for various industries, including logistics, automotive, outdoors, retail, travel, fleet management, business intelligence, and real estate.
+1. Logistics: The Matrix API enables automatic calculation of travel distances and ETAs, facilitating delivery businesses' operations.
+2. Navigation: The Navigation SDK offers turn-by-turn routing for [[iOS]] and [[Android]], while the Navigation Solutions cover SDKs, APIs, EVs, and more.
+3. Automotive: The ADAS SDK predicts road conditions, while Dash provides beautiful maps, live traffic, music, and voice for cars.
+4. Mapbox Platform: The Infrastructure Platform ensures reliable infrastructure for apps.
+5. Search: Geocoding geolocates and validates addresses, Address Autofill simplifies form filling, and Search covers points of interest, addresses, and places.
+6. Data: Traffic Data, Movement Data, and Boundaries provide industry-leading data accuracy, population movement datasets, and global boundaries, respectively.
+7. Self-hosted: Atlas offers on-premises Mapbox services.
+8. Maps: Studio helps design custom maps, while Maps, Mapbox GL [[JavaScript|JS]], Mobile Maps SDK, Static Maps, and Mapbox Tiling Service facilitate map creation and integration.
+9. Solutions: Mapbox offers solutions for various industries, including logistics, automotive, outdoors, retail, travel, fleet management, business intelligence, and real estate.
 
 Mapbox offers extensive developer resources, including documentation, support, and community engagement.

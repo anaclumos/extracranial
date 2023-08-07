@@ -37,8 +37,8 @@ Two aspects ① [[Economy|Economic]] Efficiency ② Performance.
 
 Making [[AI]] is expensive because:
 
-1.  High-quality [[AI]] requires a high-purity dataset.
-2.  For such high purity data, you need a lot of patternable data.
+1. High-quality [[AI]] requires a high-purity dataset.
+2. For such high purity data, you need a lot of patternable data.
 
 Making an [[AI]] is also tricky regardless of the field. To slightly exaggerate, creating a cleaning [[AI]] is as hard as making a medical [[AI]].
 

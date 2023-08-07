@@ -614,6 +614,7 @@ export const filenames = {
     "Boring Technologies": "B8D890",
     "Born of this Land - The Founding Story of Hyundai": "9BA15D",
     "Brane": "8C41D2",
+    "Brave Browser": "82CF93",
     "Brian Lovin": "10D264",
     "Broken Feedback Loop": "54DE0E",
     "Browser Company Hackathon": "F9F42A",
