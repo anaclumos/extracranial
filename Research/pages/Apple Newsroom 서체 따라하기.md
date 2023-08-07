@@ -81,9 +81,9 @@ _Except as otherwise expressly permitted \[...\] you may not make the Apple [[Fo
 
 추가적으로 이모지가 잘 나타날 수 있도록 다음 글씨체들을 설정해준다. 마찬가지로 설정 안 해도 무방하다.
 
-    8.  Apple Color Emoji
+    8. Apple Color Emoji
     /* Apple의 Emoji */
-    9.  Segoe UI Emoji
+    9. Segoe UI Emoji
     /* Windows의 Emoji */
     10. Segoe UI Symbol
     /* Windows의 특수 기호 */
