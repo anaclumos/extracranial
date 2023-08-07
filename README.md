@@ -22,13 +22,17 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial?ref=badge_large)
 
+## Last updated
+
+Mon Aug 7 16:34:03 PDT 2023
+
 ## Stats
 
 ```
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1985     48420    12419         0    36001          0
+Markdown                  1985     48426    12423         0    36003          0
 CSS                         69     20399      796        42    19561          0
 TypeScript                  58     16443      175        73    16195        205
 JSON                        16      1571        0         0     1571          0
@@ -41,13 +45,13 @@ JavaScript                   1        19        3        12        4          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2160    106350    15461       224    90665        288
+Total                     2160    106356    15465       224    90667        288
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,068,364
+Estimated Cost to Develop (organic) $3,068,435
 Estimated Schedule Effort (organic) 21.06 months
 Estimated People Required (organic) 12.94
 ───────────────────────────────────────────────────────────────────────────────
-Processed 4947390 bytes, 4.947 megabytes (SI)
+Processed 4947499 bytes, 4.947 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
