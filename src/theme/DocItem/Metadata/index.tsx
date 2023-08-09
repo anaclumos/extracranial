@@ -1,6 +1,5 @@
 import React from 'react'
 import { PageMetadata } from '@docusaurus/theme-common'
-
 import { useDoc } from '@docusaurus/theme-common/internal'
 import Head from '@docusaurus/Head'
 

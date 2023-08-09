@@ -84,6 +84,9 @@ export const backlinks = {
         "Impact over Performance": "Short essay on [[2023-07-05]]:",
         "불가사리 (기업)": "- [[2023-07-05]] 업데이트 — [[Apple]]과 [[NDA]] 서약을 ..."
     },
+    "2023-08-08": {
+        "Project Heimdall": "## [[2023-08-08]]"
+    },
     "2023-03-20": {
         "hn.cho.sh 개발 기록": "## [[2023-03-20]]"
     },
@@ -642,7 +645,7 @@ export const backlinks = {
         "Apple Newsroom 서체 따라하기": "[[2020-04-15]]"
     },
     "2023-01-13": {
-        "한민족은 해적되었다": "[[2023-01-13]]에 꾼 꿈에서 강력한 메시지를 받았다."
+        "한민족은 해적되었다": "[[2023-01-13]]에 꾼 꿈에서 강력한 [[Text Message|메시지]]를 ..."
     },
     "2023-02-09": {
         "0059 Spiral Matrix II": "Solved at: [[2023-02-09]]"
@@ -804,13 +807,6 @@ export const backlinks = {
     },
     "Datahouse": {
         "Grammarly Work Note 2023-06-02": "... query the data in our [[Datahouse]] and index [[metadata]]. Our system ..."
-    },
-    "Texts": {
-        "2023-01-31": "Got Invited to [[Texts]]",
-        "Beeper": "An alternative to [[Texts]]. A better approach with iMessage, ...",
-        "Love Software": "- (Fiercely Overpriced|paywalled) [[texts]]",
-        "One and Only (Social App)": "Like [[Texts]], it pulls from all the ...",
-        "One and only": "[[Texts]] aims to be the one ..."
     },
     "Styled Components": {
         "Grammarly Work Note 2023-05-26": "5. Ad-hoc [[Styled Components]]. While we have a `components` ...",
@@ -1174,7 +1170,7 @@ export const backlinks = {
     "Tossface": {
         "Toss": "... of Toss Product Sans and [[Tossface]]",
         "TossFace Playground": "- [[Tossface|토스페이스]]",
-        "불가사리": "[[Tossface|토스페이스]] 같은 곳에 언젠가 들어갔으면"
+        "불가사리": "[[Tossface|토스페이스]] 같은 곳에 [[Someday|언젠가]] 들어갔으면"
     },
     "PECR": {
         "Plausible Analytics": "... compliant with GDPR, CCPA, and [[PECR]]. Made and hosted in the ...",
@@ -2173,6 +2169,16 @@ export const backlinks = {
     "Person 960D1D": {
         "2023-03-03": "- [[Person 960D1D]]",
         "Project PEOPLE": "- [[Person 960D1D]]"
+    },
+    "Text Message": {
+        "Believer Plan": "... 전달할 수 있는 간단한 감사 [[Text Message|메시지]]를 작성할 수 있는 기회가 주어집니다.",
+        "RCS": "... RCS is an alternative to [[Text Message|SMS]] and is similar to [[iMessage]], ...",
+        "hn.cho.sh 개발 기록": "... 인터페이스 다 없애고 nudge처럼 100% [[Text Message|문자]] 기반?",
+        "iMessage": "... that allows users to send [[Text Message|Texts]], photos, videos, and other information ...",
+        "우린 텍스트 틱톡을 평생 만들 수 있을까": "... Hooked와 같은 채팅형 소설 서비스는 [[Text Message|문자]] 버블의 모양과 느낌을 차용하여 이해하기 ...",
+        "유난한 도전": "... 누군가 몸살이 나서 하루 쉬겠다고 [[Text Message|메시지]]를 남기면 완쾌해내세요 댓글이 달렸다.",
+        "한민족은 해적되었다": "2023-01-13에 꾼 꿈에서 강력한 [[Text Message|메시지]]를 받았다.",
+        "혜성처럼 나타난 본디": "... 있다. 친구에게 사진을 찍어서 보내달라는 [[Text Message|메시지]]를 보낸다. 스냅챗과 똑같은 방식이지만, 처음 ..."
     },
     "AVCapture": {
         "WWDC23": "- [[AVCapture]] is faster and better → ..."
@@ -3224,6 +3230,7 @@ export const backlinks = {
         "VP9 vs HEVC": "- [[Apple]] only supports HEVC, while [[Google]] ...",
         "WWDC": "[[Apple]]'s Worldwide Developer Conference",
         "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 ...",
+        "iMessage": "iMessage is [[Apple]]'s secure instant messaging system that ...",
         "iOS": "... system software that runs on [[Apple]]'s iPhone, iPad, iPod Touch, and ...",
         "macOS": "... operating system (OS) that powers [[Apple]]'s Mac computers. It's the primary ...",
         "드디어, 한국 애플페이": "10년의 기다림 끝에 [[Apple|애플]]페이가 들어온다. 2023년 2월 3일자 [[Finance|금융]]위원회에서 ...",
@@ -4113,7 +4120,7 @@ export const backlinks = {
         "Markdown Email Client": "Someday [[Project]]. You write an [[Mail|email]] in ...",
         "Not-So-Procrastinating Lazy Loading": "Someday [[Project]]. `img loading=lazy`, but if the ...",
         "Notion": "> Notion is a [[project]] management and note-taking software platform ...",
-        "Off The Record": "Someday [[Project]]. Disappearing message for iMessage.",
+        "Off The Record": "Someday [[Project]]. Disappearing message for [[iMessage]].",
         "Old Fashioned Camera": "Someday [[Project]]. iPhone 4 시절 그 구진 ...",
         "One and Only (Social App)": "Someday [[Project]]. Ideated during [[Person 648442]]",
         "One and Only WebExtension": "- Someday [[Project]]",
@@ -4136,6 +4143,7 @@ export const backlinks = {
         "Repeated Designs": "> Weekend side [[project]]: A gallery of the best ...",
         "Research Paper NPM System": "Someday [[Project]]. It's an [[npm]] system for ...",
         "Robert Oppenheimer and Jiro Horikoshi": "... scientific team of the Manhattan [[Project]], which developed the first atomic ...",
+        "Send Separately": "Someday [[Project]]. \"Send Separately\" for [[iMessage]].",
         "Show me your Laptop": "Someday [[Project]]. And embeddable [[SVG]] card that ...",
         "Snowpack으로 WASM 시작하기": "... 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
         "Sticker Party": "Someday [[Project]] GitHub README에 박을 수 있음. ...",
@@ -4231,7 +4239,7 @@ export const backlinks = {
         "On-Premise": "Opposite of [[Cloud Computing]]",
         "OpenAI enthroned as the Levis of Tech": "... made an enormous demand for [[cloud computing]] services like AWS. [[OpenAI]] just ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "... 것처럼, 디지털 혁신은 AWS와 같은 [[Cloud Computing|클라우드]] 컴퓨팅 서비스에 대한 엄청난 수요를 ...",
-        "WebNPU API를 상상하다": "언젠가 AI 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 되면, 특히 웹 ..."
+        "WebNPU API를 상상하다": "Someday|언젠가 AI 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 되면, 특히 웹 ..."
     },
     "당근미니 케이스 스터디": {
         "2023-06-20": "- [[당근미니 케이스 스터디]]"
@@ -4831,7 +4839,7 @@ export const backlinks = {
     },
     "Nudge": {
         "LavaLab Cohort of Spring 2023": "[[Nudge]]?",
-        "hn.cho.sh 개발 기록": "- 그냥 인터페이스 다 없애고 [[nudge]]처럼 100% 문자 기반?"
+        "hn.cho.sh 개발 기록": "- 그냥 인터페이스 다 없애고 [[nudge]]처럼 100% [[Text Message|문자]] 기반?"
     },
     "Notion AI": {
         "2022-11-16": "- [[Notion AI]]: [[Notion]]'s [[Generative Intelligence]]",
@@ -5913,6 +5921,13 @@ export const backlinks = {
         "2022-10-27": "- [[API Economy]]",
         "Small yet Powerful": "... should also conform to the [[API Economy]]"
     },
+    "Texts (Service)": {
+        "2023-01-31": "Got Invited to [[Texts (Service)]]",
+        "Beeper": "An alternative to [[Texts (Service)]]. A better approach with [[iMessage]], ...",
+        "Love Software": "- (Fiercely Overpriced|paywalled) [[Texts (Service)]]",
+        "One and Only (Social App)": "Like [[Texts (Service)]], it pulls from all the ...",
+        "One and only": "[[Texts (Service)]] aims to be the one ..."
+    },
     "Things (3D)": {
         "3D": "- [[Things (3D)]]"
     },
@@ -6273,6 +6288,9 @@ export const backlinks = {
         "Apache Hive": "Not to be confused with [[HYBE]]",
         "프로젝트 어덕행덕": "- V LIVE - [[HYBE|하이브]]가 구매했기에 Weverse와의 통합을 기대함"
     },
+    "Send Separately": {
+        "2023-08-09": "[[Send Separately]]"
+    },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
     },
@@ -6515,7 +6533,7 @@ export const backlinks = {
         "Jetski": "- [[fiercely overpriced]]: time limit for recording. watermarks?",
         "Letter to Mr. Gustav Ekerot on 2023-02-24": "... build it one day and [[Fiercely Overpriced|paywall]] it to install more than ...",
         "Letter to the Heptabase Team on 2022-10-11": "... considering there is still a [[Fiercely Overpriced|paywall]] upfront. However, I would love ...",
-        "Love Software": "- ([[Fiercely Overpriced|paywalled]]) [[texts]]",
+        "Love Software": "- ([[Fiercely Overpriced|paywalled]]) [[Texts (Service)]]",
         "Off The Record": "- [[Fiercely Overpriced]]: disappears after opening. max 10 ...",
         "Open Graph Image as a Service": "## How would it be [[Fiercely Overpriced]]?",
         "sem.sh": "... Your data, your own (no [[Fiercely Overpriced|paywall]] if self-hosted)"
@@ -7463,7 +7481,7 @@ export const backlinks = {
     },
     "Super App is a Universal Chat App": {
         "2023-01-09": "- [[Super App is a Universal Chat App]]",
-        "Texts": "... United States of America|United States. [[Super App is a Universal Chat App]]",
+        "Texts (Service)": "... United States of America|United States. [[Super App is a Universal Chat App]]",
         "Universal Chat App": "[[Super App is a Universal Chat App]]."
     },
     "언어학과 우주적 소음": {
@@ -7555,7 +7573,7 @@ export const backlinks = {
         "Self Driving": "... suite that's available in the [[United States of America|United States]]",
         "Super App is a Universal Chat App": "... a Super App in the [[United States of America|United States]] are vague. [[Apple]] and [[Google]] ...",
         "Tax": "In the [[United States of America|USA]], taxes on income and long-term ...",
-        "Texts": "Potential Super App for the [[United States of America|United States]]. [[Super App is a Universal ...",
+        "Texts (Service)": "Potential Super App for the [[United States of America|United States]]. [[Super App is a Universal ...",
         "Toss": "... ever seen in 대한민국|Korea and [[United States of America|U.S.]]",
         "Universal Chat App": "## [[United States of America|U.S.]]",
         "Vannevar Bush": "... World War II, headed the [[United States of America|U.S.]] Office of Scientific Research and ...",
@@ -8050,6 +8068,13 @@ export const backlinks = {
         "2023-01-23": "- [[Total Probability]]",
         "Probability": "- $P(E)$ → [[Total Probability]]"
     },
+    "iMessage": {
+        "Beeper": "... (Service). A better approach with [[iMessage]], given that it logs into ...",
+        "Off The Record": "Someday Project. Disappearing message for [[iMessage]].",
+        "RCS": "... Message|SMS and is similar to [[iMessage]], WhatsApp, and [[Facebook Messenger]]. RCS ...",
+        "Send Separately": "Someday Project. \"Send Separately\" for [[iMessage]].",
+        "Universal Chat App": "... chat app. Younger generations use [[iMessage]], while elderlies use WhatsApp. Or ..."
+    },
     "공기 청정 비행선": {
         "2022-12-17": "- [[공기 청정 비행선]]",
         "Neo Korea": "- [[공기 청정 비행선]]"
@@ -8107,7 +8132,7 @@ export const backlinks = {
         "AT protocol": "... like Lexicon and XRPC over [[Alternative|alternatives]] like [[Resource Description Framework]] and ...",
         "Alternatives to After Effects": "What is the [[alternative]] to [[Adobe After Effects|After Effects]]?",
         "Alternatives to Hacker News": "- [[Alternative]] to [[Hacker News]]",
-        "Beeper": "An [[alternative]] to [[Texts]]. A better approach ...",
+        "Beeper": "An [[alternative]] to [[Texts (Service)]]. A better ...",
         "ChatGPT": "... a model-written message, sampled several [[alternative]] completions, and had [[AI]] trainers ...",
         "ChatGPT is a Blurry JPEG and We Need That": "... to process. However, consider an [[alternative]] – a compressed version of ...",
         "Google Analytics": "- [[Alternative]]: [[Simple Analytics]], [[Plausible Analytics]]",
@@ -8123,7 +8148,7 @@ export const backlinks = {
         "Proposal of Research 2023-01-10": "... the descriptive text. Some similar [[alternative]] open-sourced technologies include Bootstrapping Language–Image ...",
         "Pure Component Model": "- [[Alternative]] approach to [[Monolithic Model]]",
         "QA.json": "An [[alternative]] approach to [[AIs.txt]], proposed by ...",
-        "RCS": "... messaging experience. RCS is an [[alternative]] to SMS and is similar ...",
+        "RCS": "... messaging experience. RCS is an [[alternative]] to [[Text Message|SMS]] and is ...",
         "Reddit-Apollo Mayhem": "- Some users are considering [[alternative]] Reddit apps and platforms, and ...",
         "Screenshot as an API": "... - Slow page loads. Better [[Alternative|alternatives]]: [[EPUB]], [[MOBI]] for texts. For ...",
         "Self-hosted SaaS Alternatives": "- [[Alternative|Alternatives]]",
@@ -8260,7 +8285,7 @@ export const backlinks = {
         "Generative Intelligence": "- [[Photoshop for Text]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... came across your article on [[Photoshop for Text]] and was deeply inspired by ...",
         "Project Core ML Foundation": "- [[Photoshop for Text]]",
-        "기술 발전의 속도": "당시에도 나는 [[Photoshop for Text]]를 상상하며 언젠가 미래에 도래할 텍스트 ..."
+        "기술 발전의 속도": "당시에도 나는 [[Photoshop for Text]]를 상상하며 [[Someday|언젠가]] 미래에 도래할 텍스트 ..."
     },
     "Nuclear Fission": {
         "2022-10-18": "- [[Nuclear Fission]]",
@@ -8496,7 +8521,7 @@ export const backlinks = {
         "Intracranial": "[[Someday]] [[Project]]. [[Infinite Canvas]] for Zettlekasten.",
         "Markdown Email Client": "[[Someday]] [[Project]]. You write an [[Mail|email]] ...",
         "Not-So-Procrastinating Lazy Loading": "[[Someday]] [[Project]]. `img loading=lazy`, but if ...",
-        "Off The Record": "[[Someday]] [[Project]]. Disappearing message for iMessage.",
+        "Off The Record": "[[Someday]] [[Project]]. Disappearing message for [[iMessage]].",
         "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 ...",
         "One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
         "One and Only WebExtension": "- [[Someday]] [[Project]]",
@@ -8508,11 +8533,13 @@ export const backlinks = {
         "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game ...",
         "Redactor for iPhone": "[[Someday]] [[Project]].",
         "Research Paper NPM System": "[[Someday]] [[Project]]. It's an [[npm]] system ...",
+        "Send Separately": "[[Someday]] [[Project]]. \"Send Separately\" for [[iMessage]].",
         "Show me your Laptop": "[[Someday]] [[Project]]. And embeddable [[SVG]] card ...",
         "Sticker Party": "[[Someday]] [[Project]] GitHub README에 박을 수 ...",
         "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym ...",
         "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute ...",
         "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
+        "WebNPU API를 상상하다": "[[Someday|언젠가]] [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 ...",
         "aaaa.coffee": "[[Someday]] [[Project]]. \"Buy me a coffee\" ...",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo website Creator ...",
         "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes ...",
@@ -8520,6 +8547,9 @@ export const backlinks = {
         "linkflags.crx": "Packing Linkflags as Chrome Extensions [[Someday]] [[Project]]",
         "postcredit.info": "[[Someday]] [[Project]]. 영화 쿠키 있나요?",
         "sem.sh": "[[Someday]] [[Project]]. Open-sourced Code Time or ...",
+        "기술 발전의 속도": "... 나는 Photoshop for Text를 상상하며 [[Someday|언젠가]] 미래에 도래할 텍스트 [[AI|인공지능]]의 미래를 ...",
+        "도메인 찾아 삼만리": "... 길지만 더 전통적이고 무난했다. 또한 [[Someday|언젠가]] 'cho.sh'으로 웹사이트를 개설하기를 희망하면서 웹 ...",
+        "불가사리": "Tossface|토스페이스 같은 곳에 [[Someday|언젠가]] 들어갔으면",
         "사발통문": "[[Someday]] [[Project]]",
         "사회과부도": "[[Someday]] [[Project]]. 마음대로 변형을 가할 수 ...",
         "원하는 곳만 전자레인지": "[[Someday]]",
@@ -9379,6 +9409,7 @@ export const backlinks = {
         "2023-07-15": "[[Project Heimdall]]",
         "2023-07-16": "- [[Project Heimdall]]: Float UI - Free open ...",
         "2023-07-17": "- [[Project Heimdall]]",
+        "2023-08-08": "[[Project Heimdall|Heimdall]]",
         "Heimdall Bogus Subscribers Attack Incident": "... I moved forward with the [[Project Heimdall]] migration, added new languages",
         "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
         "METI Engine": "... plan to scale it to [[Project Heimdall]].",
@@ -9483,7 +9514,7 @@ export const backlinks = {
         "One and only": "... all data into one place—the [[Super App]] approach.",
         "Super App and Democracy": "... technology entrepreneurs dream of an \"[[Super App|Everything App]]\", a smartphone application that will ...",
         "Super App is a Universal Chat App": "... 2022-12-24, the conditions for a [[Super App]] in the [[United States of ...",
-        "Texts": "Potential [[Super App]] for the [[United States of ...",
+        "Texts (Service)": "Potential [[Super App]] for the [[United States of ...",
         "Toss": "... say the most innovative Financial [[Super App]] I've ever seen in [[대한민국|Korea]] ...",
         "Universal Chat App": "## Connections: [[Super App]]",
         "Universal Identity": "- [[Super App]] accounts can be another. See ...",
@@ -9556,7 +9587,7 @@ export const backlinks = {
         "Text AI and Information Density": "Text [[AI]], for example [[ChatGPT]], tends to ...",
         "Tome": "It's like Text-based Presentations, but [[AI]] will draw & layout stuff ...",
         "Unsemantic": "... we must create an unsemantic [[AI]] (i.e., rigorous.)",
-        "WebNPU API를 상상하다": "언젠가 [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 ...",
+        "WebNPU API를 상상하다": "Someday|언젠가 [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 ...",
         "hn.cho.sh 개발 기록": "해커뉴스를 읽고 있다가 이걸 [[AI]]에게 요약해보고 있었다.",
         "기술 발전의 속도": "2022년 여름의 [[AI|인공지능]] 업계를 대표적으로 나타내는 글이다",
         "슈퍼자판기": "... 환경을 실시간으로 촬영. 이러한 카메라는 [[AI]] 기반 행동 분석 시스템과 통합되어 ...",
@@ -10192,21 +10223,6 @@ export const backlinks = {
     "301024.png": {
         "Paracosm": "![[301024.png]]",
         "Text-based Tools for Thought": "![[301024.png]]"
-    },
-    "B4D18F.png": {
-        "Texts": "![[B4D18F.png]]"
-    },
-    "C71F2F.png": {
-        "Texts": "![[C71F2F.png]]"
-    },
-    "7F9BA7.png": {
-        "Texts": "![[7F9BA7.png]]"
-    },
-    "4BE73D.png": {
-        "Texts": "![[4BE73D.png]]"
-    },
-    "CEE458.png": {
-        "Texts": "![[CEE458.png]]"
     },
     "D0AE71.png": {
         "Sequence Film": "![[D0AE71.png]]"
@@ -11065,6 +11081,21 @@ export const backlinks = {
     },
     "68B2D8.png": {
         "Color Palette": "![[68B2D8.png]]"
+    },
+    "B4D18F.png": {
+        "Texts (Service)": "![[B4D18F.png]]"
+    },
+    "C71F2F.png": {
+        "Texts (Service)": "![[C71F2F.png]]"
+    },
+    "7F9BA7.png": {
+        "Texts (Service)": "![[7F9BA7.png]]"
+    },
+    "4BE73D.png": {
+        "Texts (Service)": "![[4BE73D.png]]"
+    },
+    "CEE458.png": {
+        "Texts (Service)": "![[CEE458.png]]"
     },
     "D765C4.png": {
         "Things (3D)": "![[D765C4.png]]"
