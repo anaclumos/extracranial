@@ -17,7 +17,7 @@ News app, but all critical information is in chat bubbles—short, informative, 
 
 - Send message (share)
 - Chatbot will answer and give contexts
-- 그냥 인터페이스 다 없애고 [[nudge]]처럼 100% 문자 기반?
+- 그냥 인터페이스 다 없애고 [[nudge]]처럼 100% [[Text Message|문자]] 기반?
 - 하루에 한두개 비슷한 뉴스 채팅으로 던져주기
 
 ## [[2023-03-20]]
