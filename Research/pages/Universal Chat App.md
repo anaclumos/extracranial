@@ -23,9 +23,9 @@ In the [[EU]], it's slightly more complicated. Most people use WhatsApp.
 
 ## [[United States of America|U.S.]]
 
-In the Americas, there is no such universal chat app. Younger generations use iMessage, while elderlies use WhatsApp. Or often, everyone sticks to texting.
+In the Americas, there is no such universal chat app. Younger generations use [[iMessage]], while elderlies use WhatsApp. Or often, everyone sticks to texting.
 
-1. **iMessage**: This is a built-in messaging service on [[Apple]] devices, including iPhones, iPads, and Macs. It supports text messages, photos, videos, and other types of content. However, it only works between [[Apple]] devices, which is a limitation if you're trying to communicate with someone who uses an [[Android]] phone or a Windows PC.
+1. **[[iMessage]]**: This is a built-in messaging service on [[Apple]] devices, including iPhones, iPads, and Macs. It supports text messages, photos, videos, and other types of content. However, it only works between [[Apple]] devices, which is a limitation if you're trying to communicate with someone who uses an [[Android]] phone or a Windows PC.
 
 ## Protocol Propositions
 

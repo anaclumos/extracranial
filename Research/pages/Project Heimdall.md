@@ -159,3 +159,9 @@ Halted, switched to a more conventional [[Docusaurus]] with [[Listmonk]]. Consid
 ## [[2023-08-07]]
 
 Added RSS Support. [RSS Support · Issue #16 · anaclumos/heimdall](https://github.com/anaclumos/heimdall/issues/16)
+
+## [[2023-08-08]]
+
+- Resend made SMTP, will try it out
+- [isCategoryIndex function does not propagate to URL generations · Issue #9213 · facebook/docusaurus](https://github.com/facebook/docusaurus/issues/9213)
+-
