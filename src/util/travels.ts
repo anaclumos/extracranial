@@ -135,19 +135,33 @@ export const coordinates = () => {
 }
 
 export const randomJump = () => {
-  const jumps = [ICN, LAX, SJC, SFO, EWR, CJU, CJJ, LHR, GUM, KIX, STL, SIN]
-  const Markers: Marker[] = []
-  for (let i = 0; i < 100; i++) {
-    const from = jumps[Math.floor(Math.random() * jumps.length)]
-    const to = jumps[Math.floor(Math.random() * jumps.length)]
-    Markers.push({
+  const jumps = [ICN, LAX, SJC, SFO, EWR, LHR, GUM, KIX, STL, SIN]
+  const markers: Marker[] = []
+  const markersHistory: {
+    from: Marker
+    to: Marker
+  }[] = []
+  for (let i = 0; i < 50; i++) {
+    const fromIdx = Math.floor(Math.random() * jumps.length)
+    const toIdx = Math.floor(Math.random() * jumps.length)
+    if (fromIdx === toIdx) {
+      continue
+    }
+    const from = jumps[fromIdx]
+    const to = jumps[toIdx]
+    markers.push({
       location: from.location,
       size: defaultSize,
-    })
-    Markers.push({
+    } as Marker)
+    markers.push({
       location: to.location,
       size: defaultSize,
+    } as Marker)
+    markersHistory.push({
+      from,
+      to,
     })
   }
-  return Markers as Marker[]
+  console.log(markersHistory)
+  return { markers, markersHistory }
 }
