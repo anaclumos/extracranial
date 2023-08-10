@@ -15,9 +15,9 @@ aliases:
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs groupId="lang" queryString>
-<TabItem value="en" label="English 🇺🇸" lang="en-US" default>
-<div lang="en-US">
+<Tabs groupId='lang' queryString>
+<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+<div lang='en-US'>
 
 **Pyrrhus and Cinéas** is a philosophical essay by Simone de Beauvoir, a French philosopher, writer, and social theorist. Published in 1944, it was Beauvoir's first philosophical essay. The essay takes its name from the two historical figures, King Pyrrhus of Epirus and Cinéas, his advisor, whose dialogue about ambition and the meaning of life is recounted in the work.
 
@@ -40,8 +40,8 @@ import TabItem from '@theme/TabItem';
 </div>
 </TabItem>
 
-<TabItem value="ko" label="한국어 🇰🇷" lang="ko-KR">
-<div lang="ko-KR">
+<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+<div lang='ko-KR'>
 
 **피로스와 시네아스**는 프랑스의 철학자이자 작가, 사회 이론가인 시몬 드 보부아르의 철학적 에세이로, 1944년에 출간된 이 책은 보부아르의 첫 번째 철학 에세이다. 이 에세이의 제목은 에피로스의 피로스 왕과 그의 조언자 시네아스라는 두 역사적 인물의 이름에서 따온 것으로, 야망과 삶의 의미에 대한 대화가 작품에 담겨있다.
 
