@@ -1165,6 +1165,7 @@ export const backlinks = {
         "30-Day Tweet Test (Harry Stebbings)": "... A Massive Mystery <br/> 🇰🇷 [[관성 질량과 중력 질량]]      ..."
     },
     "Canvas (HTML5)": {
+        "2023-08-10": "... found a noticeable drop in [[Canvas (HTML5)|canvas]] performance. It was very weird ...",
         "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., ..."
     },
     "Tossface": {
@@ -1290,6 +1291,9 @@ export const backlinks = {
     },
     "Deepnote": {
         "2022-12-16": "- [[Deepnote]]"
+    },
+    "Para Bellum": {
+        "2023-08-10": "- [[Para Bellum]]"
     },
     "Memex is more than a Memex": {
         "2022-10-20": "- [[Memex is more than a Memex]]"
@@ -5273,7 +5277,8 @@ export const backlinks = {
     },
     "Ticket Bounty Model": {
         "2022-08-11": "- [[Ticket Bounty Model]]",
-        "2022-09-12": "- [[Ticket Bounty Model]]"
+        "2022-09-12": "- [[Ticket Bounty Model]]",
+        "Polar.sh": "Polar is an implementation of [[Ticket Bounty Model]]. You can pledge some money ..."
     },
     "심리역사학": {
         "2023-02-19": "- [[심리역사학]]",
@@ -6580,6 +6585,9 @@ export const backlinks = {
     },
     "Are.na (Service)": {
         "Jumpsite": "## [[Are.na (Service)]]"
+    },
+    "Polar.sh": {
+        "2023-08-10": "- [[Polar.sh]]"
     },
     "AI and ML": {
         "Project Core ML Foundation": "- [[AI and ML]]"
@@ -11171,6 +11179,9 @@ export const backlinks = {
     },
     "E69025.png": {
         "Interactive Articles": "![[E69025.png]]"
+    },
+    "E0C486.png": {
+        "Polar.sh": "![[E0C486.png]]"
     },
     "CBB31A.png": {
         "Animations": "![[CBB31A.png]]"
