@@ -11,7 +11,7 @@ const locationToAngles = (lat, long) => {
   return [Math.PI - ((long * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180]
 }
 
-const SCALE = 3
+const SCALE = 1
 
 export const Globe = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
@@ -73,7 +73,7 @@ export const Globe = () => {
       focusRef.current = [phiFrom, thetaFrom]
       markersHistory.shift()
       markersHistory.push({ from, to })
-    }, 500)
+    }, 1000)
     return () => {
       clearInterval(interval)
       window.removeEventListener('resize', onResize)
