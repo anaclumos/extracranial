@@ -5,13 +5,17 @@
 }
 
 .globe {
-  width: 600px;
+  width: 900px;
   aspect-ratio: 1;
   margin: 0 auto;
   aspect-ratio: 1;
   border-radius: 50%;
-  cursor: grab;
   contain: layout paint size;
   opacity: 0;
   transition: opacity 1s ease;
+}
+
+.globe::before {
+  content: '😃';
+  position: absolute;
 }

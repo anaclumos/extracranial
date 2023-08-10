@@ -1,19 +1,17 @@
-import createGlobe, { Marker } from 'cobe'
+import createGlobe from 'cobe'
 import React from 'react'
 import { useEffect, useRef } from 'react'
 import styles from './index.module.css'
 import { useSpring } from 'react-spring'
-import { randomJump, travels } from '@site/src/util/travels'
+import { randomJump } from '@site/src/util/travels'
 
-const markers: Marker[] = randomJump()
-const markersHistory: {
-  from: Marker
-  to: Marker
-}[] = travels
+const { markers, markersHistory } = randomJump()
 
 const locationToAngles = (lat, long) => {
   return [Math.PI - ((long * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180]
 }
+
+const SCALE = 3
 
 export const Globe = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
@@ -39,15 +37,15 @@ export const Globe = () => {
     window.addEventListener('resize', onResize)
     onResize()
     const globe = createGlobe(canvasRef.current, {
-      devicePixelRatio: 2,
-      width: width * 2,
-      height: width * 2,
+      devicePixelRatio: SCALE,
+      width: width * SCALE,
+      height: width * SCALE,
       phi: 0,
       theta: (23.5 * Math.PI) / 180,
       dark: 1,
-      diffuse: 0.2,
-      mapSamples: 24000,
-      mapBrightness: 6,
+      diffuse: 3,
+      mapSamples: 32000,
+      mapBrightness: 4,
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [121 / 256, 181 / 256, 242 / 256],
       glowColor: [0.5, 0.5, 0.5],
@@ -58,15 +56,14 @@ export const Globe = () => {
         const [focusPhi, focusTheta] = focusRef.current
         const distPositive = (focusPhi - currentPhi + doublePi) % doublePi
         const distNegative = (currentPhi - focusPhi + doublePi) % doublePi
-        // Control the speed
         if (distPositive < distNegative) {
           currentPhi += distPositive * 0.08
         } else {
           currentPhi -= distNegative * 0.08
         }
         currentTheta = currentTheta * 0.92 + focusTheta * 0.08
-        state.width = width * 2
-        state.height = width * 2
+        state.width = width * SCALE
+        state.height = width * SCALE
       },
     })
     setTimeout(() => (canvasRef.current.style.opacity = '1'))
@@ -76,7 +73,7 @@ export const Globe = () => {
       focusRef.current = [phiFrom, thetaFrom]
       markersHistory.shift()
       markersHistory.push({ from, to })
-    }, 1000)
+    }, 500)
     return () => {
       clearInterval(interval)
       window.removeEventListener('resize', onResize)
