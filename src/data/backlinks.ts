@@ -6289,7 +6289,7 @@ export const backlinks = {
         "프로젝트 어덕행덕": "- V LIVE - [[HYBE|하이브]]가 구매했기에 Weverse와의 통합을 기대함"
     },
     "Send Separately": {
-        "2023-08-09": "[[Send Separately]]"
+        "2023-08-09": "- [[Send Separately]]"
     },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
@@ -6299,6 +6299,9 @@ export const backlinks = {
     },
     "LavaLab Cohort of Spring 2023": {
         "2023-04-25": "- [[LavaLab Cohort of Spring 2023]]"
+    },
+    "Disable All Animations": {
+        "2023-08-09": "- [[Disable All Animations]]"
     },
     "Diagram (Company)": {
         "2022-12-16": "- [[Diagram (Company)]]",
@@ -9888,6 +9891,9 @@ export const backlinks = {
     "AA04D0.mp4": {
         "2022-10-16": "![[AA04D0.mp4]]",
         "Dynamic Island on the Web": "![[AA04D0.mp4]]"
+    },
+    "98AD84.png": {
+        "2023-08-09": "![[98AD84.png]]"
     },
     "wikilink": {
         "2022-10-17": "... is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does ..."
