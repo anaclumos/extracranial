@@ -83,7 +83,7 @@
     "dev": "$npm_execpath run start",
     "docusaurus": "docusaurus",
     "figcaption": "python3 tools/img-alt-to-figcaption.py",
-    "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml}'",
+    "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}'",
     "ko": "$npm_execpath run start --locale ko",
     "lint": "eslint .",
     "prepare-for-build": "$npm_execpath run clear && $npm_execpath run sanitize && $npm_execpath run bundle && $npm_execpath run wikilinks && $npm_execpath run backlinks && $npm_execpath run swc && $npm_execpath run figcaption && $npm_execpath run readme && $npm_execpath run scc",

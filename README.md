@@ -18,13 +18,9 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 > **Note**<br/>
 > The Favicon image is Tossface's U+E109 (<img alt="Emoji of 'Palaces of Korea'" width="12px" src="https://raw.githubusercontent.com/anaclumos/extracranial/main/static/img/favicon.svg"/>) Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
 
-## License
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial?ref=badge_large)
-
 ## Last updated
 
-Thu Aug 10 12:05:46 PDT 2023
+Thu Aug 10 13:43:48 PDT 2023
 
 ## Stats
 
@@ -32,9 +28,9 @@ Thu Aug 10 12:05:46 PDT 2023
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  1992     48528    12446         0    36082          0
-CSS                         69     20403      797        42    19564          0
-TypeScript                  58     16514      176        72    16266        208
+Markdown                  1992     48520    12442         0    36078          0
+CSS                         69     20399      796        42    19561          0
+TypeScript                  58     16517      176        72    16269        208
 JSON                        16      1571        0         0     1571          0
 SVG                          9         9        0         0        9          0
 YAML                         8     18232     1933         0    16299          0
@@ -45,13 +41,13 @@ JavaScript                   1        19        3        12        4          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2167    106533    15490       223    90820        291
+Total                     2167    106524    15485       223    90816        291
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,073,872
+Estimated Cost to Develop (organic) $3,073,730
 Estimated Schedule Effort (organic) 21.07 months
 Estimated People Required (organic) 12.96
 ───────────────────────────────────────────────────────────────────────────────
-Processed 4954914 bytes, 4.955 megabytes (SI)
+Processed 4954574 bytes, 4.955 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
