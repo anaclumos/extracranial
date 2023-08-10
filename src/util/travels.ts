@@ -133,3 +133,21 @@ export const coordinates = () => {
   })
   return Markers as Marker[]
 }
+
+export const randomJump = () => {
+  const jumps = [ICN, LAX, SJC, SFO, EWR, CJU, CJJ, LHR, GUM, KIX, STL, SIN]
+  const Markers: Marker[] = []
+  for (let i = 0; i < 100; i++) {
+    const from = jumps[Math.floor(Math.random() * jumps.length)]
+    const to = jumps[Math.floor(Math.random() * jumps.length)]
+    Markers.push({
+      location: from.location,
+      size: defaultSize,
+    })
+    Markers.push({
+      location: to.location,
+      size: defaultSize,
+    })
+  }
+  return Markers as Marker[]
+}
