@@ -162,6 +162,5 @@ export const randomJump = () => {
       to,
     })
   }
-  console.log(markersHistory)
   return { markers, markersHistory }
 }
