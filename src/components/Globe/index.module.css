@@ -5,6 +5,7 @@
 }
 
 .globe {
+  will-change: opacity;
   width: 900px;
   aspect-ratio: 1;
   margin: 0 auto;
@@ -13,9 +14,4 @@
   contain: layout paint size;
   opacity: 0;
   transition: opacity 1s ease;
-}
-
-.globe::before {
-  content: '😃';
-  position: absolute;
 }
