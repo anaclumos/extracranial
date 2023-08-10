@@ -3,9 +3,9 @@ import React from 'react'
 import { useEffect, useRef } from 'react'
 import styles from './index.module.css'
 import { useSpring } from 'react-spring'
-import { coordinates, travels } from '@site/src/util/travels'
+import { randomJump, travels } from '@site/src/util/travels'
 
-const markers: Marker[] = coordinates()
+const markers: Marker[] = randomJump()
 const markersHistory: {
   from: Marker
   to: Marker
