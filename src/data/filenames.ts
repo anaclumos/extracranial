@@ -786,6 +786,7 @@ export const filenames = {
     "Dim Flashing Lights": "706945",
     "Diminishing Cost of Service": "2EEFB7",
     "Dioxus": "535542",
+    "Disable All Animations": "E94267",
     "Disable Firefox Safe Mode Trigger": "F44F14",
     "Disable Screenshot Drop Shadow in macOS": "EE88B1",
     "Discuss on Social Media Button": "69BE1E",
