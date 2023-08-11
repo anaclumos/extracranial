@@ -19,7 +19,7 @@ Seems like you can just say you **seaflooded** it.
 
 Seaflooding, a promising solution to mitigate climate change, has the potential to create more life and stimulate economic growth. Inspired by the Zanclean Megaflood that transformed the Mediterranean, this process involves filling a dead depression with seawater, leading to increased moisture, rainfall, and plant and animal life, ultimately fostering economic growth. Potential locations for this innovative project include below sea level, high pressure, and extremely hot and dry regions, such as the Dead Sea. The benefits of seaflooding encompass electricity generation, desalination, increased biodiversity, and tourism. Despite challenges such as the need for international discussions, political instability, and ecological impact studies, seaflooding presents an opportunity to reduce ocean levels, combat climate change, and address food scarcity issues in certain regions. A prime example of seaflooding potential lies in Egypt's Qattara Depression, which could be transformed without global dependency. Moreover, numerous locations for seaflooding exist globally, including several in the United States.
 
-[[한국어]]로는 '큰물' '물마' 등의 단어가 있다. 하지만 **개부심**이라는 단어가 가장 적합하다.
+[[한국어]]로는 '큰물' '물마' 등의 [[Vocab|단어]]가 있다. 하지만 **개부심**이라는 [[Vocab|단어]]가 가장 적합하다.
 
 > 개부심하다
 >

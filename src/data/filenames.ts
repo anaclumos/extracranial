@@ -1301,6 +1301,7 @@ export const filenames = {
     "Pascal Triangle": "FFE63F",
     "Passkey": "3B6740",
     "Pensieve": "803226",
+    "Penultimate": "A68F5D",
     "Perceptual Hashing": "E6617C",
     "Person 1B5A5B": "1B5A5B",
     "Person 1E6ABA": "1E6ABA",
