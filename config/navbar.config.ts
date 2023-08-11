@@ -13,6 +13,8 @@ const getMostRecentJournalLink = () => {
   }
 }
 
+const isKorean = process.env.DOCUSAURUS_CURRENT_LOCALE === 'ko'
+
 const navbar = {
   title: 'Sunghyun Cho',
   logo: {
@@ -50,7 +52,7 @@ const navbar = {
       position: 'left',
     },
     {
-      href: 'https://hn.cho.sh/',
+      href: isKorean ? 'https://hn.cho.sh/ko' : 'https://hn.cho.sh',
       label: 'Hacker News Summary',
       position: 'left',
       'aria-label': 'Hacker News Summary',
