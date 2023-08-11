@@ -988,6 +988,7 @@ export const filenames = {
     "Heimdall Bogus Subscribers Attack Incident": "E2CDEB",
     "Heptabase": "5A8160",
     "Higher-Level Languages and Their Speeds": "7D1B84",
+    "Hinge Fund": "F81EC4",
     "Hive Metastore": "1C6AD2",
     "Horizontally Stacked Interface": "F415A9",
     "How does File Alias work": "F5C22F",
