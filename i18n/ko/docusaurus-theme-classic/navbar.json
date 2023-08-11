@@ -30,5 +30,9 @@
   "item.label.Research": {
     "message": "연구 노트",
     "description": "Navbar item with label Research"
+  },
+  "item.label.Hacker News Summary": {
+    "message": "해커뉴스 요약",
+    "description": "Navbar item with label Hacker News Summary"
   }
 }
