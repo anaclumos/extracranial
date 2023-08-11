@@ -48,7 +48,12 @@ const navbar = {
       href: 'https://mailhide.io/en/e/IXndXpED',
       label: 'Email',
       position: 'left',
-      className: 'navbar-mail-link',
+    },
+    {
+      href: 'https://hn.cho.sh/',
+      label: 'Hacker News Summary',
+      position: 'left',
+      'aria-label': 'Hacker News Summary',
     },
     {
       href: 'https://github.com/anaclumos',
