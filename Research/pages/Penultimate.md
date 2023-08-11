@@ -1,7 +1,6 @@
 ---
 lang: 'en'
-slug: '/4FEFA9'
-aliases: ['Vocabulary', '단어', '어휘', '단어들', '어휘들', '사자성어', '고사성어', '영단어']
+slug: '/A68F5D'
 ---
 
 import Tabs from '@theme/Tabs';
@@ -11,14 +10,14 @@ import TabItem from '@theme/TabItem';
 <TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
-Some collection of interesting words
+Penultimate means **second from last**. [[Vocab]]
 
 </div>
 </TabItem>
 <TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
 <div lang='ko-KR'>
 
-흥미로운 단어들의 모음
+Penultimate은 "마지막에서 두번째"를 나타내는 [[Vocab|영단어]]이다.
 
 </div>
 </TabItem>

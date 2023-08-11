@@ -16,7 +16,7 @@ I really did not want to use `.me` `.blog` or `.name` TLDs — it was okay, but 
 
 I later stumbled upon a domain name that caught my eye: `cho.sh`, especially given it contains all my name <u>S</u>ung<u>h</u>yun <u>Cho</u>. So I registered it in 2018 and experimented with GitHub Pages, but I did not want to use it at the moment for several reasons:
 
-- The word **chosh** was registered as a negative meaning in Urban Dictionary, which I did not want to be associated with.
+- The [[vocab]] **chosh** was registered as a negative meaning in Urban Dictionary, which I did not want to be associated with.
 - I needed more technical proficiency to satisfy my vision for a personal website, which involved creating a custom theme, adding interactive features, and optimizing performance.
 - I wanted to use the domain name finally when the tech was ready so that I could make a **😮**-ful impression
 
