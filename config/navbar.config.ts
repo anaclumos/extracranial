@@ -13,7 +13,7 @@ const getMostRecentJournalLink = () => {
   }
 }
 
-const isKorean = process.env.DOCUSAURUS_CURRENT_LOCALE === 'ko'
+const isKorean = process.env.DOCUSAURUS_CURRENT_LOCALE === 'ko' || process.env.DOCUSAURUS_CURRENT_LOCALE === 'ko-KR'
 
 const navbar = {
   title: 'Sunghyun Cho',
