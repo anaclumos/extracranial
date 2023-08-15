@@ -14,7 +14,7 @@ Many people know [[Monte Carlo Algorithm|Monte Carlo algorithms]], but few know 
 
 The [[Monte Carlo algorithm]] uses random sampling to approximate solutions to complex problems. Imagine throwing a dart at a table. You randomly throw a million darts, and they would assumably uniformly disperse. If you pick a point, draw a circle, and count the darts, you can estimate the ratio between the circle's and table's areas. From there, you can calculate pi.
 
-[[Las Vegas Algorithm]] is slightly more sophisticated. A good example is Quick Sort. You randomly select a pivot. Divide the value by comparing it with the pivot (i.e., smaller to one side, bigger to the other) and repeat the same process on the left and right subsets.
+[[Las Vegas Algorithm]] is similar, but slightly more sophisticated. A good example is Quick Sort. You randomly select a pivot. Divide the value by comparing it with the pivot (i.e., smaller to one side, bigger to the other) and repeat the same process on the left and right subsets.
 
 Now the exciting part begins. While we randomly bet on something, we get significantly different results when our bet gets screwed.
 
@@ -38,7 +38,7 @@ Maybe time and information are the same physical property, and we observe in two
 
 [[Monte Carlo Algorithm|몬테카를로 알고리즘]]은 무작위 샘플링을 사용하여 복잡한 문제에 대한 대략적인 해를 구한다. 테이블에 다트를 던진다고 상상해보자. **무작위**로 백만 개의 다트를 던지면 다트는 거의 균일하게 흩어질 것이다. 한 점을 선택해, 원을 그린 다음, 그 속 다트를 세어보면 원과 테이블의 면적 사이의 비율을 추정할 수 있을 것이다. 거기에서 원주율을 추산하는 것이다.
 
-[[Las Vegas Algorithm|라스베가스 알고리즘]]은 조금 더 정교하다. 좋은 예로 QuickSort을 들 수 있다. QuickSort는 기준점을 **무작위**로 선택해, 기준점보다 작은 값들은 왼쪽에, 큰 값들은 오른쪽에 나누고, 왼쪽 및 오른쪽 하위 집합에서 동일한 프로세스를 반복하는 것이다.
+[[Las Vegas Algorithm|라스베가스 알고리즘]]도 비슷하지만, 조금 더 정교하다. 좋은 예로 QuickSort을 들 수 있다. QuickSort는 기준점을 **무작위**로 선택해, 기준점보다 작은 값들은 왼쪽에, 큰 값들은 오른쪽에 나누고, 왼쪽 및 오른쪽 하위 집합에서 동일한 프로세스를 반복하는 것이다.
 
 여기서 흥미로워진다. 우리는 두 경우 모두 어떤 무언가에 무작위하게 베팅했지만, 지지리도 운이 없을 때 손해보는 것이 다르다는 것이다.
 
