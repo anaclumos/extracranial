@@ -80,3 +80,11 @@
 [data-theme='dark'] .navbar {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.navbar-hn-ko-link:lang(en-US) {
+  display: none;
+}
+
+.navbar-hn-en-link:lang(ko-KR) {
+  display: none;
+}
