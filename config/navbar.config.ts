@@ -13,8 +13,6 @@ const getMostRecentJournalLink = () => {
   }
 }
 
-const isKorean = process.env.DOCUSAURUS_CURRENT_LOCALE === 'ko' || process.env.DOCUSAURUS_CURRENT_LOCALE === 'ko-KR'
-
 const navbar = {
   title: 'Sunghyun Cho',
   logo: {
@@ -52,9 +50,17 @@ const navbar = {
       position: 'left',
     },
     {
-      href: isKorean ? 'https://hn.cho.sh/ko' : 'https://hn.cho.sh',
+      href: 'https://hn.cho.sh/',
       label: 'Hacker News Summary',
       position: 'left',
+      className: 'navbar-hn-en-link',
+      'aria-label': 'Hacker News Summary',
+    },
+    {
+      href: 'https://hn.cho.sh/ko',
+      label: '해커뉴스 요약',
+      position: 'left',
+      className: 'navbar-hn-ko-link',
       'aria-label': 'Hacker News Summary',
     },
     {

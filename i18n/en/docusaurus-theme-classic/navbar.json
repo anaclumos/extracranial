@@ -34,5 +34,9 @@
   "item.label.Hacker News Summary": {
     "message": "Hacker News Summary",
     "description": "Navbar item with label Hacker News Summary"
+  },
+  "item.label.해커뉴스 요약": {
+    "message": "해커뉴스 요약",
+    "description": "Navbar item with label 해커뉴스 요약"
   }
 }
