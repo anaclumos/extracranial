@@ -9,5 +9,5 @@ But is it? The first $m$ in $F=ma$ is the **inertial mass**, and the second $m$ 
 
 Scientists **believe** that Einstein is correct, based on many experiments conducted at ultra-microscopic-quantum levels. But it is yet to be discovered why those two $m$ **_must_** be equal, if:
 
-- These two $m$s are the same physical value, and we are observing in two different ways due to some **exquisite geometric property of the universe**.
+- These two $m$s are the same physical value, and we are observing in two different ways due to some **[[Exquisite Geometric Nature of the Universe|exquisite geometric property of the universe]]**.
 - Humans are just not accurate enough to disprove it yet.
