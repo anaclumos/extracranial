@@ -11,9 +11,15 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
-- <YouTube id="tnAxZipkuWw"/>
-- <YouTube id="SVxiqGiLMCM"/>
-- <YouTube id="o6wtDPVkKqI"/>
-- <YouTube id="7EbS-YRCxBY"/>
+- 회전목마 (Feat. Zion.T, 원슈타인) - 소코도모
+  <YouTube id="tnAxZipkuWw"/>
+- 무한궤도 - 그대에게, 신해철
+  <YouTube id="SVxiqGiLMCM"/>
+- Zankoku na Tenshi no Te-ze"The Cruel Angel's Thesis"
+  <YouTube id="o6wtDPVkKqI"/>
+- 이찬혁 풀캠 '파노라마'
+  <YouTube id="7EbS-YRCxBY"/>
+- Last Carnival, Acoustic Cafe
+  <YouTube id="i5h37KxPYFY"/>
 
 </Shuffle>
