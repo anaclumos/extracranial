@@ -6,7 +6,7 @@ aliases: ['atproto', 'Authenticated Transfer Protocol', 'AT 프로토콜']
 
 The Authenticated Transfer Protocol (AT Protocol or atproto) is a distributed social application framework that enables large-scale federation. It addresses some of the limitations and challenges associated with current social networking technologies and aims to offer better scalability, user choice, data portability, and more robust data security.
 
-1. **Identity:** Users in the AT Protocol are identified by domain names, which map to cryptographic URLs. This ensures security for the user's account and data.
+1. **Identity:** Users in the AT Protocol are identified by domain names, which [[map]] to cryptographic URLs. This ensures security for the user's account and data.
 2. **Data Repositories:** User data is shared and managed in the form of signed data repositories, which can contain various records, including posts, comments, likes, and so forth.
 3. **Federation:** The protocol operates on a federated networking model to maintain usability and reliability. It uses standard web technologies like [[HTTP]] and WebSockets to synchronize data between servers.
 4. **Interoperation:** The AT Protocol uses a global schemas network known as Lexicon to enable [[interoperability]] across servers, allowing software from different organizations to understand each other's data without needing to exchange rendering code.

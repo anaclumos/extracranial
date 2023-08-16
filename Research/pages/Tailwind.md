@@ -13,7 +13,7 @@ slug: '/A331BF'
 ### [Don't use Tailwind for your Design System](https://sancho.dev/blog/tailwind-and-design-systems)
 
 - It's error-prone to remove one of the `classNames` from the list; it is a similar situation when you want to remove a new CSS class in an [append only stylesheet](https://css-tricks.com/oh-no-stylesheet-grows-grows-grows-append-stylesheet-problem). They can collide and override other properties
-- When reading [[JSX]], I am comfortable imagining a 1-to-1 match with the [[UIUX|UI]]. I can easily navigate through the component tree and map with the reality
+- When reading [[JSX]], I am comfortable imagining a 1-to-1 match with the [[UIUX|UI]]. I can easily navigate through the component tree and [[map]] with the reality
 - - [](#fail-at-dynamic-styling)Fail at dynamic styling
 - For example, having a `<Link />` component with `color="text-mono-100"`. In the beginning, it would make sense since `text-mono-100` represents the desired color. Maybe later, a need to style the link with a different color on hover. You would add another prop called `hoverColor="text-mono-200"` and call it a day.
 - Document-like websites, styling content that is structured as a big chunk. Using [Tailwind Typography](https://blog.tailwindcss.com/tailwindcss-typography), it does come with reasonable defaults for raw content like a blog or a [[newsletter]]

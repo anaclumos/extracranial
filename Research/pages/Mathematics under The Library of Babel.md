@@ -21,7 +21,7 @@ len: 1352
 
 - aligns with initial calc $2 \times 26 \times 26$
 - How can we compress it?
-- Keep a map from the beginning; remove the substring if seen already
+- Keep a [[map]] from the beginning; remove the substring if seen already
   - may have a side effect
   - early small sacrifices (redundancy) may save more significant future sacrifices. This does not consider such a case
 - We can, for sure, trim three characters repeatedly char to 2

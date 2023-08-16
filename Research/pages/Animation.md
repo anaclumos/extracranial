@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1760EA'
+aliases: ['Animations']
 ---
 
 ### [Rive Use Cases](https://rive.app/use-cases)
