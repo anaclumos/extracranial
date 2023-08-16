@@ -11,7 +11,7 @@ While this definition only includes medications, it's clear that such interactio
 
 **Devices**.
 Fancy interfaces make things addictive.
-Vibrant colors, popping vibrations, smooth [[animations]], and constant notifications relentlessly demand our attention.
+Vibrant colors, popping vibrations, smooth [[Animation]], and constant notifications relentlessly demand our attention.
 Try out [[accessibility]] features such as Color Filters (grayscale), Reduce Motion, and Disable Vibration, not to mention Screen Time, Notification Summary, and Do Not Disturb modes, to control your device's addictive nature.
 
 **Services**.

@@ -5,7 +5,7 @@ slug: '/B4930B'
 
 - An [[Generative AI|Gen AI]] Experiment done by [SuppMon104](https://github.com/suppmon104)
 - Tested [[Generative AI|generative AIs]] to create content for a fictional scenario involving Harry Potter and Donald Trump.
-- Utilized various [[AI]] tools for character design, voice generation, and animation.
+- Utilized various [[AI]] tools for character design, voice generation, and [[animation]].
 - Although facing challenges in the process, the result was satisfactory.
 
 ## Key Points
@@ -13,7 +13,7 @@ slug: '/B4930B'
 1. Used [[ChatGPT]] to generate prompts for dressing 10 Harry Potter characters in 1990s Balenciaga fashion pieces.
 2. Used [[Midjourney]] to create character images, but getting the desired image was difficult, with mid-quality results being more straightforward than high-quality ones.
 3. Used [[Eleven Labs]] for voice generation. Extracting a good voice for Donald Trump proved challenging and time-consuming, and the result could have been better.
-4. [[D-ID]] was used for animation, with no issues encountered.
+4. [[D-ID]] was used for [[animation]], with no issues encountered.
 
 ## Challenges and Considerations
 

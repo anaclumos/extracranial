@@ -41,7 +41,7 @@ enumerate(nums[offset::])
 
 ## Dictionary
 
-- [[Python]] Dictionary is a hash map.
+- [[Python]] Dictionary is a [[hash map]].
 - Lookup time: $O(n)$ worst when there are many collisions.
 
 ## Alphanumeric Testing

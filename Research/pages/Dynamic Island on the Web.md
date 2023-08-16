@@ -21,7 +21,7 @@ slug: '/B21605'
 
 - Equalizer
   - Base Length System
-- Optimize Animations (css `will-change`)
+- Optimize [[Animation|Animations]] (css `will-change`)
 - Removed Scrubber Toggle
 - Squircle — failed
 

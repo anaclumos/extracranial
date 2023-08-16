@@ -31,7 +31,7 @@ Import 잊지 마세요!
 
 _Except as otherwise expressly permitted \[...\] you may not make the Apple [[Font]] available over a network where it could be run or used by multiple computers at the same time. (명시적으로 허용되지 않은 이상, Apple의 폰트를 네트워크 상에서 제공하여 여러 컴퓨터에서 동시에 사용할 수 없습니다.)_
 
-일반 사용자는 [[San Francisco]]를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 대안을 찾아보자.
+일반 사용자는 [[San Francisco]]를 웹 폰트로 사용할 수 없다는 의미이다 (Apple Newsroom은 [[San Francisco|SF Pro]] 웹 폰트를 사용하고 있다.) 그럼 [[Alternative|대안]]을 찾아보자.
 
 ## 1\. [[Apple]] 제품에서는 내장된 [[San Francisco|SF]] 폰트를 불러오자
 

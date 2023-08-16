@@ -7,5 +7,5 @@ slug: '/D38676'
 
 ### [How to animate multiplayer cursors - Liveblocks blog](https://liveblocks.io/blog/how-to-animate-multiplayer-cursors)
 
-- Use spring [[animations]] for smooth cursors with a quick response, and when strict pathing accuracy isn't essential,
+- Use spring [[Animation]] for smooth cursors with a quick response, and when strict pathing accuracy isn't essential,
 - Use spline-animated cursors where accuracy is preferred and a little delay is acceptable
