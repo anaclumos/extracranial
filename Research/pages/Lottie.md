@@ -22,3 +22,5 @@ Lottie는 벡터 그래픽 애니메이션을 위한 오픈 소스 파일 형식
 </div>
 </TabItem>
 </Tabs>
+
+[LottieFiles: Download Free lightweight animations for website & apps.](https://lottiefiles.com/)
