@@ -243,16 +243,16 @@
     "message": "입니다. 주로 "
   },
   "Los Angeles": {
-    "message": "로스앤젤레스"
+    "message": "LA"
   },
   " and ": {
-    "message": " 그리고 "
+    "message": ", "
   },
   "Seoul": {
     "message": "서울"
   },
   "web": {
-    "message": "웹"
+    "message": "웹 기술"
   },
   "spacial computing": {
     "message": "공간 컴퓨팅"
@@ -267,13 +267,13 @@
     "message": "핵융합 에너지"
   },
   ", and ": {
-    "message": ", 그리고 "
+    "message": ", "
   },
   "space terraformings": {
     "message": "우주 테라포밍"
   },
   ". When he is not coding, he enjoys studying ": {
-    "message": " 등의 다양한 분야에 관심이 많습니다. 코딩을 하지 않을 때는 주로 "
+    "message": " 등에 관심이 많습니다. 요즘에는 "
   },
   "modern history": {
     "message": "근현대사"
@@ -282,7 +282,7 @@
     "message": "경제학"
   },
   ". ": {
-    "message": "에 대해 배우는 것을 좋아합니다. "
+    "message": "을 하는 것을 좋아합니다."
   },
   "Google Latest Articles Instead": {
     "message": "Google에서 새로운 자료 찾아보기"
@@ -555,12 +555,6 @@
   "🤖": {
     "message": "🤖"
   },
-  ", working at decacorn ": {
-    "message": "에서 활동하며, 데카콘 기업 "
-  },
-  ". He previously worked at ": {
-    "message": "에서 일하고 있습니다. 이전에는 "
-  },
   "Karrot": {
     "message": "당근마켓"
   },
@@ -568,10 +562,10 @@
     "message": "우아한형제들"
   },
   ", usually with next-gen ": {
-    "message": "에서 차세대 "
+    "message": "에서 인턴으로 근무하며 차세대 "
   },
   ". His academic interest spans ": {
-    "message": "으로 재밌는 것들을 만들었습니다. 그 외에도 "
+    "message": "을 사용해 재밌는 것들을 만들었습니다. 그 외에도 "
   },
   "theme.NavBar.navAriaLabel": {
     "message": "Main",
@@ -580,5 +574,26 @@
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
+  },
+  ". He previously interned at ": {
+    "message": "에서 지냅니다. 이전에는 "
+  },
+  ", reading ": {
+    "message": "에 대해 찾아보거나 "
+  },
+  "Wikipedia": {
+    "message": "위키피디아"
+  },
+  "📚": {
+    "message": "📚"
+  },
+  ", and playing": {
+    "message": "를 읽거나 "
+  },
+  "Splatoon": {
+    "message": "스플래툰"
+  },
+  "🎮": {
+    "message": "🎮"
   }
 }
