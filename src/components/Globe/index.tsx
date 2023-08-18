@@ -11,7 +11,7 @@ const locationToAngles = (lat, long) => {
   return [Math.PI - ((long * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180]
 }
 
-const SCALE = 1
+const SCALE = 2
 
 export const Globe = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
