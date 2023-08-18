@@ -555,12 +555,6 @@
   "🤖": {
     "message": "🤖"
   },
-  ", working at decacorn ": {
-    "message": ", working at decacorn "
-  },
-  ". He previously worked at ": {
-    "message": ". He previously worked at "
-  },
   "Karrot": {
     "message": "Karrot"
   },
@@ -580,5 +574,26 @@
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
+  },
+  ". He previously interned at ": {
+    "message": ". He previously interned at "
+  },
+  ", reading ": {
+    "message": ", reading "
+  },
+  "Wikipedia": {
+    "message": "Wikipedia"
+  },
+  "📚": {
+    "message": "📚"
+  },
+  ", and playing": {
+    "message": ", and playing"
+  },
+  "Splatoon": {
+    "message": "Splatoon"
+  },
+  "🎮": {
+    "message": "🎮"
   }
 }

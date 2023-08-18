@@ -21,6 +21,8 @@ import GrammarlyLogo from '@site/static/fonts/emoji/grammarly.png'
 import KarrotLogo from '@site/static/fonts/emoji/karrot.png'
 import BaeminLogo from '@site/static/fonts/emoji/baemin.png'
 import RobotEmoji from '@site/static/fonts/emoji/robot.png'
+import WikipediaEmoji from '@site/static/fonts/emoji/wikipedia.png'
+import SplatoonEmoji from '@site/static/fonts/emoji/splatoon.png'
 import { Globe } from '../components/Globe'
 import BrowserOnly from '@docusaurus/BrowserOnly'
 
@@ -102,7 +104,7 @@ const HeroText = () => {
             })}
             showByDefault="emoji"
           />
-          <Translate>{', working at decacorn '}</Translate>
+          <Translate>{'. He previously interned at '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Grammarly' })}
             photo={GrammarlyLogo}
@@ -111,7 +113,7 @@ const HeroText = () => {
             })}
             showByDefault="emoji"
           />
-          <Translate>{'. He previously worked at '}</Translate>
+          <Translate>{', '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Karrot' })}
             photo={KarrotLogo}
@@ -120,7 +122,7 @@ const HeroText = () => {
             })}
             showByDefault="emoji"
           />
-          <Translate>{' and '}</Translate>
+          <Translate>{', and '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Woowa Bros' })}
             photo={BaeminLogo}
@@ -206,6 +208,24 @@ const HeroText = () => {
             photo={BankEmoji}
             photoAlt={translate({
               message: '💰',
+            })}
+            showByDefault="emoji"
+          />
+          <Translate>{', reading '}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'Wikipedia' })}
+            photo={WikipediaEmoji}
+            photoAlt={translate({
+              message: '📚',
+            })}
+            showByDefault="emoji"
+          />
+          <Translate>{', and playing'}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'Splatoon' })}
+            photo={SplatoonEmoji}
+            photoAlt={translate({
+              message: '🎮',
             })}
             showByDefault="emoji"
           />
