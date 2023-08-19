@@ -5,9 +5,11 @@ slug: '/F7B0F0'
 
 > [Buying Twitter is an accelerant to creating X, the everything app](https://twitter.com/elonmusk/status/1577428272056389633)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dear Twitter Advertisers <a href="https://t.co/GMwHmInPAS">pic.twitter.com/GMwHmInPAS</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1585619322239561728?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote>
+> Dear Twitter Advertisers [pic.twitter.com/GMwHmInPAS](https://t.co/GMwHmInPAS)
+>
+> — [[Elon Musk]] (@elonmusk) [October 27, 2022](https://twitter.com/elonmusk/status/1585619322239561728?ref_src=twsrc%5Etfw)
 
-## [[Musk]]
+## [[Elon Musk]]
 
 I wanted to reach out personally to share my motivation for acquiring [[Twitter]]. There has been much speculation about why I bought [[Twitter]] and what I think about advertising. Most of it has been wrong. I acquired [[Twitter]] because it is essential to the future of civilization to have a standard digital town square where a wide range of beliefs can be debated healthily without resorting to violence. There is currently great danger that social media will splinter into far right-wing and far left-wing echo chambers that generate more hate and divide our society. In the relentless pursuit of clicks, much of traditional media has fueled and catered to those polarized extremes, as they believe that is what brings in the money, but, in doing so, the opportunity for dialogue is lost.
 
