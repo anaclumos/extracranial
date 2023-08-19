@@ -220,7 +220,7 @@ const HeroText = () => {
             })}
             showByDefault="emoji"
           />
-          <Translate>{', and playing'}</Translate>
+          <Translate>{', and playing '}</Translate>
           <EmojiReplaceableText
             text={translate({ message: 'Splatoon' })}
             photo={SplatoonEmoji}
