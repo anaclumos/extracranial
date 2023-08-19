@@ -88,19 +88,19 @@ const HeroText = () => {
           />
           <Translate>{' based in '}</Translate>
           <EmojiReplaceableText
-            text={translate({ message: 'Los Angeles' })}
-            photo={USEmoji}
+            text={translate({ message: 'Seoul' })}
+            photo={KoreaEmoji}
             photoAlt={translate({
-              message: '🇺🇸',
+              message: '🇰🇷',
             })}
             showByDefault="emoji"
           />
           <Translate>{' and '}</Translate>
           <EmojiReplaceableText
-            text={translate({ message: 'Seoul' })}
-            photo={KoreaEmoji}
+            text={translate({ message: 'Los Angeles' })}
+            photo={USEmoji}
             photoAlt={translate({
-              message: '🇰🇷',
+              message: '🇺🇸',
             })}
             showByDefault="emoji"
           />
@@ -195,19 +195,19 @@ const HeroText = () => {
           />
           <Translate>{'. When he is not coding, he enjoys studying '}</Translate>
           <EmojiReplaceableText
-            text={translate({ message: 'modern history' })}
-            photo={NewspaperEmoji}
-            photoAlt={translate({
-              message: '📰',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{' and '}</Translate>
-          <EmojiReplaceableText
             text={translate({ message: 'economics' })}
             photo={BankEmoji}
             photoAlt={translate({
               message: '💰',
+            })}
+            showByDefault="emoji"
+          />
+          <Translate>{' or '}</Translate>
+          <EmojiReplaceableText
+            text={translate({ message: 'modern history' })}
+            photo={NewspaperEmoji}
+            photoAlt={translate({
+              message: '📰',
             })}
             showByDefault="emoji"
           />

@@ -243,13 +243,13 @@
     "message": "입니다. 주로 "
   },
   "Los Angeles": {
-    "message": "LA"
+    "message": "로스앤젤레스"
   },
   " and ": {
-    "message": ", "
+    "message": "과 "
   },
   "Seoul": {
-    "message": "서울"
+    "message": "대전, 서울"
   },
   "web": {
     "message": "웹 기술"
@@ -595,5 +595,8 @@
   },
   "🎮": {
     "message": "🎮"
+  },
+  " or ": {
+    "message": "이나 "
   }
 }
