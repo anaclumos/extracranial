@@ -13,8 +13,8 @@ It's more about how to take thorough notes habitually.
 
 > It is about optimizing a _system outside yourself_, a system not subject to your limitations and constraints, leaving you happily unoptimized and free to roam, to wonder, to _wander_ toward whatever makes you feel alive here and now in each moment.
 
-The origin goes back to the commonplace book used by ancient scholars.
-They always carried a commonplace book, taking notes like a canvas synced with their brain.
+The origin goes back to the [[commonplace book]] used by ancient scholars.
+They always carried a [[commonplace book]], taking notes like a canvas synced with their brain.
 The so-called [[second brain]] is recreating the same concept on a digital device.
 Then, we can use such notes as cheat sheets for our lives.
 But in the real world, you can never expect what type of exam you'll face, what topics it will cover, and what answer it will require.

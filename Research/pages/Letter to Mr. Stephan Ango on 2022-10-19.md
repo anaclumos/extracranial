@@ -4,7 +4,7 @@ slug: '/4890CA'
 ---
 
 - [[Stephan Ango]]
-- [[Mail|Letter]] to Mr. Stephan Ango on [[2022-10-19]]
+- [[Mail|Letter]] to Mr. [[Stephan Ango]] on [[2022-10-19]]
 
 Dear Engineer Ango,
 

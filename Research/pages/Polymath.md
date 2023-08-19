@@ -8,4 +8,4 @@ A polymath is a person who has expertise in multiple fields of study or areas of
 
 Polymaths are characterized by their ability to excel in various fields and their tendency to integrate knowledge from different domains to solve complex problems or create new ideas. In addition, they are often creative, curious, and driven to learn and may pursue multiple careers throughout their lives.
 
-Historically, many famous polymaths have included figures such as Leonardo da Vinci, Benjamin Franklin, and Thomas Jefferson. In modern times, some examples of polymaths include Elon Musk, Neil deGrasse Tyson, and Stephen Fry.
+Historically, many famous polymaths have included figures such as Leonardo da Vinci, Benjamin Franklin, and Thomas Jefferson. In modern times, some examples of polymaths include [[Elon Musk]], Neil deGrasse Tyson, and Stephen Fry.

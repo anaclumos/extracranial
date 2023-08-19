@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/D344B2'
-aliases: ['효과적 가속주의']
+aliases: ['효과적 가속주의', 'E-ACC', 'EACC']
 ---
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA : pledging 44B to foundation<br/>e/acc : buying twitter</p>&mdash; George Hotz 🐀 (@realGeorgeHotz) <a href="https://twitter.com/realGeorgeHotz/status/1597015538890248192?ref_src=twsrc%5Etfw">November 27, 2022</a></blockquote>
@@ -17,9 +17,9 @@ aliases: ['효과적 가속주의']
 
 1. 인류에게 무엇보다 중요한 목표는 **의식의 빛**(The light of consciousness)을 보존하는 것이다.
 
-<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">
-이것이 우리가 우주 문명이 되어 다른 행성으로 생명을 연장함으로써 의식의 빛을 보존해야 하는 이유입니다.
-<a href="https://t.co/UDDP8I1zsS">https://t.co/UDDP8I1zsS</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1011083630301536256?ref_src=twsrc%5Etfw">June 25, 2018</a></blockquote>
+> 이것이 우리가 우주 문명이 되어 다른 행성으로 생명을 연장함으로써 의식의 빛을 보존해야 하는 이유입니다. [https://t.co/UDDP8I1zsS](https://t.co/UDDP8I1zsS)
+>
+> — [[Elon Musk]] (@elonmusk) [June 25, 2018](https://twitter.com/elonmusk/status/1011083630301536256?ref_src=twsrc%5Etfw)
 
 2. 기술과 시장의 힘(기술적 자본주의)은 힘과 능력이 더더욱 강해지고 있다.
 3. 이는 멈출 수 없다.

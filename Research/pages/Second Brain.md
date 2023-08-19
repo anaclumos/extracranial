@@ -6,7 +6,7 @@ aliases: ['Digital Brain']
 
 ## State-of-the-art References
 
-### [Stephan Ango](https://stephanango.com)
+### [[Stephan Ango]] [Link](https://stephanango.com)
 
 <details>
 <summary>Images</summary>
