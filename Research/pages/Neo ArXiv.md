@@ -20,5 +20,16 @@ And people only know what they want after seeing the future.
 
 - What if we add interactive widgets in the middle of the papers?
 - What if we add [[3D]] models right in the papers?
-- Citations are automatically generated, similarly to how `package.json` works in `npm install`
+- Citations are automatically generated, similarly to how package.json works in npm install
+- What if we can auto-translate to all locales? [[ACL 60-60]]
 - and so on...
+
+## [jenni.ai](https://jenni.ai/)
+
+![[F21F1E.png]]
+![[E0E3AD.png]]
+
+Why do they have so many typos?
+
+![[CCDCB9.png]]
+![[2FF4EA.png]]
