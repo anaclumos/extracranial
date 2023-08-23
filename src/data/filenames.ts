@@ -1833,6 +1833,7 @@ export const filenames = {
     "postcredit.info": "8DFCEE",
     "sem.sh": "BB0A88",
     "sitemap.xml": "F38B66",
+    "sssss": "450720",
     "tRPC": "C6CFE9",
     "tabExtend": "4BE8EF",
     "tabOS": "B15BBD",

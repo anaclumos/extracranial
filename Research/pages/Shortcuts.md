@@ -2,6 +2,12 @@
 slug: '/067A7D'
 ---
 
+:::danger
+
+Superseded by [[sssss]]
+
+:::
+
 [[2022-05-07]]
 
 ## Path for Karabiner Advanced Settings
