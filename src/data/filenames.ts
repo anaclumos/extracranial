@@ -862,7 +862,7 @@ export const filenames = {
     "Engine Equation": "1AA7D6",
     "Engine Equation (Metapage)": "39BFED",
     "Ensemble learning": "6CC1F7",
-    "Entropy": "A796F1.",
+    "Entropy": "A796F1",
     "Era of Invites": "749C99",
     "Ethereum RPC as a Service": "B03A6A",
     "Ethnologue 200": "8C04B8",

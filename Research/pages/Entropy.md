@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '/A796F1.'
+slug: '/A796F1'
 aliases: ['information density']
 ---
 
