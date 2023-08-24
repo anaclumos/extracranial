@@ -79,7 +79,7 @@
     "build": " NODE_OPTIONS=\"--max-old-space-size=16384\" docusaurus build",
     "bundle": "python3 tools/bundle.py",
     "clean": "$npm_execpath run clear",
-    "clear": "rm -rf 'blog' && rm -rf 'docs' && rm -f '**/*.config.js' && rm -f '**/*.config.js.map' && rm -rf 'i18n /**/*.md' && cp tools/안녕하세요.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n /**/*.png' && rm -rf 'i18n /**/*.svg' && rm -rf 'i18n /**/*.jpg' && rm -rf 'i18n /**/*.jpeg'",
+    "clear": "docusaurus clear && rm -rf 'blog' && rm -rf 'docs' && rm -rf '**/*.config.js' && rm -rf '**/*.config.js.map' && rm -f 'docusaurus.config.js.map' && rm -f 'docusaurus.config.js' && rm -rf 'i18n /**/*.md' && cp tools/안녕하세요.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n /**/*.png' && rm -rf 'i18n /**/*.svg' && rm -rf 'i18n /**/*.jpg' && rm -rf 'i18n /**/*.jpeg'",
     "dev": "$npm_execpath run start",
     "docusaurus": "docusaurus",
     "figcaption": "python3 tools/img-alt-to-figcaption.py",
