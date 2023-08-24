@@ -4,6 +4,7 @@
 blog
 docs
 i18n/ko/docusaurus-plugin-content-blog/*/*
+i18n/ko/docusaurus-plugin-content-docs/current/pages/*
 *.pyc
 
 # Dependencies
