@@ -6,6 +6,17 @@ SOURCE_DIR = "./Research"
 DESTINATION_DIR = "./docs"
 DEBUG = False
 
+# What this file does:
+
+# Wikilinks to MD links
+# [[file]] -> [file](file.md)
+# [[file|display text]] -> [display text](file.md)
+
+# Korean localization
+# 한영 병치된 문서에 한해 frontmatter의 ko_title 값을 title로 승격, lang: 'ko' 추가
+
+
+
 # first, remove all files in the target directory
 if os.path.isdir(DESTINATION_DIR):
     shutil.rmtree(DESTINATION_DIR)
@@ -65,13 +76,14 @@ def process(file, all_files, counter):
                 new_lines = []
                 new_lines.append("---\n")
                 for key in metadata:
-                    new_lines.append(key + ": '" + str(metadata[key]) + "'\n")
+                    if not str(metadata[key]).startswith('['):
+                        new_lines.append(key + ": '" + str(metadata[key]) + "'\n")
+                    else:
+                        new_lines.append(key + ": " + str(metadata[key]) + "\n")
                 new_lines.append("---\n")
                 new_lines.append("\n")
                 new_lines.append(content.replace("TabItem value='ko'", "TabItem value='ko' default"))
                 # write this in i18n/ko/docusaurus-plugin-content-docs/current/pages/file
-                if not os.path.isdir('./i18n/ko/docusaurus-plugin-content-docs/current/pages/' + '/'.join(file.split('/')[:-1])):
-                    os.makedirs('./i18n/ko/docusaurus-plugin-content-docs/current/pages/' + '/'.join(file.split('/')[:-1]))
                 with open('./i18n/ko/docusaurus-plugin-content-docs/current/pages/' + file.split('/')[-1], 'w') as f2:
                     # make directory if it doesn't exist
                     f2.write(''.join(new_lines))
