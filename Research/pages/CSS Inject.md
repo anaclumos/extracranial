@@ -5,10 +5,10 @@ slug: '/6F4A43'
 
 ```css
 * {
-  --font-family-headline: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple Color Emoji', 'Segoe UI Emoji',
-    system-ui, -system-ui, sans-serif;
-  --font-family-text: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple Color Emoji', 'Segoe UI Emoji',
-    system-ui, -system-ui, sans-serif;
+  --font-family-headline: 'SF Pro', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard',
+    'Apple Color Emoji', 'Segoe UI Emoji', system-ui, -system-ui, sans-serif;
+  --font-family-sans-serif: 'SF Pro', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard',
+    'Apple Color Emoji', 'Segoe UI Emoji', system-ui, -system-ui, sans-serif;
   --font-family-monospace: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
   word-wrap: break-word;
   word-break: keep-all;
