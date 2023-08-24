@@ -12,9 +12,6 @@ DEBUG = False
 # [[file]] -> [file](file.md)
 # [[file|display text]] -> [display text](file.md)
 
-# Korean localization
-# 한영 병치된 문서에 한해 frontmatter의 ko_title 값을 title로 승격, lang: 'ko' 추가
-
 
 
 # first, remove all files in the target directory
@@ -67,27 +64,6 @@ def process(file, all_files, counter):
         for line in lines:
             line = line.replace("[[{{date:YYYY-MM-DD}}]]", "date:YYYY-MM-DD")
 
-            import frontmatter
-            metadata, content = frontmatter.parse("".join(lines))
-            if "ko_title" in metadata and metadata["ko_title"] != "":
-                metadata["title"] = metadata["ko_title"]
-                del metadata["ko_title"]
-                metadata["lang"] = "ko"
-                new_lines = []
-                new_lines.append("---\n")
-                for key in metadata:
-                    if not str(metadata[key]).startswith('['):
-                        new_lines.append(key + ": '" + str(metadata[key]) + "'\n")
-                    else:
-                        new_lines.append(key + ": " + str(metadata[key]) + "\n")
-                new_lines.append("---\n")
-                new_lines.append("\n")
-                new_lines.append(content.replace("TabItem value='ko'", "TabItem value='ko' default"))
-                # write this in i18n/ko/docusaurus-plugin-content-docs/current/pages/file
-                with open('./i18n/ko/docusaurus-plugin-content-docs/current/pages/' + file.split('/')[-1], 'w') as f2:
-                    # make directory if it doesn't exist
-                    f2.write(''.join(new_lines))
-                
             while "[[" in line and "]]" in line:
                 print() if DEBUG else None
                 print(line.rstrip("\n")) if DEBUG else None
@@ -137,10 +113,11 @@ def process(file, all_files, counter):
                     print("→ Could not find: " + wikilink) if DEBUG else None
                     line = line.replace(f"[[{wikilink}]]", wikilink)
             f.write(line)
-        if current_language == "ko":
-            f.write(ko_header)
-        else:
-            f.write(en_header)
+        # Temporarily disabling this
+        # if current_language == "ko":
+        #     f.write(ko_header)
+        # else:
+        #     f.write(en_header)
     return counter
 
 
