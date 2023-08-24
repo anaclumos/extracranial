@@ -1,5 +1,6 @@
 ---
 lang: 'en'
+ko_title: ''
 slug: '{{hex}}'
 ---
 
