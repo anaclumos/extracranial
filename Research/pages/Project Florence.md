@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/8429A4'
 ---
 
-Project Florence is a research project on [[Federated Learning]].
+Project Florence is a research project on [[Federated Machine Learning]].
 
 - [ ] [[Qiang Yang et al. Federated Machine Learning Concept and Applications]]
 - [ ] [[Tian Li et al. Federated Learning Challenges, Methods, and Future Directions]]

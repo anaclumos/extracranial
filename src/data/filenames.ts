@@ -883,7 +883,7 @@ export const filenames = {
     "Facebook": "D849F0",
     "Facebook Messenger": "7A5912",
     "Feature Flag": "A8B9E5",
-    "Federated Learning": "7A2A8B",
+    "Federated Machine Learning": "7A2A8B",
     "Fediverse": "E2DA1D",
     "Fiercely Overpriced": "72B85F",
     "Figma": "4CBA7C",
