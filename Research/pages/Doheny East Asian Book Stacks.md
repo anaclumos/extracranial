@@ -1,7 +1,7 @@
 ---
 lang: 'ko'
 slug: '/567E18'
-aliases: ['동헤니', '도헤니', 'Doheny']
+aliases: ['동헤니', '도헤니', 'Doheny', '동아시아관', '도서관 동아시아관']
 ko_title: '도헤니 동아시아 기록보관소'
 ---
 
