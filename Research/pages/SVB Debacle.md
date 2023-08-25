@@ -14,9 +14,9 @@ slug: '/4EF9FC'
 
 ### [An Update on USDC and Silicon Valley Bank](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank)
 
-- While USDC can be used 24/7/365 on chain, issuance and redemption are constrained by the working hours of the U.S. banking system.
-- USDC liquidity operations will usually [[resume]] when banks open in the United States on Monday morning. As a practical matter, our teams are well prepared to handle the significant volume built on the solid liquidity and reserve assets discussed below.
-- USDC will remain redeemable 1 for 1 with the U.S. Dollar as a regulated payment token.
+- While USDC can be used 24/7/365 on chain, issuance and redemption are constrained by the working hours of the [[United States of America|U.S.]] banking system.
+- USDC liquidity operations will usually [[resume]] when banks open in the [[United States of America|United States]] on Monday morning. As a practical matter, our teams are well prepared to handle the significant volume built on the solid liquidity and reserve assets discussed below.
+- USDC will remain redeemable 1 for 1 with the [[United States of America|U.S.]] Dollar as a regulated payment token.
 
 ### [SVB Financial: Blow Up Risk (SIVB)](https://seekingalpha.com/article/4565388-svb-financial-blow-up-risk)
 
