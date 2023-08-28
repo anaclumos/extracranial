@@ -22,7 +22,7 @@ slug: '/E203C9'
 
 ## But a self-taught can code a dang fantastic [[React]] shopping mall!
 
-- A self-taught dev can use [[React]] to make a cool-looking Single-Page-App [[JavaScript]] [[ecommerce|e-commerce]] website...
+- A self-taught dev can use [[React]] to make a cool-looking Single-Page-App [[JavaScript]] [[e-commerce]] website...
 - But we must think,
 
 > What makes [[React]] so coolly?

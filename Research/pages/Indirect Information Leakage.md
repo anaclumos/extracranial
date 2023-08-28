@@ -20,7 +20,7 @@ Indirect Information Leakage occurs when the updates sent from the local devices
 1. **Secure Aggregation**. Aggregating model updates securely and encrypted can mitigate the risk of indirect information leakage.
 2. **[[Differential Privacy]]**. Adding noise to the data or the model updates can help obfuscate the individual contributions, making it more difficult for attackers to reverse-engineer the original data.
 3. **Regularization Techniques**. Techniques like model averaging can dilute the impact of any user's data, making extracting individual information from the aggregated model more challenging.
-4. **Advanced Cryptographic Techniques**. [[Secure Multi Party Computation]] ([[Secure Multi Party Computation|SMC]]) and [[Homomorphic Encryption]] can be used for more secure computation and aggregation.
+4. **Advanced Cryptographic Techniques**. [[Secure Multi-Party Computation]] ([[Secure Multi-Party Computation|SMC]]) and [[Homomorphic Encryption]] can be used for more secure computation and aggregation.
 5. **User Anonymization**. Masking user identities during the model update aggregation can provide an additional layer of security.
 6. **Monitoring and Auditing**. Continuously monitoring the model updates for signs of indirect information leakage and having an audit trail can help trace back and mitigate any potential leaks.
 
