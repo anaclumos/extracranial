@@ -123,7 +123,7 @@ Also, instead of having one [[newsletter]] that could be transformed into many l
 
 ## [[2023-07-13]]
 
-Completed the [[Project Linguine]] [[Engine]]: [[Linguine Engine Test Drive Result 2023-07-13]]
+Completed the [[Project Linguine]] [[Engine]]. [[Linguine Engine Test Drive Result 2023-07-13]]
 
 ## [[2023-07-15]]
 

@@ -170,6 +170,8 @@ if __name__ == "__main__":
                     " | npj Digital Medicine": "",
                     " - Databricks": "",
                     "background-color: rgb(228, 228, 228);": "",
+                    "**: ": "**. ",
+                    "]]: ": "]]. ",
                 }
 
                 for rule in REPLACE_RULES:

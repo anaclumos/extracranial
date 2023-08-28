@@ -17,7 +17,7 @@ slug: '/8B3C7F'
 
 ## watchOS
 
-- [[NavigationStack]] → [[NavigationSplitView]]: a renewed focus on pagination, using the digital crown
+- [[NavigationStack]] → [[NavigationSplitView]]. a renewed focus on pagination, using the digital crown
 - [[containerBackground]] modifier using gradient fills, giving spatial cognition
 - [[ToolbarItem]] → Using corners of Apple Watch
 - using app intent will push a widget to the top of the new [[Smart Stack]].
@@ -32,10 +32,10 @@ slug: '/8B3C7F'
 ## Privacy
 
 - Calendar Permissions: Calendar Add-only permission.
-- [[Limit Access for Photos]]: New photo picker component
+- [[Limit Access for Photos]]. New photo picker component
 - [[Privacy Manifest]] that automatically aggregates third-party analytics SDKs privacy manifests
-- [[Privacy Supply Chains]]: Signature for third-party SDKs.
-- [[Sensitive Content Analysis Framework]]: On-device nudity detection & Sensitive Content Warning Blurring
+- [[Privacy Supply Chains]]. Signature for third-party SDKs.
+- [[Sensitive Content Analysis Framework]]. On-device nudity detection & Sensitive Content Warning Blurring
 
 ## [[App Store]]
 
@@ -44,7 +44,7 @@ slug: '/8B3C7F'
   - Across all devices
   - [[Accessibility|a11y]], and [[Internationalization|i18n]] built-in
   - Auto-detect user eligibility (no "Re-validate")
-- [[SKAdNetwork]]: [[App Store]]'s more in-depth analytics: Re-engagement detection.
+- [[SKAdNetwork]]. [[App Store]]'s more in-depth analytics: Re-engagement detection.
 
 ## [[Xcode]]
 
@@ -54,7 +54,7 @@ slug: '/8B3C7F'
 - Testing: Test Report Result Overview page (Error Heat Map)
   - Test Live Replay (Timeline)
 - [[Accessibility]] Frames (HTML-like component descriptions within app scene)
-- [[Xcode Cloud]]: 2x faster workflows. Share Tester Notes. [[macOS]] notarization (check malicious components)
+- [[Xcode Cloud]]. 2x faster workflows. Share Tester Notes. [[macOS]] notarization (check malicious components)
 - Speed & Size improvements on [[Xcode]] Binaries
 
 ## [[visionOS]]

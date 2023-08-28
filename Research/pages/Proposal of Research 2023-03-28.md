@@ -38,7 +38,7 @@ Recent studies have shown that [[LLM|LLMs]] can be susceptible to PI attacks, wh
 
 This research will contribute to understanding PI attacks and their potential consequences in the context of [[LLM|LLMs]]. Furthermore, it will help develop an authority system for Generative Text AIs and propose mitigation techniques that can be employed to enhance the security and privacy of users as [[LLM|LLMs]] are integrated into more applications and systems.
 
-## Dynamic [[Font]] Generation with [[Generative AI]]: Replicating Handwriting Fonts and Their Natural Flow
+## Dynamic [[Font]] Generation with [[Generative AI]]. Replicating Handwriting Fonts and Their Natural Flow
 
 ### Abstract
 
@@ -73,7 +73,7 @@ Dynamic [[font features]] are crucial in creating high-quality, natural-looking 
 
 This research will contribute to developing more realistic and versatile handwriting fonts by leveraging [[Generative AI]] and considering dynamic [[font features]]. The resulting fonts will better represent the natural flow of handwritten text and offer more aesthetically pleasing options for designers and content creators. This exploration has the potential to transform the field of [[font]] generation and expand the applications of [[Generative AI]] in graphic design and personalized communication.
 
-## Enhancing Web [[Accessibility]]: Utilizing [[Generative AI]] to Generate Descriptive Alt Text for Images Automatically
+## Enhancing Web [[Accessibility]]. Utilizing [[Generative AI]] to Generate Descriptive Alt Text for Images Automatically
 
 ### Abstract
 
@@ -127,7 +127,7 @@ The current iframe technology poses performance and security issues due to its s
 ### Methodology
 
 - Literature review: Conduct a comprehensive review of existing iframe technology and its limitations, as well as recent advancements in [[Web Worker|Web Workers]], [[SharedArrayBuffer]], and [[WebAssembly]].
-- Design [[iiframe]]: Develop a conceptual model for [[iiframe]], outlining its architecture, components, and communication mechanisms between [[Web Worker|Worker Threads]] and the main thread.
+- Design [[iiframe]]. Develop a conceptual model for [[iiframe]], outlining its architecture, components, and communication mechanisms between [[Web Worker|Worker Threads]] and the main thread.
 - Implement [[iiframe]] prototype: Build a prototype of [[iiframe]] that leverages [[Web Worker|Web Workers]], [[SharedArrayBuffer]], and [[WebAssembly]] to offer secure, high-performance multi-threading for web applications.
 - Evaluate [[iiframe]] performance: Assess [[iiframe]]'s performance, responsiveness, and security by comparing it with traditional iframe technology in various web application scenarios.
 - Identify potential use cases: Explore the possible applications and benefits of [[iiframe]] in modern web development, particularly in the internet-computer era.
@@ -143,7 +143,7 @@ The current iframe technology poses performance and security issues due to its s
 
 This research will contribute to developing [[iiframe]], an improved iframe version to address performance and security limitations. By offering secure, high-performance multi-threading for web applications, [[iiframe]] will revolutionize web development practices and enable the creation of more responsive, interactive, and immersive web applications. This will ultimately lead to a better user experience and pave the way for new possibilities in the internet-computer era.
 
-## [[Photo Library of Babel]]: Exploring the Implications of Finite Pixel Combinations on Human Creativity and [[Generative AI|Generative AIs]]
+## [[Photo Library of Babel]]. Exploring the Implications of Finite Pixel Combinations on Human Creativity and [[Generative AI|Generative AIs]]
 
 ### Abstract
 

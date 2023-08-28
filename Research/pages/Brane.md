@@ -30,8 +30,8 @@ Brane's idea loosely follows the Progressive Web App and MiniApp Standardization
 
 ### Terminology
 
-- **Host**: The main thread app
-- **Guest**: Untrusted, third-party app that should be containerized.
+- **Host**. The main thread app
+- **Guest**. Untrusted, third-party app that should be containerized.
 
 ### Primary goals in Demo
 

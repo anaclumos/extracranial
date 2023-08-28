@@ -55,8 +55,8 @@ To enable [[SharedArrayBuffer]], we need a secure context `crossOriginIsolated`.
 
 To set `crossOriginIsolated` to true, we need two headers.
 
-- [[Cross-Origin Opener Policy]]: `same-origin`
-- [[Cross-Origin Embedder Policy]]: `require-corp`
+- [[Cross-Origin Opener Policy]]. `same-origin`
+- [[Cross-Origin Embedder Policy]]. `require-corp`
 
 Tim already built a super easy toolkit that sets both headers to the desired values.
 Then we only need to

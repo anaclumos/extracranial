@@ -30,7 +30,7 @@ Now, let us consider a scenario where you are the CPU, and you need to fetch an 
 
 ![I used a popular image compression tool, Optimage, and it made the file 98% smaller.](../assets/8DDFF2.png)
 
-Now let's come back to [[ChatGPT]]: the "blurry image" loses quality due to compression, but it's much smaller and tens of thousands of times faster to decode. The same is true for [[ChatGPT]]: the quality of the information is often compromised, but as long as we're careful about the accuracy, it can revolutionize how we learn and process information.
+Now let's come back to [[ChatGPT]]. the "blurry image" loses quality due to compression, but it's much smaller and tens of thousands of times faster to decode. The same is true for [[ChatGPT]]. the quality of the information is often compromised, but as long as we're careful about the accuracy, it can revolutionize how we learn and process information.
 
 **In this way, we must embrace blurry JPEGs and use them wherever possible. This is the approach taken by internet companies to compress information and make it more accessible. Just as we strive to develop better compression algorithms, we must also push [[LLM|LLMs]] like [[ChatGPT]] further to make knowledge compression more efficient and affordable.**
 

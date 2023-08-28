@@ -43,7 +43,7 @@ slug: '/8B4F7C'
 - Things that lack:
   - Enterprise-grade [[OCR]] for [[PDF]] documents still doesn't exist in 2022, albeit having state-of-the-art computer vision techniques.
   - Interactive and web-enabled forms. Sometimes it saves without the data filled in
-  - Slow page loads. Better [[Alternative|alternatives]]: [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].
+  - Slow page loads. Better [[Alternative|alternatives]]. [[EPUB]], [[MOBI]] for texts. For generic use cases, [[DjVu]].
 
 ## References
 

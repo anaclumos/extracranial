@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/A01101'
 ---
 
-- [[Graphics]]: How to pass instructions from [[CPU]] to [[GPU]].
+- [[Graphics]]. How to pass instructions from [[CPU]] to [[GPU]].
 - In DirectX, it is ID3D11Buffer
 
 ```cpp

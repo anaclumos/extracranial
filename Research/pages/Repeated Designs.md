@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/961C8F'
 ---
 
-[[Simulated Annealing for Designs]]: [Good Design](https://shud.in/posts/good-design)
+[[Simulated Annealing for Designs]]. [Good Design](https://shud.in/posts/good-design)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">every SaaS website ever <a href="https://t.co/zDllr8bAXf">pic.twitter.com/zDllr8bAXf</a></p>&mdash; Ansub Khan (@justansub) <a href="https://twitter.com/justansub/status/1618322234275426304?ref_src=twsrc%5Etfw">January 25, 2023</a></blockquote>
 
@@ -15,7 +15,7 @@ slug: '/961C8F'
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Obsessed with our website <a href="https://t.co/DKhAcubq1V">pic.twitter.com/DKhAcubq1V</a></p>&mdash; Brendan Falk ◧ (@BrendanFalk) <a href="https://twitter.com/BrendanFalk/status/1597727837305569280?ref_src=twsrc%5Etfw">November 29, 2022</a></blockquote>
 
-> Weekend side [[project]]: A gallery of the best looking devtool landing pages
+> Weekend side [[project]]. A gallery of the best looking devtool landing pages
 >
 > Coming soon! [pic.twitter.com/eIn1ItPhLB](https://t.co/eIn1ItPhLB)
 >
