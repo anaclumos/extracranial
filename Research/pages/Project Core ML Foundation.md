@@ -89,7 +89,7 @@ Classification is used to produce discrete results or categories.
 Regression deals with continuous data.
 
 - Easy to implement & Adapts easily & Few hyperparameters
-- Does not scale well & Curse of dimensionality & Prone to overfitting
+- Does not scale well & Curse of dimensionality & Prone to [[overfitting]]
 
 ## Different Types of [[ML]]
 
@@ -147,7 +147,7 @@ Agent receives rewards (R) for each action it takes.
 The series of actions taken by the agent defines the policy (π) and the rewards collected to define the value (V).
 The main goal here is to maximize rewards by choosing the optimum policy.
 
-## Overfitting
+## [[Overfitting]]
 
 When capturing the noise of the data
 

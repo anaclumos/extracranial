@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/8B82A7'
 aliases:
   [
-    'E-commerce',
+    'ecommerce',
     'E commerce',
     'E-com',
     'E-coms',
