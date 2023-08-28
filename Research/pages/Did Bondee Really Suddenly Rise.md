@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/CFEB86'
 ---
 
-Yesterday, we took a closer look into [[Bondee]]: [[Sudden Rise of Bondee]]. But did it suddenly rise?
+Yesterday, we took a closer look into [[Bondee]]. [[Sudden Rise of Bondee]]. But did it suddenly rise?
 
 :::danger
 This article examines the connection between [[Bondee]] and Zheli, a now-shut-down [[중국|Chinese]] service, and the allegations of personal information infringement regarding Zheli. [[Bondee]] has not yet encountered any information infringement cases or operational security problems. We cannot draw a definitive conclusion about [[Bondee]] simply from a few speculations. This article does not raise suspicions about the [[Bondee]] service. Please keep this part in mind and read it.

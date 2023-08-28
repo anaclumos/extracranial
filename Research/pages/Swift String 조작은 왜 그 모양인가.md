@@ -23,8 +23,8 @@ if String(string[String.Index(string.startIndex, offsetBy: i)]) != String(string
 저 **말 많은** 문법이 보이는가?
 근데 Swift String이 이렇게 디자인된 이유가 있다.
 
-- **Substrings**: Swift Strings는 함수에 대입되거나 전달될 때 복사되는 데이터 타입이다. 안정성에는 좋지만 특히 큰 문자열을 사용할 때 효율이 좋지 않다. **Substring** 데이터 유형을 쓰면 새 인스턴스를 생성하지 않아 효율적이다.
-- **String.Index, Character**: Swift String은 유니코드 정확(Unicode Correct)하다. 복잡한 이모티콘이 3-4자 길이로 결합된 경우를 본 적 있는가? 여기에는 **é**, **김** 또는 **🇮🇳**와 같은 "확장된 서기소 묶음(Extended grapheme clusters)"이 있는 [[Vocab|단어]]가 포함된다. Integer를 사용하면 각 문자열의 길이가 달라지지만 String.Index와 Character를 사용하면 모두 길이 1이다. [Apple의 예시](https://developer.apple.com/documentation/swift/string):
+- **Substrings**. Swift Strings는 함수에 대입되거나 전달될 때 복사되는 데이터 타입이다. 안정성에는 좋지만 특히 큰 문자열을 사용할 때 효율이 좋지 않다. **Substring** 데이터 유형을 쓰면 새 인스턴스를 생성하지 않아 효율적이다.
+- **String.Index, Character**. Swift String은 유니코드 정확(Unicode Correct)하다. 복잡한 이모티콘이 3-4자 길이로 결합된 경우를 본 적 있는가? 여기에는 **é**, **김** 또는 **🇮🇳**와 같은 "확장된 서기소 묶음(Extended grapheme clusters)"이 있는 [[Vocab|단어]]가 포함된다. Integer를 사용하면 각 문자열의 길이가 달라지지만 String.Index와 Character를 사용하면 모두 길이 1이다. [Apple의 예시](https://developer.apple.com/documentation/swift/string):
 
   ```swift
   let cafe = "Cafe\u{301} du 🌍"

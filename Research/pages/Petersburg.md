@@ -27,7 +27,7 @@ No spiritual, economic, or cultural center. With only one man's will.
 
 > The city can be the antithesis of the surroundings...
 
-Pushkin put [[Peter the Great]] as **the Bronze Horseman**: a robust and powerful individual dealing with natural consequences.
+Pushkin put [[Peter the Great]] as **the Bronze Horseman**. a robust and powerful individual dealing with natural consequences.
 Pushkin is Russia's greatest poet and innovator in Romanticism, archaist, socially progressive, and conservative.
 However, V. N. Berkh put it entirely differently...
 

@@ -10,13 +10,13 @@ I am sick of the fuzz and buzz of Silicon Valley. I don't care about YC. I don't
 - [[Dilemmas of Free stuffs]]
 - [[잡스와 생존 편향]]을 생각하며 항상 의구심을 가지자
 - [[강기업]]이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].
-- [[Bootstrap]]: 결국 VC는 외부인이다
-- [[Dilemmas of Technopreneur]]: 하지만 기술 중독에 걸리지 않도록 조심하자.
-- [[Antifragile]]: 위기가 아니라 버그 리포트이다
-- [[Groupthink]]: 자신만 믿는 비전을 굳세게 미는 사람은 실패할 수 밖에 없다
-- [[Battle of Flow and Asana]]: 하지만 이런 예시도 있다는 것을 기억하자
+- [[Bootstrap]]. 결국 VC는 외부인이다
+- [[Dilemmas of Technopreneur]]. 하지만 기술 중독에 걸리지 않도록 조심하자.
+- [[Antifragile]]. 위기가 아니라 버그 리포트이다
+- [[Groupthink]]. 자신만 믿는 비전을 굳세게 미는 사람은 실패할 수 밖에 없다
+- [[Battle of Flow and Asana]]. 하지만 이런 예시도 있다는 것을 기억하자
 - [[強力反權|강력반권]]
-- [[강력하게 미약한 도구들]]: Do one small thing, but surprisingly well
+- [[강력하게 미약한 도구들]]. Do one small thing, but surprisingly well
 
 > "I want to write a book, if only because I see so much bullshit going around in the world of startups and tech. The media is presenting startups in the wrong way. People think they need to build billion-dollar companies. They must fly to San Francisco, build a "network," and get a 10 million dollar investment from old rich guys. They need to hire [[10x]] power developers and work them for 100-hour work weeks while feeding them pizza and soda. It will be great, they said.
 >

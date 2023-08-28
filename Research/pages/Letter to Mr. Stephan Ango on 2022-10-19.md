@@ -16,7 +16,7 @@ I also have a [[Memex]] or, in my term, _[[Extracranial]]_ at [https://cho.sh](h
 You also have your page there!
 
 - Your Page: [https://cho.sh/r/6A9784](https://cho.sh/r/6A9784)
-- [[Generative Intelligence]]: [https://cho.sh/r/9A0D39](https://cho.sh/r/9A0D39)
+- [[Generative Intelligence]]. [https://cho.sh/r/9A0D39](https://cho.sh/r/9A0D39)
 
 If you are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I have built a custom [[React]] application for presenting on the web instead of [[Obsidian]] Publish.
 You are located here :)

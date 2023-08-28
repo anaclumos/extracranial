@@ -9,15 +9,15 @@ RedwoodJS is a full-stack, open-source JavaScript framework for building web app
 - The [[front-end]] is built with **React**, a popular JavaScript library for building user interfaces.
 - For the [[back-end]], Redwood uses **[[GraphQL]]**, a query language for APIs that allows you to request specific data and aggregate responses from multiple sources.
 - It utilizes **[[Prisma]]** as an Object-Relational Mapping (ORM) solution to manage the [[database]] layer. [[Prisma]] helps developers build performant and safe [[database]] access.
-- [[React Router]]: Redwood's router is declarative, built on the idea of "routes as a first-class concept."'
+- [[React Router]]. Redwood's router is declarative, built on the idea of "routes as a first-class concept."'
 - [[TypeScript]]
 - [[Jest]]
 - [[Storybook]]
 
 At a high level, RedwoodJS has two main parts:
 
-1. **The [[Back-End]]**: This is a [[GraphQL]] API built with [[Prisma]] and [[Apollo (GraphQL)]] Server. [[Prisma]] is used for [[database]] access, and Apollo Server is used to create the [[GraphQL]] server.
-2. **The [[Front-End]]**: This is a React application that's built with several libraries like Apollo Client (for fetching data from the [[GraphQL]] API), [[React Router]] (for routing), and [[Jest]] (for testing).
+1. **The [[Back-End]]**. This is a [[GraphQL]] API built with [[Prisma]] and [[Apollo (GraphQL)]] Server. [[Prisma]] is used for [[database]] access, and Apollo Server is used to create the [[GraphQL]] server.
+2. **The [[Front-End]]**. This is a React application that's built with several libraries like Apollo Client (for fetching data from the [[GraphQL]] API), [[React Router]] (for routing), and [[Jest]] (for testing).
 
 ## Some Discoveries
 

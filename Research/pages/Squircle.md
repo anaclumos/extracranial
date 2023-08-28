@@ -11,3 +11,5 @@ slug: '/84132A'
 ![[D6F77F.png]]
 ![[E28A77.png]]
 ![[E2297A.png]]
+
+## For generating one

@@ -19,10 +19,10 @@ The [[engine]] consumes assets and time to convert them to something else **usef
 - **Companies** are engines of various assets, such as capital, labor, and natural resources, and use them over time to produce goods or services that can be sold for profit.
 - **Universities** are engines that take in various assets, such as faculty, staff, students, and resources, and use them over time to produce outputs in education and research, and utility such as improved job prospects and higher levels of critical thinking and problem-solving skills.
 
-What is interesting about this definition is that engines are simply functions that can be recursed inside each other. This links with **Psychohistory**: a fictional science that uses statistical analysis to predict the behavior of large groups of people and to develop [[Strategy|strategies]] to shape the course of history. The universe is a type of **[[meta]]-[[engine]]** that operates on the collective behavior of large groups over time.
+What is interesting about this definition is that engines are simply functions that can be recursed inside each other. This links with **Psychohistory**. a fictional science that uses statistical analysis to predict the behavior of large groups of people and to develop [[Strategy|strategies]] to shape the course of history. The universe is a type of **[[meta]]-[[engine]]** that operates on the collective behavior of large groups over time.
 
 Eventually, the universe will be a tree of the chain-reacting engines, where the primal origin is the Big Bang, and the final output is heat. Ultimately, in a physical sense, an [[engine]] is the path for entropies to flow.
 
-> Eternal order is prescribed by the sacred [[engine]]: all things flow from the sacred [[engine]], all things in their place, all passengers in their section, all water flowing. all heat rising, pays homage to the sacred [[engine]], in its own particular preordained position...
+> Eternal order is prescribed by the sacred [[engine]]. all things flow from the sacred [[engine]], all things in their place, all passengers in their section, all water flowing. all heat rising, pays homage to the sacred [[engine]], in its own particular preordained position...
 >
 > — Snowpiercer (2013)

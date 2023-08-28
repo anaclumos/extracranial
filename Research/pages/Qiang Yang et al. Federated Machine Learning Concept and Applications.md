@@ -22,7 +22,7 @@ slug: '/807ED4'
 - 3 parties
   - Data Collector
   - Data Sanitizer
-  - ML Trainer
+  - [[ML]] Trainer
 - Privacy concerns
 
 ## Overview
@@ -30,7 +30,8 @@ slug: '/807ED4'
 - aim to extend to **all privacy-preserving decentralized collaborative [[ML|machine learning]] techniques.**
 - simple definition
   - $N$ parties federate their data without exposing them to each other to attain performance closely comparable to the model trained as if all the information were gathered.
-
-## Secure Multi-party Computation
-
--ing
+- [[Secure Multi Party Computation]]. jointly compute over their inputs while keeping those inputs private.
+- [[Differential Privacy]]. Add random noise to the data, making identifying any individual's data in the aggregate results difficult.
+- [[Homomorphic Encryption]]. allows computations on encrypted data without requiring decryption
+- [[Indirect Information Leakage]]
+  - Considered Blockchained [[Federated Machine Learning|FL]] architectures

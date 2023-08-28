@@ -6,7 +6,7 @@ aliases: ["Let's Alter"]
 
 ## Ongoing Subprojects
 
-- [ ] Perceptual Hashing [[On-Device|On Device]]: [[phash.wasm]]
+- [ ] Perceptual Hashing [[On-Device|On Device]]. [[phash.wasm]]
 
 ## [[TODO]]
 

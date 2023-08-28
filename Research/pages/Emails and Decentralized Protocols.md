@@ -21,4 +21,4 @@ slug: '/B26538'
 
 ## Others
 
-- [[Alexander Obenauer]]: My career began with [[Reimagining Emails]] and finding ways to build that vision on top of the existing [[Mail|email]] protocols.
+- [[Alexander Obenauer]]. My career began with [[Reimagining Emails]] and finding ways to build that vision on top of the existing [[Mail|email]] protocols.

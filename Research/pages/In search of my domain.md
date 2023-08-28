@@ -23,7 +23,7 @@ I later stumbled upon a domain name that caught my eye: `cho.sh`, especially giv
 So I decided to postpone using `cho.sh` and instead used `blog.chosunghyun.com`, which was longer but more conventional and safe. I also continued to learn and improve my web development skills, hoping to one day launch my website with `cho.sh`.
 In early 2022, I prepared to use `cho.sh` after figuring that the Urban Dictionary chosh term was deleted due to spam & wrongful information. Finally, I felt more confident and ready to showcase my work and thoughts online. I migrated my blog from WordPress to Ghost to [[Docusaurus]], making several contributions and almost **hacking** the framework along the way.
 
-It is also worth mentioning what I mean by "tech is ready." I wanted to make a fully customizable [[digital garden]] & [[second brain]]: I laid out my vision before starting to work on the framework. Take a look: [Creating Next-gen Digital Brains 🧠 @ Sunghyun Cho](/w/D8FB8E)
+It is also worth mentioning what I mean by "tech is ready." I wanted to make a fully customizable [[digital garden]] & [[second brain]]. I laid out my vision before starting to work on the framework. Take a look: [Creating Next-gen Digital Brains 🧠 @ Sunghyun Cho](/w/D8FB8E)
 
 Now, we all see I use the domain name `cho.sh`! I'm thrilled and proud of it.
 I sometimes think of golfing it further, something less than four characters, but all seems unlikely. I guess `cho.sh` is the best domain name I could have chosen, and I don't plan to change it anytime soon. It's my online home, and you're always welcome here.

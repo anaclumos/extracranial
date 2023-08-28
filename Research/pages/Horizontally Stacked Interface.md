@@ -5,8 +5,8 @@ slug: '/F415A9'
 
 Two types.
 
-- [[Three Column Design]]: Discord-Like Interface.
-- [[Sliding Panes]]: Have multiple-scrollable columns.
+- [[Three Column Design]]. Discord-Like Interface.
+- [[Sliding Panes]]. Have multiple-scrollable columns.
   - Can grow infinitely
   - For retaining readable column width + displaying hierarchical data
   - [[Better Hacker News]]?

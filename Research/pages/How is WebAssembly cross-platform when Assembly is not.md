@@ -16,7 +16,7 @@ slug: '/A51A6A'
   - JS Interpreter can skip the parsing
   - It can ship in a much more compact file format
 - [[WebAssembly|WASM]] is just like [[Java]] Byte-code. [[Java]] Byte-code is cross-platform when machine code for a real [[CPU]] is not. It's input for a JIT compiler that targets whatever real [[CPU]]. [Peter Cordes](https://stackoverflow.com/users/224132/peter-cordes)
-- [[WebAssembly|WASM]] defines its own \_CPU standards and [[Assembly]]: [WebAssembly Core Specification](https://webassembly.github.io/spec/core/bikeshed/).
+- [[WebAssembly|WASM]] defines its own \_CPU standards and [[Assembly]]. [WebAssembly Core Specification](https://webassembly.github.io/spec/core/bikeshed/).
 - To run [[WebAssembly|WASM]], the [[Web Browser|browser]] must still [[Compiling|compile]] the [[WebAssembly|WASM]] code into ASM code when executing; in that way, it is **much** slower than [[WebAssembly|WASM]].
 - However, [[WebAssembly|WASM]] is designed similarly to ASM. Therefore, [[compiling]] [[WebAssembly|WASM]] to ASM targeting x86, [[ARM Architecture|ARM]], and RISC-V, is comparably easy, and existing compilers emitting ASM can also emit [[WebAssembly|WASM]] with a reasonable modification.
 - What is the relationship between [[WebAssembly]] and [[Assembly]]?

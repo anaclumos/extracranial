@@ -123,7 +123,7 @@ The reasons for this are mainly historical. First, [[Grammarly]] boasts a compre
 - [[p-value hacking]]
 - [[E2E testing]] should be something we must do as a failsafe. It prevents the human problem from happening again.
 - Improving testing cadence: but we should be careful about [[Vanity Metrics]]
-- [[Interaction Effect]]: when two experiments affect each other.
+- [[Interaction Effect]]. when two experiments affect each other.
 - Potential solutions:
   - 1 experiment at a time.
   - each experiment in one swim lane.
