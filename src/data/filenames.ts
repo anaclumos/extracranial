@@ -1583,6 +1583,8 @@ export const filenames = {
     "Shortcuts and Breakthrough": "2BB4EC",
     "Show me your Laptop": "DDA955",
     "Sigma Alpha": "FDAC72",
+    "Simian": "552C27",
+    "Simian과 심미안": "6C3519",
     "Simple Analytics": "6999BD",
     "Simple Analytics War Room": "C567BF",
     "Simple DirectMedia Layer": "2C69DB",
