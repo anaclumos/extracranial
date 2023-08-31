@@ -79,6 +79,17 @@ Big-$\mathcal{O}$
 \end{enumerate}
 ```
 
+## Unordered List
+
+```tex
+\begin{itemize}
+\item $f(n) = 2^{2n}$
+\item $f(n) = 2^{n+1}$
+\item $f(n) = 2^{n}$
+\item $f(n) = 2^{\frac{n}{2}}$
+\end{itemize}
+```
+
 ## Font Size
 
 ### Global
@@ -99,4 +110,68 @@ In preamble
 
 ```tex
 \linespread{1.6}
+```
+
+## Page Break
+
+```tex
+\pagebreak
+```
+
+## Bold
+
+```tex
+\textbf
+```
+
+## Variables and Footers
+
+```tex
+%% Preamble %%
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt} % Remove line
+%% Doc %%
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,LO]{\myname}
+\fancyfoot[CE,CO]{\mytitle}
+\fancyfoot[RE,RO]{\thepage}
+```
+
+## Algorithm
+
+preamble
+
+```tex
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\algrenewcommand\algorithmicrequire{\textbf{Input:}}
+\algrenewcommand\algorithmicensure{\textbf{Output:}}
+```
+
+```tex
+\begin{algorithm}
+  \caption{An algorithm with caption}
+  \begin{algorithmic}
+	  \Require $n \geq 0$
+	  \Ensure $y = x^n$
+	  \State $y \gets 1$
+	  \State $X \gets x$
+	  \State $N \gets n$
+	  \While{$N \neq 0$}
+	  \If{$N$ is even}
+	  \State $X \gets X \times X$
+	  \State $N \gets \frac{N}{2}$  \Comment{This is a comment}
+	  \ElsIf{$N$ is odd}
+	  \State $y \gets y \times X$
+	  \State $N \gets N - 1$
+	  \EndIf
+	  \EndWhile
+  \end{algorithmic}
+\end{algorithm}
+```
+
+```tex
+\listofalgorithms
 ```
