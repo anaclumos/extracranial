@@ -136,7 +136,6 @@ const config: Config = {
       src: 'https://platform.twitter.com/widgets.js',
       async: true,
       defer: true,
-      charset: 'utf-8',
     },
   ],
   markdown: {

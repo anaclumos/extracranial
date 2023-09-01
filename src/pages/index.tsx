@@ -64,174 +64,173 @@ const HeroText = () => {
         <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png" />
         <meta name="naver-site-verification" content="15b31306fd3391cd0bf411b1d49160aa02dd3cad" />
       </Head>
-      <main>
-        <p className={styles.intro}>
-          <EmojiReplaceableText
-            text={translate({ message: 'Sunghyun' })}
-            photo={Profile}
-            photoAlt={translate({
-              message: 'Sunghyun',
-            })}
-            showByDefault="emoji"
-            border={true}
-          />
-          <Translate>{' is a '}</Translate>
-          <EmojiReplaceableText
-            text={translate({
-              message: 'computer scientist',
-            })}
-            photo={TechnologistEmoji}
-            photoAlt={translate({
-              message: '👨🏻‍💻',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{' based in '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'Seoul' })}
-            photo={KoreaEmoji}
-            photoAlt={translate({
-              message: '🇰🇷',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{' and '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'Los Angeles' })}
-            photo={USEmoji}
-            photoAlt={translate({
-              message: '🇺🇸',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{'. He previously interned at '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'Grammarly' })}
-            photo={GrammarlyLogo}
-            photoAlt={translate({
-              message: '🅖',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{', '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'Karrot' })}
-            photo={KarrotLogo}
-            photoAlt={translate({
-              message: 'Karrot',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{', and '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'Woowa Bros' })}
-            photo={BaeminLogo}
-            photoAlt={translate({
-              message: 'Woowa Bros',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{', usually with next-gen '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'web' })}
-            photo={WebEmoji}
-            photoAlt={translate({
-              message: '🕸',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{'. His academic interest spans '}</Translate>
-          <EmojiReplaceableText
-            text={translate({
-              message: 'computational intelligence',
-            })}
-            photo={RobotEmoji}
-            photoAlt={translate({
-              message: '🤖',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{', '}</Translate>
-          <EmojiReplaceableText
-            text={translate({
-              message: 'spacial computing',
-            })}
-            photo={AlienMonsterEmoji}
-            photoAlt={translate({
-              message: '👾',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{', '}</Translate>
-          <EmojiReplaceableText
-            text={translate({
-              message: 'AI in medicine',
-            })}
-            photo={PillEmoji}
-            photoAlt={translate({
-              message: '☢',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{', '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'fusion energies' })}
-            photo={RadioactiveEmoji}
-            photoAlt={translate({
-              message: '☢',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{', and '}</Translate>
-          <EmojiReplaceableText
-            text={translate({
-              message: 'space terraformings',
-            })}
-            photo={RocketEmoji}
-            photoAlt={translate({
-              message: '🚀',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{'. When he is not coding, he enjoys studying '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'economics' })}
-            photo={BankEmoji}
-            photoAlt={translate({
-              message: '💰',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{' or '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'modern history' })}
-            photo={NewspaperEmoji}
-            photoAlt={translate({
-              message: '📰',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{', reading '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'Wikipedia' })}
-            photo={WikipediaEmoji}
-            photoAlt={translate({
-              message: '📚',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{', and playing '}</Translate>
-          <EmojiReplaceableText
-            text={translate({ message: 'Splatoon' })}
-            photo={SplatoonEmoji}
-            photoAlt={translate({
-              message: '🎮',
-            })}
-            showByDefault="emoji"
-          />
-          <Translate>{'. '}</Translate>
-        </p>
-      </main>
+
+      <p className={styles.intro}>
+        <EmojiReplaceableText
+          text={translate({ message: 'Sunghyun' })}
+          photo={Profile}
+          photoAlt={translate({
+            message: 'Sunghyun',
+          })}
+          showByDefault="emoji"
+          border={true}
+        />
+        <Translate>{' is a '}</Translate>
+        <EmojiReplaceableText
+          text={translate({
+            message: 'computer scientist',
+          })}
+          photo={TechnologistEmoji}
+          photoAlt={translate({
+            message: '👨🏻‍💻',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{' based in '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'Seoul' })}
+          photo={KoreaEmoji}
+          photoAlt={translate({
+            message: '🇰🇷',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{' and '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'Los Angeles' })}
+          photo={USEmoji}
+          photoAlt={translate({
+            message: '🇺🇸',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{'. He previously interned at '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'Grammarly' })}
+          photo={GrammarlyLogo}
+          photoAlt={translate({
+            message: '🅖',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'Karrot' })}
+          photo={KarrotLogo}
+          photoAlt={translate({
+            message: 'Karrot',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', and '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'Woowa Bros' })}
+          photo={BaeminLogo}
+          photoAlt={translate({
+            message: 'Woowa Bros',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', usually with next-gen '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'web' })}
+          photo={WebEmoji}
+          photoAlt={translate({
+            message: '🕸',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{'. His academic interest spans '}</Translate>
+        <EmojiReplaceableText
+          text={translate({
+            message: 'computational intelligence',
+          })}
+          photo={RobotEmoji}
+          photoAlt={translate({
+            message: '🤖',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', '}</Translate>
+        <EmojiReplaceableText
+          text={translate({
+            message: 'spacial computing',
+          })}
+          photo={AlienMonsterEmoji}
+          photoAlt={translate({
+            message: '👾',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', '}</Translate>
+        <EmojiReplaceableText
+          text={translate({
+            message: 'AI in medicine',
+          })}
+          photo={PillEmoji}
+          photoAlt={translate({
+            message: '☢',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'fusion energies' })}
+          photo={RadioactiveEmoji}
+          photoAlt={translate({
+            message: '☢',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', and '}</Translate>
+        <EmojiReplaceableText
+          text={translate({
+            message: 'space terraformings',
+          })}
+          photo={RocketEmoji}
+          photoAlt={translate({
+            message: '🚀',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{'. When he is not coding, he enjoys studying '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'economics' })}
+          photo={BankEmoji}
+          photoAlt={translate({
+            message: '💰',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{' or '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'modern history' })}
+          photo={NewspaperEmoji}
+          photoAlt={translate({
+            message: '📰',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', reading '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'Wikipedia' })}
+          photo={WikipediaEmoji}
+          photoAlt={translate({
+            message: '📚',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', and playing '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'Splatoon' })}
+          photo={SplatoonEmoji}
+          photoAlt={translate({
+            message: '🎮',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{'. '}</Translate>
+      </p>
     </>
   )
 }
