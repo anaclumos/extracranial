@@ -27,6 +27,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [x] [[이완용]] 평전 (윤덕한 저)
 - [x] [[Exhalation]]
 - [x] [[MAKE (Book)]]
+- [x] [[한국통사]]
 
 </Shuffle>
 

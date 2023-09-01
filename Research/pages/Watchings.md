@@ -26,9 +26,6 @@ import Shuffle from '@site/src/components/Shuffle'
 - The End of Evangelion
 - [[J. Robert Oppenheimer|Oppenheimer]]
 - [[Barbie]]
+- 마스크걸
 
 </Shuffle>
-
-## To Watch?
-
-- Halt and Catch Fire
