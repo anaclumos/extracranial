@@ -56,7 +56,7 @@ def process(file, all_files, counter):
         return counter
     with open(file, "r") as f:
         lines = f.readlines()
-    if "lang: 'ko'" in "".join(lines):
+    if "lang: 'ko'" in "".join(lines) or "lang: ko" in "".join(lines):
         current_language = "ko"
     else:
         current_language = "en"
