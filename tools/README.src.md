@@ -18,4 +18,8 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 > **Note**<br/>
 > The Favicon image is Tossface's U+E109 (<img alt="Emoji of 'Palaces of Korea'" width="12px" src="https://raw.githubusercontent.com/anaclumos/extracranial/main/static/img/favicon.svg"/>) Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
 
+<div align="center">
+
 ![Repobeats analytics image](https://repobeats.axiom.co/api/embed/37dbf3528eaf21d704bdcf1cdd62364a5e9a0726.svg)
+
+</div>
