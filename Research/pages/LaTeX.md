@@ -175,3 +175,56 @@ preamble
 ```tex
 \listofalgorithms
 ```
+
+## Graph
+
+```tex
+
+\begin{center}
+	\begin{tikzpicture}[main/.style = {node distance={15mm}, thick, draw, circle}]
+		\node[main] (H) {H};
+		\node[main] (A) [above right of=H] {A};
+		\node[main] (B) [right of=A] {B};
+		\node[main] (C) [right of=B] {C};
+		\node[main] (S) [below right of=C] {S};
+		\node[main] (D) [below right of=H] {D};
+		\node[main] (E) [right of=D] {E};
+		\node[main] (F) [right of=E] {F};
+
+		\draw[->] (H) -- node[midway, above, sloped] {5} (A);
+		\draw[->] (A) -- node[midway, above] {6} (B);
+		\draw[->] (B) -- node[midway, above] {7} (C);
+		\draw[->] (C) -- node[midway, above, sloped] {6} (S);
+
+		\draw[->] (D) -- node[midway, above, sloped] {5} (B);
+		\draw[->] (B) -- node[midway, above, sloped] {4} (F);
+
+		\draw[->] (H) -- node[midway, above, sloped] {8} (D);
+		\draw[->] (D) -- node[midway, above] {4} (E);
+		\draw[->] (E) -- node[midway, above] {3} (F);
+		\draw[->] (F) -- node[midway, above, sloped] {6} (S);
+
+
+		\draw[->] (A) -- (B);
+		\draw[->] (B) -- (C);
+		\draw[->] (C) -- (S);
+		\draw[->] (H) -- (D);
+		\draw[->] (D) -- (E);
+		\draw[->] (E) -- (F);
+		\draw[->] (F) -- (S);
+		\draw[->] (D) -- (B);
+		\draw[->] (B) -- (F);
+	\end{tikzpicture}
+\end{center}
+
+```
+
+## Sum
+
+$$
+\sum_{i=0}^k 2^i
+$$
+
+```tex
+\sum_{i=0}^k 2^i
+```
