@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8E65E2'
+aliases: ['깃']
 ---
 
 - [Git Notes: git's coolest, most unloved feature](https://tylercipriani.com/blog/2022/11/19/git-notes-gits-coolest-most-unloved-feature/)
