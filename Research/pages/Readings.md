@@ -51,6 +51,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [ ] 허삼관 매혈기
 - [ ] [[삼체]] (Re-read)
 - [ ] Black Swan
+- [ ] Everything is Figureoutable
 
 </Shuffle>
 

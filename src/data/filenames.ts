@@ -883,6 +883,7 @@ export const filenames = {
     "Eventually, Diligent Immatures build the Future": "8C1A00",
     "Evergreen notes": "B0B79F",
     "Everyprompt": "F4C6F5",
+    "Everything Is Figureoutable": "53D8B3",
     "Example References for Alter": "1BCB46",
     "Exhalation": "6C8C05",
     "Exquisite Geometric Nature of the Universe": "6B3AC8",
