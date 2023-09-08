@@ -72,7 +72,7 @@
   "name": "cho-sh",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "all-in-one": "$npm_execpath run prepare-to-launch && $npm_execpath run format && git add . && git commit -m 'wrote something' && git push && $npm_execpath run build && $npm_execpath redirects && until $npm_execpath ship; do :; done",
+    "all-in-one": "$npm_execpath run prepare-to-launch && && $npm_execpath run scc && $npm_execpath run format && git add . && git commit -m 'wrote something' && git push && $npm_execpath run build && $npm_execpath redirects && until $npm_execpath ship; do :; done",
     "all-in-one:dev": "$npm_execpath run prepare-to-launch && $npm_execpath run format && $npm_execpath run start",
     "all-in-one:qa": "$npm_execpath run prepare-to-launch && $npm_execpath run format && $npm_execpath run build && $npm_execpath serve",
     "all-in-one:build": "$npm_execpath run prepare-to-launch && $npm_execpath run format && $npm_execpath run build",
