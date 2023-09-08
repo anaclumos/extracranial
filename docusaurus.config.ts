@@ -84,29 +84,6 @@ const config: Config = {
       darkTheme: darkCodeTheme,
       additionalLanguages: ['java', 'swift'],
     },
-    // We're gonna use a different website for Starfish Co. 😊
-    // footer: {
-    //   links: [
-    //     {
-    //       title: '★ 불가사리',
-    //       items: [
-    //         {
-    //           label: '대표 조성현',
-    //           to: 'https://mailhide.io/en/e/IXndXpED',
-    //         },
-    //         {
-    //           label: '사업자등록번호 624-08-02343',
-    //           to: 'https://mailhide.io/en/e/IXndXpED',
-    //         },
-    //         {
-    //           label: '대전광역시 서구 둔산중로 66 메트로팰리스 311',
-    //           to: 'https://mailhide.io/en/e/IXndXpED',
-    //         },
-    //       ],
-    //     },
-    //   ],
-    //   copyright: '★ 불가사리',
-    // },
     docs: {
       sidebar: {
         hideable: true,
