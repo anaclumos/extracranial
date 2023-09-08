@@ -698,6 +698,7 @@ export const filenames = {
     "ChatGPT is a Blurry JPEG and We Need That": "AC83DD",
     "ChatGPT는 흐릿한 이미지이지만 필요합니다": "1D93D4",
     "ChatGPT보다 내가 나은데": "E769E5",
+    "Checkmark": "3201EF",
     "Checksum": "8037BF",
     "Chopstick Game": "C4AC97",
     "Chrome": "48209B",

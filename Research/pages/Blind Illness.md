@@ -6,7 +6,7 @@ aliases: ['블라인드 병']
 
 Blind Illness refers to the mental illness of those who want fame and romanticized glory with their company titles.
 
-> Blind is an app that provides an anonymous forum and community for verified employees to discuss issues. Topics, company, and broader industry group users on Blind. The app verifies that the registered users work in the company through their work [[Mail|email]] and claims to keep user identities untraceable. [Blind (app)](<https://en.wikipedia.org/wiki/Blind_(app)>)
+> Blind is an app that provides an anonymous forum and community for [[Checkmark|verified]] employees to discuss issues. Topics, company, and broader industry group users on Blind. The app verifies that the registered users work in the company through their work [[Mail|email]] and claims to keep user identities untraceable. [Blind (app)](<https://en.wikipedia.org/wiki/Blind_(app)>)
 
 ### [These Young Workers Are **Romanticizing** the Return to Office](https://www.nytimes.com/2022/11/27/business/tiktok-office-influencers.html)
 
