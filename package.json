@@ -86,7 +86,7 @@
     "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}'",
     "ko": "$npm_execpath run start --locale ko",
     "lint": "eslint .",
-    "prepare-to-launch": "$npm_execpath run clear && $npm_execpath run sanitize && $npm_execpath run process-blog && $npm_execpath run process-docs && $npm_execpath run backlinks && $npm_execpath run swc && $npm_execpath run figcaption && $npm_execpath run readme && $npm_execpath run scc",
+    "prepare-to-launch": "$npm_execpath run clear && $npm_execpath run sanitize && $npm_execpath run process-blog && $npm_execpath run process-docs && $npm_execpath run backlinks && $npm_execpath run swc && $npm_execpath run figcaption && $npm_execpath run readme",
     "readme": "cp tools/README.src.md README.md && echo \"\n\n## Last updated \n\n$(date)\n\" >> README.md",
     "redirects": "cp _redirects build/_redirects",
     "sanitize": "python3 tools/sanitize.py",
