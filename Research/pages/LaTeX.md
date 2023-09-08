@@ -228,3 +228,19 @@ $$
 ```tex
 \sum_{i=0}^k 2^i
 ```
+
+## Big Parenthesis
+
+```tex
+
+\left( {n \over n} \right)
+
+```
+
+## Arrow
+
+```tex
+\rightarrow
+
+\leftarrow
+```
