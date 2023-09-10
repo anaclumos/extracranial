@@ -23,7 +23,7 @@ Also, Swedish outposts already existed; it was not a pure discovery.
 
 Petersburg was symbolic; everything about the city was westernized.
 Petersburg is an artificial embodiment of the symbol of the state.
-No spiritual, economic, or cultural center. With only one man's will.
+No spiritual, [[Economy|economic]], or cultural center. With only one man's will.
 
 > The city can be the antithesis of the surroundings...
 

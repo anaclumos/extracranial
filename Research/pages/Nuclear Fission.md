@@ -11,7 +11,7 @@ The funds raised will be used to enhance Oklo's supply chains and pilot manufact
 
 In an interview, Altman explained his bet on energy alongside [[AI]], stating that the future depends on the cost of energy and intelligence being lowered. He also stated his belief in nuclear energy as a means to meet increasing global energy demands. Altman has also invested in other nuclear projects, such as the [[nuclear fusion]] startup Helion.
 
-Oklo, founded in 2013, intends to offer smaller nuclear reactors that provide consistent energy, targeting customers like data centers, utilities, defense facilities, remote communities, factories, and industrial sites. Despite facing regulatory hurdles in the past, the company remains optimistic about its progress and ability to transform the economics of nuclear energy.
+Oklo, founded in 2013, intends to offer smaller nuclear reactors that provide consistent energy, targeting customers like data centers, utilities, defense facilities, remote communities, factories, and industrial sites. Despite facing regulatory hurdles in the past, the company remains optimistic about its progress and ability to transform the [[Economy|economics]] of nuclear energy.
 
 ## [Germany extends the lifetime of remaining nuclear plants – DW – 10/17/2022](https://www.dw.com/en/germany-extends-lifetime-of-all-3-remaining-nuclear-plants/a-63466196)
 

@@ -5,7 +5,7 @@ slug: '/8C1A00'
 
 People overestimate their short-term abilities but underestimate their long-term ones, imagining they cannot improve much more. But at the same time, people believe their future selves will have everything figured out and can solve their current problems and challenges. **So why do we have two very conflicting imaginations**?
 
-- **Planning fallacy** is the tendency in behavioral economics to underestimate the time, effort, and resources required to complete a task or reach a goal. "People overestimate their short-term abilities but underestimate their long-term ones."
+- **Planning fallacy** is the tendency in behavioral [[Economy|economics]] to underestimate the time, effort, and resources required to complete a task or reach a goal. "People overestimate their short-term abilities but underestimate their long-term ones."
 - **Natural Optimism Bias** is the tendency for people to overestimate the likelihood of positive outcomes and underestimate the possibility of adverse effects. This bias can lead people to be overly optimistic about their abilities or the potential success of a [[project]] or goal, which can cause them to take on more risk or be less cautious than they should be.
 
 While these two sound like contradicting stories, these are just two sides of human's poor perception of time.

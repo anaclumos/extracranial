@@ -11,13 +11,15 @@ slug: '/C8761B'
 
 빈칸에 들어갈 말을 모르겠다!
 
+[[Economy|Economic]] Blooming
+
 ## [[2023-05-09]]
 
 Seems like you can just say you **seaflooded** it.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What if there was a way to:<br/>• Mitigate climate change<br/>• Create more life<br/>• Grow the economy<br/>• And make money along the way?<br/><br/>Let&#39;s call it *Seaflooding* <a href="https://t.co/icyAIhAK2V">pic.twitter.com/icyAIhAK2V</a></p>&mdash; Tomas Pueyo (@tomaspueyo) <a href="https://twitter.com/tomaspueyo/status/1655941779739521027?ref_src=twsrc%5Etfw">May 9, 2023</a></blockquote>
 
-Seaflooding, a promising solution to mitigate climate change, has the potential to create more life and stimulate economic growth. Inspired by the Zanclean Megaflood that transformed the Mediterranean, this process involves filling a dead depression with seawater, leading to increased moisture, rainfall, and plant and animal life, ultimately fostering economic growth. Potential locations for this innovative project include below sea level, high pressure, and extremely hot and dry regions, such as the Dead Sea. The benefits of seaflooding encompass electricity generation, desalination, increased biodiversity, and tourism. Despite challenges such as the need for international discussions, political instability, and ecological impact studies, seaflooding presents an opportunity to reduce ocean levels, combat climate change, and address food scarcity issues in certain regions. A prime example of seaflooding potential lies in Egypt's Qattara Depression, which could be transformed without global dependency. Moreover, numerous locations for seaflooding exist globally, including several in the United States.
+Seaflooding, a promising solution to mitigate climate change, has the potential to create more life and stimulate [[Economic Development|economic growth]]. Inspired by the Zanclean Megaflood that transformed the Mediterranean, this process involves filling a dead depression with seawater, leading to increased moisture, rainfall, and plant and animal life, ultimately fostering [[Economic Development|economic growth]]. Potential locations for this innovative project include below sea level, high pressure, and extremely hot and dry regions, such as the Dead Sea. The benefits of seaflooding encompass electricity generation, desalination, increased biodiversity, and tourism. Despite challenges such as the need for international discussions, political instability, and ecological impact studies, seaflooding presents an opportunity to reduce ocean levels, combat climate change, and address food scarcity issues in certain regions. A prime example of seaflooding potential lies in Egypt's Qattara Depression, which could be transformed without global dependency. Moreover, numerous locations for seaflooding exist globally, including several in the United States.
 
 [[한국어]]로는 '큰물' '물마' 등의 [[Vocab|단어]]가 있다. 하지만 **개부심**이라는 [[Vocab|단어]]가 가장 적합하다.
 
