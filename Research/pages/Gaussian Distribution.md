@@ -20,4 +20,4 @@ The [[Gaussian]] [[distribution]] is symmetric about the mean, with the highest 
 
 One of the critical properties of the [[Gaussian]] [[distribution]] is that about 68% of the observations fall within one standard deviation of the mean, about 95% of the observations fall within two standard deviations of the mean, and about 99.7% of the observations fall within three standard deviations of the mean.
 
-The [[Gaussian]] [[distribution]] is widely used in various fields, such as physics, engineering, economics, and social sciences, due to its flexibility and ability to model many real-world phenomena. It is also a foundational concept in statistical inference, which involves making inferences about a population based on a sample of data.
+The [[Gaussian]] [[distribution]] is widely used in various fields, such as physics, engineering, [[Economy|economics]], and social sciences, due to its flexibility and ability to model many real-world phenomena. It is also a foundational concept in statistical inference, which involves making inferences about a population based on a sample of data.
