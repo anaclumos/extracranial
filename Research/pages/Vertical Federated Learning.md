@@ -28,7 +28,7 @@ Consider two companies, a bank, and a retail store, that want to collaborate on 
 1. **Complexity**. Secure aggregation methods like [[Secure Multi-Party Computation|SMPC]] can be computationally expensive and complicated to implement.
 2. **Alignment**. All parties must have data on the same set of samples, which might not always be feasible or straightforward to achieve.
 3. **Communication Overhead**. Exchanging model updates can be bandwidth-intensive, mainly when secure cryptographic methods are employed.
-4. **Trust and Governance**. A secure and mutually agreed-upon protocol is essential to ensure no party cheats or gains an unfair advantage.
+4. **Trust and Governance**. A secure and mutually agreed-upon protocol ensures no party cheats or gains an unfair advantage.
 
 ### Applications
 

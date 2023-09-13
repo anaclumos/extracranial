@@ -14,6 +14,17 @@ slug: '/8429A4'
 - [ ] LR on [[Vertical Federated Learning|VFL]]
 - [ ] Search Conferences
 - [ ] [FederatedAI/FATE: An Industrial Grade Federated Learning Framework](https://github.com/FederatedAI/FATE): Did they implement [[Vertical Federated Learning|VFL]]?
+- [ ] [[Jose Luis Ambite et al. Secure & Private Federated Neuroimaging]]
+- [ ] [[Yuncheng Wu et al. Privacy-Preserving Vertical Federated Learning for Tree-based Models]]
+- [ ] [[Xinjian Luo et al. Feature Inference Attack on Model Predictions in Vertical Federated Learning]]
+- [ ] [[Daniele Romanini et al. PyVertical]]
+- [ ] [[Yang Liu et al. Asymmetrical Vertical Federated Learning]]
+- [ ] [[Tianyi Chen et al. VAFL a Method of Vertical Asynchronous Federated Learning]]
+- [ ] [[Siwei Feng et al. Multi-Participant Multi-Class Vertical Federated Learning]]
+- [ ] [[Yang Liu et al. Vertical Federated Learning]]
+- [ ] [[Kang Wei et al. Vertical Federated Learning, Challenges, Methodologies and Experiments]]
+- [ ] [[Shengwen Yang et al. Parallel Distributed Logistic Regression for Vertical Federated Learning without Third-Party Coordinator]]
+- [ ] [[Qiang Yang et al. Chapter 5 Vertical Federated Learning]]
 
 ## [[2023-08-28]]
 

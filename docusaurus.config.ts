@@ -84,6 +84,10 @@ const config: Config = {
       darkTheme: darkCodeTheme,
       additionalLanguages: ['java', 'swift'],
     },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 6,
+    },
     docs: {
       sidebar: {
         hideable: true,
