@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BA03FA'
+aliases: ['엣지 컴퓨팅', 'Edge Server', 'Edge Servers']
 ---
 
 import Tabs from '@theme/Tabs';
