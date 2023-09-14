@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+
 const getMostRecentJournalLink = () => {
   const today = new Date()
   today.setDate(today.getDate() + 2)
@@ -25,6 +26,10 @@ const navbar = {
       label: 'Research',
       position: 'left',
       items: [
+        {
+          to: '/r',
+          label: 'Research',
+        },
         {
           to: getMostRecentJournalLink(),
           label: 'Today',
