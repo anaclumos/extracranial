@@ -36,6 +36,14 @@ slug: '/8429A4'
 - [ ] [Implementing Vertical Federated Learning Using Autoencoders: Practical Application, Generalizability, and Utility Study](https://www.researchgate.net/publication/352268331_Implementing_Vertical_Federated_Learning_Using_Autoencoders_Practical_Application_Generalizability_and_Utility_Study)
 - [ ] [Achieving Differential Privacy in Vertically Partitioned Multiparty Learning](https://par.nsf.gov/servlets/purl/10321735)
 - [ ] [Federated Learning for NLP](https://idmc.univ-lorraine.fr/wp-content/uploads/2021/09/12Supervised_Project_Bibliography_Final_Copy.pdf)
+- [ ] Split Training
+- [ ] Vertical Partitioning
+- [ ] Iker Ceballos
+- [ ] SplitNN-driven vertical partitioning.
+- [ ] [[1711.10677] Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/abs/1711.10677)
+- [ ] [Split Learning Project: MIT Media Lab](https://splitlearning.mit.edu/)
+- [ ] [[2008.04137v1] SplitNN-driven Vertical Partitioning](https://arxiv.org/abs/2008.04137v1)
+- [ ] [Iker Ceballos | Papers With Code](https://paperswithcode.com/search?q=author:Iker+Ceballos)
 
 ## [[2023-09-14]]
 
