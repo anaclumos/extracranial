@@ -20,4 +20,3 @@ slug: '/A8782A'
 - System Heterogeneity
   - Everyone uses different phones
 - Statistical Heterogeneity
-  -
