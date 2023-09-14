@@ -34,7 +34,7 @@ A method for collaboratively training a model on a dataset with its [[Feature|fe
 - PyVertical is a [[Python]] framework that utilizes SplitNNs and PSI for [[vertical federated learning]].
 - The framework operates with one or more data owners and a data scientist. The scientist can set up a split neural network model, sending segments to the data owners for training.
 
-## Experiment:
+## Experiment
 
 - To demonstrate the framework's capabilities, the MNIST dataset was partitioned vertically, splitting the images into two halves, each given to different data owners. The neural network was then trained using this split data.
 
