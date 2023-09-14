@@ -11,3 +11,13 @@ slug: '/A8782A'
   - Fog Computing
 - Recent trend: Train centrally, Inference locally
 - FL challenge this
+
+## Challenges
+
+- Expensive communication
+  - Reduce comms round
+  - Reduce comms size
+- System Heterogeneity
+  - Everyone uses different phones
+- Statistical Heterogeneity
+  -
