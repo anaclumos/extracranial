@@ -29,7 +29,7 @@ slug: '/8429A4'
 - [ ] [A federated learning algorithm using a parallel-ensemble method on non-IID datasets | Complex & Intelligent Systems](https://link.springer.com/article/10.1007/s40747-023-01110-7)
 - [ ] [A Survey on Vertical Federated Learning: From a Layered Perspective](https://arxiv.org/abs/2304.01829)
 - [ ] [Fed-EINI: An Efficient and Interpretable Inference Framework for Decision Tree Ensembles in Federated Learning](https://arxiv.org/abs/2105.09540)
-- [ ] [Multi-Participant Vertical Federated Learning Based Time Series Prediction | Proceedings of the 8th International Conference on Computing and Artificial Intelligence](https://dl.acm.org/doi/abs/10.1145/3532213.3532238)
+- [ ] [Multi-Participant Vertical Federated Learning Based Time Series Prediction](https://dl.acm.org/doi/abs/10.1145/3532213.3532238)
 - [ ] [Federated Auto-Meta-Ensemble Learning Framework for AI-Enabled Military Operations](https://www.mdpi.com/2079-9292/12/2/430)
 - [ ] [Online Bagging and Boosting Definition, Online Bagging and Boosting Use in ML](https://www.activeloop.ai/resources/glossary/online-bagging-and-boosting/)
 - [ ] [A survey on federated learning: challenges and applications - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9650178/)
@@ -40,6 +40,22 @@ slug: '/8429A4'
 ## [[2023-09-14]]
 
 Can't we just ensemble them-?
+
+1. Federated learning and split learning
+   - Discuss split training versus federated learning
+   - Federated learning converges to a better optimization point than ensembling independently trained models
+   - Split learning involves training parts of the network at different sites
+1. Vertical partitioning of data
+   - Vertical partitioning of features across different sites can lead to poor individual predictors
+   - Training a model that combines the data in a more sophisticated way may perform better
+   - Focus on implementations that do not require training parts of the network at a central node
+1. Next steps
+   - Look into existing implementations of split learning and vertical partitioning
+   - Focus on approaches using deep learning rather than classical models
+   - Assume the record linkage problem is solved and focus on the training approach
+1. Action items
+   - Search for relevant papers that meet the criteria
+   - Filter out papers using classical models instead of neural networks
 
 ## [[2023-08-28]]
 
