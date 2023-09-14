@@ -25,6 +25,21 @@ slug: '/8429A4'
 - [ ] [[Kang Wei et al. Vertical Federated Learning, Challenges, Methodologies and Experiments]]
 - [ ] [[Shengwen Yang et al. Parallel Distributed Logistic Regression for Vertical Federated Learning without Third-Party Coordinator]]
 - [ ] [[Qiang Yang et al. Chapter 5 Vertical Federated Learning]]
+- [ ] PSI
+- [ ] [A federated learning algorithm using a parallel-ensemble method on non-IID datasets | Complex & Intelligent Systems](https://link.springer.com/article/10.1007/s40747-023-01110-7)
+- [ ] [A Survey on Vertical Federated Learning: From a Layered Perspective](https://arxiv.org/abs/2304.01829)
+- [ ] [Fed-EINI: An Efficient and Interpretable Inference Framework for Decision Tree Ensembles in Federated Learning](https://arxiv.org/abs/2105.09540)
+- [ ] [Multi-Participant Vertical Federated Learning Based Time Series Prediction | Proceedings of the 8th International Conference on Computing and Artificial Intelligence](https://dl.acm.org/doi/abs/10.1145/3532213.3532238)
+- [ ] [Federated Auto-Meta-Ensemble Learning Framework for AI-Enabled Military Operations](https://www.mdpi.com/2079-9292/12/2/430)
+- [ ] [Online Bagging and Boosting Definition, Online Bagging and Boosting Use in ML](https://www.activeloop.ai/resources/glossary/online-bagging-and-boosting/)
+- [ ] [A survey on federated learning: challenges and applications - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9650178/)
+- [ ] [Implementing Vertical Federated Learning Using Autoencoders: Practical Application, Generalizability, and Utility Study](https://www.researchgate.net/publication/352268331_Implementing_Vertical_Federated_Learning_Using_Autoencoders_Practical_Application_Generalizability_and_Utility_Study)
+- [ ] [Achieving Differential Privacy in Vertically Partitioned Multiparty Learning](https://par.nsf.gov/servlets/purl/10321735)
+- [ ] [Federated Learning for NLP](https://idmc.univ-lorraine.fr/wp-content/uploads/2021/09/12Supervised_Project_Bibliography_Final_Copy.pdf)
+
+## [[2023-09-14]]
+
+Can't we just ensemble them-?
 
 ## [[2023-08-28]]
 
