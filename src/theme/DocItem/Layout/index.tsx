@@ -45,7 +45,6 @@ export default function DocItemLayout({ children }: Props): JSX.Element {
       <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>
         <DocVersionBanner />
         <div className={styles.docItemContainer}>
-          <DocItemPaginator />
           <article>
             <DocBreadcrumbs />
             <DocVersionBadge />
