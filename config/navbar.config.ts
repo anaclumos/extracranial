@@ -28,7 +28,7 @@ const navbar = {
       items: [
         {
           type: 'doc',
-          docId: 'hey',
+          docId: 'Hey',
           label: 'Hey 👋🏻',
         },
         {
