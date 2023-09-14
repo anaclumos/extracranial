@@ -18,11 +18,11 @@ I am thrilled to present you with the incarnation of this vision.
 In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes Memex as
 
 ```
-  an electromechanical device enabling individuals
-  * to develop and read self-contained research libraries
-  * to create and follow associative trails of links and annotations
-  * to recall these trails at any time
-  * to share them with other researchers
+an electromechanical device enabling individuals
+* to develop and read self-contained research libraries
+* to create and follow associative trails of links and annotations
+* to recall these trails at any time
+* to share them with other researchers
 ```
 
 This idea would later be implemented as the **Internet**. However, I, Sunghyun Cho, felt that the Internet helps keep records of humanity but is insufficient for capturing the individual's brain. Therefore, this website, Project [[Aldehyde]], aims to create a superset of [[Memex]].
@@ -31,11 +31,11 @@ Therefore, this website is
 
 ```diff
 + A practical implementation of
-  an electromechanical device enabling individuals
-  * to develop and read self-contained research libraries
-  * to create and follow associative trails of links and annotations
-  * to recall these trails at any time
-  * to share them with other researchers
+an electromechanical device enabling individuals
+* to develop and read self-contained research libraries
+* to create and follow associative trails of links and annotations
+* to recall these trails at any time
+* to share them with other researchers
 + * in order to contain every single idea of Sunghyun Cho
 ```
 
