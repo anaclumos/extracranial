@@ -92,7 +92,7 @@ Some approaches aim to reduce model performance [[variance]] across devices.
 
 ### Convergence Guarantees for Non-IID Data
 
-#### Challenge\*\*
+#### Challenge
 
 Non-IID (independent and identically distributed) data causes difficulties in analyzing convergence behavior in federated settings.
 
@@ -115,7 +115,9 @@ The need for privacy is paramount in federated settings, mainly because raw data
 - **[[Homomorphic Encryption]]** — Allows computation on encrypted data.
 - **Secure Multiparty Computation ([[Secure Multi-Party Computation|SMC]])** — Enables multiple parties to compute functions collaboratively without leaking input data.
 
-#### Trade-offsA balance between privacy and model accuracy must be struck. The introduction of noise enhances privacy but can compromise accuracy.
+#### Trade-offs
+
+A balance between privacy and model accuracy must be struck. The introduction of noise enhances privacy but can compromise accuracy.
 
 ### Privacy in [[Federated Machine Learning|Federated Learning]]
 
@@ -136,26 +138,26 @@ The federated context requires cost-effective methods, efficient communication, 
 
 ### Communication in [[Federated Machine Learning|Federated Learning]]
 
-#### Extreme Communication Schemes:\*\*
+#### Extreme Communication Schemes
 
 - Exploration of optimization in [[Federated Machine Learning|federated learning]] regarding communication requirements.
 - Analyzing optimization methods' tolerance for precision and the resultant benefits for generalization.
 - Evaluation of one-shot/few-shot heuristics in federated settings.
 
-#### Communication Reduction and Pareto Frontier:\*\*
+#### Communication Reduction and Pareto Frontier
 
 - Techniques for reducing communication in federated training, e.g., local updating and model compression.
 - Analysis of the trade-off between accuracy and communication.
 - Assess techniques for their efficiency in achieving the best accuracy under a communication budget.
 
-#### Novel Models of Asynchrony:\*\*
+#### Novel Models of Asynchrony
 
 - Comparison between synchronous and asynchronous communication in distributed optimization.
 - Consideration of device-centric communication schemes in federated networks.
 
 ### Heterogeneity in [[Federated Machine Learning|Federated Learning]]
 
-#### Heterogeneity Diagnostics:\*\*
+#### Heterogeneity Diagnostics
 
 - Methods to quantify statistical heterogeneity.
 - Development of diagnostics to gauge the levels of heterogeneity before training.
@@ -163,27 +165,27 @@ The federated context requires cost-effective methods, efficient communication, 
 
 ### Privacy Concerns
 
-#### Granular Privacy Constraints:\*\*
+#### Granular Privacy Constraints
 
 - Examination of local and global privacy definitions in federated networks.
 - Proposing methods that respect device-specific or sample-specific privacy constraints.
 
 ### Extending the Scope of [[Federated Machine Learning|Federated Learning]]
 
-#### Beyond Supervised Learning:\*\*
+#### Beyond Supervised Learning
 
 - Addressing scenarios where data in federated networks is unlabeled or weakly labeled.
 - Addressing tasks other than model fitting, such as exploratory data analysis, aggregate [[statistics]], or reinforcement learning.
 
 ### Operational Challenges
 
-#### Productionizing [[Federated Machine Learning|Federated Learning]]:\*\*
+#### Productionizing [[Federated Machine Learning|Federated Learning]]
 
 - Handling practical concerns like concept drift, diurnal variations, and cold start problems.
 
 ### Standards and Benchmarks
 
-#### Benchmarks:\*\*
+#### Benchmarks
 
 - Emphasis on grounding [[Federated Machine Learning|federated learning]] research in real-world settings and datasets.
 - Enhancing existing benchmarking tools to encourage reproducibility and the dissemination of solutions.
