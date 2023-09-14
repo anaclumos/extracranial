@@ -7,6 +7,7 @@ slug: '/8429A4'
 
 - [x] [[Qiang Yang et al. Federated Machine Learning Concept and Applications]]
 - [x] [[Tian Li et al. Federated Learning Challenges, Methods, and Future Directions]]
+- [x] [[Daniele Romanini et al. PyVertical]]
 - [ ] [[Nicola Rieke et al. The future of digital health with federated learning]]
 - [ ] [[Qinbin Li et al. Federated Learning Systems. Vision, Hype, and Reality for Data Privacy and Protection]]
 - [ ] [[Peter Kairouz et al. Advances and Open Problems in Federated Learning]]
@@ -17,7 +18,6 @@ slug: '/8429A4'
 - [ ] [[Jose Luis Ambite et al. Secure & Private Federated Neuroimaging]]
 - [ ] [[Yuncheng Wu et al. Privacy-Preserving Vertical Federated Learning for Tree-based Models]]
 - [ ] [[Xinjian Luo et al. Feature Inference Attack on Model Predictions in Vertical Federated Learning]]
-- [ ] [[Daniele Romanini et al. PyVertical]]
 - [ ] [[Yang Liu et al. Asymmetrical Vertical Federated Learning]]
 - [ ] [[Tianyi Chen et al. VAFL a Method of Vertical Asynchronous Federated Learning]]
 - [ ] [[Siwei Feng et al. Multi-Participant Multi-Class Vertical Federated Learning]]
