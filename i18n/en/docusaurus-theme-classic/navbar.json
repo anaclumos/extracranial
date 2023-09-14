@@ -38,5 +38,9 @@
   "item.label.해커뉴스 요약": {
     "message": "해커뉴스 요약",
     "description": "Navbar item with label 해커뉴스 요약"
+  },
+  "item.label.Hey 👋🏻": {
+    "message": "Hey 👋🏻",
+    "description": "Navbar item with label Hey 👋🏻"
   }
 }

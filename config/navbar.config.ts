@@ -27,8 +27,9 @@ const navbar = {
       position: 'left',
       items: [
         {
-          to: '/r',
-          label: 'Research',
+          type: 'doc',
+          docId: 'hey',
+          label: 'Hey 👋🏻',
         },
         {
           to: getMostRecentJournalLink(),
