@@ -78,7 +78,7 @@ Extensive research models statistical heterogeneity through meta-learning and mu
 - **Meta-learning** — Adopts a within-task learning rate using multi-task information.
 - **Transfer Learning** — Explores personalization by training a global model.
 
-#### Challenges
+### Challenges
 
 Despite advancements, there are still obstacles in ensuring the methods are robust, scalable, and automated.
 
@@ -103,7 +103,7 @@ Non-IID (independent and identically distributed) data causes difficulties in an
 
 Some approaches tackle statistical heterogeneity by sharing local device data or server-side proxy data. However, this could lead to issues with privacy.
 
-## Privacy in[[Federated Machine Learning| Federated Learnin]]g
+## Privacy in [[Federated Machine Learning|Federated Learning]]
 
 The need for privacy is paramount in federated settings, mainly because raw data remains local on each device. However, sharing information like model updates during training can inadvertently expose sensitive information.
 
