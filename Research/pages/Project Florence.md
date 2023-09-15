@@ -32,7 +32,7 @@ slug: '/8429A4'
 - [ ] [Multi-Participant Vertical Federated Learning Based Time Series Prediction](https://dl.acm.org/doi/abs/10.1145/3532213.3532238)
 - [ ] [Federated Auto-Meta-Ensemble Learning Framework for AI-Enabled Military Operations](https://www.mdpi.com/2079-9292/12/2/430)
 - [ ] [Online Bagging and Boosting Definition, Online Bagging and Boosting Use in ML](https://www.activeloop.ai/resources/glossary/online-bagging-and-boosting/)
-- [ ] [A survey on federated learning: challenges and applications - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9650178/)
+- [ ] [A survey on federated learning: challenges and applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9650178/)
 - [ ] [Implementing Vertical Federated Learning Using Autoencoders: Practical Application, Generalizability, and Utility Study](https://www.researchgate.net/publication/352268331_Implementing_Vertical_Federated_Learning_Using_Autoencoders_Practical_Application_Generalizability_and_Utility_Study)
 - [ ] [Achieving Differential Privacy in Vertically Partitioned Multiparty Learning](https://par.nsf.gov/servlets/purl/10321735)
 - [ ] [Federated Learning for NLP](https://idmc.univ-lorraine.fr/wp-content/uploads/2021/09/12Supervised_Project_Bibliography_Final_Copy.pdf)
@@ -40,10 +40,10 @@ slug: '/8429A4'
 - [ ] Vertical Partitioning
 - [ ] Iker Ceballos
 - [ ] SplitNN-driven vertical partitioning.
-- [ ] [[1711.10677] Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/abs/1711.10677)
+- [ ] [Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/abs/1711.10677)
 - [ ] [Split Learning Project: MIT Media Lab](https://splitlearning.mit.edu/)
-- [ ] [[2008.04137v1] SplitNN-driven Vertical Partitioning](https://arxiv.org/abs/2008.04137v1)
-- [ ] [Iker Ceballos | Papers With Code](https://paperswithcode.com/search?q=author:Iker+Ceballos)
+- [ ] [SplitNN-driven Vertical Partitioning](https://arxiv.org/abs/2008.04137v1)
+- [ ] [Iker Ceballos](https://paperswithcode.com/search?q=author:Iker+Ceballos)
 
 ## [[2023-09-14]]
 

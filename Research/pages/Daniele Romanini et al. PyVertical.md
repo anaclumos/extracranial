@@ -38,7 +38,7 @@ A method for collaboratively training a model on a dataset with its [[Feature|fe
 
 - To demonstrate the framework's capabilities, the MNIST dataset was partitioned vertically, splitting the images into two halves, each given to different data owners. The neural network was then trained using this split data.
 
-## Evaluation and Conclusion:
+## Evaluation and Conclusion
 
 - PyVertical has been launched as an open-source [[project]] to help further research in [[Vertical Federated Learning|VFL]].
 - The authors successfully trained a model using vertically partitioned data, establishing the proposed framework's viability.

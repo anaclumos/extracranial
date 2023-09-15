@@ -3,4 +3,4 @@ lang: 'en'
 slug: '/3CF129'
 ---
 
-- https://doi.org/10.48550/arXiv.1912.04977
+- [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977)
