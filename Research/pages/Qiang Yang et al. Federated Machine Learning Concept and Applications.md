@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/807ED4'
 ---
 
-- https://doi.org/10.48550/arXiv.1902.04885
+- [Federated Machine Learning: Concept and Applications](https://arxiv.org/abs/1902.04885)
 
 ## Intro
 

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/A8782A'
 ---
 
-- https://doi.org/10.48550/arXiv.1908.07873
+- [Federated Learning: Challenges, Methods, and Future Directions](https://arxiv.org/abs/1908.07873)
 
 ## Intro
 

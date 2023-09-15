@@ -173,6 +173,8 @@ if __name__ == "__main__":
                     "]]: ": "]]. ",
                     'lang: ko': "lang: 'ko'",
                     'lang: en': "lang: 'en'",
+                    ' | Papers With Code': "",
+                    " - PMC": "",
                 }
 
                 for rule in REPLACE_RULES:
