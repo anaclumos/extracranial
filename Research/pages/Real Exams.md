@@ -3,6 +3,36 @@ lang: 'en'
 slug: '/75CB18'
 ---
 
+## For 2024
+
+### [Goldman Sachs](https://www.goldmansachs.com/index.html)
+
+- Sliding Window
+- Given a sequence of moving commands, is there a loop?
+
+### [Optiver](https://optiver.com/)
+
+- Retain $N$ logs. `recordLog(self, logId, timestamp)`, `getLogs (self)`, `getLogCount (self)` [[Simulations]], some sort of sliding window
+- Calculate stock price, given dividend payout on specific dates. Dividend payouts are editable. [[Simulations]]
+
+### [MathWorks](https://www.mathworks.com/)
+
+- The maximum minimum element after $k$ decrements. [[Optimized Simulations]]
+- Construct a graph and traverse it to find the $\text{MaxBeauty}$, where $\text{Beauty}$ for node $k$ is $\sum_{i=0}^{N} \text{distance}(i, k) \times \text{value}(k)$
+
+### [Citadel](https://www.citadel.com/)
+
+- Find max increasing subarray, but in two arrays
+- Chess Move BFS
+
+### [Ramp](https://ramp.com/)
+
+- Let's make a storage ownership system
+- Count $N$ largest files
+- Make it support many users (each has its storage limit), including `root`
+  - Merge them
+- Cloud Backup & Restore
+
 ## For 2023
 
 ### [PayPal](https://www.paypal.com)
