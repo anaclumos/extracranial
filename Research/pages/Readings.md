@@ -36,6 +36,7 @@ import Shuffle from '@site/src/components/Shuffle'
 <Shuffle>
 
 - [ ] Space Odyssey Series
+- [ ] 한국의 식민지 근대성 (Colonial Modernity in Korea)
 
 </Shuffle>
 
@@ -51,7 +52,10 @@ import Shuffle from '@site/src/components/Shuffle'
 - [ ] 허삼관 매혈기
 - [ ] [[삼체]] (Re-read)
 - [ ] Black Swan
-- [ ] Everything is Figureoutable
+- [ ] Everything is figureoutable
+- [ ] High Growth Handbook
+- [ ] Elon Musk (Walter Isaacson)
+- [ ] Diaspora (Greg Egan)
 
 </Shuffle>
 
@@ -59,9 +63,9 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
-- [ ] [[J. Robert Oppenheimer]]
-- [x] [[지구 끝의 온실]]
-- [x] [[한자 타자기]]
-- [ ] [[하얼빈]]
+- [[J. Robert Oppenheimer]]
+- [[지구 끝의 온실]]
+- [[한자 타자기]]
+- [[하얼빈]]
 
 </Shuffle>
