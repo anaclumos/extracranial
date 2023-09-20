@@ -1171,7 +1171,7 @@ export const filenames = {
     "Limit Access for Photos": "57B599",
     "Limit of a Sequence": "EFE796",
     "Line": "DC7AF7",
-    "Linear": "B3810F",
+    "Linear (Software)": "B3810F",
     "Linear README": "888590",
     "Lingua Franca": "F7BBFF",
     "Linguine Engine Test Drive Result 2023-07-13": "6AF7F7",
