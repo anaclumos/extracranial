@@ -5,6 +5,11 @@ slug: '/75CB18'
 
 ## For 2024
 
+### [Belvedere Trading](https://www.belvederetrading.com/)
+
+- Sliding window (but both in traded stock count and trade history count) Stock price average finder
+- Linear Regression (Scikit)
+
 ### [Goldman Sachs](https://www.goldmansachs.com/index.html)
 
 - Sliding Window
@@ -12,7 +17,7 @@ slug: '/75CB18'
 
 ### [Optiver](https://optiver.com/)
 
-- Retain $N$ logs. `recordLog(self, logId, timestamp)`, `getLogs (self)`, `getLogCount (self)` [[Simulations]], some sort of sliding window
+- Retain $N$ logs. `recordLog(self, logId, timestamp)`, `getLogs (self)`, `getLogCount (self)` [[Simulations]], sliding window
 - Calculate stock price, given dividend payout on specific dates. Dividend payouts are editable. [[Simulations]]
 
 ### [MathWorks](https://www.mathworks.com/)
