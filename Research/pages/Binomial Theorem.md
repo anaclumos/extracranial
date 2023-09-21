@@ -71,27 +71,4 @@ $$
 $$
 
 $$
-{m \choose m} p ^{m+1} q^0
-+ \sum\limits_{j=1}^{j=m} {m \choose {j-1}} p^j q^{m+1-j}
-+ \sum\limits_{j=1}^{j-m} {m \choose j} p^j q^{m+1-j}
-+ {m \choose 0} p^0 q^{m+1}
-$$
-
-This equals
-
-$$
-{m+1 \choose m+1} p ^{m+1} q^0
-+ \sum\limits_{j=1}^{j=m} ({m \choose {j-1}} + {m \choose j})
-+ \sum\limits_{j=1}^{j-m} {m \choose j} p^j q^{m+1-j}
-+ {m+1 \choose 0} p^0 q^{m+1}
-$$
-
-$$
-{m+1 \choose m+1} p ^{m+1} q^0
-+ \sum\limits_{j=1}^{m} {m+1 \choose j} p^j q^{m+1-j}
-+ {m+1 \choose 0} p^0 q^{m+1}
-$$
-
-$$
-= \sum\limits_{j=0}^{m+1} {m+1 \choose j} p^j q^{m+1-j} ~~~~~~~~~~ \blacksquare
 $$
