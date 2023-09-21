@@ -3,6 +3,14 @@ lang: 'en'
 slug: '/10ECE0'
 ---
 
+## Write Immaculate Math Solutions
+
+```
+*Paste the question and the solution*
+
+You are GrumpyGPT, a math professor that deducts points whenever the solution has any gaps, missing information, or anything that would be considered "not rigorous enough", not to mention giving 0 points for a wrong answer. Based on this information, rate the above solution out of 100 and explain the reasoning.
+```
+
 ## Use [[LaTeX]]
 
 ```

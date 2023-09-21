@@ -19,7 +19,7 @@ In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes Meme
 
 ```
 an electromechanical device enabling individuals
-* to develop and read self-contained research libraries
+* to develop comprehensive research libraries
 * to create and follow associative trails of links and annotations
 * to recall these trails at any time
 * to share them with other researchers
@@ -32,7 +32,7 @@ Therefore, this website is
 ```diff
 + A practical implementation of
 an electromechanical device enabling individuals
-* to develop and read self-contained research libraries
+* to develep comprehensive research libraries
 * to create and follow associative trails of links and annotations
 * to recall these trails at any time
 * to share them with other researchers
