@@ -8,13 +8,11 @@ slug: '/8429A4'
 - [x] [[Qiang Yang et al. Federated Machine Learning Concept and Applications]]
 - [x] [[Tian Li et al. Federated Learning Challenges, Methods, and Future Directions]]
 - [x] [[Daniele Romanini et al. PyVertical]]
+- [x] Record Linkage
+- [x] [FederatedAI/FATE: An Industrial Grade Federated Learning Framework](https://github.com/FederatedAI/FATE): Did they implement [[Vertical Federated Learning|VFL]]. Yes. [FATE/doc/2.0/fate/ml/hetero_secureboost_tutorial.ipynb at v2.0.0-beta · FederatedAI/FATE](https://github.com/FederatedAI/FATE/blob/v2.0.0-beta/doc/2.0/fate/ml/hetero_secureboost_tutorial.ipynb)
 - [ ] [[Nicola Rieke et al. The future of digital health with federated learning]]
 - [ ] [[Qinbin Li et al. Federated Learning Systems. Vision, Hype, and Reality for Data Privacy and Protection]]
 - [ ] [[Peter Kairouz et al. Advances and Open Problems in Federated Learning]]
-- [ ] Record Linkage
-- [ ] LR on [[Vertical Federated Learning|VFL]]
-- [ ] Search Conferences
-- [ ] [FederatedAI/FATE: An Industrial Grade Federated Learning Framework](https://github.com/FederatedAI/FATE): Did they implement [[Vertical Federated Learning|VFL]]?
 - [ ] [[Jose Luis Ambite et al. Secure & Private Federated Neuroimaging]]
 - [ ] [[Yuncheng Wu et al. Privacy-Preserving Vertical Federated Learning for Tree-based Models]]
 - [ ] [[Xinjian Luo et al. Feature Inference Attack on Model Predictions in Vertical Federated Learning]]
@@ -36,10 +34,7 @@ slug: '/8429A4'
 - [ ] [Implementing Vertical Federated Learning Using Autoencoders: Practical Application, Generalizability, and Utility Study](https://www.researchgate.net/publication/352268331_Implementing_Vertical_Federated_Learning_Using_Autoencoders_Practical_Application_Generalizability_and_Utility_Study)
 - [ ] [Achieving Differential Privacy in Vertically Partitioned Multiparty Learning](https://par.nsf.gov/servlets/purl/10321735)
 - [ ] [Federated Learning for NLP](https://idmc.univ-lorraine.fr/wp-content/uploads/2021/09/12Supervised_Project_Bibliography_Final_Copy.pdf)
-- [ ] Split Training
-- [ ] Vertical Partitioning
-- [ ] Iker Ceballos
-- [ ] SplitNN-driven vertical partitioning.
+- [ ] Split Training, Vertical Partitioning, SplitNN-driven Vertical Partitioning
 - [ ] [Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/abs/1711.10677)
 - [ ] [Split Learning Project: MIT Media Lab](https://splitlearning.mit.edu/)
 - [ ] [SplitNN-driven Vertical Partitioning](https://arxiv.org/abs/2008.04137v1)
