@@ -40,6 +40,24 @@ slug: '/8429A4'
 - [ ] [SplitNN-driven Vertical Partitioning](https://arxiv.org/abs/2008.04137v1)
 - [ ] [Iker Ceballos](https://paperswithcode.com/search?q=author:Iker+Ceballos)
 
+## [[2023-09-22]]
+
+1. Approaches to vertical federated learning
+   - Train a network that performs well when given all 20 input parameters
+   - Train a network that can make good predictions even with only 10 input parameters
+   - Start by testing a simple approach: train on half the data from each site, average the gradients, and repeat
+   - Run experiments on MNIST data by splitting images in half and training on the halves separately
+1. Challenges
+   - Networks trained on half the data may not learn interactions between the two halves
+   - Training on single examples at a time is impractical; need to use batches for efficiency
+1. Experiments proposed
+   - Train a network on full MNIST images to get a baseline performance
+   - Train networks on half MNIST images to see performance drop
+   - Train networks by alternating between the two halves of examples, averaging the weights, to see if performance improves over training on halves alone
+1. The next steps if this approach works
+   - Try training on batches instead of single examples
+   - Experiment with training for multiple epochs instead of single iterations
+
 ## [[2023-09-14]]
 
 Can't we just ensemble them-?

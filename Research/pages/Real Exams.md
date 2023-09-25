@@ -5,6 +5,18 @@ slug: '/75CB18'
 
 ## For 2024
 
+### [IXL](https://www.ixl.com/)
+
+- Find the Largest Common Divisor with Minimum Increments
+- Anagram Difference
+- [[Mathematic Programming]]
+- Find longest consecutive elements after element deletions
+
+### [IBM](https://www.ibm.com)
+
+- Minimum number of machines required to finish the task, given start times and end times (Sort by start time, then use end time min heap)
+- Minimize $\sum_{i=1}^{\texttt{len}(\texttt{arr})-1} (\texttt{arr}_i - \texttt{arr}_{i-1})^2$ (Find the max gap and then insert the avg in between)
+
 ### [Belvedere Trading](https://www.belvederetrading.com/)
 
 - Sliding window (but both in traded stock count and trade history count) Stock price average finder
@@ -63,7 +75,7 @@ slug: '/75CB18'
 ### [LinkedIn](https://www.linkedin.com/)
 
 - 1 [[Optimized Simulations]]
-- 1 [[Math-based Coding]]
+- 1 [[Mathematic Programming]]
 
 ### [Akuna Capital — "Front Runner"](https://akunacapital.com/)
 
@@ -108,7 +120,7 @@ slug: '/75CB18'
 
 ### [Garda Capital Partners](https://www.gardacp.com/)
 
-- 3 [[Math-based Coding]] problems (2 finding-formula, 1 map)
+- 3 [[Mathematic Programming]] problems (2 finding-formula, 1 map)
 - 1 SQL Problem
 
 ### [BlackRock](https://www.blackrock.com/us/individual)
@@ -126,12 +138,12 @@ slug: '/75CB18'
 
 ### Coinbase
 
-- 1 [[Math-based Coding]]
+- 1 [[Mathematic Programming]]
 - 1 [[Optimized Simulations]]
 
 ### Goldman Sachs
 
-- 1 [[Math-based Coding]]
+- 1 [[Mathematic Programming]]
 - 1 [[Optimized Simulations]]
 
 ### Sezzle
