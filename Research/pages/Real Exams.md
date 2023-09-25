@@ -5,19 +5,25 @@ slug: '/75CB18'
 
 ## For 2024
 
+### [Belvedere Trading](https://www.belvederetrading.com/) (SWE)
+
+- Determining the Stock Performance Score from a Continuous Stream of Trades.
+- Creating a Buy-Sell Ladder from a Continuous Stream of Trades.
+- Determining to Buy or Pass a Stock Bundle, given the market prices.
+
 ### [IXL](https://www.ixl.com/)
 
 - Find the Largest Common Divisor with Minimum Increments
 - Anagram Difference
 - [[Mathematic Programming]]
-- Find longest consecutive elements after element deletions
+- Find the longest consecutive elements after element deletions
 
 ### [IBM](https://www.ibm.com)
 
 - Minimum number of machines required to finish the task, given start times and end times (Sort by start time, then use end time min heap)
 - Minimize $\sum_{i=1}^{\texttt{len}(\texttt{arr})-1} (\texttt{arr}_i - \texttt{arr}_{i-1})^2$ (Find the max gap and then insert the avg in between)
 
-### [Belvedere Trading](https://www.belvederetrading.com/)
+### [Belvedere Trading](https://www.belvederetrading.com/) (Analyst)
 
 - Sliding window (but both in traded stock count and trade history count) Stock price average finder
 - Linear Regression (Scikit)
