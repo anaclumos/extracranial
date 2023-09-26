@@ -33,5 +33,5 @@ The question became:
 
 ## Reference
 
-- [Attention Settings](https://attentionsettings.com/)
+- [[Attention Settings]]
 - The [[Anti]]-Smartphone Revolution [YouTube](https://www.youtube.com/watch?v=02mIRnPJm6g)
