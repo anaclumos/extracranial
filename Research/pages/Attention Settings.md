@@ -410,7 +410,7 @@ iOS는 사용자들에게 주의력을 산만하게 하는 앱들을 계속하�
 
 ## 각주
 
-[1] [소셜미디어 부당한 영향력 행사] (https://consilienceproject.org/social-media-enables-undue-influence/), The Consilience Project, 2021 [↩] (https://attentionsettings.com/ #block-833e02940eb24b30b6dc7df85f0f35a9)
+[1] [소셜미디어 부당한 영향력 행사](https://consilienceproject.org/social-media-enables-undue-influence/), The Consilience Project, 2021 [↩](https://attentionsettings.com/#block-833e02940eb24b30b6dc7df85f0f35a9)
 
 </div>
 </TabItem>
