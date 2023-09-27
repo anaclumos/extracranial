@@ -15,41 +15,6 @@
   background: url(../../static/icons/github-dark.svg) no-repeat center;
 }
 
-.navbar-twitter-link::before {
-  content: '';
-  width: 24px;
-  height: 24px;
-  display: flex;
-  transition: opacity 0.2s ease-in-out;
-  background: url(../../static/icons/twitter.svg) no-repeat center;
-}
-
-.navbar-twitter-link:hover::before {
-  opacity: 0.6;
-}
-
-[data-theme='dark'] .navbar-twitter-link::before {
-  background: url(../../static/icons/twitter-dark.svg) no-repeat center;
-}
-
-.navbar-threads-link::before {
-  content: '';
-  width: 24px;
-  height: 24px;
-  display: flex;
-  transition: opacity 0.2s ease-in-out;
-  background: url(../../static/icons/threads.svg) no-repeat center;
-}
-
-[data-theme='dark'] .navbar-threads-link::before {
-  content: '';
-  width: 24px;
-  height: 24px;
-  display: flex;
-  transition: opacity 0.2s ease-in-out;
-  background: url(../../static/icons/threads-dark.svg) no-repeat center;
-}
-
 .navbar-threads-link:hover::before {
   opacity: 0.6;
 }
