@@ -15,10 +15,6 @@
   background: url(../../static/icons/github-dark.svg) no-repeat center;
 }
 
-.navbar-threads-link:hover::before {
-  opacity: 0.6;
-}
-
 .navbar-linkedin-link::before {
   content: '';
   width: 24px;
