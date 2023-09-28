@@ -3,6 +3,18 @@ lang: 'en'
 slug: '/10ECE0'
 ---
 
+## Explain
+
+```
+Explain to an undergrad.
+```
+
+## Improve Accuracy
+
+```
+Take a deep breath, and work on this problem step by step.
+```
+
 ## Write Immaculate Math Solutions
 
 ```
