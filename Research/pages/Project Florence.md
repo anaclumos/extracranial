@@ -40,6 +40,10 @@ slug: '/8429A4'
 - [ ] [SplitNN-driven Vertical Partitioning](https://arxiv.org/abs/2008.04137v1)
 - [ ] [Iker Ceballos](https://paperswithcode.com/search?q=author:Iker+Ceballos)
 
+## [[2023-10-03]]
+
+- [[Project Fiesole]]
+
 ## [[2023-09-22]]
 
 1. Approaches to vertical federated learning

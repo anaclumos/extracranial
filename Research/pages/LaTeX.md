@@ -244,3 +244,9 @@ $$
 
 \leftarrow
 ```
+
+## Quote
+
+```tex
+`` <quoted text here> ''
+```

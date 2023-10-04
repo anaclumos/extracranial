@@ -28,4 +28,4 @@ Synonym with [[Extracranial]], [[Second Brain|Digital Brain]], [[Second Brain]],
 </TabItem>
 </Tabs>
 
-![[89B469.png]]
+![[5426B0.png]]
