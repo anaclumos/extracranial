@@ -5,7 +5,7 @@ slug: '/CC756B'
 
 ## Reference
 
-[[Towards Ambient Computing]]
+[[앰비언트 컴퓨팅을 향해]]
 
 - [thesephist/monocle](https://github.com/thesephist/monocle): Universal personal [[search engine]], powered by a full-text search algorithm written in pure Ink, indexing Linus's blogs and private note archives, contacts, tweets, and over a decade of journals.
 - [Building Monocle, a universal personal search engine for life](https://thesephist.com/posts/monocle/)
