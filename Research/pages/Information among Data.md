@@ -8,5 +8,5 @@ aliases: ['데이터 중 정보']
 - Information: "Useful" Data
 
 [[Library of Babel]] holds all data.
-Therefore all the information.
+Therefore, all the information.
 But it is equally hard to find usefulness in that data pile.
