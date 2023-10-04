@@ -19,7 +19,7 @@ slug: '/CF82AA'
 
 이후 기기는 점점 축소화됐다. 그러다가 스마트폰이 등장하며, 대부분의 라이프로깅 기기는 시장에서 사장되었다. 기존의 수요는 본인의 기억을 증진한다는 목적보다는 사람들에게 실시간으로 무언가를 중계하는 것에 있었으며, 스마트폰은 "목적을 가지고" 모든 것을 송출하는 사람들에게는 최고의 기기였기 때문이다. 때문에 라이프로거들은 전문 기기를 버리고 스마트폰으로 넘어갔으며, "스트리머"라는 새로운 직종을 탄생시키게 된다.
 
-![Mann Wearable Wireless Webcam (1998), Microsoft Sensecam (2004), Mann Fung Lo (2006); Memoto (2013). Glogger, CC BY-SA 3.0, via Wikimedia Commons](D50351.png)
+![Mann Wearable Wireless Webcam (1998), Microsoft Sensecam (2004), Mann Fung Lo (2006); Memoto (2013). Glogger, CC BY-SA 3.0, via Wikimedia Commons](../assets/D50351.png)
 
 ## "개인용" 라이프로깅 기기
 
