@@ -51,11 +51,7 @@ In response, the [Rewind](https://twitter.com/RewindAI) team released the [[Rewi
 
 ![[A98330.png]]
 
-Finally, [Mingjie Jiang](https://twitter.com/itsmingjie) also [unveiled](https://twitter.com/itsmingjie/status/1709039235913719973) the Human pendant.
-
-![[2FC7CE.png]]
-
-Three pendant [[AI]] devices utilize [[OpenAI]] Whisper and [[Generative Pre-trained Transformer|GPT]] technology to record and respond immediately to queries. This development occurred in early October, and the competition is expected to intensify only based on previous performance records.
+Two pendant [[AI]] devices utilize [[OpenAI]] Whisper and [[Generative Pre-trained Transformer|GPT]] technology to record and respond immediately to queries. This development occurred in early October, and the competition is expected to intensify only based on previous performance records.
 
 ## Ambient Computing
 
