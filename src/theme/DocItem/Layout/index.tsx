@@ -12,7 +12,6 @@ import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop'
 import DocItemContent from '@theme/DocItem/Content'
 import DocBreadcrumbs from '@theme/DocBreadcrumbs'
 import type { Props } from '@theme/DocItem/Layout'
-import Giscus from '@site/src/components/Giscus'
 
 import styles from './styles.module.css'
 import Backlink from '@site/src/components/Backlink'
@@ -54,7 +53,6 @@ export default function DocItemLayout({ children }: Props): JSX.Element {
             <DocItemFooter />
           </article>
           <DocItemPaginator />
-          <Giscus />
           <Backlink documentTitle={title} />
         </div>
       </div>
