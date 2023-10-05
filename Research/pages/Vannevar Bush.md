@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
 <div lang='ko-KR'>
 
-> 버니바 부시는 [[United States of America|미국]]의 기술자이자 아날로그 컴퓨터의 선구자이다. 역사적으로 부시는 2차 세계 대전에서 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 메멕스([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 준 과학 사상가였다. [버니바 부시](https://ko.wikipedia.org/wiki/%EB%B2%84%EB%8B%88%EB%B0%94_%EB%B6%80%EC%8B%9C)
+> 버니바 부시는 [[United States of America|미국]]의 기술자이자 아날로그 컴퓨터의 선구자이다. 역사적으로 부시는 2차 세계 대전에서 원자 폭탄을 개발한 맨해튼 계획을 관리하고 추진한 주역 중 한 사람이었으며 [[Memex|메멕스]]([[Memex]])라고 불리는 기억 확장기 개념을 최초로 주창하여 현재 인터넷과 하이퍼텍스트의 발전에 영감을 준 과학 사상가였다. [버니바 부시](https://ko.wikipedia.org/wiki/%EB%B2%84%EB%8B%88%EB%B0%94_%EB%B6%80%EC%8B%9C)
 
 </div>
 </TabItem>

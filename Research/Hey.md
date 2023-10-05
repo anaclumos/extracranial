@@ -15,7 +15,7 @@ I am thrilled to present you with the incarnation of this vision.
 
 ## Extracranial: The Exosuit for [[Superbrain|Superbrains]] and a superset of [[Memex]]
 
-In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes Memex as
+In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes [[Memex]] as
 
 ```
 an electromechanical device enabling individuals
