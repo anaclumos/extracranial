@@ -9,5 +9,5 @@ slug: '/641188'
 
 - This article critically examines the capabilities and limitations of large language models like [[ChatGPT]], comparing them to lossy text-compression algorithms.
 - The model struggles with understanding fundamental principles and generating original content.
-- Potential applications of these models in search engines, web content generation, and assisting original writing are explored, along with the challenges associated with their reliability, accuracy, and potential for misinformation.
+- Potential applications of these models in [[Search Engine|search engines]], web content generation, and assisting original writing are explored, along with the challenges associated with their reliability, accuracy, and potential for misinformation.
 - The importance of considering the benefits and limitations of large language models in future AI research and development is emphasized.

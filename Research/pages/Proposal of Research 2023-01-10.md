@@ -5,7 +5,7 @@ slug: '/E6D1EA'
 
 ## 1. [[Stable Alternative]]
 
-"Alt text" briefly describes an image and is used if the [[Web Browser|browser]] cannot display the picture. Alt text is typically used in Web documents to provide a text equivalent for a photo, which can be read by screen readers and other assistive technology to provide [[accessibility]] to visually impaired users. Search engines also use it to understand the content of an image and improve its ranking in image search results.
+"Alt text" briefly describes an image and is used if the [[Web Browser|browser]] cannot display the picture. Alt text is typically used in Web documents to provide a text equivalent for a photo, which can be read by screen readers and other assistive technology to provide [[accessibility]] to visually impaired users. [[Search Engine|Search engines]] also use it to understand the content of an image and improve its ranking in image search results.
 
 Many images on the web have empty alt text, which usually occurs when the person who created the web page either forgets to add it or doesn't have the proper writing knowledge. If many images on a website have empty alt text, it makes the site less accessible to visually impaired users. This situation can make it difficult for the visually impaired to navigate and understand the website's content, leading to poor user experience and web [[accessibility]] problems.
 
