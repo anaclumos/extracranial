@@ -43,33 +43,26 @@ I ran ten epochs on one dataset and have yet to come back. Then I moved on to th
 
 I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four cycles, thus 16 epochs.
 
-### Cycle 1
-
-- TL(1): 59.37 %
-- TL(1), TR(1): 79.6 %
-- TL(1), TR(1), BL(1): 88.51 %
-- TL(1), TR(1), BL(1), BR(1): 79.88 %
-
-### Cycle 2
-
-- TL(1): 85.68 %
-- TL(1), TR(1): 87.69 %
-- TL(1), TR(1), BL(1): 91.4 %
-- TL(1), TR(1), BL(1), BR(1): 88.52 %
-
-### Cycle 3
-
-- TL(1): 82.21 %
-- TL(1), TR(1): 86.56 %
-- TL(1), TR(1), BL(1): 90.98 %
-- TL(1), TR(1), BL(1), BR(1): 89.07 %
-
-### Cycle 4
-
-- TL(1): 85.24 %
-- TL(1), TR(1): 86.33 %
-- TL(1), TR(1), BL(1): 91.99 %
-- TL(1), TR(1), BL(1), BR(1): 90.12 %
+- Cycle 1
+  - TL(1): 59.37 %
+  - TL(1), TR(1): 79.6 %
+  - TL(1), TR(1), BL(1): 88.51 %
+  - TL(1), TR(1), BL(1), BR(1): 79.88 %
+- Cycle 2
+  - TL(1): 85.68 %
+  - TL(1), TR(1): 87.69 %
+  - TL(1), TR(1), BL(1): 91.4 %
+  - TL(1), TR(1), BL(1), BR(1): 88.52 %
+- Cycle 3
+  - TL(1): 82.21 %
+  - TL(1), TR(1): 86.56 %
+  - TL(1), TR(1), BL(1): 90.98 %
+  - TL(1), TR(1), BL(1), BR(1): 89.07 %
+- Cycle 4
+  - TL(1): 85.24 %
+  - TL(1), TR(1): 86.33 %
+  - TL(1), TR(1), BL(1): 91.99 %
+  - TL(1), TR(1), BL(1), BR(1): 90.12 %
 
 </details>
 
@@ -82,34 +75,60 @@ Still around 92%, max. Never goes above 95%.
 
 ## Federated Learning
 
+import DisplayFlex from '@site/src/components/DisplayFlex'
+
 <details>
 <summary>
 Results
 </summary>
 
+<DisplayFlex>
+
 ![[E0ED4F.png]]
+
+![[DA87AB.png]]
+
+</DisplayFlex>
+
+<DisplayFlex>
 
 ![[2289D2.png]]
 
 ![[EC12E1.png]]
 
+</DisplayFlex>
+
+<DisplayFlex>
+
 ![[7147C6.png]]
 
 ![[AB6E91.png]]
+
+</DisplayFlex>
+
+<DisplayFlex>
 
 ![[C6F843.png]]
 
 ![[EEF724.png]]
 
+</DisplayFlex>
+
+<DisplayFlex>
+
 ![[E2D67A.png]]
 
 ![[DFF919.png]]
+
+</DisplayFlex>
+
+<DisplayFlex>
 
 ![[A1DAA5.png]]
 
 ![[BC3839.png]]
 
-![[DA87AB.png]]
+</DisplayFlex>
 
 </details>
 
