@@ -27,5 +27,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [[J. Robert Oppenheimer|Oppenheimer]]
 - [[Barbie]]
 - 마스크걸
+- 무빙
+- 데블스플랜
 
 </Shuffle>
