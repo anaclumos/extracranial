@@ -4,6 +4,7 @@ slug: /9C24C1
 ---
 
 - [[The Paradoxical Moon Philosophy]]
+- [[Send Separately]]
 
 ## [[2023-10-12]]
 
