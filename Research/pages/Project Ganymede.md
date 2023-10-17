@@ -6,6 +6,14 @@ slug: /9C24C1
 - [[The Paradoxical Moon Philosophy]]
 - [[Send Separately]]
 
+## [[2023-10-16]]
+
+![[885554.png]]
+
+## [[2023-10-13]]
+
+I figured out that in iOS 17, Shortcuts can send messages without confirmation. Can we use this for [[Send Separately]] or Ganymede?
+
 ## [[2023-10-12]]
 
 - Read notifications
