@@ -13,10 +13,8 @@ const NewsletterForm = () => {
     <form method="post" action="https://newsletters.cho.sh/subscription/form" className={styles.formContainer}>
       <div>
         <h3 className={styles.subscribeHeader}>
-          <Translate>
-            Subscribe
-          </Translate>
-          </h3>
+          <Translate>Subscribe</Translate>
+        </h3>
         <p>
           <input type="email" name="email" required placeholder="Mail" className={styles.emailInput} />
         </p>
