@@ -598,5 +598,8 @@
   },
   " or ": {
     "message": " or "
+  },
+  "Subscribe": {
+    "message": "Subscribe"
   }
 }

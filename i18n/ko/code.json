@@ -598,5 +598,8 @@
   },
   " or ": {
     "message": "이나 "
+  },
+  "Subscribe": {
+    "message": "구독"
   }
 }

@@ -31,13 +31,13 @@
     "message": "연구 노트",
     "description": "Navbar item with label Research"
   },
-  "item.label.Hacker News Summary": {
-    "message": "Hacker News Summary",
-    "description": "Navbar item with label Hacker News Summary"
+  "item.label.Newsletters": {
+    "message": "Newsletters",
+    "description": "Navbar item with label Newsletters"
   },
-  "item.label.해커뉴스 요약": {
-    "message": "해커뉴스 요약",
-    "description": "Navbar item with label 해커뉴스 요약"
+  "item.label.뉴스레터": {
+    "message": "뉴스레터",
+    "description": "Navbar item with label 뉴스레터"
   },
   "item.label.Hey 👋🏻": {
     "message": "안녕하세요 👋🏻",
