@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './NewsletterForm.module.css'
+import Translate from '@docusaurus/Translate'
 
 const NewsletterForm = () => {
   const { i18n } = useDocusaurusContext()
@@ -11,7 +12,11 @@ const NewsletterForm = () => {
   return (
     <form method="post" action="https://newsletters.cho.sh/subscription/form" className={styles.formContainer}>
       <div>
-        <h3 className={styles.subscribeHeader}>Subscribe</h3>
+        <h3 className={styles.subscribeHeader}>
+          <Translate>
+            Subscribe
+          </Translate>
+          </h3>
         <p>
           <input type="email" name="email" required placeholder="Mail" className={styles.emailInput} />
         </p>
