@@ -6,6 +6,8 @@ slug: '/D92FBE'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+[The Techno-Optimist Manifesto](https://a16z.com/the-techno-optimist-manifesto/)
+
 <Tabs groupId='lang' queryString>
 <TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
