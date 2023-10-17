@@ -173,3 +173,11 @@ Results
 
 1. **Noise Introduction:** Caution is advised on the noise addition mechanism. Instead of a broad range, a much smaller noise range has been recommended to prevent the network from overfitting.
 2. **Further Discussions:** Given the complexities and potential solutions, in-person discussions or more detailed meetings have been deemed necessary to refine the approach.
+
+## Status
+
+✅ SUCCESS
+
+## Further Actions
+
+Superseded by [anaclumos/malmantile](https://github.com/anaclumos/malmantile) [[Project Malmantile]]
