@@ -22,6 +22,7 @@ Ran entire ten epochs with the original dataset
 ## Cutting the images
 
 ![[6A41A2.png]]
+![[5F2C47.png]]
 
 ## Status
 
