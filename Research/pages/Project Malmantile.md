@@ -23,6 +23,7 @@ Ran entire ten epochs with the original dataset
 
 ![[6A41A2.png]]
 ![[5F2C47.png]]
+![[BF8EAF.png]]
 
 ## Status
 
