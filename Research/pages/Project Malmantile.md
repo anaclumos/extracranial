@@ -11,13 +11,17 @@ Malmantile is a subproject of [[Project Florence]]. Supercedes [[Project Fiesole
 
 ## Method
 
-Similar to [[Project Fiesole]], we cut the images into four pieces.
+We cut the images into four pieces like [[Project Fiesole]].
 
 ## Control Group
 
 Ran entire ten epochs with the original dataset
 
-- CIFAR CNN: 99.16 %
+- CIFAR CNN: 87.76 %
+
+## Cutting the images
+
+![[6A41A2.png]]
 
 ## Status
 

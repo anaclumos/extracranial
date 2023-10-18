@@ -1382,6 +1382,7 @@ export const filenames = {
     "Optimistic Nihilism": "E0FFE6",
     "Optimistic Nihilist": "1F9808",
     "Optimized Simulations": "82E962",
+    "Orion Tube": "47DDDE",
     "Our tools also shape us": "34A4BD",
     "Overfitting": "1875A0",
     "P vs NP": "A9E773",
