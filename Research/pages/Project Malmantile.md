@@ -15,19 +15,21 @@ We cut the images into four pieces like [[Project Fiesole]].
 
 ## Control Group
 
-Ran entire ten epochs with the original dataset
+Ran entire ten epochs with the original dataset with CIFAR CNN: 87.76 %
 
-- CIFAR CNN: 87.76 %
+![[FC9A54.png]]
 
 ## Cutting the images
 
-![[6A41A2.png]]
-![[9AA9AA.png]]
-![[5F2C47.png]]
-![[BF8EAF.png]]
+![[48A860.png]]
+![[C9D658.png]]
+![[E9BBF9.png]]
+![[10E084.png]]
 
 ## Status
 
-ING
+![[A0705F.png]]
+
+![[D5D8B8.png]]
 
 ## Further Actions

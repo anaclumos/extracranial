@@ -3,6 +3,12 @@ lang: 'en'
 slug: '/D92FBE'
 ---
 
+:::info
+
+This is a copy of a16z's [The Techno-Optimist Manifesto](https://a16z.com/the-techno-optimist-manifesto/), purely for archiving purposes.
+
+:::
+
 [The Techno-Optimist Manifesto](https://a16z.com/the-techno-optimist-manifesto/)
 
 "You live in a deranged age — more deranged than usual, because despite great scientific and technological advances, man has not the faintest idea of who he is or what he is doing."
