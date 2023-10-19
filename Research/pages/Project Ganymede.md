@@ -6,6 +6,15 @@ slug: /9C24C1
 - [[The Paradoxical Moon Philosophy]]
 - [[Send Separately]]
 
+## [[2023-10-19]]
+
+- [SwiftUI Metal Shader Effects - iOS 17 - WWDC 2023](https://www.youtube.com/watch?v=yBdY0UKBIx0)
+- [Embed the Photos Picker in your app - WWDC23 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2023/10107/)
+- [Burn Paper with a Single Shader | Blender Tutorial](https://www.youtube.com/watch?v=i0NcvJtTZG8&t=120s)
+
+![[E19673.png]]
+![[A09B56.png]]
+
 ## [[2023-10-16]]
 
 ![[885554.png]]
