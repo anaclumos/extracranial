@@ -5,6 +5,7 @@ slug: /9C24C1
 
 - [[The Paradoxical Moon Philosophy]]
 - [[Send Separately]]
+- Callisto is the code name for MessagesExtension
 
 ## [[2023-10-19]]
 
