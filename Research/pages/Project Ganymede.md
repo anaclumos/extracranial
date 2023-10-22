@@ -7,6 +7,12 @@ slug: /9C24C1
 - [[Send Separately]]
 - Callisto is the code name for MessagesExtension
 
+## [[2023-10-20]]
+
+Can attach many images
+
+![[8A52BA.png]]
+
 ## [[2023-10-19]]
 
 - [SwiftUI Metal Shader Effects - iOS 17 - WWDC 2023](https://www.youtube.com/watch?v=yBdY0UKBIx0)
