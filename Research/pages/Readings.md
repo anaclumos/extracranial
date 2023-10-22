@@ -28,6 +28,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [x] [[Exhalation]]
 - [x] [[MAKE (Book)]]
 - [x] [[한국통사]]
+- [x] 한국의 식민지 근대성 (Colonial Modernity in Korea)
 
 </Shuffle>
 
@@ -36,7 +37,6 @@ import Shuffle from '@site/src/components/Shuffle'
 <Shuffle>
 
 - [ ] Space Odyssey Series
-- [ ] 한국의 식민지 근대성 (Colonial Modernity in Korea)
 
 </Shuffle>
 
