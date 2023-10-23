@@ -147,6 +147,7 @@ Results
 - 5 ![[E9C47C.png]]
 - ![[D7DC98.png]]
 - Update: Adding ambient noise decreases the accuracy a lot, both when I use the same ambient pattern (throughout the federations, uses the same ambient pattern over and over) or dynamically generate them (throughout the federations, create a new ambient pattern)
+- ![[F6FFBC.png]]
 
 ## Next Steps
 
