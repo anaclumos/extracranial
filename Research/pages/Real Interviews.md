@@ -5,15 +5,21 @@ slug: '/654898'
 
 See also: [[Real Exams]]
 
+[Source](https://www.reddit.com/r/ProgrammerHumor/comments/l6wnvt/interview_vs_job/)
+
 ![[30E62A.png]]
 
-[Source](https://www.reddit.com/r/ProgrammerHumor/comments/l6wnvt/interview_vs_job/)
+## For 2024
+
+### [Ubuntu](https://ubuntu.com/)
+
+- Many Linux Foundation Knowledges
 
 ## For 2023
 
 ### [Apple](https://apple.com)
 
-- a lot of CS fundamental questions (e.g. what is a Hash Table (pros/cons)?)
+- Many CS fundamental questions (e.g., what is a Hash Table (pros/cons)?)
 - `isPalindrome` with a few edge cases
 
 ### [[Palantir]]
