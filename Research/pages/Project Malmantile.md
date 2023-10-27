@@ -32,4 +32,8 @@ Ran entire ten epochs with the original dataset with CIFAR CNN: 87.76 %
 
 ![[D5D8B8.png]]
 
+## Malmantile 4x4
+
+![[65C5FE.png]]
+
 ## Further Actions

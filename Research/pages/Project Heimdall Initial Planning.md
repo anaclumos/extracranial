@@ -21,7 +21,7 @@ At [[Karrot]], scraping the news over the internet was a daily activity.
 
 ![Like this](../assets/5FD1BE.png)
 
-What if we can ask the **All-seer** to check for keywords [[Karrot|당근마켓]] 캐롯 and [[Karrot]] every day?
+What if we can ask the **All-seer** to check for keywords [[Karrot|당근]] 캐롯 and [[Karrot]] every day?
 
 An example:
 

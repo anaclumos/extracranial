@@ -1700,6 +1700,7 @@ export const filenames = {
     "Sprachraum": "B229D8",
     "Spring Boot": "3E8C4D",
     "Squircle": "84132A",
+    "Squircled App Icon Generator": "326BE8",
     "Stable Alternative": "786F87",
     "Stable Diffusion": "4AA0B5",
     "Stale While Revalidate": "FCE496",
