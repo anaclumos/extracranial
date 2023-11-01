@@ -162,7 +162,7 @@ I was happy to have learned my lesson and called it a day. I have since unpublis
 
 ## Lessons Learned
 
-### Unpaid open source is lowkey emotional labor.
+### Unpaid open source is an emotional labor
 
 That was my biggest takeaway.
 
