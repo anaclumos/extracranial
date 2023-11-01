@@ -56,7 +56,7 @@ class Solution:
 
 ### Time
 
-- $O(n \log n)$ because worst case, we might need to travel all nodes while counting their height with $O(n)$
+- $O(n \log n)$ because worst case, we might need to travel all nodes while [[counting]] their height with $O(n)$
 
 ### Space
 

@@ -4,9 +4,9 @@ slug: '/C822DB'
 aliases: ['Redwood']
 ---
 
-RedwoodJS is a full-stack, open-source JavaScript framework for building web applications. It was launched in 2020 by Tom Preston-Werner, a GitHub co-founder. Redwood uses a unique combination of established technologies:
+RedwoodJS is a full-stack, open-source [[JavaScript]] framework for building web applications. It was launched in 2020 by Tom Preston-Werner, a [[GitHub]] co-founder. Redwood uses a unique combination of established technologies:
 
-- The [[front-end]] is built with **React**, a popular JavaScript library for building user interfaces.
+- The [[front-end]] is built with **[[React]]**, a popular [[JavaScript]] library for building user interfaces.
 - For the [[back-end]], Redwood uses **[[GraphQL]]**, a query language for APIs that allows you to request specific data and aggregate responses from multiple sources.
 - It utilizes **[[Prisma]]** as an Object-Relational Mapping (ORM) solution to manage the [[database]] layer. [[Prisma]] helps developers build performant and safe [[database]] access.
 - [[React Router]]. Redwood's router is declarative, built on the idea of "routes as a first-class concept."'

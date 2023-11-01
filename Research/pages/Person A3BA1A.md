@@ -6,7 +6,7 @@ slug: '/A3BA1A'
 - Interviewed on [[2022-11-25]]
 - Currently works at Quota Labs
 
-Quota Labs specializes in B2B Equity management SaaS tools for Asia.
+Quota Labs specializes in B2B Equity management [[Software as a Service|SaaS]] tools for Asia.
 Think as [Carta: Equity Management Solutions](https://carta.com/) for Asia.
 Quota Labs has two divisions.
 The [[Venture Capital|VC]] side tool and the Startup side tool.

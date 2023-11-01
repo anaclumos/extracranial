@@ -47,7 +47,7 @@ General guidelines:
 
 - Include a space between compound units (e.g., \"[CapitalOmega] m\" for \"ohm\*meter\").
 
-- To solve for a variable in an equation with units, consider solving a corresponding equation without units; exclude counting units (e.g., books), include genuine units (e.g., kg).
+- To solve for a variable in an equation with units, consider solving a corresponding equation without units; exclude [[counting]] units (e.g., books), include genuine units (e.g., kg).
 
 - Simplify or rephrase queries if the response is incorrect.
 
