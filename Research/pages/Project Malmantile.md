@@ -17,23 +17,27 @@ We cut the images into four pieces like [[Project Fiesole]].
 
 Ran entire ten epochs with the original dataset with CIFAR CNN: 87.76 %
 
-![[FC9A54.png]]
+![[69EB87.png]]
 
 ## Cutting the images
 
-![[48A860.png]]
-![[C9D658.png]]
-![[E9BBF9.png]]
-![[10E084.png]]
+![[678078.png]]
+![[1A7FA1.png]]
+![[59886D.png]]
+![[803F4A.png]]
 
 ## Status
 
-![[A0705F.png]]
+![[27804D.png]]
 
-![[D5D8B8.png]]
+![[5E20D4.png]]
 
 ## Malmantile 4x4
 
-![[65C5FE.png]]
+![[A8DD8E.png]]
+![[4B7913.png]]
 
-## Further Actions
+## Malmantile 16x1
+
+![[CABECF.png]]
+![[26FE23.png]]
