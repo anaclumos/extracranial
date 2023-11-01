@@ -6,7 +6,7 @@ import theme from './config/theme.config'
 import katexStylesheet from './config/katex.stylesheet'
 import navbar from './config/navbar.config'
 import analytics from './config/ga.config'
-import darkCodeTheme from 'prism-react-renderer/themes/dracula'
+import { themes } from 'prism-react-renderer'
 
 const config: Config = {
   title: 'Sunghyun Cho',
@@ -80,8 +80,8 @@ const config: Config = {
     },
     navbar: navbar,
     prism: {
-      theme: darkCodeTheme,
-      darkTheme: darkCodeTheme,
+      theme: themes.dracula,
+      darkTheme: themes.dracula,
       additionalLanguages: ['java', 'swift'],
     },
     tableOfContents: {
