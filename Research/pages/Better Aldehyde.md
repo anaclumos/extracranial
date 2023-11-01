@@ -10,6 +10,6 @@ slug: '/84776A'
 
 - [[Transactional Globe]]
 
-## Done
+## [[Done]]
 
 - [[Backlinking for Aldehyde]]

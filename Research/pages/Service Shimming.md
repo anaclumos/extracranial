@@ -5,7 +5,7 @@ slug: '/26D2AB'
 
 In computer programming, **[[Shim|shimming]]** is a method of transparently intercepting, modifying, and redirecting the API calls. A smooth [[shim]] is hardly noticeable; imagine Mission Impossible, where you ordered food at a restaurant, but actually, Ethan Hunt intercepted your call, cooked, and delivered your food.
 
-People **really** don't care about how developers implement services. If you withdraw some money from an ATM, you don't care if it's an actual ATM, a secret terminator trying to assassinate you, or actually, there's a person inside a machine counting the money for you. The important thing is giving the **illusion** that everything is working. If this is true, engineering might not be as crucial as we developers think. Maybe [[Time to Market]] is more critical. Here are a few examples:
+People **really** don't care about how developers implement services. If you withdraw some money from an ATM, you don't care if it's an actual ATM, a secret terminator trying to assassinate you, or actually, there's a person inside a machine [[counting]] the money for you. The important thing is giving the **illusion** that everything is working. If this is true, engineering might not be as crucial as we developers think. Maybe [[Time to Market]] is more critical. Here are a few examples:
 
 - Edison faked his invention of the light bulb for more than 4 years.
 - The first iPhone failed to integrate individual apps, so Jobs had to prepare separate iPhones for calls, music, [[Cartography|maps]], etc. He had to switch between each iPhone, pretending it was the same device.

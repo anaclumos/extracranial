@@ -36,4 +36,4 @@ class Solution {
 
 ## Takeaways
 
-We can also use BFS to traverse the tree
+We can also use [[BFS]] to traverse the tree
