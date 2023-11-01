@@ -25,8 +25,6 @@ And I believe in **show > tell**, so let me just show you some examples.
 
 ### Get updates from your industry!
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
-
 <DisplayFlex>
 
 ![Subscribed to `Gen AI`, language set to `English`](../assets/A5DBEF.png)
@@ -72,7 +70,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 ## Sign Ups
 
 - Free during Alpha
-- No SLA (This Alpha experiment can shut down anytime, without any notice.)
+- No SLA (This Alpha experiment can shut down anytime, without notice.)
 - [Sign up for Alpha Testing here!](https://airtable.com/appLfbX7pNQxpBx00/shrkP8rkkbJxpBWE6)
 
 </div>
