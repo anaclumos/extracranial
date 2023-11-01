@@ -23,47 +23,47 @@ Heimdall is now subscribed by thousands of professionals around the world. Now, 
 
 And I believe in **show > tell**, so let me just show you some examples.
 
-### Get updates from your industry!
+## Get updates from your industry!
 
 <DisplayFlex>
 
-![Subscribed to `Gen AI`, language set to `English`](../assets/A5DBEF.png)
-![Subscribed to `Gen AI`, language set to `Korean`](../assets/88DC46.png)
+![Subscribed to Gen AI, language set to English](../assets/A5DBEF.png)
+![Subscribed to Gen AI, language set to Korean](../assets/88DC46.png)
 
 </DisplayFlex>
 
 <DisplayFlex>
 
-![Subscribed to `Health Tech`, language set to `English`](../assets/C8CAE4.png)
-![Subscribed to `Health Tech`, language set to `Korean`](../assets/DF1B4D.png)
+![Subscribed to Health Tech, language set to English](../assets/C8CAE4.png)
+![Subscribed to Health Tech, language set to Korean](../assets/DF1B4D.png)
 
 </DisplayFlex>
 
-### Monitor new legislation!
+## Monitor new legislation!
 
 <DisplayFlex>
 
-![Subscribed to `EU Regulation`, language set to `English`](../assets/837D67.png)
-![Subscribed to `EU Regulation`, language set to `Korean`](../assets/668133.png)
+![Subscribed to EU Regulation, language set to English](../assets/837D67.png)
+![Subscribed to EU Regulation, language set to Korean](../assets/668133.png)
 
 </DisplayFlex>
 
-### Monitor your brand!
+## Monitor your brand!
 
 <DisplayFlex>
 
-![Subscribed to `Grammarly`, language set to `English`](../assets/B14106.png)
-![Subscribed to `Resend Email API`, language set to `English`](../assets/6663B1.png)
+![Subscribed to Grammarly, language set to English](../assets/B14106.png)
+![Subscribed to Resend Email API, language set to English](../assets/6663B1.png)
 
 </DisplayFlex>
 
-### Monitor region-specific news
+## Monitor region-specific news
 
 <DisplayFlex>
 
-![Subscribed to `微信` (WeChat), language set to `English`](../assets/BE0D31.png)
-![Subscribed to `微信` (WeChat), language set to `Korean`](../assets/547EE5.png)
-![Subscribed to `토스 금융` (Toss), language set to `Korean`](../assets/F7C4EE.png)
+![Subscribed to 微信 (WeChat), language set to English](../assets/BE0D31.png)
+![Subscribed to 微信 (WeChat), language set to Korean](../assets/547EE5.png)
+![Subscribed to 토스 금융 (Toss), language set to Korean](../assets/F7C4EE.png)
 
 </DisplayFlex>
 
@@ -91,34 +91,34 @@ And I believe in **show > tell**, so let me just show you some examples.
 
 저는 **보는 것 > 듣는 것**이라고 생각하기에, 예시를 직접 보여드리겠습니다.
 
-### 업계 새 소식을 모니터링하세요!
+## 업계 새 소식을 모니터링하세요!
 
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 
-![`Gen AI` 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/A5DBEF.png)
-![`Gen AI` 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/88DC46.png)
+![Gen AI 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/A5DBEF.png)
+![Gen AI 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/88DC46.png)
 
 </DisplayFlex>
 
 <DisplayFlex>
 
-![`Health Tech` 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/C8CAE4.png)
-![`Health Tech` 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/DF1B4D.png)
+![Health Tech 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/C8CAE4.png)
+![Health Tech 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/DF1B4D.png)
 
 </DisplayFlex>
 
-### 새로운 법률 규제를 모니터링하세요!
+## 새로운 법률 규제를 모니터링하세요!
 
 <DisplayFlex>
 
-![`EU 규제` 키워드를 구독하고 언어를 `영어`로 설정했을 때](../assets/837D67.png)
-![`EU 규제` 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/668133.png)
+![EU 규제 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/837D67.png)
+![EU 규제 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/668133.png)
 
 </DisplayFlex>
 
-### 브랜드를 모니터링하세요!
+## 브랜드를 모니터링하세요!
 
 <DisplayFlex>
 
@@ -128,19 +128,19 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 </DisplayFlex>
 
-### 국지적 뉴스를 모니터링하세요!
+## 국지적 뉴스를 모니터링하세요!
 
 <DisplayFlex>
 
-![`微信` (위챗) 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/BE0D31.png)
-![`微信` (위챗) 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/547EE5.png)
+![微信 (위챗) 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/BE0D31.png)
+![微信 (위챗) 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/547EE5.png)
 
 </DisplayFlex>
 
 ## 알파 테스트
 
 - 알파 기간 동안 무료입니다!
-- SLA는 없습니다 (언제든지 중단될 수 있는 테스트입니다.)
+- SLA 없습니다 (언제든지 중단될 수 있는 테스트입니다.)
 - [여기에서 알파 테스트를 신청해주세요!](https://airtable.com/appLfbX7pNQxpBx00/shrkP8rkkbJxpBWE6)
 
 </div>
