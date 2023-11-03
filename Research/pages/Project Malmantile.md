@@ -41,3 +41,6 @@ Ran entire ten epochs with the original dataset with CIFAR CNN: 87.76 %
 
 ![[CABECF.png]]
 ![[26FE23.png]]
+
+## Results
+
