@@ -44,3 +44,14 @@ Ran entire ten epochs with the original dataset with CIFAR CNN: 87.76 %
 
 ## Results
 
+✅ SUCCESS
+
+- Centralized: 87.7%
+- FedAvg - full images: 85.02%
+- FedAvg VFL 4 squares: ~75%
+- FedAvg VFL 16 squares: ~46%
+- FedAvg VFL 16 vertical stripes: ~30%
+
+## Further Actions
+
+Superceded by [[Project Impruneta]]
