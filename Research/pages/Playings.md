@@ -12,5 +12,6 @@ import Shuffle from '@site/src/components/Shuffle'
 - Splatoon 3
 - [[Detroit Become Human]]
 - [[Death Stranding]]
+- [[Super Mario Wonder]]
 
 </Shuffle>

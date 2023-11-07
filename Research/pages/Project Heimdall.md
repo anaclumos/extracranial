@@ -164,4 +164,31 @@ Added RSS Support. [RSS Support · Issue #16 · anaclumos/heimdall](https://gith
 
 - Resend made SMTP, will try it out
 - [isCategoryIndex function does not propagate to URL generations · Issue #9213 · facebook/docusaurus](https://github.com/facebook/docusaurus/issues/9213)
--
+
+## [[2023-11-03]]
+
+- i still want to make a koreanic name
+- pabal.ai
+- saja.ai
+
+## [[2023-11-06]]
+
+- 들려옴
+- 전해옴
+- 이야기
+- 나돌이
+- 자자
+- 왜자하다
+- 가납사니
+- 번설
+- 담
+- 곤여 (큰 땅)
+- 보빙사
+- 통리기무아문
+- 저잣거리
+- 수다
+- 역마살
+- 왁자지껄
+- 도란도란
+- 연
+- 방패연
