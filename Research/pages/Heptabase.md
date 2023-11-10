@@ -5,4 +5,4 @@ slug: '/5A8160'
 
 A note-taking tool for visual learning.
 
-![[F414E3.mp4]]
+![[F414E3.gif]]

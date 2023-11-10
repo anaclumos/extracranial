@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: "/C62BBE"
+slug: '/C62BBE'
 ---
 
 ![[8CE4FB.gif]]

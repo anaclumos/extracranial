@@ -33,4 +33,4 @@ end repeat
 ```
 
 ![[C035D8.png]]
-![[2E6CEB.mp4]]
+![[2E6CEB.gif]]

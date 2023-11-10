@@ -9,7 +9,7 @@ slug: '/3BBBC0'
 
 - [[Rauno]]
 
-![[C0147C.mp4]]
+![[C0147C.gif]]
 
 ### [[Pensieve]]
 

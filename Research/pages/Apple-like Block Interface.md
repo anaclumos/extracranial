@@ -35,7 +35,7 @@ slug: '/A18D7B'
 
 ## [Bento](https://bento.me/en/home)
 
-![[341F72.mp4]]
+![[341F72.gif]]
 
 ## [Ana Howard - Colourful Haired Human](https://www.anahoward.me/)
 

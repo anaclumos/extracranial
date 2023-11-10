@@ -11,7 +11,7 @@ slug: '/557260'
 
 ### [[Heptabase]]
 
-![[F414E3.mp4]]
+![[F414E3.gif]]
 
 ### [Napkin](https://www.napkin.one/)
 
