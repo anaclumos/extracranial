@@ -1,8 +1,6 @@
 ---
-
 lang: 'en'
 slug: '/C62BBE'
-
 ---
 
 [[Case Study]] of [[Humane Ai Pin]]
