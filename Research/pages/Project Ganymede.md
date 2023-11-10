@@ -13,12 +13,11 @@ slug: /9C24C1
 - It is **possible** to mark the iMessage with `LocalParticipantIdentifier`
 - `LocalParticipantIdentifier` is different on all devices
 - The simplest way would be marking:
-	- Set `LocalParticipantIdentifier` to `true` on reading (on the server)
-	- Reject if `LocalParticipantIdentifier` is already `true`
+  - Set `LocalParticipantIdentifier` to `true` on reading (on the server)
+  - Reject if `LocalParticipantIdentifier` is already `true`
 - Problem: If the user deletes and reinstalls the app, `LocalParticipantIdentifier` changes. So the user can read unlimited times if the uninstall & reinstall
 - Mitigation: Assign UUID for each message. Each message will have `LocalParticipantIdentifier + RemoteParticipantIdentifiers` count as the `maxRead`. This will at least 'limit' the max read count.
 - Problem: on a Group Chat setting, a user can read unlimited times instead of another participant.
-
 
 ## [[2023-10-20]]
 

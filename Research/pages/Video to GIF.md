@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: "/8CCDFD"
+slug: '/8CCDFD'
 ---
 
 ```

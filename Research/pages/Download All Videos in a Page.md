@@ -1,8 +1,7 @@
 ---
 lang: 'en'
-slug: "/9189C7"
+slug: '/9189C7'
 ---
-
 
 ```js
 function download(url) {
@@ -35,5 +34,4 @@ videos.forEach((video) => {
   const videoUrl = video.src
   download(videoUrl)
 })
-
 ```

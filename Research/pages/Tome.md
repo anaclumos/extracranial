@@ -8,4 +8,4 @@ slug: '/DD9E67'
 Create presentation decks with [[Generative AI]].
 It's like [[Text-based Presentations]], but [[AI]] will draw & layout stuff for you!
 
-![[900A33.mp4]]
+![[900A33.gif]]
