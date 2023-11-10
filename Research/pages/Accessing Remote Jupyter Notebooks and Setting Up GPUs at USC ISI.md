@@ -3,8 +3,6 @@ lang: 'en'
 slug: '/F16ADE'
 ---
 
-# Guide to Accessing a Remote Jupyter Notebook and Setting Up GPU Usage for TensorFlow and PyTorch
-
 This guide provides instructions for accessing a Jupyter Notebook on a remote server and configuring a GPU for machine learning tasks using TensorFlow and PyTorch.
 
 ## Accessing the Remote Jupyter Notebook
