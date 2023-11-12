@@ -16,6 +16,8 @@ slug: '/1B5A5B'
 
 import Admonition from '@theme/Admonition'
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title="I love my job because..." icon="💙">
 Lyft has a great engineering culture.
 Everyone knows and loves its products.

@@ -27,4 +27,9 @@ Reference: [We Need To Talk About Vercel - Max Countryman](https://www.maxcountr
 
 ## Update
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I don&#39;t think I&#39;ve been very transparent about all of work happening around usage controls and pricing at Vercel. So I&#39;d like to do that now.<br/><br/>The tl;dr of the feedback is: more visibility into usage and more ways to control spending. And I think I haven&#39;t done a job good about…</p>&mdash; Lee Robinson (@leeerob) <a href="https://twitter.com/leeerob/status/1653636931291602953?ref_src=twsrc%5Etfw">May 3, 2023</a></blockquote>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+I don&#39;t think I&#39;ve been very transparent about all of work happening around usage controls and pricing at Vercel. So I&#39;d like to do that now.<br/><br/>The tl;dr of the feedback is: more visibility into usage and more ways to control spending. And I think I haven&#39;t done a job good about…
+</p>
+&mdash; Lee Robinson (@leeerob) <a href="https://twitter.com/leeerob/status/1653636931291602953?ref_src=twsrc%5Etfw">May 3, 2023</a>
+</blockquote>

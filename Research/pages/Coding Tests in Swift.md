@@ -61,7 +61,7 @@ for i in 1...3 {
 }
 ```
 
-Range requires lowerBound <= upperBound
+Range requires `lowerBound <= upperBound`
 
 ```swift
 for i in stride(from: 1, to: 10, by: 2) {

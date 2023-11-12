@@ -23,6 +23,8 @@ That is the key to B2B software.
 Current BM revolves around subscription fees, and because VCs are using our tool, the financial stability remains strong.
 Some customers require [[on-premise]] hardware, requiring us to adapt to such demands.
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title="I love my job because..." icon="💙">
 Very high potential of exiting.
 </Admonition>

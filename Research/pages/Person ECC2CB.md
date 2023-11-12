@@ -34,6 +34,8 @@ While working with solid data to extract information is meaningful,
 ECC2CB especially finds meaning when the medical situation in Africa is deplorable that ECC2CB has to "harvest" data on the fly.
 It is never done before: under-researched, under-developed.
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title="I love my job because..." icon="💙">
 bridging big non-profit organizations (like the Red Cross) to gather and support the initiatives gives me a vision.
 I can work with the mentors I follow, helping to save lives.

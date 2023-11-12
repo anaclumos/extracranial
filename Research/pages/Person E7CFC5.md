@@ -15,6 +15,8 @@ slug: '/E7CFC5'
 
 import Admonition from '@theme/Admonition'
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title="I love my job because..." icon="💙">
 A lot of smart [[people]].
 </Admonition>

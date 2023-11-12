@@ -25,7 +25,12 @@ What if we can ask the **All-seer** to check for keywords [[Karrot|당근]] 캐�
 
 An example:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">At Simple Analytics, we use AI to detect if new articles on Hacker News or Google Alerts are relevant to our business.<br/><br/>We ask for a rating between 0-100 and why the article is getting that rating.<br/><br/>We send ourselves alerts when rating is 30+ <a href="https://t.co/eqMLHcrAvX">https://t.co/eqMLHcrAvX</a>… <a href="https://t.co/V9rQwxPnxe">pic.twitter.com/V9rQwxPnxe</a></p>&mdash; Adriaan 📊 Simple Analytics (@AdriaanvRossum) <a href="https://twitter.com/AdriaanvRossum/status/1633318894508146689?ref_src=twsrc%5Etfw">March 8, 2023</a></blockquote>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+At Simple Analytics, we use AI to detect if new articles on Hacker News or Google Alerts are relevant to our business.<br/><br/>We ask for a rating between 0-100 and why the article is getting that rating.<br/><br/>We send ourselves alerts when rating is 30+ <a href="https://t.co/eqMLHcrAvX">https://t.co/eqMLHcrAvX</a>… <a href="https://t.co/V9rQwxPnxe">pic.twitter.com/V9rQwxPnxe</a>
+</p>
+&mdash; Adriaan 📊 Simple Analytics (@AdriaanvRossum) <a href="https://twitter.com/AdriaanvRossum/status/1633318894508146689?ref_src=twsrc%5Etfw">March 8, 2023</a>
+</blockquote>
 
 ### Themed Newsletters
 

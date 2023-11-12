@@ -22,6 +22,8 @@ slug: '/CC8297'
 
 import Admonition from '@theme/Admonition'
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title="I love my job because..." icon="💙">
 [[Apple]] truly respects its employees, and that comes from leadership positions.
 </Admonition>

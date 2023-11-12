@@ -16,6 +16,8 @@ ACL, the association of computational linguistics, launched an [[ACL 60-60]] ini
 
 import Admonition from '@theme/Admonition'
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title="I love my job because..." icon="💙">
 
 Personally have an interest in semantics, especially in [[AMR]].

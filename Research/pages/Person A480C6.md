@@ -26,6 +26,8 @@ slug: '/A480C6'
 
 import Admonition from '@theme/Admonition'
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title="I love my job because..." icon="💙">
 Working at the biggest, most hyped company is a huge plus, especially when they have a huge event.
 [[Apple]] also has a sound responsibility system — e.g., DRI.

@@ -3,11 +3,11 @@ lang: 'en'
 slug: '/BB07BF'
 ---
 
-When navigating to www.[[amazon]].com, the client asks
+When navigating to www.amazon.com, the client asks
 
 - Hey, Root Server! Where is .com? Oh, OK, thanks.
 - Hey .com Server! Where is [[Amazon|amazon.com]]? Oh, OK, thanks.
-- Hey, [[Amazon|amazon.com]] Server! Where is www.[[Amazon|amazon.com]]? Oh, OK, thanks.
+- Hey, [[Amazon|amazon.com]] Server! Where is www.amazon.com? Oh, OK, thanks.
 
 ## Debugging DNS
 

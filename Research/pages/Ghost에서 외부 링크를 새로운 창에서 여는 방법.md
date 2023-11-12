@@ -51,5 +51,4 @@ for (var i = 0; i < links.length; i++) {
 
 ## 추가 자료
 
-- Links to cross-origin destinations are unsafe, _[[Google]] Developers_\
-  <https://developers.google.com/web/tools/lighthouse/audits/noopener>
+- [Links to cross-origin destinations are unsafe - Chrome for Developers](https://developer.chrome.com/docs/lighthouse/best-practices/external-anchors-use-rel-noopener/)

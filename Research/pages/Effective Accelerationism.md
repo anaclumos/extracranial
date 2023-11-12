@@ -4,7 +4,12 @@ slug: '/D344B2'
 aliases: ['효과적 가속주의', 'E-ACC', 'EACC']
 ---
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA : pledging 44B to foundation<br/>e/acc : buying twitter</p>&mdash; George Hotz 🐀 (@realGeorgeHotz) <a href="https://twitter.com/realGeorgeHotz/status/1597015538890248192?ref_src=twsrc%5Etfw">November 27, 2022</a></blockquote>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+EA : pledging 44B to foundation<br/>e/acc : buying twitter
+</p>
+&mdash; George Hotz 🐀 (@realGeorgeHotz) <a href="https://twitter.com/realGeorgeHotz/status/1597015538890248192?ref_src=twsrc%5Etfw">November 27, 2022</a>
+</blockquote>
 
 > 오직 가지고 싶은 것은 드높은 문화의 힘이다 — 백범 김구
 

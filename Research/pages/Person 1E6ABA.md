@@ -45,6 +45,8 @@ The place makes the person.
 
 import Admonition from '@theme/Admonition'
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title="I love my job because..." icon="💙">
 People are brilliant and kind.
 A huge portion of my job satisfaction.
