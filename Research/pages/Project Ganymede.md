@@ -7,6 +7,41 @@ slug: /9C24C1
 - [[Send Separately]]
 - Callisto is the code name for MessagesExtension
 
+## [[2023-11-11]]
+
+### Composing Messages with 3 People Group Chat (Writer, Reader 1, Reader 2)
+
+![[7A1B12.png]]
+
+### When the Writer Tries to Read (Invalid)
+
+![[E2FC5B.png]]
+
+### When the Reader Tries to Read (Valid)
+
+![[111134.png]]
+
+### When the Reader Re-requests to Read (Invalid)
+
+![[40A9E9.png]]
+
+### When Another Reader Requests to Read (Valid)
+
+![[14FF06.png]]
+
+### When an Unauthorized User Requests to Read (Invalid)
+
+![[A9C91C.png]]
+
+### Also
+
+- [[PhotoPicker]]
+- Finished reading the Apple Sign-In UUID from the iMessage Extension side: had to use App Groups and UserDefaults
+
+## [[2023-11-10]]
+
+- ![[2229DC.gif]]
+
 ## [[2023-11-08]]
 
 - It is **possible** to limit iMessage forwarding for iMessage Extensions
@@ -18,6 +53,7 @@ slug: /9C24C1
 - Problem: If the user deletes and reinstalls the app, `LocalParticipantIdentifier` changes. So the user can read unlimited times if the uninstall & reinstall
 - Mitigation: Assign UUID for each message. Each message will have `LocalParticipantIdentifier + RemoteParticipantIdentifiers` count as the `maxRead`. This will at least 'limit' the max read count.
 - Problem: on a Group Chat setting, a user can read unlimited times instead of another participant.
+- Solution: Sign in with Apple?!
 
 ## [[2023-10-20]]
 
