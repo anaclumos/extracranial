@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/659436'
 ---
 
-```
+```json
 {
   "semi": false,
   "singleQuote": true,
