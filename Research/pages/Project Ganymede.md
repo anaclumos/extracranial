@@ -9,6 +9,8 @@ slug: /9C24C1
 
 ## [[2023-11-11]]
 
+Used Prisma, Prisma Accelerate, PlanetScale, and Cloudflare Workers to create a simple server for the [[Ganymede Table Structure]]. Prisma layer makes 3 requests to the DB per 1 request to the server, albeit it probably would hit the Prisma Accelerate Layer, we can later optimize it with [this document.](https://planetscale.com/blog/integrate-cloudflare-workers-with-planetscale)
+
 ### Composing Messages with 3 People Group Chat (Writer, Reader 1, Reader 2)
 
 ![[7A1B12.png]]
