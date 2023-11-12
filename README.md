@@ -19,14 +19,12 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 > The Favicon image is Tossface's U+E109 (<img alt="Emoji of 'Palaces of Korea'" width="12px" src="https://raw.githubusercontent.com/anaclumos/extracranial/main/static/img/favicon.svg"/>) Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
 
 <div align="center">
-
 ![Repobeats analytics image](https://repobeats.axiom.co/api/embed/37dbf3528eaf21d704bdcf1cdd62364a5e9a0726.svg)
-
 </div>
 
 ## Last updated
 
-Sat Nov 11 23:14:53 PST 2023
+Sun Nov 12 15:44:31 PST 2023
 
 ## Stats
 
@@ -34,11 +32,11 @@ Sat Nov 11 23:14:53 PST 2023
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2229     56556    14810         0    41746          0
+Markdown                  2229     56895    14808         0    42087          0
 CSS                         70     20364      793        40    19531          0
-TypeScript                  59     18411      179        49    18183        211
-JSON                        17      1651        0         0     1651          0
-YAML                        11     16837     1821         3    15013          0
+TypeScript                  59     18410      179        49    18182        165
+JSON                        16      1632        0         0     1632          0
+YAML                        10       117        0         3      114          0
 SVG                          9         9        0         0        9          0
 Python                       7       864       51        28      785         83
 Plain Text                   3       103       18         0       85          0
@@ -47,13 +45,13 @@ TypeScript Typings           2        15        1         4       10          0
 gitignore                    2       296       69        69      158          0
 JavaScript                   1        19        3        12        4          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2412    115133    17746       207    97180        294
+Total                     2410     98732    15923       207    82602        248
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,300,282
-Estimated Schedule Effort (organic) 21.65 months
-Estimated People Required (organic) 13.54
+Estimated Cost to Develop (organic) $2,782,501
+Estimated Schedule Effort (organic) 20.29 months
+Estimated People Required (organic) 12.18
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5461447 bytes, 5.461 megabytes (SI)
+Processed 4895330 bytes, 4.895 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

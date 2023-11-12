@@ -12,9 +12,9 @@ slug: '/4B15E0'
 
 ## 완성본 미리 보기
 
-- <https://design-cho-sh.vercel.app/tailwind-docs/chatbubble>
-- <https://design-cho-sh.vercel.app/tailwind-docs/case-study-card>
-- <https://design-cho-sh.vercel.app/tailwind-docs/user-email-form>
+- https://design-cho-sh.vercel.app/tailwind-docs/chatbubble
+- https://design-cho-sh.vercel.app/tailwind-docs/case-study-card
+- https://design-cho-sh.vercel.app/tailwind-docs/user-email-form
 
 ## 원본 자료
 

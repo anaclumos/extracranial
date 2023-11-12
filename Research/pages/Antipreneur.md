@@ -22,8 +22,18 @@ I am sick of the fuzz and buzz of Silicon Valley. I don't care about YC. I don't
 >
 > But it won't. It'll probably suck. And you won't get rich because the odds of a venture capital (VC) funded startup are stacked against you. Only 10% or less exit doesn't tell you if the founders make good money. There are giant company exits where the founders barely make money. That's why I'm writing this. To show you, you might be able to do it differently." — [MAKE: The Indie Maker Handbook](https://readmake.com/), by [[Pieter Levels]].
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Here&#39;s the number I used to win the lottery&quot;<br/><br/>–Entrepreneurs giving advice</p>&mdash; Andrew Wilkinson (@awilkinson) <a href="https://twitter.com/awilkinson/status/1575941514567774208?ref_src=twsrc%5Etfw">September 30, 2022</a></blockquote>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+&quot;Here&#39;s the number I used to win the lottery&quot;<br/><br/>–Entrepreneurs giving advice
+</p>
+&mdash; Andrew Wilkinson (@awilkinson) <a href="https://twitter.com/awilkinson/status/1575941514567774208?ref_src=twsrc%5Etfw">September 30, 2022</a>
+</blockquote>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Many such cases <a href="https://t.co/g3vPDxs2zD">pic.twitter.com/g3vPDxs2zD</a></p>&mdash; Ana Mostarac (@anammostarac) <a href="https://twitter.com/anammostarac/status/1689441196815642624?ref_src=twsrc%5Etfw">August 10, 2023</a></blockquote>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Many such cases <a href="https://t.co/g3vPDxs2zD">pic.twitter.com/g3vPDxs2zD</a>
+</p>
+&mdash; Ana Mostarac (@anammostarac) <a href="https://twitter.com/anammostarac/status/1689441196815642624?ref_src=twsrc%5Etfw">August 10, 2023</a>
+</blockquote>
 
 ![[D67F1B.jpg]]

@@ -20,6 +20,8 @@ Meet a lot of people.
 
 import Admonition from '@theme/Admonition'
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title="I love my job because..." icon="💙">
 Marvell has a great culture and personal space respect.
 A lot of [[people]] are international.

@@ -31,4 +31,9 @@ Another interesting observation is that these 'successful, invite-based' softwar
 
 That said, I agree with Nat's view, especially for **② really easy to try**. He probably meant the onboarding process, but that includes the installation and getting access to the platform, often blocked with invite locks. I believe there should be a better way for talented technophiles to access the service without an invite; it would be a net benefit for the company.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Not universal, but the pattern I tend to notice in successful new startup products:<br/><br/>1. never heard of this, but sounds intriguing<br/>2. really easy to try<br/>3. &quot;HOLY SHIT!&quot; in the first 2 minutes<br/>4. sustained daily usage thereafter</p>&mdash; Nat Friedman (@natfriedman) <a href="https://twitter.com/natfriedman/status/1595882942508564480?ref_src=twsrc%5Etfw">November 24, 2022</a></blockquote>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Not universal, but the pattern I tend to notice in successful new startup products:<br/><br/>1. never heard of this, but sounds intriguing<br/>2. really easy to try<br/>3. &quot;HOLY SHIT!&quot; in the first 2 minutes<br/>4. sustained daily usage thereafter
+</p>
+&mdash; Nat Friedman (@natfriedman) <a href="https://twitter.com/natfriedman/status/1595882942508564480?ref_src=twsrc%5Etfw">November 24, 2022</a>
+</blockquote>

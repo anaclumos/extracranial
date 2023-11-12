@@ -25,7 +25,6 @@ export default '@react-native-async-storage/async-storage/jest/async-storage-moc
 ```
 
 ```tsx
-import React from 'react'
 import App from '../src/App'
 
 import renderer from 'react-test-renderer'

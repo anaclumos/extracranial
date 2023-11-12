@@ -192,7 +192,10 @@ tracer.ai는 마이크로소프트가 고용한 브랜드권 보호 소프트웨
 
 마지막으로 몇 가지 통계를 남긴다.
 
-<details> <summary>🪦 기념비</summary>
+<details>
+<summary>
+🪦 기념비
+</summary>
 
 <figure>
 

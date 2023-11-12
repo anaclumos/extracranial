@@ -314,7 +314,7 @@ You can also check out the [vanilla JavaScript pseudo-React](https://velog.io/@n
 
 ## 🎬 Miscellaneous and Conclusion
 
-- This was my first experience with deep collaboration using Git and GitHub. As a solo developer, I don't often utilize git's `branch` and `checkout` features. I think GSPH<3 was a great introduction to Git collaboration.
+- This was my first experience with deep collaboration using Git and GitHub. As a solo developer, I don't often utilize git's `branch` and `checkout` features.
 - I really liked the in-between lectures. In the talks held every Wednesday, I saw interesting things about the development and operation of Woowa Service, especially [Lecture by Developer Kim Min-tae](/r/02B616).
 - It was great to be able to experience company life indirectly. I can't believe I can experience corporate life at 19!
 - The older siblings were very understanding. I could feel that they cared about me. We had a lot of recreational activities in between, but it was a shame that the recreational activities were reduced due to COVID-19.

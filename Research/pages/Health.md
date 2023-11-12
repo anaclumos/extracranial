@@ -40,4 +40,9 @@ slug: '/3B23E0'
 - Consistent Wake-up
 - Overhaul Diet
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">turns out all you have to do to feel great is supplement potassium and magnesium, meditate for 40 minutes a day, journal morning and night, quadruple water intake, solve several major stressors, start running again, add consistent wake-up times, completely overhaul diet <a href="https://t.co/ODhUjsZSxW">https://t.co/ODhUjsZSxW</a> <a href="https://t.co/2hNINJkbn7">pic.twitter.com/2hNINJkbn7</a></p>&mdash; brent ❤🔥 (@_brentbaum) <a href="https://twitter.com/_brentbaum/status/1696171437273350506?ref_src=twsrc%5Etfw">August 28, 2023</a></blockquote>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+turns out all you have to do to feel great is supplement potassium and magnesium, meditate for 40 minutes a day, journal morning and night, quadruple water intake, solve several major stressors, start running again, add consistent wake-up times, completely overhaul diet <a href="https://t.co/ODhUjsZSxW">https://t.co/ODhUjsZSxW</a> <a href="https://t.co/2hNINJkbn7">pic.twitter.com/2hNINJkbn7</a>
+</p>
+&mdash; brent ❤🔥 (@_brentbaum) <a href="https://twitter.com/_brentbaum/status/1696171437273350506?ref_src=twsrc%5Etfw">August 28, 2023</a>
+</blockquote>

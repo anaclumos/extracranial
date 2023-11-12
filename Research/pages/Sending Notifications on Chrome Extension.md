@@ -44,9 +44,11 @@ Also available on [GitHub](https://github.com/anaclumos/youtube-comment-language
 
 Generally, you would need an event listener for each notification. However, there is a neat way to reduce duplicate codes.
 
-    chrome.notifications.onClicked.addListener(function (notificationId) {
-      chrome.tabs.create({ url: notificationId });
-    });
+```js
+chrome.notifications.onClicked.addListener(function (notificationId) {
+  chrome.tabs.create({ url: notificationId })
+})
+```
 
 The trick is to store the link in `notificationId` field and attach an event listener to the notifications. This way, you can only use one event listener to open multiple types of links.
 

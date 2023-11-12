@@ -196,7 +196,10 @@ If you try to do something in one fell swoop, you'll only get as much done as yo
 
 I finish this post with some memorable statistics.
 
-<details> <summary>🪦 Monuments</summary>
+<details>
+<summary>
+🪦 Monuments
+</summary>
 
 <figure>
 
