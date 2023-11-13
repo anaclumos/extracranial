@@ -19,12 +19,14 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 > The Favicon image is Tossface's U+E109 (<img alt="Emoji of 'Palaces of Korea'" width="12px" src="https://raw.githubusercontent.com/anaclumos/extracranial/main/static/img/favicon.svg"/>) Palaces of Korea. All rights reserved by [Toss](https://toss.im/tossface).
 
 <div align="center">
+
 ![Repobeats analytics image](https://repobeats.axiom.co/api/embed/37dbf3528eaf21d704bdcf1cdd62364a5e9a0726.svg)
+
 </div>
 
 ## Last updated
 
-Sun Nov 12 17:10:54 PST 2023
+Sun Nov 12 18:19:12 PST 2023
 
 ## Stats
 
@@ -32,9 +34,9 @@ Sun Nov 12 17:10:54 PST 2023
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2229     56897    14809         0    42088          0
-CSS                         70     20364      793        40    19531          0
-TypeScript                  59     18409      178        49    18182        165
+Markdown                  2230     56906    14813         0    42093          0
+CSS                         70     20359      792        36    19531          0
+TypeScript                  59     18410      178        49    18183        165
 JSON                        16      1632        0         0     1632          0
 YAML                        10       117        0         3      114          0
 SVG                          9         9        0         0        9          0
@@ -45,13 +47,13 @@ TypeScript Typings           2        15        1         4       10          0
 gitignore                    2       296       69        69      158          0
 JavaScript                   1        19        3        12        4          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2410     98733    15923       207    82603        248
+Total                     2411     98738    15926       203    82609        248
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,782,536
+Estimated Cost to Develop (organic) $2,782,749
 Estimated Schedule Effort (organic) 20.29 months
 Estimated People Required (organic) 12.18
 ───────────────────────────────────────────────────────────────────────────────
-Processed 4895389 bytes, 4.895 megabytes (SI)
+Processed 4895370 bytes, 4.895 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
