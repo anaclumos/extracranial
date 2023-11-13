@@ -6,7 +6,7 @@ authors: anaclumos
 slug: '/A370F3'
 ---
 
-import Admonition from '@theme/Admonition'
+import Admonition from '@theme/Admonition';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
 당근에서 R&D 엔지니어 인턴으로 재직하면서 일한 **웹 표준 미니앱**의 기술적인 배경과 현 진척도에 대해 이야기해보려고 한다.

@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/ECC2CB'
 ---
 
+import Admonition from '@theme/Admonition';
+
 - Interviewed on [[2022-12-08]]
 - Currently works at a non-profit organization based in Africa (Uganda)
 
@@ -33,8 +35,6 @@ ECC2CB thinks if NGOs can cut their fat, billions more can live.
 While working with solid data to extract information is meaningful,
 ECC2CB especially finds meaning when the medical situation in Africa is deplorable that ECC2CB has to "harvest" data on the fly.
 It is never done before: under-researched, under-developed.
-
-import Admonition from '@theme/Admonition';
 
 <Admonition type="info" title="I love my job because..." icon="💙">
 bridging big non-profit organizations (like the Red Cross) to gather and support the initiatives gives me a vision.

@@ -88,7 +88,7 @@ Now Playing — Spotify @ [leerob.io](https://leerob.io)
 몇 가지 안드로이드 전용 복제품을 인터넷에서 확인하기도 했는데,
 전부 애니메이션 곡선이 부자연스러워 이런 디테일을 공부해보고 싶었다.
 
-import Admonition from '@theme/Admonition'
+import Admonition from '@theme/Admonition';
 
 <Admonition type="info" title="목표" icon="💡">
 

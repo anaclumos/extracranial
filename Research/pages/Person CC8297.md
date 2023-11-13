@@ -20,8 +20,6 @@ slug: '/CC8297'
 - Initial phone screening and eight 45-minutes interviews.
 - Got a design challenge at the end.
 
-import Admonition from '@theme/Admonition'
-
 import Admonition from '@theme/Admonition';
 
 <Admonition type="info" title="I love my job because..." icon="💙">

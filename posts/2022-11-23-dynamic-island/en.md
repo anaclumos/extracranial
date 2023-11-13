@@ -86,7 +86,7 @@ I also checked out different copies of the Dynamic Island for Android products,
 which all had awkward animation curves,
 further getting me interested in learning such details.
 
-import Admonition from '@theme/Admonition'
+import Admonition from '@theme/Admonition';
 
 <Admonition type="info" title="Goal" icon="💡">
 

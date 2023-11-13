@@ -1,7 +1,6 @@
 import { translate } from '@docusaurus/Translate'
 import React from 'react'
 import Admonition from '@theme/Admonition'
-
 type Props = {
   state: 'translating' | undefined
 }

@@ -14,8 +14,6 @@ When considering the three roles, there are distinct differences. A Researcher m
 
 ACL, the association of computational linguistics, launched an [[ACL 60-60]] initiative. The initiative aims to facilitate scientific communication in various modalities, including text, speech, and sign language, and across 60 different languages.
 
-import Admonition from '@theme/Admonition'
-
 import Admonition from '@theme/Admonition';
 
 <Admonition type="info" title="I love my job because..." icon="💙">
