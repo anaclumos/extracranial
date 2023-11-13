@@ -6,7 +6,7 @@ authors: anaclumos
 slug: '/A370F3'
 ---
 
-import Admonition from '@theme/Admonition'
+import Admonition from '@theme/Admonition';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
 I worked as a full-time Mini App researcher intern at Karrot (Korean Unicorn Company 🇰🇷🦄).

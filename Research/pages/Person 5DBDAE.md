@@ -18,8 +18,6 @@ I create functional [[Simulations]] models for semiconductors. For fabless labs,
 **Recommendations**.
 Meet a lot of people.
 
-import Admonition from '@theme/Admonition'
-
 import Admonition from '@theme/Admonition';
 
 <Admonition type="info" title="I love my job because..." icon="💙">

@@ -12,7 +12,7 @@ slug: '/A480C6'
   - Joined the M1 team just before the announcement
   - Worked on the A16 chip this year (2022)
 - _[[Apple]] Silicon Team_ isn't necessarily a hardware team
-  - Ex) Chip Design Inspection Software
+  - Ex: Chip Design Inspection Software
 - **DRI**. Direct Response Individual.
   - People can take responsibility, regardless of their level and position.
 - One downside: [[Apple]] is a very secretive company.
@@ -23,8 +23,6 @@ slug: '/A480C6'
   - I would search for a smaller team for more flexibility.
 - It would've been better to have more constructive undergrad vacations.
 - Engineers are like knives; you should keep working to keep yourself sharp.
-
-import Admonition from '@theme/Admonition'
 
 import Admonition from '@theme/Admonition';
 

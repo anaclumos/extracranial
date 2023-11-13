@@ -5,7 +5,7 @@ authors: anaclumos
 slug: '/5ADC58'
 ---
 
-import Admonition from '@theme/Admonition'
+import Admonition from '@theme/Admonition';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
 # 마이크로소프트에게 내용증명 받고 23만 유저 앱 삭제한 건에 대하여 🗑️

@@ -14,8 +14,6 @@ slug: '/1B5A5B'
 - Junior = [[Project]] Executors.
 - Senior = Problem Solvers.
 
-import Admonition from '@theme/Admonition'
-
 import Admonition from '@theme/Admonition';
 
 <Admonition type="info" title="I love my job because..." icon="💙">
