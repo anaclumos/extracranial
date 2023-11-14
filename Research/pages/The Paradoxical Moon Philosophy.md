@@ -10,15 +10,15 @@ import TabItem from '@theme/TabItem';
 <TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
-I am building Project Ganymede. It's a social app, but we will build it purely on Apple's iMessage ecosystem. It may sound counterintuitive. Why risk yourself by becoming so platform-dependent?
+I am building [[Project Ganymede]]. It's a social app, but we will build it purely on Apple's iMessage ecosystem. It may sound counterintuitive. Why risk yourself by becoming so platform-dependent?
 
 Apple is Jupiter. You can NEVER win Apple. All attempts to overthrow iMessage failed. iMessage is Apple's moat to gather more customers, and therefore iMessage social network system is getting more and more powerful. However, iMessage lacks so many features. They literally took 10 years to add "edit messages". So I think I can have an edge.
 
 iMessage is a massive system, just like Jupiter. Compared to that, Snapchat, Messenger, and Instagram are Mars, Mercury, or... any other planet... small.
 
-Therefore, I choose to become a moon. I will ride on top of Apple. I will be the moon of Jupiter. I will harness the best of the best of Apple. And a moon can grow to a huge scale, just like Ganymede is bigger than Mercury. That is, I can easily outsize mediocre social networks by harnessing the most out of Apple's ecosystem.
+Therefore, I choose to become a moon. I will ride on top of Apple. I will be the moon of Jupiter. I will harness the best of the best of Apple. And a moon can grow to a huge scale, just like [[Project Ganymede|Ganymede]] is bigger than Mercury. That is, I can easily outsize mediocre social networks by harnessing the most out of Apple's ecosystem.
 
-We could've named it Project **Remora**, but I think Ganymede is more [[Aesthete|aesthetic]]. Maybe Remora was more straightforward to understand. But hey, you finished reading the manifesto even though I named it Ganymede, right? So it worked 😁
+We could've named it Project **Remora**, but I think [[Project Ganymede|Ganymede]] is more [[Aesthete|aesthetic]]. Maybe Remora was more straightforward to understand. But hey, you finished reading the manifesto even though I named it [[Project Ganymede|Ganymede]], right? So it worked 😁
 
 </div>
 </TabItem>
