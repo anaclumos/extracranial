@@ -12,7 +12,9 @@ jobs:
         with:
           node-version: '18'
       - name: Setup Bun
-        run: curl -fsSL https://bun.sh/install | bash 
+        run: |
+          curl -fsSL https://bun.sh/install | bash
+          echo "$HOME/.bun/bin" >> $GITHUB_PATH
       - name: Build
         run: bun install && bun all-in-one:build
   deploy:
@@ -25,4 +27,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy --project-name=example
+          command: pages deploy --project-name=memex
