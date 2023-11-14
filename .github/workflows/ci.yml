@@ -13,6 +13,8 @@ jobs:
           node-version: '18'
       - name: Setup bun
         run: docker pull oven/bun
+      - name: Activate bun
+        run: docker run --rm -v $PWD:/app oven/bun
       - name: Build
         run: bun install && bun all-in-one:build
   deploy:
