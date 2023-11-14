@@ -1,0 +1,28 @@
+name: Continuous Integration
+on: push
+jobs:
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+      - name: Setup bun
+        run: docker pull oven/bun
+      - name: Build
+        run: bun install && bun all-in-one:build
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy --project-name=example
