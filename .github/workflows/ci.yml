@@ -1,8 +1,8 @@
 name: Continuous Integration
 on: push
 jobs:
-  test:
-    name: Run Tests
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
@@ -16,7 +16,7 @@ jobs:
       - name: Build
         run: bun install && bun all-in-one:build
   deploy:
-    needs: test
+    needs: build
     runs-on: ubuntu-latest
     name: Deploy
     steps:
