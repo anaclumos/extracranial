@@ -47,7 +47,7 @@ yarn redwood generate page about
 yarn redwood g layout blog
 ```
 
-## Using Prisma
+## Using [[Prisma]]
 
 ### Opening Prisma Studio
 
