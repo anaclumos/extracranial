@@ -11,10 +11,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-      - name: Setup bun
-        run: docker pull oven/bun
-      - name: Activate bun
-        run: docker run --rm -v $PWD:/app oven/bun
+      - name: Setup Bun
+        run: curl -fsSL https://bun.sh/install | bash 
       - name: Build
         run: bun install && bun all-in-one:build
   deploy:
