@@ -7,4 +7,6 @@ Space in [[LaTeX]]
 
 ```latex
 ~
+
+\quad
 ```

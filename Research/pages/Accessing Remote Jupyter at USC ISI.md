@@ -11,7 +11,7 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
 
 - VPN connection, if required.
 - SSH access to the server.
-- Your server username (e.g., `username@bdnf.isi.edu`).
+- Your server username (e.g., `scho@bdnf.isi.edu`).
 
 ### Steps to Access
 
@@ -24,9 +24,9 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
 
    - Command:
      ```
-     ssh -L 8080:localhost:8080 username@bdnf.isi.edu
+     ssh -L 8080:localhost:8080 scho@bdnf.isi.edu
      ```
-   - Replace `username` with your server username.
+   - Replace `scho` with your server username.
 
 3. **Navigate to Work Directory:**
 
@@ -39,7 +39,7 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
 
    - Run:
      ```
-     jupyter notebook --no-browser --port=8080
+     jupyter lab --no-browser --port=8080
      ```
    - Copy the provided URL.
 

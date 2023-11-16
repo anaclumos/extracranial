@@ -250,3 +250,9 @@ $$
 ```tex
 `` <quoted text here> ''
 ```
+
+## Force Location
+
+```tex
+[htbp]
+```
