@@ -66,7 +66,7 @@ Used [[Prisma]], [[Prisma Accelerate]], [[PlanetScale]], and [[Cloudflare Worker
 
 ## [[2023-11-10]]
 
-- ![[2229DC.gif]]
+![[2229DC.gif]]
 
 ## [[2023-11-08]]
 
