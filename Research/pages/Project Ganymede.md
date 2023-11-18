@@ -9,6 +9,17 @@ aliases: ['Ganymede']
 - Callisto is the code name for MessagesExtension
 - Europa is the code name for Encryption Key Exchange Server
 
+## [[2023-11-18]]
+
+- Linked the client side to
+  - make request to server
+  - pack it as `MSMessage`
+  - send the message
+  - dismiss keyboard & request compact presentation style
+- Pink Bubble?
+
+![[61B318.jpg]]
+
 ## [[2023-11-13]]
 
 - Implemented [[Vitest]] on [[Prisma]] and [[Cloudflare Worker|Cloudflare Workers]]

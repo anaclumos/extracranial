@@ -26,7 +26,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Thu Nov 16 00:03:35 PST 2023
+Sat Nov 18 00:00:58 PST 2023
 
 ## Stats
 
@@ -34,11 +34,11 @@ Thu Nov 16 00:03:35 PST 2023
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2242     57242    14895         0    42347          0
+Markdown                  2246     57307    14909         0    42398          0
 CSS                         70     20359      792        36    19531          0
-TypeScript                  59     18506      178        49    18279        165
+TypeScript                  59     18526      178        49    18299        165
 JSON                        16      1632        0         0     1632          0
-YAML                        12     15802     1899         3    13900          0
+YAML                        12     17695     1898         3    15794          0
 SVG                          9         9        0         0        9          0
 Python                       7       864       51        28      785         83
 Plain Text                   3       103       18         0       85          0
@@ -47,13 +47,13 @@ TypeScript Typings           2        15        1         4       10          0
 gitignore                    2       296       69        69      158          0
 JavaScript                   1        19        3        12        4          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2425    114855    17907       203    96745        248
+Total                     2429    116833    17920       203    98710        248
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,284,772
-Estimated Schedule Effort (organic) 21.61 months
-Estimated People Required (organic) 13.50
+Estimated Cost to Develop (organic) $3,354,861
+Estimated Schedule Effort (organic) 21.79 months
+Estimated People Required (organic) 13.68
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5490381 bytes, 5.490 megabytes (SI)
+Processed 5509422 bytes, 5.509 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

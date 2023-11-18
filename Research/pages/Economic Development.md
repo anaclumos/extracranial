@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
-[[Economy|Economic]] growth is the increase in the size of a country's [[economy]] over time. It's measured by the total production of goods and services in the [[economy]], called gross domestic product (GDP). [[Economy|Economic]] growth can be measured in nominal or real terms, adjusted for inflation. [[Economy|Economic]] growth is an indicator of the financial health of a country. Policies encouraging savings and technological change, such as [[tax]] credits for research and development, lead to higher [[Economy|economic]] growth.
+[[Economy|Economic]] growth is the increase in the size of a country's [[economy]] over time. It's measured by the total production of goods and services in the [[economy]], called gross domestic product (GDP). [[Economy|Economic]] growth can be measured in nominal or real terms, adjusted for inflation. [[Economy|Economic]] growth is an indicator of the financial [[health]] of a country. Policies encouraging savings and technological change, such as [[tax]] credits for research and development, lead to higher [[Economy|economic]] growth.
 
 </div>
 </TabItem>
