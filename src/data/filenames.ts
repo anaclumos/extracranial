@@ -1822,7 +1822,7 @@ export const filenames = {
     "The Empires of the Future are the Empires of the Mind": "2DECD6",
     "The Paradoxical Moon Philosophy": "867C62",
     "The Techno-optimist Manifesto": "D92FBE",
-    "The Web Can Do What!?": "301B9A",
+    "The Web Can Do What": "301B9A",
     "Thesephist Work Case Study": "31A35D",
     "Things (3D)": "BE3F13",
     "Threads": "1A570D",
