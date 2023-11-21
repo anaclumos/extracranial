@@ -27,7 +27,7 @@ Sunghyun Cho
 - Got a positive reply.
 - Current works: [[tabOS]]
 
-### [[Alternatives to After Effects]]
+### [[Cloud-native Video Editor]]
 
 - [https://jitter.video/](https://jitter.video/)
 - [https://artboard.studio/](https://artboard.studio/)

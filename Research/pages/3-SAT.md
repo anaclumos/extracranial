@@ -12,8 +12,6 @@ import TabItem from '@theme/TabItem';
 
 The 3-SAT (3-Satisfiability) problem is a classic problem in computer science, particularly in the field of computational complexity theory. It's a specific type of Boolean satisfiability problem (SAT), which is foundational in the study of algorithmic logic and has significant implications in various areas like cryptography, artificial intelligence, and algorithm design.
 
-Here's a basic overview of what the 3-SAT problem entails:
-
 1. **Boolean Variables** — The problem involves a set of Boolean variables. Each variable can take on one of two values: true or false.
 
 2. **Clauses** — The heart of the problem lies in a series of clauses. Each clause is a disjunction (logical OR) of exactly three literals. A literal is either a variable or its negation. For example, a clause might be $(x \lor \neg y \lor z)$, where $x, y,$ and $z$ are Boolean variables, and $\neg y$ represents the negation of $y$.
@@ -32,8 +30,6 @@ The importance of 3-SAT and other SAT problems lies in their applicability to re
 <div lang='ko-KR'>
 
 3-SAT(3-만족가능성) 문제는 컴퓨터 과학, 특히 계산 복잡성 이론 분야에서의 고전적인 문제이다. 이는 Boolean 만족 가능성 문제(SAT)의 특정 유형으로, 알고리즘 논리 연구와 암호학, 인공지능, 알고리즘 설계와 같은 다양한 분야에서 중요한 의미를 가지고 있다.
-
-3-SAT 문제의 기본 개요는 다음과 같다:
 
 1. **Boolean 변수** — 이 문제에는 Boolean 변수들의 집합이 포함된다. 각 변수는 참 또는 거짓, 두 가지 값 중 하나를 가질 수 있다.
 

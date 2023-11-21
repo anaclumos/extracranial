@@ -6,6 +6,6 @@ slug: '/6A70B3'
 The earth of [[macOS]] Applications is changing. [[Neo]] Apps.
 
 - **[[Web Browser|Browsers]]**. [[Chrome]] → Arc.
-- **Notes**. [[Notion]] → [[Obsidian]] → Nota.
+- **Notes**. [[Notion]] → [[Obsidian]]
 - **Search**. Spotlight → Alfred → [[Raycast]]
 - **Photo Workflows**. Photoshop → Affinity Photos
