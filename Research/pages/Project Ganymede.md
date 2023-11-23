@@ -9,6 +9,38 @@ aliases: ['Ganymede']
 - Callisto is the code name for MessagesExtension
 - Europa is the code name for Encryption Key Exchange Server
 
+## [[2023-11-22]]
+
+- There was a property in `MSMessage` of [shouldExpire](https://developer.apple.com/documentation/messages/msmessage/1649741-shouldexpire). The problem is, the recipient can override to keep the message, what we don't want.
+- Implemented Message Reading Functionality
+- Implemented Proper Loading View features, with fade in and fade out.
+
+```swift
+
+```
+
+![[D7D1B8.gif]]
+
+- Refactored a lot of files
+
+```
+Callisto
+├── Assets.xcassets
+│   ├── Contents.json
+│   └── iMessage App Icon.stickersiconset
+│       └── Contents.json
+├── Base.lproj
+│   └── MainInterface.storyboard
+├── Callisto.entitlements
+├── CallistoLoadingView.swift
+├── CallistoMessageReadingView.swift
+├── CallistoMessageWritingView.swift
+├── CallistoService.swift
+├── CallistoView.swift
+├── Info.plist
+└── MessagesViewController.swift
+```
+
 ## [[2023-11-18]]
 
 - Linked the client side to
