@@ -16,3 +16,9 @@ We divided the images into 16 sections, like in [[Project Malmantile]], but we a
 ## Control Group
 
 Ran entire ten epochs with the original dataset with CIFAR CNN: 87.76 %
+
+## Experiment
+
+Either I coded them wrong or it doesn't work
+
+![[EAC4BB.png]]
