@@ -6,6 +6,12 @@ slug: '/8429A4'
 - [[Project]] Florence is a research [[project]] on [[Vertical Federated Learning|VFL]]
 - [[Project Florence Literature Review]]
 
+## [[2023-11-16]]
+
+![[8C3CC0.png]]
+
+## [[Project Impruneta]]
+
 ## [[2023-10-17]]
 
 - [[Project Malmantile]]
