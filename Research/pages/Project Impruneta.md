@@ -19,6 +19,6 @@ Ran entire ten epochs with the original dataset with CIFAR CNN: 87.76 %
 
 ## Experiment
 
-Either I coded them wrong or it doesn't work
+Either I coded them wrong, or it doesn't work
 
 ![[EAC4BB.png]]
