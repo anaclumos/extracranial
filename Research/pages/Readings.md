@@ -28,7 +28,9 @@ import Shuffle from '@site/src/components/Shuffle'
 - [x] [[Exhalation]]
 - [x] [[MAKE (Book)]]
 - [x] [[한국통사]]
-- [x] 한국의 식민지 근대성 (Colonial Modernity in Korea)
+- [x] [[한국의 식민지 근대성]] (Colonial Modernity in Korea)
+- [x] [[조선민족의 진로 재론]]
+- [x] [[High Growth Handbook]]
 
 </Shuffle>
 
