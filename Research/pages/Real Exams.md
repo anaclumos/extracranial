@@ -5,6 +5,13 @@ slug: '/75CB18'
 
 ## For 2024
 
+### [Meta](https://meta.com)
+
+- Simple simulation
+- Mathematical Coding with Text Splits + Variable Length Suffix
+- Mathematical Coding with finding triplets
+- Mathematically splitting arrays
+
 ### [Belvedere Trading](https://www.belvederetrading.com/) (SWE)
 
 - Determining the Stock Performance Score from a Continuous Stream of Trades.
