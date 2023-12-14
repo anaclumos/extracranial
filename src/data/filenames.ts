@@ -1572,7 +1572,7 @@ export const filenames = {
     "Project Heimdall Locale Transition Strategy": "4A13A4",
     "Project Heimdall Random Names": "74BD1E",
     "Project Heimdall Table Structure": "25C308",
-    "Project Hocrux": "B18467",
+    "Project Horcrux": "B18467",
     "Project Impruneta": "FFFD6F",
     "Project Linguine": "C1CF90",
     "Project MAGI": "A5C40A",
