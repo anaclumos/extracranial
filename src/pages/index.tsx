@@ -22,7 +22,8 @@ import KarrotLogo from '@site/static/fonts/emoji/karrot.png'
 import BaeminLogo from '@site/static/fonts/emoji/baemin.png'
 import RobotEmoji from '@site/static/fonts/emoji/robot.png'
 import WikipediaEmoji from '@site/static/fonts/emoji/wikipedia.png'
-import SplatoonEmoji from '@site/static/fonts/emoji/splatoon.png'
+import SwitchEmoji from '@site/static/fonts/emoji/switch.png'
+import SteamEmoji from '@site/static/fonts/emoji/steam.png'
 import { Globe } from '../components/Globe'
 import BrowserOnly from '@docusaurus/BrowserOnly'
 
@@ -222,8 +223,17 @@ const HeroText = () => {
         />
         <Translate>{', and playing '}</Translate>
         <EmojiReplaceableText
-          text={translate({ message: 'Splatoon' })}
-          photo={SplatoonEmoji}
+          text={translate({ message: 'Nintendo Switch' })}
+          photo={SwitchEmoji}
+          photoAlt={translate({
+            message: '🎮',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{' & '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'Steam Deck' })}
+          photo={SteamEmoji}
           photoAlt={translate({
             message: '🎮',
           })}
