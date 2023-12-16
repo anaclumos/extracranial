@@ -198,10 +198,6 @@
     "message": "Word wrap 켜거나 끄기",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
-  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "사이드바 카테고리 '{label}' 켜거나 끄기",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
-  },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "언어",
     "description": "The label for the mobile language switcher dropdown"
@@ -282,7 +278,7 @@
     "message": "경제학"
   },
   ". ": {
-    "message": "을 하는 것을 좋아합니다."
+    "message": "을 플레이하길 좋아합니다."
   },
   "Google Latest Articles Instead": {
     "message": "Google에서 새로운 자료 찾아보기"
@@ -588,10 +584,7 @@
     "message": "📚"
   },
   ", and playing ": {
-    "message": "를 읽거나 "
-  },
-  "Splatoon": {
-    "message": "스플래툰"
+    "message": "를 읽거나, "
   },
   "🎮": {
     "message": "🎮"
@@ -601,5 +594,31 @@
   },
   "Subscribe": {
     "message": "구독"
+  },
+  "Nintendo Switch": {
+    "message": "닌텐도 스위치"
+  },
+  "Steam Deck": {
+    "message": "스팀 덱"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
   }
 }
