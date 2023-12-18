@@ -14,5 +14,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [[Death Stranding]]
 - [[Super Mario Wonder]]
 - [[산나비]]
+- The Last of Us Part 1
+- Pokemon Scarlet
 
 </Shuffle>
