@@ -42,7 +42,7 @@ It is a user review collector, but it also collects console results, cookies, an
 
 ### Brief
 
-News recommending app, just like [[Artifact]], but it shows a one-liner explanation, so you don't need to dive into the article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine for Texts]].
+News recommending app, just like [[Artifact]], but it shows a one-liner explanation, so you don't need to dive into the article. A similar approach to [[Project Naroo]], by attempting [[Algorithmic Recommendation Engine for Texts]].
 
 ### Documate
 
