@@ -1,13 +1,25 @@
 ---
 lang: 'en'
 slug: /9C24C1
-aliases: ['Ganymede']
+aliases:
+  - Ganymede
 ---
+
+import DisplayFlex from '@site/src/components/DisplayFlex'
 
 - [[The Paradoxical Moon Philosophy]]
 - [[Send Separately]]
 - Callisto is the code name for MessagesExtension
 - Europa is the code name for Encryption Key Exchange Server
+
+## [[2023-12-25]]
+
+<DisplayFlex>
+
+![[8CE3E2.png]]
+![[2AEC71.png]]
+
+</DisplayFlex>
 
 ## [[2023-12-15]]
 
@@ -15,9 +27,9 @@ aliases: ['Ganymede']
 
 ## [[2023-11-22]]
 
-- There was a property in `MSMessage` of [shouldExpire](https://developer.apple.com/documentation/messages/msmessage/1649741-shouldexpire). The problem is, the recipient can override to keep the message, what we don't want.
+- There was a property in `MSMessage` of [shouldExpire](https://developer.apple.com/documentation/messages/msmessage/1649741-shouldexpire). The problem is that the recipient can override to keep the message, which we don't want.
 - Implemented Message Reading Functionality
-- Implemented Proper Loading View features, with fade in and fade out.
+- I implemented proper loading view features, with fade-in and fade-out.
 
 ![[D7D1B8.gif]]
 
@@ -44,10 +56,10 @@ Callisto
 ## [[2023-11-18]]
 
 - Linked the client side to
-  - make request to server
+  - request server
   - pack it as `MSMessage`
   - send the message
-  - dismiss keyboard & request compact presentation style
+  - dismiss the keyboard & request a compact presentation style
 - Pink Bubble?
 
 ![[61B318.jpg]]
@@ -76,7 +88,7 @@ Callisto
 
 ## [[2023-11-11]]
 
-Used [[Prisma]], [[Prisma Accelerate]], [[PlanetScale]], and [[Cloudflare Worker|Cloudflare Workers]] to create a simple server for the [[Ganymede Table Structure]]. [[Prisma]] layer makes 3 requests to the [[Database|DB]] per 1 request to the server, albeit it probably would hit the [[Prisma Accelerate]] Layer, we can later optimize it with [this document.](https://planetscale.com/blog/integrate-cloudflare-workers-with-planetscale)
+Used [[Prisma]], [[Prisma Accelerate]], [[PlanetScale]], and [[Cloudflare Worker|Cloudflare Workers]] to create a simple server for the [[Ganymede Table Structure]]. [[Prisma]] layer makes three requests to the [[Database|DB]] per 1 request to the server, albeit it probably would hit the [[Prisma Accelerate]] Layer, we can later optimize it with [this document.](https://planetscale.com/blog/integrate-cloudflare-workers-with-planetscale)
 
 ### Composing Messages with 3 People Group Chat (Writer, Reader 1, Reader 2)
 
@@ -116,9 +128,9 @@ Used [[Prisma]], [[Prisma Accelerate]], [[PlanetScale]], and [[Cloudflare Worker
 - It is **possible** to limit [[iMessage]] forwarding for [[iMessage App|iMessage Extensions]]
 - It is **possible** to mark the iMessage with `LocalParticipantIdentifier`
 - `LocalParticipantIdentifier` is different on all devices
-- The simplest way would be marking:
+- The most straightforward way would be marking:
   - Set `LocalParticipantIdentifier` to `true` on reading (on the server)
-  - Reject if `LocalParticipantIdentifier` is already `true`
+  - Reject if `LocalParticipantIdentifier` is already `true.`
 - Problem: If the user deletes and reinstalls the app, `LocalParticipantIdentifier` changes. So the user can read unlimited times if the uninstall & reinstall
 - Mitigation: Assign UUID for each message. Each message will have `LocalParticipantIdentifier + RemoteParticipantIdentifiers` count as the `maxRead`. This will at least 'limit' the max read count.
 - Problem: on a Group Chat setting, a user can read unlimited times instead of another participant.
@@ -126,7 +138,7 @@ Used [[Prisma]], [[Prisma Accelerate]], [[PlanetScale]], and [[Cloudflare Worker
 
 ## [[2023-10-20]]
 
-Can attach many images
+I can attach many images
 
 ![[8A52BA.png]]
 
@@ -145,7 +157,7 @@ Can attach many images
 
 ## [[2023-10-13]]
 
-I figured out that in iOS 17, [[Shortcuts]] can send [[Text Message|messages]] without confirmation. Can we use this for [[Send Separately]] or Ganymede?
+In iOS 17, [[Shortcuts]] can send [[Text Message|messages]] without confirmation. Can we use this for [[Send Separately]] or Ganymede?
 
 ## [[2023-10-12]]
 
@@ -171,7 +183,7 @@ I don't want to store any encrypted or decrypted [[Text Message|messages]] on th
 - When reading the [[Text Message|message]]
   - extract [[UUID]] and encrypted [[Text Message|message]]
   - read KV with [[UUID]] and delete the `DecryptKey` if any necessary condition is met
-  - once it expired, the user cannot read the [[Text Message|message]] again
+  - once it expires, the user cannot read the [[Text Message|message]] again
 
 ### Considerations
 
