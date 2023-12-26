@@ -205,7 +205,7 @@ Added RSS Support. [RSS Support · Issue #16 · anaclumos/heimdall](https://gith
 
 그리고 Korean Won이 I Won할 때랑 같아서 뭔가 의미심장하게 재밌고 좋다
 
-## [[2023-12-24]]
+## [[2023-12-23]]
 
 Metaphor API looks great for Naroo
 
