@@ -15,6 +15,16 @@ import Shuffle from '@site/src/components/Shuffle'
 - [[Super Mario Wonder]]
 - [[산나비]]
 - The Last of Us Part 1
-- Pokemon Scarlet
+- Pokemon Scarlet (Original)
+- \_전언
 
 </Shuffle>
+
+## Doing
+
+- Horizon Zero Dawn
+
+## Queued
+
+- Spiderman Remastered
+- Cocoon
