@@ -58,6 +58,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [ ] High Growth Handbook
 - [ ] Elon Musk (Walter Isaacson)
 - [ ] Diaspora (Greg Egan)
+- [ ] 나의 투쟁
 
 </Shuffle>
 
