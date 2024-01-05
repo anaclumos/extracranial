@@ -12,6 +12,10 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - Callisto is the code name for MessagesExtension
 - Europa is the code name for Encryption Key Exchange Server
 
+## [[2024-01-04]]
+
+Server Crashed. migrating to Fly.io... Because I wanted a Vercel-like experience for backends. However migrating is a pain... because originally I wrote everything as CF workers functions. Such a stress, app is getting delayed and delayed
+
 ## [[2023-12-24]]
 
 <DisplayFlex>
