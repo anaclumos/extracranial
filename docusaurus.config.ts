@@ -79,7 +79,7 @@ const config: Config = {
     },
     navbar: navbar,
     prism: {
-      additionalLanguages: ['java', 'swift'],
+      additionalLanguages: ['java', 'swift', 'diff'],
     },
     tableOfContents: {
       minHeadingLevel: 2,
