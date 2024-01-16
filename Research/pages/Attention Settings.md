@@ -175,7 +175,7 @@ That way the ingenuity of the developer ecosystem could be applied to help peopl
 
 We put together a whole [library of humane tech products, concepts, and ideas](https://attentionsettings.com/db4ca3bffa264234889402bebbc89212) — but here are three ideas we want to highlight:
 
-### Give Researchers Access to Screen Time Data
+### Give [[Researcher|Researchers]] Access to Screen Time Data
 
 We need to understand better the science of problematic smartphone use and effective interventions. This is a no-brainer, and it's a shame it hasn't been done already.
 

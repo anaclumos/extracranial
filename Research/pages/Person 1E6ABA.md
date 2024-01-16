@@ -11,7 +11,7 @@ slug: '/1E6ABA'
 While I agreed, I asked how we would solve it since information devalues when widespread.
 1E6ABA first pointed out Content + Technology + Anywhere in the middle.
 
-Koreans also have a language barrier.
+[[한국인|Koreans]] also have a [[language]] barrier.
 The sources and the quality of the sources differ a lot.
 Why would the [[대한민국|Korean]] Govs and [[대한민국|Korean]] Banks promote any terrible news for the [[대한민국|Korean]] [[economy]]?
 While that is understandable, as an individual, that can have a detrimental effect.
@@ -33,12 +33,12 @@ Most banks already spend at least $300 to acquire a customer.
 Possible side revenues include selling curated content with subscriptions, charging portions of the margin, or providing access to analyst information ([[Bloomberg]] model.)
 
 Recently closed $4M in funding, estimated burn rate $1.2M a year approx.
-Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media researcher, and engineering intern.
+Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media [[researcher]], and engineering intern.
 
 1E6ABA's experience at [[Google]] involved multiple teams, from [[Chrome]] to TensorFlow.
 Learned a lot about soft skills.
 The TensorFlow team had weird, intertangled relationships across groups.
-For example, the Tensorflow compiler team wanted to make everything as static as possible, whereas the Tensorflow Python team wanted to make everything as dynamic as possible.
+For example, the Tensorflow compiler team wanted to make everything as static as possible, whereas the Tensorflow [[Python]] team wanted to make everything as dynamic as possible.
 
 Current startup indeed holds more risk, but it comes with a thrill.
 The place makes the person.

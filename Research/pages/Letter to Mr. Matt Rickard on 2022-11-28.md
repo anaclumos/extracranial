@@ -3,15 +3,15 @@ lang: 'en'
 slug: '/BD4464'
 ---
 
-- [[Mail|Letter]] to Mr. Matt Rickard on [[2022-11-28]]
+- [[Mail|Letter]] to Mr. [[Matt Rickard]] on [[2022-11-28]]
 
 Dear Mr. [[Rickard]],
 
 It's Sunghyun. I hope you had a great Thanksgiving break — I've been great! I hope to work on some projects on curating human knowledge and sentience, which I've been delving into these days.
 
-I recently had an idea for a hypothetical product, "Let's Alter." I have a vision but need clarification on where to start.
+I recently had an idea for a hypothetical product, "[[Stable Alternative|Let's Alter]]." I have a vision but need clarification on where to start.
 
-Let's Alter is a non-profit product that uses [[Generative AI|Generative AIs]] to describe any image on the web. For example, given an idea of dogs playing frisbee, [[AI]] will put the following as such.
+[[Stable Alternative|Let's Alter]] is a non-profit product that uses [[Generative AI|Generative AIs]] to describe any image on the web. For example, given an idea of dogs playing frisbee, [[AI]] will put the following as such.
 
 > ALT: Three white dogs are playing frisbee on a lawn with a woman wearing a red skirt
 
@@ -54,6 +54,6 @@ function AltTextImage() {
 - Maybe a log of image hash → `alt` that anyone can contribute?
 - Maybe Common Crawl is a better model?
 
-### Perceptual Hashing
+### [[Perceptual Hashing]]
 
 - [[Perceptual Hashing]]

@@ -24,7 +24,7 @@ Throughout the process, Bob never needs to know the actual values of $x$ and $y$
 ### Applications
 
 1. **Secure Data Analysis**. Companies can analyze user data without access to the sensitive data.
-2. **Privacy-Preserving Medical Research**. Researchers can perform computations on encrypted medical data without compromising patient privacy.
+2. **Privacy-Preserving Medical Research**. [[Researcher|Researchers]] can perform computations on encrypted medical data without compromising patient privacy.
 3. **Secure Voting Systems**. Homomorphic encryption can tally votes without revealing who voted for whom.
 4. **[[Cloud Computing]]**. Users can store encrypted data in the cloud and run computations on it directly without needing to decrypt it first.
 
