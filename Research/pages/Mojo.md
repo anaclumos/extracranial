@@ -10,7 +10,7 @@ slug: '/7CBCE6'
 ### [Mojo – a new programming language for AI developers](https://www.modular.com/mojo)
 
 - Mojo is a new programming language designed specifically for artificial intelligence ([[AI]]) developers, with features that streamline the AI development process and make it easier to read and write code.
-- Developed by the University of Washington researchers, Mojo is optimized for running on graphics processing units (GPUs) and other specialized hardware commonly used for AI research and development.
+- Developed by the University of Washington [[Researcher|researchers]], Mojo is optimized for running on graphics processing units (GPUs) and other specialized hardware commonly used for AI research and development.
 - Mojo's creators hope it will help democratize AI development, making it more accessible and manageable for programmers of all levels to create sophisticated AI applications.
 
 #### [Industry Reactions](http://news.ycombinator.com/item?id=35790367)

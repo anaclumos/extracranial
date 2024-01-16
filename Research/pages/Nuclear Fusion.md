@@ -15,4 +15,4 @@ aliases: ['핵융합']
 
 - The [[clean energy]] solution has attracted about $2.8bn (£2.5bn) in global investment over the past year, compared with $1.9bn (£1.6bn) over the past decade.
 
-* There was also a breakthrough in late 2021 when researchers at the Joint European Torus (JET) facility in Oxford released 59 megajoules of fusion - almost tripling the previous 21.7-megajoule record from 1997.
+* There was also a breakthrough in late 2021 when [[Researcher|researchers]] at the Joint European Torus (JET) facility in Oxford released 59 megajoules of fusion - almost tripling the previous 21.7-megajoule record from 1997.

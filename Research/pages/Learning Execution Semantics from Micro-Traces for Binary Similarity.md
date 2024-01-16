@@ -11,8 +11,8 @@ slug: '/664F0C'
 - Teach [[AI]] approximate learning on binary code instructions and make mental executions.
   - Dynamic Execution has coverage problems.
   - So here, we set arbitrary registers to run small code. This is for pre-training purposes, not to make accurate extrapolations.
-- Masked Language Modeling. Mask certain portions of binaries and make the [[AI]] guess.
-- Questions may arise in Microexecutions and Logical reasoning. Employing Higher level programming language mapping is possible often, but not researched through.
+- Masked [[Language]] Modeling. Mask certain portions of binaries and make the [[AI]] guess.
+- Questions may arise in Microexecutions and Logical reasoning. Employing Higher level programming [[language]] mapping is possible often, but not researched through.
 - Now, fine-tune this to use static analysis.
 - Can analyze Semantically Similar Binary Functions
 - Function Dependencies and Signatures are also predictable
