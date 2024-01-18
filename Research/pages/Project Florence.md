@@ -6,6 +6,12 @@ slug: '/8429A4'
 - [[Project]] Florence is a research [[project]] on [[Vertical Federated Learning|VFL]]
 - [[Project Florence Literature Review]]
 
+## [[2024-01-18]]
+
+- Randomize each sites to have scattered pixel data (instead of quadrants)
+- Autoencoder
+- Pivot project?
+
 ## [[2023-11-16]]
 
 ![[8C3CC0.png]]
