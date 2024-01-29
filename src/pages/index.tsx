@@ -89,7 +89,7 @@ const HeroText = () => {
         />
         <Translate>{' based in '}</Translate>
         <EmojiReplaceableText
-          text={translate({ message: 'Seoul' })}
+          text={translate({ message: 'Daejeon, Seoul' })}
           photo={KoreaEmoji}
           photoAlt={translate({
             message: '🇰🇷',
