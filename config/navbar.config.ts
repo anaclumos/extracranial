@@ -27,11 +27,6 @@ const navbar = {
       position: 'left',
       items: [
         {
-          type: 'doc',
-          docId: 'Hey',
-          label: 'Hey 👋🏻',
-        },
-        {
           to: getMostRecentJournalLink(),
           label: 'Today',
         },
@@ -42,6 +37,11 @@ const navbar = {
         {
           to: '/3d',
           label: 'Graph',
+        },
+        {
+          type: 'doc',
+          docId: 'Hey',
+          label: 'What\'s this?',
         },
       ],
     },
