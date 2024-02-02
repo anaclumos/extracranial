@@ -21,24 +21,20 @@ const processBacklinkItem = (text: string, title: string) => {
 
   try {
     // Replace [[title|display]] with `<b class="${styles.highlight}">${display}</b>` with regex
-    const regex1 = new RegExp(`\\[\\[${title}\\|(.+?)\\]\\]`, 'g')
+    const regex1 = new RegExp(`\\[\\[${title}\\|(.+?)\\]\\]`, 'gi')
     text = text.replace(regex1, `<b class="${styles.highlight}">$1</b>`)
 
     // Replace [[title]] with `<b class="${styles.highlight}">${title}</b>` with regex
-    const regex2 = new RegExp(`\\[\\[${title}\\]\\]`, 'g')
+    const regex2 = new RegExp(`\\[\\[${title}\\]\\]`, 'gi')
     text = text.replace(regex2, `<b class="${styles.highlight}">${title}</b>`)
 
     // Replace [[other text|display]] with display. other can include spaces
-    const regex3 = new RegExp(`\\[\\[(. +?)\\|(. +?)\\]\\]`, 'g')
+    const regex3 = new RegExp(`\\[\\[(.+?)\\|(.+?)\\]\\]`, 'g')
     text = text.replace(regex3, '$2')
 
     // Replace [[other]] with other
     const regex4 = new RegExp(`\\[\\[(.+?)\\]\\]`, 'g')
     text = text.replace(regex4, '$1')
-
-    //Replace word|display with `display` with regex
-    const regex5 = new RegExp(`\\b${title}\\|(.+?)\\b`, 'g')
-    text = text.replace(regex5, '$1')
   } catch (e) {
     // console.warn(`Error processing backlink item with text: ${text} and title: ${title}\n${e}`)
   }
