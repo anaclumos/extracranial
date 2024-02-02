@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/A48088'
-aliases: ['Digital Brain']
+aliases: ['Digital Brain', '디지털 브레인', '디지털브레인', '세컨드 브레인', '세컨드브레인']
 ---
 
 ## State-of-the-art References
