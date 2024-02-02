@@ -3,7 +3,7 @@
 # [extracranial: the exosuit for my brain](https://cho.sh)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial?ref=badge_shield)
-[![Cloudflare Pages](https://img.shields.io/website?down_color=lightgray&down_message=Offline&label=Cloudflare%20Pages&logo=Cloudflare%20Pages&logoColor=white&up_color=%23F38020&up_message=Online&url=https%3A%2F%2Fcho.sh)](https://dash.cloudflare.com/b3fd9c9d6ad1bc778e56659fccb63f7f/pages/view/memex)
+[![AWS Fargate](https://img.shields.io/website?down_color=lightgray&down_message=Offline&label=AWS%20Fargate&logo=aws-fargate&logoColor=white&up_color=FF9900&up_message=Online&url=https%3A%2F%2Fcho.sh)]
 [![Pageviews](https://img.shields.io/badge/dynamic/json?color=%23FF4F64&logoColor=white&label=Pageviews&&logo=simple%20analytics&&style=flat&query=pageviews&url=https%3A%2F%2Fsimpleanalytics.com%2Fcho.sh.json%3Fversion%3D5%26fields%3Dpageviews%26timezone%3DAmerica%2FLos_Angeles%26start%3D2020-01-01%26end%3Dyesterday%26info%3Dfalse)](https://simpleanalytics.com/cho.sh)
 
 Extracranial means **situated outside the cranium** or **exoskull** in medical contexts.
@@ -24,38 +24,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 </div>
 
-## Last updated
 
-Wed Jan 31 23:21:42 PST 2024
+## Last updated 
 
-## Stats
-
-```
-───────────────────────────────────────────────────────────────────────────────
-Language                 Files     Lines   Blanks  Comments     Code Complexity
-───────────────────────────────────────────────────────────────────────────────
-Markdown                  2359     59280    15462         0    43818          0
-CSS                         70     20359      792        36    19531          0
-TypeScript                  59     19140      178        49    18913        164
-JSON                        16      1663        0         0     1663          0
-YAML                        12     17275     1860         3    15412          0
-SVG                          9         9        0         0        9          0
-Python                       7       864       51        28      785         83
-Plain Text                   3       103       18         0       85          0
-INI                          2         2        0         0        2          0
-TOML                         2         8        1         2        5          0
-TypeScript Typings           2        15        1         4       10          0
-gitignore                    2       296       69        69      158          0
-Dockerfile                   1        12        0         0       12          1
-JavaScript                   1        19        3        12        4          0
-───────────────────────────────────────────────────────────────────────────────
-Total                     2545    119045    18435       203   100407        248
-───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,415,446
-Estimated Schedule Effort (organic) 21.93 months
-Estimated People Required (organic) 13.83
-───────────────────────────────────────────────────────────────────────────────
-Processed 5627098 bytes, 5.627 megabytes (SI)
-───────────────────────────────────────────────────────────────────────────────
-
-```
+Thu Feb  1 19:47:12 PST 2024
