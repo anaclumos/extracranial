@@ -100,4 +100,8 @@ Along the way, the Developer Support was **excellent**. Replies within 2 hours. 
 
 I'll slowly move toward all my hobbies or work-related stuff to [[FlightControl]]. I found a hidden gem. I am willing to pay for a Prosumer plan (like [[GitHub]]), but I am delighted with their permissive and generous free plan.
 
+<figure>
+
 ![[25D46A.png]]
+
+</figure>
