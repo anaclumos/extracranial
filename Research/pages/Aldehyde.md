@@ -8,6 +8,8 @@ aliases: ['cho.sh']
 
 Aldehyde is the codename for this very website.
 
+Aldehyde is a part of Project Extracranial. Project Extracranial covers the entire workflow of delegating a second brain, while Aldehyde only focuses on the operations on `https://cho.sh` website and its exposition so that all records are neatly organized and readily available online. Some notes, visible in Project Extracranial, won't be available on Aldehyde.
+
 ## Related
 
 - [[Better Aldehyde]]
