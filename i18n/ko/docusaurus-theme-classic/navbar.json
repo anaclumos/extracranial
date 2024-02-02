@@ -35,8 +35,8 @@
     "message": "뉴스레터",
     "description": "Navbar item with label 뉴스레터"
   },
-  "item.label.Hey 👋🏻": {
-    "message": "안녕하세요 👋🏻",
-    "description": "Navbar item with label Hey 👋🏻"
+  "item.label.What's this?": {
+    "message": "무엇인가요?",
+    "description": "Navbar item with label What's this?"
   }
 }

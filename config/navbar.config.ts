@@ -41,7 +41,7 @@ const navbar = {
         {
           type: 'doc',
           docId: 'Hey',
-          label: 'What\'s this?',
+          label: "What's this?",
         },
       ],
     },
