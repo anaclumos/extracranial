@@ -45,6 +45,6 @@ Thus, the name [[Extracranial]], — **The Exosuit for [[Superbrain|Superbrains]
 
 I use [[Obsidian]] for taking notes.
 I then pipeline those notes into heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.
-I finally use [[Cloudflare]] for deploying, [[caching]], and distributing.
+I finally use [[AWS Fargate]] and [[FlightControl]] for deploying, [[caching]], and distributing.
 I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial).
 Take a look! 😃
