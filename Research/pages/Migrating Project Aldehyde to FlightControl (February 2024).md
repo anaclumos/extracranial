@@ -13,7 +13,7 @@ I migrated my website, [[Aldehyde]] (part of Project [[Extracranial]]), to [[Fli
 
 <figcaption>
 
-I love the Spaceship design! Please take a look at their [designs](https://www.overnice.com/case/product-for-flightcontrol).
+[I love their Spaceship themes! You get a random spaceship for every project you create.](https://www.overnice.com/case/product-for-flightcontrol).
 
 </figcaption>
 
