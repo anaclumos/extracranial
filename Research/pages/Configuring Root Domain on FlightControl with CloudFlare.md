@@ -7,10 +7,12 @@ Instead of `ALIAS -> Root Domain`, setup `CNAME -> Root Domain` on [[Cloudflare]
 
 Apparently FlightControl team didn't know this was possible
 
-![[5945C9.png]]
+![[E68961.png]]
+
+
 
 I reported this, and then they replied:
 
-![[A151E8.png]]
+![[40C34D.png]]
 
 Well, I guess this is the charm of working with an early stage engineering product team! You also contribute to the product as a early adopter.
