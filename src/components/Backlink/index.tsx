@@ -19,31 +19,34 @@ const processBacklinkItem = (text: string, title: string) => {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;')
 
+  let normalizedTitle = title.normalize('NFC')
+  let normalizedText = text.normalize('NFC')
+
   try {
     // Replace [[title|display]] with `<b class="${styles.highlight}">${display}</b>` with regex
-    const regex1 = new RegExp(`\\[\\[${title}\\|(.+?)\\]\\]`, 'gi')
-    text = text.replace(regex1, `<b class="${styles.highlight}">$1</b>`)
+    const regex1 = new RegExp(`\\[\\[${normalizedTitle}\\|(.+?)\\]\\]`, 'gi')
+    normalizedText = normalizedText.replace(regex1, `<b class="${styles.highlight}">$1</b>`)
 
     // Replace [[title]] with `<b class="${styles.highlight}">${title}</b>` with regex
-    const regex2 = new RegExp(`\\[\\[${title}\\]\\]`, 'gi')
-    text = text.replace(regex2, `<b class="${styles.highlight}">${title}</b>`)
+    const regex2 = new RegExp(`\\[\\[${normalizedTitle}\\]\\]`, 'gi')
+    normalizedText = normalizedText.replace(regex2, `<b class="${styles.highlight}">${normalizedTitle}</b>`)
 
     // Replace [[other text|display]] with display. other can include spaces
     const regex3 = new RegExp(`\\[\\[(.+?)\\|(.+?)\\]\\]`, 'g')
-    text = text.replace(regex3, '$2')
+    normalizedText = normalizedText.replace(regex3, '$2')
 
     // Replace [[other]] with other
     const regex4 = new RegExp(`\\[\\[(.+?)\\]\\]`, 'g')
-    text = text.replace(regex4, '$1')
+    normalizedText = normalizedText.replace(regex4, '$1')
   } catch (e) {
-    // console.warn(`Error processing backlink item with text: ${text} and title: ${title}\n${e}`)
+    console.error('Error processing backlink item:', e)
   }
 
   return (
     <pre
       className={styles.backlinkItemText}
       dangerouslySetInnerHTML={{
-        __html: text.trim(),
+        __html: normalizedText.trim(),
       }}
     />
   )
