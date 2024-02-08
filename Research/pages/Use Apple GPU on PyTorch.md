@@ -9,12 +9,12 @@ Use [[Apple]] [[GPU]] Acceleration ([[Metal]] Performance [[Shader]]) on [[PyTor
 
 ```py
 if torch.cuda.is_available():
-	print(f"Using NVIDIA GPU")
-	self.device = torch.device("cuda")
+    print(f"Using NVIDIA GPU")
+    self.device = torch.device("cuda")
 elif torch.backends.mps.is_available():
-	print(f"Using Metal Acceleration (MPS) on Apple GPU")
-	self.device = torch.device("mps")
+    print(f"Using Metal Acceleration (MPS) on Apple GPU")
+    self.device = torch.device("mps")
 else:
-	print("Using CPU")
-	self.device = torch.device("cpu")
+    print("Using CPU")
+    self.device = torch.device("cpu")
 ```
