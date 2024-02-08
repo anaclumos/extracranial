@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/F16ADE'
 ---
 
-This guide provides instructions for accessing a Jupyter Notebook on a remote server and configuring a GPU for machine learning tasks using TensorFlow and PyTorch.
+This guide provides instructions for accessing a Jupyter Notebook on a remote server and configuring a GPU for machine learning tasks using TensorFlow and [[PyTorch]].
 
 ## Accessing the Remote Jupyter Notebook
 
@@ -80,14 +80,14 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
          tf.config.experimental.set_memory_growth(physical_devices[0], True)
      ```
 
-## Setting Up GPU for PyTorch
+## Setting Up GPU for [[PyTorch]]
 
 ### Prerequisites
 
-- PyTorch installed.
+- [[PyTorch]] installed.
 - Knowledge of available GPU numbers.
 
-### Steps for PyTorch
+### Steps for [[PyTorch]]
 
 1. **Check GPU Availability:**
 
@@ -95,7 +95,7 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
 
 2. **Configure GPU in Notebook:**
 
-   - PyTorch automatically uses available GPUs, but you can specify one:
+   - [[PyTorch]] automatically uses available GPUs, but you can specify one:
 
      ```python
      import torch
@@ -117,5 +117,5 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
 ### Notes
 
 - For TensorFlow, `CUDA_VISIBLE_DEVICES` sets the specific GPU.
-- For PyTorch, `torch.device` is used to specify the GPU.
+- For [[PyTorch]], `torch.device` is used to specify the GPU.
 - Always check GPU availability and usage before selecting one.
