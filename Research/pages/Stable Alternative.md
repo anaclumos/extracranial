@@ -20,7 +20,7 @@ aliases: ["Let's Alter"]
 - [[Letter to Mr. Matt Rickard on 2022-11-28]]
 - [[Comparing BLIP and CLIP]]
 - [[Example References for Alter]]
-- [salesforce/BLIP: PyTorch code for BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://github.com/salesforce/BLIP)
+- [salesforce/BLIP](https://github.com/salesforce/BLIP): [[PyTorch]] code for BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
 - [openai/CLIP: Contrastive Language-Image Pretraining](https://github.com/openai/CLIP)
 - [CLIP: Connecting Text and Images](https://openai.com/blog/clip/)
 - Vision Transforms (ViT)
