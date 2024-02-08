@@ -65,7 +65,7 @@ const navbar = {
       'aria-label': 'Newsletters',
     },
     {
-      href: 'https://github.com/anaclumos',
+      href: 'https://github.com/anaclumos/extracranial',
       position: 'right',
       className: 'navbar-github-link',
       'aria-label': 'GitHub repository',
