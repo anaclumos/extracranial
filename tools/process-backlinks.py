@@ -140,6 +140,9 @@ if __name__ == "__main__":
         )
     filename_uid_map = dict(sorted(filename_uid_map.items(), key=lambda item: item[0]))
 
+    if not os.path.isdir("./src/data"):
+        os.makedirs("./src/data")
+
     with open("./src/data/backlinks.ts", "w") as f:
         f.write(
             "export const backlinks = "
