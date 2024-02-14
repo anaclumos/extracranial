@@ -3,7 +3,7 @@
 # [extracranial: the exosuit for my brain](https://cho.sh)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial?ref=badge_shield)
-[![AWS Fargate](https://img.shields.io/website?down_color=lightgray&down_message=Offline&label=AWS%20Fargate&logo=aws-fargate&logoColor=white&up_color=FF9900&up_message=Online&url=https%3A%2F%2Fcho.sh)]
+![AWS Fargate](https://img.shields.io/website?down_color=lightgray&down_message=Offline&label=AWS%20Fargate&logo=aws-fargate&logoColor=white&up_color=FF9900&up_message=Online&url=https%3A%2F%2Fcho.sh)
 [![Pageviews](https://img.shields.io/badge/dynamic/json?color=%23FF4F64&logoColor=white&label=Pageviews&&logo=simple%20analytics&&style=flat&query=pageviews&url=https%3A%2F%2Fsimpleanalytics.com%2Fcho.sh.json%3Fversion%3D5%26fields%3Dpageviews%26timezone%3DAmerica%2FLos_Angeles%26start%3D2020-01-01%26end%3Dyesterday%26info%3Dfalse)](https://simpleanalytics.com/cho.sh)
 
 Extracranial means **situated outside the cranium** or **exoskull** in medical contexts.
@@ -24,7 +24,6 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 </div>
 
+## Last updated
 
-## Last updated 
-
-Tue Feb 13 19:04:44 PST 2024
+Tue Feb 13 19:08:41 PST 2024
