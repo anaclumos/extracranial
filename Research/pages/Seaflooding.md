@@ -1,21 +1,8 @@
 ---
 lang: 'ko'
 slug: '/C8761B'
+aliases: ['개부심']
 ---
-
-## 산업적 개척, 청결, 정화 (이전)
-
-산업적 개척, 청결, 정화와 유사한데 무엇이라고 정확하게 칭해야 하는지 모르겠다.
-
-> 노후화된 시스템을 <u>\_\_\_\_\_</u>했더니, 모든 것이 깔끔하고 청결하며 즐겁고 아름답다.
-
-빈칸에 들어갈 말을 모르겠다!
-
-[[Economy|Economic]] Blooming
-
-## [[2023-05-09]]
-
-Seems like you can just say you **seaflooded** it.
 
 <blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">
@@ -34,3 +21,13 @@ Seaflooding, a promising solution to mitigate climate change, has the potential 
 > 2. (비유적으로) 아주 새로워지거나 새롭게 하다.
 >
 > ['개부심하다': 네이버 국어사전](https://ko.dict.naver.com/#/entry/koko/1786c97968d84b40b3596732c82b9745)
+
+## 산업적 개척, 청결, 정화 ([[2023-05-09]] 이전)
+
+산업적 개척, 청결, 정화와 유사한데 무엇이라고 정확하게 칭해야 하는지 모르겠다.
+
+> 노후화된 시스템을 <u>\_\_\_\_\_</u>했더니, 모든 것이 깔끔하고 청결하며 즐겁고 아름답다.
+
+빈칸에 들어갈 말을 모르겠다!
+
+[[Economy|Economic]] Blooming?

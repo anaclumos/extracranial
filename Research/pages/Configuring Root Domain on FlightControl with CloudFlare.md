@@ -9,8 +9,6 @@ Apparently FlightControl team didn't know this was possible
 
 ![[E68961.png]]
 
-
-
 I reported this, and then they replied:
 
 ![[40C34D.png]]

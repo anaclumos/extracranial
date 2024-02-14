@@ -7,9 +7,7 @@ I migrated my website, [[Aldehyde]] (part of Project [[Extracranial]]), to [[Fli
 
 <figure>
 
-
 ![[4AEADB.png]]
-
 
 <figcaption>
 
@@ -20,7 +18,6 @@ I migrated my website, [[Aldehyde]] (part of Project [[Extracranial]]), to [[Fli
 </figure>
 
 ## Background
-
 
 Before [[Aldehyde Outage (January 2023)]], the [[extracranial]] workflow was simple — [[git]] push, wait for 10 minutes for [[Vercel]] to build it, and then voila you have the updated website.
 

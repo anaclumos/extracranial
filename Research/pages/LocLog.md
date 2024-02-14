@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: "/4C571C"
+slug: '/4C571C'
 ---
 
 [[Someday]] [[Project]].
