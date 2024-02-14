@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: "/37C60E"
+slug: '/37C60E'
 ---
 
 [[Lesser Known Trick]].

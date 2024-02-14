@@ -1,4 +1,4 @@
-<img style="vertical-align:middle;" align="right" src="https://user-images.githubusercontent.com/31657298/219600737-bf543738-aeaa-4208-bf78-9e421d211104.png" width="60px">
+<img style="vertical-align:middle;" align="right" src="https://user-images.githubusercontent.com/31657298/219600737-bf543738-aeaa-4208-bf78-9e421d211104.png" width="60px"/>
 
 # [extracranial: the exosuit for my brain](https://cho.sh)
 
@@ -27,4 +27,4 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated 
 
-Wed Feb  7 23:21:26 PST 2024
+Tue Feb 13 19:04:44 PST 2024

@@ -1,10 +1,6 @@
 <figure>
 
-
-
 <figcaption>
-
-
 
 </figcaption>
 

@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: "/67A464"
+slug: '/67A464'
 ---
 
 [[Someday]] [[Project]].

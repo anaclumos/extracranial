@@ -1,7 +1,6 @@
 ---
 lang: en
-slug: "{{hex}}"
+slug: '{{hex}}'
 ---
 
 [[Someday]] [[Project]].
-
