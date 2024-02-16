@@ -19,7 +19,6 @@ const index = () => {
         emitMetadata="0"
         inputPosition="top"
         strict="0"
-        theme="https://cho.sh/css/giscus.css"
         lang={i18n.currentLocale}
       />
     </div>
