@@ -17,14 +17,14 @@ import Shuffle from '@site/src/components/Shuffle'
 - The Last of Us Part 1
 - Pokemon Scarlet (Original)
 - \_전언
+- Palworld
 
 </Shuffle>
 
 ## Doing
 
-- Horizon Zero Dawn
-
-## Queued
-
 - Spiderman Remastered
-- Cocoon
+
+## Stopped
+
+- Horizon Zero Dawn
