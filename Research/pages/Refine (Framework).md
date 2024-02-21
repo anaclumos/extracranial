@@ -9,5 +9,5 @@ It will generate a
 
 - React Platform (Vite, Remix, Next.js)
 - UI Framework (Material UI, Ant Design, Chakra UI, Mantine, [[Headless]])
-- [[Back-end|Backend]] (REST API, Supabase, Strapi, NestJS, Appwrite, Airtable, Hasura)
+- [[Back-end|Backend]] (REST [[API]], Supabase, Strapi, NestJS, Appwrite, Airtable, Hasura)
 - Authentication Provider (Google Auth, Keycloak, Auth0, Supabase, Appwrite, Strapi, Custom Auth, No Auth)

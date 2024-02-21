@@ -5,7 +5,7 @@ slug: '/01460C'
 - [[2020-10-05]]
 - [[GitHub Pages에 React 앱 띄우기]]
 
-Recently I came across the idea of publishing a [[React]] App on GitHub Pages. I can distribute my [[React]] App using GitHub, further saving server bandwidth and simplifying the API server structure. I have created a boilerplate for this structure.
+Recently I came across the idea of publishing a [[React]] App on GitHub Pages. I can distribute my [[React]] App using GitHub, further saving server bandwidth and simplifying the [[API]] server structure. I have created a boilerplate for this structure.
 
 ## Key points
 

@@ -13,7 +13,7 @@ slug: '/6D8C92'
 
 :::info
 
-3대 [[AI|인공지능]]([[OpenAI]]의 [[GPT-4]], [[Meta (Company)|Meta]]의 [[LLaMA]], 그리고 [[Google]]의 [[PaLM 2]])에게 다음과 같은 API를 제정한다: [[Project MAGI]]
+3대 [[AI|인공지능]]([[OpenAI]]의 [[GPT-4]], [[Meta (Company)|Meta]]의 [[LLaMA]], 그리고 [[Google]]의 [[PaLM 2]])에게 다음과 같은 [[API]]를 제정한다: [[Project MAGI]]
 
 - 안건을 상정한다.
 - 가결한다.

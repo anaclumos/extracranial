@@ -44,7 +44,7 @@ Felt supports various use cases, including planning, technology, consulting, dis
 
 Mapbox is a platform that provides mapping, navigation, and location-based services for developers. Its primary offerings include:
 
-1. Logistics: The Matrix API enables automatic calculation of travel distances and ETAs, facilitating delivery businesses' operations.
+1. Logistics: The Matrix [[API]] enables automatic calculation of travel distances and ETAs, facilitating delivery businesses' operations.
 2. Navigation: The Navigation SDK offers turn-by-turn routing for [[iOS]] and [[Android]], while the Navigation Solutions cover SDKs, APIs, EVs, and more.
 3. Automotive: The ADAS SDK predicts road conditions, while Dash provides beautiful maps, live traffic, music, and voice for cars.
 4. Mapbox Platform: The Infrastructure Platform ensures reliable infrastructure for apps.

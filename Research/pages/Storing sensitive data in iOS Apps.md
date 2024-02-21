@@ -27,8 +27,8 @@ slug: '/30CC03'
 
 - I just made a `.gitignore` that ignores all `*Credentials.swift` file.
 - Is it safe? No!
-- However, I am using LinkedIn API that makes a network request.
-- Anyone who will take the effort to decompile the app and extract the API key data will attack the network request and extract the key.
+- However, I am using LinkedIn [[API]] that makes a network request.
+- Anyone who will take the effort to decompile the app and extract the [[API]] key data will attack the network request and extract the key.
 - I concluded security beyond not disclosing them through the source control system is meaningless for my use case.
 
 ## One possible and safe way: Secure Enclaves.

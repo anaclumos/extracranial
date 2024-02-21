@@ -85,7 +85,7 @@ General guidelines:
 
 - Avoid use of QuantityMagnitude.
 
-- If unevaluated Wolfram Language symbols appear in API results, use `EntityValue[Entity[\"WolframLanguageSymbol\",symbol],{\"PlaintextUsage\",\"Options\"}]` to validate or retrieve usage information for relevant symbols; `symbol` may be a list of symbols.
+- If unevaluated Wolfram Language symbols appear in [[API]] results, use `EntityValue[Entity[\"WolframLanguageSymbol\",symbol],{\"PlaintextUsage\",\"Options\"}]` to validate or retrieve usage information for relevant symbols; `symbol` may be a list of symbols.
 
 - Apply Evaluate to complex expressions like integrals before plotting (e.g., `Plot[Evaluate[Integrate[...]]]`).
 

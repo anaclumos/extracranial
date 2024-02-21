@@ -51,7 +51,7 @@ GitHub Actions로 빌드하는 방식으로.
 - [Fine-tuning - OpenAI API](https://platform.openai.com/docs/guides/fine-tuning)
 
 [[OpenAI]]를 가지고 많이 놀았다.
-그와중에 DeepL은 API를 열어주지 않고 있었다.
+그와중에 DeepL은 [[API]]를 열어주지 않고 있었다.
 결제 과정에서 오류가 나는 것을 일주일 째 방치하는 [[Software as a Service|SaaS]] 기업이라니.
 
 ## [[2023-04-02]]
@@ -103,7 +103,7 @@ GitHub Actions로 빌드하는 방식으로.
 ![[E81189.png]]
 ![[A48C93.png]]
 
-Jargon Manager를 만들어야겠다. Stable Diffusion을 '안정적인 확산'이라고 번역하다니! DeepL 기능에 Glossary를 지원하는 기능이 있는데, 문제는 API를 사용한다면 무조건 API를 사용해서 등록해야 한다고 🫤 이게 말이 되나 [DeepL API](https://www.deepl.com/docs-api/glossaries/list-glossaries/)
+Jargon Manager를 만들어야겠다. Stable Diffusion을 '안정적인 확산'이라고 번역하다니! DeepL 기능에 Glossary를 지원하는 기능이 있는데, 문제는 [[API]]를 사용한다면 무조건 [[API]]를 사용해서 등록해야 한다고 🫤 이게 말이 되나 [DeepL API](https://www.deepl.com/docs-api/glossaries/list-glossaries/)
 
 ![[95C2B4.png]]
 

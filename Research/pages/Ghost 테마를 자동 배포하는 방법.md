@@ -30,7 +30,7 @@ Ghost 테마 업로드 및 적용을 [[GitHub]] Action에게 맡겨 보자.
 
 [[GitHub Actions]] 통합을 끝낸 상태에서 스크린샷을 찍었기에 이미 Deploy Theme Integration이 추가되어 있다.
 
-새로운 Integration을 추가하면 Configuration 창이 나타난다. Configuration 창 하단에 Content API Key, Admin API Key, 그리고 API URL 값이 있다. 여기서 Admin API Key와 API URL이 필요하다. 이 값들은 절대 외부에 공유하면 안된다.
+새로운 Integration을 추가하면 Configuration 창이 나타난다. Configuration 창 하단에 Content [[API]] Key, Admin [[API]] Key, 그리고 [[API]] URL 값이 있다. 여기서 Admin [[API]] Key와 [[API]] URL이 필요하다. 이 값들은 절대 외부에 공유하면 안된다.
 
 이 값을 복사하여 GitHub Repository Secrets로 등록한다. GitHub Repository Secrets는 한 Repository 내에 암호화되어 저장되는 환경 변수이다. 오직 [[GitHub Actions]]를 통해서만 접근할 수 있으며 설령 저장소가 복사된다 하더라도 GitHub Repository Secrets 값은 유출되지 않는다.
 

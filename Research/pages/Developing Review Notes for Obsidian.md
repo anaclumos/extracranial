@@ -4,7 +4,7 @@ slug: '/DAF673'
 ---
 
 [[2022-07-19]] 저녁에 적당히 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.
-이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 API 문서를 탐독하면서 이런 저런 발견 사항들을 기록할 것이다.
+이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 [[API]] 문서를 탐독하면서 이런 저런 발견 사항들을 기록할 것이다.
 영어로 작성하려다가 옵시디언 플러그인 개발 자료는 [[한국어]]로 거의 없어 그냥 [[한국어]]로 작성한다.
 
 우선 이 2가지 링크를 확인한다.
@@ -164,7 +164,7 @@ export class ReviewDailyNotesView extends ItemView {
 
 ## 옵시디언 안의 파일 접근
 
-옵시디언 API 문서를 읽다 다음과 같이 파일 구조가 정의됨을 알 수 있었다.
+옵시디언 [[API]] 문서를 읽다 다음과 같이 파일 구조가 정의됨을 알 수 있었다.
 
 ```ts
 /**
@@ -190,7 +190,7 @@ export class TFile extends TAbstractFile {
 
 ![[DFFE7F.png]]
 
-옵시디언 API 문서를 더 읽었다.
+옵시디언 [[API]] 문서를 더 읽었다.
 다음과 같은 방식으로 내부 파일들에 접근할 수 있다.
 
 ```ts
@@ -264,7 +264,7 @@ async onOpen() {
 
 ### MD 렌더링
 
-옵시디언 API 문서를 찾아보다가 다음과 같은 부분을 찾았다.
+옵시디언 [[API]] 문서를 찾아보다가 다음과 같은 부분을 찾았다.
 
 ```ts
 export class MarkdownPreviewView extends MarkdownRenderer implements MarkdownSubView, MarkdownPreviewEvents {
@@ -300,7 +300,7 @@ export class MarkdownPreviewView extends MarkdownRenderer implements MarkdownSub
 ```
 
 근데 여기서 인자로 받는 것은 `HTMLElement`이니까 변환기를 찾아야 한다.
-옵시디언의 API 문서가 자료가 전혀 없이 `obsidian.d.ts`를 API 문서라고 부르고 있는 상태라 이해에 어려움이 있다.
+옵시디언의 [[API]] 문서가 자료가 전혀 없이 `obsidian.d.ts`를 [[API]] 문서라고 부르고 있는 상태라 이해에 어려움이 있다.
 Discord 서버에 물어보았다.
 일단 답변이 올 때까지 오늘은 여기까지 하겠다.
 [[React]]로 변환이 2시간 정도로 오래 걸렸다.
@@ -309,4 +309,4 @@ Discord 서버에 물어보았다.
 
 - [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 [[Aldehyde]]를 더 많이 사용하게 됨
 - 옵시디언에서도 단축키가 익숙해져 굳이 필요함을 못 느끼게 됨
-- 옵시디언 API 문서의 [[DX]] 매우 불친절
+- 옵시디언 [[API]] 문서의 [[DX]] 매우 불친절

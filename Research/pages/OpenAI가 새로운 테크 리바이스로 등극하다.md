@@ -3,9 +3,9 @@ lang: 'en'
 slug: '/EAE738'
 ---
 
-[[OpenAI]]가 방금 [[Generative Pre-trained Transformer|GPT]]-3.5-터보 모델을 기반으로 한 [[ChatGPT]] API 서비스를 출시했다.
+[[OpenAI]]가 방금 [[Generative Pre-trained Transformer|GPT]]-3.5-터보 모델을 기반으로 한 [[ChatGPT]] [[API]] 서비스를 출시했다.
 이 모델은 1,000토큰당 0.002달러에 사용할 수 있으며 채팅이 아닌 다른 애플리케이션에도 사용할 수 있다.
-Shopify, Instacart, Quizlet, Snap 등이 이미 이 API를 실험하고 있다.
+Shopify, Instacart, Quizlet, Snap 등이 이미 이 [[API]]를 실험하고 있다.
 우리는 소프트웨어의 새로운 시대를 목도하고 있다.
 **방금 [[AI]] 네이티브 시대의 골드러시가 시작되었다**.
 

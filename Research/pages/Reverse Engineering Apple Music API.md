@@ -30,7 +30,7 @@ It doesn't mention how to get that token!
 ![[C0AA6C.png]]
 ![[3C6B0B.png]]
 
-## Testing the API Key
+## Testing the [[API]] Key
 
 ![[6BB27A.png]]
 ![[413165.png]]
