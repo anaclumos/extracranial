@@ -21,11 +21,11 @@ You tell the tool what you're interested in — it could be anything like "susta
 
 ## What are you building with?
 
-- OpenAI API
+- OpenAI [[API]]
 - Playwright Scrapers
 - Resend
 - React Email
-- Google Search API
+- Google Search [[API]]
 - Vercel
 - Cloudflare
 - GitHub Actions

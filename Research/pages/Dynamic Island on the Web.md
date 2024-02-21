@@ -44,14 +44,14 @@ slug: '/B21605'
 ## [[2022-10-28]]
 
 - [[Reverse Engineering Apple Music API]]
-- I can now make API requests to find out what I was listening to.
+- I can now make [[API]] requests to find out what I was listening to.
 
 ![[413165.png]]
 
 ## [[2022-10-20]]
 
 I finally got the knack for how to animate and accelerate things.
-All I need to do now is to pack them with an API-style [[JSON]] payload.
+All I need to do now is to pack them with an [[API]]-style [[JSON]] payload.
 That way, anyone can put whatever data they want...
 
 ![[E91526.gif]]

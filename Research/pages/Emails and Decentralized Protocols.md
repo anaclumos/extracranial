@@ -11,7 +11,7 @@ slug: '/B26538'
 - [[Google]] has half a billion results for "[my email goes directly to spam](https://www.google.com/search?q=my+email+goes+directly+to+spam)
 - [[Mail|email]] servers run bayesian filtering algorithms, which protect you, and most spam doesn't reach your inbox.
 - Big Tech deliberately nerfs [[Mail|email]] deliverability.
-- if you want to build services on top of the [[Mail|email]], you have to pay for an [[Mail|email]]-sending API which others in the industry have blessed. One of **them**.
+- if you want to build services on top of the [[Mail|email]], you have to pay for an [[Mail|email]]-sending [[API]] which others in the industry have blessed. One of **them**.
 
 ### [Self-Hosted email is the hardest it's ever been, but also the easiest.](https://vadosware.io/post/its-never-been-easier-or-harder-to-self-host-email/)
 

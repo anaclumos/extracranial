@@ -11,7 +11,7 @@ Large Language Models ([[LLM|LLMs]]) have demonstrated impressive capabilities i
 
 ### Background
 
-Recent studies have shown that [[LLM|LLMs]] can be susceptible to PI attacks, which prompted the model to produce malicious content or override the original instructions. These attacks are brutal to mitigate due to the [[LLM]]'s nature of following instructions. As [[LLM|LLMs]] are integrated into various applications and systems, including those with retrieval and API calling capabilities, new attack vectors arise, posing a threat to the security and privacy of users.
+Recent studies have shown that [[LLM|LLMs]] can be susceptible to PI attacks, which prompted the model to produce malicious content or override the original instructions. These attacks are brutal to mitigate due to the [[LLM]]'s nature of following instructions. As [[LLM|LLMs]] are integrated into various applications and systems, including those with retrieval and [[API]] calling capabilities, new attack vectors arise, posing a threat to the security and privacy of users.
 
 ### Research Questions
 

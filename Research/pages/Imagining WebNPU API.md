@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/56317F'
 ---
 
-[WebGPU](https://gpuweb.github.io/gpuweb/) is a recently developed web interface that provides access to modern [[graphics]] processing unit ([[GPU]]) capabilities, such as Direct3D 12, Metal, and Vulkan, for rendering and computation tasks. Its aim is comparable to WebGL APIs, but [[WebGPU]] offers access to more advanced [[GPU]] features. **What if we could do this with [[NPU]]**? I hereby suggest a hypothetical **WebNPU** API. Think this way:
+[WebGPU](https://gpuweb.github.io/gpuweb/) is a recently developed web interface that provides access to modern [[graphics]] processing unit ([[GPU]]) capabilities, such as Direct3D 12, Metal, and Vulkan, for rendering and computation tasks. Its aim is comparable to WebGL APIs, but [[WebGPU]] offers access to more advanced [[GPU]] features. **What if we could do this with [[NPU]]**? I hereby suggest a hypothetical **WebNPU** [[API]]. Think this way:
 
 - [[WebAssembly]] unlocks the bare-metal power of [[CPU]]s.
 - [[WebGPU]] unlocks the bare-metal power of [[GPU]]s.
@@ -11,7 +11,7 @@ slug: '/56317F'
 
 We are already observing blooming [[On-device]] inferencing [[ML]] technology with [[Apple]]'s [[Neural Engine]]. This includes many jobs, from simple Siri commands to full-blown [Stable Diffusion](https://github.com/apple/ml-stable-diffusion) models. While they are way weaker in power compared to full-server scale inferencing, they have far better latency and privacy, which are required for some specific jobs. Other companies are catching up, such as [[Google]]'s [Tensor](https://blog.google/products/pixel/introducing-google-tensor/). Unfortunately, so far, these chips are only accessible through native applications. For web-based solutions, we have high-level services running on the [[CPU]], like [TensorFlow.js](https://www.tensorflow.org/js).
 
-At one point in the future, when [[AI-native]] (just like us Cloud-Natives) become the norm, there will be more and more need for an [[On-device]] API to access [[NPU|NPUs]], especially with Web technologies. These are good for all stakeholders:
+At one point in the future, when [[AI-native]] (just like us Cloud-Natives) become the norm, there will be more and more need for an [[On-device]] [[API]] to access [[NPU|NPUs]], especially with Web technologies. These are good for all stakeholders:
 
 - **Customers**. Everything is local, fast, and secure—no need to install an app for an [[AI]] to be tailored to their specific preferences and behavior. Visiting a website will suffice.
 - **Developers**. No need to ramp up an inferencing server. WebNPU can also simplify the development process for developers, as they can [[Write Once Run Everywhere]].

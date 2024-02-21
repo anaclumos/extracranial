@@ -7,7 +7,7 @@ slug: '/D2DFA4'
 
 Dear Mr. Rickard,
 
-Awesome article. I want to give one good example of Screenshots-as-an-API.
+Awesome article. I want to give one good example of Screenshots-as-an-[[API]].
 
 Unlike the Western market, the [[한민족|Korean]] music market is heavily independent.
 Although YouTube Music has gobbled up the market cap quite significantly, most people still use [[한민족|Korean]] services to listen to music, primarily due to copyright issues for foreign Music services (they don't have [[한민족|Korean]] songs).

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/35B23B'
 ---
 
-[[OpenAI]] has launched its [[ChatGPT]] API service, powered by the GPT-3.5-turbo [[AI]] model. The model is available for $0.002 per 1,000 tokens and can be used for non-chat applications. Early adopters of the [[ChatGPT]] API include Shopify, Instacart, Quizlet, and Snap. This is another cornerstone moment for software. **The [[AI-native]]-era gold rush has just begun**.
+[[OpenAI]] has launched its [[ChatGPT]] [[API]] service, powered by the GPT-3.5-turbo [[AI]] model. The model is available for $0.002 per 1,000 tokens and can be used for non-chat applications. Early adopters of the [[ChatGPT]] [[API]] include Shopify, Instacart, Quizlet, and Snap. This is another cornerstone moment for software. **The [[AI-native]]-era gold rush has just begun**.
 
 Levi's was always the actual winner of the gold rush, making a fortune by supplying miners with the tools they needed to extract gold while never involving in the actual competition. They were the arms dealer in this silent war. [[AWS]] was the latest Levi's of the tech industry, after the comms companies like AT&T. Just as the gold rush created a massive demand for supplies like jeans and hammers, the digital transformation has made an enormous demand for [[cloud computing]] services like [[AWS]]. [[OpenAI]] just officialized that they will be the next Levi's.
 

@@ -10,7 +10,7 @@ slug: '/BB0A88'
 - Self-hostable dashboard server
 - Your data, your own (no [[Fiercely Overpriced|paywall]] if self-hosted)
 - terminal program gets all the data (the .sh name)
-- [[JSON]] API
+- [[JSON]] [[API]]
 - [[GitHub]] Profile Widget
 - Code Style Analytics (`PascalCase`, `snake_case`, ... )
 - Idle time, Typing time, Googling Time measurer, etc

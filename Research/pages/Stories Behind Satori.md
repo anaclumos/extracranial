@@ -22,5 +22,5 @@ Using a [[WebAssembly|WASM]]-based approach also unlocked the possibility of run
 After simplifying the syntax with [[JSX]] and simple [[CSS]], Shu used [RazrFalcon/resvg](https://github.com/RazrFalcon/resvg) and [yisibl/resvg-js](https://github.com/yisibl/resvg-js) to convert the [[SVG]] image to [[PNG]].
 
 The [[Vercel]] team [[Dogfooding|dogfooded]] this for a while.
-They also added [[Google]] [[Font]]'s `?text=` API, containing a specific subset of the [[CJK]] library and rendering things on the fly.
+They also added [[Google]] [[Font]]'s `?text=` [[API]], containing a specific subset of the [[CJK]] library and rendering things on the fly.
 The same applies to [[Emoji|emojis]].

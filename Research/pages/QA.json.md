@@ -20,7 +20,7 @@ The proposed standard provides a mechanism for transforming website content into
 
 This proposal aims to enhance the efficiency and effectiveness of [[AI]] in extracting meaningful information from websites, thus tackling token limits and information overload issues. In addition, it promotes giving some control back to the publisher, akin to an RSS feed or [[sitemap.xml]]. Finally, the structured data format can also support generating site-specific versions of [[AI]] models.
 
-## High-Level API
+## High-Level [[API]]
 
 The data format utilizes [[JSON]] with the following main objects:
 

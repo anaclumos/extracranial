@@ -163,7 +163,7 @@ _But why stop with Attention Settings? There are countless opportunities for min
 
 iOS could provide users with the option to enjoy a mindful moment before continuing with distracting apps and provide Siri suggestions with activities that might be more attractive than mindless scrolling.
 
-While you can already have this experience with apps like [one sec](https://one-sec.app/) or [Potential](https://potential.app/), it takes some setup and is a less ideal UX than what Apple could build. Even better, Apple could provide an AttentionKit and empower developers to trigger modals like this on top of other apps, based eg. on data from the ScreenTime API.
+While you can already have this experience with apps like [one sec](https://one-sec.app/) or [Potential](https://potential.app/), it takes some setup and is a less ideal UX than what Apple could build. Even better, Apple could provide an AttentionKit and empower developers to trigger modals like this on top of other apps, based eg. on data from the ScreenTime [[API]].
 
 Three possible contexts for these interventions: App Opening Modal, App Overlay, and Time Limit Suggestions.
 
@@ -179,9 +179,9 @@ We put together a whole [library of humane tech products, concepts, and ideas](h
 
 We need to understand better the science of problematic smartphone use and effective interventions. This is a no-brainer, and it's a shame it hasn't been done already.
 
-### ScreenTime API and AttentionKit
+### ScreenTime [[API]] and AttentionKit
 
-Apple could share the current Focus mode, Screen Time schedule and events (eg. the user has been on for 20 minutes) via the ScreenTime API.
+Apple could share the current Focus mode, Screen Time schedule and events (eg. the user has been on for 20 minutes) via the ScreenTime [[API]].
 
 Based on that, eg. apps like YouTube could suggest focus music when in work focus, workout videos when in fitness, and calming videos when winding down.
 
@@ -362,7 +362,7 @@ If we can do it, Facebook can too.
 
 iOS는 사용자들에게 주의력을 산만하게 하는 앱들을 계속하기 전에 마음을 사로잡는 순간을 즐길 수 있는 옵션을 제공할 수 있으며, 마음을 빼앗기지 않는 스크롤보다 더 매력적인 활동들을 시리를 통해 제안할 수 있다.
 
-이미 [one sec](https://one-sec.app/) 또는 [Potential](https://potential.app/)과 같은 앱에서 이러한 경험을 할 수 있지만, 이는 어느 정도의 설정이 필요하며 애플이 구축할 수 있는 것보다 덜 이상적인 UX이다. 더욱 좋은 점은, 애플이 어텐션 키트를 제공하고 개발자들이 ScreenTime API의 데이터에 기반하여 다른 앱 위에 이와 같은 모드를 트리거할 수 있도록 권한을 부여할 수 있다는 것이다.
+이미 [one sec](https://one-sec.app/) 또는 [Potential](https://potential.app/)과 같은 앱에서 이러한 경험을 할 수 있지만, 이는 어느 정도의 설정이 필요하며 애플이 구축할 수 있는 것보다 덜 이상적인 UX이다. 더욱 좋은 점은, 애플이 어텐션 키트를 제공하고 개발자들이 ScreenTime [[API]]의 데이터에 기반하여 다른 앱 위에 이와 같은 모드를 트리거할 수 있도록 권한을 부여할 수 있다는 것이다.
 
 이러한 개입을 위한 세 가지 가능한 맥락: 앱 열기 모드, 앱 오버레이 및 시간 제한 제안.
 
@@ -378,9 +378,9 @@ iOS는 사용자들에게 주의력을 산만하게 하는 앱들을 계속하�
 
 우리는 문제가 되는 스마트폰 사용과 효과적인 개입에 대한 과학을 더 잘 이해할 필요가 있다. 이것은 쉬운 결정이며, 아직 이루어지지 않은 것이 아쉽다.
 
-### ScreenTime API 및 Attention Kit
+### ScreenTime [[API]] 및 Attention Kit
 
-애플은 ScreenTime API를 통해 현재 포커스 모드, ScreenTime 스케줄 및 이벤트(예: 사용자가 20분 동안 기기를 사용하고 있음)를 공유할 수 있다.
+애플은 ScreenTime [[API]]를 통해 현재 포커스 모드, ScreenTime 스케줄 및 이벤트(예: 사용자가 20분 동안 기기를 사용하고 있음)를 공유할 수 있다.
 
 예를 들어, 유튜브와 같은 앱들은 일에 집중할 때 포커스 음악을, 피트니스를 할 때 운동 비디오를, 그리고 몸을 감을 때 진정시키는 비디오를 제안할 수 있다.
 
