@@ -6,6 +6,20 @@ slug: '/8429A4'
 - [[Project]] Florence is a research [[project]] on [[Vertical Federated Learning|VFL]]
 - [[Project Florence Literature Review]]
 
+## [[2024-02-21]]
+
+MLP seems to do well
+
+conv-pool-conv-pooling may be better
+
+abstraction of mlp can ignore the noises?
+
+action items:
+
+- cnn conv-pool-conv-pool
+- mlp and run it for 200 epochs
+- visualize scatters
+
 ## [[2024-01-18]]
 
 - Randomize each sites to have scattered pixel data (instead of quadrants)
