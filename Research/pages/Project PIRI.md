@@ -1,7 +1,7 @@
 ---
 lang: 'en'
-title: Project PIRI: Performant & Interoperable Rendering Infrastructure
-slug: "/1DEEA3"
+\title: 'Project PIRI : Performant & Interoperable Rendering Infrastructure'
+slug: '/1DEEA3'
 ---
 
 Potential [[Project]] of USC CSCI 576 Multimedia Systems Design
@@ -31,18 +31,23 @@ PIRI handles and represents various media types (images, video, audio, graphics,
 ### Compression and Storage
 
 PIRI's development will require an understanding of generic and specific algorithms for media compression, including well-known ITU/ISO standards such as JPEG, MPEG1/2/4, H.261/263/264, HEVC, mp3, AAC, and Dolby Atmos. This aligns with the course's exploration of compression and storage techniques, offering a hands-on opportunity to apply these standards in optimizing video content for efficient web playback and storage.
+
 ### Distribution.
 
 PIRI is centered around the distribution of multimedia content via networked systems to a variety of end clients, incorporating aspects of wired and wireless network distribution, Quality of Service (QoS), priority queuing, and streaming protocols such as MPEG-DASH, Apple's HLS, and Adobe HDS. This directly relates to the course's examination of distribution mechanisms and the challenges of delivering high-quality multimedia content over diverse network conditions.
+
 ### Digital Rights Management.
 
 Incorporating WebAssembly's secure execution environment, PIRI addresses the need for digital rights management (DRM) through watermarking and encryption. This component is relevant to the course's discussion on protecting and managing distributed multimedia content, emphasizing the importance of security in modern multimedia systems.
+
 ### End-to-End Multimedia Systems Design.
 
 PIRI exemplifies the design of distributed end-to-end multimedia systems, integrating content creation, compression, storage, and distribution components. This holistic approach to system design mirrors the course's goal to explain the architecture of modern multimedia applications, offering a practical case study that encompasses the theoretical and technical aspects covered in the curriculum.
+
 ### Recent Protocols and Technologies.
 
 By leveraging recent protocols like MPEG-DASH, Apple's HLS, and Adobe HDS and exploring cutting-edge technologies such as stereoscopic and holographic displays, PIRI provides a platform for students to engage with the latest advancements in multimedia systems design. This aligns with the course's emphasis on showcasing recent industry progress and innovations through examples and guest lectures.
+
 ### Multimodal Media Analysis.
 
 PIRI's potential for enabling direct video editing and analysis in web browsers touches on aspects of multimodal media analysis, a topic of interest in the course, offering a practical application for theories and techniques related to multimedia data classification and natural language queries for multimedia analysis.
