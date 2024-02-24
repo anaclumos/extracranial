@@ -52,4 +52,3 @@ Orion 앱은 USB 비디오 클래스 장치를 지원하는 iPadOS 17의 발표�
 - One feature that hit the cutting room floor was alternate icons — imagine an NES icon, an Xbox icon, a beige Macintosh screen, and more. I'd love suggestions if you have any because we still want to get this into an update, and I genuinely love working on app icons
 - On the marketing side, we didn't have time to shoot a launch video. I even visited a thrift store to buy '80s clothes and enlisted some friends — one of whom was committed to cutting their hair to leave only a mullet. Next time, perhaps
 - That was, fortunately, easy even for this admitted web-challenged designer. I created a pretty decent page in [Framer](http://framer.com) in just one very long night in a very uncomfortable wooden chair in a farmhouse. And with that, we were all set for a launch
-
