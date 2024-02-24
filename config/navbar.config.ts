@@ -20,7 +20,7 @@ const navbar = {
     alt: 'Sunghyun Cho Logo',
     src: '/img/favicon.svg',
     width: 32,
-    height: 32
+    height: 32,
   },
   items: [
     {
