@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import { backlinks } from '@site/src/data/backlinks'
+import { UnrealBloomPass } from '@site/src/components/UnrealBloomPass'
 import Head from '@docusaurus/Head'
 import { useScreenSize } from '@site/src/util/useScreenSize'
 import { processBacklinksToGraph } from '@site/src/util/graph'
@@ -22,6 +23,16 @@ export const GraphView3d = (props: { width: number; height: number }) => {
           // eslint-disable-next-line @typescript-eslint/no-var-requires
           const { ForceGraph3D } = require('react-force-graph')
           const FocusGraph = () => {
+            const fgRef = useRef<unknown>()
+
+            useEffect(() => {
+              const bloomPass = new UnrealBloomPass()
+              bloomPass.strength = 0.8
+              bloomPass.radius = 0.8
+              bloomPass.threshold = 0.25
+              fgRef.current.postProcessingComposer().addPass(bloomPass)
+            }, [])
+
             return (
               <ForceGraph3D
                 rendererConfig={{
@@ -30,6 +41,7 @@ export const GraphView3d = (props: { width: number; height: number }) => {
                 }}
                 width={props.width}
                 height={props.height}
+                ref={fgRef}
                 graphData={gData}
                 nodeLabel={`nodeLabel`}
                 nodeAutoColorBy="group"
