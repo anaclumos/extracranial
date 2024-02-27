@@ -58,11 +58,11 @@ The AutoML team at Lunit focuses on automating AI product development processes.
 - Prior involvement in platform development and operations.
 - Knowledge of cloud computing services.
 
-### 📝How to Apply
+### 📝 How to Apply
 
 - CV (resume, free format)
 
-### 🏃♀ Hiring Process
+### 🏃 Hiring Process
 
 - Document Screening → Technical Interview → Assignment → Competency-based Interview(Presentation) → Culture-fit Interview → Onboarding
   - All interviews are conducted in English
@@ -87,12 +87,10 @@ The AutoML team at Lunit focuses on automating AI product development processes.
 - Up to 12, 000 won is covered for both lunch and dinner when working at the office.
 - Up to 300,000 won is covered upon joining to decorate your personal workspace
 - Provide the latest computer models, such as Macs and 4K monitors, and renew them every three years
-
 - Attending seminars and purchasing books are covered
 - Regular in-house AI and medical seminars are held
 - Korean/English language education is provided for Lunitians who do not speak Korean/English as their first language
 - Access high-quality AI learning resources & deep learning DevOps system
-
 - Up to 1.2 million won worth of benefits points can be claimed annually
 - Korean National holiday gift: Seollal and Chuseok gift/voucher
 - Annual medical checkups and employee accident insurance are provided
