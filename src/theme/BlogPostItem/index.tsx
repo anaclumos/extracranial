@@ -6,6 +6,7 @@ import Giscus from '@site/src/components/Giscus'
 import PostNotice from '@site/src/components/PostNotice'
 
 import { useBlogPost } from '@docusaurus/theme-common/internal'
+import BrowserOnly from '@docusaurus/BrowserOnly'
 
 type Props = WrapperProps<typeof BlogPostItemType>
 
@@ -15,7 +16,7 @@ export default function BlogPostItemWrapper(props: Props): JSX.Element {
     <>
       <PostNotice {...{ metadata }} />
       <BlogPostItem {...props} />
-      <Giscus />
+      <BrowserOnly>{() => <Giscus />}</BrowserOnly>
     </>
   )
 }
