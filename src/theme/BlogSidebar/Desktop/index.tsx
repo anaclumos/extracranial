@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useId } from 'react'
 import clsx from 'clsx'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
@@ -23,6 +23,7 @@ export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
           {sidebar.items.map((item) => (
             <Link
               isNavLink
+              key={useId()}
               to={item.permalink}
               className={styles.sidebarItemLink}
               activeClassName={styles.sidebarItemLinkActive}

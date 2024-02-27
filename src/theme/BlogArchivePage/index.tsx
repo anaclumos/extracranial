@@ -42,8 +42,8 @@ function Year({ year, posts }: YearProp) {
       </h3>
       <ul className={styles.list}>
         {posts.map((post) => (
-          <Link to={post.metadata.permalink}>
-            <li key={useId()}>
+          <Link key={useId()} to={post.metadata.permalink}>
+            <li>
               <Balancer>{post.metadata.title}</Balancer>
             </li>
           </Link>
