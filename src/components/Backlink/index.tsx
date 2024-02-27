@@ -9,8 +9,12 @@ import { translate } from '@docusaurus/Translate'
 type Props = {
   documentTitle: string
 }
+const escapeRegExp = (string) => {
+  // Escapes special characters for use in a regular expression
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
+}
 
-const processBacklinkItem = (text: string, title: string) => {
+const processBacklinkItem = (text, title) => {
   text = text
     .trim()
     .replace(/&/g, '&amp;')
@@ -22,13 +26,16 @@ const processBacklinkItem = (text: string, title: string) => {
   let normalizedTitle = title.normalize('NFC')
   let normalizedText = text.normalize('NFC')
 
+  // Escape special characters in title
+  let escapedTitle = escapeRegExp(normalizedTitle)
+
   try {
     // Replace [[title|display]] with `<b class="${styles.highlight}">${display}</b>` with regex
-    const regex1 = new RegExp(`\\[\\[${normalizedTitle}\\|(.+?)\\]\\]`, 'gi')
+    const regex1 = new RegExp(`\\[\\[${escapedTitle}\\|(.+?)\\]\\]`, 'gi')
     normalizedText = normalizedText.replace(regex1, `<b class="${styles.highlight}">$1</b>`)
 
     // Replace [[title]] with `<b class="${styles.highlight}">${title}</b>` with regex
-    const regex2 = new RegExp(`\\[\\[${normalizedTitle}\\]\\]`, 'gi')
+    const regex2 = new RegExp(`\\[\\[${escapedTitle}\\]\\]`, 'gi')
     normalizedText = normalizedText.replace(regex2, `<b class="${styles.highlight}">${normalizedTitle}</b>`)
 
     // Replace [[other text|display]] with display. other can include spaces
