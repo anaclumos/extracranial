@@ -9,19 +9,18 @@ import YouTube from '@site/src/components/YouTube'
 - [[San Francisco]]와 유사
 - [[Font Features|폰트 피처]]를 일부 지원
 
-## 사용
-
 :::caution
 
-[[Toss]] 팀에서 쓰지 말라고 하셨다. 2021년 중반에 말씀하시길:
+[[Toss]] 팀에서 가급적 사용하지 말아달라고 하셨다. 2021년 중반에 말씀하시길:
 
-> "외부에 공개할 계획은 없습니다. 토스 서체에 대한 자세한 소개는 8월 말에 진행되는 디자인 컨퍼런스에서 공개될 예정이고, 추후에 브랜드 서체를 제작하게 된다면 오픈소스로 개발할 여지도 있다고 하시네요"
-
-비슷한 서체를 찾는다면 [[Pretendard]] 쪽을 확인하자.
-여기에서 "8월 말에 진행되는 디자인 컨퍼런스"는 [Simplicity 21](https://toss.im/simplicity-21)를 의미했다. 아래는 해당 영상.
+> "외부에 공개할 계획은 없습니다. 토스 서체에 대한 자세한 소개는 [8월 말에 진행되는 디자인 컨퍼런스](https://toss.im/simplicity-21)에서 공개될 예정이고, 추후에 브랜드 서체를 제작하게 된다면 오픈소스로 개발할 여지도 있다고 하시네요"
 
 <YouTube id="9R701Rc3rJc"/>
 :::
+
+하지만 그럼에도 오픈 웹에서 사용할 수 있는데, 다음과 같이 사용할 수 있다.
+
+## 사용 방법
 
 ```css
 @import url('https://static.toss.im/tps/main.css');
@@ -31,6 +30,8 @@ import YouTube from '@site/src/components/YouTube'
   font-family: 'Toss Product Sans';
 }
 ```
+
+비슷한 느낌의 오픈서체를 원한다면 [[Pretendard]]를 사용하도록 하자.
 
 ![[6F64BE.png]]
 ![[E0A8DC.png]]
