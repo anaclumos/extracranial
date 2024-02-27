@@ -1,0 +1,16 @@
+/*
+Copyright (c) 2022 Viva Republica, with Reserved Font Name Tossface.
+https://github.com/toss/tossface
+*/
+
+@font-face {
+  font-family: 'Tossface';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./tossface.woff2') format('woff2'),
+    url('./tossface.woff') format('woff'),
+    url('./tossface.ttf') format('truetype');
+  unicode-range: U+00A0-1FAFF;
+}
