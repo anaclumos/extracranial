@@ -5,28 +5,25 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 const Index = () => {
   const { i18n } = useDocusaurusContext()
-
-  // State to manage theme
-  const [theme, setTheme] = useState(() => {
-    // Initial theme based on CSS data-theme or prefers-color-scheme
-    const cssTheme = document.body.getAttribute('data-theme')
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    return cssTheme === 'dark' || prefersDark ? 'black' : 'light'
-  })
+  const [theme, setTheme] = useState('light') // Default theme
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    const themeObserver = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+          const newTheme = document.documentElement.getAttribute('data-theme')
+          setTheme(newTheme === 'dark' ? 'dark' : 'light')
+        }
+      })
+    })
 
-    // Function to update theme based on media query
-    const handleMediaQueryChange = (event) => {
-      setTheme(event.matches ? 'black' : 'light')
-    }
+    // Start observing for theme changes
+    themeObserver.observe(document.documentElement, {
+      attributes: true, // Listen to attribute changes
+    })
 
-    // Add listener for changes using addEventListener
-    mediaQuery.addEventListener('change', handleMediaQueryChange)
-
-    // Remove listener on cleanup using removeEventListener
-    return () => mediaQuery.removeEventListener('change', handleMediaQueryChange)
+    // Clean up observer on component unmount
+    return () => themeObserver.disconnect()
   }, [])
 
   return (
