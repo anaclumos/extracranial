@@ -102,6 +102,21 @@ const config: Config = {
       'data-collect-dnt': 'true',
     },
   ],
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        'http-equiv': 'Permissions-Policy',
+        content: 'interest-cohort=()',
+      },
+    },
+    {
+      tagName: 'noscript',
+      attributes: {},
+      innerHTML:
+        '<img src="https://sa.cho.sh/noscript.gif" alt="SA" collect-dnt=true referrerPolicy="no-referrer-when-downgrade" />',
+    },
+  ],
   markdown: {
     mermaid: true,
   },
