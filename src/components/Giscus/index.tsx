@@ -19,6 +19,7 @@ const index = () => {
         emitMetadata="0"
         inputPosition="top"
         strict="0"
+        loading="lazy"
         lang={i18n.currentLocale}
       />
     </div>
