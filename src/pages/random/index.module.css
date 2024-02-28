@@ -19,8 +19,6 @@
   place-items: center;
   width: 10rem;
   height: 10rem;
-  background-color: var(--ifm-background-color);
-  border-radius: var(--border-radius);
   border: none;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
