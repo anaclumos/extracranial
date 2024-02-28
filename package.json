@@ -91,7 +91,7 @@
     "readme": "cp tools/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md",
     "redirects": "cp _redirects build/_redirects",
     "sanitize": "python3 tools/sanitize.py",
-    "save": "$npm_execpath run clear && $npm_execpath run backlinks && $npm_execpath run sanitize && $npm_execpath run scc && $npm_execpath run readme && $npm_execpath run format && git add . && git commit -m 'wrote something' && git push",
+    "save": "$npm_execpath run clear && $npm_execpath run backlinks && $npm_execpath run sanitize && $npm_execpath run readme && $npm_execpath run scc && $npm_execpath run format && git add . && git commit -m 'wrote something' && git push",
     "scc": "printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
     "serve": "docusaurus serve",
     "ship": "wrangler pages deploy ./build --commit-dirty=true --project-name=memex",
