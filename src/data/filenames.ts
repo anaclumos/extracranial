@@ -1728,6 +1728,7 @@ export const filenames = {
     "Reduced Motion": "D71FFA",
     "Redwood.js": "C822DB",
     "Referral Share": "25B8AD",
+    "Referrals": "{{hex}}",
     "Refine (Framework)": "64D26D",
     "Regression": "E74A5B",
     "Regulation of Fake News": "D8CCF4",

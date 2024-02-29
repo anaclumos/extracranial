@@ -1,6 +1,6 @@
 * {
-  --default: 'LINE Seed', 'SF Pro', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', 'Tossface',
-    'Apple Color Emoji', 'Segoe UI Emoji', system-ui, -system-ui, sans-serif;
+  --default: 'LINE Seed', 'SF Pro', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Pretendard', 'Tossface', 'Apple Color Emoji', 'Segoe UI Emoji', system-ui, -system-ui, sans-serif;
   --font-family-headline: var(--default);
   --ifm-font-family-base: var(--default);
   --ifm-heading-font-family: var(--default);
