@@ -5,7 +5,10 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 const Index = () => {
   const { i18n } = useDocusaurusContext()
-  const [theme, setTheme] = useState('light') // Default theme
+
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+
+  const [theme, setTheme] = useState(prefersDark ? 'dark' : 'light')
 
   useEffect(() => {
     const themeObserver = new MutationObserver((mutations) => {
@@ -17,12 +20,10 @@ const Index = () => {
       })
     })
 
-    // Start observing for theme changes
     themeObserver.observe(document.documentElement, {
-      attributes: true, // Listen to attribute changes
+      attributes: true,
     })
 
-    // Clean up observer on component unmount
     return () => themeObserver.disconnect()
   }, [])
 

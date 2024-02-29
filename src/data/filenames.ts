@@ -1524,6 +1524,7 @@ export const filenames = {
     "One and Only (Social App)": "43A06F",
     "One and Only WebExtension": "CCC365",
     "One and only": "341AD9",
+    "Open Core Models": "{{hex}}",
     "Open Graph Image as a Service": "2531E5",
     "OpenAI": "67EF93",
     "OpenAI enthroned as the Levis of Tech": "35B23B",
