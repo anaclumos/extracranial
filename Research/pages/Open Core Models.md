@@ -5,9 +5,9 @@ slug: '/E9D235'
 
 Can Open Source and Business coexist?
 
-🧵1/ OK, This is interesting. Nodemailer's developer, Andris Reinman, shares his candid journey from open-source idealism to a thriving business with EmailEngine. A tale of lessons, shifts, and success.
+🧵1/ OK, This is interesting. Nodemailer's developer, Andris Reinman, shared his shift from open-source idealism to a thriving business, EmailEngine. A tale of lessons, shifts, and success.
 
-🧵2/ His new approach is the "Open Core Model," used by @ghost and many other successful businesses. I would even say @Nextjs is partially open core, given it's strong ties to the @vercel framework.
+🧵2/ His new approach is the Open Core Model. You offer a core version of a software open-source, while additional services (such as hosted services) are paid offerings. I would even say @nextjs is partially open-core, given its strong ties to the @vercel framework.
 
 🧵3/ Starting with a radical open-source ethos, Andris prioritized reach over revenue, using permissive licenses for projects like Nodemailer. A noble yet financially unrewarding path.
 
