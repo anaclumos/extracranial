@@ -26,4 +26,36 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Thu Feb 29 14:08:01 PST 2024
+Thu Feb 29 14:34:00 PST 2024
+
+## Stats
+
+```
+───────────────────────────────────────────────────────────────────────────────
+Language                 Files     Lines   Blanks  Comments     Code Complexity
+───────────────────────────────────────────────────────────────────────────────
+Markdown                  2418     60961    16040         0    44921          0
+CSS                         69     20213      771        38    19404          0
+TypeScript                  62     20134      287        88    19759        195
+JSON                        16      1669        0         0     1669          0
+SVG                          9         9        0         0        9          0
+YAML                         9     17423     1878         0    15545          0
+Python                       8       885       60        33      792         97
+Plain Text                   3       103       18         0       85          0
+TypeScript Typings           2        15        1         4       10          0
+Dockerfile                   1        10        0         0       10          1
+INI                          1         1        0         0        1          0
+JavaScript                   1        19        3        12        4          0
+TOML                         1         3        0         0        3          0
+gitignore                    1       288       69        69      150          0
+───────────────────────────────────────────────────────────────────────────────
+Total                     2601    121733    19127       244   102362        293
+───────────────────────────────────────────────────────────────────────────────
+Estimated Cost to Develop (organic) $3,485,306
+Estimated Schedule Effort (organic) 22.10 months
+Estimated People Required (organic) 14.01
+───────────────────────────────────────────────────────────────────────────────
+Processed 5765918 bytes, 5.766 megabytes (SI)
+───────────────────────────────────────────────────────────────────────────────
+
+```
