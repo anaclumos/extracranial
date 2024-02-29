@@ -1,2 +1,4 @@
-@import url('../../static/fonts/Pretendard/pretendard-subset.css');
-@import url('https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css');
+/* @import url('pretendard/pretendard.css'); */
+@import url('toss/tossface.css');
+@import url('line/seed.css');
+@import url('jetbrains-mono/jetbrains-mono.css');
