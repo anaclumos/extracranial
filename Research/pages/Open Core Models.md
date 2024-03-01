@@ -28,3 +28,5 @@ Can Open Source and Business coexist?
 🧵11/ A journey from open-source purism to profitable business, Andris Reinman's experience with EmailEngine is a playbook for developers navigating the complex path from passion to livelihood.
 
 🧵/End: Andris's tale underscores the importance of flexibility, strategic shifts, and the courage to monetize one's hard work. A valuable lesson for open-source developers everywhere.
+
+[How I turned my open-source project into a business](https://docs.emailengine.app/how-i-turned-my-open-source-project-into/)
