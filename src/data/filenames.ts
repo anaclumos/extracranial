@@ -1543,7 +1543,7 @@ export const filenames = {
     "P2P": "21B9AF",
     "PARA": "B4364B",
     "PDF": "21FF82",
-    "PDF OCR": "{{hex}}",
+    "PDF OCR": "50FAD6",
     "PECR": "5CB3B0",
     "PKM": "E9DD55",
     "PNG": "C53294",
