@@ -1,6 +1,5 @@
 .graphView {
   font-family: var(--font-family-sans-serif) !important;
-  background-color: #1f1f1f;
 }
 
 .mainContainer {
@@ -8,5 +7,4 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #1f1f1f;
 }
