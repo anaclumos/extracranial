@@ -1,9 +1,14 @@
 ---
 lang: 'en'
 slug: '/1DEEA3'
+aliases: ['PIRI']
 ---
 
 # Project PIRI 🪈: Performant & Interoperable Rendering Infrastructure
+
+## [[2024-02-29]]
+
+[blog.scottlogic.com/2020/11/23/ffmpeg-webassembly.html](https://blog.scottlogic.com/2020/11/23/ffmpeg-webassembly.html)
 
 ## [[2024-02-24]]
 
