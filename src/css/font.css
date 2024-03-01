@@ -1,3 +1,8 @@
+@import url('../../static/fonts/pretendard/pretendard.css');
+@import url('../../static/fonts/jetbrains-mono/jetbrains-mono.css');
+@import url('../../static/fonts/line/seed.css');
+@import url('../../static/fonts/toss/tossface.css');
+
 * {
   --default: 'LINE Seed', 'SF Pro', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
     'Pretendard', 'Tossface', 'Apple Color Emoji', 'Segoe UI Emoji', system-ui, -system-ui, sans-serif;
