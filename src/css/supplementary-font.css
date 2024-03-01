@@ -1,4 +1,4 @@
-/* @import url('pretendard/pretendard.css'); */
-@import url('toss/tossface.css');
-@import url('line/seed.css');
-@import url('jetbrains-mono/jetbrains-mono.css');
+@import url('../../static/fonts/pretendard/pretendard.css');
+@import url('../../static/fonts/jetbrains-mono/jetbrains-mono.css');
+@import url('../../static/fonts/line/seed.css');
+@import url('../../static/fonts/toss/tossface.css');
