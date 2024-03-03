@@ -1529,7 +1529,7 @@ export const filenames = {
     "One and only": "341AD9",
     "Open Core Models": "E9D235",
     "Open Graph Image as a Service": "2531E5",
-    "Open Source vs Source Available": "{{hex}}",
+    "Open Source vs Source Available": "9DE21D",
     "OpenAI": "67EF93",
     "OpenAI enthroned as the Levis of Tech": "35B23B",
     "OpenAI가 새로운 테크 리바이스로 등극하다": "EAE738",
