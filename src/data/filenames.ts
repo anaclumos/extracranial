@@ -811,7 +811,7 @@ export const filenames = {
     "CS Colloquium": "6CF6CB",
     "CS572 Search Engines": "46F65C",
     "CS576 Multimedia Design": "A21E48",
-    "CS585 Database Systems": "{{hex}}",
+    "CS585 Database Systems": "DB130F",
     "CSS": "D4ECCD",
     "CSS Inject": "6F4A43",
     "CSS Scroll Snapping": "E3984C",
