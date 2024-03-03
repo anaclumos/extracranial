@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/D91B80'
 ---
 
+Copilot but instead of giving you the code block, gives you step-by-step instructions
+
 - antipilot
 - [[Copilot]] looks like increasing your productivity, but it
   - deteriorates your thinking powers
