@@ -1,8 +1,13 @@
 ---
 lang: 'en'
-slug: '/7442D2'
+slug: '/1F2C2C'
 ---
 
+- [tremorlabs/tremor: The react library to build dashboards fast.](https://github.com/tremorlabs/tremor)
+- [IconBrew - open source icon pack/set!](https://iconbrew.com/)
+- [Encryption Infrastructure — Evervault](https://evervault.com/)
+- [[WasmEdge]]
+- [Nue: The content-first web framework](https://nuejs.org/)
 - [plausible/analytics](https://github.com/plausible/analytics): Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics [[alternative]] to [[Google Analytics]].
 - [medusajs/medusa](https://github.com/medusajs/medusa): The open-source Shopify [[alternative]] ⚡
 - [boxyhq/jackson](https://github.com/boxyhq/jackson): SAML Jackson: A SAML SSO service designed as an OAuth 2.0 or OpenID Connect flow. Integrate SAML with just a few lines of code. Demo - https://saml-demo.boxyhq.com
