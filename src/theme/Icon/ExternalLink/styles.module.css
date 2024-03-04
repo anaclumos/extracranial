@@ -1,7 +1,4 @@
-.iconExternalLink {
-  margin-left: 0.3rem;
-}
-
 .iconExternalLink::after {
   content: '↗';
+  font-size: small;
 }
