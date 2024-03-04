@@ -6,6 +6,12 @@ aliases: ['PIRI']
 
 # Project PIRI 🪈: Performant & Interoperable Rendering Infrastructure
 
+## [[2024-03-04]]
+
+- [Wowza Flowplayer - the smallest, most flexible online video player](https://flowplayer.com/)
+- [Build FFmpeg WebAssembly version (= ffmpeg.wasm): Part.1 Preparation | TechBlog](https://jeromewu.github.io/build-ffmpeg-webassembly-version-part-1-preparation/)
+- [Build FFmpeg WebAssembly version (= ffmpeg.wasm): Part.2 Compile with Emscripten | TechBlog](https://jeromewu.github.io/build-ffmpeg-webassembly-version-part-2-compile-with-emscripten/)
+
 ## [[2024-02-29]]
 
 [blog.scottlogic.com/2020/11/23/ffmpeg-webassembly.html](https://blog.scottlogic.com/2020/11/23/ffmpeg-webassembly.html)
