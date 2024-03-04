@@ -1,7 +1,10 @@
 ---
 lang: 'en'
-slug: '/A1E110'
+slug: '/3485AD'
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Lost Futures: A 19th-Century Vision of the Year 2000
 
@@ -34,140 +37,140 @@ These somewhat prescient scenes did not see the light of day until their future 
 </TabItem>
 </Tabs>
 
-![[00001.jpg]]
+![[3137FC.jpg]]
 
-![[00002.jpg]]
+![[8ABB30.jpg]]
 
-![[00003.jpg]]
+![[FE53DA.jpg]]
 
-![[00004.jpg]]
+![[A959E3.jpg]]
 
-![[00005.jpg]]
+![[3F1FD1.jpg]]
 
-![[00006.jpg]]
+![[94C66F.jpg]]
 
-![[00007.jpg]]
+![[EF6613.jpg]]
 
-![[00008.jpg]]
+![[6D3DEE.jpg]]
 
-![[00009.jpg]]
+![[B51499.jpg]]
 
-![[00010.jpg]]
+![[8D3998.jpg]]
 
-![[00011.jpg]]
+![[B8F9A3.jpg]]
 
-![[00012.jpg]]
+![[E18473.jpg]]
 
-![[00013.jpg]]
+![[7B45DE.jpg]]
 
-![[00014.jpg]]
+![[AA8E67.jpg]]
 
-![[00015.jpg]]
+![[C83BB7.jpg]]
 
-![[00016.jpg]]
+![[4244CE.jpg]]
 
-![[00017.jpg]]
+![[C52EEE.jpg]]
 
-![[00018.jpg]]
+![[E1E215.jpg]]
 
-![[00019.jpg]]
+![[743CAF.jpg]]
 
-![[00020.jpg]]
+![[BCF36E.jpg]]
 
-![[00021.jpg]]
+![[2AF3C0.jpg]]
 
-![[00022.jpg]]
+![[E91F6A.jpg]]
 
-![[00023.jpg]]
+![[9C93A0.jpg]]
 
-![[00024.jpg]]
+![[134BDF.jpg]]
 
-![[00025.jpg]]
+![[E18CF4.jpg]]
 
-![[00026.jpg]]
+![[3426BD.jpg]]
 
-![[00027.jpg]]
+![[90E2E3.jpg]]
 
-![[00028.jpg]]
+![[DEF862.jpg]]
 
-![[00029.jpg]]
+![[FF2C43.jpg]]
 
-![[00030.jpg]]
+![[BB25C2.jpg]]
 
-![[00031.jpg]]
+![[DA1AEF.jpg]]
 
-![[00032.jpg]]
+![[DF059B.jpg]]
 
-![[00033.jpg]]
+![[18CACD.jpg]]
 
-![[00034.jpg]]
+![[9EFBC4.jpg]]
 
-![[00035.jpg]]
+![[A4603A.jpg]]
 
-![[00036.jpg]]
+![[4A193B.jpg]]
 
-![[00037.jpg]]
+![[80AC33.jpg]]
 
-![[00038.jpg]]
+![[F88627.jpg]]
 
-![[00039.jpg]]
+![[5C89BC.jpg]]
 
-![[00040.jpg]]
+![[CEC344.jpg]]
 
-![[00041.jpg]]
+![[EA6AFD.jpg]]
 
-![[00042.jpg]]
+![[78F80D.jpg]]
 
-![[00043.jpg]]
+![[B1FDA3.jpg]]
 
-![[00044.jpg]]
+![[A60701.jpg]]
 
-![[00045.jpg]]
+![[F2E3FC.jpg]]
 
-![[00046.jpg]]
+![[E92B89.jpg]]
 
-![[00047.jpg]]
+![[F58646.jpg]]
 
-![[00048.jpg]]
+![[D26D11.jpg]]
 
-![[00049.jpg]]
+![[D14BF0.jpg]]
 
-![[00050.jpg]]
+![[C36C3E.jpg]]
 
-![[00051.jpg]]
+![[C5520C.jpg]]
 
-![[00052.jpg]]
+![[248249.jpg]]
 
-![[00053.jpg]]
+![[BB31C1.jpg]]
 
-![[00054.jpg]]
+![[C6DAE5.jpg]]
 
-![[00055.jpg]]
+![[F97031.jpg]]
 
-![[00056.jpg]]
+![[B9D5AC.jpg]]
 
-![[00057.jpg]]
+![[938B85.jpg]]
 
-![[00058.jpg]]
+![[62AA66.jpg]]
 
-![[00059.jpg]]
+![[2AA4C2.jpg]]
 
-![[00060.jpg]]
+![[5CD414.jpg]]
 
-![[00061.jpg]]
+![[D24160.jpg]]
 
-![[00062.jpg]]
+![[4437C0.jpg]]
 
-![[00063.jpg]]
+![[B6B2F5.jpg]]
 
-![[00064.jpg]]
+![[39B59A.jpg]]
 
-![[00065.jpg]]
+![[5C5E42.jpg]]
 
-![[00066.jpg]]
+![[55A239.jpg]]
 
-![[00067.jpg]]
+![[AF91C2.jpg]]
 
-![[00068.jpg]]
+![[1EF2AB.jpg]]
 
-![[00069.jpg]]
+![[81E841.jpg]]
