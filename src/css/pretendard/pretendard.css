@@ -11,7 +11,7 @@ http://scripts.sil.org/OFL
   font-family: 'Pretendard';
   font-weight: 900;
   font-display: swap;
-  unicode-range: U+AC00-D7AF, U+0000-007F;
+  unicode-range: U+AC00-D7AF, U+0000-007F, U+2190-21FF;
   src:
     local('Pretendard Black'),
     url('./woff2-subset/Pretendard-Black.subset.woff2') format('woff2'),
@@ -22,7 +22,7 @@ http://scripts.sil.org/OFL
   font-family: 'Pretendard';
   font-weight: 800;
   font-display: swap;
-  unicode-range: U+AC00-D7AF, U+0000-007F;
+  unicode-range: U+AC00-D7AF, U+0000-007F, U+2190-21FF;
   src:
     local('Pretendard ExtraBold'),
     url('./woff2-subset/Pretendard-ExtraBold.subset.woff2') format('woff2'),
@@ -33,7 +33,7 @@ http://scripts.sil.org/OFL
   font-family: 'Pretendard';
   font-weight: 700;
   font-display: swap;
-  unicode-range: U+AC00-D7AF, U+0000-007F;
+  unicode-range: U+AC00-D7AF, U+0000-007F, U+2190-21FF;
   src:
     local('Pretendard Bold'),
     url('./woff2-subset/Pretendard-Bold.subset.woff2') format('woff2'),
@@ -44,7 +44,7 @@ http://scripts.sil.org/OFL
   font-family: 'Pretendard';
   font-weight: 600;
   font-display: swap;
-  unicode-range: U+AC00-D7AF, U+0000-007F;
+  unicode-range: U+AC00-D7AF, U+0000-007F, U+2190-21FF;
   src:
     local('Pretendard SemiBold'),
     url('./woff2-subset/Pretendard-SemiBold.subset.woff2') format('woff2'),
@@ -55,7 +55,7 @@ http://scripts.sil.org/OFL
   font-family: 'Pretendard';
   font-weight: 500;
   font-display: swap;
-  unicode-range: U+AC00-D7AF, U+0000-007F;
+  unicode-range: U+AC00-D7AF, U+0000-007F, U+2190-21FF;
   src:
     local('Pretendard Medium'),
     url('./woff2-subset/Pretendard-Medium.subset.woff2') format('woff2'),
@@ -66,7 +66,7 @@ http://scripts.sil.org/OFL
   font-family: 'Pretendard';
   font-weight: 400;
   font-display: swap;
-  unicode-range: U+AC00-D7AF, U+0000-007F;
+  unicode-range: U+AC00-D7AF, U+0000-007F, U+2190-21FF;
   src:
     local('Pretendard Regular'),
     url('./woff2-subset/Pretendard-Regular.subset.woff2') format('woff2'),
@@ -77,7 +77,7 @@ http://scripts.sil.org/OFL
   font-family: 'Pretendard';
   font-weight: 300;
   font-display: swap;
-  unicode-range: U+AC00-D7AF, U+0000-007F;
+  unicode-range: U+AC00-D7AF, U+0000-007F, U+2190-21FF;
   src:
     local('Pretendard Light'),
     url('./woff2-subset/Pretendard-Light.subset.woff2') format('woff2'),
@@ -88,7 +88,7 @@ http://scripts.sil.org/OFL
   font-family: 'Pretendard';
   font-weight: 200;
   font-display: swap;
-  unicode-range: U+AC00-D7AF, U+0000-007F;
+  unicode-range: U+AC00-D7AF, U+0000-007F, U+2190-21FF;
   src:
     local('Pretendard ExtraLight'),
     url('./woff2-subset/Pretendard-ExtraLight.subset.woff2') format('woff2'),
@@ -99,7 +99,7 @@ http://scripts.sil.org/OFL
   font-family: 'Pretendard';
   font-weight: 100;
   font-display: swap;
-  unicode-range: U+AC00-D7AF, U+0000-007F;
+  unicode-range: U+AC00-D7AF, U+0000-007F, U+2190-21FF;
   src:
     local('Pretendard Thin'),
     url('./woff2-subset/Pretendard-Thin.subset.woff2') format('woff2'),
