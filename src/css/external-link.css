@@ -42,8 +42,8 @@ a:has(i)::before {
 
 article a[href^='http']::before {
   background-color: var(--linkflags-color);
-  height: 1.25em;
-  width: 1.25em;
+  height: 1em;
+  width: 1em;
   margin: 0 0.2em 0.2em 0.1em;
   display: inline-block;
   vertical-align: middle !important;
@@ -52,6 +52,7 @@ article a[href^='http']::before {
 
 article a[href^='http']::after {
   content: '↗';
+  font-size: small;
 }
 
 article a[href*='cho.sh']::before {
