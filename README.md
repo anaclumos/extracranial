@@ -26,7 +26,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Sun Mar 3 23:57:13 PST 2024
+Mon Mar 4 12:27:22 PST 2024
 
 ## Stats
 
@@ -34,9 +34,9 @@ Sun Mar 3 23:57:13 PST 2024
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2425     61798    16222         0    45576          0
-CSS                         67     20118      762        37    19319          0
-TypeScript                  62     20166      287        88    19791        195
+Markdown                  2427     61981    16308         0    45673          0
+CSS                         67     20116      761        37    19318          0
+TypeScript                  62     20378      287        88    20003        195
 JSON                        16      1669        0         0     1669          0
 SVG                          9         9        0         0        9          0
 YAML                         9     17423     1878         0    15545          0
@@ -49,13 +49,13 @@ JavaScript                   1        19        3        12        4          0
 TOML                         1         3        0         0        3          0
 gitignore                    1       288       69        69      150          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2606    122507    19300       243   102964        293
+Total                     2608    122900    19385       243   103272        293
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,506,832
-Estimated Schedule Effort (organic) 22.16 months
-Estimated People Required (organic) 14.06
+Estimated Cost to Develop (organic) $3,517,847
+Estimated Schedule Effort (organic) 22.18 months
+Estimated People Required (organic) 14.09
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5805002 bytes, 5.805 megabytes (SI)
+Processed 5819186 bytes, 5.819 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
