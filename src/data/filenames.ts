@@ -1581,6 +1581,7 @@ export const filenames = {
     "Perceptual Hashing": "E6617C",
     "Person 1B5A5B": "1B5A5B",
     "Person 1E6ABA": "1E6ABA",
+    "Person 2476E6": "2476E6",
     "Person 392196": "392196",
     "Person 431D6C": "431D6C",
     "Person 4460DA": "4460DA",
