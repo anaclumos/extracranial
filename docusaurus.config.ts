@@ -54,6 +54,9 @@ const config: Config = {
           if (existingPath.includes('/blog') || existingPath.includes('/research')) {
             return [existingPath.replace('/blog/', '/w/'), existingPath.replace('/research/', '/r/')]
           }
+          if (existingPath === '/r') {
+            return ['/r/000000']
+          }
           return undefined
         },
       },

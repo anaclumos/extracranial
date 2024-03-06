@@ -1,7 +1,7 @@
 ---
 title: 'Hey 👋🏻'
 lang: 'en'
-slug: '/'
+slug: '/000000'
 ---
 
 ## Welcome!
