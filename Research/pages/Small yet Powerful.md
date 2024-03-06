@@ -23,3 +23,7 @@ Small teams are mighty.<br/><br/>13 people built Instagram to $1B acquisition<br
 </p>
 &mdash; Dani Grant (@thedanigrant) <a href="https://twitter.com/thedanigrant/status/1720094648084164664?ref_src=twsrc%5Etfw">November 2, 2023</a>
 </blockquote>
+
+[[한민족의 멸종 방어]]
+
+[[強力反權|강력반권]]

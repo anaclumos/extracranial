@@ -25,3 +25,5 @@ Here, winning means not to outpower completely but to attain a competitive edge 
 </div>
 </TabItem>
 </Tabs>
+
+[[한민족의 멸종 방어]]

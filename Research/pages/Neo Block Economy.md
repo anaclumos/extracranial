@@ -10,3 +10,5 @@ aliases: ['신블록경제', '블록경제']
 
 - The father of [[대만|Taiwan]]'s chip industry said geopolitics have drastically changed the situation facing semiconductor makers and warned that "globalization and free trade are almost dead" and unlikely to come back
 - Globalization is almost dead, and free trade is practically dead. A lot of people still wish they would come back, but I don't think they will be back
+
+[[한민족의 멸종 방어]]
