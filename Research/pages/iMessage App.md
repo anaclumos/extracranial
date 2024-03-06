@@ -32,3 +32,14 @@ An [[iMessage]] App is a type of application within [[Apple]]'s Messages app tha
 </div>
 </TabItem>
 </Tabs>
+
+```swift
+override func didBecomeActive(with conversation: MSConversation)
+	super.didBecomeActive(with: conversation)
+	if let message = conversation.selectedMessage {
+		updateUiForSelectedMessage(message)
+	} else {
+		updateUiForManualOpening()
+	}
+}
+```

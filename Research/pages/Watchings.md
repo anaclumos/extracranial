@@ -25,10 +25,12 @@ import Shuffle from '@site/src/components/Shuffle'
 - [[Neon Genesis Evangelion]]
 - The End of Evangelion
 - [[J. Robert Oppenheimer|Oppenheimer]]
-- [[Barbie]]
+- Barbie
 - 마스크걸
 - 무빙
 - 데블스플랜
 - 발레리나 (넷플릭스)
+- The Boys [[The U.S. is Homelander]]
+- [[Avatar The Last Airbender]]
 
 </Shuffle>
