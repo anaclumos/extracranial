@@ -41,8 +41,7 @@ const navbar = {
           label: 'Graph',
         },
         {
-          type: 'doc',
-          docId: 'Hey',
+          to: '/r/000000',
           label: "What's this?",
         },
       ],
