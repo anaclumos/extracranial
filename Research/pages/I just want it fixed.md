@@ -12,3 +12,5 @@ I don't care who made this terrible fault.
 I don't care who we want to blame and witch hunt.
 I don't care.
 I want it fixed.
+
+[[한민족의 멸종 방어]]
