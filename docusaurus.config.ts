@@ -65,10 +65,9 @@ const config: Config = {
   stylesheets: [
     katexStylesheet,
     {
-      href: '/font/toss/tossface.css',
+      href: 'https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css',
       type: 'text/css',
     },
-
     {
       href: '/font/pretendard/pretendard.css',
       type: 'text/css',
