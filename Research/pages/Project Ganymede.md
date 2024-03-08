@@ -12,6 +12,12 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - Callisto is the code name for MessagesExtension
 - Europa is the code name for Encryption Key Exchange Server
 
+## [[2024-03-07]]
+
+![[E13EA3.gif]]
+
+Rewriting Callisto with UIKit. Primarily because of the extensive jumble mess with SwiftUI.
+
 ## [[2024-02-10]]
 
 Restored server with [[FlightControl]]
