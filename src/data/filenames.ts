@@ -773,7 +773,7 @@ export const filenames = {
     "Blind Illness": "BD1F4B",
     "Blitzscaling": "885578",
     "Block Protocol": "46A1F1",
-    "Block Screenshots in iOS": "{{hex}}",
+    "Block Screenshots in iOS": "8AFCA7",
     "Blockchain": "E360C6",
     "Bloomberg": "F499B9",
     "Bloomberg Terminal": "FCCA11",

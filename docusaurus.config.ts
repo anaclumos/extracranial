@@ -7,7 +7,6 @@ import katexStylesheet from './config/katex.stylesheet'
 import navbar from './config/navbar.config'
 
 const config: Config = {
-  
   title: 'Sunghyun Cho',
   tagline: 'I am Sunghyun Cho, traveling the WWW.',
   titleDelimiter: '@',
@@ -63,17 +62,18 @@ const config: Config = {
       },
     ],
   ],
-  stylesheets: [katexStylesheet, {
-    href: '/font/toss/tossface.css',
-    type: 'text/css',
-  },
+  stylesheets: [
+    katexStylesheet,
+    {
+      href: '/font/toss/tossface.css',
+      type: 'text/css',
+    },
 
-  {
-    href: '/font/pretendard/pretendard.css',
-    type: 'text/css',
-  }
-
-],
+    {
+      href: '/font/pretendard/pretendard.css',
+      type: 'text/css',
+    },
+  ],
   themeConfig: {
     algolia: {
       appId: 'YYIGMBHSI6',
