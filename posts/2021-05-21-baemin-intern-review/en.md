@@ -43,6 +43,7 @@ I was also curious about the competition ratio, and [according to what I learned
 - Study Keywords: Node.js, JS OOP, Asynchronous Programming, Async Cafe, HTTP Specification, HTTP Basics.  
 - [Our Team's GitHub](https://github.com/woowa-techcamp-2020/anaclumos-yuda1124-sooojungee-learn-node)  
 - [My Blog Post](/ko/r/940821)
+
 <figure>
 <DisplayFlex>
 ![ALT: Luther Hall 3](F63DD7.jpeg)  
@@ -50,6 +51,7 @@ I was also curious about the competition ratio, and [according to what I learned
 ![ALT: Luther Hall 1](7CE6C6.jpeg)
 </DisplayFlex>
 <figcaption>
+  
 **Small House** where the orientation took place. Located in Jamsil.
 </figcaption>  
 </figure>
@@ -146,13 +148,14 @@ async function addActivityLogToActivityLogList() {
 ```
 The original code can be found [here](https://github.com/woowa-techcamp-2020/todo-8/blob/develop/frontEnd/src/app.js#L141-L156).
 > Uh - this is not in a state to be reviewed. Who wrote this? Let's have a talk.
+
 This was the feedback on my code that was randomly selected to be shown on the screen during the code review session on Friday afternoon, July 25th, at the end of the 2nd project. At the time, I thought I had overcome the extreme time pressure quite well and created a well-functioning page. However, receiving such direct criticism left me in a state of shock. It's not well conveyed in writing, but the atmosphere was truly frozen.
 On the train ride home that day, I had countless thoughts. After calming my mind for a moment and thinking about it, I realized that if it had been a camp where they just said, "Okay, okay~ We all did well and worked hard~", it wouldn't have been a good camp. Just as a good workbook should have problems that you get wrong. So I decided to make the most of what I was relatively good at and absorb as much as I could learn during the remaining month.
 Juniors interested in studying programming often hear things like "clean code, good patterns". However, **the problem is that from a beginner's perspective, hearing these things mechanically too often leads to unconsciously repeating them as if memorizing them**, without having a realistic sense of what level is actually good. Looking back at the code above,
 - The code is doing two tasks simultaneously. ① Fetching information and ② displaying information. In this case, the code becomes highly dependent. High dependency can lead to major surgery when part of the code needs to be replaced later.  
 - Overall, the logic and view are mixed in the file, and readability is poor.
 Based on the advice, from the 3rd project onwards, I paid a lot of attention to these development patterns. I did a mini-project with a part of the 3rd project, and you can probably get a sense of what it's like.
-- [Creating a Calendar with Vanilla JS @](/ko/w/F522B3)
+- [Creating a Calendar with Vanilla JS](/ko/w/F522B3)
 ### 🛷 Dunning-Kruger Sledding
 It may be a bit cliché, but I was able to directly experience the **peak of ignorance**. Of course, I never thought I knew everything completely, but since I had experience with various JavaScript projects, I dared to think, "Of course I'll have to work hard, but **wouldn't I be able to keep up to some extent without too much difficulty?**"
 ![I don't know anything about JS. I'm just a talking potato. You know what I mean?](6B271D.jpg)
@@ -170,10 +173,10 @@ Sometimes frameworks and libraries are treated like alien technology. Of course,
 In particular, the underlying technology of web libraries is Plain JavaScript that we can also use. Rather than blindly relying on external libraries, it was continuously emphasized throughout the camp that we need to know how that library works and what potential risk factors exist. In other words, in case of necessity, you should study carefully enough to be able to implement a library in a similar form.
 
 > Libraries are Terran 🧑‍🔧 technology, not Protoss 👽 technology.
-> One example is the [left-pad incident](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm) that occurred in 2016. An 11-line library called
-> `left-pad` was removed from npm, and as a result, the dependency chain collapsed like dominoes, rendering the `babel` transpiler unusable. If you think about it, wasn't this problem also caused by excessive reliance on simple code that could be written quickly?
 
-## From the perspective of a hobby developer, you might think, "Huh? Babel is a really reliable library used by hundreds of thousands of people. I should focus on the safety of my own code instead of worrying about that." However, for a company that suffers enormous financial losses even if the service is down for just 30 minutes, this consideration is essential. In other words, libraries are not unknowable alien technology, nor are they something we should pray to, and we should keep in mind that they are also services that can be damaged at any time.
+One example is the [left-pad incident](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm) that occurred in 2016. An 11-line library called `left-pad` was removed from npm, and as a result, the dependency chain collapsed like dominoes, rendering the `babel` transpiler unusable. If you think about it, wasn't this problem also caused by excessive reliance on simple code that could be written quickly?
+
+From the perspective of a hobby developer, you might think, "Huh? Babel is a really reliable library used by hundreds of thousands of people. I should focus on the safety of my own code instead of worrying about that." However, for a company that suffers enormous financial losses even if the service is down for just 30 minutes, this consideration is essential. In other words, libraries are not unknowable alien technology, nor are they something we should pray to, and we should keep in mind that they are also services that can be damaged at any time.
 
 ## 🥳 Fun Experiences
 
@@ -203,11 +206,16 @@ In terms of the design mindset of a front-end developer, I was greatly influence
 
 - [woowa-techcamp-2020/market-6](https://github.com/woowa-techcamp-2020/market-6)
 - [woowa-techcamp-2020/todo-14](https://github.com/woowa-techcamp-2020/todo-14)
-  Greatly influenced, I also tried improving the design from the 3rd Bank Salad project. This is how I completely modified the design ↓
-  ![The provided household ledger design draft. This draft is just a starting point, and it's entirely up to the camp participants to unleash their creativity from here.](31E2FF.png)
-  ![I realized design is a more fun task than I thought (quite satisfied)](E524D3.png)
-  In my opinion, the advantages of my design are ① it makes full use of the wide screen by dividing and arranging the screen elements into 3 columns, and ② the activity log window on the right operates independently, so the contents of the right window are maintained even when freely moving to the calendar, statistics, and payment method management. Kind of like Slack?
-  In addition, there was an overflow of things to learn, such as [naamoonoo](https://github.com/naamoonoo) who [created a pseudo-React with vanilla JavaScript](https://velog.io/@naamoonoo/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%94%B0%EB%9D%BC%ED%95%98%EB%A0%A4%EB%8B%A4-%EB%B0%94%EC%A7%93%EA%B0%80%EB%9E%91%EC%9D%B4-%EC%B0%A2%EC%96%B4%EC%A7%84-%EC%9D%B4%EC%95%BC%EA%B8%B0-2%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0), [pigrabbit](https://github.com/pigrabbit) who completed Elastic Search over the weekend, [dnacu](https://github.com/dnacu) who handled React as comfortably as breathing, [younho9](https://github.com/younho9) who quickly implemented the SPA structure and singleton pattern with just JS, [0407chan](https://github.com/0407chan) who systematically implemented the data access strategy, [Jenny](https://github.com/eunjung-jenny) who finished the design structure overnight, and more.
+
+Greatly influenced, I also tried improving the design from the 3rd Bank Salad project. This is how I completely modified the design ↓
+
+![The provided household ledger design draft. This draft is just a starting point, and it's entirely up to the camp participants to unleash their creativity from here.](31E2FF.png)
+
+![I realized design is a more fun task than I thought (quite satisfied)](E524D3.png)
+
+In my opinion, the advantages of my design are ① it makes full use of the wide screen by dividing and arranging the screen elements into 3 columns, and ② the activity log window on the right operates independently, so the contents of the right window are maintained even when freely moving to the calendar, statistics, and payment method management. Kind of like Slack?
+
+In addition, there was an overflow of things to learn, such as [naamoonoo](https://github.com/naamoonoo) who [created a pseudo-React with vanilla JavaScript](https://velog.io/@naamoonoo/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%94%B0%EB%9D%BC%ED%95%98%EB%A0%A4%EB%8B%A4-%EB%B0%94%EC%A7%93%EA%B0%80%EB%9E%91%EC%9D%B4-%EC%B0%A2%EC%96%B4%EC%A7%84-%EC%9D%B4%EC%95%BC%EA%B8%B0-2%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0), [pigrabbit](https://github.com/pigrabbit) who completed Elastic Search over the weekend, [dnacu](https://github.com/dnacu) who handled React as comfortably as breathing, [younho9](https://github.com/younho9) who quickly implemented the SPA structure and singleton pattern with just JS, [0407chan](https://github.com/0407chan) who systematically implemented the data access strategy, [Jenny](https://github.com/eunjung-jenny) who finished the design structure overnight, and more.
 
 ---
 
