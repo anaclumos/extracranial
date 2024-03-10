@@ -292,5 +292,7 @@ In terms of the design mindset of a front-end developer, I was greatly influence
   - Miranda (sitcom)
   - MBC Infinite Challenge
   - StarCraft II: Legacy of the Void Opening Cinematic
-  </details>
-  ![The End!](976A54.jpg)
+
+</details>
+
+![The End!](976A54.jpg)
