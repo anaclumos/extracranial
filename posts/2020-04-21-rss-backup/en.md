@@ -1,64 +1,63 @@
 ---
-title: 'Backing up your RSS feed 📼'
+title: 'Backup Everything at Once with RSS 📼'
 date: 2020-04-21
 authors: anaclumos
 slug: '/21E029'
 ---
 
-My Ghost blog is not serverless. The server is maintained despite the need for continuous management because there are numerous advantages of blogging through the server. However, managing a blog through a server has one huge drawback. If the server crashes, it will be challenging to restore the text inside. There will be many more texts and photos in the future, but it would be too cumbersome to copy and back up each time. So I wanted to come up with a plan to improve this.
+My Ghost blog is not serverless. Although it requires continuous management, there are many advantages to operating a blog through a server. However, managing a blog through a server has one major drawback. If the server crashes, it becomes very difficult to restore the posts stored inside. I thought it would be too cumbersome to manually copy and backup each post and photo as the amount of content increases in the future. I wanted to come up with a solution to improve this situation.
 
-## Problems with Ghost's built-in backup
+## Problems with Ghost's Built-in Backup
 
-Ghost provides a function to download a blog backup file in `.json` format. Everything that can be set in Ghost is backed up as it is, including the author's name, used tags, the content and structure of the article, the time the article was uploaded, and the summary in the HTML meta tag.
+Ghost provides a feature to download a blog backup file in `.json` format. It's like a complete **copy of the blog's soul**. Everything that can be set within Ghost, such as the author's name, tags used, post content and format, upload time, and even the summary in the HTML meta tags, is backed up as is.
 
-But there are two problems.
+However, there are two problems.
 
-- Ghost built-in backup files are complex for humans to read. It is not only Minified JSON but also contains a lot of information, so the file structure is complicated, and the text is compressed.
-- Also, Ghost's built-in backup does not back up photos. Therefore, when you restore the blog, all photo files are "not found" (aka **Xbox**). It is fortunate if the blog server is alive or there are copied photos, but there may be cases where I cannot restore the images.
+- Ghost's built-in backup files are difficult for humans to read. Not only are they minified JSON, but the file structure is also complex due to the vast amount of information it contains, and the posts are compressed.
+- Also, Ghost's built-in backup does not back up photos. Therefore, when restoring the blog, all photo files will display "not found" (commonly known as **broken images**). If the blog server is alive or you have copied photos, you're in luck, but there may be cases where photos cannot be restored.
 
-## target
+## Goals
 
-### main goal
+### Main Goal
 
-- You must back up all text and photos.
+- Both posts and photos should be backed up.
 
-### Bonus Goal
+### Bonus Goals
 
-- Must be in a human-readable format. (Human-Readable Medium)
-- In preparation for restoring the blog, you must see which photos are included in which position in which post.
-- Backups should be convenient.
-- It should be possible to create clones outside the blog.
+- It should be in a human-readable format. (Human-Readable Medium)
+- It should be clear which photo goes into which location of which post, in preparation for restoring the blog.
+- Backup should be convenient.
+- It should be possible to create a replica outside the blog.
 
-## Envision
+## Idea
 
-That's RSS. RSS is a technology that emerged during the blogging boom of the early 2000s and acts like a "subscription". Sites and blogs that support RSS provide an RSS feed address. In the RSS feed address, the contents updated on the site are organized in a machine-readable form. When users enter an RSS feed address into an RSS reader, the reader scrapes new content from the RSS feed address every time.
+The answer is RSS. RSS is a technology that emerged in the early 2000s during the blogging boom, serving as a "subscription" service. Sites or blogs that support RSS provide an RSS feed address. The RSS feed address contains updated content from that site in a machine-readable format. When users enter the RSS feed address into an RSS reader, the reader fetches new content from the RSS feed address each time.
 
-In modern times, SNS is active, and RSS technology has been abandoned, but it is sufficient to achieve my goal. The RSS feed serves as an API to receive articles. Ghost supports RSS, so I decided to use it.
+In modern times, with the rise of social media, RSS technology has become obsolete, but it is sufficient to achieve my goals. The RSS feed acts as an API for retrieving posts. Since Ghost supports RSS by default, I decided to utilize it.
 
-### rough idea
+### General Idea
 
-1. Enter the blog RSS address and copy the entire RSS feed.
-2. Parse the RSS and extract the HTML of the article.
-3. Create a folder for each article to save the HTML of the article.
-4. Connect to the `src` address of the `img` tag included in the HTML of the article and download the picture.
-5. For posts with pictures, create an `images` folder for each post folder to save pictures and change the `src` of the `img` tag in HTML to the relative path of the saved image.
+1. Copy the entire RSS feed by entering the blog's RSS address.
+2. Parse the RSS and extract the HTML of each post.
+3. Create a folder for each post and save the post's HTML.
+4. Download the photos by accessing the `src` address of the `img` tags included in the post's HTML.
+5. For posts containing photos, create an `images` folder in each post folder, save the photos, and change the `src` of the `img` tags in the HTML to the relative path of the saved images.
 
 ## Development
 
 ### Reference
 
-All examples below are based on v1 of `[anaculos/backup-with-rss](https://github.com/anaculos/backup-with-rss)`. By the time you read this, I may have added some new features or bug fixes.
+All the examples below are based on v1 of `[anaclumos/backup-with-rss](https://github.com/anaclumos/backup-with-rss)`. By the time you read this post, there may have been new features or bug fixes added.
 
-Also, the code attached to this article is intended to show a rough deployment, not the entire code. If you try to copy and run this article, it probably won't run! The complete code is publicly available on the [GitHub repository](https://github.com/anaclomos/backup-with-rss).
+Also, the code included in this post is intended to show a general flow, not the entire code. If you try to copy and run it as is, it probably won't work! The complete code is available in the [GitHub repository](https://github.com/anaclumos/backup-with-rss).
 
-### 1\. Copy RSS feeds using Feedparser
+### 1\. Copying the RSS Feed Using Feedparser
 
-Copy RSS feeds via a module called Feedparser in Python.
+The RSS feed is copied using the Feedparser module in Python.
 
 ```python
 # -*- coding: utf-8 -*-
 import feedparser
-
 
 class RSSReader:
     origin = ""
@@ -72,18 +71,19 @@ class RSSReader:
         return self.feed.entries
 ```
 
-RSSReader is used to load RSS feeds and pass `entries` items.
+RSSReader is used to load the RSS feed and pass the `entries` item.
 
 What this code does is:
 
-1. When an RSSReader Object is created, the RSS address is saved in `self.origin`, and the RSS address is parsed and stored in `self.feed`.
-2. When the parse function is executed, it returns `entries` among the values stored in `self.feed`.
+1. When the RSSReader Object is created, it stores the RSS address in `self.origin` and parses the RSS address and stores it in `self.feed`.
+2. When the `parse()` function is executed, it returns the `entries` from the stored value in `self.feed`.
 
-Among them, `entries` contains articles from the RSS feed in the form of `list`. The following example is the RSS of [this article](https://blog.chosunghyun.com/apples-easter-egg/).
+The `entries` contain the posts from the RSS feed in the form of a `list`. The following example is the RSS of [this post](https://blog.chosunghyun.com/apples-easter-egg/).
 
 Structure of `self.feed.entries` in `parse()`
 
-```JSON
+```json
+// Some parts omitted
 {
   "bozo": 0,
   "encoding": "utf-8",
@@ -129,7 +129,7 @@ Structure of `self.feed.entries` in `parse()`
       "base": "https://blog.chosunghyun.com/rss/",
       "language": "None",
       "type": "text/html",
-      "value": "Sunghyun Cho;s Blog"
+      "value": "Sunghyun Cho's Blog"
     },
     "title": "Sunghyun Cho",
     "title_detail": {
@@ -144,17 +144,17 @@ Structure of `self.feed.entries` in `parse()`
       "": "http://www.w3.org/2005/Atom",
       "content": "http://purl.org/rss/1.0/modules/content/",
       "dc": "http://purl.org/dc/elements/1.1/",
-      "media": "http://search.yahoo.com/mrss/",
-      "status": 200,
-      "version": "rss20"
-    }
+      "media": "http://search.yahoo.com/mrss/"
+    },
+    "status": 200,
+    "version": "rss20"
   }
 }
 ```
 
-### 2\. Create a Markdown file with RSS data
+### 2\. Creating Markdown Files from RSS Data
 
-I could extract only necessary values from `self.feed.entries` returned by `RSSReader` and created the `MDCreator` class to process the information provided by `RSSReader`.
+I thought I could extract only the necessary values from the `self.feed.entries` returned by `RSSReader`. I created an `MDCreator` class to process the information provided by `RSSReader`.
 
 ```python
 class MDCreator:
@@ -167,14 +167,11 @@ class MDCreator:
             os.makedirs(directory + "/" + self.rawData.title)
             print('Folder "' + self.rawData.title + '" Created ')
         except FileExistsError:
-            print(
-                'Folder "' + self.rawData.title + '" already exists'
-            )
+            print('Folder "' + self.rawData.title + '" already exists')
+
         self.directory = directory + "/" + self.rawData.title
 
-        MDFile = codecs.open(
-            self.directory + "/README.md", "w", "utf-8"
-        )
+        MDFile = codecs.open(self.directory + "/README.md", "w", "utf-8")
         MDFile.write(self.render())
         MDFile.close()
 ```
@@ -183,14 +180,14 @@ The `blogDomain` parameter is used later.
 
 What this code does is:
 
-1. When the MDCreator object is created, save the blog address in `self.blogDomain` and the original RSS feed data in `self.rawData`. The actual data of this RSS feed is `self.feed.entries` returned from `parse()` of RSSReader.
-2. When the `createFile()` function is executed, a folder is created for each article in the backup folder. In this case, the folder title is the title of the article. Next, create `README.md` for each folder and put the article's contents in it.
+1. When the MDCreator Object is created, it stores the blog address in `self.blogDomain` and the raw RSS feed data in `self.rawData`. This raw RSS feed data is the `self.feed.entries` returned by RSSReader's `parse()`.
+2. When the `createFile()` function is executed, it creates a folder for each post in the backup folder. The folder title is the title of the post. It creates a `README.md` in each folder and puts the post content inside.
 
-The reason for creating the file through the `codecs` library is to use Unicode instead of the CP949 codec on Windows. Then the emoji included in the RSS will usually appear 🚀🥊
+The reason for creating files using the `codecs` library is to make it use Unicode instead of the CP949 codec on Windows. This way, emojis included in the RSS are displayed correctly 🚀🥊
 
-### 3\. Adding post information to the created Markdown file
+### 3\. Adding Post Information to the Generated Markdown File
 
-I wanted to use Jekyll-type Front Matter when displaying text information. It was the easiest way to check the article's title, tags, links, authors, etc.
+I wanted to use Jekyll-style Front Matter when displaying post information. I thought it would be the easiest way to check the post's title, tags, link, author, etc.
 
 ```python
 def render(self):
@@ -199,33 +196,37 @@ def render(self):
     except AttributeError:
         postTitle = "Post Title Unknown"
         print("Post Title does not exist")
+
     try:
-        postTags = str(
-            self.getValueListOfDictList(self.rawData.tags, "term")
-        )
+        postTags = str(self.getValueListOfDictList(self.rawData.tags, "term"))
     except AttributeError:
         postTags = "Post Tags Unknown"
         print("Post Tags does not exist")
+
     try:
         postLink = "Post Link Unknown"
         postLink = str(self.rawData.link)
     except AttributeError:
         print("Post Link does not exist")
+
     try:
         postID = str(self.rawData.id)
     except AttributeError:
         postID = "Post ID unknown"
         print("Post ID does not exist")
+
     try:
         postAuthors = str(self.rawData.authors)
     except AttributeError:
         postAuthors = "Authors Unknown"
         print("Authors does not exist")
+
     try:
         postPublished = str(self.rawData.published)
     except AttributeError:
         postPublished = "Published Date unknown"
         print("Published Date does not exist")
+
     self.renderedData = (
         "---\nlayout: post\ntitle: "
         + postTitle
@@ -245,15 +246,15 @@ def render(self):
 
 What this code does is:
 
-1. In the RSS code, check if there is a title, tag, link, ID, author name, and publication date of the article; if there is a value, enter the value in Front Matter.
-2. If there is no value, enter `~ Unknown`.
+1. It checks if the post's title, tags, link, ID, author names, and publication date exist in the RSS code, and if they do, it enters those values into the Front Matter.
+2. If a value doesn't exist, it enters `~ Unknown`.
 
-Tags are entered through code such as `self.getValueListOfDictList(self.rawData.tags, "term")` because Ghost specifies tags in the following format. The same goes for Gatsby and WordPress.
+The reason for adding tags using code like `self.getValueListOfDictList(self.rawData.tags, "term")` is because tags are specified in the following format in Ghost. This is the same for Gatsby and WordPress as well.
 
 ```json
 'tags': [{'label': None, 'scheme': None, 'term': 'English'},
-     {'label': None, 'scheme': None, 'term': 'Code'},
-     {'label': None, 'scheme': None, 'term': 'Apple'}],
+         {'label': None, 'scheme': None, 'term': 'Code'},
+         {'label': None, 'scheme': None, 'term': 'Apple'}],
 ```
 
 ```python
@@ -266,7 +267,7 @@ def getValueListOfDictList(self, dicList, targetkey):
     return arr
 ```
 
-This way, only the `term` item is removed from `tags` and added to Front Matter. Then, when executed, the following Jekyll Style Front Matter is completed.
+In this way, only the `term` item is extracted from `tags` and added to the Front Matter. When executed, the following Jekyll-style Front Matter is completed.
 
 ```yaml
 ---
@@ -282,22 +283,20 @@ id: /_ Some Post ID _/
 
 ![Jekyll Style Front Matter on GitHub](9B416C.png)
 
-Front Matter looks like this renders on GitHub.
+Front Matter is rendered like this on GitHub.
 
-### 4\. Adding summary and body text to the created Markdown file
+### 4\. Adding Post Summary and Content to the Generated Markdown File
 
-Add Summary and Content items of RSS data to `renderedData`.
+The Summary and Content items from the RSS data are added to `renderedData`.
 
 ```python
 self.renderedData += "\n\n# " + postTitle + "\n\n## Summary\n\n"
-
 try:
     self.renderedData += self.rawData.summary
 except AttributeError:
     self.renderedData += "RSS summary does not exist."
 
 self.renderedData += "\n\n## Content\n\n"
-
 try:
     for el in self.getValueListOfDictList(self.rawData.content, "value"):
         self.renderedData += "\n" + str(el)
@@ -305,18 +304,17 @@ except AttributeError:
     self.renderedData += "RSS content does not exist."
 ```
 
-One curious thing is that while Ghost and WordPress-based blogs support both RSS summary and content, Jekyll-based GitHub Pages or Tistory put all the article's contents in the RSS summary. (...) Ghost provides a function to set the Excerpt of the text, and this Excerpt value is used as RSS Summary.
+One interesting thing was that while Ghost and WordPress-based blogs support both RSS Summary and Content, Jekyll-based GitHub Pages and Tistory put all the post content in the RSS Summary. (...) Ghost basically provides a feature to set the Excerpt of a post, and this Excerpt value is used as the RSS Summary.
 
-### 5\. Adding Images to Generated Markdown Files
+### 5\. Adding Images to the Generated Markdown File
 
-For backup, I must preserve even the image intact. Except for images embedded in HTML as base64, all of them now have only `src` specified in the `img` tag. If the server dies, we cannot load photos from `img src`, so I must download all images at the time of backup.
+For backup, images must be completely preserved. Unless the images are embedded in base64 in the HTML, they are all currently in the form of `img` tags with only `src` specified. If the server goes down, it won't be able to load images from the `img src`, so all images need to be downloaded at the time of backup.
 
-[How to Download All Images from a Web Page in Python](https://www.thepythoncode.com/article/download-web-page-images- python).
+I referred to [How to Download All Images from a Web Page in Python](https://www.thepythoncode.com/article/download-web-page-images-python) by [PythonCode](https://www.thepythoncode.com/).
 
 ```python
 soup = bs(self.renderedData, features="html.parser")
 for img in soup.findAll("img"):
-
     for imgsrc in ["src", "data-src"]:
         try:
             remoteFile = img[imgsrc]
@@ -328,53 +326,54 @@ for img in soup.findAll("img"):
         print("remoteFile", remoteFile, "is not a domain.")
         remoteFile = self.blogDomain + "/" + remoteFile
         print("Fixing it to", remoteFile)
-    print(
-        'Trying to download "'
-        + remoteFile
-        + '" and save it at "'
-        + self.directory
-        + '/images"'
-    )
+
+    print('Trying to download "' + remoteFile + '" and save it at "' + self.directory + '/images"')
     self.download(remoteFile, self.directory + "/images")
+
     img["src"] = "images/" + remoteFile.split("/")[-1]
     img["srcset"] = ""
     print(img["src"])
+
 self.renderedData = str(soup)
 return self.renderedData
 ```
 
 What this code does is:
 
-1. Read the string `renderedData` into HTML and find all `img` tags.
-2. Check if there is an `src` or `data-src` attribute. `data-src` is an attribute corresponding to WordPress.
-3. Create an images folder in each post folder and save images in it. At this time, the name of the image is the lowest directory of img src. For example, if `img src` is `https://blog.someone.com/images/example.png`, it will be saved as `images/example.png`.
-4. Change the existing `img src` to the relative path of the `images` folder.
-5. Remove the `srcset` attribute if it has one (Gatsby correspondence)
+1. It reads the string `renderedData` as HTML and finds all `img` tags.
+2. It checks if there are `src` or `data-src` attributes. `data-src` is an attribute for WordPress compatibility.
+3. It creates an images folder inside each post folder and saves the images there. The image name is the lowest directory of the img src. For example, if the `img src` is `https://blog.someone.com/images/example.png`, it is saved as `images/example.png`.
+4. It changes the existing `img src` to the relative path of the `images` folder.
+5. If it has a `srcset` attribute, it removes it (for Gatsby compatibility).
 
 ```python
 def download(self, url, pathname):
     if not os.path.isdir(pathname):
         os.makedirs(pathname)
+
     response = requests.get(url, stream=True)
-    file_size = int(response.headers.get("Content-Length", 0))
-    filename = os.path.join(pathname, url.split("/")[-1])
-    if filename.find("?") > 0:
-        filename = filename.split("?")[0]
-    progress = tqdm(
-        response.iter_content(256),
-        f"Downloading {filename}",
-        total=file_size,
-        unit="B",
-        unit_scale=True,
-        unit_divisor=1024,
-    )
-    with open(filename, "wb") as f:
-        for data in progress:
-            f.write(data)
-            progress.update(len(data))
+        file_size = int(response.headers.get("Content-Length", 0))
+        filename = os.path.join(pathname, url.split("/")[-1])
+
+        if filename.find("?") > 0:
+            filename = filename.split("?")[0]
+
+        progress = tqdm(
+            response.iter_content(256),
+            f"Downloading {filename}",
+            total=file_size,
+            unit="B",
+            unit_scale=True,
+            unit_divisor=1024,
+        )
+
+        with open(filename, "wb") as f:
+            for data in progress:
+                f.write(data)
+                progress.update(len(data))
 ```
 
-One problem is that the addresses of images are not consistent. Some sites write the entire domain as `<img src = "https://example.png/images/example.png">` while others `<img src = "/images/example.png">` Write from the subdirectory as well. In some places, it was `<img src = "example.png">`. To respond to as many cases as possible, a function `isDomain()` that detects domains has been created. Other libraries recognized file extensions such as `.png` as Top Level Domains such as `.com`, so we added some exception handling.
+One problem is that the image addresses are not consistent. Some sites write the full domain like `<img src = "https://example.png/images/example.png">`, while others write from the subdirectory like `<img src = "/images/example.png">`. There were also places with `<img src = "example.png">`. To handle as many cases as possible, I created a function `isDomain()` to detect the domain. Other libraries recognized file extensions like `.png` as top-level domains like `.com`, so I added some exception handling.
 
 ```python
 def isDomain(self, string):
@@ -386,19 +385,19 @@ def isDomain(self, string):
         return validators.domain(string.split("/")[0])
 ```
 
-The domain name is specified in front if the domain is not directly accessible, such as `<img src = "/images/example.png">`. At this time, the previously specified `self.blogDomain` is used.
+If it's not a directly accessible domain like `<img src = "/images/example.png">`, I specified to add the domain name in front. This is where the previously set `self.blogDomain` is used.
 
-## Result
+## Results
 
-I backed up this blog. This blog is a Self-hosted [Ghost](https://ghost.org) blog. If you run only `main.py`, the backup will continue.
+I tried backing up this blog. This blog is a self-hosted [Ghost](https://ghost.org) blog. Just running `main.py` will proceed with the backup.
 
-![These are the backed-up texts. The folder name is set as the title of the article.](E3B274.png)
+![The backed-up posts. The folder names are set to the post titles.](E3B274.png)
 
-![This is the appearance of the article backed up on GitHub. Photos are also saved and displayed directly in a folder instead of on a blog server.] (E98816.png)
+![The appearance of a backed-up post on GitHub. The photos are also stored directly in the folder instead of the blog server.](E98816.png)
 
-![Photos used in the article are stored in the folder.](C55153.png)
+![The photos used in the post are saved in the folder.](C55153.png)
 
-The following services tested are supported: The style or arrangement of the writing may be slightly different, but the purpose of **backup** is sufficiently achieved.
+Based on testing, the following services are supported. The format or arrangement of posts may be slightly different, but the purpose of **backup** is sufficiently achieved.
 
 - Ghost
 - WordPress
@@ -407,40 +406,35 @@ The following services tested are supported: The style or arrangement of the wri
 - Medium
 - Tistory
 
-## Evaluation of achievement of goals
+## Goal Achievement Evaluation
 
 ### Main Goal
 
-- You must back up all text and photos. ★★★
+- Both posts and photos should be backed up. ★★★
+  The goal was fully achieved. Videos are not backed up, but since videos are usually embedded through YouTube anyway, there is a much lower probability of information loss. That's why it was excluded from the goal from the beginning.
 
-The goal has been fully achieved. The video is not backed up, but since the video is embedded via YouTube anyway, the probability of information loss is much less. Because of this, it was excluded from the goal from the beginning.
+### Bonus Goals
 
-### Bonus Goal
+- It should be in a human-readable format. (Human-Readable Medium) ★★☆
+  Compared to Ghost's built-in backup, important information can be seen at a glance in the Front Matter, and posts are rendered in almost the same form as the blog. It is also convenient to find desired materials as posts and photos are organized by folder. However, even though Markdown is used, the post body is in HTML, so it is inconvenient to edit posts. It's a backup that achieves just the purpose of _Lots of copies keep stuff safe_.
 
-- Must be in a human-readable format. (Human-Readable Medium) ★★☆
+- It should be clear which photo goes into which location of which post. (In preparation for restoring the blog) ★★★
+  It is clear which photo goes into which location of which post.
 
-Compared to Ghost's built-in backup, you can see important information at a glance in Front Matter, and the text is rendered almost the same form as a blog. Articles and photos are organized by folder, making it easy to find the data you want. However, even if you use Markdown, it is inconvenient to edit the text because the body of the text is HTML. It is a backup that achieves the purpose of just _Lots of copies keeps stuff safe_.
+- Backup should be convenient. ★★☆
+  `main.py` needs to be executed manually. I'm thinking of automating it with `crontab` someday.
 
-- It should be clear which picture goes in which position in which text. (In preparation for restoring the blog) ★★★
+Also, due to the nature of using RSS, only posts included in the RSS feed are backed up. RSS feeds often include only the latest posts to reduce bandwidth usage, and each blog has an option to adjust this. Ghost blogs include 15 of the latest posts in the RSS feed by default. The number of posts in the RSS feed of a Ghost blog cannot be manipulated within the Ghost CMS and requires modifying the [code of Ghost Core](https://github.com/TryGhost/Ghost/blob/master/core/server/models/plugins/pagination.js#L20).
 
-You can see which picture goes where in which text.
-
-- Backups should be convenient. ★★☆
-
-You have to run `main.py` manually. I'm thinking of automating it with `crontab` someday.
-
-Also, due to the nature of using RSS, only posts included in RSS feeds are backed up. RSS feeds often contain only the most recent posts to reduce bandwidth usage, but each blog has the option to adjust this. For example, the Ghost blog, by default, includes the 15 most recent posts in its RSS feed. I cannot manipulate the number of RSS feed posts on the Ghost blog within Ghost CMS, and [Ghost Core's code](https://github.com/TryGhost/Ghost/blob/master/core/server/models/plugins/pagination.js# L20) cannot be touched.
-
-- It should be possible to create clones outside the blog. ★★☆
-
-WordPress may temporarily block access if you repeatedly download many photos from a WordPress blog.
+- It should be possible to create a replica outside the blog. ★★☆
+  When repeatedly downloading numerous photos from a WordPress blog, access may be temporarily blocked.
 
 ## Future Plans
 
-After completing it and thinking about it, it would be a good tool for those planning to relocate to the blog but are worried about the amount of data they have accumulated. We plan to improve it further to be a helpful tool before blogging.
+After completing it and giving it some thought, I realized it could be a good tool for people who are planning to migrate their blog but are struggling with too much accumulated data. I plan to further improve it to become a tool that can help with blog migration.
 
-## Reference
+## References
 
-- [How to Download All Images from a Web Page in Python](https://www.thepythoncode.com/article/download-web-page-images-python) by [PythonCode](https://www.thepythoncode. com/)
+- [How to Download All Images from a Web Page in Python](https://www.thepythoncode.com/article/download-web-page-images-python) by [PythonCode](https://www.thepythoncode.com/)
 - [Ghost Custom RSS Feed](https://ghost.org/tutorials/custom-rss-feed/)
-- The script does not typically run if the RSS feed contains unsupported Unicode characters. Errors in editors or blogs most often cause this. It will work if you find and correct the text using a service such as [Feed Validator](http://www.feedvalidator.org/).
+- If the RSS feed contains unsupported Unicode characters, the script will not run properly. This is often caused by errors in the editor or blog, and services such as [Feed Validator](http://www.feedvalidator.org/) can be used to find and fix those characters for normal operation.
