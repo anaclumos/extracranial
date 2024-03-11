@@ -5,7 +5,7 @@ type Props = {
   url: string
 }
 
-const Song = ({ url }: Props) => {
+const AppleMusicSong = ({ url }: Props) => {
   return (
     <iframe
       id="embedPlayer"
@@ -18,4 +18,4 @@ const Song = ({ url }: Props) => {
   )
 }
 
-export default Song
+export default AppleMusicSong
