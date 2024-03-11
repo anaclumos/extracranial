@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/1F2C2C'
 ---
 
+- [novuhq/novu](https://github.com/novuhq/novu): 🔥 The open-source notification infrastructure with fully functional embedded notification center 🚀🚀🚀
 - [tremorlabs/tremor: The react library to build dashboards fast.](https://github.com/tremorlabs/tremor)
 - [IconBrew - open source icon pack/set!](https://iconbrew.com/)
 - [Encryption Infrastructure — Evervault](https://evervault.com/)
