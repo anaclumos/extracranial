@@ -152,20 +152,27 @@ The original code can be found [here](https://github.com/woowa-techcamp-2020/tod
 This was the feedback on my code that was randomly selected to be shown on the screen during the code review session on Friday afternoon, July 25th, at the end of the 2nd project. At the time, I thought I had overcome the extreme time pressure quite well and created a well-functioning page. However, receiving such direct criticism left me in a state of shock. It's not well conveyed in writing, but the atmosphere was truly frozen.
 On the train ride home that day, I had countless thoughts. After calming my mind for a moment and thinking about it, I realized that if it had been a camp where they just said, "Okay, okay~ We all did well and worked hard~", it wouldn't have been a good camp. Just as a good workbook should have problems that you get wrong. So I decided to make the most of what I was relatively good at and absorb as much as I could learn during the remaining month.
 Juniors interested in studying programming often hear things like "clean code, good patterns". However, **the problem is that from a beginner's perspective, hearing these things mechanically too often leads to unconsciously repeating them as if memorizing them**, without having a realistic sense of what level is actually good. Looking back at the code above,
-- The code is doing two tasks simultaneously. ① Fetching information and ② displaying information. In this case, the code becomes highly dependent. High dependency can lead to major surgery when part of the code needs to be replaced later.  
+
+- The code is doing two tasks simultaneously. ① Fetching information and ② displaying information. In this case, the code becomes highly dependent. High dependency can lead to major surgery when part of the code needs to be replaced later.
 - Overall, the logic and view are mixed in the file, and readability is poor.
-Based on the advice, from the 3rd project onwards, I paid a lot of attention to these development patterns. I did a mini-project with a part of the 3rd project, and you can probably get a sense of what it's like.
+  Based on the advice, from the 3rd project onwards, I paid a lot of attention to these development patterns. I did a mini-project with a part of the 3rd project, and you can probably get a sense of what it's like.
 - [Creating a Calendar with Vanilla JS](/ko/w/F522B3)
+
 ### 🛷 Dunning-Kruger Sledding
+
 It may be a bit cliché, but I was able to directly experience the **peak of ignorance**. Of course, I never thought I knew everything completely, but since I had experience with various JavaScript projects, I dared to think, "Of course I'll have to work hard, but **wouldn't I be able to keep up to some extent without too much difficulty?**"
 ![I don't know anything about JS. I'm just a talking potato. You know what I mean?](6B271D.jpg)
 Naturally, Woowa Tech Camp was extremely challenging. The original goal of the curriculum was to impose constraints on each project and then resolve the regrets caused by those constraints in the next project. For example, after implementing authentication without using Passport, that thirst would be quenched in the next project by using Passport. However, on the flip side, this process occurred every 1-2 weeks, meaning that as soon as you barely grasped the previous technology, you had to immediately move on to the next technology and experience a steep learning curve again.
 It felt like I experienced the Dunning-Kruger sledding at Woowa Tech Camp. Since I wasn't proficient enough to freely handle JavaScript, I really had to work hard to keep up.
+
 ### 🌎 What does it mean to know in the internet age?
+
 I also pondered a lot about **what it means to know something in an age where search exists**. If I limit this to programming, I think I found a bit of an answer. It's the concept of GSPH, which stands for Googling Session Per Hour. A Googling Session refers to a deep search task lasting more than 5 minutes. For example, if you couldn't remember the name of a JavaScript property function and completed the search in 2 minutes, it wouldn't count as a Googling Session, but if OAuth doesn't come to mind easily and you have to look at the documentation for 10 minutes, it would count as a Googling Session.
 ![Search for it... but every time?](12A854.png)
 When doing a task, if the Googling Sessions per hour are (roughly) 3 or less, it seems you can say you know that concept. In other words, doing short searches in the middle of a task doesn't directly mean you don't know the concept. However, if you have to look up every detail of the task one by one, it means you still need more study.
+
 ### 👾 Library ≠ Alien Technology
+
 Sometimes frameworks and libraries are treated like alien technology. Of course, well-known frameworks and libraries are collections of proven, efficient code, but thinking of them as **unapproachable alien technology** and **relying on libraries for all considerations** can be a bit dangerous.
 
 ![A developer doing npm i](2B2DBB.gif)
