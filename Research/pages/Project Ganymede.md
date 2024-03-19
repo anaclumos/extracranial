@@ -12,6 +12,11 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - Callisto is the code name for MessagesExtension
 - Europa is the code name for Encryption Key Exchange Server
 
+## [[2024-03-15]]
+
+- Added LogTail to Europa
+- Implemented Encryption and Attaching
+
 ## [[2024-03-07]]
 
 ![[E13EA3.gif]]

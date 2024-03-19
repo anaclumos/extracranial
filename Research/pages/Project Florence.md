@@ -20,7 +20,7 @@ catastrophic forgetting → learning different tasks make the NN to forget the f
 
 Replay → include good examples from A when training B.
 
-find necessary weights of the NN after learning the first set,
+find the necessary weights of the NN after learning the first set,
 
 Training the second one makes it very hard for the weights to move.
 

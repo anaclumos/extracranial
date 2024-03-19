@@ -31,6 +31,7 @@ import Shuffle from '@site/src/components/Shuffle'
 - [x] [[한국의 식민지 근대성]] (Colonial Modernity in Korea)
 - [x] [[조선민족의 진로 재론]]
 - [x] [[High Growth Handbook]]
+- [x] 경애하는 지도자에게
 
 </Shuffle>
 
