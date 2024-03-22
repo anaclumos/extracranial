@@ -6,29 +6,33 @@ slug: '/8429A4'
 - [[Project]] Florence is a research [[project]] on [[Vertical Federated Learning|VFL]]
 - [[Project Florence Literature Review]]
 
+## [[2024-03-20]]
+
+### Action Items
+
+- compare mlp
+  - do max everywhere
+  - do avg(with-zero) everywhere
+  - do avg(without-zero) everywhere
+- use dropouts (with normal avg incl. zeros)
+  - different neurons are being dropped out randomly
+  - framework might handle this
+
+max-avgnonzero doesn't work well
+
 ## [[2024-03-07]]
 
-CNN → filtered we 3 by 3
-
-random, start with a bigger filter 7 by 7
-
-play with some functions, such as max pool
-
-we could do dropouts → forces the network to distribute more info → it may be more resilient
-
-catastrophic forgetting → learning different tasks make the NN to forget the first one
-
-Replay → include good examples from A when training B.
-
-find the necessary weights of the NN after learning the first set,
-
-Training the second one makes it very hard for the weights to move.
-
-What about we do sum?? Max??
-
-**Sum/max in the first two layers and average in the final two?**
-
-Or what if we don't do the average over the zeros?
+- CNN → filtered we 3 by 3
+- random, start with a bigger filter 7 by 7
+- play with some functions, such as max pool
+- we could do dropouts → forces the network to distribute more info → it may be more resilient
+- catastrophic forgetting → learning different tasks make the NN to forget the first one
+- Replay → include good examples from A when training B.
+- find the necessary weights of the NN after learning the first set,
+- Training the second one makes it very hard for the weights to move.
+- What about we do sum?? Max??
+- **Sum/max in the first two layers and average in the final two?**
+- Or what if we don't do the average over the zeros?
 
 ## [[2024-02-21]]
 
