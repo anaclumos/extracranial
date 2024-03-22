@@ -12,6 +12,12 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - Callisto is the code name for MessagesExtension
 - Europa is the code name for Encryption Key Exchange Server
 
+## [[2024-03-19]]
+
+Wrote a simple read view. Added timer for sending action. The send screen is done; all we need to do is the read screen.
+
+Also, AI-gile could be another programming pattern. [[Gen Z does not know file directories]]. The gist is that we don't need to "organize" files as semantic search improves because whatever we search will pop up automatically. Just have a giant file-pile and semantic search when you need something. These searches have now become so smart that they search for synonyms and deeply nested contexts and text inside images.
+
 ## [[2024-03-15]]
 
 - Added LogTail to Europa
