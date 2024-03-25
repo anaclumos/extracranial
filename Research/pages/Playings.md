@@ -9,15 +9,16 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
-- Splatoon 3
-- [[Detroit Become Human]]
-- [[Death Stranding]]
-- [[Super Mario Wonder]]
-- [[산나비]]
-- The Last of Us Part 1
-- Pokemon Scarlet (Original)
-- \_전언
-- Palworld
+- Splatoon 3 (Switch OLED)
+- [[Detroit Become Human]] (Steam Deck)
+- [[Death Stranding]] (Steam Deck)
+- [[Super Mario Wonder]] (Switch OLED)
+- [[산나비]] (Steam Deck)
+- The Last of Us Part 1 (Steam Deck, Steam Deck OLED)
+- Pokemon Scarlet (Switch OLED)
+- \_전언 (Steam Deck OLED)
+- Palworld (Steam Deck OLED)
+- Astro Bot (PS5)
 
 </Shuffle>
 

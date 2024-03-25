@@ -32,5 +32,6 @@ import Shuffle from '@site/src/components/Shuffle'
 - 발레리나 (넷플릭스)
 - The Boys [[The U.S. is Homelander]]
 - [[Avatar The Last Airbender]]
+- 살인자ㅇ난감
 
 </Shuffle>
