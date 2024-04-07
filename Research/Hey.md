@@ -41,6 +41,12 @@ an electromechanical device enabling individuals
 
 Thus, the name [[Extracranial]], — **The Exosuit for [[Superbrain|Superbrains]]**.
 
+## Before Everything
+
+My opinions on various topics have changed significantly over time, and in some cases, I now hold the exact opposite view compared to when I originally wrote certain articles. I am open to changing my mind and welcome persuasive arguments that challenge my current beliefs. This process of constant re-evaluation is an essential part of my intellectual growth.
+
+Please understand that this Wikipedia serves as a record of my thoughts at specific moments in the past. Many of my older articles contain opinions that no longer align with my current perspectives, outdated information, or incorrectly understood facts. As such, I prefer not to have my old articles brought up, as they do not accurately represent my present stance on the issues discussed. Keep this in mind when reading my earlier works.
+
 ## Tech Stacks
 
 I use [[Obsidian]] for taking notes.
