@@ -39,6 +39,7 @@ import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 
+- [ ] 나의 투쟁
 - [ ] Space Odyssey Series
 
 </Shuffle>
@@ -59,7 +60,6 @@ import Shuffle from '@site/src/components/Shuffle'
 - [ ] High Growth Handbook
 - [ ] Elon Musk (Walter Isaacson)
 - [ ] Diaspora (Greg Egan)
-- [ ] 나의 투쟁
 
 </Shuffle>
 

@@ -6,14 +6,32 @@ slug: '/8429A4'
 - [[Project]] Florence is a research [[project]] on [[Vertical Federated Learning|VFL]]
 - [[Project Florence Literature Review]]
 
+## [[2024-03-29]]
+
+### Action items
+
+- compare mlp: what's the baseline performance, with full images?
+- "joint embedding"
+- autoencoder
+  - try to baseline. have the middle layers to have 40 pixels
+  - how good can we get to reconstructing the images?
+
+> Can we train an autoencoder, in an federated way?
+
+- do the full images and see how the reconstruction autoencoder goes?
+- use that autoencoder to see if it can reconstruct partial images
+- try to train the autoencoder in a federated way.
+
 ## [[2024-03-20]]
 
 ### Action Items
 
 - compare mlp
-  - do max everywhere
+  - do max everywhere → Result: Max did not work well at all
   - do avg(with-zero) everywhere
-  - do avg(without-zero) everywhere
+  - do avg(without-zero) everywhere → Result: close to avg-with-zeros.
+    - random: slightly worse
+    - squares: slightly better
 - use dropouts (with normal avg incl. zeros)
   - different neurons are being dropped out randomly
   - framework might handle this
