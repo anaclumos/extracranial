@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
-Microeconomics delves into the decision-making processes of individuals, households, and businesses as they allocate their limited resources. This involves analyzing how these actors respond to price changes, incentives, production methods, and available resources within markets for goods and services. It should be distinct from [[macroeconomics]], which takes a broader view of the national [[economy]], examining issues that impact entire nations and the global [[economy]]. While [[macroeconomics]] addresses more significant concerns, microeconomics focuses on the more specific problems affecting individual actors and companies.
+Microeconomics studies the decision-making processes of individuals, households, and businesses as they allocate their limited resources. This involves analyzing how these actors respond to price changes, incentives, production methods, and available resources within markets for goods and services. It should be distinct from [[macroeconomics]], which takes a broader view of the national [[economy]], examining issues that impact entire nations and the global [[economy]]. While [[macroeconomics]] addresses more significant concerns, microeconomics focuses on the more specific problems affecting individual actors and companies.
 
 </div>
 </TabItem>
