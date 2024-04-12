@@ -1,6 +1,6 @@
 * {
-  --ifm-font-family-base: 'Pretendard', 'Tossface', 'SF Pro', ui-sans-serif, -apple-system, BlinkMacSystemFont,
-    'Apple SD Gothic Neo', 'Apple Color Emoji', 'Segoe UI Emoji', system-ui, -system-ui, sans-serif !important;
+  --ifm-font-family-base: 'Pretendard', 'Tossface', 'SF Pro', system-ui, -apple-system, BlinkMacSystemFont,
+    ui-sans-serif, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   --font-family-sans-serif: var(--ifm-font-family-base);
   --font-family-headline: var(--ifm-font-family-base);
   --font-family-monospace: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
