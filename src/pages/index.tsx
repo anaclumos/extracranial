@@ -24,6 +24,7 @@ import RobotEmoji from '@site/static/emoji/robot.png'
 import WikipediaEmoji from '@site/static/emoji/wikipedia.png'
 import SwitchEmoji from '@site/static/emoji/switch.png'
 import SteamEmoji from '@site/static/emoji/steam.png'
+import PlayStationEmoji from '@site/static/emoji/ps.png'
 import { Globe } from '../components/Globe'
 import BrowserOnly from '@docusaurus/BrowserOnly'
 
@@ -223,17 +224,26 @@ const HeroText = () => {
         />
         <Translate>{', and playing '}</Translate>
         <EmojiReplaceableText
-          text={translate({ message: 'Nintendo Switch' })}
-          photo={SwitchEmoji}
+          text={translate({ message: 'PlayStation 5 Slim' })}
+          photo={PlayStationEmoji}
           photoAlt={translate({
             message: '🎮',
           })}
           showByDefault="emoji"
         />
-        <Translate>{' & '}</Translate>
+        <Translate>{', '}</Translate>
         <EmojiReplaceableText
-          text={translate({ message: 'Steam Deck' })}
+          text={translate({ message: 'Steam Deck OLED' })}
           photo={SteamEmoji}
+          photoAlt={translate({
+            message: '🎮',
+          })}
+          showByDefault="emoji"
+        />
+        <Translate>{', and '}</Translate>
+        <EmojiReplaceableText
+          text={translate({ message: 'Nintendo Switch OLED' })}
+          photo={SwitchEmoji}
           photoAlt={translate({
             message: '🎮',
           })}
