@@ -19,20 +19,20 @@ import Shuffle from '@site/src/components/Shuffle'
 - \_전언 (Steam Deck OLED)
 - Palworld (Steam Deck OLED)
 - Astro's Playroom (PS5)
+- Spiderman Remastered (Steam Deck OLED)
 
 </Shuffle>
 
 ## Doing
 
-- Spiderman Remastered
+- The Last of Us Part 2
 
 ## Planned
 
-- Spiderman Miles Morales
 - Spiderman 2
-- The Last of Us Part 2
 - Death Stranding 2
-- 완다와 거상
+- 완다와 거상 (PS5?)
+- Spiderman Miles Morales (PS5?)
 - Ratchet & Clank: Rift Apart (PS5?)
 - Returnal (PS5?)
 - Ghost of Tsushima (PS5?)
