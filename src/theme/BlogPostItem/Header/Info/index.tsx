@@ -117,7 +117,7 @@ export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Elemen
     })
   }, [permalink])
 
-  const formattedDate = date.split("T")[0]
+  const formattedDate = date.split('T')[0]
 
   return (
     <div className={clsx(styles.container, 'margin-vert--md', className)}>

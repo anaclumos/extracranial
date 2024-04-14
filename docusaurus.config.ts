@@ -2,7 +2,6 @@ import type { Config } from '@docusaurus/types'
 import blog from './config/blog.config'
 import docs from './config/docs.config'
 import i18n from './config/i18n.config'
-import katexStylesheet from './config/katex.stylesheet'
 import navbar from './config/navbar.config'
 import theme from './config/theme.config'
 
@@ -63,7 +62,13 @@ const config: Config = {
     ],
   ],
   stylesheets: [
-    katexStylesheet,
+    {
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+      rel: 'preload',
+      as: 'style',
+      crossorigin: 'anonymous',
+    },
     {
       href: 'https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css',
       type: 'text/css',
@@ -77,6 +82,21 @@ const config: Config = {
       rel: 'preload',
       as: 'style',
       crossorigin: 'anonymous',
+    },
+    {
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+      rel: 'stylesheet',
+    },
+    {
+      href: 'https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css',
+      type: 'text/css',
+      rel: 'stylesheet',
+    },
+    {
+      href: '/font/pretendard/pretendard.css',
+      type: 'text/css',
+      rel: 'stylesheet',
     },
   ],
   themeConfig: {
