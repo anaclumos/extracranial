@@ -63,7 +63,7 @@ const config: Config = {
   ],
   stylesheets: [
     {
-      href: '/katex/katex.min.css',
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css',
       type: 'text/css',
       rel: 'preload',
       as: 'style',
@@ -84,7 +84,7 @@ const config: Config = {
       crossorigin: 'anonymous',
     },
     {
-      href: '/katex/katex.min.css',
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css',
       type: 'text/css',
       rel: 'stylesheet',
     },
