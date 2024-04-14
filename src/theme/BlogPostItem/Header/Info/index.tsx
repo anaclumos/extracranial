@@ -36,7 +36,7 @@ function ReadingTime({ readingTime }: { readingTime: number }) {
   return <>{readingTimePlural(readingTime)}</>
 }
 
-function Date({ date, formattedDate }: { date: string; formattedDate: string }) {
+function DateView({ date, formattedDate }: { date: string; formattedDate: string }) {
   return (
     <time dateTime={date} itemProp="datePublished">
       {formattedDate}
@@ -106,7 +106,7 @@ const getViewString = (viewCount: number, locale: string) => {
 
 export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Element {
   const { metadata } = useBlogPost()
-  const { date, formattedDate, readingTime, permalink } = metadata
+  const { date, readingTime, permalink } = metadata
   const { i18n } = useDocusaurusContext()
   const locale = i18n.currentLocale ?? 'en'
 
@@ -117,9 +117,11 @@ export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Elemen
     })
   }, [permalink])
 
+  const formattedDate = date.split("T")[0]
+
   return (
     <div className={clsx(styles.container, 'margin-vert--md', className)}>
-      <Date date={date} formattedDate={formattedDate} />
+      <DateView date={date} formattedDate={formattedDate} />
       {typeof readingTime !== 'undefined' && (
         <>
           <Spacer />
