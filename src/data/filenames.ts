@@ -1668,6 +1668,7 @@ export const filenames = {
     "Pragmatic Engineer": "630E34",
     "Preemptive Multitasking": "FDC9F5",
     "Prehistoric": "F8C785",
+    "Preload vs Prefetch": "A5B9F3",
     "Preprocessor": "6F8BD8",
     "Pretendard": "8AE8DF",
     "Pretendard의 아쉬운 점": "3A9FCD",
