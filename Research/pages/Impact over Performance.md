@@ -21,4 +21,4 @@ Short essay on [[2023-07-05]]:
 - Deliver day 1
 - Sharable architectures: [[IDOL Stack]]
 - [[Antipreneur]]
-- [[Supergravity Product]]
+- [[Supergravity Products]]

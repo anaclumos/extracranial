@@ -8,7 +8,7 @@ I am sick of the fuzz and buzz of Silicon Valley. I don't care about YC. I don't
 
 - [[anti]]-preneur
 - [[Dilemmas of Free stuffs]]
-- [[잡스와 생존 편향]]을 생각하며 항상 의구심을 가지자
+- [[잡스와 생존 편향 (19誠鉉)]]을 생각하며 항상 의구심을 가지자
 - [[강기업]]이 목표다. 가급적이면 [[Small yet Powerful|강소기업]].
 - [[Bootstrap]]. 결국 VC는 외부인이다
 - [[Dilemmas of Technopreneur]]. 하지만 기술 중독에 걸리지 않도록 조심하자.

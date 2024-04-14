@@ -12,6 +12,14 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - Callisto is the code name for MessagesExtension
 - Europa is the code name for Encryption Key Exchange Server
 
+## [[2024-04-14]]
+
+Completed Read View.
+
+![Funny that the only way of recording is like this, because my screenshot protection is too good!!!](../assets/7FBBE3.gif)
+
+![[25F68A.jpeg]]
+
 ## [[2024-03-19]]
 
 Wrote a simple read view. Added timer for sending action. The send screen is done; all we need to do is the read screen.
