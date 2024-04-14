@@ -18,14 +18,14 @@ aliases: ['Boring Products']
 
 <blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">
-<a href="https://t.co/jZn6eesb2K">https://t.co/jZn6eesb2K</a> is now almost 14,000 lines of raw PHP mixed with inline HTML, CSS in &lt;style&gt; and raw JS in &lt;script&gt; tags<br/><br/>I did not use TS, flexbox or frameworks except jQuery<br/><br/>A lot of $.ajax() and float:left though<br/><br/>It has 1,872 paying customers making $61,808 per month <a href="https://t.co/4tHqS7EgnO">pic.twitter.com/4tHqS7EgnO</a>
+<a href="https://t.co/jZn6eesb2K">https://t.co/jZn6eesb2K</a> is now almost 14,000 lines of raw PHP mixed with inline HTML, CSS in &lt;style&gt; and raw JS in &lt;script&gt; tags<br/><br/>I did not use TS, flexbox or frameworks except jQuery<br/><br/>A lot of \$.ajax() and float:left though<br/><br/>It has 1,872 paying customers making \$61,808 per month <a href="https://t.co/4tHqS7EgnO">pic.twitter.com/4tHqS7EgnO</a>
 </p>
 &mdash; @levelsio (@levelsio) <a href="https://twitter.com/levelsio/status/1675829733668319233?ref_src=twsrc%5Etfw">July 3, 2023</a>
 </blockquote>
 
 <blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">
-another calendar app that does &quot;boring&quot; scheduling for businesses.<br/><br/>2 founders with no funding.<br/><br/>generates $8000 MRR.<br/><br/>boring?<a href="https://t.co/La3homuc17">https://t.co/La3homuc17</a> <a href="https://t.co/NueGcPg3ML">pic.twitter.com/NueGcPg3ML</a>
+another calendar app that does &quot;boring&quot; scheduling for businesses.<br/><br/>2 founders with no funding.<br/><br/>generates \$8000 MRR.<br/><br/>boring?<a href="https://t.co/La3homuc17">https://t.co/La3homuc17</a> <a href="https://t.co/NueGcPg3ML">pic.twitter.com/NueGcPg3ML</a>
 </p>
 &mdash; staticmaker (@staticmaker1) <a href="https://twitter.com/staticmaker1/status/1678591941309784065?ref_src=twsrc%5Etfw">July 11, 2023</a>
 </blockquote>
