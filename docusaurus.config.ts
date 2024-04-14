@@ -67,10 +67,16 @@ const config: Config = {
     {
       href: 'https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css',
       type: 'text/css',
+      rel: 'preload',
+      as: 'style',
+      crossorigin: 'anonymous',
     },
     {
       href: '/font/pretendard/pretendard.css',
       type: 'text/css',
+      rel: 'preload',
+      as: 'style',
+      crossorigin: 'anonymous',
     },
   ],
   themeConfig: {
