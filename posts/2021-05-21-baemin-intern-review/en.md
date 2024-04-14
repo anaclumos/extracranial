@@ -29,7 +29,7 @@ The problems were typical coding test questions. I remember solving them in Java
 ### 2nd Coding Test
 It was a project to develop an admin tool that performs specific functions on the provided VS Code web platform. The basic boilerplate, build configuration, and CI/CD were pre-implemented, so it could be run quickly as described in the README, and we had to implement 3 core features on top of that. The use of external libraries was prohibited, and it had to be solved using only vanilla JS. The time limit was quite long at 4 hours, but I felt it was insufficient. I will omit the detailed problem-solving strategy as the staff said they couldn't share it... 😭
 ### Interview
-Due to COVID-19, it was conducted online for 30 minutes. Since it wasn't a developer recruitment interview, rather than asking in-depth technical questions, they mainly asked about whether we had a solid foundation as programmers, were ready to learn at Woowa Tech Camp, and could be good camp members. In my case, I mentioned this technical blog in my application, and they asked detailed questions about [one specific post](/ko/w/4BB66F).
+Due to COVID-19, it was conducted online for 30 minutes. Since it wasn't a developer recruitment interview, rather than asking in-depth technical questions, they mainly asked about whether we had a solid foundation as programmers, were ready to learn at Woowa Tech Camp, and could be good camp members. In my case, I mentioned this technical blog in my application, and they asked detailed questions about [one specific post](/w/4BB66F).
 ### Competition Ratio
 I was also curious about the competition ratio, and [according to what I learned later](https://woowabros.github.io/devrel/2020/08/14/tecmpcamp_july_1.html), it was as follows:
 - Total applicants: 1300+ (43+ times)  
@@ -42,7 +42,7 @@ I was also curious about the competition ratio, and [according to what I learned
 - Mini Project: Implementing a web server without Express and HTTP.  
 - Study Keywords: Node.js, JS OOP, Asynchronous Programming, Async Cafe, HTTP Specification, HTTP Basics.  
 - [Our Team's GitHub](https://github.com/woowa-techcamp-2020/anaclumos-yuda1124-sooojungee-learn-node)  
-- [My Blog Post](/ko/r/940821)
+- [My Blog Post](/r/940821)
 
 <figure>
 <DisplayFlex>
@@ -156,7 +156,7 @@ Juniors interested in studying programming often hear things like "clean code, g
 - The code is doing two tasks simultaneously. ① Fetching information and ② displaying information. In this case, the code becomes highly dependent. High dependency can lead to major surgery when part of the code needs to be replaced later.
 - Overall, the logic and view are mixed in the file, and readability is poor.
   Based on the advice, from the 3rd project onwards, I paid a lot of attention to these development patterns. I did a mini-project with a part of the 3rd project, and you can probably get a sense of what it's like.
-- [Creating a Calendar with Vanilla JS](/ko/w/F522B3)
+- [Creating a Calendar with Vanilla JS](/w/F522B3)
 
 ### 🛷 Dunning-Kruger Sledding
 
@@ -229,7 +229,7 @@ In addition, there was an overflow of things to learn, such as [naamoonoo](https
 ## 🎬 Miscellaneous and Conclusion
 
 - I tried in-depth collaboration with Git and GitHub for the first time. When doing 1-person development, there aren't many occasions to properly utilize Git's `branch` and `checkout` features. In terms of Git collaboration, I think I learned really well with GSPH \< 3.
-- The lectures in between were really good. In the lectures held every Wednesday, interesting aspects of the development and operation of Baemin's services were shown. In particular, [the lecture by developer Kim Min-tae](/ko/r/02B616) was truly impressive.
+- The lectures in between were really good. In the lectures held every Wednesday, interesting aspects of the development and operation of Baemin's services were shown. In particular, [the lecture by developer Kim Min-tae](/r/02B616) was truly impressive.
 - It was great to indirectly experience company life. To be able to experience company life at the age of 21!
 - The kind hyungs and noonas who taught us had a deep understanding. I felt that they were considerate of me. There were also many recreational activities in between, but it was a shame that the recreational activities were reduced due to COVID-19.
 - It was a truly precious experience and I gained a lot of new teachings. If my fundamentals were a bit more outstanding, I could have studied much deeper contents, so I have a bit of regret for not being able to do that. I think it has become a really good asset for my future journey.
