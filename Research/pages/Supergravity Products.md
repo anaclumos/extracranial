@@ -1,7 +1,7 @@
 ---
 lang: 'en'
 slug: '/BB903F'
-aliases: ['Boring Product']
+aliases: ['Boring Products']
 ---
 
 - Do one thing, but exceptionally well

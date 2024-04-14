@@ -14,5 +14,5 @@ Habit formation is a powerful tool that can help us achieve our goals and improv
 
 ## Past
 
-- [[Jog 25 minutes (Jan-Feb 2023)]]
+- [[Jog 25 minutes (Jan-Feb 23誠鉉)]]
 - [[2022년 11월 한 달간 일기 쓰기]]

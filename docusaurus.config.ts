@@ -1,10 +1,10 @@
 import type { Config } from '@docusaurus/types'
-import i18n from './config/i18n.config'
-import docs from './config/docs.config'
 import blog from './config/blog.config'
-import theme from './config/theme.config'
+import docs from './config/docs.config'
+import i18n from './config/i18n.config'
 import katexStylesheet from './config/katex.stylesheet'
 import navbar from './config/navbar.config'
+import theme from './config/theme.config'
 
 const config: Config = {
   title: 'Sunghyun Cho',
