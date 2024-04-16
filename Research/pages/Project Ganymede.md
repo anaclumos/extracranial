@@ -14,7 +14,9 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 ## [[2024-04-14]]
 
-Completed Read View.
+- Added text placeholders. It was surprisingly hard to do it in UITextView and I'm surprised there's no easy way of doing this.
+- Tried to modify ProgressBar but failed
+- Completed Read View.
 
 ![Funny that the only way of recording is like this, because my screenshot protection is too good!!!](../assets/7FBBE3.gif)
 

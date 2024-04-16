@@ -30,8 +30,9 @@ import Shuffle from '@site/src/components/Shuffle'
 - 무빙
 - 데블스플랜
 - 발레리나 (넷플릭스)
-- The Boys [[The U.S. is Homelander]]
+- The Boys (Amazon)
 - [[Avatar The Last Airbender]]
 - 살인자ㅇ난감
+- 삼체
 
 </Shuffle>
