@@ -140,6 +140,11 @@ const config: Config = {
       defer: true,
       'data-collect-dnt': 'true',
     },
+    {
+      src: 'https://platform.twitter.com/widgets.js',
+      async: true,
+      charset: 'utf-8',
+    },
   ],
   headTags: [
     {
