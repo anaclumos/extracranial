@@ -17,7 +17,7 @@ It should be **Super Long Range Radar**, **The Oracle's Eye**, **The ALL-SEER** 
 
 ### Imagine a workflow...
 
-At [[Karrot]], scraping the news over the internet was a daily activity.
+At [[Karrot]], [[Crawler|scraping]] the news over the internet was a daily activity.
 
 ![Like this](../assets/5FD1BE.png)
 

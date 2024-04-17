@@ -30,7 +30,7 @@ The data format utilizes [[JSON]] with the following main objects:
 
 ## Detailed Design
 
-The QA pairs are expected to be [[AI]]-generated and periodically updated. The [[AI]] crawler should be designed to interpret the content and form suitable QA pairs. Alongside these pairs, there will also be a mechanism for ranking the quality of the teams, which is expected to help improve the quality of the dataset overall.
+The QA pairs are expected to be [[AI]]-generated and periodically updated. The [[AI]] [[crawler]] should be designed to interpret the content and form suitable QA pairs. Alongside these pairs, there will also be a mechanism for ranking the quality of the teams, which is expected to help improve the quality of the dataset overall.
 
 ## Backwards Compatibility and [[Interoperability]]
 

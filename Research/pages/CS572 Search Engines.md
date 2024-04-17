@@ -22,12 +22,12 @@ A search engine comprises several key components:
 
 - **User:** The individual initiating the search query.
 - **Web:** The vast collection of interconnected documents and resources.
-- **Crawler (Spider):** A program that traverses the web to collect pages.
+- **[[Crawler]] (Spider):** A program that traverses the web to collect pages.
 - **Indexer:** The component that processes collected pages to create searchable indexes.
 - **Ads:** Targeted advertisements relevant to the user's query.
 - **Query Processor:** The engine that processes user queries, retrieves relevant results, and ranks them based on relevance and other factors.
 
-## Web Crawler Policies
+## Web [[Crawler]] Policies
 
 Web crawlers follow specific policies to dictate page selection, revisit timing, website politeness, and coordination among distributed crawlers. Strategies to maintain freshness include checking `LastModified` indicators and prioritizing dynamic or popular pages. Policies also address the frequency of revisits, with some advocating a uniform approach while others suggest a proportional strategy based on change frequency.
 
