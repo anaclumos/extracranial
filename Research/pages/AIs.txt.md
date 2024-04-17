@@ -39,7 +39,7 @@ Technically, [[Apple]]'s **App Tracking Transparency** does not ban all tracking
 
 ### Why not `LICENSE` or `COPYING.txt`?
 
-Both are mainly written in human language and cannot provide granular scraping permissions depending on the collector.
+Both are mainly written in human language and cannot provide granular [[Crawler|scraping]] permissions depending on the collector.
 Also, [[GitHub]] Copilot _ignores_ `LICENSE` or `COPYING.txt`,
 claiming we consented to Copilot using our codes for [[ML|machine learning]] by signing up and pushing code to [[GitHub]],
 We may expand the `LICENSE` system to include the terms for [[ML|machine learning]] use,

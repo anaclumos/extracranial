@@ -28,7 +28,7 @@ Think about your philosophy.
 
 Better if large, unique, accessible, and insightful.
 
-### [[Metadata]] Scraping
+### [[Metadata]] [[Crawler|Scraping]]
 
 We use Python scripts, sometimes curl, and MySQL [[database]] to store the results.
 Go through a few dozen pages to understand how that works.

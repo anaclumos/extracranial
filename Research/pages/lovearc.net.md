@@ -7,7 +7,7 @@ A small [[done]] project I've done over the weekend
 
 ## Objectives
 
-1. practice with [[Twitter]] scraping technologies
+1. practice with [[Twitter]] [[Crawler|scraping]] technologies
 2. get some [[Arc Browser]] stickers
 
 ## Key Results
