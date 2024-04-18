@@ -21,11 +21,6 @@
   height: 10rem;
   border: none;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.diceButton:hover {
-  background-color: var(--ifm-color-emphasis-200);
 }
 
 .dice {
