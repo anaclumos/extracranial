@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/36CA8C'
 ---
 
+- [Hardest Problem in Computer Science: Centering Things @ tonsky.me](https://tonsky.me/blog/centering/)
+
 ## Web
 
 ```css
