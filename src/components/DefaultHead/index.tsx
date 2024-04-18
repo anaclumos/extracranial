@@ -19,8 +19,8 @@ const index = () => {
       <meta name="description" content={siteConfig.tagline} />
       <meta property="og:title" content={siteConfig.title} />
       <meta property="og:description" content={siteConfig.tagline} />
-      <link rel="icon" href="img/favicon.svg" />
-      <link rel="icon" href="img/favicon.ico" />
+      <link rel="icon" href="https://cho.sh/img/favicon.svg" />
+      <link rel="icon" href="https://cho.sh/img/favicon.ico" />
       <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png" />
       <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png" />
       <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png" />
