@@ -4,7 +4,7 @@ slug: '/FD1D7A'
 aliases: ['시공간적 연속성 (19誠鉉?)']
 ---
 
-# Time-Space Continuum (19誠鉉?)
+# Time-Space Continuum (19[[誠鉉]]?)
 
 우리는 대개 시간과 공간이 변함에 따라 우리의 기억과 철학을 초기화하는 경향이 있다.
 
