@@ -34,5 +34,6 @@ import Shuffle from '@site/src/components/Shuffle'
 - [[Avatar The Last Airbender]]
 - 살인자ㅇ난감
 - 삼체
+- 눈물의 여왕
 
 </Shuffle>

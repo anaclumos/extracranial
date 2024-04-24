@@ -18,21 +18,21 @@ import Shuffle from '@site/src/components/Shuffle'
 - Pokemon Scarlet (Switch OLED)
 - \_전언 (Steam Deck OLED)
 - Palworld (Steam Deck OLED)
-- Astro's Playroom (PS5)
+- Astro's Playroom (PS5 Slim)
 - Spiderman Remastered (Steam Deck OLED)
+- The Last of Us Part 2 (PS5 Slim)
 
 </Shuffle>
 
 ## Doing
 
-- The Last of Us Part 2
+- Spiderman Miles Morales (PS5)
 
 ## Planned
 
 - Spiderman 2
 - Death Stranding 2
 - 완다와 거상 (PS5?)
-- Spiderman Miles Morales (PS5?)
 - Ratchet & Clank: Rift Apart (PS5?)
 - Returnal (PS5?)
 - Ghost of Tsushima (PS5?)
