@@ -14,7 +14,7 @@ I am building [[Project Ganymede]]. It's a social app, but we will build it pure
 
 Apple is Jupiter. You can NEVER win Apple. All attempts to overthrow iMessage failed. iMessage is Apple's moat to gather more customers, and therefore iMessage social network system is getting more and more powerful. However, iMessage lacks so many features. They literally took 10 years to add "edit messages". So I think I can have an edge.
 
-iMessage is a massive system, just like Jupiter. Compared to that, Snapchat, Messenger, and Instagram are Mars, Mercury, or... any other planet... small.
+iMessage is a massive system, just like Jupiter. Compared to that, Snapchat, Messenger, and [[Meta (Company)|Instagram]] are Mars, Mercury, or... any other planet... small.
 
 Therefore, I choose to become a moon. I will ride on top of Apple. I will be the moon of Jupiter. I will harness the best of the best of Apple. And a moon can grow to a huge scale, just like [[Project Ganymede|Ganymede]] is bigger than Mercury. That is, I can easily outsize mediocre social networks by harnessing the most out of Apple's ecosystem.
 
@@ -29,7 +29,7 @@ We could've named it Project **Remora**, but I think [[Project Ganymede|Ganymede
 
 Apple은 목성입니다. Apple을 이길 수는 없습니다. 아이메시지를 전복하려는 모든 시도는 실패했습니다. 아이메시지는 더 많은 고객을 모으기 위한 애플의 해자이며, 따라서 아이메시지의 소셜 네트워크 시스템은 점점 더 강력해지고 있습니다. 그러나 iMessage에는 기능이 너무 부족합니다. 말 그대로 '메시지 편집' 기능을 추가하는 데 10년이 걸렸습니다. 그래서 제가 우위를 점할 수 있다고 생각합니다.
 
-아이메시지는 목성처럼 거대한 시스템입니다. 그에 비하면 스냅챗, 메신저, 인스타그램은 화성이나 수성, 또는 다른 행성 정도입니다. 목성에 비하면 아주 작죠.
+아이메시지는 목성처럼 거대한 시스템입니다. 그에 비하면 스냅챗, 메신저, [[Meta (Company)|인스타그램]]은 화성이나 수성, 또는 다른 행성 정도입니다. 목성에 비하면 아주 작죠.
 
 그래서 저는 달이 되기로 했습니다. 애플 위에 올라타겠습니다. 나는 목성의 달이 될 것입니다. 그리고 예상하시는 것과 다르게 달은 무진장 커질 수 있습니다. 가니메데가 수성보다 더 크거든요. 즉, Apple의 생태계를 최대한 활용하면 평범한 소셜 네트워크의 규모를 쉽게 능가할 수 있습니다.
 

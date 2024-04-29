@@ -51,13 +51,13 @@ The transcript tab is also not only non-chronological, but also mixed up. It sta
 
 I must acknowledge the app is surprisingly polished for a day one product, and I'll daily drive this.
 
-Ideally I hope Limitless and Rewind merge into 1 product, because now my data is split across tools.
+Ideally I hope Limitless and [[Rewind]] merge into 1 product, because now my data is split across tools.
 
 I even preordered the Pendant last year, guess I made a good bet!
 
 ![[9A10B9.jpg]]
 
-If that ever happens, it'll also be interesting to see how Limitless handles the data migration with Rewind.
+If that ever happens, it'll also be interesting to see how Limitless handles the data migration with [[Rewind]].
 
 Not a lot of service update requires you to upload 100 gigs of videos.
 
@@ -65,7 +65,7 @@ I still trust Limitless team that they'll make it as smooth as possible
 
 ![[AEB7B5.jpg]]
 
-I have a huge trust in Rewind because they didn't just jumped on a hype train.
+I have a huge trust in [[Rewind]] because they didn't just jumped on a hype train.
 
 They actually thought of a good use case of AI:
 

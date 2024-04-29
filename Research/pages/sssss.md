@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 
 Supersedes [[Shortcuts]]
 
-## sunghyun's super streamlined shortcuts setup
+## sunghyun's super streamlined [[shortcuts]] setup
 
 [anaclumos/sssss: sunghyun's super streamlined shortcuts setup](https://github.com/anaclumos/sssss)
 

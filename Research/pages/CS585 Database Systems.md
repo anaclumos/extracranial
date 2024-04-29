@@ -655,7 +655,7 @@ environment in which data can be managed and used to work with the data in the D
 
 ## DDBMS
 
-- Distributed DB management system (DDBMS): Governs storage and processing of logically related data over interconnected computer systems
+- Distributed DB management system (DDBMS): Governs storage and processing of logically related data over interconnected [[computer systems]]
 - goods. Data are located near the greatest demand site. Faster data access and processing. Growth facilitation. Improved communications. Reduced operating costs. User-friendly interface. Less danger of a single-point failure. Processor independence
 - bads. Complexity of management and control. Technological difficulty. Security. Lack of standards. Increased storage and infrastructure requirements. Increased training cost. Costs incurred due to the requirement of duplicated infra. Remote access is provided on a read-only basis. Restrictions on the number of remote tables accessed in a single transaction. Restrictions on the number of distinct DBs that may be accessed. Restrictions on the DB model that may be accessed. Concurrency control is important in a distributed DB environment
 

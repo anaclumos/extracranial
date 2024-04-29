@@ -8,7 +8,7 @@ slug: '/8B3C7F'
 - [[Swift Macro]]
 - [[SwiftData]]
 - [[WidgetKit]] → Interactivity. Also possible to trigger some code when the button is clicked. Can it be used as a "refresh" button?
-- [[App Intents]] → Can be used as Shortcuts and Siri commands
+- [[App Intents]] → Can be used as [[Shortcuts]] and Siri commands
 - [[TipKit]] → Displays some Tooltips
 - [[AirDrop]] improvements for in-app contents
 - [[Game Porting Toolkit]] → automatic HLSL conversion

@@ -13,7 +13,7 @@ collections of exquisite software that i happily paid for premium
 
 ## like
 
-- ([[Fiercely Overpriced|paywalled]]) [[Texts (Service)]]
+- ([[Fiercely Overpriced|paywalled]]) [[Texts (Service)]] and [[Beeper]]
 - ([[Fiercely Overpriced|paywalled]]) optimage
 - ([[Fiercely Overpriced|paywalled]]) clean my mac
 - ([[Fiercely Overpriced|paywalled]]) alfred (now using [[raycast]])
