@@ -144,7 +144,7 @@ Facebook et al. will complain, and legal pushback is likely. Still, they would h
 
 Four qualities of persuasive technology stand out on which legal experts could construct a definitive argument:
 
-1. Privileged Information: With sophisticated psychological profiles, thousands of data points, and years of meta-data on every user, social media companies have a comprehensive set of privileged information.
+1. Privileged Information: With sophisticated psychological profiles, thousands of data points, and years of [[meta]]-data on every user, social media companies have a comprehensive set of privileged information.
 2. Statistical Influenceability: If a particular feature or design change influences real-world behaviors with statistical reliability, that's a sound basis for undue influence.
 3. Asymmetry of Power: Facebook's data and its ability to use it to modify user behavior are orders of magnitude greater than the average user's awareness, understanding, and ability to protect themselves from that manipulation.
 4. Lack of Informed Consent: Most users have no clue that an algorithm — let alone weapons-grade behavioral modification technology — is playing against them. Facebook's research shows that they can shape emotions and behavior without triggering the users' awareness.
@@ -343,7 +343,7 @@ If we can do it, Facebook can too.
 
 법률 전문가들이 확정적인 논증을 구성할 수 있는 설득력 있는 기술의 네 가지 특징이 눈에 띈다:
 
-1. 특권 정보: 정교한 심리 프로파일, 수천 개의 데이터 포인트, 모든 사용자에 대한 수년간의 메타 데이터를 가진 소셜 미디어 회사는 포괄적인특권 정보 집합을 가지고 있다.
+1. 특권 정보: 정교한 심리 프로파일, 수천 개의 데이터 포인트, 모든 사용자에 대한 수년간의 [[Meta|메타]] 데이터를 가진 소셜 미디어 회사는 포괄적인특권 정보 집합을 가지고 있다.
 2. 통계적 영향력: 특정한 특징이나 디자인 변화가 통계적 신뢰성을 가지고 실제 행동에 영향을 준다면, 그것은 과도한 영향력의 타당한 근거가 된다.
 3. 힘의 비대칭: 페이스북의 데이터와 그것을 사용하여 사용자의 행동을 수정하는 능력은 그 조작으로부터 자신을 보호하는 평균적인 사용자의 인식, 이해 및 능력보다 훨씬 더 크다.
 4. 정보에 입각한 동의 부족: 대부분의 사용자들은 무기급 행동 수정 기술은 말할 것도 없고 알고리즘이 자신들과 맞서고 있다는 것을 전혀 알지 못한다. 페이스북의 연구는 사용자들의 인식을 유발하지 않고 감정과 행동을 형성할 수 있다는 것을 보여준다.
