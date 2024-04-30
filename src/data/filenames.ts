@@ -849,6 +849,7 @@ export const filenames = {
     "CITATION.cff": "7A357B",
     "CJK": "F13C58",
     "CMDK": "9D1F64",
+    "CMS": "67A8C4",
     "CODE Procedure": "D6FDF3",
     "CPU": "F2202E",
     "CS Colloquium": "6CF6CB",

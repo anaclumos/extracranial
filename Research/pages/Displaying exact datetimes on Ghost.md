@@ -4,7 +4,7 @@ slug: '/522AED'
 
 [[2020-04-26]]
 
-If your Ghost CMS blog using Handlebars theme shows published dates in relative time (like _Published 11 months ago_), you will find a handlebars code like this in your theme file.
+If your Ghost [[CMS]] blog using Handlebars theme shows published dates in relative time (like _Published 11 months ago_), you will find a handlebars code like this in your theme file.
 
 ```hbs
 <time datetime='{{date format='YYYY-MM-DD'}}'>
