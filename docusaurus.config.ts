@@ -44,6 +44,10 @@ const config: Config = {
         docs: docs,
         blog: blog,
         theme: theme,
+        gtag: {
+          trackingID: 'G-7GMRW82QVZ',
+          anonymizeIP: true,
+        },
       },
     ],
     [
@@ -57,15 +61,6 @@ const config: Config = {
             return ['/r/000000']
           }
           return undefined
-        },
-      },
-    ],
-    [
-      '@docusaurus/preset-classic',
-      {
-        gtag: {
-          trackingID: 'G-7GMRW82QVZ',
-          anonymizeIP: true,
         },
       },
     ],
