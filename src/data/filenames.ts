@@ -1583,6 +1583,7 @@ export const filenames = {
     "Obsidian": "4AAFB1",
     "Obsidian Ava": "653103",
     "Obsidian Print Force Pagebreak": "B97A99",
+    "Obsidian 과거의 오늘": "829DE7",
     "Odds": "68DFA7",
     "Old Fashioned Camera": "C46EC1",
     "On National Crises and the Intellectuals — Focused on GB and KR": "48A308",
