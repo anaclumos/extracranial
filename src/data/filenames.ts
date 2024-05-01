@@ -1728,6 +1728,7 @@ export const filenames = {
     "Project Calenzano": "DFC453",
     "Project Core ML Foundation": "77A2F7",
     "Project Core ML Inference": "5E2A4E",
+    "Project Day One Exodus": "AADB27",
     "Project FFMpeg for iPad": "696FEF",
     "Project Fiesole": "C26E1C",
     "Project Florence": "8429A4",
