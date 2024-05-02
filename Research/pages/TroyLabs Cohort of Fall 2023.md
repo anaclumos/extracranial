@@ -26,4 +26,4 @@ slug: '/6A8C64'
 - Yelp alternative
 - Yelp is dying
 - Open Source Review Content
-  - Long-form Restaurant Content (Like Beehiiv, Medium)
+  - Long-form Restaurant Content (Like [[Beehiiv]], Medium)
