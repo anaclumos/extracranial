@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/4DDF86'
 ---
 
-- [[Thought Experiment]]
+- [[성현적 발상]]
 - [[Governance Model]]
 
 ## Introduction

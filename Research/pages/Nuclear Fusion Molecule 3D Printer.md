@@ -4,7 +4,7 @@ slug: '/214F64'
 aliases: ['핵융합 분자프린터', '핵융합 분자 프린터']
 ---
 
-[[Thought Experiment]]
+[[성현적 발상]]
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

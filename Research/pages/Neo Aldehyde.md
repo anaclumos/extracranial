@@ -16,3 +16,5 @@ What would the future of [[Aldehyde]] look like?
 - Post-level linking and privacy control
 - collectible (nfts& physical)
 - bookstacks
+- mp4 attach
+- markright - multilingual? 덧말 강조점 (`ruby`)
