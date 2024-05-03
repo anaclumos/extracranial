@@ -1344,6 +1344,7 @@ export const filenames = {
     "JavaScript Arrow Functions vs JavaScript Functions": "BF967C",
     "JavaScript heap out of memory": "B5FC98",
     "Jeff Bezos": "F6BE94",
+    "Jesse Lyu": "43580B",
     "Jest": "6B63CA",
     "Jetbrains": "40FF29",
     "Jetbrains Fleet": "CCC9CB",
