@@ -26,36 +26,4 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Mon May 6 22:10:32 PDT 2024
-
-## Stats
-
-```
-───────────────────────────────────────────────────────────────────────────────
-Language                 Files     Lines   Blanks  Comments     Code Complexity
-───────────────────────────────────────────────────────────────────────────────
-Markdown                  2553     66263    17430         0    48833          0
-CSS                         64     18836      760        21    18055          0
-TypeScript                  62     21175      290        88    20797        196
-JSON                        15      1625        0         0     1625          0
-SVG                          9         9        0         0        9          0
-YAML                         9     21491     4016         0    17475          0
-Python                       8       885       60        33      792         97
-Plain Text                   3       103       18         0       85          0
-TypeScript Typings           2        15        1         4       10          0
-Dockerfile                   1        10        0         0       10          1
-INI                          1         1        0         0        1          0
-JavaScript                   1        19        3        12        4          0
-TOML                         1         3        0         0        3          0
-gitignore                    1       288       69        69      150          0
-───────────────────────────────────────────────────────────────────────────────
-Total                     2730    130723    22647       227   107849        294
-───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,681,732
-Estimated Schedule Effort (organic) 22.57 months
-Estimated People Required (organic) 14.49
-───────────────────────────────────────────────────────────────────────────────
-Processed 6177062 bytes, 6.177 megabytes (SI)
-───────────────────────────────────────────────────────────────────────────────
-
-```
+Mon May 6 22:46:11 PDT 2024
