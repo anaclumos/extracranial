@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/A18D7B'
 ---
 
+[[Design Trend]]
+
 [[UIUX]]
 
 [[Block Protocol]]

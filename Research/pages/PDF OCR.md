@@ -5,4 +5,4 @@ slug: '/50FAD6'
 
 [[PDF]] [[OCR]] Tool
 
-[Link](https://www.pdf2go.com/create-searchable-pdf)
+[OCRmyPDF documentation](https://ocrmypdf.readthedocs.io/en/latest/index.html)
