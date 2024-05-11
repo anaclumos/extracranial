@@ -16,3 +16,7 @@ Location history
 Music history
 
 Friend connect history
+
+gpt transcripts
+
+should be a wiki engine
