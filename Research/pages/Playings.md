@@ -21,12 +21,13 @@ import Shuffle from '@site/src/components/Shuffle'
 - Astro's Playroom (PS5 Slim)
 - Spiderman Remastered (Steam Deck OLED)
 - The Last of Us Part 2 (PS5 Slim)
+- Spiderman Miles Morales (PS5)
 
 </Shuffle>
 
 ## Doing
 
-- Spiderman Miles Morales (PS5)
+-
 
 ## Planned
 
@@ -40,3 +41,6 @@ import Shuffle from '@site/src/components/Shuffle'
 ## Stopped
 
 - Horizon Zero Dawn
+- Outer Wilds
+- Mass Effect
+- Control

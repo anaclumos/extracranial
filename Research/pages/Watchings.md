@@ -35,5 +35,6 @@ import Shuffle from '@site/src/components/Shuffle'
 - 살인자ㅇ난감
 - 삼체
 - 눈물의 여왕
+- Dune 1 and 2
 
 </Shuffle>
