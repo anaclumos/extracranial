@@ -15,9 +15,9 @@ const getMostRecentJournalLink = () => {
 }
 
 const navbar = {
-  title: 'Sunghyun Cho',
+  title: 'Sunghyun "Siwoo" Cho',
   logo: {
-    alt: 'Sunghyun Cho Logo',
+    alt: 'Sunghyun "Siwoo" Cho Logo',
     src: '/img/favicon.svg',
     width: 32,
     height: 32,
