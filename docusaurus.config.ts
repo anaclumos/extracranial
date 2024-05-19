@@ -6,7 +6,7 @@ import navbar from './config/navbar.config'
 import theme from './config/theme.config'
 
 const config: Config = {
-  title: 'Sunghyun Cho',
+  title: 'Sunghyun "Siwoo" Cho',
   tagline: 'I am Sunghyun Cho, traveling the WWW.',
   titleDelimiter: '@',
   url: 'https://cho.sh',

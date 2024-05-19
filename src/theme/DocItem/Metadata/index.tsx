@@ -7,7 +7,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 export default function DocItemMetadata(): JSX.Element {
   const { metadata, frontMatter, assets } = useDoc()
   const { i18n } = useDocusaurusContext()
-  const name = i18n.currentLocale === 'ko' ? '조성현' : 'Sunghyun Cho'
+  const name = i18n.currentLocale === 'ko' ? '시우 조성현' : 'Sunghyun "Siwoo" Cho'
   return (
     <>
       <Head>
