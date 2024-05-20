@@ -7,7 +7,7 @@ import theme from './config/theme.config'
 
 const config: Config = {
   title: 'Sunghyun "Siwoo" Cho',
-  tagline: 'I am Sunghyun Cho, traveling the WWW.',
+  tagline: 'I am Sunghyun "Siwoo" Cho, traveling the WWW.',
   titleDelimiter: '@',
   url: 'https://cho.sh',
   baseUrl: '/',
