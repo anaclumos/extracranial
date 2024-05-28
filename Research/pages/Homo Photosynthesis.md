@@ -1,7 +1,10 @@
 ---
 lang: 'en'
 slug: '/D7EC42'
+aliases: ['광합성 인간']
 ---
+
+[[성현적 발상]]
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
