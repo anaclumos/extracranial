@@ -23,6 +23,7 @@
   word-wrap: break-word;
   word-break: keep-all;
   user-select: none;
+  white-space: pre-wrap;
 }
 
 .intro img {
