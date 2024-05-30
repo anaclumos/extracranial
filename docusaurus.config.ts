@@ -69,36 +69,10 @@ const config: Config = {
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css',
       type: 'text/css',
-      rel: 'preload',
-      as: 'style',
-      crossorigin: 'anonymous',
-    },
-    {
-      href: 'https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css',
-      type: 'text/css',
-      rel: 'preload',
-      as: 'style',
-      crossorigin: 'anonymous',
-    },
-    {
-      href: '/font/pretendard/pretendard.css',
-      type: 'text/css',
-      rel: 'preload',
-      as: 'style',
-      crossorigin: 'anonymous',
-    },
-    {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css',
-      type: 'text/css',
       rel: 'stylesheet',
     },
     {
       href: 'https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css',
-      type: 'text/css',
-      rel: 'stylesheet',
-    },
-    {
-      href: '/font/pretendard/pretendard.css',
       type: 'text/css',
       rel: 'stylesheet',
     },

@@ -24,6 +24,7 @@
   word-break: keep-all;
   user-select: none;
   white-space: pre-wrap;
+  letter-spacing: -0.05rem;
 }
 
 .intro img {
