@@ -1,8 +1,65 @@
 @import url('./navbar.css');
 @import url('./color.css');
-@import url('./font.css');
 @import url('./external-link.css');
 @import url('./graph.css');
+
+* {
+  --ifm-font-family-base: 'Pretendard Variable', 'Tossface', 'SF Pro', system-ui, -apple-system, BlinkMacSystemFont,
+    ui-sans-serif, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important;
+  --font-family-sans-serif: var(--ifm-font-family-base);
+  --font-family-headline: var(--ifm-font-family-base);
+  --font-family-monospace: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-headline);
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+dt,
+fieldset,
+form,
+legend,
+li,
+main,
+ol,
+p,
+pre,
+ul,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+button,
+input,
+textarea {
+  font-family: var(--font-family-sans-serif);
+}
+
+pre,
+code {
+  font-family: var(--font-family-monospace);
+}
 
 @media screen and (min-width: 996px) {
   .navbar__inner {

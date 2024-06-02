@@ -76,6 +76,13 @@ const config: Config = {
       type: 'text/css',
       rel: 'stylesheet',
     },
+    {
+      href: 'https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.min.css',
+      type: 'text/css',
+      rel: 'stylesheet',
+      as: 'style',
+      crossorigin: true,
+    },
   ],
   themeConfig: {
     algolia: {
