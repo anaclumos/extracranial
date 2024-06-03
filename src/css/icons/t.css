@@ -852,8 +852,8 @@ article a[href*='https://www.twitter.com']::before,
 article a[href*='https://blog.twitter.com']::before
 {
   content: '\00a0';
-  -webkit-mask-image: url('https://simpleicons.org/icons/twitter.svg');
-  mask-image: url('https://simpleicons.org/icons/twitter.svg');
+  -webkit-mask-image: url('https://simpleicons.org/icons/x.svg');
+  mask-image: url('https://simpleicons.org/icons/x.svg');
 }
 article a[href*='https://twoo.com']::before,
 article a[href*='https://www.twoo.com']::before
