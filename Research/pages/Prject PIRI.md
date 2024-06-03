@@ -13,6 +13,10 @@ Providing [[무제한번역|unlimited translations]] for major developer documen
 
 </Admonition>
 
+## [[2024-06-03]]
+
+- Finished [[Project DANSO]], at least the first usable version
+
 ## [[2024-05-30]] — Subdomain or Subdirectory?
 
 ### Subdirectory `piri.dev/ko/react`
