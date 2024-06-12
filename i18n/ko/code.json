@@ -270,7 +270,7 @@
   },
   "theme.common.editThisPage": {
     "description": "The link label to edit the current page",
-    "message": "GitHub에서 편집하거나 최종 수정 시간 확인"
+    "message": "편집 또는 최종 수정 시간 확인"
   },
   "theme.common.headingLinkTitle": {
     "description": "Title for link to heading",
