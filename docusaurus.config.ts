@@ -54,10 +54,11 @@ const config: Config = {
       '@docusaurus/plugin-client-redirects',
       {
         createRedirects(existingPath) {
+          console.log('Existing Path:', existingPath)
           if (existingPath.includes('/blog') || existingPath.includes('/research')) {
             return [existingPath.replace('/blog/', '/w/'), existingPath.replace('/research/', '/r/')]
           }
-          if (existingPath === '/r') {
+          if (existingPath.endsWith('/r') || existingPath.endsWith('/r/')) {
             return ['/r/000000']
           }
           return undefined
