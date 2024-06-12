@@ -52,14 +52,14 @@ const navbar = {
       position: 'left',
     },
     {
-      href: 'https://hn.cho.sh/subscribe',
+      href: 'https://siw.ooo/',
       label: 'Newsletters',
       position: 'left',
       className: 'navbar-hn-en-link',
       'aria-label': 'Newsletters',
     },
     {
-      href: 'https://hn.cho.sh/ko/subscribe',
+      href: 'https://siw.ooo/',
       label: '뉴스레터',
       position: 'left',
       className: 'navbar-hn-ko-link',
