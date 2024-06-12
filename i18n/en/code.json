@@ -270,7 +270,7 @@
   },
   "theme.common.editThisPage": {
     "description": "The link label to edit the current page",
-    "message": "Edit or Check Last Updated Time on GitHub"
+    "message": "Edit or Check Timestamp"
   },
   "theme.common.headingLinkTitle": {
     "description": "Title for link to heading",
