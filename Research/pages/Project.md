@@ -14,8 +14,8 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 
 ## Ongoing Projects
 
-- [[Project Naroo]]
 - [[역사의 집대성]]
+- [[Project Millionaire]]
 - [[Project Ganymede]]
-- [[Project Florence]] and its subprojects
-- [[Project PIRI (Performant & Interoperable Rendering Infrastructure)]]
+- [[Prject PIRI]]
+- [[Project DOGO]]?
