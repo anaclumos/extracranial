@@ -12,6 +12,10 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - Callisto is the code name for MessagesExtension
 - Europa is the code name for Encryption Key Exchange Server
 
+## [[2024-06-12]]
+
+- [[Complete Reconsideration of Project Ganymede]]
+
 ## [[2024-04-14]]
 
 - Added text placeholders. It was surprisingly hard to do it in UITextView and I'm surprised there's no easy way of doing this.
