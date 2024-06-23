@@ -3,6 +3,10 @@ lang: 'en'
 slug: '/13A69C'
 ---
 
+## [U.S. Senate passes bill to support advanced nuclear energy deployment](https://www.reuters.com/business/energy/us-senate-passes-bill-support-advanced-nuclear-energy-deployment-2024-06-19/)
+
+The U.S. Senate passed the ADVANCE Act, a bill to boost nuclear energy by streamlining permits and offering incentives for advanced nuclear reactors. The bill, supported by both parties, aims to decarbonize power and ensure reliable electricity. It reduces regulatory costs, establishes prizes for next-gen reactors, and speeds up site licensing. The bill, which previously passed the House, now awaits President Biden's signature. Critics urge caution over safety concerns with new reactor technologies.
+
 ## [Oklo SPAC: Sam Altman interview on why he's backing micronuclear](https://www.cnbc.com/2023/07/11/sam-altman-talks-about-oklo-nuclear-microreactor-spac.html)
 
 Oklo, a startup focusing on advanced nuclear fission microreactors, announced its plans to go public through a merger with special purpose acquisition company (SPAC) AltC Acquisition Corp. The SPAC was co-founded by [[OpenAI]] CEO Sam Altman, who also serves as the chairman of Oklo's board. The deal is expected to close by early 2024 and could raise $500 million for Oklo.
