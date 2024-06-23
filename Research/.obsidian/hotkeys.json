@@ -1,0 +1,104 @@
+{
+  "daily-notes": [
+    {
+      "modifiers": ["Mod"],
+      "key": "T"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": ["Mod"],
+      "key": "\\"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": ["Mod"],
+      "key": "["
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": ["Mod"],
+      "key": "]"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": ["Mod"],
+      "key": "M"
+    }
+  ],
+  "theme:use-dark": [
+    {
+      "modifiers": ["Mod"],
+      "key": "D"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:insert-link": [],
+  "daily-notes:goto-next": [
+    {
+      "modifiers": ["Mod"],
+      "key": "ArrowDown"
+    }
+  ],
+  "random-note": [
+    {
+      "modifiers": ["Mod"],
+      "key": "R"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": ["Alt"],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": ["Alt"],
+      "key": "ArrowUp"
+    }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "modifiers": ["Mod"],
+      "key": "ArrowUp"
+    }
+  ],
+  "review-daily-notes:Review Daily Notes": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "R"
+    }
+  ],
+  "app:delete-file": [],
+  "editor:follow-link": [
+    {
+      "modifiers": ["Alt"],
+      "key": "Enter"
+    }
+  ],
+  "editor:open-search-replace": [
+    {
+      "modifiers": ["Mod"],
+      "key": "F"
+    }
+  ],
+  "editor:open-search": [],
+  "workspace:close-window": [],
+  "workspace:new-tab": [],
+  "obsidian-minimal-settings:toggle-minimal-focus-mode": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "E"
+    }
+  ],
+  "app:open-vault": [
+    {
+      "modifiers": ["Mod"],
+      "key": "K"
+    }
+  ]
+}

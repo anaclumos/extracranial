@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "da22c9180408ed26",
+    "type": "split",
+    "children": [
+      {
+        "id": "701ee27728c12c29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "197d71a622ed24b3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "08b8296d71892044",
+    "type": "split",
+    "children": [
+      {
+        "id": "693624a97aba78de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d0d093b8a0123e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "04271c5af67e7ff9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "starfish",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7934f64e9b33a554",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "100954c9588fb2da",
+    "type": "split",
+    "children": [
+      {
+        "id": "3674dd9c8cea372e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b32ab3d00925fb11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "ccb54d97d81afb0e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "2a3d6bd990993d45",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "9ef8b8ef0e613224",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 340.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "197d71a622ed24b3",
+  "lastOpenFiles": [
+    "journals/2024-06-23.md",
+    "assets/ACE17A.png",
+    "journals/2024-06-21.md",
+    "journals/2023-06-23.md",
+    "assets/F866C8.png",
+    "pages/Internal Tool.md",
+    "pages/Icon Provider.md",
+    "pages/Event Capture.md",
+    "pages/Django Rest Framework.md",
+    "journals/2024-06-20.md",
+    "pages/Python Environment Management.md",
+    "journals/2024-06-19.md",
+    "journals/2024-06-18.md",
+    "journals/2024-06-12.md",
+    "journals/2024-06-17.md",
+    "pages/Untitled.md",
+    "pages/Timed Terminal Commands.md",
+    "pages/Grammarly Work Note 2023-06-13.md",
+    "journals/2024-06-13.md",
+    "pages/Project.md",
+    "pages/Project DOGO.md",
+    "pages/Prject PIRI.md",
+    "pages/Project Starfish.md",
+    "journals/2023-10-19.md",
+    "pages/Project Padme.md",
+    "pages/Project Millionaire.md",
+    "assets/1FC9F0.jpg",
+    "pages/Pushing the Urgency.md",
+    "assets/903241.png",
+    "assets/355174.png",
+    "assets/F2BA47.png",
+    "assets/8AD4A7.png",
+    "assets/71AD24.png",
+    "assets/505D55.png",
+    "assets/E5A785.png",
+    "assets/CB8F15.heic",
+    "assets/F80E81.heic",
+    "assets/804F38.heic",
+    "assets/E05A90.heic",
+    "assets/380540.heic",
+    "assets/3D8883.heic",
+    "assets/EBE739.heic",
+    "assets/2F65C9.png.sb-df3ed59d-Bmok2d",
+    "assets/FDD149.mp4",
+    "assets/1C6908.mp4",
+    "Untitled.canvas"
+  ]
+}
