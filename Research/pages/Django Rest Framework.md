@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/19871A'
+aliases: ['DRF']
 ---
 
 Django REST Framework (DRF) is a powerful and flexible toolkit for building Web APIs using the Django web framework. It is built on top of Django and provides a set of tools, classes, and functionalities to simplify the creation of RESTful APIs.
@@ -45,3 +46,7 @@ DRF looks for the `Accept` header. If it's empty, it defaults to JSON. If it is 
 - `django-admin startproject tutorial` → Starts a new project
 - `python manage.py makemigrations snippets` → Inside the `snippets` project, make migration files to reflect that to the DB
 - `python manage.py migrate snippets` → Run that migrations
+
+## WSGI
+
+See [[WSGI]]
