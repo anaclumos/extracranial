@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "701ee27728c12c29",
+        "id": "7e7e5f31fa7c1045",
         "type": "tabs",
         "children": [
           {
-            "id": "197d71a622ed24b3",
+            "id": "0da8c22a9e252395",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/LLM Namecard.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pages/LLM Namecard.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/LLM Namecard.md"
+              }
             }
           },
           {
@@ -113,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/LLM Namecard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,9 +152,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "197d71a622ed24b3",
+  "active": "0da8c22a9e252395",
   "lastOpenFiles": [
+    "journals/2024-06-24.md",
+    "pages/LLM Namecard.md",
+    "pages/Guillermo Rauch.md",
+    "pages/WSGI.md",
+    "pages/CSRF.md",
     "journals/2024-06-23.md",
+    "pages/글감.md",
     "assets/ACE17A.png",
     "journals/2024-06-21.md",
     "journals/2023-06-23.md",
@@ -167,12 +182,7 @@
     "pages/Project.md",
     "pages/Project DOGO.md",
     "pages/Prject PIRI.md",
-    "pages/Project Starfish.md",
-    "journals/2023-10-19.md",
-    "pages/Project Padme.md",
-    "pages/Project Millionaire.md",
     "assets/1FC9F0.jpg",
-    "pages/Pushing the Urgency.md",
     "assets/903241.png",
     "assets/355174.png",
     "assets/F2BA47.png",
