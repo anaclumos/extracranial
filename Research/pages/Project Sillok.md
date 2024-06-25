@@ -16,8 +16,8 @@ slug: '/8495D7'
 
 ## Nice to haves
 
-### Sidenotes
+### [Microfeatures I Love in Blogs and Personal Websites](https://danilafe.com/blog/blog_microfeatures/)
 
-### Dialogues
-
-### Code Blocks with Origin
+- Sidenotes (Not Footnotes)
+- Dialogues
+- Code Blocks with Origin

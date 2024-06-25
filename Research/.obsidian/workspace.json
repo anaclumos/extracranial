@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Project Sillok.md",
-                "mode": "preview",
+                "file": "journals/2024-06-25.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/Project Sillok.md",
+                "file": "journals/2024-06-25.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Project Sillok.md"
+                "file": "journals/2024-06-25.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Project Sillok.md",
+                "file": "journals/2024-06-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +154,7 @@
   },
   "active": "0da8c22a9e252395",
   "lastOpenFiles": [
+    "pages/Project Sillok.md",
     "journals/2024-06-25.md",
     "pages/Prject PIRI.md",
     "pages/Python Environment Management.md",
@@ -184,7 +185,6 @@
     "pages/Timed Terminal Commands.md",
     "pages/Grammarly Work Note 2023-06-13.md",
     "journals/2024-06-13.md",
-    "pages/Project.md",
     "assets/1FC9F0.jpg",
     "assets/903241.png",
     "assets/355174.png",
