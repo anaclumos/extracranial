@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/LLM Namecard.md",
+                "file": "pages/Project Sillok.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "starfish",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/LLM Namecard.md",
+                "file": "pages/Project Sillok.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/LLM Namecard.md"
+                "file": "pages/Project Sillok.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/LLM Namecard.md",
+                "file": "pages/Project Sillok.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,8 +154,14 @@
   },
   "active": "0da8c22a9e252395",
   "lastOpenFiles": [
-    "journals/2024-06-24.md",
+    "journals/2024-06-25.md",
+    "pages/Prject PIRI.md",
+    "pages/Python Environment Management.md",
+    "assets/E048B0.png",
+    "assets/7AB192.png",
+    "assets/401B03.jpeg",
     "pages/LLM Namecard.md",
+    "journals/2024-06-24.md",
     "pages/Guillermo Rauch.md",
     "pages/WSGI.md",
     "pages/CSRF.md",
@@ -170,7 +176,6 @@
     "pages/Event Capture.md",
     "pages/Django Rest Framework.md",
     "journals/2024-06-20.md",
-    "pages/Python Environment Management.md",
     "journals/2024-06-19.md",
     "journals/2024-06-18.md",
     "journals/2024-06-12.md",
@@ -180,16 +185,11 @@
     "pages/Grammarly Work Note 2023-06-13.md",
     "journals/2024-06-13.md",
     "pages/Project.md",
-    "pages/Project DOGO.md",
-    "pages/Prject PIRI.md",
     "assets/1FC9F0.jpg",
     "assets/903241.png",
     "assets/355174.png",
     "assets/F2BA47.png",
     "assets/8AD4A7.png",
-    "assets/71AD24.png",
-    "assets/505D55.png",
-    "assets/E5A785.png",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
     "assets/804F38.heic",

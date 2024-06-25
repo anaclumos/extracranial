@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: /69794B
+aliases: ['PIRI']
 ---
 
 # Project PIRI 🪈: Programmatic Interlingual Resource Integration
@@ -12,6 +13,14 @@ import Admonition from '@theme/Admonition';
 Providing [[무제한번역|unlimited translations]] for major developer documents
 
 </Admonition>
+
+## [[2024-06-25]]
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">can someone make a nextjs app that takes our public github discussions and makes SEO-friendly read-only replica?<br/><br/>we want to run cal. com/community and when you want to comment, you get linked to github</p>&mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1805268068501004782?ref_src=twsrc%5Etfw">June 24, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">good to know<br/><br/>maybe the approach to add commentary to it (by gpt-summary of the discussion and maybe removing non-answers) is enough to not be considered duplicate?</p>&mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1805300021291577818?ref_src=twsrc%5Etfw">June 24, 2024</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Exciting. <br/><br/>The coolest part is that with ISR you can make it very fast, control exactly how often you want to revalidate the caches, and prevent rate limits on the upstream API.<br/><br/>Example:<a href="https://t.co/sqrRYSTSiI">https://t.co/sqrRYSTSiI</a></p>&mdash; Guillermo Rauch (@rauchg) <a href="https://twitter.com/rauchg/status/1805315183629451333?ref_src=twsrc%5Etfw">June 24, 2024</a></blockquote>
 
 ## [[2024-06-03]]
 
