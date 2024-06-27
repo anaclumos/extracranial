@@ -37,7 +37,7 @@ Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, me
 
 1E6ABA's experience at [[Google]] involved multiple teams, from [[Chrome]] to TensorFlow.
 Learned a lot about soft skills.
-The TensorFlow team had weird, intertangled relationships across groups.
+The TensorFlow team had [[weird]], intertangled relationships across groups.
 For example, the Tensorflow compiler team wanted to make everything as static as possible, whereas the Tensorflow [[Python]] team wanted to make everything as dynamic as possible.
 
 Current startup indeed holds more risk, but it comes with a thrill.
