@@ -19,6 +19,6 @@ import { FixedSizeGrid as Grid } from "react-window";
 
 FixedSizeGrid로 눈에 보이는 곳들만 Lazy하게 렌더합니다
 
-데이터 자체는 BitSet라는 것으로 추상화된 Uint8Array에서, Bit Operation (>>, <<) 같은 것들로 진행.
+데이터 자체는 BitSet라는 것으로 추상화된 Uint8Array에서, Bit Operation (`>>`, `<<`) 같은 것들로 진행.
 
 이렇게 하면 1비트씩 썼을 때 100만개 해도 125 KB만 사용.
