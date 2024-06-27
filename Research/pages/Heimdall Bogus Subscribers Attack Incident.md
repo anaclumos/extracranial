@@ -8,7 +8,7 @@ slug: '/E2CDEB'
 - Felt great, yeah, here we go
 - So I moved forward with the [[Project Naroo]] migration, added new languages
 - Now I got a bunch of people signing up for `ta` Tamil. Like 40 people
-- Something was weird.
+- Something was off.
 - One thing in common was that both lists that got tons of subscribers were the last list on [[Listmonk]].
 - Seemed like an attack of some sort. I tried emailing a handpicked few, but none replied.
 - The [[Mail|emails]] were very authentic-looking, though. So it took a lot of work to tell which one was bogus or not.
