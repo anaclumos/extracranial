@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "66e10bc45db405d2",
+        "id": "a9d7cf8eb98e3edd",
         "type": "tabs",
         "children": [
           {
-            "id": "44437060ff264fdb",
+            "id": "f6c5e33b1691aca4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/One Million Checkboxes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/One Million Checkboxes.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,9 +104,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/One Million Checkboxes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -121,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/One Million Checkboxes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,13 +143,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "44437060ff264fdb",
+  "active": "f6c5e33b1691aca4",
   "lastOpenFiles": [
-    "journals/2024-06-28.md",
+    "pages/One Million Checkboxes.md",
     "journals/2024-06-27.md",
+    "journals/2024-06-28.md",
     "assets/EB2D7A.png",
     "assets/138857.png",
-    "pages/One Million Checkboxes.md",
     "pages/weird.md",
     "pages/wierd.md",
     "pages/eieio.games.md",
