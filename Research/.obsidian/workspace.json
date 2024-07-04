@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a9d7cf8eb98e3edd",
+        "id": "ad2c20818f9b90ba",
         "type": "tabs",
         "children": [
           {
-            "id": "f6c5e33b1691aca4",
+            "id": "5631195a82171974",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-07-04.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "journals/2024-07-04.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2024-07-04.md"
+              }
             }
           },
           {
@@ -113,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2024-07-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,44 +152,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f6c5e33b1691aca4",
+  "active": "5631195a82171974",
   "lastOpenFiles": [
+    "journals/2024-07-04.md",
+    "journals/2024-07-01.md",
+    "pages/디지털 정부의 모든 코드 오픈 소스화.md",
+    "pages/Use VS Code for Commit Messages.md",
+    "pages/Project Pied Piper.md",
+    "assets/956863.gif",
+    "journals/2024-07-02.md",
+    "journals/2024-07-03.md",
+    "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
+    "pages/Prettier.md",
+    "pages/Contextify.md",
+    "journals/2024-06-27.md",
+    "pages/소셜 엔지니어링 금지.md",
+    "pages/Negative Binomial Series.md",
+    "journals/2024-06-26.md",
+    "journals/2024-06-25.md",
+    "journals/2024-06-24.md",
+    "journals/2022-07-02.md",
     "journals/2024-06-28.md",
     "pages/One Million Checkboxes.md",
-    "journals/2024-06-27.md",
     "assets/EB2D7A.png",
     "assets/138857.png",
     "pages/weird.md",
     "pages/wierd.md",
     "pages/eieio.games.md",
-    "journals/2024-06-26.md",
     "assets/DEE912.png",
     "pages/Guillermo Rauch.md",
     "pages/Oneday.md",
     "pages/Open Source vs Source Available.md",
     "pages/Inspiring Open Source Projects.md",
-    "pages/Contextify.md",
-    "journals/2024-06-25.md",
     "pages/Project Sillok.md",
-    "pages/Prject PIRI.md",
-    "pages/Python Environment Management.md",
     "assets/E048B0.png",
     "assets/7AB192.png",
     "assets/401B03.jpeg",
-    "pages/LLM Namecard.md",
-    "journals/2024-06-24.md",
-    "pages/WSGI.md",
-    "pages/CSRF.md",
-    "journals/2024-06-23.md",
-    "pages/글감.md",
     "assets/ACE17A.png",
-    "journals/2024-06-21.md",
-    "journals/2023-06-23.md",
     "assets/F866C8.png",
-    "pages/Internal Tool.md",
-    "pages/Icon Provider.md",
     "assets/1FC9F0.jpg",
-    "assets/903241.png",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
     "assets/804F38.heic",
@@ -190,7 +200,6 @@
     "assets/EBE739.heic",
     "assets/2F65C9.png.sb-df3ed59d-Bmok2d",
     "assets/FDD149.mp4",
-    "assets/1C6908.mp4",
     "Untitled.canvas"
   ]
 }

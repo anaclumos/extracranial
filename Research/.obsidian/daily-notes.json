@@ -1,5 +1,5 @@
 {
   "folder": "journals",
-  "autorun": true,
+  "autorun": false,
   "template": "templates/journal template"
 }

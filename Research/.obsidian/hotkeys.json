@@ -1,10 +1,4 @@
 {
-  "daily-notes": [
-    {
-      "modifiers": ["Mod"],
-      "key": "T"
-    }
-  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": ["Mod"],
@@ -99,6 +93,12 @@
     {
       "modifiers": ["Mod"],
       "key": "K"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": ["Mod"],
+      "key": "T"
     }
   ]
 }
