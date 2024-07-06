@@ -137,6 +137,7 @@ In preamble
 \fancyfoot[LE,LO]{\myname}
 \fancyfoot[CE,CO]{\mytitle}
 \fancyfoot[RE,RO]{\thepage}
+
 ```
 
 ## Algorithm

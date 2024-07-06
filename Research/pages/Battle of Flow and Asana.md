@@ -9,7 +9,7 @@ slug: '/4C1190'
 
 The model they used for Basecamp was to build great software that scratched their own itch ([[project]] management,) and charge a monthly recurring amount to give them access ([[Software as a Service|SaaS]]) assuming others had the same problem. Then, focus on organic growth via product improvement and public writing. Finally, spend less than they make!
 
-When we turned on billing for our beta users, we jumped to $20k MRR in the first month. We started growing at 10% per month and were the new hotness.
+When we turned on billing for our beta users, we jumped to 20k MRR in the first month. We started growing at 10% per month and were the new hotness.
 I got reach outs from all the top VCs and tons of tech luminaries started using the product.
 We'd made it…or so I thought. We consistently spending 2-3x our monthly revenue and losing money. Not [[venture capital]]. Out of my personal bank account, hopes in making much more.
 
