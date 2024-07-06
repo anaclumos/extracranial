@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "ad2c20818f9b90ba",
+        "id": "82ae205eb6168de3",
         "type": "tabs",
         "children": [
           {
-            "id": "5631195a82171974",
+            "id": "9597854909db07a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2024-07-04.md",
+                "file": "journals/2024-07-06.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a4bc4be181243180",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-07-06.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2024-07-04.md",
+                "file": "journals/2024-07-06.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2024-07-04.md"
+                "file": "journals/2024-07-06.md"
               }
             }
           },
@@ -121,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2024-07-04.md",
+                "file": "journals/2024-07-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,19 +166,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5631195a82171974",
+  "active": "a4bc4be181243180",
   "lastOpenFiles": [
+    "pages/Forcing Fixed-Width Numbers in CSS.md",
+    "journals/2024-07-06.md",
+    "pages/Font Features.md",
+    "pages/Contextify.md",
     "journals/2024-07-04.md",
+    "journals/2024-07-02.md",
     "journals/2024-07-01.md",
     "pages/디지털 정부의 모든 코드 오픈 소스화.md",
     "pages/Use VS Code for Commit Messages.md",
     "pages/Project Pied Piper.md",
     "assets/956863.gif",
-    "journals/2024-07-02.md",
     "journals/2024-07-03.md",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "pages/Prettier.md",
-    "pages/Contextify.md",
     "journals/2024-06-27.md",
     "pages/소셜 엔지니어링 금지.md",
     "pages/Negative Binomial Series.md",
@@ -182,9 +199,6 @@
     "assets/DEE912.png",
     "pages/Guillermo Rauch.md",
     "pages/Oneday.md",
-    "pages/Open Source vs Source Available.md",
-    "pages/Inspiring Open Source Projects.md",
-    "pages/Project Sillok.md",
     "assets/E048B0.png",
     "assets/7AB192.png",
     "assets/401B03.jpeg",
