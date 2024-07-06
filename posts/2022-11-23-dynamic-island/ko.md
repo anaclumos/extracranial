@@ -11,7 +11,7 @@ slug: '/9F7F85'
 그럼요. 아래 검정색 타원을 클릭해보세요. 제가 현재 듣고 있거나 가장 최근에 들은 30개의 음악 중 하나가 무작위로 나타날거예요.
 </Admonition>
 
-import IframeResizer from 'iframe-resizer-react'
+import IframeResizer from '@iframe-resizer/react'
 
 <figure
 style={{

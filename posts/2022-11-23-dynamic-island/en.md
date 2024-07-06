@@ -11,7 +11,7 @@ slug: '/9F7F85'
 Of course. Click on the black oval below. It will display a song I am currently listening to or any of my 30 most recently played songs.
 </Admonition>
 
-import IframeResizer from 'iframe-resizer-react'
+import IframeResizer from '@iframe-resizer/react'
 
 <figure
 style={{
