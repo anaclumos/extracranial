@@ -6,8 +6,8 @@ import navbar from './config/navbar.config'
 import theme from './config/theme.config'
 
 const config: Config = {
-  title: 'Sunghyun "Siwoo" Cho',
-  tagline: 'I am Sunghyun "Siwoo" Cho, traveling the WWW.',
+  title: 'cho.sh',
+  tagline: 'I travel the WWW.',
   titleDelimiter: '@',
   url: 'https://cho.sh',
   baseUrl: '/',
@@ -68,7 +68,7 @@ const config: Config = {
   ],
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css',
+      href: 'https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css',
       type: 'text/css',
       rel: 'stylesheet',
     },
@@ -78,11 +78,12 @@ const config: Config = {
       rel: 'stylesheet',
     },
     {
-      href: 'https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.min.css',
+      href: 'https://statics.goorm.io/fonts/GoormSansCode/v1.0.0/GoormSansCode.min.css',
       type: 'text/css',
       rel: 'stylesheet',
+      preload: true,
       as: 'style',
-      crossorigin: true,
+      crossorigin: 'anonymous',
     },
   ],
   themeConfig: {
@@ -140,6 +141,23 @@ const config: Config = {
       attributes: {},
       innerHTML:
         '<img src="https://sa.cho.sh/noscript.gif" alt="SA" collect-dnt=true referrerPolicy="no-referrer-when-downgrade" />',
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://statics.goorm.io',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        as: 'style',
+        crossorigin: 'anonymous',
+        href: 'https://statics.goorm.io/fonts/GoormSansCode/v1.0.0/GoormSansCode.min.css',
+      },
     },
   ],
   markdown: {

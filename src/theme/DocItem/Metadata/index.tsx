@@ -2,12 +2,10 @@ import React from 'react'
 import { PageMetadata } from '@docusaurus/theme-common'
 import { useDoc } from '@docusaurus/theme-common/internal'
 import Head from '@docusaurus/Head'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 export default function DocItemMetadata(): JSX.Element {
   const { metadata, frontMatter, assets } = useDoc()
-  const { i18n } = useDocusaurusContext()
-  const name = i18n.currentLocale === 'ko' ? '시우 조성현' : 'Sunghyun "Siwoo" Cho'
+  const name = 'cho.sh'
   return (
     <>
       <Head>

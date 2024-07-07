@@ -1,6 +1,6 @@
 {
-  "name": "Sunghyun \"Siwoo\" Cho",
-  "short_name": "Siwoo",
+  "name": "cho.sh",
+  "short_name": "cho.sh",
   "display": "standalone",
   "scope": "./",
   "start_url": "./index.html",
