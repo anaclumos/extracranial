@@ -73,6 +73,12 @@ const config: Config = {
       rel: 'stylesheet',
     },
     {
+      href: 'https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.min.css',
+      type: 'text/css',
+      rel: 'stylesheet',
+      crossorigin: true,
+    },
+    {
       href: 'https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css',
       type: 'text/css',
       rel: 'stylesheet',
@@ -141,6 +147,14 @@ const config: Config = {
       attributes: {},
       innerHTML:
         '<img src="https://sa.cho.sh/noscript.gif" alt="SA" collect-dnt=true referrerPolicy="no-referrer-when-downgrade" />',
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://cdn.jsdelivr.net',
+        crossorigin: 'anonymous',
+      },
     },
     {
       tagName: 'link',
