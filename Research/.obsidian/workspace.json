@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "82ae205eb6168de3",
+        "id": "ea1720a474337bfc",
         "type": "tabs",
         "children": [
           {
-            "id": "9597854909db07a0",
+            "id": "02dbd5678832ecda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2024-07-07.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "836799bedf0b5d74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-07-07.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5fa1ec812c88a3ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-07-07.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "eee77c850b4bf431",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-07-07.md",
+                "file": "pages/글감.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2024-07-07.md",
+                "file": "pages/글감.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2024-07-07.md"
+                "file": "pages/글감.md"
               }
             }
           },
@@ -162,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2024-07-07.md",
+                "file": "pages/글감.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,10 +153,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eee77c850b4bf431",
+  "active": "02dbd5678832ecda",
   "lastOpenFiles": [
-    "pages/까리.md",
+    "pages/Sparkle Button.md",
+    "pages/글감.md",
+    "pages/Enginifounder.md",
     "journals/2024-07-07.md",
+    "pages/Contextify.md",
+    "pages/Project Namie.md",
+    "pages/까리.md",
     "pages/PPR All The Way.md",
     "assets/4D948E.png",
     "assets/DD7BED.png",
@@ -204,7 +169,6 @@
     "journals/2024-07-06.md",
     "pages/Forcing Fixed-Width Numbers in CSS.md",
     "pages/Font Features.md",
-    "pages/Contextify.md",
     "journals/2024-07-04.md",
     "journals/2024-07-02.md",
     "journals/2024-07-01.md",
@@ -221,12 +185,8 @@
     "journals/2024-06-26.md",
     "journals/2024-06-25.md",
     "journals/2024-06-24.md",
-    "journals/2022-07-02.md",
-    "journals/2024-06-28.md",
-    "pages/One Million Checkboxes.md",
     "assets/EB2D7A.png",
     "assets/138857.png",
-    "pages/weird.md",
     "assets/DEE912.png",
     "assets/E048B0.png",
     "assets/7AB192.png",
