@@ -25,8 +25,6 @@ import WikipediaEmoji from '@site/static/emoji/wikipedia.png'
 import SwitchEmoji from '@site/static/emoji/switch.png'
 import SteamEmoji from '@site/static/emoji/steam.png'
 import PlayStationEmoji from '@site/static/emoji/ps.png'
-import { Globe } from '../components/Globe'
-import BrowserOnly from '@docusaurus/BrowserOnly'
 
 const HeroText = () => {
   const { siteConfig } = useDocusaurusContext()
@@ -261,7 +259,6 @@ export default function Home(): JSX.Element {
     <Layout title={`${siteConfig.title}`} description={siteConfig.tagline}>
       <main className={styles.mainContainer}>
         <HeroText />
-        <BrowserOnly>{() => <Globe />}</BrowserOnly>
       </main>
     </Layout>
   )

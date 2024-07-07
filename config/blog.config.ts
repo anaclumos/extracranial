@@ -2,8 +2,8 @@ import latex from './latex.config'
 
 const blog = {
   showReadingTime: false,
-  blogTitle: 'Sunghyun "Siwoo" Cho',
-  blogDescription: 'I am Sunghyun "Siwoo" Cho, traveling the WWW.',
+  blogTitle: 'cho.sh',
+  blogDescription: 'I travel the WWW.',
   postsPerPage: 'ALL',
   blogSidebarCount: 'ALL',
   blogSidebarTitle: 'Articles',
