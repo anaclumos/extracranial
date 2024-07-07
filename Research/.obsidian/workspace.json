@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2024-07-06.md",
+                "file": "journals/2024-07-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "836799bedf0b5d74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-07-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5fa1ec812c88a3ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-07-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "eee77c850b4bf431",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-07-07.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -71,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -87,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2024-07-06.md",
+                "file": "journals/2024-07-07.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2024-07-06.md"
+                "file": "journals/2024-07-07.md"
               }
             }
           },
@@ -121,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2024-07-06.md",
+                "file": "journals/2024-07-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,10 +193,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9597854909db07a0",
+  "active": "eee77c850b4bf431",
   "lastOpenFiles": [
-    "pages/Forcing Fixed-Width Numbers in CSS.md",
+    "pages/까리.md",
+    "journals/2024-07-07.md",
+    "pages/PPR All The Way.md",
+    "assets/4D948E.png",
+    "assets/DD7BED.png",
+    "pages/SaaS 외길인생.md",
     "journals/2024-07-06.md",
+    "pages/Forcing Fixed-Width Numbers in CSS.md",
     "pages/Font Features.md",
     "pages/Contextify.md",
     "journals/2024-07-04.md",
@@ -180,17 +227,11 @@
     "assets/EB2D7A.png",
     "assets/138857.png",
     "pages/weird.md",
-    "pages/wierd.md",
-    "pages/eieio.games.md",
     "assets/DEE912.png",
-    "pages/Guillermo Rauch.md",
-    "pages/Oneday.md",
     "assets/E048B0.png",
     "assets/7AB192.png",
     "assets/401B03.jpeg",
     "assets/ACE17A.png",
-    "assets/F866C8.png",
-    "assets/1FC9F0.jpg",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
     "assets/804F38.heic",
