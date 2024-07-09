@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ea1720a474337bfc",
+        "id": "429204a13cadf925",
         "type": "tabs",
         "children": [
           {
-            "id": "02dbd5678832ecda",
+            "id": "d88cda74a630ff92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/글감.md",
+                "file": "journals/2024-07-09.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/글감.md",
+                "file": "journals/2024-07-09.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/글감.md"
+                "file": "journals/2024-07-09.md"
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/글감.md",
+                "file": "journals/2024-07-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,10 +153,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "02dbd5678832ecda",
+  "active": "d88cda74a630ff92",
   "lastOpenFiles": [
-    "pages/Sparkle Button.md",
+    "journals/2024-07-10.md",
+    "journals/2024-07-09.md",
+    "pages/Pyrrhus and Cinéas.md",
+    "pages/Proebsting.md",
     "pages/글감.md",
+    "pages/Proebsting's Law.md",
+    "journals/2024-07-08.md",
+    "pages/Maximum A Posteriori.md",
+    "journals/2023-03-27.md",
+    "pages/Dynamic Import.md",
+    "pages/Sparkle Button.md",
     "pages/Enginifounder.md",
     "journals/2024-07-07.md",
     "pages/Contextify.md",
@@ -174,17 +183,8 @@
     "journals/2024-07-01.md",
     "pages/디지털 정부의 모든 코드 오픈 소스화.md",
     "pages/Use VS Code for Commit Messages.md",
-    "pages/Project Pied Piper.md",
     "assets/956863.gif",
-    "journals/2024-07-03.md",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
-    "pages/Prettier.md",
-    "journals/2024-06-27.md",
-    "pages/소셜 엔지니어링 금지.md",
-    "pages/Negative Binomial Series.md",
-    "journals/2024-06-26.md",
-    "journals/2024-06-25.md",
-    "journals/2024-06-24.md",
     "assets/EB2D7A.png",
     "assets/138857.png",
     "assets/DEE912.png",
