@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "429204a13cadf925",
+        "id": "f6dd35c75f9b28ac",
         "type": "tabs",
         "children": [
           {
-            "id": "d88cda74a630ff92",
+            "id": "96ab93438bcd5fed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-07-09.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +83,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2024-07-09.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,9 +105,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2024-07-09.md"
-              }
+              "state": {}
             }
           },
           {
@@ -122,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2024-07-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,9 +144,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d88cda74a630ff92",
+  "active": "96ab93438bcd5fed",
   "lastOpenFiles": [
     "journals/2024-07-10.md",
+    "pages/체스터턴의 울타리.md",
     "journals/2024-07-09.md",
     "pages/Pyrrhus and Cinéas.md",
     "pages/Proebsting.md",
@@ -182,7 +174,6 @@
     "journals/2024-07-02.md",
     "journals/2024-07-01.md",
     "pages/디지털 정부의 모든 코드 오픈 소스화.md",
-    "pages/Use VS Code for Commit Messages.md",
     "assets/956863.gif",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/EB2D7A.png",

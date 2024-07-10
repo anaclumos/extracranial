@@ -59,3 +59,4 @@ Can Open Source and Business coexist?
 - [appsmithorg/appsmith: Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.](https://github.com/appsmithorg/appsmith)
 - [Unleash/unleash: Open-source feature management solution built for developers.](https://github.com/Unleash/unleash/)
 - [mattermost/focalboard](https://github.com/mattermost/focalboard) Focalboard is an open source, self-hosted [[alternative]] to Trello, Notion, and Asana.
+- [Lago](https://github.com/getlago)
