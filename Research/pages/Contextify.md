@@ -37,7 +37,8 @@ def process_files(directory):
         'dist',
         'build',
         'coverage',
-        'client'
+        'client',
+        '.next'
     ]
     files_to_ignore = [
         __file__,
