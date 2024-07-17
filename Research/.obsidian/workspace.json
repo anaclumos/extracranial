@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7b569f78b281670a",
+        "id": "db4916037a30394d",
         "type": "tabs",
         "children": [
           {
-            "id": "d14360c00f960be6",
+            "id": "f59fbfac5c6e97a4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-07-11.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +83,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2024-07-11.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,9 +105,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2024-07-11.md"
-              }
+              "state": {}
             }
           },
           {
@@ -122,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2024-07-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,9 +144,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d14360c00f960be6",
+  "active": "f59fbfac5c6e97a4",
   "lastOpenFiles": [
+    "pages/Harding (Font).md",
+    "journals/2024-07-17.md",
+    "pages/Firefox Compact Menu Bar.md",
+    "pages/Disable Firefox Safe Mode Trigger.md",
+    "assets/EE6778.png",
+    "assets/B54CE6.png",
+    "assets/516A90.png",
+    "assets/4C8076.png",
+    "assets/Pasted image 20240717113418.png",
+    "assets/Pasted image 20240717113411.png",
+    "assets/AC5D7F.png",
+    "assets/Pasted image 20240717113401.png",
+    "assets/Pasted image 20240717113346.png",
+    "assets/FEDD94.png",
+    "pages/Harding Font.md",
+    "pages/Diminishing Monetary Power and Short-Term Culture.md",
+    "journals/2024-07-16.md",
+    "pages/Copper.md",
+    "journals/2024-07-15.md",
+    "pages/Python Tooling.md",
     "journals/2024-07-12.md",
+    "pages/Tools for AI in Production.md",
     "journals/2024-07-11.md",
     "pages/Bazalgette Overengineering.md",
     "journals/2024-07-10.md",
@@ -170,28 +182,7 @@
     "journals/2023-03-27.md",
     "pages/Dynamic Import.md",
     "pages/Sparkle Button.md",
-    "pages/Enginifounder.md",
-    "journals/2024-07-07.md",
-    "pages/Contextify.md",
-    "pages/Project Namie.md",
-    "pages/까리.md",
-    "pages/PPR All The Way.md",
-    "assets/4D948E.png",
-    "assets/DD7BED.png",
-    "pages/SaaS 외길인생.md",
-    "journals/2024-07-06.md",
-    "pages/Forcing Fixed-Width Numbers in CSS.md",
-    "pages/Font Features.md",
-    "journals/2024-07-04.md",
-    "assets/956863.gif",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
-    "assets/EB2D7A.png",
-    "assets/138857.png",
-    "assets/DEE912.png",
-    "assets/E048B0.png",
-    "assets/7AB192.png",
-    "assets/401B03.jpeg",
-    "assets/ACE17A.png",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
     "assets/804F38.heic",

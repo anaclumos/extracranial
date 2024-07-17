@@ -18,3 +18,7 @@ pyenv activate name
 ```
 pyenv local name
 ```
+
+## [Rye](https://rye.astral.sh/)
+
+![[8F83D2.png]]

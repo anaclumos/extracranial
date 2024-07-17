@@ -60,3 +60,5 @@ Can Open Source and Business coexist?
 - [Unleash/unleash: Open-source feature management solution built for developers.](https://github.com/Unleash/unleash/)
 - [mattermost/focalboard](https://github.com/mattermost/focalboard) Focalboard is an open source, self-hosted [[alternative]] to Trello, Notion, and Asana.
 - [Lago](https://github.com/getlago)
+- [taubyte/tau: Open source distributed Platform as a Service (PaaS). A self-hosted Vercel / Netlify / Cloudflare alternative.](https://github.com/taubyte/tau)
+-
