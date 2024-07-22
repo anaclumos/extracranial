@@ -10,6 +10,9 @@ collections of exquisite software that i happily paid for premium
 - [[Love Wikipedia]]
 - [[Love Firefox]]
 - [[Love Obsidian]]
+- [[Love Ghost]]
+- [[Love Expo]]
+- [[Love Elysia]]
 
 ## like
 
