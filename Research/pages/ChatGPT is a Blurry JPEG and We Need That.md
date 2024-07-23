@@ -22,7 +22,7 @@ If we squint, learning is ultimately a process of fetching data from the world, 
 | Hardware virtualization reboot | 40s           | 5,070 years  |
 | Physical system reboot         | 5m            | 38,026 years |
 
-According to the imaginative CPU calendar scale, it would take a staggering 38 days for the CPU to read 1MB from a disk fully. This reminds us of how long it would take an individual to study and comprehend 1MB of text, which is a considerable amount of information. Furthermore, the disk seeks time amounts to 92 days, an eerily similar duration to what real-world researchers may spend investigating, analyzing, and understanding complex subjects or concepts. This parallel between the CPU's data processing and human learning highlights the striking resemblances between technology and the human pursuit of knowledge. **Your brain is no more than a CPU that fetches information from various mediums.**
+According to the imaginative CPU calendar scale, it would take a staggering 38 days for the CPU to read 1MB from a disk fully. This reminds us of how long it would take an individual to study and comprehend 1MB of text, which is a considerable amount of information. Furthermore, the disk seeks time amounts to 92 days, an eerily similar duration to what real-world [[Researcher|researchers]] may spend investigating, analyzing, and understanding complex subjects or concepts. This parallel between the CPU's data processing and human learning highlights the striking resemblances between technology and the human pursuit of knowledge. **Your brain is no more than a CPU that fetches information from various mediums.**
 
 ![[D26259.png]]
 

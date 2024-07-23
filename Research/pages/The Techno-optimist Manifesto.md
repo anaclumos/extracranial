@@ -204,7 +204,7 @@ We believe energy need not expand to the detriment of the natural environment. W
 
 Atomic Energy Commissioner Thomas Murray said in 1953: "For years the splitting atom, packaged in weapons, has been our main shield against the barbarians. Now, in addition, it is a God-given instrument to do the constructive work of mankind." Murray was right too.
 
-We believe a second energy silver bullet is coming – nuclear fusion. We should build that as well. The same bad ideas that effectively outlawed fission are going to try to outlaw fusion. We should not let them.
+We believe a second energy silver bullet is coming – [[nuclear fusion]]. We should build that as well. The same bad ideas that effectively outlawed fission are going to try to outlaw fusion. We should not let them.
 
 We believe there is no inherent conflict between the techno-capital machine and the natural environment. Per-capita US carbon emissions are lower now than they were 100 years ago, even without nuclear power.
 
