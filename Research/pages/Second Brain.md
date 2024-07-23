@@ -83,7 +83,7 @@ Seems like using [[Svelte]]
 - [Edy Kim](https://edykim.com/)
 - [Chris Welch](https://chriswelch.co/)
 
-## Fast Websites (SPA based)
+## Fast Websites
 
 - [Telmo Goncalves](https://telmo.is/)
 - [Lee Robinson - Developer, writer, creator.](https://leerob.io/)
