@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cfaae083c007e91f",
+        "id": "546c3437bfff1249",
         "type": "tabs",
         "children": [
           {
-            "id": "7fdc667275b7dd4b",
+            "id": "b8190a6ebdaf7ce2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/ScienceOps.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/ScienceOps.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,9 +104,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/ScienceOps.md"
-              }
+              "state": {}
             }
           },
           {
@@ -121,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/ScienceOps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,12 +144,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7fdc667275b7dd4b",
+  "active": "b8190a6ebdaf7ce2",
   "lastOpenFiles": [
+    "journals/2024-07-27.md",
+    "journals/2024-07-26.md",
     "journals/2024-07-24.md",
+    "journals/2024-07-28.md",
+    "journals/2024-07-29.md",
+    "pages/Conditional Dark Mode Image on GitHub README.md",
+    "pages/ScienceOps.md",
+    "pages/Contextify.md",
+    "pages/PPR All The Way.md",
+    "pages/Biome.md",
+    "pages/UV.md",
+    "assets/BDC66F.png",
+    "pages/GitHub Blog Drop-in Newsletter.md",
+    "pages/Grammarly for CI CD Pipelines.md",
+    "pages/Slack Watcher App to Confluence.md",
     "pages/Never reinvent the wheel. But if you end up doing it, let the whole world know why your wheel is better..md",
     "journals/2024-07-23.md",
-    "pages/ScienceOps.md",
     "pages/Tools for Thought.md",
     "pages/Text-based Tools for Thought.md",
     "pages/Thesephist Work Case Study.md",
@@ -169,28 +173,15 @@
     "Hey.md",
     "journals/2022-06-10.md",
     "pages/Diminishing Monetary Power and Short-Term Culture.md",
-    "pages/Research Paper NPM System.md",
-    "journals/2022-06-15.md",
-    "journals/2024-07-22.md",
-    "pages/Love Expo.md",
     "assets/66B3B1.png",
-    "pages/Love Elysia.md",
     "assets/AAEB82.png",
-    "pages/Love Ghost.md",
-    "journals/2024-07-19.md",
     "assets/B31F97.png",
-    "pages/Tossface Firefox Bug Report.md",
-    "journals/2024-07-18.md",
-    "pages/Harding (Font).md",
-    "journals/2024-07-17.md",
-    "pages/Firefox Compact Menu Bar.md",
     "assets/EE6778.png",
     "assets/B54CE6.png",
     "assets/516A90.png",
     "assets/4C8076.png",
     "assets/Pasted image 20240717113418.png",
     "assets/Pasted image 20240717113411.png",
-    "assets/AC5D7F.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
