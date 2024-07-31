@@ -37,10 +37,6 @@ const navbar = {
           label: 'Random',
         },
         {
-          to: '/3d',
-          label: 'Graph',
-        },
-        {
           to: '/r/000000',
           label: "What's this?",
         },
