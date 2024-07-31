@@ -2,9 +2,10 @@
 @import url('./color.css');
 @import url('./external-link.css');
 @import url('./graph.css');
+@import url('./fonts.css');
 
 * {
-  --ifm-font-family-base: 'Interop', 'Tossface', 'SF Pro', system-ui, -apple-system, BlinkMacSystemFont, ui-sans-serif,
+  --ifm-font-family-base: Interop, 'Tossface', 'SF Pro', system-ui, -apple-system, BlinkMacSystemFont, ui-sans-serif,
     'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important;
   --ifm-font-family-monospace: 'Goorm Sans Mono', ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
   --font-family-sans-serif: var(--ifm-font-family-base);
@@ -12,6 +13,7 @@
   --font-family-monospace: var(--ifm-font-family-monospace);
   word-wrap: break-word;
   word-break: keep-all;
+  /* letter-spacing: -0.05em; */
 }
 
 h1,
