@@ -26,7 +26,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Wed Jul 31 23:16:05 KST 2024
+Wed Jul 31 23:43:55 KST 2024
 
 ## Stats
 
@@ -34,10 +34,10 @@ Wed Jul 31 23:16:05 KST 2024
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2667     68729    18073         0    50656          0
-CSS                         66     19158      797        32    18329          0
-TypeScript                  61     21639      285        88    21266        188
-JSON                        41      2332        0         0     2332          0
+Markdown                  2667     68699    18061         0    50638          0
+CSS                         66     19166      797        32    18337          0
+TypeScript                  61     21637      285        88    21264        188
+JSON                        41      2318        0         0     2318          0
 SVG                          9         9        0         0        9          0
 YAML                         9     19941     3744         0    16197          0
 Python                       8       776       71        34      671        113
@@ -48,13 +48,13 @@ INI                          1         1        0         0        1          0
 Plain Text                   1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2872    184187    24876      8443   150868       4634
+Total                     2872    184149    24864      8443   150842       4634
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $5,237,479
+Estimated Cost to Develop (organic) $5,236,531
 Estimated Schedule Effort (organic) 25.80 months
 Estimated People Required (organic) 18.03
 ───────────────────────────────────────────────────────────────────────────────
-Processed 11514257 bytes, 11.514 megabytes (SI)
+Processed 11513105 bytes, 11.513 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

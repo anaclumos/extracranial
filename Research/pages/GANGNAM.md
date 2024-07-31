@@ -61,6 +61,8 @@ Something that you could switch with a press of a button. I initially thought of
 
 </Admonition>
 
+Why is it called GANGNAM, by the way? Well, I live in Gangnam right now, and I conversed with a lot of smart people on this topic at Gangnam. What other good names could it have?
+
 ## 1. Ergonomics over Anything
 
 Your most valuable asset is your energy and a few slim time windows to gauge the market. Choose the most 'ergonomic' tool, whatever that is. If you can do the same thing with one of the codes, then there's no reason not to choose it.
@@ -80,7 +82,7 @@ In general, imperativeness is unergonomic, and declarativeness is ergonomic. You
 
 If you can do the same thing with 5 lines of code instead of 100, then you should opt-in for 5 lines of code.
 
-<Admonition type="yellow" title='This is obvious but for the record' icon="📒">
+<Admonition type="warn" title='This is obvious but for the record' icon="📒">
 
 Type Safety is ergonomic. That's why I hate Python.
 
@@ -167,6 +169,9 @@ To override this chain of command, you will need a **good** reason, such as bett
     - oslo: Many auth-related helper functions
     - arctic: Provides OAuth 2.0 bridge with almost all popular providers
   - not hot-replaceable right away, but it's just an ergonomic wrapper on industry-standard session tokens
+- Biome
+  - minimal
+  - vertically integrates prettier and eslint
 - AWS with FlightControl
   - minimal setup (vercel-like setup)
   - hot-replaceable since it's just a super ergonomic wrapper of AWS API calls under the hood, and basically, it's just starting a $5 VPC with a NixPacks Docker image
