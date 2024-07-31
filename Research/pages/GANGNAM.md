@@ -82,7 +82,7 @@ In general, imperativeness is unergonomic, and declarativeness is ergonomic. You
 
 If you can do the same thing with 5 lines of code instead of 100, then you should opt-in for 5 lines of code.
 
-<Admonition type="warn" title='This is obvious but for the record' icon="📒">
+<Admonition type="warning" title='This is obvious but for the record' icon="📒">
 
 Type Safety is ergonomic. That's why I hate Python.
 
