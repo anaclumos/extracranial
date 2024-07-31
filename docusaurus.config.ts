@@ -73,12 +73,6 @@ const config: Config = {
       rel: 'stylesheet',
     },
     {
-      href: 'https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.min.css',
-      type: 'text/css',
-      rel: 'stylesheet',
-      crossorigin: true,
-    },
-    {
       href: 'https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css',
       type: 'text/css',
       rel: 'stylesheet',

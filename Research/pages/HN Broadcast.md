@@ -7,4 +7,4 @@ slug: '/581B69'
 
 Instantly broadcast with Text when something comes up on HN
 
-maybe [[Project Naroo]]
+maybe [[Project Heimdall]]

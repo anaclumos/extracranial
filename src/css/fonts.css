@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Interop';
+  src:
+    url('/fonts/Interop-Light.woff2') format('woff2'),
+    url('/fonts/Interop-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Interop';
+  src:
+    url('/fonts/Interop-ExtraBold.woff2') format('woff2'),
+    url('/fonts/Interop-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Interop';
+  src:
+    url('/fonts/Interop-Bold.woff2') format('woff2'),
+    url('/fonts/Interop-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Interop';
+  src:
+    url('/fonts/Interop-ExtraLight.woff2') format('woff2'),
+    url('/fonts/Interop-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Interop';
+  src:
+    url('/fonts/Interop-Medium.woff2') format('woff2'),
+    url('/fonts/Interop-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Interop';
+  src:
+    url('/fonts/Interop-Regular.woff2') format('woff2'),
+    url('/fonts/Interop-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Interop';
+  src:
+    url('/fonts/Interop-SemiBold.woff2') format('woff2'),
+    url('/fonts/Interop-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Interop';
+  src:
+    url('/fonts/Interop-Thin.woff2') format('woff2'),
+    url('/fonts/Interop-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
