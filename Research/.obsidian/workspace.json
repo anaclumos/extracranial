@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "546c3437bfff1249",
+        "id": "ff0a46d3860d5e38",
         "type": "tabs",
         "children": [
           {
-            "id": "b8190a6ebdaf7ce2",
+            "id": "9197de47b949bc02",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-07-30.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "560335ec924cd962",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/GANGNAM.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -82,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pages/GANGNAM.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/GANGNAM.md"
+              }
             }
           },
           {
@@ -113,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/GANGNAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,13 +168,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8190a6ebdaf7ce2",
+  "active": "560335ec924cd962",
   "lastOpenFiles": [
+    "journals/2024-07-31.md",
+    "pages/SignalKite.md",
+    "assets/C19543.png",
+    "journals/2024-07-30.md",
+    "journals/2024-07-29.md",
+    "journals/2024-07-28.md",
+    "pages/Docker.md",
+    "pages/GANGNAM.md",
+    "pages/Oneday.md",
+    "pages/NMD.cho.sh.md",
+    "assets/73146A.gif",
+    "assets/E18723.png",
+    "pages/Project Heimdall.md",
+    "pages/FE in Python.md",
+    "pages/Next.js Upstream Image Response Failed.md",
     "journals/2024-07-27.md",
     "journals/2024-07-26.md",
     "journals/2024-07-24.md",
-    "journals/2024-07-28.md",
-    "journals/2024-07-29.md",
     "pages/Conditional Dark Mode Image on GitHub README.md",
     "pages/ScienceOps.md",
     "pages/Contextify.md",
@@ -162,26 +199,12 @@
     "pages/Grammarly for CI CD Pipelines.md",
     "pages/Slack Watcher App to Confluence.md",
     "pages/Never reinvent the wheel. But if you end up doing it, let the whole world know why your wheel is better..md",
-    "journals/2024-07-23.md",
-    "pages/Tools for Thought.md",
-    "pages/Text-based Tools for Thought.md",
-    "pages/Thesephist Work Case Study.md",
-    "pages/Second Brain.md",
-    "pages/Nuclear Fusion.md",
-    "pages/Researcher.md",
-    "pages/Homomorphic Encryption.md",
-    "Hey.md",
-    "journals/2022-06-10.md",
-    "pages/Diminishing Monetary Power and Short-Term Culture.md",
     "assets/66B3B1.png",
     "assets/AAEB82.png",
     "assets/B31F97.png",
     "assets/EE6778.png",
     "assets/B54CE6.png",
     "assets/516A90.png",
-    "assets/4C8076.png",
-    "assets/Pasted image 20240717113418.png",
-    "assets/Pasted image 20240717113411.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
