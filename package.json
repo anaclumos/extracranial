@@ -92,7 +92,10 @@
   },
   "version": "1.0.0",
   "trustedDependencies": [
+    "@swc/core",
     "core-js",
-    "core-js-pure"
+    "core-js-pure",
+    "esbuild",
+    "workerd"
   ]
 }
