@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8a1aadba110f9917",
+        "id": "eccf0a302d6e648e",
         "type": "tabs",
         "children": [
           {
-            "id": "bc42c8dff8666644",
+            "id": "32cb72865c9d9b75",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -144,12 +144,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bc42c8dff8666644",
+  "active": "32cb72865c9d9b75",
   "lastOpenFiles": [
+    "journals/2024-07-31.md",
     "journals/2023-09-27.md",
     "pages/Universal Approximation Theorem.md",
     "pages/GANGNAM.md",
-    "journals/2024-07-31.md",
     "journals/2024-07-30.md",
     "pages/SignalKite.md",
     "assets/C19543.png",
