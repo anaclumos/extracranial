@@ -2209,6 +2209,7 @@ export const filenames = {
     "Uniform Distributions (Discrete)": "9E0CB3",
     "United Kingdom": "B4CCDF",
     "United States of America": "2A9F13",
+    "Universal Approximation Theorem": "FFB6EA",
     "Universal Basic Income for Scholars": "AFFEFA",
     "Universal Chat App": "E6431A",
     "Universal Identity": "A5294B",
