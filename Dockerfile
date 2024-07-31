@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY package.json bun.lockb ./
 RUN bun install
 COPY . .
-RUN bun build
+RUN bun run build
 
 FROM base
 WORKDIR /usr/src/app
