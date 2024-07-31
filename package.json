@@ -90,5 +90,9 @@
     "start": "docusaurus start",
     "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "trustedDependencies": [
+    "core-js",
+    "core-js-pure"
+  ]
 }
