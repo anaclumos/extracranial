@@ -26,7 +26,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Thu Aug 1 00:57:05 KST 2024
+Thu Aug 1 19:55:10 KST 2024
 
 ## Stats
 
@@ -34,27 +34,27 @@ Thu Aug 1 00:57:05 KST 2024
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2667     68726    18067         0    50659          0
-CSS                         66     19160      797        33    18330          0
-TypeScript                  61     21639      285        88    21266        188
-JSON                        41      2313        0         0     2313          0
+Markdown                  2669     68756    18077         0    50679          0
+CSS                         62     19102      790        33    18279          0
+TypeScript                  54     20823      168        47    20608        157
+JSON                        41      2326        0         0     2326          0
 SVG                          9         9        0         0        9          0
-YAML                         9     19941     3744         0    16197          0
 Python                       8       776       71        34      671        113
+YAML                         8        86        0         0       86          0
 JavaScript                   5     51290     1837      8216    41237       4332
 TypeScript Typings           2        12        0         4        8          0
-Dockerfile                   1        10        0         0       10          1
+Dockerfile                   1        19        2         0       17          1
 INI                          1         1        0         0        1          0
 Plain Text                   1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2872    184167    24870      8444   150853       4634
+Total                     2862    163490    21014      8403   134073       4603
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $5,236,932
-Estimated Schedule Effort (organic) 25.80 months
-Estimated People Required (organic) 18.03
+Estimated Cost to Develop (organic) $4,627,044
+Estimated Schedule Effort (organic) 24.62 months
+Estimated People Required (organic) 16.70
 ───────────────────────────────────────────────────────────────────────────────
-Processed 11513904 bytes, 11.514 megabytes (SI)
+Processed 10847151 bytes, 10.847 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
