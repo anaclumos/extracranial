@@ -3,6 +3,12 @@ lang: 'en'
 slug: '/9DFBB8'
 ---
 
+<Admonition type="info" title='GANGNAM is...' icon="🩵">
+
+GANGNAM is a an opinionated development philosophy.
+
+</Admonition>
+
 I've recently come to an epiphany that my dev stack or philosophy doesn't fall under any existing categories. I'm **not**
 
 - a PHP indie-preneur who makes millions
@@ -34,8 +40,6 @@ One of the most popular philosophies is Instagram.
 
 While the first two still sound relevant today, I don't agree with the third option. Things change, and they change for good. New tools are built for a reason. Find and learn from that reason.
 
-:::
-
 </details>
 
 The goal of the GANGNAM is to build systems in hot-replaceable chunks, with every module **destined** to be swapped out at one point. (i.e., this will be your last rewrite.)
@@ -46,7 +50,7 @@ Also, hear out when people have different opinions.
 
 import Admonition from '@theme/Admonition';
 
-<Admonition type="tip" title='My three liner would be' icon="✅">
+<Admonition type="tip" title='My three liner would be' icon="💚">
 
 1. Keep it very simple
 1. Don't reinvent the wheel
@@ -55,13 +59,13 @@ import Admonition from '@theme/Admonition';
 
 </Admonition>
 
-<Admonition type="danger" title='Dafuq is hot-replaceable' icon="🔥">
+<Admonition type="danger" title='Dafuq is hot-replaceable' icon="❤">
 
 Something that you could switch with a press of a button. I initially thought of the word "interoperable," but I think it doesn't fully grasp the point.
 
 </Admonition>
 
-Why is it called GANGNAM, by the way? Well, I live in Gangnam right now, and I conversed with a lot of smart people on this topic at Gangnam. What other good names could it have?
+Why is it called GANGNAM, by the way? I live in Gangnam right now, and I conversed with a lot of smart people on this topic at Gangnam. What other good names could it have? So naturally...
 
 ## 1. Ergonomics over Anything
 
@@ -82,7 +86,7 @@ In general, imperativeness is unergonomic, and declarativeness is ergonomic. You
 
 If you can do the same thing with 5 lines of code instead of 100, then you should opt-in for 5 lines of code.
 
-<Admonition type="warning" title='This is obvious but for the record' icon="📒">
+<Admonition type="warning" title='This is obvious but for the record' icon="💛">
 
 Type Safety is ergonomic. That's why I hate Python.
 
@@ -95,11 +99,11 @@ Type Safety is ergonomic. That's why I hate Python.
   - I'd prefer a simple go script over a factory-patterned Java Spring Boot.
   - Simpler, more elastic, and hot-replaceable.
 
-I feel like Mr. Kessels put it best:
+I feel like Mr. Kessels put it best. He makes a point on database, but I think it applies to way more stuffs.
 
 > Don't use the database when avoidable. **Which is always more often than I think**. I don't need to store the 195 countries of the world in a database and join when showing a country- dropdown. Just hardcode it or put it in config read on boot. Hell, maybe your entire product catalog of the e-commerce site can be a single YAML read on boot? This goes for _many_ more objects than I often think. [It's not Ruby that's slow, it's your database](https://berk.es/2022/08/09/ruby-slow-database-slow/)
 
-## Use SaaS up until you 'study' it
+## 3. Use SaaS up until you 'study' it
 
 - Deep SaaS is a SaaS that does one thing **only** and one thing **great**.
 - Offload SLA to a SaaS whenever you can, up until you need to "study" it.
@@ -114,7 +118,21 @@ I feel like Mr. Kessels put it best:
 
 SaaS is fine. I'm just saying keep Deep SaaS hot-replaceable. Don't study proprietary tech unless it's the industry de facto! (I'm talking to you, AWS)
 
-## "Occam's DollarShaveClub"
+<Admonition type="info" title='This is just my preference but' icon="🩵">
+
+If there's an OSS alternative for that SaaS, I'd rather use that OSS and GitHub-Sponsor them. See [[Open Core Models]].
+
+Need LogSnag? Check out [PostHog](https://github.com/PostHog/posthog). Need Resend? Check out [Plunk](https://github.com/useplunk/plunk). Need Substack? Check out [Ghost](https://github.com/TryGhost/Ghost).
+
+</Admonition>
+
+<Admonition type="tip" title='Why?' icon="💚">
+
+Self-hosting = Controlling the Database = Better Chance of Being hot-replacable with Bulk Data Exports
+
+</Admonition>
+
+## 4. Occam's DollarShaveClub
 
 Opt-in for a solution that requires the least amount of work. Don't overcomplicate it.
 
@@ -145,7 +163,13 @@ For example, IRL,
 
 To override this chain of command, you will need a **good** reason, such as better ergonomics.
 
-## So what's the Stack (As of 2024-08-01)
+## 5. So what's the Stack
+
+<Admonition type="danger" title='My three liner would be' icon="🔥">
+
+This list may not be up to date. Last updated on [[2024-08-01]].
+
+</Admonition>
 
 - TurboRepo
   - minimal setup
@@ -229,7 +253,7 @@ I wouldn't want to use it unless absolutely necessary
 - Serverless Architecture
   - I think it makes more problems than it solves
 
-## "Do Things That Don't Scale"
+## 6. Do Things That Don't Scale
 
 Many misread this as keeping things boring, repetitive, and predictable. I think it's the opposite way.
 
@@ -241,6 +265,6 @@ Opt-in for standard-based interoperable, hot-replaceable, elastic, and ergonomic
 
 <Admonition type="danger" title='Ofc you need to do your own research' icon="🔥">
 
-Don't email me after you set something on fire after following this 😉
+Don't email me after you set something on fire after following this!
 
 </Admonition>
