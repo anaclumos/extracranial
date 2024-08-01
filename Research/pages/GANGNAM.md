@@ -16,7 +16,7 @@ I've recently come to an epiphany that my dev stack or philosophy doesn't fall u
 - a C++ engineer who optimized codes at the nanoseconds level
 - a Python scientist who programs as a mere means for their maths
 
-Some saw me as *overengineering* while another saw me as *inexperienced* when the others saw me as *hype-chaser*. It could look so. But I wanted to sit down and explain my philosophy and reasoning behind the stacks. Hope it makes sense to you. 
+Some saw me as _overengineering_ while another saw me as _inexperienced_ when the others saw me as _hype-chaser_. It could look so. But I wanted to sit down and explain my philosophy and reasoning behind the stacks. Hope it makes sense to you.
 
 This is NOT for everyone NOR I don't intend to persuade you. All techs are driven by needs, and your needs differ from mine.
 
@@ -59,7 +59,7 @@ import Admonition from '@theme/Admonition';
 
 </Admonition>
 
-<Admonition type="danger" title='Dafuq is hot-replaceable' icon="❤">
+<Admonition type="danger" title='Dafuq is hot-replaceable' icon="🔥">
 
 Something that you could switch with a press of a button. I initially thought of the word "interoperable," but I think it doesn't fully grasp the point.
 
@@ -136,20 +136,20 @@ Self-hosting = Controlling the Database = Better Chance of Being hot-replacable 
 
 Opt-in for a solution that requires the least amount of work. Don't overcomplicate it.
 
-1. If something's doable with HTML, it must be done in HTML.
-2. If something's doable with CSS, it must be done in CSS.
-3. If something's doable with ECMAScript Standard, it must be done in ECMAScript Standard.
-4. If something's doable with Pure React, it must be done in Pure React.
-5. If something's doable with Next.js or Meta React of your choice, it must be done with that library.
-6. If something's doable with Vertically Integrated Framework with any of the above, it must be done in with that library.
-7. If you can do it in less than an hour and will save you a lot of work ahead, build one yourself.
+1. If doable with HTML, do it with HTML.
+2. If doable with CSS, do it with CSS.
+3. If doable with ECMAScript, do it with ECMAScript.
+4. If doable with Pure React, do it with Pure React.
+5. If doable with Next.js or Meta React of your choice, do it with that.
+6. If doable with Vertically Integrated Framework with any of the above, do it with with that.
+7. If doable in less than an hour, build one yourself.
 8. Now look for any NPM libraries.
 
 Similarly, with tools:
 
-1. If something's doable within Git, it must be done in Git.
-1. If something's doable within GitHub, it must be done in GitHub.
-1. If something's doable within GitHub Apps, it must be done with that.
+1. If doable within Git, do it with Git.
+1. If doable within GitHub, do it with GitHub.
+1. If doable within GitHub Apps, do it with those.
 
 For example, IRL,
 
@@ -165,9 +165,9 @@ To override this chain of command, you will need a **good** reason, such as bett
 
 ## 5. So what's the Stack
 
-<Admonition type="danger" title='My three liner would be' icon="🔥">
+<Admonition type="danger" title='This list may not be up to date' icon="🔥">
 
-This list may not be up to date. Last updated on [[2024-08-01]].
+Last updated on [[2024-08-01]].
 
 </Admonition>
 
