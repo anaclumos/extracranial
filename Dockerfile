@@ -14,5 +14,6 @@ FROM base
 RUN npm install -g bun
 WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/build ./build
+COPY --from=builder /usr/src/app/package.json ./
 EXPOSE 3000
-CMD ["bun", "start"]
+CMD ["bun", "run", "serve"]
