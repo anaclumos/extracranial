@@ -11,8 +11,13 @@
             "id": "32cb72865c9d9b75",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/Backlinking for Aldehyde.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "FFB6EA",
+                "query": "/3d",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pages/Backlinking for Aldehyde.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/Backlinking for Aldehyde.md"
+              }
             }
           },
           {
@@ -113,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/Backlinking for Aldehyde.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +155,12 @@
   },
   "active": "32cb72865c9d9b75",
   "lastOpenFiles": [
+    "journals/2024-08-01.md",
+    "assets/189315.png",
+    "journals/2022-10-15.md",
+    "pages/Run by a human.md",
+    "assets/2E4CC0.png",
+    "pages/rST.md",
     "journals/2024-07-31.md",
     "journals/2023-09-27.md",
     "pages/Universal Approximation Theorem.md",
@@ -171,17 +186,11 @@
     "pages/Contextify.md",
     "pages/PPR All The Way.md",
     "pages/Biome.md",
-    "pages/UV.md",
     "assets/BDC66F.png",
-    "pages/GitHub Blog Drop-in Newsletter.md",
-    "pages/Grammarly for CI CD Pipelines.md",
-    "pages/Slack Watcher App to Confluence.md",
     "assets/66B3B1.png",
     "assets/AAEB82.png",
     "assets/B31F97.png",
     "assets/EE6778.png",
-    "assets/B54CE6.png",
-    "assets/516A90.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
