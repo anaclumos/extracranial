@@ -5,7 +5,7 @@ slug: '/9DFBB8'
 
 <Admonition type="info" title='GANGNAM is...' icon="🩵">
 
-GANGNAM is a an opinionated development philosophy.
+GANGNAM is a development philosophy that emphasizes simplicity, hot-replaceability, and ergonomics. It encourages experimentation, using SaaS until studied, and opting for the least work required. GANGNAM also promotes using tools that are interoperable and hot-replaceable.
 
 </Admonition>
 
