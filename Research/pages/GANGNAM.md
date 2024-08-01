@@ -14,9 +14,9 @@ I've recently come to an epiphany that my dev stack or philosophy doesn't fall u
 - a PHP indie-preneur who makes millions
 - a Java engineer who engineers systems for millions
 - a C++ engineer who optimized codes at the nanoseconds level
-- a Python developer indifferent to modern changes
+- a Python scientist who programs as a mere means for their maths
 
-Some saw me as 'overengineering,' some saw me as 'inexperienced,' and some saw me as a 'hype-chaser.' I want to explain my philosophy and reasoning behind the stacks.
+Some saw me as *overengineering* while another saw me as *inexperienced* when the others saw me as *hype-chaser*. It could look so. But I wanted to sit down and explain my philosophy and reasoning behind the stacks. Hope it makes sense to you. 
 
 This is NOT for everyone NOR I don't intend to persuade you. All techs are driven by needs, and your needs differ from mine.
 
