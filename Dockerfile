@@ -11,6 +11,7 @@ COPY . .
 RUN bun run build
 
 FROM base
+RUN npm install -g bun
 WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/build ./build
 EXPOSE 3000
