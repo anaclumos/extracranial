@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "921deffd8a1ffc69",
+        "id": "8f60bdec9b2d7754",
         "type": "tabs",
         "children": [
           {
-            "id": "ffa772a56116b955",
+            "id": "423cf6c7c3819c8b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -144,11 +144,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ffa772a56116b955",
+  "active": "423cf6c7c3819c8b",
   "lastOpenFiles": [
-    "journals/2024-08-01.md",
-    "journals/2024-08-02.md",
     "pages/GANGNAM.md",
+    "journals/2024-08-02.md",
+    "pages/Stripe Acquires Lemon Squeezy.md",
+    "pages/Friend.com Mayhem.md",
+    "pages/AWS Edge Continuum.md",
+    "assets/AE505D.png",
+    "pages/Weihu.md",
+    "assets/C35020.png",
+    "pages/Heath Resume.md",
+    "journals/2024-08-01.md",
     "pages/Oneday.md",
     "pages/Open Core Models.md",
     "pages/Inspiring Open Source Projects.md",
@@ -172,16 +179,9 @@
     "assets/73146A.gif",
     "assets/E18723.png",
     "pages/Project Heimdall.md",
-    "pages/FE in Python.md",
-    "pages/Next.js Upstream Image Response Failed.md",
-    "journals/2024-07-27.md",
-    "journals/2024-07-26.md",
-    "journals/2024-07-24.md",
     "assets/BDC66F.png",
     "assets/66B3B1.png",
     "assets/AAEB82.png",
-    "assets/B31F97.png",
-    "assets/EE6778.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",

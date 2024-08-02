@@ -11,38 +11,9 @@ slug: '/9F7F85'
 Of course. Click on the black oval below. It will display a song I am currently listening to or any of my 30 most recently played songs.
 </Admonition>
 
-import IframeResizer from '@iframe-resizer/react'
-
-<figure
-style={{
-position: 'sticky',
-top: '4rem',
-zIndex: 100,
-width: 'calc(100%+2rem)',
-margin: '0 -1rem'
-}}
->
-
-<IframeResizer
-id="dynamic-island"
-style={{
-width: '100%',
-margin: '0 auto'
-}}
-src='https://dynamic-island.cho.sh/embed-player'
-/>
-
-</figure>
-
-<figcaption>
-
-Click on the black oval above!
-
-</figcaption>
-
 :::note
 
-There was a breaking change on the Apple Music API side, and I won't live-update the API anymore.
+I removed the dependency here, so visit [Dynamic Island on the web](https://dynamic-island.cho.sh/) instead.
 
 :::
 
