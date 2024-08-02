@@ -11,9 +11,9 @@ slug: '/9F7F85'
 Of course. Click on the black oval below. It will display a song I am currently listening to or any of my 30 most recently played songs.
 </Admonition>
 
-:::note
+:::info
 
-I removed the dependency here, so visit [Dynamic Island on the web](https://dynamic-island.cho.sh/) instead.
+[Dynamic Island on the web](https://dynamic-island.cho.sh/)
 
 :::
 
@@ -182,28 +182,11 @@ There's no big reason for this; it was just to get used to the animations.
 I love how it turned out; it looks exactly like the official Apple animation!
 Finished on [Oct 20th, 2022](/r/2022-10-20).
 
-<figure
-style={{
-width: 'calc(100%+2rem)',
-margin: '0 -1rem'
-}}
->
+:::info
 
-<IframeResizer
-id="dynamic-island-phone-call"
-style={{
-width: '100%',
-margin: '0 auto'
-}}
-src="https://dynamic-island.cho.sh/embed-phone-call"
-/>
+[Dynamic Island on the web](https://dynamic-island.cho.sh/)
 
-<figcaption>
-
-↑ Click ↑
-
-</figcaption>
-</figure>
+:::
 
 ## 🍎 Apple Music API
 

@@ -11,34 +11,11 @@ slug: '/9F7F85'
 그럼요. 아래 검정색 타원을 클릭해보세요. 제가 현재 듣고 있거나 가장 최근에 들은 30개의 음악 중 하나가 무작위로 나타날거예요.
 </Admonition>
 
-import IframeResizer from '@iframe-resizer/react'
+:::info
 
-<figure
-style={{
-position: 'sticky',
-top: '4rem',
-zIndex: 100,
-width: 'calc(100%+2rem)',
-margin: '0 -1rem'
-}}
->
+[Dynamic Island on the web](https://dynamic-island.cho.sh/)
 
-<IframeResizer
-id="dynamic-island"
-style={{
-width: '100%',
-margin: '0 auto'
-}}
-src="https://dynamic-island.cho.sh/embed-player"
-/>
-
-</figure>
-
-<figcaption>
-
-위의 검정색 타원을 클릭해보세요.
-
-</figcaption>
+:::
 
 :::note
 
@@ -214,28 +191,11 @@ export type DynamicIslandSize =
 실제로 완성된 제품을 보니 실제 Apple의 제품과 아주 닮아 마음에 들었다.
 [2022년 10월 20일](/r/2022-10-20)에 완성되었다.
 
-<figure
-style={{
-width: 'calc(100%+2rem)',
-margin: '0 -1rem'
-}}
->
+:::info
 
-<IframeResizer
-id="dynamic-island-phone-call"
-style={{
-width: '100%',
-margin: '0 auto'
-}}
-src="https://dynamic-island.cho.sh/embed-phone-call"
-/>
+[Dynamic Island on the web](https://dynamic-island.cho.sh/)
 
-<figcaption>
-
-↑ 클릭해보세요 ↑
-
-</figcaption>
-</figure>
+:::
 
 ## 🍎 Apple Music API
 
