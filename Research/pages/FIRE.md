@@ -10,11 +10,11 @@ slug: '/CABA29'
 
 - Most of the products don't make any revenue at all.
 - Success in the world of indie developers is an outlier business
-- Around 5% of the products we analyzed generate a monthly revenue exceeding $8,333 (around $100K/year), which is relatively easy to earn as a software engineer in a full-time job.
+- Around 5 percent of the products we analyzed generate a monthly revenue exceeding USD 8,333 (around USD 100K/year), which is relatively easy to earn as a software engineer in a full-time job.
 
-### [How BuiltWith generates $14 million a year while having zero employees](https://5to9.beehiiv.com/p/builtwith-generates-14-million-year-zero-employees)
+### [How BuiltWith generates USD 14 million a year while having zero employees](https://5to9.beehiiv.com/p/builtwith-generates-14-million-year-zero-employees)
 
-- $14 million annual recurring revenue
+- USD 14 million annual recurring revenue
 - No idea like this had existed, and the domain BuiltWith was somehow not taken already
 - For instance, certain pieces of code can be used to identify if Adsense is used vs. Adzerk or some other advertising method
 - AboutUs was an internet domain directory containing information about millions of businesses. Gary showed Ray BuiltWith, and Ray immediately loved it. He added a BuiltWith.com link to every record in their index to provide BuiltWith information regarding each business

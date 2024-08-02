@@ -32,15 +32,15 @@
     "@docusaurus/module-type-aliases": "^3.4.0",
     "@docusaurus/tsconfig": "^3.4.0",
     "@docusaurus/types": "^3.4.0",
-    "@types/node": "^20.14.10",
-    "prettier": "^3.3.2"
+    "@types/node": "^22.0.3",
+    "prettier": "^3.3.3"
   },
   "license": "MIT",
   "main": "src/index.tsx",
   "name": "cho-sh",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "build": "$npm_execpath run ready && $npm_execpath run format && NODE_OPTIONS=\"--max-old-space-size=327680\" docusaurus build",
+    "build": "$npm_execpath run ready && $npm_execpath run format && DOCUSAURUS_PERF_LOGGER=true NODE_OPTIONS=\"--max-old-space-size=327680\" docusaurus build",
     "clear": "rm -rf 'blog' && rm -rf 'docs' && rm -rf '**/*.config.js' && rm -rf '**/*.config.js.map' && rm -f 'docusaurus.config.js.map' && rm -f 'docusaurus.config.js' && rm -rf 'i18n /**/*.md' && cp tools/안녕.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n /**/*.png' && rm -rf 'i18n /**/*.svg' && rm -rf 'i18n /**/*.jpg' && rm -rf 'i18n /**/*.jpeg' && rm -rf .docusaurus && rm -rf build && rm -rf .cache",
     "dev": "$npm_execpath run start",
     "format": "prettier --log-level silent --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}'",
