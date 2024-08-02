@@ -29,10 +29,10 @@ const config: Config = {
             syntax: 'typescript',
             tsx: true,
           },
-          target: 'es2017',
+          target: 'es2022',
         },
         module: {
-          type: isServer ? 'commonjs' : 'es6',
+          type: isServer ? 'commonjs' : 'nodenext',
         },
       },
     }),

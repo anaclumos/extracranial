@@ -35,6 +35,7 @@ Can Open Source and Business coexist?
 
 ---
 
+- [useplunk/plunk: The Open-Source Email Platform](https://github.com/useplunk/plunk)
 - [TryGhost/Ghost: Independent technology for modern publishing, memberships, subscriptions and newsletters.](https://github.com/tryghost/ghost)
 - [supabase/supabase: The open source Firebase alternative.](https://github.com/supabase/supabase)
 - [overleaf/overleaf: A web-based collaborative LaTeX editor](https://github.com/overleaf/overleaf)
