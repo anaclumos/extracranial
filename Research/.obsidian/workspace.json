@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bb044cc5d9f5092c",
+        "id": "e36de0590f28110c",
         "type": "tabs",
         "children": [
           {
-            "id": "40fd4610063b5e58",
+            "id": "88493a9d92fea036",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-08-03.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2024-08-03.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,9 +104,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2024-08-03.md"
-              }
+              "state": {}
             }
           },
           {
@@ -121,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2024-08-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +144,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "40fd4610063b5e58",
+  "active": "88493a9d92fea036",
   "lastOpenFiles": [
     "journals/2024-08-03.md",
     "pages/雅號.md",
