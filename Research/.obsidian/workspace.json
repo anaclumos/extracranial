@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8f60bdec9b2d7754",
+        "id": "bb044cc5d9f5092c",
         "type": "tabs",
         "children": [
           {
-            "id": "423cf6c7c3819c8b",
+            "id": "40fd4610063b5e58",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-08-03.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "journals/2024-08-03.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2024-08-03.md"
+              }
             }
           },
           {
@@ -113,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2024-08-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,8 +153,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "423cf6c7c3819c8b",
+  "active": "40fd4610063b5e58",
   "lastOpenFiles": [
+    "journals/2024-08-03.md",
+    "pages/雅號.md",
     "pages/GANGNAM.md",
     "journals/2024-08-02.md",
     "pages/Stripe Acquires Lemon Squeezy.md",
@@ -175,10 +186,8 @@
     "journals/2024-07-29.md",
     "journals/2024-07-28.md",
     "pages/Docker.md",
-    "pages/NMD.cho.sh.md",
     "assets/73146A.gif",
     "assets/E18723.png",
-    "pages/Project Heimdall.md",
     "assets/BDC66F.png",
     "assets/66B3B1.png",
     "assets/AAEB82.png",
