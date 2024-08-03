@@ -48,12 +48,12 @@
     "message": "의료 인공지능"
   },
   "backlink.noBacklink": {
-    "description": "The message when there is no backlink",
-    "message": "아직 아무것도 없네요..."
+    "message": "아직 아무것도 없네요...",
+    "description": "The message when there is no backlink"
   },
   "backlink.title": {
-    "description": "The title of the backlink section",
-    "message": "이 문서를 언급한 문서들"
+    "message": "이 문서를 언급한 문서들",
+    "description": "The title of the backlink section"
   },
   "computational intelligence": {
     "message": "전산 지능"
@@ -125,450 +125,450 @@
     "message": "새로운 일들이 일어나기 충분한 시간입니다."
   },
   "theme.admonition.caution": {
-    "description": "The default label used for the Caution admonition (:::caution)",
-    "message": "주의"
+    "message": "주의",
+    "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "description": "The default label used for the Danger admonition (:::danger)",
-    "message": "위험"
+    "message": "위험",
+    "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "description": "The default label used for the Info admonition (:::info)",
-    "message": "정보"
+    "message": "정보",
+    "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "description": "The default label used for the Note admonition (:::note)",
-    "message": "노트"
+    "message": "노트",
+    "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "description": "The default label used for the Tip admonition (:::tip)",
-    "message": "팁"
+    "message": "팁",
+    "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "description": "The default label used for the Warning admonition (:::warning)",
-    "message": "warning"
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "description": "The ARIA label for close button of announcement bar",
-    "message": "닫기"
+    "message": "닫기",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "description": "The ARIA label for the back to top button",
-    "message": "맨 위로"
+    "message": "맨 위로",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.description": {
-    "description": "The page & hero description of the blog archive page",
-    "message": "제가 쓴 글을 한곳에 모았습니다. 천천히 둘러보세요."
+    "message": "제가 쓴 글을 한곳에 모았습니다. 천천히 둘러보세요.",
+    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.archive.post": {
-    "description": "The singular name of a blog post",
-    "message": "개의 글"
+    "message": "개의 글",
+    "description": "The singular name of a blog post"
   },
   "theme.blog.archive.posts": {
-    "description": "The plural name of a blog post",
-    "message": "개의 글"
+    "message": "개의 글",
+    "description": "The plural name of a blog post"
   },
   "theme.blog.archive.title": {
-    "description": "The page & hero title of the blog archive page",
-    "message": "블로그"
+    "message": "블로그",
+    "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.yearsuffix": {
-    "description": "The suffix of a year in a blog archive",
-    "message": "년"
+    "message": "년",
+    "description": "The suffix of a year in a blog archive"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "description": "The ARIA label for the blog pagination",
-    "message": "아티클 목록 페이지 이동"
+    "message": "아티클 목록 페이지 이동",
+    "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "description": "The label used to navigate to the newer blog posts page (previous page)",
-    "message": "다음 글"
+    "message": "다음 글",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "description": "The label used to navigate to the older blog posts page (next page)",
-    "message": "이전 글"
+    "message": "이전 글",
+    "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.loading.views": {
-    "description": "The blog post view count is loading",
-    "message": "집계 중..."
+    "message": "집계 중...",
+    "description": "The blog post view count is loading"
   },
   "theme.blog.post.no.views": {
-    "description": "The blog post has no views",
-    "message": "알 수 없음"
+    "message": "알 수 없음",
+    "description": "The blog post has no views"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "description": "The ARIA label for the blog posts pagination",
-    "message": "아티클 글 페이지 이동"
+    "message": "아티클 글 페이지 이동",
+    "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "description": "The blog post button label to navigate to the newer/previous post",
-    "message": "다음 글"
+    "message": "다음 글",
+    "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "description": "The blog post button label to navigate to the older/next post",
-    "message": "이전 글"
+    "message": "이전 글",
+    "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.post.plurals": {
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)",
-    "message": "글 1개|글 {count}개"
+    "message": "글 1개|글 {count}개",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)",
-    "message": "1분 길이|{readingTime}분 길이"
+    "message": "1분 길이|{readingTime}분 길이",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readMore": {
-    "description": "The label used in blog post item excerpts to link to full blog posts",
-    "message": "더 읽어보기"
+    "message": "더 읽어보기",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "description": "The ARIA label for the link to full blog posts from excerpts",
-    "message": "{title}에 대해 더 읽어보기"
+    "message": "{title}에 대해 더 읽어보기",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.view": {
-    "description": "The blog post has 1 view",
-    "message": "번 열람"
+    "message": "번 열람",
+    "description": "The blog post has 1 view"
   },
   "theme.blog.post.views": {
-    "description": "The blog post has multiple views",
-    "message": "번 열람"
+    "message": "번 열람",
+    "description": "The blog post has multiple views"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "description": "The ARIA label for recent posts in the blog sidebar",
-    "message": "아티클 최근 글 이동"
+    "message": "아티클 최근 글 이동",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.blog.tagTitle": {
-    "description": "The title of the page for a blog tag",
-    "message": "\"{tagName}\"로 태그된 {nPosts}"
+    "message": "\"{tagName}\"로 태그된 {nPosts}",
+    "description": "The title of the page for a blog tag"
   },
   "theme.CodeBlock.copied": {
-    "description": "The copied button label on code blocks",
-    "message": "복사 완료"
+    "message": "복사 완료",
+    "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copy": {
-    "description": "The copy button label on code blocks",
-    "message": "복사"
+    "message": "복사",
+    "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "description": "The ARIA label for copy code blocks button",
-    "message": "클립보드로 코드 복사"
+    "message": "클립보드로 코드 복사",
+    "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "description": "The title attribute for toggle word wrapping button of code block lines",
-    "message": "Word wrap 켜거나 끄기"
+    "message": "Word wrap 켜거나 끄기",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.colorToggle.ariaLabel": {
-    "description": "The ARIA label for the navbar color mode toggle",
-    "message": "다크 모드와 라이트 모드 변경(현재 {mode})"
+    "message": "다크 모드와 라이트 모드 변경(현재 {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "description": "The name for the dark color mode",
-    "message": "다크 모드"
+    "message": "다크 모드",
+    "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "description": "The name for the light color mode",
-    "message": "라이트 모드"
+    "message": "라이트 모드",
+    "description": "The name for the light color mode"
   },
   "theme.common.editThisPage": {
-    "description": "The link label to edit the current page",
-    "message": "편집 또는 최종 수정 시간 확인"
+    "message": "편집 또는 최종 수정 시간 확인",
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "description": "Title for link to heading",
-    "message": "헤딩 링크"
+    "message": "헤딩 링크",
+    "description": "Title for link to heading"
   },
   "theme.common.skipToMainContent": {
-    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation",
-    "message": "메인 내용으로 이동"
+    "message": "메인 내용으로 이동",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.docs.breadcrumbs.home": {
-    "description": "The ARIA label for the home page in the breadcrumbs",
-    "message": "홈페이지"
+    "message": "홈페이지",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "description": "The ARIA label for the breadcrumbs",
-    "message": "위치"
+    "message": "위치",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "description": "The default description for a category card in the generated index about how many items this category includes",
-    "message": "{count} 항목"
+    "message": "{count} 항목",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "description": "The ARIA label for the docs pagination",
-    "message": "문서 목록 페이지 이동"
+    "message": "문서 목록 페이지 이동",
+    "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.next": {
-    "description": "The label used to navigate to the next doc",
-    "message": "다음"
+    "message": "다음",
+    "description": "The label used to navigate to the next doc"
   },
   "theme.docs.paginator.previous": {
-    "description": "The label used to navigate to the previous doc",
-    "message": "이전"
+    "message": "이전",
+    "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "description": "The ARIA label for close button of mobile sidebar",
-    "message": "Close navigation bar"
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "description": "The title attribute for collapse button of doc sidebar",
-    "message": "사이드바 닫기"
+    "message": "사이드바 닫기",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "description": "The title attribute for collapse button of doc sidebar",
-    "message": "사이드바 닫기"
+    "message": "사이드바 닫기",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "description": "The ARIA label and title attribute for expand button of doc sidebar",
-    "message": "사이드바 열기"
+    "message": "사이드바 열기",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "description": "The ARIA label and title attribute for expand button of doc sidebar",
-    "message": "사이드바 열기"
+    "message": "사이드바 열기",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "description": "The ARIA label for the sidebar navigation",
-    "message": "Docs sidebar"
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "description": "The ARIA label for hamburger menu button of mobile navigation",
-    "message": "Toggle navigation bar"
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.tagDocListPageTitle": {
-    "description": "The title of the page for a docs tag",
-    "message": "\"{tagName}\"로 태그된 {nDocsTagged}"
+    "message": "\"{tagName}\"로 태그된 {nDocsTagged}",
+    "description": "The title of the page for a docs tag"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)",
-    "message": "하나의 문서 태그됨|{count}개의 문서 태그됨"
+    "message": "하나의 문서 태그됨|{count}개의 문서 태그됨",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.versionBadge.label": {
     "message": "버전: {versionLabel}"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "description": "The label used for the latest version suggestion link label",
-    "message": "최신 버전"
+    "message": "최신 버전",
+    "description": "The label used for the latest version suggestion link label"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "description": "The label used to tell the user to check the latest version",
-    "message": "최신 버전을 사용하려면 {latestVersionLink} ({versionLabel}) 버전을 사용하세요."
+    "message": "최신 버전을 사용하려면 {latestVersionLink} ({versionLabel}) 버전을 사용하세요.",
+    "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "description": "The label used to tell the user that he's browsing an unmaintained doc version",
-    "message": "아직 유지보수되고 있지 않은 {siteTitle} {versionLabel} 버전입니다."
+    "message": "아직 유지보수되고 있지 않은 {siteTitle} {versionLabel} 버전입니다.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "description": "The label used to tell the user that he's browsing an unreleased doc version",
-    "message": "아직 공개되지 않은 {siteTitle} {versionLabel} 버전입니다."
+    "message": "아직 공개되지 않은 {siteTitle} {versionLabel} 버전입니다.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "description": "The ARIA label to collapse the sidebar category",
-    "message": "Collapse sidebar category '{label}'"
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "description": "The ARIA label to expand the sidebar category",
-    "message": "Expand sidebar category '{label}'"
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
   },
   "theme.ErrorPageContent.title": {
-    "description": "The title of the fallback page when the page crashed",
-    "message": "페이지에서 오류가 발생했습니다."
+    "message": "페이지에서 오류가 발생했습니다.",
+    "description": "The title of the fallback page when the page crashed"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "description": "The label of the button to try again rendering when the React error boundary captures an error",
-    "message": "다시 시도"
+    "message": "다시 시도",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.lastUpdated.atDate": {
-    "description": "The words used to describe on which date a page has been last updated",
-    "message": "{date}에"
+    "message": "{date}에",
+    "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "description": "The words used to describe by who the page has been last updated",
-    "message": "{user}가"
+    "message": "{user}가",
+    "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "description": "The sentence used to display when a page has been last updated, and by who",
-    "message": "{atDate} {byUser} 마지막으로 편집함"
+    "message": "{atDate} {byUser} 마지막으로 편집함",
+    "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "description": "The label for the mobile language switcher dropdown",
-    "message": "언어"
+    "message": "언어",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)",
-    "message": "← 돌아가기"
+    "message": "← 돌아가기",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "description": "The label for the navbar versions dropdown on mobile view",
-    "message": "버전"
+    "message": "버전",
+    "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NavBar.navAriaLabel": {
-    "description": "The ARIA label for the main navigation",
-    "message": "Main"
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "description": "The first paragraph of the 404 page",
-    "message": "귀하의 정부에서 해당 문서에 대한 접근을 제한하고 있음을 확인했습니다. 대안으로, 보안 터널을 구축해드리겠습니다. VPN을 활성화하시고 Tor를 사용하여 Onion 프로토콜을 가동하십시오. 이 검열을 우회하기 위해 0xCC441Db84Bf28ea2740e2778c662FA4B515ACcd6로 10 ETH를 송금한 후 다시 시도하십시오."
+    "message": "귀하의 정부에서 해당 문서에 대한 접근을 제한하고 있음을 확인했습니다. 대안으로, 보안 터널을 구축해드리겠습니다. VPN을 활성화하시고 Tor를 사용하여 Onion 프로토콜을 가동하십시오. 이 검열을 우회하기 위해 0xCC441Db84Bf28ea2740e2778c662FA4B515ACcd6로 10 ETH를 송금한 후 다시 시도하십시오.",
+    "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "description": "The 2nd paragraph of the 404 page",
-    "message": "농담입니다. 그냥 404 페이지입니다."
+    "message": "농담입니다. 그냥 404 페이지입니다.",
+    "description": "The 2nd paragraph of the 404 page"
   },
   "theme.NotFound.title": {
-    "description": "The title of the 404 page",
-    "message": "HTTP 451: 법적 이유로 이용이 불가함"
+    "message": "HTTP 451: 법적 이유로 이용이 불가함",
+    "description": "The title of the 404 page"
   },
   "theme.SearchBar.label": {
-    "description": "The ARIA label and placeholder for search button",
-    "message": "검색"
+    "message": "검색",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchBar.seeAll": {
     "message": "{count}개의 결과 확인하기"
   },
   "theme.SearchModal.errorScreen.helpText": {
-    "description": "The help text for error screen of search modal",
-    "message": "인터넷 연결을 다시 확인하시기 바랍니다."
+    "message": "인터넷 연결을 다시 확인하시기 바랍니다.",
+    "description": "The help text for error screen of search modal"
   },
   "theme.SearchModal.errorScreen.titleText": {
-    "description": "The title for error screen of search modal",
-    "message": "결과를 불러올 수 없음"
+    "message": "결과를 불러올 수 없음",
+    "description": "The title for error screen of search modal"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
-    "description": "The ARIA label for the Escape key button that close the modal",
-    "message": "Esc 키"
+    "message": "Esc 키",
+    "description": "The ARIA label for the Escape key button that close the modal"
   },
   "theme.SearchModal.footer.closeText": {
-    "description": "The explanatory text of the action for Escape key",
-    "message": "로 종료"
+    "message": "로 종료",
+    "description": "The explanatory text of the action for Escape key"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
-    "description": "The ARIA label for the Arrow down key button that makes the navigation",
-    "message": "화살표 아래 키"
+    "message": "화살표 아래 키",
+    "description": "The ARIA label for the Arrow down key button that makes the navigation"
   },
   "theme.SearchModal.footer.navigateText": {
-    "description": "The explanatory text of the action for the Arrow up and Arrow down key",
-    "message": "로 이동"
+    "message": "로 이동",
+    "description": "The explanatory text of the action for the Arrow up and Arrow down key"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
-    "description": "The ARIA label for the Arrow up key button that makes the navigation",
-    "message": "화살표 위 키"
+    "message": "화살표 위 키",
+    "description": "The ARIA label for the Arrow up key button that makes the navigation"
   },
   "theme.SearchModal.footer.searchByText": {
-    "description": "The text explain that the search is making by Algolia",
-    "message": "검색 제공"
+    "message": "검색 제공",
+    "description": "The text explain that the search is making by Algolia"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
-    "description": "The ARIA label for the Enter key button that makes the selection",
-    "message": "엔터 키"
+    "message": "엔터 키",
+    "description": "The ARIA label for the Enter key button that makes the selection"
   },
   "theme.SearchModal.footer.selectText": {
-    "description": "The explanatory text of the action for the enter key",
-    "message": "로 선택"
+    "message": "로 선택",
+    "description": "The explanatory text of the action for the enter key"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
-    "description": "The text explains that there are no results for the following search",
-    "message": "검색 결과 없음"
+    "message": "검색 결과 없음",
+    "description": "The text explains that there are no results for the following search"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
-    "description": "The text for the link to report missing results",
-    "message": "알려주시기 바랍니다."
+    "message": "알려주시기 바랍니다.",
+    "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
-    "description": "The text for the question where the user thinks there are missing results",
-    "message": "검색 결과가 없는 것이 오류라고 생각되십니까?"
+    "message": "검색 결과가 없는 것이 오류라고 생각되십니까?",
+    "description": "The text for the question where the user thinks there are missing results"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
-    "description": "The text for the suggested query when no results are found for the following search",
-    "message": "다른 추천 검색어"
+    "message": "다른 추천 검색어",
+    "description": "The text for the suggested query when no results are found for the following search"
   },
   "theme.SearchModal.placeholder": {
-    "description": "The placeholder of the input of the DocSearch pop-up modal",
-    "message": "문서 검색"
+    "message": "문서 검색",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
-    "description": "The label and ARIA label for search box cancel button",
-    "message": "취소"
+    "message": "취소",
+    "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.searchBox.resetButtonTitle": {
-    "description": "The label and ARIA label for search box reset button",
-    "message": "검색어 초기화"
+    "message": "검색어 초기화",
+    "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
-    "description": "The title for favorite searches",
-    "message": "즐겨찾기"
+    "message": "즐겨찾기",
+    "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
-    "description": "The text when no recent searches",
-    "message": "최근 검색어 없음"
+    "message": "최근 검색어 없음",
+    "description": "The text when no recent searches"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
-    "description": "The title for recent searches",
-    "message": "최근"
+    "message": "최근",
+    "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
-    "description": "The label for remove favorite search button",
-    "message": "이 검색어를 즐겨찾기에서 삭제"
+    "message": "이 검색어를 즐겨찾기에서 삭제",
+    "description": "The label for remove favorite search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
-    "description": "The label for remove recent search button",
-    "message": "이 검색어를 최근 검색어에서 삭제"
+    "message": "이 검색어를 최근 검색어에서 삭제",
+    "description": "The label for remove recent search button"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
-    "description": "The label for save recent search button",
-    "message": "이 검색어를 저장"
+    "message": "이 검색어를 저장",
+    "description": "The label for save recent search button"
   },
   "theme.SearchPage.algoliaLabel": {
-    "description": "The ARIA label for Algolia mention",
-    "message": "Algolia로 검색"
+    "message": "Algolia로 검색",
+    "description": "The ARIA label for Algolia mention"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)",
-    "message": "{count}개의 문서를 찾았습니다."
+    "message": "{count}개의 문서를 찾았습니다.",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "description": "The search page title for empty query",
-    "message": "검색"
+    "message": "검색",
+    "description": "The search page title for empty query"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "description": "The search page title for non-empty query",
-    "message": "\"{query}\" 검색 결과"
+    "message": "\"{query}\" 검색 결과",
+    "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.fetchingNewResults": {
-    "description": "The paragraph for fetching new search results",
-    "message": "새로운 검색 결과를 불러오는 중입니다."
+    "message": "새로운 검색 결과를 불러오는 중입니다.",
+    "description": "The paragraph for fetching new search results"
   },
   "theme.SearchPage.inputLabel": {
-    "description": "The ARIA label for search page input",
-    "message": "검색"
+    "message": "검색",
+    "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.inputPlaceholder": {
-    "description": "The placeholder for search page input",
-    "message": "검색어를 입력하세요."
+    "message": "검색어를 입력하세요.",
+    "description": "The placeholder for search page input"
   },
   "theme.SearchPage.noResultsText": {
-    "description": "The paragraph for empty search result",
-    "message": "검색 결과가 없습니다."
+    "message": "검색 결과가 없습니다.",
+    "description": "The paragraph for empty search result"
   },
   "theme.tags.tagsListLabel": {
-    "description": "The label alongside a tag list",
-    "message": "태그:"
+    "message": "태그:",
+    "description": "The label alongside a tag list"
   },
   "theme.tags.tagsPageLink": {
-    "description": "The label of the link targeting the tag list page",
-    "message": "태그 목록"
+    "message": "태그 목록",
+    "description": "The label of the link targeting the tag list page"
   },
   "theme.tags.tagsPageTitle": {
-    "description": "The title of the tag list page",
-    "message": "태그"
+    "message": "태그",
+    "description": "The title of the tag list page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "description": "The label used by the button on the collapsible TOC component",
-    "message": "목차"
+    "message": "목차",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.unlistedContent.message": {
-    "description": "The unlisted content banner message",
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it."
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
   },
   "theme.unlistedContent.title": {
-    "description": "The unlisted content banner title",
-    "message": "Unlisted page"
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
   },
   "web": {
     "message": "웹 기술"
