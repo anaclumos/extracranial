@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e36de0590f28110c",
+        "id": "27481611cef535e1",
         "type": "tabs",
         "children": [
           {
-            "id": "88493a9d92fea036",
+            "id": "ff85db2d933224ed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/SignalKite.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pages/SignalKite.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/SignalKite.md"
+              }
             }
           },
           {
@@ -113,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/SignalKite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,8 +153,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "88493a9d92fea036",
+  "active": "ff85db2d933224ed",
   "lastOpenFiles": [
+    "journals/2024-08-09.md",
+    "pages/SignalKite.md",
+    "journals/2024-08-04.md",
+    "journals/2024-08-06.md",
+    "journals/2024-08-07.md",
+    "journals/2024-08-08.md",
+    "pages/Landing Page for Developers.md",
+    "pages/Git Signing on Remote Server.md",
+    "pages/Contextify.md",
+    "pages/Images Missing Alt Tag.md",
+    "journals/2024-08-05.md",
+    "pages/GraphQL Yoga vs Apollo.md",
     "journals/2024-08-03.md",
     "pages/雅號.md",
     "pages/GANGNAM.md",
@@ -162,21 +183,9 @@
     "pages/Open Core Models.md",
     "pages/Inspiring Open Source Projects.md",
     "journals/2024-07-31.md",
-    "pages/Mudita.md",
-    "pages/Backlinking for Aldehyde.md",
     "assets/189315.png",
-    "journals/2022-10-15.md",
-    "pages/Run by a human.md",
     "assets/2E4CC0.png",
-    "pages/rST.md",
-    "journals/2023-09-27.md",
-    "pages/Universal Approximation Theorem.md",
-    "journals/2024-07-30.md",
-    "pages/SignalKite.md",
     "assets/C19543.png",
-    "journals/2024-07-29.md",
-    "journals/2024-07-28.md",
-    "pages/Docker.md",
     "assets/73146A.gif",
     "assets/E18723.png",
     "assets/BDC66F.png",
