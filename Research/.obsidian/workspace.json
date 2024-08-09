@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/SignalKite.md",
+                "file": "pages/조선보다는 고려, 고려보다는 고구려.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/SignalKite.md",
+                "file": "pages/조선보다는 고려, 고려보다는 고구려.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/SignalKite.md"
+                "file": "pages/조선보다는 고려, 고려보다는 고구려.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/SignalKite.md",
+                "file": "pages/조선보다는 고려, 고려보다는 고구려.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,21 +156,24 @@
   "active": "ff85db2d933224ed",
   "lastOpenFiles": [
     "journals/2024-08-09.md",
-    "pages/SignalKite.md",
+    "pages/조선보다는 고려, 고려보다는 고구려.md",
+    "journals/2024-08-08.md",
+    "journals/2024-08-07.md",
+    "journals/2024-08-10.md",
+    "pages/MAGI.md",
+    "journals/2024-08-02.md",
+    "journals/2024-08-03.md",
     "journals/2024-08-04.md",
     "journals/2024-08-06.md",
-    "journals/2024-08-07.md",
-    "journals/2024-08-08.md",
+    "pages/SignalKite.md",
     "pages/Landing Page for Developers.md",
     "pages/Git Signing on Remote Server.md",
     "pages/Contextify.md",
     "pages/Images Missing Alt Tag.md",
     "journals/2024-08-05.md",
     "pages/GraphQL Yoga vs Apollo.md",
-    "journals/2024-08-03.md",
     "pages/雅號.md",
     "pages/GANGNAM.md",
-    "journals/2024-08-02.md",
     "pages/Stripe Acquires Lemon Squeezy.md",
     "pages/Friend.com Mayhem.md",
     "pages/AWS Edge Continuum.md",
@@ -180,9 +183,6 @@
     "pages/Heath Resume.md",
     "journals/2024-08-01.md",
     "pages/Oneday.md",
-    "pages/Open Core Models.md",
-    "pages/Inspiring Open Source Projects.md",
-    "journals/2024-07-31.md",
     "assets/189315.png",
     "assets/2E4CC0.png",
     "assets/C19543.png",
