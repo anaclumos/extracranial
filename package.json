@@ -13,12 +13,12 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "^3.4.0",
-    "@docusaurus/plugin-client-redirects": "^3.4.0",
-    "@docusaurus/preset-classic": "^3.4.0",
-    "@docusaurus/theme-classic": "^3.4.0",
-    "@docusaurus/theme-common": "^3.4.0",
-    "@docusaurus/theme-mermaid": "^3.4.0",
+    "@docusaurus/core": "^3.5.0",
+    "@docusaurus/plugin-client-redirects": "^3.5.0",
+    "@docusaurus/preset-classic": "^3.5.0",
+    "@docusaurus/theme-classic": "^3.5.0",
+    "@docusaurus/theme-common": "^3.5.0",
+    "@docusaurus/theme-mermaid": "^3.5.0",
     "@giscus/react": "^3.0.0",
     "clsx": "^2.1.1",
     "react": "^18.3.1",
@@ -29,10 +29,10 @@
     "swc-loader": "^0.2.6"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.4.0",
-    "@docusaurus/tsconfig": "^3.4.0",
-    "@docusaurus/types": "^3.4.0",
-    "@types/node": "^22.0.3",
+    "@docusaurus/module-type-aliases": "^3.5.0",
+    "@docusaurus/tsconfig": "^3.5.0",
+    "@docusaurus/types": "^3.5.0",
+    "@types/node": "^22.1.0",
     "prettier": "^3.3.3"
   },
   "license": "MIT",
