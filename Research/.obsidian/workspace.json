@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "27481611cef535e1",
+        "id": "5fa1ddcd35dc27b5",
         "type": "tabs",
         "children": [
           {
-            "id": "ff85db2d933224ed",
+            "id": "df5614fa9625157e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/조선보다는 고려, 고려보다는 고구려.md",
+                "file": "journals/2024-08-10.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5ec2ebcedc9d4809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-08-02.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c42966a7fc6df88d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-08-10.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/조선보다는 고려, 고려보다는 고구려.md",
+                "file": "journals/2024-08-10.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/조선보다는 고려, 고려보다는 고구려.md"
+                "file": "journals/2024-08-10.md"
               }
             }
           },
@@ -121,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/조선보다는 고려, 고려보다는 고구려.md",
+                "file": "journals/2024-08-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,23 +180,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ff85db2d933224ed",
+  "active": "c42966a7fc6df88d",
   "lastOpenFiles": [
-    "journals/2024-08-09.md",
-    "pages/조선보다는 고려, 고려보다는 고구려.md",
-    "journals/2024-08-08.md",
-    "journals/2024-08-07.md",
+    "pages/Docusaurus 3.5.1 Import Error.md",
     "journals/2024-08-10.md",
-    "pages/MAGI.md",
+    "pages/Images Missing Alt Tag.md",
     "journals/2024-08-02.md",
     "journals/2024-08-03.md",
     "journals/2024-08-04.md",
     "journals/2024-08-06.md",
-    "pages/SignalKite.md",
+    "journals/2024-08-07.md",
+    "journals/2024-08-08.md",
+    "journals/2024-08-09.md",
+    "pages/taintObjectReference.md",
     "pages/Landing Page for Developers.md",
+    "pages/조선보다는 고려, 고려보다는 고구려.md",
+    "pages/Biome.md",
+    "pages/MAGI.md",
+    "pages/SignalKite.md",
     "pages/Git Signing on Remote Server.md",
     "pages/Contextify.md",
-    "pages/Images Missing Alt Tag.md",
     "journals/2024-08-05.md",
     "pages/GraphQL Yoga vs Apollo.md",
     "pages/雅號.md",
@@ -180,9 +210,6 @@
     "assets/AE505D.png",
     "pages/Weihu.md",
     "assets/C35020.png",
-    "pages/Heath Resume.md",
-    "journals/2024-08-01.md",
-    "pages/Oneday.md",
     "assets/189315.png",
     "assets/2E4CC0.png",
     "assets/C19543.png",
