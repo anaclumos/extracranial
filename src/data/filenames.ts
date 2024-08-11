@@ -1609,6 +1609,7 @@ export const filenames = {
     "Mini App": "CF0FDB",
     "Minimaximalism": "5B5595",
     "Modern MacPaint": "5F9F23",
+    "Mohnish Pabrai Interview": "2C3676",
     "Mojo": "7CBCE6",
     "Moments": "708AFC",
     "Monolith": "3E779E",

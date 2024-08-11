@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5fa1ddcd35dc27b5",
+        "id": "7a023f1ada129035",
         "type": "tabs",
         "children": [
           {
-            "id": "df5614fa9625157e",
+            "id": "3156ad6c1a4db990",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2024-08-10.md",
+                "file": "journals/2024-08-11.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "5ec2ebcedc9d4809",
+            "id": "b9968d16fd5d8fdc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2024-08-02.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c42966a7fc6df88d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-08-10.md",
+                "file": "pages/Mohnish Pabrai Interview.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2024-08-10.md",
+                "file": "pages/Mohnish Pabrai Interview.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2024-08-10.md"
+                "file": "pages/Mohnish Pabrai Interview.md"
               }
             }
           },
@@ -148,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2024-08-10.md",
+                "file": "pages/Mohnish Pabrai Interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,13 +167,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c42966a7fc6df88d",
+  "active": "b9968d16fd5d8fdc",
   "lastOpenFiles": [
     "journals/2024-08-11.md",
-    "pages/Docusaurus 3.5.1 Import Error.md",
+    "pages/Mohnish Pabrai Interview.md",
     "journals/2024-08-10.md",
-    "pages/Images Missing Alt Tag.md",
     "journals/2024-08-02.md",
+    "pages/Docusaurus 3.5.1 Import Error.md",
+    "pages/Images Missing Alt Tag.md",
     "journals/2024-08-03.md",
     "journals/2024-08-04.md",
     "journals/2024-08-06.md",
@@ -207,7 +195,6 @@
     "pages/GANGNAM.md",
     "pages/Stripe Acquires Lemon Squeezy.md",
     "pages/Friend.com Mayhem.md",
-    "pages/AWS Edge Continuum.md",
     "assets/AE505D.png",
     "assets/C35020.png",
     "assets/189315.png",
