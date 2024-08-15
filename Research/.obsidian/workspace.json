@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Mohnish Pabrai Interview.md",
+                "file": "pages/Master Detail.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2bdf864e43ec1e86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Master Detail.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/Mohnish Pabrai Interview.md",
+                "file": "pages/Master Detail.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Mohnish Pabrai Interview.md"
+                "file": "pages/Master Detail.md"
               }
             }
           },
@@ -135,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Mohnish Pabrai Interview.md",
+                "file": "pages/Master Detail.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,10 +180,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b9968d16fd5d8fdc",
+  "active": "2bdf864e43ec1e86",
   "lastOpenFiles": [
-    "journals/2024-08-11.md",
+    "journals/2024-08-15.md",
+    "pages/Master Detail.md",
+    "assets/91B7AF.gif",
+    "assets/114B61.png",
+    "assets/8592D8.png",
+    "assets/666362.png",
+    "assets/BCD6C8.png",
+    "pages/Three Column Design.md",
+    "pages/Horizontally Stacked Interface.md",
+    "assets/8121DD.png",
+    "pages/Sliding Master Master Detail.md",
+    "pages/Sliding Panes.md",
+    "pages/Contextify.md",
+    "journals/2024-08-14.md",
     "pages/Mohnish Pabrai Interview.md",
+    "journals/2024-08-11.md",
     "journals/2024-08-10.md",
     "journals/2024-08-02.md",
     "pages/Docusaurus 3.5.1 Import Error.md",
@@ -186,25 +213,10 @@
     "pages/조선보다는 고려, 고려보다는 고구려.md",
     "pages/Biome.md",
     "pages/MAGI.md",
-    "pages/SignalKite.md",
-    "pages/Git Signing on Remote Server.md",
-    "pages/Contextify.md",
-    "journals/2024-08-05.md",
-    "pages/GraphQL Yoga vs Apollo.md",
-    "pages/雅號.md",
-    "pages/GANGNAM.md",
-    "pages/Stripe Acquires Lemon Squeezy.md",
-    "pages/Friend.com Mayhem.md",
     "assets/AE505D.png",
     "assets/C35020.png",
     "assets/189315.png",
     "assets/2E4CC0.png",
-    "assets/C19543.png",
-    "assets/73146A.gif",
-    "assets/E18723.png",
-    "assets/BDC66F.png",
-    "assets/66B3B1.png",
-    "assets/AAEB82.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",

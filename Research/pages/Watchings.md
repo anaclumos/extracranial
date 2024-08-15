@@ -36,5 +36,8 @@ import Shuffle from '@site/src/components/Shuffle'
 - 삼체
 - 눈물의 여왕
 - Dune 1 and 2
+- 더 인플루언서
+- 차가운 열대어
+- 에일리언 로물루스
 
 </Shuffle>
