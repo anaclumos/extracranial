@@ -5,7 +5,7 @@ slug: '/A18D7B'
 
 [[Design Trend]]
 
-[[UIUX]]
+[[UI and UX]]
 
 [[Block Protocol]]
 

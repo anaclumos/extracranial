@@ -26,7 +26,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Thu Aug 15 20:46:00 KST 2024
+Fri Aug 23 17:08:54 KST 2024
 
 ## Stats
 
@@ -34,10 +34,10 @@ Thu Aug 15 20:46:00 KST 2024
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2697     68992    18149         0    50843          0
+Markdown                  2702     69081    18172         0    50909          0
 CSS                         58     18895      761        33    18101          0
-TypeScript                  49     20377      140        33    20204        141
-JSON                        41      2317        0         0     2317          0
+TypeScript                  49     20416      140        33    20243        141
+JSON                        41      2281        0         0     2281          0
 SVG                          9         9        0         0        9          0
 Python                       8       776       71        34      671        113
 YAML                         8        86        0         0       86          0
@@ -48,13 +48,13 @@ INI                          1         1        0         0        1          0
 Plain Text                   1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2881    163061    21032      8389   133640       4587
+Total                     2886    163153    21055      8389   133709       4587
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $4,611,355
-Estimated Schedule Effort (organic) 24.58 months
-Estimated People Required (organic) 16.66
+Estimated Cost to Develop (organic) $4,613,855
+Estimated Schedule Effort (organic) 24.59 months
+Estimated People Required (organic) 16.67
 ───────────────────────────────────────────────────────────────────────────────
-Processed 10827468 bytes, 10.827 megabytes (SI)
+Processed 10832536 bytes, 10.833 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

@@ -17,7 +17,7 @@ Then what makes it so good? My observations:
 
 ![[6B42A0.png]]
 
-**What's up Button**. Next to the avatars chilling at the Townhall, there is a What's up button. It sends your friend a notification to snap a photo of yourself or your surroundings and send it to you. It's basically like Snapchat, but the difference is that you don't have that initial mental barrier of starting a conversation —- I found myself tapping that button way more often when checking out status updates on the Townhall. Sometimes, a single [[UIUX]] makes a huge difference.
+**What's up Button**. Next to the avatars chilling at the Townhall, there is a What's up button. It sends your friend a notification to snap a photo of yourself or your surroundings and send it to you. It's basically like Snapchat, but the difference is that you don't have that initial mental barrier of starting a conversation —- I found myself tapping that button way more often when checking out status updates on the Townhall. Sometimes, a single [[UI and UX]] makes a huge difference.
 
 ![[9B0752.png]]
 

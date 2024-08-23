@@ -119,7 +119,7 @@ Every hour, the processor will:
 - Generate Summary
 - Send [[Mail|Email]]
 
-Also, instead of having one [[newsletter]] that could be transformed into many languages, let's start with 30 different [[Newsletter|newsletters]] covering the same content. That is, separating the linguistic [[UIUX|UI]] from the [[newsletter]] content. So in a [[한국어|Korean]] interface, you can go to [[Hacker News]] [[일본어|Japanese]] version and read the content accordingly.
+Also, instead of having one [[newsletter]] that could be transformed into many languages, let's start with 30 different [[Newsletter|newsletters]] covering the same content. That is, separating the linguistic [[UI and UX|UI]] from the [[newsletter]] content. So in a [[한국어|Korean]] interface, you can go to [[Hacker News]] [[일본어|Japanese]] version and read the content accordingly.
 
 ## [[2023-07-13]]
 
