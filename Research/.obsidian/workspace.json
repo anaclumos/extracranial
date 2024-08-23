@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "05ee7c2d52bd5396",
+        "id": "2f20adeb19a9beec",
         "type": "tabs",
         "children": [
           {
-            "id": "290342f6ab11724f",
+            "id": "99073f91fd877ede",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -144,7 +144,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "290342f6ab11724f",
+  "active": "99073f91fd877ede",
   "lastOpenFiles": [
     "journals/2024-08-23.md",
     "pages/Adding a Verified Mark on Apple Mail and Gmail.md",
