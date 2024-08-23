@@ -25,3 +25,7 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 Export the identity and private key at the same time. [[AirDrop]] it to your phone, go to settings and install it. Go to [[Apple]] [[Mail]] settings and turn on Sign by Default.
 
 ![[BF3441.png]]
+
+### [[2024-08-23]]
+
+You can just airdrop the original pfx file.
