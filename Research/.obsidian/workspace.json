@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1a222819742b9669",
+        "id": "05ee7c2d52bd5396",
         "type": "tabs",
         "children": [
           {
-            "id": "58c528eaaf436dd7",
+            "id": "290342f6ab11724f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -144,9 +144,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "58c528eaaf436dd7",
+  "active": "290342f6ab11724f",
   "lastOpenFiles": [
     "journals/2024-08-23.md",
+    "pages/Adding a Verified Mark on Apple Mail and Gmail.md",
+    "pages/SMIME.md",
+    "pages/Getting Verified on Gmail.md",
+    "pages/Checkmark.md",
     "pages/Sliding Master Master Detail.md",
     "journals/2024-08-20.md",
     "pages/Django Rest Framework Database Query Builder Does Not Stable Sort.md",
@@ -178,9 +182,6 @@
     "pages/Horizontally Stacked Interface.md",
     "pages/Sliding Panes.md",
     "pages/Contextify.md",
-    "journals/2024-08-14.md",
-    "pages/Mohnish Pabrai Interview.md",
-    "journals/2024-08-10.md",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
