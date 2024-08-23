@@ -3,6 +3,6 @@ lang: 'en'
 slug: '/403E85'
 ---
 
-- an [[UIUX]] experiment.
+- an [[UI and UX]] experiment.
 
 ![[9A3C8D.png]]

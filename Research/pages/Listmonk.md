@@ -11,7 +11,7 @@ Listmonk has these features:
 - Allows you to create and manage massive mailing lists, subscribers, and campaigns
 - Enables you to create customized campaigns and manage templates and media that can be reused in templates
 - Uses a PostgreSQL (⩾ 12) [[database]] as its data store
-- The [[back-end]] is written in Go, and the [[front-end]] is Vue with Buefy for [[UIUX|UI]]
+- The [[back-end]] is written in Go, and the [[front-end]] is Vue with Buefy for [[UI and UX|UI]]
 - Licensed under AGPLv3
 
 You don't have to pay for subscriptions or worry about hidden fees with Listmonk. You only pay for hosting the service.

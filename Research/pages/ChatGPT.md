@@ -23,7 +23,7 @@ slug: '/85E9E7'
 
 ## Examples
 
-> Turned out to be a chat [[UIUX|UI]] that got people to start tinkering with text.
+> Turned out to be a chat [[UI and UX|UI]] that got people to start tinkering with text.
 >
 > — Nat Friedman (@natfriedman) [December 4, 2022](https://twitter.com/natfriedman/status/1599206152025231360?ref_src=twsrc%5Etfw)
 

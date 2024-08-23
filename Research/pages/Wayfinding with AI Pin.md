@@ -20,7 +20,7 @@ slug: '/C62BBE'
 
 - Hypothesized that [[Humane Ai Pin|Ai Pin]] could utilize a MEMS blue laser scanner
   - small size, energy efficiency, and always-in-focus capabilities.
-- Projected images on our hands and developed guidelines for positioning and scaling [[UIUX|UI]] elements.
+- Projected images on our hands and developed guidelines for positioning and scaling [[UI and UX|UI]] elements.
 
 ### Font and line weights
 

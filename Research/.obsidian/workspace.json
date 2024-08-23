@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7a023f1ada129035",
+        "id": "1a222819742b9669",
         "type": "tabs",
         "children": [
           {
-            "id": "3156ad6c1a4db990",
+            "id": "58c528eaaf436dd7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-08-11.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b9968d16fd5d8fdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Master Detail.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2bdf864e43ec1e86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Master Detail.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +82,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/Master Detail.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -137,9 +104,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/Master Detail.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Master Detail.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,43 +144,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2bdf864e43ec1e86",
+  "active": "58c528eaaf436dd7",
   "lastOpenFiles": [
-    "journals/2024-08-15.md",
+    "journals/2024-08-23.md",
+    "pages/Sliding Master Master Detail.md",
+    "journals/2024-08-20.md",
+    "pages/Django Rest Framework Database Query Builder Does Not Stable Sort.md",
+    "journals/2024-08-22.md",
+    "journals/2024-08-17.md",
+    "journals/2024-08-21.md",
+    "assets/BD8935.gif",
+    "pages/document.designMode.md",
+    "journals/2024-08-11.md",
     "pages/Master Detail.md",
+    "assets/53CAD9.gif",
+    "pages/Market 6.md",
+    "assets/6443AE.gif",
+    "pages/UI and UX.md",
+    "journals/2024-08-09.md",
+    "assets/209AF0.png",
+    "assets/C782E0.png",
+    "pages/말도 안 되는 버그.md",
+    "assets/5B76CA.png",
+    "pages/GANGNAM.md",
+    "pages/Firefox.md",
+    "pages/불가사리 (23誠鉉).md",
+    "journals/2024-08-15.md",
     "assets/91B7AF.gif",
     "assets/114B61.png",
     "assets/8592D8.png",
     "assets/666362.png",
-    "assets/BCD6C8.png",
     "pages/Three Column Design.md",
     "pages/Horizontally Stacked Interface.md",
-    "assets/8121DD.png",
-    "pages/Sliding Master Master Detail.md",
     "pages/Sliding Panes.md",
     "pages/Contextify.md",
     "journals/2024-08-14.md",
     "pages/Mohnish Pabrai Interview.md",
-    "journals/2024-08-11.md",
     "journals/2024-08-10.md",
-    "journals/2024-08-02.md",
-    "pages/Docusaurus 3.5.1 Import Error.md",
-    "pages/Images Missing Alt Tag.md",
-    "journals/2024-08-03.md",
-    "journals/2024-08-04.md",
-    "journals/2024-08-06.md",
-    "journals/2024-08-07.md",
-    "journals/2024-08-08.md",
-    "journals/2024-08-09.md",
-    "pages/taintObjectReference.md",
-    "pages/Landing Page for Developers.md",
-    "pages/조선보다는 고려, 고려보다는 고구려.md",
-    "pages/Biome.md",
-    "pages/MAGI.md",
-    "assets/AE505D.png",
-    "assets/C35020.png",
-    "assets/189315.png",
-    "assets/2E4CC0.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",

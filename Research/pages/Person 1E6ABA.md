@@ -33,7 +33,7 @@ Most banks already spend at least $300 to acquire a customer.
 Possible side revenues include selling curated content with subscriptions, charging portions of the margin, or providing access to analyst information ([[Bloomberg]] model.)
 
 Recently closed $4M in funding, estimated burn rate $1.2M a year approx.
-Team of a financial expert, engineer, [[UIUX|UX]] designer, PM, media expert, media [[researcher]], and engineering intern.
+Team of a financial expert, engineer, [[UI and UX|UX]] designer, PM, media expert, media [[researcher]], and engineering intern.
 
 1E6ABA's experience at [[Google]] involved multiple teams, from [[Chrome]] to TensorFlow.
 Learned a lot about soft skills.

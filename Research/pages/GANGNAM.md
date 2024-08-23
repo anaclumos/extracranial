@@ -186,6 +186,9 @@ Last updated on [[2024-08-01]].
   - super fast
   - no bullshit configs
   - not hot-replaceable right away, but very similar to Express
+- Hono
+  - Web Standards!
+- Would love to explore a more centralized options like Supabase and Convex. Supabase is known to be terribly hard to self-host tho.
 - Lucia
   - minimal setup
   - ergonomic
@@ -209,14 +212,19 @@ I am skeptical of this but could use:
   - I don't like they try to 'override' or 'rebrand' some web or React feature
   - but I must admit, hell yeah, they're ergonomic.
   - not interoperable, but I don't think any web framework is
+- Remix
+  - I feel it's better than Next, but recently the team had been a little haywire
 - SWR
   - minimal setup
   - vertically integrates with next.js (by the same Vercel people)
+- Tanstack Query & Table
+  - If I need to use Tanstack Table, I'd use their entire series. Doubts on the recent "Start" thing but optimistic.
 - UI by @shadcn
   - minimal setup
   - one could argue it's ergonomic
   - vertically integrates with Next.js (shadcn works for Vercel)
   - hot-replaceable because it's just copy-pasting Radix Tailwind codes to your component folders.
+- I recently purchased Tailwind UI and Catalyst -- for reference and studing
 - Tailwind
   - minimal setup, although I hate postcss and tailwind configs
   - near one-to-one mapping with CSS

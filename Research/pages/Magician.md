@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/2352A7'
 ---
 
-- an [[UIUX]] experiment.
+- an [[UI and UX]] experiment.
 
 ### [Introducing Magician - by Jordan Singer - Diagram](https://blog.diagram.com/p/introducing-magician)
 
