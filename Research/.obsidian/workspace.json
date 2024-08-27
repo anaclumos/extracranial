@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2f20adeb19a9beec",
+        "id": "1e46827771eb37f0",
         "type": "tabs",
         "children": [
           {
-            "id": "99073f91fd877ede",
+            "id": "a17c3db485336017",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -144,15 +144,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99073f91fd877ede",
+  "active": "a17c3db485336017",
   "lastOpenFiles": [
+    "journals/2024-08-27.md",
+    "assets/6A7C32.gif",
     "journals/2024-08-23.md",
+    "journals/2024-08-20.md",
+    "pages/BD8935.gif.md",
+    "pages/Debugging CSS.md",
+    "pages/Dalimagination.md",
+    "pages/에밀레 성장 모델.md",
+    "pages/Prettier.md",
+    "pages/Biome.md",
     "pages/Adding a Verified Mark on Apple Mail and Gmail.md",
     "pages/SMIME.md",
     "pages/Getting Verified on Gmail.md",
     "pages/Checkmark.md",
     "pages/Sliding Master Master Detail.md",
-    "journals/2024-08-20.md",
     "pages/Django Rest Framework Database Query Builder Does Not Stable Sort.md",
     "journals/2024-08-22.md",
     "journals/2024-08-17.md",
@@ -170,18 +178,9 @@
     "assets/C782E0.png",
     "pages/말도 안 되는 버그.md",
     "assets/5B76CA.png",
-    "pages/GANGNAM.md",
-    "pages/Firefox.md",
-    "pages/불가사리 (23誠鉉).md",
-    "journals/2024-08-15.md",
     "assets/91B7AF.gif",
     "assets/114B61.png",
     "assets/8592D8.png",
-    "assets/666362.png",
-    "pages/Three Column Design.md",
-    "pages/Horizontally Stacked Interface.md",
-    "pages/Sliding Panes.md",
-    "pages/Contextify.md",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
