@@ -28,3 +28,6 @@ Open Source Software Accelerationism (oss/acc) suggests a philosophy or movement
 </Tabs>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">oss/acc stickers dropped<a href="https://t.co/8g08SJHVzn">https://t.co/8g08SJHVzn</a> <a href="https://t.co/MMusgDyLve">https://t.co/MMusgDyLve</a> <a href="https://t.co/ot8fTJmAId">pic.twitter.com/ot8fTJmAId</a></p>&mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1780354813793800698?ref_src=twsrc%5Etfw">April 16, 2024</a></blockquote>
+
+- [polarsource/polar: An Open Source Lemon Squeezy alternative with better pricing! Get paid coding on your passion.](https://github.com/polarsource/polar)
+- [[Ticket Bounty Model]]

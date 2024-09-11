@@ -8,3 +8,9 @@ aliases: ['티켓 바운티 모델']
   - It's like a sushi table but with issue tickets
 - [Build and Fund the Open Web Together | Gitcoin](https://gitcoin.co/)
 - [Polar – Pledge for progress](https://polar.sh/)
+
+![[7BA114.png]]
+
+![[3E3837.png]]
+
+IMO their mistake is that they are using ticket bounties to pull new people in. This should, instead, work in favor of the maintainers themselves.
