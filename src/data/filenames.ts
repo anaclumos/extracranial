@@ -1346,6 +1346,7 @@ export const filenames = {
     "HYBE": "322E67",
     "Habbo Hotel": "FD6394",
     "Habit Together": "4A6E4B",
+    "HackSeoul 2024": "82EAC8",
     "Hacker": "719A17",
     "Hacker News": "FA003B",
     "Hacking SEOs": "3E8AD8",
