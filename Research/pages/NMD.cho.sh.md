@@ -5,7 +5,7 @@ slug: '/671D08'
 
 Mobile-Desktop optimized **Master Detail View** (Like iPhone-iPad)
 
-- Acceptable Code Structure (Next.js App Router Nested Layout)
+- Acceptable Code Structure (Next.js [[App Router]] Nested Layout)
 - Acceptable Link Structure
 - Acceptable UI (Don't stretch mobile layout on desktop, or cram desktop layout to mobile)
 
