@@ -39,5 +39,6 @@ import Shuffle from '@site/src/components/Shuffle'
 - 더 인플루언서
 - 차가운 열대어
 - 에일리언 로물루스
+- Blackberry (★★★★★)
 
 </Shuffle>
