@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cfb6297ee6f0c5c7",
+        "id": "4ae51e65262a5b24",
         "type": "tabs",
         "children": [
           {
-            "id": "fb3973a0ad98a230",
+            "id": "41a98b0560a00027",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-09-26.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2024-09-26.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,9 +104,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2024-09-26.md"
-              }
+              "state": {}
             }
           },
           {
@@ -121,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2024-09-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,10 +144,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb3973a0ad98a230",
+  "active": "41a98b0560a00027",
   "lastOpenFiles": [
-    "journals/2024-09-28.md",
     "journals/2024-09-26.md",
+    "journals/2024-09-29.md",
+    "pages/Contextify.md",
+    "journals/2024-09-28.md",
     "journals/2024-09-25.md",
     "journals/2024-09-21.md",
     "journals/2024-09-16.md",
@@ -164,7 +157,6 @@
     "journals/2024-09-11.md",
     "journals/2024-09-12.md",
     "pages/Downloading Any Recordings from Zoom.md",
-    "pages/Contextify.md",
     "pages/CSS Inject.md",
     "pages/Prettier.md",
     "pages/Supabase.md",
@@ -190,7 +182,6 @@
     "pages/ossacc.md",
     "pages/네오 코리안 르네상스.md",
     "pages/Ticket Bounty Model.md",
-    "pages/Vimium.md",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
