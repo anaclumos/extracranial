@@ -23,5 +23,5 @@
     "downscalePercent": 100
   },
   "rightToLeft": false,
-  "vimMode": true
+  "vimMode": false
 }
