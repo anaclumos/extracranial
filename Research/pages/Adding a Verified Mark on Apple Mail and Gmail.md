@@ -28,4 +28,6 @@ Export the identity and private key at the same time. [[AirDrop]] it to your pho
 
 ### [[2024-08-23]]
 
-You can just airdrop the original pfx file.
+~~You can just airdrop the original pfx file.~~
+
+Or just email it -- this seems to work better
