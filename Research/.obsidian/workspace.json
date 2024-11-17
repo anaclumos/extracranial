@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c17eb37e0d418ca5",
+        "id": "38bca9a34347737f",
         "type": "tabs",
         "children": [
           {
-            "id": "eb0265363afd6293",
+            "id": "f3a534f235ba66fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-10-06.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -55,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -63,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ],
@@ -87,10 +90,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2024-10-06.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -102,7 +106,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -110,9 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "journals/2024-10-06.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -121,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2024-10-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +134,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           }
         ],
@@ -153,10 +160,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eb0265363afd6293",
+  "active": "f3a534f235ba66fe",
   "lastOpenFiles": [
-    "journals/2024-10-12.md",
+    "journals/2024-11-14.md",
+    "journals/2024-11-17.md",
+    "journals/2024-10-14.md",
+    "journals/2024-10-13.md",
+    "journals/2024-11-15.md",
+    "pages/Adding a Verified Mark on Apple Mail and Gmail.md",
+    "pages/Shadcn Skeleton Random Delay.md",
+    "pages/String Template Managing Tools.md",
     "journals/2024-10-06.md",
+    "journals/2024-10-12.md",
     "journals/2024-10-07.md",
     "pages/In HTML, button cannot be a descendant of button.md",
     "pages/Auto-remove Unused Imports.md",
@@ -174,15 +189,7 @@
     "assets/CC2DAC.png",
     "pages/Discord.md",
     "pages/Font.md",
-    "pages/Fonts.md",
-    "journals/2024-09-26.md",
-    "pages/SaaS for Auth.md",
-    "pages/VoidZero.md",
     "assets/4ACA3E.png",
-    "pages/es-toolkit.md",
-    "pages/NIST Password Recommendations.md",
-    "journals/2024-09-25.md",
-    "journals/2024-09-21.md",
     "assets/C6A468.png",
     "assets/9FB1B6.png",
     "assets/254696.png",
