@@ -11,7 +11,7 @@ Write a comprehensive git pull request info for this diff. Consider on:
 - Which files are essential components?
 - What dependencies are added? Why are they useful?
 - If an existing file is refactored, what's the critical difference?
--
+- If a config file, such as eslint or prettier has changed, what is the difference?
 
 Ignore all other noises, such as formatting changes, dead code elimination, or trivial package updates.
 

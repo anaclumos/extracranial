@@ -5,7 +5,7 @@ slug: '/1C434D'
 
 ```json
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "files": {
     "ignore": ["**/.next/**", "**/node_modules/**", "**/.turbo/**", "**/dist/**", "**/storybook-static/**"]
   },
@@ -42,7 +42,7 @@ slug: '/1C434D'
   },
   "javascript": {
     "formatter": {
-      "jsxQuoteStyle": "double",
+      "jsxQuoteStyle": "single",
       "quoteProperties": "asNeeded",
       "trailingCommas": "all",
       "semicolons": "asNeeded",
