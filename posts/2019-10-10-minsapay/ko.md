@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/3955DC'
 ---
 
+<!-- truncate -->
+
 ![ALT: 배너](F15177.jpg)
 
 | 통계 지표   | 데이터          |

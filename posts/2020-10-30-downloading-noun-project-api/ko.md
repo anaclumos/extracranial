@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/589DF4'
 ---
 
+<!-- truncate -->
+
 ## Beware
 
 이 도구를 사용하여 타인의 지적 재산권을 침해하지 마십시오. 이 코드와 The Noun Project API가 자신의 사용 용도에 적합한지 확인한 후에 사용하십시오. 또한 라이선스와 API 문서를 꼼꼼하게 검토하십시오. The Noun Project에서 허가하지 않는 사용 용도들은 [여기](https://api.thenounproject.com/getting_started.html#unacceptable-uses)에서 확인하실 수 있습니다. 또한 이 글과 이 글의 모든 코드는 MIT 라이선스임을 알려드립니다.

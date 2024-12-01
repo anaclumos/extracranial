@@ -6,6 +6,8 @@ authors: anaclumos
 slug: '/92B47B'
 ---
 
+<!-- truncate -->
+
 <figure>
 
 ![ALT: tossface.cho.sh](25AAC2.png)

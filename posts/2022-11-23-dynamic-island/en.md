@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/9F7F85'
 ---
 
+<!-- truncate -->
+
 # Recreating the Dynamic Island 🏝
 
 <Admonition type="info" title="Talk is cheap; show me right now!" icon="🗣">

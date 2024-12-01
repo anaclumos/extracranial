@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/DDA06F'
 ---
 
+<!-- truncate -->
+
 얼마 전 이 [Gist](https://gist.github.com/hellerbarde/2843375)와 이 [페이지](https://colin-scott.github.io/personal_website/research/interactive_latency.html)를 보았다. 이 비교를 2020년대에 맞게 한 번 더 업데이트하면 좋을 것 같다는 생각이 들었다. 현대 컴퓨터가 얼마나 빠른지 시각화하는 용도로 유용할 것이다.
 
 ## 달력의 의미

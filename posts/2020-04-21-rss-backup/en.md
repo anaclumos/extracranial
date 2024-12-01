@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/21E029'
 ---
 
+<!-- truncate -->
+
 My Ghost blog is not serverless. Although it requires continuous management, there are many advantages to operating a blog through a server. However, managing a blog through a server has one major drawback. If the server crashes, it becomes very difficult to restore the posts stored inside. I thought it would be too cumbersome to manually copy and backup each post and photo as the amount of content increases in the future. I wanted to come up with a solution to improve this situation.
 
 ## Problems with Ghost's Built-in Backup

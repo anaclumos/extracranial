@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/3955DC'
 ---
 
+<!-- truncate -->
+
 ![ALT: Hero Image. Building a payment system for school festivals](F15177.jpg)
 
 MinsaPay is a payment system that was built for the Minjok Summer Festival. It works like a prepaid tap-to-pay card. Every source and piece of anonymized transaction data is available on GitHub.

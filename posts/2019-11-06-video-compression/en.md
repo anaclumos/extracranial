@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/6B6D29'
 ---
 
+<!-- truncate -->
+
 ![Example of Video Ghosting](715FD6.png)
 
 In this article, we will learn about the principle of video compression and discuss why the above phenomenon occurs.

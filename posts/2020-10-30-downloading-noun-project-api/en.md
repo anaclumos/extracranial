@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/589DF4'
 ---
 
+<!-- truncate -->
+
 Recently I came across The Noun Project's API. With the combination of the `download` function I created in the [past](https://blog.chosunghyun.com/kr-backup-with-rss/), you could download hundreds of icons within seconds.
 
 ## Beware
