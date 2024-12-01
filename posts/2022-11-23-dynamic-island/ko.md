@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/9F7F85'
 ---
 
+<!-- truncate -->
+
 # 웹으로 빚은 다이나믹 아일랜드 🏝
 
 <Admonition type="info" title="잔말 말고 일단 먼저 보여줘요" icon="🗣">

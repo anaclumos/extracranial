@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/4BB66F'
 ---
 
+<!-- truncate -->
+
 - This is a personal analysis and there is no way to verify this article until YouTube releases the source code. Please keep that in mind when reading this article.
 
 ![YouTube, a strange video platform where a Korean singer sings a Korean song on a Korean broadcast, but there are only Korean comments](7C928F.png)

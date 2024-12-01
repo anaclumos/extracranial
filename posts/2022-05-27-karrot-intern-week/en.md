@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/98410A'
 ---
 
+<!-- truncate -->
+
 ![ALT: Banner image showing onboarding goods such as MacBook, charger, sticker, guide, etc.](E03480.png)
 
 It's already been a week since I've been living as an intern at Karrot (2022-05-22), a Korean Unicorn Company.

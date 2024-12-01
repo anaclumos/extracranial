@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/AF848F'
 ---
 
+<!-- truncate -->
+
 import YouTube from '@site/src/components/YouTube'
 import DisplayFlex from '@site/src/components/DisplayFlex'
 

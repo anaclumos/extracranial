@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/E2CAE4'
 ---
 
+<!-- truncate -->
+
 import DisplayFlex from '@site/src/components/DisplayFlex'
 ![ALT: Woowa Tech Camp 3rd Review](976A54.jpg)
 It may seem too late to write a review in 2021 for something that ended in August 2020, but with the [4th recruitment](https://www.woowahan.com/#/recruit/techcamp) currently underway, I felt that if I didn't post it now, I might never do it. Most of the information available online only briefly touches upon the topic, so I will focus on **the things I was curious about when I applied**.

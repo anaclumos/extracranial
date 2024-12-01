@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/F522B3'
 ---
 
+<!-- truncate -->
+
 Let's create a calendar with JavaScript but without any external library. This project is based on my previous internship at [Woowa Bros, a unicorn food-delivery startup in Seoul](https://www.bloomberg.com/profile/company/0962533D:KS).
 
 ## Show me the code first.

@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/D7DE14'
 ---
 
+<!-- truncate -->
+
 import Admonition from '@theme/Admonition';
 import DisplayFlex from '@site/src/components/DisplayFlex'
 import YouTube from '@site/src/components/YouTube'

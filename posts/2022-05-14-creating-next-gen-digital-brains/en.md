@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/D8FB8E'
 ---
 
+<!-- truncate -->
+
 After a few years of technical writing, I felt limitations on writing platforms that hindered me from writing the best-class articles. Technological knowledge is dynamic and intertwined in that none of the current formats - academic papers, lecture videos, code examples, or straightforward posts - can best represent the knowledge. I have examined and observed some attempts that addressed this issue, namely, stuff called the **second brain** or **digital gardens**, but none of them seemed to correctly solve the problem. Therefore, I have distilled my inconveniences into this huge mega-post and imagined **_what I would've done if I had created the new incarnations of digital brains._**
 
 :::info **Update 2022-06-12**

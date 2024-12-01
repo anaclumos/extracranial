@@ -5,6 +5,8 @@ authors: anaclumos
 slug: '/7BF6C2'
 ---
 
+<!-- truncate -->
+
 :::note
 This document is machine-translated.
 It is readable, but may contain awkward phrasing.
