@@ -11,10 +11,15 @@
             "id": "df35e664eb030f68",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/Contextify.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Contextify"
             }
           }
         ]
@@ -162,6 +167,14 @@
   },
   "active": "df35e664eb030f68",
   "lastOpenFiles": [
+    "pages/Biome.md",
+    "pages/SignalKite.md",
+    "journals/2024-12-06.md",
+    "pages/Extracranial.com.md",
+    "journals/2024-12-05.md",
+    "pages/Next.js 15 Font Hydration Error.md",
+    "journals/2024-12-02.md",
+    "assets/37C899.png",
     "journals/2024-12-01.md",
     "pages/Sichimi.md",
     "journals/2024-11-15.md",
@@ -170,7 +183,6 @@
     "journals/2024-10-14.md",
     "journals/2024-11-23.md",
     "journals/2024-11-29.md",
-    "pages/Biome.md",
     "pages/tidy.md",
     "pages/CSS Inject.md",
     "pages/Prettier.md",
@@ -182,12 +194,6 @@
     "pages/String Template Managing Tools.md",
     "journals/2024-10-06.md",
     "journals/2024-10-12.md",
-    "journals/2024-10-07.md",
-    "pages/In HTML, button cannot be a descendant of button.md",
-    "pages/Auto-remove Unused Imports.md",
-    "pages/Copy Latest SHA.md",
-    "journals/2024-10-03.md",
-    "journals/2024-10-05.md",
     "assets/CC2DAC.png",
     "assets/4ACA3E.png",
     "assets/C6A468.png",
@@ -197,7 +203,6 @@
     "assets/926B9E.png",
     "assets/239BCF.png",
     "assets/6AF593.png",
-    "assets/A1D642.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
