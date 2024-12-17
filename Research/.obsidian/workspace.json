@@ -11,10 +11,15 @@
             "id": "ab41726e04d37d3b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-12-18.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2024-12-18"
             }
           }
         ]
@@ -162,10 +167,20 @@
   },
   "active": "ab41726e04d37d3b",
   "lastOpenFiles": [
+    "pages/My Raycast Wrapped of 2024.md",
+    "pages/My Raycast Wrapped of 2022.md",
+    "pages/My Raycast Wrapped of 2023.md",
+    "journals/2024-12-18.md",
+    "pages/Raycast.md",
+    "pages/Neo Apps.md",
+    "assets/163772.png",
+    "assets/BE23D8.png",
+    "assets/D21992.png",
+    "assets/5348E2.png",
+    "assets/41D7C4.png",
     "journals/2024-12-06.md",
     "journals/2024-12-13.md",
     "journals/2024-12-05.md",
-    "journals/2024-12-18.md",
     "journals/2024-12-12.md",
     "pages/이윤지-조성현.md",
     "assets/이윤지-조성현.md",
@@ -184,20 +199,10 @@
     "journals/2024-11-14.md",
     "journals/2024-10-14.md",
     "journals/2024-11-23.md",
-    "journals/2024-11-29.md",
-    "pages/tidy.md",
-    "pages/CSS Inject.md",
-    "pages/Prettier.md",
-    "pages/Font.md",
     "assets/CC2DAC.png",
     "assets/4ACA3E.png",
     "assets/C6A468.png",
     "assets/9FB1B6.png",
-    "assets/254696.png",
-    "assets/772539.png",
-    "assets/926B9E.png",
-    "assets/239BCF.png",
-    "assets/6AF593.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
