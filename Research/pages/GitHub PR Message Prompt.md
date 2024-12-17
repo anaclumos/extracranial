@@ -15,5 +15,5 @@ Write a comprehensive git pull request info for this diff. Consider on:
 
 Ignore all other noises, such as formatting changes, dead code elimination, or trivial package updates.
 
-Use Markdown. Keep everything concise and direct.
+Use Markdown headings. Keep everything concise and direct.
 ```

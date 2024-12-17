@@ -3,8 +3,8 @@
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "monospaceFontFamily": "JetBrains Mono",
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "translucency": true,
   "baseFontSize": 13,
-  "accentColor": "#ff5900"
+  "accentColor": ""
 }
