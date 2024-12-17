@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "be221b9c2770496a",
+        "id": "f5bb58a6e1aeb135",
         "type": "tabs",
         "children": [
           {
-            "id": "df35e664eb030f68",
+            "id": "be08523beff11365",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Contextify.md",
-                "mode": "preview",
+                "file": "journals/2024-12-06.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Contextify"
+              "title": "2024-12-06"
             }
           }
         ]
@@ -165,13 +165,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "df35e664eb030f68",
+  "active": "be08523beff11365",
   "lastOpenFiles": [
+    "journals/2024-12-13.md",
+    "journals/2024-12-06.md",
+    "journals/2024-12-05.md",
+    "journals/2024-12-18.md",
+    "journals/2024-12-12.md",
+    "pages/이윤지-조성현.md",
+    "assets/이윤지-조성현.md",
+    "pages/Obsidian Print Force Pagebreak.md",
+    "pages/Contextify.md",
     "pages/Biome.md",
     "pages/SignalKite.md",
-    "journals/2024-12-06.md",
     "pages/Extracranial.com.md",
-    "journals/2024-12-05.md",
     "pages/Next.js 15 Font Hydration Error.md",
     "journals/2024-12-02.md",
     "assets/37C899.png",
@@ -187,13 +194,6 @@
     "pages/CSS Inject.md",
     "pages/Prettier.md",
     "pages/Font.md",
-    "journals/2024-11-17.md",
-    "journals/2024-10-13.md",
-    "pages/Adding a Verified Mark on Apple Mail and Gmail.md",
-    "pages/Shadcn Skeleton Random Delay.md",
-    "pages/String Template Managing Tools.md",
-    "journals/2024-10-06.md",
-    "journals/2024-10-12.md",
     "assets/CC2DAC.png",
     "assets/4ACA3E.png",
     "assets/C6A468.png",
