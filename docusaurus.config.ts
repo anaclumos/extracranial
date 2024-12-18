@@ -19,23 +19,8 @@ const config: Config = {
   projectName: 'extracranial',
   i18n: i18n,
   baseUrlIssueBanner: false,
-  webpack: {
-    jsLoader: (isServer) => ({
-      loader: require.resolve('swc-loader'),
-      options: {
-        jsc: {
-          parser: {
-            sync: true,
-            syntax: 'typescript',
-            tsx: true,
-          },
-          target: 'es2022',
-        },
-        module: {
-          type: isServer ? 'commonjs' : 'nodenext',
-        },
-      },
-    }),
+  future: {
+    experimental_faster: true,
   },
   presets: [
     [
