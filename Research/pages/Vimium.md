@@ -13,3 +13,6 @@ slug: '/B83561'
 - `shift j`: Previous Tab
 - `shift k`: Next Tab
 - `yy`: Copy URL
+
+- `gg` Top of the page
+- `G` Bottom of the page
