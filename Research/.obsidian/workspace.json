@@ -4,41 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "80b9fac3c9f0bd86",
+        "id": "b66ceda15f39ff78",
         "type": "tabs",
         "children": [
           {
-            "id": "ab41726e04d37d3b",
+            "id": "639625892ddb0f34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2024-12-18.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2024-12-18"
-            }
-          },
-          {
-            "id": "3ebb46a78881c1e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Vimium.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Vimium"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,9 +160,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ebb46a78881c1e9",
+  "active": "639625892ddb0f34",
   "lastOpenFiles": [
+    "journals/2024-12-20.md",
+    "journals/2024-12-21.md",
+    "journals/2024-12-19.md",
+    "pages/Do not Disturb for Set Duration.md",
+    "assets/F26E4A.png",
+    "pages/나락 탐지.md",
+    "pages/Contextify.md",
     "journals/2024-12-18.md",
+    "pages/GitHub PR Message Prompt.md",
+    "pages/Vimium.md",
     "pages/My Raycast Wrapped of 2024.md",
     "pages/My Raycast Wrapped of 2022.md",
     "pages/My Raycast Wrapped of 2023.md",
@@ -201,24 +189,15 @@
     "pages/이윤지-조성현.md",
     "assets/이윤지-조성현.md",
     "pages/Obsidian Print Force Pagebreak.md",
-    "pages/Contextify.md",
     "pages/Biome.md",
     "pages/SignalKite.md",
     "pages/Extracranial.com.md",
     "pages/Next.js 15 Font Hydration Error.md",
     "journals/2024-12-02.md",
     "assets/37C899.png",
-    "journals/2024-12-01.md",
-    "pages/Sichimi.md",
-    "journals/2024-11-15.md",
-    "journals/2024-11-25.md",
-    "journals/2024-11-14.md",
-    "journals/2024-10-14.md",
-    "journals/2024-11-23.md",
     "assets/CC2DAC.png",
     "assets/4ACA3E.png",
     "assets/C6A468.png",
-    "assets/9FB1B6.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
