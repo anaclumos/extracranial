@@ -26,7 +26,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Wed Dec 25 10:16:44 KST 2024
+Wed Dec 25 10:19:43 KST 2024
 
 ## Stats
 
@@ -39,7 +39,7 @@ CSS                         59     28356      765      2253    25338          0
 TypeScript                  49     20709      140        33    20536        139
 JSON                        42      2314        0         0     2314          0
 SVG                          9         9        0         0        9          0
-YAML                         9     13328     2755         0    10573          0
+YAML                         9     14700     2752         0    11948          0
 Python                       7       719       57        32      630         95
 JavaScript                   5     51290     1837      8216    41237       4332
 TypeScript Typings           2        12        0         4        8          0
@@ -48,13 +48,13 @@ INI                          1         1        0         0        1          0
 Plain Text                   1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2955    187011    24003     10607   152401       4567
+Total                     2955    188383    24000     10607   153776       4567
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $5,293,373
-Estimated Schedule Effort (organic) 25.91 months
-Estimated People Required (organic) 18.15
+Estimated Cost to Develop (organic) $5,343,530
+Estimated Schedule Effort (organic) 26.00 months
+Estimated People Required (organic) 18.26
 ───────────────────────────────────────────────────────────────────────────────
-Processed 11644261 bytes, 11.644 megabytes (SI)
+Processed 11656794 bytes, 11.657 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
