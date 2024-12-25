@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b66ceda15f39ff78",
+        "id": "8a614df235178dd5",
         "type": "tabs",
         "children": [
           {
-            "id": "639625892ddb0f34",
+            "id": "dda6fb93f2297fa4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -160,8 +161,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "639625892ddb0f34",
+  "active": "dda6fb93f2297fa4",
   "lastOpenFiles": [
+    "journals/2024-12-23.md",
+    "pages/미국물.md",
+    "pages/Debugging CSS.md",
     "journals/2024-12-20.md",
     "journals/2024-12-21.md",
     "journals/2024-12-19.md",
@@ -191,9 +195,6 @@
     "pages/Obsidian Print Force Pagebreak.md",
     "pages/Biome.md",
     "pages/SignalKite.md",
-    "pages/Extracranial.com.md",
-    "pages/Next.js 15 Font Hydration Error.md",
-    "journals/2024-12-02.md",
     "assets/37C899.png",
     "assets/CC2DAC.png",
     "assets/4ACA3E.png",
