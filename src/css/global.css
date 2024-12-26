@@ -4,15 +4,23 @@
 @import url('./fonts.css');
 
 * {
-  --ifm-font-family-base: Interop, 'Tossface', 'SF Pro', system-ui, -apple-system, BlinkMacSystemFont, ui-sans-serif,
-    'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important;
-  --ifm-font-family-monospace: 'Goorm Sans Mono', ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
+  --ifm-font-family-base: interop, 'Tossface', 'SF Pro', system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif,
+    'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif !important;
+  --ifm-font-family-monospace: 'Goorm Sans Mono', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
   --font-family-sans-serif: var(--ifm-font-family-base);
   --font-family-headline: var(--ifm-font-family-base);
   --font-family-monospace: var(--ifm-font-family-monospace);
+
   word-wrap: break-word;
   word-break: keep-all;
-  /* letter-spacing: -0.05em; */
+  color-scheme: dark light;
+
+  --unhovered-transparency: 30%;
+  --padding: 1rem;
+  --border-radius: 0.25rem;
+  --ifm-container-width-xxl: 1600px;
+
+  max-width: 100dvw;
 }
 
 h1,
@@ -63,7 +71,7 @@ code {
   font-family: var(--font-family-monospace);
 }
 
-@media screen and (min-width: 996px) {
+@media screen and (width >= 996px) {
   .navbar__inner {
     margin: 0 auto;
     padding: 0 1rem;
@@ -82,15 +90,6 @@ pre,
 code {
   max-width: calc(100dvw - 2 * var(--ifm-spacing-horizontal));
   margin: 0 auto;
-}
-
-* {
-  color-scheme: dark light;
-  --unhovered-transparency: 30%;
-  --padding: 1rem;
-  --border-radius: 0.25rem;
-  --ifm-container-width-xxl: 1600px;
-  max-width: 100dvw;
 }
 
 [data-theme='dark'] * {
@@ -171,7 +170,7 @@ figure > p > img {
 
 figcaption {
   text-align: center;
-  margin: 0 auto 0.5rem auto;
+  margin: 0 auto 0.5rem;
   font-size: 0.8rem;
   color: var(--ifm-color-emphasis-700);
 }
@@ -191,12 +190,12 @@ table {
   transition: filter 0.2s ease-in-out;
 }
 
-[data-theme='dark'] img:hover {
-  filter: brightness(1);
-}
-
 .navbar__logo > img {
   filter: none;
+}
+
+[data-theme='dark'] img:hover {
+  filter: brightness(1);
 }
 
 .pagination-nav__link--next .pagination-nav__label::after {

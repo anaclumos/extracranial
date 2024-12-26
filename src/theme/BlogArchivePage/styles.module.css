@@ -10,7 +10,7 @@
   padding: 0 1rem;
 }
 
-@media (max-width: 1440px) {
+@media (width <= 1440px) {
   .container {
     max-width: 90%;
   }
@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-@media (max-width: 1440px) {
+@media (width <= 1440px) {
   .heroContainer {
     max-width: 90%;
   }

@@ -4,7 +4,7 @@
   height: 24px;
   display: flex;
   transition: opacity 0.2s ease-in-out;
-  background: url(../../static/icons/github.svg) no-repeat center;
+  background: url('../../static/icons/github.svg') no-repeat center;
 }
 
 .navbar-github-link:hover::before {
@@ -12,7 +12,7 @@
 }
 
 [data-theme='dark'] .navbar-github-link::before {
-  background: url(../../static/icons/github-dark.svg) no-repeat center;
+  background: url('../../static/icons/github-dark.svg') no-repeat center;
 }
 
 .navbar-linkedin-link::before {
@@ -21,7 +21,7 @@
   height: 24px;
   display: flex;
   transition: opacity 0.2s ease-in-out;
-  background: url(../../static/icons/linkedin.svg) no-repeat center;
+  background: url('../../static/icons/linkedin.svg') no-repeat center;
 }
 
 .navbar-linkedin-link:hover::before {
@@ -29,17 +29,17 @@
 }
 
 [data-theme='dark'] .navbar-linkedin-link::before {
-  background: url(../../static/icons/linkedin-dark.svg) no-repeat center;
+  background: url('../../static/icons/linkedin-dark.svg') no-repeat center;
 }
 
 .navbar {
   backdrop-filter: blur(12px);
   background: none;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(255 255 255 / 30%);
 }
 
 [data-theme='dark'] .navbar {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgb(0 0 0 / 30%);
 }
 
 .navbar-hn-ko-link:lang(en-US) {

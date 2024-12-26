@@ -4,8 +4,8 @@
 
 .emojiReplaceableText > img {
   filter: none;
-  filter: drop-shadow(0 0.1rem 0.15rem rgba(0, 0, 0, 0.3));
-  -webkit-filter: drop-shadow(0 0.1rem 0.15rem rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 0.1rem 0.15rem rgb(0 0 0 / 30%));
+  -webkit-filter: drop-shadow(0 0.1rem 0.15rem rgb(0 0 0 / 30%));
 }
 
 .emojiReplaceableText:hover {
@@ -14,10 +14,10 @@
 
 .photo {
   border-radius: 25%;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(0 0 0 / 50%);
   box-shadow:
-    0 1px 3px 0 rgba(0, 0, 0, 0.1),
-    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    0 1px 3px 0 rgb(0 0 0 / 10%),
+    0 1px 2px 0 rgb(0 0 0 / 6%);
   filter: none;
 }
 
