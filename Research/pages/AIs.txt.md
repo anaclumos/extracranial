@@ -83,7 +83,9 @@ Special thanks to everyone in the discussion:
 
 <blockquote class="twitter-tweet">
 
-RFC: What if we could make "robots.txt", but for GitHub Copilot? <a href="https://t.co/VmKeL4NFeQ">pic.twitter.com/VmKeL4NFeQ</a>
+RFC: What if we could make "robots.txt", but for GitHub Copilot?
+
+<a href="https://t.co/VmKeL4NFeQ">pic.twitter.com/VmKeL4NFeQ</a>
 
 &mdash; cho.sh (@anaclumos) <a href="https://twitter.com/anaclumos/status/1583582121427206144?ref_src=twsrc%5Etfw">October 21, 2022</a>
 

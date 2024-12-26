@@ -32,7 +32,9 @@ I am sick of the fuzz and buzz of Silicon Valley. I don't care about YC. I don't
 
 <blockquote class="twitter-tweet">
 
-Many such cases <a href="https://t.co/g3vPDxs2zD">pic.twitter.com/g3vPDxs2zD</a>
+Many such cases
+
+<a href="https://t.co/g3vPDxs2zD">pic.twitter.com/g3vPDxs2zD</a>
 
 &mdash; Ana Mostarac (@anammostarac) <a href="https://twitter.com/anammostarac/status/1689441196815642624?ref_src=twsrc%5Etfw">August 10, 2023</a>
 

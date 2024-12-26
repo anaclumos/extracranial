@@ -9,7 +9,9 @@ I was too confused with PPR and how it was better than Streaming SSR. The below 
 
 <blockquote class="twitter-tweet">
 
-Trying to visualize that Server-Side Rendering (SSR) isn&#39;t just about SEO, it actually makes the site faster. And why PPR is the goat.<br/><br/>Main cost =<br/> 🟥 JS load &amp; Hydration<br/> 🟡⇆🔵 Region Latency <a href="https://t.co/XHctfcEIyc">pic.twitter.com/XHctfcEIyc</a>
+Trying to visualize that Server-Side Rendering (SSR) isn&#39;t just about SEO, it actually makes the site faster. And why PPR is the goat.<br/><br/>Main cost =<br/> 🟥 JS load &amp; Hydration<br/> 🟡⇆🔵 Region Latency
+
+<a href="https://t.co/XHctfcEIyc">pic.twitter.com/XHctfcEIyc</a>
 
 &mdash; Shu (@shuding*) <a href="https://twitter.com/shuding*/status/1759396814418051479?ref_src=twsrc%5Etfw">February 19, 2024</a>
 

@@ -5,7 +5,9 @@ slug: '/E9377D'
 
 <blockquote class="twitter-tweet">
 
-Google killing all vector [[Database|db]] startups lmao <a href="https://t.co/CR0kD3eekD">pic.twitter.com/CR0kD3eekD</a>
+Google killing all vector [[Database|db]] startups lmao
+
+<a href="https://t.co/CR0kD3eekD">pic.twitter.com/CR0kD3eekD</a>
 
 &mdash; Techno-Dharma Maximalist (TDM) (@cto_junior) <a href="https://twitter.com/cto_junior/status/1656358156216201216?ref_src=twsrc%5Etfw">May 10, 2023</a>
 

@@ -18,7 +18,9 @@ aliases: ['Boring Products']
 
 <blockquote class="twitter-tweet">
 
-<a href="https://t.co/jZn6eesb2K">https://t.co/jZn6eesb2K</a> is now almost 14,000 lines of raw PHP mixed with inline HTML, CSS in &lt;style&gt; and raw JS in &lt;script&gt; tags<br/><br/>I did not use TS, flexbox or frameworks except jQuery<br/><br/>A lot of \$.ajax() and float:left though<br/><br/>It has 1,872 paying customers making \$61,808 per month <a href="https://t.co/4tHqS7EgnO">pic.twitter.com/4tHqS7EgnO</a>
+<a href="https://t.co/jZn6eesb2K">https://t.co/jZn6eesb2K</a> is now almost 14,000 lines of raw PHP mixed with inline HTML, CSS in &lt;style&gt; and raw JS in &lt;script&gt; tags<br/><br/>I did not use TS, flexbox or frameworks except jQuery<br/><br/>A lot of \$.ajax() and float:left though<br/><br/>It has 1,872 paying customers making \$61,808 per month
+
+<a href="https://t.co/4tHqS7EgnO">pic.twitter.com/4tHqS7EgnO</a>
 
 &mdash; @levelsio (@levelsio) <a href="https://twitter.com/levelsio/status/1675829733668319233?ref_src=twsrc%5Etfw">July 3, 2023</a>
 
@@ -26,7 +28,9 @@ aliases: ['Boring Products']
 
 <blockquote class="twitter-tweet">
 
-another calendar app that does &quot;boring&quot; scheduling for businesses.<br/><br/>2 founders with no funding.<br/><br/>generates \$8000 MRR.<br/><br/>boring?<a href="https://t.co/La3homuc17">https://t.co/La3homuc17</a> <a href="https://t.co/NueGcPg3ML">pic.twitter.com/NueGcPg3ML</a>
+another calendar app that does &quot;boring&quot; scheduling for businesses.<br/><br/>2 founders with no funding.<br/><br/>generates \$8000 MRR.<br/><br/>boring?<a href="https://t.co/La3homuc17">https://t.co/La3homuc17</a>
+
+<a href="https://t.co/NueGcPg3ML">pic.twitter.com/NueGcPg3ML</a>
 
 &mdash; staticmaker (@staticmaker1) <a href="https://twitter.com/staticmaker1/status/1678591941309784065?ref_src=twsrc%5Etfw">July 11, 2023</a>
 
@@ -34,7 +38,11 @@ another calendar app that does &quot;boring&quot; scheduling for businesses.<br/
 
 <blockquote class="twitter-tweet">
 
-You won&#39;t believe it, but this super boring SaaS generates $7,699 in MRR.<br/><br/>A/B test your titles live on YouTube. Test any number of thumbnails and titles for every video.<br/><br/>👉 <a href="https://t.co/5hQWFND5zM">https://t.co/5hQWFND5zM</a><br/><br/>Good luck building your next web3 project 🤡 <a href="https://t.co/EHjUSjFGM9">pic.twitter.com/EHjUSjFGM9</a>
+You won&#39;t believe it, but this super boring SaaS generates $7,699 in MRR.<br/><br/>A/B test your titles live on YouTube. Test any number of thumbnails and titles for every video.<br/><br/>👉
+
+<a href="https://t.co/5hQWFND5zM">https://t.co/5hQWFND5zM</a><br/><br/>Good luck building your next web3 project 🤡
+
+<a href="https://t.co/EHjUSjFGM9">pic.twitter.com/EHjUSjFGM9</a>
 
 &mdash; Dimi ⚡ Startups.email (@tarasowski) <a href="https://twitter.com/tarasowski/status/1678651834985062400?ref_src=twsrc%5Etfw">July 11, 2023</a>
 
@@ -42,7 +50,11 @@ You won&#39;t believe it, but this super boring SaaS generates $7,699 in MRR.<br
 
 <blockquote class="twitter-tweet">
 
-A super boring SaaS with $9,747 in monthly recurring revenue.<br/><br/>It converts your pdf bank statements into csv, xls.<br/><br/>👉 <a href="https://t.co/ARZEt2Ye4S">https://t.co/ARZEt2Ye4S</a><br/><br/>Good luck building your next web3 project 😂 <a href="https://t.co/GdCPLHiuhg">pic.twitter.com/GdCPLHiuhg</a>
+A super boring SaaS with $9,747 in monthly recurring revenue.<br/><br/>It converts your pdf bank statements into csv, xls.<br/><br/>👉
+
+<a href="https://t.co/ARZEt2Ye4S">https://t.co/ARZEt2Ye4S</a><br/><br/>Good luck building your next web3 project 😂
+
+<a href="https://t.co/GdCPLHiuhg">pic.twitter.com/GdCPLHiuhg</a>
 
 &mdash; Dimi ⚡ Startups.email (@tarasowski) <a href="https://twitter.com/tarasowski/status/1677197503018532865?ref_src=twsrc%5Etfw">July 7, 2023</a>
 
@@ -50,7 +62,11 @@ A super boring SaaS with $9,747 in monthly recurring revenue.<br/><br/>It conver
 
 <blockquote class="twitter-tweet">
 
-Over the weekend my side project, <a href="https://t.co/WBrKFiCovM">https://t.co/WBrKFiCovM</a>, blew up, becoming the #3 top referrer to <a href="https://twitter.com/vercel?ref_src=twsrc%5Etfw">@vercel</a> (second only to organic Google search and traffic from GitHub) <a href="https://t.co/vQZmJUPIjT">pic.twitter.com/vQZmJUPIjT</a>
+Over the weekend my side project,
+
+<a href="https://t.co/WBrKFiCovM">https://t.co/WBrKFiCovM</a>, blew up, becoming the #3 top referrer to <a href="https://twitter.com/vercel?ref_src=twsrc%5Etfw">@vercel</a> (second only to organic Google search and traffic from GitHub)
+
+<a href="https://t.co/vQZmJUPIjT">pic.twitter.com/vQZmJUPIjT</a>
 
 &mdash; Steph Dietz (@steph*dietz*) <a href="https://twitter.com/steph_dietz_/status/1677328530613444610?ref_src=twsrc%5Etfw">July 7, 2023</a>
 
@@ -67,7 +83,9 @@ Over the weekend my side project, <a href="https://t.co/WBrKFiCovM">https://t.co
 
 <blockquote class="twitter-tweet">
 
-Pretty remarkable (in a good way) how little GitHub&#39;s core design system has evolved in a decade.<br/><br/>First screenshot taken in 2013; second one in 2023! <a href="https://t.co/v0xsoyi5Ds">pic.twitter.com/v0xsoyi5Ds</a>
+Pretty remarkable (in a good way) how little GitHub&#39;s core design system has evolved in a decade.<br/><br/>First screenshot taken in 2013; second one in 2023!
+
+<a href="https://t.co/v0xsoyi5Ds">pic.twitter.com/v0xsoyi5Ds</a>
 
 &mdash; Justin Duke (@jmduke) <a href="https://twitter.com/jmduke/status/1678071544751464448?ref_src=twsrc%5Etfw">July 9, 2023</a>
 
@@ -75,7 +93,9 @@ Pretty remarkable (in a good way) how little GitHub&#39;s core design system has
 
 <blockquote class="twitter-tweet">
 
-about to spin up 300 niche sites in the next 90 days using drafthorse ai<br/><br/>need 100,000 pageview /mo for $10,000 mrr<br/><br/>300 sites only need average 333 pageviews per month<br/><br/>asset value $500,000<br/><br/>upfront cost estimate about $2,000<br/><br/>this arbitrage will be gone in 18 - 36 months <a href="https://t.co/xzGYhjPewS">pic.twitter.com/xzGYhjPewS</a>
+about to spin up 300 niche sites in the next 90 days using drafthorse ai<br/><br/>need 100,000 pageview /mo for $10,000 mrr<br/><br/>300 sites only need average 333 pageviews per month<br/><br/>asset value $500,000<br/><br/>upfront cost estimate about $2,000<br/><br/>this arbitrage will be gone in 18 - 36 months
+
+<a href="https://t.co/xzGYhjPewS">pic.twitter.com/xzGYhjPewS</a>
 
 &mdash; Cody Schneider (@codyschneiderxx) <a href="https://twitter.com/codyschneiderxx/status/1678056676807659521?ref_src=twsrc%5Etfw">July 9, 2023</a>
 
@@ -83,7 +103,17 @@ about to spin up 300 niche sites in the next 90 days using drafthorse ai<br/><br
 
 <blockquote class="twitter-tweet">
 
-Recap of this week&#39;s boring businesses:<br/><br/>1. iPhone fixer: <a href="https://t.co/Z0H5Zayc67">https://t.co/Z0H5Zayc67</a><br/><br/>2. PDF API: <a href="https://t.co/sHH5bRFUe7">https://t.co/sHH5bRFUe7</a><br/><br/>3. Personal to-do list app: <a href="https://t.co/j9F3y8kVly">https://t.co/j9F3y8kVly</a><br/><br/>4. Word counter for writers: <a href="https://t.co/MLrBufF71q">https://t.co/MLrBufF71q</a><br/><br/>5. PNG image compressor: <a href="https://t.co/Oz0fU7J5WQ">https://t.co/Oz0fU7J5WQ</a><br/><br/>6.…
+Recap of this week&#39;s boring businesses:<br/><br/>1. iPhone fixer:
+
+<a href="https://t.co/Z0H5Zayc67">https://t.co/Z0H5Zayc67</a><br/><br/>2. PDF API:
+
+<a href="https://t.co/sHH5bRFUe7">https://t.co/sHH5bRFUe7</a><br/><br/>3. Personal to-do list app:
+
+<a href="https://t.co/j9F3y8kVly">https://t.co/j9F3y8kVly</a><br/><br/>4. Word counter for writers:
+
+<a href="https://t.co/MLrBufF71q">https://t.co/MLrBufF71q</a><br/><br/>5. PNG image compressor:
+
+<a href="https://t.co/Oz0fU7J5WQ">https://t.co/Oz0fU7J5WQ</a><br/><br/>6.…
 
 &mdash; staticmaker (@staticmaker1) <a href="https://twitter.com/staticmaker1/status/1677869159294844928?ref_src=twsrc%5Etfw">July 9, 2023</a>
 
@@ -91,7 +121,9 @@ Recap of this week&#39;s boring businesses:<br/><br/>1. iPhone fixer: <a href="h
 
 <blockquote class="twitter-tweet">
 
-This dead simple web app generates $96K/year<br/><br/>- Subscription pricing<br/>- Solves a useful problem<br/>- $8.3K MRR<br/>- Growth: word of mouth and SEM<br/>- Launched only 1 year ago!<a href="https://t.co/yhGW0AYMTL">https://t.co/yhGW0AYMTL</a> <a href="https://t.co/UTUofrWSvG">pic.twitter.com/UTUofrWSvG</a>
+This dead simple web app generates $96K/year<br/><br/>- Subscription pricing<br/>- Solves a useful problem<br/>- $8.3K MRR<br/>- Growth: word of mouth and SEM<br/>- Launched only 1 year ago!<a href="https://t.co/yhGW0AYMTL">https://t.co/yhGW0AYMTL</a>
+
+<a href="https://t.co/UTUofrWSvG">pic.twitter.com/UTUofrWSvG</a>
 
 &mdash; Pat Walls (@thepatwalls) <a href="https://twitter.com/thepatwalls/status/1686420188953276416?ref_src=twsrc%5Etfw">August 1, 2023</a>
 

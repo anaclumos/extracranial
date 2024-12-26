@@ -5,7 +5,9 @@ slug: '/9D1F64'
 
 <blockquote class="twitter-tweet">
 
-Command menu breadcrumbs <a href="https://t.co/XcdiyDpmp1">pic.twitter.com/XcdiyDpmp1</a>
+Command menu breadcrumbs
+
+<a href="https://t.co/XcdiyDpmp1">pic.twitter.com/XcdiyDpmp1</a>
 
 &mdash; rauno (@raunofreiberg) <a href="https://twitter.com/raunofreiberg/status/1603171373068812290?ref_src=twsrc%5Etfw">December 14, 2022</a>
 

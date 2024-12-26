@@ -9,7 +9,11 @@ slug: '/4F0781'
 
 <blockquote class="twitter-tweet">
 
-The new chart is live on Simple Analytics!<br/><br/>‣ Select intervals: hour, day, week, month, or year<br/>‣ Drag to select a range<br/>‣ Toggle trend lines<br/>‣ Toggle annotations<br/>‣ Toggle week numbers<br/>‣ Keep date range when navigating to events<br/><br/>See it live at: <a href="https://t.co/vReSL097px">https://t.co/vReSL097px</a> <a href="https://t.co/xlSbjtZuB0">pic.twitter.com/xlSbjtZuB0</a>
+The new chart is live on Simple Analytics!<br/><br/>‣ Select intervals: hour, day, week, month, or year<br/>‣ Drag to select a range<br/>‣ Toggle trend lines<br/>‣ Toggle annotations<br/>‣ Toggle week numbers<br/>‣ Keep date range when navigating to events<br/><br/>See it live at:
+
+<a href="https://t.co/vReSL097px">https://t.co/vReSL097px</a>
+
+<a href="https://t.co/xlSbjtZuB0">pic.twitter.com/xlSbjtZuB0</a>
 
 &mdash; Simple Analytics (@SimpleAnalytic) <a href="https://twitter.com/SimpleAnalytic/status/1583066500985929728?ref_src=twsrc%5Etfw">October 20, 2022</a>
 
