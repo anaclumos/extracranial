@@ -122,12 +122,6 @@ const config: Config = {
       },
     },
     {
-      tagName: 'noscript',
-      attributes: {},
-      innerHTML:
-        '<img src="https://sa.cho.sh/noscript.gif" alt="SA" collect-dnt=true referrerPolicy="no-referrer-when-downgrade" />',
-    },
-    {
       tagName: 'link',
       attributes: {
         rel: 'preconnect',

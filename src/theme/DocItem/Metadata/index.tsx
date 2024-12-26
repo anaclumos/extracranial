@@ -20,7 +20,6 @@ export default function DocItemMetadata(): JSX.Element {
           )}&subheading=${encodeURIComponent(name)}`}
         />
       </Head>
-      <img src="https://sa.cho.sh/noscript.gif" alt="" referrerPolicy="no-referrer-when-downgrade" />
       <PageMetadata
         title={metadata.title}
         description={metadata.description}
