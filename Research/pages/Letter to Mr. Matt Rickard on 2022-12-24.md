@@ -17,9 +17,9 @@ I'm on my way back to my home from [[서울|Seoul]] to Daejeon in [[대한민국
 
 haha
 
-<a href="https://t.co/I0yligR81h">pic.twitter.com/I0yligR81h</a>
+[Original Post Link](https://t.co/I0yligR81h)
 
-&mdash; Jane Manchun Wong (@wongmjane) <a href="https://twitter.com/wongmjane/status/1606206050322915329?ref_src=twsrc%5Etfw">December 23, 2022</a>
+&mdash; Jane Manchun Wong (@wongmjane) [December 23, 2022](https://twitter.com/wongmjane/status/1606206050322915329?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

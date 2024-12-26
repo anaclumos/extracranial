@@ -38,11 +38,13 @@ slug: '/18728A'
 
 <blockquote class="twitter-tweet" data-theme="light">
 
-I posted a couple short tweets, but I am taking a brief hiatus from posting longer content on Twitter to focus on midterm preparation. However, I decided to create a 💌 fully-fledged newsletter 💌 right after my midterm!<br/><br/>I have invested significant time and effort into…
+I posted a couple short tweets, but I am taking a brief hiatus from posting longer content on Twitter to focus on midterm preparation. However, I decided to create a 💌 fully-fledged newsletter 💌 right after my midterm!
 
-<a href="https://t.co/MSKWq3XBRc">https://t.co/MSKWq3XBRc</a>
+I have invested significant time and effort into…
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1632887798608056321?ref_src=twsrc%5Etfw">March 6, 2023</a>
+[Original Post Link](https://t.co/MSKWq3XBRc)
+
+&mdash; Sunghyun Cho (@anaclumos) [March 6, 2023](https://twitter.com/anaclumos/status/1632887798608056321?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

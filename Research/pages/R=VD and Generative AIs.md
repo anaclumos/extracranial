@@ -5,8 +5,10 @@ slug: '/78DBF5'
 
 <blockquote class="twitter-tweet">
 
-I always grew up hearing R=VD: Reality equals Vivid Dreams.<br/><br/>Reads differently nowadays 😉
+I always grew up hearing R=VD: Reality equals Vivid Dreams.
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1628137597339070464?ref_src=twsrc%5Etfw">February 21, 2023</a>
+Reads differently nowadays 😉
+
+&mdash; Sunghyun Cho (@anaclumos) [February 21, 2023](https://twitter.com/anaclumos/status/1628137597339070464?ref_src=twsrc%5Etfw)
 
 </blockquote>

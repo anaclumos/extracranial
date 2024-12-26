@@ -7,11 +7,13 @@ slug: '/439769'
 
 <blockquote class="twitter-tweet">
 
-I&#39;m sorry to hear you didn&#39;t really read much this year...<br/><br/>Maybe things would&#39;ve been better if you had BookTok: the reading app for the distracted generation™
+I&#39;m sorry to hear you didn&#39;t really read much this year...
 
-<a href="https://t.co/NiLGsdyLTw">pic.twitter.com/NiLGsdyLTw</a>
+Maybe things would&#39;ve been better if you had BookTok: the reading app for the distracted generation™
 
-&mdash; Vincent van der Meulen (@vincentmvdm) <a href="https://twitter.com/vincentmvdm/status/1741581943450271893?ref_src=twsrc%5Etfw">December 31, 2023</a>
+[Original Post Link](https://t.co/NiLGsdyLTw)
+
+&mdash; Vincent van der Meulen (@vincentmvdm) [December 31, 2023](https://twitter.com/vincentmvdm/status/1741581943450271893?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
@@ -19,7 +21,7 @@ I&#39;m sorry to hear you didn&#39;t really read much this year...<br/><br/>Mayb
 
 The problem is the mental overload. Texts, even for the highly educated, takes energy to parse and understand. Texts naturally is not as captivating as videos… we need a breakthrough, either technical or user behaviorial
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1620707134995587072?ref_src=twsrc%5Etfw">February 1, 2023</a>
+&mdash; Sunghyun Cho (@anaclumos) [February 1, 2023](https://twitter.com/anaclumos/status/1620707134995587072?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

@@ -85,8 +85,8 @@ Special thanks to everyone in the discussion:
 
 RFC: What if we could make "robots.txt", but for GitHub Copilot?
 
-<a href="https://t.co/VmKeL4NFeQ">pic.twitter.com/VmKeL4NFeQ</a>
+[Original Post Link](https://t.co/VmKeL4NFeQ)
 
-&mdash; cho.sh (@anaclumos) <a href="https://twitter.com/anaclumos/status/1583582121427206144?ref_src=twsrc%5Etfw">October 21, 2022</a>
+&mdash; cho.sh (@anaclumos) [October 21, 2022](https://twitter.com/anaclumos/status/1583582121427206144?ref_src=twsrc%5Etfw)
 
 </blockquote>

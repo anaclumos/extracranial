@@ -7,9 +7,9 @@ slug: '/C7A3FF'
 
 Weihu Task management
 
-<a href="https://t.co/gmJcp2sYZo">pic.twitter.com/gmJcp2sYZo</a>
+[Original Post Link](https://t.co/gmJcp2sYZo)
 
-&mdash; Sajon (@sajon_co) <a href="https://twitter.com/sajon_co/status/1813091191539573241?ref_src=twsrc%5Etfw">July 16, 2024</a>
+&mdash; Sajon (@sajon_co) [July 16, 2024](https://twitter.com/sajon_co/status/1813091191539573241?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

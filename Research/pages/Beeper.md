@@ -7,11 +7,11 @@ An [[alternative]] to [[Texts (Service)]]. A better approach with [[iMessage]], 
 
 <blockquote class="twitter-tweet">
 
-I'm excited to introduce a little side project I've been working on Beepberry - a portable e-paper computer for hackers, designed for chatting on Beeper. It's available today to pre-order for USD 79. It's a partnership between me (<a href="https://twitter.com/onbeeper?ref_src=twsrc%5Etfw">@onbeeper</a>) and <a href="https://twitter.com/sqfmi?ref_src=twsrc%5Etfw">@sqfmi</a>:
+I'm excited to introduce a little side project I've been working on Beepberry - a portable e-paper computer for hackers, designed for chatting on Beeper. It's available today to pre-order for USD 79. It's a partnership between me ([@onbeeper](https://twitter.com/onbeeper?ref_src=twsrc%5Etfw)) and [@sqfmi](https://twitter.com/sqfmi?ref_src=twsrc%5Etfw):
 
-<a href="https://t.co/hIZRQMTrvr">https://t.co/hIZRQMTrvr</a>
+[Original Post Link](https://t.co/hIZRQMTrvr)
 
-&mdash; Eric Migicovsky (@ericmigi) <a href="https://twitter.com/ericmigi/status/1658854905220587522?ref_src=twsrc%5Etfw">May 17, 2023</a>
+&mdash; Eric Migicovsky (@ericmigi) [May 17, 2023](https://twitter.com/ericmigi/status/1658854905220587522?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

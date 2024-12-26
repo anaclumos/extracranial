@@ -5,9 +5,11 @@ slug: '/D59EC7'
 
 <blockquote class="twitter-tweet">
 
-Great question of our era:<br/><br/>Will the acceleration of technocapital outstrip the degradation of biocapital?
+Great question of our era:
 
-&mdash; George Hotz 🐀 (@realGeorgeHotz) <a href="https://twitter.com/realGeorgeHotz/status/1599533816699564032?ref_src=twsrc%5Etfw">December 4, 2022</a>
+Will the acceleration of technocapital outstrip the degradation of biocapital?
+
+&mdash; George Hotz 🐀 (@realGeorgeHotz) [December 4, 2022](https://twitter.com/realGeorgeHotz/status/1599533816699564032?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
