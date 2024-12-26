@@ -57,9 +57,9 @@ I am absolutely in love with this grid! 😍<br/><br/>🔗 <a href="https://t.co
 
 &mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1724006872792158384?ref_src=twsrc%5Etfw">November 13, 2023</a>
 
-</blockquote> !
+</blockquote>
 
-[[61B2A4.gif]]
+![[61B2A4.gif]]
 
 <blockquote class="twitter-tweet">
 
