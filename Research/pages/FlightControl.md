@@ -31,6 +31,8 @@ FlightControl은 AWS DevOps 환경에서 배포 과정을 간소화하기 위해
 
 </p>
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1746728735989256507?ref_src=twsrc%5Etfw">January 15, 2024</a></blockquote>
+&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1746728735989256507?ref_src=twsrc%5Etfw">January 15, 2024</a>
+
+</blockquote>
 
 Very proud to be one of the earliest organic users!

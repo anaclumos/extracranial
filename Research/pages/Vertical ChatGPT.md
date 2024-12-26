@@ -11,4 +11,6 @@ Excited about vertically-optimized, unbundled ChatGPT. e.g.:<br/><br/>◆ Web se
 
 </p>
 
-&mdash; Guillermo Rauch (@rauchg) <a href="https://twitter.com/rauchg/status/1734977687545090346?ref_src=twsrc%5Etfw">December 13, 2023</a></blockquote>
+&mdash; Guillermo Rauch (@rauchg) <a href="https://twitter.com/rauchg/status/1734977687545090346?ref_src=twsrc%5Etfw">December 13, 2023</a>
+
+</blockquote>

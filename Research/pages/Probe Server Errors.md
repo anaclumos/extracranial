@@ -17,4 +17,6 @@ Google Dork - Server Errors ⚡<br/><br/>inurl:&quot;error&quot; | intitle:&quot
 
 </p>
 
-&mdash; Mike Takahashi (@TakSec) <a href="https://twitter.com/TakSec/status/1782449703684276621?ref_src=twsrc%5Etfw">April 22, 2024</a></blockquote>
+&mdash; Mike Takahashi (@TakSec) <a href="https://twitter.com/TakSec/status/1782449703684276621?ref_src=twsrc%5Etfw">April 22, 2024</a>
+
+</blockquote>

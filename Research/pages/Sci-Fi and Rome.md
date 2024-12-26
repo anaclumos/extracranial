@@ -11,4 +11,6 @@ So interesting that Foundation or Dune or any sci-fi dystopians are just reincar
 
 </p>
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1788726572444528871?ref_src=twsrc%5Etfw">May 10, 2024</a></blockquote>
+&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1788726572444528871?ref_src=twsrc%5Etfw">May 10, 2024</a>
+
+</blockquote>

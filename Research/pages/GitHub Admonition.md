@@ -13,4 +13,6 @@ TIL — GitHub&#39;s custom markdown syntax for notes and highlights supports No
 
 </p>
 
-&mdash; Stefan Judis (@stefanjudis) <a href="https://twitter.com/stefanjudis/status/1727785524340158878?ref_src=twsrc%5Etfw">November 23, 2023</a></blockquote>
+&mdash; Stefan Judis (@stefanjudis) <a href="https://twitter.com/stefanjudis/status/1727785524340158878?ref_src=twsrc%5Etfw">November 23, 2023</a>
+
+</blockquote>

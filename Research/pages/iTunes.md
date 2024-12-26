@@ -13,4 +13,6 @@ Information density, agency over your data, scalable from novice to prosumer, ju
 
 </p>
 
-&mdash; max (@mschoening) <a href="https://twitter.com/mschoening/status/1733511989627072707?ref_src=twsrc%5Etfw">December 9, 2023</a></blockquote>
+&mdash; max (@mschoening) <a href="https://twitter.com/mschoening/status/1733511989627072707?ref_src=twsrc%5Etfw">December 9, 2023</a>
+
+</blockquote>

@@ -13,7 +13,9 @@ Skeuomorphic flight information widgets for iPhone <a href="https://t.co/1kMl2M3
 
 </p>
 
-&mdash; ˗ˏˋ Vinoth Ragunathan ˊˎ˗ (@helvetiica) <a href="https://twitter.com/helvetiica/status/1735375854933348367?ref_src=twsrc%5Etfw">December 14, 2023</a></blockquote>
+&mdash; ˗ˏˋ Vinoth Ragunathan ˊˎ˗ (@helvetiica) <a href="https://twitter.com/helvetiica/status/1735375854933348367?ref_src=twsrc%5Etfw">December 14, 2023</a>
+
+</blockquote>
 
 ![[762D4A.png]]
 

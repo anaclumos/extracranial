@@ -13,7 +13,9 @@ Anyone can do this (took me 8h in total)<br/><br/>1. I saw a hot topic<br/>2. I 
 
 </p>
 
-&mdash; John Rush (@johnrushx) <a href="https://twitter.com/johnrushx/status/1785358653022675009?ref_src=twsrc%5Etfw">April 30, 2024</a></blockquote>
+&mdash; John Rush (@johnrushx) <a href="https://twitter.com/johnrushx/status/1785358653022675009?ref_src=twsrc%5Etfw">April 30, 2024</a>
+
+</blockquote>
 
 Anyone can do this (took me 8h in total) 1. I saw a hot topic 2. I checked google search volume 3. Found high-traffic keyword 4. Bought a domain on godaddy 5. Built a directory 6. Got SEO traffic 7. Made !💰 on sponsors, ads, and referrals ! 1. Idea. Go to google keyword planner and search for ideas.
 

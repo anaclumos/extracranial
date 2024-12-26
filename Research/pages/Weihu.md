@@ -7,6 +7,8 @@ slug: '/C7A3FF'
 
 </p>
 
-&mdash; Sajon (@sajon_co) <a href="https://twitter.com/sajon_co/status/1813091191539573241?ref_src=twsrc%5Etfw">July 16, 2024</a></blockquote>
+&mdash; Sajon (@sajon_co) <a href="https://twitter.com/sajon_co/status/1813091191539573241?ref_src=twsrc%5Etfw">July 16, 2024</a>
+
+</blockquote>
 
 ![[AE505D.png]]

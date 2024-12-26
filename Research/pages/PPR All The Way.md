@@ -15,7 +15,9 @@ Trying to visualize that Server-Side Rendering (SSR) isn&#39;t just about SEO, i
 
 </p>
 
-&mdash; Shu (@shuding*) <a href="https://twitter.com/shuding*/status/1759396814418051479?ref_src=twsrc%5Etfw">February 19, 2024</a></blockquote>
+&mdash; Shu (@shuding*) <a href="https://twitter.com/shuding*/status/1759396814418051479?ref_src=twsrc%5Etfw">February 19, 2024</a>
+
+</blockquote>
 
 ![[DD7BED.png]]
 

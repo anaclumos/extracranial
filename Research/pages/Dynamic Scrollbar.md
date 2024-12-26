@@ -13,4 +13,6 @@ i don&#39;t usually write css... but when i do:<br/><br/>...<br/><br/>i create a
 
 </p>
 
-&mdash; Xavier (Jack) (@KMkota0) <a href="https://twitter.com/KMkota0/status/1765045085610164573?ref_src=twsrc%5Etfw">March 5, 2024</a></blockquote>
+&mdash; Xavier (Jack) (@KMkota0) <a href="https://twitter.com/KMkota0/status/1765045085610164573?ref_src=twsrc%5Etfw">March 5, 2024</a>
+
+</blockquote>
