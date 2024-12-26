@@ -1,9 +1,8 @@
 ---
 lang: 'en'
 slug: '/6D0BFC'
+title: 'Avatar: The Last Airbender'
 ---
-
-# Avatar: The Last Airbender
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

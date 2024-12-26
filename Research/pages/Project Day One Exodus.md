@@ -1,9 +1,8 @@
 ---
 lang: 'en'
 slug: '/AADB27'
+title: 'Project: Day One Exodus'
 ---
-
-# Project: Day One Exodus
 
 Day One has stalled since the [[Automattic]]'s acquisition.
 

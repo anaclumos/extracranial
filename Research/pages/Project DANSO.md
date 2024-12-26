@@ -1,9 +1,8 @@
 ---
 lang: 'en'
 slug: '/408556'
+title: 'Project DANSO 🪈: Document Abstract Notation for Semantic Operations'
 ---
-
-# Project DANSO 🪈: Document Abstract Notation for Semantic Operations
 
 DANSO is a specialized markdown parser designed to enhance the performance of Language Models (LLMs) when processing markdown documents. It addresses the limitations of naive document processing approaches and provides a targeted solution to improve processing quality, coherence, and fidelity to the original content.
 
