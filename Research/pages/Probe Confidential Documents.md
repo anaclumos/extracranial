@@ -18,4 +18,6 @@ Google Dork - Sensitive Docs 📄<br/><br/>ext:txt | ext:pdf | ext:xml | ext:xls
 
 </p>
 
-&mdash; Mike Takahashi (@TakSec) <a href="https://twitter.com/TakSec/status/1782140278041886750?ref_src=twsrc%5Etfw">April 21, 2024</a></blockquote>
+&mdash; Mike Takahashi (@TakSec) <a href="https://twitter.com/TakSec/status/1782140278041886750?ref_src=twsrc%5Etfw">April 21, 2024</a>
+
+</blockquote>

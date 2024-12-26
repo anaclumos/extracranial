@@ -17,7 +17,9 @@ Request for Startup: AI-powered BI tool (a la Preset/Metabase)<br/><br/>A tool w
 
 </p>
 
-&mdash; Steven Tey (@steventey) <a href="https://twitter.com/steventey/status/1754216226027622404?ref_src=twsrc%5Etfw">February 4, 2024</a></blockquote>
+&mdash; Steven Tey (@steventey) <a href="https://twitter.com/steventey/status/1754216226027622404?ref_src=twsrc%5Etfw">February 4, 2024</a>
+
+</blockquote>
 
 ## [ChatDB](https://twitter.com/chatdb)
 

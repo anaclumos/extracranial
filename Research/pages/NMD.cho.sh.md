@@ -31,7 +31,9 @@ figured it out! (next15 streaming ssr)<br/><br/>It felt so weird/counterintuitiv
 
 </p>
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1818210670388936713?ref_src=twsrc%5Etfw">July 30, 2024</a></blockquote>
+&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1818210670388936713?ref_src=twsrc%5Etfw">July 30, 2024</a>
+
+</blockquote>
 
 <blockquote class="twitter-tweet">
 
@@ -41,4 +43,6 @@ figured it out! (next15 streaming ssr)<br/><br/>It felt so weird/counterintuitiv
 
 </p>
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1818210670388936713?ref_src=twsrc%5Etfw">July 30, 2024</a></blockquote>
+&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1818210670388936713?ref_src=twsrc%5Etfw">July 30, 2024</a>
+
+</blockquote>

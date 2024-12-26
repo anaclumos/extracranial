@@ -32,7 +32,9 @@ Welcome screen ❤ <a href="https://t.co/N5m9hL2FVp">pic.twitter.com/N5m9hL2FVp<
 
 </p>
 
-&mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1735223233375526958?ref_src=twsrc%5Etfw">December 14, 2023</a></blockquote>
+&mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1735223233375526958?ref_src=twsrc%5Etfw">December 14, 2023</a>
+
+</blockquote>
 
 <blockquote class="twitter-tweet">
 
@@ -42,6 +44,8 @@ Paywalls 💵<br/><br/>I&#39;d like to share some of my favorite paywall concept
 
 </p>
 
-&mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1733454088183193612?ref_src=twsrc%5Etfw">December 9, 2023</a></blockquote>
+&mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1733454088183193612?ref_src=twsrc%5Etfw">December 9, 2023</a>
+
+</blockquote>
 
 [Orion – From idea to launch in 45 days](https://www.lux.camera/orion-from-idea-to-launch-in-45-days/)

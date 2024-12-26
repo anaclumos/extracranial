@@ -11,7 +11,9 @@ The deadline for YC S24 is tomorrow. Here&#39;s why you SHOULD NOT APPLY TO YC:<
 
 </p>
 
-&mdash; Daniel Vassallo (@dvassallo) <a href="https://twitter.com/dvassallo/status/1781751108211511680?ref_src=twsrc%5Etfw">April 20, 2024</a></blockquote>
+&mdash; Daniel Vassallo (@dvassallo) <a href="https://twitter.com/dvassallo/status/1781751108211511680?ref_src=twsrc%5Etfw">April 20, 2024</a>
+
+</blockquote>
 
 ## 번역
 

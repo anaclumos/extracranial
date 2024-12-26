@@ -11,7 +11,9 @@ slug: '/35F4C8'
 
 </p>
 
-&mdash; philz1337x (@philz1337x) <a href="https://twitter.com/philz1337x/status/1785269458304442565?ref_src=twsrc%5Etfw">April 30, 2024</a></blockquote>
+&mdash; philz1337x (@philz1337x) <a href="https://twitter.com/philz1337x/status/1785269458304442565?ref_src=twsrc%5Etfw">April 30, 2024</a>
+
+</blockquote>
 
 ✨ I upscaled a 64x64 pixel image to 37 Megapixels 🤯
 

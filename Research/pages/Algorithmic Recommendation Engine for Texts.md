@@ -13,7 +13,9 @@ I&#39;m sorry to hear you didn&#39;t really read much this year...<br/><br/>Mayb
 
 </p>
 
-&mdash; Vincent van der Meulen (@vincentmvdm) <a href="https://twitter.com/vincentmvdm/status/1741581943450271893?ref_src=twsrc%5Etfw">December 31, 2023</a></blockquote>
+&mdash; Vincent van der Meulen (@vincentmvdm) <a href="https://twitter.com/vincentmvdm/status/1741581943450271893?ref_src=twsrc%5Etfw">December 31, 2023</a>
+
+</blockquote>
 
 <blockquote class="twitter-tweet">
 

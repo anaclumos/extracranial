@@ -23,7 +23,9 @@ can someone make a nextjs app that takes our public github discussions and makes
 
 </p>
 
-&mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1805268068501004782?ref_src=twsrc%5Etfw">June 24, 2024</a></blockquote>
+&mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1805268068501004782?ref_src=twsrc%5Etfw">June 24, 2024</a>
+
+</blockquote>
 
 <blockquote class="twitter-tweet">
 
@@ -33,7 +35,9 @@ good to know<br/><br/>maybe the approach to add commentary to it (by gpt-summary
 
 </p>
 
-&mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1805300021291577818?ref_src=twsrc%5Etfw">June 24, 2024</a></blockquote>
+&mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1805300021291577818?ref_src=twsrc%5Etfw">June 24, 2024</a>
+
+</blockquote>
 
 <blockquote class="twitter-tweet">
 
@@ -43,7 +47,9 @@ Exciting. <br/><br/>The coolest part is that with ISR you can make it very fast,
 
 </p>
 
-&mdash; Guillermo Rauch (@rauchg) <a href="https://twitter.com/rauchg/status/1805315183629451333?ref_src=twsrc%5Etfw">June 24, 2024</a></blockquote>
+&mdash; Guillermo Rauch (@rauchg) <a href="https://twitter.com/rauchg/status/1805315183629451333?ref_src=twsrc%5Etfw">June 24, 2024</a>
+
+</blockquote>
 
 ## [[2024-06-03]]
 

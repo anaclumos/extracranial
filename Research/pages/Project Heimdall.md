@@ -203,7 +203,9 @@ I ₩ the Backdrop Build hackathon! 👑👑👑<br/><br/>Thank you so much for 
 
 </p>
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1732701132072620214?ref_src=twsrc%5Etfw">December 7, 2023</a></blockquote>
+&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1732701132072620214?ref_src=twsrc%5Etfw">December 7, 2023</a>
+
+</blockquote>
 
 아싸
 

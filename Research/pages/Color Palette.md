@@ -21,4 +21,6 @@ UI/UX Designers, don&#39;t use pure white (<a href="https://twitter.com/hashtag/
 
 </p>
 
-&mdash; Abraham John 🦄🦓 (@Abmankendrick) <a href="https://twitter.com/Abmankendrick/status/1783148511447355606?ref_src=twsrc%5Etfw">April 24, 2024</a></blockquote>
+&mdash; Abraham John 🦄🦓 (@Abmankendrick) <a href="https://twitter.com/Abmankendrick/status/1783148511447355606?ref_src=twsrc%5Etfw">April 24, 2024</a>
+
+</blockquote>

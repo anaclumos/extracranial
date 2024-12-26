@@ -11,7 +11,9 @@ Here&#39;s a great question from Sunghyun Cho. What&#39;s your biggest red flag 
 
 </p>
 
-&mdash; Dan Siroker (@dsiroker) <a href="https://twitter.com/dsiroker/status/1752845485671399758?ref_src=twsrc%5Etfw">February 1, 2024</a></blockquote>
+&mdash; Dan Siroker (@dsiroker) <a href="https://twitter.com/dsiroker/status/1752845485671399758?ref_src=twsrc%5Etfw">February 1, 2024</a>
+
+</blockquote>
 
 > Here's a great question from Sunghyun Cho. What's your biggest red flag of VCs when securing funding? How do you filter out bad money? So, a couple thoughts on this. First, when an investor is courting you and you're getting to know them, they're on their best behavior. So you should recognize that the things they do before they invest are almost always, um, the, the best you'll see from an investor.
 >
@@ -35,4 +37,6 @@ Here&#39;s a great question from Sunghyun Cho. What&#39;s your biggest red flag 
 
 </p>
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1752950743181803924?ref_src=twsrc%5Etfw">February 1, 2024</a></blockquote>
+&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1752950743181803924?ref_src=twsrc%5Etfw">February 1, 2024</a>
+
+</blockquote>

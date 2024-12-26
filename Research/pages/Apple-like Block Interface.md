@@ -55,7 +55,9 @@ I am absolutely in love with this grid! 😍<br/><br/>🔗 <a href="https://t.co
 
 </p>
 
-&mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1724006872792158384?ref_src=twsrc%5Etfw">November 13, 2023</a></blockquote> !
+&mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1724006872792158384?ref_src=twsrc%5Etfw">November 13, 2023</a>
+
+</blockquote> !
 
 [[61B2A4.gif]]
 
@@ -67,7 +69,9 @@ Bento grid is the hottest web design trend. <br/><br/>These 10 stunning websites
 
 </p>
 
-&mdash; Felix Lee (@felixleezd) <a href="https://twitter.com/felixleezd/status/1726621742158995579?ref_src=twsrc%5Etfw">November 20, 2023</a></blockquote>
+&mdash; Felix Lee (@felixleezd) <a href="https://twitter.com/felixleezd/status/1726621742158995579?ref_src=twsrc%5Etfw">November 20, 2023</a>
+
+</blockquote>
 
 ![[F88EC3.png]]
 ![[1E26DF.png]]

@@ -11,4 +11,6 @@ CSS scroll snapping is so good now that Safari supports scroll-snap-stop: always
 
 </p>
 
-&mdash; Devon Govett (@devongovett) <a href="https://twitter.com/devongovett/status/1733308568768528821?ref_src=twsrc%5Etfw">December 9, 2023</a></blockquote>
+&mdash; Devon Govett (@devongovett) <a href="https://twitter.com/devongovett/status/1733308568768528821?ref_src=twsrc%5Etfw">December 9, 2023</a>
+
+</blockquote>
