@@ -3,14 +3,13 @@ date: 2023-07-04
 description: 'Bing Chat의 크롬과 파이어폭스 확장 프로그램으로 75만 방문자, 50만 설치, 23만 활성 사용자를 얻었다. 프로젝트 기간 동안 많은 사용자들과 소통하였고, 인수 제의도 받았으나 거절하였다. 마이크로소프트는 주기적으로 브라우저 탐지 로직을 업데이트했고, 결국 마이크로소프트의 상표권을 침해했다는 이유로 경고를 받았다. 마이크로소프트의 이전 행동 패턴을 고려하여 상황을 인정하고 앱을 포기하기로 결정했다. 오픈소스 개발은 감정적으로 힘들며 지속성을 유지하기 어렵다는 것을 깨달았다. 많은 사용자의 피드백에 대응하는 것은 어려우며, 소수의 기여자들만이 반복적으로 기여하는 경향이 있다. 이제 장기적으로 유지되고 지속적으로 가치를 창출하는 서비스를 만들고자 한다.'
 authors: anaclumos
 slug: '/5ADC58'
+title: '마이크로소프트에게 내용증명 받고 23만 유저 앱 삭제한 건에 대하여 🗑️'
 ---
 
 <!-- truncate -->
 
 import Admonition from '@theme/Admonition';
 import DisplayFlex from '@site/src/components/DisplayFlex'
-
-# 마이크로소프트에게 내용증명 받고 23만 유저 앱 삭제한 건에 대하여 🗑️
 
 ![ALT: Bing Chat for All Browsers. Verified at cho.sh. Featured on Chrome Web Store. Productivity. 200,000+ Users.](4986BD.png)
 

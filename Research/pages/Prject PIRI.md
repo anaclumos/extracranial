@@ -2,9 +2,8 @@
 lang: 'en'
 slug: /69794B
 aliases: ['PIRI']
+title: 'Project PIRI 🪈: Programmatic Interlingual Resource Integration'
 ---
-
-# Project PIRI 🪈: Programmatic Interlingual Resource Integration
 
 import Admonition from '@theme/Admonition';
 

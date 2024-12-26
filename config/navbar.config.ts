@@ -48,20 +48,6 @@ const navbar = {
       position: 'left',
     },
     {
-      href: 'https://siw.ooo/',
-      label: 'Newsletters',
-      position: 'left',
-      className: 'navbar-hn-en-link',
-      'aria-label': 'Newsletters',
-    },
-    {
-      href: 'https://siw.ooo/',
-      label: '뉴스레터',
-      position: 'left',
-      className: 'navbar-hn-ko-link',
-      'aria-label': 'Newsletters',
-    },
-    {
       href: 'https://github.com/anaclumos/extracranial',
       position: 'right',
       className: 'navbar-github-link',

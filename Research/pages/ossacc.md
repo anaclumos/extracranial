@@ -3,9 +3,8 @@ lang: 'en'
 slug: '/18CCEA'
 aliases:
   - oss/acc
+title: 'oss/acc'
 ---
-
-# oss/acc
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
