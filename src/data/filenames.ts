@@ -2165,7 +2165,7 @@ export const filenames = {
     "Storybook": "BEDF93",
     "Strategy": "543BB1",
     "Strictly Formatted Generative AI": "C22CAE",
-    "String Template Managing Tools": "{{hex}}",
+    "String Template Managing Tools": "03E6F6",
     "Stripe Acquires Lemon Squeezy": "CAD0AA",
     "Stripe Press": "81E60A",
     "Stripe Sessions 2023": "160B2B",
