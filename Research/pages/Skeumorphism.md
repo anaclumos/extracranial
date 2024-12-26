@@ -7,7 +7,9 @@ slug: '/5EE5BC'
 
 <blockquote class="twitter-tweet">
 
-Skeuomorphic flight information widgets for iPhone <a href="https://t.co/1kMl2M3Jmh">pic.twitter.com/1kMl2M3Jmh</a>
+Skeuomorphic flight information widgets for iPhone
+
+<a href="https://t.co/1kMl2M3Jmh">pic.twitter.com/1kMl2M3Jmh</a>
 
 &mdash; ˗ˏˋ Vinoth Ragunathan ˊˎ˗ (@helvetiica) <a href="https://twitter.com/helvetiica/status/1735375854933348367?ref_src=twsrc%5Etfw">December 14, 2023</a>
 

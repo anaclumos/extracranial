@@ -26,7 +26,9 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <blockquote class="twitter-tweet">
 
-Welcome screen ❤ <a href="https://t.co/N5m9hL2FVp">pic.twitter.com/N5m9hL2FVp</a>
+Welcome screen ❤
+
+<a href="https://t.co/N5m9hL2FVp">pic.twitter.com/N5m9hL2FVp</a>
 
 &mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1735223233375526958?ref_src=twsrc%5Etfw">December 14, 2023</a>
 
@@ -34,7 +36,9 @@ Welcome screen ❤ <a href="https://t.co/N5m9hL2FVp">pic.twitter.com/N5m9hL2FVp<
 
 <blockquote class="twitter-tweet">
 
-Paywalls 💵<br/><br/>I&#39;d like to share some of my favorite paywall concepts designed in 2023. <a href="https://t.co/gyscKdXTz4">pic.twitter.com/gyscKdXTz4</a>
+Paywalls 💵<br/><br/>I&#39;d like to share some of my favorite paywall concepts designed in 2023.
+
+<a href="https://t.co/gyscKdXTz4">pic.twitter.com/gyscKdXTz4</a>
 
 &mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1733454088183193612?ref_src=twsrc%5Etfw">December 9, 2023</a>
 

@@ -25,7 +25,9 @@ Hinge Fund는 Jack Raines에 의해 고안된 흥미로운 자금 모델이다. 
 
 <blockquote class="twitter-tweet">
 
-I successfully generated $90M in Q2 revenue for Soho House through a fake Hinge profile, and I have a $50k call option position going into earnings tomorrow.<br/><br/>Thoughts? <a href="https://t.co/SHtTCUIrvl">pic.twitter.com/SHtTCUIrvl</a>
+I successfully generated $90M in Q2 revenue for Soho House through a fake Hinge profile, and I have a $50k call option position going into earnings tomorrow.<br/><br/>Thoughts?
+
+<a href="https://t.co/SHtTCUIrvl">pic.twitter.com/SHtTCUIrvl</a>
 
 &mdash; Jack Raines (@Jack_Raines) <a href="https://twitter.com/Jack_Raines/status/1689714455716691970?ref_src=twsrc%5Etfw">August 10, 2023</a>
 

@@ -25,7 +25,9 @@ More info: [UserAgentReductionOptOut HTTP response header](https://webtechsurvey
 
 <blockquote class="twitter-tweet">
 
-What the hell, <a href="https://twitter.com/bing?ref_src=twsrc%5Etfw">@bing</a> <br/><br/>My Bing Chat extension had global unavailability for the past 12 hours. It&#39;s now fixed.<br/><br/>Turns out Bing wrote their proprietary header. After faking that as well, it now works again. <a href="https://t.co/IpySsVodg5">pic.twitter.com/IpySsVodg5</a>
+What the hell, <a href="https://twitter.com/bing?ref_src=twsrc%5Etfw">@bing</a> <br/><br/>My Bing Chat extension had global unavailability for the past 12 hours. It&#39;s now fixed.<br/><br/>Turns out Bing wrote their proprietary header. After faking that as well, it now works again.
+
+<a href="https://t.co/IpySsVodg5">pic.twitter.com/IpySsVodg5</a>
 
 &mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1648582997678129154?ref_src=twsrc%5Etfw">April 19, 2023</a>
 

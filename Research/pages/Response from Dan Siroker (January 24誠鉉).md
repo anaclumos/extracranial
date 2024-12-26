@@ -5,7 +5,9 @@ slug: '/2AFE77'
 
 <blockquote class="twitter-tweet">
 
-Here&#39;s a great question from Sunghyun Cho. What&#39;s your biggest red flag of VCs when securing funding? How do you filter out bad money? So, a couple thoughts on this. First, when an investor is courting you and you&#39;re getting to know them, they&#39;re on their best behavior. So you… <a href="https://t.co/5ogR5qPzFC">pic.twitter.com/5ogR5qPzFC</a>
+Here&#39;s a great question from Sunghyun Cho. What&#39;s your biggest red flag of VCs when securing funding? How do you filter out bad money? So, a couple thoughts on this. First, when an investor is courting you and you&#39;re getting to know them, they&#39;re on their best behavior. So you…
+
+<a href="https://t.co/5ogR5qPzFC">pic.twitter.com/5ogR5qPzFC</a>
 
 &mdash; Dan Siroker (@dsiroker) <a href="https://twitter.com/dsiroker/status/1752845485671399758?ref_src=twsrc%5Etfw">February 1, 2024</a>
 
@@ -27,7 +29,9 @@ Here&#39;s a great question from Sunghyun Cho. What&#39;s your biggest red flag 
 
 <blockquote class="twitter-tweet">
 
-<a href="https://twitter.com/dsiroker?ref_src=twsrc%5Etfw">@dsiroker</a> highly recommend to read the anti-thesis of that black mirror episode. It literally refutes all concerns. <a href="https://t.co/vUHyyxM7VF">https://t.co/vUHyyxM7VF</a>
+<a href="https://twitter.com/dsiroker?ref_src=twsrc%5Etfw">@dsiroker</a> highly recommend to read the anti-thesis of that black mirror episode. It literally refutes all concerns.
+
+<a href="https://t.co/vUHyyxM7VF">https://t.co/vUHyyxM7VF</a>
 
 &mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1752950743181803924?ref_src=twsrc%5Etfw">February 1, 2024</a>
 

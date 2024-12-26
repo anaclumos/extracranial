@@ -28,7 +28,11 @@ Open Source Software Accelerationism (oss/acc) suggests a philosophy or movement
 
 <blockquote class="twitter-tweet">
 
-oss/acc stickers dropped<a href="https://t.co/8g08SJHVzn">https://t.co/8g08SJHVzn</a> <a href="https://t.co/MMusgDyLve">https://t.co/MMusgDyLve</a> <a href="https://t.co/ot8fTJmAId">pic.twitter.com/ot8fTJmAId</a>
+oss/acc stickers dropped<a href="https://t.co/8g08SJHVzn">https://t.co/8g08SJHVzn</a>
+
+<a href="https://t.co/MMusgDyLve">https://t.co/MMusgDyLve</a>
+
+<a href="https://t.co/ot8fTJmAId">pic.twitter.com/ot8fTJmAId</a>
 
 &mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1780354813793800698?ref_src=twsrc%5Etfw">April 16, 2024</a>
 
