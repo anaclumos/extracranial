@@ -3,7 +3,6 @@
   overflow-y: auto;
   position: sticky;
   top: calc(var(--ifm-navbar-height) + 2rem);
-  padding: var(--padding);
   border-radius: var(--border-radius);
   text-align: end;
   padding: 1.75rem 2.5rem 1.75rem 1.75rem;
@@ -48,14 +47,11 @@
 .sidebarItemLink:hover {
   color: var(--ifm-font-color-base);
   filter: none;
+  text-decoration: none;
 }
 
 .sidebarItemLinkActive {
   filter: none;
-}
-
-.sidebarItemLink:hover {
-  text-decoration: none;
 }
 
 .sidebarItem > .sidebarItemLinkActive {
@@ -63,7 +59,7 @@
   filter: none;
 }
 
-@media (max-width: 996px) {
+@media (width <= 996px) {
   .sidebar {
     display: none;
   }

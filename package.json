@@ -35,7 +35,9 @@
     "@docusaurus/tsconfig": "^3.6.3",
     "@docusaurus/types": "^3.6.3",
     "@types/node": "^22.10.1",
-    "prettier": "^3.4.1"
+    "prettier": "^3.4.1",
+    "stylelint": "^16.12.0",
+    "stylelint-config-standard": "^36.0.1"
   },
   "license": "MIT",
   "main": "src/index.tsx",
@@ -54,7 +56,8 @@
     "scc": "printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
     "serve": "docusaurus serve",
     "start": "docusaurus serve",
-    "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko"
+    "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko",
+    "stylelint": "stylelint '**/*.css'"
   },
   "trustedDependencies": [
     "@swc/core",

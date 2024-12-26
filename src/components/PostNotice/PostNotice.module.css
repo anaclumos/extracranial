@@ -1,16 +1,13 @@
 .searchGoogleButton {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  background-color: rgb(255 255 255);
   font-weight: 600;
   border-radius: 0.25rem;
   border-width: 1px;
   border-color: #9ca3af;
   box-shadow:
-    0 1px 3px 0 rgba(0, 0, 0, 0.1),
-    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    0 1px 3px 0 rgb(0 0 0 / 10%),
+    0 1px 2px 0 rgb(0 0 0 / 6%);
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   margin-left: auto;
@@ -19,19 +16,19 @@
 }
 
 .searchGoogleButton:hover {
-  background-color: rgb(255, 237, 186);
+  background-color: rgb(255 237 186);
   text-decoration: none;
 }
 
 [data-theme='dark'] .searchGoogleButton {
-  background-color: rgb(118, 96, 35);
+  background-color: rgb(118 96 35);
   border-color: #9ca3af;
   box-shadow:
-    0 1px 3px 0 rgba(20, 20, 0, 0.1),
-    0 1px 2px 0 rgba(20, 20, 0, 0.06);
+    0 1px 3px 0 rgb(20 20 0 / 10%),
+    0 1px 2px 0 rgb(20 20 0 / 6%);
 }
 
 [data-theme='dark'] .searchGoogleButton:hover {
-  background-color: rgb(85, 69, 25);
+  background-color: rgb(85 69 25);
   text-decoration: none;
 }

@@ -44,7 +44,7 @@ article a[href^='http']::before {
   background-color: var(--linkflags-color);
   height: 1em;
   width: 1em;
-  margin: 0 2pt 2pt 2pt;
+  margin: 0 2pt 2pt;
   display: inline-block;
   vertical-align: middle !important;
   mask-repeat: no-repeat;
