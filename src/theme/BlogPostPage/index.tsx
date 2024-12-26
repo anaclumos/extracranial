@@ -22,9 +22,6 @@ export default function BlogPostPageWrapper(props: Props): JSX.Element {
           )}`}
         />
       </Head>
-      <noscript>
-        <img src="https://sa.cho.sh/noscript.gif" alt="" referrerPolicy="no-referrer-when-downgrade" />
-      </noscript>
       <BlogPostPage {...props} />
     </>
   )

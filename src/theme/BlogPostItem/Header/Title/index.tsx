@@ -12,24 +12,37 @@ export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Eleme
   const { metadata, isBlogPostPage } = useBlogPost()
   const { permalink, title } = metadata
   const TitleHeading = isBlogPostPage ? 'h1' : 'h2'
+
   let emoji = ''
-  let titlearray = Array.from(title)
-  while (titlearray[titlearray.length - 1] !== ' ') {
-    emoji = titlearray.slice(-1).join('') + emoji
-    titlearray = titlearray.slice(0, -1)
+  let titleText = title
+
+  let lastNonSpaceIndex = title.length - 1
+  while (lastNonSpaceIndex >= 0 && title[lastNonSpaceIndex] === ' ') {
+    lastNonSpaceIndex--
   }
+
+  let emojiStartIndex = lastNonSpaceIndex
+  while (emojiStartIndex >= 0 && title[emojiStartIndex] !== ' ') {
+    emojiStartIndex--
+  }
+
+  if (emojiStartIndex >= 0) {
+    emoji = title.slice(emojiStartIndex + 1)
+    titleText = title.slice(0, emojiStartIndex + 1)
+  }
+
   return (
     <TitleHeading className={clsx(styles.title, className)} itemProp="headline">
       {isBlogPostPage ? (
         <>
-          <Balancer>{titlearray.join('')}</Balancer>
+          <Balancer>{titleText}</Balancer>
           <br />
           {emoji}
         </>
       ) : (
         <Link itemProp="url" to={permalink}>
           <>
-            <Balancer>{titlearray.join('')}</Balancer>
+            <Balancer>{titleText}</Balancer>
             <br />
             {emoji}
           </>
