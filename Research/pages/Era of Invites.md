@@ -33,11 +33,7 @@ That said, I agree with Nat's view, especially for **② really easy to try**. H
 
 <blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
 Not universal, but the pattern I tend to notice in successful new startup products:<br/><br/>1. never heard of this, but sounds intriguing<br/>2. really easy to try<br/>3. &quot;HOLY SHIT!&quot; in the first 2 minutes<br/>4. sustained daily usage thereafter
-
-</p>
 
 &mdash; Nat Friedman (@natfriedman) <a href="https://twitter.com/natfriedman/status/1595882942508564480?ref_src=twsrc%5Etfw">November 24, 2022</a>
 

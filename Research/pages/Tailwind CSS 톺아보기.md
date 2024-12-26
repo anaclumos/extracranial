@@ -122,7 +122,7 @@ const chatbubble = () => (
           <div className="text-xl font-medium text-black">Chat Bubble</div>
           <p className="text-gray-500">You have a message.
 
-</p>
+
 
 
         </div>
@@ -201,7 +201,7 @@ const CaseStudyCard = () => (
             first customers.
 
 
-</p>
+
 
 
         </div>
@@ -236,12 +236,12 @@ const UserEmailForm = () => {
         <div className="w-full px-6 py-5 mx-auto space-y-1 overflow-hidden transition duration-500 transform border-2 border-green-500 border-opacity-25 rounded-lg cursor-pointer select-none hover:border-2 group hover:shadow-lg motion-reduce:transform-none hover:scale-105">
           <p className="text-lg font-semibold text-green-600">New Project
 
-</p>
+
 
 
           <p className="text-green-500">Create a new project from a variety of starting templates.
 
-</p>
+
 
 
         </div>

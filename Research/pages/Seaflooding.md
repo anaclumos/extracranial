@@ -6,11 +6,7 @@ aliases: ['개부심']
 
 <blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
 What if there was a way to:<br/>• Mitigate climate change<br/>• Create more life<br/>• Grow the economy<br/>• And make money along the way?<br/><br/>Let&#39;s call it _Seaflooding_ <a href="https://t.co/icyAIhAK2V">pic.twitter.com/icyAIhAK2V</a>
-
-</p>
 
 &mdash; Tomas Pueyo (@tomaspueyo) <a href="https://twitter.com/tomaspueyo/status/1655941779739521027?ref_src=twsrc%5Etfw">May 9, 2023</a>
 

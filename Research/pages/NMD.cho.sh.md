@@ -25,11 +25,7 @@ It was so strange to:
 
 <blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
 figured it out! (next15 streaming ssr)<br/><br/>It felt so weird/counterintuitive to:<br/><br/>- use `use` hook for suspended server-client interleaving<br/>- putting content inside layout.tsx<br/>- master view goes to both root layout (to render in desktop view) and root page (to render in mobile view)… <a href="https://t.co/KIyfrWUwI2">pic.twitter.com/KIyfrWUwI2</a>
-
-</p>
 
 &mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1818210670388936713?ref_src=twsrc%5Etfw">July 30, 2024</a>
 
@@ -37,11 +33,7 @@ figured it out! (next15 streaming ssr)<br/><br/>It felt so weird/counterintuitiv
 
 <blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
 figured it out! (next15 streaming ssr)<br/><br/>It felt so weird/counterintuitive to:<br/><br/>- use `use` hook for suspended server-client interleaving<br/>- putting content inside layout.tsx<br/>- master view goes to both root layout (to render in desktop view) and root page (to render in mobile view)… <a href="https://t.co/KIyfrWUwI2">pic.twitter.com/KIyfrWUwI2</a>
-
-</p>
 
 &mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1818210670388936713?ref_src=twsrc%5Etfw">July 30, 2024</a>
 

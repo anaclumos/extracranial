@@ -5,11 +5,7 @@ slug: '/E7F411'
 
 <blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
 pls just use supabase auth <a href="https://t.co/VxzE0vvtOP">pic.twitter.com/VxzE0vvtOP</a>
-
-</p>
 
 &mdash; Supabase (@supabase) <a href="https://twitter.com/supabase/status/1653808436302295043?ref_src=twsrc%5Etfw">May 3, 2023</a>
 

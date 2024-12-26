@@ -5,11 +5,7 @@ slug: '/46508E'
 
 <blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
 At <a href="https://twitter.com/browsercompany?ref_src=twsrc%5Etfw">@browsercompany</a>, we believe that the successor to the Personal Computer will be...<br/><br/> ✨ Internet Computers ✨<br/><br/>Here&#39;s an early version of our dream for Arc (and the internet!) that we shared with our members last week: <a href="https://t.co/xx1TZpGf2e">https://t.co/xx1TZpGf2e</a>
-
-</p>
 
 &mdash; Josh Miller (@joshm) <a href="https://twitter.com/joshm/status/1561725450937704453?ref_src=twsrc%5Etfw">August 22, 2022</a>
 
@@ -26,11 +22,7 @@ At <a href="https://twitter.com/browsercompany?ref_src=twsrc%5Etfw">@browsercomp
 
 <blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
 We need a new mobile OS that's web-only.
-
-</p>
 
 &mdash; jack (@jack) <a href="https://twitter.com/jack/status/1595864501437583367?ref_src=twsrc%5Etfw">November 24, 2022</a>
 

@@ -7,11 +7,7 @@ slug: '/3E8AD8'
 
 <blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
 Anyone can do this (took me 8h in total)<br/><br/>1. I saw a hot topic<br/>2. I checked google search volume<br/>3. Found high-traffic keyword<br/>4. Bought a domain on godaddy<br/>5. Built a directory<br/>6. Got SEO traffic<br/>7. Made 💰 on sponsors, ads, and referrals ⤵<br/><br/>1. Idea.<br/>Go to google keyword… <a href="https://t.co/JGW8ejEobK">pic.twitter.com/JGW8ejEobK</a>
-
-</p>
 
 &mdash; John Rush (@johnrushx) <a href="https://twitter.com/johnrushx/status/1785358653022675009?ref_src=twsrc%5Etfw">April 30, 2024</a>
 
