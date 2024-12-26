@@ -120,7 +120,9 @@ const chatbubble = () => (
       <div>
         <div>
           <div className="text-xl font-medium text-black">Chat Bubble</div>
-          <p className="text-gray-500">You have a message.</p>
+          <p className="text-gray-500">You have a message.
+</p>
+
         </div>
       </div>
     </div>
@@ -195,7 +197,9 @@ const CaseStudyCard = () => (
           <p className="mt-2 text-gray-500">
             Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your
             first customers.
-          </p>
+
+</p>
+
         </div>
       </div>
     </div>
@@ -226,8 +230,12 @@ const UserEmailForm = () => {
     <div className="flex h-screen p-6 bg-green-100">
       <div className="m-auto space-y-3">
         <div className="w-full px-6 py-5 mx-auto space-y-1 overflow-hidden transition duration-500 transform border-2 border-green-500 border-opacity-25 rounded-lg cursor-pointer select-none hover:border-2 group hover:shadow-lg motion-reduce:transform-none hover:scale-105">
-          <p className="text-lg font-semibold text-green-600">New Project</p>
-          <p className="text-green-500">Create a new project from a variety of starting templates.</p>
+          <p className="text-lg font-semibold text-green-600">New Project
+</p>
+
+          <p className="text-green-500">Create a new project from a variety of starting templates.
+</p>
+
         </div>
         <form className="flex w-full m-auto mx-auto space-x-3" onSubmit={signupUser}>
           <input

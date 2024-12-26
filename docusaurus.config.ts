@@ -113,40 +113,6 @@ const config: Config = {
       'data-collect-dnt': 'true',
     },
   ],
-  headTags: [
-    {
-      tagName: 'meta',
-      attributes: {
-        'http-equiv': 'Permissions-Policy',
-        content: 'interest-cohort=()',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://cdn.jsdelivr.net',
-        crossorigin: 'anonymous',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://statics.goorm.io',
-        crossorigin: 'anonymous',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preload',
-        as: 'style',
-        crossorigin: 'anonymous',
-        href: 'https://statics.goorm.io/fonts/GoormSansCode/v1.0.0/GoormSansCode.min.css',
-      },
-    },
-  ],
   markdown: {
     mermaid: true,
   },
