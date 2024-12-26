@@ -11,10 +11,15 @@
             "id": "dda6fb93f2297fa4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2024-12-20.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2024-12-20"
             }
           }
         ]
@@ -163,10 +168,12 @@
   },
   "active": "dda6fb93f2297fa4",
   "lastOpenFiles": [
+    "journals/2024-12-27.md",
+    "journals/2024-12-20.md",
     "journals/2024-12-23.md",
+    "pages/Lunit AutoML Engineer JD.md",
     "pages/미국물.md",
     "pages/Debugging CSS.md",
-    "journals/2024-12-20.md",
     "journals/2024-12-21.md",
     "journals/2024-12-19.md",
     "pages/Do not Disturb for Set Duration.md",
@@ -193,8 +200,6 @@
     "pages/이윤지-조성현.md",
     "assets/이윤지-조성현.md",
     "pages/Obsidian Print Force Pagebreak.md",
-    "pages/Biome.md",
-    "pages/SignalKite.md",
     "assets/37C899.png",
     "assets/CC2DAC.png",
     "assets/4ACA3E.png",

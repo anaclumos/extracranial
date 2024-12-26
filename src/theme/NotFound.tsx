@@ -31,6 +31,7 @@ export default function NotFound(): JSX.Element {
                   </Translate>
                 </Balancer>
               </p>
+
               <p>
                 <Balancer>
                   <Translate id="theme.NotFound.p2" description="The 2nd paragraph of the 404 page">
