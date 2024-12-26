@@ -6,9 +6,13 @@ slug: '/439769'
 - [[Mood.surf]]
 
 <blockquote class="twitter-tweet">
+
 <p lang="en" dir="ltr">
+
 I&#39;m sorry to hear you didn&#39;t really read much this year...<br/><br/>Maybe things would&#39;ve been better if you had BookTok: the reading app for the distracted generation™ <a href="https://t.co/NiLGsdyLTw">pic.twitter.com/NiLGsdyLTw</a>
+
 </p>
+
 &mdash; Vincent van der Meulen (@vincentmvdm) <a href="https://twitter.com/vincentmvdm/status/1741581943450271893?ref_src=twsrc%5Etfw">December 31, 2023</a></blockquote>
 
 <blockquote class="twitter-tweet">
