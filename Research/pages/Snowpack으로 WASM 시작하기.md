@@ -95,7 +95,7 @@ function App() {
       {gif && <img src={gif} width="250" />}
     </div>
   ) : (
-    <p>Loading...</p>
+    <p>Loading...
   )
 }
 
