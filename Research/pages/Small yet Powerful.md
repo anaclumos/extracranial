@@ -9,7 +9,7 @@ aliases: ['작지만 강력한', '소수정예', '강소', 'Hidden Champion']
 - Even the most agile startups are overstaffed.
 
 > Many tech companies are 2-[[10x]] overstaffed, and everyone who's paying attention already knows this — Nat Friedman (@natfriedman)
-> <a href="https://twitter.com/natfriedman/status/1585399067906932736?ref_src=twsrc%5Etfw">October 26, 2022</a>
+> [October 26, 2022](https://twitter.com/natfriedman/status/1585399067906932736?ref_src=twsrc%5Etfw)
 
 ## ...Government
 
@@ -19,9 +19,17 @@ aliases: ['작지만 강력한', '소수정예', '강소', 'Hidden Champion']
 
 <blockquote class="twitter-tweet">
 
-Small teams are mighty.<br/><br/>13 people built Instagram to $1B acquisition<br/><br/>17 people built Linear to 1,000 customers<br/><br/>40 people built Notion to 1M+ users<br/><br/>When you bring together a small &amp; senior team - amazing things can happen.
+Small teams are mighty.
 
-&mdash; Dani Grant (@thedanigrant) <a href="https://twitter.com/thedanigrant/status/1720094648084164664?ref_src=twsrc%5Etfw">November 2, 2023</a>
+13 people built Instagram to $1B acquisition
+
+17 people built Linear to 1,000 customers
+
+40 people built Notion to 1M+ users
+
+When you bring together a small &amp; senior team - amazing things can happen.
+
+&mdash; Dani Grant (@thedanigrant) [November 2, 2023](https://twitter.com/thedanigrant/status/1720094648084164664?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

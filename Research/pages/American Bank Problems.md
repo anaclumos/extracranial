@@ -7,11 +7,11 @@ slug: '/197951'
 
 Updated my plot of bank failures. 😬
 
-<a href="https://t.co/atlFhzIMKY">https://t.co/atlFhzIMKY</a>
+[Original Post Link](https://t.co/atlFhzIMKY)
 
-<a href="https://t.co/tfPNNEUrjb">pic.twitter.com/tfPNNEUrjb</a>
+[Original Post Link](https://t.co/tfPNNEUrjb)
 
-&mdash; Mike Bostock (@mbostock) <a href="https://twitter.com/mbostock/status/1653221977895882752?ref_src=twsrc%5Etfw">May 2, 2023</a>
+&mdash; Mike Bostock (@mbostock) [May 2, 2023](https://twitter.com/mbostock/status/1653221977895882752?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

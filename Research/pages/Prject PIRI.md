@@ -17,25 +17,33 @@ Providing [[무제한번역|unlimited translations]] for major developer documen
 
 <blockquote class="twitter-tweet">
 
-can someone make a nextjs app that takes our public github discussions and makes SEO-friendly read-only replica?<br/><br/>we want to run cal. com/community and when you want to comment, you get linked to github
+can someone make a nextjs app that takes our public github discussions and makes SEO-friendly read-only replica?
 
-&mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1805268068501004782?ref_src=twsrc%5Etfw">June 24, 2024</a>
+we want to run cal. com/community and when you want to comment, you get linked to github
 
-</blockquote>
-
-<blockquote class="twitter-tweet">
-
-good to know<br/><br/>maybe the approach to add commentary to it (by gpt-summary of the discussion and maybe removing non-answers) is enough to not be considered duplicate?
-
-&mdash; Peer Richelsen — oss/acc (@peer_rich) <a href="https://twitter.com/peer_rich/status/1805300021291577818?ref_src=twsrc%5Etfw">June 24, 2024</a>
+&mdash; Peer Richelsen — oss/acc (@peer_rich) [June 24, 2024](https://twitter.com/peer_rich/status/1805268068501004782?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
 <blockquote class="twitter-tweet">
 
-Exciting. <br/><br/>The coolest part is that with ISR you can make it very fast, control exactly how often you want to revalidate the caches, and prevent rate limits on the upstream API.<br/><br/>Example:<a href="https://t.co/sqrRYSTSiI">https://t.co/sqrRYSTSiI</a>
+good to know
 
-&mdash; Guillermo Rauch (@rauchg) <a href="https://twitter.com/rauchg/status/1805315183629451333?ref_src=twsrc%5Etfw">June 24, 2024</a>
+maybe the approach to add commentary to it (by gpt-summary of the discussion and maybe removing non-answers) is enough to not be considered duplicate?
+
+&mdash; Peer Richelsen — oss/acc (@peer_rich) [June 24, 2024](https://twitter.com/peer_rich/status/1805300021291577818?ref_src=twsrc%5Etfw)
+
+</blockquote>
+
+<blockquote class="twitter-tweet">
+
+Exciting.
+
+The coolest part is that with ISR you can make it very fast, control exactly how often you want to revalidate the caches, and prevent rate limits on the upstream API.
+
+Example:[Original Post Link](https://t.co/sqrRYSTSiI)
+
+&mdash; Guillermo Rauch (@rauchg) [June 24, 2024](https://twitter.com/rauchg/status/1805315183629451333?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

@@ -5,11 +5,13 @@ slug: '/24592D'
 
 <blockquote class="twitter-tweet">
 
-The deadline for YC S24 is tomorrow. Here&#39;s why you SHOULD NOT APPLY TO YC:<br/><br/>YC seems like a reasonable proposition. They give you some money to help start your business, and they promise you access to a community of people that can help you along the way. In exchange, they don&#39;t…
+The deadline for YC S24 is tomorrow. Here&#39;s why you SHOULD NOT APPLY TO YC:
 
-<a href="https://t.co/8FJOc8SxWq">pic.twitter.com/8FJOc8SxWq</a>
+YC seems like a reasonable proposition. They give you some money to help start your business, and they promise you access to a community of people that can help you along the way. In exchange, they don&#39;t…
 
-&mdash; Daniel Vassallo (@dvassallo) <a href="https://twitter.com/dvassallo/status/1781751108211511680?ref_src=twsrc%5Etfw">April 20, 2024</a>
+[Original Post Link](https://t.co/8FJOc8SxWq)
+
+&mdash; Daniel Vassallo (@dvassallo) [April 20, 2024](https://twitter.com/dvassallo/status/1781751108211511680?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

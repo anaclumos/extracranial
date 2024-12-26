@@ -49,13 +49,15 @@ slug: '/A18D7B'
 
 <blockquote class="twitter-tweet">
 
-I am absolutely in love with this grid! 😍<br/><br/>🔗
+I am absolutely in love with this grid! 😍
 
-<a href="https://t.co/9bdHj1BvOe">https://t.co/9bdHj1BvOe</a> (by <a href="https://twitter.com/Givingli?ref_src=twsrc%5Etfw">@Givingli</a>)
+🔗
 
-<a href="https://t.co/ruR2sSPv9I">pic.twitter.com/ruR2sSPv9I</a>
+[Original Post Link](https://t.co/9bdHj1BvOe) (by [@Givingli](https://twitter.com/Givingli?ref_src=twsrc%5Etfw))
 
-&mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) <a href="https://twitter.com/mamkindesigner/status/1724006872792158384?ref_src=twsrc%5Etfw">November 13, 2023</a>
+[Original Post Link](https://t.co/ruR2sSPv9I)
+
+&mdash; Valera Pieŭnioŭ 💙💛 (@mamkindesigner) [November 13, 2023](https://twitter.com/mamkindesigner/status/1724006872792158384?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
@@ -63,23 +65,27 @@ I am absolutely in love with this grid! 😍<br/><br/>🔗
 
 <blockquote class="twitter-tweet">
 
-Bento grid is the hottest web design trend. <br/><br/>These 10 stunning websites to inspire your design:<br/><br/>→
+Bento grid is the hottest web design trend.
 
-<a href="https://t.co/7Jr2PVuMUJ">https://t.co/7Jr2PVuMUJ</a><br/>→
+These 10 stunning websites to inspire your design:
 
-<a href="https://t.co/qDmdqrONQJ">https://t.co/qDmdqrONQJ</a><br/>→
+→
 
-<a href="https://t.co/7jnHYERejE">https://t.co/7jnHYERejE</a><br/>→
+[Original Post Link](https://t.co/7Jr2PVuMUJ)<br/>→
 
-<a href="https://t.co/MkACKz8ur6">https://t.co/MkACKz8ur6</a><br/>→
+[Original Post Link](https://t.co/qDmdqrONQJ)<br/>→
 
-<a href="https://t.co/pCbIcQy8a4">https://t.co/pCbIcQy8a4</a><br/>→
+[Original Post Link](https://t.co/7jnHYERejE)<br/>→
 
-<a href="https://t.co/NXFCYcoRu1">https://t.co/NXFCYcoRu1</a><br/>→…
+[Original Post Link](https://t.co/MkACKz8ur6)<br/>→
 
-<a href="https://t.co/yDZ6JJp02P">pic.twitter.com/yDZ6JJp02P</a>
+[Original Post Link](https://t.co/pCbIcQy8a4)<br/>→
 
-&mdash; Felix Lee (@felixleezd) <a href="https://twitter.com/felixleezd/status/1726621742158995579?ref_src=twsrc%5Etfw">November 20, 2023</a>
+[Original Post Link](https://t.co/NXFCYcoRu1)<br/>→…
+
+[Original Post Link](https://t.co/yDZ6JJp02P)
+
+&mdash; Felix Lee (@felixleezd) [November 20, 2023](https://twitter.com/felixleezd/status/1726621742158995579?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

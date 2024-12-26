@@ -17,13 +17,13 @@ A small [[done]] project I've done over the weekend
 
 <blockquote class="twitter-tweet">
 
-<a href="https://twitter.com/joshm?ref_src=twsrc%5Etfw">@joshm</a> <a href="https://twitter.com/arcinternet?ref_src=twsrc%5Etfw">@arcinternet</a> <a href="https://twitter.com/browsercompany?ref_src=twsrc%5Etfw">@browsercompany</a> Just built an Arc fan page... A 💌
+[@joshm](https://twitter.com/joshm?ref_src=twsrc%5Etfw) [@arcinternet](https://twitter.com/arcinternet?ref_src=twsrc%5Etfw) [@browsercompany](https://twitter.com/browsercompany?ref_src=twsrc%5Etfw) Just built an Arc fan page... A 💌
 
-<a href="https://t.co/hNZQgYH1ab">https://t.co/hNZQgYH1ab</a>
+[Original Post Link](https://t.co/hNZQgYH1ab)
 
-<a href="https://t.co/HyZJBsv9NB">pic.twitter.com/HyZJBsv9NB</a>
+[Original Post Link](https://t.co/HyZJBsv9NB)
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1637865382089469952?ref_src=twsrc%5Etfw">March 20, 2023</a>
+&mdash; Sunghyun Cho (@anaclumos) [March 20, 2023](https://twitter.com/anaclumos/status/1637865382089469952?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

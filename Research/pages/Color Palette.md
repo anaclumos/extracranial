@@ -15,10 +15,12 @@ slug: '/8929A3'
 
 <blockquote class="twitter-tweet">
 
-UI/UX Designers, don&#39;t use pure white (<a href="https://twitter.com/hashtag/FFFFFF?src=hash&amp;ref_src=twsrc%5Etfw">#FFFFFF</a>) on your background designs, use these alternatives instead 👇<br/><br/>Bookmark it for later 💜
+UI/UX Designers, don&#39;t use pure white ([#FFFFFF](https://twitter.com/hashtag/FFFFFF?src=hash&ref_src=twsrc%5Etfw)) on your background designs, use these alternatives instead 👇
 
-<a href="https://t.co/bmCUCQoXqs">pic.twitter.com/bmCUCQoXqs</a>
+Bookmark it for later 💜
 
-&mdash; Abraham John 🦄🦓 (@Abmankendrick) <a href="https://twitter.com/Abmankendrick/status/1783148511447355606?ref_src=twsrc%5Etfw">April 24, 2024</a>
+[Original Post Link](https://t.co/bmCUCQoXqs)
+
+&mdash; Abraham John 🦄🦓 (@Abmankendrick) [April 24, 2024](https://twitter.com/Abmankendrick/status/1783148511447355606?ref_src=twsrc%5Etfw)
 
 </blockquote>

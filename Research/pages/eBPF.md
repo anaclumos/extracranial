@@ -19,6 +19,6 @@ slug: '/3C3C5B'
 
 Yeah exactly! Two benefits (1) callbacks closer to the metal and (2) tough to fit all file watching use cases in a single AP] and deliver good performance (not all consumers care about recursive watching, dropping events, etc)
 
-&mdash; Matt Rickard (@mattrickard) <a href="https://twitter.com/mattrickard/status/1578459572372901888?ref_src=twsrc%5Etfw">October 7, 2022</a>
+&mdash; Matt Rickard (@mattrickard) [October 7, 2022](https://twitter.com/mattrickard/status/1578459572372901888?ref_src=twsrc%5Etfw)
 
 </blockquote>

@@ -9,9 +9,9 @@ slug: '/961C8F'
 
 every SaaS website ever
 
-<a href="https://t.co/zDllr8bAXf">pic.twitter.com/zDllr8bAXf</a>
+[Original Post Link](https://t.co/zDllr8bAXf)
 
-&mdash; Ansub Khan (@justansub) <a href="https://twitter.com/justansub/status/1618322234275426304?ref_src=twsrc%5Etfw">January 25, 2023</a>
+&mdash; Ansub Khan (@justansub) [January 25, 2023](https://twitter.com/justansub/status/1618322234275426304?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
@@ -19,19 +19,21 @@ every SaaS website ever
 
 Every dev tool website looks exactly the same these days, how boring
 
-<a href="https://t.co/Sh0yjKl5s3">pic.twitter.com/Sh0yjKl5s3</a>
+[Original Post Link](https://t.co/Sh0yjKl5s3)
 
-&mdash; flavio (@flaviocopes) <a href="https://twitter.com/flaviocopes/status/1587384199912501249?ref_src=twsrc%5Etfw">November 1, 2022</a>
+&mdash; flavio (@flaviocopes) [November 1, 2022](https://twitter.com/flaviocopes/status/1587384199912501249?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
 <blockquote class="twitter-tweet">
 
-When you're an encryption company, so the hero needs to be a [[3D]] model of the logo rendered as encrypted text.<br/><br/>Some early previews of the new <a href="https://twitter.com/evervault?ref_src=twsrc%5Etfw">@evervault</a> website.
+When you're an encryption company, so the hero needs to be a [[3D]] model of the logo rendered as encrypted text.
 
-<a href="https://t.co/Kx1nfb2ixE">pic.twitter.com/Kx1nfb2ixE</a>
+Some early previews of the new [@evervault](https://twitter.com/evervault?ref_src=twsrc%5Etfw) website.
 
-&mdash; Nev Flynn (@NevFlynn) <a href="https://twitter.com/NevFlynn/status/1597963386628685829?ref_src=twsrc%5Etfw">November 30, 2022</a>
+[Original Post Link](https://t.co/Kx1nfb2ixE)
+
+&mdash; Nev Flynn (@NevFlynn) [November 30, 2022](https://twitter.com/NevFlynn/status/1597963386628685829?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
@@ -39,11 +41,11 @@ When you're an encryption company, so the hero needs to be a [[3D]] model of the
 
 Found an old prototype for
 
-<a href="https://t.co/v5YN0mCnEx">https://t.co/v5YN0mCnEx</a>
+[Original Post Link](https://t.co/v5YN0mCnEx)
 
-<a href="https://t.co/5gbQUBQ13c">pic.twitter.com/5gbQUBQ13c</a>
+[Original Post Link](https://t.co/5gbQUBQ13c)
 
-&mdash; rauno (@raunofreiberg) <a href="https://twitter.com/raunofreiberg/status/1597943032187265024?ref_src=twsrc%5Etfw">November 30, 2022</a>
+&mdash; rauno (@raunofreiberg) [November 30, 2022](https://twitter.com/raunofreiberg/status/1597943032187265024?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
@@ -51,9 +53,9 @@ Found an old prototype for
 
 Obsessed with our website
 
-<a href="https://t.co/DKhAcubq1V">pic.twitter.com/DKhAcubq1V</a>
+[Original Post Link](https://t.co/DKhAcubq1V)
 
-&mdash; Brendan Falk ◧ (@BrendanFalk) <a href="https://twitter.com/BrendanFalk/status/1597727837305569280?ref_src=twsrc%5Etfw">November 29, 2022</a>
+&mdash; Brendan Falk ◧ (@BrendanFalk) [November 29, 2022](https://twitter.com/BrendanFalk/status/1597727837305569280?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

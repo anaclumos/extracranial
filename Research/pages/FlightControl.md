@@ -25,9 +25,9 @@ FlightControl은 AWS DevOps 환경에서 배포 과정을 간소화하기 위해
 
 <blockquote class="twitter-tweet">
 
-<a href="https://twitter.com/Flightcontrolhq?ref_src=twsrc%5Etfw">@Flightcontrolhq</a> is awesome, btw
+[@Flightcontrolhq](https://twitter.com/Flightcontrolhq?ref_src=twsrc%5Etfw) is awesome, btw
 
-&mdash; Sunghyun Cho (@anaclumos) <a href="https://twitter.com/anaclumos/status/1746728735989256507?ref_src=twsrc%5Etfw">January 15, 2024</a>
+&mdash; Sunghyun Cho (@anaclumos) [January 15, 2024](https://twitter.com/anaclumos/status/1746728735989256507?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

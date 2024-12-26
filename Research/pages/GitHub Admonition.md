@@ -7,10 +7,14 @@ slug: '/7DB979'
 
 <blockquote class="twitter-tweet">
 
-TIL — GitHub&#39;s custom markdown syntax for notes and highlights supports Note, Tip, Important, Warning, and Caution.<br/><br/>When did this happen?<br/><br/>Side note: still not a fan of their non-standard blockquote syntax. 😅
+TIL — GitHub&#39;s custom markdown syntax for notes and highlights supports Note, Tip, Important, Warning, and Caution.
 
-<a href="https://t.co/PnRTvMkhzS">pic.twitter.com/PnRTvMkhzS</a>
+When did this happen?
 
-&mdash; Stefan Judis (@stefanjudis) <a href="https://twitter.com/stefanjudis/status/1727785524340158878?ref_src=twsrc%5Etfw">November 23, 2023</a>
+Side note: still not a fan of their non-standard blockquote syntax. 😅
+
+[Original Post Link](https://t.co/PnRTvMkhzS)
+
+&mdash; Stefan Judis (@stefanjudis) [November 23, 2023](https://twitter.com/stefanjudis/status/1727785524340158878?ref_src=twsrc%5Etfw)
 
 </blockquote>

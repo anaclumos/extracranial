@@ -9,9 +9,9 @@ slug: '/FD402F'
 
 Use cookies that outlive login sessions to remind users which option they use!
 
-<a href="https://t.co/2SGUFeTWDx">pic.twitter.com/2SGUFeTWDx</a>
+[Original Post Link](https://t.co/2SGUFeTWDx)
 
-&mdash; Tim Wilson (@actualTimWilson) <a href="https://twitter.com/actualTimWilson/status/1755815288560337061?ref_src=twsrc%5Etfw">February 9, 2024</a>
+&mdash; Tim Wilson (@actualTimWilson) [February 9, 2024](https://twitter.com/actualTimWilson/status/1755815288560337061?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

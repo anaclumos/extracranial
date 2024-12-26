@@ -24,9 +24,11 @@ I am sick of the fuzz and buzz of Silicon Valley. I don't care about YC. I don't
 
 <blockquote class="twitter-tweet">
 
-&quot;Here&#39;s the number I used to win the lottery&quot;<br/><br/>–Entrepreneurs giving advice
+&quot;Here&#39;s the number I used to win the lottery&quot;
 
-&mdash; Andrew Wilkinson (@awilkinson) <a href="https://twitter.com/awilkinson/status/1575941514567774208?ref_src=twsrc%5Etfw">September 30, 2022</a>
+–Entrepreneurs giving advice
+
+&mdash; Andrew Wilkinson (@awilkinson) [September 30, 2022](https://twitter.com/awilkinson/status/1575941514567774208?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
@@ -34,9 +36,9 @@ I am sick of the fuzz and buzz of Silicon Valley. I don't care about YC. I don't
 
 Many such cases
 
-<a href="https://t.co/g3vPDxs2zD">pic.twitter.com/g3vPDxs2zD</a>
+[Original Post Link](https://t.co/g3vPDxs2zD)
 
-&mdash; Ana Mostarac (@anammostarac) <a href="https://twitter.com/anammostarac/status/1689441196815642624?ref_src=twsrc%5Etfw">August 10, 2023</a>
+&mdash; Ana Mostarac (@anammostarac) [August 10, 2023](https://twitter.com/anammostarac/status/1689441196815642624?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

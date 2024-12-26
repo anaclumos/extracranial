@@ -5,11 +5,15 @@ slug: '/46508E'
 
 <blockquote class="twitter-tweet">
 
-At <a href="https://twitter.com/browsercompany?ref_src=twsrc%5Etfw">@browsercompany</a>, we believe that the successor to the Personal Computer will be...<br/><br/> ✨ Internet Computers ✨<br/><br/>Here&#39;s an early version of our dream for Arc (and the internet!) that we shared with our members last week:
+At [@browsercompany](https://twitter.com/browsercompany?ref_src=twsrc%5Etfw), we believe that the successor to the Personal Computer will be...
 
-<a href="https://t.co/xx1TZpGf2e">https://t.co/xx1TZpGf2e</a>
+✨ Internet Computers ✨
 
-&mdash; Josh Miller (@joshm) <a href="https://twitter.com/joshm/status/1561725450937704453?ref_src=twsrc%5Etfw">August 22, 2022</a>
+Here&#39;s an early version of our dream for Arc (and the internet!) that we shared with our members last week:
+
+[Original Post Link](https://t.co/xx1TZpGf2e)
+
+&mdash; Josh Miller (@joshm) [August 22, 2022](https://twitter.com/joshm/status/1561725450937704453?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
@@ -26,7 +30,7 @@ At <a href="https://twitter.com/browsercompany?ref_src=twsrc%5Etfw">@browsercomp
 
 We need a new mobile OS that's web-only.
 
-&mdash; jack (@jack) <a href="https://twitter.com/jack/status/1595864501437583367?ref_src=twsrc%5Etfw">November 24, 2022</a>
+&mdash; jack (@jack) [November 24, 2022](https://twitter.com/jack/status/1595864501437583367?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
