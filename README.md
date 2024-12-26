@@ -26,7 +26,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Fri Dec 27 01:27:40 KST 2024
+Fri Dec 27 01:37:01 KST 2024
 
 ## Stats
 
@@ -43,18 +43,18 @@ YAML                         9     14700     2752         0    11948          0
 Python                       7       719       57        32      630         95
 JavaScript                   5     51290     1837      8216    41237       4332
 TypeScript Typings           2        12        0         4        8          0
-Dockerfile                   1        13        1         0       12          1
+Dockerfile                   1        42       14        12       16          5
 INI                          1         1        0         0        1          0
 Plain Text                   1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2954    189269    24633     10607   154029       4572
+Total                     2954    189298    24646     10619   154033       4576
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $5,352,762
+Estimated Cost to Develop (organic) $5,352,908
 Estimated Schedule Effort (organic) 26.02 months
 Estimated People Required (organic) 18.28
 ───────────────────────────────────────────────────────────────────────────────
-Processed 11646085 bytes, 11.646 megabytes (SI)
+Processed 11646759 bytes, 11.647 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```

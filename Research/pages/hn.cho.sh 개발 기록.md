@@ -45,7 +45,7 @@ GitHub Actions로 빌드하는 방식으로.
 
 ## [[2023-03-31]]
 
-며칠 전의 문제는 프롬프트를 조금 더 정교하게 설계하는 방향으로 어느 정도 해결했다. 안되면 모델을 Fine-tuning하려고 알아보고 있다. 참고해볼만한 자료:
+며칠 전의 문제는 프롬프트를 조금 더 정교하게 설계하는 방향으로 어느 정도 해결했다. 안되면 모델을 Fine-tuning하려고 알아보고 있다. 참고해볼만한 자료:
 
 - [Fine-tune LLaMA to speak like Homer Simpson](https://replicate.com/blog/fine-tune-llama-to-speak-like-homer-simpson)
 - [Fine-tuning - OpenAI API](https://platform.openai.com/docs/guides/fine-tuning)
