@@ -1,12 +1,12 @@
 @import url('./navbar.css');
 @import url('./color.css');
 @import url('./external-link.css');
-@import url('./fonts.css');
 
 * {
-  --ifm-font-family-base: interop, 'Tossface', 'SF Pro', system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif,
-    'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif !important;
-  --ifm-font-family-monospace: 'Goorm Sans Mono', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
+  --ifm-font-family-base: system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, 'Apple SD Gothic Neo',
+    'Apple Color Emoji', 'Pretendard Variable', 'Tossface', 'SF Pro', 'Segoe UI', roboto, oxygen-sans, ubuntu,
+    cantarell, 'Helvetica Neue', sans-serif !important;
+  --ifm-font-family-monospace: 'Goorm Sans Code', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
   --font-family-sans-serif: var(--ifm-font-family-base);
   --font-family-headline: var(--ifm-font-family-base);
   --font-family-monospace: var(--ifm-font-family-monospace);

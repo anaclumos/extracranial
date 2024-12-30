@@ -142,7 +142,7 @@ export type DynamicIslandSize =
   | 'ultra'
 ```
 
-Then I spent a whole night ([2022-10-16](/r/2022-10-16#dynamic-island-on-the-web)) and figured out how to naturally shift sizes with Framer Motion.
+Then I spent a whole night ([2022-10-16](/r/2022-10-16)) and figured out how to naturally shift sizes with Framer Motion.
 It uses the following codes.
 I especially experimented with a lot of `stiffness` and `dampening` values;
 the golden ratio was `const stiffness = 400` and `const damping = 30`.

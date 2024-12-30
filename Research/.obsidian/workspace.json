@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c9cfb0e9b4007168",
+        "id": "371dfd4d5f65dcf9",
         "type": "tabs",
         "children": [
           {
-            "id": "e768032af51aad60",
+            "id": "2c8346807c8f1573",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,12 +160,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e768032af51aad60",
+  "active": "2c8346807c8f1573",
   "lastOpenFiles": [
+    "pages/Copy Latest SHA.md",
+    "pages/Contextify.md",
+    "journals/2024-12-27.md",
+    "journals/2024-12-28.md",
     "pages/JavaScript heap out of memory.md",
     "pages/Aldehyde Outage (January 23誠鉉).md",
     "journals/2024-12-20.md",
-    "journals/2024-12-27.md",
     "pages/Untitled.md",
     "journals/2024-12-23.md",
     "pages/Lunit AutoML Engineer JD.md",
@@ -176,7 +179,6 @@
     "pages/Do not Disturb for Set Duration.md",
     "assets/F26E4A.png",
     "pages/나락 탐지.md",
-    "pages/Contextify.md",
     "journals/2024-12-18.md",
     "pages/GitHub PR Message Prompt.md",
     "pages/Vimium.md",
@@ -192,8 +194,6 @@
     "assets/41D7C4.png",
     "journals/2024-12-06.md",
     "journals/2024-12-13.md",
-    "journals/2024-12-05.md",
-    "journals/2024-12-12.md",
     "assets/37C899.png",
     "assets/CC2DAC.png",
     "assets/4ACA3E.png",
