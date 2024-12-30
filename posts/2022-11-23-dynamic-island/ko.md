@@ -180,7 +180,7 @@ export type DynamicIslandSize =
 
 <figcaption>
 
-[2022년 10월 16일](/r/2022-10-16#dynamic-island-on-the-web) 완성한 모습
+[2022년 10월 16일](/r/2022-10-16) 완성한 모습
 
 </figcaption>
 </figure>
