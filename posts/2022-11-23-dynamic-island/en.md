@@ -171,7 +171,7 @@ the golden ratio was `const stiffness = 400` and `const damping = 30`.
 
 <figcaption>
 
-As of [Oct 16th, 2022](/r/2022-10-16#dynamic-island-on-the-web)
+As of [Oct 16th, 2022](/r/2022-10-16)
 
 </figcaption>
 </figure>
