@@ -151,7 +151,7 @@ export type DynamicIslandSize =
   | 'ultra'
 ```
 
-그런 다음 하룻밤을 갈아넣어 ([2022년 10월 16일](/r/2022-10-16#dynamic-island-on-the-web)) Framer Motion을 이용해 자연스럽게 크기 전환을 하는 방법을 알아냈다.
+그런 다음 하룻밤을 갈아넣어 ([2022년 10월 16일](/r/2022-10-16)) Framer Motion을 이용해 자연스럽게 크기 전환을 하는 방법을 알아냈다.
 다음의 코드로 동작한다.
 특히 `stiffness`와 `damping` 값을 가지고 많은 실험을 했다.
 알아낸 값은 `const stiffness = 400` 그리고 `const damping = 30`.
