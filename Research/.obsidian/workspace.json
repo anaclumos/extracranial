@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "371dfd4d5f65dcf9",
+        "id": "d71a32a7ef15aaa1",
         "type": "tabs",
         "children": [
           {
-            "id": "2c8346807c8f1573",
+            "id": "4f3dfed89dd87d02",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/frenzy.money.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "frenzy.money"
             }
           }
         ]
@@ -160,16 +165,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2c8346807c8f1573",
+  "active": "4f3dfed89dd87d02",
   "lastOpenFiles": [
-    "pages/Copy Latest SHA.md",
+    "pages/Composer 9 Examples of Established Algorithmic Trading Strategies.md",
+    "pages/frenzy.money.md",
+    "journals/2025-01-02.md",
+    "pages/Composer Stock Trading Bots to Consider in 2024.md",
+    "pages/Font Features.md",
     "pages/Contextify.md",
+    "pages/Project DOGO.md",
+    "pages/도고상인.md",
+    "pages/Macroeconomics.md",
+    "pages/Untitled.md",
+    "pages/Copy Latest SHA.md",
     "journals/2024-12-27.md",
     "journals/2024-12-28.md",
     "pages/JavaScript heap out of memory.md",
     "pages/Aldehyde Outage (January 23誠鉉).md",
     "journals/2024-12-20.md",
-    "pages/Untitled.md",
     "journals/2024-12-23.md",
     "pages/Lunit AutoML Engineer JD.md",
     "pages/미국물.md",
@@ -181,19 +194,11 @@
     "pages/나락 탐지.md",
     "journals/2024-12-18.md",
     "pages/GitHub PR Message Prompt.md",
-    "pages/Vimium.md",
-    "pages/My Raycast Wrapped of 2024.md",
-    "pages/My Raycast Wrapped of 2022.md",
-    "pages/My Raycast Wrapped of 2023.md",
-    "pages/Raycast.md",
-    "pages/Neo Apps.md",
     "assets/163772.png",
     "assets/BE23D8.png",
     "assets/D21992.png",
     "assets/5348E2.png",
     "assets/41D7C4.png",
-    "journals/2024-12-06.md",
-    "journals/2024-12-13.md",
     "assets/37C899.png",
     "assets/CC2DAC.png",
     "assets/4ACA3E.png",
