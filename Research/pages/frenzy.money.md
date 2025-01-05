@@ -25,7 +25,7 @@ Multiple days of rising prices + high volume. Complex entries.
 
 ### Delayed
 
-High volume + <10% price gain → sharp price increase. Clear entries, high returns.
+High volume + `<10%` price gain → sharp price increase. Clear entries, high returns.
 
 ## Risk Management
 
