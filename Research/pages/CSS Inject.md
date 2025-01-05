@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-headline);
+  font-family: var(--font-family-headline) !important;
 }
 
 article,
@@ -55,11 +55,11 @@ tr,
 button,
 input,
 textarea {
-  font-family: var(--font-family-text);
+  font-family: var(--font-family-sans-serif) !important;
 }
 
 pre,
 code {
-  font-family: var(--font-family-monospace);
+  font-family: var(--font-family-monospace) !important;
 }
 ```

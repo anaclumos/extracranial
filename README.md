@@ -26,7 +26,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Thu Jan 2 22:28:29 KST 2025
+Sun Jan 5 13:36:59 KST 2025
 
 ## Stats
 
@@ -34,10 +34,10 @@ Thu Jan 2 22:28:29 KST 2025
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2771     70971    19047         0    51924          0
+Markdown                  2772     70978    19048         0    51930          0
 CSS                         58     28278      758      2252    25268          0
-TypeScript                  49     20741      163        51    20527        145
-JSON                        42      2326        0         0     2326          0
+TypeScript                  49     20743      163        51    20529        145
+JSON                        42      2317        0         0     2317          0
 SVG                          9         9        0         0        9          0
 YAML                         9     15000     2814         0    12186          0
 Python                       7       719       57        32      630         95
@@ -48,13 +48,13 @@ INI                          1         1        0         0        1          0
 Plain Text                   1         3        0         0        3          0
 gitignore                    1       287       69        69      149          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2956    189653    24750     10624   154279       4573
+Total                     2957    189653    24751     10624   154278       4573
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $5,361,884
+Estimated Cost to Develop (organic) $5,361,848
 Estimated Schedule Effort (organic) 26.03 months
 Estimated People Required (organic) 18.30
 ───────────────────────────────────────────────────────────────────────────────
-Processed 11644696 bytes, 11.645 megabytes (SI)
+Processed 11644652 bytes, 11.645 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
