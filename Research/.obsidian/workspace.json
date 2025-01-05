@@ -11,10 +11,15 @@
             "id": "76ef4e53355437cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/frenzy.money.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "frenzy.money"
             }
           }
         ]

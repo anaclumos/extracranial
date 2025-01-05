@@ -11,7 +11,7 @@ Spiritual Successor to [[Project DOGO]]
 
 ## Purchase Points
 
-Trading volume spike of >20x with modest price gain (<20-30%) often signals strong buying opportunity for further upside potential.
+Trading volume spike of `>20x` with modest price gain (`<20-30%`) often signals strong buying opportunity for further upside potential.
 
 ## Trading Patterns
 
