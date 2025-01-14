@@ -9,6 +9,10 @@ Spiritual Successor to [[Project DOGO]]
 - [[Composer Stock Trading Bots to Consider in 2024]]
 - [GS Quant - Goldman Sachs Developer](https://developer.gs.com/docs/gsquant/)
 
+## Metrics to follow
+
+공매도 잔량, 내부자거래, 거래량, PER+PBR
+
 ## Purchase Points
 
 Trading volume spike of `>20x` with modest price gain (`<20-30%`) often signals strong buying opportunity for further upside potential.

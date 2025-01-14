@@ -1,52 +1,4 @@
 {
-  " and ": {
-    "message": "과 "
-  },
-  " based in ": {
-    "message": "입니다. 주로 "
-  },
-  " is a ": {
-    "message": "은 "
-  },
-  " or ": {
-    "message": "이나 "
-  },
-  " year ago.": {
-    "message": "년 이상 지났습니다."
-  },
-  " years ago.": {
-    "message": "년 이상 지났습니다."
-  },
-  ", ": {
-    "message": ", "
-  },
-  ", and ": {
-    "message": ", "
-  },
-  ", and playing ": {
-    "message": "를 읽거나, "
-  },
-  ", reading ": {
-    "message": "에 대해 찾아보거나 "
-  },
-  ", usually with next-gen ": {
-    "message": "에서 인턴으로 근무하며 차세대 "
-  },
-  ". ": {
-    "message": "를 플레이하길 좋아합니다."
-  },
-  ". He previously interned at ": {
-    "message": "에서 지냅니다. 이전에는 "
-  },
-  ". His academic interest spans ": {
-    "message": "을 사용해 재밌는 것들을 만들었습니다. 그 외에도 "
-  },
-  ". When he is not coding, he enjoys studying ": {
-    "message": " 등에 관심이 많습니다. 요즘에는 "
-  },
-  "AI in medicine": {
-    "message": "의료 인공지능"
-  },
   "backlink.noBacklink": {
     "message": "아직 아무것도 없네요...",
     "description": "The message when there is no backlink"
@@ -55,26 +7,8 @@
     "message": "이 문서를 언급한 문서들",
     "description": "The title of the backlink section"
   },
-  "computational intelligence": {
-    "message": "전산 지능"
-  },
-  "computer scientist": {
-    "message": "컴퓨터 과학자"
-  },
-  "Daejeon, Seoul": {
-    "message": "대전, 서울"
-  },
-  "economics": {
-    "message": "경제학"
-  },
-  "fusion energies": {
-    "message": "핵융합 에너지"
-  },
   "Google Latest Articles Instead": {
     "message": "Google에서 새로운 자료 찾아보기"
-  },
-  "Grammarly": {
-    "message": "Grammarly"
   },
   "Heads Up!": {
     "message": "잠깐!"
@@ -88,38 +22,8 @@
   "If you speak different languages, look for this post in that language.": {
     "message": "여러 언어를 구사하시면 이 글을 다른 언어로 먼저 찾아보시기 바랍니다."
   },
-  "Karrot": {
-    "message": "당근"
-  },
-  "Los Angeles": {
-    "message": "로스앤젤레스"
-  },
-  "modern history": {
-    "message": "근현대사"
-  },
-  "Nintendo Switch OLED": {
-    "message": "닌텐도 스위치 OLED"
-  },
-  "PlayStation 5 Slim": {
-    "message": "플레이스테이션 5 Slim"
-  },
   "Possibly, I may not endorse the content anymore.": {
     "message": "저는 이 글에 더 이상 동의하지 않을지도 모릅니다."
-  },
-  "space terraformings": {
-    "message": "우주 테라포밍"
-  },
-  "spacial computing": {
-    "message": "공간 컴퓨팅"
-  },
-  "Steam Deck OLED": {
-    "message": "스팀 덱 OLED"
-  },
-  "Subscribe": {
-    "message": "구독"
-  },
-  "Sunghyun": {
-    "message": "조성현"
   },
   "That's enough time for things to change.": {
     "message": "새로운 일들이 일어나기 충분한 시간입니다."
@@ -562,66 +466,48 @@
     "message": "목차",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.unlistedContent.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
-    "description": "The unlisted content banner message"
-  },
-  "theme.unlistedContent.title": {
-    "message": "Unlisted page",
-    "description": "The unlisted content banner title"
-  },
-  "web": {
-    "message": "웹 기술"
-  },
-  "Wikipedia": {
-    "message": "위키피디아"
-  },
-  "Woowa Bros": {
-    "message": "우아한형제들"
-  },
   "Work in Progress": {
     "message": "Work in Progress"
   },
   "Work in Progress. Check back later.": {
     "message": "작업 중입니다. 나중에 다시 확인해 주시기 바랍니다."
   },
-  "☢": {
-    "message": "☢"
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
   },
-  "🅖": {
-    "message": "🅖"
+  "theme.blog.authorsList.pageTitle": {
+    "message": "저자",
+    "description": "The title of the authors page"
   },
-  "🇰🇷": {
-    "message": "🇰🇷"
+  "theme.blog.authorsList.viewAll": {
+    "message": "모든 저자 보기",
+    "description": "The label of the link targeting the blog authors page"
   },
-  "🇺🇸": {
-    "message": "🇺🇸"
+  "theme.blog.author.noPosts": {
+    "message": "작성자가 아직 게시글을 작성하지 않았습니다.",
+    "description": "The text for authors with 0 blog post"
   },
-  "🎮": {
-    "message": "🎮"
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "색인되지 않은 문서",
+    "description": "The unlisted content banner title"
   },
-  "👨🏻‍💻": {
-    "message": "👨🏻‍💻"
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "이 문서는 색인되지 않습니다. 검색 엔진이 이 문서를 색인하지 않으며, 주소를 알고 있는 사용자만 접근할 수 있습니다.",
+    "description": "The unlisted content banner message"
   },
-  "👾": {
-    "message": "👾"
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "작성 중인 페이지",
+    "description": "The draft content banner title"
   },
-  "💰": {
-    "message": "💰"
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "이 페이지는 아직 작성 중입니다. 개발 환경에서만 보이며 프로덕션 빌드에서는 제외됩니다.",
+    "description": "The draft content banner message"
   },
-  "📚": {
-    "message": "📚"
+  " year ago.": {
+    "message": " year ago."
   },
-  "📰": {
-    "message": "📰"
-  },
-  "🕸": {
-    "message": "🕸"
-  },
-  "🚀": {
-    "message": "🚀"
-  },
-  "🤖": {
-    "message": "🤖"
+  " years ago.": {
+    "message": " years ago."
   }
 }

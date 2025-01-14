@@ -1,80 +1,6 @@
 {
-  " and ": {
-    "message": " and "
-  },
-  " based in ": {
-    "message": " based in "
-  },
-  " is a ": {
-    "message": " is a "
-  },
-  " or ": {
-    "message": " or "
-  },
-  " year ago.": {
-    "message": " year ago."
-  },
-  " years ago.": {
-    "message": " years ago."
-  },
-  ", ": {
-    "message": ", "
-  },
-  ", and ": {
-    "message": ", and "
-  },
-  ", and playing ": {
-    "message": ", and playing "
-  },
-  ", reading ": {
-    "message": ", reading "
-  },
-  ", usually with next-gen ": {
-    "message": ", usually with next-gen "
-  },
-  ". ": {
-    "message": ". "
-  },
-  ". He previously interned at ": {
-    "message": ". He previously interned at "
-  },
-  ". His academic interest spans ": {
-    "message": ". His academic interest spans "
-  },
-  ". When he is not coding, he enjoys studying ": {
-    "message": ". When he is not coding, he enjoys studying "
-  },
-  "AI in medicine": {
-    "message": "AI in medicine"
-  },
-  "backlink.noBacklink": {
-    "message": "Nothing here yet...",
-    "description": "The message when there is no backlink"
-  },
-  "backlink.title": {
-    "message": "Links to This Note",
-    "description": "The title of the backlink section"
-  },
-  "computational intelligence": {
-    "message": "computational intelligence"
-  },
-  "computer scientist": {
-    "message": "computer scientist"
-  },
-  "Daejeon, Seoul": {
-    "message": "Daejeon, Seoul"
-  },
-  "economics": {
-    "message": "economics"
-  },
-  "fusion energies": {
-    "message": "fusion energies"
-  },
   "Google Latest Articles Instead": {
     "message": "Google Latest Articles Instead"
-  },
-  "Grammarly": {
-    "message": "Grammarly"
   },
   "Heads Up!": {
     "message": "Heads Up!"
@@ -87,39 +13,6 @@
   },
   "If you speak different languages, look for this post in that language.": {
     "message": "If you speak different languages, look for this post in that language."
-  },
-  "Karrot": {
-    "message": "Karrot"
-  },
-  "Los Angeles": {
-    "message": "Los Angeles"
-  },
-  "modern history": {
-    "message": "modern history"
-  },
-  "Nintendo Switch OLED": {
-    "message": "Nintendo Switch OLED"
-  },
-  "PlayStation 5 Slim": {
-    "message": "PlayStation 5 Slim"
-  },
-  "Possibly, I may not endorse the content anymore.": {
-    "message": "Possibly, I may not endorse the content anymore."
-  },
-  "space terraformings": {
-    "message": "space terraformings"
-  },
-  "spacial computing": {
-    "message": "spacial computing"
-  },
-  "Steam Deck OLED": {
-    "message": "Steam Deck OLED"
-  },
-  "Subscribe": {
-    "message": "Subscribe"
-  },
-  "Sunghyun": {
-    "message": "Sunghyun"
   },
   "That's enough time for things to change.": {
     "message": "That's enough time for things to change."
@@ -562,66 +455,59 @@
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.unlistedContent.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
-    "description": "The unlisted content banner message"
-  },
-  "theme.unlistedContent.title": {
-    "message": "Unlisted page",
-    "description": "The unlisted content banner title"
-  },
-  "web": {
-    "message": "web"
-  },
-  "Wikipedia": {
-    "message": "Wikipedia"
-  },
-  "Woowa Bros": {
-    "message": "Woowa Bros"
-  },
   "Work in Progress": {
     "message": "Work in Progress"
   },
   "Work in Progress. Check back later.": {
     "message": "Work in Progress. Check back later."
   },
-  "☢": {
-    "message": "☢"
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
   },
-  "🅖": {
-    "message": "🅖"
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
   },
-  "🇰🇷": {
-    "message": "🇰🇷"
+  "theme.blog.authorsList.viewAll": {
+    "message": "View all authors",
+    "description": "The label of the link targeting the blog authors page"
   },
-  "🇺🇸": {
-    "message": "🇺🇸"
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
   },
-  "🎮": {
-    "message": "🎮"
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
   },
-  "👨🏻‍💻": {
-    "message": "👨🏻‍💻"
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
   },
-  "👾": {
-    "message": "👾"
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
   },
-  "💰": {
-    "message": "💰"
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
   },
-  "📚": {
-    "message": "📚"
+  "backlink.title": {
+    "message": "Links to This Note",
+    "description": "The title of the backlink section"
   },
-  "📰": {
-    "message": "📰"
+  "backlink.noBacklink": {
+    "message": "Nothing here yet...",
+    "description": "The message when there is no backlink"
   },
-  "🕸": {
-    "message": "🕸"
+  " year ago.": {
+    "message": " year ago."
   },
-  "🚀": {
-    "message": "🚀"
+  " years ago.": {
+    "message": " years ago."
   },
-  "🤖": {
-    "message": "🤖"
+  "Possibly, I may not endorse the content anymore.": {
+    "message": "Possibly, I may not endorse the content anymore."
   }
 }

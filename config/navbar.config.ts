@@ -24,23 +24,19 @@ const navbar = {
   },
   items: [
     {
-      type: 'dropdown',
-      label: 'Research',
+      to: '/r/000000',
+      label: "What's this?",
       position: 'left',
-      items: [
-        {
-          to: getMostRecentJournalLink(),
-          label: 'Today',
-        },
-        {
-          to: '/random',
-          label: 'Random',
-        },
-        {
-          to: '/r/000000',
-          label: "What's this?",
-        },
-      ],
+    },
+    {
+      to: getMostRecentJournalLink(),
+      label: 'Today',
+      position: 'left',
+    },
+    {
+      to: '/random',
+      label: 'Random',
+      position: 'left',
     },
     {
       to: '/w/archive',
