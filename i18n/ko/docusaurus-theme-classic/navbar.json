@@ -11,10 +11,6 @@
     "message": "오늘",
     "description": "Navbar item with label Today"
   },
-  "item.label.Graph": {
-    "message": "그래프",
-    "description": "Navbar item with label Graph"
-  },
   "item.label.Random": {
     "message": "무작위",
     "description": "Navbar item with label Random"
@@ -22,18 +18,6 @@
   "logo.alt": {
     "message": "Sunghyun Cho Logo",
     "description": "The alt text of navbar logo"
-  },
-  "item.label.Research": {
-    "message": "연구 노트",
-    "description": "Navbar item with label Research"
-  },
-  "item.label.Newsletters": {
-    "message": "Newsletters",
-    "description": "Navbar item with label Newsletters"
-  },
-  "item.label.뉴스레터": {
-    "message": "뉴스레터",
-    "description": "Navbar item with label 뉴스레터"
   },
   "item.label.What's this?": {
     "message": "무엇인가요?",
