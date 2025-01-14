@@ -4,56 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "83812c616eec1868",
+        "id": "3839b6b73da7aeed",
         "type": "tabs",
         "children": [
           {
-            "id": "9bbfad943d03ab7a",
+            "id": "dfcb6830f5bda24c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-01-12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-01-12"
-            }
-          },
-          {
-            "id": "e24bf92fcc8993c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-01-12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2025-01-12"
-            }
-          },
-          {
-            "id": "92e247b239200d91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/GitHub What should I review.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "GitHub What should I review"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,11 +160,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92e247b239200d91",
+  "active": "dfcb6830f5bda24c",
   "lastOpenFiles": [
+    "journals/2025-01-14.md",
+    "pages/INCL 유저 인터뷰.md",
+    "pages/Drag and Drop.md",
+    "pages/GitHub What should I review.md",
     "journals/2025-01-12.md",
     "pages/GitHub What should I work on.md",
-    "pages/GitHub What should I review.md",
     "journals/2025-01-07.md",
     "assets/398CA8.png",
     "pages/Apple-like Block Interface.md",
@@ -222,9 +189,6 @@
     "pages/Copy Latest SHA.md",
     "journals/2024-12-27.md",
     "journals/2024-12-28.md",
-    "pages/JavaScript heap out of memory.md",
-    "pages/Aldehyde Outage (January 23誠鉉).md",
-    "journals/2024-12-20.md",
     "assets/F26E4A.png",
     "assets/163772.png",
     "assets/BE23D8.png",

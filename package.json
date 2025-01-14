@@ -47,7 +47,7 @@
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
     "build": "$npm_execpath run ready && $npm_execpath run format && NODE_OPTIONS=\"--max-old-space-size=8192\" docusaurus build",
-    "clear": "rm -rf 'blog' && rm -rf 'docs' && rm -rf 'i18n /**/*.md' && cp tools/안녕.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n /**/*.png' && rm -rf 'i18n /**/*.svg' && rm -rf 'i18n /**/*.jpg' && rm -rf 'i18n /**/*.jpeg' && rm -rf 'i18n /**/*.gif' && rm -rf .docusaurus && rm -rf build && rm -rf .cache",
+    "clear": "rm -rf 'blog' && rm -rf 'docs' && rm -rf 'i18n /**/*.md' && cp tools/안녕.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n /**/*.png' && rm -rf 'i18n /**/*.svg' && rm -rf 'i18n /**/*.jpg' && rm -rf 'i18n /**/*.jpeg' && rm -rf 'i18n /**/*.gif'",
     "dev": "$npm_execpath run ready && $npm_execpath run format && docusaurus start",
     "format": "prettier --log-level silent --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}'",
     "ko": "$npm_execpath run ready && $npm_execpath run format && docusaurus start --locale ko",
