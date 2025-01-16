@@ -11,13 +11,49 @@
             "id": "ce6385413a739428",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/Project Ganymede.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Project Ganymede"
+            }
+          },
+          {
+            "id": "86e1a587ed610985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Project Ganymede.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Project Ganymede"
+            }
+          },
+          {
+            "id": "6b801939c183e1db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Explode.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Explode"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MAX_",
+                "query": "Remora",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,10 +196,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce6385413a739428",
+  "active": "6b801939c183e1db",
   "lastOpenFiles": [
-    "pages/Cloudflare Worker.md",
+    "assets/9E72D2.png",
+    "assets/246C13.png",
+    "assets/574079.png",
+    "assets/738EF9.png",
+    "assets/53A5CE.png",
+    "assets/4FBA41.png",
+    "journals/2025-01-16.md",
+    "pages/Explode.md",
+    "pages/The Paradoxical Moon Philosophy.md",
+    "pages/Project Ganymede.md",
+    "pages/Bershire Hathaway Annual Meeting 2025.md",
+    "assets/7FBBE3.gif",
+    "pages/App Clips.md",
+    "assets/CFC7AF.png",
+    "assets/EAE392.png",
     "journals/2025-01-15.md",
+    "pages/Cloudflare Worker.md",
     "pages/Frontend Fundamentals.md",
     "pages/Cloudflare Pages.md",
     "pages/GitHub Pages에 React 앱 띄우기.md",
@@ -171,33 +222,18 @@
     "pages/Video to GIF.md",
     "pages/Strictly Formatted Generative AI.md",
     "pages/JavaScript heap out of memory.md",
-    "journals/2025-01-16.md",
     "pages/Base32.md",
     "pages/ULID.md",
     "pages/history.push vs history.replace.md",
     "pages/es-toolkit.md",
     "journals/2025-01-14.md",
     "pages/GitHub PR Message Prompt.md",
-    "pages/Explode and Off the Record.md",
     "pages/frenzy.money.md",
     "pages/INCL 유저 인터뷰.md",
     "pages/Drag and Drop.md",
     "pages/GitHub What should I review.md",
-    "journals/2025-01-12.md",
-    "pages/GitHub What should I work on.md",
-    "journals/2025-01-07.md",
     "assets/398CA8.png",
-    "pages/Apple-like Block Interface.md",
-    "pages/Nextra.md",
     "assets/F26E4A.png",
-    "assets/163772.png",
-    "assets/BE23D8.png",
-    "assets/D21992.png",
-    "assets/5348E2.png",
-    "assets/41D7C4.png",
-    "assets/37C899.png",
-    "assets/CC2DAC.png",
-    "assets/4ACA3E.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
