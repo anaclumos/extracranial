@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "efb3e45253853266",
+        "id": "da9e11c0ec580682",
         "type": "tabs",
         "children": [
           {
-            "id": "8e15f199754e0f4e",
+            "id": "33aa319a14adfcc6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Cross-Platform AirDrops.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cross-Platform AirDrops"
+              "title": "New tab"
             }
           }
         ]
@@ -165,8 +160,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8e15f199754e0f4e",
+  "active": "33aa319a14adfcc6",
   "lastOpenFiles": [
+    "journals/2025-01-18.md",
+    "pages/SignalKite DB Schema.md",
+    "pages/SignalKite.md",
+    "pages/Cross-Platform AirDrops.md",
     "journals/2022-10-13.md",
     "pages/Project Ganymede.md",
     "journals/2025-01-17.md",
@@ -199,10 +198,6 @@
     "pages/history.push vs history.replace.md",
     "pages/es-toolkit.md",
     "journals/2025-01-14.md",
-    "pages/GitHub PR Message Prompt.md",
-    "pages/frenzy.money.md",
-    "pages/INCL 유저 인터뷰.md",
-    "pages/Drag and Drop.md",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
