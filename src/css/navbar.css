@@ -1,3 +1,7 @@
+.navbar__link {
+  font-weight: bold;
+}
+
 .navbar-github-link::before {
   content: '';
   width: 24px;

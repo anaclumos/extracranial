@@ -51,7 +51,7 @@ article a[href^='http']::before {
 }
 
 article a[href^='http']::after {
-  content: '↗️';
+  content: '↗';
   font-size: 0.8em;
 }
 
