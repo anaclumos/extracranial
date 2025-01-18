@@ -3,6 +3,8 @@ lang: 'en'
 slug: /B32F9A
 ---
 
+![[6DDK8vCkasBE0QHU 2.gif]]
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ladies and gentlemen, I pleased to announce my latest app:<br/><br/>Introducing Explode<br/>· Send disappearing texts &amp; photos inside iMessage<br/>· Only the sender needs the app: Drop them right into your chats <br/>· Screenshots are blocked too<br/><br/>Why did we build it? Explode is a spite app. Yes, an… <a href="https://t.co/mGwmoN28T8">pic.twitter.com/mGwmoN28T8</a></p>&mdash; Nikita Bier (@nikitabier) <a href="https://twitter.com/nikitabier/status/1879206793118658974?ref_src=twsrc%5Etfw">January 14, 2025</a></blockquote>
 
 On [[2025-01-15]], Nikita Bier released his newest app Explode. I was seemingly building with the exact concept, most notably:
@@ -28,9 +30,9 @@ As much as I feel [[ideas are worthless]]; in this very specific example, it req
 
 <DisplayFlex>
 
-![[7FBBE3.gif]]
+![[AE6FB5.gif]]
 
-![[E13EA3.gif]]
+![[7681FE.gif]]
 
 </DisplayFlex>
 
@@ -42,6 +44,8 @@ As much as I feel some sour gripe that someone else has launched a successful pr
 He basically pulled every single growth levers I could ever think of
 
 </summary>
+
+![[6A9632.gif]]
 
 ![[4FBA41.png]]
 
