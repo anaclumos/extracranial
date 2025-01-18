@@ -39,16 +39,16 @@
 }
 
 @font-face {
-  font-family: GowunDotum;
+  font-family: GowunDodum;
   font-weight: 400;
   src:
-    url('../../static/fonts/GowunDotum/GowunDotum.woff2') format('woff2'),
-    url('../../static/fonts/GowunDotum/GowunDotum.woff') format('woff');
+    url('../../static/fonts/GowunDodum/GowunDodum.woff2') format('woff2'),
+    url('../../static/fonts/GowunDodum/GowunDodum.woff') format('woff');
   font-display: fallback;
 }
 
 * {
-  --ifm-font-family-base: 'Harding', 'Tossface', 'GowunDotum', system-ui, -apple-system, blinkmacsystemfont,
+  --ifm-font-family-base: 'Harding', 'Tossface', 'GowunDodum', system-ui, -apple-system, blinkmacsystemfont,
     ui-sans-serif, 'Apple SD Gothic Neo', 'Apple Color Emoji', 'SF Pro', 'Segoe UI', roboto, oxygen-sans, ubuntu,
     cantarell, 'Helvetica Neue', sans-serif !important;
   --ifm-font-family-monospace: 'Goorm Sans Code', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
