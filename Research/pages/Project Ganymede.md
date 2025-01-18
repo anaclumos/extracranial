@@ -22,9 +22,9 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - Tried to modify ProgressBar but failed
 - Completed Read View.
 
-![Funny that the only way of recording is like this, because my screenshot protection is too good!!!](../assets/7FBBE3.gif)
+![Funny that the only way of recording is like this, because my screenshot protection is too good!!!](../assets/AE6FB5.gif)
 
-![[25F68A.jpeg]]
+![[287818.jpeg]]
 
 ## [[2024-03-19]]
 
@@ -39,7 +39,7 @@ Also, AI-gile could be another programming pattern. [[Gen Z does not know file d
 
 ## [[2024-03-07]]
 
-![[E13EA3.gif]]
+![[7681FE.gif]]
 
 Rewriting Callisto with UIKit. Primarily because of the extensive jumble mess with SwiftUI.
 
@@ -55,14 +55,14 @@ Server Crashed. migrating to Fly.io... Because I wanted a Vercel-like experience
 
 <DisplayFlex>
 
-![[8CE3E2.png]]
-![[2AEC71.png]]
+![[9A391C.png]]
+![[485E0B.png]]
 
 </DisplayFlex>
 
 ## [[2023-12-15]]
 
-![[EEDDA7.gif]]
+![[F47E19.gif]]
 
 ## [[2023-11-22]]
 
@@ -70,7 +70,7 @@ Server Crashed. migrating to Fly.io... Because I wanted a Vercel-like experience
 - Implemented Message Reading Functionality
 - I implemented proper loading view features, with fade-in and fade-out.
 
-![[D7D1B8.gif]]
+![[5D373F.gif]]
 
 - Refactored a lot of files
 
@@ -101,14 +101,14 @@ Callisto
   - dismiss the keyboard & request a compact presentation style
 - Pink Bubble?
 
-![[61B318.jpg]]
+![[CD9A62.jpg]]
 
 ## [[2023-11-13]]
 
 - Implemented [[Vitest]] on [[Prisma]] and [[Cloudflare Worker|Cloudflare Workers]]
   - It would be boring to name tests like "A [[Text Message|texts]] B, then C tries to read it" or so, right?
 
-![[FCAC15.png]]
+![[B9D4E6.png]]
 
 - Implemented CI on [[GitHub Actions]], so that
   - If the [[Vitest]] passes, deploy it to [[Cloudflare Worker|Cloudflare Workers]]
@@ -117,13 +117,13 @@ Callisto
 
 - Refuses to Deploy
 
-![[656236.png]]
+![[661CA2.png]]
 
 ### When Test Passes
 
 - Deploys
 
-![[C53193.png]]
+![[92533C.png]]
 
 ## [[2023-11-11]]
 
@@ -131,27 +131,27 @@ Used [[Prisma]], [[Prisma Accelerate]], [[PlanetScale]], and [[Cloudflare Worker
 
 ### Composing Messages with 3 People Group Chat (Writer, Reader 1, Reader 2)
 
-![[7A1B12.png]]
+![[677F5A.png]]
 
 ### When the Writer Tries to Read (Invalid)
 
-![[E2FC5B.png]]
+![[3C6D29.png]]
 
 ### When the Reader Tries to Read (Valid)
 
-![[111134.png]]
+![[10F013.png]]
 
 ### When the Reader Re-requests to Read (Invalid)
 
-![[40A9E9.png]]
+![[8CB950.png]]
 
 ### When Another Reader Requests to Read (Valid)
 
-![[14FF06.png]]
+![[A08F59.png]]
 
 ### When an Unauthorized User Requests to Read (Invalid)
 
-![[A9C91C.png]]
+![[D54DB2.png]]
 
 ### Also
 
@@ -160,7 +160,7 @@ Used [[Prisma]], [[Prisma Accelerate]], [[PlanetScale]], and [[Cloudflare Worker
 
 ## [[2023-11-10]]
 
-![[2229DC.gif]]
+![[DF7DE6.gif]]
 
 ## [[2023-11-08]]
 
@@ -179,7 +179,7 @@ Used [[Prisma]], [[Prisma Accelerate]], [[PlanetScale]], and [[Cloudflare Worker
 
 I can attach many images
 
-![[8A52BA.png]]
+![[A6A88D.png]]
 
 ## [[2023-10-19]]
 
@@ -187,12 +187,12 @@ I can attach many images
 - [Embed the Photos Picker in your app - WWDC23 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2023/10107/)
 - [Burn Paper with a Single Shader | Blender Tutorial](https://www.youtube.com/watch?v=i0NcvJtTZG8&t=120s)
 
-![[E19673.png]]
-![[A09B56.png]]
+![[4A19CD.png]]
+![[7637E1.png]]
 
 ## [[2023-10-16]]
 
-![[885554.png]]
+![[3185EF.png]]
 
 ## [[2023-10-13]]
 
@@ -210,7 +210,7 @@ In iOS 17, [[Shortcuts]] can send [[Text Message|messages]] without confirmation
 
 I finished some working prototypes. Some concerns: It seems like the transcript `MSMessage` is an immutable object. We might consider server approaches, such as KV storage.
 
-![[B89B94.gif]]
+![[4425A0.gif]]
 
 I don't want to store any encrypted or decrypted [[Text Message|messages]] on the server. So we can consider something as:
 

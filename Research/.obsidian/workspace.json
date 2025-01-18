@@ -4,56 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "dce5b44f72d541c9",
+        "id": "efb3e45253853266",
         "type": "tabs",
         "children": [
           {
-            "id": "ce6385413a739428",
+            "id": "8e15f199754e0f4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Project Ganymede.md",
+                "file": "pages/Cross-Platform AirDrops.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Project Ganymede"
-            }
-          },
-          {
-            "id": "86e1a587ed610985",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Project Ganymede.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Project Ganymede"
-            }
-          },
-          {
-            "id": "6b801939c183e1db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Explode.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Explode"
+              "title": "Cross-Platform AirDrops"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Remora",
+                "query": "airdrop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,23 +165,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6b801939c183e1db",
+  "active": "8e15f199754e0f4e",
   "lastOpenFiles": [
+    "journals/2022-10-13.md",
+    "pages/Project Ganymede.md",
+    "journals/2025-01-17.md",
+    "pages/Explode.md",
+    "journals/2025-01-16.md",
+    "assets/6A9632.gif",
+    "assets/6DDK8vCkasBE0QHU 2.gif",
+    "assets/6DDK8vCkasBE0QHU 1.gif",
+    "pages/ULID.md",
+    "pages/Base32.md",
+    "assets/743C98.png",
+    "assets/A359CE.png",
     "assets/9E72D2.png",
     "assets/246C13.png",
     "assets/574079.png",
     "assets/738EF9.png",
     "assets/53A5CE.png",
-    "assets/4FBA41.png",
-    "journals/2025-01-16.md",
-    "pages/Explode.md",
     "pages/The Paradoxical Moon Philosophy.md",
-    "pages/Project Ganymede.md",
     "pages/Bershire Hathaway Annual Meeting 2025.md",
-    "assets/7FBBE3.gif",
     "pages/App Clips.md",
-    "assets/CFC7AF.png",
-    "assets/EAE392.png",
     "journals/2025-01-15.md",
     "pages/Cloudflare Worker.md",
     "pages/Frontend Fundamentals.md",
@@ -222,8 +196,6 @@
     "pages/Video to GIF.md",
     "pages/Strictly Formatted Generative AI.md",
     "pages/JavaScript heap out of memory.md",
-    "pages/Base32.md",
-    "pages/ULID.md",
     "pages/history.push vs history.replace.md",
     "pages/es-toolkit.md",
     "journals/2025-01-14.md",
@@ -231,9 +203,6 @@
     "pages/frenzy.money.md",
     "pages/INCL 유저 인터뷰.md",
     "pages/Drag and Drop.md",
-    "pages/GitHub What should I review.md",
-    "assets/398CA8.png",
-    "assets/F26E4A.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
