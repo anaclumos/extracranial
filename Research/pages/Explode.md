@@ -3,9 +3,16 @@ lang: 'en'
 slug: /B32F9A
 ---
 
-![[6DDK8vCkasBE0QHU 2.gif]]
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ladies and gentlemen, I pleased to announce my latest app:<br/><br/>Introducing Explode<br/>· Send disappearing texts &amp; photos inside iMessage<br/>· Only the sender needs the app: Drop them right into your chats <br/>· Screenshots are blocked too<br/><br/>Why did we build it? Explode is a spite app. Yes, an… <a href="https://t.co/mGwmoN28T8">pic.twitter.com/mGwmoN28T8</a></p>&mdash; Nikita Bier (@nikitabier) <a href="https://twitter.com/nikitabier/status/1879206793118658974?ref_src=twsrc%5Etfw">January 14, 2025</a></blockquote>
+> Ladies and gentlemen, I pleased to announce my latest app:
+>
+> Introducing Explode  
+> · Send disappearing texts & photos inside iMessage  
+> · Only the sender needs the app: Drop them right into your chats  
+> · Screenshots are blocked too
+>
+> Why did we build it? Explode is a spite app. Yes, an… [pic.twitter.com/mGwmoN28T8](https://t.co/mGwmoN28T8)
+>
+> — Nikita Bier (@nikitabier) [January 14, 2025](https://twitter.com/nikitabier/status/1879206793118658974?ref_src=twsrc%5Etfw)
 
 On [[2025-01-15]], Nikita Bier released his newest app Explode. I was seemingly building with the exact concept, most notably:
 
@@ -41,7 +48,7 @@ As much as I feel some sour gripe that someone else has launched a successful pr
 <details>
 <summary>
 
-He basically pulled every single growth levers I could ever think of
+He basically pulled every single growth levers I could ever think of...
 
 </summary>
 
@@ -53,13 +60,20 @@ He basically pulled every single growth levers I could ever think of
 
 ![[738EF9.png]]
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ok hear me out.<br/>Snapchat but it works in iMessage <a href="https://t.co/Aia984yZ6v">pic.twitter.com/Aia984yZ6v</a></p>&mdash; Explode App (@explodeapp) <a href="https://twitter.com/explodeapp/status/1879253412539433060?ref_src=twsrc%5Etfw">January 14, 2025</a></blockquote>
+> Ok hear me out.  
+> Snapchat but it works in iMessage [pic.twitter.com/Aia984yZ6v](https://t.co/Aia984yZ6v)
+>
+> — Explode App (@explodeapp) [January 14, 2025](https://twitter.com/explodeapp/status/1879253412539433060?ref_src=twsrc%5Etfw)
 
 ![[574079.png]]
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">naming your company Tap Get to boost app downloads is absolutely genius <a href="https://t.co/5uzefnmbwX">https://t.co/5uzefnmbwX</a> <a href="https://t.co/kLCU3FACpE">pic.twitter.com/kLCU3FACpE</a></p>&mdash; juan (@juanbuis) <a href="https://twitter.com/juanbuis/status/1879215293513572615?ref_src=twsrc%5Etfw">January 14, 2025</a></blockquote>
+> naming your company Tap Get to boost app downloads is absolutely genius [https://t.co/5uzefnmbwX](https://t.co/5uzefnmbwX) [pic.twitter.com/kLCU3FACpE](https://t.co/kLCU3FACpE)
+>
+> — juan (@juanbuis) [January 14, 2025](https://twitter.com/juanbuis/status/1879215293513572615?ref_src=twsrc%5Etfw)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Using an ascii arrow on input placeholder + PiP instructions is also genius <a href="https://twitter.com/nikitabier?ref_src=twsrc%5Etfw">@nikitabier</a> is truly built different <a href="https://t.co/cJqWZCbDzG">pic.twitter.com/cJqWZCbDzG</a></p>&mdash; Olivier (@StonkyOli) <a href="https://twitter.com/StonkyOli/status/1879267066555056446?ref_src=twsrc%5Etfw">January 14, 2025</a></blockquote>
+> Using an ascii arrow on input placeholder + PiP instructions is also genius [@nikitabier](https://twitter.com/nikitabier?ref_src=twsrc%5Etfw) is truly built different [pic.twitter.com/cJqWZCbDzG](https://t.co/cJqWZCbDzG)
+>
+> — Olivier (@StonkyOli) [January 14, 2025](https://twitter.com/StonkyOli/status/1879267066555056446?ref_src=twsrc%5Etfw)
 
 ![[246C13.png]]
 
