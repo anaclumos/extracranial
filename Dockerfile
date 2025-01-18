@@ -5,7 +5,7 @@ RUN npm install -g pnpm
 
 WORKDIR /usr/src/app
 
-RUN rm -rf blog build docs .docusaurus node_modules
+RUN rm -rf blog docs node_modules
 COPY package.json pnpm-lock.yaml ./
 RUN pnpm install
 
