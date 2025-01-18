@@ -20,7 +20,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.What's this?": {
-    "message": "무엇인가요?",
+    "message": "설명",
     "description": "Navbar item with label What's this?"
   }
 }

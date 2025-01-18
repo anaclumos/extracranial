@@ -3,7 +3,7 @@
 @import url('./external-link.css');
 
 @font-face {
-  font-family: 'Harding';
+  font-family: Harding;
   src:
     url('../../static/fonts/Harding/HardingText-Regular-Web.woff2') format('woff2'),
     url('../../static/fonts/Harding/HardingText-Regular-Web.woff') format('woff');
@@ -11,36 +11,45 @@
 }
 
 @font-face {
-  font-family: 'Harding';
+  font-family: Harding;
   src:
     url('../../static/fonts/Harding/HardingText-RegularItalic-Web.woff2') format('woff2'),
     url('../../static/fonts/Harding/HardingText-RegularItalic-Web.woff') format('woff');
   font-style: italic;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: 'Harding';
+  font-family: Harding;
   src:
     url('../../static/fonts/Harding/HardingText-Bold-Web.woff2') format('woff2'),
     url('../../static/fonts/Harding/HardingText-Bold-Web.woff') format('woff');
   font-weight: 700;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: 'Harding';
+  font-family: Harding;
   src:
     url('../../static/fonts/Harding/HardingText-BoldItalic-Web.woff2') format('woff2'),
     url('../../static/fonts/Harding/HardingText-BoldItalic-Web.woff') format('woff');
   font-weight: 700;
   font-style: italic;
-  font-display: swap;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: RidiBatang;
+  font-weight: 400;
+  src:
+    url('../../static/fonts/RidiBatang/RidiBatang.woff2') format('woff2'),
+    url('../../static/fonts/RidiBatang/RidiBatang.woff') format('woff');
+  font-display: fallback;
 }
 
 * {
-  --ifm-font-family-base: 'Harding', system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, 'Apple SD Gothic Neo',
-    'Apple Color Emoji', 'Pretendard Variable', 'Tossface', 'SF Pro', 'Segoe UI', roboto, oxygen-sans, ubuntu,
+  --ifm-font-family-base: 'Harding', 'RidiBatang', system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif,
+    'Apple SD Gothic Neo', 'Apple Color Emoji', 'Tossface', 'SF Pro', 'Segoe UI', roboto, oxygen-sans, ubuntu,
     cantarell, 'Helvetica Neue', sans-serif !important;
   --ifm-font-family-monospace: 'Goorm Sans Code', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
   --font-family-sans-serif: var(--ifm-font-family-base);
