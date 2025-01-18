@@ -106,15 +106,7 @@ const config: Config = {
       as: 'style',
     },
     {
-      href: `${CDN_BASE}/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable-dynamic-subset.min.css`,
-      type: 'text/css',
-      rel: 'stylesheet',
-      preload: true,
-      as: 'style',
-      crossorigin: 'anonymous',
-    },
-    {
-      href: 'https://statics.goorm.io/fonts/GoormSansCode/v1.0.1/GoormSansCode.min.css',
+      href: 'https://statics.goorm.io/fonts/GoormSansCode/latest/GoormSansCode.min.css',
       type: 'text/css',
       rel: 'stylesheet',
       crossorigin: 'anonymous',
