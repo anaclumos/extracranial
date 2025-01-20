@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "da9e11c0ec580682",
+        "id": "d7b5fab61e4db90c",
         "type": "tabs",
         "children": [
           {
-            "id": "33aa319a14adfcc6",
+            "id": "f861c3ffc9273aef",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,8 +160,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "33aa319a14adfcc6",
+  "active": "f861c3ffc9273aef",
   "lastOpenFiles": [
+    "journals/2025-01-20.md",
+    "pages/useIsClient vs useIsMounted.md",
+    "pages/Cloudflare Pages.md",
+    "pages/Cloudflare Worker.md",
+    "pages/Navigator Copy as Rich Text.md",
+    "pages/Open Graph Image as a Service.md",
+    "pages/Satori.md",
+    "pages/Risk & Responsibility.md",
+    "pages/My UI Framework.md",
+    "pages/Updating Listmonk.md",
+    "pages/Railway.md",
     "journals/2025-01-18.md",
     "pages/SignalKite DB Schema.md",
     "pages/SignalKite.md",
@@ -187,17 +198,6 @@
     "pages/Bershire Hathaway Annual Meeting 2025.md",
     "pages/App Clips.md",
     "journals/2025-01-15.md",
-    "pages/Cloudflare Worker.md",
-    "pages/Frontend Fundamentals.md",
-    "pages/Cloudflare Pages.md",
-    "pages/GitHub Pages에 React 앱 띄우기.md",
-    "pages/Cloudflare.md",
-    "pages/Video to GIF.md",
-    "pages/Strictly Formatted Generative AI.md",
-    "pages/JavaScript heap out of memory.md",
-    "pages/history.push vs history.replace.md",
-    "pages/es-toolkit.md",
-    "journals/2025-01-14.md",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
