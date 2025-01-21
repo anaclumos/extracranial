@@ -13,8 +13,8 @@
   word-wrap: break-word;
   word-break: keep-all;
   color-scheme: dark light;
-  font-feature-settings: 'rlig', 'calt', 'case', 'ccmp', 'dlig', 'frac', 'sups', 'subs', 'ordn', 'salt', 'tnum', 'zero',
-    'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss08', 'ss15';
+  font-feature-settings: 'rlig', 'calt', 'case', 'ccmp', 'dlig', 'frac', 'sups', 'ordn', 'salt', 'tnum', 'zero', 'ss01',
+    'ss02', 'ss03', 'ss05', 'ss06', 'ss08', 'ss15';
 
   --unhovered-transparency: 30%;
   --padding: 1rem;
