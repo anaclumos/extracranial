@@ -12,7 +12,7 @@
   "attachmentFolderPath": "assets",
   "newFileLocation": "folder",
   "newFileFolderPath": "pages",
-  "tabSize": 4,
+  "tabSize": 5,
   "alwaysUpdateLinks": true,
   "readableLineLength": true,
   "pdfExportSettings": {
@@ -23,5 +23,6 @@
     "downscalePercent": 100
   },
   "rightToLeft": false,
-  "vimMode": false
+  "vimMode": false,
+  "mobileQuickRibbonItem": "daily-notes:Open today's daily note"
 }

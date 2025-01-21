@@ -99,13 +99,6 @@ const config: Config = {
       as: 'style',
     },
     {
-      href: `${CDN_BASE}/gh/toss/tossface@latest/dist/tossface.css`,
-      type: 'text/css',
-      rel: 'stylesheet',
-      crossorigin: 'anonymous',
-      as: 'style',
-    },
-    {
       href: 'https://statics.goorm.io/fonts/GoormSansCode/latest/GoormSansCode.min.css',
       type: 'text/css',
       rel: 'stylesheet',

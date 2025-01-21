@@ -16,6 +16,3 @@ Meanwhile, try visiting my [repositories](https://github.com/anaclumos?tab=repos
 
 - [[역사의 집대성]]
 - [[Project Millionaire]]
-- [[Project Ganymede]]
-- [[Prject PIRI]]
-- [[Project DOGO]]?

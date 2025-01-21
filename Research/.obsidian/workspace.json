@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d7b5fab61e4db90c",
+        "id": "68548835776178f5",
         "type": "tabs",
         "children": [
           {
-            "id": "f861c3ffc9273aef",
+            "id": "4b974e80a0cb144a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2025-01-21.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-01-21"
             }
           }
         ]
@@ -160,8 +165,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f861c3ffc9273aef",
+  "active": "4b974e80a0cb144a",
   "lastOpenFiles": [
+    "journals/2024-12-28.md",
+    "journals/2024-12-27.md",
+    "pages/already.dev.md",
+    "journals/2025-01-21.md",
+    "pages/Project.md",
+    "pages/gimme.md",
     "journals/2025-01-20.md",
     "pages/useIsClient vs useIsMounted.md",
     "pages/Cloudflare Pages.md",
@@ -185,8 +196,6 @@
     "assets/6A9632.gif",
     "assets/6DDK8vCkasBE0QHU 2.gif",
     "assets/6DDK8vCkasBE0QHU 1.gif",
-    "pages/ULID.md",
-    "pages/Base32.md",
     "assets/743C98.png",
     "assets/A359CE.png",
     "assets/9E72D2.png",
@@ -194,10 +203,6 @@
     "assets/574079.png",
     "assets/738EF9.png",
     "assets/53A5CE.png",
-    "pages/The Paradoxical Moon Philosophy.md",
-    "pages/Bershire Hathaway Annual Meeting 2025.md",
-    "pages/App Clips.md",
-    "journals/2025-01-15.md",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",

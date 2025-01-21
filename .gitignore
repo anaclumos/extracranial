@@ -7,6 +7,8 @@ i18n/ko/docusaurus-plugin-content-blog/*/*
 i18n/ko/docusaurus-plugin-content-docs/current/pages/*
 *.pyc
 
+Research/.obsidian/themes
+
 # Dependencies
 /node_modules
 
