@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-01-21.md",
-                "mode": "source",
+                "file": "pages/Font Features.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-01-21"
+              "title": "Font Features"
             }
           }
         ]
@@ -167,10 +167,10 @@
   },
   "active": "4b974e80a0cb144a",
   "lastOpenFiles": [
+    "journals/2025-01-21.md",
     "journals/2024-12-28.md",
     "journals/2024-12-27.md",
     "pages/already.dev.md",
-    "journals/2025-01-21.md",
     "pages/Project.md",
     "pages/gimme.md",
     "journals/2025-01-20.md",
