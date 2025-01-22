@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "68548835776178f5",
+        "id": "4680745fe072a2b0",
         "type": "tabs",
         "children": [
           {
-            "id": "4b974e80a0cb144a",
+            "id": "e21ca7d297dd07b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Font Features.md",
+                "file": "pages/The DB Cron Test.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Font Features"
+              "title": "The DB Cron Test"
             }
           }
         ]
@@ -165,8 +165,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4b974e80a0cb144a",
+  "active": "e21ca7d297dd07b5",
   "lastOpenFiles": [
+    "journals/2025-01-22.md",
+    "pages/The DB Cron Test.md",
+    "pages/Font Features.md",
     "journals/2025-01-21.md",
     "journals/2024-12-28.md",
     "journals/2024-12-27.md",
@@ -190,9 +193,6 @@
     "pages/Cross-Platform AirDrops.md",
     "journals/2022-10-13.md",
     "pages/Project Ganymede.md",
-    "journals/2025-01-17.md",
-    "pages/Explode.md",
-    "journals/2025-01-16.md",
     "assets/6A9632.gif",
     "assets/6DDK8vCkasBE0QHU 2.gif",
     "assets/6DDK8vCkasBE0QHU 1.gif",
