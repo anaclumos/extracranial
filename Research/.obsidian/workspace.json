@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4680745fe072a2b0",
+        "id": "f90e8914f1a52567",
         "type": "tabs",
         "children": [
           {
-            "id": "e21ca7d297dd07b5",
+            "id": "efbf5d8583fb17bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Prettier.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Prettier"
-            }
-          },
-          {
-            "id": "d858fad1315d7664",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-01-23.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2025-01-23"
+              "title": "New tab"
             }
           }
         ]
@@ -68,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "airdrop",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 428.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -180,16 +161,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e21ca7d297dd07b5",
+  "active": "efbf5d8583fb17bd",
   "lastOpenFiles": [
+    "pages/KSAT Benchmark.md",
+    "pages/Benchmarking LLMs.md",
+    "journals/2025-01-28.md",
+    "pages/DB Cron Benchmark.md",
+    "pages/DeepL vs Google Translate vs Bing Translate Offering Comparison.md",
+    "pages/Cross-Origin Embedder Policy.md",
+    "pages/CSS Inject.md",
     "journals/2025-01-23.md",
     "journals/2025-01-24.md",
-    "pages/audiobook.ing.md",
+    "pages/Firefox.md",
     "pages/Prettier.md",
+    "pages/audiobook.ing.md",
     "journals/2025-01-20.md",
     "journals/2025-01-21.md",
     "journals/2025-01-22.md",
-    "pages/The DB Cron Test.md",
     "pages/Font Features.md",
     "journals/2024-12-28.md",
     "journals/2024-12-27.md",
@@ -201,13 +189,6 @@
     "pages/Cloudflare Worker.md",
     "pages/Navigator Copy as Rich Text.md",
     "pages/Open Graph Image as a Service.md",
-    "pages/Satori.md",
-    "pages/Risk & Responsibility.md",
-    "pages/My UI Framework.md",
-    "pages/Updating Listmonk.md",
-    "pages/Railway.md",
-    "journals/2025-01-18.md",
-    "pages/SignalKite DB Schema.md",
     "assets/6A9632.gif",
     "assets/6DDK8vCkasBE0QHU 2.gif",
     "assets/6DDK8vCkasBE0QHU 1.gif",

@@ -1,7 +1,7 @@
 ---
-date: 2025-01-22
 lang: 'en'
-slug: '/DE5F33'
+slug: '/6DE184'
 ---
 
 - [[DB Cron Benchmark]]
+- [[KSAT Benchmark]]
