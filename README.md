@@ -26,7 +26,11 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
+<<<<<<< HEAD
 Tue Jan 28 17:43:38 KST 2025
+=======
+Wed Jan 29 15:27:57 KST 2025
+>>>>>>> 5f393e49 (wrote something)
 
 ## Stats
 
@@ -37,17 +41,21 @@ Language                 Files     Lines   Blanks  Comments     Code Complexity
 Markdown                  2805     71601    19155         0    52446          0
 CSS                         57     18822      755        32    18035          0
 TypeScript                  51     20968      173        52    20743        153
+<<<<<<< HEAD
 JSON                        41      2058        0         0     2058          0
+=======
+JSON                        41      2059        0         0     2059          0
+>>>>>>> 5f393e49 (wrote something)
 SVG                          9         9        0         0        9          0
 YAML                         9     15167     2836         0    12331          0
 Python                       7       719       57        32      630         95
 JavaScript                   5     51290     1837      8216    41237       4332
 TypeScript Typings           2        12        0         4        8          0
-Dockerfile                   1        16        5         0       11          1
 INI                          1         1        0         0        1          0
 Plain Text                   1         3        0         0        3          0
 gitignore                    1       289       70        69      150          0
 ───────────────────────────────────────────────────────────────────────────────
+<<<<<<< HEAD
 Total                     2990    180955    24888      8405   147662       4581
 ───────────────────────────────────────────────────────────────────────────────
 Estimated Cost to Develop (organic) $5,120,678
@@ -55,6 +63,15 @@ Estimated Schedule Effort (organic) 25.58 months
 Estimated People Required (organic) 17.78
 ───────────────────────────────────────────────────────────────────────────────
 Processed 11385214 bytes, 11.385 megabytes (SI)
+=======
+Total                     2989    180917    24872      8405   147640       4580
+───────────────────────────────────────────────────────────────────────────────
+Estimated Cost to Develop (organic) $5,119,877
+Estimated Schedule Effort (organic) 25.58 months
+Estimated People Required (organic) 17.78
+───────────────────────────────────────────────────────────────────────────────
+Processed 11382896 bytes, 11.383 megabytes (SI)
+>>>>>>> 5f393e49 (wrote something)
 ───────────────────────────────────────────────────────────────────────────────
 
 ```
