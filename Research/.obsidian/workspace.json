@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f90e8914f1a52567",
+        "id": "12f4788c84574610",
         "type": "tabs",
         "children": [
           {
-            "id": "efbf5d8583fb17bd",
+            "id": "9af750e876e93c65",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,8 +161,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "efbf5d8583fb17bd",
+  "active": "9af750e876e93c65",
   "lastOpenFiles": [
+    "journals/2025-01-30.md",
+    "pages/MLX vs GGUF.md",
     "pages/KSAT Benchmark.md",
     "pages/Benchmarking LLMs.md",
     "journals/2025-01-28.md",
@@ -187,8 +189,6 @@
     "pages/useIsClient vs useIsMounted.md",
     "pages/Cloudflare Pages.md",
     "pages/Cloudflare Worker.md",
-    "pages/Navigator Copy as Rich Text.md",
-    "pages/Open Graph Image as a Service.md",
     "assets/6A9632.gif",
     "assets/6DDK8vCkasBE0QHU 2.gif",
     "assets/6DDK8vCkasBE0QHU 1.gif",
