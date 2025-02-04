@@ -2398,6 +2398,7 @@ export const filenames = {
     "Web Analyzer Tool": "8F0ABA",
     "Web Browser": "6FA776",
     "Web Graphics": "F2DE83",
+    "Web Scheduler": "29ED87",
     "Web Typography": "405982",
     "Web Worker": "E540BB",
     "Web3": "451E1C",
