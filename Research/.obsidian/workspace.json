@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0e02ffde3dae98f7",
+        "id": "51eb5a9062e4bce6",
         "type": "tabs",
         "children": [
           {
-            "id": "bc8e222c10fd8add",
+            "id": "3db43c8545ec48d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-02-04.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-02-04"
-            }
-          },
-          {
-            "id": "5c3c743a7f00b821",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Web Scheduler.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Web Scheduler"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,10 +161,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5c3c743a7f00b821",
+  "active": "3db43c8545ec48d9",
   "lastOpenFiles": [
-    "pages/Web Scheduler.md",
     "journals/2025-02-04.md",
+    "pages/SignalKite DB Schema.md",
+    "pages/Web Scheduler.md",
+    "pages/SignalKite DB Schema..md",
     "pages/Scheduler.md",
     "pages/Useful ChatGPT Prompt.md",
     "pages/Do not Hallucinate.md",
@@ -216,7 +179,6 @@
     "journals/2025-01-30.md",
     "journals/2025-01-31.md",
     "pages/Prisma.md",
-    "pages/SignalKite DB Schema.md",
     "pages/DB Cron Benchmark.md",
     "pages/Benchmarking LLMs.md",
     "journals/2025-01-28.md",
@@ -227,7 +189,6 @@
     "journals/2025-01-23.md",
     "journals/2025-01-24.md",
     "pages/Firefox.md",
-    "pages/Prettier.md",
     "assets/6A9632.gif",
     "assets/6DDK8vCkasBE0QHU 2.gif",
     "assets/6DDK8vCkasBE0QHU 1.gif",
