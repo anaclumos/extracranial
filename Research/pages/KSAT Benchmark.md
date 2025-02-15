@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/C72FA0'
 ---
 
+## 2017.30
+
 Let $t$ be a real number. Define the function $f(x)$ by
 
 $$
@@ -64,3 +66,53 @@ $$
 k - \pi^2 \sum_{i=1}^m g(\alpha_i).
 $$
 ```
+
+The correct answer is 21.
+
+## 1998.29
+
+Suppose the two equations $P(x) = 0$ and $Q(x) = 0$ have $7$ and $9$ distinct real roots, respectively.
+
+Define the set
+
+$$
+
+A = \{(x,y)\mid P(x)Q(y)=0 \text{ and } Q(x)P(y)=0, x,y\in\mathbb{R}\}.
+
+
+$$
+
+This set $A$ is infinite. Consider the subset
+
+$$
+
+B = \{(x,y)\mid (x,y)\in A \text{ and } x = y\}.
+
+
+$$
+
+Let $n(B)$ denote the number of elements of $B$. Note that $n(B)$ depends on the specific choice of $P(x)$ and $Q(x)$.
+
+Determine the maximum possible value of $n(B)$.
+
+```
+Suppose the two equations $P(x) = 0$ and $Q(x) = 0$ have $7$ and $9$ distinct real roots, respectively.
+Define the set
+
+$$
+A = \{(x,y)\mid P(x)Q(y)=0 \text{ and } Q(x)P(y)=0, x,y\in\mathbb{R}\}.
+$$
+
+This set $A$ is infinite. Consider the subset
+
+$$
+B = \{(x,y)\mid (x,y)\in A \text{ and } x = y\}.
+$$
+
+Let $n(B)$ denote the number of elements of $B$. Note that $n(B)$ depends on the specific choice of $P(x)$ and $Q(x)$.
+Determine the maximum possible value of $n(B)$.
+
+
+```
+
+The answer is 15
