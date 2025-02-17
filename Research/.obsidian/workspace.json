@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-02-14.md",
+                "file": "pages/Playings.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-02-14"
+              "title": "Playings"
             }
           }
         ]
@@ -176,10 +176,15 @@
   },
   "active": "f753bc8131e74719",
   "lastOpenFiles": [
+    "assets/F483D2.png",
+    "assets/5A3846.gif",
+    "pages/Labor Illusion.md",
+    "journals/2025-02-17.md",
+    "pages/OneStack.dev.md",
+    "pages/Zero.md",
+    "journals/2025-02-14.md",
     "pages/Centering.md",
     "pages/KSAT Benchmark.md",
-    "journals/2025-02-14.md",
-    "pages/Labor Illusion.md",
     "journals/2025-02-13.md",
     "pages/INCL CLI Setup.md",
     "pages/Untitled.md",
@@ -198,10 +203,6 @@
     "journals/2023-12-03.md",
     "journals/2023-07-24.md",
     "journals/2023-02-08.md",
-    "journals/2022-12-28.md",
-    "pages/kill3000.md",
-    "journals/2025-02-12.md",
-    "pages/every.news.md",
     "assets/FFD03B.gif",
     "assets/FF5AAD.png",
     "assets/FF2C43.jpg",
@@ -211,7 +212,6 @@
     "assets/FEA35E.png",
     "assets/FE53DA.jpg",
     "assets/FE52AF.png",
-    "assets/FE1E2B.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
