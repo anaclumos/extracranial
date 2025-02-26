@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/4A94CB'
 ---
 
-[[Someday]] [[Project]].
+[[Old Someday]] [[Project]].
 
 [[iOS]] App → Uploads [[Health]] Data
 

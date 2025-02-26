@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/724BDE'
 ---
 
-[[Someday]] [[Project]].
+[[Old Someday]] [[Project]].
 
 - [nwtgck/gh-card: GitHub Repository Card for Any Web Site](https://github.com/nwtgck/gh-card)
 - [lepture/github-cards: The unofficial GitHub Cards. Card for your GitHub profile, card for your GitHub repositories.](https://github.com/lepture/github-cards)

@@ -5,6 +5,8 @@ slug: '/5FD5B2'
 
 [[Someday]] [[Project]]. A higher wrapper of the following feature.
 
+[[gimme]]
+
 [chantastic — chan.dev on X: "A rare update to my zsh package manager function https://t.co/mECFnzshIk" / X](https://twitter.com/chantastic/status/1700234017554235460)
 
 ```bash

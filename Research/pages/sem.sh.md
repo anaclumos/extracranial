@@ -5,7 +5,7 @@ slug: '/BB0A88'
 
 ![[3584FF.png]]
 
-[[Someday]] [[Project]]. Open-sourced [Code Time](https://www.software.com/product/code-time) or [WakaTime](https://wakatime.com/). Time Tracking per language, per repository, per editor, etc
+[[Old Someday]] [[Project]]. Open-sourced [Code Time](https://www.software.com/product/code-time) or [WakaTime](https://wakatime.com/). Time Tracking per language, per repository, per editor, etc
 
 - Self-hostable dashboard server
 - Your data, your own (no [[Fiercely Overpriced|paywall]] if self-hosted)

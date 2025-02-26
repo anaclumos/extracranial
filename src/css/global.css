@@ -3,8 +3,9 @@
 @import url('./external-link.css');
 
 * {
-  --ifm-font-family-base: system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, 'Apple SD Gothic Neo',
-    'Apple Color Emoji', 'SF Pro', 'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif !important;
+  --ifm-font-family-base:
+    system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, 'Apple SD Gothic Neo', 'Apple Color Emoji', 'SF Pro',
+    'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif !important;
   --ifm-font-family-monospace: 'Goorm Sans Code', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
   --font-family-sans-serif: var(--ifm-font-family-base);
   --font-family-headline: var(--ifm-font-family-base);
@@ -13,8 +14,9 @@
   word-wrap: break-word;
   word-break: keep-all;
   color-scheme: dark light;
-  font-feature-settings: 'rlig', 'calt', 'case', 'ccmp', 'dlig', 'salt', 'tnum', 'zero', 'ss01', 'ss02', 'ss03', 'ss05',
-    'ss06', 'ss08', 'ss15';
+  font-feature-settings:
+    'rlig', 'calt', 'case', 'ccmp', 'dlig', 'salt', 'tnum', 'zero', 'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss08',
+    'ss15';
 
   --unhovered-transparency: 30%;
   --padding: 1rem;
