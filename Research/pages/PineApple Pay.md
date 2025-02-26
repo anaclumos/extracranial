@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/B2DDAA'
 ---
 
-[[Someday]] [[Project]].
+[[Old Someday]] [[Project]].
 
 As [[Apple]] slowly moves to open up the [[Apple]] Pay restriction, what if someone provides a drop-in replacement for [[Apple]] Pay?
 

@@ -3,4 +3,6 @@ lang: 'en'
 slug: '/E98519'
 ---
 
-[[Someday]] [[Project]] idea
+[[Old Someday]] [[Project]] idea
+
+I did this with [[Lunamu]]

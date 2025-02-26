@@ -5,7 +5,7 @@ slug: '/696FEF'
 
 ## [[Prehistoric]]
 
-- [[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!
+- [[Old Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!
 - There do exist _some_ movie editors, but their encoding options do not come close to [[FFMpeg]].
 - [Media](https://www.blackmagicdesign.com/media/release/20221020-02)
 

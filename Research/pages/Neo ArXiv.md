@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/7A723D'
 ---
 
-[[Someday]] [[Project]].
+[[Oneday]] [[Project]].
 
 The new [[ArXiv]].
 

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/5F5C8D'
 ---
 
-[[Someday]] [[Project]]
+[[Oneday]] [[Project]]
 
 [[성현적 발상]]
 

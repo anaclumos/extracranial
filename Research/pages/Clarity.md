@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/637631'
 ---
 
-[[Someday]] [[Project]].
+[[Old Someday]] [[Project]].
 
 - Connects to Database
 - Metabase-like analytics

@@ -823,6 +823,9 @@ export const backlinks = {
     "2025-02-12": {
         "every.news": "## [[2025-02-12]]"
     },
+    "2025-02-26": {
+        "every.news": "## [[2025-02-26]]"
+    },
     "2022-10-11": {
         "Letter to the Heptabase Team on 2022-10-11": "... to the Heptabase Team on [[2022-10-11]]",
         "Open Graph Image as a Service": "- [[2022-10-11]]"
@@ -1070,7 +1073,7 @@ export const backlinks = {
         "2023-01-09": "... GitHub's subscribe feature as a [[Newsletter]]?",
         "2023-02-28": "- [[Newsletter]]",
         "2024-06-24": "Self-hosted SaaS Alternatives [[Newsletter]] Engine",
-        "Action Required Newsletter Networks": "Someday Project. It's a [[Newsletter]] but you must",
+        "Action Required SaaS": "Someday Project. It's a [[Newsletter]] but you must",
         "Buttondown": "... small, elegant tool for producing [[Newsletter|newsletters]]. The minimalist interface makes it ...",
         "Letter to Mr. Alexander Obenauer on 2022-10-12": "... do not currently have a [[newsletter]]. I was looking for a ...",
         "Listmonk": "... that allows you to send [[Newsletter|newsletters]], promotional [[Mail|emails]], and transactional [[Mail|emails]]. ...",
@@ -1281,6 +1284,9 @@ export const backlinks = {
         "2023-03-10": "- [[Bing Chat for All Browsers in Japan]]",
         "hn.cho.sh 개발 기록": "그리고 [[Bing Chat for All Browsers in Japan]]에서 알듯이 뭔가 [[일본]]에서 이런 프로덕트 ..."
     },
+    "uv (python)": {
+        "2024-07-26": "- [[uv (python)]]"
+    },
     "Refine (Framework)": {
         "Meta Meta Framework": "... Meta Meta Framework: Redwood.js, Keystone.js, [[Refine (Framework)]]"
     },
@@ -1412,6 +1418,9 @@ export const backlinks = {
     "How is WebAssembly cross-platform when Assembly is not": {
         "2022-09-20": "- [[How is WebAssembly cross-platform when Assembly is not]]"
     },
+    "Action Required SaaS": {
+        "2023-02-02": "- [[Action Required SaaS]]"
+    },
     "Interface (Jumpsite)": {
         "Diagram (Company)": "- [[Interface (Jumpsite)]]",
         "Jumpsite": "- [[Interface (Jumpsite)]]"
@@ -1500,7 +1509,7 @@ export const backlinks = {
     "Tossface": {
         "Toss": "... of Toss Product Sans and [[Tossface]]",
         "TossFace Playground": "- [[Tossface|토스페이스]]",
-        "불가사리": "[[Tossface|토스페이스]] 같은 곳에 [[Someday|언젠가]] 들어갔으면"
+        "불가사리": "[[Tossface|토스페이스]] 같은 곳에 [[Oneday|훗날]] 들어갔으면"
     },
     "PECR": {
         "Plausible Analytics": "... compliant with GDPR, CCPA, and [[PECR]]. Made and hosted in the ...",
@@ -1771,7 +1780,7 @@ export const backlinks = {
         "2022-10-27": "... features like the Share to [[Instagram]] feature.",
         "Artifact": "... app from the co-founders of [[Instagram]], Kevin Systrom and Mike Krieger. ...",
         "Can we ever build TikTok for Text": "... Mike Krieger, the co-founders of [[Instagram]], launched a new app called ...",
-        "Cube": "Someday Project. [[Instagram|인스타]] 스토리/포스트 글 업로드용 글쓰기 앱.",
+        "Cube": "Old Someday Project. [[Instagram|인스타]] 스토리/포스트 글 업로드용 글쓰기 앱.",
         "Example References for Alter": "### [[Instagram]]",
         "Goongoom": "... features like the Share to [[Instagram]] feature.",
         "Letter to Mr. Matt Rickard on 2022-11-28": "Facebook and [[Instagram]] have been doing this for ...",
@@ -1885,7 +1894,7 @@ export const backlinks = {
     },
     "Person 648442": {
         "2023-02-15": "- [[Person 648442]]",
-        "One and Only (Social App)": "Someday Project. Ideated during [[Person 648442]]",
+        "One and Only (Social App)": "Old Someday Project. Ideated during [[Person 648442]]",
         "Project PEOPLE": "- [[Person 648442]]"
     },
     "0242 Valid Anagram": {
@@ -1951,9 +1960,6 @@ export const backlinks = {
     "Multiplication Theorem": {
         "2023-01-23": "- [[Multiplication Theorem]]",
         "Probability": "- $P(A1 \\cap A2)$ → [[Multiplication Theorem]]"
-    },
-    "UV": {
-        "2024-07-26": "- [[UV]]"
     },
     "audiobook.ing": {
         "2025-01-23": "[[audiobook.ing]]"
@@ -2316,13 +2322,71 @@ export const backlinks = {
     },
     "Metapage": {
         "Playings": "This is a [[metapage]] for all the media I've ...",
-        "Project": "This is a [[Metapage]] for my projects.",
         "Readings": "This is a [[Metapage|meta-page]] that collects my to-read lists.",
         "Watchings": "This is a [[metapage]] for all the media I've ..."
     },
     "Priority Queue": {
         "2023-02-24": "- [[Priority Queue]]",
         "Project Core ML Foundation": "- Uniform Cost Search: [[Priority Queue]]. [[Dijkstra]] is a variant of ..."
+    },
+    "Old Someday": {
+        "2025-02-26": "- [[Old Someday]]",
+        "Action Button Walkie-Talkie": "[[Old Someday]] [[Project]]",
+        "Apple Earth": "[[Old Someday]] [[Project]]. [[Google]] Earth app but ...",
+        "Automemoji": "[[Old Someday]] [[Project]].",
+        "Autopedia": "[[Old Someday]]",
+        "Autosave Everything": "[[Old Someday]] [[Project]]. A small Mac App ...",
+        "Better Hacker News": "[[Old Someday]] [[Project]]. Improving HN.",
+        "Book Metadata as a Service": "[[Old Someday]] [[Project]]. Open [[API]] that returns ...",
+        "CalliFontia": "[[Old Someday]] [[Project]]. [[Apple]] Pencil Handwriting → ...",
+        "Chopstick Game": "[[Old Someday]] [[Project]]. Digital implementation of the ...",
+        "ChromeOS Packer": "- [[Old Someday]] [[Project]]",
+        "Clarity": "[[Old Someday]] [[Project]].",
+        "Confession in Slack": "[[Old Someday]] [[Project]] idea",
+        "Cube": "[[Old Someday]] [[Project]]. [[Instagram|인스타]] 스토리/포스트 글 업로드용 ...",
+        "Digital Bookmarks for Physical Books": "[[Old Someday]] [[Project]]. Can we bookmark physical ...",
+        "ElonPet": "- [[Old Someday]] [[Project]]. Uses GPT-3 to write ...",
+        "Embeddable GitHub Repo Card But It Looks Great": "[[Old Someday]] [[Project]].",
+        "Fix Your Posture": "[[Old Someday]] [[Project]]. Small [[macOS]] application that ...",
+        "Guestbook": "- [[Old Someday]] [[Project]]",
+        "HN Broadcast": "[[Old Someday]] [[Project]]",
+        "Habit Together": "[[Old Someday]] [[Project]]. A habit-making app, but ...",
+        "HealthKit as an API": "[[Old Someday]] [[Project]].",
+        "Intracranial": "[[Old Someday]] [[Project]]. [[Infinite Canvas]] for Zettlekasten.",
+        "Markdown Email Client": "[[Old Someday]] [[Project]]. You write an [[Mail|email]] ...",
+        "Neo Aldehyde": "[[Old Someday]] [[Project]]",
+        "Not-So-Procrastinating Lazy Loading": "[[Old Someday]] [[Project]]. `img loading=lazy`, but if ...",
+        "Old Fashioned Camera": "[[Old Someday]] [[Project]]. iPhone 4 시절 그 ...",
+        "One and Only (Social App)": "[[Old Someday]] [[Project]]. Ideated during [[Person 648442]]",
+        "One and Only WebExtension": "- [[Old Someday]] [[Project]]",
+        "Open Graph Image as a Service": "[[Old Someday]] [[Project]]. Request Open Graph Images ...",
+        "PineApple Pay": "[[Old Someday]] [[Project]].",
+        "Project FFMpeg for iPad": "- [[Old Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
+        "Project MAGI": "[[Old Someday]] [[Project]]. Use Multiple Artificial Generative ...",
+        "Project Sillok": "- [[Old Someday]] [[Project]].",
+        "Quoridor Game": "[[Old Someday]] [[Project]]. Creating a \"Quoridor\" game ...",
+        "Redactor for iPhone": "[[Old Someday]] [[Project]].",
+        "Referral Share": "[[Old Someday]] [[Project]]. Referral Sharing Website for ...",
+        "Satori Widgets": "[[Old Someday]] [[Project]]",
+        "Send Separately": "[[Old Someday]] [[Project]]. \"Send Separately\" for [[iMessage]].",
+        "Show me your Laptop": "[[Old Someday]] [[Project]]. And embeddable [[SVG]] card ...",
+        "Someday": "Outdated one goes to [[Old Someday]]",
+        "Sticker Party": "[[Old Someday]] [[Project]] GitHub README에 박을 수 ...",
+        "Synonym-based Fuzzy Search": "[[Old Someday]] [[Project]]. Fuzzy Search + Synonym ...",
+        "TextGPT": "[[Old Someday]] [[Project]]",
+        "Timebelt": "[[Old Someday]] [[Project]]. Timezone conversion with Absolute ...",
+        "Use Your Mac as your Bluetooth Speaker": "[[Old Someday]] [[Project]]",
+        "aaaa.coffee": "[[Old Someday]] [[Project]]. \"Buy me a coffee\" ...",
+        "already.dev": "[[Old Someday]] [[Project]]",
+        "latexify.cho.sh": "[[Old Someday]] [[Project]]. Drop an image to ...",
+        "linkflags.crx": "Packing Linkflags as Chrome Extensions [[Old Someday]] [[Project]]",
+        "postcredit.info": "[[Old Someday]] [[Project]]. 영화 쿠키 있나요?",
+        "sem.sh": "[[Old Someday]] [[Project]]. Open-sourced Code Time or ...",
+        "사발통문": "[[Old Someday]] [[Project]]",
+        "사회과부도": "[[Old Someday]] [[Project]]. 마음대로 변형을 가할 수 ...",
+        "어둠의 앱스토어": "[[Old Someday]] [[Project]]",
+        "조선왕조실록": "[[Old Someday|옛날 언젠가]] [[Project|프로젝트]].",
+        "프로젝트 주령구": "[[Old Someday|옛날 언젠가]] [[Project|프로젝트]]."
     },
     "How does File Alias work": {
         "2022-10-21": "- [[How does File Alias work]]",
@@ -2331,6 +2395,9 @@ export const backlinks = {
     "ULLO": {
         "2022-08-04": "... Intermediary Proof of Concept|PoC Product: [[ULLO]]",
         "CELLO": "- [[ULLO]]"
+    },
+    "Lunamu": {
+        "Confession in Slack": "I did this with [[Lunamu]]"
     },
     "Extracranial": {
         "2022-05-27": "- [[Extracranial]]",
@@ -2799,7 +2866,7 @@ export const backlinks = {
         "Automation": "... a schedule, or on demand. [[API]] calls are easy with authentication ...",
         "Backdrop Build Week 1 Update": "- OpenAI [[API]]",
         "Beeper": "... problem - they built an [[API]] enabling 'bridges' between Matrix Network|Matrix ...",
-        "Book Metadata as a Service": "Someday Project. Open [[API]] that returns Book [[Metadata]] when ...",
+        "Book Metadata as a Service": "Old Someday Project. Open [[API]] that returns Book [[Metadata]] when ...",
         "Brane": "- Intercept Geolocation [[API]] and present a custom permission ...",
         "Canvas (HTML5)": "... offers its own 2D drawing [[API]], it also supports the WebGL ...",
         "Cartography": "1. Logistics: The Matrix [[API]] enables automatic calculation of travel ...",
@@ -3390,7 +3457,7 @@ export const backlinks = {
         "2023-12-13": "- [[SVG]]",
         "CSS": "... (including XML dialects such as [[SVG]], MathML, or XHTML). CSS is ...",
         "Open Graph Image as a Service": "... convert HTML and CSS to [[SVG]]",
-        "Show me your Laptop": "Someday Project. And embeddable [[SVG]] card that lets you add ...",
+        "Show me your Laptop": "Old Someday Project. And embeddable [[SVG]] card that lets you add ...",
         "Stories Behind Satori": "- [[SVG]]-based solutions were the perfect balance ..."
     },
     "Interaction Effect": {
@@ -3771,7 +3838,6 @@ export const backlinks = {
     "역사의 집대성": {
         "2023-01-12": "- [[역사의 집대성]]",
         "2023-09-05": "- [[역사의 집대성]]",
-        "Project": "- [[역사의 집대성]]",
         "Time-Space Continuum (19誠鉉)": "[[역사의 집대성]] 프로젝트 참고.",
         "재학생일기": "2023-01-12에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 ...",
         "카카오스토리 완전백업": "[[역사의 집대성]]"
@@ -3800,6 +3866,9 @@ export const backlinks = {
     },
     "Cashflow (Service)": {
         "2024-01-03": "- [[Cashflow (Service)]]"
+    },
+    "Geekbench": {
+        "2025-02-24": "- [[Geekbench]]"
     },
     "OpenAI": {
         "2023-02-08": "... have partnered with cloud providers: [[OpenAI]] ([[Microsoft]]) and Anthropic ([[Google]]). These ...",
@@ -4099,7 +4168,7 @@ export const backlinks = {
     "Infinite Canvas": {
         "2022-07-26": "- Given this, simonbs/InfiniteCanvas: [[Infinite canvas]] using PencilKit, it seems relatively ...",
         "2022-10-10": "- [[Infinite Canvas]]",
-        "Intracranial": "Someday Project. [[Infinite Canvas]] for Zettlekasten.",
+        "Intracranial": "Old Someday Project. [[Infinite Canvas]] for Zettlekasten.",
         "Mymind.com": "[[Infinite Canvas]] [[Visual-based Tools for Thought]]",
         "Rauno": "- Clipboard goes into [[Infinite Canvas]]",
         "Spacial Cognition": "- Key reason of [[Infinite Canvas]]. Gives spacial understanding & relevancy",
@@ -4140,7 +4209,7 @@ export const backlinks = {
         "Apple Silicon": "- Chips made by [[Apple]]",
         "Broken Feedback Loop": "However, [[Apple]] Feedback Assistant is not a ...",
         "Brunch violates SF terms of use": "... 한민족|Korean writing service Brunch violates [[Apple]]'s Terms of Use by using ...",
-        "CalliFontia": "Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
+        "CalliFontia": "Old Someday Project. [[Apple]] Pencil Handwriting → [[Font]].",
         "Dilemmas of Technopreneur": "... but it never would've become [[Apple]] if it weren't for Steve ...",
         "Dynamic Island": "... and other app-specific functionality that [[Apple]] calls Live Activities. These icons ...",
         "Final Cut Pro": "Final Cut Pro by [[Apple]] Inc. is a professional [[Video ...",
@@ -4690,6 +4759,9 @@ export const backlinks = {
         "한자": "Hanja (한자, 漢字) is the [[한국어|Korean]] word for Chinese characters. Hanja ...",
         "헤이그 특사": "... 일본인 거주지에만 설치되었다. 교육기관의 설치는 [[한국어]]를 근절시키고 [[일본어]]를 대신 가르치려는 것이며, ..."
     },
+    "Compress Voice Transcripts": {
+        "2025-02-24": "- [[Compress Voice Transcripts]]"
+    },
     "Personal Training Corpus": {
         "2022-10-12": "- [[Personal Training Corpus]]",
         "2022-11-15": "- [[Personal Training Corpus]]. [I record myself on audio ...",
@@ -5237,49 +5309,49 @@ export const backlinks = {
         "2024-06-12": "- [[Project]]",
         "AIs.txt": "- [[Project]]",
         "AMP": "... by the AMP Open Source [[Project]]. [[Google]] created it as a ...",
-        "Action Button Walkie-Talkie": "Someday [[Project]]",
-        "Action Required Newsletter Networks": "Someday [[Project]]. It's a [[Newsletter]] but you ...",
+        "Action Button Walkie-Talkie": "Old Someday [[Project]]",
+        "Action Required SaaS": "Someday [[Project]]. It's a [[Newsletter]] but you ...",
         "Aldehyde": "알데하이드는 아직 인문행정적 [[Project|프로젝트]] 운영에 약하다.",
         "Aldehyde SaaS": "Someday [[Project]]. It's this [[Aldehyde]].",
-        "Apple Earth": "Someday [[Project]]. [[Google]] Earth app but with ...",
+        "Apple Earth": "Old Someday [[Project]]. [[Google]] Earth app but with ...",
         "Architectural Decision Records": "... created and maintained in a [[project]] constitute its decision log. All ...",
-        "Automemoji": "Someday [[Project]].",
-        "Autosave Everything": "Someday [[Project]]. A small Mac App that ...",
+        "Automemoji": "Old Someday [[Project]].",
+        "Autosave Everything": "Old Someday [[Project]]. A small Mac App that ...",
         "Battle of Flow and Asana": "... that scratched their own itch ([[project]] management,) and charge a monthly ...",
         "Better Aldehyde": "- [[Project]]",
-        "Better Hacker News": "Someday [[Project]]. Improving HN.",
-        "Book Metadata as a Service": "Someday [[Project]]. Open [[API]] that returns Book ...",
+        "Better Hacker News": "Old Someday [[Project]]. Improving HN.",
+        "Book Metadata as a Service": "Old Someday [[Project]]. Open [[API]] that returns Book ...",
         "Born of this Land - The Founding Story of Hyundai": "... example, when bidding for a [[project]] in the Middle East, he ...",
         "Brane": "Brane is an experimental [[project]] that aims to build a ...",
         "CELLO": "- [[Project]]",
-        "CalliFontia": "Someday [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
+        "CalliFontia": "Old Someday [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
         "Cartography": "... can be difficult, as each [[project]] has its trade-offs.",
         "Cashflow (Service)": "Someday [[Project]]. Link all of your SaaS ...",
-        "Chopstick Game": "Someday [[Project]]. Digital implementation of the chopstick ...",
-        "ChromeOS Packer": "- Someday [[Project]]",
-        "Clarity": "Someday [[Project]].",
+        "Chopstick Game": "Old Someday [[Project]]. Digital implementation of the chopstick ...",
+        "ChromeOS Packer": "- Old Someday [[Project]]",
+        "Clarity": "Old Someday [[Project]].",
         "Coding Tests": "- [[Project]]",
-        "Confession in Slack": "Someday [[Project]] idea",
-        "Cube": "Someday [[Project]]. [[Instagram|인스타]] 스토리/포스트 글 업로드용 글쓰기 ...",
+        "Confession in Slack": "Old Someday [[Project]] idea",
+        "Cube": "Old Someday [[Project]]. [[Instagram|인스타]] 스토리/포스트 글 업로드용 글쓰기 ...",
         "Daniele Romanini et al. PyVertical": "... been launched as an open-source [[project]] to help further research in ...",
         "Data Preservation": "... of Copies Keep Stuff Safe\") [[project]], under the auspices of Stanford ...",
         "Developing Review Notes for Obsidian": "... 공허한 느낌이 들어 미뤄왔던 사이드 [[Project|프로젝트]]를 해본다.",
-        "Digital Bookmarks for Physical Books": "Someday [[Project]]. Can we bookmark physical books ...",
+        "Digital Bookmarks for Physical Books": "Old Someday [[Project]]. Can we bookmark physical books ...",
         "Dynamic Island on the Web": "- Done [[Project]]",
-        "ElonPet": "- Someday [[Project]]. Uses GPT-3 to write good ...",
-        "Embeddable GitHub Repo Card But It Looks Great": "Someday [[Project]].",
+        "ElonPet": "- Old Someday [[Project]]. Uses GPT-3 to write good ...",
+        "Embeddable GitHub Repo Card But It Looks Great": "Old Someday [[Project]].",
         "Eventually, Diligent Immatures build the Future": "... the potential success of a [[project]] or goal, which can cause ...",
         "FFMpeg": "... is a free, open-source software [[project]] comprising a suite of libraries ...",
-        "Fix Your Posture": "Someday [[Project]]. Small [[macOS]] application that reminds ...",
+        "Fix Your Posture": "Old Someday [[Project]]. Small [[macOS]] application that reminds ...",
         "Generative Intelligence": "- [[Project]] scaffolding",
         "Generative Open Graph": "Someday [[Project]]. [[Open Graph Image as a ...",
         "GitHub": "... integration, and wikis for every [[project]]. Headquartered in California, it has ...",
         "Goongoom": "- Side startup [[project]] that never made it to ...",
-        "Guestbook": "- Someday [[Project]]",
-        "HN Broadcast": "Someday [[Project]]",
-        "Habit Together": "Someday [[Project]]. An habit making app but ...",
-        "HealthKit as an API": "Someday [[Project]].",
-        "Intracranial": "Someday [[Project]]. [[Infinite Canvas]] for Zettlekasten.",
+        "Guestbook": "- Old Someday [[Project]]",
+        "HN Broadcast": "Old Someday [[Project]]",
+        "Habit Together": "Old Someday [[Project]]. A habit-making app, but you ...",
+        "HealthKit as an API": "Old Someday [[Project]].",
+        "Intracranial": "Old Someday [[Project]]. [[Infinite Canvas]] for Zettlekasten.",
         "Jira": "... allows bug tracking and agile [[project]] management. Jira (software)>)",
         "Jog 25 minutes (Jan-Feb 23誠鉉)": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
         "Jog 25 minutes (Jan-Feb 24誠鉉)": "水適穿石|물방울로 바위 뚫는 [[Project|프로젝트]]",
@@ -5289,73 +5361,72 @@ export const backlinks = {
         "Kubernetes": "... Computing Foundation now maintains the [[project]].",
         "Linux": "... are provided by the GNU [[Project]]. Many Linux distributions use the ...",
         "LocLog": "Someday [[Project]].",
-        "Markdown Email Client": "Someday [[Project]]. You write an [[Mail|email]] in ...",
-        "Neo Aldehyde": "Someday [[Project]]",
-        "Neo ArXiv": "Someday [[Project]].",
-        "Not-So-Procrastinating Lazy Loading": "Someday [[Project]]. `img loading=lazy`, but if the ...",
+        "Markdown Email Client": "Old Someday [[Project]]. You write an [[Mail|email]] in ...",
+        "Neo Aldehyde": "Old Someday [[Project]]",
+        "Neo ArXiv": "Oneday [[Project]].",
+        "Not-So-Procrastinating Lazy Loading": "Old Someday [[Project]]. `img loading=lazy`, but if the ...",
         "Notion": "> Notion is a [[project]] management and note-taking software platform ...",
-        "Old Fashioned Camera": "Someday [[Project]]. iPhone 4 시절 그 구진 ...",
-        "One and Only (Social App)": "Someday [[Project]]. Ideated during [[Person 648442]]",
-        "One and Only WebExtension": "- Someday [[Project]]",
-        "Open Graph Image as a Service": "Someday [[Project]]. Request Open Graph Images with ...",
+        "Old Fashioned Camera": "Old Someday [[Project]]. iPhone 4 시절 그 구진 ...",
+        "One and Only (Social App)": "Old Someday [[Project]]. Ideated during [[Person 648442]]",
+        "One and Only WebExtension": "- Old Someday [[Project]]",
+        "Open Graph Image as a Service": "Old Someday [[Project]]. Request Open Graph Images with ...",
         "PDF": "... its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John ...",
         "PKM": "... needs are different from a [[project]] base.",
         "Person 1B5A5B": "- Junior = [[Project]] Executors.",
-        "PineApple Pay": "Someday [[Project]].",
-        "Power Nap Pill": "Someday [[Project]].",
-        "Problem": "Leads to a Someday [[Project]].",
-        "Programmable Vaccines": "Someday [[Project]]",
-        "Project FFMpeg for iPad": "- Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
+        "PineApple Pay": "Old Someday [[Project]].",
+        "Power Nap Pill": "Oneday [[Project]].",
+        "Programmable Vaccines": "Oneday [[Project]]",
+        "Project FFMpeg for iPad": "- Old Someday [[Project]]. [[FFMpeg]] equivalent for iPads!",
         "Project Florence": "- [[Project]] Florence is a research [[project]] ...",
         "Project Ganymede": "- Therefore, we name it [[Project]] Ganymede. You can NEVER win ...",
         "Project Heimdall": "... conventional Docusaurus with Listmonk. Consider [[Project]] [[Done]].",
         "Project Horcrux": "[[Project]] Horcrux aims to dismantle the ...",
         "Project Linguine": "[[Project]] Linguine is an initiative to ...",
-        "Project MAGI": "Someday [[Project]]. Use Multiple Artificial Generative Intelligence ...",
+        "Project MAGI": "Old Someday [[Project]]. Use Multiple Artificial Generative Intelligence ...",
         "Project PEOPLE": "- [[Project]]",
         "Project PIRI Initial Proposal": "Potential [[Project]] of [[University of Southern California|USC]] ...",
         "Project Prepare for Grammarly": "[[Project]] to prepare for my [[Grammarly ...",
-        "Project Sillok": "- Someday [[Project]].",
+        "Project Sillok": "- Old Someday [[Project]].",
         "Proposal of Research 2023-01-10": "... found several layers for the [[project]].",
-        "Quoridor Game": "Someday [[Project]]. Creating a \"Quoridor\" game and ...",
-        "Redactor for iPhone": "Someday [[Project]].",
-        "Referral Share": "Someday [[Project]]. Referral Sharing Website for [[Checkmark|Verified]] ...",
+        "Quoridor Game": "Old Someday [[Project]]. Creating a \"Quoridor\" game and ...",
+        "Redactor for iPhone": "Old Someday [[Project]].",
+        "Referral Share": "Old Someday [[Project]]. Referral Sharing Website for [[Checkmark|Verified]] ...",
         "Repeated Designs": "> Weekend side [[project]]. A gallery of the best ...",
-        "Research Paper NPM System": "Someday [[Project]]. It's an [[npm]] system for ...",
+        "Research Paper NPM System": "Oneday [[Project]]. It's an [[npm]] system for ...",
         "Robert Oppenheimer and Jiro Horikoshi": "... scientific team of the Manhattan [[Project]], which developed the first atomic ...",
-        "Satori Widgets": "Someday [[Project]]",
-        "Send Separately": "Someday [[Project]]. \"Send Separately\" for [[iMessage]].",
-        "Show me your Laptop": "Someday [[Project]]. And embeddable [[SVG]] card that ...",
+        "Satori Widgets": "Old Someday [[Project]]",
+        "Send Separately": "Old Someday [[Project]]. \"Send Separately\" for [[iMessage]].",
+        "Show me your Laptop": "Old Someday [[Project]]. And embeddable [[SVG]] card that ...",
         "Slack Watcher App to Confluence": "Oneday [[Project]]",
         "Snowpack으로 WASM 시작하기": "... 다음 문장을 통해 `create-snowpack-app`으로 gif-converter라는 [[Project|프로젝트]]를 생성한다.",
-        "Sticker Party": "Someday [[Project]] GitHub README에 박을 수 있음. ...",
+        "Sticker Party": "Old Someday [[Project]] GitHub README에 박을 수 있음. ...",
         "Stories Behind Satori": "... already done by an open-source [[project]] facebook/yoga.",
-        "Synonym-based Fuzzy Search": "Someday [[Project]]. Fuzzy Search + Synonym Search ...",
+        "Synonym-based Fuzzy Search": "Old Someday [[Project]]. Fuzzy Search + Synonym Search ...",
         "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
         "Tech Now Pay Later": "... Database|DB to use for your [[project]] and/or if it scales – ...",
-        "TextGPT": "Someday [[Project]]",
-        "Timebelt": "Someday [[Project]]. Timezone conversion with Absolute [[URI]].",
-        "Titanium Calculator": "Someday [[Project]]. TI84의 기능을 최대한 모방해 최대한 ...",
+        "TextGPT": "Old Someday [[Project]]",
+        "Timebelt": "Old Someday [[Project]]. Timezone conversion with Absolute [[URI]].",
+        "Titanium Calculator": "Oneday [[Project]]. TI84의 기능을 최대한 모방해 최대한 ...",
         "Tools Must Vanish": "... the launching-off point of a [[project]]—is drowned in an ocean of ...",
         "Toss Product Sans": "... 2020년 여름 산돌과 함께 서체 [[Project|프로젝트]]를 시작",
         "TossFace Playground": "- [[Project]] [[Done]]",
-        "Use Your Mac as your Bluetooth Speaker": "Someday [[Project]]",
+        "Use Your Mac as your Bluetooth Speaker": "Old Someday [[Project]]",
         "Vannevar Bush": "... early administration of the Manhattan [[Project]]. He emphasized the importance of ...",
-        "Very Good Photo Backup Service": "Someday [[Project]].",
+        "Very Good Photo Backup Service": "Oneday [[Project]].",
         "Wikiversity": "... Wikiversity is a Wikimedia Foundation [[project]] devoted to learning resources, learning ...",
         "Zenly Playbook": "... efficiency from a 3-year research [[project]] for a child safety app ...",
-        "aaaa.coffee": "Someday [[Project]]. \"Buy me a coffee\" but ...",
-        "already.dev": "Someday [[Project]]",
+        "aaaa.coffee": "Old Someday [[Project]]. \"Buy me a coffee\" but ...",
+        "already.dev": "Old Someday [[Project]]",
         "elevatorpitch.com": "Someday [[Project]]. Simple Demo website Creator to ...",
         "gimme": "Someday [[Project]]",
         "http 없는 http 서버 만들기": "우아한테크캠프 2일차 [[Project|프로젝트]] 중 http 모듈 (당연히 `express` ...",
-        "iiframe": "Someday [[Project]]. Improved `iframe` that containerizes an ...",
-        "latexify.cho.sh": "Someday [[Project]]. Drop an image to convert ...",
-        "linkflags.crx": "... Linkflags as Chrome Extensions Someday [[Project]]",
-        "postcredit.info": "Someday [[Project]]. 영화 쿠키 있나요?",
-        "sem.sh": "Someday [[Project]]. Open-sourced Code Time or WakaTime. ...",
+        "iiframe": "Oneday [[Project]]. Improved `iframe` that containerizes an ...",
+        "latexify.cho.sh": "Old Someday [[Project]]. Drop an image to convert ...",
+        "linkflags.crx": "... as Chrome Extensions Old Someday [[Project]]",
+        "postcredit.info": "Old Someday [[Project]]. 영화 쿠키 있나요?",
+        "sem.sh": "Old Someday [[Project]]. Open-sourced Code Time or WakaTime. ...",
         "supernpm": "Someday [[Project]]. A higher wrapper of the ...",
-        "네오상평통보": "... 현대적 상품권 혹은 기념주화로 재발행하는 [[Project|프로젝트]]를 [[Someday|언젠가]]하면 좋겠다고 생각했다.",
+        "네오상평통보": "... 현대적 상품권 혹은 기념주화로 재발행하는 [[Project|프로젝트]]를 [[Oneday|훗날]]하면 좋겠다고 생각했다.",
         "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "... 온갖 어려움을 무릅쓰고 반드시 성취해야하는 [[Project|프로젝트]]이다.",
         "두 번째 뇌": "나는 더 간단하게 [[Project|프로젝트]], 연구, 그리고 독서록으로 분리했다.",
         "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": "[[Project|사이드 프로젝트]]에 있어서 가장 귀중한 자원은 시간도 ...",
@@ -5363,16 +5434,16 @@ export const backlinks = {
         "미래는 결국 미성숙한 우리가 만들어낸다": "... 자원을 과소평가하는 경향을 말한다. 사람들이 [[Project|프로젝트]]를 제시간에 또는 예산 범위 내에서 ...",
         "민사고": "... 여름학기 아두이노 → 3학년 졸업 [[Project|프로젝트]])을 따라가며 기본기를 쌓았고 앞서 언급한 ...",
         "배달의민족 FE 개발자가 일하는 법 Q&A": "... testing|e2e 테스트는 중요하다. 복잡도가 올라간 [[Project|프로젝트]]가 너무 많기에, QA (Quality Assurance, ...",
-        "사발통문": "Someday [[Project]]",
-        "사회과부도": "Someday [[Project]]. 마음대로 변형을 가할 수 있는 ...",
+        "사발통문": "Old Someday [[Project]]",
+        "사회과부도": "Old Someday [[Project]]. 마음대로 변형을 가할 수 있는 ...",
         "서울 프로": "2021년에 진행하다 중단한 [[Project|프로젝트]]이다.",
         "심리역사학": "... 이루어갈 수 있도록 준비한다. 셀던 [[Project|계획]]의 핵심 개념은 심리역사학인데, 전 인류의 ...",
-        "어둠의 앱스토어": "Someday [[Project]]",
+        "어둠의 앱스토어": "Old Someday [[Project]]",
         "역사의 집대성": "... 하나의 기록소 안에 모두 집대성하는 [[Project|프로젝트]]이다.",
-        "조선왕조실록": "Someday|언젠가 [[Project|프로젝트]].",
+        "조선왕조실록": "Old Someday|옛날 언젠가 [[Project|프로젝트]].",
         "코드클럽": "... 세계에서 인증한 만국 공통 코드클럽 [[Project|프로젝트]] 커리큘럼으로 활동",
         "프로젝트 어덕행덕": "- 텐션이 많이 떨어지고 있다. [[Project|프로젝트]]가 점점 장기화되어가며 활력을 잃어간다. 너무 ...",
-        "프로젝트 주령구": "Someday|언젠가 [[Project|프로젝트]].",
+        "프로젝트 주령구": "Old Someday|옛날 언젠가 [[Project|프로젝트]].",
         "하늘땅사람": "... 할 수 있도록 키보드를 제작하는 [[Project|프로젝트]]. [[Done]].",
         "하늘땅사람 개발 기록": "활자 [[Project|프로젝트]]에 대해 이성광 님께서 \"NFD로 문자열 ...",
         "한국통사": "... 있게 분투하는 기개가 없어 모든 [[Project|사업]]이 위축되고, 산을 옮길 [[Project|계획]]을 감행하지 ..."
@@ -5468,7 +5539,7 @@ export const backlinks = {
         "OpenAI enthroned as the Levis of Tech": "... made an enormous demand for [[cloud computing]] services like AWS. [[OpenAI]] just ...",
         "OpenAI가 새로운 테크 리바이스로 등극하다": "... 것처럼, 디지털 혁신은 AWS와 같은 [[Cloud Computing|클라우드]] 컴퓨팅 서비스에 대한 엄청난 수요를 ...",
         "Qiang Yang et al. Federated Machine Learning Concept and Applications": "Aggregate data, use [[cloud computing]] to compute models, then use ...",
-        "WebNPU API를 상상하다": "Someday|언젠가 AI 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 되면, 특히 웹 ..."
+        "WebNPU API를 상상하다": "Oneday|훗날 AI 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 되면, 특히 웹 ..."
     },
     "당근미니 케이스 스터디": {
         "2023-06-20": "- [[당근미니 케이스 스터디]]"
@@ -5599,7 +5670,8 @@ export const backlinks = {
         "Virtual Memory": "- [[Cache and Virtual Memory]]"
     },
     "Show me your Laptop": {
-        "2023-07-25": "- [[Show me your Laptop]]"
+        "2023-07-25": "- [[Show me your Laptop]]",
+        "Sticker Party": "[[Show me your Laptop]]"
     },
     "Spirits do not Inherit": {
         "2023-02-25": "- [[Spirits do not Inherit]]",
@@ -5968,7 +6040,7 @@ export const backlinks = {
         "WebExtension": "... Web Browser|web browsers, such as [[Chrome|Google Chrome]], Mozilla [[Firefox]], and Microsoft Edge, ...",
         "YCLF 주간 사용자 1000명": "## 1. [[Chrome|크롬]] [[WebExtension|익스텐션]] 스토어의 집계",
         "hn.cho.sh 개발 기록": "Headless [[Chrome]]을 사용하도록 GitHub Actions를 개편했다.",
-        "linkflags.crx": "Packing Linkflags as [[Chrome]] Extensions [[Someday]] [[Project]]"
+        "linkflags.crx": "Packing Linkflags as [[Chrome]] Extensions [[Old Someday]] [[Project]]"
     },
     "Bayes Theorem": {
         "2023-01-23": "- [[Bayes Theorem]]",
@@ -6069,9 +6141,6 @@ export const backlinks = {
         "2023-02-12": "- [[혜성처럼 나타난 본디]]",
         "30-Day Tweet Test (Harry Stebbings)": "... Rise of Bondee <br/> 🇰🇷 [[혜성처럼 나타난 본디]]      ...",
         "본디는 사실 혜성이 아니다": "어제 [[혜성처럼 나타난 본디]] 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 ..."
-    },
-    "Cline Prompts": {
-        "2025-02-10": "[[Cline Prompts]]"
     },
     "Statistics": {
         "2023-03-07": "- [[Statistics]]",
@@ -6871,7 +6940,7 @@ export const backlinks = {
     "Linkflags": {
         "2022-12-07": "- [[Linkflags]]",
         "2022-12-12": "- Submitted [[Linkflags]] to [[Browser Company Hackathon]]",
-        "linkflags.crx": "Packing [[Linkflags]] as [[Chrome]] Extensions [[Someday]] [[Project]]"
+        "linkflags.crx": "Packing [[Linkflags]] as [[Chrome]] Extensions [[Old Someday]] ..."
     },
     "Multiplexing": {
         "Internetworking": "- [[Multiplexing]]"
@@ -7554,7 +7623,8 @@ export const backlinks = {
         "2022-12-16": "- [[Diagram Labs]]"
     },
     "gimme": {
-        "2025-01-21": "- [[gimme]]"
+        "2025-01-21": "- [[gimme]]",
+        "supernpm": "[[gimme]]"
     },
     "Discuss on Social Media Button": {
         "2023-02-21": "- [[Discuss on Social Media Button]]"
@@ -7568,7 +7638,7 @@ export const backlinks = {
         "Disable Screenshot Drop Shadow in macOS": "[[macOS]]",
         "Figma": "... enabled by desktop applications for [[macOS]] and Windows. The feature set ...",
         "Final Cut Pro": "... content creators. Only available for [[macOS]].",
-        "Fix Your Posture": "Someday Project. Small [[macOS]] application that reminds you to ...",
+        "Fix Your Posture": "Old Someday Project. Small [[macOS]] application that reminds you to ...",
         "Locking your Mac with Command+L": "... computer by pressing ⌘Command+L from [[macOS]] Mojave.",
         "Mac을 Command+L로 잠그는 방법": "... Win`+`L`처럼 직관적이고 빠르지 못했다. 하지만 [[macOS]] Mojave부터 Mac에서도 동일하게 `⌘ Command`+`L`을 ...",
         "Mapping keys to set different input languages on macOS": "... notorious 자소 분리 bug in [[macOS]] [[한국어|Korean]] Keyboard.",
@@ -7778,7 +7848,6 @@ export const backlinks = {
     "Shortcuts": {
         "2022-07-05": "... Text Message|messages in iOS with [[Shortcuts]] and [[Automation]].",
         "2022-11-19": "  - [[Shortcuts]]",
-        "Autosave Everything": "... autosave intervals or setting different [[shortcuts]] for each app.",
         "ChatGPT": "... voice assistant built entirely with [[Shortcuts]]",
         "Chrome": "... your most frequently visited places, [[shortcuts]] to your favorite places, and ...",
         "Locking your Mac with Command+L": "2. Go to Keyboard → [[Shortcuts]] → App Shortcuts and press ...",
@@ -7904,9 +7973,6 @@ export const backlinks = {
     "Grammarly Experimentations Team": {
         "Grammarly Work Note 2023-05-30": "Today [[Grammarly Experimentations Team]] discussed [[Strategy|strategies]] to reduce cost ...",
         "Project Prepare for Grammarly": "Project to prepare for my [[Grammarly Experimentations Team]] team employment."
-    },
-    "INCL CLI Setup": {
-        "2025-02-13": "- [[INCL CLI Setup]]"
     },
     "자아는 발굴되는 것이다": {
         "2023-03-08": "- [[자아는 발굴되는 것이다]]",
@@ -8102,6 +8168,9 @@ export const backlinks = {
         "Products Evolves Barely Enough to Solve Inconveniences": "... The Market Economy denies product [[overfitting]].",
         "Project Core ML Foundation": "... of dimensionality & Prone to [[overfitting]]"
     },
+    "Valet Parking": {
+        "2025-02-18": "- [[Valet Parking]]"
+    },
     "Native Language": {
         "2022-06-28": "... gap between thinking in the [[native language]]?",
         "Foreign Language": "[[Native Language]]",
@@ -8260,7 +8329,8 @@ export const backlinks = {
     "Neo ArXiv": {
         "2023-08-18": "- [[Neo ArXiv]]",
         "2023-08-22": "- [[Neo ArXiv]]",
-        "Research Paper Hub": "[[Neo ArXiv]]"
+        "Research Paper Hub": "[[Neo ArXiv]]",
+        "Research Paper NPM System": "... Visual and Interactive Demos. Transmorphing. [[Neo ArXiv]]"
     },
     "Cosmic noises of life": {
         "2022-10-12": "- [[Cosmic noises of life]]"
@@ -8515,6 +8585,10 @@ export const backlinks = {
         "2022-07-11": "... guest app should look as [[Preemptive Multitasking]] as if blocking APIs blocks ...",
         "Cooperative Multitasking": "... Cooperative multitasking, also known as non-[[preemptive multitasking]], is a style of computer ..."
     },
+    "INCL": {
+        "2025-02-13": "- [[INCL]]",
+        "2025-02-26": "- [[INCL]]"
+    },
     "Tax": {
         "401k": "... you're 59. This money is [[tax]]-free today, but you pay [[Tax|taxes]] ...",
         "Black-Scholes Model": "... are no transaction costs or [[Tax|taxes]].",
@@ -8591,7 +8665,6 @@ export const backlinks = {
         "2022-07-18": "- [[Fiercely Overpriced]] for [[Open Graph Image as ...",
         "2023-04-18": "- [[Fiercely Overpriced|Paywall]]",
         "2023-05-18": "- [[Fiercely Overpriced]]",
-        "Autosave Everything": "How would it be [[Fiercely Overpriced]]?",
         "CELLO (Product)": "## How would it be [[Fiercely Overpriced]]?",
         "CalliFontia": "## [[Fiercely Overpriced]]",
         "Captivating Products": "... Supergravity Products and making them [[Fiercely Overpriced]] are two ways of measuring ...",
@@ -8641,7 +8714,7 @@ export const backlinks = {
         "Adding a Verified Mark on Apple Mail and Gmail": "- [[Lesser Known Trick]]",
         "Cookies that Outlive Login Sessions": "[[Lesser Known Trick]].",
         "GitHub Admonition": "[[Lesser Known Trick]]",
-        "Hacking SEOs": "[[Lesser Known Trick]] [[Someday]]",
+        "Hacking SEOs": "[[Lesser Known Trick]] [[Oneday]]",
         "Ignoring $ for copy-pasting online resources to terminal": "[[Lesser Known Trick]].",
         "Menu Bar Spacing": "[[Lesser Known Trick]]",
         "Menu Hover Effects": "- Cool UI and UX [[Lesser Known Trick]].",
@@ -8755,7 +8828,7 @@ export const backlinks = {
     },
     "Decoy Effect": {
         "2022-11-08": "- [[Decoy Effect]]",
-        "Action Required Newsletter Networks": "... to generate money, it's for [[decoy effect]] — to encourage networking effects)"
+        "Action Required SaaS": "... to generate money, it's for [[decoy effect]] — to encourage networking effects)"
     },
     "Link Coefficient": {
         "2023-02-16": "- [[Link Coefficient]]"
@@ -8773,6 +8846,7 @@ export const backlinks = {
         "2022-07-12": "- [[Better Aldehyde]]",
         "2022-10-16": "### [[Better Aldehyde]]",
         "Aldehyde": "- [[Better Aldehyde]]",
+        "Aldehyde SaaS": "[[Better Aldehyde]]",
         "Neo Aldehyde": "[[Better Aldehyde]]",
         "Project Sillok": "- [[Better Aldehyde]]",
         "블록 기반 링킹": "[[Better Aldehyde]]"
@@ -8852,7 +8926,7 @@ export const backlinks = {
         "Letter to the Heptabase Team on 2022-10-11": "- [[Mail|Letter]] to the [[Heptabase]] Team on ...",
         "Listmonk": "... is a free and open-source [[Mail|email]] marketing tool that allows you ...",
         "MAGI": "- LLaMA. [[Mail|이메일]] 전송 요청",
-        "Markdown Email Client": "Someday Project. You write an [[Mail|email]] in [[Markdown]]. Before sending, select ...",
+        "Markdown Email Client": "... Someday Project. You write an [[Mail|email]] in [[Markdown]]. Before sending, select ...",
         "Matrix Network": "... as Slack, IRC, or even [[Mail|email]], through bridges. This means users ...",
         "Naver": "... from basic features such as [[Mail|e-mail]] and news to the world's ...",
         "Neo ArXiv": "... It's like managing PRs by [[Mail|email]]. Remember Linus used to do ...",
@@ -9119,7 +9193,8 @@ export const backlinks = {
     },
     "Neo Aldehyde": {
         "2024-03-05": "- [[Neo Aldehyde]]",
-        "2024-04-14": "- [[Neo Aldehyde|Superextracranial]]"
+        "2024-04-14": "- [[Neo Aldehyde|Superextracranial]]",
+        "Aldehyde SaaS": "[[Neo Aldehyde]]"
     },
     "Pull Request": {
         "2022-09-13": "... by anaclumos #1 · junhoyeo/vercel-submodules [[Pull Request]]",
@@ -9188,6 +9263,11 @@ export const backlinks = {
     },
     "Automattic의 Beeper 인수": {
         "2024-04-09": "- [[Automattic의 Beeper 인수]]"
+    },
+    "Vibe Coding Prompts": {
+        "2025-02-10": "[[Vibe Coding Prompts]]",
+        "2025-02-18": "- [[Vibe Coding Prompts]]",
+        "Valet Parking": "- [[Vibe Coding Prompts]]"
     },
     "Heptabase": {
         "Alan Chan": "- CEO of [[Heptabase]]",
@@ -9311,16 +9391,26 @@ export const backlinks = {
     "Shopify Analyzes CSS Frameworks": {
         "Tailwind": "- [[Shopify Analyzes CSS Frameworks]]"
     },
-    "Action Required Newsletter Networks": {
-        "2023-02-02": "- [[Action Required Newsletter Networks]]"
-    },
     "Oneday": {
         "2022-08-04": "- [[Oneday]]",
         "2022-10-10": "- [[Oneday]]. Found tremor.",
         "2024-03-04": "- [[Oneday]]",
         "2024-03-11": "- [[Oneday]]",
+        "Hacking SEOs": "Lesser Known Trick [[Oneday]]",
         "Harding (Font)": "[[oneday]]",
-        "Slack Watcher App to Confluence": "[[Oneday]] [[Project]]"
+        "Neo ArXiv": "[[Oneday]] [[Project]].",
+        "Power Nap Pill": "[[Oneday]] [[Project]].",
+        "Programmable Vaccines": "[[Oneday]] [[Project]]",
+        "Research Paper NPM System": "[[Oneday]] [[Project]]. It's an [[npm]] system ...",
+        "Slack Watcher App to Confluence": "[[Oneday]] [[Project]]",
+        "Titanium Calculator": "[[Oneday]] [[Project]]. TI84의 기능을 최대한 모방해 ...",
+        "Very Good Photo Backup Service": "[[Oneday]] [[Project]].",
+        "WebNPU API를 상상하다": "[[Oneday|훗날]] [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 ...",
+        "iiframe": "[[Oneday]] [[Project]]. Improved `iframe` that containerizes ...",
+        "기술 발전의 속도": "... 나는 Photoshop for Text를 상상하며 [[Oneday|훗날]] 미래에 도래할 텍스트 [[AI|인공지능]]의 미래를 ...",
+        "네오상평통보": "... 상품권 혹은 기념주화로 재발행하는 Project|프로젝트를 [[Oneday|훗날]]하면 좋겠다고 생각했다.",
+        "불가사리": "Tossface|토스페이스 같은 곳에 [[Oneday|훗날]] 들어갔으면",
+        "원하는 곳만 전자레인지": "[[Oneday]]"
     },
     "Substack is the new Medium": {
         "2022-10-24": "- [[Substack is the new Medium]]"
@@ -9509,8 +9599,7 @@ export const backlinks = {
         "2024-07-10": "- [[체스터턴의 울타리]]"
     },
     "Project Millionaire": {
-        "2024-06-12": "- [[Project Millionaire]]",
-        "Project": "- [[Project Millionaire]]"
+        "2024-06-12": "- [[Project Millionaire]]"
     },
     "My Raycast Wrapped of 2022": {
         "2022-12-17": "- [[My Raycast Wrapped of 2022]]",
@@ -10024,7 +10113,8 @@ export const backlinks = {
         "WWDC23": "- [[CoreMotion API]] → higher fidelity data"
     },
     "Extracranial.com": {
-        "2024-12-05": "- [[Extracranial.com]]"
+        "2024-12-05": "- [[Extracranial.com]]",
+        "Project Sillok": "- [[Extracranial.com]]"
     },
     "Benchmarking LLMs": {
         "2025-01-28": "- [[Benchmarking LLMs]]"
@@ -10180,7 +10270,7 @@ export const backlinks = {
         "AI replaces expensive jobs first": "... search for similar topics like \"[[Google]] Search.\" For example, if a ...",
         "AI는 고가 노동부터 점령한다": "... Database|데이터베이스화하는 사건량을 늘린 뒤, 법률가들이 \"[[Google|구글]] 검색\"처럼 유사 사례들을 검색할 수 ...",
         "AMP": "... the AMP Open Source Project. [[Google]] created it as a competitor ...",
-        "Apple Earth": "Someday Project. [[Google]] Earth app but with Smoo-ooth ...",
+        "Apple Earth": "Old Someday Project. [[Google]] Earth app but with Smoo-ooth ...",
         "Boring Technologies": "... and you aren't at, like, [[Google]]-tier scale, throw it all in ...",
         "Brave Browser": "... the same technology used by [[Google]] for [[Chrome]] and [[Microsoft]] for ...",
         "Chrome": "... a web browser developed by [[Google]]. It was first released in ...",
@@ -10383,7 +10473,7 @@ export const backlinks = {
         "2022-11-21": "- [[FFMpeg]]",
         "2022-11-28": "- [[FFMpeg]]. FFmpeg - Ultimate Guide",
         "Jetski": "- [[ffmpeg]] optimization for sharing",
-        "Project FFMpeg for iPad": "- Someday Project. [[FFMpeg]] equivalent for iPads!",
+        "Project FFMpeg for iPad": "- Old Someday Project. [[FFMpeg]] equivalent for iPads!",
         "Project PIRI Initial Proposal": "... executables online. Notably, in 2019, [[FFMpeg]], a comprehensive, cross-platform solution for ...",
         "프로젝트 어덕행덕": "  - 애초에 [[FFMpeg]]도 그렇게 Reliable하게 전천후 돌아가지 않고 ..."
     },
@@ -10589,6 +10679,9 @@ export const backlinks = {
     "금동대융합로": {
         "2024-05-01": "[[금동대융합로]]"
     },
+    "nogitsync": {
+        "2025-02-24": "- [[nogitsync]]"
+    },
     "Ignoring $ for copy-pasting online resources to terminal": {
         "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
     },
@@ -10603,7 +10696,7 @@ export const backlinks = {
         "Beeper": "... (Service). A better approach with [[iMessage]], given that it logs into ...",
         "Project Ganymede": "... It is possible to limit [[iMessage]] forwarding for [[iMessage App|iMessage Extensions]]",
         "RCS": "... Message|SMS and is similar to [[iMessage]], WhatsApp, and [[Facebook Messenger]]. RCS ...",
-        "Send Separately": "Someday Project. \"Send Separately\" for [[iMessage]].",
+        "Send Separately": "... Someday Project. \"Send Separately\" for [[iMessage]].",
         "Universal Chat App": "... chat app. Younger generations use [[iMessage]], while elderlies use WhatsApp. Or ...",
         "iMessage App": "An [[iMessage]] App is a type of ..."
     },
@@ -10882,7 +10975,7 @@ export const backlinks = {
         "Generative Intelligence": "- [[Photoshop for Text]]",
         "Letter to Mr. Stephan Ango on 2022-10-19": "... came across your article on [[Photoshop for Text]] and was deeply inspired by ...",
         "Project Core ML Foundation": "- [[Photoshop for Text]]",
-        "기술 발전의 속도": "당시에도 나는 [[Photoshop for Text]]를 상상하며 [[Someday|언젠가]] 미래에 도래할 텍스트 ..."
+        "기술 발전의 속도": "당시에도 나는 [[Photoshop for Text]]를 상상하며 [[Oneday|훗날]] 미래에 도래할 텍스트 ..."
     },
     "Nuclear Fission": {
         "2022-10-18": "- [[Nuclear Fission]]",
@@ -10965,7 +11058,7 @@ export const backlinks = {
         "2022-07-06": "... bundler, transpiler, task runner and [[npm]] client built-in",
         "2023-05-29": "- [[NPM]]",
         "PNPM": "... aims to improve aspects of [[npm]] and [[Yarn]]. It was designed ...",
-        "Research Paper NPM System": "Someday Project. It's an [[npm]] system for [[Researcher|Researchers]]. Citations are ...",
+        "Research Paper NPM System": "Oneday Project. It's an [[npm]] system for [[Researcher|Researchers]]. Citations are ...",
         "Yarn": "... efficient and reliable alternative to [[npm]]. It was released in 2016, ..."
     },
     "Malthusian Trap": {
@@ -11165,84 +11258,18 @@ export const backlinks = {
         "30-Day Tweet Test (Harry Stebbings)": "... that Disarmed Bomb <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]]      ..."
     },
     "Someday": {
-        "Action Button Walkie-Talkie": "[[Someday]] [[Project]]",
-        "Action Required Newsletter Networks": "[[Someday]] [[Project]]. It's a [[Newsletter]] but ...",
+        "2025-02-26": "- [[Someday]]",
+        "Action Required SaaS": "[[Someday]] [[Project]]. It's a [[Newsletter]] but ...",
         "Aldehyde SaaS": "[[Someday]] [[Project]]. It's this [[Aldehyde]].",
-        "Apple Earth": "[[Someday]] [[Project]]. [[Google]] Earth app but ...",
-        "Automemoji": "[[Someday]] [[Project]].",
-        "Autopedia": "[[Someday]]",
-        "Autosave Everything": "[[Someday]] [[Project]]. A small Mac App ...",
-        "Better Hacker News": "[[Someday]] [[Project]]. Improving HN.",
-        "Book Metadata as a Service": "[[Someday]] [[Project]]. Open [[API]] that returns ...",
-        "CalliFontia": "[[Someday]] [[Project]]. [[Apple]] Pencil Handwriting → ...",
         "Cashflow (Service)": "[[Someday]] [[Project]]. Link all of your ...",
-        "Chopstick Game": "[[Someday]] [[Project]]. Digital implementation of the ...",
-        "ChromeOS Packer": "- [[Someday]] [[Project]]",
-        "Clarity": "[[Someday]] [[Project]].",
-        "Confession in Slack": "[[Someday]] [[Project]] idea",
-        "Cube": "[[Someday]] [[Project]]. [[Instagram|인스타]] 스토리/포스트 글 업로드용 ...",
-        "Digital Bookmarks for Physical Books": "[[Someday]] [[Project]]. Can we bookmark physical ...",
-        "ElonPet": "- [[Someday]] [[Project]]. Uses GPT-3 to write ...",
-        "Embeddable GitHub Repo Card But It Looks Great": "[[Someday]] [[Project]].",
-        "Fix Your Posture": "[[Someday]] [[Project]]. Small [[macOS]] application that ...",
         "Generative Open Graph": "[[Someday]] [[Project]]. [[Open Graph Image as ...",
-        "Guestbook": "- [[Someday]] [[Project]]",
-        "HN Broadcast": "[[Someday]] [[Project]]",
-        "Habit Together": "[[Someday]] [[Project]]. An habit making app ...",
-        "Hacking SEOs": "Lesser Known Trick [[Someday]]",
-        "HealthKit as an API": "[[Someday]] [[Project]].",
-        "Intracranial": "[[Someday]] [[Project]]. [[Infinite Canvas]] for Zettlekasten.",
         "LocLog": "[[Someday]] [[Project]].",
-        "Markdown Email Client": "[[Someday]] [[Project]]. You write an [[Mail|email]] ...",
-        "Neo Aldehyde": "[[Someday]] [[Project]]",
-        "Neo ArXiv": "[[Someday]] [[Project]].",
-        "Not-So-Procrastinating Lazy Loading": "[[Someday]] [[Project]]. `img loading=lazy`, but if ...",
-        "Old Fashioned Camera": "[[Someday]] [[Project]]. iPhone 4 시절 그 ...",
-        "One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
-        "One and Only WebExtension": "- [[Someday]] [[Project]]",
-        "Open Graph Image as a Service": "[[Someday]] [[Project]]. Request Open Graph Images ...",
-        "PineApple Pay": "[[Someday]] [[Project]].",
-        "Power Nap Pill": "[[Someday]] [[Project]].",
-        "Problem": "Leads to a [[Someday]] [[Project]].",
-        "Programmable Vaccines": "[[Someday]] [[Project]]",
-        "Project FFMpeg for iPad": "- [[Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
-        "Project MAGI": "[[Someday]] [[Project]]. Use Multiple Artificial Generative ...",
-        "Project Sillok": "- [[Someday]] [[Project]].",
-        "Quoridor Game": "[[Someday]] [[Project]]. Creating a \"Quoridor\" game ...",
-        "Redactor for iPhone": "[[Someday]] [[Project]].",
-        "Referral Share": "[[Someday]] [[Project]]. Referral Sharing Website for ...",
-        "Research Paper NPM System": "[[Someday]] [[Project]]. It's an [[npm]] system ...",
-        "Satori Widgets": "[[Someday]] [[Project]]",
-        "Send Separately": "[[Someday]] [[Project]]. \"Send Separately\" for [[iMessage]].",
-        "Show me your Laptop": "[[Someday]] [[Project]]. And embeddable [[SVG]] card ...",
-        "Sticker Party": "[[Someday]] [[Project]] GitHub README에 박을 수 ...",
-        "Synonym-based Fuzzy Search": "[[Someday]] [[Project]]. Fuzzy Search + Synonym ...",
-        "TextGPT": "[[Someday]] [[Project]]",
-        "Timebelt": "[[Someday]] [[Project]]. Timezone conversion with Absolute ...",
-        "Titanium Calculator": "[[Someday]] [[Project]]. TI84의 기능을 최대한 모방해 ...",
-        "Use Your Mac as your Bluetooth Speaker": "[[Someday]] [[Project]]",
-        "Very Good Photo Backup Service": "[[Someday]] [[Project]].",
-        "WebNPU API를 상상하다": "[[Someday|언젠가]] [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 ...",
-        "aaaa.coffee": "[[Someday]] [[Project]]. \"Buy me a coffee\" ...",
-        "already.dev": "[[Someday]] [[Project]]",
+        "Old Someday": "... were planned and marked as [[Someday]] but no longer relevant today ...",
         "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo website Creator ...",
         "gimme": "[[Someday]] [[Project]]",
-        "iiframe": "[[Someday]] [[Project]]. Improved `iframe` that containerizes ...",
-        "latexify.cho.sh": "[[Someday]] [[Project]]. Drop an image to ...",
-        "linkflags.crx": "Packing Linkflags as Chrome Extensions [[Someday]] [[Project]]",
-        "postcredit.info": "[[Someday]] [[Project]]. 영화 쿠키 있나요?",
-        "sem.sh": "[[Someday]] [[Project]]. Open-sourced Code Time or ...",
-        "supernpm": "[[Someday]] [[Project]]. A higher wrapper of ...",
-        "기술 발전의 속도": "... 나는 Photoshop for Text를 상상하며 [[Someday|언젠가]] 미래에 도래할 텍스트 [[AI|인공지능]]의 미래를 ...",
-        "네오상평통보": "... 상품권 혹은 기념주화로 재발행하는 Project|프로젝트를 [[Someday|언젠가]]하면 좋겠다고 생각했다.",
-        "도메인 찾아 삼만리": "... 길지만 더 전통적이고 무난했다. 또한 [[Someday|언젠가]] 'cho.sh'으로 웹사이트를 개설하기를 희망하면서 웹 ...",
-        "불가사리": "Tossface|토스페이스 같은 곳에 [[Someday|언젠가]] 들어갔으면",
-        "사발통문": "[[Someday]] [[Project]]",
-        "사회과부도": "[[Someday]] [[Project]]. 마음대로 변형을 가할 수 ...",
-        "어둠의 앱스토어": "[[Someday]] [[Project]]",
-        "원하는 곳만 전자레인지": "[[Someday]]",
-        "조선왕조실록": "[[Someday|언젠가]] [[Project|프로젝트]].",
-        "프로젝트 주령구": "[[Someday|언젠가]] [[Project|프로젝트]]."
+        "nogitsync": "[[Someday]]",
+        "shell.ai": "[[Someday]]",
+        "supernpm": "[[Someday]] [[Project]]. A higher wrapper of ..."
     },
     "Feature": {
         "2023-09-30": "The best [[feature]] of [[macOS]] Sonoma is the ...",
@@ -11817,7 +11844,8 @@ export const backlinks = {
     },
     "every.news": {
         "2025-02-12": "[[every.news]]",
-        "2025-02-13": "- [[every.news]]"
+        "2025-02-13": "- [[every.news]]",
+        "HN Broadcast": "[[every.news]]"
     },
     "Apache": {
         "Apache Kafka": "[[Apache]] Kafka is an open-source distributed ...",
@@ -12111,12 +12139,15 @@ export const backlinks = {
         "2024-06-25": "- [[Python Tooling]]",
         "2024-07-12": "- [[Python Tooling]]",
         "2024-07-29": "- [[Python Tooling]]",
-        "UV": "[[Python Tooling]]"
+        "uv (python)": "[[Python Tooling]]"
     },
     "Unified Korea": {
         "Born of this Land - The Founding Story of Hyundai": "... to create an advanced and [[Unified Korea]]. No matter what, he was ...",
         "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 상황을 심각하게 인식하고 있으며 장기적으로 [[Unified Korea|통일]]에 대한 희망 또한 아직까지는 품고 ...",
         "이 땅에 태어나서": "... 될 수 있다고 본다. 특히 [[Unified Korea|통일]]이 되면 [[한민족]]은 6-7천만 명의 다부지고 ..."
+    },
+    "shell.ai": {
+        "2025-02-26": "... should've been a shell script...\" [[shell.ai]]?"
     },
     "Adaptive Keyboard": {
         "2023-03-10": "- [[Adaptive Keyboard]]"
@@ -12596,7 +12627,7 @@ export const backlinks = {
         "Tome": "It's like Text-based Presentations, but [[AI]] will draw & layout stuff ...",
         "Towards Ambient Computing": "... was released. This camera uses [[AI|artificial intelligence]] to determine when a moment ...",
         "Unsemantic": "... we must create an unsemantic [[AI]] (i.e., rigorous.)",
-        "WebNPU API를 상상하다": "Someday|언젠가 [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 ...",
+        "WebNPU API를 상상하다": "Oneday|훗날 [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 ...",
         "hn.cho.sh 개발 기록": "해커뉴스를 읽고 있다가 이걸 [[AI]]에게 요약해보고 있었다.",
         "기술 발전의 속도": "... target=\"blank\" rel=\"noopener noreferrer\">링크</a> 2022년 여름의 [[AI|인공지능]] 업계를 대표적으로 나타내는 글이다",
         "슈퍼자판기": "... 환경을 실시간으로 촬영. 이러한 카메라는 [[AI]] 기반 행동 분석 시스템과 통합되어 ...",

@@ -1,6 +1,12 @@
 ---
 lang: 'en'
 slug: '/1F2C2C'
+aliases: ['훗날']
+---
+
+1. Ideas that are not technically feasible
+2. Some dev tools I want to try out
+
 ---
 
 - [novuhq/novu](https://github.com/novuhq/novu): 🔥 The open-source notification infrastructure with fully functional embedded notification center 🚀🚀🚀

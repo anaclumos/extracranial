@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/43A06F'
 ---
 
-[[Someday]] [[Project]]. Ideated during [[Person 648442]]
+[[Old Someday]] [[Project]]. Ideated during [[Person 648442]]
 
 Like [[Texts (Service)]], it pulls from all the sources and posts to all the sources—LinkedIn, Twitter, [[Instagram|Insta]], [[Facebook]], etc. It's similar to [[Jumpsite]], but not the same; you never need to escape the website.
 

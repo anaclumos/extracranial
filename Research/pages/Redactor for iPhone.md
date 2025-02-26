@@ -3,5 +3,5 @@ lang: 'en'
 slug: '/D1BA84'
 ---
 
-[[Someday]] [[Project]].
+[[Old Someday]] [[Project]].
 iPhone markup cannot redact information.

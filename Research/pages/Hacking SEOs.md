@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/3E8AD8'
 ---
 
-[[Lesser Known Trick]] [[Someday]]
+[[Lesser Known Trick]] [[Oneday]]
 
 <blockquote class="twitter-tweet">
 

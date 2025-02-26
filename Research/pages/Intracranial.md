@@ -5,7 +5,7 @@ slug: '/009C77'
 
 ## Definition
 
-[[Someday]] [[Project]]. [[Infinite Canvas]] for Zettlekasten.
+[[Old Someday]] [[Project]]. [[Infinite Canvas]] for Zettlekasten.
 
 - [[FIRE Engine]]
 - Aim to implement Zettlekasten

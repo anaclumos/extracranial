@@ -13,13 +13,19 @@ UV is a `venv` wrapper.
 uv venv
 ```
 
-2. Install dependencies
+2. Activate with
+
+```
+source .venv/bin/activate
+```
+
+3. Install dependencies
 
 ```
 uv pip install .
 ```
 
-3. For deactivating, run
+4. For deactivating, run
 
 ```
 pyenv deactivate
