@@ -6,7 +6,7 @@ aliases: ['Superextracranial']
 
 What would the future of [[Aldehyde]] look like?
 
-[[Someday]] [[Project]]
+[[Old Someday]] [[Project]]
 
 [[Better Aldehyde]]
 

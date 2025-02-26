@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/B7BEDA'
 ---
 
-[[Someday]] [[Project]]. Improving HN.
+[[Old Someday]] [[Project]]. Improving HN.
 
 ## [[Hacker News]] need some improvements
 

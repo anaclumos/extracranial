@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d7db71b02bf585fb",
+        "id": "d7f19e42651b850f",
         "type": "tabs",
         "children": [
           {
-            "id": "f753bc8131e74719",
+            "id": "0a697b5d87bd722a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Playings.md",
+                "file": "pages/uv (python).md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Playings"
+              "title": "uv (python)"
             }
           }
         ]
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "예전 언젠가",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.50260543823242
+    "width": 250.50260543823242
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -152,9 +152,19 @@
               "icon": "links-coming-in",
               "title": "Backlinks"
             }
+          },
+          {
+            "id": "07d9b9680ed9a588",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -174,35 +184,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f753bc8131e74719",
+  "active": "0a697b5d87bd722a",
   "lastOpenFiles": [
+    "pages/every.news.md",
+    "journals/2025-02-26.md",
+    "pages/Old Someday.md",
+    "pages/Sticker Party.md",
+    "pages/Confession in Slack.md",
+    "pages/INCL.md",
+    "pages/Project.md",
+    "pages/Someday.md",
+    "pages/Habit Together.md",
+    "pages/nogitsync.md",
+    "pages/already.dev.md",
+    "pages/Fix Your Posture.md",
+    "pages/iiframe.md",
+    "pages/Generative Open Graph.md",
+    "pages/Embeddable GitHub Repo Card But It Looks Great.md",
+    "pages/latexify.cho.sh.md",
+    "pages/Hacking SEOs.md",
+    "pages/Cube.md",
+    "pages/elevatorpitch.com.md",
+    "pages/Lunamu.md",
+    "pages/LocLog.md",
+    "pages/Project Sillok.md",
+    "pages/Aldehyde SaaS.md",
+    "pages/One and Only WebExtension.md",
+    "pages/One and Only (Social App).md",
+    "pages/Problem.md",
     "assets/F483D2.png",
     "assets/5A3846.gif",
-    "pages/Labor Illusion.md",
-    "journals/2025-02-17.md",
-    "pages/OneStack.dev.md",
-    "pages/Zero.md",
-    "journals/2025-02-14.md",
-    "pages/Centering.md",
-    "pages/KSAT Benchmark.md",
-    "journals/2025-02-13.md",
-    "pages/INCL CLI Setup.md",
-    "pages/Untitled.md",
-    "pages/Project Heimdall.md",
-    "pages/Project Heimdall Table Structure.md",
-    "pages/Reddit-Apollo Mayhem.md",
-    "pages/SignalKite DB Schema.md",
-    "pages/Simple Analytics War Room.md",
-    "pages/PNG.md",
-    "pages/Nuclear Fission.md",
-    "pages/Hacker News.md",
-    "pages/DB Cron Benchmark.md",
-    "pages/AMP.md",
-    "journals/2025-01-22.md",
-    "journals/2024-07-28.md",
-    "journals/2023-12-03.md",
-    "journals/2023-07-24.md",
-    "journals/2023-02-08.md",
     "assets/FFD03B.gif",
     "assets/FF5AAD.png",
     "assets/FF2C43.jpg",
@@ -211,7 +222,6 @@
     "assets/FEDD94.png",
     "assets/FEA35E.png",
     "assets/FE53DA.jpg",
-    "assets/FE52AF.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",

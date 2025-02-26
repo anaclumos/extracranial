@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/67A464'
 ---
 
-[[Someday]] [[Project]].
+[[Oneday]] [[Project]].
 
 Very Good Photo Backup Service
 
