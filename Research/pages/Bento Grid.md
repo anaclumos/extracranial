@@ -98,3 +98,10 @@ These 10 stunning websites to inspire your design:
 ![[AEC6B7.png]]
 ![[F313C0.png]]
 ![[DF8990.png]]
+
+
+
+https://x.com/felixleezd/status/1726621742158995579?ref_src=twsrc%5Etfw&mx=2
+
+https://www.joshlee.io/
+
