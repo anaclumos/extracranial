@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d7f19e42651b850f",
+        "id": "971270f3f8b51c90",
         "type": "tabs",
         "children": [
           {
-            "id": "0a697b5d87bd722a",
+            "id": "372f37da55c07ed9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/uv (python).md",
+                "file": "pages/Inspiring Open Source Projects.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uv (python)"
+              "title": "Inspiring Open Source Projects"
             }
           }
         ]
@@ -184,10 +184,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a697b5d87bd722a",
+  "active": "372f37da55c07ed9",
   "lastOpenFiles": [
-    "pages/every.news.md",
+    "pages/Open Source vs Source Available.md",
+    "pages/Inspiring Open Source Projects.md",
+    "pages/Menu Bar Spacing.md",
+    "pages/Bento Grid.md",
     "journals/2025-02-26.md",
+    "pages/Agentic Fleet.md",
+    "pages/Linux.md",
+    "pages/uv (python).md",
+    "pages/every.news.md",
     "pages/Old Someday.md",
     "pages/Sticker Party.md",
     "pages/Confession in Slack.md",
@@ -205,13 +212,6 @@
     "pages/Hacking SEOs.md",
     "pages/Cube.md",
     "pages/elevatorpitch.com.md",
-    "pages/Lunamu.md",
-    "pages/LocLog.md",
-    "pages/Project Sillok.md",
-    "pages/Aldehyde SaaS.md",
-    "pages/One and Only WebExtension.md",
-    "pages/One and Only (Social App).md",
-    "pages/Problem.md",
     "assets/F483D2.png",
     "assets/5A3846.gif",
     "assets/FFD03B.gif",

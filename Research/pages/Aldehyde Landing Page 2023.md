@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/75B627'
 ---
 
-- [[Apple-like Block Interface]]
+- [[Bento Grid]]
 - Glowing Card Effect
 - Mouse Interactions
 - [[날씨 요정]]
