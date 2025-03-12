@@ -1,9 +1,11 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/C60376'
 ---
 
 - [activepieces/activepieces: Your friendliest open source AI automation tool ✨ Workflow automation tool 200+ integration / Enterprise automation tool / Zapier Alternative](https://github.com/activepieces/activepieces)
+- [julep-ai/julep: Serverless AI Workflows for Data & ML Teams](https://github.com/julep-ai/julep)
+- [mastra-ai/mastra: The TypeScript AI agent framework. ⚡ Assistants, RAG, observability. Supports any LLM: GPT-4, Claude, Gemini, Llama.](https://github.com/mastra-ai/mastra)
 - [n8n-io/n8n: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.](https://github.com/n8n-io/n8n)
 - [huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by!](https://github.com/huginn/huginn)
 - [appsmithorg/appsmith: Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.](https://github.com/appsmithorg/appsmith)

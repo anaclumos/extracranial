@@ -24,7 +24,6 @@
     "@docusaurus/theme-mermaid": "^3.7.0",
     "@giscus/react": "^3.1.0",
     "@vercel/analytics": "^1.4.1",
-    "@vercel/speed-insights": "^1.1.0",
     "clsx": "^2.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -36,9 +35,9 @@
     "@docusaurus/module-type-aliases": "^3.7.0",
     "@docusaurus/tsconfig": "^3.7.0",
     "@docusaurus/types": "^3.7.0",
-    "@types/node": "^22.10.7",
-    "prettier": "^3.4.1",
-    "stylelint": "^16.13.2",
+    "@types/node": "^22.13.10",
+    "prettier": "^3.5.3",
+    "stylelint": "^16.15.0",
     "stylelint-config-standard": "^37.0.0"
   },
   "license": "MIT",
@@ -69,5 +68,13 @@
     "esbuild",
     "workerd"
   ],
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "@vercel/speed-insights",
+      "core-js",
+      "core-js-pure"
+    ]
+  }
 }

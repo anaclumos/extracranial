@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "971270f3f8b51c90",
+        "id": "ff74dbfa9c445a65",
         "type": "tabs",
         "children": [
           {
-            "id": "372f37da55c07ed9",
+            "id": "4a330f537f49512a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Inspiring Open Source Projects.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Inspiring Open Source Projects"
+              "title": "New tab"
             }
           }
         ]
@@ -50,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "예전 언젠가",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,34 +170,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "372f37da55c07ed9",
+  "active": "4a330f537f49512a",
   "lastOpenFiles": [
-    "pages/Open Source vs Source Available.md",
-    "pages/Inspiring Open Source Projects.md",
-    "pages/Menu Bar Spacing.md",
-    "pages/Bento Grid.md",
-    "journals/2025-02-26.md",
-    "pages/Agentic Fleet.md",
-    "pages/Linux.md",
-    "pages/uv (python).md",
-    "pages/every.news.md",
-    "pages/Old Someday.md",
-    "pages/Sticker Party.md",
-    "pages/Confession in Slack.md",
+    "pages/Agentic Fleets.md",
     "pages/INCL.md",
-    "pages/Project.md",
-    "pages/Someday.md",
-    "pages/Habit Together.md",
-    "pages/nogitsync.md",
-    "pages/already.dev.md",
-    "pages/Fix Your Posture.md",
-    "pages/iiframe.md",
-    "pages/Generative Open Graph.md",
-    "pages/Embeddable GitHub Repo Card But It Looks Great.md",
-    "pages/latexify.cho.sh.md",
-    "pages/Hacking SEOs.md",
-    "pages/Cube.md",
-    "pages/elevatorpitch.com.md",
+    "journals/2025-03-06.md",
+    "journals/2025-03-11.md",
+    "journals/2025-03-07.md",
+    "journals/2025-03-10.md",
+    "pages/Below.md",
+    "pages/Untitled 2.md",
+    "assets/3CDD1D.gif",
+    "pages/CSS Inject.md",
+    "pages/uv (python).md",
+    "journals/2024-07-26.md",
+    "pages/Internationalization.md",
+    "pages/i18n.md",
+    "journals/2025-02-26.md",
+    "pages/Person 88B488.md",
+    "journals/2022-09-06.md",
+    "pages/Sentry.md",
+    "pages/빚 무서우면 장사를 어떻게 하지.md",
+    "pages/AWS CLI Do not page.md",
+    "pages/JavaScript heap out of memory.md",
+    "journals/2025-02-27.md",
+    "journals/2025-03-04.md",
+    "pages/msix.md",
+    "pages/every.news.md",
+    "pages/SignalKite DB Schema.md",
+    "pages/Menu Bar Spacing.md",
     "assets/F483D2.png",
     "assets/5A3846.gif",
     "assets/FFD03B.gif",
@@ -221,7 +208,6 @@
     "assets/FEEE56.png",
     "assets/FEDD94.png",
     "assets/FEA35E.png",
-    "assets/FE53DA.jpg",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
