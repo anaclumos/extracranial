@@ -820,12 +820,6 @@ export const backlinks = {
     "2023-05-16": {
         "Project Heimdall": "## [[2023-05-16]]"
     },
-    "2025-02-12": {
-        "every.news": "## [[2025-02-12]]"
-    },
-    "2025-02-26": {
-        "every.news": "## [[2025-02-26]]"
-    },
     "2022-10-11": {
         "Letter to the Heptabase Team on 2022-10-11": "... to the Heptabase Team on [[2022-10-11]]",
         "Open Graph Image as a Service": "- [[2022-10-11]]"
@@ -1262,6 +1256,9 @@ export const backlinks = {
         "Antipilot": "  - [[In The End Trust Yourself]]",
         "개성은 쟁취하는 것": "- [[In The End Trust Yourself|결국에는 본인을 믿자]]"
     },
+    "Agentic Fleets": {
+        "2025-02-26": "- [[Agentic Fleets]]"
+    },
     "HTTP": {
         "2023-02-16": "... - Development server. Spin up [[HTTP]] servers on-demand inside the WebContainer ...",
         "AT protocol": "... uses standard web technologies like [[HTTP]] and WebSockets to synchronize data ...",
@@ -1377,7 +1374,8 @@ export const backlinks = {
     },
     "JavaScript heap out of memory": {
         "2023-05-24": "- [[JavaScript heap out of memory]]",
-        "2023-07-19": "- [[JavaScript heap out of memory]]"
+        "2023-07-19": "- [[JavaScript heap out of memory]]",
+        "2025-03-07": "- [[JavaScript heap out of memory]]"
     },
     "Shazam for Smells": {
         "2024-01-03": "- [[Shazam for Smells]]"
@@ -4048,6 +4046,9 @@ export const backlinks = {
         "2022-11-03": "- [[Buffer Overflow Attacks]]",
         "Computer Systems": "- [[Buffer Overflow Attacks]]"
     },
+    "msix": {
+        "2025-03-06": "- [[msix]]"
+    },
     "Retroactive (Software)": {
         "2023-05-02": "- [[Retroactive (Software)]]"
     },
@@ -4543,6 +4544,9 @@ export const backlinks = {
     "Grammarly Work Note 2023-06-27": {
         "2023-06-27": "- [[Grammarly Work Note 2023-06-27]]"
     },
+    "AWS CLI Do not page": {
+        "2025-03-07": "- [[AWS CLI Do not page]]"
+    },
     "JSON": {
         "2022-07-20": "... field indicates to parse a [[JSON]] response. Therefore, the message is ...",
         "2022-10-17": "... will read the indexed backlink [[JSON]] to display it on the ...",
@@ -4847,7 +4851,7 @@ export const backlinks = {
         "2022-12-04": "... Verge is now built on [[Next.js]], [[Vercel]], and [[Tailwind]]. Lee Robinson: ...",
         "2022-12-28": "- Front-end|Frontend web framework: [[Next.js|NextJS]]/[[Vercel]] (Past: Ruby on Rails/Heroku)",
         "2023-02-16": "... examples. Go ahead and add [[Next.js]] or any Vite-based examples and ...",
-        "Apple-like Block Interface": "## [[Next.js]]",
+        "Bento Grid": "## [[Next.js]]",
         "Front-end": "- [[Next.js]]",
         "IDOL Stack": "- [[Next.js]], [[Supabase]] [[Database|DB]], [[Supabase]] Auth, [[Supabase]] ...",
         "React": "... server-rendered applications with frameworks like [[Next.js]]. However, React is only concerned ...",
@@ -4908,6 +4912,7 @@ export const backlinks = {
     },
     "Squircle": {
         "2022-11-11": "- Applied [[Squircle]]",
+        "2023-08-26": "[[Squircle]]",
         "Dynamic Island on the Web": "- Applied [[Squircle]]"
     },
     "함대결전": {
@@ -5359,7 +5364,6 @@ export const backlinks = {
         "Jupyter": "> [[Project]] Jupyter aims to develop open-source ...",
         "Krafton Way": "... 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 ...",
         "Kubernetes": "... Computing Foundation now maintains the [[project]].",
-        "Linux": "... are provided by the GNU [[Project]]. Many Linux distributions use the ...",
         "LocLog": "Someday [[Project]].",
         "Markdown Email Client": "Old Someday [[Project]]. You write an [[Mail|email]] in ...",
         "Neo Aldehyde": "Old Someday [[Project]]",
@@ -5449,7 +5453,6 @@ export const backlinks = {
         "한국통사": "... 있게 분투하는 기개가 없어 모든 [[Project|사업]]이 위축되고, 산을 옮길 [[Project|계획]]을 감행하지 ..."
     },
     "FireCrawl": {
-        "2024-04-16": "- [[FireCrawl]]",
         "Scrapers for LLMs": "- [[FireCrawl]]"
     },
     "Vicarious": {
@@ -5638,7 +5641,7 @@ export const backlinks = {
         "AIs.txt": "Also, [[GitHub]] Copilot ignores `LICENSE` or `COPYING.txt`,",
         "AI는 고가 노동부터 점령한다": "- 마치, 의료 법률계의 [[GitHub]] [[Copilot]] (2021년에 출시되어 이미 보급된 ...",
         "Apple Newsroom 서체 따라하기": "... 때마다 흔하게 사용되는 방식이다. 대표적으로 [[GitHub]]이 이와 같은 방식을 사용한다.",
-        "Apple-like Block Interface": "## [[GitHub]]",
+        "Bento Grid": "## [[GitHub]]",
         "Ghost 테마를 자동 배포하는 방법": "6. 완성된 테마 파일을 [[GitHub]] Repository에 Push한다.",
         "IDOL Stack": "... Inlang + Across the Sprachraums, [[GitHub]] CI/CD",
         "Letter to Mr. Matt Rickard on 2022-10-03": "I'm at @anaclumos on [[GitHub]], [[Twitter]], and any other platform.",
@@ -6647,6 +6650,7 @@ export const backlinks = {
     },
     "Linux": {
         "2022-06-05": "... PDF/EPUBs with one command on [[Linux]] (and [[macOS]] very soon). This ...",
+        "2025-02-26": "[[Linux]]",
         "Chrome": "... mobile devices, including Windows, macOS, [[Linux]], [[Android]], and [[iOS]].",
         "ELF": "... and Linked Format, used in [[Linux]]",
         "Fast": "... Git was publicly released with [[Linux]] 2.6.12-rc3 after only 17 days ...",
@@ -6810,9 +6814,12 @@ export const backlinks = {
     },
     "Design Trend": {
         "2024-07-04": "- [[Design Trend]]",
-        "Apple-like Block Interface": "[[Design Trend]]",
+        "Bento Grid": "[[Design Trend]]",
         "Condensed H1 Design Trend (2024)": "[[Design Trend]]",
         "Painterly Illustration Design Trend (2024)": "[[Design Trend]]"
+    },
+    "Sentry": {
+        "2025-03-07": "- [[Sentry]]"
     },
     "Dynamically Linked Libraries": {
         "2022-12-08": "- [[Dynamically Linked Libraries]]"
@@ -7354,9 +7361,6 @@ export const backlinks = {
     },
     "Backdrop Build Week 1 Update": {
         "2023-11-11": "- [[Backdrop Build Week 1 Update]]"
-    },
-    "SOC 2": {
-        "2024-04-16": "- [[SOC 2]]"
     },
     "WasmEdge": {
         "2022-11-30": "- [[WasmEdge]]",
@@ -9072,7 +9076,7 @@ export const backlinks = {
         "2023-02-02": "... Hermes uses Helios for its [[UI and UX|UI]] components, which allows it to ...",
         "2023-03-12": "... access to the ChatGPT web [[UI and UX|UI]], but unless you are somehow ...",
         "Andy Matuschak": "- ex-Apple [[UI and UX|UI]]-Kit developer",
-        "Apple-like Block Interface": "[[UI and UX]]",
+        "Bento Grid": "[[UI and UX]]",
         "ChatGPT": "... out to be a chat [[UI and UX|UI]] that got people to start ...",
         "Confectionery": "... without the clutter of standard [[UI and UX|UI]] elements. Focus on the beauty ...",
         "Diagram Labs": "- [[UI and UX]]",
@@ -9714,7 +9718,7 @@ export const backlinks = {
     },
     "Block Protocol": {
         "2023-05-29": "- [[Block Protocol]]",
-        "Apple-like Block Interface": "[[Block Protocol]]"
+        "Bento Grid": "[[Block Protocol]]"
     },
     "Superbrain": {
         "2023-03-08": "- [[Superbrain]]",
@@ -10006,17 +10010,6 @@ export const backlinks = {
         "공기 청정 비행선": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
         "인공자궁": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]].",
         "태백산맥 계획": "[[누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다]]."
-    },
-    "Apple-like Block Interface": {
-        "2022-12-16": "- [[Apple-like Block Interface]]",
-        "2022-12-18": "- [[Apple-like Block Interface]]",
-        "2022-12-27": "- [[Apple-like Block Interface]]",
-        "2023-02-01": "- [[Apple-like Block Interface]]",
-        "2023-02-02": "- [[Apple-like Block Interface]]",
-        "2023-02-18": "- [[Apple-like Block Interface]]",
-        "2023-06-15": "- [[Apple-like Block Interface]]",
-        "2023-11-20": "- [[Apple-like Block Interface]]",
-        "Aldehyde Landing Page 2023": "- [[Apple-like Block Interface]]"
     },
     "Toss Product Sans": {
         "2022-10-14": "- [[Toss Product Sans]]",
@@ -10681,6 +10674,17 @@ export const backlinks = {
     },
     "nogitsync": {
         "2025-02-24": "- [[nogitsync]]"
+    },
+    "Bento Grid": {
+        "2022-12-16": "- [[Bento Grid]]",
+        "2022-12-18": "- [[Bento Grid]]",
+        "2022-12-27": "- [[Bento Grid]]",
+        "2023-02-01": "- [[Bento Grid]]",
+        "2023-02-02": "- [[Bento Grid]]",
+        "2023-02-18": "- [[Bento Grid]]",
+        "2023-06-15": "- [[Bento Grid]]",
+        "2023-11-20": "- [[Bento Grid]]",
+        "Aldehyde Landing Page 2023": "- [[Bento Grid]]"
     },
     "Ignoring $ for copy-pasting online resources to terminal": {
         "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
@@ -11490,7 +11494,7 @@ export const backlinks = {
     },
     "Amie": {
         "2023-01-30": "- Also got invited to [[Amie]].",
-        "Apple-like Block Interface": "## [[Amie]]",
+        "Bento Grid": "## [[Amie]]",
         "Era of Invites": "Not only [[Amie]], people asked me if I ...",
         "초대장의 시대": "[[Amie]] 뿐만 아니라 Texts, Tana, [[Artifact]]까지 ..."
     },
@@ -11646,9 +11650,6 @@ export const backlinks = {
     },
     "SIMD": {
         "2023-01-23": "- [[SIMD]]"
-    },
-    "Torvalds": {
-        "Linux": "... September 17, 1991, by Linus [[Torvalds]]. Linux is typically packaged as ..."
     },
     "하늘땅사람 개인 정보 보호 정책": {
         "2023-01-18": "- [[하늘땅사람 개인 정보 보호 정책]]",
@@ -11845,6 +11846,7 @@ export const backlinks = {
     "every.news": {
         "2025-02-12": "[[every.news]]",
         "2025-02-13": "- [[every.news]]",
+        "2025-03-04": "[[every.news]]",
         "HN Broadcast": "[[every.news]]"
     },
     "Apache": {
@@ -12826,7 +12828,7 @@ export const backlinks = {
         "일본 과학기술 총력전": "[[이공계]] 학자 대부분은 연구비가 윤택하던 전시 ..."
     },
     "Nextra": {
-        "Apple-like Block Interface": "## [[Nextra]]"
+        "Bento Grid": "## [[Nextra]]"
     },
     "Small Government vs Big Government": {
         "2022-10-27": "- [[Small Government vs Big Government]]",
@@ -13279,7 +13281,7 @@ export const backlinks = {
     },
     "61B2A4.gif": {
         "2023-11-20": "- ![[61B2A4.gif]]",
-        "Apple-like Block Interface": "![[61B2A4.gif]]"
+        "Bento Grid": "![[61B2A4.gif]]"
     },
     "EC9948.png": {
         "2023-04-13": "![[EC9948.png]]",
@@ -13447,7 +13449,7 @@ export const backlinks = {
     },
     "411451.png": {
         "2022-10-25": "![[411451.png]]",
-        "Apple-like Block Interface": "![[411451.png]]"
+        "Bento Grid": "![[411451.png]]"
     },
     "99EE18.png": {
         "2023-01-27": "![[99EE18.png]]"
@@ -13786,27 +13788,27 @@ export const backlinks = {
     },
     "351A7A.png": {
         "Aldehyde Landing Page 2023": "![[351A7A.png]]",
-        "Apple-like Block Interface": "![[351A7A.png]]"
+        "Bento Grid": "![[351A7A.png]]"
     },
     "74CA20.png": {
         "Aldehyde Landing Page 2023": "![[74CA20.png]]",
-        "Apple-like Block Interface": "![[74CA20.png]]"
+        "Bento Grid": "![[74CA20.png]]"
     },
     "E9C139.png": {
         "Aldehyde Landing Page 2023": "![[E9C139.png]]",
         "Amie": "![[E9C139.png]]",
-        "Apple-like Block Interface": "![[E9C139.png]]"
+        "Bento Grid": "![[E9C139.png]]"
     },
     "612FFD.png": {
         "Aldehyde Landing Page 2023": "![[612FFD.png]]"
     },
     "398CA8.png": {
         "Aldehyde Landing Page 2023": "![[398CA8.png]]",
-        "Apple-like Block Interface": "![[398CA8.png]]"
+        "Bento Grid": "![[398CA8.png]]"
     },
     "6C8C82.png": {
         "Aldehyde Landing Page 2023": "![[6C8C82.png]]",
-        "Apple-like Block Interface": "![[6C8C82.png]]"
+        "Bento Grid": "![[6C8C82.png]]"
     },
     "7EA246.gif": {
         "Delete All YouTube Watch Later and Liked Videos": "![[7EA246.gif]]"
@@ -15531,46 +15533,6 @@ export const backlinks = {
     "34F4C8.png": {
         "이역만리": "![[34F4C8.png]]"
     },
-    "B2A2B6.png": {
-        "Apple-like Block Interface": "![[B2A2B6.png]]",
-        "Nextra": "![[B2A2B6.png]]"
-    },
-    "339CE9.png": {
-        "Apple-like Block Interface": "![[339CE9.png]]"
-    },
-    "341F72.gif": {
-        "Apple-like Block Interface": "![[341F72.gif]]"
-    },
-    "47A128.png": {
-        "Apple-like Block Interface": "![[47A128.png]]"
-    },
-    "F88EC3.png": {
-        "Apple-like Block Interface": "![[F88EC3.png]]"
-    },
-    "1E26DF.png": {
-        "Apple-like Block Interface": "![[1E26DF.png]]"
-    },
-    "68AA5B.png": {
-        "Apple-like Block Interface": "![[68AA5B.png]]"
-    },
-    "CCCCFF.png": {
-        "Apple-like Block Interface": "![[CCCCFF.png]]"
-    },
-    "E1E4D5.png": {
-        "Apple-like Block Interface": "![[E1E4D5.png]]"
-    },
-    "3B51C9.png": {
-        "Apple-like Block Interface": "![[3B51C9.png]]"
-    },
-    "AEC6B7.png": {
-        "Apple-like Block Interface": "![[AEC6B7.png]]"
-    },
-    "F313C0.png": {
-        "Apple-like Block Interface": "![[F313C0.png]]"
-    },
-    "DF8990.png": {
-        "Apple-like Block Interface": "![[DF8990.png]]"
-    },
     "6F64BE.png": {
         "Toss Product Sans": "![[6F64BE.png]]"
     },
@@ -15711,6 +15673,46 @@ export const backlinks = {
     },
     "EA6B33.png": {
         "금동대융합로": "![[EA6B33.png]]"
+    },
+    "B2A2B6.png": {
+        "Bento Grid": "![[B2A2B6.png]]",
+        "Nextra": "![[B2A2B6.png]]"
+    },
+    "339CE9.png": {
+        "Bento Grid": "![[339CE9.png]]"
+    },
+    "341F72.gif": {
+        "Bento Grid": "![[341F72.gif]]"
+    },
+    "47A128.png": {
+        "Bento Grid": "![[47A128.png]]"
+    },
+    "F88EC3.png": {
+        "Bento Grid": "![[F88EC3.png]]"
+    },
+    "1E26DF.png": {
+        "Bento Grid": "![[1E26DF.png]]"
+    },
+    "68AA5B.png": {
+        "Bento Grid": "![[68AA5B.png]]"
+    },
+    "CCCCFF.png": {
+        "Bento Grid": "![[CCCCFF.png]]"
+    },
+    "E1E4D5.png": {
+        "Bento Grid": "![[E1E4D5.png]]"
+    },
+    "3B51C9.png": {
+        "Bento Grid": "![[3B51C9.png]]"
+    },
+    "AEC6B7.png": {
+        "Bento Grid": "![[AEC6B7.png]]"
+    },
+    "F313C0.png": {
+        "Bento Grid": "![[F313C0.png]]"
+    },
+    "DF8990.png": {
+        "Bento Grid": "![[DF8990.png]]"
     },
     "FC87FE.png": {
         "Ignoring $ for copy-pasting online resources to terminal": "![[FC87FE.png]]"

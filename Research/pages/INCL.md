@@ -31,14 +31,10 @@ gcloud init
 
 ```
 uv python install 3.10
-uv python pin 3.11
+uv python pin 3.10
+uv venv
 source .venv/bin/activate
 uv pip install --requirements django/requirements.txt
- .venv/bin/python django/incl/manage.py test
-```
-
-```
-
 ```
 
 ## Status
