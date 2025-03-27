@@ -3796,6 +3796,9 @@ export const backlinks = {
         "2023-02-16": "- [[Computational Linguistics]]",
         "ACL 60-60": "The Association for [[Computational Linguistics]] (ACL) recently announced the \"60-60\" ..."
     },
+    "UTM": {
+        "2025-03-15": "- [[UTM]]"
+    },
     "Midjourney": {
         "2022-12-28": "- [[Midjourney]]",
         "Replicating Balenciaga Harry Potter Advertisement": "2. Used [[Midjourney]] to create character images, but ...",
@@ -6558,7 +6561,8 @@ export const backlinks = {
         "2024-10-07": "- [[Copy Latest SHA]]"
     },
     "나락 탐지": {
-        "2024-04-07": "- [[나락 탐지]]"
+        "2024-04-07": "- [[나락 탐지]]",
+        "2025-03-26": "[[나락 탐지]]]"
     },
     "Inter": {
         "Akzidenz": "... to San Francisco|SF Pro and [[Inter]].",
@@ -6793,6 +6797,9 @@ export const backlinks = {
         "2025-01-16": "- [[Base32]]",
         "2025-01-17": "[[Base32]]",
         "ULID": "... randomness component into a 26-character, [[base32]] string. Its design ensures both ..."
+    },
+    "Vibe Coding": {
+        "2025-03-25": "[[Vibe Coding]]"
     },
     "Lazy": {
         "2022-11-11": "- [[Lazy]]. [[Tools for Thought]]",
@@ -8591,7 +8598,8 @@ export const backlinks = {
     },
     "INCL": {
         "2025-02-13": "- [[INCL]]",
-        "2025-02-26": "- [[INCL]]"
+        "2025-02-26": "- [[INCL]]",
+        "2025-03-17": "[[INCL]]"
     },
     "Tax": {
         "401k": "... you're 59. This money is [[tax]]-free today, but you pay [[Tax|taxes]] ...",
@@ -8650,6 +8658,9 @@ export const backlinks = {
     },
     "Egregore": {
         "2023-06-22": "- [[Egregore]]"
+    },
+    "Google One Tap": {
+        "2025-03-14": "[[Google One Tap]]"
     },
     "C++": {
         "2022-07-20": "A successor language for [[C++]] requires:",
@@ -11889,6 +11900,9 @@ export const backlinks = {
         "2024-05-17": "- [[Playings]]",
         "앎의 그릇": "- [[Playings]]"
     },
+    "Etymo": {
+        "2025-03-21": "[[Etymo]]"
+    },
     "ChatGPT is a Blurry JPEG and We Need That": {
         "2023-03-31": "- [[ChatGPT is a Blurry JPEG and We Need That]]",
         "Newtonian Correspondence": "| 03-31 | `EN` [[ChatGPT is a Blurry JPEG and We Need That]] <br/> `KO` [[ChatGPT는 흐릿한 이미지이지만 ..."
@@ -12304,6 +12318,9 @@ export const backlinks = {
     "Tome": {
         "2022-12-24": "- [[Tome]]",
         "Generative AI": "- [[Tome]]"
+    },
+    "tmux": {
+        "2025-03-27": "[[tmux]]"
     },
     "Los Angeles": {
         "Biden-Harris Administration National Security Strategy 2022": "- Reviewed in-flight to [[Los Angeles]] on [[2023-01-08]]",
@@ -15228,6 +15245,9 @@ export const backlinks = {
     },
     "E437D9.png": {
         "Digital Addiction": "![[E437D9.png]]"
+    },
+    "15F2AC.png": {
+        "Google One Tap": "![[15F2AC.png]]"
     },
     "3F9675.png": {
         "Fiercely Overpriced": "![[3F9675.png]]"
