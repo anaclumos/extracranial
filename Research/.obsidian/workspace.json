@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-03-27.md",
+                "file": "journals/2025-03-30.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-27"
+              "title": "2025-03-30"
             }
           }
         ],
@@ -236,16 +236,18 @@
   },
   "active": "9ef4692d66c8ffac",
   "lastOpenFiles": [
-    "pages/tmux.md",
-    "journals/2025-03-27.md",
-    "pages/나락 탐지.md",
     "journals/2025-03-26.md",
+    "journals/2025-03-27.md",
+    "journals/2025-03-28.md",
+    "journals/2025-03-30.md",
+    "pages/INCL.md",
+    "pages/tmux.md",
+    "pages/나락 탐지.md",
     "pages/Vibe Coding.md",
     "journals/2025-03-25.md",
     "pages/Etymo.md",
     "journals/2025-03-21.md",
     "journals/2025-03-17.md",
-    "pages/INCL.md",
     "pages/uv (python).md",
     "pages/Sentry.md",
     "journals/2025-03-16.md",
@@ -261,8 +263,6 @@
     "pages/Vimium.md",
     "journals/2025-03-06.md",
     "journals/2025-03-11.md",
-    "journals/2025-03-07.md",
-    "journals/2025-03-10.md",
     "assets/3CDD1D.gif",
     "assets/F483D2.png",
     "assets/5A3846.gif",

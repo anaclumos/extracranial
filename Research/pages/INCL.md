@@ -35,6 +35,7 @@ uv python pin 3.10
 uv venv
 source .venv/bin/activate
 uv pip install --requirements django/requirements.txt
+uv pip install --requirements e2e_tests/requirements.txt
 ```
 
 ## Status
