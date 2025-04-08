@@ -1,4 +1,5 @@
 import type { Props } from '@theme/TOCItems/Tree'
+import React from 'react'
 import { type JSX, memo } from 'react'
 
 // Recursive component rendering the toc tree

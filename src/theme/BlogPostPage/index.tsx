@@ -2,6 +2,7 @@ import Head from '@docusaurus/Head'
 import type { WrapperProps } from '@docusaurus/types'
 import BlogPostPage from '@theme-original/BlogPostPage'
 import type BlogPostPageType from '@theme/BlogPostPage'
+import React from 'react'
 import type { JSX } from 'react'
 type Props = WrapperProps<typeof BlogPostPageType>
 

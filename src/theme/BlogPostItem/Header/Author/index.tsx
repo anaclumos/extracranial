@@ -1,6 +1,7 @@
 import Link, { type Props as LinkProps } from '@docusaurus/Link'
 import type { Props } from '@theme/BlogPostItem/Header/Author'
 import clsx from 'clsx'
+import React from 'react'
 import type { JSX } from 'react'
 import styles from './styles.module.css'
 
