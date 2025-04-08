@@ -1,6 +1,7 @@
 import { translate } from '@docusaurus/Translate'
 import { usePluralForm } from '@docusaurus/theme-common'
 import clsx from 'clsx'
+import React from 'react'
 import { type JSX, useEffect, useState } from 'react'
 
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client'

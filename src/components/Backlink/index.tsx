@@ -1,4 +1,5 @@
 import Link from '@docusaurus/Link'
+import React from 'react'
 import type { JSX } from 'react'
 import styles from './styles.module.css'
 

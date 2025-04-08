@@ -1,5 +1,6 @@
 import type { Props } from '@theme/TOCInline'
 import TOCItems from '@theme/TOCItems'
+import React from 'react'
 import type { JSX } from 'react'
 
 import styles from './styles.module.css'

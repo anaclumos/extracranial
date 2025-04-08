@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-04-08.md",
+                "file": "pages/INCL.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-08"
-            }
-          },
-          {
-            "id": "05c0f9771421f5af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-04-08.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-04-08"
+              "title": "INCL"
             }
           },
           {
@@ -79,8 +55,7 @@
               "title": "BitTorrent"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,10 +209,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "05c0f9771421f5af",
+  "active": "c576ddccdf3dd547",
   "lastOpenFiles": [
-    "pages/BitTorrent.md",
+    "pages/uv (python).md",
     "journals/2025-04-08.md",
+    "pages/Biome.md",
+    "pages/BitTorrent.md",
     "pages/Torrent.md",
     "journals/2022-11-07.md",
     "pages/Remora Trading.md",
@@ -260,8 +237,6 @@
     "journals/2025-03-27.md",
     "journals/2025-03-30.md",
     "journals/2025-03-28.md",
-    "pages/tmux.md",
-    "pages/나락 탐지.md",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
     "assets/F483D2.png",

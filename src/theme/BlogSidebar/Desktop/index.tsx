@@ -2,6 +2,7 @@ import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import type { Props } from '@theme/BlogSidebar/Desktop'
 import clsx from 'clsx'
+import React from 'react'
 import { useId } from 'react'
 import Balancer from 'react-wrap-balancer'
 
