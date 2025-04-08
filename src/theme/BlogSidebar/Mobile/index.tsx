@@ -1,6 +1,7 @@
 import Link from '@docusaurus/Link'
 import { NavbarSecondaryMenuFiller } from '@docusaurus/theme-common'
 import type { Props } from '@theme/BlogSidebar/Mobile'
+import React from 'react'
 import type { JSX } from 'react'
 import Balancer from 'react-wrap-balancer'
 

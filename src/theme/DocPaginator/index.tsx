@@ -2,6 +2,7 @@ import Translate, { translate } from '@docusaurus/Translate'
 import type { Props } from '@theme/DocPaginator'
 import PaginatorNavLink from '@theme/PaginatorNavLink'
 import clsx from 'clsx'
+import React from 'react'
 import type { JSX } from 'react'
 import styles from './styles.module.css'
 

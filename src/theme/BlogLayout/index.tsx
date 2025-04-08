@@ -1,6 +1,7 @@
 import BlogSidebar from '@theme/BlogSidebar'
 import Layout from '@theme/Layout'
 import clsx from 'clsx'
+import React from 'react'
 import type { JSX } from 'react'
 
 import type { Props } from '@theme/BlogLayout'

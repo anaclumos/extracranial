@@ -1,5 +1,6 @@
 import { useWindowSize } from '@docusaurus/theme-common'
 import clsx from 'clsx'
+import React from 'react'
 import type { JSX } from 'react'
 
 import { useDoc } from '@docusaurus/plugin-content-docs/client'

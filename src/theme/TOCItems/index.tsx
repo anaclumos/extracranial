@@ -6,6 +6,7 @@ import {
 } from '@docusaurus/theme-common/internal'
 import type { Props } from '@theme/TOCItems'
 import TOCItemTree from '@theme/TOCItems/Tree'
+import React from 'react'
 import { useMemo } from 'react'
 
 export default function TOCItems({

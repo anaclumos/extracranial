@@ -1,14 +1,20 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Giscus from '@giscus/react'
+import React from 'react'
 import { useEffect, useState } from 'react'
 import g from './giscus.module.css'
 
 const Index = () => {
   const { i18n } = useDocusaurusContext()
 
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+  const [theme, setTheme] = useState('light')
 
-  const [theme, setTheme] = useState(prefersDark ? 'dark' : 'light')
+  useEffect(() => {
+    const prefersDark = window.matchMedia(
+      '(prefers-color-scheme: dark)',
+    ).matches
+    setTheme(prefersDark ? 'dark' : 'light')
+  }, [])
 
   useEffect(() => {
     const themeObserver = new MutationObserver((mutations) => {

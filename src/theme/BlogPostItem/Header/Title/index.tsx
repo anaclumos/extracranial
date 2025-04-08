@@ -1,5 +1,6 @@
 import Link from '@docusaurus/Link'
 import clsx from 'clsx'
+import React from 'react'
 import type { JSX } from 'react'
 
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client'

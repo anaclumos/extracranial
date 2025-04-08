@@ -1,6 +1,7 @@
 import Head from '@docusaurus/Head'
 import { useDoc } from '@docusaurus/plugin-content-docs/client'
 import { PageMetadata } from '@docusaurus/theme-common'
+import React from 'react'
 import type { JSX } from 'react'
 
 export default function DocItemMetadata(): JSX.Element {
