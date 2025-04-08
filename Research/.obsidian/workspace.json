@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6673a0086100067c",
+        "id": "30af912a3c75deea",
         "type": "tabs",
         "children": [
           {
-            "id": "0c307d397f362f5b",
+            "id": "c576ddccdf3dd547",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-03-26.md",
+                "file": "journals/2025-04-08.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-26"
+              "title": "2025-04-08"
             }
           },
           {
-            "id": "515c8d958970c9b3",
+            "id": "05c0f9771421f5af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-03-27.md",
+                "file": "journals/2025-04-08.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-27"
+              "title": "2025-04-08"
             }
           },
           {
-            "id": "9ef4692d66c8ffac",
+            "id": "a71c20adbfe591da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-03-30.md",
+                "file": "pages/BitTorrent.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,11 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-30"
+              "title": "BitTorrent"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "api/api-actions/components/api-action-dialog-button.tsx(218,10): error TS2322: Type '{ children: Element; className: string; disabled: boolean; onSelect: (event: any) => void; }' is not assignable to type 'IntrinsicAttributes & Omit<DropdownMenuItemProps & RefAttributes<HTMLDivElement>, \"ref\"> & { ...; } & RefAttributes<...>'.",
+                "query": "Torrent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,12 +133,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 250.50260543823242,
-    "collapsed": true
+    "width": 250.50260543823242
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -234,35 +234,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9ef4692d66c8ffac",
+  "active": "05c0f9771421f5af",
   "lastOpenFiles": [
+    "pages/BitTorrent.md",
+    "journals/2025-04-08.md",
+    "pages/Torrent.md",
+    "journals/2022-11-07.md",
+    "pages/Remora Trading.md",
+    "pages/mem-isolate.md",
+    "pages/Sandbox.md",
+    "pages/Job Offer.md",
+    "pages/iPhone Keyboard.md",
+    "pages/v0 for iOS.md",
+    "pages/WebAssembly.md",
+    "pages/Dia (Browser).md",
+    "pages/Arc (Browser).md",
+    "pages/Visual Studio Code.md",
+    "pages/React God.md",
+    "pages/Text-based Tools for Thought.md",
+    "pages/INCL.md",
+    "journals/2025-04-07.md",
+    "journals/2025-04-01.md",
+    "journals/2025-04-02.md",
     "journals/2025-03-26.md",
     "journals/2025-03-27.md",
-    "journals/2025-03-28.md",
     "journals/2025-03-30.md",
-    "pages/INCL.md",
+    "journals/2025-03-28.md",
     "pages/tmux.md",
     "pages/나락 탐지.md",
-    "pages/Vibe Coding.md",
-    "journals/2025-03-25.md",
-    "pages/Etymo.md",
-    "journals/2025-03-21.md",
-    "journals/2025-03-17.md",
-    "pages/uv (python).md",
-    "pages/Sentry.md",
-    "journals/2025-03-16.md",
-    "journals/2025-03-15.md",
-    "pages/Docker.md",
-    "pages/Agentic Fleets.md",
-    "pages/UTM.md",
-    "journals/2025-03-14.md",
-    "pages/Google One Tap.md",
     "assets/15F2AC.png",
-    "pages/iOS.md",
-    "pages/Contextify.md",
-    "pages/Vimium.md",
-    "journals/2025-03-06.md",
-    "journals/2025-03-11.md",
     "assets/3CDD1D.gif",
     "assets/F483D2.png",
     "assets/5A3846.gif",
