@@ -1,4 +1,4 @@
-import React from 'react'
+import type { JSX } from 'react'
 import Translate from '@docusaurus/Translate'
 import type { Props } from '@theme/EditThisPage'
 import clsx from 'clsx'

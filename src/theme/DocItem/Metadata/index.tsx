@@ -1,4 +1,4 @@
-import React from 'react'
+import type { JSX } from 'react'
 import { PageMetadata } from '@docusaurus/theme-common'
 import { useDoc } from '@docusaurus/plugin-content-docs/client'
 import Head from '@docusaurus/Head'

@@ -1,4 +1,4 @@
-import React from 'react'
+import type { JSX } from 'react'
 import BlogPostPage from '@theme-original/BlogPostPage'
 import type BlogPostPageType from '@theme/BlogPostPage'
 import type { WrapperProps } from '@docusaurus/types'

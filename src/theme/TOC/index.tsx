@@ -1,4 +1,4 @@
-import React from 'react'
+import type { JSX } from 'react'
 import clsx from 'clsx'
 import TOCItems from '@theme/TOCItems'
 import type { Props } from '@theme/TOC'

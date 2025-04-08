@@ -1,4 +1,4 @@
-import React from 'react'
+import type { JSX } from 'react'
 import clsx from 'clsx'
 import { useWindowSize } from '@docusaurus/theme-common'
 

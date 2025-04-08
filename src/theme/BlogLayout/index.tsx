@@ -1,4 +1,4 @@
-import React from 'react'
+import type { JSX } from 'react'
 import clsx from 'clsx'
 import Layout from '@theme/Layout'
 import BlogSidebar from '@theme/BlogSidebar'
