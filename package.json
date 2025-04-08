@@ -32,6 +32,7 @@
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@docusaurus/module-type-aliases": "^3.7.0",
     "@docusaurus/tsconfig": "^3.7.0",
     "@docusaurus/types": "^3.7.0",
@@ -48,7 +49,7 @@
     "build": "$npm_execpath run ready && $npm_execpath run format && NODE_OPTIONS=\"--max-old-space-size=8192\" docusaurus build",
     "clear": "rm -rf 'blog' && rm -rf 'docs' && find i18n -name \"*.md\" -type f -delete && cp tools/안녕.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n/**/*.png' && find i18n -name \"*.svg\" -type f -delete && find i18n -name \"*.jpg\" -type f -delete && find i18n -name \"*.jpeg\" -type f -delete && find i18n -name \"*.gif\" -type f -delete && find i18n -name \"*.png\" -type f -delete",
     "dev": "$npm_execpath run ready && $npm_execpath run format && docusaurus start",
-    "format": "prettier --config .prettierrc -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}'",
+    "format": "prettier -w '**/*.md' && biome check --write .",
     "ko": "$npm_execpath run ready && $npm_execpath run format && docusaurus start --locale ko",
     "qa:start": "$npm_execpath run ready && $npm_execpath run format && $npm_execpath run build && $npm_execpath serve",
     "readme": "cp tools/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md",
@@ -71,6 +72,7 @@
   "version": "1.0.0",
   "pnpm": {
     "onlyBuiltDependencies": [
+      "@biomejs/biome",
       "@swc/core",
       "@vercel/speed-insights",
       "core-js",

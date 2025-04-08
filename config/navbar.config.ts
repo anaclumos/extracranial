@@ -1,17 +1,25 @@
-import fs from 'fs'
-import path from 'path'
+import fs from 'node:fs'
+import path from 'node:path'
 
 const getMostRecentJournalLink = () => {
   const today = new Date()
   today.setDate(today.getDate() + 2)
   let file = ''
-  while ((file = today.toISOString().split('T')[0])) {
-    const filePath = path.join(__dirname, '..', 'Research', 'journals', file + '.md')
+  do {
+    file = today.toISOString().split('T')[0]
+    const filePath = path.join(
+      __dirname,
+      '..',
+      'Research',
+      'journals',
+      `${file}.md`,
+    )
     if (fs.existsSync(filePath)) {
       return `/r/${file}`
     }
     today.setDate(today.getDate() - 1)
-  }
+  } while (file)
+  return '/r/000000'
 }
 
 const navbar = {

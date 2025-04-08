@@ -1,12 +1,12 @@
-import React, { useId } from 'react'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
-import Layout from '@theme/Layout'
 import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
-import styles from './styles.module.css'
+import Layout from '@theme/Layout'
 import clsx from 'clsx'
+import { useId } from 'react'
 import Balancer from 'react-wrap-balancer'
+import styles from './styles.module.css'
 
 const t = {
   singular: translate({
@@ -55,11 +55,11 @@ function Year({ year, posts }: YearProp) {
 
 function YearsSection({ years }: { years: YearProp[] }) {
   return (
-    <section className="margin-vert--lg">
+    <section className='margin-vert--lg'>
       <div className={clsx('container', styles.container)}>
-        <div className="row">
+        <div className='row'>
           {years.reverse().map((_props) => (
-            <div key={useId()} className="col col--4 margin-vert--md">
+            <div key={useId()} className='col col--4 margin-vert--md'>
               <Year {..._props} />
             </div>
           ))}
@@ -98,7 +98,7 @@ export default function BlogArchive({ archive }: Props): JSX.Element {
     <>
       <PageMetadata title={title} description={description} />
       <Layout>
-        <header className="hero hero--primary">
+        <header className='hero hero--primary'>
           <div className={clsx('container', styles.heroContainer)}>
             <h1 className={clsx(styles.heroTitle)}>{title}</h1>
           </div>

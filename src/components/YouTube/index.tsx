@@ -8,7 +8,11 @@ type Props = {
 const YouTube = ({ id }: Props) => {
   return (
     <figure>
-      <iframe className={styles.youtube} title="YouTube" src={`https://www.youtube.com/embed/${id}`}></iframe>
+      <iframe
+        className={styles.youtube}
+        title='YouTube'
+        src={`https://www.youtube.com/embed/${id}`}
+      />
     </figure>
   )
 }

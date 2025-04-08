@@ -8,13 +8,14 @@ type Props = {
 const AppleMusicSong = ({ url }: Props) => {
   return (
     <iframe
-      id="embedPlayer"
+      title='Apple Music'
+      id='embedPlayer'
       src={url}
-      height="175px"
-      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-      allow="autoplay *; encrypted-media *; clipboard-write"
+      height='175px'
+      sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation'
+      allow='autoplay *; encrypted-media *; clipboard-write'
       className={styles.embedPlayer}
-    ></iframe>
+    />
   )
 }
 
