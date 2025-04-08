@@ -1,4 +1,4 @@
-import React from 'react'
+import type { JSX } from 'react'
 import Translate, { translate } from '@docusaurus/Translate'
 import PaginatorNavLink from '@theme/PaginatorNavLink'
 import type { Props } from '@theme/DocPaginator'

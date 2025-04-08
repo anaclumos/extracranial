@@ -1,4 +1,4 @@
-import React from 'react'
+import type { JSX } from 'react'
 import Translate, { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
 import Layout from '@theme/Layout'

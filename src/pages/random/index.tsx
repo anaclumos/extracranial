@@ -1,7 +1,7 @@
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import React from 'react'
+import type { JSX } from 'react'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
 

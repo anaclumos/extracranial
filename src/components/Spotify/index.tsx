@@ -1,4 +1,4 @@
-import React from 'react'
+import type { JSX } from 'react'
 
 type Props = {
   url: string
