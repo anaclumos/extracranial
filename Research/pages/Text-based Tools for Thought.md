@@ -19,7 +19,7 @@ slug: '/671680'
 
 ### [Craft](https://www.craft.do/)
 
-![[FEEE56.png]]
+![[F483D2.png]]
 
 ### [Scrivener](https://www.literatureandlatte.com/scrivener/overview)
 

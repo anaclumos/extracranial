@@ -3,6 +3,9 @@ lang: 'en'
 slug: '/4332D0'
 ---
 
+An unfortunate dope technology that has been stained by a bad use-case (stealing licensed products)
+
+- https://sciop.net/
 - Files are in 256kb chunks.
 - At any given time, everyone has different chunks.
 - The client will regularly ask for the list of chunks my peers have.

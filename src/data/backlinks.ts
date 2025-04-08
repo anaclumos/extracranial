@@ -1680,6 +1680,9 @@ export const backlinks = {
     "PPR All The Way": {
         "2024-07-07": "- [[PPR All The Way]]"
     },
+    "Job Offer": {
+        "2025-04-08": "- [[Job Offer]]"
+    },
     "ElonPet": {
         "2023-02-06": "- [[ElonPet]]"
     },
@@ -2736,6 +2739,7 @@ export const backlinks = {
     "Sandbox": {
         "2022-06-22": "- Use [[Sandbox]] for the outer side.",
         "2022-06-26": "... not explore ShadowRealm and `iframe` [[Sandbox]] for now.",
+        "2025-04-08": "- [[Sandbox]]",
         "Brane": "  - Prerequisite: [[Sandbox]] Environment.",
         "Programmable Web": "... running something like the QuickJS [[Sandbox]] inside [[WebAssembly]] can provide a ..."
     },
@@ -3074,6 +3078,9 @@ export const backlinks = {
         "Game Programming": "- [[Simple DirectMedia Layer]]",
         "Playing Sounds in SDL": "- [[Simple DirectMedia Layer|SDL]]"
     },
+    "Remora Trading": {
+        "2025-04-08": "- [[Remora Trading]]"
+    },
     "Desire-Compatible Growth & Preservation": {
         "2022-11-23": "- [[Desire-Compatible Growth & Preservation]]",
         "2024-07-04": "... due to AI energy demand [[Desire-Compatible Growth & Preservation]]",
@@ -3410,6 +3417,9 @@ export const backlinks = {
     "Endianness": {
         "Internetworking": "- [[Endianness]]",
         "Structs and Unions": "... reversed order depending on the [[endianness]]."
+    },
+    "v0 for iOS": {
+        "2025-04-08": "- [[v0 for iOS]]"
     },
     "Symbol (Computer Systems)": {
         "2022-12-08": "- [[Symbol (Computer Systems)]]",
@@ -4939,6 +4949,9 @@ export const backlinks = {
     "UI AI": {
         "Diagram (Company)": "- Creator of [[UI AI]]"
     },
+    "Dia (Browser)": {
+        "2025-04-08": "- [[Dia (Browser)]]"
+    },
     "Simple Analytics": {
         "2022-10-24": "- [[Simple Analytics]]",
         "Curve Fitting for Charts": "## On 2022-10-21, with [[Simple Analytics]]",
@@ -5773,6 +5786,7 @@ export const backlinks = {
     },
     "BitTorrent": {
         "2022-11-07": "- [[BitTorrent]]",
+        "2025-04-08": "- [[BitTorrent]]",
         "P2P": "- [[BitTorrent]] Algorithm"
     },
     "TossFace Playground": {
@@ -7156,6 +7170,9 @@ export const backlinks = {
         "헤이그 특사": "... 가지의 전쟁목적이 있다고 공언하였다. 첫째는 [[대한민국|한국]]의 독립유지와 영토보전이요, 둘째는 극동의 교역을 ...",
         "혜성처럼 나타난 본디": "Bondee|본디는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 [[App ..."
     },
+    "mem-isolate": {
+        "2025-04-08": "- [[mem-isolate]]"
+    },
     "Artifact": {
         "Algorithmic Recommendation Engine for Texts": "- [[Artifact]] can feel like a throwback. ...",
         "Can we ever build TikTok for Text": "... launched a new app called [[Artifact]]. Artifact is a personalized news ...",
@@ -7239,6 +7256,9 @@ export const backlinks = {
     "Render.com": {
         "2023-05-20": "... I want to check out [[Render.com]]. It feels like [[Railway]], but ...",
         "2023-05-24": "- [[Render.com]]"
+    },
+    "iPhone Keyboard": {
+        "2025-04-08": "- [[iPhone Keyboard]]"
     },
     "Club Penguin": {
         "Sudden Rise of Bondee": "... rooms of their own. Imagine [[Club Penguin]] or [[Habbo Hotel]] but in ..."
@@ -7751,7 +7771,7 @@ export const backlinks = {
         "2023-09-27": "- [[Regression]]"
     },
     "Browser Company": {
-        "Arc Browser": "[[Browser Company]]",
+        "Arc (Browser)": "[[Browser Company]]",
         "Browser Company Hackathon": "- [[Browser Company]]"
     },
     "Book Scanning": {
@@ -8095,11 +8115,6 @@ export const backlinks = {
     "Edge Network": {
         "Cloudflare Worker": "... or WebAssembly code at the [[edge network]] of Cloudflare's global network for ...",
         "Edge": "- [[Edge Network]]"
-    },
-    "Arc Browser": {
-        "Browser Company": "[[Arc Browser]]",
-        "Browser Company Hackathon": "- [[Arc Browser]]",
-        "lovearc.net": "2. get some [[Arc Browser]] stickers"
     },
     "Engine Equation": {
         "2023-02-16": "- [[Engine Equation]]",
@@ -8599,7 +8614,8 @@ export const backlinks = {
     "INCL": {
         "2025-02-13": "- [[INCL]]",
         "2025-02-26": "- [[INCL]]",
-        "2025-03-17": "[[INCL]]"
+        "2025-03-17": "[[INCL]]",
+        "2025-04-01": "[[INCL]]"
     },
     "Tax": {
         "401k": "... you're 59. This money is [[tax]]-free today, but you pay [[Tax|taxes]] ...",
@@ -9931,6 +9947,12 @@ export const backlinks = {
         "2023-11-10": "- [[Accessing Remote Jupyter at USC ISI]]",
         "2023-11-14": "- [[Accessing Remote Jupyter at USC ISI]]",
         "2023-11-16": "- [[Accessing Remote Jupyter at USC ISI]]"
+    },
+    "Arc (Browser)": {
+        "Browser Company": "[[Arc (Browser)]]",
+        "Browser Company Hackathon": "- [[Arc (Browser)]]",
+        "Dia (Browser)": "Successor to [[Arc (Browser)]].",
+        "lovearc.net": "2. get some [[Arc (Browser)]] stickers"
     },
     "UUIDs are Awesome": {
         "2022-09-28": "- [[UUIDs are Awesome]]",
@@ -14347,7 +14369,8 @@ export const backlinks = {
         "Collaboration-based Tools for Thought": "![[28EF81.png]]"
     },
     "F483D2.png": {
-        "Collaboration-based Tools for Thought": "![[F483D2.png]]"
+        "Collaboration-based Tools for Thought": "![[F483D2.png]]",
+        "Text-based Tools for Thought": "![[F483D2.png]]"
     },
     "B5E113.png": {
         "Collaboration-based Tools for Thought": "![[B5E113.png]]"
@@ -15636,9 +15659,6 @@ export const backlinks = {
     },
     "D361D1.png": {
         "Text-based Tools for Thought": "![[D361D1.png]]"
-    },
-    "FEEE56.png": {
-        "Text-based Tools for Thought": "![[FEEE56.png]]"
     },
     "56BD73.png": {
         "Text-based Tools for Thought": "![[56BD73.png]]"
