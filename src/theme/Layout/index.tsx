@@ -1,7 +1,7 @@
-import type { JSX } from 'react'
+import type { WrapperProps } from '@docusaurus/types'
 import Layout from '@theme-original/Layout'
 import type LayoutType from '@theme/Layout'
-import type { WrapperProps } from '@docusaurus/types'
+import type { JSX } from 'react'
 
 type Props = WrapperProps<typeof LayoutType>
 

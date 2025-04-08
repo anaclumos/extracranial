@@ -6,7 +6,8 @@
   --ifm-font-family-base:
     system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, 'Apple SD Gothic Neo', 'Apple Color Emoji', 'SF Pro',
     'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif !important;
-  --ifm-font-family-monospace: 'Goorm Sans Code', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
+  --ifm-font-family-monospace: 'Goorm Sans Code', ui-monospace, 'SF Mono',
+    sfmono-regular, menlo, consolas, monospace;
   --font-family-sans-serif: var(--ifm-font-family-base);
   --font-family-headline: var(--ifm-font-family-base);
   --font-family-monospace: var(--ifm-font-family-monospace);
@@ -107,9 +108,7 @@ code {
   filter: grayscale(100%);
   padding: 0.5rem;
   border-radius: var(--border-radius);
-  transition:
-    filter 0.2s ease-in-out,
-    background-color 0.2s ease-in-out;
+  transition: filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .table-of-contents__link:hover {

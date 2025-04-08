@@ -1,8 +1,8 @@
-import type { JSX } from 'react'
 import Translate, { translate } from '@docusaurus/Translate'
-import PaginatorNavLink from '@theme/PaginatorNavLink'
 import type { Props } from '@theme/DocPaginator'
+import PaginatorNavLink from '@theme/PaginatorNavLink'
 import clsx from 'clsx'
+import type { JSX } from 'react'
 import styles from './styles.module.css'
 
 export default function DocPaginator(props: Props): JSX.Element {
@@ -20,7 +20,10 @@ export default function DocPaginator(props: Props): JSX.Element {
         <PaginatorNavLink
           {...previous}
           subLabel={
-            <Translate id="theme.docs.paginator.previous" description="The label used to navigate to the previous doc">
+            <Translate
+              id='theme.docs.paginator.previous'
+              description='The label used to navigate to the previous doc'
+            >
               Previous
             </Translate>
           }
@@ -30,7 +33,10 @@ export default function DocPaginator(props: Props): JSX.Element {
         <PaginatorNavLink
           {...next}
           subLabel={
-            <Translate id="theme.docs.paginator.next" description="The label used to navigate to the next doc">
+            <Translate
+              id='theme.docs.paginator.next'
+              description='The label used to navigate to the next doc'
+            >
               Next
             </Translate>
           }

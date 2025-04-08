@@ -1,4 +1,4 @@
-import React, { useState, MouseEvent } from 'react'
+import { type MouseEvent, useState } from 'react'
 import styles from './index.module.css'
 
 type Props = {
@@ -20,19 +20,35 @@ const EmojiReplaceableText = (props: Props) => {
   }
 
   return (
-    <span onClick={handleClick} className={styles.emojiReplaceableText}>
+    <span
+      onClick={handleClick}
+      onKeyDown={handleClick}
+      className={styles.emojiReplaceableText}
+    >
       {showEmoji ? (
         emoji === undefined ? (
           photo === undefined ? (
             text
           ) : border === true ? (
             <>
-              <img className={styles.photo} src={photo} alt={photoAlt} width="28" height="28" />
+              <img
+                className={styles.photo}
+                src={photo}
+                alt={photoAlt}
+                width='28'
+                height='28'
+              />
               <span className={styles.allyText}>{text}</span>
             </>
           ) : (
             <>
-              <img className={styles.emoji} src={photo} alt={photoAlt} width="28" height="28" />
+              <img
+                className={styles.emoji}
+                src={photo}
+                alt={photoAlt}
+                width='28'
+                height='28'
+              />
               <span className={styles.allyText}>{text}</span>
             </>
           )
