@@ -1,24 +1,24 @@
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import type { JSX } from 'react'
 import Layout from '@theme/Layout'
+import type { JSX } from 'react'
 import styles from './index.module.css'
 
 const RandomUrl = () => {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout title="To Infinity and Beyond" description={siteConfig.tagline}>
+    <Layout title='To Infinity and Beyond' description={siteConfig.tagline}>
       <>
         <Head>
           <title>{'To Infinity and Beyond'}</title>
-          <meta name="description" content={siteConfig.tagline} />
-          <meta property="og:title" content={'To Infinity and Beyond'} />
-          <meta property="og:description" content={siteConfig.tagline} />
+          <meta name='description' content={siteConfig.tagline} />
+          <meta property='og:title' content={'To Infinity and Beyond'} />
+          <meta property='og:description' content={siteConfig.tagline} />
           <meta
-            property="og:image"
+            property='og:image'
             content={`https://og.cho.sh/api/og?title=${encodeURIComponent(
-              'To Infinity and Beyond'
+              'To Infinity and Beyond',
             )}&subheading=${encodeURIComponent(siteConfig.tagline)}`}
           />
         </Head>
@@ -33,13 +33,15 @@ const RandomUrl = () => {
                   const parser = new DOMParser()
                   const xml = parser.parseFromString(text, 'text/xml')
                   urls = Array.from(xml.querySelectorAll('urlset > url > loc'))
-                  randomUrl = urls[Math.floor(Math.random() * urls.length)].textContent
+                  randomUrl =
+                    urls[Math.floor(Math.random() * urls.length)].textContent
 
                   window.location.href = randomUrl
                 })
               return (
                 <div className={styles.container}>
                   <button
+                    type='button'
                     className={styles.diceButton}
                     onClick={() => {
                       window.location.href = randomUrl

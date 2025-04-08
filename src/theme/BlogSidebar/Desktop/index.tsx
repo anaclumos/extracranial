@@ -1,15 +1,15 @@
-import React, { useId } from 'react'
-import clsx from 'clsx'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import type { Props } from '@theme/BlogSidebar/Desktop'
+import clsx from 'clsx'
+import { useId } from 'react'
 import Balancer from 'react-wrap-balancer'
 
 import styles from './styles.module.css'
 
 export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
   return (
-    <aside className="col col--3">
+    <aside className='col col--3'>
       <nav
         className={clsx(styles.sidebar, 'thin-scrollbar')}
         aria-label={translate({
@@ -18,7 +18,9 @@ export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
           description: 'The ARIA label for Articles in the blog sidebar',
         })}
       >
-        <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>{sidebar.title}</div>
+        <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
+          {sidebar.title}
+        </div>
         <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
           {sidebar.items.map((item) => (
             <Link

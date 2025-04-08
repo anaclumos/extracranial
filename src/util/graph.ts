@@ -6,7 +6,10 @@ export type Node = {
   nodeRelSize: number
 }
 
-export const processBacklinksToGraph = (backlinks, includeJournalsInGraph: boolean) => {
+export const processBacklinksToGraph = (
+  backlinks,
+  includeJournalsInGraph: boolean,
+) => {
   const nodes: Node[] = []
   const links: { source: string; target: string }[] = []
   for (const key in backlinks) {
@@ -29,9 +32,10 @@ export const processBacklinksToGraph = (backlinks, includeJournalsInGraph: boole
     if (!nodes.find((n) => n.id === node.id)) {
       nodes.push(node)
     }
-    Object.keys(backlinks[key]).forEach((neighbor) => {
-      if (!includeJournalsInGraph && neighbor.match(/^\d{4}-\d{2}-\d{2}$/)) return
-      if (!filenames[neighbor]) return
+    for (const neighbor of Object.keys(backlinks[key])) {
+      if (!includeJournalsInGraph && neighbor.match(/^\d{4}-\d{2}-\d{2}$/))
+        continue
+      if (!filenames[neighbor]) continue
       if (!nodes.find((node) => node.id === filenames[neighbor])) {
         nodes.push({
           nodeLabel: neighbor,
@@ -45,7 +49,7 @@ export const processBacklinksToGraph = (backlinks, includeJournalsInGraph: boole
       })
       nodes.find((n) => n.id === filenames[key]).nodeRelSize++
       node.nodeRelSize++
-    })
+    }
   }
   return { nodes, links }
 }

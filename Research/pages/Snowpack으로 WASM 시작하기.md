@@ -41,7 +41,7 @@ npm start
 - src/App.jsx
 
 ```jsx
-import React, { useState, useEffect } from 'react'
+import  { useState, useEffect } from 'react'
 import './App.css'
 
 import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg'

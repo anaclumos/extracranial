@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 const RandomParagraphs = ({ strings = [] }) => {
   const [selectedStrings, setSelectedStrings] = useState([])
@@ -24,8 +24,8 @@ const RandomParagraphs = ({ strings = [] }) => {
 
   return (
     <>
-      {selectedStrings.map((str, index) => (
-        <p key={index} className="text-lg">
+      {selectedStrings.map((str) => (
+        <p key={str} className='text-lg'>
           {str}
         </p>
       ))}

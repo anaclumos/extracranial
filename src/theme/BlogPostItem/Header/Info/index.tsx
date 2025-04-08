@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react'
-import clsx from 'clsx'
 import { translate } from '@docusaurus/Translate'
 import { usePluralForm } from '@docusaurus/theme-common'
+import clsx from 'clsx'
+import { type JSX, useEffect, useState } from 'react'
 
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
 import type { Props } from '@theme/BlogPostItem/Header/Info'
 
 import styles from './styles.module.css'
 
-import { previousAnalyticsData } from '@site/static/previous'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import { previousAnalyticsData } from '@site/static/previous'
 
 // Very simple pluralization: probably good enough for now
 function useReadingTimePlural() {
@@ -25,8 +25,8 @@ function useReadingTimePlural() {
             'Pluralized label for "{readingTime} min read". Use as much plural forms (separated by "|") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)',
           message: 'One min read|{readingTime} min read',
         },
-        { readingTime }
-      )
+        { readingTime },
+      ),
     )
   }
 }
@@ -36,9 +36,12 @@ function ReadingTime({ readingTime }: { readingTime: number }) {
   return <>{readingTimePlural(readingTime)}</>
 }
 
-function DateView({ date, formattedDate }: { date: string; formattedDate: string }) {
+function DateView({
+  date,
+  formattedDate,
+}: { date: string; formattedDate: string }) {
   return (
-    <time dateTime={date} itemProp="datePublished">
+    <time dateTime={date} itemProp='datePublished'>
       {formattedDate}
     </time>
   )
@@ -53,16 +56,16 @@ async function getViewCount(path: string) {
   let viewCount = 0
   if (viewCountKey.length === 6 && /^[a-fA-F0-9]+$/.test(viewCountKey)) {
     await fetch(
-      `https://simpleanalytics.com/cho.sh.json?version=5&info=false&start=2022-06-01&fields=pages&pages=*${viewCountKey}*`
+      `https://simpleanalytics.com/cho.sh.json?version=5&info=false&start=2022-06-01&fields=pages&pages=*${viewCountKey}*`,
     ).then((response) =>
       response
         .json()
         .then((data) => data.pages)
         .then((pages) => {
-          pages.forEach((page) => {
+          for (const page of pages) {
             viewCount += page.pageviews
-          })
-        })
+          }
+        }),
     )
   }
   viewCount += previousAnalyticsData[viewCountKey] || 0
@@ -83,7 +86,8 @@ const getViewString = (viewCount: number, locale: string) => {
       message: 'Unknown Views',
       description: 'The blog post has no views',
     })
-  } else if (viewCount === 1) {
+  }
+  if (viewCount === 1) {
     return (
       viewCount.toLocaleString(locale) +
       translate({
@@ -92,19 +96,20 @@ const getViewString = (viewCount: number, locale: string) => {
         description: 'The blog post has 1 view',
       })
     )
-  } else {
-    return (
-      viewCount.toLocaleString(locale) +
-      translate({
-        id: 'theme.blog.post.views',
-        message: 'views',
-        description: 'The blog post has multiple views',
-      })
-    )
   }
+  return (
+    viewCount.toLocaleString(locale) +
+    translate({
+      id: 'theme.blog.post.views',
+      message: 'views',
+      description: 'The blog post has multiple views',
+    })
+  )
 }
 
-export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Element {
+export default function BlogPostItemHeaderInfo({
+  className,
+}: Props): JSX.Element {
   const { metadata } = useBlogPost()
   const { date, readingTime, permalink } = metadata
   const { i18n } = useDocusaurusContext()
@@ -133,8 +138,8 @@ export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Elemen
           <Spacer />
           <a
             href={'https://simpleanalytics.com/cho.sh'}
-            target="_blank"
-            rel="noreferrer noopener"
+            target='_blank'
+            rel='noreferrer noopener'
             className={styles.viewCount}
           >
             <span>{getViewString(viewCount, locale)}</span>

@@ -1,6 +1,6 @@
-import type { JSX } from 'react'
-import clsx from 'clsx'
 import Link from '@docusaurus/Link'
+import clsx from 'clsx'
+import type { JSX } from 'react'
 
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
 import type { Props } from '@theme/BlogPostItem/Header/Title'
@@ -8,7 +8,9 @@ import Balancer from 'react-wrap-balancer'
 
 import styles from './styles.module.css'
 
-export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Element {
+export default function BlogPostItemHeaderTitle({
+  className,
+}: Props): JSX.Element {
   const { metadata, isBlogPostPage } = useBlogPost()
   const { permalink, title } = metadata
   const TitleHeading = isBlogPostPage ? 'h1' : 'h2'
@@ -32,7 +34,7 @@ export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Eleme
   }
 
   return (
-    <TitleHeading className={clsx(styles.title, className)} itemProp="headline">
+    <TitleHeading className={clsx(styles.title, className)} itemProp='headline'>
       {isBlogPostPage ? (
         <>
           <Balancer>{titleText}</Balancer>
@@ -40,7 +42,7 @@ export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Eleme
           {emoji}
         </>
       ) : (
-        <Link itemProp="url" to={permalink}>
+        <Link itemProp='url' to={permalink}>
           <>
             <Balancer>{titleText}</Balancer>
             <br />

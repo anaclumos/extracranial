@@ -74,8 +74,14 @@ const config: Config = {
       {
         createRedirects: (existingPath: string): string[] | undefined => {
           // Handle blog and research redirects
-          if (existingPath.includes('/blog') || existingPath.includes('/research')) {
-            return [existingPath.replace('/blog/', '/w/'), existingPath.replace('/research/', '/r/')]
+          if (
+            existingPath.includes('/blog') ||
+            existingPath.includes('/research')
+          ) {
+            return [
+              existingPath.replace('/blog/', '/w/'),
+              existingPath.replace('/research/', '/r/'),
+            ]
           }
 
           // Handle /r redirects
