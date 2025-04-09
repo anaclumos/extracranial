@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "30af912a3c75deea",
+        "id": "a710a3aae7e20f5e",
         "type": "tabs",
         "children": [
           {
-            "id": "c576ddccdf3dd547",
+            "id": "3f13ca19b72e8b60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/INCL.md",
+                "file": "journals/2025-04-09.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "INCL"
-            }
-          },
-          {
-            "id": "a71c20adbfe591da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/BitTorrent.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "BitTorrent"
+              "title": "2025-04-09"
             }
           }
         ]
@@ -209,12 +185,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c576ddccdf3dd547",
+  "active": "3f13ca19b72e8b60",
   "lastOpenFiles": [
+    "journals/2025-04-09.md",
+    "pages/Biome.md",
+    "pages/Docker Nuke.md",
+    "pages/BitTorrent.md",
+    "pages/INCL.md",
     "pages/uv (python).md",
     "journals/2025-04-08.md",
-    "pages/Biome.md",
-    "pages/BitTorrent.md",
     "pages/Torrent.md",
     "journals/2022-11-07.md",
     "pages/Remora Trading.md",
@@ -229,14 +208,11 @@
     "pages/Visual Studio Code.md",
     "pages/React God.md",
     "pages/Text-based Tools for Thought.md",
-    "pages/INCL.md",
     "journals/2025-04-07.md",
     "journals/2025-04-01.md",
     "journals/2025-04-02.md",
     "journals/2025-03-26.md",
     "journals/2025-03-27.md",
-    "journals/2025-03-30.md",
-    "journals/2025-03-28.md",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
     "assets/F483D2.png",

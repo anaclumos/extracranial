@@ -7,7 +7,18 @@ slug: '/1C434D'
 {
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "files": {
-    "ignore": ["**/.next/**", "**/node_modules/**", "**/.turbo/**", "**/dist/**", "**/storybook-static/**"]
+    "ignore": [
+      "**/node_modules/**",
+      "**/.next/**",
+      "**/.turbo/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.cache/**",
+      "**/storybook-static/**",
+      "**/.obsidian/**",
+      "**/.docusaurus/**"
+    ],
+    "ignoreUnknown": true
   },
   "formatter": {
     "enabled": true,
@@ -18,27 +29,26 @@ slug: '/1C434D'
     "lineWidth": 80,
     "attributePosition": "auto",
     "ignore": [
-      "**/cache",
-      "**/.cache",
-      "**/package.json",
-      "**/package-lock.json",
-      "**/public",
-      "**/CHANGELOG.md",
-      "**/.yarn",
-      "**/dist",
-      "**/node_modules",
-      "**/.next",
-      "**/build",
-      "**/.contentlayer"
+      "**/.cache/**",
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.next/**",
+      "**/public/**",
+      "**/*.json",
+      "**/*.md",
+      "**/.contentlayer/**"
     ]
   },
-  "organizeImports": { "enabled": true },
+  "organizeImports": {
+    "enabled": true
+  },
   "linter": {
     "enabled": true,
     "rules": {
       "recommended": true
     },
-    "ignore": ["dist/*", "**/.cache", "**/public", "**/node_modules", "**/*.esm.js"]
+    "ignore": ["**/node_modules/**", "**/dist/**", "**/build/**", "**/.cache/**", "**/public/**", "**/*.esm.js"]
   },
   "javascript": {
     "formatter": {
@@ -49,10 +59,19 @@ slug: '/1C434D'
       "arrowParentheses": "always",
       "bracketSpacing": true,
       "bracketSameLine": false,
-      "quoteStyle": "double",
+      "quoteStyle": "single",
       "attributePosition": "auto"
     }
   },
-  "overrides": [{ "include": ["*.ts", "*.tsx"] }]
+  "css": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
+  },
+  "overrides": [
+    {
+      "include": ["*.ts", "*.tsx"]
+    }
+  ]
 }
 ```
