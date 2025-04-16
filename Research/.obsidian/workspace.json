@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/INCL.md",
-                "mode": "preview",
+                "file": "journals/2025-04-16.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "INCL"
+              "title": "2025-04-16"
             }
           }
         ]
@@ -188,6 +188,8 @@
   },
   "active": "82ec4f9da34f7fad",
   "lastOpenFiles": [
+    "pages/INCL.md",
+    "journals/2025-04-16.md",
     "journals/2025-04-15.md",
     "assets/BD8935.gif",
     "pages/Sliding Master Master Detail.md",
@@ -213,7 +215,6 @@
     "journals/2025-03-28.md",
     "journals/2025-03-27.md",
     "pages/Lingua Franca.md",
-    "pages/HN Broadcast.md",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
     "assets/F483D2.png",

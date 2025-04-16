@@ -13758,9 +13758,6 @@ export const backlinks = {
       'Project Florence Literature Review':
         '- [ ] [[Siwei Feng et al. Multi-Participant Multi-Class Vertical Federated Learning]]',
     },
-  Antiagile: {
-    '2025-04-11': '[[Antiagile]]',
-  },
   'App Store': {
     Bondee:
       '... 2023, and has topped multiple [[app store]] charts across Asia.',
