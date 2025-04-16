@@ -17,7 +17,7 @@ export default function TOCItems({
   minHeadingLevel: minHeadingLevelOption,
   maxHeadingLevel: maxHeadingLevelOption,
   ...props
-}: Props): JSX.Element | null {
+}: Props) {
   const themeConfig = useThemeConfig()
 
   const minHeadingLevel =

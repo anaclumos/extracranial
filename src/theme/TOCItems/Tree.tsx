@@ -3,12 +3,7 @@ import React from 'react'
 import { type JSX, memo } from 'react'
 
 // Recursive component rendering the toc tree
-function TOCItemTree({
-  toc,
-  className,
-  linkClassName,
-  isChild,
-}: Props): JSX.Element | null {
+function TOCItemTree({ toc, className, linkClassName, isChild }: Props) {
   if (!toc.length) {
     return null
   }
