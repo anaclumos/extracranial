@@ -9,9 +9,7 @@ import Balancer from 'react-wrap-balancer'
 
 import styles from './styles.module.css'
 
-export default function BlogPostItemHeaderTitle({
-  className,
-}: Props): JSX.Element {
+export default function BlogPostItemHeaderTitle({ className }: Props) {
   const { metadata, isBlogPostPage } = useBlogPost()
   const { permalink, title } = metadata
   const TitleHeading = isBlogPostPage ? 'h1' : 'h2'

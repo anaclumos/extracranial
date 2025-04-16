@@ -9,7 +9,7 @@ export default function TOCInline({
   toc,
   minHeadingLevel,
   maxHeadingLevel,
-}: Props): JSX.Element {
+}: Props) {
   return (
     <div className={styles.tableOfContentsInline}>
       <TOCItems
