@@ -92,14 +92,6 @@
     "message": "이전 글",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
-  "theme.blog.post.loading.views": {
-    "message": "집계 중...",
-    "description": "The blog post view count is loading"
-  },
-  "theme.blog.post.no.views": {
-    "message": "알 수 없음",
-    "description": "The blog post has no views"
-  },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "아티클 글 페이지 이동",
     "description": "The ARIA label for the blog posts pagination"
@@ -127,14 +119,6 @@
   "theme.blog.post.readMoreLabel": {
     "message": "{title}에 대해 더 읽어보기",
     "description": "The ARIA label for the link to full blog posts from excerpts"
-  },
-  "theme.blog.post.view": {
-    "message": "번 열람",
-    "description": "The blog post has 1 view"
-  },
-  "theme.blog.post.views": {
-    "message": "번 열람",
-    "description": "The blog post has multiple views"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "아티클 최근 글 이동",

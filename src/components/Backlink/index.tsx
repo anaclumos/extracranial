@@ -16,7 +16,7 @@ const escapeRegExp = (string) => {
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
 }
 
-const processBacklinkItem = (inputText: string, title: string): JSX.Element => {
+const processBacklinkItem = (inputText: string, title: string) => {
   // Use a local variable instead of reassigning the parameter
   const cleanText = inputText.trim()
   // We don't need to HTML escape since we're not using dangerouslySetInnerHTML
