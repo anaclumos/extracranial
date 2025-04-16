@@ -95,7 +95,14 @@ const config: Config = {
     ],
   ],
 
-  plugins: [['vercel-analytics']],
+  plugins: [
+    [
+      'vercel-analytics',
+      {
+        mode: 'auto',
+      },
+    ],
+  ],
 
   // External resources with performance optimizations
   stylesheets: [
