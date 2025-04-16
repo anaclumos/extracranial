@@ -46,7 +46,7 @@
   "name": "cho-sh",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "build": "$npm_execpath run ready && $npm_execpath run format && NODE_OPTIONS=\"--max-old-space-size=8192\" docusaurus build",
+    "build": "$npm_execpath run ready && $npm_execpath run format && NODEj_OPTIONS=\"--max-old-space-size=8192\" docusaurus build",
     "clear": "rm -rf 'blog' && rm -rf 'docs' && find i18n -name \"*.md\" -type f -delete && cp tools/안녕.md i18n/ko/docusaurus-plugin-content-docs/current/Hey.md && rm -rf 'i18n/**/*.png' && find i18n -name \"*.svg\" -type f -delete && find i18n -name \"*.jpg\" -type f -delete && find i18n -name \"*.jpeg\" -type f -delete && find i18n -name \"*.gif\" -type f -delete && find i18n -name \"*.png\" -type f -delete",
     "dev": "$npm_execpath run ready && $npm_execpath run format && docusaurus start",
     "format": "prettier -w '**/*.md' && biome check --write .",
@@ -54,7 +54,7 @@
     "qa:start": "$npm_execpath run ready && $npm_execpath run format && $npm_execpath run build && $npm_execpath serve",
     "readme": "cp tools/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md",
     "ready": "$npm_execpath run clear && python3 tools/sanitize.py && python3 tools/process-blog.py && python3 tools/process-docs.py && python3 tools/process-backlinks.py && python3 tools/img-alt-to-figcaption.py",
-    "save": "$npm_execpath ready && $npm_execpath run readme && $npm_execpath run scc && $npm_execpath run format && git add . && git commit -m 'wrote something' && git push",
+    "save": "$npm_execpath ready && $npm_execpath run readme && $npm_execpath run scc && $npm_execpath run format && git add . && git commit -m 'wrote something' && git push && pnpm clear",
     "scc": "printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
     "serve": "docusaurus serve",
     "start": "docusaurus serve",
