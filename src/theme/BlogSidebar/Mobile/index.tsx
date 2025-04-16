@@ -5,7 +5,7 @@ import React from 'react'
 import type { JSX } from 'react'
 import Balancer from 'react-wrap-balancer'
 
-function BlogSidebarMobileSecondaryMenu({ sidebar }: Props): JSX.Element {
+function BlogSidebarMobileSecondaryMenu({ sidebar }: Props) {
   return (
     <ul className='menu__list'>
       {sidebar.items.map((item) => (
@@ -24,7 +24,7 @@ function BlogSidebarMobileSecondaryMenu({ sidebar }: Props): JSX.Element {
   )
 }
 
-export default function BlogSidebarMobile(props: Props): JSX.Element {
+export default function BlogSidebarMobile(props: Props) {
   return (
     <NavbarSecondaryMenuFiller
       component={BlogSidebarMobileSecondaryMenu}
