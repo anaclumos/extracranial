@@ -95,6 +95,8 @@ const config: Config = {
     ],
   ],
 
+  plugins: [['vercel-analytics']],
+
   // External resources with performance optimizations
   stylesheets: [
     {
@@ -160,17 +162,6 @@ const config: Config = {
       },
     },
   },
-
-  // Analytics script with performance attributes
-  scripts: [
-    {
-      src: 'https://sa.cho.sh/latest.js',
-      async: true,
-      defer: true,
-      'data-collect-dnt': 'true',
-      strategy: 'lazyOnload',
-    },
-  ],
 
   themes: ['@docusaurus/theme-mermaid'],
 }
