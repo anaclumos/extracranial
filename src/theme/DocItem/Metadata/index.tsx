@@ -4,7 +4,7 @@ import { PageMetadata } from '@docusaurus/theme-common'
 import React from 'react'
 import type { JSX } from 'react'
 
-export default function DocItemMetadata(): JSX.Element {
+export default function DocItemMetadata() {
   const { metadata, frontMatter, assets } = useDoc()
   const name = 'cho.sh'
   return (

@@ -8,7 +8,7 @@ import Balancer from 'react-wrap-balancer'
 
 import styles from './styles.module.css'
 
-export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
+export default function BlogSidebarDesktop({ sidebar }: Props) {
   return (
     <aside className='col col--3'>
       <nav

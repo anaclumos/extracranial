@@ -5,7 +5,7 @@ import React from 'react'
 import type { JSX } from 'react'
 import styles from './styles.module.css'
 
-export default function EditThisPage({ editUrl }: Props): JSX.Element {
+export default function EditThisPage({ editUrl }: Props) {
   return (
     <a
       href={editUrl}

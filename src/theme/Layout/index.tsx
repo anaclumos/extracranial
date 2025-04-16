@@ -6,7 +6,7 @@ import type { JSX } from 'react'
 
 type Props = WrapperProps<typeof LayoutType>
 
-export default function LayoutWrapper(props: Props): JSX.Element {
+export default function LayoutWrapper(props: Props) {
   return (
     <>
       <Layout {...props} />

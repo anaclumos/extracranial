@@ -7,7 +7,7 @@ import type { JSX } from 'react'
 import type { Props } from '@theme/BlogLayout'
 import styles from './styles.module.css'
 
-export default function BlogLayout(props: Props): JSX.Element {
+export default function BlogLayout(props: Props) {
   const { sidebar, toc, children, ...layoutProps } = props
   const hasSidebar = sidebar && sidebar.items.length > 0
 

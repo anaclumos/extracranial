@@ -6,7 +6,7 @@ import React from 'react'
 import type { JSX } from 'react'
 import styles from './styles.module.css'
 
-export default function DocPaginator(props: Props): JSX.Element {
+export default function DocPaginator(props: Props) {
   const { previous, next } = props
   return (
     <nav

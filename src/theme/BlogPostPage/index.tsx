@@ -6,7 +6,7 @@ import React from 'react'
 import type { JSX } from 'react'
 type Props = WrapperProps<typeof BlogPostPageType>
 
-export default function BlogPostPageWrapper(props: Props): JSX.Element {
+export default function BlogPostPageWrapper(props: Props) {
   const title = props.content.metadata.title
   const description = props.content.metadata.description
   return (

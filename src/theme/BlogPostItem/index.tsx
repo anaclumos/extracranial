@@ -11,7 +11,7 @@ import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
 
 type Props = WrapperProps<typeof BlogPostItemType>
 
-export default function BlogPostItemWrapper(props: Props): JSX.Element {
+export default function BlogPostItemWrapper(props: Props) {
   const { metadata } = useBlogPost()
   return (
     <>

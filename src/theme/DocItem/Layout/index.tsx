@@ -41,7 +41,7 @@ function useDocTOC() {
   }
 }
 
-export default function DocItemLayout({ children }: Props): JSX.Element {
+export default function DocItemLayout({ children }: Props) {
   const title = useDoc().metadata.title
   const docTOC = useDocTOC()
   return (
