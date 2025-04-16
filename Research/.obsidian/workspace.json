@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a710a3aae7e20f5e",
+        "id": "ee459f1c0ee867b8",
         "type": "tabs",
         "children": [
           {
-            "id": "3f13ca19b72e8b60",
+            "id": "82ec4f9da34f7fad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-04-09.md",
-                "mode": "source",
+                "file": "pages/INCL.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-09"
+              "title": "INCL"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Torrent",
+                "query": "30 language",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.50260543823242
+    "width": 250.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -185,34 +186,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f13ca19b72e8b60",
+  "active": "82ec4f9da34f7fad",
   "lastOpenFiles": [
-    "journals/2025-04-09.md",
-    "pages/Biome.md",
-    "pages/Docker Nuke.md",
-    "pages/BitTorrent.md",
-    "pages/INCL.md",
-    "pages/uv (python).md",
-    "journals/2025-04-08.md",
-    "pages/Torrent.md",
-    "journals/2022-11-07.md",
-    "pages/Remora Trading.md",
-    "pages/mem-isolate.md",
-    "pages/Sandbox.md",
-    "pages/Job Offer.md",
-    "pages/iPhone Keyboard.md",
-    "pages/v0 for iOS.md",
-    "pages/WebAssembly.md",
-    "pages/Dia (Browser).md",
-    "pages/Arc (Browser).md",
-    "pages/Visual Studio Code.md",
-    "pages/React God.md",
-    "pages/Text-based Tools for Thought.md",
+    "journals/2025-04-15.md",
+    "assets/BD8935.gif",
+    "pages/Sliding Master Master Detail.md",
     "journals/2025-04-07.md",
     "journals/2025-04-01.md",
-    "journals/2025-04-02.md",
-    "journals/2025-03-26.md",
+    "journals/2025-03-30.md",
+    "journals/2025-04-08.md",
+    "journals/2025-04-09.md",
+    "journals/2025-04-10.md",
+    "journals/2025-04-11.md",
+    "journals/2025-04-12.md",
+    "pages/Attention Settings.md",
+    "pages/Project Linguine.md",
+    "pages/Linguine Engine Test Drive Result 2023-07-13.md",
+    "pages/Project Heimdall.md",
+    "pages/Heimdall Pro Open Alpha.md",
+    "pages/Project Heimdall Table Structure.md",
+    "journals/2023-06-15.md",
+    "pages/Sprachraum.md",
+    "pages/Antiagile.md",
+    "pages/Font.md",
+    "pages/Biome.md",
+    "journals/2025-03-28.md",
     "journals/2025-03-27.md",
+    "pages/Lingua Franca.md",
+    "pages/HN Broadcast.md",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
     "assets/F483D2.png",
@@ -222,7 +223,6 @@
     "assets/FF2C43.jpg",
     "assets/FF159D.png",
     "assets/FEEE56.png",
-    "assets/FEDD94.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
