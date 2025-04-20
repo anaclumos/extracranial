@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Change Google One Subscription Country.md",
+                "file": "pages/JavaScript heap out of memory.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Change Google One Subscription Country"
+              "title": "JavaScript heap out of memory"
             }
           }
         ],
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "30 language",
+                "query": "--max-old-space-size",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.50260543823242,
-    "collapsed": true
+    "width": 250.50260543823242
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -213,6 +212,7 @@
   },
   "active": "12ff994d98102725",
   "lastOpenFiles": [
+    "pages/Cloudflare Pages.md",
     "pages/Change Google One Subscription Country.md",
     "journals/2025-04-20.md",
     "pages/every.news.md",
@@ -239,7 +239,6 @@
     "journals/2023-06-15.md",
     "pages/Sprachraum.md",
     "pages/Antiagile.md",
-    "pages/Font.md",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
     "assets/F483D2.png",
