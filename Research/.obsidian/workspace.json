@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ee459f1c0ee867b8",
+        "id": "6c374cb296e7bc46",
         "type": "tabs",
         "children": [
           {
-            "id": "82ec4f9da34f7fad",
+            "id": "f32c6ac1c3ec4a48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-04-16.md",
+                "file": "journals/2025-04-20.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-16"
+              "title": "2025-04-20"
+            }
+          },
+          {
+            "id": "12ff994d98102725",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Change Google One Subscription Country.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Change Google One Subscription Country"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,10 +211,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "82ec4f9da34f7fad",
+  "active": "12ff994d98102725",
   "lastOpenFiles": [
-    "pages/INCL.md",
+    "pages/Change Google One Subscription Country.md",
+    "journals/2025-04-20.md",
+    "pages/every.news.md",
+    "pages/Simple Analytics War Room.md",
     "journals/2025-04-16.md",
+    "pages/INCL.md",
     "journals/2025-04-15.md",
     "assets/BD8935.gif",
     "pages/Sliding Master Master Detail.md",
@@ -211,10 +240,6 @@
     "pages/Sprachraum.md",
     "pages/Antiagile.md",
     "pages/Font.md",
-    "pages/Biome.md",
-    "journals/2025-03-28.md",
-    "journals/2025-03-27.md",
-    "pages/Lingua Franca.md",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
     "assets/F483D2.png",
