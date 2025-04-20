@@ -47,7 +47,7 @@
   "name": "cho-sh",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "build": "$npm_execpath run ready && $npm_execpath run format && NODEj_OPTIONS=\"--max-old-space-size=8192\" docusaurus build",
+    "build": "$npm_execpath run ready && docusaurus build",
     "clear": "rm -rf 'blog' && rm -rf 'docs' && find i18n -name \"*.md\" -type f -delete && rm -rf 'i18n/**/*.png' && find i18n -name \"*.svg\" -type f -delete && find i18n -name \"*.jpg\" -type f -delete && find i18n -name \"*.jpeg\" -type f -delete && find i18n -name \"*.gif\" -type f -delete && find i18n -name \"*.png\" -type f -delete",
     "dev": "$npm_execpath run ready && $npm_execpath run format && docusaurus start",
     "format": "prettier -w '**/*.md' && biome check --write .",
