@@ -5,11 +5,9 @@ import i18n from './config/i18n.config'
 import navbar from './config/navbar.config'
 import theme from './config/theme.config'
 
-// Site metadata constants
 const SITE_URL = 'https://cho.sh'
 const CDN_BASE = 'https://cdn.jsdelivr.net'
 
-// Create async config to allow for dynamic content
 const config: Config = {
   title: 'cho.sh',
   tagline: 'I travel the WWW.',
@@ -17,7 +15,6 @@ const config: Config = {
   url: SITE_URL,
   baseUrl: '/',
 
-  // File handling configurations
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   onBrokenAnchors: 'warn',
@@ -25,20 +22,16 @@ const config: Config = {
   trailingSlash: false,
   favicon: 'img/favicon.svg',
 
-  // Repository info
   organizationName: 'anaclumos',
   projectName: 'extracranial',
 
-  // Internationalization
   i18n,
   baseUrlIssueBanner: false,
 
-  // Performance optimizations
   future: {
     experimental_faster: true,
   },
 
-  // Markdown configuration
   markdown: {
     format: 'mdx',
     mermaid: true,
@@ -55,7 +48,6 @@ const config: Config = {
     },
   },
 
-  // Main presets configuration
   presets: [
     [
       'classic',
@@ -63,34 +55,6 @@ const config: Config = {
         docs,
         blog,
         theme,
-        gtag: {
-          trackingID: 'G-7GMRW82QVZ',
-          anonymizeIP: true,
-        },
-      },
-    ],
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        createRedirects: (existingPath: string): string[] | undefined => {
-          // Handle blog and research redirects
-          if (
-            existingPath.includes('/blog') ||
-            existingPath.includes('/research')
-          ) {
-            return [
-              existingPath.replace('/blog/', '/w/'),
-              existingPath.replace('/research/', '/r/'),
-            ]
-          }
-
-          // Handle /r redirects
-          if (existingPath.endsWith('/r') || existingPath.endsWith('/r/')) {
-            return ['/r/000000']
-          }
-
-          return undefined
-        },
       },
     ],
   ],
@@ -104,7 +68,6 @@ const config: Config = {
     ],
   ],
 
-  // External resources with performance optimizations
   stylesheets: [
     {
       href: `${CDN_BASE}/npm/katex@latest/dist/katex.min.css`,
@@ -122,9 +85,7 @@ const config: Config = {
     },
   ],
 
-  // Theme configuration
   themeConfig: {
-    // Search configuration
     algolia: {
       appId: 'YYIGMBHSI6',
       apiKey: '4f28c78c43e91f6f922d20140434977f',
@@ -135,19 +96,16 @@ const config: Config = {
       debug: false,
     },
 
-    // Theme settings
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: true,
     },
     navbar,
 
-    // Syntax highlighting
     prism: {
       additionalLanguages: ['java', 'swift', 'diff', 'docker'],
     },
 
-    // Documentation settings
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 6,
@@ -159,7 +117,6 @@ const config: Config = {
       },
     },
 
-    // Mermaid diagram settings
     mermaid: {
       options: {
         fontFamily: 'var(--font-family-monospace)',

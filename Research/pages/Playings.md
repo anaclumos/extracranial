@@ -23,6 +23,11 @@ import Shuffle from '@site/src/components/Shuffle'
 - The Last of Us Part 2 (PS5 Slim)
 - Spiderman Miles Morales (PS5)
 - Ghost of Tsushima (PS5)
+- Rhythm Heaven Fever (Wii)
+- Rhythm Heaven Fever (Steam Deck OLED)
+- Rhythm Heaven Megamix (New 3DS XL)
+- Rhythm Heaven Megamix (Steam Deck OLED)
+- Rhythm Tengoku (Analogue Pocket)
 
 </Shuffle>
 
