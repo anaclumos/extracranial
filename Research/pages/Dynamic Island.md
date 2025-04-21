@@ -1,6 +1,0 @@
----
-lang: 'en'
-slug: '/620DDC'
----
-
-> The Dynamic Island is a reimagining of the sensor "notch" found in previous iPhone models starting with iPhone X, which in the iPhone 14 Pro is moved to a cutout slightly detached from the top of the screen. It is designed to serve useful information, such as hardware and system-level notifications, media playback data, and other app-specific functionality that [[Apple]] calls Live Activities. These icons may appear as an expansion on either side of the sensors, with the background matching the black color of the screen cutout and appearing to expand it seamlessly. Dynamic Island can also expand further into the wider iPhone 14 display. For example, notifications for incoming calls appear in a banner that stretches out horizontally from the sensors, while Face ID indicators drop down vertically from the sensor cutout rather than appearing in the center of the display as on previous models. The Dynamic Island can also be tapped to view additional details; for example, ongoing activities like [[Cartography|Maps]] directions or sports scores can also be expanded by tapping and holding the area. [iPhone 14 Pro](https://en.wikipedia.org/wiki/IPhone_14_Pro#Dynamic_Island)
