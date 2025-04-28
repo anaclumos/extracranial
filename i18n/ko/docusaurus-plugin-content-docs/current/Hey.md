@@ -52,5 +52,5 @@ slug: '/000000'
 저는 [Obsidian](/r/4AAFB1)을 이용해 생각을 기록합니다.
 그 기록들을 제맘대로 개조한
 [TypeScript](/r/134F92) [Docusaurus](/r/816CC8)로 연동합니다.
-이후 [AWS Fargate](/r/724BC5)와 [FlightControl](/r/9B3F38)을 이용해 배포합니다.
+이후 [Vercel](/r/E42038)을 이용해 배포합니다.
 [GitHub](https://github.com/anaclumos/extracranial)에 공개되어 있으니 확인해보세요 😃

@@ -1,11 +1,13 @@
 import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import React from 'react'
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const index = () => {
   const { siteConfig } = useDocusaurusContext()
   return (
     <Head>
+      <SpeedInsights />
       <title>{siteConfig.title}</title>
       <meta property="og:image" content="img/ogimage.png" />
       <meta property="twitter:image" content="img/ogimage.png" />
