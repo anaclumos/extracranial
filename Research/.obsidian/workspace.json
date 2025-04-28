@@ -11,10 +11,24 @@
             "id": "e721a8db73b481dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2023-06-01.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2023-06-01"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "2e4ae2.gif",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,19 +192,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5e18ef67deabf43",
+  "active": "e721a8db73b481dc",
   "lastOpenFiles": [
+    "assets/FEEE56.png",
+    "assets/436846.png",
+    "assets/E4D0EB.png",
+    "assets/09853B.png",
+    "assets/D0AE71.png",
+    "assets/B92798.gif",
+    "assets/7D878D.gif",
+    "assets/956863.gif",
+    "assets/3735AF.gif",
+    "assets/BD8935.gif",
+    "assets/F47E19.gif",
     "docusaurus.config.ts",
-    "assets/EAADF1.gif",
-    "assets/C6A468.png",
-    "assets/BF4114.jpg",
-    "assets/A2A1AF.gif",
-    "assets/101C04.png",
-    "assets/52DEF9.png",
-    "assets/1CE345.png",
-    "assets/C4BAAD.png",
-    "assets/DF7DE6.gif",
-    "assets/37BAD3.png",
     "pages/String Template Managing Tools.md",
     "templates/grind template.md",
     "templates/newsletter template.md",

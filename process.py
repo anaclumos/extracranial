@@ -23,15 +23,10 @@ import json
 import os
 import re
 import shutil
-import sys
 import unicodedata
 from datetime import timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, Iterator, List, Mapping, MutableMapping, Optional, Tuple, Union
-
-########################################################################################
-#  Helpers
-########################################################################################
 
 TZ_UTC = timezone.utc  # type: ignore
 
@@ -76,10 +71,6 @@ def debug(msg: str, flag: bool) -> None:
         print(msg)
 
 
-########################################################################################
-#  1. Sanitise Research markdown – NFC + hex placeholders + global replacements
-########################################################################################
-
 REPLACE_RULES: Dict[str, str] = {
     " ": " ",
     "️": "",
@@ -112,11 +103,6 @@ def _sanitise_one(path: Path, debug_flag: bool) -> None:
             text = text.replace(old, new)
     path.write_text(text, encoding="utf-8")
     debug(f"  • {path.relative_to(REPO)}", debug_flag)
-
-
-########################################################################################
-#  2. Blog processing – copy posts, generate index.md, remove language duplicates
-########################################################################################
 
 def process_blog(posts_src: Path, blog_en: Path, blog_ko: Path, cfg: Path) -> None:
     print("📝 Processing blog…")
@@ -157,7 +143,6 @@ def _walk_rename(dir_: Path, to_index: str, to_delete: str) -> None:
 ########################################################################################
 #  3. Docs processing – copy Research → docs & resolve wikilinks
 ########################################################################################
-
 def process_docs(research_src: Path, docs_dst: Path, debug_flag: bool) -> None:
     print("📚 Building docs…")
 
@@ -173,6 +158,20 @@ def process_docs(research_src: Path, docs_dst: Path, debug_flag: bool) -> None:
         target_path = docs_dst / rel_path
         target_path.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(yml_file, target_path)
+
+    # Copy over assets directory first
+    shutil.copytree(research_src / "assets", docs_dst / "assets", dirs_exist_ok=True)
+
+    # Handle image paths in markdown files
+    def process_images(path: Path) -> None:
+        text = path.read_text(encoding="utf-8")
+        # Replace wikilink style images ![[filename.ext]] with markdown style ![filename](../assets/filename.ext)
+        text = re.sub(r"!\[\[([^]]+?)]]", lambda m: f"![{m.group(1)}](../assets/{m.group(1)})", text)
+        path.write_text(text, encoding="utf-8")
+
+    # Apply image processing to all markdown files
+    with cf.ThreadPoolExecutor() as ex:
+        list(ex.map(process_images, all_md))
 
     def run(path: Path) -> None:
         text = path.read_text(encoding="utf-8")
@@ -197,11 +196,6 @@ def _resolve_wikilinks(text: str, current: Path, all_md: List[Path], debug_flag:
         return raw
 
     return re.sub(r"\[\[([^\]]+?)]]", repl, text)
-
-
-########################################################################################
-#  4. Backlink map generation
-########################################################################################
 
 def build_backlinks(docs_root: Path, out_dir: Path) -> None:
     print("🔗 Generating backlinks…")
@@ -248,10 +242,6 @@ def _context(line: str, needle: str, keep: int = 6) -> Tuple[str, str]:
             after + " ..." if after_raw != after else after)
 
 
-########################################################################################
-#  5. Image alt → <figure>/<figcaption>
-########################################################################################
-
 _IMG_RE = re.compile(r'!\[([^\]]*?)\]\(([^)]+?)\)$', re.M)
 
 
@@ -275,10 +265,6 @@ def fix_img_alt(docs_root: Path) -> None:
             path.write_text(text_out, encoding="utf-8")
     print(f"🖼️  Re-wrote {count} image blocks")
 
-
-########################################################################################
-#  6. Asset cleanup (optional)
-########################################################################################
 
 def cleanup_assets(assets_dir: Path, research_root: Path) -> None:
     print("🧹 Cleaning unused assets…")
@@ -309,10 +295,6 @@ def cleanup_assets(assets_dir: Path, research_root: Path) -> None:
             (assets_dir / f).unlink()
             print("      deleted", f)
 
-
-########################################################################################
-#  Main
-########################################################################################
 
 REPO = Path(__file__).resolve().parent
 
