@@ -6,25 +6,25 @@
   "repository": "https://github.com/anaclumos/extracranial.git",
   "dependencies": {
     "@docusaurus/core": "^3.7.0",
-    "@docusaurus/preset-classic": "^3.7.0",
     "@docusaurus/plugin-client-redirects": "^3.7.0",
+    "@docusaurus/plugin-vercel-analytics": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0",
     "@docusaurus/theme-mermaid": "^3.7.0",
     "@giscus/react": "^3.1.0",
-    "@vercel/analytics": "^1.4.1",
-    "@vercel/speed-insights": "^1.1.0",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.1.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-wrap-balancer": "^1.1.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "@docusaurus/tsconfig": "^3.7.0",
-    "@types/node": "^22.10.7",
-    "prettier": "^3.4.1",
-    "stylelint": "^16.13.2",
-    "stylelint-config-standard": "^37.0.0"
+    "@types/node": "^22.15.3",
+    "prettier": "^3.5.3",
+    "stylelint": "^16.19.1"
   },
   "scripts": {
     "build": "bun ready && NODE_OPTIONS=\"--max-old-space-size=7168\" docusaurus build",

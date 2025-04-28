@@ -134,6 +134,15 @@ const config: Config = {
   },
 
   themes: ['@docusaurus/theme-mermaid'],
+  plugins: [
+    [
+      'vercel-analytics',
+      {
+        debug: true,
+        mode: 'auto',
+      },
+    ],
+  ],
 }
 
 export default config

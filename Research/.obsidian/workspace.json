@@ -1,34 +1,20 @@
 {
   "main": {
-    "id": "549ad6d706da2f5e",
+    "id": "db5a4ae297fdcff0",
     "type": "split",
     "children": [
       {
-        "id": "b411cefbac30af0b",
+        "id": "f543327d0ca0fbfe",
         "type": "tabs",
         "children": [
           {
-            "id": "87941def649d5189",
+            "id": "e721a8db73b481dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Project Ganymede.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Project Ganymede"
+              "title": "New tab"
             }
           }
         ]
@@ -37,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "025858c0ef81fd75",
+    "id": "b99fb9530123b066",
     "type": "split",
     "children": [
       {
-        "id": "afd65362b70af23d",
+        "id": "e98145a23b688046",
         "type": "tabs",
         "children": [
           {
-            "id": "c078ec342fac4634",
+            "id": "c5e18ef67deabf43",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +44,7 @@
             }
           },
           {
-            "id": "08cef2a5f6b19940",
+            "id": "427fdd1a9afbc157",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +61,7 @@
             }
           },
           {
-            "id": "1921a28577ccb5d1",
+            "id": "f3b5560ff688ba74",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "d648a36b8059b408",
+    "id": "d353ec8364594c43",
     "type": "split",
     "children": [
       {
-        "id": "c08344fa10f2c567",
+        "id": "86442e303245d6ce",
         "type": "tabs",
         "children": [
           {
-            "id": "5eb7bef75d2eec50",
+            "id": "c96ccff2c077693e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Project Ganymede.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Project Ganymede"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "31e6885b4b3da321",
+            "id": "8b6da0369b78782d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/Project Ganymede.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Project Ganymede"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "20bca51a4ddad0b7",
+            "id": "4473a27868712582",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,23 +126,36 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
-            "id": "75738f0c6737a69a",
+            "id": "aa4c51363a9f5683",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Project Ganymede.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Project Ganymede"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "2ed2445ea1504c28",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -170,6 +167,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,20 +177,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87941def649d5189",
+  "active": "c5e18ef67deabf43",
   "lastOpenFiles": [
-    "assets/D21992.png",
+    "assets/EAADF1.gif",
+    "assets/C6A468.png",
+    "assets/BF4114.jpg",
+    "assets/A2A1AF.gif",
+    "assets/101C04.png",
+    "assets/52DEF9.png",
+    "assets/1CE345.png",
+    "assets/C4BAAD.png",
+    "assets/DF7DE6.gif",
+    "assets/37BAD3.png",
+    "assets/74C9EE.png",
+    "pages/String Template Managing Tools.md",
+    "templates/grind template.md",
+    "templates/newsletter template.md",
+    "templates/project template.md",
+    "templates/note template.md",
     "journals/2025-04-28.md",
-    "assets/52996E.png",
-    "assets/FDD149.gif",
-    "assets/C31AC2.gif",
-    "assets/25771A.png",
-    "assets/288AE0.png",
-    "assets/69FD21.png",
-    "assets/7A88FD.png",
-    "assets/9FB1B6.png",
-    "assets/7681FE.gif",
-    "assets/BE9986.gif",
     "journals/2022-06-14.md",
     "journals/2023-02-08.md",
     "journals/2025-04-23.md",
@@ -211,11 +215,6 @@
     "journals/2023-03-12.md",
     "journals/2022-06-06.md",
     "journals/2022-07-20.md",
-    "journals/2022-07-01.md",
-    "journals/2022-06-26.md",
-    "journals/2024-09-11.md",
-    "journals/2023-03-20.md",
-    "journals/2022-12-12.md",
     "templates",
     "journals",
     "assets",
