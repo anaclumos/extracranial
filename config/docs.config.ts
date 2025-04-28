@@ -25,7 +25,6 @@ const sidebarProcessor = (items) => {
 }
 const docs = {
   path: 'docs',
-  sidebarPath: require.resolve('./sidebars.js'),
   routeBasePath: '/r',
   exclude: ['**/templates/**'],
   breadcrumbs: false,

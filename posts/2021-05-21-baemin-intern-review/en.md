@@ -16,15 +16,13 @@ It may seem too late to write a review in 2021 for something that ended in Augus
 
 <figure>
 
-
 ![ALT: No shoes allowed - the so-called **Sushi Bar Lounge**. It's first-come, first-served due to the great view.](77D98C.jpeg)
-
 
 <figcaption>
 
 No shoes allowed - the so-called **Sushi Bar Lounge**. It's first-come, first-served due to the great view.
 
-</figcaption>  
+</figcaption>
 
 </figure>
 ## 🔋 Selection Process
@@ -38,36 +36,44 @@ Each question had a 700-character limit.
 ![2020 3rd Recruitment Banner](913C48.png)
 
 ### 1st Coding Test
+
 The problems were typical coding test questions. I remember solving them in JavaScript, and since I had practiced a lot for coding tests due to Programmers Summer Coding and Woowa Tech Camp at the time, the difficulty level wasn't too burdensome. There were a total of 4 problems with a time limit of 150 minutes.
+
 ### 2nd Coding Test
+
 It was a project to develop an admin tool that performs specific functions on the provided VS Code web platform. The basic boilerplate, build configuration, and CI/CD were pre-implemented, so it could be run quickly as described in the README, and we had to implement 3 core features on top of that. The use of external libraries was prohibited, and it had to be solved using only vanilla JS. The time limit was quite long at 4 hours, but I felt it was insufficient. I will omit the detailed problem-solving strategy as the staff said they couldn't share it... 😭
+
 ### Interview
+
 Due to COVID-19, it was conducted online for 30 minutes. Since it wasn't a developer recruitment interview, rather than asking in-depth technical questions, they mainly asked about whether we had a solid foundation as programmers, were ready to learn at Woowa Tech Camp, and could be good camp members. In my case, I mentioned this technical blog in my application, and they asked detailed questions about [one specific post](/w/4BB66F).
+
 ### Competition Ratio
+
 I was also curious about the competition ratio, and [according to what I learned later](https://woowabros.github.io/devrel/2020/08/14/tecmpcamp_july_1.html), it was as follows:
-- Total applicants: 1300+ (43+ times)  
-- Passed application and 1st coding test: 500+ (17+ times)  
-- Passed 2nd coding test: 90 (3 times)  
+
+- Total applicants: 1300+ (43+ times)
+- Passed application and 1st coding test: 500+ (17+ times)
+- Passed 2nd coding test: 90 (3 times)
 - Passed interview and final acceptance: 30
 
 ![The interview room at Woowa Brothers. Originally, the interviews were supposed to be held here, but due to the spread of COVID-19, they were conducted via Google Meet.](98526C.jpeg)
 
 ## 🏫 Curriculum
+
 0.  Orientation Period (3 days)
-- Mini Project: Implementing a web server without Express and HTTP.  
-- Study Keywords: Node.js, JS OOP, Asynchronous Programming, Async Cafe, HTTP Specification, HTTP Basics.  
-- [Our Team's GitHub](https://github.com/woowa-techcamp-2020/anaclumos-yuda1124-sooojungee-learn-node)  
+
+- Mini Project: Implementing a web server without Express and HTTP.
+- Study Keywords: Node.js, JS OOP, Asynchronous Programming, Async Cafe, HTTP Specification, HTTP Basics.
+- [Our Team's GitHub](https://github.com/woowa-techcamp-2020/anaclumos-yuda1124-sooojungee-learn-node)
 - [My Blog Post](/r/940821)
 
 <figure>
 
 <DisplayFlex>
 
-![ALT: Luther Hall 3](F63DD7.jpeg)  
+![ALT: Luther Hall 3](F63DD7.jpeg)
 
-
-![ALT: Luther Hall 2](B25CF2.jpeg)  
-
+![ALT: Luther Hall 2](B25CF2.jpeg)
 
 ![ALT: Luther Hall 1](7CE6C6.jpeg)
 
@@ -75,10 +81,9 @@ I was also curious about the competition ratio, and [according to what I learned
 
 <figcaption>
 
-  
 **Small House** where the orientation took place. Located in Jamsil.
 
-</figcaption>  
+</figcaption>
 
 </figure>
 1.  **Baemin Mart Project** implementing login (1 week)
@@ -92,16 +97,14 @@ I was also curious about the competition ratio, and [according to what I learned
 
 <DisplayFlex>
 
-![ALT: Office](8F3A1D.jpeg)  
-
+![ALT: Office](8F3A1D.jpeg)
 
 ![ALT: Office](A98162.jpeg)
 
 </DisplayFlex>
 <DisplayFlex>
 
-![ALT: Office](A1A228.jpeg)  
-
+![ALT: Office](A1A228.jpeg)
 
 ![ALT: Office](93DAB3.jpeg)
 
@@ -111,7 +114,7 @@ I was also curious about the competition ratio, and [according to what I learned
 
 **Big House** which became the main stage for Woowa Tech Camp. Located a 12-second walk from Mongchontoseong Station.
 
-</figcaption>  
+</figcaption>
 
 </figure>
 2.  **Trello Project** directly implementing a Kanban board (2 weeks)
@@ -125,8 +128,7 @@ I was also curious about the competition ratio, and [according to what I learned
 
 <DisplayFlex>
 
-![ALT: Cafe](33F15F.jpeg)  
-
+![ALT: Cafe](33F15F.jpeg)
 
 ![ALT: Cafe View](6ABC19.jpeg)
 
@@ -136,7 +138,7 @@ I was also curious about the competition ratio, and [according to what I learned
 
 The cafe on the 18th floor of the Big House and the view of Olympic Park from the cafe.
 
-</figcaption>  
+</figcaption>
 
 </figure>
 3.  **Bank Salad Project** directly implementing a household ledger app (2 weeks)
@@ -150,15 +152,13 @@ The cafe on the 18th floor of the Big House and the view of Olympic Park from th
 - [Our Team's GitHub](https://github.com/woowa-techcamp-2020/hkb-7)
 <figure>
 
-
 ![ALT: Pair Programming](FB8860.jpeg)
-
 
 <figcaption>
 
 We occasionally did pair programming. [The code you see now is...](https://github.com/woowa-techcamp-2020/hkb-7/blob/develop/server/routes/user.js)
 
-</figcaption>  
+</figcaption>
 
 </figure>
 4.  **B Mart Project** directly implementing Baedal Minjok's B Mart (3 weeks)
@@ -173,14 +173,16 @@ We occasionally did pair programming. [The code you see now is...](https://githu
 ![During the 4th project, social distancing was raised to level 2, so we had to proceed remotely.](F49613.png)
 
 ---
+
 ## ✨ The Good Parts
+
 First of all, an activity stipend of about 1.5 million won per month and activity equipment (MacBook Pro 💻 and monitor 🖥) were provided.
+
 <figure>
 
 <DisplayFlex>
 
-![ALT: MacBook](AB082E.jpeg)  
-
+![ALT: MacBook](AB082E.jpeg)
 
 ![ALT: Monitor](CA28E2.jpeg)
 
@@ -190,7 +192,7 @@ First of all, an activity stipend of about 1.5 million won per month and activit
 
 A 2019 MacBook Pro 16-inch i9 high-end model was loaned to everyone. 16GB RAM, 1TB SSD, Radeon 5500M 4GB GPU. As of the 2020 camp, it was the highest spec MacBook Pro that could be ordered without CTO. One monitor was provided for every two people, for a total of 15 monitors. The monitors were ThinkVision QHD monitors. I thought there wouldn't be enough monitors, but there were plenty.
 
-</figcaption>  
+</figcaption>
 
 </figure>
 ### 👨‍💻 What the heck is (for beginners) good code?
@@ -245,9 +247,7 @@ When doing a task, if the Googling Sessions per hour are (roughly) 3 or less, it
 
 Sometimes frameworks and libraries are treated like alien technology. Of course, well-known frameworks and libraries are collections of proven, efficient code, but thinking of them as **unapproachable alien technology** and **relying on libraries for all considerations** can be a bit dangerous.
 
-
 ![A developer doing npm i](2B2DBB.gif)
-
 
 In particular, the underlying technology of web libraries is Plain JavaScript that we can also use. Rather than blindly relying on external libraries, it was continuously emphasized throughout the camp that we need to know how that library works and what potential risk factors exist. In other words, in case of necessity, you should study carefully enough to be able to implement a library in a similar form.
 
@@ -272,16 +272,13 @@ Strictly speaking, the images exist in the form of CDN open web, so it's not **h
 The final image CDN URI looks roughly like this, and when accessed, the image appears.
 It wasn't a shallow level of crawling where you simply open the B Mart web view and use CSS selectors, nor did we receive internal resource server data by sharing it with Woowa Tech Camp, so it took quite a bit of effort. To briefly share, I intercepted the iOS Baemin app communication to find out the endpoints and image addresses, and through a bit of CTF, I was able to figure out the image address list. I scraped about 1,000 images, icons, sound effects, etc. from that image server and shared them in a private repository for other Woowa Tech Camp participants to use.
 
-
 ![Crawled result](682A16.png)
-
 
 ### 🏢 Whirlwind Corporate Night History
 
 We were able to hear behind-the-stories of Korean companies in between. Stories like how a certain game company doesn't use RDB much and uses binary dumps because hundreds of thousands of items are mass-produced, how an incident occurred where someone manipulated the game DB fields to duplicate items worth hundreds of millions of won, so DB access rights management became very strict afterward, how developers at a certain accommodation company could access the personal information of all members, so for a while, developers freely accessed celebrity member information... For me, who is very interested in the corporate ecosystem, these were truly fascinating stories.
 
 ![The day the neighboring N company's C Foundation's B Camp exploded](C7EE19.png)
-
 
 ### ⚡️ Synergy x Synergy = Synergy<sup>3</sup>
 
@@ -294,13 +291,9 @@ In terms of the design mindset of a front-end developer, I was greatly influence
 
 Greatly influenced, I also tried improving the design from the 3rd Bank Salad project. This is how I completely modified the design ↓
 
-
 ![The provided household ledger design draft. This draft is just a starting point, and it's entirely up to the camp participants to unleash their creativity from here.](31E2FF.png)
 
-
-
 ![I realized design is a more fun task than I thought (quite satisfied)](E524D3.png)
-
 
 In my opinion, the advantages of my design are ① it makes full use of the wide screen by dividing and arranging the screen elements into 3 columns, and ② the activity log window on the right operates independently, so the contents of the right window are maintained even when freely moving to the calendar, statistics, and payment method management. Kind of like Slack?
 
@@ -392,6 +385,4 @@ In addition, there was an overflow of things to learn, such as [naamoonoo](https
 
 </details>
 
-
 ![The End!](976A54.jpg)
-

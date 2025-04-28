@@ -51,6 +51,6 @@ Please understand that this Wikipedia serves as a record of my thoughts at speci
 
 I use [[Obsidian]] for taking notes.
 I then pipeline those notes into heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.
-I finally use [[AWS Fargate]] and [[FlightControl]] for deploying, [[caching]], and distributing.
+I finally use [[Vercel]] for deploying, [[caching]], and distributing.
 I open-sourced it on [GitHub](https://github.com/anaclumos/extracranial).
 Take a look! 😃

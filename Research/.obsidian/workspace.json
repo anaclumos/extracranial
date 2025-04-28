@@ -179,6 +179,7 @@
   },
   "active": "c5e18ef67deabf43",
   "lastOpenFiles": [
+    "docusaurus.config.ts",
     "assets/EAADF1.gif",
     "assets/C6A468.png",
     "assets/BF4114.jpg",
@@ -189,7 +190,6 @@
     "assets/C4BAAD.png",
     "assets/DF7DE6.gif",
     "assets/37BAD3.png",
-    "assets/74C9EE.png",
     "pages/String Template Managing Tools.md",
     "templates/grind template.md",
     "templates/newsletter template.md",
