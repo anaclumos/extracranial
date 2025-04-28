@@ -1,0 +1,1017 @@
+article a[href*='https://g2.com']::before,
+article a[href*='https://www.g2.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/g2.svg');
+  mask-image: url('https://simpleicons.org/icons/g2.svg');
+}
+
+article a[href*='https://g2a.com']::before,
+article a[href*='https://www.g2a.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/g2a.svg');
+  mask-image: url('https://simpleicons.org/icons/g2a.svg');
+}
+
+article a[href*='https://gamedeveloper.com']::before,
+article a[href*='https://www.gamedeveloper.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gamedeveloper.svg');
+  mask-image: url('https://simpleicons.org/icons/gamedeveloper.svg');
+}
+
+article a[href*='https://gamejolt.com']::before,
+article a[href*='https://www.gamejolt.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gamejolt.svg');
+  mask-image: url('https://simpleicons.org/icons/gamejolt.svg');
+}
+
+article a[href*='https://garmin.com']::before,
+article a[href*='https://www.garmin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/garmin.svg');
+  mask-image: url('https://simpleicons.org/icons/garmin.svg');
+}
+
+article a[href*='https://gatling.io']::before,
+article a[href*='https://www.gatling.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gatling.svg');
+  mask-image: url('https://simpleicons.org/icons/gatling.svg');
+}
+
+article a[href*='https://gatsbyjs.com']::before,
+article a[href*='https://www.gatsbyjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gatsby.svg');
+  mask-image: url('https://simpleicons.org/icons/gatsby.svg');
+}
+
+article a[href*='https://geant.org']::before,
+article a[href*='https://www.geant.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/geant.svg');
+  mask-image: url('https://simpleicons.org/icons/geant.svg');
+}
+
+article a[href*='https://geeksforgeeks.org']::before,
+article a[href*='https://www.geeksforgeeks.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/geeksforgeeks.svg');
+  mask-image: url('https://simpleicons.org/icons/geeksforgeeks.svg');
+}
+
+article a[href*='https://generalelectric.com']::before,
+article a[href*='https://www.generalelectric.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/generalelectric.svg');
+  mask-image: url('https://simpleicons.org/icons/generalelectric.svg');
+}
+
+article a[href*='https://generalmotors.com']::before,
+article a[href*='https://www.generalmotors.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/generalmotors.svg');
+  mask-image: url('https://simpleicons.org/icons/generalmotors.svg');
+}
+
+article a[href*='https://genius.com']::before,
+article a[href*='https://www.genius.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/genius.svg');
+  mask-image: url('https://simpleicons.org/icons/genius.svg');
+}
+
+article a[href*='https://gentoo.org']::before,
+article a[href*='https://www.gentoo.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gentoo.svg');
+  mask-image: url('https://simpleicons.org/icons/gentoo.svg');
+}
+
+article a[href*='https://geocaching.com']::before,
+article a[href*='https://www.geocaching.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/geocaching.svg');
+  mask-image: url('https://simpleicons.org/icons/geocaching.svg');
+}
+
+article a[href*='https://gerritcodereview.com']::before,
+article a[href*='https://www.gerritcodereview.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gerrit.svg');
+  mask-image: url('https://simpleicons.org/icons/gerrit.svg');
+}
+
+article a[href*='https://ghost.org']::before,
+article a[href*='https://www.ghost.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ghost.svg');
+  mask-image: url('https://simpleicons.org/icons/ghost.svg');
+}
+
+article a[href*='https://ghostery.com']::before,
+article a[href*='https://www.ghostery.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ghostery.svg');
+  mask-image: url('https://simpleicons.org/icons/ghostery.svg');
+}
+
+article a[href*='https://gimp.org']::before,
+article a[href*='https://www.gimp.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gimp.svg');
+  mask-image: url('https://simpleicons.org/icons/gimp.svg');
+}
+
+article a[href*='https://giphy.com']::before,
+article a[href*='https://www.giphy.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/giphy.svg');
+  mask-image: url('https://simpleicons.org/icons/giphy.svg');
+}
+
+article a[href*='https://git-scm.com']::before,
+article a[href*='https://www.git-scm.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/git.svg');
+  mask-image: url('https://simpleicons.org/icons/git.svg');
+}
+
+article a[href*='https://gitextensions.github.io']::before,
+article a[href*='https://www.gitextensions.github.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitextensions.svg');
+  mask-image: url('https://simpleicons.org/icons/gitextensions.svg');
+}
+
+article a[href*='https://git-lfs.github.com']::before,
+article a[href*='https://www.git-lfs.github.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitlfs.svg');
+  mask-image: url('https://simpleicons.org/icons/gitlfs.svg');
+}
+
+article a[href*='https://gitbook.com']::before,
+article a[href*='https://www.gitbook.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitbook.svg');
+  mask-image: url('https://simpleicons.org/icons/gitbook.svg');
+}
+
+article a[href*='https://gitea.io']::before,
+article a[href*='https://www.gitea.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitea.svg');
+  mask-image: url('https://simpleicons.org/icons/gitea.svg');
+}
+
+article a[href*='https://gitee.com']::before,
+article a[href*='https://www.gitee.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitee.svg');
+  mask-image: url('https://simpleicons.org/icons/gitee.svg');
+}
+
+article a[href*='https://github.com']::before,
+article a[href*='https://www.github.com']::before,
+article a[href*='https://githubusercontent.com']::before,
+article a[href*='https://www.githubusercontent.com']::before,
+article a[href*='https://githubassets.com']::before,
+article a[href*='https://www.githubassets.com']::before,
+article a[href*='https://githubapp.com']::before,
+article a[href*='https://www.githubapp.com']::before,
+article a[href*='https://githubstatus.com']::before,
+article a[href*='https://www.githubstatus.com']::before,
+article a[href*='https://github.blog']::before,
+article a[href*='https://www.github.blog']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/github.svg');
+  mask-image: url('https://simpleicons.org/icons/github.svg');
+}
+
+article a[href*='https://github.com/features/actions']::before,
+article a[href*='https://www.github.com/features/actions']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/githubactions.svg');
+  mask-image: url('https://simpleicons.org/icons/githubactions.svg');
+}
+
+article a[href*='https://pages.github.com']::before,
+article a[href*='https://www.pages.github.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/githubpages.svg');
+  mask-image: url('https://simpleicons.org/icons/githubpages.svg');
+}
+
+article a[href*='https://github.com/sponsors']::before,
+article a[href*='https://www.github.com/sponsors']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/githubsponsors.svg');
+  mask-image: url('https://simpleicons.org/icons/githubsponsors.svg');
+}
+
+article a[href*='https://gitignore.io']::before,
+article a[href*='https://www.gitignore.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitignoredotio.svg');
+  mask-image: url('https://simpleicons.org/icons/gitignoredotio.svg');
+}
+
+article a[href*='https://gitkraken.com']::before,
+article a[href*='https://www.gitkraken.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitkraken.svg');
+  mask-image: url('https://simpleicons.org/icons/gitkraken.svg');
+}
+
+article a[href*='https://gitlab.com']::before,
+article a[href*='https://www.gitlab.com']::before,
+article a[href*='https://gitlab.grammarly.io']::before,
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitlab.svg');
+  mask-image: url('https://simpleicons.org/icons/gitlab.svg');
+}
+
+article a[href*='https://gitpod.io']::before,
+article a[href*='https://www.gitpod.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitpod.svg');
+  mask-image: url('https://simpleicons.org/icons/gitpod.svg');
+}
+
+article a[href*='https://gitter.im']::before,
+article a[href*='https://www.gitter.im']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gitter.svg');
+  mask-image: url('https://simpleicons.org/icons/gitter.svg');
+}
+
+article a[href*='https://glassdoor.com']::before,
+article a[href*='https://www.glassdoor.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/glassdoor.svg');
+  mask-image: url('https://simpleicons.org/icons/glassdoor.svg');
+}
+
+article a[href*='https://glitch.com']::before,
+article a[href*='https://www.glitch.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/glitch.svg');
+  mask-image: url('https://simpleicons.org/icons/glitch.svg');
+}
+
+article a[href*='https://globus.org']::before,
+article a[href*='https://www.globus.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/globus.svg');
+  mask-image: url('https://simpleicons.org/icons/globus.svg');
+}
+
+article a[href*='https://gmail.com']::before,
+article a[href*='https://www.gmail.com']::before,
+article a[href*='https://mail.google']::before,
+article a[href*='https://www.mail.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gmail.svg');
+  mask-image: url('https://simpleicons.org/icons/gmail.svg');
+}
+
+article a[href*='https://gnome.org']::before,
+article a[href*='https://www.gnome.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gnome.svg');
+  mask-image: url('https://simpleicons.org/icons/gnome.svg');
+}
+
+article a[href*='https://gnome.org']::before,
+article a[href*='https://www.gnome.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gnometerminal.svg');
+  mask-image: url('https://simpleicons.org/icons/gnometerminal.svg');
+}
+
+article a[href*='https://gnu.org']::before,
+article a[href*='https://www.gnu.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gnu.svg');
+  mask-image: url('https://simpleicons.org/icons/gnu.svg');
+}
+
+article a[href*='https://gnu.org']::before,
+article a[href*='https://www.gnu.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gnubash.svg');
+  mask-image: url('https://simpleicons.org/icons/gnubash.svg');
+}
+
+article a[href*='https://gnu.org']::before,
+article a[href*='https://www.gnu.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gnuemacs.svg');
+  mask-image: url('https://simpleicons.org/icons/gnuemacs.svg');
+}
+
+article a[href*='https://gnu.org']::before,
+article a[href*='https://www.gnu.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gnuicecat.svg');
+  mask-image: url('https://simpleicons.org/icons/gnuicecat.svg');
+}
+
+article a[href*='https://gnu.org']::before,
+article a[href*='https://www.gnu.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gnuprivacyguard.svg');
+  mask-image: url('https://simpleicons.org/icons/gnuprivacyguard.svg');
+}
+
+article a[href*='https://gnu.io']::before,
+article a[href*='https://www.gnu.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gnusocial.svg');
+  mask-image: url('https://simpleicons.org/icons/gnusocial.svg');
+}
+
+article a[href*='https://golang.org']::before,
+article a[href*='https://www.golang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/go.svg');
+  mask-image: url('https://simpleicons.org/icons/go.svg');
+}
+
+article a[href*='https://gocd.org']::before,
+article a[href*='https://www.gocd.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gocd.svg');
+  mask-image: url('https://simpleicons.org/icons/gocd.svg');
+}
+
+article a[href*='https://godaddy.com']::before,
+article a[href*='https://www.godaddy.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/godaddy.svg');
+  mask-image: url('https://simpleicons.org/icons/godaddy.svg');
+}
+
+article a[href*='https://godotengine.org']::before,
+article a[href*='https://www.godotengine.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/godotengine.svg');
+  mask-image: url('https://simpleicons.org/icons/godotengine.svg');
+}
+
+article a[href*='https://gofundme.com']::before,
+article a[href*='https://www.gofundme.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gofundme.svg');
+  mask-image: url('https://simpleicons.org/icons/gofundme.svg');
+}
+
+article a[href*='https://gog.com']::before,
+article a[href*='https://www.gog.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gogdotcom.svg');
+  mask-image: url('https://simpleicons.org/icons/gogdotcom.svg');
+}
+
+article a[href*='https://jetbrains.com']::before,
+article a[href*='https://www.jetbrains.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/goland.svg');
+  mask-image: url('https://simpleicons.org/icons/goland.svg');
+}
+
+article a[href*='https://goldenline.pl']::before,
+article a[href*='https://www.goldenline.pl']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/goldenline.svg');
+  mask-image: url('https://simpleicons.org/icons/goldenline.svg');
+}
+
+article a[href*='https://goodreads.com']::before,
+article a[href*='https://www.goodreads.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/goodreads.svg');
+  mask-image: url('https://simpleicons.org/icons/goodreads.svg');
+}
+
+article a[href*='https://google.com/search']::before,
+article a[href*='https://www.google.com/search']::before,
+article a[href*='https://about.google']::before,
+article a[href*='https://www.about.google']::before,
+article a[href*='https://googleblog.com']::before,
+article a[href*='https://blog.google']::before,
+article a[href*='https://www.blog.google']::before,
+article a[href*='https://www.googleblog.com']::before,
+article a[href*='https://developers.googleblog.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/google.svg');
+  mask-image: url('https://simpleicons.org/icons/google.svg');
+}
+
+article a[href*='https://admob.google']::before,
+article a[href*='https://www.admob.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googleadmob.svg');
+  mask-image: url('https://simpleicons.org/icons/googleadmob.svg');
+}
+
+article a[href*='https://ads.google']::before,
+article a[href*='https://www.ads.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googleads.svg');
+  mask-image: url('https://simpleicons.org/icons/googleads.svg');
+}
+
+article a[href*='https://adsense.google']::before,
+article a[href*='https://www.adsense.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googleadsense.svg');
+  mask-image: url('https://simpleicons.org/icons/googleadsense.svg');
+}
+
+article a[href*='https://analytics.google']::before,
+article a[href*='https://www.analytics.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googleanalytics.svg');
+  mask-image: url('https://simpleicons.org/icons/googleanalytics.svg');
+}
+
+article a[href*='https://assistant.google']::before,
+article a[href*='https://www.assistant.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googleassistant.svg');
+  mask-image: url('https://simpleicons.org/icons/googleassistant.svg');
+}
+
+article a[href*='https://calendar.google']::before,
+article a[href*='https://www.calendar.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlecalendar.svg');
+  mask-image: url('https://simpleicons.org/icons/googlecalendar.svg');
+}
+
+article a[href*='https://cardboard.google']::before,
+article a[href*='https://www.cardboard.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlecardboard.svg');
+  mask-image: url('https://simpleicons.org/icons/googlecardboard.svg');
+}
+
+article a[href*='https://chat.google']::before,
+article a[href*='https://www.chat.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlechat.svg');
+  mask-image: url('https://simpleicons.org/icons/googlechat.svg');
+}
+
+article a[href*='https://chrome.google']::before,
+article a[href*='https://www.chrome.google']::before,
+article a[href*='https://chrome.com']::before,
+article a[href*='https://www.chrome.com']::before,
+article a[href*='https://developer.chrome.com']::before,
+article a[href*='https://chrome.google.com']::before,
+article a[href*='https://chromium.org']::before,
+article a[href*='https://www.chromium.org']::before,
+article a[href*='https://web.dev']::before,
+article a[href*='https://www.web.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlechrome.svg');
+  mask-image: url('https://simpleicons.org/icons/googlechrome.svg');
+}
+
+article a[href*='https://classroom.google']::before,
+article a[href*='https://www.classroom.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googleclassroom.svg');
+  mask-image: url('https://simpleicons.org/icons/googleclassroom.svg');
+}
+
+article a[href*='https://cloud.google']::before,
+article a[href*='https://www.cloud.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlecloud.svg');
+  mask-image: url('https://simpleicons.org/icons/googlecloud.svg');
+}
+
+article a[href*='https://colab.research.google']::before,
+article a[href*='https://www.colab.research.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlecolab.svg');
+  mask-image: url('https://simpleicons.org/icons/googlecolab.svg');
+}
+
+article a[href*='https://domains.google']::before,
+article a[href*='https://www.domains.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googledomains.svg');
+  mask-image: url('https://simpleicons.org/icons/googledomains.svg');
+}
+
+article a[href*='https://drive.google']::before,
+article a[href*='https://www.drive.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googledrive.svg');
+  mask-image: url('https://simpleicons.org/icons/googledrive.svg');
+}
+
+article a[href*='https://earth.google']::before,
+article a[href*='https://www.earth.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googleearth.svg');
+  mask-image: url('https://simpleicons.org/icons/googleearth.svg');
+}
+
+article a[href*='https://fit.google']::before,
+article a[href*='https://www.fit.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlefit.svg');
+  mask-image: url('https://simpleicons.org/icons/googlefit.svg');
+}
+
+article a[href*='https://fonts.google']::before,
+article a[href*='https://www.fonts.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlefonts.svg');
+  mask-image: url('https://simpleicons.org/icons/googlefonts.svg');
+}
+
+article a[href*='https://hangouts.google']::before,
+article a[href*='https://www.hangouts.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlehangouts.svg');
+  mask-image: url('https://simpleicons.org/icons/googlehangouts.svg');
+}
+
+article a[href*='https://home.google']::before,
+article a[href*='https://www.home.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlehome.svg');
+  mask-image: url('https://simpleicons.org/icons/googlehome.svg');
+}
+
+article a[href*='https://keep.google']::before,
+article a[href*='https://www.keep.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlekeep.svg');
+  mask-image: url('https://simpleicons.org/icons/googlekeep.svg');
+}
+
+article a[href*='https://lens.google']::before,
+article a[href*='https://www.lens.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlelens.svg');
+  mask-image: url('https://simpleicons.org/icons/googlelens.svg');
+}
+
+article a[href*='https://maps.google']::before,
+article a[href*='https://www.maps.google']::before,
+article a[href*='https://google.com/maps']::before,
+article a[href*='https://www.google.com/maps']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlemaps.svg');
+  mask-image: url('https://simpleicons.org/icons/googlemaps.svg');
+}
+
+article a[href*='https://marketingplatform.google']::before,
+article a[href*='https://www.marketingplatform.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlemarketingplatform.svg');
+  mask-image: url('https://simpleicons.org/icons/googlemarketingplatform.svg');
+}
+
+article a[href*='https://meet.google']::before,
+article a[href*='https://www.meet.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlemeet.svg');
+  mask-image: url('https://simpleicons.org/icons/googlemeet.svg');
+}
+
+article a[href*='https://messages.google']::before,
+article a[href*='https://www.messages.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlemessages.svg');
+  mask-image: url('https://simpleicons.org/icons/googlemessages.svg');
+}
+
+article a[href*='https://mybusiness.google']::before,
+article a[href*='https://www.mybusiness.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlemybusiness.svg');
+  mask-image: url('https://simpleicons.org/icons/googlemybusiness.svg');
+}
+
+article a[href*='https://nearby.google']::before,
+article a[href*='https://www.nearby.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlenearby.svg');
+  mask-image: url('https://simpleicons.org/icons/googlenearby.svg');
+}
+
+article a[href*='https://news.google']::before,
+article a[href*='https://www.news.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlenews.svg');
+  mask-image: url('https://simpleicons.org/icons/googlenews.svg');
+}
+
+article a[href*='https://optimize.google']::before,
+article a[href*='https://www.optimize.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googleoptimize.svg');
+  mask-image: url('https://simpleicons.org/icons/googleoptimize.svg');
+}
+
+article a[href*='https://pay.google']::before,
+article a[href*='https://www.pay.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlepay.svg');
+  mask-image: url('https://simpleicons.org/icons/googlepay.svg');
+}
+
+article a[href*='https://photos.google']::before,
+article a[href*='https://www.photos.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlephotos.svg');
+  mask-image: url('https://simpleicons.org/icons/googlephotos.svg');
+}
+
+article a[href*='https://play.google']::before,
+article a[href*='https://www.play.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googleplay.svg');
+  mask-image: url('https://simpleicons.org/icons/googleplay.svg');
+}
+
+article a[href*='https://podcasts.google']::before,
+article a[href*='https://www.podcasts.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlepodcasts.svg');
+  mask-image: url('https://simpleicons.org/icons/googlepodcasts.svg');
+}
+
+article a[href*='https://scholar.google']::before,
+article a[href*='https://www.scholar.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlescholar.svg');
+  mask-image: url('https://simpleicons.org/icons/googlescholar.svg');
+}
+
+article a[href*='https://search.google.com/search-console']::before,
+article a[href*='https://www.search.google.com/search-console']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlesearchconsole.svg');
+  mask-image: url('https://simpleicons.org/icons/googlesearchconsole.svg');
+}
+
+article a[href*='https://docs.google.com/spreadsheets']::before,
+article a[href*='https://www.docs.google.com/spreadsheets']::before,
+article a[href*='https://forms.gle']::before,
+article a[href*='https://www.forms.gle']::before,
+article a[href*='https://docs.google.com/forms']::before,
+article a[href*='https://www.docs.google.com/forms']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlesheets.svg');
+  mask-image: url('https://simpleicons.org/icons/googlesheets.svg');
+}
+
+article a[href*='https://streetview.google']::before,
+article a[href*='https://www.streetview.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googlestreetview.svg');
+  mask-image: url('https://simpleicons.org/icons/googlestreetview.svg');
+}
+
+article a[href*='https://tagmanager.google']::before,
+article a[href*='https://www.tagmanager.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googletagmanager.svg');
+  mask-image: url('https://simpleicons.org/icons/googletagmanager.svg');
+}
+
+article a[href*='https://translate.google']::before,
+article a[href*='https://www.translate.google']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/googletranslate.svg');
+  mask-image: url('https://simpleicons.org/icons/googletranslate.svg');
+}
+
+article a[href*='https://goto.com']::before,
+article a[href*='https://www.goto.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gotomeeting.svg');
+  mask-image: url('https://simpleicons.org/icons/gotomeeting.svg');
+}
+
+article a[href*='https://grab.com']::before,
+article a[href*='https://www.grab.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/grab.svg');
+  mask-image: url('https://simpleicons.org/icons/grab.svg');
+}
+
+article a[href*='https://gradle.org']::before,
+article a[href*='https://www.gradle.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gradle.svg');
+  mask-image: url('https://simpleicons.org/icons/gradle.svg');
+}
+
+article a[href*='https://grafana.com']::before,
+article a[href*='https://www.grafana.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/grafana.svg');
+  mask-image: url('https://simpleicons.org/icons/grafana.svg');
+}
+
+article a[href*='https://grammarly.com']::before,
+article a[href*='https://www.grammarly.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/grammarly.svg');
+  mask-image: url('https://simpleicons.org/icons/grammarly.svg');
+}
+
+article a[href*='https://grandfrais.com']::before,
+article a[href*='https://www.grandfrais.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/grandfrais.svg');
+  mask-image: url('https://simpleicons.org/icons/grandfrais.svg');
+}
+
+article a[href*='https://graphql.org']::before,
+article a[href*='https://www.graphql.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/graphql.svg');
+  mask-image: url('https://simpleicons.org/icons/graphql.svg');
+}
+
+article a[href*='https://getgrav.org']::before,
+article a[href*='https://www.getgrav.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/grav.svg');
+  mask-image: url('https://simpleicons.org/icons/grav.svg');
+}
+
+article a[href*='https://gravatar.com']::before,
+article a[href*='https://www.gravatar.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gravatar.svg');
+  mask-image: url('https://simpleicons.org/icons/gravatar.svg');
+}
+
+article a[href*='https://graylog.org']::before,
+article a[href*='https://www.graylog.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/graylog.svg');
+  mask-image: url('https://simpleicons.org/icons/graylog.svg');
+}
+
+article a[href*='https://greenhouse.io']::before,
+article a[href*='https://www.greenhouse.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/greenhouse.svg');
+  mask-image: url('https://simpleicons.org/icons/greenhouse.svg');
+}
+
+article a[href*='https://greensock.com']::before,
+article a[href*='https://www.greensock.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/greensock.svg');
+  mask-image: url('https://simpleicons.org/icons/greensock.svg');
+}
+
+article a[href*='https://grid.ai']::before,
+article a[href*='https://www.grid.ai']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/griddotai.svg');
+  mask-image: url('https://simpleicons.org/icons/griddotai.svg');
+}
+
+article a[href*='https://gridsome.org']::before,
+article a[href*='https://www.gridsome.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gridsome.svg');
+  mask-image: url('https://simpleicons.org/icons/gridsome.svg');
+}
+
+article a[href*='https://groupme.com']::before,
+article a[href*='https://www.groupme.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/groupme.svg');
+  mask-image: url('https://simpleicons.org/icons/groupme.svg');
+}
+
+article a[href*='https://groupon.com']::before,
+article a[href*='https://www.groupon.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/groupon.svg');
+  mask-image: url('https://simpleicons.org/icons/groupon.svg');
+}
+
+article a[href*='https://grubhub.com']::before,
+article a[href*='https://www.grubhub.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/grubhub.svg');
+  mask-image: url('https://simpleicons.org/icons/grubhub.svg');
+}
+
+article a[href*='https://gruntjs.com']::before,
+article a[href*='https://www.gruntjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/grunt.svg');
+  mask-image: url('https://simpleicons.org/icons/grunt.svg');
+}
+
+article a[href*='https://gsk.com']::before,
+article a[href*='https://www.gsk.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gsk.svg');
+  mask-image: url('https://simpleicons.org/icons/gsk.svg');
+}
+
+article a[href*='https://gtk.org']::before,
+article a[href*='https://www.gtk.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gtk.svg');
+  mask-image: url('https://simpleicons.org/icons/gtk.svg');
+}
+
+article a[href*='https://guangzhoumetro.com']::before,
+article a[href*='https://www.guangzhoumetro.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/guangzhoumetro.svg');
+  mask-image: url('https://simpleicons.org/icons/guangzhoumetro.svg');
+}
+
+article a[href*='https://guilded.gg']::before,
+article a[href*='https://www.guilded.gg']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/guilded.svg');
+  mask-image: url('https://simpleicons.org/icons/guilded.svg');
+}
+
+article a[href*='https://gulpjs.com']::before,
+article a[href*='https://www.gulpjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gulp.svg');
+  mask-image: url('https://simpleicons.org/icons/gulp.svg');
+}
+
+article a[href*='https://gumroad.com']::before,
+article a[href*='https://www.gumroad.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gumroad.svg');
+  mask-image: url('https://simpleicons.org/icons/gumroad.svg');
+}
+
+article a[href*='https://gumtree.com']::before,
+article a[href*='https://www.gumtree.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gumtree.svg');
+  mask-image: url('https://simpleicons.org/icons/gumtree.svg');
+}
+
+article a[href*='https://gunicorn.org']::before,
+article a[href*='https://www.gunicorn.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gunicorn.svg');
+  mask-image: url('https://simpleicons.org/icons/gunicorn.svg');
+}
+
+article a[href*='https://gurobi.com']::before,
+article a[href*='https://www.gurobi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gurobi.svg');
+  mask-image: url('https://simpleicons.org/icons/gurobi.svg');
+}
+
+article a[href*='https://wordpress.org']::before,
+article a[href*='https://www.wordpress.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/gutenberg.svg');
+  mask-image: url('https://simpleicons.org/icons/gutenberg.svg');
+}

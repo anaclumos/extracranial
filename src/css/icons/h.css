@@ -1,0 +1,504 @@
+article a[href*='https://habr.com']::before,
+article a[href*='https://www.habr.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/habr.svg');
+  mask-image: url('https://simpleicons.org/icons/habr.svg');
+}
+article a[href*='https://hackclub.com']::before,
+article a[href*='https://www.hackclub.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hackclub.svg');
+  mask-image: url('https://simpleicons.org/icons/hackclub.svg');
+}
+article a[href*='https://hackthebox.eu']::before,
+article a[href*='https://www.hackthebox.eu']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hackthebox.svg');
+  mask-image: url('https://simpleicons.org/icons/hackthebox.svg');
+}
+article a[href*='https://hackaday.com']::before,
+article a[href*='https://www.hackaday.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hackaday.svg');
+  mask-image: url('https://simpleicons.org/icons/hackaday.svg');
+}
+article a[href*='https://hackernoon.com']::before,
+article a[href*='https://www.hackernoon.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hackernoon.svg');
+  mask-image: url('https://simpleicons.org/icons/hackernoon.svg');
+}
+article a[href*='https://hackerearth.com']::before,
+article a[href*='https://www.hackerearth.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hackerearth.svg');
+  mask-image: url('https://simpleicons.org/icons/hackerearth.svg');
+}
+article a[href*='https://hackerone.com']::before,
+article a[href*='https://www.hackerone.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hackerone.svg');
+  mask-image: url('https://simpleicons.org/icons/hackerone.svg');
+}
+article a[href*='https://hackerrank.com']::before,
+article a[href*='https://www.hackerrank.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hackerrank.svg');
+  mask-image: url('https://simpleicons.org/icons/hackerrank.svg');
+}
+article a[href*='https://hackster.io']::before,
+article a[href*='https://www.hackster.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hackster.svg');
+  mask-image: url('https://simpleicons.org/icons/hackster.svg');
+}
+article a[href*='https://handlebarsjs.com']::before,
+article a[href*='https://www.handlebarsjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/handlebarsdotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/handlebarsdotjs.svg');
+}
+article a[href*='https://handshake.org']::before,
+article a[href*='https://www.handshake.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/handshake.svg');
+  mask-image: url('https://simpleicons.org/icons/handshake.svg');
+}
+article a[href*='https://handshake.org']::before,
+article a[href*='https://www.handshake.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/handshake_protocol.svg');
+  mask-image: url('https://simpleicons.org/icons/handshake_protocol.svg');
+}
+article a[href*='https://happycow.net']::before,
+article a[href*='https://www.happycow.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/happycow.svg');
+  mask-image: url('https://simpleicons.org/icons/happycow.svg');
+}
+article a[href*='https://goharbor.io']::before,
+article a[href*='https://www.goharbor.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/harbor.svg');
+  mask-image: url('https://simpleicons.org/icons/harbor.svg');
+}
+article a[href*='https://harmonyos.com']::before,
+article a[href*='https://www.harmonyos.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/harmonyos.svg');
+  mask-image: url('https://simpleicons.org/icons/harmonyos.svg');
+}
+article a[href*='https://hashnode.com']::before,
+article a[href*='https://www.hashnode.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hashnode.svg');
+  mask-image: url('https://simpleicons.org/icons/hashnode.svg');
+}
+article a[href*='https://haskell.org']::before,
+article a[href*='https://www.haskell.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/haskell.svg');
+  mask-image: url('https://simpleicons.org/icons/haskell.svg');
+}
+article a[href*='https://hasura.io']::before,
+article a[href*='https://www.hasura.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hasura.svg');
+  mask-image: url('https://simpleicons.org/icons/hasura.svg');
+}
+article a[href*='https://b.hatena.ne.jp']::before,
+article a[href*='https://www.b.hatena.ne.jp']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hatenabookmark.svg');
+  mask-image: url('https://simpleicons.org/icons/hatenabookmark.svg');
+}
+article a[href*='https://haveibeenpwned.com']::before,
+article a[href*='https://www.haveibeenpwned.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/haveibeenpwned.svg');
+  mask-image: url('https://simpleicons.org/icons/haveibeenpwned.svg');
+}
+article a[href*='https://haxe.org']::before,
+article a[href*='https://www.haxe.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/haxe.svg');
+  mask-image: url('https://simpleicons.org/icons/haxe.svg');
+}
+article a[href*='https://hbo.com']::before,
+article a[href*='https://www.hbo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hbo.svg');
+  mask-image: url('https://simpleicons.org/icons/hbo.svg');
+}
+article a[href*='https://hcl.com']::before,
+article a[href*='https://www.hcl.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hcl.svg');
+  mask-image: url('https://simpleicons.org/icons/hcl.svg');
+}
+article a[href*='https://headlessui.dev']::before,
+article a[href*='https://www.headlessui.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/headlessui.svg');
+  mask-image: url('https://simpleicons.org/icons/headlessui.svg');
+}
+article a[href*='https://headspace.com']::before,
+article a[href*='https://www.headspace.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/headspace.svg');
+  mask-image: url('https://simpleicons.org/icons/headspace.svg');
+}
+article a[href*='https://hedera.com']::before,
+article a[href*='https://www.hedera.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hedera.svg');
+  mask-image: url('https://simpleicons.org/icons/hedera.svg');
+}
+article a[href*='https://hellofresh.com']::before,
+article a[href*='https://www.hellofresh.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hellofresh.svg');
+  mask-image: url('https://simpleicons.org/icons/hellofresh.svg');
+}
+article a[href*='https://hellyhansen.com']::before,
+article a[href*='https://www.hellyhansen.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hellyhansen.svg');
+  mask-image: url('https://simpleicons.org/icons/hellyhansen.svg');
+}
+article a[href*='https://helm.sh']::before,
+article a[href*='https://www.helm.sh']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/helm.svg');
+  mask-image: url('https://simpleicons.org/icons/helm.svg');
+}
+article a[href*='https://helpscout.com']::before,
+article a[href*='https://www.helpscout.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/helpscout.svg');
+  mask-image: url('https://simpleicons.org/icons/helpscout.svg');
+}
+article a[href*='https://helpdesk.com']::before,
+article a[href*='https://www.helpdesk.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/helpdesk.svg');
+  mask-image: url('https://simpleicons.org/icons/helpdesk.svg');
+}
+article a[href*='https://here.com']::before,
+article a[href*='https://www.here.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/here.svg');
+  mask-image: url('https://simpleicons.org/icons/here.svg');
+}
+article a[href*='https://heroku.com']::before,
+article a[href*='https://www.heroku.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/heroku.svg');
+  mask-image: url('https://simpleicons.org/icons/heroku.svg');
+}
+article a[href*='https://hetzner.com']::before,
+article a[href*='https://www.hetzner.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hetzner.svg');
+  mask-image: url('https://simpleicons.org/icons/hetzner.svg');
+}
+article a[href*='https://hexo.io']::before,
+article a[href*='https://www.hexo.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hexo.svg');
+  mask-image: url('https://simpleicons.org/icons/hexo.svg');
+}
+article a[href*='https://hey.com']::before,
+article a[href*='https://www.hey.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hey.svg');
+  mask-image: url('https://simpleicons.org/icons/hey.svg');
+}
+article a[href*='https://hibob.com']::before,
+article a[href*='https://www.hibob.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hibob.svg');
+  mask-image: url('https://simpleicons.org/icons/hibob.svg');
+}
+article a[href*='https://hibernate.org']::before,
+article a[href*='https://www.hibernate.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hibernate.svg');
+  mask-image: url('https://simpleicons.org/icons/hibernate.svg');
+}
+article a[href*='https://hilton.com']::before,
+article a[href*='https://www.hilton.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hilton.svg');
+  mask-image: url('https://simpleicons.org/icons/hilton.svg');
+}
+article a[href*='https://hitachi.com']::before,
+article a[href*='https://www.hitachi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hitachi.svg');
+  mask-image: url('https://simpleicons.org/icons/hitachi.svg');
+}
+article a[href*='https://hive.io']::before,
+article a[href*='https://www.hive.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hive.svg');
+  mask-image: url('https://simpleicons.org/icons/hive.svg');
+}
+article a[href*='https://hive.io']::before,
+article a[href*='https://www.hive.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hive_blockchain.svg');
+  mask-image: url('https://simpleicons.org/icons/hive_blockchain.svg');
+}
+article a[href*='https://home-assistant.io']::before,
+article a[href*='https://www.home-assistant.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/homeassistant.svg');
+  mask-image: url('https://simpleicons.org/icons/homeassistant.svg');
+}
+article a[href*='https://hacs.xyz']::before,
+article a[href*='https://www.hacs.xyz']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/homeassistantcommunitystore.svg');
+  mask-image: url('https://simpleicons.org/icons/homeassistantcommunitystore.svg');
+}
+article a[href*='https://homeadvisor.com']::before,
+article a[href*='https://www.homeadvisor.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/homeadvisor.svg');
+  mask-image: url('https://simpleicons.org/icons/homeadvisor.svg');
+}
+article a[href*='https://brew.sh']::before,
+article a[href*='https://www.brew.sh']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/homebrew.svg');
+  mask-image: url('https://simpleicons.org/icons/homebrew.svg');
+}
+article a[href*='https://homebridge.io']::before,
+article a[href*='https://www.homebridge.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/homebridge.svg');
+  mask-image: url('https://simpleicons.org/icons/homebridge.svg');
+}
+article a[href*='https://homify.com']::before,
+article a[href*='https://www.homify.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/homify.svg');
+  mask-image: url('https://simpleicons.org/icons/homify.svg');
+}
+article a[href*='https://honda.com']::before,
+article a[href*='https://www.honda.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/honda.svg');
+  mask-image: url('https://simpleicons.org/icons/honda.svg');
+}
+article a[href*='https://joinhoney.com']::before,
+article a[href*='https://www.joinhoney.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/honey.svg');
+  mask-image: url('https://simpleicons.org/icons/honey.svg');
+}
+article a[href*='https://hootsuite.com']::before,
+article a[href*='https://www.hootsuite.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hootsuite.svg');
+  mask-image: url('https://simpleicons.org/icons/hootsuite.svg');
+}
+article a[href*='https://hoppscotch.io']::before,
+article a[href*='https://www.hoppscotch.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hoppscotch.svg');
+  mask-image: url('https://simpleicons.org/icons/hoppscotch.svg');
+}
+article a[href*='https://hotels.com']::before,
+article a[href*='https://www.hotels.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hotelsdotcom.svg');
+  mask-image: url('https://simpleicons.org/icons/hotelsdotcom.svg');
+}
+article a[href*='https://hotjar.com']::before,
+article a[href*='https://www.hotjar.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hotjar.svg');
+  mask-image: url('https://simpleicons.org/icons/hotjar.svg');
+}
+article a[href*='https://houdini.ai']::before,
+article a[href*='https://www.houdini.ai']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/houdini.svg');
+  mask-image: url('https://simpleicons.org/icons/houdini.svg');
+}
+article a[href*='https://houzz.com']::before,
+article a[href*='https://www.houzz.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/houzz.svg');
+  mask-image: url('https://simpleicons.org/icons/houzz.svg');
+}
+article a[href*='https://hp.com']::before,
+article a[href*='https://www.hp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hp.svg');
+  mask-image: url('https://simpleicons.org/icons/hp.svg');
+}
+article a[href*='https://htmlacademy.ru']::before,
+article a[href*='https://www.htmlacademy.ru']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/htmlacademy.svg');
+  mask-image: url('https://simpleicons.org/icons/htmlacademy.svg');
+}
+article a[href*='https://html5.org']::before,
+article a[href*='https://www.html5.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/html5.svg');
+  mask-image: url('https://simpleicons.org/icons/html5.svg');
+}
+article a[href*='https://httpie.org']::before,
+article a[href*='https://www.httpie.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/httpie.svg');
+  mask-image: url('https://simpleicons.org/icons/httpie.svg');
+}
+article a[href*='https://huawei.com']::before,
+article a[href*='https://www.huawei.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/huawei.svg');
+  mask-image: url('https://simpleicons.org/icons/huawei.svg');
+}
+article a[href*='https://hubspot.com']::before,
+article a[href*='https://www.hubspot.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hubspot.svg');
+  mask-image: url('https://simpleicons.org/icons/hubspot.svg');
+}
+article a[href*='https://gohugo.io']::before,
+article a[href*='https://www.gohugo.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hugo.svg');
+  mask-image: url('https://simpleicons.org/icons/hugo.svg');
+}
+article a[href*='https://hulu.com']::before,
+article a[href*='https://www.hulu.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hulu.svg');
+  mask-image: url('https://simpleicons.org/icons/hulu.svg');
+}
+article a[href*='https://humblebundle.com']::before,
+article a[href*='https://www.humblebundle.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/humblebundle.svg');
+  mask-image: url('https://simpleicons.org/icons/humblebundle.svg');
+}
+article a[href*='https://hungryjacks.com.au']::before,
+article a[href*='https://www.hungryjacks.com.au']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hungryjacks.svg');
+  mask-image: url('https://simpleicons.org/icons/hungryjacks.svg');
+}
+article a[href*='https://hurriyetemlak.com']::before,
+article a[href*='https://www.hurriyetemlak.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hurriyetemlak.svg');
+  mask-image: url('https://simpleicons.org/icons/hurriyetemlak.svg');
+}
+article a[href*='https://husqvarna.com']::before,
+article a[href*='https://www.husqvarna.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/husqvarna.svg');
+  mask-image: url('https://simpleicons.org/icons/husqvarna.svg');
+}
+article a[href*='https://hyper.is']::before,
+article a[href*='https://www.hyper.is']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hyper.svg');
+  mask-image: url('https://simpleicons.org/icons/hyper.svg');
+}
+article a[href*='https://hyperledger.org']::before,
+article a[href*='https://www.hyperledger.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hyperledger.svg');
+  mask-image: url('https://simpleicons.org/icons/hyperledger.svg');
+}
+article a[href*='https://hypothes.is']::before,
+article a[href*='https://www.hypothes.is']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hypothesis.svg');
+  mask-image: url('https://simpleicons.org/icons/hypothesis.svg');
+}
+article a[href*='https://hyundai.com']::before,
+article a[href*='https://www.hyundai.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/hyundai.svg');
+  mask-image: url('https://simpleicons.org/icons/hyundai.svg');
+}

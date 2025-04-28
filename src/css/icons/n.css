@@ -1,0 +1,575 @@
+article a[href*='https://n26.com']::before,
+article a[href*='https://www.n26.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/n26.svg');
+  mask-image: url('https://simpleicons.org/icons/n26.svg');
+}
+
+article a[href*='https://namebase.io']::before,
+article a[href*='https://www.namebase.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/namebase.svg');
+  mask-image: url('https://simpleicons.org/icons/namebase.svg');
+}
+
+article a[href*='https://namecheap.com']::before,
+article a[href*='https://www.namecheap.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/namecheap.svg');
+  mask-image: url('https://simpleicons.org/icons/namecheap.svg');
+}
+
+article a[href*='https://nano.org']::before,
+article a[href*='https://www.nano.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nano.svg');
+  mask-image: url('https://simpleicons.org/icons/nano.svg');
+}
+
+article a[href*='https://nasa.gov']::before,
+article a[href*='https://www.nasa.gov']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nasa.svg');
+  mask-image: url('https://simpleicons.org/icons/nasa.svg');
+}
+
+article a[href*='https://nationalgrid.com']::before,
+article a[href*='https://www.nationalgrid.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nationalgrid.svg');
+  mask-image: url('https://simpleicons.org/icons/nationalgrid.svg');
+}
+
+article a[href*='https://nativescript.org']::before,
+article a[href*='https://www.nativescript.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nativescript.svg');
+  mask-image: url('https://simpleicons.org/icons/nativescript.svg');
+}
+
+article a[href*='https://newslibrary.naver.com']::before,
+article a[href*='https://naver.com']::before,
+article a[href*='https://tv.naver.com']::before,
+article a[href*='https://www.naver.com']::before,
+article a[href*='https://navercorp.com']::before,
+article a[href*='https://www.navercorp.com']::before,
+article a[href*='https://naverlabs.com']::before,
+article a[href*='https://www.naverlabs.com']::before,
+article a[href*='https://ncloud.com']::before,
+article a[href*='https://www.ncloud.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/naver.svg');
+  mask-image: url('https://simpleicons.org/icons/naver.svg');
+}
+
+article a[href*='https://nba.com']::before,
+article a[href*='https://www.nba.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nba.svg');
+  mask-image: url('https://simpleicons.org/icons/nba.svg');
+}
+
+article a[href*='https://nbb.rs']::before,
+article a[href*='https://www.nbb.rs']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nbb.svg');
+  mask-image: url('https://simpleicons.org/icons/nbb.svg');
+}
+
+article a[href*='https://ndr.de']::before,
+article a[href*='https://www.ndr.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ndr.svg');
+  mask-image: url('https://simpleicons.org/icons/ndr.svg');
+}
+
+article a[href*='https://nec.com']::before,
+article a[href*='https://www.nec.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nec.svg');
+  mask-image: url('https://simpleicons.org/icons/nec.svg');
+}
+
+article a[href*='https://neo4j.com']::before,
+article a[href*='https://www.neo4j.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/neo4j.svg');
+  mask-image: url('https://simpleicons.org/icons/neo4j.svg');
+}
+
+article a[href*='https://neovim.io']::before,
+article a[href*='https://www.neovim.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/neovim.svg');
+  mask-image: url('https://simpleicons.org/icons/neovim.svg');
+}
+
+article a[href*='https://nestjs.com']::before,
+article a[href*='https://www.nestjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nestjs.svg');
+  mask-image: url('https://simpleicons.org/icons/nestjs.svg');
+}
+
+article a[href*='https://netapp.com']::before,
+article a[href*='https://www.netapp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/netapp.svg');
+  mask-image: url('https://simpleicons.org/icons/netapp.svg');
+}
+
+article a[href*='https://netbsd.org']::before,
+article a[href*='https://www.netbsd.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/netbsd.svg');
+  mask-image: url('https://simpleicons.org/icons/netbsd.svg');
+}
+
+article a[href*='https://netflix.com']::before,
+article a[href*='https://www.netflix.com']::before,
+article a[href*='https://netflix.net']::before,
+article a[href*='https://www.netflix.net']::before,
+article a[href*='https://netflix.org']::before,
+article a[href*='https://www.netflix.org']::before,
+article a[href*='https://netflixtechblog.com']::before,
+article a[href*='https://www.netflixtechblog.com']::before,
+article a[href*='https://netflixtechblog.medium.com']::before,
+article a[href*='https://www.netflixtechblog.medium.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/netflix.svg');
+  mask-image: url('https://simpleicons.org/icons/netflix.svg');
+}
+
+article a[href*='https://netlify.com']::before,
+article a[href*='https://www.netlify.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/netlify.svg');
+  mask-image: url('https://simpleicons.org/icons/netlify.svg');
+}
+
+article a[href*='https://nette.org']::before,
+article a[href*='https://www.nette.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nette.svg');
+  mask-image: url('https://simpleicons.org/icons/nette.svg');
+}
+
+article a[href*='https://netto-online.de']::before,
+article a[href*='https://www.netto-online.de']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/netto.svg');
+  mask-image: url('https://simpleicons.org/icons/netto.svg');
+}
+
+article a[href*='https://neutralino.js.org']::before,
+article a[href*='https://www.neutralino.js.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/neutralinojs.svg');
+  mask-image: url('https://simpleicons.org/icons/neutralinojs.svg');
+}
+
+article a[href*='https://newbalance.com']::before,
+article a[href*='https://www.newbalance.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/newbalance.svg');
+  mask-image: url('https://simpleicons.org/icons/newbalance.svg');
+}
+
+article a[href*='https://njpwworld.com']::before,
+article a[href*='https://www.njpwworld.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/newjapanprowrestling.svg');
+  mask-image: url('https://simpleicons.org/icons/newjapanprowrestling.svg');
+}
+
+article a[href*='https://newrelic.com']::before,
+article a[href*='https://www.newrelic.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/newrelic.svg');
+  mask-image: url('https://simpleicons.org/icons/newrelic.svg');
+}
+
+article a[href*='https://nytimes.com']::before,
+article a[href*='https://www.nytimes.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/newyorktimes.svg');
+  mask-image: url('https://simpleicons.org/icons/newyorktimes.svg');
+}
+
+article a[href*='https://nextjs.org']::before,
+article a[href*='https://www.nextjs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nextdotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/nextdotjs.svg');
+}
+
+article a[href*='https://nextbillion.ai']::before,
+article a[href*='https://www.nextbillion.ai']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nextbilliondotai.svg');
+  mask-image: url('https://simpleicons.org/icons/nextbilliondotai.svg');
+}
+
+article a[href*='https://nextcloud.com']::before,
+article a[href*='https://www.nextcloud.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nextcloud.svg');
+  mask-image: url('https://simpleicons.org/icons/nextcloud.svg');
+}
+
+article a[href*='https://nextdoor.com']::before,
+article a[href*='https://www.nextdoor.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nextdoor.svg');
+  mask-image: url('https://simpleicons.org/icons/nextdoor.svg');
+}
+
+article a[href*='https://nfc-forum.org']::before,
+article a[href*='https://www.nfc-forum.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nfc.svg');
+  mask-image: url('https://simpleicons.org/icons/nfc.svg');
+}
+
+article a[href*='https://nginx.com']::before,
+article a[href*='https://www.nginx.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nginx.svg');
+  mask-image: url('https://simpleicons.org/icons/nginx.svg');
+}
+
+article a[href*='https://ngrok.com']::before,
+article a[href*='https://www.ngrok.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/ngrok.svg');
+  mask-image: url('https://simpleicons.org/icons/ngrok.svg');
+}
+
+article a[href*='https://niconico.jp']::before,
+article a[href*='https://www.niconico.jp']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/niconico.svg');
+  mask-image: url('https://simpleicons.org/icons/niconico.svg');
+}
+
+article a[href*='https://nike.com']::before,
+article a[href*='https://www.nike.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nike.svg');
+  mask-image: url('https://simpleicons.org/icons/nike.svg');
+}
+
+article a[href*='https://nim-lang.org']::before,
+article a[href*='https://www.nim-lang.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nim.svg');
+  mask-image: url('https://simpleicons.org/icons/nim.svg');
+}
+
+article a[href*='https://nintendo.com']::before,
+article a[href*='https://www.nintendo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nintendo.svg');
+  mask-image: url('https://simpleicons.org/icons/nintendo.svg');
+}
+
+article a[href*='https://nintendo.com/3ds']::before,
+article a[href*='https://www.nintendo.com/3ds']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nintendo3ds.svg');
+  mask-image: url('https://simpleicons.org/icons/nintendo3ds.svg');
+}
+
+article a[href*='https://nintendo.com/gamecube']::before,
+article a[href*='https://www.nintendo.com/gamecube']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nintendogamecube.svg');
+  mask-image: url('https://simpleicons.org/icons/nintendogamecube.svg');
+}
+
+article a[href*='https://nintendo.com/network']::before,
+article a[href*='https://www.nintendo.com/network']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nintendonetwork.svg');
+  mask-image: url('https://simpleicons.org/icons/nintendonetwork.svg');
+}
+
+article a[href*='https://nintendo.com/switch']::before,
+article a[href*='https://www.nintendo.com/switch']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nintendoswitch.svg');
+  mask-image: url('https://simpleicons.org/icons/nintendoswitch.svg');
+}
+
+article a[href*='https://nissan.com']::before,
+article a[href*='https://www.nissan.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nissan.svg');
+  mask-image: url('https://simpleicons.org/icons/nissan.svg');
+}
+
+article a[href*='https://nixos.org']::before,
+article a[href*='https://www.nixos.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nixos.svg');
+  mask-image: url('https://simpleicons.org/icons/nixos.svg');
+}
+
+article a[href*='https://nodered.org']::before,
+article a[href*='https://www.nodered.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nodered.svg');
+  mask-image: url('https://simpleicons.org/icons/nodered.svg');
+}
+
+article a[href*='https://nodejs.org']::before,
+article a[href*='https://www.nodejs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nodedotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/nodedotjs.svg');
+}
+
+article a[href*='https://nodemon.io']::before,
+article a[href*='https://www.nodemon.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nodemon.svg');
+  mask-image: url('https://simpleicons.org/icons/nodemon.svg');
+}
+
+article a[href*='https://nokia.com']::before,
+article a[href*='https://www.nokia.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nokia.svg');
+  mask-image: url('https://simpleicons.org/icons/nokia.svg');
+}
+
+article a[href*='https://norco.com']::before,
+article a[href*='https://www.norco.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/norco.svg');
+  mask-image: url('https://simpleicons.org/icons/norco.svg');
+}
+
+article a[href*='https://nordvpn.com']::before,
+article a[href*='https://www.nordvpn.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nordvpn.svg');
+  mask-image: url('https://simpleicons.org/icons/nordvpn.svg');
+}
+
+article a[href*='https://norwegian.com']::before,
+article a[href*='https://www.norwegian.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/norwegian.svg');
+  mask-image: url('https://simpleicons.org/icons/norwegian.svg');
+}
+
+article a[href*='https://notepad-plus-plus.org']::before,
+article a[href*='https://www.notepad-plus-plus.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/notepadplusplus.svg');
+  mask-image: url('https://simpleicons.org/icons/notepadplusplus.svg');
+}
+
+article a[href*='notion.so']::before,
+article a[href*='notion.site']::before,
+article a[href*='https://www.notion.so']::before,
+article a[href*='https://www.notion.site']::before,
+article a[href*='https://super.so']::before,
+article a[href*='https://www.super.so']::before,
+article a[href*='https://oopy.io']::before,
+article a[href*='https://www.oopy.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/notion.svg');
+  mask-image: url('https://simpleicons.org/icons/notion.svg');
+}
+
+article a[href*='https://notist.io']::before,
+article a[href*='https://www.notist.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/notist.svg');
+  mask-image: url('https://simpleicons.org/icons/notist.svg');
+}
+
+article a[href*='https://thenounproject.com']::before,
+article a[href*='https://www.thenounproject.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nounproject.svg');
+  mask-image: url('https://simpleicons.org/icons/nounproject.svg');
+}
+
+article a[href*='https://zeit.co/now']::before,
+article a[href*='https://www.zeit.co/now']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/now.svg');
+  mask-image: url('https://simpleicons.org/icons/now.svg');
+}
+
+article a[href*='https://npmjs.com']::before,
+article a[href*='https://www.npmjs.com']::before,
+article a[href*='https://npmjs.org']::before,
+article a[href*='https://www.npmjs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/npm.svg');
+  mask-image: url('https://simpleicons.org/icons/npm.svg');
+}
+
+article a[href*='https://nrwl.io']::before,
+article a[href*='https://www.nrwl.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nrwl.svg');
+  mask-image: url('https://simpleicons.org/icons/nrwl.svg');
+}
+
+article a[href*='https://nubank.com.br']::before,
+article a[href*='https://www.nubank.com.br']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nubank.svg');
+  mask-image: url('https://simpleicons.org/icons/nubank.svg');
+}
+
+article a[href*='https://nucleoapp.com']::before,
+article a[href*='https://www.nucleoapp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nucleo.svg');
+  mask-image: url('https://simpleicons.org/icons/nucleo.svg');
+}
+
+article a[href*='https://nuget.org']::before,
+article a[href*='https://www.nuget.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nuget.svg');
+  mask-image: url('https://simpleicons.org/icons/nuget.svg');
+}
+
+article a[href*='https://nuke.build']::before,
+article a[href*='https://www.nuke.build']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nuke.svg');
+  mask-image: url('https://simpleicons.org/icons/nuke.svg');
+}
+
+article a[href*='https://numba.pydata.org']::before,
+article a[href*='https://www.numba.pydata.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/numba.svg');
+  mask-image: url('https://simpleicons.org/icons/numba.svg');
+}
+
+article a[href*='https://numpy.org']::before,
+article a[href*='https://www.numpy.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/numpy.svg');
+  mask-image: url('https://simpleicons.org/icons/numpy.svg');
+}
+
+article a[href*='https://mozilla.github.io/nunjucks']::before,
+article a[href*='https://www.mozilla.github.io/nunjucks']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nunjucks.svg');
+  mask-image: url('https://simpleicons.org/icons/nunjucks.svg');
+}
+
+article a[href*='https://nutanix.com']::before,
+article a[href*='https://www.nutanix.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nutanix.svg');
+  mask-image: url('https://simpleicons.org/icons/nutanix.svg');
+}
+
+article a[href*='https://nuxtjs.org']::before,
+article a[href*='https://www.nuxtjs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nuxtdotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/nuxtdotjs.svg');
+}
+
+article a[href*='https://nvidia.com']::before,
+article a[href*='https://www.nvidia.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nvidia.svg');
+  mask-image: url('https://simpleicons.org/icons/nvidia.svg');
+}
+
+article a[href*='https://nx.dev']::before,
+article a[href*='https://www.nx.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nx.svg');
+  mask-image: url('https://simpleicons.org/icons/nx.svg');
+}
+
+article a[href*='https://nzxt.com']::before,
+article a[href*='https://www.nzxt.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/nzxt.svg');
+  mask-image: url('https://simpleicons.org/icons/nzxt.svg');
+}

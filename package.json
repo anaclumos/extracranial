@@ -1,0 +1,38 @@
+{
+  "name": "cho-sh",
+  "version": "1.0.0",
+  "author": "Sunghyun Cho <hey@cho.sh>",
+  "license": "MIT",
+  "repository": "https://github.com/anaclumos/extracranial.git",
+  "dependencies": {
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0",
+    "@docusaurus/plugin-client-redirects": "^3.7.0",
+    "@docusaurus/theme-mermaid": "^3.7.0",
+    "@giscus/react": "^3.1.0",
+    "@vercel/analytics": "^1.4.1",
+    "@vercel/speed-insights": "^1.1.0",
+    "clsx": "^2.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-wrap-balancer": "^1.1.1",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/tsconfig": "^3.7.0",
+    "@types/node": "^22.10.7",
+    "prettier": "^3.4.1",
+    "stylelint": "^16.13.2",
+    "stylelint-config-standard": "^37.0.0"
+  },
+  "scripts": {
+    "build": "bun ready && NODE_OPTIONS=\"--max-old-space-size=7168\" docusaurus build",
+    "format": "prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}'",
+    "readme": "cp md/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md && printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
+    "ready": "python3 process.py",
+    "save": "bun ready && bun run readme && bun run format && git add . && git commit -m 'wrote something' && git push",
+    "serve": "docusaurus serve",
+    "start": "docusaurus serve"
+  }
+}

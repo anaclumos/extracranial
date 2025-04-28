@@ -1,0 +1,70 @@
+article a[href*='https://dotenv.org']::before,
+article a[href*='https://www.dotenv.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dotenv.svg');
+  mask-image: url('https://simpleicons.org/icons/dotenv.svg');
+}
+article a[href*='https://dotnet.microsoft.com']::before,
+article a[href*='https://www.dotnet.microsoft.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/dotnet.svg');
+  mask-image: url('https://simpleicons.org/icons/dotnet.svg');
+}
+article a[href*='https://e.foundation']::before,
+article a[href*='https://www.e.foundation']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/e.svg');
+  mask-image: url('https://simpleicons.org/icons/e.svg');
+}
+article a[href*='https://1001tracklists.com']::before,
+article a[href*='https://www.1001tracklists.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/1001tracklists.svg');
+  mask-image: url('https://simpleicons.org/icons/1001tracklists.svg');
+}
+article a[href*='https://1password.com']::before,
+article a[href*='https://www.1password.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/1password.svg');
+  mask-image: url('https://simpleicons.org/icons/1password.svg');
+}
+article a[href*='https://3m.com']::before,
+article a[href*='https://www.3m.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/3m.svg');
+  mask-image: url('https://simpleicons.org/icons/3m.svg');
+}
+article a[href*='https://42.fr']::before,
+article a[href*='https://www.42.fr']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/42.svg');
+  mask-image: url('https://simpleicons.org/icons/42.svg');
+}
+article a[href*='https://4chan.org']::before,
+article a[href*='https://www.4chan.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/4chan.svg');
+  mask-image: url('https://simpleicons.org/icons/4chan.svg');
+}
+article a[href*='https://4d.com']::before,
+article a[href*='https://www.4d.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/4d.svg');
+  mask-image: url('https://simpleicons.org/icons/4d.svg');
+}
+article a[href*='https://500px.com']::before,
+article a[href*='https://www.500px.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/500px.svg');
+  mask-image: url('https://simpleicons.org/icons/500px.svg');
+}

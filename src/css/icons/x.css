@@ -1,0 +1,120 @@
+article a[href*='https://x.org']::before,
+article a[href*='https://www.x.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xdotorg.svg');
+  mask-image: url('https://simpleicons.org/icons/xdotorg.svg');
+}
+article a[href*='https://xamarin.com']::before,
+article a[href*='https://www.xamarin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xamarin.svg');
+  mask-image: url('https://simpleicons.org/icons/xamarin.svg');
+}
+article a[href*='https://xaml.com']::before,
+article a[href*='https://www.xaml.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xaml.svg');
+  mask-image: url('https://simpleicons.org/icons/xaml.svg');
+}
+article a[href*='https://xampp.com']::before,
+article a[href*='https://www.xampp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xampp.svg');
+  mask-image: url('https://simpleicons.org/icons/xampp.svg');
+}
+article a[href*='https://xbox.com']::before,
+article a[href*='https://www.xbox.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xbox.svg');
+  mask-image: url('https://simpleicons.org/icons/xbox.svg');
+}
+article a[href*='https://developer.apple.com']::before,
+article a[href*='https://xcode.com']::before,
+article a[href*='https://www.xcode.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xcode.svg');
+  mask-image: url('https://simpleicons.org/icons/xcode.svg');
+}
+article a[href*='https://xda-developers.com']::before,
+article a[href*='https://www.xda-developers.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xdadevelopers.svg');
+  mask-image: url('https://simpleicons.org/icons/xdadevelopers.svg');
+}
+article a[href*='https://xero.com']::before,
+article a[href*='https://www.xero.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xero.svg');
+  mask-image: url('https://simpleicons.org/icons/xero.svg');
+}
+article a[href*='https://xfce.org']::before,
+article a[href*='https://www.xfce.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xfce.svg');
+  mask-image: url('https://simpleicons.org/icons/xfce.svg');
+}
+article a[href*='https://xiaomi.com']::before,
+article a[href*='https://www.xiaomi.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xiaomi.svg');
+  mask-image: url('https://simpleicons.org/icons/xiaomi.svg');
+}
+article a[href*='https://xilinx.com']::before,
+article a[href*='https://www.xilinx.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xilinx.svg');
+  mask-image: url('https://simpleicons.org/icons/xilinx.svg');
+}
+article a[href*='https://xing.com']::before,
+article a[href*='https://www.xing.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xing.svg');
+  mask-image: url('https://simpleicons.org/icons/xing.svg');
+}
+article a[href*='https://xmpp.org']::before,
+article a[href*='https://www.xmpp.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xmpp.svg');
+  mask-image: url('https://simpleicons.org/icons/xmpp.svg');
+}
+article a[href*='https://xo.com']::before,
+article a[href*='https://www.xo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xo.svg');
+  mask-image: url('https://simpleicons.org/icons/xo.svg');
+}
+article a[href*='https://xrp.com']::before,
+article a[href*='https://www.xrp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xrp.svg');
+  mask-image: url('https://simpleicons.org/icons/xrp.svg');
+}
+article a[href*='https://xsplit.com']::before,
+article a[href*='https://www.xsplit.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xsplit.svg');
+  mask-image: url('https://simpleicons.org/icons/xsplit.svg');
+}
+article a[href*='https://xstate.js.org']::before,
+article a[href*='https://www.xstate.js.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/xstate.svg');
+  mask-image: url('https://simpleicons.org/icons/xstate.svg');
+}

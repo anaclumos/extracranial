@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.sidebar.category.Journals": {
+    "message": "Journals",
+    "description": "The label for category Journals in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Memex": {
+    "message": "Memex",
+    "description": "The label for category Memex in sidebar sidebar"
+  }
+}

@@ -1,0 +1,721 @@
+article a[href*='https://br-automation.com']::before,
+article a[href*='https://www.br-automation.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bandrautomation.svg');
+  mask-image: url('https://simpleicons.org/icons/bandrautomation.svg');
+}
+article a[href*='https://babeljs.io']::before,
+article a[href*='https://www.babeljs.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/babel.svg');
+  mask-image: url('https://simpleicons.org/icons/babel.svg');
+}
+article a[href*='https://backblaze.com']::before,
+article a[href*='https://www.backblaze.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/backblaze.svg');
+  mask-image: url('https://simpleicons.org/icons/backblaze.svg');
+}
+article a[href*='https://backbonejs.org']::before,
+article a[href*='https://www.backbonejs.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/backbonedotjs.svg');
+  mask-image: url('https://simpleicons.org/icons/backbonedotjs.svg');
+}
+article a[href*='https://backendless.com']::before,
+article a[href*='https://www.backendless.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/backendless.svg');
+  mask-image: url('https://simpleicons.org/icons/backendless.svg');
+}
+article a[href*='https://backstage.io']::before,
+article a[href*='https://www.backstage.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/backstage.svg');
+  mask-image: url('https://simpleicons.org/icons/backstage.svg');
+}
+article a[href*='https://badgr.com']::before,
+article a[href*='https://www.badgr.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/badgr.svg');
+  mask-image: url('https://simpleicons.org/icons/badgr.svg');
+}
+article a[href*='https://badoo.com']::before,
+article a[href*='https://www.badoo.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/badoo.svg');
+  mask-image: url('https://simpleicons.org/icons/badoo.svg');
+}
+article a[href*='https://baidu.com']::before,
+article a[href*='https://www.baidu.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/baidu.svg');
+  mask-image: url('https://simpleicons.org/icons/baidu.svg');
+}
+article a[href*='https://atlassian.com/software/bamboo']::before,
+article a[href*='https://www.atlassian.com/software/bamboo']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bamboo.svg');
+  mask-image: url('https://simpleicons.org/icons/bamboo.svg');
+}
+article a[href*='https://bandcamp.com']::before,
+article a[href*='https://www.bandcamp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bandcamp.svg');
+  mask-image: url('https://simpleicons.org/icons/bandcamp.svg');
+}
+article a[href*='https://bandlab.com']::before,
+article a[href*='https://www.bandlab.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bandlab.svg');
+  mask-image: url('https://simpleicons.org/icons/bandlab.svg');
+}
+article a[href*='https://bandsintown.com']::before,
+article a[href*='https://www.bandsintown.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bandsintown.svg');
+  mask-image: url('https://simpleicons.org/icons/bandsintown.svg');
+}
+article a[href*='https://bankofamerica.com']::before,
+article a[href*='https://www.bankofamerica.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bankofamerica.svg');
+  mask-image: url('https://simpleicons.org/icons/bankofamerica.svg');
+}
+article a[href*='https://barclays.co.uk']::before,
+article a[href*='https://www.barclays.co.uk']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/barclays.svg');
+  mask-image: url('https://simpleicons.org/icons/barclays.svg');
+}
+article a[href*='https://baremetrics.com']::before,
+article a[href*='https://www.baremetrics.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/baremetrics.svg');
+  mask-image: url('https://simpleicons.org/icons/baremetrics.svg');
+}
+article a[href*='https://basecamp.com']::before,
+article a[href*='https://www.basecamp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/basecamp.svg');
+  mask-image: url('https://simpleicons.org/icons/basecamp.svg');
+}
+article a[href*='https://bastyon.com']::before,
+article a[href*='https://www.bastyon.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bastyon.svg');
+  mask-image: url('https://simpleicons.org/icons/bastyon.svg');
+}
+article a[href*='https://bata.com']::before,
+article a[href*='https://www.bata.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bata.svg');
+  mask-image: url('https://simpleicons.org/icons/bata.svg');
+}
+article a[href*='https://bathasu.co.uk']::before,
+article a[href*='https://www.bathasu.co.uk']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bathasu.svg');
+  mask-image: url('https://simpleicons.org/icons/bathasu.svg');
+}
+article a[href*='https://battle.net']::before,
+article a[href*='https://www.battle.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/battledotnet.svg');
+  mask-image: url('https://simpleicons.org/icons/battledotnet.svg');
+}
+article a[href*='https://bbc.co.uk']::before,
+article a[href*='https://www.bbc.co.uk']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bbc.svg');
+  mask-image: url('https://simpleicons.org/icons/bbc.svg');
+}
+article a[href*='https://bbc.co.uk/iplayer']::before,
+article a[href*='https://www.bbc.co.uk/iplayer']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bbciplayer.svg');
+  mask-image: url('https://simpleicons.org/icons/bbciplayer.svg');
+}
+article a[href*='https://beatport.com']::before,
+article a[href*='https://www.beatport.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/beatport.svg');
+  mask-image: url('https://simpleicons.org/icons/beatport.svg');
+}
+article a[href*='https://beatsbydre.com']::before,
+article a[href*='https://www.beatsbydre.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/beats.svg');
+  mask-image: url('https://simpleicons.org/icons/beats.svg');
+}
+article a[href*='https://beatsbydre.com']::before,
+article a[href*='https://www.beatsbydre.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/beatsbydre.svg');
+  mask-image: url('https://simpleicons.org/icons/beatsbydre.svg');
+}
+article a[href*='https://behance.net']::before,
+article a[href*='https://www.behance.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/behance.svg');
+  mask-image: url('https://simpleicons.org/icons/behance.svg');
+}
+article a[href*='https://beijing-subway.com']::before,
+article a[href*='https://www.beijing-subway.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/beijingsubway.svg');
+  mask-image: url('https://simpleicons.org/icons/beijingsubway.svg');
+}
+article a[href*='https://bem.info']::before,
+article a[href*='https://www.bem.info']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bem.svg');
+  mask-image: url('https://simpleicons.org/icons/bem.svg');
+}
+article a[href*='https://bentleymotors.com']::before,
+article a[href*='https://www.bentleymotors.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bentley.svg');
+  mask-image: url('https://simpleicons.org/icons/bentley.svg');
+}
+article a[href*='https://betfair.com']::before,
+article a[href*='https://www.betfair.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/betfair.svg');
+  mask-image: url('https://simpleicons.org/icons/betfair.svg');
+}
+article a[href*='https://bigcartel.com']::before,
+article a[href*='https://www.bigcartel.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bigcartel.svg');
+  mask-image: url('https://simpleicons.org/icons/bigcartel.svg');
+}
+article a[href*='https://bigbasket.com']::before,
+article a[href*='https://www.bigbasket.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bigbasket.svg');
+  mask-image: url('https://simpleicons.org/icons/bigbasket.svg');
+}
+article a[href*='https://bigbluebutton.org']::before,
+article a[href*='https://www.bigbluebutton.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bigbluebutton.svg');
+  mask-image: url('https://simpleicons.org/icons/bigbluebutton.svg');
+}
+article a[href*='https://bigcommerce.com']::before,
+article a[href*='https://www.bigcommerce.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bigcommerce.svg');
+  mask-image: url('https://simpleicons.org/icons/bigcommerce.svg');
+}
+article a[href*='https://bilibili.com']::before,
+article a[href*='https://www.bilibili.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bilibili.svg');
+  mask-image: url('https://simpleicons.org/icons/bilibili.svg');
+}
+article a[href*='https://billboard.com']::before,
+article a[href*='https://www.billboard.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/billboard.svg');
+  mask-image: url('https://simpleicons.org/icons/billboard.svg');
+}
+article a[href*='https://bimobject.com']::before,
+article a[href*='https://www.bimobject.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bim.svg');
+  mask-image: url('https://simpleicons.org/icons/bim.svg');
+}
+article a[href*='https://binance.com']::before,
+article a[href*='https://www.binance.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/binance.svg');
+  mask-image: url('https://simpleicons.org/icons/binance.svg');
+}
+article a[href*='https://biolink.bio']::before,
+article a[href*='https://www.biolink.bio']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/biolink.svg');
+  mask-image: url('https://simpleicons.org/icons/biolink.svg');
+}
+article a[href*='https://bit.dev']::before,
+article a[href*='https://www.bit.dev']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bit.svg');
+  mask-image: url('https://simpleicons.org/icons/bit.svg');
+}
+article a[href*='https://bitbucket.org']::before,
+article a[href*='https://www.bitbucket.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bitbucket.svg');
+  mask-image: url('https://simpleicons.org/icons/bitbucket.svg');
+}
+article a[href*='https://bitcoin.org']::before,
+article a[href*='https://www.bitcoin.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bitcoin.svg');
+  mask-image: url('https://simpleicons.org/icons/bitcoin.svg');
+}
+article a[href*='https://bitcoincash.org']::before,
+article a[href*='https://www.bitcoincash.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bitcoincash.svg');
+  mask-image: url('https://simpleicons.org/icons/bitcoincash.svg');
+}
+article a[href*='https://bitcoinsv.io']::before,
+article a[href*='https://www.bitcoinsv.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bitcoinsv.svg');
+  mask-image: url('https://simpleicons.org/icons/bitcoinsv.svg');
+}
+article a[href*='https://bitdefender.com']::before,
+article a[href*='https://www.bitdefender.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bitdefender.svg');
+  mask-image: url('https://simpleicons.org/icons/bitdefender.svg');
+}
+article a[href*='https://bitly.com']::before,
+article a[href*='https://www.bitly.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bitly.svg');
+  mask-image: url('https://simpleicons.org/icons/bitly.svg');
+}
+article a[href*='https://bitrise.io']::before,
+article a[href*='https://www.bitrise.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bitrise.svg');
+  mask-image: url('https://simpleicons.org/icons/bitrise.svg');
+}
+article a[href*='https://bitwarden.com']::before,
+article a[href*='https://www.bitwarden.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bitwarden.svg');
+  mask-image: url('https://simpleicons.org/icons/bitwarden.svg');
+}
+article a[href*='https://bitwig.com']::before,
+article a[href*='https://www.bitwig.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bitwig.svg');
+  mask-image: url('https://simpleicons.org/icons/bitwig.svg');
+}
+article a[href*='https://blackberry.com']::before,
+article a[href*='https://www.blackberry.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/blackberry.svg');
+  mask-image: url('https://simpleicons.org/icons/blackberry.svg');
+}
+article a[href*='https://blazemeter.com']::before,
+article a[href*='https://www.blazemeter.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/blazemeter.svg');
+  mask-image: url('https://simpleicons.org/icons/blazemeter.svg');
+}
+article a[href*='https://blazor.net']::before,
+article a[href*='https://www.blazor.net']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/blazor.svg');
+  mask-image: url('https://simpleicons.org/icons/blazor.svg');
+}
+article a[href*='https://blender.org']::before,
+article a[href*='https://www.blender.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/blender.svg');
+  mask-image: url('https://simpleicons.org/icons/blender.svg');
+}
+article a[href*='https://blockchain.com']::before,
+article a[href*='https://www.blockchain.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/blockchaindotcom.svg');
+  mask-image: url('https://simpleicons.org/icons/blockchaindotcom.svg');
+}
+article a[href*='https://blogger.com']::before,
+article a[href*='https://www.blogger.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/blogger.svg');
+  mask-image: url('https://simpleicons.org/icons/blogger.svg');
+}
+article a[href*='https://bloglovin.com']::before,
+article a[href*='https://www.bloglovin.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bloglovin.svg');
+  mask-image: url('https://simpleicons.org/icons/bloglovin.svg');
+}
+article a[href*='https://blueprintjs.com']::before,
+article a[href*='https://www.blueprintjs.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/blueprint.svg');
+  mask-image: url('https://simpleicons.org/icons/blueprint.svg');
+}
+article a[href*='https://bluetooth.com']::before,
+article a[href*='https://www.bluetooth.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bluetooth.svg');
+  mask-image: url('https://simpleicons.org/icons/bluetooth.svg');
+}
+article a[href*='https://bmc.com']::before,
+article a[href*='https://www.bmc.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bmcsoftware.svg');
+  mask-image: url('https://simpleicons.org/icons/bmcsoftware.svg');
+}
+article a[href*='https://bmw.com']::before,
+article a[href*='https://www.bmw.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bmw.svg');
+  mask-image: url('https://simpleicons.org/icons/bmw.svg');
+}
+article a[href*='https://boehringer-ingelheim.com']::before,
+article a[href*='https://www.boehringer-ingelheim.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/boehringeringelheim.svg');
+  mask-image: url('https://simpleicons.org/icons/boehringeringelheim.svg');
+}
+article a[href*='https://boeing.com']::before,
+article a[href*='https://www.boeing.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/boeing.svg');
+  mask-image: url('https://simpleicons.org/icons/boeing.svg');
+}
+article a[href*='https://bookalope.com']::before,
+article a[href*='https://www.bookalope.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bookalope.svg');
+  mask-image: url('https://simpleicons.org/icons/bookalope.svg');
+}
+article a[href*='https://bookbub.com']::before,
+article a[href*='https://www.bookbub.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bookbub.svg');
+  mask-image: url('https://simpleicons.org/icons/bookbub.svg');
+}
+article a[href*='https://bookmeter.com']::before,
+article a[href*='https://www.bookmeter.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bookmeter.svg');
+  mask-image: url('https://simpleicons.org/icons/bookmeter.svg');
+}
+article a[href*='https://bookmyshow.com']::before,
+article a[href*='https://www.bookmyshow.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bookmyshow.svg');
+  mask-image: url('https://simpleicons.org/icons/bookmyshow.svg');
+}
+article a[href*='https://bookstackapp.com']::before,
+article a[href*='https://www.bookstackapp.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bookstack.svg');
+  mask-image: url('https://simpleicons.org/icons/bookstack.svg');
+}
+article a[href*='https://boost.org']::before,
+article a[href*='https://www.boost.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/boost.svg');
+  mask-image: url('https://simpleicons.org/icons/boost.svg');
+}
+article a[href*='https://boots.com']::before,
+article a[href*='https://www.boots.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/boots.svg');
+  mask-image: url('https://simpleicons.org/icons/boots.svg');
+}
+article a[href*='https://getbootstrap.com']::before,
+article a[href*='https://www.getbootstrap.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bootstrap.svg');
+  mask-image: url('https://simpleicons.org/icons/bootstrap.svg');
+}
+article a[href*='https://borgbackup.org']::before,
+article a[href*='https://www.borgbackup.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/borgbackup.svg');
+  mask-image: url('https://simpleicons.org/icons/borgbackup.svg');
+}
+article a[href*='https://bosch.com']::before,
+article a[href*='https://www.bosch.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bosch.svg');
+  mask-image: url('https://simpleicons.org/icons/bosch.svg');
+}
+article a[href*='https://bose.com']::before,
+article a[href*='https://www.bose.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bose.svg');
+  mask-image: url('https://simpleicons.org/icons/bose.svg');
+}
+article a[href*='https://boulanger.com']::before,
+article a[href*='https://www.boulanger.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/boulanger.svg');
+  mask-image: url('https://simpleicons.org/icons/boulanger.svg');
+}
+article a[href*='https://bower.io']::before,
+article a[href*='https://www.bower.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bower.svg');
+  mask-image: url('https://simpleicons.org/icons/bower.svg');
+}
+article a[href*='https://box.com']::before,
+article a[href*='https://www.box.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/box.svg');
+  mask-image: url('https://simpleicons.org/icons/box.svg');
+}
+article a[href*='https://boxysvg.com']::before,
+article a[href*='https://www.boxysvg.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/boxysvg.svg');
+  mask-image: url('https://simpleicons.org/icons/boxysvg.svg');
+}
+article a[href*='https://brandfolder.com']::before,
+article a[href*='https://www.brandfolder.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/brandfolder.svg');
+  mask-image: url('https://simpleicons.org/icons/brandfolder.svg');
+}
+article a[href*='https://brave.com']::before,
+article a[href*='https://www.brave.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/brave.svg');
+  mask-image: url('https://simpleicons.org/icons/brave.svg');
+}
+article a[href*='https://breaker.audio']::before,
+article a[href*='https://www.breaker.audio']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/breaker.svg');
+  mask-image: url('https://simpleicons.org/icons/breaker.svg');
+}
+article a[href*='https://britishairways.com']::before,
+article a[href*='https://www.britishairways.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/britishairways.svg');
+  mask-image: url('https://simpleicons.org/icons/britishairways.svg');
+}
+article a[href*='https://broadcom.com']::before,
+article a[href*='https://www.broadcom.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/broadcom.svg');
+  mask-image: url('https://simpleicons.org/icons/broadcom.svg');
+}
+article a[href*='https://bt.com']::before,
+article a[href*='https://www.bt.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bt.svg');
+  mask-image: url('https://simpleicons.org/icons/bt.svg');
+}
+article a[href*='https://buddy.works']::before,
+article a[href*='https://www.buddy.works']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/buddy.svg');
+  mask-image: url('https://simpleicons.org/icons/buddy.svg');
+}
+article a[href*='https://budibase.com']::before,
+article a[href*='https://www.budibase.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/budibase.svg');
+  mask-image: url('https://simpleicons.org/icons/budibase.svg');
+}
+article a[href*='https://buefy.org']::before,
+article a[href*='https://www.buefy.org']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/buefy.svg');
+  mask-image: url('https://simpleicons.org/icons/buefy.svg');
+}
+article a[href*='https://buffer.com']::before,
+article a[href*='https://www.buffer.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/buffer.svg');
+  mask-image: url('https://simpleicons.org/icons/buffer.svg');
+}
+article a[href*='https://bugatti.com']::before,
+article a[href*='https://www.bugatti.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bugatti.svg');
+  mask-image: url('https://simpleicons.org/icons/bugatti.svg');
+}
+article a[href*='https://bugcrowd.com']::before,
+article a[href*='https://www.bugcrowd.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bugcrowd.svg');
+  mask-image: url('https://simpleicons.org/icons/bugcrowd.svg');
+}
+article a[href*='https://bugsnag.com']::before,
+article a[href*='https://www.bugsnag.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bugsnag.svg');
+  mask-image: url('https://simpleicons.org/icons/bugsnag.svg');
+}
+article a[href*='https://buildkite.com']::before,
+article a[href*='https://www.buildkite.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/buildkite.svg');
+  mask-image: url('https://simpleicons.org/icons/buildkite.svg');
+}
+article a[href*='https://bukalapak.com']::before,
+article a[href*='https://www.bukalapak.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bukalapak.svg');
+  mask-image: url('https://simpleicons.org/icons/bukalapak.svg');
+}
+article a[href*='https://bulma.io']::before,
+article a[href*='https://www.bulma.io']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bulma.svg');
+  mask-image: url('https://simpleicons.org/icons/bulma.svg');
+}
+article a[href*='https://bunq.com']::before,
+article a[href*='https://www.bunq.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bun.svg');
+  mask-image: url('https://simpleicons.org/icons/bun.svg');
+}
+article a[href*='https://bunq.com']::before,
+article a[href*='https://www.bunq.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bunq.svg');
+  mask-image: url('https://simpleicons.org/icons/bunq.svg');
+}
+article a[href*='https://burgerking.com']::before,
+article a[href*='https://www.burgerking.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/burgerking.svg');
+  mask-image: url('https://simpleicons.org/icons/burgerking.svg');
+}
+article a[href*='https://burton.com']::before,
+article a[href*='https://www.burton.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/burton.svg');
+  mask-image: url('https://simpleicons.org/icons/burton.svg');
+}
+article a[href*='https://buymeacoffee.com']::before,
+article a[href*='https://www.buymeacoffee.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/buymeacoffee.svg');
+  mask-image: url('https://simpleicons.org/icons/buymeacoffee.svg');
+}
+article a[href*='https://buzzfeed.com']::before,
+article a[href*='https://www.buzzfeed.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/buzzfeed.svg');
+  mask-image: url('https://simpleicons.org/icons/buzzfeed.svg');
+}
+article a[href*='https://byjus.com']::before,
+article a[href*='https://www.byjus.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/byjus.svg');
+  mask-image: url('https://simpleicons.org/icons/byjus.svg');
+}
+article a[href*='https://byte.co']::before,
+article a[href*='https://www.byte.co']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/byte.svg');
+  mask-image: url('https://simpleicons.org/icons/byte.svg');
+}
+article a[href*='https://bytedance.com']::before,
+article a[href*='https://www.bytedance.com']::before
+{
+  content: '\00a0';
+  -webkit-mask-image: url('https://simpleicons.org/icons/bytedance.svg');
+  mask-image: url('https://simpleicons.org/icons/bytedance.svg');
+}
