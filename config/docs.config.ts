@@ -3,12 +3,12 @@ import latex from './latex.config'
 const sidebarProcessor = (items) => {
   const preferredOrder = ['Hey', 'Journals', 'Memex']
   const orderedItems = []
-  preferredOrder.forEach((item) => {
+  for (const item of preferredOrder) {
     const itemToAdd = items.find((i) => i.label === item || i.id === item)
     if (itemToAdd) {
       orderedItems.push(itemToAdd)
     }
-  })
+  }
   const result = orderedItems.map((item) => {
     if (item.type === 'category') {
       item.collapsible = true
