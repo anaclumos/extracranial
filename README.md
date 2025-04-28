@@ -2,10 +2,6 @@
 
 # [extracranial: the exosuit for my brain](https://cho.sh)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial?ref=badge_shield)
-![AWS Fargate](https://img.shields.io/website?down_color=lightgray&down_message=Offline&label=AWS%20Fargate&logo=aws-fargate&logoColor=white&up_color=FF9900&up_message=Online&url=https%3A%2F%2Fcho.sh)
-[![Pageviews](https://img.shields.io/badge/dynamic/json?color=%23FF4F64&logoColor=white&label=Pageviews&&logo=simple%20analytics&&style=flat&query=pageviews&url=https%3A%2F%2Fsimpleanalytics.com%2Fcho.sh.json%3Fversion%3D5%26fields%3Dpageviews%26timezone%3DAmerica%2FLos_Angeles%26start%3D2020-01-01%26end%3Dyesterday%26info%3Dfalse)](https://simpleanalytics.com/cho.sh)
-
 Extracranial means **situated outside the cranium** or **exoskull** in medical contexts.
 Think this as a **exoskeleton** for my brain: personal wikipedia, digital garden, second brain, memex...
 everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
@@ -26,7 +22,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Wed Jan 29 15:27:57 KST 2025
+Tue Apr 29 04:22:33 KST 2025
 
 ## Stats
 
@@ -34,26 +30,24 @@ Wed Jan 29 15:27:57 KST 2025
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2805     71578    19144         0    52434          0
-CSS                         57     18822      755        32    18035          0
-TypeScript                  51     20968      173        52    20743        153
-JSON                        41      2059        0         0     2059          0
+Markdown                  2884     73300    19596         0    53704          0
+CSS                         54     18521      716        13    17792          0
+TypeScript                  50      7687      171        34     7482        149
+JSON                        33      1963        0         0     1963          0
 SVG                          9         9        0         0        9          0
-YAML                         9     15167     2836         0    12331          0
-Python                       7       719       57        32      630         95
-JavaScript                   5     51290     1837      8216    41237       4332
+YAML                         3        18        0         0       18          0
+MDX                          2        36       14         0       22          0
 TypeScript Typings           2        12        0         4        8          0
-INI                          1         1        0         0        1          0
+JavaScript                   1      1063        1       965       97         22
 Plain Text                   1         3        0         0        3          0
-gitignore                    1       289       70        69      150          0
+Python                       1       339       75        52      212         56
 ───────────────────────────────────────────────────────────────────────────────
-Total                     2989    180917    24872      8405   147640       4580
+Total                     3040    102951    20573      1068    81310        227
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $5,119,877
-Estimated Schedule Effort (organic) 25.58 months
-Estimated People Required (organic) 17.78
+Estimated Cost to Develop (organic) $2,736,821
+Estimated Schedule Effort (organic) 20.16 months
+Estimated People Required (organic) 12.06
 ───────────────────────────────────────────────────────────────────────────────
-Processed 11382896 bytes, 11.383 megabytes (SI)
+Processed 4854726 bytes, 4.855 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
-
 ```
