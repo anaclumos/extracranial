@@ -190,7 +190,7 @@ def _resolve_wikilinks(text: str, current: Path, all_md: List[Path], debug_flag:
         for md in all_md:
             if nfc(md.stem.lower()) == nfc(target.lower()):
                 rel = os.path.relpath(md, current.parent)
-                link = f"[{display}]({rel})"
+                link = f"[{display}](./{rel})"
                 debug(f"    [[{raw}]] → {link}", debug_flag)
                 return link
         # fallback – leave plain
