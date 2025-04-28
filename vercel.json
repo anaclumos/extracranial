@@ -1,24 +1,4 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
-  "redirects": [
-    { 
-      "source": "/w/:path", 
-      "destination": "/w/:path.html",
-      "has": [
-        {
-          "type": "header",
-          "key": "Accept",
-          "value": "text/html"
-        }
-      ],
-      "missing": [
-        {
-          "type": "header",
-          "key": "X-Requested-With",
-          "value": "XMLHttpRequest"
-        }
-      ]
-    }
-  ]
+  "trailingSlash": false
 }

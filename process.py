@@ -166,6 +166,13 @@ def process_docs(research_src: Path, docs_dst: Path, debug_flag: bool) -> None:
     shutil.copytree(research_src, docs_dst)
 
     all_md = [p for p in docs_dst.rglob("*.md")]
+    yml_files = [p for p in research_src.rglob("*.yml")]
+    
+    for yml_file in yml_files:
+        rel_path = yml_file.relative_to(research_src)
+        target_path = docs_dst / rel_path
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy(yml_file, target_path)
 
     def run(path: Path) -> None:
         text = path.read_text(encoding="utf-8")
