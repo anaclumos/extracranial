@@ -194,6 +194,8 @@
   },
   "active": "e721a8db73b481dc",
   "lastOpenFiles": [
+    "journals/_category_.yml",
+    "pages/_category_.yml",
     "assets/FEEE56.png",
     "assets/436846.png",
     "assets/E4D0EB.png",
@@ -204,7 +206,6 @@
     "assets/956863.gif",
     "assets/3735AF.gif",
     "assets/BD8935.gif",
-    "assets/F47E19.gif",
     "docusaurus.config.ts",
     "pages/String Template Managing Tools.md",
     "templates/grind template.md",
