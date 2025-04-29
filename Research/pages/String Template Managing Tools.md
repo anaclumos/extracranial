@@ -1,5 +1,5 @@
 ---
-lang: en
+lang: 'en'
 slug: '/03E6F6'
 ---
 

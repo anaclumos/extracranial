@@ -24,6 +24,7 @@ import os
 import re
 import shutil
 import unicodedata
+import urllib.parse
 from datetime import timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, Iterator, List, Mapping, MutableMapping, Optional, Tuple, Union
@@ -279,7 +280,12 @@ def _resolve_wikilinks(text: str, current: Path, all_md: List[Path], debug_flag:
         for md in all_md:
             if nfc(md.stem.lower()) == nfc(target.lower()):
                 rel = os.path.relpath(md, current.parent)
-                link = f"[{display}](./{rel})"
+                # Use standard urllib.parse for URL encoding
+                # Split path by slashes to encode each part separately
+                path_parts = rel.split('/')
+                encoded_parts = [urllib.parse.quote(part) for part in path_parts]
+                rel_encoded = '/'.join(encoded_parts)
+                link = f"[{display}](./{rel_encoded})"
                 debug(f"    [[{raw}]] → {link}", debug_flag)
                 return link
         # fallback – leave plain
