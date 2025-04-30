@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f543327d0ca0fbfe",
+        "id": "bfbf8789f8600631",
         "type": "tabs",
         "children": [
           {
-            "id": "e721a8db73b481dc",
+            "id": "53ec0d8a9fabbc9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2024-09-21.md",
+                "file": "journals/2025-04-30.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-09-21"
+              "title": "2025-04-30"
+            }
+          },
+          {
+            "id": "31f64e7a693249eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2025-04-30.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-04-30"
+            }
+          },
+          {
+            "id": "60ee20950f8ed513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Biome.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Biome"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,15 +241,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e721a8db73b481dc",
+  "active": "60ee20950f8ed513",
   "lastOpenFiles": [
+    "pages/Blocking Screenshot.md",
+    "journals/2025-04-30.md",
+    "pages/Biome.md",
+    "pages/Stripe.md",
+    "pages/Prettier.md",
+    "journals/2024-09-21.md",
     "journals/2024-09-16.md",
     "journals/2024-09-11.md",
     "journals/2024-09-09.md",
     "journals/2024-09-08.md",
     "journals/2024-09-05.md",
     "journals/2024-09-04.md",
-    "journals/2024-09-21.md",
     "journals/2024-09-25.md",
     "journals/2024-09-26.md",
     "journals/2024-10-02.md",
@@ -215,11 +269,6 @@
     "journals/2024-11-15.md",
     "journals/2024-11-29.md",
     "journals/2024-12-01.md",
-    "journals/2024-12-02.md",
-    "journals/2024-12-05.md",
-    "journals/2024-12-06.md",
-    "journals/2024-12-18.md",
-    "journals/2024-12-19.md",
     "journals/_category_.yml",
     "pages/_category_.yml",
     "assets/FEEE56.png",

@@ -14,9 +14,7 @@ slug: '/1C434D'
       "**/dist/**",
       "**/build/**",
       "**/.cache/**",
-      "**/storybook-static/**",
-      "**/.obsidian/**",
-      "**/.docusaurus/**"
+      "**/storybook-static/**"
     ],
     "ignoreUnknown": true
   },
@@ -46,9 +44,19 @@ slug: '/1C434D'
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "suspicious": {
+        "noArrayIndexKey": "off"
+      }
     },
-    "ignore": ["**/node_modules/**", "**/dist/**", "**/build/**", "**/.cache/**", "**/public/**", "**/*.esm.js"]
+    "ignore": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.cache/**",
+      "**/public/**",
+      "**/*.esm.js"
+    ]
   },
   "javascript": {
     "formatter": {
