@@ -5,10 +5,9 @@ slug: '/D976F5'
 
 - [[Block Screenshots in iOS]]
 
-
 Browser integration (Encrypted-Media + Content-Protection)
 
-Widevine L1	 uses the TEE/TrustZone to decrypt into secure buffers and then tells the compositor **not** to read those buffers when another process (or the OS screen-shot service) asks. If the device lacks L1 hardware, it falls back to L3, lowers the resolution, or refuses playback.[source](https://news.ycombinator.com/item?id=43223985)
+Widevine L1 uses the TEE/TrustZone to decrypt into secure buffers and then tells the compositor **not** to read those buffers when another process (or the OS screen-shot service) asks. If the device lacks L1 hardware, it falls back to L3, lowers the resolution, or refuses playback.[source](https://news.ycombinator.com/item?id=43223985)
 
 Test at: [https://www.netflix.com/watch/80164785](https://www.netflix.com/watch/80164785)
 
