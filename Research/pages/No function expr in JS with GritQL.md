@@ -6,10 +6,7 @@ slug: '/C2A337'
 ```json
 {
   "$schema": ".node_modules/@biomejs/biome/configuration_schema.json",
-  "plugins": [
-    "./plugins/no-fn-decl.grit",
-    "./plugins/no-fn-expr.grit"
-  ],
+  "plugins": ["./plugins/no-fn-decl.grit", "./plugins/no-fn-expr.grit"],
   "linter": {
     "enabled": true,
     "rules": {
@@ -20,7 +17,6 @@ slug: '/C2A337'
     }
   }
 }
-
 ```
 
 ```grit
