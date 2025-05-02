@@ -183,7 +183,7 @@ def sanitise_md(research_root: Path, debug_flag: bool) -> None:
 def _sanitise_one(path: Path, debug_flag: bool) -> None:
     text = nfc(path.read_text(encoding="utf-8"))
     # HEX placeholders
-    if "{{hex}}" in text:
+    if "{{hex}}" in text and not "template" in path.name:
         text = text.replace("{{hex}}", "/" + random_hex())
     # Bulk replacements
     for old, new in REPLACE_RULES.items():
