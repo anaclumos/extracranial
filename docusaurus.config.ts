@@ -103,7 +103,7 @@ const config: Config = {
     navbar,
 
     prism: {
-      additionalLanguages: ['java', 'swift', 'diff', 'docker'],
+      additionalLanguages: ['java', 'swift', 'diff', 'docker', 'grit'],
     },
 
     tableOfContents: {

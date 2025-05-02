@@ -30,57 +30,8 @@
               "icon": "lucide-file",
               "title": "2025-04-30"
             }
-          },
-          {
-            "id": "31f64e7a693249eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-04-30.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-04-30"
-            }
-          },
-          {
-            "id": "60ee20950f8ed513",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/No function expr in JS with GritQL.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "No function expr in JS with GritQL"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,13 +192,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60ee20950f8ed513",
+  "active": "53ec0d8a9fabbc9b",
   "lastOpenFiles": [
+    "pages/No function expr in JS with GritQL.md",
     "journals/2025-05-02.md",
     "journals/2025-04-30.md",
     "templates/note template.md",
     "pages/Clop.md",
-    "pages/No function expr in JS with GritQL.md",
     "pages/Blocking Screenshot.md",
     "pages/Biome.md",
     "assets/FFD03B.gif",
