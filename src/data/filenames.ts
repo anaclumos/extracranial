@@ -1457,7 +1457,7 @@ export const filenames = {
     "MacCast": "F97211",
     "라즈베리 파이로 스마트 오디오 시스템 만들기": "1789C6",
     "Change Google One Subscription Country": "A61DD4",
-    "Clop": "D976F4",
+    "Clop": "D976F3",
     "ARM Architecture": "532A14",
     "Disable iPhone from automatically connecting to carrier Wi-Fis": "440A54",
     "800km 밖에 못 가는 이메일": "8F1E7C",
