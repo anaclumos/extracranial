@@ -18,7 +18,7 @@
     'rlig', 'calt', 'case', 'ccmp', 'dlig', 'salt', 'tnum', 'zero', 'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss08',
     'ss15';
 
-  --unhovered-transparency: 30%;
+  --unhovered-transparency: 10%;
   --padding: 1rem;
   --border-radius: 0.25rem;
   --ifm-container-width-xxl: 1600px;
