@@ -62,7 +62,7 @@
               "type": "markdown",
               "state": {
                 "file": "pages/Exclude Gitignored Files from VS Code Sidebar.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
