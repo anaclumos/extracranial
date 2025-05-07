@@ -169,6 +169,8 @@ REPLACE_RULES: Dict[str, str] = {
     'lang: en': "lang: 'en'",
     ' | Papers With Code': "",
     " - PMC": "",
+    "?utm_source=chatgpt.com": "",
+    "&utm_medium=chatgpt.com": "",
 }
 
 def sanitise_md(research_root: Path, debug_flag: bool) -> None:
