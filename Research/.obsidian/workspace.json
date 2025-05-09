@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/INCL.md",
-                "mode": "preview",
+                "file": "journals/2025-05-09.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -76,11 +76,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "INCL"
+              "title": "2025-05-09"
+            }
+          },
+          {
+            "id": "3eacb5c8717b2664",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/nullish vs optional vs nullable in Zod.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "nullish vs optional vs nullable in Zod"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -241,13 +265,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85c85fb3037c35f1",
+  "active": "3eacb5c8717b2664",
   "lastOpenFiles": [
-    "pages/pip install . vs pip install -e ..md",
+    "pages/nullish vs optional vs nullable in Zod.md",
     "journals/2025-05-09.md",
     "pages/Format and Lint Python.md",
-    "pages/Docker Nuke.md",
     "pages/INCL.md",
+    "pages/pip install . vs pip install -e ..md",
+    "pages/Docker Nuke.md",
     "journals/2025-05-08.md",
     "pages/uv (python).md",
     "pages/Docker Compose Localhost.md",
@@ -279,7 +304,6 @@
     "assets/FE52AF.png",
     "assets",
     "pages/Stripe.md",
-    "pages/Prettier.md",
     "journals/_category_.yml",
     "pages/_category_.yml",
     "docusaurus.config.ts",
