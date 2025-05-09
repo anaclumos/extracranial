@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7c1765b06ed41533",
+        "id": "ee76f3536c50934b",
         "type": "tabs",
         "children": [
           {
-            "id": "a705d4b75bd3f578",
+            "id": "08827b43bff2f61f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-05-03.md",
+                "file": "journals/2025-05-09.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-03"
+              "title": "2025-05-09"
             }
           },
           {
-            "id": "1cc56c616f1cd191",
+            "id": "75c4464a39f76a92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-05-03.md",
+                "file": "journals/2025-05-09.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-03"
+              "title": "2025-05-09"
             }
           },
           {
-            "id": "48243b4afb5bcd5a",
+            "id": "85c85fb3037c35f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Exclude Gitignored Files from VS Code Sidebar.md",
+                "file": "pages/INCL.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Exclude Gitignored Files from VS Code Sidebar"
+              "title": "INCL"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2e4ae2.gif",
+                "query": "docker logs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -241,14 +241,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48243b4afb5bcd5a",
+  "active": "85c85fb3037c35f1",
   "lastOpenFiles": [
+    "pages/pip install . vs pip install -e ..md",
+    "journals/2025-05-09.md",
+    "pages/Format and Lint Python.md",
+    "pages/Docker Nuke.md",
+    "pages/INCL.md",
+    "journals/2025-05-08.md",
+    "pages/uv (python).md",
+    "pages/Docker Compose Localhost.md",
     "journals/2025-05-07.md",
+    "pages/Three Column Design.md",
+    "pages/Final Cut Pro.md",
+    "pages/3D.md",
+    "pages/Exclude Gitignored Files from VS Code Sidebar.md",
     "pages/INCL Rebuild Post.md",
     "journals/2025-05-02.md",
     "journals/2025-05-03.md",
-    "pages/Exclude Gitignored Files from VS Code Sidebar.md",
-    "pages/INCL.md",
     "pages/Alpine.md",
     "journals/2025-04-30.md",
     "pages/Everynews Manifesto.md",
@@ -270,16 +280,6 @@
     "assets",
     "pages/Stripe.md",
     "pages/Prettier.md",
-    "journals/2024-09-21.md",
-    "journals/2024-09-16.md",
-    "journals/2024-09-11.md",
-    "journals/2024-09-09.md",
-    "journals/2024-09-08.md",
-    "journals/2024-09-05.md",
-    "journals/2024-09-04.md",
-    "journals/2024-09-25.md",
-    "journals/2024-09-26.md",
-    "journals/2024-10-02.md",
     "journals/_category_.yml",
     "pages/_category_.yml",
     "docusaurus.config.ts",
