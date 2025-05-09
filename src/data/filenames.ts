@@ -1688,6 +1688,7 @@ export const filenames = {
     "블록 기반 링킹": "63E35A",
     "demure": "D78978",
     "의대 쏠림": "5BC5C5",
+    "nullish vs optional vs nullable in Zod": "73FAAA",
     "하늘땅사람": "27E815",
     "J. Robert Oppenheimer": "A3D632",
     "Researcher": "BB6D21",
