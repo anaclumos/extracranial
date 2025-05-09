@@ -32,7 +32,17 @@ gcloud init
 ```bash
 uv python install 3.10
 uv python pin 3.10
-uv venv
+uv venv --python 3.10
+uv pip install --requirements requirements.txt
+uv pip install --requirements sdk/requirements.txt
+uv pip install -e .
+source .venv/bin/activate
+```
+
+```bash
+uv python install 3.10
+uv python pin 3.10
+uv venv --python 3.10
 source .venv/bin/activate
 uv pip install --requirements django/requirements.txt
 uv pip install --requirements e2e_tests/requirements.txt

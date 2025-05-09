@@ -22,7 +22,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Wed May 7 10:21:11 KST 2025
+Fri May 9 14:07:21 KST 2025
 
 ## Stats
 
@@ -30,9 +30,9 @@ Wed May 7 10:21:11 KST 2025
 ───────────────────────────────────────────────────────────────────────────────
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  2886     73271    19604         0    53667          0
+Markdown                  2890     73315    19610         0    53705          0
 CSS                         53     18445      716        13    17716          0
-TypeScript                  50      7601      167        34     7400        132
+TypeScript                  50      7611      167        34     7410        132
 JSON                        25      1790        0         0     1790          0
 SVG                          9         9        0         0        9          0
 YAML                         5        23        0         0       23          0
@@ -41,12 +41,12 @@ TypeScript Typings           2        12        0         4        8          0
 Plain Text                   1         3        0         0        3          0
 Python                       1       420       67        24      329         61
 ───────────────────────────────────────────────────────────────────────────────
-Total                     3034    101610    20568        75    80967        193
+Total                     3038    101664    20574        75    81015        193
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,724,700
+Estimated Cost to Develop (organic) $2,726,396
 Estimated Schedule Effort (organic) 20.13 months
 Estimated People Required (organic) 12.03
 ───────────────────────────────────────────────────────────────────────────────
-Processed 4815427 bytes, 4.815 megabytes (SI)
+Processed 4816494 bytes, 4.816 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 ```
