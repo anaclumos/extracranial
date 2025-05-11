@@ -32,6 +32,8 @@
   --border-radius: 0.25rem;
   --ifm-container-width-xxl: 1600px;
 
+  --ifm-h1-font-size: 3rem;
+
   max-width: 100dvw;
 }
 
