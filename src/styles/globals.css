@@ -32,12 +32,12 @@
   --border-radius: 0.25rem;
   --ifm-container-width-xxl: 1600px;
 
-  --ifm-h1-font-size: 2rem;
-  --ifm-h2-font-size: 1.5rem;
-  --ifm-h3-font-size: 1.25rem;
-  --ifm-h4-font-size: 1rem;
-  --ifm-h5-font-size: 0.875rem;
-  --ifm-h6-font-size: 0.85rem;
+  --ifm-h1-font-size: 2rem !important;
+  --ifm-h2-font-size: 1.5rem !important;
+  --ifm-h3-font-size: 1.25rem !important;
+  --ifm-h4-font-size: 1rem !important;
+  --ifm-h5-font-size: 0.875rem !important;
+  --ifm-h6-font-size: 0.85rem !important;
 
   max-width: 100dvw;
 }

@@ -8,10 +8,6 @@ title: 'Recreating the Dynamic Island 🏝'
 
 <!-- truncate -->
 
-<Admonition type="info" title="Talk is cheap; show me right now!" icon="🗣">
-Of course. Click on the black oval below. It will display a song I am currently listening to or any of my 30 most recently played songs.
-</Admonition>
-
 :::info
 
 [Dynamic Island on the web](https://dynamic-island.cho.sh/)
