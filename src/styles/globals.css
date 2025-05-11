@@ -1,6 +1,7 @@
 @import url('./navbar.css');
 @import url('./color.css');
 @import url('./external-link.css');
+@import url('./highlight.css');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -240,9 +241,6 @@ table {
 .math {
   overflow-x: scroll;
 }
-
-
-
 
 :root {
   --background: oklch(1 0 0);
