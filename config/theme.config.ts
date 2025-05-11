@@ -1,5 +1,5 @@
 const theme = {
-  customCss: require.resolve('../src/styles/global.css'),
+  customCss: require.resolve('../src/styles/globals.css'),
 }
 
 export default theme
