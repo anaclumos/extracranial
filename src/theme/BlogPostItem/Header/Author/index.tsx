@@ -1,21 +1,26 @@
 import React, { JSX } from 'react'
 import clsx from 'clsx'
-import Link, { type Props as LinkProps } from '@docusaurus/Link'
-import type { Props } from '@theme/BlogPostItem/Header/Author'
+import Link from '@docusaurus/Link'
 import styles from './styles.module.css'
 
-function MaybeLink(props: LinkProps): JSX.Element {
+function MaybeLink(props: { href?: string; children: JSX.Element }): JSX.Element {
   if (props.href) {
     return <Link {...props} />
   }
   return <>{props.children}</>
 }
 
-export default function BlogPostItemHeaderAuthor({ author, className }: Props): JSX.Element {
+export default function BlogPostItemHeaderAuthor({
+  author,
+  className,
+}: {
+  author: any
+  className?: string
+}): JSX.Element {
   const { name, title, url, imageURL, email } = author
   const link = url || (email && `mailto:${email}`) || undefined
   return (
-    <MaybeLink href={link} className={clsx(styles.link, 'avatar__photo-link')}>
+    <MaybeLink href={link}>
       <div className={clsx('avatar margin-bottom--sm', className, styles.author)}>
         {imageURL && <img className="avatar__photo" src={imageURL} alt={name} />}
 

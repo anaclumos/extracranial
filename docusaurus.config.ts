@@ -66,7 +66,7 @@ const config: Config = {
         mode: 'auto',
       },
     ],
-    "./src/plugins/tailwind.ts",
+    './src/plugins/tailwind.ts',
   ],
 
   stylesheets: [
