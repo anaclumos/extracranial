@@ -1,5 +1,5 @@
 ---
-lang: 'en'
+lang: 'ko'
 slug: /57E05E
 ---
 

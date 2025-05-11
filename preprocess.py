@@ -191,8 +191,35 @@ def _sanitise_one(path: Path, debug_flag: bool) -> None:
     for old, new in REPLACE_RULES.items():
         if old in text:
             text = text.replace(old, new)
+
+    # Check for frontmatter and correct language tag if needed
+    if "---" in text:
+        frontmatter_match = re.match(r"---\s*\n(.*?)\n---", text, re.DOTALL)
+        if frontmatter_match:
+            frontmatter = frontmatter_match.group(1)
+            if "lang: 'en'" in frontmatter:
+                # Skip changing lang if document has <div lang='ko-KR'>
+                if "div lang='ko" in text or 'div lang="ko' in text: # check for both ko and ko-KR
+                    pass  # Keep as English
+                else:
+                    # Check if filename contains Korean characters
+                    filename_has_korean = any('\uAC00' <= char <= '\uD7A3' for char in path.name)
+
+                    # Count Korean and English characters
+                    korean_chars = sum(1 for char in text if '\uAC00' <= char <= '\uD7A3')
+                    english_chars = sum(1 for char in text if 'a' <= char.lower() <= 'z')
+
+                    # Change to Korean if filename is Korean or more Korean than English characters
+                    if filename_has_korean or (korean_chars > english_chars):
+                        # Replace language tag from 'en' to 'ko'
+                        text = text.replace("lang: 'en'", "lang: 'ko'")
+
     path.write_text(text, encoding="utf-8")
-    debug(f"  • {path.relative_to(REPO)}", debug_flag)
+    try:
+        rel_path = path.relative_to(REPO)
+    except ValueError:
+        rel_path = path
+    debug(f"  • {rel_path}", debug_flag)
 
 def process_blog(posts_src: Path, blog_en: Path, blog_ko: Path, cfg: Path) -> None:
     print("📝 Processing blog…")
