@@ -139,6 +139,9 @@ export const backlinks = {
     "2022-11-19": {},
     "2023-11-19": {},
     "2022-10-17": {},
+    "wikilink": {
+        "2022-10-17": "... is necessary because I use `[[wikilink]] ` for interlinking, which [Docusaurus](./../pages/Docusaurus.md) does..."
+    },
     "2023-10-17": {},
     "2024-09-08": {},
     "2023-12-03": {},
@@ -285,6 +288,9 @@ export const backlinks = {
     "2022-06-10": {},
     "2023-09-29": {},
     "2022-09-29": {},
+    "Inspiring Open Source Projects": {
+        "2022-09-29": "... -[[Inspiring Open Source Projects]]"
+    },
     "2025-01-20": {},
     "2024-01-20": {},
     "2021-01-16": {},
@@ -677,6 +683,9 @@ export const backlinks = {
     "2023-05-22": {},
     "2024-02-26": {},
     "2022-10-11": {},
+    "i18n": {
+        "2022-10-11": "... Merged 2! docs: Add Korean[[i18n]] support [#31](https://github.com/toss/slash/pull/31)..."
+    },
     "2023-10-11": {},
     "2023-12-05": {},
     "2024-05-19": {},
@@ -735,6 +744,10 @@ export const backlinks = {
     "2023-03-17": {},
     "2024-08-04": {},
     "person template": {},
+    "{{date:YYYY-MM-DD}}": {
+        "person template": "... - Interviewed on[[{{date:YYYY-MM-DD}}]]",
+        "grind template": "... Solved at:[[{{date:YYYY-MM-DD}}]]"
+    },
     "apple music song template": {},
     "twitter template": {},
     "figure template": {},
@@ -999,6 +1012,18 @@ export const backlinks = {
     "Project Florence": {},
     "Believer Plan": {},
     "supernpm": {},
+    " -f bun.lockb ": {
+        "supernpm": "... if[[ -f bun.lockb ]]; then"
+    },
+    " -f pnpm-lock.yaml ": {
+        "supernpm": "... elif[[ -f pnpm-lock.yaml ]]; then"
+    },
+    " -f yarn.lock ": {
+        "supernpm": "... elif[[ -f yarn.lock ]]; then"
+    },
+    " -f package-lock. json ": {
+        "supernpm": "... elif[[ -f package-lock. json ]]; then"
+    },
     "Macroeconomics": {},
     "Bloomberg Terminal": {},
     "Explode": {},
@@ -1061,7 +1086,9 @@ export const backlinks = {
     "aaaa.coffee": {},
     "Monolithic Model": {},
     "Project Malmantile": {},
-    "Tailwind": {},
+    "Tailwind": {
+        "Tailwind CSS 톺아보기": "... 4. 낮은 러닝커브. 예전에는[[Tailwind]] 의 `className` 속성 이름을 일일이 외워야..."
+    },
     "SMIME": {},
     "Project Horcrux": {},
     "ShadowRealm": {},
@@ -1083,7 +1110,9 @@ export const backlinks = {
     "Implementing Karatsuba Algorithm in Python": {},
     "두그열": {},
     "Demise of Chatbots in 2017": {},
-    "CSS": {},
+    "CSS": {
+        "Tailwind CSS 톺아보기": "... 길어지는 것을 방지한다. `styled-component`의 경우 ```으로[[CSS]] 코드를 감싼 후 [[CSS]] 코드를 줄바꿈하여..."
+    },
     "Microservices Architecture": {},
     "LLaMA": {},
     "불가사리 (23誠鉉)": {},
@@ -1198,6 +1227,9 @@ export const backlinks = {
     "Kang Wei et al. Vertical Federated Learning, Challenges, Methodologies and Experiments": {},
     "Twitter": {},
     "SVG": {},
+    "Vector Graphics": {
+        "SVG": "... > Scalable[[Vector Graphics]] (SVG) is an XML-based vector image..."
+    },
     "Interaction Effect": {},
     "Web Browser": {},
     "대한민국의 저출산": {},
@@ -1304,6 +1336,9 @@ export const backlinks = {
     "본디는 사실 혜성이 아니다": {},
     "雅號": {},
     "Bernoulli Distribution": {},
+    "Strategy        ": {
+        "Bernoulli Distribution": "... |[[Strategy        | Strategies]] | With Replacement | Without Replacement..."
+    },
     "NDA": {},
     "iMessage App": {},
     "Journal is a Waypoint, nothing more": {},
@@ -1322,7 +1357,9 @@ export const backlinks = {
     "Upsert": {},
     "Person 542AD7": {},
     "Sapiophile": {},
-    "Apple": {},
+    "Apple": {
+        "Apple Easter Egg": "... in here for the hard core[[Apple]] fans that..."
+    },
     "Research Paper NPM System": {},
     "rST": {},
     "Person 88B488": {},
@@ -1374,6 +1411,9 @@ export const backlinks = {
     "GPT-4": {},
     "Parallelism": {},
     "Tailwind CSS 톺아보기": {},
+    "Visual Studio Code": {
+        "Tailwind CSS 톺아보기": "... 코드 `className`의 순서가 섞인다. 이 문제는[[Visual Studio Code|VS Code]] 를 사용할 경우 [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)라는 확장 프로그램으로..."
+    },
     "Programmatically Scroll": {},
     "Grammarly Work Note 2023-06-27": {},
     "AWS CLI Do not page": {},
@@ -1401,6 +1441,9 @@ export const backlinks = {
     "Reading Files in Swift": {},
     "Vector DB": {},
     "Project Ganymede": {},
+    "2023-11-13": {
+        "Project Ganymede": "... ##[[2023-11-13]]"
+    },
     "서당개 3년이면 풍월을 읊는다": {},
     "Listmonk": {},
     "Protocol Wars": {},
@@ -1541,6 +1584,12 @@ export const backlinks = {
     "Video AI": {},
     "Augmented Reality": {},
     "0973 K Closest Points to Origin": {},
+    "Int": {
+        "0973 K Closest Points to Origin": "... func kClosest(_ points:[[Int]] , _ k: Int) -> [[Int]]...",
+        "0057 Insert Interval": "... func insert(_ intervals:[[Int]] , _ newInterval: [Int]) -> [[Int]]...",
+        "0015 3Sum": "... func threeSum(_ numsOriginal: [Int]) ->[[Int]] {...",
+        "0542 01 Matrix": "... func updateMatrix(_ matrix:[[Int]]) -> [[Int]] {"
+    },
     "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": {},
     "Navigator Copy as Rich Text": {},
     "Cloud Computing": {},
@@ -1578,6 +1627,10 @@ export const backlinks = {
     "Smooth Cursor on VS Code": {},
     "인공자궁": {},
     "Person 5DBDAE": {},
+    "people": {
+        "Person 5DBDAE": "... A lot of[[people]] are international....",
+        "Person E7CFC5": "... A lot of smart[[people]]."
+    },
     "Technocapital and Biocapital": {},
     "Limit Access for Photos": {},
     "Satori Widgets": {},
@@ -1622,6 +1675,27 @@ export const backlinks = {
     "월급만큼 중요한 것은 자존급이다": {},
     "Is Starbucks the Biggest Drug Dealer": {},
     "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": {},
+    "Firefox                                                                            ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 마이크로소프트, 5년 된 디펜더 버그 수정으로[[Firefox                                                                            | 파이어폭스]] 관련 CPU 사용량 75% 감소 |..."
+    },
+    "Firefox                                                                   ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... | 마이크로소프트, 5년전 디펜더 버그 수정으로[[Firefox                                                                   | 파이어폭스]] CPU 사용량 75% 감소 |..."
+    },
+    "Firefox                                                                         ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 마이크로소프트는 5년 된 디펜더 버그를 수정하여[[Firefox                                                                         | 파이어폭스]] CPU 사용량을 줄였습니다. | 마이크로소프트가 5년전..."
+    },
+    "Firefox                                                         ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 마이크로소프트가 5년전 버그를 수정하여 디펜더를 통해[[Firefox                                                         | 파이어폭스]]의 CPU 사용량을 줄였습니다. |"
+    },
+    "Web Browser                                                                                                              ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... HN users discuss energy efficiency of[[Web Browser                                                                                                              | web browsers]] , ad-blockers, browser compatibility on Windows...."
+    },
+    "Firefox                                                                                                                 ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 30% 절약할 수 있습니다. | 맥에서[[Firefox                                                                                                                 | 파이어폭스]] 에서 유튜브의 \"앰비언트 모드\"를 끄면 CPU..."
+    },
+    "Firefox                                                                                                        ": {
+        "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 대한 비판과 제안. | 크롬과 비교하여[[Firefox                                                                                                        | 파이어폭스]] 의 높은 CPU 사용량에 대한 비판과..."
+    },
     "Scrapers for LLMs": {},
     "Notion": {},
     "CELLO": {},
@@ -1744,6 +1818,9 @@ export const backlinks = {
     "Linux": {},
     "Brunch": {},
     "0733 Flood Fill": {},
+    "0 for i in image[0": {
+        "0733 Flood Fill": "... visited =[[0 for i in image[0]] for j in image]..."
+    },
     "GitHub PR Message Prompt": {},
     "한국통사": {},
     "0217 Contains Duplicate": {},
@@ -1955,6 +2032,9 @@ export const backlinks = {
     "Product Hunt": {},
     "Avoid Premature Optimizations": {},
     "LavaLab": {},
+    "USC": {
+        "LavaLab": "... club I am attached to at[[USC]]."
+    },
     "Person E7CFC5": {},
     "phash.wasm": {},
     "PineApple Pay": {},
@@ -1982,6 +2062,9 @@ export const backlinks = {
     "ChatGPT보다 내가 나은데": {},
     "조선왕조실록": {},
     "Search AI와 인터넷의 한국어": {},
+    "[장승": {
+        "Search AI와 인터넷의 한국어": "... 귀신을 쫓는 마을의 수호신 역할을 합니다.[[[장승]] 은 돌로 만든 석[장승](./%EC%9E%A5%EC%8A%B9.md)과 나무로 만든..."
+    },
     "Base Frame Pointer": {},
     "Project Core ML Inference": {},
     "USDZ vs glTF": {},
@@ -2169,6 +2252,9 @@ export const backlinks = {
     "Karrot NX Team Mission Statement": {},
     "Knoah AI": {},
     "Graphics Engine Process": {},
+    "Graphic Window": {
+        "Graphics Engine Process": "... - Create a[[Graphic Window]]"
+    },
     "Bing Chat": {},
     "Pensieve": {},
     "재학생일기": {},
@@ -2190,6 +2276,9 @@ export const backlinks = {
     "Cartography": {},
     "Eleven Labs": {},
     "Port": {},
+    "webserver": {
+        "Port": "... -[[webserver]] → 80..."
+    },
     "Automattic의 Beeper 인수": {},
     "Vibe Coding Prompts": {},
     "Heptabase": {},
@@ -2236,7 +2325,6 @@ export const backlinks = {
     "Queueing in Internetworking and Congestions": {},
     "Labor Illusion": {},
     "DjVu": {},
-    "Visual Studio Code": {},
     "Yuncheng Wu et al. Privacy-Preserving Vertical Federated Learning for Tree-based Models": {},
     "Jest": {},
     "Debugging CSS": {},
@@ -2514,6 +2602,9 @@ export const backlinks = {
     "Condensed H1 Design Trend (2024)": {},
     "Linux Device that keenly follows MacBook": {},
     "Fast": {},
+    "[Git": {
+        "Fast": "- **[[[Git|깃]] ](https://lkml.org/lkml/2005/4/20/159)** - 2005년 4월에 리누스 토발즈가..."
+    },
     "Xcode Clear Cache": {},
     "Proof of Concept": {},
     "Peter Kairouz et al. Advances and Open Problems in Federated Learning": {},
@@ -2521,6 +2612,12 @@ export const backlinks = {
     "Transactional Globe": {},
     "TextGPT": {},
     "Letter to Mr. Matt Rickard on 2022-11-28": {},
+    "Rickard": {
+        "Letter to Mr. Matt Rickard on 2022-11-28": "... Dear Mr.[[Rickard]],"
+    },
+    "Database": {
+        "Letter to Mr. Matt Rickard on 2022-11-28": "... + maybe image is stored in[[Database|DB]])"
+    },
     "Programmable Vaccines": {},
     "Person A3BA1A": {},
     "Font": {},
@@ -2648,6 +2745,9 @@ export const backlinks = {
     "Convergence of Geometric Series": {},
     "Meta Meta Framework": {},
     "Tools Must Vanish": {},
+    "Zettelkasten": {
+        "Tools Must Vanish": "... see is junk. It's never the[[Zettelkasten]] of the next [Vannevar Bush](./Vannevar%20Bush.md); it's..."
+    },
     "Gumroad": {},
     "every.news": {},
     "Apache": {},
@@ -2840,9 +2940,11 @@ export const backlinks = {
     "이공계": {},
     "Nextra": {},
     "Small Government vs Big Government": {},
-    "Database": {},
     "화요일에는 인쇄 기능이 고장나는 오피스 프로그램": {},
     "Memory Hierarchy": {},
+    "United States of America\\": {
+        "Memory Hierarchy": "... |[[United States of America\\|US]] -[EU](./EU.md) Roundtrip | 150ms |..."
+    },
     "Linear README": {},
     "Project Prepare for Grammarly": {},
     "SIT Technique": {},

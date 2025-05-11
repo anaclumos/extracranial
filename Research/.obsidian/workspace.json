@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "75c4464a39f76a92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-05-09.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-05-09"
-            }
-          },
-          {
             "id": "85c85fb3037c35f1",
             "type": "leaf",
             "state": {
@@ -79,8 +55,7 @@
               "title": "eSIM으로 변경할 때 입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰이라고 나타난다면"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,10 +217,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85c85fb3037c35f1",
+  "active": "08827b43bff2f61f",
   "lastOpenFiles": [
-    "journals/2025-05-11.md",
     "pages/eSIM으로 변경할 때 입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰이라고 나타난다면.md",
+    "journals/2025-05-11.md",
     "journals/2025-05-09.md",
     "pages/nullish vs optional vs nullable in Zod.md",
     "pages/Format and Lint Python.md",

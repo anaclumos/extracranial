@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """
-Run from the project root:
+Preprocess Research → docs/blog/assets.
 
-    $ python3 preprocess.py          # normal run
-    $ python3 preprocess.py --clean  # include cleanup of unused assets
+Execute:
+
+    # normal run
+    env PYTHONUTF8=1 PYTHONHASHSEED=0 PYTHONDONTWRITEBYTECODE=1 python3 -OO preprocess.py
+
+    # delete unused assets after build
+    env PYTHONUTF8=1 PYTHONHASHSEED=0 PYTHONDONTWRITEBYTECODE=1 python3 -OO preprocess.py --clean
 """
 
 from __future__ import annotations
@@ -15,21 +20,40 @@ import os
 import re
 import shutil
 import unicodedata
-import time
-import random
 import urllib.parse
 from datetime import timezone
 from pathlib import Path
-from typing import Any, Dict, Iterable, Iterator, List, Mapping, MutableMapping, Optional, Tuple, Union
+from secrets import randbelow
+from typing import (
+    Any,
+    Dict,
+    Iterable,
+    Iterator,
+    List,
+    Mapping,
+    MutableMapping,
+    Optional,
+    Tuple,
+    Union,
+)
+
+# ── constants ────────────────────────────────────────────────────────────────────
 
 TZ_UTC = timezone.utc  # type: ignore
+REPO = Path(__file__).resolve().parent
+REPLACE_RULES_PATH = REPO / "replace_rules.json"
+
+# ── helpers ──────────────────────────────────────────────────────────────────────
 
 
 class CaseInsensitiveDict(MutableMapping[str, Any]):
-    """Minimal case-insensitive dict (only what we need)."""
-    def __init__(self,
-                 data: Optional[Union[Mapping[str, Any], Iterable[Tuple[str, Any]]]] = None,
-                 **kwargs: Any) -> None:
+    """A tiny case-insensitive dict."""
+
+    def __init__(
+        self,
+        data: Optional[Union[Mapping[str, Any], Iterable[Tuple[str, Any]]]] = None,
+        **kwargs: Any,
+    ) -> None:
         self._store: Dict[str, Tuple[str, Any]] = {}
         data = data or {}
         self.update(data, **kwargs)
@@ -50,378 +74,302 @@ class CaseInsensitiveDict(MutableMapping[str, Any]):
         return len(self._store)
 
 
-def nfc(path_or_text: str) -> str:
+def nfc(text: str) -> str:
     """NFC-normalise a string."""
-    return unicodedata.normalize("NFC", path_or_text)
+    return unicodedata.normalize("NFC", text)
 
 
 def random_hex() -> str:
-    """Return a 6-digit uppercase hex."""
-    random.seed(int(time.time() * 1000))
-    return f"{random.randint(0, 0xFFFFFF):06X}"
+    """Return a cryptographically-safe 6-digit uppercase hex."""
+    return f"{randbelow(0xFFFFFF + 1):06X}"
 
 
-def debug(msg: str, flag: bool) -> None:
-    if flag:
-        print(msg)
+# ── load replace rules ───────────────────────────────────────────────────────────
 
-REPLACE_RULES: Dict[str, str] = {
-    " ": " ",
-    "️": "",
-    "（": "(",
-    "﻿": "",
-    "）": ")",
-    "# # # ": "### ",
-    " | Hacker News": "",
-    " - The New York Times": "",
-    " | The New Yorker": "",
-    " - WSJ": "",
-    " | Max Woolf's Blog": "",
-    " — Alin Panaitiu": "",
-    " | IMG.LY Blog": "",
-    " - Tyler Cipriani": "",
-    " - Code Faster with Kite": "",
-    " | the art of technology": "",
-    " | Cloudflare": "",
-    " | TechCrunch": "",
-    " | Jesse Li": "",
-    " | GitHub Changelog": "",
-    " | MDN": "",
-    " | RheinardKorf.com": "",
-    " | Apple Developer Documentation": "",
-    " | Create Interactive Product Demos": "",
-    " | Medium": "",
-    " | Chris Xiao": "",
-    " | Malwarebytes Labs": "",
-    " | Scraping Fish": "",
-    " | Azure Blog and Updates": "",
-    " | Microsoft Azure": "",
-    " | The GitHub Blog": "",
-    " | 카카오": "",
-    " | LINE Developers": "",
-    " | Pinterest Newsroom": "",
-    " | by Analytics at Meta": "",
-    " | Deijin's Blog": "",
-    " | lunnova.dev": "",
-    " | Saeloun Blog": "",
-    " | CITIZEN WATCH Global Network": "",
-    " | LeoLabs": "",
-    " | Freedom Be With All": "",
-    " | School of AI": "",
-    " | Coursera": "",
-    " | Fortune": "",
-    " | USENIX": "",
-    " | Rayst": "",
-    " | Giza Project": "",
-    " | Financial Times": "",
-    " | Jacob Martin": "",
-    " | Deephaven": "",
-    " | IBM": "",
-    " | Pinecone": "",
-    " | Fontshare: Quality Fonts. Free.": "",
-    " | Codacy": "",
-    " | Microsoft 365 Blog": "",
-    " | Overview": "",
-    " | Roger Mexico's Oscillator": "",
-    " | The AI Search Engine You Control": "",
-    " | The Homepage Developers Deserve": "",
-    " | Docusaurus": "",
-    " | visualization components": "",
-    " | Roam Garden": "",
-    " | 5to9": "",
-    " | WebKit": "",
-    " | Framer": "",
-    " | Reuters": "",
-    " | Chatterhead Says": "",
-    " | Igalia": "",
-    " | hoho.com": "",
-    " | ExxonMobil": "",
-    " | The Guardian": "",
-    " | Barnabas Kendall": "",
-    " | Clockwise": "",
-    " | Blackmagic Design": "",
-    " | tseijp": "",
-    " | TigYog": "",
-    " | Massdriver Blog": "",
-    " | K리그 프로그래머": "",
-    " | Stanford News": "",
-    " | Cornell Chronicle": "",
-    " | Department of Energy": "",
-    " | TAXLY.KR (택슬리)": "",
-    "<br>": "<br/>",
-    '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>': "",
-    "“": '"',
-    "”": '"',
-    "‘": "'",
-    "’": "'",
-    " • TechCrunch": "",
-    " | Jay Mody": "",
-    " | 중앙일보": "",
-    " | The New York Times": "",
-    "[단독] ": "",
-    " – arXiv Vanity": "",
-    " | npj Digital Medicine": "",
-    " - Databricks": "",
-    "background-color: rgb(228, 228, 228);": "",
-    "**: ": "** — ",
-    "]]: ": "]]. ",
-    'lang: ko': "lang: 'ko'",
-    'lang: en': "lang: 'en'",
-    ' | Papers With Code': "",
-    " - PMC": "",
-    "?utm_source=chatgpt.com": "",
-    "&utm_medium=chatgpt.com": "",
-}
+with REPLACE_RULES_PATH.open("r", encoding="utf-8") as fh:
+    REPLACE_RULES: Dict[str, str] = json.load(fh)
 
-def sanitise_md(research_root: Path, debug_flag: bool) -> None:
-    md_files = [p for p in research_root.rglob("*") if p.suffix in (".md", ".mdx")]
-    print(f"🧼 Sanitizing {len(md_files)} markdown files…")
+_REPLACE_RE = re.compile("|".join(map(re.escape, REPLACE_RULES)))
+_LANG_FIX_RE = re.compile(r"---\s*\n(.*?)\n---", re.DOTALL)
 
-    # We process files in parallel – it’s CPU-light but IO-heavy; ThreadPool is fine.
+# ── global regexes ───────────────────────────────────────────────────────────────
+
+_WIKILINK_RE = re.compile(r"\[\[([^\]]+?)]]")              # raw [[…]] tokens
+_CODE_BLOCK_RE = re.compile(r"```.*?```", re.S)            # fenced code
+_IMG_RE = re.compile(r"!\[([^\]]*?)\]\(([^)]+?)\)$", re.M) # images
+_SLUG_RE = re.compile(r"^slug:\s+['\"]?([^\s'\"#]+)['\"]?", re.M)
+
+# ── markdown sanitisation ────────────────────────────────────────────────────────
+
+
+def sanitise_md(root: Path) -> None:
+    md_files = [p for p in root.rglob("*") if p.suffix in (".md", ".mdx")]
+    print(f"📝 Sanitizing {len(md_files)} markdown files...")
     with cf.ThreadPoolExecutor() as ex:
-        list(ex.map(_sanitise_one, md_files, [debug_flag] * len(md_files)))
+        ex.map(_sanitise_one, md_files)
+    print(f"✨ Completed markdown sanitization")
 
 
-def _sanitise_one(path: Path, debug_flag: bool) -> None:
-    text = nfc(path.read_text(encoding="utf-8"))
-    # HEX placeholders
-    if "{{hex}}" in text and not "template" in path.name:
+def _sanitise_one(path: Path) -> None:
+    text = nfc(path.read_text("utf-8"))
+
+    if "{{hex}}" in text and "template" not in path.name:
         text = text.replace("{{hex}}", "/" + random_hex())
-    # Bulk replacements
-    for old, new in REPLACE_RULES.items():
-        if old in text:
-            text = text.replace(old, new)
 
-    # Check for frontmatter and correct language tag if needed
-    if "---" in text:
-        frontmatter_match = re.match(r"---\s*\n(.*?)\n---", text, re.DOTALL)
-        if frontmatter_match:
-            frontmatter = frontmatter_match.group(1)
-            if "lang: 'en'" in frontmatter:
-                # Skip changing lang if document has <div lang='ko-KR'>
-                if "div lang='ko" in text or 'div lang="ko' in text: # check for both ko and ko-KR
-                    pass  # Keep as English
-                else:
-                    # Check if filename contains Korean characters
-                    filename_has_korean = any('\uAC00' <= char <= '\uD7A3' for char in path.name)
+    text = _REPLACE_RE.sub(lambda m: REPLACE_RULES[m.group(0)], text)
 
-                    # Count Korean and English characters
-                    korean_chars = sum(1 for char in text if '\uAC00' <= char <= '\uD7A3')
-                    english_chars = sum(1 for char in text if 'a' <= char.lower() <= 'z')
+    fm = _LANG_FIX_RE.match(text)
+    if fm and "lang: 'en'" in fm.group(1):
+        if "div lang='ko" not in text and 'div lang="ko' not in text:
+            ko_name = any("\uAC00" <= ch <= "\uD7A3" for ch in path.name)
+            ko_chars = sum("\uAC00" <= ch <= "\uD7A3" for ch in text)
+            en_chars = sum("a" <= ch.lower() <= "z" for ch in text)
+            if ko_name or ko_chars > en_chars:
+                text = text.replace("lang: 'en'", "lang: 'ko'")
 
-                    # Change to Korean if filename is Korean or more Korean than English characters
-                    if filename_has_korean or (korean_chars > english_chars):
-                        # Replace language tag from 'en' to 'ko'
-                        text = text.replace("lang: 'en'", "lang: 'ko'")
+    path.write_text(text, "utf-8")
 
-    path.write_text(text, encoding="utf-8")
-    try:
-        rel_path = path.relative_to(REPO)
-    except ValueError:
-        rel_path = path
-    debug(f"  • {rel_path}", debug_flag)
 
-def process_blog(posts_src: Path, blog_en: Path, blog_ko: Path, cfg: Path) -> None:
-    print("📝 Processing blog…")
+# ── blog generation ──────────────────────────────────────────────────────────────
 
-    # Fresh dirs
-    for target in (blog_en, blog_ko):
-        if target.exists():
-            shutil.rmtree(target)
-        target.mkdir(parents=True)
 
-    # Copy
-    for entry in posts_src.iterdir():
+def process_blog(src: Path, en: Path, ko: Path, cfg: Path) -> None:
+    print(f"📚 Processing blog content...")
+    for dst in (en, ko):
+        if dst.exists():
+            shutil.rmtree(dst)
+        dst.mkdir(parents=True)
+
+    file_count = sum(1 for _ in src.rglob("*") if _.is_file())
+    print(f"📋 Copying {file_count} blog files to English and Korean destinations")
+
+    for entry in src.iterdir():
         if entry.is_file():
-            shutil.copy(entry, blog_en)
-            shutil.copy(entry, blog_ko)
+            shutil.copy(entry, en)
+            shutil.copy(entry, ko)
         else:
-            shutil.copytree(entry, blog_en / entry.name)
-            shutil.copytree(entry, blog_ko / entry.name)
+            shutil.copytree(entry, en / entry.name)
+            shutil.copytree(entry, ko / entry.name)
 
-    # authors.yml
-    shutil.copy(cfg / "english.yml", blog_en / "authors.yml")
-    shutil.copy(cfg / "korean.yml", blog_ko / "authors.yml")
-
-    # rename/delete language-specific files
-    _walk_rename(blog_en, "en", "ko")
-    _walk_rename(blog_ko, "ko", "en")
+    shutil.copy(cfg / "english.yml", en / "authors.yml")
+    shutil.copy(cfg / "korean.yml", ko / "authors.yml")
+    _walk_rename(en, "en", "ko")
+    _walk_rename(ko, "ko", "en")
+    print(f"🌐 Completed blog processing")
 
 
-def _walk_rename(dir_: Path, to_index: str, to_delete: str) -> None:
-    for path in dir_.rglob("*"):
-        if path.is_file() and path.suffix in (".md", ".mdx"):
-            if path.stem.startswith(to_index):
-                path.rename(path.with_name("index" + path.suffix))
-            elif path.stem.startswith(to_delete):
-                path.unlink()
+def _walk_rename(base: Path, to_index: str, to_delete: str) -> None:
+    for p in base.rglob("*"):
+        if p.suffix not in (".md", ".mdx"):
+            continue
+        if p.stem.startswith(to_index):
+            p.rename(p.with_name("index" + p.suffix))
+        elif p.stem.startswith(to_delete):
+            p.unlink()
 
 
-def process_docs(research_src: Path, docs_dst: Path, debug_flag: bool) -> None:
-    print("📚 Building docs…")
+# ── docs build ───────────────────────────────────────────────────────────────────
 
-    if docs_dst.exists():
-        shutil.rmtree(docs_dst)
-    shutil.copytree(research_src, docs_dst)
 
-    all_md = [p for p in docs_dst.rglob("*.md")]
-    yml_files = [p for p in research_src.rglob("*.yml")]
-    
-    for yml_file in yml_files:
-        rel_path = yml_file.relative_to(research_src)
-        target_path = docs_dst / rel_path
-        target_path.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy(yml_file, target_path)
+def process_docs(src: Path, dst: Path) -> None:
+    print(f"📔 Processing documentation...")
+    if dst.exists():
+        shutil.rmtree(dst)
+    shutil.copytree(src, dst)
 
-    # Copy over assets directory first
-    shutil.copytree(research_src / "assets", docs_dst / "assets", dirs_exist_ok=True)
+    md_files = [p for p in dst.rglob("*.md")]
+    print(f"🔗 Resolving links in {len(md_files)} markdown files")
+    link_map = {nfc(p.stem.lower()): p for p in md_files}
 
-    # Handle image paths in markdown files
-    def process_images(path: Path) -> None:
-        text = path.read_text(encoding="utf-8")
-        # Replace wikilink style images ![[filename.ext]] with markdown style ![filename](../assets/filename.ext)
-        text = re.sub(r"!\[\[([^]]+?)]]", lambda m: f"![{m.group(1)}](../assets/{m.group(1)})", text)
-        path.write_text(text, encoding="utf-8")
+    for yml in src.rglob("*.yml"):
+        target = dst / yml.relative_to(src)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy(yml, target)
 
-    # Apply image processing to all markdown files
+    shutil.copytree(src / "assets", dst / "assets", dirs_exist_ok=True)
+
+    print(f"🏗️ Processing documentation images and wikilinks")
     with cf.ThreadPoolExecutor() as ex:
-        list(ex.map(process_images, all_md))
-
-    def run(path: Path) -> None:
-        text = path.read_text(encoding="utf-8")
-        text_out = _resolve_wikilinks(text, path, all_md, debug_flag)
-        path.write_text(text_out, encoding="utf-8")
-
-    with cf.ThreadPoolExecutor() as ex:
-        list(ex.map(run, all_md))
+        ex.map(_process_images, md_files)
+        ex.map(lambda p: _resolve_file(p, link_map), md_files)
+    print(f"📘 Completed documentation processing")
 
 
-def _resolve_wikilinks(text: str, current: Path, all_md: List[Path], debug_flag: bool) -> str:
-    def repl(match: re.Match[str]) -> str:
-        raw = match.group(1)
-        target, display = (raw.split("|", 1) + [raw])[:2]
-        for md in all_md:
-            if nfc(md.stem.lower()) == nfc(target.lower()):
-                rel = os.path.relpath(md, current.parent)
-                # Use standard urllib.parse for URL encoding
-                # Split path by slashes to encode each part separately
-                path_parts = rel.split('/')
-                encoded_parts = [urllib.parse.quote(part) for part in path_parts]
-                rel_encoded = '/'.join(encoded_parts)
-                link = f"[{display}](./{rel_encoded})"
-                debug(f"    [[{raw}]] → {link}", debug_flag)
-                return link
-        # fallback – leave plain
-        return raw
+def _process_images(path: Path) -> None:
+    txt = path.read_text("utf-8")
+    txt = re.sub(
+        r"!\[\[([^]]+?)]]",
+        lambda m: f"![{m.group(1)}](../assets/{m.group(1)})",
+        txt,
+    )
+    path.write_text(txt, "utf-8")
 
-    return re.sub(r"\[\[([^\]]+?)]]", repl, text)
 
-def build_backlinks(docs_root: Path, out_dir: Path) -> None:
-    print("🔗 Generating backlinks…")
-    md_files = [p for p in docs_root.rglob("*.md")]
+def _resolve_file(path: Path, link_map: Dict[str, Path]) -> None:
+    txt = path.read_text("utf-8")
+
+    parts: List[str] = []
+    last = 0
+    for m in _CODE_BLOCK_RE.finditer(txt):
+        start, end = m.span()
+        outside = txt[last:start]
+        outside = _WIKILINK_RE.sub(
+            lambda w: _resolve_wikilink(w, path, link_map), outside
+        )
+        parts.append(outside)
+        parts.append(m.group(0))
+        last = end
+    remainder = txt[last:]
+    remainder = _WIKILINK_RE.sub(
+        lambda w: _resolve_wikilink(w, path, link_map), remainder
+    )
+    parts.append(remainder)
+
+    out = "".join(parts)
+    if out != txt:
+        path.write_text(out, "utf-8")
+
+
+def _resolve_wikilink(match: re.Match[str], cur: Path, link_map: Dict[str, Path]) -> str:
+    raw = match.group(1)
+
+    # Skip tokens that are clearly not wiki titles
+    if not raw or raw[0].isspace() or raw[-1].isspace() or raw.lstrip().startswith("-"):
+        return match.group(0)  # leave untouched
+
+    target, display = (raw.split("|", 1) + [raw])[:2]
+    md = link_map.get(nfc(target.lower()))
+    if not md:
+        return match.group(0)  # unresolved → keep original
+
+    rel = os.path.relpath(md, cur.parent)
+    rel = "/".join(urllib.parse.quote(seg) for seg in rel.split("/"))
+    return f"[{display}](./{rel})"
+
+
+# ── backlink map ─────────────────────────────────────────────────────────────────
+
+
+def build_backlinks(root: Path, out_dir: Path) -> None:
+    print(f"🔄 Building backlink map...")
     backlink_map: Dict[str, Dict[str, str]] = CaseInsensitiveDict()
-    filename_uid_map: Dict[str, str] = CaseInsensitiveDict()
+    uid_map: Dict[str, str] = CaseInsensitiveDict()
 
-    for path in md_files:
-        filename = path.stem
-        backlink_map[filename] = {}
-        uid = ""
-        text = path.read_text("utf-8")
-        for line in text.splitlines():
-            if line.startswith("slug: "):
-                uid = line.split("slug: ", 1)[1].strip().strip("'\"/")
+    file_count = 0
+    link_count = 0
+    
+    for p in root.rglob("*.md"):
+        file_count += 1
+        fname = p.stem
+        backlink_map.setdefault(fname, {})
+        txt = p.read_text("utf-8")
 
-            for wikilink in re.findall(r"\[\[([^\]]+?)]]", line):
-                source = wikilink.split("|")[0]
-                before, after = _context(line, wikilink)
-                backlink_map.setdefault(source, {})[filename] = before + "[[" + wikilink + "]]" + after
-
+        uid = _SLUG_RE.search(txt)
         if uid:
-            filename_uid_map[filename] = uid
+            uid_map[fname] = uid.group(1)
+
+        for wl in _WIKILINK_RE.findall(txt):
+            link_count += 1
+            source = wl.split("|")[0]
+            backlink_map.setdefault(source, {})[fname] = _context(txt, wl)
 
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "backlinks.ts").write_text(
-        "export const backlinks = " +
-        json.dumps(dict(backlink_map), ensure_ascii=False, indent=4)
+        "export const backlinks = "
+        + json.dumps(dict(backlink_map), ensure_ascii=False, indent=4)
     )
     (out_dir / "filenames.ts").write_text(
-        "export const filenames = " +
-        json.dumps(dict(filename_uid_map), ensure_ascii=False, indent=4)
+        "export const filenames = "
+        + json.dumps(dict(uid_map), ensure_ascii=False, indent=4)
     )
-    print(f"   • {len(backlink_map)} backlink entries")
-    print(f"   • {len(filename_uid_map)} filename ↔ uid mappings")
+    print(f"🧩 Created backlink map with {file_count} files and {link_count} links")
 
 
-def _context(line: str, needle: str, keep: int = 6) -> Tuple[str, str]:
-    before_raw = line.split("[[" + needle + "]]")[0]
-    after_raw = needle.join(line.split("[[" + needle + "]]")[1:])
-    before = " ".join(before_raw.split()[-keep:])
-    after = " ".join(after_raw.split()[:keep])
-    return ("... " + before if before_raw != before else before,
-            after + " ..." if after_raw != after else after)
-
-
-_IMG_RE = re.compile(r'!\[([^\]]*?)\]\(([^)]+?)\)$', re.M)
-
-
-def fix_img_alt(docs_root: Path) -> None:
-    md_files = [p for p in docs_root.rglob("*") if p.suffix in (".md", ".mdx")]
-    count = 0
-    for path in md_files:
-        if path.name == "Hey.md":
+def _context(txt: str, needle: str, keep: int = 6) -> str:
+    tag = f"[[{needle}]]"
+    for line in txt.splitlines():
+        if tag not in line:
             continue
-        text = path.read_text(encoding="utf-8")
-        def repl(match: re.Match[str]) -> str:
+        pre_raw, post_raw = line.split(tag, 1)
+        pre = " ".join(pre_raw.split()[-keep:])
+        post = " ".join(post_raw.split()[:keep])
+        return (
+            ("... " + pre if pre_raw != pre else pre)
+            + tag
+            + (" " + post + "..." if post_raw != post else post)
+        )
+    return ""
+
+
+# ── image alt fix ────────────────────────────────────────────────────────────────
+
+
+def fix_img_alt(root: Path) -> None:
+    count = 0
+    for p in root.rglob("*"):
+        if p.suffix not in (".md", ".mdx") or p.name == "Hey.md":
+            continue
+        txt = p.read_text("utf-8")
+
+        def repl(m: re.Match[str]) -> str:
             nonlocal count
-            alt, src = match.groups()
+            alt, src = m.groups()
             ext = Path(src).suffix.lower()
             count += 1
             if alt.endswith(ext) or alt.upper().startswith("ALT:"):
-                return f"\n<figure>\n\n![{alt.replace('ALT:', '').replace('ALT: ', '')}]({src})\n\n</figure>\n"
-            return f"\n<figure>\n\n![{alt}]({src})\n\n<figcaption>{alt}</figcaption>\n</figure>\n"
-        text_out = _IMG_RE.sub(repl, text)
-        if text_out != text:
-            path.write_text(text_out, encoding="utf-8")
-    print(f"🖼️  Re-wrote {count} image blocks")
+                clean = alt.replace("ALT:", "").strip()
+                return f"\n<figure>\n\n![{clean}]({src})\n\n</figure>\n"
+            return (
+                f"\n<figure>\n\n![{alt}]({src})\n\n<figcaption>{alt}</figcaption>\n</figure>\n"
+            )
+
+        out = _IMG_RE.sub(repl, txt)
+        if out != txt:
+            p.write_text(out, "utf-8")
+    print(f"🖼️ Re-wrote {count} image blocks")
+
+
+# ── asset cleanup ────────────────────────────────────────────────────────────────
 
 
 def cleanup_assets(assets_dir: Path, research_root: Path) -> None:
-    print("🧹 Cleaning unused assets…")
+    print(f"🧹 Checking for unused assets...")
     if not assets_dir.is_dir():
-        print("   (no assets directory)")
         return
 
     assets = {f.name for f in assets_dir.iterdir() if f.is_file()}
-    mentioned: Dict[str, bool] = {f: False for f in assets}
+    print(f"🔍 Analyzing {len(assets)} assets for usage")
+    mentioned = {f: False for f in assets}
 
     for md in research_root.rglob("*.md"):
-        text = md.read_text(encoding="utf-8")
-        for asset in assets:
-            if asset in text:
-                mentioned[asset] = True
+        txt = md.read_text("utf-8")
+        for a in assets:
+            if a in txt:
+                mentioned[a] = True
 
     unused = [a for a, used in mentioned.items() if not used]
     if not unused:
-        print("   No unused assets 🎉")
+        print("✅ No unused assets found.")
         return
 
-    print("   Unused files:")
+    print(f"🗑️ Found {len(unused)} unused assets:")
     for f in unused:
-        print("    •", f)
+        print(" •", f)
 
-    if input("   Delete them? (y/N): ").lower().startswith("y"):
+    if input("Delete them? (y/N): ").lower().startswith("y"):
         for f in unused:
             (assets_dir / f).unlink()
-            print("      deleted", f)
+            print(f"🗑️ Deleted {f}")
 
 
-REPO = Path(__file__).resolve().parent
+# ── entry point ─────────────────────────────────────────────────────────────────
+
 
 def main() -> None:
-    p = argparse.ArgumentParser(description="Build full site from Research markdown")
-    p.add_argument("--debug", action="store_true")
-    p.add_argument("--clean", action="store_true", help="Also delete unused assets")
-    args = p.parse_args()
+    print("🚀 Starting preprocessing...")
+    ap = argparse.ArgumentParser(description="Build site from Research markdown")
+    ap.add_argument("--clean", action="store_true", help="Also delete unused assets")
+    args = ap.parse_args()
 
     research = REPO / "Research"
     docs = REPO / "docs"
@@ -430,11 +378,11 @@ def main() -> None:
     posts_src = REPO / "posts"
     cfg = REPO / "config"
     out_ts = REPO / "src" / "data"
-    assets = REPO / "Research" / "assets"
+    assets = research / "assets"
 
-    sanitise_md(research, args.debug)
+    sanitise_md(research)
     process_blog(posts_src, blog_en, blog_ko, cfg)
-    process_docs(research, docs, args.debug)
+    process_docs(research, docs)
     build_backlinks(docs, out_ts)
     fix_img_alt(docs)
     if args.clean:
