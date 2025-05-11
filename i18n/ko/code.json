@@ -120,14 +120,6 @@
     "message": "{title}에 대해 더 읽어보기",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
-  "theme.blog.post.view": {
-    "message": "번 열람",
-    "description": "The blog post has 1 view"
-  },
-  "theme.blog.post.views": {
-    "message": "번 열람",
-    "description": "The blog post has multiple views"
-  },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "아티클 최근 글 이동",
     "description": "The ARIA label for recent posts in the blog sidebar"

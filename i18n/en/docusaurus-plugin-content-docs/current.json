@@ -3,12 +3,12 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.sidebar.category.Journals": {
+  "sidebar.defaultSidebar.category.Journals": {
     "message": "Journals",
-    "description": "The label for category Journals in sidebar sidebar"
+    "description": "The label for category Journals in sidebar defaultSidebar"
   },
-  "sidebar.sidebar.category.Memex": {
+  "sidebar.defaultSidebar.category.Memex": {
     "message": "Memex",
-    "description": "The label for category Memex in sidebar sidebar"
+    "description": "The label for category Memex in sidebar defaultSidebar"
   }
 }

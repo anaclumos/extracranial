@@ -306,7 +306,7 @@ def _context(txt: str, needle: str, keep: int = 6) -> str:
 def fix_img_alt(root: Path) -> None:
     count = 0
     for p in root.rglob("*"):
-        if p.suffix not in (".md", ".mdx") or p.name == "Hey.md":
+        if p.suffix not in (".md", ".mdx") or p.name == "Welcome.md":
             continue
         txt = p.read_text("utf-8")
 

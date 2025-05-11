@@ -109,14 +109,6 @@
     "message": "Read more about {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
-  "theme.blog.post.view": {
-    "message": " view",
-    "description": "The blog post has 1 view"
-  },
-  "theme.blog.post.views": {
-    "message": " views",
-    "description": "The blog post has multiple views"
-  },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Blog Articles navigation",
     "description": "The ARIA label for recent posts in the blog sidebar"

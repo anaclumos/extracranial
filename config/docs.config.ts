@@ -1,7 +1,7 @@
 import latex from './latex.config'
 
 const sidebarProcessor = (items) => {
-  const preferredOrder = ['Hey', 'Journals', 'Memex']
+  const preferredOrder = ['Welcome', 'Journals', 'Memex']
   const orderedItems = []
   for (const item of preferredOrder) {
     const itemToAdd = items.find((i) => i.label === item || i.id === item)
