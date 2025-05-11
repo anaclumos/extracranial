@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { JSX } from 'react'
 import clsx from 'clsx'
 import Link, { type Props as LinkProps } from '@docusaurus/Link'
 import type { Props } from '@theme/BlogPostItem/Header/Author'

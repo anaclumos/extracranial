@@ -1,6 +1,6 @@
 import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import React from 'react'
+import React, { JSX } from 'react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 
 const index = () => {

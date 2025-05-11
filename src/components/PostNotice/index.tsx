@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { JSX } from 'react'
 import { translate } from '@docusaurus/Translate'
 import Admonition from '@theme/Admonition'
 import PostNotice from './PostNotice.module.css'
