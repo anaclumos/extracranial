@@ -1,5 +1,5 @@
 import React, { JSX } from 'react'
-import {cn} from '@site/src/util/cn'
+import { cn } from '@site/src/util/cn'
 import TOCItems from '@theme/TOCItems'
 import type { Props } from '@theme/TOC'
 

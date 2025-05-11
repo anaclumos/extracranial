@@ -5,7 +5,7 @@ import { PageMetadata } from '@docusaurus/theme-common'
 import Layout from '@theme/Layout'
 import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
 import styles from './styles.module.css'
-import {cn} from '@site/src/util/cn'
+import { cn } from '@site/src/util/cn'
 import Balancer from 'react-wrap-balancer'
 
 const t = {

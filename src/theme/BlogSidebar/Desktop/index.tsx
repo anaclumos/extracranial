@@ -1,5 +1,5 @@
 import React, { JSX, useId } from 'react'
-import {cn} from '@site/src/util/cn'
+import { cn } from '@site/src/util/cn'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import type { Props } from '@theme/BlogSidebar/Desktop'

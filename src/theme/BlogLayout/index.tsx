@@ -1,5 +1,5 @@
 import React, { JSX } from 'react'
-import {cn} from '@site/src/util/cn'
+import { cn } from '@site/src/util/cn'
 import Layout from '@theme/Layout'
 import BlogSidebar from '@theme/BlogSidebar'
 

@@ -2,7 +2,7 @@ import React, { JSX } from 'react'
 import Translate, { translate } from '@docusaurus/Translate'
 import PaginatorNavLink from '@theme/PaginatorNavLink'
 import type { Props } from '@theme/DocPaginator'
-import {cn} from '@site/src/util/cn'
+import { cn } from '@site/src/util/cn'
 import styles from './styles.module.css'
 
 export default function DocPaginator(props: Props): JSX.Element {
