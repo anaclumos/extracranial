@@ -11,12 +11,16 @@
     "@docusaurus/theme-mermaid": "^3.7.0",
     "@giscus/react": "^3.1.0",
     "@vercel/analytics": "^1.5.0",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "lucide-react": "^0.509.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-wrap-balancer": "^1.1.1",
     "rehype-katex": "^7.0.1",
-    "remark-math": "^6.0.0"
+    "remark-math": "^6.0.0",
+    "tailwind-merge": "^3.2.0",
+    "tw-animate-css": "^1.2.9"
   },
   "devDependencies": {
     "@docusaurus/tsconfig": "^3.7.0",
@@ -25,7 +29,7 @@
     "stylelint": "^16.19.1"
   },
   "scripts": {
-    "dev": "docusaurus start",
+    "dev": "docusaurus start -l ko",
     "build": "bun ready && NODE_OPTIONS=\"--max-old-space-size=7168\" docusaurus build",
     "format": "prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}'",
     "readme": "cp md/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md && printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",

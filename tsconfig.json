@@ -4,7 +4,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "types": ["node", "@docusaurus/module-type-aliases", "@docusaurus/theme-classic"],
-    "lib": ["dom", "esnext"]
+    "lib": ["dom", "esnext"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "exclude": ["node_modules", "build"]
 }
