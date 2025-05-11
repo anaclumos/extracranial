@@ -36,6 +36,6 @@ Feedback: Focus more on user discovery and retention, building townhood, and emp
 ```
 
 - My suggestions:
-	- Notification you never want to snooze
-	- Notification you wait for
+    - Notification you never want to snooze
+    - Notification you wait for
 ```

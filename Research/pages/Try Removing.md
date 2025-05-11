@@ -30,7 +30,7 @@ This will prevent ZSH from complaining when no match is found.
 
 ```js
 {
-	"clear": "rm -f *.config.js",
+    "clear": "rm -f *.config.js",
 }
 ```
 
@@ -40,7 +40,7 @@ This is because [[Yarn]] will try to expand the blob instead of delegating it to
 
 ```js
 {
-	"clear": "rm -f '*.config.js'",
+    "clear": "rm -f '*.config.js'",
 }
 ```
 

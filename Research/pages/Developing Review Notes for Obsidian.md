@@ -204,15 +204,15 @@ console.log(files)
 
 ```ts
 public loadDailyNotes(): TFile[] {
-	const { dailyNotesFolder } = this.settings;
-	const files = this.app.vault.getFiles();
-	const dailyNotes = files.filter(
-		(file) =>
-			file.path.startsWith(dailyNotesFolder) &&
-			file.path.endsWith(".md")
-	);
-	console.log(dailyNotes);
-	return dailyNotes;
+    const { dailyNotesFolder } = this.settings;
+    const files = this.app.vault.getFiles();
+    const dailyNotes = files.filter(
+        (file) =>
+            file.path.startsWith(dailyNotesFolder) &&
+            file.path.endsWith(".md")
+    );
+    console.log(dailyNotes);
+    return dailyNotes;
 }
 ```
 

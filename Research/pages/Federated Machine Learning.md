@@ -6,10 +6,10 @@ aliases: ['Federated Learning', 'Federative Training', 'FL', 'FML']
 
 ```
 Repeat For each client (in parallel):
-	1. Receive global model (R1 - R3)
-	2. Train global model on a local dataset
-	3. Reply local model (R4 - R6)
-	Aggregate local models into a new global model
+    1. Receive global model (R1 - R3)
+    2. Train global model on a local dataset
+    3. Reply local model (R4 - R6)
+    Aggregate local models into a new global model
 For T rounds
 ```
 

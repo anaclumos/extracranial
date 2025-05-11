@@ -12,8 +12,8 @@ graph LR
   subgraph Experiment Metric
     direction LR
     subgraph Metrics
-	    metric_definition["Metric Definition"]
-	    template["Template"]
+        metric_definition["Metric Definition"]
+        template["Template"]
     end
     metric_cut_definition["Metric Cut Definition<br/>(Only for GQL-based metrics)"]
     notebook_code["notebook.code"]

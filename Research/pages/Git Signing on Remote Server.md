@@ -13,19 +13,19 @@ YOUR@EMAIL.COM ssh-YOURSSHSTRATEGY YOURPUBKEY
 
 ```ini
 [user]
-	email = YOUR@EMAIL.COM
-	name = YOURNAME
-	signingkey = /root/.ssh/YOURPUB.pub
+    email = YOUR@EMAIL.COM
+    name = YOURNAME
+    signingkey = /root/.ssh/YOURPUB.pub
 [credential "https://github.com"]
-	helper =
-	helper = !/usr/bin/gh auth git-credential
+    helper =
+    helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper =
-	helper = !/usr/bin/gh auth git-credential
+    helper =
+    helper = !/usr/bin/gh auth git-credential
 [gpg]
-	format = ssh
+    format = ssh
 [commit]
-	gpgsign = true
+    gpgsign = true
 [gpg "ssh"]
-	allowedSignersFile = /root/.ssh/allowed_signers
+    allowedSignersFile = /root/.ssh/allowed_signers
 ```

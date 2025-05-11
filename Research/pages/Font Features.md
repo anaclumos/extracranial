@@ -15,14 +15,14 @@ aliases: ['Font Feature', 'font-feature-settings', 'Ligature']
 
 ```
 font-feature-settings:
-	'rlig' 1,
-	'calt' 1,
-	'ss01' 1,
-	'ss02' 1,
-	'ss03' 1,
-	'ss04' 1,
-	'ss05' 1,
-	'ss06' 1,
-	'ss08' 1,
-	'zero' 1;
+    'rlig' 1,
+    'calt' 1,
+    'ss01' 1,
+    'ss02' 1,
+    'ss03' 1,
+    'ss04' 1,
+    'ss05' 1,
+    'ss06' 1,
+    'ss08' 1,
+    'zero' 1;
 ```
