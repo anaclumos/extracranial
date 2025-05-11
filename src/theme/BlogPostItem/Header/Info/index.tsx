@@ -6,8 +6,6 @@ import { usePluralForm } from '@docusaurus/theme-common'
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
 import type { Props } from '@theme/BlogPostItem/Header/Info'
 
-import styles from './styles.module.css'
-
 // Very simple pluralization: probably good enough for now
 function useReadingTimePlural() {
   const { selectMessage } = usePluralForm()
@@ -48,7 +46,7 @@ export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Elemen
   const formattedDate = date.split('T')[0]
 
   return (
-    <div className={clsx(styles.container, 'margin-vert--md', className)}>
+    <div className={clsx('margin-vert--md', className)}>
       <DateView date={date} formattedDate={formattedDate} />
       {typeof readingTime !== 'undefined' && <ReadingTime readingTime={readingTime} />}
     </div>

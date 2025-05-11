@@ -31,7 +31,6 @@ a:has(img)::after,
 a:has(img)::before,
 a:has(i)::after,
 a:has(i)::before {
-  -webkit-mask-image: none !important;
   mask-image: none !important;
   content: none !important;
 }

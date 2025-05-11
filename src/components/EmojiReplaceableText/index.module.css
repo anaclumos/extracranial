@@ -5,7 +5,7 @@
 .emojiReplaceableText > img {
   filter: none;
   filter: drop-shadow(0 0.1rem 0.15rem rgb(0 0 0 / 30%));
-  -webkit-filter: drop-shadow(0 0.1rem 0.15rem rgb(0 0 0 / 30%));
+  filter: drop-shadow(0 0.1rem 0.15rem rgb(0 0 0 / 30%));
 }
 
 .emojiReplaceableText:hover {
