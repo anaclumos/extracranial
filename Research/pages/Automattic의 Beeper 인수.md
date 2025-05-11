@@ -1,5 +1,5 @@
 ---
-lang: 'en'
+lang: 'ko'
 slug: '/11C24B'
 ---
 
