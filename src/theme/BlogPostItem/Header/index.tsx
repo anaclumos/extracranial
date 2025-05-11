@@ -4,8 +4,8 @@ import BlogPostItemHeaderInfo from '@theme/BlogPostItem/Header/Info'
 
 export default function BlogPostItemHeader(): JSX.Element {
   return (
-    <header>
-      <BlogPostItemHeaderTitle />
+    <header className="text-center">
+      <BlogPostItemHeaderTitle className="text-4xl font-bold"/>
       <BlogPostItemHeaderInfo />
     </header>
   )
