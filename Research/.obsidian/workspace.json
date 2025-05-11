@@ -78,33 +78,9 @@
               "icon": "lucide-file",
               "title": "2025-05-11"
             }
-          },
-          {
-            "id": "8fcfb4b449e99282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/eSIM으로 변경할 때 \"입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰입니다\"라고 나타난다면.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "eSIM으로 변경할 때 \"입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰입니다\"라고 나타난다면"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -266,7 +242,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fcfb4b449e99282",
+  "active": "85c85fb3037c35f1",
   "lastOpenFiles": [
     "pages/eSIM으로 변경할 때 \"입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰입니다\"라고 나타난다면.md",
     "journals/2025-05-11.md",
