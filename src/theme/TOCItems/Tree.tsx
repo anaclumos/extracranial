@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React, { JSX, memo } from 'react'
 import type { Props } from '@theme/TOCItems/Tree'
 
 // Recursive component rendering the toc tree

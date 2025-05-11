@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { JSX, useMemo } from 'react'
 import { useThemeConfig } from '@docusaurus/theme-common'
 import { useTOCHighlight, useFilteredAndTreeifiedTOC, type TOCHighlightConfig } from '@docusaurus/theme-common/internal'
 import TOCItemTree from '@theme/TOCItems/Tree'

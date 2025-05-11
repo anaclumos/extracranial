@@ -1,4 +1,4 @@
-import React, { useId } from 'react'
+import React, { JSX, useId } from 'react'
 import clsx from 'clsx'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
