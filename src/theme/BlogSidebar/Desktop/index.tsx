@@ -1,5 +1,5 @@
 import React, { JSX, useId } from 'react'
-import clsx from 'clsx'
+import {cn} from '@site/src/util/cn'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import type { Props } from '@theme/BlogSidebar/Desktop'
@@ -11,15 +11,15 @@ export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
   return (
     <aside className="col col--3">
       <nav
-        className={clsx(styles.sidebar, 'thin-scrollbar')}
+        className={cn(styles.sidebar, 'thin-scrollbar')}
         aria-label={translate({
           id: 'theme.blog.sidebar.navAriaLabel',
           message: 'Blog Articles navigation',
           description: 'The ARIA label for Articles in the blog sidebar',
         })}
       >
-        <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>{sidebar.title}</div>
-        <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
+        <div className={cn(styles.sidebarItemTitle, 'margin-bottom--md')}>{sidebar.title}</div>
+        <ul className={cn(styles.sidebarItemList, 'clean-list')}>
           {sidebar.items.map((item) => (
             <Link
               isNavLink

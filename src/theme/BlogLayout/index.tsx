@@ -1,5 +1,5 @@
 import React, { JSX } from 'react'
-import clsx from 'clsx'
+import {cn} from '@site/src/util/cn'
 import Layout from '@theme/Layout'
 import BlogSidebar from '@theme/BlogSidebar'
 
@@ -12,11 +12,11 @@ export default function BlogLayout(props: Props): JSX.Element {
 
   return (
     <Layout {...layoutProps}>
-      <div className={clsx(styles.blogLayout, 'margin-vert--lg')}>
+      <div className={cn(styles.blogLayout, 'margin-vert--lg')}>
         <div className="row">
           <BlogSidebar sidebar={sidebar} />
           <main
-            className={clsx('col', {
+            className={cn('col', {
               'col--6': hasSidebar,
               'col--9 col--offset-1': !hasSidebar,
             })}

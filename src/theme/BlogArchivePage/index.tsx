@@ -5,7 +5,7 @@ import { PageMetadata } from '@docusaurus/theme-common'
 import Layout from '@theme/Layout'
 import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
 import styles from './styles.module.css'
-import clsx from 'clsx'
+import {cn} from '@site/src/util/cn'
 import Balancer from 'react-wrap-balancer'
 
 const t = {
@@ -56,7 +56,7 @@ function Year({ year, posts }: YearProp) {
 function YearsSection({ years }: { years: YearProp[] }) {
   return (
     <section className="margin-vert--lg">
-      <div className={clsx('container', styles.container)}>
+      <div className={cn('container', styles.container)}>
         <div className="row">
           {years.reverse().map((_props) => (
             <div key={useId()} className="col col--4 margin-vert--md">
@@ -99,8 +99,8 @@ export default function BlogArchive({ archive }: Props): JSX.Element {
       <PageMetadata title={title} description={description} />
       <Layout>
         <header className="hero hero--primary">
-          <div className={clsx('container', styles.heroContainer)}>
-            <h1 className={clsx(styles.heroTitle)}>{title}</h1>
+          <div className={cn('container', styles.heroContainer)}>
+            <h1 className={cn(styles.heroTitle)}>{title}</h1>
           </div>
         </header>
         <main>{years.length > 0 && <YearsSection years={years} />}</main>
