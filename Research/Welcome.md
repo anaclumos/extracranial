@@ -1,21 +1,10 @@
 ---
-title: 'Hey 👋🏻'
+title: 'Welcome'
 lang: 'en'
 slug: '/000000'
 ---
 
-## Welcome!
-
-> This is my personal [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia).
-> This is everything I know!
-
-Welcome to my research note.
-I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research.
-I am thrilled to present you with the incarnation of this vision.
-
-## Extracranial: The Exosuit for [[Superbrain|Superbrains]] and a superset of [[Memex]]
-
-In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes [[Memex]] as
+I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research. In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes [[Memex]] as
 
 ```
 an electromechanical device enabling individuals
