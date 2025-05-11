@@ -8,10 +8,6 @@ title: '웹으로 빚은 다이나믹 아일랜드 🏝'
 
 <!-- truncate -->
 
-<Admonition type="info" title="잔말 말고 일단 먼저 보여줘요" icon="🗣">
-그럼요. 아래 검정색 타원을 클릭해보세요. 제가 현재 듣고 있거나 가장 최근에 들은 30개의 음악 중 하나가 무작위로 나타날거예요.
-</Admonition>
-
 :::info
 
 [Dynamic Island on the web](https://dynamic-island.cho.sh/)

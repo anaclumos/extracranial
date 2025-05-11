@@ -4,7 +4,6 @@ import Link from '@docusaurus/Link'
 
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
 import type { Props } from '@theme/BlogPostItem/Header/Title'
-import Balancer from 'react-wrap-balancer'
 
 export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Element {
   const { metadata, isBlogPostPage } = useBlogPost()
@@ -30,17 +29,17 @@ export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Eleme
   }
 
   return (
-    <TitleHeading className={cn(className)} itemProp="headline">
+    <TitleHeading className={cn(className, 'text-balance')} itemProp="headline">
       {isBlogPostPage ? (
         <>
-          <Balancer>{titleText}</Balancer>
+          {titleText}
           <br />
           {emoji}
         </>
       ) : (
         <Link itemProp="url" to={permalink}>
           <>
-            <Balancer>{titleText}</Balancer>
+            {titleText}
             <br />
             {emoji}
           </>
