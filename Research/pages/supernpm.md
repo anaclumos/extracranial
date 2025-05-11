@@ -11,16 +11,16 @@ slug: '/5FD5B2'
 
 ```bash
 p() {
-	if [[ -f bun.lockb ]]; then
-		command bun "$@"
-	elif [[ -f pnpm-lock.yaml ]]; then
-		command pmpm "$@"
-	elif [[ -f yarn.lock ]]; then
-		command yarn "$@"
-	elif [[ -f package-lock. json ]]; then
-		command npm "$@"
-	else
-		command pnpm "$@"
-	fi
+    if [[ -f bun.lockb ]]; then
+        command bun "$@"
+    elif [[ -f pnpm-lock.yaml ]]; then
+        command pmpm "$@"
+    elif [[ -f yarn.lock ]]; then
+        command yarn "$@"
+    elif [[ -f package-lock. json ]]; then
+        command npm "$@"
+    else
+        command pnpm "$@"
+    fi
 }
 ```

@@ -13,63 +13,63 @@ slug: '/B6CED2'
 ```mermaid
 flowchart TB
 
-	me["Me using Grammarly"]
-	expui["Experimentation UI"]
-	me-->feclient
+    me["Me using Grammarly"]
+    expui["Experimentation UI"]
+    me-->feclient
 
-	feclient["Front-end Client"]
-	beclient["Back-end Client"]
-	feclient-->beclient
+    feclient["Front-end Client"]
+    beclient["Back-end Client"]
+    feclient-->beclient
 
-	subgraph SDK
-		direction LR
-		jssdk["JS SDK"]
-		javasdk["Java SDK"]
-	end
-	feclient<-->jssdk;
-	beclient<-->javasdk;
+    subgraph SDK
+        direction LR
+        jssdk["JS SDK"]
+        javasdk["Java SDK"]
+    end
+    feclient<-->jssdk;
+    beclient<-->javasdk;
 
-	subgraph "Experiments (Manakin)"
-		direction TB
-		private["Private API"]
-		public["Public API"]
-		treatmentserver["Treatment Server"]
-		assignmentserver["Assignment Server"]
-		experimentbeservice["Experiment Back-end Service"]
-		dynamodb["DynamoDB"]
-	end
-
-
-
-	experimentbeservice --Redis--> treatmentserver
-	experimentbeservice --> dynamodb
+    subgraph "Experiments (Manakin)"
+        direction TB
+        private["Private API"]
+        public["Public API"]
+        treatmentserver["Treatment Server"]
+        assignmentserver["Assignment Server"]
+        experimentbeservice["Experiment Back-end Service"]
+        dynamodb["DynamoDB"]
+    end
 
 
 
-	jssdk <--> public
-	javasdk <--> private
-
-	public<-->treatmentserver
-	private<-->treatmentserver
-
-	treatmentserver --Kafka--> assignmentserver
-	assignmentserver--Redis-->treatmentserver
-	assignmentserver-->dynamodb
-
-	treatmentserver --> dynamodb
-
-	expui --> experimentbeservice
+    experimentbeservice --Redis--> treatmentserver
+    experimentbeservice --> dynamodb
 
 
-	subgraph Datalake
-		databricks["Databricks"]
-		gnar["GNAR"]
-	end
 
-	assignmentserver-->Datalake
-	databricks-->Datalake
-	feclient-->Datalake
-	beclient-->Datalake
+    jssdk <--> public
+    javasdk <--> private
+
+    public<-->treatmentserver
+    private<-->treatmentserver
+
+    treatmentserver --Kafka--> assignmentserver
+    assignmentserver--Redis-->treatmentserver
+    assignmentserver-->dynamodb
+
+    treatmentserver --> dynamodb
+
+    expui --> experimentbeservice
+
+
+    subgraph Datalake
+        databricks["Databricks"]
+        gnar["GNAR"]
+    end
+
+    assignmentserver-->Datalake
+    databricks-->Datalake
+    feclient-->Datalake
+    beclient-->Datalake
 
 
 ```
@@ -82,17 +82,17 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-	exp["Experiment"]
-	temp["Template"]
-	exp--selects-->temp
-	metricdef1["Metrics Def 1"]
-	metricdef2["Metrics Def 2"]
-	metricdef3["Metrics Def 3"]
-	metricdef1 -.gathers..-> temp
-	metricdef2 -.gathers..-> temp
-	metricdef3 -.gathers..-> temp
-	expmetrics["Experiment Metrics (DynamoDB)"]
-	temp--emits-->expmetrics
+    exp["Experiment"]
+    temp["Template"]
+    exp--selects-->temp
+    metricdef1["Metrics Def 1"]
+    metricdef2["Metrics Def 2"]
+    metricdef3["Metrics Def 3"]
+    metricdef1 -.gathers..-> temp
+    metricdef2 -.gathers..-> temp
+    metricdef3 -.gathers..-> temp
+    expmetrics["Experiment Metrics (DynamoDB)"]
+    temp--emits-->expmetrics
 ```
 
 ## Experiment Team services

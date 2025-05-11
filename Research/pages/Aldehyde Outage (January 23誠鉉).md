@@ -14,10 +14,10 @@ Multiple issues are combined.
 On [[Cloudflare]]'s side:
 
 ```
-16:49:17.136	✔ Server: Compiled successfully in 3.74m
-16:50:22.579	Segmentation fault
-16:50:22.595	Failed: build command exited with code: 139
-16:50:23.859	Failed: an internal error occurred
+16:49:17.136    ✔ Server: Compiled successfully in 3.74m
+16:50:22.579    Segmentation fault
+16:50:22.595    Failed: build command exited with code: 139
+16:50:23.859    Failed: an internal error occurred
 ```
 
 On [[Vercel]]'s Side:
