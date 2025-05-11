@@ -1,5 +1,5 @@
 import React, { JSX } from 'react'
-import {cn} from '@site/src/util/cn'
+import { cn } from '@site/src/util/cn'
 import { useWindowSize } from '@docusaurus/theme-common'
 
 import { useDoc } from '@docusaurus/plugin-content-docs/client'

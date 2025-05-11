@@ -1,11 +1,10 @@
 import React, { JSX } from 'react'
-import {cn} from '@site/src/util/cn'
+import { cn } from '@site/src/util/cn'
 import Link from '@docusaurus/Link'
 
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
 import type { Props } from '@theme/BlogPostItem/Header/Title'
 import Balancer from 'react-wrap-balancer'
-
 
 export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Element {
   const { metadata, isBlogPostPage } = useBlogPost()

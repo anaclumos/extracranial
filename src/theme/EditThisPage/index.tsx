@@ -1,7 +1,7 @@
 import React, { JSX } from 'react'
 import Translate from '@docusaurus/Translate'
 import type { Props } from '@theme/EditThisPage'
-import {cn} from '@site/src/util/cn'
+import { cn } from '@site/src/util/cn'
 import styles from './styles.module.css'
 
 export default function EditThisPage({ editUrl }: Props): JSX.Element {

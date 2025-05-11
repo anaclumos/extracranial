@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-05-11.md",
+                "file": "pages/eSIM으로 변경할 때 입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰이라고 나타난다면.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-11"
+              "title": "eSIM으로 변경할 때 입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰이라고 나타난다면"
             }
           }
         ],
@@ -244,8 +244,8 @@
   },
   "active": "85c85fb3037c35f1",
   "lastOpenFiles": [
-    "pages/eSIM으로 변경할 때 \"입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰입니다\"라고 나타난다면.md",
     "journals/2025-05-11.md",
+    "pages/eSIM으로 변경할 때 입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰이라고 나타난다면.md",
     "journals/2025-05-09.md",
     "pages/nullish vs optional vs nullable in Zod.md",
     "pages/Format and Lint Python.md",
