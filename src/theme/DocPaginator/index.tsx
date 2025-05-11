@@ -2,14 +2,14 @@ import React, { JSX } from 'react'
 import Translate, { translate } from '@docusaurus/Translate'
 import PaginatorNavLink from '@theme/PaginatorNavLink'
 import type { Props } from '@theme/DocPaginator'
-import clsx from 'clsx'
+import {cn} from '@site/src/util/cn'
 import styles from './styles.module.css'
 
 export default function DocPaginator(props: Props): JSX.Element {
   const { previous, next } = props
   return (
     <nav
-      className={clsx('pagination-nav', styles.docPaginator)}
+      className={cn('pagination-nav', styles.docPaginator)}
       aria-label={translate({
         id: 'theme.docs.paginator.navAriaLabel',
         message: 'Docs pages navigation',

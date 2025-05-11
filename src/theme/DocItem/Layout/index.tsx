@@ -1,5 +1,5 @@
 import React, { JSX } from 'react'
-import clsx from 'clsx'
+import {cn} from '@site/src/util/cn'
 import { useWindowSize } from '@docusaurus/theme-common'
 
 import { useDoc } from '@docusaurus/plugin-content-docs/client'
@@ -42,7 +42,7 @@ export default function DocItemLayout({ children }: Props): JSX.Element {
   const docTOC = useDocTOC()
   return (
     <div className="row">
-      <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>
+      <div className={cn('col', !docTOC.hidden && styles.docItemCol)}>
         <DocVersionBanner />
         <div className={styles.docItemContainer}>
           <article>

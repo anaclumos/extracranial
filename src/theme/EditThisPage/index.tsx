@@ -1,7 +1,7 @@
 import React, { JSX } from 'react'
 import Translate from '@docusaurus/Translate'
 import type { Props } from '@theme/EditThisPage'
-import clsx from 'clsx'
+import {cn} from '@site/src/util/cn'
 import styles from './styles.module.css'
 
 export default function EditThisPage({ editUrl }: Props): JSX.Element {
@@ -10,7 +10,7 @@ export default function EditThisPage({ editUrl }: Props): JSX.Element {
       href={editUrl}
       target="_blank"
       rel="noreferrer noopener"
-      className={clsx('ThemeClassNames.common.editThisPage', styles.editThisPage)}
+      className={cn('ThemeClassNames.common.editThisPage', styles.editThisPage)}
     >
       <Translate id="theme.common.editThisPage" description="The link label to edit the current page">
         Edit this page
