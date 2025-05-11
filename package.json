@@ -6,6 +6,7 @@
   "repository": "https://github.com/anaclumos/extracranial.git",
   "dependencies": {
     "@docusaurus/core": "^3.7.0",
+    "@docusaurus/faster": "^3.7.0",
     "@docusaurus/plugin-vercel-analytics": "^3.7.0",
     "@docusaurus/preset-classic": "^3.7.0",
     "@docusaurus/theme-mermaid": "^3.7.0",
@@ -14,6 +15,7 @@
     "@radix-ui/react-label": "^2.1.6",
     "@radix-ui/react-popover": "^1.1.13",
     "@radix-ui/react-slot": "^1.2.2",
+    "@tailwindcss/postcss": "^4.1.6",
     "@vercel/analytics": "^1.5.0",
     "autoprefixer": "^10.4.21",
     "class-variance-authority": "^0.7.1",
@@ -47,6 +49,8 @@
     "start": "docusaurus serve"
   },
   "trustedDependencies": [
+    "@swc/core",
+    "@tailwindcss/oxide",
     "core-js",
     "core-js-pure"
   ]

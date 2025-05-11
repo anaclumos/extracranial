@@ -188,7 +188,6 @@ def process_docs(src: Path, dst: Path) -> None:
 
     shutil.copytree(src / "assets", dst / "assets", dirs_exist_ok=True)
 
-    print(f"🏗️ Processing documentation images and wikilinks")
     with cf.ThreadPoolExecutor() as ex:
         ex.map(_process_images, md_files)
         ex.map(lambda p: _resolve_file(p, link_map), md_files)
@@ -326,7 +325,6 @@ def fix_img_alt(root: Path) -> None:
         out = _IMG_RE.sub(repl, txt)
         if out != txt:
             p.write_text(out, "utf-8")
-    print(f"🖼️ Re-wrote {count} image blocks")
 
 
 # ── asset cleanup ────────────────────────────────────────────────────────────────
