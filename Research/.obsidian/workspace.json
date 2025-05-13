@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c6627c364952f35a",
+        "id": "e0469e8aac8af8d9",
         "type": "tabs",
         "children": [
           {
-            "id": "7cd1334ace5e6aaa",
+            "id": "50d1ef5143ceea40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/blank=True vs null=True in Django.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "blank=True vs null=True in Django"
+              "title": "New tab"
             }
           }
         ]
@@ -124,7 +110,7 @@
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "Outgoing links"
@@ -173,12 +159,12 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,13 +178,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7cd1334ace5e6aaa",
+  "active": "50d1ef5143ceea40",
   "lastOpenFiles": [
+    "pages/Vercel node modules cache.md",
     "journals/2025-05-13.md",
+    "pages/Sunghyun's OS.md",
+    "pages/No preset version installed for command yarn.md",
     "pages/blank=True vs null=True in Django.md",
     "pages/INCL.md",
-    "pages/No preset version installed for command yarn.md",
-    "pages/Sunghyun's OS.md",
     "pages/Linux Device that keenly follows MacBook.md",
     "pages/eSIM으로 변경할 때 입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰이라고 나타난다면.md",
     "pages/uv (python).md",
@@ -219,7 +206,6 @@
     "journals/2025-05-02.md",
     "journals/2025-05-03.md",
     "pages/Alpine.md",
-    "journals/2025-04-30.md",
     "assets/FFD03B.gif",
     "assets/FF5AAD.png",
     "assets/FF32E1.png",
