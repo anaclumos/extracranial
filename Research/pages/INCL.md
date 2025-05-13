@@ -27,25 +27,21 @@ gcloud compute ssh --zone "asia-northeast3-c" "sunghyun-cho" --project "ai-resea
 brew install mysql
 export LIBRARY_PATH=$LIBRARY_PATH:$(brew --prefix zstd)/lib/
 gcloud init
+
 ```
 
+## Client
+
 ```bash
-uv python install 3.10
-uv python pin 3.10
-uv venv --python 3.10
 uv pip install --requirements requirements.txt
 uv pip install --requirements sdk/requirements.txt
 uv pip install -e .
-source .venv/bin/activate
 ```
 
+## Backend
+
 ```bash
-uv python install 3.10
-uv python pin 3.10
-uv venv --python 3.10
-source .venv/bin/activate
 uv pip install --requirements django/requirements.txt
-uv pip install --requirements e2e_tests/requirements.txt
 ```
 
 ## Status
