@@ -839,6 +839,7 @@ export const filenames = {
     "Hacker": "/719A17",
     "eSIM으로 변경할 때 입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰이라고 나타난다면": "/F239D0",
     "Krafton Way": "/CD8BED",
+    "Vercel node modules cache": "/55DB74",
     "Love Obsidian": "/7419B8",
     "Logseq": "/476FB1",
     "Getting Verified on Gmail": "/BEBA2C",
