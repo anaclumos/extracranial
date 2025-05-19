@@ -112,7 +112,7 @@ import Favicon from '../../public/favicon.ico'
 const chatbubble = () => (
   <div className="flex h-screen">
     <div className="p-6 max-w-sm m-auto bg-white rounded-xl shadow-md flex items-center space-x-4 border-2">
-      <div className="flex-shrink-0 relative">
+      <div className="shrink-0 relative">
         <div className="h-12 w-12">
           <Image layout="fill" src={Favicon} alt="Favicon" />
         </div>
@@ -170,7 +170,7 @@ export default chatbubble
 - `items-center`: align-items: center
 - `space-x-4`: 컴포넌트 사이의 좌우 간격 설정
 - `border-2`: border 2px
-- `flex-shrink-0`: 컴포넌트를 `shrink`하거나 `wrap`하지 않음.
+- `shrink-0`: 컴포넌트를 `shrink`하거나 `wrap`하지 않음.
 - `relative`: position relative
 - `h-12`, `w-12`: height, width를 3rem (48px)로 설정
 - `layout: fill`: `next/image`에서 이미지를 상위 컴포넌트에 맞게 Stretch. Stretch하지 않으려면 `layout: responsive` 사용.
@@ -186,7 +186,7 @@ const CaseStudyCard = () => (
   <div className="flex h-screen">
     <div className="max-w-md m-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl border-2">
       <div className="md:flex">
-        <div className="md:flex-shrink-0">
+        <div className="md:shrink-0">
           <div className="h-48 object-cover md:h-full md:w-48 relative">
             <Image src="https://cataas.com/cat" alt="Man looking at item at a store" layout="fill" objectFit="cover" />
           </div>
@@ -252,7 +252,7 @@ const UserEmailForm = () => {
             type="email"
           />
           <button
-            className="flex-shrink-0 px-4 py-2 text-base font-semibold text-white transition duration-500 transform bg-green-600 rounded-lg hover:shadow-lg focus:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-green-200 motion-reduce:transform-none hover:scale-105 tramsform"
+            className="shrink-0 px-4 py-2 text-base font-semibold text-white transition duration-500 transform bg-green-600 rounded-lg hover:shadow-lg focus:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-green-200 motion-reduce:transform-none hover:scale-105 tramsform"
             type="button"
           >
             Sign up
