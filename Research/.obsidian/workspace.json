@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e0469e8aac8af8d9",
+        "id": "4996250e501494ee",
         "type": "tabs",
         "children": [
           {
-            "id": "50d1ef5143ceea40",
+            "id": "882f5cfb4d321285",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -109,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pages/Geekbench.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Geekbench"
             }
           },
           {
@@ -164,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,34 +180,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50d1ef5143ceea40",
+  "active": "882f5cfb4d321285",
   "lastOpenFiles": [
-    "pages/Vercel node modules cache.md",
+    "journals/2025-05-19.md",
+    "pages/Django Fail Fast.md",
+    "pages/Untitled.md",
+    "pages/Terminal, Shell, TTY, and Console.md",
+    "templates/note template.md",
+    "pages/Zod discriminatedUnion vs union.md",
+    "journals/2025-05-16.md",
+    "journals/2025-05-15.md",
     "journals/2025-05-13.md",
+    "journals/2025-05-11.md",
+    "pages/INCL.md",
+    "pages/Absolute Mode.md",
+    "pages/Geekbench.md",
+    "pages/Vercel node modules cache.md",
+    "pages/Open API Hono.md",
+    "journals/2025-05-14.md",
+    "pages/닌텐도 스위치2.md",
+    "pages/Centering.md",
     "pages/Sunghyun's OS.md",
     "pages/No preset version installed for command yarn.md",
     "pages/blank=True vs null=True in Django.md",
-    "pages/INCL.md",
     "pages/Linux Device that keenly follows MacBook.md",
     "pages/eSIM으로 변경할 때 입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰이라고 나타난다면.md",
     "pages/uv (python).md",
     "journals/2025-05-09.md",
-    "journals/2025-05-11.md",
     "pages/nullish vs optional vs nullable in Zod.md",
-    "pages/Format and Lint Python.md",
-    "pages/pip install . vs pip install -e ..md",
-    "pages/Docker Nuke.md",
-    "journals/2025-05-08.md",
-    "pages/Docker Compose Localhost.md",
-    "journals/2025-05-07.md",
-    "pages/Three Column Design.md",
-    "pages/Final Cut Pro.md",
-    "pages/3D.md",
-    "pages/Exclude Gitignored Files from VS Code Sidebar.md",
-    "pages/INCL Rebuild Post.md",
-    "journals/2025-05-02.md",
-    "journals/2025-05-03.md",
-    "pages/Alpine.md",
     "assets/FFD03B.gif",
     "assets/FF5AAD.png",
     "assets/FF32E1.png",
