@@ -1,6 +1,6 @@
 .highlight-1 {
   margin: 0 -0.3em;
-  padding: 0.05em 0.25em;
+  padding: 0.05em 0.3em;
   border-radius: 0.8em 0.3em;
   background: transparent;
   background-image: linear-gradient(to right, rgb(255 225 0 / 5%), rgb(255 225 0 / 30%) 4%, rgb(255 225 0 / 10%));
@@ -9,7 +9,7 @@
 
 .highlight-2 {
   margin: 0 -0.3em;
-  padding: 0.05em 0.25em;
+  padding: 0.05em 0.3em;
   border-radius: 0.5em 0.8em;
   background: transparent;
   background-image: linear-gradient(to right, rgb(255 170 0 / 5%), rgb(255 170 0 / 25%) 8%, rgb(255 170 0 / 10%));
@@ -18,7 +18,7 @@
 
 .highlight-3 {
   margin: 0 -0.3em;
-  padding: 0.05em 0.25em;
+  padding: 0.05em 0.3em;
   border-radius: 0.7em 0.2em;
   background: transparent;
   background-image: linear-gradient(to right, rgb(144 238 144 / 8%), rgb(144 238 144 / 25%) 5%, rgb(144 238 144 / 12%));
@@ -27,7 +27,7 @@
 
 .highlight-4 {
   margin: 0 -0.3em;
-  padding: 0.05em 0.25em;
+  padding: 0.05em 0.3em;
   border-radius: 0.4em 0.7em;
   background: transparent;
   background-image: linear-gradient(to right, rgb(173 216 230 / 8%), rgb(173 216 230 / 30%) 7%, rgb(173 216 230 / 12%));
@@ -36,7 +36,7 @@
 
 .highlight-5 {
   margin: 0 -0.3em;
-  padding: 0.05em 0.25em;
+  padding: 0.05em 0.3em;
   border-radius: 0.6em 0.4em;
   background: transparent;
   background-image: linear-gradient(to right, rgb(255 182 193 / 5%), rgb(255 182 193 / 20%) 3%, rgb(255 182 193 / 8%));
@@ -45,7 +45,7 @@
 
 .highlight-6 {
   margin: 0 -0.3em;
-  padding: 0.05em 0.25em;
+  padding: 0.05em 0.3em;
   border-radius: 0.2em 0.9em;
   background: transparent;
   background-image: linear-gradient(to right, rgb(221 160 221 / 8%), rgb(221 160 221 / 25%) 9%, rgb(221 160 221 / 12%));
