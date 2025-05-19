@@ -1,0 +1,25 @@
+---
+title: '암을 AI로 정복하기 위한 차세대 MLOps 프론트엔드 🦠'
+date: 2025-05-20
+authors: anaclumos
+slug: '/493D6F'
+draft: true
+---
+
+<!-- truncate -->
+
+import { Highlight } from '@site/src/components/Highlight'
+import {
+Table,
+TableBody,
+TableCaption,
+TableCell,
+TableFooter,
+TableHead,
+TableHeader,
+TableRow,
+} from "@site/src/components/ui/table"
+
+글을 쓰지 못한 오랜 날, 가장 많은 노력을 쏟은 것은 루닛에서의 MLOps 업무이다. 첫 풀타임 직장인 이곳에서 MLOps 플랫폼의 프론트엔드 전체를 현대적으로 재개발을 리드하는 경험을 했는데, 결과적으로 성공 반, 실패 반으로 끝났다. 그 이야기를 조심스럽게 해보려 한다.
+
+의료 AI 기업 루닛에서는 매일 수백 개의 ML 실험들이 일어난다. 하지만 대부분의 ML 실험은 <Highlight trigger="수공업에 가깝다." title="AI는 한땀 한땀 깎는 작업이 대부분이다" content="나는 AI를 공부하며, 데이터셋을 정성스럽게 정제하고, 매 실험마다 파라미터를 섬세하게 조정하여, 실험을 돌리고, 결과를 저장해 비교한 뒤 가장 마음에 드는 버전을 골라 출시하는 그 과정이 엔지니어보다는 마치 목수와 더 비슷하게 느껴졌다." /> 이 번거로운 과정을 자동화하기 위해 2021년 경부터 루닛에서는 INCL이라는 <Highlight trigger="MLOps 플랫폼" title="MLOps 플랫폼" content="현재는 훨씬 더 많은 플랫폼들이 생겼다. Weight&Bias, Vessl, SkyPilot 등이 그 예이다. 이와 동일한 버전을 의료 AI에 맞추어 구축했다고 이해하면 편하다. 대표적으로 실험 코드와 추적할 지표 이름을 제공하기만 하면 자동으로 클라우드 환경에서 실험을 진행한 뒤 보기 좋은 그래프로 정리해주는 기능을 제공한다." />를 구축했다. 덕분에 실험의 속도가 혁명적으로 빨라질 수 있었고, 출시된지 4년 정도 지난 지금까지 약 800만개의 실험이 일어났다. 그러나 회사 안에서만 쓰는 인터널 앱이라는 특성 상 어쩔 수 없이 기술 부채가 심해져갔다. 그저 "동작만" 하면 되는 상태였기 때문이다. 때문에 최적화 또는 코드 정리는 항상 뒷전일 수 밖에 없었고, 결과적으로 굉장히 크고 무거운 웹 서비스가 되었다.

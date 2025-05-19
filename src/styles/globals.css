@@ -3,8 +3,8 @@
 @import url('./external-link.css') layer(base);
 @import url('./highlight.css') layer(base);
 
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -21,8 +21,7 @@
   word-break: keep-all;
   color-scheme: dark light;
   font-feature-settings:
-    'rlig', 'calt', 'case', 'ccmp', 'dlig', 'salt', 'zero', 'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss08',
-    'ss15';
+    'rlig', 'calt', 'case', 'ccmp', 'dlig', 'salt', 'zero', 'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss08', 'ss15';
 
   --unhovered-transparency: 10%;
   --padding: 1rem;
@@ -250,8 +249,8 @@ table {
   overflow-x: scroll;
 }
 
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
