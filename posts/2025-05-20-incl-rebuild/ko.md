@@ -9,16 +9,6 @@ draft: true
 <!-- truncate -->
 
 import { Highlight } from '@site/src/components/Highlight'
-import {
-Table,
-TableBody,
-TableCaption,
-TableCell,
-TableFooter,
-TableHead,
-TableHeader,
-TableRow,
-} from "@site/src/components/ui/table"
 
 글을 쓰지 못한 오랜 날, 가장 많은 노력을 쏟은 것은 루닛에서의 MLOps 업무이다. 첫 풀타임 직장인 이곳에서 MLOps 플랫폼의 프론트엔드 전체를 현대적으로 재개발을 리드하는 경험을 했는데, 결과적으로 성공 반, 실패 반으로 끝났다. 그 이야기를 조심스럽게 해보려 한다.
 
