@@ -66,19 +66,11 @@ const config: Config = {
         mode: 'auto',
       },
     ],
-    './src/plugins/tailwind.ts',
   ],
 
   stylesheets: [
     {
       href: `${CDN_BASE}/npm/katex@latest/dist/katex.min.css`,
-      type: 'text/css',
-      rel: 'stylesheet',
-      crossorigin: 'anonymous',
-      as: 'style',
-    },
-    {
-      href: 'https://statics.goorm.io/fonts/GoormSansCode/latest/GoormSansCode.min.css',
       type: 'text/css',
       rel: 'stylesheet',
       crossorigin: 'anonymous',

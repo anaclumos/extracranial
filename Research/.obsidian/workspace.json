@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98f80046cdc889d4",
+        "id": "5418b1a48880291d",
         "type": "tabs",
         "children": [
           {
-            "id": "92ac7ac3dbb28652",
+            "id": "317c5f64ea2c9276",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,8 +180,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92ac7ac3dbb28652",
+  "active": "317c5f64ea2c9276",
   "lastOpenFiles": [
+    "pages/Untitled 1.md",
     "pages/INCL과 스팟 인스턴스.md",
     "pages/INCL의 구성.md",
     "journals/2025-05-21.md",
@@ -207,7 +208,6 @@
     "pages/닌텐도 스위치2.md",
     "pages/Centering.md",
     "pages/Sunghyun's OS.md",
-    "pages/No preset version installed for command yarn.md",
     "assets/FFD03B.gif",
     "assets/FF5AAD.png",
     "assets/FF32E1.png",
