@@ -27,7 +27,7 @@ export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
               className={styles.sidebarItemLink}
               activeClassName={styles.sidebarItemLinkActive}
             >
-              <li key={item.permalink} className={cn(styles.sidebarItem, 'text-balance')}>
+              <li key={item.permalink} className={cn(styles.sidebarItem)}>
                 {item.title}
               </li>
             </Link>

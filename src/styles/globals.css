@@ -17,6 +17,8 @@
   font-feature-settings:
     'rlig', 'calt', 'case', 'ccmp', 'dlig', 'salt', 'zero', 'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss08', 'ss15';
 
+  line-height: 2;
+
   --unhovered-transparency: 10%;
   --padding: 1rem;
   --border-radius: 0.25rem;
