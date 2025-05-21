@@ -11,10 +11,24 @@
             "id": "96ae317848e49ce1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/Biome.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Biome"
             }
           }
         ]
@@ -182,6 +196,7 @@
   },
   "active": "96ae317848e49ce1",
   "lastOpenFiles": [
+    "journals/2025-05-20.md",
     "pages/INCL.md",
     "journals/2025-05-19.md",
     "pages/Django Fail Fast.md",
@@ -207,7 +222,6 @@
     "pages/eSIM으로 변경할 때 입력하신 핸드폰은 온라인 개통이 불가능한 핸드폰이라고 나타난다면.md",
     "pages/uv (python).md",
     "journals/2025-05-09.md",
-    "pages/nullish vs optional vs nullable in Zod.md",
     "assets/FFD03B.gif",
     "assets/FF5AAD.png",
     "assets/FF32E1.png",
