@@ -11,10 +11,24 @@
             "id": "317c5f64ea2c9276",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/INCL이란.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "INCL이란"
             }
           }
         ]
@@ -182,10 +196,10 @@
   },
   "active": "317c5f64ea2c9276",
   "lastOpenFiles": [
+    "journals/2025-05-21.md",
     "pages/Untitled 1.md",
     "pages/INCL과 스팟 인스턴스.md",
     "pages/INCL의 구성.md",
-    "journals/2025-05-21.md",
     "pages/INCL이란.md",
     "pages/Biome.md",
     "journals/2025-05-20.md",
