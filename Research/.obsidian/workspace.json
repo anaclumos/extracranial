@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/INCL이란.md",
-                "mode": "source",
+                "file": "pages/Absolute Mode.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "INCL이란"
+              "title": "Absolute Mode"
             }
           }
         ]
@@ -196,11 +196,11 @@
   },
   "active": "317c5f64ea2c9276",
   "lastOpenFiles": [
+    "pages/INCL이란.md",
     "journals/2025-05-21.md",
     "pages/Untitled 1.md",
     "pages/INCL과 스팟 인스턴스.md",
     "pages/INCL의 구성.md",
-    "pages/INCL이란.md",
     "pages/Biome.md",
     "journals/2025-05-20.md",
     "pages/INCL.md",
