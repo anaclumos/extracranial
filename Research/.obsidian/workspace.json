@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "5418b1a48880291d",
+        "id": "458b81e141651eec",
         "type": "tabs",
         "children": [
           {
-            "id": "317c5f64ea2c9276",
+            "id": "5748e88a3680fc29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Absolute Mode.md",
+                "file": "journals/2025-05-22.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-05-22"
+            }
+          },
+          {
+            "id": "a0cfb6bff3ad8c86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/AutoSCOPE란.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Absolute Mode"
+              "title": "AutoSCOPE란"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker logs",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,10 +219,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "317c5f64ea2c9276",
+  "active": "a0cfb6bff3ad8c86",
   "lastOpenFiles": [
+    "assets/Pasted image 20250522145219.png",
+    "assets/Pasted image 20250522144918.png",
+    "assets/Pasted image 20250522144909.png",
+    "assets/Pasted image 20250522144905.png",
+    "assets/Pasted image 20250522144857.png",
+    "assets/Pasted image 20250522144851.png",
+    "assets/Pasted image 20250522144844.png",
+    "assets/Pasted image 20250522144804.png",
+    "assets/Pasted image 20250522144759.png",
+    "assets/Pasted image 20250522144754.png",
+    "assets/Pasted image 20250522144745.png",
+    "pages/AutoSCOPE란.md",
+    "journals/2025-05-22.md",
     "pages/INCL이란.md",
     "journals/2025-05-21.md",
+    "pages/Absolute Mode.md",
     "pages/Untitled 1.md",
     "pages/INCL과 스팟 인스턴스.md",
     "pages/INCL의 구성.md",
@@ -214,24 +253,10 @@
     "journals/2025-05-15.md",
     "journals/2025-05-13.md",
     "journals/2025-05-11.md",
-    "pages/Absolute Mode.md",
     "pages/Geekbench.md",
     "pages/Vercel node modules cache.md",
     "pages/Open API Hono.md",
     "journals/2025-05-14.md",
-    "pages/닌텐도 스위치2.md",
-    "pages/Centering.md",
-    "pages/Sunghyun's OS.md",
-    "assets/FFD03B.gif",
-    "assets/FF5AAD.png",
-    "assets/FF32E1.png",
-    "assets/FF2C43.jpg",
-    "assets/FF159D.png",
-    "assets/FEDD94.png",
-    "assets/FED5B0.png",
-    "assets/FEA35E.png",
-    "assets/FE53DA.jpg",
-    "assets/FE52AF.png",
     "assets",
     "journals/_category_.yml",
     "pages/_category_.yml",
