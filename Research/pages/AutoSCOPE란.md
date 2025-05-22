@@ -5,7 +5,7 @@ slug: '/985C77'
 
 :::warning
 
-빠른 공유를 위한 번역, 축약본입니다. [원본](https://medium.com/lunit/intelligent-cloud-part-1-introduction-to-lunits-cloud-deep-learning-platform-for-efficient-94fd2da2a3f2)
+빠른 공유를 위한 번역, 축약본입니다. [원본](https://medium.com/lunit/autoscope-the-assembly-line-of-ai-model-development-at-lunit-0b1d1c05e830)
 
 :::
 
