@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "458b81e141651eec",
+        "id": "e78237468873b4eb",
         "type": "tabs",
         "children": [
           {
-            "id": "5748e88a3680fc29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-05-22.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-05-22"
-            }
-          },
-          {
-            "id": "a0cfb6bff3ad8c86",
+            "id": "1876bb05ab4b8f2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +31,7 @@
               "title": "AutoSCOPE란"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,21 +194,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0cfb6bff3ad8c86",
+  "active": "1876bb05ab4b8f2d",
   "lastOpenFiles": [
-    "assets/Pasted image 20250522145219.png",
-    "assets/Pasted image 20250522144918.png",
-    "assets/Pasted image 20250522144909.png",
-    "assets/Pasted image 20250522144905.png",
-    "assets/Pasted image 20250522144857.png",
-    "assets/Pasted image 20250522144851.png",
-    "assets/Pasted image 20250522144844.png",
-    "assets/Pasted image 20250522144804.png",
-    "assets/Pasted image 20250522144759.png",
-    "assets/Pasted image 20250522144754.png",
-    "assets/Pasted image 20250522144745.png",
-    "pages/AutoSCOPE란.md",
     "journals/2025-05-22.md",
+    "journals/2025-05-23.md",
+    "assets/145219.png",
+    "pages/AutoSCOPE란.md",
+    "assets/144918.png",
+    "assets/144909.png",
+    "assets/144905.png",
+    "assets/144857.png",
+    "assets/144851.png",
+    "assets/144844.png",
+    "assets/144804.png",
+    "assets/144759.png",
+    "assets/144754.png",
     "pages/INCL이란.md",
     "journals/2025-05-21.md",
     "pages/Absolute Mode.md",
@@ -256,7 +231,6 @@
     "pages/Geekbench.md",
     "pages/Vercel node modules cache.md",
     "pages/Open API Hono.md",
-    "journals/2025-05-14.md",
     "assets",
     "journals/_category_.yml",
     "pages/_category_.yml",
