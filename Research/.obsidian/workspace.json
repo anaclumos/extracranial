@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e78237468873b4eb",
+        "id": "e691505e0d773507",
         "type": "tabs",
         "children": [
           {
-            "id": "1876bb05ab4b8f2d",
+            "id": "bdcfdff833a59a33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/AutoSCOPE란.md",
+                "file": "journals/2025-05-26.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AutoSCOPE란"
+              "title": "2025-05-26"
+            }
+          },
+          {
+            "id": "791c4e5d7025c367",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/SCOPE란.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SCOPE란"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,12 +219,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1876bb05ab4b8f2d",
+  "active": "791c4e5d7025c367",
   "lastOpenFiles": [
+    "pages/SCOPE란.md",
+    "journals/2025-05-26.md",
+    "journals/2025-05-25.md",
+    "pages/Someday.md",
+    "pages/service diagram generator.md",
+    "pages/Oneday.md",
+    "pages/Absolute Mode.md",
+    "pages/AutoSCOPE란.md",
     "journals/2025-05-22.md",
     "journals/2025-05-23.md",
     "assets/145219.png",
-    "pages/AutoSCOPE란.md",
     "assets/144918.png",
     "assets/144909.png",
     "assets/144905.png",
@@ -211,7 +243,6 @@
     "assets/144754.png",
     "pages/INCL이란.md",
     "journals/2025-05-21.md",
-    "pages/Absolute Mode.md",
     "pages/Untitled 1.md",
     "pages/INCL과 스팟 인스턴스.md",
     "pages/INCL의 구성.md",
@@ -226,11 +257,6 @@
     "pages/Zod discriminatedUnion vs union.md",
     "journals/2025-05-16.md",
     "journals/2025-05-15.md",
-    "journals/2025-05-13.md",
-    "journals/2025-05-11.md",
-    "pages/Geekbench.md",
-    "pages/Vercel node modules cache.md",
-    "pages/Open API Hono.md",
     "assets",
     "journals/_category_.yml",
     "pages/_category_.yml",
