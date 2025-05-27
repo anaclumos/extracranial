@@ -41,16 +41,123 @@ unlisted: true
 
 다른 점에 앞서, INCL 시스템에는 직관적으로는 쉽사리 이해되지 않는 치명적인 엔지니어링 부채가 존재했으니, 모든 클라우드 리소스가 네덜란드에 존재한다는 점이다. 가장 큰 이유는 처음에 서버 위치를 선정할 당시 네덜란드 GCP 서버에 유휴 자원이 가장 많았기 때문이다. 백엔드 서버 또한 컨테이너에서 돌아가는 수많은 데이터를 기록하고 추적해야하고, 외부에 있다면 외부통신 비용이 별도로 발생하기에, 네덜란드에 있을 수 밖에 없었고, 결과적으로 모든 자원이 네덜란드에 발이 묶여버리게 되었다. 사실상 지구 반대편에 있으니, 물리적으로 시간이 오래 걸릴 수 밖에 없었다.
 
-하지만 예로부터 독한 병엔 극약처방이 필요하다고 했었던가? 난세에는 영웅이 등장하는 법이다.
-
 import { KoreaNetherlandsGlobe } from './korea-netherlands'
 
 <KoreaNetherlandsGlobe lang="ko" />
 
-거리가 잘 상상이 되지 않는다면 위 버튼을 눌러 거리를 직접 가늠해보자. 일부 페이지는 네트워크 요청이 4번 chain되는 경우도 있었는데, 그러면 총 8번 저 거리를 다녀와야 한다!
+거리가 잘 상상이 되지 않는다면 위 버튼을 눌러 거리를 직접 가늠해보자. 일부 페이지는 네트워크 요청이 4번 chain되는 경우도 있었는데, 그러면 총 **8번 저 거리를 다녀와야 한다**! 하지만 예로부터 독한 병엔 극약처방이 필요하다고 했었던가? 난세에는 영웅이 등장하는 법이다.
 
-:::warning
+## Next.js Cache, React Server Components, Partial Prerendering
 
-작성 중
+이번에는 pnpm init 부터 다시 했던 관계로, 이 기술 부채를 해결하기 위해 모든 것을 변경할 수 있는 기회였다. 새로운 Next.js와 리액트 기술인 App Router와 React Server Component, 그리고 Partial Prerendering에 맞추어 초장부터 갈아엎을 절호의 기회였고 우리의 네덜란드 이슈를 단박에 해결할 수도 있는 기술적 돌파구일 수 있었다. 때문에 초기 탐색을 하며 어떻게 RSC와 SWR, 그리고 PPR을 쓸 수 있을지 각양각색으로 연구했다.
 
-:::
+
+<details>
+<summary>
+
+Client Side Data Fetching
+
+</summary>
+
+```mermaid
+sequenceDiagram
+    title Client Side Fetching
+    autonumber
+    actor Client
+    participant Server
+    participant API
+    participant API2
+
+    Client->>Server: GET example.com
+    Server-->>Client: HTML
+    Note over Client: JS executes (spinner)
+    Client->>API: fetch()
+    API-->>Client: fresh data
+    Client->>API2: fetch()
+    API2-->>Client: fresh data
+    Client-->>Client: render UI
+```
+
+- 👍 실험 데이터를 실시간으로 볼 수 있음
+- 👍 SWR이나 React Query 등을 사용해 정기적으로 최신 데이터를 가져올 수 있음
+- 👎 Client Fetching만 사용하면 속도가 너무 느림.
+- 👎 Chained Call 최적화로 약간의 속도 향상은 가능하나 큰 차이는 없음
+
+</details>
+
+<details>
+<summary>
+
+React Server Components (Streaming Server-side Data Fetching 및 Partial Pre-Rendering)
+
+</summary>
+
+```mermaid
+sequenceDiagram
+    title Partial Pre-Rendering
+    autonumber
+    actor Client
+    participant Edge
+    participant Server
+    participant API
+    participant API2 as "API 2"
+
+    %% build / ISR revalidate cycle
+    loop ISR
+        Server->>API: fetch()
+        API-->>Server: data
+        Server->>API2: fetch()
+        API2-->>Server: data
+        Server-->>Edge: Static HTML
+    end
+
+    %% request-time
+    Client->>Edge: GET example.com
+    Edge-->>Client: Static HTML
+    Client-->>Client: progressive render
+```
+
+- 👍 번들 사이즈 최적화로 매우 빠른 로딩 속도
+- 👎 데이터 페칭 자체를 개선하지 않음 (네덜란드 왕복 문제 해결에 큰 도움 안 됨).
+- 👎 Stale-While-Revalidate 패턴으로 옛날 데이터가 먼저 보이고 백그라운드에서 업데이트됨.
+- 👎 최신 정보를 보려면 누군가의 선방문이 필요하기에, 개인화된 정보가 많은 앱에는 부적합
+
+</details>
+
+```mermaid
+sequenceDiagram
+    title Hybrid
+    autonumber
+    actor Client
+    participant Edge
+    participant Server as Next RSC
+    participant API
+
+    %% periodic / background revalidate
+    loop revalidate
+        Server->>API: fetch()
+        API-->>Server: data
+        Server-->>Edge: cache update
+    end
+
+    %% request-time flow
+    Client->>Edge: GET example.com
+    Edge-->>Client: Stream HTML + cached seed data
+    Note over Client: SWR fallback seeded
+
+    %% client-side live update
+    Client-->>API: SWR revalidate fetch
+    API-->>Client: fresh data
+    Client-->>Client: UI update
+```
+
+- 👍 데이터 페칭 자체를 개선 (최초로 보이는 데이터는 캐시되어 있음)
+- 👍 Client-side SWR로 최신 정보로 몇 초 뒤 업데이트됨
+- 👍 개인화된 정보가 많은 앱에도 적합
+- 👎 번들 사이즈가 상대적으로 커짐
+
+결과적으로 당시의 편법적인 방식으로 SWR의 fallback 데이터에 서버에서 온 씨드 데이터를 넣어주고, SWR의 초기 isLoading 값을 의도적으로 꺼주는 방식을 택했다. Next.js의 캐시 레이어를 활용해 Next.js RSC에서 데이터를 넣어주고, Streaming SSR로 RSC 데이터를 즉각 SWR에 Fallback 데이터로 전달하면, 번들 사이즈를 희생해 **RSC의 빠른 초기 로딩 속도와 SWR의 라이브 데이터를 모두 얻을 수 있다**. isLoading을 의도적으로 꺼주는 방식으로 제어한 이유는, 로딩 상태 제어를 SWR의 isLoading으로 일원화하고 싶었는데, SWR의 isLoading은 Fallback Data가 있어도 최초 로딩에는 항상 True이기 때문에 서버에서 온 씨드 데이터가 있어도 로딩 화면이 보였기 때문이다.
+
+현재는 여기서 더 발전한 패턴들이 존재하는데, 가장 대표적으로 Server에서 시작된 데이터로딩 프리페치 Promise를 클라이언트로 내려준 뒤 use 훅을 이용해 consume하는 방식이 있다. 다만 이 또한 서버 사이드 데이터 페칭이 오래 걸린다면 여전히 여러 방면으로 캐싱에 대한 고민을 해야한다.
+
+결과적으로, 나는 PPR이나 RSC는 클라이언트에서 인터랙션이 많은 앱에는 부적합하다고 생각한다. RSC를 쓴 이유가, Vercel에서 홍보하는 RSC의 이득보다는 Next.js Server Cache Directive를 쓰기 위함이 더 컸다. 만약 DB와 API 서버가 가까운 곳으로 옮겨지게 된다면, SWR만으로도 충분할 것 같다. 실험 데이터는 수십 MB가 되는 경우도 있는데, Next.js Cache의 최대 크기가 2MB이기에 추가적인 우회가 필요했다는 것도 아쉬웠다.
