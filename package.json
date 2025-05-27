@@ -19,6 +19,7 @@
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-spring": "^10.0.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "vaul": "^1.1.2"
