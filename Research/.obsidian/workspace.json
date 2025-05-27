@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "82ba7e9e6ef86306",
+        "id": "368f84bf8f45ed85",
         "type": "tabs",
         "children": [
           {
-            "id": "11243ea727ed6a7d",
+            "id": "ee1dfc1685c45d40",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/PPR All The Way.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PPR All The Way"
             }
           }
         ]
@@ -180,9 +194,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11243ea727ed6a7d",
+  "active": "ee1dfc1685c45d40",
   "lastOpenFiles": [
+    "templates/details and summary template.md",
     "journals/2025-05-28.md",
+    "assets/4D948E.png",
+    "pages/PPR All The Way.md",
     "pages/까리.md",
     "journals/2025-05-26.md",
     "journals/2025-05-27.md",
@@ -205,7 +222,6 @@
     "assets/144844.png",
     "assets/144804.png",
     "assets/144759.png",
-    "assets/144754.png",
     "pages/INCL이란.md",
     "journals/2025-05-21.md",
     "pages/Untitled 1.md",
@@ -216,8 +232,6 @@
     "pages/INCL.md",
     "journals/2025-05-19.md",
     "pages/Django Fail Fast.md",
-    "pages/Untitled.md",
-    "pages/Terminal, Shell, TTY, and Console.md",
     "assets",
     "journals/_category_.yml",
     "pages/_category_.yml",
