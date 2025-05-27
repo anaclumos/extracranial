@@ -1,26 +1,43 @@
 import createGlobe from 'cobe'
 import { useEffect, useRef } from 'react'
-
 import styles from './styles.module.css'
 
 export const KoreaNetherlandsGlobe = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const locationToAngles = (lat, long) => {
-    return [Math.PI - ((long * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180]
+
+  const pointerDown = useRef(false)
+  const startX = useRef(0)
+  const startY = useRef(0)
+  const startPhi = useRef(0)
+  const startTheta = useRef(0)
+
+  const phiRef = useRef(0)
+  const thetaRef = useRef(0)
+  const targetPhi = useRef(0)
+  const targetTheta = useRef(0)
+  const widthRef = useRef(0)
+
+  const locationToAngles = (lat: number, long: number): [number, number] => {
+    return [
+      Math.PI - ((long * Math.PI) / 180 - Math.PI / 2),
+      (lat * Math.PI) / 180,
+    ]
   }
-  const focusRef = useRef(locationToAngles(37.5665, 126.978))
+
+  const clamp = (v: number, min: number, max: number) =>
+    Math.min(Math.max(v, min), max)
+
   useEffect(() => {
-    let width = 0
-    let currentPhi = 0
-    let currentTheta = 0
-    const doublePi = Math.PI * 2
-    const onResize = () => canvasRef.current && (width = canvasRef.current.offsetWidth)
+    const onResize = () => {
+      if (canvasRef.current) widthRef.current = canvasRef.current.offsetWidth
+    }
     window.addEventListener('resize', onResize)
     onResize()
-    const globe = createGlobe(canvasRef.current, {
+
+    const globe = createGlobe(canvasRef.current as HTMLCanvasElement, {
       devicePixelRatio: 2,
-      width: width * 2,
-      height: width * 2,
+      width: widthRef.current * 2,
+      height: widthRef.current * 2,
       phi: 0,
       theta: 0.3,
       dark: 1,
@@ -35,46 +52,94 @@ export const KoreaNetherlandsGlobe = () => {
         { location: [52.3676, 4.9041], size: 0.05 },
       ],
       onRender: (state) => {
-        state.phi = currentPhi
-        state.theta = currentTheta
-        const [focusPhi, focusTheta] = focusRef.current
-        const distPositive = (focusPhi - currentPhi + doublePi) % doublePi
-        const distNegative = (currentPhi - focusPhi + doublePi) % doublePi
-        if (distPositive < distNegative) {
-          currentPhi += distPositive * 0.04
-        } else {
-          currentPhi -= distNegative * 0.04
-        }
-        currentTheta = currentTheta * 0.96 + focusTheta * 0.04
-        state.width = width * 2
-        state.height = width * 2
+        phiRef.current = phiRef.current * 0.9 + targetPhi.current * 0.1
+        thetaRef.current = thetaRef.current * 0.9 + targetTheta.current * 0.1
+
+        state.phi = phiRef.current
+        state.theta = thetaRef.current
+        state.width = widthRef.current * 2
+        state.height = widthRef.current * 2
       },
     })
-    setTimeout(() => (canvasRef.current.style.opacity = '1'))
+
+    if (canvasRef.current) canvasRef.current.style.opacity = '1'
+
     return () => {
       globe.destroy()
       window.removeEventListener('resize', onResize)
     }
   }, [])
+
+  const handlePointerDown = (clientX: number, clientY: number) => {
+    pointerDown.current = true
+    startX.current = clientX
+    startY.current = clientY
+    startPhi.current = targetPhi.current
+    startTheta.current = targetTheta.current
+    if (canvasRef.current) canvasRef.current.style.cursor = 'grabbing'
+  }
+
+  const handlePointerMove = (clientX: number, clientY: number) => {
+    if (!pointerDown.current) return
+    const dx = clientX - startX.current
+    const dy = clientY - startY.current
+    const w = widthRef.current || 1
+    targetPhi.current = startPhi.current + (dx / w) * Math.PI * 2
+    targetTheta.current = clamp(
+      startTheta.current + (dy / w) * Math.PI,
+      -Math.PI / 2,
+      Math.PI / 2,
+    )
+  }
+
+  const handlePointerUp = () => {
+    pointerDown.current = false
+    if (canvasRef.current) canvasRef.current.style.cursor = 'grab'
+  }
+
+  const handleCityClick = (lat: number, long: number) => {
+    ;[targetPhi.current, targetTheta.current] = locationToAngles(lat, long)
+  }
+
   return (
     <div className={styles.container}>
-      <canvas ref={canvasRef} className={styles.canvas} />
-      <div className={styles['button-controls']}>
+      <canvas
+        ref={canvasRef}
+        onPointerDown={(e) => handlePointerDown(e.clientX, e.clientY)}
+        onPointerMove={(e) => handlePointerMove(e.clientX, e.clientY)}
+        onPointerUp={handlePointerUp}
+        onPointerLeave={handlePointerUp}
+        onTouchStart={(e) =>
+          e.touches[0] &&
+          handlePointerDown(e.touches[0].clientX, e.touches[0].clientY)
+        }
+        onTouchMove={(e) =>
+          e.touches[0] &&
+          handlePointerMove(e.touches[0].clientX, e.touches[0].clientY)
+        }
+        onTouchEnd={handlePointerUp}
+        className={styles.canvas}
+        style={{
+          width: '100%',
+          height: '100%',
+          cursor: 'grab',
+          contain: 'layout paint size',
+          opacity: 0,
+          transition: 'opacity 1s ease',
+        }}
+      />
+      <div className={styles.buttonControls}>
         <button
           className={styles.button}
-          onClick={() => {
-            focusRef.current = locationToAngles(37.5665, 126.978)
-          }}
+          onClick={() => handleCityClick(37.5665, 126.978)}
         >
-          Seoul, Korea
+          Seoul
         </button>
         <button
           className={styles.button}
-          onClick={() => {
-            focusRef.current = locationToAngles(52.3676, 4.9041)
-          }}
+          onClick={() => handleCityClick(52.3676, 4.9041)}
         >
-          Amsterdam, Netherlands
+          Amsterdam
         </button>
       </div>
     </div>

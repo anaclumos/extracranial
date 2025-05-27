@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e691505e0d773507",
+        "id": "82ba7e9e6ef86306",
         "type": "tabs",
         "children": [
           {
-            "id": "bdcfdff833a59a33",
+            "id": "11243ea727ed6a7d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-05-26.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-05-26"
-            }
-          },
-          {
-            "id": "791c4e5d7025c367",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/SCOPE란.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SCOPE란"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,10 +180,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "791c4e5d7025c367",
+  "active": "11243ea727ed6a7d",
   "lastOpenFiles": [
-    "pages/SCOPE란.md",
+    "journals/2025-05-28.md",
+    "pages/까리.md",
     "journals/2025-05-26.md",
+    "journals/2025-05-27.md",
+    "pages/Harding (Font).md",
+    "pages/SCOPE란.md",
     "journals/2025-05-25.md",
     "pages/Someday.md",
     "pages/service diagram generator.md",
@@ -253,10 +218,6 @@
     "pages/Django Fail Fast.md",
     "pages/Untitled.md",
     "pages/Terminal, Shell, TTY, and Console.md",
-    "templates/note template.md",
-    "pages/Zod discriminatedUnion vs union.md",
-    "journals/2025-05-16.md",
-    "journals/2025-05-15.md",
     "assets",
     "journals/_category_.yml",
     "pages/_category_.yml",
