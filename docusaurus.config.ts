@@ -29,7 +29,6 @@ const config: Config = {
   baseUrlIssueBanner: false,
 
   future: {
-    v4: true,
     experimental_faster: true,
   },
 
