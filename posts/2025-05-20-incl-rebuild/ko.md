@@ -49,7 +49,7 @@ import { KoreaNetherlandsGlobe } from './korea-netherlands'
 
 ## Next.js Cache, React Server Components, Partial Prerendering
 
-이번에는 pnpm init 부터 다시 했던 관계로, 이 기술 부채를 해결하기 위해 모든 것을 변경할 수 있는 기회였다. 새로운 Next.js와 리액트 기술인 App Router와 React Server Component, 그리고 Partial Prerendering에 맞추어 초장부터 갈아엎을 절호의 기회였고 우리의 네덜란드 이슈를 단박에 해결할 수도 있는 기술적 돌파구일 수 있었다. 때문에 초기 탐색을 하며 어떻게 RSC와 SWR, 그리고 PPR을 쓸 수 있을지 각양각색으로 연구했다.
+이번에는 pnpm init 부터 다시 했던 관계로, 이 기술 부채를 해결하기 위해 모든 것을 변경할 수 있는 기회였다. 새로운 Next.js와 리액트 기술인 App Router와 React Server Component, 그리고 Partial Prerendering에 맞추어 초장부터 갈아엎을 절호의 기회였고 우리의 네덜란드 이슈를 단박에 해결할 수도 있는 기술적 돌파구일 수 있었다. 때문에 초기 탐색을 하며 어떻게 서버 컴포넌트와 SWR, 그리고 PPR을 쓸 수 있을지 각양각색으로 연구했다.
 
 <details>
 <summary>
@@ -129,10 +129,10 @@ sequenceDiagram
     autonumber
     actor Client
     participant Edge
-    participant Server as Next RSC
+    participant Server as Next 서버 컴포넌트
     participant API
 
-    %% periodic / background revalidate
+    %% revalidate
     loop revalidate
         Server->>API: fetch()
         API-->>Server: data
@@ -155,8 +155,52 @@ sequenceDiagram
 - 👍 개인화된 정보가 많은 앱에도 적합
 - 👎 번들 사이즈가 상대적으로 커짐
 
-결과적으로 당시의 편법적인 방식으로 SWR의 fallback 데이터에 서버에서 온 씨드 데이터를 넣어주고, SWR의 초기 isLoading 값을 의도적으로 꺼주는 방식을 택했다. Next.js의 캐시 레이어를 활용해 Next.js RSC에서 데이터를 넣어주고, Streaming SSR로 RSC 데이터를 즉각 SWR에 Fallback 데이터로 전달하면, 번들 사이즈를 희생해 **RSC의 빠른 초기 로딩 속도와 SWR의 라이브 데이터를 모두 얻을 수 있다**. isLoading을 의도적으로 꺼주는 방식으로 제어한 이유는, 로딩 상태 제어를 SWR의 isLoading으로 일원화하고 싶었는데, SWR의 isLoading은 Fallback Data가 있어도 최초 로딩에는 항상 True이기 때문에 서버에서 온 씨드 데이터가 있어도 로딩 화면이 보였기 때문이다.
+결과적으로 당시의 편법적인 방식으로 SWR의 폴백 데이터에 서버에서 온 씨드 데이터를 넣어주고, SWR의 초기 isLoading 값을 의도적으로 꺼주는 방식을 택했다. Next.js의 캐시 레이어를 활용해 Next.js 서버 컴포넌트에서 데이터를 넣어주고, Streaming SSR로 서버 컴포넌트 데이터를 즉각 SWR에 폴백 데이터로 전달하면, 번들 사이즈를 희생해 **서버 컴포넌트의 빠른 초기 로딩 속도와 SWR의 라이브 데이터를 모두 얻을 수 있다**. isLoading을 의도적으로 꺼주는 방식으로 제어한 이유는, 로딩 상태 제어를 SWR의 isLoading으로 일원화하고 싶었는데, SWR의 isLoading은 폴백 데이터가 있어도 최초 로딩에는 항상 참이기 때문에 서버에서 온 씨드 데이터가 있어도 로딩 화면이 보였기 때문이다.
 
 현재는 여기서 더 발전한 패턴들이 존재하는데, 가장 대표적으로 Server에서 시작된 데이터로딩 프리페치 Promise를 클라이언트로 내려준 뒤 use 훅을 이용해 consume하는 방식이 있다. 다만 이 또한 서버 사이드 데이터 페칭이 오래 걸린다면 여전히 여러 방면으로 캐싱에 대한 고민을 해야한다.
 
-결과적으로, 나는 PPR이나 RSC는 클라이언트에서 인터랙션이 많은 앱에는 부적합하다고 생각한다. RSC를 쓴 이유가, Vercel에서 홍보하는 RSC의 이득보다는 Next.js Server Cache Directive를 쓰기 위함이 더 컸다. 만약 DB와 API 서버가 가까운 곳으로 옮겨지게 된다면, SWR만으로도 충분할 것 같다. 실험 데이터는 수십 MB가 되는 경우도 있는데, Next.js Cache의 최대 크기가 2MB이기에 추가적인 우회가 필요했다는 것도 아쉬웠다.
+결과적으로, 나는 PPR이나 서버 컴포넌트는 클라이언트에서 인터랙션이 많은 앱에는 부적합하다고 생각한다. 서버 컴포넌트를 쓴 이유가, Vercel에서 홍보하는 서버 컴포넌트의 이득보다는 Next.js Server Cache Directive를 쓰기 위함이 더 컸다. 만약 DB와 API 서버가 가까운 곳으로 옮겨지게 된다면, SWR만으로도 충분할 것 같다. 실험 데이터는 수십 MB가 되는 경우도 있는데, Next.js Cache의 최대 크기가 2MB이기에 추가적인 우회가 필요했다는 것도 아쉬웠다.
+
+## 넥스트 앱 라우터
+
+이번에 Next App Router를 전격적으로 도입했는데, 다른 것들은 기존의 Pages Router와 방식이 달라졌을 뿐 압도적인 편의를 느끼지는 못했는데, Nested Layout은 압도적으로 편리했다 (레이아웃과 children이 사각형이 아니면 그리기 어렵다는 문제가 있었지만 말이다). 이 패턴을 적극적으로 활용하여 다음과 같은 레이아웃도 구성할 수 있었는데...
+
+
+## 밀러 컬럼
+
+[밀러 컬럼](https://en.wikipedia.org/wiki/Miller_columns)이란, 여러 위계가 섞여있는 디렉터리에서 여러 컬럼들이 좌우로 길게 늘어선 것을 뜻한다.
+
+<figure>
+
+![맥 파인더 밀러 컬럼](./6FDB19.png)
+
+<figcaption>
+
+가령, 맥 파인더에서 볼 수 있는 이 화면도 밀러 컬럼의 일환이다.
+
+</figcaption>
+
+</figure>
+
+유저, 프로젝트, 잡이 많고, 서로 다른 프로젝트의 많은 잡을 오고가야 하는 일이 있는데, 기존 구조는 이를 단순하게 Tree 구조 안에 엮어놓고, Tree 안에 Pagination까지 있는 구조라 Job을 찾기 매우 어려웠다.
+
+때문에, 다음과 같은 구조를 만들어내고 싶었다.
+
+<figure>
+
+![구상했던 URL, 그리고 데스크톱, 모바일 뷰](./C868F8.jpeg)
+
+<figcaption>
+
+구상했던 URL, 그리고 데스크톱, 모바일 뷰
+
+</figcaption>
+
+</figure>
+
+얼핏 보면 단순해보이지만 App Router의 Nested Layout 없이는 정말로 골치 아프며, 모바일에서 메인 컨텐츠가 아닌 **리스트 뷰**가 보이게 하는 것도 골치 아프다. 이는 [Brandon Bayer님의 글](https://www.flightcontrol.dev/blog/nextjs-app-router-migration-the-good-bad-and-ugly) 및 [메시지](https://x.com/flybayer/status/1818009089735279057)를 통해 큰 도움을 얻었는데, 바로 `layout.ts`에 유의미한 콘텐츠를 넣고, `page.tsx`를 의도적으로 비워놓는 것이다.
+
+> The environment UI has to be inside the environment `layout.tsx`, with the environment `page.tsx` only containing `return null`.
+>
+> — [Brandon Bayer](https://www.flightcontrol.dev/blog/nextjs-app-router-migration-the-good-bad-and-ugly)
+
