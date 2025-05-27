@@ -165,7 +165,6 @@ sequenceDiagram
 
 이번에 Next App Router를 전격적으로 도입했는데, 다른 것들은 기존의 Pages Router와 방식이 달라졌을 뿐 압도적인 편의를 느끼지는 못했는데, Nested Layout은 압도적으로 편리했다 (레이아웃과 children이 사각형이 아니면 그리기 어렵다는 문제가 있었지만 말이다). 이 패턴을 적극적으로 활용하여 다음과 같은 레이아웃도 구성할 수 있었는데...
 
-
 ## 밀러 컬럼
 
 [밀러 컬럼](https://en.wikipedia.org/wiki/Miller_columns)이란, 여러 위계가 섞여있는 디렉터리에서 여러 컬럼들이 좌우로 길게 늘어선 것을 뜻한다.
@@ -203,4 +202,3 @@ sequenceDiagram
 > The environment UI has to be inside the environment `layout.tsx`, with the environment `page.tsx` only containing `return null`.
 >
 > — [Brandon Bayer](https://www.flightcontrol.dev/blog/nextjs-app-router-migration-the-good-bad-and-ugly)
-
