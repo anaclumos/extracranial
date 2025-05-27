@@ -18,14 +18,10 @@ export const KoreaNetherlandsGlobe = () => {
   const widthRef = useRef(0)
 
   const locationToAngles = (lat: number, long: number): [number, number] => {
-    return [
-      Math.PI - ((long * Math.PI) / 180 - Math.PI / 2),
-      (lat * Math.PI) / 180,
-    ]
+    return [Math.PI - ((long * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180]
   }
 
-  const clamp = (v: number, min: number, max: number) =>
-    Math.min(Math.max(v, min), max)
+  const clamp = (v: number, min: number, max: number) => Math.min(Math.max(v, min), max)
 
   useEffect(() => {
     const onResize = () => {
@@ -85,11 +81,7 @@ export const KoreaNetherlandsGlobe = () => {
     const dy = clientY - startY.current
     const w = widthRef.current || 1
     targetPhi.current = startPhi.current + (dx / w) * Math.PI * 2
-    targetTheta.current = clamp(
-      startTheta.current + (dy / w) * Math.PI,
-      -Math.PI / 2,
-      Math.PI / 2,
-    )
+    targetTheta.current = clamp(startTheta.current + (dy / w) * Math.PI, -Math.PI / 2, Math.PI / 2)
   }
 
   const handlePointerUp = () => {
@@ -109,14 +101,8 @@ export const KoreaNetherlandsGlobe = () => {
         onPointerMove={(e) => handlePointerMove(e.clientX, e.clientY)}
         onPointerUp={handlePointerUp}
         onPointerLeave={handlePointerUp}
-        onTouchStart={(e) =>
-          e.touches[0] &&
-          handlePointerDown(e.touches[0].clientX, e.touches[0].clientY)
-        }
-        onTouchMove={(e) =>
-          e.touches[0] &&
-          handlePointerMove(e.touches[0].clientX, e.touches[0].clientY)
-        }
+        onTouchStart={(e) => e.touches[0] && handlePointerDown(e.touches[0].clientX, e.touches[0].clientY)}
+        onTouchMove={(e) => e.touches[0] && handlePointerMove(e.touches[0].clientX, e.touches[0].clientY)}
         onTouchEnd={handlePointerUp}
         className={styles.canvas}
         style={{
@@ -129,16 +115,10 @@ export const KoreaNetherlandsGlobe = () => {
         }}
       />
       <div className={styles.buttonControls}>
-        <button
-          className={styles.button}
-          onClick={() => handleCityClick(37.5665, 126.978)}
-        >
+        <button className={styles.button} onClick={() => handleCityClick(37.5665, 126.978)}>
           Seoul
         </button>
-        <button
-          className={styles.button}
-          onClick={() => handleCityClick(52.3676, 4.9041)}
-        >
+        <button className={styles.button} onClick={() => handleCityClick(52.3676, 4.9041)}>
           Amsterdam
         </button>
       </div>

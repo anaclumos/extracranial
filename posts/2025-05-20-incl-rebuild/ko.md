@@ -51,7 +51,6 @@ import { KoreaNetherlandsGlobe } from './korea-netherlands'
 
 이번에는 pnpm init 부터 다시 했던 관계로, 이 기술 부채를 해결하기 위해 모든 것을 변경할 수 있는 기회였다. 새로운 Next.js와 리액트 기술인 App Router와 React Server Component, 그리고 Partial Prerendering에 맞추어 초장부터 갈아엎을 절호의 기회였고 우리의 네덜란드 이슈를 단박에 해결할 수도 있는 기술적 돌파구일 수 있었다. 때문에 초기 탐색을 하며 어떻게 RSC와 SWR, 그리고 PPR을 쓸 수 있을지 각양각색으로 연구했다.
 
-
 <details>
 <summary>
 
@@ -161,4 +160,3 @@ sequenceDiagram
 현재는 여기서 더 발전한 패턴들이 존재하는데, 가장 대표적으로 Server에서 시작된 데이터로딩 프리페치 Promise를 클라이언트로 내려준 뒤 use 훅을 이용해 consume하는 방식이 있다. 다만 이 또한 서버 사이드 데이터 페칭이 오래 걸린다면 여전히 여러 방면으로 캐싱에 대한 고민을 해야한다.
 
 결과적으로, 나는 PPR이나 RSC는 클라이언트에서 인터랙션이 많은 앱에는 부적합하다고 생각한다. RSC를 쓴 이유가, Vercel에서 홍보하는 RSC의 이득보다는 Next.js Server Cache Directive를 쓰기 위함이 더 컸다. 만약 DB와 API 서버가 가까운 곳으로 옮겨지게 된다면, SWR만으로도 충분할 것 같다. 실험 데이터는 수십 MB가 되는 경우도 있는데, Next.js Cache의 최대 크기가 2MB이기에 추가적인 우회가 필요했다는 것도 아쉬웠다.
-
