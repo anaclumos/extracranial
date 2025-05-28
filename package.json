@@ -1,11 +1,11 @@
 {
   "author": "Sunghyun Cho <hey@cho.sh>",
   "dependencies": {
-    "@docusaurus/core": "^3.8.0",
-    "@docusaurus/faster": "^3.8.0",
-    "@docusaurus/plugin-vercel-analytics": "^3.8.0",
-    "@docusaurus/preset-classic": "^3.8.0",
-    "@docusaurus/theme-mermaid": "^3.8.0",
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/faster": "^3.7.0",
+    "@docusaurus/plugin-vercel-analytics": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0",
+    "@docusaurus/theme-mermaid": "^3.7.0",
     "@giscus/react": "^3.1.0",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-label": "^2.1.7",
@@ -19,14 +19,15 @@
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-player": "^2.16.0",
     "react-spring": "^10.0.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "vaul": "^1.1.2"
   },
   "devDependencies": {
-    "@docusaurus/tsconfig": "^3.8.0",
-    "@types/node": "^22.15.23",
+    "@docusaurus/tsconfig": "^3.7.0",
+    "@types/node": "^22.15.24",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
     "prettier": "^3.5.3"

@@ -8,6 +8,8 @@ unlisted: true
 
 <!-- truncate -->
 
+import ReactPlayer from 'react-player'
+
 최근 가장 많은 노력을 쏟은 것은 루닛에서의 MLOps 업무이다. 첫 직장인 이곳에서 MLOps 플랫폼의 프론트엔드 전체를 현대적으로 재개발을 리드했는데, 결과적으로 성공 반, 실패 반으로 끝났다. 그 이야기를 조심스레 해보려 한다.
 
 ## MLOps란
@@ -197,8 +199,28 @@ sequenceDiagram
 
 </figure>
 
-얼핏 보면 단순해보이지만 App Router의 Nested Layout 없이는 정말로 골치 아프며, 모바일에서 메인 컨텐츠가 아닌 **리스트 뷰**가 보이게 하는 것도 골치 아프다. 이는 [Brandon Bayer님의 글](https://www.flightcontrol.dev/blog/nextjs-app-router-migration-the-good-bad-and-ugly) 및 [메시지](https://x.com/flybayer/status/1818009089735279057)를 통해 큰 도움을 얻었는데, 바로 `layout.ts`에 유의미한 콘텐츠를 넣고, `page.tsx`를 의도적으로 비워놓는 것이다.
+얼핏 보면 단순해보이지만 App Router의 Nested Layout 없이는 정말로 골치 아프며, 모바일에서 메인 컨텐츠가 아닌 **리스트 뷰**가 보이게 하는 것도 골치 아프다. 이는 Brandon Bayer님의 [메시지](https://x.com/flybayer/status/1818009089735279057)를 통해 큰 도움을 얻었는데, 바로 `layout.tsx`에 콘텐츠를 넣고, `page.tsx`를 의도적으로 비워놓는 것이다.
 
 > The environment UI has to be inside the environment `layout.tsx`, with the environment `page.tsx` only containing `return null`.
 >
 > — [Brandon Bayer](https://www.flightcontrol.dev/blog/nextjs-app-router-migration-the-good-bad-and-ugly)
+
+import video from './5F8BA9.mp4'
+
+<figure>
+
+<ReactPlayer playing controls autoPlay loop muted url={video} width='100%' height='100%'/>
+
+<figcaption>
+
+여러 위계가 구분되어야하는 복잡한 데이터를, UI 편의성에 대한 심도 있는 고민과, Nested `layout.tsx`이라는 신기술을 기술적으로 깊게 이해하여 단 수백줄 선에서 구현한 것이 매우 자랑스러웠다.
+
+</figcaption>
+
+</figure>
+
+최종적으로는 위와 같이 구현할 수 있었다. 여러 컬럼이 겹쳐있고, 선택되어 있는 컬럼은 마치 책꽂이에 꽂힌 책처럼 세로로 글자가 나타나며 접힌다. 당연히 각 컬럼마다 인피니트 스크롤, 컨텍스트 메뉴 (점 세개 메뉴), 정렬 및 필터링도 지원한다.
+
+아직 초기여서 새로운 인터페이스에 적응하지 못한 분들도 있고 개선 피드백도 받고 있지만, 이와 같은 사용자 UX를 모든 면에 걸쳐 배려심 많은 인터페이스를 개발했고, 전반적으로 사용자들도 좋아하신다는 점을 확인했다.
+
+<iframe src="https://antiagile.every.news/buttons" width="100%" height="100%" allow="keyboard-events"></iframe>
