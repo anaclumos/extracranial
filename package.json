@@ -37,7 +37,7 @@
   "name": "extracranial",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "build": "bun ready && bun run format && NODE_OPTIONS=\"--max-old-space-size=8192\" docusaurus build --no-minify",
+    "build": "bun ready && bun run format && NODE_OPTIONS=\"--max-old-space-size=15360\" docusaurus build --no-minify",
     "dev": "docusaurus start -l ko",
     "format": "prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
     "readme": "cp md/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md && printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
