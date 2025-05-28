@@ -1,11 +1,11 @@
 {
   "author": "Sunghyun Cho <hey@cho.sh>",
   "dependencies": {
-    "@docusaurus/core": "^3.7.0",
-    "@docusaurus/faster": "^3.7.0",
-    "@docusaurus/plugin-vercel-analytics": "^3.7.0",
-    "@docusaurus/preset-classic": "^3.7.0",
-    "@docusaurus/theme-mermaid": "^3.7.0",
+    "@docusaurus/core": "^3.8.0",
+    "@docusaurus/faster": "^3.8.0",
+    "@docusaurus/plugin-vercel-analytics": "^3.8.0",
+    "@docusaurus/preset-classic": "^3.8.0",
+    "@docusaurus/theme-mermaid": "^3.8.0",
     "@giscus/react": "^3.1.0",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-label": "^2.1.7",
@@ -23,10 +23,11 @@
     "react-spring": "^10.0.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
+    "tailwind-merge": "^3.3.0",
     "vaul": "^1.1.2"
   },
   "devDependencies": {
-    "@docusaurus/tsconfig": "^3.7.0",
+    "@docusaurus/tsconfig": "^3.8.0",
     "@types/node": "^22.15.24",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
@@ -36,7 +37,7 @@
   "name": "extracranial",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "build": "bun ready && bun run format && NODE_OPTIONS=\"--max-old-space-size=8192\" docusaurus build",
+    "build": "bun ready && bun run format && NODE_OPTIONS=\"--max-old-space-size=8192\" docusaurus build --no-minify",
     "dev": "docusaurus start -l ko",
     "format": "prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
     "readme": "cp md/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md && printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
