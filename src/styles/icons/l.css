@@ -267,7 +267,7 @@ article a[href*='https://linkedin.com']::before,
 article a[href*='https://www.linkedin.com']::before
 {
   content: '\00a0';
-  mask-image: url('../../../static/icons/linkedin.svg');
+  mask-image: url('../../static/icons/linkedin.svg');
 }
 article a[href*='https://linkerd.io']::before,
 article a[href*='https://www.linkerd.io']::before
