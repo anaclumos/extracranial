@@ -105,21 +105,13 @@ export const KoreaNetherlandsGlobe = () => {
         onTouchMove={(e) => e.touches[0] && handlePointerMove(e.touches[0].clientX, e.touches[0].clientY)}
         onTouchEnd={handlePointerUp}
         className={styles.canvas}
-        style={{
-          width: '100%',
-          height: '100%',
-          cursor: 'grab',
-          contain: 'layout paint size',
-          opacity: 0,
-          transition: 'opacity 1s ease',
-        }}
       />
       <div className={styles.buttonControls}>
-        <button className={styles.button} onClick={() => handleCityClick(37.5665, 126.978)}>
-          Seoul
-        </button>
         <button className={styles.button} onClick={() => handleCityClick(52.3676, 4.9041)}>
-          Amsterdam
+          🇳🇱
+        </button>
+        <button className={styles.button} onClick={() => handleCityClick(37.5665, 126.978)}>
+          🇰🇷
         </button>
       </div>
     </div>
