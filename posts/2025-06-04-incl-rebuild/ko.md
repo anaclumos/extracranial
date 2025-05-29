@@ -1,6 +1,6 @@
 ---
 title: '의료 인공지능을 위한 차세대 MLOps 프론트엔드 🦠'
-date: 2025-05-20
+date: 2025-06-04
 authors: anaclumos
 slug: '/493D6F'
 unlisted: true
