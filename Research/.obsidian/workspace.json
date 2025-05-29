@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c6ca86bc5cc6d00a",
+        "id": "98c11b418360aadd",
         "type": "tabs",
         "children": [
           {
-            "id": "567e6eebf61c188c",
+            "id": "5aacdc823b998d0a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -75,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d353ec8364594c43",
@@ -180,8 +181,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "567e6eebf61c188c",
+  "active": "5aacdc823b998d0a",
   "lastOpenFiles": [
+    "journals/2025-05-29.md",
+    "pages/Coscientist.md",
+    "pages/Python.md",
+    "pages/Undefined Symbol Vtable.md",
+    "pages/TermsGPT.md",
+    "pages/Positional Encoding.md",
     "pages/AutoSCOPE란.md",
     "pages/Sliding Master Master Detail.md",
     "pages/Miller Columns.md",
@@ -212,12 +219,6 @@
     "assets/144759.png",
     "pages/INCL이란.md",
     "journals/2025-05-21.md",
-    "pages/Untitled 1.md",
-    "pages/INCL과 스팟 인스턴스.md",
-    "pages/INCL의 구성.md",
-    "pages/Biome.md",
-    "journals/2025-05-20.md",
-    "pages/INCL.md",
     "assets",
     "journals/_category_.yml",
     "pages/_category_.yml",
