@@ -1,5 +1,6 @@
 {
-  "author": "Sunghyun Cho <hey@cho.sh>",
+  "author": "Sunghyun Cho",
+  "email": "hey@cho.sh",
   "dependencies": {
     "@docusaurus/core": "^3.8.0",
     "@docusaurus/faster": "^3.8.0",
