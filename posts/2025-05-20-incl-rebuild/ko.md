@@ -44,7 +44,7 @@ import { KoreaNetherlandsGlobe } from './korea-netherlands'
 
 <KoreaNetherlandsGlobe lang="ko" />
 
-거리가 잘 상상이 되지 않는다면 위 버튼을 눌러 거리를 직접 가늠해보자. 일부 페이지는 네트워크 요청이 4번 chain되는 경우도 있었는데, 그러면 총 **8번 저 거리를 다녀와야 한다**! 하지만 예로부터 독한 병엔 극약처방이 필요하다고 했었던가? 난세에는 영웅이 등장하는 법이다.
+거리가 잘 상상이 되지 않는다면 위 버튼을 눌러 거리를 직접 가늠해보자. 일부 페이지는 네트워크 요청이 4번 체인되는 경우도 있었는데, 그러면 총 **8번 저 거리를 다녀와야 한다**! 하지만 예로부터 독한 병엔 극약처방이 필요하다고 했었던가? 난세에는 영웅이 등장하는 법이다.
 
 ## Next.js Cache, React Server Components, Partial Prerendering
 
