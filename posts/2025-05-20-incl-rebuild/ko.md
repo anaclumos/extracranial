@@ -223,4 +223,14 @@ import video from './5F8BA9.mp4'
 
 아직 초기여서 새로운 인터페이스에 적응하지 못한 분들도 있고 개선 피드백도 받고 있지만, 이와 같은 사용자 UX를 모든 면에 걸쳐 배려심 많은 인터페이스를 개발했고, 전반적으로 사용자들도 좋아하신다는 점을 확인했다.
 
-<iframe src="https://antiagile.every.news/buttons" width="100%" height="100%" allow="keyboard-events"></iframe>
+<figure>
+
+<iframe src="https://antiagile.vercel.app/buttons" width="100%" height="120px" style={{border: '2px solid var(--ifm-color-gray-200)', borderRadius: '16px', padding: '38px'}} />
+
+<figcaption>
+
+만든 몇 가지 컴포넌트. `iframe`을 사용했기 때문에 키보드 단축키는 위 `iframe`을 한 번 클릭하여 포커스를 줘야지만 동작한다.
+
+</figcaption>
+
+</figure>
