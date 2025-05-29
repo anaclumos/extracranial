@@ -224,7 +224,7 @@ import video from './5F8BA9.mp4'
 
 <figure>
 
-<iframe src="https://antiagile.vercel.app/buttons" width="100%" height="120px" style={{border: '2px solid var(--ifm-color-gray-200)', borderRadius: '16px', padding: '38px'}} />
+<iframe src="https://antiagile.vercel.app/buttons" width="100%" height="120px" style={{border: '2px solid var(--ifm-color-gray-200)', borderRadius: '16px', padding: '36px', backgroundColor: 'var(--ifm-color-gray-0)'}} />
 
 <figcaption>
 
