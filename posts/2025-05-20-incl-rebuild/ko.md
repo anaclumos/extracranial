@@ -46,12 +46,12 @@ import { KoreaNetherlandsGlobe } from './korea-netherlands'
 
 거리가 잘 상상이 되지 않는다면 위 버튼을 눌러 거리를 직접 가늠해보자. 일부 페이지는 네트워크 요청이 4번 체인되는 경우도 있었는데, 그러면 총 **8번 저 거리를 다녀와야 한다**! 
 
-하지만 예로부터 독한 병엔 극약처방이 필요하다고 했었던가? 난세에는 영웅이 등장하는 법이다. 이번에는 pnpm init 부터 다시 했던 관계로, 이 기술 부채를 해결하기 위해 모든 것을 변경할 수 있는 기회였다. 새로운 Next.js와 리액트 기술인 앱 라우터와 리액트 서버 컴포넌트에 맞추어 초장부터 갈아엎을 절호의 기회였고 우리의 네덜란드 이슈를 단박에 해결할 수도 있는 기술적 돌파구일 수 있었다. 때문에 초기 탐색을 하며 어떻게 서버 컴포넌트와 SWR, 그리고 스트리밍 서버 사이드 렌더링 (Streaming SSR)과 부분 프리렌더링(Partial Prerendering)을 쓸 수 있을지 각양각색으로 연구했다.
+하지만 예로부터 독한 병엔 극약처방이 필요하다고 했었던가? 난세에는 영웅이 등장하는 법이다. 이번에는 `pnpm init` 부터 다시 했던 관계로, 이 기술 부채를 해결하기 위해 모든 것을 변경할 수 있는 기회였다. 새로운 Next.js와 리액트 기술인 앱 라우터와 리액트 서버 컴포넌트에 맞추어 초장부터 갈아엎을 절호의 기회였고 우리의 네덜란드 이슈를 단박에 해결할 수도 있는 기술적 돌파구일 수 있었다. 때문에 초기 탐색을 하며 어떻게 서버 컴포넌트와 SWR, 그리고 스트리밍 서버 사이드 렌더링 (Streaming SSR)과 부분 프리렌더링(Partial Prerendering)을 쓸 수 있을지 각양각색으로 연구했다.
 
 <details>
 <summary>
 
-Client Side Fetching
+클라이언트 페칭
 
 </summary>
 
@@ -62,21 +62,21 @@ Client Side Fetching
 
 ```mermaid
 sequenceDiagram
-    title Client Side Fetching
+    title 클라이언트 페칭
     autonumber
-    actor Client
-    participant Server
+    actor 클라이언트
+    participant 서버
     participant API
     participant API2
 
-    Client->>Server: GET example.com
-    Server-->>Client: HTML
-    Note over Client: JS executes (spinner)
-    Client->>API: fetch()
-    API-->>Client: fresh data
-    Client->>API2: fetch()
-    API2-->>Client: fresh data
-    Client-->>Client: render UI
+    클라이언트->>서버: incl.lunit.io 요청
+    서버->>클라이언트: HTML
+    Note over 클라이언트: JS 실행 (스피너)
+    클라이언트->>API: 페치
+    API->>클라이언트: 신규 데이터
+    클라이언트->>API2: 페치
+    API2->>클라이언트: 신규 데이터
+    클라이언트->>클라이언트: UI 렌더
 ```
 
 </details>
@@ -84,7 +84,7 @@ sequenceDiagram
 <details>
 <summary>
 
-리액트 서버 컴포넌트 (스트리밍 서버사이드 렌더링 및 부분 프리렌더링)
+부분 프리렌더링 (리액트 서버 컴포넌트의 최신 패러다임)
 
 </summary>
 
@@ -95,27 +95,27 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    title Partial Pre-Rendering
+    title 부분 프리렌더링
     autonumber
-    actor Client
-    participant Edge
-    participant Server
+    actor 클라이언트
+    participant 엣지
+    participant 서버
     participant API
     participant API2 as "API 2"
 
     %% build / ISR revalidate cycle
     loop ISR
-        Server->>API: fetch()
-        API-->>Server: data
-        Server->>API2: fetch()
-        API2-->>Server: data
-        Server-->>Edge: Static HTML
+        서버->>API: 페치
+        API->>서버: 데이터
+        서버->>API2: 페치
+        API2->>서버: 데이터
+        서버->>엣지: 정적 HTML
     end
 
     %% request-time
-    Client->>Edge: GET example.com
-    Edge-->>Client: Static HTML
-    Client-->>Client: progressive render
+    클라이언트->>엣지: incl.lunit.io 요청
+    엣지->>클라이언트: 정적 HTML
+    서버->>클라이언트: 점진적 스트리밍 렌더
 ```
 
 
@@ -127,27 +127,27 @@ sequenceDiagram
 sequenceDiagram
     title Hybrid
     autonumber
-    actor Client
-    participant Edge
-    participant Server as Next 서버 컴포넌트
+    actor 클라이언트
+    participant 엣지
+    participant 서버 as Next 서버 컴포넌트
     participant API
 
-    %% revalidate
-    loop revalidate
-        Server->>API: fetch()
-        API-->>Server: data
-        Server-->>Edge: cache update
+    %% 갱신
+    loop 갱신
+        서버->>API: 페치
+        API->>서버: 데이터
+        서버->>엣지: 캐시 업데이트
     end
 
     %% request-time flow
-    Client->>Edge: GET example.com
-    Edge-->>Client: Stream HTML + cached seed data
-    Note over Client: SWR fallback seeded
+    클라이언트->>엣지: incl.lunit.io 요청
+    엣지->>클라이언트: HTML 스트리밍 + 초기 데이터 캐싱
+    Note over 클라이언트: SWR 폴백 캐시 설정
 
-    %% client-side live update
-    Client-->>API: SWR revalidate fetch
-    API-->>Client: fresh data
-    Client-->>Client: UI update
+    %% 클라이언트-side 라이브 업데이트
+    클라이언트->>API: SWR 갱신 페치
+    API->>클라이언트: 신규 데이터
+    클라이언트->>클라이언트: UI 업데이트
 ```
 
 
@@ -332,7 +332,7 @@ SWR만으로 상태관리를 한다는 것은, 하나의 기능을 위한 하나
 
 ## 힘과 책임
 
-나는 인간의 능력에 대한 불신이 있기에 (즉, 모든 사람은 결국 게을러진다) 그 전에 자율 운영 능력, 자정 작용을 갖춘 플랫폼을 구축하는 것이 중요하다고 생각하고, 그래서 자동화된 사용자 데이터 수집, 자동화된 테스팅 및 CI/CD 등을 갖추는 것을 선호하는 편이다. 즉 나는 인간이 꼼꼼하지 못하고 실수를 하더라도 안전할 수 있는 에어백, 또는 가드레일을 만드는 것이 중요하다고 생각한다. 하지만, 우리 팀은 인간의 능력과 성실함을 믿고 인간의 꼼꼼함에 기대는 성향이 강하다. 그래서 자동화된 사용자 데이터 수집보다는 1대1 유저 인터뷰를, 자동화된 테스팅보다는 개발자의 꼼꼼한 QA를 선호한다. 또한 나는 소소한 장점이 있는 개발자 툴링 도구를 우선 써보고 버릴지 결정하는 반면 우리 팀에서는 완전히 패러다임이 넘어가기 전까지는 그 도구를 쓰지 않는 편이었다. 그래서 Biome.js, Turborepo 같은 추가 개발자 편의 도구들을 도입해보지 못했다.
+나는 인간의 능력에 대한 불신이 있기에 (즉, 모든 사람은 결국 게을러진다) 그 전에 자율 운영 능력, 자정 작용을 갖춘 플랫폼을 구축하는 것이 중요하다고 생각하고, 그래서 자동화된 사용자 데이터 수집, 자동화된 테스팅 및 CI/CD 등을 갖추는 것을 선호하는 편이다. 즉 나는 인간이 꼼꼼하지 못하고 실수를 하더라도 안전할 수 있는 에어백, 또는 가드레일을 만드는 것이 중요하다고 생각한다. 하지만, 우리 팀은 인간의 능력과 성실함을 믿고 인간의 꼼꼼함에 기대는 성향이 강하다. 그래서 자동화된 사용자 데이터 수집보다는 1대1 유저 인터뷰를, 자동화된 테스팅보다는 개발자의 꼼꼼한 QA를 선호한다. 또한 나는 소소한 장점이 있는 개발자 툴링 도구를 우선 써보고 버릴지 결정하는 반면 우리 팀에서는 완전히 패러다임이 넘어가기 전까지는 그 도구를 쓰지 않는 편이었다. 그래서 Bun, Biome.js, Turborepo 같은 추가 개발자 편의 도구들을 도입해보지 못했다.
 
 즉, 나는 빨리 부닥쳐보고 빨리 실패하는 것을 선호하는 반면, 팀은 조금 더 신중한 접근을 취하는 편이다. 두 의사 결정 방식 일장일단이 있는 방식이지만, 나로서는 유저 데이터를 못 얻고, 매번 꼼꼼한 테스팅이 강제되는 꼴이었기에 결정권도 없어서 나한테 전권이 없었는데, 모든 책임은 나에게 있었기에 매우 어려운 작업이었다. 가령, 이번 리빌드를 하면서 유저 사용량 데이터가 있었다면, 유저들이 가장 많이 쓰는 기능만 우선적으로 만들어 출시하고 사용하지 않는 기능은 가차없이 End Of Life을 때렸을 것이다. 하지만 팀은 과거에 1대1 인터뷰에 요청된 적이 있었다는 근거로 모든 기능의 1대1 기능 동등성을 원했고, 결국 실제로는 잘 사용되지 않을 법한데 고난이도인 개발들도 제외없이 진행해야만 했다. 
 
@@ -361,12 +361,12 @@ SWR만으로 상태관리를 한다는 것은, 하나의 기능을 위한 하나
 
 ## 우리는 채용 중
 
-우리 팀에서 나와 직접 일할 분을 채용 중이다. 가장 뛰어난 MLOps 플랫폼을 발전시키고, Agent를 접목시켜서 ML의 Cursor를 만들 사람을 찾고 있다. 이를 위해서는 백엔드, 프론트엔드, 인프라, AI 생태계 전반에 걸친 이해가 필요하다. 
+우리 팀에서 나와 직접 일할 분을 채용 중이다. 가장 뛰어난 MLOps 플랫폼을 발전시키고, Agent를 접목시켜서 ML계의 Cursor를 만들 사람을 찾고 있다. 이를 위해서는 백엔드, 프론트엔드, 인프라, AI 생태계 전반에 걸친 이해가 필요하다. 
 
 하나의 예를 들자면, 나는 최근에 **LLM 트레이닝을 위한 유저 GPU의 백엔드 연동 작업**을 하는 중이다. 클라우드 트레이닝의 편리함과, 유저 개인이 보유한 GPU의 강력함을 결합하는 작업이다. [GitHub Action의 Self-hosted Runner](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners)와 비슷하다.
 
-만약 자신이 플랫폼에 대한 전반적으로 이해하고 있는 엔지니어라면, 아래 채용 공고에 무작정 지원을 해보자. 이 글이 당신의 눈길을 끌어 글을 눌렀다는 것은 우선 당신은 개발 생태계에 대한 애착이 있는 사람이라는 것이다. 그러면 벌써 반은 합격이다.
+만약 자신이 플랫폼에 대한 전반적으로 이해하고 있는 엔지니어라면, 그리고 **ML계의 Cursor를 만드는 꿈**에 함께하고 싶은 사람이라면, 아래 채용 공고에 무작정 지원을 해보자. 이 글이 당신의 눈길을 끌어 글을 눌렀다는 것은 우선 당신은 개발 생태계에 대한 애착이 있는 사람이라는 것이다. 그러면 벌써 반은 합격이다.
 
 - [시니어](https://wrkbl.ink/aw1ZHsB)
 - [주니어](https://wrkbl.ink/6YGf3CJ)
-- 키워드 (비슷한 것을 할 수 있으면 가능): React, Next.js, Django, Django REST Framework, MySQL, PostgreSQL, Redis, Celery, Nginx, PyTorch, Optuna, Google Cloud Platform, Kubernetes, Docker Compose
+
