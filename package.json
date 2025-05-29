@@ -2,7 +2,6 @@
   "author": "Sunghyun Cho",
   "email": "hey@cho.sh",
   "dependencies": {
-    "@docusaurus/core": "^3.8.0",
     "@docusaurus/faster": "^3.8.0",
     "@docusaurus/plugin-vercel-analytics": "^3.8.0",
     "@docusaurus/preset-classic": "^3.8.0",
@@ -14,7 +13,6 @@
     "@radix-ui/react-slot": "^1.2.3",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
-    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
     "lucide-react": "^0.511.0",
@@ -23,13 +21,9 @@
     "react-player": "^2.16.0",
     "react-spring": "^10.0.1",
     "rehype-katex": "^7.0.1",
-    "remark-math": "^6.0.0",
-    "tailwind-merge": "^3.3.0",
-    "vaul": "^1.1.2"
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.8.0",
-    "@docusaurus/theme-classic": "^3.8.0",
     "@docusaurus/tsconfig": "^3.8.0",
     "@types/node": "^22.15.24",
     "@types/react": "^19.1.6",
@@ -50,6 +44,7 @@
   },
   "trustedDependencies": [
     "@swc/core",
+    "@vercel/speed-insights",
     "core-js",
     "core-js-pure"
   ],
