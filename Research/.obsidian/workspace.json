@@ -11,10 +11,24 @@
             "id": "8675e48c733a2250",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2025-06-03.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-06-03"
             }
           }
         ]
@@ -183,8 +197,11 @@
   },
   "active": "8675e48c733a2250",
   "lastOpenFiles": [
-    "templates/displayflex template.md",
+    "pages/Subroutine.md",
+    "journals/2025-06-03.md",
+    "pages/Coroutine.md",
     "journals/2025-05-29.md",
+    "templates/displayflex template.md",
     "pages/Coscientist.md",
     "pages/Python.md",
     "pages/Undefined Symbol Vtable.md",
@@ -207,8 +224,6 @@
     "pages/service diagram generator.md",
     "pages/Oneday.md",
     "pages/Absolute Mode.md",
-    "journals/2025-05-22.md",
-    "journals/2025-05-23.md",
     "assets/145219.png",
     "assets/144918.png",
     "assets/144909.png",
@@ -218,7 +233,6 @@
     "assets/144844.png",
     "assets/144804.png",
     "assets/144759.png",
-    "pages/INCL이란.md",
     "assets",
     "journals/_category_.yml",
     "pages/_category_.yml",
