@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a207952e4425e2d0",
+        "id": "e4982480d1d0a78c",
         "type": "tabs",
         "children": [
           {
-            "id": "8675e48c733a2250",
+            "id": "b85969d9195684bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-06-03.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-06-03"
+              "title": "New tab"
             }
           }
         ]
@@ -195,10 +181,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8675e48c733a2250",
+  "active": "b85969d9195684bd",
   "lastOpenFiles": [
-    "pages/Subroutine.md",
+    "pages/Absolute Mode.md",
     "journals/2025-06-03.md",
+    "pages/Subroutine.md",
     "pages/Coroutine.md",
     "journals/2025-05-29.md",
     "templates/displayflex template.md",
@@ -223,7 +210,6 @@
     "pages/Someday.md",
     "pages/service diagram generator.md",
     "pages/Oneday.md",
-    "pages/Absolute Mode.md",
     "assets/145219.png",
     "assets/144918.png",
     "assets/144909.png",

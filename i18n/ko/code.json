@@ -157,7 +157,7 @@
     "description": "The name for the light color mode"
   },
   "theme.common.editThisPage": {
-    "message": "편집 또는 최종 수정 시간 확인",
+    "message": "편집",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
