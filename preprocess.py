@@ -295,7 +295,7 @@ def _context(txt: str, needle: str, keep: int = 6) -> str:
         return (
             ("... " + pre if pre_raw != pre else pre)
             + tag
-            + (" " + post + "..." if post_raw != post else post)
+            + (post + " ..." if post_raw != post else post)
         )
     return ""
 
@@ -380,8 +380,8 @@ def main() -> None:
 
     sanitise_md(research)
     process_blog(posts_src, blog_en, blog_ko, cfg)
+    build_backlinks(research, out_ts)
     process_docs(research, docs)
-    build_backlinks(docs, out_ts)
     fix_img_alt(docs)
     if args.clean:
         cleanup_assets(assets, research)
