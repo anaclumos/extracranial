@@ -4,20 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "e4982480d1d0a78c",
+        "id": "56434ec7d3cf5854",
         "type": "tabs",
         "children": [
           {
-            "id": "b85969d9195684bd",
+            "id": "6d59b5e28e9bedc6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2025-06-04.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-06-04"
+            }
+          },
+          {
+            "id": "90a7a1aeb64ae5d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/SQL Nuke.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Nuke"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,8 +220,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b85969d9195684bd",
+  "active": "90a7a1aeb64ae5d4",
   "lastOpenFiles": [
+    "pages/SQL Nuke.md",
     "journals/2025-06-04.md",
     "Welcome.md",
     "pages/Absolute Mode.md",
@@ -209,7 +249,6 @@
     "pages/Harding (Font).md",
     "pages/SCOPE란.md",
     "journals/2025-05-25.md",
-    "pages/Someday.md",
     "assets/145219.png",
     "assets/144918.png",
     "assets/144909.png",
