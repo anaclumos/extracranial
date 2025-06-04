@@ -11,10 +11,24 @@
             "id": "b85969d9195684bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2025-06-04.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-06-04"
             }
           }
         ]
@@ -183,6 +197,8 @@
   },
   "active": "b85969d9195684bd",
   "lastOpenFiles": [
+    "Welcome.md",
+    "journals/2025-06-04.md",
     "pages/Absolute Mode.md",
     "journals/2025-06-03.md",
     "pages/Subroutine.md",
@@ -208,8 +224,6 @@
     "pages/SCOPE란.md",
     "journals/2025-05-25.md",
     "pages/Someday.md",
-    "pages/service diagram generator.md",
-    "pages/Oneday.md",
     "assets/145219.png",
     "assets/144918.png",
     "assets/144909.png",
