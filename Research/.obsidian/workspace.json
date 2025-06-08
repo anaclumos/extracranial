@@ -11,10 +11,24 @@
             "id": "b85969d9195684bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2025-06-08.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-06-08"
             }
           }
         ]
@@ -183,6 +197,8 @@
   },
   "active": "b85969d9195684bd",
   "lastOpenFiles": [
+    "pages/Untitled 1.md",
+    "journals/2025-06-08.md",
     "journals/2025-06-04.md",
     "Welcome.md",
     "pages/Absolute Mode.md",
@@ -208,8 +224,6 @@
     "journals/2025-05-27.md",
     "pages/Harding (Font).md",
     "pages/SCOPE란.md",
-    "journals/2025-05-25.md",
-    "pages/Someday.md",
     "assets/145219.png",
     "assets/144918.png",
     "assets/144909.png",
