@@ -3,10 +3,10 @@
   "email": "hey@cho.sh",
   "dependencies": {
     "@docusaurus/core": "3.8.1",
-    "@docusaurus/faster": "^3.8.0",
-    "@docusaurus/plugin-vercel-analytics": "^3.8.0",
+    "@docusaurus/faster": "^3.8.1",
+    "@docusaurus/plugin-vercel-analytics": "^3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
-    "@docusaurus/theme-mermaid": "^3.8.0",
+    "@docusaurus/theme-mermaid": "^3.8.1",
     "@giscus/react": "^3.1.0",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-label": "^2.1.7",
@@ -15,7 +15,7 @@
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.1.1",
-    "cobe": "^0.6.3",
+    "cobe": "^0.6.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-player": "^2.16.0",
@@ -24,10 +24,10 @@
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
-    "@docusaurus/tsconfig": "^3.8.0",
-    "@types/node": "^22.15.24",
+    "@docusaurus/tsconfig": "^3.8.1",
+    "@types/node": "^22.15.30",
     "@types/react": "^19.1.6",
-    "@types/react-dom": "^19.1.5",
+    "@types/react-dom": "^19.1.6",
     "prettier": "^3.5.3"
   },
   "license": "MIT",
@@ -49,5 +49,5 @@
     "core-js-pure"
   ],
   "version": "1.0.0",
-  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"
+  "packageManager": "pnpm@10.11.1"
 }
