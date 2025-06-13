@@ -1,7 +1,6 @@
 export const filenames = {
     "Welcome": "/000000",
     "newsletter template": "/0C388A",
-    "project template": "/B997D3",
     "note template": "{{hex}}",
     "journal template": "/{{title}}",
     "person template": "/{{title}}",
