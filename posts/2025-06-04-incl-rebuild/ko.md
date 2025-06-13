@@ -162,8 +162,23 @@ sequenceDiagram
 
 - 👍 데이터 페칭 자체를 개선 (최초로 보이는 데이터는 캐시되어 있음)
 - 👍 Client-side SWR로 최신 정보로 몇 초 뒤 업데이트됨
+- 👍 Client-side SWR로, 화면을 새로고침하지 않아도 화면이 자동으로 업데이트됨
 - 👍 개인화된 정보가 많은 앱에도 적합
 - 👎 번들 사이즈가 상대적으로 커짐
+
+import videoF70351 from './F70351.mp4'
+
+<figure>
+
+<ReactPlayer playing controls loop muted url={videoF70351} width='100%' height='100%'/>
+
+<figcaption>
+
+화면을 새로고침하지 않아도 최신 데이터로 자동으로 업데이트된다. 실험 결과를 지속적으로 모니터링하는 연구자 분들의 삶의 질을 가장 높여준 기능이다!
+
+</figcaption>
+
+</figure>
 
 `isLoading`을 의도적으로 꺼주는 방식으로 제어한 이유는, 로딩 상태 제어를 SWR의 `isLoading`으로 일원화하고 싶었는데, SWR의 `isLoading`은 폴백 데이터가 있어도 최초 로딩에는 항상 참이기 때문에 서버에서 온 씨드 데이터가 있어도 로딩 화면이 보였기 때문이다. 현재는 여기서 더 발전한 패턴들이 존재하는데, 가장 대표적으로 Server에서 시작된 데이터로딩 프리페치 Promise를 클라이언트로 내려준 뒤 use 훅을 이용해 소비(consume)하는 방식이 있다. 다만 이 또한 서버 사이드 데이터 페칭이 오래 걸린다면 여전히 여러 방면으로 캐싱에 대한 고민을 해야한다.
 
@@ -209,11 +224,11 @@ sequenceDiagram
 
 얼핏 보면 단순해보이지만 App Router의 Nested Layout 없이는 정말로 골치 아프다. 결국 Blitz.js 및 FlightControl.dev의 Brandon Bayer님의 [메시지](https://x.com/flybayer/status/1818009089735279057)를 통해 큰 도움을 얻었는데, 바로 `layout.tsx`에 콘텐츠를 넣고, `page.tsx`를 의도적으로 비워놓는 것이다.
 
-import video from './5F8BA9.mp4'
+import video5F8BA9 from './5F8BA9.mp4'
 
 <figure>
 
-<ReactPlayer playing controls loop muted url={video} width='100%' height='100%'/>
+<ReactPlayer playing controls loop muted url={video5F8BA9} width='100%' height='100%'/>
 
 <figcaption>
 
@@ -370,3 +385,21 @@ SWR만으로 상태관리를 한다는 것은, 하나의 기능을 위한 하나
 이 맥락으로... 우리 팀에서 **나와 직접 일할 분**을 채용 중이다. 가장 뛰어난 MLOps 플랫폼을 발전시키고, Agent를 접목시켜서 ML계의 Cursor를 만들 사람을 찾고 있다. 이를 위해서는 백엔드, 프론트엔드, 인프라, AI 생태계 전반에 걸친 이해가 필요하다. 하나의 예를 들자면, 나는 최근에 LLM 트레이닝을 위한 유저 GPU의 백엔드 연동 작업을 하는 중이다. 클라우드 트레이닝의 편리함과, 유저 개인이 보유한 GPU의 강력함을 결합하는 작업이다. GitHub Action의 Self-hosted Runner와 비슷하다.
 
 만약 자신이 **플랫폼에 대한 전반적으로 이해하고 있는 엔지니어라면** 그리고 **ML의 Cursor를 만드는 꿈**에 함께하고 싶은 사람이라면 채용 공고에 **무작정** 지원을 해보자. 이렇게 이야기할 수 있는 이유는 나 역시 루닛에 무작정 지원했고 그 _두드리면 열릴 것이다!_ 라는 마음가짐이 나를 여기까지 데려왔기 때문이다.
+
+<details>
+
+<summary>🏋️ 임팩트</summary>
+
+### 업무 효율 증가 및 재정적 영향
+
+- 사용자 1인당 하루 평균 절약 시간: 약 8.45분
+- 월간 총 절약 시간(30명 기준): 약 10.5일
+- [AI 직군 평균 연봉 1억원](https://biz.heraldcorp.com/article/3355824#:~:text=AI%20%EB%93%B1%20%EA%B0%9C%EB%B0%9C%20%EC%A7%81%EA%B5%B0%EC%9D%98%20%EC%97%B0%EB%B4%89%EC%9D%80%201%EC%96%B5100%EB%A7%8C%EC%9B%90)으로 계산할 시 **연간 2억 원 이상의 비용 절감 효과**
+
+### 새로운 INCL의 사용자 만족도
+
+- 기존 INCL 평균 만족도: 7.14 / 10
+- 새로운 INCL 평균 만족도: 8.48 / 10
+- 생산성 향상 경험: 사용자의 84%가 생산성 증가를 느낌
+
+</details>
