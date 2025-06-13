@@ -22,4 +22,3 @@ nix-shell -p nodejs pnpm --run '
 ```
 
 yuck
-
