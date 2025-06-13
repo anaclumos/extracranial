@@ -2,8 +2,8 @@ import React, { JSX } from 'react'
 import Link from '@docusaurus/Link'
 import styles from './styles.module.css'
 
-import { backlinks } from '@site/src/data/backlinks'
-import { filenames } from '@site/src/data/filenames'
+import backlinks from '@site/src/data/backlinks.json'
+import filenames from '@site/src/data/filenames.json'
 import { translate } from '@docusaurus/Translate'
 
 type Props = {
@@ -70,13 +70,13 @@ const Backlink = (props: Props) => {
 
   return (
     <div className={styles.backlinkTable}>
-      <h2 className={styles.backlinkTableH2}>
+      <h3 className={styles.backlinkTableH2}>
         {translate({
           id: 'backlink.title',
           message: 'Links to This Note',
           description: 'The title of the backlink section',
         })}
-      </h2>
+      </h3>
       <div className={styles.backlinkGridView}>
         {(backlinkItems &&
           Object.keys(backlinkItems)
