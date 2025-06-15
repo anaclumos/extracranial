@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-06-15.md",
+                "file": "journals/2025-05-27.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-15"
+              "title": "2025-05-27"
             }
           }
         ]
@@ -197,32 +197,33 @@
   },
   "active": "69f7213831b50bb7",
   "lastOpenFiles": [
-    "assets/A5C933.png",
+    "pages/NixOS.md",
+    "journals/2025-05-27.md",
+    "journals/2025-05-28.md",
+    "journals/2025-05-29.md",
+    "journals/2025-06-03.md",
+    "journals/2025-06-08.md",
+    "journals/2025-06-09.md",
+    "journals/2025-06-10.md",
+    "journals/2025-06-13.md",
     "journals/2025-06-15.md",
+    "assets/A5C933.png",
     "pages/Project Linguine.md",
     "pages/기술낙관론자 선언문.md",
     "pages/Privacy Manifest.md",
     "pages/Everynews Manifesto.md",
-    "journals/2025-06-09.md",
-    "journals/2025-06-13.md",
     "pages/INCL.md",
-    "journals/2025-06-10.md",
     "pages/Harding (Font).md",
     "pages/Running Prisma on NixOS.md",
-    "journals/2025-06-08.md",
     "pages/Untitled 1.md",
     "journals/2025-06-04.md",
     "Welcome.md",
     "pages/Absolute Mode.md",
-    "journals/2025-06-03.md",
     "pages/Subroutine.md",
     "pages/Coroutine.md",
-    "journals/2025-05-29.md",
     "templates/displayflex template.md",
     "pages/Coscientist.md",
     "pages/Python.md",
-    "pages/Undefined Symbol Vtable.md",
-    "pages/TermsGPT.md",
     "assets/4D948E.png",
     "assets/145219.png",
     "assets/144918.png",
