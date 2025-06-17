@@ -4,7 +4,6 @@
   "type": "module",
   "dependencies": {
     "@docusaurus/core": "3.8.1",
-    "@docusaurus/faster": "^3.8.1",
     "@docusaurus/plugin-content-blog": "^3.8.1",
     "@docusaurus/plugin-content-docs": "^3.8.1",
     "@docusaurus/plugin-vercel-analytics": "^3.8.1",
@@ -34,7 +33,6 @@
     "@types/node": "^24.0.3",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "prettier": "^3.5.3",
     "typescript": "^5.8.3"
   },
   "license": "MIT",
@@ -43,7 +41,7 @@
   "scripts": {
     "build": " pnpm ready &&  pnpm run format && NODE_OPTIONS=\"--max-old-space-size=15872\" docusaurus build",
     "dev": "docusaurus start -l ko",
-    "format": "prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
+    "format": "pnpm dlx prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
     "readme": "cp md/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md && printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
     "ready": "pnpm dlx tsx preprocess.ts",
     "save": " pnpm ready &&  pnpm run readme &&  pnpm run format && git add . && git commit -m 'wrote something' && git push",

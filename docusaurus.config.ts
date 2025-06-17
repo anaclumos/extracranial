@@ -28,10 +28,10 @@ const config: Config = {
   i18n,
   baseUrlIssueBanner: false,
 
-  future: {
-    v4: true,
-    experimental_faster: true,
-  },
+  // future: {
+  // v4: true,
+  // experimental_faster: true,
+  // },
 
   markdown: {
     format: 'mdx',
