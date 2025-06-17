@@ -22,7 +22,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Tue Jun 17 01:15:03 PM KST 2025
+Tue Jun 17 01:20:03 PM KST 2025
 
 ## Stats
 
@@ -32,8 +32,8 @@ Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
 Markdown                  2936     74675    20043         0    54632          0
 CSS                         50     16035      713        13    15309          0
-TypeScript                  46      2383      188        35     2160        116
-JSON                        29     22335        0         0    22335          0
+TypeScript                  46      2383      188        39     2156        116
+JSON                        29     22333        0         0    22333          0
 SVG                          9         9        0         0        9          0
 YAML                         6        28        0         0       28          0
 MDX                          2        48       20         0       28          0
@@ -42,12 +42,12 @@ JavaScript                   1         6        0         0        6          0
 Plain Text                   1         3        0         0        3          0
 TOML                         1         7        0         0        7          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     3083    115541    20964        52    94525        116
+Total                     3083    115539    20964        56    94519        116
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,205,673
+Estimated Cost to Develop (organic) $3,205,460
 Estimated Schedule Effort (organic) 21.41 months
 Estimated People Required (organic) 13.30
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5547491 bytes, 5.547 megabytes (SI)
+Processed 5547446 bytes, 5.547 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 ```
