@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11ab6e2cb37abcf4",
+        "id": "23cd5dca077fdb84",
         "type": "tabs",
         "children": [
           {
-            "id": "148246f596046ad2",
+            "id": "4ea377215590c62d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,10 +181,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "148246f596046ad2",
+  "active": "4ea377215590c62d",
   "lastOpenFiles": [
-    "pages/Sukyong Hong Interview.md",
+    "journals/2025-06-17.md",
+    "pages/Democratools.md",
     "journals/2025-06-16.md",
+    "pages/Sukyong Hong Interview.md",
     "pages/Absolute Mode.md",
     "journals/2025-05-27.md",
     "pages/NixOS.md",
@@ -208,8 +210,6 @@
     "journals/2025-06-04.md",
     "Welcome.md",
     "pages/Subroutine.md",
-    "pages/Coroutine.md",
-    "templates/displayflex template.md",
     "assets/4D948E.png",
     "assets/145219.png",
     "assets/144918.png",
