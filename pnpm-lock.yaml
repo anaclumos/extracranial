@@ -8,8 +8,11 @@ importers:
   .:
     dependencies:
       '@docusaurus/core':
-        specifier: 3.8.1
+        specifier: ^3.8.1
         version: 3.8.1(@docusaurus/faster@3.8.1(@docusaurus/types@3.8.1(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)))(@mdx-js/react@3.1.0(@types/react@19.1.8)(react@19.1.0))(@rspack/core@1.3.15)(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+      '@docusaurus/faster':
+        specifier: ^3.8.1
+        version: 3.8.1(@docusaurus/types@3.8.1(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       '@docusaurus/plugin-content-blog':
         specifier: ^3.8.1
         version: 3.8.1(@docusaurus/faster@3.8.1(@docusaurus/types@3.8.1(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)))(@docusaurus/plugin-content-docs@3.8.1(@docusaurus/faster@3.8.1(@docusaurus/types@3.8.1(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)))(@mdx-js/react@3.1.0(@types/react@19.1.8)(react@19.1.0))(@rspack/core@1.3.15)(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3))(@mdx-js/react@3.1.0(@types/react@19.1.8)(react@19.1.0))(@rspack/core@1.3.15)(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
@@ -20,7 +23,7 @@ importers:
         specifier: ^3.8.1
         version: 3.8.1(@docusaurus/faster@3.8.1(@docusaurus/types@3.8.1(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)))(@mdx-js/react@3.1.0(@types/react@19.1.8)(react@19.1.0))(@rspack/core@1.3.15)(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@docusaurus/preset-classic':
-        specifier: 3.8.1
+        specifier: ^3.8.1
         version: 3.8.1(@algolia/client-search@5.27.0)(@docusaurus/faster@3.8.1(@docusaurus/types@3.8.1(@swc/core@1.12.1)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)))(@mdx-js/react@3.1.0(@types/react@19.1.8)(react@19.1.0))(@rspack/core@1.3.15)(@swc/core@1.12.1)(@types/react@19.1.8)(acorn@8.15.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(search-insights@2.17.3)(typescript@5.8.3)
       '@docusaurus/theme-common':
         specifier: ^3.8.1
@@ -87,7 +90,7 @@ importers:
         specifier: ^24.0.3
         version: 24.0.3
       '@types/react':
-        specifier: ^19.1.8
+        specifier: ^19.1.6
         version: 19.1.8
       '@types/react-dom':
         specifier: ^19.1.6
@@ -9797,7 +9800,6 @@ snapshots:
       - esbuild
       - uglify-js
       - webpack-cli
-    optional: true
 
   '@docusaurus/logger@3.8.1':
     dependencies:
@@ -10678,36 +10680,30 @@ snapshots:
     dependencies:
       langium: 3.3.1
 
-  '@module-federation/error-codes@0.14.3':
-    optional: true
+  '@module-federation/error-codes@0.14.3': {}
 
   '@module-federation/runtime-core@0.14.3':
     dependencies:
       '@module-federation/error-codes': 0.14.3
       '@module-federation/sdk': 0.14.3
-    optional: true
 
   '@module-federation/runtime-tools@0.14.3':
     dependencies:
       '@module-federation/runtime': 0.14.3
       '@module-federation/webpack-bundler-runtime': 0.14.3
-    optional: true
 
   '@module-federation/runtime@0.14.3':
     dependencies:
       '@module-federation/error-codes': 0.14.3
       '@module-federation/runtime-core': 0.14.3
       '@module-federation/sdk': 0.14.3
-    optional: true
 
-  '@module-federation/sdk@0.14.3':
-    optional: true
+  '@module-federation/sdk@0.14.3': {}
 
   '@module-federation/webpack-bundler-runtime@0.14.3':
     dependencies:
       '@module-federation/runtime': 0.14.3
       '@module-federation/sdk': 0.14.3
-    optional: true
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -11147,17 +11143,14 @@ snapshots:
       '@rspack/binding-win32-arm64-msvc': 1.3.15
       '@rspack/binding-win32-ia32-msvc': 1.3.15
       '@rspack/binding-win32-x64-msvc': 1.3.15
-    optional: true
 
   '@rspack/core@1.3.15':
     dependencies:
       '@module-federation/runtime-tools': 0.14.3
       '@rspack/binding': 1.3.15
       '@rspack/lite-tapable': 1.0.1
-    optional: true
 
-  '@rspack/lite-tapable@1.0.1':
-    optional: true
+  '@rspack/lite-tapable@1.0.1': {}
 
   '@sideway/address@4.1.5':
     dependencies:
@@ -11335,10 +11328,8 @@ snapshots:
       '@swc/core-win32-arm64-msvc': 1.12.1
       '@swc/core-win32-ia32-msvc': 1.12.1
       '@swc/core-win32-x64-msvc': 1.12.1
-    optional: true
 
-  '@swc/counter@0.1.3':
-    optional: true
+  '@swc/counter@0.1.3': {}
 
   '@swc/html-darwin-arm64@1.12.1':
     optional: true
@@ -11384,12 +11375,10 @@ snapshots:
       '@swc/html-win32-arm64-msvc': 1.12.1
       '@swc/html-win32-ia32-msvc': 1.12.1
       '@swc/html-win32-x64-msvc': 1.12.1
-    optional: true
 
   '@swc/types@0.1.23':
     dependencies:
       '@swc/counter': 0.1.3
-    optional: true
 
   '@szmarczak/http-timer@5.0.1':
     dependencies:
@@ -12856,8 +12845,7 @@ snapshots:
 
   destroy@1.2.0: {}
 
-  detect-libc@2.0.4:
-    optional: true
+  detect-libc@2.0.4: {}
 
   detect-node-es@1.1.0: {}
 
@@ -14038,7 +14026,6 @@ snapshots:
       lightningcss-linux-x64-musl: 1.30.1
       lightningcss-win32-arm64-msvc: 1.30.1
       lightningcss-win32-x64-msvc: 1.30.1
-    optional: true
 
   lilconfig@3.1.3: {}
 
@@ -16511,7 +16498,6 @@ snapshots:
       '@swc/core': 1.12.1
       '@swc/counter': 0.1.3
       webpack: 5.99.9(@swc/core@1.12.1)
-    optional: true
 
   tapable@2.2.2: {}
 
