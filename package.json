@@ -1,13 +1,13 @@
 {
   "author": "Sunghyun Cho",
   "email": "hey@cho.sh",
-  "type": "module",
   "dependencies": {
-    "@docusaurus/core": "3.8.1",
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/faster": "^3.8.1",
     "@docusaurus/plugin-content-blog": "^3.8.1",
     "@docusaurus/plugin-content-docs": "^3.8.1",
     "@docusaurus/plugin-vercel-analytics": "^3.8.1",
-    "@docusaurus/preset-classic": "3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
     "@docusaurus/theme-common": "^3.8.1",
     "@docusaurus/theme-mermaid": "^3.8.1",
     "@giscus/react": "^3.1.0",
@@ -30,8 +30,8 @@
     "@docusaurus/module-type-aliases": "^3.8.1",
     "@docusaurus/tsconfig": "^3.8.1",
     "@docusaurus/types": "^3.8.1",
-    "@types/node": "^24.0.3",
-    "@types/react": "^19.1.8",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.6",
     "typescript": "^5.8.3"
   },
@@ -39,12 +39,12 @@
   "name": "extracranial",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "build": " pnpm ready &&  pnpm run format && NODE_OPTIONS=\"--max-old-space-size=15872\" docusaurus build",
+    "build": " bun ready &&  bun run format && docusaurus build",
     "dev": "docusaurus start -l ko",
-    "format": "pnpm dlx prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
+    "format": "bunx prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
     "readme": "cp md/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md && printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
-    "ready": "pnpm dlx tsx preprocess.ts",
-    "save": " pnpm ready &&  pnpm run readme &&  pnpm run format && git add . && git commit -m 'wrote something' && git push",
+    "ready": "bun preprocess.ts",
+    "save": " bun ready &&  bun run readme &&  bun run format && git add . && git commit -m 'wrote something' && git push",
     "start": "docusaurus serve"
   },
   "trustedDependencies": [
