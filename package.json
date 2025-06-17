@@ -1,6 +1,7 @@
 {
   "author": "Sunghyun Cho",
   "email": "hey@cho.sh",
+  "type": "module",
   "dependencies": {
     "@docusaurus/core": "3.8.1",
     "@docusaurus/faster": "^3.8.1",
@@ -30,8 +31,8 @@
     "@docusaurus/module-type-aliases": "^3.8.1",
     "@docusaurus/tsconfig": "^3.8.1",
     "@docusaurus/types": "^3.8.1",
-    "@types/node": "^22.15.30",
-    "@types/react": "^19.1.6",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3"
@@ -40,12 +41,12 @@
   "name": "extracranial",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "build": " bun ready &&  bun run format && NODE_OPTIONS=\"--max-old-space-size=15872\" docusaurus build",
+    "build": " pnpm ready &&  pnpm run format && NODE_OPTIONS=\"--max-old-space-size=15872\" docusaurus build",
     "dev": "docusaurus start -l ko",
     "format": "prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
     "readme": "cp md/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md && printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
-    "ready": "bun preprocess.ts",
-    "save": " bun ready &&  bun run readme &&  bun run format && git add . && git commit -m 'wrote something' && git push",
+    "ready": "pnpm dlx tsx preprocess.ts",
+    "save": " pnpm ready &&  pnpm run readme &&  pnpm run format && git add . && git commit -m 'wrote something' && git push",
     "start": "docusaurus serve"
   },
   "trustedDependencies": [
