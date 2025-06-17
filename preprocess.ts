@@ -236,17 +236,28 @@ async function processDocs(src: string, dst: string): Promise<void> {
     await copyRecursive(assetsDir, path.join(dst, 'assets'))
   }
 
-  await Promise.all([
-    ...mdFiles.map((file) => processImages(file)),
-    ...mdFiles.map((file) => resolveFile(file, linkMap)),
-  ])
+  // Process images first
+  console.log(`📸 Processing images in ${mdFiles.length} files...`)
+  await Promise.all(mdFiles.map((file) => processImages(file)))
+
+  // Then resolve links
+  console.log(`🔗 Resolving wikilinks...`)
+  await Promise.all(mdFiles.map((file) => resolveFile(file, linkMap)))
 
   console.log(`📘 Completed documentation processing`)
 }
 
 async function processImages(filePath: string): Promise<void> {
   let txt = await fs.readFile(filePath, 'utf-8')
-  txt = txt.replace(/!\[\[([^]]+?)]]/g, (_, p1) => `![${p1}](../assets/${p1})`)
+  const before = txt
+
+  // Check if file contains wikilink images
+  const wikiImageMatches = txt.match(/!\[\[([^\]]+?)\]\]/g)
+
+  txt = txt.replace(/!\[\[([^\]]+?)\]\]/g, (match, p1) => {
+    return `![${p1}](../assets/${p1})`
+  })
+
   await fs.writeFile(filePath, txt, 'utf-8')
 }
 
