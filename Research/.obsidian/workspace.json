@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "23cd5dca077fdb84",
+        "id": "e60d29e65892d4fc",
         "type": "tabs",
         "children": [
           {
-            "id": "4ea377215590c62d",
+            "id": "b5f4e47ab539bb70",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,10 +181,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ea377215590c62d",
+  "active": "b5f4e47ab539bb70",
   "lastOpenFiles": [
+    "journals/2025-06-18.md",
+    "pages/NixOS Certificate Verify Failed Unable to Get Local Issuer Certificate.md",
+    "pages/INCL.md",
+    "pages/uv (python).md",
+    "pages/Obsidian Print Force Pagebreak.md",
+    "pages/CSS Inject.md",
     "journals/2025-06-17.md",
+    "pages/도메인 양도 합의서.md",
     "pages/Democratools.md",
+    "pages/M2E Testing.md",
+    "pages/2025-06-17 One on One.md",
     "journals/2025-06-16.md",
     "pages/Sukyong Hong Interview.md",
     "pages/Absolute Mode.md",
@@ -201,15 +210,6 @@
     "assets/A5C933.png",
     "pages/Project Linguine.md",
     "pages/기술낙관론자 선언문.md",
-    "pages/Privacy Manifest.md",
-    "pages/Everynews Manifesto.md",
-    "pages/INCL.md",
-    "pages/Harding (Font).md",
-    "pages/Running Prisma on NixOS.md",
-    "pages/Untitled 1.md",
-    "journals/2025-06-04.md",
-    "Welcome.md",
-    "pages/Subroutine.md",
     "assets/4D948E.png",
     "assets/145219.png",
     "assets/144918.png",

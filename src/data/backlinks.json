@@ -1880,6 +1880,7 @@
   "2025-06-15": {},
   "2025-06-16": {},
   "2025-06-17": {},
+  "2025-06-18": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -8970,7 +8971,8 @@
     "2025-02-26": "- [[INCL]]",
     "2025-03-17": "[[INCL]]",
     "2025-04-01": "[[INCL]]",
-    "2025-06-13": "[[INCL]]"
+    "2025-06-13": "[[INCL]]",
+    "2025-06-18": "- [[INCL]]"
   },
   "INCL과 스팟 인스턴스": {
     "2025-05-21": "- [[INCL과 스팟 인스턴스]]",
@@ -9921,6 +9923,9 @@
   "Lunit AutoML Engineer JD": {
     "2024-02-26": "- [[Lunit AutoML Engineer JD]]"
   },
+  "M2E Testing": {
+    "2025-06-17": "- [[M2E Testing]]"
+  },
   "MAGI": {
     "2023-07-10": "- [[MAGI]]",
     "Project MAGI": "... Multiple Autonomous GPT In-tandem (thus, **[[MAGI]]**) for drawing coherent policies for ..."
@@ -10730,6 +10735,9 @@
   },
   "NixOS": {
     "2025-05-27": "[[NixOS]]"
+  },
+  "NixOS Certificate Verify Failed Unable to Get Local Issuer Certificate": {
+    "2025-06-18": "- [[NixOS Certificate Verify Failed Unable to Get Local Issuer Certificate]]"
   },
   "No function expr in JS with GritQL": {
     "2025-05-02": "- [[No function expr in JS with GritQL]]"
