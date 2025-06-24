@@ -11,7 +11,6 @@ import TabItem from '@theme/TabItem';
 <div lang='en-US'>
 
 1. Preload:
-
    - The `preload` directive is used to indicate that a resource should be loaded as early as possible in the page load process.
    - When you use `preload`, the browser prioritizes the loading of the specified resource, making it available sooner.
    - Preloading is particularly useful for critical resources that are needed immediately, such as CSS files or fonts.
@@ -41,7 +40,6 @@ Remember to use the `crossorigin` attribute when preloading fonts from a differe
 <div lang='ko-KR'>
 
 1. Preload:
-
    - `preload` 키워드는 페이지 로드 프로세스의 초기에 리소스를 가능한 한 빨리 로드해야 함을 나타내는 데 사용된다.
    - `preload`를 사용하면 브라우저는 지정된 리소스의 로딩을 우선시하여 더 빨리 사용할 수 있도록 한다.
    - Preloading은 특히 CSS 파일이나 폰트와 같이 즉시 필요한 중요한 리소스에 유용하다.

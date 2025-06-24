@@ -4,20 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "e60d29e65892d4fc",
+        "id": "b7c00e4be4b78e71",
         "type": "tabs",
         "children": [
           {
-            "id": "b5f4e47ab539bb70",
+            "id": "dbddf05b3bf30353",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2025-06-24.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-06-24"
+            }
+          },
+          {
+            "id": "6866080eaa063085",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Project.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Project"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,35 +220,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5f4e47ab539bb70",
+  "active": "6866080eaa063085",
   "lastOpenFiles": [
+    "journals/2025-06-24.md",
+    "journals/2025-06-20.md",
+    "journals/2025-06-22.md",
+    "pages/INCL.md",
+    "pages/Cosmoe.md",
+    "pages/Wayland.md",
+    "pages/Someday.md",
+    "pages/shell.ai.md",
+    "pages/Software as a Service.md",
+    "pages/Untitled.md",
+    "pages/Everynews Organizational Schema.md",
+    "journals/2025-06-19.md",
+    "pages/every.news.md",
+    "pages/CSS Inject.md",
+    "pages/CSS.md",
+    "pages/Change the story uniqueness from url-prompthash to url-prompthash-lang.md",
+    "journals/2025-02-12.md",
     "journals/2025-06-18.md",
     "pages/NixOS Certificate Verify Failed Unable to Get Local Issuer Certificate.md",
-    "pages/INCL.md",
     "pages/uv (python).md",
     "pages/Obsidian Print Force Pagebreak.md",
-    "pages/CSS Inject.md",
     "journals/2025-06-17.md",
     "pages/도메인 양도 합의서.md",
     "pages/Democratools.md",
     "pages/M2E Testing.md",
     "pages/2025-06-17 One on One.md",
-    "journals/2025-06-16.md",
-    "pages/Sukyong Hong Interview.md",
-    "pages/Absolute Mode.md",
-    "journals/2025-05-27.md",
-    "pages/NixOS.md",
-    "journals/2025-05-28.md",
-    "journals/2025-05-29.md",
-    "journals/2025-06-03.md",
-    "journals/2025-06-08.md",
-    "journals/2025-06-09.md",
-    "journals/2025-06-10.md",
-    "journals/2025-06-13.md",
-    "journals/2025-06-15.md",
     "assets/A5C933.png",
-    "pages/Project Linguine.md",
-    "pages/기술낙관론자 선언문.md",
     "assets/4D948E.png",
     "assets/145219.png",
     "assets/144918.png",
