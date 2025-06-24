@@ -46,7 +46,6 @@ slug: '/30CC03'
 ## Another another possible way that might be worth exploring
 
 - Using Keychain Manager.
-
   - [Keychain Services API Tutorial for Passwords in Swift](https://www.raywenderlich.com/9240-keychain-services-api-tutorial-for-passwords-in-swift)
 
 - However, these are meant for storing personal sensitive data like usernames and passwords.

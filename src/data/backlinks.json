@@ -1881,6 +1881,9 @@
   "2025-06-16": {},
   "2025-06-17": {},
   "2025-06-18": {},
+  "2025-06-19": {},
+  "2025-06-20": {},
+  "2025-06-24": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -6276,6 +6279,9 @@
   "Cosmic noises of life": {
     "2022-10-12": "- [[Cosmic noises of life]]"
   },
+  "Cosmoe": {
+    "2025-06-24": "- [[Cosmoe]]"
+  },
   "Cost of Engineering": {
     "Dilemmas of Technopreneur": "For [[10x Technopreneurs]], the [[Cost of Engineering]] is relatively cheap because they ..."
   },
@@ -7539,6 +7545,9 @@
   },
   "Everynews Manifesto": {
     "2025-04-30": "- [[Everynews Manifesto]]"
+  },
+  "Everynews Organizational Schema": {
+    "every.news": "- [[Everynews Organizational Schema]]"
   },
   "Everyprompt": {
     "2022-10-23": "- [[Everyprompt]]"
@@ -11681,6 +11690,7 @@
     "2023-05-11": "## [[Project]]",
     "2023-07-30": "모든 [[Project|프로젝트]]를 유지보수 없는 자동현상유지 상태로 만들거나 ...",
     "2024-06-12": "- [[Project]]",
+    "2025-06-24": "- [[Project]]",
     "AIs.txt": "- [[Project]]",
     "AMP": "... by the AMP Open Source [[Project]]. [[Google]] created it as a ...",
     "Action Button Walkie-Talkie": "[[Old Someday]] [[Project]]",
@@ -13059,6 +13069,7 @@
   },
   "Someday": {
     "2025-02-26": "- [[Someday]]",
+    "2025-06-20": "- [[Someday]]",
     "Action Required SaaS": "[[Someday]] [[Project]]. It's a [[Newsletter]] but ...",
     "Aldehyde SaaS": "[[Someday]] [[Project]]. It's this [[Aldehyde]].",
     "Cashflow (Service)": "[[Someday]] [[Project]]. Link all of your ...",
@@ -14378,6 +14389,9 @@
     "2023-11-09": "- [[Wayfinding with AI Pin]]",
     "2023-11-10": "- [[Wayfinding with AI Pin]]"
   },
+  "Wayland": {
+    "2025-06-24": "- [[Wayland]]"
+  },
   "We become what we do": {
     "2022-10-13": "- [[We become what we do]]",
     "Memex is more than a Memex": "- [[We become what we do]]",
@@ -15156,6 +15170,8 @@
     "2025-02-13": "- [[every.news]]",
     "2025-03-04": "[[every.news]]",
     "2025-04-26": "[[every.news]]",
+    "2025-06-19": "- [[every.news]]",
+    "2025-06-20": "- [[every.news]]",
     "HN Broadcast": "[[every.news]]"
   },
   "extracranial": {
