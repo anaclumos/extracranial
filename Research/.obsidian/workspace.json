@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "56434ec7d3cf5854",
+        "id": "52c82bcca2f8200b",
         "type": "tabs",
         "children": [
           {
-            "id": "6d59b5e28e9bedc6",
+            "id": "57c2317c57547fc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-06-04.md",
+                "file": "journals/2025-06-27.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-04"
-            }
-          },
-          {
-            "id": "90a7a1aeb64ae5d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/SQL Nuke.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Nuke"
+              "title": "2025-06-27"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,8 +63,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "MPS",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -220,35 +195,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90a7a1aeb64ae5d4",
+  "active": "57c2317c57547fc3",
   "lastOpenFiles": [
-    "pages/SQL Nuke.md",
-    "journals/2025-06-04.md",
-    "Welcome.md",
-    "pages/Absolute Mode.md",
-    "journals/2025-06-03.md",
-    "pages/Subroutine.md",
-    "pages/Coroutine.md",
-    "journals/2025-05-29.md",
-    "templates/displayflex template.md",
-    "pages/Coscientist.md",
-    "pages/Python.md",
-    "pages/Undefined Symbol Vtable.md",
-    "pages/TermsGPT.md",
-    "pages/Positional Encoding.md",
-    "pages/AutoSCOPE란.md",
-    "pages/Sliding Master Master Detail.md",
-    "pages/Miller Columns.md",
-    "pages/PPR All The Way.md",
-    "templates/details and summary template.md",
-    "journals/2025-05-28.md",
+    "journals/2025-06-27.md",
+    "pages/Wayland.md",
+    "pages/Sukyong Hong Interview.md",
+    "pages/Running Prisma on NixOS.md",
+    "pages/One Click Subscribe on Everynews.md",
+    "pages/NixOS.md",
+    "pages/NixOS Certificate Verify Failed Unable to Get Local Issuer Certificate.md",
+    "pages/M2E Testing.md",
+    "pages/Everynews Organizational Schema.md",
+    "pages/Democratools.md",
+    "pages/Cosmoe.md",
+    "pages/1Password Quick Access On Linux.md",
+    "journals/2025-06-26.md",
+    "journals/2025-06-25.md",
+    "journals/2025-06-24.md",
+    "journals/2025-06-20.md",
+    "journals/2025-06-19.md",
+    "journals/2025-06-18.md",
+    "journals/2025-06-17.md",
+    "journals/2025-06-16.md",
+    "journals/2025-06-15.md",
+    "journals/2025-06-13.md",
+    "journals/2025-06-10.md",
+    "journals/2025-06-09.md",
+    "journals/2025-06-08.md",
+    "assets/A5C933.png",
+    "journals/2025-06-05.md",
     "assets/4D948E.png",
-    "pages/까리.md",
-    "journals/2025-05-26.md",
-    "journals/2025-05-27.md",
-    "pages/Harding (Font).md",
-    "pages/SCOPE란.md",
-    "journals/2025-05-25.md",
     "assets/145219.png",
     "assets/144918.png",
     "assets/144909.png",
@@ -257,7 +233,6 @@
     "assets/144851.png",
     "assets/144844.png",
     "assets/144804.png",
-    "assets/144759.png",
     "assets",
     "journals/_category_.yml",
     "pages/_category_.yml",

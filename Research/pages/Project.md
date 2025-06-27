@@ -7,3 +7,14 @@ aliases:
   - 사업
   - 사이드 프로젝트
 ---
+
+- Everynews
+- Democratools
+- Now Korea
+- MarkRight
+
+---
+
+- Agentic Trading
+- Agentic Influencer Housing
+- Invite Codes

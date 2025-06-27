@@ -86,3 +86,9 @@ gcloud auth configure-docker asia-northeast3-docker.pkg.dev
 ```
 
 </details>
+
+## Authenticating on Gcloud ADC
+
+```
+gcloud auth login --update-adc
+```
