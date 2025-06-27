@@ -449,6 +449,9 @@
   "1FC2DE.png": {
     "Text-based Tools for Thought": "![[1FC2DE.png]]"
   },
+  "1Password Quick Access On Linux": {
+    "2025-06-26": "- [[1Password Quick Access On Linux]]"
+  },
   "2010년 테크 블로그 여행": {
     "2024-01-15": "- [[2010년 테크 블로그 여행]]"
   },
@@ -1884,6 +1887,8 @@
   "2025-06-19": {},
   "2025-06-20": {},
   "2025-06-24": {},
+  "2025-06-25": {},
+  "2025-06-26": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -10981,6 +10986,9 @@
   "One Bit Display": {
     "2023-01-13": "- [[One Bit Display]]"
   },
+  "One Click Subscribe on Everynews": {
+    "every.news": "- [x] [[One Click Subscribe on Everynews]]"
+  },
   "One Million Checkboxes": {
     "2024-06-27": "[[One Million Checkboxes]]"
   },
@@ -15172,6 +15180,8 @@
     "2025-04-26": "[[every.news]]",
     "2025-06-19": "- [[every.news]]",
     "2025-06-20": "- [[every.news]]",
+    "2025-06-25": "- [[every.news]]",
+    "2025-06-26": "- [[every.news]]",
     "HN Broadcast": "[[every.news]]"
   },
   "extracranial": {
