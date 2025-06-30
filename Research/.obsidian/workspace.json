@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b7c00e4be4b78e71",
+        "id": "1d937df1671f5ae3",
         "type": "tabs",
         "children": [
           {
-            "id": "dbddf05b3bf30353",
+            "id": "b565af9098edef87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-06-24.md",
+                "file": "pages/MarkRight.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,131 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-24"
-            }
-          },
-          {
-            "id": "6866080eaa063085",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-06-25.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-25"
-            }
-          },
-          {
-            "id": "f0d70d3d4848005e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-06-26.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-26"
-            }
-          },
-          {
-            "id": "916f72ba586cd3f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-06-26.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-26"
-            }
-          },
-          {
-            "id": "02af7dad60b91828",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/every.news.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "every.news"
-            }
-          },
-          {
-            "id": "f9bf7e40befd58f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-06-24.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-24"
+              "title": "MarkRight"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/MarkRight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for MarkRight"
             }
           },
           {
@@ -245,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/Geekbench.md",
+                "file": "pages/Everynews is Nigh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Geekbench"
+              "title": "Outgoing links from Everynews is Nigh"
             }
           },
           {
@@ -274,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "pages/Everynews is Nigh.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Everynews is Nigh"
             }
           },
           {
@@ -296,13 +177,11 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -316,19 +195,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9bf7e40befd58f5",
+  "active": "b565af9098edef87",
   "lastOpenFiles": [
+    "journals/2025-06-30.md",
+    "journals/2025-06-24.md",
     "journals/2025-06-25.md",
     "journals/2025-06-26.md",
     "journals/2025-06-27.md",
+    "pages/every.news.md",
+    "pages/MarkRight.md",
+    "journals/2025-06-29.md",
+    "pages/One Click Subscribe on Everynews.md",
+    "pages/Everynews is Nigh.md",
+    "pages/Emoji.md",
+    "pages/Project Heimdall.md",
+    "journals/2025-02-12.md",
     "pages/honest-but-curious.md",
     "pages/Federated Machine Learning.md",
-    "pages/One Click Subscribe on Everynews.md",
-    "pages/every.news.md",
     "pages/Everynews.md",
     "pages/1Password Quick Access On Linux.md",
     "pages/Untitled.md",
-    "journals/2025-06-24.md",
     "journals/2025-06-20.md",
     "journals/2025-06-19.md",
     "journals/2025-06-18.md",
@@ -337,13 +223,6 @@
     "pages/Project.md",
     "journals/2025-06-22.md",
     "pages/INCL.md",
-    "pages/Cosmoe.md",
-    "pages/Wayland.md",
-    "pages/Someday.md",
-    "pages/shell.ai.md",
-    "pages/Software as a Service.md",
-    "pages/Everynews Organizational Schema.md",
-    "pages/CSS Inject.md",
     "assets/A5C933.png",
     "assets/4D948E.png",
     "assets/145219.png",
