@@ -1876,6 +1876,7 @@
   "2025-05-28": {},
   "2025-05-29": {},
   "2025-06-03": {},
+  "2025-06-04": {},
   "2025-06-08": {},
   "2025-06-09": {},
   "2025-06-10": {},
@@ -12607,6 +12608,9 @@
     "Techs Actually Simple": "... to mention [plaintext protocols](https://matt-rickard.com/the-power-of-plaintext-protocols). [[HTTP]], [[SMTP]], FTP, and Redis Serialization Protocol ..."
   },
   "SOC 2": {},
+  "SQL Nuke": {
+    "2025-06-04": "[[SQL Nuke]]"
+  },
   "SVB Debacle": {
     "2023-03-12": "- [[SVB Debacle]]",
     "American Bank Problems": "- [[SVB Debacle]]"
