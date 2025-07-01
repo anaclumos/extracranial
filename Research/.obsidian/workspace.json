@@ -4,20 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "1c01c777f1b350b7",
+        "id": "8c54574d55b12b1b",
         "type": "tabs",
         "children": [
           {
-            "id": "0626529de691d3b1",
+            "id": "f1d7a2acbf905668",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2025-07-01.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-07-01"
+            }
+          },
+          {
+            "id": "1044ee7de6204ad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Extracranial.com.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Extracranial.com"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,6 +201,12 @@
       "random-note:Open random note": false
     }
   },
-  "active": "0626529de691d3b1",
-  "lastOpenFiles": ["pages/MarkRight.md", "journals/2025-06-30.md"]
+  "active": "1044ee7de6204ad2",
+  "lastOpenFiles": [
+    "journals/2025-07-01.md",
+    "pages/MarkRight.md",
+    "pages/Very Good Photo Backup Service.md",
+    "pages/Project Horcrux.md",
+    "journals/2025-06-30.md"
+  ]
 }
