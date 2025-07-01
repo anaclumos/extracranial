@@ -30,3 +30,5 @@ A spiritual superset of Markdown.
 [/] not planned, aborted, etc
 [-] in review
 ```
+
+Image Caption should be easy, with large image, side by side image, etc
