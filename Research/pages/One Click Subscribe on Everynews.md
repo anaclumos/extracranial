@@ -20,7 +20,7 @@ It's slow. Users bail.
 1. Type email, hit **Subscribe**.
 2. Tap the **Confirm** link we send.
 
-Done. Account auto-created, alert active, subscription started.
+Done. Account auto created, alert active, subscription started.
 
 ## But how
 
@@ -50,7 +50,7 @@ auth.signIn.magicLink(
 Key constraints had:
 
 - Cannot modify token generation
-- Cannot pass custom metadata in primary parameters <-- Important
+- Cannot pass custom metadata in primary parameters (Important)
 - Single sendMagicLink function for all flows, both regular sign-in and one-click-sub
 - Limited control over verification process
 
