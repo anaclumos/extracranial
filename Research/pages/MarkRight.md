@@ -19,6 +19,10 @@ A spiritual superset of Markdown.
   - Etymo? Maybe this should be handled in the compiler level not the syntax level.
 - Highlight native support
 
+First line of the docs should be a title.
+
+- Pure MarkRight
+
 ## Todo Check box
 
 ```
