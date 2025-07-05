@@ -44,7 +44,7 @@ flowchart TD
   - single‑bit/byte writes (`SETBIT`/`SETRANGE`) keep the canvas in memory with O(1) latency([upstash.com](https://upstash.com/docs/redis/sdks/ts/commands/bitmap/setbit 'SETBIT - Upstash Documentation'))
   - native Pub/Sub plus Server‑Sent Events (SSE) push updates globally([upstash.com](https://upstash.com/blog/realtime-notifications 'Building Real-Time Notifications with Upstash Redis, Next.js Server Actions and Vercel | Upstash Blog'))
   - atomic Lua scripts and the Upstash Rate‑Limit helper enforce "1 pixel /Nsec" per user.
-- **Neon Postgres** is the durable system‑of‑record. The edge‑compatible serverless driver lets Edge Functions upsert rows over HTTPS/WebSockets with <10ms cold‑start overhead([neon.com](https://neon.com/docs/serverless/serverless-driver 'Neon serverless driver - Neon Docs')). Keeping history here enables time‑lapse, analytics, and roll‑back with Neon's cheap "branching" snapshots([neon.com](https://neon.com/docs/introduction/architecture-overview 'Neon architecture - Neon Docs')).
+- **Neon Postgres** is the durable system‑of‑record. The edge‑compatible serverless driver lets Edge Functions upsert rows over HTTPS/WebSockets with 10ms cold‑start overhead([neon.com](https://neon.com/docs/serverless/serverless-driver 'Neon serverless driver - Neon Docs')). Keeping history here enables time‑lapse, analytics, and roll‑back with Neon's cheap "branching" snapshots([neon.com](https://neon.com/docs/introduction/architecture-overview 'Neon architecture - Neon Docs')).
 
 ---
 

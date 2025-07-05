@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Pitch Places.md",
-                "mode": "preview",
+                "file": "pages/MarkRight.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Pitch Places"
+              "title": "MarkRight"
             }
           }
         ]
@@ -178,11 +178,12 @@
   },
   "active": "98cdd9bddc49e1c1",
   "lastOpenFiles": [
+    "journals/2025-07-05.md",
     "journals/2025-07-04.md",
     "pages/Now Korea.md",
+    "pages/Pitch Places.md",
     "journals/2025-07-03.md",
     "pages/NixOS Framework Laptop AMD AI 300 Don't Sleep.md",
-    "pages/Pitch Places.md",
     "pages/MarkRight.md",
     "pages/One Click Subscribe on Everynews.md",
     "journals/2025-06-24.md",

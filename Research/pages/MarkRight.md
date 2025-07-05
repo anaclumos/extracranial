@@ -36,3 +36,9 @@ First line of the docs should be a title.
 ```
 
 Image Caption should be easy, with large image, side by side image, etc
+
+or should we go completely MD superset only?
+
+## case study
+
+- [neon.com](https://neon.com/docs/introduction/architecture-overview 'Neon architecture - Neon Docs'): why do chatgpt render it like this?
