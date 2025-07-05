@@ -1902,6 +1902,7 @@
   "2025-07-01": {},
   "2025-07-02": {},
   "2025-07-03": {},
+  "2025-07-04": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -10135,7 +10136,8 @@
   },
   "MarkRight": {
     "2025-06-30": "- [[MarkRight]]",
-    "2025-07-01": "- [[MarkRight]]"
+    "2025-07-01": "- [[MarkRight]]",
+    "2025-07-03": "[[MarkRight]]"
   },
   "Markdown": {
     "2022-07-09": "... plugin for converting wikilinks to [[Markdown]] links. For example, this is ...",
@@ -10776,6 +10778,9 @@
   "NixOS Certificate Verify Failed Unable to Get Local Issuer Certificate": {
     "2025-06-18": "- [[NixOS Certificate Verify Failed Unable to Get Local Issuer Certificate]]"
   },
+  "NixOS Framework Laptop AMD AI 300 Don't Sleep": {
+    "2025-07-04": "[[NixOS Framework Laptop AMD AI 300 Don't Sleep]]"
+  },
   "No function expr in JS with GritQL": {
     "2025-05-02": "- [[No function expr in JS with GritQL]]"
   },
@@ -10830,6 +10835,9 @@
     "Are Computers Psychotropic Substances": "... How dare you!\" However, a [[Noumenon]] itself, and ",
     "Library of Babel": "... the **idea**, but not the **[[Noumenon]]**.",
     "컴퓨터는 향정신성 약물인가": "... 얘기할 수 있다. 하지만 하나의 [[Noumenon|물자체]] 그 스스로와 그 "
+  },
+  "Now Korea": {
+    "2025-07-04": "[[Now Korea]]"
   },
   "Now Page": {
     "2022-10-17": "- [[Now Page]]",
@@ -11417,6 +11425,9 @@
   "Pipelining": {
     "2022-12-08": "- [[Pipelining]]",
     "Computer Systems": "- [[Pipelining]]"
+  },
+  "Pitch Places": {
+    "2025-07-03": "[[Pitch Places]]"
   },
   "Pivot": {
     "2022-12-21": "- [[Pivot]]",
