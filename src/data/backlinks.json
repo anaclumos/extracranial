@@ -1903,6 +1903,7 @@
   "2025-07-02": {},
   "2025-07-03": {},
   "2025-07-04": {},
+  "2025-07-05": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -10137,7 +10138,8 @@
   "MarkRight": {
     "2025-06-30": "- [[MarkRight]]",
     "2025-07-01": "- [[MarkRight]]",
-    "2025-07-03": "[[MarkRight]]"
+    "2025-07-03": "[[MarkRight]]",
+    "2025-07-05": "[[MarkRight]]"
   },
   "Markdown": {
     "2022-07-09": "... plugin for converting wikilinks to [[Markdown]] links. For example, this is ...",
