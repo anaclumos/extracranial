@@ -1904,6 +1904,7 @@
   "2025-07-03": {},
   "2025-07-04": {},
   "2025-07-05": {},
+  "2025-07-06": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -6765,9 +6766,6 @@
     "Search AI": "We will never see [[Demise of Chatbots in 2017]] again.",
     "민사고 앱": "... Assistant라는 챗봇으로 만들 생각을 하다가 ([[Demise of Chatbots in 2017]]) 2018년에는 웹 혹은 플러터 버전으로 ..."
   },
-  "Democratools": {
-    "2025-06-17": "- [[Democratools]]"
-  },
   "Deno": {
     "2023-11-11": "- [[Deno]]"
   },
@@ -10135,12 +10133,6 @@
   "Mapping keys to set different input languages on macOS": {
     "2022-11-19": "...  - [[Mapping keys to set different input languages on macOS]]"
   },
-  "MarkRight": {
-    "2025-06-30": "- [[MarkRight]]",
-    "2025-07-01": "- [[MarkRight]]",
-    "2025-07-03": "[[MarkRight]]",
-    "2025-07-05": "[[MarkRight]]"
-  },
   "Markdown": {
     "2022-07-09": "... plugin for converting wikilinks to [[Markdown]] links. For example, this is ...",
     "ContentLayer": "... your content data (such as [[Markdown]] files or [[CMS]]) into type-safe ...",
@@ -10837,9 +10829,6 @@
     "Are Computers Psychotropic Substances": "... How dare you!\" However, a [[Noumenon]] itself, and ",
     "Library of Babel": "... the **idea**, but not the **[[Noumenon]]**.",
     "컴퓨터는 향정신성 약물인가": "... 얘기할 수 있다. 하지만 하나의 [[Noumenon|물자체]] 그 스스로와 그 "
-  },
-  "Now Korea": {
-    "2025-07-04": "[[Now Korea]]"
   },
   "Now Page": {
     "2022-10-17": "- [[Now Page]]",
@@ -11884,6 +11873,23 @@
   "Project Day One Exodus": {
     "2024-04-30": "- [[Project Day One Exodus]]"
   },
+  "Project Democratools": {
+    "2025-06-17": "- [[Project Democratools]]",
+    "Project": "- [[Project Democratools]]"
+  },
+  "Project Everynews": {
+    "2025-02-12": "[[Project Everynews]]",
+    "2025-02-13": "- [[Project Everynews]]",
+    "2025-03-04": "[[Project Everynews]]",
+    "2025-04-26": "[[Project Everynews]]",
+    "2025-06-19": "- [[Project Everynews]]",
+    "2025-06-20": "- [[Project Everynews]]",
+    "2025-06-25": "- [[Project Everynews]]",
+    "2025-06-26": "- [[Project Everynews]]",
+    "2025-06-27": "- [[Project Everynews]]",
+    "HN Broadcast": "[[Project Everynews]]",
+    "Project": "- [[Project Everynews]]"
+  },
   "Project FFMpeg for iPad": {
     "2022-10-20": "- [[Project FFMpeg for iPad]]",
     "2023-05-09": "- [[Project FFMpeg for iPad]]"
@@ -11978,8 +11984,8 @@
     "Heimdall Bogus Subscribers Attack Incident": "... a subscriber signs up for [[Project Heimdall|Heimdall]], the name field was the ...",
     "LavaLab Cohort of Spring 2023": "... article. A similar approach to [[Project Heimdall]], by attempting [[Algorithmic Recommendation Engine ...",
     "METI Engine": "... plan to scale it to [[Project Heimdall]].",
+    "Project Everynews": "... is a spiritual successor to [[Project Heimdall|Heimdall]]",
     "Project Heimdall Locale Transition Strategy": "[[Project Heimdall]]'s predecessor [[hn.cho.sh]] operated on DeepL's ...",
-    "every.news": "... is a spiritual successor to [[Project Heimdall|Heimdall]]",
     "hn.cho.sh 개발 기록": "[[Project Heimdall]]",
     "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": "> [[Project Heimdall|Heimdall]]이나 [[Bing Chat for All Browsers]]과 ...",
     "일일일": "[[NewsGPT]] Model. A competitor to [[Project Heimdall]]."
@@ -12029,11 +12035,22 @@
     "Project Florence": "- [[Project Malmantile]]",
     "Project Impruneta": "... subproject of [[Project Florence]]. Supercedes [[Project Malmantile]]"
   },
+  "Project MarkRight": {
+    "2025-06-30": "- [[Project MarkRight]]",
+    "2025-07-01": "- [[Project MarkRight]]",
+    "2025-07-03": "[[Project MarkRight]]",
+    "2025-07-05": "[[Project MarkRight]]",
+    "Project": "- [[Project MarkRight]]"
+  },
   "Project Millionaire": {
     "2024-06-12": "- [[Project Millionaire]]"
   },
   "Project Namie": {
     "2024-07-07": "- [[Project Namie]]"
+  },
+  "Project Now Korea": {
+    "2025-07-04": "[[Project Now Korea]]",
+    "Project": "- [[Project Now Korea]]"
   },
   "Project PEOPLE": {
     "2022-07-10": "... new paradigm for low-code websites. [[Project PEOPLE]] now create personal websites, event ...",
@@ -12072,6 +12089,10 @@
     "LocLog": "[[Project Sillok]]",
     "Very Good Photo Backup Service": "[[Project Sillok]]",
     "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": "... 생각을 많이 합니다. 그래서 직접 [[Project Sillok|SaaS로 만들고 싶은데]] 공사 규모가 너~무 커서 그냥 ..."
+  },
+  "Project Starfinder": {
+    "2025-07-06": "- [[Project Starfinder]]",
+    "Project": "- [[Project Starfinder]]"
   },
   "Prompt Engineering": {
     "2022-09-03": "- [[Prompt Engineering]]",
@@ -15212,18 +15233,6 @@
   "es-toolkit": {
     "2024-10-02": "- [[es-toolkit]]",
     "2025-01-16": "- [[es-toolkit]]"
-  },
-  "every.news": {
-    "2025-02-12": "[[every.news]]",
-    "2025-02-13": "- [[every.news]]",
-    "2025-03-04": "[[every.news]]",
-    "2025-04-26": "[[every.news]]",
-    "2025-06-19": "- [[every.news]]",
-    "2025-06-20": "- [[every.news]]",
-    "2025-06-25": "- [[every.news]]",
-    "2025-06-26": "- [[every.news]]",
-    "2025-06-27": "- [[every.news]]",
-    "HN Broadcast": "[[every.news]]"
   },
   "extracranial": {
     "Migrating Project Aldehyde to FlightControl (February 24誠鉉)": "... [[Aldehyde Outage (January 23誠鉉)]], the [[extracranial]] workflow was simple — [[git]] ...",
