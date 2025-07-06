@@ -9,4 +9,4 @@ Instantly broadcast with Text when something comes up on HN
 
 maybe [[Project Heimdall]]
 
-[[every.news]]
+[[Project Everynews]]

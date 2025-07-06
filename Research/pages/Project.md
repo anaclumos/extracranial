@@ -8,10 +8,11 @@ aliases:
   - 사이드 프로젝트
 ---
 
-- Everynews
-- Democratools
-- Now Korea
-- MarkRight
+- [[Project Starfinder]]
+- [[Project Everynews]]
+- [[Project Democratools]]
+- [[Project Now Korea]]
+- [[Project MarkRight]]
 
 ---
 
