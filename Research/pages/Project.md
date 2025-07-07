@@ -17,5 +17,4 @@ aliases:
 ---
 
 - Agentic Trading
-- Agentic Influencer Housing
 - Invite Codes
