@@ -66,7 +66,7 @@ redis.call('PUBLISH', 'updates', cjson.encode{ x=..., y=..., c=ARGV[2], u=ARGV[3
 return true
 ```
 
-`SETRANGE` modifies ≤1byte so requests stay <1MB([upstash.com](https://upstash.com/docs/redis/troubleshooting/max_request_size_exceeded 'ERR max request size exceeded - Upstash Documentation')) and are atomic at the Redis level.
+`SETRANGE` modifies `≤1byte` so requests stay `<1MB`([upstash.com](https://upstash.com/docs/redis/troubleshooting/max_request_size_exceeded 'ERR max request size exceeded - Upstash Documentation')) and are atomic at the Redis level.
 
 ---
 

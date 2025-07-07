@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-07-07.md",
+                "file": "pages/Project Now Korea.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-07"
+              "title": "Project Now Korea"
             }
           }
         ]
@@ -178,8 +178,8 @@
   },
   "active": "d34f4bebd0faaaf9",
   "lastOpenFiles": [
-    "pages/Stripe Atlas.md",
     "journals/2025-07-07.md",
+    "pages/Stripe Atlas.md",
     "pages/Zen browser no padding.md",
     "pages/Project Starfinder.md",
     "pages/Project.md",
