@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6b6586551ab6675c",
+        "id": "af2d00f24bd575a8",
         "type": "tabs",
         "children": [
           {
-            "id": "d34f4bebd0faaaf9",
+            "id": "41e60f2d843b7fd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Project Now Korea.md",
-                "mode": "source",
+                "file": "journals/2025-07-08.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project Now Korea"
+              "title": "2025-07-08"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "opus",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,8 +177,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "d34f4bebd0faaaf9",
+  "active": "41e60f2d843b7fd6",
   "lastOpenFiles": [
+    "journals/2025-07-09.md",
+    "assets/852953.png",
+    "pages/Compress Voice Transcripts.md",
+    "pages/INCL.md",
+    "journals/2025-07-08.md",
+    "pages/Overlay Scrollbars in Linux Chromium.md",
+    "pages/Project Now Korea.md",
     "journals/2025-07-07.md",
     "pages/Stripe Atlas.md",
     "pages/Zen browser no padding.md",
@@ -186,7 +194,6 @@
     "pages/Project Everynews.md",
     "pages/Project Democratools.md",
     "journals/2025-07-06.md",
-    "pages/Project Now Korea.md",
     "pages/Project MarkRight.md",
     "journals/2025-07-05.md",
     "journals/2025-07-04.md",
@@ -197,12 +204,6 @@
     "journals/2025-06-24.md",
     "journals/2025-06-20.md",
     "journals/2025-06-25.md",
-    "journals/2025-06-26.md",
-    "journals/2025-06-27.md",
-    "journals/2025-06-29.md",
-    "journals/2025-06-30.md",
-    "journals/2025-07-01.md",
-    "journals/2025-07-02.md",
-    "pages/Letter to Heimdall Subscribers.md"
+    "journals/2025-06-26.md"
   ]
 }

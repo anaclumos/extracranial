@@ -1906,6 +1906,8 @@
   "2025-07-05": {},
   "2025-07-06": {},
   "2025-07-07": {},
+  "2025-07-08": {},
+  "2025-07-09": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -3325,6 +3327,9 @@
   },
   "84C1D5.png": {
     "Providing DOM API to Worker Threads": "![[84C1D5.png]]"
+  },
+  "852953.png": {
+    "2025-07-08": "![[852953.png]]"
   },
   "853594.png": {
     "Towards Ambient Computing": "![[853594.png]]",
@@ -11130,6 +11135,9 @@
     "Feature": "... the model's performance and reduce [[Overfitting]].",
     "Products Evolves Barely Enough to Solve Inconveniences": "- 제품의 [[Overfitting|과적합]]은 시장경제에 의해 거절당한다.",
     "Project Core ML Foundation": "## [[Overfitting]]"
+  },
+  "Overlay Scrollbars in Linux Chromium": {
+    "2025-07-08": "[[Overlay Scrollbars in Linux Chromium]]"
   },
   "P vs NP": {
     "2022-07-01": "- [[P vs NP]]",
