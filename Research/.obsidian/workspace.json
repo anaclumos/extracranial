@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-07-08.md",
+                "file": "pages/Friend.com Mayhem.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-08"
+              "title": "Friend.com Mayhem"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "opus",
+                "query": "friend.com",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,11 +179,13 @@
   },
   "active": "41e60f2d843b7fd6",
   "lastOpenFiles": [
+    "journals/2024-08-02.md",
+    "pages/Grammarly.md",
     "journals/2025-07-09.md",
+    "journals/2025-07-08.md",
     "assets/852953.png",
     "pages/Compress Voice Transcripts.md",
     "pages/INCL.md",
-    "journals/2025-07-08.md",
     "pages/Overlay Scrollbars in Linux Chromium.md",
     "pages/Project Now Korea.md",
     "journals/2025-07-07.md",
@@ -203,7 +205,6 @@
     "pages/One Click Subscribe on Everynews.md",
     "journals/2025-06-24.md",
     "journals/2025-06-20.md",
-    "journals/2025-06-25.md",
-    "journals/2025-06-26.md"
+    "journals/2025-06-25.md"
   ]
 }

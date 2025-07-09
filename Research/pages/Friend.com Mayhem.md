@@ -11,6 +11,6 @@ slug: '/A58E60'
 
 [Dries Augustyns on X: "I didn't buy a 1.8m domain, but I have great news too. Plunk is now the open-source email platform! https://t.co/IGXtrgI26C" / X](https://x.com/driaug_/status/1818689098762031627)
 
-[Evis Drenova on X: "wait this dude actually spent $1.8M out of $2.5M raised on a domain name for a pre-launch hardware device? that is actually fucking insane and i would be furious if i was an investor https://t.co/LdZ6MMHBrC" / X](https://x.com/evisdrenova/status/1818378922012426539)
+[Evis Drenova on X: "wait this dude actually spent \$1.8M out of \$2.5M raised on a domain name for a pre-launch hardware device? that is actually fucking insane and i would be furious if i was an investor https://t.co/LdZ6MMHBrC" / X](https://x.com/evisdrenova/status/1818378922012426539)
 
-[Cody Schneider on X: "its not a $1.8M domain its the best PR investment made so far in 2024 the earned media alone will be worth $5M https://t.co/adQa9hkTP3" / X](https://x.com/codyschneiderxx/status/1818708222322077738)
+[Cody Schneider on X: "its not a \$1.8M domain its the best PR investment made so far in 2024 the earned media alone will be worth \$5M https://t.co/adQa9hkTP3" / X](https://x.com/codyschneiderxx/status/1818708222322077738)
