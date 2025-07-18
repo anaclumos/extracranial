@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "af2d00f24bd575a8",
+        "id": "bcd430aee418772d",
         "type": "tabs",
         "children": [
           {
-            "id": "41e60f2d843b7fd6",
+            "id": "b3f73672d14fdd46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Friend.com Mayhem.md",
-                "mode": "preview",
+                "file": "journals/2025-07-08.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Friend.com Mayhem"
+              "title": "2025-07-08"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "friend.com",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a2b4dbce0e1ec5a5",
@@ -177,18 +178,24 @@
       "random-note:Open random note": false
     }
   },
-  "active": "41e60f2d843b7fd6",
+  "active": "b3f73672d14fdd46",
   "lastOpenFiles": [
+    "journals/2025-07-18.md",
+    "journals/2025-07-08.md",
+    "journals/2025-07-07.md",
+    "journals/2025-07-17.md",
+    "journals/2025-07-15.md",
+    "journals/2025-07-16.md",
+    "journals/2025-07-11.md",
+    "journals/2025-07-09.md",
+    "pages/INCL.md",
+    "pages/Friend.com Mayhem.md",
     "journals/2024-08-02.md",
     "pages/Grammarly.md",
-    "journals/2025-07-09.md",
-    "journals/2025-07-08.md",
     "assets/852953.png",
     "pages/Compress Voice Transcripts.md",
-    "pages/INCL.md",
     "pages/Overlay Scrollbars in Linux Chromium.md",
     "pages/Project Now Korea.md",
-    "journals/2025-07-07.md",
     "pages/Stripe Atlas.md",
     "pages/Zen browser no padding.md",
     "pages/Project Starfinder.md",
@@ -199,12 +206,6 @@
     "pages/Project MarkRight.md",
     "journals/2025-07-05.md",
     "journals/2025-07-04.md",
-    "pages/Pitch Places.md",
-    "journals/2025-07-03.md",
-    "pages/NixOS Framework Laptop AMD AI 300 Don't Sleep.md",
-    "pages/One Click Subscribe on Everynews.md",
-    "journals/2025-06-24.md",
-    "journals/2025-06-20.md",
-    "journals/2025-06-25.md"
+    "pages/Pitch Places.md"
   ]
 }
