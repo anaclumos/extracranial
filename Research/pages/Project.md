@@ -9,12 +9,16 @@ aliases:
 ---
 
 - [[Project Starfinder]]
-- [[Project Everynews]]
+- [[Project Fakedoor]]
 - [[Project Democratools]]
 - [[Project Now Korea]]
 - [[Project MarkRight]]
 
 ---
 
-- Agentic Trading
-- Invite Codes
+- [[Project Everynews]]
+- [[Project Referrals]]
+
+---
+
+- [[Agentic Trading]]
