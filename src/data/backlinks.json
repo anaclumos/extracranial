@@ -1907,6 +1907,8 @@
   "2025-07-06": {},
   "2025-07-07": {},
   "2025-07-08": {},
+  "2025-07-18": {},
+  "2025-07-22": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -4194,6 +4196,9 @@
   },
   "Agentic Fleets": {
     "2025-02-26": "- [[Agentic Fleets]]"
+  },
+  "Agentic Trading": {
+    "Project": "- [[Agentic Trading]]"
   },
   "Agricultural Technology": {
     "2023-08-19": "- [[Agricultural Technology]]",
@@ -11732,6 +11737,7 @@
     "2023-07-30": "모든 [[Project|프로젝트]]를 유지보수 없는 자동현상유지 상태로 만들거나 ...",
     "2024-06-12": "- [[Project]]",
     "2025-06-24": "- [[Project]]",
+    "2025-07-22": "[[Project]]",
     "AIs.txt": "- [[Project]]",
     "AMP": "... by the AMP Open Source [[Project]]. [[Google]] created it as a ...",
     "Action Button Walkie-Talkie": "[[Old Someday]] [[Project]]",
@@ -11787,6 +11793,7 @@
     "Power Nap Pill": "[[Oneday]] [[Project]].",
     "Programmable Vaccines": "[[Oneday]] [[Project]]",
     "Project FFMpeg for iPad": "- [[Old Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
+    "Project Fakedoor": "[[Project]]",
     "Project Florence": "- [[Project]] Florence is a research [[project]] ...",
     "Project Ganymede": "- Therefore, we name it [[Project]] Ganymede. You can NEVER win ...",
     "Project Heimdall": "... conventional [[Docusaurus]] with [[Listmonk]]. Consider [[Project]] [[Done]].",
@@ -11901,6 +11908,10 @@
   "Project FFMpeg for iPad": {
     "2022-10-20": "- [[Project FFMpeg for iPad]]",
     "2023-05-09": "- [[Project FFMpeg for iPad]]"
+  },
+  "Project Fakedoor": {
+    "2025-07-22": "[[Project Fakedoor]]",
+    "Project": "- [[Project Fakedoor]]"
   },
   "Project Fiesole": {
     "2023-10-03": "- [[Project Fiesole]]",
@@ -12091,6 +12102,9 @@
   "Project Prepare for Grammarly": {
     "2023-04-12": "- [[Project Prepare for Grammarly]]"
   },
+  "Project Referrals": {
+    "Project": "- [[Project Referrals]]"
+  },
   "Project Sillok": {
     "2024-05-11": "- [[Project Sillok]]",
     "2024-06-25": "- [[Project Sillok]]",
@@ -12100,6 +12114,7 @@
   },
   "Project Starfinder": {
     "2025-07-06": "- [[Project Starfinder]]",
+    "2025-07-18": "[[Project Starfinder]]",
     "Project": "- [[Project Starfinder]]"
   },
   "Prompt Engineering": {
