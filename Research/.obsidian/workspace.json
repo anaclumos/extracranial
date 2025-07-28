@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7eaa467f239e8736",
+        "id": "c1669d180d968199",
         "type": "tabs",
         "children": [
           {
-            "id": "6278799b76c05996",
+            "id": "619e1f7abd7728e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-07-22.md",
+                "file": "journals/2025-07-28.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,107 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-22"
-            }
-          },
-          {
-            "id": "d213fb84c52a07c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Project Fakedoor.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project Fakedoor"
-            }
-          },
-          {
-            "id": "2f72066ea13dde57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-07-22.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-22"
-            }
-          },
-          {
-            "id": "a5feb27265945cc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Project.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project"
-            }
-          },
-          {
-            "id": "de0f9466b36be603",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-07-22.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-22"
+              "title": "2025-07-28"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -275,10 +178,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "de0f9466b36be603",
+  "active": "619e1f7abd7728e0",
   "lastOpenFiles": [
-    "pages/Project.md",
     "journals/2025-07-22.md",
+    "journals/2025-07-26.md",
+    "journals/2025-07-28.md",
+    "pages/Project Fakedoor.md",
+    "journals/2025-07-18.md",
+    "pages/Project.md",
+    "journals/2025-07-25.md",
     "pages/Project Starfinder.md",
     "pages/Project Democratools.md",
     "pages/Project Now Korea.md",
@@ -287,8 +195,6 @@
     "pages/Agentic Trading.md",
     "pages/Untitled.md",
     "pages/Project Referrals.md",
-    "pages/Project Fakedoor.md",
-    "journals/2025-07-18.md",
     "journals/2025-07-08.md",
     "pages/NixOS Framework Laptop AMD AI 300 Don't Sleep.md",
     "journals/2025-07-07.md",
@@ -300,9 +206,6 @@
     "pages/INCL.md",
     "pages/Friend.com Mayhem.md",
     "journals/2024-08-02.md",
-    "pages/Grammarly.md",
-    "assets/852953.png",
-    "pages/Compress Voice Transcripts.md",
-    "pages/Overlay Scrollbars in Linux Chromium.md"
+    "assets/852953.png"
   ]
 }
