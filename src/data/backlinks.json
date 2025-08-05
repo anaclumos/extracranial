@@ -1910,6 +1910,8 @@
   "2025-07-18": {},
   "2025-07-22": {},
   "2025-07-28": {},
+  "2025-07-29": {},
+  "2025-08-06": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -10784,7 +10786,8 @@
     "2025-06-18": "- [[NixOS Certificate Verify Failed Unable to Get Local Issuer Certificate]]"
   },
   "NixOS Framework Laptop AMD AI 300 Don't Sleep": {
-    "2025-07-04": "[[NixOS Framework Laptop AMD AI 300 Don't Sleep]]"
+    "2025-07-04": "[[NixOS Framework Laptop AMD AI 300 Don't Sleep]]",
+    "2025-07-29": "[[NixOS Framework Laptop AMD AI 300 Don't Sleep]]"
   },
   "No function expr in JS with GritQL": {
     "2025-05-02": "- [[No function expr in JS with GritQL]]"
@@ -13739,6 +13742,9 @@
   },
   "Things (3D)": {
     "3D": "- [[Things (3D)]]"
+  },
+  "Think like a farmer": {
+    "2025-08-06": "[[Think like a farmer]]"
   },
   "Threads": {
     "2023-07-06": "- [[Threads]]",
