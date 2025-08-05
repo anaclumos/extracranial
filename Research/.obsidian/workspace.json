@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c1669d180d968199",
+        "id": "57c31d7411e4db9e",
         "type": "tabs",
         "children": [
           {
-            "id": "619e1f7abd7728e0",
+            "id": "c983e2845698e8e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-07-28.md",
+                "file": "journals/2025-08-06.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-28"
+              "title": "2025-08-06"
             }
           }
         ]
@@ -178,11 +178,19 @@
       "random-note:Open random note": false
     }
   },
-  "active": "619e1f7abd7728e0",
+  "active": "c983e2845698e8e0",
   "lastOpenFiles": [
+    "pages/Untitled.md",
+    "journals/2025-08-06.md",
+    "pages/Think like a farmer.md",
+    "journals/2025-07-29.md",
+    "journals/2025-07-31.md",
+    "journals/2025-08-05.md",
+    "pages/NixOS Framework Laptop AMD AI 300 Don't Sleep.md",
+    "journals/2025-07-28.md",
+    "pages/Vimium.md",
     "journals/2025-07-22.md",
     "journals/2025-07-26.md",
-    "journals/2025-07-28.md",
     "pages/Project Fakedoor.md",
     "journals/2025-07-18.md",
     "pages/Project.md",
@@ -193,19 +201,11 @@
     "pages/Project MarkRight.md",
     "pages/Project Everynews.md",
     "pages/Agentic Trading.md",
-    "pages/Untitled.md",
     "pages/Project Referrals.md",
     "journals/2025-07-08.md",
-    "pages/NixOS Framework Laptop AMD AI 300 Don't Sleep.md",
     "journals/2025-07-07.md",
     "journals/2025-07-17.md",
     "journals/2025-07-15.md",
-    "journals/2025-07-16.md",
-    "journals/2025-07-11.md",
-    "journals/2025-07-09.md",
-    "pages/INCL.md",
-    "pages/Friend.com Mayhem.md",
-    "journals/2024-08-02.md",
     "assets/852953.png"
   ]
 }
