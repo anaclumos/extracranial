@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "아래 항목별로 구체적으로 어떤 작업(Work Item)들이 포함되는지 설명합니다.",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a2b4dbce0e1ec5a5",
@@ -180,32 +179,32 @@
   },
   "active": "c983e2845698e8e0",
   "lastOpenFiles": [
+    "journals/2025-07-29.md",
+    "journals/2025-07-28.md",
+    "journals/2025-07-22.md",
+    "journals/2025-07-18.md",
+    "journals/2025-07-08.md",
+    "journals/2025-07-07.md",
+    "journals/2025-07-06.md",
+    "journals/2025-07-05.md",
+    "journals/2025-07-04.md",
+    "journals/2025-07-03.md",
+    "journals/2025-08-06.md",
     "pages/CloudHopper Examples Test Report.md",
     "pages/Untitled.md",
-    "journals/2025-08-06.md",
     "pages/Think like a farmer.md",
-    "journals/2025-07-29.md",
     "journals/2025-07-31.md",
     "journals/2025-08-05.md",
     "pages/NixOS Framework Laptop AMD AI 300 Don't Sleep.md",
-    "journals/2025-07-28.md",
     "pages/Vimium.md",
-    "journals/2025-07-22.md",
     "journals/2025-07-26.md",
     "pages/Project Fakedoor.md",
-    "journals/2025-07-18.md",
     "pages/Project.md",
     "journals/2025-07-25.md",
     "pages/Project Starfinder.md",
     "pages/Project Democratools.md",
     "pages/Project Now Korea.md",
     "pages/Project MarkRight.md",
-    "pages/Project Everynews.md",
-    "pages/Agentic Trading.md",
-    "pages/Project Referrals.md",
-    "journals/2025-07-08.md",
-    "journals/2025-07-07.md",
-    "journals/2025-07-17.md",
     "assets/852953.png"
   ]
 }
