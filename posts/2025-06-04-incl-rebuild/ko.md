@@ -7,7 +7,6 @@ slug: '/493D6F'
 
 <!-- truncate -->
 
-import ReactPlayer from 'react-player'
 import Admonition from '@theme/Admonition';
 
 최근 가장 많은 노력을 쏟은 것은 루닛에서의 MLOps 업무이다. 첫 직장인 이곳에서 MLOps 플랫폼의 프론트엔드 전체를 현대적으로 재개발을 리드했는데, 결과적으로 성공 반, 실패 반으로 끝났다. 그 이야기를 조심스레 해보려 한다.
@@ -169,7 +168,10 @@ import videoF70351 from './F70351.mp4'
 
 <figure>
 
-<ReactPlayer playing controls loop muted url={videoF70351} width='100%' height='100%'/>
+<video controls loop muted autoPlay style={{width: '100%', height: '100%'}}>
+
+  <source src={videoF70351} type="video/mp4" />
+</video>
 
 <figcaption>
 
@@ -227,7 +229,10 @@ import video5F8BA9 from './5F8BA9.mp4'
 
 <figure>
 
-<ReactPlayer controls loop muted url={video5F8BA9} width='100%' height='100%'/>
+<video controls loop muted style={{width: '100%', height: '100%'}}>
+
+  <source src={video5F8BA9} type="video/mp4" />
+</video>
 
 <figcaption>
 
