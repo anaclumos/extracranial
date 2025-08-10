@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/9DFBB8'
 ---
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title='GANGNAM is...' icon="🩵">
 
 GANGNAM is a development philosophy that emphasizes simplicity, hot-replaceability, and ergonomics. It encourages experimentation, using SaaS until studied, and opting for the least work required. GANGNAM also promotes using tools that are interoperable and hot-replaceable.
@@ -47,8 +49,6 @@ The goal of the GANGNAM is to build systems in hot-replaceable chunks, with ever
 So, experiment more, learn more, ask more. Become a wanderlust and aggressively explore new tools.
 
 Also, hear out when people have different opinions.
-
-import Admonition from '@theme/Admonition';
 
 <Admonition type="tip" title='My three liner would be' icon="💚">
 
