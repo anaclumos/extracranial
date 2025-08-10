@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/2F432B'
 ---
 
+import Admonition from '@theme/Admonition';
+
 <Admonition type="info" title='SEOCHO is...' icon="🩵">
 
 - **S**traight: each components opt for least-work
