@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "57c31d7411e4db9e",
+        "id": "3f832e51a9f25be9",
         "type": "tabs",
         "children": [
           {
-            "id": "c983e2845698e8e0",
+            "id": "6d33829e52c641b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-08-06.md",
-                "mode": "source",
+                "file": "pages/SEOCHO Stack (2025).md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-06"
+              "title": "SEOCHO Stack (2025)"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "아래 항목별로 구체적으로 어떤 작업(Work Item)들이 포함되는지 설명합니다.",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a2b4dbce0e1ec5a5",
@@ -177,8 +178,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "c983e2845698e8e0",
+  "active": "6d33829e52c641b8",
   "lastOpenFiles": [
+    "journals/2025-08-10.md",
+    "pages/GANGNAM (2024).md",
+    "pages/SEOCHO Stack (2025).md",
+    "pages/SQL Nuke.md",
+    "journals/2025-08-06.md",
     "journals/2025-07-29.md",
     "journals/2025-07-28.md",
     "journals/2025-07-22.md",
@@ -189,7 +195,6 @@
     "journals/2025-07-05.md",
     "journals/2025-07-04.md",
     "journals/2025-07-03.md",
-    "journals/2025-08-06.md",
     "pages/CloudHopper Examples Test Report.md",
     "pages/Untitled.md",
     "pages/Think like a farmer.md",
@@ -201,10 +206,6 @@
     "pages/Project Fakedoor.md",
     "pages/Project.md",
     "journals/2025-07-25.md",
-    "pages/Project Starfinder.md",
-    "pages/Project Democratools.md",
-    "pages/Project Now Korea.md",
-    "pages/Project MarkRight.md",
     "assets/852953.png"
   ]
 }

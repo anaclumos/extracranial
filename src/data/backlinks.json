@@ -1755,7 +1755,7 @@
   "2024-07-30": {},
   "2024-07-31": {},
   "2024-08-01": {
-    "GANGNAM": "Last updated on [[2024-08-01]]."
+    "GANGNAM (2024)": "Last updated on [[2024-08-01]]."
   },
   "2024-08-02": {},
   "2024-08-03": {},
@@ -1912,6 +1912,7 @@
   "2025-07-28": {},
   "2025-07-29": {},
   "2025-08-06": {},
+  "2025-08-10": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -8202,10 +8203,11 @@
     "Passkey": "Passkey for Google is [[GA]] as of [[2023-05-03]]",
     "도메인 찾아 삼만리": "... 1년 뒤 [[Google|구글]]이 `.dev` 도메인을 [[GA|공개]]했고, `cho.dev`을 사려 했지만 ▲ 가격이 ..."
   },
-  "GANGNAM": {
-    "2024-07-31": "- [[GANGNAM]]",
-    "2024-08-02": "- [[GANGNAM]]",
-    "2024-08-20": "- [[GANGNAM]]"
+  "GANGNAM (2024)": {
+    "2024-07-31": "- [[GANGNAM (2024)]]",
+    "2024-08-02": "- [[GANGNAM (2024)]]",
+    "2024-08-20": "- [[GANGNAM (2024)]]",
+    "2025-08-10": "- [[GANGNAM (2024)]]"
   },
   "GDB": {
     "Internetworking": "- [[GDB]]"
@@ -11072,7 +11074,7 @@
     "2024-05-02": "... 엔젤 투자. 나는 그동안 항상 [[Open Core Models]]이 유일한 커뮤니티 상생법이라고 생각했는데 얘네처럼 ...",
     "2024-07-04": "- [[Open Core Models]]",
     "2024-07-10": "- [[Open Core Models]]",
-    "GANGNAM": "... OSS and GitHub-Sponsor them. See [[Open Core Models]].",
+    "GANGNAM (2024)": "... OSS and GitHub-Sponsor them. See [[Open Core Models]].",
     "Newtonian Correspondence": "| [02-28](../journals/2023-02-28.md) | `EN` [[Open Core Models]] | [Tweet](https://twitter.com/anaclumos/status/1763114869845557579) |"
   },
   "Open Graph Image as a Service": {
@@ -12647,6 +12649,9 @@
   "SEED": {
     "Why Korean Banks Suck": "... and made it a standard ([[SEED]].)",
     "국내 은행 서비스가 나쁜 이유": "... 128비트 보안 시스템을 자체적으로 개발해 [[SEED]]라는 표준으로 삼았다."
+  },
+  "SEOCHO Stack (2025)": {
+    "2025-08-10": "- [[SEOCHO Stack (2025)]]"
   },
   "SHAP": {
     "2022-12-24": "- [[SHAP]]"
