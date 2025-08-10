@@ -71,9 +71,7 @@ Why is it called GANGNAM, by the way? I live in Gangnam right now, and I convers
 
 Your most valuable asset is your energy and a few slim time windows to gauge the market. Choose the most 'ergonomic' tool, whatever that is. If you can do the same thing with one of the codes, then there's no reason not to choose it.
 
-For example, take config hell:
-
-If you need to configure something just to get it to work, it's not ergonomic. Things should work out of the box.
+For example, take config hell: If you need to configure something just to get it to work, it's not ergonomic. Things should work out of the box.
 
 - TypeScripted Node is unergonomic because you need to touch tsconfig and ts-node to get it to work. A better approach will be a runtime that just understands TypeScript natively. As of today, it's Bun.
 - CJS-ESM are unergonomic because you need to set up interops. A better alternative would be a runtime that agnostically takes them all. As of today, it's Bun.
