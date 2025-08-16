@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3f832e51a9f25be9",
+        "id": "d0970d9604e917c8",
         "type": "tabs",
         "children": [
           {
-            "id": "6d33829e52c641b8",
+            "id": "c472759b8a37df95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/SEOCHO Stack (2025).md",
+                "file": "journals/2025-08-16.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SEOCHO Stack (2025)"
+              "title": "2025-08-16"
+            }
+          },
+          {
+            "id": "780b2cbd6149c4b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Project Fakedoor.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Project Fakedoor"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,11 +203,22 @@
       "random-note:Open random note": false
     }
   },
-  "active": "6d33829e52c641b8",
+  "active": "780b2cbd6149c4b5",
   "lastOpenFiles": [
+    "journals/2025-08-16.md",
+    "journals/2025-08-14.md",
+    "journals/2025-08-13.md",
+    "pages/Satoshi.md",
+    "journals/2025-08-11.md",
+    "pages/Project MarkRight.md",
+    "journals/2025-08-12.md",
     "journals/2025-08-10.md",
-    "pages/GANGNAM (2024).md",
+    "pages/Microsoft's Story Format.md",
+    "pages/iOS Icon Design.md",
+    "pages/Prompt.md",
+    "pages/Squircled App Icon Generator.md",
     "pages/SEOCHO Stack (2025).md",
+    "pages/GANGNAM (2024).md",
     "pages/SQL Nuke.md",
     "journals/2025-08-06.md",
     "journals/2025-07-29.md",
@@ -195,17 +231,6 @@
     "journals/2025-07-05.md",
     "journals/2025-07-04.md",
     "journals/2025-07-03.md",
-    "pages/CloudHopper Examples Test Report.md",
-    "pages/Untitled.md",
-    "pages/Think like a farmer.md",
-    "journals/2025-07-31.md",
-    "journals/2025-08-05.md",
-    "pages/NixOS Framework Laptop AMD AI 300 Don't Sleep.md",
-    "pages/Vimium.md",
-    "journals/2025-07-26.md",
-    "pages/Project Fakedoor.md",
-    "pages/Project.md",
-    "journals/2025-07-25.md",
     "assets/852953.png"
   ]
 }

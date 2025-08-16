@@ -1913,6 +1913,11 @@
   "2025-07-29": {},
   "2025-08-06": {},
   "2025-08-10": {},
+  "2025-08-11": {},
+  "2025-08-12": {},
+  "2025-08-13": {},
+  "2025-08-14": {},
+  "2025-08-16": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -5917,6 +5922,7 @@
     "Towards Ambient Computing": "... then, as we all know, [[ChatGPT]] came along.",
     "Unsemantic": "... lived for a while 😁 [[ChatGPT]] is very unsemantic",
     "Wolfram Alpha": "## Wolfram's [[ChatGPT]] prompt",
+    "iOS Icon Design": "- [[ChatGPT]] [[Prompt]]",
     "기술 발전의 속도": "그런데 고작 3개월도 되지 않아 [[ChatGPT]]가 등장하며... 모든 것을 뒤바꾸어 놓았다. ...",
     "앰비언트 컴퓨팅을 향해": "... 없었기 때문이다. 그리고 모두가 알다시피 [[ChatGPT]]가 등장했다.",
     "초대장의 시대": "... 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
@@ -10436,6 +10442,9 @@
     "macOS": "... widely used desktop [[OS]], after [[Microsoft]] Windows and ahead of [[Linux]]. ...",
     "원숭이와 꽃신": "- [[Microsoft|마이크로소프트]]도 이런 '[[Simian|원숭이]] 꽃신 [[Economy|경제]]학'에 충실한 ..."
   },
+  "Microsoft's Story Format": {
+    "2025-08-12": "[[Microsoft's Story Format]]"
+  },
   "Midjourney": {
     "2022-12-28": "- [[Midjourney]]",
     "Replicating Balenciaga Harry Potter Advertisement": "2. Used [[Midjourney]] to create character images, but ...",
@@ -11917,6 +11926,7 @@
   },
   "Project Fakedoor": {
     "2025-07-22": "[[Project Fakedoor]]",
+    "2025-08-16": "[[Project Fakedoor]]",
     "Project": "- [[Project Fakedoor]]"
   },
   "Project Fiesole": {
@@ -12065,6 +12075,7 @@
     "2025-07-01": "- [[Project MarkRight]]",
     "2025-07-03": "[[Project MarkRight]]",
     "2025-07-05": "[[Project MarkRight]]",
+    "2025-08-13": "[[Project MarkRight]]",
     "Project": "- [[Project MarkRight]]"
   },
   "Project Millionaire": {
@@ -12122,6 +12133,9 @@
     "2025-07-06": "- [[Project Starfinder]]",
     "2025-07-18": "[[Project Starfinder]]",
     "Project": "- [[Project Starfinder]]"
+  },
+  "Prompt": {
+    "iOS Icon Design": "- [[ChatGPT]] [[Prompt]]"
   },
   "Prompt Engineering": {
     "2022-09-03": "- [[Prompt Engineering]]",
@@ -15525,6 +15539,9 @@
     "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": "... 디자인은 대부분 디자인 시스템에 위탁합니다 ([[iOS]] 앱의 경우 [[Apple]] Human Interface ...",
     "라즈베리 파이로 스마트 오디오 시스템 만들기": "AirPlay를 지원하는 [[iOS]] / [[iOS|iPadOS]] 기기를 사용하는 경우 컨트롤 센터에서 ...",
     "하늘땅사람 업데이트 기록": "- [[iOS]] 15에서도 하늘땅사람 키보드를 사용할 수 ..."
+  },
+  "iOS Icon Design": {
+    "2025-08-11": "[[iOS Icon Design]]"
   },
   "iOS Style Toggle in CSS": {
     "2022-10-12": "...  - [x] Archived [[iOS Style Toggle in CSS]]"
