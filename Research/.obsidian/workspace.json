@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "2025-08-16"
             }
-          },
-          {
-            "id": "780b2cbd6149c4b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Project Fakedoor.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project Fakedoor"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,8 +178,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "780b2cbd6149c4b5",
+  "active": "c472759b8a37df95",
   "lastOpenFiles": [
+    "pages/Project Fakedoor.md",
     "journals/2025-08-16.md",
     "journals/2025-08-14.md",
     "journals/2025-08-13.md",
@@ -230,7 +206,6 @@
     "journals/2025-07-06.md",
     "journals/2025-07-05.md",
     "journals/2025-07-04.md",
-    "journals/2025-07-03.md",
     "assets/852953.png"
   ]
 }
