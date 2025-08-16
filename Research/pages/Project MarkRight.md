@@ -18,6 +18,8 @@ A spiritual superset of Markdown.
 - Interlinking native support
   - Etymo? Maybe this should be handled in the compiler level not the syntax level.
 - Highlight native support
+- `TOC` native support.
+- Pagebreak Native Support
 
 First line of the docs should be a title.
 
@@ -41,4 +43,4 @@ or should we go completely MD superset only?
 
 ## case study
 
-- [neon.com](https://neon.com/docs/introduction/architecture-overview 'Neon architecture - Neon Docs'): why do chatgpt render it like this?
+- `[neon.com](https://neon.com/docs/introduction/architecture-overview 'Neon architecture - Neon Docs')`: why do chatgpt render it like this?
