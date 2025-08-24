@@ -1918,6 +1918,8 @@
   "2025-08-13": {},
   "2025-08-14": {},
   "2025-08-16": {},
+  "2025-08-21": {},
+  "2025-08-23": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -3975,6 +3977,9 @@
   },
   "AMR": {
     "Person ED7526": "... interest in semantics, especially in [[AMR]]."
+  },
+  "ANN": {
+    "2025-08-23": "- [[ANN]]"
   },
   "API": {
     "0278 First Bad Version": "You are given an [[API]] `bool isBadVersion(version)` which returns whether ...",
@@ -6958,7 +6963,8 @@
   },
   "Docker Nuke": {
     "2025-04-09": "[[Docker Nuke]]",
-    "2025-05-08": "- [[Docker Nuke]]"
+    "2025-05-08": "- [[Docker Nuke]]",
+    "2025-08-21": "[[Docker Nuke]]"
   },
   "Docusaurus": {
     "2022-10-17": "> Thanks! I want [[Docusaurus]] to have this feature built-in ...",
@@ -11249,6 +11255,9 @@
     "2022-11-04": "- [[Page Size and Address Translations]]",
     "Computer Systems": "- [[Page Size and Address Translations]]",
     "Virtual Memory": "- [[Page Size and Address Translations]]"
+  },
+  "Pagemate": {
+    "2025-08-23": "- [[Pagemate]]"
   },
   "Painterly Illustration Design Trend (2024)": {
     "2024-05-11": "- [[Painterly Illustration Design Trend (2024)]]"
@@ -16283,7 +16292,8 @@
     "Cosmic noises of life": "- [[水適穿石|Persistence]] is the key",
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
     "Jog 25 minutes (Jan-Feb 24誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
-    "Journal Everyday (Jan-Feb 24誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]"
+    "Journal Everyday (Jan-Feb 24誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
+    "journal template": "## [[水適穿石]]"
   },
   "洪兔雜記": {
     "2023-09-24": "- [[洪民憙雜記]] [[洪兔雜記]]"
