@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Project Fakedoor.md",
+                "file": "journals/2025-08-31.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project Fakedoor"
+              "title": "2025-08-31"
             }
           }
         ],
@@ -205,12 +205,14 @@
   },
   "active": "c4549f6f795b4474",
   "lastOpenFiles": [
+    "assets/837F65.png",
+    "journals/2025-09-01.md",
     "journals/2025-08-31.md",
+    "pages/Project Fakedoor.md",
     "journals/2025-08-29.md",
     "journals/2025-08-27.md",
     "journals/2025-08-26.md",
     "journals/2025-08-25.md",
-    "pages/Project Fakedoor.md",
     "templates/journal template.md",
     "templates/note template.md",
     "journals/2025-08-23.md",
@@ -229,8 +231,6 @@
     "journals/2025-08-19.md",
     "pages/Chameleon.md",
     "journals/2025-08-18.md",
-    "journals/2025-08-13.md",
-    "pages/Satoshi.md",
     "assets/852953.png"
   ]
 }
