@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Inquiry for Hypany Template.md",
-                "mode": "preview",
+                "file": "journals/2025-09-02.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Inquiry for Hypany Template"
+              "title": "2025-09-02"
             }
           },
           {
@@ -204,14 +204,15 @@
   },
   "active": "1d484de4967a5674",
   "lastOpenFiles": [
-    "pages/Hypany.md",
     "journals/2025-09-01.md",
-    "pages/Hypany Interview with Dohu.md",
+    "journals/2025-08-31.md",
+    "journals/2025-09-02.md",
     "pages/Inquiry for Hypany Template.md",
+    "pages/Hypany.md",
+    "pages/Hypany Interview with Dohu.md",
     "journals/2025-08-27.md",
     "pages/Written 100% By A Human.md",
     "pages/나.md",
-    "journals/2025-08-31.md",
     "assets/837F65.png",
     "journals/2025-08-29.md",
     "journals/2025-08-26.md",
@@ -230,7 +231,6 @@
     "pages/Docker Nuke.md",
     "pages/공유 드릴 내용.md",
     "journals/2025-08-20.md",
-    "journals/2025-08-14.md",
     "assets/852953.png"
   ]
 }
