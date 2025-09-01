@@ -9,7 +9,7 @@ aliases:
 ---
 
 - [[Project Starfinder]]
-- [[Project Fakedoor]]
+- [[Hypany]]
 - [[Project Democratools]]
 - [[Project Now Korea]]
 - [[Project MarkRight]]

@@ -1925,6 +1925,9 @@
   "2025-08-27": {},
   "2025-08-29": {},
   "2025-08-31": {},
+  "2025-09-01": {
+    "Hypany": "## [[2025-09-01]]"
+  },
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -9019,6 +9022,19 @@
   "Husky": {
     "Grammarly Work Note 2023-05-26": "... [[Pull Request]] with tools like [[Husky]]."
   },
+  "Hypany": {
+    "2025-07-22": "[[Hypany]]",
+    "2025-08-16": "[[Hypany]]",
+    "2025-08-25": "[[Hypany]]",
+    "2025-08-31": "[[Hypany]] 중 정말 오래 걸리는 Next.js ...",
+    "2025-09-01": "- [[Hypany]]",
+    "Inquiry for Hypany Template": "I am building [[Hypany]], an open-source tool for validating ...",
+    "Project": "- [[Hypany]]"
+  },
+  "Hypany Interview with Dohu": {
+    "2025-09-01": "- [[Hypany Interview with Dohu]]",
+    "Hypany": "- [[Hypany Interview with Dohu]]"
+  },
   "Hyperview": {
     "2022-12-28": "- [[Hyperview]]"
   },
@@ -9184,6 +9200,10 @@
   },
   "Inliner": {
     "2022-10-04": "- [[Inliner]]"
+  },
+  "Inquiry for Hypany Template": {
+    "2025-09-01": "- [[Inquiry for Hypany Template]]",
+    "Hypany": "- [[Inquiry for Hypany Template]]"
   },
   "Inspecting Assembly": {
     "2022-09-25": "- [[Inspecting Assembly]]",
@@ -11803,6 +11823,7 @@
     "HN Broadcast": "[[Old Someday]] [[Project]]",
     "Habit Together": "[[Old Someday]] [[Project]]. A habit-making app, but you ...",
     "HealthKit as an API": "[[Old Someday]] [[Project]].",
+    "Hypany": "[[Project]]",
     "Intracranial": "[[Old Someday]] [[Project]]. [[Infinite Canvas]] for Zettlekasten.",
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
     "Jog 25 minutes (Jan-Feb 24誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
@@ -11825,7 +11846,6 @@
     "Power Nap Pill": "[[Oneday]] [[Project]].",
     "Programmable Vaccines": "[[Oneday]] [[Project]]",
     "Project FFMpeg for iPad": "- [[Old Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
-    "Project Fakedoor": "[[Project]]",
     "Project Florence": "- [[Project]] Florence is a research [[project]] ...",
     "Project Ganymede": "- Therefore, we name it [[Project]] Ganymede. You can NEVER win ...",
     "Project Heimdall": "... conventional [[Docusaurus]] with [[Listmonk]]. Consider [[Project]] [[Done]].",
@@ -11940,13 +11960,6 @@
   "Project FFMpeg for iPad": {
     "2022-10-20": "- [[Project FFMpeg for iPad]]",
     "2023-05-09": "- [[Project FFMpeg for iPad]]"
-  },
-  "Project Fakedoor": {
-    "2025-07-22": "[[Project Fakedoor]]",
-    "2025-08-16": "[[Project Fakedoor]]",
-    "2025-08-25": "[[Project Fakedoor]]",
-    "2025-08-31": "[[Project Fakedoor]] 중 정말 오래 걸리는 Next.js ...",
-    "Project": "- [[Project Fakedoor]]"
   },
   "Project Fiesole": {
     "2023-10-03": "- [[Project Fiesole]]",
@@ -14779,6 +14792,9 @@
     "Imagining WebNPU API": "... for developers, as they can [[Write Once Run Everywhere]].",
     "WebNPU API를 상상하다": "... 필요가 없다. WebNPU는 또한 개발자들이 [[Write Once Run Everywhere]]를 이루어주기 때문에 개발 프로세스를 단순화할 ..."
   },
+  "Written 100% By A Human": {
+    "Inquiry for Hypany Template": "[[Written 100% By A Human]]"
+  },
   "WslRegisterDistribution Failed": {
     "2024-09-04": "[[WslRegisterDistribution Failed]]"
   },
@@ -16160,6 +16176,9 @@
   "text-transform capitalize": {
     "2024-01-20": "- [[text-transform capitalize]]"
   },
+  "think like a farmer": {
+    "Inquiry for Hypany Template": "... be a _parallel entrepreneur_. Or, [[think like a farmer]]."
+  },
   "threads": {
     "2022-07-06": "... Concept|PoC]] that two [[WorkerDOM]] upgraded [[threads]] don't block each other_ - ...",
     "2023-02-16": "... memory when you spawn more [[threads]], and we cannot get full ...",
@@ -16303,6 +16322,7 @@
     "2025-08-27": "## [[水適穿石]]",
     "2025-08-29": "## [[水適穿石]]",
     "2025-08-31": "## [[水適穿石]]",
+    "2025-09-01": "## [[水適穿石]]",
     "Cosmic noises of life": "- [[水適穿石|Persistence]] is the key",
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
     "Jog 25 minutes (Jan-Feb 24誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
@@ -16505,6 +16525,9 @@
   },
   "깍두기": {
     "2023-09-19": "- [[깍두기]]"
+  },
+  "나": {
+    "2025-09-01": "- [[나]]"
   },
   "나락 탐지": {
     "2024-04-07": "- [[나락 탐지]]",
