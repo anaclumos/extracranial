@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@fumadocs/mdx-remote": "^1.4.0",
+    "@giscus/react": "^3.1.0",
     "@radix-ui/react-slot": "^1.2.3",
     "@types/d3-force": "^3.0.10",
     "class-variance-authority": "^0.7.1",
@@ -41,6 +42,7 @@
     "dev": "next dev",
     "postinstall": "fumadocs-mdx",
     "start": "next start",
+    "video:sync": "bash scripts/sync-next-video.sh",
     "format": "bunx prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
     "save": "bun run preprocess.ts && git add . && git status && git commit -m 'wrote something' && git push"
   },

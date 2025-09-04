@@ -18,6 +18,7 @@ slug: '/F239D0'
 
 :::tip
 
+
 OMD는 Open Market Device 라는 뜻이다.
 
 :::

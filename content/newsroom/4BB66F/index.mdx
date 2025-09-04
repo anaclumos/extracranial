@@ -7,7 +7,7 @@ slug: '/4BB66F'
 
 - This is a personal analysis and there is no way to verify this article until YouTube releases the source code. Please keep that in mind when reading this article.
 
-![YouTube, a strange video platform where a Korean singer sings a Korean song on a Korean broadcast, but there are only Korean comments](./7C928F.png)
+<Figure src="/generated/newsroom/4BB66F/7C928F.png" alt="YouTube, a strange video platform where a Korean singer sings a Korean song on a Korean broadcast, but there are only Korean comments" width={1440} height={900} />
 
 YouTube does not have the ability to view comments based on language. This article tells the story of the development of "YouTube Comment Language Filter" from its alpha, beta, and general release versions.
 
@@ -73,7 +73,7 @@ Solving these problems became a natural development goal. I thought it would be 
 
 I also felt that to make it easier for non-computer savvy people to use, it should be located between the video and the comment, "just like YouTube does," so that users can move their mouse cursor from the video to the comment and use it naturally. So I didn't want a Chrome extension, I wanted to embed the menu directly into the YouTube screen itself.
 
-![We have a spy in our midst...](./EF5C78.png)
+<Figure src="/generated/newsroom/4BB66F/EF5C78.png" alt="We have a spy in our midst..." width={2000} height={2000} />
 
 Now, the goal became concrete.
 
@@ -116,7 +116,7 @@ YouTube's loading icon
 
 When I checked, the `<can-show-more>` tag appeared and disappeared under the comment whenever the loading icon appeared, so I thought I could catch the moment when YouTube's [**obfuscated**](<./%3Chttps://en.wikipedia.org/wiki/Obfuscation_(software)%3E>) javascript code inserted the `<can-show-more>` tag and re-run the filter accordingly.
 
-![But I think I had that idea because I forgot what obfuscation means... After a few hours of struggle, I gave up](./1A6BB3.png)
+<Figure src="/generated/newsroom/4BB66F/1A6BB3.png" alt="But I think I had that idea because I forgot what obfuscation means... After a few hours of struggle, I gave up" width={2000} height={1500} />
 
 ### Method 3. MutationObserver
 
@@ -128,11 +128,11 @@ I spent the next three days learning about the structure of Chrome Extensions an
 
 ### Finish the alpha version
 
-![User review of the alpha version. "Slow performance, but it works" is an accurate description of the alpha version](./E05A88.png)
+<Figure src="/generated/newsroom/4BB66F/E05A88.png" alt="User review of the alpha version. &quot;Slow performance, but it works&quot; is an accurate description of the alpha version" width={1500} height={1000} />
 
 We started development on March 6, 2020, and finished the first alpha version on March 11. We shared the alpha with a small group of testers and spent about a week collecting user reviews and researching improvements and bugs.
 
-![Screenshot from the alpha version. The alpha version had a button to switch between Korean and full comments](./B2ADCF.png)
+<Figure src="/generated/newsroom/4BB66F/B2ADCF.png" alt="Screenshot from the alpha version. The alpha version had a button to switch between Korean and full comments" width={2880} height={1800} />
 
 ## 2\. Beta version
 
@@ -144,7 +144,7 @@ YouTube lazily loads content. [Lazy loading](https://en.wikipedia.org/wiki/Lazy_
 
 When you first land on a video page, the HTML for the comment interface doesn't exist. When the user starts scrolling to view the comments, a gray loading icon appears and loads the comment HTML. (Why? Because it saves querying the comment DB. Seems like a clever solution.) Since the comment HTML doesn't exist at the `document_end` of the extension, the extension throws an error and exits shortly after.
 
-![Lazy Loading on YouTube](./B1983C.png)
+<Figure src="/generated/newsroom/4BB66F/B1983C.png" alt="Lazy Loading on YouTube" width={2000} height={2000} />
 
 ### Solution.
 
@@ -152,7 +152,7 @@ Although YouTube's Lazy Loading prevented me from seeing the content of the comm
 
 This may seem a bit puzzling, as I had previously ruled out retrying at regular intervals as a waste of computation. In the previous case, the timer would loop indefinitely because it was re-checking the comments after a certain amount of time, whereas in this case, it only retries until the comments window loads. In practice, this workaround terminates normally after one or two retries. If it takes longer than that, your internet is too slow to view YouTube itself.
 
-![Bypassing YouTube's Lazy Loading](./19BC81.png)
+<Figure src="/generated/newsroom/4BB66F/19BC81.png" alt="Bypassing YouTube's Lazy Loading" width={2000} height={2000} />
 
 Secondary bugs have since emerged. Because I wasn't very good with JavaScript, I didn't know how to efficiently retry certain functions after a certain amount of time. YouTube would sometimes load infinitely when accessed by video URL or directly from search results. It turned out that we needed to make the JS retry after a certain amount of time, but by making it wait for a certain amount of time, we were preventing other JS from running. This bug can also be found in [GitHub Issue #4](https://github.com/anaclumos/youtube-comment-language-filter/issues/4) and was finally fixed in v1.1.4. (The bug showed up about once in 20 times, and it was harder to reproduce the error situation than to find the bug in the error situation.)
 
@@ -164,7 +164,7 @@ YouTube reuses a lot of components from HTML. If you've ever watched a YouTube v
 
 However, using `https://*.youtube.com/*` in the `manifest.json` caused the filter menu to be inserted in the wrong place, even on pages without a comment box.
 
-![Apparently the Chrome extension only checks the domain when a new page is loaded](./F6B289.png)
+<Figure src="/generated/newsroom/4BB66F/F6B289.png" alt="Apparently the Chrome extension only checks the domain when a new page is loaded" width={2000} height={2000} />
 
 Also, on video pages, even if the filter menu was inserted correctly, if you navigated to another video with the filter enabled, it would sometimes filter the "current video's comments" based on the "previous video's comment language". This also seemed to be caused by YouTube's recycling of the comment component. I mentioned earlier that I was jotting down the results in the comment HTML to speed things up, but this also scrambled the results and made the error bigger.
 
@@ -172,7 +172,7 @@ Also, on video pages, even if the filter menu was inserted correctly, if you nav
 
 The extension monitors website access. Be prepared to insert a filter if the domain being accessed is YouTube, or manually inspect the domain on a case-by-case basis and insert a filter if it's youtube.com/watch.
 
-![YouTube is a SPA](./48749C.png)
+<Figure src="/generated/newsroom/4BB66F/48749C.png" alt="YouTube is a SPA" width={2000} height={2000} />
 
 In this case, we need the "Can read user's history" permission when installing the extension. For this reason, I've included a note about the permissions used in the corresponding [commit](https://github.com/anaclumos/youtube-comment-language-filter/commit/ce34e2540ffa4aa70ddd463aed6d35ca7e2ae1cd) and [installation completion page](https://chosunghyun.com/youtube-comment-language-filter/). As you can see from the [GitHub open source](https://github.com/anaclumos/youtube-comment-language-filter), the browsing history is not sent externally.
 
@@ -211,7 +211,7 @@ We haven't completely fixed it yet. For now, we've modified v1.2 to use the name
 
 While there are no performance or functionality improvements to the filter itself, we have made usability improvements to the extension. We've built a settings window to hide unused languages and created a [landing page](https://chosunghyun.com/youtube-comment-language-filter) that opens immediately after installation. We've also created a short guide for reporting bugs. I also redid the promo image.
 
-![You might think this is a pointless task, but it works wonders for attracting more users than expected](./397577.png)
+<Figure src="/generated/newsroom/4BB66F/397577.png" alt="You might think this is a pointless task, but it works wonders for attracting more users than expected" width={2880} height={1800} />
 
 I did a small experiment a while back, and the difference between the number of people who came in with and without the promo image was about 4x.
 
@@ -223,7 +223,7 @@ My goal in releasing v1 was to create a deliverable that I could use without thi
 
 But the current v1 doesn't break the fun. I can just use it without thinking about it and it works fine. ([_It just all... works!_](https://youtu.be/KTrO2wUxh0Q?t=229))
 
-![Review from a friend who has been using it since the beta version](./E15E32.png)
+<Figure src="/generated/newsroom/4BB66F/E15E32.png" alt="Review from a friend who has been using it since the beta version" width={1200} height={400} />
 
 In addition, the original purpose of finding Korean comments works almost flawlessly. After all, Korean comments will have at least one Hangul character in them.
 
