@@ -5,8 +5,7 @@ description: '루닛 MLOps 플랫폼 INCL 프론트엔드의 현대적 재개발
 ---
 
 import { KoreaNetherlandsGlobe } from './korea-netherlands'
-import Video from 'next-video'
-import PlainVideo from '@/components/video/PlainVideo'
+// next-video removed: use native HTML <video>
 
 최근 가장 많은 노력을 쏟은 것은 루닛에서의 MLOps 업무이다. 첫 직장인 이곳에서 MLOps 플랫폼의 프론트엔드 전체를 현대적으로 재개발을 리드했는데, 결과적으로 성공 반, 실패 반으로 끝났다. 그 이야기를 조심스레 해보려 한다.
 
@@ -141,11 +140,11 @@ sequenceDiagram
 - 👍 개인화된 정보가 많은 앱에도 적합
 - 👎 번들 사이즈가 상대적으로 커짐
 
-import videoF70351 from './F70351.mp4'
+// Video moved to /public/media for direct serving
 
 
 
-<Video src={videoF70351} loop muted autoPlay as={PlainVideo} style={{ aspectRatio: 'auto', height: 'auto' }} />
+<video src="/media/newsroom/493D6F/F70351.mp4" loop muted autoPlay playsInline controls className="w-full h-auto" />
 
 
 
@@ -199,11 +198,11 @@ import videoF70351 from './F70351.mp4'
 
 얼핏 보면 단순해보이지만 App Router의 Nested Layout 없이는 정말로 골치 아프다. 결국 Blitz.js 및 FlightControl.dev의 Brandon Bayer님의 [메시지](https://x.com/flybayer/status/1818009089735279057)를 통해 큰 도움을 얻었는데, 바로 `layout.tsx`에 콘텐츠를 넣고, `page.tsx`를 의도적으로 비워놓는 것이다.
 
-import video5F8BA9 from './5F8BA9.mp4'
+// Video moved to /public/media for direct serving
 
 
 
-<Video src={video5F8BA9} loop muted as={PlainVideo} style={{ aspectRatio: 'auto', height: 'auto' }} />
+<video src="/media/newsroom/493D6F/5F8BA9.mp4" loop muted playsInline controls className="w-full h-auto" />
 
 
 
