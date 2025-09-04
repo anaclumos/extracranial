@@ -6,6 +6,7 @@ import { Calendar, ChevronLeft, Tag } from 'lucide-react'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { ComponentType } from 'react'
+import GiscusComments from '@/components/giscus-comments'
 
 type Loaded = {
   body: ComponentType<Record<string, unknown>>
@@ -78,6 +79,9 @@ export default async function NewsroomPost(props: { params: Promise<{ slug: stri
         <article className="prose max-w-prose">
           <Mdx components={getMDXComponents()} />
         </article>
+        <div className="mt-12">
+          <GiscusComments />
+        </div>
       </div>
     </main>
   )

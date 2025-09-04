@@ -7,7 +7,7 @@ description: '주말에 Next.js로 선택형 밈 추천 앱을 만들었다: 시
 
 최근 경쟁률이 매우 높은 (합격률 5% 내외) 교내 기술창업 동아리를 지원하는데 다음과 같은 질문이 있었습니다.
 
-![여기서 meme이란 '웃음을 유발하는 짧은 동영상'과 같은 뜻입니다.](./E08CF2.png)
+<Figure src="/generated/newsroom/7BF6C2/E08CF2.png" alt="여기서 meme이란 '웃음을 유발하는 짧은 동영상'과 같은 뜻입니다." width={1280} height={324} />
 
 반드시 들어가고 싶었던 동아리였기에 많은 고민이 들었습니다. 사람마다 관심사와 웃음 코드가 다르며 특정 그룹에게는 웃긴 내용이 다른 그룹에게는 불쾌한 내용으로 다가갈 수 있기 때문입니다.
 
@@ -17,7 +17,7 @@ description: '주말에 Next.js로 선택형 밈 추천 앱을 만들었다: 시
 
 우선 제가 재밌게 본 동영상들을 리스트업했습니다. (틱톡, 트위터, 인스타그램 대신 유튜브를 사용해도 상관 없을 것이라 판단했습니다.)
 
-![단톡방에서 youtu 키워드로 검색해서 제가 웃기다고 생각한 동영상들을 쉽게 찾을 수 있었습니다.](./949544.jpeg)
+<Figure src="/generated/newsroom/7BF6C2/949544.jpeg" alt="단톡방에서 youtu 키워드로 검색해서 제가 웃기다고 생각한 동영상들을 쉽게 찾을 수 있었습니다." width={2000} height={2000} />
 
 이후 Notion 페이지에서 카테고리별로 분류했습니다. 음악, 영화, 게임, 코딩, 일반적 Meme으로 나눌 수 있었습니다.
 
@@ -40,7 +40,7 @@ description: '주말에 Next.js로 선택형 밈 추천 앱을 만들었다: 시
   - 또한 결과적으로 이 시스템은 "동아리 지원서에 첨부될" 목적입니다.
   - 아무리 재미있는 영상을 추천해준다고 하더라도 제 이름을 기억하지 못하고 영상만 기억하게 된다면 본말이 전도된 것입니다.
 
-![그 과정에서 나는 이 동아리에 꼭 들어가고 싶다!!!라는 느낌을 뿜뿜하게 주고 싶었습니다.](./FC67D9.png)
+<Figure src="/generated/newsroom/7BF6C2/FC67D9.png" alt="그 과정에서 나는 이 동아리에 꼭 들어가고 싶다!!!라는 느낌을 뿜뿜하게 주고 싶었습니다." width={3840} height={2160} />
 
 ## 🥞 기술 스택 결정하기
 
@@ -130,16 +130,16 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 다시 말해서 인트로 페이지와 엔딩 페이지를 만들고, 빼먹은 디테일을 추가하는 일입니다. 예를 들어 특수한 경우를 위해 다른 형태의 View를 처리하는 작업을 했습니다. 사용자가 모든 질문에 대해서 잘 모른다고 답할 경우 다음과 같은 결과를 보여줍니다. 다른 뷰들은 동영상을 바로 `embed`하는데 반해 이 경우에만 버튼의 형태로 보여주었습니다.
 
-<figure>
+<Figure>
 
-![ALT: Fallback Video](./BE3DA7.png)
+<Figure src="/generated/newsroom/7BF6C2/BE3DA7.png" alt="ALT: Fallback Video" width={3840} height={2160} />
 
-<figcaption>
+<Figure.Caption>
 
 무슨 영상인지는 [직접 확인해보세요](https://smile.cho.sh/video/999)!
 
-</figcaption>
-</figure>
+</Figure.Caption>
+</Figure>
 
 ## ✨ 결과
 

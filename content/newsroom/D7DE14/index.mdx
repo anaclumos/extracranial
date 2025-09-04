@@ -8,7 +8,7 @@ slug: '/D7DE14'
 
 import YouTube from '@/components/youtube'
 
-![ALT: Image: Hero image of the iPhone's Korean keyboard: "Sky, Earth, and Human."](./7B584A.png)
+<Figure src="/generated/newsroom/D7DE14/7B584A.png" alt="ALT: Image: Hero image of the iPhone's Korean keyboard: &quot;Sky, Earth, and Human.&quot;" width={3840} height={2160} />
 
 <Callout type="info" title="Give me the App Store Link first!" icon="💎">
 
@@ -23,7 +23,7 @@ Unexpectedly, the most significant difficulty for older generations was the keyb
 
 The patent for Cheon-Ji-In entered the public domain in 2010. iPhone added support for Cheon-Ji-In in 2013, but its shape differed from that of the standard Cheon-Ji-In. The starkest difference was that the space button and the next character buttons were separate.
 
-![The space button and the next character button](./037F18.png)
+<Figure src="/generated/newsroom/D7DE14/037F18.png" alt="The space button and the next character button" width={3840} height={2160} />
 
 <Callout type="info" title='For example, to type "오 안녕"...' icon="💎">
 
@@ -56,37 +56,37 @@ I first read through Apple's [Creating a Custom Keyboard](https://developer.appl
 
 iPhone third-party keyboards use a unique structure known as extensions. Anything not running on the main iOS app is an extension -- custom keyboards are extensions, iOS widgets are extensions, and parts of Apple Watch apps are extensions. I read through [Ray Wenderlich](https://www.kodeco.com/49-custom-keyboard-extensions-getting-started) and understood how keyboard extensions worked.
 
-<figure>
+<Figure>
 
 <Horizontal>
 
-<figure>
+<Figure>
 
-![ALT: keyboard image of having gray background around `ㅇ`](./85D135.png)
+<Figure src="/generated/newsroom/D7DE14/85D135.png" alt="ALT: keyboard image of having gray background around `ㅇ`" width={1179} height={2556} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![ALT: keyboard image of having gray background around `ㅇ`](./B9DE45.png)
+<Figure src="/generated/newsroom/D7DE14/B9DE45.png" alt="ALT: keyboard image of having gray background around `ㅇ`" width={750} height={1334} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![ALT: keyboard image of having gray background around `ㅇ`](./A02D58.png)
+<Figure src="/generated/newsroom/D7DE14/A02D58.png" alt="ALT: keyboard image of having gray background around `ㅇ`" width={1179} height={2556} />
 
-</figure>
+</Figure>
 
 </Horizontal>
 
-<figcaption>
+<Figure.Caption>
 
 A few early prototypes
 
-</figcaption>
+</Figure.Caption>
 
-</figure>
+</Figure>
 
 The gray background of "ㅇ" was iOS's NSRange and setMarkedText. It helped enter the text by marking the currently edited characters, but such methods seemed more suitable for Pinyin in Chinese, not Cheon-Ji-In for Hangul.
 
@@ -148,16 +148,16 @@ Some may ask how I preprocessed such large combinations; I set the 11,000 final 
   This is an interactive demo of Cheon-Ji-In, made with Hwalja.
 </Callout>
 
-<figure>
+<Figure>
 
 <iframe src="https://hwalja.cho.sh/" title="Hwalja Demo" height="450" />
 
-<figcaption>
+<Figure.Caption>
 
 [I open-sourced Hwalja for platform-agnostic usage.](https://github.com/anaclumos/hwalja)<br/>Please try out the above demo!
 
-</figcaption>
-</figure>
+</Figure.Caption>
+</Figure>
 
 <Callout type="info" title="Don't be mistaken..." icon="💎">
   Hwalja is the most <strong>simplest</strong> implementation, not the <strong>lightest</strong>.
@@ -203,13 +203,13 @@ let guesses = uiTextChecker.completions(
 
 I used such features to implement the autocomplete feature. Sometimes the flow feels unnatural, or the keyboard does not suggest anything, but this is a perfect implementation for an MVP.
 
-![Happy 2023 💙](./8E6907.jpeg)
+<Figure src="/generated/newsroom/D7DE14/8E6907.jpeg" alt="Happy 2023 💙" width={1179} height={1235} />
 
 ## ⌨️ Advancing Keyboard Functionalities
 
 Cheon-Ji-In, rooting from the 10-key keypad, has many higher-level functionalities, such as long-pressing backspace to delete multiple characters until you release the key or holding any key to input the corresponding number key. I used Swift's closure to extend the keyboard component.
 
-<figure>
+<Figure>
 
 ```swift
 struct KeyboardButton: View {
@@ -240,13 +240,13 @@ struct KeyboardButton: View {
 }
 ```
 
-</figure>
+</Figure>
 
-<figcaption>
+<Figure.Caption>
 
 Code simplified for explanation. [KeyboardButton.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/KeyboardButton.swift)
 
-</figcaption>
+</Figure.Caption>
 
 I found an ingenious implementation on the part marked A. With this, I can successfully implement two features with one code.
 
@@ -257,7 +257,7 @@ It utilizes iOS's behavior that when the minimum distance of DragGesture is set 
 
 Furthermore, I used [Combine](https://developer.apple.com/documentation/combine), introduced with iOS13. Combine Framework is a Declarative Swift API to implement asynchronous operations. With this, we can create timers to implement the "long press backspace" action.
 
-<figure>
+<Figure>
 
 ```swift
 struct DeleteButton: View {
@@ -284,13 +284,13 @@ struct DeleteButton: View {
 }
 ```
 
-<figcaption>
+<Figure.Caption>
 
 Code simplified for explanation. [HangulView.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/HangulView.swift)
 
-</figcaption>
+</Figure.Caption>
 
-</figure>
+</Figure>
 
 With these codes, I implemented particular functionalities using long-press or drag gestures.
 
@@ -304,28 +304,28 @@ let fontWeight: UIAccessibility.isBoldTextEnabled ? .bold : .regular
 
 <Horizontal>
 
-![Bold Text Enabled](./F93D1B.png)
-![Bold Text Disabled](./68C6BB.png)
+<Figure src="/generated/newsroom/D7DE14/F93D1B.png" alt="Bold Text Enabled" width={1179} height={2556} />
+<Figure src="/generated/newsroom/D7DE14/68C6BB.png" alt="Bold Text Disabled" width={1179} height={2556} />
 
 </Horizontal>
 
 Also, I found one feature particularly inspirational. This keyboard is primarily for those Galaxy android devices with a "back" button in the bottom right corner. Galaxy users are used to dismissing the keyboard with the "back" button. So I placed the keyboard's dismiss button in the bottom right corner to resemble this.
 
-![Pressing the bottom right corner button dismisses the keyboard.](./ADBBB1.gif)
+<Figure src="/generated/newsroom/D7DE14/ADBBB1.gif" alt="Pressing the bottom right corner button dismisses the keyboard." width={480} height={1040} />
 
 ## 🧑🏻‍🎨 Using Midjourney to create the app icon
 
-<figure>
+<Figure>
 
-![ALT: Midjourney Images](./69A76A.png)
+<Figure src="/generated/newsroom/D7DE14/69A76A.png" alt="ALT: Midjourney Images" width={1532} height={1862} />
 
-<figcaption>
+<Figure.Caption>
 
 Images created with Midjourney
 
-</figcaption>
+</Figure.Caption>
 
-</figure>
+</Figure>
 
 I used Midjourney, a text-to-image AI program, to create the app icon. This is called prompt engineering. Creating paintings with various keywords was amusing.
 
@@ -336,17 +336,17 @@ When using this, if you push your React code to GitHub, Vercel will build and de
 
 <Horizontal>
 
-<figure>
+<Figure>
 
-![You can check the build linked with GitHub on the App Store console](./C387F9.png)
+<Figure src="/generated/newsroom/D7DE14/C387F9.png" alt="You can check the build linked with GitHub on the App Store console" width={3584} height={2240} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![Push notifications are supported.](./E0B0FF.png)
+<Figure src="/generated/newsroom/D7DE14/E0B0FF.png" alt="Push notifications are supported." width={1179} height={2556} />
 
-</figure>
+</Figure>
 
 </Horizontal>
 

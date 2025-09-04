@@ -10,7 +10,22 @@ import Horizontal from '@/components/horizontal'
 export function getMDXComponents(components?: MDXComponents): MDXComponents {
   return {
     ...defaultMdxComponents,
-    img: (props) => <ImageZoom {...props} />,
+    img: (props) =>
+      props.title ? (
+        <Figure
+          // @ts-ignore: src can be StaticImport
+          src={props.src}
+          alt={props.alt ?? ''}
+          // width/height are present for static imports (remarkImage useImport)
+          // @ts-ignore
+          width={props.width as any}
+          // @ts-ignore
+          height={props.height as any}
+          caption={props.title}
+        />
+      ) : (
+        <ImageZoom {...props} />
+      ),
     Figure,
     Mermaid,
     ...TabsComponents,

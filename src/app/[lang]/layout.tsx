@@ -37,3 +37,14 @@ export default async function Layout({ children, params }: { children: ReactNode
     </html>
   )
 }
+
+// Force this entire segment subtree to be statically generated
+export const dynamic = 'force-static'
+
+// Pre-generate all supported locales for static output
+export function generateStaticParams() {
+  return locales.map((l) => ({ lang: l.locale }))
+}
+
+// Limit to the known set of params at build time
+export const dynamicParams = false

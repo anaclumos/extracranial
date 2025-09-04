@@ -5,7 +5,7 @@ slug: '/6B6D29'
 description: 'I explain video compression in plain English: I/P/B‑frames, redundancy, and why packet loss causes ghosting and pixelation.'
 ---
 
-![Example of Video Ghosting](./715FD6.png)
+<Figure src="/generated/newsroom/6B6D29/715FD6.png" alt="Example of Video Ghosting" width={2000} height={1500} />
 
 In this article, we will learn about the principle of video compression and discuss why the above phenomenon occurs.
 
@@ -37,7 +37,7 @@ Remember giving out prizes at school holidays? Let's imagine that the same award
 
 The same goes for videos. Since many videos have similar frames, they can also express information about the relationship between the structures before and after or omit it altogether. This can reduce temporal redundancy.
 
-![Who's better? Principal announcing for 2 hours or 2 minutes?](./D04B1D.png)
+<Figure src="/generated/newsroom/6B6D29/D04B1D.png" alt="Who's better? Principal announcing for 2 hours or 2 minutes?" width={2048} height={1536} />
 
 ### #1. `I-Frame` being the standard
 
@@ -47,7 +47,7 @@ An I-Frame (Intra-coded picture) is a photograph. All information in the I-Frame
 
 A P-Frame (Predicted Pictures) is inserted between each I-Frame. The amount of change from the previous screen is expressed in the P-Frame. If the current frame has something in common with the last structure, information about the prior frame is retrieved and used. It is easier to understand by looking at the picture.
 
-![Copyright: Blender Foundation 2006. Netherlands Media Art Institute. www.elephantsdream.org](./7F7A32.png)
+<Figure src="/generated/newsroom/6B6D29/7F7A32.png" alt="Copyright: Blender Foundation 2006. Netherlands Media Art Institute. www.elephantsdream.org" width={1130} height={1080} />
 
 What is represented by an arrow is a motion vector representing the amount of change. In addition to this, P-Frame includes conversion values for prediction correction. In some cases, new image information is also included in the P-Frame. P-Frame uses only about half the size of the I-Frame. Of course, in actual video encoding, instead of comparing all pixel information, it is divided into several blocks and compared. This is called a macroblock, and in HEVC, the latest video codec, it is called a coding tree unit.
 
@@ -57,7 +57,7 @@ Insert B-Frame (Bidirectionally Predicted Pictures) between I-Frame and P-Frame.
 
 Like P-Frame, B-Frame also uses Motion Vector and conversion values for prediction correction. B-Frame refers to I-Frame and P-Frame, but in the latest video codecs such as HEVC and VVC, B-Frame can also refer to other B-Frames.
 
-![Copyright: Cmglee, CC BY-SA 4.0.](./FBEE20.png)
+<Figure src="/generated/newsroom/6B6D29/FBEE20.png" alt="Copyright: Cmglee, CC BY-SA 4.0." width={672} height={168} />
 
 ## Reason for ghostings
 

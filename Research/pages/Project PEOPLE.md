@@ -12,6 +12,7 @@ It aims to interview at least 1K people, either online or offline.
 No information will be provided on any individuals except for their occupation.
 
 :::tip
+
 I randomize the list (on every page load) and the sidebar (on every site build) to prevent anyone on the top from getting all the attention 😉
 Try refreshing the page!
 

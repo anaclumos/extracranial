@@ -16,6 +16,7 @@ const RESEARCH_SRC = path.join(REPO, 'Research')
 const RESEARCH_PAGES = path.join(RESEARCH_SRC, 'pages')
 const RESEARCH_JOURNALS = path.join(RESEARCH_SRC, 'journals')
 const CONTENT_RESEARCH = path.join(REPO, 'content', 'research')
+const CONTENT_NEWSROOM = path.join(REPO, 'content', 'newsroom')
 
 // ── helpers ──────────────────────────────────────────────────────────────────────
 
@@ -460,6 +461,62 @@ function ensureFrontmatterTitle(raw: string, filenameBase: string, preferredSlug
   }
 }
 
+// ── Newsroom asset normalisation ───────────────────────────────────────────────
+
+async function processNewsroomAssets(): Promise<void> {
+  if (!existsSync(CONTENT_NEWSROOM)) return
+  console.log('📰 Processing Newsroom assets → public/generated ...')
+  const mdxFiles = await findFiles(CONTENT_NEWSROOM, ['.md', '.mdx'])
+
+  const SRC_ATTR_RE = /<Figure\b[^>]*\bsrc=(['"])(.+?)\1/gi
+
+  for (const file of mdxFiles) {
+    let txt = await fs.readFile(file, 'utf-8')
+    let changed = false
+
+    const parts: string[] = []
+    let lastIndex = 0
+    for (const m of txt.matchAll(SRC_ATTR_RE)) {
+      const [full, _q, cand] = m as unknown as [string, string, string]
+      const idx = m.index ?? 0
+      parts.push(txt.slice(lastIndex, idx))
+
+      let newFull = full
+      const c = cand.trim()
+      if (
+        c &&
+        !c.startsWith('/') &&
+        !c.startsWith('http://') &&
+        !c.startsWith('https://') &&
+        !c.startsWith('data:')
+      ) {
+        // Resolve relative to the MDX file
+        const abs = path.resolve(path.dirname(file), c)
+        if (existsSync(abs)) {
+          const relDir = path.relative(CONTENT_NEWSROOM, path.dirname(abs))
+          const destDir = path.join(PUBLIC_GENERATED, 'newsroom', relDir)
+          await fs.mkdir(destDir, { recursive: true })
+          const destPath = path.join(destDir, path.basename(abs))
+          try {
+            await fs.copyFile(abs, destPath)
+          } catch {}
+          const relUrl = '/generated/' + ['newsroom', ...relDir.split(path.sep), path.basename(abs)].join('/').replaceAll('\\', '/')
+          newFull = full.replace(cand, relUrl)
+          changed = true
+        }
+      }
+      parts.push(newFull)
+      lastIndex = idx + full.length
+    }
+    parts.push(txt.slice(lastIndex))
+    if (changed) {
+      txt = parts.join('')
+      await fs.writeFile(file, txt, 'utf-8')
+    }
+  }
+  console.log('✅ Newsroom assets processed')
+}
+
 // ── entry point ─────────────────────────────────────────────────────────────────
 
 async function main(): Promise<void> {
@@ -480,6 +537,8 @@ async function main(): Promise<void> {
 
   // Build Fumadocs-compatible content
   await processResearchToFumadocs()
+
+  // Newsroom images are handled via MDX (remarkImage + remarkFigureImport)
 
   console.log('✅ Preprocess completed for Fumadocs.')
 }

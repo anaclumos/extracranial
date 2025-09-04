@@ -7,7 +7,7 @@ slug: '/5ADC58'
 
 
 
-![ALT: Bing Chat for All Browsers. Verified at cho.sh. Featured on Chrome Web Store. Productivity. 200,000+ Users.](./4986BD.png)
+<Figure src="/generated/newsroom/5ADC58/4986BD.png" alt="ALT: Bing Chat for All Browsers. Verified at cho.sh. Featured on Chrome Web Store. Productivity. 200,000+ Users." width={2000} height={500} />
 
 The new Bing Chat, Microsoft's search AI powered by ChatGPT, only works on the Edge browser, so I built an [extension](https://github.com/anaclumos/bing-chat-for-all-browsers) to make Bing Chat work on Chrome and Firefox. After a long and winding road, I reached 750K visitors, 500K installs, and 230K weekly active users, but I had to take down the project because of a trademark complaint from Microsoft. Now let's talk about what happened.
 
@@ -19,17 +19,17 @@ Since ChatGPT was first released, many apps have come on the market. What these 
 
 I saw no significant user growth in the first few days likely because Microsoft initially waitlisted Bing Chat due to lacking GPUs. Then at the end of February 2023, there was a dramatic increase in users. Interestingly, it was all Japanese users.
 
-<figure>
+<Figure>
 
-![ALT: "Bing Chat for All Browsers" has appeared, which makes it possible to use the chat Al function of "Bing", which is currently available only in "Microsoft Edge", in browsers other than Edge. Developer Sunghyun Cho has released extensions for Chrome and Firefox.](./CEAD57.png)
+<Figure src="/generated/newsroom/5ADC58/CEAD57.png" alt="ALT: &quot;Bing Chat for All Browsers&quot; has appeared, which makes it possible to use the chat Al function of &quot;Bing&quot;, which is currently available only in &quot;Microsoft Edge&quot;, in browsers other than Edge. Developer Sunghyun Cho has released extensions for Chrome and Firefox." width={1344} height={880} />
 
-<figcaption>
+<Figure.Caption>
 
 Made Front Page on Yahoo! JAPAN IT Section. [Archive](https://web.archive.org/web/20230219102830/https://news.yahoo.co.jp/articles/fa91cea4b421a3147e3345bb74f552fd3066e74f)
 
-</figcaption>
+</Figure.Caption>
 
-</figure>
+</Figure>
 
 As it turned out, Yahoo! JAPAN, the number one portal in Japan, featured me on their front page and brought in many people. Since then, the number of users has grown organically. [Research Note on Bing Chat and Japan](/research/6AA0FE)
 
@@ -43,41 +43,41 @@ I am Korean, not Japanese, so this event was very unexpected and random for me. 
 
 I met many people along the way as my user base grew. I even hit 1.5k 🌟 on GitHub. People created 120 issues on GitHub, and I responded to about 1K cases via email, Chrome Web Store, and Firefox Add-ons. I averaged about ten cases daily, with a much higher volume in the second half of the extension's life cycle.
 
-![ALT: GitHub 1.5K Stars Screenshot](./142543.png)
+<Figure src="/generated/newsroom/5ADC58/142543.png" alt="ALT: GitHub 1.5K Stars Screenshot" width={2648} height={650} />
 
 Several people have approached me through various media outlets interested in acquiring the extension. They were either AI companies looking to snowball or companies that brokered advertising deals for tech companies. Apps that have established themselves with a simple feature like this are great acquisition targets. They have a clear interest (generative AI), few components, low technical debt (easy to move in your features), a large user base, and tons of media and blogs already linking to the extension install page.
 
-<figure>
+<Figure>
 
 <Horizontal>
 
-<figure>
+<Figure>
 
-![ALT: Acquisition Quotation Request](./538111.png)
+<Figure src="/generated/newsroom/5ADC58/538111.png" alt="ALT: Acquisition Quotation Request" width={1288} height={1038} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![ALT: Advertisement Quotation Request](./11E275.png)
+<Figure src="/generated/newsroom/5ADC58/11E275.png" alt="ALT: Advertisement Quotation Request" width={1288} height={1090} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![ALT: Acquisition Quotation Request](./3D2EBA.png)
+<Figure src="/generated/newsroom/5ADC58/3D2EBA.png" alt="ALT: Acquisition Quotation Request" width={1288} height={1038} />
 
-</figure>
+</Figure>
 
 </Horizontal>
 
-<figcaption>
+<Figure.Caption>
 
 Different Acquisition/Advertisement Offers with varying prices.
 
-</figcaption>
+</Figure.Caption>
 
-</figure>
+</Figure>
 
 For various reasons, I did not sell or get financially involved. However, the negotiation experience will come in handy later. Interestingly, they were looking to buy 230K+ active users rather than the product, but they had very different magnitute of values.
 
@@ -91,31 +91,31 @@ After a sleepless night and 12 hours of debugging, I realized that Microsoft had
 
 To use a dramatic analogy, a reverse engineering or CTF hack like this is not unlike a cold case investigation. There is no way to know what information is helpful and what is unnecessary, coincidental, person-to-person, false positive, or undetected.
 
-<figure>
+<Figure>
 
 <Horizontal>
 
-<figure>
+<Figure>
 
-![ALT: Only Bing Uses UserAgentReductionOptOut](./38BB75.png)
+<Figure src="/generated/newsroom/5ADC58/38BB75.png" alt="ALT: Only Bing Uses UserAgentReductionOptOut" width={2288} height={1167} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![ALT: Less than 0.1% of the web uses UserAgentReductionOptOut.](./FF32E1.png)
+<Figure src="/generated/newsroom/5ADC58/FF32E1.png" alt="ALT: Less than 0.1% of the web uses UserAgentReductionOptOut." width={1468} height={766} />
 
-</figure>
+</Figure>
 
 </Horizontal>
 
-<figcaption>
+<Figure.Caption>
 
 `UserAgentReductionOptOut`, only used on bing.com globally.
 
-</figcaption>
+</Figure.Caption>
 
-</figure>
+</Figure>
 
 I was impressed with Microsoft's determination. If you think about it, giving away GPT-4 services in Bing and restricting them to Edge is about using AI to compete with Google. It must have been a **pain in the ass** for Microsoft to open all of its features to its biggest competitor, Chrome, and keep 230K users from moving to Edge. At this point, I realized my project could not continue indefinitely. Microsoft will continue to develop different tactics for its products, and it's hard to work for free indefinitely, especially overnight like this. I speculated that my project will end **when Microsoft allows access to third-party browsers** because the product will lose market validity at this point.
 
@@ -123,17 +123,17 @@ I was impressed with Microsoft's determination. If you think about it, giving aw
 
 However, my project's end was closer than expected since Microsoft complained that using Bing's logo and name was problematic, and they threatened to ask Google's legal team to shut my extension down unless I did it myself within the next five days. I was torn between confusion and feeling like I had been awarded a badge of honor for Microsoft making a move after me. According to the news, Microsoft has been aware of my extension since March, so the company has been ignoring it for a while now.
 
-<figure>
+<Figure>
 
-![ALT: Letter from Microsoft Legal](./C1222B.png)
+<Figure src="/generated/newsroom/5ADC58/C1222B.png" alt="ALT: Letter from Microsoft Legal" width={1622} height={1536} />
 
-<figcaption>
+<Figure.Caption>
 
 tracer.ai is the Brand Protection Software Company that Microsoft hired.
 
-</figcaption>
+</Figure.Caption>
 
-</figure>
+</Figure>
 
 It's not every day that an indie app uses the name of a famous brand in its name, especially when it comes to extensions such as 'Enhancer for Blah Blah.' Since extensions are essentially programs that assist the service, the fact that users install them affirms that they will continue to use the service. Businesses will encourage more developers to make extensions for their apps and, at the very least, will not stop users from creating their extensions.If anything, **I brought benefits to Microsoft by making Bing Chat more accessible**. Did Microsoft think people were not switching browsers because of my small extension? I think there's more of a path dependency of browsers, so I'm guessing that I provided more customers for them (people who would have tried Bing Chat a few times in Chrome out of curiosity) than the opposite (people who would have switched to Edge but didn't because of my extension).
 
@@ -197,75 +197,75 @@ I finish this post with some memorable statistics.
 <Accordions>
 <Accordion title="🪦 Monuments">
 
-<figure>
+<Figure>
 
-![ALT: Weekly users over time](./8A34EC.png)
+<Figure src="/generated/newsroom/5ADC58/8A34EC.png" alt="ALT: Weekly users over time" width={2814} height={1200} />
 
-<figcaption>
+<Figure.Caption>
 
 Weekly users over time. I had about 210K Chrome users and 20K Firefox user.
 
-</figcaption>
+</Figure.Caption>
 
-</figure>
+</Figure>
 
 <Horizontal>
 
-<figure>
+<Figure>
 
-![Weekly users by region](./019199.png)
+<Figure src="/generated/newsroom/5ADC58/019199.png" alt="Weekly users by region" width={1099} height={750} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![Weekly users by language](./5EB8C3.png)
+<Figure src="/generated/newsroom/5ADC58/5EB8C3.png" alt="Weekly users by language" width={1099} height={750} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![Weekly users by OS](./9FBEDE.png)
+<Figure src="/generated/newsroom/5ADC58/9FBEDE.png" alt="Weekly users by OS" width={1100} height={750} />
 
-</figure>
+</Figure>
 
 </Horizontal>
 
-![Daily users by item version](./B92F44.png)
+<Figure src="/generated/newsroom/5ADC58/B92F44.png" alt="Daily users by item version" width={2225} height={750} />
 
-<figure>
+<Figure>
 
-![Rating distribution over time](./B25EB7.png)
+<Figure src="/generated/newsroom/5ADC58/B25EB7.png" alt="Rating distribution over time" width={3373} height={500} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![Page views](./6284A9.png)
+<Figure src="/generated/newsroom/5ADC58/6284A9.png" alt="Page views" width={3378} height={1000} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![Impressions across the Chrome Web Store](./01B228.png)
+<Figure src="/generated/newsroom/5ADC58/01B228.png" alt="Impressions across the Chrome Web Store" width={3378} height={1000} />
 
-</figure>
+</Figure>
 
-![Top 3 sources by page views](./7F65B7.png)
+<Figure src="/generated/newsroom/5ADC58/7F65B7.png" alt="Top 3 sources by page views" width={2225} height={750} />
 
 <Horizontal>
 
-<figure>
+<Figure>
 
-![Page views by sourde](./863F7F.png)
+<Figure src="/generated/newsroom/5ADC58/863F7F.png" alt="Page views by sourde" width={1113} height={750} />
 
-</figure>
+</Figure>
 
-<figure>
+<Figure>
 
-![Enabled vs. disabled](./6276E4.png)
+<Figure src="/generated/newsroom/5ADC58/6276E4.png" alt="Enabled vs. disabled" width={1113} height={750} />
 
-</figure>
+</Figure>
 
 </Horizontal>
 
