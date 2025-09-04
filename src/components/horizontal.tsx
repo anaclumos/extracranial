@@ -28,16 +28,33 @@ export default function Horizontal({ children }: { children: React.ReactNode }) 
     // Bleed out of prose to full container width
     <div className="not-prose my-6 -mx-[calc(50vw-50%)]">
       <div className="mx-auto w-full max-w-fd-container px-4 md:px-8">
-        <div className="flex md:grid md:grid-cols-3 items-start gap-0 md:gap-6 overflow-x-auto md:overflow-x-visible snap-x snap-mandatory md:snap-none">
-          {items.map((child, i) => (
+        {(() => {
+          // Use 2 columns when exactly two items; otherwise cap at 3
+          const gridColsClass =
+            items.length === 1
+              ? 'md:grid-cols-1'
+              : items.length === 2
+              ? 'md:grid-cols-2'
+              : 'md:grid-cols-3'
+
+          return (
             <div
-              key={i}
-              className="shrink-0 min-w-full snap-start snap-always md:min-w-0 md:w-auto md:snap-normal [&_img]:w-full [&_img]:h-auto [&>[data-rmiz]]:block"
+              className={
+                `flex md:grid ${gridColsClass} items-start gap-0 md:gap-6 ` +
+                'overflow-x-auto md:overflow-x-visible snap-x snap-mandatory md:snap-none'
+              }
             >
-              {child}
+              {items.map((child, i) => (
+                <div
+                  key={i}
+                  className="shrink-0 min-w-full snap-start snap-always md:min-w-0 md:w-auto md:snap-normal [&_img]:w-full [&_img]:h-auto [&>[data-rmiz]]:block"
+                >
+                  {child}
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          )
+        })()}
       </div>
     </div>
   )
