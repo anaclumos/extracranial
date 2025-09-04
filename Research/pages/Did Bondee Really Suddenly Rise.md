@@ -7,6 +7,7 @@ Yesterday, we took a closer look into [[Bondee]]. [[Sudden Rise of Bondee]]. But
 
 :::danger
 This article examines the connection between [[Bondee]] and Zheli, a now-shut-down [[중국|Chinese]] service, and the allegations of personal information infringement regarding Zheli. [[Bondee]] has not yet encountered any information infringement cases or operational security problems. We cannot draw a definitive conclusion about [[Bondee]] simply from a few speculations. This article does not raise suspicions about the [[Bondee]] service. Please keep this part in mind and read it.
+
 :::
 
 [[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. [[Bondee]] launched on January 7, 2023, with great quality. [[Bondee]] also topped multiple [[app store]] charts across Asia within a month. Such a Mega-hit for an early startup. They feel very **prepared** and well-established. Isn't it strange?
@@ -17,12 +18,12 @@ This article examines the connection between [[Bondee]] and Zheli, a now-shut-do
 
 Indeed, based on the [Singaporean regulatory files](https://drive.google.com/file/d/1eIgAcVLUHA7luzCGZT_ed0R27Slwjd03/view), one of the directors is Yang Yuxiang, a [[중국인|Chinese]] CEO who acquired True.ly in May 2022, the parent company of Zheli. Zheli (Jelly, or 这里, "here" in [[중국어|Chinese]]), a popular social app in China, looks identical to [[Bondee]].
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 ![[5CD08D.png]]
 ![[EEABEE.png]]
-</DisplayFlex>
+</Horizontal>
 
 ## Zheli and its Privacy Issues
 

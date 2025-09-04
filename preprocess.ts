@@ -10,7 +10,12 @@ import { parseArgs } from 'node:util'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const REPO = path.resolve(__dirname)
-const REPLACE_RULES_PATH = path.join(REPO, 'replace_rules.json')
+// Output roots
+const PUBLIC_GENERATED = path.join(REPO, 'public', 'generated')
+const RESEARCH_SRC = path.join(REPO, 'Research')
+const RESEARCH_PAGES = path.join(RESEARCH_SRC, 'pages')
+const RESEARCH_JOURNALS = path.join(RESEARCH_SRC, 'journals')
+const CONTENT_RESEARCH = path.join(REPO, 'content', 'research')
 
 // ── helpers ──────────────────────────────────────────────────────────────────────
 
@@ -40,60 +45,49 @@ function randomHex(): string {
   return randomBytes(3).toString('hex').toUpperCase()
 }
 
-// ── load replace rules ───────────────────────────────────────────────────────────
-
-const REPLACE_RULES: Record<string, string> = JSON.parse(await fs.readFile(REPLACE_RULES_PATH, 'utf-8'))
-
-const REPLACE_RE = new RegExp(
-  Object.keys(REPLACE_RULES)
-    .map((key) => key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
-    .join('|'),
-  'g'
-)
-
 const LANG_FIX_RE = /---\s*\n(.*?)\n---/s
 
 // ── global regexes ───────────────────────────────────────────────────────────────
 
 const WIKILINK_RE = /\[\[([^\]]+?)]]/g // raw [[…]] tokens
 const CODE_BLOCK_RE = /```.*?```/gs // fenced code
-const IMG_RE = /!\[([^\]]*?)\]\(([^)]+?)\)$/gm // images
+const IMG_INLINE_RE = /!\[([^\]]*?)\]\(([^)]+?)\)/g // inline images anywhere
 const SLUG_RE = /^slug:\s+['\"]?([^\s'\"#]+)['\"]?/m
+const TITLE_RE = /^title:\s+['\"]?([^\n'\"]+)['\"]?/m
 
 // ── markdown sanitisation ────────────────────────────────────────────────────────
 
+// simple sanitise used in legacy setup. Keep minimal fixes only.
 async function sanitiseMd(root: string): Promise<void> {
   const mdFiles = await findFiles(root, ['.md', '.mdx'])
   console.log(`📝 Sanitizing ${mdFiles.length} markdown files...`)
 
-  await Promise.all(mdFiles.map(sanitiseOne))
-  console.log(`✨ Completed markdown sanitization`)
-}
+  await Promise.all(
+    mdFiles.map(async (filePath) => {
+      let text = nfc(await fs.readFile(filePath, 'utf-8'))
 
-async function sanitiseOne(filePath: string): Promise<void> {
-  let text = nfc(await fs.readFile(filePath, 'utf-8'))
-
-  if (text.includes('{{hex}}') && !filePath.includes('template')) {
-    text = text.replace('{{hex}}', '/' + randomHex())
-  }
-
-  text = text.replace(REPLACE_RE, (match) => REPLACE_RULES[match])
-
-  const fm = text.match(LANG_FIX_RE)
-  if (fm && fm[1].includes("lang: 'en'")) {
-    if (!text.includes("div lang='ko") && !text.includes('div lang="ko')) {
-      const fileName = path.basename(filePath)
-      const koName = [...fileName].some((ch) => ch >= '\uAC00' && ch <= '\uD7A3')
-      const koChars = [...text].filter((ch) => ch >= '\uAC00' && ch <= '\uD7A3').length
-      const enChars = [...text].filter((ch) => (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')).length
-
-      if (koName || koChars > enChars) {
-        text = text.replace("lang: 'en'", "lang: 'ko'")
+      if (text.includes('{{hex}}') && !filePath.includes('template')) {
+        text = text.replace('{{hex}}', '/' + randomHex())
       }
-    }
-  }
 
-  await fs.writeFile(filePath, text, 'utf-8')
+      const fm = text.match(LANG_FIX_RE)
+      if (fm && fm[1].includes("lang: 'en'")) {
+        if (!text.includes("div lang='ko") && !text.includes('div lang="ko')) {
+          const fileName = path.basename(filePath)
+          const koName = [...fileName].some((ch) => ch >= '\uAC00' && ch <= '\uD7A3')
+          const koChars = [...text].filter((ch) => ch >= '\uAC00' && ch <= '\uD7A3').length
+          const enChars = [...text].filter((ch) => (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')).length
+
+          if (koName || koChars > enChars) {
+            text = text.replace("lang: 'en'", "lang: 'ko'")
+          }
+        }
+      }
+
+      await fs.writeFile(filePath, text, 'utf-8')
+    })
+  )
+  console.log(`✨ Completed markdown sanitization`)
 }
 
 // ── file utilities ───────────────────────────────────────────────────────────────
@@ -139,373 +133,288 @@ async function rmrf(dir: string): Promise<void> {
   }
 }
 
-// ── blog generation ──────────────────────────────────────────────────────────────
+// ── Research → Fumadocs pipeline ────────────────────────────────────────────────
 
-async function processBlog(src: string, en: string, ko: string, cfg: string): Promise<void> {
-  console.log(`📚 Processing blog content...`)
+type DocMeta = {
+  srcPath: string
+  fileBase: string // original file base name without extension
+  rawSlug?: string // slug value from frontmatter, possibly starting with '/'
+  title?: string
+  lang?: string
+}
 
-  await rmrf(en)
-  await rmrf(ko)
-  await fs.mkdir(en, { recursive: true })
-  await fs.mkdir(ko, { recursive: true })
+function slugify(input: string): string {
+  return input
+    .trim()
+    .replace(/^\/+/, '') // drop leading slashes
+    .replace(/\s+/g, '-')
+    .replace(/[^a-zA-Z0-9\-/_]/g, '')
+    .replace(/\/+/, '/')
+}
 
-  const entries = await fs.readdir(src, { withFileTypes: true })
-  const fileCount = await countFiles(src)
-  console.log(`📋 Copying ${fileCount} blog files to English and Korean destinations`)
+function lastSegment(s: string): string {
+  const parts = s.split('/')
+  return parts[parts.length - 1]
+}
 
-  for (const entry of entries) {
-    const srcPath = path.join(src, entry.name)
-    if (entry.isFile()) {
-      await fs.copyFile(srcPath, path.join(en, entry.name))
-      await fs.copyFile(srcPath, path.join(ko, entry.name))
-    } else {
-      await copyRecursive(srcPath, path.join(en, entry.name))
-      await copyRecursive(srcPath, path.join(ko, entry.name))
+const LANG_RE = /^lang:\s*['\"]?([a-zA-Z-]+)['\"]?/m
+
+async function readFrontmatter(filePath: string): Promise<{ slug?: string; title?: string; lang?: string }> {
+  const txt = await fs.readFile(filePath, 'utf-8')
+  const slugMatch = txt.match(SLUG_RE)
+  const titleMatch = txt.match(TITLE_RE)
+  const langMatch = txt.match(LANG_RE)
+  const slug = slugMatch ? slugify(slugMatch[1]) : undefined
+  const title = titleMatch ? titleMatch[1].trim() : undefined
+  const lang = langMatch ? langMatch[1].trim() : undefined
+  return { slug: slug ? lastSegment(slug) : undefined, title, lang }
+}
+
+async function collectDocs(): Promise<DocMeta[]> {
+  const files = [
+    ...(existsSync(RESEARCH_PAGES) ? await findFiles(RESEARCH_PAGES, ['.md', '.mdx']) : []),
+    ...(existsSync(RESEARCH_JOURNALS) ? await findFiles(RESEARCH_JOURNALS, ['.md', '.mdx']) : []),
+  ]
+  // Include root-level markdown files (e.g., Welcome.md, Welcome.ko.md, 환영합니다.md)
+  try {
+    const roots = await fs.readdir(RESEARCH_SRC, { withFileTypes: true })
+    for (const entry of roots) {
+      if (!entry.isFile()) continue
+      if (entry.name.endsWith('.md') || entry.name.endsWith('.mdx')) {
+        files.push(path.join(RESEARCH_SRC, entry.name))
+      }
     }
+  } catch {}
+
+  const out: DocMeta[] = []
+  for (const f of files) {
+    const base = path.basename(f, path.extname(f))
+    const fm = await readFrontmatter(f)
+    out.push({ srcPath: f, fileBase: base, rawSlug: fm.slug, title: fm.title, lang: fm.lang })
   }
-
-  await fs.copyFile(path.join(cfg, 'english.yml'), path.join(en, 'authors.yml'))
-  await fs.copyFile(path.join(cfg, 'korean.yml'), path.join(ko, 'authors.yml'))
-
-  await walkRename(en, 'en', 'ko')
-  await walkRename(ko, 'ko', 'en')
-
-  console.log(`🌐 Completed blog processing`)
+  return out
 }
 
-async function walkRename(base: string, toIndex: string, toDelete: string): Promise<void> {
-  const files = await findFiles(base, ['.md', '.mdx'])
+async function ensureDirs(): Promise<void> {
+  await fs.mkdir(CONTENT_RESEARCH, { recursive: true })
+  await fs.mkdir(PUBLIC_GENERATED, { recursive: true })
+}
 
-  for (const file of files) {
-    const dir = path.dirname(file)
-    const basename = path.basename(file, path.extname(file))
-    const ext = path.extname(file)
+function isImagePath(p: string): boolean {
+  const ext = path.extname(p).toLowerCase()
+  return ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.bmp', '.tiff', '.avif'].includes(ext)
+}
 
-    if (basename.startsWith(toIndex)) {
-      await fs.rename(file, path.join(dir, 'index' + ext))
-    } else if (basename.startsWith(toDelete)) {
-      await fs.unlink(file)
+async function copyToGenerated(srcFile: string): Promise<string> {
+  const name = path.basename(srcFile)
+  const dest = path.join(PUBLIC_GENERATED, name)
+  try {
+    await fs.mkdir(PUBLIC_GENERATED, { recursive: true })
+    await fs.copyFile(srcFile, dest)
+  } catch (e) {
+    // ignore copy errors but keep reference
+  }
+  return `/generated/${name}`
+}
+
+async function resolveImageCandidate(candidate: string, mdFile: string): Promise<string | undefined> {
+  // Strip surrounding quotes or whitespace
+  let c = candidate.trim().replace(/^['\"]|['\"]$/g, '')
+  if (c.startsWith('http://') || c.startsWith('https://') || c.startsWith('data:') || c.startsWith('/generated/')) {
+    return undefined // external or already generated
+  }
+
+  // If it contains a query/hash, strip them for lookup
+  const cleanPath = c.split('#')[0].split('?')[0]
+
+  // If it is an absolute path inside repo
+  if (path.isAbsolute(cleanPath) && existsSync(cleanPath)) return cleanPath
+
+  // Resolve relative to md file directory
+  const local = path.resolve(path.dirname(mdFile), cleanPath)
+  if (existsSync(local)) return local
+
+  // Try relative to Research root
+  const researchLocal = path.resolve(RESEARCH_SRC, cleanPath)
+  if (existsSync(researchLocal)) return researchLocal
+
+  // Try Research/assets/<basename>
+  const base = path.basename(cleanPath)
+  const assetsCandidate = path.join(RESEARCH_SRC, 'assets', base)
+  if (existsSync(assetsCandidate)) return assetsCandidate
+
+  return undefined
+}
+
+async function rewriteImages(txt: string, mdFile: string): Promise<string> {
+  // 1) ![[...]] wikilink images → ![alt](/generated/name)
+  txt = await replaceAsync(txt, /!\[\[([^\]]+?)\]\]/g, async (_m, p1: string) => {
+    const target = p1.trim()
+    if (!isImagePath(target)) {
+      // Might be a relative path without extension; try to find in assets by name with any known extension
+      const guesses = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg']
+      for (const ext of guesses) {
+        const found = await resolveImageCandidate(target + ext, mdFile)
+        if (found) {
+          const href = await copyToGenerated(found)
+          return `![](${href})`
+        }
+      }
+      return `![${target}](${target})` // fallback unchanged
     }
-  }
-}
 
-async function countFiles(dir: string): Promise<number> {
-  let count = 0
-  const entries = await fs.readdir(dir, { withFileTypes: true })
-
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name)
-    if (entry.isDirectory()) {
-      count += await countFiles(fullPath)
-    } else {
-      count++
+    const srcFile = await resolveImageCandidate(target, mdFile)
+    if (srcFile) {
+      const href = await copyToGenerated(srcFile)
+      return `![](${href})`
     }
-  }
-
-  return count
-}
-
-// ── docs build ───────────────────────────────────────────────────────────────────
-
-async function processDocs(src: string, dst: string): Promise<void> {
-  console.log(`📔 Processing documentation...`)
-
-  await rmrf(dst)
-  await copyRecursive(src, dst)
-
-  const mdFiles = await findFiles(dst, ['.md'])
-  console.log(`🔗 Resolving links in ${mdFiles.length} markdown files`)
-
-  const linkMap = new CaseInsensitiveMap<string>()
-  for (const file of mdFiles) {
-    linkMap.set(nfc(path.basename(file, '.md')), file)
-  }
-
-  // Copy yml files
-  const ymlFiles = await findFiles(src, ['.yml'])
-  for (const yml of ymlFiles) {
-    const relative = path.relative(src, yml)
-    const target = path.join(dst, relative)
-    await fs.mkdir(path.dirname(target), { recursive: true })
-    await fs.copyFile(yml, target)
-  }
-
-  // Copy assets
-  const assetsDir = path.join(src, 'assets')
-  if (existsSync(assetsDir)) {
-    await copyRecursive(assetsDir, path.join(dst, 'assets'))
-  }
-
-  // Process images first
-  console.log(`📸 Processing images in ${mdFiles.length} files...`)
-  await Promise.all(mdFiles.map((file) => processImages(file)))
-
-  // Then resolve links
-  console.log(`🔗 Resolving wikilinks...`)
-  await Promise.all(mdFiles.map((file) => resolveFile(file, linkMap)))
-
-  console.log(`📘 Completed documentation processing`)
-}
-
-async function processImages(filePath: string): Promise<void> {
-  let txt = await fs.readFile(filePath, 'utf-8')
-  const before = txt
-
-  // Check if file contains wikilink images
-  const wikiImageMatches = txt.match(/!\[\[([^\]]+?)\]\]/g)
-
-  txt = txt.replace(/!\[\[([^\]]+?)\]\]/g, (match, p1) => {
-    return `![${p1}](../assets/${p1})`
+    return `![](${target})`
   })
 
-  await fs.writeFile(filePath, txt, 'utf-8')
+  // 2) Regular markdown images: ![alt](src) → copy to /generated
+  txt = await replaceAsync(txt, IMG_INLINE_RE, async (m, alt: string, src: string) => {
+    const cand = src.trim()
+    if (
+      cand.startsWith('http://') ||
+      cand.startsWith('https://') ||
+      cand.startsWith('data:') ||
+      cand.startsWith('/generated/')
+    ) {
+      return m // leave as-is
+    }
+    const srcFile = await resolveImageCandidate(cand, mdFile)
+    if (!srcFile) return m
+    const href = await copyToGenerated(srcFile)
+    return `![${alt}](${href})`
+  })
+
+  return txt
 }
 
-async function resolveFile(filePath: string, linkMap: CaseInsensitiveMap<string>): Promise<void> {
-  const txt = await fs.readFile(filePath, 'utf-8')
+async function replaceAsync(str: string, regex: RegExp, asyncFn: (...args: any[]) => Promise<string>): Promise<string> {
+  const promises: Promise<string>[] = []
   const parts: string[] = []
   let lastIndex = 0
+  for (const match of str.matchAll(regex)) {
+    const matchStr = match[0]
+    const index = match.index ?? 0
+    parts.push(str.slice(lastIndex, index))
+    // @ts-ignore
+    promises.push(asyncFn(...match))
+    lastIndex = index + matchStr.length
+  }
+  parts.push(str.slice(lastIndex))
+  const resolved = await Promise.all(promises)
+  let out = ''
+  for (let i = 0; i < resolved.length; i++) {
+    out += parts[i] + resolved[i]
+  }
+  out += parts[parts.length - 1]
+  return out
+}
 
-  // Handle code blocks
+function buildNameToSlugMap(metas: DocMeta[]): CaseInsensitiveMap<string> {
+  const map = new CaseInsensitiveMap<string>()
+  for (const m of metas) {
+    const slug = (m.rawSlug && lastSegment(m.rawSlug)) || slugify(m.fileBase)
+    map.set(nfc(m.fileBase), slug)
+    map.set(nfc(slug), slug)
+    if (m.title) map.set(nfc(m.title), slug)
+  }
+  return map
+}
+
+function replaceDocWikilinks(txt: string, linkMap: CaseInsensitiveMap<string>): string {
+  const parts: string[] = []
+  let lastIndex = 0
   const matches = [...txt.matchAll(CODE_BLOCK_RE)]
 
   for (const match of matches) {
-    const start = match.index!
+    const start = match.index ?? 0
     const end = start + match[0].length
-
-    // Process text outside code block
     const outside = txt.slice(lastIndex, start)
-    const processedOutside = outside.replace(WIKILINK_RE, (match, p1) => resolveWikilink(match, p1, filePath, linkMap))
-
+    const processedOutside = outside.replace(WIKILINK_RE, (full, inner: string) => {
+      // Ignore image wikilinks handled separately: they start with '![[', which won't be caught here
+      const raw = String(inner)
+      if (!raw || raw[0] === ' ' || raw[raw.length - 1] === ' ' || raw.trimStart().startsWith('-')) {
+        return full
+      }
+      const [target, display] = raw.includes('|') ? raw.split('|', 2) : [raw, raw]
+      const slug = linkMap.get(nfc(target))
+      if (!slug) return full
+      return `[${display}](${encodeURI('./' + slug)})`
+    })
     parts.push(processedOutside)
     parts.push(match[0])
     lastIndex = end
   }
 
-  // Process remainder
   const remainder = txt.slice(lastIndex)
-  const processedRemainder = remainder.replace(WIKILINK_RE, (match, p1) =>
-    resolveWikilink(match, p1, filePath, linkMap)
-  )
+  const processedRemainder = remainder.replace(WIKILINK_RE, (full, inner: string) => {
+    const raw = String(inner)
+    if (!raw || raw[0] === ' ' || raw[raw.length - 1] === ' ' || raw.trimStart().startsWith('-')) {
+      return full
+    }
+    const [target, display] = raw.includes('|') ? raw.split('|', 2) : [raw, raw]
+    const slug = linkMap.get(nfc(target))
+    if (!slug) return full
+    return `[${display}](${encodeURI('./' + slug)})`
+  })
   parts.push(processedRemainder)
-
-  const out = parts.join('')
-  if (out !== txt) {
-    await fs.writeFile(filePath, out, 'utf-8')
-  }
+  return parts.join('')
 }
 
-function resolveWikilink(match: string, raw: string, currentFile: string, linkMap: CaseInsensitiveMap<string>): string {
-  // Skip tokens that are clearly not wiki titles
-  if (!raw || raw[0] === ' ' || raw[raw.length - 1] === ' ' || raw.trimStart().startsWith('-')) {
-    return match
+async function processResearchToFumadocs(): Promise<void> {
+  console.log('📚 Processing Research → Fumadocs content/research ...')
+  await ensureDirs()
+
+  const metas = await collectDocs()
+  const linkMap = buildNameToSlugMap(metas)
+
+  // Clean output dir before writing
+  await rmrf(CONTENT_RESEARCH)
+  await fs.mkdir(CONTENT_RESEARCH, { recursive: true })
+
+  for (const meta of metas) {
+    const preferredSlug = (meta.rawSlug && lastSegment(meta.rawSlug)) || slugify(meta.fileBase)
+    const lang = (meta.lang || 'en').toLowerCase()
+    const localeSuffix = lang && lang !== 'en' ? `.${lang}` : ''
+    const outFile = path.join(CONTENT_RESEARCH, `${preferredSlug}${localeSuffix}.mdx`)
+    const raw = await fs.readFile(meta.srcPath, 'utf-8')
+    // rewrite images first
+    let body = await rewriteImages(raw, meta.srcPath)
+    // then resolve doc wikilinks
+    body = replaceDocWikilinks(body, linkMap)
+    // ensure frontmatter contains title derived from original filename
+    body = ensureFrontmatterTitle(body, meta.fileBase, preferredSlug, lang)
+    await fs.writeFile(outFile, body, 'utf-8')
   }
 
-  const [target, display] = raw.includes('|') ? raw.split('|', 2) : [raw, raw]
-  const mdFile = linkMap.get(nfc(target))
-
-  if (!mdFile) {
-    return match // unresolved → keep original
-  }
-
-  let rel = path.relative(path.dirname(currentFile), mdFile)
-  rel = rel
-    .split(path.sep)
-    .map((seg) => encodeURIComponent(seg))
-    .join('/')
-  return `[${display}](./${rel})`
+  console.log('✅ Wrote docs into content/research')
 }
 
-// ── backlink map ─────────────────────────────────────────────────────────────────
-
-interface BacklinkMap {
-  [key: string]: {
-    [source: string]: string
-  }
-}
-
-interface UidMap {
-  [key: string]: string
-}
-
-async function buildBacklinks(root: string, outDir: string): Promise<void> {
-  console.log(`🔄 Building backlink map...`)
-
-  const backlinkMap: BacklinkMap = {}
-  const uidMap: UidMap = {}
-
-  let fileCount = 0
-  let linkCount = 0
-
-  const mdFiles = await findFiles(root, ['.md'])
-
-  for (const file of mdFiles) {
-    fileCount++
-    const fname = path.basename(file, '.md')
-
-    if (!backlinkMap[fname]) {
-      backlinkMap[fname] = {}
+// Inject or update frontmatter title with source filename and keep slug/lang
+function ensureFrontmatterTitle(raw: string, filenameBase: string, preferredSlug: string, lang: string): string {
+  const esc = (s: string) => `'${s.replace(/'/g, "''")}'`
+  const fmMatch = raw.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/)
+  if (fmMatch) {
+    let fm = fmMatch[1]
+    // Insert title only if missing; keep existing title as priority
+    if (!/^title:/m.test(fm)) {
+      fm = `title: ${esc(filenameBase)}\n` + fm
     }
-
-    const txt = await fs.readFile(file, 'utf-8')
-
-    // Extract slug
-    const uidMatch = txt.match(SLUG_RE)
-    if (uidMatch) {
-      uidMap[fname] = uidMatch[1]
-    }
-
-    // Find all wikilinks
-    const wikilinks = [...txt.matchAll(WIKILINK_RE)]
-    for (const match of wikilinks) {
-      linkCount++
-      const source = match[1].split('|')[0]
-
-      if (!backlinkMap[source]) {
-        backlinkMap[source] = {}
-      }
-
-      backlinkMap[source][fname] = getContext(txt, match[1])
-    }
-  }
-
-  await fs.mkdir(outDir, { recursive: true })
-
-  // Sort the backlink map keys and their nested objects
-  const sortedBacklinkMap: BacklinkMap = {}
-  for (const key of Object.keys(backlinkMap).sort()) {
-    sortedBacklinkMap[key] = {}
-    for (const nestedKey of Object.keys(backlinkMap[key]).sort()) {
-      sortedBacklinkMap[key][nestedKey] = backlinkMap[key][nestedKey]
-    }
-  }
-
-  // Sort the uid map
-  const sortedUidMap: UidMap = {}
-  for (const key of Object.keys(uidMap).sort()) {
-    sortedUidMap[key] = uidMap[key]
-  }
-
-  await fs.writeFile(path.join(outDir, 'backlinks.json'), JSON.stringify(sortedBacklinkMap, null, 2))
-
-  await fs.writeFile(path.join(outDir, 'filenames.json'), JSON.stringify(sortedUidMap, null, 2))
-
-  console.log(`🧩 Created backlink map with ${fileCount} files and ${linkCount} links`)
-}
-
-function getContext(txt: string, needle: string, keep: number = 6): string {
-  const tag = `[[${needle}]]`
-  const lines = txt.split('\n')
-
-  for (const line of lines) {
-    if (!line.includes(tag)) continue
-
-    const [preRaw, postRaw] = line.split(tag)
-    const preParts = preRaw.split(/\s+/)
-    const postParts = postRaw.split(/\s+/)
-
-    const pre = preParts.slice(-keep).join(' ')
-    const post = postParts.slice(0, keep).join(' ')
-
-    return (preRaw !== pre ? '... ' + pre : pre) + tag + (postRaw !== post ? post + ' ...' : post)
-  }
-
-  return ''
-}
-
-// ── image alt fix ────────────────────────────────────────────────────────────────
-
-async function fixImgAlt(root: string): Promise<void> {
-  let count = 0
-  const files = await findFiles(root, ['.md', '.mdx'])
-
-  for (const file of files) {
-    if (path.basename(file) === 'Welcome.md') continue
-
-    const txt = await fs.readFile(file, 'utf-8')
-
-    const out = txt.replace(IMG_RE, (match, alt, src) => {
-      const ext = path.extname(src).toLowerCase()
-      count++
-
-      if (alt.endsWith(ext) || alt.toUpperCase().startsWith('ALT:')) {
-        const clean = alt.replace('ALT:', '').trim()
-        return `\n<figure>\n\n![${clean}](${src})\n\n</figure>\n`
-      }
-
-      return `\n<figure>\n\n![${alt}](${src})\n\n<figcaption>${alt}</figcaption>\n</figure>\n`
-    })
-
-    if (out !== txt) {
-      await fs.writeFile(file, out, 'utf-8')
-    }
-  }
-}
-
-// ── asset cleanup ────────────────────────────────────────────────────────────────
-
-async function cleanupAssets(assetsDir: string, researchRoot: string): Promise<void> {
-  console.log(`🧹 Checking for unused assets...`)
-
-  if (!existsSync(assetsDir)) {
-    return
-  }
-
-  const assets = await fs.readdir(assetsDir)
-  const assetFiles: string[] = []
-  for (const asset of assets) {
-    const stat = await fs.stat(path.join(assetsDir, asset))
-    if (stat.isFile()) {
-      assetFiles.push(asset)
-    }
-  }
-  console.log(`🔍 Analyzing ${assetFiles.length} assets for usage`)
-
-  const mentioned = new Map<string, boolean>()
-  for (const asset of assetFiles) {
-    mentioned.set(asset, false)
-  }
-
-  const mdFiles = await findFiles(researchRoot, ['.md'])
-
-  for (const mdFile of mdFiles) {
-    const txt = await fs.readFile(mdFile, 'utf-8')
-    for (const asset of assetFiles) {
-      if (txt.includes(asset)) {
-        mentioned.set(asset, true)
-      }
-    }
-  }
-
-  const unused = assetFiles.filter((a) => !mentioned.get(a))
-
-  if (unused.length === 0) {
-    console.log('✅ No unused assets found.')
-    return
-  }
-
-  console.log(`🗑️ Found ${unused.length} unused assets:`)
-  for (const f of unused) {
-    console.log(' •', f)
-  }
-
-  const readline = await import('readline')
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  })
-
-  const answer = await new Promise<string>((resolve) => {
-    rl.question('Delete them? (y/N): ', resolve)
-  })
-
-  rl.close()
-
-  if (answer.toLowerCase().startsWith('y')) {
-    for (const f of unused) {
-      await fs.unlink(path.join(assetsDir, f))
-      console.log(`🗑️ Deleted ${f}`)
-    }
+    // Keep body as-is
+    const header = `---\n${fm}\n---\n`
+    const body = raw.slice(fmMatch[0].length)
+    return header + body
+  } else {
+    const headerLines = [
+      `title: ${esc(filenameBase)}`,
+      preferredSlug ? `slug: '/${preferredSlug}'` : undefined,
+      lang ? `lang: ${esc(lang)}` : undefined,
+    ].filter(Boolean)
+    const header = `---\n${headerLines.join('\n')}\n---\n`
+    return header + raw
   }
 }
 
@@ -524,26 +433,13 @@ async function main(): Promise<void> {
     },
   })
 
-  const research = path.join(REPO, 'Research')
-  const docs = path.join(REPO, 'docs')
-  const blogEn = path.join(REPO, 'blog')
-  const blogKo = path.join(REPO, 'i18n', 'ko', 'docusaurus-plugin-content-blog')
-  const postsSrc = path.join(REPO, 'posts')
-  const cfg = path.join(REPO, 'config')
-  const outTs = path.join(REPO, 'src', 'data')
-  const assets = path.join(research, 'assets')
+  // Basic sanitisation on original Research if needed
+  await sanitiseMd(RESEARCH_SRC)
 
-  await sanitiseMd(research)
-  await processBlog(postsSrc, blogEn, blogKo, cfg)
-  await buildBacklinks(research, outTs)
-  await processDocs(research, docs)
-  await fixImgAlt(docs)
+  // Build Fumadocs-compatible content
+  await processResearchToFumadocs()
 
-  if (values.clean) {
-    await cleanupAssets(assets, research)
-  }
-
-  console.log('✅ Preprocess completed.')
+  console.log('✅ Preprocess completed for Fumadocs.')
 }
 
 // Run if executed directly

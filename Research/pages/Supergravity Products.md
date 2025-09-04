@@ -179,7 +179,7 @@ This dead simple web app generates $96K/year
 - Solves a useful problem
 - $8.3K MRR
 - Growth: word of mouth and SEM
-- Launched only 1 year ago![Original Post Link](https://t.co/yhGW0AYMTL)
+- Launched only 1 year ago! [Original Post Link](https://t.co/yhGW0AYMTL)
 
 [Original Post Link](https://t.co/UTUofrWSvG)
 

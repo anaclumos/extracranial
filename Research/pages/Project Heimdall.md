@@ -36,15 +36,15 @@ aliases: ['헤임달', 'Heimdall']
 
 ## [[2023-06-20]]
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 
 ![[EBD79C.png]]
 
 ![[AC5118.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 Implemented Nav bar!
 

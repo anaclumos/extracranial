@@ -7,4 +7,5 @@ Cicadas and prime numbers may seem unrelated initially, but they share a fascina
 
 :::note
 My question is, however, why are they related to non-competition or predators? I am confused with the **offset.** For example, even if they breed every 13 years, wouldn't cicadas from 2010 breed in 2023, cicadas from 2011 breed in 2024, and so on? So why does it **avoids** such an issue? Is it simply just a particular species that can be observed every 13 years? No one helped me understand such question 😭
+
 :::

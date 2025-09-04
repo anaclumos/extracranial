@@ -3,7 +3,7 @@ lang: 'ko'
 slug: '/9E841A'
 ---
 
-import YouTube from '@site/src/components/YouTube'
+import YouTube from '@/components/youtube';
 
 ![[C3DD64.png]]
 

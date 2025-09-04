@@ -6,14 +6,14 @@ slug: '/CB6043'
 - [[Lesser Known Trick]]
 - Use a [[SMIME|S/MIME]] certificate to sign an [[Mail|email]]
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 
 ![[44E269.jpeg]]
 ![[770154.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 ![[7A151F.jpeg]]
 ![[48FEB4.jpeg]]

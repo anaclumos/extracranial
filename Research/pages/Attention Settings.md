@@ -11,12 +11,10 @@ If you own the rights to the materials and want them unpublished, please contact
 
 :::
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Horizontal from '@/components/horizontal';
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+TODO: USE FUMADOCS I18N
+
 <div lang='en-US'>
 
 We believe you deserve transparency and control over how you're being manipulated. Attention Settings demonstrates practical pathways for regulating attention-extracting products to increase consumer agency.
@@ -39,7 +37,7 @@ The basic idea is to give users awareness over how they're being manipulated and
 
 This is roughly what it could look like:
 
-<DisplayFlex>
+<Horizontal>
 
 ![[6DE1DE.png]]
 
@@ -47,7 +45,7 @@ This is roughly what it could look like:
 
 ![[58745C.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 Products with over 10 million users could be required to provide a) transparency about the techniques they use to increase engagement and b) the option to opt-out of these techniques and features — as a condition for passing App Review.
 
@@ -214,8 +212,8 @@ If we can do it, Facebook can too.
 [1] [Social Media Enables Undue Influence](https://consilienceproject.org/social-media-enables-undue-influence/), The Consilience Project, 2021 [↩](https://attentionsettings.com/#block-833e02940eb24b30b6dc7df85f0f35a9)
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 (기계번역) 🇰🇷' lang='ko-KR'>
+
+
 <div lang='ko-KR'>
 
 우리는 당신이 어떻게 조종당하고 있는지에 대해 투명성과 통제를 받을 자격이 있다고 믿는다. 주의력 설정은 소비자를 더 잘 보호하기 위해 주의력력을 "채굴"하는 제품을 규제하는 실용적인 경로를 보여준다.
@@ -238,7 +236,7 @@ If we can do it, Facebook can too.
 
 대략 다음과 같이 보일 수 있다:
 
-<DisplayFlex>
+<Horizontal>
 
 ![[6DE1DE.png]]
 
@@ -246,7 +244,7 @@ If we can do it, Facebook can too.
 
 ![[58745C.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 1,000만 명 이상의 사용자를 보유한 제품은 a) 참여도를 높이기 위해 사용하는 기술에 대한 투명성을 제공하고 b) 앱 리뷰 통과 조건으로 해당 기술 및 기능을 사용하지 않을 수 있는 옵션을 제공해야 한다.
 
@@ -413,5 +411,5 @@ iOS는 사용자들에게 주의력을 산만하게 하는 앱들을 계속하�
 [1] [소셜미디어 부당한 영향력 행사](https://consilienceproject.org/social-media-enables-undue-influence/), The Consilience Project, 2021 [↩](https://attentionsettings.com/#block-833e02940eb24b30b6dc7df85f0f35a9)
 
 </div>
-</TabItem>
-</Tabs>
+
+TODO: USE FUMADOCS I18N

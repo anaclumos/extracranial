@@ -58,9 +58,9 @@ As seen in [[Aldehyde Outage (January 23誠鉉)]], weirdly, [[Docusaurus]] chugg
 
 But it **was** indeed possible! Using CNAME-flattening on [[Cloudflare]], I was able to configure the root domain directly to [[Cloudflare]] (or [[AWS]], under the hood?). More info here: [[Configuring Root Domain on FlightControl with CloudFlare]]. I reported this information to [[FlightControl]], and they responded:
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 
 <figure>
 
@@ -85,7 +85,7 @@ After sharing my so-called "workaround"
 </figcaption>
 </figure>
 
-</DisplayFlex>
+</Horizontal>
 
 As I noted, this is the charm of working with an early-stage engineering product team! You also contribute to the product as an early adopter.
 

@@ -3,8 +3,6 @@ lang: 'en'
 slug: '/450720'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 Supersedes [[Shortcuts]]
 

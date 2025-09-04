@@ -5,7 +5,7 @@ aliases:
   - Ganymede
 ---
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
 - [[The Paradoxical Moon Philosophy]]
 - [[Send Separately]]
@@ -51,12 +51,12 @@ Server Crashed. migrating to Fly.io... Because I wanted a Vercel-like experience
 
 ## [[2023-12-24]]
 
-<DisplayFlex>
+<Horizontal>
 
 ![[9A391C.png]]
 ![[485E0B.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 ## [[2023-12-15]]
 

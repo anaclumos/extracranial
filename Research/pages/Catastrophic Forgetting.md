@@ -3,11 +3,9 @@ lang: 'en'
 slug: '/70625E'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+TODO: USE FUMADOCS I18N
+
 <div lang='en-US'>
 
 Catastrophic forgetting, also known as catastrophic interference, is a phenomenon that occurs in machine learning when a model forgets previously learned information as it learns new information. It can also be described as a failure of stability, in which new experience overwrites previous experience.
@@ -23,8 +21,8 @@ Catastrophic forgetting can occur when:
 Current approaches that deal with forgetting ignore the problem of catastrophic remembering.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
+
 <div lang='ko-KR'>
 
 치명적 간섭이라고도 하는 치명적 망각은 머신 러닝에서 모델이 새로운 정보를 학습할 때 이전에 학습한 정보를 잊어버리는 현상이다. 새로운 경험이 이전 경험을 덮어쓰는 안정성 실패라고도 할 수 있다.
@@ -40,5 +38,4 @@ Current approaches that deal with forgetting ignore the problem of catastrophic 
 망각에 대처하는 현재의 접근 방식은 치명적 기억 문제를 무시한다.
 
 </div>
-</TabItem>
-</Tabs>
+

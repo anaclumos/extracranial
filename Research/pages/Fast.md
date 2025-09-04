@@ -6,11 +6,9 @@ aliases: ['Move Fast']
 
 ## [Fast · Patrick Collison](https://patrickcollison.com/fast)
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+TODO: USE FUMADOCS I18N
+
 <div lang='en-US'>
 
 - **[BankAmericard](https://www.amazon.com/Electronic-Value-Exchange-Origins-Computing/dp/1849961387)** — Dee Hock successfully launched the BankAmericard card, which later became the Visa card, in just 90 days from scratch and managed to acquire over 100,000 customers during that time.
@@ -39,8 +37,8 @@ import TabItem from '@theme/TabItem';
 - **COVID-19 vaccines** — The SARS-CoV-2 genome was published on January 10, 2020. Shortly after, on January 13, Moderna finalized the sequence for its mRNA vaccine candidate, mRNA-1273. The first batch of the vaccine was produced on February 7, and on February 24 (45 days after the genome publication), Moderna shipped the initial batch of mRNA-1273 to the NIH for use in Phase 1 clinical trials. After 266 days of clinical trials and regulatory coordination, Moderna announced on November 16, 2020, that the vaccine's efficacy was 94.5%.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
+
 <div lang='ko-KR'>
 
 - **[BankAmericard](https://www.amazon.com/Electronic-Value-Exchange-Origins-Computing/dp/1849961387)** - 디 호크는 나중에 비자 카드가 된 BankAmericard 카드를 단 90일 만에 성공적으로 출시했으며, 그 기간 동안 10만 명 이상의 고객을 확보하는 데 성공했다.
@@ -69,5 +67,4 @@ import TabItem from '@theme/TabItem';
 - **코로나19 백신** - 2020년 1월 10일에 SARS-CoV-2 게놈이 공개되었다. 얼마 후인 1월 13일, 모더나는 mRNA 백신 후보인 mRNA-1273의 염기서열을 완성했다. 2월 7일에 백신의 첫 번째 배치가 생산되었고, 2월 24일(게놈 공개 45일 후)에 모더나는 임상 1상 시험에 사용하기 위해 mRNA-1273의 첫 번째 배치를 NIH에 배송했다. 266일간의 임상시험과 규제 조정을 거친 후 모더나는 2020년 11월 16일 백신의 효능이 94.5%에 달한다고 발표했다.
 
 </div>
-</TabItem>
-</Tabs>
+

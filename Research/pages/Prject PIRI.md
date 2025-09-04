@@ -5,13 +5,13 @@ aliases: ['PIRI']
 title: 'Project PIRI 🪈: Programmatic Interlingual Resource Integration'
 ---
 
-import Admonition from '@theme/Admonition';
 
-<Admonition type="info" title='Become a 10x dev without learning English' icon="💬">
+
+<Callout type="info" title='Become a 10x dev without learning English' icon="💬">
 
 Providing [[무제한번역|unlimited translations]] for major developer documents
 
-</Admonition>
+</Callout>
 
 ## [[2024-06-25]]
 

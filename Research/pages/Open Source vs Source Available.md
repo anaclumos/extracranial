@@ -3,18 +3,16 @@ lang: 'en'
 slug: '/9DE21D'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+TODO: USE FUMADOCS I18N
+
 <div lang='en-US'>
 
 Open Source Software is distributed under licenses that comply with the Open Source Definition, granting users the freedom to use, modify, and redistribute the software with minimal restrictions. Source-Available Software provides access to source code but typically imposes more restrictions, such as limitations on commercial use, distribution, or creation of derivative works, which do not conform to the Open Source Definition. While both allow users to view the source code, open source promotes a broader sharing and collaborative model, whereas source-available may retain more control for the original authors.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
+
 <div lang='ko-KR'>
 
 오픈 소스 소프트웨어는 오픈 소스 정의에 부합하는 라이선스에 따라 배포된다.
@@ -27,5 +25,4 @@ Open Source Software is distributed under licenses that comply with the Open Sou
 소스 사용 가능 소프트웨어는 원저작자에게 더 많은 통제권을 유지한다.
 
 </div>
-</TabItem>
-</Tabs>
+

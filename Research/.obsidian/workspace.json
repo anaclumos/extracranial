@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "64def873ee2a18d2",
+        "id": "bc6497573deb77b4",
         "type": "tabs",
         "children": [
           {
-            "id": "1d484de4967a5674",
+            "id": "010064b0889c7e50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2025-09-02.md",
+                "file": "journals/2025-09-04.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-02"
-            }
-          },
-          {
-            "id": "f4571fcf6e2dc85a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/나.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "나"
+              "title": "2025-09-04"
             }
           }
         ]
@@ -120,15 +96,16 @@
     "type": "split",
     "children": [
       {
-        "id": "45b9478d16e8b247",
+        "id": "e2b9c39057d83273",
         "type": "tabs",
         "children": [
           {
-            "id": "a445df28a9a88623",
+            "id": "d3422da4b9b1b0d8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2025-09-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,24 +115,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2025-09-04"
             }
           },
           {
-            "id": "6835232f8ca36a14",
+            "id": "03ef23efcafbb1ca",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "journals/2025-09-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2025-09-04"
             }
           },
           {
-            "id": "39ae5c40e3b6fe3d",
+            "id": "8e4088d55808cb83",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -169,17 +147,18 @@
             }
           },
           {
-            "id": "0c6be573cd9000e6",
+            "id": "44c0c921da2b4b87",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "journals/2025-09-04.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2025-09-04"
             }
           }
         ]
@@ -202,17 +181,22 @@
       "random-note:Open random note": false
     }
   },
-  "active": "1d484de4967a5674",
+  "active": "010064b0889c7e50",
   "lastOpenFiles": [
+    "pages/Comparing BLIP and CLIP.md",
+    "journals/2025-09-04.md",
+    "pages/Stable Alternative.md",
+    "pages/Example References for Alter.md",
+    "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
+    "pages/나.md",
+    "journals/2025-09-02.md",
     "journals/2025-09-01.md",
     "journals/2025-08-31.md",
-    "journals/2025-09-02.md",
     "pages/Inquiry for Hypany Template.md",
     "pages/Hypany.md",
     "pages/Hypany Interview with Dohu.md",
     "journals/2025-08-27.md",
     "pages/Written 100% By A Human.md",
-    "pages/나.md",
     "assets/837F65.png",
     "journals/2025-08-29.md",
     "journals/2025-08-26.md",
@@ -226,11 +210,6 @@
     "journals/2025-08-24.md",
     "pages/CSS Inject.md",
     "pages/ANN.md",
-    "journals/2025-08-22.md",
-    "pages/Prettier.md",
-    "pages/Docker Nuke.md",
-    "pages/공유 드릴 내용.md",
-    "journals/2025-08-20.md",
     "assets/852953.png"
   ]
 }

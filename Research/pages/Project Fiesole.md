@@ -77,60 +77,60 @@ Still around 92%, max. Never goes above 95%.
 
 ## Federated Learning
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
 <details>
 <summary>
 Results
 </summary>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[E0ED4F.png]]
 
 ![[DA87AB.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[2289D2.png]]
 
 ![[EC12E1.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[7147C6.png]]
 
 ![[AB6E91.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[C6F843.png]]
 
 ![[EEF724.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[E2D67A.png]]
 
 ![[DFF919.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[A1DAA5.png]]
 
 ![[BC3839.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 </details>
 
