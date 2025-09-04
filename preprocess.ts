@@ -52,6 +52,8 @@ const LANG_FIX_RE = /---\s*\n(.*?)\n---/s
 const WIKILINK_RE = /\[\[([^\]]+?)]]/g // raw [[…]] tokens
 const CODE_BLOCK_RE = /```.*?```/gs // fenced code
 const IMG_INLINE_RE = /!\[([^\]]*?)\]\(([^)]+?)\)/g // inline images anywhere
+// link-style image reference (not starting with '!')
+const LINK_INLINE_RE = /(^|[^!])\[([^\]]*?)\]\(([^)]+?)\)/g
 const SLUG_RE = /^slug:\s+['\"]?([^\s'\"#]+)['\"]?/m
 const TITLE_RE = /^title:\s+['\"]?([^\n'\"]+)['\"]?/m
 
@@ -286,6 +288,29 @@ async function rewriteImages(txt: string, mdFile: string): Promise<string> {
     if (!srcFile) return m
     const href = await copyToGenerated(srcFile)
     return `![${alt}](${href})`
+  })
+
+  // 3) Link-style images: [caption](src) → <Figure src=... caption=... />
+  // Only applies when the target resolves to a local image asset.
+  txt = await replaceAsync(txt, LINK_INLINE_RE, async (m, pre: string, caption: string, src: string) => {
+    const cand = src.trim()
+    // Ignore external/data links
+    if (
+      cand.startsWith('http://') ||
+      cand.startsWith('https://') ||
+      cand.startsWith('data:') ||
+      cand.startsWith('/generated/')
+    ) {
+      return m
+    }
+    // Only proceed if it looks like an image path or resolves to an image file
+    const srcFile = await resolveImageCandidate(cand, mdFile)
+    if (!srcFile || !isImagePath(srcFile)) return m
+    const href = await copyToGenerated(srcFile)
+    const cap = caption.trim()
+    const capLiteral = JSON.stringify(cap)
+    // Preserve the leading character (if any) captured by the regex
+    return `${pre}<Figure src="${href}" alt=${capLiteral} caption=${capLiteral} />`
   })
 
   return txt
