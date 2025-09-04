@@ -4,7 +4,7 @@ const Figure = ({ src, alt, caption }: { src: string; alt: string; caption: stri
   return (
     <figure className="my-4">
       <ImageZoom src={src} alt={alt} />
-      {caption ? <figcaption className="mt-2 text-sm text-muted-foreground">{caption}</figcaption> : null}
+      {caption ? <figcaption className="mt-2 text-sm text-muted-foreground text-center">{caption}</figcaption> : null}
     </figure>
   )
 }
