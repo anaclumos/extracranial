@@ -1,5 +1,0 @@
-<details>
-<summary>
-
-</summary>
-</details>

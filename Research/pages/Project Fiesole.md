@@ -25,9 +25,9 @@ Ran entire ten epochs with the original dataset
 
 - MNIST CNN: 99.16 %
 
-<details>
 
-<summary>One by One</summary>
+
+<Accordion title="One by One">
 
 I ran ten epochs on one dataset and have yet to come back. Then I moved on to the next one.
 
@@ -36,12 +36,12 @@ I ran ten epochs on one dataset and have yet to come back. Then I moved on to th
 - TL(10), TR(10), BL(10): 30.66 %
 - TL(10), TR(10), BL(10), BR(10): 47.24 %
 
-</details>
+</Accordion>
 
 ## Round Robin
 
-<details>
-<summary>Round-robin</summary>
+
+<Accordion title="Round-robin">
 
 I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four cycles, thus 16 epochs.
 
@@ -66,23 +66,19 @@ I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four c
   - TL(1), TR(1), BL(1): 91.99 %
   - TL(1), TR(1), BL(1), BR(1): 90.12 %
 
-</details>
+</Accordion>
 
-<details>
-<summary>
-Round Robin, 10 cycles
-</summary>
+
+<Accordion title="Round Robin, 10 cycles">
 Still around 92%, max. Never goes above 95%.
-</details>
+</Accordion>
 
 ## Federated Learning
 
 import Horizontal from '@/components/horizontal';
 
-<details>
-<summary>
-Results
-</summary>
+
+<Accordion title="Results">
 
 <Horizontal>
 
@@ -132,7 +128,7 @@ Results
 
 </Horizontal>
 
-</details>
+</Accordion>
 
 - The averaged model maxes its accuracy around 10-15 federations. Before each federation, each learner trains ten epochs from their corresponding dataset.
 - It never reaches over 95% accuracy.

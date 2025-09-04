@@ -2,6 +2,7 @@
 title: 'First week at Karrot 🥕'
 date: 2022-05-27
 slug: '/98410A'
+description: 'My first week at Karrot as a Mini App researcher intern—application, interview format, onboarding, and early technical discussions around web‑native mini apps.'
 ---
 
 ![ALT: Banner image showing onboarding goods such as MacBook, charger, sticker, guide, etc.](./E03480.png)
@@ -19,8 +20,8 @@ While running the recruitment website neatly, Karrot wrote down all the informat
 Above all, Karrot wrote the JD (Job Description) specifically and clearly.
 Some companies I interviewed with did not disclose the JD, so Karrot was much more considerate.
 
-<details>
-<summary>Karrot Mini R&D Engineer Intern JD</summary>
+
+<Accordion title="Karrot Mini R&D Engineer Intern JD">
 
 **Who we are looking for**.
 
@@ -77,7 +78,7 @@ Please forward your portfolio, GitHub link, etc., as needed.
 This is the stage where you have an in-depth talk about your job-related experiences and competencies based on your resume and assignments.
 The job interview lasts from 1 hour to 1 hour 30 minutes with the Karrot Market team members who are highly related to the job.
 
-</details>
+</Accordion>
 
 Doesn't it look very detailed and subtle?
 The information transparency was excellent, allowing me to predict what position I would hold and what responsibilities I would be given even before the interview.
@@ -91,24 +92,24 @@ As mentioned in JD, the interview was scheduled for 1 hour and 30 minutes.
 I had been interviewing for several companies before.
 Up to this point, the discussions I had experienced could be divided into two types.
 
-<details>
-<summary>Example of Behavioral Interview</summary>
+
+<Accordion title="Example of Behavioral Interview">
 
 - If _this_ happened within your team, how would you deal with it?
 - What do you think is the most important thing as a PM or developer?
 - Please describe this project written on your resume.
   What did you learn? What did you miss the most?
 
-</details>
+</Accordion>
 
-<details>
-<summary>Example of Technical Interview</summary>
+
+<Accordion title="Example of Technical Interview">
 
 - ~ Please solve this problem.
 - (In case of Web3 company interview) Please explain the concept of blockchain Proof of Stake. How is it different from Proof of Work? What problem are you trying to solve?
 - Please explain the difference between HTTP POST/GET/PUT, etc.
 
-</details>
+</Accordion>
 
 Among them, if you were looking for a Computer Science intern, you had to prepare well for the second technical interview.
 In the meantime, most of the companies that have been interviewed are **preparable** as above.
@@ -139,8 +140,8 @@ If you are curious about the mini-app, please refer to this article!
 
 The answers to the previous question lead to the next question.
 
-<details>
-<summary>Interview Questions</summary>
+
+<Accordion title="Interview Questions">
 
 - In the case of WeChat, they create their native client, and the native client runs the mini-app. However, in this case, mini-apps do not comply with web standards and use their security model, making it difficult to introduce them globally. Karrot Market is also envisioning a similar mini-app environment. What is the appropriate strategy for this?
 - → It would be sufficient to implement a general-purpose mini-app that complies with standard web specifications and perfectly follows the web security model. In other words, you want to run a WebView inside the web. The first method that comes to mind is an iframe. What's the problem with implementing this in an iframe?
@@ -149,7 +150,7 @@ The answers to the previous question lead to the next question.
 - → Provide a virtual DOM API that Web Workers can access. To solve this problem, Google developed a model called WorkerDOM. And an open-source project called PartyTown, an implementation that separates third-party JS code into a separate Web Worker, was recently released. So how can we implement a mini-app system using this?
 - → Let's assume that the mini-app system is implemented using the underlying technologies of Web Worker and WorkerDOM. Then, can we implement forced shutdown and multitasking on the web within the web? What should I do?
 
-</details>
+</Accordion>
 
 It was not a typical interview, but it aimed to find out how to come up with an idea and find a solution at a practical level.
 It felt like I was having a coffee chat, and I thought I was receiving significant consideration even though I was the interviewee.

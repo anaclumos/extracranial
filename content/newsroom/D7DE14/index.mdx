@@ -94,12 +94,12 @@ Another interesting observation was that the colors of the default iPhone keyboa
 
 ## 😶‍🌫️ But how do we make Cheon-Ji-In?
 
-<details>
-<summary>Supplementary YouTube video on how Hangul system works.</summary>
+
+<Accordion title="Supplementary YouTube video on how Hangul system works.">
 
 <YouTube id="K53oCDZPPiw" />
 
-</details>
+</Accordion>
 
 I first thought of individual cases to figure out the input logic of Cheon-Ji-In, then figured that this is tremendously difficult. For example, take:
 
@@ -161,14 +161,14 @@ Some may ask how I preprocessed such large combinations; I set the 11,000 final 
   Hwalja is the most <strong>simplest</strong> implementation, not the <strong>lightest</strong>.
 </Callout>
 
-<details>
-<summary>Can't we use combinatory Hangul sets and normalize the combinations to reduce the case count?</summary>
+
+<Accordion title="Can't we use combinatory Hangul sets and normalize the combinations to reduce the case count?">
 
 On the Hwalja project, Engineer 이성광 (Lee Sung-kwang) pointed out that [using Normalization Form D and decomposing consonants will reduce the case count](https://www.facebook.com/groups/codingeverybody/posts/8942515352455588/?comment_id=8946907612016362). I only considered Normalization Form D, but Engineer 이성광 is correct. For example, we decompose `안녕` as `안 ᄂᆞᆞㅣㅇ` and use Hwalja to gather `ᆞᆞㅣ` into `ㅕ` and then normalize `ㄴㅕㅇ` into `녕.`
 
 I decided to maintain Hwalja's current approach because it aims for the easiest and simplest Cheon-Ji-In implementation. The current system enables developers to stick with "substring" and "replace." If I add dependencies on Normalization Form D and Unicode Normalization, the Hwalja project may be lighter, but the developers using Hwalja must add additional handlers for normalizations. I created Hwalja because using Automata and Finite State Machines had steep learning curves. Thus, requiring any learning curves to use Hwalja violates the original purpose. Also, the final minified version is already 500KB, which is manageable for a full-fledged input engine.
 
-</details>
+</Accordion>
 
 ## 🤖 Implementing Keyboard Autocompletes
 

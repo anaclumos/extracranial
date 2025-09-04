@@ -8,20 +8,20 @@ aliases: ['Digital Brain', '디지털 브레인', '디지털브레인', '세컨�
 
 ### [[Stephan Ango]] [Link](https://stephanango.com)
 
-<details>
-<summary>Images</summary>
+
+<Accordion title="Images">
 
 ![[EB6370.png]]
 ![[C82B1C.png]]
 
-</details>
+</Accordion>
 
 ### [The Lab Notes](https://alexanderobenauer.com/labnotes/000/) by [Alexander Obenauer](https://twitter.com/alexobenauer)
 
 Seems like using [[Svelte]]
 
-<details>
-<summary>Images</summary>
+
+<Accordion title="Images">
 
 ![[53CB8D.png]]
 ![[1C6716.png]]
@@ -29,35 +29,35 @@ Seems like using [[Svelte]]
 ![[6A5DEA.png]]
 ![[5D9FD8.png]]
 
-</details>
+</Accordion>
 
 ### [Younho9 Notes](https://notes.younho9.com/) by [younho9 (Younho Choo)](https://github.com/younho9)
 
-<details>
-<summary>Images</summary>
+
+<Accordion title="Images">
 
 ![[030D1A.png]]
 ![[1541BC.png]]
 
-</details>
+</Accordion>
 
 ### [기억보다 기록을](https://kyounghwan01.github.io) by [Kyounghwan01 (kyounghwan Noh)](https://github.com/Kyounghwan01)
 
-<details>
-<summary>Images</summary>
+
+<Accordion title="Images">
 
 ![[EC5497.png]]
 
-</details>
+</Accordion>
 
 ### [Everything I know](https://wiki.nikiv.dev/) by [nikitavoloboev (Nikita)](https://github.com/nikitavoloboev)
 
-<details>
-<summary>Images</summary>
+
+<Accordion title="Images">
 
 ![[DA4882.png]]
 
-</details>
+</Accordion>
 
 ### [[Andy Matuschak]]
 

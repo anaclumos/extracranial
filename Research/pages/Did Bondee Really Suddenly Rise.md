@@ -49,25 +49,25 @@ A post questioning if Zheli plagiarized designs
 
 Beijing Yidianshuo Entertainment Technology, the company behind Zheli, subsequently published a statement claiming these are false.
 
-<details>
-<summary>Zheli denies any data collection. 2022-02-11. (Screenshot)</summary>
+
+<Accordion title="Zheli denies any data collection. 2022-02-11. (Screenshot)">
 
 ![[5A4739.png]]
 
 The Zheli app was recently accused of using users' private information, such as their [[WeChat]] ID and QQ number, without authorization. This caused concern among users and spread on various platforms. However, after investigation, the claims were found to be false and were part of an organized and planned defamation effort by the app's competitors. Beijing Yidianshuo Entertainment Technology, the company behind the Zheli app, has complied with all relevant laws and regulations and did not use the private information in question. However, the company has collected evidence and reported the incident to the police, and reserved the right to take legal action.
 
-</details>
+</Accordion>
 
 However, its developers soon took down the app to "improve existing user experience," adding it faced "continuous and organized attacks," including the spread of "deliberate rumors and false information" online. They denied anything about data leaks or privacy concerns they were suffering.
 
-<details>
-<summary>Zheli shuts down. 2022-02-13. (Screenshot)</summary>
+
+<Accordion title="Zheli shuts down. 2022-02-13. (Screenshot)">
 
 ![[474D9E.png]]
 
 Zheli is a new app that has faced continuous and organized attacks, causing rumors to be spread and negative reviews to be posted on various platforms. The company has taken legal action to defend its reputation. However, the app also has technical issues, such as freezes, crashes, and delays, which still need to be resolved. To improve the user experience, the company has decided to remove the app from the [[app store]] for a large-scale system upgrade and focus on fixing existing problems. The company hopes to hear from users through their question and suggestion channels and their official Weibo account.
 
-</details>
+</Accordion>
 
 ## But [[Bondee]] should be fine, right?
 
