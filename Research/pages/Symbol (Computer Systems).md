@@ -14,7 +14,7 @@ They are usually function names and global variables.
 External Global Symbols are also not static symbols, but they are undefined.
 These can include global variables with `extern` (so we don't know the value) or function prototypes (so we don't see the function)
 
-Local Symbols are static symbols — static global variables and functions.
+Local Symbols are static symbols -- static global variables and functions.
 Note that these are not local variables! Those are in the stack.
 Duplicate local symbol causes an error.
 

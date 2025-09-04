@@ -14,7 +14,7 @@ Below is a structured set of question ideas tailored to the new features you've 
         **Why:** Helps you segment users by engagement level.
 
 2. **Overall Satisfaction**
-   - _Example:_ "On a scale of 1–5 (1 = Very Dissatisfied, 5 = Very Satisfied), how satisfied are you with the new version of INCL overall?"  
+   - _Example:_ "On a scale of 1-5 (1 = Very Dissatisfied, 5 = Very Satisfied), how satisfied are you with the new version of INCL overall?"  
       **Why:** Quick snapshot of user sentiment.
 
 3. **Most/Least Valuable New Feature**
@@ -34,7 +34,7 @@ Below are question sets for each main page or feature you want feedback on. Use 
       **Why:** Captures initial emotional and functional reactions.
 
 2. **Satisfaction**
-   - _Example:_ "How satisfied are you with the Analyzer Page's speed and accuracy? (1–5 scale)"  
+   - _Example:_ "How satisfied are you with the Analyzer Page's speed and accuracy? (1-5 scale)"  
       **Why:** Quantifies user sentiment.
 
 3. **Ideas for Improvement**
@@ -53,7 +53,7 @@ Below are question sets for each main page or feature you want feedback on. Use 
         **Why:** Measures the clarity of this new, more robust graphing feature.
 
 2. **Satisfaction**
-   - _Example:_ "On a scale of 1–5, how satisfied are you with the new graphing capabilities?"  
+   - _Example:_ "On a scale of 1-5, how satisfied are you with the new graphing capabilities?"  
       **Why:** Quick quantification for trending over time.
 
 3. **Ideas for Improvement**
@@ -67,7 +67,7 @@ Below are question sets for each main page or feature you want feedback on. Use 
       **Why:** Measures the learning curve and clarity.
 
 2. **Satisfaction**
-   - _Example:_ "How satisfied are you with navigating and organizing projects in the new Project Tree? (1–5 scale)"  
+   - _Example:_ "How satisfied are you with navigating and organizing projects in the new Project Tree? (1-5 scale)"  
       **Why:** Assesses usability and efficiency gains.
 
 3. **Ideas for Improvement**
@@ -81,7 +81,7 @@ Below are question sets for each main page or feature you want feedback on. Use 
       **Why:** Identifies if you need better onboarding or tooltips.
 
 2. **Satisfaction & Usability**
-   - _Example:_ "How satisfied are you with the ease of creating and managing worklists via the right-click menu? (1–5 scale)"  
+   - _Example:_ "How satisfied are you with the ease of creating and managing worklists via the right-click menu? (1-5 scale)"  
       **Why:** Measures how much friction users experience with these shortcuts.
 
 3. **Ideas for Improvement**
@@ -93,7 +93,7 @@ Below are question sets for each main page or feature you want feedback on. Use 
 ## 3. **Log Page Enhancements**
 
 1. **First Impression of New Renderer**
-   - _Example:_ "Did you notice the new VS Code–style renderer with syntax highlighting? If so, how helpful do you find it?"  
+   - _Example:_ "Did you notice the new VS Code-style renderer with syntax highlighting? If so, how helpful do you find it?"  
       **Why:** Checks if the improvement is recognized and valuable.
 
 2. **Granular Following Options**
@@ -101,7 +101,7 @@ Below are question sets for each main page or feature you want feedback on. Use 
       **Why:** Reveals which features users rely on, guiding focus for improvements.
 
 3. **Satisfaction**
-   - _Example:_ "Rate your satisfaction with the Log Page's new features (1–5 scale)."  
+   - _Example:_ "Rate your satisfaction with the Log Page's new features (1-5 scale)."  
       **Why:** Provides a quick measure of overall sentiment.
 
 4. **Ideas for Improvement**
@@ -192,7 +192,7 @@ Below are question sets for each main page or feature you want feedback on. Use 
 2. **Use Balanced Answer Choices**
    - Provide positive, negative, and neutral options.
 3. **Mix Quantitative & Qualitative**
-   - Combine rating scales (e.g., 1–5) with open-ended questions for deeper insights.
+   - Combine rating scales (e.g., 1-5) with open-ended questions for deeper insights.
 4. **Make It Discoverable**
    - Provide an in-app link or notification for the survey so users can quickly respond.
 5. **Close the Loop**

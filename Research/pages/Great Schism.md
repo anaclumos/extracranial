@@ -8,4 +8,4 @@ slug: '/310D62'
 - The main point of theological contention between the churches of the east and west was the Latin teaching on the procession of the Holy Spirit from the Father and the Son.
   - East: "who proceeds from the Father."
   - West: "who proceeds from the Father and the Son."
-- Therefore, the Great Schism — divided Christendom.
+- Therefore, the Great Schism -- divided Christendom.

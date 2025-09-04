@@ -39,4 +39,4 @@ It's always a compromise, one or the other.
 
 > The difference between ordinary and extraordinary is that little extra.
 >
-> – Jimmy Johnson (1943—)
+> - Jimmy Johnson (1943--)

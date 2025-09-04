@@ -29,22 +29,22 @@ Pagemate is a JavaScript SDK that product teams install on their websites to dra
 
 ### Key Features
 
-- **Smart Guidance** — Conversational UI with live step highlighting
-- **Autopilot Mode** — Agent executes tasks automatically with granular permissions
-- **RAG + Fine-tuning** — Converts documentation into executable flows
-- **Analytics** — Track completion rates, deflections, and ROI
-- **Enterprise Ready** — Audit logs, versioning, and governance controls
+- **Smart Guidance** -- Conversational UI with live step highlighting
+- **Autopilot Mode** -- Agent executes tasks automatically with granular permissions
+- **RAG + Fine-tuning** -- Converts documentation into executable flows
+- **Analytics** -- Track completion rates, deflections, and ROI
+- **Enterprise Ready** -- Audit logs, versioning, and governance controls
 
 ### Target Markets
 
-- **Claims-heavy insurers** — Multi-step claim submissions
-- **Fintech apps** — KYC and account management flows
-- **E-commerce** — Returns and subscription management
-- **B2B SaaS** — Complex admin panel setups
+- **Claims-heavy insurers** -- Multi-step claim submissions
+- **Fintech apps** -- KYC and account management flows
+- **E-commerce** -- Returns and subscription management
+- **B2B SaaS** -- Complex admin panel setups
 
 ## Tech Stack
 
-- **Frontend** — Next.js 15, TypeScript, TailwindCSS
-- **Backend** — Python with UV package manager
-- **Build System** — Moon (task orchestration)
-- **Package Managers** — Bun (frontend), UV (backend)
+- **Frontend** -- Next.js 15, TypeScript, TailwindCSS
+- **Backend** -- Python with UV package manager
+- **Build System** -- Moon (task orchestration)
+- **Package Managers** -- Bun (frontend), UV (backend)

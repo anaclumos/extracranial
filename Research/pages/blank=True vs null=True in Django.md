@@ -19,7 +19,7 @@ slug: '/E93EEC'
 - **Common patterns**
   - String fields: `blank=True, null=False` → empty string stored, forms omit value.
   - Non-string fields: `blank=True, null=True` → [[database]] `NULL` used, validation allows omission.
-  - Mixing `null=True, blank=False` rarely useful—[[database]] allows `NULL`, but validation rejects empty input.
+  - Mixing `null=True, blank=False` rarely useful--[[database]] allows `NULL`, but validation rejects empty input.
   - Leaving both as `False` enforces mandatory data at both [[database]] and validation levels.
 
 - **Key distinctions**

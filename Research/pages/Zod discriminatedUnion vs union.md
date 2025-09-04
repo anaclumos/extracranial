@@ -35,5 +35,5 @@ slug: '/59104C'
 
 ## When to choose
 
-- Use `discriminatedUnion` for object variants distinguished by a tag field—higher performance, simpler errors, safer exhaustiveness checks.
+- Use `discriminatedUnion` for object variants distinguished by a tag field--higher performance, simpler errors, safer exhaustiveness checks.
 - Use `union` for heterogeneous unions, non-object branches, or when no single discriminator exists.

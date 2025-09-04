@@ -53,7 +53,7 @@ Configuring [[Cloudflare Pages]] and [[Vercel]] with the following argument fixe
 --max-old-space-size=8192
 ```
 
-— Nope. Did not solve the problem.
+-- Nope. Did not solve the problem.
 
 ![[695A13.png]]
 

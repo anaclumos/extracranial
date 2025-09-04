@@ -9,7 +9,7 @@ $f(\mathbb{D} | \theta)$
 $\hat{\theta}_\text{ML} = \text{argmax}_{\theta} g(x|\theta) = \text{argmax}_{\theta} \ln g(x | \theta)$
 
 $\hat{\theta}_\text{ML} = \text{argmax}_{\theta} g(x_1,~x_2,~\cdots,~x_n | \theta)$
-$= \text{argmax}_{\theta} \prod\limits_{k=1}^{n} g(x_k|\theta)$ — i.i.d. / r.s.
+$= \text{argmax}_{\theta} \prod\limits_{k=1}^{n} g(x_k|\theta)$ -- i.i.d. / r.s.
 $= \text{argmax}_{\theta} \sum\limits_{k=1}^{n} \ln g(x_k|\theta)$
 
 ${\partial L \over \partial \theta} |_{\theta = \hat\theta_\text{ML}} = 0$

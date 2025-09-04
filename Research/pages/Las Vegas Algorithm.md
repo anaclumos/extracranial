@@ -20,7 +20,7 @@ A Las Vegas algorithm is a randomized algorithm that always produces a correct r
 
 An illustrative example is the [[Quickselect]] algorithm, a cousin of the Quicksort algorithm. [[Quickselect]] finds the $k$-th smallest element of an unordered list. While it uses randomness to achieve its expected runtime, it always provides the correct element as an answer.
 
-Interestingly, Las Vegas always gives the correct results but sometimes gives a very slow answer. You **bet** (risk) on time on the promise of accurate results—another exciting property in [[Computational Theory]].
+Interestingly, Las Vegas always gives the correct results but sometimes gives a very slow answer. You **bet** (risk) on time on the promise of accurate results--another exciting property in [[Computational Theory]].
 
 </div>
 

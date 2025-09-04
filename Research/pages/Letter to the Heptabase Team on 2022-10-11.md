@@ -36,4 +36,4 @@ P.S. I love your work and blog and have always enjoyed reading your English/Taiw
 
 趙[[誠鉉]] 敬上
 
-(I just studied Taiwanese Business [[Mail|Letter]] 101 — Apologies if these are wrong 😅)
+(I just studied Taiwanese Business [[Mail|Letter]] 101 -- Apologies if these are wrong 😅)

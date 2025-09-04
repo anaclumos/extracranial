@@ -11,5 +11,5 @@ In [[Graphics]], preprocessors are the directives to tell the compiler before tu
 
 `#define CONSTANT` also copy-pastes.
 
-Rule of thumb — only `#include` the headers you necessarily need.
+Rule of thumb -- only `#include` the headers you necessarily need.
 Or, if you make an `everything.h`, precompile it!

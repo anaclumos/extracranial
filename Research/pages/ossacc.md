@@ -31,7 +31,7 @@ oss/acc stickers dropped[Original Post Link](https://t.co/8g08SJHVzn)
 
 [Original Post Link](https://t.co/ot8fTJmAId)
 
-&mdash; Peer Richelsen — oss/acc (@peer_rich) [April 16, 2024](https://twitter.com/peer_rich/status/1780354813793800698?ref_src=twsrc%5Etfw)
+&mdash; Peer Richelsen -- oss/acc (@peer_rich) [April 16, 2024](https://twitter.com/peer_rich/status/1780354813793800698?ref_src=twsrc%5Etfw)
 
 </blockquote>
 

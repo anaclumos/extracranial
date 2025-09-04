@@ -15,7 +15,7 @@ Uses the POSIX `fork()` system call to create a child process that executes a us
 
 ## Guarantee
 
-Ensures memory purity—changes in the child process do not affect the parent process.
+Ensures memory purity--changes in the child process do not affect the parent process.
 
 ## How It Works
 

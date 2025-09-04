@@ -73,10 +73,10 @@ Statistical heterogeneity creates challenges in federated models when data is no
 
 Extensive research models statistical heterogeneity through meta-learning and multi-task learning. These concepts have recently been extended to [[Federated Machine Learning|federated learning]].
 
-- **MOCHA** — Optimizes federated settings, allowing personalization by learning separate models for each device but also has a shared representation via multi-task learning.
-- **Bayesian Networks** — Models the star topology and performs variational inference.
-- **Meta-learning** — Adopts a within-task learning rate using multi-task information.
-- **Transfer Learning** — Explores personalization by training a global model.
+- **MOCHA** -- Optimizes federated settings, allowing personalization by learning separate models for each device but also has a shared representation via multi-task learning.
+- **Bayesian Networks** -- Models the star topology and performs variational inference.
+- **Meta-learning** -- Adopts a within-task learning rate using multi-task information.
+- **Transfer Learning** -- Explores personalization by training a global model.
 
 ### Challenges
 
@@ -96,8 +96,8 @@ Some approaches aim to reduce model performance [[variance]] across devices.
 
 Non-IID (independent and identically distributed) data causes difficulties in analyzing convergence behavior in federated settings.
 
-- **FedAvg** — A method that's been observed to diverge in practice.
-- **FedProx** — A proposal to modify FedAvg to ensure convergence.
+- **FedAvg** -- A method that's been observed to diverge in practice.
+- **FedProx** -- A proposal to modify FedAvg to ensure convergence.
 
 #### Other Approaches
 
@@ -111,9 +111,9 @@ The need for privacy is paramount in federated settings, mainly because raw data
 
 #### [[Strategy|Strategies]]
 
-- **[[Differential Privacy]]** — Popular for its strong guarantees, simplicity, and small systems overhead. It ensures changes in input don't drastically alter the output [[distribution]].
-- **[[Homomorphic Encryption]]** — Allows computation on encrypted data.
-- **Secure Multiparty Computation ([[Secure Multi-Party Computation|SMC]])** — Enables multiple parties to compute functions collaboratively without leaking input data.
+- **[[Differential Privacy]]** -- Popular for its strong guarantees, simplicity, and small systems overhead. It ensures changes in input don't drastically alter the output [[distribution]].
+- **[[Homomorphic Encryption]]** -- Allows computation on encrypted data.
+- **Secure Multiparty Computation ([[Secure Multi-Party Computation|SMC]])** -- Enables multiple parties to compute functions collaboratively without leaking input data.
 
 #### Trade-offs
 
@@ -125,14 +125,14 @@ A balance between privacy and model accuracy must be struck. The introduction of
 
 The federated context requires cost-effective methods, efficient communication, and resilience to device dropouts without sacrificing accuracy.
 
-- **Privacy Definitions** — Global privacy (privacy from external third parties) and local privacy (privacy from the central server).
+- **Privacy Definitions** -- Global privacy (privacy from external third parties) and local privacy (privacy from the central server).
 
 #### Approaches
 
-- **[[Secure Multi-Party Computation]] ([[Secure Multi-Party Computation|SMC]])** — Protects individual model updates.
-- **[[Differential Privacy]]** — Applied to [[Federated Machine Learning|federated learning]], offers global [[differential privacy]]. Some methods even propose adaptive gradient clipping to optimize performance.
-- **Local Privacy** — Proposes a more relaxed version that performs better than strict local privacy.
-- **Combining Methods** — [[Differential privacy]] can be merged with model compression for privacy and communication benefits.
+- **[[Secure Multi-Party Computation]] ([[Secure Multi-Party Computation|SMC]])** -- Protects individual model updates.
+- **[[Differential Privacy]]** -- Applied to [[Federated Machine Learning|federated learning]], offers global [[differential privacy]]. Some methods even propose adaptive gradient clipping to optimize performance.
+- **Local Privacy** -- Proposes a more relaxed version that performs better than strict local privacy.
+- **Combining Methods** -- [[Differential privacy]] can be merged with model compression for privacy and communication benefits.
 
 ## Future Directions and Themes
 

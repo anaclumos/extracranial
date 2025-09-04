@@ -70,7 +70,7 @@ slug: '/C62BBE'
 
 ![[308AC8.gif]]
 
-- Multi-modal feedback —visual cues, sound, and haptics— would be critical for Wayfinding.
+- Multi-modal feedback --visual cues, sound, and haptics-- would be critical for Wayfinding.
 - Built [[Animation|animations]] to work alongside the potential hardware to demonstrate these scenarios.
 
 ### Ambient awareness

@@ -9,7 +9,7 @@ Customizable Keyword Reports in 30 Languages
 
 ## What are you building?
 
-You tell the tool what you're interested in — it could be anything like "sustainable fashion," "AI developments," or even "new coffee trends." Then, my AI goes into the digital world, gathers information about your topic, and composes a neat summary. The best part? It can do this in 30 different languages, so if you're curious about what's happening on the other side of the world in a foreign language, no problem!
+You tell the tool what you're interested in -- it could be anything like "sustainable fashion," "AI developments," or even "new coffee trends." Then, my AI goes into the digital world, gathers information about your topic, and composes a neat summary. The best part? It can do this in 30 different languages, so if you're curious about what's happening on the other side of the world in a foreign language, no problem!
 
 ## Who are your ideal users?
 

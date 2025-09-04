@@ -34,7 +34,7 @@ slug: '/18728A'
 | [02-27](../journals/2023-02-27.md) | 🇬🇧 [[Can we ever build TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]]                                             | [tweet](https://twitter.com/anaclumos/status/1630370788422610945) |
 | [02-28](../journals/2023-02-28.md) | 🇬🇧 [[Newtonian Mail]] <br/> 🇰🇷 [[뉴턴의 서신]]                                                                                           | [tweet](https://twitter.com/anaclumos/status/1630727695826046976) |
 | [03-01](../journals/2023-03-01.md) | 🇬🇧 [[OpenAI enthroned as the Levis of Tech]] <br/> 🇰🇷 [[OpenAI가 새로운 테크 리바이스로 등극하다]]                                       | [tweet](https://twitter.com/anaclumos/status/1631087532338290689) |
-| [03-02](../journals/2023-03-02.md) | 🇬🇧 [[On National Crises and the Intellectuals — Focused on GB and KR]] <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로]] | [tweet](https://twitter.com/anaclumos/status/1631534753710247936) |
+| [03-02](../journals/2023-03-02.md) | 🇬🇧 [[On National Crises and the Intellectuals -- Focused on GB and KR]] <br/> 🇰🇷 [[국가적 위기와 지식인에 대해 -- 영국과 한국을 중심으로]] | [tweet](https://twitter.com/anaclumos/status/1631534753710247936) |
 
 <blockquote class="twitter-tweet" data-theme="light">
 
@@ -61,4 +61,4 @@ I have invested significant time and effort into…
 >
 > I will choose a winner after 30 days; they will get coaching with me and Team 20VC and $10K! [pic.twitter.com/5BRQElM0Cg](https://t.co/5BRQElM0Cg)
 >
-> — [[Harry Stebbings]] (@HarryStebbings) [February 2, 2023](https://twitter.com/HarryStebbings/status/1621132368483598336?ref_src=twsrc%5Etfw)
+> -- [[Harry Stebbings]] (@HarryStebbings) [February 2, 2023](https://twitter.com/HarryStebbings/status/1621132368483598336?ref_src=twsrc%5Etfw)

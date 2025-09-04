@@ -11,7 +11,7 @@ TODO: USE FUMADOCS I18N
 
 The Monte Carlo algorithm is a stochastic method that uses random sampling to approximate solutions to complex problems. Inspired by the concept of randomness, as in the Monte Carlo Casino, the technique performs numerous random [[simulations]] to estimate the desired outcome. For instance, to estimate the value of π, you could imagine randomly throwing darts at a square with a circle inside it. Compared to the total number thrown, the proportion of darts landing in the circle can help estimate π. Used in varied fields like [[finance]], physics, game theory, and [[graphics]], Monte Carlo can tackle intricate systems and high-dimensional spaces where traditional methods falter. However, its accuracy typically improves slowly, requiring many more samples to achieve finer precision.
 
-An interesting observation is that Monte Carlo always gives fast results but sometimes gives a very wrong answer. You **bet** (risk) accuracy on the promise of quick results—exciting property in [[Computational Theory]].
+An interesting observation is that Monte Carlo always gives fast results but sometimes gives a very wrong answer. You **bet** (risk) accuracy on the promise of quick results--exciting property in [[Computational Theory]].
 
 </div>
 

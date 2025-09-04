@@ -30,7 +30,7 @@ document.getElementsByClassName('transcript')[0].prepend(download)
 ```
 
 - Access the Zoom video recording page.
-- After the webpage completes loading—when you can both play the video and scroll through the chat list—open the [[Web Browser|browser]] console.
+- After the webpage completes loading--when you can both play the video and scroll through the chat list--open the [[Web Browser|browser]] console.
 - Paste this code and close the console.
 - There will be a random button on top of the chat list. Don't click it; right-click it and select **Save Link As**.
 - Now the video will download.

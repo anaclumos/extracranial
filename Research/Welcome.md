@@ -28,7 +28,7 @@ an electromechanical device enabling individuals
 + * in order to contain every single idea of Sunghyun Cho
 ```
 
-Thus, the name [[Extracranial]], — **The Exosuit for [[Superbrain|Superbrains]]**.
+Thus, the name [[Extracranial]], -- **The Exosuit for [[Superbrain|Superbrains]]**.
 
 ## Before Everything
 

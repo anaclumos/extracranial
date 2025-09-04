@@ -13,7 +13,7 @@ In an era where the web continues to dominate technological and software advance
 
 Despite these advancements, video players and editors have remained mainly an exception to the web transition, primarily due to the complexity of video codecs and encodings. [[WebAssembly]] ([[WebAssembly|WASM]]) emerged as a potential solution, offering near-native performance on the web and enabling the execution of lower-level executables online. Notably, in 2019, [[FFMpeg]], a comprehensive, cross-platform solution for recording, converting, and streaming audio and video, was ported to the web. However, the [[WebAssembly|WASM]] ecosystem experienced a temporary setback following the [[Spectre]] vulnerability, leading to the disabling of shared memory and high-resolution timers at the beginning of 2018. By 2020, a new secure approach had been standardized, re-enabling shared memory and revitalizing the potential for high-performance web-based video applications.
 
-**In light of this, we propose PIRI: a "[[Google]] Docs" of Video Players — High-Performance, Fully-Fledged, and Universal Web Player.**
+**In light of this, we propose PIRI: a "[[Google]] Docs" of Video Players -- High-Performance, Fully-Fledged, and Universal Web Player.**
 
 PIRI consists of three parts:
 

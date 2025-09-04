@@ -121,6 +121,6 @@ We can't prevent the adoption of digital memory any more than oral cultures coul
 
 Digital memory will not stop us from telling stories about ourselves. As I said earlier, we are made of stories, and nothing can change that.
 
-What digital memory will do is change those stories from fabulations that emphasize our best acts and elide our worst, into ones that—I hope—acknowledge our fallibility and make us less judgmental about the fallibility of others."
+What digital memory will do is change those stories from fabulations that emphasize our best acts and elide our worst, into ones that--I hope--acknowledge our fallibility and make us less judgmental about the fallibility of others."
 
-—The Truth of Fact, the Truth of Feeling, Ted Chiang (2018)
+--The Truth of Fact, the Truth of Feeling, Ted Chiang (2018)

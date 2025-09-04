@@ -34,27 +34,27 @@ slug: '/7AA207'
 
 ### Efficiency
 
-- **OvA** — Requires training $K$ classifiers.
-- **OvO** — Requires training $\frac{K(K-1)}{2}$ classifiers, which can be computationally expensive as $K$ grows.
-- **ECOC** — The number of classifiers is determined by the length $L$ of the code, which is generally less than $K$ and $\frac{K(K-1)}{2}$.
-- **Tree** — A single tree is trained, but ensemble methods like Random Forests would involve teaching multiple trees.
+- **OvA** -- Requires training $K$ classifiers.
+- **OvO** -- Requires training $\frac{K(K-1)}{2}$ classifiers, which can be computationally expensive as $K$ grows.
+- **ECOC** -- The number of classifiers is determined by the length $L$ of the code, which is generally less than $K$ and $\frac{K(K-1)}{2}$.
+- **Tree** -- A single tree is trained, but ensemble methods like Random Forests would involve teaching multiple trees.
 
 ### Scalability
 
-- **OvA** — Scales linearly with the number of classes.
-- **OvO** — Quadratic scalability with the number of classes can be inefficient for an enormous $K$.
-- **ECOC** — Scalability can vary depending on the coding design.
-- **Tree** — Scales well with the number of classes, but tree depth might increase.
+- **OvA** -- Scales linearly with the number of classes.
+- **OvO** -- Quadratic scalability with the number of classes can be inefficient for an enormous $K$.
+- **ECOC** -- Scalability can vary depending on the coding design.
+- **Tree** -- Scales well with the number of classes, but tree depth might increase.
 
 ### Decision Boundary
 
-- **OvA** — This can lead to imbalanced decision boundaries since one class is always compared against all others combined.
-- **OvO** — Often results in more balanced decision boundaries since it considers every pair of classes separately.
-- **ECOC** — The coding design determines the decision boundary.
-- **Tree** — Produces orthogonal decision boundaries based on feature splits.
+- **OvA** -- This can lead to imbalanced decision boundaries since one class is always compared against all others combined.
+- **OvO** -- Often results in more balanced decision boundaries since it considers every pair of classes separately.
+- **ECOC** -- The coding design determines the decision boundary.
+- **Tree** -- Produces orthogonal decision boundaries based on feature splits.
 
 ### Complexity
 
-- **OvA and OvO** — Relatively straightforward to understand.
-- **ECOC** — Requires an additional step of designing and decoding the binary codes for classes.
-- **Tree** — Interpretable as it offers hierarchical decisions based on features.
+- **OvA and OvO** -- Relatively straightforward to understand.
+- **ECOC** -- Requires an additional step of designing and decoding the binary codes for classes.
+- **Tree** -- Interpretable as it offers hierarchical decisions based on features.

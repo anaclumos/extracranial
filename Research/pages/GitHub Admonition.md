@@ -7,7 +7,7 @@ slug: '/7DB979'
 
 <blockquote class="twitter-tweet">
 
-TIL — GitHub&#39;s custom markdown syntax for notes and highlights supports Note, Tip, Important, Warning, and Caution.
+TIL -- GitHub&#39;s custom markdown syntax for notes and highlights supports Note, Tip, Important, Warning, and Caution.
 
 When did this happen?
 
