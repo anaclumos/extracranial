@@ -27,13 +27,6 @@ export function baseOptions(locale: string): BaseLayoutProps {
         type: 'main',
         url: withLocale('/newsroom'),
       },
-      {
-        active: 'nested-url',
-        on: 'nav',
-        text: t(locale, 'nav.graph'),
-        type: 'main',
-        url: withLocale('/graph'),
-      },
     ],
     nav: {
       title: (
