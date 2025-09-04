@@ -418,8 +418,8 @@ async function processResearchToFumadocs(): Promise<void> {
   for (const meta of metas) {
     const preferredSlug = (meta.rawSlug && lastSegment(meta.rawSlug)) || slugify(meta.fileBase)
     const lang = (meta.lang || 'en').toLowerCase()
-    const localeSuffix = lang && lang !== 'en' ? `.${lang}` : ''
-    const outFile = path.join(CONTENT_RESEARCH, `${preferredSlug}${localeSuffix}.mdx`)
+    // Do not add language to filename; keep a single canonical filename
+    const outFile = path.join(CONTENT_RESEARCH, `${preferredSlug}.mdx`)
     const raw = await fs.readFile(meta.srcPath, 'utf-8')
     // rewrite images first
     let body = await rewriteImages(raw, meta.srcPath)
