@@ -19,8 +19,8 @@ slug: '/A33FA6'
 
 From the Stay Home challenge in 2020 to a mass-scale [[3D]] [[Cartography|map]] update in 2022, [[Zenly]] prepared for its upcoming future. However, the recent layoff at Snap wiped out the [[Zenly]] team alongside the Snap [[Mini App]] team. I do think this is Snap's mistake. Even my university peers do not use Snap anymore but still use [[Zenly]]. It almost feels like [[Facebook]] is killing [[Instagram]] for [[Facebook]]. I hope [[Zenly]]'s revolutionary DNA gets well-integrated into Snap, seeking revival.
 
-<details>
-<summary>More Info</summary>
+
+<Accordion title="More Info">
 
 - [Alexis Bonillo - Zenly](https://www.youtube.com/watch?v=BCOF9V7bQUo)
 - [Zenly uses Docker 1.12 to scale analytics for over 500M data points per day](https://www.youtube.com/watch?v=AnHRHi2nJAE)
@@ -30,4 +30,4 @@ From the Stay Home challenge in 2020 to a mass-scale [[3D]] [[Cartography|map]] 
 - [Symbiote (Company) Zenly Analysis](https://carpedm30.notion.site/Zenly-2011-Acq-by-Snap-213M-4a4deaf155144fd49ed076a1f60b31ad)
 - [How Zenly made social maps cool again -- and what's next](https://techcrunch.com/2022/04/22/how-zenly-made-social-maps-cool-again-and-whats-next/)
 
-</details>
+</Accordion>

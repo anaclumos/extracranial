@@ -45,12 +45,8 @@ As much as I feel [[ideas are worthless]]; in this very specific example, it req
 
 As much as I feel some sour gripe that someone else has launched a successful product, I must acknowledge that he has been working on this to create the smoothest experience possible.
 
-<details>
-<summary>
 
-He basically pulled every single growth levers I could ever think of...
-
-</summary>
+<Accordion title="He basically pulled every single growth levers I could ever think of...">
 
 ![[6A9632.gif]]
 
@@ -83,7 +79,7 @@ He basically pulled every single growth levers I could ever think of...
 - https://x.com/john_tans/status/1879310772289105967
 - https://x.com/spottedinprod/status/1879290007288177007
 
-</details>
+</Accordion>
 
 I especially don't know how he got through the app store review process, considering that it technically breaks the Live Activity guidelines.
 

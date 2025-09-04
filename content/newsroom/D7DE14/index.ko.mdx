@@ -197,8 +197,8 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
   가장 <strong>단순한</strong> 구현체이지 가장 <strong>가벼운</strong> 구현체는 아니라는 점을 명심하자.
 </Callout>
 
-<details>
-<summary>조합형 한글로 문자열 정규화를 하면 좀 더 경우의 수가 줄지 않나요?</summary>
+
+<Accordion title="조합형 한글로 문자열 정규화를 하면 좀 더 경우의 수가 줄지 않나요?">
 
 활자 프로젝트에 대해 이성광 님께서 [NFD로 문자열 정규화를 해서 초중종성을 떼어놓고 만들면 좀 더 경우의 수가 줄지 않을까](https://www.facebook.com/groups/codingeverybody/posts/8942515352455588/?comment_id=8946907612016362)에 대한 지적을 해주셨다.
 나는 완성형 한글만 놓고 생각했는데, 말씀하신대로 조합형으로 제작 후 정규화를 거치면 경우의 수가 확실히 많이 준다.
@@ -214,7 +214,7 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
 **모든 정보를 하드코딩해 가장 단순한 형태로 구현하기로 한 활자 프로젝트의 본 목적**에 어긋난다.
 더불어 이미 압축된 버전은 500KB 수준이기에 입력 엔진으로 사용하기에 부담이 되는 크기가 아니다.
 
-</details>
+</Accordion>
 
 ## 🤖 자동완성 키보드 만들기
 

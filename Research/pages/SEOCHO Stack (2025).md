@@ -31,14 +31,14 @@ Everything changes--including your own reasoning. Plan for it.
 - **Design for swap‑outs.** Every module is a part you can replace without drama.
 - **Prefer learning loops over sunk‑cost loyalty.** When the world shifts, you shift.
 
-<details>
-<summary>Instagram's Engineering Philosophy (2011)</summary>
+
+<Accordion title="Instagram's Engineering Philosophy (2011)">
 
 1. Keep it very simple
 2. Don't reinvent the wheel
 3. Go with proven and solid technologies when you can
 
-</details>
+</Accordion>
 
 Use **1** and **2** by default. Use **3** only when "proven" also means **ergonomic, portable, and easy to replace**. New tools exist for reasons--**learn the reason** before you commit.
 
