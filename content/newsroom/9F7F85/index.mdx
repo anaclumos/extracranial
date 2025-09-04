@@ -58,7 +58,7 @@ Let's recreate the Dynamic Island on the Web!
 
 <Callout type="tip" title="Extra Tip" icon="💰">
 
-I also open-sourced my [research notes](.//r/B21605) for this project.
+I also open-sourced my [research notes](/research/B21605) for this project.
 
 </Callout>
 
@@ -133,7 +133,7 @@ export type DynamicIslandSize =
   | 'ultra'
 ```
 
-Then I spent a whole night ([2022-10-16](.//r/2022-10-16)) and figured out how to naturally shift sizes with Framer Motion.
+Then I spent a whole night ([2022-10-16](/research/2022-10-16)) and figured out how to naturally shift sizes with Framer Motion.
 It uses the following codes.
 I especially experimented with a lot of `stiffness` and `dampening` values;
 the golden ratio was `const stiffness = 400` and `const damping = 30`.
@@ -162,7 +162,7 @@ the golden ratio was `const stiffness = 400` and `const damping = 30`.
 
 <figcaption>
 
-As of [Oct 16th, 2022](.//r/2022-10-16)
+As of [Oct 16th, 2022](/research/2022-10-16)
 
 </figcaption>
 </figure>
@@ -172,7 +172,7 @@ As of [Oct 16th, 2022](.//r/2022-10-16)
 Before connecting with external APIs, I mimicked Apple's incoming phone call widget.
 There's no big reason for this; it was just to get used to the animations.
 I love how it turned out; it looks exactly like the official Apple animation!
-Finished on [Oct 20th, 2022](.//r/2022-10-20).
+Finished on [Oct 20th, 2022](/research/2022-10-20).
 
 :::info
 
@@ -237,7 +237,7 @@ making it significantly more complicated. I needed the following:
 | Airline tickets for Passengers     | Apple Music User Token from user's grant               | Ensures if the user wants to use my service                      |
 
 All four pieces of information should work harmoniously to retrieve users' data (of what they were listening to).
-All the others were pretty straightforward ([More Info: Research Note](.//r/62764C).)
+All the others were pretty straightforward ([More Info: Research Note](/research/62764C).)
 The trickiest one was User Token.
 User Token was specialized for iOS, macOS, and MusicKit on the Web.
 MusicKit on the Web was intended for Apple Music Web clients,
@@ -276,7 +276,7 @@ Then digging into the request headers of the website will reveal the `media-user
 ![There we go.](./91C875.png)
 
 Finally, I can successfully get a JSON response from the Apple server by filling in other information with Postman software.
-Finished on [Oct 28th, 2022](.//r/2022-10-28).
+Finished on [Oct 28th, 2022](/research/2022-10-28).
 
 ![It sounds straightforward, but it took me days to figure it out. 😭](./46C3E8.png)
 
@@ -352,7 +352,7 @@ I used this [tienphaw/figma-squircle](https://github.com/tienphaw/figma-squircle
 However, to clip all frames of the animations, we would have to create squircles for every frame, risking speed.
 Therefore, I opted to use `borderRadius` for the animation and clipped it right after the animation finished.
 It was barely noticeable, even if you looked very closely, so it was a good trade-off between performance and detail.
-Finished on [Nov 11th, 2022](.//r/2022-11-11).
+Finished on [Nov 11th, 2022](/research/2022-11-11).
 
 ![Look closely. The border cuts into the squircle when the animation exits.](./58D345.gif)
 
@@ -392,7 +392,7 @@ I also used CSS's [position: sticky](https://developer.mozilla.org/en-US/docs/We
 This completes the project. Here are some thoughts:
 
 First of all, I succeeded in managing a mid-to-long-term side project.
-I have always [respected people with persistence](.//r/D9B586),
+I have always [respected people with persistence](/research/D9B586),
 and I was very happy to finally complete the project after working on it for more than a month.
 I was also delighted that I successfully juggled 🤹 CS Major classes, job searching, and side projects simultaneously (although they still need to be completed).
 
@@ -402,7 +402,7 @@ It was indeed a spiced-up 🌶 and intense learning environment. However, that g
 
 I am also developing the habit of note-taking.
 There's a saying that people's will is weaker than we think, so it's better to reshape the environment.
-I did a decent job remodeling my website as a digital garden (or [Extracranial Memex](.//r/93AA11)) that is optimized for note-taking.
+I did a decent job remodeling my website as a digital garden (or [Extracranial Memex](/research/93AA11)) that is optimized for note-taking.
 I want to continue taking notes and learning new stuff.
 Tim also had a significant effect my note-taking by showing his workspace on Roam Research.
 
