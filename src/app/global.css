@@ -134,3 +134,32 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Override next-video default 16:9 to match real media ratio */
+@layer base {
+  .next-video-container {
+    aspect-ratio: auto !important;
+    height: auto !important;
+  }
+  .next-video-container [data-next-video] {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .next-video-container [data-next-video] img {
+    /* Keep letterboxing minimal; switch to 'cover' if you prefer crop */
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    min-height: 0 !important;
+  }
+  /* Ensure actual video element respects intrinsic ratio */
+  .next-video-container video {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    display: block;
+    background: transparent;
+  }
+  /* Hide next-video dev alert overlay in all statuses */
+  .next-video-alert { display: none !important; }
+}

@@ -7,7 +7,7 @@ slug: '/D7DE14'
 
 
 
-<Figure src="/generated/newsroom/D7DE14/7B584A.png" alt="ALT: 아이폰 키보드 &quot;하늘땅사람&quot;의 모습" width={3840} height={2160} />
+![ALT: 아이폰 키보드 &quot;하늘땅사람&quot;의 모습](./7B584A.png)
 
 <Callout type="info" title="잔말 말고 설치 링크부터 줘요" icon="💎">
 
@@ -31,7 +31,7 @@ slug: '/D7DE14'
 이상하게도 아이폰은 키보드의 모양이 조금 달랐다.
 가장 결정적인 차이점은 **자리넘김** 버튼과 **띄어쓰기** 버튼이 따로 존재한다는 점이다.
 
-<Figure src="/generated/newsroom/D7DE14/2DCA95.png" alt="자리넘김 버튼과 띄어쓰기 버튼이 따로 존재하는 아이폰 10키 키보드" width={3840} height={2160} />
+![자리넘김 버튼과 띄어쓰기 버튼이 따로 존재하는 아이폰 10키 키보드](./2DCA95.png)
 
 <Callout type="info" title='예를 들어 "오 안녕"을 입력하기 위해서는...' icon="💎">
 
@@ -79,37 +79,37 @@ iOS 앱 본체가 아니면 전부 익스텐션이라고 생각하면 된다.
 [Ray Wenderlich](https://www.kodeco.com/49-custom-keyboard-extensions-getting-started)의 문서를 읽으며 간단한 데모들을 제작하며
 키보드 익스텐션에 대한 이해를 높였다.
 
-<Figure>
+
 
 <Horizontal>
 
-<Figure>
 
-<Figure src="/generated/newsroom/D7DE14/85D135.png" alt="ALT: `ㅇ` 근처 배경에 회색 배경이 있는 키보드 입력 모습" width={1179} height={2556} />
 
-</Figure>
+![ALT: `ㅇ` 근처 배경에 회색 배경이 있는 키보드 입력 모습](./85D135.png)
 
-<Figure>
 
-<Figure src="/generated/newsroom/D7DE14/B9DE45.png" alt="ALT: `ㅇ` 근처 배경에 회색 배경이 있는 키보드 입력 모습" width={750} height={1334} />
 
-</Figure>
 
-<Figure>
 
-<Figure src="/generated/newsroom/D7DE14/A02D58.png" alt="ALT: `ㅇ` 근처 배경에 회색 배경이 있는 키보드 입력 모습" width={1179} height={2556} />
+![ALT: `ㅇ` 근처 배경에 회색 배경이 있는 키보드 입력 모습](./B9DE45.png)
 
-</Figure>
+
+
+
+
+![ALT: `ㅇ` 근처 배경에 회색 배경이 있는 키보드 입력 모습](./A02D58.png)
+
+
 
 </Horizontal>
 
-<Figure.Caption>
+
 
 몇 가지 초기 버전들
 
-</Figure.Caption>
 
-</Figure>
+
+
 
 가운데 이미지의 "ㅇ" 근처의 회색 배경은 iOS 기기의 NSRange와 setMarkedText라는 기능이었다.
 입력 중인 글자에 영역 처리를 해서 입력을 도와주는 기능이었는데,
@@ -182,16 +182,16 @@ const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) =
   다음 창은 활자를 이용해 간단하게 구현해본 천지인 입력 시연이다.
 </Callout>
 
-<Figure>
+
 
 <iframe src="https://hwalja.cho.sh/" title="활자 데모" height="450" />
 
-<Figure.Caption>
+
 
 [활자는 모든 플랫폼에 사용할 수 있도록 공개했다.](https://github.com/anaclumos/hwalja)<br/>위 데모로 직접 활자를 입력해보자!
 
-</Figure.Caption>
-</Figure>
+
+
 
 <Callout type="info" title="활자는" icon="💎">
   가장 <strong>단순한</strong> 구현체이지 가장 <strong>가벼운</strong> 구현체는 아니라는 점을 명심하자.
@@ -254,7 +254,7 @@ let guesses = uiTextChecker.completions(
 가끔 문맥이 어색하거나 아무런 추천을 해주지 않거나 하는 버그가 존재하지만,
 최소 기능 제품을 위해서는 훌륭하게 동작한다!
 
-<Figure src="/generated/newsroom/D7DE14/8E6907.jpeg" alt="2023년에도 행복하세요 💙" width={1179} height={1235} />
+![2023년에도 행복하세요 💙](./8E6907.jpeg)
 
 ## ⌨️ 키보드 기능 고도화
 
@@ -263,7 +263,7 @@ let guesses = uiTextChecker.completions(
 입력 키를 길게 누르면 그 버튼에 대응하는 숫자가 입력되는 기능 들이 있다.
 이 기능들을 사용하기 위해 Swift의 Closure를 활용해서 다음과 같이 키보드 버튼 컴포넌트를 확장했다.
 
-<Figure>
+
 
 ```swift
 struct KeyboardButton: View {
@@ -294,13 +294,13 @@ struct KeyboardButton: View {
 }
 ```
 
-</Figure>
 
-<Figure.Caption>
+
+
 
 설명을 위해 간소화된 코드이다. [KeyboardButton.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/KeyboardButton.swift)
 
-</Figure.Caption>
+
 
 `A`로 표현된 부분을 사용하는 기발한 방법을 알게 되었다.
 이렇게 하면 다음 두 마리 토끼를 한 코드로 잡을 수 있다.
@@ -316,7 +316,7 @@ DragGesture에 해당하는 기능을 실행한다는 특징을 이용한 것이
 Combine 프레임워크는 시간에 따른 비동기적 동작을 처리하기 위한 Declarative Swift API이다.
 이를 이용해 타이머를 생성하고 "롱프레스 백스페이스" 동작을 구현할 수 있다.
 
-<Figure>
+
 
 ```swift
 struct DeleteButton: View {
@@ -343,13 +343,13 @@ struct DeleteButton: View {
 }
 ```
 
-<Figure.Caption>
+
 
 설명을 위해 간소화된 코드이다. [HangulView.swift](https://github.com/anaclumos/sky-earth-human/blob/main/keyboard/HangulView.swift)
 
-</Figure.Caption>
 
-</Figure>
+
+
 
 이렇게 조합된 하나의 코드를 통해 길게 누르거나 드래그를 이용해 특수한 동작을 실행하는 기능을 구현할 수 있었다.
 
@@ -365,9 +365,9 @@ let fontWeight: UIAccessibility.isBoldTextEnabled ? .bold : .regular
 
 <Horizontal>
 
-<Figure src="/generated/newsroom/D7DE14/68C6BB.png" alt="볼드체 텍스트가 비활성화된 경우" width={1179} height={2556} />
+![볼드체 텍스트가 비활성화된 경우](./68C6BB.png)
 
-<Figure src="/generated/newsroom/D7DE14/F93D1B.png" alt="볼드체 텍스트를 활성화한 경우" width={1179} height={2556} />
+![볼드체 텍스트를 활성화한 경우](./F93D1B.png)
 
 </Horizontal>
 
@@ -376,21 +376,21 @@ let fontWeight: UIAccessibility.isBoldTextEnabled ? .bold : .regular
 키보드를 종료한다는 사실을 관찰했다.
 그래서 그 자리에 키보드를 손쉽게 종료할 수 있도록 키보드 종료 버튼을 배치했다.
 
-<Figure src="/generated/newsroom/D7DE14/ADBBB1.gif" alt="우측 하단의 키보드 종료 버튼을 탭하면 키보드가 사라진다." width={480} height={1040} />
+![우측 하단의 키보드 종료 버튼을 탭하면 키보드가 사라진다.](./ADBBB1.gif)
 
 ## 🧑🏻‍🎨 Midjourney를 이용한 앱 아이콘 생성
 
-<Figure>
 
-<Figure src="/generated/newsroom/D7DE14/69A76A.png" alt="ALT: Midjourney 이미지들" width={1532} height={1862} />
 
-<Figure.Caption>
+![ALT: Midjourney 이미지들](./69A76A.png)
+
+
 
 생성된 여러 가지 이미지들
 
-</Figure.Caption>
 
-</Figure>
+
+
 
 앱 아이콘을 생성하기 위해 Midjourney라는 그림 AI를 사용했다.
 요즘에는 이런 것을 프롬프트 엔지니어링이라고 하던데 그냥 다양한 키워드들로 그림을 그리는 것이 즐거웠다.
@@ -406,17 +406,17 @@ Apple Xcode Cloud 서버에서 iOS 앱이 컴파일되어 보관된다.
 
 <Horizontal>
 
-<Figure>
 
-<Figure src="/generated/newsroom/D7DE14/C387F9.png" alt="이와 같이 앱스토어 콘솔에서 GitHub와 연동된 빌드를 확인할 수 있다." width={3584} height={2240} />
 
-</Figure>
+![이와 같이 앱스토어 콘솔에서 GitHub와 연동된 빌드를 확인할 수 있다.](./C387F9.png)
 
-<Figure>
 
-<Figure src="/generated/newsroom/D7DE14/E0B0FF.png" alt="이렇게 푸시 알림도 보내준다." width={1179} height={2556} />
 
-</Figure>
+
+
+![이렇게 푸시 알림도 보내준다.](./E0B0FF.png)
+
+
 
 </Horizontal>
 
