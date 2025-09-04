@@ -46,4 +46,4 @@ I&#39;d like to share some of my favorite paywall concepts designed in 2023.
 
 </blockquote>
 
-[Orion – From idea to launch in 45 days](https://www.lux.camera/orion-from-idea-to-launch-in-45-days/)
+[Orion - From idea to launch in 45 days](https://www.lux.camera/orion-from-idea-to-launch-in-45-days/)

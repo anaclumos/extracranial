@@ -17,7 +17,7 @@ It signals competence and seriousness; not negotiating is a missed opportunity.
 
 ### Negotiation is a learnable skill
 
-It's not innate—anyone can improve with the right approach.
+It's not innate--anyone can improve with the right approach.
 
 ---
 
@@ -73,7 +73,7 @@ Notify other companies when you receive an offer to accelerate their timelines.
 
 ### Exploding offers should be challenged
 
-Treat any offer with an unreasonable deadline as a non-offer—ask for more time.
+Treat any offer with an unreasonable deadline as a non-offer--ask for more time.
 
 ### Time your interviews strategically
 

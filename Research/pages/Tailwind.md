@@ -5,7 +5,7 @@ slug: '/A331BF'
 
 > Rapidly build modern websites without ever leaving your [[HTML]]. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, and rotate-90 that can be composed to build any design directly in your markup. [Tailwind CSS](https://tailwindcss.com/)
 
-### [What working with Tailwind CSS every day for two years looks like — Mosaad](https://www.themosaad.com/blog/two-years-of-tailwind-css)
+### [What working with Tailwind CSS every day for two years looks like -- Mosaad](https://www.themosaad.com/blog/two-years-of-tailwind-css)
 
 - As of now, with Tailwind CSS v3.2.4 and the ecosystem around it, I consider Tailwind CSS to be one of the [[Boring Technologies|boring]] established CSS solutions that enables me to be the most productive in building and maintaining projects of various sizes
 - [[Shopify Analyzes CSS Frameworks]]

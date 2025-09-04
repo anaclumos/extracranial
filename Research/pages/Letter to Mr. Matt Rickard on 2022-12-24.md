@@ -13,7 +13,7 @@ This is a reply on [Software Rewrites](https://matt-rickard.ghost.io/software-re
 
 Dear Mr. [[Matt Rickard|Rickard]],
 
-I'm on my way back to my home from [[서울|Seoul]] to Daejeon in [[대한민국|Korea]], and I just got this post — I love this post!
+I'm on my way back to my home from [[서울|Seoul]] to Daejeon in [[대한민국|Korea]], and I just got this post -- I love this post!
 
 <blockquote class="twitter-tweet">
 
@@ -29,7 +29,7 @@ There are countless cases where [[Twitter]] troubled up, but the above point is 
 
 > Buying Twitter is an accelerant to creating X, the everything app
 >
-> — [[Elon Musk]] (@elonmusk) [October 4, 2022,](https://twitter.com/elonmusk/status/1577428272056389633?ref_src=twsrc%5Etfw)
+> -- [[Elon Musk]] (@elonmusk) [October 4, 2022,](https://twitter.com/elonmusk/status/1577428272056389633?ref_src=twsrc%5Etfw)
 
 You mentioned a couple of times about a potential [[Super App]] in the [[United States of America|US]], but this may be a very alarming scenario for the people in the [[United States of America|United States]].
 
@@ -41,9 +41,9 @@ I know [[Elon Musk|Musk]] is a very inconsistent person. He could take one day o
 
 As Jobs said, [[Elon Musk|Musk]] can "put a dent" in the universe. Would that be the rise of the blue bird into a mighty Phoenix? Or would this be the last flapping of the once-powerful hawk?
 
-I don't know — perhaps [[Elon Musk|Musk]] fired too much to rewrite stuff!
+I don't know -- perhaps [[Elon Musk|Musk]] fired too much to rewrite stuff!
 
-P.S. I hope my [[Mail|emails]] are okay with you! I love thought-invoking posts, and I pay massive attention to the Silicon Valley stories — I have been, and still to this day, loving your posts!
+P.S. I hope my [[Mail|emails]] are okay with you! I love thought-invoking posts, and I pay massive attention to the Silicon Valley stories -- I have been, and still to this day, loving your posts!
 
 Best regards,
 

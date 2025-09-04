@@ -23,7 +23,7 @@ However, Louis still insisted that we move to other languages, such as C++ or Ru
 
 I must admit that I was slightly offended at first. He was condescending about other languages that _he didn't get_ why real engineers use anything other than C++. He was also slightly condescending on OS other than Windows because other OSs _cannot make code run fast_ because they don't have VS, and since he was into the VS ecosystem (which makes sense because that's the industry de facto for C++, and it's only on Windows).
 ![[804F38.png]]
-But then, I admitted to "experimenting" with the idea—"we can spend the next day or two seeing if converting to C++ improves things." Maybe the reason why I was so embracing was because I was so confident inside that he wouldn't make it. I had already combined multiple features and thrown in multiprocessing that nearly-8x-ed the speed. Coding signal processing in C++ will be a pain on the one hand, and implementing multiprocessing to improve the speed will be another pain on the other hand.
+But then, I admitted to "experimenting" with the idea--"we can spend the next day or two seeing if converting to C++ improves things." Maybe the reason why I was so embracing was because I was so confident inside that he wouldn't make it. I had already combined multiple features and thrown in multiprocessing that nearly-8x-ed the speed. Coding signal processing in C++ will be a pain on the one hand, and implementing multiprocessing to improve the speed will be another pain on the other hand.
 
 Perhaps that was why I agreed so nonchalantly to his suggestion.
 

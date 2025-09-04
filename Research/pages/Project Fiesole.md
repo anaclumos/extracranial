@@ -157,7 +157,7 @@ Results
 
 1. **Performance Benchmark:** The current VFL model peaks at around 93% accuracy within 10-15 epochs. In contrast, a complete CNN trained on the entire dataset can quickly achieve an accuracy of 98%.
 2. **Recognition Across Quadrants:** the neural network's capability to recognize consistent patterns across different data segments (or quadrants) is a significant concern.
-3. **The Record Linkage Challenge:** The current architecture does not factor in "Record Linkage" — a mechanism to understand consistent data criteria across different quadrants. Incorporating this might be the key to breaching the 95%+ accuracy barrier.
+3. **The Record Linkage Challenge:** The current architecture does not factor in "Record Linkage" -- a mechanism to understand consistent data criteria across different quadrants. Incorporating this might be the key to breaching the 95%+ accuracy barrier.
 
 ### Potential Solutions
 

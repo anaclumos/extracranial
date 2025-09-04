@@ -7,7 +7,7 @@ slug: '/7A723D'
 
 The new [[ArXiv]].
 
-[[ArXiv]] is excellent, but it by no means matches the full-on productivity of modern DevOps. We need a more streamlined, so-called **ResearchOps**—a [[Super App]] platform for all research.
+[[ArXiv]] is excellent, but it by no means matches the full-on productivity of modern DevOps. We need a more streamlined, so-called **ResearchOps**--a [[Super App]] platform for all research.
 
 TeX sucks (or at least we need better [[interoperability]] with HyperText Media), and [[PDF]] sucks. Citing by their name sucks. It's like managing PRs by [[Mail|email]]. Remember Linus used to do that?
 

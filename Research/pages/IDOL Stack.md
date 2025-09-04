@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/959D0A'
 ---
 
-## [[K-Pop|Idol]] — _Indie Developers' Opinionated Libraries_
+## [[K-Pop|Idol]] -- _Indie Developers' Opinionated Libraries_
 
 - Use [[boring technologies]]
 - [[Bootstrap]]

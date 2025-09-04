@@ -23,9 +23,9 @@ But then this happened.
 
 ![[553DCB.png]]
 
-This shows the unprofessionalism of the company. I feel significantly less valued and ignored. Especially, words can make a huge difference — "a bit more experienced"? That's just poor communication as a core company member. Also, "realized"?
+This shows the unprofessionalism of the company. I feel significantly less valued and ignored. Especially, words can make a huge difference -- "a bit more experienced"? That's just poor communication as a core company member. Also, "realized"?
 
-Some might ask —
+Some might ask --
 
 > Hey, isn't it good that both saved time since they already know it's not a match?
 
@@ -41,7 +41,7 @@ They should've told me we might be looking for someone else, but not canceling t
 
 Even if I become a genuinely 10x dev, I will never work for Replo. This terrible communication experience, I'm just fed up.
 
-Listen, founders —
+Listen, founders --
 
 - Do not reschedule meetings with applicants.
 - Do not renege with what you tell your applicants.

@@ -12,10 +12,10 @@ TODO: USE FUMADOCS I18N
 
 Here's a breakdown of how it works:
 
-1. **Initial request** — When a user makes a request, if there's no cached content or if the cached content is fresh, the content is fetched from the server and delivered to the user.
-2. **Stale content** — If the cached content is stale (i.e., it has exceeded its freshness lifetime) but the `stale-while-revalidate` period has not yet elapsed, the stale content is immediately returned to the user.
-3. **Revalidation** — After serving the stale content in the background, the cache will request the origin server to fetch the fresh content. Once this new content is fetched, the cache is updated.
-4. **Beyond the revalidation window** — If the cached content is stale and the `stale-while-revalidate` period has also passed, then the cache will typically wait for the fresh content before serving it to the user (this behavior might depend on other cache control directives and the cache's specific implementation).
+1. **Initial request** -- When a user makes a request, if there's no cached content or if the cached content is fresh, the content is fetched from the server and delivered to the user.
+2. **Stale content** -- If the cached content is stale (i.e., it has exceeded its freshness lifetime) but the `stale-while-revalidate` period has not yet elapsed, the stale content is immediately returned to the user.
+3. **Revalidation** -- After serving the stale content in the background, the cache will request the origin server to fetch the fresh content. Once this new content is fetched, the cache is updated.
+4. **Beyond the revalidation window** -- If the cached content is stale and the `stale-while-revalidate` period has also passed, then the cache will typically wait for the fresh content before serving it to the user (this behavior might depend on other cache control directives and the cache's specific implementation).
 
 This mechanism can be beneficial in scenarios where you prefer to have slightly outdated content displayed immediately rather than waiting for the most up-to-date content, especially when the freshness of the content isn't critical.
 

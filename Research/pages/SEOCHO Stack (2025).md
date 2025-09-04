@@ -25,7 +25,7 @@ I don't fit the usual boxes. That's fine. The operating mode here is **ship fast
 
 ## Red Queen's Race
 
-Everything changes—including your own reasoning. Plan for it.
+Everything changes--including your own reasoning. Plan for it.
 
 - **Assume you'll be wrong soon.** Prove yourself wrong on purpose and on schedule.
 - **Design for swap‑outs.** Every module is a part you can replace without drama.
@@ -40,7 +40,7 @@ Everything changes—including your own reasoning. Plan for it.
 
 </details>
 
-Use **1** and **2** by default. Use **3** only when "proven" also means **ergonomic, portable, and easy to replace**. New tools exist for reasons—**learn the reason** before you commit.
+Use **1** and **2** by default. Use **3** only when "proven" also means **ergonomic, portable, and easy to replace**. New tools exist for reasons--**learn the reason** before you commit.
 
 <Callout type="tip" title='Working rules' icon="💚">
 
@@ -76,11 +76,11 @@ Your scarcest resource is **energy** and a few **market windows**. Pick tools th
 
 Be clear, not clever.
 
-- Favor **elastic but replaceable** over **stable but sticky**—_only_ if you can swap fast.
+- Favor **elastic but replaceable** over **stable but sticky**--_only_ if you can swap fast.
 - A tiny script that ships beats a baroque "platform."
 - Prefer **small, explicit modules** you can replace over ornate abstractions you can't.
 
-## Use SaaS—Until You Have to Study It
+## Use SaaS--Until You Have to Study It
 
 Buy the SLA; rent the complexity.
 
@@ -140,7 +140,7 @@ Pick the **least‑work** approach that safely ships.
 
 ## Engineering Philosophy (Server‑First & Type‑Safe)
 
-**The best code is no code.** The second best uses platform capabilities directly—with strong types, clear boundaries, and server‑first data access.
+**The best code is no code.** The second best uses platform capabilities directly--with strong types, clear boundaries, and server‑first data access.
 
 ### Server‑First Architecture
 
@@ -329,7 +329,7 @@ const [campaign] = await db.select().from(campaigns).where(eq(campaigns.id, id))
 
 ## And try out that new hot thing in town
 
-Let's say after 2 months, there's a new hot library in town. Should I stay uncool? I'd say: take a leap of faith, **but with a parachute** Try unreliable but high‑leverage ideas—wrapped in **interoperable**, **hot‑replaceable**, **type‑safe** modules.
+Let's say after 2 months, there's a new hot library in town. Should I stay uncool? I'd say: take a leap of faith, **but with a parachute** Try unreliable but high‑leverage ideas--wrapped in **interoperable**, **hot‑replaceable**, **type‑safe** modules.
 
 <Callout type="danger" title='Summary' icon="🔥">
 

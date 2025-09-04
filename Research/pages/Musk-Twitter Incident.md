@@ -7,7 +7,7 @@ slug: '/F7B0F0'
 
 > Dear Twitter Advertisers [pic.twitter.com/GMwHmInPAS](https://t.co/GMwHmInPAS)
 >
-> — [[Elon Musk]] (@elonmusk) [October 27, 2022](https://twitter.com/elonmusk/status/1585619322239561728?ref_src=twsrc%5Etfw)
+> -- [[Elon Musk]] (@elonmusk) [October 27, 2022](https://twitter.com/elonmusk/status/1585619322239561728?ref_src=twsrc%5Etfw)
 
 ## [[Elon Musk]]
 

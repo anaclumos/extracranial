@@ -13,4 +13,4 @@ slug: '/6BA6AF'
 >
 > discover new locations, portfolio exploration as a journey, walk through my world [pic.twitter.com/Wpg9RLq9Yt](https://t.co/Wpg9RLq9Yt)
 >
-> — jaron (@jjjjaron) [October 9, 2022](https://twitter.com/jjjjaron/status/1578913897628606464?ref_src=twsrc%5Etfw)
+> -- jaron (@jjjjaron) [October 9, 2022](https://twitter.com/jjjjaron/status/1578913897628606464?ref_src=twsrc%5Etfw)

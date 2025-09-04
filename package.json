@@ -34,7 +34,7 @@
   "name": "nextracranial",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "bun preprocess && next build",
     "dev": "next dev",
     "postinstall": "fumadocs-mdx",
     "start": "next start",

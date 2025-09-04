@@ -239,7 +239,7 @@ dailyNotes.sort((a, b) => {
 ## [[2022-07-26]]
 
 일주일 만에 다시 진행해본다.
-우선 옵시디안으로 개발하는 것은 HMR — Hot Module Reload가 안 되는 듯 하다.
+우선 옵시디안으로 개발하는 것은 HMR -- Hot Module Reload가 안 되는 듯 하다.
 매번 [[WebExtension|익스텐션]]을 삭제하고 다시 설치해야 한다.
 수정: `yarn package` 이후 옵시디언 개발자 메뉴에서 새로고침하면 된다.
 

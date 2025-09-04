@@ -37,4 +37,4 @@ if String(string[String.Index(string.startIndex, offsetBy: i)]) != String(string
 
 > 평범한 것과 비범한 것은 딱 한 걸음 차이이다.
 >
-> – 지미 존슨 (1943—)
+> - 지미 존슨 (1943--)

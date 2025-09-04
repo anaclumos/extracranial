@@ -11,6 +11,6 @@ slug: '/D6D92B'
 4. Transform the data to achieve a more "favorable" result.
 5. Report a result as significant based on a one-tailed test after performing a two-tailed test.
 
-The problem with p-hacking is that it leads to an increase in false-positive findings — results that appear significant but are actually due to chance. It undermines the reliability and reproducibility of scientific research. In recent years, there has been a push within the scientific community to address this issue, for example, by pre-registering study designs, encouraging the publication of null results, and focusing more on effect sizes and confidence intervals rather than solely on p-values.
+The problem with p-hacking is that it leads to an increase in false-positive findings -- results that appear significant but are actually due to chance. It undermines the reliability and reproducibility of scientific research. In recent years, there has been a push within the scientific community to address this issue, for example, by pre-registering study designs, encouraging the publication of null results, and focusing more on effect sizes and confidence intervals rather than solely on p-values.
 
 In a way, it is related to the [[Veil of Ignorance]].

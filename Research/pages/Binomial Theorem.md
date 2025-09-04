@@ -9,9 +9,9 @@ $\sum\limits_{j=1}^{\infty} a^j = {a \over {1-a}}, |a| < 1$
 
 $S_N = \sum\limits_{j=1}^N a^j$
 
-$S_N = a + a^2 + \cdots + a^N$ — ①
+$S_N = a + a^2 + \cdots + a^N$ -- ①
 
-$aS_N = a^2 + \cdots a^{N+1}$ — ②
+$aS_N = a^2 + \cdots a^{N+1}$ -- ②
 
 If we subtract ② from ①, we get
 

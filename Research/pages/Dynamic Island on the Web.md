@@ -23,7 +23,7 @@ slug: '/B21605'
   - Base Length System
 - Optimize [[Animation|Animations]] (css `will-change`)
 - Removed Scrubber Toggle
-- Squircle — failed
+- Squircle -- failed
 
 ![[CCDCB3.gif]]
 ![[289F7E.gif]]

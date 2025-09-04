@@ -157,7 +157,7 @@ Then:
 
 ### Frequency
 
-**Assumption** — The more frequent terms in a document are more critical, i.e., more indicative of the topic.
+**Assumption** -- The more frequent terms in a document are more critical, i.e., more indicative of the topic.
 
 $$
 f_{ij} = \text{frequency of term } i \text{ in document } j
@@ -267,9 +267,9 @@ The most straightforward feature selection is to use the most common terms. This
 
 The training set corresponds to a labeled set of points (vectors) in vector space classification.
 
-**Premise 1** — Documents in the same class form a contiguous region of space.
+**Premise 1** -- Documents in the same class form a contiguous region of space.
 
-**Premise 2** — Documents from different classes are separate.
+**Premise 2** -- Documents from different classes are separate.
 
 To learn a classifier, build surfaces to delineate classes in the space.
 

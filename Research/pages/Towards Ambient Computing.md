@@ -66,11 +66,11 @@ Their argument was that their technology would always be available to assist you
 
 In the aforementioned [[Ted Chiang]] novel _The Truth of Fact, the Truth of Feeling,_ Ted Chang writes
 
-> Psychologists make a distinction between semantic memory— knowledge of general facts—and episodic memory, or recollection of personal experiences. We've been using technological supplements for semantic memory ever since the invention of writing: first books, then [[Search Engine|search engines]]. By contrast, we've historically resisted such aids when it comes to episodic memory; few people have ever kept as many diaries or photo albums as they did ordinary books... We regarded our episodic memories as such an integral part of our identities that we were reluctant to externalize them, to relegate them to books on a shelf or files on a computer.
+> Psychologists make a distinction between semantic memory-- knowledge of general facts--and episodic memory, or recollection of personal experiences. We've been using technological supplements for semantic memory ever since the invention of writing: first books, then [[Search Engine|search engines]]. By contrast, we've historically resisted such aids when it comes to episodic memory; few people have ever kept as many diaries or photo albums as they did ordinary books... We regarded our episodic memories as such an integral part of our identities that we were reluctant to externalize them, to relegate them to books on a shelf or files on a computer.
 >
 > Part of me wanted to stop this, to protect children's ability to see the beginning of their lives filtered through gauze, to keep those origin stories from being replaced by cold, desaturated video. But maybe they will feel just as warmly about their lossless digital memories as I do about my imperfect, organic memories.
 >
-> I'm a product of my time, and times change. We can't prevent the adoption of digital memory any more than oral cultures could stop the arrival of literacy, so the best I can do is look for something positive in it. And I think I've found the real benefit of digital memory. The point is not to prove you were right; the point is to admit you were wrong... What digital memory will do is change those stories from fabulations that emphasize our best acts and elide our worst, into ones that—I hope—acknowledge our fallibility and make us less judgmental about the fallibility of others.
+> I'm a product of my time, and times change. We can't prevent the adoption of digital memory any more than oral cultures could stop the arrival of literacy, so the best I can do is look for something positive in it. And I think I've found the real benefit of digital memory. The point is not to prove you were right; the point is to admit you were wrong... What digital memory will do is change those stories from fabulations that emphasize our best acts and elide our worst, into ones that--I hope--acknowledge our fallibility and make us less judgmental about the fallibility of others.
 
 I foresee a future where technology is readily available to assist humans, but not so pervasive that it distracts from human intelligence. Technology should be used as a tool, not as a hindrance. It should not overgrow like a cancerous cell, draining us of energy and focus. Instead, we should use it to our advantage while maintaining our ability to think and function independently.
 
@@ -84,4 +84,4 @@ There are similar worries about ambient computing. **If we put infinitely scroll
 - Fostering human creativity over frantic data collection.
 - The flourishing of the human mind over the immediate metrics
 
-I am now excited about the upcoming Ambient Computing era, in the hope that they stay **ambient** — readily available, but never intrusive.
+I am now excited about the upcoming Ambient Computing era, in the hope that they stay **ambient** -- readily available, but never intrusive.

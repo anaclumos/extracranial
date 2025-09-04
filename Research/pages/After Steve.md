@@ -11,4 +11,4 @@ slug: '/322744'
 - Interest in Dieter Rams.
 - Graduation portfolio was far from being packed; very unconventional. Shows his "Less is more" philosophy.
 
-> "IN ORDER TO GRADUATE, Newcastle students had to take a familiar concept and reimagine it. The school called it the "[[Bluesky|blue sky]]" project, a name that encouraged students to imagine futuristic products that weren't constrained by current production capabilities." — After Steve, Mickle, Tripp
+> "IN ORDER TO GRADUATE, Newcastle students had to take a familiar concept and reimagine it. The school called it the "[[Bluesky|blue sky]]" project, a name that encouraged students to imagine futuristic products that weren't constrained by current production capabilities." -- After Steve, Mickle, Tripp

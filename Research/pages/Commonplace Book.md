@@ -35,4 +35,4 @@ Commonplace Book은 사람들이 흥미로운 인용문, 생각, 정보를 기�
 > - 1914: The war
 > - I had the Spanish flu etc
 >
-> — [[Stephan Ango|kepano]] (@[[Stephan Ango|kepano]]) [August 17, 2023](https://twitter.com/kepano/status/1692247477674729605?ref_src=twsrc%5Etfw)
+> -- [[Stephan Ango|kepano]] (@[[Stephan Ango|kepano]]) [August 17, 2023](https://twitter.com/kepano/status/1692247477674729605?ref_src=twsrc%5Etfw)

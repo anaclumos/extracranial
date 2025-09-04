@@ -7,7 +7,7 @@ slug: '/F3D96B'
 - Reviewed in-flight to [[Los Angeles]] on [[2023-01-08]]
 - 전반적인 느낀 점: 1등이면 순수무결한 척하기 참 쉽다.
 
-> As we create the conditions for our people to thrive, we will continue to make America the destination of choice for talent worldwide. Since the founding of our Nation, America has been strengthened and renewed by immigrants seeking opportunity and refuge on our shores—a unique strategic advantage. We will continue working with Congress and taking executive action to ensure our immigration and refugee systems are fair, orderly, humane, easier to navigate, and consistent with our values and the law. And we will take further measures to ensure the [[United States of America|United States]] remains the world's top destination for talent.
+> As we create the conditions for our people to thrive, we will continue to make America the destination of choice for talent worldwide. Since the founding of our Nation, America has been strengthened and renewed by immigrants seeking opportunity and refuge on our shores--a unique strategic advantage. We will continue working with Congress and taking executive action to ensure our immigration and refugee systems are fair, orderly, humane, easier to navigate, and consistent with our values and the law. And we will take further measures to ensure the [[United States of America|United States]] remains the world's top destination for talent.
 
 ## National Security and Competition
 

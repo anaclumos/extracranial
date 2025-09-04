@@ -28,7 +28,7 @@ LavaLab mostly revolved around consumer products. This time around, there are mo
 
 ### Jump into the sudden void of power
 
-After [[Zenly]] shut down, many players target that power void. It will be the most guaranteed way to success, with one catch — it's a winner-takes-all market.
+After [[Zenly]] shut down, many players target that power void. It will be the most guaranteed way to success, with one catch -- it's a winner-takes-all market.
 
 ### [[Interactive Articles|Interactive Instructions]]
 
@@ -38,7 +38,7 @@ I loved how Hive demoed their app. To demonstrate their semantic search, they ma
 
 ### Firefly
 
-It is a user review collector, but it also collects console results, cookies, and stack traces, making it super easy to collect user feedback with technical details — like [[Channel.io]] level easy.
+It is a user review collector, but it also collects console results, cookies, and stack traces, making it super easy to collect user feedback with technical details -- like [[Channel.io]] level easy.
 
 ### Brief
 

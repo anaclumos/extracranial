@@ -18,4 +18,4 @@ Eventually, diligent immatures build the future.
 
 > Time is a sort of river of passing events, and strong is its current; no sooner is a thing brought to sight than it is swept by and another takes its place, and this too will be swept away.
 >
-> — Marcus Aurelius (121—180)
+> -- Marcus Aurelius (121--180)

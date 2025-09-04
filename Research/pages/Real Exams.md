@@ -90,7 +90,7 @@ slug: '/75CB18'
 - 1 [[Optimized Simulations]]
 - 1 [[Mathematic Programming]]
 
-### [Akuna Capital — "Front Runner"](https://akunacapital.com/)
+### [Akuna Capital -- "Front Runner"](https://akunacapital.com/)
 
 - 1 [[Optimized Simulations]]
 - Passed 5/8 test cases

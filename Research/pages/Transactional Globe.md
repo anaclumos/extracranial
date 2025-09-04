@@ -24,4 +24,4 @@ import Horizontal from '@/components/horizontal';
 >
 > How is it created? Time for a WebGL & [[shader]] thread! [pic.twitter.com/7SW4vE5tTJ](https://t.co/7SW4vE5tTJ)
 >
-> — Shu (@shuding*) [December 28, 2021](https://twitter.com/shuding*/status/1475916082875666441?ref_src=twsrc%5Etfw)
+> -- Shu (@shuding*) [December 28, 2021](https://twitter.com/shuding*/status/1475916082875666441?ref_src=twsrc%5Etfw)

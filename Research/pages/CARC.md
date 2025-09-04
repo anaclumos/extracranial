@@ -9,7 +9,7 @@ slug: '/34E491'
 sftp scho1939@hpc-transfer1.usc.edu
 ```
 
-```sftp
+```bash
 put file.zip
 ```
 

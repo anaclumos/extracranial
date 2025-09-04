@@ -31,7 +31,7 @@ slug: '/A18D7B'
 
 ![[74CA20.png]]
 
-## [Marco Cornacchia—Product Designer in SF](https://www.marco.fyi/)
+## [Marco Cornacchia--Product Designer in SF](https://www.marco.fyi/)
 
 ![[339CE9.png]]
 

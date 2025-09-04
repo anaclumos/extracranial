@@ -12,7 +12,7 @@ slug: /B32F9A
 >
 > Why did we build it? Explode is a spite app. Yes, an… [pic.twitter.com/mGwmoN28T8](https://t.co/mGwmoN28T8)
 >
-> — Nikita Bier (@nikitabier) [January 14, 2025](https://twitter.com/nikitabier/status/1879206793118658974?ref_src=twsrc%5Etfw)
+> -- Nikita Bier (@nikitabier) [January 14, 2025](https://twitter.com/nikitabier/status/1879206793118658974?ref_src=twsrc%5Etfw)
 
 On [[2025-01-15]], Nikita Bier released his newest app Explode. I was seemingly building with the exact concept, most notably:
 
@@ -63,17 +63,17 @@ He basically pulled every single growth levers I could ever think of...
 > Ok hear me out.  
 > Snapchat but it works in iMessage [pic.twitter.com/Aia984yZ6v](https://t.co/Aia984yZ6v)
 >
-> — Explode App (@explodeapp) [January 14, 2025](https://twitter.com/explodeapp/status/1879253412539433060?ref_src=twsrc%5Etfw)
+> -- Explode App (@explodeapp) [January 14, 2025](https://twitter.com/explodeapp/status/1879253412539433060?ref_src=twsrc%5Etfw)
 
 ![[574079.png]]
 
 > naming your company Tap Get to boost app downloads is absolutely genius [https://t.co/5uzefnmbwX](https://t.co/5uzefnmbwX) [pic.twitter.com/kLCU3FACpE](https://t.co/kLCU3FACpE)
 >
-> — juan (@juanbuis) [January 14, 2025](https://twitter.com/juanbuis/status/1879215293513572615?ref_src=twsrc%5Etfw)
+> -- juan (@juanbuis) [January 14, 2025](https://twitter.com/juanbuis/status/1879215293513572615?ref_src=twsrc%5Etfw)
 
 > Using an ascii arrow on input placeholder + PiP instructions is also genius [@nikitabier](https://twitter.com/nikitabier?ref_src=twsrc%5Etfw) is truly built different [pic.twitter.com/cJqWZCbDzG](https://t.co/cJqWZCbDzG)
 >
-> — Olivier (@StonkyOli) [January 14, 2025](https://twitter.com/StonkyOli/status/1879267066555056446?ref_src=twsrc%5Etfw)
+> -- Olivier (@StonkyOli) [January 14, 2025](https://twitter.com/StonkyOli/status/1879267066555056446?ref_src=twsrc%5Etfw)
 
 ![[246C13.png]]
 

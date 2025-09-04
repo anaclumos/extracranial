@@ -7,11 +7,11 @@ Real estate differentiates wealthy people from rich people. During the [[Economy
 
 [[IP|Intellectual property]] ([[IP]]) is a new form of real estate because it represents a property right that can generate [[Economy|economic]] benefits over an extended period. Like real estate, [[IP|intellectual property]] can be bought, sold, licensed, and leased to generate income and returns for its owners. Here are some similarities between the two:
 
-- **Scarcity** — Just as only a limited amount of land is available in a particular location, a limited amount of [[IP|intellectual property]] is available in a given field or industry.
-- **Licensability** — Real estate and [[IP|intellectual property]] can be rented, leased, or licensed to generate income.
-- **Appreciation over time** — Real estate and [[IP|intellectual property]] can appreciate over time. For example, a well-located piece of land or a valuable patent can increase as demand for the resource increases.
-- **Steady Stream of Income** — Real estate and [[IP|intellectual property]] can generate a steady income stream over an extended period. For example, a landlord can collect rent from a tenant each month, while an [[IP|intellectual property]] owner can collect royalties from licensees or users of their [[IP]].
-- **Requires Maintenance** — Real estate and [[IP|intellectual property]] require care and maintenance to preserve value. A landlord must maintain their property to keep it in good condition, while an [[IP|intellectual property]] owner must keep their [[IP]] up to date and enforce their rights to prevent infringement.
+- **Scarcity** -- Just as only a limited amount of land is available in a particular location, a limited amount of [[IP|intellectual property]] is available in a given field or industry.
+- **Licensability** -- Real estate and [[IP|intellectual property]] can be rented, leased, or licensed to generate income.
+- **Appreciation over time** -- Real estate and [[IP|intellectual property]] can appreciate over time. For example, a well-located piece of land or a valuable patent can increase as demand for the resource increases.
+- **Steady Stream of Income** -- Real estate and [[IP|intellectual property]] can generate a steady income stream over an extended period. For example, a landlord can collect rent from a tenant each month, while an [[IP|intellectual property]] owner can collect royalties from licensees or users of their [[IP]].
+- **Requires Maintenance** -- Real estate and [[IP|intellectual property]] require care and maintenance to preserve value. A landlord must maintain their property to keep it in good condition, while an [[IP|intellectual property]] owner must keep their [[IP]] up to date and enforce their rights to prevent infringement.
 
 [[일본|Japan]] has also benefited from this [[IP]] amid a stagnant [[economy]] ("the lost decades"). [[일본|Japan]] has a rich history of creating popular and influential intellectual properties (IPs) that have significantly impacted global mass media. Some examples of popular IPs from [[일본|Japan]] include Pokemon, Anpanman, Yu-Gi-Oh!, Mario, Gundam, Hello Kitty, Dragon Ball, etc. These IPs have helped to keep [[일본|Japan]] competitive in the global mass media industry by establishing a solid reputation for creativity and innovation and generating outstanding revenue streams.
 

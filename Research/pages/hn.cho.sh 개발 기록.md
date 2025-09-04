@@ -13,7 +13,7 @@ slug: '/8E98AE'
 
 ## [[2023-03-06]]
 
-News app, but all critical information is in chat bubbles—short, informative, and friendly chats. You can ask follow-up questions, and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers.
+News app, but all critical information is in chat bubbles--short, informative, and friendly chats. You can ask follow-up questions, and it will look up articles on the web, like how [[Bing Chat]] does, and provide answers.
 
 - Send message (share)
 - Chatbot will answer and give contexts
@@ -25,7 +25,7 @@ News app, but all critical information is in chat bubbles—short, informative, 
 해커뉴스를 읽고 있다가 이걸 [[AI]]에게 요약해보고 있었다.
 그냥 이걸 파이프라인으로 만들면 어때?
 
-## [[2023-03-21]] — [[2023-03-23]]
+## [[2023-03-21]] -- [[2023-03-23]]
 
 Ghost로 간단하게 뉴스레터 웹사이트를 만들어보았다.
 Stripe도 붙이려다가 [[대한민국|한국]]이 지원되지 않아 포기했다.

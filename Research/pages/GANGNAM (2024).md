@@ -231,7 +231,7 @@ I am skeptical of this but could use:
   - It's fine. They have similar APIs anyways.
 - Prisma
   - it's fine.
-  - I'm not writing raw SQLs anyways—it's not ergonomic.
+  - I'm not writing raw SQLs anyways--it's not ergonomic.
   - It's not hot-replaceable per se, but worst case, I could just shim the object with `@vercel/postgres` direct SQL calls
 - Postgres
   - it's fine.

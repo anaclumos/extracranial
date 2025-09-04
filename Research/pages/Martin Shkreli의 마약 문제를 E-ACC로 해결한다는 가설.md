@@ -11,7 +11,7 @@ slug: '/A05670'
 >
 > 2 weeks of this: drugs will be unaffordable. Go ahead, ask me how I know this will work [pic.twitter.com/onvF8TDUNT](https://t.co/onvF8TDUNT)
 >
-> — Martin Shkreli (e/acc) (@wagieeacc) [August 17, 2023](https://twitter.com/wagieeacc/status/1692168256788844744?ref_src=twsrc%5Etfw)
+> -- Martin Shkreli (e/acc) (@wagieeacc) [August 17, 2023](https://twitter.com/wagieeacc/status/1692168256788844744?ref_src=twsrc%5Etfw)
 
 네오틸리언적 [[효과적 가속주의|EACC]] 사고에 걸맞다. 과연 이대로 작동할까? 완벽하게 [[Perverse Incentive|코브라 효과]]에 들어맞는다.
 

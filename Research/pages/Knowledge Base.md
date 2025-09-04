@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/DF0D9A'
 ---
 
-## [HelpKit – Build your Knowledge Base with the ease of Notion](https://www.helpkit.so/)
+## [HelpKit - Build your Knowledge Base with the ease of Notion](https://www.helpkit.so/)
 
 ![[1CE231.png]]
 

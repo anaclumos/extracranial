@@ -9,7 +9,7 @@ Regardless of life's continuous **noises**, certain things are reassured periodi
 It's like the grand cross, the lunar eclipse.
 
 If you shut down all the noise around you and focus on the pure silent void...
-You will hear a shimmering, lingering background noise — just like the [Cosmic noise](https://en.wikipedia.org/wiki/Cosmic_noise).
+You will hear a shimmering, lingering background noise -- just like the [Cosmic noise](https://en.wikipedia.org/wiki/Cosmic_noise).
 
 For me, that was:
 

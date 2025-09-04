@@ -8,7 +8,7 @@ slug: '/2FFA86'
 
 ## Articles
 
-> Our personal training data corpus might be our most important product. Content that helps machines capture our unique style, tone, and essence. Those who create the most will have the best data set to train a model in their likeness. — [A Personal Training Corpus](https://matt-rickard.ghost.io/personal-data-training-corpus/)
+> Our personal training data corpus might be our most important product. Content that helps machines capture our unique style, tone, and essence. Those who create the most will have the best data set to train a model in their likeness. -- [A Personal Training Corpus](https://matt-rickard.ghost.io/personal-data-training-corpus/)
 
 ### [I record myself on audio 24x7 and use an AI to process the information. Is this the future?](https://roberdam.com/en/wisper.html)
 

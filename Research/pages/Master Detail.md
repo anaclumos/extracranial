@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/43DF80'
 ---
 
-[Master–detail interface](https://en.wikipedia.org/wiki/Master%E2%80%93detail_interface)
+[Master-detail interface](https://en.wikipedia.org/wiki/Master%E2%80%93detail_interface)
 
 Master Detail is a UI that displays various options with a hierarchy.
 

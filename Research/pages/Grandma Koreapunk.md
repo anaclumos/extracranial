@@ -10,7 +10,7 @@ Grandma's Koreapunk
 
 ![[3DEF3A.png]]
 
-My grandmother's house is such a mysterious place—what I call Koreapunk.
+My grandmother's house is such a mysterious place--what I call Koreapunk.
 
 ---
 

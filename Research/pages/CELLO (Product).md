@@ -6,7 +6,7 @@ slug: '/177B14'
 - Celebrity Locket
 - 첼로
 - Other Potential Names
-  - CrushCrash — Frame Your Crush
+  - CrushCrash -- Frame Your Crush
 
 ## Motto
 

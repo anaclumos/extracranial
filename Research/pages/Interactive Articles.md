@@ -8,7 +8,7 @@ aliases: ['Interactive Instructions']
 
 ![[B59279.png]]
 
-### [Sound – Bartosz Ciechanowski](https://ciechanow.ski/sound/)
+### [Sound - Bartosz Ciechanowski](https://ciechanow.ski/sound/)
 
 ![[779814.png]]
 

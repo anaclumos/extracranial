@@ -7,7 +7,7 @@ slug: '/BD4464'
 
 Dear Mr. [[Rickard]],
 
-It's Sunghyun. I hope you had a great Thanksgiving break — I've been great! I hope to work on some projects on curating human knowledge and sentience, which I've been delving into these days.
+It's Sunghyun. I hope you had a great Thanksgiving break -- I've been great! I hope to work on some projects on curating human knowledge and sentience, which I've been delving into these days.
 
 I recently had an idea for a hypothetical product, "[[Stable Alternative|Let's Alter]]." I have a vision but need clarification on where to start.
 

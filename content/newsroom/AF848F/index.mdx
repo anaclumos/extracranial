@@ -7,7 +7,7 @@ slug: '/AF848F'
 import YouTube from '@/components/youtube'
 import Horizontal from '@/components/horizontal'
 
-OK — I admit.
+OK -- I admit.
 The title is slightly misleading.
 You are reading a technical post about converting any video into an ASCII Art text stream that one _can_ play on the terminal.
 The text stream here is a subtitle file.
@@ -26,10 +26,10 @@ My text streams use braille to represent pixels.
 And to display consecutive streams of texts paired with music playback, what would be more suitable than the subtitle format? Therefore, I aim to convert any video into a YouTube subtitle.
 The tech stack is:
 
-- OpenCV (C++ cv2) — used to convert video into frames
-- Python Image Library (Python 3 Pillow) — used to convert frames into ASCII art (braille)
-- Python Standard Library (sys, os, pathlib) — used to read and write files
-- ffmpeg (optional) — used to pack everything into a video
+- OpenCV (C++ cv2) -- used to convert video into frames
+- Python Image Library (Python 3 Pillow) -- used to convert frames into ASCII art (braille)
+- Python Standard Library (sys, os, pathlib) -- used to read and write files
+- ffmpeg (optional) -- used to pack everything into a video
 
 Open-sourced on GitHub: [anaclumos/video-in-dots](https://github.com/anaclumos/video-in-dots).
 
@@ -237,7 +237,7 @@ I thought of three ways to compress the files:
 3.  Use color stacks.
 
 I already separated the configurations from the main code, so I could easily change the width, height, and frame rate.
-However, after many experiments, I figured that YouTube only supports 8—10 frames per second for subtitles, so I decided to skip some frames to reduce the file size.
+However, after many experiments, I figured that YouTube only supports 8--10 frames per second for subtitles, so I decided to skip some frames to reduce the file size.
 
 ```python
 class braille_config:

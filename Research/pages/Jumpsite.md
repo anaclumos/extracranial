@@ -15,7 +15,7 @@ Jumpsite Service, or Web Linking Network Service, is a collective term for a [[S
 
 ![[288AE0.png]]
 
-## [Panda — The homepage for your favorite websites](https://usepanda.com/)
+## [Panda -- The homepage for your favorite websites](https://usepanda.com/)
 
 ![[298DC4.png]]
 

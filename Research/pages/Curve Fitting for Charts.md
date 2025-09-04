@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/4F0781'
 ---
 
-- [Curve fitting for charts: better visualizations for Vercel Analytics – Vercel](https://vercel.com/blog/curve-fitting-for-charts-better-visualizations-for-vercel-analytics)
+- [Curve fitting for charts: better visualizations for Vercel Analytics - Vercel](https://vercel.com/blog/curve-fitting-for-charts-better-visualizations-for-vercel-analytics)
 
 ## On [[2022-10-21]], with [[Simple Analytics]]
 

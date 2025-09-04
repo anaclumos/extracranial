@@ -14,7 +14,7 @@ If $P = 0$, the code will be all zero.
 
 What information can we send to the friend? Very little. The Entropy $H$ is very low, and the information $I$ is also very low.
 
-If $P = 1$, the code will be all one—also very low $H$ and $I$.
+If $P = 1$, the code will be all one--also very low $H$ and $I$.
 
 $$
 H(x) -\sum\limits_{x \in \mathcal{X}} p(x) \ln p(x)

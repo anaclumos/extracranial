@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/602050'
 ---
 
-We lack independent egos - that's what a 14-year-old thought while studying for his middle school memorization course. Even though I tried to persuade myself — memorizing things so they would stay in her head for the rest of her life and be used in the future — I still couldn't quite understand why this was necessary. Then one day, I had an idea.
+We lack independent egos - that's what a 14-year-old thought while studying for his middle school memorization course. Even though I tried to persuade myself -- memorizing things so they would stay in her head for the rest of her life and be used in the future -- I still couldn't quite understand why this was necessary. Then one day, I had an idea.
 
 - I must isolate and preserve my individuality, creativity, and dreams.
 - I must find a way to escape the infinite orbit of these exams as soon as possible.
@@ -14,7 +14,7 @@ Today, let's talk about the first of these, individuality. To get somewhere, I n
 
 I took it as a matter of survival that without individuality, the [[metaphor]] of me is as good as dead, and I've more or less centered on who I am and what I'm about. But it's a world where the manifestation of substance is more important than the existence of information. It's a world where only information matters in a sea of data.
 
-So I wished my personality had been replaced by something tangible, something physical that I could access — that's what I thought.
+So I wished my personality had been replaced by something tangible, something physical that I could access -- that's what I thought.
 
 It's so easy to get swept up in what's around you without any resistance: do because others are doing it, see because others are seeing it, or do because others are doing it! It's all around us more often than we realize. But when you think about it, it doesn't answer why. To find the answer, you need to know who you are.
 

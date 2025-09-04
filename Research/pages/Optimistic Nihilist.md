@@ -15,4 +15,4 @@ Maybe, we spend too much time worrying about things we cannot control. Perhaps w
 
 > For there is merely bad luck in not being loved; there is misfortune in not loving.
 >
-> — Albert Camus (1913-1960)
+> -- Albert Camus (1913-1960)

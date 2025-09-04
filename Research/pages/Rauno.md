@@ -30,7 +30,7 @@ Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])
 
 ![[729C95.png]]
 
-### [inspx — pixel perfect layout inspection](https://inspx.rauno.xyz/)
+### [inspx -- pixel perfect layout inspection](https://inspx.rauno.xyz/)
 
 ![[7BA380.png]]
 
@@ -48,7 +48,7 @@ Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])
 
 ![[555D23.png]]
 
-## [uiwtf — an experimental laboratory for user interfaces](https://uiw.tf/)
+## [uiwtf -- an experimental laboratory for user interfaces](https://uiw.tf/)
 
 ![[4C9C82.png]]
 ![[F9AD48.png]]

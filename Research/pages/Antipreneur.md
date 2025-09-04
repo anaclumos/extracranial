@@ -20,13 +20,13 @@ I am sick of the fuzz and buzz of Silicon Valley. I don't care about YC. I don't
 
 > "I want to write a book, if only because I see so much bullshit going around in the world of startups and tech. The media is presenting startups in the wrong way. People think they need to build billion-dollar companies. They must fly to San Francisco, build a "network," and get a 10 million dollar investment from old rich guys. They need to hire [[10x]] power developers and work them for 100-hour work weeks while feeding them pizza and soda. It will be great, they said.
 >
-> But it won't. It'll probably suck. And you won't get rich because the odds of a venture capital (VC) funded startup are stacked against you. Only 10% or less exit doesn't tell you if the founders make good money. There are giant company exits where the founders barely make money. That's why I'm writing this. To show you, you might be able to do it differently." — [MAKE: The Indie Maker Handbook](https://readmake.com/), by [[Pieter Levels]].
+> But it won't. It'll probably suck. And you won't get rich because the odds of a venture capital (VC) funded startup are stacked against you. Only 10% or less exit doesn't tell you if the founders make good money. There are giant company exits where the founders barely make money. That's why I'm writing this. To show you, you might be able to do it differently." -- [MAKE: The Indie Maker Handbook](https://readmake.com/), by [[Pieter Levels]].
 
 <blockquote class="twitter-tweet">
 
 &quot;Here&#39;s the number I used to win the lottery&quot;
 
-–Entrepreneurs giving advice
+-Entrepreneurs giving advice
 
 &mdash; Andrew Wilkinson (@awilkinson) [September 30, 2022](https://twitter.com/awilkinson/status/1575941514567774208?ref_src=twsrc%5Etfw)
 

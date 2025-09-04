@@ -5,7 +5,7 @@ slug: '/75FEFD'
 
 > Petersburg was founded on tears and corpses.
 >
-> — Nikolai Karamzin
+> -- Nikolai Karamzin
 
 ![Peter the Great Meditating the Idea of building St. Petersburg at the Shore of the Baltic Sea](../assets/8DADFB.png)
 

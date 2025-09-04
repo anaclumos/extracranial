@@ -19,7 +19,7 @@ slug: '/BC676B'
   - `strcpy` → `strncpy`
   - `strcat` → `strncat`
 - Use Canary Values
-  - Compiler inserts random unique values—canary values—before return address
+  - Compiler inserts random unique values--canary values--before return address
   - If the canary values are modified, crash.
 - Address Space Layout Randomization (ASLR)
   - Compiler randomize where the stack will start.

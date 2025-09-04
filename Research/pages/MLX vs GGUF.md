@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/E5B180'
 ---
 
-MLX quantization (used in Apple's **MLX** framework) and **GGUF** quantization (used in the **GGML** ecosystem, including llama.cpp) serve similar purposes—reducing model size and improving inference speed—but they differ significantly in implementation, supported hardware, and use cases. Here's a breakdown:
+MLX quantization (used in Apple's **MLX** framework) and **GGUF** quantization (used in the **GGML** ecosystem, including llama.cpp) serve similar purposes--reducing model size and improving inference speed--but they differ significantly in implementation, supported hardware, and use cases. Here's a breakdown:
 
 | Feature                  | MLX Quantization                            | GGUF Quantization                                                 |
 | ------------------------ | ------------------------------------------- | ----------------------------------------------------------------- |

@@ -35,7 +35,7 @@ TODO: USE FUMADOCS I18N
 >
 > _The mask is who you really are._
 >
-> — Masks (S01 E06)
+> -- Masks (S01 E06)
 
 </div>
 
@@ -70,7 +70,7 @@ TODO: USE FUMADOCS I18N
 >
 > _가면을 쓴 모습이 진짜 모습일 수도 있다는 거야_
 >
-> — 가면 (S01 E06)
+> -- 가면 (S01 E06)
 
 </div>
 

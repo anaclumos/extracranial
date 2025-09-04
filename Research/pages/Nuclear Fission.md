@@ -17,7 +17,7 @@ In an interview, Altman explained his bet on energy alongside [[AI]], stating th
 
 Oklo, founded in 2013, intends to offer smaller nuclear reactors that provide consistent energy, targeting customers like data centers, utilities, defense facilities, remote communities, factories, and industrial sites. Despite facing regulatory hurdles in the past, the company remains optimistic about its progress and ability to transform the [[Economy|economics]] of nuclear energy.
 
-## [Germany extends the lifetime of remaining nuclear plants – DW – 10/17/2022](https://www.dw.com/en/germany-extends-lifetime-of-all-3-remaining-nuclear-plants/a-63466196)
+## [Germany extends the lifetime of remaining nuclear plants - DW - 10/17/2022](https://www.dw.com/en/germany-extends-lifetime-of-all-3-remaining-nuclear-plants/a-63466196)
 
 German Chancellor Olaf Scholz has ordered the country's three remaining nuclear power plants to continue operations until April 2023, overriding previous plans to phase out nuclear power by the end of 2022. This decision was made in response to potential energy shortages due to gas cuts from Russia. The power plants in question are Isar 2, Neckarwestheim 2, and Emsland.
 

@@ -52,7 +52,7 @@ flowchart TD
 
 | Key                     | Type            | Purpose                                       | Est. size                                                                                                                                                                                                                 |
 | ----------------------- | --------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `board:<tileX>:<tileY>` | String (4096B)  | 64×64 chunk; one byte per pixel (256 colours) | ≤1MB total for 1024×1024 board – under Upstash's 100MB record limit([upstash.com](https://upstash.com/docs/redis/troubleshooting/max_record_size_exceeded 'ERR max single record size exceeded - Upstash Documentation')) |
+| `board:<tileX>:<tileY>` | String (4096B)  | 64×64 chunk; one byte per pixel (256 colours) | ≤1MB total for 1024×1024 board - under Upstash's 100MB record limit([upstash.com](https://upstash.com/docs/redis/troubleshooting/max_record_size_exceeded 'ERR max single record size exceeded - Upstash Documentation')) |
 | `last:<userId>`         | String          | Unix ms of last placement                     | 8B                                                                                                                                                                                                                        |
 | `updates`               | Pub/Sub channel | JSON `{x,y,color}` deltas                     | transient                                                                                                                                                                                                                 |
 
@@ -72,11 +72,11 @@ return true
 
 ### 3.Edge Function: **POST/api/place**
 
-1. **Auth** – header cookie/JWT or fallback to IP.
-2. **Rate‑limit** – Upstash helper (`@upstash/ratelimit`) → 429 if user has written in the last \_N_seconds.
-3. **Tile calculation** – map `x,y` to `tileKey` and byte offset.
-4. **Lua script EVALSHA** – atomic write + publish.
-5. **Async durability** – `await sql` via `@neondatabase/serverless` to insert into `pixel_events(id, ts, x, y, color, user_id)`; errors are logged but don't block the user path.
+1. **Auth** - header cookie/JWT or fallback to IP.
+2. **Rate‑limit** - Upstash helper (`@upstash/ratelimit`) → 429 if user has written in the last \_N_seconds.
+3. **Tile calculation** - map `x,y` to `tileKey` and byte offset.
+4. **Lua script EVALSHA** - atomic write + publish.
+5. **Async durability** - `await sql` via `@neondatabase/serverless` to insert into `pixel_events(id, ts, x, y, color, user_id)`; errors are logged but don't block the user path.
 
 Edge Functions are short‑lived; they fit Vercel's normal limits (max 30s run, 25MB bundle([vercel.com](https://vercel.com/docs/functions/limitations 'Vercel Functions Limits'))).
 
@@ -114,8 +114,8 @@ The browser's `EventSource` patches the `<canvas>` in ~50ms worldwide (Upstash's
 
 ### 5.Cold‑start & initial page load
 
-- **Path1 – Static snapshot** — hourly Vercel Cron downloads all tiles, flattens to a PNG, uploads to Vercel Blob Storage or the Next.js public folder (served by Vercel CDN). First paint shows a compressed image.
-- **Path2 – Progressive tiles** — client lazily `GET /api/tile?x=3&y=7` (Edge Function reads `GETRANGE` 4096B and responds with Uint8Array).
+- **Path1 - Static snapshot** -- hourly Vercel Cron downloads all tiles, flattens to a PNG, uploads to Vercel Blob Storage or the Next.js public folder (served by Vercel CDN). First paint shows a compressed image.
+- **Path2 - Progressive tiles** -- client lazily `GET /api/tile?x=3&y=7` (Edge Function reads `GETRANGE` 4096B and responds with Uint8Array).
 
 ---
 
@@ -144,33 +144,33 @@ Cost example (1keps, 2M MAU):
 
 | Service       | Tier                         | Est. cost          |
 | ------------- | ---------------------------- | ------------------ |
-| Vercel        | Hobby → Pro                  | $20 – $55          |
+| Vercel        | Hobby → Pro                  | $20 - $55          |
 | Upstash Redis | Fixed‑price 100req/s + 3GB   | $50                |
 | Neon Postgres | 1GB storage, auto‑scale‑to‑0 | $30                |
-| **Total (≈)** |                              | **$100 – $135/mo** |
+| **Total (≈)** |                              | **$100 - $135/mo** |
 
 ---
 
 ### 8.Security & abuse protection
 
 - **HTTPS only**; Vercel auto‑TLS.
-- **Origin shielding** – strict CORS and `Referrer‑Policy`.
+- **Origin shielding** - strict CORS and `Referrer‑Policy`.
 - **Rate‑limit** at API layer + Cloudflare Turnstile to deter scripts.
-- **Auditable history** – every pixel stored immutably in Postgres, write‑blocked by RLS so only Edge Functions can insert.
+- **Auditable history** - every pixel stored immutably in Postgres, write‑blocked by RLS so only Edge Functions can insert.
 
 ---
 
 ### 9.Extensibility
 
-- **Multiple boards** – prefix keys `board:<id>:<tileX>:<tileY>`; Postgres foreign‑key `board_id`.
-- **Undo / disputes** – keep last colour in Lua script return; moderators can "rewind" by replaying events.
-- **Time‑lapse video** – Neon Branch → generate frames in a Vercel Job, push to Cloudflare Stream.
-- **Gamification** – Postgres materialized view for streaks, leaderboards.
+- **Multiple boards** - prefix keys `board:<id>:<tileX>:<tileY>`; Postgres foreign‑key `board_id`.
+- **Undo / disputes** - keep last colour in Lua script return; moderators can "rewind" by replaying events.
+- **Time‑lapse video** - Neon Branch → generate frames in a Vercel Job, push to Cloudflare Stream.
+- **Gamification** - Postgres materialized view for streaks, leaderboards.
 
 ---
 
 ### 10.Why this stays "serverless"
 
-- **Scale‑to‑zero** — no container or DB CPU when idle (Neon & Upstash pause).
-- **Global latency** — Vercel Edge + Upstash POPs replicate closer to users; no region pinning.
-- **Ops burden** — backups, fail‑over, TLS, and upgrades are delegated to the three SaaS providers.
+- **Scale‑to‑zero** -- no container or DB CPU when idle (Neon & Upstash pause).
+- **Global latency** -- Vercel Edge + Upstash POPs replicate closer to users; no region pinning.
+- **Ops burden** -- backups, fail‑over, TLS, and upgrades are delegated to the three SaaS providers.
