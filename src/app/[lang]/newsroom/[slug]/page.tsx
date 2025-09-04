@@ -87,6 +87,11 @@ export default async function NewsroomPost(props: { params: Promise<{ slug: stri
   )
 }
 
+export const dynamic = 'force-static'
+export const dynamicParams = false
+
 export const generateStaticParams = () => {
-  return newsroomSource.getPages().map((p) => ({ slug: p.slugs[0] }))
+  return newsroomSource
+    .getLanguages()
+    .flatMap((entry) => entry.pages.map((p) => ({ lang: entry.language, slug: p.slugs[0] })))
 }

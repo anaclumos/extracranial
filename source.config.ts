@@ -36,7 +36,6 @@ export const newsroom = defineDocs({
 })
 
 import { remarkImage } from 'fumadocs-core/mdx-plugins'
-import remarkFigureImport from '@/mdx/remark-figure-import'
 
 export default defineConfig({
   mdxOptions: {
@@ -48,7 +47,6 @@ export default defineConfig({
           useImport: true,
         },
       ],
-      remarkFigureImport,
       remarkAdmonition,
     ],
     rehypePlugins: (v) => [rehypeKatex, ...v],

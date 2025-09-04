@@ -17,32 +17,32 @@ DX VP [Lee Robinson](https://github.com/leerob)'s idea,
 Known for being a excellent testing bed for new Next.js features, [Lee Robinson](https://github.com/leerob) has one outstanding functionality:
 It will display **the owner's song currently playing**.
 
-<Figure>
 
-<Figure src="/generated/newsroom/9F7F85/FB1216.png" alt="ALT: leerob.io" width={800} height={400} />
 
-<Figure.Caption>
+![ALT: leerob.io](./FB1216.png)
+
+
 
 Now Playing -- Spotify @ [leerob.io](https://leerob.io)
 
-</Figure.Caption>
-</Figure>
+
+
 
 [I have an unmistakable taste in music genres](.//w/AF848F) and longed to implement this one day on my website.
 However, I wanted it to be a technical challenge rather than simply recreating it.
 I also tried out various music services, making me postpone the development.
 I kept delaying the action until Apple released an exciting feature in 2022 called the _Dynamic Island_.
 
-<Figure>
 
-<Figure src="/generated/newsroom/9F7F85/3F68A8.gif" alt="ALT: The Dynamic Island" width={640} height={360} />
 
-<Figure.Caption>
+![ALT: The Dynamic Island](./3F68A8.gif)
+
+
 
 The punch-hole camera at the top will reshape itself into different widgets.
 
-</Figure.Caption>
-</Figure>
+
+
 
 The Dynamic Island perfectly satisfied my desire for a technical hurdle,
 so I planned to implement it with Web technologies.
@@ -69,16 +69,16 @@ However, the animation troubled me.
 I have never dealt with anything more complicated than `ease-in-ease-out` CSS animations.
 I learned about a production-ready motion library named [Framer Motion](https://www.framer.com/developers/) and opted for it.
 
-<Figure>
 
-<Figure src="/generated/newsroom/9F7F85/7B94B3.png" alt="ALT: Framer Motion" width={3584} height={2240} />
 
-<Figure.Caption>
+![ALT: Framer Motion](./7B94B3.png)
+
+
 
 [Framer Motion](https://www.framer.com/developers/)
 
-</Figure.Caption>
-</Figure>
+
+
 
 ## 🧑🏻‍🏫 The Physics of Animations
 
@@ -103,22 +103,22 @@ useSpring(x, { stiffness: 1000, damping: 10 })
 
 ## 🛥 To the Dynamic Island
 
-<Figure src="/generated/newsroom/9F7F85/7048BA.png" alt="Source: Apple" width={1536} height={864} />
+![Source: Apple](./7048BA.png)
 
 I had to study the different behaviors of the Dynamic Island with [Apple's official documents](https://developer.apple.com/design/human-interface-guidelines/components/system-experiences/live-activities).
 The Dynamic Island can be any of the following forms:
 
 <Horizontal>
-  <Figure src="/generated/newsroom/9F7F85/2059F2.png" alt="Minimal. The widget takes one side of the Dynamic Island when two or more background activities are
-  ongoing." width={992} height={500} /> <Figure src="/generated/newsroom/9F7F85/421DC3.png" alt="Compact: The standard form, where the widget takes both sides of the Dynamic Island when
-  there is one ongoing background activity." width={992} height={500} /> <Figure src="/generated/newsroom/9F7F85/D8C987.png" alt="Expanded: The biggest size of the the Dynamic Island, shown
-  when the user long-presses on the Dynamic Island. It cannot display content in the red area." width={992} height={500} />
+  ![Minimal. The widget takes one side of the Dynamic Island when two or more background activities are
+  ongoing.](./2059F2.png) ![Compact: The standard form, where the widget takes both sides of the Dynamic Island when
+  there is one ongoing background activity.](./421DC3.png) ![Expanded: The biggest size of the the Dynamic Island, shown
+  when the user long-presses on the Dynamic Island. It cannot display content in the red area.](./D8C987.png)
 </Horizontal>
 
 Furthermore, I found the following image on the Web.
 Apple puts _Expanded_ for all big sizes, but this image describes the Dynamic Island's expanded states.
 
-<Figure src="/generated/newsroom/9F7F85/982F45.png" alt="Different sizes of the Dynamic Island. Considering that there is a typo on the image, it doesn't seem like an official document." width={1024} height={600} />
+![Different sizes of the Dynamic Island. Considering that there is a typo on the image, it doesn't seem like an official document.](./982F45.png)
 
 I declared the type as the following, reflecting the earlier information.
 
@@ -156,16 +156,16 @@ the golden ratio was `const stiffness = 400` and `const damping = 30`.
 >
 ```
 
-<Figure>
 
-<Figure src="/generated/newsroom/9F7F85/EA6CDB.gif" alt="ALT: As of Oct 16th, 2022" width={800} height={453} />
 
-<Figure.Caption>
+![ALT: As of Oct 16th, 2022](./EA6CDB.gif)
+
+
 
 As of [Oct 16th, 2022](/research/2022-10-16)
 
-</Figure.Caption>
-</Figure>
+
+
 
 ## 📞 Hello?
 
@@ -190,18 +190,18 @@ Spotify officially has a Now Playing API, so naturally, I expected a similar Now
 
 <Horizontal>
 
-<Figure src="/generated/newsroom/9F7F85/B81341.png" alt="I was a huuuuge fan of IZ*ONE back then... 😅" width={1524} height={2092} />
+![I was a huuuuge fan of IZ*ONE back then... 😅](./B81341.png)
 
-<Figure>
 
-<Figure src="/generated/newsroom/9F7F85/15E359.png" alt="ALT: Spotify Now Playing API" width={3584} height={2240} />
 
-<Figure.Caption>
+![ALT: Spotify Now Playing API](./15E359.png)
+
+
 
 [Spotify for Developers](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-the-users-currently-playing-track)
 
-</Figure.Caption>
-</Figure>
+
+
 
 </Horizontal>
 
@@ -210,16 +210,16 @@ When Apple Music API 1.1 was released, Apple released an API named
 -- the closest we ever got to the Now Playing API.
 FYI, such an API did not even exist two years ago.
 
-<Figure>
 
-<Figure src="/generated/newsroom/9F7F85/22AFE7.png" alt="ALT: Apple Music Get Recently Played Tracks" width={3584} height={2240} />
 
-<Figure.Caption>
+![ALT: Apple Music Get Recently Played Tracks](./22AFE7.png)
+
+
 
 FYI, such an API did not even exist [two years ago](https://developer.apple.com/forums/thread/114660).
 
-</Figure.Caption>
-</Figure>
+
+
 
 Now we need to issue and save the different tokens needed for OAuth 2.0.
 Spotify almost precisely [followed the OAuth 2.0 standards](https://developer.spotify.com/documentation/general/guides/authorization/),
@@ -246,18 +246,18 @@ and was not designed for such API request bots.
 Still, Apple put _MusicKit on the Web will automatically take care of it_ without documenting it.
 So what are we going to do? **Reverse engineer** the API.
 
-<Figure src="/generated/newsroom/9F7F85/6A9F15.png" alt="Apple: Documentation? Nah." width={2038} height={1276} />
+![Apple: Documentation? Nah.](./6A9F15.png)
 
-<Figure>
 
-<Figure src="/generated/newsroom/9F7F85/7B29C5.png" alt="ALT: MusicKit on the Web" width={3584} height={2240} />
 
-<Figure.Caption>
+![ALT: MusicKit on the Web](./7B29C5.png)
+
+
 
 [MusicKit on the Web](https://js-cdn.music.apple.com/musickit/v3/docs/index.html). Is Apple using Storybook? Based on Apple's track record, this MUST be an Alpha of Alpha.
 
-</Figure.Caption>
-</Figure>
+
+
 
 ## 🦾 Cracking the MusicKit
 
@@ -265,20 +265,20 @@ First, I mimicked the specs of MusicKit on the Web, creating a website.
 
 <Horizontal>
 
-<Figure src="/generated/newsroom/9F7F85/B7D25C.png" alt="This website will do nothing else than calling the authorization process." width={2074} height={1810} />
+![This website will do nothing else than calling the authorization process.](./B7D25C.png)
 
-<Figure src="/generated/newsroom/9F7F85/4BEEDB.png" alt="It will show the Apple Music access grant page like this." width={1920} height={1200} />
+![It will show the Apple Music access grant page like this.](./4BEEDB.png)
 
 </Horizontal>
 
 Then digging into the request headers of the website will reveal the `media-user-token`.
 
-<Figure src="/generated/newsroom/9F7F85/91C875.png" alt="There we go." width={384} height={1020} />
+![There we go.](./91C875.png)
 
 Finally, I can successfully get a JSON response from the Apple server by filling in other information with Postman software.
 Finished on [Oct 28th, 2022](/research/2022-10-28).
 
-<Figure src="/generated/newsroom/9F7F85/46C3E8.png" alt="It sounds straightforward, but it took me days to figure it out. 😭" width={3584} height={2240} />
+![It sounds straightforward, but it took me days to figure it out. 😭](./46C3E8.png)
 
 Requiring the information whenever someone accesses the Web will deplete my API quota in minutes.
 I wanted to make a cache server of some sort.
@@ -291,20 +291,20 @@ So I made a GitHub Secrets that holds my private keys and made GitHub Actions to
 - [anaclumos/now-playing: What is Sunghyun listening to right now? (Apple Music)](https://github.com/anaclumos/now-playing)
 - [anaclumos/now-playing/main/now-playing.json](https://raw.githubusercontent.com/anaclumos/now-playing/main/now-playing.json)
 
-<Figure src="/generated/newsroom/9F7F85/8EC62F.png" alt="I don't know how long I struggled to find this typo." width={1560} height={384} />
+![I don't know how long I struggled to find this typo.](./8EC62F.png)
 
 ## 🎼 Equalizers
 
 Similar to finishing the phone call component, I completed the music player component.
 
-<Figure src="/generated/newsroom/9F7F85/6F3644.gif" alt="But something felt empty." width={960} height={600} />
+![But something felt empty.](./6F3644.gif)
 
 There were no equalizers!
 I searched for good equalizers for React but later decided to implement this with Framer Motion.
 So these are the few iterations of the product.
 
-<Horizontal><Figure src="/generated/newsroom/9F7F85/566FD8.gif" alt="ALT: FANCY by TWICE" width={480} height={256} /> <Figure src="/generated/newsroom/9F7F85/F1A974.gif" alt="ALT: After Like by IVE" width={480} height={328} /></Horizontal>
-<Horizontal><Figure src="/generated/newsroom/9F7F85/1F832D.gif" alt="ALT: Lavender Haze by Taylor Swift" width={480} height={328} /> <Figure src="/generated/newsroom/9F7F85/6AA1FF.gif" alt="ALT: Hype Boy by NewJeans" width={480} height={287} /></Horizontal>
+<Horizontal>![ALT: FANCY by TWICE](./566FD8.gif) ![ALT: After Like by IVE](./F1A974.gif)</Horizontal>
+<Horizontal>![ALT: Lavender Haze by Taylor Swift](./1F832D.gif) ![ALT: Hype Boy by NewJeans](./6AA1FF.gif)</Horizontal>
 
 Each stick of the equalizers will have a random length.
 But as seen in the last song, something was also awkward.
@@ -314,7 +314,7 @@ So I set a base length as an anchor and made the randomized values slightly shak
 Finally, I set the equalizer color to match the album cover's key color.
 I did not need additional work; it came with the Apple Music API.
 
-<Figure src="/generated/newsroom/9F7F85/4B78CA.gif" alt="Much smoother." width={480} height={325} />
+![Much smoother.](./4B78CA.gif)
 
 ## 🔎 The Physics of Squircles
 
@@ -322,16 +322,16 @@ We're not done yet!
 Such completed widgets still felt slightly off;
 the curves felt too _sharp_. We needed **squircles**.
 
-<Figure>
 
-<Figure src="/generated/newsroom/9F7F85/DBE98B.png" alt="ALT: Squircle" width={2600} height={1104} />
 
-<Figure.Caption>
+![ALT: Squircle](./DBE98B.png)
+
+
 
 Source: [Apple's Icons Have That Shape for a Very Good Reason @ HackerNoon](https://hackernoon.com/apples-icons-have-that-shape-for-a-very-good-reason-720d4e7c8a14)
 
-</Figure.Caption>
-</Figure>
+
+
 
 A standard curve made by setting a border-radius has constant curvature, leading the end of the curve to have a sudden surge in curvature, making it feel sharp. On the contrary, gradually increasing and decreasing the curvature will make a much more natural curve.
 
@@ -347,14 +347,14 @@ $$
 
 I used this [tienphaw/figma-squircle](https://github.com/tienphaw/figma-squircle) to create an SVG squircle and cut the Dynamic Island with the `clipPath` property.
 
-<Figure src="/generated/newsroom/9F7F85/7ABA4C.gif" alt="I saw a similar bug at the iOS 16 Notification Center. Maybe Apple is also clipping?" width={480} height={325} />
+![I saw a similar bug at the iOS 16 Notification Center. Maybe Apple is also clipping?](./7ABA4C.gif)
 
 However, to clip all frames of the animations, we would have to create squircles for every frame, risking speed.
 Therefore, I opted to use `borderRadius` for the animation and clipped it right after the animation finished.
 It was barely noticeable, even if you looked very closely, so it was a good trade-off between performance and detail.
 Finished on [Nov 11th, 2022](/research/2022-11-11).
 
-<Figure src="/generated/newsroom/9F7F85/58D345.gif" alt="Look closely. The border cuts into the squircle when the animation exits." width={480} height={593} />
+![Look closely. The border cuts into the squircle when the animation exits.](./58D345.gif)
 
 ## 💨 Optimizing Performance
 

@@ -24,6 +24,9 @@ export default withMDX(
     {
       ...config,
     },
-    { folder: 'content' }
+    {
+      folder: 'content',
+      provider: 'vercel-blob',
+    }
   )
 )
