@@ -9,7 +9,7 @@ GrammarlyGO is a suite of [[generative AI]] capabilities from [[Grammarly]]. It 
 
 ## [[2023-04-25]] Announcement Demo
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 

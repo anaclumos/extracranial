@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/D1B0BE'
 ---
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 ![[193DBA.png]]

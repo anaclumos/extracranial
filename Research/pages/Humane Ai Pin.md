@@ -4,7 +4,7 @@ slug: '/A08921'
 aliases: ['Ai Pin']
 ---
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 

@@ -5,7 +5,7 @@ slug: '/DD7F2D'
 
 ![[2A7F74.png]]
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 

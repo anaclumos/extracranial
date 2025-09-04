@@ -7,7 +7,7 @@ slug: '/B80EAF'
 
 So I have this network graph.
 
-import Horizontal from '@/components/horizontal';
+;
 
 ![[5BE46A.png]]
 

@@ -31,7 +31,7 @@ The compute, and federated storage layers feature payment aggregation, while fea
 
 The [[Datalake|Lakehouse]] model supports open-source models, allowing for swapping between [[CPU]], [[GPU]], and models like MPT.
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 

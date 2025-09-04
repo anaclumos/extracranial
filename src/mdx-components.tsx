@@ -5,8 +5,8 @@ import Figure from '@/components/figure'
 import { Mermaid } from '@/components/mdx/mermaid'
 import * as TabsComponents from 'fumadocs-ui/components/tabs';
 import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
+import Horizontal from '@/components/horizontal'
 
-// use this function to get MDX components, you will need it for rendering MDX
 export function getMDXComponents(components?: MDXComponents): MDXComponents {
   return {
     ...defaultMdxComponents,
@@ -17,5 +17,6 @@ export function getMDXComponents(components?: MDXComponents): MDXComponents {
     ...components,
     Accordion,
     Accordions,
+    Horizontal,
   }
 }

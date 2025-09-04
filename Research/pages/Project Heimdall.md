@@ -36,7 +36,7 @@ aliases: ['헤임달', 'Heimdall']
 
 ## [[2023-06-20]]
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 
