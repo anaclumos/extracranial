@@ -1,10 +1,10 @@
-import Image from 'next/image'
+import { ImageZoom } from 'fumadocs-ui/components/image-zoom'
 
 const Figure = ({ src, alt, caption }: { src: string; alt: string; caption: string }) => {
   return (
-    <figure>
-      <Image src={src} alt={alt} />
-      <figcaption className="text-sm text-muted-foreground">{caption}</figcaption>
+    <figure className="my-4">
+      <ImageZoom src={src} alt={alt} />
+      {caption ? <figcaption className="mt-2 text-sm text-muted-foreground">{caption}</figcaption> : null}
     </figure>
   )
 }

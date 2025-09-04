@@ -15,6 +15,7 @@
     "next-video": "^2.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-tweet": "^3.2.2",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "sonner": "^2.0.7",

@@ -16,7 +16,8 @@ export default function Horizontal({ children }: { children: React.ReactNode }) 
         typeof child.type === 'string' &&
         (child.type === 'p' || child.type === 'figure')
       ) {
-        return React.Children.toArray(child.props.children).filter((inner) =>
+        const el = child as React.ReactElement<{ children?: React.ReactNode }>
+        return React.Children.toArray(el.props.children).filter((inner) =>
           typeof inner === 'string' ? inner.trim().length > 0 : true
         )
       }

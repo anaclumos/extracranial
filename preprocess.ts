@@ -313,7 +313,22 @@ async function rewriteImages(txt: string, mdFile: string): Promise<string> {
     return `${pre}<Figure src="${href}" alt=${capLiteral} caption=${capLiteral} />`
   })
 
+  // 4) Fallback: any remaining references to ../assets inside parentheses → copy to /generated
+  // This covers edge cases where alt text contains ']' and our IMG_INLINE_RE misses it.
+  txt = await replaceAsync(txt, /\]\((\.\.\/assets\/[^)#]+)\)/g, async (m: string, cand: string) => {
+    const srcFile = await resolveImageCandidate(cand, mdFile)
+    if (!srcFile) return m
+    const href = await copyToGenerated(srcFile)
+    return m.replace(cand, href)
+  })
+
   return txt
+}
+
+function normalizeCodeFences(txt: string): string {
+  // Downgrade unsupported languages to plain fence to avoid Shiki errors
+  // e.g., ```dataview → ```
+  return txt.replace(/^```dataview\b/gm, '```')
 }
 
 async function replaceAsync(str: string, regex: RegExp, asyncFn: (...args: any[]) => Promise<string>): Promise<string> {
@@ -410,6 +425,8 @@ async function processResearchToFumadocs(): Promise<void> {
     let body = await rewriteImages(raw, meta.srcPath)
     // then resolve doc wikilinks
     body = replaceDocWikilinks(body, linkMap)
+    // normalize code fences (unsupported languages)
+    body = normalizeCodeFences(body)
     // ensure frontmatter contains title derived from original filename
     body = ensureFrontmatterTitle(body, meta.fileBase, preferredSlug, lang)
     await fs.writeFile(outFile, body, 'utf-8')
