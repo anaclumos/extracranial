@@ -3,6 +3,8 @@
 import createGlobe from 'cobe'
 import { useEffect, useRef } from 'react'
 import { cn } from '@/lib/utils'
+import { Card, CardContent } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
 
 export const KoreaNetherlandsGlobe = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -19,9 +21,10 @@ export const KoreaNetherlandsGlobe = () => {
   const targetTheta = useRef(0)
   const widthRef = useRef(0)
 
-  const locationToAngles = (lat: number, long: number): [number, number] => {
-    return [Math.PI - ((long * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180]
-  }
+  const toAngles = (lat: number, lng: number): [number, number] => [
+    Math.PI - ((lng * Math.PI) / 180 - Math.PI / 2),
+    (lat * Math.PI) / 180,
+  ]
 
   const clamp = (v: number, min: number, max: number) => Math.min(Math.max(v, min), max)
 
@@ -96,79 +99,37 @@ export const KoreaNetherlandsGlobe = () => {
     if (canvasRef.current) canvasRef.current.style.cursor = 'grab'
   }
 
-  const handleCityClick = (lat: number, long: number, city: string) => {
-    ;[targetPhi.current, targetTheta.current] = locationToAngles(lat, long)
+  const handleCityClick = (lat: number, lng: number) => {
+    ;[targetPhi.current, targetTheta.current] = toAngles(lat, lng)
   }
 
   return (
-    <div className="relative w-full max-w-2xl mx-auto">
-      <div className="relative aspect-square w-full rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 p-8 shadow-xl">
-        <canvas
-          ref={canvasRef}
-          onPointerDown={(e) => handlePointerDown(e.clientX, e.clientY)}
-          onPointerMove={(e) => handlePointerMove(e.clientX, e.clientY)}
-          onPointerUp={handlePointerUp}
-          onPointerLeave={handlePointerUp}
-          onTouchStart={(e) => e.touches[0] && handlePointerDown(e.touches[0].clientX, e.touches[0].clientY)}
-          onTouchMove={(e) => e.touches[0] && handlePointerMove(e.touches[0].clientX, e.touches[0].clientY)}
-          onTouchEnd={handlePointerUp}
-          className={cn(
-            'absolute inset-0 w-full h-full cursor-grab transition-opacity duration-500',
-            'hover:scale-[1.02] transition-transform duration-300'
-          )}
-          style={{
-            contain: 'layout style paint',
-            opacity: 0,
-          }}
-        />
-      </div>
-
-      <div className="flex gap-4 justify-center mt-8">
-        <button
-          onClick={() => handleCityClick(52.3676, 4.9041, 'Amsterdam')}
-          className={cn(
-            'group relative px-6 py-3 rounded-xl',
-            'bg-white dark:bg-slate-800',
-            'border-2 border-slate-200 dark:border-slate-700',
-            'hover:border-blue-500 dark:hover:border-blue-400',
-            'transition-all duration-200 ease-out',
-            'shadow-md hover:shadow-lg',
-            'hover:-translate-y-0.5'
-          )}
-        >
-          <div className="flex items-center gap-3">
-            <span className="text-2xl">🇳🇱</span>
-            <div className="text-left">
-              <p className="text-sm font-semibold text-slate-900 dark:text-slate-100">Netherlands</p>
-              <p className="text-xs text-slate-500 dark:text-slate-400">Amsterdam</p>
-            </div>
+    <div className="relative mx-auto w-full max-w-2xl">
+      <Card className="overflow-hidden">
+        <CardContent className="p-0">
+          <div className="relative aspect-square w-full">
+            <canvas
+              ref={canvasRef}
+              onPointerDown={(e) => handlePointerDown(e.clientX, e.clientY)}
+              onPointerMove={(e) => handlePointerMove(e.clientX, e.clientY)}
+              onPointerUp={handlePointerUp}
+              onPointerLeave={handlePointerUp}
+              className={cn('absolute inset-0 h-full w-full cursor-grab transition-opacity duration-500')}
+              style={{ contain: 'layout style paint', opacity: 0 }}
+            />
           </div>
-        </button>
+        </CardContent>
+      </Card>
 
-        <button
-          onClick={() => handleCityClick(37.5665, 126.978, 'Seoul')}
-          className={cn(
-            'group relative px-6 py-3 rounded-xl',
-            'bg-white dark:bg-slate-800',
-            'border-2 border-slate-200 dark:border-slate-700',
-            'hover:border-blue-500 dark:hover:border-blue-400',
-            'transition-all duration-200 ease-out',
-            'shadow-md hover:shadow-lg',
-            'hover:-translate-y-0.5'
-          )}
-        >
-          <div className="flex items-center gap-3">
-            <span className="text-2xl">🇰🇷</span>
-            <div className="text-left">
-              <p className="text-sm font-semibold text-slate-900 dark:text-slate-100">South Korea</p>
-              <p className="text-xs text-slate-500 dark:text-slate-400">Seoul</p>
-            </div>
-          </div>
-        </button>
-      </div>
-
-      <div className="text-center mt-6">
-        <p className="text-sm text-slate-500 dark:text-slate-400">Drag to rotate • Click buttons to navigate</p>
+      <div className="mt-6 flex justify-center gap-3">
+        <Button variant="outline" onClick={() => handleCityClick(52.3676, 4.9041)}>
+          <span className="text-xl">🇳🇱</span>
+          <span className="text-sm">Netherlands · Amsterdam</span>
+        </Button>
+        <Button variant="outline" onClick={() => handleCityClick(37.5665, 126.978)}>
+          <span className="text-xl">🇰🇷</span>
+          <span className="text-sm">South Korea · Seoul</span>
+        </Button>
       </div>
     </div>
   )

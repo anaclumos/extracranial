@@ -11,7 +11,7 @@ I may call it... neobubble trend?
 
 More subtle ones:
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 

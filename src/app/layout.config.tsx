@@ -23,16 +23,16 @@ export function baseOptions(locale: string): BaseLayoutProps {
       {
         active: 'nested-url',
         on: 'nav',
-        text: t(locale, 'nav.graph'),
+        text: t(locale, 'nav.newsroom'),
         type: 'main',
-        url: withLocale('/graph'),
+        url: withLocale('/newsroom'),
       },
       {
         active: 'nested-url',
         on: 'nav',
-        text: t(locale, 'nav.newsroom'),
+        text: t(locale, 'nav.graph'),
         type: 'main',
-        url: withLocale('/newsroom'),
+        url: withLocale('/graph'),
       },
     ],
     nav: {

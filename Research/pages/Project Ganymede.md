@@ -5,7 +5,7 @@ aliases:
   - Ganymede
 ---
 
-import Horizontal from '@/components/horizontal';
+;
 
 - [[The Paradoxical Moon Philosophy]]
 - [[Send Separately]]

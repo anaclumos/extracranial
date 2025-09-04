@@ -79,7 +79,7 @@ Some outliners also allow users to create custom fields and filter on fields. It
 
 ## Comparison with Outliner
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 

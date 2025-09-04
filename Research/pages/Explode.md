@@ -23,7 +23,7 @@ On [[2025-01-15]], Nikita Bier released his newest app Explode. I was seemingly 
 
 I did have some nice friends to tell me about this launch:
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 

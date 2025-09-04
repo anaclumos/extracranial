@@ -75,7 +75,7 @@ Still around 92%, max. Never goes above 95%.
 
 ## Federated Learning
 
-import Horizontal from '@/components/horizontal';
+;
 
 
 <Accordion title="Results">

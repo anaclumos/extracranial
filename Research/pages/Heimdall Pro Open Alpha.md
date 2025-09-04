@@ -91,7 +91,7 @@ And I believe in **show > tell**, so let me just show you some examples.
 
 ## 업계 새 소식을 모니터링하세요!
 
-import Horizontal from '@/components/horizontal';
+;
 
 <Horizontal>
 
