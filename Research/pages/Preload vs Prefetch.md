@@ -3,11 +3,9 @@ lang: 'en'
 slug: '/A5B9F3'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+TODO: USE FUMADOCS I18N
+
 <div lang='en-US'>
 
 1. Preload:
@@ -35,8 +33,8 @@ By specifying `rel="preload"`, `as="font"`, and the appropriate `type` attribute
 Remember to use the `crossorigin` attribute when preloading fonts from a different origin to ensure proper security measures are in place.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
+
 <div lang='ko-KR'>
 
 1. Preload:
@@ -64,5 +62,4 @@ Remember to use the `crossorigin` attribute when preloading fonts from a differe
 다른 출처에서 폰트를 미리 로드할 때는 적절한 보안 조치가 마련되도록 `crossorigin` 속성을 사용해야 한다.
 
 </div>
-</TabItem>
-</Tabs>
+

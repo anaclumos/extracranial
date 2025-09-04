@@ -79,14 +79,14 @@ Some outliners also allow users to create custom fields and filter on fields. It
 
 ## Comparison with Outliner
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 
 ![Inliner](../assets/4D6E3C.png)
 ![Outliner](../assets/F9FF01.png)
 
-</DisplayFlex>
+</Horizontal>
 
 This is a personal preference, but Inliner looks much more _welcoming to read_ for me.
 

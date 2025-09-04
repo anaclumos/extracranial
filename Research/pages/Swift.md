@@ -12,7 +12,9 @@ brew reinstall --cask swiftformat-for-xcode
 ```
 
 :::info
+
 It should be `Format File`, not `SwiftFormat > Format File`.
+
 :::
 
 ![[F9FC1A.png]]

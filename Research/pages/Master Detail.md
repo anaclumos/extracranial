@@ -15,22 +15,22 @@ Master Detail in mobile, tablet (or foldable), and desktop has been thoroughly r
 
 ![[91B7AF.gif]]
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 
 ![[BCD6C8.png]]
 
 ![[114B61.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[666362.png]]
 
 ![[8592D8.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 You get the idea.

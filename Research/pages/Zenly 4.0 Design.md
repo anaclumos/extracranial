@@ -11,14 +11,14 @@ I may call it... neobubble trend?
 
 More subtle ones:
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 
 ![[CCA21B.gif]]
 ![[3924FC.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 ![[42DAAA.jpg]]
 

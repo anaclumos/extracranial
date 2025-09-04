@@ -3,9 +3,9 @@ lang: 'en'
 slug: '/2F432B'
 ---
 
-import Admonition from '@theme/Admonition';
 
-<Admonition type="info" title='SEOCHO is...' icon="🩵">
+
+<Callout type="info" title='SEOCHO is...' icon="🩵">
 
 - **S**traight: each components opt for least-work
 - **E**rgonomic: components build easy and error-free
@@ -14,7 +14,7 @@ import Admonition from '@theme/Admonition';
 - **H**ot-replaceable: bad actor can get sorted out with 5 lines of code change
 - **O**rthogonal: each components specialize mutually exclusive but collectively exaustive
 
-</Admonition>
+</Callout>
 
 ## Background
 
@@ -42,20 +42,20 @@ Everything changes—including your own reasoning. Plan for it.
 
 Use **1** and **2** by default. Use **3** only when "proven" also means **ergonomic, portable, and easy to replace**. New tools exist for reasons—**learn the reason** before you commit.
 
-<Admonition type="tip" title='Working rules' icon="💚">
+<Callout type="tip" title='Working rules' icon="💚">
 
 1. Keep it **very** simple.
 2. Don't reinvent the wheel.
 3. Keep things **hot‑replaceable**.
    - Experiment freely, but keep a **revert** within one PR.
 
-</Admonition>
+</Callout>
 
-<Admonition type="danger" title='Definition: hot‑replaceable' icon="🔥">
+<Callout type="danger" title='Definition: hot‑replaceable' icon="🔥">
 
 Swappable in a button press or single PR. Minimal glue, minimal fallout. _Interoperable_ is close; **hot‑replaceable** is stricter.
 
-</Admonition>
+</Callout>
 
 ## Ergonomics Over Anything
 
@@ -100,11 +100,11 @@ Buy the SLA; rent the complexity.
 - Zapier: ✅ until webhooks; ❌ beyond (too much study)
 - BigQuery: ✅ commodity SQL; ❌ deep dialect if you'll need portability
 
-<Admonition type="info" title='Bias' icon="🩵">
+<Callout type="info" title='Bias' icon="🩵">
 
 OSS + self‑hosting ⇒ you control the data ⇒ bulk export ⇒ **easier swap‑outs**
 
-</Admonition>
+</Callout>
 
 ## Occam's DollarShaveClub
 
@@ -331,7 +331,7 @@ const [campaign] = await db.select().from(campaigns).where(eq(campaigns.id, id))
 
 Let's say after 2 months, there's a new hot library in town. Should I stay uncool? I'd say: take a leap of faith, **but with a parachute** Try unreliable but high‑leverage ideas—wrapped in **interoperable**, **hot‑replaceable**, **type‑safe** modules.
 
-<Admonition type="danger" title='Summary' icon="🔥">
+<Callout type="danger" title='Summary' icon="🔥">
 
 - Be clear.
 - Be direct.
@@ -340,4 +340,4 @@ Let's say after 2 months, there's a new hot library in town. Should I stay uncoo
 - Be library power-user.
 - Be a shipper, not an architect.
 
-</Admonition>
+</Callout>

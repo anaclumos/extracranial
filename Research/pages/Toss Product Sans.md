@@ -3,7 +3,7 @@ lang: 'ko'
 slug: '/5C159C'
 ---
 
-import YouTube from '@site/src/components/YouTube'
+import YouTube from '@/components/youtube';
 
 - [[Toss]]의 [[Font|글꼴]]
 - [[San Francisco]]와 유사
@@ -16,6 +16,7 @@ import YouTube from '@site/src/components/YouTube'
 > "외부에 공개할 계획은 없습니다. 토스 서체에 대한 자세한 소개는 [8월 말에 진행되는 디자인 컨퍼런스](https://toss.im/simplicity-21)에서 공개될 예정이고, 추후에 브랜드 서체를 제작하게 된다면 오픈소스로 개발할 여지도 있다고 하시네요"
 
 <YouTube id="9R701Rc3rJc"/>
+
 :::
 
 하지만 그럼에도 오픈 웹에서 사용할 수 있는데, 다음과 같이 사용할 수 있다.

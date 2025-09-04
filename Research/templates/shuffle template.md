@@ -1,4 +1,4 @@
-import Shuffle from '@site/src/components/Shuffle'
+import Shuffle from '@/components/shuffle'
 
 <Shuffle>
 

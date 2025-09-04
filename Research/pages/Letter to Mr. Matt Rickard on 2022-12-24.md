@@ -6,7 +6,9 @@ slug: '/D6C559'
 - [[Mail|Letter]] to Mr. Matt Rickard on [[2022-12-24]]
 
 :::info
+
 This is a reply on [Software Rewrites](https://matt-rickard.ghost.io/software-rewrites/)
+
 :::
 
 Dear Mr. [[Matt Rickard|Rickard]],

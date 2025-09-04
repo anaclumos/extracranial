@@ -3,11 +3,9 @@ lang: 'en'
 slug: /681B09
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+TODO: USE FUMADOCS I18N
+
 <div lang='en-US'>
 
 ## Welcome!
@@ -25,47 +23,47 @@ And I believe in **show > tell**, so let me just show you some examples.
 
 ## Get updates from your industry!
 
-<DisplayFlex>
+<Horizontal>
 
 ![Subscribed to Gen AI, language set to English](../assets/A5DBEF.png)
 ![Subscribed to Gen AI, language set to Korean](../assets/88DC46.png)
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![Subscribed to Health Tech, language set to English](../assets/C8CAE4.png)
 ![Subscribed to Health Tech, language set to Korean](../assets/DF1B4D.png)
 
-</DisplayFlex>
+</Horizontal>
 
 ## Monitor new legislation!
 
-<DisplayFlex>
+<Horizontal>
 
 ![Subscribed to EU Regulation, language set to English](../assets/837D67.png)
 ![Subscribed to EU Regulation, language set to Korean](../assets/668133.png)
 
-</DisplayFlex>
+</Horizontal>
 
 ## Monitor your brand!
 
-<DisplayFlex>
+<Horizontal>
 
 ![Subscribed to Grammarly, language set to English](../assets/B14106.png)
 ![Subscribed to Resend Email API, language set to English](../assets/6663B1.png)
 
-</DisplayFlex>
+</Horizontal>
 
 ## Monitor region-specific news
 
-<DisplayFlex>
+<Horizontal>
 
 ![Subscribed to 微信 (WeChat), language set to English](../assets/BE0D31.png)
 ![Subscribed to 微信 (WeChat), language set to Korean](../assets/547EE5.png)
 ![Subscribed to 토스 금융 (Toss), language set to Korean](../assets/F7C4EE.png)
 
-</DisplayFlex>
+</Horizontal>
 
 ## Sign Ups
 
@@ -74,8 +72,8 @@ And I believe in **show > tell**, so let me just show you some examples.
 - [Sign up for Alpha Testing here!](https://airtable.com/appLfbX7pNQxpBx00/shrkP8rkkbJxpBWE6)
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
+
 <div lang='ko-KR'>
 
 ## 환영합니다!
@@ -93,49 +91,49 @@ And I believe in **show > tell**, so let me just show you some examples.
 
 ## 업계 새 소식을 모니터링하세요!
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 
 ![Gen AI 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/A5DBEF.png)
 ![Gen AI 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/88DC46.png)
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![Health Tech 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/C8CAE4.png)
 ![Health Tech 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/DF1B4D.png)
 
-</DisplayFlex>
+</Horizontal>
 
 ## 새로운 법률 규제를 모니터링하세요!
 
-<DisplayFlex>
+<Horizontal>
 
 ![EU 규제 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/837D67.png)
 ![EU 규제 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/668133.png)
 
-</DisplayFlex>
+</Horizontal>
 
 ## 브랜드를 모니터링하세요!
 
-<DisplayFlex>
+<Horizontal>
 
 ![Grammarly 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/B14106.png)
 ![Resend Email API 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/6663B1.png)
 ![토스 금융 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/F7C4EE.png)
 
-</DisplayFlex>
+</Horizontal>
 
 ## 국지적 뉴스를 모니터링하세요!
 
-<DisplayFlex>
+<Horizontal>
 
 ![微信 (위챗) 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/BE0D31.png)
 ![微信 (위챗) 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/547EE5.png)
 
-</DisplayFlex>
+</Horizontal>
 
 ## 알파 테스트
 
@@ -144,5 +142,4 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - [여기에서 알파 테스트를 신청해주세요!](https://airtable.com/appLfbX7pNQxpBx00/shrkP8rkkbJxpBWE6)
 
 </div>
-</TabItem>
-</Tabs>
+

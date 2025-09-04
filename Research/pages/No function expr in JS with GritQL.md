@@ -19,7 +19,7 @@ slug: '/C2A337'
 }
 ```
 
-```grit
+```
 language js;
 
 `$var = function $maybeName?($params) { $body }` where {
@@ -30,7 +30,7 @@ language js;
 }
 ```
 
-```grit
+```
 language js;
 
 `function $name($params) { $body }` where {

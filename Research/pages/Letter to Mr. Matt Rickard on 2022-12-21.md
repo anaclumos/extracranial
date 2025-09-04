@@ -6,7 +6,9 @@ slug: '/96B109'
 [[Mail|Letter]] to Mr. Matt Rickard on 2022-12-21
 
 :::info
+
 This is an reply to [[Architecture of Mastodon]]
+
 :::
 
 Dear Mr. [[Matt Rickard|Rickard]],

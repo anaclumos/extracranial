@@ -4,12 +4,12 @@ slug: '/A08921'
 aliases: ['Ai Pin']
 ---
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 
 ![[3EED5E.png]]
 ![[1A19E9.png]]
 ![[57312D.png]]
 
-</DisplayFlex>
+</Horizontal>

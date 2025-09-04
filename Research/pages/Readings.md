@@ -8,9 +8,10 @@ This is a [[Metapage|meta-page]] that collects my to-read lists.
 :::tip
 I randomize the list (on every page load) and the sidebar (on every site build) to prevent any book on the top from getting all the attention 😉
 Try refreshing the page!
+
 :::
 
-import Shuffle from '@site/src/components/Shuffle'
+import Shuffle from '@/components/shuffle'
 
 ## Complete
 

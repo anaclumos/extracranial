@@ -4,11 +4,9 @@ slug: '/53392B'
 aliases: ['풋 옵션', '풋옵션']
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+TODO: USE FUMADOCS I18N
+
 <div lang='en-US'>
 
 Opposite of [[Call Option]]
@@ -23,8 +21,8 @@ If the stock price drop significantly before the expiry, you can exercise your o
   - Promised Price ≥ Market Prices + Put Options Exercising Premium
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
+
 <div lang='ko-KR'>
 
 [[Call Option|콜 옵션]]의 반대.
@@ -39,5 +37,4 @@ If the stock price drop significantly before the expiry, you can exercise your o
   - 시장가 + 옵션의 프리미엄보다 풋옵션을 행사해서 발생하는 주식 가격이 같거나 높아야 함
 
 </div>
-</TabItem>
-</Tabs>
+

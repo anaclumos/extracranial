@@ -3,13 +3,13 @@ lang: 'en'
 slug: '/9DFBB8'
 ---
 
-import Admonition from '@theme/Admonition';
 
-<Admonition type="info" title='GANGNAM is...' icon="🩵">
+
+<Callout type="info" title='GANGNAM is...' icon="🩵">
 
 GANGNAM is a development philosophy that emphasizes simplicity, hot-replaceability, and ergonomics. It encourages experimentation, using SaaS until studied, and opting for the least work required. GANGNAM also promotes using tools that are interoperable and hot-replaceable.
 
-</Admonition>
+</Callout>
 
 I've recently come to an epiphany that my dev stack or philosophy doesn't fall under any existing categories. I'm **not**
 
@@ -50,20 +50,20 @@ So, experiment more, learn more, ask more. Become a wanderlust and aggressively 
 
 Also, hear out when people have different opinions.
 
-<Admonition type="tip" title='My three liner would be' icon="💚">
+<Callout type="tip" title='My three liner would be' icon="💚">
 
 1. Keep it very simple
 1. Don't reinvent the wheel
 1. Keep things hot-replaceable
    1. Experiment a lot, but make sure a "Revert" button is in reach and works!
 
-</Admonition>
+</Callout>
 
-<Admonition type="danger" title='Dafuq is hot-replaceable' icon="🔥">
+<Callout type="danger" title='Dafuq is hot-replaceable' icon="🔥">
 
 Something that you could switch with a press of a button. I initially thought of the word "interoperable," but I think it doesn't fully grasp the point.
 
-</Admonition>
+</Callout>
 
 Why is it called GANGNAM, by the way? I live in Gangnam right now, and I conversed with a lot of smart people on this topic at Gangnam. What other good names could it have? So naturally...
 
@@ -84,11 +84,11 @@ In general, imperativeness is unergonomic, and declarativeness is ergonomic. You
 
 If you can do the same thing with 5 lines of code instead of 100, then you should opt-in for 5 lines of code.
 
-<Admonition type="warning" title='This is obvious but for the record' icon="💛">
+<Callout type="warning" title='This is obvious but for the record' icon="💛">
 
 Type Safety is ergonomic. That's why I hate Python.
 
-</Admonition>
+</Callout>
 
 ## 2. Clever Hackiness over Secure Busywork
 
@@ -116,19 +116,19 @@ I feel like Mr. Kessels put it best. He makes a point on database, but I think i
 
 SaaS is fine. I'm just saying keep Deep SaaS hot-replaceable. Don't study proprietary tech unless it's the industry de facto! (I'm talking to you, AWS)
 
-<Admonition type="info" title='This is just my preference but' icon="🩵">
+<Callout type="info" title='This is just my preference but' icon="🩵">
 
 If there's an OSS alternative for that SaaS, I'd rather use that OSS and GitHub-Sponsor them. See [[Open Core Models]].
 
 Need LogSnag? Check out [PostHog](https://github.com/PostHog/posthog). Need Resend? Check out [Plunk](https://github.com/useplunk/plunk). Need Substack? Check out [Ghost](https://github.com/TryGhost/Ghost).
 
-</Admonition>
+</Callout>
 
-<Admonition type="tip" title='Why?' icon="💚">
+<Callout type="tip" title='Why?' icon="💚">
 
 Self-hosting = Controlling the Database = Better Chance of Being hot-replacable with Bulk Data Exports
 
-</Admonition>
+</Callout>
 
 ## 4. Occam's DollarShaveClub
 
@@ -163,11 +163,11 @@ To override this chain of command, you will need a **good** reason, such as bett
 
 ## 5. So what's the Stack
 
-<Admonition type="danger" title='This list may not be up to date' icon="🔥">
+<Callout type="danger" title='This list may not be up to date' icon="🔥">
 
 Last updated on [[2024-08-01]].
 
-</Admonition>
+</Callout>
 
 - TurboRepo
   - minimal setup
@@ -269,8 +269,8 @@ First, create a safety net, then try out unreliable but bold things over and ove
 
 Opt-in for standard-based interoperable, hot-replaceable, elastic, and ergonomic wrapper technology instead of proprietary, proven, boring, old tech.
 
-<Admonition type="danger" title='Ofc you need to do your own research' icon="🔥">
+<Callout type="danger" title='Ofc you need to do your own research' icon="🔥">
 
 Don't email me after you set something on fire after following this!
 
-</Admonition>
+</Callout>

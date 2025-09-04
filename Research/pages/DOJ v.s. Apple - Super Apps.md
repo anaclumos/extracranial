@@ -3,11 +3,9 @@ lang: 'en'
 slug: '/F0943D'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+TODO: USE FUMADOCS I18N
+
 <div lang='en-US'>
 
 ## Super Apps: Apple prevented apps from threatening its smartphone monopoly by undermining mini programs that reduce user dependence on the iPhone
@@ -35,8 +33,8 @@ Since at least 2017, Apple has arbitrarily imposed exclusionary requirements tha
 Apple also selectively enforced its contractual rules with developers to prevent developers from monetizing mini programs, hurting both users and developers. For example, Apple blocked mini programs from accessing the APIs needed to implement Apple's in-app payment (IAP) system—even if developers were willing to pay Apple's monopoly tax. Similarly, Apple blocked developers' ability to use in-app payment methods other than directly using IAP. For instance, super apps could create a virtual currency for consumers to use in mini programs, but Apple blocked this too. Apple, however, allows other, less-threatening apps to do so.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
+
 <div lang='ko-KR'>
 
 ## 슈퍼앱: 애플은 아이폰 독점을 위협하는 앱들의 출시를 막아왔다. 아이폰에 대한 의존도를 낮추는 미니 프로그램들을 제한함으로써 이를 달성했다.
@@ -64,5 +62,4 @@ Apple also selectively enforced its contractual rules with developers to prevent
 애플은 또한 개발자와의 계약 규칙을 선별적으로 시행하여 개발자가 미니 프로그램을 수익화하는 것을 막아 사용자와 개발자 모두에게 피해를 줬다. 예를 들어 애플은 개발자가 애플의 독점 수수료를 기꺼이 지불하려 했음에도 불구하고 미니 프로그램이 애플의 인앱 결제(IAP) 시스템을 구현하는 데 필요한 API에 액세스하는 것을 차단했다. 마찬가지로 애플은 개발자가 IAP를 직접 사용하는 것 외에 인앱 결제 방식을 사용하는 것도 막았다. 예를 들어 슈퍼앱은 소비자가 미니 프로그램에서 사용할 가상 화폐를 만들 수 있지만, 애플은 이것도 차단했다. 하지만 애플은 위협이 덜한 다른 앱에서는 이를 허용한다.
 
 </div>
-</TabItem>
-</Tabs>
+

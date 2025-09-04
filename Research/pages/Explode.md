@@ -23,25 +23,25 @@ On [[2025-01-15]], Nikita Bier released his newest app Explode. I was seemingly 
 
 I did have some nice friends to tell me about this launch:
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import Horizontal from '@/components/horizontal';
 
-<DisplayFlex>
+<Horizontal>
 
 ![[EAE392.png]]
 
 ![[CFC7AF.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 As much as I feel [[ideas are worthless]]; in this very specific example, it required some very specific knowledge on Apple's Ecosystem, such as utilizing [[App Clips]] or [[Block Screenshots in iOS]]. iOS MessageKit was severely underutilized still to this day, and these were small [[The Paradoxical Moon Philosophy|remora]] products that sometimes the idea itself makes a difference, such as how Flighty succeeded with its edge on utilizing the Dynamic Island.
 
-<DisplayFlex>
+<Horizontal>
 
 ![[AE6FB5.gif]]
 
 ![[7681FE.gif]]
 
-</DisplayFlex>
+</Horizontal>
 
 As much as I feel some sour gripe that someone else has launched a successful product, I must acknowledge that he has been working on this to create the smoothest experience possible.
 

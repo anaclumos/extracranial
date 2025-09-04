@@ -1,4 +1,46 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/ko/w/archive",
+      "destination": "/ko/newsroom",
+      "permanent": true
+    },
+    {
+      "source": "/w/archive",
+      "destination": "/en/newsroom",
+      "permanent": true
+    },
+    {
+      "source": "/ko/w/*",
+      "destination": "/ko/newsroom/:path",
+      "permanent": true
+    },
+    {
+      "source": "/w/*",
+      "destination": "/en/newsroom/:path",
+      "permanent": true
+    },
+    {
+      "source": "/ko/r",
+      "destination": "/ko/research/000000",
+      "permanent": true
+    },
+    {
+      "source": "/r",
+      "destination": "/en/research/000000",
+      "permanent": true
+    },
+    {
+      "source": "/ko/r/*",
+      "destination": "/ko/research/:path",
+      "permanent": true
+    },
+    {
+      "source": "/r/*",
+      "destination": "/en/research/:path",
+      "permanent": true
+    }
+  ]
 }

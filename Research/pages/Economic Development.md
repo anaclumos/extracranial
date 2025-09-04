@@ -16,18 +16,16 @@ aliases:
   ]
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
+TODO: USE FUMADOCS I18N
+
 <div lang='en-US'>
 
 [[Economy|Economic]] growth is the increase in the size of a country's [[economy]] over time. It's measured by the total production of goods and services in the [[economy]], called gross domestic product (GDP). [[Economy|Economic]] growth can be measured in nominal or real terms, adjusted for inflation. [[Economy|Economic]] growth is an indicator of the financial [[health]] of a country. Policies encouraging savings and technological change, such as [[tax]] credits for research and development, lead to higher [[Economy|economic]] growth.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
+
 <div lang='ko-KR'>
 
 [[Economy|경제]] 성장은 시간이 지남에 따라 한 국가의 [[Economy|경제]] 규모가 증가하는 것을 말한다.
@@ -37,5 +35,4 @@ import TabItem from '@theme/TabItem';
 연구 개발에 대한 [[Tax|세금]] 공제 등 저축과 기술 변화를 장려하는 정책은 더 높은 [[Economy|경제]] 성장으로 이어진다.
 
 </div>
-</TabItem>
-</Tabs>
+
