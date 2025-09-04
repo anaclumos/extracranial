@@ -34,12 +34,12 @@
   "name": "nextracranial",
   "private": true,
   "scripts": {
-    "build": "bun preprocess && next build",
+    "build": "bun run preprocess.ts && next build",
     "dev": "next dev",
     "postinstall": "fumadocs-mdx",
     "start": "next start",
     "format": "bunx prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
-    "save": "bun preprocess && git add . && git status && git commit -m 'wrote something' && git push"
+    "save": "bun run preprocess.ts && git add . && git status && git commit -m 'wrote something' && git push"
   },
   "version": "0.0.0"
 }
