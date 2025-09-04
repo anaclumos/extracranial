@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { lazy, type RefObject, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { ForceGraphMethods, ForceGraphProps, LinkObject, NodeObject } from 'react-force-graph-2d'
@@ -111,7 +111,7 @@ const GraphViewLazy = lazy(async () => {
 
         return `color-mix(in oklab, ${style.getPropertyValue('--color-fd-foreground')} 40%, transparent)`
       },
-      [containerRef],
+      [containerRef]
     )
 
     // Enrich nodes with neighbors for hover effects
@@ -170,4 +170,3 @@ export function GraphViewClient(props: GraphViewProps) {
     </div>
   )
 }
-

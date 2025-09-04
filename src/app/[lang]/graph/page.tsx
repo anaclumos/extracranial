@@ -85,9 +85,8 @@ async function buildGraph(lang: string): Promise<Graph> {
   const seen = new Set<string>()
   for (const page of pages) {
     // Prefer absolute path if available; otherwise, try resolving from virtual `path`
-    const abs = page.absolutePath && path.isAbsolute(page.absolutePath)
-      ? page.absolutePath
-      : path.join(process.cwd(), page.path)
+    const abs =
+      page.absolutePath && path.isAbsolute(page.absolutePath) ? page.absolutePath : path.join(process.cwd(), page.path)
     const raw = await readFileSafe(abs)
     if (!raw) continue
 
@@ -112,4 +111,3 @@ export default async function Page(props: { params: Promise<{ lang: string }> })
   const graph = await buildGraph(lang)
   return <GraphViewClient {...graph} />
 }
-
