@@ -27,6 +27,7 @@ Ran entire ten epochs with the original dataset
 
 
 
+<Accordions>
 <Accordion title="One by One">
 
 I ran ten epochs on one dataset and have yet to come back. Then I moved on to the next one.
@@ -37,10 +38,12 @@ I ran ten epochs on one dataset and have yet to come back. Then I moved on to th
 - TL(10), TR(10), BL(10), BR(10): 47.24 %
 
 </Accordion>
+</Accordions>
 
 ## Round Robin
 
 
+<Accordions>
 <Accordion title="Round-robin">
 
 I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four cycles, thus 16 epochs.
@@ -67,17 +70,21 @@ I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four c
   - TL(1), TR(1), BL(1), BR(1): 90.12 %
 
 </Accordion>
+</Accordions>
 
 
+<Accordions>
 <Accordion title="Round Robin, 10 cycles">
 Still around 92%, max. Never goes above 95%.
 </Accordion>
+</Accordions>
 
 ## Federated Learning
 
 ;
 
 
+<Accordions>
 <Accordion title="Results">
 
 <Horizontal>
@@ -129,6 +136,7 @@ Still around 92%, max. Never goes above 95%.
 </Horizontal>
 
 </Accordion>
+</Accordions>
 
 - The averaged model maxes its accuracy around 10-15 federations. Before each federation, each learner trains ten epochs from their corresponding dataset.
 - It never reaches over 95% accuracy.

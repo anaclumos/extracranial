@@ -9,18 +9,21 @@ aliases: ['Digital Brain', '디지털 브레인', '디지털브레인', '세컨�
 ### [[Stephan Ango]] [Link](https://stephanango.com)
 
 
+<Accordions>
 <Accordion title="Images">
 
 ![[EB6370.png]]
 ![[C82B1C.png]]
 
 </Accordion>
+</Accordions>
 
 ### [The Lab Notes](https://alexanderobenauer.com/labnotes/000/) by [Alexander Obenauer](https://twitter.com/alexobenauer)
 
 Seems like using [[Svelte]]
 
 
+<Accordions>
 <Accordion title="Images">
 
 ![[53CB8D.png]]
@@ -30,34 +33,41 @@ Seems like using [[Svelte]]
 ![[5D9FD8.png]]
 
 </Accordion>
+</Accordions>
 
 ### [Younho9 Notes](https://notes.younho9.com/) by [younho9 (Younho Choo)](https://github.com/younho9)
 
 
+<Accordions>
 <Accordion title="Images">
 
 ![[030D1A.png]]
 ![[1541BC.png]]
 
 </Accordion>
+</Accordions>
 
 ### [기억보다 기록을](https://kyounghwan01.github.io) by [Kyounghwan01 (kyounghwan Noh)](https://github.com/Kyounghwan01)
 
 
+<Accordions>
 <Accordion title="Images">
 
 ![[EC5497.png]]
 
 </Accordion>
+</Accordions>
 
 ### [Everything I know](https://wiki.nikiv.dev/) by [nikitavoloboev (Nikita)](https://github.com/nikitavoloboev)
 
 
+<Accordions>
 <Accordion title="Images">
 
 ![[DA4882.png]]
 
 </Accordion>
+</Accordions>
 
 ### [[Andy Matuschak]]
 

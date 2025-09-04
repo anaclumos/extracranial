@@ -30,6 +30,7 @@ Everything changes, and you will, too. Your defense to A will perish into histor
 
 
 
+<Accordions>
 <Accordion title="Instagram's Engineering Philosophy in 2011">
 
 One of the most popular philosophies is Instagram.
@@ -41,6 +42,7 @@ One of the most popular philosophies is Instagram.
 While the first two still sound relevant today, I don't agree with the third option. Things change, and they change for good. New tools are built for a reason. Find and learn from that reason.
 
 </Accordion>
+</Accordions>
 
 The goal of the GANGNAM is to build systems in hot-replaceable chunks, with every module **destined** to be swapped out at one point. (i.e., this will be your last rewrite.)
 

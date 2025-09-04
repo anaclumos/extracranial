@@ -20,6 +20,7 @@ slug: '/A33FA6'
 From the Stay Home challenge in 2020 to a mass-scale [[3D]] [[Cartography|map]] update in 2022, [[Zenly]] prepared for its upcoming future. However, the recent layoff at Snap wiped out the [[Zenly]] team alongside the Snap [[Mini App]] team. I do think this is Snap's mistake. Even my university peers do not use Snap anymore but still use [[Zenly]]. It almost feels like [[Facebook]] is killing [[Instagram]] for [[Facebook]]. I hope [[Zenly]]'s revolutionary DNA gets well-integrated into Snap, seeking revival.
 
 
+<Accordions>
 <Accordion title="More Info">
 
 - [Alexis Bonillo - Zenly](https://www.youtube.com/watch?v=BCOF9V7bQUo)
@@ -31,3 +32,4 @@ From the Stay Home challenge in 2020 to a mass-scale [[3D]] [[Cartography|map]] 
 - [How Zenly made social maps cool again -- and what's next](https://techcrunch.com/2022/04/22/how-zenly-made-social-maps-cool-again-and-whats-next/)
 
 </Accordion>
+</Accordions>

@@ -46,6 +46,7 @@ As much as I feel [[ideas are worthless]]; in this very specific example, it req
 As much as I feel some sour gripe that someone else has launched a successful product, I must acknowledge that he has been working on this to create the smoothest experience possible.
 
 
+<Accordions>
 <Accordion title="He basically pulled every single growth levers I could ever think of...">
 
 ![[6A9632.gif]]
@@ -80,6 +81,7 @@ As much as I feel some sour gripe that someone else has launched a successful pr
 - https://x.com/spottedinprod/status/1879290007288177007
 
 </Accordion>
+</Accordions>
 
 I especially don't know how he got through the app store review process, considering that it technically breaks the Live Activity guidelines.
 
