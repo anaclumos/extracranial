@@ -1,9 +1,11 @@
 {
   "dependencies": {
     "@fumadocs/mdx-remote": "^1.4.0",
+    "@types/d3-force": "^3.0.10",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cobe": "^0.6.4",
+    "d3-force": "^3.0.0",
     "fumadocs-core": "15.6.5",
     "fumadocs-mdx": "11.7.0",
     "fumadocs-ui": "15.6.5",
@@ -15,6 +17,7 @@
     "next-video": "^2.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-force-graph-2d": "^1.28.0",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "sonner": "^2.0.7",
