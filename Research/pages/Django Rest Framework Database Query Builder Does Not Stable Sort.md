@@ -14,6 +14,7 @@ I was expecting:
 
 
 
+<Accordions>
 <Accordion title="Think you're good at Django? Guess the answer!">
 
 ![[C782E0.png]]
@@ -29,3 +30,4 @@ This is because `Order By` is not sorting itself, but rather a query builder.
 While I _understand_ the reason behind it, I still think it's counterintuitive.
 
 </Accordion>
+</Accordions>

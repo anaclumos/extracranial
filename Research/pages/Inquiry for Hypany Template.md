@@ -14,6 +14,7 @@ Thus, smart-enough people run an _idea farm_ by **[pretotyping](https://www.pret
 I have been close with the product and founding space, but unfortunately I haven't seen a SaaS that fully automates this _idea farm_. Thus, I see a potential in this idea and would like to inquire a deal.
 
 
+<Accordions>
 <Accordion title="What does Hypany mean?">
 
 It means three things.
@@ -23,6 +24,7 @@ It means three things.
 - hyperparameter company
 
 </Accordion>
+</Accordions>
 
 Keywords I am looking for are:
 
@@ -68,6 +70,7 @@ Best,
 Sunghyun
 
 
+<Accordions>
 <Accordion title="Some random thoughts">
 
 - Serial entrepreneur implies you guess the market. If you want to minimize the odds of failure you need to be a _parallel entrepreneur_. Or, [[think like a farmer]].
@@ -76,3 +79,4 @@ Sunghyun
   - 2014 and 2016 Uber Logo was cold. It felt like only top tech people could use it. 2018 Uber logo became more generic and welcoming.
 
 </Accordion>
+</Accordions>

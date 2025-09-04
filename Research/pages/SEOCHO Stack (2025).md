@@ -32,6 +32,7 @@ Everything changes--including your own reasoning. Plan for it.
 - **Prefer learning loops over sunk‑cost loyalty.** When the world shifts, you shift.
 
 
+<Accordions>
 <Accordion title="Instagram's Engineering Philosophy (2011)">
 
 1. Keep it very simple
@@ -39,6 +40,7 @@ Everything changes--including your own reasoning. Plan for it.
 3. Go with proven and solid technologies when you can
 
 </Accordion>
+</Accordions>
 
 Use **1** and **2** by default. Use **3** only when "proven" also means **ergonomic, portable, and easy to replace**. New tools exist for reasons--**learn the reason** before you commit.
 

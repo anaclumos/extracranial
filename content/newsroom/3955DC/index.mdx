@@ -1,5 +1,5 @@
 ---
-title: 'Financial Infrastructure for Schools 💸'
+title: 'Financial Infrastructure for Schools'
 date: 2019-10-10
 description: 'I built and ran a prepaid tap‑to‑pay system for our school festival: design, security tradeoffs, open data, and what I learned.'
 ---
@@ -45,6 +45,7 @@ The student council still wanted to continue the project. I thought they would o
 When I was designing the system, the primary issue was **payment authorization**. The passcode shouldn't be shared with the merchant, while the system could correctly authorize and process the order. The users can only use the deposited money in their accounts. This authorization should happen in real-time. But I couldn't think of a way to nail the real-time authorization with Google Forms. So I asked for more technical details from one student council member. The idea was as follows:
 
 
+<Accordions>
 <Accordion title="Abstract of a Google-Form-Powered Payment System">
 
 - Create one Google Form per user. (We have about 400 users in total.)
@@ -57,10 +58,12 @@ When I was designing the system, the primary issue was **payment authorization**
 - Close the incognito tab.
 
 </Accordion>
+</Accordions>
 
 So the idea was to use the Google Form's unique address as a password. Since the merchants are supposed to use incognito mode, there should be a safety layer to protect the user's Google Form address (in theory). They will need to make a deferred payment after the festival. But as a developer, this approach had multiple problems:
 
 
+<Accordions>
 <Accordion title="Potential Problems I found">
 
 - How are we going to manage all 400 Google Forms?
@@ -72,6 +75,7 @@ So the idea was to use the Google Form's unique address as a password. Since the
 - Can this all be free from human error?
 
 </Accordion>
+</Accordions>
 
 It could work in an ideal situation. But it will accompany a great deal of confusion and entail a noticeable discomfort on the festival day. That made me think that even though my idea had its risks, mine would still be better. So, I changed my mind.
 
@@ -80,6 +84,7 @@ It could work in an ideal situation. But it will accompany a great deal of confu
 Fortunately, I met a friend with the same intent--our vision and idea about the project aligned. I explained my previous concept, and we talked to each other and co-developed the actual product. We also met at a cafe several times. I set up and managed the DNS and created the front-end side. Below are the things we thought about while making the product.
 
 
+<Accordions>
 <Accordion title="Details that my team considered">
 
 - We won't be able to use any payment gateway or third-party payment service since we are not officially registered, and we will use it for a single day. Some students don't own smartphones, so we won't be able to use Toss or KakaoPay (Both are well-known P2P payment services in Korea, just like Venmo). Therefore, there cannot be any devices on the client-side. We would need to install computers on the merchant's side.
@@ -92,6 +97,7 @@ Fortunately, I met a friend with the same intent--our vision and idea about the 
 - Students could withdraw the remaining money after the festival.
 
 </Accordion>
+</Accordions>
 
 We disagreed on two problems.
 
