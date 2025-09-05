@@ -1,7 +1,7 @@
 ---
 title: '유튜브 댓글에서 한국인 찾기'
 date: 2020-05-11
-description: '유튜브 댓글을 언어별로 필터링하는 크롬/파이어폭스 확장 프로그램을 아이디어부터 SPA 특성, 권한 처리, 성능 개선까지 개발한 기록.'
+description: '유튜브 댓글을 언어별로 필터링하는 크롬/파이어폭스 확장 프로그램을 아이디어부터 SPA 특성, 권한 처리, 성능 개선'
 slug: '/4BB66F'
 ---
 
@@ -216,7 +216,7 @@ var shownCommentNum = 0
 // ...
 for (var i = commentNum; i < commentList.length; i++) {
   commentNum++
-  CLFFooter.textContent = commentNum + ' comments analyzed, ' + shownCommentNum + ' comments shown.'
+  CLFFooter.textContent = commentNum + ' comments analyzed, ' + shownCommentNum + ' comments shown'
   var commentString = commentList[i].childNodes[2].childNodes[2].childNodes[3].childNodes[3].innerText
   if (!containsSelectedLang(commentString, StartCharset, EndCharset)) {
     commentList[i].style = 'display: none'

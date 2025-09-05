@@ -10,7 +10,7 @@ type NewsroomMeta = {
 }
 
 export const metadata = {
-  description: 'Updates, articles, and press from the team.',
+  description: 'Updates, articles, and press from the team',
   title: 'Newsroom',
 }
 
