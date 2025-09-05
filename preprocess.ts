@@ -415,12 +415,30 @@ async function processResearchToFumadocs(): Promise<void> {
   // Clean output dir before writing
   await rmrf(CONTENT_RESEARCH)
   await fs.mkdir(CONTENT_RESEARCH, { recursive: true })
+  
+  // Create subdirectories for journal and memex
+  const journalDir = path.join(CONTENT_RESEARCH, '(journal)')
+  const memexDir = path.join(CONTENT_RESEARCH, '(memex)')
+  await fs.mkdir(journalDir, { recursive: true })
+  await fs.mkdir(memexDir, { recursive: true })
 
   for (const meta of metas) {
     const preferredSlug = (meta.rawSlug && lastSegment(meta.rawSlug)) || slugify(meta.fileBase)
     const lang = (meta.lang || 'en').toLowerCase()
+    
+    // Determine output directory based on pattern
+    let outputDir = CONTENT_RESEARCH
+    // Special case: 000000 stays at root level
+    if (preferredSlug === '000000' || meta.fileBase === '000000') {
+      outputDir = CONTENT_RESEARCH
+    } else if (/^\d{4}-\d{2}-\d{2}$/.test(meta.fileBase) || /^\d{4}-\d{2}-\d{2}$/.test(preferredSlug)) {
+      outputDir = journalDir
+    } else if (/^[A-F0-9]{6}$/i.test(meta.fileBase) || /^[A-F0-9]{6}$/i.test(preferredSlug)) {
+      outputDir = memexDir
+    }
+    
     // Do not add language to filename; keep a single canonical filename
-    const outFile = path.join(CONTENT_RESEARCH, `${preferredSlug}.mdx`)
+    const outFile = path.join(outputDir, `${preferredSlug}.mdx`)
     const raw = await fs.readFile(meta.srcPath, 'utf-8')
     // rewrite images first
     let body = await rewriteImages(raw, meta.srcPath)
@@ -439,6 +457,7 @@ async function processResearchToFumadocs(): Promise<void> {
 // Inject or update frontmatter title with source filename and keep slug/lang
 function ensureFrontmatterTitle(raw: string, filenameBase: string, preferredSlug: string, lang: string): string {
   const esc = (s: string) => `'${s.replace(/'/g, "''")}'`
+  
   const fmMatch = raw.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/)
   if (fmMatch) {
     let fm = fmMatch[1]
