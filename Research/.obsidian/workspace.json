@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bc6497573deb77b4",
+        "id": "722a394012ba8eac",
         "type": "tabs",
         "children": [
           {
-            "id": "010064b0889c7e50",
+            "id": "02b2f88e99cc4e7b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-09-04.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-09-04"
+              "title": "New tab"
             }
           }
         ]
@@ -181,24 +167,27 @@
       "random-note:Open random note": false
     }
   },
-  "active": "010064b0889c7e50",
+  "active": "02b2f88e99cc4e7b",
   "lastOpenFiles": [
-    "pages/Comparing BLIP and CLIP.md",
+    "journals/2025-09-05.md",
     "journals/2025-09-04.md",
+    "journals/2025-09-02.md",
+    "journals/2025-09-01.md",
+    "journals/2025-08-31.md",
+    "journals/2025-08-29.md",
+    "journals/2025-08-27.md",
+    "pages/iOS Icon Design.md",
+    "pages/Docker Nuke.md",
+    "pages/Comparing BLIP and CLIP.md",
     "pages/Stable Alternative.md",
     "pages/Example References for Alter.md",
     "pages/Letter to Mr. Matt Rickard on 2022-11-28.md",
     "pages/나.md",
-    "journals/2025-09-02.md",
-    "journals/2025-09-01.md",
-    "journals/2025-08-31.md",
     "pages/Inquiry for Hypany Template.md",
     "pages/Hypany.md",
     "pages/Hypany Interview with Dohu.md",
-    "journals/2025-08-27.md",
     "pages/Written 100% By A Human.md",
     "assets/837F65.png",
-    "journals/2025-08-29.md",
     "journals/2025-08-26.md",
     "journals/2025-08-25.md",
     "templates/journal template.md",
@@ -207,9 +196,6 @@
     "journals/2025-08-16.md",
     "journals/2025-08-21.md",
     "pages/Pagemate.md",
-    "journals/2025-08-24.md",
-    "pages/CSS Inject.md",
-    "pages/ANN.md",
     "assets/852953.png"
   ]
 }
