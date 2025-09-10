@@ -58,6 +58,7 @@ They studied which components are there but did not consider how design patterns
 
 :::note
 
+
 I am looking to strike a balance between design diversity and the least number of toggles, textboxes in the UI.
 
 :::

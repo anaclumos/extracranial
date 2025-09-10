@@ -140,11 +140,9 @@ sequenceDiagram
 - 👍 개인화된 정보가 많은 앱에도 적합
 - 👎 번들 사이즈가 상대적으로 커짐
 
-// Video moved to /public/media for direct serving
+import F70351 from './F70351.mp4'
 
-
-
-<video src="/media/newsroom/493D6F/F70351.mp4" loop muted autoPlay playsInline controls className="w-full h-auto" />
+<video src={F70351} loop muted autoPlay playsInline controls className="w-full h-auto" />
 
 
 
@@ -198,11 +196,11 @@ sequenceDiagram
 
 얼핏 보면 단순해보이지만 App Router의 Nested Layout 없이는 정말로 골치 아프다. 결국 Blitz.js 및 FlightControl.dev의 Brandon Bayer님의 [메시지](https://x.com/flybayer/status/1818009089735279057)를 통해 큰 도움을 얻었는데, 바로 `layout.tsx`에 콘텐츠를 넣고, `page.tsx`를 의도적으로 비워놓는 것이다.
 
-// Video moved to /public/media for direct serving
+import 5F8BA9 from './5F8BA9.mp4'
 
 
 
-<video src="/media/newsroom/493D6F/5F8BA9.mp4" loop muted playsInline controls className="w-full h-auto" />
+<video src={5F8BA9} loop muted playsInline controls className="w-full h-auto" />
 
 
 
@@ -241,6 +239,7 @@ sequenceDiagram
 </Horizontal>
 
 :::note
+
 
 모바일에서도 시인성과 가독성을 고려하여, 내 나름대로 Apple의 휴먼 인터페이스 가이드라인이 지향하는 바를 모방해 디자인했다.
 
