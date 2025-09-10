@@ -9,7 +9,7 @@ import YouTube from '@/components/youtube';
 - [[San Francisco]]와 유사
 - [[Font Features|폰트 피처]]를 일부 지원
 
-:::caution
+:::warning
 
 2021년 중반에 말씀하시길:
 
