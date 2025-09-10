@@ -451,6 +451,10 @@ async function processResearchToFumadocs(): Promise<void> {
     await fs.writeFile(outFile, body, 'utf-8')
   }
 
+  // Write folder metadata files
+  await writeJournalMeta(journalDir)
+  await writeMemexMeta(memexDir)
+
   console.log('✅ Wrote docs into content/research')
 }
 
@@ -478,6 +482,34 @@ function ensureFrontmatterTitle(raw: string, filenameBase: string, preferredSlug
     const header = `---\n${headerLines.join('\n')}\n---\n`
     return header + raw
   }
+}
+
+// ── meta writers ────────────────────────────────────────────────────────────────
+
+async function writeJournalMeta(journalDir: string): Promise<void> {
+  const metaPath = path.join(journalDir, '_meta.json')
+  const data = { pages: ['z...a'] }
+  await fs.writeFile(metaPath, JSON.stringify(data, null, 2) + '\n', 'utf-8')
+}
+
+function shuffleArray<T>(arr: T[]): T[] {
+  // Fisher–Yates
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+async function writeMemexMeta(memexDir: string): Promise<void> {
+  const entries = await fs.readdir(memexDir, { withFileTypes: true })
+  const pages = entries
+    .filter((e) => e.isFile() && e.name.endsWith('.mdx'))
+    .map((e) => path.basename(e.name, '.mdx'))
+  shuffleArray(pages)
+  const metaPath = path.join(memexDir, '_meta.json')
+  const data = { pages }
+  await fs.writeFile(metaPath, JSON.stringify(data, null, 2) + '\n', 'utf-8')
 }
 
 // ── Newsroom asset normalisation ───────────────────────────────────────────────

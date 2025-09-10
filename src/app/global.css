@@ -128,11 +128,13 @@
     word-wrap: break-word;
     word-break: keep-all;
     overflow-wrap: break-word;
+    font-family: 'Toss Product Sans', sans-serif;
   }
   body {
     /* biome-ignore lint/suspicious/noUnknownAtRules: Tailwind apply (shadcn/ui) */
     @apply bg-background text-foreground;
   }
 }
+
 
 /* next-video removed: no overrides needed */
