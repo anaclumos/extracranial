@@ -140,15 +140,14 @@ sequenceDiagram
 - 👍 개인화된 정보가 많은 앱에도 적합
 - 👎 번들 사이즈가 상대적으로 커짐
 
-import F70351 from './F70351.mp4'
-
-<video src={F70351} loop muted autoPlay playsInline controls className="w-full h-auto" />
+<video width="640" height="360" loop muted autoPlay playsInline controls className="w-full h-auto">
+      <source src="/assets/493D6F/F70351.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
 
 
 
 화면을 새로고침하지 않아도 최신 데이터로 자동으로 업데이트된다. 실험 결과를 지속적으로 모니터링하는 연구자 분들의 삶의 질을 가장 높여준 기능이다!
-
-
 
 
 
@@ -193,15 +192,13 @@ import F70351 from './F70351.mp4'
 
 
 
-
 얼핏 보면 단순해보이지만 App Router의 Nested Layout 없이는 정말로 골치 아프다. 결국 Blitz.js 및 FlightControl.dev의 Brandon Bayer님의 [메시지](https://x.com/flybayer/status/1818009089735279057)를 통해 큰 도움을 얻었는데, 바로 `layout.tsx`에 콘텐츠를 넣고, `page.tsx`를 의도적으로 비워놓는 것이다.
 
-import 5F8BA9 from './5F8BA9.mp4'
 
-
-
-<video src={5F8BA9} loop muted playsInline controls className="w-full h-auto" />
-
+<video width="640" height="360" loop muted autoPlay playsInline controls className="w-full h-auto">
+      <source src="/assets/493D6F/5F8BA9.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
 
 
 여러 위계가 구분되어야하는 복잡한 데이터를, UI 편의성에 대한 심도 있는 고민과, Nested `layout.tsx`이라는 신기술을 기술적으로 깊게 이해하여 단 수백줄 선에서 구현한 것이 뿌듯했다.
@@ -266,7 +263,7 @@ import 5F8BA9 from './5F8BA9.mp4'
 
 SWR을 사용하게 되면서 내가 줄곧 주창했던 것은 상태 관리를 따로 하지 않아도 된다는 것이다. 어차피 모든 정보는 서버에서 관리되어야 하고, 서버 데이터를 직접 업데이트하고 그 데이터가 실시간으로 클라이언트에 SWR로 업데이트되면서 상태가 최신으로 유지될 것이기 때문에 굳이 상태 관리를 할 필요가 없다는 것이다.
 
-흔히들 이런 말을 하면 복잡한 앱을 만든 경험이 없어서 그렇다고 논의가 일축되는 경향이 있고, 복잡한 앱에서 왜 그게 안 되는지 물어보아도 설득될만한 합당한 근거가 없었다. 그래서 내가 직접 그 경험을 해보았고, 복잡한 앱을 만든 경험이 없어서 그렇다는게 어떤 뜻인지 알게 되었다. 생각해보면, **프론트엔드 복잡성의 모든 문제는 API 통제의 부재에서 온다**. SWR은 하나의 엔드포인트에서 오는 상태를 최신으로 유지하고 관리하는데 특화되어 있는데, 여러가지 데이터가 조합되어서 상태를 표시하는 그래프의 경우 여러 가지 SWR을 훅을 `청기 🔵 들어` `백기 ⚪ 들어` 하는 거대한 SWR 훅을 만들어야 했다. 이를 나중에 커스텀 페치 함수를 만들어 확연한 간소화를 하긴 했지만, 결과적으로 여러 API들에서 오는 정보들을 **조합해서** 관리해야할 경우는 SWR 자체 만으로는 상태관리가 어렵다는 것이 결론이었다.
+흔히들 이런 말을 하면 복잡한 앱을 만든 경험이 없어서 그렇다고 논의가 일축되는 경향이 있고, 복잡한 앱에서 왜 그게 안 되는지 물어보아도 설득될만한 합당한 근거가 없었다. 그래서 내가 직접 그 경험을 해보았고, 복잡한 앱을 만든 경험이 없어서 그렇다는게 어떤 뜻인지 알게 되었다. 생각해보면, **프론트엔드 복잡성의 모든 문제는 API 통제의 부재에서 온다**. SWR은 하나의 엔드포인트에서 오는 상태를 최신으로 유지하고 관리하는데 특화되어 있는데, 여러가지 데이터가 조합되어서 상태를 표시하는 그래프의 경우 여러 가지 SWR을 훅을 청기🔵들어, 백기⚪들어 하는 거대한 SWR 훅을 만들어야 했다. 이를 나중에 커스텀 페치 함수를 만들어 확연한 간소화를 하긴 했지만, 결과적으로 여러 API들에서 오는 정보들을 **조합해서** 관리해야할 경우는 SWR 자체 만으로는 상태관리가 어렵다는 것이 결론이었다.
 
 SWR만으로 상태관리를 한다는 것은, 하나의 기능을 위한 하나의 통합 API가 있을 때만 할 수 있던 이상적인 그림이었다. 그런 면에서 API들의 조합 SWR 훅들이 늘어나 관리 포인트가 늘어난 것이 무척 아쉽다. API 사양을 철저하게 명세를 못 한 문제였고, 우리 팀에 아직 명시적인 기술 PM이 없다는 점이 크게 와닿았다.
 
