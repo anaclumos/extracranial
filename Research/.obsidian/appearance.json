@@ -1,10 +1,10 @@
 {
-  "theme": "obsidian",
+  "theme": "system",
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "monospaceFontFamily": "JetBrains Mono",
   "cssTheme": "Black",
   "translucency": true,
-  "baseFontSize": 16,
-  "accentColor": "#f55c5c"
+  "baseFontSize": 14,
+  "accentColor": ""
 }
