@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8040d7bf0030d672",
+        "id": "c0deba1e325e1723",
         "type": "tabs",
         "children": [
           {
-            "id": "0753886e8a093fab",
+            "id": "0cc66584c81b699d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-09-13.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-09-13"
-            }
-          },
-          {
-            "id": "f89803dd73022cbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/The Get-Shit-Done Computer.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "The Get-Shit-Done Computer"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,10 +182,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f89803dd73022cbc",
+  "active": "0cc66584c81b699d",
   "lastOpenFiles": [
-    "pages/The Get-Shit-Done Computer.md",
     "journals/2025-09-13.md",
+    "pages/The Get-Shit-Done Computer.md",
     "journals/2025-09-12.md",
     "journals/2025-09-10.md",
     "assets/B66E9A.png",

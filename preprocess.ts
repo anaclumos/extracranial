@@ -467,13 +467,13 @@ function ensureFrontmatterTitle(raw: string, filenameBase: string, preferredSlug
     let fm = fmMatch[1]
     // Insert title only if missing; keep existing title as priority
     if (!/^title:/m.test(fm)) {
-      fm = `title: ${esc(filenameBase)}\n` + fm
+      fm = `title: ${esc(filenameBase)}\n${fm}`
     }
     // Keep body as-is
     const header = `---\n${fm}\n---\n`
     const body = raw.slice(fmMatch[0].length)
     return header + body
-  } else {
+  }
     const headerLines = [
       `title: ${esc(filenameBase)}`,
       preferredSlug ? `slug: '/${preferredSlug}'` : undefined,
@@ -481,15 +481,14 @@ function ensureFrontmatterTitle(raw: string, filenameBase: string, preferredSlug
     ].filter(Boolean)
     const header = `---\n${headerLines.join('\n')}\n---\n`
     return header + raw
-  }
 }
 
 // ── meta writers ────────────────────────────────────────────────────────────────
 
 async function writeJournalMeta(journalDir: string): Promise<void> {
-  const metaPath = path.join(journalDir, '_meta.json')
+  const metaPath = path.join(journalDir, 'meta.json')
   const data = { pages: ['z...a'] }
-  await fs.writeFile(metaPath, JSON.stringify(data, null, 2) + '\n', 'utf-8')
+  await fs.writeFile(metaPath, `${JSON.stringify(data, null, 2)}\n`, 'utf-8')
 }
 
 function shuffleArray<T>(arr: T[]): T[] {
@@ -507,9 +506,9 @@ async function writeMemexMeta(memexDir: string): Promise<void> {
     .filter((e) => e.isFile() && e.name.endsWith('.mdx'))
     .map((e) => path.basename(e.name, '.mdx'))
   shuffleArray(pages)
-  const metaPath = path.join(memexDir, '_meta.json')
+  const metaPath = path.join(memexDir, 'meta.json')
   const data = { pages }
-  await fs.writeFile(metaPath, JSON.stringify(data, null, 2) + '\n', 'utf-8')
+  await fs.writeFile(metaPath, `${JSON.stringify(data, null, 2)}\n`, 'utf-8')
 }
 
 // ── Newsroom asset normalisation ───────────────────────────────────────────────
