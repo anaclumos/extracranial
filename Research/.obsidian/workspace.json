@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4e12fb9e1c32d84b",
+        "id": "1da7497c519db082",
         "type": "tabs",
         "children": [
           {
-            "id": "7cd034a46a2bfdce",
+            "id": "ab8560daa161e600",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -196,14 +196,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7cd034a46a2bfdce",
+  "active": "ab8560daa161e600",
   "lastOpenFiles": [
+    "journals/2025-09-20.md",
+    "journals/2025-09-19.md",
     "journals/2025-09-16.md",
     "journals/2025-09-15.md",
     "journals/2025-09-13.md",
     "journals/2025-09-12.md",
     "journals/2025-09-10.md",
-    "journals/2025-09-19.md",
     "pages/Is there any.md",
     "pages/Menu Bar Spacing.md",
     "pages/Docker Nuke.md",
@@ -223,7 +224,6 @@
     "journals/2024-06-24.md",
     "pages/Copper.md",
     "pages/Deadlock.md",
-    "pages/Project Heimdall Random Names.md",
     "assets/B66E9A.png",
     "assets/837F65.png",
     "assets/852953.png",
