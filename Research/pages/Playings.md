@@ -28,12 +28,13 @@ import Shuffle from '@/components/shuffle'
 - Rhythm Heaven Megamix (New 3DS XL)
 - Rhythm Heaven Megamix (Steam Deck OLED)
 - Rhythm Tengoku (Analogue Pocket)
+- Expedition 33
 
 </Shuffle>
 
 ## Doing
 
-n/a
+- Death Stranding 2
 
 ## Planned
 
@@ -45,7 +46,6 @@ n/a
 - Directive 8020
 - Ghost of Yotei
 - Hell is Us
-- Death Stranding 2
 - 완다와 거상 (PS5?)
 - Ratchet & Clank: Rift Apart (PS5?)
 
