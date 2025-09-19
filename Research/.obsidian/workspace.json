@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "c0deba1e325e1723",
+        "id": "4e12fb9e1c32d84b",
         "type": "tabs",
         "children": [
           {
-            "id": "0cc66584c81b699d",
+            "id": "7cd034a46a2bfdce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2025-09-19.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-09-19"
             }
           }
         ]
@@ -182,36 +196,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0cc66584c81b699d",
+  "active": "7cd034a46a2bfdce",
   "lastOpenFiles": [
+    "journals/2025-09-16.md",
+    "journals/2025-09-15.md",
     "journals/2025-09-13.md",
-    "pages/The Get-Shit-Done Computer.md",
     "journals/2025-09-12.md",
     "journals/2025-09-10.md",
+    "journals/2025-09-19.md",
+    "pages/Is there any.md",
+    "pages/Menu Bar Spacing.md",
+    "pages/Docker Nuke.md",
+    "pages/Playings.md",
+    "pages/Real Interviews.md",
+    "pages/기술 르네상스 (18誠鉉-20誠鉉).md",
+    "pages/Better Aldehyde.md",
+    "pages/Autopedia.md",
+    "pages/0110 Balanced Binary Tree.md",
+    "pages/Ghost에서 외부 링크를 새로운 창에서 여는 방법.md",
+    "pages/Deepnote.md",
+    "journals/2024-03-05.md",
+    "pages/FireCrawl.md",
+    "pages/Curve Fitting for Charts.md",
+    "pages/어둠의 앱스토어.md",
+    "pages/The Dropbox Comment on Hacker News.md",
+    "journals/2024-06-24.md",
+    "pages/Copper.md",
+    "pages/Deadlock.md",
+    "pages/Project Heimdall Random Names.md",
     "assets/B66E9A.png",
     "assets/837F65.png",
-    "pages/GANGNAM (2024).md",
-    "pages/SEOCHO Stack (2025).md",
-    "pages/Hypany Interview with Dohu.md",
-    "pages/Inquiry for Hypany Template.md",
-    "환영합니다.md",
-    "pages/Pagemate.md",
-    "journals/2025-09-06.md",
-    "pages/N8N 유니버스.md",
-    "pages/iOS Icon Design.md",
-    "journals/2025-08-11.md",
-    "journals/2025-08-31.md",
-    "pages/Think like a farmer.md",
-    "journals/2025-09-11.md",
-    "pages/Accessaurus.md",
-    "pages/Microsoft's Story Format.md",
-    "pages/나.md",
-    "journals/2025-09-01.md",
-    "journals/2025-08-16.md",
-    "journals/2025-08-14.md",
-    "journals/2025-07-28.md",
-    "journals/2025-09-04.md",
-    "pages/Hypany.md",
     "assets/852953.png",
     "assets/A5C933.png",
     "assets/4D948E.png",
