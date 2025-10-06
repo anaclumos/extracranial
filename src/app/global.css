@@ -134,6 +134,9 @@
     /* biome-ignore lint/suspicious/noUnknownAtRules: Tailwind apply (shadcn/ui) */
     @apply bg-background text-foreground;
   }
+  code, pre {
+    font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  }
 }
 
 

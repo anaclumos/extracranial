@@ -54,7 +54,7 @@ export default async function NewsroomPost(props: { params: Promise<{ slug: stri
       <div className="mx-auto max-w-prose">
         <div className="mb-6">
           <Link
-            href={`/${params.lang}/newsroom`}
+            href={`/${params.lang}/w`}
             className="inline-flex items-center gap-2 text-sm text-fd-muted-foreground transition-colors hover:text-fd-foreground"
           >
             <ChevronLeft className="size-4" /> {t(params.lang, 'post.back')}
