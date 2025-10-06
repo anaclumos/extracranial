@@ -3,14 +3,14 @@ import { docs, newsroom } from '@/.source'
 import { i18n } from './i18n'
 
 export const researchSource = loader({
-  baseUrl: '/research',
+  baseUrl: '/r',
   i18n,
   source: docs.toFumadocsSource(),
 })
 
 // Blog/newsroom source
 export const newsroomSource = loader({
-  baseUrl: '/newsroom',
+  baseUrl: '/w',
   i18n,
   source: newsroom.toFumadocsSource(),
 })

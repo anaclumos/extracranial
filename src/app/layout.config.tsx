@@ -18,14 +18,14 @@ export function baseOptions(locale: string): BaseLayoutProps {
         on: 'nav',
         text: t(locale, 'nav.research'),
         type: 'main',
-        url: withLocale('/research/000000'),
+        url: withLocale('/r/000000'),
       },
       {
         active: 'nested-url',
         on: 'nav',
         text: t(locale, 'nav.newsroom'),
         type: 'main',
-        url: withLocale('/newsroom'),
+        url: withLocale('/w'),
       },
     ],
     nav: {

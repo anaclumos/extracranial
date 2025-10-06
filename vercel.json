@@ -4,42 +4,27 @@
   "redirects": [
     {
       "source": "/ko/w/archive",
-      "destination": "/ko/newsroom",
+      "destination": "/ko/w",
       "permanent": true
     },
     {
       "source": "/w/archive",
-      "destination": "/en/newsroom",
-      "permanent": true
-    },
-    {
-      "source": "/ko/w/:path(.*)",
-      "destination": "/ko/newsroom/:path",
+      "destination": "/en/w",
       "permanent": true
     },
     {
       "source": "/w/:path(.*)",
-      "destination": "/en/newsroom/:path",
+      "destination": "/en/w/:path",
       "permanent": true
     },
     {
       "source": "/ko/r",
-      "destination": "/ko/research/000000",
+      "destination": "/ko/r/000000",
       "permanent": true
     },
     {
       "source": "/r",
-      "destination": "/en/research/000000",
-      "permanent": true
-    },
-    {
-      "source": "/ko/r/:path(.*)",
-      "destination": "/ko/research/:path",
-      "permanent": true
-    },
-    {
-      "source": "/r/:path(.*)",
-      "destination": "/en/research/:path",
+      "destination": "/en/r/000000",
       "permanent": true
     }
   ]

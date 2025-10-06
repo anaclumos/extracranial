@@ -9,8 +9,8 @@ export default async function HomePage(props: { params: Promise<{ lang: string }
       <h1 className="mb-4 text-2xl font-bold">{t(lang, 'home.title')}</h1>
       <p className="text-fd-muted-foreground">
         {t(lang, 'home.cta.before')}
-        <Link href="/research/000000" className="text-fd-foreground font-semibold underline">
-          /research/000000
+        <Link href="/r/000000" className="text-fd-foreground font-semibold underline">
+          /r/000000
         </Link>{' '}
         {t(lang, 'home.cta.after')}
       </p>
