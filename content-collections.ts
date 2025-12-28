@@ -106,7 +106,11 @@ const research = defineCollection({
 			{ ...document, content: processedContent },
 			{
 				remarkPlugins: [remarkGfm, remarkMath],
-				rehypePlugins: [rehypeSlug, rehypeHighlight, rehypeKatex],
+				rehypePlugins: [
+					rehypeSlug,
+					[rehypeHighlight, { plainText: ["math"] }],
+					rehypeKatex,
+				],
 			}
 		);
 
@@ -156,7 +160,11 @@ const blog = defineCollection({
 			{ ...document, content: processedContent },
 			{
 				remarkPlugins: [remarkGfm, remarkMath],
-				rehypePlugins: [rehypeSlug, rehypeHighlight, rehypeKatex],
+				rehypePlugins: [
+					rehypeSlug,
+					[rehypeHighlight, { plainText: ["math"] }],
+					rehypeKatex,
+				],
 			}
 		);
 

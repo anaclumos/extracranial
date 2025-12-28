@@ -61,7 +61,7 @@ function HomePage() {
 
 					<Link
 						className="group rounded-xl border border-border bg-card p-8 transition-all duration-300 hover:bg-accent"
-						to="/w/minsapay"
+						to="/w"
 					>
 						<PenLine className="mb-4 h-10 w-10 text-foreground transition-transform group-hover:scale-110" />
 						<h2 className="mb-3 font-semibold text-card-foreground text-xl">
