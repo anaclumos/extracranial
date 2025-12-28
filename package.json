@@ -13,6 +13,7 @@
     "prepare": "lefthook install"
   },
   "dependencies": {
+    "@base-ui-components/react": "^1.0.0-rc.0",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-devtools": "^0.7.0",
@@ -21,6 +22,8 @@
     "@tanstack/react-router-ssr-query": "^1.131.7",
     "@tanstack/react-start": "^1.132.0",
     "@tanstack/router-plugin": "^1.132.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "esbuild": "^0.27.2",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.561.0",
@@ -32,6 +35,7 @@
     "rehype-slug": "^6.0.0",
     "remark-gfm": "^4.0.1",
     "remark-wiki-link": "^2.0.1",
+    "tailwind-merge": "^3.4.0",
     "tailwindcss": "^4.0.6",
     "vite-tsconfig-paths": "^6.0.2"
   },

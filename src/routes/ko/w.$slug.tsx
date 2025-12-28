@@ -45,29 +45,33 @@ function ContentPage() {
 	const Component = useMemo(() => getMDXComponent(code), [code]);
 
 	return (
-		<article className="prose prose-neutral dark:prose-invert max-w-none">
-			<header className="mb-8 border-neutral-200 border-b pb-8 dark:border-neutral-800">
-				<h1 className="mb-2 font-bold text-3xl">{frontmatter.title}</h1>
-				{frontmatter.date && (
-					<time className="text-neutral-500 text-sm">
-						{new Date(frontmatter.date).toLocaleDateString("ko-KR", {
-							year: "numeric",
-							month: "long",
-							day: "numeric",
-						})}
-					</time>
-				)}
-			</header>
-			<Component components={mdxComponents} />
-		</article>
+		<div className="mx-auto max-w-2xl px-6 py-16 sm:px-8 lg:py-20">
+			<article className="prose max-w-none">
+				<header className="not-prose mb-12">
+					<h1 className="mb-4 font-semibold text-3xl text-foreground tracking-tight sm:text-4xl">
+						{frontmatter.title}
+					</h1>
+					{frontmatter.date && (
+						<time className="text-muted-foreground text-sm">
+							{new Date(frontmatter.date).toLocaleDateString("ko-KR", {
+								year: "numeric",
+								month: "long",
+								day: "numeric",
+							})}
+						</time>
+					)}
+				</header>
+				<Component components={mdxComponents} />
+			</article>
+		</div>
 	);
 }
 
 function NotFound() {
 	return (
-		<div className="py-20 text-center">
-			<h1 className="mb-4 font-bold text-4xl">404</h1>
-			<p className="text-neutral-500">페이지를 찾을 수 없습니다</p>
+		<div className="flex min-h-[50vh] flex-col items-center justify-center px-6">
+			<h1 className="mb-4 font-semibold text-6xl text-foreground">404</h1>
+			<p className="text-lg text-muted-foreground">페이지를 찾을 수 없습니다</p>
 		</div>
 	);
 }
