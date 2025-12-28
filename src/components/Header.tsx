@@ -1,10 +1,12 @@
 import { Link, useLocation } from "@tanstack/react-router";
-import { BookOpen } from "lucide-react";
+import { BookOpen, Moon, Sun } from "lucide-react";
+import { useTheme } from "./ThemeProvider";
 
 const KO_PREFIX_REGEX = /^\/ko/;
 
 export default function Header() {
 	const location = useLocation();
+	const { theme, toggleTheme } = useTheme();
 	const isKorean = location.pathname.startsWith("/ko");
 	const currentPath = isKorean
 		? location.pathname.replace(KO_PREFIX_REGEX, "") || "/"
@@ -18,11 +20,11 @@ export default function Header() {
 	};
 
 	return (
-		<header className="border-slate-800 border-b bg-slate-900">
+		<header className="border-border border-b bg-background">
 			<div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4">
 				<div className="flex items-center gap-8">
 					<Link
-						className="font-bold text-white text-xl tracking-tight transition-colors hover:text-cyan-400"
+						className="font-bold text-foreground text-xl tracking-tight transition-colors hover:text-muted-foreground"
 						to="/"
 					>
 						Extracranial
@@ -31,8 +33,8 @@ export default function Header() {
 					<nav className="hidden items-center gap-1 sm:flex">
 						<Link
 							activeOptions={{ exact: false }}
-							activeProps={{ className: "bg-slate-800 text-cyan-400" }}
-							className="flex items-center gap-2 rounded-lg px-3 py-2 text-slate-300 text-sm transition-colors hover:bg-slate-800 hover:text-white"
+							activeProps={{ className: "bg-secondary text-foreground" }}
+							className="flex items-center gap-2 rounded-lg px-3 py-2 text-muted-foreground text-sm transition-colors hover:bg-secondary hover:text-foreground"
 							to={isKorean ? "/ko/r/000000" : "/r/000000"}
 						>
 							<BookOpen size={16} />
@@ -41,13 +43,22 @@ export default function Header() {
 					</nav>
 				</div>
 
-				<div className="flex items-center gap-2">
-					<div className="flex items-center gap-1 rounded-lg bg-slate-800 p-1">
+				<div className="flex items-center gap-3">
+					<button
+						aria-label="Toggle theme"
+						className="rounded-lg p-2 text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+						onClick={toggleTheme}
+						type="button"
+					>
+						{theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
+					</button>
+
+					<div className="flex items-center gap-1 rounded-lg bg-secondary p-1">
 						<Link
 							className={`rounded px-2 py-1 text-sm transition-colors ${
 								isKorean
-									? "text-slate-400 hover:text-white"
-									: "bg-cyan-600 text-white"
+									? "text-muted-foreground hover:text-foreground"
+									: "bg-primary text-primary-foreground"
 							}`}
 							to={getLocalizedPath("en")}
 						>
@@ -56,8 +67,8 @@ export default function Header() {
 						<Link
 							className={`rounded px-2 py-1 text-sm transition-colors ${
 								isKorean
-									? "bg-cyan-600 text-white"
-									: "text-slate-400 hover:text-white"
+									? "bg-primary text-primary-foreground"
+									: "text-muted-foreground hover:text-foreground"
 							}`}
 							to={getLocalizedPath("ko")}
 						>
