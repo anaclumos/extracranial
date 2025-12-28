@@ -1,41 +1,20 @@
-import { execSync } from "node:child_process";
-import fs from "node:fs";
-import path from "node:path";
-
-import matter from "gray-matter";
+import { allBlogs, allResearch } from "content-collections";
 import { bundleMDX } from "mdx-bundler";
 import rehypeHighlight from "rehype-highlight";
 import rehypeSlug from "rehype-slug";
 import remarkGfm from "remark-gfm";
 
-const CONTENTS_DIR = path.join(process.cwd(), "contents");
-const RESEARCH_DIR = path.join(CONTENTS_DIR, "research");
-const BLOG_DIR = path.join(CONTENTS_DIR, "blog");
-
-const OBSIDIAN_IMAGE_REGEX = /!\[\[([^\]]+)\]\]/g;
-const WIKILINK_ALIAS_REGEX = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
-const WIKILINK_SIMPLE_REGEX = /\[\[([^\]]+)\]\]/g;
-const WIKILINK_EXTRACT_REGEX = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
-const IMPORT_REGEX = /^import\s+.*$/gm;
-const LEADING_SLASH_REGEX = /^\//;
-
 export type ContentType = "research" | "blog";
 export type Lang = "en" | "ko";
 
-export interface ContentMeta {
-	title?: string;
-	slug: string;
-	lang: Lang;
-	date?: string;
-	aliases?: string[];
-	filePath: string;
-	type: ContentType;
-}
+type ResearchDoc = (typeof allResearch)[number];
+type BlogDoc = (typeof allBlogs)[number];
+type Doc = ResearchDoc | BlogDoc;
 
 interface SlugIndex {
 	[slug: string]: {
-		en?: string;
-		ko?: string;
+		en?: Doc;
+		ko?: Doc;
 	};
 }
 
@@ -56,182 +35,66 @@ interface DocMeta {
 let slugIndex: SlugIndex = {};
 let wikiIndex: WikiIndex = {};
 let backlinksIndex: BacklinksIndex = {};
-let titleIndex: { [slug: string]: string } = {};
 let isIndexed = false;
 
-function normalizeSlug(slug: string): string {
-	return slug.replace(LEADING_SLASH_REGEX, "").toLowerCase();
-}
-
-function getAllMarkdownFiles(dir: string): string[] {
-	if (!fs.existsSync(dir)) {
-		return [];
-	}
-
-	const files: string[] = [];
-	const entries = fs.readdirSync(dir, { withFileTypes: true });
-
-	for (const entry of entries) {
-		const fullPath = path.join(dir, entry.name);
-		if (entry.isDirectory()) {
-			if (!entry.name.startsWith(".") && entry.name !== "templates") {
-				files.push(...getAllMarkdownFiles(fullPath));
-			}
-		} else if (entry.name.endsWith(".md")) {
-			files.push(fullPath);
-		}
-	}
-
-	return files;
-}
-
-function detectLangFromFile(
-	filePath: string,
-	frontmatter: Record<string, unknown>
-): Lang {
-	const fileName = path.basename(filePath, ".md");
-
-	if (fileName === "en" || fileName === "ko") {
-		return fileName as Lang;
-	}
-
-	if (frontmatter.lang === "ko" || frontmatter.lang === "ko-KR") {
-		return "ko";
-	}
-
-	return "en";
-}
-
-function safeReadFile(filePath: string): string | null {
-	try {
-		return fs.readFileSync(filePath, "utf-8");
-	} catch {
-		return null;
-	}
-}
+const OBSIDIAN_IMAGE_REGEX = /!\[\[([^\]]+)\]\]/g;
+const WIKILINK_ALIAS_REGEX = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
+const WIKILINK_SIMPLE_REGEX = /\[\[([^\]]+)\]\]/g;
+const WIKILINK_EXTRACT_REGEX = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
+const IMPORT_REGEX = /^import\s+.*$/gm;
 
 function extractWikiLinks(content: string): string[] {
 	const links: string[] = [];
-	let match: RegExpExecArray | null = WIKILINK_EXTRACT_REGEX.exec(content);
+	const regex = new RegExp(WIKILINK_EXTRACT_REGEX.source, "g");
+	let match: RegExpExecArray | null = regex.exec(content);
 	while (match !== null) {
 		links.push(match[1]);
-		match = WIKILINK_EXTRACT_REGEX.exec(content);
+		match = regex.exec(content);
 	}
 	return links;
 }
 
-function indexSingleResearchFile(filePath: string): void {
-	const content = safeReadFile(filePath);
-	if (!content) {
-		return;
-	}
+function indexResearchDocs(): void {
+	for (const doc of allResearch) {
+		const slug = doc.slug;
+		const lang = doc.lang as Lang;
 
-	const { data, content: body } = matter(content);
-	if (!data.slug) {
-		return;
-	}
-
-	const slug = normalizeSlug(data.slug);
-	const lang = detectLangFromFile(filePath, data);
-
-	if (!slugIndex[slug]) {
-		slugIndex[slug] = {};
-	}
-	slugIndex[slug][lang] = filePath;
-
-	const title = data.title || path.basename(filePath, ".md");
-	wikiIndex[title.toLowerCase()] = slug;
-	titleIndex[slug] = title;
-
-	if (data.aliases && Array.isArray(data.aliases)) {
-		for (const alias of data.aliases) {
-			wikiIndex[alias.toLowerCase()] = slug;
+		if (!slugIndex[slug]) {
+			slugIndex[slug] = {};
 		}
-	}
+		slugIndex[slug][lang] = doc;
 
-	const outgoingLinks = extractWikiLinks(body);
-	for (const linkTarget of outgoingLinks) {
-		const targetSlug = wikiIndex[linkTarget.toLowerCase()];
-		if (targetSlug && targetSlug !== slug) {
-			if (!backlinksIndex[targetSlug]) {
-				backlinksIndex[targetSlug] = [];
-			}
-			if (!backlinksIndex[targetSlug].some((b) => b.slug === slug)) {
-				backlinksIndex[targetSlug].push({ slug, title });
+		wikiIndex[doc.title.toLowerCase()] = slug;
+
+		if (doc.aliases) {
+			for (const alias of doc.aliases) {
+				wikiIndex[alias.toLowerCase()] = slug;
 			}
 		}
 	}
 }
 
-function indexResearchFiles(): void {
-	const researchFiles = getAllMarkdownFiles(RESEARCH_DIR);
-	for (const filePath of researchFiles) {
-		indexSingleResearchFile(filePath);
-	}
-}
+function indexBlogDocs(): void {
+	for (const doc of allBlogs) {
+		const slug = doc.slug;
+		const lang = doc.lang as Lang;
 
-function indexBlogDir(dirPath: string): void {
-	const enPath = path.join(dirPath, "en.md");
-	const koPath = path.join(dirPath, "ko.md");
-
-	const enContent = safeReadFile(enPath);
-	if (enContent) {
-		const { data } = matter(enContent);
-		if (data.slug) {
-			const slug = normalizeSlug(data.slug);
-			if (!slugIndex[slug]) {
-				slugIndex[slug] = {};
-			}
-			slugIndex[slug].en = enPath;
-			if (data.title) {
-				wikiIndex[data.title.toLowerCase()] = slug;
-			}
+		if (!slugIndex[slug]) {
+			slugIndex[slug] = {};
 		}
-	}
+		slugIndex[slug][lang] = doc;
 
-	const koContent = safeReadFile(koPath);
-	if (koContent) {
-		const { data } = matter(koContent);
-		if (data.slug) {
-			const slug = normalizeSlug(data.slug);
-			if (!slugIndex[slug]) {
-				slugIndex[slug] = {};
-			}
-			slugIndex[slug].ko = koPath;
+		if (doc.title) {
+			wikiIndex[doc.title.toLowerCase()] = slug;
 		}
 	}
 }
 
-function indexBlogFiles(): void {
-	if (!fs.existsSync(BLOG_DIR)) {
-		return;
-	}
-
-	const blogDirs = fs
-		.readdirSync(BLOG_DIR, { withFileTypes: true })
-		.filter((d) => d.isDirectory());
-
-	for (const dir of blogDirs) {
-		indexBlogDir(path.join(BLOG_DIR, dir.name));
-	}
-}
-
-function buildBacklinksIndex(): void {
-	const researchFiles = getAllMarkdownFiles(RESEARCH_DIR);
-	for (const filePath of researchFiles) {
-		const content = safeReadFile(filePath);
-		if (!content) {
-			continue;
-		}
-
-		const { data, content: body } = matter(content);
-		if (!data.slug) {
-			continue;
-		}
-
-		const sourceSlug = normalizeSlug(data.slug);
-		const sourceTitle = data.title || path.basename(filePath, ".md");
-		const outgoingLinks = extractWikiLinks(body);
+function indexBacklinks(): void {
+	for (const doc of allResearch) {
+		const sourceSlug = doc.slug;
+		const sourceTitle = doc.title;
+		const outgoingLinks = extractWikiLinks(doc.content);
 
 		for (const linkTarget of outgoingLinks) {
 			const targetSlug = wikiIndex[linkTarget.toLowerCase()];
@@ -250,7 +113,7 @@ function buildBacklinksIndex(): void {
 	}
 }
 
-export function buildContentIndex(): void {
+function buildContentIndex(): void {
 	if (isIndexed) {
 		return;
 	}
@@ -258,38 +121,17 @@ export function buildContentIndex(): void {
 	slugIndex = {};
 	wikiIndex = {};
 	backlinksIndex = {};
-	titleIndex = {};
 
-	indexResearchFiles();
-	indexBlogFiles();
-	buildBacklinksIndex();
+	indexResearchDocs();
+	indexBlogDocs();
+	indexBacklinks();
 
 	isIndexed = true;
 }
 
 export function resolveWikiLink(title: string): string | null {
 	buildContentIndex();
-	const slug = wikiIndex[title.toLowerCase()];
-	return slug ?? null;
-}
-
-export function getFilePath(slug: string, lang: Lang): string | null {
-	buildContentIndex();
-	const normalizedSlug = normalizeSlug(slug);
-	const entry = slugIndex[normalizedSlug];
-
-	if (!entry) {
-		return null;
-	}
-
-	return entry[lang] ?? entry.en ?? entry.ko ?? null;
-}
-
-export function getContentType(filePath: string): ContentType {
-	if (filePath.includes("/blog/")) {
-		return "blog";
-	}
-	return "research";
+	return wikiIndex[title.toLowerCase()] ?? null;
 }
 
 function processWikiLinks(content: string, lang: Lang): string {
@@ -323,24 +165,20 @@ function processWikiLinks(content: string, lang: Lang): string {
 export async function getContent(slug: string, lang: Lang = "en") {
 	buildContentIndex();
 
-	const filePath = getFilePath(slug, lang);
-	if (!filePath) {
+	const entry = slugIndex[slug.toLowerCase()];
+	if (!entry) {
 		return null;
 	}
 
-	const source = safeReadFile(filePath);
-	if (!source) {
+	const doc = entry[lang] ?? entry.en ?? entry.ko;
+	if (!doc) {
 		return null;
 	}
 
-	const { data: frontmatter, content } = matter(source);
-
-	const contentDir = path.dirname(filePath);
-	const processedContent = processWikiLinks(content, lang);
+	const processedContent = processWikiLinks(doc.content, lang as Lang);
 
 	const { code } = await bundleMDX({
 		source: processedContent,
-		cwd: contentDir,
 		mdxOptions(options) {
 			options.remarkPlugins = [...(options.remarkPlugins ?? []), remarkGfm];
 			options.rehypePlugins = [
@@ -359,13 +197,12 @@ export async function getContent(slug: string, lang: Lang = "en") {
 	return {
 		code,
 		frontmatter: {
-			title: frontmatter.title || path.basename(filePath, ".md"),
-			slug: frontmatter.slug,
-			lang: detectLangFromFile(filePath, frontmatter),
-			date: frontmatter.date,
-			...frontmatter,
+			title: doc.title,
+			slug: doc.slug,
+			lang: doc.lang,
+			date: "date" in doc ? doc.date : undefined,
 		},
-		type: getContentType(filePath),
+		type: doc._meta.filePath.includes("blog") ? "blog" : "research",
 	};
 }
 
@@ -378,56 +215,25 @@ export function getBacklinks(
 	slug: string
 ): Array<{ slug: string; title: string }> {
 	buildContentIndex();
-	const normalizedSlug = normalizeSlug(slug);
-	return backlinksIndex[normalizedSlug] ?? [];
-}
-
-function getFileMtime(filePath: string): Date {
-	try {
-		return fs.statSync(filePath).mtime;
-	} catch {
-		return new Date(0);
-	}
-}
-
-function getGitLastModified(filePath: string): Date {
-	try {
-		const result = execSync(`git log -1 --format="%ai" -- "${filePath}"`, {
-			cwd: process.cwd(),
-			encoding: "utf-8",
-		}).trim();
-		if (result) {
-			return new Date(result);
-		}
-	} catch {}
-	return getFileMtime(filePath);
+	return backlinksIndex[slug.toLowerCase()] ?? [];
 }
 
 export function getAllDocs(): DocMeta[] {
 	buildContentIndex();
 
 	const docs: DocMeta[] = [];
-	const researchFiles = getAllMarkdownFiles(path.join(RESEARCH_DIR, "pages"));
 
-	for (const filePath of researchFiles) {
-		const content = safeReadFile(filePath);
-		if (!content) {
-			continue;
+	for (const doc of allResearch) {
+		if (doc._meta.filePath.includes("pages/")) {
+			const lastModified = doc.date ? new Date(doc.date).getTime() : 0;
+			docs.push({
+				slug: doc.slug,
+				title: doc.title,
+				lastModified,
+			});
 		}
-
-		const { data } = matter(content);
-		if (!data.slug) {
-			continue;
-		}
-
-		const slug = normalizeSlug(data.slug);
-		const title = data.title || path.basename(filePath, ".md");
-		const lastModified = getGitLastModified(filePath).getTime();
-
-		docs.push({ slug, title, lastModified });
 	}
 
 	docs.sort((a, b) => b.lastModified - a.lastModified);
-
 	return docs;
 }
