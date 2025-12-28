@@ -16,19 +16,27 @@ const IMPORT_REGEX = /^import\s+.*$/gm;
 const HTML_COMMENT_REGEX = /<!--[\s\S]*?-->/g;
 const ANGLE_BRACKET_NUM_REGEX = /<(\d)/g;
 
-function processContent(content: string, lang: "en" | "ko"): string {
+type TitleToSlugMap = Map<string, string>;
+
+function processContent(
+	content: string,
+	lang: "en" | "ko",
+	titleToSlug: TitleToSlugMap
+): string {
 	const prefix = lang === "ko" ? "/ko" : "";
 
 	let result = content.replace(OBSIDIAN_IMAGE_REGEX, (_, imageName) => {
-		return `![${imageName}](/api/assets/${encodeURIComponent(imageName)})`;
+		return `![${imageName}](/assets/${encodeURIComponent(imageName)})`;
 	});
 
 	result = result.replace(WIKILINK_ALIAS_REGEX, (_, target, alias) => {
-		return `[${alias}](${prefix}/r/${target.toLowerCase()})`;
+		const slug = titleToSlug.get(target.toLowerCase()) ?? target.toLowerCase();
+		return `[${alias}](${prefix}/r/${slug})`;
 	});
 
 	result = result.replace(WIKILINK_SIMPLE_REGEX, (_, target) => {
-		return `[${target}](${prefix}/r/${target.toLowerCase()})`;
+		const slug = titleToSlug.get(target.toLowerCase()) ?? target.toLowerCase();
+		return `[${target}](${prefix}/r/${slug})`;
 	});
 
 	result = result.replace(IMPORT_REGEX, "");
@@ -40,6 +48,34 @@ function processContent(content: string, lang: "en" | "ko"): string {
 	result = result.replace(ANGLE_BRACKET_NUM_REGEX, "\\<$1");
 
 	return result;
+}
+
+function buildTitleToSlugMap(
+	documents: Array<{
+		title?: string;
+		slug: string;
+		aliases?: string[];
+		_meta: { fileName: string };
+	}>
+): TitleToSlugMap {
+	const map: TitleToSlugMap = new Map();
+
+	for (const doc of documents) {
+		const slug = doc.slug.replace(LEADING_SLASH_REGEX, "").toLowerCase();
+		const title = doc.title || doc._meta.fileName.replace(MD_EXT_REGEX, "");
+
+		// Map title to slug
+		map.set(title.toLowerCase(), slug);
+
+		// Map aliases to slug
+		if (doc.aliases) {
+			for (const alias of doc.aliases) {
+				map.set(alias.toLowerCase(), slug);
+			}
+		}
+	}
+
+	return map;
 }
 
 const research = defineCollection({
@@ -55,8 +91,15 @@ const research = defineCollection({
 		content: z.string(),
 	}),
 	transform: async (document, context) => {
+		const allDocs = context.documents(research);
+		const titleToSlug = buildTitleToSlugMap(allDocs);
+
 		const lang = (document.lang || "en") as "en" | "ko";
-		const processedContent = processContent(document.content, lang);
+		const processedContent = processContent(
+			document.content,
+			lang,
+			titleToSlug
+		);
 
 		const code = await compileMDX(
 			context,
@@ -96,11 +139,16 @@ const blog = defineCollection({
 		content: z.string(),
 	}),
 	transform: async (document, context) => {
+		// Use research docs for title-to-slug mapping (blog posts may link to research)
+		const allDocs = context.documents(research);
+		const titleToSlug = buildTitleToSlugMap(allDocs);
+
 		const fileName = document._meta.fileName;
 		const lang = fileName === "ko.md" ? "ko" : "en";
 		const processedContent = processContent(
 			document.content,
-			lang as "en" | "ko"
+			lang as "en" | "ko",
+			titleToSlug
 		);
 
 		const code = await compileMDX(
