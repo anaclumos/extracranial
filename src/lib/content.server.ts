@@ -1,3 +1,4 @@
+import { execSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -14,6 +15,7 @@ const BLOG_DIR = path.join(CONTENTS_DIR, "blog");
 const OBSIDIAN_IMAGE_REGEX = /!\[\[([^\]]+)\]\]/g;
 const WIKILINK_ALIAS_REGEX = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
 const WIKILINK_SIMPLE_REGEX = /\[\[([^\]]+)\]\]/g;
+const WIKILINK_EXTRACT_REGEX = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
 const IMPORT_REGEX = /^import\s+.*$/gm;
 const LEADING_SLASH_REGEX = /^\//;
 
@@ -41,8 +43,20 @@ interface WikiIndex {
 	[titleOrAlias: string]: string;
 }
 
+interface BacklinksIndex {
+	[slug: string]: Array<{ slug: string; title: string }>;
+}
+
+interface DocMeta {
+	slug: string;
+	title: string;
+	lastModified: number;
+}
+
 let slugIndex: SlugIndex = {};
 let wikiIndex: WikiIndex = {};
+let backlinksIndex: BacklinksIndex = {};
+let titleIndex: { [slug: string]: string } = {};
 let isIndexed = false;
 
 function normalizeSlug(slug: string): string {
@@ -96,13 +110,23 @@ function safeReadFile(filePath: string): string | null {
 	}
 }
 
+function extractWikiLinks(content: string): string[] {
+	const links: string[] = [];
+	let match: RegExpExecArray | null = WIKILINK_EXTRACT_REGEX.exec(content);
+	while (match !== null) {
+		links.push(match[1]);
+		match = WIKILINK_EXTRACT_REGEX.exec(content);
+	}
+	return links;
+}
+
 function indexSingleResearchFile(filePath: string): void {
 	const content = safeReadFile(filePath);
 	if (!content) {
 		return;
 	}
 
-	const { data } = matter(content);
+	const { data, content: body } = matter(content);
 	if (!data.slug) {
 		return;
 	}
@@ -117,10 +141,24 @@ function indexSingleResearchFile(filePath: string): void {
 
 	const title = data.title || path.basename(filePath, ".md");
 	wikiIndex[title.toLowerCase()] = slug;
+	titleIndex[slug] = title;
 
 	if (data.aliases && Array.isArray(data.aliases)) {
 		for (const alias of data.aliases) {
 			wikiIndex[alias.toLowerCase()] = slug;
+		}
+	}
+
+	const outgoingLinks = extractWikiLinks(body);
+	for (const linkTarget of outgoingLinks) {
+		const targetSlug = wikiIndex[linkTarget.toLowerCase()];
+		if (targetSlug && targetSlug !== slug) {
+			if (!backlinksIndex[targetSlug]) {
+				backlinksIndex[targetSlug] = [];
+			}
+			if (!backlinksIndex[targetSlug].some((b) => b.slug === slug)) {
+				backlinksIndex[targetSlug].push({ slug, title });
+			}
 		}
 	}
 }
@@ -178,6 +216,40 @@ function indexBlogFiles(): void {
 	}
 }
 
+function buildBacklinksIndex(): void {
+	const researchFiles = getAllMarkdownFiles(RESEARCH_DIR);
+	for (const filePath of researchFiles) {
+		const content = safeReadFile(filePath);
+		if (!content) {
+			continue;
+		}
+
+		const { data, content: body } = matter(content);
+		if (!data.slug) {
+			continue;
+		}
+
+		const sourceSlug = normalizeSlug(data.slug);
+		const sourceTitle = data.title || path.basename(filePath, ".md");
+		const outgoingLinks = extractWikiLinks(body);
+
+		for (const linkTarget of outgoingLinks) {
+			const targetSlug = wikiIndex[linkTarget.toLowerCase()];
+			if (targetSlug && targetSlug !== sourceSlug) {
+				if (!backlinksIndex[targetSlug]) {
+					backlinksIndex[targetSlug] = [];
+				}
+				if (!backlinksIndex[targetSlug].some((b) => b.slug === sourceSlug)) {
+					backlinksIndex[targetSlug].push({
+						slug: sourceSlug,
+						title: sourceTitle,
+					});
+				}
+			}
+		}
+	}
+}
+
 export function buildContentIndex(): void {
 	if (isIndexed) {
 		return;
@@ -185,9 +257,12 @@ export function buildContentIndex(): void {
 
 	slugIndex = {};
 	wikiIndex = {};
+	backlinksIndex = {};
+	titleIndex = {};
 
 	indexResearchFiles();
 	indexBlogFiles();
+	buildBacklinksIndex();
 
 	isIndexed = true;
 }
@@ -297,4 +372,62 @@ export async function getContent(slug: string, lang: Lang = "en") {
 export function getAllSlugs(): string[] {
 	buildContentIndex();
 	return Object.keys(slugIndex);
+}
+
+export function getBacklinks(
+	slug: string
+): Array<{ slug: string; title: string }> {
+	buildContentIndex();
+	const normalizedSlug = normalizeSlug(slug);
+	return backlinksIndex[normalizedSlug] ?? [];
+}
+
+function getFileMtime(filePath: string): Date {
+	try {
+		return fs.statSync(filePath).mtime;
+	} catch {
+		return new Date(0);
+	}
+}
+
+function getGitLastModified(filePath: string): Date {
+	try {
+		const result = execSync(`git log -1 --format="%ai" -- "${filePath}"`, {
+			cwd: process.cwd(),
+			encoding: "utf-8",
+		}).trim();
+		if (result) {
+			return new Date(result);
+		}
+	} catch {}
+	return getFileMtime(filePath);
+}
+
+export function getAllDocs(): DocMeta[] {
+	buildContentIndex();
+
+	const docs: DocMeta[] = [];
+	const researchFiles = getAllMarkdownFiles(path.join(RESEARCH_DIR, "pages"));
+
+	for (const filePath of researchFiles) {
+		const content = safeReadFile(filePath);
+		if (!content) {
+			continue;
+		}
+
+		const { data } = matter(content);
+		if (!data.slug) {
+			continue;
+		}
+
+		const slug = normalizeSlug(data.slug);
+		const title = data.title || path.basename(filePath, ".md");
+		const lastModified = getGitLastModified(filePath).getTime();
+
+		docs.push({ slug, title, lastModified });
+	}
+
+	docs.sort((a, b) => b.lastModified - a.lastModified);
+
+	return docs;
 }

@@ -28,7 +28,7 @@ export const Route = createFileRoute("/api/assets/$")({
 	server: {
 		handlers: {
 			GET: async ({ params }) => {
-				const assetPath = params._;
+				const assetPath = params._splat;
 				if (!assetPath) {
 					return new Response("Not Found", { status: 404 });
 				}

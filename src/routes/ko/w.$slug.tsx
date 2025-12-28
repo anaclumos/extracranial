@@ -2,7 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { getMDXComponent } from "mdx-bundler/client";
 import { useMemo } from "react";
-
+import { BacklinksSidebar } from "../../components/BacklinksSidebar";
+import { DocSidebar } from "../../components/DocSidebar";
 import { AccordionItem, Accordions } from "../../components/mdx/Accordion";
 import { AppleMusicSong } from "../../components/mdx/AppleMusicSong";
 import { Callout } from "../../components/mdx/Callout";
@@ -11,7 +12,7 @@ import { Shuffle } from "../../components/mdx/Shuffle";
 import { SpotifySong } from "../../components/mdx/SpotifySong";
 import { WIP } from "../../components/mdx/Wip";
 import { YouTube } from "../../components/mdx/YouTube";
-import { getContent } from "../../lib/content.server";
+import { getAllDocs, getBacklinks, getContent } from "../../lib/content.server";
 
 const fetchContent = createServerFn({ method: "GET" })
 	.inputValidator((slug: string) => slug)
@@ -20,7 +21,9 @@ const fetchContent = createServerFn({ method: "GET" })
 		if (!content) {
 			throw new Error("Content not found");
 		}
-		return content;
+		const backlinks = getBacklinks(slug);
+		const allDocs = getAllDocs();
+		return { ...content, backlinks, allDocs };
 	});
 
 export const Route = createFileRoute("/ko/w/$slug")({
@@ -43,29 +46,34 @@ const mdxComponents = {
 };
 
 function ContentPage() {
-	const { code, frontmatter } = Route.useLoaderData();
+	const { code, frontmatter, backlinks, allDocs } = Route.useLoaderData();
+	const { slug } = Route.useParams();
 
 	const Component = useMemo(() => getMDXComponent(code), [code]);
 
 	return (
-		<div className="mx-auto max-w-2xl px-6 py-16 sm:px-8 lg:py-20">
-			<article className="prose max-w-none">
-				<header className="not-prose mb-12">
-					<h1 className="mb-4 font-semibold text-3xl text-foreground tracking-tight sm:text-4xl">
-						{frontmatter.title}
-					</h1>
-					{frontmatter.date && (
-						<time className="text-muted-foreground text-sm">
-							{new Date(frontmatter.date).toLocaleDateString("ko-KR", {
-								year: "numeric",
-								month: "long",
-								day: "numeric",
-							})}
-						</time>
-					)}
-				</header>
-				<Component components={mdxComponents} />
-			</article>
+		<div className="mx-auto flex max-w-7xl px-4">
+			<DocSidebar basePath="/ko/w" currentSlug={slug} docs={allDocs} />
+			<main className="min-w-0 flex-1 px-6 py-16 sm:px-8 lg:py-20">
+				<article className="prose mx-auto max-w-2xl">
+					<header className="not-prose mb-12">
+						<h1 className="mb-4 font-semibold text-3xl text-foreground tracking-tight sm:text-4xl">
+							{frontmatter.title}
+						</h1>
+						{frontmatter.date && (
+							<time className="text-muted-foreground text-sm">
+								{new Date(frontmatter.date).toLocaleDateString("ko-KR", {
+									year: "numeric",
+									month: "long",
+									day: "numeric",
+								})}
+							</time>
+						)}
+					</header>
+					<Component components={mdxComponents} />
+				</article>
+			</main>
+			<BacklinksSidebar backlinks={backlinks} basePath="/ko/w" />
 		</div>
 	);
 }
