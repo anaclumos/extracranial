@@ -3,6 +3,7 @@ import { createServerFn } from "@tanstack/react-start";
 import { getMDXComponent } from "mdx-bundler/client";
 import { useMemo } from "react";
 
+import { AccordionItem, Accordions } from "../../components/mdx/Accordion";
 import { AppleMusicSong } from "../../components/mdx/AppleMusicSong";
 import { Callout } from "../../components/mdx/Callout";
 import { DisplayFlex, Horizontal } from "../../components/mdx/DisplayFlex";
@@ -29,6 +30,8 @@ export const Route = createFileRoute("/ko/r/$slug")({
 });
 
 const mdxComponents = {
+	Accordion: AccordionItem,
+	Accordions,
 	AppleMusicSong,
 	Callout,
 	DisplayFlex,
