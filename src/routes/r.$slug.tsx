@@ -1,5 +1,5 @@
 import { useMDXComponent } from "@content-collections/mdx/react";
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, redirect } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { BacklinksSidebar } from "../components/BacklinksSidebar";
 import { DocSidebar } from "../components/DocSidebar";
@@ -26,7 +26,13 @@ const fetchContent = createServerFn({ method: "GET" })
 	});
 
 export const Route = createFileRoute("/r/$slug")({
-	loader: ({ params }) => fetchContent({ data: params.slug }),
+	loader: ({ params }) => {
+		const upperSlug = params.slug.toUpperCase();
+		if (params.slug !== upperSlug) {
+			throw redirect({ to: "/r/$slug", params: { slug: upperSlug } });
+		}
+		return fetchContent({ data: params.slug });
+	},
 	component: ContentPage,
 	errorComponent: NotFound,
 });

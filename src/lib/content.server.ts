@@ -97,7 +97,9 @@ function indexBacklinks(): void {
 }
 
 function buildContentIndex(): void {
-	if (isIndexed) return;
+	if (isIndexed) {
+		return;
+	}
 
 	slugIndex = {};
 	wikiIndex = {};
@@ -113,11 +115,15 @@ function buildContentIndex(): void {
 export function getContent(slug: string, lang: Lang = "en") {
 	buildContentIndex();
 
-	const entry = slugIndex[slug.toLowerCase()];
-	if (!entry) return null;
+	const entry = slugIndex[slug.toUpperCase()];
+	if (!entry) {
+		return null;
+	}
 
 	const doc = entry[lang] ?? entry.en ?? entry.ko;
-	if (!doc) return null;
+	if (!doc) {
+		return null;
+	}
 
 	return {
 		code: doc.code,
@@ -140,7 +146,7 @@ export function getBacklinks(
 	slug: string
 ): Array<{ slug: string; title: string }> {
 	buildContentIndex();
-	return backlinksIndex[slug.toLowerCase()] ?? [];
+	return backlinksIndex[slug.toUpperCase()] ?? [];
 }
 
 export function getAllDocs(): DocMeta[] {
@@ -176,8 +182,12 @@ export function getAllBlogPosts(lang: Lang = "en"): BlogMeta[] {
 	const seen = new Set<string>();
 
 	for (const doc of allBlogs) {
-		if (seen.has(doc.slug)) continue;
-		if (doc.lang !== lang) continue;
+		if (seen.has(doc.slug)) {
+			continue;
+		}
+		if (doc.lang !== lang) {
+			continue;
+		}
 
 		seen.add(doc.slug);
 		posts.push({
@@ -189,9 +199,15 @@ export function getAllBlogPosts(lang: Lang = "en"): BlogMeta[] {
 	}
 
 	posts.sort((a, b) => {
-		if (!(a.date || b.date)) return 0;
-		if (!a.date) return 1;
-		if (!b.date) return -1;
+		if (!(a.date || b.date)) {
+			return 0;
+		}
+		if (!a.date) {
+			return 1;
+		}
+		if (!b.date) {
+			return -1;
+		}
 		return new Date(b.date).getTime() - new Date(a.date).getTime();
 	});
 
