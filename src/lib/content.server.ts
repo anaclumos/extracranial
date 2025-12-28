@@ -1,8 +1,4 @@
 import { allBlogs, allResearch } from "content-collections";
-import { bundleMDX } from "mdx-bundler";
-import rehypeHighlight from "rehype-highlight";
-import rehypeSlug from "rehype-slug";
-import remarkGfm from "remark-gfm";
 
 export type ContentType = "research" | "blog";
 export type Lang = "en" | "ko";
@@ -37,11 +33,7 @@ let wikiIndex: WikiIndex = {};
 let backlinksIndex: BacklinksIndex = {};
 let isIndexed = false;
 
-const OBSIDIAN_IMAGE_REGEX = /!\[\[([^\]]+)\]\]/g;
-const WIKILINK_ALIAS_REGEX = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
-const WIKILINK_SIMPLE_REGEX = /\[\[([^\]]+)\]\]/g;
 const WIKILINK_EXTRACT_REGEX = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
-const IMPORT_REGEX = /^import\s+.*$/gm;
 
 function extractWikiLinks(content: string): string[] {
 	const links: string[] = [];
@@ -56,19 +48,15 @@ function extractWikiLinks(content: string): string[] {
 
 function indexResearchDocs(): void {
 	for (const doc of allResearch) {
-		const slug = doc.slug;
-		const lang = doc.lang as Lang;
-
-		if (!slugIndex[slug]) {
-			slugIndex[slug] = {};
+		if (!slugIndex[doc.slug]) {
+			slugIndex[doc.slug] = {};
 		}
-		slugIndex[slug][lang] = doc;
-
-		wikiIndex[doc.title.toLowerCase()] = slug;
+		slugIndex[doc.slug][doc.lang as Lang] = doc;
+		wikiIndex[doc.title.toLowerCase()] = doc.slug;
 
 		if (doc.aliases) {
 			for (const alias of doc.aliases) {
-				wikiIndex[alias.toLowerCase()] = slug;
+				wikiIndex[alias.toLowerCase()] = doc.slug;
 			}
 		}
 	}
@@ -76,36 +64,31 @@ function indexResearchDocs(): void {
 
 function indexBlogDocs(): void {
 	for (const doc of allBlogs) {
-		const slug = doc.slug;
-		const lang = doc.lang as Lang;
-
-		if (!slugIndex[slug]) {
-			slugIndex[slug] = {};
+		if (!slugIndex[doc.slug]) {
+			slugIndex[doc.slug] = {};
 		}
-		slugIndex[slug][lang] = doc;
+		slugIndex[doc.slug][doc.lang as Lang] = doc;
 
 		if (doc.title) {
-			wikiIndex[doc.title.toLowerCase()] = slug;
+			wikiIndex[doc.title.toLowerCase()] = doc.slug;
 		}
 	}
 }
 
 function indexBacklinks(): void {
 	for (const doc of allResearch) {
-		const sourceSlug = doc.slug;
-		const sourceTitle = doc.title;
 		const outgoingLinks = extractWikiLinks(doc.content);
 
 		for (const linkTarget of outgoingLinks) {
 			const targetSlug = wikiIndex[linkTarget.toLowerCase()];
-			if (targetSlug && targetSlug !== sourceSlug) {
+			if (targetSlug && targetSlug !== doc.slug) {
 				if (!backlinksIndex[targetSlug]) {
 					backlinksIndex[targetSlug] = [];
 				}
-				if (!backlinksIndex[targetSlug].some((b) => b.slug === sourceSlug)) {
+				if (!backlinksIndex[targetSlug].some((b) => b.slug === doc.slug)) {
 					backlinksIndex[targetSlug].push({
-						slug: sourceSlug,
-						title: sourceTitle,
+						slug: doc.slug,
+						title: doc.title,
 					});
 				}
 			}
@@ -114,9 +97,7 @@ function indexBacklinks(): void {
 }
 
 function buildContentIndex(): void {
-	if (isIndexed) {
-		return;
-	}
+	if (isIndexed) return;
 
 	slugIndex = {};
 	wikiIndex = {};
@@ -129,73 +110,17 @@ function buildContentIndex(): void {
 	isIndexed = true;
 }
 
-export function resolveWikiLink(title: string): string | null {
-	buildContentIndex();
-	return wikiIndex[title.toLowerCase()] ?? null;
-}
-
-function processWikiLinks(content: string, lang: Lang): string {
-	const prefix = lang === "ko" ? "/ko" : "";
-
-	let result = content.replace(OBSIDIAN_IMAGE_REGEX, (_, imageName) => {
-		return `![${imageName}](/api/assets/${encodeURIComponent(imageName)})`;
-	});
-
-	result = result.replace(WIKILINK_ALIAS_REGEX, (_, target, alias) => {
-		const targetSlug = resolveWikiLink(target);
-		if (targetSlug) {
-			return `[${alias}](${prefix}/r/${targetSlug})`;
-		}
-		return `[${alias}](#)`;
-	});
-
-	result = result.replace(WIKILINK_SIMPLE_REGEX, (_, target) => {
-		const targetSlug = resolveWikiLink(target);
-		if (targetSlug) {
-			return `[${target}](${prefix}/r/${targetSlug})`;
-		}
-		return `[${target}](#)`;
-	});
-
-	result = result.replace(IMPORT_REGEX, "");
-
-	return result;
-}
-
-export async function getContent(slug: string, lang: Lang = "en") {
+export function getContent(slug: string, lang: Lang = "en") {
 	buildContentIndex();
 
 	const entry = slugIndex[slug.toLowerCase()];
-	if (!entry) {
-		return null;
-	}
+	if (!entry) return null;
 
 	const doc = entry[lang] ?? entry.en ?? entry.ko;
-	if (!doc) {
-		return null;
-	}
-
-	const processedContent = processWikiLinks(doc.content, lang as Lang);
-
-	const { code } = await bundleMDX({
-		source: processedContent,
-		mdxOptions(options) {
-			options.remarkPlugins = [...(options.remarkPlugins ?? []), remarkGfm];
-			options.rehypePlugins = [
-				...(options.rehypePlugins ?? []),
-				rehypeSlug,
-				rehypeHighlight,
-			];
-			return options;
-		},
-		esbuildOptions(options) {
-			options.platform = "node";
-			return options;
-		},
-	});
+	if (!doc) return null;
 
 	return {
-		code,
+		code: doc.code,
 		frontmatter: {
 			title: doc.title,
 			slug: doc.slug,
@@ -225,11 +150,10 @@ export function getAllDocs(): DocMeta[] {
 
 	for (const doc of allResearch) {
 		if (doc._meta.filePath.includes("pages/")) {
-			const lastModified = doc.date ? new Date(doc.date).getTime() : 0;
 			docs.push({
 				slug: doc.slug,
 				title: doc.title,
-				lastModified,
+				lastModified: doc.date ? new Date(doc.date).getTime() : 0,
 			});
 		}
 	}
