@@ -1,5 +1,5 @@
 import { Link, useLocation } from "@tanstack/react-router";
-import { BookOpen, Moon, Sun } from "lucide-react";
+import { BookOpen, Moon, PenLine, Sun } from "lucide-react";
 import { useTheme } from "./ThemeProvider";
 
 const KO_PREFIX_REGEX = /^\/ko/;
@@ -39,6 +39,15 @@ export default function Header() {
 						>
 							<BookOpen size={16} />
 							<span>{isKorean ? "연구노트" : "Research"}</span>
+						</Link>
+						<Link
+							activeOptions={{ exact: false }}
+							activeProps={{ className: "bg-secondary text-foreground" }}
+							className="flex items-center gap-2 rounded-lg px-3 py-2 text-muted-foreground text-sm transition-colors hover:bg-secondary hover:text-foreground"
+							to={isKorean ? "/ko/w/minsapay" : "/w/minsapay"}
+						>
+							<PenLine size={16} />
+							<span>{isKorean ? "블로그" : "Blog"}</span>
 						</Link>
 					</nav>
 				</div>

@@ -198,3 +198,10 @@ code {
 	border-top: 1px solid var(--color-border);
 	margin: 3rem 0;
 }
+
+.prose a[href^="http"]:not([href*="localhost"])::after {
+	content: " ↗";
+	font-size: 0.75em;
+	vertical-align: super;
+	opacity: 0.6;
+}
