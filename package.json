@@ -4,7 +4,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev --port 3000",
-    "prebuild": "cp -r contents/research/assets/* public/assets/ 2>/dev/null || mkdir -p public/assets && cp -r contents/research/assets/* public/assets/",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run",
