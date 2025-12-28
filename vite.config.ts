@@ -1,3 +1,4 @@
+import contentCollections from "@content-collections/vite";
 import tailwindcss from "@tailwindcss/vite";
 import { devtools } from "@tanstack/devtools-vite";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
@@ -9,17 +10,10 @@ import viteTsConfigPaths from "vite-tsconfig-paths";
 const config = defineConfig({
 	plugins: [
 		devtools(),
+		contentCollections(),
 		nitro({
 			preset: "vercel",
-			serverAssets: [
-				{
-					baseName: "contents",
-					dir: "./contents",
-				},
-			],
-			bundledStorage: ["contents"],
 		}),
-		// this is the plugin that enables path aliases
 		viteTsConfigPaths({
 			projects: ["./tsconfig.json"],
 		}),
