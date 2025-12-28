@@ -15,6 +15,7 @@ const WIKILINK_SIMPLE_REGEX = /\[\[([^\]]+)\]\]/g;
 const IMPORT_REGEX = /^import\s+.*$/gm;
 const HTML_COMMENT_REGEX = /<!--[\s\S]*?-->/g;
 const ANGLE_BRACKET_NUM_REGEX = /<(\d)/g;
+const MALFORMED_LATEX_REGEX = /\\\[([^\]]*)\\\]/g;
 
 type TitleToSlugMap = Map<string, string>;
 
@@ -46,6 +47,9 @@ function processContent(
 
 	// Escape angle brackets followed by numbers (e.g., <1.5)
 	result = result.replace(ANGLE_BRACKET_NUM_REGEX, "\\<$1");
+
+	// Convert malformed \[...\] LaTeX to proper $$...$$ display math
+	result = result.replace(MALFORMED_LATEX_REGEX, "$$$1$$");
 
 	return result;
 }
@@ -108,13 +112,13 @@ const research = defineCollection({
 				remarkPlugins: [remarkGfm, remarkMath],
 				rehypePlugins: [
 					rehypeSlug,
-					[rehypeHighlight, { plainText: ["math"] }],
+					[rehypeHighlight, { ignoreMissing: true, plainText: ["math"] }],
 					rehypeKatex,
 				],
 			}
 		);
 
-		const slug = document.slug.replace(LEADING_SLASH_REGEX, "").toLowerCase();
+		const slug = document.slug.replace(LEADING_SLASH_REGEX, "").toUpperCase();
 
 		return {
 			slug,
@@ -162,13 +166,13 @@ const blog = defineCollection({
 				remarkPlugins: [remarkGfm, remarkMath],
 				rehypePlugins: [
 					rehypeSlug,
-					[rehypeHighlight, { plainText: ["math"] }],
+					[rehypeHighlight, { ignoreMissing: true, plainText: ["math"] }],
 					rehypeKatex,
 				],
 			}
 		);
 
-		const slug = document.slug.replace(LEADING_SLASH_REGEX, "").toLowerCase();
+		const slug = document.slug.replace(LEADING_SLASH_REGEX, "").toUpperCase();
 
 		return {
 			slug,

@@ -3,7 +3,7 @@ import { createServerFn } from "@tanstack/react-start";
 import { Calendar } from "lucide-react";
 import { getAllBlogPosts } from "../../lib/content.server";
 
-const fetchBlogPosts = createServerFn({ method: "GET" }).handler(async () => {
+const fetchBlogPosts = createServerFn({ method: "GET" }).handler(() => {
 	return getAllBlogPosts("ko");
 });
 
