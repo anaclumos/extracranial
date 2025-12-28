@@ -55,6 +55,8 @@
     "@vitejs/plugin-react": "^5.0.4",
     "jsdom": "^27.0.0",
     "lefthook": "^2.0.13",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
     "typescript": "^5.7.2",
     "ultracite": "6.5.0",
     "vite": "^7.1.7",

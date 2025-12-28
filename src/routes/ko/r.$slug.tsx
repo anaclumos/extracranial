@@ -1,7 +1,6 @@
+import { useMDXComponent } from "@content-collections/mdx/react";
 import { createFileRoute } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
-import { getMDXComponent } from "mdx-bundler/client";
-import { useMemo } from "react";
 import { BacklinksSidebar } from "../../components/BacklinksSidebar";
 import { DocSidebar } from "../../components/DocSidebar";
 import { AccordionItem, Accordions } from "../../components/mdx/Accordion";
@@ -49,7 +48,7 @@ function ContentPage() {
 	const { code, frontmatter, backlinks, allDocs } = Route.useLoaderData();
 	const { slug } = Route.useParams();
 
-	const Component = useMemo(() => getMDXComponent(code), [code]);
+	const Component = useMDXComponent(code);
 
 	return (
 		<div className="mx-auto flex max-w-7xl px-4">
