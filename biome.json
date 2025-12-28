@@ -1,0 +1,50 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "**/src/**/*",
+      "**/.vscode/**/*",
+      "**/index.html",
+      "**/vite.config.js",
+      "!**/src/routeTree.gen.ts",
+      "!**/src/styles.css"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "tab"
+  },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "style": {
+        "useFilenamingConvention": {
+          "level": "error",
+          "options": {
+            "filenameCases": ["kebab-case", "PascalCase"]
+          }
+        }
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double"
+    }
+  },
+  "extends": ["ultracite/core", "ultracite/remix", "ultracite/react"]
+}
