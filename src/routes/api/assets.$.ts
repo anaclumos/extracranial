@@ -1,70 +1,28 @@
-import { existsSync } from "node:fs";
-import { readFile } from "node:fs/promises";
-import { join } from "node:path";
 import { createFileRoute } from "@tanstack/react-router";
 
-const ASSETS_DIR = join(process.cwd(), "contents/research/assets");
-const BLOG_DIR = join(process.cwd(), "contents/blog");
-
-const MIME_TYPES: Record<string, string> = {
-	".png": "image/png",
-	".jpg": "image/jpeg",
-	".jpeg": "image/jpeg",
-	".gif": "image/gif",
-	".webp": "image/webp",
-	".svg": "image/svg+xml",
-	".ico": "image/x-icon",
-	".pdf": "application/pdf",
-};
-
-const EXT_REGEX = /\.[^.]+$/;
-
-function getMimeType(filename: string): string {
-	const ext = filename.toLowerCase().match(EXT_REGEX)?.[0] ?? "";
-	return MIME_TYPES[ext] ?? "application/octet-stream";
-}
+const GITHUB_RAW_BASE =
+	"https://raw.githubusercontent.com/anaclumos/extracranial/main";
 
 export const Route = createFileRoute("/api/assets/$")({
 	server: {
 		handlers: {
-			GET: async ({ params }) => {
+			GET: ({ params }) => {
 				const assetPath = params._splat;
 				if (!assetPath) {
 					return new Response("Not Found", { status: 404 });
 				}
 
 				const segments = assetPath.split("/").filter(Boolean);
-				let filePath: string;
+				const isBlogAsset = segments[0] === "blog" && segments.length >= 2;
 
-				if (segments[0] === "blog" && segments.length >= 2) {
-					filePath = join(BLOG_DIR, ...segments.slice(1));
-				} else {
-					filePath = join(ASSETS_DIR, ...segments);
-				}
+				const githubPath = isBlogAsset
+					? `${GITHUB_RAW_BASE}/contents/blog/${segments.slice(1).join("/")}`
+					: `${GITHUB_RAW_BASE}/contents/research/assets/${segments.join("/")}`;
 
-				const normalizedPath = filePath.replace(/\\/g, "/");
-				const isUnderAssets = normalizedPath.startsWith(
-					ASSETS_DIR.replace(/\\/g, "/")
-				);
-				const isUnderBlog = normalizedPath.startsWith(
-					BLOG_DIR.replace(/\\/g, "/")
-				);
-
-				if (!(isUnderAssets || isUnderBlog)) {
-					return new Response("Forbidden", { status: 403 });
-				}
-
-				if (!existsSync(filePath)) {
-					return new Response("Not Found", { status: 404 });
-				}
-
-				const content = await readFile(filePath);
-				const mimeType = getMimeType(filePath);
-
-				return new Response(content, {
-					status: 200,
+				return new Response(null, {
+					status: 302,
 					headers: {
-						"Content-Type": mimeType,
+						Location: githubPath,
 						"Cache-Control": "public, max-age=31536000, immutable",
 					},
 				});

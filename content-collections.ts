@@ -26,7 +26,7 @@ function processContent(
 	const prefix = lang === "ko" ? "/ko" : "";
 
 	let result = content.replace(OBSIDIAN_IMAGE_REGEX, (_, imageName) => {
-		return `![${imageName}](/assets/${encodeURIComponent(imageName)})`;
+		return `![${imageName}](/api/assets/${encodeURIComponent(imageName)})`;
 	});
 
 	result = result.replace(WIKILINK_ALIAS_REGEX, (_, target, alias) => {
