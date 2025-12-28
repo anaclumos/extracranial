@@ -11,6 +11,13 @@ const config = defineConfig({
 		devtools(),
 		nitro({
 			preset: "vercel",
+			serverAssets: [
+				{
+					baseName: "contents",
+					dir: "./contents",
+				},
+			],
+			bundledStorage: ["contents"],
 		}),
 		// this is the plugin that enables path aliases
 		viteTsConfigPaths({
