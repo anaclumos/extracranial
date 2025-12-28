@@ -9,10 +9,12 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as WRouteImport } from './routes/w'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as KoIndexRouteImport } from './routes/ko/index'
 import { Route as WSlugRouteImport } from './routes/w.$slug'
 import { Route as RSlugRouteImport } from './routes/r.$slug'
+import { Route as KoWRouteImport } from './routes/ko/w'
 import { Route as KoWSlugRouteImport } from './routes/ko/w.$slug'
 import { Route as KoRSlugRouteImport } from './routes/ko/r.$slug'
 import { Route as DemoStartServerFuncsRouteImport } from './routes/demo/start.server-funcs'
@@ -24,6 +26,11 @@ import { Route as DemoStartSsrSpaModeRouteImport } from './routes/demo/start.ssr
 import { Route as DemoStartSsrFullSsrRouteImport } from './routes/demo/start.ssr.full-ssr'
 import { Route as DemoStartSsrDataOnlyRouteImport } from './routes/demo/start.ssr.data-only'
 
+const WRoute = WRouteImport.update({
+  id: '/w',
+  path: '/w',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -35,19 +42,24 @@ const KoIndexRoute = KoIndexRouteImport.update({
   getParentRoute: () => rootRouteImport,
 } as any)
 const WSlugRoute = WSlugRouteImport.update({
-  id: '/w/$slug',
-  path: '/w/$slug',
-  getParentRoute: () => rootRouteImport,
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => WRoute,
 } as any)
 const RSlugRoute = RSlugRouteImport.update({
   id: '/r/$slug',
   path: '/r/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
-const KoWSlugRoute = KoWSlugRouteImport.update({
-  id: '/ko/w/$slug',
-  path: '/ko/w/$slug',
+const KoWRoute = KoWRouteImport.update({
+  id: '/ko/w',
+  path: '/ko/w',
   getParentRoute: () => rootRouteImport,
+} as any)
+const KoWSlugRoute = KoWSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => KoWRoute,
 } as any)
 const KoRSlugRoute = KoRSlugRouteImport.update({
   id: '/ko/r/$slug',
@@ -97,6 +109,8 @@ const DemoStartSsrDataOnlyRoute = DemoStartSsrDataOnlyRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/w': typeof WRouteWithChildren
+  '/ko/w': typeof KoWRouteWithChildren
   '/r/$slug': typeof RSlugRoute
   '/w/$slug': typeof WSlugRoute
   '/ko': typeof KoIndexRoute
@@ -113,6 +127,8 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/w': typeof WRouteWithChildren
+  '/ko/w': typeof KoWRouteWithChildren
   '/r/$slug': typeof RSlugRoute
   '/w/$slug': typeof WSlugRoute
   '/ko': typeof KoIndexRoute
@@ -130,6 +146,8 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/w': typeof WRouteWithChildren
+  '/ko/w': typeof KoWRouteWithChildren
   '/r/$slug': typeof RSlugRoute
   '/w/$slug': typeof WSlugRoute
   '/ko/': typeof KoIndexRoute
@@ -148,6 +166,8 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/w'
+    | '/ko/w'
     | '/r/$slug'
     | '/w/$slug'
     | '/ko'
@@ -164,6 +184,8 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/w'
+    | '/ko/w'
     | '/r/$slug'
     | '/w/$slug'
     | '/ko'
@@ -180,6 +202,8 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/w'
+    | '/ko/w'
     | '/r/$slug'
     | '/w/$slug'
     | '/ko/'
@@ -197,15 +221,15 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  WRoute: typeof WRouteWithChildren
+  KoWRoute: typeof KoWRouteWithChildren
   RSlugRoute: typeof RSlugRoute
-  WSlugRoute: typeof WSlugRoute
   KoIndexRoute: typeof KoIndexRoute
   ApiAssetsSplatRoute: typeof ApiAssetsSplatRoute
   DemoApiNamesRoute: typeof DemoApiNamesRoute
   DemoStartApiRequestRoute: typeof DemoStartApiRequestRoute
   DemoStartServerFuncsRoute: typeof DemoStartServerFuncsRoute
   KoRSlugRoute: typeof KoRSlugRoute
-  KoWSlugRoute: typeof KoWSlugRoute
   DemoStartSsrDataOnlyRoute: typeof DemoStartSsrDataOnlyRoute
   DemoStartSsrFullSsrRoute: typeof DemoStartSsrFullSsrRoute
   DemoStartSsrSpaModeRoute: typeof DemoStartSsrSpaModeRoute
@@ -214,6 +238,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/w': {
+      id: '/w'
+      path: '/w'
+      fullPath: '/w'
+      preLoaderRoute: typeof WRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -230,10 +261,10 @@ declare module '@tanstack/react-router' {
     }
     '/w/$slug': {
       id: '/w/$slug'
-      path: '/w/$slug'
+      path: '/$slug'
       fullPath: '/w/$slug'
       preLoaderRoute: typeof WSlugRouteImport
-      parentRoute: typeof rootRouteImport
+      parentRoute: typeof WRoute
     }
     '/r/$slug': {
       id: '/r/$slug'
@@ -242,12 +273,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof RSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/ko/w': {
+      id: '/ko/w'
+      path: '/ko/w'
+      fullPath: '/ko/w'
+      preLoaderRoute: typeof KoWRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/ko/w/$slug': {
       id: '/ko/w/$slug'
-      path: '/ko/w/$slug'
+      path: '/$slug'
       fullPath: '/ko/w/$slug'
       preLoaderRoute: typeof KoWSlugRouteImport
-      parentRoute: typeof rootRouteImport
+      parentRoute: typeof KoWRoute
     }
     '/ko/r/$slug': {
       id: '/ko/r/$slug'
@@ -315,17 +353,37 @@ declare module '@tanstack/react-router' {
   }
 }
 
+interface WRouteChildren {
+  WSlugRoute: typeof WSlugRoute
+}
+
+const WRouteChildren: WRouteChildren = {
+  WSlugRoute: WSlugRoute,
+}
+
+const WRouteWithChildren = WRoute._addFileChildren(WRouteChildren)
+
+interface KoWRouteChildren {
+  KoWSlugRoute: typeof KoWSlugRoute
+}
+
+const KoWRouteChildren: KoWRouteChildren = {
+  KoWSlugRoute: KoWSlugRoute,
+}
+
+const KoWRouteWithChildren = KoWRoute._addFileChildren(KoWRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  WRoute: WRouteWithChildren,
+  KoWRoute: KoWRouteWithChildren,
   RSlugRoute: RSlugRoute,
-  WSlugRoute: WSlugRoute,
   KoIndexRoute: KoIndexRoute,
   ApiAssetsSplatRoute: ApiAssetsSplatRoute,
   DemoApiNamesRoute: DemoApiNamesRoute,
   DemoStartApiRequestRoute: DemoStartApiRequestRoute,
   DemoStartServerFuncsRoute: DemoStartServerFuncsRoute,
   KoRSlugRoute: KoRSlugRoute,
-  KoWSlugRoute: KoWSlugRoute,
   DemoStartSsrDataOnlyRoute: DemoStartSsrDataOnlyRoute,
   DemoStartSsrFullSsrRoute: DemoStartSsrFullSsrRoute,
   DemoStartSsrSpaModeRoute: DemoStartSsrSpaModeRoute,

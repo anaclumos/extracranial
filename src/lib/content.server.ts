@@ -161,3 +161,39 @@ export function getAllDocs(): DocMeta[] {
 	docs.sort((a, b) => b.lastModified - a.lastModified);
 	return docs;
 }
+
+interface BlogMeta {
+	slug: string;
+	title: string;
+	date: Date | undefined;
+	lang: string;
+}
+
+export function getAllBlogPosts(lang: Lang = "en"): BlogMeta[] {
+	buildContentIndex();
+
+	const posts: BlogMeta[] = [];
+	const seen = new Set<string>();
+
+	for (const doc of allBlogs) {
+		if (seen.has(doc.slug)) continue;
+		if (doc.lang !== lang) continue;
+
+		seen.add(doc.slug);
+		posts.push({
+			slug: doc.slug,
+			title: doc.title,
+			date: doc.date,
+			lang: doc.lang,
+		});
+	}
+
+	posts.sort((a, b) => {
+		if (!(a.date || b.date)) return 0;
+		if (!a.date) return 1;
+		if (!b.date) return -1;
+		return new Date(b.date).getTime() - new Date(a.date).getTime();
+	});
+
+	return posts;
+}

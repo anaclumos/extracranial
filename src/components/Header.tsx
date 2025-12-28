@@ -44,7 +44,7 @@ export default function Header() {
 							activeOptions={{ exact: false }}
 							activeProps={{ className: "bg-secondary text-foreground" }}
 							className="flex items-center gap-2 rounded-lg px-3 py-2 text-muted-foreground text-sm transition-colors hover:bg-secondary hover:text-foreground"
-							to={isKorean ? "/ko/w/minsapay" : "/w/minsapay"}
+							to={isKorean ? "/ko/w" : "/w"}
 						>
 							<PenLine size={16} />
 							<span>{isKorean ? "블로그" : "Blog"}</span>
