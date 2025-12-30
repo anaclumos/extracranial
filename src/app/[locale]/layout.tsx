@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
+import { Header } from "@/components/header";
+import { MobileNav } from "@/components/mobile-nav";
 import { Sidebar } from "@/components/sidebar";
 import { routing } from "@/i18n/routing";
 
@@ -25,6 +27,9 @@ export default async function LocaleLayout({ children, params }: Props) {
 
 	return (
 		<NextIntlClientProvider messages={messages}>
+			<Header>
+				<MobileNav locale={locale as "en" | "ko"} />
+			</Header>
 			<div className="flex flex-1">
 				<Sidebar locale={locale as "en" | "ko"} />
 				<main className="flex-1 overflow-y-auto">{children}</main>
