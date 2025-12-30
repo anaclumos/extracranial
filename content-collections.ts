@@ -56,6 +56,7 @@ const MD_EXT_REGEX = /\.md$/;
 const OBSIDIAN_IMAGE_REGEX = /!\[\[([^\]]+)\]\]/g;
 const WIKILINK_ALIAS_REGEX = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
 const WIKILINK_SIMPLE_REGEX = /\[\[([^\]]+)\]\]/g;
+const WIKILINK_ALL_REGEX = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
 const IMPORT_REGEX = /^import\s+.*$/gm;
 const HTML_COMMENT_REGEX = /<!--[\s\S]*?-->/g;
 const ANGLE_BRACKET_NUM_REGEX = /<(\d)/g;
@@ -64,6 +65,56 @@ const MALFORMED_LATEX_REGEX = /\\\[([^\]]*)\\\]/g;
 const RELATIVE_IMAGE_REGEX = /!\[([^\]]*)\]\((?!\/|https?:\/\/)([^)]+)\)/g;
 
 type TitleToSlugMap = Map<string, string>;
+
+function extractOutgoingLinks(
+	content: string,
+	titleToSlug: TitleToSlugMap
+): Array<{ targetSlug: string; targetTitle: string; excerpt: string }> {
+	const links: Array<{
+		targetSlug: string;
+		targetTitle: string;
+		excerpt: string;
+	}> = [];
+	const seen = new Set<string>();
+
+	// Split content into lines for excerpt extraction
+	const lines = content.split("\n");
+
+	for (let i = 0; i < lines.length; i++) {
+		const line = lines[i];
+		let match: RegExpExecArray | null;
+		const regex = new RegExp(WIKILINK_ALL_REGEX.source, "g");
+
+		while ((match = regex.exec(line)) !== null) {
+			const targetTitle = match[1];
+			const targetSlug = (
+				titleToSlug.get(targetTitle.toLowerCase()) ?? targetTitle.toLowerCase()
+			).toUpperCase();
+
+			if (seen.has(targetSlug)) {
+				continue;
+			}
+			seen.add(targetSlug);
+
+			// Get surrounding context (current line, cleaned up)
+			const excerpt = line
+				.replace(/^#+\s*/, "") // Remove heading markers
+				.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, "$2$1") // Replace wiki links with text
+				.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // Replace markdown links with text
+				.replace(/[*_`]/g, "") // Remove formatting
+				.trim()
+				.slice(0, 150);
+
+			links.push({
+				targetSlug,
+				targetTitle,
+				excerpt: excerpt + (excerpt.length >= 150 ? "..." : ""),
+			});
+		}
+	}
+
+	return links;
+}
 
 function processContent(
 	content: string,
@@ -198,6 +249,7 @@ const research = defineCollection({
 		);
 
 		const slug = document.slug.replace(LEADING_SLASH_REGEX, "").toUpperCase();
+		const outgoingLinks = extractOutgoingLinks(document.content, titleToSlug);
 
 		return {
 			slug,
@@ -207,7 +259,7 @@ const research = defineCollection({
 				document.title || document._meta.fileName.replace(MD_EXT_REGEX, ""),
 			date: document.date,
 			aliases: document.aliases,
-			content: document.content,
+			outgoingLinks,
 			_meta: document._meta,
 		};
 	},
@@ -271,6 +323,7 @@ const blog = defineCollection({
 		);
 
 		const slug = document.slug.replace(LEADING_SLASH_REGEX, "").toUpperCase();
+		const outgoingLinks = extractOutgoingLinks(document.content, titleToSlug);
 
 		return {
 			slug,
@@ -278,7 +331,7 @@ const blog = defineCollection({
 			code,
 			title: document.title || document._meta.directory,
 			date: document.date,
-			content: document.content,
+			outgoingLinks,
 			_meta: document._meta,
 		};
 	},
