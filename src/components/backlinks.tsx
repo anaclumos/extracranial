@@ -15,7 +15,7 @@ export function Backlinks({ backlinks, locale }: Props) {
 	const prefix = locale === "en" ? "" : `/${locale}`;
 
 	return (
-		<section className="border-t pt-8 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-8">
+		<section>
 			<h2 className="mb-4 flex items-center gap-2 font-semibold text-muted-foreground text-sm uppercase tracking-wider">
 				<LinkIcon className="size-4" />
 				{locale === "ko" ? "이 문서를 링크한 글" : "Links to this note"}

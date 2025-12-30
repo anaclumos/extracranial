@@ -63,6 +63,11 @@ const ANGLE_BRACKET_NUM_REGEX = /<(\d)/g;
 const MALFORMED_LATEX_REGEX = /\\\[([^\]]*)\\\]/g;
 // Match markdown images with relative paths (not starting with / or http)
 const RELATIVE_IMAGE_REGEX = /!\[([^\]]*)\]\((?!\/|https?:\/\/)([^)]+)\)/g;
+// Transform <details> and <summary> to custom components
+const DETAILS_OPEN_REGEX = /<details>/gi;
+const DETAILS_CLOSE_REGEX = /<\/details>/gi;
+const SUMMARY_OPEN_REGEX = /<summary>/gi;
+const SUMMARY_CLOSE_REGEX = /<\/summary>/gi;
 
 type TitleToSlugMap = Map<string, string>;
 
@@ -147,6 +152,12 @@ function processContent(
 
 	// Convert malformed \[...\] LaTeX to proper $$...$$ display math
 	result = result.replace(MALFORMED_LATEX_REGEX, "$$$1$$");
+
+	// Transform <details>/<summary> to custom Accordion components
+	result = result.replace(DETAILS_OPEN_REGEX, "<Details>");
+	result = result.replace(DETAILS_CLOSE_REGEX, "</Details>");
+	result = result.replace(SUMMARY_OPEN_REGEX, "<Summary>");
+	result = result.replace(SUMMARY_CLOSE_REGEX, "</Summary>");
 
 	return result;
 }
