@@ -47,5 +47,10 @@
       "quoteStyle": "double"
     }
   },
-  "extends": ["ultracite/core", "ultracite/remix", "ultracite/react"]
+  "extends": [
+    "ultracite/core",
+    "ultracite/remix",
+    "ultracite/react",
+    "ultracite/next"
+  ]
 }

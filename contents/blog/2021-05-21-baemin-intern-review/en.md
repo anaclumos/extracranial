@@ -1,5 +1,5 @@
 ---
-title: 'Woowa Tech Camp 3rd Review 🚚'
+title: '🚚 Woowa Tech Camp 3rd Review'
 date: 2021-05-21
 authors: anaclumos
 slug: '/E2CAE4'

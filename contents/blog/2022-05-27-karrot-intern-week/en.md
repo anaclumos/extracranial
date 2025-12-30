@@ -1,5 +1,5 @@
 ---
-title: 'First week at Karrot 🥕'
+title: '🥕 First week at Karrot'
 date: 2022-05-27
 authors: anaclumos
 slug: '/98410A'
