@@ -33,8 +33,8 @@ export function Sidebar({ locale }: Props) {
 		});
 
 	return (
-		<aside className="sticky top-16 hidden h-[calc(100vh-4rem)] w-72 shrink-0 border-border border-r lg:block">
-			<ScrollArea className="h-[calc(100vh-4rem)]">
+		<aside className="hidden w-72 shrink-0 border-border border-r lg:flex lg:flex-col">
+			<ScrollArea className="flex-1">
 				<div className="p-4">
 					<section className="mb-6">
 						<div className="mb-3 flex items-center justify-between">

@@ -1,6 +1,13 @@
 "use client";
 
 import { useMDXComponent } from "@content-collections/mdx/react";
+import { Children, isValidElement } from "react";
+import {
+	AccordionItem,
+	AccordionPanel,
+	Accordion as AccordionRoot,
+	AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const Callout = ({
 	children,
@@ -55,11 +62,43 @@ const WIP = () => (
 );
 const SpotifySong = () => null;
 const AppleMusicSong = () => null;
+
+// Custom details/summary components using coss/ui Accordion
+const Details = ({ children }: { children: React.ReactNode }) => {
+	let summaryContent: React.ReactNode = null;
+	const otherChildren: React.ReactNode[] = [];
+
+	Children.forEach(children, (child) => {
+		if (
+			isValidElement<{ children: React.ReactNode }>(child) &&
+			child.type === Summary
+		) {
+			summaryContent = child.props.children;
+		} else {
+			otherChildren.push(child);
+		}
+	});
+
+	return (
+		<AccordionRoot className="my-2">
+			<AccordionItem value="item">
+				<AccordionTrigger>{summaryContent}</AccordionTrigger>
+				<AccordionPanel>{otherChildren}</AccordionPanel>
+			</AccordionItem>
+		</AccordionRoot>
+	);
+};
+
+const Summary = ({ children }: { children: React.ReactNode }) => {
+	// This component is extracted by Details, so it doesn't render directly
+	return <>{children}</>;
+};
+
 const Accordion = ({ children }: { children: React.ReactNode }) => (
-	<details className="my-2">{children}</details>
+	<Details>{children}</Details>
 );
 const Accordions = ({ children }: { children: React.ReactNode }) => (
-	<div>{children}</div>
+	<div className="space-y-2">{children}</div>
 );
 
 const components = {
@@ -68,10 +107,12 @@ const components = {
 	Admonition: Callout,
 	AppleMusicSong,
 	Callout,
+	Details,
 	DisplayFlex,
 	Horizontal,
 	Shuffle,
 	SpotifySong,
+	Summary,
 	WIP,
 	YouTube,
 };

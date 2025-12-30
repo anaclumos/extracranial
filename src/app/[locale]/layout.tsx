@@ -32,7 +32,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 			</Header>
 			<div className="flex flex-1">
 				<Sidebar locale={locale as "en" | "ko"} />
-				<main className="flex-1 overflow-y-auto">{children}</main>
+				<main className="flex min-h-0 flex-1">{children}</main>
 			</div>
 		</NextIntlClientProvider>
 	);
