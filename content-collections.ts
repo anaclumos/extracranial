@@ -174,8 +174,25 @@ const research = defineCollection({
 				remarkPlugins: [remarkGfm, remarkMath, remarkDirective, remarkCallouts],
 				rehypePlugins: [
 					rehypeSlug,
-					[rehypeHighlight, { ignoreMissing: true, plainText: ["math"] }],
-					rehypeKatex,
+					[
+						rehypeHighlight,
+						{
+							ignoreMissing: true,
+							plainText: [
+								"math",
+								"mermaid",
+								"latex",
+								"tex",
+								"hbs",
+								"handlebars",
+								"applescript",
+								"docker",
+								"nix",
+								"dataview",
+							],
+						},
+					],
+					[rehypeKatex, { strict: false }],
 				],
 			}
 		);
@@ -230,8 +247,25 @@ const blog = defineCollection({
 				remarkPlugins: [remarkGfm, remarkMath, remarkDirective, remarkCallouts],
 				rehypePlugins: [
 					rehypeSlug,
-					[rehypeHighlight, { ignoreMissing: true, plainText: ["math"] }],
-					rehypeKatex,
+					[
+						rehypeHighlight,
+						{
+							ignoreMissing: true,
+							plainText: [
+								"math",
+								"mermaid",
+								"latex",
+								"tex",
+								"hbs",
+								"handlebars",
+								"applescript",
+								"docker",
+								"nix",
+								"dataview",
+							],
+						},
+					],
+					[rehypeKatex, { strict: false }],
 				],
 			}
 		);
