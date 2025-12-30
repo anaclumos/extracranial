@@ -6,8 +6,6 @@ description: '루닛 MLOps 플랫폼 INCL 프론트엔드의 현대적 재개발
 ---
 
 import { KoreaNetherlandsGlobe } from './korea-netherlands'
-// next-video removed: use native HTML <video>
-
 최근 가장 많은 노력을 쏟은 것은 루닛에서의 MLOps 업무이다. 첫 직장인 이곳에서 MLOps 플랫폼의 프론트엔드 전체를 현대적으로 재개발을 리드했는데, 결과적으로 성공 반, 실패 반으로 끝났다. 그 이야기를 조심스레 해보려 한다.
 
 ## AutoML

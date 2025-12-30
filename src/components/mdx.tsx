@@ -2,6 +2,7 @@
 
 import { useMDXComponent } from "@content-collections/mdx/react";
 import { Children, isValidElement } from "react";
+import { KoreaNetherlandsGlobe } from "@/components/mdx/korea-netherlands-globe";
 import {
 	AccordionItem,
 	AccordionPanel,
@@ -62,6 +63,11 @@ const WIP = () => (
 );
 const SpotifySong = () => null;
 const AppleMusicSong = () => null;
+const Mermaid = ({ chart }: { chart: string }) => (
+	<pre className="my-4 overflow-x-auto rounded-lg bg-gray-100 p-4 dark:bg-gray-800">
+		<code>{chart}</code>
+	</pre>
+);
 
 // Custom details/summary components using coss/ui Accordion
 const Details = ({ children }: { children: React.ReactNode }) => {
@@ -110,6 +116,8 @@ const components = {
 	Details,
 	DisplayFlex,
 	Horizontal,
+	KoreaNetherlandsGlobe,
+	Mermaid,
 	Shuffle,
 	SpotifySong,
 	Summary,
