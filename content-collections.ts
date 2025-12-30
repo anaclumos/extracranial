@@ -73,7 +73,7 @@ function processContent(
 	const prefix = lang === "ko" ? "/ko" : "";
 
 	let result = content.replace(OBSIDIAN_IMAGE_REGEX, (_, imageName) => {
-		return `![${imageName}](/api/assets/${encodeURIComponent(imageName)})`;
+		return `![${imageName}](/assets/${encodeURIComponent(imageName)})`;
 	});
 
 	result = result.replace(WIKILINK_ALIAS_REGEX, (_, target, alias) => {
@@ -109,7 +109,7 @@ function processBlogContent(
 	// First, transform relative image paths to absolute paths
 	const result = content.replace(RELATIVE_IMAGE_REGEX, (_, alt, imagePath) => {
 		const encodedPath = encodeURIComponent(imagePath);
-		return `![${alt}](/api/assets/blog/${blogDirectory}/${encodedPath})`;
+		return `![${alt}](/assets/blog/${blogDirectory}/${encodedPath})`;
 	});
 
 	// Then apply the common content processing
