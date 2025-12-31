@@ -4,7 +4,9 @@ slug: '/692460'
 ---
 
 :::tip
+
 Special thanks to [Ishu Agrawal](https://github.com/ishuagrawal)
+
 :::
 
 ## Heap

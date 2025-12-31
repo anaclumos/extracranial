@@ -155,20 +155,20 @@ preamble
 \begin{algorithm}
   \caption{An algorithm with caption}
   \begin{algorithmic}
-	  \Require $n \geq 0$
-	  \Ensure $y = x^n$
-	  \State $y \gets 1$
-	  \State $X \gets x$
-	  \State $N \gets n$
-	  \While{$N \neq 0$}
-	  \If{$N$ is even}
-	  \State $X \gets X \times X$
-	  \State $N \gets \frac{N}{2}$  \Comment{This is a comment}
-	  \ElsIf{$N$ is odd}
-	  \State $y \gets y \times X$
-	  \State $N \gets N - 1$
-	  \EndIf
-	  \EndWhile
+      \Require $n \geq 0$
+      \Ensure $y = x^n$
+      \State $y \gets 1$
+      \State $X \gets x$
+      \State $N \gets n$
+      \While{$N \neq 0$}
+      \If{$N$ is even}
+      \State $X \gets X \times X$
+      \State $N \gets \frac{N}{2}$  \Comment{This is a comment}
+      \ElsIf{$N$ is odd}
+      \State $y \gets y \times X$
+      \State $N \gets N - 1$
+      \EndIf
+      \EndWhile
   \end{algorithmic}
 \end{algorithm}
 ```
@@ -182,40 +182,40 @@ preamble
 ```tex
 
 \begin{center}
-	\begin{tikzpicture}[main/.style = {node distance={15mm}, thick, draw, circle}]
-		\node[main] (H) {H};
-		\node[main] (A) [above right of=H] {A};
-		\node[main] (B) [right of=A] {B};
-		\node[main] (C) [right of=B] {C};
-		\node[main] (S) [below right of=C] {S};
-		\node[main] (D) [below right of=H] {D};
-		\node[main] (E) [right of=D] {E};
-		\node[main] (F) [right of=E] {F};
+    \begin{tikzpicture}[main/.style = {node distance={15mm}, thick, draw, circle}]
+        \node[main] (H) {H};
+        \node[main] (A) [above right of=H] {A};
+        \node[main] (B) [right of=A] {B};
+        \node[main] (C) [right of=B] {C};
+        \node[main] (S) [below right of=C] {S};
+        \node[main] (D) [below right of=H] {D};
+        \node[main] (E) [right of=D] {E};
+        \node[main] (F) [right of=E] {F};
 
-		\draw[->] (H) -- node[midway, above, sloped] {5} (A);
-		\draw[->] (A) -- node[midway, above] {6} (B);
-		\draw[->] (B) -- node[midway, above] {7} (C);
-		\draw[->] (C) -- node[midway, above, sloped] {6} (S);
+        \draw[->] (H) -- node[midway, above, sloped] {5} (A);
+        \draw[->] (A) -- node[midway, above] {6} (B);
+        \draw[->] (B) -- node[midway, above] {7} (C);
+        \draw[->] (C) -- node[midway, above, sloped] {6} (S);
 
-		\draw[->] (D) -- node[midway, above, sloped] {5} (B);
-		\draw[->] (B) -- node[midway, above, sloped] {4} (F);
+        \draw[->] (D) -- node[midway, above, sloped] {5} (B);
+        \draw[->] (B) -- node[midway, above, sloped] {4} (F);
 
-		\draw[->] (H) -- node[midway, above, sloped] {8} (D);
-		\draw[->] (D) -- node[midway, above] {4} (E);
-		\draw[->] (E) -- node[midway, above] {3} (F);
-		\draw[->] (F) -- node[midway, above, sloped] {6} (S);
+        \draw[->] (H) -- node[midway, above, sloped] {8} (D);
+        \draw[->] (D) -- node[midway, above] {4} (E);
+        \draw[->] (E) -- node[midway, above] {3} (F);
+        \draw[->] (F) -- node[midway, above, sloped] {6} (S);
 
 
-		\draw[->] (A) -- (B);
-		\draw[->] (B) -- (C);
-		\draw[->] (C) -- (S);
-		\draw[->] (H) -- (D);
-		\draw[->] (D) -- (E);
-		\draw[->] (E) -- (F);
-		\draw[->] (F) -- (S);
-		\draw[->] (D) -- (B);
-		\draw[->] (B) -- (F);
-	\end{tikzpicture}
+        \draw[->] (A) -- (B);
+        \draw[->] (B) -- (C);
+        \draw[->] (C) -- (S);
+        \draw[->] (H) -- (D);
+        \draw[->] (D) -- (E);
+        \draw[->] (E) -- (F);
+        \draw[->] (F) -- (S);
+        \draw[->] (D) -- (B);
+        \draw[->] (B) -- (F);
+    \end{tikzpicture}
 \end{center}
 
 ```

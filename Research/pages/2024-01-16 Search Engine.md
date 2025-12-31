@@ -30,18 +30,18 @@ Web crawlers recurse with Hyperlinks:
 
 ### How to Crawl?
 
-- **Quality** — find "best" pages
-- **Efficiency** — avoid duplications
-- **Etiquette** — don't disturb the website's performance (robots.txt includes information on this): [New York Times sues Microsoft and OpenAI for 'billions'](https://www.bbc.com/news/technology-67826601)
+- **Quality** -- find "best" pages
+- **Efficiency** -- avoid duplications
+- **Etiquette** -- don't disturb the website's performance (robots.txt includes information on this): [New York Times sues Microsoft and OpenAI for 'billions'](https://www.bbc.com/news/technology-67826601)
 
 ### How much to crawl?
 
-- **Coverage** — How many % of the web?
-- **Relative Coverage** — How many do competitors have?
+- **Coverage** -- How many % of the web?
+- **Relative Coverage** -- How many do competitors have?
 
 ### How often do you crawl?
 
-- **Freshness** — How much has changed?
+- **Freshness** -- How much has changed?
 - How much has changed?
 
 ## [[Cohere Rerank]]

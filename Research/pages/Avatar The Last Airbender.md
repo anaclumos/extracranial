@@ -4,11 +4,8 @@ slug: '/6D0BFC'
 title: 'Avatar: The Last Airbender'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+TODO: USE FUMADOCS I18N
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
 > _It's amazing how far we'll go to hide our true selves from the world._
@@ -37,11 +34,10 @@ import TabItem from '@theme/TabItem';
 >
 > _The mask is who you really are._
 >
-> — Masks (S01 E06)
+> -- Masks (S01 E06)
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
 <div lang='ko-KR'>
 
 > _우린 본연의 모습을 숨기기 위해 정말 많은 노력을 쏟는단다_
@@ -72,8 +68,6 @@ import TabItem from '@theme/TabItem';
 >
 > _가면을 쓴 모습이 진짜 모습일 수도 있다는 거야_
 >
-> — 가면 (S01 E06)
+> -- 가면 (S01 E06)
 
 </div>
-</TabItem>
-</Tabs>

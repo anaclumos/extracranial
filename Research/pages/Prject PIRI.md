@@ -5,13 +5,11 @@ aliases: ['PIRI']
 title: 'Project PIRI 🪈: Programmatic Interlingual Resource Integration'
 ---
 
-import Admonition from '@theme/Admonition';
-
-<Admonition type="info" title='Become a 10x dev without learning English' icon="💬">
+<Callout type="info" title='Become a 10x dev without learning English' icon="💬">
 
 Providing [[무제한번역|unlimited translations]] for major developer documents
 
-</Admonition>
+</Callout>
 
 ## [[2024-06-25]]
 
@@ -21,7 +19,7 @@ can someone make a nextjs app that takes our public github discussions and makes
 
 we want to run cal. com/community and when you want to comment, you get linked to github
 
-&mdash; Peer Richelsen — oss/acc (@peer_rich) [June 24, 2024](https://twitter.com/peer_rich/status/1805268068501004782?ref_src=twsrc%5Etfw)
+&mdash; Peer Richelsen -- oss/acc (@peer_rich) [June 24, 2024](https://twitter.com/peer_rich/status/1805268068501004782?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
@@ -31,7 +29,7 @@ good to know
 
 maybe the approach to add commentary to it (by gpt-summary of the discussion and maybe removing non-answers) is enough to not be considered duplicate?
 
-&mdash; Peer Richelsen — oss/acc (@peer_rich) [June 24, 2024](https://twitter.com/peer_rich/status/1805300021291577818?ref_src=twsrc%5Etfw)
+&mdash; Peer Richelsen -- oss/acc (@peer_rich) [June 24, 2024](https://twitter.com/peer_rich/status/1805300021291577818?ref_src=twsrc%5Etfw)
 
 </blockquote>
 
@@ -51,7 +49,7 @@ Example:[Original Post Link](https://t.co/sqrRYSTSiI)
 
 - Finished [[Project DANSO]], at least the first usable version
 
-## [[2024-05-30]] — Subdomain or Subdirectory?
+## [[2024-05-30]] -- Subdomain or Subdirectory?
 
 ### Subdirectory `piri.dev/ko/react`
 
@@ -67,19 +65,19 @@ Example:[Original Post Link](https://t.co/sqrRYSTSiI)
 - A monorepo would suffice
 - IT'S UGLY... (again) But I think this is the most direct way
 
-## [[2024-05-30]] — Serving for Subdirectory Routing
+## [[2024-05-30]] -- Serving for Subdirectory Routing
 
-### Approach 1 — Static Everything
+### Approach 1 -- Static Everything
 
 - For each `piri` translations, just static export the document into HTML.
 - Have a Hono server, and then parse each requests and route them to the correct HTML.
 
-### Approach 2 — Dynamic Everything
+### Approach 2 -- Dynamic Everything
 
 - For each `piri` translations, spin up a node server.
 - Have an NGINX, and parse each request and proxy them to the correct node server.
 
-## [[2024-05-30]] — Inner links for Subdirectory Routing
+## [[2024-05-30]] -- Inner links for Subdirectory Routing
 
 For example, if a `react.dev` project has a link to `/help`, it normally will route to `react.dev/help`. However, in our case, it should route to `piri.dev/ko/react/help`. How can we snatch the request and return the correct stuffs?
 
@@ -97,7 +95,7 @@ All information should be corrected and valid at the moment of HTML response.
 - Just don't fix it?
   - Not a consideration, it will virtually break every single link
 
-## [[2024-05-30]] — On Translations
+## [[2024-05-30]] -- On Translations
 
 - [[The Need for Project DANSO]]
 

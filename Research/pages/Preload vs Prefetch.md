@@ -3,15 +3,11 @@ lang: 'en'
 slug: '/A5B9F3'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+TODO: USE FUMADOCS I18N
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
 1. Preload:
-
    - The `preload` directive is used to indicate that a resource should be loaded as early as possible in the page load process.
    - When you use `preload`, the browser prioritizes the loading of the specified resource, making it available sooner.
    - Preloading is particularly useful for critical resources that are needed immediately, such as CSS files or fonts.
@@ -28,7 +24,13 @@ import TabItem from '@theme/TabItem';
 For fonts, it is generally recommended to use the `preload` directive instead of `prefetch`. Preloading fonts ensures that they are loaded as early as possible, reducing the time until the text is rendered with the correct font. This improves the user experience by avoiding the display of fallback fonts or invisible text while the actual font is being loaded.
 
 ```html
-<link rel="preload" href="path/to/font.woff2" as="font" type="font/woff2" crossorigin />
+<link
+  rel="preload"
+  href="path/to/font.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin
+/>
 ```
 
 By specifying `rel="preload"`, `as="font"`, and the appropriate `type` attribute, you instruct the browser to preload the font file with the correct context.
@@ -36,12 +38,10 @@ By specifying `rel="preload"`, `as="font"`, and the appropriate `type` attribute
 Remember to use the `crossorigin` attribute when preloading fonts from a different origin to ensure proper security measures are in place.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
 <div lang='ko-KR'>
 
 1. Preload:
-
    - `preload` 키워드는 페이지 로드 프로세스의 초기에 리소스를 가능한 한 빨리 로드해야 함을 나타내는 데 사용된다.
    - `preload`를 사용하면 브라우저는 지정된 리소스의 로딩을 우선시하여 더 빨리 사용할 수 있도록 한다.
    - Preloading은 특히 CSS 파일이나 폰트와 같이 즉시 필요한 중요한 리소스에 유용하다.
@@ -58,7 +58,13 @@ Remember to use the `crossorigin` attribute when preloading fonts from a differe
 폰트의 경우 일반적으로 `prefetch` 키워드 대신 `preload` 키워드를 사용하는 것이 좋다. 폰트를 미리 로드하면 가능한 한 빨리 폰트가 로드되어 실제 폰트로 텍스트가 렌더링될 때까지의 시간이 단축된다. 이렇게 하면 폴백 폰트 또는 실제 폰트가 로드되는 동안 보이지 않는 텍스트 표시를 방지하여 사용자 경험이 향상된다.
 
 ```html
-<link rel="preload" href="path/to/font.woff2" as="font" type="font/woff2" crossorigin />
+<link
+  rel="preload"
+  href="path/to/font.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin
+/>
 ```
 
 `rel="preload"`, `as="font"` 및 적절한 `type` 속성을 지정하면 브라우저에 올바른 컨텍스트로 폰트 파일을 미리 로드하도록 지시한다.
@@ -66,5 +72,3 @@ Remember to use the `crossorigin` attribute when preloading fonts from a differe
 다른 출처에서 폰트를 미리 로드할 때는 적절한 보안 조치가 마련되도록 `crossorigin` 속성을 사용해야 한다.
 
 </div>
-</TabItem>
-</Tabs>

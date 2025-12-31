@@ -24,9 +24,7 @@ slug: '/A480C6'
 - It would've been better to have more constructive undergrad vacations.
 - Engineers are like knives; you should keep working to keep yourself sharp.
 
-import Admonition from '@theme/Admonition';
-
-<Admonition type="info" title="I love my job because..." icon="💙">
+<Callout type="info" title="I love my job because..." icon="💙">
 Working at the biggest, most hyped company is a huge plus, especially when they have a huge event.
-[[Apple]] also has a sound responsibility system — e.g., DRI.
-</Admonition>
+[[Apple]] also has a sound responsibility system -- e.g., DRI.
+</Callout>

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/AC83DD'
 ---
 
-[Blurry JPEG]] is a thought-provoking article by science fiction legend Ted Chang. Ted makes an interesting analogy between large-scale language models ([[LLM|LLMs]]) like [[ChatGPT]] and lossy compression algorithms like blurry JPEG images. Ted argues that [[LLM|LLMs]] provide only a superficial understanding of a topic and can ultimately hinder the pursuit of proper knowledge. **I disagree with the conclusion of this article.** We need to recognize that even blurry images have value for learning and knowledge acquisition because taking data from the real world and processing it is very time-consuming. Sometimes we need less detailed but more efficient representations to facilitate faster understanding and progress.
+[[Blurry JPEG]] is a thought-provoking article by science fiction legend Ted Chang. Ted makes an interesting analogy between large-scale language models ([[LLM|LLMs]]) like [[ChatGPT]] and lossy compression algorithms like blurry JPEG images. Ted argues that [[LLM|LLMs]] provide only a superficial understanding of a topic and can ultimately hinder the pursuit of proper knowledge. **I disagree with the conclusion of this article.** We need to recognize that even blurry images have value for learning and knowledge acquisition because taking data from the real world and processing it is very time-consuming. Sometimes we need less detailed but more efficient representations to facilitate faster understanding and progress.
 
 If we squint, learning is ultimately a process of fetching data from the world, just like a computer retrieves information from data storage. If that's the case, then the speed at which information is fetched from any storage medium significantly impacts learning. I once did an exciting thought experiment where I visualized the calendar scale of a [[CPU]]. Imagine that one cycle of a [[CPU]] takes one second in CPU terms. (That's 4 trillion times slower.) So how long do everyday computer tasks take?
 
@@ -26,7 +26,7 @@ According to the imaginative CPU calendar scale, it would take a staggering 38 d
 
 ![[D26259.png]]
 
-Now, let us consider a scenario where you are the CPU, and you need to fetch an image of 130.8MB (this is the released version of the James Webb Space Telescope photo.) Bringing such a large image would take almost 14 CPU years to process. However, consider an [[alternative]] – a compressed version of the same image less than 2.5MB. Of course, it's a "blurry JPEG," but for most people, the difference in quality would be hardly noticeable.
+Now, let us consider a scenario where you are the CPU, and you need to fetch an image of 130.8MB (this is the released version of the James Webb Space Telescope photo.) Bringing such a large image would take almost 14 CPU years to process. However, consider an [[alternative]] - a compressed version of the same image less than 2.5MB. Of course, it's a "blurry JPEG," but for most people, the difference in quality would be hardly noticeable.
 
 ![I used a popular image compression tool, Optimage, and it made the file 98% smaller.](../assets/8DDFF2.png)
 

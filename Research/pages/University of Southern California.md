@@ -1,5 +1,5 @@
 ---
-lang: 'en'
+lang: 'ko'
 slug: '/F7710A'
 aliases:
   [

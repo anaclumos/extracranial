@@ -1,8 +1,8 @@
 ---
-lang: 'en'
+lang: 'ko'
 slug: '/FD846C'
 ---
 
-import WIP from '@site/src/components/WIP'
+import WIP from '@/components/wip'
 
 <WIP />

@@ -7,7 +7,7 @@ slug: '/383A01'
 ## Primary Objectives
 
 - Implement the Karatsuba Method
-- Do not use any `*` operator (like — not at all!)
+- Do not use any `*` operator (like -- not at all!)
 
 First, let's import the `math` library.
 

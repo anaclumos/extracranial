@@ -49,7 +49,7 @@ Jung rejects the argument that the size of companies is a problem, saying that i
 
 ## [[한민족|Korean]] People and Intellectual Resources
 
-> Because Hyundai has the world's best weapon, and that weapon is the world's best artisans — the [[한민족|Korean people]].
+> Because Hyundai has the world's best weapon, and that weapon is the world's best artisans -- the [[한민족|Korean people]].
 
 Speaking about [[대한민국|Korea]]'s [[economic development]] and national patriotism, Jung emphasizes that [[한민족|Korean]] workers are responsible for the country's world-class construction and shipbuilding and that the country's current [[Economy|economic]] achievements are due to the efforts of creative and diligent workers. Jung also emphasizes that [[대한민국|Korea]]'s human resources are far more valuable than its material resources. The country's wealth is finite, but human creativity and effort are infinite. This means that [[economic development]] that relies on resources will stop when those resources are depleted, whereas action through human endeavors is constantly possible.
 

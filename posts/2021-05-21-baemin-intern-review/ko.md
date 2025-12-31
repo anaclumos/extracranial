@@ -1,5 +1,5 @@
 ---
-title: '우아한테크캠프 3기 후기 🚚'
+title: '🚚 우아한테크캠프 3기 후기'
 date: 2021-05-21
 authors: anaclumos
 slug: '/E2CAE4'
@@ -333,7 +333,6 @@ async function addActivityLogToActivityLogList() {
 <summary>📚 더 많은 자료들</summary>
 
 - 우아한형제들 공식 자료
-
   - [우아한테크캠프 3기 모집 안내](https://woowabros.github.io/devrel/2020/04/13/techcamp3.html)
   - [우아한테크캠프 3기 7월의 일기](https://woowabros.github.io/devrel/2020/08/14/tecmpcamp_july_1.html)
   - [우아한테크캠프 3기 7월의 회고](https://woowabros.github.io/devrel/2020/08/19/techcamp_july_2.html)
@@ -341,7 +340,6 @@ async function addActivityLogToActivityLogList() {
   - [우아한테크캠프 3기 8월의 회고](https://woowabros.github.io/devrel/2020/09/14/techcamp3blog.html)
 
 - 7월의 기록들
-
   - [(우아한테크캠프 3기) 캠프의 반환점을 돌며](https://zoomkoding.github.io/%ED%9A%8C%EA%B3%A0/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84/2020/07/26/woowa-tech-camp-mid-term.html)
   - [2020 우아한 테크캠프(3기) 7월 후기](https://velog.io/@blair/%EC%9A%B0%EC%95%84%ED%95%9C-%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84-7%EC%9B%94-%ED%9B%84%EA%B8%B0)
   - [\[우아한테크캠프 3기\] 2번째 페어프로그래밍 종료 및 회고 👀](https://haerang94.tistory.com/10)
@@ -355,7 +353,6 @@ async function addActivityLogToActivityLogList() {
   - [주니어 개발자가 느낀 '나에게 있어 부족한, 그래서 갖춰야 할' 현업능력](https://velog.io/@tnk2u/%EC%A3%BC%EB%8B%88%EC%96%B4-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%EC%84%B1%EC%88%99%ED%95%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90)
 
 - 8월의 기록들
-
   - [(우아한테크캠프 3기) 캠프를 마치며](https://zoomkoding.github.io/%ED%9A%8C%EA%B3%A0/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84/2020/10/05/woowa-tech-camp-final.html)
   - [Frontend Designer](https://blog.jhaemin.com/frontend-designer#kor)
   - [나는 비로소 성장했습니다. (우아한테크캠프 3기)](https://changicho.tistory.com/28)
@@ -365,7 +362,6 @@ async function addActivityLogToActivityLogList() {
   - [친절과 불친절 사이 - 우아한 테크 캠프 전체 회고](https://velog.io/@naamoonoo/%EC%B9%9C%EC%A0%88%EA%B3%BC-%EB%B6%88%EC%B9%9C%EC%A0%88-%EC%82%AC%EC%9D%B4)
 
 - 기술 관련
-
   - [우아한 테크캠프 3기 스터디 블로그](https://woowa-techcamp-2020.github.io/practice-interview/)
   - [CI 붙이기 위해 GitHub Organization에 권한 요청하기](https://github.com/woowa-techcamp-2020/market-3/wiki/CI-%EB%B6%99%EC%9D%B4%EA%B8%B0-%EC%9C%84%ED%95%B4-GitHub-Organization%EC%97%90-%EA%B6%8C%ED%95%9C-%EC%9A%94%EC%B2%AD%ED%95%98%EA%B8%B0)
   - [Context API, LifeCycle API, Component Docs, Component, Design Pattern, Redux](https://github.com/changicho/TIL/tree/master/frontend/react)

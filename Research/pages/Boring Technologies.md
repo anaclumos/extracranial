@@ -6,7 +6,7 @@ aliases: ['overengineer', 'over-engineer']
 
 [[IDOL Stack]]
 
-### [Programming is a Pop Culture – Baldur Bjarnason](https://www.baldurbjarnason.com/2022/programming-is-a-pop-culture/)
+### [Programming is a Pop Culture - Baldur Bjarnason](https://www.baldurbjarnason.com/2022/programming-is-a-pop-culture/)
 
 - The programming pop culture favors specific code aesthetics based on the trends of the day
 - The issue is that the programming pop culture demands that code exhibit the latest popular aesthetics of rigor, formality, and cleverness

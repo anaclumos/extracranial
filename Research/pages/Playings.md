@@ -5,7 +5,7 @@ slug: '/AE80A9'
 
 This is a [[metapage]] for all the media I've played, starting from Mar 2023. Just like [[Readings]] and [[Watchings]].
 
-import Shuffle from '@site/src/components/Shuffle'
+import Shuffle from '@/components/shuffle'
 
 <Shuffle>
 
@@ -28,12 +28,13 @@ import Shuffle from '@site/src/components/Shuffle'
 - Rhythm Heaven Megamix (New 3DS XL)
 - Rhythm Heaven Megamix (Steam Deck OLED)
 - Rhythm Tengoku (Analogue Pocket)
+- Expedition 33
 
 </Shuffle>
 
 ## Doing
 
-n/a
+- Death Stranding 2
 
 ## Planned
 
@@ -45,7 +46,6 @@ n/a
 - Directive 8020
 - Ghost of Yotei
 - Hell is Us
-- Death Stranding 2
 - 완다와 거상 (PS5?)
 - Ratchet & Clank: Rift Apart (PS5?)
 

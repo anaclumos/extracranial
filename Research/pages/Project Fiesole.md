@@ -25,9 +25,8 @@ Ran entire ten epochs with the original dataset
 
 - MNIST CNN: 99.16 %
 
-<details>
-
-<summary>One by One</summary>
+<Accordions>
+<Accordion title="One by One">
 
 I ran ten epochs on one dataset and have yet to come back. Then I moved on to the next one.
 
@@ -36,12 +35,13 @@ I ran ten epochs on one dataset and have yet to come back. Then I moved on to th
 - TL(10), TR(10), BL(10): 30.66 %
 - TL(10), TR(10), BL(10), BR(10): 47.24 %
 
-</details>
+</Accordion>
+</Accordions>
 
 ## Round Robin
 
-<details>
-<summary>Round-robin</summary>
+<Accordions>
+<Accordion title="Round-robin">
 
 I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four cycles, thus 16 epochs.
 
@@ -66,73 +66,72 @@ I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four c
   - TL(1), TR(1), BL(1): 91.99 %
   - TL(1), TR(1), BL(1), BR(1): 90.12 %
 
-</details>
+</Accordion>
+</Accordions>
 
-<details>
-<summary>
-Round Robin, 10 cycles
-</summary>
+<Accordions>
+<Accordion title="Round Robin, 10 cycles">
 Still around 92%, max. Never goes above 95%.
-</details>
+</Accordion>
+</Accordions>
 
 ## Federated Learning
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+;
 
-<details>
-<summary>
-Results
-</summary>
+<Accordions>
+<Accordion title="Results">
 
-<DisplayFlex>
+<Horizontal>
 
 ![[E0ED4F.png]]
 
 ![[DA87AB.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[2289D2.png]]
 
 ![[EC12E1.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[7147C6.png]]
 
 ![[AB6E91.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[C6F843.png]]
 
 ![[EEF724.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[E2D67A.png]]
 
 ![[DFF919.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[A1DAA5.png]]
 
 ![[BC3839.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-</details>
+</Accordion>
+</Accordions>
 
 - The averaged model maxes its accuracy around 10-15 federations. Before each federation, each learner trains ten epochs from their corresponding dataset.
 - It never reaches over 95% accuracy.
@@ -157,7 +156,7 @@ Results
 
 1. **Performance Benchmark:** The current VFL model peaks at around 93% accuracy within 10-15 epochs. In contrast, a complete CNN trained on the entire dataset can quickly achieve an accuracy of 98%.
 2. **Recognition Across Quadrants:** the neural network's capability to recognize consistent patterns across different data segments (or quadrants) is a significant concern.
-3. **The Record Linkage Challenge:** The current architecture does not factor in "Record Linkage" — a mechanism to understand consistent data criteria across different quadrants. Incorporating this might be the key to breaching the 95%+ accuracy barrier.
+3. **The Record Linkage Challenge:** The current architecture does not factor in "Record Linkage" -- a mechanism to understand consistent data criteria across different quadrants. Incorporating this might be the key to breaching the 95%+ accuracy barrier.
 
 ### Potential Solutions
 

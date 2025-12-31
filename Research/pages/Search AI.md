@@ -22,7 +22,7 @@ slug: '/FB73DE'
 
 ### [Introducing NeevaAI - Neeva](https://neeva.com/blog/introducing-neevaai)
 
-- Today, we are thrilled to launch NeevaAI – an authentic, real-time [[AI]] search officially
+- Today, we are thrilled to launch NeevaAI - an authentic, real-time [[AI]] search officially
 - The introduction of accessible [[AI]], such as the recent explosion of [[ChatGPT]], represents one of the most exciting technological advances since the iPhone
 - First, [[ChatGPT]]'s output does not include sources or references. It is impossible to determine the credibility of an answer by identifying and looking up the primary source
 - Second, [[ChatGPT]] does not retrieve real-time data or information. The model stops at 2021, making it less useful for the needs of current searches

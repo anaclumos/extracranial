@@ -31,21 +31,21 @@ The compute, and federated storage layers feature payment aggregation, while fea
 
 The [[Datalake|Lakehouse]] model supports open-source models, allowing for swapping between [[CPU]], [[GPU]], and models like MPT.
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+;
 
-<DisplayFlex>
+<Horizontal>
 
 ![[51DDDC.jpg]]
 ![[CAA9AF.jpg]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[1B8E12.jpg]]
 ![[F912EE.jpg]]
 
-</DisplayFlex>
+</Horizontal>
 
 ### Applications
 

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/17B32D'
 ---
 
-### [In Lebanon, Solar Power Booms – SAPIENS](https://www.sapiens.org/culture/lebanon-solar-power/)
+### [In Lebanon, Solar Power Booms - SAPIENS](https://www.sapiens.org/culture/lebanon-solar-power/)
 
 - What had led to this solar boom
 - Now [teetering on bankruptcy](https://www.reuters.com/world/middle-east/lebanon-central-bank-governor-says-central-bank-still-functioning-statement-2022-04-04/), the government has found that it can no longer afford to import or subsidize fuel

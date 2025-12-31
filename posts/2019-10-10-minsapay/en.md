@@ -1,5 +1,5 @@
 ---
-title: 'Financial Infrastructure for Schools 💸'
+title: '💸 Financial Infrastructure for Schools'
 date: 2019-10-10
 authors: anaclumos
 slug: '/3955DC'

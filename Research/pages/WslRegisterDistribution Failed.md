@@ -1,5 +1,5 @@
 ---
-lang: 'en'
+lang: 'ko'
 slug: '/A51E2B'
 ---
 

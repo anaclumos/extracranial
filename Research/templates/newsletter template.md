@@ -1,5 +1,5 @@
 ---
 lang: 'en'
-slug: '{{hex}}'
+slug: '/0C388A'
 newsletter: '{{date:YYYY-MM-DD}}'
 ---

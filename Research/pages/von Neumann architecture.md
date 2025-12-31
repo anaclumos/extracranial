@@ -3,11 +3,8 @@ lang: 'en'
 slug: '/4BDBA0'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+TODO: USE FUMADOCS I18N
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
 Before the von Neumann architecture, computers were designed with separate memory units for instructions and data. This made reprogramming the computer difficult and time-consuming, often requiring physical rewiring.
@@ -21,8 +18,7 @@ This simplicity made it possible to build computers more efficiently and at a lo
 This universality made it possible to develop various software tools and programming languages that could be used across different computers. Nearly all modern computers, from desktop PCs to smartphones, are based on the basic principles of the von Neumann architecture, with various enhancements and optimizations.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
 <div lang='ko-KR'>
 
 폰 노이만 아키텍처 이전의 컴퓨터는, 명령어와 데이터를 위한 별도의 메모리 유닛으로 설계되었다. 이로 인해 컴퓨터의 재프로그래밍이 어려워 시간이 많이 소요되었으며, 종종 물리적으로 전선을 다시 연결해야 했다.
@@ -36,5 +32,3 @@ This universality made it possible to develop various software tools and program
 이러한 만능성은 다양한 소프트웨어 도구와 프로그래밍 언어를 개발하여 다양한 컴퓨터간에 사용할 수 있게끔 만들었다. 거의 모든 현대 컴퓨터, 데스크톱 PC부터 스마트폰까지, 기본적인 폰 노이만 아키텍처 원칙에 기반하여 다양한 향상과 최적화를 통해 구현되어 있다.
 
 </div>
-</TabItem>
-</Tabs>

@@ -7,6 +7,7 @@ Yesterday, we took a closer look into [[Bondee]]. [[Sudden Rise of Bondee]]. But
 
 :::danger
 This article examines the connection between [[Bondee]] and Zheli, a now-shut-down [[중국|Chinese]] service, and the allegations of personal information infringement regarding Zheli. [[Bondee]] has not yet encountered any information infringement cases or operational security problems. We cannot draw a definitive conclusion about [[Bondee]] simply from a few speculations. This article does not raise suspicions about the [[Bondee]] service. Please keep this part in mind and read it.
+
 :::
 
 [[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. [[Bondee]] launched on January 7, 2023, with great quality. [[Bondee]] also topped multiple [[app store]] charts across Asia within a month. Such a Mega-hit for an early startup. They feel very **prepared** and well-established. Isn't it strange?
@@ -17,12 +18,12 @@ This article examines the connection between [[Bondee]] and Zheli, a now-shut-do
 
 Indeed, based on the [Singaporean regulatory files](https://drive.google.com/file/d/1eIgAcVLUHA7luzCGZT_ed0R27Slwjd03/view), one of the directors is Yang Yuxiang, a [[중국인|Chinese]] CEO who acquired True.ly in May 2022, the parent company of Zheli. Zheli (Jelly, or 这里, "here" in [[중국어|Chinese]]), a popular social app in China, looks identical to [[Bondee]].
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+;
 
-<DisplayFlex>
+<Horizontal>
 ![[5CD08D.png]]
 ![[EEABEE.png]]
-</DisplayFlex>
+</Horizontal>
 
 ## Zheli and its Privacy Issues
 
@@ -48,25 +49,27 @@ A post questioning if Zheli plagiarized designs
 
 Beijing Yidianshuo Entertainment Technology, the company behind Zheli, subsequently published a statement claiming these are false.
 
-<details>
-<summary>Zheli denies any data collection. 2022-02-11. (Screenshot)</summary>
+<Accordions>
+<Accordion title="Zheli denies any data collection. 2022-02-11. (Screenshot)">
 
 ![[5A4739.png]]
 
 The Zheli app was recently accused of using users' private information, such as their [[WeChat]] ID and QQ number, without authorization. This caused concern among users and spread on various platforms. However, after investigation, the claims were found to be false and were part of an organized and planned defamation effort by the app's competitors. Beijing Yidianshuo Entertainment Technology, the company behind the Zheli app, has complied with all relevant laws and regulations and did not use the private information in question. However, the company has collected evidence and reported the incident to the police, and reserved the right to take legal action.
 
-</details>
+</Accordion>
+</Accordions>
 
 However, its developers soon took down the app to "improve existing user experience," adding it faced "continuous and organized attacks," including the spread of "deliberate rumors and false information" online. They denied anything about data leaks or privacy concerns they were suffering.
 
-<details>
-<summary>Zheli shuts down. 2022-02-13. (Screenshot)</summary>
+<Accordions>
+<Accordion title="Zheli shuts down. 2022-02-13. (Screenshot)">
 
 ![[474D9E.png]]
 
 Zheli is a new app that has faced continuous and organized attacks, causing rumors to be spread and negative reviews to be posted on various platforms. The company has taken legal action to defend its reputation. However, the app also has technical issues, such as freezes, crashes, and delays, which still need to be resolved. To improve the user experience, the company has decided to remove the app from the [[app store]] for a large-scale system upgrade and focus on fixing existing problems. The company hopes to hear from users through their question and suggestion channels and their official Weibo account.
 
-</details>
+</Accordion>
+</Accordions>
 
 ## But [[Bondee]] should be fine, right?
 

@@ -27,15 +27,21 @@ gcloud compute ssh --zone "asia-northeast3-c" "sunghyun-cho" --project "ai-resea
 brew install mysql
 export LIBRARY_PATH=$LIBRARY_PATH:$(brew --prefix zstd)/lib/
 gcloud init
+
 ```
 
+## Client
+
 ```bash
-uv python install 3.10
-uv python pin 3.10
-uv venv
-source .venv/bin/activate
+uv pip install --requirements requirements.txt
+uv pip install --requirements sdk/requirements.txt
+uv pip install -e .
+```
+
+## Backend
+
+```bash
 uv pip install --requirements django/requirements.txt
-uv pip install --requirements e2e_tests/requirements.txt
 ```
 
 ## Status
@@ -64,13 +70,8 @@ python manage.py test
 python manage.py test --settings incl.test_settings core.tests.test_job_view_kill
 ```
 
-<details>
-
-<summary>
-
-Setups
-
-</summary>
+<Accordions>
+<Accordion title="Setups">
 
 ```
 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
@@ -79,4 +80,11 @@ apt-get update && apt-get install google-cloud-sdk -y
 gcloud auth configure-docker asia-northeast3-docker.pkg.dev
 ```
 
-</details>
+</Accordion>
+</Accordions>
+
+## Authenticating on Gcloud ADC
+
+```
+gcloud auth login --update-adc
+```

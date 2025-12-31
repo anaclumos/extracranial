@@ -65,13 +65,23 @@ const rubify = (text) => {
     for (let x = 0; x < caretSplitted[0].length; x++) {
       if (caretSplitted[0][x] !== ' ')
         caretText +=
-          '<ruby>' + caretSplitted[0][x] + '<rp>(</rp><rt>' + (caretSplitted[1][x] || '') + '</rt><rp>)</rp></ruby>'
+          '<ruby>' +
+          caretSplitted[0][x] +
+          '<rp>(</rp><rt>' +
+          (caretSplitted[1][x] || '') +
+          '</rt><rp>)</rp></ruby>'
       else caretText += ' '
     }
     return caretText
   } else if (text.includes('^')) {
     caretSplitted = text.split('^')
-    return '<ruby>' + caretSplitted[0] + '<rp>(</rp><rt>' + caretSplitted[1] + '</rt><rp>)</rp></ruby>'
+    return (
+      '<ruby>' +
+      caretSplitted[0] +
+      '<rp>(</rp><rt>' +
+      caretSplitted[1] +
+      '</rt><rp>)</rp></ruby>'
+    )
   } else return text
 }
 ```

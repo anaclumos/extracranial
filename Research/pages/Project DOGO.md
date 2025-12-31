@@ -7,8 +7,8 @@ aliases: ['도고계획']
 주식 자동매매 알고리즘 및 [[Macroeconomics|거시경제]] 인공지능을 독자 개발하는 프로젝트이다. 어원은 [[도고상인]].
 
 - [Investment research for everyone](https://openbb.co/)
-- [Composer – Investing. Built Better.](https://www.composer.trade/)
-- [9 Examples of the Best Algorithmic Trading Strategies (And how to implement them without coding) – Composer](https://www.composer.trade/learn/examples-of-best-algorithmic-strategies)
+- [Composer - Investing. Built Better.](https://www.composer.trade/)
+- [9 Examples of the Best Algorithmic Trading Strategies (And how to implement them without coding) - Composer](https://www.composer.trade/learn/examples-of-best-algorithmic-strategies)
 - [Algorithmic trading](https://en.wikipedia.org/wiki/Algorithmic_trading)
 - [Algorithmic Trading - Meaning, Strategy, Examples, How it Works?](https://www.wallstreetmojo.com/algorithmic-trading/)
 - [kaggle.com/code/youhanlee/simple-quant-features-using-python](https://www.kaggle.com/code/youhanlee/simple-quant-features-using-python)

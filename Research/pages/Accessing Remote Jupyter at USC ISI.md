@@ -16,12 +16,10 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
 ### Steps to Access
 
 1. **Open Terminal:**
-
    - Windows: Use PowerShell or PuTTY.
    - macOS/Linux: Use the Terminal app.
 
 2. **SSH Connection:**
-
    - Command:
      ```
      ssh -L 8080:localhost:8080 scho@bdnf.isi.edu
@@ -29,14 +27,12 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
    - Replace `scho` with your server username.
 
 3. **Navigate to Work Directory:**
-
    - Use `cd` to go to your directory:
      ```
      cd path/to/work/directory
      ```
 
 4. **Start Jupyter Notebook:**
-
    - Run:
      ```
      jupyter lab --no-browser --port=8080
@@ -56,14 +52,12 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
 ### Steps for TensorFlow
 
 1. **Check GPU Availability:**
-
    - In Jupyter, run:
      ```python
      !nvidia-smi
      ```
 
 2. **Configure GPU in Notebook:**
-
    - After loading packages, set GPU:
 
      ```python
@@ -90,11 +84,9 @@ This guide provides instructions for accessing a Jupyter Notebook on a remote se
 ### Steps for [[PyTorch]]
 
 1. **Check GPU Availability:**
-
    - Same as for TensorFlow, use `!nvidia-smi`.
 
 2. **Configure GPU in Notebook:**
-
    - [[PyTorch]] automatically uses available GPUs, but you can specify one:
 
      ```python

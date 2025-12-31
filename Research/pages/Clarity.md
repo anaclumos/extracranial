@@ -13,7 +13,7 @@ slug: '/637631'
 
 Request for Startup: AI-powered BI tool (a la Preset/Metabase)
 
-A tool where you can:<br/>1. Connect your MySQL/Postgres DB<br/>2. Prompt with natural language – &quot;a chart showing the MoM growth in link clicks on [@dubdotco](https://twitter.com/dubdotco?ref_src=twsrc%5Etfw)&quot;<br/>3. Get a beautiful chart with said dataviz
+A tool where you can:<br/>1. Connect your MySQL/Postgres DB<br/>2. Prompt with natural language - &quot;a chart showing the MoM growth in link clicks on [@dubdotco](https://twitter.com/dubdotco?ref_src=twsrc%5Etfw)&quot;<br/>3. Get a beautiful chart with said dataviz
 
 Who&#39;s building this??
 

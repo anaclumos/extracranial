@@ -23,7 +23,10 @@ Using `preferred color scheme` [[CSS]] property and [[HTML]] Picture `srcset` pr
 ```html
 <a title="Simple Analytics" href="" referrerpolicy="origin" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://simpleanalyticsbadges.com/cho.sh?mode=dark" />
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://simpleanalyticsbadges.com/cho.sh?mode=dark"
+    />
     <img
       src="https://simpleanalyticsbadges.com/cho.sh"
       loading="lazy"

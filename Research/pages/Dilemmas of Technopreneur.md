@@ -17,7 +17,7 @@ Essentially, they can [[Cut the Fat]].
 There are dozens of examples, like the early days of Mark Zuckerberg, the creators of [[Obsidian]], or even Mr. Levels.
 
 **On the dark side.**
-Whether that can be sustainable enough — it's a different story. If the technopreneurs are genuinely talented, they can beef up the speed of innovation and continue the steam.
+Whether that can be sustainable enough -- it's a different story. If the technopreneurs are genuinely talented, they can beef up the speed of innovation and continue the steam.
 However, for the company to succeed and expand in the market, it needs to grow at some point. Still, if the company relies too profoundly on its founders, it may be easier to decouple the product from the technopreneurs.
 
 Also, knowledge can be a curse; sometimes, they become too technical and tend to create a product that leans toward a specific portion of society.

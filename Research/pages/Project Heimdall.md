@@ -6,7 +6,7 @@ aliases: ['헤임달', 'Heimdall']
 
 ![[F7BA33.png]]
 
-> Heimdall's All-Seeing Eyes — Heimdall sees and hears, all thanks to his extrasensory capabilities. His sight can extend across all Nine Realms, and he can see 10 trillion souls from the Bifrost Observatory. Asgardians call him from other worlds, such as Earth, Jotunheim, and Sakaar. [Heimdall On Screen Powers, Enemies, History](https://www.marvel.com/characters/heimdall/on-screen)
+> Heimdall's All-Seeing Eyes -- Heimdall sees and hears, all thanks to his extrasensory capabilities. His sight can extend across all Nine Realms, and he can see 10 trillion souls from the Bifrost Observatory. Asgardians call him from other worlds, such as Earth, Jotunheim, and Sakaar. [Heimdall On Screen Powers, Enemies, History](https://www.marvel.com/characters/heimdall/on-screen)
 
 ## [[2023-04-19]]
 
@@ -36,15 +36,15 @@ aliases: ['헤임달', 'Heimdall']
 
 ## [[2023-06-20]]
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+;
 
-<DisplayFlex>
+<Horizontal>
 
 ![[EBD79C.png]]
 
 ![[AC5118.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 Implemented Nav bar!
 
@@ -88,7 +88,7 @@ Implemented Nav bar!
 - Implemented [Create PostgreSQL DB Tables and ORM · Issue #24 · anaclumos/heimdall](https://github.com/anaclumos/heimdall/issues/24)
 - How can we scrape the web with [[JavaScript]] enabled? Problems are Access Restricted SPAs like [[Twitter]].
 - [Inngest - Effortless serverless queues, background jobs, and workflows](https://www.inngest.com/)
-- [Turns websites into data — Microlink](https://microlink.io/)
+- [Turns websites into data -- Microlink](https://microlink.io/)
 - [microlinkhq/browserless](https://github.com/microlinkhq/browserless): browserless is an efficient way to interact with a [[headless]] [[Web Browser|browser]] built in top of Puppeteer.
 - [Creating a Background Worker with Exec and Faktory](https://redwoodjs.com/docs/how-to/creating-a-background-worker-with-exec-and-faktory)
 - [adamschwartz/web.scraper.workers.dev](https://github.com/adamschwartz/web.scraper.workers.dev): Scrape websites for text by [[CSS]] selector.

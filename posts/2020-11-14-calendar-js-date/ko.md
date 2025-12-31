@@ -1,5 +1,5 @@
 ---
-title: 'JS로 달력 만들기 🗓'
+title: '🗓 JS로 달력 만들기'
 date: 2020-11-14
 authors: anaclumos
 slug: '/F522B3'
@@ -110,7 +110,12 @@ const processDate = (day) => {
 ```js
 const getCalendarHTML = () => {
   let today = new Date()
-  let { lastMonthLastDate, thisMonthFirstDate, thisMonthLastDate, nextMonthFirstDate } = processDate(today)
+  let {
+    lastMonthLastDate,
+    thisMonthFirstDate,
+    thisMonthLastDate,
+    nextMonthFirstDate,
+  } = processDate(today)
   let calendarContents = []
 
   // ...
@@ -123,7 +128,11 @@ const getCalendarHTML = () => {
 
 ```js
 for (let d = 0; d < NUMBER_OF_DAYS_IN_WEEK; d++) {
-  calendarContents.push(html`<div class="${NAME_OF_DAYS[d]} calendar-cell">${NAME_OF_DAYS[d]}</div>`)
+  calendarContents.push(
+    html`<div class="${NAME_OF_DAYS[d]} calendar-cell">
+      ${NAME_OF_DAYS[d]}
+    </div>`,
+  )
 }
 ```
 
@@ -139,8 +148,10 @@ for (let d = 0; d < thisMonthFirstDate.getDay(); d++) {
           past-month
         "
     >
-      ${lastMonthLastDate.getMonth() + 1}/${lastMonthLastDate.getDate() - thisMonthFirstDate.getDay() + d}
-    </div>`
+      ${lastMonthLastDate.getMonth() + 1}/${lastMonthLastDate.getDate() -
+      thisMonthFirstDate.getDay() +
+      d}
+    </div>`,
   )
 }
 ```
@@ -160,7 +171,7 @@ for (let d = 0; d < thisMonthLastDate.getDate(); d++) {
         "
     >
       ${d + 1} ${today.getDate() === d + 1 ? ' today' : ''}
-    </div>`
+    </div>`,
   )
 }
 ```
@@ -180,7 +191,7 @@ for (let d = 0; d < nextMonthDaysToRender; d++) {
         "
     >
       ${nextMonthFirstDate.getMonth() + 1}/${d + 1}
-    </div>`
+    </div>`,
   )
 }
 ```

@@ -23,9 +23,9 @@ Using [[N-gram]] to detect [[language]] involves analyzing the frequency and occ
 
 ### Considerations and Enhancements
 
-- **Size of [[N-gram|N-grams]]** — The choice of N (e.g., bigrams, trigrams) can impact the effectiveness of [[language]] detection. Smaller [[N-gram|N-grams]] may be more versatile across languages, while larger [[N-gram|N-grams]] can capture more context but require larger corpora to represent the [[language]] accurately.
-- **Handling Noise** — Texts with many proper names, technical terms, or borrowed words from other languages can introduce noise. Techniques to filter or normalize such terms can improve accuracy.
-- **Combining [[N-gram]] Sizes** — Sometimes, combining different [[N-gram]] sizes can improve detection accuracy.
-- **[[ML|Machine Learning]] Approaches** — More sophisticated approaches might involve [[ML|machine learning]] models trained on [[N-gram]] [[Feature|features]] to classify the [[language]] of a text.
+- **Size of [[N-gram|N-grams]]** -- The choice of N (e.g., bigrams, trigrams) can impact the effectiveness of [[language]] detection. Smaller [[N-gram|N-grams]] may be more versatile across languages, while larger [[N-gram|N-grams]] can capture more context but require larger corpora to represent the [[language]] accurately.
+- **Handling Noise** -- Texts with many proper names, technical terms, or borrowed words from other languages can introduce noise. Techniques to filter or normalize such terms can improve accuracy.
+- **Combining [[N-gram]] Sizes** -- Sometimes, combining different [[N-gram]] sizes can improve detection accuracy.
+- **[[ML|Machine Learning]] Approaches** -- More sophisticated approaches might involve [[ML|machine learning]] models trained on [[N-gram]] [[Feature|features]] to classify the [[language]] of a text.
 
 [[N-gram]]-based [[language]] detection is a powerful technique for distinguishing between languages with distinct characters or word patterns. However, its accuracy can depend on the quality and representativeness of the [[language]] profiles and the text being analyzed.

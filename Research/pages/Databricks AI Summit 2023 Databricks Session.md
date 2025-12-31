@@ -19,7 +19,7 @@ The pitfalls of poor data governance were highlighted, noting that it can lead t
 
 ### [[Databricks]]' [[Datalake|Lakehouse]]
 
-[[Databricks]] proposes a solution akin to the 'iPhone of data'—the [[Datalake|Lakehouse]]. It is designed to unify all data usages into a single layer, providing one copy of data with centralized governance. The concept of the [[Datalake|Lakehouse]] is built on unification, which offers unique advantages in data management.
+[[Databricks]] proposes a solution akin to the 'iPhone of data'--the [[Datalake|Lakehouse]]. It is designed to unify all data usages into a single layer, providing one copy of data with centralized governance. The concept of the [[Datalake|Lakehouse]] is built on unification, which offers unique advantages in data management.
 
 ### Open Source and Portability
 

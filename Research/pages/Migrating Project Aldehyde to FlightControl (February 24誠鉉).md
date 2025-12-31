@@ -19,7 +19,7 @@ I migrated my website, [[Aldehyde]] (part of Project [[Extracranial]]), to [[Fli
 
 ## Background
 
-Before [[Aldehyde Outage (January 23誠鉉)]], the [[extracranial]] workflow was simple — [[git]] push, wait for 10 minutes for [[Vercel]] to build it, and then voila you have the updated website.
+Before [[Aldehyde Outage (January 23誠鉉)]], the [[extracranial]] workflow was simple -- [[git]] push, wait for 10 minutes for [[Vercel]] to build it, and then voila you have the updated website.
 
 As [[Aldehyde]] grew, with thousands of documents and images, the RAM usage started to spike. Then, on January 2023, [[Aldehyde]] became too big to fit inside a [[Vercel]] builder. More information on [[Aldehyde Outage (January 23誠鉉)]].
 
@@ -58,9 +58,9 @@ As seen in [[Aldehyde Outage (January 23誠鉉)]], weirdly, [[Docusaurus]] chugg
 
 But it **was** indeed possible! Using CNAME-flattening on [[Cloudflare]], I was able to configure the root domain directly to [[Cloudflare]] (or [[AWS]], under the hood?). More info here: [[Configuring Root Domain on FlightControl with CloudFlare]]. I reported this information to [[FlightControl]], and they responded:
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+;
 
-<DisplayFlex>
+<Horizontal>
 
 <figure>
 
@@ -85,7 +85,7 @@ After sharing my so-called "workaround"
 </figcaption>
 </figure>
 
-</DisplayFlex>
+</Horizontal>
 
 As I noted, this is the charm of working with an early-stage engineering product team! You also contribute to the product as an early adopter.
 

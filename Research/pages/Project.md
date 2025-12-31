@@ -7,3 +7,18 @@ aliases:
   - 사업
   - 사이드 프로젝트
 ---
+
+- [[Project Starfinder]]
+- [[Hypany]]
+- [[Project Democratools]]
+- [[Project Now Korea]]
+- [[Project MarkRight]]
+
+---
+
+- [[Project Everynews]]
+- [[Project Referrals]]
+
+---
+
+- [[Agentic Trading]]

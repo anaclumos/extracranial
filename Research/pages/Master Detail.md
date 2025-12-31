@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/43DF80'
 ---
 
-[Master–detail interface](https://en.wikipedia.org/wiki/Master%E2%80%93detail_interface)
+[Master-detail interface](https://en.wikipedia.org/wiki/Master%E2%80%93detail_interface)
 
 Master Detail is a UI that displays various options with a hierarchy.
 
@@ -15,22 +15,22 @@ Master Detail in mobile, tablet (or foldable), and desktop has been thoroughly r
 
 ![[91B7AF.gif]]
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+;
 
-<DisplayFlex>
+<Horizontal>
 
 ![[BCD6C8.png]]
 
 ![[114B61.png]]
 
-</DisplayFlex>
+</Horizontal>
 
-<DisplayFlex>
+<Horizontal>
 
 ![[666362.png]]
 
 ![[8592D8.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 You get the idea.

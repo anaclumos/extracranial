@@ -8,13 +8,13 @@ In [[ML|machine learning]], a **feature** is an individual data point, measurabl
 
 ### Types of Features
 
-1. **Numerical Features** — These are continuous features that can take any numerical value. Examples include height, weight, and temperature.
-2. **Categorical Features** — These features can take on one of a limited set of values. Examples include gender (male, female), marital status (single, married, divorced), and educational level (high school, bachelor's, master's, [[Ph.D.]]).
-3. **Ordinal Features** — These are similar to categorical features but have a clear sense of order. Examples include star ratings (1, 2, 3, 4, 5) and educational level (elementary, middle school, high school, college).
-4. **Boolean or Binary Features** — These features take on one of two values: True/False or 0/1.
-5. **Text Features** — These features come from text data and often need to be transformed into a numerical form through techniques like TF-IDF (Term Frequency-Inverse Document Frequency) or word embeddings before they can be used in a [[ML|machine-learning]] model.
-6. **Time Series Features** — These features change over time and are usually part of time-series data.
-7. **Image, Audio, Video Features** — These are features extracted from image, audio, or video data, often using specific techniques like convolutional neural networks or Fourier transforms for audio features.
+1. **Numerical Features** -- These are continuous features that can take any numerical value. Examples include height, weight, and temperature.
+2. **Categorical Features** -- These features can take on one of a limited set of values. Examples include gender (male, female), marital status (single, married, divorced), and educational level (high school, bachelor's, master's, [[Ph.D.]]).
+3. **Ordinal Features** -- These are similar to categorical features but have a clear sense of order. Examples include star ratings (1, 2, 3, 4, 5) and educational level (elementary, middle school, high school, college).
+4. **Boolean or Binary Features** -- These features take on one of two values: True/False or 0/1.
+5. **Text Features** -- These features come from text data and often need to be transformed into a numerical form through techniques like TF-IDF (Term Frequency-Inverse Document Frequency) or word embeddings before they can be used in a [[ML|machine-learning]] model.
+6. **Time Series Features** -- These features change over time and are usually part of time-series data.
+7. **Image, Audio, Video Features** -- These are features extracted from image, audio, or video data, often using specific techniques like convolutional neural networks or Fourier transforms for audio features.
 
 ### Feature Engineering
 

@@ -11,7 +11,7 @@ slug: '/C60376'
 - [appsmithorg/appsmith: Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.](https://github.com/appsmithorg/appsmith)
 - [appium/appium: Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol](https://github.com/appium/appium)
 - [Avaiga/taipy: Turns Data and AI algorithms into production-ready web applications in no time.](https://github.com/Avaiga/taipy)
-- [apify/crawlee: Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.](https://github.com/apify/crawlee)
+- [apify/crawlee: Crawlee--A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.](https://github.com/apify/crawlee)
 - [kestra-io/kestra: :zap: Workflow Automation Platform. Orchestrate & Schedule code in any language, run anywhere, 500+ plugins. Alternative to Zapier, Rundeck, Camunda, Airflow...](https://github.com/kestra-io/kestra)
 - [AutomaApp/automa: A browser extension for automating your browser by connecting blocks](https://github.com/AutomaApp/automa)
 - [Hammerspoon/hammerspoon: Staggeringly powerful macOS desktop automation with Lua](https://github.com/Hammerspoon/hammerspoon)

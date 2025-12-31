@@ -5,7 +5,7 @@ aliases:
   - Ganymede
 ---
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+;
 
 - [[The Paradoxical Moon Philosophy]]
 - [[Send Separately]]
@@ -21,8 +21,6 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - Added text placeholders. It was surprisingly hard to do it in UITextView and I'm surprised there's no easy way of doing this.
 - Tried to modify ProgressBar but failed
 - Completed Read View.
-
-![Funny that the only way of recording is like this, because my screenshot protection is too good!!!](../assets/AE6FB5.gif)
 
 ![[287818.jpeg]]
 
@@ -53,12 +51,12 @@ Server Crashed. migrating to Fly.io... Because I wanted a Vercel-like experience
 
 ## [[2023-12-24]]
 
-<DisplayFlex>
+<Horizontal>
 
 ![[9A391C.png]]
 ![[485E0B.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 ## [[2023-12-15]]
 

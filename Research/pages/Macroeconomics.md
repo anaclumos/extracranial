@@ -4,11 +4,8 @@ slug: '/ECCCA7'
 aliases: ['거시경제', '거경', '거시경제학', '거시 경제학', '거시 경제', '거시']
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+TODO: USE FUMADOCS I18N
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
 Macroeconomics studies how an [[economy]] as a whole behaves.
@@ -23,8 +20,7 @@ Macroeconomics examines the following factors:
 Other common terms in macroeconomics include Output, Production, Income, and Expenditures.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
 <div lang='ko-KR'>
 
 거시[[Economy|경제학]]은 [[Economy|경제]] 전체가 어떻게 작동하는지를 연구하는 학문이다.
@@ -40,8 +36,6 @@ Other common terms in macroeconomics include Output, Production, Income, and Exp
 거시[[Economy|경제학]]의 다른 일반적인 용어에는 생산량, 생산, 소득, 지출 등이 있다.
 
 </div>
-</TabItem>
-</Tabs>
 
 [[민사고]] 재학 시절 전교 1등을 했다...라고 하기엔 상당히 오해가 있는 것이, 수업에서 1등을 한 것은 맞지만
 

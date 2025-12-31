@@ -17,7 +17,9 @@ Superseded by [[sssss]]
 ```
 
 :::tip
+
 See https://github.com/anaclumos/karabiner.json/ for more up-to-date configs.
+
 :::
 
 ```json

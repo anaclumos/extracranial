@@ -21,7 +21,7 @@ What is the notion of the exosuit of brains? The writing was once the most bleed
 
 ### Episodic Memories and Identity
 
-> Psychologists make a distinction between semantic memory— knowledge of general facts—and episodic memory, or recollection of personal experiences. We've been using technological supplements for semantic memory ever since the invention of writing: first books, then [[Search Engine|search engines]]. By contrast, we've historically resisted such aids when it comes to episodic memory; few people have ever kept as many diaries or photo albums as they did ordinary books. The obvious reason is convenience; if we wanted a book on the birds of North America, we could consult one that an ornithologist has written, but if we wanted a daily diary, we had to write it for ourselves. But I also wonder if another reason is that, subconsciously, we regarded our episodic memories as such an integral part of our identities that we were reluctant to externalize them, to relegate them to books on a shelf or files on a computer.
+> Psychologists make a distinction between semantic memory-- knowledge of general facts--and episodic memory, or recollection of personal experiences. We've been using technological supplements for semantic memory ever since the invention of writing: first books, then [[Search Engine|search engines]]. By contrast, we've historically resisted such aids when it comes to episodic memory; few people have ever kept as many diaries or photo albums as they did ordinary books. The obvious reason is convenience; if we wanted a book on the birds of North America, we could consult one that an ornithologist has written, but if we wanted a daily diary, we had to write it for ourselves. But I also wonder if another reason is that, subconsciously, we regarded our episodic memories as such an integral part of our identities that we were reluctant to externalize them, to relegate them to books on a shelf or files on a computer.
 
 > Right now each of us is a private oral culture. We rewrite our pasts to suit our needs and support the story we tell about ourselves. With our memories we are all guilty of a Whig interpretation of our personal histories, seeing our former selves as steps toward our glorious present selves.
 
@@ -37,7 +37,7 @@ What is the notion of the exosuit of brains? The writing was once the most bleed
 >
 > And I think I've found the real benefit of digital memory. The point is not to prove you were right; the point is to admit you were wrong.
 
-> Digital memory will not stop us from telling stories about ourselves. As I said earlier, we are made of stories, and nothing can change that. What digital memory will do is change those stories from fabulations that emphasize our best acts and elide our worst, into ones that—I hope—acknowledge our fallibility and make us less judgmental about the fallibility of others.
+> Digital memory will not stop us from telling stories about ourselves. As I said earlier, we are made of stories, and nothing can change that. What digital memory will do is change those stories from fabulations that emphasize our best acts and elide our worst, into ones that--I hope--acknowledge our fallibility and make us less judgmental about the fallibility of others.
 
 ## The Merchant and the Alchemist's Gate
 

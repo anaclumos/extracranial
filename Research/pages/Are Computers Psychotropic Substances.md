@@ -38,4 +38,4 @@ Some may claim that I am falsely accusing digital devices, like, "How arrogant y
 
 > All of humanity's problems stem from man's inability to sit quietly in a room alone.
 >
-> — Blaise Pascal (1623-1662)
+> -- Blaise Pascal (1623-1662)

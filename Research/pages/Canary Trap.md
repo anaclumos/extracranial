@@ -9,4 +9,4 @@ slug: '/5A0CC7'
 
 > That is quite an interesting story. We sent what appeared to be identical [[Mail|emails]] to all, but each was actually coded with either one or two spaces between sentences, forming a binary signature that identified the leaker.
 >
-> — [[Elon Musk]] (@elonmusk) [October 9, 2022](https://twitter.com/elonmusk/status/1579101966453858305?ref_src=twsrc%5Etfw)
+> -- [[Elon Musk]] (@elonmusk) [October 9, 2022](https://twitter.com/elonmusk/status/1579101966453858305?ref_src=twsrc%5Etfw)

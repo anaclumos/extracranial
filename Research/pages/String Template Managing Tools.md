@@ -1,5 +1,5 @@
 ---
-lang: en
+lang: 'en'
 slug: '/03E6F6'
 ---
 
@@ -11,6 +11,6 @@ slug: '/03E6F6'
 - [PromptLayer - The first prompt engineering platform. The tool for prompt management, prompt evaluations, and LLM observability](https://www.promptlayer.com/)
 - [promptfoo/promptfoo: Test your prompts, agents, and RAGs. Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.](https://github.com/promptfoo/promptfoo)
 - [PromptHub: AI Prompt Management for Teams](https://www.prompthub.us/)
-- [pezzolabs/pezzo: 🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.](https://github.com/pezzolabs/pezzo)
+- [pezzolabs/pezzo: 🕹 Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.](https://github.com/pezzolabs/pezzo)
 - [Parea AI](https://www.parea.ai/)
 - [Izlo - Prompt control for teams.](https://getizlo.com/)

@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/54DE0E'
 ---
 
-### [Apple's Feedback Mechanism is Broken — Liss is More](https://www.caseyliss.com/2022/6/20/feedback-is-broken-stop-trying-to-make-radar-happen)
+### [Apple's Feedback Mechanism is Broken -- Liss is More](https://www.caseyliss.com/2022/6/20/feedback-is-broken-stop-trying-to-make-radar-happen)
 
 - The author experienced a half-year-long silence before knowing he needed one line of code change to fix the bug.
 

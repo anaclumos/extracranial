@@ -11,14 +11,14 @@ I may call it... neobubble trend?
 
 More subtle ones:
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+;
 
-<DisplayFlex>
+<Horizontal>
 
 ![[CCA21B.gif]]
 ![[3924FC.png]]
 
-</DisplayFlex>
+</Horizontal>
 
 ![[42DAAA.jpg]]
 
@@ -46,4 +46,4 @@ I&#39;d like to share some of my favorite paywall concepts designed in 2023.
 
 </blockquote>
 
-[Orion – From idea to launch in 45 days](https://www.lux.camera/orion-from-idea-to-launch-in-45-days/)
+[Orion - From idea to launch in 45 days](https://www.lux.camera/orion-from-idea-to-launch-in-45-days/)

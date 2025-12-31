@@ -1,5 +1,5 @@
-import DisplayFlex from '@site/src/components/DisplayFlex'
+;
 
-<DisplayFlex>
+<Horizontal>
 
-</DisplayFlex>
+</Horizontal>

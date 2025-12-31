@@ -3,11 +3,8 @@ lang: 'en'
 slug: '/BF967C'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+TODO: USE FUMADOCS I18N
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
 ## When to Use Each
@@ -71,8 +68,7 @@ Arrow functions do not have a `prototype` property.
 In arrow functions, if you have a single expression, you can omit the curly braces `{}` and the `return` statement. The expression automatically returns its result.
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
 <div lang='ko-KR'>
 
 ## 각각 사용할 때
@@ -136,5 +132,3 @@ const add = (a, b) => a + b;
 화살표 함수에서는 단일 표현식을 사용할 경우, 중괄호 `{}`와 `return` 문을 생략할 수 있다. 표현식은 자동으로 그 결과를 반환한다.
 
 </div>
-</TabItem>
-</Tabs>

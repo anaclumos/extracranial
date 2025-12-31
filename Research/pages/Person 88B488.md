@@ -12,9 +12,7 @@ slug: '/88B488'
 - Hardware jobs can do remote jobs
   - they often bring the machinery home
 
-import Admonition from '@theme/Admonition';
-
-<Admonition type="info" title="I love my job because..." icon="💙">
+<Callout type="info" title="I love my job because..." icon="💙">
 I like the CEO (Jensen Huang).
 He is a very focused and strong leader.
-</Admonition>
+</Callout>

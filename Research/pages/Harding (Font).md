@@ -14,6 +14,10 @@ slug: '/93A9A5'
 
 ## Alternatives
 
+Ivar-Headline?
+
+Calena
+
 [Alegreya - Google Fonts](https://fonts.google.com/specimen/Alegreya)
 
 ![[EE6778.png]]

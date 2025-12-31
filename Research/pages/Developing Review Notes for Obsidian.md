@@ -64,7 +64,16 @@ slug: '/DAF673'
 우선 이와 같이 기본 코드를 작성했다.
 
 ```ts
-import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian'
+import {
+  App,
+  Editor,
+  MarkdownView,
+  Modal,
+  Notice,
+  Plugin,
+  PluginSettingTab,
+  Setting,
+} from 'obsidian'
 
 interface CustomSettings {
   // relative path to daily notes folder
@@ -93,9 +102,13 @@ export default class CustomPlugin extends Plugin {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData())
   }
   createRibbon(): HTMLElement {
-    const ribbon = this.addRibbonIcon('calendar-with-checkmark', 'Review Daily Notes', (evt: MouseEvent) => {
-      new Notice('HELLO!')
-    })
+    const ribbon = this.addRibbonIcon(
+      'calendar-with-checkmark',
+      'Review Daily Notes',
+      (evt: MouseEvent) => {
+        new Notice('HELLO!')
+      },
+    )
     return ribbon
   }
 }
@@ -204,15 +217,15 @@ console.log(files)
 
 ```ts
 public loadDailyNotes(): TFile[] {
-	const { dailyNotesFolder } = this.settings;
-	const files = this.app.vault.getFiles();
-	const dailyNotes = files.filter(
-		(file) =>
-			file.path.startsWith(dailyNotesFolder) &&
-			file.path.endsWith(".md")
-	);
-	console.log(dailyNotes);
-	return dailyNotes;
+    const { dailyNotesFolder } = this.settings;
+    const files = this.app.vault.getFiles();
+    const dailyNotes = files.filter(
+        (file) =>
+            file.path.startsWith(dailyNotesFolder) &&
+            file.path.endsWith(".md")
+    );
+    console.log(dailyNotes);
+    return dailyNotes;
 }
 ```
 
@@ -239,7 +252,7 @@ dailyNotes.sort((a, b) => {
 ## [[2022-07-26]]
 
 일주일 만에 다시 진행해본다.
-우선 옵시디안으로 개발하는 것은 HMR — Hot Module Reload가 안 되는 듯 하다.
+우선 옵시디안으로 개발하는 것은 HMR -- Hot Module Reload가 안 되는 듯 하다.
 매번 [[WebExtension|익스텐션]]을 삭제하고 다시 설치해야 한다.
 수정: `yarn package` 이후 옵시디언 개발자 메뉴에서 새로고침하면 된다.
 
@@ -267,7 +280,10 @@ async onOpen() {
 옵시디언 [[API]] 문서를 찾아보다가 다음과 같은 부분을 찾았다.
 
 ```ts
-export class MarkdownPreviewView extends MarkdownRenderer implements MarkdownSubView, MarkdownPreviewEvents {
+export class MarkdownPreviewView
+  extends MarkdownRenderer
+  implements MarkdownSubView, MarkdownPreviewEvents
+{
   /**
    * @public
    */

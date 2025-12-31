@@ -5,9 +5,11 @@ slug: '/1C362F'
 [[2020-04-15]]
 
 :::tip
+
 이하 모든 내용은 2020년 기준으로 작성되었다.
 2022년 기준, **그냥 [[Pretendard]]를 사용**하면 된다.
 가장 [[Apple|애플]]을 잘 모방한 서체이다.
+
 :::
 
 아주 오랜 기간 나에게 딱 맞는 폰트 [[CSS]]를 찾아왔다. 이 글에서는 드디어 찾은 나만의 폰트 [[CSS]]에 대해서 다뤄볼 것이다.
@@ -16,8 +18,9 @@ slug: '/1C362F'
 
 ```css
 font-family: /* 본문용 서체 */
-  '-apple-system', 'BlinkMacSystemFont', 'Apple SD Gothic Neo', 'Inter', 'Spoqa Han Sans', 'Segoe UI', Sans-Serif,
-  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  '-apple-system', 'BlinkMacSystemFont', 'Apple SD Gothic Neo', 'Inter',
+  'Spoqa Han Sans', 'Segoe UI', Sans-Serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
 
 font-family: /* 코드용 서체 */ 'SF Mono', 'Consolas', 'Menlo', monospace;
 ```

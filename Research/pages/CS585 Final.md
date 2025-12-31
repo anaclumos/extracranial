@@ -1108,22 +1108,22 @@ slug: '/2A7ECC'
 
 ### Core Components
 
-- **HDFS** — Hadoop Distributed File System for storing data across clusters.
-- **YARN** — Yet Another Resource Negotiator, a resource management and job scheduling technology.
+- **HDFS** -- Hadoop Distributed File System for storing data across clusters.
+- **YARN** -- Yet Another Resource Negotiator, a resource management and job scheduling technology.
 
 ### Data Processing Engines
 
-- **Hive** — SQL-like scripting language (HiveQL) for querying data stored in HDFS.
-- **Pig** — Data flow language (Pig Latin) for parallel data processing on Hadoop.
-- **Spark** — In-memory data processing engine for iterative and real-time processing.
-- **Storm** — Distributed real-time computation system for processing unbounded streams of data.
-- **Flink** — Parallel data processing platform, generalizing the MapReduce model.
-- **Samza** — Processing engine for handling batch data and streaming data in a unified manner.
+- **Hive** -- SQL-like scripting language (HiveQL) for querying data stored in HDFS.
+- **Pig** -- Data flow language (Pig Latin) for parallel data processing on Hadoop.
+- **Spark** -- In-memory data processing engine for iterative and real-time processing.
+- **Storm** -- Distributed real-time computation system for processing unbounded streams of data.
+- **Flink** -- Parallel data processing platform, generalizing the MapReduce model.
+- **Samza** -- Processing engine for handling batch data and streaming data in a unified manner.
 
 ### Graph Processing
 
-- **Giraph** — Open-source implementation of Google's Pregel, specifically designed for iterative graph computations.
-- **HAMA** — General-purpose Bulk Synchronous Parallel (BSP) computing engine on top of Hadoop.
+- **Giraph** -- Open-source implementation of Google's Pregel, specifically designed for iterative graph computations.
+- **HAMA** -- General-purpose Bulk Synchronous Parallel (BSP) computing engine on top of Hadoop.
 
 ### Cloud Computing and Virtual Machine Setups
 

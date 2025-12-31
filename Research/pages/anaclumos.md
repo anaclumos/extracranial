@@ -3,11 +3,8 @@ lang: 'en'
 slug: '/A798A0'
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+TODO: USE FUMADOCS I18N
 
-<Tabs groupId='lang' queryString>
-<TabItem value='en' label='English 🇺🇸' lang='en-US' default>
 <div lang='en-US'>
 
 - One of my favorite books from elementary school was Percy Jackson and the Olympians.
@@ -19,8 +16,7 @@ import TabItem from '@theme/TabItem';
 - A good example of [[자아는 발굴되는 것이다|Excavating Egos]].
 
 </div>
-</TabItem>
-<TabItem value='ko' label='한국어 🇰🇷' lang='ko-KR'>
+
 <div lang='ko-KR'>
 
 - 초등학교 때 가장 좋아했던 책 중 하나는 퍼시 잭슨과 올림포스의 신들이었다.
@@ -30,5 +26,3 @@ import TabItem from '@theme/TabItem';
 - [[자아는 발굴되는 것이다|자아의 발굴]]의 좋은 예시이다.
 
 </div>
-</TabItem>
-</Tabs>

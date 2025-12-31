@@ -12,3 +12,5 @@ Calendars are blocks
 Tasks are blocks
 
 Links are blocks
+
+Cafe mode: https://untested.sonnet.io/notes/new-enso-first-public-beta/

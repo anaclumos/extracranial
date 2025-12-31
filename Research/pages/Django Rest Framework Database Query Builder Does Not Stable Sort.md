@@ -12,11 +12,8 @@ I was expecting:
 
 ![[209AF0.png]]
 
-<details>
-
-<summary>
-Think you're good at Django? Guess the answer!
-</summary>
+<Accordions>
+<Accordion title="Think you're good at Django? Guess the answer!">
 
 ![[C782E0.png]]
 
@@ -30,4 +27,5 @@ This really made me pull my hair off.
 This is because `Order By` is not sorting itself, but rather a query builder.
 While I _understand_ the reason behind it, I still think it's counterintuitive.
 
-</details>
+</Accordion>
+</Accordions>
