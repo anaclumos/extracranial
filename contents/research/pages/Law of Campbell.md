@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/D44DA4'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -11,7 +10,6 @@ TODO: USE FUMADOCS I18N
 > The more any quantitative [social indicator](https://en.wikipedia.org/wiki/Social_indicator 'Social indicator') is used for social decision-making, the more subject it will be to corruption pressures and the more apt it will be to distort and corrupt the social processes it is intended to monitor.
 
 </div>
-
 
 <div lang='ko-KR'>
 
@@ -23,6 +21,5 @@ TODO: USE FUMADOCS I18N
 > 더 커진다.
 
 </div>
-
 
 [[Law of Goodhart]]

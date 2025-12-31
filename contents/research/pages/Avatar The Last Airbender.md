@@ -4,7 +4,6 @@ slug: '/6D0BFC'
 title: 'Avatar: The Last Airbender'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -39,7 +38,6 @@ TODO: USE FUMADOCS I18N
 
 </div>
 
-
 <div lang='ko-KR'>
 
 > _우린 본연의 모습을 숨기기 위해 정말 많은 노력을 쏟는단다_
@@ -73,4 +71,3 @@ TODO: USE FUMADOCS I18N
 > -- 가면 (S01 E06)
 
 </div>
-

@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/450720'
 ---
 
-
 Supersedes [[Shortcuts]]
 
 ## sunghyun's super streamlined [[shortcuts]] setup

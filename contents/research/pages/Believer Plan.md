@@ -3,10 +3,6 @@ lang: 'en'
 slug: '/769711'
 ---
 
-
-
-
-
 ## 소개
 
 hn.cho.sh의 유지비를 위해 서포터 플랜을 도입합니다. 자세한 내용은 [pay.cho.sh](https://pay.cho.sh)를 참조하세요.
@@ -28,7 +24,6 @@ hn.cho.sh의 유지비를 위해 서포터 플랜을 도입합니다. 자세한 
 1. 회원은 회사에 환불을 요구할 수 있습니다. 환불은 회사가 안내하는 정책 및 방법에 따라 진행됩니다.
 2. 회사는 다음 각 호의 방식으로 환불을 진행합니다.
    1. '빌리버 플랜'을 구매하신 분의 혜택으로 '해커'들에게 매일 전송되는 뉴스레터에 [[Text Message|메시지]]를 전송하실 경우, 회사와 회원의 합의 하에 지정된 [[Text Message|메시지]] 전송 시간에서 24시간 이전에만 전액 환불이 가능합니다. 그 이후부터는 환불이 불가능합니다.
-
 
 TODO: USE FUMADOCS I18N
 
@@ -53,5 +48,3 @@ These numbers grow by 3% daily, and the newsletter open rate is an impressive 50
 1. Members may request a refund from the Company. Refunds will be made by the policies and methods outlined by the Company.
 2. The Company will proceed with the refund in the following manner.
    1. In the case of sending a message to the newsletter sent daily to 'hackers' as a benefit of purchasing the 'Believer Plan', a full refund is possible only before 24 hours from the message sending time specified by the agreement between the Company and the Member. After that, no refund is possible.
-
-

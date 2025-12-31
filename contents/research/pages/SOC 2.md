@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/F30FEC'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -50,7 +49,6 @@ The CPA firm will review documentation, interview employees, and test controls t
 
 </div>
 
-
 <div lang='ko-KR'>
 
 SOC 2(Service Organization Control 2)는 미국 공인회계사협회(AICPA)에서 개발한 서비스 조직을 위한 자발적 준수 표준이다.
@@ -96,4 +94,3 @@ CPA 회계법인이 SOC 2 준수 여부를 감사할 때, 다음 5가지 신뢰 
 CPA 회계법인은 서비스 조직이 SOC 2 신뢰 원칙을 충족하기 위한 적절한 정책, 절차 및 기술을 갖추고 있는지 확인하기 위해 문서를 검토하고, 직원을 인터뷰하며, 통제를 테스트한다. 감사의 깊이와 세부 사항은 서비스 조직과 감사 범위에 따라 달라질 수 있다.
 
 </div>
-

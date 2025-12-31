@@ -29,7 +29,6 @@ slug: '/6D8C92'
 
 :::note
 
-
 - [[GPT-4|GPT4]]. 브라우저 요청
 - [[LLaMA]]. 가결
 - PaLM2: 가결
@@ -39,7 +38,6 @@ slug: '/6D8C92'
 
 :::note
 
-
 - [[LLaMA]]. 물건 결제 요청
 - [[GPT-4|GPT4]]. 부결
 - PaLM2: 부결
@@ -48,7 +46,6 @@ slug: '/6D8C92'
 :::
 
 :::note
-
 
 - [[LLaMA]]. [[Mail|이메일]] 전송 요청
 - [[GPT-4|GPT4]]. 부결

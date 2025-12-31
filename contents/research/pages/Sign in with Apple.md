@@ -1,9 +1,15 @@
 ---
 lang: 'en'
 slug: '/C97E38'
-aliases: ['Apple Login', '애플 로그인', 'Apple 로그인', 'Apple ID Login', 'Apple로 로그인']
+aliases:
+  [
+    'Apple Login',
+    '애플 로그인',
+    'Apple 로그인',
+    'Apple ID Login',
+    'Apple로 로그인',
+  ]
 ---
-
 
 TODO: USE FUMADOCS I18N
 
@@ -13,10 +19,8 @@ TODO: USE FUMADOCS I18N
 
 </div>
 
-
 <div lang='ko-KR'>
 
 '[[Apple]]로 로그인'은 [[Apple]]에서 제공하는 개인정보 보호에 중점을 둔 로그인 기능으로, 사용자는 최소한의 개인 정보 공유 옵션과 [[Mail|이메일]] 주소를 숨길 수 있는 기능을 통해 [[Apple]] ID를 사용하여 앱과 웹사이트에 안전하게 로그인할 수 있다.
 
 </div>
-

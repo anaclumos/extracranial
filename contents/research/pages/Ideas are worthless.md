@@ -8,7 +8,6 @@ aliases:
 
 > _Genius is one percent inspiration and ninety-nine percent perspiration_. Great accomplishments depend not so much on ingenuity as on hard work. This is a saying of the [[American]] inventor Thomas Edison. [Dictionary.com](https://www.dictionary.com/browse/genius-is-one-percent-inspiration-and-ninety-nine-percent-perspiration)
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -20,7 +19,6 @@ And I am pretty dang sure that millions of thinkers previously explored these id
 
 </div>
 
-
 <div lang='ko-KR'>
 
 일반적인 믿음과 다르게, 아이디어는 대개 가치가 없습니다.
@@ -29,4 +27,3 @@ And I am pretty dang sure that millions of thinkers previously explored these id
 그리고 이 모든 아이디어들이 수많은 선대 학자들에 의해 이미 탐색되었음도 꽤 분명합니다.
 
 </div>
-

@@ -5,7 +5,6 @@ slug: '/B1CED1'
 
 [[장승]]에 대한 정보를 찾아보려고 [[Bing]] [[ChatGPT]]에 검색을 해보았다.
 
-
 <Accordions>
 <Accordion title="전체 기록">
 

@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/84C12B'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -12,7 +11,6 @@ Personal Finance AI refers to using artificial intelligence to manage one's fina
 
 </div>
 
-
 <div lang='ko-KR'>
 
 개인 금융 AI는 인공 지능을 사용하여 재정을 관리하는 것을 말한다.
@@ -20,4 +18,3 @@ Personal Finance AI refers to using artificial intelligence to manage one's fina
 주로 모바일 앱이나 온라인 플랫폼을 사용하며 재무 결정을 최적화하고, 지출 패턴을 감지하며, 개별 사용자에게 맞춤형 조언을 제공하는 것을 목표로 한다.
 
 </div>
-

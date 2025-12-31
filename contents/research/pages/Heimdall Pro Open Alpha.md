@@ -3,7 +3,6 @@ lang: 'en'
 slug: /681B09
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -73,7 +72,6 @@ And I believe in **show > tell**, so let me just show you some examples.
 
 </div>
 
-
 <div lang='ko-KR'>
 
 ## 환영합니다!
@@ -142,4 +140,3 @@ And I believe in **show > tell**, so let me just show you some examples.
 - [여기에서 알파 테스트를 신청해주세요!](https://airtable.com/appLfbX7pNQxpBx00/shrkP8rkkbJxpBWE6)
 
 </div>
-

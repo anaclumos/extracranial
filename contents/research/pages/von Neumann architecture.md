@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/4BDBA0'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -20,7 +19,6 @@ This universality made it possible to develop various software tools and program
 
 </div>
 
-
 <div lang='ko-KR'>
 
 폰 노이만 아키텍처 이전의 컴퓨터는, 명령어와 데이터를 위한 별도의 메모리 유닛으로 설계되었다. 이로 인해 컴퓨터의 재프로그래밍이 어려워 시간이 많이 소요되었으며, 종종 물리적으로 전선을 다시 연결해야 했다.
@@ -34,4 +32,3 @@ This universality made it possible to develop various software tools and program
 이러한 만능성은 다양한 소프트웨어 도구와 프로그래밍 언어를 개발하여 다양한 컴퓨터간에 사용할 수 있게끔 만들었다. 거의 모든 현대 컴퓨터, 데스크톱 PC부터 스마트폰까지, 기본적인 폰 노이만 아키텍처 원칙에 기반하여 다양한 향상과 최적화를 통해 구현되어 있다.
 
 </div>
-

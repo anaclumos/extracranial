@@ -25,8 +25,6 @@ Ran entire ten epochs with the original dataset
 
 - MNIST CNN: 99.16 %
 
-
-
 <Accordions>
 <Accordion title="One by One">
 
@@ -41,7 +39,6 @@ I ran ten epochs on one dataset and have yet to come back. Then I moved on to th
 </Accordions>
 
 ## Round Robin
-
 
 <Accordions>
 <Accordion title="Round-robin">
@@ -72,7 +69,6 @@ I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four c
 </Accordion>
 </Accordions>
 
-
 <Accordions>
 <Accordion title="Round Robin, 10 cycles">
 Still around 92%, max. Never goes above 95%.
@@ -82,7 +78,6 @@ Still around 92%, max. Never goes above 95%.
 ## Federated Learning
 
 ;
-
 
 <Accordions>
 <Accordion title="Results">

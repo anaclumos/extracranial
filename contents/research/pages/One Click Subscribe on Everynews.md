@@ -133,7 +133,10 @@ await db.insert(subscriptionIntents).values({
 
 // Retrieve in sendMagicLink
 const intent = await db.query.subscriptionIntents.findFirst({
-  where: and(eq(subscriptionIntents.token, token), gt(subscriptionIntents.expiresAt, new Date())),
+  where: and(
+    eq(subscriptionIntents.token, token),
+    gt(subscriptionIntents.expiresAt, new Date()),
+  ),
 })
 ```
 
@@ -220,7 +223,7 @@ await auth.signIn.magicLink(
       'X-Alert-Id': alert.id,
       'X-Alert-Name': encodeURIComponent(alert.name),
     },
-  }
+  },
 )
 
 // Server-side handling

@@ -1,13 +1,19 @@
 ---
 lang: 'en'
 slug: '/A48088'
-aliases: ['Digital Brain', '디지털 브레인', '디지털브레인', '세컨드 브레인', '세컨드브레인']
+aliases:
+  [
+    'Digital Brain',
+    '디지털 브레인',
+    '디지털브레인',
+    '세컨드 브레인',
+    '세컨드브레인',
+  ]
 ---
 
 ## State-of-the-art References
 
 ### [[Stephan Ango]] [Link](https://stephanango.com)
-
 
 <Accordions>
 <Accordion title="Images">
@@ -21,7 +27,6 @@ aliases: ['Digital Brain', '디지털 브레인', '디지털브레인', '세컨�
 ### [The Lab Notes](https://alexanderobenauer.com/labnotes/000/) by [Alexander Obenauer](https://twitter.com/alexobenauer)
 
 Seems like using [[Svelte]]
-
 
 <Accordions>
 <Accordion title="Images">
@@ -37,7 +42,6 @@ Seems like using [[Svelte]]
 
 ### [Younho9 Notes](https://notes.younho9.com/) by [younho9 (Younho Choo)](https://github.com/younho9)
 
-
 <Accordions>
 <Accordion title="Images">
 
@@ -49,7 +53,6 @@ Seems like using [[Svelte]]
 
 ### [기억보다 기록을](https://kyounghwan01.github.io) by [Kyounghwan01 (kyounghwan Noh)](https://github.com/Kyounghwan01)
 
-
 <Accordions>
 <Accordion title="Images">
 
@@ -59,7 +62,6 @@ Seems like using [[Svelte]]
 </Accordions>
 
 ### [Everything I know](https://wiki.nikiv.dev/) by [nikitavoloboev (Nikita)](https://github.com/nikitavoloboev)
-
 
 <Accordions>
 <Accordion title="Images">

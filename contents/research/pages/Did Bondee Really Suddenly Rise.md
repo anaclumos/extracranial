@@ -49,7 +49,6 @@ A post questioning if Zheli plagiarized designs
 
 Beijing Yidianshuo Entertainment Technology, the company behind Zheli, subsequently published a statement claiming these are false.
 
-
 <Accordions>
 <Accordion title="Zheli denies any data collection. 2022-02-11. (Screenshot)">
 
@@ -61,7 +60,6 @@ The Zheli app was recently accused of using users' private information, such as 
 </Accordions>
 
 However, its developers soon took down the app to "improve existing user experience," adding it faced "continuous and organized attacks," including the spread of "deliberate rumors and false information" online. They denied anything about data leaks or privacy concerns they were suffering.
-
 
 <Accordions>
 <Accordion title="Zheli shuts down. 2022-02-13. (Screenshot)">

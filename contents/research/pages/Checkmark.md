@@ -1,7 +1,15 @@
 ---
 lang: 'en'
 slug: '/3201EF'
-aliases: ['Verified', 'Verified Checkmark', 'Verified Mark', 'Meta Verified', 'Twitter Blue', 'X Premium']
+aliases:
+  [
+    'Verified',
+    'Verified Checkmark',
+    'Verified Mark',
+    'Meta Verified',
+    'Twitter Blue',
+    'X Premium',
+  ]
 ---
 
 현대판 공명첩이다. 하지만 공명첩을 욕할 것이 아니라, 공명첩을 바라게 만든 환경에 주목해야한다.

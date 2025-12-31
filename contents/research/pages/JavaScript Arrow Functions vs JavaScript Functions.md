@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/BF967C'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -70,7 +69,6 @@ In arrow functions, if you have a single expression, you can omit the curly brac
 
 </div>
 
-
 <div lang='ko-KR'>
 
 ## 각각 사용할 때
@@ -134,4 +132,3 @@ const add = (a, b) => a + b;
 화살표 함수에서는 단일 표현식을 사용할 경우, 중괄호 `{}`와 `return` 문을 생략할 수 있다. 표현식은 자동으로 그 결과를 반환한다.
 
 </div>
-

@@ -5,7 +5,6 @@ slug: '/75CE52'
 
 Attempted [[Super App]] DX.
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -22,7 +21,6 @@ However, it's important to note that the Jasonette project is no longer actively
 
 </div>
 
-
 <div lang='ko-KR'>
 
 Jasonette는 JSON 마크업만을 사용하여 네이티브 iOS 및 Android 앱을 만들 수 있게 해주는 오픈 소스 프레임워크이다. 이 아이디어는 서버에서 호스팅되는 단일 JSON 파일에 전체 앱의 구조, 레이아웃 및 동작을 정의할 수 있다는 것이다.
@@ -36,6 +34,5 @@ Jasonette는 JSON 마크업만을 사용하여 네이티브 iOS 및 Android 앱�
 그러나 Jasonette 프로젝트는 더 이상 적극적으로 유지 관리되지 않는다는 점에 유의해야 한다. GitHub 저장소에 대한 마지막 커밋은 2017년에 이루어졌으며, 프로젝트 웹사이트는 더 이상 액세스할 수 없다. 이는 흥미로운 개념이었지만, 프로젝트가 상당한 관심을 얻지 못했으며 현재는 작동하지 않는 것으로 보인다.
 
 </div>
-
 
 ![Claude is a genius](../assets/F8DCCC.png)

@@ -4,7 +4,6 @@ slug: /D8A76E
 aliases: ['메멕스']
 ---
 
-
 Synonym with [[Extracranial]], [[Second Brain|Digital Brain]], [[Second Brain]], etc.
 
 TODO: USE FUMADOCS I18N
@@ -16,7 +15,6 @@ TODO: USE FUMADOCS I18N
 
 </div>
 
-
 <div lang='ko-KR'>
 
 > 미래의 한 기기를 상상해 보십시오... 자신의 모든 책, 기록, 그리고 대화를 저장할 수 있는 장치를 말입니다.
@@ -24,6 +22,5 @@ TODO: USE FUMADOCS I18N
 > 그것은 기억의 확장이자... 기억의 친밀한 보조 장치일 것입니다. -- [[Vannevar Bush|버니바 부시]].
 
 </div>
-
 
 ![[5426B0.png]]

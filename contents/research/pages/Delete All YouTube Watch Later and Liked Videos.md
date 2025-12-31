@@ -43,7 +43,9 @@ Sometimes after completion, if you refresh the page, there still might be some v
 
     while (true) {
       previousCount = currentCount
-      currentCount = document.querySelectorAll('ytd-playlist-video-renderer').length
+      currentCount = document.querySelectorAll(
+        'ytd-playlist-video-renderer',
+      ).length
 
       window.scrollTo(0, document.documentElement.scrollHeight)
       await new Promise((resolve) => setTimeout(resolve, 2000))
@@ -65,7 +67,9 @@ Sometimes after completion, if you refresh the page, there still might be some v
     await waitForElement('ytd-playlist-video-renderer')
 
     // Find all ytd-playlist-video-renderer tags
-    const playlistItems = document.querySelectorAll('ytd-playlist-video-renderer')
+    const playlistItems = document.querySelectorAll(
+      'ytd-playlist-video-renderer',
+    )
 
     // Iterate over each playlist item
     for (const item of playlistItems) {
@@ -76,9 +80,9 @@ Sometimes after completion, if you refresh the page, there still might be some v
       await waitForElement('tp-yt-paper-listbox')
 
       // Find the "Remove" option and click it
-      const removeOption = Array.from(document.querySelectorAll('tp-yt-paper-listbox yt-formatted-string')).find(
-        (option) => option.textContent.includes('Remove')
-      )
+      const removeOption = Array.from(
+        document.querySelectorAll('tp-yt-paper-listbox yt-formatted-string'),
+      ).find((option) => option.textContent.includes('Remove'))
       removeOption.click()
 
       // Wait before proceeding to the next playlist item

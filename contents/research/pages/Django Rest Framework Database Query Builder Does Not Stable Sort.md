@@ -12,8 +12,6 @@ I was expecting:
 
 ![[209AF0.png]]
 
-
-
 <Accordions>
 <Accordion title="Think you're good at Django? Guess the answer!">
 

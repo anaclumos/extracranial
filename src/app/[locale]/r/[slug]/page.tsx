@@ -13,14 +13,15 @@ interface Props {
 
 export async function generateStaticParams() {
 	const params: Array<{ locale: string; slug: string }> = [];
+	// Generate all unique slugs for all locales (fallback support)
+	const allSlugs = new Set([
+		...allResearch.map((doc) => doc.slug),
+		...allBlogs.map((doc) => doc.slug),
+	]);
 	for (const locale of routing.locales) {
-		const researchSlugs = allResearch
-			.filter((doc) => doc.lang === locale)
-			.map((doc) => ({ locale, slug: doc.slug }));
-		const blogSlugs = allBlogs
-			.filter((doc) => doc.lang === locale)
-			.map((doc) => ({ locale, slug: doc.slug }));
-		params.push(...researchSlugs, ...blogSlugs);
+		for (const slug of allSlugs) {
+			params.push({ locale, slug });
+		}
 	}
 	return params;
 }
@@ -31,9 +32,12 @@ export default async function ResearchPage({ params }: Props) {
 
 	const upperSlug = slug.toUpperCase();
 
+	// Try current locale first, then fall back to other language
 	const doc =
 		allResearch.find((d) => d.slug === upperSlug && d.lang === locale) ||
-		allBlogs.find((d) => d.slug === upperSlug && d.lang === locale);
+		allBlogs.find((d) => d.slug === upperSlug && d.lang === locale) ||
+		allResearch.find((d) => d.slug === upperSlug) ||
+		allBlogs.find((d) => d.slug === upperSlug);
 
 	if (!doc) {
 		notFound();

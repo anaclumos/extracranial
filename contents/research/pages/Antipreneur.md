@@ -1,7 +1,16 @@
 ---
 lang: 'en'
 slug: '/221166'
-aliases: ['강소기업가', 'Digital Nomad', 'Nomad', 'Digital Nomadism', '디지털 노마드', '노마드', '디지털노마드']
+aliases:
+  [
+    '강소기업가',
+    'Digital Nomad',
+    'Nomad',
+    'Digital Nomadism',
+    '디지털 노마드',
+    '노마드',
+    '디지털노마드',
+  ]
 ---
 
 I am sick of the fuzz and buzz of Silicon Valley. I don't care about YC. I don't care about VC parties. I don't need funding. I'll do it by myself.

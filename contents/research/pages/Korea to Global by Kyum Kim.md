@@ -5,7 +5,6 @@ slug: '/C071F5'
 
 - [Korea to Global by Kyum Kim](https://docs.google.com/presentation/d/1WvMaaywq0LHW4N8d46a12S2QcS-k3ZcZ_mQZ_gILthQ/edit#slide=id.g2c77f7a9330_0_0)
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -42,7 +41,6 @@ Kyum Kim rethought whether Korean startups are trapped in the "moderately sized 
 
 </div>
 
-
 <div lang='ko-KR'>
 
 ## 한국 시장의 특징
@@ -76,4 +74,3 @@ Kyum Kim rethought whether Korean startups are trapped in the "moderately sized 
 김성겸 님은 한국 스타트업이 "중간 규모의 국내 시장"에 갇혀 큰 그림을 보지 못하고 있는지 다시 생각해 보았다. 이스라엘 스타트업 전문가는 글로벌 확장에 대한 만능 해법은 없다고 말했다.
 
 </div>
-

@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/3485AD'
 ---
 
-
 # Lost Futures: A 19th-Century Vision of the Year 2000
 
 [Lost Futures: A 19th-Century Vision of the Year 2000 - The Public Domain Review](https://publicdomainreview.org/collection/a-19th-century-vision-of-the-year-2000/)
@@ -20,7 +19,6 @@ These somewhat prescient scenes did not see the light of day until their future 
 
 </div>
 
-
 <div lang='ko-KR'>
 
 1900년에 2000년이 어떤 모습일지를 상상하기 위해 제작된 이 종이 카드들은 처음에는 리옹의 프랑스 장난감 제조업자 아르망 제르베가 파리 세계 박람회를 위해 의뢰했다. 장-마르크 코테가 제작한 첫 50장의 카드는 담배 상자 안에 넣어지기도 하고, 나중에는 엽서로 발송되기도 했다. 코테와 다른 예술가들은 총 78장 이상의 카드를 제작했으며, 정확한 수는 알려져 있지 않고 일부는 아직 발견되지 않았을 수도 있다. 각각의 카드는 당시로서는 먼 미래인 2000년에 살게 될 것이 어떤 모습일지를 상상하려고 시도했다.
@@ -30,7 +28,6 @@ These somewhat prescient scenes did not see the light of day until their future 
 이러한 다소 예지력 있는 장면들은 그들의 미래가 거의 현실이 될 무렵까지 세상의 빛을 보지 못했다. 제르베가 1899년에 몇 세트의 카드를 인쇄했지만, 제작 중에 사망했다. 이어지는 25년 동안, 카드들은 그의 폐업한 장난감 공장 지하실에 미래의 비전처럼 잊혀진 유물들과 함께 먼지를 쌓았다. 한 골동품상이 아카이브를 구입하여 자신의 지하실로 옮겼고, 그곳에서 50년 더 보관되었다. 그 후 캐나다 작가 크리스토퍼 하이드가 파리의 그의 가게에서 이들을 우연히 발견했다. 하이드는 차례로 이 카드들을 과학 소설 작가 아이작 아시모프에게 빌려주었고, 아시모프는 1986년에 이 카드들을 다시 출판하고, [Futuredays: A Nineteenth Century Vision of the Year 2000](http://www.amazon.com/dp/0805001204/ref=nosim?tag=thepubdomrev-20)라는 책에 덧붙여진 해설과 함께 발행했다.
 
 </div>
-
 
 ![[3137FC.jpg]]
 

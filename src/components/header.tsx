@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { LanguageSwitcher } from "./language-switcher";
 
 interface Props {
 	children?: React.ReactNode;
@@ -12,6 +13,8 @@ export function Header({ children }: Props) {
 				<Link className="font-bold text-xl tracking-tight" href="/">
 					Extracranial
 				</Link>
+				<div className="flex-1" />
+				<LanguageSwitcher />
 			</div>
 		</header>
 	);

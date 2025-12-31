@@ -11,7 +11,6 @@ This is a copy of [a16z](https://a16z.com/)'s [The Techno-Optimist Manifesto](ht
 
 :::tip
 
-
 [[기술낙관론자 선언문|한국어 🇰🇷]]
 
 :::

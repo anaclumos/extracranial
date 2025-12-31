@@ -5,8 +5,6 @@ aliases: ['PIRI']
 title: 'Project PIRI 🪈: Programmatic Interlingual Resource Integration'
 ---
 
-
-
 <Callout type="info" title='Become a 10x dev without learning English' icon="💬">
 
 Providing [[무제한번역|unlimited translations]] for major developer documents
