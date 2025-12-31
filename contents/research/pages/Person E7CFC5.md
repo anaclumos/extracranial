@@ -13,8 +13,6 @@ slug: '/E7CFC5'
 - Didn't feel much interest in the industry
 - Worked in Stanford Lab during undergrad, helped a lot applying Grad School
 
-
-
 <Callout type="info" title="I love my job because..." icon="💙">
 A lot of smart [[people]].
 </Callout>

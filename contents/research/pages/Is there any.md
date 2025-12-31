@@ -5,7 +5,6 @@ slug: '/721DB0'
 
 Finding Boring Product ideas
 
-
 ```
 site:reddit.com "is there any app"
 ```

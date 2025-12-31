@@ -70,8 +70,6 @@ python manage.py test
 python manage.py test --settings incl.test_settings core.tests.test_job_view_kill
 ```
 
-
-
 <Accordions>
 <Accordion title="Setups">
 

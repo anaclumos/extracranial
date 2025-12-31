@@ -1,7 +1,8 @@
 "use client";
 
 import { useMDXComponent } from "@content-collections/mdx/react";
-import { Children, isValidElement } from "react";
+import mermaid from "mermaid";
+import { Children, isValidElement, useEffect, useId, useState } from "react";
 import { KoreaNetherlandsGlobe } from "@/components/mdx/korea-netherlands-globe";
 import {
 	AccordionItem,
@@ -9,6 +10,13 @@ import {
 	Accordion as AccordionRoot,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
+
+// Initialize mermaid
+mermaid.initialize({
+	startOnLoad: false,
+	theme: "neutral",
+	securityLevel: "loose",
+});
 
 const Callout = ({
 	children,
@@ -63,11 +71,58 @@ const WIP = () => (
 );
 const SpotifySong = () => null;
 const AppleMusicSong = () => null;
-const Mermaid = ({ chart }: { chart: string }) => (
-	<pre className="my-4 overflow-x-auto rounded-lg bg-gray-100 p-4 dark:bg-gray-800">
-		<code>{chart}</code>
-	</pre>
-);
+
+const Mermaid = ({ chart }: { chart: string }) => {
+	const id = useId().replace(/:/g, "");
+	const [svg, setSvg] = useState<string>("");
+
+	useEffect(() => {
+		const render = async () => {
+			try {
+				const { svg: renderedSvg } = await mermaid.render(
+					`mermaid-${id}`,
+					chart
+				);
+				setSvg(renderedSvg);
+			} catch {
+				setSvg(`<pre>${chart}</pre>`);
+			}
+		};
+		render();
+	}, [chart, id]);
+
+	return (
+		<div
+			className="my-4 flex justify-center overflow-x-auto"
+			// biome-ignore lint/security/noDangerouslySetInnerHtml: mermaid renders SVG
+			dangerouslySetInnerHTML={{ __html: svg }}
+		/>
+	);
+};
+
+// Handle mermaid code blocks from markdown
+const Pre = ({
+	children,
+	...props
+}: React.DetailedHTMLProps<
+	React.HTMLAttributes<HTMLPreElement>,
+	HTMLPreElement
+>) => {
+	// Check if this is a mermaid code block
+	if (
+		isValidElement<{ className?: string; children?: React.ReactNode }>(
+			children
+		) &&
+		children.props.className === "language-mermaid"
+	) {
+		const code =
+			typeof children.props.children === "string"
+				? children.props.children
+				: "";
+		return <Mermaid chart={code.trim()} />;
+	}
+	return <pre {...props}>{children}</pre>;
+};
 
 // Custom details/summary components using coss/ui Accordion
 const Details = ({ children }: { children: React.ReactNode }) => {
@@ -100,9 +155,27 @@ const Summary = ({ children }: { children: React.ReactNode }) => {
 	return <>{children}</>;
 };
 
-const Accordion = ({ children }: { children: React.ReactNode }) => (
-	<Details>{children}</Details>
-);
+const Accordion = ({
+	children,
+	title,
+}: {
+	children: React.ReactNode;
+	title?: string;
+}) => {
+	// If title prop is provided, use it directly instead of extracting from children
+	if (title) {
+		return (
+			<AccordionRoot className="my-2">
+				<AccordionItem value="item">
+					<AccordionTrigger>{title}</AccordionTrigger>
+					<AccordionPanel>{children}</AccordionPanel>
+				</AccordionItem>
+			</AccordionRoot>
+		);
+	}
+	// Fallback to Details behavior for Summary child extraction
+	return <Details>{children}</Details>;
+};
 const Accordions = ({ children }: { children: React.ReactNode }) => (
 	<div className="space-y-2">{children}</div>
 );
@@ -118,6 +191,7 @@ const components = {
 	Horizontal,
 	KoreaNetherlandsGlobe,
 	Mermaid,
+	pre: Pre,
 	Shuffle,
 	SpotifySong,
 	Summary,

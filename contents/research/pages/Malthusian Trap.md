@@ -1,9 +1,15 @@
 ---
 lang: 'en'
 slug: '/E6A898'
-aliases: ['Neo-Malthusian', '네오 맬서스', '맬서스', 'Neo-Malthusian Trap', '네오 맬서스 트랩']
+aliases:
+  [
+    'Neo-Malthusian',
+    '네오 맬서스',
+    '맬서스',
+    'Neo-Malthusian Trap',
+    '네오 맬서스 트랩',
+  ]
 ---
-
 
 TODO: USE FUMADOCS I18N
 
@@ -17,7 +23,6 @@ Some worry about a neo-Malthusian trap, but others remain hopeful that [[Agricul
 
 </div>
 
-
 <div lang='ko-KR'>
 
 [[Economy|경제학자]] 토머스 로버트 맬서스가 제시한 **맬서스 트랩**은 무분별한 인구 증가(기하급수적 성장)가 결국 식량 생산(선형적 성장)을 앞질러 기근과 정체를 초래할 수 있다고 경고한다. 기술과 농업의 발전으로 식량 생산량은 증가했지만, 지속 가능성과 자원 고갈에 대한 현대의 논쟁은 계속되고 있다.
@@ -27,4 +32,3 @@ Some worry about a neo-Malthusian trap, but others remain hopeful that [[Agricul
 일각에서는 네오-맬서스 트랩에 대해 우려하고 있지만, [[Agricultural Technology|애그리테크]]을 통해 그러한 시나리오를 막을 수 있을 것이라는 희망을 품고 있는 사람들도 있다.
 
 </div>
-

@@ -13,7 +13,8 @@ The goal is to...
 
 ```js
 var extensionPage = 'https://chosunghyun.com/youtube-comment-language-filter'
-var updateLogPage = 'https://chosunghyun.com/youtube-comment-language-filter/updates'
+var updateLogPage =
+  'https://chosunghyun.com/youtube-comment-language-filter/updates'
 
 chrome.runtime.onInstalled.addListener(function (object) {
   if (object.reason === 'install') {

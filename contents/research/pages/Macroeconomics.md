@@ -4,7 +4,6 @@ slug: '/ECCCA7'
 aliases: ['거시경제', '거경', '거시경제학', '거시 경제학', '거시 경제', '거시']
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -22,7 +21,6 @@ Other common terms in macroeconomics include Output, Production, Income, and Exp
 
 </div>
 
-
 <div lang='ko-KR'>
 
 거시[[Economy|경제학]]은 [[Economy|경제]] 전체가 어떻게 작동하는지를 연구하는 학문이다.
@@ -38,7 +36,6 @@ Other common terms in macroeconomics include Output, Production, Income, and Exp
 거시[[Economy|경제학]]의 다른 일반적인 용어에는 생산량, 생산, 소득, 지출 등이 있다.
 
 </div>
-
 
 [[민사고]] 재학 시절 전교 1등을 했다...라고 하기엔 상당히 오해가 있는 것이, 수업에서 1등을 한 것은 맞지만
 

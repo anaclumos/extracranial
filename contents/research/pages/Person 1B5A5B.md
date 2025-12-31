@@ -14,8 +14,6 @@ slug: '/1B5A5B'
 - Junior = [[Project]] Executors.
 - Senior = Problem Solvers.
 
-
-
 <Callout type="info" title="I love my job because..." icon="💙">
 Lyft has a great engineering culture.
 Everyone knows and loves its products.

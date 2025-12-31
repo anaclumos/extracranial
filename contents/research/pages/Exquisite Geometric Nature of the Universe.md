@@ -1,9 +1,12 @@
 ---
 lang: 'en'
 slug: '/6B3AC8'
-aliases: ['우주의 정교한 기하학적 성질', 'exquisite geometric property of the universe']
+aliases:
+  [
+    '우주의 정교한 기하학적 성질',
+    'exquisite geometric property of the universe',
+  ]
 ---
-
 
 TODO: USE FUMADOCS I18N
 
@@ -16,7 +19,6 @@ The **Exquisite Geometric Nature of the Universe** is a term that I devised that
 
 </div>
 
-
 <div lang='ko-KR'>
 
 **우주의 정교한 기하학적 특성**은 우주에서 발견되는 깊은 상호 연결성과 패턴을 설명하기 위해 내가 고안한 용어이다. 즉, 완전히 다른 2가지 관념인줄 알았던 것이 알고보니까 하나의 값이고, 우주의 물리적 특성에 의해 2가지로 발현된다는 것이다.
@@ -25,4 +27,3 @@ The **Exquisite Geometric Nature of the Universe** is a term that I devised that
 - 일반 상대성 이론에서 설명하는 중력은 단순한 힘이 아니라 질량과 에너지로 인한 시공간 곡률이다.
 
 </div>
-

@@ -30,9 +30,9 @@ export default async function LocaleLayout({ children, params }: Props) {
 			<Header>
 				<MobileNav locale={locale as "en" | "ko"} />
 			</Header>
-			<div className="flex flex-1">
+			<div className="flex min-h-0 flex-1 overflow-hidden">
 				<Sidebar locale={locale as "en" | "ko"} />
-				<main className="flex min-h-0 flex-1">{children}</main>
+				<main className="flex min-h-0 flex-1 overflow-hidden">{children}</main>
 			</div>
 		</NextIntlClientProvider>
 	);

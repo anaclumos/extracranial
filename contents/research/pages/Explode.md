@@ -45,7 +45,6 @@ As much as I feel [[ideas are worthless]]; in this very specific example, it req
 
 As much as I feel some sour gripe that someone else has launched a successful product, I must acknowledge that he has been working on this to create the smoothest experience possible.
 
-
 <Accordions>
 <Accordion title="He basically pulled every single growth levers I could ever think of...">
 

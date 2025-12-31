@@ -3,8 +3,6 @@ lang: 'en'
 slug: '/2F432B'
 ---
 
-
-
 <Callout type="info" title='SEOCHO is...' icon="🩵">
 
 - **S**traight: each components opt for least-work
@@ -30,7 +28,6 @@ Everything changes--including your own reasoning. Plan for it.
 - **Assume you'll be wrong soon.** Prove yourself wrong on purpose and on schedule.
 - **Design for swap‑outs.** Every module is a part you can replace without drama.
 - **Prefer learning loops over sunk‑cost loyalty.** When the world shifts, you shift.
-
 
 <Accordions>
 <Accordion title="Instagram's Engineering Philosophy (2011)">
@@ -188,9 +185,12 @@ Prefer first‑party plugins and capabilities over custom wrappers.
 ❌ **Wrong (custom billing API when a plugin exists):**
 
 ```ts
-export const billingApi = new Elysia({ prefix: '/billing' }).post('/create-checkout-session', async () => {
-  /* ... */
-})
+export const billingApi = new Elysia({ prefix: '/billing' }).post(
+  '/create-checkout-session',
+  async () => {
+    /* ... */
+  },
+)
 ```
 
 ✅ **Right (Better Auth's Stripe plugin):**
@@ -210,14 +210,20 @@ From server code, hit the DB directly instead of hopping through your own HTTP.
 ❌ **Wrong:**
 
 ```tsx
-const response = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/v1/campaigns/${id}`)
+const response = await fetch(
+  `${process.env.NEXT_PUBLIC_URL}/api/v1/campaigns/${id}`,
+)
 const campaign = await response.json()
 ```
 
 ✅ **Right:**
 
 ```tsx
-const [campaign] = await db.select().from(campaigns).where(eq(campaigns.id, id)).limit(1)
+const [campaign] = await db
+  .select()
+  .from(campaigns)
+  .where(eq(campaigns.id, id))
+  .limit(1)
 ```
 
 ### Performance is Not Optional

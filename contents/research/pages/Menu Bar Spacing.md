@@ -16,6 +16,6 @@ defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 0
 ```
 
 ```shell
-defaults -currentHost delete -globalDomain NSStatusItemSpacing 
+defaults -currentHost delete -globalDomain NSStatusItemSpacing
 defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
 ```

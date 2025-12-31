@@ -155,6 +155,7 @@
 
 body {
 	font-family: system-ui, -apple-system, sans-serif;
+	overflow: hidden;
 }
 
 .prose {

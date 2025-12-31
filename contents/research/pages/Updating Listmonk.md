@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/1FB004'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -14,7 +13,6 @@ Press Redeploy
 
 </div>
 
-
 <div lang='ko-KR'>
 
 ![[A14F68.png]]
@@ -22,4 +20,3 @@ Press Redeploy
 Redeploy 클릭
 
 </div>
-

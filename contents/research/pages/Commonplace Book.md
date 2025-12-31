@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/618D63'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -12,13 +11,11 @@ A commonplace book is a type of personal journal that people use to document int
 
 </div>
 
-
 <div lang='ko-KR'>
 
 Commonplace Book은 사람들이 흥미로운 인용문, 생각, 정보를 기록하는 데 사용하는 일종의 개인 일기장이다. 이 관행은 [[르네상스]] 시대부터 사용되어 왔으며, 개인이 시간이 지남에 따라 지식을 수집하고 성찰하는 데 도움이 된다. Commonplace Book은 인용문 수집, 개인적인 성찰, 학습 및 기억, 창의적 영감, 분류 및 색인화 등 다양한 용도로 사용될 수 있다. 로크나 뉴턴과 같은 유명한 인물들도 자신의 생각을 기록하기 위해 Commonplace Book을 보관했다. 오늘날 디지털 도구를 사용하면 개인이 비슷한 방식으로 개인적인 지식과 영감을 수집할 수 있어 이러한 전통을 이어갈 수 있다.
 
 </div>
-
 
 > Why keep a diary...
 >

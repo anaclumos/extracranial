@@ -49,7 +49,14 @@ slug: '/1C434D'
         "noArrayIndexKey": "off"
       }
     },
-    "ignore": ["**/node_modules/**", "**/dist/**", "**/build/**", "**/.cache/**", "**/public/**", "**/*.esm.js"]
+    "ignore": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.cache/**",
+      "**/public/**",
+      "**/*.esm.js"
+    ]
   },
   "javascript": {
     "formatter": {

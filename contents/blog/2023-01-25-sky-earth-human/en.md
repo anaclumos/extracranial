@@ -136,8 +136,10 @@ To implement additional higher-level features (such as removing consonants, not 
 const type = (prev: string, Hwalja: hwalja, key: string, editing: boolean) => {
   const last_two_char = prev.slice(-1)
   const last_one_char = prev.slice(-2)
-  if (editing && last_one_char in Hwalja[key]) return prev.slice(0, -2) + Hwalja[key][last_one_char]
-  if (editing && last_two_char in Hwalja[key]) return prev.slice(0, -1) + Hwalja[key][last_two_char]
+  if (editing && last_one_char in Hwalja[key])
+    return prev.slice(0, -2) + Hwalja[key][last_one_char]
+  if (editing && last_two_char in Hwalja[key])
+    return prev.slice(0, -1) + Hwalja[key][last_two_char]
   return prev + Hwalja[key]['']
 }
 ```

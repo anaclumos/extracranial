@@ -13,24 +13,36 @@ interface Props {
 export function Sidebar({ locale }: Props) {
 	const prefix = locale === "en" ? "" : `/${locale}`;
 
-	const blogs = allBlogs
-		.filter((blog) => blog.lang === locale)
-		.sort((a, b) => {
-			const dateA = a.date ? new Date(a.date).getTime() : 0;
-			const dateB = b.date ? new Date(b.date).getTime() : 0;
-			return dateB - dateA;
-		});
+	// Deduplicate by slug, preferring current locale
+	const blogsBySlug = new Map<string, (typeof allBlogs)[number]>();
+	for (const blog of allBlogs) {
+		const existing = blogsBySlug.get(blog.slug);
+		if (!existing || blog.lang === locale) {
+			blogsBySlug.set(blog.slug, blog);
+		}
+	}
+	const blogs = [...blogsBySlug.values()].sort((a, b) => {
+		const dateA = a.date ? new Date(a.date).getTime() : 0;
+		const dateB = b.date ? new Date(b.date).getTime() : 0;
+		return dateB - dateA;
+	});
 
-	const notes = allResearch
-		.filter((note) => note.lang === locale)
-		.sort((a, b) => {
-			const dateA = a.date ? new Date(a.date).getTime() : 0;
-			const dateB = b.date ? new Date(b.date).getTime() : 0;
-			if (dateA === 0 && dateB === 0) {
-				return a.title.localeCompare(b.title);
-			}
-			return dateB - dateA;
-		});
+	// Deduplicate by slug, preferring current locale
+	const notesBySlug = new Map<string, (typeof allResearch)[number]>();
+	for (const note of allResearch) {
+		const existing = notesBySlug.get(note.slug);
+		if (!existing || note.lang === locale) {
+			notesBySlug.set(note.slug, note);
+		}
+	}
+	const notes = [...notesBySlug.values()].sort((a, b) => {
+		const dateA = a.date ? new Date(a.date).getTime() : 0;
+		const dateB = b.date ? new Date(b.date).getTime() : 0;
+		if (dateA === 0 && dateB === 0) {
+			return a.title.localeCompare(b.title);
+		}
+		return dateB - dateA;
+	});
 
 	return (
 		<aside className="hidden w-72 shrink-0 border-border border-r lg:flex lg:flex-col">

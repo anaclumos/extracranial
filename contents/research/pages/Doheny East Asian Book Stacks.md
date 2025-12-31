@@ -4,7 +4,6 @@ slug: '/567E18'
 aliases: ['동헤니', '도헤니', 'Doheny', '동아시아관', '도서관 동아시아관']
 ---
 
-
 ko_title: '도헤니 동아시아 기록보관소'
 
 TODO: USE FUMADOCS I18N
@@ -20,7 +19,6 @@ However, many [[한국인|Koreans]] don't know or care about this space 😅.
 
 </div>
 
-
 <div lang='ko-KR'>
 
 [[University of Southern California|USC]]에서 제일 보물 같은 곳이다.
@@ -31,6 +29,5 @@ However, many [[한국인|Koreans]] don't know or care about this space 😅.
 근데 많은 [[한국인]]들은 이 공간의 존재도 모르고 관심도 없다 😅
 
 </div>
-
 
 ![[9C3CA9.jpeg]]

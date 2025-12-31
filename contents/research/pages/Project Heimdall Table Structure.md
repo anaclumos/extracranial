@@ -85,8 +85,6 @@ erDiagram
 
 ```
 
-
-
 <Accordions>
 <Accordion title="[[2023-06-18]] Version">
 

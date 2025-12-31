@@ -3,8 +3,6 @@ lang: 'en'
 slug: '/9DFBB8'
 ---
 
-
-
 <Callout type="info" title='GANGNAM is...' icon="🩵">
 
 GANGNAM is a development philosophy that emphasizes simplicity, hot-replaceability, and ergonomics. It encourages experimentation, using SaaS until studied, and opting for the least work required. GANGNAM also promotes using tools that are interoperable and hot-replaceable.
@@ -27,8 +25,6 @@ This is NOT for everyone NOR I don't intend to persuade you. All techs are drive
 > Now, here, you see, it takes all the running you can do, to keep in the same place.
 
 Everything changes, and you will, too. Your defense to A will perish into history with B's new update and C's unpopular push. Your job is to disprove yourself as often as possible.
-
-
 
 <Accordions>
 <Accordion title="Instagram's Engineering Philosophy in 2011">

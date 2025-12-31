@@ -166,8 +166,10 @@ JSON의 크기는 2MB 안팎에서 넘어가지 않을 것이다.
 const type = (이전: string, 활자: hwalja, 키: string, 수정중: boolean) => {
   const 마지막한글자 = 이전.slice(-1)
   const 마지막두글자 = 이전.slice(-2)
-  if (수정중 && 마지막두글자 in 활자[키]) return 이전.slice(0, -2) + 활자[키][마지막두글자]
-  if (수정중 && 마지막한글자 in 활자[키]) return 이전.slice(0, -1) + 활자[키][마지막한글자]
+  if (수정중 && 마지막두글자 in 활자[키])
+    return 이전.slice(0, -2) + 활자[키][마지막두글자]
+  if (수정중 && 마지막한글자 in 활자[키])
+    return 이전.slice(0, -1) + 활자[키][마지막한글자]
   return 이전 + 활자[키]['']
 }
 ```

@@ -1,0 +1,10 @@
+{
+  "singleQuote": true,
+  "semi": false,
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": { "proseWrap": "preserve", "tabWidth": 2 }
+    }
+  ]
+}

@@ -3,8 +3,6 @@ lang: 'en'
 slug: '/ECC2CB'
 ---
 
-
-
 - Interviewed on [[2022-12-08]]
 - Currently works at a non-profit organization based in Africa (Uganda)
 

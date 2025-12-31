@@ -63,6 +63,10 @@ const ANGLE_BRACKET_NUM_REGEX = /<(\d)/g;
 const MALFORMED_LATEX_REGEX = /\\\[([^\]]*)\\\]/g;
 // Match markdown images with relative paths (not starting with / or http)
 const RELATIVE_IMAGE_REGEX = /!\[([^\]]*)\]\((?!\/|https?:\/\/)([^)]+)\)/g;
+// Match <source src="./..."> or <video src="./..."> with relative paths
+const RELATIVE_VIDEO_SRC_REGEX =
+	/(<(?:source|video)[^>]*\ssrc=")(?!\/|https?:\/\/)([^"]+)(")/g;
+const LEADING_DOT_SLASH_REGEX = /^\.\//;
 // Transform <details> and <summary> to custom components
 const DETAILS_OPEN_REGEX = /<details>/gi;
 const DETAILS_CLOSE_REGEX = /<\/details>/gi;
@@ -169,10 +173,21 @@ function processBlogContent(
 	blogDirectory: string
 ): string {
 	// First, transform relative image paths to absolute paths
-	const result = content.replace(RELATIVE_IMAGE_REGEX, (_, alt, imagePath) => {
+	let result = content.replace(RELATIVE_IMAGE_REGEX, (_, alt, imagePath) => {
 		const encodedPath = encodeURIComponent(imagePath);
 		return `![${alt}](/assets/blog/${blogDirectory}/${encodedPath})`;
 	});
+
+	// Transform relative video/source src paths to absolute paths
+	result = result.replace(
+		RELATIVE_VIDEO_SRC_REGEX,
+		(_, prefix, videoPath, suffix) => {
+			// Remove leading ./ if present
+			const cleanPath = videoPath.replace(LEADING_DOT_SLASH_REGEX, "");
+			const encodedPath = encodeURIComponent(cleanPath);
+			return `${prefix}/assets/blog/${blogDirectory}/${encodedPath}${suffix}`;
+		}
+	);
 
 	// Then apply the common content processing
 	return processContent(result, lang, titleToSlug);

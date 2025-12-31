@@ -6,7 +6,6 @@ aliases: ['Move Fast']
 
 ## [Fast · Patrick Collison](https://patrickcollison.com/fast)
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -38,7 +37,6 @@ TODO: USE FUMADOCS I18N
 
 </div>
 
-
 <div lang='ko-KR'>
 
 - **[BankAmericard](https://www.amazon.com/Electronic-Value-Exchange-Origins-Computing/dp/1849961387)** - 디 호크는 나중에 비자 카드가 된 BankAmericard 카드를 단 90일 만에 성공적으로 출시했으며, 그 기간 동안 10만 명 이상의 고객을 확보하는 데 성공했다.
@@ -67,4 +65,3 @@ TODO: USE FUMADOCS I18N
 - **코로나19 백신** - 2020년 1월 10일에 SARS-CoV-2 게놈이 공개되었다. 얼마 후인 1월 13일, 모더나는 mRNA 백신 후보인 mRNA-1273의 염기서열을 완성했다. 2월 7일에 백신의 첫 번째 배치가 생산되었고, 2월 24일(게놈 공개 45일 후)에 모더나는 임상 1상 시험에 사용하기 위해 mRNA-1273의 첫 번째 배치를 NIH에 배송했다. 266일간의 임상시험과 규제 조정을 거친 후 모더나는 2020년 11월 16일 백신의 효능이 94.5%에 달한다고 발표했다.
 
 </div>
-

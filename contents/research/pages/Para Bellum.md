@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/D6FA2D'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -12,7 +11,6 @@ TODO: USE FUMADOCS I18N
 
 </div>
 
-
 <div lang='ko-KR'>
 
 **파라 벨룸**은 라틴어로 **전쟁을 준비하라**는 뜻이다.
@@ -20,4 +18,3 @@ TODO: USE FUMADOCS I18N
 종종 군사 전략 및 정책과 연관되어 힘에 의한 평화를 논할 때 강조된다.
 
 </div>
-

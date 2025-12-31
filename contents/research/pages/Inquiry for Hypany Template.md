@@ -13,7 +13,6 @@ Thus, smart-enough people run an _idea farm_ by **[pretotyping](https://www.pret
 
 I have been close with the product and founding space, but unfortunately I haven't seen a SaaS that fully automates this _idea farm_. Thus, I see a potential in this idea and would like to inquire a deal.
 
-
 <Accordions>
 <Accordion title="What does Hypany mean?">
 
@@ -58,7 +57,6 @@ They studied which components are there but did not consider how design patterns
 
 :::note
 
-
 I am looking to strike a balance between design diversity and the least number of toggles, textboxes in the UI.
 
 :::
@@ -69,7 +67,6 @@ Let me know if you have any questions.
 
 Best,  
 Sunghyun
-
 
 <Accordions>
 <Accordion title="Some random thoughts">

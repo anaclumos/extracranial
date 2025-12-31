@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/F0943D'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -34,7 +33,6 @@ Apple also selectively enforced its contractual rules with developers to prevent
 
 </div>
 
-
 <div lang='ko-KR'>
 
 ## 슈퍼앱: 애플은 아이폰 독점을 위협하는 앱들의 출시를 막아왔다. 아이폰에 대한 의존도를 낮추는 미니 프로그램들을 제한함으로써 이를 달성했다.
@@ -62,4 +60,3 @@ Apple also selectively enforced its contractual rules with developers to prevent
 애플은 또한 개발자와의 계약 규칙을 선별적으로 시행하여 개발자가 미니 프로그램을 수익화하는 것을 막아 사용자와 개발자 모두에게 피해를 줬다. 예를 들어 애플은 개발자가 애플의 독점 수수료를 기꺼이 지불하려 했음에도 불구하고 미니 프로그램이 애플의 인앱 결제(IAP) 시스템을 구현하는 데 필요한 API에 액세스하는 것을 차단했다. 마찬가지로 애플은 개발자가 IAP를 직접 사용하는 것 외에 인앱 결제 방식을 사용하는 것도 막았다. 예를 들어 슈퍼앱은 소비자가 미니 프로그램에서 사용할 가상 화폐를 만들 수 있지만, 애플은 이것도 차단했다. 하지만 애플은 위협이 덜한 다른 앱에서는 이를 허용한다.
 
 </div>
-

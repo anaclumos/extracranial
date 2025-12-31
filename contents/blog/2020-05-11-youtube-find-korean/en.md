@@ -29,7 +29,10 @@ var comment
 
 function containsUnicode(str, startUnicode, endUnicode) {
   for (var i = 0; i < str.length; i++) {
-    if (startUnicode.charCodeAt(0) <= str.charCodeAt(i) && str.charCodeAt(i) <= endUnicode.charCodeAt(0)) {
+    if (
+      startUnicode.charCodeAt(0) <= str.charCodeAt(i) &&
+      str.charCodeAt(i) <= endUnicode.charCodeAt(0)
+    ) {
       return true
     }
   }
@@ -37,7 +40,9 @@ function containsUnicode(str, startUnicode, endUnicode) {
 }
 
 for (var x = 0; x < commentList.length; x++) {
-  comment = commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[3].innerText
+  comment =
+    commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[3]
+      .innerText
   if (containsUnicode(comment, '가', '힣')) {
     // comment = "한글임 \n" + comment;
   } else {
@@ -47,10 +52,16 @@ for (var x = 0; x < commentList.length; x++) {
 }
 
 for (var x = 0; x < commentList.length; x++) {
-  console.log(commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[1].innerText)
+  console.log(
+    commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[1]
+      .innerText,
+  )
   // The author's name and date of creation are concatenated together. "Name\nDate Created"
 
-  console.log(commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[3].innerText)
+  console.log(
+    commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[3]
+      .innerText,
+  )
   // Comment!
 }
 // End of code
@@ -190,7 +201,8 @@ In the alpha version, the performance of the filter was very bad, but by removin
 for (var comment of commentList) {
   if (comment.id === '') {
     var commentString =
-      comment.childNodes[1].childNodes[1].childNodes[1].childNodes[3].childNodes[3].childNodes[1].innerText
+      comment.childNodes[1].childNodes[1].childNodes[1].childNodes[3]
+        .childNodes[3].childNodes[1].innerText
     if (containsSelectedLang(commentString)) {
       comment.id = 'contains-SelectedLang'
     } else {

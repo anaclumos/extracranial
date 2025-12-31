@@ -5,11 +5,9 @@ slug: /385B9F
 
 :::note
 
-
 This document is a copy of [(Seoul) Research Engineer · AutoML - Lunit](https://apply.workable.com/lunit/j/757736C770/). Archiving purposes only.
 
 :::
-
 
 TODO: USE FUMADOCS I18N
 
@@ -106,7 +104,6 @@ The AutoML team at Lunit focuses on automating AI product development processes.
 
 </div>
 
-
 <div lang='ko-KR'>
 
 ## 설명
@@ -199,4 +196,3 @@ Lunit의 AutoML 팀은 AI 제품 개발 프로세스 자동화에 중점을 둡�
 [이 일자리에 지원하기](https://apply.workable.com/lunit/j/757736C770/apply/)
 
 </div>
-

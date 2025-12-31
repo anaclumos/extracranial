@@ -4,7 +4,6 @@ slug: '/2EB3BA'
 aliases: ['콜', '콜옵션', '콜 옵션']
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -22,7 +21,6 @@ If the stock price goes up significantly before the expiry, you can exercise you
 
 </div>
 
-
 <div lang='ko-KR'>
 
 [[Put Option|풋 옵션]]의 반대
@@ -37,4 +35,3 @@ If the stock price goes up significantly before the expiry, you can exercise you
   - 콜옵션을 행사해서 발생하는 주식 가격 + 옵션의 프리미엄보다 시장가가 같거나 높아야 함
 
 </div>
-

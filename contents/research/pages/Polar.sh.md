@@ -5,7 +5,6 @@ slug: '/69DE9F'
 
 ![[E0C486.png]]
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -16,7 +15,6 @@ There is one concern that [Polar](https://polar.sh/) can omit for [[Ticket Bount
 
 </div>
 
-
 <div lang='ko-KR'>
 
 [Polar](https://polar.sh/)는 [[Ticket Bounty Model|티켓 바운티 모델]]의 구현체이다. 이슈들에 돈을 걸 수 있고 그 순위에 기반해 메인테이너들이 기능을 구현할 수 있다.
@@ -24,4 +22,3 @@ There is one concern that [Polar](https://polar.sh/) can omit for [[Ticket Bount
 [Polar](https://polar.sh/)는 [[Ticket Bounty Model|티켓 바운티 모델]]에서 생략할 수 있는 고민이 하나 있는데, 바로 가격 책정에 대한 것이다. [Polar](https://polar.sh/)는 사용자들이 직접 돈을 거는 것이니 보이지 않는 손에 의해 가격이 조정될 수 있다. 하지만 [[Ticket Bounty Model|티켓 바운티 모델]]에서 근본적으로 다루는 것은 기업의 엔지니어링 팀에서 성과주의 모델을 적용할 수 있는지에 대한 고찰이다. 이 경우에는 적절한 가격을 책정하기 어렵다.
 
 </div>
-

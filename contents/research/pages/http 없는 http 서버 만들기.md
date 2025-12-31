@@ -52,7 +52,9 @@ server.listen(8080)
     <h2 id="toc_2">h3</h2>
     <h4 id="toc_3">h4</h4>
     <div>
-      <pre class="line-numbers"><code class="language-none">codeblock</code></pre>
+      <pre
+        class="line-numbers"
+      ><code class="language-none">codeblock</code></pre>
     </div>
     <blockquote>
       <p>quote</p>

@@ -5,7 +5,6 @@ slug: '/D8248C'
 
 :::tip
 
-
 `useIsClient` is primarily for handling SSR scenarios, while `useIsMounted` is for managing component lifecycle and preventing memory leaks or updates after unmounting.
 
 :::

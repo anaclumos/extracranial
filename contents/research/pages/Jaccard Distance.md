@@ -3,7 +3,6 @@ lang: 'en'
 slug: '/9D553C'
 ---
 
-
 TODO: USE FUMADOCS I18N
 
 <div lang='en-US'>
@@ -32,7 +31,6 @@ The Jaccard Distance ranges from 0 to 1, where 0 indicates that the sets are ide
 
 </div>
 
-
 <div lang='ko-KR'>
 
 Jaccard 거리는 두 집합 간의 불일치를 정량화하기 위해 사용되는 척도다. 이는 유한 샘플 집합 간의 유사성을 측정하는 Jaccard 지수(또는 Jaccard 유사성 계수)에서 파생된다. Jaccard 지수는 샘플 집합의 교집합 크기를 합집합 크기로 나눈 값으로 계산된다.
@@ -58,4 +56,3 @@ $$
 Jaccard 거리는 0에서 1 사이의 범위를 가지며, 0은 집합이 동일함을, 1은 집합이 공통의 요소가 없음을 나타낸다. 이 척도는 계산 생물학, 정보 검색, 기계 학습 등 다양한 분야에서 널리 사용되며, 특히 클러스터링과 유사성 측정 작업에서 중요하게 사용된다.
 
 </div>
-

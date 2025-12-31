@@ -1,7 +1,8 @@
 ---
 lang: 'en'
 slug: '/4214F8'
-aliases: ['Vertical FL', 'Feature-based Federated Learning', 'Feature-based FL', 'VFL']
+aliases:
+  ['Vertical FL', 'Feature-based Federated Learning', 'Feature-based FL', 'VFL']
 ---
 
 Vertical [[Federated Machine Learning|Federated Learning]], or [[feature]]-based [[Federated Machine Learning|federated learning]], is a type of [[Federated Machine Learning|Federated Learning]] where multiple parties collaborate to train a shared [[ML|machine learning]] model without directly exchanging their raw data. Unlike [[Horizontal Federated Learning]], where different parties have different samples (or data points) but share the same [[feature]] set, in Vertical [[Federated Machine Learning|Federated Learning]], various parties possess different subsets of [[Feature|features]] for the same collection of samples.
