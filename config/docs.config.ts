@@ -2,7 +2,7 @@ import type { Options as PresetClassicOptions } from '@docusaurus/preset-classic
 import latex from './latex.config'
 
 // Using any[] since Docusaurus sidebar types are complex and internal
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+// biome-ignore lint/suspicious/noExplicitAny: Docusaurus sidebar types are complex and internal
 type SidebarItems = any[]
 
 const sidebarProcessor = (items: SidebarItems): SidebarItems => {

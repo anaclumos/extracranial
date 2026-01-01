@@ -14,7 +14,8 @@
       "**/*.js",
       "**/*.jsx",
       "**/*.json",
-      "**/*.jsonc"
+      "**/*.jsonc",
+      "!**/.obsidian"
     ]
   },
   "linter": {
