@@ -30,6 +30,15 @@
 
   /* Unhovered transparency for sidebars */
   --unhovered-transparency: 0.1;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease-in-out;
+
+  /* Semantic colors */
+  --color-border: var(--ifm-color-emphasis-200);
+  --color-border-muted: var(--ifm-color-emphasis-400);
+  --color-text-muted: var(--ifm-color-emphasis-400);
+  --color-text-subtle: var(--ifm-color-emphasis-700);
 }
 
 * {
@@ -95,12 +104,6 @@ code {
   .navbar__inner {
     margin: 0 auto;
     padding: 0 1rem;
-  }
-}
-
-@media (width >= 997px) {
-  .col.docItemCol {
-    max-width: 75% !important;
   }
 }
 
