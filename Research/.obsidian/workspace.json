@@ -54,33 +54,9 @@
               "icon": "lucide-file",
               "title": "2026-01-02"
             }
-          },
-          {
-            "id": "22bbb905192f030c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026-01-02.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-02"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "--max-old-space-size",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -234,10 +210,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22bbb905192f030c",
+  "active": "12ff994d98102725",
   "lastOpenFiles": [
-    "pages/관능적 경탄.md",
+    "pages/Grandma Koreapunk.md",
     "journals/2026-01-02.md",
+    "pages/관능적 경탄.md",
     "journals/2025-09-19.md",
     "pages/JavaScript heap out of memory.md",
     "pages/Cloudflare Pages.md",
@@ -262,7 +239,6 @@
     "pages/Project Linguine.md",
     "pages/Linguine Engine Test Drive Result 2023-07-13.md",
     "pages/Project Heimdall.md",
-    "pages/Heimdall Pro Open Alpha.md",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
     "assets/F483D2.png",
