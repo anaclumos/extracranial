@@ -25,28 +25,28 @@ I did have some nice friends to tell me about this launch:
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[EAE392.png]]
 
 ![[CFC7AF.png]]
 
-</Horizontal>
+</DisplayFlex>
 
 As much as I feel [[ideas are worthless]]; in this very specific example, it required some very specific knowledge on Apple's Ecosystem, such as utilizing [[App Clips]] or [[Block Screenshots in iOS]]. iOS MessageKit was severely underutilized still to this day, and these were small [[The Paradoxical Moon Philosophy|remora]] products that sometimes the idea itself makes a difference, such as how Flighty succeeded with its edge on utilizing the Dynamic Island.
 
-<Horizontal>
+<DisplayFlex>
 
 ![[AE6FB5.gif]]
 
 ![[7681FE.gif]]
 
-</Horizontal>
+</DisplayFlex>
 
 As much as I feel some sour gripe that someone else has launched a successful product, I must acknowledge that he has been working on this to create the smoothest experience possible.
 
-<Accordions>
-<Accordion title="He basically pulled every single growth levers I could ever think of...">
+<details>
+<summary>He basically pulled every single growth levers I could ever think of...</summary>>
 
 ![[6A9632.gif]]
 
@@ -79,8 +79,7 @@ As much as I feel some sour gripe that someone else has launched a successful pr
 - https://x.com/john_tans/status/1879310772289105967
 - https://x.com/spottedinprod/status/1879290007288177007
 
-</Accordion>
-</Accordions>
+</details>
 
 I especially don't know how he got through the app store review process, considering that it technically breaks the Live Activity guidelines.
 

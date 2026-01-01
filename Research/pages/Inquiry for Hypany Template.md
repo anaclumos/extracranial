@@ -13,8 +13,8 @@ Thus, smart-enough people run an _idea farm_ by **[pretotyping](https://www.pret
 
 I have been close with the product and founding space, but unfortunately I haven't seen a SaaS that fully automates this _idea farm_. Thus, I see a potential in this idea and would like to inquire a deal.
 
-<Accordions>
-<Accordion title="What does Hypany mean?">
+<details>
+<summary>What does Hypany mean?</summary>>
 
 It means three things.
 
@@ -22,8 +22,7 @@ It means three things.
 - hyped company.
 - hyperparameter company
 
-</Accordion>
-</Accordions>
+</details>
 
 Keywords I am looking for are:
 
@@ -68,13 +67,12 @@ Let me know if you have any questions.
 Best,  
 Sunghyun
 
-<Accordions>
-<Accordion title="Some random thoughts">
+<details>
+<summary>Some random thoughts</summary>>
 
 - Serial entrepreneur implies you guess the market. If you want to minimize the odds of failure you need to be a _parallel entrepreneur_. Or, [[think like a farmer]].
 - Hackathons also implies the judges and panels "know the market", which I think is arrogant of them. No one can know the market. If they know the market 100% they better be investing than founding.
 - Speaking of coldness, I don't want this tool to be a snobbish tool that high class Silicon Valley people use; I want it to be a welcoming, global tool
   - 2014 and 2016 Uber Logo was cold. It felt like only top tech people could use it. 2018 Uber logo became more generic and welcoming.
 
-</Accordion>
-</Accordions>
+</details>

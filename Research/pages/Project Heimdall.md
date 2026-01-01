@@ -38,13 +38,13 @@ aliases: ['헤임달', 'Heimdall']
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[EBD79C.png]]
 
 ![[AC5118.png]]
 
-</Horizontal>
+</DisplayFlex>
 
 Implemented Nav bar!
 

@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/5DBDAE'
 ---
 
+import Admonition from '@theme/Admonition';
+
 - Interviewed on [[2022-09-13]]
 - Currently works at Marvell Semiconductors
 
@@ -18,8 +20,8 @@ I create functional [[Simulations]] models for semiconductors. For fabless labs,
 **Recommendations**.
 Meet a lot of people.
 
-<Callout type="info" title="I love my job because..." icon="💙">
+<Admonition type="info" title="I love my job because..." icon="💙">
 Marvell has a great culture and personal space respect.
 A lot of [[people]] are international.
 People help out a lot.
-</Callout>
+</Admonition>

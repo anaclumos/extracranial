@@ -22,47 +22,47 @@ And I believe in **show > tell**, so let me just show you some examples.
 
 ## Get updates from your industry!
 
-<Horizontal>
+<DisplayFlex>
 
 ![Subscribed to Gen AI, language set to English](../assets/A5DBEF.png)
 ![Subscribed to Gen AI, language set to Korean](../assets/88DC46.png)
 
-</Horizontal>
+</DisplayFlex>
 
-<Horizontal>
+<DisplayFlex>
 
 ![Subscribed to Health Tech, language set to English](../assets/C8CAE4.png)
 ![Subscribed to Health Tech, language set to Korean](../assets/DF1B4D.png)
 
-</Horizontal>
+</DisplayFlex>
 
 ## Monitor new legislation!
 
-<Horizontal>
+<DisplayFlex>
 
 ![Subscribed to EU Regulation, language set to English](../assets/837D67.png)
 ![Subscribed to EU Regulation, language set to Korean](../assets/668133.png)
 
-</Horizontal>
+</DisplayFlex>
 
 ## Monitor your brand!
 
-<Horizontal>
+<DisplayFlex>
 
 ![Subscribed to Grammarly, language set to English](../assets/B14106.png)
 ![Subscribed to Resend Email API, language set to English](../assets/6663B1.png)
 
-</Horizontal>
+</DisplayFlex>
 
 ## Monitor region-specific news
 
-<Horizontal>
+<DisplayFlex>
 
 ![Subscribed to 微信 (WeChat), language set to English](../assets/BE0D31.png)
 ![Subscribed to 微信 (WeChat), language set to Korean](../assets/547EE5.png)
 ![Subscribed to 토스 금융 (Toss), language set to Korean](../assets/F7C4EE.png)
 
-</Horizontal>
+</DisplayFlex>
 
 ## Sign Ups
 
@@ -91,47 +91,47 @@ And I believe in **show > tell**, so let me just show you some examples.
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![Gen AI 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/A5DBEF.png)
 ![Gen AI 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/88DC46.png)
 
-</Horizontal>
+</DisplayFlex>
 
-<Horizontal>
+<DisplayFlex>
 
 ![Health Tech 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/C8CAE4.png)
 ![Health Tech 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/DF1B4D.png)
 
-</Horizontal>
+</DisplayFlex>
 
 ## 새로운 법률 규제를 모니터링하세요!
 
-<Horizontal>
+<DisplayFlex>
 
 ![EU 규제 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/837D67.png)
 ![EU 규제 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/668133.png)
 
-</Horizontal>
+</DisplayFlex>
 
 ## 브랜드를 모니터링하세요!
 
-<Horizontal>
+<DisplayFlex>
 
 ![Grammarly 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/B14106.png)
 ![Resend Email API 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/6663B1.png)
 ![토스 금융 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/F7C4EE.png)
 
-</Horizontal>
+</DisplayFlex>
 
 ## 국지적 뉴스를 모니터링하세요!
 
-<Horizontal>
+<DisplayFlex>
 
 ![微信 (위챗) 키워드를 구독하고 언어를 영어로 설정했을 때](../assets/BE0D31.png)
 ![微信 (위챗) 키워드를 구독하고 언어를 한국어로 설정했을 때](../assets/547EE5.png)
 
-</Horizontal>
+</DisplayFlex>
 
 ## 알파 테스트
 

@@ -11,9 +11,9 @@ GrammarlyGO is a suite of [[generative AI]] capabilities from [[Grammarly]]. It 
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[BB5160.png]]
 ![[23C059.png]]
 
-</Horizontal>
+</DisplayFlex>

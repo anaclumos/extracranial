@@ -70,8 +70,8 @@ python manage.py test
 python manage.py test --settings incl.test_settings core.tests.test_job_view_kill
 ```
 
-<Accordions>
-<Accordion title="Setups">
+<details>
+<summary>Setups</summary>>
 
 ```
 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
@@ -80,8 +80,7 @@ apt-get update && apt-get install google-cloud-sdk -y
 gcloud auth configure-docker asia-northeast3-docker.pkg.dev
 ```
 
-</Accordion>
-</Accordions>
+</details>
 
 ## Authenticating on Gcloud ADC
 

@@ -1,5 +1,5 @@
 ;
 
-<Horizontal>
+<DisplayFlex>
 
-</Horizontal>
+</DisplayFlex>

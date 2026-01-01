@@ -33,19 +33,19 @@ The [[Datalake|Lakehouse]] model supports open-source models, allowing for swapp
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[51DDDC.jpg]]
 ![[CAA9AF.jpg]]
 
-</Horizontal>
+</DisplayFlex>
 
-<Horizontal>
+<DisplayFlex>
 
 ![[1B8E12.jpg]]
 ![[F912EE.jpg]]
 
-</Horizontal>
+</DisplayFlex>
 
 ### Applications
 

@@ -25,8 +25,8 @@ Ran entire ten epochs with the original dataset
 
 - MNIST CNN: 99.16 %
 
-<Accordions>
-<Accordion title="One by One">
+<details>
+<summary>One by One</summary>>
 
 I ran ten epochs on one dataset and have yet to come back. Then I moved on to the next one.
 
@@ -35,13 +35,12 @@ I ran ten epochs on one dataset and have yet to come back. Then I moved on to th
 - TL(10), TR(10), BL(10): 30.66 %
 - TL(10), TR(10), BL(10), BR(10): 47.24 %
 
-</Accordion>
-</Accordions>
+</details>
 
 ## Round Robin
 
-<Accordions>
-<Accordion title="Round-robin">
+<details>
+<summary>Round-robin</summary>>
 
 I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four cycles, thus 16 epochs.
 
@@ -66,72 +65,69 @@ I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four c
   - TL(1), TR(1), BL(1): 91.99 %
   - TL(1), TR(1), BL(1), BR(1): 90.12 %
 
-</Accordion>
-</Accordions>
+</details>
 
-<Accordions>
-<Accordion title="Round Robin, 10 cycles">
+<details>
+<summary>Round Robin, 10 cycles</summary>>
 Still around 92%, max. Never goes above 95%.
-</Accordion>
-</Accordions>
+</details>
 
 ## Federated Learning
 
 ;
 
-<Accordions>
-<Accordion title="Results">
+<details>
+<summary>Results</summary>>
 
-<Horizontal>
+<DisplayFlex>
 
 ![[E0ED4F.png]]
 
 ![[DA87AB.png]]
 
-</Horizontal>
+</DisplayFlex>
 
-<Horizontal>
+<DisplayFlex>
 
 ![[2289D2.png]]
 
 ![[EC12E1.png]]
 
-</Horizontal>
+</DisplayFlex>
 
-<Horizontal>
+<DisplayFlex>
 
 ![[7147C6.png]]
 
 ![[AB6E91.png]]
 
-</Horizontal>
+</DisplayFlex>
 
-<Horizontal>
+<DisplayFlex>
 
 ![[C6F843.png]]
 
 ![[EEF724.png]]
 
-</Horizontal>
+</DisplayFlex>
 
-<Horizontal>
+<DisplayFlex>
 
 ![[E2D67A.png]]
 
 ![[DFF919.png]]
 
-</Horizontal>
+</DisplayFlex>
 
-<Horizontal>
+<DisplayFlex>
 
 ![[A1DAA5.png]]
 
 ![[BC3839.png]]
 
-</Horizontal>
+</DisplayFlex>
 
-</Accordion>
-</Accordions>
+</details>
 
 - The averaged model maxes its accuracy around 10-15 federations. Before each federation, each learner trains ten epochs from their corresponding dataset.
 - It never reaches over 95% accuracy.

@@ -1,3 +1,5 @@
-<Callout type="info" title='' icon="💬">
+import Admonition from '@theme/Admonition';
 
-</Callout>
+<Admonition type="info" title='' icon="💬">
+
+</Admonition>

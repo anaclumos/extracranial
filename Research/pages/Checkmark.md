@@ -12,7 +12,7 @@ Meta Verified, X Premium 프로그램에 전부 참여했다. 나는 소셜미�
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[6DA217.png]]
 
@@ -20,4 +20,4 @@ Meta Verified, X Premium 프로그램에 전부 참여했다. 나는 소셜미�
 
 ![[4CD596.png]]
 
-</Horizontal>
+</DisplayFlex>

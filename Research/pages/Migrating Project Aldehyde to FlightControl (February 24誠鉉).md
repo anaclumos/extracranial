@@ -60,7 +60,7 @@ But it **was** indeed possible! Using CNAME-flattening on [[Cloudflare]], I was 
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 <figure>
 
@@ -85,7 +85,7 @@ After sharing my so-called "workaround"
 </figcaption>
 </figure>
 
-</Horizontal>
+</DisplayFlex>
 
 As I noted, this is the charm of working with an early-stage engineering product team! You also contribute to the product as an early adopter.
 

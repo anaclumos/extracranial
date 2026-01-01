@@ -3,8 +3,10 @@ lang: 'en'
 slug: '/{{title}}'
 ---
 
+import Admonition from '@theme/Admonition';
+
 - Interviewed on [[{{date:YYYY-MM-DD}}]]
 - Currently works at
 
-<Callout type="info" title="I love my job because..." icon="💙">
-</Callout>
+<Admonition type="info" title="I love my job because..." icon="💙">
+</Admonition>

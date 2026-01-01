@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/88B488'
 ---
 
+import Admonition from '@theme/Admonition';
+
 - Interviewed on [[2022-09-06]]
 - Currently works at NVIDIA
 - Studied a lot of Electrical Engineering and Computer Science at school
@@ -12,7 +14,7 @@ slug: '/88B488'
 - Hardware jobs can do remote jobs
   - they often bring the machinery home
 
-<Callout type="info" title="I love my job because..." icon="💙">
+<Admonition type="info" title="I love my job because..." icon="💙">
 I like the CEO (Jensen Huang).
 He is a very focused and strong leader.
-</Callout>
+</Admonition>
