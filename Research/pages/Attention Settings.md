@@ -2,6 +2,8 @@
 lang: 'en'
 slug: '/B3A193'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 :::danger
 
@@ -13,9 +15,8 @@ If you own the rights to the materials and want them unpublished, please contact
 
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 We believe you deserve transparency and control over how you're being manipulated. Attention Settings demonstrates practical pathways for regulating attention-extracting products to increase consumer agency.
 
@@ -211,9 +212,8 @@ If we can do it, Facebook can too.
 
 [1] [Social Media Enables Undue Influence](https://consilienceproject.org/social-media-enables-undue-influence/), The Consilience Project, 2021 [↩](https://attentionsettings.com/#block-833e02940eb24b30b6dc7df85f0f35a9)
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 우리는 당신이 어떻게 조종당하고 있는지에 대해 투명성과 통제를 받을 자격이 있다고 믿는다. 주의력 설정은 소비자를 더 잘 보호하기 위해 주의력력을 "채굴"하는 제품을 규제하는 실용적인 경로를 보여준다.
 
@@ -411,4 +411,3 @@ iOS는 사용자들에게 주의력을 산만하게 하는 앱들을 계속하�
 
 </div>
 
-TODO: USE FUMADOCS I18N

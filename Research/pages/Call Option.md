@@ -3,10 +3,11 @@ lang: 'en'
 slug: '/2EB3BA'
 aliases: ['콜', '콜옵션', '콜 옵션']
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 Opposite of [[Put Option]]
 
@@ -19,9 +20,8 @@ If the stock price goes up significantly before the expiry, you can exercise you
 - Break-even point: Exercising Price + Premium
   - Call Options Exercising Premium + Promised Price ≤ Market Prices
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 [[Put Option|풋 옵션]]의 반대
 
@@ -34,4 +34,5 @@ If the stock price goes up significantly before the expiry, you can exercise you
 - 손익분기점: 행사가 + 프리미엄
   - 콜옵션을 행사해서 발생하는 주식 가격 + 옵션의 프리미엄보다 시장가가 같거나 높아야 함
 
-</div>
+</TabItem>
+</Tabs>

@@ -2,10 +2,11 @@
 lang: 'en'
 slug: '/FCE496'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 `stale-while-revalidate` is a cache-control directive that provides a mechanism to serve stale content from the cache while simultaneously updating the cache entry in the background. This can be useful for improving web applications' perceived performance and responsiveness by serving content immediately, even if it's stale, and then updating it asynchronously.
 
@@ -18,9 +19,8 @@ Here's a breakdown of how it works:
 
 This mechanism can be beneficial in scenarios where you prefer to have slightly outdated content displayed immediately rather than waiting for the most up-to-date content, especially when the freshness of the content isn't critical.
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 `stale-while-revalidate`는 오래된 캐시 콘텐츠를 제공하면서 백그라운드에서 캐시를 업데이트하는 캐시 제어 지시어다. 이 메커니즘은 웹 애플리케이션의 체감 성능과 응답성 향상에 도움을 준다.
 
@@ -33,4 +33,5 @@ This mechanism can be beneficial in scenarios where you prefer to have slightly 
 
 이 기법은 콘텐츠 최신성이 크게 중요하지 않은 시나리오에서 유용하다.
 
-</div>
+</TabItem>
+</Tabs>

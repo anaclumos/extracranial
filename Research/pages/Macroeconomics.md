@@ -3,10 +3,11 @@ lang: 'en'
 slug: '/ECCCA7'
 aliases: ['거시경제', '거경', '거시경제학', '거시 경제학', '거시 경제', '거시']
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 Macroeconomics studies how an [[economy]] as a whole behaves.
 It examines how markets, businesses, consumers, and governments interact and examines factors such as inflation, price levels, [[Economic Development|economic growth]], national income, and unemployment. Macroeconomics focuses on governments and countries' actions to influence broader economies.
@@ -19,9 +20,8 @@ Macroeconomics examines the following factors:
 
 Other common terms in macroeconomics include Output, Production, Income, and Expenditures.
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 거시[[Economy|경제학]]은 [[Economy|경제]] 전체가 어떻게 작동하는지를 연구하는 학문이다.
 거시[[Economy|경제학]]은 시장, 기업, 소비자, 정부가 상호 작용하는 방식을 조사하고, 인플레이션, 물가 수준, [[Economic Development|경제 성장]], 국민 소득, 실업률과 같은 큰 규모의 요인을 살핀다.

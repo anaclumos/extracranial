@@ -2,10 +2,11 @@
 lang: 'en'
 slug: '/867C62'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 I am building [[Project Ganymede]]. It's a social app, but we will build it purely on Apple's iMessage ecosystem. It may sound counterintuitive. Why risk yourself by becoming so platform-dependent?
 
@@ -17,9 +18,8 @@ Therefore, I choose to become a moon. I will ride on top of Apple. I will be the
 
 We could've named it Project **Remora**, but I think [[Project Ganymede|Ganymede]] is more [[Aesthete|aesthetic]]. Maybe Remora was more straightforward to understand. But hey, you finished reading the manifesto even though I named it [[Project Ganymede|Ganymede]], right? So it worked 😁
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 저는 프로젝트 가니메데를 만들고 있습니다. 이 앱은 소셜 앱이지만 순전히 Apple의 iMessage 생태계를 기반으로 개발할 것입니다. 반직관적으로 들릴 수도 있습니다. 왜 그렇게 플랫폼에 종속되어 위험을 감수할까요?
 
@@ -31,4 +31,5 @@ Apple은 목성입니다. Apple을 이길 수는 없습니다. 아이메시지�
 
 **프로젝트 빨판상어**라고 이름 붙일 수도 있었지만, 가니메데가 더 [[Aesthete|심미적]]인 것 같아요. 어쩌면 빨판상어가 더 이해하기 쉬웠을지도 모르죠. 그래도 제가 가니메데라고 이름을 지었는데도 선언문은 다 읽으셨잖아요? 그니까 이름 잘 지은거죠 😁
 
-</div>
+</TabItem>
+</Tabs>

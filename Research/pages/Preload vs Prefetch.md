@@ -2,10 +2,11 @@
 lang: 'en'
 slug: '/A5B9F3'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 1. Preload:
    - The `preload` directive is used to indicate that a resource should be loaded as early as possible in the page load process.
@@ -31,9 +32,8 @@ By specifying `rel="preload"`, `as="font"`, and the appropriate `type` attribute
 
 Remember to use the `crossorigin` attribute when preloading fonts from a different origin to ensure proper security measures are in place.
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 1. Preload:
    - `preload` 키워드는 페이지 로드 프로세스의 초기에 리소스를 가능한 한 빨리 로드해야 함을 나타내는 데 사용된다.
@@ -59,4 +59,5 @@ Remember to use the `crossorigin` attribute when preloading fonts from a differe
 
 다른 출처에서 폰트를 미리 로드할 때는 적절한 보안 조치가 마련되도록 `crossorigin` 속성을 사용해야 한다.
 
-</div>
+</TabItem>
+</Tabs>

@@ -2,21 +2,22 @@
 lang: 'en'
 slug: '/1FB004'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 ![[A14F68.png]]
 
 Press Redeploy
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 ![[A14F68.png]]
 
 Redeploy 클릭
 
-</div>
+</TabItem>
+</Tabs>

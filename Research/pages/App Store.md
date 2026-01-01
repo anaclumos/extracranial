@@ -3,13 +3,14 @@ lang: 'en'
 slug: '/F17D84'
 aliases: ['앱스토어', '앱 스토어', 'AppStore']
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
-<div lang='en-US'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
-</div>
-
-<div lang='ko-KR'>
-
-</div>
+</TabItem>
+</Tabs>

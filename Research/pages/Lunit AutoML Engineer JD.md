@@ -2,6 +2,8 @@
 lang: 'en'
 slug: /385B9F
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 :::note
 
@@ -9,9 +11,8 @@ This document is a copy of [(Seoul) Research Engineer · AutoML - Lunit](https:/
 
 :::
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 ## Description
 
@@ -102,9 +103,8 @@ The AutoML team at Lunit focuses on automating AI product development processes.
 
 [Apply for this job](https://apply.workable.com/lunit/j/757736C770/apply/)
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 ## 설명
 
@@ -195,4 +195,5 @@ Lunit의 AutoML 팀은 AI 제품 개발 프로세스 자동화에 중점을 둡�
 
 [이 일자리에 지원하기](https://apply.workable.com/lunit/j/757736C770/apply/)
 
-</div>
+</TabItem>
+</Tabs>

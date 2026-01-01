@@ -2,16 +2,16 @@
 lang: 'en'
 slug: '/D44DA4'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 > The more any quantitative [social indicator](https://en.wikipedia.org/wiki/Social_indicator 'Social indicator') is used for social decision-making, the more subject it will be to corruption pressures and the more apt it will be to distort and corrupt the social processes it is intended to monitor.
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 > 정량적 [사회 지표](https://en.wikipedia.org/wiki/Social_indicator)가 사회적 의사 결정에 더 많이 사용될수록
 >
@@ -20,6 +20,7 @@ TODO: USE FUMADOCS I18N
 >
 > 더 커진다.
 
-</div>
+</TabItem>
+</Tabs>
 
 [[Law of Goodhart]]
