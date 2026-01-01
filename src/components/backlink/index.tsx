@@ -2,7 +2,6 @@ import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import backlinks from '@site/src/data/backlinks.json'
 import filenames from '@site/src/data/filenames.json'
-import styles from './styles.module.css'
 
 interface BacklinkProps {
   documentTitle: string
@@ -15,8 +14,7 @@ const typedBacklinks = backlinks as BacklinksData
 const typedFilenames = filenames as FilenamesData
 
 function escapeRegExp(str: string): string {
-  // Escapes special characters for use in a regular expression
-  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
 function processBacklinkItem(text: string, title: string) {
@@ -30,30 +28,24 @@ function processBacklinkItem(text: string, title: string) {
 
   const normalizedTitle = title.normalize('NFC')
   let normalizedText = escapedText.normalize('NFC')
-
-  // Escape special characters in title
   const escapedTitle = escapeRegExp(normalizedTitle)
 
   try {
-    // Replace [[title|display]] with `<b class="${styles.highlight}">${display}</b>` with regex
     const regex1 = new RegExp(`\\[\\[${escapedTitle}\\|(.+?)\\]\\]`, 'gi')
     normalizedText = normalizedText.replace(
       regex1,
-      `<b class="${styles.highlight}">$1</b>`
+      '<b class="text-[var(--ifm-color-emphasis-900)]">$1</b>'
     )
 
-    // Replace [[title]] with `<b class="${styles.highlight}">${title}</b>` with regex
     const regex2 = new RegExp(`\\[\\[${escapedTitle}\\]\\]`, 'gi')
     normalizedText = normalizedText.replace(
       regex2,
-      `<b class="${styles.highlight}">${normalizedTitle}</b>`
+      `<b class="text-[var(--ifm-color-emphasis-900)]">${normalizedTitle}</b>`
     )
 
-    // Replace [[other text|display]] with display. other can include spaces
     const regex3 = /\[\[(.+?)\|(.+?)\]\]/g
     normalizedText = normalizedText.replace(regex3, '$2')
 
-    // Replace [[other]] with other
     const regex4 = /\[\[(.+?)\]\]/g
     normalizedText = normalizedText.replace(regex4, '$1')
   } catch (e) {
@@ -62,7 +54,7 @@ function processBacklinkItem(text: string, title: string) {
 
   return (
     <pre
-      className={styles.backlinkItemText}
+      className="m-0 whitespace-pre-wrap font-sans text-[var(--ifm-color-emphasis-700)] text-sm"
       // biome-ignore lint/security/noDangerouslySetInnerHtml: Required for rendering highlighted backlinks
       dangerouslySetInnerHTML={{
         __html: normalizedText.trim(),
@@ -72,22 +64,20 @@ function processBacklinkItem(text: string, title: string) {
 }
 
 export default function Backlink({ documentTitle }: BacklinkProps) {
-  // normalize to 'NFC' to match the key of backlinks
-  // See https://cho.sh/r/DF5A6E
   const documentTitleEncoded = documentTitle.normalize('NFC')
   const backlinkItems = typedBacklinks[documentTitleEncoded]
   const title = documentTitleEncoded
 
   return (
-    <div className={styles.backlinkTable}>
-      <h3 className={styles.backlinkTableH2}>
+    <div className="mt-[var(--ifm-spacing-vertical)] w-full rounded-[var(--ifm-pagination-nav-border-radius)] border-2 border-[var(--ifm-menu-color-background-active)] p-[var(--ifm-global-spacing)]">
+      <h3 className="text-[var(--ifm-color-emphasis-400)] text-sm">
         {translate({
           id: 'backlink.title',
           message: 'Links to This Note',
           description: 'The title of the backlink section',
         })}
       </h3>
-      <div className={styles.backlinkGridView}>
+      <div className="mx-auto my-4 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-2">
         {(backlinkItems &&
           Object.keys(backlinkItems)
             .sort()
@@ -105,13 +95,9 @@ export default function Backlink({ documentTitle }: BacklinkProps) {
                 return null
               }
               return (
-                <Link
-                  className={styles.backlinkItemLink}
-                  key={backlink}
-                  to={link}
-                >
-                  <div className={styles.backlinkItem}>
-                    <h3 className={styles.backlinkMentionedFileName}>
+                <Link className="hover:no-underline" key={backlink} to={link}>
+                  <div className="rounded-[var(--border-radius)] transition-colors duration-200 hover:bg-[var(--ifm-menu-color-background-active)]">
+                    <h3 className="m-0 p-[calc(var(--border-radius)/4)] pb-2 text-base">
                       {backlinkTitle}
                     </h3>
                     {processBacklinkItem(backlinkContent, title)}
@@ -119,7 +105,7 @@ export default function Backlink({ documentTitle }: BacklinkProps) {
                 </Link>
               )
             })) || (
-          <p className={styles.noBacklink}>
+          <p className="text-[var(--ifm-color-emphasis-700)] text-sm">
             {translate({
               id: 'backlink.noBacklink',
               message: 'Nothing here yet...',

@@ -1,6 +1,11 @@
+@layer theme, base, components, utilities;
 @import url("./navbar.css");
 @import url("./color.css");
 @import url("./external-link.css");
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 :root {
   --ifm-font-family-base:
@@ -240,7 +245,6 @@ table {
 }
 
 .navbar-sidebar {
-  height: 100vh;
   height: 100dvh;
 }
 

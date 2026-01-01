@@ -1,5 +1,4 @@
 import type { ReactNode } from 'react'
-import styles from './index.module.css'
 
 interface DisplayFlexProps {
   children: ReactNode
@@ -8,7 +7,9 @@ interface DisplayFlexProps {
 export default function DisplayFlex({ children }: DisplayFlexProps) {
   return (
     <figure>
-      <div className={styles.displayFlex}>{children}</div>
+      <div className="scrollbar-none my-2 flex gap-4 overflow-x-scroll">
+        {children}
+      </div>
     </figure>
   )
 }
