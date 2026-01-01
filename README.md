@@ -22,32 +22,33 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Tue Sep 2 08:54:24 AM KST 2025
+Thu Jan 1 08:56:43 PM KST 2026
 
 ## Stats
 
 ```
 ───────────────────────────────────────────────────────────────────────────────
-Language                 Files     Lines   Blanks  Comments     Code Complexity
+Language            Files       Lines    Blanks  Comments       Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown                  3005     76815    20447         0    56368          0
-CSS                         50     16035      713        13    15309          0
-TypeScript                  46      2383      188        35     2160        116
-JSON                        29     22601        0         0    22601          0
-SVG                          9         9        0         0        9          0
-YAML                         5        23        0         0       23          0
-MDX                          2        48       20         0       28          0
-TypeScript Typings           2        12        0         4        8          0
-JavaScript                   1         6        0         0        6          0
-Plain Text                   1         3        0         0        3          0
-TOML                         1         7        0         0        7          0
+Markdown            3,055      77,014    20,798         0     56,216          0
+CSS                    53      13,970       749        32     13,189          0
+TypeScript             46       2,400       184        17      2,199         65
+JSON                   43      23,058         0         0     23,058          0
+SVG                     9           9         0         0          9          0
+YAML                    5          23         0         0         23          0
+JavaScript              3       2,132        10        10      2,112         54
+MDX                     2          48        20         0         28          0
+TypeScript Typ…         2          12         0         4          8          0
+INI                     1           1         0         0          1          0
+Plain Text              1           3         0         0          3          0
+TOML                    1           7         0         0          7          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     3151    117942    21368        52    96522        116
+Total               3,221     118,677    21,761        63     96,853        119
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,276,822
-Estimated Schedule Effort (organic) 21.59 months
-Estimated People Required (organic) 13.48
+Estimated Cost to Develop (organic) $3,288,622
+Estimated Schedule Effort (organic) 21.62 months
+Estimated People Required (organic) 13.51
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5724341 bytes, 5.724 megabytes (SI)
+Processed 5809476 bytes, 5.809 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 ```
