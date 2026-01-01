@@ -54,7 +54,7 @@
     "format": "bunx prettier -w '**/*.{md,mdx}' --log-level silent",
     "readme": "cp md/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md && printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
     "ready": "bun preprocess.ts",
-    "save": " bun ready &&  bun run readme &&  bun run format && git add . && git commit -m 'wrote something' && git push",
+    "save": "bun ready && bun run readme && bun run format && git add . && git commit -m \"$(git diff --cached | head -c 8000 | claude -p 'Write a git commit message for these changes. Use lowercase, imperative mood, max 50 chars. Output only the message, no quotes.')\" && git push",
     "start": "docusaurus serve",
     "prepare": "lefthook install"
   },
