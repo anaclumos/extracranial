@@ -86,6 +86,13 @@ const config: Config = {
       crossorigin: 'anonymous',
       as: 'style',
     },
+    {
+      href: `${CDN_BASE}/npm/@fontsource/iosevka@latest/index.css`,
+      type: 'text/css',
+      rel: 'stylesheet',
+      crossorigin: 'anonymous',
+      as: 'style',
+    },
   ],
 
   themeConfig: {

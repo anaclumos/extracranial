@@ -6,7 +6,7 @@
   --ifm-font-family-base:
     'Pretendard GOV', system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, 'Apple SD Gothic Neo',
     'Apple Color Emoji', 'SF Pro', 'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif !important;
-  --ifm-font-family-monospace: ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
+  --ifm-font-family-monospace: 'Iosevka', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
   --font-family-sans-serif: var(--ifm-font-family-base);
   --font-family-headline: var(--ifm-font-family-base);
   --font-family-monospace: var(--ifm-font-family-monospace);
