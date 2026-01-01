@@ -18,7 +18,7 @@ This article examines the connection between [[Bondee]] and Zheli, a now-shut-do
 
 Indeed, based on the [Singaporean regulatory files](https://drive.google.com/file/d/1eIgAcVLUHA7luzCGZT_ed0R27Slwjd03/view), one of the directors is Yang Yuxiang, a [[중국인|Chinese]] CEO who acquired True.ly in May 2022, the parent company of Zheli. Zheli (Jelly, or 这里, "here" in [[중국어|Chinese]]), a popular social app in China, looks identical to [[Bondee]].
 
-;
+import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 ![[5CD08D.png]]

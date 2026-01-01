@@ -5,7 +5,7 @@ aliases:
   - Ganymede
 ---
 
-;
+import DisplayFlex from '@site/src/components/DisplayFlex'
 
 - [[The Paradoxical Moon Philosophy]]
 - [[Send Separately]]

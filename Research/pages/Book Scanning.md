@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/D1B0BE'
 ---
 
-;
+import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 ![[193DBA.png]]
