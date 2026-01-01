@@ -1,5 +1,7 @@
+import type { Options as PresetClassicOptions } from '@docusaurus/preset-classic'
+
 const theme = {
-  customCss: require.resolve('../src/styles/globals.css'),
-}
+  customCss: './src/styles/globals.css',
+} satisfies PresetClassicOptions['theme']
 
 export default theme

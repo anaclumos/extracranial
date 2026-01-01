@@ -1,6 +1,7 @@
 import { useDoc } from '@docusaurus/plugin-content-docs/client'
 import { useWindowSize } from '@docusaurus/theme-common'
 import Backlink from '@site/src/components/backlink'
+import { ErrorBoundary } from '@site/src/components/error-boundary'
 import { cn } from '@site/src/util/cn'
 import DocBreadcrumbs from '@theme/DocBreadcrumbs'
 import DocItemContent from '@theme/DocItem/Content'
@@ -53,7 +54,9 @@ export default function DocItemLayout({ children }: Props) {
             <DocItemFooter />
           </article>
           <DocItemPaginator />
-          <Backlink documentTitle={title} />
+          <ErrorBoundary>
+            <Backlink documentTitle={title} />
+          </ErrorBoundary>
         </div>
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}

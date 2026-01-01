@@ -1,4 +1,4 @@
-import { type MouseEvent, useState } from 'react'
+import { type KeyboardEvent, type MouseEvent, useState } from 'react'
 import styles from './index.module.css'
 
 interface EmojiReplaceableTextProps {
@@ -21,46 +21,58 @@ export default function EmojiReplaceableText({
 }: EmojiReplaceableTextProps) {
   const [showEmoji, setShowEmoji] = useState(showByDefault === 'emoji')
 
-  const handleClick = (e: MouseEvent<HTMLSpanElement>) => {
-    e.preventDefault()
+  const toggle = () => {
     setShowEmoji(!showEmoji)
   }
 
+  const handleClick = (e: MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault()
+    toggle()
+  }
+
+  const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault()
+      toggle()
+    }
+  }
+
+  const renderEmojiContent = () => {
+    if (emoji !== undefined) {
+      return <span className={styles.emoji}>{emoji}</span>
+    }
+
+    if (photo === undefined) {
+      return text
+    }
+
+    const imgClassName = border === true ? styles.photo : styles.emoji
+    return (
+      <>
+        <img
+          alt={photoAlt}
+          className={imgClassName}
+          height="28"
+          src={photo}
+          width="28"
+        />
+        <span className={styles.allyText}>{text}</span>
+      </>
+    )
+  }
+
   return (
-    <span className={styles.emojiReplaceableText} onClick={handleClick}>
+    <button
+      className={styles.emojiReplaceableText}
+      onClick={handleClick}
+      onKeyDown={handleKeyDown}
+      type="button"
+    >
       {showEmoji ? (
-        emoji === undefined ? (
-          photo === undefined ? (
-            text
-          ) : border === true ? (
-            <>
-              <img
-                alt={photoAlt}
-                className={styles.photo}
-                height="28"
-                src={photo}
-                width="28"
-              />
-              <span className={styles.allyText}>{text}</span>
-            </>
-          ) : (
-            <>
-              <img
-                alt={photoAlt}
-                className={styles.emoji}
-                height="28"
-                src={photo}
-                width="28"
-              />
-              <span className={styles.allyText}>{text}</span>
-            </>
-          )
-        ) : (
-          <span className={styles.emoji}>{emoji}</span>
-        )
+        renderEmojiContent()
       ) : (
         <span className={styles.text}>{text}</span>
       )}
-    </span>
+    </button>
   )
 }

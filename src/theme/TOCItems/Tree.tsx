@@ -17,6 +17,7 @@ function TOCItemTree({
         <li key={heading.id}>
           <a
             className={linkClassName ?? undefined}
+            // biome-ignore lint/security/noDangerouslySetInnerHtml: Required for rendering TOC heading HTML
             dangerouslySetInnerHTML={{
               __html: heading.value,
             }}

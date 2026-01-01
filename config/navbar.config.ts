@@ -1,12 +1,13 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import type { ThemeConfig } from '@docusaurus/preset-classic'
 
-const getMostRecentJournalLink = () => {
+const getMostRecentJournalLink = (): string => {
   const today = new Date()
   today.setDate(today.getDate() + 2)
   let file = ''
   do {
-    file = today.toISOString().split('T')[0]
+    file = today.toISOString().split('T')[0] ?? ''
     const filePath = path.join(
       __dirname,
       '..',
@@ -34,40 +35,40 @@ const navbar = {
     {
       to: '/r/000000',
       label: "What's this?",
-      position: 'left',
+      position: 'left' as const,
     },
     {
       to: getMostRecentJournalLink(),
       label: 'Today',
-      position: 'left',
+      position: 'left' as const,
     },
     {
       to: '/random',
       label: 'Random',
-      position: 'left',
+      position: 'left' as const,
     },
     {
       to: '/w/archive',
       label: 'Articles',
-      position: 'left',
+      position: 'left' as const,
     },
     {
       href: 'https://github.com/anaclumos/extracranial',
-      position: 'right',
+      position: 'right' as const,
       className: 'navbar-github-link',
       'aria-label': 'GitHub repository',
     },
     {
       href: 'https://linkedin.com/in/anaclumos',
-      position: 'right',
+      position: 'right' as const,
       className: 'navbar-linkedin-link',
       'aria-label': 'LinkedIn Account',
     },
     {
-      type: 'localeDropdown',
-      position: 'right',
+      type: 'localeDropdown' as const,
+      position: 'right' as const,
     },
   ],
-}
+} satisfies ThemeConfig['navbar']
 
 export default navbar
