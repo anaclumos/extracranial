@@ -3,6 +3,6 @@ lang: 'en'
 slug: '/A15B61'
 ---
 
-import WIP from '@site/src/components/WIP'
+import WIP from '@site/src/components/wip'
 
 <WIP />

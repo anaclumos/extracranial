@@ -1,3 +1,3 @@
-import YouTube from '@site/src/components/YouTube';
+import YouTube from '@site/src/components/youtube';
 
 <YouTube id=""/>

@@ -73,6 +73,6 @@ class Solution:
 - Time: $O(n)$
 - Space: $O(1)$
 
-import YouTube from '@site/src/components/YouTube';
+import YouTube from '@site/src/components/youtube';
 
 <YouTube id="pKO9UjSeLew"/>
