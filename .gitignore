@@ -170,6 +170,7 @@ web_modules/
 
 # dotenv environment variable files
 .env
+algolia-crawler-config.json
 .env.development.local
 .env.test.local
 .env.production.local
