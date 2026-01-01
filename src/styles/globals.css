@@ -7,6 +7,11 @@
 
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
+/* Override Tailwind breakpoints to match Docusaurus/Infima */
+@theme {
+  --breakpoint-lg: 997px;
+}
+
 :root {
   --ifm-font-family-base:
     "Pretendard GOV", system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, "Apple SD Gothic Neo",
