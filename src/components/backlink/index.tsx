@@ -8,6 +8,12 @@ interface BacklinkProps {
   documentTitle: string
 }
 
+type BacklinksData = Record<string, Record<string, string>>
+type FilenamesData = Record<string, string>
+
+const typedBacklinks = backlinks as BacklinksData
+const typedFilenames = filenames as FilenamesData
+
 function escapeRegExp(str: string): string {
   // Escapes special characters for use in a regular expression
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
@@ -57,6 +63,7 @@ function processBacklinkItem(text: string, title: string) {
   return (
     <pre
       className={styles.backlinkItemText}
+      // biome-ignore lint/security/noDangerouslySetInnerHtml: Required for rendering highlighted backlinks
       dangerouslySetInnerHTML={{
         __html: normalizedText.trim(),
       }}
@@ -68,7 +75,7 @@ export default function Backlink({ documentTitle }: BacklinkProps) {
   // normalize to 'NFC' to match the key of backlinks
   // See https://cho.sh/r/DF5A6E
   const documentTitleEncoded = documentTitle.normalize('NFC')
-  const backlinkItems = backlinks[documentTitleEncoded]
+  const backlinkItems = typedBacklinks[documentTitleEncoded]
   const title = documentTitleEncoded
 
   return (
@@ -87,10 +94,16 @@ export default function Backlink({ documentTitle }: BacklinkProps) {
             .reverse()
             .map((backlink) => {
               const backlinkTitle = backlink.normalize('NFC')
-              if (!filenames[backlinkTitle]) {
+              const filenameEntry = typedFilenames[backlinkTitle]
+              if (!filenameEntry) {
                 console.warn(`Backlink title not found: ${backlinkTitle}`)
+                return null
               }
-              const link = filenames[backlinkTitle].replace('/', '')
+              const link = filenameEntry.replace('/', '')
+              const backlinkContent = backlinkItems[backlink]
+              if (!backlinkContent) {
+                return null
+              }
               return (
                 <Link
                   className={styles.backlinkItemLink}
@@ -101,7 +114,7 @@ export default function Backlink({ documentTitle }: BacklinkProps) {
                     <h3 className={styles.backlinkMentionedFileName}>
                       {backlinkTitle}
                     </h3>
-                    {processBacklinkItem(backlinkItems[backlink], title)}
+                    {processBacklinkItem(backlinkContent, title)}
                   </div>
                 </Link>
               )

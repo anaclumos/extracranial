@@ -39,11 +39,9 @@ export default function BlogPostItemHeaderTitle({
         </>
       ) : (
         <Link itemProp="url" to={permalink}>
-          <>
-            {titleText}
-            <br />
-            {emoji}
-          </>
+          {titleText}
+          <br />
+          {emoji}
         </Link>
       )}
     </TitleHeading>

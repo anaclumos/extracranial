@@ -63,15 +63,20 @@ function RandomParagraphs({ strings }: RandomParagraphsProps) {
       for (let i = 0; i < 3; i++) {
         const randomIndex = Math.floor(Math.random() * arrayCopy.length)
         const item = arrayCopy.splice(randomIndex, 1)[0]
-        if (item) selected.push(item)
+        if (item) {
+          selected.push(item)
+        }
       }
 
       // Fisher-Yates shuffle algorithm
       for (let i = selected.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1))
         const temp = selected[i]
-        selected[i] = selected[j]!
-        selected[j] = temp!
+        const swapValue = selected[j]
+        if (temp !== undefined && swapValue !== undefined) {
+          selected[i] = swapValue
+          selected[j] = temp
+        }
       }
 
       setSelectedStrings(selected)

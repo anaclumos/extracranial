@@ -13,6 +13,7 @@ export default function AppleMusic({ url }: AppleMusicProps) {
       id="embedPlayer"
       sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
       src={url}
+      title="Apple Music Player"
     />
   )
 }

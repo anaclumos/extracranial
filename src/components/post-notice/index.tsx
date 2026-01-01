@@ -48,7 +48,6 @@ function SearchGoogleButton({ title }: { title: string }) {
       className={styles.searchGoogleButton}
       href={`https://www.google.com/search?q=${urlify(title)}&tbs=qdr:y`}
       rel="noopener noreferrer"
-      role="button"
       target="_blank"
     >
       {TRANSLATIONS.callToAction}

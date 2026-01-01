@@ -11,6 +11,7 @@ export default function Spotify({ url }: SpotifyProps) {
       loading="lazy"
       src={url}
       style={{ borderRadius: 12 }}
+      title="Spotify Player"
       width="100%"
     />
   )

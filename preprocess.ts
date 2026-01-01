@@ -1,16 +1,34 @@
 import { randomBytes } from 'node:crypto'
 import { existsSync } from 'node:fs'
-import * as fs from 'node:fs/promises'
-import * as path from 'node:path'
+import {
+  copyFile,
+  mkdir,
+  readdir,
+  readFile,
+  rename,
+  rm,
+  stat,
+  unlink,
+  writeFile,
+} from 'node:fs/promises'
+import {
+  basename,
+  dirname,
+  extname,
+  join,
+  relative,
+  resolve,
+  sep,
+} from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseArgs } from 'node:util'
 
 // ── constants ────────────────────────────────────────────────────────────────────
 
 const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const REPO = path.resolve(__dirname)
-const REPLACE_RULES_PATH = path.join(REPO, 'replace_rules.json')
+const __dirname = dirname(__filename)
+const REPO = resolve(__dirname)
+const REPLACE_RULES_PATH = join(REPO, 'replace_rules.json')
 
 // ── helpers ──────────────────────────────────────────────────────────────────────
 
@@ -43,7 +61,7 @@ function randomHex(): string {
 // ── load replace rules ───────────────────────────────────────────────────────────
 
 const REPLACE_RULES: Record<string, string> = JSON.parse(
-  await fs.readFile(REPLACE_RULES_PATH, 'utf-8')
+  await readFile(REPLACE_RULES_PATH, 'utf-8')
 )
 
 const REPLACE_RE = new RegExp(
@@ -61,6 +79,7 @@ const WIKILINK_RE = /\[\[([^\]]+?)]]/g // raw [[…]] tokens
 const CODE_BLOCK_RE = /```.*?```/gs // fenced code
 const IMG_RE = /!\[([^\]]*?)\]\(([^)]+?)\)$/gm // images
 const SLUG_RE = /^slug:\s+['"]?([^\s'"#]+)['"]?/m
+const WHITESPACE_RE = /\s+/
 
 // ── markdown sanitisation ────────────────────────────────────────────────────────
 
@@ -73,21 +92,20 @@ async function sanitiseMd(root: string): Promise<void> {
 }
 
 async function sanitiseOne(filePath: string): Promise<void> {
-  let text = nfc(await fs.readFile(filePath, 'utf-8'))
+  let text = nfc(await readFile(filePath, 'utf-8'))
 
   if (text.includes('{{hex}}') && !filePath.includes('template')) {
-    text = text.replace('{{hex}}', '/' + randomHex())
+    text = text.replace('{{hex}}', `/${randomHex()}`)
   }
 
   text = text.replace(REPLACE_RE, (match) => REPLACE_RULES[match])
 
   const fm = text.match(LANG_FIX_RE)
   if (
-    fm &&
-    fm[1].includes("lang: 'en'") &&
+    fm?.[1].includes("lang: 'en'") &&
     !(text.includes("div lang='ko") || text.includes('div lang="ko'))
   ) {
-    const fileName = path.basename(filePath)
+    const fileName = basename(filePath)
     const koName = [...fileName].some((ch) => ch >= '\uAC00' && ch <= '\uD7A3')
     const koChars = [...text].filter(
       (ch) => ch >= '\uAC00' && ch <= '\uD7A3'
@@ -101,7 +119,7 @@ async function sanitiseOne(filePath: string): Promise<void> {
     }
   }
 
-  await fs.writeFile(filePath, text, 'utf-8')
+  await writeFile(filePath, text, 'utf-8')
 }
 
 // ── file utilities ───────────────────────────────────────────────────────────────
@@ -110,10 +128,10 @@ async function findFiles(dir: string, extensions: string[]): Promise<string[]> {
   const files: string[] = []
 
   async function walk(currentDir: string) {
-    const entries = await fs.readdir(currentDir, { withFileTypes: true })
+    const entries = await readdir(currentDir, { withFileTypes: true })
 
     for (const entry of entries) {
-      const fullPath = path.join(currentDir, entry.name)
+      const fullPath = join(currentDir, entry.name)
       if (entry.isDirectory()) {
         await walk(fullPath)
       } else if (extensions.some((ext) => entry.name.endsWith(ext))) {
@@ -127,23 +145,23 @@ async function findFiles(dir: string, extensions: string[]): Promise<string[]> {
 }
 
 async function copyRecursive(src: string, dest: string): Promise<void> {
-  const stat = await fs.stat(src)
+  const srcStat = await stat(src)
 
-  if (stat.isDirectory()) {
-    await fs.mkdir(dest, { recursive: true })
-    const entries = await fs.readdir(src)
+  if (srcStat.isDirectory()) {
+    await mkdir(dest, { recursive: true })
+    const entries = await readdir(src)
 
     for (const entry of entries) {
-      await copyRecursive(path.join(src, entry), path.join(dest, entry))
+      await copyRecursive(join(src, entry), join(dest, entry))
     }
   } else {
-    await fs.copyFile(src, dest)
+    await copyFile(src, dest)
   }
 }
 
 async function rmrf(dir: string): Promise<void> {
   if (existsSync(dir)) {
-    await fs.rm(dir, { recursive: true, force: true })
+    await rm(dir, { recursive: true, force: true })
   }
 }
 
@@ -159,28 +177,28 @@ async function processBlog(
 
   await rmrf(en)
   await rmrf(ko)
-  await fs.mkdir(en, { recursive: true })
-  await fs.mkdir(ko, { recursive: true })
+  await mkdir(en, { recursive: true })
+  await mkdir(ko, { recursive: true })
 
-  const entries = await fs.readdir(src, { withFileTypes: true })
+  const entries = await readdir(src, { withFileTypes: true })
   const fileCount = await countFiles(src)
   console.log(
     `📋 Copying ${fileCount} blog files to English and Korean destinations`
   )
 
   for (const entry of entries) {
-    const srcPath = path.join(src, entry.name)
+    const srcPath = join(src, entry.name)
     if (entry.isFile()) {
-      await fs.copyFile(srcPath, path.join(en, entry.name))
-      await fs.copyFile(srcPath, path.join(ko, entry.name))
+      await copyFile(srcPath, join(en, entry.name))
+      await copyFile(srcPath, join(ko, entry.name))
     } else {
-      await copyRecursive(srcPath, path.join(en, entry.name))
-      await copyRecursive(srcPath, path.join(ko, entry.name))
+      await copyRecursive(srcPath, join(en, entry.name))
+      await copyRecursive(srcPath, join(ko, entry.name))
     }
   }
 
-  await fs.copyFile(path.join(cfg, 'english.yml'), path.join(en, 'authors.yml'))
-  await fs.copyFile(path.join(cfg, 'korean.yml'), path.join(ko, 'authors.yml'))
+  await copyFile(join(cfg, 'english.yml'), join(en, 'authors.yml'))
+  await copyFile(join(cfg, 'korean.yml'), join(ko, 'authors.yml'))
 
   await walkRename(en, 'en', 'ko')
   await walkRename(ko, 'ko', 'en')
@@ -196,24 +214,24 @@ async function walkRename(
   const files = await findFiles(base, ['.md', '.mdx'])
 
   for (const file of files) {
-    const dir = path.dirname(file)
-    const basename = path.basename(file, path.extname(file))
-    const ext = path.extname(file)
+    const dir = dirname(file)
+    const fileBasename = basename(file, extname(file))
+    const ext = extname(file)
 
-    if (basename.startsWith(toIndex)) {
-      await fs.rename(file, path.join(dir, 'index' + ext))
-    } else if (basename.startsWith(toDelete)) {
-      await fs.unlink(file)
+    if (fileBasename.startsWith(toIndex)) {
+      await rename(file, join(dir, `index${ext}`))
+    } else if (fileBasename.startsWith(toDelete)) {
+      await unlink(file)
     }
   }
 }
 
 async function countFiles(dir: string): Promise<number> {
   let count = 0
-  const entries = await fs.readdir(dir, { withFileTypes: true })
+  const entries = await readdir(dir, { withFileTypes: true })
 
   for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name)
+    const fullPath = join(dir, entry.name)
     if (entry.isDirectory()) {
       count += await countFiles(fullPath)
     } else {
@@ -237,22 +255,22 @@ async function processDocs(src: string, dst: string): Promise<void> {
 
   const linkMap = new CaseInsensitiveMap<string>()
   for (const file of mdFiles) {
-    linkMap.set(nfc(path.basename(file, '.md')), file)
+    linkMap.set(nfc(basename(file, '.md')), file)
   }
 
   // Copy yml files
   const ymlFiles = await findFiles(src, ['.yml'])
   for (const yml of ymlFiles) {
-    const relative = path.relative(src, yml)
-    const target = path.join(dst, relative)
-    await fs.mkdir(path.dirname(target), { recursive: true })
-    await fs.copyFile(yml, target)
+    const rel = relative(src, yml)
+    const target = join(dst, rel)
+    await mkdir(dirname(target), { recursive: true })
+    await copyFile(yml, target)
   }
 
   // Copy assets
-  const assetsDir = path.join(src, 'assets')
+  const assetsDir = join(src, 'assets')
   if (existsSync(assetsDir)) {
-    await copyRecursive(assetsDir, path.join(dst, 'assets'))
+    await copyRecursive(assetsDir, join(dst, 'assets'))
   }
 
   // Process images first
@@ -267,24 +285,20 @@ async function processDocs(src: string, dst: string): Promise<void> {
 }
 
 async function processImages(filePath: string): Promise<void> {
-  let txt = await fs.readFile(filePath, 'utf-8')
-  const before = txt
+  let txt = await readFile(filePath, 'utf-8')
 
-  // Check if file contains wikilink images
-  const wikiImageMatches = txt.match(/!\[\[([^\]]+?)\]\]/g)
-
-  txt = txt.replace(/!\[\[([^\]]+?)\]\]/g, (match, p1) => {
+  txt = txt.replace(/!\[\[([^\]]+?)\]\]/g, (_match, p1) => {
     return `![${p1}](../assets/${p1})`
   })
 
-  await fs.writeFile(filePath, txt, 'utf-8')
+  await writeFile(filePath, txt, 'utf-8')
 }
 
 async function resolveFile(
   filePath: string,
   linkMap: CaseInsensitiveMap<string>
 ): Promise<void> {
-  const txt = await fs.readFile(filePath, 'utf-8')
+  const txt = await readFile(filePath, 'utf-8')
   const parts: string[] = []
   let lastIndex = 0
 
@@ -292,13 +306,13 @@ async function resolveFile(
   const matches = [...txt.matchAll(CODE_BLOCK_RE)]
 
   for (const match of matches) {
-    const start = match.index!
+    const start = match.index ?? 0
     const end = start + match[0].length
 
     // Process text outside code block
     const outside = txt.slice(lastIndex, start)
-    const processedOutside = outside.replace(WIKILINK_RE, (match, p1) =>
-      resolveWikilink(match, p1, filePath, linkMap)
+    const processedOutside = outside.replace(WIKILINK_RE, (m, p1) =>
+      resolveWikilink(m, p1, filePath, linkMap)
     )
 
     parts.push(processedOutside)
@@ -308,14 +322,14 @@ async function resolveFile(
 
   // Process remainder
   const remainder = txt.slice(lastIndex)
-  const processedRemainder = remainder.replace(WIKILINK_RE, (match, p1) =>
-    resolveWikilink(match, p1, filePath, linkMap)
+  const processedRemainder = remainder.replace(WIKILINK_RE, (m, p1) =>
+    resolveWikilink(m, p1, filePath, linkMap)
   )
   parts.push(processedRemainder)
 
   const out = parts.join('')
   if (out !== txt) {
-    await fs.writeFile(filePath, out, 'utf-8')
+    await writeFile(filePath, out, 'utf-8')
   }
 }
 
@@ -329,7 +343,7 @@ function resolveWikilink(
   if (
     !raw ||
     raw[0] === ' ' ||
-    raw[raw.length - 1] === ' ' ||
+    raw.at(-1) === ' ' ||
     raw.trimStart().startsWith('-')
   ) {
     return match
@@ -342,10 +356,10 @@ function resolveWikilink(
     return match // unresolved → keep original
   }
 
-  let rel = path.relative(path.dirname(currentFile), mdFile)
+  let rel = relative(dirname(currentFile), mdFile)
   rel = rel
-    .split(path.sep)
-    .map((seg) => encodeURIComponent(seg))
+    .split(sep)
+    .map((segment) => encodeURIComponent(segment))
     .join('/')
   return `[${display}](./${rel})`
 }
@@ -377,13 +391,13 @@ async function buildBacklinks(root: string, outDir: string): Promise<void> {
 
   for (const file of mdFiles) {
     fileCount++
-    const fname = path.basename(file, '.md')
+    const fname = basename(file, '.md')
 
     if (!backlinkMap[fname]) {
       backlinkMap[fname] = {}
     }
 
-    const txt = await fs.readFile(file, 'utf-8')
+    const txt = await readFile(file, 'utf-8')
 
     // Extract slug
     const uidMatch = txt.match(SLUG_RE)
@@ -405,7 +419,7 @@ async function buildBacklinks(root: string, outDir: string): Promise<void> {
     }
   }
 
-  await fs.mkdir(outDir, { recursive: true })
+  await mkdir(outDir, { recursive: true })
 
   // Sort the backlink map keys and their nested objects
   const sortedBacklinkMap: BacklinkMap = {}
@@ -422,13 +436,13 @@ async function buildBacklinks(root: string, outDir: string): Promise<void> {
     sortedUidMap[key] = uidMap[key]
   }
 
-  await fs.writeFile(
-    path.join(outDir, 'backlinks.json'),
+  await writeFile(
+    join(outDir, 'backlinks.json'),
     JSON.stringify(sortedBacklinkMap, null, 2)
   )
 
-  await fs.writeFile(
-    path.join(outDir, 'filenames.json'),
+  await writeFile(
+    join(outDir, 'filenames.json'),
     JSON.stringify(sortedUidMap, null, 2)
   )
 
@@ -442,19 +456,21 @@ function getContext(txt: string, needle: string, keep = 6): string {
   const lines = txt.split('\n')
 
   for (const line of lines) {
-    if (!line.includes(tag)) continue
+    if (!line.includes(tag)) {
+      continue
+    }
 
     const [preRaw, postRaw] = line.split(tag)
-    const preParts = preRaw.split(/\s+/)
-    const postParts = postRaw.split(/\s+/)
+    const preParts = preRaw.split(WHITESPACE_RE)
+    const postParts = postRaw.split(WHITESPACE_RE)
 
     const pre = preParts.slice(-keep).join(' ')
     const post = postParts.slice(0, keep).join(' ')
 
     return (
-      (preRaw !== pre ? '... ' + pre : pre) +
+      (preRaw !== pre ? `... ${pre}` : pre) +
       tag +
-      (postRaw !== post ? post + ' ...' : post)
+      (postRaw !== post ? `${post} ...` : post)
     )
   }
 
@@ -464,17 +480,17 @@ function getContext(txt: string, needle: string, keep = 6): string {
 // ── image alt fix ────────────────────────────────────────────────────────────────
 
 async function fixImgAlt(root: string): Promise<void> {
-  let count = 0
   const files = await findFiles(root, ['.md', '.mdx'])
 
   for (const file of files) {
-    if (path.basename(file) === 'Welcome.md') continue
+    if (basename(file) === 'Welcome.md') {
+      continue
+    }
 
-    const txt = await fs.readFile(file, 'utf-8')
+    const txt = await readFile(file, 'utf-8')
 
-    const out = txt.replace(IMG_RE, (match, alt, src) => {
-      const ext = path.extname(src).toLowerCase()
-      count++
+    const out = txt.replace(IMG_RE, (_match, alt, src) => {
+      const ext = extname(src).toLowerCase()
 
       if (alt.endsWith(ext) || alt.toUpperCase().startsWith('ALT:')) {
         const clean = alt.replace('ALT:', '').trim()
@@ -485,7 +501,7 @@ async function fixImgAlt(root: string): Promise<void> {
     })
 
     if (out !== txt) {
-      await fs.writeFile(file, out, 'utf-8')
+      await writeFile(file, out, 'utf-8')
     }
   }
 }
@@ -502,11 +518,11 @@ async function cleanupAssets(
     return
   }
 
-  const assets = await fs.readdir(assetsDir)
+  const assets = await readdir(assetsDir)
   const assetFiles: string[] = []
   for (const asset of assets) {
-    const stat = await fs.stat(path.join(assetsDir, asset))
-    if (stat.isFile()) {
+    const assetStat = await stat(join(assetsDir, asset))
+    if (assetStat.isFile()) {
       assetFiles.push(asset)
     }
   }
@@ -520,7 +536,7 @@ async function cleanupAssets(
   const mdFiles = await findFiles(researchRoot, ['.md'])
 
   for (const mdFile of mdFiles) {
-    const txt = await fs.readFile(mdFile, 'utf-8')
+    const txt = await readFile(mdFile, 'utf-8')
     for (const asset of assetFiles) {
       if (txt.includes(asset)) {
         mentioned.set(asset, true)
@@ -540,7 +556,7 @@ async function cleanupAssets(
     console.log(' •', f)
   }
 
-  const readline = await import('readline')
+  const readline = await import('node:readline')
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -554,7 +570,7 @@ async function cleanupAssets(
 
   if (answer.toLowerCase().startsWith('y')) {
     for (const f of unused) {
-      await fs.unlink(path.join(assetsDir, f))
+      await unlink(join(assetsDir, f))
       console.log(`🗑️ Deleted ${f}`)
     }
   }
@@ -575,14 +591,14 @@ async function main(): Promise<void> {
     },
   })
 
-  const research = path.join(REPO, 'Research')
-  const docs = path.join(REPO, 'docs')
-  const blogEn = path.join(REPO, 'blog')
-  const blogKo = path.join(REPO, 'i18n', 'ko', 'docusaurus-plugin-content-blog')
-  const postsSrc = path.join(REPO, 'posts')
-  const cfg = path.join(REPO, 'config')
-  const outTs = path.join(REPO, 'src', 'data')
-  const assets = path.join(research, 'assets')
+  const research = join(REPO, 'Research')
+  const docs = join(REPO, 'docs')
+  const blogEn = join(REPO, 'blog')
+  const blogKo = join(REPO, 'i18n', 'ko', 'docusaurus-plugin-content-blog')
+  const postsSrc = join(REPO, 'posts')
+  const cfg = join(REPO, 'config')
+  const outTs = join(REPO, 'src', 'data')
+  const assets = join(research, 'assets')
 
   await sanitiseMd(research)
   await processBlog(postsSrc, blogEn, blogKo, cfg)

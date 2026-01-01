@@ -4,7 +4,7 @@ import createGlobe from 'cobe'
 import { useEffect, useRef } from 'react'
 import styles from './index.module.css'
 
-type Props = {
+interface Props {
   lang?: 'ko' | 'en'
 }
 
@@ -33,7 +33,9 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
 
   useEffect(() => {
     const onResize = () => {
-      if (canvasRef.current) widthRef.current = canvasRef.current.offsetWidth
+      if (canvasRef.current) {
+        widthRef.current = canvasRef.current.offsetWidth
+      }
     }
     window.addEventListener('resize', onResize)
     onResize()
@@ -69,7 +71,9 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
     if (canvasRef.current) {
       canvasRef.current.style.opacity = '0'
       setTimeout(() => {
-        if (canvasRef.current) canvasRef.current.style.opacity = '1'
+        if (canvasRef.current) {
+          canvasRef.current.style.opacity = '1'
+        }
       }, 100)
     }
 
@@ -88,7 +92,9 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
   }
 
   const handlePointerMove = (clientX: number, clientY: number) => {
-    if (!pointerDown.current) return
+    if (!pointerDown.current) {
+      return
+    }
     const dx = clientX - startX.current
     const dy = clientY - startY.current
     const w = widthRef.current || 1
