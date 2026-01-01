@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/2C3676'
 ---
 
-import YouTube from '@/components/youtube';
+import YouTube from '@site/src/components/YouTube';
 
 <YouTube id="XikIr0kedY8"/>
 

@@ -5,7 +5,7 @@ slug: '/AE80A9'
 
 This is a [[metapage]] for all the media I've played, starting from Mar 2023. Just like [[Readings]] and [[Watchings]].
 
-import Shuffle from '@/components/shuffle'
+import Shuffle from '@site/src/components/Shuffle'
 
 <Shuffle>
 

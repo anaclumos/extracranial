@@ -1,10 +1,6 @@
 const pwaOptions = {
   debug: false,
-  offlineModeActivationStrategies: [
-    'appInstalled',
-    'queryString',
-    'standalone',
-  ],
+  offlineModeActivationStrategies: ['appInstalled', 'queryString', 'standalone'],
   pwaHead: [
     {
       tagName: 'link',

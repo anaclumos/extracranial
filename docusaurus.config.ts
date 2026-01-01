@@ -29,6 +29,7 @@ const config: Config = {
   baseUrlIssueBanner: false,
 
   future: {
+    v4: true,
     experimental_faster: true,
   },
 
@@ -71,13 +72,6 @@ const config: Config = {
   stylesheets: [
     {
       href: `${CDN_BASE}/npm/katex@latest/dist/katex.min.css`,
-      type: 'text/css',
-      rel: 'stylesheet',
-      crossorigin: 'anonymous',
-      as: 'style',
-    },
-    {
-      href: 'https://statics.goorm.io/fonts/GoormSansCode/latest/GoormSansCode.min.css',
       type: 'text/css',
       rel: 'stylesheet',
       crossorigin: 'anonymous',

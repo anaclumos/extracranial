@@ -13,8 +13,7 @@ const scrollSpeed = 0.2
 const startDelay = 5000
 
 // Calculate the total distance to scroll
-const totalScrollDistance =
-  document.documentElement.scrollHeight - window.innerHeight
+const totalScrollDistance = document.documentElement.scrollHeight - window.innerHeight
 
 // Calculate the scroll duration based on the scroll speed and total distance
 const scrollDuration = totalScrollDistance / scrollSpeed

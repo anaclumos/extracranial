@@ -1,3 +1,3 @@
-import SpotifySong from '@/components/spotify'
+import SpotifySong from '@site/src/components/Spotify'
 
 <SpotifySong url=""/>

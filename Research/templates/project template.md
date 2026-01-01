@@ -1,5 +1,5 @@
 ---
-lang: en
+lang: 'en'
 slug: '{{hex}}'
 ---
 

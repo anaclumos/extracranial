@@ -81,10 +81,6 @@
     "message": "Older Entries",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
-  "theme.blog.post.loading.views": {
-    "message": "Counting...",
-    "description": "The blog post view count is loading"
-  },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "Blog post page navigation",
     "description": "The ARIA label for the blog posts pagination"
@@ -112,10 +108,6 @@
   "theme.blog.post.readMoreLabel": {
     "message": "Read more about {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
-  },
-  "theme.blog.post.view": {
-    "message": " view",
-    "description": "The blog post has 1 view"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Blog Articles navigation",
@@ -154,7 +146,7 @@
     "description": "The name for the light color mode"
   },
   "theme.common.editThisPage": {
-    "message": "Edit or Check Timestamp",
+    "message": "Edit",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
@@ -289,7 +281,7 @@
     "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "message": "Our server recognized that your government restricts access to this content. I can create a secure tunnel for you; load up your VPN or use the Onion protocol with Tor. To bypass this censorship, you must send me 10 ETH @ 0xCC441Db84Bf28ea2740e2778c662FA4B515ACcd6. Then try again.",
+    "message": "Your government restricts access to this content.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {

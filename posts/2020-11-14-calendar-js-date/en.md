@@ -105,15 +105,7 @@ Defining constants will help before writing `renderCalendar()`.
 // `calendar.js`
 const NUMBER_OF_DAYS_IN_WEEK = 7
 const NAME_OF_DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
-const LONG_NAME_OF_DAYS = [
-  'Sunday',
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-]
+const LONG_NAME_OF_DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const ACTUAL_TODAY = new Date()
 ```
 
@@ -189,12 +181,7 @@ Now let's draw a calendar in earnest. I created a `getCalendarHTML` function tha
 ```js
 const getCalendarHTML = () => {
   let today = new Date()
-  let {
-    lastMonthLastDate,
-    thisMonthFirstDate,
-    thisMonthLastDate,
-    nextMonthFirstDate,
-  } = processDate(today)
+  let { lastMonthLastDate, thisMonthFirstDate, thisMonthLastDate, nextMonthFirstDate } = processDate(today)
   let calendarContents = []
 
   // ...
@@ -207,11 +194,7 @@ Add a line at the top to display the day of the week. Use the `const` we added a
 
 ```js
 for (let d = 0; d < NUMBER_OF_DAYS_IN_WEEK; d++) {
-  calendarContents.push(
-    html`<div class="${NAME_OF_DAYS[d]} calendar-cell">
-      ${NAME_OF_DAYS[d]}
-    </div>`,
-  )
+  calendarContents.push(html`<div class="${NAME_OF_DAYS[d]} calendar-cell">${NAME_OF_DAYS[d]}</div>`)
 }
 ```
 
@@ -227,10 +210,8 @@ for (let d = 0; d < thisMonthFirstDate.getDay(); d++) {
           past-month
         "
     >
-      ${lastMonthLastDate.getMonth() + 1}/${lastMonthLastDate.getDate() -
-      thisMonthFirstDate.getDay() +
-      d}
-    </div>`,
+      ${lastMonthLastDate.getMonth() + 1}/${lastMonthLastDate.getDate() - thisMonthFirstDate.getDay() + d}
+    </div>`
   )
 }
 ```
@@ -250,7 +231,7 @@ for (let d = 0; d < thisMonthLastDate.getDate(); d++) {
         "
     >
       ${d + 1} ${today.getDate() === d + 1 ? ' today' : ''}
-    </div>`,
+    </div>`
   )
 }
 ```
@@ -270,7 +251,7 @@ for (let d = 0; d < nextMonthDaysToRender; d++) {
         "
     >
       ${nextMonthFirstDate.getMonth() + 1}/${d + 1}
-    </div>`,
+    </div>`
   )
 }
 ```

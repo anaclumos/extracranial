@@ -288,9 +288,7 @@ sleep(2000)
 
 console.log('worker thread:', window.innerWidth)
 
-console.log(
-  'this should go after printing worker window.innerWidth (sync access)',
-)
+console.log('this should go after printing worker window.innerWidth (sync access)')
 
 // This all happens synchronously in multi-thread.
 ```

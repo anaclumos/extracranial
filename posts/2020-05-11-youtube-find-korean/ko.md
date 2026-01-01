@@ -32,10 +32,7 @@ var comment
 
 function containsUnicode(str, startUnicode, endUnicode) {
   for (var i = 0; i < str.length; i++) {
-    if (
-      startUnicode.charCodeAt(0) <= str.charCodeAt(i) &&
-      str.charCodeAt(i) <= endUnicode.charCodeAt(0)
-    ) {
+    if (startUnicode.charCodeAt(0) <= str.charCodeAt(i) && str.charCodeAt(i) <= endUnicode.charCodeAt(0)) {
       return true
     }
   }
@@ -43,9 +40,7 @@ function containsUnicode(str, startUnicode, endUnicode) {
 }
 
 for (var x = 0; x < commentList.length; x++) {
-  comment =
-    commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[3]
-      .innerText
+  comment = commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[3].innerText
   if (containsUnicode(comment, '가', '힣')) {
     // comment = "한글임 \n" + comment;
   } else {
@@ -56,16 +51,10 @@ for (var x = 0; x < commentList.length; x++) {
 }
 
 for (var x = 0; x < commentList.length; x++) {
-  console.log(
-    commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[1]
-      .innerText,
-  )
+  console.log(commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[1].innerText)
   // 작성자 이름과 작성날짜가 같이 묶여있다. "이름\n작성날짜"
 
-  console.log(
-    commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[3]
-      .innerText,
-  )
+  console.log(commentList[x].childNodes[1].childNodes[1].childNodes[3].childNodes[3].innerText)
   // 댓글!
 }
 // End of code
@@ -204,9 +193,7 @@ YouTube는 HTML의 컴포넌트를 다수 **재활용한다**. YouTube 동영상
 ```js
 for (var comment of commentList) {
   if (comment.id === '') {
-    var commentString =
-      comment.childNodes[1].childNodes[1].childNodes[3].childNodes[3]
-        .childNodes[1].innerText
+    var commentString = comment.childNodes[1].childNodes[1].childNodes[3].childNodes[3].childNodes[1].innerText
     if (containsSelectedLang(commentString)) {
       comment.id = 'contains-SelectedLang'
     } else {
@@ -231,11 +218,8 @@ var shownCommentNum = 0
 // ...
 for (var i = commentNum; i < commentList.length; i++) {
   commentNum++
-  CLFFooter.textContent =
-    commentNum + ' comments analyzed, ' + shownCommentNum + ' comments shown.'
-  var commentString =
-    commentList[i].childNodes[2].childNodes[2].childNodes[3].childNodes[3]
-      .innerText
+  CLFFooter.textContent = commentNum + ' comments analyzed, ' + shownCommentNum + ' comments shown.'
+  var commentString = commentList[i].childNodes[2].childNodes[2].childNodes[3].childNodes[3].innerText
   if (!containsSelectedLang(commentString, StartCharset, EndCharset)) {
     commentList[i].style = 'display: none'
   } else {

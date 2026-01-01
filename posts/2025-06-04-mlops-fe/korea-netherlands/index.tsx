@@ -26,8 +26,7 @@ export const KoreaNetherlandsGlobe = () => {
     (lat * Math.PI) / 180,
   ]
 
-  const clamp = (v: number, min: number, max: number) =>
-    Math.min(Math.max(v, min), max)
+  const clamp = (v: number, min: number, max: number) => Math.min(Math.max(v, min), max)
 
   useEffect(() => {
     const onResize = () => {
@@ -92,11 +91,7 @@ export const KoreaNetherlandsGlobe = () => {
     const dy = clientY - startY.current
     const w = widthRef.current || 1
     targetPhi.current = startPhi.current + (dx / w) * Math.PI * 2
-    targetTheta.current = clamp(
-      startTheta.current + (dy / w) * Math.PI,
-      -Math.PI / 2,
-      Math.PI / 2,
-    )
+    targetTheta.current = clamp(startTheta.current + (dy / w) * Math.PI, -Math.PI / 2, Math.PI / 2)
   }
 
   const handlePointerUp = () => {
@@ -109,14 +104,12 @@ export const KoreaNetherlandsGlobe = () => {
   }
 
   return (
-    <div className='relative mx-auto w-full max-w-2xl'>
-      <Card className='overflow-hidden'>
-        <CardContent className='p-0'>
-          <div className='relative aspect-square w-full'>
+    <div className="relative mx-auto w-full max-w-2xl">
+      <Card className="overflow-hidden">
+        <CardContent className="p-0">
+          <div className="relative aspect-square w-full">
             <canvas
-              className={cn(
-                'absolute inset-0 h-full w-full cursor-grab transition-opacity duration-500',
-              )}
+              className={cn('absolute inset-0 h-full w-full cursor-grab transition-opacity duration-500')}
               onPointerDown={(e) => handlePointerDown(e.clientX, e.clientY)}
               onPointerLeave={handlePointerUp}
               onPointerMove={(e) => handlePointerMove(e.clientX, e.clientY)}
@@ -128,20 +121,14 @@ export const KoreaNetherlandsGlobe = () => {
         </CardContent>
       </Card>
 
-      <div className='mt-6 flex justify-center gap-3'>
-        <Button
-          onClick={() => handleCityClick(52.3676, 4.9041)}
-          variant='outline'
-        >
-          <span className='text-xl'>🇳🇱</span>
-          <span className='text-sm'>Netherlands · Amsterdam</span>
+      <div className="mt-6 flex justify-center gap-3">
+        <Button onClick={() => handleCityClick(52.3676, 4.9041)} variant="outline">
+          <span className="text-xl">🇳🇱</span>
+          <span className="text-sm">Netherlands · Amsterdam</span>
         </Button>
-        <Button
-          onClick={() => handleCityClick(37.5665, 126.978)}
-          variant='outline'
-        >
-          <span className='text-xl'>🇰🇷</span>
-          <span className='text-sm'>South Korea · Seoul</span>
+        <Button onClick={() => handleCityClick(37.5665, 126.978)} variant="outline">
+          <span className="text-xl">🇰🇷</span>
+          <span className="text-sm">South Korea · Seoul</span>
         </Button>
       </div>
     </div>

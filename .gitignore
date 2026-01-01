@@ -1,3 +1,4 @@
+.venv
 *.config.js
 *.js.map
 *.stylesheet.js
@@ -287,3 +288,5 @@ $RECYCLE.BIN/
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 .vercel
+
+**/.claude/settings.local.json

@@ -34,6 +34,6 @@ We need a new mobile OS that's web-only.
 
 </blockquote>
 
-import YouTube from '@/components/youtube';
+import YouTube from '@site/src/components/YouTube';
 
 <YouTube id="v0160IirdL4"/>

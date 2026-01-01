@@ -3,6 +3,6 @@ lang: 'en'
 slug: '/CD9394'
 ---
 
-import WIP from '@/components/wip'
+import WIP from '@site/src/components/WIP'
 
 <WIP />

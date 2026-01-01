@@ -1,16 +1,12 @@
+import React, { JSX } from 'react'
 import { translate } from '@docusaurus/Translate'
 import Admonition from '@theme/Admonition'
-import React from 'react'
-import type { JSX } from 'react'
 import PostNotice from './PostNotice.module.css'
 
 const title = translate({ message: 'Heads Up!' })
 
 type Props = {
-  metadata: {
-    date: string
-    title: string
-  }
+  metadata: unknown
 }
 
 const bulletOneFront = translate({
@@ -58,13 +54,13 @@ const urlify = (text: string) => {
 
 const SearchGoogleButton = (props) => (
   <a
+    role="button"
+    className={PostNotice.searchGoogleButton}
     href={`https://www.google.com/search?q=${urlify(props.title)}&tbs=qdr:y`}
-    target='_blank'
-    rel='noopener noreferrer'
+    target="_blank"
+    rel="noopener noreferrer"
   >
-    <button className={PostNotice.searchGoogleButton} type='button'>
-      {translateCallToAction}
-    </button>
+    {translateCallToAction}
   </a>
 )
 
@@ -72,14 +68,12 @@ const index = (props: Props) => {
   const { metadata } = props
   return (
     isOldPost(metadata.date) && (
-      <Admonition type='caution' title={title}>
+      <Admonition type="caution" title={title}>
         <ul>
           <li>
             {bulletOneFront}
             {howManyYearsAgo(metadata.date)}
-            {howManyYearsAgo(metadata.date) > 1
-              ? bulletOneBackPlural
-              : bulletOneBackSingular}
+            {howManyYearsAgo(metadata.date) > 1 ? bulletOneBackPlural : bulletOneBackSingular}
           </li>
           <li>{bulletTwo}</li>
           <li>{bulletThree}</li>

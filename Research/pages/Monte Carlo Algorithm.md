@@ -1,8 +1,7 @@
 ---
 lang: 'en'
 slug: '/1ECA5C'
-aliases:
-  ['Monte Carlo Algorithms', '몬테카를로 알고리즘', '몬테 카를로 알고리즘']
+aliases: ['Monte Carlo Algorithms', '몬테카를로 알고리즘', '몬테 카를로 알고리즘']
 ---
 
 TODO: USE FUMADOCS I18N

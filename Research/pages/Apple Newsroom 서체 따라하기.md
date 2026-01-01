@@ -18,9 +18,8 @@ slug: '/1C362F'
 
 ```css
 font-family: /* 본문용 서체 */
-  '-apple-system', 'BlinkMacSystemFont', 'Apple SD Gothic Neo', 'Inter',
-  'Spoqa Han Sans', 'Segoe UI', Sans-Serif, 'Apple Color Emoji',
-  'Segoe UI Emoji', 'Segoe UI Symbol';
+  '-apple-system', 'BlinkMacSystemFont', 'Apple SD Gothic Neo', 'Inter', 'Spoqa Han Sans', 'Segoe UI', Sans-Serif,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
 font-family: /* 코드용 서체 */ 'SF Mono', 'Consolas', 'Menlo', monospace;
 ```

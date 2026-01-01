@@ -25,11 +25,7 @@ After a while, I figured out how to define a language range for each [[font]]. W
 We add either of the following statements to define a font in most cases.
 
 ```html
-<link
-  href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css"
-  rel="stylesheet"
-  type="text/css"
-/>
+<link href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css" />
 ```
 
 ```css

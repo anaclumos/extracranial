@@ -5,7 +5,7 @@ slug: '/E4817A'
 
 This is a [[metapage]] for all the media I've seen, starting from Feb 2023. Just like [[Readings]]
 
-import Shuffle from '@/components/shuffle'
+import Shuffle from '@site/src/components/Shuffle'
 
 ## [[Done]]
 
