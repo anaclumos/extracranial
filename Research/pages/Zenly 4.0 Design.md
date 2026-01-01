@@ -13,12 +13,12 @@ More subtle ones:
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[CCA21B.gif]]
 ![[3924FC.png]]
 
-</Horizontal>
+</DisplayFlex>
 
 ![[42DAAA.jpg]]
 

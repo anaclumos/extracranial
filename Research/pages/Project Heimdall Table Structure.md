@@ -85,8 +85,8 @@ erDiagram
 
 ```
 
-<Accordions>
-<Accordion title="[[2023-06-18]] Version">
+<details>
+<summary>[[2023-06-18]] Version</summary>>
 
 ```mermaid
 erDiagram
@@ -183,5 +183,4 @@ erDiagram
 
 ```
 
-</Accordion>
-</Accordions>
+</details>

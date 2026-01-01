@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/1E6ABA'
 ---
 
+import Admonition from '@theme/Admonition';
+
 - Interviewed on [[2022-11-23]]
 - Currently works at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as a Senior Manager.
 
@@ -43,7 +45,7 @@ For example, the Tensorflow compiler team wanted to make everything as static as
 Current startup indeed holds more risk, but it comes with a thrill.
 The place makes the person.
 
-<Callout type="info" title="I love my job because..." icon="💙">
+<Admonition type="info" title="I love my job because..." icon="💙">
 People are brilliant and kind.
 A huge portion of my job satisfaction.
-</Callout>
+</Admonition>

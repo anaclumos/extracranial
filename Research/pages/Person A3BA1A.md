@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/A3BA1A'
 ---
 
+import Admonition from '@theme/Admonition';
+
 - Interviewed on [[2022-11-25]]
 - Currently works at Quota Labs
 
@@ -23,6 +25,6 @@ That is the key to B2B software.
 Current BM revolves around subscription fees, and because VCs are using our tool, the financial stability remains strong.
 Some customers require [[on-premise]] hardware, requiring us to adapt to such demands.
 
-<Callout type="info" title="I love my job because..." icon="💙">
+<Admonition type="info" title="I love my job because..." icon="💙">
 Very high potential of exiting.
-</Callout>
+</Admonition>

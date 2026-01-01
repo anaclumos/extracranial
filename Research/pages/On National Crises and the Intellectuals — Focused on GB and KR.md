@@ -3,11 +3,13 @@ lang: 'en'
 slug: '/48A308'
 ---
 
-<Callout type="info" title='한국어' icon="🇰🇷">
+import Admonition from '@theme/Admonition';
+
+<Admonition type="info" title='한국어' icon="🇰🇷">
 
 [[국가적 위기와 지식인에 대해 -- 영국과 한국을 중심으로|한국어 🇰🇷 버전은 여기에 있습니다.]]
 
-</Callout>
+</Admonition>
 
 ## Dear [[Harry Stebbings|Mr. Stebbings]],
 

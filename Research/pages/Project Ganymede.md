@@ -51,12 +51,12 @@ Server Crashed. migrating to Fly.io... Because I wanted a Vercel-like experience
 
 ## [[2023-12-24]]
 
-<Horizontal>
+<DisplayFlex>
 
 ![[9A391C.png]]
 ![[485E0B.png]]
 
-</Horizontal>
+</DisplayFlex>
 
 ## [[2023-12-15]]
 

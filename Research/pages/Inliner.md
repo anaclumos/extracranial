@@ -81,12 +81,12 @@ Some outliners also allow users to create custom fields and filter on fields. It
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![Inliner](../assets/4D6E3C.png)
 ![Outliner](../assets/F9FF01.png)
 
-</Horizontal>
+</DisplayFlex>
 
 This is a personal preference, but Inliner looks much more _welcoming to read_ for me.
 

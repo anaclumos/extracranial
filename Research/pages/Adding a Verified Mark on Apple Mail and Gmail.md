@@ -8,12 +8,12 @@ slug: '/CB6043'
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[44E269.jpeg]]
 ![[770154.png]]
 
-</Horizontal>
+</DisplayFlex>
 
 ![[7A151F.jpeg]]
 ![[48FEB4.jpeg]]

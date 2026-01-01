@@ -6,10 +6,10 @@ aliases: ['Ai Pin']
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[3EED5E.png]]
 ![[1A19E9.png]]
 ![[57312D.png]]
 
-</Horizontal>
+</DisplayFlex>

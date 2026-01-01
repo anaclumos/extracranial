@@ -37,7 +37,7 @@ The basic idea is to give users awareness over how they're being manipulated and
 
 This is roughly what it could look like:
 
-<Horizontal>
+<DisplayFlex>
 
 ![[6DE1DE.png]]
 
@@ -45,7 +45,7 @@ This is roughly what it could look like:
 
 ![[58745C.png]]
 
-</Horizontal>
+</DisplayFlex>
 
 Products with over 10 million users could be required to provide a) transparency about the techniques they use to increase engagement and b) the option to opt-out of these techniques and features -- as a condition for passing App Review.
 
@@ -235,7 +235,7 @@ If we can do it, Facebook can too.
 
 대략 다음과 같이 보일 수 있다:
 
-<Horizontal>
+<DisplayFlex>
 
 ![[6DE1DE.png]]
 
@@ -243,7 +243,7 @@ If we can do it, Facebook can too.
 
 ![[58745C.png]]
 
-</Horizontal>
+</DisplayFlex>
 
 1,000만 명 이상의 사용자를 보유한 제품은 a) 참여도를 높이기 위해 사용하는 기술에 대한 투명성을 제공하고 b) 앱 리뷰 통과 조건으로 해당 기술 및 기능을 사용하지 않을 수 있는 옵션을 제공해야 한다.
 

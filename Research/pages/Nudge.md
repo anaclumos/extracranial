@@ -7,10 +7,10 @@ slug: '/DD7F2D'
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[2FC4F2.png]]
 
 ![[3C14C4.png]]
 
-</Horizontal>
+</DisplayFlex>

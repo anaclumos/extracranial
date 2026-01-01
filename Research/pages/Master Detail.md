@@ -17,20 +17,20 @@ Master Detail in mobile, tablet (or foldable), and desktop has been thoroughly r
 
 ;
 
-<Horizontal>
+<DisplayFlex>
 
 ![[BCD6C8.png]]
 
 ![[114B61.png]]
 
-</Horizontal>
+</DisplayFlex>
 
-<Horizontal>
+<DisplayFlex>
 
 ![[666362.png]]
 
 ![[8592D8.png]]
 
-</Horizontal>
+</DisplayFlex>
 
 You get the idea.

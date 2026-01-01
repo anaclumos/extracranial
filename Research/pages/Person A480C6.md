@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/A480C6'
 ---
 
+import Admonition from '@theme/Admonition';
+
 - Interviewed on [[2022-09-08]]
 - Currently works at [[Apple]], [[Apple]] Silicon Team
 - Studied Electrical Engineering in school
@@ -24,7 +26,7 @@ slug: '/A480C6'
 - It would've been better to have more constructive undergrad vacations.
 - Engineers are like knives; you should keep working to keep yourself sharp.
 
-<Callout type="info" title="I love my job because..." icon="💙">
+<Admonition type="info" title="I love my job because..." icon="💙">
 Working at the biggest, most hyped company is a huge plus, especially when they have a huge event.
 [[Apple]] also has a sound responsibility system -- e.g., DRI.
-</Callout>
+</Admonition>

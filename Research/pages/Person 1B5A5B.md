@@ -3,6 +3,8 @@ lang: 'en'
 slug: '/1B5A5B'
 ---
 
+import Admonition from '@theme/Admonition';
+
 - Interviewed on [[2022-09-06]]
 - Currently works at Lyft, Identity & Platform Team
 - Majored in CS
@@ -14,7 +16,7 @@ slug: '/1B5A5B'
 - Junior = [[Project]] Executors.
 - Senior = Problem Solvers.
 
-<Callout type="info" title="I love my job because..." icon="💙">
+<Admonition type="info" title="I love my job because..." icon="💙">
 Lyft has a great engineering culture.
 Everyone knows and loves its products.
-</Callout>
+</Admonition>

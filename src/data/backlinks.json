@@ -759,6 +759,7 @@
   "2022-08-18": {},
   "2022-08-23": {},
   "2022-08-24": {},
+  "2022-08-25": {},
   "2022-08-26": {
     "0079 Word Search": "Solved at: [[2022-08-26]]"
   },
@@ -826,6 +827,7 @@
   "2022-10-04": {
     "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
   },
+  "2022-10-06": {},
   "2022-10-07": {},
   "2022-10-08": {},
   "2022-10-10": {},
@@ -931,6 +933,7 @@
   "2022-12-02": {},
   "2022-12-03": {},
   "2022-12-04": {},
+  "2022-12-05": {},
   "2022-12-06": {},
   "2022-12-07": {},
   "2022-12-08": {
@@ -965,7 +968,9 @@
     "Safari is the new Internet Explorer": "...  - At least [[2022-12-28]] now they do: [Sending web ...",
     "하늘땅사람 개발 기록": "## [[2022-12-28]]"
   },
-  "2022-12-30": {},
+  "2022-12-30": {
+    "Letter to Mr. Matt Rickard on 2022-12-23": "## Reply on [[2022-12-30]]"
+  },
   "2022년 11월 한 달간 일기 쓰기": {
     "2022-10-31": "- [x] [[2022년 11월 한 달간 일기 쓰기]]",
     "2022-11-01": "- [ ] [[2022년 11월 한 달간 일기 쓰기]]",
@@ -1083,23 +1088,42 @@
   "2023-01-31": {
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "- [[2023-01-31]]. 2차 면접 봤다"
   },
-  "2023-02-01": {},
-  "2023-02-02": {},
-  "2023-02-03": {},
-  "2023-02-04": {},
-  "2023-02-05": {},
-  "2023-02-06": {},
-  "2023-02-07": {},
+  "2023-02-01": {
+    "Harry Stebbings Challenge": "| [[2023-02-01]] | 🇬🇧 [[Imoogi and Dragon ..."
+  },
+  "2023-02-02": {
+    "Harry Stebbings Challenge": "| [[2023-02-02]] | 🇬🇧 [[Service Shimming]] <br/>🇰🇷 ..."
+  },
+  "2023-02-03": {
+    "Harry Stebbings Challenge": "| [[2023-02-03]] | 🇬🇧 [[The Zenly Playbook]] ..."
+  },
+  "2023-02-04": {
+    "Harry Stebbings Challenge": "| [[2023-02-04]] | 🇬🇧 [[Finally, Apple Pay ..."
+  },
+  "2023-02-05": {
+    "Harry Stebbings Challenge": "| [[2023-02-05]] | 🇬🇧 [[The Era of ..."
+  },
+  "2023-02-06": {
+    "Harry Stebbings Challenge": "| [[2023-02-06]] | 🇬🇧 [[Remembering that Disarmed ..."
+  },
+  "2023-02-07": {
+    "Harry Stebbings Challenge": "| [[2023-02-07]] | 🇬🇧 [[A Massive Mystery]] ..."
+  },
   "2023-02-08": {
+    "Harry Stebbings Challenge": "| [[2023-02-08]] | 🇬🇧 [[Powerfully Powerless Tools]] ...",
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "- [[2023-02-08]]. 중간고사"
   },
   "2023-02-09": {
-    "0059 Spiral Matrix II": "Solved at: [[2023-02-09]]"
+    "0059 Spiral Matrix II": "Solved at: [[2023-02-09]]",
+    "Harry Stebbings Challenge": "| [[2023-02-09]] | 🇬🇧 [[Are Computers Psychotropic ..."
   },
   "2023-02-10": {
+    "Harry Stebbings Challenge": "| [[2023-02-10]] | 🇬🇧 [[In search of ...",
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "- [[2023-02-10]]. 면접 도우미"
   },
-  "2023-02-11": {},
+  "2023-02-11": {
+    "Harry Stebbings Challenge": "| [[2023-02-11]] | 🇬🇧 [Bing Chat for ..."
+  },
   "2023-02-12": {
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "- [[2023-02-12]]. 컨디션이 좋지 않았다."
   },
@@ -1174,6 +1198,7 @@
   "2023-03-21": {
     "hn.cho.sh 개발 기록": "## [[2023-03-21]] -- [[2023-03-23]]"
   },
+  "2023-03-22": {},
   "2023-03-23": {
     "hn.cho.sh 개발 기록": "## [[2023-03-21]] -- [[2023-03-23]]"
   },
@@ -1183,10 +1208,13 @@
   "2023-03-25": {
     "hn.cho.sh 개발 기록": "## [[2023-03-25]]"
   },
+  "2023-03-26": {},
   "2023-03-27": {},
   "2023-03-28": {
     "Learning Execution Semantics from Micro-Traces for Binary Similarity": "- Attended [[CS Colloquium]] on [[2023-03-28]]."
   },
+  "2023-03-29": {},
+  "2023-03-30": {},
   "2023-03-31": {
     "hn.cho.sh 개발 기록": "## [[2023-03-31]]"
   },
@@ -1263,6 +1291,7 @@
   },
   "2023-05-05": {},
   "2023-05-06": {},
+  "2023-05-07": {},
   "2023-05-09": {
     "Project FFMpeg for iPad": "## [[2023-05-09]]",
     "Seaflooding": "## 산업적 개척, 청결, 정화 ([[2023-05-09]] 이전)"
@@ -1311,7 +1340,7 @@
   },
   "2023-06-18": {
     "Project Heimdall": "## [[2023-06-18]]",
-    "Project Heimdall Table Structure": "<Accordion title=\"[[2023-06-18]] Version\">"
+    "Project Heimdall Table Structure": "<summary>[[2023-06-18]] Version</summary>>"
   },
   "2023-06-19": {},
   "2023-06-20": {
@@ -1466,6 +1495,7 @@
   "2023-10-05": {},
   "2023-10-08": {},
   "2023-10-09": {
+    "Off The Record": "## [[2023-10-09]]",
     "Project Ganymede": "## [[2023-10-09]]"
   },
   "2023-10-10": {},
@@ -1587,6 +1617,7 @@
   },
   "2024-01-23": {},
   "2024-01-24": {},
+  "2024-01-25": {},
   "2024-01-26": {},
   "2024-01-27": {},
   "2024-01-28": {},
@@ -1658,6 +1689,7 @@
     "PS5 계정과 국제화": "[[2024-03-25]]에 PS5 Slim을 샀다."
   },
   "2024-03-26": {},
+  "2024-03-27": {},
   "2024-03-28": {},
   "2024-03-29": {
     "Project Florence": "## [[2024-03-29]]"
@@ -1728,6 +1760,7 @@
   },
   "2024-06-26": {},
   "2024-06-27": {},
+  "2024-06-28": {},
   "2024-07-01": {},
   "2024-07-02": {},
   "2024-07-04": {
@@ -1807,6 +1840,7 @@
   "2024-12-18": {},
   "2024-12-19": {},
   "2024-12-20": {},
+  "2024-12-23": {},
   "2024-12-28": {},
   "2025-01-02": {},
   "2025-01-04": {},
@@ -1862,8 +1896,10 @@
   "2025-04-15": {},
   "2025-04-16": {},
   "2025-04-20": {},
+  "2025-04-22": {},
   "2025-04-23": {},
   "2025-04-26": {},
+  "2025-04-28": {},
   "2025-04-30": {},
   "2025-05-02": {},
   "2025-05-07": {},
@@ -1914,6 +1950,7 @@
   "2025-07-06": {},
   "2025-07-07": {},
   "2025-07-08": {},
+  "2025-07-09": {},
   "2025-07-18": {},
   "2025-07-22": {},
   "2025-07-28": {},
@@ -2009,6 +2046,7 @@
     "Docusaurus": "... 않은 선택이지만 좀 어색하긴 합니다. ![[23ED7D.png]]"
   },
   "242382.gif": {
+    "Wayfinding AI Pin": "![[242382.gif]]",
     "Wayfinding with AI Pin": "![[242382.gif]]"
   },
   "24381E.png": {
@@ -2040,7 +2078,8 @@
     "Migrating Project Aldehyde to FlightControl (February 24誠鉉)": "![[25D46A.png]]"
   },
   "26A675.png": {
-    "Domain Search Tools": "![[26A675.png]]"
+    "Domain Search Tools": "![[26A675.png]]",
+    "One Word Domains": "![[26A675.png]]"
   },
   "26D5BF.png": {
     "Text-based Tools for Thought": "![[26D5BF.png]]"
@@ -2230,6 +2269,7 @@
     "Text-based Tools for Thought": "![[301024.png]]"
   },
   "308AC8.gif": {
+    "Wayfinding AI Pin": "![[308AC8.gif]]",
     "Wayfinding with AI Pin": "![[308AC8.gif]]"
   },
   "30ADF3.png": {
@@ -2310,6 +2350,9 @@
   },
   "3555AC.png": {
     "Redirecting READMEs": "![[3555AC.png]]"
+  },
+  "356 Official SSH Server": {
+    "2022-08-25": "- [[356 Official SSH Server]]"
   },
   "3584FF.png": {
     "sem.sh": "![[3584FF.png]]"
@@ -2495,6 +2538,7 @@
     "IRA vs 401k": "3. [[401k|401(k)]]:"
   },
   "402F83.gif": {
+    "Wayfinding AI Pin": "![[402F83.gif]]",
     "Wayfinding with AI Pin": "![[402F83.gif]]"
   },
   "40C34D.png": {
@@ -2875,6 +2919,7 @@
     "Thesephist Work Case Study": "![[5CCDE2.png]]"
   },
   "5CD08D.png": {
+    "Bondee and Zheli": "![[5CD08D.png]]",
     "Did Bondee Really Suddenly Rise": "![[5CD08D.png]]",
     "본디는 사실 혜성이 아니다": "![[5CD08D.png]]"
   },
@@ -3428,6 +3473,7 @@
     "Project Ganymede": "![[8CB950.png]]"
   },
   "8CE4FB.gif": {
+    "Wayfinding AI Pin": "![[8CE4FB.gif]]",
     "Wayfinding with AI Pin": "![[8CE4FB.gif]]"
   },
   "8D3998.jpg": {
@@ -3665,7 +3711,8 @@
   },
   "A Massive Mystery": {
     "2023-02-07": "- [[A Massive Mystery]]",
-    "30-Day Tweet Test (Harry Stebbings)": "| [02-07](../journals/2023-02-07.md) | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 ..."
+    "30-Day Tweet Test (Harry Stebbings)": "| [02-07](../journals/2023-02-07.md) | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 ...",
+    "Harry Stebbings Challenge": "| [[2023-02-07]] | 🇬🇧 [[A Massive Mystery]] <br/>🇰🇷 [[관성 질량과 중력 질량]] ..."
   },
   "A01C1B.png": {
     "Hashflags": "![[A01C1B.png]]"
@@ -3917,6 +3964,7 @@
     "Microsoft": "... [[Google]] has been exploring the [[AI]] ecosystem. Consequently, the increased demand ...",
     "Mojo": "... designed specifically for artificial intelligence ([[AI]]) developers, with features that streamline ...",
     "Nuclear Fission": "... his bet on energy alongside [[AI]], stating that the future depends ...",
+    "Oneliner News": "An [[AI]]-powered news portal? Reference: [[일일일]]",
     "OpenAI": "OpenAI is an [[AI]] research and deployment company that ...",
     "OpenAI enthroned as the Levis of Tech": "... service, powered by the GPT-3.5-turbo [[AI]] model. The model is available ...",
     "OpenAI가 새로운 테크 리바이스로 등극하다": "**방금 [[AI]] 네이티브 시대의 골드러시가 시작되었다**.",
@@ -3938,7 +3986,7 @@
     "Unsemantic": "... we must create an unsemantic [[AI]] (i.e., rigorous.)",
     "WebNPU API를 상상하다": "[[Oneday|훗날]] [[AI]] 네이티브(우리 [[Cloud Computing|클라우드]] 네이티브처럼)가 표준이 ...",
     "hn.cho.sh 개발 기록": "해커뉴스를 읽고 있다가 이걸 [[AI]]에게 요약해보고 있었다.",
-    "기술 발전의 속도": "<Accordion title=\"2022년 여름의 [[AI|인공지능]] 업계를 대표적으로 나타내는 글이다\">",
+    "기술 발전의 속도": "<summary>2022년 여름의 [[AI|인공지능]] 업계를 대표적으로 나타내는 글이다</summary>>",
     "슈퍼자판기": "... 환경을 실시간으로 촬영. 이러한 카메라는 [[AI]] 기반 행동 분석 시스템과 통합되어 ...",
     "앰비언트 컴퓨팅을 향해": "... 즉시 문답할 수 있는 팬던트형 [[AI]] 기기이다. 이게 10월의 시작 단 ...",
     "역사적 리셋": "... 않으며 현재의 이익에 맞게 움직이는 [[AI|인공지능]]의 Autonomous Agent와 비슷하다는 생각이 들었다. ...",
@@ -3961,6 +4009,7 @@
     "2023-05-03": "- [[AI and Ecommerce]]"
   },
   "AI and ML": {
+    "Project Core ML": "- [[AI and ML]]",
     "Project Core ML Foundation": "- [[AI and ML]]"
   },
   "AI replaces expensive jobs first": {
@@ -4217,6 +4266,9 @@
     "2022-09-17": "...  - [[Adding Space in Android]]",
     "Android": "- [[Adding Space in Android]]"
   },
+  "Adding a Verified Mark on Apple Mail & Gmail": {
+    "Lesser Known Tricks": "- [[Adding a Verified Mark on Apple Mail & Gmail]]"
+  },
   "Adding a Verified Mark on Apple Mail and Gmail": {
     "2022-10-21": "- [[Adding a Verified Mark on Apple Mail and Gmail]]",
     "2023-08-03": "- [[Adding a Verified Mark on Apple Mail and Gmail]]",
@@ -4280,6 +4332,7 @@
     "Link Coefficient": "For example, as of [[2023-02-16]], [[Aldehyde]] has a 0.592% of Link ...",
     "Migrating Project Aldehyde to FlightControl (February 24誠鉉)": "I migrated my website, [[Aldehyde]] (part of Project [[Extracranial]]), to ...",
     "Neo Aldehyde": "What would the future of [[Aldehyde]] look like?",
+    "Neoaldehyde": "What would the future of [[Aldehyde]] look like?",
     "Welcome": "... brain. Therefore, this website, Project [[Aldehyde]], aims to create a superset ...",
     "환영합니다": "그래서 이 웹사이트, 본 계획 [[Aldehyde]]는 [[Memex]]를 다음과 같이 확장하는 목표를 ..."
   },
@@ -4327,6 +4380,7 @@
   "Alpine": {
     "2025-05-02": "- [[Alpine]]"
   },
+  "Alter": {},
   "Alternative": {
     "AT protocol": "... like Lexicon and XRPC over [[Alternative|alternatives]] like [[Resource Description Framework]] and ...",
     "Alternatives to Hacker News": "- [[Alternative]] to [[Hacker News]]",
@@ -4394,6 +4448,7 @@
   "American Bank Problems": {
     "2023-05-03": "- [[American Bank Problems]]"
   },
+  "American Prometheus": {},
   "Amie": {
     "2023-01-30": "- Also got invited to [[Amie]].",
     "Bento Grid": "## [[Amie]]",
@@ -4674,7 +4729,8 @@
   "Are Computers Psychotropic Substances": {
     "2023-02-09": "- [[Are Computers Psychotropic Substances]]",
     "30-Day Tweet Test (Harry Stebbings)": "| [02-09](../journals/2023-02-09.md) | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]] ...",
-    "Dumb Phone": "- [[Are Computers Psychotropic Substances]]"
+    "Dumb Phone": "- [[Are Computers Psychotropic Substances]]",
+    "Harry Stebbings Challenge": "| [[2023-02-09]] | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/>🇰🇷 [[컴퓨터는 향정신성 약물인가]] | ..."
   },
   "Are.na (Service)": {
     "Jumpsite": "## [[Are.na (Service)]]"
@@ -4685,6 +4741,7 @@
     "Era of Invites": "... any invites for [Texts](https://texts.com/), [Tana](https://tana.inc/), [[Artifact]], and so on. But things ...",
     "LavaLab Cohort of Spring 2023": "News recommending app, just like [[Artifact]], but it shows a one-liner ...",
     "hn.cho.sh 개발 기록": "- [[Artifact]]",
+    "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. ",
     "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. ",
     "초대장의 시대": "[[Amie]] 뿐만 아니라 [Texts](https://texts.com), [Tana](https://tana.inc), [[Artifact]]까지 초대장이 있냐고 연락을 받았다. 하지만 ..."
   },
@@ -4724,7 +4781,8 @@
     "2022-07-29": "- [[Attention Settings]]",
     "Digital Addiction": "- [[Attention Settings]]",
     "민사고 앱": "어쨌든, [[Attention Settings]]과 비슷한 나만의 프레임워크를 만들기 위해서 ...",
-    "소셜 엔지니어링 금지": "... Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고"
+    "소셜 엔지니어링 금지": "... Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고",
+    "소셜엔지니어링 금지법": "... Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고"
   },
   "Augmented Reality": {
     "Apple Vision Pro": "... cases in various fields, including [[Augmented Reality]]‐based instruction, home decoration, and watching ...",
@@ -4814,6 +4872,7 @@
     "Tossface Firefox Bug Report": "![[B31F97.png]]"
   },
   "B47ACF.gif": {
+    "Wayfinding AI Pin": "![[B47ACF.gif]]",
     "Wayfinding with AI Pin": "![[B47ACF.gif]]"
   },
   "B48728.png": {
@@ -5019,7 +5078,8 @@
     "Toss Product Sans": "![[BFDBF9.png]]"
   },
   "BFE3CD.png": {
-    "Conversational AI Tools for Thought": "![[BFE3CD.png]]"
+    "Conversational AI Tools for Thought": "![[BFE3CD.png]]",
+    "explainpaper.com": "![[BFE3CD.png]]"
   },
   "BFE9DE.png": {
     "hn.cho.sh 개발 기록": "![[BFE9DE.png]]"
@@ -5307,12 +5367,14 @@
   },
   "Bondee": {
     "2023-02-12": "- [[Bondee]]",
+    "Bondee and Zheli": "[[Metadream]], the company behind [[Bondee]], was founded in Sep 2022. ...",
     "Did Bondee Really Suddenly Rise": "... took a closer look into [[Bondee]]. [[Sudden Rise of Bondee]]. But ...",
     "LavaLab Cohort of Spring 2023": "Similar to [[Bondee]] and [[Zenly]].",
     "Sudden Rise of Bondee": "[[Bondee]] is a [[metaverse]] social app, ...",
     "본디는 사실 혜성이 아니다": "어제 [[혜성처럼 나타난 본디]] 글에서 [[Bondee|본디]]에 대해서 알아보았다. 하지만 ",
     "혜성처럼 나타난 본디": "[[Bondee|본디]]는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 ..."
   },
+  "Bondee and Zheli": {},
   "Book Metadata as a Service": {
     "Fiercely Overpriced": "[[Book Metadata as a Service]] could also be one example."
   },
@@ -6046,6 +6108,7 @@
   "Clean Energy": {
     "2023-01-13": "- [[Clean Energy]]"
   },
+  "Cline Prompts": {},
   "Clock skew detected": {
     "Internetworking": "- [[Clock skew detected]]"
   },
@@ -6295,6 +6358,9 @@
   "Convergence of Power Series": {
     "2023-01-31": "- [[Convergence of Power Series]]"
   },
+  "Conversation with Mr. Kyle Park on 2023-02-15": {
+    "Feed One": "[[Someday]] [[Project]]. Ideated during [[Conversation with Mr. Kyle Park on 2023-02-15]]"
+  },
   "Conversational AI Tools for Thought": {
     "2022-12-04": "... [Elicit: The AI Research Assistant](https://elicit.org/): [[Conversational AI Tools for Thought]]",
     "2022-12-24": "- [[Conversational AI Tools for Thought]]. [Poe beta test starting - ...",
@@ -6392,6 +6458,7 @@
     "Grammarly Work Note 2023-05-26": "... on September of 2023 and [[Create React App|CRA]] is already discouraged from the ...",
     "React": "... using bundlers like Vite or [[Create React App|CRA]] is fairly strongly discouraged"
   },
+  "Creating Next Keyboard Button": {},
   "Creating Next Keyboard Button in SwiftUI": {
     "2023-01-22": "- [[Creating Next Keyboard Button in SwiftUI]]"
   },
@@ -6620,6 +6687,7 @@
     "Jetski": "![[DED7BA.png]]"
   },
   "DEE740.gif": {
+    "Wayfinding AI Pin": "![[DEE740.gif]]",
     "Wayfinding with AI Pin": "![[DEE740.gif]]"
   },
   "DEE912.png": {
@@ -6892,7 +6960,8 @@
     "Dumb Phone": "- [[Digital Addiction]]",
     "Using an iPad as my Ebook": "... matter -- essentially solving the [[Digital Addiction]].",
     "민사고 앱": "... 기술은 별개라는 사실을 점차 깨달았다. [[Digital Addiction|디지털 중독]] 참고.",
-    "소셜 엔지니어링 금지": "... 개발하는 것과 다를 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention ..."
+    "소셜 엔지니어링 금지": "... 개발하는 것과 다를 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention ...",
+    "소셜엔지니어링 금지법": "... 개발하는 것과 다를 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention ..."
   },
   "Digital Bookmarks for Physical Books": {
     "2023-01-09": "- [[Digital Bookmarks for Physical Books]]"
@@ -7058,7 +7127,8 @@
   "Dopamine Detox": {
     "Dopamine Addiction": "[[Dopamine Detox]]",
     "Watch is the Greatest Dumb Phone": "... Phone]] in the context of [[Dopamine Detox]]. While most of the dumb ...",
-    "소셜 엔지니어링 금지": "... 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고"
+    "소셜 엔지니어링 금지": "... 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고",
+    "소셜엔지니어링 금지법": "... 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고"
   },
   "Download All Images in a Page": {
     "2024-05-07": "- [[Download All Images in a Page]]"
@@ -7098,7 +7168,8 @@
   },
   "Dynamic Scrollbar": {
     "2024-03-05": "- [[Dynamic Scrollbar]]",
-    "Neo Aldehyde": "- [[Dynamic Scrollbar]]"
+    "Neo Aldehyde": "- [[Dynamic Scrollbar]]",
+    "Neoaldehyde": "- [[Dynamic Scrollbar]]"
   },
   "Dynamic Viewport Units": {
     "2022-12-03": "- [[Dynamic Viewport Units]]"
@@ -7344,6 +7415,7 @@
     "Text-based Tools for Thought": "![[EEAA82.png]]"
   },
   "EEABEE.png": {
+    "Bondee and Zheli": "![[EEABEE.png]]",
     "Did Bondee Really Suddenly Rise": "![[EEABEE.png]]",
     "본디는 사실 혜성이 아니다": "![[EEABEE.png]]"
   },
@@ -7503,6 +7575,9 @@
     "Person 1E6ABA": "... at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as ...",
     "Person 431D6C": "- Currently looking into [[Educational Technology|EduTech]] Startup"
   },
+  "Effective Accelerationism": {
+    "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 없는 역사의 흐름이라 생각한다. 대신 [[Effective Accelerationism|효과적 가속주의]]에서 보듯 이런 어쩔 수 없는 ..."
+  },
   "Egregore": {
     "2023-06-22": "- [[Egregore]]"
   },
@@ -7555,6 +7630,7 @@
   "Employee Stock Purchase Program": {
     "Finance": "- [[Employee Stock Purchase Program]]"
   },
+  "Enable Bing Chat on Other Browsers": {},
   "End of History Fallacy": {
     "2023-03-16": "- [[End of History Fallacy]]",
     "Newtonian Correspondence": "| [03-16](../journals/2023-03-16.md) | `EN` [[End of History Fallacy]] <br/> `KO` [[역사의 종말 오류 ..."
@@ -7661,6 +7737,7 @@
     "2025-01-15": "- [[Explode]]",
     "2025-01-16": "- [[Explode]]"
   },
+  "Explode and Off the Record": {},
   "Exquisite Geometric Nature of the Universe": {
     "2023-08-15": "- [[Exquisite Geometric Nature of the Universe]]",
     "A Massive Mystery": "... different ways due to some **[[Exquisite Geometric Nature of the Universe|exquisite geometric property of the universe]]**.",
@@ -7837,6 +7914,7 @@
     "2023-05-19": "![[FB4548.png]]"
   },
   "FB5B85.gif": {
+    "Wayfinding AI Pin": "![[FB5B85.gif]]",
     "Wayfinding with AI Pin": "![[FB5B85.gif]]"
   },
   "FB7F8B.jpg": {
@@ -8020,6 +8098,7 @@
     "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People ...",
     "Threads (Service)": "... significant contributor would be the [[Fediverse]]. If they can interoperate with ..."
   },
+  "Feed One": {},
   "Feedforward Neural Network": {
     "2023-09-27": "- [[Feedforward Neural Network]]"
   },
@@ -8067,6 +8146,7 @@
   "Finally, Apple Pay in Korea": {
     "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
     "30-Day Tweet Test (Harry Stebbings)": "| [02-04](../journals/2023-02-04.md) | 🇬🇧 [[Finally, Apple Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]] ...",
+    "Harry Stebbings Challenge": "| [[2023-02-04]] | 🇬🇧 [[Finally, Apple Pay in Korea]] <br/>🇰🇷 [[드디어, 한국 애플페이]] | ...",
     "드디어, 한국 애플페이": "[[Finally, Apple Pay in Korea]]"
   },
   "Finance": {
@@ -8636,6 +8716,7 @@
   "Grammarly AI-NLP Club": {
     "2023-03-23": "- Attended [[Grammarly AI-NLP Club]]."
   },
+  "Grammarly Experimentation Platform Overview": {},
   "Grammarly Experimentations Team": {
     "Grammarly Work Note 2023-05-30": "Today [[Grammarly Experimentations Team]] discussed [[Strategy|strategies]] to reduce cost ...",
     "Project Prepare for Grammarly": "[[Project]] to prepare for my [[Grammarly Experimentations Team]] team employment."
@@ -8896,6 +8977,7 @@
     "2022-11-28": "## [[Hacker News]]",
     "2022-11-29": "## [[Hacker News]]",
     "2022-11-30": "## [[Hacker News]]",
+    "2022-12-05": "## [[Hacker News|HN]]",
     "2022-12-07": "## [[Hacker News]]",
     "2022-12-09": "## [[Hacker News]]",
     "2022-12-17": "## [[Hacker News]]",
@@ -8908,6 +8990,11 @@
     "2023-03-06": "## [[Hacker News|HN]]",
     "2023-03-10": "## [[Hacker News|HN]]",
     "2023-03-20": "## [[Hacker News|HN]]",
+    "2023-03-22": "## [[Hacker News]]",
+    "2023-03-26": "## [[Hacker News]]",
+    "2023-03-29": "## [[Hacker News]]",
+    "2023-03-30": "## [[Hacker News]]",
+    "2023-05-07": "## [[Hacker News]]",
     "2023-05-18": "- [[Hacker News]]",
     "Alternatives to Hacker News": "- [[Alternative]] to [[Hacker News]]",
     "Better Hacker News": "## [[Hacker News]] need some improvements",
@@ -8945,6 +9032,7 @@
     "On National Crises and the Intellectuals — Focused on GB and KR": "## Dear [[Harry Stebbings|Mr. Stebbings]],",
     "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "## [[Harry Stebbings|Stebbings]] 님께"
   },
+  "Harry Stebbings Challenge": {},
   "Haruki Murakami": {
     "HTML 텍스트 위에 덧말 강조점 쓰기": "[[Haruki Murakami|하루키]]처럼 강조점을 길게 넣는 것도 가능하다.",
     "水適穿石": "### 직업으로서의 소설가 -- [[Haruki Murakami|하루키]]",
@@ -9098,6 +9186,7 @@
     "2025-06-13": "[[INCL]]",
     "2025-06-18": "- [[INCL]]"
   },
+  "INCL CLI Setup": {},
   "INCL과 스팟 인스턴스": {
     "2025-05-21": "- [[INCL과 스팟 인스턴스]]",
     "INCL의 구성": "- [[INCL과 스팟 인스턴스]]",
@@ -9142,6 +9231,7 @@
   "IRS": {
     "Screenshot as an API": "... was [[tax]] returns - the [[IRS]] adopted [[PDF]] in 1996 because ..."
   },
+  "ISI GPU": {},
   "IVE": {
     "2023-05-06": "... 읽을 때마다 Jony [[Ive]]가 아니라 [[IVE]] 그룹이 생각난다."
   },
@@ -9158,7 +9248,8 @@
     "2024-03-06": "- [[Identicon]]"
   },
   "Ignoring $ for copy-pasting online resources to terminal": {
-    "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
+    "2022-09-12": "- [[Ignoring $ for copy-pasting online resources to terminal]]",
+    "Lesser Known Tricks": "- [[Ignoring $ for copy-pasting online resources to terminal]]"
   },
   "Images Missing Alt Tag": {
     "2024-08-02": "- [[Images Missing Alt Tag]]"
@@ -9170,7 +9261,8 @@
   },
   "Imoogi and Dragon Company": {
     "2023-02-01": "- [[Imoogi and Dragon Company]]",
-    "30-Day Tweet Test (Harry Stebbings)": "| [02-01](../journals/2023-02-01.md) | 🇬🇧 [[Imoogi and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 ..."
+    "30-Day Tweet Test (Harry Stebbings)": "| [02-01](../journals/2023-02-01.md) | 🇬🇧 [[Imoogi and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 ...",
+    "Harry Stebbings Challenge": "| [[2023-02-01]] | 🇬🇧 [[Imoogi and Dragon Company]] <br/>🇰🇷 [[이무기 기업, 청룡 기업]] ..."
   },
   "Impact over Performance": {
     "2023-07-05": "- [[Impact over Performance]]",
@@ -9197,7 +9289,8 @@
   },
   "In search of my domain": {
     "2023-01-09": "- [[In search of my domain]]",
-    "30-Day Tweet Test (Harry Stebbings)": "| [02-10](../journals/2023-02-10.md) | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] ..."
+    "30-Day Tweet Test (Harry Stebbings)": "| [02-10](../journals/2023-02-10.md) | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] ...",
+    "Harry Stebbings Challenge": "| [[2023-02-10]] | 🇬🇧 [[In search of my domain]] <br/>🇰🇷 [[도메인 찾아 삼만리]] | ..."
   },
   "In-house and Free Market": {
     "2022-12-24": "- [[In-house and Free Market]]. Can independent scientists ever win ...",
@@ -9602,9 +9695,11 @@
     "2022-10-13": "- [x] [[Jumpsite]]",
     "2022-11-29": "- [[Jumpsite]]",
     "2023-02-02": "- [[Jumpsite]]",
+    "Feed One": "... Facebook, etc. It's similar to [[Jumpsite]], but not the same; you ...",
     "Interface (Jumpsite)": "- [[Jumpsite]]",
     "One and Only (Social App)": "... [[Facebook]], etc. It's similar to [[Jumpsite]], but not the same; you ...",
-    "Person 9078DC": "... 서버 최적화를 진행하셨다. [Veltrends](https://www.veltrends.com)와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 ..."
+    "Person 9078DC": "... 서버 최적화를 진행하셨다. [Veltrends](https://www.veltrends.com)와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 ...",
+    "The One and Only (Social App)": "... Facebook, etc. It's similar to [[Jumpsite]], but not the same; you ..."
   },
   "Jupyter": {
     "Deepnote": "- [[Jupyter]] compatible"
@@ -9651,6 +9746,7 @@
     "KakaoPay": "[[Kakao]] [[Financial Technology|FinTech]]",
     "KakaoTalk": "... 2010 and is operated by [[Kakao]] Corporation. It's available in 15 ...",
     "Letter to Mr. Matt Rickard on 2022-10-03": "... behemoths in [[대한민국|Korea]], [[Naver]], and [[Kakao]].",
+    "Letter to Mr. Matt Rickard on 2022-12-23": "... have a Super App called [[Kakao]], a go-to for everything. It's ...",
     "Letter to Mr. Matt Rickard on 2022-12-24": "... have a [[Super App]] called [[Kakao]], a go-to for everything. It's ...",
     "Super App is a Universal Chat App": "... chat, as we learned from [[Kakao]].",
     "Universal Chat App": "2. **[[KakaoTalk]] ([[대한민국|Korea]])**. Developed by [[Kakao]] Corporation, [[KakaoTalk]] is a free ...",
@@ -9712,6 +9808,7 @@
   "Korea to Global by Kyum Kim": {
     "2024-04-24": "- [[Korea to Global by Kyum Kim]]"
   },
+  "Korean Banks Suck": {},
   "Korean Discount": {
     "Born of this Land - The Founding Story of Hyundai": "... of the causes of the [[Korean Discount]]. That is, [[한민족|Korean]] companies do ...",
     "글감": "- [[Korean Discount]]",
@@ -9858,6 +9955,7 @@
     "editorStickyScroll": "[[Lesser Known Trick]]. search `sticky scroll` in VS ...",
     "text-transform capitalize": "Capitalizes first letter [[Lesser Known Trick]]"
   },
+  "Lesser Known Tricks": {},
   "Letter to Modos team on 2023-03-16": {
     "2023-03-16": "- [[Letter to Modos team on 2023-03-16]]"
   },
@@ -9880,6 +9978,7 @@
   "Letter to Mr. Matt Rickard on 2022-12-21": {
     "2022-12-21": "- [[Letter to Mr. Matt Rickard on 2022-12-21]]"
   },
+  "Letter to Mr. Matt Rickard on 2022-12-23": {},
   "Letter to Mr. Matt Rickard on 2022-12-24": {
     "2022-12-24": "- [[Letter to Mr. Matt Rickard on 2022-12-24]]",
     "2022-12-30": "[[Letter to Mr. Matt Rickard on 2022-12-24]]",
@@ -10200,6 +10299,7 @@
     "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": "... 응원을 보내고 싶습니다. 제게 이렇게 [[Mail|이메일]]을 보내는 결정을 내려주신 점에 감사드립니다. ...",
     "프로젝트 어덕행덕": "... - 그래서 학생 할인은 없냐고 [[Mail|메일]]로 물어봄"
   },
+  "Majority Element": {},
   "Make GPT Print LaTeX": {
     "Grammarly Work Note 2023-06-23": "- [[Make GPT Print LaTeX]]"
   },
@@ -10434,9 +10534,11 @@
     "Link (Computer Systems)": "... (`.o`): Code + Data + [[Metadata]]",
     "Meta": "- [[Metadata]]"
   },
+  "Metadata as a Service": {},
   "Metadream": {
     "2023-02-12": "- [[Metadream]]",
     "Bondee": "... created by [[Singapore]]-based tech firm [[Metadream]]. Users can chat and interact ...",
+    "Bondee and Zheli": "[[Metadream]], the company behind [[Bondee]], was ...",
     "Did Bondee Really Suddenly Rise": "[[Metadream]], the company behind [[Bondee]], was ...",
     "본디는 사실 혜성이 아니다": "[[Bondee|본디]]를 운영하는 [[Metadream|메타드림]]은 2022년 9월에 설립되었다. [[Bondee|본디]]는 2023년 ..."
   },
@@ -10759,6 +10861,8 @@
   "Neo Email": {
     "2023-02-27": "- [[Neo Email]]"
   },
+  "Neo Korea": {},
+  "Neoaldehyde": {},
   "Neon Genesis Evangelion": {
     "2023-07-03": "- Started watching [[Neon Genesis Evangelion]]. OMG this is legendary. I ...",
     "MAGI": "[[Neon Genesis Evangelion|신세기 에반게리온]]에 등장하는 슈퍼컴퓨터 시스템 MAGI는 3대의 ...",
@@ -10792,6 +10896,9 @@
   },
   "Newline in GitHub Bio": {
     "2023-02-10": "- [[Newline in GitHub Bio]]"
+  },
+  "News App with Friendly Chatbot": {
+    "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 다르지 않다고 느꼈다. 예를 들어 [[News App with Friendly Chatbot|챗봇 기반 뉴스 앱]]과 같이 좀 더 \"획기적인\" 무언가를 ..."
   },
   "News Minimalist": {
     "Project Heimdall Initial Planning": "... [[AI]]-powered news portal? Reference: [[일일일]], [[News Minimalist]]. Would it eventually lead to ..."
@@ -11035,6 +11142,7 @@
     "2023-01-23": "- [[Odds]]",
     "Bayes Theorem": "The [[Odds]] form of Bayes Theorem is"
   },
+  "Off The Record": {},
   "Old Fashioned Camera": {},
   "Old Someday": {
     "2025-02-26": "- [[Old Someday]]",
@@ -11124,6 +11232,7 @@
   "One Million Checkboxes": {
     "2024-06-27": "[[One Million Checkboxes]]"
   },
+  "One Word Domains": {},
   "One and Only (Social App)": {
     "2023-02-15": "- [[One and Only (Social App)]]",
     "Z-Fellows": "... an interview with Z-Fellows with [[One and Only (Social App)]] on [[2023-03-19]]"
@@ -11159,6 +11268,7 @@
     "불가사리": "[[Tossface|토스페이스]] 같은 곳에 [[Oneday|훗날]] 들어갔으면",
     "원하는 곳만 전자레인지": "[[Oneday]]"
   },
+  "Oneliner News": {},
   "Open API Hono": {
     "2025-05-15": "- [[Open API Hono]]"
   },
@@ -11440,7 +11550,8 @@
   "Person 648442": {
     "2023-02-15": "- [[Person 648442]]",
     "One and Only (Social App)": "[[Old Someday]] [[Project]]. Ideated during [[Person 648442]]",
-    "Project PEOPLE": "- [[Person 648442]]"
+    "Project PEOPLE": "- [[Person 648442]]",
+    "The One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]"
   },
   "Person 88B488": {
     "Project PEOPLE": "- [[Person 88B488]]"
@@ -11520,6 +11631,7 @@
   "Photoshop for Text": {
     "Generative Intelligence": "- [[Photoshop for Text]]",
     "Letter to Mr. Stephan Ango on 2022-10-19": "... came across your article on [[Photoshop for Text]] and was deeply inspired by ...",
+    "Project Core ML": "- [[Photoshop for Text]]",
     "Project Core ML Foundation": "- [[Photoshop for Text]]",
     "기술 발전의 속도": "당시에도 나는 [[Photoshop for Text]]를 상상하며 [[Oneday|훗날]] 미래에 도래할 텍스트 ..."
   },
@@ -11612,6 +11724,7 @@
     "2023-02-08": "- [[Powerfully Powerless Tools]]",
     "2024-04-14": "- [[Powerfully Powerless Tools]]",
     "30-Day Tweet Test (Harry Stebbings)": "| [02-08](../journals/2023-02-08.md) | 🇬🇧 [[Powerfully Powerless Tools]] <br/> 🇰🇷 [[강력하게 미약한 도구들]] ...",
+    "Harry Stebbings Challenge": "| [[2023-02-08]] | 🇬🇧 [[Powerfully Powerless Tools]] <br/>🇰🇷 [[강력하게 미약한 도구들]] | ...",
     "Tools Must Vanish": "- [[Powerfully Powerless Tools]]"
   },
   "Pragmatic Engineer": {
@@ -11624,6 +11737,7 @@
   },
   "Prehistoric": {
     "2023-05-10": "- [[Prehistoric]]",
+    "Off The Record": "## [[Prehistoric]]",
     "Project FFMpeg for iPad": "## [[Prehistoric]]",
     "Project Ganymede": "## [[Prehistoric]]",
     "Project Heimdall Initial Planning": "## [[Prehistoric]]",
@@ -11686,6 +11800,7 @@
   "Privacy Manifest": {
     "WWDC23": "- [[Privacy Manifest]] that automatically aggregates third-party analytics ..."
   },
+  "Privacy Policy for Bing Chat for All Browsers": {},
   "Privacy Policy for My Chrome Extensions": {
     "Bing Chat for All Browsers": "- [[Privacy Policy for My Chrome Extensions]]"
   },
@@ -11733,6 +11848,7 @@
   "Probability Of Queueing (Internetworking)": {
     "Internetworking": "- [[Probability Of Queueing (Internetworking)]]"
   },
+  "Probability Review": {},
   "Probe Confidential Documents": {
     "2024-04-23": "- [[Probe Confidential Documents]]"
   },
@@ -11816,6 +11932,7 @@
     "2022-11-28": "## [[Project]]",
     "2022-11-29": "## [[Project]]",
     "2022-11-30": "## [[Project]]",
+    "2022-12-05": "## [[Project]]",
     "2022-12-12": "## [[Project]]",
     "2022-12-18": "## [[Project]]",
     "2022-12-28": "## [[Project]]",
@@ -11839,6 +11956,10 @@
     "2023-02-11": "## [[Project]]",
     "2023-02-22": "## [[Project]]",
     "2023-03-06": "- [[Project]]",
+    "2023-03-22": "## [[Project]]",
+    "2023-03-26": "## [[Project]]",
+    "2023-03-30": "## [[Project]]",
+    "2023-05-07": "## [[Project]]",
     "2023-05-11": "## [[Project]]",
     "2023-07-30": "모든 [[Project|프로젝트]]를 유지보수 없는 자동현상유지 상태로 만들거나 ...",
     "2024-06-12": "- [[Project]]",
@@ -11850,6 +11971,7 @@
     "Action Required SaaS": "[[Someday]] [[Project]]. It's a [[Newsletter]] but you ...",
     "Aldehyde": "알데하이드는 아직 인문행정적 [[Project|프로젝트]] 운영에 약하다.",
     "Aldehyde SaaS": "[[Someday]] [[Project]]. It's this [[Aldehyde]].",
+    "Alter": "- [[Someday]] [[Project]]",
     "Apple Earth": "[[Old Someday]] [[Project]]. [[Google]] Earth app but with ...",
     "Automemoji": "[[Old Someday]] [[Project]].",
     "Autosave Everything": "[[Old Someday]] [[Project]]. A small Mac App that ...",
@@ -11870,6 +11992,7 @@
     "Dynamic Island on the Web": "- [[Done]] [[Project]]",
     "ElonPet": "- [[Old Someday]] [[Project]]. Uses GPT-3 to write good ...",
     "Embeddable GitHub Repo Card But It Looks Great": "[[Old Someday]] [[Project]].",
+    "Feed One": "[[Someday]] [[Project]]. Ideated during [[Conversation with Mr. ...",
     "Fix Your Posture": "[[Old Someday]] [[Project]]. Small [[macOS]] application that reminds ...",
     "Generative Intelligence": "- [[Project]] scaffolding",
     "Generative Open Graph": "[[Someday]] [[Project]]. [[Open Graph Image as a ...",
@@ -11886,9 +12009,11 @@
     "Krafton Way": "... 서로의 역할과 책임을 강조했다. 경영진은 [[Project|프로젝트]]와 팀, 주요 개발자를 평가하고 보상 ...",
     "LocLog": "[[Someday]] [[Project]].",
     "Markdown Email Client": "[[Old Someday]] [[Project]]. You write an [[Mail|email]] in ...",
+    "Metadata as a Service": "- [[Someday]] [[Project]]",
     "Neo Aldehyde": "[[Old Someday]] [[Project]]",
     "Neo ArXiv": "[[Oneday]] [[Project]].",
     "Not-So-Procrastinating Lazy Loading": "[[Old Someday]] [[Project]]. `img loading=lazy`, but if the ...",
+    "Off The Record": "- [[Project]]. Disappearing message for [[iMessage]].",
     "Old Fashioned Camera": "[[Old Someday]] [[Project]]. iPhone 4 시절 그 구진 ...",
     "One and Only (Social App)": "[[Old Someday]] [[Project]]. Ideated during [[Person 648442]]",
     "One and Only WebExtension": "- [[Old Someday]] [[Project]]",
@@ -11900,6 +12025,7 @@
     "Power Nap Pill": "[[Oneday]] [[Project]].",
     "Programmable Vaccines": "[[Oneday]] [[Project]]",
     "Project FFMpeg for iPad": "- [[Old Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
+    "Project Fakedoor": "[[Project]]",
     "Project Florence": "- [[Project]] Florence is a research [[project]] ...",
     "Project Ganymede": "- Therefore, we name it [[Project]] Ganymede. You can NEVER win ...",
     "Project Heimdall": "... conventional [[Docusaurus]] with [[Listmonk]]. Consider [[Project]] [[Done]].",
@@ -11924,6 +12050,7 @@
     "Synonym-based Fuzzy Search": "[[Old Someday]] [[Project]]. Fuzzy Search + Synonym Search ...",
     "Tailwind CSS 톺아보기": "## [[Project|프로젝트]] 목표",
     "TextGPT": "[[Old Someday]] [[Project]]",
+    "The One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
     "Timebelt": "[[Old Someday]] [[Project]]. Timezone conversion with Absolute [[URI]].",
     "Titanium Calculator": "[[Oneday]] [[Project]]. TI84의 기능을 최대한 모방해 최대한 ...",
     "Toss Product Sans": "... 2020년 여름 [산돌](http://www.sandoll.co.kr/)과 함께 서체 [[Project|프로젝트]]를 시작",
@@ -11971,6 +12098,7 @@
     "2024-03-07": "- [[Project Calenzano]]",
     "2024-03-18": "[[Project Calenzano]]"
   },
+  "Project Core ML": {},
   "Project Core ML Foundation": {
     "2023-01-26": "- [[Project Core ML Foundation]]",
     "2023-01-27": "- [[Project Core ML Foundation]]",
@@ -12016,6 +12144,7 @@
     "2022-10-20": "- [[Project FFMpeg for iPad]]",
     "2023-05-09": "- [[Project FFMpeg for iPad]]"
   },
+  "Project Fakedoor": {},
   "Project Fiesole": {
     "2023-10-03": "- [[Project Fiesole]]",
     "2023-10-04": "- [[Project Fiesole]]",
@@ -12125,6 +12254,7 @@
     "2023-06-17": "- [[Project Heimdall Table Structure]]",
     "Project Heimdall": "- [[Project Heimdall Table Structure]]"
   },
+  "Project Hocrux": {},
   "Project Horcrux": {
     "2023-10-20": "- [[Project Horcrux]]",
     "LocLog": "Google timeline but [[Project Horcrux|horcruxed]]",
@@ -12221,6 +12351,7 @@
     "2025-07-18": "[[Project Starfinder]]",
     "Project": "- [[Project Starfinder]]"
   },
+  "Project Starfish": {},
   "Prompt": {
     "iOS Icon Design": "- [[ChatGPT]] [[Prompt]]"
   },
@@ -12548,7 +12679,8 @@
   },
   "Redirecting READMEs": {
     "2022-10-21": "- [[Redirecting READMEs]]",
-    "2023-03-24": "- [[Redirecting READMEs]]"
+    "2023-03-24": "- [[Redirecting READMEs]]",
+    "Lesser Known Tricks": "- [[Redirecting READMEs]]"
   },
   "Reduced Motion": {
     "WWDC23": "- [[Reduced Motion|Paused Animated Images]] → Stop motions in animated ..."
@@ -12585,7 +12717,8 @@
   },
   "Remembering that Disarmed Bomb": {
     "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
-    "30-Day Tweet Test (Harry Stebbings)": "| [02-06](../journals/2023-02-06.md) | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 ..."
+    "30-Day Tweet Test (Harry Stebbings)": "| [02-06](../journals/2023-02-06.md) | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 ...",
+    "Harry Stebbings Challenge": "| [[2023-02-06]] | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/>🇰🇷 [[방지된 폭탄에 대한 경의]] ..."
   },
   "Reminder Tools": {
     "Tools for Thought": "- [[Reminder Tools]]"
@@ -13034,6 +13167,7 @@
     "2023-02-02": "- [[Service Shimming]]",
     "30-Day Tweet Test (Harry Stebbings)": "| [02-02](../journals/2023-02-02.md) | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]] | ...",
     "Avoid Premature Optimizations": "- [[Service Shimming]], [[서비스 시밍]]",
+    "Harry Stebbings Challenge": "| [[2023-02-02]] | 🇬🇧 [[Service Shimming]] <br/>🇰🇷 [[서비스 시밍]] | [Tweet](https://twitter.com/anaclumos/status/1621250040022061060) ...",
     "Tech Now Pay Later": "... is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you ...",
     "서비스 시밍": "[[Service Shimming]]"
   },
@@ -13044,7 +13178,8 @@
     "2022-11-19": "...  - [[Setting different fonts by language in CSS]]"
   },
   "Setting different images for Light & Dark mode": {
-    "2022-10-21": "- [[Setting different images for Light & Dark mode]]"
+    "2022-10-21": "- [[Setting different images for Light & Dark mode]]",
+    "Lesser Known Tricks": "- [[Setting different images for Light & Dark mode]]"
   },
   "Shadcn Skeleton Random Delay": {
     "2024-10-14": "- [[Shadcn Skeleton Random Delay]]"
@@ -13102,6 +13237,7 @@
     "WWDC23": "... → Can be used as [[Shortcuts]] and Siri commands",
     "sssss": "Supersedes [[Shortcuts]]"
   },
+  "Shortcuts and Breakthrough": {},
   "Show me your Laptop": {
     "2023-07-25": "- [[Show me your Laptop]]",
     "Sticker Party": "[[Show me your Laptop]]"
@@ -13275,10 +13411,14 @@
     "2025-06-20": "- [[Someday]]",
     "Action Required SaaS": "[[Someday]] [[Project]]. It's a [[Newsletter]] but ...",
     "Aldehyde SaaS": "[[Someday]] [[Project]]. It's this [[Aldehyde]].",
+    "Alter": "- [[Someday]] [[Project]]",
     "Cashflow (Service)": "[[Someday]] [[Project]]. Link all of your ...",
+    "Feed One": "[[Someday]] [[Project]]. Ideated during [[Conversation with ...",
     "Generative Open Graph": "[[Someday]] [[Project]]. [[Open Graph Image as ...",
     "LocLog": "[[Someday]] [[Project]].",
+    "Metadata as a Service": "- [[Someday]] [[Project]]",
     "Old Someday": "... were planned and marked as [[Someday]] but no longer relevant today ...",
+    "The One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]",
     "elevatorpitch.com": "[[Someday]] [[Project]]. Simple Demo website Creator ...",
     "gimme": "[[Someday]] [[Project]]",
     "nogitsync": "[[Someday]]",
@@ -13304,6 +13444,7 @@
     "Meta Theme Color for Spacial Cognition": "- [[Meta Theme Color]] for [[Spacial Cognition]]",
     "Spatial Computer": "[[Metaverse]] and [[Spacial Cognition]]."
   },
+  "Sparkle Button": {},
   "Spatial Computer": {
     "2023-06-05": "... or \"Headset\" anywhere. It's a [[Spatial Computer]].",
     "Apple Vision Pro": "... the Apple Vision Pro, a [[Spatial Computer]] that seamlessly combines digital content ..."
@@ -13463,6 +13604,7 @@
     "Person 9078DC": "... [[DEV.to]]와 경쟁 방안으로 [Packt](https://www.packtpub.com/)과 같은 [[Strategy|전략]]을 고려 중. 지적 자산의 보급과 ...",
     "Project Ganymede": "... How do you store different [[Strategy|strategies]] (After 5 seconds? 10 seconds? ...",
     "Proposal of Research 2023-03-28": "... PI attack techniques and mitigation [[Strategy|strategies]] to identify gaps in existing ...",
+    "The Engine Equation": "... of people and to develop [[Strategy|strategies]] to shape the course of ...",
     "Tian Li et al. Federated Learning Challenges, Methods, and Future Directions": "#### [[Strategy|Strategies]]",
     "Winning America": "... of America|미국]]을 이길 수 있는' [[Strategy|전략]]에는 어떤 것이 있을까?",
     "hn.cho.sh 개발 기록": "- PMF보다 [[Go To Market]] [[Strategy|전략]]이 훨씬 더 중요하다 (진짜 그런 ...",
@@ -13537,7 +13679,8 @@
     "Did Bondee Really Suddenly Rise": "... a closer look into [[Bondee]]. [[Sudden Rise of Bondee]]. But did it suddenly rise?"
   },
   "Sudo with Touch ID": {
-    "2022-11-30": "- [[Lesser Known Trick]]. [[Sudo with Touch ID]]"
+    "2022-11-30": "- [[Lesser Known Trick]]. [[Sudo with Touch ID]]",
+    "Lesser Known Tricks": "- [[Sudo with Touch ID]]"
   },
   "Sukyong Hong Interview": {
     "2025-06-16": "- [[Sukyong Hong Interview]]"
@@ -13573,6 +13716,8 @@
     "Super App and Democracy": "... that [[WeChat]] is the only \"[[Super App|everything app]]\" anyone can cite, and it ...",
     "Super App is a Universal Chat App": "... 2022-12-24]], the conditions for a [[Super App]] in the [[United States of ...",
     "Texts (Service)": "Potential [[Super App]] for the [[United States of ...",
+    "The One and Only (Social App)": "... the world by creating a **[[Super App]]** in the US. China has ...",
+    "The one and only": "... all data into one place—the [[Super App]] approach.",
     "Toss": "... say _the most innovative_ Financial [[Super App]] I've ever seen in [[대한민국|Korea]] ...",
     "Universal Chat App": "## Connections: [[Super App]]",
     "Universal Identity": "- [[Super App]] accounts can be another. See ...",
@@ -13812,6 +13957,11 @@
   "TextGPT": {
     "2024-04-23": "- [[TextGPT]]"
   },
+  "Texts": {
+    "Feed One": "Like [[Texts]], it pulls from all the ...",
+    "The One and Only (Social App)": "Like [[Texts]], it pulls from all the ...",
+    "The one and only": "[[Texts]] aims to be the one ..."
+  },
   "Texts (Service)": {
     "2023-01-31": "Got Invited to [[Texts (Service)]]",
     "Automattic의 Beeper 인수": "[[Texts (Service)]] 그리고 [[Beeper]] 모두를 손에 넣었다.",
@@ -13829,12 +13979,20 @@
     "애국심은 국가 단위의 스톡홀름 신드롬인가": "[[The Empires of the Future are the Empires of the Mind]]",
     "오직 가지고 싶은 것은 드높은 문화의 힘이다": "[[The Empires of the Future are the Empires of the Mind]]"
   },
+  "The Engine Equation": {},
+  "The Era of Invites": {
+    "Harry Stebbings Challenge": "| [[2023-02-05]] | 🇬🇧 [[The Era of Invites]] <br/>🇰🇷 [[초대장의 시대]] | [Tweet](https://twitter.com/anaclumos/status/1622384241442160641) ..."
+  },
   "The Get-Shit-Done Computer": {
     "2025-09-13": "[[The Get-Shit-Done Computer]]"
   },
   "The Need for Project DANSO": {
     "Prject PIRI": "- [[The Need for Project DANSO]]"
   },
+  "The One and Only": {
+    "The One and Only (Social App)": "... the solution for you. Introducing '[[The One and Only]],' the ultimate social media app ..."
+  },
+  "The One and Only (Social App)": {},
   "The Paradoxical Moon Philosophy": {
     "Explode": "... day, and these were small [[The Paradoxical Moon Philosophy|remora]] products that sometimes the idea ...",
     "Project Ganymede": "- [[The Paradoxical Moon Philosophy]]"
@@ -13850,6 +14008,10 @@
   "The Web Can Do What": {
     "2023-11-20": "- [[The Web Can Do What]]"
   },
+  "The Zenly Playbook": {
+    "Harry Stebbings Challenge": "| [[2023-02-03]] | 🇬🇧 [[The Zenly Playbook]] <br/>🇰🇷 [[젠리의 성공 공식]] | ..."
+  },
+  "The one and only": {},
   "Thesephist Work Case Study": {
     "2022-12-04": "- [[Thesephist Work Case Study]]"
   },
@@ -13859,6 +14021,7 @@
   "Think like a farmer": {
     "2025-08-06": "[[Think like a farmer]]"
   },
+  "Thought Experiment": {},
   "Threads": {
     "2023-07-06": "- [[Threads]]",
     "Providing DOM API to Worker Threads": "... [[API]] Access to [[Web Worker]] [[Threads]]",
@@ -13907,6 +14070,7 @@
     "誠鉉": "- [[Time-Space Continuum (19誠鉉)|시공간적 연속성 (19誠鉉?)]]",
     "역사의 집대성": "[[Time-Space Continuum (19誠鉉)|시공간적 연속성 (19誠鉉?)]] 참고."
   },
+  "Time-Space Continuum (Philosophy)": {},
   "Time-Space Continuum (Physics)": {
     "2023-04-12": "- [[Time-Space Continuum (Physics)]]",
     "Time-Space Continuum (19誠鉉)": "... 찾고 사고를 증대할 수 있다. [[Time-Space Continuum (Physics)|마치 시간과 공간이 모두 연결되어 있다는 물리학처럼 말이다.]]"
@@ -13932,6 +14096,7 @@
   "ToolbarItem": {
     "WWDC23": "- [[ToolbarItem]] → Using corners of Apple ..."
   },
+  "Tools I will use one day": {},
   "Tools Must Vanish": {
     "2022-07-07": "- [[Tools Must Vanish]]",
     "2022-12-28": "- [[Tools Must Vanish]]",
@@ -13962,6 +14127,7 @@
   "Torvalds": {},
   "Toss": {
     "IDOL Stack": "... International payments built-in (PayPal + [[Toss]])",
+    "Korean Banks Suck": "This is why I like [[Toss]]...",
     "Naver Pay": "- [[Toss]]",
     "Person 1E6ABA": "[[Toss]] Invest also tries to solve ...",
     "Service Shimming": "- [[Toss]] (≈ [[대한민국|Korean]] Paypal) failed to ...",
@@ -14004,6 +14170,7 @@
     "2023-01-23": "- [[Total Probability]]",
     "Probability": "- $P(E)$ → [[Total Probability]]"
   },
+  "TourScout Identity Management Development Proposal": {},
   "Towards Ambient Computing": {
     "2023-10-04": "- [[Towards Ambient Computing]]",
     "Newtonian Correspondence": "| [10-04](../journals/2023-10-04.md) | `EN` [[Towards Ambient Computing]] <br/> `KO` [[앰비언트 컴퓨팅을 향해]] ..."
@@ -14034,7 +14201,8 @@
     "2022-11-20": "- [[Tree Style]]"
   },
   "Treehouse": {
-    "Conversational AI Tools for Thought": "- [[Treehouse]]"
+    "Conversational AI Tools for Thought": "- [[Treehouse]]",
+    "explainpaper.com": "This is insane. [[Treehouse]]"
   },
   "Trie": {
     "Coding Tests": "- [[Trie]] [[TODO]]"
@@ -14065,6 +14233,7 @@
     "2022-10-27": "## [[Twitter]]",
     "Cube": "- Feature: [[Twitter]]-to-[[Instagram]]-Card Mode?",
     "Letter to Mr. Matt Rickard on 2022-10-03": "I'm at @anaclumos on [[GitHub]], [[Twitter]], and any other platform.",
+    "Letter to Mr. Matt Rickard on 2022-12-23": "There are countless cases where [[Twitter]] troubled up, but the above ...",
     "Letter to Mr. Matt Rickard on 2022-12-24": "There are countless cases where [[Twitter]] troubled up, but the above ...",
     "MLS": "... [[Meta (Company)|Facebook]], INRIA, [[Google]], and [[Twitter]]. [[Google]] is adopting the MLS ...",
     "Mood.surf": "... Discover expert insights from tech [[Twitter]]",
@@ -14104,6 +14273,9 @@
   },
   "Typescript": {
     "Shopify Analyzes CSS Frameworks": "| [[Typescript]] support | As a developer, ..."
+  },
+  "UBI for Scholars": {
+    "Neo Korea": "- [[UBI for Scholars]]"
   },
   "UI AI": {
     "Diagram (Company)": "- Creator of [[UI AI]]"
@@ -14203,6 +14375,7 @@
   "Undefined Symbol Vtable Error": {
     "Undefined Symbol Vtable": "[[Undefined Symbol Vtable Error]]"
   },
+  "Undefined symbol vtable": {},
   "Unexpected number value in conditional. An explicit zero NaN check is required": {
     "2023-06-02": "- [[Unexpected number value in conditional. An explicit zero NaN check is required]]"
   },
@@ -14251,6 +14424,7 @@
     "IP is the new Real Estate": "... the yen appreciated against the [[United States of America|US]] dollar, [[일본|Japanese]] investors reinvested in ...",
     "IRS": "... the revenue service for the [[United States of America|United States]] federal government, which is responsible ...",
     "Krafton Way": "... 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. ...",
+    "Letter to Mr. Matt Rickard on 2022-12-23": "... for the people in the [[United States of America|United States]].",
     "Letter to Mr. Matt Rickard on 2022-12-24": "... for the people in the [[United States of America|United States]].",
     "Martin Shkreli의 마약 문제를 E-ACC로 해결한다는 가설": "[[United States of America|미국]]의 백만장자 [Martin Shkreli](https://en.wikipedia.org/wiki/Martin_Shkreli)가 마약 문제를 ...",
     "Metadream": "... [[Singapore]], [[일본|Japan]], [[대한민국|Korea]], and the [[United States of America|United States]]. One of Metadream's directors is ...",
@@ -14335,6 +14509,7 @@
   "Unsemantic": {
     "2022-12-20": "- [[Unsemantic]]"
   },
+  "Untitled": {},
   "Untitled 1": {},
   "Updating Listmonk": {
     "2023-08-11": "- [[Updating Listmonk]]"
@@ -14585,7 +14760,8 @@
   },
   "WasmEdge": {
     "2022-11-30": "- [[WasmEdge]]",
-    "Oneday": "- [[WasmEdge]]"
+    "Oneday": "- [[WasmEdge]]",
+    "Tools I will use one day": "- [[WasmEdge]]"
   },
   "Watch is the Greatest Dumb Phone": {
     "2023-07-25": "- [[Watch is the Greatest Dumb Phone]]"
@@ -14605,6 +14781,7 @@
     "Playings": "... 2023. Just like [[Readings]] and [[Watchings]].",
     "앎의 그릇": "- [[Watchings]]"
   },
+  "Wayfinding AI Pin": {},
   "Wayfinding with AI Pin": {
     "2023-11-09": "- [[Wayfinding with AI Pin]]",
     "2023-11-10": "- [[Wayfinding with AI Pin]]"
@@ -14764,6 +14941,7 @@
     "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]",
     "WebNPU API를 상상하다": "- [[WebGPU]]는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
   },
+  "WebNPU": {},
   "WebNPU API를 상상하다": {
     "2023-02-18": "- [[WebNPU API를 상상하다]]",
     "30-Day Tweet Test (Harry Stebbings)": "... [[Imagining WebNPU API]] <br/> 🇰🇷 [[WebNPU API를 상상하다]] | [tweet](https://twitter.com/anaclumos/status/1627161630080659460) | ..."
@@ -14927,7 +15105,8 @@
   "Z-Fellows": {
     "2023-03-19": "## [[Z-Fellows]]",
     "2023-04-12": "- [[Z-Fellows]]. Rejected. But I was in ...",
-    "One and Only (Social App)": "## [[Z-Fellows]]"
+    "One and Only (Social App)": "## [[Z-Fellows]]",
+    "The One and Only (Social App)": "## [[Z-Fellows]]"
   },
   "Zen browser no padding": {
     "2025-07-07": "- [[Zen browser no padding]]"
@@ -15113,6 +15292,7 @@
     "IDOL Stack": "- Use [[boring technologies]]",
     "Impact over Performance": "- Use [[boring technologies]]"
   },
+  "browseronly template": {},
   "caching": {
     "Cache Conscious Programming": "... due to the way of [[caching]]",
     "Hey": "... Fargate]] and [[FlightControl]] for deploying, [[caching]], and distributing.",
@@ -15319,6 +15499,9 @@
     "Can we ever build TikTok for Text": "- **Chat interface**. Chat-like [[ebook]] services like Hooked use text ...",
     "Using an iPad as my Ebook": "... ended to find the perfect [[ebook]]. Refer to this [[Hacker News]] ..."
   },
+  "ecommerce": {
+    "The One and Only (Social App)": "... such as messaging, social media, [[ecommerce|e-commerce]], and mobile payments into a ..."
+  },
   "economic development": {
     "Born of this Land - The Founding Story of Hyundai": "Speaking about [[대한민국|Korea]]'s [[economic development]] and national patriotism, Jung emphasizes ...",
     "경제 개발의 길목에서": "## [[economic development|경제 개발]]의 길목에서",
@@ -15383,7 +15566,8 @@
     "Stories Behind Satori": "... elements' positions through a layout [[engine]] and convert them into [[SVG]] ...",
     "Supabase": "... PostgreSQL as its core [[database]] [[engine]], providing developers with a hosted ...",
     "Super App is a Universal Chat App": "... as seen in the Gecko [[engine]].",
-    "Tech Now Pay Later": "An [[engine]] takes time (a type of ..."
+    "Tech Now Pay Later": "An [[engine]] takes time (a type of ...",
+    "The Engine Equation": "In thermodynamics, an [[engine]] is a machine that converts ..."
   },
   "epub": {
     "ePub to PDF": "- [[epub]] to [[pdf]]"
@@ -15393,6 +15577,7 @@
     "2025-01-16": "- [[es-toolkit]]"
   },
   "every.news": {},
+  "explainpaper.com": {},
   "extracranial": {
     "Migrating Project Aldehyde to FlightControl (February 24誠鉉)": "... [[Aldehyde Outage (January 23誠鉉)]], the [[extracranial]] workflow was simple -- [[git]] ...",
     "Stephan Ango": "- [[extracranial]] @ [Stephan Ango](https://stephanango.com/)"
@@ -15540,6 +15725,7 @@
     "2023-03-24": "- [[hn.cho.sh]]",
     "2023-04-01": "- [[hn.cho.sh]]",
     "METI Engine": "The current generation is [[hn.cho.sh]] -- and plan to scale ...",
+    "Oneliner News": "Where would [[hn.cho.sh]] lead us?",
     "Project Heimdall Initial Planning": "Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news ...",
     "Project Heimdall Locale Transition Strategy": "[[Project Heimdall]]'s predecessor [[hn.cho.sh]] operated on DeepL's 29 languages. ...",
     "Project Linguine": "... into the subscriber lists of [[hn.cho.sh]], I did notice that there ...",
@@ -15547,6 +15733,7 @@
     "Vercel Incident Report (23誠鉉)": "... with two projects: [[lovearc.net]] and [[hn.cho.sh]].",
     "hn.cho.sh 개발 기록": "... 아마도 사이드바 채팅 [[AI]]를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
   },
+  "hn.cho.sh Believer Plan": {},
   "hn.cho.sh 개발 기록": {
     "2023-03-20": "- [[hn.cho.sh 개발 기록]]",
     "2023-04-02": "[[hn.cho.sh 개발 기록]]",
@@ -15602,6 +15789,7 @@
   },
   "iMessage": {
     "Beeper": "... (Service)]]. A better approach with [[iMessage]], given that it logs into ...",
+    "Off The Record": "- [[Project]]. Disappearing message for [[iMessage]].",
     "Project Ganymede": "... It is **possible** to limit [[iMessage]] forwarding for [[iMessage App|iMessage Extensions]]",
     "RCS": "... Message|SMS]] and is similar to [[iMessage]], WhatsApp, and [[Facebook Messenger]]. RCS ...",
     "Send Separately": "... Someday]] [[Project]]. \"Send Separately\" for [[iMessage]].",
@@ -15907,6 +16095,9 @@
   "openai": {
     "Dear AIs, I have a question.": "## [[openai]]:gpt-3.5-turbo"
   },
+  "optimized simulation": {
+    "simulation": "... are time-space restrictions, look into [[optimized simulation]]s."
+  },
   "os": {
     "dub.co": "... each link's clicks (incl. location, device/[[os]]) with [airbnb/visx: 🐯 visx](https://github.com/airbnb/visx)"
   },
@@ -16130,6 +16321,7 @@
     "2023-11-20": "- [[shots.so]]"
   },
   "shuffle template": {},
+  "simulation": {},
   "simulations": {
     "Monte Carlo Algorithm": "... the technique performs numerous random [[simulations]] to estimate the desired outcome. ..."
   },
@@ -16210,6 +16402,7 @@
     "hn.cho.sh 개발 기록": "- [[supastarter]] - The [[Software as a ..."
   },
   "super app": {
+    "Letter to Mr. Matt Rickard on 2022-12-23": "... on the downsides of the [[super app]]",
     "Super App is a Universal Chat App": "- the [[super app]] must draw people, giving reasons ..."
   },
   "supernpm": {
@@ -16382,6 +16575,7 @@
   "強力反權": {
     "2023-01-09": "- [[強力反權]]",
     "Antipreneur": "- [[強力反權|강력반권]]",
+    "Neo Korea": "- [[強力反權]]",
     "Small yet Powerful": "[[強力反權|강력반권]]"
   },
   "水適穿石": {
@@ -16426,7 +16620,9 @@
     "2023-01-09": "- [[雅號]]",
     "서울": "... name were 우남(雩南, Woo-Nam, President's [[雅號|Ho]]), 한양(漢陽, Han-Yang), 한경(韓京, Han-Kyeong), and ..."
   },
-  "간판법": {},
+  "간판법": {
+    "Neo Korea": "- [[간판법]]"
+  },
   "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": {
     "2023-04-15": "- [[감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구]]",
     "2024-04-14": "- [[감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구|감세증벌]]"
@@ -16439,7 +16635,8 @@
   "강력하게 미약한 도구들": {
     "2023-02-08": "- [[강력하게 미약한 도구들]]",
     "30-Day Tweet Test (Harry Stebbings)": "... [[Powerfully Powerless Tools]] <br/> 🇰🇷 [[강력하게 미약한 도구들]] | [tweet](https://twitter.com/anaclumos/status/1623522946034847745) | ...",
-    "Antipreneur": "- [[강력하게 미약한 도구들]]. Do one small thing, but ..."
+    "Antipreneur": "- [[강력하게 미약한 도구들]]. Do one small thing, but ...",
+    "Harry Stebbings Challenge": "... 🇬🇧 [[Powerfully Powerless Tools]] <br/>🇰🇷 [[강력하게 미약한 도구들]] | [Tweet](https://twitter.com/anaclumos/status/1623522946034847745) | | ..."
   },
   "개성은 쟁취하는 것": {
     "2021-06-23": "- [[개성은 쟁취하는 것]]",
@@ -16469,6 +16666,7 @@
     "Can we ever build TikTok for Text": "... News app. Even I also [[곰단|tried once]]. However, none has been as ...",
     "뤼튼": "[[곰단]]의 (나만의) 경쟁자였다. 결과는 싸워보지도 못하고 ...",
     "북스페이스": "... 기획자가 설립했던 작문 플랫폼 스타트업. [[곰단]]의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 ...",
+    "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 다른 시도는 이미 충분히 있었다. [[곰단|나도 했었다.]] 하지만 '틱톡'만큼 매력적이고 중독성 있는 ...",
     "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 다른 시도는 이미 충분히 있었다. [[곰단|나도 했었다.]] 하지만 틱톡만큼 매력적이고 중독성 있는 ..."
   },
   "공강에서 보내는 공강 활용법": {
@@ -16486,6 +16684,7 @@
     "誠鉉": "- [[과거의 영광 (16誠鉉-18誠鉉)]]",
     "과목우수상": "... 어느정도 큰 교훈이 됐다고 생각한다. [[과거의 영광 (16誠鉉-18誠鉉)]]"
   },
+  "과거의 영광 (2015-2018)": {},
   "과목우수상": {
     "2023-09-11": "- [[과목우수상]]",
     "Macroeconomics": "어찌 되었든 [[과목우수상]]을 받은 것은 이때가 처음이다.",
@@ -16499,7 +16698,8 @@
   },
   "관성 질량과 중력 질량": {
     "2023-02-07": "- [[관성 질량과 중력 질량]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 질량]] | [tweet](https://twitter.com/anaclumos/status/1623227887632646144) | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 질량]] | [tweet](https://twitter.com/anaclumos/status/1623227887632646144) | ...",
+    "Harry Stebbings Challenge": "... 🇬🇧 [[A Massive Mystery]] <br/>🇰🇷 [[관성 질량과 중력 질량]] | [Tweet](https://twitter.com/anaclumos/status/1623227887632646144) | | ..."
   },
   "국가와 민족": {
     "2023-02-15": "- [[국가와 민족]]",
@@ -16695,6 +16895,7 @@
     "Krafton Way": "## [[서울]]과 [[대한민국]]",
     "LAH Case Study": "흥미롭다. 아마 [[대한민국]]에서 스타트업을 하는 사람들은 대부분 이런 ...",
     "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in [[대한민국|Korea]], [[Naver]], and [[Kakao]].",
+    "Letter to Mr. Matt Rickard on 2022-12-23": "... from Seoul to Daejeon in [[대한민국|Korea]], and I just got this ...",
     "Letter to Mr. Matt Rickard on 2022-12-24": "... from [[서울|Seoul]] to Daejeon in [[대한민국|Korea]], and I just got this ...",
     "Metadream": "... data centers in [[Singapore]], [[일본|Japan]], [[대한민국|Korea]], and the [[United States of ...",
     "Naver": "... the first web portal in [[대한민국|Korea]] to develop and use its ...",
@@ -16786,7 +16987,8 @@
   },
   "도메인 찾아 삼만리": {
     "2023-02-11": "- [[도메인 찾아 삼만리]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] | [tweet](https://twitter.com/anaclumos/status/1624308920792776706) | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] | [tweet](https://twitter.com/anaclumos/status/1624308920792776706) | ...",
+    "Harry Stebbings Challenge": "... search of my domain]] <br/>🇰🇷 [[도메인 찾아 삼만리]] | [Tweet](https://twitter.com/anaclumos/status/1624308920792776706) | | ..."
   },
   "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": {
     "2023-04-24": "- [[동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건]]"
@@ -16800,9 +17002,11 @@
     "誠鉉": "- [[두그열]]",
     "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": "무엇보다 저는 승현님의 [[두그열]]에 큰 응원을 보내고 싶습니다. 제게 ..."
   },
+  "드디어 한국 애플페이": {},
   "드디어, 한국 애플페이": {
     "2023-02-04": "- [[드디어, 한국 애플페이]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]] | [tweet](https://twitter.com/anaclumos/status/1621975286127513600) | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]] | [tweet](https://twitter.com/anaclumos/status/1621975286127513600) | ...",
+    "Harry Stebbings Challenge": "... Apple Pay in Korea]] <br/>🇰🇷 [[드디어, 한국 애플페이]] | [Tweet](https://twitter.com/anaclumos/status/1621975286127513600) | | ..."
   },
   "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": {
     "2024-02-01": "- [[디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)]]",
@@ -16946,7 +17150,8 @@
   "방지된 폭탄에 대한 경의": {
     "2023-02-01": "- [[방지된 폭탄에 대한 경의]]",
     "2023-02-06": "- [[방지된 폭탄에 대한 경의]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]] | [tweet](https://twitter.com/anaclumos/status/1622705516693843969) | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]] | [tweet](https://twitter.com/anaclumos/status/1622705516693843969) | ...",
+    "Harry Stebbings Challenge": "... [[Remembering that Disarmed Bomb]] <br/>🇰🇷 [[방지된 폭탄에 대한 경의]] | [Tweet](https://twitter.com/anaclumos/status/1622705516693843969) | | ..."
   },
   "배달의민족": {
     "2022-05-31": "... 빗대고 싶진 않지만, **[[Karrot|당근]] + [[배달의민족]] + [[쿠팡]]**이라고 생각하면 됩니다. -",
@@ -17038,6 +17243,7 @@
     "건강한 한국 토착 신앙": "... 활용할 수 있었던 기회로 게임 [[산나비]]를 들 수 있다. 게임 ",
     "네오 코리안 르네상스": "- [[산나비]]"
   },
+  "산업적 개척, 청결, 정화": {},
   "삼체": {
     "2023-06-28": "[[삼체]]",
     "Readings": "- [ ] [[삼체]] (Re-read)",
@@ -17067,6 +17273,7 @@
     "2023-02-02": "- [[서비스 시밍]]",
     "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]] | [tweet](https://twitter.com/anaclumos/status/1621250040022061060) | ...",
     "Avoid Premature Optimizations": "- [[Service Shimming]], [[서비스 시밍]]",
+    "Harry Stebbings Challenge": "... | 🇬🇧 [[Service Shimming]] <br/>🇰🇷 [[서비스 시밍]] | [Tweet](https://twitter.com/anaclumos/status/1621250040022061060) | | ...",
     "기술 할부 결제": "... 방식은 만들 때까지 만든 척하는 [[서비스 시밍]]과 유사하다."
   },
   "서울": {
@@ -17128,6 +17335,7 @@
     "2023-09-26": "- [[소셜 엔지니어링 금지]]",
     "민사고 앱": "... 소프트웨어는 온전히 사람을 보조할 것. [[소셜 엔지니어링 금지]]"
   },
+  "소셜엔지니어링 금지법": {},
   "솟대": {
     "2023-02-12": "- [[솟대]]",
     "장승": "비슷한 예시로 [[솟대]]나 [[서낭당]]이 있다."
@@ -17231,6 +17439,7 @@
     "2024-05-23": "- [[외할머니의 코리안 사이버펑크]]",
     "2024-05-28": "- [[외할머니의 코리안 사이버펑크]]"
   },
+  "우린 글 기반 틱톡을 평생 만들 수 있을까": {},
   "우린 텍스트 틱톡을 평생 만들 수 있을까": {
     "2023-02-27": "- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]",
     "30-Day Tweet Test (Harry Stebbings)": "... TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]] | [tweet](https://twitter.com/anaclumos/status/1630370788422610945) | ...",
@@ -17280,7 +17489,8 @@
     "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected ..."
   },
   "이무기 기업, 청룡 기업": {
-    "30-Day Tweet Test (Harry Stebbings)": "... and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 기업]] | [tweet](https://twitter.com/anaclumos/status/1620714157418094593) | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 기업]] | [tweet](https://twitter.com/anaclumos/status/1620714157418094593) | ...",
+    "Harry Stebbings Challenge": "... [[Imoogi and Dragon Company]] <br/>🇰🇷 [[이무기 기업, 청룡 기업]] | [Tweet](https://twitter.com/anaclumos/status/1620714157418094593) | | ..."
   },
   "이역만리": {
     "한타 vs 케이타운": "[[이역만리]] 먼 길 건너와서 한국인들 사이에만 ..."
@@ -17383,6 +17593,7 @@
   },
   "일일일": {
     "2023-04-19": "- [[일일일]]",
+    "Oneliner News": "An [[AI]]-powered news portal? Reference: [[일일일]]",
     "Project Heimdall Initial Planning": "... An [[AI]]-powered news portal? Reference: [[일일일]], [[News Minimalist]]. Would it eventually ..."
   },
   "자아는 발굴되는 것이다": {
@@ -17423,6 +17634,7 @@
   "젠리의 성공 공식": {
     "2023-02-03": "- [[젠리의 성공 공식]]",
     "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 [[Zenly Playbook]] <br/> 🇰🇷 [[젠리의 성공 공식]] | [tweet](https://twitter.com/anaclumos/status/1621646220954574848) | ...",
+    "Harry Stebbings Challenge": "... 🇬🇧 [[The Zenly Playbook]] <br/>🇰🇷 [[젠리의 성공 공식]] | [Tweet](https://twitter.com/anaclumos/status/1621646220954574848) | | ...",
     "Zenly": "... down in 2023. [[Zenly Playbook]] [[젠리의 성공 공식]]"
   },
   "조디슨 (11誠鉉)": {
@@ -17510,7 +17722,8 @@
   },
   "초대장의 시대": {
     "2023-02-05": "- [[초대장의 시대]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... [[Era of Invites]] <br/> 🇰🇷 [[초대장의 시대]] | [tweet](https://twitter.com/anaclumos/status/1622384241442160641) | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... [[Era of Invites]] <br/> 🇰🇷 [[초대장의 시대]] | [tweet](https://twitter.com/anaclumos/status/1622384241442160641) | ...",
+    "Harry Stebbings Challenge": "... [[The Era of Invites]] <br/>🇰🇷 [[초대장의 시대]] | [Tweet](https://twitter.com/anaclumos/status/1622384241442160641) | | ..."
   },
   "초상권 vs 저작권": {
     "CELLO": "- [[초상권 vs 저작권]]",
@@ -17527,12 +17740,14 @@
   },
   "컴퓨터는 향정신성 약물인가": {
     "2023-02-09": "- [[컴퓨터는 향정신성 약물인가]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]] | [tweet](https://twitter.com/anaclumos/status/1623798629155713024) | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]] | [tweet](https://twitter.com/anaclumos/status/1623798629155713024) | ...",
+    "Harry Stebbings Challenge": "... [[Are Computers Psychotropic Substances]] <br/>🇰🇷 [[컴퓨터는 향정신성 약물인가]] | [Tweet](https://twitter.com/anaclumos/status/1623798629155713024) | | ..."
   },
   "코드클럽": {
     "2019-03-04": "- [[코드클럽]]",
     "2022-12-10": "- [[코드클럽]]"
   },
+  "코리안 디스카운트": {},
   "코리안 르네상스": {
     "네오 코리안 르네상스": "엄밀하게 이 문서에서 정의한 네오 [[코리안 르네상스]]는 아니지만, 그래도 한국적 문화 요소를 ...",
     "한국의 식민지 근대성": "## 신채호와 첫 [[코리안 르네상스]]"
@@ -17775,6 +17990,7 @@
     "새로운 4대 사회악": "아래는, [[한민족의 멸종 방어|네오코리아]]로 나아가기 위해 반드시 해결해야할 과제들이다.",
     "서당개 3년이면 풍월을 읊는다": "[[한민족의 멸종 방어]]",
     "소셜 엔지니어링 금지": "[[한민족의 멸종 방어]]를 위해 금지가 필수. [[Social Engineering]]은 ...",
+    "소셜엔지니어링 금지법": "[[한민족의 멸종 방어]]를 위한 필수. 소셜 엔지니어링은 마약성 ...",
     "역사에는 사건만 있을 뿐 진실은 없다": "[[한민족의 멸종 방어|네오코리아]]",
     "연암 박지원 그리고 전국수도권화": "[[한민족의 멸종 방어]].",
     "의료 인공지능과 의대 쏠림": "[[한민족의 멸종 방어]]",
