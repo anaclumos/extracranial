@@ -79,12 +79,19 @@ const config: Config = {
       crossorigin: 'anonymous',
       as: 'style',
     },
+    {
+      href: `${CDN_BASE}/npm/pretendard-gov@latest/dist/web/variable/pretendardgov-subset.min.css`,
+      type: 'text/css',
+      rel: 'stylesheet',
+      crossorigin: 'anonymous',
+      as: 'style',
+    },
   ],
 
   themeConfig: {
     algolia: {
       appId: 'BERUO7LXIA',
-      apiKey: '4f28c78c43e91f6f922d20140434977f',
+      apiKey: 'e7d14e6b76cafaae57453377aecf9098',
       indexName: 'cho',
       contextualSearch: true,
       searchParameters: {},
