@@ -11,7 +11,7 @@ export default function TOC({ className, ...props }: Props): JSX.Element {
     <div
       className={cn(
         'thin-scrollbar',
-        'sticky-sidebar hidden rounded-theme p-theme opacity-10 transition-opacity duration-200 hover:opacity-100 lg:block',
+        'sticky-sidebar hidden rounded-theme p-theme opacity-10 transition-opacity duration-200 hover:opacity-100 min-[997px]:block',
         className
       )}
     >

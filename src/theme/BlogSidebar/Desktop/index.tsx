@@ -14,7 +14,7 @@ export default function BlogSidebarDesktop({ sidebar }: Props) {
         })}
         className={cn(
           'thin-scrollbar',
-          'sticky-sidebar rounded-theme px-10 py-7 pr-7 text-end opacity-10 transition-opacity duration-200 hover:opacity-100 max-lg:hidden'
+          'sticky-sidebar rounded-theme px-10 py-7 pr-7 text-end opacity-10 transition-opacity duration-200 hover:opacity-100 max-[996px]:hidden'
         )}
       >
         <div className={cn('mx-3 mb-4 font-bold text-xl')}>{sidebar.title}</div>
