@@ -7,8 +7,6 @@ slug: '/B80EAF'
 
 So I have this network graph.
 
-;
-
 ![[5BE46A.png]]
 
 [[Cartography|Map]] those into the globe on the main page:

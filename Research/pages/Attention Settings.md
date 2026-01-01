@@ -11,7 +11,7 @@ If you own the rights to the materials and want them unpublished, please contact
 
 :::
 
-;
+import DisplayFlex from '@site/src/components/DisplayFlex'
 
 TODO: USE FUMADOCS I18N
 
