@@ -7,12 +7,12 @@ interface AppleMusicProps {
 export default function AppleMusic({ url }: AppleMusicProps) {
   return (
     <iframe
-      id="embedPlayer"
-      src={url}
-      height="175px"
-      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
       allow="autoplay *; encrypted-media *; clipboard-write"
       className={styles.embedPlayer}
+      height="175px"
+      id="embedPlayer"
+      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+      src={url}
     />
   )
 }

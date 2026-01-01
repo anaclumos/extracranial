@@ -1,13 +1,12 @@
-import React, { JSX } from 'react'
-import Layout from '@theme-original/Layout'
-import type LayoutType from '@theme/Layout'
 import type { WrapperProps } from '@docusaurus/types'
-import { SpeedInsights } from '@vercel/speed-insights/react'
+import type LayoutType from '@theme/Layout'
+import Layout from '@theme-original/Layout'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 type Props = WrapperProps<typeof LayoutType>
 
-export default function LayoutWrapper(props: Props): JSX.Element {
+export default function LayoutWrapper(props: Props) {
   return (
     <>
       <Analytics />

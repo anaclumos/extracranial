@@ -1,4 +1,4 @@
-import { useState, type MouseEvent } from 'react'
+import { type MouseEvent, useState } from 'react'
 import styles from './index.module.css'
 
 interface EmojiReplaceableTextProps {
@@ -27,19 +27,31 @@ export default function EmojiReplaceableText({
   }
 
   return (
-    <span onClick={handleClick} className={styles.emojiReplaceableText}>
+    <span className={styles.emojiReplaceableText} onClick={handleClick}>
       {showEmoji ? (
         emoji === undefined ? (
           photo === undefined ? (
             text
           ) : border === true ? (
             <>
-              <img className={styles.photo} src={photo} alt={photoAlt} width="28" height="28" />
+              <img
+                alt={photoAlt}
+                className={styles.photo}
+                height="28"
+                src={photo}
+                width="28"
+              />
               <span className={styles.allyText}>{text}</span>
             </>
           ) : (
             <>
-              <img className={styles.emoji} src={photo} alt={photoAlt} width="28" height="28" />
+              <img
+                alt={photoAlt}
+                className={styles.emoji}
+                height="28"
+                src={photo}
+                width="28"
+              />
               <span className={styles.allyText}>{text}</span>
             </>
           )

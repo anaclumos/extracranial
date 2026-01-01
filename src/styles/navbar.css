@@ -3,37 +3,37 @@
 }
 
 .navbar-github-link::before {
-  content: '';
+  content: "";
   width: 24px;
   height: 24px;
   display: flex;
   transition: opacity 0.2s ease-in-out;
-  background: url('/icons/github.svg') no-repeat center;
+  background: url("/icons/github.svg") no-repeat center;
 }
 
 .navbar-github-link:hover::before {
   opacity: 0.6;
 }
 
-[data-theme='dark'] .navbar-github-link::before {
-  background: url('/icons/github-dark.svg') no-repeat center;
+[data-theme="dark"] .navbar-github-link::before {
+  background: url("/icons/github-dark.svg") no-repeat center;
 }
 
 .navbar-linkedin-link::before {
-  content: '';
+  content: "";
   width: 24px;
   height: 24px;
   display: flex;
   transition: opacity 0.2s ease-in-out;
-  background: url('/icons/linkedin.svg') no-repeat center;
+  background: url("/icons/linkedin.svg") no-repeat center;
 }
 
 .navbar-linkedin-link:hover::before {
   opacity: 0.6;
 }
 
-[data-theme='dark'] .navbar-linkedin-link::before {
-  background: url('/icons/linkedin-dark.svg') no-repeat center;
+[data-theme="dark"] .navbar-linkedin-link::before {
+  background: url("/icons/linkedin-dark.svg") no-repeat center;
 }
 
 .navbar {
@@ -42,7 +42,7 @@
   background-color: rgb(255 255 255 / 30%);
 }
 
-[data-theme='dark'] .navbar {
+[data-theme="dark"] .navbar {
   background-color: rgb(0 0 0 / 30%);
 }
 

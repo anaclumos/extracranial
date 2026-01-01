@@ -1,25 +1,24 @@
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import React, { JSX } from 'react'
 import Layout from '@theme/Layout'
 import styles from './index.module.css'
 
 const RandomUrl = () => {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <Layout title="To Infinity and Beyond" description={siteConfig.tagline}>
+    <Layout description={siteConfig.tagline} title="To Infinity and Beyond">
       <>
         <Head>
           <title>{'To Infinity and Beyond'}</title>
-          <meta name="description" content={siteConfig.tagline} />
-          <meta property="og:title" content={'To Infinity and Beyond'} />
-          <meta property="og:description" content={siteConfig.tagline} />
+          <meta content={siteConfig.tagline} name="description" />
+          <meta content={'To Infinity and Beyond'} property="og:title" />
+          <meta content={siteConfig.tagline} property="og:description" />
           <meta
-            property="og:image"
             content={`https://og.cho.sh/api/og?title=${encodeURIComponent(
               'To Infinity and Beyond'
             )}&subheading=${encodeURIComponent(siteConfig.tagline)}`}
+            property="og:image"
           />
         </Head>
         <main>
@@ -33,7 +32,8 @@ const RandomUrl = () => {
                   const parser = new DOMParser()
                   const xml = parser.parseFromString(text, 'text/xml')
                   urls = Array.from(xml.querySelectorAll('urlset > url > loc'))
-                  randomUrl = urls[Math.floor(Math.random() * urls.length)].textContent
+                  randomUrl =
+                    urls[Math.floor(Math.random() * urls.length)].textContent
 
                   window.location.href = randomUrl
                 })

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 interface Content {
   en: string
@@ -81,7 +81,7 @@ function RandomParagraphs({ strings }: RandomParagraphsProps) {
   return (
     <>
       {selectedStrings.map((str) => (
-        <p key={str.slice(0, 50)} className="text-lg">
+        <p className="text-lg" key={str.slice(0, 50)}>
           {str}
         </p>
       ))}

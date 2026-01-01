@@ -1,11 +1,12 @@
-import React, { JSX } from 'react'
-import { cn } from '@site/src/util/cn'
 import Link from '@docusaurus/Link'
-
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
+import { cn } from '@site/src/util/cn'
 import type { Props } from '@theme/BlogPostItem/Header/Title'
+import type { JSX } from 'react'
 
-export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Element {
+export default function BlogPostItemHeaderTitle({
+  className,
+}: Props): JSX.Element {
   const { metadata, isBlogPostPage } = useBlogPost()
   const { permalink, title } = metadata
   const TitleHeading = isBlogPostPage ? 'h1' : 'h2'

@@ -1,8 +1,12 @@
-import React, { JSX, useMemo } from 'react'
 import { useThemeConfig } from '@docusaurus/theme-common'
-import { useTOCHighlight, useFilteredAndTreeifiedTOC, type TOCHighlightConfig } from '@docusaurus/theme-common/internal'
-import TOCItemTree from '@theme/TOCItems/Tree'
+import {
+  type TOCHighlightConfig,
+  useFilteredAndTreeifiedTOC,
+  useTOCHighlight,
+} from '@docusaurus/theme-common/internal'
 import type { Props } from '@theme/TOCItems'
+import TOCItemTree from '@theme/TOCItems/Tree'
+import { type JSX, useMemo } from 'react'
 
 export default function TOCItems({
   toc,
@@ -15,8 +19,10 @@ export default function TOCItems({
 }: Props): JSX.Element | null {
   const themeConfig = useThemeConfig()
 
-  const minHeadingLevel = minHeadingLevelOption ?? themeConfig.tableOfContents.minHeadingLevel
-  const maxHeadingLevel = maxHeadingLevelOption ?? themeConfig.tableOfContents.maxHeadingLevel
+  const minHeadingLevel =
+    minHeadingLevelOption ?? themeConfig.tableOfContents.minHeadingLevel
+  const maxHeadingLevel =
+    maxHeadingLevelOption ?? themeConfig.tableOfContents.maxHeadingLevel
 
   const tocTree = useFilteredAndTreeifiedTOC({
     toc,
@@ -37,5 +43,12 @@ export default function TOCItems({
   }, [linkClassName, linkActiveClassName, minHeadingLevel, maxHeadingLevel])
   useTOCHighlight(tocHighlightConfig)
 
-  return <TOCItemTree toc={tocTree} className={className} linkClassName={linkClassName} {...props} />
+  return (
+    <TOCItemTree
+      className={className}
+      linkClassName={linkClassName}
+      toc={tocTree}
+      {...props}
+    />
+  )
 }

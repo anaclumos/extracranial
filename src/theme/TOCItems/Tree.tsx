@@ -1,8 +1,13 @@
-import React, { JSX, memo } from 'react'
 import type { Props } from '@theme/TOCItems/Tree'
+import { type JSX, memo } from 'react'
 
 // Recursive component rendering the toc tree
-function TOCItemTree({ toc, className, linkClassName, isChild }: Props): JSX.Element | null {
+function TOCItemTree({
+  toc,
+  className,
+  linkClassName,
+  isChild,
+}: Props): JSX.Element | null {
   if (!toc.length) {
     return null
   }
@@ -11,13 +16,18 @@ function TOCItemTree({ toc, className, linkClassName, isChild }: Props): JSX.Ele
       {toc.map((heading) => (
         <li key={heading.id}>
           <a
-            href={`#${heading.id}`}
             className={linkClassName ?? undefined}
             dangerouslySetInnerHTML={{
               __html: heading.value,
             }}
+            href={`#${heading.id}`}
           />
-          <TOCItemTree isChild toc={heading.children} className={className} linkClassName={linkClassName} />
+          <TOCItemTree
+            className={className}
+            isChild
+            linkClassName={linkClassName}
+            toc={heading.children}
+          />
         </li>
       ))}
     </ul>

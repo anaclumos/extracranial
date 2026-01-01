@@ -1,10 +1,10 @@
-import BlogPostItem from '@theme-original/BlogPostItem'
-import type BlogPostItemType from '@theme/BlogPostItem'
-import type { WrapperProps } from '@docusaurus/types'
-import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
 import BrowserOnly from '@docusaurus/BrowserOnly'
+import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
+import type { WrapperProps } from '@docusaurus/types'
 import GiscusComments from '@site/src/components/giscus'
 import PostNotice from '@site/src/components/post-notice'
+import type BlogPostItemType from '@theme/BlogPostItem'
+import BlogPostItem from '@theme-original/BlogPostItem'
 
 type Props = WrapperProps<typeof BlogPostItemType>
 

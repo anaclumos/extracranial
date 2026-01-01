@@ -8,7 +8,9 @@ const TRANSLATIONS = {
   bulletOneBackSingular: translate({ message: ' year ago.' }),
   bulletOneBackPlural: translate({ message: ' years ago.' }),
   bulletTwo: translate({ message: "That's enough time for things to change." }),
-  bulletThree: translate({ message: 'Possibly, I may not endorse the content anymore.' }),
+  bulletThree: translate({
+    message: 'Possibly, I may not endorse the content anymore.',
+  }),
   callToAction: translate({ message: 'Google Latest Articles Instead' }),
 } as const
 
@@ -43,11 +45,11 @@ function urlify(text: string): string {
 function SearchGoogleButton({ title }: { title: string }) {
   return (
     <a
-      role="button"
       className={styles.searchGoogleButton}
       href={`https://www.google.com/search?q=${urlify(title)}&tbs=qdr:y`}
-      target="_blank"
       rel="noopener noreferrer"
+      role="button"
+      target="_blank"
     >
       {TRANSLATIONS.callToAction}
     </a>
@@ -62,12 +64,14 @@ export default function PostNotice({ metadata }: PostNoticeProps) {
   const yearsAgo = howManyYearsAgo(metadata.date)
 
   return (
-    <Admonition type="caution" title={TRANSLATIONS.title}>
+    <Admonition title={TRANSLATIONS.title} type="caution">
       <ul>
         <li>
           {TRANSLATIONS.bulletOneFront}
           {yearsAgo}
-          {yearsAgo > 1 ? TRANSLATIONS.bulletOneBackPlural : TRANSLATIONS.bulletOneBackSingular}
+          {yearsAgo > 1
+            ? TRANSLATIONS.bulletOneBackPlural
+            : TRANSLATIONS.bulletOneBackSingular}
         </li>
         <li>{TRANSLATIONS.bulletTwo}</li>
         <li>{TRANSLATIONS.bulletThree}</li>

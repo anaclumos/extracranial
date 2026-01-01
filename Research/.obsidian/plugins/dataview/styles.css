@@ -143,9 +143,9 @@ div.dataview-error-box {
 }
 
 .dataview.small-text::before {
-  content: '(';
+  content: "(";
 }
 
 .dataview.small-text::after {
-  content: ')';
+  content: ")";
 }

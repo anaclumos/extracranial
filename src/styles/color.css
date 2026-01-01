@@ -23,7 +23,7 @@
   --docusaurus-highlighted-code-line-bg: rgb(0 0 0 / 10%);
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: var(--primary-color-300);
   --ifm-color-primary-dark: var(--primary-color-400);
   --ifm-color-primary-darker: var(--primary-color-500);

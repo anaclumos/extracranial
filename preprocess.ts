@@ -1,8 +1,8 @@
+import { randomBytes } from 'node:crypto'
+import { existsSync } from 'node:fs'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
-import { existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
-import { randomBytes } from 'node:crypto'
 import { parseArgs } from 'node:util'
 
 // ── constants ────────────────────────────────────────────────────────────────────
@@ -42,7 +42,9 @@ function randomHex(): string {
 
 // ── load replace rules ───────────────────────────────────────────────────────────
 
-const REPLACE_RULES: Record<string, string> = JSON.parse(await fs.readFile(REPLACE_RULES_PATH, 'utf-8'))
+const REPLACE_RULES: Record<string, string> = JSON.parse(
+  await fs.readFile(REPLACE_RULES_PATH, 'utf-8')
+)
 
 const REPLACE_RE = new RegExp(
   Object.keys(REPLACE_RULES)
@@ -58,7 +60,7 @@ const LANG_FIX_RE = /---\s*\n(.*?)\n---/s
 const WIKILINK_RE = /\[\[([^\]]+?)]]/g // raw [[…]] tokens
 const CODE_BLOCK_RE = /```.*?```/gs // fenced code
 const IMG_RE = /!\[([^\]]*?)\]\(([^)]+?)\)$/gm // images
-const SLUG_RE = /^slug:\s+['\"]?([^\s'\"#]+)['\"]?/m
+const SLUG_RE = /^slug:\s+['"]?([^\s'"#]+)['"]?/m
 
 // ── markdown sanitisation ────────────────────────────────────────────────────────
 
@@ -67,7 +69,7 @@ async function sanitiseMd(root: string): Promise<void> {
   console.log(`📝 Sanitizing ${mdFiles.length} markdown files...`)
 
   await Promise.all(mdFiles.map(sanitiseOne))
-  console.log(`✨ Completed markdown sanitization`)
+  console.log('✨ Completed markdown sanitization')
 }
 
 async function sanitiseOne(filePath: string): Promise<void> {
@@ -80,16 +82,22 @@ async function sanitiseOne(filePath: string): Promise<void> {
   text = text.replace(REPLACE_RE, (match) => REPLACE_RULES[match])
 
   const fm = text.match(LANG_FIX_RE)
-  if (fm && fm[1].includes("lang: 'en'")) {
-    if (!text.includes("div lang='ko") && !text.includes('div lang="ko')) {
-      const fileName = path.basename(filePath)
-      const koName = [...fileName].some((ch) => ch >= '\uAC00' && ch <= '\uD7A3')
-      const koChars = [...text].filter((ch) => ch >= '\uAC00' && ch <= '\uD7A3').length
-      const enChars = [...text].filter((ch) => (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')).length
+  if (
+    fm &&
+    fm[1].includes("lang: 'en'") &&
+    !(text.includes("div lang='ko") || text.includes('div lang="ko'))
+  ) {
+    const fileName = path.basename(filePath)
+    const koName = [...fileName].some((ch) => ch >= '\uAC00' && ch <= '\uD7A3')
+    const koChars = [...text].filter(
+      (ch) => ch >= '\uAC00' && ch <= '\uD7A3'
+    ).length
+    const enChars = [...text].filter(
+      (ch) => (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')
+    ).length
 
-      if (koName || koChars > enChars) {
-        text = text.replace("lang: 'en'", "lang: 'ko'")
-      }
+    if (koName || koChars > enChars) {
+      text = text.replace("lang: 'en'", "lang: 'ko'")
     }
   }
 
@@ -141,8 +149,13 @@ async function rmrf(dir: string): Promise<void> {
 
 // ── blog generation ──────────────────────────────────────────────────────────────
 
-async function processBlog(src: string, en: string, ko: string, cfg: string): Promise<void> {
-  console.log(`📚 Processing blog content...`)
+async function processBlog(
+  src: string,
+  en: string,
+  ko: string,
+  cfg: string
+): Promise<void> {
+  console.log('📚 Processing blog content...')
 
   await rmrf(en)
   await rmrf(ko)
@@ -151,7 +164,9 @@ async function processBlog(src: string, en: string, ko: string, cfg: string): Pr
 
   const entries = await fs.readdir(src, { withFileTypes: true })
   const fileCount = await countFiles(src)
-  console.log(`📋 Copying ${fileCount} blog files to English and Korean destinations`)
+  console.log(
+    `📋 Copying ${fileCount} blog files to English and Korean destinations`
+  )
 
   for (const entry of entries) {
     const srcPath = path.join(src, entry.name)
@@ -170,10 +185,14 @@ async function processBlog(src: string, en: string, ko: string, cfg: string): Pr
   await walkRename(en, 'en', 'ko')
   await walkRename(ko, 'ko', 'en')
 
-  console.log(`🌐 Completed blog processing`)
+  console.log('🌐 Completed blog processing')
 }
 
-async function walkRename(base: string, toIndex: string, toDelete: string): Promise<void> {
+async function walkRename(
+  base: string,
+  toIndex: string,
+  toDelete: string
+): Promise<void> {
   const files = await findFiles(base, ['.md', '.mdx'])
 
   for (const file of files) {
@@ -208,7 +227,7 @@ async function countFiles(dir: string): Promise<number> {
 // ── docs build ───────────────────────────────────────────────────────────────────
 
 async function processDocs(src: string, dst: string): Promise<void> {
-  console.log(`📔 Processing documentation...`)
+  console.log('📔 Processing documentation...')
 
   await rmrf(dst)
   await copyRecursive(src, dst)
@@ -241,10 +260,10 @@ async function processDocs(src: string, dst: string): Promise<void> {
   await Promise.all(mdFiles.map((file) => processImages(file)))
 
   // Then resolve links
-  console.log(`🔗 Resolving wikilinks...`)
+  console.log('🔗 Resolving wikilinks...')
   await Promise.all(mdFiles.map((file) => resolveFile(file, linkMap)))
 
-  console.log(`📘 Completed documentation processing`)
+  console.log('📘 Completed documentation processing')
 }
 
 async function processImages(filePath: string): Promise<void> {
@@ -261,7 +280,10 @@ async function processImages(filePath: string): Promise<void> {
   await fs.writeFile(filePath, txt, 'utf-8')
 }
 
-async function resolveFile(filePath: string, linkMap: CaseInsensitiveMap<string>): Promise<void> {
+async function resolveFile(
+  filePath: string,
+  linkMap: CaseInsensitiveMap<string>
+): Promise<void> {
   const txt = await fs.readFile(filePath, 'utf-8')
   const parts: string[] = []
   let lastIndex = 0
@@ -275,7 +297,9 @@ async function resolveFile(filePath: string, linkMap: CaseInsensitiveMap<string>
 
     // Process text outside code block
     const outside = txt.slice(lastIndex, start)
-    const processedOutside = outside.replace(WIKILINK_RE, (match, p1) => resolveWikilink(match, p1, filePath, linkMap))
+    const processedOutside = outside.replace(WIKILINK_RE, (match, p1) =>
+      resolveWikilink(match, p1, filePath, linkMap)
+    )
 
     parts.push(processedOutside)
     parts.push(match[0])
@@ -295,9 +319,19 @@ async function resolveFile(filePath: string, linkMap: CaseInsensitiveMap<string>
   }
 }
 
-function resolveWikilink(match: string, raw: string, currentFile: string, linkMap: CaseInsensitiveMap<string>): string {
+function resolveWikilink(
+  match: string,
+  raw: string,
+  currentFile: string,
+  linkMap: CaseInsensitiveMap<string>
+): string {
   // Skip tokens that are clearly not wiki titles
-  if (!raw || raw[0] === ' ' || raw[raw.length - 1] === ' ' || raw.trimStart().startsWith('-')) {
+  if (
+    !raw ||
+    raw[0] === ' ' ||
+    raw[raw.length - 1] === ' ' ||
+    raw.trimStart().startsWith('-')
+  ) {
     return match
   }
 
@@ -329,7 +363,7 @@ interface UidMap {
 }
 
 async function buildBacklinks(root: string, outDir: string): Promise<void> {
-  console.log(`🔄 Building backlink map...`)
+  console.log('🔄 Building backlink map...')
 
   const backlinkMap: BacklinkMap = {}
   const uidMap: UidMap = {}
@@ -388,14 +422,22 @@ async function buildBacklinks(root: string, outDir: string): Promise<void> {
     sortedUidMap[key] = uidMap[key]
   }
 
-  await fs.writeFile(path.join(outDir, 'backlinks.json'), JSON.stringify(sortedBacklinkMap, null, 2))
+  await fs.writeFile(
+    path.join(outDir, 'backlinks.json'),
+    JSON.stringify(sortedBacklinkMap, null, 2)
+  )
 
-  await fs.writeFile(path.join(outDir, 'filenames.json'), JSON.stringify(sortedUidMap, null, 2))
+  await fs.writeFile(
+    path.join(outDir, 'filenames.json'),
+    JSON.stringify(sortedUidMap, null, 2)
+  )
 
-  console.log(`🧩 Created backlink map with ${fileCount} files and ${linkCount} links`)
+  console.log(
+    `🧩 Created backlink map with ${fileCount} files and ${linkCount} links`
+  )
 }
 
-function getContext(txt: string, needle: string, keep: number = 6): string {
+function getContext(txt: string, needle: string, keep = 6): string {
   const tag = `[[${needle}]]`
   const lines = txt.split('\n')
 
@@ -409,7 +451,11 @@ function getContext(txt: string, needle: string, keep: number = 6): string {
     const pre = preParts.slice(-keep).join(' ')
     const post = postParts.slice(0, keep).join(' ')
 
-    return (preRaw !== pre ? '... ' + pre : pre) + tag + (postRaw !== post ? post + ' ...' : post)
+    return (
+      (preRaw !== pre ? '... ' + pre : pre) +
+      tag +
+      (postRaw !== post ? post + ' ...' : post)
+    )
   }
 
   return ''
@@ -446,8 +492,11 @@ async function fixImgAlt(root: string): Promise<void> {
 
 // ── asset cleanup ────────────────────────────────────────────────────────────────
 
-async function cleanupAssets(assetsDir: string, researchRoot: string): Promise<void> {
-  console.log(`🧹 Checking for unused assets...`)
+async function cleanupAssets(
+  assetsDir: string,
+  researchRoot: string
+): Promise<void> {
+  console.log('🧹 Checking for unused assets...')
 
   if (!existsSync(assetsDir)) {
     return

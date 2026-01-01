@@ -1,10 +1,10 @@
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
-import Layout from '@theme/Layout'
-import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
-import styles from './styles.module.css'
 import { cn } from '@site/src/util/cn'
+import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
+import Layout from '@theme/Layout'
+import styles from './styles.module.css'
 
 const t = {
   singular: translate({
@@ -55,7 +55,7 @@ function YearsSection({ years }: { years: YearProp[] }) {
       <div className={cn('container', styles.container)}>
         <div className="row">
           {years.reverse().map((yearProps) => (
-            <div key={yearProps.year} className="col col--4 margin-vert--md">
+            <div className="col margin-vert--md col--4" key={yearProps.year}>
               <Year {...yearProps} />
             </div>
           ))}
@@ -92,7 +92,7 @@ export default function BlogArchive({ archive }: Props): JSX.Element {
   const years = listPostsByYears(archive.blogPosts)
   return (
     <>
-      <PageMetadata title={title} description={description} />
+      <PageMetadata description={description} title={title} />
       <Layout>
         <header className="hero hero--primary">
           <div className={cn('container', styles.heroContainer)}>

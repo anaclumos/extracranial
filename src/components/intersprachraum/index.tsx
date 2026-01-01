@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 const TEXTS = [
   'Transcending the Linguistic Universe',
@@ -37,7 +37,9 @@ export default function Intersprachraum() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex === TEXTS.length - 1 ? 0 : prevIndex + 1))
+      setCurrentIndex((prevIndex) =>
+        prevIndex === TEXTS.length - 1 ? 0 : prevIndex + 1
+      )
     }, 200)
     return () => clearInterval(interval)
   }, [])

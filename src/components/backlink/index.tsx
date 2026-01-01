@@ -31,18 +31,24 @@ function processBacklinkItem(text: string, title: string) {
   try {
     // Replace [[title|display]] with `<b class="${styles.highlight}">${display}</b>` with regex
     const regex1 = new RegExp(`\\[\\[${escapedTitle}\\|(.+?)\\]\\]`, 'gi')
-    normalizedText = normalizedText.replace(regex1, `<b class="${styles.highlight}">$1</b>`)
+    normalizedText = normalizedText.replace(
+      regex1,
+      `<b class="${styles.highlight}">$1</b>`
+    )
 
     // Replace [[title]] with `<b class="${styles.highlight}">${title}</b>` with regex
     const regex2 = new RegExp(`\\[\\[${escapedTitle}\\]\\]`, 'gi')
-    normalizedText = normalizedText.replace(regex2, `<b class="${styles.highlight}">${normalizedTitle}</b>`)
+    normalizedText = normalizedText.replace(
+      regex2,
+      `<b class="${styles.highlight}">${normalizedTitle}</b>`
+    )
 
     // Replace [[other text|display]] with display. other can include spaces
-    const regex3 = new RegExp(`\\[\\[(.+?)\\|(.+?)\\]\\]`, 'g')
+    const regex3 = /\[\[(.+?)\|(.+?)\]\]/g
     normalizedText = normalizedText.replace(regex3, '$2')
 
     // Replace [[other]] with other
-    const regex4 = new RegExp(`\\[\\[(.+?)\\]\\]`, 'g')
+    const regex4 = /\[\[(.+?)\]\]/g
     normalizedText = normalizedText.replace(regex4, '$1')
   } catch (e) {
     console.error('Error processing backlink item:', e)
@@ -86,9 +92,15 @@ export default function Backlink({ documentTitle }: BacklinkProps) {
               }
               const link = filenames[backlinkTitle].replace('/', '')
               return (
-                <Link to={link} className={styles.backlinkItemLink} key={backlink}>
+                <Link
+                  className={styles.backlinkItemLink}
+                  key={backlink}
+                  to={link}
+                >
                   <div className={styles.backlinkItem}>
-                    <h3 className={styles.backlinkMentionedFileName}>{backlinkTitle}</h3>
+                    <h3 className={styles.backlinkMentionedFileName}>
+                      {backlinkTitle}
+                    </h3>
                     {processBacklinkItem(backlinkItems[backlink], title)}
                   </div>
                 </Link>

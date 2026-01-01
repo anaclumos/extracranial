@@ -1,7 +1,7 @@
-import React, { JSX } from 'react'
-import { PageMetadata } from '@docusaurus/theme-common'
-import { useDoc } from '@docusaurus/plugin-content-docs/client'
 import Head from '@docusaurus/Head'
+import { useDoc } from '@docusaurus/plugin-content-docs/client'
+import { PageMetadata } from '@docusaurus/theme-common'
+import type { JSX } from 'react'
 
 export default function DocItemMetadata(): JSX.Element {
   const { metadata, frontMatter, assets } = useDoc()
@@ -10,21 +10,21 @@ export default function DocItemMetadata(): JSX.Element {
     <>
       <Head>
         <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta property="og:title" content={metadata.title} />
-        <meta property="og:description" content={metadata.description} />
+        <meta content={metadata.description} name="description" />
+        <meta content={metadata.title} property="og:title" />
+        <meta content={metadata.description} property="og:description" />
         <meta
-          property="og:image"
           content={`https://og.cho.sh/api/og?title=${encodeURIComponent(
             metadata.title
           )}&subheading=${encodeURIComponent(name)}`}
+          property="og:image"
         />
       </Head>
       <PageMetadata
-        title={metadata.title}
         description={metadata.description}
-        keywords={frontMatter.keywords}
         image={assets.image ?? frontMatter.image}
+        keywords={frontMatter.keywords}
+        title={metadata.title}
       />
     </>
   )
