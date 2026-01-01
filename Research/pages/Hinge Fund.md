@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem'
 <Tabs groupId="lang">
 <TabItem value="en" label="English" default>
 
-Hinge Fund is an interesting fund model by Jack Raines. It catfishes on Hinge to bring matches to purchase a resort membership and put a [[call option]] on the resort stock. He made the resort $90M and put a $50k [[call option]].
+Hinge Fund is an interesting fund model by Jack Raines. It catfishes on Hinge to bring matches to purchase a resort membership and put a [[call option]] on the resort stock. He made the resort \$90M and put a \$50k [[call option]].
 
 </TabItem>
 <TabItem value="ko" label="한국어">
@@ -19,7 +19,7 @@ Hinge Fund는 Jack Raines에 의해 고안된 흥미로운 자금 모델이다. 
 
 <blockquote class="twitter-tweet">
 
-I successfully generated $90M in Q2 revenue for Soho House through a fake Hinge profile, and I have a $50k call option position going into earnings tomorrow.
+I successfully generated \$90M in Q2 revenue for Soho House through a fake Hinge profile, and I have a \$50k call option position going into earnings tomorrow.
 
 Thoughts?
 
