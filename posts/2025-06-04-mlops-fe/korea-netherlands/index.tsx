@@ -127,11 +127,11 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
       </div>
 
       <div className={styles.buttonGroup}>
-        <button className={styles.button} onClick={() => handleCityClick(52.3676, 4.9041)}>
+        <button type="button" className={styles.button} onClick={() => handleCityClick(52.3676, 4.9041)}>
           <span className={styles.emoji}>&#x1F1F3;&#x1F1F1;</span>
           <span className={styles.label}>{labels.netherlands}</span>
         </button>
-        <button className={styles.button} onClick={() => handleCityClick(37.5665, 126.978)}>
+        <button type="button" className={styles.button} onClick={() => handleCityClick(37.5665, 126.978)}>
           <span className={styles.emoji}>&#x1F1F0;&#x1F1F7;</span>
           <span className={styles.label}>{labels.korea}</span>
         </button>
