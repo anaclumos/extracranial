@@ -21,7 +21,7 @@ import { KoreaNetherlandsGlobe } from './korea-netherlands'
 
 이 때문에 클라우드로의 마이그레이션을 고민했으나, 클라우드를 사용함에 따른 별도의 번거로움이 제일 큰 문제였다. 일반적으로 클라우드에서는 가상 머신 생성, 학습 환경 설정, 모델 학습, 클라우드 스토리지 저장, 가상 머신 삭제의 순서를 거치는데, 이 과정 내내 과학자가 번거롭게 관리해 줘야 한다. 이뿐만이 아니라, 실험 결과 관리, 로그 모니터링, 오류 처리 등 추가적인 공수가 훨씬 더 많이 필요하다.
 
-이 과정을 자동화하기 위해 2021년 경부터 루닛에서는 INCL이라는 MLOps 플랫폼을 구축했다. 시중의 [Weight & Bias](https://wandb.ai/), [Vessl](https://vessl.ai/), [SkyPilot](https://github.com/skypilot-org/skypilot)과 유사하지만, 이를 의료AI 도메인에 맞추어 구축한 것. 일반 MLOps 플랫폼처럼 실험 코드와 추적할 지표 이름을 제공하기만 하면 자동으로 클라우드에서 실험을 진행하고 보기 좋은 그래프로 정리해준다. 덕분에 실험의 속도가 압도적으로 빨라질 수 있었고, 출시된지 4년 정도 지난 지금까지 약 800만개의 실험이 일어났다. 이에 대해서 궁금하다면 [루닛의 공식 블로그 포스트](https://medium.com/lunit/intelligent-cloud-part-1-introduction-to-lunits-cloud-deep-learning-platform-for-efficient-94fd2da2a3f2) 또는 내 [요약본](.//ko/r/FC0D3A)을 참고해보자.
+이 과정을 자동화하기 위해 2021년 경부터 루닛에서는 INCL이라는 MLOps 플랫폼을 구축했다. 시중의 [Weight & Bias](https://wandb.ai/), [Vessl](https://vessl.ai/), [SkyPilot](https://github.com/skypilot-org/skypilot)과 유사하지만, 이를 의료AI 도메인에 맞추어 구축한 것. 일반 MLOps 플랫폼처럼 실험 코드와 추적할 지표 이름을 제공하기만 하면 자동으로 클라우드에서 실험을 진행하고 보기 좋은 그래프로 정리해준다. 덕분에 실험의 속도가 압도적으로 빨라질 수 있었고, 출시된지 4년 정도 지난 지금까지 약 800만개의 실험이 일어났다. 이에 대해서 궁금하다면 [루닛의 공식 블로그 포스트](https://medium.com/lunit/intelligent-cloud-part-1-introduction-to-lunits-cloud-deep-learning-platform-for-efficient-94fd2da2a3f2) 또는 내 [요약본](/ko/r/FC0D3A)을 참고해보자.
 
 :::note
 
