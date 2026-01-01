@@ -15,8 +15,8 @@ MinsaPay is a payment system that was built for the Minjok Summer Festival. It w
 
 - Number of Users: **~400**
 - Number of Transactions: **~2900**
-- Total Payment Amount: **~$4,000 USD** (₩4,604,210 KRW)
-- Total Transaction Amount: **~$14,400 USD** (₩17,319,300 KRW)
+- Total Payment Amount: **~\$4,000 USD** (₩4,604,210 KRW)
+- Total Transaction Amount: **~\$14,400 USD** (₩17,319,300 KRW)
 
 - [GitHub - minsapay/server: Payment server & web app for KMLA Minjok Festival (Summer Festival)](https://github.com/minsapay/server)
 - [GitHub - minsapay/transaction-data-2019: Transaction Data of MinsaPay 2019](https://github.com/minsapay/transaction-data-2019)
@@ -111,7 +111,7 @@ Remember that one of the concerns was about the server going down?
 On the festival day, senior students had to self-study at school. Then at one moment, I found my phone had several missed calls. **The server went down**. I rushed to the festival and sat in a corner, gasping and trying to find the reason. Finally, I realized the server was intact, but the database was not responding.  
 It was an absurd problem. (Well, no problem is absurd, per se, but we couldn't hide our disappointment after figuring out the reason.) We thought the free plan would be more than enough when we constructed our database. However, the payment requests surged and exceeded the database free tier. So we purchased a $9.99 plan, and the database went back to work. It was one of the most nerve-wracking events I ever had.
 
-![The moment of upgrading the database plan. $10 can cause such chaos!](E4714F.png)
+![The moment of upgrading the database plan. \$10 can cause such chaos!](E4714F.png)
 
 While the server was down, each booth made a spreadsheet and wrote down who needed to pay how much. Afterward, we settled the problem by opening a new booth for making deferred payments.
 

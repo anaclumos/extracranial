@@ -144,10 +144,10 @@ Cost example (1keps, 2M MAU):
 
 | Service       | Tier                         | Est. cost          |
 | ------------- | ---------------------------- | ------------------ |
-| Vercel        | Hobby → Pro                  | $20 - $55          |
+| Vercel        | Hobby → Pro                  | \$20 - \$55          |
 | Upstash Redis | Fixed‑price 100req/s + 3GB   | $50                |
 | Neon Postgres | 1GB storage, auto‑scale‑to‑0 | $30                |
-| **Total (≈)** |                              | **$100 - $135/mo** |
+| **Total (≈)** |                              | **\$100 - \$135/mo** |
 
 ---
 
