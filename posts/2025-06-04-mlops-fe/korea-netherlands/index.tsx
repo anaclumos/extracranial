@@ -1,12 +1,14 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
-import { Card, CardContent } from '@/components/ui/card'
-import { cn } from '@/lib/utils'
 import createGlobe from 'cobe'
 import { useEffect, useRef } from 'react'
+import styles from './index.module.css'
 
-export const KoreaNetherlandsGlobe = () => {
+type Props = {
+  lang?: 'ko' | 'en'
+}
+
+export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   const pointerDown = useRef(false)
@@ -82,7 +84,6 @@ export const KoreaNetherlandsGlobe = () => {
     startY.current = clientY
     startPhi.current = targetPhi.current
     startTheta.current = targetTheta.current
-    if (canvasRef.current) canvasRef.current.style.cursor = 'grabbing'
   }
 
   const handlePointerMove = (clientX: number, clientY: number) => {
@@ -96,40 +97,44 @@ export const KoreaNetherlandsGlobe = () => {
 
   const handlePointerUp = () => {
     pointerDown.current = false
-    if (canvasRef.current) canvasRef.current.style.cursor = 'grab'
   }
 
   const handleCityClick = (lat: number, lng: number) => {
     ;[targetPhi.current, targetTheta.current] = toAngles(lat, lng)
   }
 
+  const labels = {
+    netherlands: lang === 'ko' ? '네덜란드 · 암스테르담' : 'Netherlands · Amsterdam',
+    korea: lang === 'ko' ? '대한민국 · 서울' : 'South Korea · Seoul',
+  }
+
   return (
-    <div className="relative mx-auto w-full max-w-2xl">
-      <Card className="overflow-hidden">
-        <CardContent className="p-0">
-          <div className="relative aspect-square w-full">
+    <div className={styles.container}>
+      <div className={styles.card}>
+        <div className={styles.cardContent}>
+          <div className={styles.canvasWrapper}>
             <canvas
-              className={cn('absolute inset-0 h-full w-full cursor-grab transition-opacity duration-500')}
+              className={styles.canvas}
               onPointerDown={(e) => handlePointerDown(e.clientX, e.clientY)}
               onPointerLeave={handlePointerUp}
               onPointerMove={(e) => handlePointerMove(e.clientX, e.clientY)}
               onPointerUp={handlePointerUp}
               ref={canvasRef}
-              style={{ contain: 'layout style paint', opacity: 0 }}
+              style={{ opacity: 0 }}
             />
           </div>
-        </CardContent>
-      </Card>
+        </div>
+      </div>
 
-      <div className="mt-6 flex justify-center gap-3">
-        <Button onClick={() => handleCityClick(52.3676, 4.9041)} variant="outline">
-          <span className="text-xl">🇳🇱</span>
-          <span className="text-sm">Netherlands · Amsterdam</span>
-        </Button>
-        <Button onClick={() => handleCityClick(37.5665, 126.978)} variant="outline">
-          <span className="text-xl">🇰🇷</span>
-          <span className="text-sm">South Korea · Seoul</span>
-        </Button>
+      <div className={styles.buttonGroup}>
+        <button className={styles.button} onClick={() => handleCityClick(52.3676, 4.9041)}>
+          <span className={styles.emoji}>&#x1F1F3;&#x1F1F1;</span>
+          <span className={styles.label}>{labels.netherlands}</span>
+        </button>
+        <button className={styles.button} onClick={() => handleCityClick(37.5665, 126.978)}>
+          <span className={styles.emoji}>&#x1F1F0;&#x1F1F7;</span>
+          <span className={styles.label}>{labels.korea}</span>
+        </button>
       </div>
     </div>
   )
