@@ -5,10 +5,8 @@ import styles from './styles.module.css'
 
 export default function BlogPostItemHeader(): JSX.Element {
   return (
-    <header className={styles['blog-post-item-header']}>
-      <BlogPostItemHeaderTitle
-        className={styles['blog-post-item-header-title']}
-      />
+    <header className={styles.blogPostItemHeader}>
+      <BlogPostItemHeaderTitle className={styles.blogPostItemHeaderTitle} />
       <BlogPostItemHeaderInfo />
     </header>
   )

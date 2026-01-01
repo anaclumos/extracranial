@@ -134,8 +134,8 @@ code {
   padding: 0.5rem;
   border-radius: var(--border-radius);
   transition:
-    filter 0.2s ease-in-out,
-    background-color 0.2s ease-in-out;
+    filter var(--transition-fast),
+    background-color var(--transition-fast);
 }
 
 .table-of-contents__link:hover,
@@ -207,11 +207,11 @@ figcaption {
   text-align: center;
   margin: 0 auto 0.5rem;
   font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-700);
+  color: var(--color-text-subtle);
 }
 
 hr {
-  border: 1px solid var(--ifm-color-emphasis-200);
+  border: 1px solid var(--color-border);
 }
 
 table {
@@ -222,7 +222,7 @@ table {
 
 [data-theme="dark"] img {
   filter: brightness(0.7);
-  transition: filter 0.2s ease-in-out;
+  transition: filter var(--transition-fast);
 }
 
 .navbar__logo > img {
@@ -243,7 +243,7 @@ table {
 
 .pagination-nav__link {
   border: 2px solid var(--ifm-menu-color-background-active);
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color var(--transition-fast);
 }
 
 .pagination-nav__link:hover,
@@ -259,7 +259,7 @@ table {
 
 .pagination-nav__sublabel {
   font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-400);
+  color: var(--color-text-muted);
 }
 
 .pagination-nav__label {

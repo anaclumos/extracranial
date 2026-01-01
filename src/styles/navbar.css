@@ -7,7 +7,7 @@
   width: 24px;
   height: 24px;
   display: flex;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity var(--transition-fast);
   background: url("/icons/github.svg") no-repeat center;
 }
 
@@ -24,7 +24,7 @@
   width: 24px;
   height: 24px;
   display: flex;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity var(--transition-fast);
   background: url("/icons/linkedin.svg") no-repeat center;
 }
 
