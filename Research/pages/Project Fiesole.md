@@ -69,7 +69,9 @@ I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four c
 
 <details>
 <summary>Round Robin, 10 cycles</summary>
+
 Still around 92%, max. Never goes above 95%.
+
 </details>
 
 ## Federated Learning
