@@ -9,7 +9,7 @@
 
 .backlinkTableH2 {
   font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-400);
+  color: var(--color-text-muted);
 }
 
 .backlinkGridView {
@@ -28,7 +28,7 @@
 
 .backlinkItem {
   border-radius: var(--border-radius);
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color var(--transition-fast);
 }
 
 .backlinkItem:hover {
@@ -43,7 +43,7 @@
   font-family: var(--ifm-font-family-san-serif);
   font-size: 0.8rem;
   white-space: pre-wrap;
-  color: var(--ifm-color-emphasis-700);
+  color: var(--color-text-subtle);
   margin: 0;
 }
 
@@ -53,5 +53,5 @@
 
 .noBacklink {
   font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-700);
+  color: var(--color-text-subtle);
 }
