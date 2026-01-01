@@ -7,7 +7,7 @@ slug: '/000000'
 I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research. In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes [[Memex]] as
 
 ```
-an electromechanical device enabling individuals
+* an electromechanical device enabling individuals
 * to develop comprehensive research libraries
 * to create and follow associative trails of links and annotations
 * to recall these trails at any time
@@ -20,12 +20,12 @@ Therefore, this website is
 
 ```diff
 + A practical implementation of
-an electromechanical device enabling individuals
+* an electromechanical device enabling individuals
 * to develep comprehensive research libraries
 * to create and follow associative trails of links and annotations
 * to recall these trails at any time
 * to share them with other researchers
-+ * in order to contain every single idea of Sunghyun Cho
++ in order to contain every single idea of Sunghyun Cho
 ```
 
 Thus, the name [[Extracranial]], -- **The Exosuit for [[Superbrain|Superbrains]]**.
