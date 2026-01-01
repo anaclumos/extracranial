@@ -567,3 +567,444 @@ article a[href*="archive.org"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/internetarchive.svg");
 }
+
+/* === AI & ML Platforms === */
+article a[href*="perplexity.ai"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/perplexity.svg");
+}
+
+article a[href*="kaggle.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kaggle.svg");
+}
+
+article a[href*="wandb.ai"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/weightsandbiases.svg");
+}
+
+article a[href*="replicate.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/replicate.svg");
+}
+
+article a[href*="ai.google"]::before,
+article a[href*="gemini.google.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlegemini.svg");
+}
+
+/* === More Git Platforms === */
+article a[href*="bitbucket.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bitbucket.svg");
+}
+
+/* === Developer Tools & IDEs === */
+article a[href*="code.visualstudio.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/visualstudiocode.svg");
+}
+
+article a[href*="jetbrains.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jetbrains.svg");
+}
+
+article a[href*="cursor.sh"]::before,
+article a[href*="cursor.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cursor.svg");
+}
+
+article a[href*="zed.dev"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/zedindustries.svg");
+}
+
+article a[href*="brew.sh"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/homebrew.svg");
+}
+
+/* === More Google Services === */
+article a[href*="firebase.google.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/firebase.svg");
+}
+
+article a[href*="play.google.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googleplay.svg");
+}
+
+article a[href*="maps.google"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlemaps.svg");
+}
+
+article a[href*="scholar.google"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlescholar.svg");
+}
+
+article a[href*="analytics.google"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googleanalytics.svg");
+}
+
+/* === Databases & Infrastructure === */
+article a[href*="mongodb.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mongodb.svg");
+}
+
+article a[href*="postgresql.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/postgresql.svg");
+}
+
+article a[href*="redis.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/redis.svg");
+}
+
+article a[href*="elastic.co"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/elastic.svg");
+}
+
+article a[href*="nginx.com"]::before,
+article a[href*="nginx.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/nginx.svg");
+}
+
+/* === Testing Frameworks === */
+article a[href*="jestjs.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jest.svg");
+}
+
+article a[href*="playwright.dev"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/playwright.svg");
+}
+
+article a[href*="cypress.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cypress.svg");
+}
+
+/* === More Frameworks & Languages === */
+article a[href*="remix.run"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/remix.svg");
+}
+
+article a[href*="nuxt.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/nuxtdotjs.svg");
+}
+
+article a[href*="flutter.dev"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/flutter.svg");
+}
+
+article a[href*="dart.dev"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dart.svg");
+}
+
+article a[href*="swift.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/swift.svg");
+}
+
+article a[href*="kotlinlang.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kotlin.svg");
+}
+
+article a[href*="ruby-lang.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ruby.svg");
+}
+
+article a[href*="prisma.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/prisma.svg");
+}
+
+article a[href*="orm.drizzle.team"]::before,
+article a[href*="drizzle.team"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/drizzle.svg");
+}
+
+/* === Communication === */
+article a[href*="telegram.org"]::before,
+article a[href*="t.me"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg");
+}
+
+article a[href*="whatsapp.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/whatsapp.svg");
+}
+
+article a[href*="zoom.us"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/zoom.svg");
+}
+
+article a[href*="signal.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/signal.svg");
+}
+
+/* === More Social Platforms === */
+article a[href*="bsky.app"]::before,
+article a[href*="bsky.social"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bluesky.svg");
+}
+
+article a[href*="tiktok.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tiktok.svg");
+}
+
+article a[href*="twitch.tv"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitch.svg");
+}
+
+article a[href*="pinterest.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pinterest.svg");
+}
+
+/* === Documentation Platforms === */
+article a[href*="readthedocs.io"]::before,
+article a[href*="readthedocs.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/readthedocs.svg");
+}
+
+article a[href*="gitbook.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitbook.svg");
+}
+
+article a[href*="docusaurus.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/docusaurus.svg");
+}
+
+/* === Payments & Commerce === */
+article a[href*="stripe.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/stripe.svg");
+}
+
+article a[href*="paypal.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/paypal.svg");
+}
+
+article a[href*="gumroad.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gumroad.svg");
+}
+
+/* === CI/CD === */
+article a[href*="circleci.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/circleci.svg");
+}
+
+article a[href*="travis-ci.com"]::before,
+article a[href*="travis-ci.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/travisci.svg");
+}
+
+/* === Design Tools === */
+article a[href*="adobe.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobe.svg");
+}
+
+article a[href*="sketch.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/sketch.svg");
+}
+
+/* === Gaming & Creative === */
+article a[href*="steampowered.com"]::before,
+article a[href*="store.steampowered.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/steam.svg");
+}
+
+article a[href*="unity.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/unity.svg");
+}
+
+article a[href*="unrealengine.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/unrealengine.svg");
+}
+
+/* === News Websites === */
+article a[href*="techcrunch.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/techcrunch.svg");
+}
+
+article a[href*="arstechnica.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/arstechnica.svg");
+}
+
+article a[href*="hackernoon.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/hackernoon.svg");
+}
+
+article a[href*="nytimes.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/newyorktimes.svg");
+}
+
+article a[href*="washingtonpost.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/thewashingtonpost.svg");
+}
+
+article a[href*="bbc.com"]::before,
+article a[href*="bbc.co.uk"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bbc.svg");
+}
+
+article a[href*="cnn.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cnn.svg");
+}
+
+article a[href*="theguardian.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/theguardian.svg");
+}
+
+article a[href*="axios.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/axios.svg");
+}
+
+article a[href*="engadget.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/engadget.svg");
+}
+
+article a[href*="buzzfeed.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/buzzfeed.svg");
+}
+
+article a[href*="vox.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vox.svg");
+}
+
+article a[href*="digg.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/digg.svg");
+}
+
+/* === News Aggregators & Readers === */
+article a[href*="news.apple.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/applenews.svg");
+}
+
+article a[href*="news.google.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlenews.svg");
+}
+
+article a[href*="getpocket.com"]::before,
+article a[href*="pocket.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pocket.svg");
+}
+
+article a[href*="flipboard.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/flipboard.svg");
+}
+
+article a[href*="feedly.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/feedly.svg");
+}
+
+article a[href*="inoreader.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/inoreader.svg");
+}
+
+/* === Newsletter Platforms === */
+article a[href*="mailchimp.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mailchimp.svg");
+}
+
+article a[href*="kit.com"]::before,
+article a[href*="convertkit.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kit.svg");
+}
+
+article a[href*="brevo.com"]::before,
+article a[href*="sendinblue.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/brevo.svg");
+}
+
+article a[href*="campaignmonitor.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/campaignmonitor.svg");
+}
+
+article a[href*="hubspot.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/hubspot.svg");
+}
+
+article a[href*="mailgun.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mailgun.svg");
+}
+
+article a[href*="mailtrap.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mailtrap.svg");
+}
+
+/* === RSS === */
+article a[href$=".rss"]::before,
+article a[href$="/rss"]::before,
+article a[href$="/feed"]::before,
+article a[href*="/rss.xml"]::before,
+article a[href*="/feed.xml"]::before,
+article a[href*="/atom.xml"]::before {
+  content: "\00a0";
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/rss.svg");
+}
