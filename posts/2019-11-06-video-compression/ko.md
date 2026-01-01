@@ -73,7 +73,7 @@ B-Frame도 P-Frame처럼 Motion Vector와 예측 보정을 위한 변환값들�
 
 `Python`과 `FFmpeg` 라이브러리를 활용해 뮤직비디오 내 I-Frame을 손상시켜 인위적으로 유체이탈 현상을 발생시켰다.
 
-import YouTube from '@site/src/components/YouTube'
+import YouTube from '@site/src/components/youtube'
 
 <YouTube id="ND60AIQg4bQ"/>
 

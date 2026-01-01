@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/4FEFA9'
 aliases: ['Vocabulary', '단어', '어휘', '단어들', '어휘들', '사자성어', '고사성어', '영단어']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

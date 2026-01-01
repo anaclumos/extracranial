@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/E67A4F'
 aliases: ['Vector Graphics']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

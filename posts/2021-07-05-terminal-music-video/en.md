@@ -7,8 +7,8 @@ slug: '/AF848F'
 
 <!-- truncate -->
 
-import YouTube from '@site/src/components/YouTube'
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import YouTube from '@site/src/components/youtube'
+import DisplayFlex from '@site/src/components/display-flex'
 
 OK — I admit.
 The title is slightly misleading.

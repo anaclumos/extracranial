@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/3C98AC'
 aliases: ['코브라 효과', 'Cobra Effect']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

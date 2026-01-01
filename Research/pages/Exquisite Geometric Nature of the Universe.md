@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/6B3AC8'
 aliases: ['우주의 정교한 기하학적 성질', 'exquisite geometric property of the universe']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

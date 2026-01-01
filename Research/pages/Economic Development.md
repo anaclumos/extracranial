@@ -15,6 +15,7 @@ aliases:
     'economic growth',
   ]
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

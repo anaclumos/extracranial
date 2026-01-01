@@ -195,7 +195,7 @@ Then I needed to integrate with Apple Music's API.
 I previously made a technical demo with Spotify's API at the beginning of 2021.
 Spotify officially has a Now Playing API, so naturally, I expected a similar Now Playing API at Apple Music.
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 <DisplayFlex>
 

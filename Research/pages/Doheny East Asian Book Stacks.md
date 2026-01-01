@@ -3,6 +3,7 @@ lang: 'ko'
 slug: '/567E18'
 aliases: ['동헤니', '도헤니', 'Doheny', '동아시아관', '도서관 동아시아관']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

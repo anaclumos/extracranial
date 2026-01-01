@@ -204,7 +204,7 @@ export type DynamicIslandSize =
 2021년 초에 Spotify를 이용해서 기술 시연을 완성한 적이 있다.
 Spotify에는 Now Playing API가 공식적으로 존재한다. 비슷하게 Apple Music도 Now Playing API가 있을 것이라고 생각했다.
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 <DisplayFlex>
 

@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/53392B'
 aliases: ['풋 옵션', '풋옵션']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

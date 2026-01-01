@@ -9,7 +9,7 @@ slug: '/5ADC58'
 <!-- truncate -->
 
 import Admonition from '@theme/Admonition';
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 ![ALT: Bing Chat for All Browsers. Verified at cho.sh. Featured on Chrome Web Store. Productivity. 200,000+ Users.](4986BD.png)
 

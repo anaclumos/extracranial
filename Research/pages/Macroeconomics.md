@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/ECCCA7'
 aliases: ['거시경제', '거경', '거시경제학', '거시 경제학', '거시 경제', '거시']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

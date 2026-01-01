@@ -5,7 +5,7 @@ slug: '/DD7F2D'
 
 ![[2A7F74.png]]
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 <DisplayFlex>
 

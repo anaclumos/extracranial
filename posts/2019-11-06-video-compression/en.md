@@ -73,7 +73,7 @@ If you still don't understand, check it out with your own eyes. Using a commerci
 
 Using `Python` and `FFmpeg` libraries, the I-Frame in the music video was damaged to cause the ghosting artificially.
 
-import YouTube from '@site/src/components/YouTube'
+import YouTube from '@site/src/components/youtube'
 
 <YouTube id="ND60AIQg4bQ"/>
 

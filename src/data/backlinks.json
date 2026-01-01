@@ -827,7 +827,6 @@
   "2022-10-04": {
     "Letter to Mr. Matt Rickard on 2022-10-03": "## Follow-up on [[2022-10-04]]"
   },
-  "2022-10-06": {},
   "2022-10-07": {},
   "2022-10-08": {},
   "2022-10-10": {},
@@ -1944,23 +1943,16 @@
   "2025-08-21": {},
   "2025-08-23": {},
   "2025-08-25": {},
-  "2025-08-26": {},
-  "2025-08-27": {},
-  "2025-08-29": {},
   "2025-08-31": {},
   "2025-09-01": {
     "Hypany": "## [[2025-09-01]]"
   },
-  "2025-09-02": {},
   "2025-09-04": {},
-  "2025-09-05": {},
   "2025-09-06": {},
   "2025-09-07": {},
   "2025-09-10": {},
-  "2025-09-12": {},
   "2025-09-13": {},
   "2025-09-15": {},
-  "2025-09-16": {},
   "2025-09-19": {},
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
@@ -3372,9 +3364,6 @@
   "837555.jpg": {
     "2022-10-15": "![[837555.jpg]]",
     "Dynamic Island on the Web": "![[837555.jpg]]"
-  },
-  "837F65.png": {
-    "2025-08-31": "![[837F65.png]]"
   },
   "83C5B9.png": {
     "기술 발전의 속도": "![[83C5B9.png]]"
@@ -8125,24 +8114,6 @@
     "Super App is a Universal Chat App": "... main target of Signal and [[Firefox]] are people who are flexible ...",
     "WebExtension": "... such as [[Chrome|Google Chrome]], Mozilla [[Firefox]], and Microsoft Edge, support the ..."
   },
-  "Firefox                                                         ": {
-    "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 5년전 버그를 수정하여 디펜더를 통해 [[Firefox                                                         | 파이어폭스]]의 CPU 사용량을 줄였습니다. |"
-  },
-  "Firefox                                                                   ": {
-    "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 마이크로소프트, 5년전 디펜더 버그 수정으로 [[Firefox                                                                   | 파이어폭스]] CPU 사용량 75% 감소 | ..."
-  },
-  "Firefox                                                                         ": {
-    "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 5년 된 디펜더 버그를 수정하여 [[Firefox                                                                         | 파이어폭스]] CPU 사용량을 줄였습니다. | 마이크로소프트가 ..."
-  },
-  "Firefox                                                                            ": {
-    "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 5년 된 디펜더 버그 수정으로 [[Firefox                                                                            | 파이어폭스]] 관련 CPU 사용량 75% 감소 ..."
-  },
-  "Firefox                                                                                                        ": {
-    "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 비판과 제안. | 크롬과 비교하여 [[Firefox                                                                                                        | 파이어폭스]]의 높은 CPU 사용량에 대한 비판과 ..."
-  },
-  "Firefox                                                                                                                 ": {
-    "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... 절약할 수 있습니다. | 맥에서 [[Firefox                                                                                                                 | 파이어폭스]]에서 유튜브의 \"앰비언트 모드\"를 끄면 CPU ..."
-  },
   "Firefox Compact Menu Bar": {
     "2024-07-17": "- [[Firefox Compact Menu Bar]]"
   },
@@ -8221,9 +8192,6 @@
   "Frames Per Second": {
     "2022-10-10": "... AC's & DIT's - Cinematography.com](https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454). [[Frames Per Second]].",
     "Graphics Engine Process": "... to 16ms, which yields 60 [[Frames Per Second]]."
-  },
-  "Framework Computer": {
-    "The Get-Shit-Done Computer": "... months hard, to use my [[Framework Computer]]."
   },
   "Freedom of Speech and Regulation of Fake News": {
     "Regulation of Fake News": "- [[Freedom of Speech and Regulation of Fake News]]"
@@ -10209,7 +10177,6 @@
     "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": "... 응원을 보내고 싶습니다. 제게 이렇게 [[Mail|이메일]]을 보내는 결정을 내려주신 점에 감사드립니다. ...",
     "프로젝트 어덕행덕": "... - 그래서 학생 할인은 없냐고 [[Mail|메일]]로 물어봄"
   },
-  "Majority Element": {},
   "Make GPT Print LaTeX": {
     "Grammarly Work Note 2023-06-23": "- [[Make GPT Print LaTeX]]"
   },
@@ -14354,8 +14321,6 @@
   "Unsemantic": {
     "2022-12-20": "- [[Unsemantic]]"
   },
-  "Untitled": {},
-  "Untitled 1": {},
   "Updating Listmonk": {
     "2023-08-11": "- [[Updating Listmonk]]"
   },
@@ -14666,6 +14631,7 @@
     "Chrome": "... sandboxing feature that isolates each [[Web Browser|browser]] tab to prevent malicious code ...",
     "Confectionery": "> A minimalistic [[Web Browser|browser]] without the clutter of standard ...",
     "DRM": "... the instance of [[Chrome]], the [[Web Browser|browser]] doesn't implement the DRM itself, ...",
+    "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... users discuss energy efficiency of [[Web Browser]], ad-blockers, browser compatibility on Windows. ...",
     "Downloading Any Recordings from Zoom": "... through the chat list--open the [[Web Browser|browser]] console.",
     "Dynamic Viewport Units": "... update at 60fps. In all [[Web Browser|browsers]] updating is throttled as the ...",
     "Finding out Ghost version with JS": "... before responding to the client [[Web Browser|browser]], but I figured that there ...",
@@ -14691,9 +14657,6 @@
     "Web Typography": "... fallback [[font]], such as a [[Web Browser|browser]]'s default sans-serif or monospace [[font]], ...",
     "WebExtension": "... platforms. In addition, many popular [[Web Browser|web browsers]], such as [[Chrome|Google Chrome]], Mozilla ...",
     "jQuery": "... works across a multitude of [[Web Browser|browsers]]."
-  },
-  "Web Browser                                                                                                              ": {
-    "DeepL vs. GPT 3.5 vs. GPT 4 벤치마크": "... users discuss energy efficiency of [[Web Browser                                                                                                              | web browsers]], ad-blockers, browser compatibility on Windows. ..."
   },
   "Web Graphics": {
     "2022-10-25": "- [[Web Graphics]]",
@@ -15147,7 +15110,7 @@
     "Porting a Chrome Extension to Firefox Add-on": "... handy website to check the [[chrome]] incompatibilities."
   },
   "clean energy": {
-    "Nuclear Fusion": "- The [[clean energy]] solution has attracted about $2.8bn ..."
+    "Nuclear Fusion": "- The [[clean energy]] solution has attracted about \\$2.8bn ..."
   },
   "cloud computing": {
     "AI-native": "... of [[cloud-native]] development. It uses [[cloud computing]] infrastructure, services, and tools to ...",
@@ -16357,7 +16320,7 @@
     "WebExtension": "... that adds functionality to a [[web browser]]. It's a type of [[Web ..."
   },
   "web3": {
-    "Ethereum RPC as a Service": "... the more profitable and real [[web3]] businesses. There's Alchemy ($10.2B valuation, ..."
+    "Ethereum RPC as a Service": "... the more profitable and real [[web3]] businesses. There's Alchemy (\\$10.2B valuation, ..."
   },
   "webserver": {
     "Port": "- [[webserver]] → 80"
@@ -16384,19 +16347,6 @@
     "2022-06-12": "- [[水適穿石]]",
     "2022-10-31": "- [[水適穿石]]",
     "2022년 11월 한 달간 일기 쓰기": "- [[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
-    "2025-08-26": "## [[水適穿石]]",
-    "2025-08-27": "## [[水適穿石]]",
-    "2025-08-29": "## [[水適穿石]]",
-    "2025-08-31": "## [[水適穿石]]",
-    "2025-09-01": "## [[水適穿石]]",
-    "2025-09-02": "## [[水適穿石]]",
-    "2025-09-04": "## [[水適穿石]]",
-    "2025-09-05": "## [[水適穿石]]",
-    "2025-09-06": "## [[水適穿石]]",
-    "2025-09-10": "## [[水適穿石]]",
-    "2025-09-12": "## [[水適穿石]]",
-    "2025-09-16": "## [[水適穿石]]",
-    "2025-09-19": "## [[水適穿石]]",
     "Cosmic noises of life": "- [[水適穿石|Persistence]] is the key",
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
     "Jog 25 minutes (Jan-Feb 24誠鉉)": "[[水適穿石|물방울로 바위 뚫는]] [[Project|프로젝트]]",
@@ -17513,7 +17463,7 @@
     "2023-07-25": "- [[지름길과 돌파구 (15誠鉉)]]",
     "誠鉉": "- [[지름길과 돌파구 (15誠鉉)]]",
     "기술 유출": "나는 그 [[지름길과 돌파구 (15誠鉉)|돌파구]]를 국가보안법에서 찾았다.",
-    "성현적 발상": "Somewhat based on [[지름길과 돌파구 (15誠鉉)]], only in some cases."
+    "성현적 발상": "일부 경우에는 [[지름길과 돌파구 (15誠鉉)]]에 기반하고 있다."
   },
   "창의는 평온에서 나온다": {
     "2023-04-05": "[[창의는 평온에서 나온다]]"

@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/214F64'
 aliases: ['핵융합 분자프린터', '핵융합 분자 프린터']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

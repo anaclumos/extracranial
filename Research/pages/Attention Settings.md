@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/B3A193'
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 
@@ -13,7 +14,7 @@ If you own the rights to the materials and want them unpublished, please contact
 
 :::
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 <Tabs groupId="lang">
 <TabItem value="en" label="English" default>
@@ -411,4 +412,3 @@ iOS는 사용자들에게 주의력을 산만하게 하는 앱들을 계속하�
 
 </TabItem>
 </Tabs>
-

@@ -9,7 +9,7 @@ slug: '/A370F3'
 <!-- truncate -->
 
 import Admonition from '@theme/Admonition';
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 I worked as a full-time Mini App researcher intern at Karrot (Korean Unicorn Company 🇰🇷🦄).
 This is what I found and learned from it.

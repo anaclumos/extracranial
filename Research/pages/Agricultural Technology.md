@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/EA7C15'
 aliases: ['Agritech', '애그리테크']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 
