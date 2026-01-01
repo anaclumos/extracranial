@@ -1,34 +1,30 @@
 import { translate } from '@docusaurus/Translate'
-import React, { JSX } from 'react'
 import Admonition from '@theme/Admonition'
-type Props = {
-  state: 'translating' | undefined
+
+interface WIPProps {
+  state?: 'translating'
 }
 
-const title = translate({ message: 'Work in Progress' })
-const wip = translate({
-  message: 'Work in Progress. Check back later.',
-})
-const second = translate({
-  message: 'I wrote this post in another language. I did not translate it to other languages yet.',
-})
-const third = translate({
-  message: 'If you speak different languages, look for this post in that language.',
-})
+const TRANSLATIONS = {
+  title: translate({ message: 'Work in Progress' }),
+  wip: translate({ message: 'Work in Progress. Check back later.' }),
+  translating: translate({
+    message: 'I wrote this post in another language. I did not translate it to other languages yet.',
+  }),
+  languageHint: translate({
+    message: 'If you speak different languages, look for this post in that language.',
+  }),
+} as const
 
-const index = ({ state }: Props) => {
+export default function WIP({ state }: WIPProps) {
   return (
-    <Admonition type="info" title={title} icon="💬">
-      {!state && <p>{wip}</p>}
+    <Admonition type="info" title={TRANSLATIONS.title} icon="💬">
+      {!state && <p>{TRANSLATIONS.wip}</p>}
       {state === 'translating' && (
-        <>
-          <p>
-            {second} {third}
-          </p>
-        </>
+        <p>
+          {TRANSLATIONS.translating} {TRANSLATIONS.languageHint}
+        </p>
       )}
     </Admonition>
   )
 }
-
-export default index
