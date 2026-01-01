@@ -1,7 +1,7 @@
-import React, { useState, MouseEvent } from 'react'
+import { useState, type MouseEvent } from 'react'
 import styles from './index.module.css'
 
-type Props = {
+interface EmojiReplaceableTextProps {
   text: string
   emoji?: string
   photo?: string
@@ -11,10 +11,17 @@ type Props = {
   border?: boolean
 }
 
-const EmojiReplaceableText = (props: Props) => {
-  const { text, emoji, photo, showByDefault, border, photoAlt } = props
+export default function EmojiReplaceableText({
+  text,
+  emoji,
+  photo,
+  showByDefault,
+  border,
+  photoAlt,
+}: EmojiReplaceableTextProps) {
   const [showEmoji, setShowEmoji] = useState(showByDefault === 'emoji')
-  const handleClick = (e: MouseEvent<HTMLSpanElement, MouseEvent>) => {
+
+  const handleClick = (e: MouseEvent<HTMLSpanElement>) => {
     e.preventDefault()
     setShowEmoji(!showEmoji)
   }
@@ -45,5 +52,3 @@ const EmojiReplaceableText = (props: Props) => {
     </span>
   )
 }
-
-export default EmojiReplaceableText

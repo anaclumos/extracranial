@@ -1,16 +1,13 @@
-import React, { JSX } from 'react'
 import styles from './index.module.css'
 
-type Props = {
+interface YouTubeProps {
   id: string
 }
 
-const YouTube = ({ id }: Props) => {
+export default function YouTube({ id }: YouTubeProps) {
   return (
     <figure>
-      <iframe className={styles.youtube} title="YouTube" src={`https://www.youtube.com/embed/${id}`}></iframe>
+      <iframe className={styles.youtube} title="YouTube" src={`https://www.youtube.com/embed/${id}`} />
     </figure>
   )
 }
-
-export default YouTube

@@ -4,9 +4,22 @@
     "baseUrl": ".",
     "types": ["node", "react", "react-dom", "@docusaurus/module-type-aliases", "@docusaurus/theme-classic"],
     "lib": ["dom", "esnext"],
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "exactOptionalPropertyTypes": false,
+    "verbatimModuleSyntax": false,
+    "skipLibCheck": true,
     "paths": {
-      "@site/*": ["./*"]
+      "@site/*": ["./*"],
+      "@components/*": ["./src/components/*"],
+      "@theme/*": ["./src/theme/*"]
     }
   },
-  "exclude": ["node_modules", "build"]
+  "include": ["src", "config", "*.ts"],
+  "exclude": ["node_modules", "build", ".docusaurus"]
 }

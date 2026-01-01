@@ -28,6 +28,7 @@ However, many [[한국인|Koreans]] don't know or care about this space 😅.
 
 근데 많은 [[한국인]]들은 이 공간의 존재도 모르고 관심도 없다 😅
 
-</div>
+</TabItem>
+</Tabs>
 
 ![[9C3CA9.jpeg]]

@@ -18,7 +18,8 @@ Open Source Software Accelerationism (oss/acc) suggests a philosophy or movement
 
 오픈 소스 소프트웨어 가속주의(OSS/ACC)는 오픈 소스 소프트웨어 개발 방식을 통해 기술의 급속한 발전을 지지하는 철학 또는 운동을 말한다. [[효과적 가속주의]]에 기반한다.
 
-</div>
+</TabItem>
+</Tabs>
 
 <blockquote class="twitter-tweet">
 

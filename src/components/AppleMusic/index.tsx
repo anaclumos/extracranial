@@ -1,11 +1,10 @@
-import React, { JSX } from 'react'
 import styles from './index.module.css'
 
-type Props = {
+interface AppleMusicProps {
   url: string
 }
 
-const AppleMusicSong = ({ url }: Props) => {
+export default function AppleMusic({ url }: AppleMusicProps) {
   return (
     <iframe
       id="embedPlayer"
@@ -14,8 +13,6 @@ const AppleMusicSong = ({ url }: Props) => {
       sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
       allow="autoplay *; encrypted-media *; clipboard-write"
       className={styles.embedPlayer}
-    ></iframe>
+    />
   )
 }
-
-export default AppleMusicSong

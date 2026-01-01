@@ -1,4 +1,3 @@
-import React, { JSX, useId } from 'react'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
@@ -26,7 +25,7 @@ const yearSuffix = translate({
   description: 'The suffix of a year in a blog archive',
 })
 
-type YearProp = {
+interface YearProp {
   year: string
   posts: ArchiveBlogPost[]
 }
@@ -41,7 +40,7 @@ function Year({ year, posts }: YearProp) {
       </h3>
       <ul className={styles.list}>
         {posts.map((post) => (
-          <Link key={useId()} to={post.metadata.permalink}>
+          <Link key={post.metadata.permalink} to={post.metadata.permalink}>
             <li className="text-balance">{post.metadata.title}</li>
           </Link>
         ))}
@@ -55,9 +54,9 @@ function YearsSection({ years }: { years: YearProp[] }) {
     <section className="margin-vert--lg">
       <div className={cn('container', styles.container)}>
         <div className="row">
-          {years.reverse().map((_props) => (
-            <div key={useId()} className="col col--4 margin-vert--md">
-              <Year {..._props} />
+          {years.reverse().map((yearProps) => (
+            <div key={yearProps.year} className="col col--4 margin-vert--md">
+              <Year {...yearProps} />
             </div>
           ))}
         </div>
