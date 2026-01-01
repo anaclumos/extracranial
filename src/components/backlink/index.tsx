@@ -34,13 +34,13 @@ function processBacklinkItem(text: string, title: string) {
     const regex1 = new RegExp(`\\[\\[${escapedTitle}\\|(.+?)\\]\\]`, 'gi')
     normalizedText = normalizedText.replace(
       regex1,
-      '<b class="text-[var(--ifm-color-emphasis-900)]">$1</b>'
+      '<b class="text-emphasis-strong">$1</b>'
     )
 
     const regex2 = new RegExp(`\\[\\[${escapedTitle}\\]\\]`, 'gi')
     normalizedText = normalizedText.replace(
       regex2,
-      `<b class="text-[var(--ifm-color-emphasis-900)]">${normalizedTitle}</b>`
+      `<b class="text-emphasis-strong">${normalizedTitle}</b>`
     )
 
     const regex3 = /\[\[(.+?)\|(.+?)\]\]/g
@@ -54,7 +54,7 @@ function processBacklinkItem(text: string, title: string) {
 
   return (
     <pre
-      className="m-0 whitespace-pre-wrap font-sans text-[var(--ifm-color-emphasis-700)] text-sm"
+      className="m-0 whitespace-pre-wrap font-sans text-muted text-sm"
       // biome-ignore lint/security/noDangerouslySetInnerHtml: Required for rendering highlighted backlinks
       dangerouslySetInnerHTML={{
         __html: normalizedText.trim(),
@@ -69,15 +69,15 @@ export default function Backlink({ documentTitle }: BacklinkProps) {
   const title = documentTitleEncoded
 
   return (
-    <div className="mt-[var(--ifm-spacing-vertical)] w-full rounded-[var(--ifm-pagination-nav-border-radius)] border-2 border-[var(--ifm-menu-color-background-active)] p-[var(--ifm-global-spacing)]">
-      <h3 className="text-[var(--ifm-color-emphasis-400)] text-sm">
+    <div className="mt-4 w-full rounded-lg border-2 border-menu-active p-4">
+      <h3 className="text-emphasis-subtle text-sm">
         {translate({
           id: 'backlink.title',
           message: 'Links to This Note',
           description: 'The title of the backlink section',
         })}
       </h3>
-      <div className="mx-auto my-4 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-2">
+      <div className="card-grid mx-auto my-4">
         {(backlinkItems &&
           Object.keys(backlinkItems)
             .sort()
@@ -96,16 +96,14 @@ export default function Backlink({ documentTitle }: BacklinkProps) {
               }
               return (
                 <Link className="hover:no-underline" key={backlink} to={link}>
-                  <div className="rounded-[var(--border-radius)] transition-colors duration-200 hover:bg-[var(--ifm-menu-color-background-active)]">
-                    <h3 className="m-0 p-[calc(var(--border-radius)/4)] pb-2 text-base">
-                      {backlinkTitle}
-                    </h3>
+                  <div className="rounded-theme transition-colors duration-200 hover:bg-menu-active">
+                    <h3 className="m-0 p-1 pb-2 text-base">{backlinkTitle}</h3>
                     {processBacklinkItem(backlinkContent, title)}
                   </div>
                 </Link>
               )
             })) || (
-          <p className="text-[var(--ifm-color-emphasis-700)] text-sm">
+          <p className="text-muted text-sm">
             {translate({
               id: 'backlink.noBacklink',
               message: 'Nothing here yet...',

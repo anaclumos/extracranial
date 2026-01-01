@@ -36,20 +36,11 @@ export class ErrorBoundary extends Component<
       }
 
       return (
-        <div
-          style={{
-            padding: '1rem',
-            border: '1px solid var(--ifm-color-danger)',
-            borderRadius: '4px',
-            backgroundColor: 'var(--ifm-color-danger-contrast-background)',
-          }}
-        >
-          <h3
-            style={{ color: 'var(--ifm-color-danger)', margin: '0 0 0.5rem 0' }}
-          >
+        <div className="rounded border border-red-500 bg-red-50 p-4 dark:bg-red-950">
+          <h3 className="m-0 mb-2 text-red-600 dark:text-red-400">
             Something went wrong
           </h3>
-          <p style={{ margin: 0, color: 'var(--ifm-color-content-secondary)' }}>
+          <p className="m-0 text-neutral-600 dark:text-neutral-400">
             {this.state.error?.message ?? 'An unexpected error occurred'}
           </p>
         </div>

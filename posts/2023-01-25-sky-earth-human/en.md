@@ -1,5 +1,5 @@
 ---
-title: "⌨️ Bringing Samsung's Korean Keyboard Experience to iPhones"
+title: "Bringing Samsung's Korean Keyboard Experience to iPhones"
 date: 2023-01-25
 description: "⌨️ Bringing Samsung's Korean Keyboard Experience to iPhones"
 authors: anaclumos

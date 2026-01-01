@@ -1,5 +1,5 @@
 ---
-title: '📼 RSS로 한 번에 백업하기'
+title: 'RSS로 한 번에 백업하기'
 date: 2020-04-21
 authors: anaclumos
 slug: '/21E029'

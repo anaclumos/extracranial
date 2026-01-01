@@ -54,7 +54,7 @@ function YearsSection({ years }: { years: YearProp[] }) {
       <div
         className={cn(
           'container',
-          'mx-auto max-w-[80%] px-4 max-2xl:max-w-[90%]'
+          'mx-auto max-w-4/5 px-4 max-2xl:max-w-11/12'
         )}
       >
         <div className="row">
@@ -102,7 +102,7 @@ export default function BlogArchive({ archive }: Props) {
           <div
             className={cn(
               'container',
-              'mx-auto w-full max-w-[80%] text-center max-2xl:max-w-[90%]'
+              'mx-auto w-full max-w-4/5 text-center max-2xl:max-w-11/12'
             )}
           >
             <h1 className="m-0 p-0 text-5xl">{title}</h1>

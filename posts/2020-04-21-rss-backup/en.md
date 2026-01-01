@@ -1,5 +1,5 @@
 ---
-title: '📼 Backup Everything at Once with RSS'
+title: 'Backup Everything at Once with RSS'
 date: 2020-04-21
 authors: anaclumos
 slug: '/21E029'

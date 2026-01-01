@@ -9,18 +9,18 @@ export default function BlogLayout(props: Props) {
 
   return (
     <Layout {...layoutProps}>
-      <div className="mx-auto my-8 max-w-[var(--ifm-container-width-xxl)] px-4">
+      <div className="mx-auto my-8 max-w-screen-2xl px-4">
         <div className="row">
           <BlogSidebar sidebar={sidebar} />
           <main
-            className={cn('col', 'max-w-prose', {
+            className={cn('col', {
               'col--6': hasSidebar,
               'col--9 col--offset-1': !hasSidebar,
             })}
             itemScope
             itemType="http://schema.org/Blog"
           >
-            {children}
+            <div className="max-w-prose">{children}</div>
           </main>
           {toc && <div className="col col--3">{toc}</div>}
         </div>
