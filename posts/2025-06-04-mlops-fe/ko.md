@@ -138,7 +138,7 @@ sequenceDiagram
 - 👎 번들 사이즈가 상대적으로 커짐
 
 <video width="640" height="360" loop muted autoPlay playsInline controls className="w-full h-auto">
-      <source src="./F70351.mp4" type="video/mp4" />
+      <source src={require('./F70351.mp4').default} type="video/mp4" />
       Your browser does not support the video tag.
 </video>
 
@@ -173,7 +173,7 @@ sequenceDiagram
 얼핏 보면 단순해보이지만 App Router의 Nested Layout 없이는 정말로 골치 아프다. 결국 Blitz.js 및 FlightControl.dev의 Brandon Bayer님의 [메시지](https://x.com/flybayer/status/1818009089735279057)를 통해 큰 도움을 얻었는데, 바로 `layout.tsx`에 콘텐츠를 넣고, `page.tsx`를 의도적으로 비워놓는 것이다.
 
 <video width="640" height="360" loop muted autoPlay playsInline controls className="w-full h-auto">
-      <source src="./5F8BA9.mp4" type="video/mp4" />
+      <source src={require('./5F8BA9.mp4').default} type="video/mp4" />
       Your browser does not support the video tag.
 </video>
 
