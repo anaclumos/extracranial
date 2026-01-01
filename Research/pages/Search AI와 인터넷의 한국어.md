@@ -6,7 +6,7 @@ slug: '/B1CED1'
 [[장승]]에 대한 정보를 찾아보려고 [[Bing]] [[ChatGPT]]에 검색을 해보았다.
 
 <details>
-<summary>전체 기록</summary>>
+<summary>전체 기록</summary>
 
 > 나무로 만들고 마을 앞에 있는게 뭐지
 

@@ -13,7 +13,7 @@ I was expecting:
 ![[209AF0.png]]
 
 <details>
-<summary>Think you're good at Django? Guess the answer!</summary>>
+<summary>Think you're good at Django? Guess the answer!</summary>
 
 ![[C782E0.png]]
 

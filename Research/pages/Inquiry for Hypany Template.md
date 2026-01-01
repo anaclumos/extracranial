@@ -14,7 +14,7 @@ Thus, smart-enough people run an _idea farm_ by **[pretotyping](https://www.pret
 I have been close with the product and founding space, but unfortunately I haven't seen a SaaS that fully automates this _idea farm_. Thus, I see a potential in this idea and would like to inquire a deal.
 
 <details>
-<summary>What does Hypany mean?</summary>>
+<summary>What does Hypany mean?</summary>
 
 It means three things.
 
@@ -68,7 +68,7 @@ Best,
 Sunghyun
 
 <details>
-<summary>Some random thoughts</summary>>
+<summary>Some random thoughts</summary>
 
 - Serial entrepreneur implies you guess the market. If you want to minimize the odds of failure you need to be a _parallel entrepreneur_. Or, [[think like a farmer]].
 - Hackathons also implies the judges and panels "know the market", which I think is arrogant of them. No one can know the market. If they know the market 100% they better be investing than founding.

@@ -9,7 +9,7 @@ aliases: ['Digital Brain', '디지털 브레인', '디지털브레인', '세컨�
 ### [[Stephan Ango]] [Link](https://stephanango.com)
 
 <details>
-<summary>Images</summary>>
+<summary>Images</summary>
 
 ![[EB6370.png]]
 ![[C82B1C.png]]
@@ -21,7 +21,7 @@ aliases: ['Digital Brain', '디지털 브레인', '디지털브레인', '세컨�
 Seems like using [[Svelte]]
 
 <details>
-<summary>Images</summary>>
+<summary>Images</summary>
 
 ![[53CB8D.png]]
 ![[1C6716.png]]
@@ -34,7 +34,7 @@ Seems like using [[Svelte]]
 ### [Younho9 Notes](https://notes.younho9.com/) by [younho9 (Younho Choo)](https://github.com/younho9)
 
 <details>
-<summary>Images</summary>>
+<summary>Images</summary>
 
 ![[030D1A.png]]
 ![[1541BC.png]]
@@ -44,7 +44,7 @@ Seems like using [[Svelte]]
 ### [기억보다 기록을](https://kyounghwan01.github.io) by [Kyounghwan01 (kyounghwan Noh)](https://github.com/Kyounghwan01)
 
 <details>
-<summary>Images</summary>>
+<summary>Images</summary>
 
 ![[EC5497.png]]
 
@@ -53,7 +53,7 @@ Seems like using [[Svelte]]
 ### [Everything I know](https://wiki.nikiv.dev/) by [nikitavoloboev (Nikita)](https://github.com/nikitavoloboev)
 
 <details>
-<summary>Images</summary>>
+<summary>Images</summary>
 
 ![[DA4882.png]]
 
