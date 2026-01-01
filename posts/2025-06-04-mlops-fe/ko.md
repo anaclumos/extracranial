@@ -106,8 +106,7 @@ sequenceDiagram
 
 ## 하이브리드
 
-<Mermaid
-  chart="
+```mermaid
 sequenceDiagram
     title Hybrid
     autonumber
@@ -128,8 +127,7 @@ sequenceDiagram
     클라이언트->>API: SWR 갱신 페치
     API->>클라이언트: 신규 데이터
     클라이언트->>클라이언트: UI 업데이트
-"
-/>
+```
 
 결과적으로 당시의 편법적인 방식으로 SWR의 폴백 데이터에 서버에서 온 씨드 데이터를 넣어주고, SWR의 초기 `isLoading` 값을 의도적으로 꺼주는 방식을 택했다. Next.js의 캐시 레이어를 활용해 Next.js 서버 컴포넌트에서 데이터를 넣어주고, Streaming SSR로 서버 컴포넌트 데이터를 즉각 SWR에 폴백 데이터로 전달하면, 번들 사이즈를 희생해 **서버 컴포넌트의 빠른 초기 로딩 속도와 SWR의 라이브 데이터를 모두 얻을 수 있다**.
 
