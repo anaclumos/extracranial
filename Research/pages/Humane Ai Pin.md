@@ -4,7 +4,7 @@ slug: '/A08921'
 aliases: ['Ai Pin']
 ---
 
-;
+import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <DisplayFlex>
 
