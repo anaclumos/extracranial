@@ -185,12 +185,9 @@ Prefer first‑party plugins and capabilities over custom wrappers.
 ❌ **Wrong (custom billing API when a plugin exists):**
 
 ```ts
-export const billingApi = new Elysia({ prefix: '/billing' }).post(
-  '/create-checkout-session',
-  async () => {
-    /* ... */
-  },
-)
+export const billingApi = new Elysia({ prefix: '/billing' }).post('/create-checkout-session', async () => {
+  /* ... */
+})
 ```
 
 ✅ **Right (Better Auth's Stripe plugin):**
@@ -210,20 +207,14 @@ From server code, hit the DB directly instead of hopping through your own HTTP.
 ❌ **Wrong:**
 
 ```tsx
-const response = await fetch(
-  `${process.env.NEXT_PUBLIC_URL}/api/v1/campaigns/${id}`,
-)
+const response = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/v1/campaigns/${id}`)
 const campaign = await response.json()
 ```
 
 ✅ **Right:**
 
 ```tsx
-const [campaign] = await db
-  .select()
-  .from(campaigns)
-  .where(eq(campaigns.id, id))
-  .limit(1)
+const [campaign] = await db.select().from(campaigns).where(eq(campaigns.id, id)).limit(1)
 ```
 
 ### Performance is Not Optional

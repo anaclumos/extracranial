@@ -1,5 +1,4 @@
-import React from 'react'
-import type { JSX } from 'react'
+import React, { JSX } from 'react'
 import styles from './index.module.css'
 
 type Props = {
@@ -9,14 +8,13 @@ type Props = {
 const AppleMusicSong = ({ url }: Props) => {
   return (
     <iframe
-      title='Apple Music'
-      id='embedPlayer'
+      id="embedPlayer"
       src={url}
-      height='175px'
-      sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation'
-      allow='autoplay *; encrypted-media *; clipboard-write'
+      height="175px"
+      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+      allow="autoplay *; encrypted-media *; clipboard-write"
       className={styles.embedPlayer}
-    />
+    ></iframe>
   )
 }
 

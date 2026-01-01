@@ -1,22 +1,21 @@
+import React, { JSX } from 'react'
 import Link from '@docusaurus/Link'
 import { NavbarSecondaryMenuFiller } from '@docusaurus/theme-common'
 import type { Props } from '@theme/BlogSidebar/Mobile'
-import React from 'react'
-import type { JSX } from 'react'
-import Balancer from 'react-wrap-balancer'
 
-function BlogSidebarMobileSecondaryMenu({ sidebar }: Props) {
+function BlogSidebarMobileSecondaryMenu({ sidebar }: Props): JSX.Element {
   return (
-    <ul className='menu__list'>
+    <ul className="menu__list">
       {sidebar.items.map((item) => (
-        <li key={item.permalink} className='menu__list-item'>
+        <li key={item.permalink} className="menu__list-item">
           <Link
             isNavLink
             to={item.permalink}
-            className='menu__link'
-            activeClassName='menu__link--active'
+            className="menu__link text-balance
+"
+            activeClassName="menu__link--active"
           >
-            <Balancer>{item.title}</Balancer>
+            {item.title}
           </Link>
         </li>
       ))}
@@ -24,11 +23,6 @@ function BlogSidebarMobileSecondaryMenu({ sidebar }: Props) {
   )
 }
 
-export default function BlogSidebarMobile(props: Props) {
-  return (
-    <NavbarSecondaryMenuFiller
-      component={BlogSidebarMobileSecondaryMenu}
-      props={props}
-    />
-  )
+export default function BlogSidebarMobile(props: Props): JSX.Element {
+  return <NavbarSecondaryMenuFiller component={BlogSidebarMobileSecondaryMenu} props={props} />
 }

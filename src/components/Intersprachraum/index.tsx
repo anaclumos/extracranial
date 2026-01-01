@@ -1,5 +1,4 @@
-import React from 'react'
-import { useEffect, useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Intersprachraum = () => {
   const texts = [
@@ -37,12 +36,10 @@ const Intersprachraum = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === texts.length - 1 ? 0 : prevIndex + 1,
-      )
+      setCurrentIndex((prevIndex) => (prevIndex === texts.length - 1 ? 0 : prevIndex + 1))
     }, 200)
     return () => clearInterval(interval)
-  }, [])
+  }, [texts])
 
   return <p>{texts[currentIndex]}</p>
 }

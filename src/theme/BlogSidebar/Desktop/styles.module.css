@@ -22,12 +22,15 @@
 
 .sidebarItemList {
   font-size: 1rem;
+  text-wrap: balance;
 }
 
 .sidebarItem {
   padding: 0.5rem;
   border-radius: var(--border-radius);
-  transition: filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition:
+    filter 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
 }
 
 .sidebarItem:hover {

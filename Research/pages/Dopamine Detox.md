@@ -1,15 +1,7 @@
 ---
 lang: 'en'
 slug: '/16B8F1'
-aliases:
-  [
-    '도파민 디톡스',
-    '디톡스',
-    '디지털 디톡스',
-    '디지털디톡스',
-    '도파민디톡스',
-    'Digital Detox',
-  ]
+aliases: ['도파민 디톡스', '디톡스', '디지털 디톡스', '디지털디톡스', '도파민디톡스', 'Digital Detox']
 ---
 
 - [The 'Dopamine Detox' Is Having a Moment](https://time.com/6284428/does-dopamine-detox-work/)

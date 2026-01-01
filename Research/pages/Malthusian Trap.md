@@ -1,14 +1,7 @@
 ---
 lang: 'en'
 slug: '/E6A898'
-aliases:
-  [
-    'Neo-Malthusian',
-    '네오 맬서스',
-    '맬서스',
-    'Neo-Malthusian Trap',
-    '네오 맬서스 트랩',
-  ]
+aliases: ['Neo-Malthusian', '네오 맬서스', '맬서스', 'Neo-Malthusian Trap', '네오 맬서스 트랩']
 ---
 
 TODO: USE FUMADOCS I18N

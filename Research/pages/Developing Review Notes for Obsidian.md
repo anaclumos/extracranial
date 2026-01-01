@@ -64,16 +64,7 @@ slug: '/DAF673'
 우선 이와 같이 기본 코드를 작성했다.
 
 ```ts
-import {
-  App,
-  Editor,
-  MarkdownView,
-  Modal,
-  Notice,
-  Plugin,
-  PluginSettingTab,
-  Setting,
-} from 'obsidian'
+import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian'
 
 interface CustomSettings {
   // relative path to daily notes folder
@@ -102,13 +93,9 @@ export default class CustomPlugin extends Plugin {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData())
   }
   createRibbon(): HTMLElement {
-    const ribbon = this.addRibbonIcon(
-      'calendar-with-checkmark',
-      'Review Daily Notes',
-      (evt: MouseEvent) => {
-        new Notice('HELLO!')
-      },
-    )
+    const ribbon = this.addRibbonIcon('calendar-with-checkmark', 'Review Daily Notes', (evt: MouseEvent) => {
+      new Notice('HELLO!')
+    })
     return ribbon
   }
 }
@@ -280,10 +267,7 @@ async onOpen() {
 옵시디언 [[API]] 문서를 찾아보다가 다음과 같은 부분을 찾았다.
 
 ```ts
-export class MarkdownPreviewView
-  extends MarkdownRenderer
-  implements MarkdownSubView, MarkdownPreviewEvents
-{
+export class MarkdownPreviewView extends MarkdownRenderer implements MarkdownSubView, MarkdownPreviewEvents {
   /**
    * @public
    */

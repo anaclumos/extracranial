@@ -157,7 +157,7 @@
     "description": "The name for the light color mode"
   },
   "theme.common.editThisPage": {
-    "message": "편집 또는 최종 수정 시간 확인",
+    "message": "편집",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
@@ -292,7 +292,7 @@
     "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "message": "귀하의 정부에서 해당 문서에 대한 접근을 제한하고 있음을 확인했습니다. 대안으로, 보안 터널을 구축해드리겠습니다. VPN을 활성화하시고 Tor를 사용하여 Onion 프로토콜을 가동하십시오. 이 검열을 우회하기 위해 0xCC441Db84Bf28ea2740e2778c662FA4B515ACcd6로 10 ETH를 송금한 후 다시 시도하십시오.",
+    "message": "귀하의 정부에서 해당 문서에 대한 접근을 제한하고 있습니다.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
@@ -300,7 +300,7 @@
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.NotFound.title": {
-    "message": "HTTP 451: 법적 이유로 이용이 불가함",
+    "message": "HTTP 451 법적 이유로 이용이 불가함",
     "description": "The title of the 404 page"
   },
   "theme.SearchBar.label": {

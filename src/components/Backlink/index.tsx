@@ -1,76 +1,62 @@
+import React, { JSX } from 'react'
 import Link from '@docusaurus/Link'
-import React from 'react'
-import type { JSX } from 'react'
 import styles from './styles.module.css'
 
+import backlinks from '@site/src/data/backlinks.json'
+import filenames from '@site/src/data/filenames.json'
 import { translate } from '@docusaurus/Translate'
-import { backlinks } from '@site/src/data/backlinks'
-import { filenames } from '@site/src/data/filenames'
 
 type Props = {
   documentTitle: string
 }
-
 const escapeRegExp = (string) => {
   // Escapes special characters for use in a regular expression
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
 }
 
-const processBacklinkItem = (inputText: string, title: string) => {
-  // Use a local variable instead of reassigning the parameter
-  const cleanText = inputText.trim()
-  // We don't need to HTML escape since we're not using dangerouslySetInnerHTML
+const processBacklinkItem = (text, title) => {
+  text = text
+    .trim()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;')
 
-  const normalizedTitle = title.normalize('NFC')
-  let processedText = cleanText.normalize('NFC')
+  let normalizedTitle = title.normalize('NFC')
+  let normalizedText = text.normalize('NFC')
 
-  // Escape special characters in title for regex
-  const escapedTitle = escapeRegExp(normalizedTitle)
+  // Escape special characters in title
+  let escapedTitle = escapeRegExp(normalizedTitle)
 
   try {
+    // Replace [[title|display]] with `<b class="${styles.highlight}">${display}</b>` with regex
+    const regex1 = new RegExp(`\\[\\[${escapedTitle}\\|(.+?)\\]\\]`, 'gi')
+    normalizedText = normalizedText.replace(regex1, `<b class="${styles.highlight}">$1</b>`)
+
+    // Replace [[title]] with `<b class="${styles.highlight}">${title}</b>` with regex
+    const regex2 = new RegExp(`\\[\\[${escapedTitle}\\]\\]`, 'gi')
+    normalizedText = normalizedText.replace(regex2, `<b class="${styles.highlight}">${normalizedTitle}</b>`)
+
     // Replace [[other text|display]] with display. other can include spaces
-    processedText = processedText.replace(/\[\[(.+?)\|(.+?)\]\]/g, '$2')
+    const regex3 = new RegExp(`\\[\\[(.+?)\\|(.+?)\\]\\]`, 'g')
+    normalizedText = normalizedText.replace(regex3, '$2')
 
     // Replace [[other]] with other
-    processedText = processedText.replace(/\[\[(.+?)\]\]/g, '$1')
-
-    // Split the text by title matches to properly highlight them
-    const titleRegex = new RegExp(`(${escapedTitle})`, 'gi')
-    const parts = processedText.split(titleRegex)
-
-    if (parts.length <= 1) {
-      // No matches, just return the text
-      return (
-        <pre className={styles.backlinkItemText}>{processedText.trim()}</pre>
-      )
-    }
-
-    // Create React elements for each part
-    const elements = parts.map((part, index) => {
-      // Skip empty parts
-      if (!part) return null
-
-      // Create a unique key that doesn't depend solely on array index
-      const uniqueKey = `${title.substring(0, 3)}-${index}-${part.substring(0, 3)}`
-
-      // If this part matches the title, highlight it
-      if (part.toLowerCase() === normalizedTitle.toLowerCase()) {
-        return (
-          <b key={uniqueKey} className={styles.highlight}>
-            {part}
-          </b>
-        )
-      }
-
-      // Otherwise just render as regular text
-      return <span key={uniqueKey}>{part}</span>
-    })
-
-    return <pre className={styles.backlinkItemText}>{elements}</pre>
+    const regex4 = new RegExp(`\\[\\[(.+?)\\]\\]`, 'g')
+    normalizedText = normalizedText.replace(regex4, '$1')
   } catch (e) {
     console.error('Error processing backlink item:', e)
-    return <pre className={styles.backlinkItemText}>{cleanText.trim()}</pre>
   }
+
+  return (
+    <pre
+      className={styles.backlinkItemText}
+      dangerouslySetInnerHTML={{
+        __html: normalizedText.trim(),
+      }}
+    />
+  )
 }
 
 const Backlink = (props: Props) => {
@@ -84,13 +70,13 @@ const Backlink = (props: Props) => {
 
   return (
     <div className={styles.backlinkTable}>
-      <h2 className={styles.backlinkTableH2}>
+      <h3 className={styles.backlinkTableH2}>
         {translate({
           id: 'backlink.title',
           message: 'Links to This Note',
           description: 'The title of the backlink section',
         })}
-      </h2>
+      </h3>
       <div className={styles.backlinkGridView}>
         {(backlinkItems &&
           Object.keys(backlinkItems)
@@ -103,15 +89,9 @@ const Backlink = (props: Props) => {
               }
               const link = filenames[backlinkTitle].replace('/', '')
               return (
-                <Link
-                  to={link}
-                  className={styles.backlinkItemLink}
-                  key={backlink}
-                >
+                <Link to={link} className={styles.backlinkItemLink} key={backlink}>
                   <div className={styles.backlinkItem}>
-                    <h3 className={styles.backlinkMentionedFileName}>
-                      {backlinkTitle}
-                    </h3>
+                    <h3 className={styles.backlinkMentionedFileName}>{backlinkTitle}</h3>
                     {processBacklinkItem(backlinkItems[backlink], title)}
                   </div>
                 </Link>

@@ -1,5 +1,4 @@
-import React from 'react'
-import type { JSX } from 'react'
+import React, { JSX } from 'react'
 import styles from './index.module.css'
 
 type Props = {
@@ -9,11 +8,7 @@ type Props = {
 const YouTube = ({ id }: Props) => {
   return (
     <figure>
-      <iframe
-        className={styles.youtube}
-        title='YouTube'
-        src={`https://www.youtube.com/embed/${id}`}
-      />
+      <iframe className={styles.youtube} title="YouTube" src={`https://www.youtube.com/embed/${id}`}></iframe>
     </figure>
   )
 }

@@ -10,6 +10,6 @@ slug: '/46AF52'
 - 정승원 측은 "앞으로도 제 초상권을 활용하겠다. 사진에 대해 한 번 더 이야기 할 시 정식 절차에 맞게 대응하겠다. 저작권을 논하기 전에 사전 허락을 맡고 사진을 찍어 갔어야 했다"고 맞섰다.
 - 모호한 경우가 많았지만 대부분 어느 한 쪽이 눈감아주는 것이 관례였다. 하지만 이번 논쟁을 통해 좀 더 정확한 법적 해석이 필요할 것으로 보인다.
 
-import YouTube from '@/components/youtube';
+import YouTube from '@site/src/components/YouTube';
 
 <YouTube id="Enxx-xEQLss"/>

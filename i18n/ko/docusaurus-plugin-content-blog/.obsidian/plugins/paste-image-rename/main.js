@@ -30,7 +30,7 @@ var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b))
 var __markAsModule = (target) => __defProp(target, '__esModule', { value: true })
 var __commonJS = (cb, mod) =>
   function __require() {
-    return mod || (0, cb[Object.keys(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports
+    return (mod || (0, cb[Object.keys(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports)
   }
 var __export = (target, all) => {
   __markAsModule(target)

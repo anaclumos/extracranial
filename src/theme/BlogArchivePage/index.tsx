@@ -1,13 +1,11 @@
+import React, { JSX, useId } from 'react'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
-import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
 import Layout from '@theme/Layout'
-import clsx from 'clsx'
-import React from 'react'
-import { useId } from 'react'
-import Balancer from 'react-wrap-balancer'
+import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
 import styles from './styles.module.css'
+import { cn } from '@site/src/util/cn'
 
 const t = {
   singular: translate({
@@ -44,9 +42,7 @@ function Year({ year, posts }: YearProp) {
       <ul className={styles.list}>
         {posts.map((post) => (
           <Link key={useId()} to={post.metadata.permalink}>
-            <li>
-              <Balancer>{post.metadata.title}</Balancer>
-            </li>
+            <li className="text-balance">{post.metadata.title}</li>
           </Link>
         ))}
       </ul>
@@ -56,11 +52,11 @@ function Year({ year, posts }: YearProp) {
 
 function YearsSection({ years }: { years: YearProp[] }) {
   return (
-    <section className='margin-vert--lg'>
-      <div className={clsx('container', styles.container)}>
-        <div className='row'>
+    <section className="margin-vert--lg">
+      <div className={cn('container', styles.container)}>
+        <div className="row">
           {years.reverse().map((_props) => (
-            <div key={useId()} className='col col--4 margin-vert--md'>
+            <div key={useId()} className="col col--4 margin-vert--md">
               <Year {..._props} />
             </div>
           ))}
@@ -83,7 +79,7 @@ function listPostsByYears(blogPosts: readonly ArchiveBlogPost[]): YearProp[] {
   }))
 }
 
-export default function BlogArchive({ archive }: Props) {
+export default function BlogArchive({ archive }: Props): JSX.Element {
   const title = translate({
     id: 'theme.blog.archive.title',
     message: 'Archive',
@@ -99,9 +95,9 @@ export default function BlogArchive({ archive }: Props) {
     <>
       <PageMetadata title={title} description={description} />
       <Layout>
-        <header className='hero hero--primary'>
-          <div className={clsx('container', styles.heroContainer)}>
-            <h1 className={clsx(styles.heroTitle)}>{title}</h1>
+        <header className="hero hero--primary">
+          <div className={cn('container', styles.heroContainer)}>
+            <h1 className={cn(styles.heroTitle)}>{title}</h1>
           </div>
         </header>
         <main>{years.length > 0 && <YearsSection years={years} />}</main>

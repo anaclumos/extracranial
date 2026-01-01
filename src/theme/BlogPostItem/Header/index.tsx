@@ -1,14 +1,14 @@
-import BlogPostItemHeaderInfo from '@theme/BlogPostItem/Header/Info'
+import React, { JSX } from 'react'
 import BlogPostItemHeaderTitle from '@theme/BlogPostItem/Header/Title'
-import React from 'react'
-import type { JSX } from 'react'
+import BlogPostItemHeaderInfo from '@theme/BlogPostItem/Header/Info'
 
-export default function BlogPostItemHeader() {
+import styles from './styles.module.css'
+
+export default function BlogPostItemHeader(): JSX.Element {
   return (
-    <header>
-      <BlogPostItemHeaderTitle />
+    <header className={styles['blog-post-item-header']}>
+      <BlogPostItemHeaderTitle className={styles['blog-post-item-header-title']} />
       <BlogPostItemHeaderInfo />
-      {/* <BlogPostItemHeaderAuthors /> */}
     </header>
   )
 }

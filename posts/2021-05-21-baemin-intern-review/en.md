@@ -1,5 +1,5 @@
 ---
-title: '🚚 Woowa Tech Camp 3rd Review'
+title: 'Woowa Tech Camp 3rd Review 🚚'
 date: 2021-05-21
 authors: anaclumos
 slug: '/E2CAE4'
@@ -8,15 +8,22 @@ slug: '/E2CAE4'
 <!-- truncate -->
 
 import DisplayFlex from '@site/src/components/DisplayFlex'
+
 ![ALT: Woowa Tech Camp 3rd Review](976A54.jpg)
+
 It may seem too late to write a review in 2021 for something that ended in August 2020, but with the [4th recruitment](https://www.woowahan.com/#/recruit/techcamp) currently underway, I felt that if I didn't post it now, I might never do it. Most of the information available online only briefly touches upon the topic, so I will focus on **the things I was curious about when I applied**.
 **Woowa Tech Camp** is a programmer training course where participants work as interns at **Woowa Brothers**, a tech unicorn company that operates **Baedal Minjok** (배달의민족, a.k.a Baemin), during the summer while studying development and programming close to real-world practice. 30 people are selected, with a competition ratio of approximately 43 to 1.
 
 <figure>
+
 ![ALT: No shoes allowed - the so-called **Sushi Bar Lounge**. It's first-come, first-served due to the great view.](77D98C.jpeg)
+
 <figcaption>
+
 No shoes allowed - the so-called **Sushi Bar Lounge**. It's first-come, first-served due to the great view.
-</figcaption>  
+
+</figcaption>
+
 </figure>
 ## 🔋 Selection Process
 ### Application
@@ -25,37 +32,59 @@ Each question had a 700-character limit.
 - Please freely describe why you want to participate in Woowa Tech Camp.  
 - If you have your own programming learning method outside of the curriculum, please describe it.  
 - Describe an experience where you faced difficulties in the collaboration process and what efforts you made to overcome those difficulties.
+
 ![2020 3rd Recruitment Banner](913C48.png)
+
 ### 1st Coding Test
+
 The problems were typical coding test questions. I remember solving them in JavaScript, and since I had practiced a lot for coding tests due to Programmers Summer Coding and Woowa Tech Camp at the time, the difficulty level wasn't too burdensome. There were a total of 4 problems with a time limit of 150 minutes.
+
 ### 2nd Coding Test
+
 It was a project to develop an admin tool that performs specific functions on the provided VS Code web platform. The basic boilerplate, build configuration, and CI/CD were pre-implemented, so it could be run quickly as described in the README, and we had to implement 3 core features on top of that. The use of external libraries was prohibited, and it had to be solved using only vanilla JS. The time limit was quite long at 4 hours, but I felt it was insufficient. I will omit the detailed problem-solving strategy as the staff said they couldn't share it... 😭
+
 ### Interview
+
 Due to COVID-19, it was conducted online for 30 minutes. Since it wasn't a developer recruitment interview, rather than asking in-depth technical questions, they mainly asked about whether we had a solid foundation as programmers, were ready to learn at Woowa Tech Camp, and could be good camp members. In my case, I mentioned this technical blog in my application, and they asked detailed questions about [one specific post](/w/4BB66F).
+
 ### Competition Ratio
+
 I was also curious about the competition ratio, and [according to what I learned later](https://woowabros.github.io/devrel/2020/08/14/tecmpcamp_july_1.html), it was as follows:
-- Total applicants: 1300+ (43+ times)  
-- Passed application and 1st coding test: 500+ (17+ times)  
-- Passed 2nd coding test: 90 (3 times)  
+
+- Total applicants: 1300+ (43+ times)
+- Passed application and 1st coding test: 500+ (17+ times)
+- Passed 2nd coding test: 90 (3 times)
 - Passed interview and final acceptance: 30
+
 ![The interview room at Woowa Brothers. Originally, the interviews were supposed to be held here, but due to the spread of COVID-19, they were conducted via Google Meet.](98526C.jpeg)
+
 ## 🏫 Curriculum
+
 0.  Orientation Period (3 days)
-- Mini Project: Implementing a web server without Express and HTTP.  
-- Study Keywords: Node.js, JS OOP, Asynchronous Programming, Async Cafe, HTTP Specification, HTTP Basics.  
-- [Our Team's GitHub](https://github.com/woowa-techcamp-2020/anaclumos-yuda1124-sooojungee-learn-node)  
+
+- Mini Project: Implementing a web server without Express and HTTP.
+- Study Keywords: Node.js, JS OOP, Asynchronous Programming, Async Cafe, HTTP Specification, HTTP Basics.
+- [Our Team's GitHub](https://github.com/woowa-techcamp-2020/anaclumos-yuda1124-sooojungee-learn-node)
 - [My Blog Post](/r/940821)
 
 <figure>
+
 <DisplayFlex>
-![ALT: Luther Hall 3](F63DD7.jpeg)  
-![ALT: Luther Hall 2](B25CF2.jpeg)  
+
+![ALT: Luther Hall 3](F63DD7.jpeg)
+
+![ALT: Luther Hall 2](B25CF2.jpeg)
+
 ![ALT: Luther Hall 1](7CE6C6.jpeg)
+
 </DisplayFlex>
+
 <figcaption>
-  
+
 **Small House** where the orientation took place. Located in Jamsil.
-</figcaption>  
+
+</figcaption>
+
 </figure>
 1.  **Baemin Mart Project** implementing login (1 week)
 - Conditions  
@@ -65,17 +94,28 @@ I was also curious about the competition ratio, and [according to what I learned
 - Study Keywords: HTML, CSS, CSS Layout, Express.  
 - [Our Team's GitHub](https://github.com/woowa-techcamp-2020/market-7)
 <figure>
+
 <DisplayFlex>
-![ALT: Office](8F3A1D.jpeg)  
+
+![ALT: Office](8F3A1D.jpeg)
+
 ![ALT: Office](A98162.jpeg)
+
 </DisplayFlex>
 <DisplayFlex>
-![ALT: Office](A1A228.jpeg)  
+
+![ALT: Office](A1A228.jpeg)
+
 ![ALT: Office](93DAB3.jpeg)
+
 </DisplayFlex>
+
 <figcaption>
+
 **Big House** which became the main stage for Woowa Tech Camp. Located a 12-second walk from Mongchontoseong Station.
-</figcaption>  
+
+</figcaption>
+
 </figure>
 2.  **Trello Project** directly implementing a Kanban board (2 weeks)
 - Conditions  
@@ -85,13 +125,21 @@ I was also curious about the competition ratio, and [according to what I learned
 - Study Keywords: Webpack, ES Module, DOM API, Templating, Fetch-Promise pattern, JS Event Delegation, DBMS, MySQL, SQL Syntax.  
 - [Our Team's GitHub](https://github.com/woowa-techcamp-2020/todo-8)
 <figure>
+
 <DisplayFlex>
-![ALT: Cafe](33F15F.jpeg)  
+
+![ALT: Cafe](33F15F.jpeg)
+
 ![ALT: Cafe View](6ABC19.jpeg)
+
 </DisplayFlex>
+
 <figcaption>
+
 The cafe on the 18th floor of the Big House and the view of Olympic Park from the cafe.
-</figcaption>  
+
+</figcaption>
+
 </figure>
 3.  **Bank Salad Project** directly implementing a household ledger app (2 weeks)
 - Conditions  
@@ -103,10 +151,15 @@ The cafe on the 18th floor of the Big House and the view of Olympic Park from th
 - Study Keywords: Observer Pattern, ERD, OAuth, Passport, State Management, Immutability, Transactions, Shell Scripts, CI/CD, CSS Animations & Optimizations (requestAnimationFrame & requestIdleCallback), SVG, Canvas.  
 - [Our Team's GitHub](https://github.com/woowa-techcamp-2020/hkb-7)
 <figure>
+
 ![ALT: Pair Programming](FB8860.jpeg)
+
 <figcaption>
+
 We occasionally did pair programming. [The code you see now is...](https://github.com/woowa-techcamp-2020/hkb-7/blob/develop/server/routes/user.js)
-</figcaption>  
+
+</figcaption>
+
 </figure>
 4.  **B Mart Project** directly implementing Baedal Minjok's B Mart (3 weeks)
 - Conditions  
@@ -116,18 +169,31 @@ We occasionally did pair programming. [The code you see now is...](https://githu
   - Utilize the Elastic Search, Logstash, Kibana (ELK) combination.  
 - Study Keywords: React Hooks, AWS VPC, React Router, React Context API, React useReducer, AWS IAM, AWS S3, React Test Codes (Jest, Enzyme, ...), Elastic Search, Logstash, Kibana, ELK.  
 - [Our Team's GitHub](https://github.com/woowa-techcamp-2020/bmart-4)
+
 ![During the 4th project, social distancing was raised to level 2, so we had to proceed remotely.](F49613.png)
+
 ---
+
 ## ✨ The Good Parts
+
 First of all, an activity stipend of about 1.5 million won per month and activity equipment (MacBook Pro 💻 and monitor 🖥) were provided.
+
 <figure>
+
 <DisplayFlex>
-![ALT: MacBook](AB082E.jpeg)  
+
+![ALT: MacBook](AB082E.jpeg)
+
 ![ALT: Monitor](CA28E2.jpeg)
+
 </DisplayFlex>
+
 <figcaption>
+
 A 2019 MacBook Pro 16-inch i9 high-end model was loaned to everyone. 16GB RAM, 1TB SSD, Radeon 5500M 4GB GPU. As of the 2020 camp, it was the highest spec MacBook Pro that could be ordered without CTO. One monitor was provided for every two people, for a total of 15 monitors. The monitors were ThinkVision QHD monitors. I thought there wouldn't be enough monitors, but there were plenty.
-</figcaption>  
+
+</figcaption>
+
 </figure>
 ### 👨‍💻 What the heck is (for beginners) good code?
 ```js  
@@ -163,14 +229,18 @@ Juniors interested in studying programming often hear things like "clean code, g
 ### 🛷 Dunning-Kruger Sledding
 
 It may be a bit cliché, but I was able to directly experience the **peak of ignorance**. Of course, I never thought I knew everything completely, but since I had experience with various JavaScript projects, I dared to think, "Of course I'll have to work hard, but **wouldn't I be able to keep up to some extent without too much difficulty?**"
+
 ![I don't know anything about JS. I'm just a talking potato. You know what I mean?](6B271D.jpg)
+
 Naturally, Woowa Tech Camp was extremely challenging. The original goal of the curriculum was to impose constraints on each project and then resolve the regrets caused by those constraints in the next project. For example, after implementing authentication without using Passport, that thirst would be quenched in the next project by using Passport. However, on the flip side, this process occurred every 1-2 weeks, meaning that as soon as you barely grasped the previous technology, you had to immediately move on to the next technology and experience a steep learning curve again.
 It felt like I experienced the Dunning-Kruger sledding at Woowa Tech Camp. Since I wasn't proficient enough to freely handle JavaScript, I really had to work hard to keep up.
 
 ### 🌎 What does it mean to know in the internet age?
 
 I also pondered a lot about **what it means to know something in an age where search exists**. If I limit this to programming, I think I found a bit of an answer. It's the concept of GSPH, which stands for Googling Session Per Hour. A Googling Session refers to a deep search task lasting more than 5 minutes. For example, if you couldn't remember the name of a JavaScript property function and completed the search in 2 minutes, it wouldn't count as a Googling Session, but if OAuth doesn't come to mind easily and you have to look at the documentation for 10 minutes, it would count as a Googling Session.
+
 ![Search for it... but every time?](12A854.png)
+
 When doing a task, if the Googling Sessions per hour are (roughly) 3 or less, it seems you can say you know that concept. In other words, doing short searches in the middle of a task doesn't directly mean you don't know the concept. However, if you have to look up every detail of the task one by one, it means you still need more study.
 
 ### 👾 Library ≠ Alien Technology
@@ -192,7 +262,9 @@ From the perspective of a hobby developer, you might think, "Huh? Babel is a rea
 ### 🧩 Crawling Baemin's Image Server
 
 When creating the final B Mart service, there was a time when we needed a huge amount of Baemin's B Mart data. We needed photos to put in the photo slots to give it an app-like feel. Using [my previous experience](/w/21E029), I (with permission from the staff) scraped the image resources on Baemin's server.
+
 ![A photo sneakily taken from Baemin's B Mart image server](D7B4B2.png)
+
 Strictly speaking, the images exist in the form of CDN open web, so it's not **hacking Baemin's server**. The problem is that these endpoints and the following image addresses are **hidden** in an unrecognizable way.
 
     http://CDNdomain.baemin.com/some/thing/1abcde23-very-long-alphanumeric-address.jpg
@@ -205,6 +277,7 @@ It wasn't a shallow level of crawling where you simply open the B Mart web view 
 ### 🏢 Whirlwind Corporate Night History
 
 We were able to hear behind-the-stories of Korean companies in between. Stories like how a certain game company doesn't use RDB much and uses binary dumps because hundreds of thousands of items are mass-produced, how an incident occurred where someone manipulated the game DB fields to duplicate items worth hundreds of millions of won, so DB access rights management became very strict afterward, how developers at a certain accommodation company could access the personal information of all members, so for a while, developers freely accessed celebrity member information... For me, who is very interested in the corporate ecosystem, these were truly fascinating stories.
+
 ![The day the neighboring N company's C Foundation's B Camp exploded](C7EE19.png)
 
 ### ⚡️ Synergy x Synergy = Synergy<sup>3</sup>

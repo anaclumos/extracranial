@@ -3,6 +3,6 @@ lang: 'en'
 slug: '/D71FFA'
 ---
 
-import WIP from '@/components/wip'
+import WIP from '@site/src/components/WIP'
 
 <WIP />

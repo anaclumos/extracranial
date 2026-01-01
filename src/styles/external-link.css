@@ -1,0 +1,63 @@
+@import url('icons/a.css');
+@import url('icons/b.css');
+@import url('icons/c.css');
+@import url('icons/d.css');
+@import url('icons/e.css');
+@import url('icons/f.css');
+@import url('icons/g.css');
+@import url('icons/h.css');
+@import url('icons/i.css');
+@import url('icons/j.css');
+@import url('icons/k.css');
+@import url('icons/l.css');
+@import url('icons/m.css');
+@import url('icons/n.css');
+@import url('icons/o.css');
+@import url('icons/p.css');
+@import url('icons/q.css');
+@import url('icons/r.css');
+@import url('icons/s.css');
+@import url('icons/t.css');
+@import url('icons/u.css');
+@import url('icons/v.css');
+@import url('icons/w.css');
+@import url('icons/x.css');
+@import url('icons/y.css');
+@import url('icons/z.css');
+@import url('icons/extra.css');
+
+a:has(img)::after,
+a:has(img)::before,
+a:has(i)::after,
+a:has(i)::before {
+  mask-image: none !important;
+  content: none !important;
+}
+
+* {
+  --linkflags-color: var(--ifm-link-color);
+}
+
+article a[href^='http']::before {
+  background-color: var(--linkflags-color);
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: 0 2pt 2pt;
+  display: inline-block;
+  vertical-align: middle !important;
+  mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+article a[href^='http']::after {
+  content: '↗';
+  margin: 0 2pt 2pt;
+  font-size: 0.8em;
+}
+
+article a[href*='cho.sh']::before {
+  content: '\00a0';
+  display: none !important;
+}

@@ -11,9 +11,7 @@ This is my preferred way because this makes sticky bottom bars much easier
 
 ```tsx
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="h-screen flex flex-col overflow-y-auto">{children}</div>
-  )
+  return <div className="h-screen flex flex-col overflow-y-auto">{children}</div>
 }
 ```
 
@@ -22,9 +20,7 @@ export default function Page() {
   return (
     <div className="flex flex-1 flex-col items-center justify-center">
       <h1 className="text-5xl font-bold text-center">Lorem Ipsum</h1>
-      <p className="text-center text-gray-500">
-        Non aliqua Lorem excepteur ex ad laboris.
-      </p>
+      <p className="text-center text-gray-500">Non aliqua Lorem excepteur ex ad laboris.</p>
     </div>
   )
 }

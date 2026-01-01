@@ -1,16 +1,7 @@
 ---
 lang: 'en'
 slug: '/E3A757'
-aliases:
-  [
-    '폴리매쓰',
-    'Renaissance Man',
-    'Renaissance Person',
-    '폴리매스',
-    '박식가',
-    '다학자',
-    '르네상스형 인간',
-  ]
+aliases: ['폴리매쓰', 'Renaissance Man', 'Renaissance Person', '폴리매스', '박식가', '다학자', '르네상스형 인간']
 ---
 
 A polymath is a person who has expertise in multiple fields of study or areas of knowledge. They are often referred to as a "[[Renaissance]] person" because they possess diverse talents and abilities and have a broad knowledge base beyond a single subject or discipline.

@@ -2,10 +2,6 @@
 
 # [extracranial: the exosuit for my brain](https://cho.sh)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanaclumos%2Fextracranial?ref=badge_shield)
-![AWS Fargate](https://img.shields.io/website?down_color=lightgray&down_message=Offline&label=AWS%20Fargate&logo=aws-fargate&logoColor=white&up_color=FF9900&up_message=Online&url=https%3A%2F%2Fcho.sh)
-[![Pageviews](https://img.shields.io/badge/dynamic/json?color=%23FF4F64&logoColor=white&label=Pageviews&&logo=simple%20analytics&&style=flat&query=pageviews&url=https%3A%2F%2Fsimpleanalytics.com%2Fcho.sh.json%3Fversion%3D5%26fields%3Dpageviews%26timezone%3DAmerica%2FLos_Angeles%26start%3D2020-01-01%26end%3Dyesterday%26info%3Dfalse)](https://simpleanalytics.com/cho.sh)
-
 Extracranial means **situated outside the cranium** or **exoskull** in medical contexts.
 Think this as a **exoskeleton** for my brain: personal wikipedia, digital garden, second brain, memex...
 everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
@@ -26,34 +22,32 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Thu Jan 1 07:51:13 PM KST 2026
+Tue Sep 2 08:54:24 AM KST 2025
 
 ## Stats
 
 ```
 ───────────────────────────────────────────────────────────────────────────────
-Language            Files       Lines    Blanks  Comments       Code Complexity
+Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown            3,031      77,202    20,609         0     56,593          0
-CSS                    56      16,409       753        32     15,624          0
-TypeScript             51      21,887       199        29     21,659         94
-JSON                   43       2,182         0         0      2,182          0
-SVG                     9           9         0         0          9          0
-Python                  7         719        77        51        591        153
-YAML                    6          52         0         0         52          0
-JavaScript              3       2,145        13        22      2,110         54
-MDX                     2          36        14         0         22          0
-TypeScript Typ…         2          12         0         4          8          0
-INI                     1           1         0         0          1          0
-Plain Text              1           3         0         0          3          0
-Shell                   1         142        20        33         89         14
+Markdown                  3005     76815    20447         0    56368          0
+CSS                         50     16035      713        13    15309          0
+TypeScript                  46      2383      188        35     2160        116
+JSON                        29     22601        0         0    22601          0
+SVG                          9         9        0         0        9          0
+YAML                         5        23        0         0       23          0
+MDX                          2        48       20         0       28          0
+TypeScript Typings           2        12        0         4        8          0
+JavaScript                   1         6        0         0        6          0
+Plain Text                   1         3        0         0        3          0
+TOML                         1         7        0         0        7          0
 ───────────────────────────────────────────────────────────────────────────────
-Total               3,213     120,799    21,685       171     98,943        315
+Total                     3151    117942    21368        52    96522        116
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,363,176
-Estimated Schedule Effort (organic) 21.81 months
-Estimated People Required (organic) 13.70
+Estimated Cost to Develop (organic) $3,276,822
+Estimated Schedule Effort (organic) 21.59 months
+Estimated People Required (organic) 13.48
 ───────────────────────────────────────────────────────────────────────────────
-Processed 6008543 bytes, 6.009 megabytes (SI)
+Processed 5724341 bytes, 5.724 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 ```

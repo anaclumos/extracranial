@@ -1,84 +1,57 @@
 {
-  "author": "Sunghyun Cho <hey@cho.sh>",
-  "browserslist": {
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ],
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ]
-  },
+  "author": "Sunghyun Cho",
+  "email": "hey@cho.sh",
   "dependencies": {
-    "@docusaurus/core": "^3.9.2",
-    "@docusaurus/faster": "^3.9.2",
-    "@docusaurus/plugin-client-redirects": "^3.9.2",
-    "@docusaurus/plugin-content-blog": "^3.9.2",
-    "@docusaurus/plugin-content-docs": "^3.9.2",
-    "@docusaurus/plugin-vercel-analytics": "^3.9.2",
-    "@docusaurus/preset-classic": "^3.9.2",
-    "@docusaurus/theme-classic": "^3.9.2",
-    "@docusaurus/theme-common": "^3.9.2",
-    "@docusaurus/theme-mermaid": "^3.9.2",
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/faster": "^3.8.1",
+    "@docusaurus/plugin-content-blog": "^3.8.1",
+    "@docusaurus/plugin-content-docs": "^3.8.1",
+    "@docusaurus/plugin-vercel-analytics": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
+    "@docusaurus/theme-common": "^3.8.1",
+    "@docusaurus/theme-mermaid": "^3.8.1",
     "@giscus/react": "^3.1.0",
-    "@vercel/analytics": "^1.6.1",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-popover": "^1.1.14",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.3.1",
     "clsx": "^2.1.1",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-wrap-balancer": "^1.1.1",
+    "cobe": "^0.6.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-spring": "^10.0.1",
+    "react-tweet": "^3.2.2",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.10",
-    "@docusaurus/module-type-aliases": "^3.9.2",
-    "@docusaurus/tsconfig": "^3.9.2",
-    "@docusaurus/types": "^3.9.2",
-    "@types/node": "^25.0.3",
-    "prettier": "^3.7.4",
-    "stylelint": "^16.26.1",
-    "stylelint-config-standard": "^39.0.1"
+    "@docusaurus/module-type-aliases": "^3.8.1",
+    "@docusaurus/tsconfig": "^3.8.1",
+    "@docusaurus/types": "^3.8.1",
+    "@types/node": "^24.2.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
   },
   "license": "MIT",
-  "main": "src/index.tsx",
-  "name": "cho-sh",
+  "name": "extracranial",
   "repository": "https://github.com/anaclumos/extracranial.git",
   "scripts": {
-    "build": "$npm_execpath run ready && docusaurus build",
-    "clear": "rm -rf 'blog' && rm -rf 'docs' && find i18n -name \"*.md\" -type f -delete && rm -rf 'i18n/**/*.png' && find i18n -name \"*.svg\" -type f -delete && find i18n -name \"*.jpg\" -type f -delete && find i18n -name \"*.jpeg\" -type f -delete && find i18n -name \"*.gif\" -type f -delete && find i18n -name \"*.png\" -type f -delete",
-    "dev": "$npm_execpath run ready && $npm_execpath run format && docusaurus start",
-    "format": "prettier -w '**/*.md' && biome check --write .",
-    "ko": "$npm_execpath run ready && $npm_execpath run format && docusaurus start --locale ko",
-    "qa:start": "$npm_execpath run ready && $npm_execpath run format && $npm_execpath run build && $npm_execpath serve",
-    "readme": "cp tools/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md",
-    "ready": "$npm_execpath run clear && uv run tools/sanitize.py && uv run tools/process-blog.py && uv run tools/process-docs.py && uv run tools/process-backlinks.py && uv run tools/img-alt-to-figcaption.py",
-    "save": "$npm_execpath ready && $npm_execpath run readme && $npm_execpath run scc && $npm_execpath run format && git add . && git commit -m 'wrote something' && git push && pnpm clear",
-    "scc": "printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
-    "serve": "docusaurus serve",
-    "start": "docusaurus serve",
-    "write-translations": "docusaurus write-translations && docusaurus write-translations --locale ko",
-    "stylelint": "stylelint '**/*.css'",
-    "swizzle": "docusaurus swizzle -t"
+    "build": " bun ready &&  bun run format && docusaurus build",
+    "dev": "docusaurus start -l ko",
+    "format": "bunx prettier -w '**/*.{ts,tsx,json,md,mdx,css,scss,html,yml,yaml,mts,mjs,cts,cjs,js,jsx,xml}' --log-level silent",
+    "readme": "cp md/README.src.md README.md && printf \"\n\n## Last updated \n\n$(date)\n\" >> README.md && printf '\n## Stats\n' >> README.md && printf '\n```\n' >> README.md && scc . >> README.md && printf '```\n' >> README.md",
+    "ready": "bun preprocess.ts",
+    "save": " bun ready &&  bun run readme &&  bun run format && git add . && git commit -m 'wrote something' && git push",
+    "start": "docusaurus serve"
   },
   "trustedDependencies": [
-    "@biomejs/biome",
     "@swc/core",
+    "@vercel/speed-insights",
     "core-js",
-    "core-js-pure",
-    "esbuild",
-    "workerd"
+    "core-js-pure"
   ],
-  "version": "1.0.0",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@biomejs/biome",
-      "@swc/core",
-      "@vercel/speed-insights",
-      "core-js",
-      "core-js-pure"
-    ]
-  }
+  "version": "1.0.0"
 }
