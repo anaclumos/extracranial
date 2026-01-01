@@ -39,9 +39,9 @@ export default function DocItemLayout({ children }: Props) {
   const docTOC = useDocTOC()
   return (
     <div className="row">
-      <div className={cn('col', !docTOC.hidden && 'lg:max-w-[75%]')}>
+      <div className={cn('col', !docTOC.hidden && 'min-[997px]:max-w-[75%]')}>
         <DocVersionBanner />
-        <div className="max-w-prose max-lg:px-1 [&_article>*:first-child]:mt-0 [&_header+*]:mt-0">
+        <div className="max-w-prose max-[996px]:px-1 [&_article>*:first-child]:mt-0 [&_header+*]:mt-0">
           <article>
             <DocBreadcrumbs />
             <DocVersionBadge />
