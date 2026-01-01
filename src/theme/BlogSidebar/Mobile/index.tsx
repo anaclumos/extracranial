@@ -9,8 +9,9 @@ function BlogSidebarMobileSecondaryMenu({ sidebar }: Props) {
         <li className="menu__list-item" key={item.permalink}>
           <Link
             activeClassName="menu__link--active"
-            className="menu__link text-balance"
+            className="menu__link"
             isNavLink
+            style={{ textWrap: 'balance' }}
             to={item.permalink}
           >
             {item.title}

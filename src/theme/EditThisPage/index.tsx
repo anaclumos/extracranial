@@ -5,6 +5,7 @@ import type { JSX } from 'react'
 export default function EditThisPage({ editUrl }: Props): JSX.Element {
   return (
     <a
+      aria-label="Edit this page (opens in new tab)"
       className="mb-6"
       href={editUrl}
       rel="noreferrer noopener"
@@ -16,6 +17,7 @@ export default function EditThisPage({ editUrl }: Props): JSX.Element {
       >
         Edit this page
       </Translate>
+      <span aria-hidden="true"> ↗</span>
     </a>
   )
 }

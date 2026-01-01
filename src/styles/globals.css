@@ -1,16 +1,6 @@
-@layer theme, base, components, utilities;
 @import url("./navbar.css");
 @import url("./color.css");
 @import url("./external-link.css");
-@import "tailwindcss/theme.css" layer(theme);
-@import "tailwindcss/utilities.css" layer(utilities);
-
-@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
-
-/* Override Tailwind breakpoints to match Docusaurus/Infima */
-@theme {
-  --breakpoint-lg: 997px;
-}
 
 :root {
   --ifm-font-family-base:
@@ -37,6 +27,9 @@
   /* Computed layout values for sticky sidebar/TOC */
   --sticky-top: calc(var(--ifm-navbar-height) + 2rem);
   --sidebar-max-height: calc(100vh - var(--ifm-navbar-height) - 4rem);
+
+  /* Unhovered transparency for sidebars */
+  --unhovered-transparency: 0.1;
 }
 
 * {
@@ -142,9 +135,15 @@ code {
     background-color 0.2s ease-in-out;
 }
 
-.table-of-contents__link:hover {
+.table-of-contents__link:hover,
+.table-of-contents__link:focus-visible {
   filter: none;
   background-color: var(--ifm-menu-color-background-active);
+}
+
+.table-of-contents__link:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
 }
 
 .table-of-contents {
@@ -244,9 +243,15 @@ table {
   transition: background-color 0.2s ease-in-out;
 }
 
-.pagination-nav__link:hover {
+.pagination-nav__link:hover,
+.pagination-nav__link:focus-visible {
   border: 2px solid var(--ifm-menu-color-background-active);
   background-color: var(--ifm-menu-color-background-active);
+}
+
+.pagination-nav__link:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
 }
 
 .pagination-nav__sublabel {
@@ -264,67 +269,4 @@ table {
 
 .math {
   overflow-x: scroll;
-}
-
-/* Custom utilities for Tailwind v4 */
-@utility sticky-sidebar {
-  position: sticky;
-  top: var(--sticky-top);
-  max-height: var(--sidebar-max-height);
-  overflow-y: auto;
-}
-
-@utility card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
-  gap: 0.5rem;
-}
-
-/* Text color utilities using Infima variables */
-@utility text-emphasis-strong {
-  color: var(--ifm-color-emphasis-900);
-}
-
-@utility text-emphasis-medium {
-  color: var(--ifm-color-emphasis-700);
-}
-
-@utility text-emphasis-subtle {
-  color: var(--ifm-color-emphasis-400);
-}
-
-@utility text-muted {
-  color: var(--ifm-color-emphasis-700);
-}
-
-@utility text-primary {
-  color: var(--ifm-color-primary);
-}
-
-@utility text-base-color {
-  color: var(--ifm-font-color-base);
-}
-
-/* Background utilities using Infima variables */
-@utility bg-menu-active {
-  background-color: var(--ifm-menu-color-background-active);
-}
-
-/* Border utilities using Infima variables */
-@utility border-menu-active {
-  border-color: var(--ifm-menu-color-background-active);
-}
-
-@utility border-emphasis {
-  border-color: var(--ifm-color-emphasis-200);
-}
-
-/* Border radius utility */
-@utility rounded-theme {
-  border-radius: var(--border-radius);
-}
-
-/* Padding utility */
-@utility p-theme {
-  padding: var(--padding);
 }

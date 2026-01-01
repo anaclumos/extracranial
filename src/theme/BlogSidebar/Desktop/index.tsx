@@ -2,6 +2,7 @@ import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import { cn } from '@site/src/util/cn'
 import type { Props } from '@theme/BlogSidebar/Desktop'
+import styles from './styles.module.css'
 
 export default function BlogSidebarDesktop({ sidebar }: Props) {
   return (
@@ -12,24 +13,19 @@ export default function BlogSidebarDesktop({ sidebar }: Props) {
           message: 'Blog Articles navigation',
           description: 'The ARIA label for Articles in the blog sidebar',
         })}
-        className={cn(
-          'thin-scrollbar',
-          'sticky-sidebar rounded-theme px-10 py-7 pr-7 text-end opacity-10 transition-opacity duration-200 hover:opacity-100 max-lg:hidden'
-        )}
+        className={cn('thin-scrollbar', styles.sidebar)}
       >
-        <div className={cn('mx-3 mb-4 font-bold text-xl')}>{sidebar.title}</div>
-        <ul className={cn('clean-list', 'text-balance text-base')}>
+        <div className={styles.sidebarItemTitle}>{sidebar.title}</div>
+        <ul className={cn('clean-list', styles.sidebarItemList)}>
           {sidebar.items.map((item) => (
             <Link
-              activeClassName="!text-primary !grayscale-0"
-              className="block text-base-color grayscale transition-[filter] duration-200 hover:text-base-color hover:no-underline hover:grayscale-0"
+              activeClassName={styles.sidebarItemLinkActive}
+              className={styles.sidebarItemLink}
               isNavLink
               key={item.permalink}
               to={item.permalink}
             >
-              <li className="rounded-theme p-2 transition-[filter,background-color] duration-200 hover:bg-menu-active hover:grayscale-0">
-                {item.title}
-              </li>
+              <li className={styles.sidebarItem}>{item.title}</li>
             </Link>
           ))}
         </ul>

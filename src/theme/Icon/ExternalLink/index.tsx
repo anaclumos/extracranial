@@ -1,5 +1,6 @@
 import type { JSX } from 'react'
+import styles from './styles.module.css'
 
 export default function IconExternalLink(): JSX.Element {
-  return <span className="after:text-[0.8em] after:content-['↗']" />
+  return <span aria-hidden="true" className={styles.iconExternalLink} />
 }

@@ -3,6 +3,7 @@ import { cn } from '@site/src/util/cn'
 import type { Props } from '@theme/DocPaginator'
 import PaginatorNavLink from '@theme/PaginatorNavLink'
 import type { JSX } from 'react'
+import styles from './styles.module.css'
 
 export default function DocPaginator(props: Props): JSX.Element {
   const { previous, next } = props
@@ -13,7 +14,7 @@ export default function DocPaginator(props: Props): JSX.Element {
         message: 'Docs pages navigation',
         description: 'The ARIA label for the docs pagination',
       })}
-      className={cn('pagination-nav', 'my-6 first:-mt-6 first:border-0')}
+      className={cn('pagination-nav', styles.docPaginator)}
     >
       {previous && (
         <PaginatorNavLink

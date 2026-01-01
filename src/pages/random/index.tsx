@@ -2,6 +2,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly'
 import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
+import styles from './styles.module.css'
 
 const RandomUrl = () => {
   const { siteConfig } = useDocusaurusContext()
@@ -37,15 +38,18 @@ const RandomUrl = () => {
                 window.location.href = randomUrl
               })
             return (
-              <div className="grid h-dvh place-items-center">
+              <div className={styles.container}>
                 <button
-                  className="grid h-40 w-40 cursor-pointer place-items-center border-none bg-transparent"
+                  aria-label="Navigate to a random page"
+                  className={styles.diceButton}
                   onClick={() => {
                     window.location.href = randomUrl
                   }}
                   type="button"
                 >
-                  <div className="animate-spin text-6xl">🎲</div>
+                  <div aria-hidden="true" className={styles.dice}>
+                    🎲
+                  </div>
                 </button>
               </div>
             )

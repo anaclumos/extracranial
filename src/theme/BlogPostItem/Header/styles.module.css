@@ -1,0 +1,8 @@
+.blog-post-item-header {
+  text-align: center;
+  text-wrap: balance;
+}
+
+.blog-post-item-header-title {
+  font-size: 3rem;
+}

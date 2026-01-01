@@ -25,7 +25,6 @@ export class ErrorBoundary extends Component<
   }
 
   override componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
-    console.error('ErrorBoundary caught an error:', error, errorInfo)
     this.props.onError?.(error, errorInfo)
   }
 
@@ -36,11 +35,28 @@ export class ErrorBoundary extends Component<
       }
 
       return (
-        <div className="rounded border border-red-500 bg-red-50 p-4 dark:bg-red-950">
-          <h3 className="m-0 mb-2 text-red-600 dark:text-red-400">
+        <div
+          style={{
+            padding: '1rem',
+            borderRadius: '0.25rem',
+            border: '1px solid var(--ifm-color-danger)',
+            backgroundColor: 'var(--ifm-color-danger-lightest)',
+          }}
+        >
+          <h3
+            style={{
+              margin: '0 0 0.5rem 0',
+              color: 'var(--ifm-color-danger)',
+            }}
+          >
             Something went wrong
           </h3>
-          <p className="m-0 text-neutral-600 dark:text-neutral-400">
+          <p
+            style={{
+              margin: 0,
+              color: 'var(--ifm-color-emphasis-700)',
+            }}
+          >
             {this.state.error?.message ?? 'An unexpected error occurred'}
           </p>
         </div>

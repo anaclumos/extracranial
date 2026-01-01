@@ -1,6 +1,7 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Giscus from '@giscus/react'
 import { useEffect, useState } from 'react'
+import styles from './styles.module.css'
 
 function getInitialTheme(): 'dark' | 'light' {
   if (typeof window === 'undefined') {
@@ -46,7 +47,7 @@ export default function GiscusComments() {
   }, [])
 
   return (
-    <div className="mt-8">
+    <div className={styles.giscus}>
       <Giscus
         category="General"
         categoryId="DIC_kwDOHh2XA84CPxJo"

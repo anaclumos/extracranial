@@ -40,7 +40,7 @@ const CONTENTS: Content[] = [
   },
   {
     en: 'I am very extroverted. Well, I used to be. I love talking to many intelligent people and making myself the dumbest person in the room. I eventually want to build a product or service based not on hype but on exceptional quality. That makes me look up to my heroes: Jen-Hsun Huang (I love his perserverance), Lisa Tzwu-Fang Su (I love her technological yet messianic leadership), and Guillermo Rauch (I love how he transitioned from a dev with a bold manifesto in 2014 and then transitioned into rectifying the future.).',
-    ko: '저는 매우 외향적인 성격이...었습니다. 그럼에도 여전히 똑똑한 사람들과 대화하고, 제가 그 방에서 가장 부족한 사람으로 느껴지는 상황을 좋아합니다. 언젠가는 요란한 홍보나 허세 대신 진정한 품질로 승부하는 제품이나 서비스를 만들고 싶습니다. 이 목표를 위해 저는 제 롤모델들을 존경합니다. 예를 들어, 젠슨 황(Jen-Hsun Huang)의 끈기, 리사 수(Lisa Tzwu-Fang Su)의 기술적이면서 구원자 같은 리더십, 그리고 기예르모 라우치(Guillermo Rauch)가 2014년의 대담한 개발자에서 미래를 개척하는 경영자로 성장한 모습 등을 통해 많은 영감을 받습니다.',
+    ko: '저는 매우 외향적인 성격이...었습니다. 그럼에도 여전히 똑똒한 사람들과 대화하고, 제가 그 방에서 가장 부족한 사람으로 느껴지는 상황을 좋아합니다. 언젠가는 요란한 홍보나 허세 대신 진정한 품질로 승부하는 제품이나 서비스를 만들고 싶습니다. 이 목표를 위해 저는 제 롤모델들을 존경합니다. 예를 들어, 젠슨 황(Jen-Hsun Huang)의 끈기, 리사 수(Lisa Tzwu-Fang Su)의 기술적이면서 구원자 같은 리더십, 그리고 기예르모 라우치(Guillermo Rauch)가 2014년의 대담한 개발자에서 미래를 개척하는 경영자로 성장한 모습 등을 통해 많은 영감을 받습니다.',
   },
   {
     en: "With everything, I eventually dream of becoming the Medici of Science & Technology. The Medici patronized brilliant people during the changing Renaissance era and revolutionized the art industry. I was deeply moved by the Medici's values - that by mobilizing brilliant people, we can shape a better future. I've decided I want to gather talented individuals to forge the future together. I want to turn my fantasies into reality, pave that path forward, and through this create an ecosystem where people can freely enjoy new adventures.",
@@ -86,7 +86,7 @@ function RandomParagraphs({ strings }: RandomParagraphsProps) {
   return (
     <>
       {selectedStrings.map((str) => (
-        <p className="text-lg" key={str.slice(0, 50)}>
+        <p key={str.slice(0, 50)} style={{ fontSize: '1.125rem' }}>
           {str}
         </p>
       ))}
