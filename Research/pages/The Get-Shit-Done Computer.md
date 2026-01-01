@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/5714DA'
 ---
 
-I've tried 3 months hard, to use my [[Framework Computer]].
+I've tried 3 months hard, to use my Framework Computer.
 
 I used NixOS and GNOME as my daily driver.
 
@@ -16,3 +16,7 @@ It just works.
 It just works.
 
 It simply works.
+
+---
+
+Edit: I'm back at Framework ;)
