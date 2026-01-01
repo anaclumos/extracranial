@@ -74,7 +74,7 @@ Still around 92%, max. Never goes above 95%.
 
 ## Federated Learning
 
-;
+import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <details>
 <summary>Results</summary>>
