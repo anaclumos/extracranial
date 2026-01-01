@@ -337,7 +337,9 @@ async function buildBacklinks(root: string, outDir: string): Promise<void> {
   let fileCount = 0
   let linkCount = 0
 
-  const mdFiles = await findFiles(root, ['.md'])
+  const allMdFiles = await findFiles(root, ['.md'])
+  // Exclude template files from backlink processing
+  const mdFiles = allMdFiles.filter((file) => !file.includes('/templates/'))
 
   for (const file of mdFiles) {
     fileCount++
