@@ -3,7 +3,7 @@ lang: 'ko'
 slug: '/5C159C'
 ---
 
-import YouTube from '@site/src/components/YouTube';
+import YouTube from '@site/src/components/youtube';
 
 - [[Toss]]의 [[Font|글꼴]]
 - [[San Francisco]]와 유사
