@@ -9,7 +9,6 @@ description: '루닛 MLOps 플랫폼 INCL 프론트엔드의 현대적 재개발
 
 import Admonition from '@theme/Admonition'
 import DisplayFlex from "@site/src/components/DisplayFlex"
-import Mermaid from '@theme/Mermaid'
 import { KoreaNetherlandsGlobe } from './korea-netherlands'
 
 최근 가장 많은 노력을 쏟은 것은 루닛에서의 MLOps 업무이다. 첫 직장인 이곳에서 MLOps 플랫폼의 프론트엔드 전체를 현대적으로 재개발을 리드했는데, 결과적으로 성공 반, 실패 반으로 끝났다. 그 이야기를 조심스레 해보려 한다.
@@ -54,8 +53,7 @@ import { KoreaNetherlandsGlobe } from './korea-netherlands'
 - 👎 클라이언트 페칭만 사용하면 속도가 너무 느림.
 - 👎 일부 클라이언트 페치에 체인된 네트워크 콜 최적화로 약간의 속도 향상은 가능하나 큰 차이는 없음
 
-<Mermaid
-  chart="
+```mermaid
 sequenceDiagram
     title 클라이언트 페칭
     autonumber
@@ -71,8 +69,7 @@ sequenceDiagram
     클라이언트->>API2: 페치
     API2->>클라이언트: 신규 데이터
     클라이언트->>클라이언트: UI 렌더
-"
-/>
+```
 
 </details>
 <details>
