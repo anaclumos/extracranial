@@ -22,7 +22,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Fri Jan 2 12:56:07 AM KST 2026
+Fri Jan 2 12:58:52 AM KST 2026
 
 ## Stats
 
@@ -30,13 +30,12 @@ Fri Jan 2 12:56:07 AM KST 2026
 ───────────────────────────────────────────────────────────────────────────────
 Language            Files       Lines    Blanks  Comments       Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown            3,046      77,696    20,843         0     56,853          0
+Markdown            3,048      77,744    20,863         0     56,881          0
 TypeScript             43       2,516       293        36      2,187        153
 JSON                   40      23,025         0         0     23,025          0
 CSS                    24       1,908       299        38      1,571          0
 SVG                     9           9         0         0          9          0
 YAML                    6          35         0         0         35          0
-MDX                     2          48        20         0         28          0
 TypeScript Typ…         2          12         0         4          8          0
 INI                     1           1         0         0          1          0
 JSONC                   1          28         0         0         28          0
