@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
-type Content = {
+interface Content {
   en: string
   ko: string
 }
 
-const contents: Content[] = [
+const CONTENTS: Content[] = [
   {
     en: 'I consider myself an accelerationist in many fields, albeit the only field I am actively participating in right now is oss/acc (i.e., build more, ship more, talk more open source!) I built and led some successful OSS projects, one even getting me MikeRoweSofted. I feel particularly happy when people send me excellent and mindful thoughts. While oss/acc is the only field I am actively into, I want to expand to nuc/acc, bme/acc, med/acc, and eventually sci/acc. Speaking of med/acc, I am very fortunate to work in the field of my interest. I am working on MLOps for a Medical AI company. Our automation software solves all the medical AI issues. I want to contribute to a better ecosystem by building a competitive global open-market product and potentially open-sourcing them.',
     ko: '저는 여러 분야에서 가속주의(Accelerationist)자입니다. 그중 제일은 오픈소스 가속(oss/acc)입니다. "더 많이 만들고, 더 빨리 내놓고, 더 많이 대화하자"는 철학입니다. 저는 수십만 유저를 가진 오픈소스 프로젝트를 여럿 이끌었으며, 그중 하나는 마이크로소프트에게서 연락을 받는 경험도 했습니다. 새로운 사람들과 멋진 소통을 받고 생각을 교류하는 순간에 가장 큰 행복을 느낍니다. 비록 지금은 소프트웨어에만 주력하고 있지만, 언젠가는 원자력(nuc/acc), 생명공학(bme/acc), 의료기술(med/acc), 그리고 나아가 과학(sci/acc) 분야로도 확장해보고 싶습니다. med/acc 이야기가 나와서 말인데, 저는 운좋게도 관심 있는 영역에서 일하고 있습니다. 현재 의료AI 회사에서 MLOps를 담당하고 있습니다. 제 팀은 다양한 의료 AI 훈련의 어려움을 해결하는 플랫폼을 만듭니다. 궁극적으로 경쟁력 있는 세계적 제품을 만들어내고, 가능하다면 이를 오픈소스로 공개하여 더욱 나은 생태계를 구축하고 싶습니다.',
@@ -48,22 +48,30 @@ const contents: Content[] = [
   },
 ]
 
-const RandomParagraphs = ({ strings = [] }) => {
-  const [selectedStrings, setSelectedStrings] = useState([])
+interface RandomParagraphsProps {
+  strings: string[]
+}
+
+function RandomParagraphs({ strings }: RandomParagraphsProps) {
+  const [selectedStrings, setSelectedStrings] = useState<string[]>([])
 
   useEffect(() => {
     if (strings.length >= 3) {
       const arrayCopy = [...strings]
-      const selected = []
+      const selected: string[] = []
+
       for (let i = 0; i < 3; i++) {
         const randomIndex = Math.floor(Math.random() * arrayCopy.length)
-        selected.push(arrayCopy.splice(randomIndex, 1)[0])
+        const item = arrayCopy.splice(randomIndex, 1)[0]
+        if (item) selected.push(item)
       }
 
       // Fisher-Yates shuffle algorithm
       for (let i = selected.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1))
-        ;[selected[i], selected[j]] = [selected[j], selected[i]]
+        const temp = selected[i]
+        selected[i] = selected[j]!
+        selected[j] = temp!
       }
 
       setSelectedStrings(selected)
@@ -72,8 +80,8 @@ const RandomParagraphs = ({ strings = [] }) => {
 
   return (
     <>
-      {selectedStrings.map((str, index) => (
-        <p key={index} className="text-lg">
+      {selectedStrings.map((str) => (
+        <p key={str.slice(0, 50)} className="text-lg">
           {str}
         </p>
       ))}
@@ -81,10 +89,10 @@ const RandomParagraphs = ({ strings = [] }) => {
   )
 }
 
-export const EnglishRandomParagraphs = () => {
-  return <RandomParagraphs strings={contents.map((content) => content.en)} />
+export function EnglishRandomParagraphs() {
+  return <RandomParagraphs strings={CONTENTS.map((content) => content.en)} />
 }
 
-export const KoreanRandomParagraphs = () => {
-  return <RandomParagraphs strings={contents.map((content) => content.ko)} />
+export function KoreanRandomParagraphs() {
+  return <RandomParagraphs strings={CONTENTS.map((content) => content.ko)} />
 }

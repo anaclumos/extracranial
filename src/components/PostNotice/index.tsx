@@ -1,87 +1,78 @@
-import React, { JSX } from 'react'
 import { translate } from '@docusaurus/Translate'
 import Admonition from '@theme/Admonition'
-import PostNotice from './PostNotice.module.css'
+import styles from './PostNotice.module.css'
 
-const title = translate({ message: 'Heads Up!' })
+const TRANSLATIONS = {
+  title: translate({ message: 'Heads Up!' }),
+  bulletOneFront: translate({ message: 'I wrote this post more than ' }),
+  bulletOneBackSingular: translate({ message: ' year ago.' }),
+  bulletOneBackPlural: translate({ message: ' years ago.' }),
+  bulletTwo: translate({ message: "That's enough time for things to change." }),
+  bulletThree: translate({ message: 'Possibly, I may not endorse the content anymore.' }),
+  callToAction: translate({ message: 'Google Latest Articles Instead' }),
+} as const
 
-type Props = {
-  metadata: unknown
+interface PostMetadata {
+  date: string
+  title: string
 }
 
-const bulletOneFront = translate({
-  message: 'I wrote this post more than ',
-})
-const bulletOneBackSingular = translate({
-  message: ' year ago.',
-})
-const bulletOneBackPlural = translate({
-  message: ' years ago.',
-})
+interface PostNoticeProps {
+  metadata: PostMetadata
+}
 
-const bulletTwo = translate({
-  message: "That's enough time for things to change.",
-})
+const TWO_YEARS_MS = 365 * 24 * 60 * 60 * 1000 * 2
 
-const bulletThree = translate({
-  message: 'Possibly, I may not endorse the content anymore.',
-})
-
-const translateCallToAction = translate({
-  message: 'Google Latest Articles Instead',
-})
-
-const isOldPost = (date: string) => {
+function isOldPost(date: string): boolean {
   const now = new Date()
   const postDate = new Date(date)
-  if (now.getTime() - postDate.getTime() > 365 * 24 * 60 * 60 * 1000 * 2) {
-    return true
-  }
-  return false
+  return now.getTime() - postDate.getTime() > TWO_YEARS_MS
 }
 
-const howManyYearsAgo = (date: string) => {
+function howManyYearsAgo(date: string): number {
   const now = new Date()
   const postDate = new Date(date)
   const diff = now.getTime() - postDate.getTime()
-  const years = Math.floor(diff / (365 * 24 * 60 * 60 * 1000))
-  return years
+  return Math.floor(diff / (365 * 24 * 60 * 60 * 1000))
 }
 
-const urlify = (text: string) => {
+function urlify(text: string): string {
   return text.replace(/\s/g, '+')
 }
 
-const SearchGoogleButton = (props) => (
-  <a
-    role="button"
-    className={PostNotice.searchGoogleButton}
-    href={`https://www.google.com/search?q=${urlify(props.title)}&tbs=qdr:y`}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    {translateCallToAction}
-  </a>
-)
-
-const index = (props: Props) => {
-  const { metadata } = props
+function SearchGoogleButton({ title }: { title: string }) {
   return (
-    isOldPost(metadata.date) && (
-      <Admonition type="caution" title={title}>
-        <ul>
-          <li>
-            {bulletOneFront}
-            {howManyYearsAgo(metadata.date)}
-            {howManyYearsAgo(metadata.date) > 1 ? bulletOneBackPlural : bulletOneBackSingular}
-          </li>
-          <li>{bulletTwo}</li>
-          <li>{bulletThree}</li>
-        </ul>
-        <SearchGoogleButton title={metadata.title} />
-      </Admonition>
-    )
+    <a
+      role="button"
+      className={styles.searchGoogleButton}
+      href={`https://www.google.com/search?q=${urlify(title)}&tbs=qdr:y`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {TRANSLATIONS.callToAction}
+    </a>
   )
 }
 
-export default index
+export default function PostNotice({ metadata }: PostNoticeProps) {
+  if (!isOldPost(metadata.date)) {
+    return null
+  }
+
+  const yearsAgo = howManyYearsAgo(metadata.date)
+
+  return (
+    <Admonition type="caution" title={TRANSLATIONS.title}>
+      <ul>
+        <li>
+          {TRANSLATIONS.bulletOneFront}
+          {yearsAgo}
+          {yearsAgo > 1 ? TRANSLATIONS.bulletOneBackPlural : TRANSLATIONS.bulletOneBackSingular}
+        </li>
+        <li>{TRANSLATIONS.bulletTwo}</li>
+        <li>{TRANSLATIONS.bulletThree}</li>
+      </ul>
+      <SearchGoogleButton title={metadata.title} />
+    </Admonition>
+  )
+}
