@@ -16,7 +16,6 @@ const config: Config = {
   baseUrl: '/',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
   trailingSlash: false,
@@ -36,6 +35,9 @@ const config: Config = {
   markdown: {
     format: 'mdx',
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
     mdx1Compat: {
       comments: true,
       admonitions: true,
