@@ -1,13 +1,11 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Giscus from '@giscus/react'
 import { useEffect, useState } from 'react'
-import styles from './giscus.module.css'
 
 function getInitialTheme(): 'dark' | 'light' {
   if (typeof window === 'undefined') {
     return 'dark'
   }
-  // Check document theme first, then system preference
   const docTheme = document.documentElement.getAttribute('data-theme')
   if (docTheme) {
     return docTheme === 'dark' ? 'dark' : 'light'
@@ -22,7 +20,6 @@ export default function GiscusComments() {
   const [theme, setTheme] = useState<'dark' | 'light'>(getInitialTheme)
 
   useEffect(() => {
-    // Sync with current document theme on mount
     const currentTheme = document.documentElement.getAttribute('data-theme')
     if (currentTheme) {
       setTheme(currentTheme === 'dark' ? 'dark' : 'light')
@@ -49,7 +46,7 @@ export default function GiscusComments() {
   }, [])
 
   return (
-    <div className={styles.giscus}>
+    <div className="mt-8">
       <Giscus
         category="General"
         categoryId="DIC_kwDOHh2XA84CPxJo"

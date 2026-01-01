@@ -1,13 +1,11 @@
 import Translate from '@docusaurus/Translate'
-import { cn } from '@site/src/util/cn'
 import type { Props } from '@theme/EditThisPage'
 import type { JSX } from 'react'
-import styles from './styles.module.css'
 
 export default function EditThisPage({ editUrl }: Props): JSX.Element {
   return (
     <a
-      className={cn('ThemeClassNames.common.editThisPage', styles.editThisPage)}
+      className="mb-6"
       href={editUrl}
       rel="noreferrer noopener"
       target="_blank"

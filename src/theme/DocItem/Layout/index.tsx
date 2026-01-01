@@ -12,11 +12,7 @@ import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop'
 import DocItemTOCMobile from '@theme/DocItem/TOC/Mobile'
 import DocVersionBadge from '@theme/DocVersionBadge'
 import DocVersionBanner from '@theme/DocVersionBanner'
-import styles from './styles.module.css'
 
-/**
- * Decide if the toc should be rendered, on mobile or desktop viewports
- */
 function useDocTOC() {
   const { frontMatter, toc } = useDoc()
   const windowSize = useWindowSize()
@@ -43,9 +39,9 @@ export default function DocItemLayout({ children }: Props) {
   const docTOC = useDocTOC()
   return (
     <div className="row">
-      <div className={cn('col', !docTOC.hidden && styles.docItemCol)}>
+      <div className={cn('col', !docTOC.hidden && 'lg:max-w-[75%]')}>
         <DocVersionBanner />
-        <div className={styles.docItemContainer}>
+        <div className="max-w-prose max-lg:px-1 [&_article>*:first-child]:mt-0 [&_header+*]:mt-0">
           <article>
             <DocBreadcrumbs />
             <DocVersionBadge />

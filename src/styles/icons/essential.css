@@ -1,0 +1,579 @@
+/* Essential external link icons - curated for cho.sh blog */
+
+/* === GitHub & Git Platforms === */
+article a[href*="github.com"]::before,
+article a[href*="githubusercontent.com"]::before,
+article a[href*="github.blog"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/github.svg");
+}
+
+article a[href*="gitlab.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/gitlab.svg");
+}
+
+/* === Wikipedia === */
+article a[href*="wikipedia.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/wikipedia.svg");
+}
+
+/* === Apple Ecosystem === */
+article a[href*="apple.com"]::before,
+article a[href*="support.apple.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/apple.svg");
+}
+
+article a[href*="apps.apple.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/appstore.svg");
+}
+
+article a[href*="music.apple.com"]::before,
+article a[href*="js-cdn.music.apple.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/applemusic.svg");
+}
+
+/* === Google & Alphabet === */
+article a[href*="google.com/search"]::before,
+article a[href*="about.google"]::before,
+article a[href*="blog.google"]::before,
+article a[href*="googleblog.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/google.svg");
+}
+
+article a[href*="youtube.com"]::before,
+article a[href*="youtu.be"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/youtube.svg");
+}
+
+article a[href*="chrome.google"]::before,
+article a[href*="developer.chrome.com"]::before,
+article a[href*="chromium.org"]::before,
+article a[href*="web.dev"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/googlechrome.svg");
+}
+
+article a[href*="drive.google"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/googledrive.svg");
+}
+
+article a[href*="docs.google.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/googledocs.svg");
+}
+
+article a[href*="colab.research.google"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/googlecolab.svg");
+}
+
+article a[href*="fonts.google"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/googlefonts.svg");
+}
+
+/* === Social Platforms === */
+article a[href*="twitter.com"]::before,
+article a[href*="x.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/x.svg");
+}
+
+article a[href*="linkedin.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/linkedin.svg");
+}
+
+article a[href*="facebook.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/facebook.svg");
+}
+
+article a[href*="instagram.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/instagram.svg");
+}
+
+article a[href*="threads.net"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/threads.svg");
+}
+
+article a[href*="mastodon"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/mastodon.svg");
+}
+
+article a[href*="reddit.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/reddit.svg");
+}
+
+article a[href*="news.ycombinator.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/ycombinator.svg");
+}
+
+article a[href*="discord.com"]::before,
+article a[href*="discord.gg"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/discord.svg");
+}
+
+article a[href*="slack.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/slack.svg");
+}
+
+/* === Developer Platforms === */
+article a[href*="stackoverflow.com"]::before,
+article a[href*="stackexchange.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/stackoverflow.svg");
+}
+
+article a[href*="developer.mozilla.org"]::before,
+article a[href*="mdn.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/mdnwebdocs.svg");
+}
+
+article a[href*="npmjs.com"]::before,
+article a[href*="npm.im"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/npm.svg");
+}
+
+article a[href*="pypi.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/pypi.svg");
+}
+
+article a[href*="crates.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/rust.svg");
+}
+
+article a[href*="codepen.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/codepen.svg");
+}
+
+article a[href*="codesandbox.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/codesandbox.svg");
+}
+
+article a[href*="jsfiddle.net"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/jsfiddle.svg");
+}
+
+article a[href*="glitch.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/glitch.svg");
+}
+
+article a[href*="replit.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/replit.svg");
+}
+
+/* === Blogging & Content === */
+article a[href*="medium.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/medium.svg");
+}
+
+article a[href*="dev.to"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/devdotto.svg");
+}
+
+article a[href*="hashnode.com"]::before,
+article a[href*="hashnode.dev"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/hashnode.svg");
+}
+
+article a[href*="substack.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/substack.svg");
+}
+
+article a[href*="ghost.org"]::before,
+article a[href*="ghost.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/ghost.svg");
+}
+
+/* === Productivity & Design === */
+article a[href*="notion.so"]::before,
+article a[href*="notion.site"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/notion.svg");
+}
+
+article a[href*="figma.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/figma.svg");
+}
+
+article a[href*="framer.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/framer.svg");
+}
+
+article a[href*="canva.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/canva.svg");
+}
+
+article a[href*="miro.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/miro.svg");
+}
+
+article a[href*="linear.app"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/linear.svg");
+}
+
+article a[href*="trello.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/trello.svg");
+}
+
+article a[href*="asana.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/asana.svg");
+}
+
+article a[href*="atlassian.com"]::before,
+article a[href*="jira.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/atlassian.svg");
+}
+
+/* === PKM & Note-taking === */
+article a[href*="obsidian.md"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/obsidian.svg");
+}
+
+article a[href*="logseq.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/logseq.svg");
+}
+
+article a[href*="roamresearch.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/roamresearch.svg");
+}
+
+/* === Hosting & Cloud === */
+article a[href*="vercel.com"]::before,
+article a[href*="vercel.app"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/vercel.svg");
+}
+
+article a[href*="netlify.com"]::before,
+article a[href*="netlify.app"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/netlify.svg");
+}
+
+article a[href*="cloudflare.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/cloudflare.svg");
+}
+
+article a[href*="aws.amazon.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/amazonaws.svg");
+}
+
+article a[href*="azure.microsoft.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/microsoftazure.svg");
+}
+
+article a[href*="cloud.google"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/googlecloud.svg");
+}
+
+article a[href*="heroku.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/heroku.svg");
+}
+
+article a[href*="railway.app"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/railway.svg");
+}
+
+article a[href*="render.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/render.svg");
+}
+
+article a[href*="fly.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/flydotio.svg");
+}
+
+article a[href*="supabase.com"]::before,
+article a[href*="supabase.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/supabase.svg");
+}
+
+article a[href*="planetscale.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/planetscale.svg");
+}
+
+/* === Tech Companies === */
+article a[href*="microsoft.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/microsoft.svg");
+}
+
+article a[href*="amazon.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/amazon.svg");
+}
+
+article a[href*="netflix.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/netflix.svg");
+}
+
+article a[href*="spotify.com"]::before,
+article a[href*="developer.spotify.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/spotify.svg");
+}
+
+article a[href*="starlink.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/starlink.svg");
+}
+
+article a[href*="tesla.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/tesla.svg");
+}
+
+article a[href*="openai.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/openai.svg");
+}
+
+article a[href*="anthropic.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/anthropic.svg");
+}
+
+article a[href*="huggingface.co"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/huggingface.svg");
+}
+
+/* === Frameworks & Libraries === */
+article a[href*="react.dev"]::before,
+article a[href*="reactjs.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/react.svg");
+}
+
+article a[href*="nextjs.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/nextdotjs.svg");
+}
+
+article a[href*="vuejs.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/vuedotjs.svg");
+}
+
+article a[href*="svelte.dev"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/svelte.svg");
+}
+
+article a[href*="angular.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/angular.svg");
+}
+
+article a[href*="astro.build"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/astro.svg");
+}
+
+article a[href*="solidjs.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/solid.svg");
+}
+
+article a[href*="tailwindcss.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/tailwindcss.svg");
+}
+
+article a[href*="nodejs.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/nodedotjs.svg");
+}
+
+article a[href*="deno.land"]::before,
+article a[href*="deno.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/deno.svg");
+}
+
+article a[href*="bun.sh"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/bun.svg");
+}
+
+article a[href*="typescriptlang.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/typescript.svg");
+}
+
+article a[href*="rust-lang.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/rust.svg");
+}
+
+article a[href*="golang.org"]::before,
+article a[href*="go.dev"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/go.svg");
+}
+
+article a[href*="python.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/python.svg");
+}
+
+article a[href*="webpack.js.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/webpack.svg");
+}
+
+article a[href*="vitejs.dev"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/vite.svg");
+}
+
+article a[href*="esbuild.github.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/esbuild.svg");
+}
+
+article a[href*="turbo.build"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/turborepo.svg");
+}
+
+article a[href*="graphql.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/graphql.svg");
+}
+
+article a[href*="docker.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/docker.svg");
+}
+
+article a[href*="kubernetes.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/kubernetes.svg");
+}
+
+/* === Korean Platforms === */
+article a[href*="naver.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/naver.svg");
+}
+
+article a[href*="kakao.com"]::before,
+article a[href*="kakaocorp.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/kakao.svg");
+}
+
+article a[href*="toss.im"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/toss.svg");
+}
+
+article a[href*="velog.io"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/velog.svg");
+}
+
+article a[href*="tistory.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/tistory.svg");
+}
+
+/* === Presentations === */
+article a[href*="slideshare.net"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/slideshare.svg");
+}
+
+article a[href*="speakerdeck.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/speakerdeck.svg");
+}
+
+/* === Other Popular Sites === */
+article a[href*="producthunt.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/producthunt.svg");
+}
+
+article a[href*="dribbble.com"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/dribbble.svg");
+}
+
+article a[href*="behance.net"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/behance.svg");
+}
+
+article a[href*="arxiv.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/arxiv.svg");
+}
+
+article a[href*="w3.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/w3c.svg");
+}
+
+article a[href*="ietf.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/ietf.svg");
+}
+
+article a[href*="archive.org"]::before {
+  content: "\00a0";
+  mask-image: url("https://simpleicons.org/icons/internetarchive.svg");
+}

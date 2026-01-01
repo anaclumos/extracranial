@@ -63,6 +63,7 @@ const config: Config = {
   ],
 
   plugins: [
+    './src/plugins/tailwind-plugin.ts',
     [
       'vercel-analytics',
       {
