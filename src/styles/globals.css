@@ -105,6 +105,12 @@ code {
   }
 }
 
+@media (width >= 997px) {
+  .col.docItemCol {
+    max-width: 75% !important;
+  }
+}
+
 h1,
 h2,
 h3,
